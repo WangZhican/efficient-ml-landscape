@@ -1,73 +1,192 @@
-# Efficient ML Landscape
+<div align="center">
 
-A curated, continuously maintained research map for Efficient ML / AI Infrastructure, with a focus on influential work from 2024 to the present and a small number of earlier canonical papers when necessary.
+# ⚡ Efficient ML Landscape
 
-> Public repository policy: **no paper PDFs are stored here**. Each paper record links to the primary paper source and, when available, the official code/project repository.
+### A curated research atlas for **Efficient ML · AI Infrastructure · Physical AI**
 
-## Scope
+<p>
+  <a href="README.zh-CN.md"><b>中文</b></a>
+  ·
+  <a href="docs/METHODOLOGY.md">Methodology</a>
+  ·
+  <a href="papers/README.md">Research Map</a>
+  ·
+  <a href="groups/README.md">Groups</a>
+  ·
+  <a href="venues/README.md">Venues</a>
+</p>
 
-The repository tracks 15 major research directions:
+<p>
+  <img src="https://img.shields.io/badge/Research%20Tracks-15-2563eb?style=for-the-badge" alt="15 research tracks" />
+  <img src="https://img.shields.io/badge/Papers-Quality--Gated-7c3aed?style=for-the-badge" alt="Quality-gated papers" />
+  <img src="https://img.shields.io/badge/PDFs-Links%20Only-059669?style=for-the-badge" alt="Links only" />
+  <img src="https://img.shields.io/badge/Physical%20AI-Protected-f59e0b?style=for-the-badge" alt="Physical AI protected" />
+</p>
 
-1. LLM serving
-2. Speculative decoding
-3. KV cache / long-context systems
-4. Quantization
-5. Sparsity / pruning
-6. Efficient attention
-7. MoE systems / accelerators
-8. GPU kernels / DSLs / compilers
-9. Distributed training / inference
-10. Multimodal / MLLM serving
-11. Video / image generation acceleration
-12. Diffusion / flow acceleration
-13. Efficient reasoning / agent systems
-14. VLA / WAM / Physical AI serving
-15. Edge / cloud / heterogeneous AI systems
+<p>
+  <img src="https://img.shields.io/github/stars/WangZhican/efficient-ml-landscape?style=flat-square" alt="GitHub stars" />
+  <img src="https://img.shields.io/github/last-commit/WangZhican/efficient-ml-landscape?style=flat-square" alt="Last commit" />
+  <img src="https://img.shields.io/github/repo-size/WangZhican/efficient-ml-landscape?style=flat-square" alt="Repo size" />
+</p>
 
-## Repository Layout
+**Influential papers, technical lineages, major research groups, systems venues, official repositories, and auditable coverage — in one place.**
 
-- `papers/` — direction-by-direction research maps and curated paper lists
-- `groups/` — major research-group and company ecosystems
-- `venues/` — venue/source census and systematic coverage map
-- `data/` — normalized machine-readable paper/group/venue metadata
-- `docs/` — methodology, inclusion policy, audit rules, and update notes
-- `scripts/` — exporters/validators used to keep Markdown and structured data synchronized
+</div>
 
-## Paper Record
+---
 
-Each retained paper should expose, whenever available:
+## ✨ What makes this different?
 
-- title
-- authors
-- year / venue
-- direction and sub-direction
-- technical role in the research roadmap
-- concise contribution summary
-- primary paper link
-- official repository / project link
-- open-source status
-- GitHub stars when meaningful and verifiable
-- influence / recommendation tier
-- relationship to predecessor and follow-up work
+This is **not a flat awesome-list** and not a paper dump. The goal is to reconstruct the field as a navigable research graph:
 
-A paper may intentionally appear in multiple directions when it plays a different technical role in each roadmap.
+> **problem → technical route → canonical paper → follow-up lineage → systems impact → open-source adoption**
 
-## Selection Principles
+Every retained work is quality-gated. There is **no fixed paper-count quota**. When technical value is comparable, official open source, stronger community adoption, and higher GitHub stars receive additional weight.
 
-There is **no fixed paper-count quota**. Papers are retained based on technical contribution, influence, relevance, route value, and first-party evidence. When contributions are comparable, open-source work, official implementations, broader community adoption, and higher GitHub-star counts receive additional weight.
+> [!NOTE]
+> **No paper PDFs are stored in this public repository.** Paper entries link to primary sources such as arXiv, official proceedings, DOI pages, and author/project pages, plus the official code repository when available.
 
-## Coverage and Audit
+---
 
-The database is maintained with explicit freshness, venue, major-group, and citation-neighborhood audits. `SEARCHED`, `COVERED`, and `SATURATED` are treated as different states. Saturation is only claimed after systematic zero-new confirmation rounds; a large paper count alone is not considered sufficient evidence of coverage.
+## 🧭 Research Atlas
 
-## Physical AI
+<table>
+<tr>
+<td width="33%" valign="top">
 
-Physical AI is a protected direction rather than a small subcategory. It explicitly covers VLA/WAM serving, cache/quantization/sparsity, action-head/flow/diffusion inference, streaming agents, cloud-edge execution, and runtime/infrastructure co-design.
+### 🖥️ Serving & Runtime
+- LLM Serving
+- Speculative Decoding
+- KV Cache / Long Context
+- Multimodal / MLLM Serving
+- Edge / Cloud / Heterogeneous AI
 
-## Status
+</td>
+<td width="33%" valign="top">
 
-The repository is being bootstrapped from an actively maintained internal literature census. Public-facing records will be synchronized only after identifier deduplication and source validation.
+### 🧠 Model Efficiency
+- Quantization
+- Sparsity / Pruning
+- Efficient Attention
+- MoE Systems / Accelerators
+- Efficient Reasoning / Agents
 
-## Citation / Contribution
+</td>
+<td width="33%" valign="top">
 
-Contribution and citation instructions will be added after the first public release is stabilized.
+### ⚙️ Systems & Generation
+- GPU Kernel / DSL / Compiler
+- Distributed Training / Inference
+- Video / Image Generation
+- Diffusion / Flow Acceleration
+- VLA / WAM / Physical AI
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+### **15 directions · one connected research map**
+
+[**Explore the research map →**](papers/README.md)
+
+</div>
+
+---
+
+## 🤖 Physical AI is a first-class track
+
+Physical AI is intentionally protected from being buried inside a generic multimodal category. The map explicitly follows:
+
+`VLA / WAM serving` · `cache / quant / sparsity` · `action-head / flow / diffusion` · `streaming agents` · `cloud-edge execution` · `runtime / infrastructure co-design`
+
+The emphasis is not only on model algorithms, but also on **serving, runtime, scheduling, heterogeneous deployment, state reuse, real-time control loops, and hardware-aware execution**.
+
+---
+
+## 📚 What each paper record contains
+
+| Field | What you get |
+|---|---|
+| **Paper** | Title, authors, year, venue |
+| **Research role** | Direction, sub-direction, and technical position in the roadmap |
+| **Why it matters** | Concise contribution and influence summary |
+| **Primary source** | arXiv / official proceedings / DOI / official project page |
+| **Code** | Official repository or project implementation when available |
+| **Open source** | Code / model / runtime availability |
+| **Adoption** | GitHub stars when meaningful and timestamped |
+| **Priority** | Canonical / must-read / important / watch |
+| **Lineage** | Predecessors, follow-ups, and competing routes |
+
+A major paper may intentionally appear in multiple directions when it plays a genuinely different technical role in each roadmap.
+
+---
+
+## 🗺️ Repository map
+
+| Area | Purpose |
+|---|---|
+| [`papers/`](papers/README.md) | Direction-by-direction research roadmaps and curated papers |
+| [`groups/`](groups/README.md) | Major academic labs, companies, startups, and OSS ecosystems |
+| [`venues/`](venues/README.md) | Venue/source census and systematic coverage map |
+| [`data/`](data/README.md) | Machine-readable public metadata |
+| [`docs/`](docs/) | Methodology, audit rules, roadmap notes, and changelog |
+| `scripts/` | Exporters, validators, and metadata synchronization tools |
+
+---
+
+## 🔎 Selection philosophy
+
+We optimize for **research value rather than list size**.
+
+**Prefer**
+
+- technically original and influential work;
+- systems / architecture / deployment relevance;
+- official open-source code, models, or runtimes;
+- strong adoption and meaningful GitHub-star signal;
+- papers that create, redirect, or consolidate an important research route;
+- first-party evidence.
+
+**Avoid**
+
+- quota-driven padding;
+- duplicate records with no distinct technical role;
+- third-party repositories presented as official implementations;
+- weak keyword matches with little Efficient-ML relevance;
+- claiming coverage simply because a source was visited once.
+
+---
+
+## ✅ Coverage is audited, not assumed
+
+<div align="center">
+
+### `SEARCHED  ≠  COVERED  ≠  SATURATED`
+
+</div>
+
+The underlying census tracks freshness windows, venue coverage, major-group coverage, historical recall, and canonical citation neighborhoods. Saturation is only claimed after systematic **zero-new confirmation rounds**; a large paper count by itself is not evidence that the map is complete.
+
+Read the full methodology: **[docs/METHODOLOGY.md](docs/METHODOLOGY.md)**.
+
+---
+
+## 🚧 Current phase
+
+The public repository is being bootstrapped from a continuously maintained internal literature census. Records enter the public view only after:
+
+**identifier deduplication → primary-source validation → technical classification → repo/project verification → public export**
+
+This keeps the public-facing map cleaner than the raw discovery stream.
+
+---
+
+<div align="center">
+
+### 🌟 Built for researchers who want the **map**, not just the papers.
+
+If this repository helps your research, consider starring it so you can find the latest updates easily.
+
+</div>
