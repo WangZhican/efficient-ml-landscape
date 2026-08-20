@@ -6443,6 +6443,23 @@
     ]
   },
   {
+    "title": "Compile-Time QoS Scheme for Deep Learning Inferences",
+    "venue": "SC 2025",
+    "topic": "multi-tenant inference / QoS / compiler scheduling",
+    "arxiv": "",
+    "doi": "10.1145/3712285.3759846",
+    "official_id": "10.1145/3712285.3759846",
+    "paper_url": "https://doi.org/10.1145/3712285.3759846",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "QoSlicer uses compile-time kernel slicing plans plus performance estimation to reduce online scheduling burden for multi-tenant inference; SC25 reports 20.2% average throughput improvement across 75 workload combinations.",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "Engine-Agnostic Model Hot-Swapping for Cost-Effective LLM Inference",
     "venue": "SC 2025",
     "topic": "LLM serving / GPU model hot-swapping",
@@ -6474,6 +6491,43 @@
     "directions": [
       "LLM Serving",
       "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "gLLM: Global Balanced Pipeline Parallelism Systems for Distributed LLMs Serving with Token Throttling",
+    "venue": "SC 2025",
+    "topic": "LLM serving / pipeline parallelism / token throttling",
+    "arxiv": "2504.14775",
+    "doi": "10.1145/3712285.3759823",
+    "official_id": "10.1145/3712285.3759823",
+    "paper_url": "https://arxiv.org/abs/2504.14775",
+    "code_url": "https://github.com/gty111/gLLM",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Globally balanced pipeline-parallel LLM serving with token throttling and asynchronous runtime; SC25 reports 11%-398% higher maximum throughput than pipeline/tensor-parallel baselines while maintaining lower latency.",
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "Hetis: Serving LLMs in Heterogeneous GPU Clusters with Fine-grained and Dynamic Parallelism",
+    "venue": "SC 2025",
+    "topic": "LLM serving / heterogeneous GPU / dynamic parallelism",
+    "arxiv": "2509.08309",
+    "doi": "",
+    "official_id": "arXiv:2509.08309",
+    "paper_url": "https://arxiv.org/abs/2509.08309",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Fine-grained dynamic parallelism for heterogeneous GPU clusters, including head-granular attention placement and online dispatch; reports up to 2.25x throughput and 1.49x latency improvement.",
+    "directions": [
+      "LLM Serving",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -6509,6 +6563,22 @@
     "why": "SC25 HMEM; RecMG reduces on-demand fetches up to 2.8x and end-to-end industrial-scale DLRM inference time up to 43%.",
     "directions": [
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "MaverIQ: Fingerprint-Guided Extrapolation and Fragmentation-Aware Layering for Intent-Based LLM Serving",
+    "venue": "SC 2025",
+    "topic": "LLM serving / intent-aware deployment / resource fragmentation",
+    "arxiv": "",
+    "doi": "10.1145/3712285.3759867",
+    "official_id": "10.1145/3712285.3759867",
+    "paper_url": "https://doi.org/10.1145/3712285.3759867",
+    "code_url": "https://github.com/UT-SysML/MaverIQ",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Intent-based LLM deployment configuration selection using lightweight fingerprints and fragmentation-aware uneven layer placement; SC25 reports 7-15x lower profiling cost and 3.8-8.3x lower provider operational cost.",
+    "directions": [
+      "LLM Serving"
     ]
   },
   {
