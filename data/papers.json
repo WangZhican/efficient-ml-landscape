@@ -4143,6 +4143,22 @@
     ]
   },
   {
+    "title": "Accurate Sublayer Pruning for Large Language Models by Exploiting Latency and Tunability Information",
+    "venue": "IJCAI 2025",
+    "topic": "LLM sublayer pruning / latency-aware inference acceleration",
+    "arxiv": "2506.03510",
+    "doi": "10.24963/ijcai.2025/913",
+    "official_id": "IJCAI-2025-913",
+    "paper_url": "https://arxiv.org/abs/2506.03510",
+    "code_url": "https://github.com/snudm-starlab/SPRINT",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "SPRINT jointly uses latency reduction and tunability to select sublayers; IJCAI reports the strongest accuracy-speedup trade-off among compared pruning methods.",
+    "directions": [
+      "Sparsity / Pruning"
+    ]
+  },
+  {
     "title": "FBQuant: FeedBack Quantization for Large Language Models",
     "venue": "IJCAI 2025",
     "topic": "LLM weight quantization / CUDA kernel",
@@ -4173,6 +4189,22 @@
     "why": "Low-bit LLM PTQ with mixed supervision, proxy adaptive rounding and clipping pre-search; official IJCAI result improves W4A4 perplexity over prior methods.",
     "directions": [
       "Quantization"
+    ]
+  },
+  {
+    "title": "Not All Layers of LLMs Are Necessary During Inference",
+    "venue": "IJCAI 2025",
+    "topic": "adaptive early-exit / dynamic-depth LLM inference",
+    "arxiv": "2403.02181",
+    "doi": "10.24963/ijcai.2025/566",
+    "official_id": "IJCAI-2025-566",
+    "paper_url": "https://arxiv.org/abs/2403.02181",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "AdaInfer adaptively terminates at intermediate layers using lightweight predictors; IJCAI reports 17.8% average pruning and up to 43% with <1% performance drop.",
+    "directions": [
+      "Sparsity / Pruning"
     ]
   },
   {
@@ -4208,6 +4240,22 @@
     "directions": [
       "LLM Serving",
       "Speculative Decoding"
+    ]
+  },
+  {
+    "title": "TreeKV: Smooth Key-Value Cache Compression with Tree Structures",
+    "venue": "IJCAI 2025",
+    "topic": "KV cache compression / long-context inference",
+    "arxiv": "2501.04987",
+    "doi": "10.24963/ijcai.2025/899",
+    "official_id": "IJCAI-2025-899",
+    "paper_url": "https://arxiv.org/abs/2501.04987",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Training-free tree-structured KV compression; IJCAI reports 16x cache reduction and best LongBench performance at 6% budget.",
+    "directions": [
+      "KV Cache / Long Context"
     ]
   },
   {

@@ -1,6 +1,6 @@
 # 🧭 Research Map
 
-> **511 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
+> **514 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
 
 <div align="center">
 
@@ -14,9 +14,9 @@
 |---:|---|---:|
 | 01 | [**LLM Serving**](01-llm-serving.md) | **199** |
 | 02 | [**Speculative Decoding**](02-speculative-decoding.md) | **82** |
-| 03 | [**KV Cache / Long Context**](03-kv-cache-long-context.md) | **141** |
+| 03 | [**KV Cache / Long Context**](03-kv-cache-long-context.md) | **142** |
 | 04 | [**Quantization**](04-quantization.md) | **67** |
-| 05 | [**Sparsity / Pruning**](05-sparsity-pruning.md) | **63** |
+| 05 | [**Sparsity / Pruning**](05-sparsity-pruning.md) | **65** |
 | 06 | [**Efficient Attention**](06-efficient-attention.md) | **63** |
 | 07 | [**MoE Systems / Accelerators**](07-moe-systems.md) | **52** |
 | 08 | [**GPU Kernel / DSL / Compiler**](08-gpu-kernel-compiler.md) | **182** |
