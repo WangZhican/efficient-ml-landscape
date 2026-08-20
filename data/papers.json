@@ -2821,6 +2821,97 @@
     ]
   },
   {
+    "title": "DefensiveKV: Taming the Fragility of KV Cache Eviction in LLM Inference",
+    "venue": "ICLR 2026",
+    "topic": "KV cache eviction / robust aggregation",
+    "arxiv": "2510.13334",
+    "doi": "",
+    "official_id": "ICLR2026-2510.13334",
+    "paper_url": "https://arxiv.org/abs/2510.13334",
+    "code_url": "https://github.com/FFY0/DefensiveKV",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICLR 2026 Poster. Reframes KV eviction around worst-case fragility and defensive aggregation; reports 2.3x/4.3x lower quality loss for DefensiveKV/Layer-DefensiveKV at 20% cache budget.",
+    "directions": [
+      "KV Cache / Long Context"
+    ]
+  },
+  {
+    "title": "Fast-dLLM v2: Efficient Block-Diffusion LLM",
+    "venue": "ICLR 2026",
+    "topic": "diffusion LLM inference / block diffusion / hierarchical caching",
+    "arxiv": "2509.26328",
+    "doi": "",
+    "official_id": "ICLR2026-2509.26328",
+    "paper_url": "https://arxiv.org/abs/2509.26328",
+    "code_url": "https://github.com/NVlabs/Fast-dLLM",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICLR 2026 Poster. Extends Fast-dLLM into an efficient block-diffusion LLM with hierarchical caching and block-wise generation; official NVlabs project/repository confirms the accepted ICLR 2026 system.",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Diffusion / Flow Acceleration",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Fast-dLLM: Training-free Acceleration of Diffusion LLM by Enabling KV Cache and Parallel Decoding",
+    "venue": "ICLR 2026",
+    "topic": "diffusion LLM inference / KV cache / parallel decoding",
+    "arxiv": "2505.22618",
+    "doi": "",
+    "official_id": "ICLR2026-2505.22618",
+    "paper_url": "https://arxiv.org/abs/2505.22618",
+    "code_url": "https://github.com/NVlabs/Fast-dLLM",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICLR 2026 Poster. Training-free block-wise approximate KV cache plus confidence-aware parallel decoding; official project reports large throughput gains and practical diffusion-LLM acceleration.",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "KV Cache / Long Context",
+      "GPU Kernel / DSL / Compiler",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "FreeKV: Boosting KV Cache Retrieval for Efficient LLM Inference",
+    "venue": "ICLR 2026",
+    "topic": "KV cache retrieval / CPU-GPU hybrid memory / long-context inference",
+    "arxiv": "2505.13109",
+    "doi": "",
+    "official_id": "ICLR2026-2505.13109",
+    "paper_url": "https://arxiv.org/abs/2505.13109",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICLR 2026 Poster. Algorithm-system co-design with speculative retrieval, fine-grained correction, hybrid CPU/GPU layouts and double-buffered streamed recall; reports up to 13x speedup over prior KV retrieval methods.",
+    "directions": [
+      "Speculative Decoding",
+      "KV Cache / Long Context",
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "ICaRus: Identical Cache Reuse for Efficient Multi-Model Inference",
+    "venue": "ICLR 2026",
+    "topic": "multi-model LLM serving / cross-model KV cache reuse",
+    "arxiv": "2603.13281",
+    "doi": "",
+    "official_id": "ICLR2026-2603.13281",
+    "paper_url": "https://arxiv.org/abs/2603.13281",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICLR 2026 Poster. Shares identical KV caches across specialized models; official ICLR proceedings reports up to 11.1x lower P95 latency and 3.8x higher throughput in 8-model multi-agent scenarios.",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "Inference-Cost-Aware Dynamic Tree Construction for Efficient Inference in Large Language Models",
     "venue": "ICLR 2026",
     "topic": "speculative decoding / hardware-aware tree construction",
