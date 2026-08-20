@@ -1146,6 +1146,24 @@
     ]
   },
   {
+    "title": "Adaptive Spectral Feature Forecasting for Diffusion Sampling Acceleration",
+    "venue": "CVPR 2026",
+    "topic": "diffusion/video generation acceleration / spectral feature forecasting / long-range reuse",
+    "arxiv": "2603.01623",
+    "doi": "",
+    "official_id": "https://openaccess.thecvf.com/content/CVPR2026/html/Han_Adaptive_Spectral_Feature_Forecasting_for_Diffusion_Sampling_Acceleration_CVPR_2026_paper.html",
+    "paper_url": "https://arxiv.org/abs/2603.01623",
+    "code_url": "https://github.com/hanjq17/Spectrum",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Training-free Chebyshev spectral forecasting enables long-range feature reuse; reports up to 4.79x FLUX.1 and 4.67x Wan2.1-14B speedup.",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "D2Cache: Second-Order Delta Caching for Higher Video Diffusion Acceleration",
     "venue": "CVPR 2026",
     "topic": "video diffusion / second-order caching",
@@ -1329,6 +1347,24 @@
     "decision": "BACKFILL_HIGH",
     "why": "",
     "directions": [
+      "Sparsity / Pruning",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
+    "title": "ZOO-Prune: Training-Free Token Pruning via Zeroth-Order Gradient Estimation in Vision-Language Models",
+    "venue": "CVPR 2026",
+    "topic": "VLM inference / training-free visual-token pruning / zeroth-order sensitivity",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "https://openaccess.thecvf.com/content/CVPR2026/html/Kim_ZOO-Prune_Training-Free_Token_Pruning_via_Zeroth-Order_Gradient_Estimation_in_Vision-Language_CVPR_2026_paper.html",
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Kim_ZOO-Prune_Training-Free_Token_Pruning_via_Zeroth-Order_Gradient_Estimation_in_Vision-Language_Models_CVPR_2026_paper.pdf",
+    "code_url": "https://github.com/AIM-SKKU/ZOO-Prune",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Training-free zeroth-order token-sensitivity pruning; CVPR reports up to 94.4% token pruning and 2.30x end-to-end speedup while preserving accuracy.",
+    "directions": [
+      "LLM Serving",
       "Sparsity / Pruning",
       "Multimodal / MLLM Serving"
     ]
