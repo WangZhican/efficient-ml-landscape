@@ -1,6 +1,6 @@
 # 📚 Complete Paper List
 
-> **488 quality-gated papers** exported from the validated canonical literature census. PDF binaries are not stored here; links point to primary paper sources whenever resolved.
+> **493 quality-gated papers** exported from the validated canonical literature census. PDF binaries are not stored here; links point to primary paper sources whenever resolved.
 
 [← Research Map](README.md) · [Machine-readable JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -289,6 +289,28 @@
 | **TokenSelect: Efficient Long-Context Inference and Length Extrapolation for LLMs via Dynamic Token-Level KV Cache Selection** | EMNLP 2025 | long-context inference / KV selection / sparse attention | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.1079) | — |
 | **XQuant: Achieving Ultra-Low Bit KV Cache Quantization with Cross-Layer Compression** | EMNLP 2025 | KV cache quantization / long-context inference | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.494) | — |
 
+## SOSP 2025 · 17
+
+| Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|
+| **Aegaeon: Effective GPU Pooling for Concurrent LLM Serving on the Market** | SOSP 2025 | LLM serving / KV / GPU systems | — | — |
+| **Characterizing Mobile SoC for Accelerating Heterogeneous LLM Inference** | SOSP 2025 | on-device LLM inference / heterogeneous GPU-NPU mobile SoC | [Link](https://arxiv.org/abs/2501.14794) | — |
+| **DCP: Addressing Input Dynamism In Long-Context Training via Dynamic Context Parallelism** | SOSP 2025 | long-context LLM training / dynamic context parallelism | [Link](https://arxiv.org/abs/2510.10620) | [Repo](https://github.com/chenyu-jiang/dcp) |
+| **DiffKV: Differentiated Memory Management for Large Language Models with Parallel KV Compaction** | SOSP 2025 | LLM serving / KV / GPU systems | — | — |
+| **HedraRAG: Co-Optimizing Generation and Retrieval for Heterogeneous RAG Workflows** | SOSP 2025 | RAG serving / generation-retrieval co-optimization | [Link](https://doi.org/10.1145/3731569.3764806) | — |
+| **IC-Cache: Efficient Large Language Model Serving via In-context Caching** | SOSP 2025 | LLM serving / KV / GPU systems | — | — |
+| **Jenga: Effective Memory Management for Serving LLM with Heterogeneity** | SOSP 2025 | LLM serving / KV / GPU systems | — | — |
+| **KTransformers: Unleashing the Full Potential of CPU/GPU Hybrid Inference for MoE Models** | SOSP 2025 | LLM serving / KV / GPU systems | — | — |
+| **Mercury: Unlocking Multi-GPU Operator Optimization for LLMs via Remote Memory Scheduling** | SOSP 2025 | LLM serving / KV / GPU systems | — | — |
+| **METIS: Fast Quality-Aware RAG Systems with Configuration Adaptation** | SOSP 2025 | RAG serving / adaptive configuration / scheduling | [Link](https://arxiv.org/abs/2412.10543) | — |
+| **Mycroft: Tracing Dependencies in Collective Communication Towards Reliable LLM Training** | SOSP 2025 | distributed LLM training / collective communication / reliability | [Link](https://arxiv.org/abs/2509.03018) | — |
+| **Pie: A Programmable Serving System for Emerging LLM Applications** | SOSP 2025 | LLM serving / KV / GPU systems | [Link](https://arxiv.org/abs/2510.24051) | — |
+| **PrefillOnly: An Inference Engine for Prefill-only Workloads in Large Language Model Applications** | SOSP 2025 | LLM serving / KV / GPU systems | [Link](https://arxiv.org/abs/2505.07203) | — |
+| **Robust LLM Training Infrastructure at ByteDance** | SOSP 2025 | distributed LLM training / reliability / fault tolerance | [Link](https://arxiv.org/abs/2509.16293) | — |
+| **Sailor: Automating Distributed Training over Dynamic, Heterogeneous, and Geo-distributed Clusters** | SOSP 2025 | distributed training / heterogeneous clusters / geo-distributed systems | [Link](https://arxiv.org/abs/2504.17096) | [Repo](https://github.com/eth-easl/sailor) |
+| **Tempo: Compiled Dynamic Deep Learning with Symbolic Dependence Graphs** | SOSP 2025 | ML compiler / dynamic deep learning | [Link](https://doi.org/10.1145/3731569.3764840) | — |
+| **TrainVerify: Equivalence-Based Verification for Distributed LLM Training** | SOSP 2025 | distributed LLM training / verification / reliability | [Link](https://arxiv.org/abs/2506.15961) | [Repo](https://github.com/microsoft/TrainVerify) |
+
 ## CVPR 2026 · 15
 
 | Paper | Venue | Topic | Paper | Code |
@@ -439,23 +461,6 @@
 | **SCX** | SIGCOMM 2025 | KV encoding + MoE training fabric + long-context training + AI networking/inference | — | — |
 | **SGLB: Scalable and Robust Global Load Balancing in Commodity AI Clusters** | SIGCOMM 2025 | KV encoding + MoE training fabric + long-context training + AI networking/inference | [Link](https://doi.org/10.1145/3718958.3750527) | — |
 | **SyCCL: Exploiting Symmetry for Efficient Collective Communication Scheduling** | SIGCOMM 2025 | distributed ML training / collective communication schedule synthesis | [Link](https://doi.org/10.1145/3718958.3750499) | [Repo](https://github.com/aliyun/syccl) |
-
-## SOSP 2025 · 12
-
-| Paper | Venue | Topic | Paper | Code |
-|---|---|---|---|---|
-| **Aegaeon: Effective GPU Pooling for Concurrent LLM Serving on the Market** | SOSP 2025 | LLM serving / KV / GPU systems | — | — |
-| **Characterizing Mobile SoC for Accelerating Heterogeneous LLM Inference** | SOSP 2025 | on-device LLM inference / heterogeneous GPU-NPU mobile SoC | [Link](https://arxiv.org/abs/2501.14794) | — |
-| **DiffKV: Differentiated Memory Management for Large Language Models with Parallel KV Compaction** | SOSP 2025 | LLM serving / KV / GPU systems | — | — |
-| **HedraRAG: Co-Optimizing Generation and Retrieval for Heterogeneous RAG Workflows** | SOSP 2025 | RAG serving / generation-retrieval co-optimization | [Link](https://doi.org/10.1145/3731569.3764806) | — |
-| **IC-Cache: Efficient Large Language Model Serving via In-context Caching** | SOSP 2025 | LLM serving / KV / GPU systems | — | — |
-| **Jenga: Effective Memory Management for Serving LLM with Heterogeneity** | SOSP 2025 | LLM serving / KV / GPU systems | — | — |
-| **KTransformers: Unleashing the Full Potential of CPU/GPU Hybrid Inference for MoE Models** | SOSP 2025 | LLM serving / KV / GPU systems | — | — |
-| **Mercury: Unlocking Multi-GPU Operator Optimization for LLMs via Remote Memory Scheduling** | SOSP 2025 | LLM serving / KV / GPU systems | — | — |
-| **METIS: Fast Quality-Aware RAG Systems with Configuration Adaptation** | SOSP 2025 | RAG serving / adaptive configuration / scheduling | [Link](https://arxiv.org/abs/2412.10543) | — |
-| **Pie: A Programmable Serving System for Emerging LLM Applications** | SOSP 2025 | LLM serving / KV / GPU systems | [Link](https://arxiv.org/abs/2510.24051) | — |
-| **PrefillOnly: An Inference Engine for Prefill-only Workloads in Large Language Model Applications** | SOSP 2025 | LLM serving / KV / GPU systems | [Link](https://arxiv.org/abs/2505.07203) | — |
-| **Tempo: Compiled Dynamic Deep Learning with Symbolic Dependence Graphs** | SOSP 2025 | ML compiler / dynamic deep learning | [Link](https://doi.org/10.1145/3731569.3764840) | — |
 
 ## ICLR 2026 · 11
 

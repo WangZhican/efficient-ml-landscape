@@ -7063,6 +7063,26 @@
     ]
   },
   {
+    "title": "DCP: Addressing Input Dynamism In Long-Context Training via Dynamic Context Parallelism",
+    "venue": "SOSP 2025",
+    "topic": "long-context LLM training / dynamic context parallelism",
+    "arxiv": "2510.10620",
+    "doi": "10.1145/3731569.3764849",
+    "official_id": "10.1145/3731569.3764849",
+    "paper_url": "https://arxiv.org/abs/2510.10620",
+    "code_url": "https://github.com/chenyu-jiang/dcp",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "SOSP 2025 dynamic blockwise context parallelism adapts to variable sequence lengths/attention sparsity; reports attention speedups up to 2.45x for causal and 3.77x for sparse attention patterns.",
+    "directions": [
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "Distributed Training / Inference",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "DiffKV: Differentiated Memory Management for Large Language Models with Parallel KV Compaction",
     "venue": "SOSP 2025",
     "topic": "LLM serving / KV / GPU systems",
@@ -7184,6 +7204,22 @@
     ]
   },
   {
+    "title": "Mycroft: Tracing Dependencies in Collective Communication Towards Reliable LLM Training",
+    "venue": "SOSP 2025",
+    "topic": "distributed LLM training / collective communication / reliability",
+    "arxiv": "2509.03018",
+    "doi": "10.1145/3731569.3764848",
+    "official_id": "10.1145/3731569.3764848",
+    "paper_url": "https://arxiv.org/abs/2509.03018",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "SOSP 2025 distributed tracing and root-cause analysis for LLM collective communication; deployed at ByteDance for >6 months, with 90% anomaly detection within 15s and 60% root-cause identification within 20s.",
+    "directions": [
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "Pie: A Programmable Serving System for Emerging LLM Applications",
     "venue": "SOSP 2025",
     "topic": "LLM serving / KV / GPU systems",
@@ -7218,6 +7254,40 @@
     ]
   },
   {
+    "title": "Robust LLM Training Infrastructure at ByteDance",
+    "venue": "SOSP 2025",
+    "topic": "distributed LLM training / reliability / fault tolerance",
+    "arxiv": "2509.16293",
+    "doi": "10.1145/3731569.3764838",
+    "official_id": "10.1145/3731569.3764838",
+    "paper_url": "https://arxiv.org/abs/2509.16293",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "SOSP 2025 production LLM training infrastructure; ByteRobust reports 97% effective training time ratio on a three-month 9,600-GPU job and deployment on a platform exceeding 200,000 GPUs.",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "Sailor: Automating Distributed Training over Dynamic, Heterogeneous, and Geo-distributed Clusters",
+    "venue": "SOSP 2025",
+    "topic": "distributed training / heterogeneous clusters / geo-distributed systems",
+    "arxiv": "2504.17096",
+    "doi": "10.1145/3731569.3764839",
+    "official_id": "10.1145/3731569.3764839",
+    "paper_url": "https://arxiv.org/abs/2504.17096",
+    "code_url": "https://github.com/eth-easl/sailor",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "SOSP 2025 automates planning and execution of ML training across heterogeneous, geo-distributed and dynamically available resources using search, simulation and a heterogeneity-aware training runtime.",
+    "directions": [
+      "Distributed Training / Inference",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Tempo: Compiled Dynamic Deep Learning with Symbolic Dependence Graphs",
     "venue": "SOSP 2025",
     "topic": "ML compiler / dynamic deep learning",
@@ -7231,6 +7301,23 @@
     "why": "Compiler/runtime for recurrent tensors and symbolic temporal dependencies, combining eager dynamism with whole-program graph optimizations.",
     "directions": [
       "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "TrainVerify: Equivalence-Based Verification for Distributed LLM Training",
+    "venue": "SOSP 2025",
+    "topic": "distributed LLM training / verification / reliability",
+    "arxiv": "2506.15961",
+    "doi": "10.1145/3731569.3764850",
+    "official_id": "10.1145/3731569.3764850",
+    "paper_url": "https://arxiv.org/abs/2506.15961",
+    "code_url": "https://github.com/microsoft/TrainVerify",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "SOSP 2025 formally verifies equivalence of distributed LLM training plans to logical specifications and scales to Llama3-405B and DeepSeek-V3-671B plans.",
+    "directions": [
+      "Speculative Decoding",
+      "Distributed Training / Inference"
     ]
   },
   {
