@@ -2,7 +2,7 @@
   "unique_papers": 488,
   "latest_strong": 38,
   "papers_with_primary_link": 430,
-  "papers_with_verified_code_link": 26,
+  "papers_with_verified_code_link": 28,
   "venues": 43,
   "direction_counts": {
     "LLM Serving": 191,
@@ -22,5 +22,5 @@
     "Edge / Cloud / Heterogeneous AI": 116
   },
   "source_date_beijing": "2026-08-21",
-  "updated_at_beijing": "2026-08-21T02:00:59+08:00"
+  "updated_at_beijing": "2026-08-21T03:04:15+08:00"
 }
