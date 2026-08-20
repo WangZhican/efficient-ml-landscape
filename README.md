@@ -11,15 +11,17 @@
   ·
   <a href="papers/README.md">Research Map</a>
   ·
+  <a href="papers/ALL_PAPERS.md">Paper List</a>
+  ·
   <a href="groups/README.md">Groups</a>
   ·
   <a href="venues/README.md">Venues</a>
 </p>
 
 <p>
+  <img src="https://img.shields.io/badge/Papers-424-7c3aed?style=for-the-badge" alt="424 papers" />
+  <img src="https://img.shields.io/badge/Primary%20Links-365-059669?style=for-the-badge" alt="365 primary links" />
   <img src="https://img.shields.io/badge/Research%20Tracks-15-2563eb?style=for-the-badge" alt="15 research tracks" />
-  <img src="https://img.shields.io/badge/Papers-Quality--Gated-7c3aed?style=for-the-badge" alt="Quality-gated papers" />
-  <img src="https://img.shields.io/badge/PDFs-Links%20Only-059669?style=for-the-badge" alt="Links only" />
   <img src="https://img.shields.io/badge/Physical%20AI-Protected-f59e0b?style=for-the-badge" alt="Physical AI protected" />
 </p>
 
@@ -31,7 +33,26 @@
 
 **Influential papers, technical lineages, major research groups, systems venues, official repositories, and auditable coverage — in one place.**
 
+### [📚 Browse the complete 424-paper list →](papers/ALL_PAPERS.md)
+
+### [🧭 Explore by 15 research directions →](papers/README.md)
+
 </div>
+
+---
+
+## 📊 Library at a glance
+
+| Metric | Current public view |
+|---|---:|
+| **Quality-gated unique papers** | **424** |
+| **Papers with resolved primary-source links** | **365** |
+| **Latest strong papers** | **35** |
+| **Research directions** | **15** |
+| **Venue/source labels represented** | **42** |
+
+> [!IMPORTANT]
+> The paper list is the core of this repository. The current public export already contains the complete validated canonical list available in the internal census. Official code/project repositories, open-source status, GitHub-star snapshots, and lineage annotations are being enriched on top of this paper base.
 
 ---
 
@@ -55,31 +76,31 @@ Every retained work is quality-gated. There is **no fixed paper-count quota**. W
 <td width="33%" valign="top">
 
 ### 🖥️ Serving & Runtime
-- LLM Serving
-- Speculative Decoding
-- KV Cache / Long Context
-- Multimodal / MLLM Serving
-- Edge / Cloud / Heterogeneous AI
+- [LLM Serving](papers/01-llm-serving.md)
+- [Speculative Decoding](papers/02-speculative-decoding.md)
+- [KV Cache / Long Context](papers/03-kv-cache-long-context.md)
+- [Multimodal / MLLM Serving](papers/10-multimodal-mllm-serving.md)
+- [Edge / Cloud / Heterogeneous AI](papers/15-edge-cloud-heterogeneous.md)
 
 </td>
 <td width="33%" valign="top">
 
 ### 🧠 Model Efficiency
-- Quantization
-- Sparsity / Pruning
-- Efficient Attention
-- MoE Systems / Accelerators
-- Efficient Reasoning / Agents
+- [Quantization](papers/04-quantization.md)
+- [Sparsity / Pruning](papers/05-sparsity-pruning.md)
+- [Efficient Attention](papers/06-efficient-attention.md)
+- [MoE Systems / Accelerators](papers/07-moe-systems.md)
+- [Efficient Reasoning / Agents](papers/13-efficient-reasoning-agents.md)
 
 </td>
 <td width="33%" valign="top">
 
 ### ⚙️ Systems & Generation
-- GPU Kernel / DSL / Compiler
-- Distributed Training / Inference
-- Video / Image Generation
-- Diffusion / Flow Acceleration
-- VLA / WAM / Physical AI
+- [GPU Kernel / DSL / Compiler](papers/08-gpu-kernel-compiler.md)
+- [Distributed Training / Inference](papers/09-distributed-training-inference.md)
+- [Video / Image Generation](papers/11-video-image-generation.md)
+- [Diffusion / Flow Acceleration](papers/12-diffusion-flow.md)
+- [VLA / WAM / Physical AI](papers/14-physical-ai-vla-wam.md)
 
 </td>
 </tr>
@@ -89,7 +110,7 @@ Every retained work is quality-gated. There is **no fixed paper-count quota**. W
 
 ### **15 directions · one connected research map**
 
-[**Explore the research map →**](papers/README.md)
+[**Explore the research map →**](papers/README.md) · [**Browse every paper →**](papers/ALL_PAPERS.md)
 
 </div>
 
@@ -109,11 +130,11 @@ The emphasis is not only on model algorithms, but also on **serving, runtime, sc
 
 | Field | What you get |
 |---|---|
-| **Paper** | Title, authors, year, venue |
+| **Paper** | Title, authors when available, year, venue |
 | **Research role** | Direction, sub-direction, and technical position in the roadmap |
-| **Why it matters** | Concise contribution and influence summary |
+| **Why it matters** | Concise contribution and influence summary when validated |
 | **Primary source** | arXiv / official proceedings / DOI / official project page |
-| **Code** | Official repository or project implementation when available |
+| **Code** | Official repository or project implementation when verified |
 | **Open source** | Code / model / runtime availability |
 | **Adoption** | GitHub stars when meaningful and timestamped |
 | **Priority** | Canonical / must-read / important / watch |
@@ -127,10 +148,12 @@ A major paper may intentionally appear in multiple directions when it plays a ge
 
 | Area | Purpose |
 |---|---|
+| [`papers/ALL_PAPERS.md`](papers/ALL_PAPERS.md) | **Complete public paper list** |
 | [`papers/`](papers/README.md) | Direction-by-direction research roadmaps and curated papers |
 | [`groups/`](groups/README.md) | Major academic labs, companies, startups, and OSS ecosystems |
 | [`venues/`](venues/README.md) | Venue/source census and systematic coverage map |
-| [`data/`](data/README.md) | Machine-readable public metadata |
+| [`data/papers.json`](data/papers.json) | Machine-readable public paper database |
+| [`data/papers.csv`](data/papers.csv) | Spreadsheet-friendly public export |
 | [`docs/`](docs/) | Methodology, audit rules, roadmap notes, and changelog |
 | `scripts/` | Exporters, validators, and metadata synchronization tools |
 
@@ -173,13 +196,13 @@ Read the full methodology: **[docs/METHODOLOGY.md](docs/METHODOLOGY.md)**.
 
 ---
 
-## 🚧 Current phase
+## 🚧 Current enrichment phase
 
-The public repository is being bootstrapped from a continuously maintained internal literature census. Records enter the public view only after:
+The paper base is now public. The next layer is being added continuously:
 
-**identifier deduplication → primary-source validation → technical classification → repo/project verification → public export**
+**official repo verification → open-source status → GitHub-star snapshots → must-read tiers → technical lineage → group/venue links → route summaries**
 
-This keeps the public-facing map cleaner than the raw discovery stream.
+This separation keeps the paper census immediately useful while preventing unverified repository links or metadata from being published as fact.
 
 ---
 

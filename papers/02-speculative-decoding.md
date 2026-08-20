@@ -1,0 +1,73 @@
+# 02 · Speculative Decoding
+
+> **65 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
+
+[← Research Map](README.md) · [Complete Paper List](ALL_PAPERS.md)
+
+| Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|
+| **DIAA: A Decoding-Efficient Inference Acceleration Approach for On-Device Large Language Models** | AAAI 2026 | on-device LLM / speculative decoding / edge inference | [Link](https://doi.org/10.1609/aaai.v40i31.39789) | — |
+| **Calibrated Speculative Decoding: Frequency-Guided Candidate Selection for Efficient Inference** | ACL 2026 | speculative decoding / training-free inference acceleration | [Link](https://doi.org/10.18653/v1/2026.acl-long.1369) | — |
+| **HCSpec: Two-Tier Horizontal Cascade Speculative Decoding for High-Efficiency Large Language Model Inference** | ACL 2026 | speculative decoding / cascade verification | [Link](https://doi.org/10.18653/v1/2026.acl-long.353) | — |
+| **HeteroSpec: Leveraging Contextual Heterogeneity for Efficient Speculative Decoding** | ACL 2026 | speculative decoding / adaptive verification | [Link](https://doi.org/10.18653/v1/2026.acl-long.589) | — |
+| **Jakiro: Boosting Speculative Decoding via Decoupled MoE** | ACL 2026 | speculative decoding / MoE draft model | [Link](https://doi.org/10.18653/v1/2026.acl-long.487) | — |
+| **LongSpec: Long-Context Lossless Speculative Decoding with Efficient Drafting and Verification** | ACL 2026 | speculative decoding / long-context inference | [Link](https://doi.org/10.18653/v1/2026.acl-long.83) | — |
+| **SpecCache: Speculative KV Cache Reuse for Efficient RAG Serving** | ACL 2026 | RAG serving / KV cache reuse | [Link](https://doi.org/10.18653/v1/2026.acl-long.859) | — |
+| **UniSpec: Training-Free Speculative Decoding for Robust LLM Acceleration Across Languages and Hardware** | ACL 2026 | speculative decoding / hardware-aware calibration | [Link](https://doi.org/10.18653/v1/2026.acl-long.285) | — |
+| **SpeCa: Accelerating Diffusion Transformers with Speculative Feature Caching** | ACM Multimedia 2025 | diffusion speculative caching | [Link](https://arxiv.org/abs/2509.11628) | — |
+| **DFVG** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | — | — |
+| **EARTH** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | — | — |
+| **LAER-MoE: Load-Adaptive Expert Re-layout for Efficient Mixture-of-Experts Training** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://arxiv.org/abs/2602.11686) | — |
+| **MoDM** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | — | — |
+| **oFFN** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | — | — |
+| **PAT: Accelerating LLM Decoding via Prefix-Aware Attention with Resource Efficient Multi-Tile Kernel** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://arxiv.org/abs/2511.22333) | — |
+| **QoServe** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | — | — |
+| **Shift Parallelism** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | — | — |
+| **Shift Parallelism: Low-Latency, High-Throughput LLM Inference for Dynamic Workloads** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://arxiv.org/abs/2509.16495) | — |
+| **SpeContext: Enabling Efficient Long-context Reasoning with Speculative Context Sparsity in LLMs** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://arxiv.org/abs/2512.00722) | — |
+| **SpecProto** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | — | — |
+| **SwiftSpec: Ultra-Low Latency LLM Decoding by Scaling Asynchronous Speculative Decoding** | ASPLOS 2026 | speculative decoding / low-latency LLM serving | [Link](https://arxiv.org/abs/2506.11309) | — |
+| **Taming the Long-Tail: Efficient Reasoning RL Training with Adaptive Drafter** | ASPLOS 2026 | reasoning RL training / speculative decoding / rollout systems | [Link](https://arxiv.org/abs/2511.16665) | — |
+| **XY-Serve** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | — | — |
+| **XY-Serve: End-to-End Versatile Production Serving for Dynamic LLM Workloads** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://arxiv.org/abs/2412.18106) | — |
+| **ZipServ** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | — | — |
+| **ZipServ: Fast and Memory-Efficient LLM Inference with Hardware-Aware Lossless Compression** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://arxiv.org/abs/2603.17435) | — |
+| **Cacheback: Speculative Decoding With Nothing But Cache** | EMNLP 2025 | speculative decoding / cache-based drafting | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.1581) | — |
+| **Dovetail: A CPU/GPU Heterogeneous Speculative Decoding for LLM inference** | EMNLP 2025 | heterogeneous CPU/GPU inference / speculative decoding | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.879) | — |
+| **QSpec: Speculative Decoding with Complementary Quantization Schemes** | EMNLP 2025 | speculative decoding / quantization | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.240) | — |
+| **Speculative Streaming: Efficient and Scalable Speculative Decoding with Multi-Stream Attention** | EMNLP 2025 | speculative decoding / multi-stream attention | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.986) | — |
+| **AdaServe: Accelerating Multi-SLO LLM Serving with SLO-Customized Speculative Decoding** | EuroSys 2026 | LLM serving / speculative decoding / multi-SLO | — | — |
+| **CXL-SpecKV: A Disaggregated FPGA Speculative KV-Cache for Datacenter LLM Serving** | FPGA 2026 | LLM serving / CXL / FPGA / speculative KV cache | [Link](https://arxiv.org/abs/2512.11920) | — |
+| **Adaptive Draft Sequence Length** | HPCA 2026 | efficient VLM + PIM inference + reasoning accelerator + speculative decoding | — | — |
+| **Focus** | HPCA 2026 | efficient VLM + PIM inference + reasoning accelerator + speculative decoding | — | — |
+| **LoCaLUT** | HPCA 2026 | efficient VLM + PIM inference + reasoning accelerator + speculative decoding | — | — |
+| **PIMphony** | HPCA 2026 | efficient VLM + PIM inference + reasoning accelerator + speculative decoding | — | — |
+| **RPU** | HPCA 2026 | efficient VLM + PIM inference + reasoning accelerator + speculative decoding | — | — |
+| **Autoregressive Image Generation with Randomized Parallel Decoding** | ICLR 2026 | autoregressive image generation / parallel decoding | — | — |
+| **Inference-Cost-Aware Dynamic Tree Construction for Efficient Inference in Large Language Models** | ICLR 2026 | speculative decoding / hardware-aware tree construction | — | — |
+| **Multi-Head Low-Rank Attention** | ICLR 2026 | KV-efficient attention / tensor-parallel decoding | — | — |
+| **QuantSpec: Self-Speculative Decoding with Hierarchical Quantized KV Cache** | ICML 2025 | speculative decoding / KV quantization | — | — |
+| **SpeCache: Speculative Key-Value Caching for Efficient Generation of LLMs** | ICML 2025 | long-context / KV cache / efficient LLM inference | — | — |
+| **Semi-Clairvoyant Scheduling of Speculative Decoding Requests to Minimize LLM Inference Latency** | IJCAI 2025 | speculative decoding / request scheduling / LLM serving | [Link](https://doi.org/10.24963/ijcai.2025/951) | — |
+| **Cassandra: Enabling Reasoning LLMs at Edge via Self-Speculative Decoding** | ISCA 2026 | edge speculative reasoning + quantization + memory-system + generative inference accelerators | [Link](https://arxiv.org/abs/2605.26558) | — |
+| **HybridSpec: Exploiting Hybrid-bonding Memory to Accelerate LLM Serving through Heterogeneous Architecture and Speculative Decoding** | ISCA 2026 | speculative decoding / heterogeneous memory / LLM serving | — | — |
+| **OASIS: Outlier-Aware LUT-Based GEMM with Dual-Side Quantization for LLM Inference Acceleration** | ISCA 2026 | edge speculative reasoning + quantization + memory-system + generative inference accelerators | — | — |
+| **Raptor** | ISCA 2026 | edge speculative reasoning + quantization + memory-system + generative inference accelerators | — | — |
+| **SHyLA: 3D-Stacked NVM-DRAM Hybrid LLM-Inference Architecture Exploiting Data and Memory Heterogeneity** | ISCA 2026 | edge speculative reasoning + quantization + memory-system + generative inference accelerators | — | — |
+| **SMOOTH: Hardware-Assisted Fine-Grained On-Chip Memory Management for Efficient On-Device LLM Inference** | ISCA 2026 | edge speculative reasoning + quantization + memory-system + generative inference accelerators | — | — |
+| **BEAM** | MLSys 2026 | LLM serving + KV + speculative + reasoning efficiency | — | — |
+| **BOute** | MLSys 2026 | LLM serving + KV + speculative + reasoning efficiency | — | — |
+| **fabric-lib** | MLSys 2026 | LLM serving + KV + speculative + reasoning efficiency | — | — |
+| **FlexiCache** | MLSys 2026 | LLM serving + KV + speculative + reasoning efficiency | — | — |
+| **GhostServe** | MLSys 2026 | LLM serving + KV + speculative + reasoning efficiency | — | — |
+| **OPKV** | MLSys 2026 | LLM serving + KV + speculative + reasoning efficiency | — | — |
+| **RaidServe** | MLSys 2026 | LLM serving + KV + speculative + reasoning efficiency | — | — |
+| **SkipKV** | MLSys 2026 | LLM serving + KV + speculative + reasoning efficiency | — | — |
+| **SpecGen** | MLSys 2026 | LLM serving + KV + speculative + reasoning efficiency | — | — |
+| **Speculative Decoding: Performance or Illusion?** | MLSys 2026 | speculative decoding / production inference characterization | — | — |
+| **SuperInfer** | MLSys 2026 | LLM serving + KV + speculative + reasoning efficiency | — | — |
+| **SpecEdge: Scalable Edge-Assisted Serving Framework for Interactive LLMs** | NeurIPS 2025 | edge-cloud LLM serving / speculative decoding | — | — |
+| **On Evaluating Performance of LLM Inference Serving Systems** | SoCC 2026 | LLM serving / evaluation methodology / systems benchmarking | [Link](https://arxiv.org/abs/2507.09019) | — |
+| **Self-Speculative Decoding for On-device MoE Acceleration** | The Web Conference 2026 | on-device MoE / speculative decoding | [Link](https://doi.org/10.1145/3774904.3792218) | — |
+| **SPECTRA: An Asymmetric-Precision Speculative Decoding LLM Accelerator with Product Quantization and Reconfigurable Flip-Flop Buffers in 28nm CMOS** | VLSI Symposium 2026 | speculative decoding / LLM accelerator | [Link](https://doi.org/10.1109/VLSITechnologyandCir65830.2026.11577608) | — |
+| **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |

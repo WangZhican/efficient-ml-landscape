@@ -11,15 +11,17 @@
   ·
   <a href="papers/README.md">研究地图</a>
   ·
+  <a href="papers/ALL_PAPERS.md">论文总表</a>
+  ·
   <a href="groups/README.md">研究团队</a>
   ·
   <a href="venues/README.md">Venue 地图</a>
 </p>
 
 <p>
+  <img src="https://img.shields.io/badge/Papers-424-7c3aed?style=for-the-badge" alt="424 papers" />
+  <img src="https://img.shields.io/badge/Primary%20Links-365-059669?style=for-the-badge" alt="365 primary links" />
   <img src="https://img.shields.io/badge/Research%20Tracks-15-2563eb?style=for-the-badge" alt="15 research tracks" />
-  <img src="https://img.shields.io/badge/Papers-Quality--Gated-7c3aed?style=for-the-badge" alt="Quality-gated papers" />
-  <img src="https://img.shields.io/badge/PDFs-Links%20Only-059669?style=for-the-badge" alt="Links only" />
   <img src="https://img.shields.io/badge/Physical%20AI-Protected-f59e0b?style=for-the-badge" alt="Physical AI protected" />
 </p>
 
@@ -31,7 +33,26 @@
 
 **重要论文 · 技术路线 · 研究团队 · 系统 Venue · 官方代码 · Coverage Audit，一站式整理。**
 
+### [📚 直接浏览 424 篇论文总表 →](papers/ALL_PAPERS.md)
+
+### [🧭 按 15 个研究方向浏览 →](papers/README.md)
+
 </div>
+
+---
+
+## 📊 当前论文库
+
+| 指标 | 当前公开版本 |
+|---|---:|
+| **质量门控后的唯一论文** | **424** |
+| **已有可信一手论文链接** | **365** |
+| **最新 Strong 论文** | **35** |
+| **研究方向** | **15** |
+| **已出现的 Venue/Source 标签** | **42** |
+
+> [!IMPORTANT]
+> **Paper list 是这个仓库的核心。** 当前内部 canonical census 中已经验证的论文底库已经完整导出到公开仓库。下一层是在这 424 篇基础上继续补官方 repo、开源状态、GitHub stars、must-read 等级和技术路线关系，而不是再保留一个空壳主页。
 
 ---
 
@@ -55,31 +76,31 @@
 <td width="33%" valign="top">
 
 ### 🖥️ Serving & Runtime
-- LLM Serving
-- Speculative Decoding
-- KV Cache / Long Context
-- Multimodal / MLLM Serving
-- Edge / Cloud / Heterogeneous AI
+- [LLM Serving](papers/01-llm-serving.md)
+- [Speculative Decoding](papers/02-speculative-decoding.md)
+- [KV Cache / Long Context](papers/03-kv-cache-long-context.md)
+- [Multimodal / MLLM Serving](papers/10-multimodal-mllm-serving.md)
+- [Edge / Cloud / Heterogeneous AI](papers/15-edge-cloud-heterogeneous.md)
 
 </td>
 <td width="33%" valign="top">
 
 ### 🧠 Model Efficiency
-- Quantization
-- Sparsity / Pruning
-- Efficient Attention
-- MoE Systems / Accelerators
-- Efficient Reasoning / Agents
+- [Quantization](papers/04-quantization.md)
+- [Sparsity / Pruning](papers/05-sparsity-pruning.md)
+- [Efficient Attention](papers/06-efficient-attention.md)
+- [MoE Systems / Accelerators](papers/07-moe-systems.md)
+- [Efficient Reasoning / Agents](papers/13-efficient-reasoning-agents.md)
 
 </td>
 <td width="33%" valign="top">
 
 ### ⚙️ Systems & Generation
-- GPU Kernel / DSL / Compiler
-- Distributed Training / Inference
-- Video / Image Generation
-- Diffusion / Flow Acceleration
-- VLA / WAM / Physical AI
+- [GPU Kernel / DSL / Compiler](papers/08-gpu-kernel-compiler.md)
+- [Distributed Training / Inference](papers/09-distributed-training-inference.md)
+- [Video / Image Generation](papers/11-video-image-generation.md)
+- [Diffusion / Flow Acceleration](papers/12-diffusion-flow.md)
+- [VLA / WAM / Physical AI](papers/14-physical-ai-vla-wam.md)
 
 </td>
 </tr>
@@ -89,7 +110,7 @@
 
 ### **15 个方向，一张互相连接的研究地图**
 
-[**进入完整研究地图 →**](papers/README.md)
+[**进入研究地图 →**](papers/README.md) · [**浏览全部论文 →**](papers/ALL_PAPERS.md)
 
 </div>
 
@@ -109,11 +130,11 @@ Physical AI 不会被埋在普通 multimodal 分类里，而是长期独立保�
 
 | 字段 | 内容 |
 |---|---|
-| **Paper** | 标题、作者、年份、Venue |
+| **Paper** | 标题、可核验时的作者、年份、Venue |
 | **Research role** | 所属方向、子方向以及在技术路线中的位置 |
 | **Why it matters** | 核心贡献与影响力摘要 |
 | **Primary source** | arXiv / 官方 proceedings / DOI / 官方项目页 |
-| **Code** | 官方 repo / project implementation |
+| **Code** | 核验后的官方 repo / project implementation |
 | **Open source** | 是否公开代码、模型或 runtime |
 | **Adoption** | 有意义时记录 GitHub stars，并附核验时间 |
 | **Priority** | Canonical / Must-read / Important / Watch |
@@ -127,10 +148,12 @@ Physical AI 不会被埋在普通 multimodal 分类里，而是长期独立保�
 
 | 区域 | 用途 |
 |---|---|
-| [`papers/`](papers/README.md) | 15 个方向的路线图和精选论文 |
+| [`papers/ALL_PAPERS.md`](papers/ALL_PAPERS.md) | **完整公开论文总表** |
+| [`papers/`](papers/README.md) | 15 个方向的路线图与分类论文表 |
 | [`groups/`](groups/README.md) | 高校实验室、公司、startup 与 OSS ecosystem |
 | [`venues/`](venues/README.md) | Venue/source census 与系统覆盖地图 |
-| [`data/`](data/README.md) | 机器可读的公开 metadata |
+| [`data/papers.json`](data/papers.json) | 机器可读论文数据库 |
+| [`data/papers.csv`](data/papers.csv) | 适合表格软件使用的公开导出 |
 | [`docs/`](docs/) | 方法论、审计规则、研究路线与 changelog |
 | `scripts/` | Markdown / JSON / CSV 导出与一致性校验 |
 
@@ -173,13 +196,13 @@ Physical AI 不会被埋在普通 multimodal 分类里，而是长期独立保�
 
 ---
 
-## 🚧 当前阶段
+## 🚧 当前增强阶段
 
-公开仓库正在由内部持续维护的高召回文献 census 生成。论文只有经过：
+论文底库已经公开。接下来持续在 424 篇论文之上增加：
 
-**identifier 去重 → 一手来源核验 → 技术分类 → repo/project 核验 → public export**
+**官方 repo 核验 → 开源状态 → GitHub stars → Must-Read 等级 → 技术 lineage → group/venue 关联 → 路线总结**
 
-之后才进入公开视图，因此公开版本会比原始 discovery stream 更干净、更适合作为长期研究索引。
+这样先保证论文列表立即可用，同时避免把没有验证过的 repo 或 metadata 当成事实发布。
 
 ---
 
