@@ -6812,6 +6812,22 @@
     ]
   },
   {
+    "title": "100x Cost & Latency Reduction: Performance Analysis of AI Query Approximation using Lightweight Proxy Models",
+    "venue": "SIGMOD 2026",
+    "topic": "AI query systems / LLM cost and latency reduction / proxy-model acceleration",
+    "arxiv": "2603.15970",
+    "doi": "10.1145/3802002",
+    "official_id": "10.1145/3802002",
+    "paper_url": "https://arxiv.org/abs/2603.15970",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "SIGMOD 2026 evaluates lightweight embedding proxy models for LLM-backed AI.IF/AI.RANK operators and reports over 100x cost and latency reduction while preserving accuracy on large analytics workloads.",
+    "directions": [
+      "LLM Serving"
+    ]
+  },
+  {
     "title": "AlignedServe: Orchestrating Prefix-aware Batching to Build a High-throughput and Computing-efficient LLM Serving System",
     "venue": "SIGMOD 2026",
     "topic": "LLM serving / prefix-aware batching / KV scheduling",
@@ -6860,6 +6876,23 @@
     "directions": [
       "KV Cache / Long Context",
       "Efficient Attention"
+    ]
+  },
+  {
+    "title": "Efficient LLM Serving for Agentic Workflows: A Data Systems Perspective",
+    "venue": "SIGMOD 2026",
+    "topic": "agentic LLM serving / workflow-aware caching / cache-aware scheduling",
+    "arxiv": "2603.16104",
+    "doi": "10.1145/3802046",
+    "official_id": "10.1145/3802046",
+    "paper_url": "https://arxiv.org/abs/2603.16104",
+    "code_url": "https://github.com/MachineLearningSystem/26SIGMOD-helium_demo",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "SIGMOD 2026 Helium models agentic workflows as query plans and performs proactive cross-call caching plus cache-aware scheduling; the primary paper reports up to 1.56x speedup over prior agent-serving systems.",
+    "directions": [
+      "LLM Serving",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -6913,6 +6946,23 @@
       "Efficient Attention",
       "GPU Kernel / DSL / Compiler",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "SG-Serve: Efficient Model Serving for Subgraph-based Graph Representation Learning",
+    "venue": "SIGMOD 2026",
+    "topic": "graph model serving / tail-latency optimization / workload-aware GPU batching",
+    "arxiv": "",
+    "doi": "10.1145/3786697",
+    "official_id": "10.1145/3786697",
+    "paper_url": "https://dl.acm.org/doi/10.1145/3786697",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "SIGMOD 2026 serving system for highly skewed subgraph-based graph-representation workloads; it targets heavy-request head-of-line blocking with parallel extraction, work stealing, and workload-aware GPU batching.",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {
