@@ -3237,6 +3237,23 @@
     ]
   },
   {
+    "title": "EveryDayVLA: A Vision-Language-Action Model for Affordable Robotic Manipulation",
+    "venue": "ICRA 2026",
+    "topic": "Physical AI / VLA / real-time adaptive-horizon replanning / low-cost deployment",
+    "arxiv": "2511.05397",
+    "doi": "",
+    "official_id": "arXiv:2511.05397",
+    "paper_url": "https://arxiv.org/abs/2511.05397",
+    "code_url": "https://github.com/everydayvla/EveryDayVLA",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICRA 2026 protected Physical-AI work; combines a low-cost 6-DOF platform with real-time VLA inference and uncertainty-triggered adaptive-horizon replanning. Official project and code repository verified.",
+    "directions": [
+      "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "RetoVLA",
     "venue": "ICRA 2026",
     "topic": "lightweight VLA + compressed action representation/video-pretrained VLA",
@@ -3265,6 +3282,24 @@
     "decision": "BACKFILL_PHYSICAL_AI_HIGH",
     "why": "",
     "directions": [
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "The Better You Learn, The Smarter You Prune: Towards Efficient Vision-language-action Models via Differentiable Token Pruning",
+    "venue": "ICRA 2026",
+    "topic": "Physical AI / VLA / adaptive visual-token pruning / inference acceleration",
+    "arxiv": "2509.12594",
+    "doi": "",
+    "official_id": "arXiv:2509.12594",
+    "paper_url": "https://arxiv.org/abs/2509.12594",
+    "code_url": "https://github.com/LiAutoAD/LightVLA",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICRA 2026 LightVLA; differentiable adaptive visual-token pruning for VLA deployment. Reports 59.1% FLOPs reduction and 38.2% latency reduction while improving task success. Official LiAuto repository verified.",
+    "directions": [
+      "Sparsity / Pruning",
+      "Multimodal / MLLM Serving",
       "VLA / WAM / Physical AI"
     ]
   },
