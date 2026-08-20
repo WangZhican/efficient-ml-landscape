@@ -1,11 +1,12 @@
 # 13 · Efficient Reasoning / Agents
 
-> **59 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **60 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [Complete Paper List](ALL_PAPERS.md)
 
 | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|
+| **ConfSpec: Efficient Step-Level Speculative Reasoning via Confidence-Gated Verification** | ACL 2026 | efficient reasoning / step-level speculative verification | [Link](https://doi.org/10.18653/v1/2026.acl-long.1221) | — |
 | **SpeContext: Enabling Efficient Long-context Reasoning with Speculative Context Sparsity in LLMs** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://arxiv.org/abs/2512.00722) | — |
 | **Taming the Long-Tail: Efficient Reasoning RL Training with Adaptive Drafter** | ASPLOS 2026 | reasoning RL training / speculative decoding / rollout systems | [Link](https://arxiv.org/abs/2511.16665) | — |
 | **PRISM: Efficient Long-Range Reasoning With Short-Context LLMs** | EMNLP 2025 | efficient reasoning / KV reuse / short-context inference | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.517) | — |

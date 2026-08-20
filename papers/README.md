@@ -1,6 +1,6 @@
 # 🧭 Research Map
 
-> **436 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
+> **441 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
 
 <div align="center">
 
@@ -13,18 +13,18 @@
 | # | Research direction | Papers |
 |---:|---|---:|
 | 01 | [**LLM Serving**](01-llm-serving.md) | **173** |
-| 02 | [**Speculative Decoding**](02-speculative-decoding.md) | **65** |
-| 03 | [**KV Cache / Long Context**](03-kv-cache-long-context.md) | **115** |
-| 04 | [**Quantization**](04-quantization.md) | **61** |
+| 02 | [**Speculative Decoding**](02-speculative-decoding.md) | **67** |
+| 03 | [**KV Cache / Long Context**](03-kv-cache-long-context.md) | **118** |
+| 04 | [**Quantization**](04-quantization.md) | **62** |
 | 05 | [**Sparsity / Pruning**](05-sparsity-pruning.md) | **54** |
-| 06 | [**Efficient Attention**](06-efficient-attention.md) | **52** |
+| 06 | [**Efficient Attention**](06-efficient-attention.md) | **53** |
 | 07 | [**MoE Systems / Accelerators**](07-moe-systems.md) | **50** |
-| 08 | [**GPU Kernel / DSL / Compiler**](08-gpu-kernel-compiler.md) | **158** |
+| 08 | [**GPU Kernel / DSL / Compiler**](08-gpu-kernel-compiler.md) | **160** |
 | 09 | [**Distributed Training / Inference**](09-distributed-training-inference.md) | **56** |
-| 10 | [**Multimodal / MLLM Serving**](10-multimodal-mllm-serving.md) | **48** |
+| 10 | [**Multimodal / MLLM Serving**](10-multimodal-mllm-serving.md) | **49** |
 | 11 | [**Video / Image Generation**](11-video-image-generation.md) | **11** |
 | 12 | [**Diffusion / Flow Acceleration**](12-diffusion-flow.md) | **63** |
-| 13 | [**Efficient Reasoning / Agents**](13-efficient-reasoning-agents.md) | **59** |
+| 13 | [**Efficient Reasoning / Agents**](13-efficient-reasoning-agents.md) | **60** |
 | 14 | [**VLA / WAM / Physical AI**](14-physical-ai-vla-wam.md) | **21** |
 | 15 | [**Edge / Cloud / Heterogeneous AI**](15-edge-cloud-heterogeneous.md) | **111** |
 

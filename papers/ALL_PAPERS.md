@@ -1,6 +1,6 @@
 # 📚 Complete Paper List
 
-> **436 quality-gated papers** exported from the validated canonical literature census. PDF binaries are not stored here; links point to primary paper sources whenever resolved.
+> **441 quality-gated papers** exported from the validated canonical literature census. PDF binaries are not stored here; links point to primary paper sources whenever resolved.
 
 [← Research Map](README.md) · [Machine-readable JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -270,6 +270,25 @@
 | **SpeCache: Speculative Key-Value Caching for Efficient Generation of LLMs** | ICML 2025 | long-context / KV cache / efficient LLM inference | — | — |
 | **Star Attention: Efficient LLM Inference over Long Sequences** | ICML 2025 | long-context / KV cache / efficient LLM inference | — | — |
 
+## ACL 2026 · 14
+
+| Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|
+| **Calibrated Speculative Decoding: Frequency-Guided Candidate Selection for Efficient Inference** | ACL 2026 | speculative decoding / training-free inference acceleration | [Link](https://doi.org/10.18653/v1/2026.acl-long.1369) | — |
+| **ConfSpec: Efficient Step-Level Speculative Reasoning via Confidence-Gated Verification** | ACL 2026 | efficient reasoning / step-level speculative verification | [Link](https://doi.org/10.18653/v1/2026.acl-long.1221) | — |
+| **ContrastKV: Robust KV Cache Eviction via Contrastive Signal Fusion for Multi-Query Generalization** | ACL 2026 | KV-cache eviction / long-context multi-query inference | [Link](https://doi.org/10.18653/v1/2026.acl-long.417) | — |
+| **EDSD: Entropy-Driven Design for Faster Speculative Decoding** | ACL 2026 | speculative decoding / entropy-guided draft design | [Link](https://doi.org/10.18653/v1/2026.acl-long.2145) | — |
+| **EfficientLLM: Unified Pruning-Aware Pretraining for Auto-Designed Compact Language Models** | ACL 2026 | pruning / compact edge LLM | [Link](https://doi.org/10.18653/v1/2026.acl-long.355) | — |
+| **Evolving Sparsity: Leveraging Token Importance Dynamics for Efficient LLM Decoding with Sparse Attention** | ACL 2026 | sparse attention / long-context decoding | [Link](https://doi.org/10.18653/v1/2026.acl-long.530) | — |
+| **HCSpec: Two-Tier Horizontal Cascade Speculative Decoding for High-Efficiency Large Language Model Inference** | ACL 2026 | speculative decoding / cascade verification | [Link](https://doi.org/10.18653/v1/2026.acl-long.353) | — |
+| **HeteroSpec: Leveraging Contextual Heterogeneity for Efficient Speculative Decoding** | ACL 2026 | speculative decoding / adaptive verification | [Link](https://doi.org/10.18653/v1/2026.acl-long.589) | — |
+| **HybridKV: Hybrid KV Cache Compression for Efficient Multimodal Large Language Model Inference** | ACL 2026 | multimodal KV-cache compression / efficient MLLM inference | [Link](https://doi.org/10.18653/v1/2026.acl-long.594) | — |
+| **Jakiro: Boosting Speculative Decoding via Decoupled MoE** | ACL 2026 | speculative decoding / MoE draft model | [Link](https://doi.org/10.18653/v1/2026.acl-long.487) | — |
+| **LongSpec: Long-Context Lossless Speculative Decoding with Efficient Drafting and Verification** | ACL 2026 | speculative decoding / long-context inference | [Link](https://doi.org/10.18653/v1/2026.acl-long.83) | — |
+| **SpecCache: Speculative KV Cache Reuse for Efficient RAG Serving** | ACL 2026 | RAG serving / KV cache reuse | [Link](https://doi.org/10.18653/v1/2026.acl-long.859) | — |
+| **UniSpec: Training-Free Speculative Decoding for Robust LLM Acceleration Across Languages and Hardware** | ACL 2026 | speculative decoding / hardware-aware calibration | [Link](https://doi.org/10.18653/v1/2026.acl-long.285) | — |
+| **VecInfer: Efficient LLM Inference with Low-Bit KV Cache via Outlier-Suppressed Vector Quantization** | ACL 2026 | KV-cache quantization / low-bit LLM inference / CUDA kernel | [Link](https://doi.org/10.18653/v1/2026.acl-long.1454) | — |
+
 ## PPoPP 2026 · 14
 
 | Paper | Venue | Topic | Paper | Code |
@@ -436,20 +455,6 @@
 | **SageAttention3: Microscaling FP4 Attention for Inference and An Exploration of 8-Bit Training** | NeurIPS 2025 | low-bit attention kernel / FP4 | [Link](https://doi.org/10.52202/085713-1799) | — |
 | **SpecEdge: Scalable Edge-Assisted Serving Framework for Interactive LLMs** | NeurIPS 2025 | edge-cloud LLM serving / speculative decoding | — | — |
 | **Spotlight Attention: Towards Efficient LLM Generation via Non-linear Hashing-based KV Cache Retrieval** | NeurIPS 2025 | sparse attention / KV retrieval / CUDA kernel | [Link](https://doi.org/10.52202/085713-2883) | — |
-
-## ACL 2026 · 9
-
-| Paper | Venue | Topic | Paper | Code |
-|---|---|---|---|---|
-| **Calibrated Speculative Decoding: Frequency-Guided Candidate Selection for Efficient Inference** | ACL 2026 | speculative decoding / training-free inference acceleration | [Link](https://doi.org/10.18653/v1/2026.acl-long.1369) | — |
-| **EfficientLLM: Unified Pruning-Aware Pretraining for Auto-Designed Compact Language Models** | ACL 2026 | pruning / compact edge LLM | [Link](https://doi.org/10.18653/v1/2026.acl-long.355) | — |
-| **Evolving Sparsity: Leveraging Token Importance Dynamics for Efficient LLM Decoding with Sparse Attention** | ACL 2026 | sparse attention / long-context decoding | [Link](https://doi.org/10.18653/v1/2026.acl-long.530) | — |
-| **HCSpec: Two-Tier Horizontal Cascade Speculative Decoding for High-Efficiency Large Language Model Inference** | ACL 2026 | speculative decoding / cascade verification | [Link](https://doi.org/10.18653/v1/2026.acl-long.353) | — |
-| **HeteroSpec: Leveraging Contextual Heterogeneity for Efficient Speculative Decoding** | ACL 2026 | speculative decoding / adaptive verification | [Link](https://doi.org/10.18653/v1/2026.acl-long.589) | — |
-| **Jakiro: Boosting Speculative Decoding via Decoupled MoE** | ACL 2026 | speculative decoding / MoE draft model | [Link](https://doi.org/10.18653/v1/2026.acl-long.487) | — |
-| **LongSpec: Long-Context Lossless Speculative Decoding with Efficient Drafting and Verification** | ACL 2026 | speculative decoding / long-context inference | [Link](https://doi.org/10.18653/v1/2026.acl-long.83) | — |
-| **SpecCache: Speculative KV Cache Reuse for Efficient RAG Serving** | ACL 2026 | RAG serving / KV cache reuse | [Link](https://doi.org/10.18653/v1/2026.acl-long.859) | — |
-| **UniSpec: Training-Free Speculative Decoding for Robust LLM Acceleration Across Languages and Hardware** | ACL 2026 | speculative decoding / hardware-aware calibration | [Link](https://doi.org/10.18653/v1/2026.acl-long.285) | — |
 
 ## The Web Conference 2026 · 9
 
