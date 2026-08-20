@@ -1164,6 +1164,96 @@
     ]
   },
   {
+    "title": "CITER: Collaborative Inference for Efficient Large Language Model Decoding with Token-Level Routing",
+    "venue": "COLM 2025",
+    "topic": "collaborative inference / token-level routing / efficient decoding",
+    "arxiv": "2502.01976",
+    "doi": "",
+    "official_id": "",
+    "paper_url": "https://arxiv.org/abs/2502.01976",
+    "code_url": "https://github.com/aiming-lab/CITER",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Routes non-critical tokens to a small model and critical tokens to a large model with policy-optimized token routing, reducing inference cost while preserving generation quality.",
+    "directions": [
+      "LLM Serving"
+    ]
+  },
+  {
+    "title": "E2-RAG: Towards Editable Efficient RAG by Editing Compressed KV Caches",
+    "venue": "COLM 2025",
+    "topic": "RAG / compressed KV cache / editable cache",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "openreview:ZZ4tcxJvux",
+    "paper_url": "https://openreview.net/pdf?id=ZZ4tcxJvux",
+    "code_url": "https://github.com/tongxuluo/e2rag",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Makes compressed RAG KV caches directly editable for INSERT/DELETE/UPDATE; reports nearly 40x faster editing and about 3x faster generation than standard RAG with small quality loss.",
+    "directions": [
+      "KV Cache / Long Context",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "Hardware-Efficient Attention for Fast Decoding",
+    "venue": "COLM 2025",
+    "topic": "efficient attention / KV-cache bandwidth / serving",
+    "arxiv": "2505.21487",
+    "doi": "",
+    "official_id": "openreview:HAjgxcHpzc",
+    "paper_url": "https://arxiv.org/abs/2505.21487",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Redesigns attention to increase compute per KV byte via GTA/GLA; reports roughly half KV cache for GTA and up to 2x optimized-kernel and online-serving speedups.",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "KVSink: Understanding and Enhancing the Preservation of Attention Sinks in KV Cache Quantization for LLMs",
+    "venue": "COLM 2025",
+    "topic": "KV cache quantization / attention sinks",
+    "arxiv": "2508.04257",
+    "doi": "",
+    "official_id": "openreview:gIqb6zWZoO",
+    "paper_url": "https://arxiv.org/abs/2508.04257",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Explains attention-sink behavior under KV quantization and predicts sink tokens beyond fixed first-token preservation, improving KVQuant-style low-bit cache quality.",
+    "directions": [
+      "KV Cache / Long Context",
+      "Quantization",
+      "Efficient Attention"
+    ]
+  },
+  {
+    "title": "Mixture of Attention Spans: Optimizing LLM Inference Efficiency with Heterogeneous Sliding-Window Lengths",
+    "venue": "COLM 2025",
+    "topic": "sparse attention / long-context inference / KV cache compression",
+    "arxiv": "2406.14909",
+    "doi": "",
+    "official_id": "openreview:n3rZJrWPLE",
+    "paper_url": "https://arxiv.org/abs/2406.14909",
+    "code_url": "https://github.com/thu-nics/MoA",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Searches heterogeneous per-head sliding-window rules; reports 1.2-1.4x memory reduction and 6.6-8.2x decode throughput over FlashAttention2, 1.7-1.9x over vLLM.",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "OverFill: Two-Stage Models for Efficient Language Model Decoding",
     "venue": "COLM 2025",
     "topic": "efficient LLM decoding / stage-specialized model",
@@ -1196,6 +1286,23 @@
     ]
   },
   {
+    "title": "PredGen: Accelerated Inference of Large Language Models through Input-Time Speculation for Real-Time Speech Interaction",
+    "venue": "COLM 2025",
+    "topic": "speculative decoding / real-time speech interaction / input-time speculation",
+    "arxiv": "2506.15556",
+    "doi": "",
+    "official_id": "openreview:2Kl8Ztw6wk",
+    "paper_url": "https://arxiv.org/abs/2506.15556",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Moves speculation into the user-input interval so candidate responses are generated before speech ends; reports around 2x latency reduction with minimal extra effective compute.",
+    "directions": [
+      "Speculative Decoding",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "PyramidKV: Dynamic KV Cache Compression based on Pyramidal Information Funneling",
     "venue": "COLM 2025",
     "topic": "KV cache compression / long-context inference",
@@ -1209,6 +1316,25 @@
     "why": "",
     "directions": [
       "KV Cache / Long Context"
+    ]
+  },
+  {
+    "title": "Resource-efficient Inference with Foundation Model Programs",
+    "venue": "COLM 2025",
+    "topic": "agentic inference / multimodal serving / dynamic model routing",
+    "arxiv": "2504.07247",
+    "doi": "",
+    "official_id": "openreview:C5mb473GMY",
+    "paper_url": "https://arxiv.org/abs/2504.07247",
+    "code_url": "https://github.com/Flitternie/FMProgramming",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Programs agentic/multimodal tasks into modules and learns per-input backend allocation; reports up to 98% resource savings with minimal accuracy loss.",
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
