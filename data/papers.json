@@ -1649,6 +1649,40 @@
     ]
   },
   {
+    "title": "Accelerated Test-Time Scaling with Model-Free Speculative Sampling",
+    "venue": "EMNLP 2025",
+    "topic": "efficient reasoning / model-free speculative decoding",
+    "arxiv": "",
+    "doi": "10.18653/v1/2025.emnlp-main.1558",
+    "official_id": "2025.emnlp-main.1558",
+    "paper_url": "https://aclanthology.org/2025.emnlp-main.1558/",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "STAND uses model-free stochastic n-gram drafting for reasoning trajectories; ACL reports 60-65% inference-latency reduction while maintaining accuracy.",
+    "directions": [
+      "Speculative Decoding",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "Alignment-Augmented Speculative Decoding with Alignment Sampling and Conditional Verification",
+    "venue": "EMNLP 2025",
+    "topic": "speculative decoding / conditional verification",
+    "arxiv": "",
+    "doi": "10.18653/v1/2025.emnlp-main.343",
+    "official_id": "2025.emnlp-main.343",
+    "paper_url": "https://aclanthology.org/2025.emnlp-main.343/",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Adaptive speculative decoding with alignment sampling/conditional verification; ACL reports mean acceptance length up to 2.39 and 2.23x generation speedup.",
+    "directions": [
+      "Speculative Decoding",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "Cacheback: Speculative Decoding With Nothing But Cache",
     "venue": "EMNLP 2025",
     "topic": "speculative decoding / cache-based drafting",
@@ -1895,6 +1929,107 @@
     "directions": [
       "KV Cache / Long Context",
       "Quantization"
+    ]
+  },
+  {
+    "title": "Cache Saver: A Modular Framework for Efficient, Affordable, and Reproducible LLM Inference",
+    "venue": "EMNLP 2025 Findings",
+    "topic": "LLM inference framework / response caching / cost and carbon efficiency",
+    "arxiv": "",
+    "doi": "10.18653/v1/2025.findings-emnlp.1402",
+    "official_id": "2025.findings-emnlp.1402",
+    "paper_url": "https://aclanthology.org/2025.findings-emnlp.1402/",
+    "code_url": "https://github.com/au-clan/cachesaver",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Plug-and-play asynchronous high-level inference cache; ACL abstract reports about 25% average cost and 35% CO2 reduction, with about 60% reductions in some repeated-evaluation workflows.",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "DynamicKV: Task-Aware Adaptive KV Cache Compression for Long Context LLMs",
+    "venue": "EMNLP 2025 Findings",
+    "topic": "KV cache compression / task-aware adaptive allocation",
+    "arxiv": "",
+    "doi": "10.18653/v1/2025.findings-emnlp.426",
+    "official_id": "2025.findings-emnlp.426",
+    "paper_url": "https://aclanthology.org/2025.findings-emnlp.426/",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Task-aware adaptive KV compression for long-context inference, replacing fixed cache patterns with task-conditioned retention.",
+    "directions": [
+      "KV Cache / Long Context",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "EvolKV: Evolutionary KV Cache Compression for LLM Inference",
+    "venue": "EMNLP 2025 Findings",
+    "topic": "KV cache compression / evolutionary budget allocation",
+    "arxiv": "",
+    "doi": "10.18653/v1/2025.findings-emnlp.88",
+    "official_id": "2025.findings-emnlp.88",
+    "paper_url": "https://aclanthology.org/2025.findings-emnlp.88/",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Task-driven layer-wise KV budget optimization via evolutionary search; directly targets memory-efficiency/quality tradeoffs.",
+    "directions": [
+      "KV Cache / Long Context"
+    ]
+  },
+  {
+    "title": "Hardware-Aware Parallel Prompt Decoding for Memory-Efficient Acceleration of LLM Inference",
+    "venue": "EMNLP 2025 Findings",
+    "topic": "speculative decoding / edge LLM / memory-efficient inference",
+    "arxiv": "",
+    "doi": "10.18653/v1/2025.findings-emnlp.120",
+    "official_id": "2025.findings-emnlp.120",
+    "paper_url": "https://aclanthology.org/2025.findings-emnlp.120/",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Single-model parallel prompt decoding avoids separate draft-model weights/KV cache, explicitly targeting edge and long-context memory overhead.",
+    "directions": [
+      "Speculative Decoding",
+      "KV Cache / Long Context",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "LAVa: Layer-wise KV Cache Eviction with Dynamic Budget Allocation",
+    "venue": "EMNLP 2025 Findings",
+    "topic": "KV cache eviction / dynamic layer-head budgets",
+    "arxiv": "",
+    "doi": "10.18653/v1/2025.findings-emnlp.737",
+    "official_id": "2025.findings-emnlp.737",
+    "paper_url": "https://aclanthology.org/2025.findings-emnlp.737/",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Training-free KV eviction framework with dynamic head and layer budgets derived from information-loss analysis.",
+    "directions": [
+      "KV Cache / Long Context"
+    ]
+  },
+  {
+    "title": "More Tokens, Lower Precision: Towards the Optimal Token-Precision Trade-off in KV Cache Compression",
+    "venue": "EMNLP 2025 Findings",
+    "topic": "KV cache compression / token-precision co-optimization",
+    "arxiv": "",
+    "doi": "10.18653/v1/2025.findings-emnlp.429",
+    "official_id": "2025.findings-emnlp.429",
+    "paper_url": "https://aclanthology.org/2025.findings-emnlp.429/",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Jointly studies two orthogonal KV compression dimensions, token retention and precision, rather than optimizing pruning or quantization in isolation.",
+    "directions": [
+      "KV Cache / Long Context",
+      "Quantization",
+      "Sparsity / Pruning"
     ]
   },
   {

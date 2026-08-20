@@ -1,6 +1,6 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **112 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **114 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [Complete Paper List](ALL_PAPERS.md)
 
@@ -19,6 +19,8 @@
 | **Accelerating Diffusion-based Video Editing via Heterogeneous Caching: Beyond Full Computing at Sampled Denoising Timestep** | CVPR 2026 | video diffusion editing / heterogeneous caching | — | — |
 | **BK-SDM: A Lightweight, Fast, and Cheap Version of Stable Diffusion** | ECCV 2024 | diffusion pruning / compact model | — | — |
 | **Dovetail: A CPU/GPU Heterogeneous Speculative Decoding for LLM inference** | EMNLP 2025 | heterogeneous CPU/GPU inference / speculative decoding | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.879) | — |
+| **Cache Saver: A Modular Framework for Efficient, Affordable, and Reproducible LLM Inference** | EMNLP 2025 Findings | LLM inference framework / response caching / cost and carbon efficiency | [Link](https://doi.org/10.18653/v1/2025.findings-emnlp.1402) | [Repo](https://github.com/au-clan/cachesaver) |
+| **Hardware-Aware Parallel Prompt Decoding for Memory-Efficient Acceleration of LLM Inference** | EMNLP 2025 Findings | speculative decoding / edge LLM / memory-efficient inference | [Link](https://doi.org/10.18653/v1/2025.findings-emnlp.120) | — |
 | **AdaServe: Accelerating Multi-SLO LLM Serving with SLO-Customized Speculative Decoding** | EuroSys 2026 | LLM serving / speculative decoding / multi-SLO | — | — |
 | **Scaling LLM Test-Time Compute with Mobile NPU on Smartphones** | EuroSys 2026 | on-device LLM reasoning / mobile NPU / hardware-aware quantization | [Link](https://arxiv.org/abs/2509.23324) | — |
 | **TailorLLM: Collaborative End-Cloud Inference of Large and Small Language Models Based on Low-Rank Adaptation** | EuroSys 2026 | edge/cloud LLM inference / collaborative serving / LoRA | — | — |

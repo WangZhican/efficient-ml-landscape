@@ -1,6 +1,6 @@
 # 12 · Diffusion / Flow Acceleration
 
-> **67 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **69 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [Complete Paper List](ALL_PAPERS.md)
 
@@ -29,6 +29,8 @@
 | **Post-training Quantization with Progressive Calibration and Activation Relaxing for Text-to-Image Diffusion Models** | ECCV 2024 | diffusion quantization | — | — |
 | **SlimFlow: Training Smaller One-Step Diffusion Models with Rectified Flow** | ECCV 2024 | compact one-step diffusion | — | — |
 | **Timestep-Aware Correction for Quantized Diffusion Models** | ECCV 2024 | diffusion quantization | — | — |
+| **Alignment-Augmented Speculative Decoding with Alignment Sampling and Conditional Verification** | EMNLP 2025 | speculative decoding / conditional verification | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.343) | — |
+| **DynamicKV: Task-Aware Adaptive KV Cache Compression for Long Context LLMs** | EMNLP 2025 Findings | KV cache compression / task-aware adaptive allocation | [Link](https://doi.org/10.18653/v1/2025.findings-emnlp.426) | — |
 | **FlashPS: Efficient Generative Image Editing with Mask-aware Caching and Scheduling** | EuroSys 2026 | diffusion serving / image editing / activation caching / continuous batching | [Link](https://arxiv.org/abs/2505.20600) | — |
 | **Accelerating Diffusion Transformer via Gradient-Optimized Cache** | ICCV 2025 | diffusion transformer feature caching | — | — |
 | **Fewer Denoising Steps or Cheaper Per-Step Inference: Towards Compute-Optimal Diffusion Model Deployment** | ICCV 2025 | diffusion deployment / compute-optimal inference | — | — |

@@ -1,6 +1,6 @@
 # 02 · Speculative Decoding
 
-> **72 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **75 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [Complete Paper List](ALL_PAPERS.md)
 
@@ -34,10 +34,13 @@
 | **XY-Serve: End-to-End Versatile Production Serving for Dynamic LLM Workloads** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://arxiv.org/abs/2412.18106) | — |
 | **ZipServ** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | — | — |
 | **ZipServ: Fast and Memory-Efficient LLM Inference with Hardware-Aware Lossless Compression** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://arxiv.org/abs/2603.17435) | — |
+| **Accelerated Test-Time Scaling with Model-Free Speculative Sampling** | EMNLP 2025 | efficient reasoning / model-free speculative decoding | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.1558) | — |
+| **Alignment-Augmented Speculative Decoding with Alignment Sampling and Conditional Verification** | EMNLP 2025 | speculative decoding / conditional verification | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.343) | — |
 | **Cacheback: Speculative Decoding With Nothing But Cache** | EMNLP 2025 | speculative decoding / cache-based drafting | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.1581) | — |
 | **Dovetail: A CPU/GPU Heterogeneous Speculative Decoding for LLM inference** | EMNLP 2025 | heterogeneous CPU/GPU inference / speculative decoding | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.879) | — |
 | **QSpec: Speculative Decoding with Complementary Quantization Schemes** | EMNLP 2025 | speculative decoding / quantization | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.240) | — |
 | **Speculative Streaming: Efficient and Scalable Speculative Decoding with Multi-Stream Attention** | EMNLP 2025 | speculative decoding / multi-stream attention | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.986) | — |
+| **Hardware-Aware Parallel Prompt Decoding for Memory-Efficient Acceleration of LLM Inference** | EMNLP 2025 Findings | speculative decoding / edge LLM / memory-efficient inference | [Link](https://doi.org/10.18653/v1/2025.findings-emnlp.120) | — |
 | **AdaServe: Accelerating Multi-SLO LLM Serving with SLO-Customized Speculative Decoding** | EuroSys 2026 | LLM serving / speculative decoding / multi-SLO | — | — |
 | **CXL-SpecKV: A Disaggregated FPGA Speculative KV-Cache for Datacenter LLM Serving** | FPGA 2026 | LLM serving / CXL / FPGA / speculative KV cache | [Link](https://arxiv.org/abs/2512.11920) | — |
 | **Adaptive Draft Sequence Length** | HPCA 2026 | efficient VLM + PIM inference + reasoning accelerator + speculative decoding | — | — |

@@ -1,6 +1,6 @@
 # 03 · KV Cache / Long Context
 
-> **130 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **135 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [Complete Paper List](ALL_PAPERS.md)
 
@@ -39,6 +39,11 @@
 | **Lookahead Q-Cache: Achieving More Consistent KV Cache Eviction via Pseudo Query** | EMNLP 2025 | KV cache eviction / long-context inference | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.1732) | — |
 | **TokenSelect: Efficient Long-Context Inference and Length Extrapolation for LLMs via Dynamic Token-Level KV Cache Selection** | EMNLP 2025 | long-context inference / KV selection / sparse attention | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.1079) | — |
 | **XQuant: Achieving Ultra-Low Bit KV Cache Quantization with Cross-Layer Compression** | EMNLP 2025 | KV cache quantization / long-context inference | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.494) | — |
+| **DynamicKV: Task-Aware Adaptive KV Cache Compression for Long Context LLMs** | EMNLP 2025 Findings | KV cache compression / task-aware adaptive allocation | [Link](https://doi.org/10.18653/v1/2025.findings-emnlp.426) | — |
+| **EvolKV: Evolutionary KV Cache Compression for LLM Inference** | EMNLP 2025 Findings | KV cache compression / evolutionary budget allocation | [Link](https://doi.org/10.18653/v1/2025.findings-emnlp.88) | — |
+| **Hardware-Aware Parallel Prompt Decoding for Memory-Efficient Acceleration of LLM Inference** | EMNLP 2025 Findings | speculative decoding / edge LLM / memory-efficient inference | [Link](https://doi.org/10.18653/v1/2025.findings-emnlp.120) | — |
+| **LAVa: Layer-wise KV Cache Eviction with Dynamic Budget Allocation** | EMNLP 2025 Findings | KV cache eviction / dynamic layer-head budgets | [Link](https://doi.org/10.18653/v1/2025.findings-emnlp.737) | — |
+| **More Tokens, Lower Precision: Towards the Optimal Token-Precision Trade-off in KV Cache Compression** | EMNLP 2025 Findings | KV cache compression / token-precision co-optimization | [Link](https://doi.org/10.18653/v1/2025.findings-emnlp.429) | — |
 | **High Throughput and Low Latency LLM Serving via Adaptive KV Caching** | EuroSys 2026 | LLM serving / KV cache / adaptive caching | [Link](https://doi.org/10.1145/3767295.3803570) | — |
 | **MFS: An Efficient Model Family Serving System for LLMs** | EuroSys 2026 | LLM model-family serving / multi-tier batching / cross-model KV sharing | [Link](https://doi.org/10.1145/3767295.3769355) | — |
 | **SAS: Sparse Attention Synthesizer for Efficient Language Model Inference** | EuroSys 2026 | efficient attention / kernel synthesis / KV cache | [Link](https://arxiv.org/abs/2602.09051) | — |
