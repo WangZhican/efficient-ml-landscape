@@ -1631,6 +1631,111 @@
     ]
   },
   {
+    "title": "AASD: Accelerate Inference by Aligning Speculative Decoding in Multimodal Large Language Models",
+    "venue": "DAC 2025",
+    "topic": "multimodal LLM inference / speculative decoding / alignment-aware acceleration",
+    "arxiv": "",
+    "doi": "10.1109/DAC63849.2025.11132960",
+    "official_id": "10.1109/DAC63849.2025.11132960",
+    "paper_url": "https://doi.org/10.1109/DAC63849.2025.11132960",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "DAC 2025 direct multimodal speculative-decoding paper. Official conference metadata confirms paper identity; retained because it directly targets autoregressive MLLM inference latency through aligned speculative decoding.",
+    "directions": [
+      "Speculative Decoding",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
+    "title": "AttenPIM: Accelerating LLM Attention with Dual-mode GEMV in Processing-in-Memory",
+    "venue": "DAC 2025",
+    "topic": "LLM attention acceleration / processing-in-memory / dual-mode GEMV",
+    "arxiv": "",
+    "doi": "10.1109/DAC63849.2025.11133230",
+    "official_id": "10.1109/DAC63849.2025.11133230",
+    "paper_url": "https://doi.org/10.1109/DAC63849.2025.11133230",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "DAC 2025 direct LLM attention architecture paper. It targets the memory-bound attention GEMV phase with dual-mode PIM execution and is a first-class hardware-efficiency route rather than a generic architecture paper.",
+    "directions": [
+      "Efficient Attention",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "HybriMoE: Hybrid CPU-GPU Scheduling and Cache Management for Efficient MoE Inference",
+    "venue": "DAC 2025",
+    "topic": "MoE inference / hybrid CPU-GPU scheduling / expert prefetch and cache management",
+    "arxiv": "2504.05897",
+    "doi": "10.1109/DAC63849.2025.11133274",
+    "official_id": "10.1109/DAC63849.2025.11133274",
+    "paper_url": "https://arxiv.org/abs/2504.05897",
+    "code_url": "https://github.com/PKU-SEC-Lab/HybriMoE",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "DAC 2025 MoE systems paper implemented on kTransformers. Dynamic intra-layer CPU/GPU scheduling, impact-driven inter-layer prefetching and score-based expert caching deliver 1.33x average prefill and 1.70x decode speedup over prior hybrid MoE inference.",
+    "directions": [
+      "LLM Serving",
+      "MoE Systems / Accelerators",
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "ReaLM: Reliable and Efficient Large Language Model Inference with Statistical Algorithm-Based Fault Tolerance",
+    "venue": "DAC 2025",
+    "topic": "reliable and energy-efficient LLM inference / statistical ABFT / algorithm-circuit co-design",
+    "arxiv": "2503.24053",
+    "doi": "10.1109/DAC63849.2025.11132610",
+    "official_id": "10.1109/DAC63849.2025.11132610",
+    "paper_url": "https://arxiv.org/abs/2503.24053",
+    "code_url": "https://github.com/PKU-SEC-Lab/ReaLM_DAC25",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "DAC 2025 direct LLM-inference efficiency paper. Statistical ABFT exploits intrinsic LLM resilience to reduce recovery overhead; paper reports up to 35.83% higher energy efficiency with 1.42% area and 1.79% power overhead.",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "SpecASR: Accelerating LLM-based Automatic Speech Recognition via Speculative Decoding",
+    "venue": "DAC 2025",
+    "topic": "speculative decoding / audio-language inference / real-time ASR",
+    "arxiv": "2507.18181",
+    "doi": "10.1109/DAC63849.2025.11132579",
+    "official_id": "10.1109/DAC63849.2025.11132579",
+    "paper_url": "https://arxiv.org/abs/2507.18181",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "DAC 2025 task-specialized speculative decoding for LLM-based ASR. Adaptive draft length, draft recycling and sparse token-tree generation achieve 3.04x-3.79x over autoregressive decoding and 1.25x-1.84x over generic speculative decoding without recognition-accuracy loss.",
+    "directions": [
+      "Speculative Decoding",
+      "Sparsity / Pruning"
+    ]
+  },
+  {
+    "title": "SQ-DM: Accelerating Diffusion Models with Aggressive Quantization and Temporal Sparsity",
+    "venue": "DAC 2025",
+    "topic": "diffusion acceleration / low-bit quantization / temporal activation sparsity / accelerator co-design",
+    "arxiv": "2501.15448",
+    "doi": "10.1109/DAC63849.2025.11132632",
+    "official_id": "10.1109/DAC63849.2025.11132632",
+    "paper_url": "https://arxiv.org/abs/2501.15448",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "DAC 2025 algorithm-hardware co-design for diffusion inference using aggressive 4-bit quantization plus temporal/channel activation sparsity. Custom accelerator reports 6.91x speedup and 51.5% energy reduction versus dense accelerator baseline.",
+    "directions": [
+      "Quantization",
+      "Sparsity / Pruning",
+      "GPU Kernel / DSL / Compiler",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "AdaDiff: Accelerating Diffusion Models through Step-Wise Adaptive Computation",
     "venue": "ECCV 2024",
     "topic": "diffusion acceleration / adaptive computation / early exit",

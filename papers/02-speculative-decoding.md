@@ -1,6 +1,6 @@
 # 02 · Speculative Decoding
 
-> **80 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **82 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [Complete Paper List](ALL_PAPERS.md)
 
@@ -37,6 +37,8 @@
 | **ZipServ** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | — | — |
 | **ZipServ: Fast and Memory-Efficient LLM Inference with Hardware-Aware Lossless Compression** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://arxiv.org/abs/2603.17435) | — |
 | **PredGen: Accelerated Inference of Large Language Models through Input-Time Speculation for Real-Time Speech Interaction** | COLM 2025 | speculative decoding / real-time speech interaction / input-time speculation | [Link](https://arxiv.org/abs/2506.15556) | — |
+| **AASD: Accelerate Inference by Aligning Speculative Decoding in Multimodal Large Language Models** | DAC 2025 | multimodal LLM inference / speculative decoding / alignment-aware acceleration | [Link](https://doi.org/10.1109/DAC63849.2025.11132960) | — |
+| **SpecASR: Accelerating LLM-based Automatic Speech Recognition via Speculative Decoding** | DAC 2025 | speculative decoding / audio-language inference / real-time ASR | [Link](https://arxiv.org/abs/2507.18181) | — |
 | **Accelerated Test-Time Scaling with Model-Free Speculative Sampling** | EMNLP 2025 | efficient reasoning / model-free speculative decoding | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.1558) | — |
 | **Alignment-Augmented Speculative Decoding with Alignment Sampling and Conditional Verification** | EMNLP 2025 | speculative decoding / conditional verification | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.343) | — |
 | **Cacheback: Speculative Decoding With Nothing But Cache** | EMNLP 2025 | speculative decoding / cache-based drafting | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.1581) | — |
