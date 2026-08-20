@@ -3406,6 +3406,39 @@
     ]
   },
   {
+    "title": "AQuant: Repurposing CODEC for VLM Acceleration via Adaptive Quantization",
+    "venue": "ISCA 2026",
+    "topic": "VLM acceleration / adaptive quantization / hardware co-design",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ISCA2026_PROGRAM",
+    "paper_url": "https://www.iscaconf.org/isca2026/program/",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Direct ISCA 2026 VLM acceleration paper; adaptive quantization repurposes codec hardware for multimodal inference and is independently confirmed on the author publication page.",
+    "directions": [
+      "Quantization",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
+    "title": "Bridging Efficiency and Scalability in LLM System via 3D Hybrid PIM with 2D In-Transit Computation",
+    "venue": "ISCA 2026",
+    "topic": "LLM inference accelerator / hybrid PIM / in-transit computation",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ISCA2026_PROGRAM",
+    "paper_url": "https://www.iscaconf.org/isca2026/program/",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Direct ISCA 2026 LLM-system architecture combining 3D hybrid PIM with 2D in-transit computation for efficiency and scalability.",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Cassandra: Enabling Reasoning LLMs at Edge via Self-Speculative Decoding",
     "venue": "ISCA 2026",
     "topic": "edge speculative reasoning + quantization + memory-system + generative inference accelerators",
@@ -3490,6 +3523,23 @@
     "directions": [
       "MoE Systems / Accelerators",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "DisDP: Disaggregating Compute, Network, and Storage for Model-Sharded Data-Parallel Training",
+    "venue": "ISCA 2026",
+    "topic": "distributed LLM training / disaggregation / SmartNIC-SmartSwitch",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ISCA2026_PROGRAM",
+    "paper_url": "https://www.iscaconf.org/isca2026/program/",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Direct ISCA 2026 distributed-training systems paper; disaggregates compute, network and storage for model-sharded data parallelism and reports 3.98x on an 8-GPU 175B setup on the author page.",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
     ]
   },
   {
@@ -3594,6 +3644,22 @@
     ]
   },
   {
+    "title": "MLX: Multi-Layer Execution for Structured LLM Workload Acceleration on Spatial Architectures",
+    "venue": "ISCA 2026",
+    "topic": "LLM workload accelerator / spatial architecture / multi-layer execution",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ISCA2026_PROGRAM",
+    "paper_url": "https://www.iscaconf.org/isca2026/program/",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ISCA 2026 Best Paper Candidate; direct architecture result for structured LLM workload acceleration on spatial architectures.",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "MoE-Hub: Taming Software Complexity for Seamless MoE Overlap with Hardware-Accelerated Communication on Multi-GPU Systems",
     "venue": "ISCA 2026",
     "topic": "MoE systems / multi-GPU communication overlap",
@@ -3648,6 +3714,24 @@
     ]
   },
   {
+    "title": "Omni-LUT: Energy-Efficient LUT-based Accelerator with Hardware-Aware KV Cache Quantization",
+    "venue": "ISCA 2026",
+    "topic": "LLM inference accelerator / LUT / KV-cache quantization",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ISCA2026_PROGRAM",
+    "paper_url": "https://www.iscaconf.org/isca2026/program/",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Direct ISCA 2026 LLM accelerator combining LUT-based execution with hardware-aware KV-cache quantization; independently confirmed on the senior author publication page.",
+    "directions": [
+      "KV Cache / Long Context",
+      "Quantization",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
     "title": "P3-LLM: An Integrated NPU-PIM Accelerator for Edge LLM Inference Using Hybrid Numerical Formats",
     "venue": "ISCA 2026",
     "topic": "edge LLM / PIM / mixed precision",
@@ -3677,6 +3761,22 @@
     "why": "Direct Efficient-ML/AI-infrastructure paper in the official ISCA 2026 program.",
     "directions": [
       "MoE Systems / Accelerators"
+    ]
+  },
+  {
+    "title": "QiMeng-Tensify: Scaling up Tensor Computation Optimization via Architecture-Aware LLM-Guided MCTS",
+    "venue": "ISCA 2026",
+    "topic": "tensor compiler / architecture-aware optimization / LLM-guided search",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ISCA2026_PROGRAM",
+    "paper_url": "https://www.iscaconf.org/isca2026/program/",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Direct ISCA 2026 tensor-computation optimization work using architecture-aware LLM-guided MCTS; relevant to compiler/kernel automation for Efficient ML.",
+    "directions": [
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {
@@ -5709,7 +5809,7 @@
     "doi": "10.1145/3718958.3750529",
     "official_id": "10.1145/3718958.3750529",
     "paper_url": "https://arxiv.org/abs/2506.05779",
-    "code_url": "https://github.com/afireswallow/Pegasus",
+    "code_url": "",
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "BACKFILL_HIGH",
     "why": "",
