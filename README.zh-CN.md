@@ -19,8 +19,8 @@
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/Papers-424-7c3aed?style=for-the-badge" alt="424 papers" />
-  <img src="https://img.shields.io/badge/Primary%20Links-365-059669?style=for-the-badge" alt="365 primary links" />
+  <img src="https://img.shields.io/badge/Papers-426-7c3aed?style=for-the-badge" alt="426 papers" />
+  <img src="https://img.shields.io/badge/Primary%20Links-368-059669?style=for-the-badge" alt="368 primary links" />
   <img src="https://img.shields.io/badge/Research%20Tracks-15-2563eb?style=for-the-badge" alt="15 research tracks" />
   <img src="https://img.shields.io/badge/Physical%20AI-Protected-f59e0b?style=for-the-badge" alt="Physical AI protected" />
 </p>
@@ -33,7 +33,7 @@
 
 **重要论文 · 技术路线 · 研究团队 · 系统 Venue · 官方代码 · Coverage Audit，一站式整理。**
 
-### [📚 直接浏览 424 篇论文总表 →](papers/ALL_PAPERS.md)
+### [📚 直接浏览 426 篇论文总表 →](papers/ALL_PAPERS.md)
 
 ### [🧭 按 15 个研究方向浏览 →](papers/README.md)
 
@@ -45,14 +45,14 @@
 
 | 指标 | 当前公开版本 |
 |---|---:|
-| **质量门控后的唯一论文** | **424** |
-| **已有可信一手论文链接** | **365** |
+| **质量门控后的唯一论文** | **426** |
+| **已有可信一手论文链接** | **368** |
 | **最新 Strong 论文** | **35** |
 | **研究方向** | **15** |
 | **已出现的 Venue/Source 标签** | **42** |
 
 > [!IMPORTANT]
-> **Paper list 是这个仓库的核心。** 当前内部 canonical census 中已经验证的论文底库已经完整导出到公开仓库。下一层是在这 424 篇基础上继续补官方 repo、开源状态、GitHub stars、must-read 等级和技术路线关系，而不是再保留一个空壳主页。
+> **Paper list 是这个仓库的核心。** 当前内部 canonical census 中已经验证的论文底库已经完整导出到公开仓库。下一层是在这 426 篇基础上继续补官方 repo、开源状态、GitHub stars、must-read 等级和技术路线关系，而不是再保留一个空壳主页。
 
 ---
 

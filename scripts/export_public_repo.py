@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import argparse
 import csv
 import json
 import re
@@ -6,7 +7,6 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE = ROOT.parent / "efficient ml paper reading" / "2026-08-20" / "_manager" / "LATEST_PAPER_TODO.json"
 
 DIRECTIONS = [
     ("01-llm-serving", "LLM Serving", ["serving", "serve", "scheduler", "scheduling", "slo", "batching", "prefill", "decode", "inference system", "goodput", "throughput"]),
@@ -87,7 +87,10 @@ def markdown_table(records):
 
 
 def main():
-    d = json.loads(SOURCE.read_text())
+    parser = argparse.ArgumentParser(description="Export a public-safe Efficient ML paper index from a validated JSON source.")
+    parser.add_argument("--source", required=True, type=Path, help="Path to the validated source JSON.")
+    args = parser.parse_args()
+    d = json.loads(args.source.read_text())
     raw = d.get("formal_high_value_records", [])
     seen = set()
     records = []

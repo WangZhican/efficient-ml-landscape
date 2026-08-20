@@ -1,6 +1,6 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **108 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **109 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [Complete Paper List](ALL_PAPERS.md)
 
@@ -79,6 +79,7 @@
 | **Mimic Intent, Not Just Trajectories** | RSS 2026 | Physical AI / spectral action tokenization / efficient autoregressive policy | [Link](https://arxiv.org/abs/2602.08602) | — |
 | **OAT: Ordered Action Tokenization** | RSS 2026 | Physical AI / action tokenization / anytime inference | [Link](https://arxiv.org/abs/2602.04215) | — |
 | **Machine Learning-Guided Memory Optimization for DLRM Inference on Tiered Memory** | SC 2025 | DLRM inference / tiered memory / ML-guided caching-prefetching | [Link](https://arxiv.org/abs/2511.08568) | — |
+| **Astral: A Datacenter Infrastructure for Large Language Model Training at Scale** | SIGCOMM 2025 | large-scale LLM training infrastructure / datacenter network / monitoring / performance forecasting | [Link](https://doi.org/10.1145/3718958.3750521) | — |
 | **Beluga: A CXL-Based Memory Architecture for Scalable and Efficient LLM KVCache Management** | SIGMOD 2026 | CXL memory / KV-cache serving | [Link](https://arxiv.org/abs/2511.20172) | — |
 | **Serving Hybrid LLM Loads with SLO Guarantees Using CPU-GPU Attention Piggybacking** | SIGMOD 2026 | LLM serving / heterogeneous CPU-GPU / SLO scheduling | [Link](https://arxiv.org/abs/2603.12831) | — |
 | **Medha** | SoCC 2026 | KV virtualization + long-context serving + GPU colocation + on-device adaptation | — | — |

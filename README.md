@@ -19,8 +19,8 @@
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/Papers-424-7c3aed?style=for-the-badge" alt="424 papers" />
-  <img src="https://img.shields.io/badge/Primary%20Links-365-059669?style=for-the-badge" alt="365 primary links" />
+  <img src="https://img.shields.io/badge/Papers-426-7c3aed?style=for-the-badge" alt="426 papers" />
+  <img src="https://img.shields.io/badge/Primary%20Links-368-059669?style=for-the-badge" alt="368 primary links" />
   <img src="https://img.shields.io/badge/Research%20Tracks-15-2563eb?style=for-the-badge" alt="15 research tracks" />
   <img src="https://img.shields.io/badge/Physical%20AI-Protected-f59e0b?style=for-the-badge" alt="Physical AI protected" />
 </p>
@@ -33,7 +33,7 @@
 
 **Influential papers, technical lineages, major research groups, systems venues, official repositories, and auditable coverage — in one place.**
 
-### [📚 Browse the complete 424-paper list →](papers/ALL_PAPERS.md)
+### [📚 Browse the complete 426-paper list →](papers/ALL_PAPERS.md)
 
 ### [🧭 Explore by 15 research directions →](papers/README.md)
 
@@ -45,8 +45,8 @@
 
 | Metric | Current public view |
 |---|---:|
-| **Quality-gated unique papers** | **424** |
-| **Papers with resolved primary-source links** | **365** |
+| **Quality-gated unique papers** | **426** |
+| **Papers with resolved primary-source links** | **368** |
 | **Latest strong papers** | **35** |
 | **Research directions** | **15** |
 | **Venue/source labels represented** | **42** |

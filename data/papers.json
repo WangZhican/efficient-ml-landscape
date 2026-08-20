@@ -5576,12 +5576,28 @@
     ]
   },
   {
-    "title": "ByteScale",
+    "title": "Astral: A Datacenter Infrastructure for Large Language Model Training at Scale",
+    "venue": "SIGCOMM 2025",
+    "topic": "large-scale LLM training infrastructure / datacenter network / monitoring / performance forecasting",
+    "arxiv": "",
+    "doi": "10.1145/3718958.3750521",
+    "official_id": "10.1145/3718958.3750521",
+    "paper_url": "https://doi.org/10.1145/3718958.3750521",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Production datacenter infrastructure co-designed for ultra-scale LLM training, combining same-rail tier-2 interconnection, power/cooling design, full-stack monitoring, and operator-granular Seer forecasting; reports near-linear production scaling with about 0.6% efficiency loss, 16.34% PUE improvement, and up to 25x faster fault localization.",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "ByteScale: Communication-Efficient Scaling of LLM Training with a 2048K Context Length on 16384 GPUs",
     "venue": "SIGCOMM 2025",
     "topic": "KV encoding + MoE training fabric + long-context training + AI networking/inference",
     "arxiv": "2502.21231",
-    "doi": "",
-    "official_id": "",
+    "doi": "10.1145/3718958.3754352",
+    "official_id": "10.1145/3718958.3754352",
     "paper_url": "https://arxiv.org/abs/2502.21231",
     "code_url": "",
     "formal_class": "CANONICAL_HIGH_VALUE",
@@ -5589,7 +5605,9 @@
     "why": "",
     "directions": [
       "KV Cache / Long Context",
-      "MoE Systems / Accelerators"
+      "MoE Systems / Accelerators",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
     ]
   },
   {
@@ -5666,12 +5684,12 @@
     ]
   },
   {
-    "title": "MixNet",
+    "title": "MixNet: A Runtime Reconfigurable Optical-Electrical Fabric for Distributed Mixture-of-Experts Training",
     "venue": "SIGCOMM 2025",
     "topic": "KV encoding + MoE training fabric + long-context training + AI networking/inference",
     "arxiv": "2501.03905",
-    "doi": "",
-    "official_id": "",
+    "doi": "10.1145/3718958.3750465",
+    "official_id": "10.1145/3718958.3750465",
     "paper_url": "https://arxiv.org/abs/2501.03905",
     "code_url": "",
     "formal_class": "CANONICAL_HIGH_VALUE",
@@ -5679,18 +5697,19 @@
     "why": "",
     "directions": [
       "KV Cache / Long Context",
-      "MoE Systems / Accelerators"
+      "MoE Systems / Accelerators",
+      "Distributed Training / Inference"
     ]
   },
   {
-    "title": "Pegasus",
+    "title": "Pegasus: A Universal Framework for Scalable Deep Learning Inference on the Dataplane",
     "venue": "SIGCOMM 2025",
     "topic": "KV encoding + MoE training fabric + long-context training + AI networking/inference",
     "arxiv": "2506.05779",
-    "doi": "",
-    "official_id": "",
+    "doi": "10.1145/3718958.3750529",
+    "official_id": "10.1145/3718958.3750529",
     "paper_url": "https://arxiv.org/abs/2506.05779",
-    "code_url": "",
+    "code_url": "https://github.com/afireswallow/Pegasus",
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "BACKFILL_HIGH",
     "why": "",
@@ -5735,20 +5754,39 @@
     ]
   },
   {
-    "title": "SGLB",
+    "title": "SGLB: Scalable and Robust Global Load Balancing in Commodity AI Clusters",
     "venue": "SIGCOMM 2025",
     "topic": "KV encoding + MoE training fabric + long-context training + AI networking/inference",
     "arxiv": "",
-    "doi": "",
-    "official_id": "",
-    "paper_url": "",
+    "doi": "10.1145/3718958.3750527",
+    "official_id": "10.1145/3718958.3750527",
+    "paper_url": "https://doi.org/10.1145/3718958.3750527",
     "code_url": "",
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "BACKFILL_HIGH",
     "why": "",
     "directions": [
       "KV Cache / Long Context",
-      "MoE Systems / Accelerators"
+      "MoE Systems / Accelerators",
+      "Distributed Training / Inference",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "SyCCL: Exploiting Symmetry for Efficient Collective Communication Scheduling",
+    "venue": "SIGCOMM 2025",
+    "topic": "distributed ML training / collective communication schedule synthesis",
+    "arxiv": "",
+    "doi": "10.1145/3718958.3750499",
+    "official_id": "10.1145/3718958.3750499",
+    "paper_url": "https://doi.org/10.1145/3718958.3750499",
+    "code_url": "https://github.com/aliyun/syccl",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Scalable collective schedule synthesizer for production-scale ML jobs; exploits collective/topology symmetry to reduce synthesis search space, reporting up to 127% collective-performance improvement and 2-4 orders of magnitude shorter synthesis time versus prior synthesizers.",
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference"
     ]
   },
   {
