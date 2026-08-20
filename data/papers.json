@@ -4951,6 +4951,58 @@
     ]
   },
   {
+    "title": "Activated LoRA: Fine-tuned LLMs for Intrinsics",
+    "venue": "NeurIPS 2025",
+    "topic": "LoRA serving / KV cache reuse",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "NEURIPS2025-4d0b6303d4a4811445f69f357bf6def5",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/4d0b6303d4a4811445f69f357bf6def5-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Adapter design that reuses the base-model KV cache when activating specialized LoRAs, avoiding history recomputation; implementation contributed to Hugging Face PEFT.",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context"
+    ]
+  },
+  {
+    "title": "Block-Diagonal LoRA for Eliminating Communication Overhead in Tensor Parallel LoRA Serving",
+    "venue": "NeurIPS 2025",
+    "topic": "LoRA serving / tensor parallel communication elimination",
+    "arxiv": "",
+    "doi": "10.52202/085713-0010",
+    "official_id": "NEURIPS2025-0095274aecea2127c404fc6f7462aa44",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/0095274aecea2127c404fc6f7462aa44-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Eliminates additional LoRA communication under tensor-parallel serving; NeurIPS reports up to 1.79x end-to-end speedup over S-LoRA.",
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "ChunkKV: Semantic-Preserving KV Cache Compression for Efficient Long-Context LLM Inference",
+    "venue": "NeurIPS 2025",
+    "topic": "KV cache compression / long-context inference",
+    "arxiv": "",
+    "doi": "10.52202/085713-0966",
+    "official_id": "NEURIPS2025-2987f911151b39cd3a1761e212319e8e",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/2987f911151b39cd3a1761e212319e8e-Abstract-Conference.html",
+    "code_url": "https://github.com/NVIDIA/kvpress",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Semantic-chunk KV compression with layer-wise index reuse; reports 26.5% throughput improvement at matched compression settings.",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context"
+    ]
+  },
+  {
     "title": "Compress, Gather, and Recompute: REFORMing Long-Context Processing in Transformers",
     "venue": "NeurIPS 2025",
     "topic": "long-context inference / compressed KV / recompute",
@@ -4980,6 +5032,22 @@
     "why": "Training-free block linearization; 32% inference speed increase on DeepSeek-R1-Distill-Llama-8B with <1% accuracy tradeoff.",
     "directions": [
       "Efficient Attention"
+    ]
+  },
+  {
+    "title": "GRIFFIN: Effective Token Alignment for Faster Speculative Decoding",
+    "venue": "NeurIPS 2025",
+    "topic": "speculative decoding / draft-model alignment",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "NEURIPS2025-b6e67ae290635d0874c4cb43ba2a2cfb",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/b6e67ae290635d0874c4cb43ba2a2cfb-Abstract-Conference.html",
+    "code_url": "https://github.com/hsj576/GRIFFIN",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Token-alignable training and draft model improve speculative acceptance length and decoding speed across LLaMA/Vicuna/Qwen/Mixtral.",
+    "directions": [
+      "Speculative Decoding"
     ]
   },
   {
@@ -5017,6 +5085,23 @@
     ]
   },
   {
+    "title": "KeyDiff: Key Similarity-Based KV Cache Eviction for Long-Context LLM Inference in Resource-Constrained Environments",
+    "venue": "NeurIPS 2025",
+    "topic": "KV cache eviction / resource-constrained long context",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "NEURIPS2025-0907335ecf28faf15be54485dbcbe70e",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/0907335ecf28faf15be54485dbcbe70e-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Training-free key-similarity eviction compatible with optimized attention; reports up to 30% lower end-to-end latency.",
+    "directions": [
+      "KV Cache / Long Context",
+      "Efficient Attention"
+    ]
+  },
+  {
     "title": "Knowing When to Stop: Efficient Context Processing via Latent Sufficiency Signals",
     "venue": "NeurIPS 2025",
     "topic": "efficient context processing / adaptive cutoff",
@@ -5050,6 +5135,58 @@
     ]
   },
   {
+    "title": "KVzip: Query-Agnostic KV Cache Compression with Context Reconstruction",
+    "venue": "NeurIPS 2025",
+    "topic": "KV cache eviction / multi-query reuse",
+    "arxiv": "",
+    "doi": "10.52202/085713-5585",
+    "official_id": "NEURIPS2025-f4eaa4b8f2d08edb3f0af990d56134ea",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/f4eaa4b8f2d08edb3f0af990d56134ea-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Query-agnostic compressed KV reuse via context reconstruction; reports 3-4x cache reduction and about 2x FlashAttention decoding-latency reduction.",
+    "directions": [
+      "KV Cache / Long Context",
+      "Efficient Attention"
+    ]
+  },
+  {
+    "title": "Memory-Efficient Visual Autoregressive Modeling with Scale-Aware KV Cache Compression",
+    "venue": "NeurIPS 2025",
+    "topic": "visual autoregressive generation / KV cache compression",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "NEURIPS2025-14550b451b65682b09f9080026d00a7e",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/14550b451b65682b09f9080026d00a7e-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ScaleKV uses scale/layer-aware KV allocation for VAR models and reports reducing KV memory to 10% while preserving pixel-level fidelity.",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context"
+    ]
+  },
+  {
+    "title": "MoESD: Unveil Speculative Decoding's Potential for Accelerating Sparse MoE",
+    "venue": "NeurIPS 2025",
+    "topic": "MoE inference / speculative decoding",
+    "arxiv": "",
+    "doi": "10.52202/085713-4176",
+    "official_id": "NEURIPS2025-b637af7745d3ad4cb0b9cdaa056ab41e",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/b637af7745d3ad4cb0b9cdaa056ab41e-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Systematic MoE speculative-decoding analysis and target-efficiency metric; reports up to 2.29x speedup for Qwen2-57B-A14B.",
+    "directions": [
+      "Speculative Decoding",
+      "Sparsity / Pruning",
+      "MoE Systems / Accelerators"
+    ]
+  },
+  {
     "title": "SageAttention3: Microscaling FP4 Attention for Inference and An Exploration of 8-Bit Training",
     "venue": "NeurIPS 2025",
     "topic": "low-bit attention kernel / FP4",
@@ -5065,6 +5202,44 @@
       "Quantization",
       "Efficient Attention",
       "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "Self Forcing: Bridging the Train-Test Gap in Autoregressive Video Diffusion",
+    "venue": "NeurIPS 2025",
+    "topic": "autoregressive video diffusion / streaming generation",
+    "arxiv": "",
+    "doi": "10.52202/085713-5576",
+    "official_id": "NEURIPS2025-f4823f831af67a3ef15e41a85434422a",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/f4823f831af67a3ef15e41a85434422a-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Uses autoregressive rollout, stochastic gradient truncation, and rolling KV cache to enable real-time streaming video generation with sub-second latency on one GPU.",
+    "directions": [
+      "KV Cache / Long Context",
+      "GPU Kernel / DSL / Compiler",
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "SmallKV: Small Model Assisted Compensation of KV Cache Compression for Efficient LLM Inference",
+    "venue": "NeurIPS 2025",
+    "topic": "KV cache compression / small-model assistance",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "NEURIPS2025-45790132b9f91b5787232e1cbe0712fc",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/45790132b9f91b5787232e1cbe0712fc-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Compensates saliency shift and marginal-information over-compression with a small-model attention proxy; reports 1.75-2.56x throughput over baselines.",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Attention"
     ]
   },
   {
@@ -5086,6 +5261,24 @@
     ]
   },
   {
+    "title": "Speculate Deep and Accurate: Lossless and Training-Free Acceleration for Offloaded LLMs via Substitute Speculative Decoding",
+    "venue": "NeurIPS 2025",
+    "topic": "offloaded LLM inference / speculative decoding",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "NEURIPS2025-4e32ca54ae8a3a0ea4c1fd3663f73b0f",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/4e32ca54ae8a3a0ea4c1fd3663f73b0f-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Training-free lossless speculative decoding specialized for parameter-offloaded, memory-limited consumer-GPU inference.",
+    "directions": [
+      "Speculative Decoding",
+      "KV Cache / Long Context",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "Spotlight Attention: Towards Efficient LLM Generation via Non-linear Hashing-based KV Cache Retrieval",
     "venue": "NeurIPS 2025",
     "topic": "sparse attention / KV retrieval / CUDA kernel",
@@ -5103,6 +5296,22 @@
       "Sparsity / Pruning",
       "Efficient Attention",
       "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "Zebra-Llama: Towards Extremely Efficient Hybrid Models",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient hybrid LLM architecture / KV reduction",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "NEURIPS2025-7089237e828d55febd85a8d07f89e102",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/7089237e828d55febd85a8d07f89e102-Abstract-Conference.html",
+    "code_url": "https://github.com/AMD-AGI/AMD-Hybrid-Models",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Post-training composition of SSM+MLA hybrid models with major KV reduction and 1.4-3.3x throughput gains versus MambaInLlama.",
+    "directions": [
+      "LLM Serving"
     ]
   },
   {

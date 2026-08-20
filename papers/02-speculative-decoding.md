@@ -1,6 +1,6 @@
 # 02 · Speculative Decoding
 
-> **67 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **70 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [Complete Paper List](ALL_PAPERS.md)
 
@@ -68,7 +68,10 @@
 | **SpecGen** | MLSys 2026 | LLM serving + KV + speculative + reasoning efficiency | — | — |
 | **Speculative Decoding: Performance or Illusion?** | MLSys 2026 | speculative decoding / production inference characterization | — | — |
 | **SuperInfer** | MLSys 2026 | LLM serving + KV + speculative + reasoning efficiency | — | — |
+| **GRIFFIN: Effective Token Alignment for Faster Speculative Decoding** | NeurIPS 2025 | speculative decoding / draft-model alignment | — | [Repo](https://github.com/hsj576/GRIFFIN) |
+| **MoESD: Unveil Speculative Decoding's Potential for Accelerating Sparse MoE** | NeurIPS 2025 | MoE inference / speculative decoding | [Link](https://doi.org/10.52202/085713-4176) | — |
 | **SpecEdge: Scalable Edge-Assisted Serving Framework for Interactive LLMs** | NeurIPS 2025 | edge-cloud LLM serving / speculative decoding | — | — |
+| **Speculate Deep and Accurate: Lossless and Training-Free Acceleration for Offloaded LLMs via Substitute Speculative Decoding** | NeurIPS 2025 | offloaded LLM inference / speculative decoding | — | — |
 | **On Evaluating Performance of LLM Inference Serving Systems** | SoCC 2026 | LLM serving / evaluation methodology / systems benchmarking | [Link](https://arxiv.org/abs/2507.09019) | — |
 | **Self-Speculative Decoding for On-device MoE Acceleration** | The Web Conference 2026 | on-device MoE / speculative decoding | [Link](https://doi.org/10.1145/3774904.3792218) | — |
 | **SPECTRA: An Asymmetric-Precision Speculative Decoding LLM Accelerator with Product Quantization and Reconfigurable Flip-Flop Buffers in 28nm CMOS** | VLSI Symposium 2026 | speculative decoding / LLM accelerator | [Link](https://doi.org/10.1109/VLSITechnologyandCir65830.2026.11577608) | — |
