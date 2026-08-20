@@ -1,12 +1,14 @@
 # 02 · Speculative Decoding
 
-> **75 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **77 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [Complete Paper List](ALL_PAPERS.md)
 
 | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|
 | **DIAA: A Decoding-Efficient Inference Acceleration Approach for On-Device Large Language Models** | AAAI 2026 | on-device LLM / speculative decoding / edge inference | [Link](https://doi.org/10.1609/aaai.v40i31.39789) | — |
+| **Scaling LLM Speculative Decoding: Non-Autoregressive Forecasting in Large-Batch Scenarios** | AAAI 2026 | speculative decoding / large-batch inference / non-autoregressive drafting | [Link](https://arxiv.org/abs/2511.20340) | [Repo](https://github.com/ShiLuohe/SpecFormer) |
+| **Steering Pretrained Drafters During Speculative Decoding** | AAAI 2026 | speculative decoding / drafter-verifier alignment | [Link](https://arxiv.org/abs/2511.09844) | [Repo](https://github.com/ETH-DISCO/SD-square) |
 | **Calibrated Speculative Decoding: Frequency-Guided Candidate Selection for Efficient Inference** | ACL 2026 | speculative decoding / training-free inference acceleration | [Link](https://doi.org/10.18653/v1/2026.acl-long.1369) | — |
 | **ConfSpec: Efficient Step-Level Speculative Reasoning via Confidence-Gated Verification** | ACL 2026 | efficient reasoning / step-level speculative verification | [Link](https://doi.org/10.18653/v1/2026.acl-long.1221) | — |
 | **EDSD: Entropy-Driven Design for Faster Speculative Decoding** | ACL 2026 | speculative decoding / entropy-guided draft design | [Link](https://doi.org/10.18653/v1/2026.acl-long.2145) | — |

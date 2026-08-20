@@ -142,6 +142,22 @@
     ]
   },
   {
+    "title": "Scaling LLM Speculative Decoding: Non-Autoregressive Forecasting in Large-Batch Scenarios",
+    "venue": "AAAI 2026",
+    "topic": "speculative decoding / large-batch inference / non-autoregressive drafting",
+    "arxiv": "2511.20340",
+    "doi": "10.1609/aaai.v40i39.40576",
+    "official_id": "AAAI-40576",
+    "paper_url": "https://arxiv.org/abs/2511.20340",
+    "code_url": "https://github.com/ShiLuohe/SpecFormer",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "SpecFormer targets lossless speculative decoding under large-batch compute constraints using mixed causal/bidirectional draft modeling; AAAI official paper identifies this as a direct scaling problem for mainstream batched inference.",
+    "directions": [
+      "Speculative Decoding"
+    ]
+  },
+  {
     "title": "Self-Indexing KVCache: Predicting Sparse Attention from Compressed Keys",
     "venue": "AAAI 2026",
     "topic": "KV cache compression / sparse attention / CUDA kernel",
@@ -161,6 +177,23 @@
     ]
   },
   {
+    "title": "SlimInfer: Accelerating Long-Context LLM Inference via Dynamic Token Pruning",
+    "venue": "AAAI 2026",
+    "topic": "long-context LLM inference / token pruning / asynchronous KV manager",
+    "arxiv": "2508.06447",
+    "doi": "10.1609/aaai.v40i38.40502",
+    "official_id": "AAAI-40502",
+    "paper_url": "https://arxiv.org/abs/2508.06447",
+    "code_url": "https://github.com/Longxmas/SlimInfer",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Dynamic intermediate hidden-state token pruning plus asynchronous KV block prefetch; AAAI reports up to 2.53x TTFT and 1.88x end-to-end latency improvement on Llama-3.1-8B-Instruct.",
+    "directions": [
+      "KV Cache / Long Context",
+      "Sparsity / Pruning"
+    ]
+  },
+  {
     "title": "Sparse Attention Across Multiple-Context KV Cache",
     "venue": "AAAI 2026",
     "topic": "RAG / sparse attention / multi-context KV cache",
@@ -176,6 +209,22 @@
       "KV Cache / Long Context",
       "Sparsity / Pruning",
       "Efficient Attention"
+    ]
+  },
+  {
+    "title": "Steering Pretrained Drafters During Speculative Decoding",
+    "venue": "AAAI 2026",
+    "topic": "speculative decoding / drafter-verifier alignment",
+    "arxiv": "2511.09844",
+    "doi": "10.1609/aaai.v40i36.40255",
+    "official_id": "AAAI-40255",
+    "paper_url": "https://arxiv.org/abs/2511.09844",
+    "code_url": "https://github.com/ETH-DISCO/SD-square",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Dynamic steering aligns pretrained drafters to verifiers with negligible overhead; AAAI reports up to 35% more accepted tokens under sampling and 22% under greedy decoding.",
+    "directions": [
+      "Speculative Decoding"
     ]
   },
   {
