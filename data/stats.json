@@ -1,8 +1,8 @@
 {
-  "unique_papers": 503,
+  "unique_papers": 504,
   "latest_strong": 38,
-  "papers_with_primary_link": 445,
-  "papers_with_verified_code_link": 36,
+  "papers_with_primary_link": 446,
+  "papers_with_verified_code_link": 37,
   "venues": 43,
   "direction_counts": {
     "LLM Serving": 198,
@@ -17,10 +17,10 @@
     "Multimodal / MLLM Serving": 53,
     "Video / Image Generation": 15,
     "Diffusion / Flow Acceleration": 80,
-    "Efficient Reasoning / Agents": 65,
-    "VLA / WAM / Physical AI": 23,
-    "Edge / Cloud / Heterogeneous AI": 121
+    "Efficient Reasoning / Agents": 66,
+    "VLA / WAM / Physical AI": 24,
+    "Edge / Cloud / Heterogeneous AI": 122
   },
   "source_date_beijing": "2026-08-21",
-  "updated_at_beijing": "2026-08-21T05:05:02+08:00"
+  "updated_at_beijing": "2026-08-21T06:01:37+08:00"
 }

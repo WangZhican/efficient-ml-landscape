@@ -1,6 +1,6 @@
 # 🧭 Research Map
 
-> **503 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
+> **504 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
 
 <div align="center">
 
@@ -24,9 +24,9 @@
 | 10 | [**Multimodal / MLLM Serving**](10-multimodal-mllm-serving.md) | **53** |
 | 11 | [**Video / Image Generation**](11-video-image-generation.md) | **15** |
 | 12 | [**Diffusion / Flow Acceleration**](12-diffusion-flow.md) | **80** |
-| 13 | [**Efficient Reasoning / Agents**](13-efficient-reasoning-agents.md) | **65** |
-| 14 | [**VLA / WAM / Physical AI**](14-physical-ai-vla-wam.md) | **23** |
-| 15 | [**Edge / Cloud / Heterogeneous AI**](15-edge-cloud-heterogeneous.md) | **121** |
+| 13 | [**Efficient Reasoning / Agents**](13-efficient-reasoning-agents.md) | **66** |
+| 14 | [**VLA / WAM / Physical AI**](14-physical-ai-vla-wam.md) | **24** |
+| 15 | [**Edge / Cloud / Heterogeneous AI**](15-edge-cloud-heterogeneous.md) | **122** |
 
 > Counts are multi-label and therefore do not sum to the unique-paper total. A canonical paper can intentionally appear in several directions.
 

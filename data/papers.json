@@ -4124,6 +4124,24 @@
     ]
   },
   {
+    "title": "LightPlanner: Unleashing the Reasoning Capabilities of Lightweight Large Language Models in Task Planning",
+    "venue": "IROS 2025",
+    "topic": "edge-efficient embodied task planning / lightweight LLM / long-horizon memory",
+    "arxiv": "2503.08508",
+    "doi": "10.1109/IROS60139.2025.11247436",
+    "official_id": "10.1109/IROS60139.2025.11247436",
+    "paper_url": "https://arxiv.org/abs/2503.08508",
+    "code_url": "https://github.com/jetteezhou/LightPlanner",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "IROS 2025 oral paper using a 1.5B lightweight LLM for embodied task planning; hierarchical reasoning plus an action-memory module reduces long-horizon context burden and demonstrates edge-device deployment potential. Author primary page confirms IROS 2025 oral acceptance and official code release.",
+    "directions": [
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Task-Oriented Token Pruning for Efficient Object Detection and Segmentation",
     "venue": "IROS 2025",
     "topic": "robot perception / task-aware token pruning / Physical AI",
