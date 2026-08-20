@@ -1,6 +1,6 @@
 # 🧭 Research Map
 
-> **469 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
+> **475 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
 
 <div align="center">
 
@@ -12,18 +12,18 @@
 
 | # | Research direction | Papers |
 |---:|---|---:|
-| 01 | [**LLM Serving**](01-llm-serving.md) | **181** |
+| 01 | [**LLM Serving**](01-llm-serving.md) | **183** |
 | 02 | [**Speculative Decoding**](02-speculative-decoding.md) | **77** |
 | 03 | [**KV Cache / Long Context**](03-kv-cache-long-context.md) | **136** |
 | 04 | [**Quantization**](04-quantization.md) | **63** |
-| 05 | [**Sparsity / Pruning**](05-sparsity-pruning.md) | **57** |
-| 06 | [**Efficient Attention**](06-efficient-attention.md) | **56** |
+| 05 | [**Sparsity / Pruning**](05-sparsity-pruning.md) | **58** |
+| 06 | [**Efficient Attention**](06-efficient-attention.md) | **57** |
 | 07 | [**MoE Systems / Accelerators**](07-moe-systems.md) | **51** |
-| 08 | [**GPU Kernel / DSL / Compiler**](08-gpu-kernel-compiler.md) | **165** |
+| 08 | [**GPU Kernel / DSL / Compiler**](08-gpu-kernel-compiler.md) | **169** |
 | 09 | [**Distributed Training / Inference**](09-distributed-training-inference.md) | **57** |
-| 10 | [**Multimodal / MLLM Serving**](10-multimodal-mllm-serving.md) | **49** |
-| 11 | [**Video / Image Generation**](11-video-image-generation.md) | **12** |
-| 12 | [**Diffusion / Flow Acceleration**](12-diffusion-flow.md) | **69** |
+| 10 | [**Multimodal / MLLM Serving**](10-multimodal-mllm-serving.md) | **50** |
+| 11 | [**Video / Image Generation**](11-video-image-generation.md) | **14** |
+| 12 | [**Diffusion / Flow Acceleration**](12-diffusion-flow.md) | **73** |
 | 13 | [**Efficient Reasoning / Agents**](13-efficient-reasoning-agents.md) | **63** |
 | 14 | [**VLA / WAM / Physical AI**](14-physical-ai-vla-wam.md) | **22** |
 | 15 | [**Edge / Cloud / Heterogeneous AI**](15-edge-cloud-heterogeneous.md) | **114** |

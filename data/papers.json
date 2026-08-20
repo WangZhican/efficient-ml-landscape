@@ -2800,6 +2800,25 @@
     ]
   },
   {
+    "title": "Adaptive Caching for Faster Video Generation with Diffusion Transformers",
+    "venue": "ICCV 2025",
+    "topic": "video diffusion acceleration / adaptive feature caching",
+    "arxiv": "2411.02397",
+    "doi": "",
+    "official_id": "",
+    "paper_url": "https://arxiv.org/abs/2411.02397",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Training-free adaptive video-DiT caching with motion-aware scheduling; reports up to 4.7x speedup on Open-Sora 720p generation.",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "AIM: Adaptive Inference of Multi-Modal LLMs via Token Merging and Pruning",
     "venue": "ICCV 2025",
     "topic": "multimodal token merging/pruning",
@@ -2834,6 +2853,41 @@
     ]
   },
   {
+    "title": "CHORDS: Diffusion Sampling Accelerator with Multi-core Hierarchical ODE Solvers",
+    "venue": "ICCV 2025",
+    "topic": "diffusion sampling acceleration / multi-core parallel ODE solvers",
+    "arxiv": "2507.15260",
+    "doi": "",
+    "official_id": "",
+    "paper_url": "https://arxiv.org/abs/2507.15260",
+    "code_url": "https://github.com/hanjq17/CHORDS",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Training-free model-agnostic multi-core diffusion sampling pipeline; reports 2.1x with four cores and 2.9x with eight cores.",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "FastVAR: Linear Visual Autoregressive Modeling via Cached Token Pruning",
+    "venue": "ICCV 2025",
+    "topic": "autoregressive image generation acceleration / cached token pruning",
+    "arxiv": "2503.23367",
+    "doi": "",
+    "official_id": "",
+    "paper_url": "https://arxiv.org/abs/2503.23367",
+    "code_url": "https://github.com/csguoh/FastVAR",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Training-free cached-token pruning for VAR generation; reports 2.7x speedup over FlashAttention setup with <1% quality drop.",
+    "directions": [
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "Video / Image Generation"
+    ]
+  },
+  {
     "title": "Fewer Denoising Steps or Cheaper Per-Step Inference: Towards Compute-Optimal Diffusion Model Deployment",
     "venue": "ICCV 2025",
     "topic": "diffusion deployment / compute-optimal inference",
@@ -2845,6 +2899,40 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "BACKFILL_HIGH",
     "why": "",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "From Reusing to Forecasting: Accelerating Diffusion Models with TaylorSeers",
+    "venue": "ICCV 2025",
+    "topic": "diffusion acceleration / feature forecasting",
+    "arxiv": "2503.06923",
+    "doi": "",
+    "official_id": "",
+    "paper_url": "https://arxiv.org/abs/2503.06923",
+    "code_url": "https://github.com/Shenyi-Z/TaylorSeer",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Forecasts future DiT features via Taylor-series derivatives instead of only reusing cached features; reports near-lossless ~5x acceleration on FLUX/HunyuanVideo.",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "Model Reveals What to Cache: Profiling-Based Feature Reuse for Video Diffusion Models",
+    "venue": "ICCV 2025",
+    "topic": "video diffusion acceleration / profiling-guided feature reuse",
+    "arxiv": "2504.03140",
+    "doi": "",
+    "official_id": "",
+    "paper_url": "https://arxiv.org/abs/2504.03140",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Profiling-guided foreground/background-aware step/block feature reuse for video diffusion; reports about 2.01x on Wan2.1.",
     "directions": [
       "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
@@ -2950,6 +3038,23 @@
       "Quantization",
       "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "Token-Efficient VLM: High-Resolution Image Understanding via Dynamic Region Proposal",
+    "venue": "ICCV 2025",
+    "topic": "VLM efficiency / dynamic region proposal / token-efficient high-resolution vision",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICCV2025-Jiang-TEVA",
+    "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Jiang_Token-Efficient_VLM_High-Resolution_Image_Understanding_via_Dynamic_Region_Proposal_ICCV_2025_paper.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Dynamic region proposal and adaptive patch sampling preserve high-resolution detail without increasing token count; official NVIDIA publication page confirms ICCV 2025.",
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving"
     ]
   },
   {

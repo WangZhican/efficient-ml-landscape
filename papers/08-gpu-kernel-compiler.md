@@ -1,6 +1,6 @@
 # 08 · GPU Kernel / DSL / Compiler
 
-> **165 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **169 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [Complete Paper List](ALL_PAPERS.md)
 
@@ -55,7 +55,11 @@
 | **Towards Resource-Efficient Serverless LLM Inference with SLINFER** | HPCA 2026 | serverless LLM serving / heterogeneous CPU-GPU sharing | [Link](https://arxiv.org/abs/2507.00507) | — |
 | **eGPU: Production-Scale Elastic Sharing over 10,000 GPUs** | HPCA 2026 Industry Track | production GPU sharing / elastic multi-tenant ML | [Link](https://doi.org/10.1109/HPCA68181.2026.11408556) | — |
 | **Accelerating Diffusion Transformer via Gradient-Optimized Cache** | ICCV 2025 | diffusion transformer feature caching | — | — |
+| **Adaptive Caching for Faster Video Generation with Diffusion Transformers** | ICCV 2025 | video diffusion acceleration / adaptive feature caching | [Link](https://arxiv.org/abs/2411.02397) | — |
+| **CHORDS: Diffusion Sampling Accelerator with Multi-core Hierarchical ODE Solvers** | ICCV 2025 | diffusion sampling acceleration / multi-core parallel ODE solvers | [Link](https://arxiv.org/abs/2507.15260) | [Repo](https://github.com/hanjq17/CHORDS) |
 | **Fewer Denoising Steps or Cheaper Per-Step Inference: Towards Compute-Optimal Diffusion Model Deployment** | ICCV 2025 | diffusion deployment / compute-optimal inference | — | — |
+| **From Reusing to Forecasting: Accelerating Diffusion Models with TaylorSeers** | ICCV 2025 | diffusion acceleration / feature forecasting | [Link](https://arxiv.org/abs/2503.06923) | [Repo](https://github.com/Shenyi-Z/TaylorSeer) |
+| **Model Reveals What to Cache: Profiling-Based Feature Reuse for Video Diffusion Models** | ICCV 2025 | video diffusion acceleration / profiling-guided feature reuse | [Link](https://arxiv.org/abs/2504.03140) | — |
 | **Model Reveals What to Cache: Profiling-Based Feature Reuse for Video Diffusion Models** | ICCV 2025 | video diffusion feature caching | — | — |
 | **QuEST: Low-bit Diffusion Model Quantization via Efficient Selective Finetuning** | ICCV 2025 | diffusion low-bit quantization | — | — |
 | **Text Embedding Knows How to Quantize Text-Guided Diffusion Models** | ICCV 2025 | diffusion quantization / dynamic precision | — | — |

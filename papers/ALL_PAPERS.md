@@ -1,6 +1,6 @@
 # 📚 Complete Paper List
 
-> **469 quality-gated papers** exported from the validated canonical literature census. PDF binaries are not stored here; links point to primary paper sources whenever resolved.
+> **475 quality-gated papers** exported from the validated canonical literature census. PDF binaries are not stored here; links point to primary paper sources whenever resolved.
 
 [← Research Map](README.md) · [Machine-readable JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -194,6 +194,29 @@
 | **Towards Compute-Aware In-Switch Computing for LLMs Tensor-Parallelism on Multi-GPU Systems** | HPCA 2026 | tensor parallelism / in-switch collective-compute co-design | [Link](https://arxiv.org/abs/2605.05628) | — |
 | **Towards Resource-Efficient Serverless LLM Inference with SLINFER** | HPCA 2026 | serverless LLM serving / heterogeneous CPU-GPU sharing | [Link](https://arxiv.org/abs/2507.00507) | — |
 
+## ICCV 2025 · 18
+
+| Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|
+| **Accelerating Diffusion Transformer via Gradient-Optimized Cache** | ICCV 2025 | diffusion transformer feature caching | — | — |
+| **Adaptive Caching for Faster Video Generation with Diffusion Transformers** | ICCV 2025 | video diffusion acceleration / adaptive feature caching | [Link](https://arxiv.org/abs/2411.02397) | — |
+| **AIM: Adaptive Inference of Multi-Modal LLMs via Token Merging and Pruning** | ICCV 2025 | multimodal token merging/pruning | — | — |
+| **AirCache: Activating Inter-modal Relevancy KV Cache Compression for Efficient Large Vision-Language Model Inference** | ICCV 2025 | multimodal KV-cache compression | — | — |
+| **CHORDS: Diffusion Sampling Accelerator with Multi-core Hierarchical ODE Solvers** | ICCV 2025 | diffusion sampling acceleration / multi-core parallel ODE solvers | [Link](https://arxiv.org/abs/2507.15260) | [Repo](https://github.com/hanjq17/CHORDS) |
+| **FastVAR: Linear Visual Autoregressive Modeling via Cached Token Pruning** | ICCV 2025 | autoregressive image generation acceleration / cached token pruning | [Link](https://arxiv.org/abs/2503.23367) | [Repo](https://github.com/csguoh/FastVAR) |
+| **Fewer Denoising Steps or Cheaper Per-Step Inference: Towards Compute-Optimal Diffusion Model Deployment** | ICCV 2025 | diffusion deployment / compute-optimal inference | — | — |
+| **From Reusing to Forecasting: Accelerating Diffusion Models with TaylorSeers** | ICCV 2025 | diffusion acceleration / feature forecasting | [Link](https://arxiv.org/abs/2503.06923) | [Repo](https://github.com/Shenyi-Z/TaylorSeer) |
+| **Model Reveals What to Cache: Profiling-Based Feature Reuse for Video Diffusion Models** | ICCV 2025 | video diffusion acceleration / profiling-guided feature reuse | [Link](https://arxiv.org/abs/2504.03140) | — |
+| **Model Reveals What to Cache: Profiling-Based Feature Reuse for Video Diffusion Models** | ICCV 2025 | video diffusion feature caching | — | — |
+| **Pruning All-Rounder: Rethinking and Improving Inference Efficiency for Large Vision Language Models** | ICCV 2025 | multimodal/VLM token-layer pruning | — | — |
+| **QuEST: Low-bit Diffusion Model Quantization via Efficient Selective Finetuning** | ICCV 2025 | diffusion low-bit quantization | — | — |
+| **ShortV: Efficient Multimodal Large Language Models by Freezing Visual Tokens in Ineffective Layers** | ICCV 2025 | training-free VLM layer/token efficiency | — | — |
+| **Skip-Vision: Efficient and Scalable Acceleration of Vision-Language Models via Adaptive Token Skipping** | ICCV 2025 | VLM training/inference acceleration | — | — |
+| **Text Embedding Knows How to Quantize Text-Guided Diffusion Models** | ICCV 2025 | diffusion quantization / dynamic precision | — | — |
+| **Token-Efficient VLM: High-Resolution Image Understanding via Dynamic Region Proposal** | ICCV 2025 | VLM efficiency / dynamic region proposal / token-efficient high-resolution vision | — | — |
+| **Towards Stabilized and Efficient Diffusion Transformers through Long-Skip-Connections with Spectral Constraints** | ICCV 2025 | diffusion transformer training/inference acceleration | — | — |
+| **ZipVL: Accelerating Vision-Language Models through Dynamic Token Sparsity** | ICCV 2025 | VLM dynamic token sparsity / KV efficiency | — | — |
+
 ## MICRO 2025 · 18
 
 | Paper | Venue | Topic | Paper | Code |
@@ -374,23 +397,6 @@
 | **Torpor: GPU-Enabled Serverless Computing for Low-Latency, Resource-Efficient Inference** | USENIX ATC 2025 | serverless GPU inference / model swapping / scheduling | — | — |
 | **Universal Checkpointing: A Flexible and Efficient Distributed Checkpointing System for Large-Scale DNN Training with Reconfigurable Parallelism** | USENIX ATC 2025 | distributed LLM training / elastic checkpointing / reconfigurable parallelism | — | — |
 | **Weaver: Efficient Multi-LLM Serving with Attention Offloading** | USENIX ATC 2025 | multi-LLM serving / attention offloading | — | — |
-
-## ICCV 2025 · 12
-
-| Paper | Venue | Topic | Paper | Code |
-|---|---|---|---|---|
-| **Accelerating Diffusion Transformer via Gradient-Optimized Cache** | ICCV 2025 | diffusion transformer feature caching | — | — |
-| **AIM: Adaptive Inference of Multi-Modal LLMs via Token Merging and Pruning** | ICCV 2025 | multimodal token merging/pruning | — | — |
-| **AirCache: Activating Inter-modal Relevancy KV Cache Compression for Efficient Large Vision-Language Model Inference** | ICCV 2025 | multimodal KV-cache compression | — | — |
-| **Fewer Denoising Steps or Cheaper Per-Step Inference: Towards Compute-Optimal Diffusion Model Deployment** | ICCV 2025 | diffusion deployment / compute-optimal inference | — | — |
-| **Model Reveals What to Cache: Profiling-Based Feature Reuse for Video Diffusion Models** | ICCV 2025 | video diffusion feature caching | — | — |
-| **Pruning All-Rounder: Rethinking and Improving Inference Efficiency for Large Vision Language Models** | ICCV 2025 | multimodal/VLM token-layer pruning | — | — |
-| **QuEST: Low-bit Diffusion Model Quantization via Efficient Selective Finetuning** | ICCV 2025 | diffusion low-bit quantization | — | — |
-| **ShortV: Efficient Multimodal Large Language Models by Freezing Visual Tokens in Ineffective Layers** | ICCV 2025 | training-free VLM layer/token efficiency | — | — |
-| **Skip-Vision: Efficient and Scalable Acceleration of Vision-Language Models via Adaptive Token Skipping** | ICCV 2025 | VLM training/inference acceleration | — | — |
-| **Text Embedding Knows How to Quantize Text-Guided Diffusion Models** | ICCV 2025 | diffusion quantization / dynamic precision | — | — |
-| **Towards Stabilized and Efficient Diffusion Transformers through Long-Skip-Connections with Spectral Constraints** | ICCV 2025 | diffusion transformer training/inference acceleration | — | — |
-| **ZipVL: Accelerating Vision-Language Models through Dynamic Token Sparsity** | ICCV 2025 | VLM dynamic token sparsity / KV efficiency | — | — |
 
 ## SIGCOMM 2025 · 12
 
