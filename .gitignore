@@ -1,0 +1,9 @@
+# Never publish local paper binaries or internal discovery state
+*.pdf
+pdfs/
+_internal/
+_manager/
+*.tmp
+*.log
+__pycache__/
+.DS_Store
