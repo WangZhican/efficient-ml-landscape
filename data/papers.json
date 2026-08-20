@@ -7803,6 +7803,23 @@
     ]
   },
   {
+    "title": "CoRun: Padding is Simple and Efficient for Deterministic LLM Inference",
+    "venue": "",
+    "topic": "LLM serving / deterministic inference / fixed-shape scheduling",
+    "arxiv": "2608.14376",
+    "doi": "",
+    "official_id": "",
+    "paper_url": "https://arxiv.org/abs/2608.14376",
+    "code_url": "",
+    "formal_class": "STRONG_CURRENT",
+    "decision": "PROMOTE_STRONG",
+    "why": "Scheduling-based deterministic LLM inference using isolated prefill plus fixed-shape batched decode and CUDA graphs; reports 15-324% higher throughput than batch-invariant approaches, 51.8% lower TTFT and 48.6% lower TPOT on average.",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "DeaMoE: Efficient MoE Structure for Fast Small-Batch Decoding",
     "venue": "",
     "topic": "MoE architecture / small-batch decoding",
@@ -8183,6 +8200,26 @@
     ]
   },
   {
+    "title": "Pre-Compiled Pipeline Shards for Distributed LLM Inference on Intel AI PC Fleets",
+    "venue": "",
+    "topic": "distributed LLM inference / edge AI PC fleet / speculative decoding",
+    "arxiv": "2608.19147",
+    "doi": "",
+    "official_id": "",
+    "paper_url": "https://arxiv.org/abs/2608.19147",
+    "code_url": "https://github.com/labscommunity/pipeline-sharded-inference-paper",
+    "formal_class": "STRONG_CURRENT",
+    "decision": "PROMOTE_STRONG",
+    "why": "Pipeline-parallel LLM serving across Intel AI PCs using pre-compiled OpenVINO layer shards, stateful speculative decoding, and interleaved multi-user micro-batching; reports 1.79x throughput for two concurrent users on a two-node Llama-3.1-8B INT4 pipeline and interactive 70B inference across four Lunar Lake systems.",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "Quantization",
+      "Distributed Training / Inference",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "PTXBench: Benchmark and Adapt LLMs for GPU Kernel Optimization with Architecture-specific PTX",
     "venue": "",
     "topic": "GPU kernel / LLM code generation / benchmark",
@@ -8234,6 +8271,24 @@
       "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "Role-Conditioned Sub-Token Routing for Efficient Vision-Language-Action Policies",
+    "venue": "",
+    "topic": "VLA efficiency / KV compression / sub-token routing",
+    "arxiv": "2608.18410",
+    "doi": "",
+    "official_id": "",
+    "paper_url": "https://arxiv.org/abs/2608.18410",
+    "code_url": "",
+    "formal_class": "STRONG_CURRENT",
+    "decision": "PROMOTE_STRONG_PROTECTED_PHYSICAL_AI",
+    "why": "Role-conditioned sub-token routing compresses retained VLA token value representations after visual-token reduction; on OpenVLA-OFT-7B it wins 33/36 matched visual-KV settings and reduces total KV to 9.2-11.3% of original while retaining strong control performance.",
+    "directions": [
+      "Multimodal / MLLM Serving",
+      "Diffusion / Flow Acceleration",
+      "VLA / WAM / Physical AI"
     ]
   },
   {
