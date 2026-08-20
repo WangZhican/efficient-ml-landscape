@@ -7637,6 +7637,22 @@
     ]
   },
   {
+    "title": "EcoTune: Edge-Cloud Collaborative Model Adaptation for Budget-Constrained On-Device SLM Personalization",
+    "venue": "The Web Conference 2026",
+    "topic": "edge-cloud collaborative LLM adaptation / on-device SLM personalization / resource-efficient fine-tuning",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "WWW26-rfp1247",
+    "paper_url": "https://www2026.thewebconf.org/accepted/research-tracks.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "WWW 2026 systems/edge paper that jointly optimizes cloud annotation selection and selective on-device SLM adaptation. Official ACM SIGWEB proceedings report 20%-60% lower annotation cost and substantially lower fine-tuning memory, making it a direct edge/cloud Efficient-ML system result.",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Energy-Efficient and Dequantization-Free Quantization of LLMs: A Spiking Neural Network Approach to Salient Value Mitigation",
     "venue": "The Web Conference 2026",
     "topic": "LLM quantization / edge energy efficiency / SNN",

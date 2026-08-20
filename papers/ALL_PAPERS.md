@@ -1,6 +1,6 @@
 # 📚 Complete Paper List
 
-> **510 quality-gated papers** exported from the validated canonical literature census. PDF binaries are not stored here; links point to primary paper sources whenever resolved.
+> **511 quality-gated papers** exported from the validated canonical literature census. PDF binaries are not stored here; links point to primary paper sources whenever resolved.
 
 [← Research Map](README.md) · [Machine-readable JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -526,6 +526,21 @@
 | **Token Sparse Attention: Efficient Long-Context Inference with Interleaved Token Selection** | ICML 2026 | sparse attention / long-context inference | [Link](https://arxiv.org/abs/2602.03216) | — |
 | **Understand and Accelerate Memory Processing Pipeline for Large Language Model Inference** | ICML 2026 | LLM memory processing / GPU-FPGA heterogeneous acceleration | [Link](https://arxiv.org/abs/2603.29002) | — |
 
+## The Web Conference 2026 · 10
+
+| Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|
+| **Adaptive Model and Strategy Routing for Cost-Efficient LLM Services** | The Web Conference 2026 | LLM serving / model routing / reasoning cost efficiency | [Link](https://arxiv.org/abs/2505.19435) | — |
+| **EcoTune: Edge-Cloud Collaborative Model Adaptation for Budget-Constrained On-Device SLM Personalization** | The Web Conference 2026 | edge-cloud collaborative LLM adaptation / on-device SLM personalization / resource-efficient fine-tuning | — | — |
+| **Energy-Efficient and Dequantization-Free Quantization of LLMs: A Spiking Neural Network Approach to Salient Value Mitigation** | The Web Conference 2026 | LLM quantization / edge energy efficiency / SNN | [Link](https://arxiv.org/abs/2510.19498) | — |
+| **Fate: Fast Edge Inference of Mixture-of-Experts Models via Cross-Layer Gate** | The Web Conference 2026 | edge MoE inference / expert prefetch | [Link](https://arxiv.org/abs/2502.12224) | — |
+| **HeteroSim: Towards High-Fidelity Heterogeneous LLM Training Simulation on GPUs** | The Web Conference 2026 | heterogeneous LLM training / systems simulation | [Link](https://doi.org/10.1145/3774904.3792254) | — |
+| **LaTune: Lightweight and Adaptive Configuration Tuning for LLM Inference on Edge Devices** | The Web Conference 2026 | edge LLM runtime tuning | [Link](https://doi.org/10.1145/3774904.3792382) | — |
+| **MASI: Memory-Adaptive Inference Framework for Spiking Neural Networks on Edge Devices** | The Web Conference 2026 | edge AI inference / memory-adaptive runtime / SNN | [Link](https://doi.org/10.1145/3774904.3792136) | — |
+| **Probe-and-Fetch: Dynamic KV Cache Pruning for Accelerated Long-Context Inference in Web-Scale AI Search** | The Web Conference 2026 | KV cache pruning / long-context inference | [Link](https://doi.org/10.1145/3774904.3792794) | — |
+| **Self-Speculative Decoding for On-device MoE Acceleration** | The Web Conference 2026 | on-device MoE / speculative decoding | [Link](https://doi.org/10.1145/3774904.3792218) | — |
+| **Task-Aware Cloud-End Offloading for Vision-Language Model Serving via Dynamic Modality-Specific Adapter Scheduling** | The Web Conference 2026 | multimodal/VLM serving / cloud-edge offloading | [Link](https://doi.org/10.1145/3774904.3792127) | — |
+
 ## SC 2025 · 9
 
 | Paper | Venue | Topic | Paper | Code |
@@ -553,20 +568,6 @@
 | **HotPrefix: Hotness-Aware KV Cache Scheduling for Efficient Prefix Sharing in LLM Inference Systems** | SIGMOD 2026 | prefix KV-cache scheduling / LLM serving | [Link](https://doi.org/10.1145/3749168) | — |
 | **Serving Hybrid LLM Loads with SLO Guarantees Using CPU-GPU Attention Piggybacking** | SIGMOD 2026 | LLM serving / heterogeneous CPU-GPU / SLO scheduling | [Link](https://arxiv.org/abs/2603.12831) | — |
 | **SG-Serve: Efficient Model Serving for Subgraph-based Graph Representation Learning** | SIGMOD 2026 | graph model serving / tail-latency optimization / workload-aware GPU batching | [Link](https://doi.org/10.1145/3786697) | — |
-
-## The Web Conference 2026 · 9
-
-| Paper | Venue | Topic | Paper | Code |
-|---|---|---|---|---|
-| **Adaptive Model and Strategy Routing for Cost-Efficient LLM Services** | The Web Conference 2026 | LLM serving / model routing / reasoning cost efficiency | [Link](https://arxiv.org/abs/2505.19435) | — |
-| **Energy-Efficient and Dequantization-Free Quantization of LLMs: A Spiking Neural Network Approach to Salient Value Mitigation** | The Web Conference 2026 | LLM quantization / edge energy efficiency / SNN | [Link](https://arxiv.org/abs/2510.19498) | — |
-| **Fate: Fast Edge Inference of Mixture-of-Experts Models via Cross-Layer Gate** | The Web Conference 2026 | edge MoE inference / expert prefetch | [Link](https://arxiv.org/abs/2502.12224) | — |
-| **HeteroSim: Towards High-Fidelity Heterogeneous LLM Training Simulation on GPUs** | The Web Conference 2026 | heterogeneous LLM training / systems simulation | [Link](https://doi.org/10.1145/3774904.3792254) | — |
-| **LaTune: Lightweight and Adaptive Configuration Tuning for LLM Inference on Edge Devices** | The Web Conference 2026 | edge LLM runtime tuning | [Link](https://doi.org/10.1145/3774904.3792382) | — |
-| **MASI: Memory-Adaptive Inference Framework for Spiking Neural Networks on Edge Devices** | The Web Conference 2026 | edge AI inference / memory-adaptive runtime / SNN | [Link](https://doi.org/10.1145/3774904.3792136) | — |
-| **Probe-and-Fetch: Dynamic KV Cache Pruning for Accelerated Long-Context Inference in Web-Scale AI Search** | The Web Conference 2026 | KV cache pruning / long-context inference | [Link](https://doi.org/10.1145/3774904.3792794) | — |
-| **Self-Speculative Decoding for On-device MoE Acceleration** | The Web Conference 2026 | on-device MoE / speculative decoding | [Link](https://doi.org/10.1145/3774904.3792218) | — |
-| **Task-Aware Cloud-End Offloading for Vision-Language Model Serving via Dynamic Modality-Specific Adapter Scheduling** | The Web Conference 2026 | multimodal/VLM serving / cloud-edge offloading | [Link](https://doi.org/10.1145/3774904.3792127) | — |
 
 ## ACM Multimedia 2025 · 8
 

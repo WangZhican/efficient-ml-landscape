@@ -1,6 +1,6 @@
 # 🧭 Research Map
 
-> **510 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
+> **511 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
 
 <div align="center">
 
@@ -26,7 +26,7 @@
 | 12 | [**Diffusion / Flow Acceleration**](12-diffusion-flow.md) | **81** |
 | 13 | [**Efficient Reasoning / Agents**](13-efficient-reasoning-agents.md) | **66** |
 | 14 | [**VLA / WAM / Physical AI**](14-physical-ai-vla-wam.md) | **24** |
-| 15 | [**Edge / Cloud / Heterogeneous AI**](15-edge-cloud-heterogeneous.md) | **125** |
+| 15 | [**Edge / Cloud / Heterogeneous AI**](15-edge-cloud-heterogeneous.md) | **126** |
 
 > Counts are multi-label and therefore do not sum to the unique-paper total. A canonical paper can intentionally appear in several directions.
 
