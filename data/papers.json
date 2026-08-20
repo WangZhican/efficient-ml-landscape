@@ -3323,6 +3323,23 @@
     ]
   },
   {
+    "title": "AsymRnR: Video Diffusion Transformers Acceleration with Asymmetric Reduction and Restoration",
+    "venue": "ICML 2025",
+    "topic": "video diffusion transformer token reduction / training-free acceleration",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "pmlr-v267-sun25r",
+    "paper_url": "https://proceedings.mlr.press/v267/sun25r.html",
+    "code_url": "https://github.com/wenhao728/AsymRnR",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Training-free model-agnostic video-DiT acceleration via block/step/feature-adaptive token reduction plus matching cache; official PMLR paper and author repository verified.",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "Ca2-VDM: Efficient Autoregressive Video Diffusion Model with Causal Generation and Cache Sharing",
     "venue": "ICML 2025",
     "topic": "video diffusion acceleration",
@@ -3407,6 +3424,24 @@
     ]
   },
   {
+    "title": "Diffusion Adversarial Post-Training for One-Step Video Generation",
+    "venue": "ICML 2025",
+    "topic": "one-step video/image diffusion generation",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "pmlr-v267-lin25m",
+    "paper_url": "https://proceedings.mlr.press/v267/lin25m.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Adversarial post-training turns pretrained diffusion models into one-step generators; PMLR reports real-time 1280x720 24fps two-second video generation with a single forward evaluation.",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "DLP: Dynamic Layerwise Pruning in Large Language Models",
     "venue": "ICML 2025",
     "topic": "LLM pruning",
@@ -3485,6 +3520,41 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "BACKFILL_HIGH",
     "why": "General diffusion acceleration framework combining modulated quantization and error compensation.",
+    "directions": [
+      "Quantization",
+      "GPU Kernel / DSL / Compiler",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "Morse: Dual-Sampling for Lossless Acceleration of Diffusion Models",
+    "venue": "ICML 2025",
+    "topic": "diffusion sampling acceleration",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "pmlr-v267-li25m",
+    "paper_url": "https://proceedings.mlr.press/v267/li25m.html",
+    "code_url": "https://github.com/deep-optimization/Morse",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Dual-sampling Dash/Dot framework with adaptive residual feedback; PMLR reports 1.78x-3.31x average lossless speedup across nine diffusion baselines and six image-generation tasks.",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "Q-VDiT: Towards Accurate Quantization and Distillation of Video-Generation Diffusion Transformers",
+    "venue": "ICML 2025",
+    "topic": "video diffusion quantization / distillation",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "pmlr-v267-feng25q",
+    "paper_url": "https://proceedings.mlr.press/v267/feng25q.html",
+    "code_url": "https://github.com/wlfeng0509/Q-VDiT",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Video-DiT-specific W3A6 quantization using token-aware error compensation plus temporal-maintenance distillation; PMLR reports a 23.40 scene-consistency score and 1.9x better scene-consistency than prior quantization methods.",
     "directions": [
       "Quantization",
       "GPU Kernel / DSL / Compiler",
