@@ -1,6 +1,6 @@
 # 📚 Complete Paper List
 
-> **475 quality-gated papers** exported from the validated canonical literature census. PDF binaries are not stored here; links point to primary paper sources whenever resolved.
+> **477 quality-gated papers** exported from the validated canonical literature census. PDF binaries are not stored here; links point to primary paper sources whenever resolved.
 
 [← Research Map](README.md) · [Machine-readable JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -398,6 +398,24 @@
 | **Universal Checkpointing: A Flexible and Efficient Distributed Checkpointing System for Large-Scale DNN Training with Reconfigurable Parallelism** | USENIX ATC 2025 | distributed LLM training / elastic checkpointing / reconfigurable parallelism | — | — |
 | **Weaver: Efficient Multi-LLM Serving with Attention Offloading** | USENIX ATC 2025 | multi-LLM serving / attention offloading | — | — |
 
+## ECCV 2024 · 13
+
+| Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|
+| **AdaDiff: Accelerating Diffusion Models through Step-Wise Adaptive Computation** | ECCV 2024 | diffusion acceleration / adaptive computation / early exit | [Link](https://arxiv.org/abs/2309.17074) | [Repo](https://github.com/Tangshengku/AdaDiff) |
+| **An Image is Worth 1/2 Tokens After Layer 2: Plug-and-Play Inference Acceleration for Large Vision-Language Models** | ECCV 2024 | VLM visual-token pruning | — | — |
+| **BK-SDM: A Lightweight, Fast, and Cheap Version of Stable Diffusion** | ECCV 2024 | diffusion pruning / compact model | — | — |
+| **Efficient Inference of Vision Instruction-Following Models with Elastic Cache** | ECCV 2024 | KV cache / multimodal inference | — | — |
+| **HiDiffusion: Unlocking Higher-Resolution Creativity and Efficiency in Pretrained Diffusion Models** | ECCV 2024 | diffusion inference acceleration | — | — |
+| **Inf-DiT: Upsampling any-resolution image with memory-efficient diffusion transformer.** | ECCV 2024 | diffusion memory efficiency | — | — |
+| **IVTP: Instruction-guided Visual Token Pruning for Large Vision-Language Models** | ECCV 2024 | VLM visual-token pruning | — | — |
+| **LLaMA-VID: An Image is Worth 2 Tokens in Large Language Models** | ECCV 2024 | video VLM token compression | — | — |
+| **MixDQ: Memory-Efficient Few-Step Text-to-Image Diffusion Models with Metric-Decoupled Mixed Precision Quantization** | ECCV 2024 | diffusion quantization | — | — |
+| **Post-training Quantization with Progressive Calibration and Activation Relaxing for Text-to-Image Diffusion Models** | ECCV 2024 | diffusion quantization | — | — |
+| **SlimFlow: Training Smaller One-Step Diffusion Models with Rectified Flow** | ECCV 2024 | compact one-step diffusion | — | — |
+| **Timestep-Aware Correction for Quantized Diffusion Models** | ECCV 2024 | diffusion quantization | — | — |
+| **Turbo: Informativity-Driven Acceleration Plug-In for Vision-Language Large Models** | ECCV 2024 | VLM inference acceleration / token redundancy pruning | [Link](https://arxiv.org/abs/2407.11717) | [Repo](https://github.com/anakin-skywalker-Joseph/Folder) |
+
 ## SIGCOMM 2025 · 12
 
 | Paper | Venue | Topic | Paper | Code |
@@ -431,22 +449,6 @@
 | **Pie: A Programmable Serving System for Emerging LLM Applications** | SOSP 2025 | LLM serving / KV / GPU systems | [Link](https://arxiv.org/abs/2510.24051) | — |
 | **PrefillOnly: An Inference Engine for Prefill-only Workloads in Large Language Model Applications** | SOSP 2025 | LLM serving / KV / GPU systems | [Link](https://arxiv.org/abs/2505.07203) | — |
 | **Tempo: Compiled Dynamic Deep Learning with Symbolic Dependence Graphs** | SOSP 2025 | ML compiler / dynamic deep learning | [Link](https://doi.org/10.1145/3731569.3764840) | — |
-
-## ECCV 2024 · 11
-
-| Paper | Venue | Topic | Paper | Code |
-|---|---|---|---|---|
-| **An Image is Worth 1/2 Tokens After Layer 2: Plug-and-Play Inference Acceleration for Large Vision-Language Models** | ECCV 2024 | VLM visual-token pruning | — | — |
-| **BK-SDM: A Lightweight, Fast, and Cheap Version of Stable Diffusion** | ECCV 2024 | diffusion pruning / compact model | — | — |
-| **Efficient Inference of Vision Instruction-Following Models with Elastic Cache** | ECCV 2024 | KV cache / multimodal inference | — | — |
-| **HiDiffusion: Unlocking Higher-Resolution Creativity and Efficiency in Pretrained Diffusion Models** | ECCV 2024 | diffusion inference acceleration | — | — |
-| **Inf-DiT: Upsampling any-resolution image with memory-efficient diffusion transformer.** | ECCV 2024 | diffusion memory efficiency | — | — |
-| **IVTP: Instruction-guided Visual Token Pruning for Large Vision-Language Models** | ECCV 2024 | VLM visual-token pruning | — | — |
-| **LLaMA-VID: An Image is Worth 2 Tokens in Large Language Models** | ECCV 2024 | video VLM token compression | — | — |
-| **MixDQ: Memory-Efficient Few-Step Text-to-Image Diffusion Models with Metric-Decoupled Mixed Precision Quantization** | ECCV 2024 | diffusion quantization | — | — |
-| **Post-training Quantization with Progressive Calibration and Activation Relaxing for Text-to-Image Diffusion Models** | ECCV 2024 | diffusion quantization | — | — |
-| **SlimFlow: Training Smaller One-Step Diffusion Models with Rectified Flow** | ECCV 2024 | compact one-step diffusion | — | — |
-| **Timestep-Aware Correction for Quantized Diffusion Models** | ECCV 2024 | diffusion quantization | — | — |
 
 ## ICLR 2026 · 11
 

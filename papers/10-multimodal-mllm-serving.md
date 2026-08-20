@@ -1,6 +1,6 @@
 # 10 · Multimodal / MLLM Serving
 
-> **50 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **51 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [Complete Paper List](ALL_PAPERS.md)
 
@@ -22,6 +22,7 @@
 | **Efficient Inference of Vision Instruction-Following Models with Elastic Cache** | ECCV 2024 | KV cache / multimodal inference | — | — |
 | **IVTP: Instruction-guided Visual Token Pruning for Large Vision-Language Models** | ECCV 2024 | VLM visual-token pruning | — | — |
 | **LLaMA-VID: An Image is Worth 2 Tokens in Large Language Models** | ECCV 2024 | video VLM token compression | — | — |
+| **Turbo: Informativity-Driven Acceleration Plug-In for Vision-Language Large Models** | ECCV 2024 | VLM inference acceleration / token redundancy pruning | [Link](https://arxiv.org/abs/2407.11717) | [Repo](https://github.com/anakin-skywalker-Joseph/Folder) |
 | **Efficient Multimodal Serving via Module Multiplexing** | EuroSys 2026 | multimodal/MLLM serving / module multiplexing | — | — |
 | **Adaptive Draft Sequence Length** | HPCA 2026 | efficient VLM + PIM inference + reasoning accelerator + speculative decoding | — | — |
 | **Focus** | HPCA 2026 | efficient VLM + PIM inference + reasoning accelerator + speculative decoding | — | — |

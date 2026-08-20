@@ -1505,6 +1505,24 @@
     ]
   },
   {
+    "title": "AdaDiff: Accelerating Diffusion Models through Step-Wise Adaptive Computation",
+    "venue": "ECCV 2024",
+    "topic": "diffusion acceleration / adaptive computation / early exit",
+    "arxiv": "2309.17074",
+    "doi": "10.1007/978-3-031-72986-7_5",
+    "official_id": "10.1007/978-3-031-72986-7_5",
+    "paper_url": "https://arxiv.org/abs/2309.17074",
+    "code_url": "https://github.com/Tangshengku/AdaDiff",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Step-wise adaptive computation for diffusion using timestep-aware uncertainty estimation and uncertainty-aware layer-wise training; ECCV reports roughly 45% acceleration while preserving generation quality.",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "An Image is Worth 1/2 Tokens After Layer 2: Plug-and-Play Inference Acceleration for Large Vision-Language Models",
     "venue": "ECCV 2024",
     "topic": "VLM visual-token pruning",
@@ -1695,6 +1713,24 @@
       "Quantization",
       "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "Turbo: Informativity-Driven Acceleration Plug-In for Vision-Language Large Models",
+    "venue": "ECCV 2024",
+    "topic": "VLM inference acceleration / token redundancy pruning",
+    "arxiv": "2407.11717",
+    "doi": "10.1007/978-3-031-72952-2_25",
+    "official_id": "10.1007/978-3-031-72952-2_25",
+    "paper_url": "https://arxiv.org/abs/2407.11717",
+    "code_url": "https://github.com/anakin-skywalker-Joseph/Folder",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Training-free data-perspective VLM acceleration plug-in using token informativity (mutual redundancy + semantic value); ECCV paper reports about 2x throughput on understanding tasks and about 1.6x on generation with little/no quality loss.",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Multimodal / MLLM Serving"
     ]
   },
   {

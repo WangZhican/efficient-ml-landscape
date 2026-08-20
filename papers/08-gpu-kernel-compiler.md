@@ -1,6 +1,6 @@
 # 08 · GPU Kernel / DSL / Compiler
 
-> **169 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **170 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [Complete Paper List](ALL_PAPERS.md)
 
@@ -31,6 +31,7 @@
 | **ResCa: Residual Caching for Diffusion Transformers Acceleration** | CVPR 2026 | diffusion transformer / residual caching | — | — |
 | **SeaCache: Spectral-Evolution-Aware Cache for Accelerating Diffusion Models** | CVPR 2026 | diffusion / spectral caching | — | — |
 | **SenCache: Accelerating Diffusion Model Inference via Sensitivity-Aware Caching** | CVPR 2026 | diffusion inference / sensitivity-aware caching | — | — |
+| **AdaDiff: Accelerating Diffusion Models through Step-Wise Adaptive Computation** | ECCV 2024 | diffusion acceleration / adaptive computation / early exit | [Link](https://arxiv.org/abs/2309.17074) | [Repo](https://github.com/Tangshengku/AdaDiff) |
 | **BK-SDM: A Lightweight, Fast, and Cheap Version of Stable Diffusion** | ECCV 2024 | diffusion pruning / compact model | — | — |
 | **HiDiffusion: Unlocking Higher-Resolution Creativity and Efficiency in Pretrained Diffusion Models** | ECCV 2024 | diffusion inference acceleration | — | — |
 | **Inf-DiT: Upsampling any-resolution image with memory-efficient diffusion transformer.** | ECCV 2024 | diffusion memory efficiency | — | — |
