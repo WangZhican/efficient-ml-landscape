@@ -8051,6 +8051,40 @@
     ]
   },
   {
+    "title": "Cadence: Taming Coupled Contention in Disaggregated Agent Clouds",
+    "venue": "SoCC 2026",
+    "topic": "agent systems infrastructure / disaggregated clouds / coupled contention",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "",
+    "paper_url": "https://acmsocc.org/2026/accepted-papers.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Official SoCC 2026 Round-1 accepted paper targeting coupled contention in disaggregated agent clouds. It is a direct efficient-agent-systems/cloud-infrastructure result and fills the protected agent-serving infrastructure neighborhood.",
+    "directions": [
+      "LLM Serving",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "FedRD: Towards Memory-efficient Federated Learning via Adaptive Recomputation and Defragmentation",
+    "venue": "SoCC 2026",
+    "topic": "memory-efficient federated learning / adaptive recomputation / edge-cloud AI training",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "",
+    "paper_url": "https://acmsocc.org/2026/accepted-papers.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Official SoCC 2026 Round-1 accepted paper. Directly targets memory efficiency in federated learning through adaptive recomputation and defragmentation, fitting edge/cloud heterogeneous AI systems and efficient distributed training. Author-group publication page independently confirms the SoCC 2026 identity.",
+    "directions": [
+      "Distributed Training / Inference",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Medha",
     "venue": "SoCC 2026",
     "topic": "KV virtualization + long-context serving + GPU colocation + on-device adaptation",
@@ -8160,6 +8194,23 @@
       "KV Cache / Long Context",
       "GPU Kernel / DSL / Compiler",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Tessera: Contract-Driven Cost–SLO Optimization for Multi-tenant GPU Clouds",
+    "venue": "SoCC 2026",
+    "topic": "multi-tenant GPU cloud / cost-SLO optimization / AI infrastructure scheduling",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "",
+    "paper_url": "https://acmsocc.org/2026/accepted-papers.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Official SoCC 2026 Round-1 accepted paper on cost/SLO optimization for multi-tenant GPU clouds. This is direct AI-infrastructure resource-management work relevant to efficient serving and cloud GPU orchestration.",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {
