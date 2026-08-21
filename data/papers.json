@@ -2520,6 +2520,22 @@
     ]
   },
   {
+    "title": "Crimson: Collaborative Parameter Updates for Efficient Pipeline Training of Large Language Models",
+    "venue": "EuroSys 2026",
+    "topic": "LLM distributed training / pipeline parallelism / collaborative parameter updates",
+    "arxiv": "",
+    "doi": "10.1145/3767295.3803606",
+    "official_id": "EUROSYS-2026-1229",
+    "paper_url": "https://doi.org/10.1145/3767295.3803606",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Direct LLM training-systems paper in the EuroSys 2026 proceedings. Crimson targets inefficient parameter-update execution in pipeline-parallel LLM training through collaborative parameter updates; retained as a first-class distributed-training canonical paper based on official EuroSys/ACM identity.",
+    "directions": [
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "Efficient Multimodal Serving via Module Multiplexing",
     "venue": "EuroSys 2026",
     "topic": "multimodal/MLLM serving / module multiplexing",
@@ -2553,6 +2569,24 @@
       "LLM Serving",
       "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "FlexiQ: Adaptive Mixed-Precision Quantization for Latency/Accuracy Trade-Offs in Deep Neural Networks",
+    "venue": "EuroSys 2026",
+    "topic": "adaptive mixed-precision quantization / runtime accuracy-latency tradeoff / NPU-GPU inference",
+    "arxiv": "2510.02822",
+    "doi": "10.1145/3767295.3769351",
+    "official_id": "EUROSYS-2026-1298",
+    "paper_url": "https://arxiv.org/abs/2510.02822",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Runtime-adaptive mixed-precision quantization for vision CNN/Transformer models with a custom NPU/GPU runtime. The paper reports a 50% 4-bit configuration with only 0.6% accuracy loss while retaining 40% of the full-4-bit speedup over 8-bit execution, making it a direct hardware-aware inference-efficiency result.",
+    "directions": [
+      "Quantization",
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -2727,6 +2761,23 @@
     "why": "Locality-aware cross-region load balancing for LLM inference; independent Berkeley Sky systems lineage and EuroSys 2026 publication.",
     "directions": [
       "LLM Serving"
+    ]
+  },
+  {
+    "title": "SwiftFL: Enabling Speculative Training for On-Device Federated Deep Learning",
+    "venue": "EuroSys 2026",
+    "topic": "on-device federated learning / speculative training / edge AI systems",
+    "arxiv": "",
+    "doi": "10.1145/3767295.3803605",
+    "official_id": "EUROSYS-2026-1196",
+    "paper_url": "https://doi.org/10.1145/3767295.3803605",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "EuroSys systems paper applying speculative execution/training to on-device federated deep learning, directly targeting training efficiency under edge-device constraints. Official EuroSys/ACM proceedings and DOI identity verified.",
+    "directions": [
+      "Speculative Decoding",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {

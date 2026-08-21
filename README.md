@@ -19,8 +19,8 @@
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/Papers-458-7c3aed?style=for-the-badge" alt="458 papers" />
-  <img src="https://img.shields.io/badge/Primary%20Links-400-059669?style=for-the-badge" alt="400 primary links" />
+  <img src="https://img.shields.io/badge/Papers-559-7c3aed?style=for-the-badge" alt="559 papers" />
+  <img src="https://img.shields.io/badge/Primary%20Links-506-059669?style=for-the-badge" alt="506 primary links" />
   <img src="https://img.shields.io/badge/Research%20Tracks-15-2563eb?style=for-the-badge" alt="15 research tracks" />
   <img src="https://img.shields.io/badge/Physical%20AI-Protected-f59e0b?style=for-the-badge" alt="Physical AI protected" />
 </p>
@@ -33,7 +33,7 @@
 
 **Influential papers, technical lineages, major research groups, systems venues, official repositories, and auditable coverage — in one place.**
 
-### [📚 Browse the complete 458-paper list →](papers/ALL_PAPERS.md)
+### [📚 Browse the complete 559-paper list →](papers/ALL_PAPERS.md)
 
 ### [🧭 Explore by 15 research directions →](papers/README.md)
 
@@ -45,11 +45,11 @@
 
 | Metric | Current public view |
 |---|---:|
-| **Quality-gated unique papers** | **458** |
-| **Papers with resolved primary-source links** | **400** |
-| **Latest strong papers** | **35** |
+| **Quality-gated unique papers** | **559** |
+| **Papers with resolved primary-source links** | **506** |
+| **Latest strong papers** | **38** |
 | **Research directions** | **15** |
-| **Venue/source labels represented** | **42** |
+| **Venue/source labels represented** | **46** |
 
 > [!IMPORTANT]
 > The paper list is the core of this repository. The current public export already contains the complete validated canonical list available in the internal census. Official code/project repositories, open-source status, GitHub-star snapshots, and lineage annotations are being enriched on top of this paper base.
