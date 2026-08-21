@@ -6637,6 +6637,22 @@
     ]
   },
   {
+    "title": "Ada-KV: Optimizing KV Cache Eviction by Adaptive Budget Allocation for Efficient LLM Inference",
+    "venue": "NeurIPS 2025",
+    "topic": "KV cache eviction / adaptive head-wise budgets",
+    "arxiv": "",
+    "doi": "10.52202/085713-3773",
+    "official_id": "a40ff56daab9f4808b1e18350c8a11ce",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/a40ff56daab9f4808b1e18350c8a11ce-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Head-wise adaptive KV-cache budget allocation, plug-and-play with prior eviction methods; official NeurIPS paper and code reference verified.",
+    "directions": [
+      "KV Cache / Long Context"
+    ]
+  },
+  {
     "title": "Block-Diagonal LoRA for Eliminating Communication Overhead in Tensor Parallel LoRA Serving",
     "venue": "NeurIPS 2025",
     "topic": "LoRA serving / tensor parallel communication elimination",
@@ -6685,6 +6701,25 @@
     "why": "Compressed KV plus selective gather/recompute; reports 30% lower inference time at 1M-context evaluations.",
     "directions": [
       "KV Cache / Long Context"
+    ]
+  },
+  {
+    "title": "Delta Attention: Fast and Accurate Sparse Attention Inference by Delta Correction",
+    "venue": "NeurIPS 2025",
+    "topic": "sparse attention / long-context inference",
+    "arxiv": "",
+    "doi": "10.52202/085713-0403",
+    "official_id": "11cc3abb01080339ceed66eff7c93920",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/11cc3abb01080339ceed66eff7c93920-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Distribution-shift correction for sparse attention; official paper reports 98.5% sparsity and 32x speed over FlashAttention2 for 1M-token prefills.",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Efficient Attention"
     ]
   },
   {
@@ -6751,6 +6786,23 @@
     "why": "Production-workload serving system; up to 3.9-5.8x throughput while preserving latency SLOs.",
     "directions": [
       "LLM Serving"
+    ]
+  },
+  {
+    "title": "Inference-Time Hyper-Scaling with KV Cache Compression",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient reasoning / KV compression / inference-time scaling",
+    "arxiv": "",
+    "doi": "10.52202/085713-0317",
+    "official_id": "0d781fa5f639bf2caf728a68e9678362",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/0d781fa5f639bf2caf728a68e9678362-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Dynamic Memory Sparsification enables 8x KV compression with short training and trades saved memory reads for larger inference-time reasoning budgets.",
+    "directions": [
+      "KV Cache / Long Context",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -6856,6 +6908,43 @@
     ]
   },
   {
+    "title": "MPCache: MPC-Friendly KV Cache Eviction for Efficient Private LLM Inference",
+    "venue": "NeurIPS 2025",
+    "topic": "private LLM inference / KV eviction / MPC",
+    "arxiv": "",
+    "doi": "10.52202/085713-3251",
+    "official_id": "8c2df4c35cdbee764ebb9e9d0acd5197",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/8c2df4c35cdbee764ebb9e9d0acd5197-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "MPC-friendly static+dynamic KV eviction with clustering and cross-layer sharing; official proceedings report 1.8-2.01x decoding-latency and 3.39-8.37x communication reduction.",
+    "directions": [
+      "KV Cache / Long Context",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "MUSTAFAR: Promoting Unstructured Sparsity for KV Cache Pruning in LLM Inference",
+    "venue": "NeurIPS 2025",
+    "topic": "KV pruning / sparse attention kernel",
+    "arxiv": "",
+    "doi": "10.52202/085713-2564",
+    "official_id": "6ea69f8116b7c01e3c3e43b62e6868fc",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/6ea69f8116b7c01e3c3e43b62e6868fc-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Unstructured KV pruning with bitmap sparse format and custom attention kernel; official paper reports up to 2.23x throughput over dense inference.",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "SageAttention3: Microscaling FP4 Attention for Inference and An Exploration of 8-Bit Training",
     "venue": "NeurIPS 2025",
     "topic": "low-bit attention kernel / FP4",
@@ -6871,6 +6960,25 @@
       "Quantization",
       "Efficient Attention",
       "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "SALS: Sparse Attention in Latent Space for KV Cache Compression",
+    "venue": "NeurIPS 2025",
+    "topic": "KV cache compression / sparse attention",
+    "arxiv": "",
+    "doi": "10.52202/085713-0013",
+    "official_id": "00a0ebcad584c59dbc439c2af8793638",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/00a0ebcad584c59dbc439c2af8793638-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Low-rank latent-space KV compression plus sparse token selection; NeurIPS reports 6.4x KV compression, 5.7x attention-operator speedup and up to 4.5x end-to-end throughput improvement.",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Efficient Attention"
     ]
   },
   {
@@ -6965,6 +7073,22 @@
       "Sparsity / Pruning",
       "Efficient Attention",
       "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "Tail-Optimized Caching for LLM Inference",
+    "venue": "NeurIPS 2025",
+    "topic": "LLM serving / prompt caching / tail latency",
+    "arxiv": "",
+    "doi": "10.52202/085713-5483",
+    "official_id": "f05fe8b796dcbd67bc7bb1ea89df1793",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/f05fe8b796dcbd67bc7bb1ea89df1793-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Tail-optimized LRU prompt-cache policy; official proceedings report up to 27.5% P90 TTFT and 23.9% P95 TTFT reduction vs LRU.",
+    "directions": [
+      "LLM Serving"
     ]
   },
   {
