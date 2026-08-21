@@ -7614,6 +7614,40 @@
     ]
   },
   {
+    "title": "Alibaba Stellar: A New Generation RDMA Network for Cloud AI",
+    "venue": "SIGCOMM 2025",
+    "topic": "cloud AI networking / RDMA virtualization / distributed training and inference infrastructure",
+    "arxiv": "",
+    "doi": "10.1145/3718958.3750539",
+    "official_id": "SIGCOMM-2025-STELLAR",
+    "paper_url": "https://doi.org/10.1145/3718958.3750539",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Production cloud-AI RDMA infrastructure. Stellar introduces PVDMA, extended MTT for GPU Direct RDMA, and packet spraying; the SIGCOMM paper reports 73% lower container initialization time and up to 14% faster LLM training in large-scale AI clusters.",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "AoRA: AI-on-RAN for Backhaul-free Edge Inference",
+    "venue": "SIGCOMM 2025",
+    "topic": "edge AI inference / AI-on-RAN / heterogeneous GPU-NPU infrastructure",
+    "arxiv": "",
+    "doi": "10.1145/3718958.3750517",
+    "official_id": "SIGCOMM-2025-AORA",
+    "paper_url": "https://doi.org/10.1145/3718958.3750517",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "First practical AI-on-RAN framework using spare GPU/NPU compute in RAN platforms for inline edge inference. The paper reports over 30% lower transport latency than MEC and 70% lower than cloud-based setups, making it directly relevant to edge/heterogeneous AI systems.",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Astral: A Datacenter Infrastructure for Large Language Model Training at Scale",
     "venue": "SIGCOMM 2025",
     "topic": "large-scale LLM training infrastructure / datacenter network / monitoring / performance forecasting",
@@ -7645,6 +7679,23 @@
       "KV Cache / Long Context",
       "MoE Systems / Accelerators",
       "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "Coflow Scheduling for LLM Training",
+    "venue": "SIGCOMM 2025",
+    "topic": "LLM distributed training / coflow scheduling / communication-computation overlap",
+    "arxiv": "",
+    "doi": "10.1145/3718958.3750467",
+    "official_id": "SIGCOMM-2025-COFLOW-LLM",
+    "paper_url": "https://doi.org/10.1145/3718958.3750467",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "SIGCOMM short paper introducing Hermod, a model-factor-driven coflow scheduler for LLM training that jointly reasons about microbatch ID, coflow type and layer ID to improve communication-computation overlap under contention.",
+    "directions": [
+      "LLM Serving",
       "Distributed Training / Inference"
     ]
   },
