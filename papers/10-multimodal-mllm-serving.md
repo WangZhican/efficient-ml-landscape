@@ -1,6 +1,6 @@
 # 10 · Multimodal / MLLM Serving
 
-> **64 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **65 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [Complete Paper List](ALL_PAPERS.md)
 
@@ -43,6 +43,7 @@
 | **ZipVL: Accelerating Vision-Language Models through Dynamic Token Sparsity** | ICCV 2025 | VLM dynamic token sparsity / KV efficiency | — | — |
 | **CoreMatching: A Co-adaptive Sparse Inference Framework with Token and Neuron Pruning for Comprehensive Acceleration of Vision-Language Models** | ICML 2025 | VLM sparsity / pruning | — | — |
 | **EveryDayVLA: A Vision-Language-Action Model for Affordable Robotic Manipulation** | ICRA 2026 | Physical AI / VLA / real-time adaptive-horizon replanning / low-cost deployment | [Link](https://arxiv.org/abs/2511.05397) | [Repo](https://github.com/everydayvla/EveryDayVLA) |
+| **Rethinking the Practicality of Vision-language-action Model: A Comprehensive Benchmark and An Improved Baseline** | ICRA 2026 | Physical AI / lightweight VLA / consumer-GPU deployment / action chunking / cross-embodiment | [Link](https://arxiv.org/abs/2602.22663) | [Repo](https://github.com/OpenHelix-Team/LLaVA-VLA) |
 | **The Better You Learn, The Smarter You Prune: Towards Efficient Vision-language-action Models via Differentiable Token Pruning** | ICRA 2026 | Physical AI / VLA / adaptive visual-token pruning / inference acceleration | [Link](https://arxiv.org/abs/2509.12594) | [Repo](https://github.com/LiAutoAD/LightVLA) |
 | **AdaToken-3D: Dynamic Spatial Gating for Efficient 3D Large Multimodal-Models Reasoning** | IROS 2025 | 3D multimodal inference / token pruning / Physical AI | [Link](https://arxiv.org/abs/2505.12782) | — |
 | **AQuant: Repurposing CODEC for VLM Acceleration via Adaptive Quantization** | ISCA 2026 | VLM acceleration / adaptive quantization / hardware co-design | — | — |

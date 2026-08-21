@@ -1,6 +1,6 @@
 # 🧭 Research Map
 
-> **562 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
+> **563 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
 
 <div align="center">
 
@@ -19,13 +19,13 @@
 | 05 | [**Sparsity / Pruning**](05-sparsity-pruning.md) | **72** |
 | 06 | [**Efficient Attention**](06-efficient-attention.md) | **68** |
 | 07 | [**MoE Systems / Accelerators**](07-moe-systems.md) | **54** |
-| 08 | [**GPU Kernel / DSL / Compiler**](08-gpu-kernel-compiler.md) | **198** |
+| 08 | [**GPU Kernel / DSL / Compiler**](08-gpu-kernel-compiler.md) | **199** |
 | 09 | [**Distributed Training / Inference**](09-distributed-training-inference.md) | **77** |
-| 10 | [**Multimodal / MLLM Serving**](10-multimodal-mllm-serving.md) | **64** |
+| 10 | [**Multimodal / MLLM Serving**](10-multimodal-mllm-serving.md) | **65** |
 | 11 | [**Video / Image Generation**](11-video-image-generation.md) | **15** |
 | 12 | [**Diffusion / Flow Acceleration**](12-diffusion-flow.md) | **84** |
 | 13 | [**Efficient Reasoning / Agents**](13-efficient-reasoning-agents.md) | **71** |
-| 14 | [**VLA / WAM / Physical AI**](14-physical-ai-vla-wam.md) | **35** |
+| 14 | [**VLA / WAM / Physical AI**](14-physical-ai-vla-wam.md) | **36** |
 | 15 | [**Edge / Cloud / Heterogeneous AI**](15-edge-cloud-heterogeneous.md) | **137** |
 
 > Counts are multi-label and therefore do not sum to the unique-paper total. A canonical paper can intentionally appear in several directions.

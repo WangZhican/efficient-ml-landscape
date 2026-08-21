@@ -4441,6 +4441,24 @@
     ]
   },
   {
+    "title": "Rethinking the Practicality of Vision-language-action Model: A Comprehensive Benchmark and An Improved Baseline",
+    "venue": "ICRA 2026",
+    "topic": "Physical AI / lightweight VLA / consumer-GPU deployment / action chunking / cross-embodiment",
+    "arxiv": "2602.22663",
+    "doi": "",
+    "official_id": "ICRA26_WeI1I.142",
+    "paper_url": "https://arxiv.org/abs/2602.22663",
+    "code_url": "https://github.com/OpenHelix-Team/LLaVA-VLA",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_PHYSICAL_AI_HIGH",
+    "why": "ICRA 2026 protected Physical-AI paper introducing CEBench and LLaVA-VLA, a compact VLA designed for consumer-grade GPU deployment with a compact VLM backbone, multi-view perception, proprioceptive tokenization and action chunking, avoiding costly large-scale VLA pre-training while supporting both navigation and manipulation.",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "RetoVLA",
     "venue": "ICRA 2026",
     "topic": "lightweight VLA + compressed action representation/video-pretrained VLA",

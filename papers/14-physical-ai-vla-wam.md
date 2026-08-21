@@ -1,6 +1,6 @@
 # 14 · VLA / WAM / Physical AI
 
-> **35 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **36 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [Complete Paper List](ALL_PAPERS.md)
 
@@ -15,6 +15,7 @@
 | **Sparse ActionGen: Accelerating Diffusion Policy with Real-time Pruning** | ICML 2026 | Physical AI / diffusion-policy acceleration / pruning+reuse | [Link](https://arxiv.org/abs/2601.12894) | — |
 | **Adaptive Capacity Allocation for Vision Language Action Fine-tuning** | ICRA 2026 | Physical AI / VLA parameter-efficient fine-tuning / adaptive LoRA | [Link](https://arxiv.org/abs/2603.07404) | — |
 | **EveryDayVLA: A Vision-Language-Action Model for Affordable Robotic Manipulation** | ICRA 2026 | Physical AI / VLA / real-time adaptive-horizon replanning / low-cost deployment | [Link](https://arxiv.org/abs/2511.05397) | [Repo](https://github.com/everydayvla/EveryDayVLA) |
+| **Rethinking the Practicality of Vision-language-action Model: A Comprehensive Benchmark and An Improved Baseline** | ICRA 2026 | Physical AI / lightweight VLA / consumer-GPU deployment / action chunking / cross-embodiment | [Link](https://arxiv.org/abs/2602.22663) | [Repo](https://github.com/OpenHelix-Team/LLaVA-VLA) |
 | **RetoVLA** | ICRA 2026 | lightweight VLA + compressed action representation/video-pretrained VLA | — | — |
 | **RynnVLA-001** | ICRA 2026 | lightweight VLA + compressed action representation/video-pretrained VLA | — | — |
 | **The Better You Learn, The Smarter You Prune: Towards Efficient Vision-language-action Models via Differentiable Token Pruning** | ICRA 2026 | Physical AI / VLA / adaptive visual-token pruning / inference acceleration | [Link](https://arxiv.org/abs/2509.12594) | [Repo](https://github.com/LiAutoAD/LightVLA) |

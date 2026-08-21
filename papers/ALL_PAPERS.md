@@ -1,6 +1,6 @@
 # 📚 Complete Paper List
 
-> **562 quality-gated papers** exported from the validated canonical literature census. PDF binaries are not stored here; links point to primary paper sources whenever resolved.
+> **563 quality-gated papers** exported from the validated canonical literature census. PDF binaries are not stored here; links point to primary paper sources whenever resolved.
 
 [← Research Map](README.md) · [Machine-readable JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -669,6 +669,17 @@
 | **LAVa: Layer-wise KV Cache Eviction with Dynamic Budget Allocation** | EMNLP 2025 Findings | KV cache eviction / dynamic layer-head budgets | [Link](https://doi.org/10.18653/v1/2025.findings-emnlp.737) | — |
 | **More Tokens, Lower Precision: Towards the Optimal Token-Precision Trade-off in KV Cache Compression** | EMNLP 2025 Findings | KV cache compression / token-precision co-optimization | [Link](https://doi.org/10.18653/v1/2025.findings-emnlp.429) | — |
 
+## ICRA 2026 · 6
+
+| Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|
+| **Adaptive Capacity Allocation for Vision Language Action Fine-tuning** | ICRA 2026 | Physical AI / VLA parameter-efficient fine-tuning / adaptive LoRA | [Link](https://arxiv.org/abs/2603.07404) | — |
+| **EveryDayVLA: A Vision-Language-Action Model for Affordable Robotic Manipulation** | ICRA 2026 | Physical AI / VLA / real-time adaptive-horizon replanning / low-cost deployment | [Link](https://arxiv.org/abs/2511.05397) | [Repo](https://github.com/everydayvla/EveryDayVLA) |
+| **Rethinking the Practicality of Vision-language-action Model: A Comprehensive Benchmark and An Improved Baseline** | ICRA 2026 | Physical AI / lightweight VLA / consumer-GPU deployment / action chunking / cross-embodiment | [Link](https://arxiv.org/abs/2602.22663) | [Repo](https://github.com/OpenHelix-Team/LLaVA-VLA) |
+| **RetoVLA** | ICRA 2026 | lightweight VLA + compressed action representation/video-pretrained VLA | — | — |
+| **RynnVLA-001** | ICRA 2026 | lightweight VLA + compressed action representation/video-pretrained VLA | — | — |
+| **The Better You Learn, The Smarter You Prune: Towards Efficient Vision-language-action Models via Differentiable Token Pruning** | ICRA 2026 | Physical AI / VLA / adaptive visual-token pruning / inference acceleration | [Link](https://arxiv.org/abs/2509.12594) | [Repo](https://github.com/LiAutoAD/LightVLA) |
+
 ## RSS 2025 · 6
 
 | Paper | Venue | Topic | Paper | Code |
@@ -721,16 +732,6 @@
 | **FARE: A Fine-grained Pipelined Reconfigurable FlashAttention Kernel** | FPGA 2026 | FlashAttention accelerator / FPGA | [Link](https://doi.org/10.1145/3748173.3779572) | — |
 | **KANELÉ: Kolmogorov-Arnold Networks for Efficient LUT-based Evaluation** | FPGA 2026 | efficient FPGA ML inference / LUT neural networks | [Link](https://arxiv.org/abs/2512.12850) | — |
 | **TeLLMe: An Efficient End-to-End Ternary LLM Prefill and Decode Accelerator with Table-Lookup Matmul on Edge FPGAs** | FPGA 2026 | edge LLM inference / ternary accelerator / FPGA | [Link](https://arxiv.org/abs/2510.15926) | [Repo](https://github.com/UCI-CORSA/TeLLMe_FPGA_2026) |
-
-## ICRA 2026 · 5
-
-| Paper | Venue | Topic | Paper | Code |
-|---|---|---|---|---|
-| **Adaptive Capacity Allocation for Vision Language Action Fine-tuning** | ICRA 2026 | Physical AI / VLA parameter-efficient fine-tuning / adaptive LoRA | [Link](https://arxiv.org/abs/2603.07404) | — |
-| **EveryDayVLA: A Vision-Language-Action Model for Affordable Robotic Manipulation** | ICRA 2026 | Physical AI / VLA / real-time adaptive-horizon replanning / low-cost deployment | [Link](https://arxiv.org/abs/2511.05397) | [Repo](https://github.com/everydayvla/EveryDayVLA) |
-| **RetoVLA** | ICRA 2026 | lightweight VLA + compressed action representation/video-pretrained VLA | — | — |
-| **RynnVLA-001** | ICRA 2026 | lightweight VLA + compressed action representation/video-pretrained VLA | — | — |
-| **The Better You Learn, The Smarter You Prune: Towards Efficient Vision-language-action Models via Differentiable Token Pruning** | ICRA 2026 | Physical AI / VLA / adaptive visual-token pruning / inference acceleration | [Link](https://arxiv.org/abs/2509.12594) | [Repo](https://github.com/LiAutoAD/LightVLA) |
 
 ## VLSI Symposium 2026 · 5
 
