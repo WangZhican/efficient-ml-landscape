@@ -1,6 +1,6 @@
 # 08 · GPU Kernel / DSL / Compiler
 
-> **183 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **184 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [Complete Paper List](ALL_PAPERS.md)
 
@@ -129,6 +129,7 @@
 | **MetaAttention: A Unified and Performant Attention Framework across Hardware Backends** | PPoPP 2026 | attention runtime / cross-backend kernel optimization | [Link](https://doi.org/10.1145/3774934.3786444) | — |
 | **MixFusion: A Patch-Level Parallel Serving System for Mixed-Resolution Diffusion Models** | PPoPP 2026 | diffusion serving / patch-level parallelism | [Link](https://doi.org/10.1145/3774934.3786420) | — |
 | **Unified Video Action Model** | RSS 2025 | Physical AI / efficient world-action model inference | [Link](https://doi.org/10.15607/RSS.2025.XXI.074) | — |
+| **Muninn: Your Trajectory Diffusion Model But Faster** | RSS 2026 | Physical AI / trajectory diffusion acceleration / training-free cache reuse | [Link](https://arxiv.org/abs/2605.09999) | [Repo](https://github.com/gokulp01/Muninn) |
 | **RLux-VLA: A Unified and Efficient Framework for Reinforcement Learning of Vision-Language-Action Models** | RSS 2026 | Physical AI / VLA RL systems / scalable training | [Link](https://arxiv.org/abs/2510.06710) | — |
 | **Compile-Time QoS Scheme for Deep Learning Inferences** | SC 2025 | multi-tenant inference / QoS / compiler scheduling | [Link](https://doi.org/10.1145/3712285.3759846) | — |
 | **Engine-Agnostic Model Hot-Swapping for Cost-Effective LLM Inference** | SC 2025 | LLM serving / GPU model hot-swapping | [Link](https://doi.org/10.1145/3731599.3767354) | — |

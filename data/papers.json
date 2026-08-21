@@ -6777,6 +6777,25 @@
     ]
   },
   {
+    "title": "Muninn: Your Trajectory Diffusion Model But Faster",
+    "venue": "RSS 2026",
+    "topic": "Physical AI / trajectory diffusion acceleration / training-free cache reuse",
+    "arxiv": "2605.09999",
+    "doi": "",
+    "official_id": "",
+    "paper_url": "https://arxiv.org/abs/2605.09999",
+    "code_url": "https://github.com/gokulp01/Muninn",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "CANONICAL_HIGH_VALUE",
+    "why": "RSS 2026 Outstanding Student Paper; training-free certified denoiser-output caching for trajectory diffusion, up to 4.6x wall-clock speedup while preserving task/safety metrics.",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "GPU Kernel / DSL / Compiler",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "OAT: Ordered Action Tokenization",
     "venue": "RSS 2026",
     "topic": "Physical AI / action tokenization / anytime inference",
@@ -6789,6 +6808,41 @@
     "decision": "BACKFILL_PHYSICAL_AI_HIGH",
     "why": "Compact ordered action tokens with prefix-based detokenization, creating an explicit inference-cost versus action-fidelity trade-off; RSS 2026 paper and project confirmed.",
     "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "RIO: Flexible Real-Time Robot I/O for Cross-Embodiment Robot Learning",
+    "venue": "RSS 2026",
+    "topic": "Physical AI runtime / cross-embodiment VLA deployment / real-time robot I/O",
+    "arxiv": "2605.11564",
+    "doi": "",
+    "official_id": "",
+    "paper_url": "https://arxiv.org/abs/2605.11564",
+    "code_url": "https://github.com/robot-i-o/rio",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "CANONICAL_HIGH_VALUE",
+    "why": "RSS 2026 open-source robot runtime; asynchronous VLA inference and middleware design reduce observation-to-action latency from 581.2 ms to 130.3 ms (4.46x) versus LeRobot under matched hardware.",
+    "directions": [
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "RLinf-USER: A Unified and Extensible System for Real-World Online Policy Learning in Embodied AI",
+    "venue": "RSS 2026",
+    "topic": "Physical AI systems / multi-robot online learning / edge-cloud scheduling",
+    "arxiv": "2602.07837",
+    "doi": "",
+    "official_id": "",
+    "paper_url": "https://arxiv.org/abs/2602.07837",
+    "code_url": "https://github.com/RLinf/RLinf",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "CANONICAL_HIGH_VALUE",
+    "why": "RSS 2026 systems framework treating robots as first-class hardware resources with scheduling, adaptive cloud-edge communication, asynchronous learning and persistent cache-aware data reuse.",
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference",
+      "VLA / WAM / Physical AI",
       "Edge / Cloud / Heterogeneous AI"
     ]
   },

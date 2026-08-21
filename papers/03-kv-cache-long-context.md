@@ -1,6 +1,6 @@
 # 03 · KV Cache / Long Context
 
-> **143 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **144 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [Complete Paper List](ALL_PAPERS.md)
 
@@ -115,6 +115,7 @@
 | **Strata: Hierarchical Context Caching for Long Context Language Model Serving** | OSDI 2026 | long-context KV-cache serving | — | — |
 | **HelixPipe: Efficient Distributed Training of Long Sequence Transformers with Attention Parallel Pipeline Parallelism** | PPoPP 2026 | distributed training / long-context transformer | — | — |
 | **JanusQuant: Accurate and Efficient 2-bit KV Cache Quantization for Long-Context Inference** | PPoPP 2026 | KV cache quantization / long-context inference | [Link](https://doi.org/10.1145/3774934.3786428) | — |
+| **Muninn: Your Trajectory Diffusion Model But Faster** | RSS 2026 | Physical AI / trajectory diffusion acceleration / training-free cache reuse | [Link](https://arxiv.org/abs/2605.09999) | [Repo](https://github.com/gokulp01/Muninn) |
 | **HydraCache: LLM Inference Prefill Parallelization Through Distributed Cache Blending** | SC 2025 | LLM serving / distributed prefill / KV cache blending | — | — |
 | **ByteScale: Communication-Efficient Scaling of LLM Training with a 2048K Context Length on 16384 GPUs** | SIGCOMM 2025 | KV encoding + MoE training fabric + long-context training + AI networking/inference | [Link](https://arxiv.org/abs/2502.21231) | — |
 | **HACK: Homomorphic Acceleration via Compression of the Key-Value Cache for Disaggregated LLM Inference** | SIGCOMM 2025 | KV cache / disaggregated LLM serving / quantization | [Link](https://arxiv.org/abs/2502.03589) | — |

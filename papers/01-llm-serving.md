@@ -1,6 +1,6 @@
 # 01 · LLM Serving
 
-> **199 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **201 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [Complete Paper List](ALL_PAPERS.md)
 
@@ -140,6 +140,8 @@
 | **JanusQuant: Accurate and Efficient 2-bit KV Cache Quantization for Long-Context Inference** | PPoPP 2026 | KV cache quantization / long-context inference | [Link](https://doi.org/10.1145/3774934.3786428) | — |
 | **Laser: Unlocking Layer-Level Scheduling for Efficient Multi-SLO LLM Serving** | PPoPP 2026 | LLM serving / multi-SLO scheduling | [Link](https://doi.org/10.1145/3774934.3786413) | — |
 | **MixFusion: A Patch-Level Parallel Serving System for Mixed-Resolution Diffusion Models** | PPoPP 2026 | diffusion serving / patch-level parallelism | [Link](https://doi.org/10.1145/3774934.3786420) | — |
+| **Muninn: Your Trajectory Diffusion Model But Faster** | RSS 2026 | Physical AI / trajectory diffusion acceleration / training-free cache reuse | [Link](https://arxiv.org/abs/2605.09999) | [Repo](https://github.com/gokulp01/Muninn) |
+| **RLinf-USER: A Unified and Extensible System for Real-World Online Policy Learning in Embodied AI** | RSS 2026 | Physical AI systems / multi-robot online learning / edge-cloud scheduling | [Link](https://arxiv.org/abs/2602.07837) | [Repo](https://github.com/RLinf/RLinf) |
 | **Compile-Time QoS Scheme for Deep Learning Inferences** | SC 2025 | multi-tenant inference / QoS / compiler scheduling | [Link](https://doi.org/10.1145/3712285.3759846) | — |
 | **Engine-Agnostic Model Hot-Swapping for Cost-Effective LLM Inference** | SC 2025 | LLM serving / GPU model hot-swapping | [Link](https://doi.org/10.1145/3731599.3767354) | — |
 | **FIRST: Federated Inference Resource Scheduling Toolkit for Scientific AI Model Access** | SC 2025 | federated inference-as-a-service / HPC AI serving | [Link](https://arxiv.org/abs/2510.13724) | — |

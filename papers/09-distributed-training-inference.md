@@ -1,6 +1,6 @@
 # 09 · Distributed Training / Inference
 
-> **65 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **66 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [Complete Paper List](ALL_PAPERS.md)
 
@@ -39,6 +39,7 @@
 | **FlashAttention-T: Towards Fully Tensorized Attention by Exploiting Tensor-Vector Parallelism** | PPoPP 2026 | attention kernel / tensor core / GPU | [Link](https://doi.org/10.1145/3774934.3786425) | — |
 | **HelixPipe: Efficient Distributed Training of Long Sequence Transformers with Attention Parallel Pipeline Parallelism** | PPoPP 2026 | distributed training / long-context transformer | — | — |
 | **MixFusion: A Patch-Level Parallel Serving System for Mixed-Resolution Diffusion Models** | PPoPP 2026 | diffusion serving / patch-level parallelism | [Link](https://doi.org/10.1145/3774934.3786420) | — |
+| **RLinf-USER: A Unified and Extensible System for Real-World Online Policy Learning in Embodied AI** | RSS 2026 | Physical AI systems / multi-robot online learning / edge-cloud scheduling | [Link](https://arxiv.org/abs/2602.07837) | [Repo](https://github.com/RLinf/RLinf) |
 | **FIRST: Federated Inference Resource Scheduling Toolkit for Scientific AI Model Access** | SC 2025 | federated inference-as-a-service / HPC AI serving | [Link](https://arxiv.org/abs/2510.13724) | — |
 | **gLLM: Global Balanced Pipeline Parallelism Systems for Distributed LLMs Serving with Token Throttling** | SC 2025 | LLM serving / pipeline parallelism / token throttling | [Link](https://arxiv.org/abs/2504.14775) | [Repo](https://github.com/gty111/gLLM) |
 | **Hetis: Serving LLMs in Heterogeneous GPU Clusters with Fine-grained and Dynamic Parallelism** | SC 2025 | LLM serving / heterogeneous GPU / dynamic parallelism | [Link](https://arxiv.org/abs/2509.08309) | — |

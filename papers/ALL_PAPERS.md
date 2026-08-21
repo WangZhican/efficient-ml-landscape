@@ -1,6 +1,6 @@
 # 📚 Complete Paper List
 
-> **518 quality-gated papers** exported from the validated canonical literature census. PDF binaries are not stored here; links point to primary paper sources whenever resolved.
+> **521 quality-gated papers** exported from the validated canonical literature census. PDF binaries are not stored here; links point to primary paper sources whenever resolved.
 
 [← Research Map](README.md) · [Machine-readable JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -642,6 +642,17 @@
 | **Seer: Online Context Learning for Fast Synchronous LLM Reinforcement Learning** | OSDI 2026 | RL rollout systems | — | — |
 | **Strata: Hierarchical Context Caching for Long Context Language Model Serving** | OSDI 2026 | long-context KV-cache serving | — | — |
 
+## RSS 2026 · 6
+
+| Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|
+| **Mimic Intent, Not Just Trajectories** | RSS 2026 | Physical AI / spectral action tokenization / efficient autoregressive policy | [Link](https://arxiv.org/abs/2602.08602) | — |
+| **Muninn: Your Trajectory Diffusion Model But Faster** | RSS 2026 | Physical AI / trajectory diffusion acceleration / training-free cache reuse | [Link](https://arxiv.org/abs/2605.09999) | [Repo](https://github.com/gokulp01/Muninn) |
+| **OAT: Ordered Action Tokenization** | RSS 2026 | Physical AI / action tokenization / anytime inference | [Link](https://arxiv.org/abs/2602.04215) | — |
+| **RIO: Flexible Real-Time Robot I/O for Cross-Embodiment Robot Learning** | RSS 2026 | Physical AI runtime / cross-embodiment VLA deployment / real-time robot I/O | [Link](https://arxiv.org/abs/2605.11564) | [Repo](https://github.com/robot-i-o/rio) |
+| **RLinf-USER: A Unified and Extensible System for Real-World Online Policy Learning in Embodied AI** | RSS 2026 | Physical AI systems / multi-robot online learning / edge-cloud scheduling | [Link](https://arxiv.org/abs/2602.07837) | [Repo](https://github.com/RLinf/RLinf) |
+| **RLux-VLA: A Unified and Efficient Framework for Reinforcement Learning of Vision-Language-Action Models** | RSS 2026 | Physical AI / VLA RL systems / scalable training | [Link](https://arxiv.org/abs/2510.06710) | — |
+
 ## SoCC 2026 · 6
 
 | Paper | Venue | Topic | Paper | Code |
@@ -708,14 +719,6 @@
 | **AdaToken-3D: Dynamic Spatial Gating for Efficient 3D Large Multimodal-Models Reasoning** | IROS 2025 | 3D multimodal inference / token pruning / Physical AI | [Link](https://arxiv.org/abs/2505.12782) | — |
 | **LightPlanner: Unleashing the Reasoning Capabilities of Lightweight Large Language Models in Task Planning** | IROS 2025 | edge-efficient embodied task planning / lightweight LLM / long-horizon memory | [Link](https://arxiv.org/abs/2503.08508) | [Repo](https://github.com/jetteezhou/LightPlanner) |
 | **Task-Oriented Token Pruning for Efficient Object Detection and Segmentation** | IROS 2025 | robot perception / task-aware token pruning / Physical AI | — | — |
-
-## RSS 2026 · 3
-
-| Paper | Venue | Topic | Paper | Code |
-|---|---|---|---|---|
-| **Mimic Intent, Not Just Trajectories** | RSS 2026 | Physical AI / spectral action tokenization / efficient autoregressive policy | [Link](https://arxiv.org/abs/2602.08602) | — |
-| **OAT: Ordered Action Tokenization** | RSS 2026 | Physical AI / action tokenization / anytime inference | [Link](https://arxiv.org/abs/2602.04215) | — |
-| **RLux-VLA: A Unified and Efficient Framework for Reinforcement Learning of Vision-Language-Action Models** | RSS 2026 | Physical AI / VLA RL systems / scalable training | [Link](https://arxiv.org/abs/2510.06710) | — |
 
 ## PLDI 2026 · 2
 
