@@ -1,6 +1,6 @@
 # 08 · GPU Kernel / DSL / Compiler
 
-> **207 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **208 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [Complete Paper List](ALL_PAPERS.md)
 
@@ -9,6 +9,7 @@
 | **Accelerating LLM Inference Throughput via Asynchronous KV Cache Prefetching** | AAAI 2026 | LLM inference / KV cache prefetch / GPU memory hierarchy | [Link](https://doi.org/10.1609/aaai.v40i25.39224) | — |
 | **Self-Indexing KVCache: Predicting Sparse Attention from Compressed Keys** | AAAI 2026 | KV cache compression / sparse attention / CUDA kernel | [Link](https://doi.org/10.1609/aaai.v40i33.39988) | — |
 | **ContrastKV: Robust KV Cache Eviction via Contrastive Signal Fusion for Multi-Query Generalization** | ACL 2026 | KV-cache eviction / long-context multi-query inference | [Link](https://doi.org/10.18653/v1/2026.acl-long.417) | — |
+| **Focus-dLLM: Accelerating Long-Context Diffusion LLM Inference via Confidence-Guided Context Focusing** | ACL 2026 | diffusion LLM / sparse attention | [Link](https://doi.org/10.18653/v1/2026.acl-long.556) | — |
 | **VecInfer: Efficient LLM Inference with Low-Bit KV Cache via Outlier-Suppressed Vector Quantization** | ACL 2026 | KV-cache quantization / low-bit LLM inference / CUDA kernel | [Link](https://doi.org/10.18653/v1/2026.acl-long.1454) | — |
 | **AB-Cache: Training-Free Acceleration of Diffusion Models via Adams-Bashforth Cached Feature Reuse** | ACM Multimedia 2025 | diffusion caching / generative inference acceleration | [Link](https://arxiv.org/abs/2504.10540) | — |
 | **Accelerating Diffusion Transformer via Error-Optimized Cache** | ACM Multimedia 2025 | diffusion transformer inference / feature caching | [Link](https://arxiv.org/abs/2501.19243) | — |

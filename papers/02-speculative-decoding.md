@@ -1,6 +1,6 @@
 # 02 · Speculative Decoding
 
-> **88 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **90 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [Complete Paper List](ALL_PAPERS.md)
 
@@ -16,7 +16,9 @@
 | **HeteroSpec: Leveraging Contextual Heterogeneity for Efficient Speculative Decoding** | ACL 2026 | speculative decoding / adaptive verification | [Link](https://doi.org/10.18653/v1/2026.acl-long.589) | — |
 | **Jakiro: Boosting Speculative Decoding via Decoupled MoE** | ACL 2026 | speculative decoding / MoE draft model | [Link](https://doi.org/10.18653/v1/2026.acl-long.487) | — |
 | **LongSpec: Long-Context Lossless Speculative Decoding with Efficient Drafting and Verification** | ACL 2026 | speculative decoding / long-context inference | [Link](https://doi.org/10.18653/v1/2026.acl-long.83) | — |
+| **See the Forest for the Trees: Loosely Speculative Decoding via Visual-Semantic Guidance for Efficient Inference of Video LLMs** | ACL 2026 | multimodal serving / speculative decoding | [Link](https://doi.org/10.18653/v1/2026.acl-long.1087) | — |
 | **SpecCache: Speculative KV Cache Reuse for Efficient RAG Serving** | ACL 2026 | RAG serving / KV cache reuse | [Link](https://doi.org/10.18653/v1/2026.acl-long.859) | — |
+| **SSSD: Simply-Scalable Speculative Decoding** | ACL 2026 | speculative decoding / serving | [Link](https://doi.org/10.18653/v1/2026.acl-long.1530) | — |
 | **UniSpec: Training-Free Speculative Decoding for Robust LLM Acceleration Across Languages and Hardware** | ACL 2026 | speculative decoding / hardware-aware calibration | [Link](https://doi.org/10.18653/v1/2026.acl-long.285) | — |
 | **SpeCa: Accelerating Diffusion Transformers with Speculative Feature Caching** | ACM Multimedia 2025 | diffusion speculative caching | [Link](https://arxiv.org/abs/2509.11628) | — |
 | **DFVG** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | — | — |

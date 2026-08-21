@@ -1,6 +1,6 @@
 # 01 · LLM Serving
 
-> **234 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **236 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [Complete Paper List](ALL_PAPERS.md)
 
@@ -9,7 +9,9 @@
 | **Accelerating LLM Inference Throughput via Asynchronous KV Cache Prefetching** | AAAI 2026 | LLM inference / KV cache prefetch / GPU memory hierarchy | [Link](https://doi.org/10.1609/aaai.v40i25.39224) | — |
 | **KeepKV: Achieving Periodic Lossless KV Cache Compression for Efficient LLM Inference** | AAAI 2026 | KV cache compression / inference throughput | [Link](https://doi.org/10.1609/aaai.v40i39.40611) | — |
 | **Q Cache: Visual Attention Is Valuable in Less than Half of Decode Layers for Multimodal Large Language Model** | AAAI 2026 | MLLM inference / cross-layer attention reuse / KV cache | [Link](https://doi.org/10.1609/aaai.v40i16.38414) | — |
+| **See the Forest for the Trees: Loosely Speculative Decoding via Visual-Semantic Guidance for Efficient Inference of Video LLMs** | ACL 2026 | multimodal serving / speculative decoding | [Link](https://doi.org/10.18653/v1/2026.acl-long.1087) | — |
 | **SpecCache: Speculative KV Cache Reuse for Efficient RAG Serving** | ACL 2026 | RAG serving / KV cache reuse | [Link](https://doi.org/10.18653/v1/2026.acl-long.859) | — |
+| **SSSD: Simply-Scalable Speculative Decoding** | ACL 2026 | speculative decoding / serving | [Link](https://doi.org/10.18653/v1/2026.acl-long.1530) | — |
 | **Single Trajectory Distillation for Accelerating Image and Video Style Transfer** | ACM Multimedia 2025 | diffusion/style-transfer acceleration / trajectory distillation | [Link](https://arxiv.org/abs/2412.18945) | — |
 | **BAT: Efficient Generative Recommender Serving with Bipartite Attention** | ASPLOS 2026 | generative recommender serving / KV prefix cache | [Link](https://doi.org/10.1145/3779212.3790131) | — |
 | **BlendServe: Optimizing Offline Inference for Auto-regressive Large Models with Resource-aware Batching** | ASPLOS 2026 | LLM serving / offline batching / prefix sharing | [Link](https://arxiv.org/abs/2411.16102) | — |

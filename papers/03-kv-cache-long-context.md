@@ -1,6 +1,6 @@
 # 03 · KV Cache / Long Context
 
-> **153 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **159 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [Complete Paper List](ALL_PAPERS.md)
 
@@ -16,10 +16,16 @@
 | **Self-Indexing KVCache: Predicting Sparse Attention from Compressed Keys** | AAAI 2026 | KV cache compression / sparse attention / CUDA kernel | [Link](https://doi.org/10.1609/aaai.v40i33.39988) | — |
 | **SlimInfer: Accelerating Long-Context LLM Inference via Dynamic Token Pruning** | AAAI 2026 | long-context LLM inference / token pruning / asynchronous KV manager | [Link](https://arxiv.org/abs/2508.06447) | [Repo](https://github.com/Longxmas/SlimInfer) |
 | **Sparse Attention Across Multiple-Context KV Cache** | AAAI 2026 | RAG / sparse attention / multi-context KV cache | [Link](https://doi.org/10.1609/aaai.v40i36.40266) | — |
+| **AdapShot: Adaptive Many-Shot In-Context Learning with Semantic-Aware KV Cache Reuse** | ACL 2026 | KV reuse / efficient in-context learning | [Link](https://doi.org/10.18653/v1/2026.acl-long.1990) | — |
 | **ContrastKV: Robust KV Cache Eviction via Contrastive Signal Fusion for Multi-Query Generalization** | ACL 2026 | KV-cache eviction / long-context multi-query inference | [Link](https://doi.org/10.18653/v1/2026.acl-long.417) | — |
 | **Evolving Sparsity: Leveraging Token Importance Dynamics for Efficient LLM Decoding with Sparse Attention** | ACL 2026 | sparse attention / long-context decoding | [Link](https://doi.org/10.18653/v1/2026.acl-long.530) | — |
+| **Focus-dLLM: Accelerating Long-Context Diffusion LLM Inference via Confidence-Guided Context Focusing** | ACL 2026 | diffusion LLM / sparse attention | [Link](https://doi.org/10.18653/v1/2026.acl-long.556) | — |
+| **HERMES: KV Cache as Hierarchical Memory for Efficient Streaming Video Understanding** | ACL 2026 | multimodal streaming / KV cache | [Link](https://doi.org/10.18653/v1/2026.acl-long.381) | — |
 | **HybridKV: Hybrid KV Cache Compression for Efficient Multimodal Large Language Model Inference** | ACL 2026 | multimodal KV-cache compression / efficient MLLM inference | [Link](https://doi.org/10.18653/v1/2026.acl-long.594) | — |
+| **Latent-Condensed Transformer for Efficient Long Context Modeling** | ACL 2026 | efficient attention / KV compression | [Link](https://doi.org/10.18653/v1/2026.acl-long.1176) | — |
+| **LazyEviction: Lagged KV Eviction with Attention Pattern Observation for Efficient Long Reasoning** | ACL 2026 | KV cache / efficient reasoning | [Link](https://doi.org/10.18653/v1/2026.acl-long.1683) | — |
 | **LongSpec: Long-Context Lossless Speculative Decoding with Efficient Drafting and Verification** | ACL 2026 | speculative decoding / long-context inference | [Link](https://doi.org/10.18653/v1/2026.acl-long.83) | — |
+| **Question Tells You Where the Answer Is: Intention-aware Long-Context KV Cache Compression** | ACL 2026 | KV cache / long-context inference | [Link](https://doi.org/10.18653/v1/2026.acl-long.1250) | — |
 | **SpecCache: Speculative KV Cache Reuse for Efficient RAG Serving** | ACL 2026 | RAG serving / KV cache reuse | [Link](https://doi.org/10.18653/v1/2026.acl-long.859) | — |
 | **VecInfer: Efficient LLM Inference with Low-Bit KV Cache via Outlier-Suppressed Vector Quantization** | ACL 2026 | KV-cache quantization / low-bit LLM inference / CUDA kernel | [Link](https://doi.org/10.18653/v1/2026.acl-long.1454) | — |
 | **BAT: Efficient Generative Recommender Serving with Bipartite Attention** | ASPLOS 2026 | generative recommender serving / KV prefix cache | [Link](https://doi.org/10.1145/3779212.3790131) | — |

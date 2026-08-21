@@ -1,6 +1,6 @@
 # 10 · Multimodal / MLLM Serving
 
-> **70 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **72 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [Complete Paper List](ALL_PAPERS.md)
 
@@ -10,7 +10,9 @@
 | **Efficient Multimodal Large Language Model via Dynamic KV Cache Quantization** | AAAI 2026 | MLLM inference / KV cache quantization | [Link](https://doi.org/10.1609/aaai.v40i25.39241) | — |
 | **MHA2MLA-VLM: Enabling DeepSeek’s Economical Multi-Head Latent Attention Across Vision-Language Models** | AAAI 2026 | VLM inference / MLA / KV cache compression | [Link](https://doi.org/10.1609/aaai.v40i36.40319) | — |
 | **Q Cache: Visual Attention Is Valuable in Less than Half of Decode Layers for Multimodal Large Language Model** | AAAI 2026 | MLLM inference / cross-layer attention reuse / KV cache | [Link](https://doi.org/10.1609/aaai.v40i16.38414) | — |
+| **HERMES: KV Cache as Hierarchical Memory for Efficient Streaming Video Understanding** | ACL 2026 | multimodal streaming / KV cache | [Link](https://doi.org/10.18653/v1/2026.acl-long.381) | — |
 | **HybridKV: Hybrid KV Cache Compression for Efficient Multimodal Large Language Model Inference** | ACL 2026 | multimodal KV-cache compression / efficient MLLM inference | [Link](https://doi.org/10.18653/v1/2026.acl-long.594) | — |
+| **See the Forest for the Trees: Loosely Speculative Decoding via Visual-Semantic Guidance for Efficient Inference of Video LLMs** | ACL 2026 | multimodal serving / speculative decoding | [Link](https://doi.org/10.18653/v1/2026.acl-long.1087) | — |
 | **VISA: Group-wise Visual Token Selection and Aggregation via Graph Summarization for Efficient MLLMs Inference** | ACM Multimedia 2025 | MLLM inference / visual token pruning and aggregation | [Link](https://arxiv.org/abs/2508.17857) | — |
 | **Resource-efficient Inference with Foundation Model Programs** | COLM 2025 | agentic inference / multimodal serving / dynamic model routing | [Link](https://arxiv.org/abs/2504.07247) | [Repo](https://github.com/Flitternie/FMProgramming) |
 | **ControlVLA: Few-shot Object-centric Adaptation for Pre-trained Vision-Language-Action Models** | CoRL 2025 | Physical AI / parameter-efficient VLA adaptation / few-shot fine-tuning | [Link](https://arxiv.org/abs/2506.16211) | — |

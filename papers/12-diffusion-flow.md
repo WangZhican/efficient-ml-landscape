@@ -1,11 +1,12 @@
 # 12 · Diffusion / Flow Acceleration
 
-> **88 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **89 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [Complete Paper List](ALL_PAPERS.md)
 
 | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|
+| **Focus-dLLM: Accelerating Long-Context Diffusion LLM Inference via Confidence-Guided Context Focusing** | ACL 2026 | diffusion LLM / sparse attention | [Link](https://doi.org/10.18653/v1/2026.acl-long.556) | — |
 | **AB-Cache: Training-Free Acceleration of Diffusion Models via Adams-Bashforth Cached Feature Reuse** | ACM Multimedia 2025 | diffusion caching / generative inference acceleration | [Link](https://arxiv.org/abs/2504.10540) | — |
 | **Accelerating Diffusion Transformer via Error-Optimized Cache** | ACM Multimedia 2025 | diffusion transformer inference / feature caching | [Link](https://arxiv.org/abs/2501.19243) | — |
 | **Compute Only 16 Tokens in One Timestep: Accelerating Diffusion Transformers with Cluster-Driven Feature Caching** | ACM Multimedia 2025 | diffusion token/feature caching | [Link](https://arxiv.org/abs/2509.10312) | — |

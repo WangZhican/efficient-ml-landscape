@@ -244,6 +244,38 @@
     ]
   },
   {
+    "title": "AdapShot: Adaptive Many-Shot In-Context Learning with Semantic-Aware KV Cache Reuse",
+    "venue": "ACL 2026",
+    "topic": "KV reuse / efficient in-context learning",
+    "arxiv": "",
+    "doi": "10.18653/v1/2026.acl-long.1990",
+    "official_id": "2026.acl-long.1990",
+    "paper_url": "https://doi.org/10.18653/v1/2026.acl-long.1990",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "",
+    "directions": [
+      "KV Cache / Long Context"
+    ]
+  },
+  {
+    "title": "BTC-LLM: Efficient Sub-1-Bit LLM Quantization via Learnable Transformation and Binary Codebook",
+    "venue": "ACL 2026",
+    "topic": "quantization / efficient LLM inference",
+    "arxiv": "",
+    "doi": "10.18653/v1/2026.acl-long.1066",
+    "official_id": "2026.acl-long.1066",
+    "paper_url": "https://doi.org/10.18653/v1/2026.acl-long.1066",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "",
+    "directions": [
+      "Quantization"
+    ]
+  },
+  {
     "title": "Calibrated Speculative Decoding: Frequency-Guided Candidate Selection for Efficient Inference",
     "venue": "ACL 2026",
     "topic": "speculative decoding / training-free inference acceleration",
@@ -345,6 +377,26 @@
     ]
   },
   {
+    "title": "Focus-dLLM: Accelerating Long-Context Diffusion LLM Inference via Confidence-Guided Context Focusing",
+    "venue": "ACL 2026",
+    "topic": "diffusion LLM / sparse attention",
+    "arxiv": "",
+    "doi": "10.18653/v1/2026.acl-long.556",
+    "official_id": "2026.acl-long.556",
+    "paper_url": "https://doi.org/10.18653/v1/2026.acl-long.556",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "",
+    "directions": [
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "HCSpec: Two-Tier Horizontal Cascade Speculative Decoding for High-Efficiency Large Language Model Inference",
     "venue": "ACL 2026",
     "topic": "speculative decoding / cascade verification",
@@ -358,6 +410,23 @@
     "why": "",
     "directions": [
       "Speculative Decoding"
+    ]
+  },
+  {
+    "title": "HERMES: KV Cache as Hierarchical Memory for Efficient Streaming Video Understanding",
+    "venue": "ACL 2026",
+    "topic": "multimodal streaming / KV cache",
+    "arxiv": "",
+    "doi": "10.18653/v1/2026.acl-long.381",
+    "official_id": "2026.acl-long.381",
+    "paper_url": "https://doi.org/10.18653/v1/2026.acl-long.381",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "",
+    "directions": [
+      "KV Cache / Long Context",
+      "Multimodal / MLLM Serving"
     ]
   },
   {
@@ -411,6 +480,41 @@
     ]
   },
   {
+    "title": "Latent-Condensed Transformer for Efficient Long Context Modeling",
+    "venue": "ACL 2026",
+    "topic": "efficient attention / KV compression",
+    "arxiv": "",
+    "doi": "10.18653/v1/2026.acl-long.1176",
+    "official_id": "2026.acl-long.1176",
+    "paper_url": "https://doi.org/10.18653/v1/2026.acl-long.1176",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "",
+    "directions": [
+      "KV Cache / Long Context",
+      "Efficient Attention"
+    ]
+  },
+  {
+    "title": "LazyEviction: Lagged KV Eviction with Attention Pattern Observation for Efficient Long Reasoning",
+    "venue": "ACL 2026",
+    "topic": "KV cache / efficient reasoning",
+    "arxiv": "",
+    "doi": "10.18653/v1/2026.acl-long.1683",
+    "official_id": "2026.acl-long.1683",
+    "paper_url": "https://doi.org/10.18653/v1/2026.acl-long.1683",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "",
+    "directions": [
+      "KV Cache / Long Context",
+      "Efficient Attention",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "LongSpec: Long-Context Lossless Speculative Decoding with Efficient Drafting and Verification",
     "venue": "ACL 2026",
     "topic": "speculative decoding / long-context inference",
@@ -425,6 +529,40 @@
     "directions": [
       "Speculative Decoding",
       "KV Cache / Long Context"
+    ]
+  },
+  {
+    "title": "Question Tells You Where the Answer Is: Intention-aware Long-Context KV Cache Compression",
+    "venue": "ACL 2026",
+    "topic": "KV cache / long-context inference",
+    "arxiv": "",
+    "doi": "10.18653/v1/2026.acl-long.1250",
+    "official_id": "2026.acl-long.1250",
+    "paper_url": "https://doi.org/10.18653/v1/2026.acl-long.1250",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "",
+    "directions": [
+      "KV Cache / Long Context"
+    ]
+  },
+  {
+    "title": "See the Forest for the Trees: Loosely Speculative Decoding via Visual-Semantic Guidance for Efficient Inference of Video LLMs",
+    "venue": "ACL 2026",
+    "topic": "multimodal serving / speculative decoding",
+    "arxiv": "",
+    "doi": "10.18653/v1/2026.acl-long.1087",
+    "official_id": "2026.acl-long.1087",
+    "paper_url": "https://doi.org/10.18653/v1/2026.acl-long.1087",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "Multimodal / MLLM Serving"
     ]
   },
   {
@@ -443,6 +581,23 @@
       "LLM Serving",
       "Speculative Decoding",
       "KV Cache / Long Context"
+    ]
+  },
+  {
+    "title": "SSSD: Simply-Scalable Speculative Decoding",
+    "venue": "ACL 2026",
+    "topic": "speculative decoding / serving",
+    "arxiv": "",
+    "doi": "10.18653/v1/2026.acl-long.1530",
+    "official_id": "2026.acl-long.1530",
+    "paper_url": "https://doi.org/10.18653/v1/2026.acl-long.1530",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding"
     ]
   },
   {
