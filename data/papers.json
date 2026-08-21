@@ -6430,6 +6430,24 @@
     ]
   },
   {
+    "title": "FastServe: Iteration-Level Preemptive Scheduling for Large Language Model Inference",
+    "venue": "NSDI 2026",
+    "topic": "LLM serving / preemptive scheduling / GPU memory management",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX-316044",
+    "paper_url": "https://www.usenix.org/conference/nsdi26/presentation/wu-bingyang",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Distributed LLM serving with token-granularity preemption, skip-join MLFQ scheduling, and proactive GPU/host state movement; USENIX reports up to 6.1x throughput versus vLLM.",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "FlexLLM: Token-Level Co-Serving of LLM Inference and Finetuning with SLO Guarantees",
     "venue": "NSDI 2026",
     "topic": "inference + PEFT co-serving",
@@ -6491,6 +6509,24 @@
     "why": "Training throughput +1.51x-1.97x and cost efficiency +28%-49% via preemptible rollout resources.",
     "directions": [
       "LLM Serving",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "ServeGen: Workload Characterization and Generation of Large Language Model Serving in Production",
+    "venue": "NSDI 2026",
+    "topic": "LLM serving / production workload characterization / benchmark generation",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX-316730",
+    "paper_url": "https://www.usenix.org/conference/nsdi26/presentation/xiang-servegen",
+    "code_url": "https://github.com/alibaba/ServeGen",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Large-scale production characterization spanning language, multimodal, and reasoning serving workloads; proposes client-composed realistic workload generation and is open-sourced by Alibaba for serving-system benchmarking.",
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
       "Efficient Reasoning / Agents"
     ]
   },
