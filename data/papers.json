@@ -791,6 +791,22 @@
     ]
   },
   {
+    "title": "Linear Layouts: Robust Code Generation of Efficient Tensor Computation Using F_2",
+    "venue": "ASPLOS 2026",
+    "topic": "GPU kernel / tensor compiler / Triton / tensor layouts",
+    "arxiv": "2505.23819",
+    "doi": "10.1145/3760250.3762221",
+    "official_id": "ASPLOS26-10.1145/3760250.3762221",
+    "paper_url": "https://arxiv.org/abs/2505.23819",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Models tensor layouts as linear maps over F_2 and integrates them into Triton, enabling generic layout conversion, reducing backend engineering complexity, fixing legacy layout bugs, and supporting efficient tensor-code generation across modern GPU kernels.",
+    "directions": [
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "MoDM",
     "venue": "ASPLOS 2026",
     "topic": "serving + speculative decoding + MoE + generative efficiency",
@@ -1047,6 +1063,22 @@
       "Efficient Attention",
       "Distributed Training / Inference",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Streaming Tensor Program: A streaming abstraction for dynamic parallelism",
+    "venue": "ASPLOS 2026",
+    "topic": "tensor programming abstraction / spatial dataflow accelerator / dynamic parallelism / LLM layers",
+    "arxiv": "2511.07776",
+    "doi": "10.1145/3779212.3790229",
+    "official_id": "ASPLOS26-10.1145/3779212.3790229",
+    "paper_url": "https://arxiv.org/abs/2511.07776",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Introduces STeP for dynamic/ragged tensor workloads on spatial dataflow accelerators; on representative LLM layers, dynamic tiling cuts on-chip memory 2.18x, dynamic parallelization improves latency 1.5x, and configuration time-multiplexing improves compute utilization 2.57x.",
+    "directions": [
+      "Distributed Training / Inference"
     ]
   },
   {
