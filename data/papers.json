@@ -6654,6 +6654,43 @@
     ]
   },
   {
+    "title": "Inference in the Shadows: Taming Memory Bandwidth Contention in Mobile LLM Inference with Sereno",
+    "venue": "OSDI 2026",
+    "topic": "mobile LLM inference / edge serving / memory bandwidth contention / speculative decoding",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX-318624",
+    "paper_url": "https://www.usenix.org/conference/osdi26/presentation/xin",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Foreground-QoS-friendly mobile LLM inference that repurposes speculative decoding as fine-grained yield points; USENIX reports up to 92.6% lower foreground jank while improving LLM throughput by up to 67.9%.",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Kairox: Adaptive GPU-CPU Hybrid LLM Inference via Online Neuron Balancing",
+    "venue": "OSDI 2026",
+    "topic": "LLM inference / GPU-CPU hybrid execution / activation sparsity / edge inference",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX-318579",
+    "paper_url": "https://www.usenix.org/conference/osdi26/presentation/jiang-yapeng",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Adaptive GPU-CPU hybrid LLM inference with online neuron balancing, activation-locality-aware caching and runtime feedback; USENIX reports up to 7.57x throughput over llama.cpp and around 2.1x over sparse baselines.",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "No Buffer, No Bottleneck: Efficient Zero-Copy KV Cache Offloading for Long-Context LLMs",
     "venue": "OSDI 2026",
     "topic": "LLM serving / KV cache offloading / heterogeneous CPU-GPU memory",
@@ -6670,6 +6707,60 @@
       "KV Cache / Long Context",
       "GPU Kernel / DSL / Compiler",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "OpenTela: Unifying Decentralized Computing Resources for Heterogeneous LLM Serving (Operational Systems)",
+    "venue": "OSDI 2026",
+    "topic": "LLM serving / heterogeneous clusters / decentralized orchestration / operational systems",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX-318577",
+    "paper_url": "https://www.usenix.org/conference/osdi26/presentation/yao",
+    "code_url": "https://github.com/eth-easl/opentela",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "User-space decentralized serving overlay across heterogeneous HPC clusters with CRDT service discovery and heterogeneity-aware scheduling; deployed for 22+ months, 13M requests, 15B tokens, 142 models and 1000+ researchers.",
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Prism: Cost-Efficient Multi-LLM Serving via GPU Memory Ballooning",
+    "venue": "OSDI 2026",
+    "topic": "LLM serving / multi-model serving / GPU memory ballooning / production deployment",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX-318391",
+    "paper_url": "https://www.usenix.org/conference/osdi26/presentation/yu-shan",
+    "code_url": "https://github.com/ovg-project/kvcached",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Memory-centric multi-LLM co-serving via GPU memory ballooning that unifies spatial and temporal sharing; the kvcached balloon driver is open-sourced and deployed across 10K+ GPUs.",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "Revisiting Pipeline Parallelism for LLM Serving",
+    "venue": "OSDI 2026",
+    "topic": "LLM serving / pipeline parallelism / scheduling / SGLang",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX-318575",
+    "paper_url": "https://www.usenix.org/conference/osdi26/presentation/hwang",
+    "code_url": "https://github.com/Sys-KU/FastPP",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Revisits pipeline parallelism for online LLM serving with dynamic chunk sizing and decode-workload rebalancing; official artifact implements the system on SGLang and outperforms tensor parallelism in evaluated multi-GPU settings.",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
     ]
   },
   {
