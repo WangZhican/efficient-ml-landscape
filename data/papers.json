@@ -8576,6 +8576,24 @@
     ]
   },
   {
+    "title": "GMI-DRL: Empowering Multi-GPU DRL with Adaptive-Grained Parallelism",
+    "venue": "USENIX ATC 2025",
+    "topic": "distributed DRL training / multi-GPU adaptive-grained parallelism / GPU multiplexing",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX-308424",
+    "paper_url": "https://www.usenix.org/conference/atc25/presentation/wang-yuke",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Systematic multi-GPU DRL scaling via adaptive-grained GPU Multiplexing Instances, adaptive coordination and efficient inter-GMI communication; USENIX reports up to 2.34x training-throughput improvement and 40.8% higher GPU utilization on DGX-A100.",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "JENGA: Enhancing LLM Long-Context Fine-tuning with Contextual Token Sparsity",
     "venue": "USENIX ATC 2025",
     "topic": "long-context LLM fine-tuning / contextual token sparsity / kernels",
@@ -8631,6 +8649,43 @@
       "Quantization",
       "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "mTuner: Accelerating Parameter-Efficient Fine-Tuning on Multi-GPU Servers with Elastic Tensor",
+    "venue": "USENIX ATC 2025",
+    "topic": "LLM PEFT / multi-GPU fine-tuning / dynamic tensor memory management",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX-308426",
+    "paper_url": "https://www.usenix.org/conference/atc25/presentation/huang-kezhao",
+    "code_url": "https://github.com/xxcclong/mTuner",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Introduces Elastic Tensor for dynamic availability/accumulation/release of static and runtime tensors in PEFT; USENIX reports up to 51.2% throughput improvement on PCIe and 24.8% on NVLink servers for 7B-70B LLMs.",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "Optimus: Accelerating Large-Scale Multi-Modal LLM Training by Bubble Exploitation",
+    "venue": "USENIX ATC 2025",
+    "topic": "multimodal LLM training / distributed training / pipeline bubble exploitation",
+    "arxiv": "2408.03505",
+    "doi": "",
+    "official_id": "USENIX-308432",
+    "paper_url": "https://arxiv.org/abs/2408.03505",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Distributed MLLM training system that schedules encoder computation into LLM bubbles with separate parallel plans and sub-millisecond kernel-aware scheduling; production evaluation on 3072 GPUs reports 20.5%-21.3% training acceleration for ViT-22B + GPT-175B.",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference",
+      "Multimodal / MLLM Serving"
     ]
   },
   {

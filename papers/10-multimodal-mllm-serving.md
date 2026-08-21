@@ -1,6 +1,6 @@
 # 10 · Multimodal / MLLM Serving
 
-> **63 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **64 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [Complete Paper List](ALL_PAPERS.md)
 
@@ -58,6 +58,7 @@
 | **RLux-VLA: A Unified and Efficient Framework for Reinforcement Learning of Vision-Language-Action Models** | RSS 2026 | Physical AI / VLA RL systems / scalable training | [Link](https://arxiv.org/abs/2510.06710) | — |
 | **DistTrain: Addressing Model and Data Heterogeneity with Disaggregated Training for Multimodal Large Language Models** | SIGCOMM 2025 | multimodal training systems / disaggregated training | [Link](https://arxiv.org/abs/2408.04275) | — |
 | **Task-Aware Cloud-End Offloading for Vision-Language Model Serving via Dynamic Modality-Specific Adapter Scheduling** | The Web Conference 2026 | multimodal/VLM serving / cloud-edge offloading | [Link](https://doi.org/10.1145/3774904.3792127) | — |
+| **Optimus: Accelerating Large-Scale Multi-Modal LLM Training by Bubble Exploitation** | USENIX ATC 2025 | multimodal LLM training / distributed training / pipeline bubble exploitation | [Link](https://arxiv.org/abs/2408.03505) | — |
 | **BigVectorBench: Heterogeneous Data Embedding and Compound Queries are Essential in Evaluating Vector Databases** | VLDB/PVLDB Volume 18 | vector database benchmark / RAG infrastructure / heterogeneous embeddings | [Link](https://doi.org/10.14778/3718057.3718078) | [Repo](https://github.com/BenchCouncil/BigVectorBench) |
 | **Déjà Vu: Efficient Video-Language Query Engine with Learning-based Inter-Frame Computation Reuse** | VLDB/PVLDB Volume 18 | VideoLM inference / inter-frame computation reuse | [Link](https://arxiv.org/abs/2506.14107) | — |
 | **Silicon-Oracle (Soracle): A Multi-Modal Autoregressive Model Accelerator for Context-Aware Assistance on Mobile Platform** | VLSI Symposium 2026 | multimodal autoregressive accelerator / mobile inference | [Link](https://doi.org/10.1109/VLSITechnologyandCir65830.2026.11577228) | — |
