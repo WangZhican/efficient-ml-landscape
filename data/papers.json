@@ -71,6 +71,74 @@
     ]
   },
   {
+    "title": "FlashSVD: Memory-Efficient Inference with Streaming for Low-Rank Models",
+    "venue": "AAAI 2026",
+    "topic": "sparsity/pruning / GPU kernels",
+    "arxiv": "",
+    "doi": "10.1609/aaai.v40i30.39720",
+    "official_id": "39720",
+    "paper_url": "https://ojs.aaai.org/index.php/AAAI/article/view/39720",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Rank-aware streaming inference framework that fuses low-rank projection kernels into attention and FFN pipelines; AAAI reports up to 70.2% peak activation-memory and 75% transient-memory reduction without accuracy loss.",
+    "directions": [
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "HALO: Hardware-Aware Quantization with Low Critical-Path-Delay Weights for LLM Acceleration",
+    "venue": "AAAI 2026",
+    "topic": "quantization / hardware-aware inference",
+    "arxiv": "",
+    "doi": "10.1609/aaai.v40i27.39406",
+    "official_id": "39406",
+    "paper_url": "https://ojs.aaai.org/index.php/AAAI/article/view/39406",
+    "code_url": "https://github.com/ecolab-nus/HALO",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Hardware-aware PTQ incorporating MAC critical-path timing and power into weight quantization and DVFS; AAAI reports average 270% performance improvement and 51% energy savings with minimal accuracy loss.",
+    "directions": [
+      "Quantization"
+    ]
+  },
+  {
+    "title": "Head-Aware KV Cache Compression for Efficient Visual Autoregressive Modeling",
+    "venue": "AAAI 2026",
+    "topic": "KV cache / image generation acceleration",
+    "arxiv": "",
+    "doi": "10.1609/aaai.v40i30.39686",
+    "official_id": "39686",
+    "paper_url": "https://ojs.aaai.org/index.php/AAAI/article/view/39686",
+    "code_url": "https://github.com/Zr2223/HACK",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "HACK separates contextual and structural heads and applies asymmetric KV compression for visual autoregressive generation; AAAI reports up to 70% KV compression, 1.75x memory reduction and 1.57x speedup on Infinity-8B.",
+    "directions": [
+      "KV Cache / Long Context",
+      "Video / Image Generation"
+    ]
+  },
+  {
+    "title": "HitKV: Activation Frequency Knows Which Tokens Are Important",
+    "venue": "AAAI 2026",
+    "topic": "KV cache/long-context",
+    "arxiv": "",
+    "doi": "10.1609/aaai.v40i34.40105",
+    "official_id": "40105",
+    "paper_url": "https://ojs.aaai.org/index.php/AAAI/article/view/40105",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Layer/task-aware KV eviction using token activation frequency; AAAI reports preserving only 3% of KV cache while maintaining performance and 4x throughput improvement over baselines.",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context"
+    ]
+  },
+  {
     "title": "KeepKV: Achieving Periodic Lossless KV Cache Compression for Efficient LLM Inference",
     "venue": "AAAI 2026",
     "topic": "KV cache compression / inference throughput",
@@ -194,6 +262,23 @@
     ]
   },
   {
+    "title": "SMIDT: High-Performance Inference Framework for MoE Models with Dynamic Top-K Routing",
+    "venue": "AAAI 2026",
+    "topic": "MoE systems/accelerators / LLM serving",
+    "arxiv": "",
+    "doi": "10.1609/aaai.v40i27.39403",
+    "official_id": "39403",
+    "paper_url": "https://ojs.aaai.org/index.php/AAAI/article/view/39403",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Pipeline-parallel MoE inference framework for dynamic Top-K routing with adaptive uneven partitioning and memory-aware expert replication; AAAI reports 1.20-3.13x prefill-only throughput and 1.05-1.89x prefill-decode throughput improvements.",
+    "directions": [
+      "LLM Serving",
+      "MoE Systems / Accelerators"
+    ]
+  },
+  {
     "title": "Sparse Attention Across Multiple-Context KV Cache",
     "venue": "AAAI 2026",
     "topic": "RAG / sparse attention / multi-context KV cache",
@@ -241,6 +326,22 @@
     "why": "",
     "directions": [
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "TokenPowerBench: Benchmarking the Power Consumption of LLM Inference",
+    "venue": "AAAI 2026",
+    "topic": "LLM serving / energy benchmarking",
+    "arxiv": "",
+    "doi": "10.1609/aaai.v40i38.40535",
+    "official_id": "40535",
+    "paper_url": "https://ojs.aaai.org/index.php/AAAI/article/view/40535",
+    "code_url": "https://github.com/chenxuniu/TokenPowerBench",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Open-source phase-aware benchmark for LLM inference power and energy across engines, deployment configurations, model sizes up to Llama-3.1-405B, and prefill/decode phases.",
+    "directions": [
+      "LLM Serving"
     ]
   },
   {
