@@ -1578,6 +1578,26 @@
     ]
   },
   {
+    "title": "Attention Surgery: An Efficient Recipe to Linearize Your Video Diffusion Transformer",
+    "venue": "CVPR 2026",
+    "topic": "video diffusion / linear attention / mobile inference",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "cvf:Ghafoorian_Attention_Surgery_An_Efficient_Recipe_to_Linearize_Your_Video_Diffusion_CVPR_2026_paper",
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Ghafoorian_Attention_Surgery_An_Efficient_Recipe_to_Linearize_Your_Video_Diffusion_CVPR_2026_paper.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Converts pretrained video diffusion Transformers to linear/hybrid attention with lightweight distillation and cost-aware block rates, targeting lower latency, memory and FLOPs for long/high-resolution video generation.",
+    "directions": [
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler",
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "D2Cache: Second-Order Delta Caching for Higher Video Diffusion Acceleration",
     "venue": "CVPR 2026",
     "topic": "video diffusion / second-order caching",
@@ -1590,6 +1610,25 @@
     "decision": "BACKFILL_HIGH",
     "why": "",
     "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "DeltaQuant: 4-bit Video Diffusion Models with Spatiotemporal Delta Smoothing",
+    "venue": "CVPR 2026",
+    "topic": "video diffusion / W4A4 quantization / efficient kernels",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "cvf:Li_DeltaQuant_4-bit_Video_Diffusion_Models_with_Spatiotemporal_Delta_Smoothing_CVPR_2026_paper",
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Li_DeltaQuant_4-bit_Video_Diffusion_Models_with_Spatiotemporal_Delta_Smoothing_CVPR_2026_paper.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Uses spatiotemporal activation similarity to quantize video diffusion weights and activations to 4 bits with efficient kernels; CVPR reports substantial memory compression and large end-to-end speedups when combined with efficient attention/few-step sampling.",
+    "directions": [
+      "Quantization",
+      "Efficient Attention",
       "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
@@ -1663,6 +1702,42 @@
     ]
   },
   {
+    "title": "Otil: Accelerating Diffusion Model Inference via Communication-Efficient Multi-GPU Parallelism",
+    "venue": "CVPR 2026",
+    "topic": "diffusion inference / multi-GPU / communication reduction",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "cvf:Li_Otil_Accelerating_Diffusion_Model_Inference_via_Communication-Efficient_Multi-GPU_Parallelism_CVPR_2026_paper",
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Li_Otil_Accelerating_Diffusion_Model_Inference_via_Communication-Efficient_Multi-GPU_Parallelism_CVPR_2026_paper.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Synchronizes only informative latent sub-blocks across GPUs during denoising, reducing communication by up to 87.5% and reporting 1.8x two-GPU and 2.6x four-GPU speedups without retraining.",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "ParallelVLM: Lossless Video-LLM Acceleration with Visual Alignment Aware Parallel Speculative Decoding",
+    "venue": "CVPR 2026",
+    "topic": "video-LLM / speculative decoding / visual token pruning",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "cvf:Kong_ParallelVLM_Lossless_Video-LLM_Acceleration_with_Visual_Alignment_Aware_Parallel_Speculative_CVPR_2026_paper",
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Kong_ParallelVLM_Lossless_Video-LLM_Acceleration_with_Visual_Alignment_Aware_Parallel_Speculative_CVPR_2026_paper.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Training-free parallel speculative decoding for Video-LLMs with verifier-guided pruning; CVPR reports 3.36x acceleration on LLaVA-OneVision-72B and 2.42x on Qwen2.5-VL-32B.",
+    "directions": [
+      "Speculative Decoding",
+      "Sparsity / Pruning",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
     "title": "Prune2Drive: A Plug-and-Play Framework for Accelerating Vision-Language Models in Autonomous Driving",
     "venue": "CVPR 2026",
     "topic": "autonomous driving / VLM token pruning / Physical AI",
@@ -1677,6 +1752,26 @@
     "directions": [
       "Sparsity / Pruning",
       "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "QuantVLA: Scale-Calibrated Post-Training Quantization for Vision-Language-Action Models",
+    "venue": "CVPR 2026",
+    "topic": "VLA / PTQ / Physical AI / diffusion action head",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "cvf:Zhang_QuantVLA_Scale-Calibrated_Post-Training_Quantization_for_Vision-Language-Action_Models_CVPR_2026_paper",
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_QuantVLA_Scale-Calibrated_Post-Training_Quantization_for_Vision-Language-Action_Models_CVPR_2026_paper.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Training-free PTQ for VLA systems that quantizes both language backbone and DiT action head with scale calibration, making it a protected Physical-AI deployment-efficiency paper.",
+    "directions": [
+      "Quantization",
+      "GPU Kernel / DSL / Compiler",
+      "Multimodal / MLLM Serving",
+      "Diffusion / Flow Acceleration",
       "VLA / WAM / Physical AI"
     ]
   },
@@ -1732,6 +1827,24 @@
     ]
   },
   {
+    "title": "StreamingTOM: Streaming Token Compression for Efficient Video Understanding",
+    "venue": "CVPR 2026",
+    "topic": "streaming video / token compression / bounded KV cache",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "cvf:Chen_StreamingTOM_Streaming_Token_Compression_for_Efficient_Video_Understanding_CVPR_2026_paper",
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Chen_StreamingTOM_Streaming_Token_Compression_for_Efficient_Video_Understanding_CVPR_2026_paper.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Streaming video-understanding system with 4-bit online quantized memory and bounded active KV cache; CVPR reports 15.7x KV compression and 2x faster TTFT versus a prior streaming VLM baseline.",
+    "directions": [
+      "KV Cache / Long Context",
+      "Quantization",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
     "title": "TransPrune: Token Transition Pruning for Efficient Large Vision-Language Model",
     "venue": "CVPR 2026",
     "topic": "VLM inference / token pruning",
@@ -1762,6 +1875,23 @@
     "why": "",
     "directions": [
       "Sparsity / Pruning",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
+    "title": "VLM-PTQ: Efficient Post-Training Quantization for Large Vision-Language Models",
+    "venue": "CVPR 2026",
+    "topic": "multimodal quantization / VLM PTQ",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "cvf:Deng_VLM-PTQ_Efficient_Post-Training_Quantization_for_Large_Vision-Language_Models_CVPR_2026_paper",
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Deng_VLM-PTQ_Efficient_Post-Training_Quantization_for_Large_Vision-Language_Models_CVPR_2026_paper.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Asymmetric post-training quantization for VLMs with residual-aware target correction and modality-aware channel handling, supporting low-bit compression from 1B to 72B-class models.",
+    "directions": [
+      "Quantization",
       "Multimodal / MLLM Serving"
     ]
   },
