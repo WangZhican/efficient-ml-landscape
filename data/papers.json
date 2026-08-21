@@ -1421,6 +1421,78 @@
     ]
   },
   {
+    "title": "ControlVLA: Few-shot Object-centric Adaptation for Pre-trained Vision-Language-Action Models",
+    "venue": "CoRL 2025",
+    "topic": "Physical AI / parameter-efficient VLA adaptation / few-shot fine-tuning",
+    "arxiv": "2506.16211",
+    "doi": "",
+    "official_id": "PMLR-v305-li25c",
+    "paper_url": "https://arxiv.org/abs/2506.16211",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ControlNet-style object-centric adaptation for pretrained VLAs enables efficient few-shot fine-tuning without overwriting prior knowledge; achieves 76.7% success on six real-world tasks with only 10-20 demonstrations.",
+    "directions": [
+      "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "FLOWER: Democratizing Generalist Robot Policies with Efficient Vision-Language-Flow Models",
+    "venue": "CoRL 2025",
+    "topic": "Physical AI / efficient VLA / model compression / flow policy",
+    "arxiv": "2509.04996",
+    "doi": "",
+    "official_id": "PMLR-v305-reuss25a",
+    "paper_url": "https://arxiv.org/abs/2509.04996",
+    "code_url": "https://github.com/intuitive-robots/flower_vla_pret",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "950M efficient VLA using intermediate-modality fusion that prunes up to 50% of LLM layers and action-specific Global-AdaLN that cuts parameters by 20%; pretrained in 200 H100 GPU hours and released with official code/weights.",
+    "directions": [
+      "Sparsity / Pruning",
+      "GPU Kernel / DSL / Compiler",
+      "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Focusing on What Matters: Object-Agent-centric Tokenization for Vision Language Action models",
+    "venue": "CoRL 2025",
+    "topic": "Physical AI / VLA visual-token compression / efficient training",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "PMLR-v305-bendikas25a",
+    "paper_url": "https://proceedings.mlr.press/v305/bendikas25a.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Oat-VLA introduces object-agent-centric tokenization to drastically reduce visual tokens to only a few tokens without sacrificing VLA performance, directly targeting the unnecessary compute cost inherited from VLM tokenization.",
+    "directions": [
+      "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Training Strategies for Efficient Embodied Reasoning",
+    "venue": "CoRL 2025",
+    "topic": "Physical AI / efficient embodied reasoning / VLA inference",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "PMLR-v305-chen25a",
+    "paper_url": "https://proceedings.mlr.press/v305/chen25a.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Characterizes robot chain-of-thought overhead and proposes lightweight embodied-reasoning recipes that retain reasoning benefits while reporting 3x inference speedup over standard robot reasoning.",
+    "directions": [
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Accelerating Autoregressive Video Diffusion via History-Guided Cache and Residual Correction",
     "venue": "CVPR 2026",
     "topic": "autoregressive video diffusion / caching",
