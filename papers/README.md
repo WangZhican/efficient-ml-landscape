@@ -1,6 +1,6 @@
 # 🧭 Research Map
 
-> **608 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
+> **611 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
 
 <div align="center">
 
@@ -13,7 +13,7 @@
 | # | Research direction | Papers |
 |---:|---|---:|
 | 01 | [**LLM Serving**](01-llm-serving.md) | **245** |
-| 02 | [**Speculative Decoding**](02-speculative-decoding.md) | **91** |
+| 02 | [**Speculative Decoding**](02-speculative-decoding.md) | **94** |
 | 03 | [**KV Cache / Long Context**](03-kv-cache-long-context.md) | **171** |
 | 04 | [**Quantization**](04-quantization.md) | **79** |
 | 05 | [**Sparsity / Pruning**](05-sparsity-pruning.md) | **83** |
@@ -24,7 +24,7 @@
 | 10 | [**Multimodal / MLLM Serving**](10-multimodal-mllm-serving.md) | **72** |
 | 11 | [**Video / Image Generation**](11-video-image-generation.md) | **16** |
 | 12 | [**Diffusion / Flow Acceleration**](12-diffusion-flow.md) | **89** |
-| 13 | [**Efficient Reasoning / Agents**](13-efficient-reasoning-agents.md) | **78** |
+| 13 | [**Efficient Reasoning / Agents**](13-efficient-reasoning-agents.md) | **79** |
 | 14 | [**VLA / WAM / Physical AI**](14-physical-ai-vla-wam.md) | **37** |
 | 15 | [**Edge / Cloud / Heterogeneous AI**](15-edge-cloud-heterogeneous.md) | **143** |
 

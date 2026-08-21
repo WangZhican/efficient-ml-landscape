@@ -1,6 +1,6 @@
 # 02 · Speculative Decoding
 
-> **91 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **94 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [Complete Paper List](ALL_PAPERS.md)
 
@@ -45,7 +45,10 @@
 | **Accelerated Test-Time Scaling with Model-Free Speculative Sampling** | EMNLP 2025 | efficient reasoning / model-free speculative decoding | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.1558) | — |
 | **Alignment-Augmented Speculative Decoding with Alignment Sampling and Conditional Verification** | EMNLP 2025 | speculative decoding / conditional verification | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.343) | — |
 | **Cacheback: Speculative Decoding With Nothing But Cache** | EMNLP 2025 | speculative decoding / cache-based drafting | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.1581) | — |
+| **CopySpec: Accelerating LLMs with Speculative Copy-and-Paste** | EMNLP 2025 | speculative decoding / context reuse | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.1337) | [Repo](https://github.com/RazvanDu/CopySpec) |
 | **Dovetail: A CPU/GPU Heterogeneous Speculative Decoding for LLM inference** | EMNLP 2025 | heterogeneous CPU/GPU inference / speculative decoding | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.879) | — |
+| **Draft Model Knows When to Stop: Self-Verification Speculative Decoding for Long-Form Generation** | EMNLP 2025 | speculative decoding / efficient reasoning | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.844) | — |
+| **Faster In-Context Learning for LLMs via N-Gram Trie Speculative Decoding** | EMNLP 2025 | speculative decoding / in-context learning | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.911) | — |
 | **QSpec: Speculative Decoding with Complementary Quantization Schemes** | EMNLP 2025 | speculative decoding / quantization | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.240) | — |
 | **Speculative Streaming: Efficient and Scalable Speculative Decoding with Multi-Stream Attention** | EMNLP 2025 | speculative decoding / multi-stream attention | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.986) | — |
 | **Hardware-Aware Parallel Prompt Decoding for Memory-Efficient Acceleration of LLM Inference** | EMNLP 2025 Findings | speculative decoding / edge LLM / memory-efficient inference | [Link](https://doi.org/10.18653/v1/2025.findings-emnlp.120) | — |

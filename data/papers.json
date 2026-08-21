@@ -2453,6 +2453,22 @@
     ]
   },
   {
+    "title": "CopySpec: Accelerating LLMs with Speculative Copy-and-Paste",
+    "venue": "EMNLP 2025",
+    "topic": "speculative decoding / context reuse",
+    "arxiv": "",
+    "doi": "10.18653/v1/2025.emnlp-main.1337",
+    "official_id": "2025.emnlp-main.1337",
+    "paper_url": "https://aclanthology.org/2025.emnlp-main.1337/",
+    "code_url": "https://github.com/RazvanDu/CopySpec",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Speculative copy-and-paste exploits repeated context/output spans; EMNLP reports up to 2.35x-3.08x task speedups and complementary gains when combined with speculative decoding.",
+    "directions": [
+      "Speculative Decoding"
+    ]
+  },
+  {
     "title": "Cost-Optimal Grouped-Query Attention for Long-Context Modeling",
     "venue": "EMNLP 2025",
     "topic": "efficient attention / GQA / long-context modeling",
@@ -2488,6 +2504,23 @@
     ]
   },
   {
+    "title": "Draft Model Knows When to Stop: Self-Verification Speculative Decoding for Long-Form Generation",
+    "venue": "EMNLP 2025",
+    "topic": "speculative decoding / efficient reasoning",
+    "arxiv": "",
+    "doi": "10.18653/v1/2025.emnlp-main.844",
+    "official_id": "2025.emnlp-main.844",
+    "paper_url": "https://aclanthology.org/2025.emnlp-main.844/",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "SVIP uses draft-model entropy as a training-free dynamic draft-length policy; EMNLP reports up to 17% speedup on MT-Bench at 8K and 22% speedup for QwQ long-form reasoning.",
+    "directions": [
+      "Speculative Decoding",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "Efficient Beam Search for Large Language Models Using Trie-Based Decoding",
     "venue": "EMNLP 2025",
     "topic": "beam search / shared KV cache / decoding acceleration",
@@ -2501,6 +2534,22 @@
     "why": "",
     "directions": [
       "KV Cache / Long Context"
+    ]
+  },
+  {
+    "title": "Faster In-Context Learning for LLMs via N-Gram Trie Speculative Decoding",
+    "venue": "EMNLP 2025",
+    "topic": "speculative decoding / in-context learning",
+    "arxiv": "",
+    "doi": "10.18653/v1/2025.emnlp-main.911",
+    "official_id": "2025.emnlp-main.911",
+    "paper_url": "https://aclanthology.org/2025.emnlp-main.911/",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Builds an n-gram trie from retrieved context to draft tokens for lossless faster ICL/RAG/QA generation; direct EMNLP speculative-decoding efficiency paper.",
+    "directions": [
+      "Speculative Decoding"
     ]
   },
   {
