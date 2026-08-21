@@ -12,9 +12,9 @@
 
 | # | Research direction | Papers |
 |---:|---|---:|
-| 01 | [**LLM Serving**](01-llm-serving.md) | **220** |
+| 01 | [**LLM Serving**](01-llm-serving.md) | **222** |
 | 02 | [**Speculative Decoding**](02-speculative-decoding.md) | **84** |
-| 03 | [**KV Cache / Long Context**](03-kv-cache-long-context.md) | **149** |
+| 03 | [**KV Cache / Long Context**](03-kv-cache-long-context.md) | **150** |
 | 04 | [**Quantization**](04-quantization.md) | **69** |
 | 05 | [**Sparsity / Pruning**](05-sparsity-pruning.md) | **72** |
 | 06 | [**Efficient Attention**](06-efficient-attention.md) | **68** |
