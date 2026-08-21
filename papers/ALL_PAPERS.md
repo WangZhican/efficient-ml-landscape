@@ -1,10 +1,10 @@
 # 📚 Complete Paper List
 
-> **566 quality-gated papers** exported from the validated canonical literature census. PDF binaries are not stored here; links point to primary paper sources whenever resolved.
+> **570 quality-gated papers** exported from the validated canonical literature census. PDF binaries are not stored here; links point to primary paper sources whenever resolved.
 
 [← Research Map](README.md) · [Machine-readable JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
-## Fresh / Preprint · 38
+## Fresh / Preprint · 42
 
 | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|
@@ -21,6 +21,7 @@
 | **ETHEREAL: A 25.6-μs/inf. Low-latency Event-driven Graph-neural-network Processor for High-resolution Vision at the Edge** | Fresh / preprint | edge AI accelerator / event-driven GNN | [Link](https://arxiv.org/abs/2608.17787) | — |
 | **Every Expert Counts: ExactMoE for Memory-Efficient W4A16 Inference** | Fresh / preprint | MoE memory-efficient W4A16 inference / GPU slot cache | [Link](https://arxiv.org/abs/2608.15383) | — |
 | **FlashDrive: Flash Vision-Language-Action Inference for Autonomous Driving** | Fresh / preprint | full-stack VLA inference acceleration | [Link](https://arxiv.org/abs/2608.12932) | — |
+| **FlashPrefill V2: Block-Sparse Prefill Attention for Long-Context LLM Serving** | Fresh / preprint | long-context LLM serving / block-sparse prefill attention / GPU kernel | [Link](https://arxiv.org/abs/2608.19758) | — |
 | **FluxBin: Flexible LUT-based Ultra-low-bit LLM Inference by Algorithm-Kernel Synergy** | Fresh / preprint | LLM quantization / CUDA kernel co-design | [Link](https://arxiv.org/abs/2608.15602) | — |
 | **FreeToken: Efficient Edge-Native MoE Serving with Bandwidth-Adaptive Execution** | Fresh / preprint | edge MoE serving | [Link](https://arxiv.org/abs/2608.16157) | — |
 | **From LLM Inference to Agentic Workloads: Characterization and Implications for Serving Systems** | Fresh / preprint | agentic serving characterization / systems benchmark | [Link](https://arxiv.org/abs/2608.15127) | — |
@@ -29,6 +30,7 @@
 | **Global Simulation-Guided Dynamic Operator Scheduling for Efficient Multi-Tenant Model Serving** | Fresh / preprint | multi-tenant model serving / operator-level scheduling | [Link](https://arxiv.org/abs/2608.15762) | — |
 | **GraniKV: Asymmetric Granularity KV-Cache Paging for Multi-Agent Systems with Long Shared Prefix** | Fresh / preprint | KV-cache paging / multi-agent serving | [Link](https://arxiv.org/abs/2608.15584) | — |
 | **HAF: Adapting Generalist VLAs to Humanoid Whole-Body Loco-manipulation via Hierarchical Action Flow and Spectral Latent RL** | Fresh / preprint | VLA / humanoid efficient adaptation | [Link](https://arxiv.org/abs/2608.16837) | — |
+| **HYDRA: A Heterogeneous Chiplet DSE Framework for Serving Dynamic Hybrid LLM Workloads** | Fresh / preprint | LLM serving / heterogeneous chiplets / architecture-runtime co-design | [Link](https://arxiv.org/abs/2608.19395) | — |
 | **LinCa: Accelerating Diffusion Models via Learnable Decomposed Feature Caching** | Fresh / preprint | diffusion/video generation acceleration / feature caching | [Link](https://arxiv.org/abs/2608.17973) | — |
 | **Magnitude-Direction Decoupling for Fast Video Generation with Flow Matching Models** | Fresh / preprint | video generation acceleration / flow matching | [Link](https://arxiv.org/abs/2608.17695) | — |
 | **MoNe: Modular Neural Memory for Efficient Long Context Inference** | Fresh / preprint | long-context inference / neural memory | [Link](https://arxiv.org/abs/2608.17616) | — |
@@ -37,9 +39,11 @@
 | **Pallas: A Proactive KV Cache Migration Framework for LLM Inference in AI-RAN** | Fresh / preprint | LLM serving / KV cache / edge | [Link](https://arxiv.org/abs/2608.16477) | — |
 | **Pre-Compiled Pipeline Shards for Distributed LLM Inference on Intel AI PC Fleets** | Fresh / preprint | distributed LLM inference / edge AI PC fleet / speculative decoding | [Link](https://arxiv.org/abs/2608.19147) | [Repo](https://github.com/labscommunity/pipeline-sharded-inference-paper) |
 | **PTXBench: Benchmark and Adapt LLMs for GPU Kernel Optimization with Architecture-specific PTX** | Fresh / preprint | GPU kernel / LLM code generation / benchmark | [Link](https://arxiv.org/abs/2608.17379) | — |
+| **ReCache: Efficient KV Cache Reuse and Compression for Tool-Augmented LLM Agents** | Fresh / preprint | agent serving / KV cache reuse / compression | [Link](https://arxiv.org/abs/2608.19662) | [Repo](https://github.com/EIT-NLP/ReCache) |
 | **Reflex: Enabling Fast and Predictive Vision-Language-Action Models for Reaction-Critical Manipulation** | Fresh / preprint | fast VLA runtime / reaction-critical manipulation | [Link](https://arxiv.org/abs/2608.14379) | — |
 | **rl-triton: High-Performance Triton GPU Kernels for Reinforcement Learning Credit Assignment** | Fresh / preprint | GPU kernel / Triton / RL infrastructure | [Link](https://arxiv.org/abs/2608.17641) | — |
 | **Role-Conditioned Sub-Token Routing for Efficient Vision-Language-Action Policies** | Fresh / preprint | VLA efficiency / KV compression / sub-token routing | [Link](https://arxiv.org/abs/2608.18410) | — |
+| **Rollplex: Cross-Phase GPU Spatial Sharing for Vision Language Model Post-Training** | Fresh / preprint | VLM post-training / GPU spatial sharing / RL runtime | [Link](https://arxiv.org/abs/2608.14498) | — |
 | **SCOPE: Subspace Clustering with Online Per-Head Top-K Estimation for Sparse Video Attention** | Fresh / preprint | sparse video attention / DiT inference | [Link](https://arxiv.org/abs/2608.12780) | — |
 | **SQuad: Sub-Quadratic Attention Distillation for Efficient Video Generation** | Fresh / preprint | video generation acceleration / efficient attention | [Link](https://arxiv.org/abs/2608.16585) | — |
 | **TEMPO: Makespan-Aware Expert-Parallel Load Balancing Across Memory- and Compute-Bound Regimes** | Fresh / preprint | MoE expert-parallel load balancing / serving | [Link](https://arxiv.org/abs/2608.13057) | — |

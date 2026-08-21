@@ -9450,6 +9450,26 @@
     ]
   },
   {
+    "title": "FlashPrefill V2: Block-Sparse Prefill Attention for Long-Context LLM Serving",
+    "venue": "",
+    "topic": "long-context LLM serving / block-sparse prefill attention / GPU kernel",
+    "arxiv": "2608.19758",
+    "doi": "",
+    "official_id": "",
+    "paper_url": "https://arxiv.org/abs/2608.19758",
+    "code_url": "",
+    "formal_class": "STRONG_CURRENT",
+    "decision": "PROMOTE_STRONG",
+    "why": "Production-oriented sparse-prefill backend with PackGQA, warp specialization, pingpong pipelining, FP8, paged KV cache, and continuous batching; reports up to 47.26x speedup over FlashAttention-2 at 128K context and integrates toward SGLang-style serving.",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "FluxBin: Flexible LUT-based Ultra-low-bit LLM Inference by Algorithm-Kernel Synergy",
     "venue": "",
     "topic": "LLM quantization / CUDA kernel co-design",
@@ -9599,6 +9619,23 @@
     ]
   },
   {
+    "title": "HYDRA: A Heterogeneous Chiplet DSE Framework for Serving Dynamic Hybrid LLM Workloads",
+    "venue": "",
+    "topic": "LLM serving / heterogeneous chiplets / architecture-runtime co-design",
+    "arxiv": "2608.19395",
+    "doi": "",
+    "official_id": "",
+    "paper_url": "https://arxiv.org/abs/2608.19395",
+    "code_url": "",
+    "formal_class": "STRONG_CURRENT",
+    "decision": "PROMOTE_STRONG",
+    "why": "Joint architecture/runtime DSE for Transformer-Mamba serving across chiplet composition, placement, bandwidth, batching, and scheduling; reports 1.55x average throughput and 43.7% lower TTFT, up to 2.3x throughput.",
+    "directions": [
+      "LLM Serving",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "LinCa: Accelerating Diffusion Models via Learnable Decomposed Feature Caching",
     "venue": "",
     "topic": "diffusion/video generation acceleration / feature caching",
@@ -9738,6 +9775,26 @@
     ]
   },
   {
+    "title": "ReCache: Efficient KV Cache Reuse and Compression for Tool-Augmented LLM Agents",
+    "venue": "",
+    "topic": "agent serving / KV cache reuse / compression",
+    "arxiv": "2608.19662",
+    "doi": "",
+    "official_id": "",
+    "paper_url": "https://arxiv.org/abs/2608.19662",
+    "code_url": "https://github.com/EIT-NLP/ReCache",
+    "formal_class": "STRONG_CURRENT",
+    "decision": "PROMOTE_STRONG",
+    "why": "Resource-wise composition-invariant KV caching plus selective layer/head routing and structural-semantic pruning for tool/skill schemas; reports 3.655x TTFT speedup, 92.43% lower allocated KV memory, and 1.423x attention acceleration.",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "Reflex: Enabling Fast and Predictive Vision-Language-Action Models for Reaction-Critical Manipulation",
     "venue": "",
     "topic": "fast VLA runtime / reaction-critical manipulation",
@@ -9791,6 +9848,24 @@
       "Multimodal / MLLM Serving",
       "Diffusion / Flow Acceleration",
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Rollplex: Cross-Phase GPU Spatial Sharing for Vision Language Model Post-Training",
+    "venue": "",
+    "topic": "VLM post-training / GPU spatial sharing / RL runtime",
+    "arxiv": "2608.14498",
+    "doi": "",
+    "official_id": "",
+    "paper_url": "https://arxiv.org/abs/2608.14498",
+    "code_url": "",
+    "formal_class": "STRONG_CURRENT",
+    "decision": "PROMOTE_STRONG",
+    "why": "Cross-phase GPU spatial sharing runtime for VLM RL post-training with phase-aware memory management and parallelism-aware weight sharing; on 32 H800 GPUs reports 1.23x-1.30x over serial colocation and 1.57x-2.24x over disaggregation.",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference",
+      "Multimodal / MLLM Serving"
     ]
   },
   {

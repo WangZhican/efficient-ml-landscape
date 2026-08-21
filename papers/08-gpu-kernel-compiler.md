@@ -1,6 +1,6 @@
 # 08 · GPU Kernel / DSL / Compiler
 
-> **200 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **202 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [Complete Paper List](ALL_PAPERS.md)
 
@@ -193,6 +193,7 @@
 | **CoRun: Padding is Simple and Efficient for Deterministic LLM Inference** | Fresh / preprint | LLM serving / deterministic inference / fixed-shape scheduling | [Link](https://arxiv.org/abs/2608.14376) | — |
 | **DriveCache: Action-Aware Caching for Driving World Model Inference** | Fresh / preprint | world-model / diffusion caching | [Link](https://arxiv.org/abs/2608.16354) | — |
 | **Every Expert Counts: ExactMoE for Memory-Efficient W4A16 Inference** | Fresh / preprint | MoE memory-efficient W4A16 inference / GPU slot cache | [Link](https://arxiv.org/abs/2608.15383) | — |
+| **FlashPrefill V2: Block-Sparse Prefill Attention for Long-Context LLM Serving** | Fresh / preprint | long-context LLM serving / block-sparse prefill attention / GPU kernel | [Link](https://arxiv.org/abs/2608.19758) | — |
 | **FluxBin: Flexible LUT-based Ultra-low-bit LLM Inference by Algorithm-Kernel Synergy** | Fresh / preprint | LLM quantization / CUDA kernel co-design | [Link](https://arxiv.org/abs/2608.15602) | — |
 | **From LLM Inference to Agentic Workloads: Characterization and Implications for Serving Systems** | Fresh / preprint | agentic serving characterization / systems benchmark | [Link](https://arxiv.org/abs/2608.15127) | — |
 | **From Local Mismatch to Global Impact: Optimizing Cache Reuse Policy for Efficient Diffusion** | Fresh / preprint | diffusion cache policy / video-image generation acceleration | [Link](https://arxiv.org/abs/2608.13043) | — |
@@ -203,6 +204,7 @@
 | **PTXBench: Benchmark and Adapt LLMs for GPU Kernel Optimization with Architecture-specific PTX** | Fresh / preprint | GPU kernel / LLM code generation / benchmark | [Link](https://arxiv.org/abs/2608.17379) | — |
 | **Reflex: Enabling Fast and Predictive Vision-Language-Action Models for Reaction-Critical Manipulation** | Fresh / preprint | fast VLA runtime / reaction-critical manipulation | [Link](https://arxiv.org/abs/2608.14379) | — |
 | **rl-triton: High-Performance Triton GPU Kernels for Reinforcement Learning Credit Assignment** | Fresh / preprint | GPU kernel / Triton / RL infrastructure | [Link](https://arxiv.org/abs/2608.17641) | — |
+| **Rollplex: Cross-Phase GPU Spatial Sharing for Vision Language Model Post-Training** | Fresh / preprint | VLM post-training / GPU spatial sharing / RL runtime | [Link](https://arxiv.org/abs/2608.14498) | — |
 | **SCOPE: Subspace Clustering with Online Per-Head Top-K Estimation for Sparse Video Attention** | Fresh / preprint | sparse video attention / DiT inference | [Link](https://arxiv.org/abs/2608.12780) | — |
 | **TEMPO: Makespan-Aware Expert-Parallel Load Balancing Across Memory- and Compute-Bound Regimes** | Fresh / preprint | MoE expert-parallel load balancing / serving | [Link](https://arxiv.org/abs/2608.13057) | — |
 | **TileMix: Tile-Centric Mixed-Precision Attention for LLM Inference Acceleration** | Fresh / preprint | mixed-precision attention kernel / long-context inference | [Link](https://arxiv.org/abs/2608.17336) | — |

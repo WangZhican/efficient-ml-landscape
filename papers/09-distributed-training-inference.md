@@ -1,6 +1,6 @@
 # 09 · Distributed Training / Inference
 
-> **78 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **79 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [Complete Paper List](ALL_PAPERS.md)
 
@@ -82,5 +82,6 @@
 | **Global Simulation-Guided Dynamic Operator Scheduling for Efficient Multi-Tenant Model Serving** | Fresh / preprint | multi-tenant model serving / operator-level scheduling | [Link](https://arxiv.org/abs/2608.15762) | — |
 | **GraniKV: Asymmetric Granularity KV-Cache Paging for Multi-Agent Systems with Long Shared Prefix** | Fresh / preprint | KV-cache paging / multi-agent serving | [Link](https://arxiv.org/abs/2608.15584) | — |
 | **Pre-Compiled Pipeline Shards for Distributed LLM Inference on Intel AI PC Fleets** | Fresh / preprint | distributed LLM inference / edge AI PC fleet / speculative decoding | [Link](https://arxiv.org/abs/2608.19147) | [Repo](https://github.com/labscommunity/pipeline-sharded-inference-paper) |
+| **Rollplex: Cross-Phase GPU Spatial Sharing for Vision Language Model Post-Training** | Fresh / preprint | VLM post-training / GPU spatial sharing / RL runtime | [Link](https://arxiv.org/abs/2608.14498) | — |
 | **SCOPE: Subspace Clustering with Online Per-Head Top-K Estimation for Sparse Video Attention** | Fresh / preprint | sparse video attention / DiT inference | [Link](https://arxiv.org/abs/2608.12780) | — |
 | **TEMPO: Makespan-Aware Expert-Parallel Load Balancing Across Memory- and Compute-Bound Regimes** | Fresh / preprint | MoE expert-parallel load balancing / serving | [Link](https://arxiv.org/abs/2608.13057) | — |

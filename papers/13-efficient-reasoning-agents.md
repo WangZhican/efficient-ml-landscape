@@ -1,6 +1,6 @@
 # 13 · Efficient Reasoning / Agents
 
-> **72 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **73 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [Complete Paper List](ALL_PAPERS.md)
 
@@ -75,6 +75,7 @@
 | **GenRouter: Unified Workflow Routing for Agentic Image Generation** | Fresh / preprint | agentic image generation / workflow routing / inference efficiency | [Link](https://arxiv.org/abs/2608.16721) | — |
 | **Global Simulation-Guided Dynamic Operator Scheduling for Efficient Multi-Tenant Model Serving** | Fresh / preprint | multi-tenant model serving / operator-level scheduling | [Link](https://arxiv.org/abs/2608.15762) | — |
 | **GraniKV: Asymmetric Granularity KV-Cache Paging for Multi-Agent Systems with Long Shared Prefix** | Fresh / preprint | KV-cache paging / multi-agent serving | [Link](https://arxiv.org/abs/2608.15584) | — |
+| **ReCache: Efficient KV Cache Reuse and Compression for Tool-Augmented LLM Agents** | Fresh / preprint | agent serving / KV cache reuse / compression | [Link](https://arxiv.org/abs/2608.19662) | [Repo](https://github.com/EIT-NLP/ReCache) |
 | **Reflex: Enabling Fast and Predictive Vision-Language-Action Models for Reaction-Critical Manipulation** | Fresh / preprint | fast VLA runtime / reaction-critical manipulation | [Link](https://arxiv.org/abs/2608.14379) | — |
 | **rl-triton: High-Performance Triton GPU Kernels for Reinforcement Learning Credit Assignment** | Fresh / preprint | GPU kernel / Triton / RL infrastructure | [Link](https://arxiv.org/abs/2608.17641) | — |
 | **TideRL: Boosting Agentic RL Goodput with Readiness-Aware Scheduling** | Fresh / preprint | agentic RL infrastructure | [Link](https://arxiv.org/abs/2608.10402) | — |
