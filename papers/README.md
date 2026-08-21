@@ -21,12 +21,12 @@
 | 07 | [**MoE Systems / Accelerators**](07-moe-systems.md) | **52** |
 | 08 | [**GPU Kernel / DSL / Compiler**](08-gpu-kernel-compiler.md) | **182** |
 | 09 | [**Distributed Training / Inference**](09-distributed-training-inference.md) | **65** |
-| 10 | [**Multimodal / MLLM Serving**](10-multimodal-mllm-serving.md) | **54** |
+| 10 | [**Multimodal / MLLM Serving**](10-multimodal-mllm-serving.md) | **55** |
 | 11 | [**Video / Image Generation**](11-video-image-generation.md) | **15** |
-| 12 | [**Diffusion / Flow Acceleration**](12-diffusion-flow.md) | **81** |
+| 12 | [**Diffusion / Flow Acceleration**](12-diffusion-flow.md) | **80** |
 | 13 | [**Efficient Reasoning / Agents**](13-efficient-reasoning-agents.md) | **66** |
 | 14 | [**VLA / WAM / Physical AI**](14-physical-ai-vla-wam.md) | **24** |
-| 15 | [**Edge / Cloud / Heterogeneous AI**](15-edge-cloud-heterogeneous.md) | **126** |
+| 15 | [**Edge / Cloud / Heterogeneous AI**](15-edge-cloud-heterogeneous.md) | **127** |
 
 > Counts are multi-label and therefore do not sum to the unique-paper total. A canonical paper can intentionally appear in several directions.
 

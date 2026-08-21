@@ -3206,23 +3206,6 @@
     ]
   },
   {
-    "title": "Model Reveals What to Cache: Profiling-Based Feature Reuse for Video Diffusion Models",
-    "venue": "ICCV 2025",
-    "topic": "video diffusion feature caching",
-    "arxiv": "",
-    "doi": "",
-    "official_id": "CVF-ICCV2025-Ma_Model_Reveals_What_to_Cache_Profiling-Based_Feature_Reuse_for_Video_ICCV_2025_paper",
-    "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Ma_Model_Reveals_What_to_Cache_Profiling-Based_Feature_Reuse_for_Video_ICCV_2025_paper.pdf",
-    "code_url": "",
-    "formal_class": "CANONICAL_HIGH_VALUE",
-    "decision": "BACKFILL_HIGH",
-    "why": "",
-    "directions": [
-      "GPU Kernel / DSL / Compiler",
-      "Diffusion / Flow Acceleration"
-    ]
-  },
-  {
     "title": "Pruning All-Rounder: Rethinking and Improving Inference Efficiency for Large Vision Language Models",
     "venue": "ICCV 2025",
     "topic": "multimodal/VLM token-layer pruning",
@@ -5714,6 +5697,24 @@
     "directions": [
       "Efficient Reasoning / Agents",
       "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Modality Plug-and-Play: Runtime Modality Adaptation in LLM-Driven Autonomous Mobile Systems",
+    "venue": "MobiCom 2025",
+    "topic": "Physical AI / multimodal edge runtime / efficient modality adaptation",
+    "arxiv": "",
+    "doi": "10.1145/3680207.3723491",
+    "official_id": "ACM-3680207.3723491",
+    "paper_url": "https://pittisl.github.io/publication/2023-mpnp-llm/",
+    "code_url": "https://github.com/pittisl/mPnP-LLM",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_PHYSICAL_AI_HIGH",
+    "why": "Runtime modality adaptation for LLM-driven autonomous mobile systems; author-primary paper reports 3.7x FLOPs reduction, 30% GPU-memory reduction and adaptation within minutes on Jetson-class devices.",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Multimodal / MLLM Serving",
       "Edge / Cloud / Heterogeneous AI"
     ]
   },
