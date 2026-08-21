@@ -5710,6 +5710,23 @@
     ]
   },
   {
+    "title": "From Tokens to Layers: Redefining Stall-Free Scheduling for MoE Serving with Layered Prefill",
+    "venue": "MLSys 2026",
+    "topic": "MoE serving / layered prefill / stall-free scheduling / energy efficiency",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "MLSYS26-c0f460c6d63599ea870ba9db63dc96a9",
+    "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/c0f460c6d63599ea870ba9db63dc96a9-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Layered prefill changes the scheduling axis from token chunks to transformer layer groups for MoE serving, reducing redundant expert reloads; MLSys reports up to 70% lower TTFT, 41% lower end-to-end latency and 22% lower per-token energy.",
+    "directions": [
+      "LLM Serving",
+      "MoE Systems / Accelerators"
+    ]
+  },
+  {
     "title": "GhostServe",
     "venue": "MLSys 2026",
     "topic": "LLM serving + KV + speculative + reasoning efficiency",
@@ -5725,6 +5742,22 @@
       "LLM Serving",
       "Speculative Decoding",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "HELIOS: Adaptive Model And Early-Exit Selection for Efficient LLM Inference Serving",
+    "venue": "MLSys 2026",
+    "topic": "LLM inference / early exit / adaptive model selection / serving",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "MLSYS26-096b1019463f34eb241e87cfce8dfe16",
+    "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/096b1019463f34eb241e87cfce8dfe16-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Adaptive multi-model early-exit serving that only loads likely-used layers and repurposes memory for larger batches; MLSys reports 1.48x higher throughput and 15.14x larger batch size over prior EE-LLM frameworks.",
+    "directions": [
+      "LLM Serving"
     ]
   },
   {
@@ -5762,6 +5795,22 @@
       "KV Cache / Long Context",
       "Quantization",
       "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "LAPS: A Length-Aware-Prefill LLM Serving System",
+    "venue": "MLSys 2026",
+    "topic": "LLM serving / prefill-decode disaggregation / length-aware batching / scheduling",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "MLSYS26-bbb7506579431a85861a05fff048d3e1",
+    "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/bbb7506579431a85861a05fff048d3e1-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Length-aware prefill serving separates long and short-prefill workloads and uses dual queues plus smart batching; MLSys reports over 30% lower prefill latency, 28% fewer SLO violations and 35% higher request throughput in evaluated settings.",
+    "directions": [
+      "LLM Serving"
     ]
   },
   {
@@ -5817,6 +5866,23 @@
       "LLM Serving",
       "Speculative Decoding",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "Optimizing Deployment Configurations for LLM Inference",
+    "venue": "MLSys 2026",
+    "topic": "LLM serving / deployment configuration / hardware heterogeneity / production systems",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "MLSYS26-97dc07f1253ab33ee514f395a82fa7cc",
+    "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/97dc07f1253ab33ee514f395a82fa7cc-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Meta production study systematically searches millions of inference deployment configurations spanning H100/H200/MI300X, parallelism, batching and prefill-decode disaggregation for SLO-constrained Llama serving at near-billion-user scale.",
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference"
     ]
   },
   {
