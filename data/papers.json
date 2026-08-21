@@ -5306,6 +5306,23 @@
     ]
   },
   {
+    "title": "BitL: A Hybrid Bit-Serial and Parallel Deep Learning Accelerator for Critical Path Reduction",
+    "venue": "MICRO 2025",
+    "topic": "bit-level sparsity / hybrid bit-serial-bit-parallel DNN accelerator / efficient inference",
+    "arxiv": "",
+    "doi": "10.1145/3725843.3756044",
+    "official_id": "DOI-10.1145/3725843.3756044",
+    "paper_url": "https://doi.org/10.1145/3725843.3756044",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "MICRO 2025 Systems for AI paper; hybrid bit-serial/parallel accelerator removes bit-level critical paths, reports up to 1.92x throughput and 2.06x average energy efficiency over the baseline accelerator.",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning"
+    ]
+  },
+  {
     "title": "Chameleon: Adaptive Caching and Scheduling for Many-Adapter LLM Inference Environments",
     "venue": "MICRO 2025",
     "topic": "LLM serving / adapter caching and scheduling",
