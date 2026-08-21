@@ -1,6 +1,6 @@
 # 🧭 Research Map
 
-> **521 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
+> **524 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
 
 <div align="center">
 
@@ -15,18 +15,18 @@
 | 01 | [**LLM Serving**](01-llm-serving.md) | **201** |
 | 02 | [**Speculative Decoding**](02-speculative-decoding.md) | **82** |
 | 03 | [**KV Cache / Long Context**](03-kv-cache-long-context.md) | **144** |
-| 04 | [**Quantization**](04-quantization.md) | **68** |
+| 04 | [**Quantization**](04-quantization.md) | **69** |
 | 05 | [**Sparsity / Pruning**](05-sparsity-pruning.md) | **68** |
 | 06 | [**Efficient Attention**](06-efficient-attention.md) | **66** |
 | 07 | [**MoE Systems / Accelerators**](07-moe-systems.md) | **53** |
-| 08 | [**GPU Kernel / DSL / Compiler**](08-gpu-kernel-compiler.md) | **184** |
+| 08 | [**GPU Kernel / DSL / Compiler**](08-gpu-kernel-compiler.md) | **185** |
 | 09 | [**Distributed Training / Inference**](09-distributed-training-inference.md) | **66** |
 | 10 | [**Multimodal / MLLM Serving**](10-multimodal-mllm-serving.md) | **55** |
 | 11 | [**Video / Image Generation**](11-video-image-generation.md) | **15** |
-| 12 | [**Diffusion / Flow Acceleration**](12-diffusion-flow.md) | **81** |
+| 12 | [**Diffusion / Flow Acceleration**](12-diffusion-flow.md) | **82** |
 | 13 | [**Efficient Reasoning / Agents**](13-efficient-reasoning-agents.md) | **67** |
 | 14 | [**VLA / WAM / Physical AI**](14-physical-ai-vla-wam.md) | **26** |
-| 15 | [**Edge / Cloud / Heterogeneous AI**](15-edge-cloud-heterogeneous.md) | **128** |
+| 15 | [**Edge / Cloud / Heterogeneous AI**](15-edge-cloud-heterogeneous.md) | **129** |
 
 > Counts are multi-label and therefore do not sum to the unique-paper total. A canonical paper can intentionally appear in several directions.
 
