@@ -3989,6 +3989,25 @@
     ]
   },
   {
+    "title": "Draft-based Approximate Inference for LLMs",
+    "venue": "ICLR 2026",
+    "topic": "KV cache compression / sparse attention / prompt compression",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "28b3dc0970fa4624a63278a4268de997",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/28b3dc0970fa4624a63278a4268de997-Abstract-Conference.html",
+    "code_url": "https://github.com/furiosa-ai/draft-based-approx-llm",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Uses a small draft model to predict token/KV importance, introducing SpecKV, SpecPC and SpecKV-PC for more accurate approximate long-context inference.",
+    "directions": [
+      "Speculative Decoding",
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Efficient Attention"
+    ]
+  },
+  {
     "title": "Fast-dLLM v2: Efficient Block-Diffusion LLM",
     "venue": "ICLR 2026",
     "topic": "diffusion LLM inference / block diffusion / hierarchical caching",
@@ -4081,6 +4100,25 @@
     ]
   },
   {
+    "title": "KV-Cache Transform Coding for Compact Storage in LLM Inference",
+    "venue": "ICLR 2026",
+    "topic": "KV cache compression / LLM serving storage",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "3fb6f10bd2784f6cfb6a6ed6280df40c",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/3fb6f10bd2784f6cfb6a6ed6280df40c-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "PCA, adaptive quantization and entropy coding for reusable KV-cache storage; official ICLR paper reports up to 20x compression while maintaining reasoning/long-context accuracy, with higher ratios in selected use cases.",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Quantization",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "Multi-Head Low-Rank Attention",
     "venue": "ICLR 2026",
     "topic": "KV-efficient attention / tensor-parallel decoding",
@@ -4114,6 +4152,102 @@
       "KV Cache / Long Context",
       "Sparsity / Pruning",
       "Efficient Attention"
+    ]
+  },
+  {
+    "title": "QuoKA: Query-Oriented KV Selection for Efficient LLM Prefill",
+    "venue": "ICLR 2026",
+    "topic": "efficient attention / long-context prefill",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "760fe89b5a5e5792b33f23a2db1b9fbf",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/760fe89b5a5e5792b33f23a2db1b9fbf-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Training-free query-oriented KV selection for chunked prefill; official ICLR paper reports 3x TTFT reduction, 5x GPU attention speedup and ~7x CPU attention speedup while using 88% fewer KV pairs.",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "RESA: Bringing Back What Sparse Attention Ignores with Residual Estimation",
+    "venue": "ICLR 2026",
+    "topic": "sparse attention / KV efficiency",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "89bd6217280d1417370c89ee493ba3c7",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/89bd6217280d1417370c89ee493ba3c7-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Residual-estimation framework compensating sparse-attention outputs with a lightweight low-rank prior; official ICLR paper reports up to 33.2% lower KV budget at matched quality and 1.23x attention throughput improvement.",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Efficient Attention"
+    ]
+  },
+  {
+    "title": "Retrospective Sparse Attention for Efficient Long-Context Generation",
+    "venue": "ICLR 2026",
+    "topic": "KV cache compression / long-generation inference",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "f4daa773a5bb2d562a9204a7e2225a67",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/f4daa773a5bb2d562a9204a7e2225a67-Abstract-Conference.html",
+    "code_url": "https://github.com/csh3695/RetroAttention",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "RetroAttention revises past approximate attention outputs using later KV entries, targeting error accumulation in long generation while keeping latency overhead low.",
+    "directions": [
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Efficient Attention"
+    ]
+  },
+  {
+    "title": "Tactic: Adaptive Sparse Attention with Clustering and Distribution Fitting for Long-Context LLMs",
+    "venue": "ICLR 2026",
+    "topic": "sparse attention / long-context inference",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "33f94d79acf71051d6a27f4d8889e20e",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/33f94d79acf71051d6a27f4d8889e20e-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Calibration-free adaptive sparse attention using cumulative-attention targets plus clustering/distribution fitting; official ICLR paper reports up to 5.14x decode-attention and 1.51x end-to-end speedup.",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "ThinKV: Thought-Adaptive KV Cache Compression for Efficient Reasoning Models",
+    "venue": "ICLR 2026",
+    "topic": "KV cache compression / efficient reasoning",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "b2b502c3629beadda06311386d2c6f73",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/b2b502c3629beadda06311386d2c6f73-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Thought-adaptive hybrid KV quantization+eviction with a PagedAttention memory-reuse kernel; official ICLR paper reports near-lossless accuracy with <5% of original KV cache and up to 5.8x higher inference throughput.",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Quantization",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
