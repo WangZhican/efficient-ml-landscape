@@ -3880,6 +3880,24 @@
     ]
   },
   {
+    "title": "Attn-QAT: 4-Bit Attention With Quantization-Aware Training",
+    "venue": "ICML 2026",
+    "topic": "FP4 attention / quantization-aware training / fused attention kernels",
+    "arxiv": "2603.00040",
+    "doi": "",
+    "official_id": "",
+    "paper_url": "https://arxiv.org/abs/2603.00040",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "CANONICAL_HIGH_VALUE",
+    "why": "",
+    "directions": [
+      "Quantization",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "AugServe: Adaptive Request Scheduling for Augmented Large Language Model Inference Serving",
     "venue": "ICML 2026",
     "topic": "LLM serving / augmented-agent request scheduling",
@@ -3914,6 +3932,25 @@
     ]
   },
   {
+    "title": "Elastic Attention: Test-time Adaptive Sparsity Ratios for Efficient Transformers",
+    "venue": "ICML 2026",
+    "topic": "adaptive sparse attention / long-context inference",
+    "arxiv": "2601.17367",
+    "doi": "",
+    "official_id": "",
+    "paper_url": "https://arxiv.org/abs/2601.17367",
+    "code_url": "https://github.com/LCM-Lab/Elastic-Attention",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "CANONICAL_HIGH_VALUE",
+    "why": "",
+    "directions": [
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "OServe: Accelerating LLM Serving via Spatial-Temporal Workload Orchestration",
     "venue": "ICML 2026",
     "topic": "LLM serving / heterogeneous deployment / scheduling",
@@ -3928,6 +3965,23 @@
     "directions": [
       "LLM Serving",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "PuzzleMoE: Efficient Compression of Large Mixture-of-Experts Models via Sparse Expert Merging and Bit-packed inference",
+    "venue": "ICML 2026",
+    "topic": "MoE compression / sparse expert merging / bit-packed inference",
+    "arxiv": "2511.04805",
+    "doi": "",
+    "official_id": "",
+    "paper_url": "https://arxiv.org/abs/2511.04805",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "CANONICAL_HIGH_VALUE",
+    "why": "",
+    "directions": [
+      "Sparsity / Pruning",
+      "MoE Systems / Accelerators"
     ]
   },
   {
@@ -4005,6 +4059,23 @@
     "why": "ICML 2026 accepted inventory; training-free activation sparsity prediction for ReLU-fied LLMs, directly relevant to sparse inference runtime.",
     "directions": [
       "Sparsity / Pruning"
+    ]
+  },
+  {
+    "title": "Stochastic Sparse Attention for Memory-Bound Inference",
+    "venue": "ICML 2026",
+    "topic": "sparse attention / memory-bound decoding / stochastic KV access",
+    "arxiv": "2605.01910",
+    "doi": "",
+    "official_id": "",
+    "paper_url": "https://arxiv.org/abs/2605.01910",
+    "code_url": "https://github.com/OPUSLab/SANTA",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "CANONICAL_HIGH_VALUE",
+    "why": "",
+    "directions": [
+      "Sparsity / Pruning",
+      "Efficient Attention"
     ]
   },
   {
