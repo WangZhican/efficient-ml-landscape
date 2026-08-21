@@ -1,6 +1,6 @@
 # 14 · VLA / WAM / Physical AI
 
-> **30 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **35 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [Complete Paper List](ALL_PAPERS.md)
 
@@ -23,6 +23,11 @@
 | **DiTPA: A DiT-based Action Planner Accelerator Exploiting Action-Denoising-Multimodality Redundancy for Embodied Artificial Intelligence** | ISCA 2026 | Physical AI / embodied action planner / DiT accelerator | — | — |
 | **AgenticCache: Cache-Driven Asynchronous Planning for Embodied AI Agents** | MLSys 2026 | Physical AI / embodied-agent planning cache / latency reduction | — | — |
 | **LLM-Explorer: Towards Efficient and Affordable LLM-based Exploration for Mobile Apps** | MobiCom 2025 | mobile agent / efficient LLM usage | [Link](https://arxiv.org/abs/2505.10593) | — |
+| **CLIP-RT: Learning Language-Conditioned Robotic Policies from Natural Language Supervision** | RSS 2025 | Physical AI / lightweight VLA / high-throughput robot inference | [Link](https://arxiv.org/abs/2411.00508) | [Repo](https://github.com/clip-rt/clip-rt) |
+| **FAST: Efficient Action Tokenization for Vision-Language-Action Models** | RSS 2025 | Physical AI / VLA action tokenization / efficient training and inference | [Link](https://arxiv.org/abs/2501.09747) | — |
+| **Fine-Tuning Vision-Language-Action Models: Optimizing Speed and Success** | RSS 2025 | Physical AI / VLA efficient fine-tuning / parallel action decoding | [Link](https://arxiv.org/abs/2502.19645) | [Repo](https://github.com/moojink/openvla-oft) |
+| **Learning to Act Anywhere with Task-centric Latent Actions** | RSS 2025 | Physical AI / VLA efficient pretraining / latent action decoding | [Link](https://arxiv.org/abs/2505.06111) | [Repo](https://github.com/OpenDriveLab/UniVLA) |
+| **Uni-NaVid: A Video-based Vision-Language-Action Model for Unifying Embodied Navigation Tasks** | RSS 2025 | Physical AI / VLA navigation / online visual-token merging | [Link](https://arxiv.org/abs/2412.06224) | [Repo](https://github.com/jzhzhang/Uni-NaVid) |
 | **RIO: Flexible Real-Time Robot I/O for Cross-Embodiment Robot Learning** | RSS 2026 | Physical AI runtime / cross-embodiment VLA deployment / real-time robot I/O | [Link](https://arxiv.org/abs/2605.11564) | [Repo](https://github.com/robot-i-o/rio) |
 | **RLinf-USER: A Unified and Extensible System for Real-World Online Policy Learning in Embodied AI** | RSS 2026 | Physical AI systems / multi-robot online learning / edge-cloud scheduling | [Link](https://arxiv.org/abs/2602.07837) | [Repo](https://github.com/RLinf/RLinf) |
 | **RLux-VLA: A Unified and Efficient Framework for Reinforcement Learning of Vision-Language-Action Models** | RSS 2026 | Physical AI / VLA RL systems / scalable training | [Link](https://arxiv.org/abs/2510.06710) | — |

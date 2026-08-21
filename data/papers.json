@@ -6951,6 +6951,95 @@
     ]
   },
   {
+    "title": "CLIP-RT: Learning Language-Conditioned Robotic Policies from Natural Language Supervision",
+    "venue": "RSS 2025",
+    "topic": "Physical AI / lightweight VLA / high-throughput robot inference",
+    "arxiv": "2411.00508",
+    "doi": "",
+    "official_id": "RSS21-p016",
+    "paper_url": "https://arxiv.org/abs/2411.00508",
+    "code_url": "https://github.com/clip-rt/clip-rt",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Lightweight 1B discriminative VLA using single-forward-pass motion-primitive prediction; official project reports 39x throughput over OpenVLA and ~49% better throughput/latency than OpenVLA-OFT at matched action chunking.",
+    "directions": [
+      "LLM Serving",
+      "Diffusion / Flow Acceleration",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "FAST: Efficient Action Tokenization for Vision-Language-Action Models",
+    "venue": "RSS 2025",
+    "topic": "Physical AI / VLA action tokenization / efficient training and inference",
+    "arxiv": "2501.09747",
+    "doi": "",
+    "official_id": "RSS21-p012",
+    "paper_url": "https://arxiv.org/abs/2501.09747",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Compression-based frequency-space action tokenization for autoregressive VLAs; FAST+ is trained on 1M robot trajectories and, with pi0, matches diffusion VLAs while reducing training time by up to 5x. RSS 2025 Outstanding Paper finalist.",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Multimodal / MLLM Serving",
+      "Diffusion / Flow Acceleration",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Fine-Tuning Vision-Language-Action Models: Optimizing Speed and Success",
+    "venue": "RSS 2025",
+    "topic": "Physical AI / VLA efficient fine-tuning / parallel action decoding",
+    "arxiv": "2502.19645",
+    "doi": "",
+    "official_id": "RSS21-p017",
+    "paper_url": "https://arxiv.org/abs/2502.19645",
+    "code_url": "https://github.com/moojink/openvla-oft",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "OpenVLA-OFT combines parallel decoding, action chunking, continuous actions and L1 regression; raises LIBERO success from 76.5% to 97.1% while increasing action-generation throughput by 26x. Official code/checkpoints released.",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Learning to Act Anywhere with Task-centric Latent Actions",
+    "venue": "RSS 2025",
+    "topic": "Physical AI / VLA efficient pretraining / latent action decoding",
+    "arxiv": "2505.06111",
+    "doi": "",
+    "official_id": "RSS21-p014",
+    "paper_url": "https://arxiv.org/abs/2505.06111",
+    "code_url": "https://github.com/OpenDriveLab/UniVLA",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "UniVLA learns task-centric latent actions from internet-scale video and deploys via efficient latent-action decoding; reports better performance than OpenVLA with less than 1/20 pretraining compute and 1/10 downstream data.",
+    "directions": [
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Uni-NaVid: A Video-based Vision-Language-Action Model for Unifying Embodied Navigation Tasks",
+    "venue": "RSS 2025",
+    "topic": "Physical AI / VLA navigation / online visual-token merging",
+    "arxiv": "2412.06224",
+    "doi": "",
+    "official_id": "RSS21-p013",
+    "paper_url": "https://arxiv.org/abs/2412.06224",
+    "code_url": "https://github.com/jzhzhang/Uni-NaVid",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Video VLA with online spatial-temporal token merging for long RGB streams; official RSS abstract reports improved inference to 5 Hz. Official training/evaluation code released.",
+    "directions": [
+      "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Unified Video Action Model",
     "venue": "RSS 2025",
     "topic": "Physical AI / efficient world-action model inference",

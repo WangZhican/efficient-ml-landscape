@@ -1,6 +1,6 @@
 # 📚 Complete Paper List
 
-> **534 quality-gated papers** exported from the validated canonical literature census. PDF binaries are not stored here; links point to primary paper sources whenever resolved.
+> **539 quality-gated papers** exported from the validated canonical literature census. PDF binaries are not stored here; links point to primary paper sources whenever resolved.
 
 [← Research Map](README.md) · [Machine-readable JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -646,6 +646,17 @@
 | **Seer: Online Context Learning for Fast Synchronous LLM Reinforcement Learning** | OSDI 2026 | RL rollout systems | — | — |
 | **Strata: Hierarchical Context Caching for Long Context Language Model Serving** | OSDI 2026 | long-context KV-cache serving | — | — |
 
+## RSS 2025 · 6
+
+| Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|
+| **CLIP-RT: Learning Language-Conditioned Robotic Policies from Natural Language Supervision** | RSS 2025 | Physical AI / lightweight VLA / high-throughput robot inference | [Link](https://arxiv.org/abs/2411.00508) | [Repo](https://github.com/clip-rt/clip-rt) |
+| **FAST: Efficient Action Tokenization for Vision-Language-Action Models** | RSS 2025 | Physical AI / VLA action tokenization / efficient training and inference | [Link](https://arxiv.org/abs/2501.09747) | — |
+| **Fine-Tuning Vision-Language-Action Models: Optimizing Speed and Success** | RSS 2025 | Physical AI / VLA efficient fine-tuning / parallel action decoding | [Link](https://arxiv.org/abs/2502.19645) | [Repo](https://github.com/moojink/openvla-oft) |
+| **Learning to Act Anywhere with Task-centric Latent Actions** | RSS 2025 | Physical AI / VLA efficient pretraining / latent action decoding | [Link](https://arxiv.org/abs/2505.06111) | [Repo](https://github.com/OpenDriveLab/UniVLA) |
+| **Uni-NaVid: A Video-based Vision-Language-Action Model for Unifying Embodied Navigation Tasks** | RSS 2025 | Physical AI / VLA navigation / online visual-token merging | [Link](https://arxiv.org/abs/2412.06224) | [Repo](https://github.com/jzhzhang/Uni-NaVid) |
+| **Unified Video Action Model** | RSS 2025 | Physical AI / efficient world-action model inference | [Link](https://doi.org/10.15607/RSS.2025.XXI.074) | — |
+
 ## RSS 2026 · 6
 
 | Paper | Venue | Topic | Paper | Code |
@@ -761,9 +772,3 @@
 | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|
 | **Spyre: An inference-optimized scalable AI accelerator for enterprise workloads** | ISSCC 2026 | AI accelerator / enterprise inference | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409090) | — |
-
-## RSS 2025 · 1
-
-| Paper | Venue | Topic | Paper | Code |
-|---|---|---|---|---|
-| **Unified Video Action Model** | RSS 2025 | Physical AI / efficient world-action model inference | [Link](https://doi.org/10.15607/RSS.2025.XXI.074) | — |
