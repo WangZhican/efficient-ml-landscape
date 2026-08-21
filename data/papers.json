@@ -2659,6 +2659,93 @@
     ]
   },
   {
+    "title": "Accelerating Model Loading in LLM Inference by Programmable Page Cache",
+    "venue": "FAST 2026",
+    "topic": "LLM inference / model loading / programmable page cache",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX-315979",
+    "paper_url": "https://www.usenix.org/conference/fast26/presentation/liu-yubo",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Introduces programmable page-cache framework PPC and MAIO model-loading policy with I/O templates, XPU affinity and data locality; reports up to 79% model-loading latency reduction and 36% inference-throughput improvement in elastic deployment.",
+    "directions": [
+      "LLM Serving"
+    ]
+  },
+  {
+    "title": "Bidaw: Enhancing Key-Value Caching for Interactive LLM Serving via Bidirectional Computation–Storage Awareness",
+    "venue": "FAST 2026",
+    "topic": "LLM serving / two-tier KV cache / compute-storage co-design",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX-315971",
+    "paper_url": "https://www.usenix.org/conference/fast26/presentation/hu-shipeng",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Coordinates compute scheduling and two-tier host-memory/SSD KV management for interactive multi-round LLM serving; reports up to 3.58x response-latency reduction and 1.83x throughput improvement.",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context"
+    ]
+  },
+  {
+    "title": "CacheSlide: Unlocking Cross Position-Aware KV Cache Reuse for Accelerating LLM Serving",
+    "venue": "FAST 2026",
+    "topic": "LLM serving / KV-cache reuse / agent workloads",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX-315967",
+    "paper_url": "https://www.usenix.org/conference/fast26/presentation/liu-yang",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Introduces relative-position-dependent KV reuse for agent prompts, CCPE and weighted correction attention plus spill/load-write/dirty-page optimizations; reports 3.11-4.3x latency reduction and 3.5-5.8x throughput improvement.",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Attention",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "Fast Cloud Storage for AI Jobs via Grouped I/O API with Transparent Read/Write Optimizations",
+    "venue": "FAST 2026",
+    "topic": "AI infrastructure / training storage / KV-cache I/O",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX-315963",
+    "paper_url": "https://www.usenix.org/conference/fast26/presentation/hao",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "AITURBO uses accelerator compute fabric plus grouped I/O API to optimize checkpoint and KV-cache reads/writes in disaggregated cloud storage and is deployed for AI training in Huawei Cloud.",
+    "directions": [
+      "KV Cache / Long Context"
+    ]
+  },
+  {
+    "title": "SolidAttention: Low-Latency SSD-based Serving on Memory-Constrained PCs",
+    "venue": "FAST 2026",
+    "topic": "LLM serving / sparse attention / SSD KV-cache offload",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX-315939",
+    "paper_url": "https://www.usenix.org/conference/fast26/presentation/zheng",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Co-designs dynamic attention sparsity and SSD storage management for memory-constrained AIPCs; USENIX reports up to 3.1x inference speedup at 128k context and up to 98% KV-cache memory reduction without accuracy loss.",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Efficient Attention"
+    ]
+  },
+  {
     "title": "CXL-SpecKV: A Disaggregated FPGA Speculative KV-Cache for Datacenter LLM Serving",
     "venue": "FPGA 2026",
     "topic": "LLM serving / CXL / FPGA / speculative KV cache",
@@ -8263,6 +8350,24 @@
       "LLM Serving",
       "KV Cache / Long Context",
       "Efficient Attention"
+    ]
+  },
+  {
+    "title": "BigVectorBench: Heterogeneous Data Embedding and Compound Queries are Essential in Evaluating Vector Databases",
+    "venue": "VLDB/PVLDB Volume 18",
+    "topic": "vector database benchmark / RAG infrastructure / heterogeneous embeddings",
+    "arxiv": "",
+    "doi": "10.14778/3718057.3718078",
+    "official_id": "PVLDB18-P1536",
+    "paper_url": "https://www.vldb.org/pvldb/vol18/p1536-zhan.pdf",
+    "code_url": "https://github.com/BenchCouncil/BigVectorBench",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Systematic vector-database benchmark covering heterogeneous embedding and compound queries used by real RAG/multimodal workloads; exposes substantial recall/throughput gaps that are hidden by conventional ANN-only benchmarks and provides an official reproducible benchmark suite.",
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
