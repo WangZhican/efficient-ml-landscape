@@ -2956,6 +2956,40 @@
     ]
   },
   {
+    "title": "HGQ: High Granularity Quantization for Real-time Neural Networks on FPGAs",
+    "venue": "FPGA 2026",
+    "topic": "quantization / FPGA / low-latency inference",
+    "arxiv": "2405.00645",
+    "doi": "10.1145/3748173.3779200",
+    "official_id": "doi:10.1145/3748173.3779200",
+    "paper_url": "https://arxiv.org/abs/2405.00645",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Gradient-based per-parameter bit-width optimization for heterogeneous arbitrary-precision FPGA inference; FPGA 2026 official program places it in the Machine Learning session, and Caltech/CERN institutional records confirm the publication identity.",
+    "directions": [
+      "Quantization",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Hummingbird+: Advancing FPGA-based LLM Deployment from Research Prototype to Edge Product",
+    "venue": "FPGA 2026",
+    "topic": "edge LLM inference / FPGA accelerator / deployment",
+    "arxiv": "",
+    "doi": "10.1145/3748173.3779189",
+    "official_id": "doi:10.1145/3748173.3779189",
+    "paper_url": "https://www.isfpga.org/program/",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Moves FPGA LLM acceleration from prototype toward deployable low-cost edge hardware; official FPGA 2026 program lists it in the HLS session, and the author describes running Qwen3-30B-A3B with 4-bit quantization on a sub-0 FPGA platform.",
+    "directions": [
+      "Quantization",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "KANELÉ: Kolmogorov-Arnold Networks for Efficient LUT-based Evaluation",
     "venue": "FPGA 2026",
     "topic": "efficient FPGA ML inference / LUT neural networks",
