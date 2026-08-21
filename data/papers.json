@@ -4950,6 +4950,39 @@
     ]
   },
   {
+    "title": "IroKnight: Ownership-Preserving Neural Acceleration for Inference Serving",
+    "venue": "ISCA 2026",
+    "topic": "secure/private inference serving / accelerator architecture",
+    "arxiv": "",
+    "doi": "10.1109/ISCA66397.2026.00087",
+    "official_id": "",
+    "paper_url": "https://www.iscaconf.org/isca2026/program/",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Direct inference-serving accelerator paper at ISCA 2026; official program and author-hosted camera-ready manuscript verify identity.",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding"
+    ]
+  },
+  {
+    "title": "Mapping and Communication Optimizations with Fault Tolerance for Wafer-Scale LLM Inference",
+    "venue": "ISCA 2026",
+    "topic": "LLM inference / wafer-scale architecture / communication mapping",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "",
+    "paper_url": "https://www.iscaconf.org/isca2026/program/",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ISCA 2026 paper on hierarchical mapping plus load-balanced, distance-aware, fault-tolerant routing for wafer-scale LLM inference; official ISCA program and author/artifact pages independently confirm the paper and artifact.",
+    "directions": [
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "MLX: Multi-Layer Execution for Structured LLM Workload Acceleration on Spatial Architectures",
     "venue": "ISCA 2026",
     "topic": "LLM workload accelerator / spatial architecture / multi-layer execution",
@@ -5070,6 +5103,56 @@
     ]
   },
   {
+    "title": "Power Sloshing in Compound Servers for Large-Scale AI Inference Workloads",
+    "venue": "ISCA 2026",
+    "topic": "AI inference infrastructure / server power management / production systems",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "",
+    "paper_url": "https://www.iscaconf.org/isca2026/program/",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Production AI-inference power characterization and dynamic server-level power management; reports up to 30% power savings in controlled power sloshing and up to 11% datacenter power reduction without QoS degradation.",
+    "directions": [
+      "LLM Serving"
+    ]
+  },
+  {
+    "title": "PowerGrad: Hierarchical Power Management for Power-Limited ML Inference Clusters",
+    "venue": "ISCA 2026",
+    "topic": "ML inference clusters / power management / datacenter efficiency",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "",
+    "paper_url": "https://www.iscaconf.org/isca2026/program/",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Direct ML-inference cluster efficiency paper in the ISCA sustainability/energy-efficiency session; ISCA program and UIUC/IBM-Illinois first-party group pages confirm identity.",
+    "directions": [
+      "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "PowerWeave: Unlocking Energy-Efficient ML on GPUs with OS-Level Spatial Power Management",
+    "venue": "ISCA 2026",
+    "topic": "GPU power management / LLM serving / agentic workloads",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "",
+    "paper_url": "https://www.iscaconf.org/isca2026/program/",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "OS-level spatial DVFS for GPU ML serving; author camera-ready reports 28% average energy reduction for disaggregated-prefill/multitenant settings and 19% for agentic workflows with zero SLO violations.",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "QiMeng-Tensify: Scaling up Tensor Computation Optimization via Architecture-Aware LLM-Guided MCTS",
     "venue": "ISCA 2026",
     "topic": "tensor compiler / architecture-aware optimization / LLM-guided search",
@@ -5137,6 +5220,23 @@
     "why": "Direct Efficient-ML/AI-infrastructure paper in the official ISCA 2026 program.",
     "directions": [
       "Quantization"
+    ]
+  },
+  {
+    "title": "SLICE: A Selective Local Inference Framework with Codec Exploitation for Accelerating Video Super-Resolution",
+    "venue": "ISCA 2026",
+    "topic": "video inference acceleration / selective local inference / edge systems",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "",
+    "paper_url": "https://www.iscaconf.org/isca2026/program/",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Direct video-inference acceleration system using codec metadata, stable-content reuse and selective patch-level inference; ISCA program and Yonsei eSCaL publication page verify identity.",
+    "directions": [
+      "Speculative Decoding",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
