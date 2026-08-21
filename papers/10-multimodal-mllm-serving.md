@@ -1,6 +1,6 @@
 # 10 · Multimodal / MLLM Serving
 
-> **72 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **76 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [Complete Paper List](ALL_PAPERS.md)
 
@@ -42,10 +42,14 @@
 | **RPU - A Reasoning Processing Unit** | HPCA 2026 | efficient VLM + PIM inference + reasoning accelerator + speculative decoding | [Link](https://arxiv.org/abs/2602.18568) | — |
 | **AIM: Adaptive Inference of Multi-Modal LLMs via Token Merging and Pruning** | ICCV 2025 | multimodal token merging/pruning | — | — |
 | **AirCache: Activating Inter-modal Relevancy KV Cache Compression for Efficient Large Vision-Language Model Inference** | ICCV 2025 | multimodal KV-cache compression | — | — |
+| **Keyframe-oriented Vision Token Pruning: Enhancing Efficiency of Large Vision Language Models on Long-Form Video Processing** | ICCV 2025 | video VLM token pruning / long-form video efficiency | — | — |
 | **Pruning All-Rounder: Rethinking and Improving Inference Efficiency for Large Vision Language Models** | ICCV 2025 | multimodal/VLM token-layer pruning | — | — |
 | **ShortV: Efficient Multimodal Large Language Models by Freezing Visual Tokens in Ineffective Layers** | ICCV 2025 | training-free VLM layer/token efficiency | — | — |
 | **Skip-Vision: Efficient and Scalable Acceleration of Vision-Language Models via Adaptive Token Skipping** | ICCV 2025 | VLM training/inference acceleration | — | — |
+| **SparseMM: Head Sparsity Emerges from Visual Concept Responses in MLLMs** | ICCV 2025 | multimodal KV-cache / head sparsity | — | [Repo](https://github.com/CR400AF-A/SparseMM) |
+| **SparseVILA: Decoupling Visual Sparsity for Efficient VLM Inference** | ICCV 2025 | multimodal/VLM sparse prefill+decode inference | — | — |
 | **Token-Efficient VLM: High-Resolution Image Understanding via Dynamic Region Proposal** | ICCV 2025 | VLM efficiency / dynamic region proposal / token-efficient high-resolution vision | — | — |
+| **VFlowOpt: A Token Pruning Framework for LMMs with Visual Information Flow-Guided Optimization** | ICCV 2025 | multimodal/VLM token pruning / KV efficiency | — | — |
 | **ZipVL: Accelerating Vision-Language Models through Dynamic Token Sparsity** | ICCV 2025 | VLM dynamic token sparsity / KV efficiency | — | — |
 | **CoreMatching: A Co-adaptive Sparse Inference Framework with Token and Neuron Pruning for Comprehensive Acceleration of Vision-Language Models** | ICML 2025 | VLM sparsity / pruning | — | — |
 | **EveryDayVLA: A Vision-Language-Action Model for Affordable Robotic Manipulation** | ICRA 2026 | Physical AI / VLA / real-time adaptive-horizon replanning / low-cost deployment | [Link](https://arxiv.org/abs/2511.05397) | [Repo](https://github.com/everydayvla/EveryDayVLA) |

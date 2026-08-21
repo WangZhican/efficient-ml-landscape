@@ -3952,6 +3952,24 @@
     ]
   },
   {
+    "title": "Keyframe-oriented Vision Token Pruning: Enhancing Efficiency of Large Vision Language Models on Long-Form Video Processing",
+    "venue": "ICCV 2025",
+    "topic": "video VLM token pruning / long-form video efficiency",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "CVF-ICCV2025-Liu_Keyframe-oriented_Vision_Token_Pruning_Enhancing_Efficiency_of_Large_Vision_Language_ICCV_2025_paper",
+    "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Liu_Keyframe-oriented_Vision_Token_Pruning_Enhancing_Efficiency_of_Large_Vision_Language_ICCV_2025_paper.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Keyframe-oriented adaptive token pruning for long-form Video-LMs; reduces token usage by 80% while preserving performance.",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
     "title": "Model Reveals What to Cache: Profiling-Based Feature Reuse for Video Diffusion Models",
     "venue": "ICCV 2025",
     "topic": "video diffusion acceleration / profiling-guided feature reuse",
@@ -3983,6 +4001,26 @@
     "directions": [
       "Sparsity / Pruning",
       "Multimodal / MLLM Serving"
+    ]
+  },
+  {
+    "title": "QuantCache: Adaptive Importance-Guided Quantization with Hierarchical Latent and Layer Caching for Video Generation",
+    "venue": "ICCV 2025",
+    "topic": "video diffusion acceleration / quantization + caching",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "CVF-ICCV2025-Wu_QuantCache_Adaptive_Importance-Guided_Quantization_with_Hierarchical_Latent_and_Layer_Caching_ICCV_2025_paper",
+    "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Wu_QuantCache_Adaptive_Importance-Guided_Quantization_with_Hierarchical_Latent_and_Layer_Caching_ICCV_2025_paper.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Training-free DiT acceleration combining latent/layer caching, quantization and pruning; 6.72x Open-Sora latency speedup.",
+    "directions": [
+      "Quantization",
+      "Sparsity / Pruning",
+      "GPU Kernel / DSL / Compiler",
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
@@ -4036,6 +4074,43 @@
     ]
   },
   {
+    "title": "SparseMM: Head Sparsity Emerges from Visual Concept Responses in MLLMs",
+    "venue": "ICCV 2025",
+    "topic": "multimodal KV-cache / head sparsity",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "CVF-ICCV2025-Wang_SparseMM_Head_Sparsity_Emerges_from_Visual_Concept_Responses_in_MLLMs_ICCV_2025_paper",
+    "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Wang_SparseMM_Head_Sparsity_Emerges_from_Visual_Concept_Responses_in_MLLMs_ICCV_2025_paper.html",
+    "code_url": "https://github.com/CR400AF-A/SparseMM",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Head-aware multimodal KV optimization; 1.38x real-time acceleration and 52% memory reduction.",
+    "directions": [
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
+    "title": "SparseVILA: Decoupling Visual Sparsity for Efficient VLM Inference",
+    "venue": "ICCV 2025",
+    "topic": "multimodal/VLM sparse prefill+decode inference",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "CVF-ICCV2025-Khaki_SparseVILA_Decoupling_Visual_Sparsity_for_Efficient_VLM_Inference_ICCV_2025_paper",
+    "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Khaki_SparseVILA_Decoupling_Visual_Sparsity_for_Efficient_VLM_Inference_ICCV_2025_paper.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Decouples visual sparsity across prefill and decoding; reports 3.6x prefill and 1.7x decoding speedup on long-context tasks.",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
     "title": "Text Embedding Knows How to Quantize Text-Guided Diffusion Models",
     "venue": "ICCV 2025",
     "topic": "diffusion quantization / dynamic precision",
@@ -4085,6 +4160,23 @@
     "directions": [
       "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "VFlowOpt: A Token Pruning Framework for LMMs with Visual Information Flow-Guided Optimization",
+    "venue": "ICCV 2025",
+    "topic": "multimodal/VLM token pruning / KV efficiency",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "CVF-ICCV2025-Yang_VFlowOpt_A_Token_Pruning_Framework_for_LMMs_with_Visual_Information_ICCV_2025_paper",
+    "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Yang_VFlowOpt_A_Token_Pruning_Framework_for_LMMs_with_Visual_Information_ICCV_2025_paper.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Visual-token pruning with 90% token pruning, 89% KV-memory reduction and 3.8x faster inference.",
+    "directions": [
+      "Sparsity / Pruning",
+      "Multimodal / MLLM Serving"
     ]
   },
   {
