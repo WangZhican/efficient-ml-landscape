@@ -2329,6 +2329,25 @@
     ]
   },
   {
+    "title": "Efficient Diffusion Transformer with Step-wise Dynamic Attention Mediators",
+    "venue": "ECCV 2024",
+    "topic": "diffusion/flow acceleration / efficient attention",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ECCV2024_ECVA_02391",
+    "paper_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/2391_ECCV_2024_paper.php",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Step-wise dynamic mediator tokens reduce diffusion-transformer global-attention complexity and generation FLOPs while preserving/improving image quality.",
+    "directions": [
+      "LLM Serving",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "Efficient Inference of Vision Instruction-Following Models with Elastic Cache",
     "venue": "ECCV 2024",
     "topic": "KV cache / multimodal inference",
@@ -2342,6 +2361,24 @@
     "why": "Elastic Cache is training-free multimodal KV-cache merging with generation-stage cache management; official ECCV paper reports 78% actual speed increase at KV budget 0.2.",
     "directions": [
       "KV Cache / Long Context",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
+    "title": "FlexAttention for Efficient High-Resolution Vision-Language Models",
+    "venue": "ECCV 2024",
+    "topic": "multimodal/MLLM serving / efficient attention",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ECCV2024_ECVA_03642",
+    "paper_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/3642_ECCV_2024_paper.php",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Efficient high-resolution VLM attention using low-resolution tokens plus selected high-resolution tokens; official ECCV paper reports nearly 40% computational-cost reduction.",
+    "directions": [
+      "LLM Serving",
+      "Efficient Attention",
       "Multimodal / MLLM Serving"
     ]
   },
@@ -2428,6 +2465,24 @@
     "why": "Mixed-precision PTQ for few-step text-to-image diffusion; official ECCV paper reports 3-4x model/memory reduction and 1.5x latency speedup versus FP16.",
     "directions": [
       "Quantization",
+      "GPU Kernel / DSL / Compiler",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "Mixture of Efficient Diffusion Experts Through Automatic Interval and Sub-Network Selection",
+    "venue": "ECCV 2024",
+    "topic": "diffusion/flow acceleration / pruning",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ECCV2024_ECVA_07799",
+    "paper_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/7799_ECCV_2024_paper.php",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "DiffPruning reduces diffusion sampling cost by pruning a pretrained diffusion model into timestep-specialized efficient experts with automatic interval/sub-network selection.",
+    "directions": [
+      "Sparsity / Pruning",
       "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
