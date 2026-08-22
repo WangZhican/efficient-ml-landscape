@@ -24,7 +24,7 @@
 
 <p>
   <img src="https://img.shields.io/badge/Papers-662-7c3aed?style=for-the-badge" alt="662 papers" />
-  <img src="https://img.shields.io/badge/Primary%20Links-609-059669?style=for-the-badge" alt="609 primary links" />
+  <img src="https://img.shields.io/badge/Primary%20Links-611-059669?style=for-the-badge" alt="611 primary links" />
   <img src="https://img.shields.io/badge/Research%20Tracks-15-2563eb?style=for-the-badge" alt="15 research tracks" />
   <img src="https://img.shields.io/badge/Physical%20AI-Protected-f59e0b?style=for-the-badge" alt="Physical AI protected" />
 </p>
@@ -59,7 +59,7 @@
 | **Latest watchlist** | **41** |
 | **Latest relevant low-priority** | **95** |
 | **Classical / historical papers** | **616** |
-| **Papers with resolved primary-source links** | **609** |
+| **Papers with resolved primary-source links** | **611** |
 | **Latest strong papers** | **45** |
 | **Research directions** | **15** |
 | **Venue/source labels represented** | **46** |
