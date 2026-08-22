@@ -1,21 +1,26 @@
 # 10 · Multimodal / MLLM Serving
 
-> **83 canonical papers** mapped here, plus a broader **25-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **83 canonical papers** mapped here, plus a broader **30-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 25 tracked
+## 🆕 Latest 30 Days · 30 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
+| **P2 · Relevant** | **EXIMO: VLM Guided Exploration of VLA Policies** | Fresh / preprint | multimodal / gen / physical | [Link](https://arxiv.org/abs/2608.19891) | — |
+| **P2 · Relevant** | **OrthoSkillVLA: Continual Skill Learning via Gradient-Informed Skill Subspace Adaptation** | Fresh / preprint | llm_serving / multimodal / physical | [Link](https://arxiv.org/abs/2608.19589) | — |
 | **P0 · Strong** | **Role-Conditioned Sub-Token Routing for Efficient Vision-Language-Action Policies** | Fresh / preprint | VLA efficiency / KV compression / sub-token routing | [Link](https://arxiv.org/abs/2608.18410) | — |
 | **P1 · Watch** | **Memory Tree Guided Key Frame Querying for Efficient 3D Question Answering** | Fresh / preprint | Physical AI / embodied VLM inference / key-frame retrieval | [Link](https://arxiv.org/abs/2608.18009) | — |
 | **P1 · Watch** | **CompCPZ: Preserving Multi-Modal Intent in Language-Guided Robot Manipulation** | Fresh / preprint | Physical AI runtime / compositional grounding | [Link](https://arxiv.org/abs/2608.17717) | — |
 | **P1 · Watch** | **MoE-ViE: Mixture of Experts Vision Encoder for Efficient Image and Video Understanding** | Fresh / preprint | multimodal vision encoder / MoE / Triton kernel | [Link](https://arxiv.org/abs/2608.17402) | [Repo](https://github.com/facebookresearch/moe_vie) |
+| **P2 · Relevant** | **Inference-Time Attention Steering for Vision-Language-Action Driving Models** | Fresh / preprint | llm_serving / multimodal / gen / physical | [Link](https://arxiv.org/abs/2608.17095) | — |
 | **P0 · Strong** | **NebulaVLA: A Dual-Frequency Vision-Language-Action Model With Guide Action for Robotic Manipulation** | Fresh / preprint | VLA efficient inference | [Link](https://arxiv.org/abs/2608.16503) | — |
+| **P2 · Relevant** | **ViTaR: Visuo-Tactile Residual Adaptation for Foundation VLA Manipulation** | Fresh / preprint | llm_serving / multimodal / gen / physical / edge | [Link](https://arxiv.org/abs/2608.15816) | — |
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 | **P1 · Watch** | **EgoGazeLite: On-Device Egocentric Gaze Prediction for Token-Efficient Multimodal LLM Video Input** | Fresh / preprint | multimodal serving / visual token reduction / on-device | [Link](https://arxiv.org/abs/2608.15614) | — |
 | **P0 · Strong** | **EcoVLA: Energy-Efficient Device-Edge Co-Inference for Vision-Language-Action Models under Real-Time Constraints** | Fresh / preprint | VLA device-edge co-inference / energy-aware runtime | [Link](https://arxiv.org/abs/2608.15502) | — |
+| **P1 · Watch** | **MM-BEV: Enhancing Timeliness by Computing Where and When it Matters** | Fresh / preprint | Physical AI / edge runtime / sparse multimodal perception | [Link](https://arxiv.org/abs/2608.15437) | — |
 | **P0 · Strong** | **Rollplex: Cross-Phase GPU Spatial Sharing for Vision Language Model Post-Training** | Fresh / preprint | VLM post-training / GPU spatial sharing / RL runtime | [Link](https://arxiv.org/abs/2608.14498) | — |
 | **P0 · Strong** | **Reflex: Enabling Fast and Predictive Vision-Language-Action Models for Reaction-Critical Manipulation** | Fresh / preprint | fast VLA runtime / reaction-critical manipulation | [Link](https://arxiv.org/abs/2608.14379) | — |
 | **P0 · Strong** | **FlashDrive: Flash Vision-Language-Action Inference for Autonomous Driving** | Fresh / preprint | full-stack VLA inference acceleration | [Link](https://arxiv.org/abs/2608.12932) | — |

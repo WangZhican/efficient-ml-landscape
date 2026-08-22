@@ -1,16 +1,17 @@
 # 09 · Distributed Training / Inference
 
-> **90 canonical papers** mapped here, plus a broader **16-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **90 canonical papers** mapped here, plus a broader **17-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 16 tracked
+## 🆕 Latest 30 Days · 17 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **P0 · Strong** | **Pre-Compiled Pipeline Shards for Distributed LLM Inference on Intel AI PC Fleets** | Fresh / preprint | distributed LLM inference / edge AI PC fleet / speculative decoding | [Link](https://arxiv.org/abs/2608.19147) | [Repo](https://github.com/labscommunity/pipeline-sharded-inference-paper) |
 | **P0 · Strong** | **ClawGym II: Exploring Black-Box RL on Agent Harness** | Fresh / preprint | agent training systems | [Link](https://arxiv.org/abs/2608.16798) | — |
 | **P1 · Watch** | **UniTAC: Universal Task-Aware Compression via Weighted Distortion Measures** | Fresh / preprint | Physical AI / task-aware sensory compression / edge communication | [Link](https://arxiv.org/abs/2608.16696) | — |
+| **P1 · Watch** | **KV-Pipe: On the Relation Between KV Sharing and Pipeline Parallel Efficiency in LLMs** | Fresh / preprint | KV cache / distributed training-inference | [Link](https://arxiv.org/abs/2608.15943) | — |
 | **P0 · Strong** | **Global Simulation-Guided Dynamic Operator Scheduling for Efficient Multi-Tenant Model Serving** | Fresh / preprint | multi-tenant model serving / operator-level scheduling | [Link](https://arxiv.org/abs/2608.15762) | — |
 | **P0 · Strong** | **GraniKV: Asymmetric Granularity KV-Cache Paging for Multi-Agent Systems with Long Shared Prefix** | Fresh / preprint | KV-cache paging / multi-agent serving | [Link](https://arxiv.org/abs/2608.15584) | — |
 | **P0 · Strong** | **EcoVLA: Energy-Efficient Device-Edge Co-Inference for Vision-Language-Action Models under Real-Time Constraints** | Fresh / preprint | VLA device-edge co-inference / energy-aware runtime | [Link](https://arxiv.org/abs/2608.15502) | — |

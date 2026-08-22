@@ -1,19 +1,22 @@
 # 14 · VLA / WAM / Physical AI
 
-> **39 canonical papers** mapped here, plus a broader **28-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **39 canonical papers** mapped here, plus a broader **33-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 28 tracked
+## 🆕 Latest 30 Days · 33 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
+| **P2 · Relevant** | **EXIMO: VLM Guided Exploration of VLA Policies** | Fresh / preprint | multimodal / gen / physical | [Link](https://arxiv.org/abs/2608.19891) | — |
+| **P2 · Relevant** | **OrthoSkillVLA: Continual Skill Learning via Gradient-Informed Skill Subspace Adaptation** | Fresh / preprint | llm_serving / multimodal / physical | [Link](https://arxiv.org/abs/2608.19589) | — |
 | **P0 · Strong** | **Role-Conditioned Sub-Token Routing for Efficient Vision-Language-Action Policies** | Fresh / preprint | VLA efficiency / KV compression / sub-token routing | [Link](https://arxiv.org/abs/2608.18410) | — |
 | **P1 · Watch** | **Hydra-0: Action Flow for Generalist World Modeling and Control** | Fresh / preprint | Physical AI / world-action modeling | [Link](https://arxiv.org/abs/2608.18077) | — |
 | **P1 · Watch** | **Memory Tree Guided Key Frame Querying for Efficient 3D Question Answering** | Fresh / preprint | Physical AI / embodied VLM inference / key-frame retrieval | [Link](https://arxiv.org/abs/2608.18009) | — |
 | **P1 · Watch** | **CompCPZ: Preserving Multi-Modal Intent in Language-Guided Robot Manipulation** | Fresh / preprint | Physical AI runtime / compositional grounding | [Link](https://arxiv.org/abs/2608.17717) | — |
 | **P1 · Watch** | **Embodied-Navigator: Point, Think, Memorize, and Align for Efficient Navigation** | Fresh / preprint | Physical AI / efficient embodied navigation | [Link](https://arxiv.org/abs/2608.17512) | — |
 | **P1 · Watch** | **Prism-GRPO: Faster VLA Policy Optimization via Splitting Same-outcome Groups** | Fresh / preprint | Physical AI / VLA RL rollout efficiency | [Link](https://arxiv.org/abs/2608.17423) | — |
+| **P2 · Relevant** | **Inference-Time Attention Steering for Vision-Language-Action Driving Models** | Fresh / preprint | llm_serving / multimodal / gen / physical | [Link](https://arxiv.org/abs/2608.17095) | — |
 | **P1 · Watch** | **Don't Drop the BATON: Long-Horizon Robot Manipulation via Agentic Subtask Exploration and Transition-aware Memory** | Fresh / preprint | Physical AI / agentic test-time exploration efficiency | [Link](https://arxiv.org/abs/2608.16889) | — |
 | **P1 · Watch** | **tau_0-VLA: a Hierarchical Robot Foundation Model with World-Model-Guided Test-Time Computation** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.16885) | — |
 | **P0 · Strong** | **HAF: Adapting Generalist VLAs to Humanoid Whole-Body Loco-manipulation via Hierarchical Action Flow and Spectral Latent RL** | Fresh / preprint | VLA / humanoid efficient adaptation | [Link](https://arxiv.org/abs/2608.16837) | — |
@@ -21,6 +24,8 @@
 | **P0 · Strong** | **Zetta: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence** | Fresh / preprint | Physical AI / embodied runtime | [Link](https://arxiv.org/abs/2608.16590) | — |
 | **P0 · Strong** | **NebulaVLA: A Dual-Frequency Vision-Language-Action Model With Guide Action for Robotic Manipulation** | Fresh / preprint | VLA efficient inference | [Link](https://arxiv.org/abs/2608.16503) | — |
 | **P1 · Watch** | **SparkVLA: Stop-Aware Hierarchical VLA with Adaptive Action Chunking for Long-Horizon Manipulation** | Fresh / preprint | Physical AI / VLA / adaptive action chunking / token pruning | [Link](https://arxiv.org/abs/2608.16172) | — |
+| **P2 · Relevant** | **Revisiting Open-Loop Execution in Robotics: Toward Reactive, Higher-Performing Policies** | Fresh / preprint | llm_serving / kv / physical | [Link](https://arxiv.org/abs/2608.15938) | — |
+| **P2 · Relevant** | **ViTaR: Visuo-Tactile Residual Adaptation for Foundation VLA Manipulation** | Fresh / preprint | llm_serving / multimodal / gen / physical / edge | [Link](https://arxiv.org/abs/2608.15816) | — |
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 | **P0 · Strong** | **EcoVLA: Energy-Efficient Device-Edge Co-Inference for Vision-Language-Action Models under Real-Time Constraints** | Fresh / preprint | VLA device-edge co-inference / energy-aware runtime | [Link](https://arxiv.org/abs/2608.15502) | — |
 | **P0 · Strong** | **Reflex: Enabling Fast and Predictive Vision-Language-Action Models for Reaction-Critical Manipulation** | Fresh / preprint | fast VLA runtime / reaction-critical manipulation | [Link](https://arxiv.org/abs/2608.14379) | — |

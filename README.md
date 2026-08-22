@@ -54,10 +54,10 @@
 | Metric | Current public view |
 |---|---:|
 | **Quality-gated unique papers** | **661** |
-| **Latest 30-day tracked total** | **182** |
+| **Latest 30-day tracked total** | **194** |
 | **Latest 30-day quality-gated papers** | **46** |
-| **Latest watchlist** | **41** |
-| **Latest relevant low-priority** | **95** |
+| **Latest watchlist** | **45** |
+| **Latest relevant low-priority** | **103** |
 | **Classical / historical papers** | **615** |
 | **Papers with resolved primary-source links** | **614** |
 | **Latest strong papers** | **45** |

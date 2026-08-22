@@ -1,6 +1,6 @@
 # 🆕 Latest 30 Days
 
-> Rolling 30-day view ending **2026-08-22**: **182 tracked papers = 46 P0 + 41 P1 + 95 P2**. Topical relevance determines visibility; quality determines priority. The classical census remains stricter.
+> Rolling 30-day view ending **2026-08-23**: **194 tracked papers = 46 P0 + 45 P1 + 103 P2**. Topical relevance determines visibility; quality determines priority. The classical census remains stricter.
 
 [← Paper Library](ALL_PAPERS.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/latest_30d.json) · [CSV](../data/latest_30d.csv)
 
@@ -64,6 +64,7 @@
 | **P1 · Watch** | **Swift-Image: Exploring the Performance Frontier of Compact Unified Image Generation Models** | Fresh / preprint | image generation efficiency / pruning / few-step distillation | [Link](https://arxiv.org/abs/2608.20334) | — |
 | **P1 · Watch** | **Which Eviction Policy Should an LLM Cache Use? A Systematic Study Across Workloads, Capacities, and Encoders** | Fresh / preprint | LLM semantic cache / eviction policy / serving benchmark | [Link](https://arxiv.org/abs/2608.20280) | — |
 | **P1 · Watch** | **Learning how to Forget: Fine-tuning for Long-Context Sparse Attention** | Fresh / preprint | long-context / sparse attention / KV cache policy | [Link](https://arxiv.org/abs/2608.19920) | [Repo](https://github.com/awslabs/keys_values) |
+| **P1 · Watch** | **Write Once, Run Everywhere: The Axon DSL for Shape-Safe and Framework-Agnostic LLM Architectures** | Fresh / preprint | GPU kernel / DSL / compiler | [Link](https://arxiv.org/abs/2608.19889) | — |
 | **P1 · Watch** | **Cacheable by Design? Training Mixture-of-Experts Routers for Locality Against the Edge Memory-Bandwidth Wall: A Pre-Registered Negative Result with a Systems Measurement Study** | Fresh / preprint | edge MoE serving / expert caching / memory bandwidth | [Link](https://arxiv.org/abs/2608.18261) | — |
 | **P1 · Watch** | **Hydra-0: Action Flow for Generalist World Modeling and Control** | Fresh / preprint | Physical AI / world-action modeling | [Link](https://arxiv.org/abs/2608.18077) | — |
 | **P1 · Watch** | **EDITBRIDGE: Towards Faithful and Efficient Ultra-High-Resolution Image Editing** | Fresh / preprint | image editing / diffusion / block-wise sparse attention | [Link](https://arxiv.org/abs/2608.18063) | — |
@@ -83,11 +84,14 @@
 | **P1 · Watch** | **Beyond Binary Priorities: Multi-Tier SLA Scheduling for Large Language Model Serving** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.16336) | — |
 | **P1 · Watch** | **SparkVLA: Stop-Aware Hierarchical VLA with Adaptive Action Chunking for Long-Horizon Manipulation** | Fresh / preprint | Physical AI / VLA / adaptive action chunking / token pruning | [Link](https://arxiv.org/abs/2608.16172) | — |
 | **P1 · Watch** | **A Scalable Pipeline for LLM-Teacher Distillation Labeling: Work-Stealing Job Scheduling and Memory-Aware GPU Concurrency** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.15975) | — |
+| **P1 · Watch** | **KV-Pipe: On the Relation Between KV Sharing and Pipeline Parallel Efficiency in LLMs** | Fresh / preprint | KV cache / distributed training-inference | [Link](https://arxiv.org/abs/2608.15943) | — |
+| **P1 · Watch** | **Aborted but Not Forgotten: KV-Cache Retention Breaks Rollback Consistency in Language Agents** | Fresh / preprint | agent serving / KV-cache state consistency | [Link](https://arxiv.org/abs/2608.15939) | — |
 | **P1 · Watch** | **RoofGS: Roofline-Guided End-to-End Acceleration of 3D Gaussian Splatting** | Fresh / preprint | 3D Gaussian Splatting / roofline / GPU kernels | [Link](https://arxiv.org/abs/2608.15785) | — |
 | **P1 · Watch** | **EgoGazeLite: On-Device Egocentric Gaze Prediction for Token-Efficient Multimodal LLM Video Input** | Fresh / preprint | multimodal serving / visual token reduction / on-device | [Link](https://arxiv.org/abs/2608.15614) | — |
 | **P1 · Watch** | **DeltaLog: Deferred Materialization of Recurrent States for Linear Attention Decoding** | Fresh / preprint | linear attention serving / recurrent-state memory traffic | [Link](https://arxiv.org/abs/2608.15533) | — |
 | **P1 · Watch** | **FlashQuant: Sparse-Dense Fusion for Memory-Efficient Outlier-Aware LLM Inference** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.15531) | — |
 | **P1 · Watch** | **Efficient Audio-Visual Generation via Synchrony-Aware Cross-Modal Sparse Attention** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.15522) | — |
+| **P1 · Watch** | **MM-BEV: Enhancing Timeliness by Computing Where and When it Matters** | Fresh / preprint | Physical AI / edge runtime / sparse multimodal perception | [Link](https://arxiv.org/abs/2608.15437) | — |
 | **P1 · Watch** | **S2-MoE: Enabling Efficient Self-Speculative Decoding for Mixture-of-Experts on Edge Devices** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.15018) | — |
 | **P1 · Watch** | **KV Cache Compression Through the Lens of Transform Coding** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.14191) | — |
 | **P1 · Watch** | **OpScale: Operator-level Provisioning and Autoscaling for LLM Serving** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.13499) | — |
@@ -111,8 +115,16 @@
 |---|---|---|---|---|---|
 | **P2 · Relevant** | **Pandora's AI Model Routing Box: Efficient Allocation with Costly Value Estimation** | Fresh / preprint | edge / heterogeneous AI | [Link](https://arxiv.org/abs/2608.20316) | — |
 | **P2 · Relevant** | **Daedalus-150M: A Convolution-Attention Hybrid Designed for CPU Inference** | Fresh / preprint | generation acceleration | [Link](https://arxiv.org/abs/2608.20210) | — |
+| **P2 · Relevant** | **EXIMO: VLM Guided Exploration of VLA Policies** | Fresh / preprint | multimodal / gen / physical | [Link](https://arxiv.org/abs/2608.19891) | — |
+| **P2 · Relevant** | **OrthoSkillVLA: Continual Skill Learning via Gradient-Informed Skill Subspace Adaptation** | Fresh / preprint | llm_serving / multimodal / physical | [Link](https://arxiv.org/abs/2608.19589) | — |
+| **P2 · Relevant** | **APEX: A Dual-Sparsity Accelerator for Precise and Efficient SNN Inference** | Fresh / preprint | llm_serving / quant / sparse / gen / edge | [Link](https://arxiv.org/abs/2608.19046) | — |
+| **P2 · Relevant** | **MAGMA: Mixture-Model Adaptive Gaussian Model Acceleration** | Fresh / preprint | gen / edge | [Link](https://arxiv.org/abs/2608.18366) | — |
+| **P2 · Relevant** | **Inference-Time Attention Steering for Vision-Language-Action Driving Models** | Fresh / preprint | llm_serving / multimodal / gen / physical | [Link](https://arxiv.org/abs/2608.17095) | — |
 | **P2 · Relevant** | **DB-SpMSpV: Dual-View Blocked Sparse Matrix-Sparse Vector Multiplication for Dynamic GPU Workloads** | Fresh / preprint | llm_serving / sparse / edge | [Link](https://arxiv.org/abs/2608.16308) | — |
 | **P2 · Relevant** | **Nexus: Structured Synergy for Efficient Text-to-Image Generation using Rectified Flow Model** | Fresh / preprint | image generation / sparse architecture / low-bit / flow matching | [Link](https://arxiv.org/abs/2608.16104) | — |
+| **P2 · Relevant** | **Revisiting Open-Loop Execution in Robotics: Toward Reactive, Higher-Performing Policies** | Fresh / preprint | llm_serving / kv / physical | [Link](https://arxiv.org/abs/2608.15938) | — |
+| **P2 · Relevant** | **ViTaR: Visuo-Tactile Residual Adaptation for Foundation VLA Manipulation** | Fresh / preprint | llm_serving / multimodal / gen / physical / edge | [Link](https://arxiv.org/abs/2608.15816) | — |
+| **P2 · Relevant** | **Pricing the Risk of Runtime Compression: Anytime-Valid Admission and a Served-Output Law for Compressed Serving State** | Fresh / preprint | llm_serving / quant / gen | [Link](https://arxiv.org/abs/2608.15810) | — |
 | **P2 · Relevant** | **When Entropy Is Not Enough: Reclaiming Lost Semantics in LLM Output Length Prediction** | Fresh / preprint | llm_serving / kv / gen | [Link](https://arxiv.org/abs/2608.15592) | — |
 | **P2 · Relevant** | **MAPLE: MoE Adaptive Plug-and-play Layer-wise Expert allocation** | Fresh / preprint | llm_serving / sparse / moe / edge | [Link](https://arxiv.org/abs/2608.15299) | — |
 | **P2 · Relevant** | **When Does Distributed AI Inference Need More Wide-Area Bandwidth? A Co-Design Evaluation of Optical, Packet, and Software Levers** | Fresh / preprint | llm_serving / kv / agent | [Link](https://arxiv.org/abs/2608.14967) | — |

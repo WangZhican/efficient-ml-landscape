@@ -1,14 +1,15 @@
 # 08 · GPU Kernel / DSL / Compiler
 
-> **230 canonical papers** mapped here, plus a broader **61-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **230 canonical papers** mapped here, plus a broader **62-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 61 tracked
+## 🆕 Latest 30 Days · 62 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **P1 · Watch** | **Learning how to Forget: Fine-tuning for Long-Context Sparse Attention** | Fresh / preprint | long-context / sparse attention / KV cache policy | [Link](https://arxiv.org/abs/2608.19920) | [Repo](https://github.com/awslabs/keys_values) |
+| **P1 · Watch** | **Write Once, Run Everywhere: The Axon DSL for Shape-Safe and Framework-Agnostic LLM Architectures** | Fresh / preprint | GPU kernel / DSL / compiler | [Link](https://arxiv.org/abs/2608.19889) | — |
 | **P0 · Strong** | **FlashPrefill V2: Block-Sparse Prefill Attention for Long-Context LLM Serving** | Fresh / preprint | long-context LLM serving / block-sparse prefill attention / GPU kernel | [Link](https://arxiv.org/abs/2608.19758) | — |
 | **P0 · Strong** | **A Thread-Register Decoupled GPU Execution Model for Efficient Tensor Computation** | Fresh / preprint | GPU execution architecture / tensor cores / LLM serving | [Link](https://arxiv.org/abs/2608.19628) | — |
 | **P0 · Strong** | **FlashAttention for Scalable Vector Architectures** | Fresh / preprint | efficient attention / CPU vector architecture / llama.cpp | [Link](https://arxiv.org/abs/2608.18656) | — |

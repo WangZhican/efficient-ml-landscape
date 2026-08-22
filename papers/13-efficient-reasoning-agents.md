@@ -1,10 +1,10 @@
 # 13 · Efficient Reasoning / Agents
 
-> **81 canonical papers** mapped here, plus a broader **29-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **81 canonical papers** mapped here, plus a broader **30-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 29 tracked
+## 🆕 Latest 30 Days · 30 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -19,6 +19,7 @@
 | **P0 · Strong** | **ClawGym II: Exploring Black-Box RL on Agent Harness** | Fresh / preprint | agent training systems | [Link](https://arxiv.org/abs/2608.16798) | — |
 | **P1 · Watch** | **Le Critique: Privileged Value Functions for LLM Reinforcement Learning** | Fresh / preprint | LLM RL training efficiency / rollout stragglers | [Link](https://arxiv.org/abs/2608.16739) | — |
 | **P0 · Strong** | **GenRouter: Unified Workflow Routing for Agentic Image Generation** | Fresh / preprint | agentic image generation / workflow routing / inference efficiency | [Link](https://arxiv.org/abs/2608.16721) | — |
+| **P1 · Watch** | **Aborted but Not Forgotten: KV-Cache Retention Breaks Rollback Consistency in Language Agents** | Fresh / preprint | agent serving / KV-cache state consistency | [Link](https://arxiv.org/abs/2608.15939) | — |
 | **P0 · Strong** | **Global Simulation-Guided Dynamic Operator Scheduling for Efficient Multi-Tenant Model Serving** | Fresh / preprint | multi-tenant model serving / operator-level scheduling | [Link](https://arxiv.org/abs/2608.15762) | — |
 | **P0 · Strong** | **GraniKV: Asymmetric Granularity KV-Cache Paging for Multi-Agent Systems with Long Shared Prefix** | Fresh / preprint | KV-cache paging / multi-agent serving | [Link](https://arxiv.org/abs/2608.15584) | — |
 | **P0 · Strong** | **From LLM Inference to Agentic Workloads: Characterization and Implications for Serving Systems** | Fresh / preprint | agentic serving characterization / systems benchmark | [Link](https://arxiv.org/abs/2608.15127) | — |

@@ -1,8 +1,8 @@
 {
-  "window_end_beijing": "2026-08-22",
-  "window_start_beijing": "2026-07-23",
+  "window_end_beijing": "2026-08-23",
+  "window_start_beijing": "2026-07-24",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 182,
+  "tracked_total": 194,
   "p0_strong_or_canonical": [
     {
       "title": "FlashPrefill V2: Block-Sparse Prefill Attention for Long-Context LLM Serving",
@@ -1097,6 +1097,26 @@
       ]
     },
     {
+      "title": "Write Once, Run Everywhere: The Axon DSL for Shape-Safe and Framework-Agnostic LLM Architectures",
+      "venue": "",
+      "topic": "GPU kernel / DSL / compiler",
+      "arxiv": "2608.19889",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.19889",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Portable typed LLM architecture DSL compiling to PyTorch/Triton/JAX/MLX/vLLM; 467 inference benchmarks and reported 58% median speedup in native vLLM deployment.",
+      "published_at": "2026-08-20T10:56:34Z",
+      "updated_at": "2026-08-20T10:56:34Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
       "title": "Cacheable by Design? Training Mixture-of-Experts Routers for Locality Against the Edge Memory-Bandwidth Wall: A Pre-Registered Negative Result with a Systems Measurement Study",
       "venue": "",
       "topic": "edge MoE serving / expert caching / memory bandwidth",
@@ -1504,6 +1524,49 @@
       ]
     },
     {
+      "title": "KV-Pipe: On the Relation Between KV Sharing and Pipeline Parallel Efficiency in LLMs",
+      "venue": "",
+      "topic": "KV cache / distributed training-inference",
+      "arxiv": "2608.15943",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.15943",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Stage-aware cross-layer KV sharing used as a pipeline-balancing control knob; reports up to 9.2% higher MFU, 9.8% lower iteration time, plus long-context inference KV benefits.",
+      "published_at": "2026-08-16T22:01:16Z",
+      "updated_at": "2026-08-16T22:01:16Z",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context",
+        "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "Aborted but Not Forgotten: KV-Cache Retention Breaks Rollback Consistency in Language Agents",
+      "venue": "",
+      "topic": "agent serving / KV-cache state consistency",
+      "arxiv": "2608.15939",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.15939",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Identifies rollback-consistency failure from retained KV state across aborted agent branches, reproduces across seven model families and HF/LangGraph, and provides transaction-local cache restoration.",
+      "published_at": "2026-08-16T21:49:38Z",
+      "updated_at": "2026-08-16T21:49:38Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "RoofGS: Roofline-Guided End-to-End Acceleration of 3D Gaussian Splatting",
       "venue": "",
       "topic": "3D Gaussian Splatting / roofline / GPU kernels",
@@ -1608,6 +1671,29 @@
       "directions": [
         "Sparsity / Pruning",
         "Efficient Attention"
+      ]
+    },
+    {
+      "title": "MM-BEV: Enhancing Timeliness by Computing Where and When it Matters",
+      "venue": "",
+      "topic": "Physical AI / edge runtime / sparse multimodal perception",
+      "arxiv": "2608.15437",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.15437",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Real-time multimodal BEV system with criticality-ranked sparse ROI compute, latency-aware coordination and asynchronous scheduling; reports 2.93x end-to-end latency reduction and Jetson AGX Orin validation.",
+      "published_at": "2026-08-15T22:42:47Z",
+      "updated_at": "2026-08-15T22:42:47Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Multimodal / MLLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -1957,6 +2043,115 @@
       ]
     },
     {
+      "title": "EXIMO: VLM Guided Exploration of VLA Policies",
+      "venue": "",
+      "topic": "multimodal / gen / physical",
+      "arxiv": "2608.19891",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.19891",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "sample-efficient VLA finetuning pipeline; Physical-AI relevant but primarily learning algorithm rather than serving/infra",
+      "published_at": "2026-08-20T10:58:45Z",
+      "updated_at": "2026-08-20T10:58:45Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "OrthoSkillVLA: Continual Skill Learning via Gradient-Informed Skill Subspace Adaptation",
+      "venue": "",
+      "topic": "llm_serving / multimodal / physical",
+      "arxiv": "2608.19589",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.19589",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "parameter-efficient continual VLA skill adaptation; Physical-AI relevant but training/adaptation focused",
+      "published_at": "2026-08-20T03:10:31Z",
+      "updated_at": "2026-08-20T03:10:31Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "APEX: A Dual-Sparsity Accelerator for Precise and Efficient SNN Inference",
+      "venue": "",
+      "topic": "llm_serving / quant / sparse / gen / edge",
+      "arxiv": "2608.19046",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.19046",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "dual-sparsity SNN accelerator; efficient edge hardware but outside the main foundation-model systems routes",
+      "published_at": "2026-08-19T15:38:16Z",
+      "updated_at": "2026-08-19T15:38:16Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Sparsity / Pruning",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "MAGMA: Mixture-Model Adaptive Gaussian Model Acceleration",
+      "venue": "",
+      "topic": "gen / edge",
+      "arxiv": "2608.18366",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.18366",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "streaming FPGA Gaussian-mixture accelerator; edge AI systems relevant but peripheral to current foundation-model focus",
+      "published_at": "2026-08-18T22:37:36Z",
+      "updated_at": "2026-08-18T22:37:36Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Inference-Time Attention Steering for Vision-Language-Action Driving Models",
+      "venue": "",
+      "topic": "llm_serving / multimodal / gen / physical",
+      "arxiv": "2608.17095",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.17095",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "inference-time VLA attention steering; runtime intervention relevant to Physical AI but contribution is safety/control behavior rather than efficiency",
+      "published_at": "2026-08-17T20:03:38Z",
+      "updated_at": "2026-08-17T20:03:38Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Attention",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "DB-SpMSpV: Dual-View Blocked Sparse Matrix-Sparse Vector Multiplication for Dynamic GPU Workloads",
       "venue": "",
       "topic": "llm_serving / sparse / edge",
@@ -2000,6 +2195,71 @@
         "Sparsity / Pruning",
         "Video / Image Generation",
         "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "Revisiting Open-Loop Execution in Robotics: Toward Reactive, Higher-Performing Policies",
+      "venue": "",
+      "topic": "llm_serving / kv / physical",
+      "arxiv": "2608.15938",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.15938",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "robot action-chunk/open-loop study with inference-latency implications; useful Physical-AI context but not a serving system",
+      "published_at": "2026-08-16T21:49:07Z",
+      "updated_at": "2026-08-19T16:19:18Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "ViTaR: Visuo-Tactile Residual Adaptation for Foundation VLA Manipulation",
+      "venue": "",
+      "topic": "llm_serving / multimodal / gen / physical / edge",
+      "arxiv": "2608.15816",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.15816",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "VLA residual adaptation with bounded tactile modulation; Physical-AI relevant but mainly algorithmic adaptation rather than serving acceleration",
+      "published_at": "2026-08-16T15:46:11Z",
+      "updated_at": "2026-08-16T15:46:11Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Pricing the Risk of Runtime Compression: Anytime-Valid Admission and a Served-Output Law for Compressed Serving State",
+      "venue": "",
+      "topic": "llm_serving / quant / gen",
+      "arxiv": "2608.15810",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.15810",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "runtime compression risk accounting for serving state; directly related but primarily certification/theory rather than efficiency mechanism",
+      "published_at": "2026-08-16T15:37:44Z",
+      "updated_at": "2026-08-16T15:37:44Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization"
       ]
     },
     {
@@ -5112,6 +5372,26 @@
       ]
     },
     {
+      "title": "Write Once, Run Everywhere: The Axon DSL for Shape-Safe and Framework-Agnostic LLM Architectures",
+      "venue": "",
+      "topic": "GPU kernel / DSL / compiler",
+      "arxiv": "2608.19889",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.19889",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Portable typed LLM architecture DSL compiling to PyTorch/Triton/JAX/MLX/vLLM; 467 inference benchmarks and reported 58% median speedup in native vLLM deployment.",
+      "published_at": "2026-08-20T10:56:34Z",
+      "updated_at": "2026-08-20T10:56:34Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
       "title": "Cacheable by Design? Training Mixture-of-Experts Routers for Locality Against the Edge Memory-Bandwidth Wall: A Pre-Registered Negative Result with a Systems Measurement Study",
       "venue": "",
       "topic": "edge MoE serving / expert caching / memory bandwidth",
@@ -5519,6 +5799,49 @@
       ]
     },
     {
+      "title": "KV-Pipe: On the Relation Between KV Sharing and Pipeline Parallel Efficiency in LLMs",
+      "venue": "",
+      "topic": "KV cache / distributed training-inference",
+      "arxiv": "2608.15943",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.15943",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Stage-aware cross-layer KV sharing used as a pipeline-balancing control knob; reports up to 9.2% higher MFU, 9.8% lower iteration time, plus long-context inference KV benefits.",
+      "published_at": "2026-08-16T22:01:16Z",
+      "updated_at": "2026-08-16T22:01:16Z",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context",
+        "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "Aborted but Not Forgotten: KV-Cache Retention Breaks Rollback Consistency in Language Agents",
+      "venue": "",
+      "topic": "agent serving / KV-cache state consistency",
+      "arxiv": "2608.15939",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.15939",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Identifies rollback-consistency failure from retained KV state across aborted agent branches, reproduces across seven model families and HF/LangGraph, and provides transaction-local cache restoration.",
+      "published_at": "2026-08-16T21:49:38Z",
+      "updated_at": "2026-08-16T21:49:38Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "RoofGS: Roofline-Guided End-to-End Acceleration of 3D Gaussian Splatting",
       "venue": "",
       "topic": "3D Gaussian Splatting / roofline / GPU kernels",
@@ -5623,6 +5946,29 @@
       "directions": [
         "Sparsity / Pruning",
         "Efficient Attention"
+      ]
+    },
+    {
+      "title": "MM-BEV: Enhancing Timeliness by Computing Where and When it Matters",
+      "venue": "",
+      "topic": "Physical AI / edge runtime / sparse multimodal perception",
+      "arxiv": "2608.15437",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.15437",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Real-time multimodal BEV system with criticality-ranked sparse ROI compute, latency-aware coordination and asynchronous scheduling; reports 2.93x end-to-end latency reduction and Jetson AGX Orin validation.",
+      "published_at": "2026-08-15T22:42:47Z",
+      "updated_at": "2026-08-15T22:42:47Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Multimodal / MLLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -5970,6 +6316,115 @@
       ]
     },
     {
+      "title": "EXIMO: VLM Guided Exploration of VLA Policies",
+      "venue": "",
+      "topic": "multimodal / gen / physical",
+      "arxiv": "2608.19891",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.19891",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "sample-efficient VLA finetuning pipeline; Physical-AI relevant but primarily learning algorithm rather than serving/infra",
+      "published_at": "2026-08-20T10:58:45Z",
+      "updated_at": "2026-08-20T10:58:45Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "OrthoSkillVLA: Continual Skill Learning via Gradient-Informed Skill Subspace Adaptation",
+      "venue": "",
+      "topic": "llm_serving / multimodal / physical",
+      "arxiv": "2608.19589",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.19589",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "parameter-efficient continual VLA skill adaptation; Physical-AI relevant but training/adaptation focused",
+      "published_at": "2026-08-20T03:10:31Z",
+      "updated_at": "2026-08-20T03:10:31Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "APEX: A Dual-Sparsity Accelerator for Precise and Efficient SNN Inference",
+      "venue": "",
+      "topic": "llm_serving / quant / sparse / gen / edge",
+      "arxiv": "2608.19046",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.19046",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "dual-sparsity SNN accelerator; efficient edge hardware but outside the main foundation-model systems routes",
+      "published_at": "2026-08-19T15:38:16Z",
+      "updated_at": "2026-08-19T15:38:16Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Sparsity / Pruning",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "MAGMA: Mixture-Model Adaptive Gaussian Model Acceleration",
+      "venue": "",
+      "topic": "gen / edge",
+      "arxiv": "2608.18366",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.18366",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "streaming FPGA Gaussian-mixture accelerator; edge AI systems relevant but peripheral to current foundation-model focus",
+      "published_at": "2026-08-18T22:37:36Z",
+      "updated_at": "2026-08-18T22:37:36Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Inference-Time Attention Steering for Vision-Language-Action Driving Models",
+      "venue": "",
+      "topic": "llm_serving / multimodal / gen / physical",
+      "arxiv": "2608.17095",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.17095",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "inference-time VLA attention steering; runtime intervention relevant to Physical AI but contribution is safety/control behavior rather than efficiency",
+      "published_at": "2026-08-17T20:03:38Z",
+      "updated_at": "2026-08-17T20:03:38Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Attention",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "DB-SpMSpV: Dual-View Blocked Sparse Matrix-Sparse Vector Multiplication for Dynamic GPU Workloads",
       "venue": "",
       "topic": "llm_serving / sparse / edge",
@@ -6013,6 +6468,71 @@
         "Sparsity / Pruning",
         "Video / Image Generation",
         "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "Revisiting Open-Loop Execution in Robotics: Toward Reactive, Higher-Performing Policies",
+      "venue": "",
+      "topic": "llm_serving / kv / physical",
+      "arxiv": "2608.15938",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.15938",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "robot action-chunk/open-loop study with inference-latency implications; useful Physical-AI context but not a serving system",
+      "published_at": "2026-08-16T21:49:07Z",
+      "updated_at": "2026-08-19T16:19:18Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "ViTaR: Visuo-Tactile Residual Adaptation for Foundation VLA Manipulation",
+      "venue": "",
+      "topic": "llm_serving / multimodal / gen / physical / edge",
+      "arxiv": "2608.15816",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.15816",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "VLA residual adaptation with bounded tactile modulation; Physical-AI relevant but mainly algorithmic adaptation rather than serving acceleration",
+      "published_at": "2026-08-16T15:46:11Z",
+      "updated_at": "2026-08-16T15:46:11Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Pricing the Risk of Runtime Compression: Anytime-Valid Admission and a Served-Output Law for Compressed Serving State",
+      "venue": "",
+      "topic": "llm_serving / quant / gen",
+      "arxiv": "2608.15810",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.15810",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "runtime compression risk accounting for serving state; directly related but primarily certification/theory rather than efficiency mechanism",
+      "published_at": "2026-08-16T15:37:44Z",
+      "updated_at": "2026-08-16T15:37:44Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization"
       ]
     },
     {

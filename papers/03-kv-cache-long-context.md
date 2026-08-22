@@ -1,10 +1,10 @@
 # 03 · KV Cache / Long Context
 
-> **179 canonical papers** mapped here, plus a broader **32-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **179 canonical papers** mapped here, plus a broader **34-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 32 tracked
+## 🆕 Latest 30 Days · 34 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -16,6 +16,8 @@
 | **P0 · Strong** | **MoNe: Modular Neural Memory for Efficient Long Context Inference** | Fresh / preprint | long-context inference / neural memory | [Link](https://arxiv.org/abs/2608.17616) | — |
 | **P0 · Strong** | **TileMix: Tile-Centric Mixed-Precision Attention for LLM Inference Acceleration** | Fresh / preprint | mixed-precision attention kernel / long-context inference | [Link](https://arxiv.org/abs/2608.17336) | — |
 | **P0 · Strong** | **Pallas: A Proactive KV Cache Migration Framework for LLM Inference in AI-RAN** | Fresh / preprint | LLM serving / KV cache / edge | [Link](https://arxiv.org/abs/2608.16477) | — |
+| **P1 · Watch** | **KV-Pipe: On the Relation Between KV Sharing and Pipeline Parallel Efficiency in LLMs** | Fresh / preprint | KV cache / distributed training-inference | [Link](https://arxiv.org/abs/2608.15943) | — |
+| **P1 · Watch** | **Aborted but Not Forgotten: KV-Cache Retention Breaks Rollback Consistency in Language Agents** | Fresh / preprint | agent serving / KV-cache state consistency | [Link](https://arxiv.org/abs/2608.15939) | — |
 | **P0 · Strong** | **GraniKV: Asymmetric Granularity KV-Cache Paging for Multi-Agent Systems with Long Shared Prefix** | Fresh / preprint | KV-cache paging / multi-agent serving | [Link](https://arxiv.org/abs/2608.15584) | — |
 | **P0 · Strong** | **EcoVLA: Energy-Efficient Device-Edge Co-Inference for Vision-Language-Action Models under Real-Time Constraints** | Fresh / preprint | VLA device-edge co-inference / energy-aware runtime | [Link](https://arxiv.org/abs/2608.15502) | — |
 | **P0 · Strong** | **From LLM Inference to Agentic Workloads: Characterization and Implications for Serving Systems** | Fresh / preprint | agentic serving characterization / systems benchmark | [Link](https://arxiv.org/abs/2608.15127) | — |

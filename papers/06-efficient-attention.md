@@ -1,10 +1,10 @@
 # 06 · Efficient Attention
 
-> **95 canonical papers** mapped here, plus a broader **34-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **95 canonical papers** mapped here, plus a broader **35-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 34 tracked
+## 🆕 Latest 30 Days · 35 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -15,6 +15,7 @@
 | **P0 · Strong** | **FlashAttention for Scalable Vector Architectures** | Fresh / preprint | efficient attention / CPU vector architecture / llama.cpp | [Link](https://arxiv.org/abs/2608.18656) | — |
 | **P1 · Watch** | **EDITBRIDGE: Towards Faithful and Efficient Ultra-High-Resolution Image Editing** | Fresh / preprint | image editing / diffusion / block-wise sparse attention | [Link](https://arxiv.org/abs/2608.18063) | — |
 | **P0 · Strong** | **TileMix: Tile-Centric Mixed-Precision Attention for LLM Inference Acceleration** | Fresh / preprint | mixed-precision attention kernel / long-context inference | [Link](https://arxiv.org/abs/2608.17336) | — |
+| **P2 · Relevant** | **Inference-Time Attention Steering for Vision-Language-Action Driving Models** | Fresh / preprint | llm_serving / multimodal / gen / physical | [Link](https://arxiv.org/abs/2608.17095) | — |
 | **P1 · Watch** | **KernelArc: A Multi-Agent Framework for GPU Kernel Optimization** | Fresh / preprint | GPU kernel / agentic optimization / H100-B200 | [Link](https://arxiv.org/abs/2608.17071) | — |
 | **P1 · Watch** | **FabriMAE I Trust Myself? Self-Evaluating VLA Action Generation with Markov Attention Entropy** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.16697) | — |
 | **P0 · Strong** | **SQuad: Sub-Quadratic Attention Distillation for Efficient Video Generation** | Fresh / preprint | video generation acceleration / efficient attention | [Link](https://arxiv.org/abs/2608.16585) | — |
