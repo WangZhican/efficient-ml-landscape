@@ -6432,6 +6432,73 @@
     ]
   },
   {
+    "title": "A 28nm Speculative-Decoding LLM Processor Achieving 105-to-685μs/Token Latency for Billion-Parameter Models",
+    "venue": "ISSCC 2026",
+    "topic": "speculative decoding / LLM accelerator / mixed precision",
+    "arxiv": "",
+    "doi": "10.1109/ISSCC49663.2026.11408953",
+    "official_id": "ISSCC26_SD_LLM_Processor",
+    "paper_url": "https://doi.org/10.1109/ISSCC49663.2026.11408953",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Dedicated speculative-decoding LLM processor with exponent dual-reuse MAC, mixed-precision draft/target dataflow and early-start parallel compute; IEEE abstract reports 10.29x speed increase. Direct speculative-decoding hardware contribution.",
+    "directions": [
+      "Speculative Decoding"
+    ]
+  },
+  {
+    "title": "ARIES and REGULUS: A Unified and Scalable Hardware-Software Co-Designed NPU SoC Family for On-Device and On-Premises Multimodal Inference",
+    "venue": "ISSCC 2026",
+    "topic": "NPU / multimodal inference / mixed precision / edge-cloud AI",
+    "arxiv": "",
+    "doi": "10.1109/ISSCC49663.2026.11409083",
+    "official_id": "ISSCC26_ARIES_REGULUS",
+    "paper_url": "https://doi.org/10.1109/ISSCC49663.2026.11409083",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ISSCC silicon NPU family spanning on-device and on-premises multimodal inference, with unified scale-out architecture, mixed-precision quantization and efficient nonlinear-function support. Direct edge/cloud heterogeneous AI-inference hardware contribution.",
+    "directions": [
+      "Quantization",
+      "Multimodal / MLLM Serving",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Revolver: Low-Bit GenAI Accelerator for Distilled-Model and CoT with Phase-Aware-Quantization and Rotation-Based Integer-Scaled Group Quantization",
+    "venue": "ISSCC 2026",
+    "topic": "low-bit GenAI accelerator / reasoning / quantization",
+    "arxiv": "",
+    "doi": "10.1109/ISSCC49663.2026.11409015",
+    "official_id": "ISSCC26_Revolver",
+    "paper_url": "https://doi.org/10.1109/ISSCC49663.2026.11409015",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Low-bit reasoning/GenAI accelerator using phase-aware precision selection, local rotation and integer-scaled group quantization; KAIST reports 3.99x energy savings and 2.10x speedup. Direct quantization+architecture contribution.",
+    "directions": [
+      "Quantization",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "SoulMate: A 9.8mW Mobile Intelligence System-on-Chip with Mixed-Rank Architecture for On-Device LLM Personalization",
+    "venue": "ISSCC 2026",
+    "topic": "on-device LLM / personalization / RAG / fine-tuning accelerator",
+    "arxiv": "",
+    "doi": "10.1109/ISSCC49663.2026.11409048",
+    "official_id": "ISSCC26_SoulMate",
+    "paper_url": "https://doi.org/10.1109/ISSCC49663.2026.11409048",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Fully on-device mobile LLM system supporting both RAG inference and personalization fine-tuning. Silicon measurements include 26.3uJ/token inference and 56.8uJ/token fine-tuning, directly relevant to edge AI systems and efficient adaptation.",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Spyre: An inference-optimized scalable AI accelerator for enterprise workloads",
     "venue": "ISSCC 2026",
     "topic": "AI accelerator / enterprise inference",
@@ -6446,6 +6513,24 @@
     "directions": [
       "GPU Kernel / DSL / Compiler",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Tri-Oracle: A 17.78μJ/Token Vision-Language Model Accelerator with Token-Attention-Weight Redundancy Prediction",
+    "venue": "ISSCC 2026",
+    "topic": "VLM accelerator / token pruning / attention sparsity / weight sparsity",
+    "arxiv": "",
+    "doi": "10.1109/ISSCC49663.2026.11408987",
+    "official_id": "ISSCC26_TriOracle",
+    "paper_url": "https://doi.org/10.1109/ISSCC49663.2026.11408987",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Silicon-proven VLM accelerator jointly exploiting token, attention-head and near-zero weight redundancy; KAIST reports 68% token merging, 44% attention-latency reduction and 45% FFN-latency reduction without fine-tuning. Direct multimodal inference-efficiency architecture.",
+    "directions": [
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "Multimodal / MLLM Serving"
     ]
   },
   {
