@@ -1,6 +1,6 @@
 # 01 · LLM Serving
 
-> **260 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **263 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [Complete Paper List](ALL_PAPERS.md)
 
@@ -143,8 +143,11 @@
 | **SkipKV** | MLSys 2026 | LLM serving + KV + speculative + reasoning efficiency | — | — |
 | **SpecGen** | MLSys 2026 | LLM serving + KV + speculative + reasoning efficiency | — | — |
 | **SuperInfer** | MLSys 2026 | LLM serving + KV + speculative + reasoning efficiency | — | — |
+| **AdaptQNet: Optimizing Quantized DNN on Microcontrollers via Adaptive Heterogeneous Processing Unit Utilization** | MobiCom 2025 | edge AI / MCU inference / quantization / heterogeneous processor scheduling | [Link](https://doi.org/10.1145/3680207.3765247) | — |
+| **Confidant: Customizing Transformer-based LLMs via Collaborative Training on Mobile Devices** | MobiCom 2025 | edge AI / mobile LLM training / pipeline parallelism / heterogeneous scheduling | [Link](https://arxiv.org/abs/2311.13381) | — |
 | **D2MoE: Dual Routing and Dynamic Scheduling for Efficient On-Device MoE-based LLM Serving** | MobiCom 2025 | on-device MoE serving / dynamic scheduling | [Link](https://doi.org/10.1145/3680207.3723493) | — |
 | **Elastic On-Device LLM Service** | MobiCom 2025 | on-device LLM service / elastic model and prompt adaptation | [Link](https://arxiv.org/abs/2409.09071) | — |
+| **UrgenGo: Urgency-Aware Transparent GPU Kernel Launching for Autonomous Driving** | MobiCom 2025 | Physical AI / autonomous driving runtime / GPU scheduling / deadline-aware kernels | [Link](https://arxiv.org/abs/2509.12207) | — |
 | **Activated LoRA: Fine-tuned LLMs for Intrinsics** | NeurIPS 2025 | LoRA serving / KV cache reuse | — | — |
 | **Block-Diagonal LoRA for Eliminating Communication Overhead in Tensor Parallel LoRA Serving** | NeurIPS 2025 | LoRA serving / tensor parallel communication elimination | [Link](https://doi.org/10.52202/085713-0010) | — |
 | **ChunkKV: Semantic-Preserving KV Cache Compression for Efficient Long-Context LLM Inference** | NeurIPS 2025 | KV cache compression / long-context inference | [Link](https://doi.org/10.52202/085713-0966) | [Repo](https://github.com/NVIDIA/kvpress) |

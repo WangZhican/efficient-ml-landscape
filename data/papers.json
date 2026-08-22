@@ -7245,6 +7245,43 @@
     ]
   },
   {
+    "title": "AdaptQNet: Optimizing Quantized DNN on Microcontrollers via Adaptive Heterogeneous Processing Unit Utilization",
+    "venue": "MobiCom 2025",
+    "topic": "edge AI / MCU inference / quantization / heterogeneous processor scheduling",
+    "arxiv": "",
+    "doi": "10.1145/3680207.3765247",
+    "official_id": "MOBICOM25_3765247",
+    "paper_url": "https://doi.org/10.1145/3680207.3765247",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "MCU neural-network system that jointly searches per-layer precision and heterogeneous FPU/ALU/multicore execution to improve accuracy-efficiency under tight memory constraints; directly fills edge/on-device heterogeneous AI systems.",
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Confidant: Customizing Transformer-based LLMs via Collaborative Training on Mobile Devices",
+    "venue": "MobiCom 2025",
+    "topic": "edge AI / mobile LLM training / pipeline parallelism / heterogeneous scheduling",
+    "arxiv": "2311.13381",
+    "doi": "10.1145/3680207.3723487",
+    "official_id": "MOBICOM25_3723487",
+    "paper_url": "https://arxiv.org/abs/2311.13381",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Practical collaborative LLM fine-tuning across commodity mobile devices using memory-aware partitioning, pipeline-parallel training, heterogeneous intra-device scheduling and fault tolerance; the MobiCom paper reports fine-tuning Phi2-2.7B on Alpaca using three consumer mobile devices.",
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference",
+      "Diffusion / Flow Acceleration",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "D2MoE: Dual Routing and Dynamic Scheduling for Efficient On-Device MoE-based LLM Serving",
     "venue": "MobiCom 2025",
     "topic": "on-device MoE serving / dynamic scheduling",
@@ -7313,6 +7350,41 @@
     "directions": [
       "GPU Kernel / DSL / Compiler",
       "Multimodal / MLLM Serving",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "UrgenGo: Urgency-Aware Transparent GPU Kernel Launching for Autonomous Driving",
+    "venue": "MobiCom 2025",
+    "topic": "Physical AI / autonomous driving runtime / GPU scheduling / deadline-aware kernels",
+    "arxiv": "2509.12207",
+    "doi": "10.1145/3680207.3765256",
+    "official_id": "MOBICOM25_3765256",
+    "paper_url": "https://arxiv.org/abs/2509.12207",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Non-intrusive urgency-aware GPU scheduler for autonomous-driving workloads, using transparent kernel-launch manipulation without application source changes; real self-driving-bus evaluation reports a 61% reduction in overall deadline-miss ratio.",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Wireless Hearables With Programmable Speech AI Accelerators",
+    "venue": "MobiCom 2025",
+    "topic": "edge AI / on-device speech inference / accelerator co-design / quantization",
+    "arxiv": "2503.18698",
+    "doi": "10.1145/3680207.3765251",
+    "official_id": "MOBICOM25_3765251",
+    "paper_url": "https://arxiv.org/abs/2503.18698",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "NeuralAids is a fully on-device speech-AI system and hardware/software co-design for battery-constrained hearables, combining a programmable accelerator, low-latency model design and mixed-precision quantization; it processes 6 ms chunks in 5.54 ms at 71.6 mW.",
+    "directions": [
+      "Quantization",
       "Edge / Cloud / Heterogeneous AI"
     ]
   },

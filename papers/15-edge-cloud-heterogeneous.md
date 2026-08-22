@@ -1,6 +1,6 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **151 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **154 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [Complete Paper List](ALL_PAPERS.md)
 
@@ -92,10 +92,13 @@
 | **Efficient, VRAM-Constrained xLM Inference on Clients** | MLSys 2026 | client LLM/VLM inference / CPU-GPU hybrid runtime / Physical AI | — | — |
 | **IntAttention: A Fully Integer Attention Pipeline for Efficient Edge Inference** | MLSys 2026 | edge inference / integer attention | — | — |
 | **ProfInfer: An eBPF-based Fine-Grained LLM Inference Profiler** | MLSys 2026 | LLM inference profiling / edge runtime observability | — | — |
+| **AdaptQNet: Optimizing Quantized DNN on Microcontrollers via Adaptive Heterogeneous Processing Unit Utilization** | MobiCom 2025 | edge AI / MCU inference / quantization / heterogeneous processor scheduling | [Link](https://doi.org/10.1145/3680207.3765247) | — |
+| **Confidant: Customizing Transformer-based LLMs via Collaborative Training on Mobile Devices** | MobiCom 2025 | edge AI / mobile LLM training / pipeline parallelism / heterogeneous scheduling | [Link](https://arxiv.org/abs/2311.13381) | — |
 | **D2MoE: Dual Routing and Dynamic Scheduling for Efficient On-Device MoE-based LLM Serving** | MobiCom 2025 | on-device MoE serving / dynamic scheduling | [Link](https://doi.org/10.1145/3680207.3723493) | — |
 | **Elastic On-Device LLM Service** | MobiCom 2025 | on-device LLM service / elastic model and prompt adaptation | [Link](https://arxiv.org/abs/2409.09071) | — |
 | **LLM-Explorer: Towards Efficient and Affordable LLM-based Exploration for Mobile Apps** | MobiCom 2025 | mobile agent / efficient LLM usage | [Link](https://arxiv.org/abs/2505.10593) | — |
 | **Modality Plug-and-Play: Runtime Modality Adaptation in LLM-Driven Autonomous Mobile Systems** | MobiCom 2025 | Physical AI / multimodal edge runtime / efficient modality adaptation | [Link](https://doi.org/10.1145/3680207.3723491) | [Repo](https://github.com/pittisl/mPnP-LLM) |
+| **Wireless Hearables With Programmable Speech AI Accelerators** | MobiCom 2025 | edge AI / on-device speech inference / accelerator co-design / quantization | [Link](https://arxiv.org/abs/2503.18698) | — |
 | **Knowing When to Stop: Efficient Context Processing via Latent Sufficiency Signals** | NeurIPS 2025 | efficient context processing / adaptive cutoff | [Link](https://doi.org/10.52202/085713-1376) | — |
 | **SpecEdge: Scalable Edge-Assisted Serving Framework for Interactive LLMs** | NeurIPS 2025 | edge-cloud LLM serving / speculative decoding | — | — |
 | **Cortex: Achieving Low-Latency, Cost-Efficient Remote Data Access For LLM via Semantic-Aware Knowledge Caching** | NSDI 2026 | agent systems / semantic knowledge caching | — | — |

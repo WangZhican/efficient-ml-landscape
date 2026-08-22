@@ -1,6 +1,6 @@
 # 📚 Complete Paper List
 
-> **645 quality-gated papers** exported from the validated canonical literature census. PDF binaries are not stored here; links point to primary paper sources whenever resolved.
+> **649 quality-gated papers** exported from the validated canonical literature census. PDF binaries are not stored here; links point to primary paper sources whenever resolved.
 
 [← Research Map](README.md) · [Machine-readable JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -735,6 +735,19 @@
 | **PEACE: Power and Performance Aware Colocation for Efficient GPU Spatial Partitioning** | SoCC 2026 | KV virtualization + long-context serving + GPU colocation + on-device adaptation | [Link](https://doi.org/10.1145/3815789.3827949) | — |
 | **Tessera: Contract-Driven Cost–SLO Optimization for Multi-tenant GPU Clouds** | SoCC 2026 | multi-tenant GPU cloud / cost-SLO optimization / AI infrastructure scheduling | — | — |
 
+## MobiCom 2025 · 8
+
+| Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|
+| **AdaptQNet: Optimizing Quantized DNN on Microcontrollers via Adaptive Heterogeneous Processing Unit Utilization** | MobiCom 2025 | edge AI / MCU inference / quantization / heterogeneous processor scheduling | [Link](https://doi.org/10.1145/3680207.3765247) | — |
+| **Confidant: Customizing Transformer-based LLMs via Collaborative Training on Mobile Devices** | MobiCom 2025 | edge AI / mobile LLM training / pipeline parallelism / heterogeneous scheduling | [Link](https://arxiv.org/abs/2311.13381) | — |
+| **D2MoE: Dual Routing and Dynamic Scheduling for Efficient On-Device MoE-based LLM Serving** | MobiCom 2025 | on-device MoE serving / dynamic scheduling | [Link](https://doi.org/10.1145/3680207.3723493) | — |
+| **Elastic On-Device LLM Service** | MobiCom 2025 | on-device LLM service / elastic model and prompt adaptation | [Link](https://arxiv.org/abs/2409.09071) | — |
+| **LLM-Explorer: Towards Efficient and Affordable LLM-based Exploration for Mobile Apps** | MobiCom 2025 | mobile agent / efficient LLM usage | [Link](https://arxiv.org/abs/2505.10593) | — |
+| **Modality Plug-and-Play: Runtime Modality Adaptation in LLM-Driven Autonomous Mobile Systems** | MobiCom 2025 | Physical AI / multimodal edge runtime / efficient modality adaptation | [Link](https://doi.org/10.1145/3680207.3723491) | [Repo](https://github.com/pittisl/mPnP-LLM) |
+| **UrgenGo: Urgency-Aware Transparent GPU Kernel Launching for Autonomous Driving** | MobiCom 2025 | Physical AI / autonomous driving runtime / GPU scheduling / deadline-aware kernels | [Link](https://arxiv.org/abs/2509.12207) | — |
+| **Wireless Hearables With Programmable Speech AI Accelerators** | MobiCom 2025 | edge AI / on-device speech inference / accelerator co-design / quantization | [Link](https://arxiv.org/abs/2503.18698) | — |
+
 ## VLDB/PVLDB Volume 18 · 8
 
 | Paper | Venue | Topic | Paper | Code |
@@ -850,15 +863,6 @@
 | **Enhancing Learned Knowledge in LoRA Adapters Through Efficient Contrastive Decoding on Ascend NPUs** | KDD 2025 | LLM decoding / LoRA / Ascend NPU kernel optimization | [Link](https://arxiv.org/abs/2505.14620) | — |
 | **Exploiting Student Parallelism for Low-latency GPU Inference of BERT-like Models in Online Services** | KDD 2025 | GPU online inference / BERT serving / student parallelism | [Link](https://arxiv.org/abs/2408.12526) | — |
 | **SEPTQ: A Simple and Effective Post-Training Quantization Paradigm for Large Language Models** | KDD 2025 | LLM post-training quantization / low-bit inference | [Link](https://arxiv.org/abs/2604.10091) | — |
-
-## MobiCom 2025 · 4
-
-| Paper | Venue | Topic | Paper | Code |
-|---|---|---|---|---|
-| **D2MoE: Dual Routing and Dynamic Scheduling for Efficient On-Device MoE-based LLM Serving** | MobiCom 2025 | on-device MoE serving / dynamic scheduling | [Link](https://doi.org/10.1145/3680207.3723493) | — |
-| **Elastic On-Device LLM Service** | MobiCom 2025 | on-device LLM service / elastic model and prompt adaptation | [Link](https://arxiv.org/abs/2409.09071) | — |
-| **LLM-Explorer: Towards Efficient and Affordable LLM-based Exploration for Mobile Apps** | MobiCom 2025 | mobile agent / efficient LLM usage | [Link](https://arxiv.org/abs/2505.10593) | — |
-| **Modality Plug-and-Play: Runtime Modality Adaptation in LLM-Driven Autonomous Mobile Systems** | MobiCom 2025 | Physical AI / multimodal edge runtime / efficient modality adaptation | [Link](https://doi.org/10.1145/3680207.3723491) | [Repo](https://github.com/pittisl/mPnP-LLM) |
 
 ## PLDI 2026 · 2
 

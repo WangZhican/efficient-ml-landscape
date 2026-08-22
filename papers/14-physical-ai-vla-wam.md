@@ -1,6 +1,6 @@
 # 14 · VLA / WAM / Physical AI
 
-> **38 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **39 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [Complete Paper List](ALL_PAPERS.md)
 
@@ -26,6 +26,7 @@
 | **DiTPA: A DiT-based Action Planner Accelerator Exploiting Action-Denoising-Multimodality Redundancy for Embodied Artificial Intelligence** | ISCA 2026 | Physical AI / embodied action planner / DiT accelerator | — | — |
 | **AgenticCache: Cache-Driven Asynchronous Planning for Embodied AI Agents** | MLSys 2026 | Physical AI / embodied-agent planning cache / latency reduction | — | — |
 | **LLM-Explorer: Towards Efficient and Affordable LLM-based Exploration for Mobile Apps** | MobiCom 2025 | mobile agent / efficient LLM usage | [Link](https://arxiv.org/abs/2505.10593) | — |
+| **UrgenGo: Urgency-Aware Transparent GPU Kernel Launching for Autonomous Driving** | MobiCom 2025 | Physical AI / autonomous driving runtime / GPU scheduling / deadline-aware kernels | [Link](https://arxiv.org/abs/2509.12207) | — |
 | **CLIP-RT: Learning Language-Conditioned Robotic Policies from Natural Language Supervision** | RSS 2025 | Physical AI / lightweight VLA / high-throughput robot inference | [Link](https://arxiv.org/abs/2411.00508) | [Repo](https://github.com/clip-rt/clip-rt) |
 | **FAST: Efficient Action Tokenization for Vision-Language-Action Models** | RSS 2025 | Physical AI / VLA action tokenization / efficient training and inference | [Link](https://arxiv.org/abs/2501.09747) | — |
 | **Fine-Tuning Vision-Language-Action Models: Optimizing Speed and Success** | RSS 2025 | Physical AI / VLA efficient fine-tuning / parallel action decoding | [Link](https://arxiv.org/abs/2502.19645) | [Repo](https://github.com/moojink/openvla-oft) |

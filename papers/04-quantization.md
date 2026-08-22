@@ -1,6 +1,6 @@
 # 04 · Quantization
 
-> **84 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **86 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [Complete Paper List](ALL_PAPERS.md)
 
@@ -72,6 +72,8 @@
 | **IntAttention: A Fully Integer Attention Pipeline for Efficient Edge Inference** | MLSys 2026 | edge inference / integer attention | — | — |
 | **Kitty: Accurate and Efficient 2-bit KV Cache Quantization with Dynamic Channel-wise Precision Boost** | MLSys 2026 | KV cache quantization / low-bit inference | — | — |
 | **MorphServe: Efficient and Workload-Aware LLM Serving via Runtime Quantized Layer Swapping and KV Cache Resizing** | MLSys 2026 | LLM serving / dynamic quantization / KV resizing | — | — |
+| **AdaptQNet: Optimizing Quantized DNN on Microcontrollers via Adaptive Heterogeneous Processing Unit Utilization** | MobiCom 2025 | edge AI / MCU inference / quantization / heterogeneous processor scheduling | [Link](https://doi.org/10.1145/3680207.3765247) | — |
+| **Wireless Hearables With Programmable Speech AI Accelerators** | MobiCom 2025 | edge AI / on-device speech inference / accelerator co-design / quantization | [Link](https://arxiv.org/abs/2503.18698) | — |
 | **SageAttention3: Microscaling FP4 Attention for Inference and An Exploration of 8-Bit Training** | NeurIPS 2025 | low-bit attention kernel / FP4 | [Link](https://doi.org/10.52202/085713-1799) | — |
 | **ADAngel: Accelerating Arbitrary-Precision Quantized LLMs with Adaptive Computing Mapping** | OSDI 2026 | arbitrary-precision quantized LLM runtime | — | — |
 | **Accelerating Sparse Transformer Inference on GPU** | PPoPP 2026 | sparse transformer inference + mixed-precision quantization | — | — |
