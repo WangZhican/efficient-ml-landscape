@@ -11,7 +11,11 @@
   ·
   <a href="papers/README.md">研究地图</a>
   ·
-  <a href="papers/ALL_PAPERS.md">论文总表</a>
+  <a href="papers/LATEST_30D.md"><b>最近 30 天</b></a>
+  ·
+  <a href="papers/CLASSICAL.md">经典论文</a>
+  ·
+  <a href="papers/ALL_PAPERS.md">论文库</a>
   ·
   <a href="groups/README.md">研究团队</a>
   ·
@@ -19,8 +23,8 @@
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/Papers-559-7c3aed?style=for-the-badge" alt="559 papers" />
-  <img src="https://img.shields.io/badge/Primary%20Links-506-059669?style=for-the-badge" alt="506 primary links" />
+  <img src="https://img.shields.io/badge/Papers-659-7c3aed?style=for-the-badge" alt="659 papers" />
+  <img src="https://img.shields.io/badge/Primary%20Links-606-059669?style=for-the-badge" alt="606 primary links" />
   <img src="https://img.shields.io/badge/Research%20Tracks-15-2563eb?style=for-the-badge" alt="15 research tracks" />
   <img src="https://img.shields.io/badge/Physical%20AI-Protected-f59e0b?style=for-the-badge" alt="Physical AI protected" />
 </p>
@@ -33,7 +37,11 @@
 
 **重要论文 · 技术路线 · 研究团队 · 系统 Venue · 官方代码 · Coverage Audit，一站式整理。**
 
-### [📚 直接浏览 559 篇论文总表 →](papers/ALL_PAPERS.md)
+### [🆕 追踪最近 30 天最新论文 →](papers/LATEST_30D.md)
+
+### [🏛️ 浏览经典 / 历史论文库 →](papers/CLASSICAL.md)
+
+### [📚 打开完整论文库 →](papers/ALL_PAPERS.md)
 
 ### [🧭 按 15 个研究方向浏览 →](papers/README.md)
 
@@ -45,14 +53,17 @@
 
 | 指标 | 当前公开版本 |
 |---|---:|
-| **质量门控后的唯一论文** | **559** |
-| **已有可信一手论文链接** | **506** |
-| **最新 Strong 论文** | **38** |
+| **质量门控后的唯一论文** | **659** |
+| **最近 30 天质量门控论文** | **43** |
+| **最近 30 天 Watchlist** | **24** |
+| **经典 / 历史论文** | **616** |
+| **已有可信一手论文链接** | **606** |
+| **最新 Strong 论文** | **42** |
 | **研究方向** | **15** |
 | **已出现的 Venue/Source 标签** | **46** |
 
 > [!IMPORTANT]
-> **Paper list 是这个仓库的核心。** 当前内部 canonical census 中已经验证的论文底库已经完整导出到公开仓库。下一层是在这 559 篇基础上继续补官方 repo、开源状态、GitHub stars、must-read 等级和技术路线关系，而不是再保留一个空壳主页。
+> **Paper list 是这个仓库的核心。** 公开视图现在明确拆成 **滚动最近 30 天** 和 **经典 / 历史 canonical census** 两部分：前者用于追踪新工作与 Watchlist，后者用于长期路线梳理。两者来自同一个经过验证的内部论文底库。
 
 ---
 

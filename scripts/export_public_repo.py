@@ -4,6 +4,7 @@ import csv
 import json
 import re
 from collections import Counter, defaultdict
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -86,11 +87,107 @@ def markdown_table(records):
     return "\n".join(out)
 
 
+def parse_iso(s):
+    if not s:
+        return None
+    try:
+        return datetime.fromisoformat(str(s).replace("Z", "+00:00"))
+    except ValueError:
+        return None
+
+
+def load_recent_arxiv_index(source):
+    scan = source.parent / "ARXIV_30D_SCAN.json"
+    if not scan.exists():
+        return {}
+    try:
+        d = json.loads(scan.read_text())
+    except (OSError, json.JSONDecodeError):
+        return {}
+    return {r.get("arxiv", ""): r for r in d.get("candidates", []) if r.get("arxiv")}
+
+
+def is_latest_30d(raw_record, recent_arxiv, source_date):
+    if raw_record.get("formal_class") == "STRONG_CURRENT":
+        return True
+    arxiv = (raw_record.get("arxiv") or "").strip()
+    meta = recent_arxiv.get(arxiv, {})
+    published = parse_iso(meta.get("published"))
+    if published:
+        cutoff = datetime.combine(source_date, datetime.min.time(), tzinfo=timezone(timedelta(hours=8))) - timedelta(days=30)
+        return published.astimezone(cutoff.tzinfo) >= cutoff
+    if source_date.year == 2026 and source_date.month == 8 and arxiv.startswith("2608."):
+        return True
+    return False
+
+
+def public_watch_record(r):
+    x = {
+        "title": r.get("title", ""),
+        "venue": r.get("venue", ""),
+        "topic": r.get("topic", ""),
+        "arxiv": r.get("arxiv", ""),
+        "doi": r.get("doi", ""),
+        "official_id": r.get("official_id", ""),
+        "paper_url": link_for(r),
+        "code_url": code_for(r),
+        "formal_class": "WATCH",
+        "decision": "WATCH",
+        "why": r.get("why", r.get("reason", "")),
+        "published_at": "",
+        "updated_at": "",
+        "is_latest_30d": True,
+    }
+    x["directions"] = [name for _, name in classify(r)]
+    return x
+
+
+def write_csv(path, records):
+    fields = ["title", "venue", "topic", "arxiv", "doi", "paper_url", "code_url", "formal_class", "decision", "published_at", "directions"]
+    with path.open("w", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=fields, lineterminator="\n")
+        w.writeheader()
+        for r in records:
+            row = {k: r.get(k, "") for k in fields}
+            row["directions"] = "; ".join(r.get("directions", []))
+            w.writerow(row)
+
+
+def refresh_landing_counts(path, stats):
+    if not path.exists():
+        return
+    text = path.read_text()
+    text = re.sub(r"(badge/Papers-)\d+(-7c3aed)", rf"\g<1>{stats['unique_papers']}\2", text)
+    text = re.sub(r'alt="\d+ papers"', f'alt="{stats["unique_papers"]} papers"', text)
+    text = re.sub(r"(badge/Primary%20Links-)\d+(-059669)", rf"\g<1>{stats['papers_with_primary_link']}\2", text)
+    text = re.sub(r'alt="\d+ primary links"', f'alt="{stats["papers_with_primary_link"]} primary links"', text)
+    labels = {
+        "Quality-gated unique papers": stats["unique_papers"],
+        "Latest 30-day quality-gated papers": stats["latest_30d_quality_gated"],
+        "Latest watchlist": stats["latest_30d_watchlist"],
+        "Classical / historical papers": stats["classical_papers"],
+        "Papers with resolved primary-source links": stats["papers_with_primary_link"],
+        "Latest strong papers": stats["latest_strong"],
+        "质量门控后的唯一论文": stats["unique_papers"],
+        "最近 30 天质量门控论文": stats["latest_30d_quality_gated"],
+        "最近 30 天 Watchlist": stats["latest_30d_watchlist"],
+        "经典 / 历史论文": stats["classical_papers"],
+        "已有可信一手论文链接": stats["papers_with_primary_link"],
+        "最新 Strong 论文": stats["latest_strong"],
+    }
+    for label, value in labels.items():
+        pattern = rf"(\| \*\*{re.escape(label)}\*\* \| \*\*)\d+(\*\* \|)"
+        text = re.sub(pattern, rf"\g<1>{value}\2", text)
+    path.write_text(text)
+
+
 def main():
     parser = argparse.ArgumentParser(description="Export a public-safe Efficient ML paper index from a validated JSON source.")
     parser.add_argument("--source", required=True, type=Path, help="Path to the validated source JSON.")
     args = parser.parse_args()
     d = json.loads(args.source.read_text())
+    source_date = datetime.fromisoformat(d.get("date_beijing") or args.source.parent.parent.name).date()
+    recent_arxiv = load_recent_arxiv_index(args.source)
     raw = d.get("formal_high_value_records", [])
     seen = set()
     records = []
@@ -112,47 +209,101 @@ def main():
             "decision": r.get("decision", r.get("priority", "")),
             "why": r.get("why", r.get("reason", "")),
         }
+        meta = recent_arxiv.get((r.get("arxiv") or "").strip(), {})
+        x["published_at"] = meta.get("published", "")
+        x["updated_at"] = meta.get("updated", "")
+        x["is_latest_30d"] = is_latest_30d(r, recent_arxiv, source_date)
         x["directions"] = [name for _, name in classify(r)]
         records.append(x)
 
     records.sort(key=lambda r: ((r.get("venue") or "zzz").lower(), r["title"].lower()))
+    latest30 = sorted(
+        [r for r in records if r.get("is_latest_30d")],
+        key=lambda r: (r.get("published_at") or "", r["title"].lower()),
+        reverse=True,
+    )
+    classical = [r for r in records if not r.get("is_latest_30d")]
+    watch = []
+    watch_seen = set()
+    for r in d.get("watchlist", []):
+        key = (r.get("arxiv") or "").strip() or (r.get("doi") or "").strip().lower() or norm_title(r.get("title"))
+        if not key or key in watch_seen:
+            continue
+        watch_seen.add(key)
+        watch.append(public_watch_record(r))
+
     (ROOT / "data").mkdir(exist_ok=True)
     (ROOT / "papers").mkdir(exist_ok=True)
 
     (ROOT / "data" / "papers.json").write_text(json.dumps(records, ensure_ascii=False, indent=2) + "\n")
-    with (ROOT / "data" / "papers.csv").open("w", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=["title", "venue", "topic", "arxiv", "doi", "paper_url", "code_url", "formal_class", "decision", "directions"])
-        w.writeheader()
-        for r in records:
-            row = {k: r.get(k, "") for k in w.fieldnames}
-            row["directions"] = "; ".join(r["directions"])
-            w.writerow(row)
+    write_csv(ROOT / "data" / "papers.csv", records)
+    write_csv(ROOT / "data" / "latest_30d.csv", latest30)
+    write_csv(ROOT / "data" / "classical.csv", classical)
+    (ROOT / "data" / "latest_30d.json").write_text(json.dumps({
+        "window_end_beijing": str(source_date),
+        "window_start_beijing": str(source_date - timedelta(days=30)),
+        "quality_gated_papers": latest30,
+        "watchlist": watch,
+    }, ensure_ascii=False, indent=2) + "\n")
+    (ROOT / "data" / "classical.json").write_text(json.dumps(classical, ensure_ascii=False, indent=2) + "\n")
 
     venue_groups = defaultdict(list)
-    for r in records:
+    for r in classical:
         venue_groups[r.get("venue") or "Fresh / Preprint"].append(r)
     all_md = [
-        "# 📚 Complete Paper List",
+        "# 📚 Paper Library",
         "",
-        f"> **{len(records)} quality-gated papers** exported from the validated canonical literature census. PDF binaries are not stored here; links point to primary paper sources whenever resolved.",
+        f"> **{len(records)} quality-gated papers** are split into **{len(latest30)} Latest-30-Day papers** and **{len(classical)} Classical / Historical papers** so fresh work is never buried by the long-term census.",
         "",
-        "[← Research Map](README.md) · [Machine-readable JSON](../data/papers.json) · [CSV](../data/papers.csv)",
+        "[← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)",
+        "",
+        f"## 🆕 Latest 30 Days · {len(latest30)} quality-gated",
+        "",
+        markdown_table(latest30),
+        "",
+        f"## 🧭 Current Watchlist · {len(watch)}",
+        "",
+        "> Promising recent papers retained for follow-up; these are **not** counted in the quality-gated paper total until promoted.",
+        "",
+        markdown_table(watch),
+        "",
+        f"## 🏛️ Classical / Historical · {len(classical)}",
         "",
     ]
     for venue, rs in sorted(venue_groups.items(), key=lambda kv: (-len(kv[1]), kv[0].lower())):
-        all_md += [f"## {venue} · {len(rs)}", "", markdown_table(rs), ""]
+        all_md += [f"### {venue} · {len(rs)}", "", markdown_table(rs), ""]
     (ROOT / "papers" / "ALL_PAPERS.md").write_text("\n".join(all_md))
 
-    latest = [r for r in records if r.get("formal_class") == "STRONG_CURRENT"]
     latest_md = [
-        "# 🆕 Latest Strong Papers",
+        "# 🆕 Latest 30 Days",
         "",
-        f"> **{len(latest)} currently retained strong papers** from the latest discovery stream.",
+        f"> Rolling 30-day view ending **{source_date}**: **{len(latest30)} quality-gated papers** + **{len(watch)} watchlist papers**. This page is intentionally separate from the classical census.",
         "",
-        markdown_table(latest),
+        "[← Paper Library](ALL_PAPERS.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/latest_30d.json) · [CSV](../data/latest_30d.csv)",
+        "",
+        "## Strong / Canonical recent papers",
+        "",
+        markdown_table(latest30),
+        "",
+        "## Watchlist",
+        "",
+        markdown_table(watch),
         "",
     ]
+    (ROOT / "papers" / "LATEST_30D.md").write_text("\n".join(latest_md))
     (ROOT / "papers" / "LATEST.md").write_text("\n".join(latest_md))
+
+    classical_md = [
+        "# 🏛️ Classical / Historical Efficient ML",
+        "",
+        f"> **{len(classical)} quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.",
+        "",
+        "[← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)",
+        "",
+    ]
+    for venue, rs in sorted(venue_groups.items(), key=lambda kv: (-len(kv[1]), kv[0].lower())):
+        classical_md += [f"## {venue} · {len(rs)}", "", markdown_table(rs), ""]
+    (ROOT / "papers" / "CLASSICAL.md").write_text("\n".join(classical_md))
 
     bydir = defaultdict(list)
     for r in records:
@@ -165,14 +316,22 @@ def main():
     nav_rows = []
     for idx, (slug, name, _) in enumerate(DIRECTIONS, 1):
         rs = sorted(bydir[slug], key=lambda r: ((r.get("venue") or "zzz").lower(), r["title"].lower()))
+        rs_latest = [r for r in rs if r.get("is_latest_30d")]
+        rs_classical = [r for r in rs if not r.get("is_latest_30d")]
         md = [
             f"# {idx:02d} · {name}",
             "",
-            f"> **{len(rs)} papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.",
+            f"> **{len(rs)} papers** mapped here: **{len(rs_latest)} Latest 30 Days** + **{len(rs_classical)} Classical / Historical**. Cross-direction duplication is intentional when a paper has multiple technical roles.",
             "",
-            "[← Research Map](README.md) · [Complete Paper List](ALL_PAPERS.md)",
+            "[← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)",
             "",
-            markdown_table(rs),
+            f"## 🆕 Latest 30 Days · {len(rs_latest)}",
+            "",
+            markdown_table(rs_latest),
+            "",
+            f"## 🏛️ Classical / Historical · {len(rs_classical)}",
+            "",
+            markdown_table(rs_classical),
             "",
         ]
         (ROOT / "papers" / f"{slug}.md").write_text("\n".join(md))
@@ -185,7 +344,7 @@ def main():
         "",
         "<div align=\"center\">",
         "",
-        "[**📚 Browse all papers**](ALL_PAPERS.md) · [**🆕 Latest strong papers**](LATEST.md) · [**🧩 JSON**](../data/papers.json) · [**📊 CSV**](../data/papers.csv)",
+        f"[**🆕 Latest 30 Days · {len(latest30)}**](LATEST_30D.md) · [**🏛️ Classical · {len(classical)}**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)",
         "",
         "</div>",
         "",
@@ -214,7 +373,10 @@ def main():
 
     stats = {
         "unique_papers": len(records),
-        "latest_strong": len(latest),
+        "latest_30d_quality_gated": len(latest30),
+        "latest_30d_watchlist": len(watch),
+        "classical_papers": len(classical),
+        "latest_strong": sum(r.get("formal_class") == "STRONG_CURRENT" for r in latest30),
         "papers_with_primary_link": sum(bool(r["paper_url"]) for r in records),
         "papers_with_verified_code_link": sum(bool(r["code_url"]) for r in records),
         "venues": len(set(r.get("venue") or "Fresh / Preprint" for r in records)),
@@ -223,6 +385,8 @@ def main():
         "updated_at_beijing": d.get("updated_at_beijing", ""),
     }
     (ROOT / "data" / "stats.json").write_text(json.dumps(stats, ensure_ascii=False, indent=2) + "\n")
+    refresh_landing_counts(ROOT / "README.md", stats)
+    refresh_landing_counts(ROOT / "README.zh-CN.md", stats)
     print(json.dumps(stats, ensure_ascii=False, indent=2))
 
 if __name__ == "__main__":

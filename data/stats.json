@@ -1,5 +1,8 @@
 {
   "unique_papers": 659,
+  "latest_30d_quality_gated": 43,
+  "latest_30d_watchlist": 24,
+  "classical_papers": 616,
   "latest_strong": 42,
   "papers_with_primary_link": 606,
   "papers_with_verified_code_link": 76,

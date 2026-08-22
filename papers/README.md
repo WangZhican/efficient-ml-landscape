@@ -4,7 +4,7 @@
 
 <div align="center">
 
-[**📚 Browse all papers**](ALL_PAPERS.md) · [**🆕 Latest strong papers**](LATEST.md) · [**🧩 JSON**](../data/papers.json) · [**📊 CSV**](../data/papers.csv)
+[**🆕 Latest 30 Days · 43**](LATEST_30D.md) · [**🏛️ Classical · 616**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
 
 </div>
 
