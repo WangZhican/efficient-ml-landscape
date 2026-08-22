@@ -5222,6 +5222,25 @@
     ]
   },
   {
+    "title": "ParisKV: Fast and Drift-Robust KV-Cache Retrieval for Long-Context LLMs",
+    "venue": "ICML 2026",
+    "topic": "KV cache / long-context inference / GPU retrieval / CPU offload",
+    "arxiv": "2602.07721",
+    "doi": "",
+    "official_id": "ICML2026_60751",
+    "paper_url": "https://arxiv.org/abs/2602.07721",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "GPU-native drift-robust KV-cache retrieval with collision-based candidate selection, 4-bit reranking and UVA CPU offload; reports up to 2.8x higher throughput in the full-attention runnable range and 17x/44x lower decode latency than MagicPIG/PQCache at million-token scale. Official ICML 2026 poster/slides and arXiv identity verified.",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "PuzzleMoE: Efficient Compression of Large Mixture-of-Experts Models via Sparse Expert Merging and Bit-packed inference",
     "venue": "ICML 2026",
     "topic": "MoE compression / sparse expert merging / bit-packed inference",
@@ -9811,6 +9830,40 @@
       "LLM Serving",
       "KV Cache / Long Context",
       "MoE Systems / Accelerators",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "FedBridge: Accelerating Edge-Assisted Federated Learning for Model-Heterogeneous Clients",
+    "venue": "The Web Conference 2026",
+    "topic": "edge/cloud heterogeneous AI systems / federated training",
+    "arxiv": "",
+    "doi": "10.1145/3774904.3792084",
+    "official_id": "WWW26_rfp0137",
+    "paper_url": "https://doi.org/10.1145/3774904.3792084",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Edge-assisted federated learning system for model-heterogeneous clients using a two-tier knowledge-sharing architecture; directly relevant to edge/cloud heterogeneous AI systems and communication-efficient distributed training. Official WebConf 2026 research-track identity and ACM DOI verified.",
+    "directions": [
+      "Distributed Training / Inference",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "FedSRD: Sparsify-Reconstruct-Decompose for Communication-Efficient Federated Large Language Models Fine-Tuning",
+    "venue": "The Web Conference 2026",
+    "topic": "distributed LLM fine-tuning / communication efficiency / federated learning",
+    "arxiv": "2510.04601",
+    "doi": "10.1145/3774904.3792144",
+    "official_id": "WWW26_rfp0595",
+    "paper_url": "https://arxiv.org/abs/2510.04601",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Communication-efficient federated LLM fine-tuning using sparsify-reconstruct-decompose; reports up to 90% communication-cost reduction across heterogeneous clients. Official WebConf 2026 identity plus first-party arXiv source verified.",
+    "directions": [
+      "Distributed Training / Inference",
       "Edge / Cloud / Heterogeneous AI"
     ]
   },

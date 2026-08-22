@@ -1,6 +1,6 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **149 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **151 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [Complete Paper List](ALL_PAPERS.md)
 
@@ -128,6 +128,8 @@
 | **EcoTune: Edge-Cloud Collaborative Model Adaptation for Budget-Constrained On-Device SLM Personalization** | The Web Conference 2026 | edge-cloud collaborative LLM adaptation / on-device SLM personalization / resource-efficient fine-tuning | — | — |
 | **Energy-Efficient and Dequantization-Free Quantization of LLMs: A Spiking Neural Network Approach to Salient Value Mitigation** | The Web Conference 2026 | LLM quantization / edge energy efficiency / SNN | [Link](https://arxiv.org/abs/2510.19498) | — |
 | **Fate: Fast Edge Inference of Mixture-of-Experts Models via Cross-Layer Gate** | The Web Conference 2026 | edge MoE inference / expert prefetch | [Link](https://arxiv.org/abs/2502.12224) | — |
+| **FedBridge: Accelerating Edge-Assisted Federated Learning for Model-Heterogeneous Clients** | The Web Conference 2026 | edge/cloud heterogeneous AI systems / federated training | [Link](https://doi.org/10.1145/3774904.3792084) | — |
+| **FedSRD: Sparsify-Reconstruct-Decompose for Communication-Efficient Federated Large Language Models Fine-Tuning** | The Web Conference 2026 | distributed LLM fine-tuning / communication efficiency / federated learning | [Link](https://arxiv.org/abs/2510.04601) | — |
 | **HeteroSim: Towards High-Fidelity Heterogeneous LLM Training Simulation on GPUs** | The Web Conference 2026 | heterogeneous LLM training / systems simulation | [Link](https://doi.org/10.1145/3774904.3792254) | — |
 | **LaTune: Lightweight and Adaptive Configuration Tuning for LLM Inference on Edge Devices** | The Web Conference 2026 | edge LLM runtime tuning | [Link](https://doi.org/10.1145/3774904.3792382) | — |
 | **MASI: Memory-Adaptive Inference Framework for Spiking Neural Networks on Edge Devices** | The Web Conference 2026 | edge AI inference / memory-adaptive runtime / SNN | [Link](https://doi.org/10.1145/3774904.3792136) | — |
