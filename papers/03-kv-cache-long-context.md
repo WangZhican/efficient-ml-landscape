@@ -148,7 +148,7 @@
 | **Canonical** | **Token Sparse Attention: Efficient Long-Context Inference with Interleaved Token Selection** | ICML 2026 | sparse attention / long-context inference | [Link](https://arxiv.org/abs/2602.03216) | — |
 | **Canonical** | **RotateKV: Accurate and Robust 2-Bit KV Cache Quantization for LLMs via Outlier-Aware Adaptive Rotations** | IJCAI 2025 | KV-cache quantization / low-bit inference | [Link](https://arxiv.org/abs/2501.16383) | — |
 | **Canonical** | **TreeKV: Smooth Key-Value Cache Compression with Tree Structures** | IJCAI 2025 | KV cache compression / long-context inference | [Link](https://arxiv.org/abs/2501.04987) | — |
-| **Canonical** | **CHIME: A Case for Efficient Long-Context Attention-FC Disaggregated Inference with DIMM-PIM** | ISCA 2026 | long-context LLM / disaggregated inference / PIM | — | — |
+| **Canonical** | **CHIME: A Case for Efficient Long-Context Attention-FC Disaggregated Inference with DIMM-PIM** | ISCA 2026 | long-context LLM / disaggregated inference / PIM | [Link](https://arxiv.org/abs/2504.17584) | — |
 | **Canonical** | **Combating the Memory Walls: Optimization Pathways for Long-Context Agentic LLM Inference** | ISCA 2026 | long-context agentic LLM / accelerator / memory wall | [Link](https://arxiv.org/abs/2509.09505) | — |
 | **Canonical** | **Omni-LUT: Energy-Efficient LUT-based Accelerator with Hardware-Aware KV Cache Quantization** | ISCA 2026 | LLM inference accelerator / LUT / KV-cache quantization | — | — |
 | **Canonical** | **Tetris: Efficient Long-context LLM Serving with Chunkwise Dynamic Sequence Parallelism** | ISCA 2026 | long-context LLM serving / sequence parallelism | — | — |

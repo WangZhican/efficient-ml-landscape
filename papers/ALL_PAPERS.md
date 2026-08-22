@@ -228,7 +228,7 @@
 | **Canonical** | **AQuant: Repurposing CODEC for VLM Acceleration via Adaptive Quantization** | ISCA 2026 | VLM acceleration / adaptive quantization / hardware co-design | — | — |
 | **Canonical** | **Bridging Efficiency and Scalability in LLM System via 3D Hybrid PIM with 2D In-Transit Computation** | ISCA 2026 | LLM inference accelerator / hybrid PIM / in-transit computation | — | — |
 | **Canonical** | **Cassandra: Enabling Reasoning LLMs at Edge via Self-Speculative Decoding** | ISCA 2026 | edge speculative reasoning + quantization + memory-system + generative inference accelerators | [Link](https://arxiv.org/abs/2605.26558) | — |
-| **Canonical** | **CHIME: A Case for Efficient Long-Context Attention-FC Disaggregated Inference with DIMM-PIM** | ISCA 2026 | long-context LLM / disaggregated inference / PIM | — | — |
+| **Canonical** | **CHIME: A Case for Efficient Long-Context Attention-FC Disaggregated Inference with DIMM-PIM** | ISCA 2026 | long-context LLM / disaggregated inference / PIM | [Link](https://arxiv.org/abs/2504.17584) | — |
 | **Canonical** | **Combating the Memory Walls: Optimization Pathways for Long-Context Agentic LLM Inference** | ISCA 2026 | long-context agentic LLM / accelerator / memory wall | [Link](https://arxiv.org/abs/2509.09505) | — |
 | **Canonical** | **ConServe: Contiguity-Preserving Memory Management for Multi-Turn LLM Serving** | ISCA 2026 | LLM serving / multi-turn / memory management | — | — |
 | **Canonical** | **DIAMoND: Dynamic Inference for Adaptive Edge MoE with Heterogeneous In-NAND and Near-DRAM Compute Architecture** | ISCA 2026 | edge MoE / heterogeneous memory / adaptive inference | — | — |

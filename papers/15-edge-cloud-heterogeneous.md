@@ -137,7 +137,7 @@
 | **Canonical** | **LightPlanner: Unleashing the Reasoning Capabilities of Lightweight Large Language Models in Task Planning** | IROS 2025 | edge-efficient embodied task planning / lightweight LLM / long-horizon memory | [Link](https://arxiv.org/abs/2503.08508) | [Repo](https://github.com/jetteezhou/LightPlanner) |
 | **Canonical** | **Bridging Efficiency and Scalability in LLM System via 3D Hybrid PIM with 2D In-Transit Computation** | ISCA 2026 | LLM inference accelerator / hybrid PIM / in-transit computation | — | — |
 | **Canonical** | **Cassandra: Enabling Reasoning LLMs at Edge via Self-Speculative Decoding** | ISCA 2026 | edge speculative reasoning + quantization + memory-system + generative inference accelerators | [Link](https://arxiv.org/abs/2605.26558) | — |
-| **Canonical** | **CHIME: A Case for Efficient Long-Context Attention-FC Disaggregated Inference with DIMM-PIM** | ISCA 2026 | long-context LLM / disaggregated inference / PIM | — | — |
+| **Canonical** | **CHIME: A Case for Efficient Long-Context Attention-FC Disaggregated Inference with DIMM-PIM** | ISCA 2026 | long-context LLM / disaggregated inference / PIM | [Link](https://arxiv.org/abs/2504.17584) | — |
 | **Canonical** | **DIAMoND: Dynamic Inference for Adaptive Edge MoE with Heterogeneous In-NAND and Near-DRAM Compute Architecture** | ISCA 2026 | edge MoE / heterogeneous memory / adaptive inference | — | — |
 | **Canonical** | **DynoPipe: Heterogeneous Edge-Cloud LLM Serving with Dynamically Orchestrated Pipeline Boundaries** | ISCA 2026 | edge-cloud LLM serving / heterogeneous pipeline | — | — |
 | **Canonical** | **Early Silicon of Raptor: The First 3D-DRAM Accelerator for Generative Inference** | ISCA 2026 | generative inference accelerator / 3D DRAM | — | — |
