@@ -4581,6 +4581,23 @@
     ]
   },
   {
+    "title": "Accelerating LLM Inference with Lossless Speculative Decoding Algorithms for Heterogeneous Vocabularies",
+    "venue": "ICML 2025",
+    "topic": "speculative decoding",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "PMLR267_timor25a",
+    "paper_url": "https://proceedings.mlr.press/v267/timor25a.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Lossless speculative decoding that removes the shared-vocabulary constraint between drafter and target models, broadening usable off-the-shelf drafters.",
+    "directions": [
+      "Speculative Decoding",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "AsymRnR: Video Diffusion Transformers Acceleration with Asymmetric Reduction and Restoration",
     "venue": "ICML 2025",
     "topic": "video diffusion transformer token reduction / training-free acceleration",
@@ -4869,6 +4886,26 @@
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context"
+    ]
+  },
+  {
+    "title": "Sparse Video-Gen: Accelerating Video Diffusion Transformers with Spatial-Temporal Sparsity",
+    "venue": "ICML 2025",
+    "topic": "video/image generation acceleration / efficient attention",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "PMLR267_xi25c",
+    "paper_url": "https://proceedings.mlr.press/v267/xi25c.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Training-free spatial-temporal sparse attention for video diffusion transformers; direct video-generation inference acceleration.",
+    "directions": [
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler",
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
