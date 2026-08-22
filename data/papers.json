@@ -9199,6 +9199,24 @@
     ]
   },
   {
+    "title": "KVDrive: A Holistic Multi-Tier KV Cache Management System for Long-Context LLM Inference",
+    "venue": "SIGMOD 2026",
+    "topic": "KV cache / long-context LLM serving / multi-tier memory offload",
+    "arxiv": "2605.18071",
+    "doi": "10.1145/3802077",
+    "official_id": "SIGMOD2026_KVDrive",
+    "paper_url": "https://arxiv.org/abs/2605.18071",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "SIGMOD 2026 systems paper jointly orchestrating KV-cache placement, pipeline scheduling, and GPU/host-DRAM/SSD coordination for long-context LLM inference; primary paper reports up to 1.74x higher throughput while preserving accuracy.",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "Serving Hybrid LLM Loads with SLO Guarantees Using CPU-GPU Attention Piggybacking",
     "venue": "SIGMOD 2026",
     "topic": "LLM serving / heterogeneous CPU-GPU / SLO scheduling",
