@@ -1501,6 +1501,24 @@
     ]
   },
   {
+    "title": "Adaptive Computation Pruning for the Forgetting Transformer",
+    "venue": "COLM 2025",
+    "topic": "efficient attention / sparsity / training efficiency",
+    "arxiv": "2504.06949",
+    "doi": "",
+    "official_id": "COLM25_xNj14CY5S1",
+    "paper_url": "https://arxiv.org/abs/2504.06949",
+    "code_url": "https://github.com/zhixuan-lin/forgetting-transformer",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "COLM 2025 efficient-transformer paper; adaptively prunes strongly forgotten attention dependencies, cutting roughly 70% attention FLOPs and improving end-to-end training throughput without quality loss.",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Efficient Attention"
+    ]
+  },
+  {
     "title": "CITER: Collaborative Inference for Efficient Large Language Model Decoding with Token-Level Routing",
     "venue": "COLM 2025",
     "topic": "collaborative inference / token-level routing / efficient decoding",
@@ -1550,6 +1568,22 @@
       "KV Cache / Long Context",
       "Efficient Attention",
       "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "Hawkeye: Model Collaboration for Efficient Reasoning",
+    "venue": "COLM 2025",
+    "topic": "efficient reasoning / model collaboration",
+    "arxiv": "2504.00424",
+    "doi": "",
+    "official_id": "COLM25_bdCWK4NkK7",
+    "paper_url": "https://arxiv.org/abs/2504.00424",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "COLM 2025 efficient reasoning framework where a large model emits concise reasoning instructions for a smaller model, reducing redundant chain-of-thought token generation and inference cost.",
+    "directions": [
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -1675,6 +1709,42 @@
     ]
   },
   {
+    "title": "SlowFast-LLaVA-1.5: A Family of Token-Efficient Video Large Language Models for Long-Form Video Understanding",
+    "venue": "COLM 2025",
+    "topic": "multimodal / Video-LLM efficiency / edge",
+    "arxiv": "2503.18943",
+    "doi": "",
+    "official_id": "COLM25_L7jS3peM3w",
+    "paper_url": "https://arxiv.org/abs/2503.18943",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "COLM 2025 token-efficient Video-LLM family using a SlowFast two-stream design and compact 1B/3B scales for long-form video understanding and mobile-friendly deployment.",
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "SmolVLM: Redefining small and efficient multimodal models",
+    "venue": "COLM 2025",
+    "topic": "multimodal / compact VLM / edge inference",
+    "arxiv": "2504.05299",
+    "doi": "",
+    "official_id": "COLM25_qMUbhGUFUb",
+    "paper_url": "https://arxiv.org/abs/2504.05299",
+    "code_url": "https://github.com/huggingface/smollm",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "COLM 2025 compact multimodal-model work explicitly engineered for resource-efficient inference; the 256M model uses under 1GB GPU memory and the family targets practical image/video deployment.",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Multimodal / MLLM Serving",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "SQuat: Subspace-orthogonal KV Cache Quantization",
     "venue": "COLM 2025",
     "topic": "KV cache quantization",
@@ -1689,6 +1759,24 @@
     "directions": [
       "KV Cache / Long Context",
       "Quantization"
+    ]
+  },
+  {
+    "title": "Task-Circuit Quantization: Leveraging Knowledge Localization and Interpretability for Compression",
+    "venue": "COLM 2025",
+    "topic": "quantization / compression",
+    "arxiv": "2504.07389",
+    "doi": "",
+    "official_id": "COLM25_a201nfn3xX",
+    "paper_url": "https://arxiv.org/abs/2504.07389",
+    "code_url": "https://github.com/The-Inscrutable-X/TACQ",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "COLM 2025 mixed-precision PTQ using task-circuit saliency; preserves a tiny high-precision weight subset and materially improves 2-3 bit accuracy under a lower weight budget.",
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {

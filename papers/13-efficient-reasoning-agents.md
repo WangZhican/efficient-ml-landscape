@@ -1,6 +1,6 @@
 # 13 · Efficient Reasoning / Agents
 
-> **79 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **80 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [Complete Paper List](ALL_PAPERS.md)
 
@@ -10,6 +10,7 @@
 | **LazyEviction: Lagged KV Eviction with Attention Pattern Observation for Efficient Long Reasoning** | ACL 2026 | KV cache / efficient reasoning | [Link](https://doi.org/10.18653/v1/2026.acl-long.1683) | — |
 | **SpeContext: Enabling Efficient Long-context Reasoning with Speculative Context Sparsity in LLMs** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://arxiv.org/abs/2512.00722) | — |
 | **Taming the Long-Tail: Efficient Reasoning RL Training with Adaptive Drafter** | ASPLOS 2026 | reasoning RL training / speculative decoding / rollout systems | [Link](https://arxiv.org/abs/2511.16665) | — |
+| **Hawkeye: Model Collaboration for Efficient Reasoning** | COLM 2025 | efficient reasoning / model collaboration | [Link](https://arxiv.org/abs/2504.00424) | — |
 | **Resource-efficient Inference with Foundation Model Programs** | COLM 2025 | agentic inference / multimodal serving / dynamic model routing | [Link](https://arxiv.org/abs/2504.07247) | [Repo](https://github.com/Flitternie/FMProgramming) |
 | **Focusing on What Matters: Object-Agent-centric Tokenization for Vision Language Action models** | CoRL 2025 | Physical AI / VLA visual-token compression / efficient training | — | — |
 | **Training Strategies for Efficient Embodied Reasoning** | CoRL 2025 | Physical AI / efficient embodied reasoning / VLA inference | — | — |
