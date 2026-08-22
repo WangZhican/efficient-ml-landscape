@@ -1,6 +1,6 @@
 # 📚 Complete Paper List
 
-> **627 quality-gated papers** exported from the validated canonical literature census. PDF binaries are not stored here; links point to primary paper sources whenever resolved.
+> **628 quality-gated papers** exported from the validated canonical literature census. PDF binaries are not stored here; links point to primary paper sources whenever resolved.
 
 [← Research Map](README.md) · [Machine-readable JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -448,7 +448,7 @@
 | **TurboQuant: Online Vector Quantization with Near-optimal Distortion Rate** | ICLR 2026 | online vector quantization / KV cache compression | — | — |
 | **WINA: Weight Informed Neuron Activation for Accelerating Large Language Model Inference** | ICLR 2026 | training-free sparse activation / LLM inference | — | — |
 
-## SOSP 2025 · 17
+## SOSP 2025 · 18
 
 | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|
@@ -460,6 +460,7 @@
 | **IC-Cache: Efficient Large Language Model Serving via In-context Caching** | SOSP 2025 | LLM serving / KV / GPU systems | — | — |
 | **Jenga: Effective Memory Management for Serving LLM with Heterogeneity** | SOSP 2025 | LLM serving / KV / GPU systems | — | — |
 | **KTransformers: Unleashing the Full Potential of CPU/GPU Hybrid Inference for MoE Models** | SOSP 2025 | LLM serving / KV / GPU systems | — | — |
+| **LithOS: An Operating System for Efficient Machine Learning on GPUs** | SOSP 2025 | GPU resource management / ML systems / heterogeneous AI systems | [Link](https://arxiv.org/abs/2504.15465) | — |
 | **Mercury: Unlocking Multi-GPU Operator Optimization for LLMs via Remote Memory Scheduling** | SOSP 2025 | LLM serving / KV / GPU systems | — | — |
 | **METIS: Fast Quality-Aware RAG Systems with Configuration Adaptation** | SOSP 2025 | RAG serving / adaptive configuration / scheduling | [Link](https://arxiv.org/abs/2412.10543) | — |
 | **Mycroft: Tracing Dependencies in Collective Communication Towards Reliable LLM Training** | SOSP 2025 | distributed LLM training / collective communication / reliability | [Link](https://arxiv.org/abs/2509.03018) | — |

@@ -1,6 +1,6 @@
 # 01 · LLM Serving
 
-> **252 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **253 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [Complete Paper List](ALL_PAPERS.md)
 
@@ -217,6 +217,7 @@
 | **IC-Cache: Efficient Large Language Model Serving via In-context Caching** | SOSP 2025 | LLM serving / KV / GPU systems | — | — |
 | **Jenga: Effective Memory Management for Serving LLM with Heterogeneity** | SOSP 2025 | LLM serving / KV / GPU systems | — | — |
 | **KTransformers: Unleashing the Full Potential of CPU/GPU Hybrid Inference for MoE Models** | SOSP 2025 | LLM serving / KV / GPU systems | — | — |
+| **LithOS: An Operating System for Efficient Machine Learning on GPUs** | SOSP 2025 | GPU resource management / ML systems / heterogeneous AI systems | [Link](https://arxiv.org/abs/2504.15465) | — |
 | **Mercury: Unlocking Multi-GPU Operator Optimization for LLMs via Remote Memory Scheduling** | SOSP 2025 | LLM serving / KV / GPU systems | — | — |
 | **METIS: Fast Quality-Aware RAG Systems with Configuration Adaptation** | SOSP 2025 | RAG serving / adaptive configuration / scheduling | [Link](https://arxiv.org/abs/2412.10543) | — |
 | **Pie: A Programmable Serving System for Emerging LLM Applications** | SOSP 2025 | LLM serving / KV / GPU systems | [Link](https://arxiv.org/abs/2510.24051) | — |

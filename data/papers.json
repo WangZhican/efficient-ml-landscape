@@ -9367,6 +9367,24 @@
     ]
   },
   {
+    "title": "LithOS: An Operating System for Efficient Machine Learning on GPUs",
+    "venue": "SOSP 2025",
+    "topic": "GPU resource management / ML systems / heterogeneous AI systems",
+    "arxiv": "2504.15465",
+    "doi": "10.1145/3731569.3764818",
+    "official_id": "SOSP25_3731569.3764818",
+    "paper_url": "https://arxiv.org/abs/2504.15465",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "GPU operating-system design for transparent fine-grained TPC scheduling, kernel atomization, right-sizing and power management; SOSP 2025 reports up to 13x lower inference tail latency vs MPS and 1.6x aggregate-throughput improvement while improving utilization/energy efficiency.",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Mercury: Unlocking Multi-GPU Operator Optimization for LLMs via Remote Memory Scheduling",
     "venue": "SOSP 2025",
     "topic": "LLM serving / KV / GPU systems",
