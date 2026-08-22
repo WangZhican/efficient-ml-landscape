@@ -1273,13 +1273,13 @@
     ]
   },
   {
-    "title": "EARTH",
+    "title": "EARTH: An Efficient MoE Accelerator with Entropy-Aware Speculative Prefetch and Result Reuse",
     "venue": "ASPLOS 2026",
     "topic": "serving + speculative decoding + MoE + generative efficiency",
     "arxiv": "",
-    "doi": "",
-    "official_id": "",
-    "paper_url": "",
+    "doi": "10.1145/3779212.3790155",
+    "official_id": "https://doi.org/10.1145/3779212.3790155",
+    "paper_url": "https://doi.org/10.1145/3779212.3790155",
     "code_url": "",
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "BACKFILL_HIGH",
@@ -1358,13 +1358,13 @@
     ]
   },
   {
-    "title": "MoDM",
+    "title": "MoDM: Efficient Serving for Image Generation via Mixture-of-Diffusion Models",
     "venue": "ASPLOS 2026",
     "topic": "serving + speculative decoding + MoE + generative efficiency",
-    "arxiv": "",
-    "doi": "",
-    "official_id": "",
-    "paper_url": "",
+    "arxiv": "2503.11972",
+    "doi": "10.1145/3760250.3762220",
+    "official_id": "https://doi.org/10.1145/3760250.3762220",
+    "paper_url": "https://arxiv.org/abs/2503.11972",
     "code_url": "",
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "BACKFILL_HIGH",
@@ -1376,7 +1376,10 @@
     "directions": [
       "LLM Serving",
       "Speculative Decoding",
-      "MoE Systems / Accelerators"
+      "MoE Systems / Accelerators",
+      "GPU Kernel / DSL / Compiler",
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
@@ -1426,13 +1429,13 @@
     ]
   },
   {
-    "title": "oFFN",
+    "title": "oFFN: Outlier and Neuron-aware Structured FFN for Fast yet Accurate LLM Inference",
     "venue": "ASPLOS 2026",
     "topic": "serving + speculative decoding + MoE + generative efficiency",
     "arxiv": "",
-    "doi": "",
-    "official_id": "",
-    "paper_url": "",
+    "doi": "10.1145/3779212.3790194",
+    "official_id": "https://doi.org/10.1145/3779212.3790194",
+    "paper_url": "https://doi.org/10.1145/3779212.3790194",
     "code_url": "",
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "BACKFILL_HIGH",
@@ -1624,28 +1627,6 @@
       "Sparsity / Pruning",
       "MoE Systems / Accelerators",
       "Efficient Reasoning / Agents"
-    ]
-  },
-  {
-    "title": "SpecProto",
-    "venue": "ASPLOS 2026",
-    "topic": "serving + speculative decoding + MoE + generative efficiency",
-    "arxiv": "",
-    "doi": "",
-    "official_id": "",
-    "paper_url": "",
-    "code_url": "",
-    "formal_class": "CANONICAL_HIGH_VALUE",
-    "decision": "BACKFILL_HIGH",
-    "why": "",
-    "published_at": "",
-    "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
-    "directions": [
-      "LLM Serving",
-      "Speculative Decoding",
-      "MoE Systems / Accelerators"
     ]
   },
   {
