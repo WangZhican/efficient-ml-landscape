@@ -1,6 +1,6 @@
 # 06 · Efficient Attention
 
-> **91 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **93 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [Complete Paper List](ALL_PAPERS.md)
 
@@ -16,6 +16,8 @@
 | **Latent-Condensed Transformer for Efficient Long Context Modeling** | ACL 2026 | efficient attention / KV compression | [Link](https://doi.org/10.18653/v1/2026.acl-long.1176) | — |
 | **LazyEviction: Lagged KV Eviction with Attention Pattern Observation for Efficient Long Reasoning** | ACL 2026 | KV cache / efficient reasoning | [Link](https://doi.org/10.18653/v1/2026.acl-long.1683) | — |
 | **VecInfer: Efficient LLM Inference with Low-Bit KV Cache via Outlier-Suppressed Vector Quantization** | ACL 2026 | KV-cache quantization / low-bit LLM inference / CUDA kernel | [Link](https://doi.org/10.18653/v1/2026.acl-long.1454) | — |
+| **MQuant: Unleashing the Inference Potential of Multimodal Large Language Models via Full Static Quantization** | ACM Multimedia 2025 | multimodal LLM quantization / static PTQ / efficient inference | [Link](https://arxiv.org/abs/2502.00425) | [Repo](https://github.com/StiphyJay/MQuant) |
+| **TinyServe: Query-Aware Cache Selection for Efficient LLM Serving** | ACM Multimedia 2025 | LLM serving / KV cache sparsity / CUDA kernels / edge inference | [Link](https://arxiv.org/abs/2509.12211) | [Repo](https://github.com/FastLM/tinyserve-vllm) |
 | **BAT: Efficient Generative Recommender Serving with Bipartite Attention** | ASPLOS 2026 | generative recommender serving / KV prefix cache | [Link](https://doi.org/10.1145/3779212.3790131) | — |
 | **I/O Analysis is All You Need: An I/O Analysis for Long-Sequence Attention** | ASPLOS 2026 | attention accelerator / I/O analysis | [Link](https://doi.org/10.1145/3779212.3790174) | — |
 | **PAT: Accelerating LLM Decoding via Prefix-Aware Attention with Resource Efficient Multi-Tile Kernel** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://arxiv.org/abs/2511.22333) | — |

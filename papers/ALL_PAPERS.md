@@ -1,6 +1,6 @@
 # 📚 Complete Paper List
 
-> **649 quality-gated papers** exported from the validated canonical literature census. PDF binaries are not stored here; links point to primary paper sources whenever resolved.
+> **651 quality-gated papers** exported from the validated canonical literature census. PDF binaries are not stored here; links point to primary paper sources whenever resolved.
 
 [← Research Map](README.md) · [Machine-readable JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -595,6 +595,24 @@
 | **MixFusion: A Patch-Level Parallel Serving System for Mixed-Resolution Diffusion Models** | PPoPP 2026 | diffusion serving / patch-level parallelism | [Link](https://doi.org/10.1145/3774934.3786420) | — |
 | **RoMeo** | PPoPP 2026 | sparse transformer inference + mixed-precision quantization | — | — |
 
+## ACM Multimedia 2025 · 13
+
+| Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|
+| **AB-Cache: Training-Free Acceleration of Diffusion Models via Adams-Bashforth Cached Feature Reuse** | ACM Multimedia 2025 | diffusion caching / generative inference acceleration | [Link](https://arxiv.org/abs/2504.10540) | — |
+| **Accelerating Diffusion Transformer via Error-Optimized Cache** | ACM Multimedia 2025 | diffusion transformer inference / feature caching | [Link](https://arxiv.org/abs/2501.19243) | — |
+| **Compute Only 16 Tokens in One Timestep: Accelerating Diffusion Transformers with Cluster-Driven Feature Caching** | ACM Multimedia 2025 | diffusion token/feature caching | [Link](https://arxiv.org/abs/2509.10312) | — |
+| **DilateQuant: Accurate and Efficient Quantization-Aware Training for Diffusion Models via Weight Dilation** | ACM Multimedia 2025 | diffusion quantization / efficient inference | [Link](https://arxiv.org/abs/2409.14307) | — |
+| **How2Compress: Scalable and Efficient Edge Video Analytics via Adaptive Granular Video Compression** | ACM Multimedia 2025 | edge video analytics / adaptive video compression | [Link](https://arxiv.org/abs/2510.18409) | [Repo](https://github.com/wyhallenwu/how2compress) |
+| **Maximum Redundancy Pruning: A Principle-Driven Layerwise Sparsity Allocation for LLMs** | ACM Multimedia 2025 | LLM pruning / sparsity allocation | [Link](https://arxiv.org/abs/2503.18377) | — |
+| **MQuant: Unleashing the Inference Potential of Multimodal Large Language Models via Full Static Quantization** | ACM Multimedia 2025 | multimodal LLM quantization / static PTQ / efficient inference | [Link](https://arxiv.org/abs/2502.00425) | [Repo](https://github.com/StiphyJay/MQuant) |
+| **Quantization Meets OOD: Generalizable Quantization-aware Training from a Flatness Perspective** | ACM Multimedia 2025 | quantization-aware training / OOD generalization | [Link](https://arxiv.org/abs/2509.00859) | — |
+| **Single Trajectory Distillation for Accelerating Image and Video Style Transfer** | ACM Multimedia 2025 | diffusion/style-transfer acceleration / trajectory distillation | [Link](https://arxiv.org/abs/2412.18945) | — |
+| **SpeCa: Accelerating Diffusion Transformers with Speculative Feature Caching** | ACM Multimedia 2025 | diffusion speculative caching | [Link](https://arxiv.org/abs/2509.11628) | — |
+| **TinyServe: Query-Aware Cache Selection for Efficient LLM Serving** | ACM Multimedia 2025 | LLM serving / KV cache sparsity / CUDA kernels / edge inference | [Link](https://arxiv.org/abs/2509.12211) | [Repo](https://github.com/FastLM/tinyserve-vllm) |
+| **UltraVSR: Achieving Ultra-Realistic Video Super-Resolution with Efficient One-Step Diffusion Space** | ACM Multimedia 2025 | one-step diffusion / efficient video super-resolution | [Link](https://arxiv.org/abs/2505.19958) | [Repo](https://github.com/yongliuy/UltraVSR) |
+| **VISA: Group-wise Visual Token Selection and Aggregation via Graph Summarization for Efficient MLLMs Inference** | ACM Multimedia 2025 | MLLM inference / visual token pruning and aggregation | [Link](https://arxiv.org/abs/2508.17857) | — |
+
 ## NSDI 2026 · 13
 
 | Paper | Venue | Topic | Paper | Code |
@@ -629,22 +647,6 @@
 | **Probe-and-Fetch: Dynamic KV Cache Pruning for Accelerated Long-Context Inference in Web-Scale AI Search** | The Web Conference 2026 | KV cache pruning / long-context inference | [Link](https://doi.org/10.1145/3774904.3792794) | — |
 | **Self-Speculative Decoding for On-device MoE Acceleration** | The Web Conference 2026 | on-device MoE / speculative decoding | [Link](https://doi.org/10.1145/3774904.3792218) | — |
 | **Task-Aware Cloud-End Offloading for Vision-Language Model Serving via Dynamic Modality-Specific Adapter Scheduling** | The Web Conference 2026 | multimodal/VLM serving / cloud-edge offloading | [Link](https://doi.org/10.1145/3774904.3792127) | — |
-
-## ACM Multimedia 2025 · 11
-
-| Paper | Venue | Topic | Paper | Code |
-|---|---|---|---|---|
-| **AB-Cache: Training-Free Acceleration of Diffusion Models via Adams-Bashforth Cached Feature Reuse** | ACM Multimedia 2025 | diffusion caching / generative inference acceleration | [Link](https://arxiv.org/abs/2504.10540) | — |
-| **Accelerating Diffusion Transformer via Error-Optimized Cache** | ACM Multimedia 2025 | diffusion transformer inference / feature caching | [Link](https://arxiv.org/abs/2501.19243) | — |
-| **Compute Only 16 Tokens in One Timestep: Accelerating Diffusion Transformers with Cluster-Driven Feature Caching** | ACM Multimedia 2025 | diffusion token/feature caching | [Link](https://arxiv.org/abs/2509.10312) | — |
-| **DilateQuant: Accurate and Efficient Quantization-Aware Training for Diffusion Models via Weight Dilation** | ACM Multimedia 2025 | diffusion quantization / efficient inference | [Link](https://arxiv.org/abs/2409.14307) | — |
-| **How2Compress: Scalable and Efficient Edge Video Analytics via Adaptive Granular Video Compression** | ACM Multimedia 2025 | edge video analytics / adaptive video compression | [Link](https://arxiv.org/abs/2510.18409) | [Repo](https://github.com/wyhallenwu/how2compress) |
-| **Maximum Redundancy Pruning: A Principle-Driven Layerwise Sparsity Allocation for LLMs** | ACM Multimedia 2025 | LLM pruning / sparsity allocation | [Link](https://arxiv.org/abs/2503.18377) | — |
-| **Quantization Meets OOD: Generalizable Quantization-aware Training from a Flatness Perspective** | ACM Multimedia 2025 | quantization-aware training / OOD generalization | [Link](https://arxiv.org/abs/2509.00859) | — |
-| **Single Trajectory Distillation for Accelerating Image and Video Style Transfer** | ACM Multimedia 2025 | diffusion/style-transfer acceleration / trajectory distillation | [Link](https://arxiv.org/abs/2412.18945) | — |
-| **SpeCa: Accelerating Diffusion Transformers with Speculative Feature Caching** | ACM Multimedia 2025 | diffusion speculative caching | [Link](https://arxiv.org/abs/2509.11628) | — |
-| **UltraVSR: Achieving Ultra-Realistic Video Super-Resolution with Efficient One-Step Diffusion Space** | ACM Multimedia 2025 | one-step diffusion / efficient video super-resolution | [Link](https://arxiv.org/abs/2505.19958) | [Repo](https://github.com/yongliuy/UltraVSR) |
-| **VISA: Group-wise Visual Token Selection and Aggregation via Graph Summarization for Efficient MLLMs Inference** | ACM Multimedia 2025 | MLLM inference / visual token pruning and aggregation | [Link](https://arxiv.org/abs/2508.17857) | — |
 
 ## DAC 2025 · 11
 

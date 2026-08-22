@@ -839,6 +839,24 @@
     ]
   },
   {
+    "title": "MQuant: Unleashing the Inference Potential of Multimodal Large Language Models via Full Static Quantization",
+    "venue": "ACM Multimedia 2025",
+    "topic": "multimodal LLM quantization / static PTQ / efficient inference",
+    "arxiv": "2502.00425",
+    "doi": "",
+    "official_id": "ACMMM25_MQuant",
+    "paper_url": "https://arxiv.org/abs/2502.00425",
+    "code_url": "https://github.com/StiphyJay/MQuant",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ACM MM 2025 MLLM PTQ paper. Modality-Specific Static Quantization, Attention-Invariant Flexible Switching and Rotation Magnitude Suppression provide static W4A8 inference across mainstream MLLMs with <1% accuracy loss and up to about 30% latency reduction. Direct multimodal inference-efficiency contribution with first-party implementation.",
+    "directions": [
+      "Quantization",
+      "Efficient Attention",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
     "title": "Quantization Meets OOD: Generalizable Quantization-aware Training from a Flatness Perspective",
     "venue": "ACM Multimedia 2025",
     "topic": "quantization-aware training / OOD generalization",
@@ -888,6 +906,27 @@
       "Speculative Decoding",
       "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "TinyServe: Query-Aware Cache Selection for Efficient LLM Serving",
+    "venue": "ACM Multimedia 2025",
+    "topic": "LLM serving / KV cache sparsity / CUDA kernels / edge inference",
+    "arxiv": "2509.12211",
+    "doi": "10.1145/3746027.3758181",
+    "official_id": "ACMMM25_TinyServe",
+    "paper_url": "https://arxiv.org/abs/2509.12211",
+    "code_url": "https://github.com/FastLM/tinyserve-vllm",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ACM MM 2025 Oral system paper for query-aware KV-page selection with fused CUDA page scoring, sparse memory access and masked attention. Reports up to 3.4x speedup and >2x memory savings with negligible quality loss; directly belongs to LLM serving/KV-cache systems.",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {

@@ -1,6 +1,6 @@
 # 10 · Multimodal / MLLM Serving
 
-> **80 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **81 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [Complete Paper List](ALL_PAPERS.md)
 
@@ -13,6 +13,7 @@
 | **HERMES: KV Cache as Hierarchical Memory for Efficient Streaming Video Understanding** | ACL 2026 | multimodal streaming / KV cache | [Link](https://doi.org/10.18653/v1/2026.acl-long.381) | — |
 | **HybridKV: Hybrid KV Cache Compression for Efficient Multimodal Large Language Model Inference** | ACL 2026 | multimodal KV-cache compression / efficient MLLM inference | [Link](https://doi.org/10.18653/v1/2026.acl-long.594) | — |
 | **See the Forest for the Trees: Loosely Speculative Decoding via Visual-Semantic Guidance for Efficient Inference of Video LLMs** | ACL 2026 | multimodal serving / speculative decoding | [Link](https://doi.org/10.18653/v1/2026.acl-long.1087) | — |
+| **MQuant: Unleashing the Inference Potential of Multimodal Large Language Models via Full Static Quantization** | ACM Multimedia 2025 | multimodal LLM quantization / static PTQ / efficient inference | [Link](https://arxiv.org/abs/2502.00425) | [Repo](https://github.com/StiphyJay/MQuant) |
 | **VISA: Group-wise Visual Token Selection and Aggregation via Graph Summarization for Efficient MLLMs Inference** | ACM Multimedia 2025 | MLLM inference / visual token pruning and aggregation | [Link](https://arxiv.org/abs/2508.17857) | — |
 | **Resource-efficient Inference with Foundation Model Programs** | COLM 2025 | agentic inference / multimodal serving / dynamic model routing | [Link](https://arxiv.org/abs/2504.07247) | [Repo](https://github.com/Flitternie/FMProgramming) |
 | **SlowFast-LLaVA-1.5: A Family of Token-Efficient Video Large Language Models for Long-Form Video Understanding** | COLM 2025 | multimodal / Video-LLM efficiency / edge | [Link](https://arxiv.org/abs/2503.18943) | — |

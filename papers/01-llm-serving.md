@@ -1,6 +1,6 @@
 # 01 · LLM Serving
 
-> **263 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **264 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [Complete Paper List](ALL_PAPERS.md)
 
@@ -16,6 +16,7 @@
 | **SpecCache: Speculative KV Cache Reuse for Efficient RAG Serving** | ACL 2026 | RAG serving / KV cache reuse | [Link](https://doi.org/10.18653/v1/2026.acl-long.859) | — |
 | **SSSD: Simply-Scalable Speculative Decoding** | ACL 2026 | speculative decoding / serving | [Link](https://doi.org/10.18653/v1/2026.acl-long.1530) | — |
 | **Single Trajectory Distillation for Accelerating Image and Video Style Transfer** | ACM Multimedia 2025 | diffusion/style-transfer acceleration / trajectory distillation | [Link](https://arxiv.org/abs/2412.18945) | — |
+| **TinyServe: Query-Aware Cache Selection for Efficient LLM Serving** | ACM Multimedia 2025 | LLM serving / KV cache sparsity / CUDA kernels / edge inference | [Link](https://arxiv.org/abs/2509.12211) | [Repo](https://github.com/FastLM/tinyserve-vllm) |
 | **BAT: Efficient Generative Recommender Serving with Bipartite Attention** | ASPLOS 2026 | generative recommender serving / KV prefix cache | [Link](https://doi.org/10.1145/3779212.3790131) | — |
 | **BlendServe: Optimizing Offline Inference for Auto-regressive Large Models with Resource-aware Batching** | ASPLOS 2026 | LLM serving / offline batching / prefix sharing | [Link](https://arxiv.org/abs/2411.16102) | — |
 | **Bullet: Boosting GPU Utilization for LLM Serving via Dynamic Spatial-Temporal Orchestration** | ASPLOS 2026 | LLM serving / GPU utilization / scheduling | [Link](https://arxiv.org/abs/2504.19516) | — |

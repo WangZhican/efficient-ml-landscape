@@ -1,6 +1,6 @@
 # 03 · KV Cache / Long Context
 
-> **178 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **179 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [Complete Paper List](ALL_PAPERS.md)
 
@@ -30,6 +30,7 @@
 | **Question Tells You Where the Answer Is: Intention-aware Long-Context KV Cache Compression** | ACL 2026 | KV cache / long-context inference | [Link](https://doi.org/10.18653/v1/2026.acl-long.1250) | — |
 | **SpecCache: Speculative KV Cache Reuse for Efficient RAG Serving** | ACL 2026 | RAG serving / KV cache reuse | [Link](https://doi.org/10.18653/v1/2026.acl-long.859) | — |
 | **VecInfer: Efficient LLM Inference with Low-Bit KV Cache via Outlier-Suppressed Vector Quantization** | ACL 2026 | KV-cache quantization / low-bit LLM inference / CUDA kernel | [Link](https://doi.org/10.18653/v1/2026.acl-long.1454) | — |
+| **TinyServe: Query-Aware Cache Selection for Efficient LLM Serving** | ACM Multimedia 2025 | LLM serving / KV cache sparsity / CUDA kernels / edge inference | [Link](https://arxiv.org/abs/2509.12211) | [Repo](https://github.com/FastLM/tinyserve-vllm) |
 | **BAT: Efficient Generative Recommender Serving with Bipartite Attention** | ASPLOS 2026 | generative recommender serving / KV prefix cache | [Link](https://doi.org/10.1145/3779212.3790131) | — |
 | **MoE-APEX: An Efficient MoE Inference System with Adaptive Precision Expert Offloading** | ASPLOS 2026 | edge MoE inference / expert offloading / mixed precision | [Link](https://doi.org/10.1145/3779212.3790187) | — |
 | **REPA: Reconfigurable PIM for the Joint Acceleration of KV Cache Offloading and Processing** | ASPLOS 2026 | KV cache / PIM acceleration | [Link](https://doi.org/10.1145/3779212.3790212) | — |
