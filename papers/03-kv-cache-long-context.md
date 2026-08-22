@@ -1,14 +1,15 @@
 # 03 · KV Cache / Long Context
 
-> **179 canonical papers** mapped here, plus a broader **23-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **179 canonical papers** mapped here, plus a broader **27-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 23 tracked
+## 🆕 Latest 30 Days · 27 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **P1 · Watch** | **Which Eviction Policy Should an LLM Cache Use? A Systematic Study Across Workloads, Capacities, and Encoders** | Fresh / preprint | LLM semantic cache / eviction policy / serving benchmark | [Link](https://arxiv.org/abs/2608.20280) | — |
+| **P1 · Watch** | **Learning how to Forget: Fine-tuning for Long-Context Sparse Attention** | Fresh / preprint | long-context / sparse attention / KV cache policy | [Link](https://arxiv.org/abs/2608.19920) | [Repo](https://github.com/awslabs/keys_values) |
 | **P0 · Strong** | **FlashPrefill V2: Block-Sparse Prefill Attention for Long-Context LLM Serving** | Fresh / preprint | long-context LLM serving / block-sparse prefill attention / GPU kernel | [Link](https://arxiv.org/abs/2608.19758) | — |
 | **P0 · Strong** | **ReCache: Efficient KV Cache Reuse and Compression for Tool-Augmented LLM Agents** | Fresh / preprint | agent serving / KV cache reuse / compression | [Link](https://arxiv.org/abs/2608.19662) | [Repo](https://github.com/EIT-NLP/ReCache) |
 | **P1 · Watch** | **Jetson-ORB-SLAM3: Accuracy-Preserving GPU Implementation for Edge Computing Devices** | Fresh / preprint | edge vision runtime / GPU offload | [Link](https://arxiv.org/abs/2608.17874) | — |
@@ -27,8 +28,11 @@
 | **P2 · Relevant** | **PLoRA: An NDP-Enhanced Pooled-Memory System for Cost-Efficient Multi-LoRA Serving** | Fresh / preprint | LLM serving; KV cache / long context; distributed AI | [Link](https://arxiv.org/abs/2608.05483) | — |
 | **P1 · Watch** | **Spend Bits Where Queries Look: KV Cache Vector Quantization with Attention-Preserving Transforms** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.04074) | — |
 | **P2 · Relevant** | **TaskPress: Query-Agnostic KV Cache Compression via Task-Guided Pruning** | Fresh / preprint | KV cache / long context; quantization; sparsity / pruning; generation acceleration; edge / heterogeneous AI | [Link](https://arxiv.org/abs/2608.03276) | — |
+| **P2 · Relevant** | **Output-Aware Rotation for INT2 KV-Cache Quantization** | Fresh / preprint | llm_serving / kv / quant | [Link](https://arxiv.org/abs/2608.02691) | — |
 | **P2 · Relevant** | **Bole: Efficient Tree Speculation for Hybrid-Attention Language Models** | Fresh / preprint | LLM serving; KV cache / long context; speculative decoding; efficient attention; GPU kernel / compiler | [Link](https://arxiv.org/abs/2608.01651) | — |
+| **P2 · Relevant** | **ResKV: Reconstructing Omitted Attention Contributions for Fixed-Budget KV Cache Compression** | Fresh / preprint | llm_serving / kv | [Link](https://arxiv.org/abs/2607.29591) | — |
 | **P2 · Relevant** | **SmartGen: Seamless Disaggregated LLM Inference with Selective KV Cache Transfer** | Fresh / preprint | LLM serving; KV cache / long context | [Link](https://arxiv.org/abs/2607.28150) | — |
+| **P2 · Relevant** | **A Photonic-CXL Memory Appliance for Scalable KV Cache Management in LLM Inference** | Fresh / preprint | llm_serving / kv | [Link](https://arxiv.org/abs/2607.27187) | — |
 | **P2 · Relevant** | **NELSSA: A GPU-PNM Heterogeneous System for Mixed-Length LLM Serving via Length-based Request Placement** | Fresh / preprint | LLM serving; KV cache / long context; sparsity / pruning; agent systems; edge / heterogeneous AI | [Link](https://arxiv.org/abs/2607.26633) | — |
 | **P2 · Relevant** | **DualDecoder: Accelerate Long Context LLM Inference by Predictive Prefetch** | Fresh / preprint | LLM serving; KV cache / long context; agent systems | [Link](https://arxiv.org/abs/2607.26475) | — |
 

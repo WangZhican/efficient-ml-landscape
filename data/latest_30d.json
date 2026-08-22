@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-08-22",
   "window_start_beijing": "2026-07-23",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 99,
+  "tracked_total": 148,
   "p0_strong_or_canonical": [
     {
       "title": "FlashPrefill V2: Block-Sparse Prefill Attention for Long-Context LLM Serving",
@@ -53,6 +53,27 @@
       ]
     },
     {
+      "title": "A Thread-Register Decoupled GPU Execution Model for Efficient Tensor Computation",
+      "venue": "",
+      "topic": "GPU execution architecture / tensor cores / LLM serving",
+      "arxiv": "2608.19628",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.19628",
+      "code_url": "",
+      "formal_class": "STRONG_CURRENT",
+      "decision": "PROMOTE_STRONG",
+      "why": "FIBER decouples execution instances from private registers and adds fine-grained register/dataflow scheduling; reports 1.8x-2.25x end-to-end mixed-precision LLM-serving speedups across Ampere/Hopper/Blackwell.",
+      "published_at": "2026-08-20T04:35:13Z",
+      "updated_at": "2026-08-20T04:35:13Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
       "title": "HYDRA: A Heterogeneous Chiplet DSE Framework for Serving Dynamic Hybrid LLM Workloads",
       "venue": "",
       "topic": "LLM serving / heterogeneous chiplets / architecture-runtime co-design",
@@ -95,6 +116,29 @@
         "Quantization",
         "Distributed Training / Inference",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "FlashAttention for Scalable Vector Architectures",
+      "venue": "",
+      "topic": "efficient attention / CPU vector architecture / llama.cpp",
+      "arxiv": "2608.18656",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.18656",
+      "code_url": "",
+      "formal_class": "STRONG_CURRENT",
+      "decision": "PROMOTE_STRONG",
+      "why": "FlashAttention-V targets scalable vector CPUs, integrates into ggml/llama.cpp, and reports large prefill/decode kernel speedups while identifying long-vector quantization bottlenecks.",
+      "published_at": "2026-08-19T08:02:17Z",
+      "updated_at": "2026-08-19T08:02:17Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler"
       ]
     },
     {
@@ -286,6 +330,28 @@
       "tracking_tier": "P0 · Strong",
       "directions": [
         "KV Cache / Long Context"
+      ]
+    },
+    {
+      "title": "Efficient INT8 Inference of Small NLP Models on Server CPUs with PyTorch Native Stack",
+      "venue": "",
+      "topic": "CPU INT8 inference / PyTorch-TorchAO / TorchInductor",
+      "arxiv": "2608.18182",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.18182",
+      "code_url": "",
+      "formal_class": "STRONG_CURRENT",
+      "decision": "PROMOTE_STRONG",
+      "why": "Native PyTorch/TorchAO SmoothQuant path with graph fusion and optimized Intel CPU INT8 kernels; reports up to 5.8x end-to-end throughput and upstream implementation.",
+      "published_at": "2026-08-18T06:58:29Z",
+      "updated_at": "2026-08-18T06:58:29Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "GPU Kernel / DSL / Compiler"
       ]
     },
     {
@@ -1007,6 +1073,53 @@
       ]
     },
     {
+      "title": "Learning how to Forget: Fine-tuning for Long-Context Sparse Attention",
+      "venue": "",
+      "topic": "long-context / sparse attention / KV cache policy",
+      "arxiv": "2608.19920",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.19920",
+      "code_url": "https://github.com/awslabs/keys_values",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Fine-tunes models jointly with sparse-attention/KV policies and provides dedicated kernel support plus an official AWS long-context library; strong route relevance but still primarily a method/report rather than serving-system paper.",
+      "published_at": "2026-08-20T11:37:04Z",
+      "updated_at": "2026-08-20T11:37:04Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Sparsity / Pruning",
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Cacheable by Design? Training Mixture-of-Experts Routers for Locality Against the Edge Memory-Bandwidth Wall: A Pre-Registered Negative Result with a Systems Measurement Study",
+      "venue": "",
+      "topic": "edge MoE serving / expert caching / memory bandwidth",
+      "arxiv": "2608.18261",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.18261",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Systems measurement of Qwen3 MoE edge serving quantifies SSD/RAM bandwidth limits and expert locality; pre-registered negative result is useful evidence for router-cache co-design, but single-work focus keeps it at Watch.",
+      "published_at": "2026-08-18T19:23:32Z",
+      "updated_at": "2026-08-18T19:23:32Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "MoE Systems / Accelerators",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Hydra-0: Action Flow for Generalist World Modeling and Control",
       "venue": "",
       "topic": "Physical AI / world-action modeling",
@@ -1178,6 +1291,53 @@
       ]
     },
     {
+      "title": "MoE-ViE: Mixture of Experts Vision Encoder for Efficient Image and Video Understanding",
+      "venue": "",
+      "topic": "multimodal vision encoder / MoE / Triton kernel",
+      "arxiv": "2608.17402",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.17402",
+      "code_url": "https://github.com/facebookresearch/moe_vie",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Meta MoE vision encoder combines fine-grained expert scaling with a specialized inference kernel; largest model matches a 1.7x larger encoder at 76% latency and ships official code.",
+      "published_at": "2026-08-18T05:58:40Z",
+      "updated_at": "2026-08-18T05:58:40Z",
+      "is_latest_30d": true,
+      "directions": [
+        "MoE Systems / Accelerators",
+        "GPU Kernel / DSL / Compiler",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "KernelArc: A Multi-Agent Framework for GPU Kernel Optimization",
+      "venue": "",
+      "topic": "GPU kernel / agentic optimization / H100-B200",
+      "arxiv": "2608.17071",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.17071",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Multi-agent kernel search produces leading SOL-ExecBench implementations spanning GEMM, MoE, NVFP4 attention and paged prefill; directly relevant to kernel/agent systems, pending broader independent validation.",
+      "published_at": "2026-08-17T19:21:23Z",
+      "updated_at": "2026-08-17T19:21:23Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Efficient Attention",
+        "MoE Systems / Accelerators",
+        "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Don't Drop the BATON: Long-Horizon Robot Manipulation via Agentic Subtask Exploration and Transition-aware Memory",
       "venue": "",
       "topic": "Physical AI / agentic test-time exploration efficiency",
@@ -1302,6 +1462,27 @@
       ]
     },
     {
+      "title": "SparkVLA: Stop-Aware Hierarchical VLA with Adaptive Action Chunking for Long-Horizon Manipulation",
+      "venue": "",
+      "topic": "Physical AI / VLA / adaptive action chunking / token pruning",
+      "arxiv": "2608.16172",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.16172",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI item: adaptive action-chunk selection plus task-guided visual-token pruning improves long-horizon control and explicitly targets efficiency, but primary contribution remains VLA policy design.",
+      "published_at": "2026-08-17T06:43:11Z",
+      "updated_at": "2026-08-17T06:43:11Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Sparsity / Pruning",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "A Scalable Pipeline for LLM-Teacher Distillation Labeling: Work-Stealing Job Scheduling and Memory-Aware GPU Concurrency",
       "venue": "",
       "topic": "",
@@ -1320,6 +1501,70 @@
       "directions": [
         "LLM Serving",
         "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "RoofGS: Roofline-Guided End-to-End Acceleration of 3D Gaussian Splatting",
+      "venue": "",
+      "topic": "3D Gaussian Splatting / roofline / GPU kernels",
+      "arxiv": "2608.15785",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.15785",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Roofline-guided memory- and instruction-bottleneck co-optimization reaches 10.1x end-to-end speedup at 4K with negligible PSNR loss; valuable adjacent graphics/AI-inference systems work.",
+      "published_at": "2026-08-16T15:06:39Z",
+      "updated_at": "2026-08-16T15:06:39Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "EgoGazeLite: On-Device Egocentric Gaze Prediction for Token-Efficient Multimodal LLM Video Input",
+      "venue": "",
+      "topic": "multimodal serving / visual token reduction / on-device",
+      "arxiv": "2608.15614",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.15614",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "On-device gaze prediction enables about 10x visual-token reduction for egocentric MLLM video and runs at 21.6 ms/frame on consumer accelerator hardware; useful edge multimodal efficiency work.",
+      "published_at": "2026-08-16T08:28:01Z",
+      "updated_at": "2026-08-16T08:28:01Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "DeltaLog: Deferred Materialization of Recurrent States for Linear Attention Decoding",
+      "venue": "",
+      "topic": "linear attention serving / recurrent-state memory traffic",
+      "arxiv": "2608.15533",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.15533",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Deferred recurrent-state materialization cuts state write traffic up to 7.83x and yields up to 1.20x end-to-end serving speedup without changing semantics.",
+      "published_at": "2026-08-16T05:04:11Z",
+      "updated_at": "2026-08-16T05:04:11Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Attention"
       ]
     },
     {
@@ -1513,6 +1758,74 @@
       ]
     },
     {
+      "title": "Nexus: Structured Synergy for Efficient Text-to-Image Generation using Rectified Flow Model",
+      "venue": "",
+      "topic": "image generation / sparse architecture / low-bit / flow matching",
+      "arxiv": "2608.16104",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.16104",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly relevant to efficient image generation, combining MoE, linear-complexity attention and low-bit training, but current evidence is comparatively light and single-author; retain visibly as P2 pending deeper validation.",
+      "published_at": "2026-08-17T04:48:39Z",
+      "updated_at": "2026-08-17T04:48:39Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Sparsity / Pruning",
+        "Video / Image Generation",
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "Spec Sheets Are Not Kernels: An ISA- and Source-Level Audit of INT8 Availability on NVIDIA Blackwell Ultra",
+      "venue": "",
+      "topic": "llm_serving / quant / kernel / gen",
+      "arxiv": "2608.11693",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.11693",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-08-12T06:04:30Z",
+      "updated_at": "2026-08-14T06:06:04Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "GPU Kernel / DSL / Compiler",
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "APEX: Adaptive Expert Prefetching for Memory-Efficient Edge MoE Inference",
+      "venue": "",
+      "topic": "llm_serving / moe / gen",
+      "arxiv": "2608.11688",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.11688",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-08-12T05:57:09Z",
+      "updated_at": "2026-08-12T05:57:09Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "MoE Systems / Accelerators",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "MemSpec: Memory-Aware Runtime for Adaptive Draft Scheduling in Speculative Decoding on Edge Devices",
       "venue": "",
       "topic": "LLM serving; speculative decoding; generation acceleration; edge / heterogeneous AI",
@@ -1532,6 +1845,49 @@
         "LLM Serving",
         "Speculative Decoding",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "UnionSparse: An Index-Efficient Sparsity Framework for Low-Bit Sparse LLM Inference on Edge",
+      "venue": "",
+      "topic": "llm_serving / quant / sparse",
+      "arxiv": "2608.09291",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.09291",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-08-10T08:43:19Z",
+      "updated_at": "2026-08-10T08:43:19Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Sparsity / Pruning",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "LLMVisor: A Real-Time Latency Attribution Model for Multi-Tenant LLM Serving",
+      "venue": "",
+      "topic": "llm_serving / dist / gen",
+      "arxiv": "2608.08382",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.08382",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-08-09T00:28:05Z",
+      "updated_at": "2026-08-09T00:28:05Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving"
       ]
     },
     {
@@ -1604,6 +1960,29 @@
       ]
     },
     {
+      "title": "Autonomy-of-Heads: Data-Free Sparse Attention from Frozen Query-Key Geometry",
+      "venue": "",
+      "topic": "llm_serving / kv / sparse / edge",
+      "arxiv": "2608.06849",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.06849",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-08-07T06:18:18Z",
+      "updated_at": "2026-08-07T06:18:18Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Efficient Attention",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Cascade: Exploiting SLO-Aware latency budget for fair and high goodput LLM inference serving",
       "venue": "",
       "topic": "LLM serving; agent systems; edge / heterogeneous AI",
@@ -1622,6 +2001,50 @@
       "directions": [
         "LLM Serving",
         "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "BALANCE: Hybrid Autoregressive-Speculative LLM Inference in Wireless Edge Networks",
+      "venue": "",
+      "topic": "llm_serving / spec / edge",
+      "arxiv": "2608.05926",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.05926",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-08-06T11:57:36Z",
+      "updated_at": "2026-08-06T11:57:36Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Speculative Decoding",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Runtime Observability for Heterogeneous Attention Memory",
+      "venue": "",
+      "topic": "llm_serving / kv / edge",
+      "arxiv": "2608.05863",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.05863",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-08-06T10:41:50Z",
+      "updated_at": "2026-08-16T15:43:24Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Attention",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -1692,6 +2115,30 @@
       ]
     },
     {
+      "title": "SparseDitto: Customizing GPU Kernels for Different Sparsity Patterns with LLM-Based Agentic System",
+      "venue": "",
+      "topic": "sparse / kernel / gen / agent / edge",
+      "arxiv": "2608.05033",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.05033",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-08-05T16:41:03Z",
+      "updated_at": "2026-08-12T18:52:15Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Sparsity / Pruning",
+        "GPU Kernel / DSL / Compiler",
+        "Diffusion / Flow Acceleration",
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Deltoris: Enabling Real-time VLA Inference in Embodied AI via Bit-level Sparsity and Speculative Inference",
       "venue": "",
       "topic": "LLM serving; speculative decoding; sparsity / pruning; multimodal / MLLM; Physical AI; edge / heterogeneous AI",
@@ -1713,6 +2160,28 @@
         "Sparsity / Pruning",
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "On Design Principles for Efficient Heterogeneous DRAM-PIM-GPU Systems",
+      "venue": "",
+      "topic": "llm_serving / edge",
+      "arxiv": "2608.04169",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.04169",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-08-04T19:26:54Z",
+      "updated_at": "2026-08-04T19:26:54Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -1759,6 +2228,30 @@
       "directions": [
         "LLM Serving",
         "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Heterogeneous LLM Serving with General-Purpose Processing-Near-Memory for Retrieval-Based Sparse Attention",
+      "venue": "",
+      "topic": "llm_serving / kv / sparse / agent / edge",
+      "arxiv": "2608.03555",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.03555",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-08-04T12:25:45Z",
+      "updated_at": "2026-08-04T12:25:45Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Efficient Attention",
         "Efficient Reasoning / Agents",
         "Edge / Cloud / Heterogeneous AI"
       ]
@@ -1812,6 +2305,29 @@
       ]
     },
     {
+      "title": "Adaptive Two-Stage Visual Token Pruning for Efficient Inference in Video-Language Models",
+      "venue": "",
+      "topic": "llm_serving / sparse / multimodal / gen / edge",
+      "arxiv": "2608.03112",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.03112",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-08-04T04:32:48Z",
+      "updated_at": "2026-08-04T04:32:48Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Multimodal / MLLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "LLM Serving in the Wild: An Empirical Study of Frameworks, Methods, and System Designs",
       "venue": "",
       "topic": "LLM serving; sparsity / pruning",
@@ -1854,6 +2370,29 @@
       ]
     },
     {
+      "title": "LowRank-SSM: Hardware-Software Co-Design for Rank-Reduced Mamba Acceleration on FPGA",
+      "venue": "",
+      "topic": "llm_serving / quant / sparse / edge",
+      "arxiv": "2608.02954",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.02954",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-08-03T23:38:07Z",
+      "updated_at": "2026-08-03T23:38:07Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Sparsity / Pruning",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "EchoCache: Energy-Guided Cross-Modal Caching for Efficient Audio-Driven Video Generation",
       "venue": "",
       "topic": "LLM serving; quantization; generation acceleration",
@@ -1873,6 +2412,28 @@
         "LLM Serving",
         "Quantization",
         "Video / Image Generation"
+      ]
+    },
+    {
+      "title": "Output-Aware Rotation for INT2 KV-Cache Quantization",
+      "venue": "",
+      "topic": "llm_serving / kv / quant",
+      "arxiv": "2608.02691",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.02691",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-08-03T09:24:23Z",
+      "updated_at": "2026-08-05T18:00:06Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Quantization"
       ]
     },
     {
@@ -1896,6 +2457,28 @@
         "Speculative Decoding",
         "KV Cache / Long Context",
         "Efficient Attention",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Meganeura: Portable GPU Training and Inference through Vulkan and Metal",
+      "venue": "",
+      "topic": "llm_serving / quant / kernel",
+      "arxiv": "2608.01563",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.01563",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-08-03T00:42:55Z",
+      "updated_at": "2026-08-03T00:42:55Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
         "GPU Kernel / DSL / Compiler"
       ]
     },
@@ -1968,6 +2551,51 @@
       ]
     },
     {
+      "title": "HetRoute Heterogeneous and Cost-aware Collaborative Routing Framework for Distributed Edge MoE Inference",
+      "venue": "",
+      "topic": "llm_serving / quant / moe / dist / edge",
+      "arxiv": "2608.00577",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.00577",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-08-01T10:30:01Z",
+      "updated_at": "2026-08-12T01:52:58Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "MoE Systems / Accelerators",
+        "Distributed Training / Inference",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "HCCL: Collective Communication for Meta Training and Inference Accelerators",
+      "venue": "",
+      "topic": "llm_serving",
+      "arxiv": "2608.00358",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.00358",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-08-01T00:14:41Z",
+      "updated_at": "2026-08-01T00:14:41Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference"
+      ]
+    },
+    {
       "title": "Action Chunk Scheduling for Batched Robot Policy Serving",
       "venue": "",
       "topic": "LLM serving; multimodal / MLLM; generation acceleration; Physical AI; edge / heterogeneous AI",
@@ -1988,6 +2616,48 @@
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "ResKV: Reconstructing Omitted Attention Contributions for Fixed-Budget KV Cache Compression",
+      "venue": "",
+      "topic": "llm_serving / kv",
+      "arxiv": "2607.29591",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2607.29591",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-07-31T16:16:45Z",
+      "updated_at": "2026-07-31T16:16:45Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Efficient Attention"
+      ]
+    },
+    {
+      "title": "SLIM: Saturation-Aware Lightweight Performance Modeling for LLM Serving",
+      "venue": "",
+      "topic": "llm_serving / attn / gen",
+      "arxiv": "2607.29575",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2607.29575",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-07-31T16:02:31Z",
+      "updated_at": "2026-07-31T16:02:31Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving"
       ]
     },
     {
@@ -2098,6 +2768,28 @@
       ]
     },
     {
+      "title": "A Sparse Glimpse of the Whole: Train-Free Self-Speculative Decoding",
+      "venue": "",
+      "topic": "llm_serving / kv / spec",
+      "arxiv": "2607.27735",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2607.27735",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-07-30T06:16:56Z",
+      "updated_at": "2026-07-30T06:16:56Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Speculative Decoding",
+        "Sparsity / Pruning"
+      ]
+    },
+    {
       "title": "TurboVLA: Real-Time Vision-Language-Action Model at 32 Hz on an RTX 4090 with <1 GB VRAM",
       "venue": "",
       "topic": "LLM serving; multimodal / MLLM; generation acceleration; Physical AI",
@@ -2117,6 +2809,49 @@
         "LLM Serving",
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "A Photonic-CXL Memory Appliance for Scalable KV Cache Management in LLM Inference",
+      "venue": "",
+      "topic": "llm_serving / kv",
+      "arxiv": "2607.27187",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2607.27187",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-07-29T17:55:38Z",
+      "updated_at": "2026-07-29T17:55:38Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "InferScale: GPU-Native KV Injection for Personalized LLM Serving",
+      "venue": "",
+      "topic": "llm_serving / gen",
+      "arxiv": "2607.27090",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2607.27090",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-07-29T16:18:22Z",
+      "updated_at": "2026-07-29T16:18:22Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler"
       ]
     },
     {
@@ -2145,6 +2880,28 @@
       ]
     },
     {
+      "title": "From Tokens to Watt-hours: Analytical Energy Estimation for LLM Inference on Modern GPUs",
+      "venue": "",
+      "topic": "llm_serving / edge",
+      "arxiv": "2607.26571",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2607.26571",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-07-29T07:50:55Z",
+      "updated_at": "2026-07-29T07:50:55Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "DualDecoder: Accelerate Long Context LLM Inference by Predictive Prefetch",
       "venue": "",
       "topic": "LLM serving; KV cache / long context; agent systems",
@@ -2167,6 +2924,48 @@
       ]
     },
     {
+      "title": "CONQuER: Hardware-Aware Mixed-Precision Quantisation with Online-Calibrated Surrogates",
+      "venue": "",
+      "topic": "kernel / edge",
+      "arxiv": "2607.25884",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2607.25884",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-07-28T15:45:26Z",
+      "updated_at": "2026-07-28T15:45:26Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "At-the-Roofline Sparse Tensor Contractions on Vector Processors for Transformer Inference",
+      "venue": "",
+      "topic": "sparse",
+      "arxiv": "2607.25504",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2607.25504",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-07-28T09:38:42Z",
+      "updated_at": "2026-07-28T09:38:42Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Sparsity / Pruning"
+      ]
+    },
+    {
       "title": "Beyond Prefill-Decode Disaggregation: Dissecting LLM Inference for Heterogeneous Platforms via Dynamic Operator Scheduling",
       "venue": "",
       "topic": "LLM serving; generation acceleration; edge / heterogeneous AI",
@@ -2185,6 +2984,296 @@
       "directions": [
         "LLM Serving",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "DraftExpert: Expansion-Aware Self-Speculative Decoding for End-Device MoE Inference",
+      "venue": "",
+      "topic": "llm_serving / spec / moe / edge",
+      "arxiv": "2607.24434",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2607.24434",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-07-27T13:44:42Z",
+      "updated_at": "2026-07-27T13:44:42Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Speculative Decoding",
+        "MoE Systems / Accelerators",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "KAP: Bridging the Knowledge Selection-Runtime Consumption Gap in LLM Systems",
+      "venue": "",
+      "topic": "llm_serving / kv / kernel",
+      "arxiv": "2607.24260",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2607.24260",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-07-27T10:51:38Z",
+      "updated_at": "2026-07-27T10:51:38Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "A Motion-Aware Vector Quantization Framework with Centroid Reuse for Efficient VLA Inference",
+      "venue": "",
+      "topic": "llm_serving / quant / multimodal / physical",
+      "arxiv": "2607.24148",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2607.24148",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-07-27T08:29:05Z",
+      "updated_at": "2026-07-27T08:29:05Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Sol-Attn: Accelerating Video Generation Inference via On-the-Fly Attention Sparsification",
+      "venue": "",
+      "topic": "llm_serving / sparse / gen",
+      "arxiv": "2607.24027",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2607.24027",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-07-27T05:53:28Z",
+      "updated_at": "2026-07-27T05:53:28Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Efficient Attention",
+        "Video / Image Generation"
+      ]
+    },
+    {
+      "title": "SpecBox: Speculative Sandbox Scheduling for Efficient LLM Agent Serving",
+      "venue": "",
+      "topic": "llm_serving / agent",
+      "arxiv": "2607.23933",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2607.23933",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-07-27T02:10:35Z",
+      "updated_at": "2026-08-05T01:08:13Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Speculative Decoding",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Kalypso: Relational LLM Serving",
+      "venue": "",
+      "topic": "llm_serving",
+      "arxiv": "2607.23815",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2607.23815",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-07-26T19:29:31Z",
+      "updated_at": "2026-08-14T00:14:29Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving"
+      ]
+    },
+    {
+      "title": "Gleam: Adaptive Network-Efficient CUDA API Remoting for Cross-Device GPU Sharing over LANs",
+      "venue": "",
+      "topic": "llm_serving / dist / gen / edge",
+      "arxiv": "2607.23115",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2607.23115",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-07-25T09:06:47Z",
+      "updated_at": "2026-07-25T09:06:47Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Decoding the Skew: Distribution-Aware MoE Inference with Adaptive Kernel Dispatch",
+      "venue": "",
+      "topic": "llm_serving / moe",
+      "arxiv": "2607.23099",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2607.23099",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-07-25T08:20:47Z",
+      "updated_at": "2026-07-28T02:21:18Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "MoE Systems / Accelerators",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Structured Redundancy Modeling for Efficient Visual Token Pruning in High-Resolution MLLMs",
+      "venue": "",
+      "topic": "llm_serving / sparse / multimodal / edge",
+      "arxiv": "2607.23046",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2607.23046",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-07-25T05:08:22Z",
+      "updated_at": "2026-07-25T05:08:22Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Multimodal / MLLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "FusionML: Prefill, Not Decode - Mechanism and Boundaries of CPU+GPU Co-Execution on Unified-Memory Apple Silicon",
+      "venue": "",
+      "topic": "llm_serving / edge",
+      "arxiv": "2607.22785",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2607.22785",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-07-24T11:42:17Z",
+      "updated_at": "2026-07-24T11:42:17Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "HEMERA: A Heterogeneous Memory-Centric Accelerator with Recursive Dataflow for Edge-Constrained State-Space-Duality Models Inference",
+      "venue": "",
+      "topic": "llm_serving / edge",
+      "arxiv": "2607.22022",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2607.22022",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-07-24T06:40:36Z",
+      "updated_at": "2026-07-24T06:40:36Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Unified Static-Dynamic Pruning for Efficient LLM Inference",
+      "venue": "",
+      "topic": "llm_serving / sparse / kernel / edge",
+      "arxiv": "2607.21985",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2607.21985",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-07-24T05:19:41Z",
+      "updated_at": "2026-08-09T02:31:31Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation",
+      "venue": "",
+      "topic": "llm_serving / sparse / attn / kernel / gen",
+      "arxiv": "2607.21553",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2607.21553",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-07-23T17:36:05Z",
+      "updated_at": "2026-07-23T17:36:05Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler",
+        "Video / Image Generation"
       ]
     }
   ],
@@ -2238,6 +3327,27 @@
       ]
     },
     {
+      "title": "A Thread-Register Decoupled GPU Execution Model for Efficient Tensor Computation",
+      "venue": "",
+      "topic": "GPU execution architecture / tensor cores / LLM serving",
+      "arxiv": "2608.19628",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.19628",
+      "code_url": "",
+      "formal_class": "STRONG_CURRENT",
+      "decision": "PROMOTE_STRONG",
+      "why": "FIBER decouples execution instances from private registers and adds fine-grained register/dataflow scheduling; reports 1.8x-2.25x end-to-end mixed-precision LLM-serving speedups across Ampere/Hopper/Blackwell.",
+      "published_at": "2026-08-20T04:35:13Z",
+      "updated_at": "2026-08-20T04:35:13Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
       "title": "HYDRA: A Heterogeneous Chiplet DSE Framework for Serving Dynamic Hybrid LLM Workloads",
       "venue": "",
       "topic": "LLM serving / heterogeneous chiplets / architecture-runtime co-design",
@@ -2280,6 +3390,29 @@
         "Quantization",
         "Distributed Training / Inference",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "FlashAttention for Scalable Vector Architectures",
+      "venue": "",
+      "topic": "efficient attention / CPU vector architecture / llama.cpp",
+      "arxiv": "2608.18656",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.18656",
+      "code_url": "",
+      "formal_class": "STRONG_CURRENT",
+      "decision": "PROMOTE_STRONG",
+      "why": "FlashAttention-V targets scalable vector CPUs, integrates into ggml/llama.cpp, and reports large prefill/decode kernel speedups while identifying long-vector quantization bottlenecks.",
+      "published_at": "2026-08-19T08:02:17Z",
+      "updated_at": "2026-08-19T08:02:17Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler"
       ]
     },
     {
@@ -2471,6 +3604,28 @@
       "tracking_tier": "P0 · Strong",
       "directions": [
         "KV Cache / Long Context"
+      ]
+    },
+    {
+      "title": "Efficient INT8 Inference of Small NLP Models on Server CPUs with PyTorch Native Stack",
+      "venue": "",
+      "topic": "CPU INT8 inference / PyTorch-TorchAO / TorchInductor",
+      "arxiv": "2608.18182",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.18182",
+      "code_url": "",
+      "formal_class": "STRONG_CURRENT",
+      "decision": "PROMOTE_STRONG",
+      "why": "Native PyTorch/TorchAO SmoothQuant path with graph fusion and optimized Intel CPU INT8 kernels; reports up to 5.8x end-to-end throughput and upstream implementation.",
+      "published_at": "2026-08-18T06:58:29Z",
+      "updated_at": "2026-08-18T06:58:29Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "GPU Kernel / DSL / Compiler"
       ]
     },
     {
@@ -3190,6 +4345,53 @@
       ]
     },
     {
+      "title": "Learning how to Forget: Fine-tuning for Long-Context Sparse Attention",
+      "venue": "",
+      "topic": "long-context / sparse attention / KV cache policy",
+      "arxiv": "2608.19920",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.19920",
+      "code_url": "https://github.com/awslabs/keys_values",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Fine-tunes models jointly with sparse-attention/KV policies and provides dedicated kernel support plus an official AWS long-context library; strong route relevance but still primarily a method/report rather than serving-system paper.",
+      "published_at": "2026-08-20T11:37:04Z",
+      "updated_at": "2026-08-20T11:37:04Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Sparsity / Pruning",
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Cacheable by Design? Training Mixture-of-Experts Routers for Locality Against the Edge Memory-Bandwidth Wall: A Pre-Registered Negative Result with a Systems Measurement Study",
+      "venue": "",
+      "topic": "edge MoE serving / expert caching / memory bandwidth",
+      "arxiv": "2608.18261",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.18261",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Systems measurement of Qwen3 MoE edge serving quantifies SSD/RAM bandwidth limits and expert locality; pre-registered negative result is useful evidence for router-cache co-design, but single-work focus keeps it at Watch.",
+      "published_at": "2026-08-18T19:23:32Z",
+      "updated_at": "2026-08-18T19:23:32Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "MoE Systems / Accelerators",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Hydra-0: Action Flow for Generalist World Modeling and Control",
       "venue": "",
       "topic": "Physical AI / world-action modeling",
@@ -3361,6 +4563,53 @@
       ]
     },
     {
+      "title": "MoE-ViE: Mixture of Experts Vision Encoder for Efficient Image and Video Understanding",
+      "venue": "",
+      "topic": "multimodal vision encoder / MoE / Triton kernel",
+      "arxiv": "2608.17402",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.17402",
+      "code_url": "https://github.com/facebookresearch/moe_vie",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Meta MoE vision encoder combines fine-grained expert scaling with a specialized inference kernel; largest model matches a 1.7x larger encoder at 76% latency and ships official code.",
+      "published_at": "2026-08-18T05:58:40Z",
+      "updated_at": "2026-08-18T05:58:40Z",
+      "is_latest_30d": true,
+      "directions": [
+        "MoE Systems / Accelerators",
+        "GPU Kernel / DSL / Compiler",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "KernelArc: A Multi-Agent Framework for GPU Kernel Optimization",
+      "venue": "",
+      "topic": "GPU kernel / agentic optimization / H100-B200",
+      "arxiv": "2608.17071",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.17071",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Multi-agent kernel search produces leading SOL-ExecBench implementations spanning GEMM, MoE, NVFP4 attention and paged prefill; directly relevant to kernel/agent systems, pending broader independent validation.",
+      "published_at": "2026-08-17T19:21:23Z",
+      "updated_at": "2026-08-17T19:21:23Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Efficient Attention",
+        "MoE Systems / Accelerators",
+        "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Don't Drop the BATON: Long-Horizon Robot Manipulation via Agentic Subtask Exploration and Transition-aware Memory",
       "venue": "",
       "topic": "Physical AI / agentic test-time exploration efficiency",
@@ -3485,6 +4734,27 @@
       ]
     },
     {
+      "title": "SparkVLA: Stop-Aware Hierarchical VLA with Adaptive Action Chunking for Long-Horizon Manipulation",
+      "venue": "",
+      "topic": "Physical AI / VLA / adaptive action chunking / token pruning",
+      "arxiv": "2608.16172",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.16172",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI item: adaptive action-chunk selection plus task-guided visual-token pruning improves long-horizon control and explicitly targets efficiency, but primary contribution remains VLA policy design.",
+      "published_at": "2026-08-17T06:43:11Z",
+      "updated_at": "2026-08-17T06:43:11Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Sparsity / Pruning",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "A Scalable Pipeline for LLM-Teacher Distillation Labeling: Work-Stealing Job Scheduling and Memory-Aware GPU Concurrency",
       "venue": "",
       "topic": "",
@@ -3503,6 +4773,70 @@
       "directions": [
         "LLM Serving",
         "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "RoofGS: Roofline-Guided End-to-End Acceleration of 3D Gaussian Splatting",
+      "venue": "",
+      "topic": "3D Gaussian Splatting / roofline / GPU kernels",
+      "arxiv": "2608.15785",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.15785",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Roofline-guided memory- and instruction-bottleneck co-optimization reaches 10.1x end-to-end speedup at 4K with negligible PSNR loss; valuable adjacent graphics/AI-inference systems work.",
+      "published_at": "2026-08-16T15:06:39Z",
+      "updated_at": "2026-08-16T15:06:39Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "EgoGazeLite: On-Device Egocentric Gaze Prediction for Token-Efficient Multimodal LLM Video Input",
+      "venue": "",
+      "topic": "multimodal serving / visual token reduction / on-device",
+      "arxiv": "2608.15614",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.15614",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "On-device gaze prediction enables about 10x visual-token reduction for egocentric MLLM video and runs at 21.6 ms/frame on consumer accelerator hardware; useful edge multimodal efficiency work.",
+      "published_at": "2026-08-16T08:28:01Z",
+      "updated_at": "2026-08-16T08:28:01Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "DeltaLog: Deferred Materialization of Recurrent States for Linear Attention Decoding",
+      "venue": "",
+      "topic": "linear attention serving / recurrent-state memory traffic",
+      "arxiv": "2608.15533",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.15533",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Deferred recurrent-state materialization cuts state write traffic up to 7.83x and yields up to 1.20x end-to-end serving speedup without changing semantics.",
+      "published_at": "2026-08-16T05:04:11Z",
+      "updated_at": "2026-08-16T05:04:11Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Attention"
       ]
     },
     {
@@ -3694,6 +5028,74 @@
       ]
     },
     {
+      "title": "Nexus: Structured Synergy for Efficient Text-to-Image Generation using Rectified Flow Model",
+      "venue": "",
+      "topic": "image generation / sparse architecture / low-bit / flow matching",
+      "arxiv": "2608.16104",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.16104",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly relevant to efficient image generation, combining MoE, linear-complexity attention and low-bit training, but current evidence is comparatively light and single-author; retain visibly as P2 pending deeper validation.",
+      "published_at": "2026-08-17T04:48:39Z",
+      "updated_at": "2026-08-17T04:48:39Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Sparsity / Pruning",
+        "Video / Image Generation",
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "Spec Sheets Are Not Kernels: An ISA- and Source-Level Audit of INT8 Availability on NVIDIA Blackwell Ultra",
+      "venue": "",
+      "topic": "llm_serving / quant / kernel / gen",
+      "arxiv": "2608.11693",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.11693",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-08-12T06:04:30Z",
+      "updated_at": "2026-08-14T06:06:04Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "GPU Kernel / DSL / Compiler",
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "APEX: Adaptive Expert Prefetching for Memory-Efficient Edge MoE Inference",
+      "venue": "",
+      "topic": "llm_serving / moe / gen",
+      "arxiv": "2608.11688",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.11688",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-08-12T05:57:09Z",
+      "updated_at": "2026-08-12T05:57:09Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "MoE Systems / Accelerators",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "MemSpec: Memory-Aware Runtime for Adaptive Draft Scheduling in Speculative Decoding on Edge Devices",
       "venue": "",
       "topic": "LLM serving; speculative decoding; generation acceleration; edge / heterogeneous AI",
@@ -3713,6 +5115,49 @@
         "LLM Serving",
         "Speculative Decoding",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "UnionSparse: An Index-Efficient Sparsity Framework for Low-Bit Sparse LLM Inference on Edge",
+      "venue": "",
+      "topic": "llm_serving / quant / sparse",
+      "arxiv": "2608.09291",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.09291",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-08-10T08:43:19Z",
+      "updated_at": "2026-08-10T08:43:19Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Sparsity / Pruning",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "LLMVisor: A Real-Time Latency Attribution Model for Multi-Tenant LLM Serving",
+      "venue": "",
+      "topic": "llm_serving / dist / gen",
+      "arxiv": "2608.08382",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.08382",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-08-09T00:28:05Z",
+      "updated_at": "2026-08-09T00:28:05Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving"
       ]
     },
     {
@@ -3785,6 +5230,29 @@
       ]
     },
     {
+      "title": "Autonomy-of-Heads: Data-Free Sparse Attention from Frozen Query-Key Geometry",
+      "venue": "",
+      "topic": "llm_serving / kv / sparse / edge",
+      "arxiv": "2608.06849",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.06849",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-08-07T06:18:18Z",
+      "updated_at": "2026-08-07T06:18:18Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Efficient Attention",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Cascade: Exploiting SLO-Aware latency budget for fair and high goodput LLM inference serving",
       "venue": "",
       "topic": "LLM serving; agent systems; edge / heterogeneous AI",
@@ -3803,6 +5271,50 @@
       "directions": [
         "LLM Serving",
         "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "BALANCE: Hybrid Autoregressive-Speculative LLM Inference in Wireless Edge Networks",
+      "venue": "",
+      "topic": "llm_serving / spec / edge",
+      "arxiv": "2608.05926",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.05926",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-08-06T11:57:36Z",
+      "updated_at": "2026-08-06T11:57:36Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Speculative Decoding",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Runtime Observability for Heterogeneous Attention Memory",
+      "venue": "",
+      "topic": "llm_serving / kv / edge",
+      "arxiv": "2608.05863",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.05863",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-08-06T10:41:50Z",
+      "updated_at": "2026-08-16T15:43:24Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Attention",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -3873,6 +5385,30 @@
       ]
     },
     {
+      "title": "SparseDitto: Customizing GPU Kernels for Different Sparsity Patterns with LLM-Based Agentic System",
+      "venue": "",
+      "topic": "sparse / kernel / gen / agent / edge",
+      "arxiv": "2608.05033",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.05033",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-08-05T16:41:03Z",
+      "updated_at": "2026-08-12T18:52:15Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Sparsity / Pruning",
+        "GPU Kernel / DSL / Compiler",
+        "Diffusion / Flow Acceleration",
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Deltoris: Enabling Real-time VLA Inference in Embodied AI via Bit-level Sparsity and Speculative Inference",
       "venue": "",
       "topic": "LLM serving; speculative decoding; sparsity / pruning; multimodal / MLLM; Physical AI; edge / heterogeneous AI",
@@ -3894,6 +5430,28 @@
         "Sparsity / Pruning",
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "On Design Principles for Efficient Heterogeneous DRAM-PIM-GPU Systems",
+      "venue": "",
+      "topic": "llm_serving / edge",
+      "arxiv": "2608.04169",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.04169",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-08-04T19:26:54Z",
+      "updated_at": "2026-08-04T19:26:54Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -3940,6 +5498,30 @@
       "directions": [
         "LLM Serving",
         "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Heterogeneous LLM Serving with General-Purpose Processing-Near-Memory for Retrieval-Based Sparse Attention",
+      "venue": "",
+      "topic": "llm_serving / kv / sparse / agent / edge",
+      "arxiv": "2608.03555",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.03555",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-08-04T12:25:45Z",
+      "updated_at": "2026-08-04T12:25:45Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Efficient Attention",
         "Efficient Reasoning / Agents",
         "Edge / Cloud / Heterogeneous AI"
       ]
@@ -3993,6 +5575,29 @@
       ]
     },
     {
+      "title": "Adaptive Two-Stage Visual Token Pruning for Efficient Inference in Video-Language Models",
+      "venue": "",
+      "topic": "llm_serving / sparse / multimodal / gen / edge",
+      "arxiv": "2608.03112",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.03112",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-08-04T04:32:48Z",
+      "updated_at": "2026-08-04T04:32:48Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Multimodal / MLLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "LLM Serving in the Wild: An Empirical Study of Frameworks, Methods, and System Designs",
       "venue": "",
       "topic": "LLM serving; sparsity / pruning",
@@ -4035,6 +5640,29 @@
       ]
     },
     {
+      "title": "LowRank-SSM: Hardware-Software Co-Design for Rank-Reduced Mamba Acceleration on FPGA",
+      "venue": "",
+      "topic": "llm_serving / quant / sparse / edge",
+      "arxiv": "2608.02954",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.02954",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-08-03T23:38:07Z",
+      "updated_at": "2026-08-03T23:38:07Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Sparsity / Pruning",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "EchoCache: Energy-Guided Cross-Modal Caching for Efficient Audio-Driven Video Generation",
       "venue": "",
       "topic": "LLM serving; quantization; generation acceleration",
@@ -4054,6 +5682,28 @@
         "LLM Serving",
         "Quantization",
         "Video / Image Generation"
+      ]
+    },
+    {
+      "title": "Output-Aware Rotation for INT2 KV-Cache Quantization",
+      "venue": "",
+      "topic": "llm_serving / kv / quant",
+      "arxiv": "2608.02691",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.02691",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-08-03T09:24:23Z",
+      "updated_at": "2026-08-05T18:00:06Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Quantization"
       ]
     },
     {
@@ -4077,6 +5727,28 @@
         "Speculative Decoding",
         "KV Cache / Long Context",
         "Efficient Attention",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Meganeura: Portable GPU Training and Inference through Vulkan and Metal",
+      "venue": "",
+      "topic": "llm_serving / quant / kernel",
+      "arxiv": "2608.01563",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.01563",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-08-03T00:42:55Z",
+      "updated_at": "2026-08-03T00:42:55Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
         "GPU Kernel / DSL / Compiler"
       ]
     },
@@ -4149,6 +5821,51 @@
       ]
     },
     {
+      "title": "HetRoute Heterogeneous and Cost-aware Collaborative Routing Framework for Distributed Edge MoE Inference",
+      "venue": "",
+      "topic": "llm_serving / quant / moe / dist / edge",
+      "arxiv": "2608.00577",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.00577",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-08-01T10:30:01Z",
+      "updated_at": "2026-08-12T01:52:58Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "MoE Systems / Accelerators",
+        "Distributed Training / Inference",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "HCCL: Collective Communication for Meta Training and Inference Accelerators",
+      "venue": "",
+      "topic": "llm_serving",
+      "arxiv": "2608.00358",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.00358",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-08-01T00:14:41Z",
+      "updated_at": "2026-08-01T00:14:41Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference"
+      ]
+    },
+    {
       "title": "Action Chunk Scheduling for Batched Robot Policy Serving",
       "venue": "",
       "topic": "LLM serving; multimodal / MLLM; generation acceleration; Physical AI; edge / heterogeneous AI",
@@ -4169,6 +5886,48 @@
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "ResKV: Reconstructing Omitted Attention Contributions for Fixed-Budget KV Cache Compression",
+      "venue": "",
+      "topic": "llm_serving / kv",
+      "arxiv": "2607.29591",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2607.29591",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-07-31T16:16:45Z",
+      "updated_at": "2026-07-31T16:16:45Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Efficient Attention"
+      ]
+    },
+    {
+      "title": "SLIM: Saturation-Aware Lightweight Performance Modeling for LLM Serving",
+      "venue": "",
+      "topic": "llm_serving / attn / gen",
+      "arxiv": "2607.29575",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2607.29575",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-07-31T16:02:31Z",
+      "updated_at": "2026-07-31T16:02:31Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving"
       ]
     },
     {
@@ -4279,6 +6038,28 @@
       ]
     },
     {
+      "title": "A Sparse Glimpse of the Whole: Train-Free Self-Speculative Decoding",
+      "venue": "",
+      "topic": "llm_serving / kv / spec",
+      "arxiv": "2607.27735",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2607.27735",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-07-30T06:16:56Z",
+      "updated_at": "2026-07-30T06:16:56Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Speculative Decoding",
+        "Sparsity / Pruning"
+      ]
+    },
+    {
       "title": "TurboVLA: Real-Time Vision-Language-Action Model at 32 Hz on an RTX 4090 with <1 GB VRAM",
       "venue": "",
       "topic": "LLM serving; multimodal / MLLM; generation acceleration; Physical AI",
@@ -4298,6 +6079,49 @@
         "LLM Serving",
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "A Photonic-CXL Memory Appliance for Scalable KV Cache Management in LLM Inference",
+      "venue": "",
+      "topic": "llm_serving / kv",
+      "arxiv": "2607.27187",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2607.27187",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-07-29T17:55:38Z",
+      "updated_at": "2026-07-29T17:55:38Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "InferScale: GPU-Native KV Injection for Personalized LLM Serving",
+      "venue": "",
+      "topic": "llm_serving / gen",
+      "arxiv": "2607.27090",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2607.27090",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-07-29T16:18:22Z",
+      "updated_at": "2026-07-29T16:18:22Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler"
       ]
     },
     {
@@ -4326,6 +6150,28 @@
       ]
     },
     {
+      "title": "From Tokens to Watt-hours: Analytical Energy Estimation for LLM Inference on Modern GPUs",
+      "venue": "",
+      "topic": "llm_serving / edge",
+      "arxiv": "2607.26571",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2607.26571",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-07-29T07:50:55Z",
+      "updated_at": "2026-07-29T07:50:55Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "DualDecoder: Accelerate Long Context LLM Inference by Predictive Prefetch",
       "venue": "",
       "topic": "LLM serving; KV cache / long context; agent systems",
@@ -4348,6 +6194,48 @@
       ]
     },
     {
+      "title": "CONQuER: Hardware-Aware Mixed-Precision Quantisation with Online-Calibrated Surrogates",
+      "venue": "",
+      "topic": "kernel / edge",
+      "arxiv": "2607.25884",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2607.25884",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-07-28T15:45:26Z",
+      "updated_at": "2026-07-28T15:45:26Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "At-the-Roofline Sparse Tensor Contractions on Vector Processors for Transformer Inference",
+      "venue": "",
+      "topic": "sparse",
+      "arxiv": "2607.25504",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2607.25504",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-07-28T09:38:42Z",
+      "updated_at": "2026-07-28T09:38:42Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Sparsity / Pruning"
+      ]
+    },
+    {
       "title": "Beyond Prefill-Decode Disaggregation: Dissecting LLM Inference for Heterogeneous Platforms via Dynamic Operator Scheduling",
       "venue": "",
       "topic": "LLM serving; generation acceleration; edge / heterogeneous AI",
@@ -4366,6 +6254,296 @@
       "directions": [
         "LLM Serving",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "DraftExpert: Expansion-Aware Self-Speculative Decoding for End-Device MoE Inference",
+      "venue": "",
+      "topic": "llm_serving / spec / moe / edge",
+      "arxiv": "2607.24434",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2607.24434",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-07-27T13:44:42Z",
+      "updated_at": "2026-07-27T13:44:42Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Speculative Decoding",
+        "MoE Systems / Accelerators",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "KAP: Bridging the Knowledge Selection-Runtime Consumption Gap in LLM Systems",
+      "venue": "",
+      "topic": "llm_serving / kv / kernel",
+      "arxiv": "2607.24260",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2607.24260",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-07-27T10:51:38Z",
+      "updated_at": "2026-07-27T10:51:38Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "A Motion-Aware Vector Quantization Framework with Centroid Reuse for Efficient VLA Inference",
+      "venue": "",
+      "topic": "llm_serving / quant / multimodal / physical",
+      "arxiv": "2607.24148",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2607.24148",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-07-27T08:29:05Z",
+      "updated_at": "2026-07-27T08:29:05Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Sol-Attn: Accelerating Video Generation Inference via On-the-Fly Attention Sparsification",
+      "venue": "",
+      "topic": "llm_serving / sparse / gen",
+      "arxiv": "2607.24027",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2607.24027",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-07-27T05:53:28Z",
+      "updated_at": "2026-07-27T05:53:28Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Efficient Attention",
+        "Video / Image Generation"
+      ]
+    },
+    {
+      "title": "SpecBox: Speculative Sandbox Scheduling for Efficient LLM Agent Serving",
+      "venue": "",
+      "topic": "llm_serving / agent",
+      "arxiv": "2607.23933",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2607.23933",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-07-27T02:10:35Z",
+      "updated_at": "2026-08-05T01:08:13Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Speculative Decoding",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Kalypso: Relational LLM Serving",
+      "venue": "",
+      "topic": "llm_serving",
+      "arxiv": "2607.23815",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2607.23815",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-07-26T19:29:31Z",
+      "updated_at": "2026-08-14T00:14:29Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving"
+      ]
+    },
+    {
+      "title": "Gleam: Adaptive Network-Efficient CUDA API Remoting for Cross-Device GPU Sharing over LANs",
+      "venue": "",
+      "topic": "llm_serving / dist / gen / edge",
+      "arxiv": "2607.23115",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2607.23115",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-07-25T09:06:47Z",
+      "updated_at": "2026-07-25T09:06:47Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Decoding the Skew: Distribution-Aware MoE Inference with Adaptive Kernel Dispatch",
+      "venue": "",
+      "topic": "llm_serving / moe",
+      "arxiv": "2607.23099",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2607.23099",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-07-25T08:20:47Z",
+      "updated_at": "2026-07-28T02:21:18Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "MoE Systems / Accelerators",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Structured Redundancy Modeling for Efficient Visual Token Pruning in High-Resolution MLLMs",
+      "venue": "",
+      "topic": "llm_serving / sparse / multimodal / edge",
+      "arxiv": "2607.23046",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2607.23046",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-07-25T05:08:22Z",
+      "updated_at": "2026-07-25T05:08:22Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Multimodal / MLLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "FusionML: Prefill, Not Decode - Mechanism and Boundaries of CPU+GPU Co-Execution on Unified-Memory Apple Silicon",
+      "venue": "",
+      "topic": "llm_serving / edge",
+      "arxiv": "2607.22785",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2607.22785",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-07-24T11:42:17Z",
+      "updated_at": "2026-07-24T11:42:17Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "HEMERA: A Heterogeneous Memory-Centric Accelerator with Recursive Dataflow for Edge-Constrained State-Space-Duality Models Inference",
+      "venue": "",
+      "topic": "llm_serving / edge",
+      "arxiv": "2607.22022",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2607.22022",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-07-24T06:40:36Z",
+      "updated_at": "2026-07-24T06:40:36Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Unified Static-Dynamic Pruning for Efficient LLM Inference",
+      "venue": "",
+      "topic": "llm_serving / sparse / kernel / edge",
+      "arxiv": "2607.21985",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2607.21985",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-07-24T05:19:41Z",
+      "updated_at": "2026-08-09T02:31:31Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation",
+      "venue": "",
+      "topic": "llm_serving / sparse / attn / kernel / gen",
+      "arxiv": "2607.21553",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2607.21553",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
+      "published_at": "2026-07-23T17:36:05Z",
+      "updated_at": "2026-07-23T17:36:05Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler",
+        "Video / Image Generation"
       ]
     }
   ]

@@ -1,26 +1,39 @@
 # 04 · Quantization
 
-> **89 canonical papers** mapped here, plus a broader **13-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **91 canonical papers** mapped here, plus a broader **26-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 13 tracked
+## 🆕 Latest 30 Days · 26 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **P0 · Strong** | **Pre-Compiled Pipeline Shards for Distributed LLM Inference on Intel AI PC Fleets** | Fresh / preprint | distributed LLM inference / edge AI PC fleet / speculative decoding | [Link](https://arxiv.org/abs/2608.19147) | [Repo](https://github.com/labscommunity/pipeline-sharded-inference-paper) |
+| **P0 · Strong** | **FlashAttention for Scalable Vector Architectures** | Fresh / preprint | efficient attention / CPU vector architecture / llama.cpp | [Link](https://arxiv.org/abs/2608.18656) | — |
+| **P1 · Watch** | **Cacheable by Design? Training Mixture-of-Experts Routers for Locality Against the Edge Memory-Bandwidth Wall: A Pre-Registered Negative Result with a Systems Measurement Study** | Fresh / preprint | edge MoE serving / expert caching / memory bandwidth | [Link](https://arxiv.org/abs/2608.18261) | — |
+| **P0 · Strong** | **Efficient INT8 Inference of Small NLP Models on Server CPUs with PyTorch Native Stack** | Fresh / preprint | CPU INT8 inference / PyTorch-TorchAO / TorchInductor | [Link](https://arxiv.org/abs/2608.18182) | — |
 | **P0 · Strong** | **TileMix: Tile-Centric Mixed-Precision Attention for LLM Inference Acceleration** | Fresh / preprint | mixed-precision attention kernel / long-context inference | [Link](https://arxiv.org/abs/2608.17336) | — |
+| **P1 · Watch** | **KernelArc: A Multi-Agent Framework for GPU Kernel Optimization** | Fresh / preprint | GPU kernel / agentic optimization / H100-B200 | [Link](https://arxiv.org/abs/2608.17071) | — |
+| **P2 · Relevant** | **Nexus: Structured Synergy for Efficient Text-to-Image Generation using Rectified Flow Model** | Fresh / preprint | image generation / sparse architecture / low-bit / flow matching | [Link](https://arxiv.org/abs/2608.16104) | — |
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 | **P0 · Strong** | **FluxBin: Flexible LUT-based Ultra-low-bit LLM Inference by Algorithm-Kernel Synergy** | Fresh / preprint | LLM quantization / CUDA kernel co-design | [Link](https://arxiv.org/abs/2608.15602) | — |
 | **P1 · Watch** | **FlashQuant: Sparse-Dense Fusion for Memory-Efficient Outlier-Aware LLM Inference** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.15531) | — |
 | **P0 · Strong** | **Every Expert Counts: ExactMoE for Memory-Efficient W4A16 Inference** | Fresh / preprint | MoE memory-efficient W4A16 inference / GPU slot cache | [Link](https://arxiv.org/abs/2608.15383) | — |
+| **P2 · Relevant** | **Spec Sheets Are Not Kernels: An ISA- and Source-Level Audit of INT8 Availability on NVIDIA Blackwell Ultra** | Fresh / preprint | llm_serving / quant / kernel / gen | [Link](https://arxiv.org/abs/2608.11693) | — |
+| **P2 · Relevant** | **UnionSparse: An Index-Efficient Sparsity Framework for Low-Bit Sparse LLM Inference on Edge** | Fresh / preprint | llm_serving / quant / sparse | [Link](https://arxiv.org/abs/2608.09291) | — |
 | **P1 · Watch** | **Spend Bits Where Queries Look: KV Cache Vector Quantization with Attention-Preserving Transforms** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.04074) | — |
 | **P2 · Relevant** | **When Does Disaggregation Pay? Simulating Prefill--Decode--Attention--FFN Specialization for Agentic LLM Inference** | Fresh / preprint | LLM serving; quantization; generation acceleration; agent systems; edge / heterogeneous AI | [Link](https://arxiv.org/abs/2608.03741) | — |
 | **P2 · Relevant** | **TaskPress: Query-Agnostic KV Cache Compression via Task-Guided Pruning** | Fresh / preprint | KV cache / long context; quantization; sparsity / pruning; generation acceleration; edge / heterogeneous AI | [Link](https://arxiv.org/abs/2608.03276) | — |
+| **P2 · Relevant** | **LowRank-SSM: Hardware-Software Co-Design for Rank-Reduced Mamba Acceleration on FPGA** | Fresh / preprint | llm_serving / quant / sparse / edge | [Link](https://arxiv.org/abs/2608.02954) | — |
 | **P2 · Relevant** | **EchoCache: Energy-Guided Cross-Modal Caching for Efficient Audio-Driven Video Generation** | Fresh / preprint | LLM serving; quantization; generation acceleration | [Link](https://arxiv.org/abs/2608.02474) | — |
+| **P2 · Relevant** | **Output-Aware Rotation for INT2 KV-Cache Quantization** | Fresh / preprint | llm_serving / kv / quant | [Link](https://arxiv.org/abs/2608.02691) | — |
+| **P2 · Relevant** | **Meganeura: Portable GPU Training and Inference through Vulkan and Metal** | Fresh / preprint | llm_serving / quant / kernel | [Link](https://arxiv.org/abs/2608.01563) | — |
 | **P2 · Relevant** | **CascadeLUT: Information-Ordered Streaming Inference for Bandwidth-Constrained FPGAs** | Fresh / preprint | LLM serving; quantization; edge / heterogeneous AI | [Link](https://arxiv.org/abs/2608.00720) | — |
+| **P2 · Relevant** | **HetRoute Heterogeneous and Cost-aware Collaborative Routing Framework for Distributed Edge MoE Inference** | Fresh / preprint | llm_serving / quant / moe / dist / edge | [Link](https://arxiv.org/abs/2608.00577) | — |
 | **P2 · Relevant** | **QuantWAMs: Calibrating at the Right Granularity for World Action Models** | Fresh / preprint | quantization; generation acceleration; Physical AI | [Link](https://arxiv.org/abs/2607.28405) | — |
 | **P0 · Strong** | **GyRot: Leveraging Hidden Synergy between Rotation and Fine-grained Group Quantization for Low-bit LLM Inference** | HPCA 2026 | low-bit LLM quantization / accelerator co-design | [Link](https://arxiv.org/abs/2607.27694) | — |
+| **P2 · Relevant** | **CONQuER: Hardware-Aware Mixed-Precision Quantisation with Online-Calibrated Surrogates** | Fresh / preprint | kernel / edge | [Link](https://arxiv.org/abs/2607.25884) | — |
+| **P2 · Relevant** | **A Motion-Aware Vector Quantization Framework with Centroid Reuse for Efficient VLA Inference** | Fresh / preprint | llm_serving / quant / multimodal / physical | [Link](https://arxiv.org/abs/2607.24148) | — |
 
 ## 🏛️ Classical / Historical · 83 canonical
 

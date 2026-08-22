@@ -1,10 +1,10 @@
 # 02 · Speculative Decoding
 
-> **98 canonical papers** mapped here, plus a broader **8-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **98 canonical papers** mapped here, plus a broader **12-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 8 tracked
+## 🆕 Latest 30 Days · 12 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -13,9 +13,13 @@
 | **P1 · Watch** | **S2-MoE: Enabling Efficient Self-Speculative Decoding for Mixture-of-Experts on Edge Devices** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.15018) | — |
 | **P2 · Relevant** | **MemSpec: Memory-Aware Runtime for Adaptive Draft Scheduling in Speculative Decoding on Edge Devices** | Fresh / preprint | LLM serving; speculative decoding; generation acceleration; edge / heterogeneous AI | [Link](https://arxiv.org/abs/2608.10362) | — |
 | **P2 · Relevant** | **OasisKV: Scaling In-Decode KV Cache Beyond HBM with Lookahead Sparse Prefetching** | Fresh / preprint | LLM serving; KV cache / long context; speculative decoding; sparsity / pruning; efficient attention | [Link](https://arxiv.org/abs/2608.08097) | — |
+| **P2 · Relevant** | **BALANCE: Hybrid Autoregressive-Speculative LLM Inference in Wireless Edge Networks** | Fresh / preprint | llm_serving / spec / edge | [Link](https://arxiv.org/abs/2608.05926) | — |
 | **P2 · Relevant** | **EdgeXpert: An Edge Device for Memory-Efficient LLM Inference with Mixture-of-Experts and Speculative Decoding** | Fresh / preprint | LLM serving; speculative decoding; MoE systems; generation acceleration; edge / heterogeneous AI | [Link](https://arxiv.org/abs/2608.05303) | — |
 | **P2 · Relevant** | **Deltoris: Enabling Real-time VLA Inference in Embodied AI via Bit-level Sparsity and Speculative Inference** | Fresh / preprint | LLM serving; speculative decoding; sparsity / pruning; multimodal / MLLM; Physical AI; edge / heterogeneous AI | [Link](https://arxiv.org/abs/2608.04428) | — |
 | **P2 · Relevant** | **Bole: Efficient Tree Speculation for Hybrid-Attention Language Models** | Fresh / preprint | LLM serving; KV cache / long context; speculative decoding; efficient attention; GPU kernel / compiler | [Link](https://arxiv.org/abs/2608.01651) | — |
+| **P2 · Relevant** | **A Sparse Glimpse of the Whole: Train-Free Self-Speculative Decoding** | Fresh / preprint | llm_serving / kv / spec | [Link](https://arxiv.org/abs/2607.27735) | — |
+| **P2 · Relevant** | **DraftExpert: Expansion-Aware Self-Speculative Decoding for End-Device MoE Inference** | Fresh / preprint | llm_serving / spec / moe / edge | [Link](https://arxiv.org/abs/2607.24434) | — |
+| **P2 · Relevant** | **SpecBox: Speculative Sandbox Scheduling for Efficient LLM Agent Serving** | Fresh / preprint | llm_serving / agent | [Link](https://arxiv.org/abs/2607.23933) | — |
 
 ## 🏛️ Classical / Historical · 96 canonical
 

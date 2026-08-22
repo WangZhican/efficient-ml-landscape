@@ -13250,6 +13250,27 @@
     ]
   },
   {
+    "title": "A Thread-Register Decoupled GPU Execution Model for Efficient Tensor Computation",
+    "venue": "",
+    "topic": "GPU execution architecture / tensor cores / LLM serving",
+    "arxiv": "2608.19628",
+    "doi": "",
+    "official_id": "",
+    "paper_url": "https://arxiv.org/abs/2608.19628",
+    "code_url": "",
+    "formal_class": "STRONG_CURRENT",
+    "decision": "PROMOTE_STRONG",
+    "why": "FIBER decouples execution instances from private registers and adds fine-grained register/dataflow scheduling; reports 1.8x-2.25x end-to-end mixed-precision LLM-serving speedups across Ampere/Hopper/Blackwell.",
+    "published_at": "2026-08-20T04:35:13Z",
+    "updated_at": "2026-08-20T04:35:13Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification",
     "venue": "",
     "topic": "VLA speculative inference / algorithm-architecture co-design",
@@ -13457,6 +13478,28 @@
     ]
   },
   {
+    "title": "Efficient INT8 Inference of Small NLP Models on Server CPUs with PyTorch Native Stack",
+    "venue": "",
+    "topic": "CPU INT8 inference / PyTorch-TorchAO / TorchInductor",
+    "arxiv": "2608.18182",
+    "doi": "",
+    "official_id": "",
+    "paper_url": "https://arxiv.org/abs/2608.18182",
+    "code_url": "",
+    "formal_class": "STRONG_CURRENT",
+    "decision": "PROMOTE_STRONG",
+    "why": "Native PyTorch/TorchAO SmoothQuant path with graph fusion and optimized Intel CPU INT8 kernels; reports up to 5.8x end-to-end throughput and upstream implementation.",
+    "published_at": "2026-08-18T06:58:29Z",
+    "updated_at": "2026-08-18T06:58:29Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "ESR-HGNN: Eliminating Semantic Redundancy for Efficient Mini-batch HGNN Inference",
     "venue": "",
     "topic": "HGNN inference accelerator / redundancy-aware sampling",
@@ -13518,6 +13561,29 @@
       "Sparsity / Pruning",
       "Efficient Attention",
       "MoE Systems / Accelerators",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "FlashAttention for Scalable Vector Architectures",
+    "venue": "",
+    "topic": "efficient attention / CPU vector architecture / llama.cpp",
+    "arxiv": "2608.18656",
+    "doi": "",
+    "official_id": "",
+    "paper_url": "https://arxiv.org/abs/2608.18656",
+    "code_url": "",
+    "formal_class": "STRONG_CURRENT",
+    "decision": "PROMOTE_STRONG",
+    "why": "FlashAttention-V targets scalable vector CPUs, integrates into ggml/llama.cpp, and reports large prefill/decode kernel speedups while identifying long-vector quantization bottlenecks.",
+    "published_at": "2026-08-19T08:02:17Z",
+    "updated_at": "2026-08-19T08:02:17Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "Efficient Attention",
       "GPU Kernel / DSL / Compiler"
     ]
   },
