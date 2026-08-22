@@ -1,7 +1,9 @@
 {
   "unique_papers": 659,
+  "latest_30d_tracked_total": 99,
   "latest_30d_quality_gated": 43,
   "latest_30d_watchlist": 24,
+  "latest_30d_relevant_low_priority": 32,
   "classical_papers": 616,
   "latest_strong": 42,
   "papers_with_primary_link": 606,
@@ -25,5 +27,5 @@
     "Edge / Cloud / Heterogeneous AI": 157
   },
   "source_date_beijing": "2026-08-22",
-  "updated_at_beijing": "2026-08-22T19:02:07+08:00"
+  "updated_at_beijing": "2026-08-22T19:28:03+08:00"
 }

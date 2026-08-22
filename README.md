@@ -54,8 +54,10 @@
 | Metric | Current public view |
 |---|---:|
 | **Quality-gated unique papers** | **659** |
+| **Latest 30-day tracked total** | **99** |
 | **Latest 30-day quality-gated papers** | **43** |
 | **Latest watchlist** | **24** |
+| **Latest relevant low-priority** | **32** |
 | **Classical / historical papers** | **616** |
 | **Papers with resolved primary-source links** | **606** |
 | **Latest strong papers** | **42** |
@@ -63,7 +65,7 @@
 | **Venue/source labels represented** | **46** |
 
 > [!IMPORTANT]
-> The paper library is split into a **rolling Latest 30 Days view** for active tracking and a **Classical / Historical view** for the long-term canonical census. Official code/project repositories, open-source status, GitHub-star snapshots, and lineage annotations are enriched on top of the same validated paper base.
+> The paper library is split into a **rolling Latest 30 Days view** for active tracking and a **Classical / Historical view** for the long-term canonical census. The latest tracker is deliberately broader: **topical relevance decides visibility, while quality decides P0/P1/P2 priority**. The classical census remains quality-gated.
 
 ---
 
@@ -73,7 +75,7 @@ This is **not a flat awesome-list** and not a paper dump. The goal is to reconst
 
 > **problem → technical route → canonical paper → follow-up lineage → systems impact → open-source adoption**
 
-Every retained work is quality-gated. There is **no fixed paper-count quota**. When technical value is comparable, official open source, stronger community adoption, and higher GitHub stars receive additional weight.
+The **Classical / Historical** library is quality-gated. The **Latest 30 Days** tracker is coverage-oriented: directly relevant work is retained as P0/P1/P2 rather than disappearing below a single quality threshold. There is **no fixed paper-count quota**. When technical value is comparable, official open source, stronger community adoption, and higher GitHub stars receive additional weight.
 
 > [!NOTE]
 > **No paper PDFs are stored in this public repository.** Paper entries link to primary sources such as arXiv, official proceedings, DOI pages, and author/project pages, plus the official code repository when available.

@@ -74,8 +74,9 @@ def classify(r):
 
 
 def markdown_table(records):
-    out = ["| Paper | Venue | Topic | Paper | Code |", "|---|---|---|---|---|"]
+    out = ["| Priority | Paper | Venue | Topic | Paper | Code |", "|---|---|---|---|---|---|"]
     for r in records:
+        tier = esc(r.get("tracking_tier") or ("Canonical" if r.get("formal_class") == "CANONICAL_HIGH_VALUE" else "P0"))
         title = esc(r.get("title"))
         venue = esc(r.get("venue") or r.get("window") or "Fresh / preprint")
         topic = esc(r.get("topic"))
@@ -83,7 +84,7 @@ def markdown_table(records):
         code = code_for(r)
         paper_cell = f"[Link]({paper})" if paper else "—"
         code_cell = f"[Repo]({code})" if code else "—"
-        out.append(f"| **{title}** | {venue} | {topic} | {paper_cell} | {code_cell} |")
+        out.append(f"| **{tier}** | **{title}** | {venue} | {topic} | {paper_cell} | {code_cell} |")
     return "\n".join(out)
 
 
@@ -133,9 +134,32 @@ def public_watch_record(r):
         "code_url": code_for(r),
         "formal_class": "WATCH",
         "decision": "WATCH",
+        "tracking_tier": "P1 · Watch",
         "why": r.get("why", r.get("reason", "")),
-        "published_at": "",
-        "updated_at": "",
+        "published_at": r.get("published_utc", r.get("published_at", "")),
+        "updated_at": r.get("updated_utc", r.get("updated_at", "")),
+        "is_latest_30d": True,
+    }
+    x["directions"] = [name for _, name in classify(r)]
+    return x
+
+
+def public_low_priority_record(r):
+    x = {
+        "title": r.get("title", ""),
+        "venue": r.get("venue", ""),
+        "topic": r.get("topic", ""),
+        "arxiv": r.get("arxiv", ""),
+        "doi": r.get("doi", ""),
+        "official_id": r.get("official_id", ""),
+        "paper_url": link_for(r),
+        "code_url": code_for(r),
+        "formal_class": "RELEVANT_LOW_PRIORITY",
+        "decision": "P2_RELEVANT_LOW_PRIORITY",
+        "tracking_tier": "P2 · Relevant",
+        "why": r.get("why", r.get("reason", "")),
+        "published_at": r.get("published_utc", r.get("published_at", "")),
+        "updated_at": r.get("updated_utc", r.get("updated_at", "")),
         "is_latest_30d": True,
     }
     x["directions"] = [name for _, name in classify(r)]
@@ -143,7 +167,7 @@ def public_watch_record(r):
 
 
 def write_csv(path, records):
-    fields = ["title", "venue", "topic", "arxiv", "doi", "paper_url", "code_url", "formal_class", "decision", "published_at", "directions"]
+    fields = ["tracking_tier", "title", "venue", "topic", "arxiv", "doi", "paper_url", "code_url", "formal_class", "decision", "published_at", "directions"]
     with path.open("w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=fields, lineterminator="\n")
         w.writeheader()
@@ -163,14 +187,18 @@ def refresh_landing_counts(path, stats):
     text = re.sub(r'alt="\d+ primary links"', f'alt="{stats["papers_with_primary_link"]} primary links"', text)
     labels = {
         "Quality-gated unique papers": stats["unique_papers"],
+        "Latest 30-day tracked total": stats["latest_30d_tracked_total"],
         "Latest 30-day quality-gated papers": stats["latest_30d_quality_gated"],
         "Latest watchlist": stats["latest_30d_watchlist"],
+        "Latest relevant low-priority": stats["latest_30d_relevant_low_priority"],
         "Classical / historical papers": stats["classical_papers"],
         "Papers with resolved primary-source links": stats["papers_with_primary_link"],
         "Latest strong papers": stats["latest_strong"],
         "质量门控后的唯一论文": stats["unique_papers"],
+        "最近 30 天追踪总数": stats["latest_30d_tracked_total"],
         "最近 30 天质量门控论文": stats["latest_30d_quality_gated"],
         "最近 30 天 Watchlist": stats["latest_30d_watchlist"],
+        "最近 30 天低优先级相关论文": stats["latest_30d_relevant_low_priority"],
         "经典 / 历史论文": stats["classical_papers"],
         "已有可信一手论文链接": stats["papers_with_primary_link"],
         "最新 Strong 论文": stats["latest_strong"],
@@ -213,6 +241,7 @@ def main():
         x["published_at"] = meta.get("published", "")
         x["updated_at"] = meta.get("updated", "")
         x["is_latest_30d"] = is_latest_30d(r, recent_arxiv, source_date)
+        x["tracking_tier"] = "P0 · Strong" if x["is_latest_30d"] else "Canonical"
         x["directions"] = [name for _, name in classify(r)]
         records.append(x)
 
@@ -230,20 +259,46 @@ def main():
         if not key or key in watch_seen:
             continue
         watch_seen.add(key)
-        watch.append(public_watch_record(r))
+        x = public_watch_record(r)
+        meta = recent_arxiv.get((r.get("arxiv") or "").strip(), {})
+        x["published_at"] = x.get("published_at") or meta.get("published", "")
+        x["updated_at"] = x.get("updated_at") or meta.get("updated", "")
+        watch.append(x)
+
+    low_priority = []
+    low_seen = set()
+    blocked = seen | watch_seen
+    for r in d.get("recent_relevant_low_priority", []):
+        key = (r.get("arxiv") or "").strip() or (r.get("doi") or "").strip().lower() or norm_title(r.get("title"))
+        if not key or key in blocked or key in low_seen:
+            continue
+        low_seen.add(key)
+        x = public_low_priority_record(r)
+        meta = recent_arxiv.get((r.get("arxiv") or "").strip(), {})
+        x["published_at"] = x.get("published_at") or meta.get("published", "")
+        x["updated_at"] = x.get("updated_at") or meta.get("updated", "")
+        low_priority.append(x)
+
+    watch.sort(key=lambda r: (r.get("published_at") or "", r["title"].lower()), reverse=True)
+    low_priority.sort(key=lambda r: (r.get("published_at") or "", r["title"].lower()), reverse=True)
+    latest_tracking = latest30 + watch + low_priority
 
     (ROOT / "data").mkdir(exist_ok=True)
     (ROOT / "papers").mkdir(exist_ok=True)
 
     (ROOT / "data" / "papers.json").write_text(json.dumps(records, ensure_ascii=False, indent=2) + "\n")
     write_csv(ROOT / "data" / "papers.csv", records)
-    write_csv(ROOT / "data" / "latest_30d.csv", latest30)
+    write_csv(ROOT / "data" / "latest_30d.csv", latest_tracking)
     write_csv(ROOT / "data" / "classical.csv", classical)
     (ROOT / "data" / "latest_30d.json").write_text(json.dumps({
         "window_end_beijing": str(source_date),
         "window_start_beijing": str(source_date - timedelta(days=30)),
-        "quality_gated_papers": latest30,
-        "watchlist": watch,
+        "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
+        "tracked_total": len(latest_tracking),
+        "p0_strong_or_canonical": latest30,
+        "p1_watchlist": watch,
+        "p2_relevant_low_priority": low_priority,
+        "tracking_records": latest_tracking,
     }, ensure_ascii=False, indent=2) + "\n")
     (ROOT / "data" / "classical.json").write_text(json.dumps(classical, ensure_ascii=False, indent=2) + "\n")
 
@@ -253,19 +308,25 @@ def main():
     all_md = [
         "# 📚 Paper Library",
         "",
-        f"> **{len(records)} quality-gated papers** are split into **{len(latest30)} Latest-30-Day papers** and **{len(classical)} Classical / Historical papers** so fresh work is never buried by the long-term census.",
+        f"> **{len(records)} quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **{len(latest_tracking)} visible papers = {len(latest30)} P0 + {len(watch)} P1 + {len(low_priority)} P2**. Recent topical relevance determines visibility; quality determines tier.",
         "",
         "[← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)",
         "",
-        f"## 🆕 Latest 30 Days · {len(latest30)} quality-gated",
+        f"## 🆕 P0 · Strong / Canonical recent · {len(latest30)}",
         "",
         markdown_table(latest30),
         "",
-        f"## 🧭 Current Watchlist · {len(watch)}",
+        f"## 🧭 P1 · Watch · {len(watch)}",
         "",
-        "> Promising recent papers retained for follow-up; these are **not** counted in the quality-gated paper total until promoted.",
+        "> Clearly relevant and promising, but still awaiting stronger novelty, evidence, venue, or adoption validation.",
         "",
         markdown_table(watch),
+        "",
+        f"## 📎 P2 · Relevant, lower priority · {len(low_priority)}",
+        "",
+        "> Directly in scope and therefore retained for recall, even when current quality/impact evidence is not strong enough for Watch or Canonical promotion.",
+        "",
+        markdown_table(low_priority),
         "",
         f"## 🏛️ Classical / Historical · {len(classical)}",
         "",
@@ -277,17 +338,25 @@ def main():
     latest_md = [
         "# 🆕 Latest 30 Days",
         "",
-        f"> Rolling 30-day view ending **{source_date}**: **{len(latest30)} quality-gated papers** + **{len(watch)} watchlist papers**. This page is intentionally separate from the classical census.",
+        f"> Rolling 30-day view ending **{source_date}**: **{len(latest_tracking)} tracked papers = {len(latest30)} P0 + {len(watch)} P1 + {len(low_priority)} P2**. Topical relevance determines visibility; quality determines priority. The classical census remains stricter.",
         "",
         "[← Paper Library](ALL_PAPERS.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/latest_30d.json) · [CSV](../data/latest_30d.csv)",
         "",
-        "## Strong / Canonical recent papers",
+        "## P0 · Strong / Canonical recent papers",
         "",
         markdown_table(latest30),
         "",
-        "## Watchlist",
+        "## P1 · Watch",
+        "",
+        "> Directly relevant and promising, but still awaiting stronger novelty/evidence/adoption validation.",
         "",
         markdown_table(watch),
+        "",
+        "## P2 · Relevant, lower priority",
+        "",
+        "> Directly in scope and retained so recent recall is not sacrificed by a high quality threshold. These entries can be upgraded to P1/P0 after deeper review.",
+        "",
+        markdown_table(low_priority),
         "",
     ]
     (ROOT / "papers" / "LATEST_30D.md").write_text("\n".join(latest_md))
@@ -306,36 +375,46 @@ def main():
     (ROOT / "papers" / "CLASSICAL.md").write_text("\n".join(classical_md))
 
     bydir = defaultdict(list)
+    bydir_latest = defaultdict(list)
+    bydir_classical = defaultdict(list)
     for r in records:
         rr = dict(r)
-        # classify again on public fields to get slugs
         source_stub = {"title": r["title"], "topic": r["topic"], "venue": r["venue"], "why": r.get("why", "")}
         for slug, name in classify(source_stub):
             bydir[slug].append(rr)
+            if r.get("is_latest_30d"):
+                bydir_latest[slug].append(rr)
+            else:
+                bydir_classical[slug].append(rr)
+    for r in watch + low_priority:
+        rr = dict(r)
+        source_stub = {"title": r["title"], "topic": r["topic"], "venue": r.get("venue", ""), "why": r.get("why", "")}
+        for slug, name in classify(source_stub):
+            bydir_latest[slug].append(rr)
 
     nav_rows = []
     for idx, (slug, name, _) in enumerate(DIRECTIONS, 1):
-        rs = sorted(bydir[slug], key=lambda r: ((r.get("venue") or "zzz").lower(), r["title"].lower()))
-        rs_latest = [r for r in rs if r.get("is_latest_30d")]
-        rs_classical = [r for r in rs if not r.get("is_latest_30d")]
+        rs_latest = sorted(bydir_latest[slug], key=lambda r: (r.get("published_at") or "", r["title"].lower()), reverse=True)
+        rs_classical = sorted(bydir_classical[slug], key=lambda r: ((r.get("venue") or "zzz").lower(), r["title"].lower()))
+        canonical_total = len(bydir[slug])
         md = [
             f"# {idx:02d} · {name}",
             "",
-            f"> **{len(rs)} papers** mapped here: **{len(rs_latest)} Latest 30 Days** + **{len(rs_classical)} Classical / Historical**. Cross-direction duplication is intentional when a paper has multiple technical roles.",
+            f"> **{canonical_total} canonical papers** mapped here, plus a broader **{len(rs_latest)}-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.",
             "",
             "[← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)",
             "",
-            f"## 🆕 Latest 30 Days · {len(rs_latest)}",
+            f"## 🆕 Latest 30 Days · {len(rs_latest)} tracked",
             "",
             markdown_table(rs_latest),
             "",
-            f"## 🏛️ Classical / Historical · {len(rs_classical)}",
+            f"## 🏛️ Classical / Historical · {len(rs_classical)} canonical",
             "",
             markdown_table(rs_classical),
             "",
         ]
         (ROOT / "papers" / f"{slug}.md").write_text("\n".join(md))
-        nav_rows.append((idx, slug, name, len(rs)))
+        nav_rows.append((idx, slug, name, canonical_total, len(rs_latest)))
 
     readme = [
         "# 🧭 Research Map",
@@ -344,17 +423,17 @@ def main():
         "",
         "<div align=\"center\">",
         "",
-        f"[**🆕 Latest 30 Days · {len(latest30)}**](LATEST_30D.md) · [**🏛️ Classical · {len(classical)}**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)",
+        f"[**🆕 Latest 30 Days · {len(latest_tracking)} tracked**](LATEST_30D.md) · [**🏛️ Classical · {len(classical)}**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)",
         "",
         "</div>",
         "",
         "## Explore by direction",
         "",
-        "| # | Research direction | Papers |",
-        "|---:|---|---:|",
+        "| # | Research direction | Canonical | Latest 30d tracked |",
+        "|---:|---|---:|---:|",
     ]
-    for idx, slug, name, n in nav_rows:
-        readme.append(f"| {idx:02d} | [**{name}**]({slug}.md) | **{n}** |")
+    for idx, slug, name, canonical_n, latest_n in nav_rows:
+        readme.append(f"| {idx:02d} | [**{name}**]({slug}.md) | **{canonical_n}** | **{latest_n}** |")
     readme += [
         "",
         "> Counts are multi-label and therefore do not sum to the unique-paper total. A canonical paper can intentionally appear in several directions.",
@@ -364,7 +443,8 @@ def main():
         "- ⭐⭐⭐⭐⭐ **Must Read** — field-defining or indispensable canonical work",
         "- ⭐⭐⭐⭐ **Important** — major route node with strong systems/architecture impact",
         "- ⭐⭐⭐ **Valuable** — meaningful contribution or important branch",
-        "- 🧭 **Watch** — promising work still awaiting stronger evidence/adoption",
+        "- 🧭 **P1 Watch** — directly relevant and promising, still awaiting stronger evidence/adoption",
+        "- 📎 **P2 Relevant** — directly in scope but currently lower-priority; retained for recent recall and future upgrade review",
         "",
         "The next enrichment pass adds verified official repositories, open-source status, GitHub-star snapshots, and explicit technical lineage annotations paper by paper.",
         "",
@@ -373,8 +453,10 @@ def main():
 
     stats = {
         "unique_papers": len(records),
+        "latest_30d_tracked_total": len(latest_tracking),
         "latest_30d_quality_gated": len(latest30),
         "latest_30d_watchlist": len(watch),
+        "latest_30d_relevant_low_priority": len(low_priority),
         "classical_papers": len(classical),
         "latest_strong": sum(r.get("formal_class") == "STRONG_CURRENT" for r in latest30),
         "papers_with_primary_link": sum(bool(r["paper_url"]) for r in records),
