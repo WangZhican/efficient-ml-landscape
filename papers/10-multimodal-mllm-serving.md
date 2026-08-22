@@ -1,6 +1,6 @@
 # 10 · Multimodal / MLLM Serving
 
-> **79 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **80 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [Complete Paper List](ALL_PAPERS.md)
 
@@ -59,6 +59,7 @@
 | **Rethinking the Practicality of Vision-language-action Model: A Comprehensive Benchmark and An Improved Baseline** | ICRA 2026 | Physical AI / lightweight VLA / consumer-GPU deployment / action chunking / cross-embodiment | [Link](https://arxiv.org/abs/2602.22663) | [Repo](https://github.com/OpenHelix-Team/LLaVA-VLA) |
 | **The Better You Learn, The Smarter You Prune: Towards Efficient Vision-language-action Models via Differentiable Token Pruning** | ICRA 2026 | Physical AI / VLA / adaptive visual-token pruning / inference acceleration | [Link](https://arxiv.org/abs/2509.12594) | [Repo](https://github.com/LiAutoAD/LightVLA) |
 | **AdaToken-3D: Dynamic Spatial Gating for Efficient 3D Large Multimodal-Models Reasoning** | IROS 2025 | 3D multimodal inference / token pruning / Physical AI | [Link](https://arxiv.org/abs/2505.12782) | — |
+| **PD-VLA: Accelerating Vision-Language-Action Model Integrated with Action Chunking via Parallel Decoding** | IROS 2025 | VLA / Physical AI serving / action decoding acceleration | [Link](https://arxiv.org/abs/2503.02310) | — |
 | **AQuant: Repurposing CODEC for VLM Acceleration via Adaptive Quantization** | ISCA 2026 | VLM acceleration / adaptive quantization / hardware co-design | — | — |
 | **DiTPA: A DiT-based Action Planner Accelerator Exploiting Action-Denoising-Multimodality Redundancy for Embodied Artificial Intelligence** | ISCA 2026 | Physical AI / embodied action planner / DiT accelerator | — | — |
 | **Omni-LUT: Energy-Efficient LUT-based Accelerator with Hardware-Aware KV Cache Quantization** | ISCA 2026 | LLM inference accelerator / LUT / KV-cache quantization | — | — |

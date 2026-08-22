@@ -1,6 +1,6 @@
 # 📚 Complete Paper List
 
-> **639 quality-gated papers** exported from the validated canonical literature census. PDF binaries are not stored here; links point to primary paper sources whenever resolved.
+> **640 quality-gated papers** exported from the validated canonical literature census. PDF binaries are not stored here; links point to primary paper sources whenever resolved.
 
 [← Research Map](README.md) · [Machine-readable JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -828,6 +828,15 @@
 | **Focusing on What Matters: Object-Agent-centric Tokenization for Vision Language Action models** | CoRL 2025 | Physical AI / VLA visual-token compression / efficient training | — | — |
 | **Training Strategies for Efficient Embodied Reasoning** | CoRL 2025 | Physical AI / efficient embodied reasoning / VLA inference | — | — |
 
+## IROS 2025 · 4
+
+| Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|
+| **AdaToken-3D: Dynamic Spatial Gating for Efficient 3D Large Multimodal-Models Reasoning** | IROS 2025 | 3D multimodal inference / token pruning / Physical AI | [Link](https://arxiv.org/abs/2505.12782) | — |
+| **LightPlanner: Unleashing the Reasoning Capabilities of Lightweight Large Language Models in Task Planning** | IROS 2025 | edge-efficient embodied task planning / lightweight LLM / long-horizon memory | [Link](https://arxiv.org/abs/2503.08508) | [Repo](https://github.com/jetteezhou/LightPlanner) |
+| **PD-VLA: Accelerating Vision-Language-Action Model Integrated with Action Chunking via Parallel Decoding** | IROS 2025 | VLA / Physical AI serving / action decoding acceleration | [Link](https://arxiv.org/abs/2503.02310) | — |
+| **Task-Oriented Token Pruning for Efficient Object Detection and Segmentation** | IROS 2025 | robot perception / task-aware token pruning / Physical AI | — | — |
+
 ## KDD 2025 · 4
 
 | Paper | Venue | Topic | Paper | Code |
@@ -845,14 +854,6 @@
 | **Elastic On-Device LLM Service** | MobiCom 2025 | on-device LLM service / elastic model and prompt adaptation | [Link](https://arxiv.org/abs/2409.09071) | — |
 | **LLM-Explorer: Towards Efficient and Affordable LLM-based Exploration for Mobile Apps** | MobiCom 2025 | mobile agent / efficient LLM usage | [Link](https://arxiv.org/abs/2505.10593) | — |
 | **Modality Plug-and-Play: Runtime Modality Adaptation in LLM-Driven Autonomous Mobile Systems** | MobiCom 2025 | Physical AI / multimodal edge runtime / efficient modality adaptation | [Link](https://doi.org/10.1145/3680207.3723491) | [Repo](https://github.com/pittisl/mPnP-LLM) |
-
-## IROS 2025 · 3
-
-| Paper | Venue | Topic | Paper | Code |
-|---|---|---|---|---|
-| **AdaToken-3D: Dynamic Spatial Gating for Efficient 3D Large Multimodal-Models Reasoning** | IROS 2025 | 3D multimodal inference / token pruning / Physical AI | [Link](https://arxiv.org/abs/2505.12782) | — |
-| **LightPlanner: Unleashing the Reasoning Capabilities of Lightweight Large Language Models in Task Planning** | IROS 2025 | edge-efficient embodied task planning / lightweight LLM / long-horizon memory | [Link](https://arxiv.org/abs/2503.08508) | [Repo](https://github.com/jetteezhou/LightPlanner) |
-| **Task-Oriented Token Pruning for Efficient Object Detection and Segmentation** | IROS 2025 | robot perception / task-aware token pruning / Physical AI | — | — |
 
 ## PLDI 2026 · 2
 

@@ -5621,6 +5621,25 @@
     ]
   },
   {
+    "title": "PD-VLA: Accelerating Vision-Language-Action Model Integrated with Action Chunking via Parallel Decoding",
+    "venue": "IROS 2025",
+    "topic": "VLA / Physical AI serving / action decoding acceleration",
+    "arxiv": "2503.02310",
+    "doi": "10.1109/IROS60139.2025.11247519",
+    "official_id": "IROS2025_11247519",
+    "paper_url": "https://arxiv.org/abs/2503.02310",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Protected Physical-AI efficiency paper: training-free parallel fixed-point decoding for action-chunked autoregressive VLA inference, reporting 2.52x execution frequency on 7-DoF manipulators while preserving task performance; official IROS proceedings identity and first-party Monash publication record are verified.",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Task-Oriented Token Pruning for Efficient Object Detection and Segmentation",
     "venue": "IROS 2025",
     "topic": "robot perception / task-aware token pruning / Physical AI",

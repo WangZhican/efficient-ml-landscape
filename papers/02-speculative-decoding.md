@@ -1,6 +1,6 @@
 # 02 · Speculative Decoding
 
-> **96 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **97 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [Complete Paper List](ALL_PAPERS.md)
 
@@ -71,6 +71,7 @@
 | **QuantSpec: Self-Speculative Decoding with Hierarchical Quantized KV Cache** | ICML 2025 | speculative decoding / KV quantization | — | — |
 | **SpeCache: Speculative Key-Value Caching for Efficient Generation of LLMs** | ICML 2025 | long-context / KV cache / efficient LLM inference | — | — |
 | **Semi-Clairvoyant Scheduling of Speculative Decoding Requests to Minimize LLM Inference Latency** | IJCAI 2025 | speculative decoding / request scheduling / LLM serving | [Link](https://doi.org/10.24963/ijcai.2025/951) | — |
+| **PD-VLA: Accelerating Vision-Language-Action Model Integrated with Action Chunking via Parallel Decoding** | IROS 2025 | VLA / Physical AI serving / action decoding acceleration | [Link](https://arxiv.org/abs/2503.02310) | — |
 | **Cassandra: Enabling Reasoning LLMs at Edge via Self-Speculative Decoding** | ISCA 2026 | edge speculative reasoning + quantization + memory-system + generative inference accelerators | [Link](https://arxiv.org/abs/2605.26558) | — |
 | **HybridSpec: Exploiting Hybrid-bonding Memory to Accelerate LLM Serving through Heterogeneous Architecture and Speculative Decoding** | ISCA 2026 | speculative decoding / heterogeneous memory / LLM serving | — | — |
 | **IroKnight: Ownership-Preserving Neural Acceleration for Inference Serving** | ISCA 2026 | secure/private inference serving / accelerator architecture | [Link](https://doi.org/10.1109/ISCA66397.2026.00087) | — |

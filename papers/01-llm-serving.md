@@ -1,6 +1,6 @@
 # 01 · LLM Serving
 
-> **258 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **259 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [Complete Paper List](ALL_PAPERS.md)
 
@@ -105,6 +105,7 @@
 | **Scout Before You Attend: Sketch-and-Walk Sparse Attention for Efficient LLM Inference** | ICML 2026 | efficient attention / long-context inference | [Link](https://arxiv.org/abs/2602.07397) | — |
 | **RotateKV: Accurate and Robust 2-Bit KV Cache Quantization for LLMs via Outlier-Aware Adaptive Rotations** | IJCAI 2025 | KV-cache quantization / low-bit inference | [Link](https://arxiv.org/abs/2501.16383) | — |
 | **Semi-Clairvoyant Scheduling of Speculative Decoding Requests to Minimize LLM Inference Latency** | IJCAI 2025 | speculative decoding / request scheduling / LLM serving | [Link](https://doi.org/10.24963/ijcai.2025/951) | — |
+| **PD-VLA: Accelerating Vision-Language-Action Model Integrated with Action Chunking via Parallel Decoding** | IROS 2025 | VLA / Physical AI serving / action decoding acceleration | [Link](https://arxiv.org/abs/2503.02310) | — |
 | **Approaching Shannon Bound with Lossless LLM Weight Compression** | ISCA 2026 | lossless LLM weight compression / serving throughput | [Link](https://arxiv.org/abs/2606.15789) | — |
 | **ConServe: Contiguity-Preserving Memory Management for Multi-Turn LLM Serving** | ISCA 2026 | LLM serving / multi-turn / memory management | — | — |
 | **DynoPipe: Heterogeneous Edge-Cloud LLM Serving with Dynamically Orchestrated Pipeline Boundaries** | ISCA 2026 | edge-cloud LLM serving / heterogeneous pipeline | — | — |
