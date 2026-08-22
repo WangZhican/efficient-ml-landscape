@@ -24,7 +24,7 @@
 
 <p>
   <img src="https://img.shields.io/badge/Papers-661-7c3aed?style=for-the-badge" alt="661 papers" />
-  <img src="https://img.shields.io/badge/Primary%20Links-614-059669?style=for-the-badge" alt="614 primary links" />
+  <img src="https://img.shields.io/badge/Primary%20Links-615-059669?style=for-the-badge" alt="615 primary links" />
   <img src="https://img.shields.io/badge/Research%20Tracks-15-2563eb?style=for-the-badge" alt="15 research tracks" />
   <img src="https://img.shields.io/badge/Physical%20AI-Protected-f59e0b?style=for-the-badge" alt="Physical AI protected" />
 </p>
@@ -59,7 +59,7 @@
 | **最近 30 天 Watchlist** | **45** |
 | **最近 30 天低优先级相关论文** | **103** |
 | **经典 / 历史论文** | **615** |
-| **已有可信一手论文链接** | **614** |
+| **已有可信一手论文链接** | **615** |
 | **最新 Strong 论文** | **45** |
 | **研究方向** | **15** |
 | **已出现的 Venue/Source 标签** | **46** |
