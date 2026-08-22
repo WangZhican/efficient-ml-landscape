@@ -1,6 +1,6 @@
 # 08 · GPU Kernel / DSL / Compiler
 
-> **221 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **223 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [Complete Paper List](ALL_PAPERS.md)
 
@@ -102,6 +102,8 @@
 | **Sparse ActionGen: Accelerating Diffusion Policy with Real-time Pruning** | ICML 2026 | Physical AI / diffusion-policy acceleration / pruning+reuse | [Link](https://arxiv.org/abs/2601.12894) | — |
 | **Understand and Accelerate Memory Processing Pipeline for Large Language Model Inference** | ICML 2026 | LLM memory processing / GPU-FPGA heterogeneous acceleration | [Link](https://arxiv.org/abs/2603.29002) | — |
 | **Rethinking the Practicality of Vision-language-action Model: A Comprehensive Benchmark and An Improved Baseline** | ICRA 2026 | Physical AI / lightweight VLA / consumer-GPU deployment / action chunking / cross-embodiment | [Link](https://arxiv.org/abs/2602.22663) | [Repo](https://github.com/OpenHelix-Team/LLaVA-VLA) |
+| **Accelerating Adversarial Training on Under-Utilized GPU** | IJCAI 2025 | GPU utilization / efficient training / adversarial training | [Link](https://doi.org/10.24963/ijcai.2025/774) | [Repo](https://github.com/zxzhan/AttackRider) |
+| **Accelerating Diffusion-based Super-Resolution with Dynamic Time-Spatial Sampling** | IJCAI 2025 | diffusion acceleration / adaptive sampling / image generation efficiency | [Link](https://doi.org/10.24963/ijcai.2025/199) | — |
 | **FBQuant: FeedBack Quantization for Large Language Models** | IJCAI 2025 | LLM weight quantization / CUDA kernel | [Link](https://arxiv.org/abs/2501.16385) | — |
 | **Accelerating MoE with Dynamic In-Switch Computing on Multi-GPUs** | ISCA 2026 | MoE / multi-GPU / in-switch computing | — | — |
 | **DisDP: Disaggregating Compute, Network, and Storage for Model-Sharded Data-Parallel Training** | ISCA 2026 | distributed LLM training / disaggregation / SmartNIC-SmartSwitch | — | — |

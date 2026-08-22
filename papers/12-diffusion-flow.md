@@ -1,6 +1,6 @@
 # 12 · Diffusion / Flow Acceleration
 
-> **94 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **95 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [Complete Paper List](ALL_PAPERS.md)
 
@@ -64,6 +64,7 @@
 | **Q-VDiT: Towards Accurate Quantization and Distillation of Video-Generation Diffusion Transformers** | ICML 2025 | video diffusion quantization / distillation | — | [Repo](https://github.com/wlfeng0509/Q-VDiT) |
 | **Sparse Video-Gen: Accelerating Video Diffusion Transformers with Spatial-Temporal Sparsity** | ICML 2025 | video/image generation acceleration / efficient attention | — | — |
 | **Sparse ActionGen: Accelerating Diffusion Policy with Real-time Pruning** | ICML 2026 | Physical AI / diffusion-policy acceleration / pruning+reuse | [Link](https://arxiv.org/abs/2601.12894) | — |
+| **Accelerating Diffusion-based Super-Resolution with Dynamic Time-Spatial Sampling** | IJCAI 2025 | diffusion acceleration / adaptive sampling / image generation efficiency | [Link](https://doi.org/10.24963/ijcai.2025/199) | — |
 | **DiTPA: A DiT-based Action Planner Accelerator Exploiting Action-Denoising-Multimodality Redundancy for Embodied Artificial Intelligence** | ISCA 2026 | Physical AI / embodied action planner / DiT accelerator | — | — |
 | **HLX** | MICRO 2025 | MoE + diffusion + tensor compression + hybrid LM + reasoning + edge training acceleration | — | — |
 | **LLM.265** | MICRO 2025 | MoE + diffusion + tensor compression + hybrid LM + reasoning + edge training acceleration | — | — |

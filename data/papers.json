@@ -5488,6 +5488,40 @@
     ]
   },
   {
+    "title": "Accelerating Adversarial Training on Under-Utilized GPU",
+    "venue": "IJCAI 2025",
+    "topic": "GPU utilization / efficient training / adversarial training",
+    "arxiv": "",
+    "doi": "10.24963/ijcai.2025/774",
+    "official_id": "IJCAI25_774",
+    "paper_url": "https://www.ijcai.org/proceedings/2025/774",
+    "code_url": "https://github.com/zxzhan/AttackRider",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "AttackRider directly exploits measured GPU under-utilization to overlap adversarial-example generation and accelerate adversarial training without increasing per-call time; IJCAI main-track paper with first-party code. This is a direct Efficient-ML/GPU-utilization systems contribution rather than a generic robustness paper.",
+    "directions": [
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "Accelerating Diffusion-based Super-Resolution with Dynamic Time-Spatial Sampling",
+    "venue": "IJCAI 2025",
+    "topic": "diffusion acceleration / adaptive sampling / image generation efficiency",
+    "arxiv": "",
+    "doi": "10.24963/ijcai.2025/199",
+    "official_id": "IJCAI25_199",
+    "paper_url": "https://www.ijcai.org/proceedings/2025/199",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Training-free diffusion super-resolution acceleration using time-dynamic and spatial-dynamic sampling; achieves competitive or better perceptual quality using only half the sampling steps, directly filling the diffusion/flow acceleration direction.",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "Accurate Sublayer Pruning for Large Language Models by Exploiting Latency and Tunability Information",
     "venue": "IJCAI 2025",
     "topic": "LLM sublayer pruning / latency-aware inference acceleration",

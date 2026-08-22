@@ -1,6 +1,6 @@
 # 📚 Complete Paper List
 
-> **643 quality-gated papers** exported from the validated canonical literature census. PDF binaries are not stored here; links point to primary paper sources whenever resolved.
+> **645 quality-gated papers** exported from the validated canonical literature census. PDF binaries are not stored here; links point to primary paper sources whenever resolved.
 
 [← Research Map](README.md) · [Machine-readable JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -693,6 +693,20 @@
 | **Serving Hybrid LLM Loads with SLO Guarantees Using CPU-GPU Attention Piggybacking** | SIGMOD 2026 | LLM serving / heterogeneous CPU-GPU / SLO scheduling | [Link](https://arxiv.org/abs/2603.12831) | — |
 | **SG-Serve: Efficient Model Serving for Subgraph-based Graph Representation Learning** | SIGMOD 2026 | graph model serving / tail-latency optimization / workload-aware GPU batching | [Link](https://doi.org/10.1145/3786697) | — |
 
+## IJCAI 2025 · 9
+
+| Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|
+| **Accelerating Adversarial Training on Under-Utilized GPU** | IJCAI 2025 | GPU utilization / efficient training / adversarial training | [Link](https://doi.org/10.24963/ijcai.2025/774) | [Repo](https://github.com/zxzhan/AttackRider) |
+| **Accelerating Diffusion-based Super-Resolution with Dynamic Time-Spatial Sampling** | IJCAI 2025 | diffusion acceleration / adaptive sampling / image generation efficiency | [Link](https://doi.org/10.24963/ijcai.2025/199) | — |
+| **Accurate Sublayer Pruning for Large Language Models by Exploiting Latency and Tunability Information** | IJCAI 2025 | LLM sublayer pruning / latency-aware inference acceleration | [Link](https://arxiv.org/abs/2506.03510) | [Repo](https://github.com/snudm-starlab/SPRINT) |
+| **FBQuant: FeedBack Quantization for Large Language Models** | IJCAI 2025 | LLM weight quantization / CUDA kernel | [Link](https://arxiv.org/abs/2501.16385) | — |
+| **MPPQ: Enhancing Post-Training Quantization for LLMs via Mixed Supervision, Proxy Rounding, and Pre-Searching** | IJCAI 2025 | LLM post-training quantization / W4A4 | [Link](https://doi.org/10.24963/ijcai.2025/920) | — |
+| **Not All Layers of LLMs Are Necessary During Inference** | IJCAI 2025 | adaptive early-exit / dynamic-depth LLM inference | [Link](https://arxiv.org/abs/2403.02181) | — |
+| **RotateKV: Accurate and Robust 2-Bit KV Cache Quantization for LLMs via Outlier-Aware Adaptive Rotations** | IJCAI 2025 | KV-cache quantization / low-bit inference | [Link](https://arxiv.org/abs/2501.16383) | — |
+| **Semi-Clairvoyant Scheduling of Speculative Decoding Requests to Minimize LLM Inference Latency** | IJCAI 2025 | speculative decoding / request scheduling / LLM serving | [Link](https://doi.org/10.24963/ijcai.2025/951) | — |
+| **TreeKV: Smooth Key-Value Cache Compression with Tree Structures** | IJCAI 2025 | KV cache compression / long-context inference | [Link](https://arxiv.org/abs/2501.04987) | — |
+
 ## SC 2025 · 9
 
 | Paper | Venue | Topic | Paper | Code |
@@ -745,18 +759,6 @@
 | **Hummingbird+: Advancing FPGA-based LLM Deployment from Research Prototype to Edge Product** | FPGA 2026 | edge LLM inference / FPGA accelerator / deployment | [Link](https://doi.org/10.1145/3748173.3779189) | — |
 | **KANELÉ: Kolmogorov-Arnold Networks for Efficient LUT-based Evaluation** | FPGA 2026 | efficient FPGA ML inference / LUT neural networks | [Link](https://arxiv.org/abs/2512.12850) | — |
 | **TeLLMe: An Efficient End-to-End Ternary LLM Prefill and Decode Accelerator with Table-Lookup Matmul on Edge FPGAs** | FPGA 2026 | edge LLM inference / ternary accelerator / FPGA | [Link](https://arxiv.org/abs/2510.15926) | [Repo](https://github.com/UCI-CORSA/TeLLMe_FPGA_2026) |
-
-## IJCAI 2025 · 7
-
-| Paper | Venue | Topic | Paper | Code |
-|---|---|---|---|---|
-| **Accurate Sublayer Pruning for Large Language Models by Exploiting Latency and Tunability Information** | IJCAI 2025 | LLM sublayer pruning / latency-aware inference acceleration | [Link](https://arxiv.org/abs/2506.03510) | [Repo](https://github.com/snudm-starlab/SPRINT) |
-| **FBQuant: FeedBack Quantization for Large Language Models** | IJCAI 2025 | LLM weight quantization / CUDA kernel | [Link](https://arxiv.org/abs/2501.16385) | — |
-| **MPPQ: Enhancing Post-Training Quantization for LLMs via Mixed Supervision, Proxy Rounding, and Pre-Searching** | IJCAI 2025 | LLM post-training quantization / W4A4 | [Link](https://doi.org/10.24963/ijcai.2025/920) | — |
-| **Not All Layers of LLMs Are Necessary During Inference** | IJCAI 2025 | adaptive early-exit / dynamic-depth LLM inference | [Link](https://arxiv.org/abs/2403.02181) | — |
-| **RotateKV: Accurate and Robust 2-Bit KV Cache Quantization for LLMs via Outlier-Aware Adaptive Rotations** | IJCAI 2025 | KV-cache quantization / low-bit inference | [Link](https://arxiv.org/abs/2501.16383) | — |
-| **Semi-Clairvoyant Scheduling of Speculative Decoding Requests to Minimize LLM Inference Latency** | IJCAI 2025 | speculative decoding / request scheduling / LLM serving | [Link](https://doi.org/10.24963/ijcai.2025/951) | — |
-| **TreeKV: Smooth Key-Value Cache Compression with Tree Structures** | IJCAI 2025 | KV cache compression / long-context inference | [Link](https://arxiv.org/abs/2501.04987) | — |
 
 ## EMNLP 2025 Findings · 6
 

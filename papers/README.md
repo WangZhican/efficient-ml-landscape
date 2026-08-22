@@ -1,6 +1,6 @@
 # 🧭 Research Map
 
-> **643 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
+> **645 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
 
 <div align="center">
 
@@ -19,11 +19,11 @@
 | 05 | [**Sparsity / Pruning**](05-sparsity-pruning.md) | **92** |
 | 06 | [**Efficient Attention**](06-efficient-attention.md) | **91** |
 | 07 | [**MoE Systems / Accelerators**](07-moe-systems.md) | **55** |
-| 08 | [**GPU Kernel / DSL / Compiler**](08-gpu-kernel-compiler.md) | **221** |
+| 08 | [**GPU Kernel / DSL / Compiler**](08-gpu-kernel-compiler.md) | **223** |
 | 09 | [**Distributed Training / Inference**](09-distributed-training-inference.md) | **87** |
 | 10 | [**Multimodal / MLLM Serving**](10-multimodal-mllm-serving.md) | **80** |
-| 11 | [**Video / Image Generation**](11-video-image-generation.md) | **19** |
-| 12 | [**Diffusion / Flow Acceleration**](12-diffusion-flow.md) | **94** |
+| 11 | [**Video / Image Generation**](11-video-image-generation.md) | **20** |
+| 12 | [**Diffusion / Flow Acceleration**](12-diffusion-flow.md) | **95** |
 | 13 | [**Efficient Reasoning / Agents**](13-efficient-reasoning-agents.md) | **80** |
 | 14 | [**VLA / WAM / Physical AI**](14-physical-ai-vla-wam.md) | **38** |
 | 15 | [**Edge / Cloud / Heterogeneous AI**](15-edge-cloud-heterogeneous.md) | **151** |
