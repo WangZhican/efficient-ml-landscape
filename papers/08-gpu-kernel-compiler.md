@@ -256,8 +256,8 @@
 | **Canonical** | **Aegaeon: Effective GPU Pooling for Concurrent LLM Serving on the Market** | SOSP 2025 | LLM serving / KV / GPU systems | [Link](https://doi.org/10.1145/3731569.3764815) | — |
 | **Canonical** | **Characterizing Mobile SoC for Accelerating Heterogeneous LLM Inference** | SOSP 2025 | on-device LLM inference / heterogeneous GPU-NPU mobile SoC | [Link](https://arxiv.org/abs/2501.14794) | — |
 | **Canonical** | **DiffKV: Differentiated Memory Management for Large Language Models with Parallel KV Compaction** | SOSP 2025 | LLM serving / KV / GPU systems | [Link](https://doi.org/10.1145/3731569.3764810) | — |
-| **Canonical** | **IC-Cache: Efficient Large Language Model Serving via In-context Caching** | SOSP 2025 | LLM serving / KV / GPU systems | — | — |
-| **Canonical** | **Jenga: Effective Memory Management for Serving LLM with Heterogeneity** | SOSP 2025 | LLM serving / KV / GPU systems | — | — |
+| **Canonical** | **IC-Cache: Efficient Large Language Model Serving via In-context Caching** | SOSP 2025 | LLM serving / KV / GPU systems | [Link](https://arxiv.org/abs/2501.12689) | — |
+| **Canonical** | **Jenga: Effective Memory Management for Serving LLM with Heterogeneity** | SOSP 2025 | LLM serving / KV / GPU systems | [Link](https://arxiv.org/abs/2503.18292) | — |
 | **Canonical** | **KTransformers: Unleashing the Full Potential of CPU/GPU Hybrid Inference for MoE Models** | SOSP 2025 | LLM serving / KV / GPU systems | [Link](https://doi.org/10.1145/3731569.3764843) | — |
 | **Canonical** | **LithOS: An Operating System for Efficient Machine Learning on GPUs** | SOSP 2025 | GPU resource management / ML systems / heterogeneous AI systems | [Link](https://arxiv.org/abs/2504.15465) | — |
 | **Canonical** | **Mercury: Unlocking Multi-GPU Operator Optimization for LLMs via Remote Memory Scheduling** | SOSP 2025 | LLM serving / KV / GPU systems | [Link](https://doi.org/10.1145/3731569.3764798) | [Repo](https://github.com/ChandlerGuan/mercury_artifact) |
