@@ -1,6 +1,6 @@
 # 09 · Distributed Training / Inference
 
-> **88 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **90 papers** currently mapped to this direction. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [Complete Paper List](ALL_PAPERS.md)
 
@@ -20,6 +20,8 @@
 | **Crimson: Collaborative Parameter Updates for Efficient Pipeline Training of Large Language Models** | EuroSys 2026 | LLM distributed training / pipeline parallelism / collaborative parameter updates | [Link](https://doi.org/10.1145/3767295.3803606) | — |
 | **FlexPipe: Adapting Dynamic LLM Serving Through Inflight Pipeline Refactoring in Fragmented Serverless Clusters** | EuroSys 2026 | LLM serving / serverless / pipeline parallelism | [Link](https://arxiv.org/abs/2510.11938) | — |
 | **MegaScale-MoE: Large-Scale Communication-Efficient Training of Mixture-of-Experts Models in Production** | EuroSys 2026 | MoE training systems / communication optimization | [Link](https://arxiv.org/abs/2505.11432) | — |
+| **AdaCheck: An Adaptive Checkpointing System for Efficient LLM Training with Redundancy Utilization** | FAST 2026 | LLM training / checkpointing / distributed training / fault tolerance | — | — |
+| **Preparation Meets Opportunity: Enhancing Data Preprocessing for ML Training With Seneca** | FAST 2026 | distributed ML training / data preprocessing / dataloader caching / training systems | — | [Repo](https://github.com/swiftomkar/seneca-fast26-pytorch) |
 | **Enabling Efficient SpMM for Sparse Attention on GEMM-Optimized Hardware with Block Aggregation** | FPGA 2026 | sparse attention / FPGA / SpMM-GEMM transformation | [Link](https://doi.org/10.1145/3748173.3779187) | — |
 | **AutoHAAP: Automated Heterogeneity-Aware Asymmetric Partitioning for LLM Training** | HPCA 2026 | heterogeneous distributed LLM training / partition search | [Link](https://doi.org/10.1109/HPCA68181.2026.11408533) | — |
 | **Compression-Aware Gradient Splitting for Collective Communications in Distributed Training** | HPCA 2026 | distributed training / compressed collective communication | [Link](https://doi.org/10.1109/HPCA68181.2026.11408444) | — |

@@ -1,6 +1,6 @@
 # 📚 Complete Paper List
 
-> **656 quality-gated papers** exported from the validated canonical literature census. PDF binaries are not stored here; links point to primary paper sources whenever resolved.
+> **659 quality-gated papers** exported from the validated canonical literature census. PDF binaries are not stored here; links point to primary paper sources whenever resolved.
 
 [← Research Map](README.md) · [Machine-readable JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -737,6 +737,19 @@
 | **PEACE: Power and Performance Aware Colocation for Efficient GPU Spatial Partitioning** | SoCC 2026 | KV virtualization + long-context serving + GPU colocation + on-device adaptation | [Link](https://doi.org/10.1145/3815789.3827949) | — |
 | **Tessera: Contract-Driven Cost–SLO Optimization for Multi-tenant GPU Clouds** | SoCC 2026 | multi-tenant GPU cloud / cost-SLO optimization / AI infrastructure scheduling | — | — |
 
+## FAST 2026 · 8
+
+| Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|
+| **Accelerating Model Loading in LLM Inference by Programmable Page Cache** | FAST 2026 | LLM inference / model loading / programmable page cache | — | — |
+| **AdaCheck: An Adaptive Checkpointing System for Efficient LLM Training with Redundancy Utilization** | FAST 2026 | LLM training / checkpointing / distributed training / fault tolerance | — | — |
+| **Bidaw: Enhancing Key-Value Caching for Interactive LLM Serving via Bidirectional Computation–Storage Awareness** | FAST 2026 | LLM serving / two-tier KV cache / compute-storage co-design | — | — |
+| **CacheSlide: Unlocking Cross Position-Aware KV Cache Reuse for Accelerating LLM Serving** | FAST 2026 | LLM serving / KV-cache reuse / agent workloads | — | — |
+| **Fast Cloud Storage for AI Jobs via Grouped I/O API with Transparent Read/Write Optimizations** | FAST 2026 | AI infrastructure / training storage / KV-cache I/O | — | — |
+| **GPU Checkpoint/Restore Made Fast and Lightweight** | FAST 2026 | GPU systems / checkpoint restore / elasticity / fault tolerance / ML infrastructure | — | — |
+| **Preparation Meets Opportunity: Enhancing Data Preprocessing for ML Training With Seneca** | FAST 2026 | distributed ML training / data preprocessing / dataloader caching / training systems | — | [Repo](https://github.com/swiftomkar/seneca-fast26-pytorch) |
+| **SolidAttention: Low-Latency SSD-based Serving on Memory-Constrained PCs** | FAST 2026 | LLM serving / sparse attention / SSD KV-cache offload | — | — |
+
 ## MobiCom 2025 · 8
 
 | Paper | Venue | Topic | Paper | Code |
@@ -829,16 +842,6 @@
 | **RIO: Flexible Real-Time Robot I/O for Cross-Embodiment Robot Learning** | RSS 2026 | Physical AI runtime / cross-embodiment VLA deployment / real-time robot I/O | [Link](https://arxiv.org/abs/2605.11564) | [Repo](https://github.com/robot-i-o/rio) |
 | **RLinf-USER: A Unified and Extensible System for Real-World Online Policy Learning in Embodied AI** | RSS 2026 | Physical AI systems / multi-robot online learning / edge-cloud scheduling | [Link](https://arxiv.org/abs/2602.07837) | [Repo](https://github.com/RLinf/RLinf) |
 | **RLux-VLA: A Unified and Efficient Framework for Reinforcement Learning of Vision-Language-Action Models** | RSS 2026 | Physical AI / VLA RL systems / scalable training | [Link](https://arxiv.org/abs/2510.06710) | — |
-
-## FAST 2026 · 5
-
-| Paper | Venue | Topic | Paper | Code |
-|---|---|---|---|---|
-| **Accelerating Model Loading in LLM Inference by Programmable Page Cache** | FAST 2026 | LLM inference / model loading / programmable page cache | — | — |
-| **Bidaw: Enhancing Key-Value Caching for Interactive LLM Serving via Bidirectional Computation–Storage Awareness** | FAST 2026 | LLM serving / two-tier KV cache / compute-storage co-design | — | — |
-| **CacheSlide: Unlocking Cross Position-Aware KV Cache Reuse for Accelerating LLM Serving** | FAST 2026 | LLM serving / KV-cache reuse / agent workloads | — | — |
-| **Fast Cloud Storage for AI Jobs via Grouped I/O API with Transparent Read/Write Optimizations** | FAST 2026 | AI infrastructure / training storage / KV-cache I/O | — | — |
-| **SolidAttention: Low-Latency SSD-based Serving on Memory-Constrained PCs** | FAST 2026 | LLM serving / sparse attention / SSD KV-cache offload | — | — |
 
 ## VLSI Symposium 2026 · 5
 

@@ -3532,6 +3532,24 @@
     ]
   },
   {
+    "title": "AdaCheck: An Adaptive Checkpointing System for Efficient LLM Training with Redundancy Utilization",
+    "venue": "FAST 2026",
+    "topic": "LLM training / checkpointing / distributed training / fault tolerance",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX_FAST26_315969",
+    "paper_url": "https://www.usenix.org/conference/fast26/presentation/liu-weijie",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "FAST 2026 LLM-training infrastructure paper. AdaCheck models tensor redundancy across parallel strategies, architectures and iterations to minimize checkpoint state and supports irregular planner-generated parallelism plus dense/sparse models. USENIX reports 6-896x checkpoint-size reduction and 1.46-111x higher checkpoint frequency with almost no training-throughput overhead.",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "Bidaw: Enhancing Key-Value Caching for Interactive LLM Serving via Bidirectional Computation–Storage Awareness",
     "venue": "FAST 2026",
     "topic": "LLM serving / two-tier KV cache / compute-storage co-design",
@@ -3581,6 +3599,39 @@
     "why": "AITURBO uses accelerator compute fabric plus grouped I/O API to optimize checkpoint and KV-cache reads/writes in disaggregated cloud storage and is deployed for AI training in Huawei Cloud.",
     "directions": [
       "KV Cache / Long Context"
+    ]
+  },
+  {
+    "title": "GPU Checkpoint/Restore Made Fast and Lightweight",
+    "venue": "FAST 2026",
+    "topic": "GPU systems / checkpoint restore / elasticity / fault tolerance / ML infrastructure",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX_FAST26_315945",
+    "paper_url": "https://www.usenix.org/conference/fast26/presentation/zeng",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "FAST 2026 Distinguished Artifact Award system paper for application-transparent GPU checkpoint/restore. GCR uses control/data separation plus CPU shadow execution for incremental dirty-state tracking; USENIX reports 72.1%/63.6% lower checkpoint latency than cuda-ckpt/PhOS, 54.2%/87.1% lower restore latency, <1% normal-execution overhead, and 86.6% smaller incremental checkpoints. Direct GPU/AI infrastructure for elastic and fault-tolerant workloads.",
+    "directions": [
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "Preparation Meets Opportunity: Enhancing Data Preprocessing for ML Training With Seneca",
+    "venue": "FAST 2026",
+    "topic": "distributed ML training / data preprocessing / dataloader caching / training systems",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX_FAST26_315316",
+    "paper_url": "https://www.usenix.org/conference/fast26/presentation/desai",
+    "code_url": "https://github.com/swiftomkar/seneca-fast26-pytorch",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "FAST 2026 ML-training systems paper. Seneca jointly optimizes cache partitioning across encoded/decoded/augmented data and opportunistic sampling in the PyTorch data-ingestion pipeline; official evaluation reports 45.23% lower makespan than PyTorch and up to 3.45x data-processing throughput over the next-best dataloader. This is a direct AI-training infrastructure contribution, not generic storage.",
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference"
     ]
   },
   {
