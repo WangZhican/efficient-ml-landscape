@@ -1,26 +1,26 @@
 {
-  "unique_papers": 633,
+  "unique_papers": 638,
   "latest_strong": 42,
-  "papers_with_primary_link": 580,
+  "papers_with_primary_link": 585,
   "papers_with_verified_code_link": 72,
   "venues": 46,
   "direction_counts": {
-    "LLM Serving": 256,
-    "Speculative Decoding": 95,
-    "KV Cache / Long Context": 175,
-    "Quantization": 82,
+    "LLM Serving": 257,
+    "Speculative Decoding": 96,
+    "KV Cache / Long Context": 176,
+    "Quantization": 84,
     "Sparsity / Pruning": 92,
-    "Efficient Attention": 89,
+    "Efficient Attention": 90,
     "MoE Systems / Accelerators": 55,
-    "GPU Kernel / DSL / Compiler": 218,
-    "Distributed Training / Inference": 84,
+    "GPU Kernel / DSL / Compiler": 219,
+    "Distributed Training / Inference": 85,
     "Multimodal / MLLM Serving": 79,
     "Video / Image Generation": 19,
-    "Diffusion / Flow Acceleration": 93,
+    "Diffusion / Flow Acceleration": 94,
     "Efficient Reasoning / Agents": 80,
     "VLA / WAM / Physical AI": 37,
-    "Edge / Cloud / Heterogeneous AI": 148
+    "Edge / Cloud / Heterogeneous AI": 149
   },
   "source_date_beijing": "2026-08-22",
-  "updated_at_beijing": "2026-08-22T10:03:56+08:00"
+  "updated_at_beijing": "2026-08-22T11:00:06+08:00"
 }

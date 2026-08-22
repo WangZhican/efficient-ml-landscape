@@ -2258,6 +2258,41 @@
     ]
   },
   {
+    "title": "3D-TokSIM: Stacking 3D Memory with Token-Stationary Compute-in-Memory for Speculative LLM Inference",
+    "venue": "DAC 2025",
+    "topic": "speculative decoding / 3D memory / compute-in-memory accelerator",
+    "arxiv": "",
+    "doi": "10.1109/DAC63849.2025.11132883",
+    "official_id": "DAC2025_3D-TokSIM",
+    "paper_url": "https://doi.org/10.1109/DAC63849.2025.11132883",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "DAC 2025 cross-stack speculative-LLM accelerator using 3D memory and token-stationary CIM; PKU institutional record reports 15.1x throughput and 324x energy-efficiency improvement over RTX 3090 for speculative Llama2-7B decoding.",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding"
+    ]
+  },
+  {
+    "title": "A Memory-Efficient LLM Accelerator with Q-K Correlation Prediction using Cluster-Based Associative Array for Selective KV Accessing",
+    "venue": "DAC 2025",
+    "topic": "KV cache / selective attention / LLM accelerator",
+    "arxiv": "",
+    "doi": "10.1109/DAC63849.2025.11133377",
+    "official_id": "DAC2025_RESEARCH1279",
+    "paper_url": "https://62dac.conference-program.com/presentation/?id=RESEARCH1279&sess=sess111",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "DAC 2025 Sella hardware-software co-design predicts Q-K correlations for selective KV access; official DAC/IEEE evidence reports up to 66% lower off-chip memory access and 2.1x speedup over SpAtten with negligible accuracy loss.",
+    "directions": [
+      "KV Cache / Long Context",
+      "Efficient Attention",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "AASD: Accelerate Inference by Aligning Speculative Decoding in Multimodal Large Language Models",
     "venue": "DAC 2025",
     "topic": "multimodal LLM inference / speculative decoding / alignment-aware acceleration",
@@ -2292,6 +2327,23 @@
     ]
   },
   {
+    "title": "BBAL: A Bidirectional Block Floating Point-Based Quantisation Accelerator for Large Language Models",
+    "venue": "DAC 2025",
+    "topic": "quantization / LLM accelerator / edge inference",
+    "arxiv": "2504.15721",
+    "doi": "10.1109/DAC63849.2025.11132978",
+    "official_id": "DAC2025_BBAL",
+    "paper_url": "https://arxiv.org/abs/2504.15721",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "DAC 2025 full-stack bidirectional block-floating-point quantization accelerator for LLMs; primary arXiv reports 22% accuracy improvement at similar efficiency versus an outlier-aware accelerator and 40% efficiency improvement at similar accuracy versus a BFP accelerator.",
+    "directions": [
+      "Quantization",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "HybriMoE: Hybrid CPU-GPU Scheduling and Cache Management for Efficient MoE Inference",
     "venue": "DAC 2025",
     "topic": "MoE inference / hybrid CPU-GPU scheduling / expert prefetch and cache management",
@@ -2308,6 +2360,39 @@
       "MoE Systems / Accelerators",
       "GPU Kernel / DSL / Compiler",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Precon: A Precision-Convertible Architecture for Accelerating Quantized Deep Learning Models across Various Domains Including LLMs",
+    "venue": "DAC 2025",
+    "topic": "quantization / accelerator / mixed precision",
+    "arxiv": "",
+    "doi": "10.1109/DAC63849.2025.11133184",
+    "official_id": "DAC2025_Precon",
+    "paper_url": "https://doi.org/10.1109/DAC63849.2025.11133184",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "DAC 2025 precision-convertible accelerator unifies INT4-FP16, INT4-INT4 and INT4-INT8 execution; author/university record reports up to 4.1x speedup and 81.4% energy reduction.",
+    "directions": [
+      "Quantization"
+    ]
+  },
+  {
+    "title": "RADiT: Redundancy-Aware Diffusion Transformer Acceleration Leveraging Timestep Similarity",
+    "venue": "DAC 2025",
+    "topic": "diffusion / DiT acceleration / hardware-software co-design",
+    "arxiv": "",
+    "doi": "10.1109/DAC63849.2025.11133190",
+    "official_id": "DAC2025_RADiT",
+    "paper_url": "https://doi.org/10.1109/DAC63849.2025.11133190",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "DAC 2025 redundancy-aware DiT software-hardware co-design reuses consecutive-timestep computations; Sogang institutional record reports up to 1.8x image and 1.7x video speedup with 41%-45.5% energy reduction.",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
