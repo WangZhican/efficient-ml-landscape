@@ -14196,6 +14196,27 @@
     ]
   },
   {
+    "title": "PhoenixOS: Concurrent OS-level GPU Checkpoint and Restore with Validated Speculation",
+    "venue": "SOSP 2025",
+    "topic": "GPU checkpoint/restore / ML systems resilience",
+    "arxiv": "",
+    "doi": "10.1145/3731569.3764813",
+    "official_id": "SOSP2025_PHOENIXOS",
+    "paper_url": "https://sigops.org/s/conferences/sosp/2025/accepted.html",
+    "code_url": "https://github.com/SJTU-IPADS/PhoenixOS",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "PhoenixOS provides concurrent OS-level GPU checkpoint/restore with validated speculation, directly enabling low-overhead recovery/migration for GPU ML workloads; fills the GPU resilience/resource-management branch adjacent to GPREEMPT and training checkpoint systems.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "Pie: A Programmable Serving System for Emerging LLM Applications",
     "venue": "SOSP 2025",
     "topic": "LLM serving / KV / GPU systems",
