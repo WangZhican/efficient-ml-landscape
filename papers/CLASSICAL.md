@@ -1,6 +1,6 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **684 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **685 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
@@ -767,6 +767,19 @@
 | **Canonical** | **Preparation Meets Opportunity: Enhancing Data Preprocessing for ML Training With Seneca** | FAST 2026 | distributed ML training / data preprocessing / dataloader caching / training systems | — | [Repo](https://github.com/swiftomkar/seneca-fast26-pytorch) |
 | **Canonical** | **SolidAttention: Low-Latency SSD-based Serving on Memory-Constrained PCs** | FAST 2026 | LLM serving / sparse attention / SSD KV-cache offload | — | — |
 
+## FPGA 2026 · 8
+
+| Priority | Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|---|
+| **Canonical** | **CXL-SpecKV: A Disaggregated FPGA Speculative KV-Cache for Datacenter LLM Serving** | FPGA 2026 | LLM serving / CXL / FPGA / speculative KV cache | [Link](https://arxiv.org/abs/2512.11920) | [Repo](https://github.com/FastLM/CXL-SpecKV) |
+| **Canonical** | **Enabling Efficient SpMM for Sparse Attention on GEMM-Optimized Hardware with Block Aggregation** | FPGA 2026 | sparse attention / FPGA / SpMM-GEMM transformation | [Link](https://doi.org/10.1145/3748173.3779187) | — |
+| **Canonical** | **FARE: A Fine-grained Pipelined Reconfigurable FlashAttention Kernel** | FPGA 2026 | FlashAttention accelerator / FPGA | [Link](https://doi.org/10.1145/3748173.3779572) | — |
+| **Canonical** | **HGQ: High Granularity Quantization for Real-time Neural Networks on FPGAs** | FPGA 2026 | quantization / FPGA / low-latency inference | [Link](https://arxiv.org/abs/2405.00645) | — |
+| **Canonical** | **Hummingbird+: Advancing FPGA-based LLM Deployment from Research Prototype to Edge Product** | FPGA 2026 | edge LLM inference / FPGA accelerator / deployment | [Link](https://doi.org/10.1145/3748173.3779189) | — |
+| **Canonical** | **KANELÉ: Kolmogorov-Arnold Networks for Efficient LUT-based Evaluation** | FPGA 2026 | efficient FPGA ML inference / LUT neural networks | [Link](https://arxiv.org/abs/2512.12850) | — |
+| **Canonical** | **TeLLMe: An Efficient End-to-End Ternary LLM Prefill and Decode Accelerator with Table-Lookup Matmul on Edge FPGAs** | FPGA 2026 | edge LLM inference / ternary accelerator / FPGA | [Link](https://arxiv.org/abs/2510.15926) | [Repo](https://github.com/UCI-CORSA/TeLLMe_FPGA_2026) |
+| **Canonical** | **UDP: A Universal DSP Packing Framework for Low-bitwidth MAC Acceleration on FPGAs** | FPGA 2026 | low-bit quantization / FPGA accelerator / DSP packing / LLM inference hardware | [Link](https://doi.org/10.1145/3748173.3779194) | [Repo](https://github.com/wintermelon008/UDP) |
+
 ## MobiCom 2025 · 8
 
 | Priority | Paper | Venue | Topic | Paper | Code |
@@ -792,18 +805,6 @@
 | **Canonical** | **HAKES: Scalable Vector Database for Embedding Search Service** | VLDB/PVLDB Volume 18 | vector database / RAG retrieval infrastructure | [Link](https://arxiv.org/abs/2505.12524) | — |
 | **Canonical** | **Magnus: A Holistic Approach to Data Management for Large-Scale Machine Learning Workloads** | VLDB/PVLDB Volume 18 | ML data systems / large-scale training infrastructure | — | — |
 | **Canonical** | **mLoRA: Fine-Tuning LoRA Adapters via Highly-Efficient Pipeline Parallelism in Multiple GPUs** | VLDB/PVLDB Volume 18 | LoRA fine-tuning systems / multi-GPU pipeline | [Link](https://arxiv.org/abs/2312.02515) | — |
-
-## FPGA 2026 · 7
-
-| Priority | Paper | Venue | Topic | Paper | Code |
-|---|---|---|---|---|---|
-| **Canonical** | **CXL-SpecKV: A Disaggregated FPGA Speculative KV-Cache for Datacenter LLM Serving** | FPGA 2026 | LLM serving / CXL / FPGA / speculative KV cache | [Link](https://arxiv.org/abs/2512.11920) | [Repo](https://github.com/FastLM/CXL-SpecKV) |
-| **Canonical** | **Enabling Efficient SpMM for Sparse Attention on GEMM-Optimized Hardware with Block Aggregation** | FPGA 2026 | sparse attention / FPGA / SpMM-GEMM transformation | [Link](https://doi.org/10.1145/3748173.3779187) | — |
-| **Canonical** | **FARE: A Fine-grained Pipelined Reconfigurable FlashAttention Kernel** | FPGA 2026 | FlashAttention accelerator / FPGA | [Link](https://doi.org/10.1145/3748173.3779572) | — |
-| **Canonical** | **HGQ: High Granularity Quantization for Real-time Neural Networks on FPGAs** | FPGA 2026 | quantization / FPGA / low-latency inference | [Link](https://arxiv.org/abs/2405.00645) | — |
-| **Canonical** | **Hummingbird+: Advancing FPGA-based LLM Deployment from Research Prototype to Edge Product** | FPGA 2026 | edge LLM inference / FPGA accelerator / deployment | [Link](https://doi.org/10.1145/3748173.3779189) | — |
-| **Canonical** | **KANELÉ: Kolmogorov-Arnold Networks for Efficient LUT-based Evaluation** | FPGA 2026 | efficient FPGA ML inference / LUT neural networks | [Link](https://arxiv.org/abs/2512.12850) | — |
-| **Canonical** | **TeLLMe: An Efficient End-to-End Ternary LLM Prefill and Decode Accelerator with Table-Lookup Matmul on Edge FPGAs** | FPGA 2026 | edge LLM inference / ternary accelerator / FPGA | [Link](https://arxiv.org/abs/2510.15926) | [Repo](https://github.com/UCI-CORSA/TeLLMe_FPGA_2026) |
 
 ## CoRL 2025 · 6
 

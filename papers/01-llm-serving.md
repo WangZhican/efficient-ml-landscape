@@ -1,6 +1,6 @@
 # 01 · LLM Serving
 
-> **307 canonical papers** mapped here, plus a broader **136-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **308 canonical papers** mapped here, plus a broader **136-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -145,7 +145,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 287 canonical
+## 🏛️ Classical / Historical · 288 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -241,6 +241,7 @@
 | **Canonical** | **SolidAttention: Low-Latency SSD-based Serving on Memory-Constrained PCs** | FAST 2026 | LLM serving / sparse attention / SSD KV-cache offload | — | — |
 | **Canonical** | **CXL-SpecKV: A Disaggregated FPGA Speculative KV-Cache for Datacenter LLM Serving** | FPGA 2026 | LLM serving / CXL / FPGA / speculative KV cache | [Link](https://arxiv.org/abs/2512.11920) | [Repo](https://github.com/FastLM/CXL-SpecKV) |
 | **Canonical** | **TeLLMe: An Efficient End-to-End Ternary LLM Prefill and Decode Accelerator with Table-Lookup Matmul on Edge FPGAs** | FPGA 2026 | edge LLM inference / ternary accelerator / FPGA | [Link](https://arxiv.org/abs/2510.15926) | [Repo](https://github.com/UCI-CORSA/TeLLMe_FPGA_2026) |
+| **Canonical** | **UDP: A Universal DSP Packing Framework for Low-bitwidth MAC Acceleration on FPGAs** | FPGA 2026 | low-bit quantization / FPGA accelerator / DSP packing / LLM inference hardware | [Link](https://doi.org/10.1145/3748173.3779194) | [Repo](https://github.com/wintermelon008/UDP) |
 | **Canonical** | **Adaptive Draft Sequence Length: Enhancing Speculative Decoding Throughput on PIM-Enabled Systems** | HPCA 2026 | efficient VLM + PIM inference + reasoning accelerator + speculative decoding | [Link](https://doi.org/10.1109/HPCA68181.2026.11408598) | — |
 | **Canonical** | **AUM: Unleashing the Efficiency Potential of Shared Processors with Accelerator Units for LLM Serving** | HPCA 2026 | LLM serving / CPU accelerator-unit sharing / resource management | [Link](https://doi.org/10.1109/HPCA68181.2026.11408539) | — |
 | **Canonical** | **AutoHAAP: Automated Heterogeneity-Aware Asymmetric Partitioning for LLM Training** | HPCA 2026 | heterogeneous distributed LLM training / partition search | [Link](https://doi.org/10.1109/HPCA68181.2026.11408533) | — |

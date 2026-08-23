@@ -1,6 +1,6 @@
 # 04 · Quantization
 
-> **93 canonical papers** mapped here, plus a broader **35-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **94 canonical papers** mapped here, plus a broader **35-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -44,7 +44,7 @@
 | **P2 · Relevant** | **A Motion-Aware Vector Quantization Framework with Centroid Reuse for Efficient VLA Inference** | Fresh / preprint | llm_serving / quant / multimodal / physical | [Link](https://arxiv.org/abs/2607.24148) | — |
 | **P1 · Watch** | **Sparse by Command: Task-Conditional Compute Skipping for Multi-Task Inference Accelerators** | Fresh / preprint | llm_serving / quant / sparse / gen / edge | [Link](https://arxiv.org/abs/2607.22038) | — |
 
-## 🏛️ Classical / Historical · 85 canonical
+## 🏛️ Classical / Historical · 86 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -79,6 +79,7 @@
 | **Canonical** | **HGQ: High Granularity Quantization for Real-time Neural Networks on FPGAs** | FPGA 2026 | quantization / FPGA / low-latency inference | [Link](https://arxiv.org/abs/2405.00645) | — |
 | **Canonical** | **Hummingbird+: Advancing FPGA-based LLM Deployment from Research Prototype to Edge Product** | FPGA 2026 | edge LLM inference / FPGA accelerator / deployment | [Link](https://doi.org/10.1145/3748173.3779189) | — |
 | **Canonical** | **KANELÉ: Kolmogorov-Arnold Networks for Efficient LUT-based Evaluation** | FPGA 2026 | efficient FPGA ML inference / LUT neural networks | [Link](https://arxiv.org/abs/2512.12850) | — |
+| **Canonical** | **UDP: A Universal DSP Packing Framework for Low-bitwidth MAC Acceleration on FPGAs** | FPGA 2026 | low-bit quantization / FPGA accelerator / DSP packing / LLM inference hardware | [Link](https://doi.org/10.1145/3748173.3779194) | [Repo](https://github.com/wintermelon008/UDP) |
 | **Canonical** | **AQPIM: Breaking the PIM Capacity Wall for LLMs with In-Memory Activation Quantization** | HPCA 2026 | PIM / activation quantization / long-context LLM | [Link](https://arxiv.org/abs/2604.18137) | — |
 | **Canonical** | **BitDecoding: Unlocking Tensor Cores for Long-Context LLMs with Low-Bit KV Cache** | HPCA 2026 | low-bit KV cache / Tensor Core decoding | [Link](https://doi.org/10.1109/HPCA68181.2026.11408481) | — |
 | **Canonical** | **QuantCache: Adaptive Importance-Guided Quantization with Hierarchical Latent and Layer Caching for Video Generation** | ICCV 2025 | video diffusion acceleration / quantization + caching | — | — |
