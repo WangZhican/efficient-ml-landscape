@@ -23,8 +23,8 @@
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/Papers-711-7c3aed?style=for-the-badge" alt="711 papers" />
-  <img src="https://img.shields.io/badge/Primary%20Links-692-059669?style=for-the-badge" alt="692 primary links" />
+  <img src="https://img.shields.io/badge/Papers-714-7c3aed?style=for-the-badge" alt="714 papers" />
+  <img src="https://img.shields.io/badge/Primary%20Links-695-059669?style=for-the-badge" alt="695 primary links" />
   <img src="https://img.shields.io/badge/Research%20Tracks-15-2563eb?style=for-the-badge" alt="15 research tracks" />
   <img src="https://img.shields.io/badge/Physical%20AI-Protected-f59e0b?style=for-the-badge" alt="Physical AI protected" />
 </p>
@@ -53,13 +53,13 @@
 
 | Metric | Current public view |
 |---|---:|
-| **Quality-gated unique papers** | **711** |
+| **Quality-gated unique papers** | **714** |
 | **Latest 30-day tracked total** | **194** |
 | **Latest 30-day quality-gated papers** | **46** |
 | **Latest watchlist** | **45** |
 | **Latest relevant low-priority** | **103** |
-| **Classical / historical papers** | **665** |
-| **Papers with resolved primary-source links** | **692** |
+| **Classical / historical papers** | **668** |
+| **Papers with resolved primary-source links** | **695** |
 | **Latest strong papers** | **45** |
 | **Research directions** | **15** |
 | **Venue/source labels represented** | **46** |

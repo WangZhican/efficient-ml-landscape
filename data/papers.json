@@ -13697,6 +13697,27 @@
     ]
   },
   {
+    "title": "CrossPipe: Towards Optimal Pipeline Schedules for Cross-Datacenter Training",
+    "venue": "USENIX ATC 2025",
+    "topic": "distributed LLM training / cross-datacenter pipeline parallelism / communication-computation overlap",
+    "arxiv": "2507.00217",
+    "doi": "",
+    "official_id": "USENIX_ATC25_308540",
+    "paper_url": "https://arxiv.org/abs/2507.00217",
+    "code_url": "https://github.com/spcl/crosspipe",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "CrossPipe optimizes LLM training across geographically distributed datacenters by jointly scheduling pipeline parallelism and overlapped data-parallel communication; USENIX reports up to 33.6% lower training time under identical memory constraints.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "DEEPSERVE: Serverless Large Language Model Serving at Scale",
     "venue": "USENIX ATC 2025",
     "topic": "LLM serving / serverless NPU cloud / disaggregated serving",
@@ -13758,6 +13779,50 @@
       "LLM Serving",
       "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "GPREEMPT: GPU Preemptive Scheduling Made General and Efficient",
+    "venue": "USENIX ATC 2025",
+    "topic": "GPU scheduling / preemption / latency-critical AI workload colocation",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX_ATC25_308444",
+    "paper_url": "https://www.usenix.org/conference/atc25/presentation/fan",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "GPreempt provides general timeslice-based GPU context-switch preemption with hint-based pre-preemption, achieving within-40-us preemption while supporting non-idempotent workloads; this is a direct GPU resource-management primitive for mixed latency-critical/best-effort AI workloads.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "HypeReca: Distributed Heterogeneous In-Memory Embedding Database for Training Recommender Models",
+    "venue": "USENIX ATC 2025",
+    "topic": "distributed recommender training / heterogeneous GPU-CPU memory / embedding system",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX_ATC25_308538",
+    "paper_url": "https://www.usenix.org/conference/atc25/presentation/he-jiaao",
+    "code_url": "https://github.com/thu-pacman/hypereca",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "HypeReca uses a distributed heterogeneous GPU/CPU in-memory embedding database, pipelined decentralized indexing and contention-avoiding communication scheduling for DLRM training; USENIX reports 2.16-16.8x end-to-end speedup over HugeCTR, TorchRec and TFDE on 32 GPUs.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
