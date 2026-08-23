@@ -1,6 +1,6 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **634 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **638 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
@@ -459,6 +459,28 @@
 | **Canonical** | **Task-Circuit Quantization: Leveraging Knowledge Localization and Interpretability for Compression** | COLM 2025 | quantization / compression | [Link](https://arxiv.org/abs/2504.07389) | [Repo](https://github.com/The-Inscrutable-X/TACQ) |
 | **Canonical** | **X-EcoMLA: Upcycling Pre-Trained Attention into MLA for Efficient and Extreme KV Compression** | COLM 2025 | KV cache compression / efficient attention architecture | [Link](https://arxiv.org/abs/2503.11132) | — |
 
+## PPoPP 2026 · 17
+
+| Priority | Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|---|
+| **Canonical** | **Accelerating Sparse Transformer Inference on GPU** | PPoPP 2026 | sparse transformer inference + mixed-precision quantization | — | — |
+| **Canonical** | **APERTURE: Algorithm-System Co-optimization for Temporal Graph Network Inference** | PPoPP 2026 | temporal GNN inference / algorithm-system co-optimization | [Link](https://doi.org/10.1145/3774934.3786450) | — |
+| **Canonical** | **BEEMS: Boosting Machine Vision Efficiency via Computation Graph-Based Memory Smoothing** | PPoPP 2026 | vision foundation model inference / memory-aware compiler | [Link](https://doi.org/10.1145/3774934.3786430) | — |
+| **Canonical** | **CCL-D: A High-Precision Diagnostic System for Slow and Hang Anomalies in Large-Scale Model Training** | PPoPP 2026 | distributed training infrastructure / diagnosis | [Link](https://doi.org/10.1145/3774934.3786429) | — |
+| **Canonical** | **ChituDiffusion: A Data-Characteristic-Aware Serving System for Diffusion Models** | PPoPP 2026 | diffusion serving / compile-runtime co-optimization | [Link](https://doi.org/10.1145/3774934.3786424) | — |
+| **Canonical** | **COCCL: A Collective Communication Library Supporting Easy Integration and Configuration of Customized Compression for Scalable LLM Training** | PPoPP 2026 | distributed LLM training / compressed collectives | [Link](https://doi.org/10.1145/3774934.3786432) | [Repo](https://github.com/hpdps-group/COCCL) |
+| **Canonical** | **ElasGNN: An Elastic Training Framework for Distributed GNN Training** | PPoPP 2026 | distributed GNN training / elastic scheduling | [Link](https://doi.org/10.1145/3774934.3786440) | — |
+| **Canonical** | **Elastor: Elastic and Efficient Model Partitioning and Checkpointing for Fault-Tolerant Distributed Training** | PPoPP 2026 | distributed training / elastic checkpointing | [Link](https://doi.org/10.1145/3774934.3786445) | — |
+| **Canonical** | **FlashAttention-T: Towards Fully Tensorized Attention by Exploiting Tensor-Vector Parallelism** | PPoPP 2026 | attention kernel / tensor core / GPU | [Link](https://doi.org/10.1145/3774934.3786425) | — |
+| **Canonical** | **HelixPipe: Efficient Distributed Training of Long Sequence Transformers with Attention Parallel Pipeline Parallelism** | PPoPP 2026 | distributed training / long-context transformer | [Link](https://arxiv.org/abs/2507.00394) | — |
+| **Canonical** | **High-Throughput Non-uniformly Quantized 3-bit LLM Inference** | PPoPP 2026 | 3-bit LLM quantization / GPU kernels | [Link](https://doi.org/10.1145/3774934.3786423) | — |
+| **Canonical** | **JanusQuant: Accurate and Efficient 2-bit KV Cache Quantization for Long-Context Inference** | PPoPP 2026 | KV cache quantization / long-context inference | [Link](https://doi.org/10.1145/3774934.3786428) | — |
+| **Canonical** | **Laser: Unlocking Layer-Level Scheduling for Efficient Multi-SLO LLM Serving** | PPoPP 2026 | LLM serving / multi-SLO scheduling | [Link](https://doi.org/10.1145/3774934.3786413) | — |
+| **Canonical** | **MetaAttention: A Unified and Performant Attention Framework across Hardware Backends** | PPoPP 2026 | attention runtime / cross-backend kernel optimization | [Link](https://doi.org/10.1145/3774934.3786444) | — |
+| **Canonical** | **MixFusion: A Patch-Level Parallel Serving System for Mixed-Resolution Diffusion Models** | PPoPP 2026 | diffusion serving / patch-level parallelism | [Link](https://doi.org/10.1145/3774934.3786420) | — |
+| **Canonical** | **RoMeo** | PPoPP 2026 | sparse transformer inference + mixed-precision quantization | — | — |
+| **Canonical** | **TAC: Cache-Based System for Accelerating Billion-Scale GNN Training on Multi-GPU Platform** | PPoPP 2026 | GNN training systems / multi-GPU cache / sparse Tensor Core | [Link](https://doi.org/10.1145/3774934.3786460) | — |
+
 ## USENIX ATC 2025 · 17
 
 | Priority | Paper | Venue | Topic | Paper | Code |
@@ -561,25 +583,6 @@
 | **Canonical** | **SCX** | SIGCOMM 2025 | KV encoding + MoE training fabric + long-context training + AI networking/inference | — | — |
 | **Canonical** | **SGLB: Scalable and Robust Global Load Balancing in Commodity AI Clusters** | SIGCOMM 2025 | KV encoding + MoE training fabric + long-context training + AI networking/inference | [Link](https://doi.org/10.1145/3718958.3750527) | — |
 | **Canonical** | **SyCCL: Exploiting Symmetry for Efficient Collective Communication Scheduling** | SIGCOMM 2025 | distributed ML training / collective communication schedule synthesis | [Link](https://doi.org/10.1145/3718958.3750499) | [Repo](https://github.com/aliyun/syccl) |
-
-## PPoPP 2026 · 14
-
-| Priority | Paper | Venue | Topic | Paper | Code |
-|---|---|---|---|---|---|
-| **Canonical** | **Accelerating Sparse Transformer Inference on GPU** | PPoPP 2026 | sparse transformer inference + mixed-precision quantization | — | — |
-| **Canonical** | **BEEMS: Boosting Machine Vision Efficiency via Computation Graph-Based Memory Smoothing** | PPoPP 2026 | vision foundation model inference / memory-aware compiler | [Link](https://doi.org/10.1145/3774934.3786430) | — |
-| **Canonical** | **CCL-D: A High-Precision Diagnostic System for Slow and Hang Anomalies in Large-Scale Model Training** | PPoPP 2026 | distributed training infrastructure / diagnosis | [Link](https://doi.org/10.1145/3774934.3786429) | — |
-| **Canonical** | **ChituDiffusion: A Data-Characteristic-Aware Serving System for Diffusion Models** | PPoPP 2026 | diffusion serving / compile-runtime co-optimization | [Link](https://doi.org/10.1145/3774934.3786424) | — |
-| **Canonical** | **COCCL: A Collective Communication Library Supporting Easy Integration and Configuration of Customized Compression for Scalable LLM Training** | PPoPP 2026 | distributed LLM training / compressed collectives | [Link](https://doi.org/10.1145/3774934.3786432) | [Repo](https://github.com/hpdps-group/COCCL) |
-| **Canonical** | **Elastor: Elastic and Efficient Model Partitioning and Checkpointing for Fault-Tolerant Distributed Training** | PPoPP 2026 | distributed training / elastic checkpointing | [Link](https://doi.org/10.1145/3774934.3786445) | — |
-| **Canonical** | **FlashAttention-T: Towards Fully Tensorized Attention by Exploiting Tensor-Vector Parallelism** | PPoPP 2026 | attention kernel / tensor core / GPU | [Link](https://doi.org/10.1145/3774934.3786425) | — |
-| **Canonical** | **HelixPipe: Efficient Distributed Training of Long Sequence Transformers with Attention Parallel Pipeline Parallelism** | PPoPP 2026 | distributed training / long-context transformer | [Link](https://arxiv.org/abs/2507.00394) | — |
-| **Canonical** | **High-Throughput Non-uniformly Quantized 3-bit LLM Inference** | PPoPP 2026 | 3-bit LLM quantization / GPU kernels | [Link](https://doi.org/10.1145/3774934.3786423) | — |
-| **Canonical** | **JanusQuant: Accurate and Efficient 2-bit KV Cache Quantization for Long-Context Inference** | PPoPP 2026 | KV cache quantization / long-context inference | [Link](https://doi.org/10.1145/3774934.3786428) | — |
-| **Canonical** | **Laser: Unlocking Layer-Level Scheduling for Efficient Multi-SLO LLM Serving** | PPoPP 2026 | LLM serving / multi-SLO scheduling | [Link](https://doi.org/10.1145/3774934.3786413) | — |
-| **Canonical** | **MetaAttention: A Unified and Performant Attention Framework across Hardware Backends** | PPoPP 2026 | attention runtime / cross-backend kernel optimization | [Link](https://doi.org/10.1145/3774934.3786444) | — |
-| **Canonical** | **MixFusion: A Patch-Level Parallel Serving System for Mixed-Resolution Diffusion Models** | PPoPP 2026 | diffusion serving / patch-level parallelism | [Link](https://doi.org/10.1145/3774934.3786420) | — |
-| **Canonical** | **RoMeo** | PPoPP 2026 | sparse transformer inference + mixed-precision quantization | — | — |
 
 ## ACM Multimedia 2025 · 13
 
@@ -850,11 +853,12 @@
 | **Canonical** | **Exploiting Student Parallelism for Low-latency GPU Inference of BERT-like Models in Online Services** | KDD 2025 | GPU online inference / BERT serving / student parallelism | [Link](https://arxiv.org/abs/2408.12526) | — |
 | **Canonical** | **SEPTQ: A Simple and Effective Post-Training Quantization Paradigm for Large Language Models** | KDD 2025 | LLM post-training quantization / low-bit inference | [Link](https://arxiv.org/abs/2604.10091) | — |
 
-## PLDI 2026 · 2
+## PLDI 2026 · 3
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **Canonical** | **Compiling Strassen-like Matrix Multiplication Algorithms to Fast CUDA Kernels** | PLDI 2026 | GPU compiler / matrix multiplication / LLM inference kernel | [Link](https://doi.org/10.1145/3808267) | [Repo](https://github.com/microsoft/subcuber) |
+| **Canonical** | **Modular GPU Programming with Typed Perspectives** | PLDI 2026 | GPU kernel DSL / compiler / Tensor Core programming | [Link](https://arxiv.org/abs/2511.11939) | — |
 | **Canonical** | **Neptune: Advanced ML Operator Fusion for Locality and Parallelism on GPUs** | PLDI 2026 | ML compiler / attention operator fusion | [Link](https://arxiv.org/abs/2510.08726) | [Repo](https://github.com/uiuc-arc/neptune) |
 
 ## HPCA 2026 Industry Track · 1

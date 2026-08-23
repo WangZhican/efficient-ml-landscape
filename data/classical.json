@@ -10827,6 +10827,27 @@
     ]
   },
   {
+    "title": "Modular GPU Programming with Typed Perspectives",
+    "venue": "PLDI 2026",
+    "topic": "GPU kernel DSL / compiler / Tensor Core programming",
+    "arxiv": "2511.11939",
+    "doi": "10.1145/3808290",
+    "official_id": "",
+    "paper_url": "https://arxiv.org/abs/2511.11939",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "PLDI 2026 Distinguished Paper; Prism is a low-level GPU language/compiler with typed perspectives for safe modular collective/Tensor-Core programming while matching hand-optimized CUDA performance on H100 and RTX 4070 Ti Super.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "Neptune: Advanced ML Operator Fusion for Locality and Parallelism on GPUs",
     "venue": "PLDI 2026",
     "topic": "ML compiler / attention operator fusion",
@@ -10868,6 +10889,26 @@
       "Quantization",
       "Sparsity / Pruning",
       "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "APERTURE: Algorithm-System Co-optimization for Temporal Graph Network Inference",
+    "venue": "PPoPP 2026",
+    "topic": "temporal GNN inference / algorithm-system co-optimization",
+    "arxiv": "",
+    "doi": "10.1145/3774934.3786450",
+    "official_id": "PPoPP2026_APERTURE",
+    "paper_url": "https://ppopp26.sigplan.org/details/PPoPP-2026-papers/40/APERTURE-Algorithm-System-Co-optimization-for-Temporal-Graph-Network-Inference",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "PPoPP 2026; algorithm-system co-optimization for temporal GNN inference; official evaluation reports up to 59.3x speedup over state-of-the-art baselines without accuracy loss.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -10951,6 +10992,28 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
+      "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "ElasGNN: An Elastic Training Framework for Distributed GNN Training",
+    "venue": "PPoPP 2026",
+    "topic": "distributed GNN training / elastic scheduling",
+    "arxiv": "",
+    "doi": "10.1145/3774934.3786440",
+    "official_id": "PPoPP2026_ElasGNN",
+    "paper_url": "https://ppopp26.sigplan.org/details/PPoPP-2026-papers/30/ElasGNN-An-Elastic-Training-Framework-for-Distributed-GNN-Training",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "PPoPP 2026; elastic distributed GNN training engine with graph repartitioning for scale-in/out and scaling-cost-aware scheduling to reduce job completion time and makespan while improving GPU utilization.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference"
     ]
   },
@@ -11149,6 +11212,28 @@
     "directions": [
       "Quantization",
       "Sparsity / Pruning"
+    ]
+  },
+  {
+    "title": "TAC: Cache-Based System for Accelerating Billion-Scale GNN Training on Multi-GPU Platform",
+    "venue": "PPoPP 2026",
+    "topic": "GNN training systems / multi-GPU cache / sparse Tensor Core",
+    "arxiv": "",
+    "doi": "10.1145/3774934.3786460",
+    "official_id": "PPoPP2026_TAC",
+    "paper_url": "https://ppopp26.sigplan.org/details/PPoPP-2026-papers/50/TAC-Cache-Based-System-for-Accelerating-Billion-Scale-GNN-Training-on-Multi-GPU-Plat",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "PPoPP 2026; billion-scale multi-GPU GNN training system combining data-affinity cache placement, sparsity-aware HybridMatrix execution and fine-grained pipeline overlap; CNIC official source confirms end-to-end improvement over prior cache-based frameworks.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
     ]
   },
   {
