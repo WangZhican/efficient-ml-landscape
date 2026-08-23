@@ -2483,6 +2483,29 @@
     ]
   },
   {
+    "title": "RoboMonkey: Scaling Test-Time Sampling and Verification for Vision-Language-Action Models",
+    "venue": "CoRL 2025",
+    "topic": "Physical AI / VLA inference-time scaling / batched serving / verification",
+    "arxiv": "2506.17811",
+    "doi": "",
+    "official_id": "PMLR-v305-kwok25a",
+    "paper_url": "https://arxiv.org/abs/2506.17811",
+    "code_url": "https://github.com/robomonkey-vla/RoboMonkey",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Protected Physical-AI canonical: establishes VLA inference-time scaling via sampling and verification; directly relevant to efficient reasoning/serving trade-offs and accompanied by an official serving/code stack.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Training Strategies for Efficient Embodied Reasoning",
     "venue": "CoRL 2025",
     "topic": "Physical AI / efficient embodied reasoning / VLA inference",
@@ -2500,6 +2523,29 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "π₀.₅: a Vision-Language-Action Model with Open-World Generalization",
+    "venue": "CoRL 2025",
+    "topic": "Physical AI / VLA foundation model / flow action head / open-world generalization",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "PMLR-v305-black25a",
+    "paper_url": "https://proceedings.mlr.press/v305/black25a.html",
+    "code_url": "https://github.com/Physical-Intelligence/openpi",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Protected Physical-AI canonical lineage node: π0.5 is a major open-world VLA foundation model and the openpi stack provides its official inference/fine-tuning implementation; it anchors later VLA serving, quantization, action-head and runtime work.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "Multimodal / MLLM Serving",
       "VLA / WAM / Physical AI"
     ]
   },
