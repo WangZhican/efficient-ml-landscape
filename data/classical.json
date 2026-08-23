@@ -8010,6 +8010,27 @@
     ]
   },
   {
+    "title": "LoKA: Low-precision Kernel Applications for Recommendation Models At Scale",
+    "venue": "ISCA 2026",
+    "topic": "low-precision training / FP8 / kernel runtime / recommendation systems",
+    "arxiv": "2605.10886",
+    "doi": "",
+    "official_id": "",
+    "paper_url": "https://arxiv.org/abs/2605.10886",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ISCA 2026 system-model co-design that makes FP8 practical for large recommendation models through online precision profiling, model adaptations and per-operator kernel dispatch. Direct Efficient-ML relevance across quantization, kernels and large-scale training.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "Mapping and Communication Optimizations with Fault Tolerance for Wafer-Scale LLM Inference",
     "venue": "ISCA 2026",
     "topic": "LLM inference / wafer-scale architecture / communication mapping",
@@ -8068,6 +8089,27 @@
     "directions": [
       "MoE Systems / Accelerators",
       "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "MTIA-300: Meta's Training Chip with Embedded NIC Chiplets and Communication Offloading Engine",
+    "venue": "ISCA 2026",
+    "topic": "AI training accelerator / collective communication / custom silicon",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "",
+    "paper_url": "https://ai.meta.com/blog/meta-mtia-scale-ai-chips-for-billions/",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ISCA 2026 production AI accelerator from Meta. MTIA 300 integrates NIC chiplets, dedicated collective offload/message engines and near-memory reduction support, and is deployed for recommendation-model training; it is a first-class systems/architecture result for efficient large-scale AI training.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
       "Distributed Training / Inference"
     ]
   },
@@ -8453,6 +8495,29 @@
       "LLM Serving",
       "KV Cache / Long Context",
       "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "Understanding Inference Scaling for LLMs: Bottlenecks, Trade-offs, and Performance Principles",
+    "venue": "ISCA 2026",
+    "topic": "LLM inference systems / reasoning workloads / parallelism and scaling",
+    "arxiv": "2605.19775",
+    "doi": "",
+    "official_id": "",
+    "paper_url": "https://arxiv.org/abs/2605.19775",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ISCA 2026 systems characterization of reasoning-centric LLM inference across 8B-671B models. It identifies capacity-bound decoding, KV-cache fragmentation and DP/TP/PP trade-offs, providing an infrastructure-level scaling framework.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Distributed Training / Inference",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
