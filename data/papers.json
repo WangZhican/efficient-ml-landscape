@@ -9983,6 +9983,27 @@
     ]
   },
   {
+    "title": "FLARE: Anomaly Diagnostics for Divergent LLM Training in GPU Clusters of Thousand-Plus Scale",
+    "venue": "NSDI 2026",
+    "topic": "distributed LLM training infrastructure / GPU cluster diagnostics / observability",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX-NSDI26-316592",
+    "paper_url": "https://www.usenix.org/system/files/nsdi26-cui.pdf",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Full-stack tracing and automated anomaly diagnosis for large-scale distributed LLM training; deployed across 6,000 GPUs with continuous operation for over eight months.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "FlexLLM: Token-Level Co-Serving of LLM Inference and Finetuning with SLO Guarantees",
     "venue": "NSDI 2026",
     "topic": "inference + PEFT co-serving",
@@ -10060,6 +10081,29 @@
     "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "RollPacker: Taming Long-Tail Rollouts for RL Post-Training with Tail Batching",
+    "venue": "NSDI 2026",
+    "topic": "LLM RL post-training systems / rollout scheduling / GPU utilization",
+    "arxiv": "2509.21009",
+    "doi": "",
+    "official_id": "USENIX-NSDI26-316604",
+    "paper_url": "https://arxiv.org/abs/2509.21009",
+    "code_url": "https://github.com/Farrrrland/RollPacker",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Tail batching plus elastic rollout parallelism, reward-stage resource scheduling, and stream-based training; official NSDI evaluation on up to 128 H800 GPUs reports 2.03x-2.56x end-to-end speedup over veRL and up to 2.24x over RLHFuse.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference",
       "Efficient Reasoning / Agents"
     ]
   },
