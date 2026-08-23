@@ -2158,6 +2158,26 @@
     ]
   },
   {
+    "title": "DEL: Context-Aware Dynamic Exit Layer for Efficient Self-Speculative Decoding",
+    "venue": "COLM 2025",
+    "topic": "speculative decoding / adaptive early exit",
+    "arxiv": "2504.05598",
+    "doi": "",
+    "official_id": "COLM2025_cAFxSuXQvT",
+    "paper_url": "https://arxiv.org/abs/2504.05598",
+    "code_url": "https://github.com/hoenza/DEL",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "DEL adaptively selects draft exit layer and speculation length for self-speculative decoding, reporting 2.16x-2.50x speedup over vanilla autoregressive decoding and improving prior self-speculative methods.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Speculative Decoding"
+    ]
+  },
+  {
     "title": "E2-RAG: Towards Editable Efficient RAG by Editing Compressed KV Caches",
     "venue": "COLM 2025",
     "topic": "RAG / compressed KV cache / editable cache",
@@ -2268,6 +2288,27 @@
     ]
   },
   {
+    "title": "Open-Qwen2VL: Compute-Efficient Pre-Training of Fully-Open Multimodal LLMs on Academic Resources",
+    "venue": "COLM 2025",
+    "topic": "multimodal training efficiency / open MLLM systems",
+    "arxiv": "2504.00595",
+    "doi": "",
+    "official_id": "COLM2025_nVQmW1af6j",
+    "paper_url": "https://arxiv.org/abs/2504.00595",
+    "code_url": "https://github.com/Victorwz/Open-Qwen2VL",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Open-Qwen2VL demonstrates compute/data-efficient fully open MLLM pretraining using dynamic resolution, multimodal sequence packing and an open FSDP training stack on academic-scale GPUs; code, data and checkpoints are released.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
     "title": "OverFill: Two-Stage Models for Efficient Language Model Decoding",
     "venue": "COLM 2025",
     "topic": "efficient LLM decoding / stage-specialized model",
@@ -2349,6 +2390,28 @@
     ]
   },
   {
+    "title": "RADLADS: Rapid Attention Distillation to Linear Attention Decoders at Scale",
+    "venue": "COLM 2025",
+    "topic": "linear attention / efficient long-context inference",
+    "arxiv": "2505.03005",
+    "doi": "",
+    "official_id": "COLM2025_38GehGepDd",
+    "paper_url": "https://arxiv.org/abs/2505.03005",
+    "code_url": "https://github.com/recursal/RADLADS-paper",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "RADLADS converts softmax transformers up to 72B into constant-time-per-token recurrent/linear-attention decoders with only 350-700M distillation tokens, preserving near-teacher quality and releasing training code/models.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Attention"
+    ]
+  },
+  {
     "title": "Resource-efficient Inference with Foundation Model Programs",
     "venue": "COLM 2025",
     "topic": "agentic inference / multimodal serving / dynamic model routing",
@@ -2369,6 +2432,49 @@
       "Multimodal / MLLM Serving",
       "Efficient Reasoning / Agents",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "SentenceKV: Efficient LLM Inference via Sentence-Level Semantic KV Caching",
+    "venue": "COLM 2025",
+    "topic": "KV cache / long-context inference",
+    "arxiv": "2504.00970",
+    "doi": "",
+    "official_id": "COLM2025_HyPeYU9JR6",
+    "paper_url": "https://arxiv.org/abs/2504.00970",
+    "code_url": "https://github.com/zzbright1998/SentenceKV",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "SentenceKV organizes long-context KV state at sentence-level semantics, offloads full KV to CPU and selectively retrieves relevant sentence caches, directly reducing GPU KV memory while preserving accuracy.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "SlimMoE: Structured Compression of Large MoE Models via Expert Slimming and Distillation",
+    "venue": "COLM 2025",
+    "topic": "MoE compression / efficient inference",
+    "arxiv": "2506.18349",
+    "doi": "",
+    "official_id": "COLM2025_oaCUsn391F",
+    "paper_url": "https://arxiv.org/abs/2506.18349",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "SlimMoE compresses Phi-3.5-MoE from 41.9B total parameters into 7.6B/3.8B variants through structured expert slimming and staged distillation, enabling single-GPU fine-tuning and substantially lower inference latency.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "MoE Systems / Accelerators",
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {
