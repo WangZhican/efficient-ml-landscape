@@ -1,6 +1,6 @@
 # 09 · Distributed Training / Inference
 
-> **92 canonical papers** mapped here, plus a broader **17-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **93 canonical papers** mapped here, plus a broader **17-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -26,7 +26,7 @@
 | **P2 · Relevant** | **HetRoute Heterogeneous and Cost-aware Collaborative Routing Framework for Distributed Edge MoE Inference** | Fresh / preprint | llm_serving / quant / moe / dist / edge | [Link](https://arxiv.org/abs/2608.00577) | — |
 | **P2 · Relevant** | **HCCL: Collective Communication for Meta Training and Inference Accelerators** | Fresh / preprint | llm_serving | [Link](https://arxiv.org/abs/2608.00358) | — |
 
-## 🏛️ Classical / Historical · 82 canonical
+## 🏛️ Classical / Historical · 83 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -73,6 +73,7 @@
 | **Canonical** | **Efficient LLM Serving on Commodity GPU Clusters with Data-Reduced Cross-Instance Orchestration** | OSDI 2026 | commodity-GPU LLM serving | — | — |
 | **Canonical** | **OpenTela: Unifying Decentralized Computing Resources for Heterogeneous LLM Serving (Operational Systems)** | OSDI 2026 | LLM serving / heterogeneous clusters / decentralized orchestration / operational systems | — | [Repo](https://github.com/eth-easl/opentela) |
 | **Canonical** | **Revisiting Pipeline Parallelism for LLM Serving** | OSDI 2026 | LLM serving / pipeline parallelism / scheduling / SGLang | — | [Repo](https://github.com/Sys-KU/FastPP) |
+| **Canonical** | **Safeguarding LLM Training at Scale: Online SDC Detection and Insights from 35 Million GPU Hours** | OSDI 2026 | distributed LLM training infrastructure / GPU reliability / online SDC detection | — | — |
 | **Canonical** | **Neptune: Advanced ML Operator Fusion for Locality and Parallelism on GPUs** | PLDI 2026 | ML compiler / attention operator fusion | [Link](https://arxiv.org/abs/2510.08726) | [Repo](https://github.com/uiuc-arc/neptune) |
 | **Canonical** | **CCL-D: A High-Precision Diagnostic System for Slow and Hang Anomalies in Large-Scale Model Training** | PPoPP 2026 | distributed training infrastructure / diagnosis | [Link](https://doi.org/10.1145/3774934.3786429) | — |
 | **Canonical** | **COCCL: A Collective Communication Library Supporting Easy Integration and Configuration of Customized Compression for Scalable LLM Training** | PPoPP 2026 | distributed LLM training / compressed collectives | [Link](https://doi.org/10.1145/3774934.3786432) | [Repo](https://github.com/hpdps-group/COCCL) |

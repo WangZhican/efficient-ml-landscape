@@ -10395,6 +10395,27 @@
     ]
   },
   {
+    "title": "Safeguarding LLM Training at Scale: Online SDC Detection and Insights from 35 Million GPU Hours",
+    "venue": "OSDI 2026",
+    "topic": "distributed LLM training infrastructure / GPU reliability / online SDC detection",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX-OSDI26-318525",
+    "paper_url": "https://www.usenix.org/conference/osdi26/presentation/lei",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "AEGIS is an online SDC detection framework tailored to production-scale LLM training. USENIX reports deployment across 35 million GPU-hours, 18 real SDC incidents and 13 faulty GPUs detected, with only 0.86% training overhead. Direct large-scale AI training infrastructure and reliability systems contribution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "Seer: Online Context Learning for Fast Synchronous LLM Reinforcement Learning",
     "venue": "OSDI 2026",
     "topic": "RL rollout systems",
@@ -10433,6 +10454,26 @@
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context"
+    ]
+  },
+  {
+    "title": "Teaching the Old Dog New Tricks: Building Efficient Data Pipelines for Large-Scale LLM Pre-Training (Operational Systems)",
+    "venue": "OSDI 2026",
+    "topic": "large-scale LLM pre-training infrastructure / data pipeline / storage / checkpoint I/O",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX-OSDI26-318419",
+    "paper_url": "https://www.usenix.org/conference/osdi26/presentation/chen-luofan",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "OSDI 2026 Best Paper and Operational Systems paper on production LLM pre-training data pipelines. Predictive checkpoint replication, proactive hot-file replication and storage-tier CPU transformation reduce wasted GPU-hours per evaluation from 16,800 to 4,000, checkpoint-load time by 40.8%, and dataloading-induced stalls by 63.2%.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {

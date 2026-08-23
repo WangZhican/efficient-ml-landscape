@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **663 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **194 visible papers = 46 P0 + 45 P1 + 103 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **665 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **194 visible papers = 46 P0 + 45 P1 + 103 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -217,7 +217,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 617
+## 🏛️ Classical / Historical · 619
 
 ### ISCA 2026 · 40
 
@@ -799,6 +799,24 @@
 | **Canonical** | **UltraVSR: Achieving Ultra-Realistic Video Super-Resolution with Efficient One-Step Diffusion Space** | ACM Multimedia 2025 | one-step diffusion / efficient video super-resolution | [Link](https://arxiv.org/abs/2505.19958) | [Repo](https://github.com/yongliuy/UltraVSR) |
 | **Canonical** | **VISA: Group-wise Visual Token Selection and Aggregation via Graph Summarization for Efficient MLLMs Inference** | ACM Multimedia 2025 | MLLM inference / visual token pruning and aggregation | [Link](https://arxiv.org/abs/2508.17857) | — |
 
+### OSDI 2026 · 13
+
+| Priority | Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|---|
+| **Canonical** | **ADAngel: Accelerating Arbitrary-Precision Quantized LLMs with Adaptive Computing Mapping** | OSDI 2026 | arbitrary-precision quantized LLM runtime | — | — |
+| **Canonical** | **ECHO: Efficient KV Cache Offloading with Lossless Prefetching for Serving Native Sparse Attention LLMs** | OSDI 2026 | sparse-attention KV-cache serving | — | — |
+| **Canonical** | **Efficient LLM Serving on Commodity GPU Clusters with Data-Reduced Cross-Instance Orchestration** | OSDI 2026 | commodity-GPU LLM serving | — | — |
+| **Canonical** | **Inference in the Shadows: Taming Memory Bandwidth Contention in Mobile LLM Inference with Sereno** | OSDI 2026 | mobile LLM inference / edge serving / memory bandwidth contention / speculative decoding | — | — |
+| **Canonical** | **Kairox: Adaptive GPU-CPU Hybrid LLM Inference via Online Neuron Balancing** | OSDI 2026 | LLM inference / GPU-CPU hybrid execution / activation sparsity / edge inference | — | — |
+| **Canonical** | **No Buffer, No Bottleneck: Efficient Zero-Copy KV Cache Offloading for Long-Context LLMs** | OSDI 2026 | LLM serving / KV cache offloading / heterogeneous CPU-GPU memory | — | — |
+| **Canonical** | **OpenTela: Unifying Decentralized Computing Resources for Heterogeneous LLM Serving (Operational Systems)** | OSDI 2026 | LLM serving / heterogeneous clusters / decentralized orchestration / operational systems | — | [Repo](https://github.com/eth-easl/opentela) |
+| **Canonical** | **Prism: Cost-Efficient Multi-LLM Serving via GPU Memory Ballooning** | OSDI 2026 | LLM serving / multi-model serving / GPU memory ballooning / production deployment | — | [Repo](https://github.com/ovg-project/kvcached) |
+| **Canonical** | **Revisiting Pipeline Parallelism for LLM Serving** | OSDI 2026 | LLM serving / pipeline parallelism / scheduling / SGLang | — | [Repo](https://github.com/Sys-KU/FastPP) |
+| **Canonical** | **Safeguarding LLM Training at Scale: Online SDC Detection and Insights from 35 Million GPU Hours** | OSDI 2026 | distributed LLM training infrastructure / GPU reliability / online SDC detection | — | — |
+| **Canonical** | **Seer: Online Context Learning for Fast Synchronous LLM Reinforcement Learning** | OSDI 2026 | RL rollout systems | — | — |
+| **Canonical** | **Strata: Hierarchical Context Caching for Long Context Language Model Serving** | OSDI 2026 | long-context KV-cache serving | — | — |
+| **Canonical** | **Teaching the Old Dog New Tricks: Building Efficient Data Pipelines for Large-Scale LLM Pre-Training (Operational Systems)** | OSDI 2026 | large-scale LLM pre-training infrastructure / data pipeline / storage / checkpoint I/O | — | — |
+
 ### The Web Conference 2026 · 12
 
 | Priority | Paper | Venue | Topic | Paper | Code |
@@ -831,22 +849,6 @@
 | **Canonical** | **ReaLM: Reliable and Efficient Large Language Model Inference with Statistical Algorithm-Based Fault Tolerance** | DAC 2025 | reliable and energy-efficient LLM inference / statistical ABFT / algorithm-circuit co-design | [Link](https://arxiv.org/abs/2503.24053) | [Repo](https://github.com/PKU-SEC-Lab/ReaLM_DAC25) |
 | **Canonical** | **SpecASR: Accelerating LLM-based Automatic Speech Recognition via Speculative Decoding** | DAC 2025 | speculative decoding / audio-language inference / real-time ASR | [Link](https://arxiv.org/abs/2507.18181) | — |
 | **Canonical** | **SQ-DM: Accelerating Diffusion Models with Aggressive Quantization and Temporal Sparsity** | DAC 2025 | diffusion acceleration / low-bit quantization / temporal activation sparsity / accelerator co-design | [Link](https://arxiv.org/abs/2501.15448) | — |
-
-### OSDI 2026 · 11
-
-| Priority | Paper | Venue | Topic | Paper | Code |
-|---|---|---|---|---|---|
-| **Canonical** | **ADAngel: Accelerating Arbitrary-Precision Quantized LLMs with Adaptive Computing Mapping** | OSDI 2026 | arbitrary-precision quantized LLM runtime | — | — |
-| **Canonical** | **ECHO: Efficient KV Cache Offloading with Lossless Prefetching for Serving Native Sparse Attention LLMs** | OSDI 2026 | sparse-attention KV-cache serving | — | — |
-| **Canonical** | **Efficient LLM Serving on Commodity GPU Clusters with Data-Reduced Cross-Instance Orchestration** | OSDI 2026 | commodity-GPU LLM serving | — | — |
-| **Canonical** | **Inference in the Shadows: Taming Memory Bandwidth Contention in Mobile LLM Inference with Sereno** | OSDI 2026 | mobile LLM inference / edge serving / memory bandwidth contention / speculative decoding | — | — |
-| **Canonical** | **Kairox: Adaptive GPU-CPU Hybrid LLM Inference via Online Neuron Balancing** | OSDI 2026 | LLM inference / GPU-CPU hybrid execution / activation sparsity / edge inference | — | — |
-| **Canonical** | **No Buffer, No Bottleneck: Efficient Zero-Copy KV Cache Offloading for Long-Context LLMs** | OSDI 2026 | LLM serving / KV cache offloading / heterogeneous CPU-GPU memory | — | — |
-| **Canonical** | **OpenTela: Unifying Decentralized Computing Resources for Heterogeneous LLM Serving (Operational Systems)** | OSDI 2026 | LLM serving / heterogeneous clusters / decentralized orchestration / operational systems | — | [Repo](https://github.com/eth-easl/opentela) |
-| **Canonical** | **Prism: Cost-Efficient Multi-LLM Serving via GPU Memory Ballooning** | OSDI 2026 | LLM serving / multi-model serving / GPU memory ballooning / production deployment | — | [Repo](https://github.com/ovg-project/kvcached) |
-| **Canonical** | **Revisiting Pipeline Parallelism for LLM Serving** | OSDI 2026 | LLM serving / pipeline parallelism / scheduling / SGLang | — | [Repo](https://github.com/Sys-KU/FastPP) |
-| **Canonical** | **Seer: Online Context Learning for Fast Synchronous LLM Reinforcement Learning** | OSDI 2026 | RL rollout systems | — | — |
-| **Canonical** | **Strata: Hierarchical Context Caching for Long Context Language Model Serving** | OSDI 2026 | long-context KV-cache serving | — | — |
 
 ### SIGMOD 2026 · 10
 

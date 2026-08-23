@@ -1,10 +1,10 @@
 # 🧭 Research Map
 
-> **663 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
+> **665 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
 
 <div align="center">
 
-[**🆕 Latest 30 Days · 194 tracked**](LATEST_30D.md) · [**🏛️ Classical · 617**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
+[**🆕 Latest 30 Days · 194 tracked**](LATEST_30D.md) · [**🏛️ Classical · 619**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
 
 </div>
 
@@ -19,8 +19,8 @@
 | 05 | [**Sparsity / Pruning**](05-sparsity-pruning.md) | **95** | **42** |
 | 06 | [**Efficient Attention**](06-efficient-attention.md) | **95** | **35** |
 | 07 | [**MoE Systems / Accelerators**](07-moe-systems.md) | **54** | **21** |
-| 08 | [**GPU Kernel / DSL / Compiler**](08-gpu-kernel-compiler.md) | **232** | **62** |
-| 09 | [**Distributed Training / Inference**](09-distributed-training-inference.md) | **92** | **17** |
+| 08 | [**GPU Kernel / DSL / Compiler**](08-gpu-kernel-compiler.md) | **234** | **62** |
+| 09 | [**Distributed Training / Inference**](09-distributed-training-inference.md) | **93** | **17** |
 | 10 | [**Multimodal / MLLM Serving**](10-multimodal-mllm-serving.md) | **83** | **30** |
 | 11 | [**Video / Image Generation**](11-video-image-generation.md) | **21** | **12** |
 | 12 | [**Diffusion / Flow Acceleration**](12-diffusion-flow.md) | **97** | **23** |
