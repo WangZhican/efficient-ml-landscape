@@ -8655,6 +8655,27 @@
     ]
   },
   {
+    "title": "Computationally Efficient FPGA-based Large Language Model Inference for Real-Time Decision-Making in Robotic Systems",
+    "venue": "IROS 2025",
+    "topic": "Physical AI / edge LLM inference / FPGA accelerator / real-time robotics",
+    "arxiv": "",
+    "doi": "10.1109/IROS60139.2025.11247019",
+    "official_id": "10.1109/IROS60139.2025.11247019",
+    "paper_url": "https://doi.org/10.1109/IROS60139.2025.11247019",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "IROS 2025 protected Physical-AI systems paper directly targeting real-time robot decision-making with FPGA-based LLM inference; adds a hardware/runtime branch complementary to VLA algorithmic acceleration.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "LightPlanner: Unleashing the Reasoning Capabilities of Lightweight Large Language Models in Task Planning",
     "venue": "IROS 2025",
     "topic": "edge-efficient embodied task planning / lightweight LLM / long-horizon memory",
@@ -8697,6 +8718,28 @@
       "Speculative Decoding",
       "Multimodal / MLLM Serving",
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Real-Time Iteration Scheme for Diffusion Policy",
+    "venue": "IROS 2025",
+    "topic": "Physical AI / diffusion-policy inference acceleration / training-free temporal reuse",
+    "arxiv": "2508.05396",
+    "doi": "10.1109/IROS60139.2025.11247391",
+    "official_id": "10.1109/IROS60139.2025.11247391",
+    "paper_url": "https://arxiv.org/abs/2508.05396",
+    "code_url": "https://github.com/RTI-DP/rti-dp",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "IROS 2025 protected Physical-AI efficiency paper. Reuses the previous action prediction as the next diffusion initialization to cut iterative denoising cost without retraining or policy redesign while preserving task performance.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
