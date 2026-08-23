@@ -614,6 +614,27 @@
     ]
   },
   {
+    "title": "Guided by Gut: Efficient Test-Time Scaling with Reinforced Intrinsic Confidence",
+    "venue": "ACL 2026",
+    "topic": "efficient reasoning / test-time scaling / KV-memory reduction",
+    "arxiv": "2505.20325",
+    "doi": "10.18653/v1/2026.acl-long.739",
+    "official_id": "2026.acl-long.739",
+    "paper_url": "https://arxiv.org/abs/2505.20325",
+    "code_url": "https://github.com/Amirhosein-gh98/Guided-by-Gut",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ACL 2026 long paper; verifier-free intrinsic-confidence tree search for efficient test-time scaling, reporting comparable accuracy to PRM-based TTS with 8x faster inference, 4-5x lower memory, and about 50% lower KV-cache memory than Best-of-N.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "HCSpec: Two-Tier Horizontal Cascade Speculative Decoding for High-Efficiency Large Language Model Inference",
     "venue": "ACL 2026",
     "topic": "speculative decoding / cascade verification",
@@ -778,6 +799,29 @@
     "directions": [
       "Speculative Decoding",
       "KV Cache / Long Context"
+    ]
+  },
+  {
+    "title": "MixKVQ: Query-Aware Mixed-Precision KV Cache Quantization for Long-Context Reasoning",
+    "venue": "ACL 2026",
+    "topic": "KV cache quantization / long-context reasoning / mixed precision",
+    "arxiv": "",
+    "doi": "10.18653/v1/2026.acl-long.326",
+    "official_id": "2026.acl-long.326",
+    "paper_url": "https://doi.org/10.18653/v1/2026.acl-long.326",
+    "code_url": "https://github.com/ZeroNLP/MixKVQ",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ACL 2026 long paper; query-aware mixed-precision KV-cache quantization for long-CoT reasoning, preserving near-full-precision quality with substantially reduced KV memory footprint.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Quantization",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
