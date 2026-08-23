@@ -385,6 +385,26 @@
     ]
   },
   {
+    "title": "Talon: Breaking the Synchronization Barrier in Speculative Decoding with Hybrid Model-based and Retrieve-based Drafting",
+    "venue": "AAAI 2026",
+    "topic": "speculative decoding / asynchronous draft-verify pipeline / hybrid model-retrieval drafting",
+    "arxiv": "",
+    "doi": "10.1609/aaai.v40i25.39266",
+    "official_id": "AAAI-39266",
+    "paper_url": "https://ojs.aaai.org/index.php/AAAI/article/view/39266",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "AAAI official paper introduces an asynchronous speculative-decoding architecture that decouples drafting and verification plus adaptive model/retrieval hybrid drafting; reports 4.04x-6.52x acceleration across multiple model families.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Speculative Decoding"
+    ]
+  },
+  {
     "title": "TimeBill: Time-Budgeted Inference for Large Language Models",
     "venue": "AAAI 2026",
     "topic": "LLM inference / time budget / adaptive KV eviction",
