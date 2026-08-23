@@ -4272,6 +4272,27 @@
     ]
   },
   {
+    "title": "AdaGen: Workload-Adaptive Cluster Scheduler for Latency-Optimal LLM Inference Serving",
+    "venue": "EuroSys 2026",
+    "topic": "LLM serving / cluster scheduling / SLO / distributed execution",
+    "arxiv": "",
+    "doi": "10.1145/3767295.3769345",
+    "official_id": "EUROSYS2026_3769345",
+    "paper_url": "https://2026.eurosys.org/papers.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "AdaGen uses workload-aware request classification, load balancing, selective distributed execution and a simulation estimator; production-workload evaluation reports up to 3.6x higher SLO attainment and 2x better cost efficiency.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "AdaServe: Accelerating Multi-SLO LLM Serving with SLO-Customized Speculative Decoding",
     "venue": "EuroSys 2026",
     "topic": "LLM serving / speculative decoding / multi-SLO",
@@ -4294,6 +4315,92 @@
     ]
   },
   {
+    "title": "AIMS: Cost-Efficient LLM-Based Agent Deployment in Hybrid Cloud-Edge Environments",
+    "venue": "EuroSys 2026",
+    "topic": "agent serving / cloud-edge / cost-efficient LLM deployment",
+    "arxiv": "",
+    "doi": "10.1145/3767295.3803622",
+    "official_id": "EUROSYS2026_3803622",
+    "paper_url": "https://2026.eurosys.org/papers.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "AIMS directly addresses cost-efficient deployment of LLM-based agents across hybrid cloud-edge environments, making it a first-class efficient-agent/edge-serving systems result.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Efficient Reasoning / Agents",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Arena: Efficiently Training Large Models via Dynamic Scheduling and Adaptive Parallelism Co-Design",
+    "venue": "EuroSys 2026",
+    "topic": "distributed large-model training / cluster scheduling / adaptive parallelism",
+    "arxiv": "2403.16125",
+    "doi": "10.1145/3767295.3803571",
+    "official_id": "EUROSYS2026_3803571",
+    "paper_url": "https://arxiv.org/abs/2403.16125",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Arena co-designs inter-job dynamic scheduling with intra-job adaptive parallelism using low-cost profiling and load-aware estimation; reported results include 49.3% lower JCT and up to 1.60x cluster throughput.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "Automated End-to-End Model Serving with Cooperative Compilation and Scheduling",
+    "venue": "EuroSys 2026",
+    "topic": "model serving / compiler-runtime co-design / scheduling",
+    "arxiv": "",
+    "doi": "10.1145/3767295.3769392",
+    "official_id": "EUROSYS2026_3769392",
+    "paper_url": "https://2026.eurosys.org/papers.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "A direct model-serving systems paper that co-optimizes compilation and runtime scheduling end to end, fitting the compiler/serving systems core rather than application-only ML.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "Bridging the GPU Utilization Gap: Predictive Multi-Dimensional Resource Scheduling for AI Workloads",
+    "venue": "EuroSys 2026",
+    "topic": "GPU cluster scheduling / AI workloads / multidimensional resource utilization",
+    "arxiv": "",
+    "doi": "10.1145/3767295.3803579",
+    "official_id": "EUROSYS2026_3803579",
+    "paper_url": "https://2026.eurosys.org/papers.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "A direct AI-cluster scheduling work that predicts and jointly manages multidimensional GPU resources to close utilization gaps in shared production AI workloads.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "Crimson: Collaborative Parameter Updates for Efficient Pipeline Training of Large Language Models",
     "venue": "EuroSys 2026",
     "topic": "LLM distributed training / pipeline parallelism / collaborative parameter updates",
@@ -4311,6 +4418,28 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "Efficient Data Passing for Serverless Inference Workflows: A GPU-Centric Approach",
+    "venue": "EuroSys 2026",
+    "topic": "serverless ML inference / GPU-centric data passing / workflow serving",
+    "arxiv": "",
+    "doi": "10.1145/3767295.3769336",
+    "official_id": "EUROSYS2026_3769336",
+    "paper_url": "https://2026.eurosys.org/papers.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "The system removes host-centric data-passing overhead in heterogeneous CPU/GPU serverless ML inference workflows with a GPU-centric data plane; this is direct inference infrastructure.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -4402,6 +4531,48 @@
     ]
   },
   {
+    "title": "Handling Network Faults in Distributed AI Training: Failover is Now an Option",
+    "venue": "EuroSys 2026",
+    "topic": "distributed AI training / network fault tolerance / production resilience",
+    "arxiv": "",
+    "doi": "10.1145/3767295.3769322",
+    "official_id": "EUROSYS2026_3769322",
+    "paper_url": "https://2026.eurosys.org/papers.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "A ByteDance/NUS distributed-AI training systems paper focused on network-fault failover, directly relevant to large-scale training reliability and infrastructure.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "HARP: Orchestrating Automated Parallel Training on Heterogeneous GPU Clusters",
+    "venue": "EuroSys 2026",
+    "topic": "distributed training / heterogeneous GPU cluster / automated parallelism",
+    "arxiv": "2509.24859",
+    "doi": "10.1145/3767295.3803603",
+    "official_id": "EUROSYS2026_3803603",
+    "paper_url": "https://arxiv.org/abs/2509.24859",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "HARP orchestrates automated parallel training over heterogeneous GPU clusters, directly addressing parallel-strategy selection and heterogeneous-resource efficiency.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "High Throughput and Low Latency LLM Serving via Adaptive KV Caching",
     "venue": "EuroSys 2026",
     "topic": "LLM serving / KV cache / adaptive caching",
@@ -4443,6 +4614,26 @@
     ]
   },
   {
+    "title": "MegaScale-Data: Scaling DataLoader for Multisource Large Foundation Model Training",
+    "venue": "EuroSys 2026",
+    "topic": "foundation-model training / distributed dataloader / multisource data pipeline",
+    "arxiv": "2504.09844",
+    "doi": "10.1145/3767295.3803568",
+    "official_id": "EUROSYS2026_3803568",
+    "paper_url": "https://arxiv.org/abs/2504.09844",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "MegaScale-Data disaggregates and globally coordinates multisource data loading for hybrid-parallel large foundation-model training, addressing memory blowup and data-orchestration bottlenecks at production scale.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "MegaScale-MoE: Large-Scale Communication-Efficient Training of Mixture-of-Experts Models in Production",
     "venue": "EuroSys 2026",
     "topic": "MoE training systems / communication optimization",
@@ -4465,6 +4656,28 @@
     ]
   },
   {
+    "title": "MegaScale-Omni: A Hyper-Scale, Workload-Resilient System for MultiModal LLM Training in Production",
+    "venue": "EuroSys 2026",
+    "topic": "multimodal LLM training / production distributed systems / elastic workload management",
+    "arxiv": "2605.08962",
+    "doi": "10.1145/3767295.3803587",
+    "official_id": "EUROSYS2026_3803587",
+    "paper_url": "https://arxiv.org/abs/2605.08962",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "MegaScale-Omni is a ByteDance production system for multimodal LLM training under dynamic modality mixtures and workload variation, evaluated at hyper-scale across thousands of GPUs.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
     "title": "MFS: An Efficient Model Family Serving System for LLMs",
     "venue": "EuroSys 2026",
     "topic": "LLM model-family serving / multi-tier batching / cross-model KV sharing",
@@ -4484,6 +4697,28 @@
       "LLM Serving",
       "KV Cache / Long Context",
       "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "PARD: Enhancing Goodput for Inference Pipeline via Proactive Request Dropping",
+    "venue": "EuroSys 2026",
+    "topic": "inference pipeline serving / goodput / SLO-aware request dropping",
+    "arxiv": "2602.08747",
+    "doi": "10.1145/3767295.3803581",
+    "official_id": "EUROSYS2026_3803581",
+    "paper_url": "https://arxiv.org/abs/2602.08747",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "PARD proactively drops requests using runtime pipeline state and adaptive priorities; on a 64-GPU cluster it reports 16%-176% higher goodput while cutting drop rate and wasted computation substantially.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
     ]
   },
   {
@@ -4636,6 +4871,29 @@
     ]
   },
   {
+    "title": "Taming Latency-Memory Trade-Off in MoE-Based LLM Serving via Fine-Grained Expert Offloading",
+    "venue": "EuroSys 2026",
+    "topic": "MoE serving / expert offloading / prefetching / cache management",
+    "arxiv": "2502.05370",
+    "doi": "10.1145/3767295.3769319",
+    "official_id": "EUROSYS2026_3769319",
+    "paper_url": "https://arxiv.org/abs/2502.05370",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "FineMoE uses fine-grained expert activation patterns and prompt semantics to guide expert prefetching, caching and offloading; a six-GPU prototype reports 47% lower inference latency and 39% higher expert hit rate over prior solutions.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "MoE Systems / Accelerators",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "TokenFlow",
     "venue": "EuroSys 2026",
     "topic": "responsive LLM streaming + memory-overload-aware serving",
@@ -4653,6 +4911,46 @@
     "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving"
+    ]
+  },
+  {
+    "title": "viNPU: Optimizing Vision Transformer Inference on Mobile NPUs",
+    "venue": "EuroSys 2026",
+    "topic": "edge AI / mobile NPU / Vision Transformer inference optimization",
+    "arxiv": "",
+    "doi": "10.1145/3767295.3803619",
+    "official_id": "EUROSYS2026_3803619",
+    "paper_url": "https://2026.eurosys.org/papers.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "viNPU directly optimizes Vision Transformer inference on mobile NPUs, placing it in the edge/on-device inference and accelerator-runtime co-design core.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Zeppelin: Balancing Variable-length Workloads in Data Parallel Large Model Training",
+    "venue": "EuroSys 2026",
+    "topic": "distributed LLM training / variable-length balancing / communication optimization",
+    "arxiv": "2509.21841",
+    "doi": "10.1145/3767295.3769369",
+    "official_id": "EUROSYS2026_3769369",
+    "paper_url": "https://arxiv.org/abs/2509.21841",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Zeppelin jointly optimizes hierarchical sequence partitioning, NIC routing and layout remapping for variable-length LLM training; evaluation reports an average 2.80x speedup over prior methods.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Distributed Training / Inference"
     ]
   },
   {
