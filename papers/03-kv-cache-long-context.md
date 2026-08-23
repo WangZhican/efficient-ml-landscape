@@ -151,7 +151,7 @@
 | **Canonical** | **CHIME: A Case for Efficient Long-Context Attention-FC Disaggregated Inference with DIMM-PIM** | ISCA 2026 | long-context LLM / disaggregated inference / PIM | [Link](https://arxiv.org/abs/2504.17584) | — |
 | **Canonical** | **Combating the Memory Walls: Optimization Pathways for Long-Context Agentic LLM Inference** | ISCA 2026 | long-context agentic LLM / accelerator / memory wall | [Link](https://arxiv.org/abs/2509.09505) | — |
 | **Canonical** | **Omni-LUT: Energy-Efficient LUT-based Accelerator with Hardware-Aware KV Cache Quantization** | ISCA 2026 | LLM inference accelerator / LUT / KV-cache quantization | — | — |
-| **Canonical** | **Tetris: Efficient Long-context LLM Serving with Chunkwise Dynamic Sequence Parallelism** | ISCA 2026 | long-context LLM serving / sequence parallelism | — | — |
+| **Canonical** | **Tetris: Efficient Long-context LLM Serving with Chunkwise Dynamic Sequence Parallelism** | ISCA 2026 | long-context LLM serving / sequence parallelism | [Link](https://arxiv.org/abs/2511.06247) | — |
 | **Canonical** | **EARN: Efficient Inference Acceleration for LLM-based Generative Recommendation by Register Tokens** | KDD 2025 | LLM inference acceleration / KV cache / recommendation | [Link](https://arxiv.org/abs/2507.00715) | — |
 | **Canonical** | **Kelle: Co-design KV Caching and eDRAM for Efficient LLM Serving in Edge Computing** | MICRO 2025 | edge LLM serving / KV cache / eDRAM co-design | [Link](https://arxiv.org/abs/2510.16040) | — |
 | **Canonical** | **LongSight: Compute-Enabled Memory to Accelerate Large-Context LLMs via Sparse Attention** | MICRO 2025 | long-context LLM / sparse attention / CXL memory | [Link](https://doi.org/10.1145/3725843.3756062) | — |

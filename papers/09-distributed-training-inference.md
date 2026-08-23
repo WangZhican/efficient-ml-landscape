@@ -59,7 +59,7 @@
 | **Canonical** | **MoE-Hub: Taming Software Complexity for Seamless MoE Overlap with Hardware-Accelerated Communication on Multi-GPU Systems** | ISCA 2026 | MoE systems / multi-GPU communication overlap | — | — |
 | **Canonical** | **PowerGrad: Hierarchical Power Management for Power-Limited ML Inference Clusters** | ISCA 2026 | ML inference clusters / power management / datacenter efficiency | — | — |
 | **Canonical** | **Symbiotic MLLM Serving: Dynamically Balancing Parallelism Across GPUs and Resources Within GPUs** | ISCA 2026 | multimodal LLM serving / GPU resource balancing | — | — |
-| **Canonical** | **Tetris: Efficient Long-context LLM Serving with Chunkwise Dynamic Sequence Parallelism** | ISCA 2026 | long-context LLM serving / sequence parallelism | — | — |
+| **Canonical** | **Tetris: Efficient Long-context LLM Serving with Chunkwise Dynamic Sequence Parallelism** | ISCA 2026 | long-context LLM serving / sequence parallelism | [Link](https://arxiv.org/abs/2511.06247) | — |
 | **Canonical** | **Exploiting Student Parallelism for Low-latency GPU Inference of BERT-like Models in Online Services** | KDD 2025 | GPU online inference / BERT serving / student parallelism | [Link](https://arxiv.org/abs/2408.12526) | — |
 | **Canonical** | **Optimizing Deployment Configurations for LLM Inference** | MLSys 2026 | LLM serving / deployment configuration / hardware heterogeneity / production systems | — | — |
 | **Canonical** | **Confidant: Customizing Transformer-based LLMs via Collaborative Training on Mobile Devices** | MobiCom 2025 | edge AI / mobile LLM training / pipeline parallelism / heterogeneous scheduling | [Link](https://arxiv.org/abs/2311.13381) | — |

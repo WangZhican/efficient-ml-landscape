@@ -260,7 +260,7 @@
 | **Canonical** | **Power Sloshing in Compound Servers for Large-Scale AI Inference Workloads** | ISCA 2026 | AI inference infrastructure / server power management / production systems | — | — |
 | **Canonical** | **PowerWeave: Unlocking Energy-Efficient ML on GPUs with OS-Level Spatial Power Management** | ISCA 2026 | GPU power management / LLM serving / agentic workloads | — | — |
 | **Canonical** | **Symbiotic MLLM Serving: Dynamically Balancing Parallelism Across GPUs and Resources Within GPUs** | ISCA 2026 | multimodal LLM serving / GPU resource balancing | — | — |
-| **Canonical** | **Tetris: Efficient Long-context LLM Serving with Chunkwise Dynamic Sequence Parallelism** | ISCA 2026 | long-context LLM serving / sequence parallelism | — | — |
+| **Canonical** | **Tetris: Efficient Long-context LLM Serving with Chunkwise Dynamic Sequence Parallelism** | ISCA 2026 | long-context LLM serving / sequence parallelism | [Link](https://arxiv.org/abs/2511.06247) | — |
 | **Canonical** | **Exploiting Student Parallelism for Low-latency GPU Inference of BERT-like Models in Online Services** | KDD 2025 | GPU online inference / BERT serving / student parallelism | [Link](https://arxiv.org/abs/2408.12526) | — |
 | **Canonical** | **BitL: A Hybrid Bit-Serial and Parallel Deep Learning Accelerator for Critical Path Reduction** | MICRO 2025 | bit-level sparsity / hybrid bit-serial-bit-parallel DNN accelerator / efficient inference | [Link](https://doi.org/10.1145/3725843.3756044) | — |
 | **Canonical** | **Chameleon: Adaptive Caching and Scheduling for Many-Adapter LLM Inference Environments** | MICRO 2025 | LLM serving / adapter caching and scheduling | — | — |

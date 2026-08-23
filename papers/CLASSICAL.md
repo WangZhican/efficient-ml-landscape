@@ -21,7 +21,7 @@
 | **Canonical** | **DiTPA: A DiT-based Action Planner Accelerator Exploiting Action-Denoising-Multimodality Redundancy for Embodied Artificial Intelligence** | ISCA 2026 | Physical AI / embodied action planner / DiT accelerator | — | — |
 | **Canonical** | **DynoPipe: Heterogeneous Edge-Cloud LLM Serving with Dynamically Orchestrated Pipeline Boundaries** | ISCA 2026 | edge-cloud LLM serving / heterogeneous pipeline | — | — |
 | **Canonical** | **Early Silicon of Raptor: The First 3D-DRAM Accelerator for Generative Inference** | ISCA 2026 | generative inference accelerator / 3D DRAM | — | — |
-| **Canonical** | **ENEC: A Lossless AI Model Compression Method Enabling Fast Inference on Ascend NPUs** | ISCA 2026 | lossless model compression / NPU inference | — | — |
+| **Canonical** | **ENEC: A Lossless AI Model Compression Method Enabling Fast Inference on Ascend NPUs** | ISCA 2026 | lossless model compression / NPU inference | [Link](https://arxiv.org/abs/2604.03298) | — |
 | **Canonical** | **EVA: Accelerating LLM Decoding via an Efficient Vector Quantization Architecture** | ISCA 2026 | LLM decoding / vector quantization accelerator | — | — |
 | **Canonical** | **HybridSpec: Exploiting Hybrid-bonding Memory to Accelerate LLM Serving through Heterogeneous Architecture and Speculative Decoding** | ISCA 2026 | speculative decoding / heterogeneous memory / LLM serving | — | — |
 | **Canonical** | **IroKnight: Ownership-Preserving Neural Acceleration for Inference Serving** | ISCA 2026 | secure/private inference serving / accelerator architecture | [Link](https://doi.org/10.1109/ISCA66397.2026.00087) | — |
@@ -45,9 +45,9 @@
 | **Canonical** | **SMOOTH: Hardware-Assisted Fine-Grained On-Chip Memory Management for Efficient On-Device LLM Inference** | ISCA 2026 | edge speculative reasoning + quantization + memory-system + generative inference accelerators | — | — |
 | **Canonical** | **STEP: Adaptive Spatio-Temporal Expert Prefetching for Low-Latency and Memory-Efficient MoE Inference** | ISCA 2026 | MoE / expert prefetching / memory efficiency | — | — |
 | **Canonical** | **Symbiotic MLLM Serving: Dynamically Balancing Parallelism Across GPUs and Resources Within GPUs** | ISCA 2026 | multimodal LLM serving / GPU resource balancing | — | — |
-| **Canonical** | **Tetris: Efficient Long-context LLM Serving with Chunkwise Dynamic Sequence Parallelism** | ISCA 2026 | long-context LLM serving / sequence parallelism | — | — |
+| **Canonical** | **Tetris: Efficient Long-context LLM Serving with Chunkwise Dynamic Sequence Parallelism** | ISCA 2026 | long-context LLM serving / sequence parallelism | [Link](https://arxiv.org/abs/2511.06247) | — |
 | **Canonical** | **UniCore: A Bit-Width Scalable GEMM Unit for Unified LLM Inference** | ISCA 2026 | LLM accelerator / variable bit-width GEMM | — | — |
-| **Canonical** | **XtraMAC: An Efficient MAC Architecture for Mixed-Precision LLM Inference on FPGA** | ISCA 2026 | mixed-precision LLM / FPGA accelerator | — | — |
+| **Canonical** | **XtraMAC: An Efficient MAC Architecture for Mixed-Precision LLM Inference on FPGA** | ISCA 2026 | mixed-precision LLM / FPGA accelerator | [Link](https://arxiv.org/abs/2605.06052) | [Repo](https://github.com/Xtra-Computing/XtraMAC) |
 
 ## ASPLOS 2026 · 31
 
