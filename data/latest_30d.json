@@ -1,8 +1,8 @@
 {
-  "window_end_beijing": "2026-08-23",
-  "window_start_beijing": "2026-07-24",
+  "window_end_beijing": "2026-08-24",
+  "window_start_beijing": "2026-07-25",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 194,
+  "tracked_total": 199,
   "p0_strong_or_canonical": [
     {
       "title": "FlashPrefill V2: Block-Sparse Prefill Attention for Long-Context LLM Serving",
@@ -1117,6 +1117,28 @@
       ]
     },
     {
+      "title": "Partition the Support, Reconstruct the Residual: Training-Free Sparse Attention for Video Generation and World Models",
+      "venue": "",
+      "topic": "efficient attention / video generation / world models",
+      "arxiv": "2608.18484",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.18484",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Training-free block-sparse attention for video generation/world models with executable routing + residual reconstruction; reports 22-26% executed-pair density and 1.48-2.61x end-to-end speedup, directly relevant to efficient attention/generative inference.",
+      "published_at": "2026-08-19T03:16:09Z",
+      "updated_at": "2026-08-19T03:16:09Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Sparsity / Pruning",
+        "Efficient Attention",
+        "Video / Image Generation"
+      ]
+    },
+    {
       "title": "Cacheable by Design? Training Mixture-of-Experts Routers for Locality Against the Edge Memory-Bandwidth Wall: A Pre-Registered Negative Result with a Systems Measurement Study",
       "venue": "",
       "topic": "edge MoE serving / expert caching / memory bandwidth",
@@ -1287,6 +1309,29 @@
       "is_latest_30d": true,
       "directions": [
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Accelerating Visual On-Policy Distillation with Batched Speculative Jacobi Rollouts",
+      "venue": "",
+      "topic": "visual generation training systems / speculative rollout",
+      "arxiv": "2608.18183",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.18183",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Batched speculative Jacobi rollout backend directly reduces visual on-policy distillation rollout and end-to-end training time while preserving generation quality; systems/runtime relevance is strong but adoption/independent validation is still early.",
+      "published_at": "2026-08-18T07:16:48Z",
+      "updated_at": "2026-08-18T07:16:48Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Speculative Decoding",
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -1990,7 +2035,7 @@
       "tracking_tier": "P1 · Watch",
       "why": "Directly relevant recent Efficient-ML/AI-Infra work with concrete systems/efficiency mechanism; retained as P1 pending deeper venue/adoption/independent-validation review.",
       "published_at": "2026-07-24T07:06:06Z",
-      "updated_at": "2026-07-24T07:06:06Z",
+      "updated_at": "",
       "is_latest_30d": true,
       "directions": [
         "LLM Serving",
@@ -2064,6 +2109,27 @@
       ]
     },
     {
+      "title": "S$^2$GS: Structured Sparse Gaussian Streaming for Efficient Free-Viewpoint Video Reconstruction on Edge-IoT Devices",
+      "venue": "",
+      "topic": "edge AI / Gaussian streaming / sparse updates",
+      "arxiv": "2608.19639",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.19639",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Structured sparse Gaussian streaming cuts per-frame optimization time 59% and storage 85%, and reaches 60+ FPS on Jetson AGX Orin; relevant edge/video representation efficiency but peripheral to foundation-model systems core.",
+      "published_at": "2026-08-20T05:12:53Z",
+      "updated_at": "2026-08-20T05:12:53Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Sparsity / Pruning",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "OrthoSkillVLA: Continual Skill Learning via Gradient-Informed Skill Subspace Adaptation",
       "venue": "",
       "topic": "llm_serving / multimodal / physical",
@@ -2082,6 +2148,26 @@
       "directions": [
         "LLM Serving",
         "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "GS-VLA: Plug-and-Play Viewpoint Canonicalization for Frozen VLA Policies via Gaussian Splatting",
+      "venue": "",
+      "topic": "Physical AI / VLA robustness / lightweight runtime module",
+      "arxiv": "2608.19066",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.19066",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Lightweight 4M-parameter plug-in canonicalizer improves frozen VLA robustness under viewpoint shift without retraining; Physical-AI relevant, but primary contribution is robustness rather than serving/inference efficiency.",
+      "published_at": "2026-08-19T16:08:10Z",
+      "updated_at": "2026-08-19T16:08:10Z",
+      "is_latest_30d": true,
+      "directions": [
         "VLA / WAM / Physical AI"
       ]
     },
@@ -2149,6 +2235,26 @@
         "Efficient Attention",
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Static Pruning Across Sparse Retrieval Regimes: What Transfers, What Breaks, and What Still Helps",
+      "venue": "",
+      "topic": "sparse retrieval systems / pruning",
+      "arxiv": "2608.16309",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.16309",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Cross-engine sparse-retrieval pruning study with systems profiling and 1.2-6.6x latency reduction; relevant to sparse retrieval infrastructure but outside the main foundation-model inference core.",
+      "published_at": "2026-08-17T09:19:49Z",
+      "updated_at": "2026-08-17T09:19:49Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Sparsity / Pruning"
       ]
     },
     {
@@ -5392,6 +5498,28 @@
       ]
     },
     {
+      "title": "Partition the Support, Reconstruct the Residual: Training-Free Sparse Attention for Video Generation and World Models",
+      "venue": "",
+      "topic": "efficient attention / video generation / world models",
+      "arxiv": "2608.18484",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.18484",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Training-free block-sparse attention for video generation/world models with executable routing + residual reconstruction; reports 22-26% executed-pair density and 1.48-2.61x end-to-end speedup, directly relevant to efficient attention/generative inference.",
+      "published_at": "2026-08-19T03:16:09Z",
+      "updated_at": "2026-08-19T03:16:09Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Sparsity / Pruning",
+        "Efficient Attention",
+        "Video / Image Generation"
+      ]
+    },
+    {
       "title": "Cacheable by Design? Training Mixture-of-Experts Routers for Locality Against the Edge Memory-Bandwidth Wall: A Pre-Registered Negative Result with a Systems Measurement Study",
       "venue": "",
       "topic": "edge MoE serving / expert caching / memory bandwidth",
@@ -5562,6 +5690,29 @@
       "is_latest_30d": true,
       "directions": [
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Accelerating Visual On-Policy Distillation with Batched Speculative Jacobi Rollouts",
+      "venue": "",
+      "topic": "visual generation training systems / speculative rollout",
+      "arxiv": "2608.18183",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.18183",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Batched speculative Jacobi rollout backend directly reduces visual on-policy distillation rollout and end-to-end training time while preserving generation quality; systems/runtime relevance is strong but adoption/independent validation is still early.",
+      "published_at": "2026-08-18T07:16:48Z",
+      "updated_at": "2026-08-18T07:16:48Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Speculative Decoding",
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -6265,7 +6416,7 @@
       "tracking_tier": "P1 · Watch",
       "why": "Directly relevant recent Efficient-ML/AI-Infra work with concrete systems/efficiency mechanism; retained as P1 pending deeper venue/adoption/independent-validation review.",
       "published_at": "2026-07-24T07:06:06Z",
-      "updated_at": "2026-07-24T07:06:06Z",
+      "updated_at": "",
       "is_latest_30d": true,
       "directions": [
         "LLM Serving",
@@ -6337,6 +6488,27 @@
       ]
     },
     {
+      "title": "S$^2$GS: Structured Sparse Gaussian Streaming for Efficient Free-Viewpoint Video Reconstruction on Edge-IoT Devices",
+      "venue": "",
+      "topic": "edge AI / Gaussian streaming / sparse updates",
+      "arxiv": "2608.19639",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.19639",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Structured sparse Gaussian streaming cuts per-frame optimization time 59% and storage 85%, and reaches 60+ FPS on Jetson AGX Orin; relevant edge/video representation efficiency but peripheral to foundation-model systems core.",
+      "published_at": "2026-08-20T05:12:53Z",
+      "updated_at": "2026-08-20T05:12:53Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Sparsity / Pruning",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "OrthoSkillVLA: Continual Skill Learning via Gradient-Informed Skill Subspace Adaptation",
       "venue": "",
       "topic": "llm_serving / multimodal / physical",
@@ -6355,6 +6527,26 @@
       "directions": [
         "LLM Serving",
         "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "GS-VLA: Plug-and-Play Viewpoint Canonicalization for Frozen VLA Policies via Gaussian Splatting",
+      "venue": "",
+      "topic": "Physical AI / VLA robustness / lightweight runtime module",
+      "arxiv": "2608.19066",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.19066",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Lightweight 4M-parameter plug-in canonicalizer improves frozen VLA robustness under viewpoint shift without retraining; Physical-AI relevant, but primary contribution is robustness rather than serving/inference efficiency.",
+      "published_at": "2026-08-19T16:08:10Z",
+      "updated_at": "2026-08-19T16:08:10Z",
+      "is_latest_30d": true,
+      "directions": [
         "VLA / WAM / Physical AI"
       ]
     },
@@ -6422,6 +6614,26 @@
         "Efficient Attention",
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Static Pruning Across Sparse Retrieval Regimes: What Transfers, What Breaks, and What Still Helps",
+      "venue": "",
+      "topic": "sparse retrieval systems / pruning",
+      "arxiv": "2608.16309",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.16309",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Cross-engine sparse-retrieval pruning study with systems profiling and 1.2-6.6x latency reduction; relevant to sparse retrieval infrastructure but outside the main foundation-model inference core.",
+      "published_at": "2026-08-17T09:19:49Z",
+      "updated_at": "2026-08-17T09:19:49Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Sparsity / Pruning"
       ]
     },
     {
