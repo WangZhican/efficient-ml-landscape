@@ -8120,6 +8120,28 @@
     ]
   },
   {
+    "title": "CSD: Content-aware Speculative Decoding for Efficient Image Generation",
+    "venue": "ICML 2026",
+    "topic": "speculative decoding / autoregressive image generation / inference acceleration",
+    "arxiv": "2606.27829",
+    "doi": "",
+    "official_id": "2606.27829",
+    "paper_url": "https://arxiv.org/abs/2606.27829",
+    "code_url": "https://github.com/aderfebr/CSD",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 direct image-generation acceleration paper; content-aware acceptance relaxation plus distribution-aligned resampling improves speculative acceptance while preserving target distribution and visual quality.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "Video / Image Generation"
+    ]
+  },
+  {
     "title": "Decouple and Cache: KV Cache Construction for Streaming Video Understanding",
     "venue": "ICML 2026",
     "topic": "multimodal serving / streaming video / KV cache",
@@ -8255,6 +8277,27 @@
     ]
   },
   {
+    "title": "LFQ: Logit-aware Final-block Quantization for Boosting the Generation Quality of Low-Bit Quantized LLMs",
+    "venue": "ICML 2026",
+    "topic": "LLM quantization / PTQ / long-form generation quality",
+    "arxiv": "2605.29756",
+    "doi": "",
+    "official_id": "2605.29756",
+    "paper_url": "https://arxiv.org/abs/2605.29756",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 direct low-bit LLM PTQ paper addressing long-generation quality degradation through logit-aware final-block quantization; complements block-wise PTQ and reasoning-focused deployment routes.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "OServe: Accelerating LLM Serving via Spatial-Temporal Workload Orchestration",
     "venue": "ICML 2026",
     "topic": "LLM serving / heterogeneous deployment / scheduling",
@@ -8364,6 +8407,28 @@
       "Quantization",
       "Sparsity / Pruning",
       "Efficient Attention"
+    ]
+  },
+  {
+    "title": "ReQAT: Achieving Full-Precision Reasoning Accuracy with 4-bit Floating-Point Quantization-Aware Training",
+    "venue": "ICML 2026",
+    "topic": "quantization / reasoning inference / W4A4KV4 / QAT",
+    "arxiv": "2606.15682",
+    "doi": "",
+    "official_id": "2606.15682",
+    "paper_url": "https://arxiv.org/abs/2606.15682",
+    "code_url": "https://github.com/aiha-lab/ReQAT",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Oral direct reasoning-inference quantization paper; W4A4KV4 reasoning-centric QAT recovers/surpasses BF16 fine-tuning accuracy and reports up to 3.9x throughput speedup on DGX Spark and 3.1x on B200.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -8544,6 +8609,30 @@
       "Sparsity / Pruning",
       "Multimodal / MLLM Serving",
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "STAR-KV: Low-Rank KV Cache Compression via Soft Thresholding for Adaptive Rank Control",
+    "venue": "ICML 2026",
+    "topic": "KV cache / low-rank compression / mixed-precision quantization / Triton kernel",
+    "arxiv": "2606.08382",
+    "doi": "",
+    "official_id": "2606.08382",
+    "paper_url": "https://arxiv.org/abs/2606.08382",
+    "code_url": "https://github.com/PriyanshBhatnagar/STAR-KV",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Spotlight direct KV-cache compression work with adaptive low-rank control, mixed-precision quantization and custom Triton kernels; reports up to 20x overall KV reduction, 6.9x attention speedup and 3.1x end-to-end generation throughput.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Quantization",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {
