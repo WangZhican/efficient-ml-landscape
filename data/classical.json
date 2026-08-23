@@ -2569,6 +2569,28 @@
     ]
   },
   {
+    "title": "ApET: Approximation-Error Guided Token Compression for Efficient VLMs",
+    "venue": "CVPR 2026",
+    "topic": "multimodal inference / visual token compression / FlashAttention-compatible pruning",
+    "arxiv": "2602.19870",
+    "doi": "",
+    "official_id": "",
+    "paper_url": "https://arxiv.org/abs/2602.19870",
+    "code_url": "https://github.com/MaQianKun0/ApET",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "CVPR 2026 attention-free visual-token compression. Approximation-error selection retains about 95.2% image performance and 100.4% video performance while removing roughly 88% of tokens, and is explicitly compatible with FlashAttention.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
     "title": "Attention Surgery: An Efficient Recipe to Linearize Your Video Diffusion Transformer",
     "venue": "CVPR 2026",
     "topic": "video diffusion / linear attention / mobile inference",
@@ -2700,6 +2722,26 @@
     ]
   },
   {
+    "title": "Hybrid Token Compression for Vision-Language Models",
+    "venue": "CVPR 2026",
+    "topic": "multimodal inference / extreme visual token compression / hybrid discrete-continuous representation",
+    "arxiv": "2512.08240",
+    "doi": "",
+    "official_id": "",
+    "paper_url": "https://arxiv.org/abs/2512.08240",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "CVPR 2026 HTC-VLM hybrid discrete/continuous compression. Compresses a 580-token hybrid visual sequence to a single bottleneck token while reporting 87.2% average performance retention, making it a notable branch in aggressive VLM token compression.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
     "title": "IF-Prune: Information-Flow Guided Token Pruning for Efficient Vision-Language Models",
     "venue": "CVPR 2026",
     "topic": "VLM inference / token pruning",
@@ -2718,6 +2760,28 @@
     "directions": [
       "Sparsity / Pruning",
       "Multimodal / MLLM Serving"
+    ]
+  },
+  {
+    "title": "LinVideo: A Post-Training Framework towards O(n) Attention in Efficient Video Generation",
+    "venue": "CVPR 2026",
+    "topic": "video generation acceleration / linear attention / post-training",
+    "arxiv": "2510.08318",
+    "doi": "",
+    "official_id": "",
+    "paper_url": "https://arxiv.org/abs/2510.08318",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "CVPR 2026 efficient video-generation paper. Data-free post-training selectively replaces quadratic self-attention with linear attention; official CVPR/arXiv results report roughly 1.43-1.71x speedup while preserving generation quality, with few-step variants providing much larger latency reduction.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Efficient Attention",
+      "Video / Image Generation"
     ]
   },
   {
@@ -2811,6 +2875,28 @@
     ]
   },
   {
+    "title": "QuietPrune: Query-Guided Early Token Pruning for Vision-Language Models",
+    "venue": "CVPR 2026",
+    "topic": "multimodal inference / early visual token pruning / VLM acceleration",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "",
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Gao_QuietPrune_Query-Guided_Early_Token_Pruning_for_Vision-Language_Models_CVPR_2026_paper.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "CVPR 2026 query-guided early token pruning inside the vision encoder, including semi-structured group pruning compatible with mainstream token merging. Official results report up to 19% prefill-latency reduction with accuracy gains over late-pruning baselines.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
     "title": "ResCa: Residual Caching for Diffusion Transformers Acceleration",
     "venue": "CVPR 2026",
     "topic": "diffusion transformer / residual caching",
@@ -2832,6 +2918,27 @@
     ]
   },
   {
+    "title": "SCoRe: Salience-Coverage Reduction for Vision Token Pruning in Vision-Language Models",
+    "venue": "CVPR 2026",
+    "topic": "multimodal inference / visual token pruning / representativeness optimization",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "",
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Xu_SCoRe_Salience-Coverage_Reduction_for_Vision_Token_Pruning_in_Vision-Language_Models_CVPR_2026_paper.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "CVPR 2026 visual-token pruning formulated as a weighted k-center representativeness problem. Official results report 94.4% token reduction while retaining 95% of full performance with negligible overhead.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
     "title": "SeaCache: Spectral-Evolution-Aware Cache for Accelerating Diffusion Models",
     "venue": "CVPR 2026",
     "topic": "diffusion / spectral caching",
@@ -2850,6 +2957,29 @@
     "directions": [
       "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "SegMo: Co-Designing Content-Aware Sparsity and Locally-Cohesive Segment Parallelism for Efficient VLM Inference",
+    "venue": "CVPR 2026",
+    "topic": "multimodal serving / VideoLLM prefill / sparsity / segment parallelism",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "",
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Li_SegMo_Co-Designing_Content-Aware_Sparsity_and_Locally-Cohesive_Segment_Parallelism_for_Efficient_CVPR_2026_paper.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "CVPR 2026 algorithm-system co-design for VideoLLM inference. Content-aware sparsification plus locally-cohesive segment parallelism targets token-explosion and communication overhead; official CVPR results report peak 3.55x prefill acceleration while maintaining or improving accuracy.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Distributed Training / Inference",
+      "Multimodal / MLLM Serving"
     ]
   },
   {
@@ -2896,6 +3026,27 @@
     ]
   },
   {
+    "title": "SURF: Signature-Retained Fast Video Generation",
+    "venue": "CVPR 2026",
+    "topic": "video generation acceleration / low-resolution preview / efficient refinement",
+    "arxiv": "2603.21002",
+    "doi": "",
+    "official_id": "",
+    "paper_url": "https://arxiv.org/abs/2603.21002",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "CVPR 2026 fast high-resolution video-generation framework. Preview-and-refine generation with noise reshifting and efficient refinement reports 12.5x speedup for Wan2.1 720p generation and 8.7x for HunyuanVideo while preserving model signatures.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Video / Image Generation"
+    ]
+  },
+  {
     "title": "TransPrune: Token Transition Pruning for Efficient Large Vision-Language Model",
     "venue": "CVPR 2026",
     "topic": "VLM inference / token pruning",
@@ -2907,6 +3058,27 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "BACKFILL_HIGH",
     "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
+    "title": "Variation-aware Vision Token Dropping for Faster Large Vision-Language Models",
+    "venue": "CVPR 2026",
+    "topic": "multimodal inference / visual token pruning / latency reduction",
+    "arxiv": "2509.01552",
+    "doi": "",
+    "official_id": "",
+    "paper_url": "https://arxiv.org/abs/2509.01552",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "CVPR 2026 V2Drop. Progressive variation-aware token dropping is designed to avoid positional bias and remain compatible with efficient operators; official results report 31.5% image and 74.2% video LLM-generation latency reduction while retaining high task performance.",
     "published_at": "",
     "updated_at": "",
     "is_latest_30d": false,
