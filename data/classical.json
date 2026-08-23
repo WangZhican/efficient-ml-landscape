@@ -4153,6 +4153,28 @@
     ]
   },
   {
+    "title": "Spec-VLA: Speculative Decoding for Vision-Language-Action Models with Relaxed Acceptance",
+    "venue": "EMNLP 2025",
+    "topic": "Physical AI / VLA speculative decoding / relaxed action-token verification",
+    "arxiv": "2507.22424",
+    "doi": "10.18653/v1/2025.emnlp-main.1367",
+    "official_id": "2025.emnlp-main.1367",
+    "paper_url": "https://arxiv.org/abs/2507.22424",
+    "code_url": "https://github.com/PineTreeWss/SpecVLA",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH_PROTECTED_PHYSICAL_AI",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Speculative Decoding",
+      "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Speculative Streaming: Efficient and Scalable Speculative Decoding with Multi-Stream Attention",
     "venue": "EMNLP 2025",
     "topic": "speculative decoding / multi-stream attention",
@@ -4171,6 +4193,28 @@
     "directions": [
       "Speculative Decoding",
       "Efficient Attention"
+    ]
+  },
+  {
+    "title": "SpecVLM: Enhancing Speculative Decoding of Video LLMs via Verifier-Guided Token Pruning",
+    "venue": "EMNLP 2025",
+    "topic": "multimodal speculative decoding / video LLM / verifier-guided visual-token pruning",
+    "arxiv": "",
+    "doi": "10.18653/v1/2025.emnlp-main.366",
+    "official_id": "2025.emnlp-main.366",
+    "paper_url": "https://doi.org/10.18653/v1/2025.emnlp-main.366",
+    "code_url": "https://github.com/zju-jiyicheng/SpecVLM",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Speculative Decoding",
+      "Sparsity / Pruning",
+      "Multimodal / MLLM Serving"
     ]
   },
   {
@@ -4213,6 +4257,27 @@
       "KV Cache / Long Context",
       "Sparsity / Pruning",
       "Efficient Attention"
+    ]
+  },
+  {
+    "title": "UNComp: Can Matrix Entropy Uncover Sparsity? — A Compressor Design from an Uncertainty-Aware Perspective",
+    "venue": "EMNLP 2025",
+    "topic": "KV cache compression / long-context inference / uncertainty-aware sparsity",
+    "arxiv": "",
+    "doi": "10.18653/v1/2025.emnlp-main.209",
+    "official_id": "2025.emnlp-main.209",
+    "paper_url": "https://doi.org/10.18653/v1/2025.emnlp-main.209",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Sparsity / Pruning"
     ]
   },
   {
