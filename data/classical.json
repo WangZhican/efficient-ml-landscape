@@ -3498,6 +3498,114 @@
     ]
   },
   {
+    "title": "KVO-LLM: Boosting Long-Context Generation Throughput for Batched LLM Inference",
+    "venue": "DAC 2025",
+    "topic": "long-context LLM serving / batched inference / KV optimization",
+    "arxiv": "",
+    "doi": "10.1109/DAC63849.2025.11132542",
+    "official_id": "10.1109/DAC63849.2025.11132542",
+    "paper_url": "https://doi.org/10.1109/DAC63849.2025.11132542",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "DAC 2025 paper directly targeting long-context batched LLM generation throughput; fills a serving/KV systems gap absent from the individual canonical set.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context"
+    ]
+  },
+  {
+    "title": "LLMShare: Optimizing LLM Inference Serving with Hardware Architecture Exploration",
+    "venue": "DAC 2025",
+    "topic": "LLM serving / prefill-decode hardware specialization / design-space exploration",
+    "arxiv": "",
+    "doi": "10.1109/DAC63849.2025.11132534",
+    "official_id": "10.1109/DAC63849.2025.11132534",
+    "paper_url": "https://doi.org/10.1109/DAC63849.2025.11132534",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "DAC 2025 direct LLM-serving hardware/system co-design. Models performance/cost across heterogeneous hardware and co-optimizes prefill/decode configurations; reports 13% cost savings and >4x throughput versus conventional setups.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "MILLION: Mastering Long-Context LLM Inference Via Outlier-Immunized KV Product Quantization",
+    "venue": "DAC 2025",
+    "topic": "KV cache quantization / long-context LLM inference / GPU attention kernel",
+    "arxiv": "2504.03661",
+    "doi": "10.1109/DAC63849.2025.11132862",
+    "official_id": "10.1109/DAC63849.2025.11132862",
+    "paper_url": "https://arxiv.org/abs/2504.03661",
+    "code_url": "https://github.com/ZongwuWang/MILLION",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "DAC 2025 direct long-context LLM inference paper. Product-quantized 4-bit KV cache plus efficient attention kernel, sparse computation and asynchronous quantization; reports 2.09x end-to-end speedup at 32K context.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Quantization",
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "PacTrain: Pruning and Adaptive Sparse Gradient Compression for Efficient Collective Communication in Distributed Deep Learning",
+    "venue": "DAC 2025",
+    "topic": "distributed training / sparse gradient compression / collective communication",
+    "arxiv": "2505.18563",
+    "doi": "",
+    "official_id": "2505.18563",
+    "paper_url": "https://arxiv.org/abs/2505.18563",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "DAC 2025 distributed-training communication system combining pruning with sparse all-reduce-compatible gradient compression; reports 1.25-8.72x training-throughput improvement under bandwidth-constrained settings.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "PIMPAL: Accelerating LLM Inference on Edge Devices via In-DRAM Arithmetic Lookup",
+    "venue": "DAC 2025",
+    "topic": "edge LLM inference / processing-in-memory / GEMV accelerator",
+    "arxiv": "",
+    "doi": "10.1109/DAC63849.2025.11133391",
+    "official_id": "10.1109/DAC63849.2025.11133391",
+    "paper_url": "https://doi.org/10.1109/DAC63849.2025.11133391",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "DAC 2025 direct edge-LLM accelerator. In-DRAM LUT arithmetic with locality-aware compute mapping and multi-precision aggregation; reports up to 17.8x performance over prior LUT-based PIM designs and 40% lower area overhead than conventional PIM processing units.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Precon: A Precision-Convertible Architecture for Accelerating Quantized Deep Learning Models across Various Domains Including LLMs",
     "venue": "DAC 2025",
     "topic": "quantization / accelerator / mixed precision",
@@ -13675,6 +13783,29 @@
     ]
   },
   {
+    "title": "CoDec: Prefix-Shared Decoding Kernel for LLMs",
+    "venue": "SIGMOD 2026",
+    "topic": "LLM decoding kernel / shared-prefix attention / KV-cache memory access",
+    "arxiv": "2505.17694",
+    "doi": "10.1145/3802028",
+    "official_id": "10.1145/3802028",
+    "paper_url": "https://arxiv.org/abs/2505.17694",
+    "code_url": "https://github.com/wzbxpy/codec",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "SIGMOD 2026 direct LLM inference-kernel paper. Coalesces computation across shared prefixes to reduce memory-intensive decode attention; official implementation supports CUDA and Ascend.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "DepCache: A KV Cache Management Framework for GraphRAG with Dependency Attention",
     "venue": "SIGMOD 2026",
     "topic": "GraphRAG dependency attention / KV-cache management",
@@ -13714,6 +13845,27 @@
     "directions": [
       "LLM Serving",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "FlashANNS: GPU-Driven Asynchronous I/O Pipelining for Eliminating Storage-Compute Bottlenecks in Billion-Scale Similarity Search",
+    "venue": "SIGMOD 2026",
+    "topic": "GPU vector search / RAG retrieval infrastructure / SSD-compute overlap",
+    "arxiv": "2507.10070",
+    "doi": "10.1145/3786652",
+    "official_id": "10.1145/3786652",
+    "paper_url": "https://arxiv.org/abs/2507.10070",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "SIGMOD 2026 GPU out-of-core ANNS system directly relevant to RAG/retrieval infrastructure; asynchronous SSD-GPU pipelining reports 2.7-5.9x throughput on single SSD and 3.9-12.2x on multi-SSD at >=95% recall@10.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {
