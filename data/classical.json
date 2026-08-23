@@ -8100,6 +8100,29 @@
     ]
   },
   {
+    "title": "KnapSpec: Self-Speculative Decoding via Adaptive Layer Selection as a Knapsack Problem",
+    "venue": "ICML 2026",
+    "topic": "speculative decoding / adaptive layer selection / long-context inference",
+    "arxiv": "2602.20217",
+    "doi": "",
+    "official_id": "2602.20217",
+    "paper_url": "https://arxiv.org/abs/2602.20217",
+    "code_url": "https://github.com/kaist-flexml-lab/knapspec",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 training-free self-speculative decoding paper that models hardware/context-dependent attention and MLP costs and selects draft layers via parallel knapsack optimization; reports up to 1.47x wall-clock speedup while preserving exact target-model outputs.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "KV Cache / Long Context",
+      "Efficient Attention"
+    ]
+  },
+  {
     "title": "OServe: Accelerating LLM Serving via Spatial-Temporal Workload Orchestration",
     "venue": "ICML 2026",
     "topic": "LLM serving / heterogeneous deployment / scheduling",
@@ -8255,6 +8278,51 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Sparsity / Pruning"
+    ]
+  },
+  {
+    "title": "SpecForge: A Flexible and Efficient Open-Source Training Framework for Speculative Decoding",
+    "venue": "ICML 2026",
+    "topic": "speculative decoding / draft-model training infrastructure / SGLang",
+    "arxiv": "2603.18567",
+    "doi": "",
+    "official_id": "2603.18567",
+    "paper_url": "https://arxiv.org/abs/2603.18567",
+    "code_url": "https://github.com/sgl-project/SpecForge",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 production-oriented speculative-decoding training framework with target-draft decoupling, hybrid parallelism, optimized kernels and inference-engine integration; reports up to 9.9x faster EAGLE-3 training and draft models reaching up to 4.48x end-to-end inference speedup on SGLang.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Speculative Decoding",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "SpecPrune-VLA: Accelerating Vision-Language-Action Models via Action-Aware Self-Speculative Pruning",
+    "venue": "ICML 2026",
+    "topic": "Physical AI / VLA inference / token pruning / self-speculative acceleration",
+    "arxiv": "2509.05614",
+    "doi": "",
+    "official_id": "2509.05614",
+    "paper_url": "https://arxiv.org/abs/2509.05614",
+    "code_url": "https://github.com/alexwhz-sjtu/SpecPrune-VLA",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 protected Physical-AI efficiency paper combining action-level history-aware visual-token pruning, layer-level dynamic pruning and an action-aware controller; reports 1.46x speedup on A800 and 1.57x on RTX 3090 versus OpenVLA-OFT with negligible success-rate loss.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Speculative Decoding",
+      "Sparsity / Pruning",
+      "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI"
     ]
   },
   {
@@ -14660,6 +14728,27 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "EdgeGen: Efficient LLM-Empowered Model Generation with Quantization-Aware NAS",
+    "venue": "The Web Conference 2026",
+    "topic": "edge AI / quantization-aware NAS / LLM-guided model generation",
+    "arxiv": "",
+    "doi": "10.1145/3774904.3792394",
+    "official_id": "10.1145/3774904.3792394",
+    "paper_url": "https://doi.org/10.1145/3774904.3792394",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "The Web Conference 2026 Systems/Cloud-Edge AI paper directly targeting efficient edge model generation through LLM-guided search and quantization-aware NAS; fills the model-generation/edge deployment branch adjacent to LaTune and Fate.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
       "Edge / Cloud / Heterogeneous AI"
     ]
   },
