@@ -6184,6 +6184,26 @@
     ]
   },
   {
+    "title": "Bringing RNNs Back to Efficient Open-Ended Video Understanding",
+    "venue": "ICCV 2025",
+    "topic": "long-video multimodal inference / linear RNN / constant-state memory",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "CVF-ICCV2025-Xu_Bringing_RNNs_Back_to_Efficient_Open-Ended_Video_Understanding_ICCV_2025_paper",
+    "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Xu_Bringing_RNNs_Back_to_Efficient_Open-Ended_Video_Understanding_ICCV_2025_paper.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "AuroraLong replaces the Transformer LLM with a linear RNN and token merging to support arbitrary-length video with constant-size hidden state.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
     "title": "CHORDS: Diffusion Sampling Accelerator with Multi-core Hierarchical ODE Solvers",
     "venue": "ICCV 2025",
     "topic": "diffusion sampling acceleration / multi-core parallel ODE solvers",
@@ -6202,6 +6222,28 @@
     "directions": [
       "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "CombatVLA: An Efficient Vision-Language-Action Model for Combat Tasks in 3D Action Role-Playing Games",
+    "venue": "ICCV 2025",
+    "topic": "Physical AI / VLA efficient action generation / runtime",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "CVF-ICCV2025-Chen_CombatVLA_An_Efficient_Vision-Language-Action_Model_for_Combat_Tasks_in_3D_ICCV_2025_paper",
+    "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Chen_CombatVLA_An_Efficient_Vision-Language-Action_Model_for_Combat_Tasks_in_3D_ICCV_2025_paper.html",
+    "code_url": "https://github.com/ChenVoid/CombatVLA",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Efficient 3B VLA plus truncated Action-of-Thought execution framework for real-time control; reports 50x acceleration over prior game-agent frameworks.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
     ]
   },
   {
@@ -6269,6 +6311,49 @@
     ]
   },
   {
+    "title": "Growing a Twig to Accelerate Large Vision-Language Models",
+    "venue": "ICCV 2025",
+    "topic": "VLM acceleration / token pruning + self-speculative decoding",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "CVF-ICCV2025-Shao_Growing_a_Twig_to_Accelerate_Large_Vision-Language_Models_ICCV_2025_paper",
+    "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Shao_Growing_a_Twig_to_Accelerate_Large_Vision-Language_Models_ICCV_2025_paper.html",
+    "code_url": "https://github.com/MILVLG/twigvlm",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "TwigVLM combines twig-guided token pruning with self-speculative decoding; prunes 88.9% visual tokens and reports 154% generation speedup.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Speculative Decoding",
+      "Sparsity / Pruning",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
+    "title": "Harnessing Input-Adaptive Inference for Efficient VLN",
+    "venue": "ICCV 2025",
+    "topic": "Physical AI / VLN efficient inference / early exit + caching",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "CVF-ICCV2025-Kang_Harnessing_Input-Adaptive_Inference_for_Efficient_VLN_ICCV_2025_paper",
+    "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Kang_Harnessing_Input-Adaptive_Inference_for_Efficient_VLN_ICCV_2025_paper.html",
+    "code_url": "https://github.com/Trustworthy-and-Responsible-AI-Lab/adaptive-vision-and-language-navigation",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Input-adaptive VLN inference combining panoramic-view selection, adaptive early exit and temporal caching; over 2x compute reduction across three agents.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Reasoning / Agents",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Keyframe-oriented Vision Token Pruning: Enhancing Efficiency of Large Vision Language Models on Long-Form Video Processing",
     "venue": "ICCV 2025",
     "topic": "video VLM token pruning / long-form video efficiency",
@@ -6291,6 +6376,69 @@
     ]
   },
   {
+    "title": "Make Your Training Flexible: Towards Deployment-Efficient Video Models",
+    "venue": "ICCV 2025",
+    "topic": "video model efficient inference / adaptive token sampling",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "CVF-ICCV2025-Wang_Make_Your_Training_Flexible_Towards_Deployment-Efficient_Video_Models_ICCV_2025_paper",
+    "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Wang_Make_Your_Training_Flexible_Towards_Deployment-Efficient_Video_Models_ICCV_2025_paper.html",
+    "code_url": "https://github.com/OpenGVLab/FluxViT",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Token Optimization plus flexible sampling enables deployment across compute budgets; matches prior SOTA with 1/4 tokens and nearly 90% compute savings.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Video / Image Generation"
+    ]
+  },
+  {
+    "title": "Memory-Efficient Generative Models via Product Quantization",
+    "venue": "ICCV 2025",
+    "topic": "generative-model quantization / memory-efficient inference",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "CVF-ICCV2025-Shao_Memory-Efficient_Generative_Models_via_Product_Quantization_ICCV_2025_paper",
+    "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Shao_Memory-Efficient_Generative_Models_via_Product_Quantization_ICCV_2025_paper.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Product-quantization framework compresses generative models to about 1 bit and 13x smaller model size while preserving generation quality.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Quantization"
+    ]
+  },
+  {
+    "title": "METEOR: Multi-Encoder Collaborative Token Pruning for Efficient Vision Language Models",
+    "venue": "ICCV 2025",
+    "topic": "multimodal inference / multi-encoder token pruning",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "CVF-ICCV2025-Liu_METEOR_Multi-Encoder_Collaborative_Token_Pruning_for_Efficient_Vision_Language_Models_ICCV_2025_paper",
+    "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Liu_METEOR_Multi-Encoder_Collaborative_Token_Pruning_for_Efficient_Vision_Language_Models_ICCV_2025_paper.html",
+    "code_url": "https://github.com/YuchenLiu98/METEOR",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Multi-stage collaborative pruning across encoding, fusion and LLM decoding; removes 76% visual tokens with only 0.3% average performance drop.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "GPU Kernel / DSL / Compiler",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
     "title": "Model Reveals What to Cache: Profiling-Based Feature Reuse for Video Diffusion Models",
     "venue": "ICCV 2025",
     "topic": "video diffusion acceleration / profiling-guided feature reuse",
@@ -6309,6 +6457,47 @@
     "directions": [
       "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "Multi-Granular Spatio-Temporal Token Merging for Training-Free Acceleration of Video LLMs",
+    "venue": "ICCV 2025",
+    "topic": "video LLM acceleration / spatiotemporal token merging / KV reuse",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "CVF-ICCV2025-Hyun_Multi-Granular_Spatio-Temporal_Token_Merging_for_Training-Free_Acceleration_of_Video_LLMs_ICCV_2025_paper",
+    "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Hyun_Multi-Granular_Spatio-Temporal_Token_Merging_for_Training-Free_Acceleration_of_Video_LLMs_ICCV_2025_paper.html",
+    "code_url": "https://github.com/HYUNJS/STTM",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Training-free spatiotemporal token merging; 2x speedup at 50% token budget and 3x at 30%, while remaining query-agnostic for KV reuse.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "p-MoD: Building Mixture-of-Depths MLLMs via Progressive Ratio Decay",
+    "venue": "ICCV 2025",
+    "topic": "multimodal inference / mixture-of-depths / token routing",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "CVF-ICCV2025-Zhang_p-MoD_Building_Mixture-of-Depths_MLLMs_via_Progressive_Ratio_Decay_ICCV_2025_paper",
+    "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Zhang_p-MoD_Building_Mixture-of-Depths_MLLMs_via_Progressive_Ratio_Decay_ICCV_2025_paper.html",
+    "code_url": "https://github.com/MCG-NJU/p-MoD",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Efficient MLLM with progressive Mixture-of-Depths routing; 55.6% TFLOPs and 53.7% KV-cache storage at inference versus the baseline.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Multimodal / MLLM Serving"
     ]
   },
   {
@@ -6376,6 +6565,26 @@
       "Quantization",
       "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "Representation Shift: Unifying Token Compression with FlashAttention",
+    "venue": "ICCV 2025",
+    "topic": "token compression / FlashAttention-compatible efficient inference",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "CVF-ICCV2025-Choi_Representation_Shift_Unifying_Token_Compression_with_FlashAttention_ICCV_2025_paper",
+    "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Choi_Representation_Shift_Unifying_Token_Compression_with_FlashAttention_ICCV_2025_paper.html",
+    "code_url": "https://github.com/mlvlab/Representation-Shift",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Training-free model-agnostic token importance metric compatible with FlashAttention; up to 5.5x and 4.4x speedups on video retrieval and QA.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Attention"
     ]
   },
   {
