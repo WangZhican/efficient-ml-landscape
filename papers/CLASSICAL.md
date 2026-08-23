@@ -1,6 +1,6 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **706 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **711 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
@@ -341,6 +341,36 @@
 | **Canonical** | **UniSpec: Training-Free Speculative Decoding for Robust LLM Acceleration Across Languages and Hardware** | ACL 2026 | speculative decoding / hardware-aware calibration | [Link](https://doi.org/10.18653/v1/2026.acl-long.285) | — |
 | **Canonical** | **VecInfer: Efficient LLM Inference with Low-Bit KV Cache via Outlier-Suppressed Vector Quantization** | ACL 2026 | KV-cache quantization / low-bit LLM inference / CUDA kernel | [Link](https://doi.org/10.18653/v1/2026.acl-long.1454) | — |
 
+## ICML 2025 · 25
+
+| Priority | Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|---|
+| **Canonical** | **Accelerating LLM Inference with Lossless Speculative Decoding Algorithms for Heterogeneous Vocabularies** | ICML 2025 | speculative decoding | — | — |
+| **Canonical** | **AsymRnR: Video Diffusion Transformers Acceleration with Asymmetric Reduction and Restoration** | ICML 2025 | video diffusion transformer token reduction / training-free acceleration | — | [Repo](https://github.com/wenhao728/AsymRnR) |
+| **Canonical** | **BanditSpec: Adaptive Speculative Decoding via Bandit Algorithms** | ICML 2025 | speculative decoding / adaptive runtime | — | [Repo](https://github.com/sail-sg/BanditSpec) |
+| **Canonical** | **Ca2-VDM: Efficient Autoregressive Video Diffusion Model with Causal Generation and Cache Sharing** | ICML 2025 | video diffusion acceleration | — | — |
+| **Canonical** | **Cache Me If You Must: Adaptive Key-Value Quantization for Large Language Models** | ICML 2025 | long-context / KV cache / efficient LLM inference | — | — |
+| **Canonical** | **CommVQ: Commutative Vector Quantization for KV Cache Compression** | ICML 2025 | KV cache quantization | — | — |
+| **Canonical** | **Compute or Load KV Cache? Why Not Both?** | ICML 2025 | long-context / KV cache / efficient LLM inference | — | — |
+| **Canonical** | **CoreMatching: A Co-adaptive Sparse Inference Framework with Token and Neuron Pruning for Comprehensive Acceleration of Vision-Language Models** | ICML 2025 | VLM sparsity / pruning | — | — |
+| **Canonical** | **Dialogue Without Limits: Constant-Sized KV Caches for Extended Response in LLMs** | ICML 2025 | KV cache / long-context inference | — | [Repo](https://github.com/ghadiaravi13/MorphKV) |
+| **Canonical** | **Diffusion Adversarial Post-Training for One-Step Video Generation** | ICML 2025 | one-step video/image diffusion generation | — | — |
+| **Canonical** | **DLP: Dynamic Layerwise Pruning in Large Language Models** | ICML 2025 | LLM pruning | — | — |
+| **Canonical** | **EPIC: Efficient Position-Independent Caching for Serving Large Language Models** | ICML 2025 | long-context / KV cache / efficient LLM inference | — | — |
+| **Canonical** | **Gumiho: A Hybrid Architecture to Prioritize Early Tokens in Speculative Decoding** | ICML 2025 | speculative decoding / draft architecture | — | [Repo](https://github.com/AMD-AGI/Gumiho) |
+| **Canonical** | **KVTuner: Sensitivity-Aware Layer-Wise Mixed-Precision KV Cache Quantization for Efficient and Nearly Lossless LLM Inference** | ICML 2025 | long-context / KV cache / efficient LLM inference | — | — |
+| **Canonical** | **LaCache: Ladder-Shaped KV Caching for Efficient Long-Context Modeling of Large Language Models** | ICML 2025 | long-context / KV cache / efficient LLM inference | — | — |
+| **Canonical** | **Lexico: Extreme KV Cache Compression via Sparse Coding over Universal Dictionaries** | ICML 2025 | KV cache compression / sparse coding | [Link](https://arxiv.org/abs/2412.08890) | [Repo](https://github.com/krafton-ai/lexico) |
+| **Canonical** | **Modulated Diffusion: Accelerating Generative Modeling with Modulated Quantization** | ICML 2025 | diffusion acceleration / quantization | — | — |
+| **Canonical** | **Morse: Dual-Sampling for Lossless Acceleration of Diffusion Models** | ICML 2025 | diffusion sampling acceleration | — | [Repo](https://github.com/deep-optimization/Morse) |
+| **Canonical** | **Q-VDiT: Towards Accurate Quantization and Distillation of Video-Generation Diffusion Transformers** | ICML 2025 | video diffusion quantization / distillation | — | [Repo](https://github.com/wlfeng0509/Q-VDiT) |
+| **Canonical** | **QuantSpec: Self-Speculative Decoding with Hierarchical Quantized KV Cache** | ICML 2025 | speculative decoding / KV quantization | — | — |
+| **Canonical** | **RocketKV: Accelerating Long-Context LLM Inference via Two-Stage KV Cache Compression** | ICML 2025 | long-context / KV cache / efficient LLM inference | — | — |
+| **Canonical** | **ShadowKV: KV Cache in Shadows for High-Throughput Long-Context LLM Inference** | ICML 2025 | long-context / KV cache / efficient LLM inference | — | — |
+| **Canonical** | **Sparse Video-Gen: Accelerating Video Diffusion Transformers with Spatial-Temporal Sparsity** | ICML 2025 | video/image generation acceleration / efficient attention | — | — |
+| **Canonical** | **SpeCache: Speculative Key-Value Caching for Efficient Generation of LLMs** | ICML 2025 | long-context / KV cache / efficient LLM inference | — | — |
+| **Canonical** | **Star Attention: Efficient LLM Inference over Long Sequences** | ICML 2025 | long-context / KV cache / efficient LLM inference | — | — |
+
 ## MICRO 2025 · 25
 
 | Priority | Paper | Venue | Topic | Paper | Code |
@@ -424,32 +454,6 @@
 | **Canonical** | **Talon: Breaking the Synchronization Barrier in Speculative Decoding with Hybrid Model-based and Retrieve-based Drafting** | AAAI 2026 | speculative decoding / asynchronous draft-verify pipeline / hybrid model-retrieval drafting | [Link](https://doi.org/10.1609/aaai.v40i25.39266) | — |
 | **Canonical** | **TimeBill: Time-Budgeted Inference for Large Language Models** | AAAI 2026 | LLM inference / time budget / adaptive KV eviction | [Link](https://doi.org/10.1609/aaai.v40i36.40317) | — |
 | **Canonical** | **TokenPowerBench: Benchmarking the Power Consumption of LLM Inference** | AAAI 2026 | LLM serving / energy benchmarking | [Link](https://doi.org/10.1609/aaai.v40i38.40535) | [Repo](https://github.com/chenxuniu/TokenPowerBench) |
-
-## ICML 2025 · 21
-
-| Priority | Paper | Venue | Topic | Paper | Code |
-|---|---|---|---|---|---|
-| **Canonical** | **Accelerating LLM Inference with Lossless Speculative Decoding Algorithms for Heterogeneous Vocabularies** | ICML 2025 | speculative decoding | — | — |
-| **Canonical** | **AsymRnR: Video Diffusion Transformers Acceleration with Asymmetric Reduction and Restoration** | ICML 2025 | video diffusion transformer token reduction / training-free acceleration | — | [Repo](https://github.com/wenhao728/AsymRnR) |
-| **Canonical** | **Ca2-VDM: Efficient Autoregressive Video Diffusion Model with Causal Generation and Cache Sharing** | ICML 2025 | video diffusion acceleration | — | — |
-| **Canonical** | **Cache Me If You Must: Adaptive Key-Value Quantization for Large Language Models** | ICML 2025 | long-context / KV cache / efficient LLM inference | — | — |
-| **Canonical** | **CommVQ: Commutative Vector Quantization for KV Cache Compression** | ICML 2025 | KV cache quantization | — | — |
-| **Canonical** | **Compute or Load KV Cache? Why Not Both?** | ICML 2025 | long-context / KV cache / efficient LLM inference | — | — |
-| **Canonical** | **CoreMatching: A Co-adaptive Sparse Inference Framework with Token and Neuron Pruning for Comprehensive Acceleration of Vision-Language Models** | ICML 2025 | VLM sparsity / pruning | — | — |
-| **Canonical** | **Diffusion Adversarial Post-Training for One-Step Video Generation** | ICML 2025 | one-step video/image diffusion generation | — | — |
-| **Canonical** | **DLP: Dynamic Layerwise Pruning in Large Language Models** | ICML 2025 | LLM pruning | — | — |
-| **Canonical** | **EPIC: Efficient Position-Independent Caching for Serving Large Language Models** | ICML 2025 | long-context / KV cache / efficient LLM inference | — | — |
-| **Canonical** | **KVTuner: Sensitivity-Aware Layer-Wise Mixed-Precision KV Cache Quantization for Efficient and Nearly Lossless LLM Inference** | ICML 2025 | long-context / KV cache / efficient LLM inference | — | — |
-| **Canonical** | **LaCache: Ladder-Shaped KV Caching for Efficient Long-Context Modeling of Large Language Models** | ICML 2025 | long-context / KV cache / efficient LLM inference | — | — |
-| **Canonical** | **Modulated Diffusion: Accelerating Generative Modeling with Modulated Quantization** | ICML 2025 | diffusion acceleration / quantization | — | — |
-| **Canonical** | **Morse: Dual-Sampling for Lossless Acceleration of Diffusion Models** | ICML 2025 | diffusion sampling acceleration | — | [Repo](https://github.com/deep-optimization/Morse) |
-| **Canonical** | **Q-VDiT: Towards Accurate Quantization and Distillation of Video-Generation Diffusion Transformers** | ICML 2025 | video diffusion quantization / distillation | — | [Repo](https://github.com/wlfeng0509/Q-VDiT) |
-| **Canonical** | **QuantSpec: Self-Speculative Decoding with Hierarchical Quantized KV Cache** | ICML 2025 | speculative decoding / KV quantization | — | — |
-| **Canonical** | **RocketKV: Accelerating Long-Context LLM Inference via Two-Stage KV Cache Compression** | ICML 2025 | long-context / KV cache / efficient LLM inference | — | — |
-| **Canonical** | **ShadowKV: KV Cache in Shadows for High-Throughput Long-Context LLM Inference** | ICML 2025 | long-context / KV cache / efficient LLM inference | — | — |
-| **Canonical** | **Sparse Video-Gen: Accelerating Video Diffusion Transformers with Spatial-Temporal Sparsity** | ICML 2025 | video/image generation acceleration / efficient attention | — | — |
-| **Canonical** | **SpeCache: Speculative Key-Value Caching for Efficient Generation of LLMs** | ICML 2025 | long-context / KV cache / efficient LLM inference | — | — |
-| **Canonical** | **Star Attention: Efficient LLM Inference over Long Sequences** | ICML 2025 | long-context / KV cache / efficient LLM inference | — | — |
 
 ## ICLR 2026 · 20
 
@@ -546,6 +550,28 @@
 | **Canonical** | **Task-Circuit Quantization: Leveraging Knowledge Localization and Interpretability for Compression** | COLM 2025 | quantization / compression | [Link](https://arxiv.org/abs/2504.07389) | [Repo](https://github.com/The-Inscrutable-X/TACQ) |
 | **Canonical** | **X-EcoMLA: Upcycling Pre-Trained Attention into MLA for Efficient and Extreme KV Compression** | COLM 2025 | KV cache compression / efficient attention architecture | [Link](https://arxiv.org/abs/2503.11132) | — |
 
+## ECCV 2024 · 17
+
+| Priority | Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|---|
+| **Canonical** | **AdaDiff: Accelerating Diffusion Models through Step-Wise Adaptive Computation** | ECCV 2024 | diffusion acceleration / adaptive computation / early exit | [Link](https://arxiv.org/abs/2309.17074) | [Repo](https://github.com/Tangshengku/AdaDiff) |
+| **Canonical** | **An Image is Worth 1/2 Tokens After Layer 2: Plug-and-Play Inference Acceleration for Large Vision-Language Models** | ECCV 2024 | VLM visual-token pruning | — | — |
+| **Canonical** | **BK-SDM: A Lightweight, Fast, and Cheap Version of Stable Diffusion** | ECCV 2024 | diffusion pruning / compact model | — | — |
+| **Canonical** | **Efficient Diffusion Transformer with Step-wise Dynamic Attention Mediators** | ECCV 2024 | diffusion/flow acceleration / efficient attention | — | — |
+| **Canonical** | **Efficient Inference of Vision Instruction-Following Models with Elastic Cache** | ECCV 2024 | KV cache / multimodal inference | — | — |
+| **Canonical** | **FlexAttention for Efficient High-Resolution Vision-Language Models** | ECCV 2024 | multimodal/MLLM serving / efficient attention | — | — |
+| **Canonical** | **HiDiffusion: Unlocking Higher-Resolution Creativity and Efficiency in Pretrained Diffusion Models** | ECCV 2024 | diffusion inference acceleration | — | — |
+| **Canonical** | **Inf-DiT: Upsampling any-resolution image with memory-efficient diffusion transformer.** | ECCV 2024 | diffusion memory efficiency | — | — |
+| **Canonical** | **IVTP: Instruction-guided Visual Token Pruning for Large Vision-Language Models** | ECCV 2024 | VLM visual-token pruning | — | — |
+| **Canonical** | **LLaMA-VID: An Image is Worth 2 Tokens in Large Language Models** | ECCV 2024 | video VLM token compression | — | — |
+| **Canonical** | **Memory-Efficient Fine-Tuning for Quantized Diffusion Model** | ECCV 2024 | diffusion quantization / memory-efficient fine-tuning | [Link](https://doi.org/10.1007/978-3-031-72640-8_20) | [Repo](https://github.com/ugonfor/TuneQDM) |
+| **Canonical** | **MixDQ: Memory-Efficient Few-Step Text-to-Image Diffusion Models with Metric-Decoupled Mixed Precision Quantization** | ECCV 2024 | diffusion quantization | — | — |
+| **Canonical** | **Mixture of Efficient Diffusion Experts Through Automatic Interval and Sub-Network Selection** | ECCV 2024 | diffusion/flow acceleration / pruning | — | — |
+| **Canonical** | **Post-training Quantization with Progressive Calibration and Activation Relaxing for Text-to-Image Diffusion Models** | ECCV 2024 | diffusion quantization | — | — |
+| **Canonical** | **SlimFlow: Training Smaller One-Step Diffusion Models with Rectified Flow** | ECCV 2024 | compact one-step diffusion | — | — |
+| **Canonical** | **Timestep-Aware Correction for Quantized Diffusion Models** | ECCV 2024 | diffusion quantization | — | — |
+| **Canonical** | **Turbo: Informativity-Driven Acceleration Plug-In for Vision-Language Large Models** | ECCV 2024 | VLM inference acceleration / token redundancy pruning | [Link](https://arxiv.org/abs/2407.11717) | [Repo](https://github.com/anakin-skywalker-Joseph/Folder) |
+
 ## PPoPP 2026 · 17
 
 | Priority | Paper | Venue | Topic | Paper | Code |
@@ -567,27 +593,6 @@
 | **Canonical** | **MixFusion: A Patch-Level Parallel Serving System for Mixed-Resolution Diffusion Models** | PPoPP 2026 | diffusion serving / patch-level parallelism | [Link](https://doi.org/10.1145/3774934.3786420) | — |
 | **Canonical** | **RoMeo** | PPoPP 2026 | sparse transformer inference + mixed-precision quantization | — | — |
 | **Canonical** | **TAC: Cache-Based System for Accelerating Billion-Scale GNN Training on Multi-GPU Platform** | PPoPP 2026 | GNN training systems / multi-GPU cache / sparse Tensor Core | [Link](https://doi.org/10.1145/3774934.3786460) | — |
-
-## ECCV 2024 · 16
-
-| Priority | Paper | Venue | Topic | Paper | Code |
-|---|---|---|---|---|---|
-| **Canonical** | **AdaDiff: Accelerating Diffusion Models through Step-Wise Adaptive Computation** | ECCV 2024 | diffusion acceleration / adaptive computation / early exit | [Link](https://arxiv.org/abs/2309.17074) | [Repo](https://github.com/Tangshengku/AdaDiff) |
-| **Canonical** | **An Image is Worth 1/2 Tokens After Layer 2: Plug-and-Play Inference Acceleration for Large Vision-Language Models** | ECCV 2024 | VLM visual-token pruning | — | — |
-| **Canonical** | **BK-SDM: A Lightweight, Fast, and Cheap Version of Stable Diffusion** | ECCV 2024 | diffusion pruning / compact model | — | — |
-| **Canonical** | **Efficient Diffusion Transformer with Step-wise Dynamic Attention Mediators** | ECCV 2024 | diffusion/flow acceleration / efficient attention | — | — |
-| **Canonical** | **Efficient Inference of Vision Instruction-Following Models with Elastic Cache** | ECCV 2024 | KV cache / multimodal inference | — | — |
-| **Canonical** | **FlexAttention for Efficient High-Resolution Vision-Language Models** | ECCV 2024 | multimodal/MLLM serving / efficient attention | — | — |
-| **Canonical** | **HiDiffusion: Unlocking Higher-Resolution Creativity and Efficiency in Pretrained Diffusion Models** | ECCV 2024 | diffusion inference acceleration | — | — |
-| **Canonical** | **Inf-DiT: Upsampling any-resolution image with memory-efficient diffusion transformer.** | ECCV 2024 | diffusion memory efficiency | — | — |
-| **Canonical** | **IVTP: Instruction-guided Visual Token Pruning for Large Vision-Language Models** | ECCV 2024 | VLM visual-token pruning | — | — |
-| **Canonical** | **LLaMA-VID: An Image is Worth 2 Tokens in Large Language Models** | ECCV 2024 | video VLM token compression | — | — |
-| **Canonical** | **MixDQ: Memory-Efficient Few-Step Text-to-Image Diffusion Models with Metric-Decoupled Mixed Precision Quantization** | ECCV 2024 | diffusion quantization | — | — |
-| **Canonical** | **Mixture of Efficient Diffusion Experts Through Automatic Interval and Sub-Network Selection** | ECCV 2024 | diffusion/flow acceleration / pruning | — | — |
-| **Canonical** | **Post-training Quantization with Progressive Calibration and Activation Relaxing for Text-to-Image Diffusion Models** | ECCV 2024 | diffusion quantization | — | — |
-| **Canonical** | **SlimFlow: Training Smaller One-Step Diffusion Models with Rectified Flow** | ECCV 2024 | compact one-step diffusion | — | — |
-| **Canonical** | **Timestep-Aware Correction for Quantized Diffusion Models** | ECCV 2024 | diffusion quantization | — | — |
-| **Canonical** | **Turbo: Informativity-Driven Acceleration Plug-In for Vision-Language Large Models** | ECCV 2024 | VLM inference acceleration / token redundancy pruning | [Link](https://arxiv.org/abs/2407.11717) | [Repo](https://github.com/anakin-skywalker-Joseph/Folder) |
 
 ## ICML 2026 · 15
 

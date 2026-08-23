@@ -1,6 +1,6 @@
 # 05 · Sparsity / Pruning
 
-> **109 canonical papers** mapped here, plus a broader **45-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **111 canonical papers** mapped here, plus a broader **45-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -54,7 +54,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 104 canonical
+## 🏛️ Classical / Historical · 106 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -122,7 +122,9 @@
 | **Canonical** | **Tactic: Adaptive Sparse Attention with Clustering and Distribution Fitting for Long-Context LLMs** | ICLR 2026 | sparse attention / long-context inference | — | — |
 | **Canonical** | **WINA: Weight Informed Neuron Activation for Accelerating Large Language Model Inference** | ICLR 2026 | training-free sparse activation / LLM inference | — | — |
 | **Canonical** | **CoreMatching: A Co-adaptive Sparse Inference Framework with Token and Neuron Pruning for Comprehensive Acceleration of Vision-Language Models** | ICML 2025 | VLM sparsity / pruning | — | — |
+| **Canonical** | **Dialogue Without Limits: Constant-Sized KV Caches for Extended Response in LLMs** | ICML 2025 | KV cache / long-context inference | — | [Repo](https://github.com/ghadiaravi13/MorphKV) |
 | **Canonical** | **DLP: Dynamic Layerwise Pruning in Large Language Models** | ICML 2025 | LLM pruning | — | — |
+| **Canonical** | **Lexico: Extreme KV Cache Compression via Sparse Coding over Universal Dictionaries** | ICML 2025 | KV cache compression / sparse coding | [Link](https://arxiv.org/abs/2412.08890) | [Repo](https://github.com/krafton-ai/lexico) |
 | **Canonical** | **Sparse Video-Gen: Accelerating Video Diffusion Transformers with Spatial-Temporal Sparsity** | ICML 2025 | video/image generation acceleration / efficient attention | — | — |
 | **Canonical** | **A Unified Sparse Attention via Multi-Granularity Compression** | ICML 2026 | efficient attention / long-context inference | [Link](https://arxiv.org/abs/2512.14082) | — |
 | **Canonical** | **Elastic Attention: Test-time Adaptive Sparsity Ratios for Efficient Transformers** | ICML 2026 | adaptive sparse attention / long-context inference | [Link](https://arxiv.org/abs/2601.17367) | [Repo](https://github.com/LCM-Lab/Elastic-Attention) |

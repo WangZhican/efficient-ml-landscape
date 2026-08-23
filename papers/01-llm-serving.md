@@ -1,6 +1,6 @@
 # 01 · LLM Serving
 
-> **311 canonical papers** mapped here, plus a broader **138-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **313 canonical papers** mapped here, plus a broader **138-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -147,7 +147,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 291 canonical
+## 🏛️ Classical / Historical · 293 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -215,6 +215,7 @@
 | **Canonical** | **AdaDiff: Accelerating Diffusion Models through Step-Wise Adaptive Computation** | ECCV 2024 | diffusion acceleration / adaptive computation / early exit | [Link](https://arxiv.org/abs/2309.17074) | [Repo](https://github.com/Tangshengku/AdaDiff) |
 | **Canonical** | **Efficient Diffusion Transformer with Step-wise Dynamic Attention Mediators** | ECCV 2024 | diffusion/flow acceleration / efficient attention | — | — |
 | **Canonical** | **FlexAttention for Efficient High-Resolution Vision-Language Models** | ECCV 2024 | multimodal/MLLM serving / efficient attention | — | — |
+| **Canonical** | **Memory-Efficient Fine-Tuning for Quantized Diffusion Model** | ECCV 2024 | diffusion quantization / memory-efficient fine-tuning | [Link](https://doi.org/10.1007/978-3-031-72640-8_20) | [Repo](https://github.com/ugonfor/TuneQDM) |
 | **Canonical** | **Turbo: Informativity-Driven Acceleration Plug-In for Vision-Language Large Models** | ECCV 2024 | VLM inference acceleration / token redundancy pruning | [Link](https://arxiv.org/abs/2407.11717) | [Repo](https://github.com/anakin-skywalker-Joseph/Folder) |
 | **Canonical** | **AdaGen: Workload-Adaptive Cluster Scheduler for Latency-Optimal LLM Inference Serving** | EuroSys 2026 | LLM serving / cluster scheduling / SLO / distributed execution | [Link](https://doi.org/10.1145/3767295.3769345) | — |
 | **Canonical** | **AdaServe: Accelerating Multi-SLO LLM Serving with SLO-Customized Speculative Decoding** | EuroSys 2026 | LLM serving / speculative decoding / multi-SLO | [Link](https://doi.org/10.1145/3767295.3769315) | — |
@@ -273,6 +274,7 @@
 | **Canonical** | **RESA: Bringing Back What Sparse Attention Ignores with Residual Estimation** | ICLR 2026 | sparse attention / KV efficiency | — | — |
 | **Canonical** | **Tactic: Adaptive Sparse Attention with Clustering and Distribution Fitting for Long-Context LLMs** | ICLR 2026 | sparse attention / long-context inference | — | — |
 | **Canonical** | **ThinKV: Thought-Adaptive KV Cache Compression for Efficient Reasoning Models** | ICLR 2026 | KV cache compression / efficient reasoning | — | — |
+| **Canonical** | **BanditSpec: Adaptive Speculative Decoding via Bandit Algorithms** | ICML 2025 | speculative decoding / adaptive runtime | — | [Repo](https://github.com/sail-sg/BanditSpec) |
 | **Canonical** | **EPIC: Efficient Position-Independent Caching for Serving Large Language Models** | ICML 2025 | long-context / KV cache / efficient LLM inference | — | — |
 | **Canonical** | **ShadowKV: KV Cache in Shadows for High-Throughput Long-Context LLM Inference** | ICML 2025 | long-context / KV cache / efficient LLM inference | — | — |
 | **Canonical** | **AugServe: Adaptive Request Scheduling for Augmented Large Language Model Inference Serving** | ICML 2026 | LLM serving / augmented-agent request scheduling | [Link](https://arxiv.org/abs/2512.04013) | — |

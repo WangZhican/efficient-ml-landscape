@@ -1,6 +1,6 @@
 # 04 · Quantization
 
-> **96 canonical papers** mapped here, plus a broader **35-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **98 canonical papers** mapped here, plus a broader **35-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -44,7 +44,7 @@
 | **P2 · Relevant** | **A Motion-Aware Vector Quantization Framework with Centroid Reuse for Efficient VLA Inference** | Fresh / preprint | llm_serving / quant / multimodal / physical | [Link](https://arxiv.org/abs/2607.24148) | — |
 | **P1 · Watch** | **Sparse by Command: Task-Conditional Compute Skipping for Multi-Task Inference Accelerators** | Fresh / preprint | llm_serving / quant / sparse / gen / edge | [Link](https://arxiv.org/abs/2607.22038) | — |
 
-## 🏛️ Classical / Historical · 88 canonical
+## 🏛️ Classical / Historical · 90 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -69,6 +69,7 @@
 | **Canonical** | **BBAL: A Bidirectional Block Floating Point-Based Quantisation Accelerator for Large Language Models** | DAC 2025 | quantization / LLM accelerator / edge inference | [Link](https://arxiv.org/abs/2504.15721) | — |
 | **Canonical** | **Precon: A Precision-Convertible Architecture for Accelerating Quantized Deep Learning Models across Various Domains Including LLMs** | DAC 2025 | quantization / accelerator / mixed precision | [Link](https://doi.org/10.1109/DAC63849.2025.11133184) | — |
 | **Canonical** | **SQ-DM: Accelerating Diffusion Models with Aggressive Quantization and Temporal Sparsity** | DAC 2025 | diffusion acceleration / low-bit quantization / temporal activation sparsity / accelerator co-design | [Link](https://arxiv.org/abs/2501.15448) | — |
+| **Canonical** | **Memory-Efficient Fine-Tuning for Quantized Diffusion Model** | ECCV 2024 | diffusion quantization / memory-efficient fine-tuning | [Link](https://doi.org/10.1007/978-3-031-72640-8_20) | [Repo](https://github.com/ugonfor/TuneQDM) |
 | **Canonical** | **MixDQ: Memory-Efficient Few-Step Text-to-Image Diffusion Models with Metric-Decoupled Mixed Precision Quantization** | ECCV 2024 | diffusion quantization | — | — |
 | **Canonical** | **Post-training Quantization with Progressive Calibration and Activation Relaxing for Text-to-Image Diffusion Models** | ECCV 2024 | diffusion quantization | — | — |
 | **Canonical** | **Timestep-Aware Correction for Quantized Diffusion Models** | ECCV 2024 | diffusion quantization | — | — |
@@ -93,6 +94,7 @@
 | **Canonical** | **Cache Me If You Must: Adaptive Key-Value Quantization for Large Language Models** | ICML 2025 | long-context / KV cache / efficient LLM inference | — | — |
 | **Canonical** | **CommVQ: Commutative Vector Quantization for KV Cache Compression** | ICML 2025 | KV cache quantization | — | — |
 | **Canonical** | **KVTuner: Sensitivity-Aware Layer-Wise Mixed-Precision KV Cache Quantization for Efficient and Nearly Lossless LLM Inference** | ICML 2025 | long-context / KV cache / efficient LLM inference | — | — |
+| **Canonical** | **Lexico: Extreme KV Cache Compression via Sparse Coding over Universal Dictionaries** | ICML 2025 | KV cache compression / sparse coding | [Link](https://arxiv.org/abs/2412.08890) | [Repo](https://github.com/krafton-ai/lexico) |
 | **Canonical** | **Modulated Diffusion: Accelerating Generative Modeling with Modulated Quantization** | ICML 2025 | diffusion acceleration / quantization | — | — |
 | **Canonical** | **Q-VDiT: Towards Accurate Quantization and Distillation of Video-Generation Diffusion Transformers** | ICML 2025 | video diffusion quantization / distillation | — | [Repo](https://github.com/wlfeng0509/Q-VDiT) |
 | **Canonical** | **QuantSpec: Self-Speculative Decoding with Hierarchical Quantized KV Cache** | ICML 2025 | speculative decoding / KV quantization | — | — |

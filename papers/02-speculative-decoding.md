@@ -1,6 +1,6 @@
 # 02 · Speculative Decoding
 
-> **101 canonical papers** mapped here, plus a broader **15-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **103 canonical papers** mapped here, plus a broader **15-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -24,7 +24,7 @@
 | **P2 · Relevant** | **DraftExpert: Expansion-Aware Self-Speculative Decoding for End-Device MoE Inference** | Fresh / preprint | llm_serving / spec / moe / edge | [Link](https://arxiv.org/abs/2607.24434) | — |
 | **P2 · Relevant** | **SpecBox: Speculative Sandbox Scheduling for Efficient LLM Agent Serving** | Fresh / preprint | llm_serving / agent | [Link](https://arxiv.org/abs/2607.23933) | — |
 
-## 🏛️ Classical / Historical · 99 canonical
+## 🏛️ Classical / Historical · 101 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -93,6 +93,8 @@
 | **Canonical** | **Inference-Cost-Aware Dynamic Tree Construction for Efficient Inference in Large Language Models** | ICLR 2026 | speculative decoding / hardware-aware tree construction | — | — |
 | **Canonical** | **Multi-Head Low-Rank Attention** | ICLR 2026 | KV-efficient attention / tensor-parallel decoding | — | — |
 | **Canonical** | **Accelerating LLM Inference with Lossless Speculative Decoding Algorithms for Heterogeneous Vocabularies** | ICML 2025 | speculative decoding | — | — |
+| **Canonical** | **BanditSpec: Adaptive Speculative Decoding via Bandit Algorithms** | ICML 2025 | speculative decoding / adaptive runtime | — | [Repo](https://github.com/sail-sg/BanditSpec) |
+| **Canonical** | **Gumiho: A Hybrid Architecture to Prioritize Early Tokens in Speculative Decoding** | ICML 2025 | speculative decoding / draft architecture | — | [Repo](https://github.com/AMD-AGI/Gumiho) |
 | **Canonical** | **QuantSpec: Self-Speculative Decoding with Hierarchical Quantized KV Cache** | ICML 2025 | speculative decoding / KV quantization | — | — |
 | **Canonical** | **SpeCache: Speculative Key-Value Caching for Efficient Generation of LLMs** | ICML 2025 | long-context / KV cache / efficient LLM inference | — | — |
 | **Canonical** | **Semi-Clairvoyant Scheduling of Speculative Decoding Requests to Minimize LLM Inference Latency** | IJCAI 2025 | speculative decoding / request scheduling / LLM serving | [Link](https://doi.org/10.24963/ijcai.2025/951) | — |

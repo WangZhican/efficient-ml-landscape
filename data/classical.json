@@ -3714,6 +3714,29 @@
     ]
   },
   {
+    "title": "Memory-Efficient Fine-Tuning for Quantized Diffusion Model",
+    "venue": "ECCV 2024",
+    "topic": "diffusion quantization / memory-efficient fine-tuning",
+    "arxiv": "",
+    "doi": "10.1007/978-3-031-72640-8_20",
+    "official_id": "ECCV2024_ECVA_02494",
+    "paper_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/2494_ECCV_2024_paper.php",
+    "code_url": "https://github.com/ugonfor/TuneQDM",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "TuneQDM adapts quantized diffusion models through trainable channel-wise/timestep-specific quantization scales, preserving full-precision-quality personalization while substantially reducing fine-tuning memory; fills the quantized-diffusion adaptation lineage.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "GPU Kernel / DSL / Compiler",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "MixDQ: Memory-Efficient Few-Step Text-to-Image Diffusion Models with Metric-Decoupled Mixed Precision Quantization",
     "venue": "ECCV 2024",
     "topic": "diffusion quantization",
@@ -7265,6 +7288,28 @@
     ]
   },
   {
+    "title": "BanditSpec: Adaptive Speculative Decoding via Bandit Algorithms",
+    "venue": "ICML 2025",
+    "topic": "speculative decoding / adaptive runtime",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "PMLR267_hou25h",
+    "paper_url": "https://proceedings.mlr.press/v267/hou25h.html",
+    "code_url": "https://github.com/sail-sg/BanditSpec",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "BanditSpec adaptively selects speculative-decoding hyperparameters online with bandit algorithms and achieves throughput close to oracle configurations under diverse serving prompts.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "Ca2-VDM: Efficient Autoregressive Video Diffusion Model with Causal Generation and Cache Sharing",
     "venue": "ICML 2025",
     "topic": "video diffusion acceleration",
@@ -7369,6 +7414,27 @@
     ]
   },
   {
+    "title": "Dialogue Without Limits: Constant-Sized KV Caches for Extended Response in LLMs",
+    "venue": "ICML 2025",
+    "topic": "KV cache / long-context inference",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "PMLR267_ghadia25a",
+    "paper_url": "https://proceedings.mlr.press/v267/ghadia25a.html",
+    "code_url": "https://github.com/ghadiaravi13/MorphKV",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "MorphKV maintains a constant-sized KV cache during generation using correlation-aware dynamic token selection, reporting 52.9% memory savings and improved long-response accuracy; fills dynamic streaming KV compression.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Sparsity / Pruning"
+    ]
+  },
+  {
     "title": "Diffusion Adversarial Post-Training for One-Step Video Generation",
     "venue": "ICML 2025",
     "topic": "one-step video/image diffusion generation",
@@ -7433,6 +7499,26 @@
     ]
   },
   {
+    "title": "Gumiho: A Hybrid Architecture to Prioritize Early Tokens in Speculative Decoding",
+    "venue": "ICML 2025",
+    "topic": "speculative decoding / draft architecture",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "PMLR267_li25dg",
+    "paper_url": "https://proceedings.mlr.press/v267/li25dg.html",
+    "code_url": "https://github.com/AMD-AGI/Gumiho",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Gumiho establishes early-token importance in multi-head drafting and combines serial Transformer early heads with parallel lightweight later heads, a distinct speculative-decoding architecture branch.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Speculative Decoding"
+    ]
+  },
+  {
     "title": "KVTuner: Sensitivity-Aware Layer-Wise Mixed-Precision KV Cache Quantization for Efficient and Nearly Lossless LLM Inference",
     "venue": "ICML 2025",
     "topic": "long-context / KV cache / efficient LLM inference",
@@ -7471,6 +7557,28 @@
     "tracking_tier": "Canonical",
     "directions": [
       "KV Cache / Long Context"
+    ]
+  },
+  {
+    "title": "Lexico: Extreme KV Cache Compression via Sparse Coding over Universal Dictionaries",
+    "venue": "ICML 2025",
+    "topic": "KV cache compression / sparse coding",
+    "arxiv": "2412.08890",
+    "doi": "",
+    "official_id": "PMLR267_kim25ae",
+    "paper_url": "https://arxiv.org/abs/2412.08890",
+    "code_url": "https://github.com/krafton-ai/lexico",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Lexico compresses KV caches with universal sparse dictionaries, retaining 90-95% task performance using only 15-25% of full KV memory and remaining effective where 2-bit quantization fails.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Quantization",
+      "Sparsity / Pruning"
     ]
   },
   {

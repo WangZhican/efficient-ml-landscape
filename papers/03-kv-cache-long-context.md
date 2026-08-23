@@ -1,6 +1,6 @@
 # 03 · KV Cache / Long Context
 
-> **196 canonical papers** mapped here, plus a broader **34-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **198 canonical papers** mapped here, plus a broader **34-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -43,7 +43,7 @@
 | **P2 · Relevant** | **DualDecoder: Accelerate Long Context LLM Inference by Predictive Prefetch** | Fresh / preprint | LLM serving; KV cache / long context; agent systems | [Link](https://arxiv.org/abs/2607.26475) | — |
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 
-## 🏛️ Classical / Historical · 186 canonical
+## 🏛️ Classical / Historical · 188 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -143,9 +143,11 @@
 | **Canonical** | **Cache Me If You Must: Adaptive Key-Value Quantization for Large Language Models** | ICML 2025 | long-context / KV cache / efficient LLM inference | — | — |
 | **Canonical** | **CommVQ: Commutative Vector Quantization for KV Cache Compression** | ICML 2025 | KV cache quantization | — | — |
 | **Canonical** | **Compute or Load KV Cache? Why Not Both?** | ICML 2025 | long-context / KV cache / efficient LLM inference | — | — |
+| **Canonical** | **Dialogue Without Limits: Constant-Sized KV Caches for Extended Response in LLMs** | ICML 2025 | KV cache / long-context inference | — | [Repo](https://github.com/ghadiaravi13/MorphKV) |
 | **Canonical** | **EPIC: Efficient Position-Independent Caching for Serving Large Language Models** | ICML 2025 | long-context / KV cache / efficient LLM inference | — | — |
 | **Canonical** | **KVTuner: Sensitivity-Aware Layer-Wise Mixed-Precision KV Cache Quantization for Efficient and Nearly Lossless LLM Inference** | ICML 2025 | long-context / KV cache / efficient LLM inference | — | — |
 | **Canonical** | **LaCache: Ladder-Shaped KV Caching for Efficient Long-Context Modeling of Large Language Models** | ICML 2025 | long-context / KV cache / efficient LLM inference | — | — |
+| **Canonical** | **Lexico: Extreme KV Cache Compression via Sparse Coding over Universal Dictionaries** | ICML 2025 | KV cache compression / sparse coding | [Link](https://arxiv.org/abs/2412.08890) | [Repo](https://github.com/krafton-ai/lexico) |
 | **Canonical** | **QuantSpec: Self-Speculative Decoding with Hierarchical Quantized KV Cache** | ICML 2025 | speculative decoding / KV quantization | — | — |
 | **Canonical** | **RocketKV: Accelerating Long-Context LLM Inference via Two-Stage KV Cache Compression** | ICML 2025 | long-context / KV cache / efficient LLM inference | — | — |
 | **Canonical** | **ShadowKV: KV Cache in Shadows for High-Throughput Long-Context LLM Inference** | ICML 2025 | long-context / KV cache / efficient LLM inference | — | — |

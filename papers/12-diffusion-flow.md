@@ -1,6 +1,6 @@
 # 12 · Diffusion / Flow Acceleration
 
-> **99 canonical papers** mapped here, plus a broader **23-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **101 canonical papers** mapped here, plus a broader **23-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -32,7 +32,7 @@
 | **P2 · Relevant** | **OnlineCache: Learning Dynamic Caching Policies with Error Correction for Efficient Diffusion Inference** | Fresh / preprint | LLM serving; generation acceleration; edge / heterogeneous AI | [Link](https://arxiv.org/abs/2607.29398) | — |
 | **P1 · Watch** | **Sparse by Command: Task-Conditional Compute Skipping for Multi-Task Inference Accelerators** | Fresh / preprint | llm_serving / quant / sparse / gen / edge | [Link](https://arxiv.org/abs/2607.22038) | — |
 
-## 🏛️ Classical / Historical · 84 canonical
+## 🏛️ Classical / Historical · 86 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -68,6 +68,7 @@
 | **Canonical** | **Efficient Diffusion Transformer with Step-wise Dynamic Attention Mediators** | ECCV 2024 | diffusion/flow acceleration / efficient attention | — | — |
 | **Canonical** | **HiDiffusion: Unlocking Higher-Resolution Creativity and Efficiency in Pretrained Diffusion Models** | ECCV 2024 | diffusion inference acceleration | — | — |
 | **Canonical** | **Inf-DiT: Upsampling any-resolution image with memory-efficient diffusion transformer.** | ECCV 2024 | diffusion memory efficiency | — | — |
+| **Canonical** | **Memory-Efficient Fine-Tuning for Quantized Diffusion Model** | ECCV 2024 | diffusion quantization / memory-efficient fine-tuning | [Link](https://doi.org/10.1007/978-3-031-72640-8_20) | [Repo](https://github.com/ugonfor/TuneQDM) |
 | **Canonical** | **MixDQ: Memory-Efficient Few-Step Text-to-Image Diffusion Models with Metric-Decoupled Mixed Precision Quantization** | ECCV 2024 | diffusion quantization | — | — |
 | **Canonical** | **Mixture of Efficient Diffusion Experts Through Automatic Interval and Sub-Network Selection** | ECCV 2024 | diffusion/flow acceleration / pruning | — | — |
 | **Canonical** | **Post-training Quantization with Progressive Calibration and Activation Relaxing for Text-to-Image Diffusion Models** | ECCV 2024 | diffusion quantization | — | — |
@@ -90,6 +91,7 @@
 | **Canonical** | **Fast-dLLM: Training-free Acceleration of Diffusion LLM by Enabling KV Cache and Parallel Decoding** | ICLR 2026 | diffusion LLM inference / KV cache / parallel decoding | [Link](https://arxiv.org/abs/2505.22618) | [Repo](https://github.com/NVlabs/Fast-dLLM) |
 | **Canonical** | **FlashDLM: Accelerating Diffusion Language Model Inference via Efficient KV Caching and Guided Diffusion** | ICLR 2026 | diffusion language model inference / KV caching / guided diffusion / decoding acceleration | — | [Repo](https://github.com/ZhanqiuHu/flash-dlm-experimental) |
 | **Canonical** | **AsymRnR: Video Diffusion Transformers Acceleration with Asymmetric Reduction and Restoration** | ICML 2025 | video diffusion transformer token reduction / training-free acceleration | — | [Repo](https://github.com/wenhao728/AsymRnR) |
+| **Canonical** | **BanditSpec: Adaptive Speculative Decoding via Bandit Algorithms** | ICML 2025 | speculative decoding / adaptive runtime | — | [Repo](https://github.com/sail-sg/BanditSpec) |
 | **Canonical** | **Ca2-VDM: Efficient Autoregressive Video Diffusion Model with Causal Generation and Cache Sharing** | ICML 2025 | video diffusion acceleration | — | — |
 | **Canonical** | **Diffusion Adversarial Post-Training for One-Step Video Generation** | ICML 2025 | one-step video/image diffusion generation | — | — |
 | **Canonical** | **Modulated Diffusion: Accelerating Generative Modeling with Modulated Quantization** | ICML 2025 | diffusion acceleration / quantization | — | — |
