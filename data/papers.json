@@ -6616,6 +6616,27 @@
     ]
   },
   {
+    "title": "FlashDLM: Accelerating Diffusion Language Model Inference via Efficient KV Caching and Guided Diffusion",
+    "venue": "ICLR 2026",
+    "topic": "diffusion language model inference / KV caching / guided diffusion / decoding acceleration",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "OpenReview-KUfKvlX3VY",
+    "paper_url": "https://openreview.net/forum?id=KUfKvlX3VY",
+    "code_url": "https://github.com/ZhanqiuHu/flash-dlm-experimental",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICLR 2026 poster. FlashDLM combines FreeCache KV approximation reuse with guided diffusion for diffusion-language-model inference; the paper reports 12.14x average end-to-end speedup with negligible accuracy degradation.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "FreeKV: Boosting KV Cache Retrieval for Efficient LLM Inference",
     "venue": "ICLR 2026",
     "topic": "KV cache retrieval / CPU-GPU hybrid memory / long-context inference",
@@ -6702,6 +6723,28 @@
       "KV Cache / Long Context",
       "Quantization",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "LouisKV: Efficient KV Cache Retrieval for Long Input-Output Sequences",
+    "venue": "ICLR 2026",
+    "topic": "KV cache / long-context inference / retrieval / Triton-CUDA kernels",
+    "arxiv": "2510.11292",
+    "doi": "",
+    "official_id": "OpenReview-6RJ8fZwm4P",
+    "paper_url": "https://arxiv.org/abs/2510.11292",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICLR 2026 poster. LouisKV exploits temporal locality and semantic boundaries for fine-grained KV retrieval across long input/output sequences, with custom Triton/CUDA kernels; the ICLR paper reports up to 4.7x speedup over prior KV retrieval while retaining near-lossless accuracy.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
