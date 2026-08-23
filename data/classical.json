@@ -8423,6 +8423,26 @@
     ]
   },
   {
+    "title": "Crane: Inter-Layer Scheduling Framework for DNN Inference and Training Co-Support on Tiled Architecture",
+    "venue": "MICRO 2025",
+    "topic": "DNN accelerator scheduling / inference+training co-support",
+    "arxiv": "",
+    "doi": "10.1145/3725843.3756023",
+    "official_id": "",
+    "paper_url": "https://doi.org/10.1145/3725843.3756023",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "MICRO 2025; unified inter-layer scheduling for tiled accelerators supporting inference and training, reducing energy-delay product by up to 21.01x and improving scheduling speed by at least 2.82x.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving"
+    ]
+  },
+  {
     "title": "DECA: A Near-Core LLM Decompression Accelerator Grounded on a 3D Roofline Model",
     "venue": "MICRO 2025",
     "topic": "LLM inference / decompression accelerator",
@@ -8440,6 +8460,27 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "ELK: Exploring the Efficiency of Inter-core Connected AI Chips with Deep Learning Compiler Techniques",
+    "venue": "MICRO 2025",
+    "topic": "deep learning compiler / multi-core AI accelerator",
+    "arxiv": "2507.11506",
+    "doi": "10.1145/3725843.3756064",
+    "official_id": "",
+    "paper_url": "https://arxiv.org/abs/2507.11506",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "MICRO 2025; DL compiler jointly optimizing compute, inter-core communication, off-chip I/O and on-chip memory allocation for inter-core-connected AI chips, reaching 94% of ideal roofline performance on average.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
     ]
   },
   {
@@ -8513,6 +8554,26 @@
     ]
   },
   {
+    "title": "LLMulator: Generalizable Cost Modeling for Dataflow Accelerators with Input-Adaptive Control Flow",
+    "venue": "MICRO 2025",
+    "topic": "AI accelerator modeling / LLM-guided performance prediction",
+    "arxiv": "2508.17826",
+    "doi": "10.1145/3725843.3756027",
+    "official_id": "",
+    "paper_url": "https://arxiv.org/abs/2508.17826",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "MICRO 2025; LLM-based accelerator cost modeling with input-adaptive control-flow calibration and cross-hardware generalization; reports 12.2% MAPE and improved prediction over prior methods.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "LongSight: Compute-Enabled Memory to Accelerate Large-Context LLMs via Sparse Attention",
     "venue": "MICRO 2025",
     "topic": "long-context LLM / sparse attention / CXL memory",
@@ -8578,6 +8639,26 @@
     ]
   },
   {
+    "title": "NetZIP: Algorithm/Hardware Co-design of In-network Lossless Compression for Distributed Large Model Training",
+    "venue": "MICRO 2025",
+    "topic": "distributed large-model training / in-network compression",
+    "arxiv": "",
+    "doi": "10.1145/3725843.3756079",
+    "official_id": "",
+    "paper_url": "https://doi.org/10.1145/3725843.3756079",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "MICRO 2025 Systems for AI (Training); algorithm/hardware co-design for in-network lossless compression of gradients and activations to reduce distributed large-model communication overhead.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "ORCHES",
     "venue": "MICRO 2025",
     "topic": "MoE + diffusion + tensor compression + hybrid LM + reasoning + edge training acceleration",
@@ -8619,6 +8700,27 @@
     "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "PyTorchSim: A Comprehensive, Fast, and Accurate NPU Simulation Framework",
+    "venue": "MICRO 2025",
+    "topic": "NPU simulation / deep learning compiler / multi-model AI systems",
+    "arxiv": "",
+    "doi": "10.1145/3725843.3756045",
+    "official_id": "",
+    "paper_url": "https://doi.org/10.1145/3725843.3756045",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "MICRO 2025; cycle-accurate NPU simulation framework supporting multi-core, multi-model tenancy, generic ISA/compiler, data-dependent timing, inference and training.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
       "GPU Kernel / DSL / Compiler",
       "Edge / Cloud / Heterogeneous AI"
     ]
@@ -8669,6 +8771,28 @@
       "Diffusion / Flow Acceleration",
       "Efficient Reasoning / Agents",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "SkipReduce: (Interconnection) Network Sparsity to Accelerate Distributed Machine Learning",
+    "venue": "MICRO 2025",
+    "topic": "distributed training / collective communication sparsity",
+    "arxiv": "",
+    "doi": "10.1145/3725843.3756092",
+    "official_id": "",
+    "paper_url": "https://doi.org/10.1145/3725843.3756092",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "MICRO 2025; NCCL-compatible sparse AllReduce that selectively skips gradient slices while preserving final accuracy, reporting up to 1.58x speedup in time-to-accuracy.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Distributed Training / Inference"
     ]
   },
   {
