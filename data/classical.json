@@ -10631,6 +10631,28 @@
     ]
   },
   {
+    "title": "AttentionPredictor: Temporal Patterns Matter for KV Cache Compression",
+    "venue": "NeurIPS 2025",
+    "topic": "KV cache compression / sparse attention / cache prefetching",
+    "arxiv": "",
+    "doi": "10.52202/085713-4624",
+    "official_id": "NeurIPS25-c9ffae67",
+    "paper_url": "https://doi.org/10.52202/085713-4624",
+    "code_url": "https://github.com/MIRALab-USTC/LLM-AttentionPredictor",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "NeurIPS 2025 main paper; temporal attention prediction plus cross-token KV prefetching, reporting 13x KV compression and 5.6x speedup in cache-offloading scenarios with comparable quality.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Efficient Attention"
+    ]
+  },
+  {
     "title": "Block-Diagonal LoRA for Eliminating Communication Overhead in Tensor Parallel LoRA Serving",
     "venue": "NeurIPS 2025",
     "topic": "LoRA serving / tensor parallel communication elimination",
@@ -10779,6 +10801,27 @@
     ]
   },
   {
+    "title": "Homogeneous Keys, Heterogeneous Values: Exploiting Local KV Cache Asymmetry for Long-Context LLMs",
+    "venue": "NeurIPS 2025",
+    "topic": "KV cache compression / long-context inference / key-value asymmetry",
+    "arxiv": "",
+    "doi": "10.52202/085713-2726",
+    "official_id": "NeurIPS25-750b0f9f",
+    "paper_url": "https://doi.org/10.52202/085713-2726",
+    "code_url": "https://github.com/the-scale-lab/Asymkv",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "NeurIPS 2025 main paper; AsymKV exploits local key homogeneity and value heterogeneity for training-free long-context KV compression and materially improves quality at compressed budgets.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "HyGen: Efficient LLM Serving via Elastic Online-Offline Request Co-location",
     "venue": "NeurIPS 2025",
     "topic": "LLM serving / online-offline co-location",
@@ -10858,6 +10901,29 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "KVCOMM: Online Cross-context KV-cache Communication for Efficient LLM-based Multi-agent Systems",
+    "venue": "NeurIPS 2025",
+    "topic": "multi-agent LLM serving / cross-context KV cache reuse / prefill acceleration",
+    "arxiv": "",
+    "doi": "10.52202/085713-0605",
+    "official_id": "NeurIPS25-1a074a28",
+    "paper_url": "https://doi.org/10.52202/085713-0605",
+    "code_url": "https://github.com/FastMAS/KVCOMM",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "NeurIPS 2025 main paper; online cross-context KV-cache communication for multi-agent LLM systems, over 70% cache reuse and up to 7.8x prefill speedup without quality loss.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Distributed Training / Inference",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
