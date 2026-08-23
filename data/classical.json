@@ -1188,6 +1188,28 @@
     ]
   },
   {
+    "title": "A Cost-Effective Near-Storage Processing Solution for Offline Inference of Long-Context LLMs",
+    "venue": "ASPLOS 2026",
+    "topic": "LLM serving / long context / near-storage processing",
+    "arxiv": "2502.09921",
+    "doi": "",
+    "official_id": "arXiv:2502.09921",
+    "paper_url": "https://arxiv.org/abs/2502.09921",
+    "code_url": "https://github.com/hongsunjang/HILOS",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Near-storage attention and KV I/O optimizations on 16 SmartSSDs; up to 7.86x throughput and 85% energy reduction.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Attention"
+    ]
+  },
+  {
     "title": "BAT: Efficient Generative Recommender Serving with Bipartite Attention",
     "venue": "ASPLOS 2026",
     "topic": "generative recommender serving / KV prefix cache",
@@ -1273,6 +1295,53 @@
     ]
   },
   {
+    "title": "DIP: Efficient Large Multimodal Model Training with Dynamic Interleaved Pipeline",
+    "venue": "ASPLOS 2026",
+    "topic": "multimodal distributed training / pipeline scheduling",
+    "arxiv": "2504.14145",
+    "doi": "",
+    "official_id": "arXiv:2504.14145",
+    "paper_url": "https://arxiv.org/abs/2504.14145",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Dynamic modality-aware interleaved pipeline scheduling for 12B-94B multimodal models; reports up to 97.3% higher throughput.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
+    "title": "DSV: Exploiting Dynamic Sparsity to Accelerate Large-Scale Video DiT Training",
+    "venue": "ASPLOS 2026",
+    "topic": "video diffusion training / sparse attention / distributed training",
+    "arxiv": "2502.07590",
+    "doi": "",
+    "official_id": "arXiv:2502.07590",
+    "paper_url": "https://arxiv.org/abs/2502.07590",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Dynamic sparse attention plus sparsity-aware context parallelism for Video DiT training; up to 3.02x throughput on 128 GPUs and 520k-token sequences.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "EARTH: An Efficient MoE Accelerator with Entropy-Aware Speculative Prefetch and Result Reuse",
     "venue": "ASPLOS 2026",
     "topic": "serving + speculative decoding + MoE + generative efficiency",
@@ -1295,6 +1364,28 @@
     ]
   },
   {
+    "title": "GFS: A Preemption-aware Scheduling Framework for GPU Clusters with Predictive Spot Instance Management",
+    "venue": "ASPLOS 2026",
+    "topic": "GPU cluster scheduling / AI training infrastructure",
+    "arxiv": "2509.11134",
+    "doi": "",
+    "official_id": "arXiv:2509.11134",
+    "paper_url": "https://arxiv.org/abs/2509.11134",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Predictive preemption-aware GPU-cluster scheduling evaluated in a >10,000-GPU production cluster; reduces evictions/queue delay and improves allocation.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "I/O Analysis is All You Need: An I/O Analysis for Long-Sequence Attention",
     "venue": "ASPLOS 2026",
     "topic": "attention accelerator / I/O analysis",
@@ -1313,6 +1404,27 @@
     "directions": [
       "LLM Serving",
       "Efficient Attention"
+    ]
+  },
+  {
+    "title": "Insum: Sparse GPU Kernels Simplified and Optimized with Indirect Einsums",
+    "venue": "ASPLOS 2026",
+    "topic": "GPU kernel / sparse compiler",
+    "arxiv": "2510.17505",
+    "doi": "",
+    "official_id": "arXiv:2510.17505",
+    "paper_url": "https://arxiv.org/abs/2510.17505",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Compiler abstraction for sparse GPU kernels using indirect Einsums and Tensor-Core-aware lowering; 1.14x-3.81x speedups with large code reduction.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {
@@ -1402,6 +1514,49 @@
       "LLM Serving",
       "KV Cache / Long Context",
       "MoE Systems / Accelerators",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Morphlux: Transforming Torus Fabrics for Efficient Multi-tenant ML",
+    "venue": "ASPLOS 2026",
+    "topic": "distributed ML / datacenter interconnect / photonic fabric",
+    "arxiv": "2508.03674",
+    "doi": "",
+    "official_id": "arXiv:2508.03674",
+    "paper_url": "https://arxiv.org/abs/2508.03674",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Programmable photonic server-scale fabric for multi-tenant ML; improves bandwidth/fragmentation and reports 1.72x training throughput on prototype.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "MSCCL++: Rethinking GPU Communication Abstractions for Cutting-edge AI Applications",
+    "venue": "ASPLOS 2026",
+    "topic": "distributed AI / GPU communication runtime",
+    "arxiv": "2504.09014",
+    "doi": "",
+    "official_id": "arXiv:2504.09014",
+    "paper_url": "https://arxiv.org/abs/2504.09014",
+    "code_url": "https://github.com/microsoft/mscclpp",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Production GPU communication abstraction adopted in Azure/AMD RCCL; up to 3.8x collectives and up to 15% real AI-inference gains.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference",
       "Edge / Cloud / Heterogeneous AI"
     ]
   },
@@ -1671,6 +1826,30 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "SuperOffload: Unleashing the Power of Large-Scale LLM Training on Superchips",
+    "venue": "ASPLOS 2026",
+    "topic": "distributed LLM training / heterogeneous superchip offload",
+    "arxiv": "2509.21271",
+    "doi": "",
+    "official_id": "arXiv:2509.21271",
+    "paper_url": "https://arxiv.org/abs/2509.21271",
+    "code_url": "https://supercomputing-system-ai-lab.github.io/projects/superoffload/",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Superchip-centric GPU/CPU/NVLink-C2C offloading system; reports up to 2.5x-4x throughput gains depending evaluated configuration.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -8579,6 +8758,27 @@
     ]
   },
   {
+    "title": "BatchLLM: Optimizing Large Batched LLM Inference with Global Prefix Sharing and Throughput-oriented Token Batching",
+    "venue": "MLSys 2026",
+    "topic": "LLM serving / prefix cache / batching",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "MLSys2026:5b7ae1758452854dee4e962207d38304",
+    "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/5b7ae1758452854dee4e962207d38304-Abstract-Conference.html",
+    "code_url": "https://github.com/microsoft/MixLLM/tree/batchllm_vllm_064",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Global prefix sharing plus throughput-oriented token batching; reports 1.3x-10.8x over vLLM/SGLang on evaluated workloads.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context"
+    ]
+  },
+  {
     "title": "BEAM",
     "venue": "MLSys 2026",
     "topic": "LLM serving + KV + speculative + reasoning efficiency",
@@ -8644,6 +8844,26 @@
       "LLM Serving",
       "Speculative Decoding",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "Charon: A Unified and Fine-Grained Simulator for Large-Scale LLM Training and Inference",
+    "venue": "MLSys 2026",
+    "topic": "distributed training/inference / LLM performance simulation",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "MLSys2026:dbc8ce0fdfcd55172d73fb05dbae07fc",
+    "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/dbc8ce0fdfcd55172d73fb05dbae07fc-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Unified operator-level simulator for large-scale LLM training and inference; <5.35% overall prediction error and practical deployment configuration search.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Distributed Training / Inference"
     ]
   },
   {
@@ -8713,6 +8933,27 @@
     ]
   },
   {
+    "title": "FlashInfer-Bench: Building the Virtuous Cycle for AI-driven LLM Systems",
+    "venue": "MLSys 2026",
+    "topic": "GPU kernel / LLM systems / agentic optimization",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "MLSys2026:37e44c4b5321605735be9761f9b758fc",
+    "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/37e44c4b5321605735be9761f9b758fc-Abstract-Conference.html",
+    "code_url": "https://github.com/flashinfer-ai/flashinfer-bench",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Closed-loop real-trace kernel generation, benchmarking and production substitution for SGLang/vLLM.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "FlexiCache",
     "venue": "MLSys 2026",
     "topic": "LLM serving + KV + speculative + reasoning efficiency",
@@ -8732,6 +8973,28 @@
       "LLM Serving",
       "Speculative Decoding",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "FlexTrain: Scalable Hybrid-Parallel Training with Elastic Resource Utilization and Consistent Accuracy",
+    "venue": "MLSys 2026",
+    "topic": "distributed training / elastic GPU scheduling",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "MLSys2026:3c40417b8dca30c08cc361df5b33ad7e",
+    "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/3c40417b8dca30c08cc361df5b33ad7e-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Elastic hybrid-parallel LLM training with accuracy-consistent PP scaling and DP elasticity; up to 1.73x/2.27x speedup depending consistency mode.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
     ]
   },
   {
@@ -8795,6 +9058,29 @@
     "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving"
+    ]
+  },
+  {
+    "title": "HexiScale: Facilitating Large Language Model Training over Heterogeneous Hardware",
+    "venue": "MLSys 2026",
+    "topic": "distributed training / heterogeneous GPU systems",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "MLSys2026:d5a655b8b373737b4f2aea8f78e5e754",
+    "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/d5a655b8b373737b4f2aea8f78e5e754-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Asymmetric DP/PP/TP partitioning and hierarchical graph allocation for heterogeneous-GPU LLM training; 1.5x-2.4x throughput over heterogeneous baselines.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -8951,6 +9237,27 @@
     ]
   },
   {
+    "title": "Optimizing PyTorch Inference with LLM-Based Multi-Agent Systems",
+    "venue": "MLSys 2026",
+    "topic": "GPU kernel / compiler / agentic inference optimization",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "MLSys2026:bd49b53516ce9ea248fb73522d71a508",
+    "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/bd49b53516ce9ea248fb73522d71a508-Abstract-Conference.html",
+    "code_url": "https://github.com/pike-project/pike",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Multi-agent PyTorch optimization framework; best configuration reports 2.88x over eager and 1.85x over torch.compile on H100 KernelBench.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "ProfInfer: An eBPF-based Fine-Grained LLM Inference Profiler",
     "venue": "MLSys 2026",
     "topic": "LLM inference profiling / edge runtime observability",
@@ -9078,6 +9385,29 @@
       "LLM Serving",
       "Speculative Decoding",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "TeleRAG: Efficient Retrieval-Augmented Generation Inference with Lookahead Retrieval",
+    "venue": "MLSys 2026",
+    "topic": "RAG serving / prefetch / multi-GPU inference",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "MLSys2026:7fd522b89ac21009b7bbe7560a9a5add",
+    "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/7fd522b89ac21009b7bbe7560a9a5add-Abstract-Conference.html",
+    "code_url": "https://github.com/uw-syfi/TeleRAG",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Lookahead retrieval overlaps CPU-GPU data movement with generation and adds cache-aware multi-GPU scheduling; up to 1.98x latency reduction and 1.83x throughput.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
