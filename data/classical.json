@@ -8056,6 +8056,28 @@
     ]
   },
   {
+    "title": "Decouple and Cache: KV Cache Construction for Streaming Video Understanding",
+    "venue": "ICML 2026",
+    "topic": "multimodal serving / streaming video / KV cache",
+    "arxiv": "2605.01858",
+    "doi": "",
+    "official_id": "2605.01858",
+    "paper_url": "https://arxiv.org/abs/2605.01858",
+    "code_url": "https://github.com/pangzhan27/DSCache",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 official OpenReview paper; training-free decoupled streaming KV construction for effectively unbounded VideoVLM streams, preserving recent information and position extrapolation under bounded memory/compute.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
     "title": "Efficient Multi-round LLM Inference over Disaggregated Serving",
     "venue": "ICML 2026",
     "topic": "LLM serving / multi-round agents / PD disaggregation",
@@ -8097,6 +8119,31 @@
       "Sparsity / Pruning",
       "Efficient Attention",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "Entropy-Aware Dynamic KV Cache Sparsification for Autoregressive Image Generation and Editing",
+    "venue": "ICML 2026",
+    "topic": "KV cache / sparse attention / autoregressive image generation acceleration",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICML2026_OFFICIAL_PRIMARY",
+    "paper_url": "https://www.microsoft.com/en-us/research/publication/entropy-aware-dynamic-kv-cache-sparsification-for-autoregressive-image-generation-and-editing-2/",
+    "code_url": "https://github.com/lilitong7/SparseAR-ICML-2026",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Microsoft Research paper; SparseAR dynamically adapts attention sparsity from visual-token entropy to reduce AR image-generation KV-cache overhead while preserving or improving quality.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
@@ -8281,6 +8328,27 @@
     ]
   },
   {
+    "title": "SpecExit: Accelerating Large Reasoning Model via Speculative Exit",
+    "venue": "ICML 2026",
+    "topic": "efficient reasoning / speculative decoding / early exit",
+    "arxiv": "2509.24248",
+    "doi": "",
+    "official_id": "2509.24248",
+    "paper_url": "https://arxiv.org/abs/2509.24248",
+    "code_url": "https://github.com/Tencent/AngelSlim",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 official accepted/download listing; speculative draft predicts future tokens and early-exit signal without probing overhead; reports 66% shorter average generation and 2.5x end-to-end latency speedup without accuracy loss.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Speculative Decoding",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "SpecForge: A Flexible and Efficient Open-Source Training Framework for Speculative Decoding",
     "venue": "ICML 2026",
     "topic": "speculative decoding / draft-model training infrastructure / SGLang",
@@ -8300,6 +8368,27 @@
       "Speculative Decoding",
       "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "SpecMD: A Comprehensive Study On Speculative Expert Prefetching",
+    "venue": "ICML 2026",
+    "topic": "MoE systems / expert caching / speculative prefetching",
+    "arxiv": "2602.03921",
+    "doi": "",
+    "official_id": "2602.03921",
+    "paper_url": "https://arxiv.org/abs/2602.03921",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Apple paper; standardized MoE expert-cache benchmarking and Least-Stale eviction, reducing collision misses up to 85x and TTFT up to 34.7% with a 5%/0.6GB VRAM cache.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Speculative Decoding",
+      "MoE Systems / Accelerators"
     ]
   },
   {
