@@ -8123,6 +8123,29 @@
     ]
   },
   {
+    "title": "AsyncSpade: Efficient Test-Time Scaling with Asynchronous Sparse Decoding",
+    "venue": "ICML 2026",
+    "topic": "efficient reasoning / sparse decoding / KV filtering / asynchronous serving",
+    "arxiv": "2510.07486",
+    "doi": "",
+    "official_id": "ICML2026_ASYNCSPADEEFFICIENTTESTTIMESCALINGWITHAS",
+    "paper_url": "https://arxiv.org/abs/2510.07486",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026; asynchronously decouples query-aware KV filtering from autoregressive decoding and overlaps selection with forward compute; reports >20% TPOT reduction vs Quest and >=50% vs full attention while preserving accuracy.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "Attn-QAT: 4-Bit Attention With Quantization-Aware Training",
     "venue": "ICML 2026",
     "topic": "FP4 attention / quantization-aware training / fused attention kernels",
@@ -8185,6 +8208,72 @@
       "LLM Serving",
       "KV Cache / Long Context",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "BubbleSpec: Turning Long-Tail Bubbles into Speculative Rollout Drafts for Synchronous Reinforcement Learning",
+    "venue": "ICML 2026",
+    "topic": "LLM RL systems / rollout acceleration / speculative decoding / distributed training",
+    "arxiv": "2605.08862",
+    "doi": "",
+    "official_id": "ICML2026_BUBBLESPECTURNINGLONGTAILBUBBLESINTOSPEC",
+    "paper_url": "https://arxiv.org/abs/2605.08862",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026; converts synchronous RL long-tail bubbles into speculative drafts while preserving exact rollout distribution; reduces decoding steps by ~50% and improves rollout throughput up to 1.8x.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "Distributed Training / Inference",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "CLAA: Cross-Layer Attention Aggregation for Accelerating LLM Prefill",
+    "venue": "ICML 2026",
+    "topic": "LLM prefill / token selection / efficient attention / long context",
+    "arxiv": "2602.16054",
+    "doi": "",
+    "official_id": "ICML2026_CLAACROSSLAYERATTENTIONAGGREGATIONFORACC",
+    "paper_url": "https://arxiv.org/abs/2602.16054",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Poster; cross-layer aggregation stabilizes token importance for selective prefill and reports up to 39% TTFT reduction versus full KV cache.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Efficient Attention"
+    ]
+  },
+  {
+    "title": "CLIMB: Taming the LoRA Residency Cliff in Multi-LoRA Serving",
+    "venue": "ICML 2026",
+    "topic": "multi-LoRA serving / adapter residency / tail latency / admission control",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICML2026_CLIMBTAMINGTHELORARESIDENCYCLIFFINMULTIL",
+    "paper_url": "https://icml.cc/Downloads/2026",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Poster; identifies the LoRA residency cliff in multi-tenant serving and uses feasibility-first admission/managed ingress queueing to prevent tail-latency collapse at matched throughput.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving"
     ]
   },
   {
@@ -8567,6 +8656,48 @@
       "LLM Serving",
       "KV Cache / Long Context",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "HeraSys: Collaborative Serving of Multiple LLM Workflows via Fine-Grained End-to-End Optimization",
+    "venue": "ICML 2026",
+    "topic": "agentic LLM serving / multi-workflow scheduling / reuse / adaptive batching",
+    "arxiv": "2607.22578",
+    "doi": "",
+    "official_id": "ICML2026_HERASYSCOLLABORATIVESERVINGOFMULTIPLELLM",
+    "paper_url": "https://arxiv.org/abs/2607.22578",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026; cross-workflow node merging/reuse plus load-aware joint scheduling and adaptive batching; reports up to 2.17x lower P99 latency and 1.85x higher throughput.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "HexGen-3: A Fully Disaggregated LLM Serving Framework with Fine-Grained Heterogeneous Resource Autoscaling",
+    "venue": "ICML 2026",
+    "topic": "LLM serving / disaggregation / heterogeneous resource autoscaling",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICML2026_HEXGEN3AFULLYDISAGGREGATEDLLMSERVINGFRAM",
+    "paper_url": "https://youhe-jiang.github.io/",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026; fully disaggregated inference with phase/operator-level heterogeneous resource autoscaling for cost-effective LLM serving.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -9243,6 +9374,26 @@
     "directions": [
       "Sparsity / Pruning",
       "Efficient Attention"
+    ]
+  },
+  {
+    "title": "Threshold-Based Exclusive Batching for LLM Inference",
+    "venue": "ICML 2026",
+    "topic": "LLM serving / batching / hardware-aware scheduling / prefill-decode tradeoff",
+    "arxiv": "2606.00516",
+    "doi": "",
+    "official_id": "ICML2026_THRESHOLDBASEDEXCLUSIVEBATCHINGFORLLMINF",
+    "paper_url": "https://arxiv.org/abs/2606.00516",
+    "code_url": "https://github.com/weifang231/eb-vllm",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026; derives the hardware-dependent crossover between mixed and exclusive batching and introduces EB+ online switching; reports up to 41.9% throughput gain for optimized EB and 36.4% for EB+ over mixed batching under non-stationary traffic.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving"
     ]
   },
   {
