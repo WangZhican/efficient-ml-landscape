@@ -8208,6 +8208,26 @@
     ]
   },
   {
+    "title": "EntroKV: Entropy-Guided Dynamic Budget Allocation for KV-Cache Compression",
+    "venue": "ICML 2026",
+    "topic": "KV cache compression / dynamic budget allocation / long-context inference",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICML2026_ENTROKV",
+    "paper_url": "https://icml.cc/Downloads/2026",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Spotlight; entropy-guided dynamic allocation across layers and heads for long-context KV compression, retaining about 98% of full-cache performance at a 30% budget with negligible overhead.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context"
+    ]
+  },
+  {
     "title": "Entropy-Aware Dynamic KV Cache Sparsification for Autoregressive Image Generation and Editing",
     "venue": "ICML 2026",
     "topic": "KV cache / sparse attention / autoregressive image generation acceleration",
@@ -8230,6 +8250,50 @@
       "Efficient Attention",
       "Video / Image Generation",
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "EpiCache: Episodic KV Cache Management for Long-Term Conversation on Resource-Constrained Environments",
+    "venue": "ICML 2026",
+    "topic": "KV cache / long-term conversation / memory-bounded inference / edge-resource-constrained serving",
+    "arxiv": "2509.17396",
+    "doi": "",
+    "official_id": "2509.17396",
+    "paper_url": "https://arxiv.org/abs/2509.17396",
+    "code_url": "https://github.com/apple/ml-epicache",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Apple paper for long-term conversational inference under fixed memory budgets; block-wise prefill plus episodic KV compression bounds peak cache growth and reports near-full-cache accuracy at 4-6x compression with up to 2.4x latency and 3.7x peak-memory reduction.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "FAFO: Lossy KV Cache Compression for Lossless Inference Acceleration via Draftless Fumble Decoding",
+    "venue": "ICML 2026",
+    "topic": "KV cache compression / draftless speculative decoding / lossless inference acceleration",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICML2026_FAFO",
+    "paper_url": "https://icml.cc/Downloads/2026",
+    "code_url": "https://github.com/Escanord/FAFO",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 paper combining lossy KV-cache compression with parallel n-gram guess generation and lossless verification; official paper reports 1.20-2.71x latency speedup over vanilla decoding while preserving the target output distribution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "KV Cache / Long Context"
     ]
   },
   {
