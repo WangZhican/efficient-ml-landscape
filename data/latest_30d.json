@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-08-24",
   "window_start_beijing": "2026-07-25",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 199,
+  "tracked_total": 200,
   "p0_strong_or_canonical": [
     {
       "title": "FlashPrefill V2: Block-Sparse Prefill Attention for Long-Context LLM Serving",
@@ -1006,6 +1006,29 @@
       "directions": [
         "LLM Serving",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "EasyBalance: Cross-Layer Load Balancing in Distributed MoE Inference",
+      "venue": "ICML 2026",
+      "topic": "MoE inference / expert parallelism / cross-layer load balancing",
+      "arxiv": "2608.07964",
+      "doi": "",
+      "official_id": "ICML2026_EASYBALANCE",
+      "paper_url": "https://arxiv.org/abs/2608.07964",
+      "code_url": "https://github.com/yize-wu/EasyInfra",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "BACKFILL_HIGH",
+      "why": "ICML 2026; cross-layer scheduling balances skewed expert-parallel workloads without remapping experts and reduces GPU idling by mostly over 40% across evaluated configurations.",
+      "published_at": "2026-08-08T06:59:09Z",
+      "updated_at": "2026-08-08T06:59:09Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "MoE Systems / Accelerators",
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference"
       ]
     },
     {
@@ -5389,6 +5412,29 @@
       "directions": [
         "LLM Serving",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "EasyBalance: Cross-Layer Load Balancing in Distributed MoE Inference",
+      "venue": "ICML 2026",
+      "topic": "MoE inference / expert parallelism / cross-layer load balancing",
+      "arxiv": "2608.07964",
+      "doi": "",
+      "official_id": "ICML2026_EASYBALANCE",
+      "paper_url": "https://arxiv.org/abs/2608.07964",
+      "code_url": "https://github.com/yize-wu/EasyInfra",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "BACKFILL_HIGH",
+      "why": "ICML 2026; cross-layer scheduling balances skewed expert-parallel workloads without remapping experts and reduces GPU idling by mostly over 40% across evaluated configurations.",
+      "published_at": "2026-08-08T06:59:09Z",
+      "updated_at": "2026-08-08T06:59:09Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "MoE Systems / Accelerators",
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference"
       ]
     },
     {

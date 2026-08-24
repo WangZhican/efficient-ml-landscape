@@ -8168,6 +8168,28 @@
     ]
   },
   {
+    "title": "CONCUR: High-Throughput Agentic Batch Inference of LLM via Congestion-Based Concurrency Control",
+    "venue": "ICML 2026",
+    "topic": "agentic LLM serving / KV cache / admission control",
+    "arxiv": "2601.22705",
+    "doi": "",
+    "official_id": "ICML2026_CONCUR",
+    "paper_url": "https://arxiv.org/abs/2601.22705",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026; cache-pressure-aware agent admission control prevents middle-phase KV thrashing and reports up to 4.09x throughput on Qwen3-32B and 1.9x on DeepSeek-V3.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "CriticalKV: Optimizing KV Cache Eviction from an Output Perturbation Perspective",
     "venue": "ICML 2026",
     "topic": "KV cache / eviction / long-context inference",
@@ -8229,6 +8251,74 @@
       "LLM Serving",
       "KV Cache / Long Context",
       "Multimodal / MLLM Serving"
+    ]
+  },
+  {
+    "title": "DFlash: Block Diffusion for Flash Speculative Decoding",
+    "venue": "ICML 2026",
+    "topic": "speculative decoding / diffusion drafter / LLM inference acceleration",
+    "arxiv": "2602.06036",
+    "doi": "",
+    "official_id": "ICML2026_DFLASH",
+    "paper_url": "https://arxiv.org/abs/2602.06036",
+    "code_url": "https://github.com/z-lab/dflash",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026; lightweight block-diffusion drafter generates draft blocks in parallel and reports >6x lossless acceleration, up to 2.5x higher speedup than EAGLE-3; production serving integrations are available.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "GPU Kernel / DSL / Compiler",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "DFSAttn: Dynamic Fine-grained Sparse Attention for Efficient Video Generation",
+    "venue": "ICML 2026",
+    "topic": "video diffusion / dynamic sparse attention / GPU-efficient inference",
+    "arxiv": "2605.23445",
+    "doi": "",
+    "official_id": "ICML2026_DFSATTN",
+    "paper_url": "https://arxiv.org/abs/2605.23445",
+    "code_url": "https://github.com/jessica-hujie/DFSAttn",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026; training-free dynamic fine-grained sparse attention with Hilbert token reordering, hierarchical scoring and adaptive mask caching; reports up to 2.1x end-to-end video-generation speedup.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler",
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "DuetServe: Harmonizing Prefill and Decode for LLM Serving via Adaptive GPU Multiplexing",
+    "venue": "ICML 2026",
+    "topic": "LLM serving / adaptive GPU multiplexing / prefill-decode isolation",
+    "arxiv": "2511.04791",
+    "doi": "",
+    "official_id": "ICML2026_DUETSERVE",
+    "paper_url": "https://arxiv.org/abs/2511.04791",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026; dynamically activates SM-level spatial multiplexing to obtain disaggregation-like prefill/decode isolation on one GPU; reports up to 1.3x higher throughput while maintaining low generation latency.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {
@@ -8365,6 +8455,56 @@
     ]
   },
   {
+    "title": "FAST-AR: Fast Autoregressive Video Diffusion and World Models with Temporal Cache Compression and Sparse Attention",
+    "venue": "ICML 2026",
+    "topic": "video/world-model inference / KV cache compression / sparse attention",
+    "arxiv": "2602.01801",
+    "doi": "",
+    "official_id": "ICML2026_FASTAR",
+    "paper_url": "https://arxiv.org/abs/2602.01801",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026; unified training-free TempCache + ANN cross/self-attention framework bounds KV growth and reports 5-10x end-to-end speedups with nearly constant long-rollout memory.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler",
+      "Diffusion / Flow Acceleration",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "Faster Than Flash: Exploiting Attention Sparsity for Efficient Long-Context Decoding",
+    "venue": "ICML 2026",
+    "topic": "long-context LLM decoding / sparse attention / fused Triton kernel",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICML2026_R8YHLMRUR2",
+    "paper_url": "https://openreview.net/forum?id=r8YhlMRUR2",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026; hardware-algorithm co-design with low-bit content-aware scanning, top-delta sparsity and fused selector-compute Triton kernels; reports up to 11.6x kernel and 2.37x end-to-end throughput gains.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Quantization",
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "ForesightKV: Optimizing KV Cache Eviction for Reasoning Models by Learning Long-Term Contribution",
     "venue": "ICML 2026",
     "topic": "KV cache eviction / reasoning-model serving / learned long-term contribution",
@@ -8425,6 +8565,27 @@
     "directions": [
       "KV Cache / Long Context",
       "Multimodal / MLLM Serving"
+    ]
+  },
+  {
+    "title": "Knapsack RL: Compute-Efficient Reinforcement Learning via Heterogeneous Rollout Allocation",
+    "venue": "ICML 2026",
+    "topic": "LLM RL / rollout allocation / training compute efficiency",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICML2026_KNAPSACKRL",
+    "paper_url": "https://www.liziniu.org/publications.html",
+    "code_url": "https://github.com/liziniu/KnapsackRL",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026; allocates heterogeneous rollout budgets under a fixed compute budget, improving effective-gradient ratio up to 40% and requiring roughly 2x less rollout compute for comparable performance than homogeneous allocation.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Reasoning / Agents",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -8512,6 +8673,26 @@
     "tracking_tier": "Canonical",
     "directions": [
       "KV Cache / Long Context"
+    ]
+  },
+  {
+    "title": "Not All Prefills Are Equal: PPD Disaggregation for Multi-turn LLM Serving",
+    "venue": "ICML 2026",
+    "topic": "LLM serving / prefill-decode disaggregation / multi-turn KV reuse",
+    "arxiv": "2603.13358",
+    "doi": "",
+    "official_id": "ICML2026_PPD",
+    "paper_url": "https://arxiv.org/abs/2603.13358",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026; dynamic PPD routing reuses cached KV for Turn 2+ append-prefill on decode nodes and reports about 68% lower Turn 2+ TTFT while controlling TPOT and KV-transfer congestion.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving"
     ]
   },
   {
@@ -8827,6 +9008,27 @@
     ]
   },
   {
+    "title": "SparseInfer: Accelerating Large Language Model Inference with Semantics-Inspired Adaptive Sparse Activation",
+    "venue": "ICML 2026",
+    "topic": "LLM inference / adaptive sparse activation / edge efficiency",
+    "arxiv": "2410.18311",
+    "doi": "",
+    "official_id": "ICML2026_SPARSEINFER",
+    "paper_url": "https://arxiv.org/abs/2410.18311",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 poster; sentence-level semantic core-neuron prediction fixes activation maps across decoding and reports 10.33x speedup vs HuggingFace and 2.72x vs PowerInfer; earlier preprint title was CoreInfer.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "SparseInfer: Training-free Prediction of Activation Sparsity for Fast LLM Inference",
     "venue": "ICML 2026",
     "topic": "LLM inference / activation sparsity",
@@ -8844,6 +9046,28 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Sparsity / Pruning"
+    ]
+  },
+  {
+    "title": "Sparser, Faster, Lighter Transformer Language Models",
+    "venue": "ICML 2026",
+    "topic": "LLM sparsity / CUDA kernels / inference and training efficiency",
+    "arxiv": "2603.23198",
+    "doi": "",
+    "official_id": "ICML2026_SPARSEFASTERLIGHTER",
+    "paper_url": "https://arxiv.org/abs/2603.23198",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026; combines >99% FFN sparsity with a sparse packing format and CUDA kernels, translating unstructured sparsity into throughput, energy and memory benefits on modern GPUs.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {
