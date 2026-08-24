@@ -8211,6 +8211,28 @@
     ]
   },
   {
+    "title": "Beyond Prediction: Tail-Aware Scheduling for LLM Inference",
+    "venue": "ICML 2026",
+    "topic": "LLM serving / tail-aware scheduling / KV-aware preemption / SLO optimization",
+    "arxiv": "2606.18431",
+    "doi": "",
+    "official_id": "ICML2026_BEYONDPREDICTIONTAILAWARESCHEDULINGFORLLMINFERENCE",
+    "paper_url": "https://arxiv.org/abs/2606.18431",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 direct LLM-serving systems work from Cornell/Microsoft/NVIDIA. UniBoost replaces fragile decode-length prediction with distribution-aware soft priority boosting plus KV-cache-aware preemption; reports 35–50% lower P99 TTLT than SRPT with perfect length knowledge, 34–97% lower P95 TTFT across workloads, and 2.9–8.7x tighter SLO thresholds at 99% attainment.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "BubbleSpec: Turning Long-Tail Bubbles into Speculative Rollout Drafts for Synchronous Reinforcement Learning",
     "venue": "ICML 2026",
     "topic": "LLM RL systems / rollout acceleration / speculative decoding / distributed training",
@@ -10038,6 +10060,29 @@
       "LLM Serving",
       "KV Cache / Long Context",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "TileSparse: Arithmetic-Intensity-Aware Sparse Attention for Compute-Bound LLM Decoding",
+    "venue": "ICML 2026",
+    "topic": "LLM serving / sparse attention / decoding kernel / arithmetic-intensity-aware execution",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICML2026_TILESPARSEARITHMETICINTENSITYAWARESPARSEATTENTION",
+    "paper_url": "https://pfzuo.github.io/publications/",
+    "code_url": "https://github.com/ASISys/TileSparse",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 direct efficient-inference systems work. TileSparse targets the regime where sparse-attention decoding becomes compute-bound and co-designs sparsity with arithmetic intensity rather than maximizing sparsity alone; author and lab publication pages confirm the ICML 2026 paper and official implementation.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {
