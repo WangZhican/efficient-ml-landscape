@@ -1,13 +1,14 @@
 # 13 · Efficient Reasoning / Agents
 
-> **126 canonical papers** mapped here, plus a broader **32-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **126 canonical papers** mapped here, plus a broader **33-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 32 tracked
+## 🆕 Latest 30 Days · 33 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
+| **P2 · Relevant** | **Memory Augmentation Unlocks Efficient Chain-of-Thought Reasoning** | Fresh / preprint | llm_serving | [Link](https://arxiv.org/abs/2608.21265) | — |
 | **P0 · Strong** | **ReCache: Efficient KV Cache Reuse and Compression for Tool-Augmented LLM Agents** | Fresh / preprint | agent serving / KV cache reuse / compression | [Link](https://arxiv.org/abs/2608.19662) | [Repo](https://github.com/EIT-NLP/ReCache) |
 | **P1 · Watch** | **Efficient RLVR Scheduling via Graph-Structured Online Difficulty Estimation** | Fresh / preprint | LLM RL / rollout scheduling efficiency | [Link](https://arxiv.org/abs/2608.17941) | — |
 | **P0 · Strong** | **rl-triton: High-Performance Triton GPU Kernels for Reinforcement Learning Credit Assignment** | Fresh / preprint | GPU kernel / Triton / RL infrastructure | [Link](https://arxiv.org/abs/2608.17641) | — |

@@ -1,13 +1,16 @@
 # 10 · Multimodal / MLLM Serving
 
-> **112 canonical papers** mapped here, plus a broader **30-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **112 canonical papers** mapped here, plus a broader **33-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 30 tracked
+## 🆕 Latest 30 Days · 33 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
+| **P1 · Watch** | **Just Noticeable Difference Modeling for Token Compression in Vision-Language-Action Models** | Fresh / preprint | llm_serving / kv / sparse / multimodal / gen / physical | [Link](https://arxiv.org/abs/2608.21247) | — |
+| **P1 · Watch** | **Llama-Mobile: Efficient 2.7-Bit Quantization of VLMs** | Fresh / preprint | llm_serving / quant / multimodal | [Link](https://arxiv.org/abs/2608.21134) | — |
+| **P2 · Relevant** | **ForeTime-VLA: Causal Future-Token Distillation from a World Action Model for Conveyor-Belt Manipulation** | Fresh / preprint | llm_serving / multimodal / gen / physical | [Link](https://arxiv.org/abs/2608.20735) | — |
 | **P2 · Relevant** | **EXIMO: VLM Guided Exploration of VLA Policies** | Fresh / preprint | multimodal / gen / physical | [Link](https://arxiv.org/abs/2608.19891) | — |
 | **P2 · Relevant** | **OrthoSkillVLA: Continual Skill Learning via Gradient-Informed Skill Subspace Adaptation** | Fresh / preprint | llm_serving / multimodal / physical | [Link](https://arxiv.org/abs/2608.19589) | — |
 | **P0 · Strong** | **Role-Conditioned Sub-Token Routing for Efficient Vision-Language-Action Policies** | Fresh / preprint | VLA efficiency / KV compression / sub-token routing | [Link](https://arxiv.org/abs/2608.18410) | — |

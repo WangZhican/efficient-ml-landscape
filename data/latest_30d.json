@@ -1,8 +1,8 @@
 {
-  "window_end_beijing": "2026-08-24",
-  "window_start_beijing": "2026-07-25",
+  "window_end_beijing": "2026-08-25",
+  "window_start_beijing": "2026-07-26",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 201,
+  "tracked_total": 211,
   "p0_strong_or_canonical": [
     {
       "title": "FlashPrefill V2: Block-Sparse Prefill Attention for Long-Context LLM Serving",
@@ -1054,6 +1054,162 @@
   ],
   "p1_watchlist": [
     {
+      "title": "Just Noticeable Difference Modeling for Token Compression in Vision-Language-Action Models",
+      "venue": "",
+      "topic": "llm_serving / kv / sparse / multimodal / gen / physical",
+      "arxiv": "2608.21247",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.21247",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Physical-AI protected efficiency work: Action-JND provides action-tolerance-aware criteria for stale-KV reuse/token pruning on OpenVLA/OpenVLA-OFT; retain P1 pending stronger latency/system evidence.",
+      "published_at": "2026-08-21T15:59:37Z",
+      "updated_at": "2026-08-21T15:59:37Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "SPICE: Speculative Prefetching with Low-Rank Expert Surrogates and Heterogeneous Orchestration for MoE Inference Acceleration",
+      "venue": "",
+      "topic": "llm_serving / spec / moe / edge",
+      "arxiv": "2608.21240",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.21240",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct MoE inference-system contribution: speculative expert prefetch plus heterogeneous CPU/GPU recovery; reports up to 3.12x TPOT speedup on DeepSeek/Qwen MoE models.",
+      "published_at": "2026-08-21T15:50:46Z",
+      "updated_at": "2026-08-21T15:50:46Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Speculative Decoding",
+        "MoE Systems / Accelerators",
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Anchoring Instruction Outside Mask: Exact Reference Caching for Efficient In-Context Diffusion Transformers",
+      "venue": "",
+      "topic": "sparse / gen",
+      "arxiv": "2608.21229",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.21229",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct diffusion inference acceleration via exact reference K/V reuse with redesigned masking; reports 3.92x full 40-step denoising speedup at five references and 5.47x at ten.",
+      "published_at": "2026-08-21T15:37:23Z",
+      "updated_at": "2026-08-21T15:37:23Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Sparsity / Pruning",
+        "GPU Kernel / DSL / Compiler",
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "Llama-Mobile: Efficient 2.7-Bit Quantization of VLMs",
+      "venue": "",
+      "topic": "llm_serving / quant / multimodal",
+      "arxiv": "2608.21134",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.21134",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct mobile VLM deployment work: 2.7-bit format with efficient Arm CPU execution; compresses Llama-3.2-11B-Vision-Instruct to 3.7GB with 8-bit activations.",
+      "published_at": "2026-08-21T14:10:31Z",
+      "updated_at": "2026-08-21T14:10:31Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Multimodal / MLLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "TreeWY: Speculative Verification for Gated DeltaNet Hybrids",
+      "venue": "",
+      "topic": "llm_serving / spec",
+      "arxiv": "2608.20961",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.20961",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct speculative-serving systems work for Gated-DeltaNet hybrids: removes per-draft recurrent-state snapshots and reduces memory/KV pressure on Qwen3.5 35B/397B.",
+      "published_at": "2026-08-21T10:31:15Z",
+      "updated_at": "2026-08-21T10:31:15Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Speculative Decoding"
+      ]
+    },
+    {
+      "title": "Quantization-Aware Healing: A Practical Recipe for Recovering Compressed, 4-Bit LLMs",
+      "venue": "",
+      "topic": "llm_serving / kv / quant",
+      "arxiv": "2608.20953",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.20953",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct low-bit deployment recipe: quantization-aware healing for structurally compressed MXFP4 LLMs; roughly 4x lower weight memory and ~7x faster recovery than matched QAT peak.",
+      "published_at": "2026-08-21T10:19:27Z",
+      "updated_at": "2026-08-21T10:19:27Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization"
+      ]
+    },
+    {
+      "title": "LiLiCorr: Lightweight Likelihood Correlation of Parallel Drafts for Speculative Decoding",
+      "venue": "",
+      "topic": "llm_serving / spec / edge",
+      "arxiv": "2608.20530",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.20530",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct speculative decoding throughput work: lightweight correlation restores block-draft coherence with ~2.8% scoring overhead and leads throughput in 70/72 tested settings.",
+      "published_at": "2026-08-20T19:43:02Z",
+      "updated_at": "2026-08-20T19:43:02Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Speculative Decoding",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Swift-Image: Exploring the Performance Frontier of Compact Unified Image Generation Models",
       "venue": "",
       "topic": "image generation efficiency / pruning / few-step distillation",
@@ -1067,7 +1223,7 @@
       "tracking_tier": "P1 · Watch",
       "why": "Alibaba compact unified image-generation work with structural pruning to 3B and few-step distillation. Efficiency is meaningful, but the primary contribution is model/training design rather than systems/runtime, so retain as high-value watch rather than strong systems promotion.",
       "published_at": "2026-08-20T17:59:52Z",
-      "updated_at": "2026-08-20T17:59:52Z",
+      "updated_at": "2026-08-21T15:55:13Z",
       "is_latest_30d": true,
       "directions": [
         "Sparsity / Pruning",
@@ -1136,6 +1292,30 @@
       "updated_at": "2026-08-20T10:56:34Z",
       "is_latest_30d": true,
       "directions": [
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "BF1: A Causal Dyadic Sparse-Attention Retrofit for Efficient Long-Context Transformers",
+      "venue": "",
+      "topic": "llm_serving / kv / sparse",
+      "arxiv": "2608.20427",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.20427",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct long-context sparse-attention systems characterization with optimized BF16 kernel; 10.91x per-layer prefill speedup at 32K and up to 15.3% whole-model TTFT reduction in partial retrofit.",
+      "published_at": "2026-08-19T18:35:12Z",
+      "updated_at": "2026-08-19T18:35:12Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Sparsity / Pruning",
+        "Efficient Attention",
         "GPU Kernel / DSL / Compiler"
       ]
     },
@@ -1414,7 +1594,7 @@
       "tracking_tier": "P1 · Watch",
       "why": "Multi-agent kernel search produces leading SOL-ExecBench implementations spanning GEMM, MoE, NVFP4 attention and paged prefill; directly relevant to kernel/agent systems, pending broader independent validation.",
       "published_at": "2026-08-17T19:21:23Z",
-      "updated_at": "2026-08-17T19:21:23Z",
+      "updated_at": "2026-08-20T21:29:17Z",
       "is_latest_30d": true,
       "directions": [
         "LLM Serving",
@@ -2091,6 +2271,49 @@
     }
   ],
   "p2_relevant_low_priority": [
+    {
+      "title": "Memory Augmentation Unlocks Efficient Chain-of-Thought Reasoning",
+      "venue": "",
+      "topic": "llm_serving",
+      "arxiv": "2608.21265",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.21265",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Efficient-reasoning relevant training-free memory augmentation yields 1.14-1.49x latency speedup, but current contribution is primarily reasoning/compression methodology rather than systems infrastructure.",
+      "published_at": "2026-08-21T16:22:36Z",
+      "updated_at": "2026-08-21T16:22:36Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "ForeTime-VLA: Causal Future-Token Distillation from a World Action Model for Conveyor-Belt Manipulation",
+      "venue": "",
+      "topic": "llm_serving / multimodal / gen / physical",
+      "arxiv": "2608.20735",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.20735",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Physical-AI relevant future-token distillation avoids deploying the WAM teacher, but the reported policy itself adds ~2.46-2.93% latency; retain for route awareness rather than promote as efficiency work.",
+      "published_at": "2026-08-21T04:40:41Z",
+      "updated_at": "2026-08-21T04:40:41Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
     {
       "title": "Pandora's AI Model Routing Box: Efficient Allocation with Costly Value Estimation",
       "venue": "",
@@ -5479,6 +5702,162 @@
       ]
     },
     {
+      "title": "Just Noticeable Difference Modeling for Token Compression in Vision-Language-Action Models",
+      "venue": "",
+      "topic": "llm_serving / kv / sparse / multimodal / gen / physical",
+      "arxiv": "2608.21247",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.21247",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Physical-AI protected efficiency work: Action-JND provides action-tolerance-aware criteria for stale-KV reuse/token pruning on OpenVLA/OpenVLA-OFT; retain P1 pending stronger latency/system evidence.",
+      "published_at": "2026-08-21T15:59:37Z",
+      "updated_at": "2026-08-21T15:59:37Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "SPICE: Speculative Prefetching with Low-Rank Expert Surrogates and Heterogeneous Orchestration for MoE Inference Acceleration",
+      "venue": "",
+      "topic": "llm_serving / spec / moe / edge",
+      "arxiv": "2608.21240",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.21240",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct MoE inference-system contribution: speculative expert prefetch plus heterogeneous CPU/GPU recovery; reports up to 3.12x TPOT speedup on DeepSeek/Qwen MoE models.",
+      "published_at": "2026-08-21T15:50:46Z",
+      "updated_at": "2026-08-21T15:50:46Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Speculative Decoding",
+        "MoE Systems / Accelerators",
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Anchoring Instruction Outside Mask: Exact Reference Caching for Efficient In-Context Diffusion Transformers",
+      "venue": "",
+      "topic": "sparse / gen",
+      "arxiv": "2608.21229",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.21229",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct diffusion inference acceleration via exact reference K/V reuse with redesigned masking; reports 3.92x full 40-step denoising speedup at five references and 5.47x at ten.",
+      "published_at": "2026-08-21T15:37:23Z",
+      "updated_at": "2026-08-21T15:37:23Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Sparsity / Pruning",
+        "GPU Kernel / DSL / Compiler",
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "Llama-Mobile: Efficient 2.7-Bit Quantization of VLMs",
+      "venue": "",
+      "topic": "llm_serving / quant / multimodal",
+      "arxiv": "2608.21134",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.21134",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct mobile VLM deployment work: 2.7-bit format with efficient Arm CPU execution; compresses Llama-3.2-11B-Vision-Instruct to 3.7GB with 8-bit activations.",
+      "published_at": "2026-08-21T14:10:31Z",
+      "updated_at": "2026-08-21T14:10:31Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Multimodal / MLLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "TreeWY: Speculative Verification for Gated DeltaNet Hybrids",
+      "venue": "",
+      "topic": "llm_serving / spec",
+      "arxiv": "2608.20961",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.20961",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct speculative-serving systems work for Gated-DeltaNet hybrids: removes per-draft recurrent-state snapshots and reduces memory/KV pressure on Qwen3.5 35B/397B.",
+      "published_at": "2026-08-21T10:31:15Z",
+      "updated_at": "2026-08-21T10:31:15Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Speculative Decoding"
+      ]
+    },
+    {
+      "title": "Quantization-Aware Healing: A Practical Recipe for Recovering Compressed, 4-Bit LLMs",
+      "venue": "",
+      "topic": "llm_serving / kv / quant",
+      "arxiv": "2608.20953",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.20953",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct low-bit deployment recipe: quantization-aware healing for structurally compressed MXFP4 LLMs; roughly 4x lower weight memory and ~7x faster recovery than matched QAT peak.",
+      "published_at": "2026-08-21T10:19:27Z",
+      "updated_at": "2026-08-21T10:19:27Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization"
+      ]
+    },
+    {
+      "title": "LiLiCorr: Lightweight Likelihood Correlation of Parallel Drafts for Speculative Decoding",
+      "venue": "",
+      "topic": "llm_serving / spec / edge",
+      "arxiv": "2608.20530",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.20530",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct speculative decoding throughput work: lightweight correlation restores block-draft coherence with ~2.8% scoring overhead and leads throughput in 70/72 tested settings.",
+      "published_at": "2026-08-20T19:43:02Z",
+      "updated_at": "2026-08-20T19:43:02Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Speculative Decoding",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Swift-Image: Exploring the Performance Frontier of Compact Unified Image Generation Models",
       "venue": "",
       "topic": "image generation efficiency / pruning / few-step distillation",
@@ -5492,7 +5871,7 @@
       "tracking_tier": "P1 · Watch",
       "why": "Alibaba compact unified image-generation work with structural pruning to 3B and few-step distillation. Efficiency is meaningful, but the primary contribution is model/training design rather than systems/runtime, so retain as high-value watch rather than strong systems promotion.",
       "published_at": "2026-08-20T17:59:52Z",
-      "updated_at": "2026-08-20T17:59:52Z",
+      "updated_at": "2026-08-21T15:55:13Z",
       "is_latest_30d": true,
       "directions": [
         "Sparsity / Pruning",
@@ -5561,6 +5940,30 @@
       "updated_at": "2026-08-20T10:56:34Z",
       "is_latest_30d": true,
       "directions": [
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "BF1: A Causal Dyadic Sparse-Attention Retrofit for Efficient Long-Context Transformers",
+      "venue": "",
+      "topic": "llm_serving / kv / sparse",
+      "arxiv": "2608.20427",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.20427",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct long-context sparse-attention systems characterization with optimized BF16 kernel; 10.91x per-layer prefill speedup at 32K and up to 15.3% whole-model TTFT reduction in partial retrofit.",
+      "published_at": "2026-08-19T18:35:12Z",
+      "updated_at": "2026-08-19T18:35:12Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Sparsity / Pruning",
+        "Efficient Attention",
         "GPU Kernel / DSL / Compiler"
       ]
     },
@@ -5839,7 +6242,7 @@
       "tracking_tier": "P1 · Watch",
       "why": "Multi-agent kernel search produces leading SOL-ExecBench implementations spanning GEMM, MoE, NVFP4 attention and paged prefill; directly relevant to kernel/agent systems, pending broader independent validation.",
       "published_at": "2026-08-17T19:21:23Z",
-      "updated_at": "2026-08-17T19:21:23Z",
+      "updated_at": "2026-08-20T21:29:17Z",
       "is_latest_30d": true,
       "directions": [
         "LLM Serving",
@@ -6512,6 +6915,49 @@
         "Sparsity / Pruning",
         "Diffusion / Flow Acceleration",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Memory Augmentation Unlocks Efficient Chain-of-Thought Reasoning",
+      "venue": "",
+      "topic": "llm_serving",
+      "arxiv": "2608.21265",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.21265",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Efficient-reasoning relevant training-free memory augmentation yields 1.14-1.49x latency speedup, but current contribution is primarily reasoning/compression methodology rather than systems infrastructure.",
+      "published_at": "2026-08-21T16:22:36Z",
+      "updated_at": "2026-08-21T16:22:36Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "ForeTime-VLA: Causal Future-Token Distillation from a World Action Model for Conveyor-Belt Manipulation",
+      "venue": "",
+      "topic": "llm_serving / multimodal / gen / physical",
+      "arxiv": "2608.20735",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.20735",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Physical-AI relevant future-token distillation avoids deploying the WAM teacher, but the reported policy itself adds ~2.46-2.93% latency; retain for route awareness rather than promote as efficiency work.",
+      "published_at": "2026-08-21T04:40:41Z",
+      "updated_at": "2026-08-21T04:40:41Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {

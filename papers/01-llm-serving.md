@@ -1,13 +1,21 @@
 # 01 · LLM Serving
 
-> **394 canonical papers** mapped here, plus a broader **140-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **394 canonical papers** mapped here, plus a broader **149-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 140 tracked
+## 🆕 Latest 30 Days · 149 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
+| **P2 · Relevant** | **Memory Augmentation Unlocks Efficient Chain-of-Thought Reasoning** | Fresh / preprint | llm_serving | [Link](https://arxiv.org/abs/2608.21265) | — |
+| **P1 · Watch** | **Just Noticeable Difference Modeling for Token Compression in Vision-Language-Action Models** | Fresh / preprint | llm_serving / kv / sparse / multimodal / gen / physical | [Link](https://arxiv.org/abs/2608.21247) | — |
+| **P1 · Watch** | **SPICE: Speculative Prefetching with Low-Rank Expert Surrogates and Heterogeneous Orchestration for MoE Inference Acceleration** | Fresh / preprint | llm_serving / spec / moe / edge | [Link](https://arxiv.org/abs/2608.21240) | — |
+| **P1 · Watch** | **Llama-Mobile: Efficient 2.7-Bit Quantization of VLMs** | Fresh / preprint | llm_serving / quant / multimodal | [Link](https://arxiv.org/abs/2608.21134) | — |
+| **P1 · Watch** | **TreeWY: Speculative Verification for Gated DeltaNet Hybrids** | Fresh / preprint | llm_serving / spec | [Link](https://arxiv.org/abs/2608.20961) | — |
+| **P1 · Watch** | **Quantization-Aware Healing: A Practical Recipe for Recovering Compressed, 4-Bit LLMs** | Fresh / preprint | llm_serving / kv / quant | [Link](https://arxiv.org/abs/2608.20953) | — |
+| **P2 · Relevant** | **ForeTime-VLA: Causal Future-Token Distillation from a World Action Model for Conveyor-Belt Manipulation** | Fresh / preprint | llm_serving / multimodal / gen / physical | [Link](https://arxiv.org/abs/2608.20735) | — |
+| **P1 · Watch** | **LiLiCorr: Lightweight Likelihood Correlation of Parallel Drafts for Speculative Decoding** | Fresh / preprint | llm_serving / spec / edge | [Link](https://arxiv.org/abs/2608.20530) | — |
 | **P1 · Watch** | **Which Eviction Policy Should an LLM Cache Use? A Systematic Study Across Workloads, Capacities, and Encoders** | Fresh / preprint | LLM semantic cache / eviction policy / serving benchmark | [Link](https://arxiv.org/abs/2608.20280) | — |
 | **P1 · Watch** | **Learning how to Forget: Fine-tuning for Long-Context Sparse Attention** | Fresh / preprint | long-context / sparse attention / KV cache policy | [Link](https://arxiv.org/abs/2608.19920) | [Repo](https://github.com/awslabs/keys_values) |
 | **P2 · Relevant** | **EXIMO: VLM Guided Exploration of VLA Policies** | Fresh / preprint | multimodal / gen / physical | [Link](https://arxiv.org/abs/2608.19891) | — |
@@ -16,6 +24,7 @@
 | **P0 · Strong** | **A Thread-Register Decoupled GPU Execution Model for Efficient Tensor Computation** | Fresh / preprint | GPU execution architecture / tensor cores / LLM serving | [Link](https://arxiv.org/abs/2608.19628) | — |
 | **P2 · Relevant** | **OrthoSkillVLA: Continual Skill Learning via Gradient-Informed Skill Subspace Adaptation** | Fresh / preprint | llm_serving / multimodal / physical | [Link](https://arxiv.org/abs/2608.19589) | — |
 | **P0 · Strong** | **HYDRA: A Heterogeneous Chiplet DSE Framework for Serving Dynamic Hybrid LLM Workloads** | Fresh / preprint | LLM serving / heterogeneous chiplets / architecture-runtime co-design | [Link](https://arxiv.org/abs/2608.19395) | — |
+| **P1 · Watch** | **BF1: A Causal Dyadic Sparse-Attention Retrofit for Efficient Long-Context Transformers** | Fresh / preprint | llm_serving / kv / sparse | [Link](https://arxiv.org/abs/2608.20427) | — |
 | **P0 · Strong** | **Pre-Compiled Pipeline Shards for Distributed LLM Inference on Intel AI PC Fleets** | Fresh / preprint | distributed LLM inference / edge AI PC fleet / speculative decoding | [Link](https://arxiv.org/abs/2608.19147) | [Repo](https://github.com/labscommunity/pipeline-sharded-inference-paper) |
 | **P2 · Relevant** | **GS-VLA: Plug-and-Play Viewpoint Canonicalization for Frozen VLA Policies via Gaussian Splatting** | Fresh / preprint | Physical AI / VLA robustness / lightweight runtime module | [Link](https://arxiv.org/abs/2608.19066) | — |
 | **P2 · Relevant** | **APEX: A Dual-Sparsity Accelerator for Precise and Efficient SNN Inference** | Fresh / preprint | llm_serving / quant / sparse / gen / edge | [Link](https://arxiv.org/abs/2608.19046) | — |

@@ -1,18 +1,21 @@
 # 05 · Sparsity / Pruning
 
-> **141 canonical papers** mapped here, plus a broader **45-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **141 canonical papers** mapped here, plus a broader **48-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 45 tracked
+## 🆕 Latest 30 Days · 48 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
+| **P1 · Watch** | **Just Noticeable Difference Modeling for Token Compression in Vision-Language-Action Models** | Fresh / preprint | llm_serving / kv / sparse / multimodal / gen / physical | [Link](https://arxiv.org/abs/2608.21247) | — |
+| **P1 · Watch** | **Anchoring Instruction Outside Mask: Exact Reference Caching for Efficient In-Context Diffusion Transformers** | Fresh / preprint | sparse / gen | [Link](https://arxiv.org/abs/2608.21229) | — |
 | **P1 · Watch** | **Swift-Image: Exploring the Performance Frontier of Compact Unified Image Generation Models** | Fresh / preprint | image generation efficiency / pruning / few-step distillation | [Link](https://arxiv.org/abs/2608.20334) | — |
 | **P1 · Watch** | **Learning how to Forget: Fine-tuning for Long-Context Sparse Attention** | Fresh / preprint | long-context / sparse attention / KV cache policy | [Link](https://arxiv.org/abs/2608.19920) | [Repo](https://github.com/awslabs/keys_values) |
 | **P0 · Strong** | **FlashPrefill V2: Block-Sparse Prefill Attention for Long-Context LLM Serving** | Fresh / preprint | long-context LLM serving / block-sparse prefill attention / GPU kernel | [Link](https://arxiv.org/abs/2608.19758) | — |
 | **P0 · Strong** | **ReCache: Efficient KV Cache Reuse and Compression for Tool-Augmented LLM Agents** | Fresh / preprint | agent serving / KV cache reuse / compression | [Link](https://arxiv.org/abs/2608.19662) | [Repo](https://github.com/EIT-NLP/ReCache) |
 | **P2 · Relevant** | **S$^2$GS: Structured Sparse Gaussian Streaming for Efficient Free-Viewpoint Video Reconstruction on Edge-IoT Devices** | Fresh / preprint | edge AI / Gaussian streaming / sparse updates | [Link](https://arxiv.org/abs/2608.19639) | — |
+| **P1 · Watch** | **BF1: A Causal Dyadic Sparse-Attention Retrofit for Efficient Long-Context Transformers** | Fresh / preprint | llm_serving / kv / sparse | [Link](https://arxiv.org/abs/2608.20427) | — |
 | **P2 · Relevant** | **APEX: A Dual-Sparsity Accelerator for Precise and Efficient SNN Inference** | Fresh / preprint | llm_serving / quant / sparse / gen / edge | [Link](https://arxiv.org/abs/2608.19046) | — |
 | **P1 · Watch** | **Partition the Support, Reconstruct the Residual: Training-Free Sparse Attention for Video Generation and World Models** | Fresh / preprint | efficient attention / video generation / world models | [Link](https://arxiv.org/abs/2608.18484) | — |
 | **P1 · Watch** | **EDITBRIDGE: Towards Faithful and Efficient Ultra-High-Resolution Image Editing** | Fresh / preprint | image editing / diffusion / block-wise sparse attention | [Link](https://arxiv.org/abs/2608.18063) | — |

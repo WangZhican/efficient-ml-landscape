@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **894 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **201 visible papers = 47 P0 + 48 P1 + 106 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **894 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **211 visible papers = 47 P0 + 56 P1 + 108 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -56,16 +56,24 @@
 | **P0 · Strong** | **EasyBalance: Cross-Layer Load Balancing in Distributed MoE Inference** | ICML 2026 | MoE inference / expert parallelism / cross-layer load balancing | [Link](https://arxiv.org/abs/2608.07964) | [Repo](https://github.com/yize-wu/EasyInfra) |
 | **P0 · Strong** | **GyRot: Leveraging Hidden Synergy between Rotation and Fine-grained Group Quantization for Low-bit LLM Inference** | HPCA 2026 | low-bit LLM quantization / accelerator co-design | [Link](https://arxiv.org/abs/2607.27694) | — |
 
-## 🧭 P1 · Watch · 48
+## 🧭 P1 · Watch · 56
 
 > Clearly relevant and promising, but still awaiting stronger novelty, evidence, venue, or adoption validation.
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
+| **P1 · Watch** | **Just Noticeable Difference Modeling for Token Compression in Vision-Language-Action Models** | Fresh / preprint | llm_serving / kv / sparse / multimodal / gen / physical | [Link](https://arxiv.org/abs/2608.21247) | — |
+| **P1 · Watch** | **SPICE: Speculative Prefetching with Low-Rank Expert Surrogates and Heterogeneous Orchestration for MoE Inference Acceleration** | Fresh / preprint | llm_serving / spec / moe / edge | [Link](https://arxiv.org/abs/2608.21240) | — |
+| **P1 · Watch** | **Anchoring Instruction Outside Mask: Exact Reference Caching for Efficient In-Context Diffusion Transformers** | Fresh / preprint | sparse / gen | [Link](https://arxiv.org/abs/2608.21229) | — |
+| **P1 · Watch** | **Llama-Mobile: Efficient 2.7-Bit Quantization of VLMs** | Fresh / preprint | llm_serving / quant / multimodal | [Link](https://arxiv.org/abs/2608.21134) | — |
+| **P1 · Watch** | **TreeWY: Speculative Verification for Gated DeltaNet Hybrids** | Fresh / preprint | llm_serving / spec | [Link](https://arxiv.org/abs/2608.20961) | — |
+| **P1 · Watch** | **Quantization-Aware Healing: A Practical Recipe for Recovering Compressed, 4-Bit LLMs** | Fresh / preprint | llm_serving / kv / quant | [Link](https://arxiv.org/abs/2608.20953) | — |
+| **P1 · Watch** | **LiLiCorr: Lightweight Likelihood Correlation of Parallel Drafts for Speculative Decoding** | Fresh / preprint | llm_serving / spec / edge | [Link](https://arxiv.org/abs/2608.20530) | — |
 | **P1 · Watch** | **Swift-Image: Exploring the Performance Frontier of Compact Unified Image Generation Models** | Fresh / preprint | image generation efficiency / pruning / few-step distillation | [Link](https://arxiv.org/abs/2608.20334) | — |
 | **P1 · Watch** | **Which Eviction Policy Should an LLM Cache Use? A Systematic Study Across Workloads, Capacities, and Encoders** | Fresh / preprint | LLM semantic cache / eviction policy / serving benchmark | [Link](https://arxiv.org/abs/2608.20280) | — |
 | **P1 · Watch** | **Learning how to Forget: Fine-tuning for Long-Context Sparse Attention** | Fresh / preprint | long-context / sparse attention / KV cache policy | [Link](https://arxiv.org/abs/2608.19920) | [Repo](https://github.com/awslabs/keys_values) |
 | **P1 · Watch** | **Write Once, Run Everywhere: The Axon DSL for Shape-Safe and Framework-Agnostic LLM Architectures** | Fresh / preprint | GPU kernel / DSL / compiler | [Link](https://arxiv.org/abs/2608.19889) | — |
+| **P1 · Watch** | **BF1: A Causal Dyadic Sparse-Attention Retrofit for Efficient Long-Context Transformers** | Fresh / preprint | llm_serving / kv / sparse | [Link](https://arxiv.org/abs/2608.20427) | — |
 | **P1 · Watch** | **Partition the Support, Reconstruct the Residual: Training-Free Sparse Attention for Video Generation and World Models** | Fresh / preprint | efficient attention / video generation / world models | [Link](https://arxiv.org/abs/2608.18484) | — |
 | **P1 · Watch** | **Cacheable by Design? Training Mixture-of-Experts Routers for Locality Against the Edge Memory-Bandwidth Wall: A Pre-Registered Negative Result with a Systems Measurement Study** | Fresh / preprint | edge MoE serving / expert caching / memory bandwidth | [Link](https://arxiv.org/abs/2608.18261) | — |
 | **P1 · Watch** | **Hydra-0: Action Flow for Generalist World Modeling and Control** | Fresh / preprint | Physical AI / world-action modeling | [Link](https://arxiv.org/abs/2608.18077) | — |
@@ -111,12 +119,14 @@
 | **P1 · Watch** | **Omni-Prune: Query-Aware Unified Token Pruning for Efficient Omnimodal Large Language Models** | Fresh / preprint | llm_serving / sparse / edge | [Link](https://arxiv.org/abs/2607.23445) | — |
 | **P1 · Watch** | **Sparse by Command: Task-Conditional Compute Skipping for Multi-Task Inference Accelerators** | Fresh / preprint | llm_serving / quant / sparse / gen / edge | [Link](https://arxiv.org/abs/2607.22038) | — |
 
-## 📎 P2 · Relevant, lower priority · 106
+## 📎 P2 · Relevant, lower priority · 108
 
 > Directly in scope and therefore retained for recall, even when current quality/impact evidence is not strong enough for Watch or Canonical promotion.
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
+| **P2 · Relevant** | **Memory Augmentation Unlocks Efficient Chain-of-Thought Reasoning** | Fresh / preprint | llm_serving | [Link](https://arxiv.org/abs/2608.21265) | — |
+| **P2 · Relevant** | **ForeTime-VLA: Causal Future-Token Distillation from a World Action Model for Conveyor-Belt Manipulation** | Fresh / preprint | llm_serving / multimodal / gen / physical | [Link](https://arxiv.org/abs/2608.20735) | — |
 | **P2 · Relevant** | **Pandora's AI Model Routing Box: Efficient Allocation with Costly Value Estimation** | Fresh / preprint | edge / heterogeneous AI | [Link](https://arxiv.org/abs/2608.20316) | — |
 | **P2 · Relevant** | **Daedalus-150M: A Convolution-Attention Hybrid Designed for CPU Inference** | Fresh / preprint | generation acceleration | [Link](https://arxiv.org/abs/2608.20210) | — |
 | **P2 · Relevant** | **EXIMO: VLM Guided Exploration of VLA Policies** | Fresh / preprint | multimodal / gen / physical | [Link](https://arxiv.org/abs/2608.19891) | — |

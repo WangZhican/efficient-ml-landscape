@@ -1,13 +1,16 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **197 canonical papers** mapped here, plus a broader **69-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **197 canonical papers** mapped here, plus a broader **72-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 69 tracked
+## 🆕 Latest 30 Days · 72 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
+| **P1 · Watch** | **SPICE: Speculative Prefetching with Low-Rank Expert Surrogates and Heterogeneous Orchestration for MoE Inference Acceleration** | Fresh / preprint | llm_serving / spec / moe / edge | [Link](https://arxiv.org/abs/2608.21240) | — |
+| **P1 · Watch** | **Llama-Mobile: Efficient 2.7-Bit Quantization of VLMs** | Fresh / preprint | llm_serving / quant / multimodal | [Link](https://arxiv.org/abs/2608.21134) | — |
+| **P1 · Watch** | **LiLiCorr: Lightweight Likelihood Correlation of Parallel Drafts for Speculative Decoding** | Fresh / preprint | llm_serving / spec / edge | [Link](https://arxiv.org/abs/2608.20530) | — |
 | **P2 · Relevant** | **Pandora's AI Model Routing Box: Efficient Allocation with Costly Value Estimation** | Fresh / preprint | edge / heterogeneous AI | [Link](https://arxiv.org/abs/2608.20316) | — |
 | **P2 · Relevant** | **S$^2$GS: Structured Sparse Gaussian Streaming for Efficient Free-Viewpoint Video Reconstruction on Edge-IoT Devices** | Fresh / preprint | edge AI / Gaussian streaming / sparse updates | [Link](https://arxiv.org/abs/2608.19639) | — |
 | **P0 · Strong** | **HYDRA: A Heterogeneous Chiplet DSE Framework for Serving Dynamic Hybrid LLM Workloads** | Fresh / preprint | LLM serving / heterogeneous chiplets / architecture-runtime co-design | [Link](https://arxiv.org/abs/2608.19395) | — |

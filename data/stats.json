@@ -1,9 +1,9 @@
 {
   "unique_papers": 894,
-  "latest_30d_tracked_total": 201,
+  "latest_30d_tracked_total": 211,
   "latest_30d_quality_gated": 47,
-  "latest_30d_watchlist": 48,
-  "latest_30d_relevant_low_priority": 106,
+  "latest_30d_watchlist": 56,
+  "latest_30d_relevant_low_priority": 108,
   "classical_papers": 847,
   "latest_strong": 45,
   "papers_with_primary_link": 875,
@@ -26,6 +26,6 @@
     "VLA / WAM / Physical AI": 48,
     "Edge / Cloud / Heterogeneous AI": 197
   },
-  "source_date_beijing": "2026-08-24",
-  "updated_at_beijing": "2026-08-24T23:34:35+08:00"
+  "source_date_beijing": "2026-08-25",
+  "updated_at_beijing": "2026-08-25T00:12:40+08:00"
 }
