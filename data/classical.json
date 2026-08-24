@@ -7991,6 +7991,28 @@
     ]
   },
   {
+    "title": "A Queueing-Theoretic Framework for Stability Analysis of LLM Inference with KV Cache Memory Constraints",
+    "venue": "ICML 2026",
+    "topic": "LLM serving / KV cache memory / queueing / capacity provisioning",
+    "arxiv": "2605.04595",
+    "doi": "",
+    "official_id": "ICML2026_AQUEUEINGTHEORETICFRAMEWORKFORSTABILITYA",
+    "paper_url": "https://arxiv.org/abs/2605.04595",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026; first queueing framework explicitly coupling compute and KV-cache GPU memory constraints for LLM-serving stability and GPU provisioning; real-GPU validation error typically within 10%.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "A Unified Sparse Attention via Multi-Granularity Compression",
     "venue": "ICML 2026",
     "topic": "efficient attention / long-context inference",
@@ -8031,6 +8053,52 @@
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "ARC-Decode: Accelerated Decoding with Risk-Bounded Acceptance",
+    "venue": "ICML 2026",
+    "topic": "speculative decoding / risk-bounded acceptance / inference acceleration",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICML2026_ARCDECODEACCELERATEDDECODINGWITHRISKBOUN",
+    "paper_url": "https://github.com/NeuraLiying/ARC-Decode",
+    "code_url": "https://github.com/NeuraLiying/ARC-Decode",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Poster; training-free speculative decoding with risk-bounded acceptance and entropy-guided pruning; official implementation reports materially higher throughput than EAGLE-3 under sampling.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "Sparsity / Pruning"
+    ]
+  },
+  {
+    "title": "AREAL-DTA: Dynamic Tree Attention for Efficient Reinforcement Learning of Large Language Models",
+    "venue": "ICML 2026",
+    "topic": "distributed RL post-training / dynamic tree attention / prefix sharing",
+    "arxiv": "2602.00482",
+    "doi": "",
+    "official_id": "ICML2026_AREALDTADYNAMICTREEATTENTIONFOREFFICIENT",
+    "paper_url": "https://arxiv.org/abs/2602.00482",
+    "code_url": "https://areal-ai.io/",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 paper exploiting shared rollout prefixes with DFS dynamic tree attention and load-balanced multi-GPU batching; reports up to 8.31x training throughput on tau2-bench.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference",
       "Efficient Reasoning / Agents"
     ]
   },
@@ -8297,6 +8365,48 @@
     ]
   },
   {
+    "title": "ForesightKV: Optimizing KV Cache Eviction for Reasoning Models by Learning Long-Term Contribution",
+    "venue": "ICML 2026",
+    "topic": "KV cache eviction / reasoning-model serving / learned long-term contribution",
+    "arxiv": "2602.03203",
+    "doi": "",
+    "official_id": "2602.03203",
+    "paper_url": "https://arxiv.org/abs/2602.03203",
+    "code_url": "https://github.com/1190303125/ForesightKV",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 KV eviction method that learns future contribution for long reasoning traces; combines golden-eviction supervision and GRPO, outperforming prior eviction baselines under half-cache budgets.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "IndexMem: Learned KV-Cache Eviction with Latent Memory for Long-Context LLM Inference",
+    "venue": "ICML 2026",
+    "topic": "KV cache eviction / latent memory / bounded-memory long-context inference",
+    "arxiv": "2605.25475",
+    "doi": "",
+    "official_id": "2605.25475",
+    "paper_url": "https://arxiv.org/abs/2605.25475",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 learned KV-eviction framework with a latent-memory residual path for evicted tokens; improves long-context retrieval and RULER/LongBench under bounded cache budgets, with up to 25-point gains under aggressive eviction.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context"
+    ]
+  },
+  {
     "title": "InfoFlow KV: Information-Flow-Aware KV Recomputation for Long Context",
     "venue": "ICML 2026",
     "topic": "KV cache / long-context RAG / selective recomputation",
@@ -8362,6 +8472,49 @@
     ]
   },
   {
+    "title": "LRAgent: Efficient KV Cache Sharing for Multi-LoRA LLM Agents",
+    "venue": "ICML 2026",
+    "topic": "KV cache sharing / multi-LoRA agent serving / Flash-LoRA-Attention",
+    "arxiv": "2602.01053",
+    "doi": "",
+    "official_id": "2602.01053",
+    "paper_url": "https://arxiv.org/abs/2602.01053",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Multi-LoRA agent serving framework that decomposes KV cache into a shared base component plus low-rank adapter-dependent cache; reports up to 2.46x throughput, 4.44x TTFT reduction and about 3x KV-cache memory reduction while preserving accuracy.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Attention",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "ManifoldKV: Training-Free KV Cache Compression via Euclidean Outlier Detection",
+    "venue": "ICML 2026",
+    "topic": "KV cache compression / training-free eviction / long-context inference",
+    "arxiv": "2602.08343",
+    "doi": "",
+    "official_id": "2602.08343",
+    "paper_url": "https://arxiv.org/abs/2602.08343",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 training-free KV compression using Euclidean outlier detection; improves multi-key retrieval robustness and restores 64K-context performance with windowed scoring while requiring minimal implementation changes.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context"
+    ]
+  },
+  {
     "title": "OServe: Accelerating LLM Serving via Spatial-Temporal Workload Orchestration",
     "venue": "ICML 2026",
     "topic": "LLM serving / heterogeneous deployment / scheduling",
@@ -8403,6 +8556,49 @@
       "KV Cache / Long Context",
       "Efficient Attention",
       "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "PipeSD: An Efficient Cloud-Edge Collaborative Pipeline Inference Framework with Speculative Decoding",
+    "venue": "ICML 2026",
+    "topic": "cloud-edge LLM inference / speculative decoding / pipeline scheduling",
+    "arxiv": "2605.13319",
+    "doi": "",
+    "official_id": "ICML2026_PIPESDANEFFICIENTCLOUDEDGECOLLABORATIVEP",
+    "paper_url": "https://arxiv.org/abs/2605.13319",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026; real cloud-edge testbed combining token-batch pipelining and adaptive verification triggering; reports 1.16x-2.16x speedup and 14.3%-25.3% energy reduction.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "ProphetKV: User-Query-Driven Selective Recomputation for Efficient KV Cache Reuse in Retrieval-Augmented Generation",
+    "venue": "ICML 2026",
+    "topic": "KV cache reuse / RAG serving / selective recomputation",
+    "arxiv": "2602.02579",
+    "doi": "",
+    "official_id": "2602.02579",
+    "paper_url": "https://arxiv.org/abs/2602.02579",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 query-driven KV-cache reuse for RAG; dedicates recomputation budget to query-relevant tokens and reports 96-101% of full-prefill accuracy at only 20% recomputation while outperforming CacheBlend/EPIC/KVShare on RULER and LongBench.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context"
     ]
   },
   {
@@ -8474,6 +8670,48 @@
     ]
   },
   {
+    "title": "RACER: Risk-Aware Calibrated Efficient Routing for Large Language Models",
+    "venue": "ICML 2026",
+    "topic": "LLM routing / cost-performance / calibrated model selection",
+    "arxiv": "2603.06616",
+    "doi": "",
+    "official_id": "ICML2026_RACERRISKAWARECALIBRATEDEFFICIENTROUTING",
+    "paper_url": "https://arxiv.org/abs/2603.06616",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026; risk-calibrated routing for heterogeneous LLM systems, minimizing expected routed set size while controlling misrouting risk with distribution-free guarantees.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "RelayCaching: Accelerating LLM Collaboration via Decoding KV Cache Reuse",
+    "venue": "ICML 2026",
+    "topic": "multi-agent LLM serving / decoding-KV reuse / prefill acceleration",
+    "arxiv": "2603.13289",
+    "doi": "",
+    "official_id": "2603.13289",
+    "paper_url": "https://arxiv.org/abs/2603.13289",
+    "code_url": "https://github.com/YingshengGeng/RelayCaching",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 multi-agent inference method that reuses upstream decoding-phase KV caches in downstream prefill, with selective layer/token rectification and hidden-state relay to cut redundant prefill work while preserving quality.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "ReQAT: Achieving Full-Precision Reasoning Accuracy with 4-bit Floating-Point Quantization-Aware Training",
     "venue": "ICML 2026",
     "topic": "quantization / reasoning inference / W4A4KV4 / QAT",
@@ -8493,6 +8731,26 @@
       "LLM Serving",
       "Quantization",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "Rethinking KV Cache Eviction via a Unified Information-Theoretic Objective",
+    "venue": "ICML 2026",
+    "topic": "KV cache eviction / information bottleneck / long-context inference",
+    "arxiv": "2604.25975",
+    "doi": "",
+    "official_id": "ICML2026_RETHINKINGKVCACHEEVICTIONVIAAUNIFIEDINFO",
+    "paper_url": "https://arxiv.org/abs/2604.25975",
+    "code_url": "https://github.com/jiamingyy/CapKV",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026; unifies KV eviction heuristics via an information-capacity objective and introduces CapKV using leverage-score approximation; improves memory/fidelity trade-offs across long-context benchmarks.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context"
     ]
   },
   {
