@@ -8321,6 +8321,28 @@
     ]
   },
   {
+    "title": "DARTS: Distribution-Aware Active Rollout Trajectory Shaping for Accelerating LLM Reinforcement Learning",
+    "venue": "ICML 2026",
+    "topic": "LLM RL systems / rollout efficiency / distributed post-training",
+    "arxiv": "2605.30859",
+    "doi": "",
+    "official_id": "ICML2026_DARTS",
+    "paper_url": "https://arxiv.org/abs/2605.30859",
+    "code_url": "https://github.com/AFDWang/DARTS",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026; distribution-aware rollout trajectory shaping plus adaptive redundancy allocation and token-level rollout/training overlap; experiments scale to 64 H20 GPUs and report up to 1.77x end-to-end acceleration without model-quality loss.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "Decouple and Cache: KV Cache Construction for Streaming Video Understanding",
     "venue": "ICML 2026",
     "topic": "multimodal serving / streaming video / KV cache",
@@ -8790,6 +8812,29 @@
     ]
   },
   {
+    "title": "Less Is More: Training-Free Sparse Attention with Global Locality for Efficient Reasoning",
+    "venue": "ICML 2026",
+    "topic": "efficient reasoning / sparse attention / KV-cache decoding",
+    "arxiv": "2508.07101",
+    "doi": "",
+    "official_id": "ICML2026_LESSISMORE",
+    "paper_url": "https://arxiv.org/abs/2508.07101",
+    "code_url": "https://github.com/DerrickYLJ/LessIsMore",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026; training-free cross-head unified sparse attention for long reasoning. Official author/Princeton pages confirm acceptance; reports lossless AIME-24 accuracy with up to 87.5% fewer attended tokens and about 1.13x end-to-end generation speedup.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "LFQ: Logit-aware Final-block Quantization for Boosting the Generation Quality of Low-Bit Quantized LLMs",
     "venue": "ICML 2026",
     "topic": "LLM quantization / PTQ / long-form generation quality",
@@ -8959,6 +9004,30 @@
       "LLM Serving",
       "Speculative Decoding",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Prism: Spectral-Aware Block-Sparse Attention",
+    "venue": "ICML 2026",
+    "topic": "efficient attention / long-context prefill / Triton kernels",
+    "arxiv": "2602.08426",
+    "doi": "",
+    "official_id": "ICML2026_PRISM_SPECTRAL",
+    "paper_url": "https://arxiv.org/abs/2602.08426",
+    "code_url": "https://github.com/xinghaow99/prism",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026; training-free spectral-aware block-sparse attention with custom Triton kernels, reporting up to 5.1x speedup at 128K context with negligible accuracy loss.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {
@@ -9183,6 +9252,26 @@
     ]
   },
   {
+    "title": "Scheduling LLM Inference with Uncertainty-Aware Output Length Predictions",
+    "venue": "ICML 2026",
+    "topic": "LLM serving / uncertainty-aware scheduling / output-length prediction",
+    "arxiv": "2604.00499",
+    "doi": "",
+    "official_id": "ICML2026_TIE_SCHED",
+    "paper_url": "https://arxiv.org/abs/2604.00499",
+    "code_url": "https://github.com/Hyzheng-code/TIE",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026; vLLM-integrated risk-sensitive SJF scheduling using log-t output-length distributions and Tail Inflated Expectation; reports 2.31x lower per-token latency versus the strongest scheduling baseline and 1.42x higher offline data-generation throughput.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving"
+    ]
+  },
+  {
     "title": "Scout Before You Attend: Sketch-and-Walk Sparse Attention for Efficient LLM Inference",
     "venue": "ICML 2026",
     "topic": "efficient attention / long-context inference",
@@ -9269,6 +9358,30 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Sparsity / Pruning"
+    ]
+  },
+  {
+    "title": "Sparser Block-Sparse Attention via Token Permutation",
+    "venue": "ICML 2026",
+    "topic": "efficient attention / block-sparse prefill / custom attention kernels",
+    "arxiv": "2510.21270",
+    "doi": "",
+    "official_id": "ICML2026_PBSATTN",
+    "paper_url": "https://arxiv.org/abs/2510.21270",
+    "code_url": "https://github.com/xinghaow99/pbs-attn",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Poster; permutation-enhanced block sparsity with custom permuted-FlashAttention kernels, reporting up to 2.75x end-to-end long-context prefill speedup while closely matching full-attention accuracy.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {
