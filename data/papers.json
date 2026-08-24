@@ -9598,6 +9598,27 @@
     ]
   },
   {
+    "title": "xKV: Cross-Layer KV-Cache Compression via Aligned Singular Vector Extraction",
+    "venue": "ICML 2026",
+    "topic": "KV cache compression / long-context inference / cross-layer low-rank factorization",
+    "arxiv": "2503.18893",
+    "doi": "",
+    "official_id": "ICML2026_XKVCROSSLAYERKVCACHECOMPRESSIONVIAALIGNEDSINGULAR",
+    "paper_url": "https://arxiv.org/abs/2503.18893",
+    "code_url": "https://github.com/abdelfattah-lab/xKV",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 regular paper; cross-layer aligned singular-vector factorization compresses grouped-layer KV caches by up to 8x; xKV-SR reports up to 4.23x end-to-end speedup and 30% higher throughput at similar accuracy.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context"
+    ]
+  },
+  {
     "title": "Adaptive Capacity Allocation for Vision Language Action Fine-tuning",
     "venue": "ICRA 2026",
     "topic": "Physical AI / VLA parameter-efficient fine-tuning / adaptive LoRA",

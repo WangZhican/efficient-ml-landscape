@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **830 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **200 visible papers = 47 P0 + 47 P1 + 106 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **831 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **200 visible papers = 47 P0 + 47 P1 + 106 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -223,9 +223,9 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 783
+## 🏛️ Classical / Historical · 784
 
-### ICML 2026 · 71
+### ICML 2026 · 72
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -300,6 +300,7 @@
 | **Canonical** | **Understand and Accelerate Memory Processing Pipeline for Large Language Model Inference** | ICML 2026 | LLM memory processing / GPU-FPGA heterogeneous acceleration | [Link](https://arxiv.org/abs/2603.29002) | — |
 | **Canonical** | **WarmServe: Enabling One-for-Many GPU Prewarming for Multi-LLM Serving** | ICML 2026 | LLM serving / multi-model autoscaling / GPU prewarming / KV-cache-aware memory management | [Link](https://arxiv.org/abs/2512.09472) | — |
 | **Canonical** | **When RL Meets Adaptive Speculative Training: A Unified Training-Serving System** | ICML 2026 | speculative decoding / online speculator training / RL systems / SGLang serving | [Link](https://arxiv.org/abs/2602.06932) | — |
+| **Canonical** | **xKV: Cross-Layer KV-Cache Compression via Aligned Singular Vector Extraction** | ICML 2026 | KV cache compression / long-context inference / cross-layer low-rank factorization | [Link](https://arxiv.org/abs/2503.18893) | [Repo](https://github.com/abdelfattah-lab/xKV) |
 
 ### ISCA 2026 · 43
 

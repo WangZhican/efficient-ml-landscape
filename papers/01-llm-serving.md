@@ -1,6 +1,6 @@
 # 01 · LLM Serving
 
-> **361 canonical papers** mapped here, plus a broader **139-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **362 canonical papers** mapped here, plus a broader **139-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -148,7 +148,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 340 canonical
+## 🏛️ Classical / Historical · 341 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -328,6 +328,7 @@
 | **Canonical** | **Threshold-Based Exclusive Batching for LLM Inference** | ICML 2026 | LLM serving / batching / hardware-aware scheduling / prefill-decode tradeoff | [Link](https://arxiv.org/abs/2606.00516) | [Repo](https://github.com/weifang231/eb-vllm) |
 | **Canonical** | **WarmServe: Enabling One-for-Many GPU Prewarming for Multi-LLM Serving** | ICML 2026 | LLM serving / multi-model autoscaling / GPU prewarming / KV-cache-aware memory management | [Link](https://arxiv.org/abs/2512.09472) | — |
 | **Canonical** | **When RL Meets Adaptive Speculative Training: A Unified Training-Serving System** | ICML 2026 | speculative decoding / online speculator training / RL systems / SGLang serving | [Link](https://arxiv.org/abs/2602.06932) | — |
+| **Canonical** | **xKV: Cross-Layer KV-Cache Compression via Aligned Singular Vector Extraction** | ICML 2026 | KV cache compression / long-context inference / cross-layer low-rank factorization | [Link](https://arxiv.org/abs/2503.18893) | [Repo](https://github.com/abdelfattah-lab/xKV) |
 | **Canonical** | **RotateKV: Accurate and Robust 2-Bit KV Cache Quantization for LLMs via Outlier-Aware Adaptive Rotations** | IJCAI 2025 | KV-cache quantization / low-bit inference | [Link](https://arxiv.org/abs/2501.16383) | — |
 | **Canonical** | **Semi-Clairvoyant Scheduling of Speculative Decoding Requests to Minimize LLM Inference Latency** | IJCAI 2025 | speculative decoding / request scheduling / LLM serving | [Link](https://doi.org/10.24963/ijcai.2025/951) | — |
 | **Canonical** | **PD-VLA: Accelerating Vision-Language-Action Model Integrated with Action Chunking via Parallel Decoding** | IROS 2025 | VLA / Physical AI serving / action decoding acceleration | [Link](https://arxiv.org/abs/2503.02310) | — |

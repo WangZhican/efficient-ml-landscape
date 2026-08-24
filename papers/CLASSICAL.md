@@ -1,10 +1,10 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **783 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **784 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
-## ICML 2026 · 71
+## ICML 2026 · 72
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -79,6 +79,7 @@
 | **Canonical** | **Understand and Accelerate Memory Processing Pipeline for Large Language Model Inference** | ICML 2026 | LLM memory processing / GPU-FPGA heterogeneous acceleration | [Link](https://arxiv.org/abs/2603.29002) | — |
 | **Canonical** | **WarmServe: Enabling One-for-Many GPU Prewarming for Multi-LLM Serving** | ICML 2026 | LLM serving / multi-model autoscaling / GPU prewarming / KV-cache-aware memory management | [Link](https://arxiv.org/abs/2512.09472) | — |
 | **Canonical** | **When RL Meets Adaptive Speculative Training: A Unified Training-Serving System** | ICML 2026 | speculative decoding / online speculator training / RL systems / SGLang serving | [Link](https://arxiv.org/abs/2602.06932) | — |
+| **Canonical** | **xKV: Cross-Layer KV-Cache Compression via Aligned Singular Vector Extraction** | ICML 2026 | KV cache compression / long-context inference / cross-layer low-rank factorization | [Link](https://arxiv.org/abs/2503.18893) | [Repo](https://github.com/abdelfattah-lab/xKV) |
 
 ## ISCA 2026 · 43
 
