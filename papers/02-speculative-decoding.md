@@ -1,6 +1,6 @@
 # 02 · Speculative Decoding
 
-> **128 canonical papers** mapped here, plus a broader **18-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **129 canonical papers** mapped here, plus a broader **18-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -27,7 +27,7 @@
 | **P2 · Relevant** | **DraftExpert: Expansion-Aware Self-Speculative Decoding for End-Device MoE Inference** | Fresh / preprint | llm_serving / spec / moe / edge | [Link](https://arxiv.org/abs/2607.24434) | — |
 | **P2 · Relevant** | **SpecBox: Speculative Sandbox Scheduling for Efficient LLM Agent Serving** | Fresh / preprint | llm_serving / agent | [Link](https://arxiv.org/abs/2607.23933) | — |
 
-## 🏛️ Classical / Historical · 126 canonical
+## 🏛️ Classical / Historical · 127 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -121,6 +121,7 @@
 | **Canonical** | **SpecForge: A Flexible and Efficient Open-Source Training Framework for Speculative Decoding** | ICML 2026 | speculative decoding / draft-model training infrastructure / SGLang | [Link](https://arxiv.org/abs/2603.18567) | [Repo](https://github.com/sgl-project/SpecForge) |
 | **Canonical** | **SpecMD: A Comprehensive Study On Speculative Expert Prefetching** | ICML 2026 | MoE systems / expert caching / speculative prefetching | [Link](https://arxiv.org/abs/2602.03921) | — |
 | **Canonical** | **SpecPrune-VLA: Accelerating Vision-Language-Action Models via Action-Aware Self-Speculative Pruning** | ICML 2026 | Physical AI / VLA inference / token pruning / self-speculative acceleration | [Link](https://arxiv.org/abs/2509.05614) | [Repo](https://github.com/alexwhz-sjtu/SpecPrune-VLA) |
+| **Canonical** | **SpecSA: Bridging Speculative Decoding and Sparse Attention for Efficient LLM Inference** | ICML 2026 | speculative decoding / sparse attention / long-context LLM inference / GPU kernels | [Link](https://arxiv.org/abs/2605.19893) | — |
 | **Canonical** | **Speculative Coupled Decoding for Training-Free Lossless Acceleration of Autoregressive Visual Generation** | ICML 2026 | speculative decoding / autoregressive image-video generation / lossless visual generation acceleration | [Link](https://arxiv.org/abs/2510.24211) | [Repo](https://github.com/junhyukso/SCD) |
 | **Canonical** | **VidLaDA: Bidirectional Diffusion Large Language Models for Efficient Video Understanding** | ICML 2026 | multimodal / video LLM / diffusion language model / MARS-Cache / parallel decoding | [Link](https://arxiv.org/abs/2601.17868) | [Repo](https://github.com/ziHoHe/VidLaDA) |
 | **Canonical** | **When Drafts Evolve: Speculative Decoding Meets Online Learning** | ICML 2026 | speculative decoding / online draft adaptation / inference acceleration | [Link](https://arxiv.org/abs/2603.12617) | [Repo](https://github.com/ZinYY/OnlineSPEC) |

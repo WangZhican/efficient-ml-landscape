@@ -1,6 +1,6 @@
 # 06 · Efficient Attention
 
-> **130 canonical papers** mapped here, plus a broader **37-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **132 canonical papers** mapped here, plus a broader **37-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -46,7 +46,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 121 canonical
+## 🏛️ Classical / Historical · 123 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -132,9 +132,11 @@
 | **Canonical** | **ParisKV: Fast and Drift-Robust KV-Cache Retrieval for Long-Context LLMs** | ICML 2026 | KV cache / long-context inference / GPU retrieval / CPU offload | [Link](https://arxiv.org/abs/2602.07721) | — |
 | **Canonical** | **Prism: Spectral-Aware Block-Sparse Attention** | ICML 2026 | efficient attention / long-context prefill / Triton kernels | [Link](https://arxiv.org/abs/2602.08426) | [Repo](https://github.com/xinghaow99/prism) |
 | **Canonical** | **RaBitQCache: Rotated Binary Quantization for KVCache in Long Context LLM Inference** | ICML 2026 | KV cache / sparse attention / binary-INT4 proxy / long-context inference | [Link](https://arxiv.org/abs/2606.31519) | [Repo](https://github.com/Sakuraaa0/RaBitQCache) |
+| **Canonical** | **Reflex: Real-Time Vision-Language-Action Control through Streaming Inference** | ICML 2026 | Physical AI / VLA serving / streaming inference / KV cache / operator fusion | [Link](https://arxiv.org/abs/2607.14695) | [Repo](https://github.com/9yc/Reflex) |
 | **Canonical** | **SALE : Low-bit Estimation for Efficient Sparse Attention in Long-context LLM Prefilling** | ICML 2026 | efficient attention / low-bit estimation / long-context prefill | [Link](https://arxiv.org/abs/2505.24179) | — |
 | **Canonical** | **Scout Before You Attend: Sketch-and-Walk Sparse Attention for Efficient LLM Inference** | ICML 2026 | efficient attention / long-context inference | [Link](https://arxiv.org/abs/2602.07397) | — |
 | **Canonical** | **Sparser Block-Sparse Attention via Token Permutation** | ICML 2026 | efficient attention / block-sparse prefill / custom attention kernels | [Link](https://arxiv.org/abs/2510.21270) | [Repo](https://github.com/xinghaow99/pbs-attn) |
+| **Canonical** | **SpecSA: Bridging Speculative Decoding and Sparse Attention for Efficient LLM Inference** | ICML 2026 | speculative decoding / sparse attention / long-context LLM inference / GPU kernels | [Link](https://arxiv.org/abs/2605.19893) | — |
 | **Canonical** | **STAR-KV: Low-Rank KV Cache Compression via Soft Thresholding for Adaptive Rank Control** | ICML 2026 | KV cache / low-rank compression / mixed-precision quantization / Triton kernel | [Link](https://arxiv.org/abs/2606.08382) | [Repo](https://github.com/PriyanshBhatnagar/STAR-KV) |
 | **Canonical** | **Stochastic Sparse Attention for Memory-Bound Inference** | ICML 2026 | sparse attention / memory-bound decoding / stochastic KV access | [Link](https://arxiv.org/abs/2605.01910) | [Repo](https://github.com/OPUSLab/SANTA) |
 | **Canonical** | **TileSparse: Arithmetic-Intensity-Aware Sparse Attention for Compute-Bound LLM Decoding** | ICML 2026 | LLM serving / sparse attention / decoding kernel / arithmetic-intensity-aware execution | — | [Repo](https://github.com/ASISys/TileSparse) |

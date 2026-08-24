@@ -1,6 +1,6 @@
 # 07 · MoE Systems / Accelerators
 
-> **62 canonical papers** mapped here, plus a broader **23-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **63 canonical papers** mapped here, plus a broader **23-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -32,7 +32,7 @@
 | **P2 · Relevant** | **DraftExpert: Expansion-Aware Self-Speculative Decoding for End-Device MoE Inference** | Fresh / preprint | llm_serving / spec / moe / edge | [Link](https://arxiv.org/abs/2607.24434) | — |
 | **P2 · Relevant** | **Decoding the Skew: Distribution-Aware MoE Inference with Adaptive Kernel Dispatch** | Fresh / preprint | llm_serving / moe | [Link](https://arxiv.org/abs/2607.23099) | — |
 
-## 🏛️ Classical / Historical · 56 canonical
+## 🏛️ Classical / Historical · 57 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -61,6 +61,7 @@
 | **Canonical** | **Attribution-Guided and Coverage-Maximized Pruning for Structural MoE Compression** | ICML 2026 | MoE compression / structured pruning / quantization / deployment memory | [Link](https://arxiv.org/abs/2606.18304) | [Repo](https://github.com/yifu-ding/MoE-Slimming) |
 | **Canonical** | **Prism-MoE: Efficient Dense-to-MoE Conversion for Visual Autoregressive Generation** | ICML 2026 | MoE systems / visual autoregressive generation / sparse activation / efficient model conversion | — | [Repo](https://github.com/NeuraLiying/Prism-MoE) |
 | **Canonical** | **PuzzleMoE: Efficient Compression of Large Mixture-of-Experts Models via Sparse Expert Merging and Bit-packed inference** | ICML 2026 | MoE compression / sparse expert merging / bit-packed inference | [Link](https://arxiv.org/abs/2511.04805) | — |
+| **Canonical** | **ReMoE: Boosting Expert Reuse through Router Fine-Tuning in Memory-Constrained MoE LLM Inference** | ICML 2026 | MoE serving / expert offload / edge inference / cache locality | [Link](https://arxiv.org/abs/2605.27081) | [Repo](https://github.com/BUAA-OSCAR/ReMoE) |
 | **Canonical** | **SpecMD: A Comprehensive Study On Speculative Expert Prefetching** | ICML 2026 | MoE systems / expert caching / speculative prefetching | [Link](https://arxiv.org/abs/2602.03921) | — |
 | **Canonical** | **ZipMoE: Efficient On-Device MoE Serving via Lossless Compression and Cache-Affinity Scheduling** | ICML 2026 | MoE serving / on-device inference / lossless compression / cache-affinity scheduling | [Link](https://arxiv.org/abs/2601.21198) | — |
 | **Canonical** | **Accelerating MoE with Dynamic In-Switch Computing on Multi-GPUs** | ISCA 2026 | MoE / multi-GPU / in-switch computing | — | — |

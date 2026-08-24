@@ -9565,6 +9565,29 @@
     ]
   },
   {
+    "title": "Motion-Aware Caching for Efficient Autoregressive Video Generation",
+    "venue": "ICML 2026",
+    "topic": "autoregressive video generation / cache reuse / diffusion acceleration",
+    "arxiv": "2605.01725",
+    "doi": "",
+    "official_id": "2605.01725",
+    "paper_url": "https://arxiv.org/abs/2605.01725",
+    "code_url": "https://github.com/ywlq/MotionCache",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. MotionCache uses token-level motion-aware cache reuse instead of coarse chunk skipping; reports 6.28x on SkyReels-V2 and 1.64x on MAGI-1 with very small quality loss.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "GPU Kernel / DSL / Compiler",
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "Multipole Semantic Attention: A Fast Approximation of Softmax Attention for Pretraining",
     "venue": "ICML 2026",
     "topic": "efficient attention / long-context pretraining / attention approximation",
@@ -10123,6 +10146,31 @@
     ]
   },
   {
+    "title": "Reflex: Real-Time Vision-Language-Action Control through Streaming Inference",
+    "venue": "ICML 2026",
+    "topic": "Physical AI / VLA serving / streaming inference / KV cache / operator fusion",
+    "arxiv": "2607.14695",
+    "doi": "",
+    "official_id": "2607.14695",
+    "paper_url": "https://arxiv.org/abs/2607.14695",
+    "code_url": "https://github.com/9yc/Reflex",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. Real-time streaming inference framework for flow-matching VLAs using partitioned attention with O(1) incremental KV updates, async vision/action pipeline, operator fusion and static memory; reports 2.58x inference speedup, 50Hz stable streaming, and up to 54% lower reaction latency.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler",
+      "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "RelayCaching: Accelerating LLM Collaboration via Decoding KV Cache Reuse",
     "venue": "ICML 2026",
     "topic": "multi-agent LLM serving / decoding-KV reuse / prefill acceleration",
@@ -10142,6 +10190,29 @@
       "LLM Serving",
       "KV Cache / Long Context",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "ReMoE: Boosting Expert Reuse through Router Fine-Tuning in Memory-Constrained MoE LLM Inference",
+    "venue": "ICML 2026",
+    "topic": "MoE serving / expert offload / edge inference / cache locality",
+    "arxiv": "2605.27081",
+    "doi": "",
+    "official_id": "2605.27081",
+    "paper_url": "https://arxiv.org/abs/2605.27081",
+    "code_url": "https://github.com/BUAA-OSCAR/ReMoE",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. Router fine-tuning increases temporal expert reuse for memory-constrained MoE serving; real systems show +8.4% vLLM offload throughput and 1.77-1.99x Jetson Orin NX decode speedup.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "MoE Systems / Accelerators",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -10752,6 +10823,31 @@
       "Sparsity / Pruning",
       "Multimodal / MLLM Serving",
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "SpecSA: Bridging Speculative Decoding and Sparse Attention for Efficient LLM Inference",
+    "venue": "ICML 2026",
+    "topic": "speculative decoding / sparse attention / long-context LLM inference / GPU kernels",
+    "arxiv": "2605.19893",
+    "doi": "",
+    "official_id": "2605.19893",
+    "paper_url": "https://arxiv.org/abs/2605.19893",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. Co-designs speculative verification with dynamic sparse attention using grouped-query execution, refresh/reuse kernel fusion, and prompt-adaptive orchestration; reports up to 3.49x end-to-end throughput and 6.86x sparse-verification kernel speedup on H100.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {

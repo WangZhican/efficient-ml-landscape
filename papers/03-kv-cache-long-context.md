@@ -1,6 +1,6 @@
 # 03 · KV Cache / Long Context
 
-> **250 canonical papers** mapped here, plus a broader **35-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **254 canonical papers** mapped here, plus a broader **35-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -44,7 +44,7 @@
 | **P2 · Relevant** | **DualDecoder: Accelerate Long Context LLM Inference by Predictive Prefetch** | Fresh / preprint | LLM serving; KV cache / long context; agent systems | [Link](https://arxiv.org/abs/2607.26475) | — |
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 
-## 🏛️ Classical / Historical · 240 canonical
+## 🏛️ Classical / Historical · 244 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -187,6 +187,7 @@
 | **Canonical** | **Less Is More: Training-Free Sparse Attention with Global Locality for Efficient Reasoning** | ICML 2026 | efficient reasoning / sparse attention / KV-cache decoding | [Link](https://arxiv.org/abs/2508.07101) | [Repo](https://github.com/DerrickYLJ/LessIsMore) |
 | **Canonical** | **LRAgent: Efficient KV Cache Sharing for Multi-LoRA LLM Agents** | ICML 2026 | KV cache sharing / multi-LoRA agent serving / Flash-LoRA-Attention | [Link](https://arxiv.org/abs/2602.01053) | — |
 | **Canonical** | **ManifoldKV: Training-Free KV Cache Compression via Euclidean Outlier Detection** | ICML 2026 | KV cache compression / training-free eviction / long-context inference | [Link](https://arxiv.org/abs/2602.08343) | — |
+| **Canonical** | **Motion-Aware Caching for Efficient Autoregressive Video Generation** | ICML 2026 | autoregressive video generation / cache reuse / diffusion acceleration | [Link](https://arxiv.org/abs/2605.01725) | [Repo](https://github.com/ywlq/MotionCache) |
 | **Canonical** | **Multipole Semantic Attention: A Fast Approximation of Softmax Attention for Pretraining** | ICML 2026 | efficient attention / long-context pretraining / attention approximation | [Link](https://arxiv.org/abs/2509.10406) | — |
 | **Canonical** | **OBCache: Optimal Brain KV Cache Pruning for Efficient Long-Context LLM Inference** | ICML 2026 | KV cache / long-context inference / output-aware eviction / pruning | [Link](https://arxiv.org/abs/2510.07651) | [Repo](https://github.com/DreamSoul-AI/OBCache) |
 | **Canonical** | **Online Linear Programming for Multi-Objective Routing in LLM Serving** | ICML 2026 | LLM serving / request routing / SLO optimization / KV-cache-aware scheduling | [Link](https://arxiv.org/abs/2607.03948) | — |
@@ -198,11 +199,14 @@
 | **Canonical** | **ProphetKV: User-Query-Driven Selective Recomputation for Efficient KV Cache Reuse in Retrieval-Augmented Generation** | ICML 2026 | KV cache reuse / RAG serving / selective recomputation | [Link](https://arxiv.org/abs/2602.02579) | — |
 | **Canonical** | **Quant VideoGen: Auto-Regressive Long Video Generation via 2-Bit KV-Cache Quantization** | ICML 2026 | video generation / KV-cache quantization / long-horizon inference | [Link](https://arxiv.org/abs/2602.02958) | [Repo](https://github.com/svg-project/Quant-VideoGen) |
 | **Canonical** | **RaBitQCache: Rotated Binary Quantization for KVCache in Long Context LLM Inference** | ICML 2026 | KV cache / sparse attention / binary-INT4 proxy / long-context inference | [Link](https://arxiv.org/abs/2606.31519) | [Repo](https://github.com/Sakuraaa0/RaBitQCache) |
+| **Canonical** | **Reflex: Real-Time Vision-Language-Action Control through Streaming Inference** | ICML 2026 | Physical AI / VLA serving / streaming inference / KV cache / operator fusion | [Link](https://arxiv.org/abs/2607.14695) | [Repo](https://github.com/9yc/Reflex) |
 | **Canonical** | **RelayCaching: Accelerating LLM Collaboration via Decoding KV Cache Reuse** | ICML 2026 | multi-agent LLM serving / decoding-KV reuse / prefill acceleration | [Link](https://arxiv.org/abs/2603.13289) | [Repo](https://github.com/YingshengGeng/RelayCaching) |
+| **Canonical** | **ReMoE: Boosting Expert Reuse through Router Fine-Tuning in Memory-Constrained MoE LLM Inference** | ICML 2026 | MoE serving / expert offload / edge inference / cache locality | [Link](https://arxiv.org/abs/2605.27081) | [Repo](https://github.com/BUAA-OSCAR/ReMoE) |
 | **Canonical** | **Rethinking KV Cache Eviction via a Unified Information-Theoretic Objective** | ICML 2026 | KV cache eviction / information bottleneck / long-context inference | [Link](https://arxiv.org/abs/2604.25975) | [Repo](https://github.com/jiamingyy/CapKV) |
 | **Canonical** | **SALE : Low-bit Estimation for Efficient Sparse Attention in Long-context LLM Prefilling** | ICML 2026 | efficient attention / low-bit estimation / long-context prefill | [Link](https://arxiv.org/abs/2505.24179) | — |
 | **Canonical** | **Scout Before You Attend: Sketch-and-Walk Sparse Attention for Efficient LLM Inference** | ICML 2026 | efficient attention / long-context inference | [Link](https://arxiv.org/abs/2602.07397) | — |
 | **Canonical** | **Sparser Block-Sparse Attention via Token Permutation** | ICML 2026 | efficient attention / block-sparse prefill / custom attention kernels | [Link](https://arxiv.org/abs/2510.21270) | [Repo](https://github.com/xinghaow99/pbs-attn) |
+| **Canonical** | **SpecSA: Bridging Speculative Decoding and Sparse Attention for Efficient LLM Inference** | ICML 2026 | speculative decoding / sparse attention / long-context LLM inference / GPU kernels | [Link](https://arxiv.org/abs/2605.19893) | — |
 | **Canonical** | **STAR-KV: Low-Rank KV Cache Compression via Soft Thresholding for Adaptive Rank Control** | ICML 2026 | KV cache / low-rank compression / mixed-precision quantization / Triton kernel | [Link](https://arxiv.org/abs/2606.08382) | [Repo](https://github.com/PriyanshBhatnagar/STAR-KV) |
 | **Canonical** | **TGV-KV: Text-Grounded KV Eviction for Vision-Language Models** | ICML 2026 | multimodal inference / VLM KV cache / eviction / memory and throughput | [Link](https://arxiv.org/abs/2606.03075) | [Repo](https://github.com/Danielement321/TGV-KV) |
 | **Canonical** | **ThunderAgent: A Fast, Simple, and Program-Aware Agentic Inference System** | ICML 2026 | agentic inference systems / KV-cache scheduling / RL rollout systems | [Link](https://arxiv.org/abs/2602.13692) | [Repo](https://github.com/ThunderAgent-org/ThunderAgent) |

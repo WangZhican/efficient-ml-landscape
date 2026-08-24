@@ -1,6 +1,6 @@
 # 11 · Video / Image Generation
 
-> **33 canonical papers** mapped here, plus a broader **13-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **34 canonical papers** mapped here, plus a broader **13-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -22,7 +22,7 @@
 | **P2 · Relevant** | **Sol-Attn: Accelerating Video Generation Inference via On-the-Fly Attention Sparsification** | Fresh / preprint | llm_serving / sparse / gen | [Link](https://arxiv.org/abs/2607.24027) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 26 canonical
+## 🏛️ Classical / Historical · 27 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -45,6 +45,7 @@
 | **Canonical** | **Entropy-Aware Dynamic KV Cache Sparsification for Autoregressive Image Generation and Editing** | ICML 2026 | KV cache / sparse attention / autoregressive image generation acceleration | — | [Repo](https://github.com/lilitong7/SparseAR-ICML-2026) |
 | **Canonical** | **Flash-VAED: Plug-and-Play VAE Decoders for Efficient Video Generation** | ICML 2026 | video generation acceleration / VAE decoder / pruning / operator optimization | [Link](https://arxiv.org/abs/2602.19161) | [Repo](https://github.com/Aoko955/Flash-VAED) |
 | **Canonical** | **Light Forcing: Accelerating Autoregressive Video Diffusion via Sparse Attention** | ICML 2026 | video generation acceleration / autoregressive video / sparse attention / kernels | [Link](https://arxiv.org/abs/2602.04789) | [Repo](https://github.com/chengtao-lv/LightForcing) |
+| **Canonical** | **Motion-Aware Caching for Efficient Autoregressive Video Generation** | ICML 2026 | autoregressive video generation / cache reuse / diffusion acceleration | [Link](https://arxiv.org/abs/2605.01725) | [Repo](https://github.com/ywlq/MotionCache) |
 | **Canonical** | **Quant VideoGen: Auto-Regressive Long Video Generation via 2-Bit KV-Cache Quantization** | ICML 2026 | video generation / KV-cache quantization / long-horizon inference | [Link](https://arxiv.org/abs/2602.02958) | [Repo](https://github.com/svg-project/Quant-VideoGen) |
 | **Canonical** | **SGMD: Score Gradient Matching Distillation for Few-Step Video Diffusion Distillation** | ICML 2026 | video generation acceleration / diffusion distillation / few-step generation | [Link](https://arxiv.org/abs/2605.30116) | [Repo](https://github.com/ModelTC/LightX2V) |
 | **Canonical** | **Speculative Coupled Decoding for Training-Free Lossless Acceleration of Autoregressive Visual Generation** | ICML 2026 | speculative decoding / autoregressive image-video generation / lossless visual generation acceleration | [Link](https://arxiv.org/abs/2510.24211) | [Repo](https://github.com/junhyukso/SCD) |

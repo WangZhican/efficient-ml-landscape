@@ -1,6 +1,6 @@
 # 08 · GPU Kernel / DSL / Compiler
 
-> **315 canonical papers** mapped here, plus a broader **66-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **318 canonical papers** mapped here, plus a broader **66-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -75,7 +75,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 289 canonical
+## 🏛️ Classical / Historical · 292 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -217,11 +217,13 @@
 | **Canonical** | **LiftQuant: Continuous Bit-Width Control for Pareto-Optimal LLM Deployment** | ICML 2026 | quantization / fractional bit-width / memory-constrained LLM deployment | [Link](https://arxiv.org/abs/2606.04050) | [Repo](https://github.com/Heliulu/LiftQuant) |
 | **Canonical** | **Light Forcing: Accelerating Autoregressive Video Diffusion via Sparse Attention** | ICML 2026 | video generation acceleration / autoregressive video / sparse attention / kernels | [Link](https://arxiv.org/abs/2602.04789) | [Repo](https://github.com/chengtao-lv/LightForcing) |
 | **Canonical** | **LightningRL: Breaking the Accuracy-Parallelism Trade-off of Block-wise dLLMs via Reinforcement Learning** | ICML 2026 | diffusion LLM / parallel decoding / RL post-training / inference acceleration | [Link](https://arxiv.org/abs/2603.13319) | [Repo](https://github.com/SJTU-DENG-Lab/LightningRL) |
+| **Canonical** | **Motion-Aware Caching for Efficient Autoregressive Video Generation** | ICML 2026 | autoregressive video generation / cache reuse / diffusion acceleration | [Link](https://arxiv.org/abs/2605.01725) | [Repo](https://github.com/ywlq/MotionCache) |
 | **Canonical** | **ParisKV: Fast and Drift-Robust KV-Cache Retrieval for Long-Context LLMs** | ICML 2026 | KV cache / long-context inference / GPU retrieval / CPU offload | [Link](https://arxiv.org/abs/2602.07721) | — |
 | **Canonical** | **POET-X: Memory-efficient LLM Training by Scaling Orthogonal Transformation** | ICML 2026 | distributed LLM training / memory-efficient optimizer / Triton kernels | [Link](https://arxiv.org/abs/2603.05500) | [Repo](https://github.com/Sphere-AI-Lab/poet) |
 | **Canonical** | **Predicting Future Utility: Global Combinatorial Optimization for Task-Agnostic KV Cache Eviction** | ICML 2026 | KV cache compression / head-wise budget allocation / long-context inference | [Link](https://arxiv.org/abs/2602.08585) | [Repo](https://github.com/baidu-baige/LU-KV) |
 | **Canonical** | **Prism: Efficient Test-Time Scaling via Hierarchical Search and Self-Verification for Discrete Diffusion Language Models** | ICML 2026 | efficient reasoning / diffusion language models / test-time scaling | [Link](https://arxiv.org/abs/2602.01842) | [Repo](https://github.com/viiika/Prism) |
 | **Canonical** | **Prism: Spectral-Aware Block-Sparse Attention** | ICML 2026 | efficient attention / long-context prefill / Triton kernels | [Link](https://arxiv.org/abs/2602.08426) | [Repo](https://github.com/xinghaow99/prism) |
+| **Canonical** | **Reflex: Real-Time Vision-Language-Action Control through Streaming Inference** | ICML 2026 | Physical AI / VLA serving / streaming inference / KV cache / operator fusion | [Link](https://arxiv.org/abs/2607.14695) | [Repo](https://github.com/9yc/Reflex) |
 | **Canonical** | **ReSpinQuant: Efficient Layer-Wise LLM Quantization via Subspace Residual Rotation Approximation** | ICML 2026 | LLM quantization / rotation PTQ / W4A4 W3A3 / inference efficiency | [Link](https://arxiv.org/abs/2604.11080) | — |
 | **Canonical** | **RSTR: Reducing SpatioTemporal Redundancy in Diffusion Transformers** | ICML 2026 | diffusion acceleration / compute reduction / guidance scheduling / adaptive rank | [Link](https://arxiv.org/abs/2512.14096) | — |
 | **Canonical** | **RT-Lynx: Putting the GEMM Sparsity In a Right Way for Diffusion Models** | ICML 2026 | diffusion acceleration / activation sparsity / CUDA kernels | [Link](https://arxiv.org/abs/2605.26632) | — |
@@ -234,6 +236,7 @@
 | **Canonical** | **Sparser Block-Sparse Attention via Token Permutation** | ICML 2026 | efficient attention / block-sparse prefill / custom attention kernels | [Link](https://arxiv.org/abs/2510.21270) | [Repo](https://github.com/xinghaow99/pbs-attn) |
 | **Canonical** | **Sparser, Faster, Lighter Transformer Language Models** | ICML 2026 | LLM sparsity / CUDA kernels / inference and training efficiency | [Link](https://arxiv.org/abs/2603.23198) | — |
 | **Canonical** | **SpecForge: A Flexible and Efficient Open-Source Training Framework for Speculative Decoding** | ICML 2026 | speculative decoding / draft-model training infrastructure / SGLang | [Link](https://arxiv.org/abs/2603.18567) | [Repo](https://github.com/sgl-project/SpecForge) |
+| **Canonical** | **SpecSA: Bridging Speculative Decoding and Sparse Attention for Efficient LLM Inference** | ICML 2026 | speculative decoding / sparse attention / long-context LLM inference / GPU kernels | [Link](https://arxiv.org/abs/2605.19893) | — |
 | **Canonical** | **STAR-KV: Low-Rank KV Cache Compression via Soft Thresholding for Adaptive Rank Control** | ICML 2026 | KV cache / low-rank compression / mixed-precision quantization / Triton kernel | [Link](https://arxiv.org/abs/2606.08382) | [Repo](https://github.com/PriyanshBhatnagar/STAR-KV) |
 | **Canonical** | **TileSparse: Arithmetic-Intensity-Aware Sparse Attention for Compute-Bound LLM Decoding** | ICML 2026 | LLM serving / sparse attention / decoding kernel / arithmetic-intensity-aware execution | — | [Repo](https://github.com/ASISys/TileSparse) |
 | **Canonical** | **Understand and Accelerate Memory Processing Pipeline for Large Language Model Inference** | ICML 2026 | LLM memory processing / GPU-FPGA heterogeneous acceleration | [Link](https://arxiv.org/abs/2603.29002) | — |

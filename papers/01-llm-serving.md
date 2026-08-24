@@ -1,6 +1,6 @@
 # 01 · LLM Serving
 
-> **394 canonical papers** mapped here, plus a broader **149-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **397 canonical papers** mapped here, plus a broader **149-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -158,7 +158,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 373 canonical
+## 🏛️ Classical / Historical · 376 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -348,7 +348,9 @@
 | **Canonical** | **ProphetKV: User-Query-Driven Selective Recomputation for Efficient KV Cache Reuse in Retrieval-Augmented Generation** | ICML 2026 | KV cache reuse / RAG serving / selective recomputation | [Link](https://arxiv.org/abs/2602.02579) | — |
 | **Canonical** | **Quant VideoGen: Auto-Regressive Long Video Generation via 2-Bit KV-Cache Quantization** | ICML 2026 | video generation / KV-cache quantization / long-horizon inference | [Link](https://arxiv.org/abs/2602.02958) | [Repo](https://github.com/svg-project/Quant-VideoGen) |
 | **Canonical** | **RaBitQCache: Rotated Binary Quantization for KVCache in Long Context LLM Inference** | ICML 2026 | KV cache / sparse attention / binary-INT4 proxy / long-context inference | [Link](https://arxiv.org/abs/2606.31519) | [Repo](https://github.com/Sakuraaa0/RaBitQCache) |
+| **Canonical** | **Reflex: Real-Time Vision-Language-Action Control through Streaming Inference** | ICML 2026 | Physical AI / VLA serving / streaming inference / KV cache / operator fusion | [Link](https://arxiv.org/abs/2607.14695) | [Repo](https://github.com/9yc/Reflex) |
 | **Canonical** | **RelayCaching: Accelerating LLM Collaboration via Decoding KV Cache Reuse** | ICML 2026 | multi-agent LLM serving / decoding-KV reuse / prefill acceleration | [Link](https://arxiv.org/abs/2603.13289) | [Repo](https://github.com/YingshengGeng/RelayCaching) |
+| **Canonical** | **ReMoE: Boosting Expert Reuse through Router Fine-Tuning in Memory-Constrained MoE LLM Inference** | ICML 2026 | MoE serving / expert offload / edge inference / cache locality | [Link](https://arxiv.org/abs/2605.27081) | [Repo](https://github.com/BUAA-OSCAR/ReMoE) |
 | **Canonical** | **ReQAT: Achieving Full-Precision Reasoning Accuracy with 4-bit Floating-Point Quantization-Aware Training** | ICML 2026 | quantization / reasoning inference / W4A4KV4 / QAT | [Link](https://arxiv.org/abs/2606.15682) | [Repo](https://github.com/aiha-lab/ReQAT) |
 | **Canonical** | **Resource-Efficient Reinforcement for Reasoning Large Language Models via Dynamic One-Shot Policy Refinement** | ICML 2026 | efficient reasoning / RLVR / rollout efficiency / post-training | [Link](https://arxiv.org/abs/2602.00815) | — |
 | **Canonical** | **RSTR: Reducing SpatioTemporal Redundancy in Diffusion Transformers** | ICML 2026 | diffusion acceleration / compute reduction / guidance scheduling / adaptive rank | [Link](https://arxiv.org/abs/2512.14096) | — |
@@ -361,6 +363,7 @@
 | **Canonical** | **Scout Before You Attend: Sketch-and-Walk Sparse Attention for Efficient LLM Inference** | ICML 2026 | efficient attention / long-context inference | [Link](https://arxiv.org/abs/2602.07397) | — |
 | **Canonical** | **Sparser Block-Sparse Attention via Token Permutation** | ICML 2026 | efficient attention / block-sparse prefill / custom attention kernels | [Link](https://arxiv.org/abs/2510.21270) | [Repo](https://github.com/xinghaow99/pbs-attn) |
 | **Canonical** | **Sparser, Faster, Lighter Transformer Language Models** | ICML 2026 | LLM sparsity / CUDA kernels / inference and training efficiency | [Link](https://arxiv.org/abs/2603.23198) | — |
+| **Canonical** | **SpecSA: Bridging Speculative Decoding and Sparse Attention for Efficient LLM Inference** | ICML 2026 | speculative decoding / sparse attention / long-context LLM inference / GPU kernels | [Link](https://arxiv.org/abs/2605.19893) | — |
 | **Canonical** | **STAR-KV: Low-Rank KV Cache Compression via Soft Thresholding for Adaptive Rank Control** | ICML 2026 | KV cache / low-rank compression / mixed-precision quantization / Triton kernel | [Link](https://arxiv.org/abs/2606.08382) | [Repo](https://github.com/PriyanshBhatnagar/STAR-KV) |
 | **Canonical** | **TGV-KV: Text-Grounded KV Eviction for Vision-Language Models** | ICML 2026 | multimodal inference / VLM KV cache / eviction / memory and throughput | [Link](https://arxiv.org/abs/2606.03075) | [Repo](https://github.com/Danielement321/TGV-KV) |
 | **Canonical** | **Threshold-Based Exclusive Batching for LLM Inference** | ICML 2026 | LLM serving / batching / hardware-aware scheduling / prefill-decode tradeoff | [Link](https://arxiv.org/abs/2606.00516) | [Repo](https://github.com/weifang231/eb-vllm) |

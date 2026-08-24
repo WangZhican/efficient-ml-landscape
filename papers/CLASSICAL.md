@@ -1,10 +1,10 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **853 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **857 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
-## ICML 2026 · 141
+## ICML 2026 · 145
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -77,6 +77,7 @@
 | **Canonical** | **M+Adam: Low-Precision Training via Additive-Multiplicative Optimization** | ICML 2026 | low-precision training / FP8 FP4 / optimizer / memory efficiency | [Link](https://arxiv.org/abs/2607.10611) | — |
 | **Canonical** | **ManifoldKV: Training-Free KV Cache Compression via Euclidean Outlier Detection** | ICML 2026 | KV cache compression / training-free eviction / long-context inference | [Link](https://arxiv.org/abs/2602.08343) | — |
 | **Canonical** | **MAPS: Memory-Aware Predictive Scheduling Framework for Large Language Model Serving** | ICML 2026 | LLM serving / disaggregated inference / predictive scheduling / memory-aware scheduling | — | — |
+| **Canonical** | **Motion-Aware Caching for Efficient Autoregressive Video Generation** | ICML 2026 | autoregressive video generation / cache reuse / diffusion acceleration | [Link](https://arxiv.org/abs/2605.01725) | [Repo](https://github.com/ywlq/MotionCache) |
 | **Canonical** | **Multipole Semantic Attention: A Fast Approximation of Softmax Attention for Pretraining** | ICML 2026 | efficient attention / long-context pretraining / attention approximation | [Link](https://arxiv.org/abs/2509.10406) | — |
 | **Canonical** | **No Retraining at Edge: Efficient Resource-Aware Mixed-Precision Quantization via Federated Supernet Learning** | ICML 2026 | edge AI / mixed-precision quantization / federated supernet / resource-adaptive deployment | — | — |
 | **Canonical** | **NorMuon: Making Muon more efficient and scalable** | ICML 2026 | distributed LLM training / optimizer / FSDP2 / training efficiency | [Link](https://arxiv.org/abs/2510.05491) | — |
@@ -103,7 +104,9 @@
 | **Canonical** | **RaBitQCache: Rotated Binary Quantization for KVCache in Long Context LLM Inference** | ICML 2026 | KV cache / sparse attention / binary-INT4 proxy / long-context inference | [Link](https://arxiv.org/abs/2606.31519) | [Repo](https://github.com/Sakuraaa0/RaBitQCache) |
 | **Canonical** | **RACER: Risk-Aware Calibrated Efficient Routing for Large Language Models** | ICML 2026 | LLM routing / cost-performance / calibrated model selection | [Link](https://arxiv.org/abs/2603.06616) | — |
 | **Canonical** | **Reasoning-VLA: An Efficient and Spatial-Guided General Vision-Language-Action Reasoning Model for Autonomous Driving** | ICML 2026 | Physical AI / VLA / autonomous driving / parallel action generation | [Link](https://arxiv.org/abs/2511.19912) | [Repo](https://github.com/xipi702/Reasoning-VLA) |
+| **Canonical** | **Reflex: Real-Time Vision-Language-Action Control through Streaming Inference** | ICML 2026 | Physical AI / VLA serving / streaming inference / KV cache / operator fusion | [Link](https://arxiv.org/abs/2607.14695) | [Repo](https://github.com/9yc/Reflex) |
 | **Canonical** | **RelayCaching: Accelerating LLM Collaboration via Decoding KV Cache Reuse** | ICML 2026 | multi-agent LLM serving / decoding-KV reuse / prefill acceleration | [Link](https://arxiv.org/abs/2603.13289) | [Repo](https://github.com/YingshengGeng/RelayCaching) |
+| **Canonical** | **ReMoE: Boosting Expert Reuse through Router Fine-Tuning in Memory-Constrained MoE LLM Inference** | ICML 2026 | MoE serving / expert offload / edge inference / cache locality | [Link](https://arxiv.org/abs/2605.27081) | [Repo](https://github.com/BUAA-OSCAR/ReMoE) |
 | **Canonical** | **ReQAT: Achieving Full-Precision Reasoning Accuracy with 4-bit Floating-Point Quantization-Aware Training** | ICML 2026 | quantization / reasoning inference / W4A4KV4 / QAT | [Link](https://arxiv.org/abs/2606.15682) | [Repo](https://github.com/aiha-lab/ReQAT) |
 | **Canonical** | **Resource-Efficient Reinforcement for Reasoning Large Language Models via Dynamic One-Shot Policy Refinement** | ICML 2026 | efficient reasoning / RLVR / rollout efficiency / post-training | [Link](https://arxiv.org/abs/2602.00815) | — |
 | **Canonical** | **ReSpinQuant: Efficient Layer-Wise LLM Quantization via Subspace Residual Rotation Approximation** | ICML 2026 | LLM quantization / rotation PTQ / W4A4 W3A3 / inference efficiency | [Link](https://arxiv.org/abs/2604.11080) | — |
@@ -132,6 +135,7 @@
 | **Canonical** | **SpecForge: A Flexible and Efficient Open-Source Training Framework for Speculative Decoding** | ICML 2026 | speculative decoding / draft-model training infrastructure / SGLang | [Link](https://arxiv.org/abs/2603.18567) | [Repo](https://github.com/sgl-project/SpecForge) |
 | **Canonical** | **SpecMD: A Comprehensive Study On Speculative Expert Prefetching** | ICML 2026 | MoE systems / expert caching / speculative prefetching | [Link](https://arxiv.org/abs/2602.03921) | — |
 | **Canonical** | **SpecPrune-VLA: Accelerating Vision-Language-Action Models via Action-Aware Self-Speculative Pruning** | ICML 2026 | Physical AI / VLA inference / token pruning / self-speculative acceleration | [Link](https://arxiv.org/abs/2509.05614) | [Repo](https://github.com/alexwhz-sjtu/SpecPrune-VLA) |
+| **Canonical** | **SpecSA: Bridging Speculative Decoding and Sparse Attention for Efficient LLM Inference** | ICML 2026 | speculative decoding / sparse attention / long-context LLM inference / GPU kernels | [Link](https://arxiv.org/abs/2605.19893) | — |
 | **Canonical** | **Speculative Coupled Decoding for Training-Free Lossless Acceleration of Autoregressive Visual Generation** | ICML 2026 | speculative decoding / autoregressive image-video generation / lossless visual generation acceleration | [Link](https://arxiv.org/abs/2510.24211) | [Repo](https://github.com/junhyukso/SCD) |
 | **Canonical** | **STAR-KV: Low-Rank KV Cache Compression via Soft Thresholding for Adaptive Rank Control** | ICML 2026 | KV cache / low-rank compression / mixed-precision quantization / Triton kernel | [Link](https://arxiv.org/abs/2606.08382) | [Repo](https://github.com/PriyanshBhatnagar/STAR-KV) |
 | **Canonical** | **Stochastic Sparse Attention for Memory-Bound Inference** | ICML 2026 | sparse attention / memory-bound decoding / stochastic KV access | [Link](https://arxiv.org/abs/2605.01910) | [Repo](https://github.com/OPUSLab/SANTA) |
