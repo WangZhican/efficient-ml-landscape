@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **919 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **212 visible papers = 48 P0 + 56 P1 + 108 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **920 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **212 visible papers = 48 P0 + 56 P1 + 108 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -235,9 +235,9 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 871
+## 🏛️ Classical / Historical · 872
 
-### ICML 2026 · 159
+### ICML 2026 · 160
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -277,6 +277,7 @@
 | **Canonical** | **DuetServe: Harmonizing Prefill and Decode for LLM Serving via Adaptive GPU Multiplexing** | ICML 2026 | LLM serving / adaptive GPU multiplexing / prefill-decode isolation | [Link](https://arxiv.org/abs/2511.04791) | — |
 | **Canonical** | **Dustin: Draft-Augmented Sparse Verification for Efficient Long-Context Generation with Speculative Decoding** | ICML 2026 | speculative decoding / sparse verification / long-context KV-cache | [Link](https://arxiv.org/abs/2606.24957) | — |
 | **Canonical** | **DyLLM: Efficient Diffusion LLM Inference via Saliency-based Token Selection and Partial Attention** | ICML 2026 | diffusion language model inference / token sparsity / activation reuse | [Link](https://arxiv.org/abs/2603.08026) | — |
+| **Canonical** | **Dynamic Thinking-Token Selection for Efficient Reasoning in Large Reasoning Models** | ICML 2026 | efficient reasoning / KV cache compression / dynamic thinking-token eviction | [Link](https://arxiv.org/abs/2601.18383) | [Repo](https://github.com/Robin930/DynTS) |
 | **Canonical** | **ECHO: Elastic Speculative Decoding with Sparse Gating for High-Concurrency Scenarios** | ICML 2026 | speculative decoding / high-concurrency LLM serving / SGLang | [Link](https://arxiv.org/abs/2604.09603) | — |
 | **Canonical** | **EchoAttention: Exploiting Token-Pair Redundancy and Frame-Block Similarity for Efficient Video Generation** | ICML 2026 | video generation acceleration / efficient attention / sparse attention | — | — |
 | **Canonical** | **Efficient Diffusion LLMs via Temporal-Spatial Parallel Decoding and Confidence Extrapolation** | ICML 2026 | diffusion LLM / parallel decoding / inference acceleration | [Link](https://arxiv.org/abs/2605.30753) | — |

@@ -8804,6 +8804,29 @@
     ]
   },
   {
+    "title": "Dynamic Thinking-Token Selection for Efficient Reasoning in Large Reasoning Models",
+    "venue": "ICML 2026",
+    "topic": "efficient reasoning / KV cache compression / dynamic thinking-token eviction",
+    "arxiv": "2601.18383",
+    "doi": "",
+    "official_id": "2601.18383",
+    "paper_url": "https://arxiv.org/abs/2601.18383",
+    "code_url": "https://github.com/Robin930/DynTS",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. DynTS learns to identify decision-critical reasoning tokens and evicts noncritical KV states during generation; reports 1.84-2.62x lower inference latency and 3.32-5.73x lower peak KV-cache memory while preserving reasoning performance, with up to 2.6% Pass@1 gain under the same cache budget.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "EasyBalance: Cross-Layer Load Balancing in Distributed MoE Inference",
     "venue": "ICML 2026",
     "topic": "MoE inference / expert parallelism / cross-layer load balancing",

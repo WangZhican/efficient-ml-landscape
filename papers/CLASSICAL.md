@@ -1,10 +1,10 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **871 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **872 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
-## ICML 2026 · 159
+## ICML 2026 · 160
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -44,6 +44,7 @@
 | **Canonical** | **DuetServe: Harmonizing Prefill and Decode for LLM Serving via Adaptive GPU Multiplexing** | ICML 2026 | LLM serving / adaptive GPU multiplexing / prefill-decode isolation | [Link](https://arxiv.org/abs/2511.04791) | — |
 | **Canonical** | **Dustin: Draft-Augmented Sparse Verification for Efficient Long-Context Generation with Speculative Decoding** | ICML 2026 | speculative decoding / sparse verification / long-context KV-cache | [Link](https://arxiv.org/abs/2606.24957) | — |
 | **Canonical** | **DyLLM: Efficient Diffusion LLM Inference via Saliency-based Token Selection and Partial Attention** | ICML 2026 | diffusion language model inference / token sparsity / activation reuse | [Link](https://arxiv.org/abs/2603.08026) | — |
+| **Canonical** | **Dynamic Thinking-Token Selection for Efficient Reasoning in Large Reasoning Models** | ICML 2026 | efficient reasoning / KV cache compression / dynamic thinking-token eviction | [Link](https://arxiv.org/abs/2601.18383) | [Repo](https://github.com/Robin930/DynTS) |
 | **Canonical** | **ECHO: Elastic Speculative Decoding with Sparse Gating for High-Concurrency Scenarios** | ICML 2026 | speculative decoding / high-concurrency LLM serving / SGLang | [Link](https://arxiv.org/abs/2604.09603) | — |
 | **Canonical** | **EchoAttention: Exploiting Token-Pair Redundancy and Frame-Block Similarity for Efficient Video Generation** | ICML 2026 | video generation acceleration / efficient attention / sparse attention | — | — |
 | **Canonical** | **Efficient Diffusion LLMs via Temporal-Spatial Parallel Decoding and Confidence Extrapolation** | ICML 2026 | diffusion LLM / parallel decoding / inference acceleration | [Link](https://arxiv.org/abs/2605.30753) | — |

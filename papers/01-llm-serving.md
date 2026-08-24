@@ -1,6 +1,6 @@
 # 01 · LLM Serving
 
-> **405 canonical papers** mapped here, plus a broader **150-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **406 canonical papers** mapped here, plus a broader **150-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -159,7 +159,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 383 canonical
+## 🏛️ Classical / Historical · 384 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -318,6 +318,7 @@
 | **Canonical** | **Dr. Kernel: Reinforcement Learning Done Right for Triton Kernel Generations** | ICML 2026 | GPU kernel generation / Triton / distributed RL infrastructure / kernel optimization | [Link](https://arxiv.org/abs/2602.05885) | [Repo](https://github.com/hkust-nlp/KernelGYM) |
 | **Canonical** | **DuetServe: Harmonizing Prefill and Decode for LLM Serving via Adaptive GPU Multiplexing** | ICML 2026 | LLM serving / adaptive GPU multiplexing / prefill-decode isolation | [Link](https://arxiv.org/abs/2511.04791) | — |
 | **Canonical** | **DyLLM: Efficient Diffusion LLM Inference via Saliency-based Token Selection and Partial Attention** | ICML 2026 | diffusion language model inference / token sparsity / activation reuse | [Link](https://arxiv.org/abs/2603.08026) | — |
+| **Canonical** | **Dynamic Thinking-Token Selection for Efficient Reasoning in Large Reasoning Models** | ICML 2026 | efficient reasoning / KV cache compression / dynamic thinking-token eviction | [Link](https://arxiv.org/abs/2601.18383) | [Repo](https://github.com/Robin930/DynTS) |
 | **Canonical** | **ECHO: Elastic Speculative Decoding with Sparse Gating for High-Concurrency Scenarios** | ICML 2026 | speculative decoding / high-concurrency LLM serving / SGLang | [Link](https://arxiv.org/abs/2604.09603) | — |
 | **Canonical** | **Efficient Distributed MLLM Training with Cornstarch** | ICML 2026 | distributed MLLM training / pipeline parallelism / context parallelism / workload balancing | [Link](https://arxiv.org/abs/2503.11367) | [Repo](https://github.com/cornstarch-org/Cornstarch) |
 | **Canonical** | **Efficient Multi-round LLM Inference over Disaggregated Serving** | ICML 2026 | LLM serving / multi-round agents / PD disaggregation | [Link](https://arxiv.org/abs/2602.14516) | — |
