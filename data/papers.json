@@ -8611,6 +8611,29 @@
     ]
   },
   {
+    "title": "Efficient Distributed MLLM Training with Cornstarch",
+    "venue": "ICML 2026",
+    "topic": "distributed MLLM training / pipeline parallelism / context parallelism / workload balancing",
+    "arxiv": "2503.11367",
+    "doi": "",
+    "official_id": "ICML2026_EFFICIENTDISTRIBUTEDMLLMTRAININGWITHCORNSTARCH",
+    "paper_url": "https://arxiv.org/abs/2503.11367",
+    "code_url": "https://github.com/cornstarch-org/Cornstarch",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 direct multimodal training-systems work. Cornstarch uses frozen-aware pipeline parallelism and workload-balanced context parallelism tailored to heterogeneous multimodal modules and reports 2.26x average MLLM training throughput over state-of-the-art baselines.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference",
+      "Multimodal / MLLM Serving",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Efficient Multi-round LLM Inference over Disaggregated Serving",
     "venue": "ICML 2026",
     "topic": "LLM serving / multi-round agents / PD disaggregation",
@@ -8649,6 +8672,52 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Speculative Decoding",
+      "GPU Kernel / DSL / Compiler",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "Efficient Training-Free Multi-Token Prediction via Embedding-Space Probing",
+    "venue": "ICML 2026",
+    "topic": "speculative decoding / multi-token prediction / training-free inference",
+    "arxiv": "2603.17942",
+    "doi": "",
+    "official_id": "ICML2026_EFFICIENTTRAININGFREEMULTITOKENPREDICTIONVIAEM",
+    "paper_url": "https://arxiv.org/abs/2603.17942",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 direct lossless decoding-efficiency work. Training-free embedding-space probes build speculative token trees without auxiliary draft-model training; reports roughly 8-12% acceptance-length gains and up to 15-19% token-throughput improvement over training-free baselines.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding"
+    ]
+  },
+  {
+    "title": "Efficient-DLM: From Autoregressive to Diffusion Language Models, and Beyond in Speed",
+    "venue": "ICML 2026",
+    "topic": "diffusion language model / parallel decoding / AR-to-dLM conversion / efficient generation",
+    "arxiv": "2512.14067",
+    "doi": "",
+    "official_id": "ICML2026_EFFICIENTDLMFROMAUTOREGRESSIVETODIFFUSIONLANGU",
+    "paper_url": "https://arxiv.org/abs/2512.14067",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 diffusion-language-model efficiency work from NVIDIA/MIT collaborators. Converts pretrained autoregressive LMs into diffusion LMs while preserving AR task accuracy, using KV-cache-friendly block-wise attention and masking design to enable substantially faster parallel generation; official NVIDIA model releases are available.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "KV Cache / Long Context",
+      "Efficient Attention",
       "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
@@ -9203,6 +9272,29 @@
       "KV Cache / Long Context",
       "Efficient Attention",
       "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "PatternKV: Flattening KV Representation Expands Quantization Headroom",
+    "venue": "ICML 2026",
+    "topic": "KV cache / quantization / long-context inference / test-time scaling",
+    "arxiv": "2510.05176",
+    "doi": "",
+    "official_id": "ICML2026_PATTERNKVFLATTENINGKVREPRESENTATIONEXPANDSQUAN",
+    "paper_url": "https://arxiv.org/abs/2510.05176",
+    "code_url": "https://github.com/HCOOOH/PatternKV",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 direct KV-cache quantization work. Pattern-aligned residual quantization flattens native KV distributions before low-bit coding; reports near-lossless 4-bit behavior, stronger 2-bit quality, about 10% average test-time-scaling accuracy gain, 1.4x throughput, and 1.25x larger supported batches.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Quantization",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
