@@ -1,6 +1,6 @@
 # 12 · Diffusion / Flow Acceleration
 
-> **113 canonical papers** mapped here, plus a broader **23-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **120 canonical papers** mapped here, plus a broader **23-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -32,7 +32,7 @@
 | **P2 · Relevant** | **OnlineCache: Learning Dynamic Caching Policies with Error Correction for Efficient Diffusion Inference** | Fresh / preprint | LLM serving; generation acceleration; edge / heterogeneous AI | [Link](https://arxiv.org/abs/2607.29398) | — |
 | **P1 · Watch** | **Sparse by Command: Task-Conditional Compute Skipping for Multi-Task Inference Accelerators** | Fresh / preprint | llm_serving / quant / sparse / gen / edge | [Link](https://arxiv.org/abs/2607.22038) | — |
 
-## 🏛️ Classical / Historical · 98 canonical
+## 🏛️ Classical / Historical · 105 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -103,11 +103,18 @@
 | **Canonical** | **DFSAttn: Dynamic Fine-grained Sparse Attention for Efficient Video Generation** | ICML 2026 | video diffusion / dynamic sparse attention / GPU-efficient inference | [Link](https://arxiv.org/abs/2605.23445) | [Repo](https://github.com/jessica-hujie/DFSAttn) |
 | **Canonical** | **DyLLM: Efficient Diffusion LLM Inference via Saliency-based Token Selection and Partial Attention** | ICML 2026 | diffusion language model inference / token sparsity / activation reuse | [Link](https://arxiv.org/abs/2603.08026) | — |
 | **Canonical** | **EchoAttention: Exploiting Token-Pair Redundancy and Frame-Block Similarity for Efficient Video Generation** | ICML 2026 | video generation acceleration / efficient attention / sparse attention | — | — |
+| **Canonical** | **Efficient Diffusion LLMs via Temporal-Spatial Parallel Decoding and Confidence Extrapolation** | ICML 2026 | diffusion LLM / parallel decoding / inference acceleration | [Link](https://arxiv.org/abs/2605.30753) | — |
 | **Canonical** | **Efficient Parallel Samplers for Recurrent-Depth Models** | ICML 2026 | parallel decoding / recurrent-depth language models / diffusion-style inference | [Link](https://arxiv.org/abs/2510.14961) | — |
 | **Canonical** | **Efficient-DLM: From Autoregressive to Diffusion Language Models, and Beyond in Speed** | ICML 2026 | diffusion language model / parallel decoding / AR-to-dLM conversion / efficient generation | [Link](https://arxiv.org/abs/2512.14067) | — |
 | **Canonical** | **Entropy-Aware Dynamic KV Cache Sparsification for Autoregressive Image Generation and Editing** | ICML 2026 | KV cache / sparse attention / autoregressive image generation acceleration | — | [Repo](https://github.com/lilitong7/SparseAR-ICML-2026) |
 | **Canonical** | **FAST-AR: Fast Autoregressive Video Diffusion and World Models with Temporal Cache Compression and Sparse Attention** | ICML 2026 | video/world-model inference / KV cache compression / sparse attention | [Link](https://arxiv.org/abs/2602.01801) | — |
+| **Canonical** | **Light Forcing: Accelerating Autoregressive Video Diffusion via Sparse Attention** | ICML 2026 | video generation acceleration / autoregressive video / sparse attention / kernels | [Link](https://arxiv.org/abs/2602.04789) | [Repo](https://github.com/chengtao-lv/LightForcing) |
+| **Canonical** | **LightningRL: Breaking the Accuracy-Parallelism Trade-off of Block-wise dLLMs via Reinforcement Learning** | ICML 2026 | diffusion LLM / parallel decoding / RL post-training / inference acceleration | [Link](https://arxiv.org/abs/2603.13319) | [Repo](https://github.com/SJTU-DENG-Lab/LightningRL) |
+| **Canonical** | **Prism: Efficient Test-Time Scaling via Hierarchical Search and Self-Verification for Discrete Diffusion Language Models** | ICML 2026 | efficient reasoning / diffusion language models / test-time scaling | [Link](https://arxiv.org/abs/2602.01842) | [Repo](https://github.com/viiika/Prism) |
+| **Canonical** | **RSTR: Reducing SpatioTemporal Redundancy in Diffusion Transformers** | ICML 2026 | diffusion acceleration / compute reduction / guidance scheduling / adaptive rank | [Link](https://arxiv.org/abs/2512.14096) | — |
+| **Canonical** | **RT-Lynx: Putting the GEMM Sparsity In a Right Way for Diffusion Models** | ICML 2026 | diffusion acceleration / activation sparsity / CUDA kernels | [Link](https://arxiv.org/abs/2605.26632) | — |
 | **Canonical** | **SCALE: Self-uncertainty Conditioned Adaptive Looking and Execution for Vision-Language-Action Models** | ICML 2026 | Physical AI / VLA inference / test-time scaling / single-pass adaptive execution | [Link](https://arxiv.org/abs/2602.04208) | [Repo](https://github.com/snumprlab/scale) |
+| **Canonical** | **SGMD: Score Gradient Matching Distillation for Few-Step Video Diffusion Distillation** | ICML 2026 | video generation acceleration / diffusion distillation / few-step generation | [Link](https://arxiv.org/abs/2605.30116) | [Repo](https://github.com/ModelTC/LightX2V) |
 | **Canonical** | **Sparse ActionGen: Accelerating Diffusion Policy with Real-time Pruning** | ICML 2026 | Physical AI / diffusion-policy acceleration / pruning+reuse | [Link](https://arxiv.org/abs/2601.12894) | — |
 | **Canonical** | **When RL Meets Adaptive Speculative Training: A Unified Training-Serving System** | ICML 2026 | speculative decoding / online speculator training / RL systems / SGLang serving | [Link](https://arxiv.org/abs/2602.06932) | — |
 | **Canonical** | **Accelerating Diffusion-based Super-Resolution with Dynamic Time-Spatial Sampling** | IJCAI 2025 | diffusion acceleration / adaptive sampling / image generation efficiency | [Link](https://doi.org/10.24963/ijcai.2025/199) | — |

@@ -1,6 +1,6 @@
 # 14 · VLA / WAM / Physical AI
 
-> **46 canonical papers** mapped here, plus a broader **34-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **47 canonical papers** mapped here, plus a broader **34-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -43,7 +43,7 @@
 | **P2 · Relevant** | **TurboVLA: Real-Time Vision-Language-Action Model at 32 Hz on an RTX 4090 with <1 GB VRAM** | Fresh / preprint | LLM serving; multimodal / MLLM; generation acceleration; Physical AI | [Link](https://arxiv.org/abs/2607.27205) | — |
 | **P2 · Relevant** | **A Motion-Aware Vector Quantization Framework with Centroid Reuse for Efficient VLA Inference** | Fresh / preprint | llm_serving / quant / multimodal / physical | [Link](https://arxiv.org/abs/2607.24148) | — |
 
-## 🏛️ Classical / Historical · 38 canonical
+## 🏛️ Classical / Historical · 39 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -58,6 +58,7 @@
 | **Canonical** | **Spec-VLA: Speculative Decoding for Vision-Language-Action Models with Relaxed Acceptance** | EMNLP 2025 | Physical AI / VLA speculative decoding / relaxed action-token verification | [Link](https://arxiv.org/abs/2507.22424) | [Repo](https://github.com/PineTreeWss/SpecVLA) |
 | **Canonical** | **CombatVLA: An Efficient Vision-Language-Action Model for Combat Tasks in 3D Action Role-Playing Games** | ICCV 2025 | Physical AI / VLA efficient action generation / runtime | — | [Repo](https://github.com/ChenVoid/CombatVLA) |
 | **Canonical** | **Fast-dLLM v2: Efficient Block-Diffusion LLM** | ICLR 2026 | diffusion LLM inference / block diffusion / hierarchical caching | [Link](https://arxiv.org/abs/2509.26328) | [Repo](https://github.com/NVlabs/Fast-dLLM) |
+| **Canonical** | **Reasoning-VLA: An Efficient and Spatial-Guided General Vision-Language-Action Reasoning Model for Autonomous Driving** | ICML 2026 | Physical AI / VLA / autonomous driving / parallel action generation | [Link](https://arxiv.org/abs/2511.19912) | [Repo](https://github.com/xipi702/Reasoning-VLA) |
 | **Canonical** | **SCALE: Self-uncertainty Conditioned Adaptive Looking and Execution for Vision-Language-Action Models** | ICML 2026 | Physical AI / VLA inference / test-time scaling / single-pass adaptive execution | [Link](https://arxiv.org/abs/2602.04208) | [Repo](https://github.com/snumprlab/scale) |
 | **Canonical** | **Sparse ActionGen: Accelerating Diffusion Policy with Real-time Pruning** | ICML 2026 | Physical AI / diffusion-policy acceleration / pruning+reuse | [Link](https://arxiv.org/abs/2601.12894) | — |
 | **Canonical** | **SpecPrune-VLA: Accelerating Vision-Language-Action Models via Action-Aware Self-Speculative Pruning** | ICML 2026 | Physical AI / VLA inference / token pruning / self-speculative acceleration | [Link](https://arxiv.org/abs/2509.05614) | [Repo](https://github.com/alexwhz-sjtu/SpecPrune-VLA) |

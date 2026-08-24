@@ -1,6 +1,6 @@
 # 09 · Distributed Training / Inference
 
-> **135 canonical papers** mapped here, plus a broader **19-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **137 canonical papers** mapped here, plus a broader **19-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -28,7 +28,7 @@
 | **P2 · Relevant** | **HetRoute Heterogeneous and Cost-aware Collaborative Routing Framework for Distributed Edge MoE Inference** | Fresh / preprint | llm_serving / quant / moe / dist / edge | [Link](https://arxiv.org/abs/2608.00577) | — |
 | **P2 · Relevant** | **HCCL: Collective Communication for Meta Training and Inference Accelerators** | Fresh / preprint | llm_serving | [Link](https://arxiv.org/abs/2608.00358) | — |
 
-## 🏛️ Classical / Historical · 124 canonical
+## 🏛️ Classical / Historical · 126 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -77,9 +77,11 @@
 | **Canonical** | **eGPU: Production-Scale Elastic Sharing over 10,000 GPUs** | HPCA 2026 Industry Track | production GPU sharing / elastic multi-tenant ML | [Link](https://doi.org/10.1109/HPCA68181.2026.11408556) | — |
 | **Canonical** | **Tactic: Adaptive Sparse Attention with Clustering and Distribution Fitting for Long-Context LLMs** | ICLR 2026 | sparse attention / long-context inference | — | — |
 | **Canonical** | **AREAL-DTA: Dynamic Tree Attention for Efficient Reinforcement Learning of Large Language Models** | ICML 2026 | distributed RL post-training / dynamic tree attention / prefix sharing | [Link](https://arxiv.org/abs/2602.00482) | [Repo](https://areal-ai.io/) |
+| **Canonical** | **ASTRA: Communication-Efficient Acceleration for Multi-Device Transformer Inference** | ICML 2026 | distributed inference / communication compression / multi-device transformer | [Link](https://arxiv.org/abs/2505.19342) | — |
 | **Canonical** | **BubbleSpec: Turning Long-Tail Bubbles into Speculative Rollout Drafts for Synchronous Reinforcement Learning** | ICML 2026 | LLM RL systems / rollout acceleration / speculative decoding / distributed training | [Link](https://arxiv.org/abs/2605.08862) | — |
 | **Canonical** | **DARTS: Distribution-Aware Active Rollout Trajectory Shaping for Accelerating LLM Reinforcement Learning** | ICML 2026 | LLM RL systems / rollout efficiency / distributed post-training | [Link](https://arxiv.org/abs/2605.30859) | [Repo](https://github.com/AFDWang/DARTS) |
 | **Canonical** | **Efficient Distributed MLLM Training with Cornstarch** | ICML 2026 | distributed MLLM training / pipeline parallelism / context parallelism / workload balancing | [Link](https://arxiv.org/abs/2503.11367) | [Repo](https://github.com/cornstarch-org/Cornstarch) |
+| **Canonical** | **LightningRL: Breaking the Accuracy-Parallelism Trade-off of Block-wise dLLMs via Reinforcement Learning** | ICML 2026 | diffusion LLM / parallel decoding / RL post-training / inference acceleration | [Link](https://arxiv.org/abs/2603.13319) | [Repo](https://github.com/SJTU-DENG-Lab/LightningRL) |
 | **Canonical** | **SpecForge: A Flexible and Efficient Open-Source Training Framework for Speculative Decoding** | ICML 2026 | speculative decoding / draft-model training infrastructure / SGLang | [Link](https://arxiv.org/abs/2603.18567) | [Repo](https://github.com/sgl-project/SpecForge) |
 | **Canonical** | **Accelerating MoE with Dynamic In-Switch Computing on Multi-GPUs** | ISCA 2026 | MoE / multi-GPU / in-switch computing | — | — |
 | **Canonical** | **DisDP: Disaggregating Compute, Network, and Storage for Model-Sharded Data-Parallel Training** | ISCA 2026 | distributed LLM training / disaggregation / SmartNIC-SmartSwitch | — | — |

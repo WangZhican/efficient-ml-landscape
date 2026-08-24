@@ -1,6 +1,6 @@
 # 01 · LLM Serving
 
-> **380 canonical papers** mapped here, plus a broader **139-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **386 canonical papers** mapped here, plus a broader **139-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -148,7 +148,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 359 canonical
+## 🏛️ Classical / Historical · 365 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -287,6 +287,7 @@
 | **Canonical** | **ArborKV: Structure-Aware KV Cache Management for Scaling Tree-based LLM Reasoning** | ICML 2026 | KV cache / tree-based LLM reasoning / memory management | [Link](https://arxiv.org/abs/2605.22106) | — |
 | **Canonical** | **ARC-Decode: Accelerated Decoding with Risk-Bounded Acceptance** | ICML 2026 | speculative decoding / risk-bounded acceptance / inference acceleration | — | [Repo](https://github.com/NeuraLiying/ARC-Decode) |
 | **Canonical** | **AREAL-DTA: Dynamic Tree Attention for Efficient Reinforcement Learning of Large Language Models** | ICML 2026 | distributed RL post-training / dynamic tree attention / prefix sharing | [Link](https://arxiv.org/abs/2602.00482) | [Repo](https://areal-ai.io/) |
+| **Canonical** | **ASTRA: Communication-Efficient Acceleration for Multi-Device Transformer Inference** | ICML 2026 | distributed inference / communication compression / multi-device transformer | [Link](https://arxiv.org/abs/2505.19342) | — |
 | **Canonical** | **AsyncSpade: Efficient Test-Time Scaling with Asynchronous Sparse Decoding** | ICML 2026 | efficient reasoning / sparse decoding / KV filtering / asynchronous serving | [Link](https://arxiv.org/abs/2510.07486) | — |
 | **Canonical** | **AugServe: Adaptive Request Scheduling for Augmented Large Language Model Inference Serving** | ICML 2026 | LLM serving / augmented-agent request scheduling | [Link](https://arxiv.org/abs/2512.04013) | — |
 | **Canonical** | **BeaconKV: Key-Value Cache Compression Guided by Beacon Queries for Efficient Large Reasoning Model Inference** | ICML 2026 | KV cache / long reasoning / training-free compression | — | [Repo](https://github.com/aiha-lab/BeaconKV) |
@@ -310,6 +311,7 @@
 | **Canonical** | **EpiCache: Episodic KV Cache Management for Long-Term Conversation on Resource-Constrained Environments** | ICML 2026 | KV cache / long-term conversation / memory-bounded inference / edge-resource-constrained serving | [Link](https://arxiv.org/abs/2509.17396) | [Repo](https://github.com/apple/ml-epicache) |
 | **Canonical** | **FAFO: Lossy KV Cache Compression for Lossless Inference Acceleration via Draftless Fumble Decoding** | ICML 2026 | KV cache compression / draftless speculative decoding / lossless inference acceleration | — | [Repo](https://github.com/Escanord/FAFO) |
 | **Canonical** | **Faster Than Flash: Exploiting Attention Sparsity for Efficient Long-Context Decoding** | ICML 2026 | long-context LLM decoding / sparse attention / fused Triton kernel | — | — |
+| **Canonical** | **Flash-VAED: Plug-and-Play VAE Decoders for Efficient Video Generation** | ICML 2026 | video generation acceleration / VAE decoder / pruning / operator optimization | [Link](https://arxiv.org/abs/2602.19161) | [Repo](https://github.com/Aoko955/Flash-VAED) |
 | **Canonical** | **ForesightKV: Optimizing KV Cache Eviction for Reasoning Models by Learning Long-Term Contribution** | ICML 2026 | KV cache eviction / reasoning-model serving / learned long-term contribution | [Link](https://arxiv.org/abs/2602.03203) | [Repo](https://github.com/1190303125/ForesightKV) |
 | **Canonical** | **GraphFlow: A Graph-Based Workflow Management for Efficient LLM-Agent Serving** | ICML 2026 | agent serving / workflow reuse / KV-cache management | [Link](https://arxiv.org/abs/2605.22566) | — |
 | **Canonical** | **HARD-KV: Head-Adaptive Regularization for Decoding-time KV Compression** | ICML 2026 | KV cache compression / head-adaptive sparsity / vLLM-compatible runtime | [Link](https://arxiv.org/abs/2606.28831) | [Repo](https://github.com/SuDIS-ZJU/HARDInfer) |
@@ -332,6 +334,10 @@
 | **Canonical** | **RaBitQCache: Rotated Binary Quantization for KVCache in Long Context LLM Inference** | ICML 2026 | KV cache / sparse attention / binary-INT4 proxy / long-context inference | [Link](https://arxiv.org/abs/2606.31519) | [Repo](https://github.com/Sakuraaa0/RaBitQCache) |
 | **Canonical** | **RelayCaching: Accelerating LLM Collaboration via Decoding KV Cache Reuse** | ICML 2026 | multi-agent LLM serving / decoding-KV reuse / prefill acceleration | [Link](https://arxiv.org/abs/2603.13289) | [Repo](https://github.com/YingshengGeng/RelayCaching) |
 | **Canonical** | **ReQAT: Achieving Full-Precision Reasoning Accuracy with 4-bit Floating-Point Quantization-Aware Training** | ICML 2026 | quantization / reasoning inference / W4A4KV4 / QAT | [Link](https://arxiv.org/abs/2606.15682) | [Repo](https://github.com/aiha-lab/ReQAT) |
+| **Canonical** | **RSTR: Reducing SpatioTemporal Redundancy in Diffusion Transformers** | ICML 2026 | diffusion acceleration / compute reduction / guidance scheduling / adaptive rank | [Link](https://arxiv.org/abs/2512.14096) | — |
+| **Canonical** | **RT-Lynx: Putting the GEMM Sparsity In a Right Way for Diffusion Models** | ICML 2026 | diffusion acceleration / activation sparsity / CUDA kernels | [Link](https://arxiv.org/abs/2605.26632) | — |
+| **Canonical** | **RTInfer: Real-Time Inference of Multiple DNNs on Edge GPUs** | ICML 2026 | edge AI systems / real-time inference / GPU scheduling | — | — |
+| **Canonical** | **RTPrune: Reading-Twice Inspired Token Pruning for Efficient DeepSeek-OCR Inference** | ICML 2026 | multimodal inference / visual token pruning / OCR | [Link](https://arxiv.org/abs/2605.00392) | [Repo](https://github.com/BurnWan/RTPrune) |
 | **Canonical** | **SALE : Low-bit Estimation for Efficient Sparse Attention in Long-context LLM Prefilling** | ICML 2026 | efficient attention / low-bit estimation / long-context prefill | [Link](https://arxiv.org/abs/2505.24179) | — |
 | **Canonical** | **ScaleSim: Serving Large-Scale Multi-Agent Simulation with Invocation Distance-Based Memory Management** | ICML 2026 | agent serving / multi-agent simulation / GPU memory management / prefetching and eviction | [Link](https://arxiv.org/abs/2601.21473) | — |
 | **Canonical** | **Scheduling LLM Inference with Uncertainty-Aware Output Length Predictions** | ICML 2026 | LLM serving / uncertainty-aware scheduling / output-length prediction | [Link](https://arxiv.org/abs/2604.00499) | [Repo](https://github.com/Hyzheng-code/TIE) |

@@ -8123,6 +8123,30 @@
     ]
   },
   {
+    "title": "ASTRA: Communication-Efficient Acceleration for Multi-Device Transformer Inference",
+    "venue": "ICML 2026",
+    "topic": "distributed inference / communication compression / multi-device transformer",
+    "arxiv": "2505.19342",
+    "doi": "",
+    "official_id": "ICML2026_ASTRACOMMUNICATIONEFFICIENTACCELERATIONFORMULTIDEVICETRANSFORMERINFERE",
+    "paper_url": "https://arxiv.org/abs/2505.19342",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 direct multi-device inference systems work; sequence parallelism with low-bit vector-quantized non-local communication targets bandwidth-constrained deployment while preserving local full-precision attention.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "Efficient Attention",
+      "Distributed Training / Inference",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "AsyncSpade: Efficient Test-Time Scaling with Asynchronous Sparse Decoding",
     "venue": "ICML 2026",
     "topic": "efficient reasoning / sparse decoding / KV filtering / asynchronous serving",
@@ -8633,6 +8657,28 @@
     ]
   },
   {
+    "title": "Efficient Diffusion LLMs via Temporal-Spatial Parallel Decoding and Confidence Extrapolation",
+    "venue": "ICML 2026",
+    "topic": "diffusion LLM / parallel decoding / inference acceleration",
+    "arxiv": "2605.30753",
+    "doi": "",
+    "official_id": "ICML2026_EFFICIENTDIFFUSIONLLMSVIATEMPORALSPATIALPARALLELDECODINGANDCONFIDENCEE",
+    "paper_url": "https://arxiv.org/abs/2605.30753",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 direct dLLM inference acceleration; trace-aware temporal-spatial control fixes converged tokens early and confidence extrapolation supports safe look-ahead, reducing redundant denoising while composing with KV caching.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Speculative Decoding",
+      "GPU Kernel / DSL / Compiler",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "Efficient Distributed MLLM Training with Cornstarch",
     "venue": "ICML 2026",
     "topic": "distributed MLLM training / pipeline parallelism / context parallelism / workload balancing",
@@ -8696,6 +8742,26 @@
       "Speculative Decoding",
       "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "Efficient RL Training for LLMs with Experience Replay",
+    "venue": "ICML 2026",
+    "topic": "LLM RL post-training / rollout compute / experience replay",
+    "arxiv": "2604.08706",
+    "doi": "",
+    "official_id": "ICML2026_EFFICIENTRLTRAININGFORLLMSWITHEXPERIENCEREPLAY",
+    "paper_url": "https://arxiv.org/abs/2604.08706",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 direct post-training efficiency work; shows well-designed replay buffers can substantially reduce expensive rollout generation compute without degrading final model quality.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -8904,6 +8970,28 @@
       "Sparsity / Pruning",
       "Efficient Attention",
       "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "Flash-VAED: Plug-and-Play VAE Decoders for Efficient Video Generation",
+    "venue": "ICML 2026",
+    "topic": "video generation acceleration / VAE decoder / pruning / operator optimization",
+    "arxiv": "2602.19161",
+    "doi": "",
+    "official_id": "ICML2026_FLASHVAEDPLUGANDPLAYVAEDECODERSFOREFFICIENTVIDEOGENERATION",
+    "paper_url": "https://arxiv.org/abs/2602.19161",
+    "code_url": "https://github.com/Aoko955/Flash-VAED",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 direct end-to-end video-generation systems work; accelerates VAE decoding by ~6x and improves whole generation pipeline latency by up to 36% while preserving quality.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Video / Image Generation"
     ]
   },
   {
@@ -9143,6 +9231,76 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Quantization",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "LiftQuant: Continuous Bit-Width Control for Pareto-Optimal LLM Deployment",
+    "venue": "ICML 2026",
+    "topic": "quantization / fractional bit-width / memory-constrained LLM deployment",
+    "arxiv": "2606.04050",
+    "doi": "",
+    "official_id": "ICML2026_LIFTQUANTCONTINUOUSBITWIDTHCONTROLFORPARETOOPTIMALLLMDEPLOYMENT",
+    "paper_url": "https://arxiv.org/abs/2606.04050",
+    "code_url": "https://github.com/Heliulu/LiftQuant",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Spotlight. Continuous effective bit-width enables Pareto-optimal LLM fitting under exact GPU memory budgets; a 70B model can be fit at ~2.4 bits with a hardware-friendly decoding path.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "Light Forcing: Accelerating Autoregressive Video Diffusion via Sparse Attention",
+    "venue": "ICML 2026",
+    "topic": "video generation acceleration / autoregressive video / sparse attention / kernels",
+    "arxiv": "2602.04789",
+    "doi": "",
+    "official_id": "ICML2026_LIGHTFORCINGACCELERATINGAUTOREGRESSIVEVIDEODIFFUSIONVIASPARSEATTENTION",
+    "paper_url": "https://arxiv.org/abs/2602.04789",
+    "code_url": "https://github.com/chengtao-lv/LightForcing",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 direct video-generation efficiency work; chunk-aware hierarchical sparse attention gives ~1.2-1.3x E2E alone and ~2-3x with deployment optimizations; official repository provides sparse kernels and quantized deployment paths.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler",
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "LightningRL: Breaking the Accuracy-Parallelism Trade-off of Block-wise dLLMs via Reinforcement Learning",
+    "venue": "ICML 2026",
+    "topic": "diffusion LLM / parallel decoding / RL post-training / inference acceleration",
+    "arxiv": "2603.13319",
+    "doi": "",
+    "official_id": "ICML2026_LIGHTNINGRLBREAKINGTHEACCURACYPARALLELISMTRADEOFFOFBLOCKWISEDLLMSVIARE",
+    "paper_url": "https://arxiv.org/abs/2603.13319",
+    "code_url": "https://github.com/SJTU-DENG-Lab/LightningRL",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 direct dLLM acceleration; RL optimizes speed-quality Pareto frontier and the official implementation reports 336 TPS on H100, ~3.2x faster than SDAR while maintaining high accuracy.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Speculative Decoding",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference",
+      "Diffusion / Flow Acceleration",
       "Efficient Reasoning / Agents"
     ]
   },
@@ -9404,6 +9562,28 @@
     ]
   },
   {
+    "title": "Prism: Efficient Test-Time Scaling via Hierarchical Search and Self-Verification for Discrete Diffusion Language Models",
+    "venue": "ICML 2026",
+    "topic": "efficient reasoning / diffusion language models / test-time scaling",
+    "arxiv": "2602.01842",
+    "doi": "",
+    "official_id": "ICML2026_PRISMEFFICIENTTESTTIMESCALINGVIAHIERARCHICALSEARCHANDSELFVERIFICATIONF",
+    "paper_url": "https://arxiv.org/abs/2602.01842",
+    "code_url": "https://github.com/viiika/Prism",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 efficient test-time scaling for dLLMs; hierarchical trajectory search, partial remasking and self-verification match Best-of-N quality with substantially fewer function evaluations.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Diffusion / Flow Acceleration",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "Prism: Spectral-Aware Block-Sparse Attention",
     "venue": "ICML 2026",
     "topic": "efficient attention / long-context prefill / Triton kernels",
@@ -9537,6 +9717,28 @@
     ]
   },
   {
+    "title": "Reasoning-VLA: An Efficient and Spatial-Guided General Vision-Language-Action Reasoning Model for Autonomous Driving",
+    "venue": "ICML 2026",
+    "topic": "Physical AI / VLA / autonomous driving / parallel action generation",
+    "arxiv": "2511.19912",
+    "doi": "",
+    "official_id": "ICML2026_REASONINGVLAANEFFICIENTANDSPATIALGUIDEDGENERALVISIONLANGUAGEACTIONREAS",
+    "paper_url": "https://arxiv.org/abs/2511.19912",
+    "code_url": "https://github.com/xipi702/Reasoning-VLA",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Physical-AI protected canonical; learnable action queries generate continuous trajectories in parallel and the paper explicitly targets faster VLA action inference while improving generalization.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "RelayCaching: Accelerating LLM Collaboration via Decoding KV Cache Reuse",
     "venue": "ICML 2026",
     "topic": "multi-agent LLM serving / decoding-KV reuse / prefill acceleration",
@@ -9601,6 +9803,95 @@
     ]
   },
   {
+    "title": "RSTR: Reducing SpatioTemporal Redundancy in Diffusion Transformers",
+    "venue": "ICML 2026",
+    "topic": "diffusion acceleration / compute reduction / guidance scheduling / adaptive rank",
+    "arxiv": "2512.14096",
+    "doi": "",
+    "official_id": "ICML2026_RSTRREDUCINGSPATIOTEMPORALREDUNDANCYINDIFFUSIONTRANSFORMERS",
+    "paper_url": "https://arxiv.org/abs/2512.14096",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 direct diffusion efficiency work; jointly removes temporal CFG and spatial calibration redundancy, reporting 50-70% compute savings and up to 3.43x speedup on Qwen-Image with preserved quality.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "RT-Lynx: Putting the GEMM Sparsity In a Right Way for Diffusion Models",
+    "venue": "ICML 2026",
+    "topic": "diffusion acceleration / activation sparsity / CUDA kernels",
+    "arxiv": "2605.26632",
+    "doi": "",
+    "official_id": "ICML2026_RTLYNXPUTTINGTHEGEMMSPARSITYINARIGHTWAYFORDIFFUSIONMODELS",
+    "paper_url": "https://arxiv.org/abs/2605.26632",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 direct diffusion inference acceleration; N:M activation sparsity plus error compensation and optimized CUDA kernels yields up to ~1.55x linear-layer speedup with preserved quality.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "GPU Kernel / DSL / Compiler",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "RTInfer: Real-Time Inference of Multiple DNNs on Edge GPUs",
+    "venue": "ICML 2026",
+    "topic": "edge AI systems / real-time inference / GPU scheduling",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICML2026_RTINFERREALTIMEINFERENCEOFMULTIPLEDNNSONEDGEGPUS",
+    "paper_url": "https://dongw.emnets.cn/",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 direct edge-inference systems work; concurrent real-time DNN execution with accuracy-calibrated model variants, memory-layout-aware scheduling and on-demand loading reduces average deadline-miss rate from 32.8% to 0%.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "RTPrune: Reading-Twice Inspired Token Pruning for Efficient DeepSeek-OCR Inference",
+    "venue": "ICML 2026",
+    "topic": "multimodal inference / visual token pruning / OCR",
+    "arxiv": "2605.00392",
+    "doi": "",
+    "official_id": "ICML2026_RTPRUNEREADINGTWICEINSPIREDTOKENPRUNINGFOREFFICIENTDEEPSEEKOCRINFERENC",
+    "paper_url": "https://arxiv.org/abs/2605.00392",
+    "code_url": "https://github.com/BurnWan/RTPrune",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 direct multimodal inference acceleration; training-free dynamic two-stage visual-token pruning retains 99.47% accuracy while reducing prefill time by ~18.9% / 1.23x on OmniDocBench.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
     "title": "SALE : Low-bit Estimation for Efficient Sparse Attention in Long-context LLM Prefilling",
     "venue": "ICML 2026",
     "topic": "efficient attention / low-bit estimation / long-context prefill",
@@ -9623,6 +9914,26 @@
       "Sparsity / Pruning",
       "Efficient Attention",
       "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "Scalable Power Sampling: Unlocking Efficient, Training-Free Reasoning for LLMs via Distribution Sharpening",
+    "venue": "ICML 2026",
+    "topic": "efficient reasoning / test-time inference / training-free sampling",
+    "arxiv": "2601.21590",
+    "doi": "",
+    "official_id": "ICML2026_SCALABLEPOWERSAMPLINGUNLOCKINGEFFICIENTTRAININGFREEREASONINGFORLLMSVIA",
+    "paper_url": "https://arxiv.org/abs/2601.21590",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 efficient-reasoning work; replaces costly iterative MCMC power sampling with an autoregressive approximation and reports over 10x lower inference latency than MCMC while matching or surpassing one-shot GRPO without external rewards.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -9712,6 +10023,28 @@
       "Sparsity / Pruning",
       "Efficient Attention",
       "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "SGMD: Score Gradient Matching Distillation for Few-Step Video Diffusion Distillation",
+    "venue": "ICML 2026",
+    "topic": "video generation acceleration / diffusion distillation / few-step generation",
+    "arxiv": "2605.30116",
+    "doi": "",
+    "official_id": "ICML2026_SGMDSCOREGRADIENTMATCHINGDISTILLATIONFORFEWSTEPVIDEODIFFUSIONDISTILLAT",
+    "paper_url": "https://arxiv.org/abs/2605.30116",
+    "code_url": "https://github.com/ModelTC/LightX2V",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 direct video-generation efficiency work; score-gradient matching distillation reduces DMD-style training overhead by ~3x and produces 4-step video generators with improved motion dynamics.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
     ]
   },
   {

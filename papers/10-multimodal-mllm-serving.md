@@ -1,6 +1,6 @@
 # 10 · Multimodal / MLLM Serving
 
-> **108 canonical papers** mapped here, plus a broader **30-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **110 canonical papers** mapped here, plus a broader **30-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -39,7 +39,7 @@
 | **P1 · Watch** | **Omni-Prune: Query-Aware Unified Token Pruning for Efficient Omnimodal Large Language Models** | Fresh / preprint | llm_serving / sparse / edge | [Link](https://arxiv.org/abs/2607.23445) | — |
 | **P2 · Relevant** | **Structured Redundancy Modeling for Efficient Visual Token Pruning in High-Resolution MLLMs** | Fresh / preprint | llm_serving / sparse / multimodal / edge | [Link](https://arxiv.org/abs/2607.23046) | — |
 
-## 🏛️ Classical / Historical · 101 canonical
+## 🏛️ Classical / Historical · 103 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -115,6 +115,8 @@
 | **Canonical** | **Decouple and Cache: KV Cache Construction for Streaming Video Understanding** | ICML 2026 | multimodal serving / streaming video / KV cache | [Link](https://arxiv.org/abs/2605.01858) | [Repo](https://github.com/pangzhan27/DSCache) |
 | **Canonical** | **Efficient Distributed MLLM Training with Cornstarch** | ICML 2026 | distributed MLLM training / pipeline parallelism / context parallelism / workload balancing | [Link](https://arxiv.org/abs/2503.11367) | [Repo](https://github.com/cornstarch-org/Cornstarch) |
 | **Canonical** | **InfoFlow KV: Information-Flow-Aware KV Recomputation for Long Context** | ICML 2026 | KV cache / long-context RAG / selective recomputation | [Link](https://arxiv.org/abs/2603.05353) | [Repo](https://github.com/Canyu-Zhang/kv-cache-optimization) |
+| **Canonical** | **Reasoning-VLA: An Efficient and Spatial-Guided General Vision-Language-Action Reasoning Model for Autonomous Driving** | ICML 2026 | Physical AI / VLA / autonomous driving / parallel action generation | [Link](https://arxiv.org/abs/2511.19912) | [Repo](https://github.com/xipi702/Reasoning-VLA) |
+| **Canonical** | **RTPrune: Reading-Twice Inspired Token Pruning for Efficient DeepSeek-OCR Inference** | ICML 2026 | multimodal inference / visual token pruning / OCR | [Link](https://arxiv.org/abs/2605.00392) | [Repo](https://github.com/BurnWan/RTPrune) |
 | **Canonical** | **SCALE: Self-uncertainty Conditioned Adaptive Looking and Execution for Vision-Language-Action Models** | ICML 2026 | Physical AI / VLA inference / test-time scaling / single-pass adaptive execution | [Link](https://arxiv.org/abs/2602.04208) | [Repo](https://github.com/snumprlab/scale) |
 | **Canonical** | **SpecPrune-VLA: Accelerating Vision-Language-Action Models via Action-Aware Self-Speculative Pruning** | ICML 2026 | Physical AI / VLA inference / token pruning / self-speculative acceleration | [Link](https://arxiv.org/abs/2509.05614) | [Repo](https://github.com/alexwhz-sjtu/SpecPrune-VLA) |
 | **Canonical** | **TGV-KV: Text-Grounded KV Eviction for Vision-Language Models** | ICML 2026 | multimodal inference / VLM KV cache / eviction / memory and throughput | [Link](https://arxiv.org/abs/2606.03075) | [Repo](https://github.com/Danielement321/TGV-KV) |

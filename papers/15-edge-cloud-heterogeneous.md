@@ -1,6 +1,6 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **189 canonical papers** mapped here, plus a broader **69-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **191 canonical papers** mapped here, plus a broader **69-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -78,7 +78,7 @@
 | **P2 · Relevant** | **HEMERA: A Heterogeneous Memory-Centric Accelerator with Recursive Dataflow for Edge-Constrained State-Space-Duality Models Inference** | Fresh / preprint | llm_serving / edge | [Link](https://arxiv.org/abs/2607.22022) | — |
 | **P2 · Relevant** | **Unified Static-Dynamic Pruning for Efficient LLM Inference** | Fresh / preprint | llm_serving / sparse / kernel / edge | [Link](https://arxiv.org/abs/2607.21985) | — |
 
-## 🏛️ Classical / Historical · 178 canonical
+## 🏛️ Classical / Historical · 180 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -146,6 +146,7 @@
 | **Canonical** | **Accelerating LLM Inference with Lossless Speculative Decoding Algorithms for Heterogeneous Vocabularies** | ICML 2025 | speculative decoding | — | — |
 | **Canonical** | **DLP: Dynamic Layerwise Pruning in Large Language Models** | ICML 2025 | LLM pruning | — | — |
 | **Canonical** | **QuantSpec: Self-Speculative Decoding with Hierarchical Quantized KV Cache** | ICML 2025 | speculative decoding / KV quantization | — | — |
+| **Canonical** | **ASTRA: Communication-Efficient Acceleration for Multi-Device Transformer Inference** | ICML 2026 | distributed inference / communication compression / multi-device transformer | [Link](https://arxiv.org/abs/2505.19342) | — |
 | **Canonical** | **Beyond Prediction: Tail-Aware Scheduling for LLM Inference** | ICML 2026 | LLM serving / tail-aware scheduling / KV-aware preemption / SLO optimization | [Link](https://arxiv.org/abs/2606.18431) | — |
 | **Canonical** | **Efficient Distributed MLLM Training with Cornstarch** | ICML 2026 | distributed MLLM training / pipeline parallelism / context parallelism / workload balancing | [Link](https://arxiv.org/abs/2503.11367) | [Repo](https://github.com/cornstarch-org/Cornstarch) |
 | **Canonical** | **EpiCache: Episodic KV Cache Management for Long-Term Conversation on Resource-Constrained Environments** | ICML 2026 | KV cache / long-term conversation / memory-bounded inference / edge-resource-constrained serving | [Link](https://arxiv.org/abs/2509.17396) | [Repo](https://github.com/apple/ml-epicache) |
@@ -155,6 +156,7 @@
 | **Canonical** | **OServe: Accelerating LLM Serving via Spatial-Temporal Workload Orchestration** | ICML 2026 | LLM serving / heterogeneous deployment / scheduling | [Link](https://arxiv.org/abs/2602.12151) | — |
 | **Canonical** | **PipeSD: An Efficient Cloud-Edge Collaborative Pipeline Inference Framework with Speculative Decoding** | ICML 2026 | cloud-edge LLM inference / speculative decoding / pipeline scheduling | [Link](https://arxiv.org/abs/2605.13319) | — |
 | **Canonical** | **RACER: Risk-Aware Calibrated Efficient Routing for Large Language Models** | ICML 2026 | LLM routing / cost-performance / calibrated model selection | [Link](https://arxiv.org/abs/2603.06616) | — |
+| **Canonical** | **RTInfer: Real-Time Inference of Multiple DNNs on Edge GPUs** | ICML 2026 | edge AI systems / real-time inference / GPU scheduling | — | — |
 | **Canonical** | **SparseInfer: Accelerating Large Language Model Inference with Semantics-Inspired Adaptive Sparse Activation** | ICML 2026 | LLM inference / adaptive sparse activation / edge efficiency | [Link](https://arxiv.org/abs/2410.18311) | — |
 | **Canonical** | **Understand and Accelerate Memory Processing Pipeline for Large Language Model Inference** | ICML 2026 | LLM memory processing / GPU-FPGA heterogeneous acceleration | [Link](https://arxiv.org/abs/2603.29002) | — |
 | **Canonical** | **ZipMoE: Efficient On-Device MoE Serving via Lossless Compression and Cache-Affinity Scheduling** | ICML 2026 | MoE serving / on-device inference / lossless compression / cache-affinity scheduling | [Link](https://arxiv.org/abs/2601.21198) | — |
