@@ -1,6 +1,6 @@
 # 🆕 Latest 30 Days
 
-> Rolling 30-day view ending **2026-08-24**: **200 tracked papers = 47 P0 + 47 P1 + 106 P2**. Topical relevance determines visibility; quality determines priority. The classical census remains stricter.
+> Rolling 30-day view ending **2026-08-24**: **201 tracked papers = 47 P0 + 48 P1 + 106 P2**. Topical relevance determines visibility; quality determines priority. The classical census remains stricter.
 
 [← Paper Library](ALL_PAPERS.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/latest_30d.json) · [CSV](../data/latest_30d.csv)
 
@@ -101,6 +101,7 @@
 | **P1 · Watch** | **vToken: Token-Level Virtualization for Reclaimable KV Caches** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.13263) | — |
 | **P1 · Watch** | **OpRAG: A Resource-Deterministic Runtime for GPU-Backed Multi-Stage RAG Workflows** | Fresh / preprint | llm_serving / attn / agent | [Link](https://arxiv.org/abs/2608.08340) | — |
 | **P1 · Watch** | **RotaryQuant: Fitting 120B MoE Models on Consumer Hardware via Fused Compressed-Space Attention** | Fresh / preprint | kv / quant / moe | [Link](https://arxiv.org/abs/2608.08081) | — |
+| **P1 · Watch** | **A Two-Tier Perspective on Inference-Time Parallelism in Multi-Agent LLM Systems** | ICML 2026 | efficient agent systems / multi-agent inference / parallel execution / latency-cost tradeoff | [Link](https://arxiv.org/abs/2608.05791) | — |
 | **P1 · Watch** | **Spend Bits Where Queries Look: KV Cache Vector Quantization with Attention-Preserving Transforms** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.04074) | — |
 | **P1 · Watch** | **Heterogeneity-Aware Microscaling for Efficient Low-Bit LLM Inference** | Fresh / preprint | quant / multimodal | [Link](https://arxiv.org/abs/2608.03867) | — |
 | **P1 · Watch** | **AcceptMoE: Commitment-Weighted Self-Sizing Verifier Expert Sets for Efficient MoE Speculative Decoding** | Fresh / preprint | llm_serving / spec / moe / gen | [Link](https://arxiv.org/abs/2608.02989) | — |

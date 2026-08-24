@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-08-24",
   "window_start_beijing": "2026-07-25",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 200,
+  "tracked_total": 201,
   "p0_strong_or_canonical": [
     {
       "title": "FlashPrefill V2: Block-Sparse Prefill Attention for Long-Context LLM Serving",
@@ -1888,6 +1888,27 @@
         "Quantization",
         "Efficient Attention",
         "MoE Systems / Accelerators"
+      ]
+    },
+    {
+      "title": "A Two-Tier Perspective on Inference-Time Parallelism in Multi-Agent LLM Systems",
+      "venue": "ICML 2026",
+      "topic": "efficient agent systems / multi-agent inference / parallel execution / latency-cost tradeoff",
+      "arxiv": "2608.05791",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.05791",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "ICML 2026 and directly relevant to efficient agent execution. TIPEX unifies replica- and structural-parallel inference and demonstrates lower end-to-end latency / improved accuracy tradeoffs on GAIA, but system implementation/deployment evidence is currently thinner than canonical serving work, so retain as P1 Watch pending deeper validation.",
+      "published_at": "2026-08-06T09:26:24Z",
+      "updated_at": "2026-08-06T09:26:24Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -6292,6 +6313,27 @@
         "Quantization",
         "Efficient Attention",
         "MoE Systems / Accelerators"
+      ]
+    },
+    {
+      "title": "A Two-Tier Perspective on Inference-Time Parallelism in Multi-Agent LLM Systems",
+      "venue": "ICML 2026",
+      "topic": "efficient agent systems / multi-agent inference / parallel execution / latency-cost tradeoff",
+      "arxiv": "2608.05791",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.05791",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "ICML 2026 and directly relevant to efficient agent execution. TIPEX unifies replica- and structural-parallel inference and demonstrates lower end-to-end latency / improved accuracy tradeoffs on GAIA, but system implementation/deployment evidence is currently thinner than canonical serving work, so retain as P1 Watch pending deeper validation.",
+      "published_at": "2026-08-06T09:26:24Z",
+      "updated_at": "2026-08-06T09:26:24Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents"
       ]
     },
     {

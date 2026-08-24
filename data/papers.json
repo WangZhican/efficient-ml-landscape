@@ -8192,6 +8192,29 @@
     ]
   },
   {
+    "title": "Attribution-Guided and Coverage-Maximized Pruning for Structural MoE Compression",
+    "venue": "ICML 2026",
+    "topic": "MoE compression / structured pruning / quantization / deployment memory",
+    "arxiv": "2606.18304",
+    "doi": "",
+    "official_id": "2606.18304",
+    "paper_url": "https://arxiv.org/abs/2606.18304",
+    "code_url": "https://github.com/yifu-ding/MoE-Slimming",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Spotlight. Attribution-guided channel scoring and coverage-maximized structured MoE pruning; preserves strong accuracy under 50%/25% pruning with 4-bit quantization and reduces Qwen3-30B-A3B memory footprint by 5.27x.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "Sparsity / Pruning",
+      "MoE Systems / Accelerators"
+    ]
+  },
+  {
     "title": "AugServe: Adaptive Request Scheduling for Augmented Large Language Model Inference Serving",
     "venue": "ICML 2026",
     "topic": "LLM serving / augmented-agent request scheduling",
@@ -8210,6 +8233,47 @@
     "directions": [
       "LLM Serving",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "Automatic Pruning Discovery for Large Language Models",
+    "venue": "ICML 2026",
+    "topic": "LLM pruning / adaptive sparsity / automatic pruning design / edge deployment",
+    "arxiv": "2511.15390",
+    "doi": "",
+    "official_id": "2511.15390",
+    "paper_url": "https://arxiv.org/abs/2511.15390",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. AutoPrune uses LLM-driven pruning-rule discovery plus skew-aware dynamic sparsity allocation, targeting high pruning ratios and deployment efficiency; author/institution sources report up to 90% compression without accuracy loss in evaluated settings.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "AutoQRA: Joint Optimization of Mixed-Precision Quantization and Low-rank Adapters for Efficient LLM Fine-Tuning",
+    "venue": "ICML 2026",
+    "topic": "LLM quantization / LoRA / memory-efficient fine-tuning / mixed precision",
+    "arxiv": "2602.22268",
+    "doi": "",
+    "official_id": "2602.22268",
+    "paper_url": "https://arxiv.org/abs/2602.22268",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. Joint layer-wise optimization of quantization bit-width and LoRA rank under memory budgets via multi-fidelity evolutionary search plus trust-region Bayesian optimization; approaches full-precision fine-tuning quality at roughly uniform-4-bit memory footprint.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization"
     ]
   },
   {
@@ -8518,6 +8582,29 @@
       "GPU Kernel / DSL / Compiler",
       "Video / Image Generation",
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "Dr. Kernel: Reinforcement Learning Done Right for Triton Kernel Generations",
+    "venue": "ICML 2026",
+    "topic": "GPU kernel generation / Triton / distributed RL infrastructure / kernel optimization",
+    "arxiv": "2602.05885",
+    "doi": "",
+    "official_id": "2602.05885",
+    "paper_url": "https://arxiv.org/abs/2602.05885",
+    "code_url": "https://github.com/hkust-nlp/KernelGYM",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. Introduces KernelGYM, a distributed GPU environment for robust multi-turn RL and kernel evaluation, plus TRLOO/profiling rewards; official open-source environment supports distributed GPU task scheduling and the trained model achieves strong KernelBench speedup rates.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -9017,6 +9104,51 @@
     ]
   },
   {
+    "title": "FourTune: Towards Fully 4-Bit Efficient Post-Training for Diffusion Models",
+    "venue": "ICML 2026",
+    "topic": "diffusion model post-training / W4A4G4 quantization / fused kernels / training efficiency",
+    "arxiv": "2607.05711",
+    "doi": "",
+    "official_id": "2607.05711",
+    "paper_url": "https://arxiv.org/abs/2607.05711",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. End-to-end W4A4G4 diffusion post-training with hybrid stabilization, blockwise quantization and fused kernels; on FLUX.1-dev reports 2.25x lower memory and 2.27x higher training throughput than BF16 LoRA while matching quality.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "GPU Kernel / DSL / Compiler",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "Gram2Token: Enabling Run-time GPU-Native Grammar-Constrained Decoding for LLMs",
+    "venue": "ICML 2026",
+    "topic": "LLM serving / GPU-native grammar-constrained decoding / structured generation",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICML2026_GRAM2TOKEN",
+    "paper_url": "https://openreview.net/forum?id=h3K23f6tLU",
+    "code_url": "https://github.com/Paradozile/Gram2Token",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Poster. Preprocesses byte-level grammar execution into token-level GPU-native transitions, eliminating runtime CPU-GPU grammar synchronization; reports 1.38x geometric-mean throughput improvement and up to 1.85x over the strongest baseline under schema-diverse continuous batching.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "GraphFlow: A Graph-Based Workflow Management for Efficient LLM-Agent Serving",
     "venue": "ICML 2026",
     "topic": "agent serving / workflow reuse / KV-cache management",
@@ -9103,6 +9235,27 @@
     "directions": [
       "LLM Serving",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "IAPO: Information-Aware Policy Optimization for Token-Efficient Reasoning",
+    "venue": "ICML 2026",
+    "topic": "efficient reasoning / token-efficient RL / post-training",
+    "arxiv": "2602.19049",
+    "doi": "",
+    "official_id": "2602.19049",
+    "paper_url": "https://arxiv.org/abs/2602.19049",
+    "code_url": "https://github.com/YinhanHe123/IAPO",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. Information-theoretic token-wise advantages suppress low-utility reasoning while preserving or improving correctness; reports up to 36% reasoning-length reduction across reasoning datasets.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -9328,6 +9481,27 @@
     ]
   },
   {
+    "title": "M+Adam: Low-Precision Training via Additive-Multiplicative Optimization",
+    "venue": "ICML 2026",
+    "topic": "low-precision training / FP8 FP4 / optimizer / memory efficiency",
+    "arxiv": "2607.10611",
+    "doi": "",
+    "official_id": "2607.10611",
+    "paper_url": "https://arxiv.org/abs/2607.10611",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. Combines additive and multiplicative updates to train directly with BF16, FP8, and FP4 master weights without higher-precision copies; improves low-precision LLaMA-style pretraining across model scales and budgets.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "ManifoldKV: Training-Free KV Cache Compression via Euclidean Outlier Detection",
     "venue": "ICML 2026",
     "topic": "KV cache compression / training-free eviction / long-context inference",
@@ -9370,6 +9544,69 @@
     ]
   },
   {
+    "title": "Multipole Semantic Attention: A Fast Approximation of Softmax Attention for Pretraining",
+    "venue": "ICML 2026",
+    "topic": "efficient attention / long-context pretraining / attention approximation",
+    "arxiv": "2509.10406",
+    "doi": "",
+    "official_id": "2509.10406",
+    "paper_url": "https://arxiv.org/abs/2509.10406",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. Semantic clustering plus multipole expansions gives subquadratic/drop-in attention; reports 3x isolated-layer speedup over cuDNN FlashAttention at 8k and material end-to-end long-context pretraining runtime reductions with small loss degradation.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Efficient Attention",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "No Retraining at Edge: Efficient Resource-Aware Mixed-Precision Quantization via Federated Supernet Learning",
+    "venue": "ICML 2026",
+    "topic": "edge AI / mixed-precision quantization / federated supernet / resource-adaptive deployment",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICML2026_DFMPQ",
+    "paper_url": "https://openreview.net/forum?id=nHbvQF35ch",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Poster. DFMPQ trains a weight-sharing mixed-precision federated supernet once, then derives resource-aware quantized subnets for changing edge constraints without retraining; directly targets heterogeneous edge deployment cost.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "NorMuon: Making Muon more efficient and scalable",
+    "venue": "ICML 2026",
+    "topic": "distributed LLM training / optimizer / FSDP2 / training efficiency",
+    "arxiv": "2510.05491",
+    "doi": "",
+    "official_id": "2510.05491",
+    "paper_url": "https://arxiv.org/abs/2510.05491",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Spotlight. Neuron-wise normalized Muon with a distributed FSDP2 implementation; Microsoft reports 21.74% better training efficiency than Adam and 11.31% improvement over Muon on 1.1B pretraining with comparable memory footprint.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "Not All Prefills Are Equal: PPD Disaggregation for Multi-turn LLM Serving",
     "venue": "ICML 2026",
     "topic": "LLM serving / prefill-decode disaggregation / multi-turn KV reuse",
@@ -9387,6 +9624,27 @@
     "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving"
+    ]
+  },
+  {
+    "title": "OBCache: Optimal Brain KV Cache Pruning for Efficient Long-Context LLM Inference",
+    "venue": "ICML 2026",
+    "topic": "KV cache / long-context inference / output-aware eviction / pruning",
+    "arxiv": "2510.07651",
+    "doi": "",
+    "official_id": "2510.07651",
+    "paper_url": "https://arxiv.org/abs/2510.07651",
+    "code_url": "https://github.com/DreamSoul-AI/OBCache",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. Formulates KV eviction as structured pruning using output-aware Optimal-Brain-Damage saliency; plug-and-play with H2O/TOVA/SnapKV/AdaKV and consistently improves long-context eviction quality. Official code is built on NVIDIA KVPress.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Sparsity / Pruning"
     ]
   },
   {
@@ -9408,6 +9666,27 @@
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context"
+    ]
+  },
+  {
+    "title": "OSAQ: Outlier Self-Absorption for Accurate Low-bit LLM Quantization",
+    "venue": "ICML 2026",
+    "topic": "LLM quantization / weight-only low-bit PTQ / outlier suppression",
+    "arxiv": "2605.04738",
+    "doi": "",
+    "official_id": "2605.04738",
+    "paper_url": "https://arxiv.org/abs/2605.04738",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. Closed-form Hessian-null-space additive transformation suppresses weight outliers offline with no inference overhead; substantially improves 2-bit GPTQ perplexity.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
@@ -9629,6 +9908,26 @@
     ]
   },
   {
+    "title": "Proxy Compression for Language Modeling",
+    "venue": "ICML 2026",
+    "topic": "language-model training efficiency / byte-level modeling / compressed training views",
+    "arxiv": "2602.04289",
+    "doi": "",
+    "official_id": "2602.04289",
+    "paper_url": "https://arxiv.org/abs/2602.04289",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. Joint training on raw bytes and externally compressed proxy views retains a raw-byte inference interface while improving fixed-compute training efficiency; gains strengthen with scale and approach tokenizer-based models.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "PuzzleMoE: Efficient Compression of Large Mixture-of-Experts Models via Sparse Expert Merging and Bit-packed inference",
     "venue": "ICML 2026",
     "topic": "MoE compression / sparse expert merging / bit-packed inference",
@@ -9780,6 +10079,48 @@
       "LLM Serving",
       "Quantization",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "Resource-Efficient Reinforcement for Reasoning Large Language Models via Dynamic One-Shot Policy Refinement",
+    "venue": "ICML 2026",
+    "topic": "efficient reasoning / RLVR / rollout efficiency / post-training",
+    "arxiv": "2602.00815",
+    "doi": "",
+    "official_id": "2602.00815",
+    "paper_url": "https://arxiv.org/abs/2602.00815",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. Dynamic One-Shot Policy Refinement selects one informative sample per batch for policy updates and reduces RLVR rollout overhead by nearly an order of magnitude while preserving competitive reasoning accuracy.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "ReSpinQuant: Efficient Layer-Wise LLM Quantization via Subspace Residual Rotation Approximation",
+    "venue": "ICML 2026",
+    "topic": "LLM quantization / rotation PTQ / W4A4 W3A3 / inference efficiency",
+    "arxiv": "2604.11080",
+    "doi": "",
+    "official_id": "2604.11080",
+    "paper_url": "https://arxiv.org/abs/2604.11080",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. Resolves runtime overhead of layer-wise rotation PTQ via offline activation-rotation fusion and residual subspace rotation; achieves strong W4A4/W3A3 accuracy with negligible inference overhead.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {
@@ -10462,6 +10803,31 @@
     ]
   },
   {
+    "title": "VidLaDA: Bidirectional Diffusion Large Language Models for Efficient Video Understanding",
+    "venue": "ICML 2026",
+    "topic": "multimodal / video LLM / diffusion language model / MARS-Cache / parallel decoding",
+    "arxiv": "2601.17868",
+    "doi": "",
+    "official_id": "2601.17868",
+    "paper_url": "https://arxiv.org/abs/2601.17868",
+    "code_url": "https://github.com/ziHoHe/VidLaDA",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 regular. Diffusion-based Video LLM with bidirectional attention and MARS-Cache (asynchronous visual-cache refresh plus frame-wise chunk attention); reports over 12x inference speedup without compromising reasoning accuracy.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Speculative Decoding",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler",
+      "Multimodal / MLLM Serving",
+      "Diffusion / Flow Acceleration",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "WarmServe: Enabling One-for-Many GPU Prewarming for Multi-LLM Serving",
     "venue": "ICML 2026",
     "topic": "LLM serving / multi-model autoscaling / GPU prewarming / KV-cache-aware memory management",
@@ -10503,6 +10869,28 @@
       "LLM Serving",
       "Speculative Decoding",
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "WUSH: Near-Optimal Adaptive Transforms for LLM Quantization",
+    "venue": "ICML 2026",
+    "topic": "LLM quantization / W4A4 / adaptive transforms / FP4 GPU kernels",
+    "arxiv": "2512.00956",
+    "doi": "",
+    "official_id": "2512.00956",
+    "paper_url": "https://arxiv.org/abs/2512.00956",
+    "code_url": "https://github.com/IST-DASLab/WUSH",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. Data-aware near-optimal blockwise transform for joint weight-activation quantization with fused Triton/CUDA implementations; official repository reports +2.8 points over strong Hadamard W4A4 baseline and up to 5.8x per-layer throughput over BF16 via FP4 matmul.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {
