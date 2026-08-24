@@ -1,10 +1,10 @@
 # 🧭 Research Map
 
-> **912 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
+> **917 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
 
 <div align="center">
 
-[**🆕 Latest 30 Days · 212 tracked**](LATEST_30D.md) · [**🏛️ Classical · 864**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
+[**🆕 Latest 30 Days · 212 tracked**](LATEST_30D.md) · [**🏛️ Classical · 869**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
 
 </div>
 
@@ -12,19 +12,19 @@
 
 | # | Research direction | Canonical | Latest 30d tracked |
 |---:|---|---:|---:|
-| 01 | [**LLM Serving**](01-llm-serving.md) | **403** | **150** |
-| 02 | [**Speculative Decoding**](02-speculative-decoding.md) | **130** | **18** |
-| 03 | [**KV Cache / Long Context**](03-kv-cache-long-context.md) | **255** | **35** |
+| 01 | [**LLM Serving**](01-llm-serving.md) | **405** | **150** |
+| 02 | [**Speculative Decoding**](02-speculative-decoding.md) | **131** | **18** |
+| 03 | [**KV Cache / Long Context**](03-kv-cache-long-context.md) | **257** | **35** |
 | 04 | [**Quantization**](04-quantization.md) | **118** | **37** |
-| 05 | [**Sparsity / Pruning**](05-sparsity-pruning.md) | **145** | **49** |
-| 06 | [**Efficient Attention**](06-efficient-attention.md) | **134** | **37** |
+| 05 | [**Sparsity / Pruning**](05-sparsity-pruning.md) | **148** | **49** |
+| 06 | [**Efficient Attention**](06-efficient-attention.md) | **138** | **37** |
 | 07 | [**MoE Systems / Accelerators**](07-moe-systems.md) | **63** | **23** |
-| 08 | [**GPU Kernel / DSL / Compiler**](08-gpu-kernel-compiler.md) | **321** | **66** |
+| 08 | [**GPU Kernel / DSL / Compiler**](08-gpu-kernel-compiler.md) | **324** | **66** |
 | 09 | [**Distributed Training / Inference**](09-distributed-training-inference.md) | **141** | **20** |
 | 10 | [**Multimodal / MLLM Serving**](10-multimodal-mllm-serving.md) | **113** | **33** |
-| 11 | [**Video / Image Generation**](11-video-image-generation.md) | **35** | **13** |
-| 12 | [**Diffusion / Flow Acceleration**](12-diffusion-flow.md) | **128** | **24** |
-| 13 | [**Efficient Reasoning / Agents**](13-efficient-reasoning-agents.md) | **132** | **34** |
+| 11 | [**Video / Image Generation**](11-video-image-generation.md) | **36** | **13** |
+| 12 | [**Diffusion / Flow Acceleration**](12-diffusion-flow.md) | **130** | **24** |
+| 13 | [**Efficient Reasoning / Agents**](13-efficient-reasoning-agents.md) | **133** | **34** |
 | 14 | [**VLA / WAM / Physical AI**](14-physical-ai-vla-wam.md) | **50** | **37** |
 | 15 | [**Edge / Cloud / Heterogeneous AI**](15-edge-cloud-heterogeneous.md) | **198** | **72** |
 

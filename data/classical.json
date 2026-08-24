@@ -8035,6 +8035,29 @@
     ]
   },
   {
+    "title": "AdaSplash-2: Faster Differentiable Sparse Attention",
+    "venue": "ICML 2026",
+    "topic": "efficient attention / differentiable sparse attention / Triton GPU kernel / long-context training",
+    "arxiv": "2604.15180",
+    "doi": "",
+    "official_id": "2604.15180",
+    "paper_url": "https://arxiv.org/abs/2604.15180",
+    "code_url": "https://github.com/deep-spin/adasplash",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 regular. Histogram-initialized entmax thresholding plus sparsity-aware GPU execution reduces threshold solving to typically 1-2 iterations and matches or improves FlashAttention-2 step time when block sparsity exceeds about 60%.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "Agent JIT Compilation for Latency-Optimizing Web Agent Planning and Scheduling",
     "venue": "ICML 2026",
     "topic": "efficient reasoning / agent systems / computer-use agent runtime / JIT planning and scheduling",
@@ -10610,6 +10633,26 @@
     ]
   },
   {
+    "title": "SEMA: a Scalable and Efficient Mamba like Attention via Token Localization and Averaging",
+    "venue": "ICML 2026",
+    "topic": "efficient attention / Mamba-like attention / scalable vision transformer",
+    "arxiv": "2506.08297",
+    "doi": "",
+    "official_id": "2506.08297",
+    "paper_url": "https://arxiv.org/abs/2506.08297",
+    "code_url": "https://github.com/nhatthanhtran/SEMA",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. Replaces quadratic full attention with token-localized Mamba-like attention plus global averaging, targeting scalable attention while retaining focusing behavior and favorable high-resolution scaling.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Attention"
+    ]
+  },
+  {
     "title": "SGMD: Score Gradient Matching Distillation for Few-Step Video Diffusion Distillation",
     "venue": "ICML 2026",
     "topic": "video generation acceleration / diffusion distillation / few-step generation",
@@ -11130,6 +11173,77 @@
     "directions": [
       "GPU Kernel / DSL / Compiler",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "VectorWorld: Efficient Streaming World Model via Diffusion Flow on Vector Graphs",
+    "venue": "ICML 2026",
+    "topic": "Physical AI / streaming world model / autonomous-driving simulation / one-step diffusion-flow generation",
+    "arxiv": "2603.17652",
+    "doi": "",
+    "official_id": "2603.17652",
+    "paper_url": "https://arxiv.org/abs/2603.17652",
+    "code_url": "https://github.com/jiangchaokang/VectorWorld",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Spotlight. Streaming vector-graph world model for closed-loop autonomous-driving simulation; solver-free one-step masked completion supports real-time generation and stable kilometer-scale rollouts, directly relevant to efficient Physical-AI world-model runtime.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Diffusion / Flow Acceleration",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "Veda: Scalable Video Diffusion via Distilled Sparse Attention",
+    "venue": "ICML 2026",
+    "topic": "video diffusion acceleration / distilled sparse attention / tile-sparse GPU kernel",
+    "arxiv": "2605.30325",
+    "doi": "",
+    "official_id": "2605.30325",
+    "paper_url": "https://arxiv.org/abs/2605.30325",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. Distills full-attention tile geometry into head-aware sparse masks and executes them with a hardware-aligned tile-skipping kernel; reports 5.1x end-to-end and 10.5x attention speedup for 720P long-video generation at preserved quality.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler",
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "Vegas: Self-Speculative Decoding with Verification-Guided Sparse Attention",
+    "venue": "ICML 2026",
+    "topic": "speculative decoding / sparse attention / KV-cache selection / vLLM serving",
+    "arxiv": "2602.07223",
+    "doi": "",
+    "official_id": "2602.07223",
+    "paper_url": "https://arxiv.org/abs/2602.07223",
+    "code_url": "https://github.com/platformxlab/vegas",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. Reuses verification-time attention importance to select KV entries for sparse self-speculative drafting, avoiding a standalone selector; reports 1.25-2.81x throughput over default vLLM and further gains over prior sparse self-speculation.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Efficient Attention"
     ]
   },
   {
