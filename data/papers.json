@@ -8585,6 +8585,27 @@
     ]
   },
   {
+    "title": "Do Transformers Need Three Projections? A Systematic Study of QKV Variants",
+    "venue": "ICML 2026",
+    "topic": "efficient attention architecture / KV-cache reduction / projection sharing",
+    "arxiv": "2606.04032",
+    "doi": "",
+    "official_id": "2606.04032",
+    "paper_url": "https://arxiv.org/abs/2606.04032",
+    "code_url": "https://github.com/Brainchip-Inc/Do-Transformers-Need-3-Projections",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. Systematic projection-sharing study; Q!=K=V achieves 50% KV-cache reduction with ~3.1% perplexity degradation, and composes with head sharing for much larger cache reductions. Official code/checkpoints released.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Efficient Attention"
+    ]
+  },
+  {
     "title": "Dr. Kernel: Reinforcement Learning Done Right for Triton Kernel Generations",
     "venue": "ICML 2026",
     "topic": "GPU kernel generation / Triton / distributed RL infrastructure / kernel optimization",
@@ -10455,6 +10476,26 @@
     ]
   },
   {
+    "title": "Small Generalizable Prompt Predictive Models Can Steer Efficient RL Post-Training of Large Reasoning Models",
+    "venue": "ICML 2026",
+    "topic": "efficient reasoning / RL post-training / rollout compute allocation",
+    "arxiv": "2602.01970",
+    "doi": "",
+    "official_id": "2602.01970",
+    "paper_url": "https://arxiv.org/abs/2602.01970",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. GPS uses a lightweight generalizable predictive model for online prompt selection and test-time compute allocation, targeting rollout-intensive RLVR training efficiency and final reasoning efficiency.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "SmartThinker: Progressive Chain-of-Thought Length Calibration for Efficient Large Language Model Reasoning",
     "venue": "ICML 2026",
     "topic": "efficient reasoning / RL post-training / chain-of-thought length control",
@@ -10913,6 +10954,26 @@
       "LLM Serving",
       "KV Cache / Long Context",
       "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "When Drafts Evolve: Speculative Decoding Meets Online Learning",
+    "venue": "ICML 2026",
+    "topic": "speculative decoding / online draft adaptation / inference acceleration",
+    "arxiv": "2603.12617",
+    "doi": "",
+    "official_id": "2603.12617",
+    "paper_url": "https://arxiv.org/abs/2603.12617",
+    "code_url": "https://github.com/ZinYY/OnlineSPEC",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. OnlineSpec exploits free verifier feedback to continuously adapt/ensemble draft models; reports up to 24% speedup across seven benchmarks and three foundation models. Official repository has substantial community adoption.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Speculative Decoding"
     ]
   },
   {
