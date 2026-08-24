@@ -9452,6 +9452,27 @@
     ]
   },
   {
+    "title": "Learning to Evict from Key-Value Cache",
+    "venue": "ICML 2026",
+    "topic": "KV cache / long-context inference / learned eviction / reinforcement learning",
+    "arxiv": "2602.10238",
+    "doi": "",
+    "official_id": "2602.10238",
+    "paper_url": "https://arxiv.org/abs/2602.10238",
+    "code_url": "https://github.com/apple/ml-learning-to-evict",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Apple work introducing KV Policy (KVP), lightweight per-head RL agents that learn future-utility-based eviction rankings from generation traces; outperforms heuristic eviction across RULER up to 128K and multi-turn dialogue while requiring no modification to the base LLM or extra inference passes.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "Less Is More: Training-Free Sparse Attention with Global Locality for Efficient Reasoning",
     "venue": "ICML 2026",
     "topic": "efficient reasoning / sparse attention / KV-cache decoding",
@@ -11173,6 +11194,27 @@
     "directions": [
       "GPU Kernel / DSL / Compiler",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Variational Speculative Decoding: Rethinking Draft Training from Token Likelihood to Sequence Acceptance",
+    "venue": "ICML 2026",
+    "topic": "speculative decoding / draft-model training / LLM and MLLM inference acceleration",
+    "arxiv": "2602.05774",
+    "doi": "",
+    "official_id": "2602.05774",
+    "paper_url": "https://arxiv.org/abs/2602.05774",
+    "code_url": "https://github.com/LV-Lab-SMU/VSD",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. Recasts draft-model training as variational inference over accepted draft paths and directly optimizes sequence-level acceptance; reports up to about 9.6% speedup over EAGLE-3 and 7.9-8.8% over ViSpec across LLM/MLLM settings. ICML identity independently confirmed by SMU and senior-author publication pages.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Speculative Decoding",
+      "Multimodal / MLLM Serving"
     ]
   },
   {
