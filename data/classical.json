@@ -8035,6 +8035,69 @@
     ]
   },
   {
+    "title": "Agent JIT Compilation for Latency-Optimizing Web Agent Planning and Scheduling",
+    "venue": "ICML 2026",
+    "topic": "efficient reasoning / agent systems / computer-use agent runtime / JIT planning and scheduling",
+    "arxiv": "2605.21470",
+    "doi": "",
+    "official_id": "2605.21470",
+    "paper_url": "https://arxiv.org/abs/2605.21470",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. Compiles computer-use-agent tasks into executable plans and uses Monte-Carlo latency-aware scheduling/parallelization; Stanford MAST reports 10.4x speedup over Browser-Use and 2.4x over OpenAI CUA with accuracy gains.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "Agent-Omit: Adaptive Context Omission for Efficient LLM Agents",
+    "venue": "ICML 2026",
+    "topic": "efficient reasoning / agent systems / adaptive context omission / agentic RL",
+    "arxiv": "2602.04284",
+    "doi": "",
+    "official_id": "2602.04284",
+    "paper_url": "https://arxiv.org/abs/2602.04284",
+    "code_url": "https://github.com/usail-hkust/Agent-Omit",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. Trains agents to omit redundant thoughts and observations using omission-aware agentic RL, directly reducing multi-turn context/computation while preserving agent effectiveness across five domains.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "AgentVocab: Structure-Aware Vocabulary Adaptation for Efficient LLM Agents",
+    "venue": "ICML 2026",
+    "topic": "efficient reasoning / agent systems / vocabulary adaptation / tool-calling inference",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "",
+    "paper_url": "https://www.li-jing.com/paperlist.html",
+    "code_url": "https://github.com/Starry-159/AgentVocab",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. Adapts vocabulary to repetitive tool-calling structure/content, reducing tokenization and decoding overhead; author-reported latency reductions are about 15-25% while preserving tool-calling performance.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "ArborKV: Structure-Aware KV Cache Management for Scaling Tree-based LLM Reasoning",
     "venue": "ICML 2026",
     "topic": "KV cache / tree-based LLM reasoning / memory management",
@@ -8321,6 +8384,27 @@
       "Speculative Decoding",
       "Distributed Training / Inference",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "Budget-Constrained Step-Level Diffusion Caching",
+    "venue": "ICML 2026",
+    "topic": "diffusion acceleration / step-level caching / fixed-budget inference",
+    "arxiv": "2606.13496",
+    "doi": "",
+    "official_id": "2606.13496",
+    "paper_url": "https://arxiv.org/abs/2606.13496",
+    "code_url": "https://github.com/Westlake-AGI-Lab/BudCache",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. BudCache optimizes diffusion cache policies under an explicit compute budget via offline search and cache-aware schedule alignment, improving FLUX.1-dev/Wan2.1 quality under the same inference budget without online search overhead.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
@@ -10588,6 +10672,28 @@
     ]
   },
   {
+    "title": "SPA-Cache: Singular Proxies for Adaptive Caching in Diffusion Language Models",
+    "venue": "ICML 2026",
+    "topic": "diffusion language model / adaptive caching / inference acceleration",
+    "arxiv": "2602.02544",
+    "doi": "",
+    "official_id": "2602.02544",
+    "paper_url": "https://arxiv.org/abs/2602.02544",
+    "code_url": "https://github.com/wenhao728/spa-cache",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. Low-dimensional singular proxies identify update-critical tokens and adaptive layer-wise budgets reduce DLM recomputation; reports up to 8x throughput over vanilla decoding and 2-4x over prior caching baselines.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "Sparse ActionGen: Accelerating Diffusion Policy with Real-time Pruning",
     "venue": "ICML 2026",
     "topic": "Physical AI / diffusion-policy acceleration / pruning+reuse",
@@ -11024,6 +11130,29 @@
     "directions": [
       "GPU Kernel / DSL / Compiler",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Video-SVD: Efficient Video Diffusion via Orthogonal Basis Composition",
+    "venue": "ICML 2026",
+    "topic": "video generation acceleration / efficient attention / low-rank basis composition",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "",
+    "paper_url": "https://openreview.net/forum?id=jsqpBopQuS",
+    "code_url": "https://github.com/ICTMCG/Video-SVD",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. Training-free orthogonal attention-basis composition bypasses dense QK^T while compensating residual detail; official implementation reports 1.75-1.92x end-to-end speedups on Wan2.1 and HunyuanVideo.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler",
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
