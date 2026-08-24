@@ -1,6 +1,6 @@
 # 05 · Sparsity / Pruning
 
-> **141 canonical papers** mapped here, plus a broader **48-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **143 canonical papers** mapped here, plus a broader **48-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -57,7 +57,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 136 canonical
+## 🏛️ Classical / Historical · 138 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -151,6 +151,7 @@
 | **Canonical** | **Less Is More: Training-Free Sparse Attention with Global Locality for Efficient Reasoning** | ICML 2026 | efficient reasoning / sparse attention / KV-cache decoding | [Link](https://arxiv.org/abs/2508.07101) | [Repo](https://github.com/DerrickYLJ/LessIsMore) |
 | **Canonical** | **Light Forcing: Accelerating Autoregressive Video Diffusion via Sparse Attention** | ICML 2026 | video generation acceleration / autoregressive video / sparse attention / kernels | [Link](https://arxiv.org/abs/2602.04789) | [Repo](https://github.com/chengtao-lv/LightForcing) |
 | **Canonical** | **OBCache: Optimal Brain KV Cache Pruning for Efficient Long-Context LLM Inference** | ICML 2026 | KV cache / long-context inference / output-aware eviction / pruning | [Link](https://arxiv.org/abs/2510.07651) | [Repo](https://github.com/DreamSoul-AI/OBCache) |
+| **Canonical** | **Prism-MoE: Efficient Dense-to-MoE Conversion for Visual Autoregressive Generation** | ICML 2026 | MoE systems / visual autoregressive generation / sparse activation / efficient model conversion | — | [Repo](https://github.com/NeuraLiying/Prism-MoE) |
 | **Canonical** | **Prism: Spectral-Aware Block-Sparse Attention** | ICML 2026 | efficient attention / long-context prefill / Triton kernels | [Link](https://arxiv.org/abs/2602.08426) | [Repo](https://github.com/xinghaow99/prism) |
 | **Canonical** | **PuzzleMoE: Efficient Compression of Large Mixture-of-Experts Models via Sparse Expert Merging and Bit-packed inference** | ICML 2026 | MoE compression / sparse expert merging / bit-packed inference | [Link](https://arxiv.org/abs/2511.04805) | — |
 | **Canonical** | **RaBitQCache: Rotated Binary Quantization for KVCache in Long Context LLM Inference** | ICML 2026 | KV cache / sparse attention / binary-INT4 proxy / long-context inference | [Link](https://arxiv.org/abs/2606.31519) | [Repo](https://github.com/Sakuraaa0/RaBitQCache) |
@@ -164,6 +165,7 @@
 | **Canonical** | **SparseInfer: Training-free Prediction of Activation Sparsity for Fast LLM Inference** | ICML 2026 | LLM inference / activation sparsity | [Link](https://arxiv.org/abs/2411.12692) | — |
 | **Canonical** | **Sparser Block-Sparse Attention via Token Permutation** | ICML 2026 | efficient attention / block-sparse prefill / custom attention kernels | [Link](https://arxiv.org/abs/2510.21270) | [Repo](https://github.com/xinghaow99/pbs-attn) |
 | **Canonical** | **Sparser, Faster, Lighter Transformer Language Models** | ICML 2026 | LLM sparsity / CUDA kernels / inference and training efficiency | [Link](https://arxiv.org/abs/2603.23198) | — |
+| **Canonical** | **SparseSSM: Efficient Selective Structured State Space Models Can Be Pruned in One-Shot** | ICML 2026 | sparsity / pruning / state-space models / Mamba / training-free compression | [Link](https://arxiv.org/abs/2506.09613) | [Repo](https://github.com/CFinTech/SparseSSM) |
 | **Canonical** | **SpecPrune-VLA: Accelerating Vision-Language-Action Models via Action-Aware Self-Speculative Pruning** | ICML 2026 | Physical AI / VLA inference / token pruning / self-speculative acceleration | [Link](https://arxiv.org/abs/2509.05614) | [Repo](https://github.com/alexwhz-sjtu/SpecPrune-VLA) |
 | **Canonical** | **Stochastic Sparse Attention for Memory-Bound Inference** | ICML 2026 | sparse attention / memory-bound decoding / stochastic KV access | [Link](https://arxiv.org/abs/2605.01910) | [Repo](https://github.com/OPUSLab/SANTA) |
 | **Canonical** | **TileSparse: Arithmetic-Intensity-Aware Sparse Attention for Compute-Bound LLM Decoding** | ICML 2026 | LLM serving / sparse attention / decoding kernel / arithmetic-intensity-aware execution | — | [Repo](https://github.com/ASISys/TileSparse) |

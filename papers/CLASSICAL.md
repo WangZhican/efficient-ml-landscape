@@ -1,10 +1,10 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **850 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **853 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
-## ICML 2026 · 138
+## ICML 2026 · 141
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -93,6 +93,7 @@
 | **Canonical** | **Predicting Future Utility: Global Combinatorial Optimization for Task-Agnostic KV Cache Eviction** | ICML 2026 | KV cache compression / head-wise budget allocation / long-context inference | [Link](https://arxiv.org/abs/2602.08585) | [Repo](https://github.com/baidu-baige/LU-KV) |
 | **Canonical** | **Predictive Prefetching for Retrieval-Augmented Generation** | ICML 2026 | RAG serving / asynchronous retrieval / predictive prefetching / latency reduction | [Link](https://arxiv.org/abs/2605.17989) | — |
 | **Canonical** | **Prefix-Cache-Aware Data Reordering for LLM-Augmented Database Analytics** | ICML 2026 | LLM serving / prefix KV-cache reuse / prompt-data layout / database analytics | — | — |
+| **Canonical** | **Prism-MoE: Efficient Dense-to-MoE Conversion for Visual Autoregressive Generation** | ICML 2026 | MoE systems / visual autoregressive generation / sparse activation / efficient model conversion | — | [Repo](https://github.com/NeuraLiying/Prism-MoE) |
 | **Canonical** | **Prism: Efficient Test-Time Scaling via Hierarchical Search and Self-Verification for Discrete Diffusion Language Models** | ICML 2026 | efficient reasoning / diffusion language models / test-time scaling | [Link](https://arxiv.org/abs/2602.01842) | [Repo](https://github.com/viiika/Prism) |
 | **Canonical** | **Prism: Spectral-Aware Block-Sparse Attention** | ICML 2026 | efficient attention / long-context prefill / Triton kernels | [Link](https://arxiv.org/abs/2602.08426) | [Repo](https://github.com/xinghaow99/prism) |
 | **Canonical** | **ProphetKV: User-Query-Driven Selective Recomputation for Efficient KV Cache Reuse in Retrieval-Augmented Generation** | ICML 2026 | KV cache reuse / RAG serving / selective recomputation | [Link](https://arxiv.org/abs/2602.02579) | — |
@@ -126,6 +127,7 @@
 | **Canonical** | **SparseInfer: Training-free Prediction of Activation Sparsity for Fast LLM Inference** | ICML 2026 | LLM inference / activation sparsity | [Link](https://arxiv.org/abs/2411.12692) | — |
 | **Canonical** | **Sparser Block-Sparse Attention via Token Permutation** | ICML 2026 | efficient attention / block-sparse prefill / custom attention kernels | [Link](https://arxiv.org/abs/2510.21270) | [Repo](https://github.com/xinghaow99/pbs-attn) |
 | **Canonical** | **Sparser, Faster, Lighter Transformer Language Models** | ICML 2026 | LLM sparsity / CUDA kernels / inference and training efficiency | [Link](https://arxiv.org/abs/2603.23198) | — |
+| **Canonical** | **SparseSSM: Efficient Selective Structured State Space Models Can Be Pruned in One-Shot** | ICML 2026 | sparsity / pruning / state-space models / Mamba / training-free compression | [Link](https://arxiv.org/abs/2506.09613) | [Repo](https://github.com/CFinTech/SparseSSM) |
 | **Canonical** | **SpecExit: Accelerating Large Reasoning Model via Speculative Exit** | ICML 2026 | efficient reasoning / speculative decoding / early exit | [Link](https://arxiv.org/abs/2509.24248) | [Repo](https://github.com/Tencent/AngelSlim) |
 | **Canonical** | **SpecForge: A Flexible and Efficient Open-Source Training Framework for Speculative Decoding** | ICML 2026 | speculative decoding / draft-model training infrastructure / SGLang | [Link](https://arxiv.org/abs/2603.18567) | [Repo](https://github.com/sgl-project/SpecForge) |
 | **Canonical** | **SpecMD: A Comprehensive Study On Speculative Expert Prefetching** | ICML 2026 | MoE systems / expert caching / speculative prefetching | [Link](https://arxiv.org/abs/2602.03921) | — |
@@ -143,6 +145,7 @@
 | **Canonical** | **WarmServe: Enabling One-for-Many GPU Prewarming for Multi-LLM Serving** | ICML 2026 | LLM serving / multi-model autoscaling / GPU prewarming / KV-cache-aware memory management | [Link](https://arxiv.org/abs/2512.09472) | — |
 | **Canonical** | **When Drafts Evolve: Speculative Decoding Meets Online Learning** | ICML 2026 | speculative decoding / online draft adaptation / inference acceleration | [Link](https://arxiv.org/abs/2603.12617) | [Repo](https://github.com/ZinYY/OnlineSPEC) |
 | **Canonical** | **When RL Meets Adaptive Speculative Training: A Unified Training-Serving System** | ICML 2026 | speculative decoding / online speculator training / RL systems / SGLang serving | [Link](https://arxiv.org/abs/2602.06932) | — |
+| **Canonical** | **Which Heads Matter for Reasoning? RL-Guided KV Cache Compression** | ICML 2026 | KV cache / efficient reasoning / reasoning-aware head allocation / SGLang inference | [Link](https://arxiv.org/abs/2510.08525) | [Repo](https://github.com/Kurt232/RLKV) |
 | **Canonical** | **WUSH: Near-Optimal Adaptive Transforms for LLM Quantization** | ICML 2026 | LLM quantization / W4A4 / adaptive transforms / FP4 GPU kernels | [Link](https://arxiv.org/abs/2512.00956) | [Repo](https://github.com/IST-DASLab/WUSH) |
 | **Canonical** | **xKV: Cross-Layer KV-Cache Compression via Aligned Singular Vector Extraction** | ICML 2026 | KV cache compression / long-context inference / cross-layer low-rank factorization | [Link](https://arxiv.org/abs/2503.18893) | [Repo](https://github.com/abdelfattah-lab/xKV) |
 | **Canonical** | **ZipMoE: Efficient On-Device MoE Serving via Lossless Compression and Cache-Affinity Scheduling** | ICML 2026 | MoE serving / on-device inference / lossless compression / cache-affinity scheduling | [Link](https://arxiv.org/abs/2601.21198) | — |

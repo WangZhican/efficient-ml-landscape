@@ -1,10 +1,10 @@
 # 🧭 Research Map
 
-> **897 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
+> **900 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
 
 <div align="center">
 
-[**🆕 Latest 30 Days · 211 tracked**](LATEST_30D.md) · [**🏛️ Classical · 850**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
+[**🆕 Latest 30 Days · 211 tracked**](LATEST_30D.md) · [**🏛️ Classical · 853**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
 
 </div>
 
@@ -14,17 +14,17 @@
 |---:|---|---:|---:|
 | 01 | [**LLM Serving**](01-llm-serving.md) | **394** | **149** |
 | 02 | [**Speculative Decoding**](02-speculative-decoding.md) | **128** | **18** |
-| 03 | [**KV Cache / Long Context**](03-kv-cache-long-context.md) | **249** | **35** |
+| 03 | [**KV Cache / Long Context**](03-kv-cache-long-context.md) | **250** | **35** |
 | 04 | [**Quantization**](04-quantization.md) | **118** | **37** |
-| 05 | [**Sparsity / Pruning**](05-sparsity-pruning.md) | **141** | **48** |
-| 06 | [**Efficient Attention**](06-efficient-attention.md) | **129** | **37** |
-| 07 | [**MoE Systems / Accelerators**](07-moe-systems.md) | **61** | **23** |
+| 05 | [**Sparsity / Pruning**](05-sparsity-pruning.md) | **143** | **48** |
+| 06 | [**Efficient Attention**](06-efficient-attention.md) | **130** | **37** |
+| 07 | [**MoE Systems / Accelerators**](07-moe-systems.md) | **62** | **23** |
 | 08 | [**GPU Kernel / DSL / Compiler**](08-gpu-kernel-compiler.md) | **315** | **66** |
 | 09 | [**Distributed Training / Inference**](09-distributed-training-inference.md) | **141** | **20** |
 | 10 | [**Multimodal / MLLM Serving**](10-multimodal-mllm-serving.md) | **112** | **33** |
 | 11 | [**Video / Image Generation**](11-video-image-generation.md) | **33** | **13** |
 | 12 | [**Diffusion / Flow Acceleration**](12-diffusion-flow.md) | **124** | **24** |
-| 13 | [**Efficient Reasoning / Agents**](13-efficient-reasoning-agents.md) | **127** | **33** |
+| 13 | [**Efficient Reasoning / Agents**](13-efficient-reasoning-agents.md) | **128** | **33** |
 | 14 | [**VLA / WAM / Physical AI**](14-physical-ai-vla-wam.md) | **48** | **36** |
 | 15 | [**Edge / Cloud / Heterogeneous AI**](15-edge-cloud-heterogeneous.md) | **197** | **72** |
 

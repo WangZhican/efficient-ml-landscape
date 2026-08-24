@@ -1,6 +1,6 @@
 # 13 · Efficient Reasoning / Agents
 
-> **127 canonical papers** mapped here, plus a broader **33-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **128 canonical papers** mapped here, plus a broader **33-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -42,7 +42,7 @@
 | **P2 · Relevant** | **SpecBox: Speculative Sandbox Scheduling for Efficient LLM Agent Serving** | Fresh / preprint | llm_serving / agent | [Link](https://arxiv.org/abs/2607.23933) | — |
 | **P2 · Relevant** | **Agentic CPU-GPU Scheduling for Heterogeneous AI Workloads** | Fresh / preprint | llm_serving / gen / agent / edge | [Link](https://arxiv.org/abs/2607.22242) | — |
 
-## 🏛️ Classical / Historical · 118 canonical
+## 🏛️ Classical / Historical · 119 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -117,6 +117,7 @@
 | **Canonical** | **SpecExit: Accelerating Large Reasoning Model via Speculative Exit** | ICML 2026 | efficient reasoning / speculative decoding / early exit | [Link](https://arxiv.org/abs/2509.24248) | [Repo](https://github.com/Tencent/AngelSlim) |
 | **Canonical** | **ThunderAgent: A Fast, Simple, and Program-Aware Agentic Inference System** | ICML 2026 | agentic inference systems / KV-cache scheduling / RL rollout systems | [Link](https://arxiv.org/abs/2602.13692) | [Repo](https://github.com/ThunderAgent-org/ThunderAgent) |
 | **Canonical** | **VidLaDA: Bidirectional Diffusion Large Language Models for Efficient Video Understanding** | ICML 2026 | multimodal / video LLM / diffusion language model / MARS-Cache / parallel decoding | [Link](https://arxiv.org/abs/2601.17868) | [Repo](https://github.com/ziHoHe/VidLaDA) |
+| **Canonical** | **Which Heads Matter for Reasoning? RL-Guided KV Cache Compression** | ICML 2026 | KV cache / efficient reasoning / reasoning-aware head allocation / SGLang inference | [Link](https://arxiv.org/abs/2510.08525) | [Repo](https://github.com/Kurt232/RLKV) |
 | **Canonical** | **AdaToken-3D: Dynamic Spatial Gating for Efficient 3D Large Multimodal-Models Reasoning** | IROS 2025 | 3D multimodal inference / token pruning / Physical AI | [Link](https://arxiv.org/abs/2505.12782) | — |
 | **Canonical** | **LightPlanner: Unleashing the Reasoning Capabilities of Lightweight Large Language Models in Task Planning** | IROS 2025 | edge-efficient embodied task planning / lightweight LLM / long-horizon memory | [Link](https://arxiv.org/abs/2503.08508) | [Repo](https://github.com/jetteezhou/LightPlanner) |
 | **Canonical** | **Cassandra: Enabling Reasoning LLMs at Edge via Self-Speculative Decoding** | ISCA 2026 | edge speculative reasoning + quantization + memory-system + generative inference accelerators | [Link](https://arxiv.org/abs/2605.26558) | — |

@@ -9905,6 +9905,27 @@
     ]
   },
   {
+    "title": "Prism-MoE: Efficient Dense-to-MoE Conversion for Visual Autoregressive Generation",
+    "venue": "ICML 2026",
+    "topic": "MoE systems / visual autoregressive generation / sparse activation / efficient model conversion",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "BpDRqTfn08",
+    "paper_url": "https://openreview.net/forum?id=BpDRqTfn08",
+    "code_url": "https://github.com/NeuraLiying/Prism-MoE",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Poster. Prism-MoE converts pretrained dense visual autoregressive generators into sparse MoE models using trajectory-consistent initialization and lightweight confidence-adaptive fine-tuning; reports dense-like generation quality with 37.5% active parameters and less than 10% of standard training budget.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "MoE Systems / Accelerators"
+    ]
+  },
+  {
     "title": "Prism: Efficient Test-Time Scaling via Hierarchical Search and Self-Verification for Discrete Diffusion Language Models",
     "venue": "ICML 2026",
     "topic": "efficient reasoning / diffusion language models / test-time scaling",
@@ -10627,6 +10648,26 @@
     ]
   },
   {
+    "title": "SparseSSM: Efficient Selective Structured State Space Models Can Be Pruned in One-Shot",
+    "venue": "ICML 2026",
+    "topic": "sparsity / pruning / state-space models / Mamba / training-free compression",
+    "arxiv": "2506.09613",
+    "doi": "",
+    "official_id": "2506.09613",
+    "paper_url": "https://arxiv.org/abs/2506.09613",
+    "code_url": "https://github.com/CFinTech/SparseSSM",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Poster. SparseSSM extends OBS-style second-order pruning to selective structured state-space models; it reports pruning 50% of Mamba SSM weights without fine-tuning and with no zero-shot accuracy loss, filling an important non-Transformer pruning branch.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning"
+    ]
+  },
+  {
     "title": "SpecExit: Accelerating Large Reasoning Model via Speculative Exit",
     "venue": "ICML 2026",
     "topic": "efficient reasoning / speculative decoding / early exit",
@@ -10996,6 +11037,28 @@
       "LLM Serving",
       "Speculative Decoding",
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "Which Heads Matter for Reasoning? RL-Guided KV Cache Compression",
+    "venue": "ICML 2026",
+    "topic": "KV cache / efficient reasoning / reasoning-aware head allocation / SGLang inference",
+    "arxiv": "2510.08525",
+    "doi": "",
+    "official_id": "2510.08525",
+    "paper_url": "https://arxiv.org/abs/2510.08525",
+    "code_url": "https://github.com/Kurt232/RLKV",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. RLKV uses reinforcement learning to identify reasoning-critical attention heads, keeps full KV only for those heads and compresses the rest; reports 20-50% KV-cache reduction with near-lossless reasoning performance, and includes SGLang inference support.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Efficient Attention",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
