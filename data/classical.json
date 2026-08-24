@@ -8988,6 +8988,29 @@
     ]
   },
   {
+    "title": "Fast and Accurate Causal Parallel Decoding using Jacobi Forcing",
+    "venue": "ICML 2026",
+    "topic": "parallel decoding / causal Jacobi decoding / KV-cache-compatible LLM inference acceleration",
+    "arxiv": "2512.14681",
+    "doi": "",
+    "official_id": "2512.14681",
+    "paper_url": "https://arxiv.org/abs/2512.14681",
+    "code_url": "https://github.com/hao-ai-lab/JacobiForcing",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. Progressive Jacobi-forcing distillation converts autoregressive LLMs into causal parallel decoders while preserving the causal attention/KV-cache layout; reports about 3.8-4.0x wall-clock speedup on coding/math, with multi-block rejection recycling reaching up to 4.5x higher accepted tokens per iteration.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "KV Cache / Long Context",
+      "Efficient Attention"
+    ]
+  },
+  {
     "title": "FAST-AR: Fast Autoregressive Video Diffusion and World Models with Temporal Cache Compression and Sparse Attention",
     "venue": "ICML 2026",
     "topic": "video/world-model inference / KV cache compression / sparse attention",
