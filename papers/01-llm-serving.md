@@ -1,6 +1,6 @@
 # 01 · LLM Serving
 
-> **365 canonical papers** mapped here, plus a broader **139-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **366 canonical papers** mapped here, plus a broader **139-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -148,7 +148,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 344 canonical
+## 🏛️ Classical / Historical · 345 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -298,6 +298,7 @@
 | **Canonical** | **Decouple and Cache: KV Cache Construction for Streaming Video Understanding** | ICML 2026 | multimodal serving / streaming video / KV cache | [Link](https://arxiv.org/abs/2605.01858) | [Repo](https://github.com/pangzhan27/DSCache) |
 | **Canonical** | **DFlash: Block Diffusion for Flash Speculative Decoding** | ICML 2026 | speculative decoding / diffusion drafter / LLM inference acceleration | [Link](https://arxiv.org/abs/2602.06036) | [Repo](https://github.com/z-lab/dflash) |
 | **Canonical** | **DuetServe: Harmonizing Prefill and Decode for LLM Serving via Adaptive GPU Multiplexing** | ICML 2026 | LLM serving / adaptive GPU multiplexing / prefill-decode isolation | [Link](https://arxiv.org/abs/2511.04791) | — |
+| **Canonical** | **ECHO: Elastic Speculative Decoding with Sparse Gating for High-Concurrency Scenarios** | ICML 2026 | speculative decoding / high-concurrency LLM serving / SGLang | [Link](https://arxiv.org/abs/2604.09603) | — |
 | **Canonical** | **Efficient Multi-round LLM Inference over Disaggregated Serving** | ICML 2026 | LLM serving / multi-round agents / PD disaggregation | [Link](https://arxiv.org/abs/2602.14516) | — |
 | **Canonical** | **Entropy-Aware Dynamic KV Cache Sparsification for Autoregressive Image Generation and Editing** | ICML 2026 | KV cache / sparse attention / autoregressive image generation acceleration | — | [Repo](https://github.com/lilitong7/SparseAR-ICML-2026) |
 | **Canonical** | **EpiCache: Episodic KV Cache Management for Long-Term Conversation on Resource-Constrained Environments** | ICML 2026 | KV cache / long-term conversation / memory-bounded inference / edge-resource-constrained serving | [Link](https://arxiv.org/abs/2509.17396) | [Repo](https://github.com/apple/ml-epicache) |

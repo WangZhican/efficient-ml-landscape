@@ -8433,6 +8433,51 @@
     ]
   },
   {
+    "title": "ECHO: Elastic Speculative Decoding with Sparse Gating for High-Concurrency Scenarios",
+    "venue": "ICML 2026",
+    "topic": "speculative decoding / high-concurrency LLM serving / SGLang",
+    "arxiv": "2604.09603",
+    "doi": "",
+    "official_id": "ICML2026_ECHO_SPECDEC",
+    "paper_url": "https://arxiv.org/abs/2604.09603",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026; high-concurrency speculative serving integrated into SGLang, using sparse confidence gating and elastic depth/width budget allocation over a unified super-tree; reports up to 5.35x wall-clock speedup and >20% relative gain over strong baselines.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "Sparsity / Pruning"
+    ]
+  },
+  {
+    "title": "EchoAttention: Exploiting Token-Pair Redundancy and Frame-Block Similarity for Efficient Video Generation",
+    "venue": "ICML 2026",
+    "topic": "video generation acceleration / efficient attention / sparse attention",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "OPENREVIEW_vZZUCDcjSx",
+    "paper_url": "https://openreview.net/forum?id=vZZUCDcjSx",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Poster. Combines token-pair sparse attention with frame-block similarity reuse and learned routing across Sparse/Echo operators for long-video DiT inference; reports up to 2.42x end-to-end latency reduction with minimal quality loss on public video DiTs.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "Efficient Multi-round LLM Inference over Disaggregated Serving",
     "venue": "ICML 2026",
     "topic": "LLM serving / multi-round agents / PD disaggregation",
