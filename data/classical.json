@@ -8433,6 +8433,53 @@
     ]
   },
   {
+    "title": "Dustin: Draft-Augmented Sparse Verification for Efficient Long-Context Generation with Speculative Decoding",
+    "venue": "ICML 2026",
+    "topic": "speculative decoding / sparse verification / long-context KV-cache",
+    "arxiv": "2606.24957",
+    "doi": "",
+    "official_id": "ICML2026_DUSTIN",
+    "paper_url": "https://arxiv.org/abs/2606.24957",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026; draft-augmented sparse verification for long-context speculative decoding, using target-history plus draft lookahead to cut KV loading and verification cost; Qwen2.5-72B results report 27.85x self-attention and 9.17x end-to-end decoding speedup at 32K with negligible accuracy loss.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Speculative Decoding",
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Efficient Attention"
+    ]
+  },
+  {
+    "title": "DyLLM: Efficient Diffusion LLM Inference via Saliency-based Token Selection and Partial Attention",
+    "venue": "ICML 2026",
+    "topic": "diffusion language model inference / token sparsity / activation reuse",
+    "arxiv": "2603.08026",
+    "doi": "",
+    "official_id": "ICML2026_DYLLM",
+    "paper_url": "https://arxiv.org/abs/2603.08026",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026; training-free diffusion-LLM inference acceleration using saliency-based token recomputation, partial attention, and cached activation reuse across denoising steps; reports up to 9.6x throughput while largely preserving LLaDA/Dream accuracy.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "ECHO: Elastic Speculative Decoding with Sparse Gating for High-Concurrency Scenarios",
     "venue": "ICML 2026",
     "topic": "speculative decoding / high-concurrency LLM serving / SGLang",
@@ -8496,6 +8543,28 @@
     "directions": [
       "LLM Serving",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "Efficient Parallel Samplers for Recurrent-Depth Models",
+    "venue": "ICML 2026",
+    "topic": "parallel decoding / recurrent-depth language models / diffusion-style inference",
+    "arxiv": "2510.14961",
+    "doi": "",
+    "official_id": "ICML2026_EFFICIENT_PARALLEL_SAMPLERS",
+    "paper_url": "https://arxiv.org/abs/2510.14961",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026; diffusion-forcing sampler parallelizes generation for recurrent-depth language models by decoding new tokens every forward pass while refining latent states through recurrence; applies without tuning to 3.5B models and reports up to 5x generation speedup.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Speculative Decoding",
+      "GPU Kernel / DSL / Compiler",
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
@@ -9341,6 +9410,26 @@
     ]
   },
   {
+    "title": "SmartThinker: Progressive Chain-of-Thought Length Calibration for Efficient Large Language Model Reasoning",
+    "venue": "ICML 2026",
+    "topic": "efficient reasoning / RL post-training / chain-of-thought length control",
+    "arxiv": "2603.08000",
+    "doi": "",
+    "official_id": "ICML2026_SMARTTHINKER",
+    "paper_url": "https://arxiv.org/abs/2603.08000",
+    "code_url": "https://github.com/SJTU-RTEAS/SmartThinker",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026; progressive CoT length calibration within GRPO dynamically targets problem-dependent reasoning length instead of static compression; reports up to 52.5% average length compression while improving accuracy, including up to 16.6% on AIME25.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "Sparse ActionGen: Accelerating Diffusion Policy with Real-time Pruning",
     "venue": "ICML 2026",
     "topic": "Physical AI / diffusion-policy acceleration / pruning+reuse",
@@ -9623,6 +9712,28 @@
     "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving"
+    ]
+  },
+  {
+    "title": "ThunderAgent: A Fast, Simple, and Program-Aware Agentic Inference System",
+    "venue": "ICML 2026",
+    "topic": "agentic inference systems / KV-cache scheduling / RL rollout systems",
+    "arxiv": "2602.13692",
+    "doi": "",
+    "official_id": "ICML2026_THUNDERAGENT",
+    "paper_url": "https://arxiv.org/abs/2602.13692",
+    "code_url": "https://github.com/ThunderAgent-org/ThunderAgent",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Spotlight; program-aware scheduling across KV caches, system state, and tool resources for agentic serving/RL rollout; reports 1.5-3.6x serving throughput, 1.8-3.9x rollout throughput, and up to 4.2x disk-memory savings; integrated with production-oriented agent stacks.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
