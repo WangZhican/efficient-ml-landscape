@@ -8299,6 +8299,49 @@
     ]
   },
   {
+    "title": "ConFu: Contemplate the Future for Better Speculative Sampling",
+    "venue": "ICML 2026",
+    "topic": "speculative decoding / draft-model quality / future-conditioned speculative sampling",
+    "arxiv": "2603.08899",
+    "doi": "",
+    "official_id": "ICML2026_CONFUCONTEMPLATETHEFUTUREFORBETTERSPECULATIV",
+    "paper_url": "https://arxiv.org/abs/2603.08899",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 speculative-decoding paper; future-oriented contemplate signals improve draft alignment and report 8-11% better acceptance/generation speed than EAGLE-3 across Llama-3 models, establishing a distinct draft-quality route.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Speculative Decoding",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "ConServe: Fine-Grained GPU Harvesting for LLM Online and Offline Co-Serving",
+    "venue": "ICML 2026",
+    "topic": "LLM serving / online-offline co-serving / fine-grained GPU harvesting / preemption",
+    "arxiv": "2410.01228",
+    "doi": "",
+    "official_id": "ICML2026_CONSERVEFINEGRAINEDGPUHARVESTINGFORLLMONLINE",
+    "paper_url": "https://arxiv.org/abs/2410.01228",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 serving system using latency-aware token-level scheduling, sub-iteration layer-wise preemption, and incremental KV-cache management; reports 2.2x average throughput and 2.9x lower online tail latency.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "CriticalKV: Optimizing KV Cache Eviction from an Output Perturbation Perspective",
     "venue": "ICML 2026",
     "topic": "KV cache / eviction / long-context inference",
@@ -9098,6 +9141,27 @@
     ]
   },
   {
+    "title": "Online Linear Programming for Multi-Objective Routing in LLM Serving",
+    "venue": "ICML 2026",
+    "topic": "LLM serving / request routing / SLO optimization / KV-cache-aware scheduling",
+    "arxiv": "2607.03948",
+    "doi": "",
+    "official_id": "ICML2026_ONLINELINEARPROGRAMMINGFORMULTIOBJECTIVEROUT",
+    "paper_url": "https://arxiv.org/abs/2607.03948",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 LLM-serving routing framework formulated as online linear programming under batch-size and KV-cache constraints, with warm-started dual updates for millisecond decisions and improved latency/TTFT/throughput/tail metrics in Vidur.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context"
+    ]
+  },
+  {
     "title": "OServe: Accelerating LLM Serving via Spatial-Temporal Workload Orchestration",
     "venue": "ICML 2026",
     "topic": "LLM serving / heterogeneous deployment / scheduling",
@@ -9161,6 +9225,68 @@
       "LLM Serving",
       "Speculative Decoding",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Predicting Future Utility: Global Combinatorial Optimization for Task-Agnostic KV Cache Eviction",
+    "venue": "ICML 2026",
+    "topic": "KV cache compression / head-wise budget allocation / long-context inference",
+    "arxiv": "2602.08585",
+    "doi": "",
+    "official_id": "ICML2026_PREDICTINGFUTUREUTILITYGLOBALCOMBINATORIALOP",
+    "paper_url": "https://arxiv.org/abs/2602.08585",
+    "code_url": "https://github.com/baidu-baige/LU-KV",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 LU-KV; long-horizon marginal-utility optimization for head-wise KV budget allocation, reporting 80% KV-cache reduction with minimal degradation while reducing latency and GPU memory footprint.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "Predictive Prefetching for Retrieval-Augmented Generation",
+    "venue": "ICML 2026",
+    "topic": "RAG serving / asynchronous retrieval / predictive prefetching / latency reduction",
+    "arxiv": "2605.17989",
+    "doi": "",
+    "official_id": "ICML2026_PREDICTIVEPREFETCHINGFORRETRIEVALAUGMENTEDGE",
+    "paper_url": "https://arxiv.org/abs/2605.17989",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 RAG-serving acceleration; predicts when and what to retrieve before uncertainty peaks, reporting up to 43.5% lower end-to-end latency and 62.4% TTFT improvement while preserving answer quality.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving"
+    ]
+  },
+  {
+    "title": "Prefix-Cache-Aware Data Reordering for LLM-Augmented Database Analytics",
+    "venue": "ICML 2026",
+    "topic": "LLM serving / prefix KV-cache reuse / prompt-data layout / database analytics",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICML2026_PREFIXCACHEAWAREDATAREORDERINGFORLLMAUGMENTE",
+    "paper_url": "https://openreview.net/forum?id=VSY1nFjumI",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 data-systems/LLM-serving work (SOLO) that reorders relational rows/columns to maximize reusable prompt prefixes; reports up to 90.3% higher prefill throughput and up to 242x lower planning overhead.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context"
     ]
   },
   {
@@ -9406,6 +9532,28 @@
       "Diffusion / Flow Acceleration",
       "Efficient Reasoning / Agents",
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "ScaleSim: Serving Large-Scale Multi-Agent Simulation with Invocation Distance-Based Memory Management",
+    "venue": "ICML 2026",
+    "topic": "agent serving / multi-agent simulation / GPU memory management / prefetching and eviction",
+    "arxiv": "2601.21473",
+    "doi": "",
+    "official_id": "ICML2026_SCALESIMSERVINGLARGESCALEMULTIAGENTSIMULATIO",
+    "paper_url": "https://arxiv.org/abs/2601.21473",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 multi-agent serving system using invocation-distance prediction for proactive prefetching and priority eviction of agent-specific model/prefix/adapter state; reports up to 1.74x speedup over SGLang.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -9671,6 +9819,27 @@
     ]
   },
   {
+    "title": "Speculative Coupled Decoding for Training-Free Lossless Acceleration of Autoregressive Visual Generation",
+    "venue": "ICML 2026",
+    "topic": "speculative decoding / autoregressive image-video generation / lossless visual generation acceleration",
+    "arxiv": "2510.24211",
+    "doi": "",
+    "official_id": "ICML2026_SPECULATIVECOUPLEDDECODINGFORTRAININGFREELOS",
+    "paper_url": "https://arxiv.org/abs/2510.24211",
+    "code_url": "https://github.com/junhyukso/SCD",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 training-free lossless speculative/Jacobi decoding for visual generation using coupling to stabilize draft trajectories; reports up to 4.2x image and 13.6x video generation speedup.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Speculative Decoding",
+      "Video / Image Generation"
+    ]
+  },
+  {
     "title": "STAR-KV: Low-Rank KV Cache Compression via Soft Thresholding for Adaptive Rank Control",
     "venue": "ICML 2026",
     "topic": "KV cache / low-rank compression / mixed-precision quantization / Triton kernel",
@@ -9885,6 +10054,28 @@
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context"
+    ]
+  },
+  {
+    "title": "ZipMoE: Efficient On-Device MoE Serving via Lossless Compression and Cache-Affinity Scheduling",
+    "venue": "ICML 2026",
+    "topic": "MoE serving / on-device inference / lossless compression / cache-affinity scheduling",
+    "arxiv": "2601.21198",
+    "doi": "",
+    "official_id": "ICML2026_ZIPMOEEFFICIENTONDEVICEMOESERVINGVIALOSSLESS",
+    "paper_url": "https://arxiv.org/abs/2601.21198",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 edge/on-device MoE serving system with lossless compression and cache-affinity scheduling; reports up to 72.77% lower latency and 6.76x higher throughput than prior systems.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "MoE Systems / Accelerators",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
