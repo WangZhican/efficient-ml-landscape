@@ -8659,6 +8659,53 @@
     ]
   },
   {
+    "title": "GraphFlow: A Graph-Based Workflow Management for Efficient LLM-Agent Serving",
+    "venue": "ICML 2026",
+    "topic": "agent serving / workflow reuse / KV-cache management",
+    "arxiv": "2605.22566",
+    "doi": "",
+    "official_id": "ICML2026_GRAPHFLOWAGRAPHBASEDWORKFLOWMANAGEMENTFOREFFIC",
+    "paper_url": "https://arxiv.org/abs/2605.22566",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 direct agent-serving system; graph-structured workflow substrate dynamically instantiates workflows and reuses workflow state/KV caches, reporting about 4x lower memory footprint while improving task performance across five benchmarks.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "HARD-KV: Head-Adaptive Regularization for Decoding-time KV Compression",
+    "venue": "ICML 2026",
+    "topic": "KV cache compression / head-adaptive sparsity / vLLM-compatible runtime",
+    "arxiv": "2606.28831",
+    "doi": "",
+    "official_id": "ICML2026_HARDKVHEADADAPTIVEREGULARIZATIONFORDECODINGTIM",
+    "paper_url": "https://arxiv.org/abs/2606.28831",
+    "code_url": "https://github.com/SuDIS-ZJU/HARDInfer",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 KV compression system bridging dynamic head-adaptive Top-p selection with rigid CUDA-Graph/PagedAttention layouts via cascade cache and contiguous physical rewriting; reports up to 2x throughput on 10k+ token reasoning.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "HeraSys: Collaborative Serving of Multiple LLM Workflows via Fine-Grained End-to-End Optimization",
     "venue": "ICML 2026",
     "topic": "agentic LLM serving / multi-workflow scheduling / reuse / adaptive batching",
@@ -8847,6 +8894,28 @@
     "tracking_tier": "Canonical",
     "directions": [
       "KV Cache / Long Context"
+    ]
+  },
+  {
+    "title": "MAPS: Memory-Aware Predictive Scheduling Framework for Large Language Model Serving",
+    "venue": "ICML 2026",
+    "topic": "LLM serving / disaggregated inference / predictive scheduling / memory-aware scheduling",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICML2026_MAPSMEMORYAWAREPREDICTIVESCHEDULINGFRAMEWORKFO",
+    "paper_url": "https://openreview.net/forum?id=MsjYbZtVWU",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Poster; device-assisted speculative output-length prediction overlapped with cloud prefilling plus uncertainty-calibrated hierarchical scheduling for memory-bound disaggregated decode; reports 42.6% lower mean end-to-end latency and up to 84.8% lower tail latency versus three serving baselines.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -9134,6 +9203,29 @@
     ]
   },
   {
+    "title": "SCALE: Self-uncertainty Conditioned Adaptive Looking and Execution for Vision-Language-Action Models",
+    "venue": "ICML 2026",
+    "topic": "Physical AI / VLA inference / test-time scaling / single-pass adaptive execution",
+    "arxiv": "2602.04208",
+    "doi": "",
+    "official_id": "ICML2026_SCALESELFUNCERTAINTYCONDITIONEDADAPTIVELOOKING",
+    "paper_url": "https://arxiv.org/abs/2602.04208",
+    "code_url": "https://github.com/snumprlab/scale",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Spotlight protected Physical-AI work; self-uncertainty adapts both visual perception and action execution in a single forward pass without verifier or extra training, improving VLA robustness while avoiding multi-pass test-time-scaling overhead.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Multimodal / MLLM Serving",
+      "Diffusion / Flow Acceleration",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Scout Before You Attend: Sketch-and-Walk Sparse Attention for Efficient LLM Inference",
     "venue": "ICML 2026",
     "topic": "efficient attention / long-context inference",
@@ -9377,6 +9469,28 @@
     ]
   },
   {
+    "title": "TGV-KV: Text-Grounded KV Eviction for Vision-Language Models",
+    "venue": "ICML 2026",
+    "topic": "multimodal inference / VLM KV cache / eviction / memory and throughput",
+    "arxiv": "2606.03075",
+    "doi": "",
+    "official_id": "ICML2026_TGVKVTEXTGROUNDEDKVEVICTIONFORVISIONLANGUAGEMO",
+    "paper_url": "https://arxiv.org/abs/2606.03075",
+    "code_url": "https://github.com/Danielement321/TGV-KV",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 multimodal KV-cache compression work; text-grounded vision-KV budgeting/ranking/retention preserves 99.2% full-KV accuracy on VizWiz-VQA and reports 52.6% end-to-end throughput improvement at a 5% retention budget.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
     "title": "Threshold-Based Exclusive Batching for LLM Inference",
     "venue": "ICML 2026",
     "topic": "LLM serving / batching / hardware-aware scheduling / prefill-decode tradeoff",
@@ -9437,6 +9551,50 @@
     "directions": [
       "GPU Kernel / DSL / Compiler",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "WarmServe: Enabling One-for-Many GPU Prewarming for Multi-LLM Serving",
+    "venue": "ICML 2026",
+    "topic": "LLM serving / multi-model autoscaling / GPU prewarming / KV-cache-aware memory management",
+    "arxiv": "2512.09472",
+    "doi": "",
+    "official_id": "ICML2026_WARMSERVEENABLINGONEFORMANYGPUPREWARMINGFORMUL",
+    "paper_url": "https://arxiv.org/abs/2512.09472",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 direct multi-LLM serving system using workload prediction, one-for-many GPU prewarming, KV-cache-space reuse, and zero-overhead memory switching; reports up to 50.8x lower tail TTFT and 2.5x more served requests than comparison systems.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "When RL Meets Adaptive Speculative Training: A Unified Training-Serving System",
+    "venue": "ICML 2026",
+    "topic": "speculative decoding / online speculator training / RL systems / SGLang serving",
+    "arxiv": "2602.06932",
+    "doi": "",
+    "official_id": "ICML2026_WHENRLMEETSADAPTIVESPECULATIVETRAININGAUNIFIED",
+    "paper_url": "https://arxiv.org/abs/2602.06932",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 unified speculative-training/serving system that continuously adapts the speculator from live inference traces using asynchronous RL and hot-swapped updates; reports 1.5x day-0 speedup and an additional 1.25x under traffic distribution shift.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
