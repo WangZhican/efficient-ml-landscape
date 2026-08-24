@@ -9626,6 +9626,26 @@
     ]
   },
   {
+    "title": "Optimal Self-Consistency for Efficient Reasoning with Large Language Models",
+    "venue": "ICML 2026",
+    "topic": "efficient reasoning / test-time scaling / adaptive sampling / self-consistency",
+    "arxiv": "2511.12309",
+    "doi": "",
+    "official_id": "2511.12309",
+    "paper_url": "https://arxiv.org/abs/2511.12309",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. Blend-ASC dynamically allocates self-consistency samples under arbitrary budgets and uses 6.8x fewer samples than vanilla self-consistency on average while maintaining reasoning performance.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "OSAQ: Outlier Self-Absorption for Accurate Low-bit LLM Quantization",
     "venue": "ICML 2026",
     "topic": "LLM quantization / weight-only low-bit PTQ / outlier suppression",
@@ -9732,6 +9752,29 @@
     "directions": [
       "LLM Serving",
       "Speculative Decoding",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "POET-X: Memory-efficient LLM Training by Scaling Orthogonal Transformation",
+    "venue": "ICML 2026",
+    "topic": "distributed LLM training / memory-efficient optimizer / Triton kernels",
+    "arxiv": "2603.05500",
+    "doi": "",
+    "official_id": "2603.05500",
+    "paper_url": "https://arxiv.org/abs/2603.05500",
+    "code_url": "https://github.com/Sphere-AI-Lab/poet",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Oral. Scalable orthogonal-equivalence training with input-centric reconstruction, structured/blockwise transforms and kernel engineering; enables billion-parameter pretraining on a single H100 where AdamW OOMs and materially improves memory/throughput over original POET.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference",
       "Edge / Cloud / Heterogeneous AI"
     ]
   },
@@ -10321,6 +10364,29 @@
       "Sparsity / Pruning",
       "Efficient Attention",
       "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "See What Matters: Differentiable Grid Sample Pruning for Generalizable Vision-Language-Action Model",
+    "venue": "ICML 2026",
+    "topic": "Physical AI / VLA / visual-token pruning / geometry-aware resampling",
+    "arxiv": "2605.11817",
+    "doi": "",
+    "official_id": "2605.11817",
+    "paper_url": "https://arxiv.org/abs/2605.11817",
+    "code_url": "https://github.com/Fediory/Grid-Sampler",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 protected Physical-AI work. GridS uses task-aware differentiable coordinate sampling to reduce visual tokens below 10% of dense input; reports 76% FLOPs reduction with no success-rate degradation on LIBERO and real-robot evaluation.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
