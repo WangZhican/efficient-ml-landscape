@@ -10616,6 +10616,26 @@
     ]
   },
   {
+    "title": "MixQuant: Pushing the Limits of Block Rotations in Post-Training Quantization",
+    "venue": "ICML 2026",
+    "topic": "quantization / post-training quantization / block Hadamard rotation / low-bit LLM inference",
+    "arxiv": "2601.22347",
+    "doi": "",
+    "official_id": "2601.22347",
+    "paper_url": "https://arxiv.org/abs/2601.22347",
+    "code_url": "https://github.com/Xilinx/brevitas",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 direct low-bit PTQ work. MixQuant/PeRQ analyzes the limits of block Hadamard rotations and calibrates permutation-based activation-mass redistribution before rotation, then folds permutations into model weights so deployment adds no inference overhead; experiments recover up to about 90% of full-vector-rotation perplexity for INT4 Llama3-1B at block size 16.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization"
+    ]
+  },
+  {
     "title": "Mixture of Distributions Matters: Dynamic Sparse Attention for Efficient Video Diffusion Transformers",
     "venue": "ICML 2026",
     "topic": "video generation acceleration / diffusion / dynamic sparse attention",
@@ -11986,6 +12006,27 @@
     ]
   },
   {
+    "title": "SLIM: Secure and Efficient Inference for Large Language Models on Untrusted Devices via TEEs",
+    "venue": "ICML 2026",
+    "topic": "LLM inference / edge systems / trusted execution environment / confidential computing",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICML2026_POSTER_61229",
+    "paper_url": "https://icml.cc/virtual/2026/poster/61229",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Poster and direct edge/heterogeneous LLM-inference system. SLIM minimizes costly TEE interactions by letting transformed representations propagate through consecutive obfuscated layers and uses lightweight T-Way Mixing; reported performance reaches up to 13.8x speedup over prior secure-inference schemes while preserving fidelity.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Small Generalizable Prompt Predictive Models Can Steer Efficient RL Post-Training of Large Reasoning Models",
     "venue": "ICML 2026",
     "topic": "efficient reasoning / RL post-training / rollout compute allocation",
@@ -12421,6 +12462,52 @@
     "directions": [
       "Sparsity / Pruning",
       "Efficient Attention"
+    ]
+  },
+  {
+    "title": "Stop the Flip-Flop: Context-Preserving Verification for Fast Revocable Diffusion Decoding",
+    "venue": "ICML 2026",
+    "topic": "diffusion language model / parallel decoding / KV cache / verification",
+    "arxiv": "2602.06161",
+    "doi": "",
+    "official_id": "2602.06161",
+    "paper_url": "https://arxiv.org/abs/2602.06161",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 direct diffusion-decoding efficiency work. COVER uses cache-override verification to preserve context while verifying revocable parallel decoding seeds in one forward pass, reducing flip-flop remasking/revision cycles and accelerating diffusion-language-model inference while preserving quality.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "KV Cache / Long Context",
+      "GPU Kernel / DSL / Compiler",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "Stop Training for the Worst: Progressive Unmasking Accelerates Masked Diffusion Training",
+    "venue": "ICML 2026",
+    "topic": "diffusion language model / masked diffusion training / training efficiency",
+    "arxiv": "2602.10314",
+    "doi": "",
+    "official_id": "2602.10314",
+    "paper_url": "https://arxiv.org/abs/2602.10314",
+    "code_url": "https://github.com/JaeyeonKim01/PUMA",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 direct training-efficiency work for masked diffusion models. PUMA aligns training masking patterns with inference-time progressive unmasking, reducing wasted optimization over irrelevant masks and reporting about 2.5x pretraining speedup at 125M scale; official code is released.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference",
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
