@@ -1,10 +1,10 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **872 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **874 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
-## ICML 2026 · 160
+## ICML 2026 · 162
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -97,6 +97,8 @@
 | **Canonical** | **OServe: Accelerating LLM Serving via Spatial-Temporal Workload Orchestration** | ICML 2026 | LLM serving / heterogeneous deployment / scheduling | [Link](https://arxiv.org/abs/2602.12151) | — |
 | **Canonical** | **ParisKV: Fast and Drift-Robust KV-Cache Retrieval for Long-Context LLMs** | ICML 2026 | KV cache / long-context inference / GPU retrieval / CPU offload | [Link](https://arxiv.org/abs/2602.07721) | — |
 | **Canonical** | **PatternKV: Flattening KV Representation Expands Quantization Headroom** | ICML 2026 | KV cache / quantization / long-context inference / test-time scaling | [Link](https://arxiv.org/abs/2510.05176) | [Repo](https://github.com/HCOOOH/PatternKV) |
+| **Canonical** | **PETS: A Principled Framework Towards Optimal Trajectory Allocation for Efficient Test-Time Self-Consistency** | ICML 2026 | efficient reasoning / test-time scaling / adaptive trajectory allocation | [Link](https://arxiv.org/abs/2602.16745) | [Repo](https://github.com/ZDCSlab/PETS) |
+| **Canonical** | **PinTok: Tokenizers Deserve Dedicated Pinned CPU-Compute and Memory** | ICML 2026 | LLM serving / tokenizer runtime / CPU pinning / latency-sensitive inference | — | — |
 | **Canonical** | **PipeSD: An Efficient Cloud-Edge Collaborative Pipeline Inference Framework with Speculative Decoding** | ICML 2026 | cloud-edge LLM inference / speculative decoding / pipeline scheduling | [Link](https://arxiv.org/abs/2605.13319) | — |
 | **Canonical** | **POET-X: Memory-efficient LLM Training by Scaling Orthogonal Transformation** | ICML 2026 | distributed LLM training / memory-efficient optimizer / Triton kernels | [Link](https://arxiv.org/abs/2603.05500) | [Repo](https://github.com/Sphere-AI-Lab/poet) |
 | **Canonical** | **Predicting Future Utility: Global Combinatorial Optimization for Task-Agnostic KV Cache Eviction** | ICML 2026 | KV cache compression / head-wise budget allocation / long-context inference | [Link](https://arxiv.org/abs/2602.08585) | [Repo](https://github.com/baidu-baige/LU-KV) |

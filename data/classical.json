@@ -9952,6 +9952,46 @@
     ]
   },
   {
+    "title": "PETS: A Principled Framework Towards Optimal Trajectory Allocation for Efficient Test-Time Self-Consistency",
+    "venue": "ICML 2026",
+    "topic": "efficient reasoning / test-time scaling / adaptive trajectory allocation",
+    "arxiv": "2602.16745",
+    "doi": "",
+    "official_id": "ICML2026_PETSAPRINCIPLEDFRAMEWORKTOWARDSOPTIMALTR",
+    "paper_url": "https://arxiv.org/abs/2602.16745",
+    "code_url": "https://github.com/ZDCSlab/PETS",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026; principled offline/online allocation of reasoning trajectories under a sampling budget; reports up to 75% lower offline and 55% lower online sampling budget for the same self-consistency target.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "PinTok: Tokenizers Deserve Dedicated Pinned CPU-Compute and Memory",
+    "venue": "ICML 2026",
+    "topic": "LLM serving / tokenizer runtime / CPU pinning / latency-sensitive inference",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICML2026_PINTOKTOKENIZERSDESERVEDEDICATEDPINNEDCP",
+    "paper_url": "https://ernestryu.com/publications.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026; treats tokenization as a first-class serving bottleneck and reduces OS scheduling, context-switch, memory-placement, and packet-copy overhead via dedicated pinned CPU compute and memory.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving"
+    ]
+  },
+  {
     "title": "PipeSD: An Efficient Cloud-Edge Collaborative Pipeline Inference Framework with Speculative Decoding",
     "venue": "ICML 2026",
     "topic": "cloud-edge LLM inference / speculative decoding / pipeline scheduling",

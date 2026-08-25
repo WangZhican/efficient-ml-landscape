@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **920 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **212 visible papers = 48 P0 + 56 P1 + 108 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **922 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **212 visible papers = 48 P0 + 56 P1 + 108 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -235,9 +235,9 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 872
+## 🏛️ Classical / Historical · 874
 
-### ICML 2026 · 160
+### ICML 2026 · 162
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -330,6 +330,8 @@
 | **Canonical** | **OServe: Accelerating LLM Serving via Spatial-Temporal Workload Orchestration** | ICML 2026 | LLM serving / heterogeneous deployment / scheduling | [Link](https://arxiv.org/abs/2602.12151) | — |
 | **Canonical** | **ParisKV: Fast and Drift-Robust KV-Cache Retrieval for Long-Context LLMs** | ICML 2026 | KV cache / long-context inference / GPU retrieval / CPU offload | [Link](https://arxiv.org/abs/2602.07721) | — |
 | **Canonical** | **PatternKV: Flattening KV Representation Expands Quantization Headroom** | ICML 2026 | KV cache / quantization / long-context inference / test-time scaling | [Link](https://arxiv.org/abs/2510.05176) | [Repo](https://github.com/HCOOOH/PatternKV) |
+| **Canonical** | **PETS: A Principled Framework Towards Optimal Trajectory Allocation for Efficient Test-Time Self-Consistency** | ICML 2026 | efficient reasoning / test-time scaling / adaptive trajectory allocation | [Link](https://arxiv.org/abs/2602.16745) | [Repo](https://github.com/ZDCSlab/PETS) |
+| **Canonical** | **PinTok: Tokenizers Deserve Dedicated Pinned CPU-Compute and Memory** | ICML 2026 | LLM serving / tokenizer runtime / CPU pinning / latency-sensitive inference | — | — |
 | **Canonical** | **PipeSD: An Efficient Cloud-Edge Collaborative Pipeline Inference Framework with Speculative Decoding** | ICML 2026 | cloud-edge LLM inference / speculative decoding / pipeline scheduling | [Link](https://arxiv.org/abs/2605.13319) | — |
 | **Canonical** | **POET-X: Memory-efficient LLM Training by Scaling Orthogonal Transformation** | ICML 2026 | distributed LLM training / memory-efficient optimizer / Triton kernels | [Link](https://arxiv.org/abs/2603.05500) | [Repo](https://github.com/Sphere-AI-Lab/poet) |
 | **Canonical** | **Predicting Future Utility: Global Combinatorial Optimization for Task-Agnostic KV Cache Eviction** | ICML 2026 | KV cache compression / head-wise budget allocation / long-context inference | [Link](https://arxiv.org/abs/2602.08585) | [Repo](https://github.com/baidu-baige/LU-KV) |
