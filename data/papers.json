@@ -9347,6 +9347,27 @@
     ]
   },
   {
+    "title": "Faster Activation Functions at the Edge for Post-Training Speedups",
+    "venue": "ICML 2026",
+    "topic": "edge AI / compiler / activation-function acceleration / post-training optimization",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICML2026_FASTERACTIVATIONFUNCTIONSATTHEEDGEFORPOSTTRAININ",
+    "paper_url": "https://jacksonwoodruff.com/",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Spotlight/Oral. FFCC compiles accurate floating-point reinterpretation approximations of expensive activations such as GELU/Swish for edge hardware, reporting order-of-magnitude activation speedups and measurable end-to-end ConvNeXt acceleration without significant accuracy loss; author and University of Edinburgh pages confirm ICML 2026.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Faster Than Flash: Exploiting Attention Sparsity for Efficient Long-Context Decoding",
     "venue": "ICML 2026",
     "topic": "long-context LLM decoding / sparse attention / fused Triton kernel",
@@ -9372,6 +9393,27 @@
     ]
   },
   {
+    "title": "FasterVAR: Plug-and-Play Acceleration for Visual Autoregressive Models",
+    "venue": "ICML 2026",
+    "topic": "image generation acceleration / visual autoregressive models / training-free inference",
+    "arxiv": "2512.16483",
+    "doi": "",
+    "official_id": "2512.16483",
+    "paper_url": "https://arxiv.org/abs/2512.16483",
+    "code_url": "https://github.com/sen-mao/FasterVAR",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 direct generation-acceleration work. Stage-aware training-free approximation preserves early semantic/structure steps and accelerates late refinement, reporting up to 3.4x speedup with minimal quality loss; official author repository verified.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Video / Image Generation"
+    ]
+  },
+  {
     "title": "Flash-VAED: Plug-and-Play VAE Decoders for Efficient Video Generation",
     "venue": "ICML 2026",
     "topic": "video generation acceleration / VAE decoder / pruning / operator optimization",
@@ -9391,6 +9433,27 @@
       "LLM Serving",
       "Sparsity / Pruning",
       "Video / Image Generation"
+    ]
+  },
+  {
+    "title": "FlashOptim: Memory Efficient Optimizers for Large-Scale Training",
+    "venue": "ICML 2026",
+    "topic": "distributed training / memory-efficient optimizer / low-precision optimizer state",
+    "arxiv": "2602.23349",
+    "doi": "",
+    "official_id": "2602.23349",
+    "paper_url": "https://arxiv.org/abs/2602.23349",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 direct training-efficiency work. FlashOptim reduces mixed-precision optimizer memory by over 50% while preserving API compatibility and model quality, reducing AdamW from 16 bytes/parameter to 7 bytes, or 5 bytes with gradient release; official ICML Downloads inventory and project page confirm the paper.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference"
     ]
   },
   {
@@ -9851,6 +9914,27 @@
       "Distributed Training / Inference",
       "Diffusion / Flow Acceleration",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "LiME: Lightweight Mixture of Experts for Efficient Multimodal Multi-task Learning",
+    "venue": "ICML 2026",
+    "topic": "multimodal efficiency / lightweight MoE / parameter-efficient fine-tuning / adaptive routing",
+    "arxiv": "2604.02338",
+    "doi": "",
+    "official_id": "2604.02338",
+    "paper_url": "https://arxiv.org/abs/2604.02338",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 multimodal-efficiency work. LiME replaces per-expert adapter replication with shared PEFT plus lightweight expert modulation and zero-parameter routing, using up to 4x fewer trainable parameters and up to 29% faster training than MoE-PEFT baselines.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "MoE Systems / Accelerators",
+      "Multimodal / MLLM Serving"
     ]
   },
   {
@@ -11090,6 +11174,26 @@
       "GPU Kernel / DSL / Compiler",
       "Video / Image Generation",
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "SLAT: Segment-Level Adaptive Trimming for Efficient CoT Reasoning",
+    "venue": "ICML 2026",
+    "topic": "efficient reasoning / chain-of-thought compression / RL / inference compute reduction",
+    "arxiv": "2605.30832",
+    "doi": "",
+    "official_id": "2605.30832",
+    "paper_url": "https://arxiv.org/abs/2605.30832",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 efficient-reasoning work. Segment-aware RL selectively suppresses structurally redundant low-utility reasoning segments and reports about 50% reasoning-length reduction while maintaining competitive accuracy, improving the accuracy-efficiency Pareto frontier.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Reasoning / Agents"
     ]
   },
   {

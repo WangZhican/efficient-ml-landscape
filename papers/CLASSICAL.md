@@ -1,10 +1,10 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **886 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **891 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
-## ICML 2026 · 174
+## ICML 2026 · 179
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -67,8 +67,11 @@
 | **Canonical** | **FAFO: Lossy KV Cache Compression for Lossless Inference Acceleration via Draftless Fumble Decoding** | ICML 2026 | KV cache compression / draftless speculative decoding / lossless inference acceleration | — | [Repo](https://github.com/Escanord/FAFO) |
 | **Canonical** | **Fast and Accurate Causal Parallel Decoding using Jacobi Forcing** | ICML 2026 | parallel decoding / causal Jacobi decoding / KV-cache-compatible LLM inference acceleration | [Link](https://arxiv.org/abs/2512.14681) | [Repo](https://github.com/hao-ai-lab/JacobiForcing) |
 | **Canonical** | **FAST-AR: Fast Autoregressive Video Diffusion and World Models with Temporal Cache Compression and Sparse Attention** | ICML 2026 | video/world-model inference / KV cache compression / sparse attention | [Link](https://arxiv.org/abs/2602.01801) | — |
+| **Canonical** | **Faster Activation Functions at the Edge for Post-Training Speedups** | ICML 2026 | edge AI / compiler / activation-function acceleration / post-training optimization | — | — |
 | **Canonical** | **Faster Than Flash: Exploiting Attention Sparsity for Efficient Long-Context Decoding** | ICML 2026 | long-context LLM decoding / sparse attention / fused Triton kernel | — | — |
+| **Canonical** | **FasterVAR: Plug-and-Play Acceleration for Visual Autoregressive Models** | ICML 2026 | image generation acceleration / visual autoregressive models / training-free inference | [Link](https://arxiv.org/abs/2512.16483) | [Repo](https://github.com/sen-mao/FasterVAR) |
 | **Canonical** | **Flash-VAED: Plug-and-Play VAE Decoders for Efficient Video Generation** | ICML 2026 | video generation acceleration / VAE decoder / pruning / operator optimization | [Link](https://arxiv.org/abs/2602.19161) | [Repo](https://github.com/Aoko955/Flash-VAED) |
+| **Canonical** | **FlashOptim: Memory Efficient Optimizers for Large-Scale Training** | ICML 2026 | distributed training / memory-efficient optimizer / low-precision optimizer state | [Link](https://arxiv.org/abs/2602.23349) | — |
 | **Canonical** | **ForesightKV: Optimizing KV Cache Eviction for Reasoning Models by Learning Long-Term Contribution** | ICML 2026 | KV cache eviction / reasoning-model serving / learned long-term contribution | [Link](https://arxiv.org/abs/2602.03203) | [Repo](https://github.com/1190303125/ForesightKV) |
 | **Canonical** | **FourTune: Towards Fully 4-Bit Efficient Post-Training for Diffusion Models** | ICML 2026 | diffusion model post-training / W4A4G4 quantization / fused kernels / training efficiency | [Link](https://arxiv.org/abs/2607.05711) | — |
 | **Canonical** | **Gram2Token: Enabling Run-time GPU-Native Grammar-Constrained Decoding for LLMs** | ICML 2026 | LLM serving / GPU-native grammar-constrained decoding / structured generation | — | [Repo](https://github.com/Paradozile/Gram2Token) |
@@ -90,6 +93,7 @@
 | **Canonical** | **LiftQuant: Continuous Bit-Width Control for Pareto-Optimal LLM Deployment** | ICML 2026 | quantization / fractional bit-width / memory-constrained LLM deployment | [Link](https://arxiv.org/abs/2606.04050) | [Repo](https://github.com/Heliulu/LiftQuant) |
 | **Canonical** | **Light Forcing: Accelerating Autoregressive Video Diffusion via Sparse Attention** | ICML 2026 | video generation acceleration / autoregressive video / sparse attention / kernels | [Link](https://arxiv.org/abs/2602.04789) | [Repo](https://github.com/chengtao-lv/LightForcing) |
 | **Canonical** | **LightningRL: Breaking the Accuracy-Parallelism Trade-off of Block-wise dLLMs via Reinforcement Learning** | ICML 2026 | diffusion LLM / parallel decoding / RL post-training / inference acceleration | [Link](https://arxiv.org/abs/2603.13319) | [Repo](https://github.com/SJTU-DENG-Lab/LightningRL) |
+| **Canonical** | **LiME: Lightweight Mixture of Experts for Efficient Multimodal Multi-task Learning** | ICML 2026 | multimodal efficiency / lightweight MoE / parameter-efficient fine-tuning / adaptive routing | [Link](https://arxiv.org/abs/2604.02338) | — |
 | **Canonical** | **LiMuon: Light and Fast Muon Optimizer for Large Models** | ICML 2026 | LLM training efficiency / memory-efficient optimizer / Muon | [Link](https://arxiv.org/abs/2509.14562) | — |
 | **Canonical** | **Long-Context Modeling with Dynamic Hierarchical Sparse Attention for Memory-Constrained LLM Inference** | ICML 2026 | efficient attention / long-context LLM inference / on-device inference | [Link](https://arxiv.org/abs/2510.24606) | [Repo](https://github.com/xiongsiheng/DHSA) |
 | **Canonical** | **LRAgent: Efficient KV Cache Sharing for Multi-LoRA LLM Agents** | ICML 2026 | KV cache sharing / multi-LoRA agent serving / Flash-LoRA-Attention | [Link](https://arxiv.org/abs/2602.01053) | — |
@@ -146,6 +150,7 @@
 | **Canonical** | **See What Matters: Differentiable Grid Sample Pruning for Generalizable Vision-Language-Action Model** | ICML 2026 | Physical AI / VLA / visual-token pruning / geometry-aware resampling | [Link](https://arxiv.org/abs/2605.11817) | [Repo](https://github.com/Fediory/Grid-Sampler) |
 | **Canonical** | **SEMA: a Scalable and Efficient Mamba like Attention via Token Localization and Averaging** | ICML 2026 | efficient attention / Mamba-like attention / scalable vision transformer | [Link](https://arxiv.org/abs/2506.08297) | [Repo](https://github.com/nhatthanhtran/SEMA) |
 | **Canonical** | **SGMD: Score Gradient Matching Distillation for Few-Step Video Diffusion Distillation** | ICML 2026 | video generation acceleration / diffusion distillation / few-step generation | [Link](https://arxiv.org/abs/2605.30116) | [Repo](https://github.com/ModelTC/LightX2V) |
+| **Canonical** | **SLAT: Segment-Level Adaptive Trimming for Efficient CoT Reasoning** | ICML 2026 | efficient reasoning / chain-of-thought compression / RL / inference compute reduction | [Link](https://arxiv.org/abs/2605.30832) | — |
 | **Canonical** | **Small Generalizable Prompt Predictive Models Can Steer Efficient RL Post-Training of Large Reasoning Models** | ICML 2026 | efficient reasoning / RL post-training / rollout compute allocation | [Link](https://arxiv.org/abs/2602.01970) | — |
 | **Canonical** | **SmartThinker: Progressive Chain-of-Thought Length Calibration for Efficient Large Language Model Reasoning** | ICML 2026 | efficient reasoning / RL post-training / chain-of-thought length control | [Link](https://arxiv.org/abs/2603.08000) | [Repo](https://github.com/SJTU-RTEAS/SmartThinker) |
 | **Canonical** | **SPA-Cache: Singular Proxies for Adaptive Caching in Diffusion Language Models** | ICML 2026 | diffusion language model / adaptive caching / inference acceleration | [Link](https://arxiv.org/abs/2602.02544) | [Repo](https://github.com/wenhao728/spa-cache) |
