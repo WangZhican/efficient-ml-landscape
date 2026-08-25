@@ -8236,6 +8236,32 @@
     ]
   },
   {
+    "title": "Attention Sparsity is Input-Stable: Training-Free Sparse Attention for Video Generation via Offline Sparsity Profiling and Online QK Co-Clustering",
+    "venue": "ICML 2026",
+    "topic": "video/image generation acceleration / sparse attention / training-free inference",
+    "arxiv": "2603.18636",
+    "doi": "",
+    "official_id": "ICML2026_ATTENTIONSPARSITYISINPUTSTABLETRAININGFR",
+    "paper_url": "https://arxiv.org/abs/2603.18636",
+    "code_url": "https://github.com/Mutual-Luo/SVOO",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026; SVOO profiles stable layer-wise sparsity offline and performs online bidirectional QK co-clustering for block-sparse video-DiT attention; reports up to 1.93x end-to-end speedup while preserving video quality across seven video-generation models.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "Distributed Training / Inference",
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Attn-QAT: 4-Bit Attention With Quantization-Aware Training",
     "venue": "ICML 2026",
     "topic": "FP4 attention / quantization-aware training / fused attention kernels",
@@ -9607,6 +9633,31 @@
       "Distributed Training / Inference",
       "Diffusion / Flow Acceleration",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "Long-Context Modeling with Dynamic Hierarchical Sparse Attention for Memory-Constrained LLM Inference",
+    "venue": "ICML 2026",
+    "topic": "efficient attention / long-context LLM inference / on-device inference",
+    "arxiv": "2510.24606",
+    "doi": "",
+    "official_id": "ICML2026_LONGCONTEXTMODELINGWITHDYNAMICHIERARCHIC",
+    "paper_url": "https://arxiv.org/abs/2510.24606",
+    "code_url": "https://github.com/xiongsiheng/DHSA",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Spotlight; DHSA predicts content-dependent sparse attention online with variable-length hierarchical routing and memory-efficient GPU/CPU backends; reports up to 10x prefill speedup at 128K and enables 100K context on a single 24GB GPU while preserving near-dense accuracy.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {

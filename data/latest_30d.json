@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-08-25",
   "window_start_beijing": "2026-07-26",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 212,
+  "tracked_total": 213,
   "p0_strong_or_canonical": [
     {
       "title": "FlashPrefill V2: Block-Sparse Prefill Attention for Long-Context LLM Serving",
@@ -984,6 +984,28 @@
         "GPU Kernel / DSL / Compiler",
         "Distributed Training / Inference",
         "Diffusion / Flow Acceleration",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "LoKiFormer: Locality-aware Attention with Decoupled Knowledge Memory for Efficient Large Language Model Pretraining",
+      "venue": "ICML 2026",
+      "topic": "LLM pretraining efficiency / efficient attention / explicit knowledge memory",
+      "arxiv": "2608.12419",
+      "doi": "",
+      "official_id": "ICML2026_LOKIFORMERLOCALITYAWAREATTENTIONWITHDECO",
+      "paper_url": "https://arxiv.org/abs/2608.12419",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "BACKFILL_HIGH",
+      "why": "ICML 2026; introduces Local Fusion Attention plus a decoupled parametric Knowledge Memory Module to reduce redundant local modeling and separate knowledge storage from computation; reports 1.33x faster pretraining convergence than Transformer baselines.",
+      "published_at": "2026-08-12T07:45:11Z",
+      "updated_at": "2026-08-12T07:45:11Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -5657,6 +5679,28 @@
         "GPU Kernel / DSL / Compiler",
         "Distributed Training / Inference",
         "Diffusion / Flow Acceleration",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "LoKiFormer: Locality-aware Attention with Decoupled Knowledge Memory for Efficient Large Language Model Pretraining",
+      "venue": "ICML 2026",
+      "topic": "LLM pretraining efficiency / efficient attention / explicit knowledge memory",
+      "arxiv": "2608.12419",
+      "doi": "",
+      "official_id": "ICML2026_LOKIFORMERLOCALITYAWAREATTENTIONWITHDECO",
+      "paper_url": "https://arxiv.org/abs/2608.12419",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "BACKFILL_HIGH",
+      "why": "ICML 2026; introduces Local Fusion Attention plus a decoupled parametric Knowledge Memory Module to reduce redundant local modeling and separate knowledge storage from computation; reports 1.33x faster pretraining convergence than Transformer baselines.",
+      "published_at": "2026-08-12T07:45:11Z",
+      "updated_at": "2026-08-12T07:45:11Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
