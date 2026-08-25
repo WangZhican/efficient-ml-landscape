@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **993 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **262 visible papers = 49 P0 + 93 P1 + 120 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **994 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **262 visible papers = 49 P0 + 93 P1 + 120 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -285,9 +285,9 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 944
+## 🏛️ Classical / Historical · 945
 
-### ICML 2026 · 232
+### ICML 2026 · 233
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -418,6 +418,7 @@
 | **Canonical** | **MoshiRAG: Asynchronous Knowledge Retrieval for Full-Duplex Speech Language Models** | ICML 2026 | multimodal serving / full-duplex speech LM / asynchronous RAG / real-time inference | [Link](https://arxiv.org/abs/2604.12928) | [Repo](https://github.com/kyutai-labs/moshi-rag) |
 | **Canonical** | **Motion-Aware Caching for Efficient Autoregressive Video Generation** | ICML 2026 | autoregressive video generation / cache reuse / diffusion acceleration | [Link](https://arxiv.org/abs/2605.01725) | [Repo](https://github.com/ywlq/MotionCache) |
 | **Canonical** | **Multipole Semantic Attention: A Fast Approximation of Softmax Attention for Pretraining** | ICML 2026 | efficient attention / long-context pretraining / attention approximation | [Link](https://arxiv.org/abs/2509.10406) | — |
+| **Canonical** | **MVR-cache: Optimizing Semantic Caching via Multi-Vector Retrieval and Learned Prompt Segmentation** | ICML 2026 | LLM serving / semantic cache / response reuse / retrieval / inference cost reduction | [Link](https://arxiv.org/abs/2605.24914) | [Repo](https://github.com/PKU-SDS-lab/MVR-Cache) |
 | **Canonical** | **NanoQuant: Efficient Sub-1-Bit Quantization of Large Language Models** | ICML 2026 | quantization / sub-1-bit PTQ / custom kernels / consumer-GPU deployment | [Link](https://arxiv.org/abs/2602.06694) | [Repo](https://github.com/SamsungLabs/NanoQuant) |
 | **Canonical** | **NanoSpec: Accelerating Speculative Decoding using Minimalist In-Context Vocabularies** | ICML 2026 | speculative decoding / active-vocabulary pruning / GPU runtime | [Link](https://arxiv.org/abs/2605.26444) | — |
 | **Canonical** | **No Retraining at Edge: Efficient Resource-Aware Mixed-Precision Quantization via Federated Supernet Learning** | ICML 2026 | edge AI / mixed-precision quantization / federated supernet / resource-adaptive deployment | — | — |

@@ -1,6 +1,6 @@
 # 01 · LLM Serving
 
-> **441 canonical papers** mapped here, plus a broader **194-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **442 canonical papers** mapped here, plus a broader **194-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -203,7 +203,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 419 canonical
+## 🏛️ Classical / Historical · 420 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -408,6 +408,7 @@
 | **Canonical** | **MAPS: Memory-Aware Predictive Scheduling Framework for Large Language Model Serving** | ICML 2026 | LLM serving / disaggregated inference / predictive scheduling / memory-aware scheduling | — | — |
 | **Canonical** | **Mixture of Distributions Matters: Dynamic Sparse Attention for Efficient Video Diffusion Transformers** | ICML 2026 | video generation acceleration / diffusion / dynamic sparse attention | [Link](https://arxiv.org/abs/2601.11641) | — |
 | **Canonical** | **MoshiRAG: Asynchronous Knowledge Retrieval for Full-Duplex Speech Language Models** | ICML 2026 | multimodal serving / full-duplex speech LM / asynchronous RAG / real-time inference | [Link](https://arxiv.org/abs/2604.12928) | [Repo](https://github.com/kyutai-labs/moshi-rag) |
+| **Canonical** | **MVR-cache: Optimizing Semantic Caching via Multi-Vector Retrieval and Learned Prompt Segmentation** | ICML 2026 | LLM serving / semantic cache / response reuse / retrieval / inference cost reduction | [Link](https://arxiv.org/abs/2605.24914) | [Repo](https://github.com/PKU-SDS-lab/MVR-Cache) |
 | **Canonical** | **NanoQuant: Efficient Sub-1-Bit Quantization of Large Language Models** | ICML 2026 | quantization / sub-1-bit PTQ / custom kernels / consumer-GPU deployment | [Link](https://arxiv.org/abs/2602.06694) | [Repo](https://github.com/SamsungLabs/NanoQuant) |
 | **Canonical** | **Not All Prefills Are Equal: PPD Disaggregation for Multi-turn LLM Serving** | ICML 2026 | LLM serving / prefill-decode disaggregation / multi-turn KV reuse | [Link](https://arxiv.org/abs/2603.13358) | — |
 | **Canonical** | **Online Linear Programming for Multi-Objective Routing in LLM Serving** | ICML 2026 | LLM serving / request routing / SLO optimization / KV-cache-aware scheduling | [Link](https://arxiv.org/abs/2607.03948) | — |

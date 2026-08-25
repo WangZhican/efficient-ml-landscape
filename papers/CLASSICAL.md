@@ -1,10 +1,10 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **944 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **945 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
-## ICML 2026 · 232
+## ICML 2026 · 233
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -135,6 +135,7 @@
 | **Canonical** | **MoshiRAG: Asynchronous Knowledge Retrieval for Full-Duplex Speech Language Models** | ICML 2026 | multimodal serving / full-duplex speech LM / asynchronous RAG / real-time inference | [Link](https://arxiv.org/abs/2604.12928) | [Repo](https://github.com/kyutai-labs/moshi-rag) |
 | **Canonical** | **Motion-Aware Caching for Efficient Autoregressive Video Generation** | ICML 2026 | autoregressive video generation / cache reuse / diffusion acceleration | [Link](https://arxiv.org/abs/2605.01725) | [Repo](https://github.com/ywlq/MotionCache) |
 | **Canonical** | **Multipole Semantic Attention: A Fast Approximation of Softmax Attention for Pretraining** | ICML 2026 | efficient attention / long-context pretraining / attention approximation | [Link](https://arxiv.org/abs/2509.10406) | — |
+| **Canonical** | **MVR-cache: Optimizing Semantic Caching via Multi-Vector Retrieval and Learned Prompt Segmentation** | ICML 2026 | LLM serving / semantic cache / response reuse / retrieval / inference cost reduction | [Link](https://arxiv.org/abs/2605.24914) | [Repo](https://github.com/PKU-SDS-lab/MVR-Cache) |
 | **Canonical** | **NanoQuant: Efficient Sub-1-Bit Quantization of Large Language Models** | ICML 2026 | quantization / sub-1-bit PTQ / custom kernels / consumer-GPU deployment | [Link](https://arxiv.org/abs/2602.06694) | [Repo](https://github.com/SamsungLabs/NanoQuant) |
 | **Canonical** | **NanoSpec: Accelerating Speculative Decoding using Minimalist In-Context Vocabularies** | ICML 2026 | speculative decoding / active-vocabulary pruning / GPU runtime | [Link](https://arxiv.org/abs/2605.26444) | — |
 | **Canonical** | **No Retraining at Edge: Efficient Resource-Aware Mixed-Precision Quantization via Federated Supernet Learning** | ICML 2026 | edge AI / mixed-precision quantization / federated supernet / resource-adaptive deployment | — | — |
