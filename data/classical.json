@@ -8654,6 +8654,27 @@
     ]
   },
   {
+    "title": "Deterministic Differentiable Structured Pruning for Large Language Models",
+    "venue": "ICML 2026",
+    "topic": "LLM structured pruning / sparsity / vLLM inference acceleration",
+    "arxiv": "2603.08065",
+    "doi": "",
+    "official_id": "ICML2026_DDP_STRUCTURED_PRUNING",
+    "paper_url": "https://arxiv.org/abs/2603.08065",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026; deterministic differentiable structured pruning removes stochastic hard-concrete mask mismatch, supports dense and MoE LLMs, and reports realistic end-to-end inference speedups with vLLM.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "MoE Systems / Accelerators"
+    ]
+  },
+  {
     "title": "DFlash: Block Diffusion for Flash Speculative Decoding",
     "venue": "ICML 2026",
     "topic": "speculative decoding / diffusion drafter / LLM inference acceleration",
@@ -9439,6 +9460,28 @@
     "directions": [
       "LLM Serving",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "Improving Visual Token Reduction via Rectifying Distortions for Efficient Multimodal LLM Inference",
+    "venue": "ICML 2026",
+    "topic": "multimodal / MLLM inference / visual token reduction / token merging",
+    "arxiv": "2606.01711",
+    "doi": "",
+    "official_id": "ICML2026_RESTORE_VISUAL_TOKEN_REDUCTION",
+    "paper_url": "https://arxiv.org/abs/2606.01711",
+    "code_url": "https://github.com/cvlab-yonsei/RESTORE",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026; RESTORE corrects positional and attention distortions introduced by visual-token reduction and improves multiple pruning/merging baselines while retaining the computational benefits; official author code is available.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "Multimodal / MLLM Serving"
     ]
   },
   {

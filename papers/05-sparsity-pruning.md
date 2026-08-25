@@ -1,6 +1,6 @@
 # 05 · Sparsity / Pruning
 
-> **152 canonical papers** mapped here, plus a broader **49-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **154 canonical papers** mapped here, plus a broader **49-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -58,7 +58,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 146 canonical
+## 🏛️ Classical / Historical · 148 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -140,6 +140,7 @@
 | **Canonical** | **Attribution-Guided and Coverage-Maximized Pruning for Structural MoE Compression** | ICML 2026 | MoE compression / structured pruning / quantization / deployment memory | [Link](https://arxiv.org/abs/2606.18304) | [Repo](https://github.com/yifu-ding/MoE-Slimming) |
 | **Canonical** | **Automatic Pruning Discovery for Large Language Models** | ICML 2026 | LLM pruning / adaptive sparsity / automatic pruning design / edge deployment | [Link](https://arxiv.org/abs/2511.15390) | — |
 | **Canonical** | **CLAA: Cross-Layer Attention Aggregation for Accelerating LLM Prefill** | ICML 2026 | LLM prefill / token selection / efficient attention / long context | [Link](https://arxiv.org/abs/2602.16054) | — |
+| **Canonical** | **Deterministic Differentiable Structured Pruning for Large Language Models** | ICML 2026 | LLM structured pruning / sparsity / vLLM inference acceleration | [Link](https://arxiv.org/abs/2603.08065) | — |
 | **Canonical** | **DFSAttn: Dynamic Fine-grained Sparse Attention for Efficient Video Generation** | ICML 2026 | video diffusion / dynamic sparse attention / GPU-efficient inference | [Link](https://arxiv.org/abs/2605.23445) | [Repo](https://github.com/jessica-hujie/DFSAttn) |
 | **Canonical** | **Dustin: Draft-Augmented Sparse Verification for Efficient Long-Context Generation with Speculative Decoding** | ICML 2026 | speculative decoding / sparse verification / long-context KV-cache | [Link](https://arxiv.org/abs/2606.24957) | — |
 | **Canonical** | **DyLLM: Efficient Diffusion LLM Inference via Saliency-based Token Selection and Partial Attention** | ICML 2026 | diffusion language model inference / token sparsity / activation reuse | [Link](https://arxiv.org/abs/2603.08026) | — |
@@ -152,6 +153,7 @@
 | **Canonical** | **Faster Than Flash: Exploiting Attention Sparsity for Efficient Long-Context Decoding** | ICML 2026 | long-context LLM decoding / sparse attention / fused Triton kernel | — | — |
 | **Canonical** | **Flash-VAED: Plug-and-Play VAE Decoders for Efficient Video Generation** | ICML 2026 | video generation acceleration / VAE decoder / pruning / operator optimization | [Link](https://arxiv.org/abs/2602.19161) | [Repo](https://github.com/Aoko955/Flash-VAED) |
 | **Canonical** | **HARD-KV: Head-Adaptive Regularization for Decoding-time KV Compression** | ICML 2026 | KV cache compression / head-adaptive sparsity / vLLM-compatible runtime | [Link](https://arxiv.org/abs/2606.28831) | [Repo](https://github.com/SuDIS-ZJU/HARDInfer) |
+| **Canonical** | **Improving Visual Token Reduction via Rectifying Distortions for Efficient Multimodal LLM Inference** | ICML 2026 | multimodal / MLLM inference / visual token reduction / token merging | [Link](https://arxiv.org/abs/2606.01711) | [Repo](https://github.com/cvlab-yonsei/RESTORE) |
 | **Canonical** | **Less Is More: Training-Free Sparse Attention with Global Locality for Efficient Reasoning** | ICML 2026 | efficient reasoning / sparse attention / KV-cache decoding | [Link](https://arxiv.org/abs/2508.07101) | [Repo](https://github.com/DerrickYLJ/LessIsMore) |
 | **Canonical** | **Light Forcing: Accelerating Autoregressive Video Diffusion via Sparse Attention** | ICML 2026 | video generation acceleration / autoregressive video / sparse attention / kernels | [Link](https://arxiv.org/abs/2602.04789) | [Repo](https://github.com/chengtao-lv/LightForcing) |
 | **Canonical** | **Long-Context Modeling with Dynamic Hierarchical Sparse Attention for Memory-Constrained LLM Inference** | ICML 2026 | efficient attention / long-context LLM inference / on-device inference | [Link](https://arxiv.org/abs/2510.24606) | [Repo](https://github.com/xiongsiheng/DHSA) |

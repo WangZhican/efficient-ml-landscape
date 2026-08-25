@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **928 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **213 visible papers = 49 P0 + 56 P1 + 108 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **930 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **213 visible papers = 49 P0 + 56 P1 + 108 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -236,9 +236,9 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 879
+## 🏛️ Classical / Historical · 881
 
-### ICML 2026 · 167
+### ICML 2026 · 169
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -272,6 +272,7 @@
 | **Canonical** | **CSD: Content-aware Speculative Decoding for Efficient Image Generation** | ICML 2026 | speculative decoding / autoregressive image generation / inference acceleration | [Link](https://arxiv.org/abs/2606.27829) | [Repo](https://github.com/aderfebr/CSD) |
 | **Canonical** | **DARTS: Distribution-Aware Active Rollout Trajectory Shaping for Accelerating LLM Reinforcement Learning** | ICML 2026 | LLM RL systems / rollout efficiency / distributed post-training | [Link](https://arxiv.org/abs/2605.30859) | [Repo](https://github.com/AFDWang/DARTS) |
 | **Canonical** | **Decouple and Cache: KV Cache Construction for Streaming Video Understanding** | ICML 2026 | multimodal serving / streaming video / KV cache | [Link](https://arxiv.org/abs/2605.01858) | [Repo](https://github.com/pangzhan27/DSCache) |
+| **Canonical** | **Deterministic Differentiable Structured Pruning for Large Language Models** | ICML 2026 | LLM structured pruning / sparsity / vLLM inference acceleration | [Link](https://arxiv.org/abs/2603.08065) | — |
 | **Canonical** | **DFlash: Block Diffusion for Flash Speculative Decoding** | ICML 2026 | speculative decoding / diffusion drafter / LLM inference acceleration | [Link](https://arxiv.org/abs/2602.06036) | [Repo](https://github.com/z-lab/dflash) |
 | **Canonical** | **DFSAttn: Dynamic Fine-grained Sparse Attention for Efficient Video Generation** | ICML 2026 | video diffusion / dynamic sparse attention / GPU-efficient inference | [Link](https://arxiv.org/abs/2605.23445) | [Repo](https://github.com/jessica-hujie/DFSAttn) |
 | **Canonical** | **Do Transformers Need Three Projections? A Systematic Study of QKV Variants** | ICML 2026 | efficient attention architecture / KV-cache reduction / projection sharing | [Link](https://arxiv.org/abs/2606.04032) | [Repo](https://github.com/Brainchip-Inc/Do-Transformers-Need-3-Projections) |
@@ -307,6 +308,7 @@
 | **Canonical** | **HeraSys: Collaborative Serving of Multiple LLM Workflows via Fine-Grained End-to-End Optimization** | ICML 2026 | agentic LLM serving / multi-workflow scheduling / reuse / adaptive batching | [Link](https://arxiv.org/abs/2607.22578) | — |
 | **Canonical** | **HexGen-3: A Fully Disaggregated LLM Serving Framework with Fine-Grained Heterogeneous Resource Autoscaling** | ICML 2026 | LLM serving / disaggregation / heterogeneous resource autoscaling | — | — |
 | **Canonical** | **IAPO: Information-Aware Policy Optimization for Token-Efficient Reasoning** | ICML 2026 | efficient reasoning / token-efficient RL / post-training | [Link](https://arxiv.org/abs/2602.19049) | [Repo](https://github.com/YinhanHe123/IAPO) |
+| **Canonical** | **Improving Visual Token Reduction via Rectifying Distortions for Efficient Multimodal LLM Inference** | ICML 2026 | multimodal / MLLM inference / visual token reduction / token merging | [Link](https://arxiv.org/abs/2606.01711) | [Repo](https://github.com/cvlab-yonsei/RESTORE) |
 | **Canonical** | **IndexMem: Learned KV-Cache Eviction with Latent Memory for Long-Context LLM Inference** | ICML 2026 | KV cache eviction / latent memory / bounded-memory long-context inference | [Link](https://arxiv.org/abs/2605.25475) | — |
 | **Canonical** | **InfoFlow KV: Information-Flow-Aware KV Recomputation for Long Context** | ICML 2026 | KV cache / long-context RAG / selective recomputation | [Link](https://arxiv.org/abs/2603.05353) | [Repo](https://github.com/Canyu-Zhang/kv-cache-optimization) |
 | **Canonical** | **Knapsack RL: Compute-Efficient Reinforcement Learning via Heterogeneous Rollout Allocation** | ICML 2026 | LLM RL / rollout allocation / training compute efficiency | — | [Repo](https://github.com/liziniu/KnapsackRL) |
