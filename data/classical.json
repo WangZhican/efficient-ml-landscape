@@ -8915,6 +8915,27 @@
     ]
   },
   {
+    "title": "DELTA4: Sparse Matrix-Vector Multiplication for Low Sparsity",
+    "venue": "ICML 2026",
+    "topic": "sparsity / pruning / GPU SpMV kernel / sparse LLM inference",
+    "arxiv": "2511.13061",
+    "doi": "",
+    "official_id": "2511.13061",
+    "paper_url": "https://arxiv.org/abs/2511.13061",
+    "code_url": "https://github.com/vlejd/macko_spmv",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 main-conference sparse-LLM systems work. DELTA4 co-designs a compact low-sparsity SpMV representation with GPU kernels so 30-90% unstructured LLM sparsity yields real speed and memory gains; at 50% sparsity it reports about 1.5x memory reduction and 1.2-1.5x speedup over the dense baseline, with larger gains over sparse libraries.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "Deterministic Differentiable Structured Pruning for Large Language Models",
     "venue": "ICML 2026",
     "topic": "LLM structured pruning / sparsity / vLLM inference acceleration",
@@ -9788,6 +9809,26 @@
     ]
   },
   {
+    "title": "FOAM: Blocked State Folding for Memory-Efficient LLM Training",
+    "venue": "ICML 2026",
+    "topic": "distributed training / memory-efficient optimizer / optimizer-state compression",
+    "arxiv": "2512.07112",
+    "doi": "",
+    "official_id": "2512.07112",
+    "paper_url": "https://arxiv.org/abs/2512.07112",
+    "code_url": "https://github.com/zqOuO/FOAM",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 memory-efficient LLM training. FOAM compresses optimizer states with blocked state folding and residual correction, reports roughly 50% lower total training memory and up to 90% lower optimizer-state overhead while matching or improving strong optimizer baselines.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "ForesightKV: Optimizing KV Cache Eviction for Reasoning Models by Learning Long-Term Contribution",
     "venue": "ICML 2026",
     "topic": "KV cache eviction / reasoning-model serving / learned long-term contribution",
@@ -10068,6 +10109,27 @@
     "directions": [
       "KV Cache / Long Context",
       "Multimodal / MLLM Serving"
+    ]
+  },
+  {
+    "title": "IO-Adam: Rethinking Memory-Efficient Adaptive Optimizers from Gradient Computation",
+    "venue": "ICML 2026",
+    "topic": "distributed training / memory-efficient optimizer / gradient decomposition",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "z0m3EhzhOH",
+    "paper_url": "https://openreview.net/forum?id=z0m3EhzhOH",
+    "code_url": "https://github.com/Ytchen981/IO_Adam",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 main-conference memory-efficient optimizer. IO-Adam decomposes Adam second-moment statistics into input/output factors, reducing the second-moment memory from O(d_out*d_in) to O(d_out+d_in), and includes a LoMo-style fused backward/optimizer variant for further memory savings.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Distributed Training / Inference",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -12576,6 +12638,29 @@
     "directions": [
       "GPU Kernel / DSL / Compiler",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Untied Ulysses: Memory-Efficient Context Parallelism via Headwise Chunking",
+    "venue": "ICML 2026",
+    "topic": "distributed training / context parallelism / long context / activation memory",
+    "arxiv": "2602.21196",
+    "doi": "",
+    "official_id": "2602.21196",
+    "paper_url": "https://arxiv.org/abs/2602.21196",
+    "code_url": "https://github.com/ghadiaravi13/Untied-Ulysses",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 systems work for long-context distributed training. UPipe performs headwise chunking in Ulysses-style context parallelism, reducing attention activation memory by up to about 82.5% for large Transformers while preserving training speed and enabling 5M-token Llama3-8B training on one 8xH100 node.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Attention",
+      "Distributed Training / Inference"
     ]
   },
   {

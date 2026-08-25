@@ -1,6 +1,6 @@
 # 09 · Distributed Training / Inference
 
-> **167 canonical papers** mapped here, plus a broader **27-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **170 canonical papers** mapped here, plus a broader **27-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -36,7 +36,7 @@
 | **P1 · Watch** | **AReaL-DTE: Sparse Policy-Weight Transfer for Online Agentic Reinforcement Learning** | Fresh / preprint | agentic RL systems / sparse policy-weight synchronization / cross-cluster serving-training | [Link](https://arxiv.org/abs/2608.00455) | — |
 | **P2 · Relevant** | **HCCL: Collective Communication for Meta Training and Inference Accelerators** | Fresh / preprint | llm_serving | [Link](https://arxiv.org/abs/2608.00358) | — |
 
-## 🏛️ Classical / Historical · 155 canonical
+## 🏛️ Classical / Historical · 158 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -103,8 +103,10 @@
 | **Canonical** | **Efficient Distributed MLLM Training with Cornstarch** | ICML 2026 | distributed MLLM training / pipeline parallelism / context parallelism / workload balancing | [Link](https://arxiv.org/abs/2503.11367) | [Repo](https://github.com/cornstarch-org/Cornstarch) |
 | **Canonical** | **Efficient RL Training for LLMs with Experience Replay** | ICML 2026 | LLM RL post-training / rollout compute / experience replay | [Link](https://arxiv.org/abs/2604.08706) | — |
 | **Canonical** | **FlashOptim: Memory Efficient Optimizers for Large-Scale Training** | ICML 2026 | distributed training / memory-efficient optimizer / low-precision optimizer state | [Link](https://arxiv.org/abs/2602.23349) | — |
+| **Canonical** | **FOAM: Blocked State Folding for Memory-Efficient LLM Training** | ICML 2026 | distributed training / memory-efficient optimizer / optimizer-state compression | [Link](https://arxiv.org/abs/2512.07112) | [Repo](https://github.com/zqOuO/FOAM) |
 | **Canonical** | **FourTune: Towards Fully 4-Bit Efficient Post-Training for Diffusion Models** | ICML 2026 | diffusion model post-training / W4A4G4 quantization / fused kernels / training efficiency | [Link](https://arxiv.org/abs/2607.05711) | — |
 | **Canonical** | **Grouter: Decoupling Routing from Representation for Accelerated MoE Training** | ICML 2026 | MoE systems / efficient training / routing / distributed training | [Link](https://arxiv.org/abs/2603.06626) | [Repo](https://github.com/JimmyAwoe/Grouter) |
+| **Canonical** | **IO-Adam: Rethinking Memory-Efficient Adaptive Optimizers from Gradient Computation** | ICML 2026 | distributed training / memory-efficient optimizer / gradient decomposition | — | [Repo](https://github.com/Ytchen981/IO_Adam) |
 | **Canonical** | **LightningRL: Breaking the Accuracy-Parallelism Trade-off of Block-wise dLLMs via Reinforcement Learning** | ICML 2026 | diffusion LLM / parallel decoding / RL post-training / inference acceleration | [Link](https://arxiv.org/abs/2603.13319) | [Repo](https://github.com/SJTU-DENG-Lab/LightningRL) |
 | **Canonical** | **LiMuon: Light and Fast Muon Optimizer for Large Models** | ICML 2026 | LLM training efficiency / memory-efficient optimizer / Muon | [Link](https://arxiv.org/abs/2509.14562) | — |
 | **Canonical** | **M+Adam: Low-Precision Training via Additive-Multiplicative Optimization** | ICML 2026 | low-precision training / FP8 FP4 / optimizer / memory efficiency | [Link](https://arxiv.org/abs/2607.10611) | — |
@@ -119,6 +121,7 @@
 | **Canonical** | **Sparser, Faster, Lighter Transformer Language Models** | ICML 2026 | LLM sparsity / CUDA kernels / inference and training efficiency | [Link](https://arxiv.org/abs/2603.23198) | — |
 | **Canonical** | **SpecForge: A Flexible and Efficient Open-Source Training Framework for Speculative Decoding** | ICML 2026 | speculative decoding / draft-model training infrastructure / SGLang | [Link](https://arxiv.org/abs/2603.18567) | [Repo](https://github.com/sgl-project/SpecForge) |
 | **Canonical** | **Training-Inference Consistent Segmented Execution for Long-Context LLMs** | ICML 2026 | KV cache / long-context inference / segmented execution / memory-efficient training-inference consistency | [Link](https://arxiv.org/abs/2605.11744) | — |
+| **Canonical** | **Untied Ulysses: Memory-Efficient Context Parallelism via Headwise Chunking** | ICML 2026 | distributed training / context parallelism / long context / activation memory | [Link](https://arxiv.org/abs/2602.21196) | [Repo](https://github.com/ghadiaravi13/Untied-Ulysses) |
 | **Canonical** | **Accelerating MoE with Dynamic In-Switch Computing on Multi-GPUs** | ISCA 2026 | MoE / multi-GPU / in-switch computing | — | — |
 | **Canonical** | **DisDP: Disaggregating Compute, Network, and Storage for Model-Sharded Data-Parallel Training** | ISCA 2026 | distributed LLM training / disaggregation / SmartNIC-SmartSwitch | — | — |
 | **Canonical** | **Mapping and Communication Optimizations with Fault Tolerance for Wafer-Scale LLM Inference** | ISCA 2026 | LLM inference / wafer-scale architecture / communication mapping | — | — |

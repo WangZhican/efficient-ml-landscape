@@ -1,6 +1,6 @@
 # 03 · KV Cache / Long Context
 
-> **268 canonical papers** mapped here, plus a broader **40-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **269 canonical papers** mapped here, plus a broader **40-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -49,7 +49,7 @@
 | **P2 · Relevant** | **DualDecoder: Accelerate Long Context LLM Inference by Predictive Prefetch** | Fresh / preprint | LLM serving; KV cache / long context; agent systems | [Link](https://arxiv.org/abs/2607.26475) | — |
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 
-## 🏛️ Classical / Historical · 258 canonical
+## 🏛️ Classical / Historical · 259 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -229,6 +229,7 @@
 | **Canonical** | **ThunderAgent: A Fast, Simple, and Program-Aware Agentic Inference System** | ICML 2026 | agentic inference systems / KV-cache scheduling / RL rollout systems | [Link](https://arxiv.org/abs/2602.13692) | [Repo](https://github.com/ThunderAgent-org/ThunderAgent) |
 | **Canonical** | **Token Sparse Attention: Efficient Long-Context Inference with Interleaved Token Selection** | ICML 2026 | sparse attention / long-context inference | [Link](https://arxiv.org/abs/2602.03216) | — |
 | **Canonical** | **Training-Inference Consistent Segmented Execution for Long-Context LLMs** | ICML 2026 | KV cache / long-context inference / segmented execution / memory-efficient training-inference consistency | [Link](https://arxiv.org/abs/2605.11744) | — |
+| **Canonical** | **Untied Ulysses: Memory-Efficient Context Parallelism via Headwise Chunking** | ICML 2026 | distributed training / context parallelism / long context / activation memory | [Link](https://arxiv.org/abs/2602.21196) | [Repo](https://github.com/ghadiaravi13/Untied-Ulysses) |
 | **Canonical** | **Vegas: Self-Speculative Decoding with Verification-Guided Sparse Attention** | ICML 2026 | speculative decoding / sparse attention / KV-cache selection / vLLM serving | [Link](https://arxiv.org/abs/2602.07223) | [Repo](https://github.com/platformxlab/vegas) |
 | **Canonical** | **WarmServe: Enabling One-for-Many GPU Prewarming for Multi-LLM Serving** | ICML 2026 | LLM serving / multi-model autoscaling / GPU prewarming / KV-cache-aware memory management | [Link](https://arxiv.org/abs/2512.09472) | — |
 | **Canonical** | **Which Heads Matter for Reasoning? RL-Guided KV Cache Compression** | ICML 2026 | KV cache / efficient reasoning / reasoning-aware head allocation / SGLang inference | [Link](https://arxiv.org/abs/2510.08525) | [Repo](https://github.com/Kurt232/RLKV) |

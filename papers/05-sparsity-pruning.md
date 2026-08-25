@@ -1,6 +1,6 @@
 # 05 · Sparsity / Pruning
 
-> **162 canonical papers** mapped here, plus a broader **55-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **163 canonical papers** mapped here, plus a broader **55-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -64,7 +64,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 156 canonical
+## 🏛️ Classical / Historical · 157 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -147,6 +147,7 @@
 | **Canonical** | **Automatic Pruning Discovery for Large Language Models** | ICML 2026 | LLM pruning / adaptive sparsity / automatic pruning design / edge deployment | [Link](https://arxiv.org/abs/2511.15390) | — |
 | **Canonical** | **CLAA: Cross-Layer Attention Aggregation for Accelerating LLM Prefill** | ICML 2026 | LLM prefill / token selection / efficient attention / long context | [Link](https://arxiv.org/abs/2602.16054) | — |
 | **Canonical** | **De-Linearizing Agent Traces: Bayesian Inference of Latent Partial Orders for Efficient Execution** | ICML 2026 | efficient agent systems / parallel agent execution / workflow compilation / context pruning | [Link](https://arxiv.org/abs/2602.02806) | [Repo](https://bpopagent.live/) |
+| **Canonical** | **DELTA4: Sparse Matrix-Vector Multiplication for Low Sparsity** | ICML 2026 | sparsity / pruning / GPU SpMV kernel / sparse LLM inference | [Link](https://arxiv.org/abs/2511.13061) | [Repo](https://github.com/vlejd/macko_spmv) |
 | **Canonical** | **Deterministic Differentiable Structured Pruning for Large Language Models** | ICML 2026 | LLM structured pruning / sparsity / vLLM inference acceleration | [Link](https://arxiv.org/abs/2603.08065) | — |
 | **Canonical** | **DFSAttn: Dynamic Fine-grained Sparse Attention for Efficient Video Generation** | ICML 2026 | video diffusion / dynamic sparse attention / GPU-efficient inference | [Link](https://arxiv.org/abs/2605.23445) | [Repo](https://github.com/jessica-hujie/DFSAttn) |
 | **Canonical** | **Don't Drop Dropout: Optimizing Layer Sparsity for Efficient LLM Training and Inference** | ICML 2026 | LLM training efficiency / layer sparsity / early exit / self-speculative decoding | — | — |
