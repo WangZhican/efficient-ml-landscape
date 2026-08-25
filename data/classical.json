@@ -2134,7 +2134,8 @@
     "directions": [
       "LLM Serving",
       "Sparsity / Pruning",
-      "Efficient Attention"
+      "Efficient Attention",
+      "Distributed Training / Inference"
     ]
   },
   {
@@ -2305,6 +2306,7 @@
     "tracking_tier": "Canonical",
     "directions": [
       "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference",
       "Multimodal / MLLM Serving"
     ]
   },
@@ -5258,6 +5260,7 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Speculative Decoding",
+      "Distributed Training / Inference",
       "Edge / Cloud / Heterogeneous AI"
     ]
   },
@@ -8982,6 +8985,7 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
+      "Distributed Training / Inference",
       "Efficient Reasoning / Agents"
     ]
   },
@@ -9301,6 +9305,7 @@
       "LLM Serving",
       "Quantization",
       "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -9657,6 +9662,26 @@
     ]
   },
   {
+    "title": "LiMuon: Light and Fast Muon Optimizer for Large Models",
+    "venue": "ICML 2026",
+    "topic": "LLM training efficiency / memory-efficient optimizer / Muon",
+    "arxiv": "2509.14562",
+    "doi": "",
+    "official_id": "ICML2026_LIMUON",
+    "paper_url": "https://arxiv.org/abs/2509.14562",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026; lowers Muon optimizer memory with randomized SVD and improves stochastic sample complexity via variance reduction, with experiments on Mamba-130M, Qwen2.5-0.5B and ViT showing practical training-efficiency gains.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "Long-Context Modeling with Dynamic Hierarchical Sparse Attention for Memory-Constrained LLM Inference",
     "venue": "ICML 2026",
     "topic": "efficient attention / long-context LLM inference / on-device inference",
@@ -9722,6 +9747,7 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Quantization",
+      "Distributed Training / Inference",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -9765,6 +9791,27 @@
       "LLM Serving",
       "Speculative Decoding",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Memory-Efficient LLM Training with Dynamic Sparsity: From Stability to Practical Scaling",
+    "venue": "ICML 2026",
+    "topic": "LLM training efficiency / dynamic sparsity / memory-efficient optimization",
+    "arxiv": "2606.00888",
+    "doi": "",
+    "official_id": "ICML2026_SMET",
+    "paper_url": "https://arxiv.org/abs/2606.00888",
+    "code_url": "https://github.com/QiaoXiao7282/SMET",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026; Sparse Memory-Efficient Training stabilizes dynamic sparse LLM pretraining with optimizer warm-up and density-aware learning-rate scaling while storing gradients and optimizer states only for active parameters, making sparse pretraining materially memory-efficient.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "Distributed Training / Inference"
     ]
   },
   {
@@ -10275,7 +10322,7 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "Edge / Cloud / Heterogeneous AI"
+      "Distributed Training / Inference"
     ]
   },
   {
@@ -10847,6 +10894,7 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
+      "Distributed Training / Inference",
       "Efficient Reasoning / Agents"
     ]
   },
@@ -11000,7 +11048,8 @@
     "directions": [
       "LLM Serving",
       "Sparsity / Pruning",
-      "GPU Kernel / DSL / Compiler"
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
     ]
   },
   {
@@ -18821,6 +18870,7 @@
     "tracking_tier": "Canonical",
     "directions": [
       "KV Cache / Long Context",
+      "Distributed Training / Inference",
       "Efficient Reasoning / Agents"
     ]
   },

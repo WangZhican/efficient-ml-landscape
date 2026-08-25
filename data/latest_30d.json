@@ -1006,6 +1006,7 @@
       "directions": [
         "Efficient Attention",
         "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -1709,6 +1710,7 @@
       "updated_at": "2026-08-17T15:49:36Z",
       "is_latest_30d": true,
       "directions": [
+        "Distributed Training / Inference",
         "Efficient Reasoning / Agents"
       ]
     },
@@ -5701,6 +5703,7 @@
       "directions": [
         "Efficient Attention",
         "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -6402,6 +6405,7 @@
       "updated_at": "2026-08-17T15:49:36Z",
       "is_latest_30d": true,
       "directions": [
+        "Distributed Training / Inference",
         "Efficient Reasoning / Agents"
       ]
     },

@@ -18,7 +18,7 @@ DIRECTIONS = [
     ("06-efficient-attention", "Efficient Attention", ["attention", "flashattention", "linear attention", "local attention", "sparse attention"]),
     ("07-moe-systems", "MoE Systems / Accelerators", ["moe", "mixture of experts", "expert parallel", "expert routing", "expert replication"]),
     ("08-gpu-kernel-compiler", "GPU Kernel / DSL / Compiler", ["kernel", "compiler", "triton", "cuda", "gemm", "gpu", "dsl", "fusion", "tensor core"]),
-    ("09-distributed-training-inference", "Distributed Training / Inference", ["distributed", "parallelism", "pipeline parallel", "tensor parallel", "collective", "communication", "multi-gpu", "cluster", "training system"]),
+    ("09-distributed-training-inference", "Distributed Training / Inference", ["distributed", "parallelism", "pipeline parallel", "tensor parallel", "collective", "communication", "multi-gpu", "cluster", "training system", "training efficiency", "memory-efficient training", "memory-efficient optimizer", "optimizer"]),
     ("10-multimodal-mllm-serving", "Multimodal / MLLM Serving", ["multimodal", "mllm", "vlm", "vision-language", "omni", "visual token"]),
     ("11-video-image-generation", "Video / Image Generation", ["video generation", "image generation", "autoregressive image", "video model", "videolm"]),
     ("12-diffusion-flow", "Diffusion / Flow Acceleration", ["diffusion", "dit", "flow matching", "rectified flow", "denoising"]),
