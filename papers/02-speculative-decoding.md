@@ -1,15 +1,19 @@
 # 02 · Speculative Decoding
 
-> **135 canonical papers** mapped here, plus a broader **18-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **135 canonical papers** mapped here, plus a broader **22-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 18 tracked
+## 🆕 Latest 30 Days · 22 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
+| **P1 · Watch** | **Accelerating Diffusion Language Models via Structured Suffix Modeling** | Fresh / preprint | diffusion language model inference / structured suffix / parallel decoding acceleration | [Link](https://arxiv.org/abs/2608.23167) | — |
+| **P1 · Watch** | **FOVEA: Focused On-Demand Visual Evidence Adaptation for Cache-Friendly Multimodal Speculative Decoding** | Fresh / preprint | multimodal speculative decoding / visual evidence retrieval / cache-friendly inference | [Link](https://arxiv.org/abs/2608.22883) | — |
+| **P1 · Watch** | **TailSieve: Partial-Rollout-Guided Tail Routing for LLM Rollouts** | Fresh / preprint | LLM rollout systems / tail routing / replica allocation / speculative decoding | [Link](https://arxiv.org/abs/2608.22788) | — |
 | **P1 · Watch** | **SPICE: Speculative Prefetching with Low-Rank Expert Surrogates and Heterogeneous Orchestration for MoE Inference Acceleration** | Fresh / preprint | llm_serving / spec / moe / edge | [Link](https://arxiv.org/abs/2608.21240) | — |
 | **P1 · Watch** | **TreeWY: Speculative Verification for Gated DeltaNet Hybrids** | Fresh / preprint | llm_serving / spec | [Link](https://arxiv.org/abs/2608.20961) | — |
+| **P2 · Relevant** | **Is Multimodal Speculative Decoding Ready for Diffusion-Based Parallel Drafting? A Survey and Empirical Diagnosis** | Fresh / preprint | spec / multimodal / physical / edge | [Link](https://arxiv.org/abs/2608.20743) | — |
 | **P1 · Watch** | **LiLiCorr: Lightweight Likelihood Correlation of Parallel Drafts for Speculative Decoding** | Fresh / preprint | llm_serving / spec / edge | [Link](https://arxiv.org/abs/2608.20530) | — |
 | **P0 · Strong** | **Pre-Compiled Pipeline Shards for Distributed LLM Inference on Intel AI PC Fleets** | Fresh / preprint | distributed LLM inference / edge AI PC fleet / speculative decoding | [Link](https://arxiv.org/abs/2608.19147) | [Repo](https://github.com/labscommunity/pipeline-sharded-inference-paper) |
 | **P1 · Watch** | **Accelerating Visual On-Policy Distillation with Batched Speculative Jacobi Rollouts** | Fresh / preprint | visual generation training systems / speculative rollout | [Link](https://arxiv.org/abs/2608.18183) | — |

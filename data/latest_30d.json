@@ -1,8 +1,8 @@
 {
-  "window_end_beijing": "2026-08-25",
-  "window_start_beijing": "2026-07-26",
+  "window_end_beijing": "2026-08-26",
+  "window_start_beijing": "2026-07-27",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 213,
+  "tracked_total": 262,
   "p0_strong_or_canonical": [
     {
       "title": "FlashPrefill V2: Block-Sparse Prefill Attention for Long-Context LLM Serving",
@@ -692,7 +692,7 @@
       "decision": "PROMOTE_STRONG",
       "why": "Production paged-serving engines apply uniform paging granularity to the KV cache, even though the two regions of a multi-agent workload have opposite storage requirements: a long shared prefix demands contiguity, while the per-request suffix demands fine-grained allocation. We present \\textbf{GraniKV}, a KV-cache layer that allocates the shared prefix in a contiguous HOT pool and the suffix in a token-level COLD pool, combined with a per-step dispatcher which selects the appropriate backend among dual backends for each regime (compute-, memory-, or communication-bound). To the best of our knowledge, GraniKV is the first system to apply asymmetric paging granularity to the KV cache of a production paged-serving engine. At $L_p{=}16$\\,K shared tokens GraniKV reaches $\\mathbf{2.16\\times}$, $\\mathbf{1.98\\times}$, and $\\mathbf{1.57\\times}$ output-token throughput over the production baseline on Llama-3.1-8B/TP=1, Qwen-2.5-14B/TP=2, and Qwen-2.5-32B/TP=4. The gain decomposes: cascade attention integration contributes the majority at saturation; the asymmetric storage layer adds $1.05$--$1.15\\times$ end-to-end while being what makes the batched-GEMM prefix backend possible at all. Under heterogeneous multi-agent serving with \\emph{distinct} prompts of different lengths, the attribution inverts: GraniKV sustains $\\mathbf{1.95\\times}$ while batch-global cascade collapses to parity --- the storage layer alone carries the win in the regime that motivates the paper.",
       "published_at": "2026-08-16T07:19:49Z",
-      "updated_at": "2026-08-16T07:19:49Z",
+      "updated_at": "2026-08-23T16:29:29Z",
       "is_latest_30d": true,
       "tracking_tier": "P0 · Strong",
       "directions": [
@@ -1100,6 +1100,453 @@
   ],
   "p1_watchlist": [
     {
+      "title": "ReWorld: An Interactive World Model with Long-Horizon Memory",
+      "venue": "",
+      "topic": "Physical AI / interactive world model / bounded KV cache / real-time streaming",
+      "arxiv": "2608.23565",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.23565",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct Physical-AI/world-model systems relevance: fixed-budget KV cache plus pose-indexed landmark retrieval enables minute-long interactive rollouts while maintaining real-time streaming and bounded memory.",
+      "published_at": "2026-08-24T17:59:05Z",
+      "updated_at": "2026-08-24T17:59:05Z",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context"
+      ]
+    },
+    {
+      "title": "ProxyFormer: A Dual-Stream Proxy Architecture for Ultra-Long Context and High-Resolution Generation",
+      "venue": "",
+      "topic": "long context / KV-cache reduction / high-resolution generation",
+      "arxiv": "2608.23463",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.23463",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct long-context efficiency work: proxy-only global interaction and proxy-only KV-cache inference extend trainable context from ~20K to ~0.7M on a 16GB GPU and support million-token retrieval.",
+      "published_at": "2026-08-24T16:31:46Z",
+      "updated_at": "2026-08-24T16:31:46Z",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context"
+      ]
+    },
+    {
+      "title": "ChebBooster: A Training-Free Approach for Efficient Diffusion Transformer Inference via Chebyshev-Inspired Extrapolation",
+      "venue": "",
+      "topic": "diffusion/DiT inference acceleration / training-free extrapolation",
+      "arxiv": "2608.23429",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.23429",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Training-free DiT acceleration using numerically stable Chebyshev-inspired extrapolation; reports up to 3.68x latency speedup and 5.12x FLOPs reduction across DiT-XL/2, PixArt-Sigma and FLUX.1-dev.",
+      "published_at": "2026-08-24T16:06:11Z",
+      "updated_at": "2026-08-24T16:06:11Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "E2S-Pruner: Progressive Two-Stage Evidence Fusion for Visual Token Pruning in Vision-Language Models",
+      "venue": "",
+      "topic": "visual token pruning / MLLM inference / throughput acceleration",
+      "arxiv": "2608.23253",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.23253",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct Efficient-ML/AI-Infra relevance with concrete latency/throughput/memory/energy/deployment evidence; retain P1 pending deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-24T13:44:41Z",
+      "updated_at": "2026-08-24T13:44:41Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "GPU Kernel / DSL / Compiler",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "Accelerating Diffusion Language Models via Structured Suffix Modeling",
+      "venue": "",
+      "topic": "diffusion language model inference / structured suffix / parallel decoding acceleration",
+      "arxiv": "2608.23167",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.23167",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct Efficient-ML/AI-Infra relevance with concrete latency/throughput/memory/energy/deployment evidence; retain P1 pending deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-24T12:13:34Z",
+      "updated_at": "2026-08-24T12:13:34Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Speculative Decoding",
+        "GPU Kernel / DSL / Compiler",
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "Pointing-VLA: Typed Spatial Grounding Interfaces for Vision-Language-Action Manipulation",
+      "venue": "",
+      "topic": "Physical AI / VLA / typed spatial readout / action decoding acceleration",
+      "arxiv": "2608.23138",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.23138",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct Efficient-ML/AI-Infra relevance with concrete latency/throughput/memory/energy/deployment evidence; retain P1 pending deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-24T11:43:49Z",
+      "updated_at": "2026-08-24T11:43:49Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "FOVEA: Focused On-Demand Visual Evidence Adaptation for Cache-Friendly Multimodal Speculative Decoding",
+      "venue": "",
+      "topic": "multimodal speculative decoding / visual evidence retrieval / cache-friendly inference",
+      "arxiv": "2608.22883",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.22883",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct Efficient-ML/AI-Infra relevance with concrete latency/throughput/memory/energy/deployment evidence; retain P1 pending deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-24T07:09:02Z",
+      "updated_at": "2026-08-24T07:09:02Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Speculative Decoding",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "UniMem: Unifying Multimodal Memory and Control for Vision-Language-Action Models",
+      "venue": "",
+      "topic": "Physical AI / VLA / multimodal memory / keyframe caching / faster inference",
+      "arxiv": "2608.22869",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.22869",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct Efficient-ML/AI-Infra relevance with concrete latency/throughput/memory/energy/deployment evidence; retain P1 pending deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-24T06:56:02Z",
+      "updated_at": "2026-08-24T06:56:02Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "TailSieve: Partial-Rollout-Guided Tail Routing for LLM Rollouts",
+      "venue": "",
+      "topic": "LLM rollout systems / tail routing / replica allocation / speculative decoding",
+      "arxiv": "2608.22788",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.22788",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct Efficient-ML/AI-Infra relevance with concrete latency/throughput/memory/energy/deployment evidence; retain P1 pending deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-24T04:18:09Z",
+      "updated_at": "2026-08-24T04:18:09Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Speculative Decoding",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "TEE-X: TEE-aware Acceleration Framework for Large Vision Models at the Edge",
+      "venue": "",
+      "topic": "edge vision inference / TEE-aware acceleration / secure deployment",
+      "arxiv": "2608.22716",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.22716",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct Efficient-ML/AI-Infra relevance with concrete latency/throughput/memory/energy/deployment evidence; retain P1 pending deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-24T02:05:26Z",
+      "updated_at": "2026-08-24T02:05:26Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "NeuroPrefetcher: Storage-Aware Sparse LLM Inference via Delta Prefetching",
+      "venue": "",
+      "topic": "edge LLM serving / storage-backed sparse inference / predictive delta prefetching",
+      "arxiv": "2608.22643",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.22643",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct Efficient-ML/AI-Infra relevance with concrete latency/throughput/memory/energy/deployment evidence; retain P1 pending deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-23T22:58:11Z",
+      "updated_at": "2026-08-23T22:58:11Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "NOVA: Technology-Architecture Co-Design of Near-Memory Processing for Attention-SSM-MoE Hybrid LLM Inference",
+      "venue": "",
+      "topic": "hybrid LLM inference / near-memory processing / Attention-SSM-MoE architecture",
+      "arxiv": "2608.22613",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.22613",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct Efficient-ML/AI-Infra relevance with concrete latency/throughput/memory/energy/deployment evidence; retain P1 pending deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-23T21:38:46Z",
+      "updated_at": "2026-08-23T21:38:46Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Attention",
+        "MoE Systems / Accelerators"
+      ]
+    },
+    {
+      "title": "Beyond Dense Adam States: Adaptive Log-Space Quantization for Memory-Efficient Optimizers",
+      "venue": "",
+      "topic": "memory-efficient training / optimizer-state quantization / low-precision optimizer",
+      "arxiv": "2608.22322",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.22322",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct Efficient-ML/AI-Infra relevance with concrete latency/throughput/memory/energy/deployment evidence; retain P1 pending deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-23T09:36:56Z",
+      "updated_at": "2026-08-23T09:36:56Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "CST: Collaborative Selective Transmission for Communication-Efficient Multimodal Edge Inference",
+      "venue": "",
+      "topic": "multimodal edge inference / selective transmission / communication efficiency",
+      "arxiv": "2608.22115",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.22115",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct Efficient-ML/AI-Infra relevance with concrete latency/throughput/memory/energy/deployment evidence; retain P1 pending deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-22T21:59:06Z",
+      "updated_at": "2026-08-22T21:59:06Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Distributed Training / Inference",
+        "Multimodal / MLLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "What actually runs: a measurement study of language model placement and decode speed on the Apple Neural Engine",
+      "venue": "",
+      "topic": "edge LLM inference / Apple Neural Engine / quantization / deployment measurement",
+      "arxiv": "2608.22110",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.22110",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct Efficient-ML/AI-Infra relevance with concrete latency/throughput/memory/energy/deployment evidence; retain P1 pending deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-22T21:22:24Z",
+      "updated_at": "2026-08-22T21:22:24Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "SSDi8: Accurate and Efficient 8-bit Quantization for State Space Duality",
+      "venue": "",
+      "topic": "quantization / SSD-Mamba / INT8 inference / edge deployment",
+      "arxiv": "2608.21952",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.21952",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct Efficient-ML/AI-Infra relevance with concrete latency/throughput/memory/energy/deployment evidence; retain P1 pending deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-22T13:29:28Z",
+      "updated_at": "2026-08-22T13:29:28Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "PRISM: Predictive Runtime In-place Scaling and Model Selection for Edge Microservices",
+      "venue": "",
+      "topic": "edge AI serving / runtime model selection / energy-aware CPU allocation",
+      "arxiv": "2608.21910",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.21910",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct Efficient-ML/AI-Infra relevance with concrete latency/throughput/memory/energy/deployment evidence; retain P1 pending deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-22T10:45:59Z",
+      "updated_at": "2026-08-22T10:45:59Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "LLM4LLM: Bridging Kernel Benchmarks and Real Deployment via Closed-Loop Agentic Optimization",
+      "venue": "",
+      "topic": "GPU kernel optimization / deployment-aware agentic optimization / LLM inference",
+      "arxiv": "2608.21836",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.21836",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct Efficient-ML/AI-Infra relevance with concrete latency/throughput/memory/energy/deployment evidence; retain P1 pending deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-22T08:12:16Z",
+      "updated_at": "2026-08-22T08:12:16Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "PowerSlider: Exploiting Phase Asymmetry for LLM Serving under Demand Response",
+      "venue": "",
+      "topic": "LLM serving / power-aware scheduling / prefill-think-decode disaggregation / demand response",
+      "arxiv": "2608.21719",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.21719",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct Efficient-ML/AI-Infra relevance with concrete latency/throughput/memory/energy/deployment evidence; retain P1 pending deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-22T01:48:35Z",
+      "updated_at": "2026-08-22T01:48:35Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving"
+      ]
+    },
+    {
+      "title": "Benchmarking Composable Compression Techniques in Mixture-of-Experts LLMs",
+      "venue": "",
+      "topic": "MoE compression benchmark / expert pruning / quantization / KV cache / deployment efficiency",
+      "arxiv": "2608.21693",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.21693",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct Efficient-ML/AI-Infra relevance with concrete latency/throughput/memory/energy/deployment evidence; retain P1 pending deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-22T00:01:18Z",
+      "updated_at": "2026-08-22T00:01:18Z",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context",
+        "Quantization",
+        "Sparsity / Pruning",
+        "MoE Systems / Accelerators"
+      ]
+    },
+    {
+      "title": "SAEM: Stage-Aware Expert Management for Memory-Efficient MoE Inference in Chain-of-Thought Reasoning",
+      "venue": "",
+      "topic": "MoE serving / expert caching-offload / CoT reasoning / memory efficiency",
+      "arxiv": "2608.21614",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.21614",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct Efficient-ML/AI-Infra relevance with concrete latency/throughput/memory/energy/deployment evidence; retain P1 pending deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-21T20:26:32Z",
+      "updated_at": "2026-08-21T20:26:32Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "MoE Systems / Accelerators",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Just Noticeable Difference Modeling for Token Compression in Vision-Language-Action Models",
       "venue": "",
       "topic": "llm_serving / kv / sparse / multimodal / gen / physical",
@@ -1234,6 +1681,27 @@
       ]
     },
     {
+      "title": "AsmEvo: Agentic Assembly-Level Optimization of AMD GPU Kernels with Functional Equivalence Verification",
+      "venue": "",
+      "topic": "GPU kernels / AMDGPU assembly optimization / agentic compiler / vLLM-SGLang deployment",
+      "arxiv": "2608.20711",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.20711",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct Efficient-ML/AI-Infra relevance with concrete latency/throughput/memory/energy/deployment evidence; retain P1 pending deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-21T03:34:22Z",
+      "updated_at": "2026-08-21T03:34:22Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "LiLiCorr: Lightweight Likelihood Correlation of Parallel Drafts for Speculative Decoding",
       "venue": "",
       "topic": "llm_serving / spec / edge",
@@ -1252,6 +1720,27 @@
       "directions": [
         "LLM Serving",
         "Speculative Decoding",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Bern2Edge: A Neurosymbolic Compiler for Edge Deployment via Bernstein Polynomial Networks",
+      "venue": "",
+      "topic": "edge AI compiler / FPGA deployment / model compression / hardware-aware acceleration",
+      "arxiv": "2608.20497",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.20497",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct Efficient-ML/AI-Infra relevance with concrete latency/throughput/memory/energy/deployment evidence; retain P1 pending deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-20T18:33:20Z",
+      "updated_at": "2026-08-20T18:33:20Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -1290,7 +1779,7 @@
       "tracking_tier": "P1 · Watch",
       "why": "Systematic cache-policy comparison finds LFU a strong default and exposes poor quality-adjusted semantic-cache hit rates under common operating points. Useful serving evidence, but narrower benchmarking contribution and semantic response cache rather than KV cache.",
       "published_at": "2026-08-20T17:14:19Z",
-      "updated_at": "2026-08-20T17:14:19Z",
+      "updated_at": "2026-08-22T17:31:04Z",
       "is_latest_30d": true,
       "directions": [
         "LLM Serving",
@@ -2074,6 +2563,47 @@
       ]
     },
     {
+      "title": "LipCache: A Local Inference Proxy with Certified Caching for Edge Image Classification Service",
+      "venue": "",
+      "topic": "edge inference / certified semantic caching / latency acceleration",
+      "arxiv": "2608.13144",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.13144",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct 30-day Efficient-ML/AI-Infra relevance with concrete runtime/memory/throughput/energy/deployment evidence; retain P1 for deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-13T12:16:58Z",
+      "updated_at": "2026-08-13T12:16:58Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Mamba-based Selective State Space Modeling Improves the Accuracy-Complexity Tradeoff of SmolVLA Vision-Language-Action Experts",
+      "venue": "",
+      "topic": "Physical AI / SmolVLA / Mamba action expert / real-time accuracy-complexity tradeoff",
+      "arxiv": "2608.21407",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.21407",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct 30-day Efficient-ML/AI-Infra relevance with concrete runtime/memory/throughput/energy/deployment evidence; retain P1 for deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-10T11:07:27Z",
+      "updated_at": "2026-08-10T11:07:27Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "OpRAG: A Resource-Deterministic Runtime for GPU-Backed Multi-Stage RAG Workflows",
       "venue": "",
       "topic": "llm_serving / attn / agent",
@@ -2118,6 +2648,26 @@
       ]
     },
     {
+      "title": "KGCache: Amortized Subgraph Retrieval for KG Reasoning with LLMs",
+      "venue": "",
+      "topic": "RAG/KG reasoning / retrieval caching / agent inference acceleration",
+      "arxiv": "2608.07954",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.07954",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct 30-day Efficient-ML/AI-Infra relevance with concrete runtime/memory/throughput/energy/deployment evidence; retain P1 for deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-08T06:36:24Z",
+      "updated_at": "2026-08-08T06:36:24Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "A Two-Tier Perspective on Inference-Time Parallelism in Multi-Agent LLM Systems",
       "venue": "ICML 2026",
       "topic": "efficient agent systems / multi-agent inference / parallel execution / latency-cost tradeoff",
@@ -2136,6 +2686,27 @@
       "directions": [
         "Distributed Training / Inference",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "When and Where to Look: Adaptive Visual Evidence Scheduling for Efficient Long Video Understanding",
+      "venue": "",
+      "topic": "long-video VLM inference / adaptive visual evidence scheduling / frame-budget efficiency",
+      "arxiv": "2608.03918",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.03918",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct 30-day Efficient-ML/AI-Infra relevance with concrete runtime/memory/throughput/energy/deployment evidence; retain P1 for deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-04T16:49:53Z",
+      "updated_at": "2026-08-04T16:49:53Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving"
       ]
     },
     {
@@ -2183,6 +2754,47 @@
       ]
     },
     {
+      "title": "Efficient Knowledge Distillation for LLMs: Offline Top-K Logits and a Fused Chunked KL Loss",
+      "venue": "",
+      "topic": "LLM distillation systems / fused chunked KL / memory-efficient training",
+      "arxiv": "2608.03796",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.03796",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct 30-day Efficient-ML/AI-Infra relevance with concrete runtime/memory/throughput/energy/deployment evidence; retain P1 for deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-04T15:11:45Z",
+      "updated_at": "2026-08-04T15:11:45Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Distributed Training / Inference",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Recurrent Residual Quantization: A Progressive Multi-Precision Representation for LLMs",
+      "venue": "",
+      "topic": "LLM quantization / multi-precision single checkpoint / flexible deployment",
+      "arxiv": "2608.04048",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.04048",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct 30-day Efficient-ML/AI-Infra relevance with concrete runtime/memory/throughput/energy/deployment evidence; retain P1 for deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-04T08:32:05Z",
+      "updated_at": "2026-08-04T08:32:05Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization"
+      ]
+    },
+    {
       "title": "AcceptMoE: Commitment-Weighted Self-Sizing Verifier Expert Sets for Efficient MoE Speculative Decoding",
       "venue": "",
       "topic": "llm_serving / spec / moe / gen",
@@ -2202,6 +2814,29 @@
         "LLM Serving",
         "Speculative Decoding",
         "MoE Systems / Accelerators"
+      ]
+    },
+    {
+      "title": "Broadcast Rate Limits in Wi-Fi: A Forgotten Bottleneck for Collaborative Edge LLM Inference",
+      "venue": "",
+      "topic": "collaborative edge MoE serving / communication / Wi-Fi broadcast bottleneck",
+      "arxiv": "2608.02341",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.02341",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct 30-day Efficient-ML/AI-Infra relevance with concrete runtime/memory/throughput/energy/deployment evidence; retain P1 for deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-03T14:57:09Z",
+      "updated_at": "2026-08-03T14:57:09Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "MoE Systems / Accelerators",
+        "Distributed Training / Inference",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -2226,6 +2861,47 @@
       ]
     },
     {
+      "title": "LEAP: Lean Environment-Feedback via Adaptive Pruning for Code RL in GPU Kernel Generation",
+      "venue": "",
+      "topic": "GPU kernel generation / RL post-training / adaptive environment pruning / systems optimization",
+      "arxiv": "2608.01804",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.01804",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct 30-day Efficient-ML/AI-Infra relevance with concrete runtime/memory/throughput/energy/deployment evidence; retain P1 for deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-03T07:12:52Z",
+      "updated_at": "2026-08-04T02:24:08Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Sparsity / Pruning",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Spyre-Accelerated Retrieval-Augmented Generation on IBM LinuxONE: A Cloud-Native Architecture for Secure, High-Throughput Enterprise AI Inference",
+      "venue": "",
+      "topic": "RAG serving / IBM Spyre accelerator / cloud-native enterprise inference",
+      "arxiv": "2608.21393",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.21393",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct 30-day Efficient-ML/AI-Infra relevance with concrete runtime/memory/throughput/energy/deployment evidence; retain P1 for deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-02T09:00:24Z",
+      "updated_at": "2026-08-02T09:00:24Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving"
+      ]
+    },
+    {
       "title": "Latency-Tolerant Cloud-Edge Collaborative Vision-Language-Action Models via Emergent Representational Specialization",
       "venue": "",
       "topic": "llm_serving / multimodal / physical",
@@ -2239,13 +2915,99 @@
       "tracking_tier": "P1 · Watch",
       "why": "Directly relevant recent Efficient-ML/AI-Infra work with concrete systems/efficiency mechanism; retained as P1 pending deeper venue/adoption/independent-validation review.",
       "published_at": "2026-08-01T10:11:59Z",
-      "updated_at": "2026-08-01T10:11:59Z",
+      "updated_at": "2026-08-23T05:08:49Z",
       "is_latest_30d": true,
       "directions": [
         "LLM Serving",
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "AReaL-DTE: Sparse Policy-Weight Transfer for Online Agentic Reinforcement Learning",
+      "venue": "",
+      "topic": "agentic RL systems / sparse policy-weight synchronization / cross-cluster serving-training",
+      "arxiv": "2608.00455",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.00455",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct 30-day Efficient-ML/AI-Infra relevance with concrete runtime/memory/throughput/energy/deployment evidence; retain P1 for deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-01T05:34:56Z",
+      "updated_at": "2026-08-01T05:34:56Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "CORA-Diff: Confidence-Oriented Residual Acceptance for Efficient Diffusion Language Model Inference",
+      "venue": "",
+      "topic": "diffusion language model inference / training-free residual acceptance / decoding acceleration",
+      "arxiv": "2608.11235",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.11235",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct 30-day Efficient-ML/AI-Infra relevance with concrete runtime/memory/throughput/energy/deployment evidence; retain P1 for deeper novelty/venue/adoption review.",
+      "published_at": "2026-07-31T07:32:10Z",
+      "updated_at": "2026-07-31T07:32:10Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "WitCert: Sound Runtime Risk Observability and Gating for KV-Cache Quantization",
+      "venue": "",
+      "topic": "KV-cache quantization / runtime risk observability / SGLang serving",
+      "arxiv": "2607.28699",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2607.28699",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct 30-day Efficient-ML/AI-Infra relevance with concrete runtime/memory/throughput/energy/deployment evidence; retain P1 for deeper novelty/venue/adoption review.",
+      "published_at": "2026-07-30T11:04:45Z",
+      "updated_at": "2026-08-16T15:41:57Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Quantization"
+      ]
+    },
+    {
+      "title": "LLMET: Enabling Cross-Layer Evaluation of Emerging M3D Memories for Energy-Efficient LLM Serving",
+      "venue": "",
+      "topic": "LLM serving / emerging memory / cross-layer architecture simulation / energy efficiency",
+      "arxiv": "2607.26491",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2607.26491",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct 30-day Efficient-ML/AI-Infra relevance with concrete runtime/memory/throughput/energy/deployment evidence; retain P1 for deeper novelty/venue/adoption review.",
+      "published_at": "2026-07-29T05:37:31Z",
+      "updated_at": "2026-07-29T05:37:31Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving"
       ]
     },
     {
@@ -2270,6 +3032,27 @@
       ]
     },
     {
+      "title": "CoTinyVLA: Chain-of-Thought Distillation for a Sub-Billion-Parameter Vision-Language-Action Model",
+      "venue": "",
+      "topic": "Physical AI / compact VLA / sub-billion model / embedded deployment",
+      "arxiv": "2607.25487",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2607.25487",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct 30-day Efficient-ML/AI-Infra relevance with concrete runtime/memory/throughput/energy/deployment evidence; retain P1 for deeper novelty/venue/adoption review.",
+      "published_at": "2026-07-28T09:24:17Z",
+      "updated_at": "2026-07-28T09:24:17Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Omni-Prune: Query-Aware Unified Token Pruning for Efficient Omnimodal Large Language Models",
       "venue": "",
       "topic": "llm_serving / sparse / edge",
@@ -2283,7 +3066,7 @@
       "tracking_tier": "P1 · Watch",
       "why": "Directly relevant recent Efficient-ML/AI-Infra work with concrete systems/efficiency mechanism; retained as P1 pending deeper venue/adoption/independent-validation review.",
       "published_at": "2026-07-26T03:51:39Z",
-      "updated_at": "2026-07-26T03:51:39Z",
+      "updated_at": "",
       "is_latest_30d": true,
       "directions": [
         "LLM Serving",
@@ -2319,6 +3102,69 @@
   ],
   "p2_relevant_low_priority": [
     {
+      "title": "Prime Agent: A Self-Improving RLM Harness",
+      "venue": "",
+      "topic": "agent systems / long-horizon harness / resource accounting",
+      "arxiv": "2608.23552",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.23552",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Relevant agent-runtime infrastructure with persistent REPL/subagents/recovery/resource accounting, but current evidence emphasizes capability and harness quality more than direct latency/throughput efficiency; retain P2.",
+      "published_at": "2026-08-24T17:54:19Z",
+      "updated_at": "2026-08-24T17:54:19Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Act with Intent: Distilling Behavior Intent for Vision-Language-Action Models",
+      "venue": "",
+      "topic": "Physical AI / VLA / action decoder",
+      "arxiv": "2608.23478",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.23478",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Protected Physical-AI relevance, but current contribution primarily improves task success/action representation rather than serving/runtime efficiency; retain P2 pending stronger deployment-efficiency evidence.",
+      "published_at": "2026-08-24T16:42:49Z",
+      "updated_at": "2026-08-24T16:42:49Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Model Compression and Hardware-Aware Acceleration for Deep Learning on FPGAs: A Co-Design Taxonomy and Comparative Analysis",
+      "venue": "",
+      "topic": "llm_serving / sparse",
+      "arxiv": "2608.21657",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.21657",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "compression/hardware-aware FPGA taxonomy; useful survey/reference but lower priority than primary systems contributions",
+      "published_at": "2026-08-21T22:01:16Z",
+      "updated_at": "2026-08-21T22:01:16Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning"
+      ]
+    },
+    {
       "title": "Memory Augmentation Unlocks Efficient Chain-of-Thought Reasoning",
       "venue": "",
       "topic": "llm_serving",
@@ -2340,6 +3186,74 @@
       ]
     },
     {
+      "title": "Target-Aware Calibration Data Selection for Preserving Uncertainty in Quantized Language Models",
+      "venue": "",
+      "topic": "llm_serving / quant / edge",
+      "arxiv": "2608.21019",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.21019",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "quantization calibration-data selection focused on uncertainty preservation; related but deployment speed/memory gains are not the main contribution",
+      "published_at": "2026-08-21T12:07:49Z",
+      "updated_at": "2026-08-21T12:07:49Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "A Collaborative Multi-Modality Interaction for VLA-based End-to-End Autonomous Driving",
+      "venue": "",
+      "topic": "multimodal / gen / physical / edge",
+      "arxiv": "2608.20890",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.20890",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Physical AI/VLA autonomous-driving multimodal interaction; protected relevance but efficiency/runtime contribution is secondary",
+      "published_at": "2026-08-21T09:06:16Z",
+      "updated_at": "2026-08-21T09:06:16Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Is Multimodal Speculative Decoding Ready for Diffusion-Based Parallel Drafting? A Survey and Empirical Diagnosis",
+      "venue": "",
+      "topic": "spec / multimodal / physical / edge",
+      "arxiv": "2608.20743",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.20743",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "multimodal speculative decoding survey/diagnosis; directly relevant but not a new primary runtime method",
+      "published_at": "2026-08-21T05:03:10Z",
+      "updated_at": "2026-08-21T05:03:10Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Speculative Decoding",
+        "GPU Kernel / DSL / Compiler",
+        "Multimodal / MLLM Serving",
+        "Diffusion / Flow Acceleration",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "ForeTime-VLA: Causal Future-Token Distillation from a World Action Model for Conveyor-Belt Manipulation",
       "venue": "",
       "topic": "llm_serving / multimodal / gen / physical",
@@ -2358,6 +3272,29 @@
       "directions": [
         "LLM Serving",
         "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Logic-VLA: A Temporal Logic Conditioned Vision-Language-Action Model",
+      "venue": "",
+      "topic": "llm_serving / multimodal / gen / physical",
+      "arxiv": "2608.20556",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.20556",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Physical AI/VLA formal-requirement conditioning; protected relevance but current contribution emphasizes behavior satisfaction rather than inference efficiency",
+      "published_at": "2026-08-20T20:35:07Z",
+      "updated_at": "2026-08-20T20:35:07Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Diffusion / Flow Acceleration",
         "VLA / WAM / Physical AI"
       ]
     },
@@ -2878,6 +3815,28 @@
       ]
     },
     {
+      "title": "DriveVLA-M0: Failure-Aware Memory Augmentation for Autonomous Driving",
+      "venue": "",
+      "topic": "llm_serving / multimodal / gen / physical",
+      "arxiv": "2608.10413",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.10413",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Physical AI autonomous-driving VLA memory augmentation; directly related to memory-enabled runtime behavior but efficiency evidence is secondary.",
+      "published_at": "2026-08-11T03:01:46Z",
+      "updated_at": "2026-08-11T03:01:46Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "MemSpec: Memory-Aware Runtime for Adaptive Draft Scheduling in Speculative Decoding on Edge Devices",
       "venue": "",
       "topic": "LLM serving; speculative decoding; generation acceleration; edge / heterogeneous AI",
@@ -3009,6 +3968,29 @@
         "Quantization",
         "MoE Systems / Accelerators",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Vid2WAM: Distilling Video Diffusion Priors into World Action Models",
+      "venue": "",
+      "topic": "llm_serving / gen / physical",
+      "arxiv": "2608.08558",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.08558",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Physical AI/WAM: compact student discards video teacher/IDM at inference and preserves low-latency deployment, but current headline evidence emphasizes data efficiency/generalization.",
+      "published_at": "2026-08-09T08:02:49Z",
+      "updated_at": "2026-08-09T08:02:49Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Diffusion / Flow Acceleration",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -3954,6 +4936,28 @@
       ]
     },
     {
+      "title": "ActFovea: Runtime Safeguarding for VLA Policies via Spatiotemporal Visual-Action Consistency",
+      "venue": "",
+      "topic": "llm_serving / multimodal / gen / physical",
+      "arxiv": "2607.29169",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2607.29169",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Physical AI/VLA runtime safeguarding via visual-action consistency; retain for protected runtime lineage pending stronger efficiency evidence.",
+      "published_at": "2026-07-31T08:47:57Z",
+      "updated_at": "2026-07-31T08:47:57Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Selective KV Cache Protection for Noise-Resilient LLM Inference on Analog Compute-In-Memory Systems",
       "venue": "",
       "topic": "llm_serving / kv",
@@ -4081,6 +5085,28 @@
       ]
     },
     {
+      "title": "The Geometry of Flow-Matching Uncertainty: A Cost-free Uncertainty Proxy and Its Application in Flow-based VLA Failure Detection",
+      "venue": "",
+      "topic": "llm_serving / gen / physical / edge",
+      "arxiv": "2607.27933",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2607.27933",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Physical AI/VLA cost-free uncertainty proxy for flow-based failure detection; deployment-relevant but not primarily a serving acceleration method.",
+      "published_at": "2026-07-30T09:44:46Z",
+      "updated_at": "2026-08-06T08:12:13Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "A Sparse Glimpse of the Whole: Train-Free Self-Speculative Decoding",
       "venue": "",
       "topic": "llm_serving / kv / spec",
@@ -4165,6 +5191,30 @@
       "directions": [
         "LLM Serving",
         "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "CheckVLA: Execution-Time Verification with Action-Conditioned World Model for Long-Horizon Mobile Manipulation",
+      "venue": "",
+      "topic": "llm_serving / multimodal / gen / physical / edge",
+      "arxiv": "2607.26789",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2607.26789",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Physical AI/VLA execution-time verification with world model; directly relevant to runtime safety but efficiency overhead/benefit needs deeper review.",
+      "published_at": "2026-07-29T11:31:33Z",
+      "updated_at": "2026-07-29T11:31:33Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Diffusion / Flow Acceleration",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -5389,7 +6439,7 @@
       "decision": "PROMOTE_STRONG",
       "why": "Production paged-serving engines apply uniform paging granularity to the KV cache, even though the two regions of a multi-agent workload have opposite storage requirements: a long shared prefix demands contiguity, while the per-request suffix demands fine-grained allocation. We present \\textbf{GraniKV}, a KV-cache layer that allocates the shared prefix in a contiguous HOT pool and the suffix in a token-level COLD pool, combined with a per-step dispatcher which selects the appropriate backend among dual backends for each regime (compute-, memory-, or communication-bound). To the best of our knowledge, GraniKV is the first system to apply asymmetric paging granularity to the KV cache of a production paged-serving engine. At $L_p{=}16$\\,K shared tokens GraniKV reaches $\\mathbf{2.16\\times}$, $\\mathbf{1.98\\times}$, and $\\mathbf{1.57\\times}$ output-token throughput over the production baseline on Llama-3.1-8B/TP=1, Qwen-2.5-14B/TP=2, and Qwen-2.5-32B/TP=4. The gain decomposes: cascade attention integration contributes the majority at saturation; the asymmetric storage layer adds $1.05$--$1.15\\times$ end-to-end while being what makes the batched-GEMM prefix backend possible at all. Under heterogeneous multi-agent serving with \\emph{distinct} prompts of different lengths, the attribution inverts: GraniKV sustains $\\mathbf{1.95\\times}$ while batch-global cascade collapses to parity --- the storage layer alone carries the win in the regime that motivates the paper.",
       "published_at": "2026-08-16T07:19:49Z",
-      "updated_at": "2026-08-16T07:19:49Z",
+      "updated_at": "2026-08-23T16:29:29Z",
       "is_latest_30d": true,
       "tracking_tier": "P0 · Strong",
       "directions": [
@@ -5795,6 +6845,453 @@
       ]
     },
     {
+      "title": "ReWorld: An Interactive World Model with Long-Horizon Memory",
+      "venue": "",
+      "topic": "Physical AI / interactive world model / bounded KV cache / real-time streaming",
+      "arxiv": "2608.23565",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.23565",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct Physical-AI/world-model systems relevance: fixed-budget KV cache plus pose-indexed landmark retrieval enables minute-long interactive rollouts while maintaining real-time streaming and bounded memory.",
+      "published_at": "2026-08-24T17:59:05Z",
+      "updated_at": "2026-08-24T17:59:05Z",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context"
+      ]
+    },
+    {
+      "title": "ProxyFormer: A Dual-Stream Proxy Architecture for Ultra-Long Context and High-Resolution Generation",
+      "venue": "",
+      "topic": "long context / KV-cache reduction / high-resolution generation",
+      "arxiv": "2608.23463",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.23463",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct long-context efficiency work: proxy-only global interaction and proxy-only KV-cache inference extend trainable context from ~20K to ~0.7M on a 16GB GPU and support million-token retrieval.",
+      "published_at": "2026-08-24T16:31:46Z",
+      "updated_at": "2026-08-24T16:31:46Z",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context"
+      ]
+    },
+    {
+      "title": "ChebBooster: A Training-Free Approach for Efficient Diffusion Transformer Inference via Chebyshev-Inspired Extrapolation",
+      "venue": "",
+      "topic": "diffusion/DiT inference acceleration / training-free extrapolation",
+      "arxiv": "2608.23429",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.23429",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Training-free DiT acceleration using numerically stable Chebyshev-inspired extrapolation; reports up to 3.68x latency speedup and 5.12x FLOPs reduction across DiT-XL/2, PixArt-Sigma and FLUX.1-dev.",
+      "published_at": "2026-08-24T16:06:11Z",
+      "updated_at": "2026-08-24T16:06:11Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "E2S-Pruner: Progressive Two-Stage Evidence Fusion for Visual Token Pruning in Vision-Language Models",
+      "venue": "",
+      "topic": "visual token pruning / MLLM inference / throughput acceleration",
+      "arxiv": "2608.23253",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.23253",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct Efficient-ML/AI-Infra relevance with concrete latency/throughput/memory/energy/deployment evidence; retain P1 pending deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-24T13:44:41Z",
+      "updated_at": "2026-08-24T13:44:41Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "GPU Kernel / DSL / Compiler",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "Accelerating Diffusion Language Models via Structured Suffix Modeling",
+      "venue": "",
+      "topic": "diffusion language model inference / structured suffix / parallel decoding acceleration",
+      "arxiv": "2608.23167",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.23167",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct Efficient-ML/AI-Infra relevance with concrete latency/throughput/memory/energy/deployment evidence; retain P1 pending deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-24T12:13:34Z",
+      "updated_at": "2026-08-24T12:13:34Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Speculative Decoding",
+        "GPU Kernel / DSL / Compiler",
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "Pointing-VLA: Typed Spatial Grounding Interfaces for Vision-Language-Action Manipulation",
+      "venue": "",
+      "topic": "Physical AI / VLA / typed spatial readout / action decoding acceleration",
+      "arxiv": "2608.23138",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.23138",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct Efficient-ML/AI-Infra relevance with concrete latency/throughput/memory/energy/deployment evidence; retain P1 pending deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-24T11:43:49Z",
+      "updated_at": "2026-08-24T11:43:49Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "FOVEA: Focused On-Demand Visual Evidence Adaptation for Cache-Friendly Multimodal Speculative Decoding",
+      "venue": "",
+      "topic": "multimodal speculative decoding / visual evidence retrieval / cache-friendly inference",
+      "arxiv": "2608.22883",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.22883",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct Efficient-ML/AI-Infra relevance with concrete latency/throughput/memory/energy/deployment evidence; retain P1 pending deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-24T07:09:02Z",
+      "updated_at": "2026-08-24T07:09:02Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Speculative Decoding",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "UniMem: Unifying Multimodal Memory and Control for Vision-Language-Action Models",
+      "venue": "",
+      "topic": "Physical AI / VLA / multimodal memory / keyframe caching / faster inference",
+      "arxiv": "2608.22869",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.22869",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct Efficient-ML/AI-Infra relevance with concrete latency/throughput/memory/energy/deployment evidence; retain P1 pending deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-24T06:56:02Z",
+      "updated_at": "2026-08-24T06:56:02Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "TailSieve: Partial-Rollout-Guided Tail Routing for LLM Rollouts",
+      "venue": "",
+      "topic": "LLM rollout systems / tail routing / replica allocation / speculative decoding",
+      "arxiv": "2608.22788",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.22788",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct Efficient-ML/AI-Infra relevance with concrete latency/throughput/memory/energy/deployment evidence; retain P1 pending deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-24T04:18:09Z",
+      "updated_at": "2026-08-24T04:18:09Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Speculative Decoding",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "TEE-X: TEE-aware Acceleration Framework for Large Vision Models at the Edge",
+      "venue": "",
+      "topic": "edge vision inference / TEE-aware acceleration / secure deployment",
+      "arxiv": "2608.22716",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.22716",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct Efficient-ML/AI-Infra relevance with concrete latency/throughput/memory/energy/deployment evidence; retain P1 pending deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-24T02:05:26Z",
+      "updated_at": "2026-08-24T02:05:26Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "NeuroPrefetcher: Storage-Aware Sparse LLM Inference via Delta Prefetching",
+      "venue": "",
+      "topic": "edge LLM serving / storage-backed sparse inference / predictive delta prefetching",
+      "arxiv": "2608.22643",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.22643",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct Efficient-ML/AI-Infra relevance with concrete latency/throughput/memory/energy/deployment evidence; retain P1 pending deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-23T22:58:11Z",
+      "updated_at": "2026-08-23T22:58:11Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "NOVA: Technology-Architecture Co-Design of Near-Memory Processing for Attention-SSM-MoE Hybrid LLM Inference",
+      "venue": "",
+      "topic": "hybrid LLM inference / near-memory processing / Attention-SSM-MoE architecture",
+      "arxiv": "2608.22613",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.22613",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct Efficient-ML/AI-Infra relevance with concrete latency/throughput/memory/energy/deployment evidence; retain P1 pending deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-23T21:38:46Z",
+      "updated_at": "2026-08-23T21:38:46Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Attention",
+        "MoE Systems / Accelerators"
+      ]
+    },
+    {
+      "title": "Beyond Dense Adam States: Adaptive Log-Space Quantization for Memory-Efficient Optimizers",
+      "venue": "",
+      "topic": "memory-efficient training / optimizer-state quantization / low-precision optimizer",
+      "arxiv": "2608.22322",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.22322",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct Efficient-ML/AI-Infra relevance with concrete latency/throughput/memory/energy/deployment evidence; retain P1 pending deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-23T09:36:56Z",
+      "updated_at": "2026-08-23T09:36:56Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "CST: Collaborative Selective Transmission for Communication-Efficient Multimodal Edge Inference",
+      "venue": "",
+      "topic": "multimodal edge inference / selective transmission / communication efficiency",
+      "arxiv": "2608.22115",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.22115",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct Efficient-ML/AI-Infra relevance with concrete latency/throughput/memory/energy/deployment evidence; retain P1 pending deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-22T21:59:06Z",
+      "updated_at": "2026-08-22T21:59:06Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Distributed Training / Inference",
+        "Multimodal / MLLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "What actually runs: a measurement study of language model placement and decode speed on the Apple Neural Engine",
+      "venue": "",
+      "topic": "edge LLM inference / Apple Neural Engine / quantization / deployment measurement",
+      "arxiv": "2608.22110",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.22110",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct Efficient-ML/AI-Infra relevance with concrete latency/throughput/memory/energy/deployment evidence; retain P1 pending deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-22T21:22:24Z",
+      "updated_at": "2026-08-22T21:22:24Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "SSDi8: Accurate and Efficient 8-bit Quantization for State Space Duality",
+      "venue": "",
+      "topic": "quantization / SSD-Mamba / INT8 inference / edge deployment",
+      "arxiv": "2608.21952",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.21952",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct Efficient-ML/AI-Infra relevance with concrete latency/throughput/memory/energy/deployment evidence; retain P1 pending deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-22T13:29:28Z",
+      "updated_at": "2026-08-22T13:29:28Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "PRISM: Predictive Runtime In-place Scaling and Model Selection for Edge Microservices",
+      "venue": "",
+      "topic": "edge AI serving / runtime model selection / energy-aware CPU allocation",
+      "arxiv": "2608.21910",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.21910",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct Efficient-ML/AI-Infra relevance with concrete latency/throughput/memory/energy/deployment evidence; retain P1 pending deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-22T10:45:59Z",
+      "updated_at": "2026-08-22T10:45:59Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "LLM4LLM: Bridging Kernel Benchmarks and Real Deployment via Closed-Loop Agentic Optimization",
+      "venue": "",
+      "topic": "GPU kernel optimization / deployment-aware agentic optimization / LLM inference",
+      "arxiv": "2608.21836",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.21836",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct Efficient-ML/AI-Infra relevance with concrete latency/throughput/memory/energy/deployment evidence; retain P1 pending deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-22T08:12:16Z",
+      "updated_at": "2026-08-22T08:12:16Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "PowerSlider: Exploiting Phase Asymmetry for LLM Serving under Demand Response",
+      "venue": "",
+      "topic": "LLM serving / power-aware scheduling / prefill-think-decode disaggregation / demand response",
+      "arxiv": "2608.21719",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.21719",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct Efficient-ML/AI-Infra relevance with concrete latency/throughput/memory/energy/deployment evidence; retain P1 pending deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-22T01:48:35Z",
+      "updated_at": "2026-08-22T01:48:35Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving"
+      ]
+    },
+    {
+      "title": "Benchmarking Composable Compression Techniques in Mixture-of-Experts LLMs",
+      "venue": "",
+      "topic": "MoE compression benchmark / expert pruning / quantization / KV cache / deployment efficiency",
+      "arxiv": "2608.21693",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.21693",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct Efficient-ML/AI-Infra relevance with concrete latency/throughput/memory/energy/deployment evidence; retain P1 pending deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-22T00:01:18Z",
+      "updated_at": "2026-08-22T00:01:18Z",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context",
+        "Quantization",
+        "Sparsity / Pruning",
+        "MoE Systems / Accelerators"
+      ]
+    },
+    {
+      "title": "SAEM: Stage-Aware Expert Management for Memory-Efficient MoE Inference in Chain-of-Thought Reasoning",
+      "venue": "",
+      "topic": "MoE serving / expert caching-offload / CoT reasoning / memory efficiency",
+      "arxiv": "2608.21614",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.21614",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct Efficient-ML/AI-Infra relevance with concrete latency/throughput/memory/energy/deployment evidence; retain P1 pending deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-21T20:26:32Z",
+      "updated_at": "2026-08-21T20:26:32Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "MoE Systems / Accelerators",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Just Noticeable Difference Modeling for Token Compression in Vision-Language-Action Models",
       "venue": "",
       "topic": "llm_serving / kv / sparse / multimodal / gen / physical",
@@ -5929,6 +7426,27 @@
       ]
     },
     {
+      "title": "AsmEvo: Agentic Assembly-Level Optimization of AMD GPU Kernels with Functional Equivalence Verification",
+      "venue": "",
+      "topic": "GPU kernels / AMDGPU assembly optimization / agentic compiler / vLLM-SGLang deployment",
+      "arxiv": "2608.20711",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.20711",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct Efficient-ML/AI-Infra relevance with concrete latency/throughput/memory/energy/deployment evidence; retain P1 pending deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-21T03:34:22Z",
+      "updated_at": "2026-08-21T03:34:22Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "LiLiCorr: Lightweight Likelihood Correlation of Parallel Drafts for Speculative Decoding",
       "venue": "",
       "topic": "llm_serving / spec / edge",
@@ -5947,6 +7465,27 @@
       "directions": [
         "LLM Serving",
         "Speculative Decoding",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Bern2Edge: A Neurosymbolic Compiler for Edge Deployment via Bernstein Polynomial Networks",
+      "venue": "",
+      "topic": "edge AI compiler / FPGA deployment / model compression / hardware-aware acceleration",
+      "arxiv": "2608.20497",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.20497",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct Efficient-ML/AI-Infra relevance with concrete latency/throughput/memory/energy/deployment evidence; retain P1 pending deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-20T18:33:20Z",
+      "updated_at": "2026-08-20T18:33:20Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -5985,7 +7524,7 @@
       "tracking_tier": "P1 · Watch",
       "why": "Systematic cache-policy comparison finds LFU a strong default and exposes poor quality-adjusted semantic-cache hit rates under common operating points. Useful serving evidence, but narrower benchmarking contribution and semantic response cache rather than KV cache.",
       "published_at": "2026-08-20T17:14:19Z",
-      "updated_at": "2026-08-20T17:14:19Z",
+      "updated_at": "2026-08-22T17:31:04Z",
       "is_latest_30d": true,
       "directions": [
         "LLM Serving",
@@ -6769,6 +8308,47 @@
       ]
     },
     {
+      "title": "LipCache: A Local Inference Proxy with Certified Caching for Edge Image Classification Service",
+      "venue": "",
+      "topic": "edge inference / certified semantic caching / latency acceleration",
+      "arxiv": "2608.13144",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.13144",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct 30-day Efficient-ML/AI-Infra relevance with concrete runtime/memory/throughput/energy/deployment evidence; retain P1 for deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-13T12:16:58Z",
+      "updated_at": "2026-08-13T12:16:58Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Mamba-based Selective State Space Modeling Improves the Accuracy-Complexity Tradeoff of SmolVLA Vision-Language-Action Experts",
+      "venue": "",
+      "topic": "Physical AI / SmolVLA / Mamba action expert / real-time accuracy-complexity tradeoff",
+      "arxiv": "2608.21407",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.21407",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct 30-day Efficient-ML/AI-Infra relevance with concrete runtime/memory/throughput/energy/deployment evidence; retain P1 for deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-10T11:07:27Z",
+      "updated_at": "2026-08-10T11:07:27Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "OpRAG: A Resource-Deterministic Runtime for GPU-Backed Multi-Stage RAG Workflows",
       "venue": "",
       "topic": "llm_serving / attn / agent",
@@ -6813,6 +8393,26 @@
       ]
     },
     {
+      "title": "KGCache: Amortized Subgraph Retrieval for KG Reasoning with LLMs",
+      "venue": "",
+      "topic": "RAG/KG reasoning / retrieval caching / agent inference acceleration",
+      "arxiv": "2608.07954",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.07954",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct 30-day Efficient-ML/AI-Infra relevance with concrete runtime/memory/throughput/energy/deployment evidence; retain P1 for deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-08T06:36:24Z",
+      "updated_at": "2026-08-08T06:36:24Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "A Two-Tier Perspective on Inference-Time Parallelism in Multi-Agent LLM Systems",
       "venue": "ICML 2026",
       "topic": "efficient agent systems / multi-agent inference / parallel execution / latency-cost tradeoff",
@@ -6831,6 +8431,27 @@
       "directions": [
         "Distributed Training / Inference",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "When and Where to Look: Adaptive Visual Evidence Scheduling for Efficient Long Video Understanding",
+      "venue": "",
+      "topic": "long-video VLM inference / adaptive visual evidence scheduling / frame-budget efficiency",
+      "arxiv": "2608.03918",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.03918",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct 30-day Efficient-ML/AI-Infra relevance with concrete runtime/memory/throughput/energy/deployment evidence; retain P1 for deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-04T16:49:53Z",
+      "updated_at": "2026-08-04T16:49:53Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving"
       ]
     },
     {
@@ -6878,6 +8499,47 @@
       ]
     },
     {
+      "title": "Efficient Knowledge Distillation for LLMs: Offline Top-K Logits and a Fused Chunked KL Loss",
+      "venue": "",
+      "topic": "LLM distillation systems / fused chunked KL / memory-efficient training",
+      "arxiv": "2608.03796",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.03796",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct 30-day Efficient-ML/AI-Infra relevance with concrete runtime/memory/throughput/energy/deployment evidence; retain P1 for deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-04T15:11:45Z",
+      "updated_at": "2026-08-04T15:11:45Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Distributed Training / Inference",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Recurrent Residual Quantization: A Progressive Multi-Precision Representation for LLMs",
+      "venue": "",
+      "topic": "LLM quantization / multi-precision single checkpoint / flexible deployment",
+      "arxiv": "2608.04048",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.04048",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct 30-day Efficient-ML/AI-Infra relevance with concrete runtime/memory/throughput/energy/deployment evidence; retain P1 for deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-04T08:32:05Z",
+      "updated_at": "2026-08-04T08:32:05Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization"
+      ]
+    },
+    {
       "title": "AcceptMoE: Commitment-Weighted Self-Sizing Verifier Expert Sets for Efficient MoE Speculative Decoding",
       "venue": "",
       "topic": "llm_serving / spec / moe / gen",
@@ -6897,6 +8559,29 @@
         "LLM Serving",
         "Speculative Decoding",
         "MoE Systems / Accelerators"
+      ]
+    },
+    {
+      "title": "Broadcast Rate Limits in Wi-Fi: A Forgotten Bottleneck for Collaborative Edge LLM Inference",
+      "venue": "",
+      "topic": "collaborative edge MoE serving / communication / Wi-Fi broadcast bottleneck",
+      "arxiv": "2608.02341",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.02341",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct 30-day Efficient-ML/AI-Infra relevance with concrete runtime/memory/throughput/energy/deployment evidence; retain P1 for deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-03T14:57:09Z",
+      "updated_at": "2026-08-03T14:57:09Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "MoE Systems / Accelerators",
+        "Distributed Training / Inference",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -6921,6 +8606,47 @@
       ]
     },
     {
+      "title": "LEAP: Lean Environment-Feedback via Adaptive Pruning for Code RL in GPU Kernel Generation",
+      "venue": "",
+      "topic": "GPU kernel generation / RL post-training / adaptive environment pruning / systems optimization",
+      "arxiv": "2608.01804",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.01804",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct 30-day Efficient-ML/AI-Infra relevance with concrete runtime/memory/throughput/energy/deployment evidence; retain P1 for deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-03T07:12:52Z",
+      "updated_at": "2026-08-04T02:24:08Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Sparsity / Pruning",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Spyre-Accelerated Retrieval-Augmented Generation on IBM LinuxONE: A Cloud-Native Architecture for Secure, High-Throughput Enterprise AI Inference",
+      "venue": "",
+      "topic": "RAG serving / IBM Spyre accelerator / cloud-native enterprise inference",
+      "arxiv": "2608.21393",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.21393",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct 30-day Efficient-ML/AI-Infra relevance with concrete runtime/memory/throughput/energy/deployment evidence; retain P1 for deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-02T09:00:24Z",
+      "updated_at": "2026-08-02T09:00:24Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving"
+      ]
+    },
+    {
       "title": "Latency-Tolerant Cloud-Edge Collaborative Vision-Language-Action Models via Emergent Representational Specialization",
       "venue": "",
       "topic": "llm_serving / multimodal / physical",
@@ -6934,13 +8660,99 @@
       "tracking_tier": "P1 · Watch",
       "why": "Directly relevant recent Efficient-ML/AI-Infra work with concrete systems/efficiency mechanism; retained as P1 pending deeper venue/adoption/independent-validation review.",
       "published_at": "2026-08-01T10:11:59Z",
-      "updated_at": "2026-08-01T10:11:59Z",
+      "updated_at": "2026-08-23T05:08:49Z",
       "is_latest_30d": true,
       "directions": [
         "LLM Serving",
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "AReaL-DTE: Sparse Policy-Weight Transfer for Online Agentic Reinforcement Learning",
+      "venue": "",
+      "topic": "agentic RL systems / sparse policy-weight synchronization / cross-cluster serving-training",
+      "arxiv": "2608.00455",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.00455",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct 30-day Efficient-ML/AI-Infra relevance with concrete runtime/memory/throughput/energy/deployment evidence; retain P1 for deeper novelty/venue/adoption review.",
+      "published_at": "2026-08-01T05:34:56Z",
+      "updated_at": "2026-08-01T05:34:56Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "CORA-Diff: Confidence-Oriented Residual Acceptance for Efficient Diffusion Language Model Inference",
+      "venue": "",
+      "topic": "diffusion language model inference / training-free residual acceptance / decoding acceleration",
+      "arxiv": "2608.11235",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.11235",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct 30-day Efficient-ML/AI-Infra relevance with concrete runtime/memory/throughput/energy/deployment evidence; retain P1 for deeper novelty/venue/adoption review.",
+      "published_at": "2026-07-31T07:32:10Z",
+      "updated_at": "2026-07-31T07:32:10Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "WitCert: Sound Runtime Risk Observability and Gating for KV-Cache Quantization",
+      "venue": "",
+      "topic": "KV-cache quantization / runtime risk observability / SGLang serving",
+      "arxiv": "2607.28699",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2607.28699",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct 30-day Efficient-ML/AI-Infra relevance with concrete runtime/memory/throughput/energy/deployment evidence; retain P1 for deeper novelty/venue/adoption review.",
+      "published_at": "2026-07-30T11:04:45Z",
+      "updated_at": "2026-08-16T15:41:57Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Quantization"
+      ]
+    },
+    {
+      "title": "LLMET: Enabling Cross-Layer Evaluation of Emerging M3D Memories for Energy-Efficient LLM Serving",
+      "venue": "",
+      "topic": "LLM serving / emerging memory / cross-layer architecture simulation / energy efficiency",
+      "arxiv": "2607.26491",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2607.26491",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct 30-day Efficient-ML/AI-Infra relevance with concrete runtime/memory/throughput/energy/deployment evidence; retain P1 for deeper novelty/venue/adoption review.",
+      "published_at": "2026-07-29T05:37:31Z",
+      "updated_at": "2026-07-29T05:37:31Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving"
       ]
     },
     {
@@ -6965,6 +8777,27 @@
       ]
     },
     {
+      "title": "CoTinyVLA: Chain-of-Thought Distillation for a Sub-Billion-Parameter Vision-Language-Action Model",
+      "venue": "",
+      "topic": "Physical AI / compact VLA / sub-billion model / embedded deployment",
+      "arxiv": "2607.25487",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2607.25487",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct 30-day Efficient-ML/AI-Infra relevance with concrete runtime/memory/throughput/energy/deployment evidence; retain P1 for deeper novelty/venue/adoption review.",
+      "published_at": "2026-07-28T09:24:17Z",
+      "updated_at": "2026-07-28T09:24:17Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Omni-Prune: Query-Aware Unified Token Pruning for Efficient Omnimodal Large Language Models",
       "venue": "",
       "topic": "llm_serving / sparse / edge",
@@ -6978,7 +8811,7 @@
       "tracking_tier": "P1 · Watch",
       "why": "Directly relevant recent Efficient-ML/AI-Infra work with concrete systems/efficiency mechanism; retained as P1 pending deeper venue/adoption/independent-validation review.",
       "published_at": "2026-07-26T03:51:39Z",
-      "updated_at": "2026-07-26T03:51:39Z",
+      "updated_at": "",
       "is_latest_30d": true,
       "directions": [
         "LLM Serving",
@@ -7012,6 +8845,69 @@
       ]
     },
     {
+      "title": "Prime Agent: A Self-Improving RLM Harness",
+      "venue": "",
+      "topic": "agent systems / long-horizon harness / resource accounting",
+      "arxiv": "2608.23552",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.23552",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Relevant agent-runtime infrastructure with persistent REPL/subagents/recovery/resource accounting, but current evidence emphasizes capability and harness quality more than direct latency/throughput efficiency; retain P2.",
+      "published_at": "2026-08-24T17:54:19Z",
+      "updated_at": "2026-08-24T17:54:19Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Act with Intent: Distilling Behavior Intent for Vision-Language-Action Models",
+      "venue": "",
+      "topic": "Physical AI / VLA / action decoder",
+      "arxiv": "2608.23478",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.23478",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Protected Physical-AI relevance, but current contribution primarily improves task success/action representation rather than serving/runtime efficiency; retain P2 pending stronger deployment-efficiency evidence.",
+      "published_at": "2026-08-24T16:42:49Z",
+      "updated_at": "2026-08-24T16:42:49Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Model Compression and Hardware-Aware Acceleration for Deep Learning on FPGAs: A Co-Design Taxonomy and Comparative Analysis",
+      "venue": "",
+      "topic": "llm_serving / sparse",
+      "arxiv": "2608.21657",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.21657",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "compression/hardware-aware FPGA taxonomy; useful survey/reference but lower priority than primary systems contributions",
+      "published_at": "2026-08-21T22:01:16Z",
+      "updated_at": "2026-08-21T22:01:16Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning"
+      ]
+    },
+    {
       "title": "Memory Augmentation Unlocks Efficient Chain-of-Thought Reasoning",
       "venue": "",
       "topic": "llm_serving",
@@ -7033,6 +8929,74 @@
       ]
     },
     {
+      "title": "Target-Aware Calibration Data Selection for Preserving Uncertainty in Quantized Language Models",
+      "venue": "",
+      "topic": "llm_serving / quant / edge",
+      "arxiv": "2608.21019",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.21019",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "quantization calibration-data selection focused on uncertainty preservation; related but deployment speed/memory gains are not the main contribution",
+      "published_at": "2026-08-21T12:07:49Z",
+      "updated_at": "2026-08-21T12:07:49Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "A Collaborative Multi-Modality Interaction for VLA-based End-to-End Autonomous Driving",
+      "venue": "",
+      "topic": "multimodal / gen / physical / edge",
+      "arxiv": "2608.20890",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.20890",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Physical AI/VLA autonomous-driving multimodal interaction; protected relevance but efficiency/runtime contribution is secondary",
+      "published_at": "2026-08-21T09:06:16Z",
+      "updated_at": "2026-08-21T09:06:16Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Is Multimodal Speculative Decoding Ready for Diffusion-Based Parallel Drafting? A Survey and Empirical Diagnosis",
+      "venue": "",
+      "topic": "spec / multimodal / physical / edge",
+      "arxiv": "2608.20743",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.20743",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "multimodal speculative decoding survey/diagnosis; directly relevant but not a new primary runtime method",
+      "published_at": "2026-08-21T05:03:10Z",
+      "updated_at": "2026-08-21T05:03:10Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Speculative Decoding",
+        "GPU Kernel / DSL / Compiler",
+        "Multimodal / MLLM Serving",
+        "Diffusion / Flow Acceleration",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "ForeTime-VLA: Causal Future-Token Distillation from a World Action Model for Conveyor-Belt Manipulation",
       "venue": "",
       "topic": "llm_serving / multimodal / gen / physical",
@@ -7051,6 +9015,29 @@
       "directions": [
         "LLM Serving",
         "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Logic-VLA: A Temporal Logic Conditioned Vision-Language-Action Model",
+      "venue": "",
+      "topic": "llm_serving / multimodal / gen / physical",
+      "arxiv": "2608.20556",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.20556",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Physical AI/VLA formal-requirement conditioning; protected relevance but current contribution emphasizes behavior satisfaction rather than inference efficiency",
+      "published_at": "2026-08-20T20:35:07Z",
+      "updated_at": "2026-08-20T20:35:07Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Diffusion / Flow Acceleration",
         "VLA / WAM / Physical AI"
       ]
     },
@@ -7571,6 +9558,28 @@
       ]
     },
     {
+      "title": "DriveVLA-M0: Failure-Aware Memory Augmentation for Autonomous Driving",
+      "venue": "",
+      "topic": "llm_serving / multimodal / gen / physical",
+      "arxiv": "2608.10413",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.10413",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Physical AI autonomous-driving VLA memory augmentation; directly related to memory-enabled runtime behavior but efficiency evidence is secondary.",
+      "published_at": "2026-08-11T03:01:46Z",
+      "updated_at": "2026-08-11T03:01:46Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "MemSpec: Memory-Aware Runtime for Adaptive Draft Scheduling in Speculative Decoding on Edge Devices",
       "venue": "",
       "topic": "LLM serving; speculative decoding; generation acceleration; edge / heterogeneous AI",
@@ -7702,6 +9711,29 @@
         "Quantization",
         "MoE Systems / Accelerators",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Vid2WAM: Distilling Video Diffusion Priors into World Action Models",
+      "venue": "",
+      "topic": "llm_serving / gen / physical",
+      "arxiv": "2608.08558",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.08558",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Physical AI/WAM: compact student discards video teacher/IDM at inference and preserves low-latency deployment, but current headline evidence emphasizes data efficiency/generalization.",
+      "published_at": "2026-08-09T08:02:49Z",
+      "updated_at": "2026-08-09T08:02:49Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Diffusion / Flow Acceleration",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -8647,6 +10679,28 @@
       ]
     },
     {
+      "title": "ActFovea: Runtime Safeguarding for VLA Policies via Spatiotemporal Visual-Action Consistency",
+      "venue": "",
+      "topic": "llm_serving / multimodal / gen / physical",
+      "arxiv": "2607.29169",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2607.29169",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Physical AI/VLA runtime safeguarding via visual-action consistency; retain for protected runtime lineage pending stronger efficiency evidence.",
+      "published_at": "2026-07-31T08:47:57Z",
+      "updated_at": "2026-07-31T08:47:57Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Selective KV Cache Protection for Noise-Resilient LLM Inference on Analog Compute-In-Memory Systems",
       "venue": "",
       "topic": "llm_serving / kv",
@@ -8774,6 +10828,28 @@
       ]
     },
     {
+      "title": "The Geometry of Flow-Matching Uncertainty: A Cost-free Uncertainty Proxy and Its Application in Flow-based VLA Failure Detection",
+      "venue": "",
+      "topic": "llm_serving / gen / physical / edge",
+      "arxiv": "2607.27933",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2607.27933",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Physical AI/VLA cost-free uncertainty proxy for flow-based failure detection; deployment-relevant but not primarily a serving acceleration method.",
+      "published_at": "2026-07-30T09:44:46Z",
+      "updated_at": "2026-08-06T08:12:13Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "A Sparse Glimpse of the Whole: Train-Free Self-Speculative Decoding",
       "venue": "",
       "topic": "llm_serving / kv / spec",
@@ -8858,6 +10934,30 @@
       "directions": [
         "LLM Serving",
         "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "CheckVLA: Execution-Time Verification with Action-Conditioned World Model for Long-Horizon Mobile Manipulation",
+      "venue": "",
+      "topic": "llm_serving / multimodal / gen / physical / edge",
+      "arxiv": "2607.26789",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2607.26789",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Physical AI/VLA execution-time verification with world model; directly relevant to runtime safety but efficiency overhead/benefit needs deeper review.",
+      "published_at": "2026-07-29T11:31:33Z",
+      "updated_at": "2026-07-29T11:31:33Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Diffusion / Flow Acceleration",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {

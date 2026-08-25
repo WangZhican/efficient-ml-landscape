@@ -1,13 +1,17 @@
 # 03 · KV Cache / Long Context
 
-> **268 canonical papers** mapped here, plus a broader **35-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **268 canonical papers** mapped here, plus a broader **40-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 35 tracked
+## 🆕 Latest 30 Days · 40 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
+| **P1 · Watch** | **ReWorld: An Interactive World Model with Long-Horizon Memory** | Fresh / preprint | Physical AI / interactive world model / bounded KV cache / real-time streaming | [Link](https://arxiv.org/abs/2608.23565) | — |
+| **P1 · Watch** | **ProxyFormer: A Dual-Stream Proxy Architecture for Ultra-Long Context and High-Resolution Generation** | Fresh / preprint | long context / KV-cache reduction / high-resolution generation | [Link](https://arxiv.org/abs/2608.23463) | — |
+| **P1 · Watch** | **Benchmarking Composable Compression Techniques in Mixture-of-Experts LLMs** | Fresh / preprint | MoE compression benchmark / expert pruning / quantization / KV cache / deployment efficiency | [Link](https://arxiv.org/abs/2608.21693) | — |
+| **P1 · Watch** | **SAEM: Stage-Aware Expert Management for Memory-Efficient MoE Inference in Chain-of-Thought Reasoning** | Fresh / preprint | MoE serving / expert caching-offload / CoT reasoning / memory efficiency | [Link](https://arxiv.org/abs/2608.21614) | — |
 | **P1 · Watch** | **Which Eviction Policy Should an LLM Cache Use? A Systematic Study Across Workloads, Capacities, and Encoders** | Fresh / preprint | LLM semantic cache / eviction policy / serving benchmark | [Link](https://arxiv.org/abs/2608.20280) | — |
 | **P1 · Watch** | **Learning how to Forget: Fine-tuning for Long-Context Sparse Attention** | Fresh / preprint | long-context / sparse attention / KV cache policy | [Link](https://arxiv.org/abs/2608.19920) | [Repo](https://github.com/awslabs/keys_values) |
 | **P0 · Strong** | **FlashPrefill V2: Block-Sparse Prefill Attention for Long-Context LLM Serving** | Fresh / preprint | long-context LLM serving / block-sparse prefill attention / GPU kernel | [Link](https://arxiv.org/abs/2608.19758) | — |
@@ -39,6 +43,7 @@
 | **P2 · Relevant** | **ResKV: Reconstructing Omitted Attention Contributions for Fixed-Budget KV Cache Compression** | Fresh / preprint | llm_serving / kv | [Link](https://arxiv.org/abs/2607.29591) | — |
 | **P2 · Relevant** | **Selective KV Cache Protection for Noise-Resilient LLM Inference on Analog Compute-In-Memory Systems** | Fresh / preprint | llm_serving / kv | [Link](https://arxiv.org/abs/2607.29076) | — |
 | **P2 · Relevant** | **SmartGen: Seamless Disaggregated LLM Inference with Selective KV Cache Transfer** | Fresh / preprint | LLM serving; KV cache / long context | [Link](https://arxiv.org/abs/2607.28150) | — |
+| **P1 · Watch** | **WitCert: Sound Runtime Risk Observability and Gating for KV-Cache Quantization** | Fresh / preprint | KV-cache quantization / runtime risk observability / SGLang serving | [Link](https://arxiv.org/abs/2607.28699) | — |
 | **P2 · Relevant** | **A Photonic-CXL Memory Appliance for Scalable KV Cache Management in LLM Inference** | Fresh / preprint | llm_serving / kv | [Link](https://arxiv.org/abs/2607.27187) | — |
 | **P2 · Relevant** | **NELSSA: A GPU-PNM Heterogeneous System for Mixed-Length LLM Serving via Length-based Request Placement** | Fresh / preprint | LLM serving; KV cache / long context; sparsity / pruning; agent systems; edge / heterogeneous AI | [Link](https://arxiv.org/abs/2607.26633) | — |
 | **P2 · Relevant** | **DualDecoder: Accelerate Long Context LLM Inference by Predictive Prefetch** | Fresh / preprint | LLM serving; KV cache / long context; agent systems | [Link](https://arxiv.org/abs/2607.26475) | — |

@@ -1,14 +1,19 @@
 # 04 · Quantization
 
-> **129 canonical papers** mapped here, plus a broader **37-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **129 canonical papers** mapped here, plus a broader **44-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 37 tracked
+## 🆕 Latest 30 Days · 44 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
+| **P1 · Watch** | **Beyond Dense Adam States: Adaptive Log-Space Quantization for Memory-Efficient Optimizers** | Fresh / preprint | memory-efficient training / optimizer-state quantization / low-precision optimizer | [Link](https://arxiv.org/abs/2608.22322) | — |
+| **P1 · Watch** | **What actually runs: a measurement study of language model placement and decode speed on the Apple Neural Engine** | Fresh / preprint | edge LLM inference / Apple Neural Engine / quantization / deployment measurement | [Link](https://arxiv.org/abs/2608.22110) | — |
+| **P1 · Watch** | **SSDi8: Accurate and Efficient 8-bit Quantization for State Space Duality** | Fresh / preprint | quantization / SSD-Mamba / INT8 inference / edge deployment | [Link](https://arxiv.org/abs/2608.21952) | — |
+| **P1 · Watch** | **Benchmarking Composable Compression Techniques in Mixture-of-Experts LLMs** | Fresh / preprint | MoE compression benchmark / expert pruning / quantization / KV cache / deployment efficiency | [Link](https://arxiv.org/abs/2608.21693) | — |
 | **P1 · Watch** | **Llama-Mobile: Efficient 2.7-Bit Quantization of VLMs** | Fresh / preprint | llm_serving / quant / multimodal | [Link](https://arxiv.org/abs/2608.21134) | — |
+| **P2 · Relevant** | **Target-Aware Calibration Data Selection for Preserving Uncertainty in Quantized Language Models** | Fresh / preprint | llm_serving / quant / edge | [Link](https://arxiv.org/abs/2608.21019) | — |
 | **P1 · Watch** | **Quantization-Aware Healing: A Practical Recipe for Recovering Compressed, 4-Bit LLMs** | Fresh / preprint | llm_serving / kv / quant | [Link](https://arxiv.org/abs/2608.20953) | — |
 | **P0 · Strong** | **Pre-Compiled Pipeline Shards for Distributed LLM Inference on Intel AI PC Fleets** | Fresh / preprint | distributed LLM inference / edge AI PC fleet / speculative decoding | [Link](https://arxiv.org/abs/2608.19147) | [Repo](https://github.com/labscommunity/pipeline-sharded-inference-paper) |
 | **P2 · Relevant** | **APEX: A Dual-Sparsity Accelerator for Precise and Efficient SNN Inference** | Fresh / preprint | llm_serving / quant / sparse / gen / edge | [Link](https://arxiv.org/abs/2608.19046) | — |
@@ -33,6 +38,7 @@
 | **P1 · Watch** | **Spend Bits Where Queries Look: KV Cache Vector Quantization with Attention-Preserving Transforms** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.04074) | — |
 | **P1 · Watch** | **Heterogeneity-Aware Microscaling for Efficient Low-Bit LLM Inference** | Fresh / preprint | quant / multimodal | [Link](https://arxiv.org/abs/2608.03867) | — |
 | **P2 · Relevant** | **When Does Disaggregation Pay? Simulating Prefill--Decode--Attention--FFN Specialization for Agentic LLM Inference** | Fresh / preprint | LLM serving; quantization; generation acceleration; agent systems; edge / heterogeneous AI | [Link](https://arxiv.org/abs/2608.03741) | — |
+| **P1 · Watch** | **Recurrent Residual Quantization: A Progressive Multi-Precision Representation for LLMs** | Fresh / preprint | LLM quantization / multi-precision single checkpoint / flexible deployment | [Link](https://arxiv.org/abs/2608.04048) | — |
 | **P2 · Relevant** | **TaskPress: Query-Agnostic KV Cache Compression via Task-Guided Pruning** | Fresh / preprint | KV cache / long context; quantization; sparsity / pruning; generation acceleration; edge / heterogeneous AI | [Link](https://arxiv.org/abs/2608.03276) | — |
 | **P2 · Relevant** | **LowRank-SSM: Hardware-Software Co-Design for Rank-Reduced Mamba Acceleration on FPGA** | Fresh / preprint | llm_serving / quant / sparse / edge | [Link](https://arxiv.org/abs/2608.02954) | — |
 | **P2 · Relevant** | **EchoCache: Energy-Guided Cross-Modal Caching for Efficient Audio-Driven Video Generation** | Fresh / preprint | LLM serving; quantization; generation acceleration | [Link](https://arxiv.org/abs/2608.02474) | — |
@@ -41,6 +47,7 @@
 | **P2 · Relevant** | **CascadeLUT: Information-Ordered Streaming Inference for Bandwidth-Constrained FPGAs** | Fresh / preprint | LLM serving; quantization; edge / heterogeneous AI | [Link](https://arxiv.org/abs/2608.00720) | — |
 | **P2 · Relevant** | **HetRoute Heterogeneous and Cost-aware Collaborative Routing Framework for Distributed Edge MoE Inference** | Fresh / preprint | llm_serving / quant / moe / dist / edge | [Link](https://arxiv.org/abs/2608.00577) | — |
 | **P2 · Relevant** | **QuantWAMs: Calibrating at the Right Granularity for World Action Models** | Fresh / preprint | quantization; generation acceleration; Physical AI | [Link](https://arxiv.org/abs/2607.28405) | — |
+| **P1 · Watch** | **WitCert: Sound Runtime Risk Observability and Gating for KV-Cache Quantization** | Fresh / preprint | KV-cache quantization / runtime risk observability / SGLang serving | [Link](https://arxiv.org/abs/2607.28699) | — |
 | **P0 · Strong** | **GyRot: Leveraging Hidden Synergy between Rotation and Fine-grained Group Quantization for Low-bit LLM Inference** | HPCA 2026 | low-bit LLM quantization / accelerator co-design | [Link](https://arxiv.org/abs/2607.27694) | — |
 | **P2 · Relevant** | **CONQuER: Hardware-Aware Mixed-Precision Quantisation with Online-Calibrated Surrogates** | Fresh / preprint | kernel / edge | [Link](https://arxiv.org/abs/2607.25884) | — |
 | **P2 · Relevant** | **A Motion-Aware Vector Quantization Framework with Centroid Reuse for Efficient VLA Inference** | Fresh / preprint | llm_serving / quant / multimodal / physical | [Link](https://arxiv.org/abs/2607.24148) | — |

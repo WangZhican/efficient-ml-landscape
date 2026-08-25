@@ -1,16 +1,25 @@
 # 10 · Multimodal / MLLM Serving
 
-> **118 canonical papers** mapped here, plus a broader **33-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **118 canonical papers** mapped here, plus a broader **48-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 33 tracked
+## 🆕 Latest 30 Days · 48 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
+| **P2 · Relevant** | **Act with Intent: Distilling Behavior Intent for Vision-Language-Action Models** | Fresh / preprint | Physical AI / VLA / action decoder | [Link](https://arxiv.org/abs/2608.23478) | — |
+| **P1 · Watch** | **E2S-Pruner: Progressive Two-Stage Evidence Fusion for Visual Token Pruning in Vision-Language Models** | Fresh / preprint | visual token pruning / MLLM inference / throughput acceleration | [Link](https://arxiv.org/abs/2608.23253) | — |
+| **P1 · Watch** | **Pointing-VLA: Typed Spatial Grounding Interfaces for Vision-Language-Action Manipulation** | Fresh / preprint | Physical AI / VLA / typed spatial readout / action decoding acceleration | [Link](https://arxiv.org/abs/2608.23138) | — |
+| **P1 · Watch** | **FOVEA: Focused On-Demand Visual Evidence Adaptation for Cache-Friendly Multimodal Speculative Decoding** | Fresh / preprint | multimodal speculative decoding / visual evidence retrieval / cache-friendly inference | [Link](https://arxiv.org/abs/2608.22883) | — |
+| **P1 · Watch** | **UniMem: Unifying Multimodal Memory and Control for Vision-Language-Action Models** | Fresh / preprint | Physical AI / VLA / multimodal memory / keyframe caching / faster inference | [Link](https://arxiv.org/abs/2608.22869) | — |
+| **P1 · Watch** | **CST: Collaborative Selective Transmission for Communication-Efficient Multimodal Edge Inference** | Fresh / preprint | multimodal edge inference / selective transmission / communication efficiency | [Link](https://arxiv.org/abs/2608.22115) | — |
 | **P1 · Watch** | **Just Noticeable Difference Modeling for Token Compression in Vision-Language-Action Models** | Fresh / preprint | llm_serving / kv / sparse / multimodal / gen / physical | [Link](https://arxiv.org/abs/2608.21247) | — |
 | **P1 · Watch** | **Llama-Mobile: Efficient 2.7-Bit Quantization of VLMs** | Fresh / preprint | llm_serving / quant / multimodal | [Link](https://arxiv.org/abs/2608.21134) | — |
+| **P2 · Relevant** | **A Collaborative Multi-Modality Interaction for VLA-based End-to-End Autonomous Driving** | Fresh / preprint | multimodal / gen / physical / edge | [Link](https://arxiv.org/abs/2608.20890) | — |
+| **P2 · Relevant** | **Is Multimodal Speculative Decoding Ready for Diffusion-Based Parallel Drafting? A Survey and Empirical Diagnosis** | Fresh / preprint | spec / multimodal / physical / edge | [Link](https://arxiv.org/abs/2608.20743) | — |
 | **P2 · Relevant** | **ForeTime-VLA: Causal Future-Token Distillation from a World Action Model for Conveyor-Belt Manipulation** | Fresh / preprint | llm_serving / multimodal / gen / physical | [Link](https://arxiv.org/abs/2608.20735) | — |
+| **P2 · Relevant** | **Logic-VLA: A Temporal Logic Conditioned Vision-Language-Action Model** | Fresh / preprint | llm_serving / multimodal / gen / physical | [Link](https://arxiv.org/abs/2608.20556) | — |
 | **P2 · Relevant** | **EXIMO: VLM Guided Exploration of VLA Policies** | Fresh / preprint | multimodal / gen / physical | [Link](https://arxiv.org/abs/2608.19891) | — |
 | **P2 · Relevant** | **OrthoSkillVLA: Continual Skill Learning via Gradient-Informed Skill Subspace Adaptation** | Fresh / preprint | llm_serving / multimodal / physical | [Link](https://arxiv.org/abs/2608.19589) | — |
 | **P0 · Strong** | **Role-Conditioned Sub-Token Routing for Efficient Vision-Language-Action Policies** | Fresh / preprint | VLA efficiency / KV compression / sub-token routing | [Link](https://arxiv.org/abs/2608.18410) | — |
@@ -27,8 +36,11 @@
 | **P0 · Strong** | **Rollplex: Cross-Phase GPU Spatial Sharing for Vision Language Model Post-Training** | Fresh / preprint | VLM post-training / GPU spatial sharing / RL runtime | [Link](https://arxiv.org/abs/2608.14498) | — |
 | **P0 · Strong** | **Reflex: Enabling Fast and Predictive Vision-Language-Action Models for Reaction-Critical Manipulation** | Fresh / preprint | fast VLA runtime / reaction-critical manipulation | [Link](https://arxiv.org/abs/2608.14379) | — |
 | **P0 · Strong** | **FlashDrive: Flash Vision-Language-Action Inference for Autonomous Driving** | Fresh / preprint | full-stack VLA inference acceleration | [Link](https://arxiv.org/abs/2608.12932) | — |
+| **P2 · Relevant** | **DriveVLA-M0: Failure-Aware Memory Augmentation for Autonomous Driving** | Fresh / preprint | llm_serving / multimodal / gen / physical | [Link](https://arxiv.org/abs/2608.10413) | — |
+| **P1 · Watch** | **Mamba-based Selective State Space Modeling Improves the Accuracy-Complexity Tradeoff of SmolVLA Vision-Language-Action Experts** | Fresh / preprint | Physical AI / SmolVLA / Mamba action expert / real-time accuracy-complexity tradeoff | [Link](https://arxiv.org/abs/2608.21407) | — |
 | **P2 · Relevant** | **Fast and Accurate: An Adaptive VLA Inference Framework through Environment-aware Model Selection** | Fresh / preprint | multimodal / MLLM; Physical AI | [Link](https://arxiv.org/abs/2608.06434) | — |
 | **P2 · Relevant** | **Deltoris: Enabling Real-time VLA Inference in Embodied AI via Bit-level Sparsity and Speculative Inference** | Fresh / preprint | LLM serving; speculative decoding; sparsity / pruning; multimodal / MLLM; Physical AI; edge / heterogeneous AI | [Link](https://arxiv.org/abs/2608.04428) | — |
+| **P1 · Watch** | **When and Where to Look: Adaptive Visual Evidence Scheduling for Efficient Long Video Understanding** | Fresh / preprint | long-video VLM inference / adaptive visual evidence scheduling / frame-budget efficiency | [Link](https://arxiv.org/abs/2608.03918) | — |
 | **P1 · Watch** | **Heterogeneity-Aware Microscaling for Efficient Low-Bit LLM Inference** | Fresh / preprint | quant / multimodal | [Link](https://arxiv.org/abs/2608.03867) | — |
 | **P2 · Relevant** | **PhyAI: Real-Time Physical AI at the Edge, Scalable Rollouts in the Cloud** | Fresh / preprint | LLM serving; multimodal / MLLM; generation acceleration; Physical AI | [Link](https://arxiv.org/abs/2608.03682) | — |
 | **P2 · Relevant** | **Adaptive Two-Stage Visual Token Pruning for Efficient Inference in Video-Language Models** | Fresh / preprint | llm_serving / sparse / multimodal / gen / edge | [Link](https://arxiv.org/abs/2608.03112) | — |
@@ -36,7 +48,10 @@
 | **P1 · Watch** | **Latency-Tolerant Cloud-Edge Collaborative Vision-Language-Action Models via Emergent Representational Specialization** | Fresh / preprint | llm_serving / multimodal / physical | [Link](https://arxiv.org/abs/2608.00569) | — |
 | **P2 · Relevant** | **Action Chunk Scheduling for Batched Robot Policy Serving** | Fresh / preprint | LLM serving; multimodal / MLLM; generation acceleration; Physical AI; edge / heterogeneous AI | [Link](https://arxiv.org/abs/2608.00337) | — |
 | **P2 · Relevant** | **FibVLA: An Efficient Temporal Vision-Language-Action Model with Fibonacci Sampling** | Fresh / preprint | kv / multimodal / gen / physical | [Link](https://arxiv.org/abs/2607.29596) | — |
+| **P2 · Relevant** | **ActFovea: Runtime Safeguarding for VLA Policies via Spatiotemporal Visual-Action Consistency** | Fresh / preprint | llm_serving / multimodal / gen / physical | [Link](https://arxiv.org/abs/2607.29169) | — |
 | **P2 · Relevant** | **TurboVLA: Real-Time Vision-Language-Action Model at 32 Hz on an RTX 4090 with <1 GB VRAM** | Fresh / preprint | LLM serving; multimodal / MLLM; generation acceleration; Physical AI | [Link](https://arxiv.org/abs/2607.27205) | — |
+| **P2 · Relevant** | **CheckVLA: Execution-Time Verification with Action-Conditioned World Model for Long-Horizon Mobile Manipulation** | Fresh / preprint | llm_serving / multimodal / gen / physical / edge | [Link](https://arxiv.org/abs/2607.26789) | — |
+| **P1 · Watch** | **CoTinyVLA: Chain-of-Thought Distillation for a Sub-Billion-Parameter Vision-Language-Action Model** | Fresh / preprint | Physical AI / compact VLA / sub-billion model / embedded deployment | [Link](https://arxiv.org/abs/2607.25487) | — |
 | **P2 · Relevant** | **Mage-VL: An Efficient Codec-Native Streaming Multimodal Foundation Model** | Fresh / preprint | llm_serving / multimodal | [Link](https://arxiv.org/abs/2607.24904) | — |
 | **P2 · Relevant** | **A Motion-Aware Vector Quantization Framework with Centroid Reuse for Efficient VLA Inference** | Fresh / preprint | llm_serving / quant / multimodal / physical | [Link](https://arxiv.org/abs/2607.24148) | — |
 | **P1 · Watch** | **Omni-Prune: Query-Aware Unified Token Pruning for Efficient Omnimodal Large Language Models** | Fresh / preprint | llm_serving / sparse / edge | [Link](https://arxiv.org/abs/2607.23445) | — |

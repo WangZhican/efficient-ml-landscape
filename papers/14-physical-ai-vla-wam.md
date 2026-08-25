@@ -1,15 +1,20 @@
 # 14 · VLA / WAM / Physical AI
 
-> **52 canonical papers** mapped here, plus a broader **37-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **52 canonical papers** mapped here, plus a broader **49-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 37 tracked
+## 🆕 Latest 30 Days · 49 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
+| **P2 · Relevant** | **Act with Intent: Distilling Behavior Intent for Vision-Language-Action Models** | Fresh / preprint | Physical AI / VLA / action decoder | [Link](https://arxiv.org/abs/2608.23478) | — |
+| **P1 · Watch** | **Pointing-VLA: Typed Spatial Grounding Interfaces for Vision-Language-Action Manipulation** | Fresh / preprint | Physical AI / VLA / typed spatial readout / action decoding acceleration | [Link](https://arxiv.org/abs/2608.23138) | — |
+| **P1 · Watch** | **UniMem: Unifying Multimodal Memory and Control for Vision-Language-Action Models** | Fresh / preprint | Physical AI / VLA / multimodal memory / keyframe caching / faster inference | [Link](https://arxiv.org/abs/2608.22869) | — |
 | **P1 · Watch** | **Just Noticeable Difference Modeling for Token Compression in Vision-Language-Action Models** | Fresh / preprint | llm_serving / kv / sparse / multimodal / gen / physical | [Link](https://arxiv.org/abs/2608.21247) | — |
+| **P2 · Relevant** | **A Collaborative Multi-Modality Interaction for VLA-based End-to-End Autonomous Driving** | Fresh / preprint | multimodal / gen / physical / edge | [Link](https://arxiv.org/abs/2608.20890) | — |
 | **P2 · Relevant** | **ForeTime-VLA: Causal Future-Token Distillation from a World Action Model for Conveyor-Belt Manipulation** | Fresh / preprint | llm_serving / multimodal / gen / physical | [Link](https://arxiv.org/abs/2608.20735) | — |
+| **P2 · Relevant** | **Logic-VLA: A Temporal Logic Conditioned Vision-Language-Action Model** | Fresh / preprint | llm_serving / multimodal / gen / physical | [Link](https://arxiv.org/abs/2608.20556) | — |
 | **P2 · Relevant** | **EXIMO: VLM Guided Exploration of VLA Policies** | Fresh / preprint | multimodal / gen / physical | [Link](https://arxiv.org/abs/2608.19891) | — |
 | **P2 · Relevant** | **OrthoSkillVLA: Continual Skill Learning via Gradient-Informed Skill Subspace Adaptation** | Fresh / preprint | llm_serving / multimodal / physical | [Link](https://arxiv.org/abs/2608.19589) | — |
 | **P2 · Relevant** | **GS-VLA: Plug-and-Play Viewpoint Canonicalization for Frozen VLA Policies via Gaussian Splatting** | Fresh / preprint | Physical AI / VLA robustness / lightweight runtime module | [Link](https://arxiv.org/abs/2608.19066) | — |
@@ -33,6 +38,9 @@
 | **P0 · Strong** | **EcoVLA: Energy-Efficient Device-Edge Co-Inference for Vision-Language-Action Models under Real-Time Constraints** | Fresh / preprint | VLA device-edge co-inference / energy-aware runtime | [Link](https://arxiv.org/abs/2608.15502) | — |
 | **P0 · Strong** | **Reflex: Enabling Fast and Predictive Vision-Language-Action Models for Reaction-Critical Manipulation** | Fresh / preprint | fast VLA runtime / reaction-critical manipulation | [Link](https://arxiv.org/abs/2608.14379) | — |
 | **P0 · Strong** | **FlashDrive: Flash Vision-Language-Action Inference for Autonomous Driving** | Fresh / preprint | full-stack VLA inference acceleration | [Link](https://arxiv.org/abs/2608.12932) | — |
+| **P2 · Relevant** | **DriveVLA-M0: Failure-Aware Memory Augmentation for Autonomous Driving** | Fresh / preprint | llm_serving / multimodal / gen / physical | [Link](https://arxiv.org/abs/2608.10413) | — |
+| **P1 · Watch** | **Mamba-based Selective State Space Modeling Improves the Accuracy-Complexity Tradeoff of SmolVLA Vision-Language-Action Experts** | Fresh / preprint | Physical AI / SmolVLA / Mamba action expert / real-time accuracy-complexity tradeoff | [Link](https://arxiv.org/abs/2608.21407) | — |
+| **P2 · Relevant** | **Vid2WAM: Distilling Video Diffusion Priors into World Action Models** | Fresh / preprint | llm_serving / gen / physical | [Link](https://arxiv.org/abs/2608.08558) | — |
 | **P2 · Relevant** | **Fast and Accurate: An Adaptive VLA Inference Framework through Environment-aware Model Selection** | Fresh / preprint | multimodal / MLLM; Physical AI | [Link](https://arxiv.org/abs/2608.06434) | — |
 | **P2 · Relevant** | **Deltoris: Enabling Real-time VLA Inference in Embodied AI via Bit-level Sparsity and Speculative Inference** | Fresh / preprint | LLM serving; speculative decoding; sparsity / pruning; multimodal / MLLM; Physical AI; edge / heterogeneous AI | [Link](https://arxiv.org/abs/2608.04428) | — |
 | **P2 · Relevant** | **PACE: Adaptive Budget Allocation for Time-Efficient Embodied Planning** | Fresh / preprint | LLM serving; Physical AI | [Link](https://arxiv.org/abs/2608.03034) | — |
@@ -42,8 +50,12 @@
 | **P2 · Relevant** | **The Gate, Not the Cache: Gate Provenance Bounds the Closed-Loop Reliability of Training-Free VLA Token Skipping** | Fresh / preprint | llm_serving / sparse / gen / physical | [Link](https://arxiv.org/abs/2608.00391) | — |
 | **P2 · Relevant** | **Action Chunk Scheduling for Batched Robot Policy Serving** | Fresh / preprint | LLM serving; multimodal / MLLM; generation acceleration; Physical AI; edge / heterogeneous AI | [Link](https://arxiv.org/abs/2608.00337) | — |
 | **P2 · Relevant** | **FibVLA: An Efficient Temporal Vision-Language-Action Model with Fibonacci Sampling** | Fresh / preprint | kv / multimodal / gen / physical | [Link](https://arxiv.org/abs/2607.29596) | — |
+| **P2 · Relevant** | **ActFovea: Runtime Safeguarding for VLA Policies via Spatiotemporal Visual-Action Consistency** | Fresh / preprint | llm_serving / multimodal / gen / physical | [Link](https://arxiv.org/abs/2607.29169) | — |
 | **P2 · Relevant** | **QuantWAMs: Calibrating at the Right Granularity for World Action Models** | Fresh / preprint | quantization; generation acceleration; Physical AI | [Link](https://arxiv.org/abs/2607.28405) | — |
+| **P2 · Relevant** | **The Geometry of Flow-Matching Uncertainty: A Cost-free Uncertainty Proxy and Its Application in Flow-based VLA Failure Detection** | Fresh / preprint | llm_serving / gen / physical / edge | [Link](https://arxiv.org/abs/2607.27933) | — |
 | **P2 · Relevant** | **TurboVLA: Real-Time Vision-Language-Action Model at 32 Hz on an RTX 4090 with <1 GB VRAM** | Fresh / preprint | LLM serving; multimodal / MLLM; generation acceleration; Physical AI | [Link](https://arxiv.org/abs/2607.27205) | — |
+| **P2 · Relevant** | **CheckVLA: Execution-Time Verification with Action-Conditioned World Model for Long-Horizon Mobile Manipulation** | Fresh / preprint | llm_serving / multimodal / gen / physical / edge | [Link](https://arxiv.org/abs/2607.26789) | — |
+| **P1 · Watch** | **CoTinyVLA: Chain-of-Thought Distillation for a Sub-Billion-Parameter Vision-Language-Action Model** | Fresh / preprint | Physical AI / compact VLA / sub-billion model / embedded deployment | [Link](https://arxiv.org/abs/2607.25487) | — |
 | **P2 · Relevant** | **A Motion-Aware Vector Quantization Framework with Centroid Reuse for Efficient VLA Inference** | Fresh / preprint | llm_serving / quant / multimodal / physical | [Link](https://arxiv.org/abs/2607.24148) | — |
 
 ## 🏛️ Classical / Historical · 43 canonical
