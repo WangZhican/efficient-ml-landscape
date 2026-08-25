@@ -10770,6 +10770,26 @@
     ]
   },
   {
+    "title": "Memory-Efficient LLM Pretraining via Minimalist Optimizer Design",
+    "venue": "ICML 2026",
+    "topic": "distributed training / memory-efficient LLM pretraining / optimizer-state reduction",
+    "arxiv": "2506.16659",
+    "doi": "",
+    "official_id": "2506.16659",
+    "paper_url": "https://arxiv.org/abs/2506.16659",
+    "code_url": "https://github.com/OptimAI-Lab/Minimalist_LLM_Pretraining",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 memory-efficient LLM pretraining work. SCALE combines column-wise gradient normalization with first-order momentum only on the output layer, matching or exceeding Adam while using only about 35-45% of total memory across 60M-1B models and outperforming memory-efficient baselines such as GaLore/Fira/APOLLO; the official OptimAI-Lab repository provides the implementation.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "Memory-Efficient LLM Training with Dynamic Sparsity: From Stability to Practical Scaling",
     "venue": "ICML 2026",
     "topic": "LLM training efficiency / dynamic sparsity / memory-efficient optimization",

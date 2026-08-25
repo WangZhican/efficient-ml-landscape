@@ -1,10 +1,10 @@
 # 🧭 Research Map
 
-> **997 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
+> **998 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
 
 <div align="center">
 
-[**🆕 Latest 30 Days · 262 tracked**](LATEST_30D.md) · [**🏛️ Classical · 948**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
+[**🆕 Latest 30 Days · 262 tracked**](LATEST_30D.md) · [**🏛️ Classical · 949**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
 
 </div>
 
@@ -20,7 +20,7 @@
 | 06 | [**Efficient Attention**](06-efficient-attention.md) | **151** | **39** |
 | 07 | [**MoE Systems / Accelerators**](07-moe-systems.md) | **70** | **27** |
 | 08 | [**GPU Kernel / DSL / Compiler**](08-gpu-kernel-compiler.md) | **352** | **78** |
-| 09 | [**Distributed Training / Inference**](09-distributed-training-inference.md) | **174** | **27** |
+| 09 | [**Distributed Training / Inference**](09-distributed-training-inference.md) | **175** | **27** |
 | 10 | [**Multimodal / MLLM Serving**](10-multimodal-mllm-serving.md) | **118** | **48** |
 | 11 | [**Video / Image Generation**](11-video-image-generation.md) | **43** | **13** |
 | 12 | [**Diffusion / Flow Acceleration**](12-diffusion-flow.md) | **145** | **31** |
