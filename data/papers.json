@@ -9075,6 +9075,27 @@
     ]
   },
   {
+    "title": "Ekka: Automated Diagnosis of Silent Errors in LLM Inference",
+    "venue": "ICML 2026",
+    "topic": "LLM serving reliability / AI infra debugging / silent-error diagnosis",
+    "arxiv": "2606.04594",
+    "doi": "",
+    "official_id": "ICML2026_EKKA",
+    "paper_url": "https://arxiv.org/abs/2606.04594",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026; automated differential debugging for silent errors in LLM serving frameworks. Evaluated on real vLLM/SGLang bugs with 80% pass@1 and 88% pass@5 diagnosis accuracy; additionally found 4 new silent errors confirmed by developers.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "Elastic Attention: Test-time Adaptive Sparsity Ratios for Efficient Transformers",
     "venue": "ICML 2026",
     "topic": "adaptive sparse attention / long-context inference",

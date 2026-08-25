@@ -1,6 +1,6 @@
 # 01 · LLM Serving
 
-> **409 canonical papers** mapped here, plus a broader **150-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **410 canonical papers** mapped here, plus a broader **150-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -159,7 +159,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 387 canonical
+## 🏛️ Classical / Historical · 388 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -325,6 +325,7 @@
 | **Canonical** | **Efficient Multi-round LLM Inference over Disaggregated Serving** | ICML 2026 | LLM serving / multi-round agents / PD disaggregation | [Link](https://arxiv.org/abs/2602.14516) | — |
 | **Canonical** | **Efficient Training-Free Multi-Token Prediction via Embedding-Space Probing** | ICML 2026 | speculative decoding / multi-token prediction / training-free inference | [Link](https://arxiv.org/abs/2603.17942) | — |
 | **Canonical** | **Efficient-DLM: From Autoregressive to Diffusion Language Models, and Beyond in Speed** | ICML 2026 | diffusion language model / parallel decoding / AR-to-dLM conversion / efficient generation | [Link](https://arxiv.org/abs/2512.14067) | — |
+| **Canonical** | **Ekka: Automated Diagnosis of Silent Errors in LLM Inference** | ICML 2026 | LLM serving reliability / AI infra debugging / silent-error diagnosis | [Link](https://arxiv.org/abs/2606.04594) | — |
 | **Canonical** | **Entropy-Aware Dynamic KV Cache Sparsification for Autoregressive Image Generation and Editing** | ICML 2026 | KV cache / sparse attention / autoregressive image generation acceleration | — | [Repo](https://github.com/lilitong7/SparseAR-ICML-2026) |
 | **Canonical** | **EpiCache: Episodic KV Cache Management for Long-Term Conversation on Resource-Constrained Environments** | ICML 2026 | KV cache / long-term conversation / memory-bounded inference / edge-resource-constrained serving | [Link](https://arxiv.org/abs/2509.17396) | [Repo](https://github.com/apple/ml-epicache) |
 | **Canonical** | **FAFO: Lossy KV Cache Compression for Lossless Inference Acceleration via Draftless Fumble Decoding** | ICML 2026 | KV cache compression / draftless speculative decoding / lossless inference acceleration | — | [Repo](https://github.com/Escanord/FAFO) |

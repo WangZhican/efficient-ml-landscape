@@ -1,10 +1,10 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **876 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **877 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
-## ICML 2026 · 164
+## ICML 2026 · 165
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -55,6 +55,7 @@
 | **Canonical** | **Efficient RL Training for LLMs with Experience Replay** | ICML 2026 | LLM RL post-training / rollout compute / experience replay | [Link](https://arxiv.org/abs/2604.08706) | — |
 | **Canonical** | **Efficient Training-Free Multi-Token Prediction via Embedding-Space Probing** | ICML 2026 | speculative decoding / multi-token prediction / training-free inference | [Link](https://arxiv.org/abs/2603.17942) | — |
 | **Canonical** | **Efficient-DLM: From Autoregressive to Diffusion Language Models, and Beyond in Speed** | ICML 2026 | diffusion language model / parallel decoding / AR-to-dLM conversion / efficient generation | [Link](https://arxiv.org/abs/2512.14067) | — |
+| **Canonical** | **Ekka: Automated Diagnosis of Silent Errors in LLM Inference** | ICML 2026 | LLM serving reliability / AI infra debugging / silent-error diagnosis | [Link](https://arxiv.org/abs/2606.04594) | — |
 | **Canonical** | **Elastic Attention: Test-time Adaptive Sparsity Ratios for Efficient Transformers** | ICML 2026 | adaptive sparse attention / long-context inference | [Link](https://arxiv.org/abs/2601.17367) | [Repo](https://github.com/LCM-Lab/Elastic-Attention) |
 | **Canonical** | **EntroKV: Entropy-Guided Dynamic Budget Allocation for KV-Cache Compression** | ICML 2026 | KV cache compression / dynamic budget allocation / long-context inference | — | — |
 | **Canonical** | **Entropy-Aware Dynamic KV Cache Sparsification for Autoregressive Image Generation and Editing** | ICML 2026 | KV cache / sparse attention / autoregressive image generation acceleration | — | [Repo](https://github.com/lilitong7/SparseAR-ICML-2026) |

@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **925 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **213 visible papers = 49 P0 + 56 P1 + 108 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **926 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **213 visible papers = 49 P0 + 56 P1 + 108 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -236,9 +236,9 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 876
+## 🏛️ Classical / Historical · 877
 
-### ICML 2026 · 164
+### ICML 2026 · 165
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -289,6 +289,7 @@
 | **Canonical** | **Efficient RL Training for LLMs with Experience Replay** | ICML 2026 | LLM RL post-training / rollout compute / experience replay | [Link](https://arxiv.org/abs/2604.08706) | — |
 | **Canonical** | **Efficient Training-Free Multi-Token Prediction via Embedding-Space Probing** | ICML 2026 | speculative decoding / multi-token prediction / training-free inference | [Link](https://arxiv.org/abs/2603.17942) | — |
 | **Canonical** | **Efficient-DLM: From Autoregressive to Diffusion Language Models, and Beyond in Speed** | ICML 2026 | diffusion language model / parallel decoding / AR-to-dLM conversion / efficient generation | [Link](https://arxiv.org/abs/2512.14067) | — |
+| **Canonical** | **Ekka: Automated Diagnosis of Silent Errors in LLM Inference** | ICML 2026 | LLM serving reliability / AI infra debugging / silent-error diagnosis | [Link](https://arxiv.org/abs/2606.04594) | — |
 | **Canonical** | **Elastic Attention: Test-time Adaptive Sparsity Ratios for Efficient Transformers** | ICML 2026 | adaptive sparse attention / long-context inference | [Link](https://arxiv.org/abs/2601.17367) | [Repo](https://github.com/LCM-Lab/Elastic-Attention) |
 | **Canonical** | **EntroKV: Entropy-Guided Dynamic Budget Allocation for KV-Cache Compression** | ICML 2026 | KV cache compression / dynamic budget allocation / long-context inference | — | — |
 | **Canonical** | **Entropy-Aware Dynamic KV Cache Sparsification for Autoregressive Image Generation and Editing** | ICML 2026 | KV cache / sparse attention / autoregressive image generation acceleration | — | [Repo](https://github.com/lilitong7/SparseAR-ICML-2026) |
