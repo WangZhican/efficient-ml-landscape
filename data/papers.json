@@ -8082,6 +8082,48 @@
     ]
   },
   {
+    "title": "ACON: Optimizing Context Compression for Long-horizon LLM Agents",
+    "venue": "ICML 2026",
+    "topic": "efficient reasoning / agent systems / long-horizon context compression / memory",
+    "arxiv": "2510.00615",
+    "doi": "",
+    "official_id": "2510.00615",
+    "paper_url": "https://arxiv.org/abs/2510.00615",
+    "code_url": "https://github.com/microsoft/acon",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. Compresses observation/history context for long-horizon agents, reducing peak token memory by 26-54% while largely preserving performance; distilled compressors retain >95% accuracy and reduce module overhead.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "AdaHC: Accelerating Multi-Token Prediction with Adaptive Head Chunking with Pipeline Parallelism",
+    "venue": "ICML 2026",
+    "topic": "distributed training / multi-token prediction / pipeline parallelism / scheduling",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "yEzvDvHWsJ",
+    "paper_url": "https://openreview.net/forum?id=yEzvDvHWsJ",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. Adaptive pipeline scheduling splits and reassembles MTP heads to remove MTP-induced bubbles while preserving numerical equivalence; reports 1.35x average training-throughput improvement.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "AdaSplash-2: Faster Differentiable Sparse Attention",
     "venue": "ICML 2026",
     "topic": "efficient attention / differentiable sparse attention / Triton GPU kernel / long-context training",
@@ -8165,6 +8207,29 @@
     "directions": [
       "LLM Serving",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "AGoQ: Activation and Gradient Quantization for Memory-Efficient Distributed Training of LLMs",
+    "venue": "ICML 2026",
+    "topic": "distributed LLM training / activation-gradient quantization / communication-efficient training",
+    "arxiv": "2605.00539",
+    "doi": "",
+    "official_id": "2605.00539",
+    "paper_url": "https://arxiv.org/abs/2605.00539",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. Near-4-bit activation storage plus 8-bit gradient storage and precision-preserving 8-bit All-Reduce; up to 52% memory reduction and 1.34x training speedup on 8B-32B LLaMA across clusters up to 64 GPUs.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
     ]
   },
   {
@@ -8416,6 +8481,26 @@
     ]
   },
   {
+    "title": "BAS: Bridging Adam and SignSGD for Memory-Efficient LLM Training",
+    "venue": "ICML 2026",
+    "topic": "LLM training efficiency / memory-efficient optimizer / communication-efficient optimization",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "Agiagru6BM",
+    "paper_url": "https://openreview.net/forum?id=Agiagru6BM",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. Block Adaptive Signum discards element-wise second moments while retaining Adam-like dynamics; FP8 first moments shrink optimizer-state footprint to 12.5% of AdamW and enable a communication-efficient variant.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "BeaconKV: Key-Value Cache Compression Guided by Beacon Queries for Efficient Large Reasoning Model Inference",
     "venue": "ICML 2026",
     "topic": "KV cache / long reasoning / training-free compression",
@@ -8547,6 +8632,27 @@
     ]
   },
   {
+    "title": "CoCoQuant: Breaking the Bandwidth Wall via Co-Optimized Communication and Computation Quantization",
+    "venue": "ICML 2026",
+    "topic": "distributed LLM inference / communication-computation co-design / mixed-precision quantization",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "Bxyc3JZtAB",
+    "paper_url": "https://openreview.net/forum?id=Bxyc3JZtAB",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. Jointly co-optimizes communication and computation precision with graph rewriting and hardware-aware mixed-precision allocation; reports up to 2.92x end-to-end speedup with negligible perplexity increase.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "CONCUR: High-Throughput Agentic Batch Inference of LLM via Congestion-Based Concurrency Control",
     "venue": "ICML 2026",
     "topic": "agentic LLM serving / KV cache / admission control",
@@ -8608,6 +8714,26 @@
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "CONTINUUM: Restoring the Contiguous Tensor Abstraction Efficiently for Dynamic AI Workloads via Hardware Virtualization",
+    "venue": "ICML 2026",
+    "topic": "AI systems / GPU memory virtualization / dynamic tensor memory / LLM runtime",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "hROxrfMoXj",
+    "paper_url": "https://openreview.net/forum?id=hROxrfMoXj",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Spotlight. GPU memory virtualization subsystem and Elastic Tensor abstraction reduce mapping costs from milliseconds to microseconds and support zero-copy dynamic tensor remapping for LLM workloads.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
       "GPU Kernel / DSL / Compiler"
     ]
   },
@@ -8783,6 +8909,28 @@
       "Efficient Attention",
       "GPU Kernel / DSL / Compiler",
       "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "DiffuMamba: High-Throughput Diffusion LMs with Mamba Backbone",
+    "venue": "ICML 2026",
+    "topic": "diffusion language models / high-throughput inference / state-space models",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "hLizFuTBsA",
+    "paper_url": "https://openreview.net/forum?id=hLizFuTBsA",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. Replaces Transformer diffusion-LM backbone with bidirectional Mamba/hybrid mixers, achieving up to 8.2x and 4.3x higher inference throughput on long sequences while preserving downstream quality.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -8987,6 +9135,29 @@
       "Efficient Attention",
       "Video / Image Generation",
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "EcoVLA: Environment-Aware Adaptive Pruning with Interleaved Inference Orchestration for Vision-Language-Action Models",
+    "venue": "ICML 2026",
+    "topic": "Physical AI / VLA serving / adaptive channel pruning / interleaved inference orchestration",
+    "arxiv": "2602.00780",
+    "doi": "",
+    "official_id": "2602.00780",
+    "paper_url": "https://arxiv.org/abs/2602.00780",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Physical-AI efficiency work. Training-free environment-aware channel pruning updates sparsity patterns online and overlaps pruning with inference bubbles; up to 1.60x standalone and 2.18x with token pruning, with <=0.5% success degradation and real-robot validation.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI"
     ]
   },
   {
