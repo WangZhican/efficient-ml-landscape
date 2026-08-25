@@ -8058,6 +8058,29 @@
     ]
   },
   {
+    "title": "A3: an Analytical Low-Rank Approximation Framework for Attention",
+    "venue": "ICML 2026",
+    "topic": "LLM compression / low-rank approximation / KV cache compression / FLOPs reduction",
+    "arxiv": "2505.12942",
+    "doi": "",
+    "official_id": "ICML2026_A3_LOW_RANK_ATTENTION",
+    "paper_url": "https://arxiv.org/abs/2505.12942",
+    "code_url": "https://github.com/DeepWok/a3",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 post-training compression work. A3 analytically compresses QK, OV and MLP functional components, directly reducing model size, KV-cache size and FLOPs without extra decomposed-GEMM runtime overhead; it also supports mixed-rank and quantization combinations.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Quantization",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "Accordion-Thinking: Self-Regulated Step Summaries for Efficient and Readable LLM Reasoning",
     "venue": "ICML 2026",
     "topic": "efficient reasoning / KV-cache context compression / test-time inference efficiency",
@@ -10022,6 +10045,49 @@
     ]
   },
   {
+    "title": "LazyAttention: Efficient Retrieval-Augmented Generation with Deferred Positional Encoding",
+    "venue": "ICML 2026",
+    "topic": "LLM serving / RAG / KV cache reuse / deferred positional encoding / attention kernels",
+    "arxiv": "2606.04302",
+    "doi": "",
+    "official_id": "ICML2026_LAZYATTENTION",
+    "paper_url": "https://arxiv.org/abs/2606.04302",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 direct LLM-serving/KV-reuse systems work. LazyAttention defers positional encoding into attention kernels, enabling zero-copy position-agnostic KV reuse for RAG/ICL. It reports 1.37x lower TTFT and 1.40x higher inference throughput than Block-Attention under skewed document distributions while preserving output quality.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "LC-QAT: Data-Efficient 2-Bit QAT for LLMs via Linear-Constrained Vector Quantization",
+    "venue": "ICML 2026",
+    "topic": "LLM quantization / 2-bit QAT / vector quantization / efficient deployment",
+    "arxiv": "2606.10531",
+    "doi": "",
+    "official_id": "ICML2026_LC_QAT",
+    "paper_url": "https://arxiv.org/abs/2606.10531",
+    "code_url": "https://github.com/backspacetg/unisvq",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 direct extreme-low-bit LLM deployment work. LC-QAT makes 2-bit vector-quantization QAT end-to-end differentiable via a linear-constrained codebook and achieves strong quality with only 0.1%-10% of conventional QAT training data, making 2-bit deployment substantially more practical.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization"
+    ]
+  },
+  {
     "title": "Learning to Evict from Key-Value Cache",
     "venue": "ICML 2026",
     "topic": "KV cache / long-context inference / learned eviction / reinforcement learning",
@@ -10463,6 +10529,49 @@
       "GPU Kernel / DSL / Compiler",
       "Video / Image Generation",
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "MoSE: Mixture of Slimmable Experts for Efficient and Adaptive Language Models",
+    "venue": "ICML 2026",
+    "topic": "MoE / conditional computation / slimmable experts / adaptive inference FLOPs",
+    "arxiv": "2602.06154",
+    "doi": "",
+    "official_id": "ICML2026_MOSE_SLIMMABLE_EXPERTS",
+    "paper_url": "https://arxiv.org/abs/2602.06154",
+    "code_url": "https://github.com/tnurbek/mose",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 efficient-MoE work. MoSE makes each expert slimmable, allowing runtime control over both which experts execute and how much of each expert executes. It shifts the accuracy-compute Pareto frontier toward lower inference FLOPs and supports budget-aware runtime width selection.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "MoE Systems / Accelerators",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "MoshiRAG: Asynchronous Knowledge Retrieval for Full-Duplex Speech Language Models",
+    "venue": "ICML 2026",
+    "topic": "multimodal serving / full-duplex speech LM / asynchronous RAG / real-time inference",
+    "arxiv": "2604.12928",
+    "doi": "",
+    "official_id": "ICML2026_MOSHIRAG",
+    "paper_url": "https://arxiv.org/abs/2604.12928",
+    "code_url": "https://github.com/kyutai-labs/moshi-rag",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 real-time multimodal serving work. MoshiRAG keeps a compact full-duplex speech-language interface while asynchronously retrieving stronger knowledge sources during the natural response gap, improving factuality without sacrificing real-time interactivity; the official implementation includes production-oriented Rust inference code.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
