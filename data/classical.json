@@ -9559,6 +9559,29 @@
     ]
   },
   {
+    "title": "FAIR-Calib: Frontier-Aware Calibration for Post-Training Quantization of Diffusion Language Models",
+    "venue": "ICML 2026",
+    "topic": "quantization / diffusion language model / W4A4 PTQ / calibration",
+    "arxiv": "2606.06547",
+    "doi": "",
+    "official_id": "2606.06547",
+    "paper_url": "https://arxiv.org/abs/2606.06547",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. Frontier-aware calibration for low-bit diffusion-language-model PTQ, directly targeting W4A4 deployment while preserving generation quality across denoising states.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "GPU Kernel / DSL / Compiler",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "Fast and Accurate Causal Parallel Decoding using Jacobi Forcing",
     "venue": "ICML 2026",
     "topic": "parallel decoding / causal Jacobi decoding / KV-cache-compatible LLM inference acceleration",
@@ -10618,6 +10641,50 @@
       "KV Cache / Long Context",
       "Efficient Attention",
       "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "NanoQuant: Efficient Sub-1-Bit Quantization of Large Language Models",
+    "venue": "ICML 2026",
+    "topic": "quantization / sub-1-bit PTQ / custom kernels / consumer-GPU deployment",
+    "arxiv": "2602.06694",
+    "doi": "",
+    "official_id": "2602.06694",
+    "paper_url": "https://arxiv.org/abs/2602.06694",
+    "code_url": "https://github.com/SamsungLabs/NanoQuant",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. Sub-1-bit post-training quantization with custom low-bit kernels; reports extreme model-memory compression and practical consumer-GPU deployment while preserving useful accuracy.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "NanoSpec: Accelerating Speculative Decoding using Minimalist In-Context Vocabularies",
+    "venue": "ICML 2026",
+    "topic": "speculative decoding / active-vocabulary pruning / GPU runtime",
+    "arxiv": "2605.26444",
+    "doi": "",
+    "official_id": "2605.26444",
+    "paper_url": "https://arxiv.org/abs/2605.26444",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. Training-free speculative-decoding co-design that restricts draft computation to a small dynamic in-context vocabulary and combines asynchronous gathering/GPU-resident state to reduce draft cost and improve end-to-end speed.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Speculative Decoding",
+      "Sparsity / Pruning",
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {
