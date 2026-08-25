@@ -10174,6 +10174,74 @@
     ]
   },
   {
+    "title": "KernelBand: Steering LLM-based Kernel Optimization via Hardware-Aware Multi-Armed Bandits",
+    "venue": "ICML 2026",
+    "topic": "GPU kernel / LLM code generation / hardware-aware optimization / agentic compiler systems",
+    "arxiv": "2511.18868",
+    "doi": "",
+    "official_id": "2511.18868",
+    "paper_url": "https://arxiv.org/abs/2511.18868",
+    "code_url": "https://github.com/TongmingLAIC/KernelBand",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 GPU-kernel optimization system. KernelBand formulates LLM-driven kernel optimization as hardware-aware multi-armed-bandit search, using profiling-based pruning and trace-driven clustering to balance exploration/exploitation; the official project reports up to 1.91x geometric-mean speedup with 39-140% higher Fast@1 over prior baselines.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference",
+      "Diffusion / Flow Acceleration",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "KernelCraft: Benchmarking for Agentic Close-to-Metal Kernel Generation on Emerging Hardware",
+    "venue": "ICML 2026",
+    "topic": "GPU/NPU kernel / compiler / agentic code generation / emerging accelerators",
+    "arxiv": "2603.08721",
+    "doi": "",
+    "official_id": "2603.08721",
+    "paper_url": "https://arxiv.org/abs/2603.08721",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 benchmark and systems framework for agentic low-level kernel generation on emerging accelerators. It evaluates function-calling agents across multiple custom ISAs and real/simulated hardware, with compile/simulation/correctness feedback loops, showing top agents can generate valid kernels for unseen ISAs and match or beat template/compiler baselines.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Efficient Reasoning / Agents",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "KernelFoundry: Hardware-aware evolutionary GPU kernel optimization",
+    "venue": "ICML 2026",
+    "topic": "GPU kernel / compiler / evolutionary optimization / hardware-aware agent systems",
+    "arxiv": "2603.12440",
+    "doi": "",
+    "official_id": "2603.12440",
+    "paper_url": "https://arxiv.org/abs/2603.12440",
+    "code_url": "https://github.com/isl-org/kernelfoundry",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 distributed hardware-aware GPU-kernel optimization framework. KernelFoundry combines MAP-Elites quality-diversity search, meta-prompt evolution, template parameter optimization, profiler feedback, and a distributed multi-hardware test harness; the paper reports an average 2.3x speedup on KernelBench for SYCL and supports CUDA/SYCL kernel optimization.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "Knapsack RL: Compute-Efficient Reinforcement Learning via Heterogeneous Rollout Allocation",
     "venue": "ICML 2026",
     "topic": "LLM RL / rollout allocation / training compute efficiency",
