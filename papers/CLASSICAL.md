@@ -1,10 +1,10 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **942 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **944 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
-## ICML 2026 · 230
+## ICML 2026 · 232
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -93,11 +93,13 @@
 | **Canonical** | **FOAM: Blocked State Folding for Memory-Efficient LLM Training** | ICML 2026 | distributed training / memory-efficient optimizer / optimizer-state compression | [Link](https://arxiv.org/abs/2512.07112) | [Repo](https://github.com/zqOuO/FOAM) |
 | **Canonical** | **ForesightKV: Optimizing KV Cache Eviction for Reasoning Models by Learning Long-Term Contribution** | ICML 2026 | KV cache eviction / reasoning-model serving / learned long-term contribution | [Link](https://arxiv.org/abs/2602.03203) | [Repo](https://github.com/1190303125/ForesightKV) |
 | **Canonical** | **FourTune: Towards Fully 4-Bit Efficient Post-Training for Diffusion Models** | ICML 2026 | diffusion model post-training / W4A4G4 quantization / fused kernels / training efficiency | [Link](https://arxiv.org/abs/2607.05711) | — |
+| **Canonical** | **GradPower: Powering Gradients for Faster Language Model Pre-Training** | ICML 2026 | distributed training / optimizer / LLM pre-training efficiency / MoE training | [Link](https://arxiv.org/abs/2505.24275) | — |
 | **Canonical** | **Gram2Token: Enabling Run-time GPU-Native Grammar-Constrained Decoding for LLMs** | ICML 2026 | LLM serving / GPU-native grammar-constrained decoding / structured generation | — | [Repo](https://github.com/Paradozile/Gram2Token) |
 | **Canonical** | **GraphFlow: A Graph-Based Workflow Management for Efficient LLM-Agent Serving** | ICML 2026 | agent serving / workflow reuse / KV-cache management | [Link](https://arxiv.org/abs/2605.22566) | — |
 | **Canonical** | **Grouter: Decoupling Routing from Representation for Accelerated MoE Training** | ICML 2026 | MoE systems / efficient training / routing / distributed training | [Link](https://arxiv.org/abs/2603.06626) | [Repo](https://github.com/JimmyAwoe/Grouter) |
 | **Canonical** | **HARD-KV: Head-Adaptive Regularization for Decoding-time KV Compression** | ICML 2026 | KV cache compression / head-adaptive sparsity / vLLM-compatible runtime | [Link](https://arxiv.org/abs/2606.28831) | [Repo](https://github.com/SuDIS-ZJU/HARDInfer) |
 | **Canonical** | **HeraSys: Collaborative Serving of Multiple LLM Workflows via Fine-Grained End-to-End Optimization** | ICML 2026 | agentic LLM serving / multi-workflow scheduling / reuse / adaptive batching | [Link](https://arxiv.org/abs/2607.22578) | — |
+| **Canonical** | **HERMES: Towards Efficient and Verifiable Mathematical Reasoning in LLMs** | ICML 2026 | efficient reasoning / agent systems / verifiable reasoning / test-time compute | [Link](https://arxiv.org/abs/2511.18760) | [Repo](https://github.com/aziksh-ospanov/HERMES) |
 | **Canonical** | **HexGen-3: A Fully Disaggregated LLM Serving Framework with Fine-Grained Heterogeneous Resource Autoscaling** | ICML 2026 | LLM serving / disaggregation / heterogeneous resource autoscaling | — | — |
 | **Canonical** | **HybridFlow: Resource-Adaptive Subtask Routing for Efficient Edge-Cloud LLM Inference** | ICML 2026 | edge-cloud LLM inference / adaptive routing / parallel subtask execution / latency-cost optimization | [Link](https://arxiv.org/abs/2512.22137) | [Repo](https://github.com/WanyuGroup/ICML2026_HybridFlow) |
 | **Canonical** | **IAPO: Information-Aware Policy Optimization for Token-Efficient Reasoning** | ICML 2026 | efficient reasoning / token-efficient RL / post-training | [Link](https://arxiv.org/abs/2602.19049) | [Repo](https://github.com/YinhanHe123/IAPO) |

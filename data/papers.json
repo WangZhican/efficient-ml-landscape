@@ -9918,6 +9918,27 @@
     ]
   },
   {
+    "title": "GradPower: Powering Gradients for Faster Language Model Pre-Training",
+    "venue": "ICML 2026",
+    "topic": "distributed training / optimizer / LLM pre-training efficiency / MoE training",
+    "arxiv": "2505.24275",
+    "doi": "",
+    "official_id": "2505.24275",
+    "paper_url": "https://arxiv.org/abs/2505.24275",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 LLM-training efficiency work. GradPower applies a lightweight sign-power transformation to gradients before a base optimizer, requiring essentially a one-line optimizer-side change while improving convergence across LLaMA/Qwen2MoE scales and schedules; its main technical role is reducing optimization compute needed to reach a target pre-training loss, especially for modern MoE training.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "MoE Systems / Accelerators",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "Gram2Token: Enabling Run-time GPU-Native Grammar-Constrained Decoding for LLMs",
     "venue": "ICML 2026",
     "topic": "LLM serving / GPU-native grammar-constrained decoding / structured generation",
@@ -10026,6 +10047,26 @@
     "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "HERMES: Towards Efficient and Verifiable Mathematical Reasoning in LLMs",
+    "venue": "ICML 2026",
+    "topic": "efficient reasoning / agent systems / verifiable reasoning / test-time compute",
+    "arxiv": "2511.18760",
+    "doi": "",
+    "official_id": "2511.18760",
+    "paper_url": "https://arxiv.org/abs/2511.18760",
+    "code_url": "https://github.com/aziksh-ospanov/HERMES",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 efficient-reasoning agent. HERMES interleaves informal reasoning with Lean-based single-step verification and memory, improving mathematical reasoning while sharply reducing wasted inference; the paper reports up to roughly 80% fewer total inference FLOPs in difficult settings, making it a direct test-time-compute efficiency contribution rather than only a verification paper.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
       "Efficient Reasoning / Agents"
     ]
   },
