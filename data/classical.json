@@ -11551,6 +11551,26 @@
     ]
   },
   {
+    "title": "S-Quant: Rethinking Weight Quantization with Seed-Based Generation",
+    "venue": "ICML 2026",
+    "topic": "quantization / low-bit LLM inference / weight compression / hardware-aware acceleration",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "HbopJMswYa",
+    "paper_url": "https://openreview.net/forum?id=HbopJMswYa",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Poster confirmed by the official ICML Downloads inventory and CUHK author/senior-author publication pages. S-Quant encodes fixed-size weight blocks by compact seeds that drive hardware-friendly LFSR-generated bases, targets approximately 3-bit/4-bit weight compression, improves memory-transfer efficiency for memory-bound LLM inference, and reports a dedicated ASIC design with about 4x inference speedup.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization"
+    ]
+  },
+  {
     "title": "SALE : Low-bit Estimation for Efficient Sparse Attention in Long-context LLM Prefilling",
     "venue": "ICML 2026",
     "topic": "efficient attention / low-bit estimation / long-context prefill",
@@ -12142,6 +12162,27 @@
     ]
   },
   {
+    "title": "Speedup Patch: Learning a Plug-and-Play Policy to Accelerate Embodied Manipulation",
+    "venue": "ICML 2026",
+    "topic": "VLA / Physical AI / embodied policy runtime / action-chunk acceleration",
+    "arxiv": "2603.20658",
+    "doi": "",
+    "official_id": "2603.20658",
+    "paper_url": "https://arxiv.org/abs/2603.20658",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 official inventory includes this protected Physical-AI efficiency work. Speedup Patch adds a policy-agnostic external scheduler that adaptively downsamples redundant action chunks using offline RL and a world-model deviation safety surrogate; simulation and real-robot experiments report about 1.8x execution speedup while maintaining task success.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "SSA: Sparse Sparse Attention by Aligning Full and Sparse Attention Outputs in Feature Space",
     "venue": "ICML 2026",
     "topic": "efficient attention / sparse attention / long-context inference / training",
@@ -12189,6 +12230,27 @@
     ]
   },
   {
+    "title": "StitchCUDA: An Automated Multi-Agents End-to-End GPU Programing Framework with Rubric-based Agentic Reinforcement Learning",
+    "venue": "ICML 2026",
+    "topic": "GPU kernel / CUDA programming / compiler-agent infrastructure / RL for systems optimization",
+    "arxiv": "2603.02637",
+    "doi": "",
+    "official_id": "2603.02637",
+    "paper_url": "https://arxiv.org/abs/2603.02637",
+    "code_url": "https://github.com/UMN-APEX-Lab/StitchCUDA",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 paper confirmed by the official ICML Downloads inventory and the UMN APEX official repository. StitchCUDA extends LLM-based GPU optimization from isolated kernels to end-to-end GPU programs with Planner/Coder/Verifier agents, real Nsys/NCU feedback and agentic RL; KernelBench experiments report nearly 100% task success and 1.72x/2.73x speedups over multi-agent/RL baselines.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "Stochastic Sparse Attention for Memory-Bound Inference",
     "venue": "ICML 2026",
     "topic": "sparse attention / memory-bound decoding / stochastic KV access",
@@ -12207,6 +12269,50 @@
     "directions": [
       "Sparsity / Pruning",
       "Efficient Attention"
+    ]
+  },
+  {
+    "title": "Stop When Further Reasoning Won't Help: Attention-State Adaptive Generation in Reasoning Models",
+    "venue": "ICML 2026",
+    "topic": "efficient reasoning / test-time compute / adaptive early stopping / inference acceleration",
+    "arxiv": "2606.15070",
+    "doi": "",
+    "official_id": "2606.15070",
+    "paper_url": "https://arxiv.org/abs/2606.15070",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 official Downloads inventory includes this training-free reasoning-efficiency paper. ASAG infers reasoning state from attention distributions and adaptively stops generation; across nine benchmarks it reduces generated tokens by nearly 40% on Qwen3-8B while improving average accuracy, directly reducing test-time compute and KV-generation cost.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Attention",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "StreamFlow: Theory, Algorithm, and Implementation for High-Efficiency Rectified Flow Generation",
+    "venue": "ICML 2026",
+    "topic": "diffusion / rectified-flow acceleration / TensorRT / generation runtime",
+    "arxiv": "2511.22009",
+    "doi": "",
+    "official_id": "2511.22009",
+    "paper_url": "https://arxiv.org/abs/2511.22009",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 paper confirmed by the official ICML Downloads inventory and the authors project page. StreamFlow builds an end-to-end rectified-flow acceleration pipeline with heterogeneous timestep batching, vectorized execution and dynamic TensorRT compilation; its project/paper reports up to roughly 6.1x acceleration for 512x512 generation.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Diffusion / Flow Acceleration",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -12336,6 +12442,29 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "Training-Inference Consistent Segmented Execution for Long-Context LLMs",
+    "venue": "ICML 2026",
+    "topic": "KV cache / long-context inference / segmented execution / memory-efficient training-inference consistency",
+    "arxiv": "2605.11744",
+    "doi": "",
+    "official_id": "2605.11744",
+    "paper_url": "https://arxiv.org/abs/2605.11744",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 paper confirmed by the official ICML Downloads inventory and primary/author-linked records. It aligns training and inference under the same segmented execution semantics, carries bounded differentiable KV state across segments, and reports roughly 6x lower peak prefill memory at 128K versus full-context FlashAttention while retaining competitive long-context quality.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Attention",
+      "Distributed Training / Inference"
     ]
   },
   {
