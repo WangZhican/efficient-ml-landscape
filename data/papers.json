@@ -8675,6 +8675,28 @@
     ]
   },
   {
+    "title": "CondiQuant: Condition Number Based Low-Bit Quantization for Image Super-Resolution",
+    "venue": "ICML 2026",
+    "topic": "quantization / image super-resolution / post-training quantization / edge inference",
+    "arxiv": "2502.15478",
+    "doi": "",
+    "official_id": "2502.15478",
+    "paper_url": "https://arxiv.org/abs/2502.15478",
+    "code_url": "https://github.com/Kai-Liu001/CondiQuant",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 low-bit PTQ work for image super-resolution. CondiQuant formulates activation-quantization sensitivity through weight condition numbers and uses efficient proximal optimization to improve ultra-low-bit deployment without extra inference computation; author publication pages confirm ICML 2026 and the official repository is verified.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "Diffusion / Flow Acceleration",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "ConFu: Contemplate the Future for Better Speculative Sampling",
     "venue": "ICML 2026",
     "topic": "speculative decoding / draft-model quality / future-conditioned speculative sampling",
@@ -10200,6 +10222,30 @@
     ]
   },
   {
+    "title": "LSGQuant: Layer-Sensitivity Guided Quantization for One-Step Diffusion Real-World Video Super-Resolution",
+    "venue": "ICML 2026",
+    "topic": "quantization / video generation acceleration / diffusion transformer / low-bit inference",
+    "arxiv": "2602.03182",
+    "doi": "",
+    "official_id": "2602.03182",
+    "paper_url": "https://arxiv.org/abs/2602.03182",
+    "code_url": "https://github.com/zhengchen1999/LSGQuant",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 direct diffusion/video quantization work. Layer-sensitivity guided PTQ combines dynamic-range-aware activation quantization, variance-oriented layer training, and quantization-aware optimization to compress one-step DiT video super-resolution while preserving near-full-precision quality; author publication page and ICML listing confirm venue, and official author repository is verified.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "GPU Kernel / DSL / Compiler",
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "M+Adam: Low-Precision Training via Additive-Multiplicative Optimization",
     "venue": "ICML 2026",
     "topic": "low-precision training / FP8 FP4 / optimizer / memory efficiency",
@@ -10817,6 +10863,31 @@
     ]
   },
   {
+    "title": "Q-DiT4SR: Exploration of Detail-Preserving Diffusion Transformer Quantization for Real-World Image Super-Resolution",
+    "venue": "ICML 2026",
+    "topic": "quantization / image generation acceleration / diffusion transformer / W4A4 inference",
+    "arxiv": "2602.01273",
+    "doi": "",
+    "official_id": "2602.01273",
+    "paper_url": "https://arxiv.org/abs/2602.01273",
+    "code_url": "https://github.com/xunzhang1128/Q-DiT4SR",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 direct DiT PTQ work for real-world image super-resolution. H-SVD and variance-aware mixed precision enable W4A4 deployment; the paper reports 5.8x model-size reduction and over 60x lower computational operations while preserving detail quality. Official author repository and publication pages verify ICML 2026.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "Quantization",
+      "GPU Kernel / DSL / Compiler",
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "Quant VideoGen: Auto-Regressive Long Video Generation via 2-Bit KV-Cache Quantization",
     "venue": "ICML 2026",
     "topic": "video generation / KV-cache quantization / long-horizon inference",
@@ -10881,6 +10952,28 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "RaGEP: Rank-aware Geometric Expert Pruning for Mixture-of-Experts Language Models",
+    "venue": "ICML 2026",
+    "topic": "MoE systems / expert pruning / model compression / memory-efficient inference",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICML2026_RAGEPRANKAWAREGEOMETRICEXPERTPRUNINGFORMIXTUREOF",
+    "paper_url": "https://prudent-o.github.io/zhouhuilin/",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 regular/poster direct MoE deployment-efficiency work. RaGEP performs rank-aware inter-layer expert-budget allocation and spectral-salience intra-layer pruning to reduce static expert footprint and inference cost on memory-constrained hardware while preserving task quality; ICML Downloads and author/CAS official pages confirm acceptance.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "MoE Systems / Accelerators"
     ]
   },
   {
@@ -11057,6 +11150,29 @@
     "tracking_tier": "Canonical",
     "directions": [
       "KV Cache / Long Context"
+    ]
+  },
+  {
+    "title": "RobuQ: Pushing DiTs to W1.58A2 via Robust Activation Quantization",
+    "venue": "ICML 2026",
+    "topic": "quantization / diffusion transformer / ternary weights / ultra-low-bit inference",
+    "arxiv": "2509.23582",
+    "doi": "",
+    "official_id": "2509.23582",
+    "paper_url": "https://arxiv.org/abs/2509.23582",
+    "code_url": "https://github.com/racoonykc/RobuQ",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 ultra-low-bit DiT quantization work. RobuQ establishes ternary-weight DiT baselines and robust activation quantization with activation-only mixed precision, reaching competitive image generation with average ~2-bit activations; official author pages confirm ICML 2026 and the official repository is verified.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "GPU Kernel / DSL / Compiler",
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
