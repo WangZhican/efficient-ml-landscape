@@ -8653,6 +8653,28 @@
     ]
   },
   {
+    "title": "CoMem: Context Management with A Decoupled Long-Context Model",
+    "venue": "ICML 2026",
+    "topic": "agent systems / long-context serving / context management / asynchronous memory compression",
+    "arxiv": "2605.30842",
+    "doi": "",
+    "official_id": "ICML2026_COMEM_CONTEXT_MANAGEMENT",
+    "paper_url": "https://arxiv.org/abs/2605.30842",
+    "code_url": "https://github.com/horizon-llm/CoMem",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 direct agent-serving efficiency work. CoMem decouples memory summarization from the primary long-horizon agent and overlaps it asynchronously via a k-step-off pipeline. On SWE-Bench-Verified it reports about 1.4x lower latency versus vanilla long-context execution, with larger gains under higher concurrency while preserving most task performance.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "CONCUR: High-Throughput Agentic Batch Inference of LLM via Congestion-Based Concurrency Control",
     "venue": "ICML 2026",
     "topic": "agentic LLM serving / KV cache / admission control",
@@ -8885,6 +8907,29 @@
     "directions": [
       "Sparsity / Pruning",
       "MoE Systems / Accelerators"
+    ]
+  },
+  {
+    "title": "Deterministic Inference across Tensor Parallel Sizes That Eliminates Training-Inference Mismatch",
+    "venue": "ICML 2026",
+    "topic": "LLM serving reliability / tensor parallelism / deterministic kernels / RL training-inference consistency",
+    "arxiv": "2511.17826",
+    "doi": "",
+    "official_id": "ICML2026_TP_INVARIANT_DETERMINISTIC_INFERENCE",
+    "paper_url": "https://arxiv.org/abs/2511.17826",
+    "code_url": "https://github.com/nanomaoli/llm_reproducibility",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 direct AI-infrastructure reliability work. Tree-Based Invariant Kernels align reduction order across intra/inter-GPU tensor parallelism, giving bit-wise identical inference across TP sizes and matching vLLM rollout with FSDP training execution. Implemented in Triton and integrated with vLLM/FSDP; directly addresses RL training-inference mismatch and serving reproducibility.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
