@@ -8058,6 +8058,30 @@
     ]
   },
   {
+    "title": "Accordion-Thinking: Self-Regulated Step Summaries for Efficient and Readable LLM Reasoning",
+    "venue": "ICML 2026",
+    "topic": "efficient reasoning / KV-cache context compression / test-time inference efficiency",
+    "arxiv": "2602.03249",
+    "doi": "",
+    "official_id": "2602.03249",
+    "paper_url": "https://arxiv.org/abs/2602.03249",
+    "code_url": "https://github.com/yangzhch6/Accordion-Thinking",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. Learns self-regulated reasoning-step summarization so Fold inference can discard older thoughts, directly reducing historical-token dependence, KV-cache growth, and attention cost; reports about 3x throughput while maintaining accuracy on a 48GB GPU configuration. ICML identity independently confirmed by author publication pages.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "AdaSplash-2: Faster Differentiable Sparse Attention",
     "venue": "ICML 2026",
     "topic": "efficient attention / differentiable sparse attention / Triton GPU kernel / long-context training",
@@ -8652,6 +8676,27 @@
     ]
   },
   {
+    "title": "De-Linearizing Agent Traces: Bayesian Inference of Latent Partial Orders for Efficient Execution",
+    "venue": "ICML 2026",
+    "topic": "efficient agent systems / parallel agent execution / workflow compilation / context pruning",
+    "arxiv": "2602.02806",
+    "doi": "",
+    "official_id": "2602.02806",
+    "paper_url": "https://arxiv.org/abs/2602.02806",
+    "code_url": "https://bpopagent.live/",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. BPOP infers latent dependency partial orders from sequential agent traces and compiles them into executors that expose concurrency and prune irrelevant context, reducing repeated reasoning, token usage, and execution time; project page provides paper/code artifacts.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "Decouple and Cache: KV Cache Construction for Streaming Video Understanding",
     "venue": "ICML 2026",
     "topic": "multimodal serving / streaming video / KV cache",
@@ -8942,6 +8987,27 @@
       "Efficient Attention",
       "Video / Image Generation",
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "EffGen: Enabling Small Language Models as Capable Autonomous Agents",
+    "venue": "ICML 2026",
+    "topic": "efficient agent systems / small-model agent runtime / local inference / routing / context compression",
+    "arxiv": "2602.00887",
+    "doi": "",
+    "official_id": "2602.00887",
+    "paper_url": "https://arxiv.org/abs/2602.00887",
+    "code_url": "https://github.com/ctrl-gaurav/effGen",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. Open-source agent runtime optimized for small local language models; combines 70-80% prompt/context compression, dependency-aware task decomposition, complexity-based routing, unified memory, and production serving integrations to reduce cost, latency, and memory versus large-model-centric agent stacks.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -9485,6 +9551,26 @@
     ]
   },
   {
+    "title": "HybridFlow: Resource-Adaptive Subtask Routing for Efficient Edge-Cloud LLM Inference",
+    "venue": "ICML 2026",
+    "topic": "edge-cloud LLM inference / adaptive routing / parallel subtask execution / latency-cost optimization",
+    "arxiv": "2512.22137",
+    "doi": "",
+    "official_id": "2512.22137",
+    "paper_url": "https://arxiv.org/abs/2512.22137",
+    "code_url": "https://github.com/WanyuGroup/ICML2026_HybridFlow",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. Edge-cloud LLM inference framework decomposes each query into a dependency-aware DAG, executes newly unlocked subtasks in parallel, and routes each subtask online between edge and cloud using a learned benefit-cost utility under latency/token/API budgets; official ICML repository verified.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "IAPO: Information-Aware Policy Optimization for Token-Efficient Reasoning",
     "venue": "ICML 2026",
     "topic": "efficient reasoning / token-efficient RL / post-training",
@@ -9630,6 +9716,26 @@
     "tracking_tier": "Canonical",
     "directions": [
       "KV Cache / Long Context",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "Learning to Share: Selective Memory for Efficient Parallel Agentic Systems",
+    "venue": "ICML 2026",
+    "topic": "efficient agent systems / parallel agents / shared memory / computation reuse",
+    "arxiv": "2602.05965",
+    "doi": "",
+    "official_id": "2602.05965",
+    "paper_url": "https://arxiv.org/abs/2602.05965",
+    "code_url": "https://github.com/UCF-CRCV/autogen-lts",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. Introduces learned shared memory for parallel agent teams so useful intermediate steps can be reused across trajectories while controlling context growth, reducing redundant computation and runtime while matching or improving task quality on AssistantBench and GAIA; official UCF implementation verified.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
       "Efficient Reasoning / Agents"
     ]
   },
