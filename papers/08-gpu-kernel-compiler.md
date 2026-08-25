@@ -1,6 +1,6 @@
 # 08 · GPU Kernel / DSL / Compiler
 
-> **345 canonical papers** mapped here, plus a broader **78-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **346 canonical papers** mapped here, plus a broader **78-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -87,7 +87,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 318 canonical
+## 🏛️ Classical / Historical · 319 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -209,6 +209,7 @@
 | **Canonical** | **Q-VDiT: Towards Accurate Quantization and Distillation of Video-Generation Diffusion Transformers** | ICML 2025 | video diffusion quantization / distillation | — | [Repo](https://github.com/wlfeng0509/Q-VDiT) |
 | **Canonical** | **Sparse Video-Gen: Accelerating Video Diffusion Transformers with Spatial-Temporal Sparsity** | ICML 2025 | video/image generation acceleration / efficient attention | — | — |
 | **Canonical** | **A Queueing-Theoretic Framework for Stability Analysis of LLM Inference with KV Cache Memory Constraints** | ICML 2026 | LLM serving / KV cache memory / queueing / capacity provisioning | [Link](https://arxiv.org/abs/2605.04595) | — |
+| **Canonical** | **A Two-Layer Framework for Joint Online Configuration Selection and Admission Control** | ICML 2026 | LLM serving / GPU scheduling / online configuration selection / admission control | [Link](https://arxiv.org/abs/2602.07663) | — |
 | **Canonical** | **A3: an Analytical Low-Rank Approximation Framework for Attention** | ICML 2026 | LLM compression / low-rank approximation / KV cache compression / FLOPs reduction | [Link](https://arxiv.org/abs/2505.12942) | [Repo](https://github.com/DeepWok/a3) |
 | **Canonical** | **Accordion-Thinking: Self-Regulated Step Summaries for Efficient and Readable LLM Reasoning** | ICML 2026 | efficient reasoning / KV-cache context compression / test-time inference efficiency | [Link](https://arxiv.org/abs/2602.03249) | [Repo](https://github.com/yangzhch6/Accordion-Thinking) |
 | **Canonical** | **AdaSplash-2: Faster Differentiable Sparse Attention** | ICML 2026 | efficient attention / differentiable sparse attention / Triton GPU kernel / long-context training | [Link](https://arxiv.org/abs/2604.15180) | [Repo](https://github.com/deep-spin/adasplash) |

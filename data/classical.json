@@ -8016,6 +8016,29 @@
     ]
   },
   {
+    "title": "A Two-Layer Framework for Joint Online Configuration Selection and Admission Control",
+    "venue": "ICML 2026",
+    "topic": "LLM serving / GPU scheduling / online configuration selection / admission control",
+    "arxiv": "2602.07663",
+    "doi": "",
+    "official_id": "2602.07663",
+    "paper_url": "https://arxiv.org/abs/2602.07663",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. Two-layer online control jointly selects serving configuration (e.g., quantization/parallelism) and admits requests under resource budgets; introduces a switching-aware fluid oracle and SP-UCB-OLP with provable regret, directly relevant to principled LLM serving and GPU scheduling.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "A Unified Sparse Attention via Multi-Granularity Compression",
     "venue": "ICML 2026",
     "topic": "efficient attention / long-context inference",

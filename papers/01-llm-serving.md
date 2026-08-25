@@ -1,6 +1,6 @@
 # 01 · LLM Serving
 
-> **437 canonical papers** mapped here, plus a broader **194-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **438 canonical papers** mapped here, plus a broader **194-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -203,7 +203,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 415 canonical
+## 🏛️ Classical / Historical · 416 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -339,6 +339,7 @@
 | **Canonical** | **EPIC: Efficient Position-Independent Caching for Serving Large Language Models** | ICML 2025 | long-context / KV cache / efficient LLM inference | — | — |
 | **Canonical** | **ShadowKV: KV Cache in Shadows for High-Throughput Long-Context LLM Inference** | ICML 2025 | long-context / KV cache / efficient LLM inference | — | — |
 | **Canonical** | **A Queueing-Theoretic Framework for Stability Analysis of LLM Inference with KV Cache Memory Constraints** | ICML 2026 | LLM serving / KV cache memory / queueing / capacity provisioning | [Link](https://arxiv.org/abs/2605.04595) | — |
+| **Canonical** | **A Two-Layer Framework for Joint Online Configuration Selection and Admission Control** | ICML 2026 | LLM serving / GPU scheduling / online configuration selection / admission control | [Link](https://arxiv.org/abs/2602.07663) | — |
 | **Canonical** | **Accordion-Thinking: Self-Regulated Step Summaries for Efficient and Readable LLM Reasoning** | ICML 2026 | efficient reasoning / KV-cache context compression / test-time inference efficiency | [Link](https://arxiv.org/abs/2602.03249) | [Repo](https://github.com/yangzhch6/Accordion-Thinking) |
 | **Canonical** | **ACON: Optimizing Context Compression for Long-horizon LLM Agents** | ICML 2026 | efficient reasoning / agent systems / long-horizon context compression / memory | [Link](https://arxiv.org/abs/2510.00615) | [Repo](https://github.com/microsoft/acon) |
 | **Canonical** | **AdaHC: Accelerating Multi-Token Prediction with Adaptive Head Chunking with Pipeline Parallelism** | ICML 2026 | distributed training / multi-token prediction / pipeline parallelism / scheduling | — | — |

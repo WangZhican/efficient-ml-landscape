@@ -1,10 +1,10 @@
 # 🧭 Research Map
 
-> **982 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
+> **983 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
 
 <div align="center">
 
-[**🆕 Latest 30 Days · 262 tracked**](LATEST_30D.md) · [**🏛️ Classical · 933**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
+[**🆕 Latest 30 Days · 262 tracked**](LATEST_30D.md) · [**🏛️ Classical · 934**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
 
 </div>
 
@@ -12,15 +12,15 @@
 
 | # | Research direction | Canonical | Latest 30d tracked |
 |---:|---|---:|---:|
-| 01 | [**LLM Serving**](01-llm-serving.md) | **437** | **194** |
+| 01 | [**LLM Serving**](01-llm-serving.md) | **438** | **194** |
 | 02 | [**Speculative Decoding**](02-speculative-decoding.md) | **136** | **22** |
 | 03 | [**KV Cache / Long Context**](03-kv-cache-long-context.md) | **268** | **40** |
-| 04 | [**Quantization**](04-quantization.md) | **131** | **44** |
+| 04 | [**Quantization**](04-quantization.md) | **132** | **44** |
 | 05 | [**Sparsity / Pruning**](05-sparsity-pruning.md) | **162** | **55** |
 | 06 | [**Efficient Attention**](06-efficient-attention.md) | **150** | **39** |
 | 07 | [**MoE Systems / Accelerators**](07-moe-systems.md) | **69** | **27** |
-| 08 | [**GPU Kernel / DSL / Compiler**](08-gpu-kernel-compiler.md) | **345** | **78** |
-| 09 | [**Distributed Training / Inference**](09-distributed-training-inference.md) | **166** | **27** |
+| 08 | [**GPU Kernel / DSL / Compiler**](08-gpu-kernel-compiler.md) | **346** | **78** |
+| 09 | [**Distributed Training / Inference**](09-distributed-training-inference.md) | **167** | **27** |
 | 10 | [**Multimodal / MLLM Serving**](10-multimodal-mllm-serving.md) | **118** | **48** |
 | 11 | [**Video / Image Generation**](11-video-image-generation.md) | **43** | **13** |
 | 12 | [**Diffusion / Flow Acceleration**](12-diffusion-flow.md) | **142** | **31** |
