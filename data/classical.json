@@ -9998,6 +9998,29 @@
     ]
   },
   {
+    "title": "Less Token, More Signal: MoE Expert Pruning via Critical Token Selection",
+    "venue": "ICML 2026",
+    "topic": "MoE systems / expert pruning / memory-efficient inference",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "OPENREVIEW_4iupzej9nT",
+    "paper_url": "https://openreview.net/forum?id=4iupzej9nT",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Poster. STEP uses critical-token-guided expert importance with loss-aware evaluation and lightweight knowledge preservation; on Qwen3-30B with 50% expert sparsity it nearly halves memory, improves throughput by about 1.5x, and completes pruning in under 10 minutes.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "MoE Systems / Accelerators",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "LFQ: Logit-aware Final-block Quantization for Boosting the Generation Quality of Low-Bit Quantized LLMs",
     "venue": "ICML 2026",
     "topic": "LLM quantization / PTQ / long-form generation quality",
@@ -10127,6 +10150,26 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "LK Losses: Direct Acceptance Rate Optimization for Speculative Decoding",
+    "venue": "ICML 2026",
+    "topic": "speculative decoding / draft-model training / acceptance optimization",
+    "arxiv": "2602.23881",
+    "doi": "",
+    "official_id": "2602.23881",
+    "paper_url": "https://arxiv.org/abs/2602.23881",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. Replaces KL-proxy draft training with acceptance-aligned LK objectives; across four draft architectures and six target models (8B-685B), improves average acceptance length by up to about 8-10% with no inference overhead and integrates directly into existing speculator training pipelines.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Speculative Decoding"
     ]
   },
   {
@@ -10284,6 +10327,31 @@
     "directions": [
       "Sparsity / Pruning",
       "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "Mixture of Distributions Matters: Dynamic Sparse Attention for Efficient Video Diffusion Transformers",
+    "venue": "ICML 2026",
+    "topic": "video generation acceleration / diffusion / dynamic sparse attention",
+    "arxiv": "2601.11641",
+    "doi": "",
+    "official_id": "2601.11641",
+    "paper_url": "https://arxiv.org/abs/2601.11641",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 video-DiT efficiency work. MOD-DiT models evolving attention sparsity with a mixture-of-distributions approximation plus online block masking, avoiding repeated expensive sparsity sampling while preserving generation quality and accelerating video diffusion attention.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler",
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
@@ -11986,6 +12054,26 @@
       "KV Cache / Long Context",
       "Sparsity / Pruning",
       "Efficient Attention"
+    ]
+  },
+  {
+    "title": "ToolOrchestra: Elevating Intelligence via Efficient Model and Tool Orchestration",
+    "venue": "ICML 2026",
+    "topic": "efficient reasoning / agent systems / model-tool orchestration",
+    "arxiv": "2511.21689",
+    "doi": "",
+    "official_id": "2511.21689",
+    "paper_url": "https://arxiv.org/abs/2511.21689",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 agent-efficiency work. Trains a small orchestrator with outcome-, efficiency-, and preference-aware rewards to select stronger models/tools; reports higher accuracy at lower cost, including 2.5x efficiency on HLE versus GPT-5 and roughly 30% of GPT-5 cost on tau2-Bench/FRAMES.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Reasoning / Agents"
     ]
   },
   {
