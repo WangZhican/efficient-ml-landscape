@@ -1,6 +1,6 @@
 # 09 · Distributed Training / Inference
 
-> **163 canonical papers** mapped here, plus a broader **22-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **165 canonical papers** mapped here, plus a broader **22-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -31,7 +31,7 @@
 | **P2 · Relevant** | **HetRoute Heterogeneous and Cost-aware Collaborative Routing Framework for Distributed Edge MoE Inference** | Fresh / preprint | llm_serving / quant / moe / dist / edge | [Link](https://arxiv.org/abs/2608.00577) | — |
 | **P2 · Relevant** | **HCCL: Collective Communication for Meta Training and Inference Accelerators** | Fresh / preprint | llm_serving | [Link](https://arxiv.org/abs/2608.00358) | — |
 
-## 🏛️ Classical / Historical · 151 canonical
+## 🏛️ Classical / Historical · 153 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -92,6 +92,7 @@
 | **Canonical** | **CoCoQuant: Breaking the Bandwidth Wall via Co-Optimized Communication and Computation Quantization** | ICML 2026 | distributed LLM inference / communication-computation co-design / mixed-precision quantization | — | — |
 | **Canonical** | **DARTS: Distribution-Aware Active Rollout Trajectory Shaping for Accelerating LLM Reinforcement Learning** | ICML 2026 | LLM RL systems / rollout efficiency / distributed post-training | [Link](https://arxiv.org/abs/2605.30859) | [Repo](https://github.com/AFDWang/DARTS) |
 | **Canonical** | **Deterministic Inference across Tensor Parallel Sizes That Eliminates Training-Inference Mismatch** | ICML 2026 | LLM serving reliability / tensor parallelism / deterministic kernels / RL training-inference consistency | [Link](https://arxiv.org/abs/2511.17826) | [Repo](https://github.com/nanomaoli/llm_reproducibility) |
+| **Canonical** | **Don't Drop Dropout: Optimizing Layer Sparsity for Efficient LLM Training and Inference** | ICML 2026 | LLM training efficiency / layer sparsity / early exit / self-speculative decoding | — | — |
 | **Canonical** | **Dr. Kernel: Reinforcement Learning Done Right for Triton Kernel Generations** | ICML 2026 | GPU kernel generation / Triton / distributed RL infrastructure / kernel optimization | [Link](https://arxiv.org/abs/2602.05885) | [Repo](https://github.com/hkust-nlp/KernelGYM) |
 | **Canonical** | **Efficient Distributed MLLM Training with Cornstarch** | ICML 2026 | distributed MLLM training / pipeline parallelism / context parallelism / workload balancing | [Link](https://arxiv.org/abs/2503.11367) | [Repo](https://github.com/cornstarch-org/Cornstarch) |
 | **Canonical** | **Efficient RL Training for LLMs with Experience Replay** | ICML 2026 | LLM RL post-training / rollout compute / experience replay | [Link](https://arxiv.org/abs/2604.08706) | — |
@@ -105,6 +106,7 @@
 | **Canonical** | **Multipole Semantic Attention: A Fast Approximation of Softmax Attention for Pretraining** | ICML 2026 | efficient attention / long-context pretraining / attention approximation | [Link](https://arxiv.org/abs/2509.10406) | — |
 | **Canonical** | **NorMuon: Making Muon more efficient and scalable** | ICML 2026 | distributed LLM training / optimizer / FSDP2 / training efficiency | [Link](https://arxiv.org/abs/2510.05491) | — |
 | **Canonical** | **POET-X: Memory-efficient LLM Training by Scaling Orthogonal Transformation** | ICML 2026 | distributed LLM training / memory-efficient optimizer / Triton kernels | [Link](https://arxiv.org/abs/2603.05500) | [Repo](https://github.com/Sphere-AI-Lab/poet) |
+| **Canonical** | **PRAC: Principal-Random Subspace for LLM Activation Compression and Memory-Efficient Training** | ICML 2026 | distributed training / activation compression / memory-efficient LLM training | [Link](https://arxiv.org/abs/2602.23111) | — |
 | **Canonical** | **Proxy Compression for Language Modeling** | ICML 2026 | language-model training efficiency / byte-level modeling / compressed training views | [Link](https://arxiv.org/abs/2602.04289) | — |
 | **Canonical** | **Semantic Cache Distillation: Efficient State Transfer via Reuse and Selective Patching** | ICML 2026 | LLM serving / disaggregated inference / KV cache / communication optimization | [Link](https://arxiv.org/abs/2606.07684) | — |
 | **Canonical** | **Small Generalizable Prompt Predictive Models Can Steer Efficient RL Post-Training of Large Reasoning Models** | ICML 2026 | efficient reasoning / RL post-training / rollout compute allocation | [Link](https://arxiv.org/abs/2602.01970) | — |

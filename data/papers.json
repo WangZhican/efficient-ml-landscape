@@ -9046,6 +9046,28 @@
     ]
   },
   {
+    "title": "Don't Drop Dropout: Optimizing Layer Sparsity for Efficient LLM Training and Inference",
+    "venue": "ICML 2026",
+    "topic": "LLM training efficiency / layer sparsity / early exit / self-speculative decoding",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICML2026_DON_T_DROP_DROPOUT_OPTIMIZING_LAYER_SPARSITY_FOR_EFFICIENT_LLM_TRAINING_AND_INFE",
+    "paper_url": "https://sites.google.com/site/shaneabergsma/",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 direct training-and-inference efficiency study. Proper layer dropout saves up to about 20% training FLOPs and enables post-training early-exit/layer-skipping/self-speculative decoding with up to about 1.4x inference speedup. ICML Downloads and author pages confirm acceptance.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Speculative Decoding",
+      "Sparsity / Pruning",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "Dr. Kernel: Reinforcement Learning Done Right for Triton Kernel Generations",
     "venue": "ICML 2026",
     "topic": "GPU kernel generation / Triton / distributed RL infrastructure / kernel optimization",
@@ -9314,6 +9336,26 @@
       "Distributed Training / Inference",
       "Multimodal / MLLM Serving",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Efficient Multi-Agent Reasoning via Confidence-Guided Adaptive Debate",
+    "venue": "ICML 2026",
+    "topic": "efficient reasoning / multi-agent systems / inference token efficiency",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICML2026_EFFICIENT_MULTI_AGENT_REASONING_VIA_CONFIDENCE_GUIDED_ADAPTIVE_DEBATE",
+    "paper_url": "https://www.lgresearch.ai/publication/view?seq=174",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 direct efficient-reasoning work. LASE selectively invokes asymmetric leader-supporter debate only in informative regimes, reaching multi-agent-level reasoning performance at near single-agent token cost; LG AI Research and author/lab pages confirm ICML 2026 acceptance.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -9694,6 +9736,31 @@
       "LLM Serving",
       "Sparsity / Pruning",
       "Video / Image Generation"
+    ]
+  },
+  {
+    "title": "FlashBlock: Attention Caching for Efficient Long-Context Block Diffusion",
+    "venue": "ICML 2026",
+    "topic": "diffusion language/video generation / attention caching / long-context inference",
+    "arxiv": "2602.05305",
+    "doi": "",
+    "official_id": "2602.05305",
+    "paper_url": "https://arxiv.org/abs/2602.05305",
+    "code_url": "https://caesarhhh.github.io/FlashBlock/",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 direct inference-acceleration work. FlashBlock caches stable block-external attention across diffusion steps, reducing repeated attention compute and KV access; reports up to 1.44x token throughput and 1.6x attention-time reduction with negligible quality loss. Official project/lab page confirms ICML 2026.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler",
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
@@ -10913,6 +10980,26 @@
       "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "PRAC: Principal-Random Subspace for LLM Activation Compression and Memory-Efficient Training",
+    "venue": "ICML 2026",
+    "topic": "distributed training / activation compression / memory-efficient LLM training",
+    "arxiv": "2602.23111",
+    "doi": "",
+    "official_id": "2602.23111",
+    "paper_url": "https://arxiv.org/abs/2602.23111",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 direct memory-efficient LLM training work. PRAC decomposes activations into principal and random subspaces, yields an unbiased low-variance gradient estimator, and reports up to 36% total memory reduction with negligible quality loss. ICML Downloads and senior-author publication page confirm acceptance.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Distributed Training / Inference"
     ]
   },
   {
