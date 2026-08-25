@@ -11686,6 +11686,27 @@
     ]
   },
   {
+    "title": "SINQ: Sinkhorn-Normalized Quantization for Calibration-Free Low-Precision LLM Weights",
+    "venue": "ICML 2026",
+    "topic": "quantization / low-precision LLM inference / calibration-free PTQ / edge deployment",
+    "arxiv": "2509.22944",
+    "doi": "",
+    "official_id": "2509.22944",
+    "paper_url": "https://arxiv.org/abs/2509.22944",
+    "code_url": "https://github.com/huawei-csl/SINQ",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 direct LLM quantization work. SINQ uses dual-axis scaling with Sinkhorn-style normalization to make low-precision weight quantization calibration-free, improves low-bit perplexity over uncalibrated uniform baselines, quantizes Qwen3-14B in about 21 seconds and DeepSeek-V2.5-236B in about 5 minutes according to the official Huawei repository, and is integrated into Hugging Face Transformers. Official ICML Downloads inventory and Huawei repository confirm ICML 2026 acceptance.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "SLAT: Segment-Level Adaptive Trimming for Efficient CoT Reasoning",
     "venue": "ICML 2026",
     "topic": "efficient reasoning / chain-of-thought compression / RL / inference compute reduction",
