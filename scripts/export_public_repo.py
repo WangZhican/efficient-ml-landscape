@@ -61,11 +61,19 @@ def code_for(r):
     return ""
 
 
+def _kw_match(blob, kw):
+    # Short acronym keywords (e.g. DiT) must match as standalone tokens;
+    # naive substring matching misclassified words such as "distributed" as DiT.
+    if len(kw) <= 3 and kw.isalnum():
+        return re.search(rf"(?<![a-z0-9]){re.escape(kw)}(?![a-z0-9])", blob) is not None
+    return kw in blob
+
+
 def classify(r):
     blob = " ".join([r.get("title", ""), r.get("topic", ""), r.get("venue", ""), r.get("why", "")]).lower()
     hits = []
     for slug, name, kws in DIRECTIONS:
-        if any(k in blob for k in kws):
+        if any(_kw_match(blob, k) for k in kws):
             hits.append((slug, name))
     if not hits:
         # Keep every paper visible even when taxonomy metadata is still coarse.

@@ -2195,8 +2195,7 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "KV Cache / Long Context",
-      "Diffusion / Flow Acceleration"
+      "KV Cache / Long Context"
     ]
   },
   {
@@ -2305,7 +2304,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference",
       "Multimodal / MLLM Serving"
     ]
@@ -2432,8 +2430,7 @@
     "directions": [
       "LLM Serving",
       "Multimodal / MLLM Serving",
-      "Efficient Reasoning / Agents",
-      "Edge / Cloud / Heterogeneous AI"
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -2496,7 +2493,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving",
       "Multimodal / MLLM Serving",
       "Edge / Cloud / Heterogeneous AI"
     ]
@@ -4121,8 +4117,7 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "Speculative Decoding",
-      "Diffusion / Flow Acceleration"
+      "Speculative Decoding"
     ]
   },
   {
@@ -4597,8 +4592,7 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "KV Cache / Long Context",
-      "Diffusion / Flow Acceleration"
+      "KV Cache / Long Context"
     ]
   },
   {
@@ -5065,7 +5059,6 @@
     "tracking_tier": "Canonical",
     "directions": [
       "MoE Systems / Accelerators",
-      "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference"
     ]
   },
@@ -5086,7 +5079,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference",
       "Multimodal / MLLM Serving"
     ]
@@ -6609,8 +6601,7 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "Efficient Reasoning / Agents",
-      "Edge / Cloud / Heterogeneous AI"
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -7121,8 +7112,7 @@
     "tracking_tier": "Canonical",
     "directions": [
       "GPU Kernel / DSL / Compiler",
-      "Diffusion / Flow Acceleration",
-      "VLA / WAM / Physical AI"
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
@@ -7277,8 +7267,7 @@
     "tracking_tier": "Canonical",
     "directions": [
       "KV Cache / Long Context",
-      "GPU Kernel / DSL / Compiler",
-      "Edge / Cloud / Heterogeneous AI"
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {
@@ -7542,8 +7531,7 @@
     "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving",
-      "Speculative Decoding",
-      "Diffusion / Flow Acceleration"
+      "Speculative Decoding"
     ]
   },
   {
@@ -7710,8 +7698,7 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "Sparsity / Pruning",
-      "Edge / Cloud / Heterogeneous AI"
+      "Sparsity / Pruning"
     ]
   },
   {
@@ -8274,7 +8261,6 @@
     "directions": [
       "LLM Serving",
       "Quantization",
-      "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference"
     ]
   },
@@ -8415,8 +8401,7 @@
       "Efficient Attention",
       "Distributed Training / Inference",
       "Video / Image Generation",
-      "Diffusion / Flow Acceleration",
-      "Edge / Cloud / Heterogeneous AI"
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
@@ -8760,7 +8745,6 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Quantization",
-      "Diffusion / Flow Acceleration",
       "Edge / Cloud / Heterogeneous AI"
     ]
   },
@@ -8781,8 +8765,7 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "Speculative Decoding",
-      "Diffusion / Flow Acceleration"
+      "Speculative Decoding"
     ]
   },
   {
@@ -8907,9 +8890,29 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "DASH: Faster Shampoo via Batched Block Preconditioning and Efficient Inverse-Root Solvers",
+    "venue": "ICML 2026",
+    "topic": "distributed training / optimizer systems / GPU-aware second-order optimization / LLM pretraining efficiency",
+    "arxiv": "2602.02016",
+    "doi": "",
+    "official_id": "2602.02016",
+    "paper_url": "https://arxiv.org/abs/2602.02016",
+    "code_url": "https://github.com/IST-DASLab/DASH",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 main-conference paper. GPU-aware Distributed Shampoo implementation stacks preconditioner blocks into 3D tensors and uses faster inverse-root solvers; reports up to 4.83x faster optimizer steps in the paper (and 5.6x in the official repository GPU-stacked implementation) versus optimized Distributed Shampoo, with official open-source code.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
     ]
   },
   {
@@ -9550,8 +9553,7 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving",
-      "Diffusion / Flow Acceleration"
+      "LLM Serving"
     ]
   },
   {
@@ -9618,8 +9620,7 @@
       "KV Cache / Long Context",
       "Sparsity / Pruning",
       "Efficient Attention",
-      "Video / Image Generation",
-      "Diffusion / Flow Acceleration"
+      "Video / Image Generation"
     ]
   },
   {
@@ -10233,8 +10234,7 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "Distributed Training / Inference",
-      "Edge / Cloud / Heterogeneous AI"
+      "Distributed Training / Inference"
     ]
   },
   {
@@ -10257,7 +10257,6 @@
       "Sparsity / Pruning",
       "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference",
-      "Diffusion / Flow Acceleration",
       "Efficient Reasoning / Agents"
     ]
   },
@@ -10744,8 +10743,7 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Quantization",
-      "Distributed Training / Inference",
-      "Diffusion / Flow Acceleration"
+      "Distributed Training / Inference"
     ]
   },
   {
@@ -10914,8 +10912,7 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "MoE Systems / Accelerators",
-      "Diffusion / Flow Acceleration"
+      "MoE Systems / Accelerators"
     ]
   },
   {
@@ -11190,8 +11187,7 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "Quantization",
-      "Diffusion / Flow Acceleration"
+      "Quantization"
     ]
   },
   {
@@ -11342,8 +11338,7 @@
     "directions": [
       "LLM Serving",
       "GPU Kernel / DSL / Compiler",
-      "Distributed Training / Inference",
-      "Edge / Cloud / Heterogeneous AI"
+      "Distributed Training / Inference"
     ]
   },
   {
@@ -12063,7 +12058,6 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Multimodal / MLLM Serving",
-      "Diffusion / Flow Acceleration",
       "Efficient Reasoning / Agents",
       "VLA / WAM / Physical AI"
     ]
@@ -12153,8 +12147,7 @@
     "directions": [
       "Sparsity / Pruning",
       "Multimodal / MLLM Serving",
-      "VLA / WAM / Physical AI",
-      "Edge / Cloud / Heterogeneous AI"
+      "VLA / WAM / Physical AI"
     ]
   },
   {
@@ -13252,8 +13245,7 @@
     "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving",
-      "Speculative Decoding",
-      "Diffusion / Flow Acceleration"
+      "Speculative Decoding"
     ]
   },
   {
@@ -14793,7 +14785,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "GPU Kernel / DSL / Compiler",
       "Edge / Cloud / Heterogeneous AI"
     ]
   },
@@ -16158,7 +16149,6 @@
     "directions": [
       "LLM Serving",
       "Distributed Training / Inference",
-      "Diffusion / Flow Acceleration",
       "Edge / Cloud / Heterogeneous AI"
     ]
   },
@@ -16201,8 +16191,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving",
-      "Diffusion / Flow Acceleration",
       "Edge / Cloud / Heterogeneous AI"
     ]
   },
@@ -16394,8 +16382,7 @@
     "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving",
-      "Distributed Training / Inference",
-      "Diffusion / Flow Acceleration"
+      "Distributed Training / Inference"
     ]
   },
   {
@@ -17359,8 +17346,7 @@
     "directions": [
       "LLM Serving",
       "GPU Kernel / DSL / Compiler",
-      "Distributed Training / Inference",
-      "Diffusion / Flow Acceleration"
+      "Distributed Training / Inference"
     ]
   },
   {
@@ -17721,7 +17707,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving",
       "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference"
     ]
@@ -18027,7 +18012,6 @@
     "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving",
-      "Diffusion / Flow Acceleration",
       "VLA / WAM / Physical AI"
     ]
   },
@@ -18541,7 +18525,6 @@
     "directions": [
       "KV Cache / Long Context",
       "MoE Systems / Accelerators",
-      "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference"
     ]
   },
@@ -18584,7 +18567,6 @@
     "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving",
-      "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference",
       "Multimodal / MLLM Serving"
     ]
@@ -18760,8 +18742,7 @@
     "directions": [
       "KV Cache / Long Context",
       "MoE Systems / Accelerators",
-      "Distributed Training / Inference",
-      "Diffusion / Flow Acceleration"
+      "Distributed Training / Inference"
     ]
   },
   {
@@ -19303,8 +19284,7 @@
       "KV Cache / Long Context",
       "Sparsity / Pruning",
       "Efficient Attention",
-      "Distributed Training / Inference",
-      "Edge / Cloud / Heterogeneous AI"
+      "Distributed Training / Inference"
     ]
   },
   {
@@ -19809,7 +19789,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "GPU Kernel / DSL / Compiler",
       "Edge / Cloud / Heterogeneous AI"
     ]
   },
@@ -20747,8 +20726,7 @@
       "LLM Serving",
       "KV Cache / Long Context",
       "MoE Systems / Accelerators",
-      "GPU Kernel / DSL / Compiler",
-      "Diffusion / Flow Acceleration"
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {
@@ -20812,8 +20790,7 @@
     "directions": [
       "Efficient Attention",
       "MoE Systems / Accelerators",
-      "Distributed Training / Inference",
-      "Diffusion / Flow Acceleration"
+      "Distributed Training / Inference"
     ]
   },
   {
@@ -20858,7 +20835,6 @@
       "KV Cache / Long Context",
       "Distributed Training / Inference",
       "Multimodal / MLLM Serving",
-      "Diffusion / Flow Acceleration",
       "VLA / WAM / Physical AI",
       "Edge / Cloud / Heterogeneous AI"
     ]
@@ -21434,7 +21410,6 @@
     "directions": [
       "GPU Kernel / DSL / Compiler",
       "Multimodal / MLLM Serving",
-      "Diffusion / Flow Acceleration",
       "Efficient Reasoning / Agents",
       "VLA / WAM / Physical AI"
     ]
@@ -21457,7 +21432,6 @@
     "tracking_tier": "P0 · Strong",
     "directions": [
       "GPU Kernel / DSL / Compiler",
-      "Diffusion / Flow Acceleration",
       "Efficient Reasoning / Agents"
     ]
   },
@@ -21479,7 +21453,6 @@
     "tracking_tier": "P0 · Strong",
     "directions": [
       "Multimodal / MLLM Serving",
-      "Diffusion / Flow Acceleration",
       "VLA / WAM / Physical AI"
     ]
   },
@@ -21526,8 +21499,7 @@
       "Efficient Attention",
       "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference",
-      "Diffusion / Flow Acceleration",
-      "Edge / Cloud / Heterogeneous AI"
+      "Diffusion / Flow Acceleration"
     ]
   },
   {

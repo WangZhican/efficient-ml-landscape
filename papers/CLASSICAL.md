@@ -1,10 +1,10 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **952 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **953 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
-## ICML 2026 · 240
+## ICML 2026 · 241
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -49,6 +49,7 @@
 | **Canonical** | **CSD: Content-aware Speculative Decoding for Efficient Image Generation** | ICML 2026 | speculative decoding / autoregressive image generation / inference acceleration | [Link](https://arxiv.org/abs/2606.27829) | [Repo](https://github.com/aderfebr/CSD) |
 | **Canonical** | **D3: Dynamic Directional Graph-Constrained Data Scheduling for LLM Training** | ICML 2026 | LLM training efficiency / data scheduling / pretraining and post-training / graph-constrained optimization | [Link](https://arxiv.org/abs/2605.31164) | [Repo](https://github.com/xuyj233/D3) |
 | **Canonical** | **DARTS: Distribution-Aware Active Rollout Trajectory Shaping for Accelerating LLM Reinforcement Learning** | ICML 2026 | LLM RL systems / rollout efficiency / distributed post-training | [Link](https://arxiv.org/abs/2605.30859) | [Repo](https://github.com/AFDWang/DARTS) |
+| **Canonical** | **DASH: Faster Shampoo via Batched Block Preconditioning and Efficient Inverse-Root Solvers** | ICML 2026 | distributed training / optimizer systems / GPU-aware second-order optimization / LLM pretraining efficiency | [Link](https://arxiv.org/abs/2602.02016) | [Repo](https://github.com/IST-DASLab/DASH) |
 | **Canonical** | **De-Linearizing Agent Traces: Bayesian Inference of Latent Partial Orders for Efficient Execution** | ICML 2026 | efficient agent systems / parallel agent execution / workflow compilation / context pruning | [Link](https://arxiv.org/abs/2602.02806) | [Repo](https://bpopagent.live/) |
 | **Canonical** | **Decouple and Cache: KV Cache Construction for Streaming Video Understanding** | ICML 2026 | multimodal serving / streaming video / KV cache | [Link](https://arxiv.org/abs/2605.01858) | [Repo](https://github.com/pangzhan27/DSCache) |
 | **Canonical** | **DELTA4: Sparse Matrix-Vector Multiplication for Low Sparsity** | ICML 2026 | sparsity / pruning / GPU SpMV kernel / sparse LLM inference | [Link](https://arxiv.org/abs/2511.13061) | [Repo](https://github.com/vlejd/macko_spmv) |
