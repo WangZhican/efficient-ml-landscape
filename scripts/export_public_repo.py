@@ -40,7 +40,7 @@ def link_for(r):
     arxiv = (r.get("arxiv") or "").strip()
     if arxiv:
         return f"https://arxiv.org/abs/{arxiv}"
-    for key in ("official_url", "official_page"):
+    for key in ("paper_url", "official_url", "official_page"):
         v = (r.get(key) or "").strip()
         if v.startswith("http"):
             return v

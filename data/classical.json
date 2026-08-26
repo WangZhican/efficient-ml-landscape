@@ -11874,6 +11874,27 @@
     ]
   },
   {
+    "title": "PsumQuant: In-line Post-training Partial Sum Quantizer for Energy Efficient NPU Inference",
+    "venue": "ICML 2026",
+    "topic": "quantization / NPU inference / partial-sum quantization / edge AI / energy-efficient accelerator",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "6Qbb6IcCVy",
+    "paper_url": "https://openreview.net/forum?id=6Qbb6IcCVy",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 regular paper confirmed by the official ICML Downloads inventory and Korea University IDS Lab publication page. PsumQuant performs input-aware post-training partial-sum quantization for tiled NPUs, compressing psums to 8-bit with small accuracy/perplexity loss and reporting about 45% total-energy reduction, directly filling quantization + edge/NPU architecture coverage.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "PuzzleMoE: Efficient Compression of Large Mixture-of-Experts Models via Sparse Expert Merging and Bit-packed inference",
     "venue": "ICML 2026",
     "topic": "MoE compression / sparse expert merging / bit-packed inference",
