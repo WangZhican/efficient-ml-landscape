@@ -8500,6 +8500,27 @@
     ]
   },
   {
+    "title": "Bounded Hyperbolic Tangent: A Stable and Efficient Alternative to Pre-Layer Normalization in Large Language Models",
+    "venue": "ICML 2026",
+    "topic": "distributed training / LLM pretraining efficiency / normalization / inference throughput",
+    "arxiv": "2601.09719",
+    "doi": "",
+    "official_id": "2601.09719",
+    "paper_url": "https://arxiv.org/abs/2601.09719",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Listed in the ICML 2026 official inventory. BHyT replaces repeated Pre-LN statistics with bounded tanh plus lightweight variance approximation; reports 15.8% faster training and 4.2% higher token-generation throughput than RMSNorm while preserving model quality.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "BPDQ: Bit-Plane Decomposition Quantization on a Variable Grid for Large Language Models",
     "venue": "ICML 2026",
     "topic": "quantization / low-bit PTQ / 2-bit LLM inference / memory-bound serving / edge deployment",
@@ -12584,6 +12605,27 @@
     ]
   },
   {
+    "title": "Selective Deferred Routing: Enabling Cost-Efficient Collaboration between Local SLMs and Remote LLMs",
+    "venue": "ICML 2026",
+    "topic": "LLM serving / edge-cloud heterogeneous AI / cost-aware model routing / local SLM remote LLM collaboration",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "",
+    "paper_url": "https://people.iiis.tsinghua.edu.cn/~fang/publication.html",
+    "code_url": "https://github.com/miaoqijun/SDR",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. Uses the local SLM response and hidden states to decide whether to return locally or selectively route to the most suitable remote LLM, directly optimizing the monetary-cost versus task-performance frontier for heterogeneous local/cloud inference.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "SEMA: a Scalable and Efficient Mamba like Attention via Token Localization and Averaging",
     "venue": "ICML 2026",
     "topic": "efficient attention / Mamba-like attention / scalable vision transformer",
@@ -13250,6 +13292,27 @@
     "directions": [
       "GPU Kernel / DSL / Compiler",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "STLA: Spatiotemporal Lookahead Alignment for Post-Training Quantization",
+    "venue": "ICML 2026",
+    "topic": "quantization / low-bit LLM PTQ / adaptive rounding / Hessian-guided compensation",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "",
+    "paper_url": "https://openreview.net/forum?id=d3RFDLBw01",
+    "code_url": "https://github.com/AI2C-Lab/STLA",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Poster. Aligns learning-based rounding and compensation in time and space with Hessian-guided clustering and a Schur-complement lookahead objective, targeting fast and accurate low-bit LLM post-training quantization.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "Distributed Training / Inference"
     ]
   },
   {
