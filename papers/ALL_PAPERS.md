@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **1048 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **279 visible papers = 50 P0 + 108 P1 + 121 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1050 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **279 visible papers = 50 P0 + 108 P1 + 121 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -302,9 +302,9 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 998
+## 🏛️ Classical / Historical · 1000
 
-### ICML 2026 · 286
+### ICML 2026 · 288
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -421,6 +421,7 @@
 | **Canonical** | **Improving Visual Token Reduction via Rectifying Distortions for Efficient Multimodal LLM Inference** | ICML 2026 | multimodal / MLLM inference / visual token reduction / token merging | [Link](https://arxiv.org/abs/2606.01711) | [Repo](https://github.com/cvlab-yonsei/RESTORE) |
 | **Canonical** | **IndexMem: Learned KV-Cache Eviction with Latent Memory for Long-Context LLM Inference** | ICML 2026 | KV cache eviction / latent memory / bounded-memory long-context inference | [Link](https://arxiv.org/abs/2605.25475) | — |
 | **Canonical** | **InfoFlow KV: Information-Flow-Aware KV Recomputation for Long Context** | ICML 2026 | KV cache / long-context RAG / selective recomputation | [Link](https://arxiv.org/abs/2603.05353) | [Repo](https://github.com/Canyu-Zhang/kv-cache-optimization) |
+| **Canonical** | **INT vs. FP: A Comprehensive Study of Fine-Grained Low-bit Quantization Formats** | ICML 2026 | quantization / fine-grained low-bit formats / MXINT / MXFP / NVINT / NVFP / hardware-algorithm co-design | [Link](https://arxiv.org/abs/2510.25602) | — |
 | **Canonical** | **IO-Adam: Rethinking Memory-Efficient Adaptive Optimizers from Gradient Computation** | ICML 2026 | distributed training / memory-efficient optimizer / gradient decomposition | [Link](https://openreview.net/forum?id=z0m3EhzhOH) | [Repo](https://github.com/Ytchen981/IO_Adam) |
 | **Canonical** | **KernelBand: Steering LLM-based Kernel Optimization via Hardware-Aware Multi-Armed Bandits** | ICML 2026 | GPU kernel / LLM code generation / hardware-aware optimization / agentic compiler systems | [Link](https://arxiv.org/abs/2511.18868) | [Repo](https://github.com/TongmingLAIC/KernelBand) |
 | **Canonical** | **KernelCraft: Benchmarking for Agentic Close-to-Metal Kernel Generation on Emerging Hardware** | ICML 2026 | GPU/NPU kernel / compiler / agentic code generation / emerging accelerators | [Link](https://arxiv.org/abs/2603.08721) | — |
@@ -523,6 +524,7 @@
 | **Canonical** | **Scalable Power Sampling: Unlocking Efficient, Training-Free Reasoning for LLMs via Distribution Sharpening** | ICML 2026 | efficient reasoning / test-time inference / training-free sampling | [Link](https://arxiv.org/abs/2601.21590) | — |
 | **Canonical** | **SCALE: Self-uncertainty Conditioned Adaptive Looking and Execution for Vision-Language-Action Models** | ICML 2026 | Physical AI / VLA inference / test-time scaling / single-pass adaptive execution | [Link](https://arxiv.org/abs/2602.04208) | [Repo](https://github.com/snumprlab/scale) |
 | **Canonical** | **ScaleSim: Serving Large-Scale Multi-Agent Simulation with Invocation Distance-Based Memory Management** | ICML 2026 | agent serving / multi-agent simulation / GPU memory management / prefetching and eviction | [Link](https://arxiv.org/abs/2601.21473) | — |
+| **Canonical** | **Scaling Law for Quantization-Aware Training** | ICML 2026 | quantization / W4A4 QAT / scaling laws / model-data-granularity co-design / low-bit training | [Link](https://arxiv.org/abs/2505.14302) | — |
 | **Canonical** | **Scheduling LLM Inference with Uncertainty-Aware Output Length Predictions** | ICML 2026 | LLM serving / uncertainty-aware scheduling / output-length prediction | [Link](https://arxiv.org/abs/2604.00499) | [Repo](https://github.com/Hyzheng-code/TIE) |
 | **Canonical** | **Scout Before You Attend: Sketch-and-Walk Sparse Attention for Efficient LLM Inference** | ICML 2026 | efficient attention / long-context inference | [Link](https://arxiv.org/abs/2602.07397) | — |
 | **Canonical** | **See What Matters: Differentiable Grid Sample Pruning for Generalizable Vision-Language-Action Model** | ICML 2026 | Physical AI / VLA / visual-token pruning / geometry-aware resampling | [Link](https://arxiv.org/abs/2605.11817) | [Repo](https://github.com/Fediory/Grid-Sampler) |

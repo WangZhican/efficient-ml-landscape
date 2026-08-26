@@ -10416,6 +10416,26 @@
     ]
   },
   {
+    "title": "INT vs. FP: A Comprehensive Study of Fine-Grained Low-bit Quantization Formats",
+    "venue": "ICML 2026",
+    "topic": "quantization / fine-grained low-bit formats / MXINT / MXFP / NVINT / NVFP / hardware-algorithm co-design",
+    "arxiv": "2510.25602",
+    "doi": "",
+    "official_id": "2510.25602",
+    "paper_url": "https://arxiv.org/abs/2510.25602",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. Systematically compares fine-grained INT and FP quantization formats across granularities, showing an accuracy/efficiency crossover and that MXINT8 can outperform MXFP8 while offering better area/energy efficiency; also introduces symmetric clipping for nearly lossless MXINT8 low-bit training.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization"
+    ]
+  },
+  {
     "title": "IO-Adam: Rethinking Memory-Efficient Adaptive Optimizers from Gradient Computation",
     "venue": "ICML 2026",
     "topic": "distributed training / memory-efficient optimizer / gradient decomposition",
@@ -12623,6 +12643,26 @@
       "LLM Serving",
       "GPU Kernel / DSL / Compiler",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "Scaling Law for Quantization-Aware Training",
+    "venue": "ICML 2026",
+    "topic": "quantization / W4A4 QAT / scaling laws / model-data-granularity co-design / low-bit training",
+    "arxiv": "2505.14302",
+    "doi": "",
+    "official_id": "2505.14302",
+    "paper_url": "https://arxiv.org/abs/2505.14302",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Spotlight. Builds a unified QAT scaling law from 268 experiments over model size, training-token count and quantization group size, identifies activation/weight error bottlenecks for W4A4, and provides actionable guidance for mixed-precision low-bit training and deployment.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization"
     ]
   },
   {

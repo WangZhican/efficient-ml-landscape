@@ -1,6 +1,6 @@
 # 04 · Quantization
 
-> **151 canonical papers** mapped here, plus a broader **46-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **153 canonical papers** mapped here, plus a broader **46-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -55,7 +55,7 @@
 | **P2 · Relevant** | **A Motion-Aware Vector Quantization Framework with Centroid Reuse for Efficient VLA Inference** | Fresh / preprint | llm_serving / quant / multimodal / physical | [Link](https://arxiv.org/abs/2607.24148) | — |
 | **P1 · Watch** | **Sparse by Command: Task-Conditional Compute Skipping for Multi-Task Inference Accelerators** | Fresh / preprint | llm_serving / quant / sparse / gen / edge | [Link](https://arxiv.org/abs/2607.22038) | — |
 
-## 🏛️ Classical / Historical · 142 canonical
+## 🏛️ Classical / Historical · 144 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -127,6 +127,7 @@
 | **Canonical** | **FourTune: Towards Fully 4-Bit Efficient Post-Training for Diffusion Models** | ICML 2026 | diffusion model post-training / W4A4G4 quantization / fused kernels / training efficiency | [Link](https://arxiv.org/abs/2607.05711) | — |
 | **Canonical** | **FPTQuant: Function-Preserving Transforms for LLM Quantization** | ICML 2026 | LLM quantization / INT4 / function-preserving transforms / activation outlier mitigation / inference acceleration | [Link](https://arxiv.org/abs/2506.04985) | — |
 | **Canonical** | **GSRQ: Gain-Shape Residual Quantization for Sub-1-bit KV Cache** | ICML 2026 | KV cache / long-context / sub-1-bit quantization / residual vector quantization | [Link](https://arxiv.org/abs/2607.01065) | — |
+| **Canonical** | **INT vs. FP: A Comprehensive Study of Fine-Grained Low-bit Quantization Formats** | ICML 2026 | quantization / fine-grained low-bit formats / MXINT / MXFP / NVINT / NVFP / hardware-algorithm co-design | [Link](https://arxiv.org/abs/2510.25602) | — |
 | **Canonical** | **LATMiX: Learnable Affine Transformations for Microscaling Quantization of LLMs** | ICML 2026 | quantization / microscaling MX / learnable affine transforms / low-bit LLM inference | [Link](https://arxiv.org/abs/2602.17681) | — |
 | **Canonical** | **LC-QAT: Data-Efficient 2-Bit QAT for LLMs via Linear-Constrained Vector Quantization** | ICML 2026 | LLM quantization / 2-bit QAT / vector quantization / efficient deployment | [Link](https://arxiv.org/abs/2606.10531) | [Repo](https://github.com/backspacetg/unisvq) |
 | **Canonical** | **LFQ: Logit-aware Final-block Quantization for Boosting the Generation Quality of Low-Bit Quantized LLMs** | ICML 2026 | LLM quantization / PTQ / long-form generation quality | [Link](https://arxiv.org/abs/2605.29756) | — |
@@ -155,6 +156,7 @@
 | **Canonical** | **RobuQ: Pushing DiTs to W1.58A2 via Robust Activation Quantization** | ICML 2026 | quantization / diffusion transformer / ternary weights / ultra-low-bit inference | [Link](https://arxiv.org/abs/2509.23582) | [Repo](https://github.com/racoonykc/RobuQ) |
 | **Canonical** | **S-Quant: Rethinking Weight Quantization with Seed-Based Generation** | ICML 2026 | quantization / low-bit LLM inference / weight compression / hardware-aware acceleration | [Link](https://openreview.net/forum?id=HbopJMswYa) | — |
 | **Canonical** | **SALE : Low-bit Estimation for Efficient Sparse Attention in Long-context LLM Prefilling** | ICML 2026 | efficient attention / low-bit estimation / long-context prefill | [Link](https://arxiv.org/abs/2505.24179) | — |
+| **Canonical** | **Scaling Law for Quantization-Aware Training** | ICML 2026 | quantization / W4A4 QAT / scaling laws / model-data-granularity co-design / low-bit training | [Link](https://arxiv.org/abs/2505.14302) | — |
 | **Canonical** | **SINQ: Sinkhorn-Normalized Quantization for Calibration-Free Low-Precision LLM Weights** | ICML 2026 | quantization / low-precision LLM inference / calibration-free PTQ / edge deployment | [Link](https://arxiv.org/abs/2509.22944) | [Repo](https://github.com/huawei-csl/SINQ) |
 | **Canonical** | **STAR-KV: Low-Rank KV Cache Compression via Soft Thresholding for Adaptive Rank Control** | ICML 2026 | KV cache / low-rank compression / mixed-precision quantization / Triton kernel | [Link](https://arxiv.org/abs/2606.08382) | [Repo](https://github.com/PriyanshBhatnagar/STAR-KV) |
 | **Canonical** | **STLA: Spatiotemporal Lookahead Alignment for Post-Training Quantization** | ICML 2026 | quantization / low-bit LLM PTQ / adaptive rounding / Hessian-guided compensation | [Link](https://openreview.net/forum?id=d3RFDLBw01) | [Repo](https://github.com/AI2C-Lab/STLA) |

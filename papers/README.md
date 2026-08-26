@@ -1,10 +1,10 @@
 # 🧭 Research Map
 
-> **1048 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
+> **1050 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
 
 <div align="center">
 
-[**🆕 Latest 30 Days · 279 tracked**](LATEST_30D.md) · [**🏛️ Classical · 998**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
+[**🆕 Latest 30 Days · 279 tracked**](LATEST_30D.md) · [**🏛️ Classical · 1000**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
 
 </div>
 
@@ -15,7 +15,7 @@
 | 01 | [**LLM Serving**](01-llm-serving.md) | **403** | **201** |
 | 02 | [**Speculative Decoding**](02-speculative-decoding.md) | **142** | **22** |
 | 03 | [**KV Cache / Long Context**](03-kv-cache-long-context.md) | **275** | **46** |
-| 04 | [**Quantization**](04-quantization.md) | **151** | **46** |
+| 04 | [**Quantization**](04-quantization.md) | **153** | **46** |
 | 05 | [**Sparsity / Pruning**](05-sparsity-pruning.md) | **168** | **58** |
 | 06 | [**Efficient Attention**](06-efficient-attention.md) | **156** | **42** |
 | 07 | [**MoE Systems / Accelerators**](07-moe-systems.md) | **74** | **28** |
