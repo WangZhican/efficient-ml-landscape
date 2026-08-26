@@ -1,6 +1,6 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **202 canonical papers** mapped here, plus a broader **87-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **205 canonical papers** mapped here, plus a broader **87-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -96,7 +96,7 @@
 | **P2 · Relevant** | **HEMERA: A Heterogeneous Memory-Centric Accelerator with Recursive Dataflow for Edge-Constrained State-Space-Duality Models Inference** | Fresh / preprint | llm_serving / edge | [Link](https://arxiv.org/abs/2607.22022) | — |
 | **P2 · Relevant** | **Unified Static-Dynamic Pruning for Efficient LLM Inference** | Fresh / preprint | llm_serving / sparse / kernel / edge | [Link](https://arxiv.org/abs/2607.21985) | — |
 
-## 🏛️ Classical / Historical · 191 canonical
+## 🏛️ Classical / Historical · 194 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -113,6 +113,7 @@
 | **Canonical** | **STARC: Selective Token Access with Remapping and Clustering for Efficient LLM Decoding on PIM Systems** | ASPLOS 2026 | sparse attention / PIM / KV cache | [Link](https://doi.org/10.1145/3779212.3790226) | — |
 | **Canonical** | **SuperOffload: Unleashing the Power of Large-Scale LLM Training on Superchips** | ASPLOS 2026 | distributed LLM training / heterogeneous superchip offload | [Link](https://arxiv.org/abs/2509.21271) | [Repo](https://supercomputing-system-ai-lab.github.io/projects/superoffload/) |
 | **Canonical** | **TetriServe: Efficiently Serving Mixed DiT Workloads** | ASPLOS 2026 | diffusion/DiT serving / scheduling | [Link](https://arxiv.org/abs/2510.01565) | — |
+| **Canonical** | **CITER: Collaborative Inference for Efficient Large Language Model Decoding with Token-Level Routing** | COLM 2025 | collaborative inference / token-level routing / efficient decoding | [Link](https://arxiv.org/abs/2502.01976) | [Repo](https://github.com/aiming-lab/CITER) |
 | **Canonical** | **Mixture of Attention Spans: Optimizing LLM Inference Efficiency with Heterogeneous Sliding-Window Lengths** | COLM 2025 | sparse attention / long-context inference / KV cache compression | [Link](https://arxiv.org/abs/2406.14909) | [Repo](https://github.com/thu-nics/MoA) |
 | **Canonical** | **OverFill: Two-Stage Models for Efficient Language Model Decoding** | COLM 2025 | efficient LLM decoding / stage-specialized model | [Link](https://arxiv.org/abs/2508.08446) | — |
 | **Canonical** | **PredGen: Accelerated Inference of Large Language Models through Input-Time Speculation for Real-Time Speech Interaction** | COLM 2025 | speculative decoding / real-time speech interaction / input-time speculation | [Link](https://arxiv.org/abs/2506.15556) | — |
@@ -203,6 +204,7 @@
 | **Canonical** | **MLX: Multi-Layer Execution for Structured LLM Workload Acceleration on Spatial Architectures** | ISCA 2026 | LLM workload accelerator / spatial architecture / multi-layer execution | — | — |
 | **Canonical** | **OASIS: Outlier-Aware LUT-Based GEMM with Dual-Side Quantization for LLM Inference Acceleration** | ISCA 2026 | edge speculative reasoning + quantization + memory-system + generative inference accelerators | [Link](https://arxiv.org/abs/2507.23035) | — |
 | **Canonical** | **P3-LLM: An Integrated NPU-PIM Accelerator for Edge LLM Inference Using Hybrid Numerical Formats** | ISCA 2026 | edge LLM / PIM / mixed precision | [Link](https://arxiv.org/abs/2511.06838) | — |
+| **Canonical** | **Power Sloshing in Compound Servers for Large-Scale AI Inference Workloads** | ISCA 2026 | AI inference infrastructure / server power management / production systems | — | — |
 | **Canonical** | **Raptor** | ISCA 2026 | edge speculative reasoning + quantization + memory-system + generative inference accelerators | — | — |
 | **Canonical** | **SHyLA: 3D-Stacked NVM-DRAM Hybrid LLM-Inference Architecture Exploiting Data and Memory Heterogeneity** | ISCA 2026 | edge speculative reasoning + quantization + memory-system + generative inference accelerators | — | — |
 | **Canonical** | **SLICE: A Selective Local Inference Framework with Codec Exploitation for Accelerating Video Super-Resolution** | ISCA 2026 | video inference acceleration / selective local inference / edge systems | — | — |
@@ -256,6 +258,7 @@
 | **Canonical** | **Machine Learning-Guided Memory Optimization for DLRM Inference on Tiered Memory** | SC 2025 | DLRM inference / tiered memory / ML-guided caching-prefetching | [Link](https://arxiv.org/abs/2511.08568) | — |
 | **Canonical** | **AoRA: AI-on-RAN for Backhaul-free Edge Inference** | SIGCOMM 2025 | edge AI inference / AI-on-RAN / heterogeneous GPU-NPU infrastructure | [Link](https://doi.org/10.1145/3718958.3750517) | — |
 | **Canonical** | **Astral: A Datacenter Infrastructure for Large Language Model Training at Scale** | SIGCOMM 2025 | large-scale LLM training infrastructure / datacenter network / monitoring / performance forecasting | [Link](https://doi.org/10.1145/3718958.3750521) | — |
+| **Canonical** | **100x Cost & Latency Reduction: Performance Analysis of AI Query Approximation using Lightweight Proxy Models** | SIGMOD 2026 | AI query systems / LLM cost and latency reduction / proxy-model acceleration | [Link](https://arxiv.org/abs/2603.15970) | — |
 | **Canonical** | **Beluga: A CXL-Based Memory Architecture for Scalable and Efficient LLM KVCache Management** | SIGMOD 2026 | CXL memory / KV-cache serving | [Link](https://arxiv.org/abs/2511.20172) | — |
 | **Canonical** | **Serving Hybrid LLM Loads with SLO Guarantees Using CPU-GPU Attention Piggybacking** | SIGMOD 2026 | LLM serving / heterogeneous CPU-GPU / SLO scheduling | [Link](https://arxiv.org/abs/2603.12831) | — |
 | **Canonical** | **FedRD: Towards Memory-efficient Federated Learning via Adaptive Recomputation and Defragmentation** | SoCC 2026 | memory-efficient federated learning / adaptive recomputation / edge-cloud AI training | — | — |

@@ -1994,7 +1994,6 @@
       "updated_at": "2026-08-18T15:07:37Z",
       "is_latest_30d": true,
       "directions": [
-        "LLM Serving",
         "KV Cache / Long Context",
         "GPU Kernel / DSL / Compiler",
         "Edge / Cloud / Heterogeneous AI"
@@ -2017,7 +2016,6 @@
       "updated_at": "2026-08-18T12:42:26Z",
       "is_latest_30d": true,
       "directions": [
-        "LLM Serving",
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI"
       ]
@@ -2059,7 +2057,6 @@
       "updated_at": "2026-08-18T07:16:48Z",
       "is_latest_30d": true,
       "directions": [
-        "LLM Serving",
         "Speculative Decoding",
         "Distributed Training / Inference",
         "Efficient Reasoning / Agents"
@@ -2718,7 +2715,6 @@
       "updated_at": "2026-08-04T16:10:59Z",
       "is_latest_30d": true,
       "directions": [
-        "LLM Serving",
         "KV Cache / Long Context",
         "Quantization",
         "Efficient Attention"
@@ -7723,7 +7719,6 @@
       "updated_at": "2026-08-18T15:07:37Z",
       "is_latest_30d": true,
       "directions": [
-        "LLM Serving",
         "KV Cache / Long Context",
         "GPU Kernel / DSL / Compiler",
         "Edge / Cloud / Heterogeneous AI"
@@ -7746,7 +7741,6 @@
       "updated_at": "2026-08-18T12:42:26Z",
       "is_latest_30d": true,
       "directions": [
-        "LLM Serving",
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI"
       ]
@@ -7788,7 +7782,6 @@
       "updated_at": "2026-08-18T07:16:48Z",
       "is_latest_30d": true,
       "directions": [
-        "LLM Serving",
         "Speculative Decoding",
         "Distributed Training / Inference",
         "Efficient Reasoning / Agents"
@@ -8447,7 +8440,6 @@
       "updated_at": "2026-08-04T16:10:59Z",
       "is_latest_30d": true,
       "directions": [
-        "LLM Serving",
         "KV Cache / Long Context",
         "Quantization",
         "Efficient Attention"

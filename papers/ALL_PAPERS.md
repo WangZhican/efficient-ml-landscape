@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **1002 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **262 visible papers = 49 P0 + 93 P1 + 120 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1003 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **262 visible papers = 49 P0 + 93 P1 + 120 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -285,9 +285,9 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 953
+## 🏛️ Classical / Historical · 954
 
-### ICML 2026 · 241
+### ICML 2026 · 242
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -350,6 +350,7 @@
 | **Canonical** | **Dynamic Thinking-Token Selection for Efficient Reasoning in Large Reasoning Models** | ICML 2026 | efficient reasoning / KV cache compression / dynamic thinking-token eviction | [Link](https://arxiv.org/abs/2601.18383) | [Repo](https://github.com/Robin930/DynTS) |
 | **Canonical** | **ECHO: Elastic Speculative Decoding with Sparse Gating for High-Concurrency Scenarios** | ICML 2026 | speculative decoding / high-concurrency LLM serving / SGLang | [Link](https://arxiv.org/abs/2604.09603) | — |
 | **Canonical** | **EchoAttention: Exploiting Token-Pair Redundancy and Frame-Block Similarity for Efficient Video Generation** | ICML 2026 | video generation acceleration / efficient attention / sparse attention | — | — |
+| **Canonical** | **ECO: Quantized Training without Full-Precision Master Weights** | ICML 2026 | quantized LLM training / memory-efficient training / optimizer state reduction / FP8 and INT4 | [Link](https://arxiv.org/abs/2601.22101) | — |
 | **Canonical** | **EcoVLA: Environment-Aware Adaptive Pruning with Interleaved Inference Orchestration for Vision-Language-Action Models** | ICML 2026 | Physical AI / VLA serving / adaptive channel pruning / interleaved inference orchestration | [Link](https://arxiv.org/abs/2602.00780) | — |
 | **Canonical** | **EffGen: Enabling Small Language Models as Capable Autonomous Agents** | ICML 2026 | efficient agent systems / small-model agent runtime / local inference / routing / context compression | [Link](https://arxiv.org/abs/2602.00887) | [Repo](https://github.com/ctrl-gaurav/effGen) |
 | **Canonical** | **Efficient Diffusion LLMs via Temporal-Spatial Parallel Decoding and Confidence Extrapolation** | ICML 2026 | diffusion LLM / parallel decoding / inference acceleration | [Link](https://arxiv.org/abs/2605.30753) | — |

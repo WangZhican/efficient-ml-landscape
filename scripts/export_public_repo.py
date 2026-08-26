@@ -10,7 +10,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 
 DIRECTIONS = [
-    ("01-llm-serving", "LLM Serving", ["serving", "serve", "scheduler", "scheduling", "slo", "batching", "prefill", "decode", "inference system", "goodput", "throughput"]),
+    ("01-llm-serving", "LLM Serving", ["serving", "scheduler", "scheduling", "slo", "batching", "prefill", "decode", "inference system", "goodput", "throughput"]),
     ("02-speculative-decoding", "Speculative Decoding", ["speculative", "draft", "verify", "specdec", "self-spec", "parallel decoding"]),
     ("03-kv-cache-long-context", "KV Cache / Long Context", ["kv cache", "kv-cache", "kvcache", "long-context", "long context", "prefix cache", "cache reuse", "offload", "migration"]),
     ("04-quantization", "Quantization", ["quant", "low-bit", "low bit", "w4a", "int4", "int8", "fp4", "mxfp", "microscaling", "ptq", "qat"]),
@@ -64,7 +64,7 @@ def code_for(r):
 def _kw_match(blob, kw):
     # Short acronym keywords (e.g. DiT) must match as standalone tokens;
     # naive substring matching misclassified words such as "distributed" as DiT.
-    if len(kw) <= 3 and kw.isalnum():
+    if (len(kw) <= 3 and kw.isalnum()) or kw in {"serving"}:
         return re.search(rf"(?<![a-z0-9]){re.escape(kw)}(?![a-z0-9])", blob) is not None
     return kw in blob
 

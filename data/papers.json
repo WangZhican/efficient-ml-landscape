@@ -838,7 +838,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving",
       "KV Cache / Long Context",
       "Quantization",
       "Efficient Reasoning / Agents"
@@ -1157,7 +1156,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving",
       "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
@@ -2155,7 +2153,7 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving"
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -2450,7 +2448,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving",
       "KV Cache / Long Context",
       "GPU Kernel / DSL / Compiler"
     ]
@@ -2557,7 +2554,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving",
       "Quantization",
       "Edge / Cloud / Heterogeneous AI"
     ]
@@ -2993,7 +2989,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving",
       "Efficient Attention",
       "Video / Image Generation"
     ]
@@ -3256,7 +3251,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving",
       "Video / Image Generation"
     ]
   },
@@ -3361,7 +3355,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving",
       "Sparsity / Pruning",
       "Multimodal / MLLM Serving"
     ]
@@ -3725,7 +3718,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving",
       "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
@@ -3791,7 +3783,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving",
       "Efficient Attention",
       "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
@@ -3942,7 +3933,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving",
       "Quantization",
       "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
@@ -6281,7 +6271,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving",
       "KV Cache / Long Context",
       "Distributed Training / Inference"
     ]
@@ -6621,7 +6610,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving",
       "Sparsity / Pruning",
       "Multimodal / MLLM Serving"
     ]
@@ -6663,7 +6651,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving",
       "Quantization"
     ]
   },
@@ -6962,7 +6949,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving",
       "Multimodal / MLLM Serving"
     ]
   },
@@ -8131,7 +8117,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving",
       "Efficient Reasoning / Agents"
     ]
   },
@@ -8217,7 +8202,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving",
       "Efficient Reasoning / Agents"
     ]
   },
@@ -8238,7 +8222,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving",
       "Efficient Reasoning / Agents"
     ]
   },
@@ -8259,7 +8242,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving",
       "Quantization",
       "Distributed Training / Inference"
     ]
@@ -8281,7 +8263,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving",
       "KV Cache / Long Context",
       "Efficient Reasoning / Agents"
     ]
@@ -8396,7 +8377,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving",
       "Sparsity / Pruning",
       "Efficient Attention",
       "Distributed Training / Inference",
@@ -8443,7 +8423,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving",
       "Quantization",
       "Sparsity / Pruning",
       "MoE Systems / Accelerators"
@@ -8847,7 +8826,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving",
       "Speculative Decoding",
       "Video / Image Generation"
     ]
@@ -9243,7 +9221,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving",
       "KV Cache / Long Context",
       "Sparsity / Pruning",
       "Efficient Reasoning / Agents"
@@ -9315,6 +9292,28 @@
       "Efficient Attention",
       "Video / Image Generation",
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "ECO: Quantized Training without Full-Precision Master Weights",
+    "venue": "ICML 2026",
+    "topic": "quantized LLM training / memory-efficient training / optimizer state reduction / FP8 and INT4",
+    "arxiv": "2601.22101",
+    "doi": "",
+    "official_id": "2601.22101",
+    "paper_url": "https://arxiv.org/abs/2601.22101",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 main-conference paper. Error-Compensating Optimizer removes full-precision master weights by applying updates directly to quantized parameters and feeding quantization error into optimizer momentum with no extra memory; validated on FP8 pretraining and INT4 DeepSeek-MoE fine-tuning while preserving near-lossless accuracy and improving the static-memory/validation-loss Pareto frontier.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "MoE Systems / Accelerators",
+      "Distributed Training / Inference"
     ]
   },
   {
@@ -9528,7 +9527,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving",
       "Speculative Decoding",
       "KV Cache / Long Context",
       "Efficient Attention",
@@ -9616,7 +9614,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving",
       "KV Cache / Long Context",
       "Sparsity / Pruning",
       "Efficient Attention",
@@ -9662,7 +9659,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving",
       "Speculative Decoding",
       "KV Cache / Long Context"
     ]
@@ -9684,7 +9680,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving",
       "Quantization",
       "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
@@ -9801,7 +9796,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving",
       "Video / Image Generation"
     ]
   },
@@ -9869,7 +9863,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving",
       "Distributed Training / Inference"
     ]
   },
@@ -10150,7 +10143,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving",
       "Efficient Reasoning / Agents"
     ]
   },
@@ -10342,7 +10334,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving",
       "Speculative Decoding",
       "KV Cache / Long Context",
       "Efficient Attention"
@@ -10718,7 +10709,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving",
       "Quantization",
       "GPU Kernel / DSL / Compiler",
       "Video / Image Generation",
@@ -10887,7 +10877,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving",
       "Sparsity / Pruning",
       "Efficient Attention",
       "GPU Kernel / DSL / Compiler",
@@ -11020,7 +11009,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving",
       "Quantization",
       "GPU Kernel / DSL / Compiler"
     ]
@@ -11569,7 +11557,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving",
       "Speculative Decoding",
       "Quantization",
       "GPU Kernel / DSL / Compiler",
@@ -11594,7 +11581,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving",
       "KV Cache / Long Context",
       "Quantization",
       "Video / Image Generation"
@@ -11682,7 +11668,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving",
       "Sparsity / Pruning",
       "MoE Systems / Accelerators"
     ]
@@ -11818,7 +11803,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving",
       "Efficient Reasoning / Agents"
     ]
   },
@@ -11925,7 +11909,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving",
       "Sparsity / Pruning",
       "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
@@ -12643,7 +12626,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving",
       "KV Cache / Long Context",
       "Sparsity / Pruning",
       "Efficient Attention"
@@ -12732,7 +12714,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving",
       "Speculative Decoding",
       "KV Cache / Long Context",
       "GPU Kernel / DSL / Compiler",
@@ -13016,7 +12997,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving",
       "KV Cache / Long Context",
       "Efficient Attention",
       "Distributed Training / Inference"
@@ -13082,7 +13062,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving",
       "Sparsity / Pruning",
       "Efficient Attention",
       "GPU Kernel / DSL / Compiler",
@@ -13751,7 +13730,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving",
       "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
@@ -14361,7 +14339,7 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving"
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -15364,7 +15342,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving",
       "Sparsity / Pruning",
       "Distributed Training / Inference"
     ]
@@ -16696,7 +16673,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving",
       "KV Cache / Long Context"
     ]
   },
@@ -17880,7 +17856,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving",
       "KV Cache / Long Context",
       "Quantization",
       "Efficient Attention",
@@ -18161,7 +18136,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving",
       "KV Cache / Long Context",
       "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
@@ -18783,7 +18757,7 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving"
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
