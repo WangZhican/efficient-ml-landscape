@@ -13530,6 +13530,47 @@
     ]
   },
   {
+    "title": "TwinQuant: Learnable Subspace Decomposition for 4-Bit LLM Quantization",
+    "venue": "ICML 2026",
+    "topic": "LLM quantization / 4-bit PTQ-QAT style subspace optimization / fused low-rank kernel / inference acceleration",
+    "arxiv": "2606.01556",
+    "doi": "",
+    "official_id": "2606.01556",
+    "paper_url": "https://arxiv.org/abs/2606.01556",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 main-conference paper confirmed by the official ICML Downloads inventory and PEI-Lab publication page. TwinQuant learns quantization-friendly decomposed subspaces and adds a fused dual-component kernel, reporting near-FP16 accuracy with up to 1.8x end-to-end speedup over FP16.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "TWLA: Achieving Ternary Weights and Low-Bit Activations for LLMs via Post-Training Quantization",
+    "venue": "ICML 2026",
+    "topic": "LLM quantization / ternary weights / W1.58A4 PTQ / activation outlier suppression / deployment acceleration",
+    "arxiv": "2606.13054",
+    "doi": "",
+    "official_id": "2606.13054",
+    "paper_url": "https://arxiv.org/abs/2606.13054",
+    "code_url": "https://github.com/Kishon-zzx/TWLA",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 main-conference paper confirmed by the official ICML Downloads inventory, author page, and official repository. TWLA combines ternary weights with 4-bit activations under post-training quantization, explicitly targeting end-to-end inference acceleration rather than weight-only compression.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization"
+    ]
+  },
+  {
     "title": "Understand and Accelerate Memory Processing Pipeline for Large Language Model Inference",
     "venue": "ICML 2026",
     "topic": "LLM memory processing / GPU-FPGA heterogeneous acceleration",
@@ -13570,6 +13611,27 @@
       "KV Cache / Long Context",
       "Efficient Attention",
       "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "Unveiling the Potential of Quantization with MXFP4: Strategies for Quantization Error Reduction",
+    "venue": "ICML 2026",
+    "topic": "LLM quantization / MXFP4 / microscaling formats / hardware-software co-design / low-precision inference",
+    "arxiv": "2603.08713",
+    "doi": "",
+    "official_id": "2603.08713",
+    "paper_url": "https://arxiv.org/abs/2603.08713",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 main-conference paper confirmed by the official ICML Downloads inventory and author publication pages. OAS and MBS reduce the MXFP4-vs-NVFP4 accuracy gap from about 10% to below 1% on average with modest GEMM overhead while preserving MX hardware-efficiency advantages, including reported tensor-core area savings.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {

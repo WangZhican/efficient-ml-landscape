@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **1030 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **262 visible papers = 49 P0 + 93 P1 + 120 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1033 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **262 visible papers = 49 P0 + 93 P1 + 120 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -285,9 +285,9 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 981
+## 🏛️ Classical / Historical · 984
 
-### ICML 2026 · 269
+### ICML 2026 · 272
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -545,8 +545,11 @@
 | **Canonical** | **ToolOrchestra: Elevating Intelligence via Efficient Model and Tool Orchestration** | ICML 2026 | efficient reasoning / agent systems / model-tool orchestration | [Link](https://arxiv.org/abs/2511.21689) | — |
 | **Canonical** | **Towards Efficient LLMs Annealing with Principled Sample Selection** | ICML 2026 | LLM training efficiency / annealing / data selection / optimization-aware sample scheduling | [Link](https://arxiv.org/abs/2605.31175) | [Repo](https://github.com/xuyj233/Direct) |
 | **Canonical** | **Training-Inference Consistent Segmented Execution for Long-Context LLMs** | ICML 2026 | KV cache / long-context inference / segmented execution / memory-efficient training-inference consistency | [Link](https://arxiv.org/abs/2605.11744) | — |
+| **Canonical** | **TwinQuant: Learnable Subspace Decomposition for 4-Bit LLM Quantization** | ICML 2026 | LLM quantization / 4-bit PTQ-QAT style subspace optimization / fused low-rank kernel / inference acceleration | [Link](https://arxiv.org/abs/2606.01556) | — |
+| **Canonical** | **TWLA: Achieving Ternary Weights and Low-Bit Activations for LLMs via Post-Training Quantization** | ICML 2026 | LLM quantization / ternary weights / W1.58A4 PTQ / activation outlier suppression / deployment acceleration | [Link](https://arxiv.org/abs/2606.13054) | [Repo](https://github.com/Kishon-zzx/TWLA) |
 | **Canonical** | **Understand and Accelerate Memory Processing Pipeline for Large Language Model Inference** | ICML 2026 | LLM memory processing / GPU-FPGA heterogeneous acceleration | [Link](https://arxiv.org/abs/2603.29002) | — |
 | **Canonical** | **Untied Ulysses: Memory-Efficient Context Parallelism via Headwise Chunking** | ICML 2026 | distributed training / context parallelism / long context / activation memory | [Link](https://arxiv.org/abs/2602.21196) | [Repo](https://github.com/ghadiaravi13/Untied-Ulysses) |
+| **Canonical** | **Unveiling the Potential of Quantization with MXFP4: Strategies for Quantization Error Reduction** | ICML 2026 | LLM quantization / MXFP4 / microscaling formats / hardware-software co-design / low-precision inference | [Link](https://arxiv.org/abs/2603.08713) | — |
 | **Canonical** | **Variational Speculative Decoding: Rethinking Draft Training from Token Likelihood to Sequence Acceptance** | ICML 2026 | speculative decoding / draft-model training / LLM and MLLM inference acceleration | [Link](https://arxiv.org/abs/2602.05774) | [Repo](https://github.com/LV-Lab-SMU/VSD) |
 | **Canonical** | **VectorWorld: Efficient Streaming World Model via Diffusion Flow on Vector Graphs** | ICML 2026 | Physical AI / streaming world model / autonomous-driving simulation / one-step diffusion-flow generation | [Link](https://arxiv.org/abs/2603.17652) | [Repo](https://github.com/jiangchaokang/VectorWorld) |
 | **Canonical** | **Veda: Scalable Video Diffusion via Distilled Sparse Attention** | ICML 2026 | video diffusion acceleration / distilled sparse attention / tile-sparse GPU kernel | [Link](https://arxiv.org/abs/2605.30325) | — |
