@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **1036 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **262 visible papers = 49 P0 + 93 P1 + 120 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1037 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **262 visible papers = 49 P0 + 93 P1 + 120 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -285,9 +285,9 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 987
+## 🏛️ Classical / Historical · 988
 
-### ICML 2026 · 275
+### ICML 2026 · 276
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -318,6 +318,7 @@
 | **Canonical** | **BeaconKV: Key-Value Cache Compression Guided by Beacon Queries for Efficient Large Reasoning Model Inference** | ICML 2026 | KV cache / long reasoning / training-free compression | — | [Repo](https://github.com/aiha-lab/BeaconKV) |
 | **Canonical** | **Beyond Prediction: Tail-Aware Scheduling for LLM Inference** | ICML 2026 | LLM serving / tail-aware scheduling / KV-aware preemption / SLO optimization | [Link](https://arxiv.org/abs/2606.18431) | — |
 | **Canonical** | **Beyond Sunk Costs: Boosting LLM Pre-training Efficiency via Orthogonal Growth of Mixture-of-Experts** | ICML 2026 | LLM training efficiency / MoE / checkpoint reuse / pretraining compute efficiency / model scaling | [Link](https://arxiv.org/abs/2510.08008) | — |
+| **Canonical** | **BPDQ: Bit-Plane Decomposition Quantization on a Variable Grid for Large Language Models** | ICML 2026 | quantization / low-bit PTQ / 2-bit LLM inference / memory-bound serving / edge deployment | [Link](https://arxiv.org/abs/2602.04163) | [Repo](https://github.com/KingdalfGoodman/BPDQ) |
 | **Canonical** | **BubbleSpec: Turning Long-Tail Bubbles into Speculative Rollout Drafts for Synchronous Reinforcement Learning** | ICML 2026 | LLM RL systems / rollout acceleration / speculative decoding / distributed training | [Link](https://arxiv.org/abs/2605.08862) | — |
 | **Canonical** | **Budget-Constrained Step-Level Diffusion Caching** | ICML 2026 | diffusion acceleration / step-level caching / fixed-budget inference | [Link](https://arxiv.org/abs/2606.13496) | [Repo](https://github.com/Westlake-AGI-Lab/BudCache) |
 | **Canonical** | **CAT-Q: Cost-efficient and Accurate Ternary Quantization for LLMs** | ICML 2026 | LLM quantization / ternary PTQ / 1.58-bit deployment / low-cost calibration / inference acceleration | [Link](https://arxiv.org/abs/2606.26650) | [Repo](https://github.com/IntelChina-AI/BitTern) |

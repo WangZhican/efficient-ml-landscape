@@ -1,19 +1,19 @@
 {
-  "unique_papers": 1036,
+  "unique_papers": 1037,
   "latest_30d_tracked_total": 262,
   "latest_30d_quality_gated": 49,
   "latest_30d_watchlist": 93,
   "latest_30d_relevant_low_priority": 120,
-  "classical_papers": 987,
+  "classical_papers": 988,
   "latest_strong": 45,
-  "papers_with_primary_link": 1014,
-  "papers_with_verified_code_link": 265,
+  "papers_with_primary_link": 1015,
+  "papers_with_verified_code_link": 266,
   "venues": 46,
   "direction_counts": {
-    "LLM Serving": 398,
+    "LLM Serving": 399,
     "Speculative Decoding": 139,
     "KV Cache / Long Context": 275,
-    "Quantization": 145,
+    "Quantization": 146,
     "Sparsity / Pruning": 167,
     "Efficient Attention": 155,
     "MoE Systems / Accelerators": 73,
@@ -24,8 +24,8 @@
     "Diffusion / Flow Acceleration": 119,
     "Efficient Reasoning / Agents": 164,
     "VLA / WAM / Physical AI": 52,
-    "Edge / Cloud / Heterogeneous AI": 206
+    "Edge / Cloud / Heterogeneous AI": 207
   },
   "source_date_beijing": "2026-08-26",
-  "updated_at_beijing": "2026-08-26T22:03:23+08:00"
+  "updated_at_beijing": "2026-08-26T23:03:33+08:00"
 }

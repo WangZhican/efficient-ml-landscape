@@ -1,10 +1,10 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **987 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **988 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
-## ICML 2026 · 275
+## ICML 2026 · 276
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -35,6 +35,7 @@
 | **Canonical** | **BeaconKV: Key-Value Cache Compression Guided by Beacon Queries for Efficient Large Reasoning Model Inference** | ICML 2026 | KV cache / long reasoning / training-free compression | — | [Repo](https://github.com/aiha-lab/BeaconKV) |
 | **Canonical** | **Beyond Prediction: Tail-Aware Scheduling for LLM Inference** | ICML 2026 | LLM serving / tail-aware scheduling / KV-aware preemption / SLO optimization | [Link](https://arxiv.org/abs/2606.18431) | — |
 | **Canonical** | **Beyond Sunk Costs: Boosting LLM Pre-training Efficiency via Orthogonal Growth of Mixture-of-Experts** | ICML 2026 | LLM training efficiency / MoE / checkpoint reuse / pretraining compute efficiency / model scaling | [Link](https://arxiv.org/abs/2510.08008) | — |
+| **Canonical** | **BPDQ: Bit-Plane Decomposition Quantization on a Variable Grid for Large Language Models** | ICML 2026 | quantization / low-bit PTQ / 2-bit LLM inference / memory-bound serving / edge deployment | [Link](https://arxiv.org/abs/2602.04163) | [Repo](https://github.com/KingdalfGoodman/BPDQ) |
 | **Canonical** | **BubbleSpec: Turning Long-Tail Bubbles into Speculative Rollout Drafts for Synchronous Reinforcement Learning** | ICML 2026 | LLM RL systems / rollout acceleration / speculative decoding / distributed training | [Link](https://arxiv.org/abs/2605.08862) | — |
 | **Canonical** | **Budget-Constrained Step-Level Diffusion Caching** | ICML 2026 | diffusion acceleration / step-level caching / fixed-budget inference | [Link](https://arxiv.org/abs/2606.13496) | [Repo](https://github.com/Westlake-AGI-Lab/BudCache) |
 | **Canonical** | **CAT-Q: Cost-efficient and Accurate Ternary Quantization for LLMs** | ICML 2026 | LLM quantization / ternary PTQ / 1.58-bit deployment / low-cost calibration / inference acceleration | [Link](https://arxiv.org/abs/2606.26650) | [Repo](https://github.com/IntelChina-AI/BitTern) |

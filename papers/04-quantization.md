@@ -1,6 +1,6 @@
 # 04 · Quantization
 
-> **145 canonical papers** mapped here, plus a broader **43-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **146 canonical papers** mapped here, plus a broader **43-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -52,7 +52,7 @@
 | **P2 · Relevant** | **A Motion-Aware Vector Quantization Framework with Centroid Reuse for Efficient VLA Inference** | Fresh / preprint | llm_serving / quant / multimodal / physical | [Link](https://arxiv.org/abs/2607.24148) | — |
 | **P1 · Watch** | **Sparse by Command: Task-Conditional Compute Skipping for Multi-Task Inference Accelerators** | Fresh / preprint | llm_serving / quant / sparse / gen / edge | [Link](https://arxiv.org/abs/2607.22038) | — |
 
-## 🏛️ Classical / Historical · 137 canonical
+## 🏛️ Classical / Historical · 138 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -114,6 +114,7 @@
 | **Canonical** | **Attn-QAT: 4-Bit Attention With Quantization-Aware Training** | ICML 2026 | FP4 attention / quantization-aware training / fused attention kernels | [Link](https://arxiv.org/abs/2603.00040) | — |
 | **Canonical** | **Attribution-Guided and Coverage-Maximized Pruning for Structural MoE Compression** | ICML 2026 | MoE compression / structured pruning / quantization / deployment memory | [Link](https://arxiv.org/abs/2606.18304) | [Repo](https://github.com/yifu-ding/MoE-Slimming) |
 | **Canonical** | **AutoQRA: Joint Optimization of Mixed-Precision Quantization and Low-rank Adapters for Efficient LLM Fine-Tuning** | ICML 2026 | LLM quantization / LoRA / memory-efficient fine-tuning / mixed precision | [Link](https://arxiv.org/abs/2602.22268) | — |
+| **Canonical** | **BPDQ: Bit-Plane Decomposition Quantization on a Variable Grid for Large Language Models** | ICML 2026 | quantization / low-bit PTQ / 2-bit LLM inference / memory-bound serving / edge deployment | [Link](https://arxiv.org/abs/2602.04163) | [Repo](https://github.com/KingdalfGoodman/BPDQ) |
 | **Canonical** | **CAT-Q: Cost-efficient and Accurate Ternary Quantization for LLMs** | ICML 2026 | LLM quantization / ternary PTQ / 1.58-bit deployment / low-cost calibration / inference acceleration | [Link](https://arxiv.org/abs/2606.26650) | [Repo](https://github.com/IntelChina-AI/BitTern) |
 | **Canonical** | **CoCoQuant: Breaking the Bandwidth Wall via Co-Optimized Communication and Computation Quantization** | ICML 2026 | distributed LLM inference / communication-computation co-design / mixed-precision quantization | — | — |
 | **Canonical** | **CondiQuant: Condition Number Based Low-Bit Quantization for Image Super-Resolution** | ICML 2026 | quantization / image super-resolution / post-training quantization / edge inference | [Link](https://arxiv.org/abs/2502.15478) | [Repo](https://github.com/Kai-Liu001/CondiQuant) |

@@ -1,6 +1,6 @@
 # 01 · LLM Serving
 
-> **398 canonical papers** mapped here, plus a broader **190-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **399 canonical papers** mapped here, plus a broader **190-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -199,7 +199,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 376 canonical
+## 🏛️ Classical / Historical · 377 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -330,6 +330,7 @@
 | **Canonical** | **AugServe: Adaptive Request Scheduling for Augmented Large Language Model Inference Serving** | ICML 2026 | LLM serving / augmented-agent request scheduling | [Link](https://arxiv.org/abs/2512.04013) | — |
 | **Canonical** | **BeaconKV: Key-Value Cache Compression Guided by Beacon Queries for Efficient Large Reasoning Model Inference** | ICML 2026 | KV cache / long reasoning / training-free compression | — | [Repo](https://github.com/aiha-lab/BeaconKV) |
 | **Canonical** | **Beyond Prediction: Tail-Aware Scheduling for LLM Inference** | ICML 2026 | LLM serving / tail-aware scheduling / KV-aware preemption / SLO optimization | [Link](https://arxiv.org/abs/2606.18431) | — |
+| **Canonical** | **BPDQ: Bit-Plane Decomposition Quantization on a Variable Grid for Large Language Models** | ICML 2026 | quantization / low-bit PTQ / 2-bit LLM inference / memory-bound serving / edge deployment | [Link](https://arxiv.org/abs/2602.04163) | [Repo](https://github.com/KingdalfGoodman/BPDQ) |
 | **Canonical** | **BubbleSpec: Turning Long-Tail Bubbles into Speculative Rollout Drafts for Synchronous Reinforcement Learning** | ICML 2026 | LLM RL systems / rollout acceleration / speculative decoding / distributed training | [Link](https://arxiv.org/abs/2605.08862) | — |
 | **Canonical** | **CLAA: Cross-Layer Attention Aggregation for Accelerating LLM Prefill** | ICML 2026 | LLM prefill / token selection / efficient attention / long context | [Link](https://arxiv.org/abs/2602.16054) | — |
 | **Canonical** | **CLIMB: Taming the LoRA Residency Cliff in Multi-LoRA Serving** | ICML 2026 | multi-LoRA serving / adapter residency / tail latency / admission control | — | — |
