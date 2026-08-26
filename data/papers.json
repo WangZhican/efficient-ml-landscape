@@ -12827,6 +12827,28 @@
     ]
   },
   {
+    "title": "Stream RAG: Instant and Accurate Spoken Dialogue Systems with Streaming Tool Usage",
+    "venue": "ICML 2026",
+    "topic": "multimodal serving / speech-language model / streaming RAG / tool-use latency / real-time agent systems",
+    "arxiv": "2510.02044",
+    "doi": "",
+    "official_id": "2510.02044",
+    "paper_url": "https://arxiv.org/abs/2510.02044",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 real-time multimodal/agent serving work. Stream RAG predicts tool queries in parallel with ongoing user speech so retrieval can overlap with input acquisition instead of stalling the dialogue after turn completion; experiments report roughly 20% lower tool-use latency while improving QA accuracy, making it a direct latency-oriented streaming inference/runtime contribution for speech-in speech-out assistants.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "StreamFlow: Theory, Algorithm, and Implementation for High-Efficiency Rectified Flow Generation",
     "venue": "ICML 2026",
     "topic": "diffusion / rectified-flow acceleration / TensorRT / generation runtime",
