@@ -10311,6 +10311,27 @@
     ]
   },
   {
+    "title": "Incremental BPE Tokenization",
+    "venue": "ICML 2026",
+    "topic": "LLM serving / tokenization runtime / streaming inference / incremental BPE",
+    "arxiv": "2605.30813",
+    "doi": "",
+    "official_id": "2605.30813",
+    "paper_url": "https://arxiv.org/abs/2605.30813",
+    "code_url": "https://github.com/ModelTC/mtc-inc-bpe",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Spotlight. Provides exact incremental BPE tokenization for every prefix with O(log^2 t) worst-case work per appended byte, supports eager streaming output, and reports up to ~3x speedup over Hugging Face tokenizers with significant latency reductions versus tiktoken on pathological inputs. This is a direct front-end/runtime optimization for streaming and agentic LLM serving rather than a tokenizer-quality paper.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "IndexMem: Learned KV-Cache Eviction with Latent Memory for Long-Context LLM Inference",
     "venue": "ICML 2026",
     "topic": "KV cache eviction / latent memory / bounded-memory long-context inference",
