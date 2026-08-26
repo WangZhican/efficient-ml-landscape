@@ -10725,6 +10725,27 @@
     ]
   },
   {
+    "title": "MedCoG: Maximizing LLM Inference Density in Medical Reasoning via Meta-Cognitive Regulation",
+    "venue": "ICML 2026",
+    "topic": "efficient reasoning / agent systems / inference-time compute allocation / adaptive knowledge use",
+    "arxiv": "2602.07905",
+    "doi": "",
+    "official_id": "2602.07905",
+    "paper_url": "https://arxiv.org/abs/2602.07905",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 main-conference paper. Meta-cognitive regulation avoids indiscriminate inference scaling by adaptively deciding when and how to use procedural, episodic, and factual knowledge; reports roughly 5.5x inference density on difficult medical reasoning benchmarks.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Reasoning / Agents",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Memory-Efficient LLM Pretraining via Minimalist Optimizer Design",
     "venue": "ICML 2026",
     "topic": "distributed training / memory-efficient LLM pretraining / optimizer-state reduction",

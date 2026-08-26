@@ -1,10 +1,10 @@
 # 🧭 Research Map
 
-> **1000 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
+> **1001 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
 
 <div align="center">
 
-[**🆕 Latest 30 Days · 262 tracked**](LATEST_30D.md) · [**🏛️ Classical · 951**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
+[**🆕 Latest 30 Days · 262 tracked**](LATEST_30D.md) · [**🏛️ Classical · 952**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
 
 </div>
 
@@ -24,9 +24,9 @@
 | 10 | [**Multimodal / MLLM Serving**](10-multimodal-mllm-serving.md) | **118** | **48** |
 | 11 | [**Video / Image Generation**](11-video-image-generation.md) | **43** | **13** |
 | 12 | [**Diffusion / Flow Acceleration**](12-diffusion-flow.md) | **145** | **31** |
-| 13 | [**Efficient Reasoning / Agents**](13-efficient-reasoning-agents.md) | **152** | **42** |
+| 13 | [**Efficient Reasoning / Agents**](13-efficient-reasoning-agents.md) | **153** | **42** |
 | 14 | [**VLA / WAM / Physical AI**](14-physical-ai-vla-wam.md) | **52** | **49** |
-| 15 | [**Edge / Cloud / Heterogeneous AI**](15-edge-cloud-heterogeneous.md) | **211** | **88** |
+| 15 | [**Edge / Cloud / Heterogeneous AI**](15-edge-cloud-heterogeneous.md) | **212** | **88** |
 
 > Counts are multi-label and therefore do not sum to the unique-paper total. A canonical paper can intentionally appear in several directions.
 

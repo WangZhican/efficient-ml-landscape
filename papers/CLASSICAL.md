@@ -1,10 +1,10 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **951 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **952 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
-## ICML 2026 · 239
+## ICML 2026 · 240
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -132,6 +132,7 @@
 | **Canonical** | **M+Adam: Low-Precision Training via Additive-Multiplicative Optimization** | ICML 2026 | low-precision training / FP8 FP4 / optimizer / memory efficiency | [Link](https://arxiv.org/abs/2607.10611) | — |
 | **Canonical** | **ManifoldKV: Training-Free KV Cache Compression via Euclidean Outlier Detection** | ICML 2026 | KV cache compression / training-free eviction / long-context inference | [Link](https://arxiv.org/abs/2602.08343) | — |
 | **Canonical** | **MAPS: Memory-Aware Predictive Scheduling Framework for Large Language Model Serving** | ICML 2026 | LLM serving / disaggregated inference / predictive scheduling / memory-aware scheduling | — | — |
+| **Canonical** | **MedCoG: Maximizing LLM Inference Density in Medical Reasoning via Meta-Cognitive Regulation** | ICML 2026 | efficient reasoning / agent systems / inference-time compute allocation / adaptive knowledge use | [Link](https://arxiv.org/abs/2602.07905) | — |
 | **Canonical** | **Memory-Efficient LLM Pretraining via Minimalist Optimizer Design** | ICML 2026 | distributed training / memory-efficient LLM pretraining / optimizer-state reduction | [Link](https://arxiv.org/abs/2506.16659) | [Repo](https://github.com/OptimAI-Lab/Minimalist_LLM_Pretraining) |
 | **Canonical** | **Memory-Efficient LLM Training with Dynamic Sparsity: From Stability to Practical Scaling** | ICML 2026 | LLM training efficiency / dynamic sparsity / memory-efficient optimization | [Link](https://arxiv.org/abs/2606.00888) | [Repo](https://github.com/QiaoXiao7282/SMET) |
 | **Canonical** | **MixQuant: Pushing the Limits of Block Rotations in Post-Training Quantization** | ICML 2026 | quantization / post-training quantization / block Hadamard rotation / low-bit LLM inference | [Link](https://arxiv.org/abs/2601.22347) | [Repo](https://github.com/Xilinx/brevitas) |
