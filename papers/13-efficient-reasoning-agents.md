@@ -1,6 +1,6 @@
 # 13 · Efficient Reasoning / Agents
 
-> **159 canonical papers** mapped here, plus a broader **42-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **161 canonical papers** mapped here, plus a broader **42-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -51,7 +51,7 @@
 | **P2 · Relevant** | **SpecBox: Speculative Sandbox Scheduling for Efficient LLM Agent Serving** | Fresh / preprint | llm_serving / agent | [Link](https://arxiv.org/abs/2607.23933) | — |
 | **P2 · Relevant** | **Agentic CPU-GPU Scheduling for Heterogeneous AI Workloads** | Fresh / preprint | llm_serving / gen / agent / edge | [Link](https://arxiv.org/abs/2607.22242) | — |
 
-## 🏛️ Classical / Historical · 149 canonical
+## 🏛️ Classical / Historical · 151 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -124,6 +124,7 @@
 | **Canonical** | **KernelFoundry: Hardware-aware evolutionary GPU kernel optimization** | ICML 2026 | GPU kernel / compiler / evolutionary optimization / hardware-aware agent systems | [Link](https://arxiv.org/abs/2603.12440) | [Repo](https://github.com/isl-org/kernelfoundry) |
 | **Canonical** | **Knapsack RL: Compute-Efficient Reinforcement Learning via Heterogeneous Rollout Allocation** | ICML 2026 | LLM RL / rollout allocation / training compute efficiency | — | [Repo](https://github.com/liziniu/KnapsackRL) |
 | **Canonical** | **Knowing When to Quit: A Principled Framework for Dynamic Abstention in LLM Reasoning** | ICML 2026 | efficient reasoning / dynamic abstention / early termination / test-time compute | [Link](https://arxiv.org/abs/2604.18419) | — |
+| **Canonical** | **Learning Query-Aware Budget-Tier Routing for Runtime Agent Memory** | ICML 2026 | efficient reasoning / agent systems / runtime memory / adaptive compute routing / performance-cost control | [Link](https://arxiv.org/abs/2602.06025) | [Repo](https://github.com/ViktorAxelsen/BudgetMem) |
 | **Canonical** | **Learning to Evict from Key-Value Cache** | ICML 2026 | KV cache / long-context inference / learned eviction / reinforcement learning | [Link](https://arxiv.org/abs/2602.10238) | [Repo](https://github.com/apple/ml-learning-to-evict) |
 | **Canonical** | **Learning to Share: Selective Memory for Efficient Parallel Agentic Systems** | ICML 2026 | efficient agent systems / parallel agents / shared memory / computation reuse | [Link](https://arxiv.org/abs/2602.05965) | [Repo](https://github.com/UCF-CRCV/autogen-lts) |
 | **Canonical** | **Less Is More: Training-Free Sparse Attention with Global Locality for Efficient Reasoning** | ICML 2026 | efficient reasoning / sparse attention / KV-cache decoding | [Link](https://arxiv.org/abs/2508.07101) | [Repo](https://github.com/DerrickYLJ/LessIsMore) |
@@ -131,6 +132,7 @@
 | **Canonical** | **LightningRL: Breaking the Accuracy-Parallelism Trade-off of Block-wise dLLMs via Reinforcement Learning** | ICML 2026 | diffusion LLM / parallel decoding / RL post-training / inference acceleration | [Link](https://arxiv.org/abs/2603.13319) | [Repo](https://github.com/SJTU-DENG-Lab/LightningRL) |
 | **Canonical** | **LRAgent: Efficient KV Cache Sharing for Multi-LoRA LLM Agents** | ICML 2026 | KV cache sharing / multi-LoRA agent serving / Flash-LoRA-Attention | [Link](https://arxiv.org/abs/2602.01053) | — |
 | **Canonical** | **MedCoG: Maximizing LLM Inference Density in Medical Reasoning via Meta-Cognitive Regulation** | ICML 2026 | efficient reasoning / agent systems / inference-time compute allocation / adaptive knowledge use | [Link](https://arxiv.org/abs/2602.07905) | — |
+| **Canonical** | **On Effectiveness and Efficiency of Agentic Tool-calling and RL Training** | ICML 2026 | efficient reasoning / agent systems / tool calling / RL training efficiency / rollout efficiency / wall-clock acceleration | [Link](https://arxiv.org/abs/2606.00135) | — |
 | **Canonical** | **Optimal Self-Consistency for Efficient Reasoning with Large Language Models** | ICML 2026 | efficient reasoning / test-time scaling / adaptive sampling / self-consistency | [Link](https://arxiv.org/abs/2511.12309) | — |
 | **Canonical** | **PatternKV: Flattening KV Representation Expands Quantization Headroom** | ICML 2026 | KV cache / quantization / long-context inference / test-time scaling | [Link](https://arxiv.org/abs/2510.05176) | [Repo](https://github.com/HCOOOH/PatternKV) |
 | **Canonical** | **PETS: A Principled Framework Towards Optimal Trajectory Allocation for Efficient Test-Time Self-Consistency** | ICML 2026 | efficient reasoning / test-time scaling / adaptive trajectory allocation | [Link](https://arxiv.org/abs/2602.16745) | [Repo](https://github.com/ZDCSlab/PETS) |

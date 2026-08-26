@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **1018 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **262 visible papers = 49 P0 + 93 P1 + 120 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1021 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **262 visible papers = 49 P0 + 93 P1 + 120 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -285,9 +285,9 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 969
+## 🏛️ Classical / Historical · 972
 
-### ICML 2026 · 257
+### ICML 2026 · 260
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -408,6 +408,7 @@
 | **Canonical** | **LazyAttention: Efficient Retrieval-Augmented Generation with Deferred Positional Encoding** | ICML 2026 | LLM serving / RAG / KV cache reuse / deferred positional encoding / attention kernels | [Link](https://arxiv.org/abs/2606.04302) | — |
 | **Canonical** | **LC-QAT: Data-Efficient 2-Bit QAT for LLMs via Linear-Constrained Vector Quantization** | ICML 2026 | LLM quantization / 2-bit QAT / vector quantization / efficient deployment | [Link](https://arxiv.org/abs/2606.10531) | [Repo](https://github.com/backspacetg/unisvq) |
 | **Canonical** | **LEAP: Zone-Aware MCTS for LLM Self-Speculative Decoding** | ICML 2026 | speculative decoding / self-speculative decoding / MCTS layer selection | — | [Repo](https://github.com/leiquanzheng/LEAP) |
+| **Canonical** | **Learning Query-Aware Budget-Tier Routing for Runtime Agent Memory** | ICML 2026 | efficient reasoning / agent systems / runtime memory / adaptive compute routing / performance-cost control | [Link](https://arxiv.org/abs/2602.06025) | [Repo](https://github.com/ViktorAxelsen/BudgetMem) |
 | **Canonical** | **Learning to Evict from Key-Value Cache** | ICML 2026 | KV cache / long-context inference / learned eviction / reinforcement learning | [Link](https://arxiv.org/abs/2602.10238) | [Repo](https://github.com/apple/ml-learning-to-evict) |
 | **Canonical** | **Learning to Share: Selective Memory for Efficient Parallel Agentic Systems** | ICML 2026 | efficient agent systems / parallel agents / shared memory / computation reuse | [Link](https://arxiv.org/abs/2602.05965) | [Repo](https://github.com/UCF-CRCV/autogen-lts) |
 | **Canonical** | **Less Is More: Training-Free Sparse Attention with Global Locality for Efficient Reasoning** | ICML 2026 | efficient reasoning / sparse attention / KV-cache decoding | [Link](https://arxiv.org/abs/2508.07101) | [Repo](https://github.com/DerrickYLJ/LessIsMore) |
@@ -441,6 +442,8 @@
 | **Canonical** | **NorMuon: Making Muon more efficient and scalable** | ICML 2026 | distributed LLM training / optimizer / FSDP2 / training efficiency | [Link](https://arxiv.org/abs/2510.05491) | — |
 | **Canonical** | **Not All Prefills Are Equal: PPD Disaggregation for Multi-turn LLM Serving** | ICML 2026 | LLM serving / prefill-decode disaggregation / multi-turn KV reuse | [Link](https://arxiv.org/abs/2603.13358) | — |
 | **Canonical** | **OBCache: Optimal Brain KV Cache Pruning for Efficient Long-Context LLM Inference** | ICML 2026 | KV cache / long-context inference / output-aware eviction / pruning | [Link](https://arxiv.org/abs/2510.07651) | [Repo](https://github.com/DreamSoul-AI/OBCache) |
+| **Canonical** | **On Effectiveness and Efficiency of Agentic Tool-calling and RL Training** | ICML 2026 | efficient reasoning / agent systems / tool calling / RL training efficiency / rollout efficiency / wall-clock acceleration | [Link](https://arxiv.org/abs/2606.00135) | — |
+| **Canonical** | **On Efficient Scaling of GNNs via IO-Aware Layers Implementations** | ICML 2026 | GPU kernel / graph neural network systems / IO-aware layers / sparse attention / SpMM / hardware-efficient training and inference | [Link](https://arxiv.org/abs/2605.31500) | [Repo](https://github.com/yandex-research/On-Efficient-Scaling-Of-GNNs) |
 | **Canonical** | **Online Linear Programming for Multi-Objective Routing in LLM Serving** | ICML 2026 | LLM serving / request routing / SLO optimization / KV-cache-aware scheduling | [Link](https://arxiv.org/abs/2607.03948) | — |
 | **Canonical** | **Optimal Self-Consistency for Efficient Reasoning with Large Language Models** | ICML 2026 | efficient reasoning / test-time scaling / adaptive sampling / self-consistency | [Link](https://arxiv.org/abs/2511.12309) | — |
 | **Canonical** | **OSAQ: Outlier Self-Absorption for Accurate Low-bit LLM Quantization** | ICML 2026 | LLM quantization / weight-only low-bit PTQ / outlier suppression | [Link](https://arxiv.org/abs/2605.04738) | — |

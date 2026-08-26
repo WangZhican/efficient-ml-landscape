@@ -1,6 +1,6 @@
 # 09 · Distributed Training / Inference
 
-> **181 canonical papers** mapped here, plus a broader **27-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **182 canonical papers** mapped here, plus a broader **27-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -36,7 +36,7 @@
 | **P1 · Watch** | **AReaL-DTE: Sparse Policy-Weight Transfer for Online Agentic Reinforcement Learning** | Fresh / preprint | agentic RL systems / sparse policy-weight synchronization / cross-cluster serving-training | [Link](https://arxiv.org/abs/2608.00455) | — |
 | **P2 · Relevant** | **HCCL: Collective Communication for Meta Training and Inference Accelerators** | Fresh / preprint | llm_serving | [Link](https://arxiv.org/abs/2608.00358) | — |
 
-## 🏛️ Classical / Historical · 169 canonical
+## 🏛️ Classical / Historical · 170 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -121,6 +121,7 @@
 | **Canonical** | **Memory-Efficient LLM Training with Dynamic Sparsity: From Stability to Practical Scaling** | ICML 2026 | LLM training efficiency / dynamic sparsity / memory-efficient optimization | [Link](https://arxiv.org/abs/2606.00888) | [Repo](https://github.com/QiaoXiao7282/SMET) |
 | **Canonical** | **Multipole Semantic Attention: A Fast Approximation of Softmax Attention for Pretraining** | ICML 2026 | efficient attention / long-context pretraining / attention approximation | [Link](https://arxiv.org/abs/2509.10406) | — |
 | **Canonical** | **NorMuon: Making Muon more efficient and scalable** | ICML 2026 | distributed LLM training / optimizer / FSDP2 / training efficiency | [Link](https://arxiv.org/abs/2510.05491) | — |
+| **Canonical** | **On Effectiveness and Efficiency of Agentic Tool-calling and RL Training** | ICML 2026 | efficient reasoning / agent systems / tool calling / RL training efficiency / rollout efficiency / wall-clock acceleration | [Link](https://arxiv.org/abs/2606.00135) | — |
 | **Canonical** | **POET-X: Memory-efficient LLM Training by Scaling Orthogonal Transformation** | ICML 2026 | distributed LLM training / memory-efficient optimizer / Triton kernels | [Link](https://arxiv.org/abs/2603.05500) | [Repo](https://github.com/Sphere-AI-Lab/poet) |
 | **Canonical** | **PRAC: Principal-Random Subspace for LLM Activation Compression and Memory-Efficient Training** | ICML 2026 | distributed training / activation compression / memory-efficient LLM training | [Link](https://arxiv.org/abs/2602.23111) | — |
 | **Canonical** | **Proxy Compression for Language Modeling** | ICML 2026 | language-model training efficiency / byte-level modeling / compressed training views | [Link](https://arxiv.org/abs/2602.04289) | — |

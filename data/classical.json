@@ -10509,6 +10509,26 @@
     ]
   },
   {
+    "title": "Learning Query-Aware Budget-Tier Routing for Runtime Agent Memory",
+    "venue": "ICML 2026",
+    "topic": "efficient reasoning / agent systems / runtime memory / adaptive compute routing / performance-cost control",
+    "arxiv": "2602.06025",
+    "doi": "",
+    "official_id": "2602.06025",
+    "paper_url": "https://arxiv.org/abs/2602.06025",
+    "code_url": "https://github.com/ViktorAxelsen/BudgetMem",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. BudgetMem performs runtime, query-aware memory construction with Low/Mid/High budget tiers and a lightweight RL router, explicitly optimizing performance-cost trade-offs across implementation, reasoning and model-capacity tiers on LoCoMo, LongMemEval and HotpotQA.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "Learning to Evict from Key-Value Cache",
     "venue": "ICML 2026",
     "topic": "KV cache / long-context inference / learned eviction / reinforcement learning",
@@ -11218,6 +11238,49 @@
     "directions": [
       "KV Cache / Long Context",
       "Sparsity / Pruning"
+    ]
+  },
+  {
+    "title": "On Effectiveness and Efficiency of Agentic Tool-calling and RL Training",
+    "venue": "ICML 2026",
+    "topic": "efficient reasoning / agent systems / tool calling / RL training efficiency / rollout efficiency / wall-clock acceleration",
+    "arxiv": "2606.00135",
+    "doi": "",
+    "official_id": "2606.00135",
+    "paper_url": "https://arxiv.org/abs/2606.00135",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. Identifies wasted rollout compute from zero-learning-signal prompts and high policy-update cost in RL-based tool-calling training, then introduces complementary techniques that substantially accelerate wall-clock training without degrading tool-calling performance; also audits evaluation-pipeline instability.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Distributed Training / Inference",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "On Efficient Scaling of GNNs via IO-Aware Layers Implementations",
+    "venue": "ICML 2026",
+    "topic": "GPU kernel / graph neural network systems / IO-aware layers / sparse attention / SpMM / hardware-efficient training and inference",
+    "arxiv": "2605.31500",
+    "doi": "",
+    "official_id": "2605.31500",
+    "paper_url": "https://arxiv.org/abs/2605.31500",
+    "code_url": "https://github.com/yandex-research/On-Efficient-Scaling-Of-GNNs",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Spotlight. Develops IO-aware GPU kernels for SpMM, reductions, GATv2 and Graph Transformer layers; reports up to 8.5x GATv2 speedup, 7.3x Tensor-Core Graph-Transformer speedup on locally dense graphs, and up to 76x peak-memory reduction, with drop-in implementations.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {
