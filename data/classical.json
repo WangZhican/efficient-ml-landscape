@@ -8850,6 +8850,27 @@
     ]
   },
   {
+    "title": "D3: Dynamic Directional Graph-Constrained Data Scheduling for LLM Training",
+    "venue": "ICML 2026",
+    "topic": "LLM training efficiency / data scheduling / pretraining and post-training / graph-constrained optimization",
+    "arxiv": "2605.31164",
+    "doi": "",
+    "official_id": "2605.31164",
+    "paper_url": "https://arxiv.org/abs/2605.31164",
+    "code_url": "https://github.com/xuyj233/D3",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 confirmed by Microsoft Research and author publication pages. D3 models directional dependencies among train-units as a dynamic influence graph and optimizes their execution order, improving learning efficiency in both pretraining and post-training while using an efficient approximation algorithm to keep scheduling overhead manageable.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "DARTS: Distribution-Aware Active Rollout Trajectory Shaping for Accelerating LLM Reinforcement Learning",
     "venue": "ICML 2026",
     "topic": "LLM RL systems / rollout efficiency / distributed post-training",
@@ -12831,6 +12852,27 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "Towards Efficient LLMs Annealing with Principled Sample Selection",
+    "venue": "ICML 2026",
+    "topic": "LLM training efficiency / annealing / data selection / optimization-aware sample scheduling",
+    "arxiv": "2605.31175",
+    "doi": "",
+    "official_id": "2605.31175",
+    "paper_url": "https://arxiv.org/abs/2605.31175",
+    "code_url": "https://github.com/xuyj233/Direct",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Spotlight confirmed by Microsoft Research and author publication pages. DiReCT formulates annealing-stage sample selection as curvature-aware constrained optimization over Hessian spectral directions, selecting samples that suppress harmful gradient noise while preserving useful descent directions; directly improves the efficiency/effectiveness of the expensive final LLM-pretraining annealing stage across model scales.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference"
     ]
   },
   {
