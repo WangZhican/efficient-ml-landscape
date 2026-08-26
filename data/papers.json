@@ -5693,6 +5693,27 @@
     ]
   },
   {
+    "title": "Maia 200: A Software Defined Dataflow System for Large-scale AI Acceleration",
+    "venue": "Fresh / preprint",
+    "topic": "edge/cloud/heterogeneous AI systems / production inference accelerator / dataflow architecture",
+    "arxiv": "2608.24664",
+    "doi": "",
+    "official_id": "2608.24664",
+    "paper_url": "https://arxiv.org/abs/2608.24664",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "High-value industrial systems paper backed by Microsoft production deployment. Maia 200 is a software-defined locally accessed dataflow accelerator for large-scale AI inference, with FP4/FP8 compute, 7 TB/s HBM bandwidth, and production Azure evidence; strong canonical/P0 candidate.",
+    "published_at": "2026-08-25T15:05:40Z",
+    "updated_at": "2026-08-25T15:05:40Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Quantization",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Adaptive Draft Sequence Length: Enhancing Speculative Decoding Throughput on PIM-Enabled Systems",
     "venue": "HPCA 2026",
     "topic": "efficient VLM + PIM inference + reasoning accelerator + speculative decoding",
