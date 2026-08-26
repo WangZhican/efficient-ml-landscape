@@ -11669,6 +11669,27 @@
     ]
   },
   {
+    "title": "Proteus: Lookup-Free Trellis-Coded Quantization by Lattice-Breaking Compute Codes for 2-Bit LLMs",
+    "venue": "ICML 2026",
+    "topic": "quantization / 2-bit weight-only PTQ / trellis-coded quantization / lookup-free dequantization / GPU memory traffic / LLM inference",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICML2026_OPENREVIEW_SHYZM21zO7",
+    "paper_url": "https://openreview.net/forum?id=SHYZM21zO7",
+    "code_url": "https://github.com/YZW-explorer/Proteus",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 direct ultra-low-bit LLM inference work. Proteus replaces runtime codebook/LUT access in 2-bit trellis-coded quantization with compute-generated integer mixing plus affine Gaussianization, targeting the memory-traffic bottleneck of autoregressive decoding. The official repository describes CUDA dequantization kernels, profiling, and the end-to-end quantization pipeline.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "Proxy Compression for Language Modeling",
     "venue": "ICML 2026",
     "topic": "language-model training efficiency / byte-level modeling / compressed training views",
@@ -11753,6 +11774,28 @@
       "KV Cache / Long Context",
       "Quantization",
       "Video / Image Generation"
+    ]
+  },
+  {
+    "title": "Quantization-Aware Distillation for NVFP4 Inference Accuracy Recovery",
+    "venue": "ICML 2026",
+    "topic": "quantization / NVFP4 / quantization-aware distillation / LLM and VLM inference / post-training accuracy recovery",
+    "arxiv": "2601.20088",
+    "doi": "",
+    "official_id": "2601.20088",
+    "paper_url": "https://arxiv.org/abs/2601.20088",
+    "code_url": "https://github.com/NVIDIA/Model-Optimizer",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 direct low-precision LLM/VLM deployment work from NVIDIA and collaborators. Quantization-aware distillation recovers NVFP4-quantized post-trained models toward BF16 accuracy while avoiding the instability and data-dependence of conventional QAT; the official NVIDIA Model Optimizer stack provides QAD examples and deployment-oriented tooling.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "Distributed Training / Inference",
+      "Multimodal / MLLM Serving"
     ]
   },
   {

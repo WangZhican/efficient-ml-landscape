@@ -1,10 +1,10 @@
 # 🧭 Research Map
 
-> **1016 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
+> **1018 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
 
 <div align="center">
 
-[**🆕 Latest 30 Days · 262 tracked**](LATEST_30D.md) · [**🏛️ Classical · 967**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
+[**🆕 Latest 30 Days · 262 tracked**](LATEST_30D.md) · [**🏛️ Classical · 969**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
 
 </div>
 
@@ -15,13 +15,13 @@
 | 01 | [**LLM Serving**](01-llm-serving.md) | **395** | **190** |
 | 02 | [**Speculative Decoding**](02-speculative-decoding.md) | **138** | **22** |
 | 03 | [**KV Cache / Long Context**](03-kv-cache-long-context.md) | **274** | **40** |
-| 04 | [**Quantization**](04-quantization.md) | **135** | **43** |
+| 04 | [**Quantization**](04-quantization.md) | **137** | **43** |
 | 05 | [**Sparsity / Pruning**](05-sparsity-pruning.md) | **165** | **55** |
 | 06 | [**Efficient Attention**](06-efficient-attention.md) | **154** | **39** |
 | 07 | [**MoE Systems / Accelerators**](07-moe-systems.md) | **72** | **27** |
-| 08 | [**GPU Kernel / DSL / Compiler**](08-gpu-kernel-compiler.md) | **346** | **77** |
-| 09 | [**Distributed Training / Inference**](09-distributed-training-inference.md) | **180** | **27** |
-| 10 | [**Multimodal / MLLM Serving**](10-multimodal-mllm-serving.md) | **123** | **48** |
+| 08 | [**GPU Kernel / DSL / Compiler**](08-gpu-kernel-compiler.md) | **347** | **77** |
+| 09 | [**Distributed Training / Inference**](09-distributed-training-inference.md) | **181** | **27** |
+| 10 | [**Multimodal / MLLM Serving**](10-multimodal-mllm-serving.md) | **124** | **48** |
 | 11 | [**Video / Image Generation**](11-video-image-generation.md) | **43** | **13** |
 | 12 | [**Diffusion / Flow Acceleration**](12-diffusion-flow.md) | **119** | **19** |
 | 13 | [**Efficient Reasoning / Agents**](13-efficient-reasoning-agents.md) | **159** | **42** |
