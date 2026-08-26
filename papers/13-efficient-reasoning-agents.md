@@ -1,6 +1,6 @@
 # 13 · Efficient Reasoning / Agents
 
-> **157 canonical papers** mapped here, plus a broader **42-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **159 canonical papers** mapped here, plus a broader **42-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -51,7 +51,7 @@
 | **P2 · Relevant** | **SpecBox: Speculative Sandbox Scheduling for Efficient LLM Agent Serving** | Fresh / preprint | llm_serving / agent | [Link](https://arxiv.org/abs/2607.23933) | — |
 | **P2 · Relevant** | **Agentic CPU-GPU Scheduling for Heterogeneous AI Workloads** | Fresh / preprint | llm_serving / gen / agent / edge | [Link](https://arxiv.org/abs/2607.22242) | — |
 
-## 🏛️ Classical / Historical · 147 canonical
+## 🏛️ Classical / Historical · 149 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -109,6 +109,8 @@
 | **Canonical** | **Efficient Multi-Agent Reasoning via Confidence-Guided Adaptive Debate** | ICML 2026 | efficient reasoning / multi-agent systems / inference token efficiency | — | — |
 | **Canonical** | **Efficient Multi-round LLM Inference over Disaggregated Serving** | ICML 2026 | LLM serving / multi-round agents / PD disaggregation | [Link](https://arxiv.org/abs/2602.14516) | — |
 | **Canonical** | **Efficient RL Training for LLMs with Experience Replay** | ICML 2026 | LLM RL post-training / rollout compute / experience replay | [Link](https://arxiv.org/abs/2604.08706) | — |
+| **Canonical** | **EGG: An Expert-Guided Agent Framework for Kernel Generation** | ICML 2026 | GPU kernel generation / agentic compiler optimization / hardware-aware tuning | [Link](https://arxiv.org/abs/2606.26758) | — |
+| **Canonical** | **Ego3S: Select, Strengthen, and Synchronize for Efficient Egocentric Reasoning** | ICML 2026 | multimodal training efficiency / egocentric reasoning / data selection / Physical AI neighborhood | — | [Repo](https://github.com/Mrshenshen/Ego3S) |
 | **Canonical** | **Elastic Attention: Test-time Adaptive Sparsity Ratios for Efficient Transformers** | ICML 2026 | adaptive sparse attention / long-context inference | [Link](https://arxiv.org/abs/2601.17367) | [Repo](https://github.com/LCM-Lab/Elastic-Attention) |
 | **Canonical** | **FAST-AR: Fast Autoregressive Video Diffusion and World Models with Temporal Cache Compression and Sparse Attention** | ICML 2026 | video/world-model inference / KV cache compression / sparse attention | [Link](https://arxiv.org/abs/2602.01801) | — |
 | **Canonical** | **ForesightKV: Optimizing KV Cache Eviction for Reasoning Models by Learning Long-Term Contribution** | ICML 2026 | KV cache eviction / reasoning-model serving / learned long-term contribution | [Link](https://arxiv.org/abs/2602.03203) | [Repo](https://github.com/1190303125/ForesightKV) |

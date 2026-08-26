@@ -8958,6 +8958,26 @@
     ]
   },
   {
+    "title": "Detecting the Semantic Fixed Point: A Geometric Framework for Efficient Inference",
+    "venue": "ICML 2026",
+    "topic": "early exit / efficient LLM inference / adaptive depth / FLOPs reduction",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "",
+    "paper_url": "",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "CANONICAL_HIGH_VALUE",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Deterministic Differentiable Structured Pruning for Large Language Models",
     "venue": "ICML 2026",
     "topic": "LLM structured pruning / sparsity / vLLM inference acceleration",
@@ -9553,6 +9573,70 @@
       "Speculative Decoding",
       "KV Cache / Long Context",
       "Efficient Attention",
+      "GPU Kernel / DSL / Compiler",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "EGG: An Expert-Guided Agent Framework for Kernel Generation",
+    "venue": "ICML 2026",
+    "topic": "GPU kernel generation / agentic compiler optimization / hardware-aware tuning",
+    "arxiv": "2606.26758",
+    "doi": "",
+    "official_id": "",
+    "paper_url": "https://arxiv.org/abs/2606.26758",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "CANONICAL_HIGH_VALUE",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "Ego3S: Select, Strengthen, and Synchronize for Efficient Egocentric Reasoning",
+    "venue": "ICML 2026",
+    "topic": "multimodal training efficiency / egocentric reasoning / data selection / Physical AI neighborhood",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "",
+    "paper_url": "",
+    "code_url": "https://github.com/Mrshenshen/Ego3S",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "CANONICAL_HIGH_VALUE",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Distributed Training / Inference",
+      "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "EigenCache: Rethinking Diffusion Acceleration as Covariance-Optimal Forecasting and Submodular Information Allocation",
+    "venue": "ICML 2026",
+    "topic": "diffusion acceleration / feature caching / covariance-optimal forecasting / compute allocation",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "",
+    "paper_url": "",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "CANONICAL_HIGH_VALUE",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
       "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]

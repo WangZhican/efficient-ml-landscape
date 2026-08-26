@@ -1,6 +1,6 @@
 # 09 · Distributed Training / Inference
 
-> **179 canonical papers** mapped here, plus a broader **27-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **180 canonical papers** mapped here, plus a broader **27-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -36,7 +36,7 @@
 | **P1 · Watch** | **AReaL-DTE: Sparse Policy-Weight Transfer for Online Agentic Reinforcement Learning** | Fresh / preprint | agentic RL systems / sparse policy-weight synchronization / cross-cluster serving-training | [Link](https://arxiv.org/abs/2608.00455) | — |
 | **P2 · Relevant** | **HCCL: Collective Communication for Meta Training and Inference Accelerators** | Fresh / preprint | llm_serving | [Link](https://arxiv.org/abs/2608.00358) | — |
 
-## 🏛️ Classical / Historical · 167 canonical
+## 🏛️ Classical / Historical · 168 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -105,6 +105,7 @@
 | **Canonical** | **ECO: Quantized Training without Full-Precision Master Weights** | ICML 2026 | quantized LLM training / memory-efficient training / optimizer state reduction / FP8 and INT4 | [Link](https://arxiv.org/abs/2601.22101) | — |
 | **Canonical** | **Efficient Distributed MLLM Training with Cornstarch** | ICML 2026 | distributed MLLM training / pipeline parallelism / context parallelism / workload balancing | [Link](https://arxiv.org/abs/2503.11367) | [Repo](https://github.com/cornstarch-org/Cornstarch) |
 | **Canonical** | **Efficient RL Training for LLMs with Experience Replay** | ICML 2026 | LLM RL post-training / rollout compute / experience replay | [Link](https://arxiv.org/abs/2604.08706) | — |
+| **Canonical** | **Ego3S: Select, Strengthen, and Synchronize for Efficient Egocentric Reasoning** | ICML 2026 | multimodal training efficiency / egocentric reasoning / data selection / Physical AI neighborhood | — | [Repo](https://github.com/Mrshenshen/Ego3S) |
 | **Canonical** | **FlashOptim: Memory Efficient Optimizers for Large-Scale Training** | ICML 2026 | distributed training / memory-efficient optimizer / low-precision optimizer state | [Link](https://arxiv.org/abs/2602.23349) | — |
 | **Canonical** | **FOAM: Blocked State Folding for Memory-Efficient LLM Training** | ICML 2026 | distributed training / memory-efficient optimizer / optimizer-state compression | [Link](https://arxiv.org/abs/2512.07112) | [Repo](https://github.com/zqOuO/FOAM) |
 | **Canonical** | **FourTune: Towards Fully 4-Bit Efficient Post-Training for Diffusion Models** | ICML 2026 | diffusion model post-training / W4A4G4 quantization / fused kernels / training efficiency | [Link](https://arxiv.org/abs/2607.05711) | — |

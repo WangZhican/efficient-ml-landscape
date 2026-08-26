@@ -1,6 +1,6 @@
 # 08 · GPU Kernel / DSL / Compiler
 
-> **344 canonical papers** mapped here, plus a broader **77-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **346 canonical papers** mapped here, plus a broader **77-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -86,7 +86,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 317 canonical
+## 🏛️ Classical / Historical · 319 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -226,6 +226,8 @@
 | **Canonical** | **Efficient Diffusion LLMs via Temporal-Spatial Parallel Decoding and Confidence Extrapolation** | ICML 2026 | diffusion LLM / parallel decoding / inference acceleration | [Link](https://arxiv.org/abs/2605.30753) | — |
 | **Canonical** | **Efficient Parallel Samplers for Recurrent-Depth Models** | ICML 2026 | parallel decoding / recurrent-depth language models / diffusion-style inference | [Link](https://arxiv.org/abs/2510.14961) | — |
 | **Canonical** | **Efficient-DLM: From Autoregressive to Diffusion Language Models, and Beyond in Speed** | ICML 2026 | diffusion language model / parallel decoding / AR-to-dLM conversion / efficient generation | [Link](https://arxiv.org/abs/2512.14067) | — |
+| **Canonical** | **EGG: An Expert-Guided Agent Framework for Kernel Generation** | ICML 2026 | GPU kernel generation / agentic compiler optimization / hardware-aware tuning | [Link](https://arxiv.org/abs/2606.26758) | — |
+| **Canonical** | **EigenCache: Rethinking Diffusion Acceleration as Covariance-Optimal Forecasting and Submodular Information Allocation** | ICML 2026 | diffusion acceleration / feature caching / covariance-optimal forecasting / compute allocation | — | — |
 | **Canonical** | **FAIR-Calib: Frontier-Aware Calibration for Post-Training Quantization of Diffusion Language Models** | ICML 2026 | quantization / diffusion language model / W4A4 PTQ / calibration | [Link](https://arxiv.org/abs/2606.06547) | — |
 | **Canonical** | **FAST-AR: Fast Autoregressive Video Diffusion and World Models with Temporal Cache Compression and Sparse Attention** | ICML 2026 | video/world-model inference / KV cache compression / sparse attention | [Link](https://arxiv.org/abs/2602.01801) | — |
 | **Canonical** | **Faster Activation Functions at the Edge for Post-Training Speedups** | ICML 2026 | edge AI / compiler / activation-function acceleration / post-training optimization | — | — |
