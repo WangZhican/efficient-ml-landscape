@@ -10297,6 +10297,26 @@
     ]
   },
   {
+    "title": "Knowing When to Quit: A Principled Framework for Dynamic Abstention in LLM Reasoning",
+    "venue": "ICML 2026",
+    "topic": "efficient reasoning / dynamic abstention / early termination / test-time compute",
+    "arxiv": "2604.18419",
+    "doi": "",
+    "official_id": "",
+    "paper_url": "https://arxiv.org/abs/2604.18419",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026; principled dynamic mid-generation abstention terminates unpromising reasoning traces, explicitly trading compute for information and reducing wasted chain-of-thought generation.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "LazyAttention: Efficient Retrieval-Augmented Generation with Deferred Positional Encoding",
     "venue": "ICML 2026",
     "topic": "LLM serving / RAG / KV cache reuse / deferred positional encoding / attention kernels",
@@ -10337,6 +10357,27 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Quantization"
+    ]
+  },
+  {
+    "title": "LEAP: Zone-Aware MCTS for LLM Self-Speculative Decoding",
+    "venue": "ICML 2026",
+    "topic": "speculative decoding / self-speculative decoding / MCTS layer selection",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "VrI9sWkJB1",
+    "paper_url": "https://openreview.net/forum?id=VrI9sWkJB1",
+    "code_url": "https://github.com/leiquanzheng/LEAP",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Poster; plug-and-play lossless self-speculative decoding using prefilling-derived redundancy and zone-aware MCTS to construct a per-instance lightweight draft model; reports 1.7x-2.0x inference speedup.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding"
     ]
   },
   {
@@ -12499,6 +12540,28 @@
       "Sparsity / Pruning",
       "Efficient Attention",
       "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "Spectral Heat Flow for Conservative Token Condensation in Vision-Language Models",
+    "venue": "ICML 2026",
+    "topic": "multimodal inference / visual token condensation / training-free token compression",
+    "arxiv": "2607.10640",
+    "doi": "",
+    "official_id": "",
+    "paper_url": "https://arxiv.org/abs/2607.10640",
+    "code_url": "https://github.com/Lzy-dot/SpecFlow",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026; training-free conservative visual-token condensation compatible with FlashAttention; LLaVA-1.5 retains 95.6% of original performance while pruning 88.9% of visual tokens.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "Multimodal / MLLM Serving"
     ]
   },
   {

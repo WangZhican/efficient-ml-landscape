@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **1003 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **262 visible papers = 49 P0 + 93 P1 + 120 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1006 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **262 visible papers = 49 P0 + 93 P1 + 120 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -285,9 +285,9 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 954
+## 🏛️ Classical / Historical · 957
 
-### ICML 2026 · 242
+### ICML 2026 · 245
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -398,8 +398,10 @@
 | **Canonical** | **KernelFoundry: Hardware-aware evolutionary GPU kernel optimization** | ICML 2026 | GPU kernel / compiler / evolutionary optimization / hardware-aware agent systems | [Link](https://arxiv.org/abs/2603.12440) | [Repo](https://github.com/isl-org/kernelfoundry) |
 | **Canonical** | **Knapsack RL: Compute-Efficient Reinforcement Learning via Heterogeneous Rollout Allocation** | ICML 2026 | LLM RL / rollout allocation / training compute efficiency | — | [Repo](https://github.com/liziniu/KnapsackRL) |
 | **Canonical** | **KnapSpec: Self-Speculative Decoding via Adaptive Layer Selection as a Knapsack Problem** | ICML 2026 | speculative decoding / adaptive layer selection / long-context inference | [Link](https://arxiv.org/abs/2602.20217) | [Repo](https://github.com/kaist-flexml-lab/knapspec) |
+| **Canonical** | **Knowing When to Quit: A Principled Framework for Dynamic Abstention in LLM Reasoning** | ICML 2026 | efficient reasoning / dynamic abstention / early termination / test-time compute | [Link](https://arxiv.org/abs/2604.18419) | — |
 | **Canonical** | **LazyAttention: Efficient Retrieval-Augmented Generation with Deferred Positional Encoding** | ICML 2026 | LLM serving / RAG / KV cache reuse / deferred positional encoding / attention kernels | [Link](https://arxiv.org/abs/2606.04302) | — |
 | **Canonical** | **LC-QAT: Data-Efficient 2-Bit QAT for LLMs via Linear-Constrained Vector Quantization** | ICML 2026 | LLM quantization / 2-bit QAT / vector quantization / efficient deployment | [Link](https://arxiv.org/abs/2606.10531) | [Repo](https://github.com/backspacetg/unisvq) |
+| **Canonical** | **LEAP: Zone-Aware MCTS for LLM Self-Speculative Decoding** | ICML 2026 | speculative decoding / self-speculative decoding / MCTS layer selection | — | [Repo](https://github.com/leiquanzheng/LEAP) |
 | **Canonical** | **Learning to Evict from Key-Value Cache** | ICML 2026 | KV cache / long-context inference / learned eviction / reinforcement learning | [Link](https://arxiv.org/abs/2602.10238) | [Repo](https://github.com/apple/ml-learning-to-evict) |
 | **Canonical** | **Learning to Share: Selective Memory for Efficient Parallel Agentic Systems** | ICML 2026 | efficient agent systems / parallel agents / shared memory / computation reuse | [Link](https://arxiv.org/abs/2602.05965) | [Repo](https://github.com/UCF-CRCV/autogen-lts) |
 | **Canonical** | **Less Is More: Training-Free Sparse Attention with Global Locality for Efficient Reasoning** | ICML 2026 | efficient reasoning / sparse attention / KV-cache decoding | [Link](https://arxiv.org/abs/2508.07101) | [Repo](https://github.com/DerrickYLJ/LessIsMore) |
@@ -500,6 +502,7 @@
 | **Canonical** | **SpecMD: A Comprehensive Study On Speculative Expert Prefetching** | ICML 2026 | MoE systems / expert caching / speculative prefetching | [Link](https://arxiv.org/abs/2602.03921) | — |
 | **Canonical** | **SpecPrune-VLA: Accelerating Vision-Language-Action Models via Action-Aware Self-Speculative Pruning** | ICML 2026 | Physical AI / VLA inference / token pruning / self-speculative acceleration | [Link](https://arxiv.org/abs/2509.05614) | [Repo](https://github.com/alexwhz-sjtu/SpecPrune-VLA) |
 | **Canonical** | **SpecSA: Bridging Speculative Decoding and Sparse Attention for Efficient LLM Inference** | ICML 2026 | speculative decoding / sparse attention / long-context LLM inference / GPU kernels | [Link](https://arxiv.org/abs/2605.19893) | — |
+| **Canonical** | **Spectral Heat Flow for Conservative Token Condensation in Vision-Language Models** | ICML 2026 | multimodal inference / visual token condensation / training-free token compression | [Link](https://arxiv.org/abs/2607.10640) | [Repo](https://github.com/Lzy-dot/SpecFlow) |
 | **Canonical** | **Speculative Coupled Decoding for Training-Free Lossless Acceleration of Autoregressive Visual Generation** | ICML 2026 | speculative decoding / autoregressive image-video generation / lossless visual generation acceleration | [Link](https://arxiv.org/abs/2510.24211) | [Repo](https://github.com/junhyukso/SCD) |
 | **Canonical** | **Speedup Patch: Learning a Plug-and-Play Policy to Accelerate Embodied Manipulation** | ICML 2026 | VLA / Physical AI / embodied policy runtime / action-chunk acceleration | [Link](https://arxiv.org/abs/2603.20658) | — |
 | **Canonical** | **SSA: Sparse Sparse Attention by Aligning Full and Sparse Attention Outputs in Feature Space** | ICML 2026 | efficient attention / sparse attention / long-context inference / training | [Link](https://arxiv.org/abs/2511.20102) | [Repo](https://github.com/zhenyi4/ssa) |

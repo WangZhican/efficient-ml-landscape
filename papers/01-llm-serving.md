@@ -1,6 +1,6 @@
 # 01 · LLM Serving
 
-> **390 canonical papers** mapped here, plus a broader **190-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **391 canonical papers** mapped here, plus a broader **190-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -199,7 +199,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 368 canonical
+## 🏛️ Classical / Historical · 369 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -365,6 +365,7 @@
 | **Canonical** | **HeraSys: Collaborative Serving of Multiple LLM Workflows via Fine-Grained End-to-End Optimization** | ICML 2026 | agentic LLM serving / multi-workflow scheduling / reuse / adaptive batching | [Link](https://arxiv.org/abs/2607.22578) | — |
 | **Canonical** | **HexGen-3: A Fully Disaggregated LLM Serving Framework with Fine-Grained Heterogeneous Resource Autoscaling** | ICML 2026 | LLM serving / disaggregation / heterogeneous resource autoscaling | — | — |
 | **Canonical** | **LazyAttention: Efficient Retrieval-Augmented Generation with Deferred Positional Encoding** | ICML 2026 | LLM serving / RAG / KV cache reuse / deferred positional encoding / attention kernels | [Link](https://arxiv.org/abs/2606.04302) | — |
+| **Canonical** | **LEAP: Zone-Aware MCTS for LLM Self-Speculative Decoding** | ICML 2026 | speculative decoding / self-speculative decoding / MCTS layer selection | — | [Repo](https://github.com/leiquanzheng/LEAP) |
 | **Canonical** | **Less Token, More Signal: MoE Expert Pruning via Critical Token Selection** | ICML 2026 | MoE systems / expert pruning / memory-efficient inference | — | — |
 | **Canonical** | **Long-Context Modeling with Dynamic Hierarchical Sparse Attention for Memory-Constrained LLM Inference** | ICML 2026 | efficient attention / long-context LLM inference / on-device inference | [Link](https://arxiv.org/abs/2510.24606) | [Repo](https://github.com/xiongsiheng/DHSA) |
 | **Canonical** | **LRAgent: Efficient KV Cache Sharing for Multi-LoRA LLM Agents** | ICML 2026 | KV cache sharing / multi-LoRA agent serving / Flash-LoRA-Attention | [Link](https://arxiv.org/abs/2602.01053) | — |
