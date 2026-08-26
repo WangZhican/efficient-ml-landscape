@@ -8535,6 +8535,27 @@
     ]
   },
   {
+    "title": "Beyond Sunk Costs: Boosting LLM Pre-training Efficiency via Orthogonal Growth of Mixture-of-Experts",
+    "venue": "ICML 2026",
+    "topic": "LLM training efficiency / MoE / checkpoint reuse / pretraining compute efficiency / model scaling",
+    "arxiv": "2510.08008",
+    "doi": "",
+    "official_id": "2510.08008",
+    "paper_url": "https://arxiv.org/abs/2510.08008",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 main-conference paper. Reuses converged MoE checkpoints through orthogonal depth/width growth instead of restarting pretraining; experiments up to 70B parameters and 1T tokens report 10.6% higher downstream accuracy than training from scratch under the same additional compute budget, making prior training sunk cost reusable.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "MoE Systems / Accelerators",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "BubbleSpec: Turning Long-Tail Bubbles into Speculative Rollout Drafts for Synchronous Reinforcement Learning",
     "venue": "ICML 2026",
     "topic": "LLM RL systems / rollout acceleration / speculative decoding / distributed training",
@@ -9403,6 +9424,26 @@
       "Distributed Training / Inference",
       "Multimodal / MLLM Serving",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Efficient DP-SGD for LLMs with Randomized Clipping",
+    "venue": "ICML 2026",
+    "topic": "memory-efficient LLM training / compute-efficient DP-SGD / long-context training / randomized gradient clipping",
+    "arxiv": "2605.24879",
+    "doi": "",
+    "official_id": "2605.24879",
+    "paper_url": "https://arxiv.org/abs/2605.24879",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 main-conference paper. DP-SGD-RC replaces expensive exact per-sample clipping with randomized trace-estimation based clipping, directly reducing the prohibitive memory and compute overhead of differentially private long-context LLM training while matching baseline utility.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context"
     ]
   },
   {
@@ -11645,6 +11686,28 @@
     ]
   },
   {
+    "title": "Proact-VL: A Proactive VideoLLM for Real-Time AI Companions",
+    "venue": "ICML 2026",
+    "topic": "multimodal serving / streaming VideoLLM / real-time agent / low-latency inference / proactive response control",
+    "arxiv": "2603.03447",
+    "doi": "",
+    "official_id": "2603.03447",
+    "paper_url": "https://arxiv.org/abs/2603.03447",
+    "code_url": "https://github.com/microsoft/AnthropomorphicIntelligence",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 main-conference paper. Proact-VL targets continuous streaming VideoLLM deployment with low-latency inference, autonomous response triggering, and controllable generation under real-time constraints; Microsoft Research and the official project/repository confirm the ICML 2026 identity and real-time serving focus.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "ProphetKV: User-Query-Driven Selective Recomputation for Efficient KV Cache Reuse in Retrieval-Augmented Generation",
     "venue": "ICML 2026",
     "topic": "KV cache reuse / RAG serving / selective recomputation",
@@ -11749,6 +11812,26 @@
       "GPU Kernel / DSL / Compiler",
       "Video / Image Generation",
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "QTALE: Quantization-Robust Token-Adaptive Layer Execution for LLMs",
+    "venue": "ICML 2026",
+    "topic": "quantization / token-adaptive layer execution / dynamic depth / efficient LLM deployment",
+    "arxiv": "2602.10431",
+    "doi": "",
+    "official_id": "2602.10431",
+    "paper_url": "https://arxiv.org/abs/2602.10431",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 main-conference paper. QTALE jointly enables token-adaptive layer skipping for FLOPs reduction and weight quantization for memory reduction, using diverse-path fine-tuning plus inference-time execution-ratio adjustment; reported quantized adaptive models stay within 0.5% of quantization-only accuracy on CommonsenseQA-style evaluations while retaining the deployment savings of both techniques.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization"
     ]
   },
   {
@@ -12639,6 +12722,27 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Sparsity / Pruning"
+    ]
+  },
+  {
+    "title": "SparseOpt: Addressing Normalization-induced Gradient Skew in Sparse Training",
+    "venue": "ICML 2026",
+    "topic": "sparsity / dynamic sparse training / optimizer / training efficiency / normalization",
+    "arxiv": "2605.27541",
+    "doi": "",
+    "official_id": "2605.27541",
+    "paper_url": "https://arxiv.org/abs/2605.27541",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 main-conference paper. Identifies normalization-induced gradient skew as a practical convergence bottleneck in dynamic sparse training and introduces a sparsity-aware optimizer that improves convergence/generalization with minimal additional overhead, directly strengthening the efficiency case for sparse training.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "Distributed Training / Inference"
     ]
   },
   {
