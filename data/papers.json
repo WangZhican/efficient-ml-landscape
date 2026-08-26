@@ -8620,6 +8620,26 @@
     ]
   },
   {
+    "title": "CAT-Q: Cost-efficient and Accurate Ternary Quantization for LLMs",
+    "venue": "ICML 2026",
+    "topic": "LLM quantization / ternary PTQ / 1.58-bit deployment / low-cost calibration / inference acceleration",
+    "arxiv": "2606.26650",
+    "doi": "",
+    "official_id": "2606.26650",
+    "paper_url": "https://arxiv.org/abs/2606.26650",
+    "code_url": "https://github.com/IntelChina-AI/BitTern",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Oral. CAT-Q is a post-training ternary quantization method requiring only 512 calibration samples, reporting roughly 100,000x fewer training tokens than BitNet-style training and scaling to 235B models; official Intel Labs China BitTern code/checkpoints are public.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization"
+    ]
+  },
+  {
     "title": "CLAA: Cross-Layer Attention Aggregation for Accelerating LLM Prefill",
     "venue": "ICML 2026",
     "topic": "LLM prefill / token selection / efficient attention / long context",
@@ -10081,6 +10101,26 @@
     ]
   },
   {
+    "title": "FPTQuant: Function-Preserving Transforms for LLM Quantization",
+    "venue": "ICML 2026",
+    "topic": "LLM quantization / INT4 / function-preserving transforms / activation outlier mitigation / inference acceleration",
+    "arxiv": "2506.04985",
+    "doi": "",
+    "official_id": "2506.04985",
+    "paper_url": "https://arxiv.org/abs/2506.04985",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 main-conference paper listed in the official Downloads inventory. FPTQuant uses lightweight mergeable function-preserving transforms to make transformer activations quantization-friendly with negligible inference overhead and reports up to 3.9x speed-up for static INT4.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization"
+    ]
+  },
+  {
     "title": "GradPower: Powering Gradients for Faster Language Model Pre-Training",
     "venue": "ICML 2026",
     "topic": "distributed training / optimizer / LLM pre-training efficiency / MoE training",
@@ -11266,6 +11306,27 @@
     ]
   },
   {
+    "title": "NeUQI: Near-Optimal Uniform Quantization Parameter Initialization for Low-Bit LLMs",
+    "venue": "ICML 2026",
+    "topic": "LLM quantization / low-bit PTQ / uniform quantization / parameter initialization / consumer-GPU deployment",
+    "arxiv": "2505.17595",
+    "doi": "",
+    "official_id": "2505.17595",
+    "paper_url": "https://arxiv.org/abs/2505.17595",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 main-conference paper confirmed by the senior-author publication list. NeUQI replaces suboptimal Min-Max initialization with efficient near-optimal initialization for uniform low-bit PTQ and is designed to improve practical memory/decoding efficiency on consumer-grade hardware.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "No Retraining at Edge: Efficient Resource-Aware Mixed-Precision Quantization via Federated Supernet Learning",
     "venue": "ICML 2026",
     "topic": "edge AI / mixed-precision quantization / federated supernet / resource-adaptive deployment",
@@ -11956,6 +12017,27 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "BACKFILL_HIGH",
     "why": "ICML 2026 low-precision LLM-training work. Quartet II improves unbiased gradient estimation for fully-NVFP4 training, validates end-to-end pre-training up to 1.9B parameters/38B tokens, and provides Blackwell kernels with up to 4.2x speedup over BF16.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "RaBiT: Residual-Aware Binarization Training for Accurate and Efficient LLMs",
+    "venue": "ICML 2026",
+    "topic": "LLM quantization / 2-bit QAT / residual binarization / matmul-free inference / GPU acceleration",
+    "arxiv": "2602.05367",
+    "doi": "",
+    "official_id": "2602.05367",
+    "paper_url": "https://arxiv.org/abs/2602.05367",
+    "code_url": "https://github.com/SamsungLabs/RaBiT",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 main-conference paper. RaBiT enforces a residual hierarchy in binary QAT to avoid inter-path co-adaptation and reports 4.49x inference speed-up over full precision on RTX 4090; SamsungLabs provides the official implementation.",
     "published_at": "",
     "updated_at": "",
     "is_latest_30d": false,
