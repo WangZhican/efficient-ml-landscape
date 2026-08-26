@@ -11004,6 +11004,27 @@
     ]
   },
   {
+    "title": "MemOCR: Layout-Aware Visual Memory for Efficient Long-Horizon Reasoning",
+    "venue": "ICML 2026",
+    "topic": "efficient reasoning / agent memory / multimodal memory compression / long-horizon context efficiency",
+    "arxiv": "2601.21468",
+    "doi": "",
+    "official_id": "2601.21468",
+    "paper_url": "https://arxiv.org/abs/2601.21468",
+    "code_url": "https://github.com/meituan/MemOCR",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 main-conference paper confirmed by official/author sources and Meituan repository. MemOCR compresses growing interaction histories into adaptive visual layouts and reports about 8x token-efficiency gain under extreme budgets, making it a canonical context/memory-efficiency route for long-horizon agents.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "Memory-Efficient LLM Pretraining via Minimalist Optimizer Design",
     "venue": "ICML 2026",
     "topic": "distributed training / memory-efficient LLM pretraining / optimizer-state reduction",
@@ -13050,6 +13071,27 @@
     ]
   },
   {
+    "title": "SPEED-Bench: A Unified and Diverse Benchmark for Speculative Decoding",
+    "venue": "ICML 2026",
+    "topic": "speculative decoding / production benchmarking / LLM serving / vLLM / TensorRT-LLM / throughput evaluation",
+    "arxiv": "2604.09557",
+    "doi": "",
+    "official_id": "2604.09557",
+    "paper_url": "https://arxiv.org/abs/2604.09557",
+    "code_url": "https://github.com/NVIDIA/Model-Optimizer/tree/main/examples/specdec_bench",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 main-conference paper confirmed by the official ICML Downloads inventory and NVIDIA sources. SPEED-Bench standardizes speculative-decoding evaluation across diverse semantic domains and realistic concurrency regimes using production engines such as vLLM and TensorRT-LLM, providing a high-value systems benchmark for the route.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding"
+    ]
+  },
+  {
     "title": "Speedup Patch: Learning a Plug-and-Play Policy to Accelerate Embodied Manipulation",
     "venue": "ICML 2026",
     "topic": "VLA / Physical AI / embodied policy runtime / action-chunk acceleration",
@@ -13705,6 +13747,28 @@
       "Multimodal / MLLM Serving",
       "Diffusion / Flow Acceleration",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "VLA-ATTC: Adaptive Test-Time Compute for VLA Models with Relative Action Critic Model",
+    "venue": "ICML 2026",
+    "topic": "VLA / Physical AI / adaptive test-time compute / action critic / compute-aware embodied inference",
+    "arxiv": "2605.01194",
+    "doi": "",
+    "official_id": "2605.01194",
+    "paper_url": "https://arxiv.org/abs/2605.01194",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 main-conference paper confirmed by the official ICML Downloads inventory, arXiv, and author publication pages. VLA-ATTC dynamically invokes deliberation only for uncertain embodied decisions and uses efficient candidate sampling to amortize compute, directly filling the protected Physical-AI test-time-compute/serving route.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
     ]
   },
   {
