@@ -9207,6 +9207,29 @@
     ]
   },
   {
+    "title": "EAKV: An Entropy-Driven Adaptive KV Compression Framework for Long Video Understanding",
+    "venue": "ICML 2026",
+    "topic": "multimodal serving / long-video understanding / KV-cache compression / adaptive memory allocation",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "wyT47sv2o8",
+    "paper_url": "https://openreview.net/forum?id=wyT47sv2o8",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 main-conference poster focused directly on long-video MLLM KV-memory bottlenecks. EAKV is training-free and allocates compression budget by layer-wise attention entropy while preserving critical tokens and distilling redundant context into compact anchors; reported results improve over prior compression methods across architectures and model scales.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Attention",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
     "title": "ECHO: Elastic Speculative Decoding with Sparse Gating for High-Concurrency Scenarios",
     "venue": "ICML 2026",
     "topic": "speculative decoding / high-concurrency LLM serving / SGLang",
@@ -9974,6 +9997,27 @@
       "LLM Serving",
       "MoE Systems / Accelerators",
       "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "GSRQ: Gain-Shape Residual Quantization for Sub-1-bit KV Cache",
+    "venue": "ICML 2026",
+    "topic": "KV cache / long-context / sub-1-bit quantization / residual vector quantization",
+    "arxiv": "2607.01065",
+    "doi": "",
+    "official_id": "2607.01065",
+    "paper_url": "https://arxiv.org/abs/2607.01065",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 direct KV-cache compression work. GSRQ replaces standard K-means inside residual vector quantization with gain-shape K-means to preserve directional fidelity at extremely low bit rates; on LLaMA-3-8B at 1 bit it raises LongBench average accuracy from 11.34 to 33.54 versus VQLLM, making sub-1-bit KV storage materially more viable.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Quantization"
     ]
   },
   {
@@ -12149,6 +12193,28 @@
       "KV Cache / Long Context",
       "Distributed Training / Inference",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Semantic Impact–Driven Visual Scheduling in Vision-Language Models",
+    "venue": "ICML 2026",
+    "topic": "multimodal serving / visual KV scheduling / training-free token compression / VLM inference",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "oFZT8HCxmW",
+    "paper_url": "https://openreview.net/forum?id=oFZT8HCxmW",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 main-conference poster directly targeting VLM inference latency from long visual sequences. SIVS uses prediction-conditioned semantic impact rather than attention heuristics to schedule visual KV tokens, achieving about 87% visual-KV compression while preserving over 99% of model performance.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Efficient Attention",
+      "Multimodal / MLLM Serving"
     ]
   },
   {
