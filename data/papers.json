@@ -629,7 +629,6 @@
       "KV Cache / Long Context",
       "Sparsity / Pruning",
       "Efficient Attention",
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -988,7 +987,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -1009,7 +1007,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -1030,7 +1027,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference",
       "Diffusion / Flow Acceleration"
     ]
@@ -1053,7 +1049,6 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Quantization",
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -1156,7 +1151,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -1178,7 +1172,6 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Speculative Decoding",
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -1224,7 +1217,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -1398,7 +1390,6 @@
       "LLM Serving",
       "Sparsity / Pruning",
       "Efficient Attention",
-      "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference",
       "Diffusion / Flow Acceleration"
     ]
@@ -1551,7 +1542,6 @@
       "LLM Serving",
       "Speculative Decoding",
       "MoE Systems / Accelerators",
-      "GPU Kernel / DSL / Compiler",
       "Video / Image Generation",
       "Diffusion / Flow Acceleration"
     ]
@@ -1975,7 +1965,6 @@
     "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving",
-      "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference",
       "Diffusion / Flow Acceleration",
       "Edge / Cloud / Heterogeneous AI"
@@ -2730,7 +2719,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -2751,7 +2739,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration",
       "Edge / Cloud / Heterogeneous AI"
     ]
@@ -2773,7 +2760,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "GPU Kernel / DSL / Compiler",
       "Video / Image Generation",
       "Diffusion / Flow Acceleration"
     ]
@@ -2818,7 +2804,6 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Efficient Attention",
-      "GPU Kernel / DSL / Compiler",
       "Video / Image Generation",
       "Diffusion / Flow Acceleration",
       "Edge / Cloud / Heterogeneous AI"
@@ -2841,7 +2826,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -2886,7 +2870,6 @@
     "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving",
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -2927,7 +2910,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -3077,7 +3059,6 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Quantization",
-      "GPU Kernel / DSL / Compiler",
       "Multimodal / MLLM Serving",
       "Diffusion / Flow Acceleration",
       "VLA / WAM / Physical AI"
@@ -3122,7 +3103,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -3164,7 +3144,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -3208,7 +3187,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -3633,7 +3611,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -3697,7 +3674,6 @@
     "directions": [
       "Quantization",
       "Sparsity / Pruning",
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -3718,7 +3694,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -3761,7 +3736,6 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Sparsity / Pruning",
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration",
       "Edge / Cloud / Heterogeneous AI"
     ]
@@ -3784,7 +3758,6 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Efficient Attention",
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -3849,7 +3822,6 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Efficient Attention",
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -3871,7 +3843,6 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Efficient Attention",
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -3934,7 +3905,6 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Quantization",
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -3956,7 +3926,6 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Quantization",
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -3978,7 +3947,6 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Sparsity / Pruning",
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -4000,7 +3968,6 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Quantization",
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -4021,7 +3988,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -4043,7 +4009,6 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Quantization",
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -4880,7 +4845,6 @@
     "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving",
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -6376,7 +6340,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -6398,7 +6361,6 @@
     "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving",
-      "GPU Kernel / DSL / Compiler",
       "Video / Image Generation",
       "Diffusion / Flow Acceleration"
     ]
@@ -6482,7 +6444,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -6547,7 +6508,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -6568,7 +6528,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -6714,7 +6673,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -6799,7 +6757,6 @@
     "directions": [
       "Quantization",
       "Sparsity / Pruning",
-      "GPU Kernel / DSL / Compiler",
       "Video / Image Generation",
       "Diffusion / Flow Acceleration"
     ]
@@ -6822,7 +6779,6 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Quantization",
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -6949,7 +6905,6 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Quantization",
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -6990,7 +6945,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -7118,7 +7072,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -7142,7 +7095,6 @@
       "LLM Serving",
       "Speculative Decoding",
       "KV Cache / Long Context",
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -7163,7 +7115,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -7516,7 +7467,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -7558,7 +7508,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -7683,7 +7632,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "GPU Kernel / DSL / Compiler",
       "Video / Image Generation",
       "Diffusion / Flow Acceleration"
     ]
@@ -7830,7 +7778,6 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Quantization",
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -7851,7 +7798,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -7873,7 +7819,6 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Quantization",
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -7960,7 +7905,6 @@
     "directions": [
       "Sparsity / Pruning",
       "Efficient Attention",
-      "GPU Kernel / DSL / Compiler",
       "Video / Image Generation",
       "Diffusion / Flow Acceleration"
     ]
@@ -8658,7 +8602,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -9124,7 +9067,6 @@
     "directions": [
       "LLM Serving",
       "Speculative Decoding",
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -9170,7 +9112,6 @@
     "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving",
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -9304,7 +9245,6 @@
       "LLM Serving",
       "Sparsity / Pruning",
       "Efficient Attention",
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -9505,7 +9445,6 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Speculative Decoding",
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -9611,7 +9550,6 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Speculative Decoding",
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -9677,7 +9615,6 @@
       "Speculative Decoding",
       "KV Cache / Long Context",
       "Efficient Attention",
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -9741,7 +9678,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -9892,7 +9828,6 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Quantization",
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -9939,7 +9874,6 @@
       "KV Cache / Long Context",
       "Sparsity / Pruning",
       "Efficient Attention",
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration",
       "Efficient Reasoning / Agents"
     ]
@@ -10052,7 +9986,6 @@
       "LLM Serving",
       "KV Cache / Long Context",
       "Efficient Attention",
-      "GPU Kernel / DSL / Compiler",
       "Video / Image Generation",
       "Diffusion / Flow Acceleration"
     ]
@@ -10887,7 +10820,6 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Speculative Decoding",
-      "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference",
       "Diffusion / Flow Acceleration",
       "Efficient Reasoning / Agents"
@@ -11043,7 +10975,6 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Quantization",
-      "GPU Kernel / DSL / Compiler",
       "Video / Image Generation",
       "Diffusion / Flow Acceleration"
     ]
@@ -11233,7 +11164,6 @@
     "directions": [
       "Sparsity / Pruning",
       "Efficient Attention",
-      "GPU Kernel / DSL / Compiler",
       "Video / Image Generation",
       "Diffusion / Flow Acceleration"
     ]
@@ -11298,7 +11228,6 @@
     "tracking_tier": "Canonical",
     "directions": [
       "KV Cache / Long Context",
-      "GPU Kernel / DSL / Compiler",
       "Video / Image Generation",
       "Diffusion / Flow Acceleration"
     ]
@@ -11910,7 +11839,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration",
       "Efficient Reasoning / Agents"
     ]
@@ -12084,7 +12012,6 @@
     "directions": [
       "Speculative Decoding",
       "Quantization",
-      "GPU Kernel / DSL / Compiler",
       "Video / Image Generation",
       "Diffusion / Flow Acceleration"
     ]
@@ -12477,7 +12404,6 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Quantization",
-      "GPU Kernel / DSL / Compiler",
       "Video / Image Generation",
       "Diffusion / Flow Acceleration"
     ]
@@ -12500,7 +12426,6 @@
     "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving",
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -12849,7 +12774,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "GPU Kernel / DSL / Compiler",
       "Video / Image Generation",
       "Diffusion / Flow Acceleration"
     ]
@@ -12975,7 +12899,6 @@
     "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving",
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -12997,7 +12920,6 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Sparsity / Pruning",
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration",
       "Efficient Reasoning / Agents",
       "VLA / WAM / Physical AI"
@@ -13457,7 +13379,6 @@
     "directions": [
       "Speculative Decoding",
       "KV Cache / Long Context",
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -13478,7 +13399,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference",
       "Diffusion / Flow Acceleration"
     ]
@@ -13544,9 +13464,30 @@
     "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving",
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "TEAM: Temporal-Spatial Consistency Guided Expert Activation for MoE Diffusion Language Model Acceleration",
+    "venue": "ICML 2026",
+    "topic": "moe systems / diffusion language model acceleration / expert activation / speculative decoding / inference acceleration",
+    "arxiv": "2602.08404",
+    "doi": "",
+    "official_id": "2602.08404",
+    "paper_url": "https://arxiv.org/abs/2602.08404",
+    "code_url": "https://github.com/PKU-SEC-Lab/TEAM-MoE-dLLM",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 official Downloads and the senior-author official publication page confirm TEAM as a main-conference ICML 2026 paper. TEAM exploits temporal and spatial consistency in MoE diffusion-language-model routing to activate fewer experts while accepting more tokens, reporting up to 2.2x end-to-end speedup with negligible quality loss. The PKU-SEC-Lab repository is the official author implementation.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Speculative Decoding",
+      "MoE Systems / Accelerators",
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
@@ -13865,7 +13806,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration",
       "Efficient Reasoning / Agents"
     ]
@@ -13957,7 +13897,6 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Efficient Attention",
-      "GPU Kernel / DSL / Compiler",
       "Video / Image Generation",
       "Diffusion / Flow Acceleration"
     ]
@@ -13981,7 +13920,6 @@
     "directions": [
       "Speculative Decoding",
       "Efficient Attention",
-      "GPU Kernel / DSL / Compiler",
       "Multimodal / MLLM Serving",
       "Diffusion / Flow Acceleration",
       "Efficient Reasoning / Agents"
@@ -14344,7 +14282,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "GPU Kernel / DSL / Compiler",
       "Video / Image Generation",
       "Diffusion / Flow Acceleration"
     ]
@@ -14598,7 +14535,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -15921,7 +15857,6 @@
     "tracking_tier": "Canonical",
     "directions": [
       "MoE Systems / Accelerators",
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration",
       "Efficient Reasoning / Agents",
       "Edge / Cloud / Heterogeneous AI"
@@ -15967,7 +15902,6 @@
     "tracking_tier": "Canonical",
     "directions": [
       "MoE Systems / Accelerators",
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration",
       "Efficient Reasoning / Agents",
       "Edge / Cloud / Heterogeneous AI"
@@ -16096,7 +16030,6 @@
     "tracking_tier": "Canonical",
     "directions": [
       "MoE Systems / Accelerators",
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration",
       "Efficient Reasoning / Agents",
       "Edge / Cloud / Heterogeneous AI"
@@ -16163,7 +16096,6 @@
     "tracking_tier": "Canonical",
     "directions": [
       "MoE Systems / Accelerators",
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration",
       "Efficient Reasoning / Agents",
       "Edge / Cloud / Heterogeneous AI"
@@ -16187,7 +16119,6 @@
     "tracking_tier": "Canonical",
     "directions": [
       "MoE Systems / Accelerators",
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration",
       "Efficient Reasoning / Agents",
       "Edge / Cloud / Heterogeneous AI"
@@ -16232,7 +16163,6 @@
     "tracking_tier": "Canonical",
     "directions": [
       "MoE Systems / Accelerators",
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration",
       "Efficient Reasoning / Agents",
       "Edge / Cloud / Heterogeneous AI"
@@ -18573,7 +18503,6 @@
     "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving",
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -18789,7 +18718,6 @@
     "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving",
-      "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference",
       "Diffusion / Flow Acceleration"
     ]
@@ -18875,7 +18803,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "GPU Kernel / DSL / Compiler",
       "Multimodal / MLLM Serving",
       "Diffusion / Flow Acceleration",
       "VLA / WAM / Physical AI"
@@ -18962,7 +18889,6 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "GPU Kernel / DSL / Compiler",
       "Video / Image Generation",
       "Diffusion / Flow Acceleration"
     ]
@@ -19005,7 +18931,6 @@
     "tracking_tier": "Canonical",
     "directions": [
       "KV Cache / Long Context",
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -21520,7 +21445,6 @@
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
-      "GPU Kernel / DSL / Compiler",
       "Video / Image Generation",
       "Diffusion / Flow Acceleration"
     ]
@@ -21543,7 +21467,6 @@
     "tracking_tier": "P0 · Strong",
     "directions": [
       "Sparsity / Pruning",
-      "GPU Kernel / DSL / Compiler",
       "Video / Image Generation",
       "Diffusion / Flow Acceleration"
     ]
@@ -21652,7 +21575,6 @@
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -21922,7 +21844,6 @@
     "tracking_tier": "P0 · Strong",
     "directions": [
       "KV Cache / Long Context",
-      "GPU Kernel / DSL / Compiler",
       "Video / Image Generation",
       "Diffusion / Flow Acceleration"
     ]
@@ -22055,7 +21976,6 @@
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
-      "GPU Kernel / DSL / Compiler",
       "Video / Image Generation",
       "Diffusion / Flow Acceleration"
     ]
@@ -22139,7 +22059,6 @@
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
-      "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -22339,7 +22258,6 @@
     "directions": [
       "Sparsity / Pruning",
       "Efficient Attention",
-      "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference",
       "Diffusion / Flow Acceleration"
     ]

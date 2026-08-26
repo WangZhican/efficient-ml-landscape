@@ -1,6 +1,6 @@
 # 02 · Speculative Decoding
 
-> **141 canonical papers** mapped here, plus a broader **22-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **142 canonical papers** mapped here, plus a broader **22-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -31,7 +31,7 @@
 | **P2 · Relevant** | **DraftExpert: Expansion-Aware Self-Speculative Decoding for End-Device MoE Inference** | Fresh / preprint | llm_serving / spec / moe / edge | [Link](https://arxiv.org/abs/2607.24434) | — |
 | **P2 · Relevant** | **SpecBox: Speculative Sandbox Scheduling for Efficient LLM Agent Serving** | Fresh / preprint | llm_serving / agent | [Link](https://arxiv.org/abs/2607.23933) | — |
 
-## 🏛️ Classical / Historical · 139 canonical
+## 🏛️ Classical / Historical · 140 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -136,6 +136,7 @@
 | **Canonical** | **Speculative Coupled Decoding for Training-Free Lossless Acceleration of Autoregressive Visual Generation** | ICML 2026 | speculative decoding / autoregressive image-video generation / lossless visual generation acceleration | [Link](https://arxiv.org/abs/2510.24211) | [Repo](https://github.com/junhyukso/SCD) |
 | **Canonical** | **SPEED-Bench: A Unified and Diverse Benchmark for Speculative Decoding** | ICML 2026 | speculative decoding / production benchmarking / LLM serving / vLLM / TensorRT-LLM / throughput evaluation | [Link](https://arxiv.org/abs/2604.09557) | [Repo](https://github.com/NVIDIA/Model-Optimizer/tree/main/examples/specdec_bench) |
 | **Canonical** | **Stop the Flip-Flop: Context-Preserving Verification for Fast Revocable Diffusion Decoding** | ICML 2026 | diffusion language model / parallel decoding / KV cache / verification | [Link](https://arxiv.org/abs/2602.06161) | — |
+| **Canonical** | **TEAM: Temporal-Spatial Consistency Guided Expert Activation for MoE Diffusion Language Model Acceleration** | ICML 2026 | moe systems / diffusion language model acceleration / expert activation / speculative decoding / inference acceleration | [Link](https://arxiv.org/abs/2602.08404) | [Repo](https://github.com/PKU-SEC-Lab/TEAM-MoE-dLLM) |
 | **Canonical** | **Variational Speculative Decoding: Rethinking Draft Training from Token Likelihood to Sequence Acceptance** | ICML 2026 | speculative decoding / draft-model training / LLM and MLLM inference acceleration | [Link](https://arxiv.org/abs/2602.05774) | [Repo](https://github.com/LV-Lab-SMU/VSD) |
 | **Canonical** | **Vegas: Self-Speculative Decoding with Verification-Guided Sparse Attention** | ICML 2026 | speculative decoding / sparse attention / KV-cache selection / vLLM serving | [Link](https://arxiv.org/abs/2602.07223) | [Repo](https://github.com/platformxlab/vegas) |
 | **Canonical** | **VIA-SD: Verification via Intra-Model Routing for Speculative Decoding** | ICML 2026 | speculative decoding / hierarchical verification / intra-model routing / adaptive verifier compute / LLM inference acceleration | [Link](https://arxiv.org/abs/2606.12243) | — |

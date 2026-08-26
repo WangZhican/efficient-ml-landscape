@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **1044 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **279 visible papers = 50 P0 + 108 P1 + 121 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1045 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **279 visible papers = 50 P0 + 108 P1 + 121 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -302,9 +302,9 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 994
+## 🏛️ Classical / Historical · 995
 
-### ICML 2026 · 282
+### ICML 2026 · 283
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -562,6 +562,7 @@
 | **Canonical** | **Stop When Further Reasoning Won't Help: Attention-State Adaptive Generation in Reasoning Models** | ICML 2026 | efficient reasoning / test-time compute / adaptive early stopping / inference acceleration | [Link](https://arxiv.org/abs/2606.15070) | — |
 | **Canonical** | **Stream RAG: Instant and Accurate Spoken Dialogue Systems with Streaming Tool Usage** | ICML 2026 | multimodal serving / speech-language model / streaming RAG / tool-use latency / real-time agent systems | [Link](https://arxiv.org/abs/2510.02044) | — |
 | **Canonical** | **StreamFlow: Theory, Algorithm, and Implementation for High-Efficiency Rectified Flow Generation** | ICML 2026 | diffusion / rectified-flow acceleration / TensorRT / generation runtime | [Link](https://arxiv.org/abs/2511.22009) | — |
+| **Canonical** | **TEAM: Temporal-Spatial Consistency Guided Expert Activation for MoE Diffusion Language Model Acceleration** | ICML 2026 | moe systems / diffusion language model acceleration / expert activation / speculative decoding / inference acceleration | [Link](https://arxiv.org/abs/2602.08404) | [Repo](https://github.com/PKU-SEC-Lab/TEAM-MoE-dLLM) |
 | **Canonical** | **TGV-KV: Text-Grounded KV Eviction for Vision-Language Models** | ICML 2026 | multimodal inference / VLM KV cache / eviction / memory and throughput | [Link](https://arxiv.org/abs/2606.03075) | [Repo](https://github.com/Danielement321/TGV-KV) |
 | **Canonical** | **Threshold-Based Exclusive Batching for LLM Inference** | ICML 2026 | LLM serving / batching / hardware-aware scheduling / prefill-decode tradeoff | [Link](https://arxiv.org/abs/2606.00516) | [Repo](https://github.com/weifang231/eb-vllm) |
 | **Canonical** | **ThunderAgent: A Fast, Simple, and Program-Aware Agentic Inference System** | ICML 2026 | agentic inference systems / KV-cache scheduling / RL rollout systems | [Link](https://arxiv.org/abs/2602.13692) | [Repo](https://github.com/ThunderAgent-org/ThunderAgent) |

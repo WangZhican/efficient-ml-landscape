@@ -1,6 +1,6 @@
 # 12 · Diffusion / Flow Acceleration
 
-> **119 canonical papers** mapped here, plus a broader **21-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **120 canonical papers** mapped here, plus a broader **21-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -30,7 +30,7 @@
 | **P2 · Relevant** | **OnlineCache: Learning Dynamic Caching Policies with Error Correction for Efficient Diffusion Inference** | Fresh / preprint | LLM serving; generation acceleration; edge / heterogeneous AI | [Link](https://arxiv.org/abs/2607.29398) | — |
 | **P1 · Watch** | **CORA-Diff: Confidence-Oriented Residual Acceptance for Efficient Diffusion Language Model Inference** | Fresh / preprint | diffusion language model inference / training-free residual acceptance / decoding acceleration | [Link](https://arxiv.org/abs/2608.11235) | — |
 
-## 🏛️ Classical / Historical · 111 canonical
+## 🏛️ Classical / Historical · 112 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -123,6 +123,7 @@
 | **Canonical** | **Stop the Flip-Flop: Context-Preserving Verification for Fast Revocable Diffusion Decoding** | ICML 2026 | diffusion language model / parallel decoding / KV cache / verification | [Link](https://arxiv.org/abs/2602.06161) | — |
 | **Canonical** | **Stop Training for the Worst: Progressive Unmasking Accelerates Masked Diffusion Training** | ICML 2026 | diffusion language model / masked diffusion training / training efficiency | [Link](https://arxiv.org/abs/2602.10314) | [Repo](https://github.com/JaeyeonKim01/PUMA) |
 | **Canonical** | **StreamFlow: Theory, Algorithm, and Implementation for High-Efficiency Rectified Flow Generation** | ICML 2026 | diffusion / rectified-flow acceleration / TensorRT / generation runtime | [Link](https://arxiv.org/abs/2511.22009) | — |
+| **Canonical** | **TEAM: Temporal-Spatial Consistency Guided Expert Activation for MoE Diffusion Language Model Acceleration** | ICML 2026 | moe systems / diffusion language model acceleration / expert activation / speculative decoding / inference acceleration | [Link](https://arxiv.org/abs/2602.08404) | [Repo](https://github.com/PKU-SEC-Lab/TEAM-MoE-dLLM) |
 | **Canonical** | **VectorWorld: Efficient Streaming World Model via Diffusion Flow on Vector Graphs** | ICML 2026 | Physical AI / streaming world model / autonomous-driving simulation / one-step diffusion-flow generation | [Link](https://arxiv.org/abs/2603.17652) | [Repo](https://github.com/jiangchaokang/VectorWorld) |
 | **Canonical** | **Veda: Scalable Video Diffusion via Distilled Sparse Attention** | ICML 2026 | video diffusion acceleration / distilled sparse attention / tile-sparse GPU kernel | [Link](https://arxiv.org/abs/2605.30325) | — |
 | **Canonical** | **Video-SVD: Efficient Video Diffusion via Orthogonal Basis Composition** | ICML 2026 | video generation acceleration / efficient attention / low-rank basis composition | [Link](https://openreview.net/forum?id=jsqpBopQuS) | [Repo](https://github.com/ICTMCG/Video-SVD) |

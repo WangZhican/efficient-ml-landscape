@@ -64,7 +64,7 @@ def code_for(r):
 def _kw_match(blob, kw):
     # Short acronym keywords (e.g. DiT) must match as standalone tokens;
     # naive substring matching misclassified words such as "distributed" as DiT.
-    if (len(kw) <= 3 and kw.isalnum()) or kw in {"serving"}:
+    if (len(kw) <= 3 and kw.isalnum()) or kw in {"serving", "fusion"}:
         return re.search(rf"(?<![a-z0-9]){re.escape(kw)}(?![a-z0-9])", blob) is not None
     return kw in blob
 

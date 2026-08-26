@@ -200,7 +200,6 @@
       "is_latest_30d": true,
       "tracking_tier": "P0 · Strong",
       "directions": [
-        "GPU Kernel / DSL / Compiler",
         "Diffusion / Flow Acceleration"
       ]
     },
@@ -222,7 +221,6 @@
       "tracking_tier": "P0 · Strong",
       "directions": [
         "Sparsity / Pruning",
-        "GPU Kernel / DSL / Compiler",
         "Video / Image Generation",
         "Diffusion / Flow Acceleration"
       ]
@@ -244,7 +242,6 @@
       "is_latest_30d": true,
       "tracking_tier": "P0 · Strong",
       "directions": [
-        "GPU Kernel / DSL / Compiler",
         "Video / Image Generation",
         "Diffusion / Flow Acceleration"
       ]
@@ -434,7 +431,6 @@
       "is_latest_30d": true,
       "tracking_tier": "P0 · Strong",
       "directions": [
-        "GPU Kernel / DSL / Compiler",
         "Video / Image Generation",
         "Diffusion / Flow Acceleration"
       ]
@@ -602,7 +598,6 @@
       "is_latest_30d": true,
       "tracking_tier": "P0 · Strong",
       "directions": [
-        "GPU Kernel / DSL / Compiler",
         "Diffusion / Flow Acceleration"
       ]
     },
@@ -951,7 +946,6 @@
       "tracking_tier": "P0 · Strong",
       "directions": [
         "KV Cache / Long Context",
-        "GPU Kernel / DSL / Compiler",
         "Video / Image Generation",
         "Diffusion / Flow Acceleration"
       ]
@@ -996,7 +990,6 @@
       "directions": [
         "Sparsity / Pruning",
         "Efficient Attention",
-        "GPU Kernel / DSL / Compiler",
         "Distributed Training / Inference",
         "Diffusion / Flow Acceleration"
       ]
@@ -1133,7 +1126,6 @@
         "Quantization",
         "Sparsity / Pruning",
         "Efficient Attention",
-        "GPU Kernel / DSL / Compiler",
         "Multimodal / MLLM Serving",
         "Video / Image Generation",
         "Diffusion / Flow Acceleration"
@@ -1346,7 +1338,6 @@
       "is_latest_30d": true,
       "directions": [
         "LLM Serving",
-        "GPU Kernel / DSL / Compiler",
         "Diffusion / Flow Acceleration"
       ]
     },
@@ -1428,7 +1419,6 @@
       "updated_at": "2026-08-24T16:06:11Z",
       "is_latest_30d": true,
       "directions": [
-        "GPU Kernel / DSL / Compiler",
         "Diffusion / Flow Acceleration"
       ]
     },
@@ -1494,7 +1484,6 @@
       "is_latest_30d": true,
       "directions": [
         "Speculative Decoding",
-        "GPU Kernel / DSL / Compiler",
         "Diffusion / Flow Acceleration"
       ]
     },
@@ -1947,7 +1936,6 @@
       "is_latest_30d": true,
       "directions": [
         "Sparsity / Pruning",
-        "GPU Kernel / DSL / Compiler",
         "Diffusion / Flow Acceleration"
       ]
     },
@@ -2274,7 +2262,6 @@
       "directions": [
         "Sparsity / Pruning",
         "Efficient Attention",
-        "GPU Kernel / DSL / Compiler",
         "Diffusion / Flow Acceleration"
       ]
     },
@@ -3295,7 +3282,6 @@
       "updated_at": "2026-07-31T07:32:10Z",
       "is_latest_30d": true,
       "directions": [
-        "GPU Kernel / DSL / Compiler",
         "Diffusion / Flow Acceleration"
       ]
     },
@@ -3597,7 +3583,6 @@
       "is_latest_30d": true,
       "directions": [
         "Speculative Decoding",
-        "GPU Kernel / DSL / Compiler",
         "Multimodal / MLLM Serving",
         "Diffusion / Flow Acceleration",
         "Edge / Cloud / Heterogeneous AI"
@@ -4335,7 +4320,6 @@
       "is_latest_30d": true,
       "directions": [
         "LLM Serving",
-        "GPU Kernel / DSL / Compiler",
         "Diffusion / Flow Acceleration",
         "VLA / WAM / Physical AI"
       ]
@@ -4788,7 +4772,6 @@
         "LLM Serving",
         "Sparsity / Pruning",
         "Efficient Attention",
-        "GPU Kernel / DSL / Compiler",
         "Diffusion / Flow Acceleration",
         "Edge / Cloud / Heterogeneous AI"
       ]
@@ -5077,7 +5060,6 @@
       "is_latest_30d": true,
       "directions": [
         "LLM Serving",
-        "GPU Kernel / DSL / Compiler",
         "Multimodal / MLLM Serving",
         "Diffusion / Flow Acceleration",
         "VLA / WAM / Physical AI"
@@ -5276,7 +5258,6 @@
       "is_latest_30d": true,
       "directions": [
         "LLM Serving",
-        "GPU Kernel / DSL / Compiler",
         "Diffusion / Flow Acceleration",
         "Edge / Cloud / Heterogeneous AI"
       ]
@@ -6290,7 +6271,6 @@
       "is_latest_30d": true,
       "tracking_tier": "P0 · Strong",
       "directions": [
-        "GPU Kernel / DSL / Compiler",
         "Diffusion / Flow Acceleration"
       ]
     },
@@ -6312,7 +6292,6 @@
       "tracking_tier": "P0 · Strong",
       "directions": [
         "Sparsity / Pruning",
-        "GPU Kernel / DSL / Compiler",
         "Video / Image Generation",
         "Diffusion / Flow Acceleration"
       ]
@@ -6334,7 +6313,6 @@
       "is_latest_30d": true,
       "tracking_tier": "P0 · Strong",
       "directions": [
-        "GPU Kernel / DSL / Compiler",
         "Video / Image Generation",
         "Diffusion / Flow Acceleration"
       ]
@@ -6524,7 +6502,6 @@
       "is_latest_30d": true,
       "tracking_tier": "P0 · Strong",
       "directions": [
-        "GPU Kernel / DSL / Compiler",
         "Video / Image Generation",
         "Diffusion / Flow Acceleration"
       ]
@@ -6692,7 +6669,6 @@
       "is_latest_30d": true,
       "tracking_tier": "P0 · Strong",
       "directions": [
-        "GPU Kernel / DSL / Compiler",
         "Diffusion / Flow Acceleration"
       ]
     },
@@ -7041,7 +7017,6 @@
       "tracking_tier": "P0 · Strong",
       "directions": [
         "KV Cache / Long Context",
-        "GPU Kernel / DSL / Compiler",
         "Video / Image Generation",
         "Diffusion / Flow Acceleration"
       ]
@@ -7086,7 +7061,6 @@
       "directions": [
         "Sparsity / Pruning",
         "Efficient Attention",
-        "GPU Kernel / DSL / Compiler",
         "Distributed Training / Inference",
         "Diffusion / Flow Acceleration"
       ]
@@ -7221,7 +7195,6 @@
         "Quantization",
         "Sparsity / Pruning",
         "Efficient Attention",
-        "GPU Kernel / DSL / Compiler",
         "Multimodal / MLLM Serving",
         "Video / Image Generation",
         "Diffusion / Flow Acceleration"
@@ -7434,7 +7407,6 @@
       "is_latest_30d": true,
       "directions": [
         "LLM Serving",
-        "GPU Kernel / DSL / Compiler",
         "Diffusion / Flow Acceleration"
       ]
     },
@@ -7516,7 +7488,6 @@
       "updated_at": "2026-08-24T16:06:11Z",
       "is_latest_30d": true,
       "directions": [
-        "GPU Kernel / DSL / Compiler",
         "Diffusion / Flow Acceleration"
       ]
     },
@@ -7582,7 +7553,6 @@
       "is_latest_30d": true,
       "directions": [
         "Speculative Decoding",
-        "GPU Kernel / DSL / Compiler",
         "Diffusion / Flow Acceleration"
       ]
     },
@@ -8035,7 +8005,6 @@
       "is_latest_30d": true,
       "directions": [
         "Sparsity / Pruning",
-        "GPU Kernel / DSL / Compiler",
         "Diffusion / Flow Acceleration"
       ]
     },
@@ -8362,7 +8331,6 @@
       "directions": [
         "Sparsity / Pruning",
         "Efficient Attention",
-        "GPU Kernel / DSL / Compiler",
         "Diffusion / Flow Acceleration"
       ]
     },
@@ -9383,7 +9351,6 @@
       "updated_at": "2026-07-31T07:32:10Z",
       "is_latest_30d": true,
       "directions": [
-        "GPU Kernel / DSL / Compiler",
         "Diffusion / Flow Acceleration"
       ]
     },
@@ -9683,7 +9650,6 @@
       "is_latest_30d": true,
       "directions": [
         "Speculative Decoding",
-        "GPU Kernel / DSL / Compiler",
         "Multimodal / MLLM Serving",
         "Diffusion / Flow Acceleration",
         "Edge / Cloud / Heterogeneous AI"
@@ -10421,7 +10387,6 @@
       "is_latest_30d": true,
       "directions": [
         "LLM Serving",
-        "GPU Kernel / DSL / Compiler",
         "Diffusion / Flow Acceleration",
         "VLA / WAM / Physical AI"
       ]
@@ -10874,7 +10839,6 @@
         "LLM Serving",
         "Sparsity / Pruning",
         "Efficient Attention",
-        "GPU Kernel / DSL / Compiler",
         "Diffusion / Flow Acceleration",
         "Edge / Cloud / Heterogeneous AI"
       ]
@@ -11163,7 +11127,6 @@
       "is_latest_30d": true,
       "directions": [
         "LLM Serving",
-        "GPU Kernel / DSL / Compiler",
         "Multimodal / MLLM Serving",
         "Diffusion / Flow Acceleration",
         "VLA / WAM / Physical AI"
@@ -11362,7 +11325,6 @@
       "is_latest_30d": true,
       "directions": [
         "LLM Serving",
-        "GPU Kernel / DSL / Compiler",
         "Diffusion / Flow Acceleration",
         "Edge / Cloud / Heterogeneous AI"
       ]
