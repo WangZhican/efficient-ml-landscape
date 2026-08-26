@@ -1,10 +1,10 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **962 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **963 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
-## ICML 2026 · 250
+## ICML 2026 · 251
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -204,6 +204,7 @@
 | **Canonical** | **SEMA: a Scalable and Efficient Mamba like Attention via Token Localization and Averaging** | ICML 2026 | efficient attention / Mamba-like attention / scalable vision transformer | [Link](https://arxiv.org/abs/2506.08297) | [Repo](https://github.com/nhatthanhtran/SEMA) |
 | **Canonical** | **Semantic Cache Distillation: Efficient State Transfer via Reuse and Selective Patching** | ICML 2026 | LLM serving / disaggregated inference / KV cache / communication optimization | [Link](https://arxiv.org/abs/2606.07684) | — |
 | **Canonical** | **Semantic Impact–Driven Visual Scheduling in Vision-Language Models** | ICML 2026 | multimodal serving / visual KV scheduling / training-free token compression / VLM inference | — | — |
+| **Canonical** | **Semantic Integrity Matters: Benchmarking and Preserving High-Density Reasoning in KV Cache Compression** | ICML 2026 | KV cache / long-context inference / reasoning-aware compression / benchmark / semantic-unit preservation | [Link](https://arxiv.org/abs/2502.01941) | [Repo](https://github.com/Zefan-Cai/KVCache-Factory) |
 | **Canonical** | **SGMD: Score Gradient Matching Distillation for Few-Step Video Diffusion Distillation** | ICML 2026 | video generation acceleration / diffusion distillation / few-step generation | [Link](https://arxiv.org/abs/2605.30116) | [Repo](https://github.com/ModelTC/LightX2V) |
 | **Canonical** | **SINQ: Sinkhorn-Normalized Quantization for Calibration-Free Low-Precision LLM Weights** | ICML 2026 | quantization / low-precision LLM inference / calibration-free PTQ / edge deployment | [Link](https://arxiv.org/abs/2509.22944) | [Repo](https://github.com/huawei-csl/SINQ) |
 | **Canonical** | **SLAT: Segment-Level Adaptive Trimming for Efficient CoT Reasoning** | ICML 2026 | efficient reasoning / chain-of-thought compression / RL / inference compute reduction | [Link](https://arxiv.org/abs/2605.30832) | — |

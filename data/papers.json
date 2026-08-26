@@ -12284,6 +12284,28 @@
     ]
   },
   {
+    "title": "Semantic Integrity Matters: Benchmarking and Preserving High-Density Reasoning in KV Cache Compression",
+    "venue": "ICML 2026",
+    "topic": "KV cache / long-context inference / reasoning-aware compression / benchmark / semantic-unit preservation",
+    "arxiv": "2502.01941",
+    "doi": "",
+    "official_id": "2502.01941",
+    "paper_url": "https://arxiv.org/abs/2502.01941",
+    "code_url": "https://github.com/Zefan-Cai/KVCache-Factory",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 direct KV-cache compression and evaluation work. KVFundaBench exposes a major evaluation gap: aggressive KV compression can preserve retrieval while damaging high-density chain-of-thought reasoning. ShotKV preserves few-shot examples as semantic units and separates prefill/decoding compression; the paper reports 9–18% accuracy gains on long-context generation under compression and about 11% latency reduction versus FullKV.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "SGMD: Score Gradient Matching Distillation for Few-Step Video Diffusion Distillation",
     "venue": "ICML 2026",
     "topic": "video generation acceleration / diffusion distillation / few-step generation",

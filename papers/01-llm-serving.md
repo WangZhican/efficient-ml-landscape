@@ -1,6 +1,6 @@
 # 01 · LLM Serving
 
-> **394 canonical papers** mapped here, plus a broader **190-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **395 canonical papers** mapped here, plus a broader **190-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -199,7 +199,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 372 canonical
+## 🏛️ Classical / Historical · 373 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -399,6 +399,7 @@
 | **Canonical** | **Scout Before You Attend: Sketch-and-Walk Sparse Attention for Efficient LLM Inference** | ICML 2026 | efficient attention / long-context inference | [Link](https://arxiv.org/abs/2602.07397) | — |
 | **Canonical** | **Semantic Cache Distillation: Efficient State Transfer via Reuse and Selective Patching** | ICML 2026 | LLM serving / disaggregated inference / KV cache / communication optimization | [Link](https://arxiv.org/abs/2606.07684) | — |
 | **Canonical** | **Semantic Impact–Driven Visual Scheduling in Vision-Language Models** | ICML 2026 | multimodal serving / visual KV scheduling / training-free token compression / VLM inference | — | — |
+| **Canonical** | **Semantic Integrity Matters: Benchmarking and Preserving High-Density Reasoning in KV Cache Compression** | ICML 2026 | KV cache / long-context inference / reasoning-aware compression / benchmark / semantic-unit preservation | [Link](https://arxiv.org/abs/2502.01941) | [Repo](https://github.com/Zefan-Cai/KVCache-Factory) |
 | **Canonical** | **SLIM: Secure and Efficient Inference for Large Language Models on Untrusted Devices via TEEs** | ICML 2026 | LLM inference / edge systems / trusted execution environment / confidential computing | — | — |
 | **Canonical** | **SPA-Cache: Singular Proxies for Adaptive Caching in Diffusion Language Models** | ICML 2026 | diffusion language model / adaptive caching / inference acceleration | [Link](https://arxiv.org/abs/2602.02544) | [Repo](https://github.com/wenhao728/spa-cache) |
 | **Canonical** | **Sparser Block-Sparse Attention via Token Permutation** | ICML 2026 | efficient attention / block-sparse prefill / custom attention kernels | [Link](https://arxiv.org/abs/2510.21270) | [Repo](https://github.com/xinghaow99/pbs-attn) |
