@@ -1,6 +1,6 @@
 # 13 · Efficient Reasoning / Agents
 
-> **155 canonical papers** mapped here, plus a broader **42-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **156 canonical papers** mapped here, plus a broader **42-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -51,7 +51,7 @@
 | **P2 · Relevant** | **SpecBox: Speculative Sandbox Scheduling for Efficient LLM Agent Serving** | Fresh / preprint | llm_serving / agent | [Link](https://arxiv.org/abs/2607.23933) | — |
 | **P2 · Relevant** | **Agentic CPU-GPU Scheduling for Heterogeneous AI Workloads** | Fresh / preprint | llm_serving / gen / agent / edge | [Link](https://arxiv.org/abs/2607.22242) | — |
 
-## 🏛️ Classical / Historical · 145 canonical
+## 🏛️ Classical / Historical · 146 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -145,6 +145,7 @@
 | **Canonical** | **SmartThinker: Progressive Chain-of-Thought Length Calibration for Efficient Large Language Model Reasoning** | ICML 2026 | efficient reasoning / RL post-training / chain-of-thought length control | [Link](https://arxiv.org/abs/2603.08000) | [Repo](https://github.com/SJTU-RTEAS/SmartThinker) |
 | **Canonical** | **Sparse ActionGen: Accelerating Diffusion Policy with Real-time Pruning** | ICML 2026 | Physical AI / diffusion-policy acceleration / pruning+reuse | [Link](https://arxiv.org/abs/2601.12894) | — |
 | **Canonical** | **SpecExit: Accelerating Large Reasoning Model via Speculative Exit** | ICML 2026 | efficient reasoning / speculative decoding / early exit | [Link](https://arxiv.org/abs/2509.24248) | [Repo](https://github.com/Tencent/AngelSlim) |
+| **Canonical** | **Star Elastic: Many-in-One Reasoning LLMs with Efficient Budget Control** | ICML 2026 | efficient reasoning / elastic LLM inference / MoE compression / dynamic compute budget / low-precision deployment | [Link](https://arxiv.org/abs/2605.07182) | [Repo](https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Elastic-30B-A3B-BF16) |
 | **Canonical** | **StitchCUDA: An Automated Multi-Agents End-to-End GPU Programing Framework with Rubric-based Agentic Reinforcement Learning** | ICML 2026 | GPU kernel / CUDA programming / compiler-agent infrastructure / RL for systems optimization | [Link](https://arxiv.org/abs/2603.02637) | [Repo](https://github.com/UMN-APEX-Lab/StitchCUDA) |
 | **Canonical** | **Stop When Further Reasoning Won't Help: Attention-State Adaptive Generation in Reasoning Models** | ICML 2026 | efficient reasoning / test-time compute / adaptive early stopping / inference acceleration | [Link](https://arxiv.org/abs/2606.15070) | — |
 | **Canonical** | **Stream RAG: Instant and Accurate Spoken Dialogue Systems with Streaming Tool Usage** | ICML 2026 | multimodal serving / speech-language model / streaming RAG / tool-use latency / real-time agent systems | [Link](https://arxiv.org/abs/2510.02044) | — |

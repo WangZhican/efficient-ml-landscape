@@ -12629,6 +12629,27 @@
     ]
   },
   {
+    "title": "Star Elastic: Many-in-One Reasoning LLMs with Efficient Budget Control",
+    "venue": "ICML 2026",
+    "topic": "efficient reasoning / elastic LLM inference / MoE compression / dynamic compute budget / low-precision deployment",
+    "arxiv": "2605.07182",
+    "doi": "",
+    "official_id": "2605.07182",
+    "paper_url": "https://arxiv.org/abs/2605.07182",
+    "code_url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Elastic-30B-A3B-BF16",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 regular paper from NVIDIA. A single post-training run creates nested reasoning submodels across SSM/embedding/MoE/FFN axes; reported 360x lower cost than pretraining from scratch, 7x lower cost than prior compression, and elastic per-phase model selection improves the accuracy-latency frontier with up to 1.9x lower latency. Official NVIDIA model cards provide BF16/FP8/NVFP4 elastic checkpoints.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "MoE Systems / Accelerators",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "STAR-KV: Low-Rank KV Cache Compression via Soft Thresholding for Adaptive Rank Control",
     "venue": "ICML 2026",
     "topic": "KV cache / low-rank compression / mixed-precision quantization / Triton kernel",

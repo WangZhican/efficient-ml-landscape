@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **1007 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **262 visible papers = 49 P0 + 93 P1 + 120 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1008 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **262 visible papers = 49 P0 + 93 P1 + 120 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -285,9 +285,9 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 958
+## 🏛️ Classical / Historical · 959
 
-### ICML 2026 · 246
+### ICML 2026 · 247
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -506,6 +506,7 @@
 | **Canonical** | **Speculative Coupled Decoding for Training-Free Lossless Acceleration of Autoregressive Visual Generation** | ICML 2026 | speculative decoding / autoregressive image-video generation / lossless visual generation acceleration | [Link](https://arxiv.org/abs/2510.24211) | [Repo](https://github.com/junhyukso/SCD) |
 | **Canonical** | **Speedup Patch: Learning a Plug-and-Play Policy to Accelerate Embodied Manipulation** | ICML 2026 | VLA / Physical AI / embodied policy runtime / action-chunk acceleration | [Link](https://arxiv.org/abs/2603.20658) | — |
 | **Canonical** | **SSA: Sparse Sparse Attention by Aligning Full and Sparse Attention Outputs in Feature Space** | ICML 2026 | efficient attention / sparse attention / long-context inference / training | [Link](https://arxiv.org/abs/2511.20102) | [Repo](https://github.com/zhenyi4/ssa) |
+| **Canonical** | **Star Elastic: Many-in-One Reasoning LLMs with Efficient Budget Control** | ICML 2026 | efficient reasoning / elastic LLM inference / MoE compression / dynamic compute budget / low-precision deployment | [Link](https://arxiv.org/abs/2605.07182) | [Repo](https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Elastic-30B-A3B-BF16) |
 | **Canonical** | **STAR-KV: Low-Rank KV Cache Compression via Soft Thresholding for Adaptive Rank Control** | ICML 2026 | KV cache / low-rank compression / mixed-precision quantization / Triton kernel | [Link](https://arxiv.org/abs/2606.08382) | [Repo](https://github.com/PriyanshBhatnagar/STAR-KV) |
 | **Canonical** | **StitchCUDA: An Automated Multi-Agents End-to-End GPU Programing Framework with Rubric-based Agentic Reinforcement Learning** | ICML 2026 | GPU kernel / CUDA programming / compiler-agent infrastructure / RL for systems optimization | [Link](https://arxiv.org/abs/2603.02637) | [Repo](https://github.com/UMN-APEX-Lab/StitchCUDA) |
 | **Canonical** | **Stochastic Sparse Attention for Memory-Bound Inference** | ICML 2026 | sparse attention / memory-bound decoding / stochastic KV access | [Link](https://arxiv.org/abs/2605.01910) | [Repo](https://github.com/OPUSLab/SANTA) |
