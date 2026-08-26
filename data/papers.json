@@ -10612,6 +10612,26 @@
     ]
   },
   {
+    "title": "LATMiX: Learnable Affine Transformations for Microscaling Quantization of LLMs",
+    "venue": "ICML 2026",
+    "topic": "quantization / microscaling MX / learnable affine transforms / low-bit LLM inference",
+    "arxiv": "2602.17681",
+    "doi": "",
+    "official_id": "2602.17681",
+    "paper_url": "https://arxiv.org/abs/2602.17681",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 official Downloads lists LATMiX. It generalizes outlier-reducing rotations to learnable invertible affine transforms optimized for microscaling (MX) quantization and consistently improves low-bit LLM accuracy over strong baselines, directly filling modern hardware-oriented MX quantization coverage.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization"
+    ]
+  },
+  {
     "title": "LazyAttention: Efficient Retrieval-Augmented Generation with Deferred Positional Encoding",
     "venue": "ICML 2026",
     "topic": "LLM serving / RAG / KV cache reuse / deferred positional encoding / attention kernels",
@@ -11807,6 +11827,49 @@
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context"
+    ]
+  },
+  {
+    "title": "Preserve-Then-Quantize: Balancing Rank Budgets for Quantization Error Reconstruction in LLMs",
+    "venue": "ICML 2026",
+    "topic": "quantization / PTQ / low-rank reconstruction / QPEFT / low-bit LLM inference",
+    "arxiv": "2602.02001",
+    "doi": "",
+    "official_id": "2602.02001",
+    "paper_url": "https://arxiv.org/abs/2602.02001",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 official Downloads lists Preserve-Then-Quantize. Structured Residual Reconstruction preserves dominant activation-scaled singular directions before quantization and allocates remaining rank to error reconstruction, improving low-bit PTQ and 2-bit QPEFT accuracy under a fixed rank budget.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization"
+    ]
+  },
+  {
+    "title": "PRIM: Cooperative Dynamic Token Compression for Efficient Large Multimodal Models",
+    "venue": "ICML 2026",
+    "topic": "multimodal / MLLM inference / audio-video token compression / pruning / long-form multimodal efficiency",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "vtYr3VnMym",
+    "paper_url": "https://openreview.net/forum?id=vtYr3VnMym",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 official Downloads and the BUPT PESI official lab page confirm PRIM. It performs cooperative audio-video token compression across encoders and the language model using text-conditioned fusion, attention/frequency-aware pruning, and task-adaptive retention, reducing long-form multimodal inference FLOPs/latency while preserving accuracy.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler",
+      "Multimodal / MLLM Serving"
     ]
   },
   {
