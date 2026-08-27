@@ -8021,6 +8021,27 @@
     ]
   },
   {
+    "title": "AC-ODM: Actor--Critic Online Data Mixing for Sample-Efficient LLM Pretraining",
+    "venue": "ICML 2026",
+    "topic": "distributed training / LLM pretraining / data scheduling / sample-efficient training / online data mixing",
+    "arxiv": "2505.23878",
+    "doi": "",
+    "official_id": "2505.23878",
+    "paper_url": "https://arxiv.org/abs/2505.23878",
+    "code_url": "https://github.com/DANG-ai/AC-ODM",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Poster. AC-ODM uses actor-critic online data mixing to adapt domain sampling during LLM pretraining. On Pythia-1B it reaches the optimal validation perplexity with up to 66% fewer training steps than strong data-mixing baselines, while adding only about 0.4% per-step wall-clock overhead and 2% memory overhead; it also improves downstream MMLU and HumanEval.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "Accordion-Thinking: Self-Regulated Step Summaries for Efficient and Readable LLM Reasoning",
     "venue": "ICML 2026",
     "topic": "efficient reasoning / KV-cache context compression / test-time inference efficiency",
