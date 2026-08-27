@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **1077 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **279 visible papers = 50 P0 + 108 P1 + 121 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1078 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **279 visible papers = 50 P0 + 108 P1 + 121 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -302,9 +302,9 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 1027
+## 🏛️ Classical / Historical · 1028
 
-### ICML 2026 · 315
+### ICML 2026 · 316
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -565,6 +565,7 @@
 | **Canonical** | **SLIM: Secure and Efficient Inference for Large Language Models on Untrusted Devices via TEEs** | ICML 2026 | LLM inference / edge systems / trusted execution environment / confidential computing | [Link](https://icml.cc/virtual/2026/poster/61229) | — |
 | **Canonical** | **Small Generalizable Prompt Predictive Models Can Steer Efficient RL Post-Training of Large Reasoning Models** | ICML 2026 | efficient reasoning / RL post-training / rollout compute allocation | [Link](https://arxiv.org/abs/2602.01970) | — |
 | **Canonical** | **SmartThinker: Progressive Chain-of-Thought Length Calibration for Efficient Large Language Model Reasoning** | ICML 2026 | efficient reasoning / RL post-training / chain-of-thought length control | [Link](https://arxiv.org/abs/2603.08000) | [Repo](https://github.com/SJTU-RTEAS/SmartThinker) |
+| **Canonical** | **SoftMoE: Soft Differentiable Routing for Mixture-of-Experts in LLMs** | ICML 2026 | MoE systems / adaptive expert routing / compute-efficient inference / efficient training | [Link](https://arxiv.org/abs/2606.17952) | [Repo](https://github.com/dlcuda/SoftMoE) |
 | **Canonical** | **SPA-Cache: Singular Proxies for Adaptive Caching in Diffusion Language Models** | ICML 2026 | diffusion language model / adaptive caching / inference acceleration | [Link](https://arxiv.org/abs/2602.02544) | [Repo](https://github.com/wenhao728/spa-cache) |
 | **Canonical** | **Sparse ActionGen: Accelerating Diffusion Policy with Real-time Pruning** | ICML 2026 | Physical AI / diffusion-policy acceleration / pruning+reuse | [Link](https://arxiv.org/abs/2601.12894) | — |
 | **Canonical** | **SparseInfer: Accelerating Large Language Model Inference with Semantics-Inspired Adaptive Sparse Activation** | ICML 2026 | LLM inference / adaptive sparse activation / edge efficiency | [Link](https://arxiv.org/abs/2410.18311) | — |

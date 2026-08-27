@@ -13434,6 +13434,27 @@
     ]
   },
   {
+    "title": "SoftMoE: Soft Differentiable Routing for Mixture-of-Experts in LLMs",
+    "venue": "ICML 2026",
+    "topic": "MoE systems / adaptive expert routing / compute-efficient inference / efficient training",
+    "arxiv": "2606.17952",
+    "doi": "",
+    "official_id": "arxiv:2606.17952",
+    "paper_url": "https://arxiv.org/abs/2606.17952",
+    "code_url": "https://github.com/dlcuda/SoftMoE",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. SoftMoE replaces fixed discrete top-k routing with a differentiable soft top-k LapSum relaxation and learns layer-wise expert budgets under a global compute constraint. It matches or improves hard sparse-MoE quality while activating fewer experts, directly reducing active compute and improving adaptive MoE efficiency; the official implementation is built on Megatron-LM and tested on GH200 systems.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "MoE Systems / Accelerators"
+    ]
+  },
+  {
     "title": "SPA-Cache: Singular Proxies for Adaptive Caching in Diffusion Language Models",
     "venue": "ICML 2026",
     "topic": "diffusion language model / adaptive caching / inference acceleration",
