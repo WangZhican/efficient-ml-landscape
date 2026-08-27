@@ -8718,6 +8718,27 @@
     ]
   },
   {
+    "title": "CacheEdit: Efficient Multi-round Image Editing via Adaptive Token-wise Reuse.",
+    "venue": "ICML 2026",
+    "topic": "video/image generation acceleration / diffusion acceleration / multi-round image editing / adaptive activation cache / token-wise reuse",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "openreview:6IlpepWXJr",
+    "paper_url": "https://openreview.net/forum?id=6IlpepWXJr",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Poster. Training-free Adaptive Activation Cache exploits delayed latent emergence to identify invariant tokens and reuse cached activations across later sampling steps, bypassing redundant DiT computation in multi-round image editing; reported up to 2.5x end-to-end acceleration on FLUX.1 Kontext and Qwen-Image-Edit while improving cross-round consistency.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "CAT-Q: Cost-efficient and Accurate Ternary Quantization for LLMs",
     "venue": "ICML 2026",
     "topic": "LLM quantization / ternary PTQ / 1.58-bit deployment / low-cost calibration / inference acceleration",
