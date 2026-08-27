@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **1067 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **279 visible papers = 50 P0 + 108 P1 + 121 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1068 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **279 visible papers = 50 P0 + 108 P1 + 121 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -302,12 +302,13 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 1017
+## 🏛️ Classical / Historical · 1018
 
-### ICML 2026 · 305
+### ICML 2026 · 306
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
+| **Canonical** | **1-Bit Wonder: Improving QAT Performance in the Low-Bit Regime through K-Means Quantization** | ICML 2026 | quantization / low-bit QAT / 1-bit LLM weights / inference-memory efficiency / standard-hardware deployment | [Link](https://arxiv.org/abs/2602.15563) | — |
 | **Canonical** | **A Queueing-Theoretic Framework for Stability Analysis of LLM Inference with KV Cache Memory Constraints** | ICML 2026 | LLM serving / KV cache memory / queueing / capacity provisioning | [Link](https://arxiv.org/abs/2605.04595) | — |
 | **Canonical** | **A Two-Layer Framework for Joint Online Configuration Selection and Admission Control** | ICML 2026 | LLM serving / GPU scheduling / online configuration selection / admission control | [Link](https://arxiv.org/abs/2602.07663) | — |
 | **Canonical** | **A Unified Sparse Attention via Multi-Granularity Compression** | ICML 2026 | efficient attention / long-context inference | [Link](https://arxiv.org/abs/2512.14082) | — |

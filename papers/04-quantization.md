@@ -1,6 +1,6 @@
 # 04 · Quantization
 
-> **156 canonical papers** mapped here, plus a broader **46-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **157 canonical papers** mapped here, plus a broader **46-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -55,7 +55,7 @@
 | **P2 · Relevant** | **A Motion-Aware Vector Quantization Framework with Centroid Reuse for Efficient VLA Inference** | Fresh / preprint | llm_serving / quant / multimodal / physical | [Link](https://arxiv.org/abs/2607.24148) | — |
 | **P1 · Watch** | **Sparse by Command: Task-Conditional Compute Skipping for Multi-Task Inference Accelerators** | Fresh / preprint | llm_serving / quant / sparse / gen / edge | [Link](https://arxiv.org/abs/2607.22038) | — |
 
-## 🏛️ Classical / Historical · 147 canonical
+## 🏛️ Classical / Historical · 148 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -110,6 +110,7 @@
 | **Canonical** | **Modulated Diffusion: Accelerating Generative Modeling with Modulated Quantization** | ICML 2025 | diffusion acceleration / quantization | [Link](https://proceedings.mlr.press/v267/gao25d.html) | — |
 | **Canonical** | **Q-VDiT: Towards Accurate Quantization and Distillation of Video-Generation Diffusion Transformers** | ICML 2025 | video diffusion quantization / distillation | [Link](https://proceedings.mlr.press/v267/feng25q.html) | [Repo](https://github.com/wlfeng0509/Q-VDiT) |
 | **Canonical** | **QuantSpec: Self-Speculative Decoding with Hierarchical Quantized KV Cache** | ICML 2025 | speculative decoding / KV quantization | [Link](https://proceedings.mlr.press/v267/tiwari25b.html) | — |
+| **Canonical** | **1-Bit Wonder: Improving QAT Performance in the Low-Bit Regime through K-Means Quantization** | ICML 2026 | quantization / low-bit QAT / 1-bit LLM weights / inference-memory efficiency / standard-hardware deployment | [Link](https://arxiv.org/abs/2602.15563) | — |
 | **Canonical** | **A Two-Layer Framework for Joint Online Configuration Selection and Admission Control** | ICML 2026 | LLM serving / GPU scheduling / online configuration selection / admission control | [Link](https://arxiv.org/abs/2602.07663) | — |
 | **Canonical** | **A3: an Analytical Low-Rank Approximation Framework for Attention** | ICML 2026 | LLM compression / low-rank approximation / KV cache compression / FLOPs reduction | [Link](https://arxiv.org/abs/2505.12942) | [Repo](https://github.com/DeepWok/a3) |
 | **Canonical** | **AGoQ: Activation and Gradient Quantization for Memory-Efficient Distributed Training of LLMs** | ICML 2026 | distributed LLM training / activation-gradient quantization / communication-efficient training | [Link](https://arxiv.org/abs/2605.00539) | — |

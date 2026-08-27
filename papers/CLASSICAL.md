@@ -1,13 +1,14 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **1017 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **1018 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
-## ICML 2026 · 305
+## ICML 2026 · 306
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
+| **Canonical** | **1-Bit Wonder: Improving QAT Performance in the Low-Bit Regime through K-Means Quantization** | ICML 2026 | quantization / low-bit QAT / 1-bit LLM weights / inference-memory efficiency / standard-hardware deployment | [Link](https://arxiv.org/abs/2602.15563) | — |
 | **Canonical** | **A Queueing-Theoretic Framework for Stability Analysis of LLM Inference with KV Cache Memory Constraints** | ICML 2026 | LLM serving / KV cache memory / queueing / capacity provisioning | [Link](https://arxiv.org/abs/2605.04595) | — |
 | **Canonical** | **A Two-Layer Framework for Joint Online Configuration Selection and Admission Control** | ICML 2026 | LLM serving / GPU scheduling / online configuration selection / admission control | [Link](https://arxiv.org/abs/2602.07663) | — |
 | **Canonical** | **A Unified Sparse Attention via Multi-Granularity Compression** | ICML 2026 | efficient attention / long-context inference | [Link](https://arxiv.org/abs/2512.14082) | — |
