@@ -12708,6 +12708,27 @@
     ]
   },
   {
+    "title": "Representation Drift Compensation: A Near-Zero Inference Cost Enhancement for LLM Decomposition",
+    "venue": "ICML 2026",
+    "topic": "sparsity/pruning / low-rank LLM decomposition / model compression / near-zero-overhead inference accuracy recovery",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "cNSHGzvmIT",
+    "paper_url": "https://openreview.net/forum?id=cNSHGzvmIT",
+    "code_url": "https://github.com/xinhaoH/SVD-Compen",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Poster. Decomper identifies representation drift caused by low-rank LLM decomposition and learns block-output compensation that materially recovers compressed-model quality with near-zero inference overhead; at 40% compression it reports >70% perplexity reduction versus uncompensated decomposition on LLaMA-3-8B and OPT-13B and >10% reasoning-accuracy recovery. Official author repository verifies the ICML 2026 identity.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "ReQAT: Achieving Full-Precision Reasoning Accuracy with 4-bit Floating-Point Quantization-Aware Training",
     "venue": "ICML 2026",
     "topic": "quantization / reasoning inference / W4A4KV4 / QAT",
