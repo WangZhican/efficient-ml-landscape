@@ -9203,6 +9203,27 @@
     ]
   },
   {
+    "title": "DLLMQuant: A Post-Training Quantization Framework Tailored for Diffusion-Based Large Language Models",
+    "venue": "ICML 2026",
+    "topic": "quantization / diffusion language models / PTQ / W4A4 / deployment efficiency",
+    "arxiv": "2508.14090",
+    "doi": "",
+    "official_id": "2508.14090",
+    "paper_url": "https://arxiv.org/abs/2508.14090",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 official Downloads lists DLLMQuant as a main-conference paper. DLLMQuant is a diffusion-language-model-specific PTQ framework addressing timestep/mask-dependent calibration, iterative error accumulation, and masked-vs-unmasked feature mismatch; the paper reports over 10-point GSM8K recovery for LLADA under 4-bit quantization versus generic PTQ baselines.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "Do Transformers Need Three Projections? A Systematic Study of QKV Variants",
     "venue": "ICML 2026",
     "topic": "efficient attention architecture / KV-cache reduction / projection sharing",
@@ -11507,6 +11528,29 @@
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context"
+    ]
+  },
+  {
+    "title": "NanoFLUX: Distillation-Driven Compression of Large Text-to-Image Generation Models for Mobile Devices",
+    "venue": "ICML 2026",
+    "topic": "image generation acceleration / flow matching / model compression / mobile edge AI / distillation",
+    "arxiv": "2602.06879",
+    "doi": "",
+    "official_id": "2602.06879",
+    "paper_url": "https://arxiv.org/abs/2602.06879",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 official Downloads lists NanoFLUX as a main-conference paper. NanoFLUX progressively compresses FLUX.1-Schnell from a 17B teacher to a 2.4B mobile text-to-image model using DiT pruning, token downsampling, and text-encoder distillation, reporting 512x512 generation in about 2.5 seconds on a mobile device.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {

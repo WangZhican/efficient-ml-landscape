@@ -1,6 +1,6 @@
 # 05 · Sparsity / Pruning
 
-> **171 canonical papers** mapped here, plus a broader **58-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **172 canonical papers** mapped here, plus a broader **58-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -67,7 +67,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 165 canonical
+## 🏛️ Classical / Historical · 166 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -176,6 +176,7 @@
 | **Canonical** | **LoSA: Locality Aware Sparse Attention for Block-Wise Diffusion Language Models** | ICML 2026 | efficient attention / diffusion language model acceleration / KV reuse / sparse attention / long-context inference | [Link](https://arxiv.org/abs/2604.12056) | — |
 | **Canonical** | **Memory-Efficient LLM Training with Dynamic Sparsity: From Stability to Practical Scaling** | ICML 2026 | LLM training efficiency / dynamic sparsity / memory-efficient optimization | [Link](https://arxiv.org/abs/2606.00888) | [Repo](https://github.com/QiaoXiao7282/SMET) |
 | **Canonical** | **Mixture of Distributions Matters: Dynamic Sparse Attention for Efficient Video Diffusion Transformers** | ICML 2026 | video generation acceleration / diffusion / dynamic sparse attention | [Link](https://arxiv.org/abs/2601.11641) | — |
+| **Canonical** | **NanoFLUX: Distillation-Driven Compression of Large Text-to-Image Generation Models for Mobile Devices** | ICML 2026 | image generation acceleration / flow matching / model compression / mobile edge AI / distillation | [Link](https://arxiv.org/abs/2602.06879) | — |
 | **Canonical** | **NanoSpec: Accelerating Speculative Decoding using Minimalist In-Context Vocabularies** | ICML 2026 | speculative decoding / active-vocabulary pruning / GPU runtime | [Link](https://arxiv.org/abs/2605.26444) | — |
 | **Canonical** | **OBCache: Optimal Brain KV Cache Pruning for Efficient Long-Context LLM Inference** | ICML 2026 | KV cache / long-context inference / output-aware eviction / pruning | [Link](https://arxiv.org/abs/2510.07651) | [Repo](https://github.com/DreamSoul-AI/OBCache) |
 | **Canonical** | **On Efficient Scaling of GNNs via IO-Aware Layers Implementations** | ICML 2026 | GPU kernel / graph neural network systems / IO-aware layers / sparse attention / SpMM / hardware-efficient training and inference | [Link](https://arxiv.org/abs/2605.31500) | [Repo](https://github.com/yandex-research/On-Efficient-Scaling-Of-GNNs) |

@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **1060 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **279 visible papers = 50 P0 + 108 P1 + 121 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1062 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **279 visible papers = 50 P0 + 108 P1 + 121 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -302,9 +302,9 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 1010
+## 🏛️ Classical / Historical · 1012
 
-### ICML 2026 · 298
+### ICML 2026 · 300
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -366,6 +366,7 @@
 | **Canonical** | **DFlash: Block Diffusion for Flash Speculative Decoding** | ICML 2026 | speculative decoding / diffusion drafter / LLM inference acceleration | [Link](https://arxiv.org/abs/2602.06036) | [Repo](https://github.com/z-lab/dflash) |
 | **Canonical** | **DFSAttn: Dynamic Fine-grained Sparse Attention for Efficient Video Generation** | ICML 2026 | video diffusion / dynamic sparse attention / GPU-efficient inference | [Link](https://arxiv.org/abs/2605.23445) | [Repo](https://github.com/jessica-hujie/DFSAttn) |
 | **Canonical** | **DiffuMamba: High-Throughput Diffusion LMs with Mamba Backbone** | ICML 2026 | diffusion language models / high-throughput inference / state-space models | [Link](https://openreview.net/forum?id=hLizFuTBsA) | — |
+| **Canonical** | **DLLMQuant: A Post-Training Quantization Framework Tailored for Diffusion-Based Large Language Models** | ICML 2026 | quantization / diffusion language models / PTQ / W4A4 / deployment efficiency | [Link](https://arxiv.org/abs/2508.14090) | — |
 | **Canonical** | **Do Transformers Need Three Projections? A Systematic Study of QKV Variants** | ICML 2026 | efficient attention architecture / KV-cache reduction / projection sharing | [Link](https://arxiv.org/abs/2606.04032) | [Repo](https://github.com/Brainchip-Inc/Do-Transformers-Need-3-Projections) |
 | **Canonical** | **Don't Drop Dropout: Optimizing Layer Sparsity for Efficient LLM Training and Inference** | ICML 2026 | LLM training efficiency / layer sparsity / early exit / self-speculative decoding | [Link](https://sites.google.com/site/shaneabergsma/) | — |
 | **Canonical** | **Dr. Kernel: Reinforcement Learning Done Right for Triton Kernel Generations** | ICML 2026 | GPU kernel generation / Triton / distributed RL infrastructure / kernel optimization | [Link](https://arxiv.org/abs/2602.05885) | [Repo](https://github.com/hkust-nlp/KernelGYM) |
@@ -471,6 +472,7 @@
 | **Canonical** | **Motion-Aware Caching for Efficient Autoregressive Video Generation** | ICML 2026 | autoregressive video generation / cache reuse / diffusion acceleration | [Link](https://arxiv.org/abs/2605.01725) | [Repo](https://github.com/ywlq/MotionCache) |
 | **Canonical** | **Multipole Semantic Attention: A Fast Approximation of Softmax Attention for Pretraining** | ICML 2026 | efficient attention / long-context pretraining / attention approximation | [Link](https://arxiv.org/abs/2509.10406) | — |
 | **Canonical** | **MVR-cache: Optimizing Semantic Caching via Multi-Vector Retrieval and Learned Prompt Segmentation** | ICML 2026 | LLM serving / semantic cache / response reuse / retrieval / inference cost reduction | [Link](https://arxiv.org/abs/2605.24914) | [Repo](https://github.com/PKU-SDS-lab/MVR-Cache) |
+| **Canonical** | **NanoFLUX: Distillation-Driven Compression of Large Text-to-Image Generation Models for Mobile Devices** | ICML 2026 | image generation acceleration / flow matching / model compression / mobile edge AI / distillation | [Link](https://arxiv.org/abs/2602.06879) | — |
 | **Canonical** | **NanoQuant: Efficient Sub-1-Bit Quantization of Large Language Models** | ICML 2026 | quantization / sub-1-bit PTQ / custom kernels / consumer-GPU deployment | [Link](https://arxiv.org/abs/2602.06694) | [Repo](https://github.com/SamsungLabs/NanoQuant) |
 | **Canonical** | **NanoSpec: Accelerating Speculative Decoding using Minimalist In-Context Vocabularies** | ICML 2026 | speculative decoding / active-vocabulary pruning / GPU runtime | [Link](https://arxiv.org/abs/2605.26444) | — |
 | **Canonical** | **NeUQI: Near-Optimal Uniform Quantization Parameter Initialization for Low-Bit LLMs** | ICML 2026 | LLM quantization / low-bit PTQ / uniform quantization / parameter initialization / consumer-GPU deployment | [Link](https://arxiv.org/abs/2505.17595) | — |

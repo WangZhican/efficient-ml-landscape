@@ -1,6 +1,6 @@
 # 04 · Quantization
 
-> **153 canonical papers** mapped here, plus a broader **46-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **154 canonical papers** mapped here, plus a broader **46-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -55,7 +55,7 @@
 | **P2 · Relevant** | **A Motion-Aware Vector Quantization Framework with Centroid Reuse for Efficient VLA Inference** | Fresh / preprint | llm_serving / quant / multimodal / physical | [Link](https://arxiv.org/abs/2607.24148) | — |
 | **P1 · Watch** | **Sparse by Command: Task-Conditional Compute Skipping for Multi-Task Inference Accelerators** | Fresh / preprint | llm_serving / quant / sparse / gen / edge | [Link](https://arxiv.org/abs/2607.22038) | — |
 
-## 🏛️ Classical / Historical · 144 canonical
+## 🏛️ Classical / Historical · 145 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -121,6 +121,7 @@
 | **Canonical** | **CAT-Q: Cost-efficient and Accurate Ternary Quantization for LLMs** | ICML 2026 | LLM quantization / ternary PTQ / 1.58-bit deployment / low-cost calibration / inference acceleration | [Link](https://arxiv.org/abs/2606.26650) | [Repo](https://github.com/IntelChina-AI/BitTern) |
 | **Canonical** | **CoCoQuant: Breaking the Bandwidth Wall via Co-Optimized Communication and Computation Quantization** | ICML 2026 | distributed LLM inference / communication-computation co-design / mixed-precision quantization | [Link](https://openreview.net/forum?id=Bxyc3JZtAB) | — |
 | **Canonical** | **CondiQuant: Condition Number Based Low-Bit Quantization for Image Super-Resolution** | ICML 2026 | quantization / image super-resolution / post-training quantization / edge inference | [Link](https://arxiv.org/abs/2502.15478) | [Repo](https://github.com/Kai-Liu001/CondiQuant) |
+| **Canonical** | **DLLMQuant: A Post-Training Quantization Framework Tailored for Diffusion-Based Large Language Models** | ICML 2026 | quantization / diffusion language models / PTQ / W4A4 / deployment efficiency | [Link](https://arxiv.org/abs/2508.14090) | — |
 | **Canonical** | **ECO: Quantized Training without Full-Precision Master Weights** | ICML 2026 | quantized LLM training / memory-efficient training / optimizer state reduction / FP8 and INT4 | [Link](https://arxiv.org/abs/2601.22101) | — |
 | **Canonical** | **FAIR-Calib: Frontier-Aware Calibration for Post-Training Quantization of Diffusion Language Models** | ICML 2026 | quantization / diffusion language model / W4A4 PTQ / calibration | [Link](https://arxiv.org/abs/2606.06547) | — |
 | **Canonical** | **Faster Than Flash: Exploiting Attention Sparsity for Efficient Long-Context Decoding** | ICML 2026 | long-context LLM decoding / sparse attention / fused Triton kernel | [Link](https://openreview.net/forum?id=r8YhlMRUR2) | — |

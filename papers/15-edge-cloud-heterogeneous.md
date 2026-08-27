@@ -1,6 +1,6 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **213 canonical papers** mapped here, plus a broader **91-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **214 canonical papers** mapped here, plus a broader **91-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -100,7 +100,7 @@
 | **P2 · Relevant** | **HEMERA: A Heterogeneous Memory-Centric Accelerator with Recursive Dataflow for Edge-Constrained State-Space-Duality Models Inference** | Fresh / preprint | llm_serving / edge | [Link](https://arxiv.org/abs/2607.22022) | — |
 | **P2 · Relevant** | **Unified Static-Dynamic Pruning for Efficient LLM Inference** | Fresh / preprint | llm_serving / sparse / kernel / edge | [Link](https://arxiv.org/abs/2607.21985) | — |
 
-## 🏛️ Classical / Historical · 201 canonical
+## 🏛️ Classical / Historical · 202 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -185,6 +185,7 @@
 | **Canonical** | **MAPS: Memory-Aware Predictive Scheduling Framework for Large Language Model Serving** | ICML 2026 | LLM serving / disaggregated inference / predictive scheduling / memory-aware scheduling | [Link](https://openreview.net/forum?id=MsjYbZtVWU) | — |
 | **Canonical** | **MedCoG: Maximizing LLM Inference Density in Medical Reasoning via Meta-Cognitive Regulation** | ICML 2026 | efficient reasoning / agent systems / inference-time compute allocation / adaptive knowledge use | [Link](https://arxiv.org/abs/2602.07905) | — |
 | **Canonical** | **MoshiRAG: Asynchronous Knowledge Retrieval for Full-Duplex Speech Language Models** | ICML 2026 | multimodal serving / full-duplex speech LM / asynchronous RAG / real-time inference | [Link](https://arxiv.org/abs/2604.12928) | [Repo](https://github.com/kyutai-labs/moshi-rag) |
+| **Canonical** | **NanoFLUX: Distillation-Driven Compression of Large Text-to-Image Generation Models for Mobile Devices** | ICML 2026 | image generation acceleration / flow matching / model compression / mobile edge AI / distillation | [Link](https://arxiv.org/abs/2602.06879) | — |
 | **Canonical** | **No Retraining at Edge: Efficient Resource-Aware Mixed-Precision Quantization via Federated Supernet Learning** | ICML 2026 | edge AI / mixed-precision quantization / federated supernet / resource-adaptive deployment | [Link](https://openreview.net/forum?id=nHbvQF35ch) | — |
 | **Canonical** | **OServe: Accelerating LLM Serving via Spatial-Temporal Workload Orchestration** | ICML 2026 | LLM serving / heterogeneous deployment / scheduling | [Link](https://arxiv.org/abs/2602.12151) | — |
 | **Canonical** | **PipeSD: An Efficient Cloud-Edge Collaborative Pipeline Inference Framework with Speculative Decoding** | ICML 2026 | cloud-edge LLM inference / speculative decoding / pipeline scheduling | [Link](https://arxiv.org/abs/2605.13319) | — |

@@ -1,6 +1,6 @@
 # 12 · Diffusion / Flow Acceleration
 
-> **123 canonical papers** mapped here, plus a broader **21-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **125 canonical papers** mapped here, plus a broader **21-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -30,7 +30,7 @@
 | **P2 · Relevant** | **OnlineCache: Learning Dynamic Caching Policies with Error Correction for Efficient Diffusion Inference** | Fresh / preprint | LLM serving; generation acceleration; edge / heterogeneous AI | [Link](https://arxiv.org/abs/2607.29398) | — |
 | **P1 · Watch** | **CORA-Diff: Confidence-Oriented Residual Acceptance for Efficient Diffusion Language Model Inference** | Fresh / preprint | diffusion language model inference / training-free residual acceptance / decoding acceleration | [Link](https://arxiv.org/abs/2608.11235) | — |
 
-## 🏛️ Classical / Historical · 115 canonical
+## 🏛️ Classical / Historical · 117 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -97,6 +97,7 @@
 | **Canonical** | **DFlash: Block Diffusion for Flash Speculative Decoding** | ICML 2026 | speculative decoding / diffusion drafter / LLM inference acceleration | [Link](https://arxiv.org/abs/2602.06036) | [Repo](https://github.com/z-lab/dflash) |
 | **Canonical** | **DFSAttn: Dynamic Fine-grained Sparse Attention for Efficient Video Generation** | ICML 2026 | video diffusion / dynamic sparse attention / GPU-efficient inference | [Link](https://arxiv.org/abs/2605.23445) | [Repo](https://github.com/jessica-hujie/DFSAttn) |
 | **Canonical** | **DiffuMamba: High-Throughput Diffusion LMs with Mamba Backbone** | ICML 2026 | diffusion language models / high-throughput inference / state-space models | [Link](https://openreview.net/forum?id=hLizFuTBsA) | — |
+| **Canonical** | **DLLMQuant: A Post-Training Quantization Framework Tailored for Diffusion-Based Large Language Models** | ICML 2026 | quantization / diffusion language models / PTQ / W4A4 / deployment efficiency | [Link](https://arxiv.org/abs/2508.14090) | — |
 | **Canonical** | **DyLLM: Efficient Diffusion LLM Inference via Saliency-based Token Selection and Partial Attention** | ICML 2026 | diffusion language model inference / token sparsity / activation reuse | [Link](https://arxiv.org/abs/2603.08026) | — |
 | **Canonical** | **EchoAttention: Exploiting Token-Pair Redundancy and Frame-Block Similarity for Efficient Video Generation** | ICML 2026 | video generation acceleration / efficient attention / sparse attention | [Link](https://openreview.net/forum?id=vZZUCDcjSx) | — |
 | **Canonical** | **Efficient Diffusion LLMs via Temporal-Spatial Parallel Decoding and Confidence Extrapolation** | ICML 2026 | diffusion LLM / parallel decoding / inference acceleration | [Link](https://arxiv.org/abs/2605.30753) | — |
@@ -115,6 +116,7 @@
 | **Canonical** | **LSGQuant: Layer-Sensitivity Guided Quantization for One-Step Diffusion Real-World Video Super-Resolution** | ICML 2026 | quantization / video generation acceleration / diffusion transformer / low-bit inference | [Link](https://arxiv.org/abs/2602.03182) | [Repo](https://github.com/zhengchen1999/LSGQuant) |
 | **Canonical** | **Mixture of Distributions Matters: Dynamic Sparse Attention for Efficient Video Diffusion Transformers** | ICML 2026 | video generation acceleration / diffusion / dynamic sparse attention | [Link](https://arxiv.org/abs/2601.11641) | — |
 | **Canonical** | **Motion-Aware Caching for Efficient Autoregressive Video Generation** | ICML 2026 | autoregressive video generation / cache reuse / diffusion acceleration | [Link](https://arxiv.org/abs/2605.01725) | [Repo](https://github.com/ywlq/MotionCache) |
+| **Canonical** | **NanoFLUX: Distillation-Driven Compression of Large Text-to-Image Generation Models for Mobile Devices** | ICML 2026 | image generation acceleration / flow matching / model compression / mobile edge AI / distillation | [Link](https://arxiv.org/abs/2602.06879) | — |
 | **Canonical** | **Prism: Efficient Test-Time Scaling via Hierarchical Search and Self-Verification for Discrete Diffusion Language Models** | ICML 2026 | efficient reasoning / diffusion language models / test-time scaling | [Link](https://arxiv.org/abs/2602.01842) | [Repo](https://github.com/viiika/Prism) |
 | **Canonical** | **Q-DiT4SR: Exploration of Detail-Preserving Diffusion Transformer Quantization for Real-World Image Super-Resolution** | ICML 2026 | quantization / image generation acceleration / diffusion transformer / W4A4 inference | [Link](https://arxiv.org/abs/2602.01273) | [Repo](https://github.com/xunzhang1128/Q-DiT4SR) |
 | **Canonical** | **RobuQ: Pushing DiTs to W1.58A2 via Robust Activation Quantization** | ICML 2026 | quantization / diffusion transformer / ternary weights / ultra-low-bit inference | [Link](https://arxiv.org/abs/2509.23582) | [Repo](https://github.com/racoonykc/RobuQ) |
