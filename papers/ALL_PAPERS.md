@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **1095 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **296 visible papers = 58 P0 + 116 P1 + 122 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1096 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **296 visible papers = 58 P0 + 116 P1 + 122 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -319,9 +319,9 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 1037
+## 🏛️ Classical / Historical · 1038
 
-### ICML 2026 · 325
+### ICML 2026 · 326
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -603,6 +603,7 @@
 | **Canonical** | **SpecMD: A Comprehensive Study On Speculative Expert Prefetching** | ICML 2026 | MoE systems / expert caching / speculative prefetching | [Link](https://arxiv.org/abs/2602.03921) | — |
 | **Canonical** | **SpecPrune-VLA: Accelerating Vision-Language-Action Models via Action-Aware Self-Speculative Pruning** | ICML 2026 | Physical AI / VLA inference / token pruning / self-speculative acceleration | [Link](https://arxiv.org/abs/2509.05614) | [Repo](https://github.com/alexwhz-sjtu/SpecPrune-VLA) |
 | **Canonical** | **SpecSA: Bridging Speculative Decoding and Sparse Attention for Efficient LLM Inference** | ICML 2026 | speculative decoding / sparse attention / long-context LLM inference / GPU kernels | [Link](https://arxiv.org/abs/2605.19893) | — |
+| **Canonical** | **Spectra: Rethinking Optimizers for LLMs Under Spectral Anisotropy** | ICML 2026 | distributed training / LLM optimizer efficiency / optimizer-state memory reduction / spectral optimization | [Link](https://arxiv.org/abs/2602.11185) | [Repo](https://github.com/kimmichtank/spectra) |
 | **Canonical** | **Spectral Heat Flow for Conservative Token Condensation in Vision-Language Models** | ICML 2026 | multimodal inference / visual token condensation / training-free token compression | [Link](https://arxiv.org/abs/2607.10640) | [Repo](https://github.com/Lzy-dot/SpecFlow) |
 | **Canonical** | **Speculative Coupled Decoding for Training-Free Lossless Acceleration of Autoregressive Visual Generation** | ICML 2026 | speculative decoding / autoregressive image-video generation / lossless visual generation acceleration | [Link](https://arxiv.org/abs/2510.24211) | [Repo](https://github.com/junhyukso/SCD) |
 | **Canonical** | **SPEED-Bench: A Unified and Diverse Benchmark for Speculative Decoding** | ICML 2026 | speculative decoding / production benchmarking / LLM serving / vLLM / TensorRT-LLM / throughput evaluation | [Link](https://arxiv.org/abs/2604.09557) | [Repo](https://github.com/NVIDIA/Model-Optimizer/tree/main/examples/specdec_bench) |

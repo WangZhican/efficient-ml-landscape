@@ -1,6 +1,6 @@
 # 09 · Distributed Training / Inference
 
-> **191 canonical papers** mapped here, plus a broader **31-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **192 canonical papers** mapped here, plus a broader **31-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -40,7 +40,7 @@
 | **P1 · Watch** | **AReaL-DTE: Sparse Policy-Weight Transfer for Online Agentic Reinforcement Learning** | Fresh / preprint | agentic RL systems / sparse policy-weight synchronization / cross-cluster serving-training | [Link](https://arxiv.org/abs/2608.00455) | — |
 | **P2 · Relevant** | **HCCL: Collective Communication for Meta Training and Inference Accelerators** | Fresh / preprint | llm_serving | [Link](https://arxiv.org/abs/2608.00358) | — |
 
-## 🏛️ Classical / Historical · 178 canonical
+## 🏛️ Classical / Historical · 179 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -141,6 +141,7 @@
 | **Canonical** | **SparseOpt: Addressing Normalization-induced Gradient Skew in Sparse Training** | ICML 2026 | sparsity / dynamic sparse training / optimizer / training efficiency / normalization | [Link](https://arxiv.org/abs/2605.27541) | — |
 | **Canonical** | **Sparser, Faster, Lighter Transformer Language Models** | ICML 2026 | LLM sparsity / CUDA kernels / inference and training efficiency | [Link](https://arxiv.org/abs/2603.23198) | — |
 | **Canonical** | **SpecForge: A Flexible and Efficient Open-Source Training Framework for Speculative Decoding** | ICML 2026 | speculative decoding / draft-model training infrastructure / SGLang | [Link](https://arxiv.org/abs/2603.18567) | [Repo](https://github.com/sgl-project/SpecForge) |
+| **Canonical** | **Spectra: Rethinking Optimizers for LLMs Under Spectral Anisotropy** | ICML 2026 | distributed training / LLM optimizer efficiency / optimizer-state memory reduction / spectral optimization | [Link](https://arxiv.org/abs/2602.11185) | [Repo](https://github.com/kimmichtank/spectra) |
 | **Canonical** | **STLA: Spatiotemporal Lookahead Alignment for Post-Training Quantization** | ICML 2026 | quantization / low-bit LLM PTQ / adaptive rounding / Hessian-guided compensation | [Link](https://openreview.net/forum?id=d3RFDLBw01) | [Repo](https://github.com/AI2C-Lab/STLA) |
 | **Canonical** | **Stop Training for the Worst: Progressive Unmasking Accelerates Masked Diffusion Training** | ICML 2026 | diffusion language model / masked diffusion training / training efficiency | [Link](https://arxiv.org/abs/2602.10314) | [Repo](https://github.com/JaeyeonKim01/PUMA) |
 | **Canonical** | **Towards Efficient LLMs Annealing with Principled Sample Selection** | ICML 2026 | LLM training efficiency / annealing / data selection / optimization-aware sample scheduling | [Link](https://arxiv.org/abs/2605.31175) | [Repo](https://github.com/xuyj233/Direct) |

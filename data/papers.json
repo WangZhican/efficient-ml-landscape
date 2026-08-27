@@ -14155,6 +14155,26 @@
     ]
   },
   {
+    "title": "Spectra: Rethinking Optimizers for LLMs Under Spectral Anisotropy",
+    "venue": "ICML 2026",
+    "topic": "distributed training / LLM optimizer efficiency / optimizer-state memory reduction / spectral optimization",
+    "arxiv": "2602.11185",
+    "doi": "",
+    "official_id": "2602.11185",
+    "paper_url": "https://arxiv.org/abs/2602.11185",
+    "code_url": "https://github.com/kimmichtank/spectra",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Poster. Spectra tracks the dominant low-rank gradient spike with cached warm-started power iteration and applies low-rank spectral shaping. It reaches matched loss up to about 1.34x faster than AdamW, is 5.1x faster than Muon in optimizer processing time, cuts optimizer-state memory by 49.25%, and has negligible end-to-end overhead. Direct LLM training-efficiency canonical.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "Spectral Heat Flow for Conservative Token Condensation in Vision-Language Models",
     "venue": "ICML 2026",
     "topic": "multimodal inference / visual token condensation / training-free token compression",
