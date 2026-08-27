@@ -1,6 +1,6 @@
 # 04 · Quantization
 
-> **154 canonical papers** mapped here, plus a broader **46-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **155 canonical papers** mapped here, plus a broader **46-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -55,7 +55,7 @@
 | **P2 · Relevant** | **A Motion-Aware Vector Quantization Framework with Centroid Reuse for Efficient VLA Inference** | Fresh / preprint | llm_serving / quant / multimodal / physical | [Link](https://arxiv.org/abs/2607.24148) | — |
 | **P1 · Watch** | **Sparse by Command: Task-Conditional Compute Skipping for Multi-Task Inference Accelerators** | Fresh / preprint | llm_serving / quant / sparse / gen / edge | [Link](https://arxiv.org/abs/2607.22038) | — |
 
-## 🏛️ Classical / Historical · 145 canonical
+## 🏛️ Classical / Historical · 146 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -161,6 +161,7 @@
 | **Canonical** | **SINQ: Sinkhorn-Normalized Quantization for Calibration-Free Low-Precision LLM Weights** | ICML 2026 | quantization / low-precision LLM inference / calibration-free PTQ / edge deployment | [Link](https://arxiv.org/abs/2509.22944) | [Repo](https://github.com/huawei-csl/SINQ) |
 | **Canonical** | **STAR-KV: Low-Rank KV Cache Compression via Soft Thresholding for Adaptive Rank Control** | ICML 2026 | KV cache / low-rank compression / mixed-precision quantization / Triton kernel | [Link](https://arxiv.org/abs/2606.08382) | [Repo](https://github.com/PriyanshBhatnagar/STAR-KV) |
 | **Canonical** | **STLA: Spatiotemporal Lookahead Alignment for Post-Training Quantization** | ICML 2026 | quantization / low-bit LLM PTQ / adaptive rounding / Hessian-guided compensation | [Link](https://openreview.net/forum?id=d3RFDLBw01) | [Repo](https://github.com/AI2C-Lab/STLA) |
+| **Canonical** | **TetraJet-v2: Accurate NVFP4 Training for Large Language Models with Oscillation Suppression and Outlier Control** | ICML 2026 | quantization / NVFP4 / fully quantized LLM training / low-precision training / GPU kernels | [Link](https://arxiv.org/abs/2510.27527) | [Repo](https://github.com/thu-ml/TetraJet-v2-NVFP4Training) |
 | **Canonical** | **TwinQuant: Learnable Subspace Decomposition for 4-Bit LLM Quantization** | ICML 2026 | LLM quantization / 4-bit PTQ-QAT style subspace optimization / fused low-rank kernel / inference acceleration | [Link](https://arxiv.org/abs/2606.01556) | — |
 | **Canonical** | **TWLA: Achieving Ternary Weights and Low-Bit Activations for LLMs via Post-Training Quantization** | ICML 2026 | LLM quantization / ternary weights / W1.58A4 PTQ / activation outlier suppression / deployment acceleration | [Link](https://arxiv.org/abs/2606.13054) | [Repo](https://github.com/Kishon-zzx/TWLA) |
 | **Canonical** | **Unveiling the Potential of Quantization with MXFP4: Strategies for Quantization Error Reduction** | ICML 2026 | LLM quantization / MXFP4 / microscaling formats / hardware-software co-design / low-precision inference | [Link](https://arxiv.org/abs/2603.08713) | — |

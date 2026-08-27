@@ -11488,6 +11488,27 @@
     ]
   },
   {
+    "title": "Multi-Head LatentMoE and Head Parallel: Communication-Efficient and Deterministic MoE Parallelism",
+    "venue": "ICML 2026",
+    "topic": "MoE systems / distributed training / communication-efficient parallelism / deterministic routing / IO-aware execution",
+    "arxiv": "2602.04870",
+    "doi": "",
+    "official_id": "2602.04870",
+    "paper_url": "https://arxiv.org/abs/2602.04870",
+    "code_url": "https://github.com/kerner-lab/Sparse-GPT-Pretraining",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 main-conference paper. Multi-Head LatentMoE with Head Parallel achieves O(1) communication cost with respect to activated experts, fully balanced deterministic traffic, and IO-aware routing/expert computation; compared with MoE expert parallelism it reports up to 1.61x faster training at identical performance.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "MoE Systems / Accelerators",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "Multipole Semantic Attention: A Fast Approximation of Softmax Attention for Pretraining",
     "venue": "ICML 2026",
     "topic": "efficient attention / long-context pretraining / attention approximation",
@@ -13849,6 +13870,27 @@
       "Speculative Decoding",
       "MoE Systems / Accelerators",
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "TetraJet-v2: Accurate NVFP4 Training for Large Language Models with Oscillation Suppression and Outlier Control",
+    "venue": "ICML 2026",
+    "topic": "quantization / NVFP4 / fully quantized LLM training / low-precision training / GPU kernels",
+    "arxiv": "2510.27527",
+    "doi": "",
+    "official_id": "2510.27527",
+    "paper_url": "https://arxiv.org/abs/2510.27527",
+    "code_url": "https://github.com/thu-ml/TetraJet-v2-NVFP4Training",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Spotlight. TetraJet-v2 provides end-to-end NVFP4 fully-quantized LLM training with unbiased double-block quantization, OsciReset, and OutControl. The official implementation includes Blackwell-oriented NVFP4 kernels and reports a 51.3% reduction in the average accuracy gap to BF16 over prior FP4 methods while retaining end-to-end speedups over FP8 baselines.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {

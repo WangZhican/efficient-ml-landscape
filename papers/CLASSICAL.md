@@ -1,10 +1,10 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **1012 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **1014 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
-## ICML 2026 · 300
+## ICML 2026 · 302
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -170,6 +170,7 @@
 | **Canonical** | **MoSE: Mixture of Slimmable Experts for Efficient and Adaptive Language Models** | ICML 2026 | MoE / conditional computation / slimmable experts / adaptive inference FLOPs | [Link](https://arxiv.org/abs/2602.06154) | [Repo](https://github.com/tnurbek/mose) |
 | **Canonical** | **MoshiRAG: Asynchronous Knowledge Retrieval for Full-Duplex Speech Language Models** | ICML 2026 | multimodal serving / full-duplex speech LM / asynchronous RAG / real-time inference | [Link](https://arxiv.org/abs/2604.12928) | [Repo](https://github.com/kyutai-labs/moshi-rag) |
 | **Canonical** | **Motion-Aware Caching for Efficient Autoregressive Video Generation** | ICML 2026 | autoregressive video generation / cache reuse / diffusion acceleration | [Link](https://arxiv.org/abs/2605.01725) | [Repo](https://github.com/ywlq/MotionCache) |
+| **Canonical** | **Multi-Head LatentMoE and Head Parallel: Communication-Efficient and Deterministic MoE Parallelism** | ICML 2026 | MoE systems / distributed training / communication-efficient parallelism / deterministic routing / IO-aware execution | [Link](https://arxiv.org/abs/2602.04870) | [Repo](https://github.com/kerner-lab/Sparse-GPT-Pretraining) |
 | **Canonical** | **Multipole Semantic Attention: A Fast Approximation of Softmax Attention for Pretraining** | ICML 2026 | efficient attention / long-context pretraining / attention approximation | [Link](https://arxiv.org/abs/2509.10406) | — |
 | **Canonical** | **MVR-cache: Optimizing Semantic Caching via Multi-Vector Retrieval and Learned Prompt Segmentation** | ICML 2026 | LLM serving / semantic cache / response reuse / retrieval / inference cost reduction | [Link](https://arxiv.org/abs/2605.24914) | [Repo](https://github.com/PKU-SDS-lab/MVR-Cache) |
 | **Canonical** | **NanoFLUX: Distillation-Driven Compression of Large Text-to-Image Generation Models for Mobile Devices** | ICML 2026 | image generation acceleration / flow matching / model compression / mobile edge AI / distillation | [Link](https://arxiv.org/abs/2602.06879) | — |
@@ -280,6 +281,7 @@
 | **Canonical** | **Stream RAG: Instant and Accurate Spoken Dialogue Systems with Streaming Tool Usage** | ICML 2026 | multimodal serving / speech-language model / streaming RAG / tool-use latency / real-time agent systems | [Link](https://arxiv.org/abs/2510.02044) | — |
 | **Canonical** | **StreamFlow: Theory, Algorithm, and Implementation for High-Efficiency Rectified Flow Generation** | ICML 2026 | diffusion / rectified-flow acceleration / TensorRT / generation runtime | [Link](https://arxiv.org/abs/2511.22009) | — |
 | **Canonical** | **TEAM: Temporal-Spatial Consistency Guided Expert Activation for MoE Diffusion Language Model Acceleration** | ICML 2026 | moe systems / diffusion language model acceleration / expert activation / speculative decoding / inference acceleration | [Link](https://arxiv.org/abs/2602.08404) | [Repo](https://github.com/PKU-SEC-Lab/TEAM-MoE-dLLM) |
+| **Canonical** | **TetraJet-v2: Accurate NVFP4 Training for Large Language Models with Oscillation Suppression and Outlier Control** | ICML 2026 | quantization / NVFP4 / fully quantized LLM training / low-precision training / GPU kernels | [Link](https://arxiv.org/abs/2510.27527) | [Repo](https://github.com/thu-ml/TetraJet-v2-NVFP4Training) |
 | **Canonical** | **TGV-KV: Text-Grounded KV Eviction for Vision-Language Models** | ICML 2026 | multimodal inference / VLM KV cache / eviction / memory and throughput | [Link](https://arxiv.org/abs/2606.03075) | [Repo](https://github.com/Danielement321/TGV-KV) |
 | **Canonical** | **Threshold-Based Exclusive Batching for LLM Inference** | ICML 2026 | LLM serving / batching / hardware-aware scheduling / prefill-decode tradeoff | [Link](https://arxiv.org/abs/2606.00516) | [Repo](https://github.com/weifang231/eb-vllm) |
 | **Canonical** | **ThunderAgent: A Fast, Simple, and Program-Aware Agentic Inference System** | ICML 2026 | agentic inference systems / KV-cache scheduling / RL rollout systems | [Link](https://arxiv.org/abs/2602.13692) | [Repo](https://github.com/ThunderAgent-org/ThunderAgent) |
