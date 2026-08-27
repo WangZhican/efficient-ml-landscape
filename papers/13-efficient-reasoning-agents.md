@@ -1,6 +1,6 @@
 # 13 · Efficient Reasoning / Agents
 
-> **177 canonical papers** mapped here, plus a broader **51-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **179 canonical papers** mapped here, plus a broader **51-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -60,7 +60,7 @@
 | **P2 · Relevant** | **SpecBox: Speculative Sandbox Scheduling for Efficient LLM Agent Serving** | Fresh / preprint | llm_serving / agent | [Link](https://arxiv.org/abs/2607.23933) | — |
 | **P2 · Relevant** | **Agentic CPU-GPU Scheduling for Heterogeneous AI Workloads** | Fresh / preprint | llm_serving / gen / agent / edge | [Link](https://arxiv.org/abs/2607.22242) | — |
 
-## 🏛️ Classical / Historical · 165 canonical
+## 🏛️ Classical / Historical · 167 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -113,9 +113,11 @@
 | **Canonical** | **CONCUR: High-Throughput Agentic Batch Inference of LLM via Congestion-Based Concurrency Control** | ICML 2026 | agentic LLM serving / KV cache / admission control | [Link](https://arxiv.org/abs/2601.22705) | — |
 | **Canonical** | **ConPress: Learning Efficient Reasoning from Multi-Question Contextual Pressure** | ICML 2026 | efficient reasoning / reasoning-token reduction / inference-time compute reduction / lightweight self-supervised fine-tuning | [Link](https://arxiv.org/abs/2602.01472) | — |
 | **Canonical** | **d3LLM: Ultra-Fast Diffusion LLM using Pseudo-Trajectory Distillation** | ICML 2026 | diffusion language model acceleration / parallel decoding / KV-cache refresh / efficient reasoning inference | [Link](https://arxiv.org/abs/2601.07568) | [Repo](https://github.com/hao-ai-lab/d3LLM) |
+| **Canonical** | **DAPD: Dependency-Aware Parallel Decoding via Attention for Diffusion LLMs** | ICML 2026 | diffusion language model / parallel decoding / efficient reasoning / attention-guided dependency graph / inference acceleration | [Link](https://arxiv.org/abs/2603.12996) | [Repo](https://github.com/quasar529/DAPD) |
 | **Canonical** | **DARTS: Distribution-Aware Active Rollout Trajectory Shaping for Accelerating LLM Reinforcement Learning** | ICML 2026 | LLM RL systems / rollout efficiency / distributed post-training | [Link](https://arxiv.org/abs/2605.30859) | [Repo](https://github.com/AFDWang/DARTS) |
 | **Canonical** | **De-Linearizing Agent Traces: Bayesian Inference of Latent Partial Orders for Efficient Execution** | ICML 2026 | efficient agent systems / parallel agent execution / workflow compilation / context pruning | [Link](https://arxiv.org/abs/2602.02806) | [Repo](https://bpopagent.live/) |
 | **Canonical** | **Deterministic Inference across Tensor Parallel Sizes That Eliminates Training-Inference Mismatch** | ICML 2026 | LLM serving reliability / tensor parallelism / deterministic kernels / RL training-inference consistency | [Link](https://arxiv.org/abs/2511.17826) | [Repo](https://github.com/nanomaoli/llm_reproducibility) |
+| **Canonical** | **Diffusion Language Model Parallel Decoding via Product-of-Experts Bridge** | ICML 2026 | diffusion language model / parallel decoding / product-of-experts bridge / rejection sampling / efficient reasoning | [Link](https://arxiv.org/abs/2606.08048) | [Repo](https://github.com/juntongshi48/poe-bridge) |
 | **Canonical** | **Dr. Kernel: Reinforcement Learning Done Right for Triton Kernel Generations** | ICML 2026 | GPU kernel generation / Triton / distributed RL infrastructure / kernel optimization | [Link](https://arxiv.org/abs/2602.05885) | [Repo](https://github.com/hkust-nlp/KernelGYM) |
 | **Canonical** | **DyCon: Dynamic Reasoning Control via Evolving Difficulty Modeling** | ICML 2026 | efficient reasoning / dynamic reasoning control / test-time compute reduction / training-free early convergence | [Link](https://arxiv.org/abs/2606.07108) | [Repo](https://github.com/yu-lin-li/DyCon) |
 | **Canonical** | **Dynamic Thinking-Token Selection for Efficient Reasoning in Large Reasoning Models** | ICML 2026 | efficient reasoning / KV cache compression / dynamic thinking-token eviction | [Link](https://arxiv.org/abs/2601.18383) | [Repo](https://github.com/Robin930/DynTS) |

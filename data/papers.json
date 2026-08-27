@@ -9271,6 +9271,30 @@
     ]
   },
   {
+    "title": "DAPD: Dependency-Aware Parallel Decoding via Attention for Diffusion LLMs",
+    "venue": "ICML 2026",
+    "topic": "diffusion language model / parallel decoding / efficient reasoning / attention-guided dependency graph / inference acceleration",
+    "arxiv": "2603.12996",
+    "doi": "",
+    "official_id": "2603.12996",
+    "paper_url": "https://arxiv.org/abs/2603.12996",
+    "code_url": "https://github.com/quasar529/DAPD",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 main-conference paper. DAPD is a training-free dLLM decoding method that builds attention-induced dependency graphs over masked tokens and decodes independent sets in parallel, reducing decoding steps substantially while preserving accuracy. The official implementation reports 5.3x-7.6x fewer steps in representative LLaDA settings and direct throughput gains, making it a canonical parallel-decoding efficiency work.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "Efficient Attention",
+      "Diffusion / Flow Acceleration",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "DARTS: Distribution-Aware Active Rollout Trajectory Shaping for Accelerating LLM Reinforcement Learning",
     "venue": "ICML 2026",
     "topic": "LLM RL systems / rollout efficiency / distributed post-training",
@@ -9505,6 +9529,28 @@
     "directions": [
       "LLM Serving",
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "Diffusion Language Model Parallel Decoding via Product-of-Experts Bridge",
+    "venue": "ICML 2026",
+    "topic": "diffusion language model / parallel decoding / product-of-experts bridge / rejection sampling / efficient reasoning",
+    "arxiv": "2606.08048",
+    "doi": "",
+    "official_id": "2606.08048",
+    "paper_url": "https://arxiv.org/abs/2606.08048",
+    "code_url": "https://github.com/juntongshi48/poe-bridge",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 main-conference paper. PoE-Bridge uses an intermediate product-of-experts distribution to bridge diffusion-LM proposals and an autoregressive target, combining parallel drafts, rejection sampling, and importance correction. The paper reports about 5x speedup over standard diffusion-LM decoding while recovering at least 95% of the target AR model performance, making it a direct high-value parallel-decoding efficiency work.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Speculative Decoding",
+      "Diffusion / Flow Acceleration",
+      "Efficient Reasoning / Agents"
     ]
   },
   {

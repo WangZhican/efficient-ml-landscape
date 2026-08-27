@@ -1,10 +1,10 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **1040 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **1042 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
-## ICML 2026 · 328
+## ICML 2026 · 330
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -61,6 +61,7 @@
 | **Canonical** | **CSD: Content-aware Speculative Decoding for Efficient Image Generation** | ICML 2026 | speculative decoding / autoregressive image generation / inference acceleration | [Link](https://arxiv.org/abs/2606.27829) | [Repo](https://github.com/aderfebr/CSD) |
 | **Canonical** | **D3: Dynamic Directional Graph-Constrained Data Scheduling for LLM Training** | ICML 2026 | LLM training efficiency / data scheduling / pretraining and post-training / graph-constrained optimization | [Link](https://arxiv.org/abs/2605.31164) | [Repo](https://github.com/xuyj233/D3) |
 | **Canonical** | **d3LLM: Ultra-Fast Diffusion LLM using Pseudo-Trajectory Distillation** | ICML 2026 | diffusion language model acceleration / parallel decoding / KV-cache refresh / efficient reasoning inference | [Link](https://arxiv.org/abs/2601.07568) | [Repo](https://github.com/hao-ai-lab/d3LLM) |
+| **Canonical** | **DAPD: Dependency-Aware Parallel Decoding via Attention for Diffusion LLMs** | ICML 2026 | diffusion language model / parallel decoding / efficient reasoning / attention-guided dependency graph / inference acceleration | [Link](https://arxiv.org/abs/2603.12996) | [Repo](https://github.com/quasar529/DAPD) |
 | **Canonical** | **DARTS: Distribution-Aware Active Rollout Trajectory Shaping for Accelerating LLM Reinforcement Learning** | ICML 2026 | LLM RL systems / rollout efficiency / distributed post-training | [Link](https://arxiv.org/abs/2605.30859) | [Repo](https://github.com/AFDWang/DARTS) |
 | **Canonical** | **DASH: Faster Shampoo via Batched Block Preconditioning and Efficient Inverse-Root Solvers** | ICML 2026 | distributed training / optimizer systems / GPU-aware second-order optimization / LLM pretraining efficiency | [Link](https://arxiv.org/abs/2602.02016) | [Repo](https://github.com/IST-DASLab/DASH) |
 | **Canonical** | **De-Linearizing Agent Traces: Bayesian Inference of Latent Partial Orders for Efficient Execution** | ICML 2026 | efficient agent systems / parallel agent execution / workflow compilation / context pruning | [Link](https://arxiv.org/abs/2602.02806) | [Repo](https://bpopagent.live/) |
@@ -72,6 +73,7 @@
 | **Canonical** | **DFlash: Block Diffusion for Flash Speculative Decoding** | ICML 2026 | speculative decoding / diffusion drafter / LLM inference acceleration | [Link](https://arxiv.org/abs/2602.06036) | [Repo](https://github.com/z-lab/dflash) |
 | **Canonical** | **DFSAttn: Dynamic Fine-grained Sparse Attention for Efficient Video Generation** | ICML 2026 | video diffusion / dynamic sparse attention / GPU-efficient inference | [Link](https://arxiv.org/abs/2605.23445) | [Repo](https://github.com/jessica-hujie/DFSAttn) |
 | **Canonical** | **DiffuMamba: High-Throughput Diffusion LMs with Mamba Backbone** | ICML 2026 | diffusion language models / high-throughput inference / state-space models | [Link](https://openreview.net/forum?id=hLizFuTBsA) | — |
+| **Canonical** | **Diffusion Language Model Parallel Decoding via Product-of-Experts Bridge** | ICML 2026 | diffusion language model / parallel decoding / product-of-experts bridge / rejection sampling / efficient reasoning | [Link](https://arxiv.org/abs/2606.08048) | [Repo](https://github.com/juntongshi48/poe-bridge) |
 | **Canonical** | **DLLMQuant: A Post-Training Quantization Framework Tailored for Diffusion-Based Large Language Models** | ICML 2026 | quantization / diffusion language models / PTQ / W4A4 / deployment efficiency | [Link](https://arxiv.org/abs/2508.14090) | — |
 | **Canonical** | **Do Transformers Need Three Projections? A Systematic Study of QKV Variants** | ICML 2026 | efficient attention architecture / KV-cache reduction / projection sharing | [Link](https://arxiv.org/abs/2606.04032) | [Repo](https://github.com/Brainchip-Inc/Do-Transformers-Need-3-Projections) |
 | **Canonical** | **Don't Drop Dropout: Optimizing Layer Sparsity for Efficient LLM Training and Inference** | ICML 2026 | LLM training efficiency / layer sparsity / early exit / self-speculative decoding | [Link](https://sites.google.com/site/shaneabergsma/) | — |

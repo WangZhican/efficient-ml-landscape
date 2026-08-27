@@ -1,6 +1,6 @@
 # 02 · Speculative Decoding
 
-> **144 canonical papers** mapped here, plus a broader **23-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **146 canonical papers** mapped here, plus a broader **23-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -32,7 +32,7 @@
 | **P2 · Relevant** | **DraftExpert: Expansion-Aware Self-Speculative Decoding for End-Device MoE Inference** | Fresh / preprint | llm_serving / spec / moe / edge | [Link](https://arxiv.org/abs/2607.24434) | — |
 | **P2 · Relevant** | **SpecBox: Speculative Sandbox Scheduling for Efficient LLM Agent Serving** | Fresh / preprint | llm_serving / agent | [Link](https://arxiv.org/abs/2607.23933) | — |
 
-## 🏛️ Classical / Historical · 142 canonical
+## 🏛️ Classical / Historical · 144 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -111,7 +111,9 @@
 | **Canonical** | **ConFu: Contemplate the Future for Better Speculative Sampling** | ICML 2026 | speculative decoding / draft-model quality / future-conditioned speculative sampling | [Link](https://arxiv.org/abs/2603.08899) | — |
 | **Canonical** | **CSD: Content-aware Speculative Decoding for Efficient Image Generation** | ICML 2026 | speculative decoding / autoregressive image generation / inference acceleration | [Link](https://arxiv.org/abs/2606.27829) | [Repo](https://github.com/aderfebr/CSD) |
 | **Canonical** | **d3LLM: Ultra-Fast Diffusion LLM using Pseudo-Trajectory Distillation** | ICML 2026 | diffusion language model acceleration / parallel decoding / KV-cache refresh / efficient reasoning inference | [Link](https://arxiv.org/abs/2601.07568) | [Repo](https://github.com/hao-ai-lab/d3LLM) |
+| **Canonical** | **DAPD: Dependency-Aware Parallel Decoding via Attention for Diffusion LLMs** | ICML 2026 | diffusion language model / parallel decoding / efficient reasoning / attention-guided dependency graph / inference acceleration | [Link](https://arxiv.org/abs/2603.12996) | [Repo](https://github.com/quasar529/DAPD) |
 | **Canonical** | **DFlash: Block Diffusion for Flash Speculative Decoding** | ICML 2026 | speculative decoding / diffusion drafter / LLM inference acceleration | [Link](https://arxiv.org/abs/2602.06036) | [Repo](https://github.com/z-lab/dflash) |
+| **Canonical** | **Diffusion Language Model Parallel Decoding via Product-of-Experts Bridge** | ICML 2026 | diffusion language model / parallel decoding / product-of-experts bridge / rejection sampling / efficient reasoning | [Link](https://arxiv.org/abs/2606.08048) | [Repo](https://github.com/juntongshi48/poe-bridge) |
 | **Canonical** | **Don't Drop Dropout: Optimizing Layer Sparsity for Efficient LLM Training and Inference** | ICML 2026 | LLM training efficiency / layer sparsity / early exit / self-speculative decoding | [Link](https://sites.google.com/site/shaneabergsma/) | — |
 | **Canonical** | **Dustin: Draft-Augmented Sparse Verification for Efficient Long-Context Generation with Speculative Decoding** | ICML 2026 | speculative decoding / sparse verification / long-context KV-cache | [Link](https://arxiv.org/abs/2606.24957) | — |
 | **Canonical** | **ECHO: Elastic Speculative Decoding with Sparse Gating for High-Concurrency Scenarios** | ICML 2026 | speculative decoding / high-concurrency LLM serving / SGLang | [Link](https://arxiv.org/abs/2604.09603) | — |
