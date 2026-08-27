@@ -1,6 +1,6 @@
 # 04 · Quantization
 
-> **158 canonical papers** mapped here, plus a broader **46-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **159 canonical papers** mapped here, plus a broader **46-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -55,7 +55,7 @@
 | **P2 · Relevant** | **A Motion-Aware Vector Quantization Framework with Centroid Reuse for Efficient VLA Inference** | Fresh / preprint | llm_serving / quant / multimodal / physical | [Link](https://arxiv.org/abs/2607.24148) | — |
 | **P1 · Watch** | **Sparse by Command: Task-Conditional Compute Skipping for Multi-Task Inference Accelerators** | Fresh / preprint | llm_serving / quant / sparse / gen / edge | [Link](https://arxiv.org/abs/2607.22038) | — |
 
-## 🏛️ Classical / Historical · 149 canonical
+## 🏛️ Classical / Historical · 150 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -148,6 +148,7 @@
 | **Canonical** | **Proteus: Lookup-Free Trellis-Coded Quantization by Lattice-Breaking Compute Codes for 2-Bit LLMs** | ICML 2026 | quantization / 2-bit weight-only PTQ / trellis-coded quantization / lookup-free dequantization / GPU memory traffic / LLM inference | [Link](https://openreview.net/forum?id=SHYZM21zO7) | [Repo](https://github.com/YZW-explorer/Proteus) |
 | **Canonical** | **PsumQuant: In-line Post-training Partial Sum Quantizer for Energy Efficient NPU Inference** | ICML 2026 | quantization / NPU inference / partial-sum quantization / edge AI / energy-efficient accelerator | [Link](https://openreview.net/forum?id=6Qbb6IcCVy) | — |
 | **Canonical** | **Q-DiT4SR: Exploration of Detail-Preserving Diffusion Transformer Quantization for Real-World Image Super-Resolution** | ICML 2026 | quantization / image generation acceleration / diffusion transformer / W4A4 inference | [Link](https://arxiv.org/abs/2602.01273) | [Repo](https://github.com/xunzhang1128/Q-DiT4SR) |
+| **Canonical** | **Q-Sched: Pushing the Boundaries of Few-Step Diffusion Models with Quantization-Aware Scheduling** | ICML 2026 | quantization / diffusion acceleration / few-step generation / scheduler-level PTQ / edge deployment | [Link](https://arxiv.org/abs/2509.01624) | [Repo](https://github.com/enyac-group/q-sched) |
 | **Canonical** | **QTALE: Quantization-Robust Token-Adaptive Layer Execution for LLMs** | ICML 2026 | quantization / token-adaptive layer execution / dynamic depth / efficient LLM deployment | [Link](https://arxiv.org/abs/2602.10431) | — |
 | **Canonical** | **Quant VideoGen: Auto-Regressive Long Video Generation via 2-Bit KV-Cache Quantization** | ICML 2026 | video generation / KV-cache quantization / long-horizon inference | [Link](https://arxiv.org/abs/2602.02958) | [Repo](https://github.com/svg-project/Quant-VideoGen) |
 | **Canonical** | **Quantization-Aware Distillation for NVFP4 Inference Accuracy Recovery** | ICML 2026 | quantization / NVFP4 / quantization-aware distillation / LLM and VLM inference / post-training accuracy recovery | [Link](https://arxiv.org/abs/2601.20088) | [Repo](https://github.com/NVIDIA/Model-Optimizer) |

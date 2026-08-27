@@ -12464,6 +12464,29 @@
     ]
   },
   {
+    "title": "Q-Sched: Pushing the Boundaries of Few-Step Diffusion Models with Quantization-Aware Scheduling",
+    "venue": "ICML 2026",
+    "topic": "quantization / diffusion acceleration / few-step generation / scheduler-level PTQ / edge deployment",
+    "arxiv": "2509.01624",
+    "doi": "",
+    "official_id": "arxiv:2509.01624",
+    "paper_url": "https://arxiv.org/abs/2509.01624",
+    "code_url": "https://github.com/enyac-group/q-sched",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 main-conference paper. Q-Sched is a scheduler-level post-training quantization method for few-step diffusion models: it keeps quantized weights fixed and learns quantization-aware preconditioning coefficients with a reference-free calibration loss, yielding a 4x model-size reduction while matching or improving full-precision image quality on fast diffusion backbones.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "Diffusion / Flow Acceleration",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "QiMeng-PerceptOS: Semantic-Aware Kernel Optimization for OS-Intensive Workloads via Hardware-Software Alignment",
     "venue": "ICML 2026",
     "topic": "GPU kernel / OS kernel optimization / agentic systems optimization / hardware-software alignment / AI infra",

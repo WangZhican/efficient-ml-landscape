@@ -1,10 +1,10 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **1030 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **1031 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
-## ICML 2026 · 318
+## ICML 2026 · 319
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -220,6 +220,7 @@
 | **Canonical** | **PsumQuant: In-line Post-training Partial Sum Quantizer for Energy Efficient NPU Inference** | ICML 2026 | quantization / NPU inference / partial-sum quantization / edge AI / energy-efficient accelerator | [Link](https://openreview.net/forum?id=6Qbb6IcCVy) | — |
 | **Canonical** | **PuzzleMoE: Efficient Compression of Large Mixture-of-Experts Models via Sparse Expert Merging and Bit-packed inference** | ICML 2026 | MoE compression / sparse expert merging / bit-packed inference | [Link](https://arxiv.org/abs/2511.04805) | — |
 | **Canonical** | **Q-DiT4SR: Exploration of Detail-Preserving Diffusion Transformer Quantization for Real-World Image Super-Resolution** | ICML 2026 | quantization / image generation acceleration / diffusion transformer / W4A4 inference | [Link](https://arxiv.org/abs/2602.01273) | [Repo](https://github.com/xunzhang1128/Q-DiT4SR) |
+| **Canonical** | **Q-Sched: Pushing the Boundaries of Few-Step Diffusion Models with Quantization-Aware Scheduling** | ICML 2026 | quantization / diffusion acceleration / few-step generation / scheduler-level PTQ / edge deployment | [Link](https://arxiv.org/abs/2509.01624) | [Repo](https://github.com/enyac-group/q-sched) |
 | **Canonical** | **QiMeng-PerceptOS: Semantic-Aware Kernel Optimization for OS-Intensive Workloads via Hardware-Software Alignment** | ICML 2026 | GPU kernel / OS kernel optimization / agentic systems optimization / hardware-software alignment / AI infra | [Link](https://openreview.net/forum?id=aKN6UpjSnc) | — |
 | **Canonical** | **QTALE: Quantization-Robust Token-Adaptive Layer Execution for LLMs** | ICML 2026 | quantization / token-adaptive layer execution / dynamic depth / efficient LLM deployment | [Link](https://arxiv.org/abs/2602.10431) | — |
 | **Canonical** | **Quant VideoGen: Auto-Regressive Long Video Generation via 2-Bit KV-Cache Quantization** | ICML 2026 | video generation / KV-cache quantization / long-horizon inference | [Link](https://arxiv.org/abs/2602.02958) | [Repo](https://github.com/svg-project/Quant-VideoGen) |

@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **1080 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **279 visible papers = 50 P0 + 108 P1 + 121 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1081 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **279 visible papers = 50 P0 + 108 P1 + 121 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -302,9 +302,9 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 1030
+## 🏛️ Classical / Historical · 1031
 
-### ICML 2026 · 318
+### ICML 2026 · 319
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -520,6 +520,7 @@
 | **Canonical** | **PsumQuant: In-line Post-training Partial Sum Quantizer for Energy Efficient NPU Inference** | ICML 2026 | quantization / NPU inference / partial-sum quantization / edge AI / energy-efficient accelerator | [Link](https://openreview.net/forum?id=6Qbb6IcCVy) | — |
 | **Canonical** | **PuzzleMoE: Efficient Compression of Large Mixture-of-Experts Models via Sparse Expert Merging and Bit-packed inference** | ICML 2026 | MoE compression / sparse expert merging / bit-packed inference | [Link](https://arxiv.org/abs/2511.04805) | — |
 | **Canonical** | **Q-DiT4SR: Exploration of Detail-Preserving Diffusion Transformer Quantization for Real-World Image Super-Resolution** | ICML 2026 | quantization / image generation acceleration / diffusion transformer / W4A4 inference | [Link](https://arxiv.org/abs/2602.01273) | [Repo](https://github.com/xunzhang1128/Q-DiT4SR) |
+| **Canonical** | **Q-Sched: Pushing the Boundaries of Few-Step Diffusion Models with Quantization-Aware Scheduling** | ICML 2026 | quantization / diffusion acceleration / few-step generation / scheduler-level PTQ / edge deployment | [Link](https://arxiv.org/abs/2509.01624) | [Repo](https://github.com/enyac-group/q-sched) |
 | **Canonical** | **QiMeng-PerceptOS: Semantic-Aware Kernel Optimization for OS-Intensive Workloads via Hardware-Software Alignment** | ICML 2026 | GPU kernel / OS kernel optimization / agentic systems optimization / hardware-software alignment / AI infra | [Link](https://openreview.net/forum?id=aKN6UpjSnc) | — |
 | **Canonical** | **QTALE: Quantization-Robust Token-Adaptive Layer Execution for LLMs** | ICML 2026 | quantization / token-adaptive layer execution / dynamic depth / efficient LLM deployment | [Link](https://arxiv.org/abs/2602.10431) | — |
 | **Canonical** | **Quant VideoGen: Auto-Regressive Long Video Generation via 2-Bit KV-Cache Quantization** | ICML 2026 | video generation / KV-cache quantization / long-horizon inference | [Link](https://arxiv.org/abs/2602.02958) | [Repo](https://github.com/svg-project/Quant-VideoGen) |
