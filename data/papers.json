@@ -10266,6 +10266,27 @@
     ]
   },
   {
+    "title": "FrameOracle: Learning What to See and How Much to See in Videos",
+    "venue": "ICML 2026",
+    "topic": "multimodal serving / video VLM / adaptive frame selection / visual token reduction / inference efficiency",
+    "arxiv": "2510.03584",
+    "doi": "",
+    "official_id": "2510.03584",
+    "paper_url": "https://arxiv.org/abs/2510.03584",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 main-conference paper. FrameOracle is a lightweight query-adaptive selector that predicts both which frames and how many frames a VideoVLM needs; it reduces 16-frame inputs to 10.4 frames on average without accuracy loss, and 64-frame candidates to 13.9 frames while improving accuracy.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
     "title": "FuseFSS: Efficient Secure LLM Inference with Function Secret Sharing",
     "venue": "ICML 2026",
     "topic": "LLM inference systems / secure inference / compiler / GPU",
@@ -11618,6 +11639,27 @@
     ]
   },
   {
+    "title": "Native Parallel Reasoner: Reasoning in Parallelism via Self-Distilled Reinforcement Learning",
+    "venue": "ICML 2026",
+    "topic": "efficient reasoning / parallel reasoning / SGLang runtime / reinforcement learning / inference acceleration",
+    "arxiv": "2512.07461",
+    "doi": "",
+    "official_id": "2512.07461",
+    "paper_url": "https://arxiv.org/abs/2512.07461",
+    "code_url": "https://github.com/bigai-nlco/Native-Parallel-Reasoner",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 main-conference paper. NPR trains models to reason with genuine parallel execution rather than serial autoregressive traces; its NPR Engine refactors SGLang memory/flow control for parallel RL and inference, reporting up to 4.6x inference acceleration across reasoning benchmarks.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Distributed Training / Inference",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "NeUQI: Near-Optimal Uniform Quantization Parameter Initialization for Low-Bit LLMs",
     "venue": "ICML 2026",
     "topic": "LLM quantization / low-bit PTQ / uniform quantization / parameter initialization / consumer-GPU deployment",
@@ -12098,6 +12140,28 @@
       "Efficient Attention",
       "GPU Kernel / DSL / Compiler",
       "Multimodal / MLLM Serving"
+    ]
+  },
+  {
+    "title": "Principled SVD-based Delta Compression via Quantization Error Minimization",
+    "venue": "ICML 2026",
+    "topic": "quantization / delta-model compression / multi-tenant LLM serving / storage efficiency / mixed precision",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "OPENREVIEW:ErqvESaJpk",
+    "paper_url": "https://openreview.net/forum?id=ErqvESaJpk",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Poster. PrinMix formulates SVD delta quantization as bit-budget-constrained optimization with reconstruction target correction, targeting storage and GPU-memory overhead of many fine-tuned LLM variants; reported results include over 6x storage savings and substantial accuracy gains over prior delta-compression baselines.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {
