@@ -1,10 +1,10 @@
 # 🧭 Research Map
 
-> **1096 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
+> **1097 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
 
 <div align="center">
 
-[**🆕 Latest 30 Days · 296 tracked**](LATEST_30D.md) · [**🏛️ Classical · 1038**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
+[**🆕 Latest 30 Days · 296 tracked**](LATEST_30D.md) · [**🏛️ Classical · 1039**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
 
 </div>
 
@@ -12,16 +12,16 @@
 
 | # | Research direction | Canonical | Latest 30d tracked |
 |---:|---|---:|---:|
-| 01 | [**LLM Serving**](01-llm-serving.md) | **420** | **211** |
+| 01 | [**LLM Serving**](01-llm-serving.md) | **421** | **211** |
 | 02 | [**Speculative Decoding**](02-speculative-decoding.md) | **144** | **23** |
 | 03 | [**KV Cache / Long Context**](03-kv-cache-long-context.md) | **283** | **49** |
 | 04 | [**Quantization**](04-quantization.md) | **161** | **49** |
-| 05 | [**Sparsity / Pruning**](05-sparsity-pruning.md) | **183** | **60** |
+| 05 | [**Sparsity / Pruning**](05-sparsity-pruning.md) | **184** | **60** |
 | 06 | [**Efficient Attention**](06-efficient-attention.md) | **163** | **45** |
 | 07 | [**MoE Systems / Accelerators**](07-moe-systems.md) | **78** | **29** |
 | 08 | [**GPU Kernel / DSL / Compiler**](08-gpu-kernel-compiler.md) | **259** | **66** |
 | 09 | [**Distributed Training / Inference**](09-distributed-training-inference.md) | **192** | **31** |
-| 10 | [**Multimodal / MLLM Serving**](10-multimodal-mllm-serving.md) | **132** | **53** |
+| 10 | [**Multimodal / MLLM Serving**](10-multimodal-mllm-serving.md) | **133** | **53** |
 | 11 | [**Video / Image Generation**](11-video-image-generation.md) | **47** | **15** |
 | 12 | [**Diffusion / Flow Acceleration**](12-diffusion-flow.md) | **132** | **23** |
 | 13 | [**Efficient Reasoning / Agents**](13-efficient-reasoning-agents.md) | **177** | **51** |

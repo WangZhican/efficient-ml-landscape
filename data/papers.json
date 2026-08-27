@@ -14043,6 +14043,28 @@
     ]
   },
   {
+    "title": "Spatial-Aware Reduction Framework: Towards Efficient and Faithful Visual State Space Models",
+    "venue": "ICML 2026",
+    "topic": "sparsity/pruning / visual token reduction / Vision Mamba / training-free inference acceleration / state-space models",
+    "arxiv": "2606.19932",
+    "doi": "",
+    "official_id": "2606.19932",
+    "paper_url": "https://arxiv.org/abs/2606.19932",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. STORM makes token reduction compatible with 2D selective-scan Vision Mamba by enforcing spatially structured row/column reduction inside local windows. It is training-free and preserves the grid topology required by SS2D. The official project reports a 1.4x throughput boost while retaining above 80% ImageNet accuracy, and up to 56.7 percentage-point accuracy recovery versus ordinary ToMe under the same reduction regime. Direct sparsity/pruning and inference-efficiency canonical.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
     "title": "SpecExit: Accelerating Large Reasoning Model via Speculative Exit",
     "venue": "ICML 2026",
     "topic": "efficient reasoning / speculative decoding / early exit",
