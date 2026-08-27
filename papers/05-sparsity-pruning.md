@@ -1,6 +1,6 @@
 # 05 · Sparsity / Pruning
 
-> **177 canonical papers** mapped here, plus a broader **58-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **179 canonical papers** mapped here, plus a broader **58-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -67,7 +67,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 171 canonical
+## 🏛️ Classical / Historical · 173 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -186,8 +186,10 @@
 | **Canonical** | **Prism-MoE: Efficient Dense-to-MoE Conversion for Visual Autoregressive Generation** | ICML 2026 | MoE systems / visual autoregressive generation / sparse activation / efficient model conversion | [Link](https://openreview.net/forum?id=BpDRqTfn08) | [Repo](https://github.com/NeuraLiying/Prism-MoE) |
 | **Canonical** | **Prism: Spectral-Aware Block-Sparse Attention** | ICML 2026 | efficient attention / long-context prefill / Triton kernels | [Link](https://arxiv.org/abs/2602.08426) | [Repo](https://github.com/xinghaow99/prism) |
 | **Canonical** | **PuzzleMoE: Efficient Compression of Large Mixture-of-Experts Models via Sparse Expert Merging and Bit-packed inference** | ICML 2026 | MoE compression / sparse expert merging / bit-packed inference | [Link](https://arxiv.org/abs/2511.04805) | — |
+| **Canonical** | **QiMeng-PerceptOS: Semantic-Aware Kernel Optimization for OS-Intensive Workloads via Hardware-Software Alignment** | ICML 2026 | GPU kernel / OS kernel optimization / agentic systems optimization / hardware-software alignment / AI infra | [Link](https://openreview.net/forum?id=aKN6UpjSnc) | — |
 | **Canonical** | **RaBitQCache: Rotated Binary Quantization for KVCache in Long Context LLM Inference** | ICML 2026 | KV cache / sparse attention / binary-INT4 proxy / long-context inference | [Link](https://arxiv.org/abs/2606.31519) | [Repo](https://github.com/Sakuraaa0/RaBitQCache) |
 | **Canonical** | **RaGEP: Rank-aware Geometric Expert Pruning for Mixture-of-Experts Language Models** | ICML 2026 | MoE systems / expert pruning / model compression / memory-efficient inference | [Link](https://prudent-o.github.io/zhouhuilin/) | — |
+| **Canonical** | **RAT+: Train Dense, Infer Sparse -- Recurrence Augmented Attention for Dilated Inference** | ICML 2026 | efficient attention / KV cache / long-context inference / structured sparsity / flexible deployment | [Link](https://arxiv.org/abs/2602.18196) | [Repo](https://github.com/wimh966/rat-plus) |
 | **Canonical** | **Representation Drift Compensation: A Near-Zero Inference Cost Enhancement for LLM Decomposition** | ICML 2026 | sparsity/pruning / low-rank LLM decomposition / model compression / near-zero-overhead inference accuracy recovery | [Link](https://openreview.net/forum?id=cNSHGzvmIT) | [Repo](https://github.com/xinhaoH/SVD-Compen) |
 | **Canonical** | **RT-Lynx: Putting the GEMM Sparsity In a Right Way for Diffusion Models** | ICML 2026 | diffusion acceleration / activation sparsity / CUDA kernels | [Link](https://arxiv.org/abs/2605.26632) | — |
 | **Canonical** | **RTPrune: Reading-Twice Inspired Token Pruning for Efficient DeepSeek-OCR Inference** | ICML 2026 | multimodal inference / visual token pruning / OCR | [Link](https://arxiv.org/abs/2605.00392) | [Repo](https://github.com/BurnWan/RTPrune) |

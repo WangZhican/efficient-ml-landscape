@@ -1,10 +1,10 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **1028 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **1030 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
-## ICML 2026 · 316
+## ICML 2026 · 318
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -220,6 +220,7 @@
 | **Canonical** | **PsumQuant: In-line Post-training Partial Sum Quantizer for Energy Efficient NPU Inference** | ICML 2026 | quantization / NPU inference / partial-sum quantization / edge AI / energy-efficient accelerator | [Link](https://openreview.net/forum?id=6Qbb6IcCVy) | — |
 | **Canonical** | **PuzzleMoE: Efficient Compression of Large Mixture-of-Experts Models via Sparse Expert Merging and Bit-packed inference** | ICML 2026 | MoE compression / sparse expert merging / bit-packed inference | [Link](https://arxiv.org/abs/2511.04805) | — |
 | **Canonical** | **Q-DiT4SR: Exploration of Detail-Preserving Diffusion Transformer Quantization for Real-World Image Super-Resolution** | ICML 2026 | quantization / image generation acceleration / diffusion transformer / W4A4 inference | [Link](https://arxiv.org/abs/2602.01273) | [Repo](https://github.com/xunzhang1128/Q-DiT4SR) |
+| **Canonical** | **QiMeng-PerceptOS: Semantic-Aware Kernel Optimization for OS-Intensive Workloads via Hardware-Software Alignment** | ICML 2026 | GPU kernel / OS kernel optimization / agentic systems optimization / hardware-software alignment / AI infra | [Link](https://openreview.net/forum?id=aKN6UpjSnc) | — |
 | **Canonical** | **QTALE: Quantization-Robust Token-Adaptive Layer Execution for LLMs** | ICML 2026 | quantization / token-adaptive layer execution / dynamic depth / efficient LLM deployment | [Link](https://arxiv.org/abs/2602.10431) | — |
 | **Canonical** | **Quant VideoGen: Auto-Regressive Long Video Generation via 2-Bit KV-Cache Quantization** | ICML 2026 | video generation / KV-cache quantization / long-horizon inference | [Link](https://arxiv.org/abs/2602.02958) | [Repo](https://github.com/svg-project/Quant-VideoGen) |
 | **Canonical** | **Quantization-Aware Distillation for NVFP4 Inference Accuracy Recovery** | ICML 2026 | quantization / NVFP4 / quantization-aware distillation / LLM and VLM inference / post-training accuracy recovery | [Link](https://arxiv.org/abs/2601.20088) | [Repo](https://github.com/NVIDIA/Model-Optimizer) |
@@ -228,6 +229,7 @@
 | **Canonical** | **RaBitQCache: Rotated Binary Quantization for KVCache in Long Context LLM Inference** | ICML 2026 | KV cache / sparse attention / binary-INT4 proxy / long-context inference | [Link](https://arxiv.org/abs/2606.31519) | [Repo](https://github.com/Sakuraaa0/RaBitQCache) |
 | **Canonical** | **RACER: Risk-Aware Calibrated Efficient Routing for Large Language Models** | ICML 2026 | LLM routing / cost-performance / calibrated model selection | [Link](https://arxiv.org/abs/2603.06616) | — |
 | **Canonical** | **RaGEP: Rank-aware Geometric Expert Pruning for Mixture-of-Experts Language Models** | ICML 2026 | MoE systems / expert pruning / model compression / memory-efficient inference | [Link](https://prudent-o.github.io/zhouhuilin/) | — |
+| **Canonical** | **RAT+: Train Dense, Infer Sparse -- Recurrence Augmented Attention for Dilated Inference** | ICML 2026 | efficient attention / KV cache / long-context inference / structured sparsity / flexible deployment | [Link](https://arxiv.org/abs/2602.18196) | [Repo](https://github.com/wimh966/rat-plus) |
 | **Canonical** | **RealtimeTool: Parallel Decoding for Real-Time LLM Function Calling** | ICML 2026 | parallel decoding / real-time function calling / agent inference / on-device LLM runtime / Physical AI control | [Link](https://arxiv.org/abs/2603.00030) | [Repo](https://github.com/HaxxorCialtion/SimpleTool) |
 | **Canonical** | **Reasoning-VLA: An Efficient and Spatial-Guided General Vision-Language-Action Reasoning Model for Autonomous Driving** | ICML 2026 | Physical AI / VLA / autonomous driving / parallel action generation | [Link](https://arxiv.org/abs/2511.19912) | [Repo](https://github.com/xipi702/Reasoning-VLA) |
 | **Canonical** | **Reflex: Real-Time Vision-Language-Action Control through Streaming Inference** | ICML 2026 | Physical AI / VLA serving / streaming inference / KV cache / operator fusion | [Link](https://arxiv.org/abs/2607.14695) | [Repo](https://github.com/9yc/Reflex) |

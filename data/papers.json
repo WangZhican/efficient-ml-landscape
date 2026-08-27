@@ -12551,6 +12551,29 @@
     ]
   },
   {
+    "title": "QiMeng-PerceptOS: Semantic-Aware Kernel Optimization for OS-Intensive Workloads via Hardware-Software Alignment",
+    "venue": "ICML 2026",
+    "topic": "GPU kernel / OS kernel optimization / agentic systems optimization / hardware-software alignment / AI infra",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "aKN6UpjSnc",
+    "paper_url": "https://openreview.net/forum?id=aKN6UpjSnc",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Poster. QiMeng-PerceptOS is a perception-driven closed-loop framework for application-specific OS-kernel optimization: it converts runtime telemetry into semantic fingerprints, uses a bi-level hierarchical induction tree for global search/pruning, and applies posterior enhancement to suppress hallucinated tuning trajectories. Across diverse workloads it reaches 296.6% of default Redis throughput and exceeds strong baselines by 32.6% within 15 iterations, making it a direct AI-infra / OS-kernel optimization canonical rather than a generic LLM-agent paper.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "GPU Kernel / DSL / Compiler",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "QTALE: Quantization-Robust Token-Adaptive Layer Execution for LLMs",
     "venue": "ICML 2026",
     "topic": "quantization / token-adaptive layer execution / dynamic depth / efficient LLM deployment",
@@ -12719,6 +12742,28 @@
     "directions": [
       "Sparsity / Pruning",
       "MoE Systems / Accelerators"
+    ]
+  },
+  {
+    "title": "RAT+: Train Dense, Infer Sparse -- Recurrence Augmented Attention for Dilated Inference",
+    "venue": "ICML 2026",
+    "topic": "efficient attention / KV cache / long-context inference / structured sparsity / flexible deployment",
+    "arxiv": "2602.18196",
+    "doi": "",
+    "official_id": "arxiv:2602.18196",
+    "paper_url": "https://arxiv.org/abs/2602.18196",
+    "code_url": "https://github.com/wimh966/rat-plus",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. RAT+ augments dense-pretrained attention with full-sequence recurrence and active recurrence learning so one model can be switched at inference time to dilated, local-window, top-k block, or hybrid sparse attention. With dilation D, attention FLOPs and KV-cache size fall by D; experiments report near-dense accuracy at D=16 and about one-point average loss at D=64 for larger models, giving a direct flexible inference-time compute/memory knob without training a separate sparse model.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Efficient Attention"
     ]
   },
   {
