@@ -9768,6 +9768,26 @@
     ]
   },
   {
+    "title": "Elastic Diffusion Transformer",
+    "venue": "ICML 2026",
+    "topic": "diffusion acceleration / adaptive block skipping / MLP width routing / feature cache",
+    "arxiv": "2602.13993",
+    "doi": "",
+    "official_id": "2602.13993",
+    "paper_url": "https://arxiv.org/abs/2602.13993",
+    "code_url": "https://github.com/wangjiangshan0725/Elastic-DiT",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026; adaptive per-sample block skipping and MLP width reduction plus feature caching, up to ~2x speedup with negligible quality loss.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "EntroKV: Entropy-Guided Dynamic Budget Allocation for KV-Cache Compression",
     "venue": "ICML 2026",
     "topic": "KV cache compression / dynamic budget allocation / long-context inference",
@@ -9895,6 +9915,27 @@
       "Speculative Decoding",
       "KV Cache / Long Context",
       "Efficient Attention"
+    ]
+  },
+  {
+    "title": "Fast Byte Latent Transformer",
+    "venue": "ICML 2026",
+    "topic": "speculative decoding / diffusion decoding / byte-level LM inference",
+    "arxiv": "2605.08044",
+    "doi": "",
+    "official_id": "2605.08044",
+    "paper_url": "https://arxiv.org/abs/2605.08044",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026; parallel byte generation via block-wise diffusion plus self-speculation/verification, with estimated memory-bandwidth cost over 50% lower than BLT.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Speculative Decoding",
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
@@ -10137,6 +10178,28 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Quantization"
+    ]
+  },
+  {
+    "title": "FuseFSS: Efficient Secure LLM Inference with Function Secret Sharing",
+    "venue": "ICML 2026",
+    "topic": "LLM inference systems / secure inference / compiler / GPU",
+    "arxiv": "2606.09551",
+    "doi": "",
+    "official_id": "2606.09551",
+    "paper_url": "https://arxiv.org/abs/2606.09551",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026; compiler-based FSS secure inference with 1.24-1.50x end-to-end speedup and 9-16% lower online communication.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
     ]
   },
   {
@@ -12597,6 +12660,27 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Quantization"
+    ]
+  },
+  {
+    "title": "SALAAD: Sparse And Low-Rank Adaptation via ADMM for Large Language Model Inference",
+    "venue": "ICML 2026",
+    "topic": "sparsity / low-rank adaptation / elastic deployment / memory-efficient inference",
+    "arxiv": "2602.00942",
+    "doi": "",
+    "official_id": "2602.00942",
+    "paper_url": "https://arxiv.org/abs/2602.00942",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026; plug-and-play sparse+low-rank training yields a continuous deployment-capacity spectrum across heterogeneous memory budgets.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {

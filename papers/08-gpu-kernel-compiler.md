@@ -1,6 +1,6 @@
 # 08 · GPU Kernel / DSL / Compiler
 
-> **249 canonical papers** mapped here, plus a broader **61-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **250 canonical papers** mapped here, plus a broader **61-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -70,7 +70,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 229 canonical
+## 🏛️ Classical / Historical · 230 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -151,6 +151,7 @@
 | **Canonical** | **Faster Activation Functions at the Edge for Post-Training Speedups** | ICML 2026 | edge AI / compiler / activation-function acceleration / post-training optimization | [Link](https://jacksonwoodruff.com/) | — |
 | **Canonical** | **Faster Than Flash: Exploiting Attention Sparsity for Efficient Long-Context Decoding** | ICML 2026 | long-context LLM decoding / sparse attention / fused Triton kernel | [Link](https://openreview.net/forum?id=r8YhlMRUR2) | — |
 | **Canonical** | **FourTune: Towards Fully 4-Bit Efficient Post-Training for Diffusion Models** | ICML 2026 | diffusion model post-training / W4A4G4 quantization / fused kernels / training efficiency | [Link](https://arxiv.org/abs/2607.05711) | — |
+| **Canonical** | **FuseFSS: Efficient Secure LLM Inference with Function Secret Sharing** | ICML 2026 | LLM inference systems / secure inference / compiler / GPU | [Link](https://arxiv.org/abs/2606.09551) | — |
 | **Canonical** | **Gram2Token: Enabling Run-time GPU-Native Grammar-Constrained Decoding for LLMs** | ICML 2026 | LLM serving / GPU-native grammar-constrained decoding / structured generation | [Link](https://openreview.net/forum?id=h3K23f6tLU) | [Repo](https://github.com/Paradozile/Gram2Token) |
 | **Canonical** | **HARD-KV: Head-Adaptive Regularization for Decoding-time KV Compression** | ICML 2026 | KV cache compression / head-adaptive sparsity / vLLM-compatible runtime | [Link](https://arxiv.org/abs/2606.28831) | [Repo](https://github.com/SuDIS-ZJU/HARDInfer) |
 | **Canonical** | **KernelBand: Steering LLM-based Kernel Optimization via Hardware-Aware Multi-Armed Bandits** | ICML 2026 | GPU kernel / LLM code generation / hardware-aware optimization / agentic compiler systems | [Link](https://arxiv.org/abs/2511.18868) | [Repo](https://github.com/TongmingLAIC/KernelBand) |

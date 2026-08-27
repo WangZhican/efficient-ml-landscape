@@ -1,6 +1,6 @@
 # 09 · Distributed Training / Inference
 
-> **186 canonical papers** mapped here, plus a broader **28-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **187 canonical papers** mapped here, plus a broader **28-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -37,7 +37,7 @@
 | **P1 · Watch** | **AReaL-DTE: Sparse Policy-Weight Transfer for Online Agentic Reinforcement Learning** | Fresh / preprint | agentic RL systems / sparse policy-weight synchronization / cross-cluster serving-training | [Link](https://arxiv.org/abs/2608.00455) | — |
 | **P2 · Relevant** | **HCCL: Collective Communication for Meta Training and Inference Accelerators** | Fresh / preprint | llm_serving | [Link](https://arxiv.org/abs/2608.00358) | — |
 
-## 🏛️ Classical / Historical · 174 canonical
+## 🏛️ Classical / Historical · 175 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -112,6 +112,7 @@
 | **Canonical** | **FlashOptim: Memory Efficient Optimizers for Large-Scale Training** | ICML 2026 | distributed training / memory-efficient optimizer / low-precision optimizer state | [Link](https://arxiv.org/abs/2602.23349) | — |
 | **Canonical** | **FOAM: Blocked State Folding for Memory-Efficient LLM Training** | ICML 2026 | distributed training / memory-efficient optimizer / optimizer-state compression | [Link](https://arxiv.org/abs/2512.07112) | [Repo](https://github.com/zqOuO/FOAM) |
 | **Canonical** | **FourTune: Towards Fully 4-Bit Efficient Post-Training for Diffusion Models** | ICML 2026 | diffusion model post-training / W4A4G4 quantization / fused kernels / training efficiency | [Link](https://arxiv.org/abs/2607.05711) | — |
+| **Canonical** | **FuseFSS: Efficient Secure LLM Inference with Function Secret Sharing** | ICML 2026 | LLM inference systems / secure inference / compiler / GPU | [Link](https://arxiv.org/abs/2606.09551) | — |
 | **Canonical** | **GradPower: Powering Gradients for Faster Language Model Pre-Training** | ICML 2026 | distributed training / optimizer / LLM pre-training efficiency / MoE training | [Link](https://arxiv.org/abs/2505.24275) | — |
 | **Canonical** | **Grouter: Decoupling Routing from Representation for Accelerated MoE Training** | ICML 2026 | MoE systems / efficient training / routing / distributed training | [Link](https://arxiv.org/abs/2603.06626) | [Repo](https://github.com/JimmyAwoe/Grouter) |
 | **Canonical** | **IO-Adam: Rethinking Memory-Efficient Adaptive Optimizers from Gradient Computation** | ICML 2026 | distributed training / memory-efficient optimizer / gradient decomposition | [Link](https://openreview.net/forum?id=z0m3EhzhOH) | [Repo](https://github.com/Ytchen981/IO_Adam) |

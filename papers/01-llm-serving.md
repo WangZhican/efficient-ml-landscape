@@ -1,6 +1,6 @@
 # 01 · LLM Serving
 
-> **404 canonical papers** mapped here, plus a broader **201-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **405 canonical papers** mapped here, plus a broader **201-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -210,7 +210,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 382 canonical
+## 🏛️ Classical / Historical · 383 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -372,6 +372,7 @@
 | **Canonical** | **FlashBlock: Attention Caching for Efficient Long-Context Block Diffusion** | ICML 2026 | diffusion language/video generation / attention caching / long-context inference | [Link](https://arxiv.org/abs/2602.05305) | [Repo](https://caesarhhh.github.io/FlashBlock/) |
 | **Canonical** | **ForesightKV: Optimizing KV Cache Eviction for Reasoning Models by Learning Long-Term Contribution** | ICML 2026 | KV cache eviction / reasoning-model serving / learned long-term contribution | [Link](https://arxiv.org/abs/2602.03203) | [Repo](https://github.com/1190303125/ForesightKV) |
 | **Canonical** | **FourTune: Towards Fully 4-Bit Efficient Post-Training for Diffusion Models** | ICML 2026 | diffusion model post-training / W4A4G4 quantization / fused kernels / training efficiency | [Link](https://arxiv.org/abs/2607.05711) | — |
+| **Canonical** | **FuseFSS: Efficient Secure LLM Inference with Function Secret Sharing** | ICML 2026 | LLM inference systems / secure inference / compiler / GPU | [Link](https://arxiv.org/abs/2606.09551) | — |
 | **Canonical** | **Gram2Token: Enabling Run-time GPU-Native Grammar-Constrained Decoding for LLMs** | ICML 2026 | LLM serving / GPU-native grammar-constrained decoding / structured generation | [Link](https://openreview.net/forum?id=h3K23f6tLU) | [Repo](https://github.com/Paradozile/Gram2Token) |
 | **Canonical** | **GraphFlow: A Graph-Based Workflow Management for Efficient LLM-Agent Serving** | ICML 2026 | agent serving / workflow reuse / KV-cache management | [Link](https://arxiv.org/abs/2605.22566) | — |
 | **Canonical** | **Grouter: Decoupling Routing from Representation for Accelerated MoE Training** | ICML 2026 | MoE systems / efficient training / routing / distributed training | [Link](https://arxiv.org/abs/2603.06626) | [Repo](https://github.com/JimmyAwoe/Grouter) |

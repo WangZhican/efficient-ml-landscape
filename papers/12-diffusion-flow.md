@@ -1,6 +1,6 @@
 # 12 · Diffusion / Flow Acceleration
 
-> **121 canonical papers** mapped here, plus a broader **21-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **123 canonical papers** mapped here, plus a broader **21-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -30,7 +30,7 @@
 | **P2 · Relevant** | **OnlineCache: Learning Dynamic Caching Policies with Error Correction for Efficient Diffusion Inference** | Fresh / preprint | LLM serving; generation acceleration; edge / heterogeneous AI | [Link](https://arxiv.org/abs/2607.29398) | — |
 | **P1 · Watch** | **CORA-Diff: Confidence-Oriented Residual Acceptance for Efficient Diffusion Language Model Inference** | Fresh / preprint | diffusion language model inference / training-free residual acceptance / decoding acceleration | [Link](https://arxiv.org/abs/2608.11235) | — |
 
-## 🏛️ Classical / Historical · 113 canonical
+## 🏛️ Classical / Historical · 115 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -103,7 +103,9 @@
 | **Canonical** | **Efficient Parallel Samplers for Recurrent-Depth Models** | ICML 2026 | parallel decoding / recurrent-depth language models / diffusion-style inference | [Link](https://arxiv.org/abs/2510.14961) | — |
 | **Canonical** | **Efficient-DLM: From Autoregressive to Diffusion Language Models, and Beyond in Speed** | ICML 2026 | diffusion language model / parallel decoding / AR-to-dLM conversion / efficient generation | [Link](https://arxiv.org/abs/2512.14067) | — |
 | **Canonical** | **EigenCache: Rethinking Diffusion Acceleration as Covariance-Optimal Forecasting and Submodular Information Allocation** | ICML 2026 | diffusion acceleration / feature caching / covariance-optimal forecasting / compute allocation | — | — |
+| **Canonical** | **Elastic Diffusion Transformer** | ICML 2026 | diffusion acceleration / adaptive block skipping / MLP width routing / feature cache | [Link](https://arxiv.org/abs/2602.13993) | [Repo](https://github.com/wangjiangshan0725/Elastic-DiT) |
 | **Canonical** | **FAIR-Calib: Frontier-Aware Calibration for Post-Training Quantization of Diffusion Language Models** | ICML 2026 | quantization / diffusion language model / W4A4 PTQ / calibration | [Link](https://arxiv.org/abs/2606.06547) | — |
+| **Canonical** | **Fast Byte Latent Transformer** | ICML 2026 | speculative decoding / diffusion decoding / byte-level LM inference | [Link](https://arxiv.org/abs/2605.08044) | — |
 | **Canonical** | **FAST-AR: Fast Autoregressive Video Diffusion and World Models with Temporal Cache Compression and Sparse Attention** | ICML 2026 | video/world-model inference / KV cache compression / sparse attention | [Link](https://arxiv.org/abs/2602.01801) | — |
 | **Canonical** | **FlashBlock: Attention Caching for Efficient Long-Context Block Diffusion** | ICML 2026 | diffusion language/video generation / attention caching / long-context inference | [Link](https://arxiv.org/abs/2602.05305) | [Repo](https://caesarhhh.github.io/FlashBlock/) |
 | **Canonical** | **FourTune: Towards Fully 4-Bit Efficient Post-Training for Diffusion Models** | ICML 2026 | diffusion model post-training / W4A4G4 quantization / fused kernels / training efficiency | [Link](https://arxiv.org/abs/2607.05711) | — |
