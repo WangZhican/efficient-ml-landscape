@@ -10902,6 +10902,27 @@
     ]
   },
   {
+    "title": "LearniBridge: Learnable Calibration of Feature Caching for Diffusion Models Acceleration",
+    "venue": "ICML 2026",
+    "topic": "video/image generation acceleration / diffusion transformer feature caching / low-rank cache calibration / inference acceleration",
+    "arxiv": "2606.26778",
+    "doi": "",
+    "official_id": "2606.26778",
+    "paper_url": "https://arxiv.org/abs/2606.26778",
+    "code_url": "https://github.com/Iiiiiiirene/LearniBridge",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. LearniBridge learns prompt-invariant low-rank calibration updates for cached Diffusion Transformer features using lightweight LoRA and only 3-5 training samples; reported acceleration reaches 5.87x on FLUX, 5.75x on HunyuanVideo, and 4.10x on Wan2.1 with improved VBench at the latter operating point.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "Learning Query-Aware Budget-Tier Routing for Runtime Agent Memory",
     "venue": "ICML 2026",
     "topic": "efficient reasoning / agent systems / runtime memory / adaptive compute routing / performance-cost control",

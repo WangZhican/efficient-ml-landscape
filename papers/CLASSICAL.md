@@ -1,10 +1,10 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **1018 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **1019 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
-## ICML 2026 · 306
+## ICML 2026 · 307
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -144,6 +144,7 @@
 | **Canonical** | **LazyAttention: Efficient Retrieval-Augmented Generation with Deferred Positional Encoding** | ICML 2026 | LLM serving / RAG / KV cache reuse / deferred positional encoding / attention kernels | [Link](https://arxiv.org/abs/2606.04302) | — |
 | **Canonical** | **LC-QAT: Data-Efficient 2-Bit QAT for LLMs via Linear-Constrained Vector Quantization** | ICML 2026 | LLM quantization / 2-bit QAT / vector quantization / efficient deployment | [Link](https://arxiv.org/abs/2606.10531) | [Repo](https://github.com/backspacetg/unisvq) |
 | **Canonical** | **LEAP: Zone-Aware MCTS for LLM Self-Speculative Decoding** | ICML 2026 | speculative decoding / self-speculative decoding / MCTS layer selection | [Link](https://openreview.net/forum?id=VrI9sWkJB1) | [Repo](https://github.com/leiquanzheng/LEAP) |
+| **Canonical** | **LearniBridge: Learnable Calibration of Feature Caching for Diffusion Models Acceleration** | ICML 2026 | video/image generation acceleration / diffusion transformer feature caching / low-rank cache calibration / inference acceleration | [Link](https://arxiv.org/abs/2606.26778) | [Repo](https://github.com/Iiiiiiirene/LearniBridge) |
 | **Canonical** | **Learning Query-Aware Budget-Tier Routing for Runtime Agent Memory** | ICML 2026 | efficient reasoning / agent systems / runtime memory / adaptive compute routing / performance-cost control | [Link](https://arxiv.org/abs/2602.06025) | [Repo](https://github.com/ViktorAxelsen/BudgetMem) |
 | **Canonical** | **Learning to Evict from Key-Value Cache** | ICML 2026 | KV cache / long-context inference / learned eviction / reinforcement learning | [Link](https://arxiv.org/abs/2602.10238) | [Repo](https://github.com/apple/ml-learning-to-evict) |
 | **Canonical** | **Learning to Share: Selective Memory for Efficient Parallel Agentic Systems** | ICML 2026 | efficient agent systems / parallel agents / shared memory / computation reuse | [Link](https://arxiv.org/abs/2602.05965) | [Repo](https://github.com/UCF-CRCV/autogen-lts) |
