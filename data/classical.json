@@ -9422,6 +9422,26 @@
     ]
   },
   {
+    "title": "DyCon: Dynamic Reasoning Control via Evolving Difficulty Modeling",
+    "venue": "ICML 2026",
+    "topic": "efficient reasoning / dynamic reasoning control / test-time compute reduction / training-free early convergence",
+    "arxiv": "2606.07108",
+    "doi": "",
+    "official_id": "2606.07108",
+    "paper_url": "https://arxiv.org/abs/2606.07108",
+    "code_url": "https://github.com/yu-lin-li/DyCon",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 main-conference paper. DyCon uses step-level hidden representations to model evolving task difficulty online and softly suppress redundant reflection, reducing unnecessary reasoning tokens while preserving or improving accuracy across 4B-32B reasoning models and twelve benchmarks. It is a direct efficient-reasoning / inference-compute canonical, with an official author repository and released regressors.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "DyLLM: Efficient Diffusion LLM Inference via Saliency-based Token Selection and Partial Attention",
     "venue": "ICML 2026",
     "topic": "diffusion language model inference / token sparsity / activation reuse",
