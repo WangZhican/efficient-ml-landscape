@@ -11617,6 +11617,28 @@
     ]
   },
   {
+    "title": "Locally Coherent Parallel Decoding in Diffusion Language Models",
+    "venue": "ICML 2026",
+    "topic": "diffusion language model / parallel decoding / local autoregressive decoding / efficient code generation / inference acceleration",
+    "arxiv": "2603.20216",
+    "doi": "",
+    "official_id": "2603.20216",
+    "paper_url": "https://arxiv.org/abs/2603.20216",
+    "code_url": "https://github.com/IBM/coherent-diffusion-local-autoregression",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 main-track paper from IBM Research/ETH Zurich. CoDiLA combines global diffusion-LM parallel generation with a compact local autoregressive decoder operating on diffusion latents, preserving sub-linear generation latency while repairing local syntactic dependencies that otherwise break parallel decoding. It establishes an improved accuracy-speed Pareto frontier for code generation and is a direct diffusion-LM parallel-decoding efficiency work.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "LoKiFormer: Locality-aware Attention with Decoupled Knowledge Memory for Efficient Large Language Model Pretraining",
     "venue": "ICML 2026",
     "topic": "LLM pretraining efficiency / efficient attention / explicit knowledge memory",
