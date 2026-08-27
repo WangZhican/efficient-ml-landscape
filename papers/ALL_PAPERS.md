@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **1094 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **296 visible papers = 58 P0 + 116 P1 + 122 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1095 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **296 visible papers = 58 P0 + 116 P1 + 122 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -319,9 +319,9 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 1036
+## 🏛️ Classical / Historical · 1037
 
-### ICML 2026 · 324
+### ICML 2026 · 325
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -377,6 +377,7 @@
 | **Canonical** | **CriticalKV: Optimizing KV Cache Eviction from an Output Perturbation Perspective** | ICML 2026 | KV cache / eviction / long-context inference | [Link](https://arxiv.org/abs/2502.03805) | — |
 | **Canonical** | **CSD: Content-aware Speculative Decoding for Efficient Image Generation** | ICML 2026 | speculative decoding / autoregressive image generation / inference acceleration | [Link](https://arxiv.org/abs/2606.27829) | [Repo](https://github.com/aderfebr/CSD) |
 | **Canonical** | **D3: Dynamic Directional Graph-Constrained Data Scheduling for LLM Training** | ICML 2026 | LLM training efficiency / data scheduling / pretraining and post-training / graph-constrained optimization | [Link](https://arxiv.org/abs/2605.31164) | [Repo](https://github.com/xuyj233/D3) |
+| **Canonical** | **d3LLM: Ultra-Fast Diffusion LLM using Pseudo-Trajectory Distillation** | ICML 2026 | diffusion language model acceleration / parallel decoding / KV-cache refresh / efficient reasoning inference | [Link](https://arxiv.org/abs/2601.07568) | [Repo](https://github.com/hao-ai-lab/d3LLM) |
 | **Canonical** | **DARTS: Distribution-Aware Active Rollout Trajectory Shaping for Accelerating LLM Reinforcement Learning** | ICML 2026 | LLM RL systems / rollout efficiency / distributed post-training | [Link](https://arxiv.org/abs/2605.30859) | [Repo](https://github.com/AFDWang/DARTS) |
 | **Canonical** | **DASH: Faster Shampoo via Batched Block Preconditioning and Efficient Inverse-Root Solvers** | ICML 2026 | distributed training / optimizer systems / GPU-aware second-order optimization / LLM pretraining efficiency | [Link](https://arxiv.org/abs/2602.02016) | [Repo](https://github.com/IST-DASLab/DASH) |
 | **Canonical** | **De-Linearizing Agent Traces: Bayesian Inference of Latent Partial Orders for Efficient Execution** | ICML 2026 | efficient agent systems / parallel agent execution / workflow compilation / context pruning | [Link](https://arxiv.org/abs/2602.02806) | [Repo](https://bpopagent.live/) |
