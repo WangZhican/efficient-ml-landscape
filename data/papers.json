@@ -8106,6 +8106,29 @@
     ]
   },
   {
+    "title": "AD-BTS: Adaptive Dual-Branch Token Sparsification via Spatial Information Density",
+    "venue": "ICML 2026",
+    "topic": "multimodal serving / MLLM / visual token sparsification / prefill acceleration / adaptive token pruning",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "OPENREVIEW:Zm8DAMbfXE",
+    "paper_url": "https://openreview.net/forum?id=Zm8DAMbfXE",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Poster. AD-BTS dynamically routes high-resolution MLLM inputs between aggressive redundancy pruning and structure-preserving fusion using lightweight spatial-gradient density signals. On Qwen2.5-VL, 20% token retention yields 1.8x prefill speedup while improving ChartQA by 12.1% over the strongest compression baseline, giving a strong efficiency-accuracy Pareto point for structured visual inputs.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "GPU Kernel / DSL / Compiler",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
     "title": "AdaHC: Accelerating Multi-Token Prediction with Adaptive Head Chunking with Pipeline Parallelism",
     "venue": "ICML 2026",
     "topic": "distributed training / multi-token prediction / pipeline parallelism / scheduling",
@@ -8146,6 +8169,28 @@
       "Multimodal / MLLM Serving",
       "Efficient Reasoning / Agents",
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Adaptive Visual Autoregressive Acceleration via Dual-Linkage Entropy Analysis",
+    "venue": "ICML 2026",
+    "topic": "video/image generation acceleration / visual autoregressive models / token reduction / cache reuse / training-free inference acceleration",
+    "arxiv": "2602.01345",
+    "doi": "",
+    "official_id": "2602.01345",
+    "paper_url": "https://arxiv.org/abs/2602.01345",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 main-conference paper (NOVA). NOVA uses entropy-growth inflection detection plus scale- and layer-linkage schedules to adaptively prune low-entropy tokens and reuse residual caches during visual autoregressive generation. It is training-free and reports up to 2.89x speedup while maintaining or improving generation quality.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Video / Image Generation"
     ]
   },
   {
@@ -9310,6 +9355,28 @@
     ]
   },
   {
+    "title": "DSB: Dynamic Sliding Block Scheduling for Diffusion LLMs",
+    "venue": "ICML 2026",
+    "topic": "diffusion LLM acceleration / dynamic block scheduling / KV cache / training-free inference / decoding efficiency",
+    "arxiv": "2602.05992",
+    "doi": "",
+    "official_id": "2602.05992",
+    "paper_url": "https://arxiv.org/abs/2602.05992",
+    "code_url": "https://github.com/lizhuo-luo/DSB",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 main-conference paper. DSB dynamically adapts block position and size to semantic difficulty and adds a tailored KV-cache refresh/reuse mechanism, improving the quality-speed trade-off for diffusion LLM decoding without training.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "DuetServe: Harmonizing Prefill and Decode for LLM Serving via Adaptive GPU Multiplexing",
     "venue": "ICML 2026",
     "topic": "LLM serving / adaptive GPU multiplexing / prefill-decode isolation",
@@ -10217,6 +10284,28 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "FOCUS: DLLMs Know How to Tame Their Compute Bound",
+    "venue": "ICML 2026",
+    "topic": "LLM serving / diffusion LLM inference / dynamic token eviction / throughput acceleration / LMDeploy",
+    "arxiv": "2601.23278",
+    "doi": "",
+    "official_id": "2601.23278",
+    "paper_url": "https://arxiv.org/abs/2601.23278",
+    "code_url": "https://github.com/sands-lab/FOCUS",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 main-conference paper. FOCUS is an LMDeploy-based inference system for block-diffusion LLMs that predicts decodable tokens from early-layer attention signals and evicts non-decodable tokens to remove wasted compute, reporting up to 3.52x throughput improvement while preserving quality.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Efficient Attention",
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
@@ -13304,6 +13393,28 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "SlideSparse: Fast and Flexible (2N-2):2N Structured Sparsity",
+    "venue": "ICML 2026",
+    "topic": "sparsity / structured sparsity / Sparse Tensor Core / vLLM / GPU inference acceleration / quantization",
+    "arxiv": "2603.05232",
+    "doi": "",
+    "official_id": "2603.05232",
+    "paper_url": "https://arxiv.org/abs/2603.05232",
+    "code_url": "https://github.com/bcacdwk/vllmbench",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 main-conference paper. SlideSparse maps milder (2N-2):2N sparsity such as 6:8 onto NVIDIA 2:4 Sparse Tensor Cores via sliding-window decomposition and activation lifting. Integrated into vLLM across A100/H100/B200/RTX GPUs, it reaches about 1.33x measured speedup at 6:8 while preserving accuracy.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "Sparsity / Pruning",
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {
