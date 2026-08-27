@@ -1,6 +1,6 @@
 # 13 · Efficient Reasoning / Agents
 
-> **168 canonical papers** mapped here, plus a broader **46-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **170 canonical papers** mapped here, plus a broader **46-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -55,7 +55,7 @@
 | **P2 · Relevant** | **SpecBox: Speculative Sandbox Scheduling for Efficient LLM Agent Serving** | Fresh / preprint | llm_serving / agent | [Link](https://arxiv.org/abs/2607.23933) | — |
 | **P2 · Relevant** | **Agentic CPU-GPU Scheduling for Heterogeneous AI Workloads** | Fresh / preprint | llm_serving / gen / agent / edge | [Link](https://arxiv.org/abs/2607.22242) | — |
 
-## 🏛️ Classical / Historical · 158 canonical
+## 🏛️ Classical / Historical · 160 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -93,6 +93,7 @@
 | **Canonical** | **ThinKV: Thought-Adaptive KV Cache Compression for Efficient Reasoning Models** | ICLR 2026 | KV cache compression / efficient reasoning | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/b2b502c3629beadda06311386d2c6f73-Abstract-Conference.html) | — |
 | **Canonical** | **Accordion-Thinking: Self-Regulated Step Summaries for Efficient and Readable LLM Reasoning** | ICML 2026 | efficient reasoning / KV-cache context compression / test-time inference efficiency | [Link](https://arxiv.org/abs/2602.03249) | [Repo](https://github.com/yangzhch6/Accordion-Thinking) |
 | **Canonical** | **ACON: Optimizing Context Compression for Long-horizon LLM Agents** | ICML 2026 | efficient reasoning / agent systems / long-horizon context compression / memory | [Link](https://arxiv.org/abs/2510.00615) | [Repo](https://github.com/microsoft/acon) |
+| **Canonical** | **AdaNav: Adaptive Reasoning with Uncertainty for Vision-Language Navigation** | ICML 2026 | Physical AI / vision-language navigation / adaptive reasoning / uncertainty-triggered inference / embodied-agent compute reduction | [Link](https://arxiv.org/abs/2509.24387) | [Repo](https://github.com/xinding-sys/AdaNav) |
 | **Canonical** | **Agent JIT Compilation for Latency-Optimizing Web Agent Planning and Scheduling** | ICML 2026 | efficient reasoning / agent systems / computer-use agent runtime / JIT planning and scheduling | [Link](https://arxiv.org/abs/2605.21470) | — |
 | **Canonical** | **Agent-Omit: Adaptive Context Omission for Efficient LLM Agents** | ICML 2026 | efficient reasoning / agent systems / adaptive context omission / agentic RL | [Link](https://arxiv.org/abs/2602.04284) | [Repo](https://github.com/usail-hkust/Agent-Omit) |
 | **Canonical** | **AgentVocab: Structure-Aware Vocabulary Adaptation for Efficient LLM Agents** | ICML 2026 | efficient reasoning / agent systems / vocabulary adaptation / tool-calling inference | [Link](https://www.li-jing.com/paperlist.html) | [Repo](https://github.com/Starry-159/AgentVocab) |
@@ -105,6 +106,7 @@
 | **Canonical** | **BubbleSpec: Turning Long-Tail Bubbles into Speculative Rollout Drafts for Synchronous Reinforcement Learning** | ICML 2026 | LLM RL systems / rollout acceleration / speculative decoding / distributed training | [Link](https://arxiv.org/abs/2605.08862) | — |
 | **Canonical** | **CoMem: Context Management with A Decoupled Long-Context Model** | ICML 2026 | agent systems / long-context serving / context management / asynchronous memory compression | [Link](https://arxiv.org/abs/2605.30842) | [Repo](https://github.com/horizon-llm/CoMem) |
 | **Canonical** | **CONCUR: High-Throughput Agentic Batch Inference of LLM via Congestion-Based Concurrency Control** | ICML 2026 | agentic LLM serving / KV cache / admission control | [Link](https://arxiv.org/abs/2601.22705) | — |
+| **Canonical** | **ConPress: Learning Efficient Reasoning from Multi-Question Contextual Pressure** | ICML 2026 | efficient reasoning / reasoning-token reduction / inference-time compute reduction / lightweight self-supervised fine-tuning | [Link](https://arxiv.org/abs/2602.01472) | — |
 | **Canonical** | **DARTS: Distribution-Aware Active Rollout Trajectory Shaping for Accelerating LLM Reinforcement Learning** | ICML 2026 | LLM RL systems / rollout efficiency / distributed post-training | [Link](https://arxiv.org/abs/2605.30859) | [Repo](https://github.com/AFDWang/DARTS) |
 | **Canonical** | **De-Linearizing Agent Traces: Bayesian Inference of Latent Partial Orders for Efficient Execution** | ICML 2026 | efficient agent systems / parallel agent execution / workflow compilation / context pruning | [Link](https://arxiv.org/abs/2602.02806) | [Repo](https://bpopagent.live/) |
 | **Canonical** | **Deterministic Inference across Tensor Parallel Sizes That Eliminates Training-Inference Mismatch** | ICML 2026 | LLM serving reliability / tensor parallelism / deterministic kernels / RL training-inference consistency | [Link](https://arxiv.org/abs/2511.17826) | [Repo](https://github.com/nanomaoli/llm_reproducibility) |

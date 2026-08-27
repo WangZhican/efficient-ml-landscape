@@ -8107,6 +8107,28 @@
     ]
   },
   {
+    "title": "AdaNav: Adaptive Reasoning with Uncertainty for Vision-Language Navigation",
+    "venue": "ICML 2026",
+    "topic": "Physical AI / vision-language navigation / adaptive reasoning / uncertainty-triggered inference / embodied-agent compute reduction",
+    "arxiv": "2509.24387",
+    "doi": "",
+    "official_id": "2509.24387",
+    "paper_url": "https://arxiv.org/abs/2509.24387",
+    "code_url": "https://github.com/xinding-sys/AdaNav",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 protected Physical-AI canonical. AdaNav uses a lightweight uncertainty-adaptive reasoning block that triggers explicit reasoning only when needed instead of at fixed steps. Author and Microsoft pages confirm ICML 2026; the first-author page reports about 3x reasoning-cost reduction while improving VLN success with only 6K training samples, including real-world scenes.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "AdaSplash-2: Faster Differentiable Sparse Attention",
     "venue": "ICML 2026",
     "topic": "efficient attention / differentiable sparse attention / Triton GPU kernel / long-context training",
@@ -8817,6 +8839,26 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Speculative Decoding"
+    ]
+  },
+  {
+    "title": "ConPress: Learning Efficient Reasoning from Multi-Question Contextual Pressure",
+    "venue": "ICML 2026",
+    "topic": "efficient reasoning / reasoning-token reduction / inference-time compute reduction / lightweight self-supervised fine-tuning",
+    "arxiv": "2602.01472",
+    "doi": "",
+    "official_id": "2602.01472",
+    "paper_url": "https://arxiv.org/abs/2602.01472",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026. Microsoft Research confirms ConPress learns self-compressed reasoning from multi-question contextual pressure with only 8k fine-tuning examples. It reduces reasoning-token usage by 59% on MATH500 and 33% on AIME25 while maintaining competitive accuracy, directly reducing inference-time token and compute overhead.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Reasoning / Agents"
     ]
   },
   {

@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **1054 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **279 visible papers = 50 P0 + 108 P1 + 121 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1056 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **279 visible papers = 50 P0 + 108 P1 + 121 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -302,9 +302,9 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 1004
+## 🏛️ Classical / Historical · 1006
 
-### ICML 2026 · 292
+### ICML 2026 · 294
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -315,6 +315,7 @@
 | **Canonical** | **Accordion-Thinking: Self-Regulated Step Summaries for Efficient and Readable LLM Reasoning** | ICML 2026 | efficient reasoning / KV-cache context compression / test-time inference efficiency | [Link](https://arxiv.org/abs/2602.03249) | [Repo](https://github.com/yangzhch6/Accordion-Thinking) |
 | **Canonical** | **ACON: Optimizing Context Compression for Long-horizon LLM Agents** | ICML 2026 | efficient reasoning / agent systems / long-horizon context compression / memory | [Link](https://arxiv.org/abs/2510.00615) | [Repo](https://github.com/microsoft/acon) |
 | **Canonical** | **AdaHC: Accelerating Multi-Token Prediction with Adaptive Head Chunking with Pipeline Parallelism** | ICML 2026 | distributed training / multi-token prediction / pipeline parallelism / scheduling | [Link](https://openreview.net/forum?id=yEzvDvHWsJ) | — |
+| **Canonical** | **AdaNav: Adaptive Reasoning with Uncertainty for Vision-Language Navigation** | ICML 2026 | Physical AI / vision-language navigation / adaptive reasoning / uncertainty-triggered inference / embodied-agent compute reduction | [Link](https://arxiv.org/abs/2509.24387) | [Repo](https://github.com/xinding-sys/AdaNav) |
 | **Canonical** | **AdaSplash-2: Faster Differentiable Sparse Attention** | ICML 2026 | efficient attention / differentiable sparse attention / Triton GPU kernel / long-context training | [Link](https://arxiv.org/abs/2604.15180) | [Repo](https://github.com/deep-spin/adasplash) |
 | **Canonical** | **Agent JIT Compilation for Latency-Optimizing Web Agent Planning and Scheduling** | ICML 2026 | efficient reasoning / agent systems / computer-use agent runtime / JIT planning and scheduling | [Link](https://arxiv.org/abs/2605.21470) | — |
 | **Canonical** | **Agent-Omit: Adaptive Context Omission for Efficient LLM Agents** | ICML 2026 | efficient reasoning / agent systems / adaptive context omission / agentic RL | [Link](https://arxiv.org/abs/2602.04284) | [Repo](https://github.com/usail-hkust/Agent-Omit) |
@@ -348,6 +349,7 @@
 | **Canonical** | **CONCUR: High-Throughput Agentic Batch Inference of LLM via Congestion-Based Concurrency Control** | ICML 2026 | agentic LLM serving / KV cache / admission control | [Link](https://arxiv.org/abs/2601.22705) | — |
 | **Canonical** | **CondiQuant: Condition Number Based Low-Bit Quantization for Image Super-Resolution** | ICML 2026 | quantization / image super-resolution / post-training quantization / edge inference | [Link](https://arxiv.org/abs/2502.15478) | [Repo](https://github.com/Kai-Liu001/CondiQuant) |
 | **Canonical** | **ConFu: Contemplate the Future for Better Speculative Sampling** | ICML 2026 | speculative decoding / draft-model quality / future-conditioned speculative sampling | [Link](https://arxiv.org/abs/2603.08899) | — |
+| **Canonical** | **ConPress: Learning Efficient Reasoning from Multi-Question Contextual Pressure** | ICML 2026 | efficient reasoning / reasoning-token reduction / inference-time compute reduction / lightweight self-supervised fine-tuning | [Link](https://arxiv.org/abs/2602.01472) | — |
 | **Canonical** | **ConServe: Fine-Grained GPU Harvesting for LLM Online and Offline Co-Serving** | ICML 2026 | LLM serving / online-offline co-serving / fine-grained GPU harvesting / preemption | [Link](https://arxiv.org/abs/2410.01228) | — |
 | **Canonical** | **CONTINUUM: Restoring the Contiguous Tensor Abstraction Efficiently for Dynamic AI Workloads via Hardware Virtualization** | ICML 2026 | AI systems / GPU memory virtualization / dynamic tensor memory / LLM runtime | [Link](https://openreview.net/forum?id=hROxrfMoXj) | — |
 | **Canonical** | **CriticalKV: Optimizing KV Cache Eviction from an Output Perturbation Perspective** | ICML 2026 | KV cache / eviction / long-context inference | [Link](https://arxiv.org/abs/2502.03805) | — |
