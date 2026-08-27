@@ -1,9 +1,97 @@
 {
-  "window_end_beijing": "2026-08-27",
-  "window_start_beijing": "2026-07-28",
+  "window_end_beijing": "2026-08-28",
+  "window_start_beijing": "2026-07-29",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 279,
+  "tracked_total": 296,
   "p0_strong_or_canonical": [
+    {
+      "title": "psRL: Efficient Training for Agentic AI via Training-Time Prefix Sharing",
+      "venue": "Fresh / preprint",
+      "topic": "agent RL systems / distributed training / KV prefix sharing",
+      "arxiv": "2608.25683",
+      "doi": "",
+      "official_id": "2608.25683",
+      "paper_url": "https://arxiv.org/abs/2608.25683",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Production-trace-driven agent-RL training system with distributed prefix reuse and KV manager; reports up to 5.2x update throughput.",
+      "published_at": "2026-08-26T11:58:47Z",
+      "updated_at": "2026-08-26T11:58:47Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "TOPAS: Workflow-Aware Prefix-State Scheduling for Multi-Agent LLM Serving",
+      "venue": "Fresh / preprint",
+      "topic": "agent serving / prefix cache / scheduling",
+      "arxiv": "2608.25523",
+      "doi": "",
+      "official_id": "2608.25523",
+      "paper_url": "https://arxiv.org/abs/2608.25523",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Implemented in SGLang; jointly schedules prefix-cache state and requests, reducing mean/p99 workflow JCT by up to 39.8%/49.4% on synthetic DAGs and sizable gains on MetaGPT workflows.",
+      "published_at": "2026-08-26T08:33:10Z",
+      "updated_at": "2026-08-26T08:33:10Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "APT: Accelerating Diffusion Transformers via Attention Probability-Guided Pruning and Quantization",
+      "venue": "Fresh / preprint",
+      "topic": "diffusion acceleration / sparse attention / quantization / accelerator",
+      "arxiv": "2608.25380",
+      "doi": "",
+      "official_id": "2608.25380",
+      "paper_url": "https://arxiv.org/abs/2608.25380",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Software-hardware co-design for high-resolution DiT; APDT+TAFA plus specialized dual-precision sparse accelerator, reporting up to 8.16x speedup and 14.98x energy efficiency over A100.",
+      "published_at": "2026-08-26T05:08:40Z",
+      "updated_at": "2026-08-26T05:08:40Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Quantization",
+        "Sparsity / Pruning",
+        "Efficient Attention",
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "FLINT: Efficiently Leveraging High Bandwidth Flash for Capacity-Scalable LLM Inference Acceleration",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / memory hierarchy / hardware architecture",
+      "arxiv": "2608.25062",
+      "doi": "",
+      "official_id": "2608.25062",
+      "paper_url": "https://arxiv.org/abs/2608.25062",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Direct LLM inference memory-capacity system using HBF+HBM, burst-buffer control, off-critical-path refresh and read-only FTL; strong architecture/runtime contribution.",
+      "published_at": "2026-08-25T18:58:14Z",
+      "updated_at": "2026-08-25T18:58:14Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
     {
       "title": "Maia 200: A Software Defined Dataflow System for Large-scale AI Acceleration",
       "venue": "Fresh / preprint",
@@ -23,6 +111,28 @@
       "directions": [
         "Quantization",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "ExFold: Unified Expert Folding for Training-Free MoE Prefill-Decode Acceleration",
+      "venue": "Fresh / preprint",
+      "topic": "MoE systems / LLM serving / CUDA kernel",
+      "arxiv": "2608.24938",
+      "doi": "",
+      "official_id": "2608.24938",
+      "paper_url": "https://arxiv.org/abs/2608.24938",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "vLLM plug-in with lightweight expert-folding CUDA kernel; reports up to 1.41x TTFT and 2.45x TPOT speedups while retaining ~99% average quality.",
+      "published_at": "2026-08-24T08:53:58Z",
+      "updated_at": "2026-08-24T08:53:58Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "MoE Systems / Accelerators",
+        "GPU Kernel / DSL / Compiler"
       ]
     },
     {
@@ -1062,6 +1172,71 @@
       ]
     },
     {
+      "title": "ComFuse: Fusing Complex Memory-Intensive Subgraphs with Compute-Intensive Kernels For Modern GPU Architectures",
+      "venue": "Fresh / preprint",
+      "topic": "GPU kernel / compiler / operator fusion",
+      "arxiv": "2608.03537",
+      "doi": "",
+      "official_id": "2608.03537",
+      "paper_url": "https://arxiv.org/abs/2608.03537",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Automated GPU compiler for joint compute-memory fusion and B2BGEMM using CUTLASS/modern GPU features; up to 1.97x over TorchInductor on selected workloads.",
+      "published_at": "2026-08-04T12:15:28Z",
+      "updated_at": "2026-08-04T12:15:28Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "ATFlash: Per-RoPE-Wavelength Attention Windows for Compute/Memory-Efficient LLM Inference",
+      "venue": "Fresh / preprint",
+      "topic": "efficient attention / long-context / FlashAttention",
+      "arxiv": "2608.02947",
+      "doi": "",
+      "official_id": "2608.02947",
+      "paper_url": "https://arxiv.org/abs/2608.02947",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "FlashAttention-4/FlashInfer-compatible per-RoPE-frequency pruning; prunes 37–48% QK terms with high output fidelity and reaches up to 1.31x end-to-end speedup at 1M-token context.",
+      "published_at": "2026-08-03T23:23:38Z",
+      "updated_at": "2026-08-03T23:23:38Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "KV Cache / Long Context",
+        "Sparsity / Pruning",
+        "Efficient Attention"
+      ]
+    },
+    {
+      "title": "HorizonServe: Coordinating Request Scheduling with GPU Sharing for Omni-Model Serving",
+      "venue": "Fresh / preprint",
+      "topic": "multimodal/omni-model serving / GPU scheduling",
+      "arxiv": "2608.01785",
+      "doi": "",
+      "official_id": "2608.01785",
+      "paper_url": "https://arxiv.org/abs/2608.01785",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Single-GPU omni-model serving system coordinating temporal request scheduling and spatial SM sharing under heterogeneous SLOs; reports up to 4.9x/7.0x SLO-attainment gains and 38.4–63.7% first-response latency reduction.",
+      "published_at": "2026-08-03T06:59:15Z",
+      "updated_at": "2026-08-03T06:59:15Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Multimodal / MLLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "When Replanning Becomes the Bottleneck: Budgeted Replanning for Embodied Agents",
       "venue": "ICML 2026",
       "topic": "Physical AI / embodied-agent serving / replanning SLO / context pruning",
@@ -1107,6 +1282,152 @@
   ],
   "p1_watchlist": [
     {
+      "title": "VoiceMem: Streaming Dual-Brain Memory for Real-Time Interaction",
+      "venue": "",
+      "topic": "agent systems / streaming memory / real-time multimodal",
+      "arxiv": "2608.26005",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.26005",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct real-time agent-memory/runtime relevance: overlaps memory work with streaming speech and reports 134 ms dense dual-brain retrieval path. Fresh preprint retained P1 pending end-to-end serving evidence.",
+      "published_at": "2026-08-26",
+      "updated_at": "2026-08-26T16:50:05Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Prefix Sliding for efficient test-time scaling",
+      "venue": "",
+      "topic": "efficient reasoning / KV cache / long-context",
+      "arxiv": "2608.26070",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.26070",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Training-free prefix+recent-window retention caps reasoning memory and reports ~3x faster inference while maintaining performance; strong direct efficient-reasoning/KV relevance, fresh preprint retained P1 pending broader system validation.",
+      "published_at": "2026-08-26",
+      "updated_at": "2026-08-26T17:37:15Z",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Fast Generative Grasping via Lie Group-Constrained MeanFlow",
+      "venue": "",
+      "topic": "Physical AI / flow acceleration / robotic grasping",
+      "arxiv": "2608.26076",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.26076",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI efficiency work: <=5 network evaluations, millisecond-scale grasp inference and up to 39x speed-up versus iterative diffusion/flow baselines, with real-robot transfer.",
+      "published_at": "2026-08-26",
+      "updated_at": "2026-08-26T17:43:07Z",
+      "is_latest_30d": true,
+      "directions": [
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "AsymSpec: Context-Asymmetric Speculative Decoding for Agentic LLMs",
+      "venue": "",
+      "topic": "LLM serving / speculative decoding / agent systems",
+      "arxiv": "2608.26004",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.26004",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Fresh direct systems work: asymmetric full-context drafter + compressed-context verifier; reports 1.3–1.7x throughput at 0.2–0.3x compute while recovering ~90% full-context accuracy. Retain P1 pending broader production/runtime evidence.",
+      "published_at": "2026-08-26",
+      "updated_at": "2026-08-26T16:50:02Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Speculative Decoding",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Understanding the Energy Scaling of Large Language Model Inference Across Context Lengths and Attention Architectures",
+      "venue": "",
+      "topic": "LLM serving / energy / attention architecture",
+      "arxiv": "2608.25096",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.25096",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct empirical serving/energy characterization across context lengths and attention designs; useful systems evidence, retain P1 pending deeper methodology review.",
+      "published_at": "2026-08-25T19:45:30Z",
+      "updated_at": "2026-08-25T19:45:30Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Attention"
+      ]
+    },
+    {
+      "title": "DataKernelBench: Can LLMs Optimize Database Queries on GPUs?",
+      "venue": "",
+      "topic": "GPU kernel / compiler / benchmark",
+      "arxiv": "2608.25061",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.25061",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Execution-guided CUDA/Triton database-kernel optimization benchmark; strongest full-query CUDA setup reports 2.11x over torch.compile and 2.54x on larger multi-GPU workload. Retain P1 pending broader adoption.",
+      "published_at": "2026-08-25T18:57:39Z",
+      "updated_at": "2026-08-25T18:57:39Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Hydra: Phase-Aware Workload Characterization of LLM Inference across Edge SoC Generations, Backends, and Quantization Levels",
+      "venue": "",
+      "topic": "edge AI / LLM inference / quantization characterization",
+      "arxiv": "2608.25053",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.25053",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct edge-inference systems characterization across SoCs, backends and quantization levels; retain P1 for deployment/architecture guidance value.",
+      "published_at": "2026-08-25T18:43:43Z",
+      "updated_at": "2026-08-25T18:43:43Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "TurboT2VA: Fast Large-Scale Text-to-Video-Audio Generation via Score-Regularized Consistency Distillation",
       "venue": "",
       "topic": "video/image generation acceleration / multimodal diffusion / quantization / sparse attention",
@@ -1145,7 +1466,7 @@
       "tracking_tier": "P1 · Watch",
       "why": "Borg composable serving simulator plus agent-driven extension workflow; follows a vLLM real system at 2.51% average throughput error and simulates up to 284.96x/23.19x faster than LLMServingSim2.0/Vidur on matched workloads.",
       "published_at": "2026-08-25T14:58:26Z",
-      "updated_at": "2026-08-25T14:58:26Z",
+      "updated_at": "2026-08-26T03:57:59Z",
       "is_latest_30d": true,
       "directions": [
         "LLM Serving",
@@ -1314,7 +1635,7 @@
       "tracking_tier": "P1 · Watch",
       "why": "Protected Physical-AI work that explicitly models VLA inference delay. ARLI restores near-Markovian structure under asynchronous action generation and enables effective RL finetuning when standard RL fails under latency.",
       "published_at": "2026-08-24T21:19:50Z",
-      "updated_at": "2026-08-24T21:19:50Z",
+      "updated_at": "2026-08-26T14:32:04Z",
       "is_latest_30d": true,
       "directions": [
         "VLA / WAM / Physical AI"
@@ -3158,6 +3479,27 @@
       ]
     },
     {
+      "title": "DEFT: Joint Task Placement and DVFS for Energy-Efficient Multi-GPU Runtimes",
+      "venue": "",
+      "topic": "distributed runtime / multi-GPU / energy efficiency",
+      "arxiv": "2608.02122",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.02122",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Joint task placement and per-GPU DVFS in CUDASTF; reduces average energy 14.8% on L40S while keeping performance within 1.5% of fastest baseline. Direct systems relevance; retain P1 pending ML-specific workload breadth.",
+      "published_at": "2026-08-03T12:15:11Z",
+      "updated_at": "2026-08-03T12:15:11Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference"
+      ]
+    },
+    {
       "title": "Energy-Efficient LLM Serving via Disaggregated Attention--FFN and Flexible Frequency Scaling",
       "venue": "",
       "topic": "llm_serving",
@@ -3341,7 +3683,7 @@
       "tracking_tier": "P1 · Watch",
       "why": "Directly relevant recent Efficient-ML/AI-Infra work with concrete systems/efficiency mechanism; retained as P1 pending deeper venue/adoption/independent-validation review.",
       "published_at": "2026-07-28T15:25:05Z",
-      "updated_at": "2026-07-29T07:31:33Z",
+      "updated_at": "",
       "is_latest_30d": true,
       "directions": [
         "LLM Serving",
@@ -3417,6 +3759,27 @@
     }
   ],
   "p2_relevant_low_priority": [
+    {
+      "title": "StreamPI: Streaming Multimodal Temporal Modeling for Vision-Language-Action Models",
+      "venue": "",
+      "topic": "Physical AI / VLA streaming",
+      "arxiv": "2608.26067",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.26067",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Protected Physical-AI relevance: parameter-free streaming temporal modeling and asynchronous deployment support, but current abstract emphasizes task quality and smoother execution rather than quantified serving speed/memory gains; retain P2.",
+      "published_at": "2026-08-26",
+      "updated_at": "2026-08-26T17:33:19Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
     {
       "title": "From Seeing to Acting: Smart Glasses as First-Person Intelligence Platforms",
       "venue": "",
@@ -6076,6 +6439,94 @@
   ],
   "tracking_records": [
     {
+      "title": "psRL: Efficient Training for Agentic AI via Training-Time Prefix Sharing",
+      "venue": "Fresh / preprint",
+      "topic": "agent RL systems / distributed training / KV prefix sharing",
+      "arxiv": "2608.25683",
+      "doi": "",
+      "official_id": "2608.25683",
+      "paper_url": "https://arxiv.org/abs/2608.25683",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Production-trace-driven agent-RL training system with distributed prefix reuse and KV manager; reports up to 5.2x update throughput.",
+      "published_at": "2026-08-26T11:58:47Z",
+      "updated_at": "2026-08-26T11:58:47Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "TOPAS: Workflow-Aware Prefix-State Scheduling for Multi-Agent LLM Serving",
+      "venue": "Fresh / preprint",
+      "topic": "agent serving / prefix cache / scheduling",
+      "arxiv": "2608.25523",
+      "doi": "",
+      "official_id": "2608.25523",
+      "paper_url": "https://arxiv.org/abs/2608.25523",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Implemented in SGLang; jointly schedules prefix-cache state and requests, reducing mean/p99 workflow JCT by up to 39.8%/49.4% on synthetic DAGs and sizable gains on MetaGPT workflows.",
+      "published_at": "2026-08-26T08:33:10Z",
+      "updated_at": "2026-08-26T08:33:10Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "APT: Accelerating Diffusion Transformers via Attention Probability-Guided Pruning and Quantization",
+      "venue": "Fresh / preprint",
+      "topic": "diffusion acceleration / sparse attention / quantization / accelerator",
+      "arxiv": "2608.25380",
+      "doi": "",
+      "official_id": "2608.25380",
+      "paper_url": "https://arxiv.org/abs/2608.25380",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Software-hardware co-design for high-resolution DiT; APDT+TAFA plus specialized dual-precision sparse accelerator, reporting up to 8.16x speedup and 14.98x energy efficiency over A100.",
+      "published_at": "2026-08-26T05:08:40Z",
+      "updated_at": "2026-08-26T05:08:40Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Quantization",
+        "Sparsity / Pruning",
+        "Efficient Attention",
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "FLINT: Efficiently Leveraging High Bandwidth Flash for Capacity-Scalable LLM Inference Acceleration",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / memory hierarchy / hardware architecture",
+      "arxiv": "2608.25062",
+      "doi": "",
+      "official_id": "2608.25062",
+      "paper_url": "https://arxiv.org/abs/2608.25062",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Direct LLM inference memory-capacity system using HBF+HBM, burst-buffer control, off-critical-path refresh and read-only FTL; strong architecture/runtime contribution.",
+      "published_at": "2026-08-25T18:58:14Z",
+      "updated_at": "2026-08-25T18:58:14Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Maia 200: A Software Defined Dataflow System for Large-scale AI Acceleration",
       "venue": "Fresh / preprint",
       "topic": "edge/cloud/heterogeneous AI systems / production inference accelerator / dataflow architecture",
@@ -6094,6 +6545,28 @@
       "directions": [
         "Quantization",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "ExFold: Unified Expert Folding for Training-Free MoE Prefill-Decode Acceleration",
+      "venue": "Fresh / preprint",
+      "topic": "MoE systems / LLM serving / CUDA kernel",
+      "arxiv": "2608.24938",
+      "doi": "",
+      "official_id": "2608.24938",
+      "paper_url": "https://arxiv.org/abs/2608.24938",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "vLLM plug-in with lightweight expert-folding CUDA kernel; reports up to 1.41x TTFT and 2.45x TPOT speedups while retaining ~99% average quality.",
+      "published_at": "2026-08-24T08:53:58Z",
+      "updated_at": "2026-08-24T08:53:58Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "MoE Systems / Accelerators",
+        "GPU Kernel / DSL / Compiler"
       ]
     },
     {
@@ -7133,6 +7606,71 @@
       ]
     },
     {
+      "title": "ComFuse: Fusing Complex Memory-Intensive Subgraphs with Compute-Intensive Kernels For Modern GPU Architectures",
+      "venue": "Fresh / preprint",
+      "topic": "GPU kernel / compiler / operator fusion",
+      "arxiv": "2608.03537",
+      "doi": "",
+      "official_id": "2608.03537",
+      "paper_url": "https://arxiv.org/abs/2608.03537",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Automated GPU compiler for joint compute-memory fusion and B2BGEMM using CUTLASS/modern GPU features; up to 1.97x over TorchInductor on selected workloads.",
+      "published_at": "2026-08-04T12:15:28Z",
+      "updated_at": "2026-08-04T12:15:28Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "ATFlash: Per-RoPE-Wavelength Attention Windows for Compute/Memory-Efficient LLM Inference",
+      "venue": "Fresh / preprint",
+      "topic": "efficient attention / long-context / FlashAttention",
+      "arxiv": "2608.02947",
+      "doi": "",
+      "official_id": "2608.02947",
+      "paper_url": "https://arxiv.org/abs/2608.02947",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "FlashAttention-4/FlashInfer-compatible per-RoPE-frequency pruning; prunes 37–48% QK terms with high output fidelity and reaches up to 1.31x end-to-end speedup at 1M-token context.",
+      "published_at": "2026-08-03T23:23:38Z",
+      "updated_at": "2026-08-03T23:23:38Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "KV Cache / Long Context",
+        "Sparsity / Pruning",
+        "Efficient Attention"
+      ]
+    },
+    {
+      "title": "HorizonServe: Coordinating Request Scheduling with GPU Sharing for Omni-Model Serving",
+      "venue": "Fresh / preprint",
+      "topic": "multimodal/omni-model serving / GPU scheduling",
+      "arxiv": "2608.01785",
+      "doi": "",
+      "official_id": "2608.01785",
+      "paper_url": "https://arxiv.org/abs/2608.01785",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Single-GPU omni-model serving system coordinating temporal request scheduling and spatial SM sharing under heterogeneous SLOs; reports up to 4.9x/7.0x SLO-attainment gains and 38.4–63.7% first-response latency reduction.",
+      "published_at": "2026-08-03T06:59:15Z",
+      "updated_at": "2026-08-03T06:59:15Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Multimodal / MLLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "When Replanning Becomes the Bottleneck: Budgeted Replanning for Embodied Agents",
       "venue": "ICML 2026",
       "topic": "Physical AI / embodied-agent serving / replanning SLO / context pruning",
@@ -7176,6 +7714,152 @@
       ]
     },
     {
+      "title": "VoiceMem: Streaming Dual-Brain Memory for Real-Time Interaction",
+      "venue": "",
+      "topic": "agent systems / streaming memory / real-time multimodal",
+      "arxiv": "2608.26005",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.26005",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct real-time agent-memory/runtime relevance: overlaps memory work with streaming speech and reports 134 ms dense dual-brain retrieval path. Fresh preprint retained P1 pending end-to-end serving evidence.",
+      "published_at": "2026-08-26",
+      "updated_at": "2026-08-26T16:50:05Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Prefix Sliding for efficient test-time scaling",
+      "venue": "",
+      "topic": "efficient reasoning / KV cache / long-context",
+      "arxiv": "2608.26070",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.26070",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Training-free prefix+recent-window retention caps reasoning memory and reports ~3x faster inference while maintaining performance; strong direct efficient-reasoning/KV relevance, fresh preprint retained P1 pending broader system validation.",
+      "published_at": "2026-08-26",
+      "updated_at": "2026-08-26T17:37:15Z",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Fast Generative Grasping via Lie Group-Constrained MeanFlow",
+      "venue": "",
+      "topic": "Physical AI / flow acceleration / robotic grasping",
+      "arxiv": "2608.26076",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.26076",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI efficiency work: <=5 network evaluations, millisecond-scale grasp inference and up to 39x speed-up versus iterative diffusion/flow baselines, with real-robot transfer.",
+      "published_at": "2026-08-26",
+      "updated_at": "2026-08-26T17:43:07Z",
+      "is_latest_30d": true,
+      "directions": [
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "AsymSpec: Context-Asymmetric Speculative Decoding for Agentic LLMs",
+      "venue": "",
+      "topic": "LLM serving / speculative decoding / agent systems",
+      "arxiv": "2608.26004",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.26004",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Fresh direct systems work: asymmetric full-context drafter + compressed-context verifier; reports 1.3–1.7x throughput at 0.2–0.3x compute while recovering ~90% full-context accuracy. Retain P1 pending broader production/runtime evidence.",
+      "published_at": "2026-08-26",
+      "updated_at": "2026-08-26T16:50:02Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Speculative Decoding",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Understanding the Energy Scaling of Large Language Model Inference Across Context Lengths and Attention Architectures",
+      "venue": "",
+      "topic": "LLM serving / energy / attention architecture",
+      "arxiv": "2608.25096",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.25096",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct empirical serving/energy characterization across context lengths and attention designs; useful systems evidence, retain P1 pending deeper methodology review.",
+      "published_at": "2026-08-25T19:45:30Z",
+      "updated_at": "2026-08-25T19:45:30Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Attention"
+      ]
+    },
+    {
+      "title": "DataKernelBench: Can LLMs Optimize Database Queries on GPUs?",
+      "venue": "",
+      "topic": "GPU kernel / compiler / benchmark",
+      "arxiv": "2608.25061",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.25061",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Execution-guided CUDA/Triton database-kernel optimization benchmark; strongest full-query CUDA setup reports 2.11x over torch.compile and 2.54x on larger multi-GPU workload. Retain P1 pending broader adoption.",
+      "published_at": "2026-08-25T18:57:39Z",
+      "updated_at": "2026-08-25T18:57:39Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Hydra: Phase-Aware Workload Characterization of LLM Inference across Edge SoC Generations, Backends, and Quantization Levels",
+      "venue": "",
+      "topic": "edge AI / LLM inference / quantization characterization",
+      "arxiv": "2608.25053",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.25053",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct edge-inference systems characterization across SoCs, backends and quantization levels; retain P1 for deployment/architecture guidance value.",
+      "published_at": "2026-08-25T18:43:43Z",
+      "updated_at": "2026-08-25T18:43:43Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "TurboT2VA: Fast Large-Scale Text-to-Video-Audio Generation via Score-Regularized Consistency Distillation",
       "venue": "",
       "topic": "video/image generation acceleration / multimodal diffusion / quantization / sparse attention",
@@ -7214,7 +7898,7 @@
       "tracking_tier": "P1 · Watch",
       "why": "Borg composable serving simulator plus agent-driven extension workflow; follows a vLLM real system at 2.51% average throughput error and simulates up to 284.96x/23.19x faster than LLMServingSim2.0/Vidur on matched workloads.",
       "published_at": "2026-08-25T14:58:26Z",
-      "updated_at": "2026-08-25T14:58:26Z",
+      "updated_at": "2026-08-26T03:57:59Z",
       "is_latest_30d": true,
       "directions": [
         "LLM Serving",
@@ -7383,7 +8067,7 @@
       "tracking_tier": "P1 · Watch",
       "why": "Protected Physical-AI work that explicitly models VLA inference delay. ARLI restores near-Markovian structure under asynchronous action generation and enables effective RL finetuning when standard RL fails under latency.",
       "published_at": "2026-08-24T21:19:50Z",
-      "updated_at": "2026-08-24T21:19:50Z",
+      "updated_at": "2026-08-26T14:32:04Z",
       "is_latest_30d": true,
       "directions": [
         "VLA / WAM / Physical AI"
@@ -9227,6 +9911,27 @@
       ]
     },
     {
+      "title": "DEFT: Joint Task Placement and DVFS for Energy-Efficient Multi-GPU Runtimes",
+      "venue": "",
+      "topic": "distributed runtime / multi-GPU / energy efficiency",
+      "arxiv": "2608.02122",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.02122",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Joint task placement and per-GPU DVFS in CUDASTF; reduces average energy 14.8% on L40S while keeping performance within 1.5% of fastest baseline. Direct systems relevance; retain P1 pending ML-specific workload breadth.",
+      "published_at": "2026-08-03T12:15:11Z",
+      "updated_at": "2026-08-03T12:15:11Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference"
+      ]
+    },
+    {
       "title": "Energy-Efficient LLM Serving via Disaggregated Attention--FFN and Flexible Frequency Scaling",
       "venue": "",
       "topic": "llm_serving",
@@ -9410,7 +10115,7 @@
       "tracking_tier": "P1 · Watch",
       "why": "Directly relevant recent Efficient-ML/AI-Infra work with concrete systems/efficiency mechanism; retained as P1 pending deeper venue/adoption/independent-validation review.",
       "published_at": "2026-07-28T15:25:05Z",
-      "updated_at": "2026-07-29T07:31:33Z",
+      "updated_at": "",
       "is_latest_30d": true,
       "directions": [
         "LLM Serving",
@@ -9482,6 +10187,27 @@
         "Quantization",
         "Sparsity / Pruning",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "StreamPI: Streaming Multimodal Temporal Modeling for Vision-Language-Action Models",
+      "venue": "",
+      "topic": "Physical AI / VLA streaming",
+      "arxiv": "2608.26067",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.26067",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Protected Physical-AI relevance: parameter-free streaming temporal modeling and asynchronous deployment support, but current abstract emphasizes task quality and smoother execution rather than quantified serving speed/memory gains; retain P2.",
+      "published_at": "2026-08-26",
+      "updated_at": "2026-08-26T17:33:19Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
