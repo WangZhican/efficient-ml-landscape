@@ -1,6 +1,6 @@
 # 08 · GPU Kernel / DSL / Compiler
 
-> **255 canonical papers** mapped here, plus a broader **61-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **256 canonical papers** mapped here, plus a broader **61-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -70,7 +70,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 235 canonical
+## 🏛️ Classical / Historical · 236 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -155,6 +155,7 @@
 | **Canonical** | **FuseFSS: Efficient Secure LLM Inference with Function Secret Sharing** | ICML 2026 | LLM inference systems / secure inference / compiler / GPU | [Link](https://arxiv.org/abs/2606.09551) | — |
 | **Canonical** | **Gram2Token: Enabling Run-time GPU-Native Grammar-Constrained Decoding for LLMs** | ICML 2026 | LLM serving / GPU-native grammar-constrained decoding / structured generation | [Link](https://openreview.net/forum?id=h3K23f6tLU) | [Repo](https://github.com/Paradozile/Gram2Token) |
 | **Canonical** | **HARD-KV: Head-Adaptive Regularization for Decoding-time KV Compression** | ICML 2026 | KV cache compression / head-adaptive sparsity / vLLM-compatible runtime | [Link](https://arxiv.org/abs/2606.28831) | [Repo](https://github.com/SuDIS-ZJU/HARDInfer) |
+| **Canonical** | **HASTE: Hardware-Aware Dynamic Sparse Training for Large Output Spaces** | ICML 2026 | sparsity / GPU kernels / hardware-aware sparse training / large output layers / memory-compute efficiency | [Link](https://arxiv.org/abs/2606.01117) | — |
 | **Canonical** | **KernelBand: Steering LLM-based Kernel Optimization via Hardware-Aware Multi-Armed Bandits** | ICML 2026 | GPU kernel / LLM code generation / hardware-aware optimization / agentic compiler systems | [Link](https://arxiv.org/abs/2511.18868) | [Repo](https://github.com/TongmingLAIC/KernelBand) |
 | **Canonical** | **KernelCraft: Benchmarking for Agentic Close-to-Metal Kernel Generation on Emerging Hardware** | ICML 2026 | GPU/NPU kernel / compiler / agentic code generation / emerging accelerators | [Link](https://arxiv.org/abs/2603.08721) | — |
 | **Canonical** | **KernelFoundry: Hardware-aware evolutionary GPU kernel optimization** | ICML 2026 | GPU kernel / compiler / evolutionary optimization / hardware-aware agent systems | [Link](https://arxiv.org/abs/2603.12440) | [Repo](https://github.com/isl-org/kernelfoundry) |

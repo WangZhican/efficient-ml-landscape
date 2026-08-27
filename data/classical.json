@@ -10549,6 +10549,27 @@
     ]
   },
   {
+    "title": "HASTE: Hardware-Aware Dynamic Sparse Training for Large Output Spaces",
+    "venue": "ICML 2026",
+    "topic": "sparsity / GPU kernels / hardware-aware sparse training / large output layers / memory-compute efficiency",
+    "arxiv": "2606.01117",
+    "doi": "",
+    "official_id": "2606.01117",
+    "paper_url": "https://arxiv.org/abs/2606.01117",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Regular paper. HASTE introduces group-shared fixed fan-in sparsity plus a dense-head/sparse-tail decomposition for million-label output layers, explicitly co-designed for GPU execution with custom CUDA kernels. Kernel microbenchmarks report up to 4.4x forward and 25x backward speedup over standard fixed-fan-in sparsity while retaining competitive precision.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "HeraSys: Collaborative Serving of Multiple LLM Workflows via Fine-Grained End-to-End Optimization",
     "venue": "ICML 2026",
     "topic": "agentic LLM serving / multi-workflow scheduling / reuse / adaptive batching",
@@ -13914,6 +13935,29 @@
     ]
   },
   {
+    "title": "SPLIT-VLM: Salience-Guided Partitioning towards Local Coverage for Importance-Aware Token Dropping in Vision-Language Models",
+    "venue": "ICML 2026",
+    "topic": "multimodal serving / VLM inference / visual token dropping / token compression / prefill efficiency",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "OPENREVIEW:Elm4TdaXi0",
+    "paper_url": "https://openreview.net/forum?id=Elm4TdaXi0",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Poster, confirmed by ICML inventory and SeoulTech IDSL official news. SPLIT-VLM uses attention-free temporal-shift salience, adaptive region budgets, and diversity-aware selection to aggressively reduce visual tokens while preserving local coverage; official reporting says LLaVA-1.5-7B retains >99% accuracy with 192 visual tokens and remains robust at 64 tokens.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
     "title": "SSA: Sparse Sparse Attention by Aligning Full and Sparse Attention Outputs in Feature Space",
     "venue": "ICML 2026",
     "topic": "efficient attention / sparse attention / long-context inference / training",
@@ -14671,6 +14715,27 @@
       "LLM Serving",
       "KV Cache / Long Context",
       "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "WAVE: Window-Aware Vocabulary-Efficient Early-Exit for Training-Free LLM Acceleration",
+    "venue": "ICML 2026",
+    "topic": "LLM serving / early exit / training-free inference acceleration / vocabulary-efficient exit head",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "OPENREVIEW:hCY1J253Kf",
+    "paper_url": "https://openreview.net/forum?id=hCY1J253Kf",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Poster, confirmed by the ICML inventory and SeoulTech IDSL official publication/news pages. WAVE uses calibrated exit windows plus a proxy vocabulary LM head to avoid full-vocabulary exit checks, reducing exit-decision overhead by about 87% and reporting up to 1.4x average Llama-2-7B inference speedup without gradient-based retraining; compatible with W4A16 quantization.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Quantization"
     ]
   },
   {

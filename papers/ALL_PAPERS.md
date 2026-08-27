@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **1082 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **279 visible papers = 50 P0 + 108 P1 + 121 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1085 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **279 visible papers = 50 P0 + 108 P1 + 121 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -302,9 +302,9 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 1032
+## 🏛️ Classical / Historical · 1035
 
-### ICML 2026 · 320
+### ICML 2026 · 323
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -430,6 +430,7 @@
 | **Canonical** | **Grouter: Decoupling Routing from Representation for Accelerated MoE Training** | ICML 2026 | MoE systems / efficient training / routing / distributed training | [Link](https://arxiv.org/abs/2603.06626) | [Repo](https://github.com/JimmyAwoe/Grouter) |
 | **Canonical** | **GSRQ: Gain-Shape Residual Quantization for Sub-1-bit KV Cache** | ICML 2026 | KV cache / long-context / sub-1-bit quantization / residual vector quantization | [Link](https://arxiv.org/abs/2607.01065) | — |
 | **Canonical** | **HARD-KV: Head-Adaptive Regularization for Decoding-time KV Compression** | ICML 2026 | KV cache compression / head-adaptive sparsity / vLLM-compatible runtime | [Link](https://arxiv.org/abs/2606.28831) | [Repo](https://github.com/SuDIS-ZJU/HARDInfer) |
+| **Canonical** | **HASTE: Hardware-Aware Dynamic Sparse Training for Large Output Spaces** | ICML 2026 | sparsity / GPU kernels / hardware-aware sparse training / large output layers / memory-compute efficiency | [Link](https://arxiv.org/abs/2606.01117) | — |
 | **Canonical** | **HeraSys: Collaborative Serving of Multiple LLM Workflows via Fine-Grained End-to-End Optimization** | ICML 2026 | agentic LLM serving / multi-workflow scheduling / reuse / adaptive batching | [Link](https://arxiv.org/abs/2607.22578) | — |
 | **Canonical** | **HERMES: Towards Efficient and Verifiable Mathematical Reasoning in LLMs** | ICML 2026 | efficient reasoning / agent systems / verifiable reasoning / test-time compute | [Link](https://arxiv.org/abs/2511.18760) | [Repo](https://github.com/aziksh-ospanov/HERMES) |
 | **Canonical** | **HexGen-3: A Fully Disaggregated LLM Serving Framework with Fine-Grained Heterogeneous Resource Autoscaling** | ICML 2026 | LLM serving / disaggregation / heterogeneous resource autoscaling | [Link](https://youhe-jiang.github.io/) | — |
@@ -587,6 +588,7 @@
 | **Canonical** | **Speculative Coupled Decoding for Training-Free Lossless Acceleration of Autoregressive Visual Generation** | ICML 2026 | speculative decoding / autoregressive image-video generation / lossless visual generation acceleration | [Link](https://arxiv.org/abs/2510.24211) | [Repo](https://github.com/junhyukso/SCD) |
 | **Canonical** | **SPEED-Bench: A Unified and Diverse Benchmark for Speculative Decoding** | ICML 2026 | speculative decoding / production benchmarking / LLM serving / vLLM / TensorRT-LLM / throughput evaluation | [Link](https://arxiv.org/abs/2604.09557) | [Repo](https://github.com/NVIDIA/Model-Optimizer/tree/main/examples/specdec_bench) |
 | **Canonical** | **Speedup Patch: Learning a Plug-and-Play Policy to Accelerate Embodied Manipulation** | ICML 2026 | VLA / Physical AI / embodied policy runtime / action-chunk acceleration | [Link](https://arxiv.org/abs/2603.20658) | — |
+| **Canonical** | **SPLIT-VLM: Salience-Guided Partitioning towards Local Coverage for Importance-Aware Token Dropping in Vision-Language Models** | ICML 2026 | multimodal serving / VLM inference / visual token dropping / token compression / prefill efficiency | [Link](https://openreview.net/forum?id=Elm4TdaXi0) | — |
 | **Canonical** | **SSA: Sparse Sparse Attention by Aligning Full and Sparse Attention Outputs in Feature Space** | ICML 2026 | efficient attention / sparse attention / long-context inference / training | [Link](https://arxiv.org/abs/2511.20102) | [Repo](https://github.com/zhenyi4/ssa) |
 | **Canonical** | **Star Elastic: Many-in-One Reasoning LLMs with Efficient Budget Control** | ICML 2026 | efficient reasoning / elastic LLM inference / MoE compression / dynamic compute budget / low-precision deployment | [Link](https://arxiv.org/abs/2605.07182) | [Repo](https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Elastic-30B-A3B-BF16) |
 | **Canonical** | **STAR-KV: Low-Rank KV Cache Compression via Soft Thresholding for Adaptive Rank Control** | ICML 2026 | KV cache / low-rank compression / mixed-precision quantization / Triton kernel | [Link](https://arxiv.org/abs/2606.08382) | [Repo](https://github.com/PriyanshBhatnagar/STAR-KV) |
@@ -622,6 +624,7 @@
 | **Canonical** | **VidLaDA: Bidirectional Diffusion Large Language Models for Efficient Video Understanding** | ICML 2026 | multimodal / video LLM / diffusion language model / MARS-Cache / parallel decoding | [Link](https://arxiv.org/abs/2601.17868) | [Repo](https://github.com/ziHoHe/VidLaDA) |
 | **Canonical** | **VLA-ATTC: Adaptive Test-Time Compute for VLA Models with Relative Action Critic Model** | ICML 2026 | VLA / Physical AI / adaptive test-time compute / action critic / compute-aware embodied inference | [Link](https://arxiv.org/abs/2605.01194) | — |
 | **Canonical** | **WarmServe: Enabling One-for-Many GPU Prewarming for Multi-LLM Serving** | ICML 2026 | LLM serving / multi-model autoscaling / GPU prewarming / KV-cache-aware memory management | [Link](https://arxiv.org/abs/2512.09472) | — |
+| **Canonical** | **WAVE: Window-Aware Vocabulary-Efficient Early-Exit for Training-Free LLM Acceleration** | ICML 2026 | LLM serving / early exit / training-free inference acceleration / vocabulary-efficient exit head | [Link](https://openreview.net/forum?id=hCY1J253Kf) | — |
 | **Canonical** | **When Drafts Evolve: Speculative Decoding Meets Online Learning** | ICML 2026 | speculative decoding / online draft adaptation / inference acceleration | [Link](https://arxiv.org/abs/2603.12617) | [Repo](https://github.com/ZinYY/OnlineSPEC) |
 | **Canonical** | **When RL Meets Adaptive Speculative Training: A Unified Training-Serving System** | ICML 2026 | speculative decoding / online speculator training / RL systems / SGLang serving | [Link](https://arxiv.org/abs/2602.06932) | — |
 | **Canonical** | **Which Heads Matter for Reasoning? RL-Guided KV Cache Compression** | ICML 2026 | KV cache / efficient reasoning / reasoning-aware head allocation / SGLang inference | [Link](https://arxiv.org/abs/2510.08525) | [Repo](https://github.com/Kurt232/RLKV) |
