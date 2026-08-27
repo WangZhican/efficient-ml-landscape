@@ -9580,6 +9580,26 @@
     ]
   },
   {
+    "title": "Efficient Bilevel Optimization for CKA-Guided MoE Upcycling",
+    "venue": "ICML 2026",
+    "topic": "MoE systems / efficient training / adaptive capacity growth / continual learning / parameter efficiency",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "openreview:M5hGwjZCs0",
+    "paper_url": "https://openreview.net/forum?id=M5hGwjZCs0",
+    "code_url": "https://github.com/fabfish/bilevel-moe-upcycle",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Poster. The method uses CKA-guided bilevel optimization and differentiable masking to selectively upcycle MoE capacity instead of indiscriminately expanding experts. On TRACE it improves average accuracy, reduces forgetting by 80%, and eliminates about 60% of redundant parameter expansion relative to standard upcycling, directly improving MoE model-capacity efficiency.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "MoE Systems / Accelerators"
+    ]
+  },
+  {
     "title": "Efficient Diffusion LLMs via Temporal-Spatial Parallel Decoding and Confidence Extrapolation",
     "venue": "ICML 2026",
     "topic": "diffusion LLM / parallel decoding / inference acceleration",
