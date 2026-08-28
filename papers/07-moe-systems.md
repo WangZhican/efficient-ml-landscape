@@ -1,6 +1,6 @@
 # 07 · MoE Systems / Accelerators
 
-> **80 canonical papers** mapped here, plus a broader **29-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **81 canonical papers** mapped here, plus a broader **29-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -38,7 +38,7 @@
 | **P2 · Relevant** | **DraftExpert: Expansion-Aware Self-Speculative Decoding for End-Device MoE Inference** | Fresh / preprint | llm_serving / spec / moe / edge | [Link](https://arxiv.org/abs/2607.24434) | — |
 | **P2 · Relevant** | **Decoding the Skew: Distribution-Aware MoE Inference with Adaptive Kernel Dispatch** | Fresh / preprint | llm_serving / moe | [Link](https://arxiv.org/abs/2607.23099) | — |
 
-## 🏛️ Classical / Historical · 73 canonical
+## 🏛️ Classical / Historical · 74 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -81,6 +81,7 @@
 | **Canonical** | **PuzzleMoE: Efficient Compression of Large Mixture-of-Experts Models via Sparse Expert Merging and Bit-packed inference** | ICML 2026 | MoE compression / sparse expert merging / bit-packed inference | [Link](https://arxiv.org/abs/2511.04805) | — |
 | **Canonical** | **RaGEP: Rank-aware Geometric Expert Pruning for Mixture-of-Experts Language Models** | ICML 2026 | MoE systems / expert pruning / model compression / memory-efficient inference | [Link](https://prudent-o.github.io/zhouhuilin/) | — |
 | **Canonical** | **ReMoE: Boosting Expert Reuse through Router Fine-Tuning in Memory-Constrained MoE LLM Inference** | ICML 2026 | MoE serving / expert offload / edge inference / cache locality | [Link](https://arxiv.org/abs/2605.27081) | [Repo](https://github.com/BUAA-OSCAR/ReMoE) |
+| **Canonical** | **SCHUR-A*: Layer-wise Optimal Expert Pruning for MoEs via Schur-Complement Guided A* Search** | ICML 2026 | MoE systems/accelerators / expert pruning / model compression / memory-efficient inference | [Link](https://openreview.net/forum?id=D2AH8pDyU9) | — |
 | **Canonical** | **SoftMoE: Soft Differentiable Routing for Mixture-of-Experts in LLMs** | ICML 2026 | MoE systems / adaptive expert routing / compute-efficient inference / efficient training | [Link](https://arxiv.org/abs/2606.17952) | [Repo](https://github.com/dlcuda/SoftMoE) |
 | **Canonical** | **SpecMD: A Comprehensive Study On Speculative Expert Prefetching** | ICML 2026 | MoE systems / expert caching / speculative prefetching | [Link](https://arxiv.org/abs/2602.03921) | — |
 | **Canonical** | **Star Elastic: Many-in-One Reasoning LLMs with Efficient Budget Control** | ICML 2026 | efficient reasoning / elastic LLM inference / MoE compression / dynamic compute budget / low-precision deployment | [Link](https://arxiv.org/abs/2605.07182) | [Repo](https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Elastic-30B-A3B-BF16) |

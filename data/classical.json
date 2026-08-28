@@ -10855,6 +10855,31 @@
     ]
   },
   {
+    "title": "HilbertA: Hilbert-Curve–Aligned Sparse Attention for 2D Structured Data",
+    "venue": "ICML 2026",
+    "topic": "efficient attention / diffusion acceleration / multimodal inference / GPU-aligned sparse attention / hardware-aware token layout",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "yhMt5V4FNb",
+    "paper_url": "https://openreview.net/forum?id=yhMt5V4FNb",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 main-conference poster confirmed by official ICML Downloads, OpenReview yhMt5V4FNb, and the first-author homepage. HilbertA maps 2D image tokens along a Hilbert curve so spatial locality becomes contiguous GPU memory access, with shifted windows and a shared region for cross-tile communication. Reported results include up to 4.16x attention and 1.44x end-to-end acceleration on Flux.1-dev and 2.30x attention / 1.57x TTFT speedup on Qwen3-VL-8B, making it a direct hardware-aware sparse-attention canonical.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference",
+      "Multimodal / MLLM Serving",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "HybridFlow: Resource-Adaptive Subtask Routing for Efficient Edge-Cloud LLM Inference",
     "venue": "ICML 2026",
     "topic": "edge-cloud LLM inference / adaptive routing / parallel subtask execution / latency-cost optimization",
@@ -13510,6 +13535,27 @@
     ]
   },
   {
+    "title": "SCHUR-A*: Layer-wise Optimal Expert Pruning for MoEs via Schur-Complement Guided A* Search",
+    "venue": "ICML 2026",
+    "topic": "MoE systems/accelerators / expert pruning / model compression / memory-efficient inference",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "D2AH8pDyU9",
+    "paper_url": "https://openreview.net/forum?id=D2AH8pDyU9",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 main-conference paper, OpenReview D2AH8pDyU9. SCHUR-A* formulates post-training sparse-MoE expert pruning as layer-wise subset selection and uses an admissible Schur-complement A* heuristic to find globally optimal expert subsets under a cardinality constraint, targeting MoE deployment memory pressure.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "MoE Systems / Accelerators"
+    ]
+  },
+  {
     "title": "Scout Before You Attend: Sketch-and-Walk Sparse Attention for Efficient LLM Inference",
     "venue": "ICML 2026",
     "topic": "efficient attention / long-context inference",
@@ -13696,6 +13742,26 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "BACKFILL_HIGH",
     "why": "ICML 2026 main-conference paper confirmed by the MIRA Lab official publication page. CoSMo targets structural redundancy in long reasoning chains via consistency-guided split/merge curation plus structure-aligned reinforcement learning. Across multiple benchmarks/backbones it improves accuracy by 3.3 points while reducing reasoning segment usage by 28.7% on average, making it a direct Efficient Reasoning/test-time-compute canonical.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "SimpleMem: Efficient Lifelong Memory for LLM Agents",
+    "venue": "ICML 2026",
+    "topic": "efficient reasoning/agent systems / agent memory / context compression / retrieval efficiency / token-cost reduction",
+    "arxiv": "2601.02553",
+    "doi": "",
+    "official_id": "2601.02553",
+    "paper_url": "https://arxiv.org/abs/2601.02553",
+    "code_url": "https://github.com/aiming-lab/SimpleMem",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 main-conference poster confirmed by the official ICML 2026 Downloads inventory, OpenReview identity oBgLvd5YC6, and author/lab publication pages. SimpleMem compresses long interaction histories into structured memory and adaptively retrieves compact context; the paper reports up to 30x lower inference-time token consumption while improving LoCoMo F1, making it a direct agent-runtime/context-efficiency canonical.",
     "published_at": "",
     "updated_at": "",
     "is_latest_30d": false,
@@ -14799,6 +14865,28 @@
     "directions": [
       "GPU Kernel / DSL / Compiler",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Understanding and Mitigating Token-Pruning-Induced Vulnerabilities in VLMs",
+    "venue": "ICML 2026",
+    "topic": "multimodal/MLLM serving / token pruning / safety-aware efficient inference / visual-token sparsity",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "D3OHVbePvz",
+    "paper_url": "https://openreview.net/forum?id=D3OHVbePvz",
+    "code_url": "https://github.com/liongliong/SAP",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 main-conference poster confirmed by OpenReview D3OHVbePvz and author publication pages. The work systematically studies token-pruning-induced safety degradation in VLMs and proposes plug-and-play Safety-Aware Pruning (SAP), reducing jailbreak ASR by up to 62% while preserving pruning efficiency and utility. This is a direct efficiency-quality/safety deployment result for MLLM token pruning.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Multimodal / MLLM Serving"
     ]
   },
   {

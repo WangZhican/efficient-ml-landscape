@@ -1,10 +1,10 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **1051 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **1055 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
-## ICML 2026 · 339
+## ICML 2026 · 343
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -144,6 +144,7 @@
 | **Canonical** | **HeraSys: Collaborative Serving of Multiple LLM Workflows via Fine-Grained End-to-End Optimization** | ICML 2026 | agentic LLM serving / multi-workflow scheduling / reuse / adaptive batching | [Link](https://arxiv.org/abs/2607.22578) | — |
 | **Canonical** | **HERMES: Towards Efficient and Verifiable Mathematical Reasoning in LLMs** | ICML 2026 | efficient reasoning / agent systems / verifiable reasoning / test-time compute | [Link](https://arxiv.org/abs/2511.18760) | [Repo](https://github.com/aziksh-ospanov/HERMES) |
 | **Canonical** | **HexGen-3: A Fully Disaggregated LLM Serving Framework with Fine-Grained Heterogeneous Resource Autoscaling** | ICML 2026 | LLM serving / disaggregation / heterogeneous resource autoscaling | [Link](https://youhe-jiang.github.io/) | — |
+| **Canonical** | **HilbertA: Hilbert-Curve–Aligned Sparse Attention for 2D Structured Data** | ICML 2026 | efficient attention / diffusion acceleration / multimodal inference / GPU-aligned sparse attention / hardware-aware token layout | [Link](https://openreview.net/forum?id=yhMt5V4FNb) | — |
 | **Canonical** | **HybridFlow: Resource-Adaptive Subtask Routing for Efficient Edge-Cloud LLM Inference** | ICML 2026 | edge-cloud LLM inference / adaptive routing / parallel subtask execution / latency-cost optimization | [Link](https://arxiv.org/abs/2512.22137) | [Repo](https://github.com/WanyuGroup/ICML2026_HybridFlow) |
 | **Canonical** | **IAPO: Information-Aware Policy Optimization for Token-Efficient Reasoning** | ICML 2026 | efficient reasoning / token-efficient RL / post-training | [Link](https://arxiv.org/abs/2602.19049) | [Repo](https://github.com/YinhanHe123/IAPO) |
 | **Canonical** | **Improving Visual Token Reduction via Rectifying Distortions for Efficient Multimodal LLM Inference** | ICML 2026 | multimodal / MLLM inference / visual token reduction / token merging | [Link](https://arxiv.org/abs/2606.01711) | [Repo](https://github.com/cvlab-yonsei/RESTORE) |
@@ -268,6 +269,7 @@
 | **Canonical** | **ScaleSim: Serving Large-Scale Multi-Agent Simulation with Invocation Distance-Based Memory Management** | ICML 2026 | agent serving / multi-agent simulation / GPU memory management / prefetching and eviction | [Link](https://arxiv.org/abs/2601.21473) | — |
 | **Canonical** | **Scaling Law for Quantization-Aware Training** | ICML 2026 | quantization / W4A4 QAT / scaling laws / model-data-granularity co-design / low-bit training | [Link](https://arxiv.org/abs/2505.14302) | — |
 | **Canonical** | **Scheduling LLM Inference with Uncertainty-Aware Output Length Predictions** | ICML 2026 | LLM serving / uncertainty-aware scheduling / output-length prediction | [Link](https://arxiv.org/abs/2604.00499) | [Repo](https://github.com/Hyzheng-code/TIE) |
+| **Canonical** | **SCHUR-A*: Layer-wise Optimal Expert Pruning for MoEs via Schur-Complement Guided A* Search** | ICML 2026 | MoE systems/accelerators / expert pruning / model compression / memory-efficient inference | [Link](https://openreview.net/forum?id=D2AH8pDyU9) | — |
 | **Canonical** | **Scout Before You Attend: Sketch-and-Walk Sparse Attention for Efficient LLM Inference** | ICML 2026 | efficient attention / long-context inference | [Link](https://arxiv.org/abs/2602.07397) | — |
 | **Canonical** | **See What Matters: Differentiable Grid Sample Pruning for Generalizable Vision-Language-Action Model** | ICML 2026 | Physical AI / VLA / visual-token pruning / geometry-aware resampling | [Link](https://arxiv.org/abs/2605.11817) | [Repo](https://github.com/Fediory/Grid-Sampler) |
 | **Canonical** | **Selective Deferred Routing: Enabling Cost-Efficient Collaboration between Local SLMs and Remote LLMs** | ICML 2026 | LLM serving / edge-cloud heterogeneous AI / cost-aware model routing / local SLM remote LLM collaboration | [Link](https://people.iiis.tsinghua.edu.cn/~fang/publication.html) | [Repo](https://github.com/miaoqijun/SDR) |
@@ -277,6 +279,7 @@
 | **Canonical** | **Semantic Integrity Matters: Benchmarking and Preserving High-Density Reasoning in KV Cache Compression** | ICML 2026 | KV cache / long-context inference / reasoning-aware compression / benchmark / semantic-unit preservation | [Link](https://arxiv.org/abs/2502.01941) | [Repo](https://github.com/Zefan-Cai/KVCache-Factory) |
 | **Canonical** | **SGMD: Score Gradient Matching Distillation for Few-Step Video Diffusion Distillation** | ICML 2026 | video generation acceleration / diffusion distillation / few-step generation | [Link](https://arxiv.org/abs/2605.30116) | [Repo](https://github.com/ModelTC/LightX2V) |
 | **Canonical** | **Short Chains, Deep Thoughts: Balancing Reasoning Efficiency and Intra-Segment Capability via Split-Merge Optimization** | ICML 2026 | efficient reasoning / reasoning-token and segment reduction / structure-aligned RL / test-time compute reduction | [Link](https://arxiv.org/abs/2602.03141) | — |
+| **Canonical** | **SimpleMem: Efficient Lifelong Memory for LLM Agents** | ICML 2026 | efficient reasoning/agent systems / agent memory / context compression / retrieval efficiency / token-cost reduction | [Link](https://arxiv.org/abs/2601.02553) | [Repo](https://github.com/aiming-lab/SimpleMem) |
 | **Canonical** | **SINQ: Sinkhorn-Normalized Quantization for Calibration-Free Low-Precision LLM Weights** | ICML 2026 | quantization / low-precision LLM inference / calibration-free PTQ / edge deployment | [Link](https://arxiv.org/abs/2509.22944) | [Repo](https://github.com/huawei-csl/SINQ) |
 | **Canonical** | **SLAT: Segment-Level Adaptive Trimming for Efficient CoT Reasoning** | ICML 2026 | efficient reasoning / chain-of-thought compression / RL / inference compute reduction | [Link](https://arxiv.org/abs/2605.30832) | — |
 | **Canonical** | **SlideSparse: Fast and Flexible (2N-2):2N Structured Sparsity** | ICML 2026 | sparsity / structured sparsity / Sparse Tensor Core / vLLM / GPU inference acceleration / quantization | [Link](https://arxiv.org/abs/2603.05232) | [Repo](https://github.com/bcacdwk/vllmbench) |
@@ -328,6 +331,7 @@
 | **Canonical** | **TwinQuant: Learnable Subspace Decomposition for 4-Bit LLM Quantization** | ICML 2026 | LLM quantization / 4-bit PTQ-QAT style subspace optimization / fused low-rank kernel / inference acceleration | [Link](https://arxiv.org/abs/2606.01556) | — |
 | **Canonical** | **TWLA: Achieving Ternary Weights and Low-Bit Activations for LLMs via Post-Training Quantization** | ICML 2026 | LLM quantization / ternary weights / W1.58A4 PTQ / activation outlier suppression / deployment acceleration | [Link](https://arxiv.org/abs/2606.13054) | [Repo](https://github.com/Kishon-zzx/TWLA) |
 | **Canonical** | **Understand and Accelerate Memory Processing Pipeline for Large Language Model Inference** | ICML 2026 | LLM memory processing / GPU-FPGA heterogeneous acceleration | [Link](https://arxiv.org/abs/2603.29002) | — |
+| **Canonical** | **Understanding and Mitigating Token-Pruning-Induced Vulnerabilities in VLMs** | ICML 2026 | multimodal/MLLM serving / token pruning / safety-aware efficient inference / visual-token sparsity | [Link](https://openreview.net/forum?id=D3OHVbePvz) | [Repo](https://github.com/liongliong/SAP) |
 | **Canonical** | **UniSVQ: 2-bit Unified Scalar-Vector Quantization** | ICML 2026 | quantization / 2-bit PTQ / unified scalar-vector quantization / integer-kernel-compatible low-bit LLM inference | [Link](https://arxiv.org/abs/2606.10520) | [Repo](https://github.com/AI9Stars/UniSVQ) |
 | **Canonical** | **Untied Ulysses: Memory-Efficient Context Parallelism via Headwise Chunking** | ICML 2026 | distributed training / context parallelism / long context / activation memory | [Link](https://arxiv.org/abs/2602.21196) | [Repo](https://github.com/ghadiaravi13/Untied-Ulysses) |
 | **Canonical** | **Unveiling the Potential of Quantization with MXFP4: Strategies for Quantization Error Reduction** | ICML 2026 | LLM quantization / MXFP4 / microscaling formats / hardware-software co-design / low-precision inference | [Link](https://arxiv.org/abs/2603.08713) | — |
