@@ -8845,6 +8845,30 @@
     ]
   },
   {
+    "title": "ConceptMoE: Adaptive Token-to-Concept Compression for Implicit Compute Allocation",
+    "venue": "ICML 2026",
+    "topic": "MoE / adaptive token compression / KV-cache reduction / long-context inference / multimodal efficiency",
+    "arxiv": "2601.21420",
+    "doi": "",
+    "official_id": "2601.21420",
+    "paper_url": "https://arxiv.org/abs/2601.21420",
+    "code_url": "https://github.com/ZihaoHuang-notabot/ConceptMoE",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 paper. ConceptMoE learns semantic token-to-concept compression before the compute-intensive MoE stack, reducing attention-map computation by up to R^2 and KV-cache cost by R. At R=2 the authors report prefill speedups up to 175% and decoding speedups up to 117% on long sequences, with minimal architectural changes and strong language/multimodal results. This is a direct MoE, long-context, KV-cache and multimodal inference-efficiency canonical work.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Attention",
+      "MoE Systems / Accelerators",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
     "title": "CONCUR: High-Throughput Agentic Batch Inference of LLM via Congestion-Based Concurrency Control",
     "venue": "ICML 2026",
     "topic": "agentic LLM serving / KV cache / admission control",
