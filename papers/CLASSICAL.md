@@ -1,10 +1,10 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **1056 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **1057 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
-## ICML 2026 · 344
+## ICML 2026 · 345
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -229,6 +229,7 @@
 | **Canonical** | **Prism: Efficient Test-Time Scaling via Hierarchical Search and Self-Verification for Discrete Diffusion Language Models** | ICML 2026 | efficient reasoning / diffusion language models / test-time scaling | [Link](https://arxiv.org/abs/2602.01842) | [Repo](https://github.com/viiika/Prism) |
 | **Canonical** | **Prism: Spectral-Aware Block-Sparse Attention** | ICML 2026 | efficient attention / long-context prefill / Triton kernels | [Link](https://arxiv.org/abs/2602.08426) | [Repo](https://github.com/xinghaow99/prism) |
 | **Canonical** | **Proact-VL: A Proactive VideoLLM for Real-Time AI Companions** | ICML 2026 | multimodal serving / streaming VideoLLM / real-time agent / low-latency inference / proactive response control | [Link](https://arxiv.org/abs/2603.03447) | [Repo](https://github.com/microsoft/AnthropomorphicIntelligence) |
+| **Canonical** | **ProbMoE: Differentiable Probabilistic Routing for Mixture-of-Experts** | ICML 2026 | MoE systems/accelerators / dynamic routing / compute-efficient training and inference | [Link](https://arxiv.org/abs/2606.01509) | [Repo](https://github.com/HengHugoZhao/ProbMoE) |
 | **Canonical** | **ProphetKV: User-Query-Driven Selective Recomputation for Efficient KV Cache Reuse in Retrieval-Augmented Generation** | ICML 2026 | KV cache reuse / RAG serving / selective recomputation | [Link](https://arxiv.org/abs/2602.02579) | — |
 | **Canonical** | **Proteus: Lookup-Free Trellis-Coded Quantization by Lattice-Breaking Compute Codes for 2-Bit LLMs** | ICML 2026 | quantization / 2-bit weight-only PTQ / trellis-coded quantization / lookup-free dequantization / GPU memory traffic / LLM inference | [Link](https://openreview.net/forum?id=SHYZM21zO7) | [Repo](https://github.com/YZW-explorer/Proteus) |
 | **Canonical** | **Proxy Compression for Language Modeling** | ICML 2026 | language-model training efficiency / byte-level modeling / compressed training views | [Link](https://arxiv.org/abs/2602.04289) | — |
