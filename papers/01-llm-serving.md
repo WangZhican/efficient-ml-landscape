@@ -1,6 +1,6 @@
 # 01 · LLM Serving
 
-> **427 canonical papers** mapped here, plus a broader **211-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **428 canonical papers** mapped here, plus a broader **211-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -220,7 +220,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 400 canonical
+## 🏛️ Classical / Historical · 401 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -360,6 +360,7 @@
 | **Canonical** | **BubbleSpec: Turning Long-Tail Bubbles into Speculative Rollout Drafts for Synchronous Reinforcement Learning** | ICML 2026 | LLM RL systems / rollout acceleration / speculative decoding / distributed training | [Link](https://arxiv.org/abs/2605.08862) | — |
 | **Canonical** | **CLAA: Cross-Layer Attention Aggregation for Accelerating LLM Prefill** | ICML 2026 | LLM prefill / token selection / efficient attention / long context | [Link](https://arxiv.org/abs/2602.16054) | — |
 | **Canonical** | **CLIMB: Taming the LoRA Residency Cliff in Multi-LoRA Serving** | ICML 2026 | multi-LoRA serving / adapter residency / tail latency / admission control | [Link](https://icml.cc/Downloads/2026) | — |
+| **Canonical** | **CLIP Tricks You: Training-free Token Pruning for Efficient Pixel Grounding in Large Vision-Language Models** | ICML 2026 | multimodal/MLLM serving / visual-token pruning / training-free inference acceleration / memory reduction | [Link](https://arxiv.org/abs/2605.13178) | [Repo](https://github.com/sejong-rcv/LiteLVLM) |
 | **Canonical** | **CoMem: Context Management with A Decoupled Long-Context Model** | ICML 2026 | agent systems / long-context serving / context management / asynchronous memory compression | [Link](https://arxiv.org/abs/2605.30842) | [Repo](https://github.com/horizon-llm/CoMem) |
 | **Canonical** | **ConceptMoE: Adaptive Token-to-Concept Compression for Implicit Compute Allocation** | ICML 2026 | MoE / adaptive token compression / KV-cache reduction / long-context inference / multimodal efficiency | [Link](https://arxiv.org/abs/2601.21420) | [Repo](https://github.com/ZihaoHuang-notabot/ConceptMoE) |
 | **Canonical** | **CONCUR: High-Throughput Agentic Batch Inference of LLM via Congestion-Based Concurrency Control** | ICML 2026 | agentic LLM serving / KV cache / admission control | [Link](https://arxiv.org/abs/2601.22705) | — |

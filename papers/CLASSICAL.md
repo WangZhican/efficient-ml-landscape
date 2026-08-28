@@ -1,10 +1,10 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **1047 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **1048 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
-## ICML 2026 · 335
+## ICML 2026 · 336
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -51,6 +51,7 @@
 | **Canonical** | **CAT-Q: Cost-efficient and Accurate Ternary Quantization for LLMs** | ICML 2026 | LLM quantization / ternary PTQ / 1.58-bit deployment / low-cost calibration / inference acceleration | [Link](https://arxiv.org/abs/2606.26650) | [Repo](https://github.com/IntelChina-AI/BitTern) |
 | **Canonical** | **CLAA: Cross-Layer Attention Aggregation for Accelerating LLM Prefill** | ICML 2026 | LLM prefill / token selection / efficient attention / long context | [Link](https://arxiv.org/abs/2602.16054) | — |
 | **Canonical** | **CLIMB: Taming the LoRA Residency Cliff in Multi-LoRA Serving** | ICML 2026 | multi-LoRA serving / adapter residency / tail latency / admission control | [Link](https://icml.cc/Downloads/2026) | — |
+| **Canonical** | **CLIP Tricks You: Training-free Token Pruning for Efficient Pixel Grounding in Large Vision-Language Models** | ICML 2026 | multimodal/MLLM serving / visual-token pruning / training-free inference acceleration / memory reduction | [Link](https://arxiv.org/abs/2605.13178) | [Repo](https://github.com/sejong-rcv/LiteLVLM) |
 | **Canonical** | **CoCoQuant: Breaking the Bandwidth Wall via Co-Optimized Communication and Computation Quantization** | ICML 2026 | distributed LLM inference / communication-computation co-design / mixed-precision quantization | [Link](https://openreview.net/forum?id=Bxyc3JZtAB) | — |
 | **Canonical** | **CoMem: Context Management with A Decoupled Long-Context Model** | ICML 2026 | agent systems / long-context serving / context management / asynchronous memory compression | [Link](https://arxiv.org/abs/2605.30842) | [Repo](https://github.com/horizon-llm/CoMem) |
 | **Canonical** | **ConceptMoE: Adaptive Token-to-Concept Compression for Implicit Compute Allocation** | ICML 2026 | MoE / adaptive token compression / KV-cache reduction / long-context inference / multimodal efficiency | [Link](https://arxiv.org/abs/2601.21420) | [Repo](https://github.com/ZihaoHuang-notabot/ConceptMoE) |

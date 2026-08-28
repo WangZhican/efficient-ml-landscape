@@ -8849,6 +8849,28 @@
     ]
   },
   {
+    "title": "CLIP Tricks You: Training-free Token Pruning for Efficient Pixel Grounding in Large Vision-Language Models",
+    "venue": "ICML 2026",
+    "topic": "multimodal/MLLM serving / visual-token pruning / training-free inference acceleration / memory reduction",
+    "arxiv": "2605.13178",
+    "doi": "",
+    "official_id": "2605.13178",
+    "paper_url": "https://arxiv.org/abs/2605.13178",
+    "code_url": "https://github.com/sejong-rcv/LiteLVLM",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 main-conference paper and direct MLLM inference-efficiency work. LiteLVLM is a training-free text-guided visual-token pruning method for pixel grounding; the paper reports retaining about 90% of original performance with 22% speedup and 2.3x memory reduction, while the official author repository/project page confirms ICML 2026 acceptance.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
     "title": "CoCoQuant: Breaking the Bandwidth Wall via Co-Optimized Communication and Computation Quantization",
     "venue": "ICML 2026",
     "topic": "distributed LLM inference / communication-computation co-design / mixed-precision quantization",
