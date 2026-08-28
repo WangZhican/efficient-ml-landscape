@@ -1,6 +1,6 @@
 # 10 · Multimodal / MLLM Serving
 
-> **138 canonical papers** mapped here, plus a broader **53-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **139 canonical papers** mapped here, plus a broader **53-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -62,7 +62,7 @@
 | **P1 · Watch** | **Omni-Prune: Query-Aware Unified Token Pruning for Efficient Omnimodal Large Language Models** | Fresh / preprint | llm_serving / sparse / edge | [Link](https://arxiv.org/abs/2607.23445) | — |
 | **P2 · Relevant** | **Structured Redundancy Modeling for Efficient Visual Token Pruning in High-Resolution MLLMs** | Fresh / preprint | llm_serving / sparse / multimodal / edge | [Link](https://arxiv.org/abs/2607.23046) | — |
 
-## 🏛️ Classical / Historical · 130 canonical
+## 🏛️ Classical / Historical · 131 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -167,6 +167,7 @@
 | **Canonical** | **SPLIT-VLM: Salience-Guided Partitioning towards Local Coverage for Importance-Aware Token Dropping in Vision-Language Models** | ICML 2026 | multimodal serving / VLM inference / visual token dropping / token compression / prefill efficiency | [Link](https://openreview.net/forum?id=Elm4TdaXi0) | — |
 | **Canonical** | **Stream RAG: Instant and Accurate Spoken Dialogue Systems with Streaming Tool Usage** | ICML 2026 | multimodal serving / speech-language model / streaming RAG / tool-use latency / real-time agent systems | [Link](https://arxiv.org/abs/2510.02044) | — |
 | **Canonical** | **TGV-KV: Text-Grounded KV Eviction for Vision-Language Models** | ICML 2026 | multimodal inference / VLM KV cache / eviction / memory and throughput | [Link](https://arxiv.org/abs/2606.03075) | [Repo](https://github.com/Danielement321/TGV-KV) |
+| **Canonical** | **UHR-BAT: Budget-Aware Token Compression Vision-Language Model for Ultra-High-Resolution Remote Sensing** | ICML 2026 | multimodal/MLLM serving / visual token compression / efficient attention / edge-cloud heterogeneous AI systems | [Link](https://arxiv.org/abs/2604.13565) | [Repo](https://github.com/Yunkaidang/UHR-BAT) |
 | **Canonical** | **Understanding and Mitigating Token-Pruning-Induced Vulnerabilities in VLMs** | ICML 2026 | multimodal/MLLM serving / token pruning / safety-aware efficient inference / visual-token sparsity | [Link](https://openreview.net/forum?id=D3OHVbePvz) | [Repo](https://github.com/liongliong/SAP) |
 | **Canonical** | **Variational Speculative Decoding: Rethinking Draft Training from Token Likelihood to Sequence Acceptance** | ICML 2026 | speculative decoding / draft-model training / LLM and MLLM inference acceleration | [Link](https://arxiv.org/abs/2602.05774) | [Repo](https://github.com/LV-Lab-SMU/VSD) |
 | **Canonical** | **VidLaDA: Bidirectional Diffusion Large Language Models for Efficient Video Understanding** | ICML 2026 | multimodal / video LLM / diffusion language model / MARS-Cache / parallel decoding | [Link](https://arxiv.org/abs/2601.17868) | [Repo](https://github.com/ziHoHe/VidLaDA) |

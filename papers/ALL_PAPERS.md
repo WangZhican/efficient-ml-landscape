@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **1113 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **296 visible papers = 58 P0 + 116 P1 + 122 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1114 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **296 visible papers = 58 P0 + 116 P1 + 122 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -319,9 +319,9 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 1055
+## 🏛️ Classical / Historical · 1056
 
-### ICML 2026 · 343
+### ICML 2026 · 344
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -647,6 +647,7 @@
 | **Canonical** | **Training-Inference Consistent Segmented Execution for Long-Context LLMs** | ICML 2026 | KV cache / long-context inference / segmented execution / memory-efficient training-inference consistency | [Link](https://arxiv.org/abs/2605.11744) | — |
 | **Canonical** | **TwinQuant: Learnable Subspace Decomposition for 4-Bit LLM Quantization** | ICML 2026 | LLM quantization / 4-bit PTQ-QAT style subspace optimization / fused low-rank kernel / inference acceleration | [Link](https://arxiv.org/abs/2606.01556) | — |
 | **Canonical** | **TWLA: Achieving Ternary Weights and Low-Bit Activations for LLMs via Post-Training Quantization** | ICML 2026 | LLM quantization / ternary weights / W1.58A4 PTQ / activation outlier suppression / deployment acceleration | [Link](https://arxiv.org/abs/2606.13054) | [Repo](https://github.com/Kishon-zzx/TWLA) |
+| **Canonical** | **UHR-BAT: Budget-Aware Token Compression Vision-Language Model for Ultra-High-Resolution Remote Sensing** | ICML 2026 | multimodal/MLLM serving / visual token compression / efficient attention / edge-cloud heterogeneous AI systems | [Link](https://arxiv.org/abs/2604.13565) | [Repo](https://github.com/Yunkaidang/UHR-BAT) |
 | **Canonical** | **Understand and Accelerate Memory Processing Pipeline for Large Language Model Inference** | ICML 2026 | LLM memory processing / GPU-FPGA heterogeneous acceleration | [Link](https://arxiv.org/abs/2603.29002) | — |
 | **Canonical** | **Understanding and Mitigating Token-Pruning-Induced Vulnerabilities in VLMs** | ICML 2026 | multimodal/MLLM serving / token pruning / safety-aware efficient inference / visual-token sparsity | [Link](https://openreview.net/forum?id=D3OHVbePvz) | [Repo](https://github.com/liongliong/SAP) |
 | **Canonical** | **UniSVQ: 2-bit Unified Scalar-Vector Quantization** | ICML 2026 | quantization / 2-bit PTQ / unified scalar-vector quantization / integer-kernel-compatible low-bit LLM inference | [Link](https://arxiv.org/abs/2606.10520) | [Repo](https://github.com/AI9Stars/UniSVQ) |

@@ -15109,6 +15109,30 @@
     ]
   },
   {
+    "title": "UHR-BAT: Budget-Aware Token Compression Vision-Language Model for Ultra-High-Resolution Remote Sensing",
+    "venue": "ICML 2026",
+    "topic": "multimodal/MLLM serving / visual token compression / efficient attention / edge-cloud heterogeneous AI systems",
+    "arxiv": "2604.13565",
+    "doi": "",
+    "official_id": "2604.13565",
+    "paper_url": "https://arxiv.org/abs/2604.13565",
+    "code_url": "https://github.com/Yunkaidang/UHR-BAT",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 main-conference paper with official author repository. UHR-BAT uses query-guided multi-scale token selection plus region-faithful preserve-and-merge under an explicit token budget, reducing visual-token/context cost for ultra-high-resolution MLLM inference while preserving query-critical fine details.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "Multimodal / MLLM Serving",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Understand and Accelerate Memory Processing Pipeline for Large Language Model Inference",
     "venue": "ICML 2026",
     "topic": "LLM memory processing / GPU-FPGA heterogeneous acceleration",

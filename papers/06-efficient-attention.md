@@ -1,6 +1,6 @@
 # 06 · Efficient Attention
 
-> **166 canonical papers** mapped here, plus a broader **45-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **167 canonical papers** mapped here, plus a broader **45-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -54,7 +54,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 154 canonical
+## 🏛️ Classical / Historical · 155 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -176,6 +176,7 @@
 | **Canonical** | **TileSparse: Arithmetic-Intensity-Aware Sparse Attention for Compute-Bound LLM Decoding** | ICML 2026 | LLM serving / sparse attention / decoding kernel / arithmetic-intensity-aware execution | [Link](https://pfzuo.github.io/publications/) | [Repo](https://github.com/ASISys/TileSparse) |
 | **Canonical** | **Token Sparse Attention: Efficient Long-Context Inference with Interleaved Token Selection** | ICML 2026 | sparse attention / long-context inference | [Link](https://arxiv.org/abs/2602.03216) | — |
 | **Canonical** | **Training-Inference Consistent Segmented Execution for Long-Context LLMs** | ICML 2026 | KV cache / long-context inference / segmented execution / memory-efficient training-inference consistency | [Link](https://arxiv.org/abs/2605.11744) | — |
+| **Canonical** | **UHR-BAT: Budget-Aware Token Compression Vision-Language Model for Ultra-High-Resolution Remote Sensing** | ICML 2026 | multimodal/MLLM serving / visual token compression / efficient attention / edge-cloud heterogeneous AI systems | [Link](https://arxiv.org/abs/2604.13565) | [Repo](https://github.com/Yunkaidang/UHR-BAT) |
 | **Canonical** | **Untied Ulysses: Memory-Efficient Context Parallelism via Headwise Chunking** | ICML 2026 | distributed training / context parallelism / long context / activation memory | [Link](https://arxiv.org/abs/2602.21196) | [Repo](https://github.com/ghadiaravi13/Untied-Ulysses) |
 | **Canonical** | **Veda: Scalable Video Diffusion via Distilled Sparse Attention** | ICML 2026 | video diffusion acceleration / distilled sparse attention / tile-sparse GPU kernel | [Link](https://arxiv.org/abs/2605.30325) | — |
 | **Canonical** | **Vegas: Self-Speculative Decoding with Verification-Guided Sparse Attention** | ICML 2026 | speculative decoding / sparse attention / KV-cache selection / vLLM serving | [Link](https://arxiv.org/abs/2602.07223) | [Repo](https://github.com/platformxlab/vegas) |

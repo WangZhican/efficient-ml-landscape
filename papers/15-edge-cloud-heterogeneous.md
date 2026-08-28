@@ -1,6 +1,6 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **218 canonical papers** mapped here, plus a broader **94-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **219 canonical papers** mapped here, plus a broader **94-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -103,7 +103,7 @@
 | **P2 · Relevant** | **HEMERA: A Heterogeneous Memory-Centric Accelerator with Recursive Dataflow for Edge-Constrained State-Space-Duality Models Inference** | Fresh / preprint | llm_serving / edge | [Link](https://arxiv.org/abs/2607.22022) | — |
 | **P2 · Relevant** | **Unified Static-Dynamic Pruning for Efficient LLM Inference** | Fresh / preprint | llm_serving / sparse / kernel / edge | [Link](https://arxiv.org/abs/2607.21985) | — |
 
-## 🏛️ Classical / Historical · 204 canonical
+## 🏛️ Classical / Historical · 205 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -206,6 +206,7 @@
 | **Canonical** | **SLIM: Secure and Efficient Inference for Large Language Models on Untrusted Devices via TEEs** | ICML 2026 | LLM inference / edge systems / trusted execution environment / confidential computing | [Link](https://icml.cc/virtual/2026/poster/61229) | — |
 | **Canonical** | **SparseInfer: Accelerating Large Language Model Inference with Semantics-Inspired Adaptive Sparse Activation** | ICML 2026 | LLM inference / adaptive sparse activation / edge efficiency | [Link](https://arxiv.org/abs/2410.18311) | — |
 | **Canonical** | **StreamFlow: Theory, Algorithm, and Implementation for High-Efficiency Rectified Flow Generation** | ICML 2026 | diffusion / rectified-flow acceleration / TensorRT / generation runtime | [Link](https://arxiv.org/abs/2511.22009) | — |
+| **Canonical** | **UHR-BAT: Budget-Aware Token Compression Vision-Language Model for Ultra-High-Resolution Remote Sensing** | ICML 2026 | multimodal/MLLM serving / visual token compression / efficient attention / edge-cloud heterogeneous AI systems | [Link](https://arxiv.org/abs/2604.13565) | [Repo](https://github.com/Yunkaidang/UHR-BAT) |
 | **Canonical** | **Understand and Accelerate Memory Processing Pipeline for Large Language Model Inference** | ICML 2026 | LLM memory processing / GPU-FPGA heterogeneous acceleration | [Link](https://arxiv.org/abs/2603.29002) | — |
 | **Canonical** | **ZipMoE: Efficient On-Device MoE Serving via Lossless Compression and Cache-Affinity Scheduling** | ICML 2026 | MoE serving / on-device inference / lossless compression / cache-affinity scheduling | [Link](https://arxiv.org/abs/2601.21198) | — |
 | **Canonical** | **Computationally Efficient FPGA-based Large Language Model Inference for Real-Time Decision-Making in Robotic Systems** | IROS 2025 | Physical AI / edge LLM inference / FPGA accelerator / real-time robotics | [Link](https://doi.org/10.1109/IROS60139.2025.11247019) | — |
