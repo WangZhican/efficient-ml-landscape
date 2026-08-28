@@ -8495,6 +8495,28 @@
     ]
   },
   {
+    "title": "AMDP: Asynchronous Multi-Directional Pipeline Parallelism for Large-Scale Models Training",
+    "venue": "ICML 2026",
+    "topic": "distributed training / pipeline parallelism / asynchronous scheduling / GPU utilization",
+    "arxiv": "2605.29664",
+    "doi": "",
+    "official_id": "2605.29664",
+    "paper_url": "https://arxiv.org/abs/2605.29664",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 main-conference paper. AMDP bounds forward-backward parameter mismatch to one optimization step while filling pipeline bubbles with multiple concurrent multi-directional pipelines and gradient accumulation. Experiments on GPT/BERT-style models on 8/16 A800 GPUs report up to 17% throughput gain over strong asynchronous baselines and 22-23% faster time-to-target loss while preserving near-synchronous convergence. Direct distributed-training systems canonical.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "ArborKV: Structure-Aware KV Cache Management for Scaling Tree-based LLM Reasoning",
     "venue": "ICML 2026",
     "topic": "KV cache / tree-based LLM reasoning / memory management",
@@ -8559,6 +8581,31 @@
       "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "Ask Less, See More: Communication-Conditioned Token Pruning for Vehicle-to-Vehicle Cooperative Autonomous Driving with Multimodal Large Language Models",
+    "venue": "ICML 2026",
+    "topic": "Physical AI / autonomous driving / V2V cooperative MLLM / visual-token pruning / communication-efficient inference",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "openreview:HWMMBBujpo",
+    "paper_url": "https://openreview.net/forum?id=HWMMBBujpo",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Poster and protected Physical-AI canonical. V2V-CCM conditions token pruning on question semantics and spatial-coverage messages across cooperating vehicles, explicitly removing redundant visual/LiDAR tokens to reduce both communication and MLLM inference cost while preserving task-relevant information. It directly covers cooperative autonomous-driving MLLM serving, token pruning and edge communication efficiency.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Distributed Training / Inference",
+      "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
