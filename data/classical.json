@@ -9431,6 +9431,28 @@
     ]
   },
   {
+    "title": "DITRON: Distributed Multi-level Tiling Compiler for Parallel Tensor Programs",
+    "venue": "ICML 2026",
+    "topic": "GPU kernel / DSL / compiler / distributed training and inference / compute-communication overlap / heterogeneous AI systems",
+    "arxiv": "2605.02953",
+    "doi": "",
+    "official_id": "2605.02953",
+    "paper_url": "https://arxiv.org/abs/2605.02953",
+    "code_url": "https://github.com/ByteDance-Seed/Triton-distributed",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 main-conference paper present in the official ICML Downloads inventory. DITRON introduces Core/Device/Task multi-level tiling for distributed tensor programs, overlaps computation and communication across heterogeneous clusters, reports 6%-30% isolated-kernel speedups and 5%-30% end-to-end vLLM inference speedups, supports NVIDIA and AMD platforms, and reports production deployment gains for both training and inference. The ByteDance Seed Triton-distributed repository is the official company implementation substrate referenced by the work.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "DLLMQuant: A Post-Training Quantization Framework Tailored for Diffusion-Based Large Language Models",
     "venue": "ICML 2026",
     "topic": "quantization / diffusion language models / PTQ / W4A4 / deployment efficiency",
