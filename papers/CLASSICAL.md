@@ -1,10 +1,10 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **1059 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **1060 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
-## ICML 2026 · 347
+## ICML 2026 · 348
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -103,6 +103,7 @@
 | **Canonical** | **Efficient Multi-round LLM Inference over Disaggregated Serving** | ICML 2026 | LLM serving / multi-round agents / PD disaggregation | [Link](https://arxiv.org/abs/2602.14516) | — |
 | **Canonical** | **Efficient numeracy in language models through single-token number embeddings** | ICML 2026 | efficient reasoning / tokenization / numerical LLM inference / reasoning-token reduction | [Link](https://arxiv.org/abs/2510.06824) | [Repo](https://github.com/KreitnerL/BitTokens) |
 | **Canonical** | **Efficient Parallel Samplers for Recurrent-Depth Models** | ICML 2026 | parallel decoding / recurrent-depth language models / diffusion-style inference | [Link](https://arxiv.org/abs/2510.14961) | — |
+| **Canonical** | **Efficient Reasoning with Hidden Thinking** | ICML 2026 | efficient reasoning / multimodal LLM / latent reasoning / chain-of-thought compression / token reduction | [Link](https://arxiv.org/abs/2501.19201) | [Repo](https://github.com/shawnricecake/Heima) |
 | **Canonical** | **Efficient RL Training for LLMs with Experience Replay** | ICML 2026 | LLM RL post-training / rollout compute / experience replay | [Link](https://arxiv.org/abs/2604.08706) | — |
 | **Canonical** | **Efficient Training-Free Multi-Token Prediction via Embedding-Space Probing** | ICML 2026 | speculative decoding / multi-token prediction / training-free inference | [Link](https://arxiv.org/abs/2603.17942) | — |
 | **Canonical** | **Efficient-DLM: From Autoregressive to Diffusion Language Models, and Beyond in Speed** | ICML 2026 | diffusion language model / parallel decoding / AR-to-dLM conversion / efficient generation | [Link](https://arxiv.org/abs/2512.14067) | — |

@@ -1,6 +1,6 @@
 # 13 · Efficient Reasoning / Agents
 
-> **181 canonical papers** mapped here, plus a broader **51-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **182 canonical papers** mapped here, plus a broader **51-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -60,7 +60,7 @@
 | **P2 · Relevant** | **SpecBox: Speculative Sandbox Scheduling for Efficient LLM Agent Serving** | Fresh / preprint | llm_serving / agent | [Link](https://arxiv.org/abs/2607.23933) | — |
 | **P2 · Relevant** | **Agentic CPU-GPU Scheduling for Heterogeneous AI Workloads** | Fresh / preprint | llm_serving / gen / agent / edge | [Link](https://arxiv.org/abs/2607.22242) | — |
 
-## 🏛️ Classical / Historical · 169 canonical
+## 🏛️ Classical / Historical · 170 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -125,6 +125,7 @@
 | **Canonical** | **Efficient Multi-Agent Reasoning via Confidence-Guided Adaptive Debate** | ICML 2026 | efficient reasoning / multi-agent systems / inference token efficiency | [Link](https://www.lgresearch.ai/publication/view?seq=174) | — |
 | **Canonical** | **Efficient Multi-round LLM Inference over Disaggregated Serving** | ICML 2026 | LLM serving / multi-round agents / PD disaggregation | [Link](https://arxiv.org/abs/2602.14516) | — |
 | **Canonical** | **Efficient numeracy in language models through single-token number embeddings** | ICML 2026 | efficient reasoning / tokenization / numerical LLM inference / reasoning-token reduction | [Link](https://arxiv.org/abs/2510.06824) | [Repo](https://github.com/KreitnerL/BitTokens) |
+| **Canonical** | **Efficient Reasoning with Hidden Thinking** | ICML 2026 | efficient reasoning / multimodal LLM / latent reasoning / chain-of-thought compression / token reduction | [Link](https://arxiv.org/abs/2501.19201) | [Repo](https://github.com/shawnricecake/Heima) |
 | **Canonical** | **Efficient RL Training for LLMs with Experience Replay** | ICML 2026 | LLM RL post-training / rollout compute / experience replay | [Link](https://arxiv.org/abs/2604.08706) | — |
 | **Canonical** | **EGG: An Expert-Guided Agent Framework for Kernel Generation** | ICML 2026 | GPU kernel generation / agentic compiler optimization / hardware-aware tuning | [Link](https://arxiv.org/abs/2606.26758) | — |
 | **Canonical** | **Ego3S: Select, Strengthen, and Synchronize for Efficient Egocentric Reasoning** | ICML 2026 | multimodal training efficiency / egocentric reasoning / data selection / Physical AI neighborhood | — | [Repo](https://github.com/Mrshenshen/Ego3S) |

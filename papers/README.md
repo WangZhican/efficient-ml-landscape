@@ -1,10 +1,10 @@
 # 🧭 Research Map
 
-> **1117 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
+> **1118 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
 
 <div align="center">
 
-[**🆕 Latest 30 Days · 296 tracked**](LATEST_30D.md) · [**🏛️ Classical · 1059**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
+[**🆕 Latest 30 Days · 296 tracked**](LATEST_30D.md) · [**🏛️ Classical · 1060**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
 
 </div>
 
@@ -21,10 +21,10 @@
 | 07 | [**MoE Systems / Accelerators**](07-moe-systems.md) | **83** | **29** |
 | 08 | [**GPU Kernel / DSL / Compiler**](08-gpu-kernel-compiler.md) | **263** | **66** |
 | 09 | [**Distributed Training / Inference**](09-distributed-training-inference.md) | **196** | **31** |
-| 10 | [**Multimodal / MLLM Serving**](10-multimodal-mllm-serving.md) | **140** | **53** |
+| 10 | [**Multimodal / MLLM Serving**](10-multimodal-mllm-serving.md) | **141** | **53** |
 | 11 | [**Video / Image Generation**](11-video-image-generation.md) | **47** | **15** |
 | 12 | [**Diffusion / Flow Acceleration**](12-diffusion-flow.md) | **136** | **23** |
-| 13 | [**Efficient Reasoning / Agents**](13-efficient-reasoning-agents.md) | **181** | **51** |
+| 13 | [**Efficient Reasoning / Agents**](13-efficient-reasoning-agents.md) | **182** | **51** |
 | 14 | [**VLA / WAM / Physical AI**](14-physical-ai-vla-wam.md) | **55** | **54** |
 | 15 | [**Edge / Cloud / Heterogeneous AI**](15-edge-cloud-heterogeneous.md) | **219** | **94** |
 

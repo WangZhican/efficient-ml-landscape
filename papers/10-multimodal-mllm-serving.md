@@ -1,6 +1,6 @@
 # 10 · Multimodal / MLLM Serving
 
-> **140 canonical papers** mapped here, plus a broader **53-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **141 canonical papers** mapped here, plus a broader **53-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -62,7 +62,7 @@
 | **P1 · Watch** | **Omni-Prune: Query-Aware Unified Token Pruning for Efficient Omnimodal Large Language Models** | Fresh / preprint | llm_serving / sparse / edge | [Link](https://arxiv.org/abs/2607.23445) | — |
 | **P2 · Relevant** | **Structured Redundancy Modeling for Efficient Visual Token Pruning in High-Resolution MLLMs** | Fresh / preprint | llm_serving / sparse / multimodal / edge | [Link](https://arxiv.org/abs/2607.23046) | — |
 
-## 🏛️ Classical / Historical · 132 canonical
+## 🏛️ Classical / Historical · 133 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -144,6 +144,7 @@
 | **Canonical** | **EAKV: An Entropy-Driven Adaptive KV Compression Framework for Long Video Understanding** | ICML 2026 | multimodal serving / long-video understanding / KV-cache compression / adaptive memory allocation | [Link](https://openreview.net/forum?id=wyT47sv2o8) | — |
 | **Canonical** | **EcoVLA: Environment-Aware Adaptive Pruning with Interleaved Inference Orchestration for Vision-Language-Action Models** | ICML 2026 | Physical AI / VLA serving / adaptive channel pruning / interleaved inference orchestration | [Link](https://arxiv.org/abs/2602.00780) | — |
 | **Canonical** | **Efficient Distributed MLLM Training with Cornstarch** | ICML 2026 | distributed MLLM training / pipeline parallelism / context parallelism / workload balancing | [Link](https://arxiv.org/abs/2503.11367) | [Repo](https://github.com/cornstarch-org/Cornstarch) |
+| **Canonical** | **Efficient Reasoning with Hidden Thinking** | ICML 2026 | efficient reasoning / multimodal LLM / latent reasoning / chain-of-thought compression / token reduction | [Link](https://arxiv.org/abs/2501.19201) | [Repo](https://github.com/shawnricecake/Heima) |
 | **Canonical** | **Ego3S: Select, Strengthen, and Synchronize for Efficient Egocentric Reasoning** | ICML 2026 | multimodal training efficiency / egocentric reasoning / data selection / Physical AI neighborhood | — | [Repo](https://github.com/Mrshenshen/Ego3S) |
 | **Canonical** | **FrameOracle: Learning What to See and How Much to See in Videos** | ICML 2026 | multimodal serving / video VLM / adaptive frame selection / visual token reduction / inference efficiency | [Link](https://arxiv.org/abs/2510.03584) | — |
 | **Canonical** | **HilbertA: Hilbert-Curve–Aligned Sparse Attention for 2D Structured Data** | ICML 2026 | efficient attention / diffusion acceleration / multimodal inference / GPU-aligned sparse attention / hardware-aware token layout | [Link](https://openreview.net/forum?id=yhMt5V4FNb) | — |

@@ -10209,6 +10209,27 @@
     ]
   },
   {
+    "title": "Efficient Reasoning with Hidden Thinking",
+    "venue": "ICML 2026",
+    "topic": "efficient reasoning / multimodal LLM / latent reasoning / chain-of-thought compression / token reduction",
+    "arxiv": "2501.19201",
+    "doi": "",
+    "official_id": "2501.19201",
+    "paper_url": "https://arxiv.org/abs/2501.19201",
+    "code_url": "https://github.com/shawnricecake/Heima",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 main-conference paper confirmed by the official ICML 2026 Downloads inventory and author publication page. Heima compresses intermediate chain-of-thought into compact hidden thinking-token representations, reducing verbose reasoning-token generation while maintaining or improving zero-shot multimodal reasoning accuracy; an adaptive interpreter reconstructs readable reasoning when needed.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "Efficient RL Training for LLMs with Experience Replay",
     "venue": "ICML 2026",
     "topic": "LLM RL post-training / rollout compute / experience replay",
