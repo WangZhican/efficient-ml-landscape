@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **1118 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **296 visible papers = 58 P0 + 116 P1 + 122 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1119 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **296 visible papers = 58 P0 + 116 P1 + 122 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -319,9 +319,9 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 1060
+## 🏛️ Classical / Historical · 1061
 
-### ICML 2026 · 348
+### ICML 2026 · 349
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -437,6 +437,7 @@
 | **Canonical** | **FAIR-Calib: Frontier-Aware Calibration for Post-Training Quantization of Diffusion Language Models** | ICML 2026 | quantization / diffusion language model / W4A4 PTQ / calibration | [Link](https://arxiv.org/abs/2606.06547) | — |
 | **Canonical** | **Fast and Accurate Causal Parallel Decoding using Jacobi Forcing** | ICML 2026 | parallel decoding / causal Jacobi decoding / KV-cache-compatible LLM inference acceleration | [Link](https://arxiv.org/abs/2512.14681) | [Repo](https://github.com/hao-ai-lab/JacobiForcing) |
 | **Canonical** | **Fast Byte Latent Transformer** | ICML 2026 | speculative decoding / diffusion decoding / byte-level LM inference | [Link](https://arxiv.org/abs/2605.08044) | — |
+| **Canonical** | **Fast KV Compaction via Attention Matching** | ICML 2026 | KV cache / long-context / latent compaction / efficient LLM inference | [Link](https://arxiv.org/abs/2602.16284) | [Repo](https://github.com/adamzweiger/compaction) |
 | **Canonical** | **FAST-AR: Fast Autoregressive Video Diffusion and World Models with Temporal Cache Compression and Sparse Attention** | ICML 2026 | video/world-model inference / KV cache compression / sparse attention | [Link](https://arxiv.org/abs/2602.01801) | — |
 | **Canonical** | **Faster Activation Functions at the Edge for Post-Training Speedups** | ICML 2026 | edge AI / compiler / activation-function acceleration / post-training optimization | [Link](https://jacksonwoodruff.com/) | — |
 | **Canonical** | **Faster Than Flash: Exploiting Attention Sparsity for Efficient Long-Context Decoding** | ICML 2026 | long-context LLM decoding / sparse attention / fused Triton kernel | [Link](https://openreview.net/forum?id=r8YhlMRUR2) | — |

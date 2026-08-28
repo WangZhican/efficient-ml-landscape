@@ -10333,6 +10333,27 @@
     ]
   },
   {
+    "title": "Fast KV Compaction via Attention Matching",
+    "venue": "ICML 2026",
+    "topic": "KV cache / long-context / latent compaction / efficient LLM inference",
+    "arxiv": "2602.16284",
+    "doi": "",
+    "official_id": "2602.16284",
+    "paper_url": "https://arxiv.org/abs/2602.16284",
+    "code_url": "https://github.com/adamzweiger/compaction",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Poster (author pages confirm main conference). Attention Matching constructs compact latent keys/values to reproduce attention outputs and preserve attention mass; reports up to 50x KV compaction in seconds with little quality loss, pushing the compaction-time/quality Pareto frontier.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Efficient Attention"
+    ]
+  },
+  {
     "title": "FAST-AR: Fast Autoregressive Video Diffusion and World Models with Temporal Cache Compression and Sparse Attention",
     "venue": "ICML 2026",
     "topic": "video/world-model inference / KV cache compression / sparse attention",

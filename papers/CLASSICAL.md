@@ -1,10 +1,10 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **1060 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **1061 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
-## ICML 2026 · 348
+## ICML 2026 · 349
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -120,6 +120,7 @@
 | **Canonical** | **FAIR-Calib: Frontier-Aware Calibration for Post-Training Quantization of Diffusion Language Models** | ICML 2026 | quantization / diffusion language model / W4A4 PTQ / calibration | [Link](https://arxiv.org/abs/2606.06547) | — |
 | **Canonical** | **Fast and Accurate Causal Parallel Decoding using Jacobi Forcing** | ICML 2026 | parallel decoding / causal Jacobi decoding / KV-cache-compatible LLM inference acceleration | [Link](https://arxiv.org/abs/2512.14681) | [Repo](https://github.com/hao-ai-lab/JacobiForcing) |
 | **Canonical** | **Fast Byte Latent Transformer** | ICML 2026 | speculative decoding / diffusion decoding / byte-level LM inference | [Link](https://arxiv.org/abs/2605.08044) | — |
+| **Canonical** | **Fast KV Compaction via Attention Matching** | ICML 2026 | KV cache / long-context / latent compaction / efficient LLM inference | [Link](https://arxiv.org/abs/2602.16284) | [Repo](https://github.com/adamzweiger/compaction) |
 | **Canonical** | **FAST-AR: Fast Autoregressive Video Diffusion and World Models with Temporal Cache Compression and Sparse Attention** | ICML 2026 | video/world-model inference / KV cache compression / sparse attention | [Link](https://arxiv.org/abs/2602.01801) | — |
 | **Canonical** | **Faster Activation Functions at the Edge for Post-Training Speedups** | ICML 2026 | edge AI / compiler / activation-function acceleration / post-training optimization | [Link](https://jacksonwoodruff.com/) | — |
 | **Canonical** | **Faster Than Flash: Exploiting Attention Sparsity for Efficient Long-Context Decoding** | ICML 2026 | long-context LLM decoding / sparse attention / fused Triton kernel | [Link](https://openreview.net/forum?id=r8YhlMRUR2) | — |
