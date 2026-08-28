@@ -1,6 +1,6 @@
 # 13 · Efficient Reasoning / Agents
 
-> **186 canonical papers** mapped here, plus a broader **52-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **187 canonical papers** mapped here, plus a broader **52-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -61,7 +61,7 @@
 | **P0 · Strong** | **ClawGym II: Exploring Black-Box RL on Agent Harness** | Fresh / preprint | agent training systems | [Link](https://arxiv.org/abs/2608.16798) | — |
 | **P1 · Watch** | **CacheRouter: A Dual-Path Tool Routing Architecture with Cache-Preserving Main-Model Isolation for Long-Tail Tool Discovery** | Fresh / preprint | agent serving / prefix cache / tool routing | [Link](https://arxiv.org/abs/2608.22708) | — |
 
-## 🏛️ Classical / Historical · 174 canonical
+## 🏛️ Classical / Historical · 175 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -165,6 +165,7 @@
 | **Canonical** | **Re-FORC: Adaptive Reward Prediction for Efficient Chain-of-Thought Reasoning** | ICML 2026 | efficient reasoning / adaptive test-time compute / early stopping / model routing | [Link](https://arxiv.org/abs/2511.02130) | — |
 | **Canonical** | **RealtimeTool: Parallel Decoding for Real-Time LLM Function Calling** | ICML 2026 | parallel decoding / real-time function calling / agent inference / on-device LLM runtime / Physical AI control | [Link](https://arxiv.org/abs/2603.00030) | [Repo](https://github.com/HaxxorCialtion/SimpleTool) |
 | **Canonical** | **Reason with Thumbnails, Answer with Focus: An Efficient and Effective Paradigm for Multimodal Grounded Visual Reasoning** | ICML 2026 | multimodal reasoning / visual token efficiency / adaptive resolution / MLLM inference | [Link](https://openreview.net/forum?id=1iqVgRPjle) | — |
+| **Canonical** | **Reasoning-preserved Efficient Distillation of Large Language Models via Activation-aware Initialization** | ICML 2026 | LLM compression / structured pruning / efficient distillation / efficient reasoning | [Link](https://arxiv.org/abs/2605.29327) | — |
 | **Canonical** | **Reasoning-VLA: An Efficient and Spatial-Guided General Vision-Language-Action Reasoning Model for Autonomous Driving** | ICML 2026 | Physical AI / VLA / autonomous driving / parallel action generation | [Link](https://arxiv.org/abs/2511.19912) | [Repo](https://github.com/xipi702/Reasoning-VLA) |
 | **Canonical** | **RelayCaching: Accelerating LLM Collaboration via Decoding KV Cache Reuse** | ICML 2026 | multi-agent LLM serving / decoding-KV reuse / prefill acceleration | [Link](https://arxiv.org/abs/2603.13289) | [Repo](https://github.com/YingshengGeng/RelayCaching) |
 | **Canonical** | **Representation Drift Compensation: A Near-Zero Inference Cost Enhancement for LLM Decomposition** | ICML 2026 | sparsity/pruning / low-rank LLM decomposition / model compression / near-zero-overhead inference accuracy recovery | [Link](https://openreview.net/forum?id=cNSHGzvmIT) | [Repo](https://github.com/xinhaoH/SVD-Compen) |

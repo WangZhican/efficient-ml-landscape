@@ -10812,6 +10812,28 @@
     ]
   },
   {
+    "title": "From Content to Knowledge: Lightning Fast Long-Video Understanding with Neural Knowledge Representations",
+    "venue": "ICML 2026",
+    "topic": "multimodal serving / long-video understanding / amortized inference / neural knowledge representation",
+    "arxiv": "2606.11913",
+    "doi": "",
+    "official_id": "2606.11913",
+    "paper_url": "https://arxiv.org/abs/2606.11913",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 official Downloads inventory and Microsoft Research publication. Distills each long video into lightweight neural knowledge weights so repeated VLM inference no longer reloads/re-encodes video tokens, reporting over two orders of magnitude lower end-to-end latency at comparable accuracy.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "FuseFSS: Efficient Secure LLM Inference with Function Secret Sharing",
     "venue": "ICML 2026",
     "topic": "LLM inference systems / secure inference / compiler / GPU",
@@ -13421,6 +13443,28 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "Reasoning-preserved Efficient Distillation of Large Language Models via Activation-aware Initialization",
+    "venue": "ICML 2026",
+    "topic": "LLM compression / structured pruning / efficient distillation / efficient reasoning",
+    "arxiv": "2605.29327",
+    "doi": "",
+    "official_id": "2605.29327",
+    "paper_url": "https://arxiv.org/abs/2605.29327",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 official Downloads inventory paper. RED repairs reasoning collapse in efficient structured-distillation pipelines via activation-aware initialization while preserving high training efficiency and compressed-model quality.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "Distributed Training / Inference",
       "Efficient Reasoning / Agents"
     ]
   },
