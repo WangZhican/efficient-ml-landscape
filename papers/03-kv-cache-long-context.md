@@ -1,6 +1,6 @@
 # 03 · KV Cache / Long Context
 
-> **284 canonical papers** mapped here, plus a broader **49-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **285 canonical papers** mapped here, plus a broader **49-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -58,7 +58,7 @@
 | **P2 · Relevant** | **DualDecoder: Accelerate Long Context LLM Inference by Predictive Prefetch** | Fresh / preprint | LLM serving; KV cache / long context; agent systems | [Link](https://arxiv.org/abs/2607.26475) | — |
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 
-## 🏛️ Classical / Historical · 272 canonical
+## 🏛️ Classical / Historical · 273 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -191,6 +191,7 @@
 | **Canonical** | **d3LLM: Ultra-Fast Diffusion LLM using Pseudo-Trajectory Distillation** | ICML 2026 | diffusion language model acceleration / parallel decoding / KV-cache refresh / efficient reasoning inference | [Link](https://arxiv.org/abs/2601.07568) | [Repo](https://github.com/hao-ai-lab/d3LLM) |
 | **Canonical** | **Decouple and Cache: KV Cache Construction for Streaming Video Understanding** | ICML 2026 | multimodal serving / streaming video / KV cache | [Link](https://arxiv.org/abs/2605.01858) | [Repo](https://github.com/pangzhan27/DSCache) |
 | **Canonical** | **Do Transformers Need Three Projections? A Systematic Study of QKV Variants** | ICML 2026 | efficient attention architecture / KV-cache reduction / projection sharing | [Link](https://arxiv.org/abs/2606.04032) | [Repo](https://github.com/Brainchip-Inc/Do-Transformers-Need-3-Projections) |
+| **Canonical** | **Doc-to-LoRA: Learning to Instantly Internalize Contexts** | ICML 2026 | KV cache/long-context / parametric memory / LLM serving latency and VRAM reduction / hypernetwork-generated adapters | [Link](https://arxiv.org/abs/2602.15902) | [Repo](https://github.com/SakanaAI/doc-to-lora) |
 | **Canonical** | **DSB: Dynamic Sliding Block Scheduling for Diffusion LLMs** | ICML 2026 | diffusion LLM acceleration / dynamic block scheduling / KV cache / training-free inference / decoding efficiency | [Link](https://arxiv.org/abs/2602.05992) | [Repo](https://github.com/lizhuo-luo/DSB) |
 | **Canonical** | **Dustin: Draft-Augmented Sparse Verification for Efficient Long-Context Generation with Speculative Decoding** | ICML 2026 | speculative decoding / sparse verification / long-context KV-cache | [Link](https://arxiv.org/abs/2606.24957) | — |
 | **Canonical** | **Dynamic Thinking-Token Selection for Efficient Reasoning in Large Reasoning Models** | ICML 2026 | efficient reasoning / KV cache compression / dynamic thinking-token eviction | [Link](https://arxiv.org/abs/2601.18383) | [Repo](https://github.com/Robin930/DynTS) |

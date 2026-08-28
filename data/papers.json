@@ -9689,6 +9689,27 @@
     ]
   },
   {
+    "title": "Doc-to-LoRA: Learning to Instantly Internalize Contexts",
+    "venue": "ICML 2026",
+    "topic": "KV cache/long-context / parametric memory / LLM serving latency and VRAM reduction / hypernetwork-generated adapters",
+    "arxiv": "2602.15902",
+    "doi": "",
+    "official_id": "2602.15902",
+    "paper_url": "https://arxiv.org/abs/2602.15902",
+    "code_url": "https://github.com/SakanaAI/doc-to-lora",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 main-conference paper confirmed by the first author and official SakanaAI repository. Doc-to-LoRA meta-learns context distillation so an unseen document is converted to a LoRA adapter in one sub-second forward pass; later queries no longer re-consume the source context, directly reducing long-context inference latency and KV-cache/VRAM costs while supporting documents beyond the base model context window.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context"
+    ]
+  },
+  {
     "title": "Don't Drop Dropout: Optimizing Layer Sparsity for Efficient LLM Training and Inference",
     "venue": "ICML 2026",
     "topic": "LLM training efficiency / layer sparsity / early exit / self-speculative decoding",

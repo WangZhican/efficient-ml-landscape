@@ -1,6 +1,6 @@
 # 01 · LLM Serving
 
-> **428 canonical papers** mapped here, plus a broader **211-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **429 canonical papers** mapped here, plus a broader **211-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -220,7 +220,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 401 canonical
+## 🏛️ Classical / Historical · 402 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -371,6 +371,7 @@
 | **Canonical** | **Deterministic Inference across Tensor Parallel Sizes That Eliminates Training-Inference Mismatch** | ICML 2026 | LLM serving reliability / tensor parallelism / deterministic kernels / RL training-inference consistency | [Link](https://arxiv.org/abs/2511.17826) | [Repo](https://github.com/nanomaoli/llm_reproducibility) |
 | **Canonical** | **DFlash: Block Diffusion for Flash Speculative Decoding** | ICML 2026 | speculative decoding / diffusion drafter / LLM inference acceleration | [Link](https://arxiv.org/abs/2602.06036) | [Repo](https://github.com/z-lab/dflash) |
 | **Canonical** | **DiffuMamba: High-Throughput Diffusion LMs with Mamba Backbone** | ICML 2026 | diffusion language models / high-throughput inference / state-space models | [Link](https://openreview.net/forum?id=hLizFuTBsA) | — |
+| **Canonical** | **Doc-to-LoRA: Learning to Instantly Internalize Contexts** | ICML 2026 | KV cache/long-context / parametric memory / LLM serving latency and VRAM reduction / hypernetwork-generated adapters | [Link](https://arxiv.org/abs/2602.15902) | [Repo](https://github.com/SakanaAI/doc-to-lora) |
 | **Canonical** | **Dr. Kernel: Reinforcement Learning Done Right for Triton Kernel Generations** | ICML 2026 | GPU kernel generation / Triton / distributed RL infrastructure / kernel optimization | [Link](https://arxiv.org/abs/2602.05885) | [Repo](https://github.com/hkust-nlp/KernelGYM) |
 | **Canonical** | **DSB: Dynamic Sliding Block Scheduling for Diffusion LLMs** | ICML 2026 | diffusion LLM acceleration / dynamic block scheduling / KV cache / training-free inference / decoding efficiency | [Link](https://arxiv.org/abs/2602.05992) | [Repo](https://github.com/lizhuo-luo/DSB) |
 | **Canonical** | **DuetServe: Harmonizing Prefill and Decode for LLM Serving via Adaptive GPU Multiplexing** | ICML 2026 | LLM serving / adaptive GPU multiplexing / prefill-decode isolation | [Link](https://arxiv.org/abs/2511.04791) | — |
