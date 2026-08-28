@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **1120 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **296 visible papers = 58 P0 + 116 P1 + 122 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1125 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **296 visible papers = 58 P0 + 116 P1 + 122 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -319,9 +319,9 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 1062
+## 🏛️ Classical / Historical · 1067
 
-### ICML 2026 · 350
+### ICML 2026 · 355
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -366,6 +366,7 @@
 | **Canonical** | **Budget-Constrained Step-Level Diffusion Caching** | ICML 2026 | diffusion acceleration / step-level caching / fixed-budget inference | [Link](https://arxiv.org/abs/2606.13496) | [Repo](https://github.com/Westlake-AGI-Lab/BudCache) |
 | **Canonical** | **CacheEdit: Efficient Multi-round Image Editing via Adaptive Token-wise Reuse.** | ICML 2026 | video/image generation acceleration / diffusion acceleration / multi-round image editing / adaptive activation cache / token-wise reuse | [Link](https://openreview.net/forum?id=6IlpepWXJr) | — |
 | **Canonical** | **CAT-Q: Cost-efficient and Accurate Ternary Quantization for LLMs** | ICML 2026 | LLM quantization / ternary PTQ / 1.58-bit deployment / low-cost calibration / inference acceleration | [Link](https://arxiv.org/abs/2606.26650) | [Repo](https://github.com/IntelChina-AI/BitTern) |
+| **Canonical** | **Characterizing Vision-Language-Action Models across XPUs: Constraints and Acceleration for On-Robot Deployment** | ICML 2026 | Physical AI / VLA serving / heterogeneous edge accelerators / diffusion-policy cache / runtime | [Link](https://arxiv.org/abs/2604.24447) | — |
 | **Canonical** | **CLAA: Cross-Layer Attention Aggregation for Accelerating LLM Prefill** | ICML 2026 | LLM prefill / token selection / efficient attention / long context | [Link](https://arxiv.org/abs/2602.16054) | — |
 | **Canonical** | **CLIMB: Taming the LoRA Residency Cliff in Multi-LoRA Serving** | ICML 2026 | multi-LoRA serving / adapter residency / tail latency / admission control | [Link](https://icml.cc/Downloads/2026) | — |
 | **Canonical** | **CLIP Tricks You: Training-free Token Pruning for Efficient Pixel Grounding in Large Vision-Language Models** | ICML 2026 | multimodal/MLLM serving / visual-token pruning / training-free inference acceleration / memory reduction | [Link](https://arxiv.org/abs/2605.13178) | [Repo](https://github.com/sejong-rcv/LiteLVLM) |
@@ -385,6 +386,7 @@
 | **Canonical** | **DAPD: Dependency-Aware Parallel Decoding via Attention for Diffusion LLMs** | ICML 2026 | diffusion language model / parallel decoding / efficient reasoning / attention-guided dependency graph / inference acceleration | [Link](https://arxiv.org/abs/2603.12996) | [Repo](https://github.com/quasar529/DAPD) |
 | **Canonical** | **DARTS: Distribution-Aware Active Rollout Trajectory Shaping for Accelerating LLM Reinforcement Learning** | ICML 2026 | LLM RL systems / rollout efficiency / distributed post-training | [Link](https://arxiv.org/abs/2605.30859) | [Repo](https://github.com/AFDWang/DARTS) |
 | **Canonical** | **DASH: Faster Shampoo via Batched Block Preconditioning and Efficient Inverse-Root Solvers** | ICML 2026 | distributed training / optimizer systems / GPU-aware second-order optimization / LLM pretraining efficiency | [Link](https://arxiv.org/abs/2602.02016) | [Repo](https://github.com/IST-DASLab/DASH) |
+| **Canonical** | **DC-Leap: Training-Free Acceleration of dLLMs via Draft-Guided Contiguous Leaping Decoding** | ICML 2026 | diffusion language model acceleration / parallel decoding / speculative-style draft guidance | [Link](https://arxiv.org/abs/2607.20467) | [Repo](https://github.com/ffh-wyls/DC-Leap) |
 | **Canonical** | **De-Linearizing Agent Traces: Bayesian Inference of Latent Partial Orders for Efficient Execution** | ICML 2026 | efficient agent systems / parallel agent execution / workflow compilation / context pruning | [Link](https://arxiv.org/abs/2602.02806) | [Repo](https://bpopagent.live/) |
 | **Canonical** | **Decouple and Cache: KV Cache Construction for Streaming Video Understanding** | ICML 2026 | multimodal serving / streaming video / KV cache | [Link](https://arxiv.org/abs/2605.01858) | [Repo](https://github.com/pangzhan27/DSCache) |
 | **Canonical** | **DELTA4: Sparse Matrix-Vector Multiplication for Low Sparsity** | ICML 2026 | sparsity / pruning / GPU SpMV kernel / sparse LLM inference | [Link](https://arxiv.org/abs/2511.13061) | [Repo](https://github.com/vlejd/macko_spmv) |
@@ -395,7 +397,9 @@
 | **Canonical** | **DFSAttn: Dynamic Fine-grained Sparse Attention for Efficient Video Generation** | ICML 2026 | video diffusion / dynamic sparse attention / GPU-efficient inference | [Link](https://arxiv.org/abs/2605.23445) | [Repo](https://github.com/jessica-hujie/DFSAttn) |
 | **Canonical** | **DiffuMamba: High-Throughput Diffusion LMs with Mamba Backbone** | ICML 2026 | diffusion language models / high-throughput inference / state-space models | [Link](https://openreview.net/forum?id=hLizFuTBsA) | — |
 | **Canonical** | **Diffusion Language Model Parallel Decoding via Product-of-Experts Bridge** | ICML 2026 | diffusion language model / parallel decoding / product-of-experts bridge / rejection sampling / efficient reasoning | [Link](https://arxiv.org/abs/2606.08048) | [Repo](https://github.com/juntongshi48/poe-bridge) |
+| **Canonical** | **DistFlow: A Fully Distributed RL Framework for Scalable and Efficient LLM Post-Training** | ICML 2026 | distributed training / RL post-training systems / LLM infrastructure / communication | [Link](https://arxiv.org/abs/2507.13833) | — |
 | **Canonical** | **DITRON: Distributed Multi-level Tiling Compiler for Parallel Tensor Programs** | ICML 2026 | GPU kernel / DSL / compiler / distributed training and inference / compute-communication overlap / heterogeneous AI systems | [Link](https://arxiv.org/abs/2605.02953) | [Repo](https://github.com/ByteDance-Seed/Triton-distributed) |
+| **Canonical** | **dLLM-Cache: Accelerating Diffusion Large Language Models with Adaptive Caching** | ICML 2026 | diffusion language model acceleration / adaptive caching / inference systems | [Link](https://arxiv.org/abs/2506.06295) | — |
 | **Canonical** | **DLLMQuant: A Post-Training Quantization Framework Tailored for Diffusion-Based Large Language Models** | ICML 2026 | quantization / diffusion language models / PTQ / W4A4 / deployment efficiency | [Link](https://arxiv.org/abs/2508.14090) | — |
 | **Canonical** | **Do Transformers Need Three Projections? A Systematic Study of QKV Variants** | ICML 2026 | efficient attention architecture / KV-cache reduction / projection sharing | [Link](https://arxiv.org/abs/2606.04032) | [Repo](https://github.com/Brainchip-Inc/Do-Transformers-Need-3-Projections) |
 | **Canonical** | **Doc-to-LoRA: Learning to Instantly Internalize Contexts** | ICML 2026 | KV cache/long-context / parametric memory / LLM serving latency and VRAM reduction / hypernetwork-generated adapters | [Link](https://arxiv.org/abs/2602.15902) | [Repo](https://github.com/SakanaAI/doc-to-lora) |
@@ -454,6 +458,7 @@
 | **Canonical** | **FPTQuant: Function-Preserving Transforms for LLM Quantization** | ICML 2026 | LLM quantization / INT4 / function-preserving transforms / activation outlier mitigation / inference acceleration | [Link](https://arxiv.org/abs/2506.04985) | — |
 | **Canonical** | **FrameOracle: Learning What to See and How Much to See in Videos** | ICML 2026 | multimodal serving / video VLM / adaptive frame selection / visual token reduction / inference efficiency | [Link](https://arxiv.org/abs/2510.03584) | — |
 | **Canonical** | **FuseFSS: Efficient Secure LLM Inference with Function Secret Sharing** | ICML 2026 | LLM inference systems / secure inference / compiler / GPU | [Link](https://arxiv.org/abs/2606.09551) | — |
+| **Canonical** | **GEMQ: Global Expert-Level Mixed-Precision Quantization for MoE LLMs** | ICML 2026 | quantization / MoE systems / mixed precision / memory-efficient inference | [Link](https://arxiv.org/abs/2605.23078) | [Repo](https://github.com/jndeng/GEMQ) |
 | **Canonical** | **GradPower: Powering Gradients for Faster Language Model Pre-Training** | ICML 2026 | distributed training / optimizer / LLM pre-training efficiency / MoE training | [Link](https://arxiv.org/abs/2505.24275) | — |
 | **Canonical** | **Gram2Token: Enabling Run-time GPU-Native Grammar-Constrained Decoding for LLMs** | ICML 2026 | LLM serving / GPU-native grammar-constrained decoding / structured generation | [Link](https://openreview.net/forum?id=h3K23f6tLU) | [Repo](https://github.com/Paradozile/Gram2Token) |
 | **Canonical** | **GraphFlow: A Graph-Based Workflow Management for Efficient LLM-Agent Serving** | ICML 2026 | agent serving / workflow reuse / KV-cache management | [Link](https://arxiv.org/abs/2605.22566) | — |

@@ -8806,6 +8806,31 @@
     ]
   },
   {
+    "title": "Characterizing Vision-Language-Action Models across XPUs: Constraints and Acceleration for On-Robot Deployment",
+    "venue": "ICML 2026",
+    "topic": "Physical AI / VLA serving / heterogeneous edge accelerators / diffusion-policy cache / runtime",
+    "arxiv": "2604.24447",
+    "doi": "",
+    "official_id": "2604.24447",
+    "paper_url": "https://arxiv.org/abs/2604.24447",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 main-conference protected Physical-AI systems paper. Cross-XPU CET characterization exposes compute-bound VLM versus memory-bound action-expert phases; DP-Cache and asynchronous fusion report up to 2.9x GPU and 6x edge-NPU acceleration with marginal success degradation.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Multimodal / MLLM Serving",
+      "Diffusion / Flow Acceleration",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "CLAA: Cross-Layer Attention Aggregation for Accelerating LLM Prefill",
     "venue": "ICML 2026",
     "topic": "LLM prefill / token selection / efficient attention / long context",
@@ -9214,6 +9239,28 @@
     ]
   },
   {
+    "title": "DC-Leap: Training-Free Acceleration of dLLMs via Draft-Guided Contiguous Leaping Decoding",
+    "venue": "ICML 2026",
+    "topic": "diffusion language model acceleration / parallel decoding / speculative-style draft guidance",
+    "arxiv": "2607.20467",
+    "doi": "",
+    "official_id": "2607.20467",
+    "paper_url": "https://arxiv.org/abs/2607.20467",
+    "code_url": "https://github.com/ffh-wyls/DC-Leap",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 main-conference paper in the official Downloads inventory. Dynamic contiguous verification and draft-guided leaping reduce redundant denoising iterations; reports up to 53.19x speedup on MBPP and up to 105.02x when combined with KV cache at comparable quality.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Speculative Decoding",
+      "KV Cache / Long Context",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "De-Linearizing Agent Traces: Bayesian Inference of Latent Partial Orders for Efficient Execution",
     "venue": "ICML 2026",
     "topic": "efficient agent systems / parallel agent execution / workflow compilation / context pruning",
@@ -9431,6 +9478,27 @@
     ]
   },
   {
+    "title": "DistFlow: A Fully Distributed RL Framework for Scalable and Efficient LLM Post-Training",
+    "venue": "ICML 2026",
+    "topic": "distributed training / RL post-training systems / LLM infrastructure / communication",
+    "arxiv": "2507.13833",
+    "doi": "",
+    "official_id": "2507.13833",
+    "paper_url": "https://arxiv.org/abs/2507.13833",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 main-conference systems paper. Fully distributed multi-controller/data-coordinator architecture removes centralized dispatch bottlenecks for LLM RL post-training, with near-linear scaling to hundreds of GPUs and substantial throughput gains over centralized baselines.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "DITRON: Distributed Multi-level Tiling Compiler for Parallel Tensor Programs",
     "venue": "ICML 2026",
     "topic": "GPU kernel / DSL / compiler / distributed training and inference / compute-communication overlap / heterogeneous AI systems",
@@ -9450,6 +9518,27 @@
       "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "dLLM-Cache: Accelerating Diffusion Large Language Models with Adaptive Caching",
+    "venue": "ICML 2026",
+    "topic": "diffusion language model acceleration / adaptive caching / inference systems",
+    "arxiv": "2506.06295",
+    "doi": "",
+    "official_id": "2506.06295",
+    "paper_url": "https://arxiv.org/abs/2506.06295",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 main-conference paper in the official Downloads inventory. Training-free adaptive caching reuses stable prompt/response intermediate states for bidirectional diffusion LLM inference and reports up to 9.1x speedup without output-quality degradation.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
@@ -10700,6 +10789,28 @@
       "LLM Serving",
       "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "GEMQ: Global Expert-Level Mixed-Precision Quantization for MoE LLMs",
+    "venue": "ICML 2026",
+    "topic": "quantization / MoE systems / mixed precision / memory-efficient inference",
+    "arxiv": "2605.23078",
+    "doi": "",
+    "official_id": "2605.23078",
+    "paper_url": "https://arxiv.org/abs/2605.23078",
+    "code_url": "https://github.com/jndeng/GEMQ",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 main-conference paper in the official Downloads inventory. Global expert-level bit allocation plus router adaptation targets the MoE memory wall; includes real low-bit Triton kernels and enables aggressive expert quantization with improved accuracy-memory tradeoffs.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "MoE Systems / Accelerators",
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {
