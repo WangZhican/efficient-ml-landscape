@@ -13298,6 +13298,28 @@
     ]
   },
   {
+    "title": "Revisiting Efficiency–Accuracy Scaling in Mixture-of-Experts Architectures",
+    "venue": "ICML 2026",
+    "topic": "MoE systems/accelerators / LLM serving / hardware-software co-design / memory bandwidth / expert communication / inference efficiency",
+    "arxiv": "2601.18089",
+    "doi": "",
+    "official_id": "2601.18089",
+    "paper_url": "https://arxiv.org/abs/2601.18089",
+    "code_url": "https://research.nvidia.com/labs/nemotron/LatentMoE/",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 main-conference paper confirmed by the official ICML 2026 Downloads inventory, primary arXiv, and NVIDIA Nemotron official project page. LatentMoE moves routed expert computation into a lower-dimensional latent space to address low-latency weight-streaming and high-throughput all-to-all communication bottlenecks, then reinvests the savings in more experts/top-k; the work targets accuracy per FLOP and per parameter across serving regimes and has been adopted by NVIDIA Nemotron 3 Super/Ultra.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "MoE Systems / Accelerators",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "RobuQ: Pushing DiTs to W1.58A2 via Robust Activation Quantization",
     "venue": "ICML 2026",
     "topic": "quantization / diffusion transformer / ternary weights / ultra-low-bit inference",
