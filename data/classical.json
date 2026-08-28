@@ -10790,6 +10790,28 @@
     ]
   },
   {
+    "title": "From Bits to Rounds: Parallel Decoding with Exploration for Diffusion Language Models",
+    "venue": "ICML 2026",
+    "topic": "diffusion language model / parallel decoding / inference acceleration / efficient reasoning",
+    "arxiv": "2511.21103",
+    "doi": "",
+    "official_id": "2511.21103",
+    "paper_url": "https://arxiv.org/abs/2511.21103",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 official Downloads inventory paper. Establishes a bits-to-rounds principle for masked diffusion language models and proposes training-free Explore-Then-Exploit parallel decoding, directly reducing decoding rounds and inference compute.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Speculative Decoding",
+      "Diffusion / Flow Acceleration",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "FuseFSS: Efficient Secure LLM Inference with Function Secret Sharing",
     "venue": "ICML 2026",
     "topic": "LLM inference systems / secure inference / compiler / GPU",
@@ -12608,6 +12630,71 @@
     ]
   },
   {
+    "title": "Plan for Speed: Dilated Scheduling for Masked Diffusion Language Models",
+    "venue": "ICML 2026",
+    "topic": "diffusion language model / parallel decoding / inference-only scheduling / generation acceleration",
+    "arxiv": "2506.19037",
+    "doi": "",
+    "official_id": "2506.19037",
+    "paper_url": "https://arxiv.org/abs/2506.19037",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 official Downloads inventory paper. Proposes an inference-only dilated unmasking scheduler that parallelizes masked-diffusion generation without retraining and explicitly targets the speed-quality frontier.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "PLASH: Provably Linear-Time Attention with Selective Higher-Order Feature Sketching",
+    "venue": "ICML 2026",
+    "topic": "efficient attention / long-context / linear-time attention / feature sketching",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "openreview:CYg2w0YKM4",
+    "paper_url": "https://openreview.net/forum?id=CYg2w0YKM4",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 official poster. Compresses keys/values into learned prototypes with polynomial feature enrichment and provides linear-time runtime bounds, directly targeting long-context training and inference cost.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Efficient Attention"
+    ]
+  },
+  {
+    "title": "PLoRA: Efficient Concurrent LoRA Training for Large Language Models",
+    "venue": "ICML 2026",
+    "topic": "LLM training systems / LoRA / GPU utilization / concurrent training / custom kernels",
+    "arxiv": "2508.02932",
+    "doi": "",
+    "official_id": "2508.02932",
+    "paper_url": "https://arxiv.org/abs/2508.02932",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 main-conference systems paper confirmed by author publication pages and the official inventory. Orchestrates concurrent LoRA fine-tuning jobs and custom GPU kernels, reporting up to 12.8x training throughput and 7.52x shorter makespan.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "POET-X: Memory-efficient LLM Training by Scaling Orthogonal Transformation",
     "venue": "ICML 2026",
     "topic": "distributed LLM training / memory-efficient optimizer / Triton kernels",
@@ -13273,6 +13360,26 @@
     ]
   },
   {
+    "title": "Re-FORC: Adaptive Reward Prediction for Efficient Chain-of-Thought Reasoning",
+    "venue": "ICML 2026",
+    "topic": "efficient reasoning / adaptive test-time compute / early stopping / model routing",
+    "arxiv": "2511.02130",
+    "doi": "",
+    "official_id": "2511.02130",
+    "paper_url": "https://arxiv.org/abs/2511.02130",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 official Downloads inventory paper. Predicts future reward as a function of additional thinking tokens to stop unpromising chains and allocate test-time compute adaptively, directly reducing reasoning cost.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "RealtimeTool: Parallel Decoding for Real-Time LLM Function Calling",
     "venue": "ICML 2026",
     "topic": "parallel decoding / real-time function calling / agent inference / on-device LLM runtime / Physical AI control",
@@ -13294,6 +13401,27 @@
       "Efficient Reasoning / Agents",
       "VLA / WAM / Physical AI",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Reason with Thumbnails, Answer with Focus: An Efficient and Effective Paradigm for Multimodal Grounded Visual Reasoning",
+    "venue": "ICML 2026",
+    "topic": "multimodal reasoning / visual token efficiency / adaptive resolution / MLLM inference",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "openreview:1iqVgRPjle",
+    "paper_url": "https://openreview.net/forum?id=1iqVgRPjle",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 official poster. Uses low-resolution thumbnails for reasoning and high-resolution crops only when needed, roughly halving visual-token usage versus grounded visual reasoning baselines while improving performance.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -13771,6 +13899,27 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Quantization"
+    ]
+  },
+  {
+    "title": "Scaling Long-Horizon Agent via Context Folding",
+    "venue": "ICML 2026",
+    "topic": "agent systems / long-context / context management / KV-cache pressure / efficient inference",
+    "arxiv": "2510.11967",
+    "doi": "",
+    "official_id": "2510.11967",
+    "paper_url": "https://arxiv.org/abs/2510.11967",
+    "code_url": "https://github.com/sunnweiwei/FoldAgent",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 official paper. Context Folding lets long-horizon agents branch and fold sub-trajectories, matching long-context baselines with up to 10x smaller active context and directly reducing long-context inference/KV pressure.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -14585,6 +14734,28 @@
     "directions": [
       "LLM Serving",
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "SpikeVLA: Vision-Language-Action Models with Spiking Neural Networks",
+    "venue": "ICML 2026",
+    "topic": "VLA / Physical AI / spiking neural networks / edge inference / energy-efficient embodied AI",
+    "arxiv": "2606.27807",
+    "doi": "",
+    "official_id": "2606.27807",
+    "paper_url": "https://arxiv.org/abs/2606.27807",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 official inventory paper and protected Physical-AI direction. Replaces dense VLA components with event-driven spiking modules to lower memory, compute and energy for low-power real-time embodied inference.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {

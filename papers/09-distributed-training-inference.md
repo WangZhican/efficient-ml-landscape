@@ -1,6 +1,6 @@
 # 09 · Distributed Training / Inference
 
-> **198 canonical papers** mapped here, plus a broader **32-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **199 canonical papers** mapped here, plus a broader **32-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -41,7 +41,7 @@
 | **P1 · Watch** | **DataKernelBench: Can LLMs Optimize Database Queries on GPUs?** | Fresh / preprint | GPU kernel / compiler / benchmark | [Link](https://arxiv.org/abs/2608.25061) | — |
 | **P0 · Strong** | **ClawGym II: Exploring Black-Box RL on Agent Harness** | Fresh / preprint | agent training systems | [Link](https://arxiv.org/abs/2608.16798) | — |
 
-## 🏛️ Classical / Historical · 185 canonical
+## 🏛️ Classical / Historical · 186 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -138,6 +138,7 @@
 | **Canonical** | **Native Parallel Reasoner: Reasoning in Parallelism via Self-Distilled Reinforcement Learning** | ICML 2026 | efficient reasoning / parallel reasoning / SGLang runtime / reinforcement learning / inference acceleration | [Link](https://arxiv.org/abs/2512.07461) | [Repo](https://github.com/bigai-nlco/Native-Parallel-Reasoner) |
 | **Canonical** | **NorMuon: Making Muon more efficient and scalable** | ICML 2026 | distributed LLM training / optimizer / FSDP2 / training efficiency | [Link](https://arxiv.org/abs/2510.05491) | — |
 | **Canonical** | **On Effectiveness and Efficiency of Agentic Tool-calling and RL Training** | ICML 2026 | efficient reasoning / agent systems / tool calling / RL training efficiency / rollout efficiency / wall-clock acceleration | [Link](https://arxiv.org/abs/2606.00135) | — |
+| **Canonical** | **PLoRA: Efficient Concurrent LoRA Training for Large Language Models** | ICML 2026 | LLM training systems / LoRA / GPU utilization / concurrent training / custom kernels | [Link](https://arxiv.org/abs/2508.02932) | — |
 | **Canonical** | **POET-X: Memory-efficient LLM Training by Scaling Orthogonal Transformation** | ICML 2026 | distributed LLM training / memory-efficient optimizer / Triton kernels | [Link](https://arxiv.org/abs/2603.05500) | [Repo](https://github.com/Sphere-AI-Lab/poet) |
 | **Canonical** | **PRAC: Principal-Random Subspace for LLM Activation Compression and Memory-Efficient Training** | ICML 2026 | distributed training / activation compression / memory-efficient LLM training | [Link](https://arxiv.org/abs/2602.23111) | — |
 | **Canonical** | **Proxy Compression for Language Modeling** | ICML 2026 | language-model training efficiency / byte-level modeling / compressed training views | [Link](https://arxiv.org/abs/2602.04289) | — |

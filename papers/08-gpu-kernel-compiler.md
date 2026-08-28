@@ -1,6 +1,6 @@
 # 08 · GPU Kernel / DSL / Compiler
 
-> **268 canonical papers** mapped here, plus a broader **68-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **269 canonical papers** mapped here, plus a broader **68-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -77,7 +77,7 @@
 | **P0 · Strong** | **A Thread-Register Decoupled GPU Execution Model for Efficient Tensor Computation** | Fresh / preprint | GPU execution architecture / tensor cores / LLM serving | [Link](https://arxiv.org/abs/2608.19628) | — |
 | **P1 · Watch** | **A Scalable Pipeline for LLM-Teacher Distillation Labeling: Work-Stealing Job Scheduling and Memory-Aware GPU Concurrency** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.15975) | — |
 
-## 🏛️ Classical / Historical · 243 canonical
+## 🏛️ Classical / Historical · 244 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -180,6 +180,7 @@
 | **Canonical** | **NeUQI: Near-Optimal Uniform Quantization Parameter Initialization for Low-Bit LLMs** | ICML 2026 | LLM quantization / low-bit PTQ / uniform quantization / parameter initialization / consumer-GPU deployment | [Link](https://arxiv.org/abs/2505.17595) | — |
 | **Canonical** | **On Efficient Scaling of GNNs via IO-Aware Layers Implementations** | ICML 2026 | GPU kernel / graph neural network systems / IO-aware layers / sparse attention / SpMM / hardware-efficient training and inference | [Link](https://arxiv.org/abs/2605.31500) | [Repo](https://github.com/yandex-research/On-Efficient-Scaling-Of-GNNs) |
 | **Canonical** | **ParisKV: Fast and Drift-Robust KV-Cache Retrieval for Long-Context LLMs** | ICML 2026 | KV cache / long-context inference / GPU retrieval / CPU offload | [Link](https://arxiv.org/abs/2602.07721) | — |
+| **Canonical** | **PLoRA: Efficient Concurrent LoRA Training for Large Language Models** | ICML 2026 | LLM training systems / LoRA / GPU utilization / concurrent training / custom kernels | [Link](https://arxiv.org/abs/2508.02932) | — |
 | **Canonical** | **POET-X: Memory-efficient LLM Training by Scaling Orthogonal Transformation** | ICML 2026 | distributed LLM training / memory-efficient optimizer / Triton kernels | [Link](https://arxiv.org/abs/2603.05500) | [Repo](https://github.com/Sphere-AI-Lab/poet) |
 | **Canonical** | **Predicting Future Utility: Global Combinatorial Optimization for Task-Agnostic KV Cache Eviction** | ICML 2026 | KV cache compression / head-wise budget allocation / long-context inference | [Link](https://arxiv.org/abs/2602.08585) | [Repo](https://github.com/baidu-baige/LU-KV) |
 | **Canonical** | **PRIM: Cooperative Dynamic Token Compression for Efficient Large Multimodal Models** | ICML 2026 | multimodal / MLLM inference / audio-video token compression / pruning / long-form multimodal efficiency | [Link](https://openreview.net/forum?id=vtYr3VnMym) | — |
