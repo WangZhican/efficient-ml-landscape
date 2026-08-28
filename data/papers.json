@@ -14557,7 +14557,7 @@
     "doi": "",
     "official_id": "ICML2026_POSTER_61229",
     "paper_url": "https://icml.cc/virtual/2026/poster/61229",
-    "code_url": "",
+    "code_url": "https://github.com/nuanyang-wei/SLIM",
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "BACKFILL_HIGH",
     "why": "ICML 2026 Poster and direct edge/heterogeneous LLM-inference system. SLIM minimizes costly TEE interactions by letting transformed representations propagate through consecutive obfuscated layers and uses lightweight T-Way Mixing; reported performance reaches up to 13.8x speedup over prior secure-inference schemes while preserving fidelity.",
