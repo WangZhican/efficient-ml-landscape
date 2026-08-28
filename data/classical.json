@@ -10378,6 +10378,26 @@
     ]
   },
   {
+    "title": "Float8@2bits: Entropy Coding Enables Data-Free Model Compression",
+    "venue": "ICML 2026",
+    "topic": "quantization / entropy coding / data-free model compression / low-bit LLM deployment",
+    "arxiv": "2601.22787",
+    "doi": "",
+    "official_id": "2601.22787",
+    "paper_url": "https://arxiv.org/abs/2601.22787",
+    "code_url": "https://github.com/merantix-momentum/entquant",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 paper. EntQuant decouples numerical precision from storage cost using entropy coding, enabling data-free and model-agnostic extreme compression near 2 effective bits/parameter while retaining Float8/Int8 inference representations. The authors demonstrate rapid compression of 70B-class LLMs with competitive accuracy at sub-4-bit rates and modest inference overhead, making this a direct quantization/model-compression canonical work with an official open-source implementation.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization"
+    ]
+  },
+  {
     "title": "FOAM: Blocked State Folding for Memory-Efficient LLM Training",
     "venue": "ICML 2026",
     "topic": "distributed training / memory-efficient optimizer / optimizer-state compression",

@@ -1,6 +1,6 @@
 # 04 · Quantization
 
-> **162 canonical papers** mapped here, plus a broader **49-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **163 canonical papers** mapped here, plus a broader **49-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -58,7 +58,7 @@
 | **P2 · Relevant** | **A Motion-Aware Vector Quantization Framework with Centroid Reuse for Efficient VLA Inference** | Fresh / preprint | llm_serving / quant / multimodal / physical | [Link](https://arxiv.org/abs/2607.24148) | — |
 | **P1 · Watch** | **Sparse by Command: Task-Conditional Compute Skipping for Multi-Task Inference Accelerators** | Fresh / preprint | llm_serving / quant / sparse / gen / edge | [Link](https://arxiv.org/abs/2607.22038) | — |
 
-## 🏛️ Classical / Historical · 152 canonical
+## 🏛️ Classical / Historical · 153 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -129,6 +129,7 @@
 | **Canonical** | **ECO: Quantized Training without Full-Precision Master Weights** | ICML 2026 | quantized LLM training / memory-efficient training / optimizer state reduction / FP8 and INT4 | [Link](https://arxiv.org/abs/2601.22101) | — |
 | **Canonical** | **FAIR-Calib: Frontier-Aware Calibration for Post-Training Quantization of Diffusion Language Models** | ICML 2026 | quantization / diffusion language model / W4A4 PTQ / calibration | [Link](https://arxiv.org/abs/2606.06547) | — |
 | **Canonical** | **Faster Than Flash: Exploiting Attention Sparsity for Efficient Long-Context Decoding** | ICML 2026 | long-context LLM decoding / sparse attention / fused Triton kernel | [Link](https://openreview.net/forum?id=r8YhlMRUR2) | — |
+| **Canonical** | **Float8@2bits: Entropy Coding Enables Data-Free Model Compression** | ICML 2026 | quantization / entropy coding / data-free model compression / low-bit LLM deployment | [Link](https://arxiv.org/abs/2601.22787) | [Repo](https://github.com/merantix-momentum/entquant) |
 | **Canonical** | **FourTune: Towards Fully 4-Bit Efficient Post-Training for Diffusion Models** | ICML 2026 | diffusion model post-training / W4A4G4 quantization / fused kernels / training efficiency | [Link](https://arxiv.org/abs/2607.05711) | — |
 | **Canonical** | **FPTQuant: Function-Preserving Transforms for LLM Quantization** | ICML 2026 | LLM quantization / INT4 / function-preserving transforms / activation outlier mitigation / inference acceleration | [Link](https://arxiv.org/abs/2506.04985) | — |
 | **Canonical** | **GSRQ: Gain-Shape Residual Quantization for Sub-1-bit KV Cache** | ICML 2026 | KV cache / long-context / sub-1-bit quantization / residual vector quantization | [Link](https://arxiv.org/abs/2607.01065) | — |

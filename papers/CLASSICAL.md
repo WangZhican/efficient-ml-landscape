@@ -1,10 +1,10 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **1044 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **1045 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
-## ICML 2026 · 332
+## ICML 2026 · 333
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -122,6 +122,7 @@
 | **Canonical** | **Flash-VAED: Plug-and-Play VAE Decoders for Efficient Video Generation** | ICML 2026 | video generation acceleration / VAE decoder / pruning / operator optimization | [Link](https://arxiv.org/abs/2602.19161) | [Repo](https://github.com/Aoko955/Flash-VAED) |
 | **Canonical** | **FlashBlock: Attention Caching for Efficient Long-Context Block Diffusion** | ICML 2026 | diffusion language/video generation / attention caching / long-context inference | [Link](https://arxiv.org/abs/2602.05305) | [Repo](https://caesarhhh.github.io/FlashBlock/) |
 | **Canonical** | **FlashOptim: Memory Efficient Optimizers for Large-Scale Training** | ICML 2026 | distributed training / memory-efficient optimizer / low-precision optimizer state | [Link](https://arxiv.org/abs/2602.23349) | — |
+| **Canonical** | **Float8@2bits: Entropy Coding Enables Data-Free Model Compression** | ICML 2026 | quantization / entropy coding / data-free model compression / low-bit LLM deployment | [Link](https://arxiv.org/abs/2601.22787) | [Repo](https://github.com/merantix-momentum/entquant) |
 | **Canonical** | **FOAM: Blocked State Folding for Memory-Efficient LLM Training** | ICML 2026 | distributed training / memory-efficient optimizer / optimizer-state compression | [Link](https://arxiv.org/abs/2512.07112) | [Repo](https://github.com/zqOuO/FOAM) |
 | **Canonical** | **FOCUS: DLLMs Know How to Tame Their Compute Bound** | ICML 2026 | LLM serving / diffusion LLM inference / dynamic token eviction / throughput acceleration / LMDeploy | [Link](https://arxiv.org/abs/2601.23278) | [Repo](https://github.com/sands-lab/FOCUS) |
 | **Canonical** | **ForesightKV: Optimizing KV Cache Eviction for Reasoning Models by Learning Long-Term Contribution** | ICML 2026 | KV cache eviction / reasoning-model serving / learned long-term contribution | [Link](https://arxiv.org/abs/2602.03203) | [Repo](https://github.com/1190303125/ForesightKV) |
