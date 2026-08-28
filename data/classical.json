@@ -11773,6 +11773,27 @@
     ]
   },
   {
+    "title": "Mining Tensor/Neuron-Level Sparsity to Maximize Mixture-of-Experts Potential in Post-Training and Inference",
+    "venue": "ICML 2026",
+    "topic": "MoE systems / post-training sparsity / token-expert dropping / expert partition / inference acceleration",
+    "arxiv": "2508.18376",
+    "doi": "",
+    "official_id": "2508.18376",
+    "paper_url": "https://arxiv.org/abs/2508.18376",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 main-conference paper, with the same author set as the earlier arXiv title DualSparse-MoE. It exploits tensor-level and neuron-level sparsity after pretraining via expert partitioning, threshold-based token-expert dropping, partial partition/reconstruction, and load-imbalance-aware execution. Reported inference-only results reach up to 1.41x MoE speedup with under 0.5% accuracy loss, making it a direct MoE deployment-efficiency canonical.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "MoE Systems / Accelerators"
+    ]
+  },
+  {
     "title": "MixQuant: Pushing the Limits of Block Rotations in Post-Training Quantization",
     "venue": "ICML 2026",
     "topic": "quantization / post-training quantization / block Hadamard rotation / low-bit LLM inference",

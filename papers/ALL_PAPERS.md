@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **1108 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **296 visible papers = 58 P0 + 116 P1 + 122 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1109 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **296 visible papers = 58 P0 + 116 P1 + 122 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -319,9 +319,9 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 1050
+## 🏛️ Classical / Historical · 1051
 
-### ICML 2026 · 338
+### ICML 2026 · 339
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -504,6 +504,7 @@
 | **Canonical** | **MemOCR: Layout-Aware Visual Memory for Efficient Long-Horizon Reasoning** | ICML 2026 | efficient reasoning / agent memory / multimodal memory compression / long-horizon context efficiency | [Link](https://arxiv.org/abs/2601.21468) | [Repo](https://github.com/meituan/MemOCR) |
 | **Canonical** | **Memory-Efficient LLM Pretraining via Minimalist Optimizer Design** | ICML 2026 | distributed training / memory-efficient LLM pretraining / optimizer-state reduction | [Link](https://arxiv.org/abs/2506.16659) | [Repo](https://github.com/OptimAI-Lab/Minimalist_LLM_Pretraining) |
 | **Canonical** | **Memory-Efficient LLM Training with Dynamic Sparsity: From Stability to Practical Scaling** | ICML 2026 | LLM training efficiency / dynamic sparsity / memory-efficient optimization | [Link](https://arxiv.org/abs/2606.00888) | [Repo](https://github.com/QiaoXiao7282/SMET) |
+| **Canonical** | **Mining Tensor/Neuron-Level Sparsity to Maximize Mixture-of-Experts Potential in Post-Training and Inference** | ICML 2026 | MoE systems / post-training sparsity / token-expert dropping / expert partition / inference acceleration | [Link](https://arxiv.org/abs/2508.18376) | — |
 | **Canonical** | **MixQuant: Pushing the Limits of Block Rotations in Post-Training Quantization** | ICML 2026 | quantization / post-training quantization / block Hadamard rotation / low-bit LLM inference | [Link](https://arxiv.org/abs/2601.22347) | [Repo](https://github.com/Xilinx/brevitas) |
 | **Canonical** | **Mixture of Distributions Matters: Dynamic Sparse Attention for Efficient Video Diffusion Transformers** | ICML 2026 | video generation acceleration / diffusion / dynamic sparse attention | [Link](https://arxiv.org/abs/2601.11641) | — |
 | **Canonical** | **MoSE: Mixture of Slimmable Experts for Efficient and Adaptive Language Models** | ICML 2026 | MoE / conditional computation / slimmable experts / adaptive inference FLOPs | [Link](https://arxiv.org/abs/2602.06154) | [Repo](https://github.com/tnurbek/mose) |
