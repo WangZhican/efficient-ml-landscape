@@ -12732,6 +12732,28 @@
     ]
   },
   {
+    "title": "ProtoKV: Streaming Video Understanding under Delayed Query with Summary-State Memory",
+    "venue": "ICML 2026",
+    "topic": "multimodal/MLLM serving / streaming video / bounded KV memory / delayed-query inference / summary-state memory",
+    "arxiv": "2606.26762",
+    "doi": "",
+    "official_id": "2606.26762",
+    "paper_url": "https://arxiv.org/abs/2606.26762",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 main-conference paper confirmed by the official ICML inventory. ProtoKV targets streaming-video inference with delayed asynchronous queries under fixed GPU-memory and latency budgets, retaining an exact near-window while compressing distant history into fixed-capacity semantic-spatial prototypes; it improves long-delay accuracy by up to 12.5 points over token-retention baselines at matched budgets.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
     "title": "Proxy Compression for Language Modeling",
     "venue": "ICML 2026",
     "topic": "language-model training efficiency / byte-level modeling / compressed training views",

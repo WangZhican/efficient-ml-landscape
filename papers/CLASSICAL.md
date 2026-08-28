@@ -1,10 +1,10 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **1057 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **1058 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
-## ICML 2026 · 345
+## ICML 2026 · 346
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -232,6 +232,7 @@
 | **Canonical** | **ProbMoE: Differentiable Probabilistic Routing for Mixture-of-Experts** | ICML 2026 | MoE systems/accelerators / dynamic routing / compute-efficient training and inference | [Link](https://arxiv.org/abs/2606.01509) | [Repo](https://github.com/HengHugoZhao/ProbMoE) |
 | **Canonical** | **ProphetKV: User-Query-Driven Selective Recomputation for Efficient KV Cache Reuse in Retrieval-Augmented Generation** | ICML 2026 | KV cache reuse / RAG serving / selective recomputation | [Link](https://arxiv.org/abs/2602.02579) | — |
 | **Canonical** | **Proteus: Lookup-Free Trellis-Coded Quantization by Lattice-Breaking Compute Codes for 2-Bit LLMs** | ICML 2026 | quantization / 2-bit weight-only PTQ / trellis-coded quantization / lookup-free dequantization / GPU memory traffic / LLM inference | [Link](https://openreview.net/forum?id=SHYZM21zO7) | [Repo](https://github.com/YZW-explorer/Proteus) |
+| **Canonical** | **ProtoKV: Streaming Video Understanding under Delayed Query with Summary-State Memory** | ICML 2026 | multimodal/MLLM serving / streaming video / bounded KV memory / delayed-query inference / summary-state memory | [Link](https://arxiv.org/abs/2606.26762) | — |
 | **Canonical** | **Proxy Compression for Language Modeling** | ICML 2026 | language-model training efficiency / byte-level modeling / compressed training views | [Link](https://arxiv.org/abs/2602.04289) | — |
 | **Canonical** | **PsumQuant: In-line Post-training Partial Sum Quantizer for Energy Efficient NPU Inference** | ICML 2026 | quantization / NPU inference / partial-sum quantization / edge AI / energy-efficient accelerator | [Link](https://openreview.net/forum?id=6Qbb6IcCVy) | — |
 | **Canonical** | **PuzzleMoE: Efficient Compression of Large Mixture-of-Experts Models via Sparse Expert Merging and Bit-packed inference** | ICML 2026 | MoE compression / sparse expert merging / bit-packed inference | [Link](https://arxiv.org/abs/2511.04805) | — |

@@ -1,6 +1,6 @@
 # 01 · LLM Serving
 
-> **431 canonical papers** mapped here, plus a broader **211-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **432 canonical papers** mapped here, plus a broader **211-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -220,7 +220,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 404 canonical
+## 🏛️ Classical / Historical · 405 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -424,6 +424,7 @@
 | **Canonical** | **Prism: Spectral-Aware Block-Sparse Attention** | ICML 2026 | efficient attention / long-context prefill / Triton kernels | [Link](https://arxiv.org/abs/2602.08426) | [Repo](https://github.com/xinghaow99/prism) |
 | **Canonical** | **Proact-VL: A Proactive VideoLLM for Real-Time AI Companions** | ICML 2026 | multimodal serving / streaming VideoLLM / real-time agent / low-latency inference / proactive response control | [Link](https://arxiv.org/abs/2603.03447) | [Repo](https://github.com/microsoft/AnthropomorphicIntelligence) |
 | **Canonical** | **ProphetKV: User-Query-Driven Selective Recomputation for Efficient KV Cache Reuse in Retrieval-Augmented Generation** | ICML 2026 | KV cache reuse / RAG serving / selective recomputation | [Link](https://arxiv.org/abs/2602.02579) | — |
+| **Canonical** | **ProtoKV: Streaming Video Understanding under Delayed Query with Summary-State Memory** | ICML 2026 | multimodal/MLLM serving / streaming video / bounded KV memory / delayed-query inference / summary-state memory | [Link](https://arxiv.org/abs/2606.26762) | — |
 | **Canonical** | **Q-Sched: Pushing the Boundaries of Few-Step Diffusion Models with Quantization-Aware Scheduling** | ICML 2026 | quantization / diffusion acceleration / few-step generation / scheduler-level PTQ / edge deployment | [Link](https://arxiv.org/abs/2509.01624) | [Repo](https://github.com/enyac-group/q-sched) |
 | **Canonical** | **QiMeng-PerceptOS: Semantic-Aware Kernel Optimization for OS-Intensive Workloads via Hardware-Software Alignment** | ICML 2026 | GPU kernel / OS kernel optimization / agentic systems optimization / hardware-software alignment / AI infra | [Link](https://openreview.net/forum?id=aKN6UpjSnc) | — |
 | **Canonical** | **RaBitQCache: Rotated Binary Quantization for KVCache in Long Context LLM Inference** | ICML 2026 | KV cache / sparse attention / binary-INT4 proxy / long-context inference | [Link](https://arxiv.org/abs/2606.31519) | [Repo](https://github.com/Sakuraaa0/RaBitQCache) |
