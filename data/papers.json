@@ -13926,6 +13926,26 @@
     ]
   },
   {
+    "title": "Short Chains, Deep Thoughts: Balancing Reasoning Efficiency and Intra-Segment Capability via Split-Merge Optimization",
+    "venue": "ICML 2026",
+    "topic": "efficient reasoning / reasoning-token and segment reduction / structure-aligned RL / test-time compute reduction",
+    "arxiv": "2602.03141",
+    "doi": "",
+    "official_id": "2602.03141",
+    "paper_url": "https://arxiv.org/abs/2602.03141",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 main-conference paper confirmed by the MIRA Lab official publication page. CoSMo targets structural redundancy in long reasoning chains via consistency-guided split/merge curation plus structure-aligned reinforcement learning. Across multiple benchmarks/backbones it improves accuracy by 3.3 points while reducing reasoning segment usage by 28.7% on average, making it a direct Efficient Reasoning/test-time-compute canonical.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "SINQ: Sinkhorn-Normalized Quantization for Calibration-Free Low-Precision LLM Weights",
     "venue": "ICML 2026",
     "topic": "quantization / low-precision LLM inference / calibration-free PTQ / edge deployment",

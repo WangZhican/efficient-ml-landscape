@@ -1,6 +1,6 @@
 # 13 · Efficient Reasoning / Agents
 
-> **179 canonical papers** mapped here, plus a broader **51-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **180 canonical papers** mapped here, plus a broader **51-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -60,7 +60,7 @@
 | **P2 · Relevant** | **SpecBox: Speculative Sandbox Scheduling for Efficient LLM Agent Serving** | Fresh / preprint | llm_serving / agent | [Link](https://arxiv.org/abs/2607.23933) | — |
 | **P2 · Relevant** | **Agentic CPU-GPU Scheduling for Heterogeneous AI Workloads** | Fresh / preprint | llm_serving / gen / agent / edge | [Link](https://arxiv.org/abs/2607.22242) | — |
 
-## 🏛️ Classical / Historical · 167 canonical
+## 🏛️ Classical / Historical · 168 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -169,6 +169,7 @@
 | **Canonical** | **SCALE: Self-uncertainty Conditioned Adaptive Looking and Execution for Vision-Language-Action Models** | ICML 2026 | Physical AI / VLA inference / test-time scaling / single-pass adaptive execution | [Link](https://arxiv.org/abs/2602.04208) | [Repo](https://github.com/snumprlab/scale) |
 | **Canonical** | **ScaleSim: Serving Large-Scale Multi-Agent Simulation with Invocation Distance-Based Memory Management** | ICML 2026 | agent serving / multi-agent simulation / GPU memory management / prefetching and eviction | [Link](https://arxiv.org/abs/2601.21473) | — |
 | **Canonical** | **Semantic Integrity Matters: Benchmarking and Preserving High-Density Reasoning in KV Cache Compression** | ICML 2026 | KV cache / long-context inference / reasoning-aware compression / benchmark / semantic-unit preservation | [Link](https://arxiv.org/abs/2502.01941) | [Repo](https://github.com/Zefan-Cai/KVCache-Factory) |
+| **Canonical** | **Short Chains, Deep Thoughts: Balancing Reasoning Efficiency and Intra-Segment Capability via Split-Merge Optimization** | ICML 2026 | efficient reasoning / reasoning-token and segment reduction / structure-aligned RL / test-time compute reduction | [Link](https://arxiv.org/abs/2602.03141) | — |
 | **Canonical** | **SLAT: Segment-Level Adaptive Trimming for Efficient CoT Reasoning** | ICML 2026 | efficient reasoning / chain-of-thought compression / RL / inference compute reduction | [Link](https://arxiv.org/abs/2605.30832) | — |
 | **Canonical** | **Small Generalizable Prompt Predictive Models Can Steer Efficient RL Post-Training of Large Reasoning Models** | ICML 2026 | efficient reasoning / RL post-training / rollout compute allocation | [Link](https://arxiv.org/abs/2602.01970) | — |
 | **Canonical** | **SmartThinker: Progressive Chain-of-Thought Length Calibration for Efficient Large Language Model Reasoning** | ICML 2026 | efficient reasoning / RL post-training / chain-of-thought length control | [Link](https://arxiv.org/abs/2603.08000) | [Repo](https://github.com/SJTU-RTEAS/SmartThinker) |

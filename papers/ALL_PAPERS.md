@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **1107 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **296 visible papers = 58 P0 + 116 P1 + 122 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1108 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **296 visible papers = 58 P0 + 116 P1 + 122 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -319,9 +319,9 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 1049
+## 🏛️ Classical / Historical · 1050
 
-### ICML 2026 · 337
+### ICML 2026 · 338
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -592,6 +592,7 @@
 | **Canonical** | **Semantic Impact–Driven Visual Scheduling in Vision-Language Models** | ICML 2026 | multimodal serving / visual KV scheduling / training-free token compression / VLM inference | [Link](https://openreview.net/forum?id=oFZT8HCxmW) | — |
 | **Canonical** | **Semantic Integrity Matters: Benchmarking and Preserving High-Density Reasoning in KV Cache Compression** | ICML 2026 | KV cache / long-context inference / reasoning-aware compression / benchmark / semantic-unit preservation | [Link](https://arxiv.org/abs/2502.01941) | [Repo](https://github.com/Zefan-Cai/KVCache-Factory) |
 | **Canonical** | **SGMD: Score Gradient Matching Distillation for Few-Step Video Diffusion Distillation** | ICML 2026 | video generation acceleration / diffusion distillation / few-step generation | [Link](https://arxiv.org/abs/2605.30116) | [Repo](https://github.com/ModelTC/LightX2V) |
+| **Canonical** | **Short Chains, Deep Thoughts: Balancing Reasoning Efficiency and Intra-Segment Capability via Split-Merge Optimization** | ICML 2026 | efficient reasoning / reasoning-token and segment reduction / structure-aligned RL / test-time compute reduction | [Link](https://arxiv.org/abs/2602.03141) | — |
 | **Canonical** | **SINQ: Sinkhorn-Normalized Quantization for Calibration-Free Low-Precision LLM Weights** | ICML 2026 | quantization / low-precision LLM inference / calibration-free PTQ / edge deployment | [Link](https://arxiv.org/abs/2509.22944) | [Repo](https://github.com/huawei-csl/SINQ) |
 | **Canonical** | **SLAT: Segment-Level Adaptive Trimming for Efficient CoT Reasoning** | ICML 2026 | efficient reasoning / chain-of-thought compression / RL / inference compute reduction | [Link](https://arxiv.org/abs/2605.30832) | — |
 | **Canonical** | **SlideSparse: Fast and Flexible (2N-2):2N Structured Sparsity** | ICML 2026 | sparsity / structured sparsity / Sparse Tensor Core / vLLM / GPU inference acceleration / quantization | [Link](https://arxiv.org/abs/2603.05232) | [Repo](https://github.com/bcacdwk/vllmbench) |

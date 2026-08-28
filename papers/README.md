@@ -1,10 +1,10 @@
 # 🧭 Research Map
 
-> **1107 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
+> **1108 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
 
 <div align="center">
 
-[**🆕 Latest 30 Days · 296 tracked**](LATEST_30D.md) · [**🏛️ Classical · 1049**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
+[**🆕 Latest 30 Days · 296 tracked**](LATEST_30D.md) · [**🏛️ Classical · 1050**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
 
 </div>
 
@@ -24,7 +24,7 @@
 | 10 | [**Multimodal / MLLM Serving**](10-multimodal-mllm-serving.md) | **136** | **53** |
 | 11 | [**Video / Image Generation**](11-video-image-generation.md) | **47** | **15** |
 | 12 | [**Diffusion / Flow Acceleration**](12-diffusion-flow.md) | **135** | **23** |
-| 13 | [**Efficient Reasoning / Agents**](13-efficient-reasoning-agents.md) | **179** | **51** |
+| 13 | [**Efficient Reasoning / Agents**](13-efficient-reasoning-agents.md) | **180** | **51** |
 | 14 | [**VLA / WAM / Physical AI**](14-physical-ai-vla-wam.md) | **55** | **54** |
 | 15 | [**Edge / Cloud / Heterogeneous AI**](15-edge-cloud-heterogeneous.md) | **218** | **94** |
 
