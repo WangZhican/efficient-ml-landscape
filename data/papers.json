@@ -5668,8 +5668,8 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "PROMOTE_STRONG",
     "why": "Software-hardware co-design for high-resolution DiT; APDT+TAFA plus specialized dual-precision sparse accelerator, reporting up to 8.16x speedup and 14.98x energy efficiency over A100.",
-    "published_at": "2026-08-26T05:08:40Z",
-    "updated_at": "2026-08-26T05:08:40Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -5691,8 +5691,8 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "PROMOTE_STRONG",
     "why": "FlashAttention-4/FlashInfer-compatible per-RoPE-frequency pruning; prunes 37–48% QK terms with high output fidelity and reaches up to 1.31x end-to-end speedup at 1M-token context.",
-    "published_at": "2026-08-03T23:23:38Z",
-    "updated_at": "2026-08-03T23:23:38Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -5713,8 +5713,8 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "PROMOTE_STRONG",
     "why": "Automated GPU compiler for joint compute-memory fusion and B2BGEMM using CUTLASS/modern GPU features; up to 1.97x over TorchInductor on selected workloads.",
-    "published_at": "2026-08-04T12:15:28Z",
-    "updated_at": "2026-08-04T12:15:28Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -5733,8 +5733,8 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "PROMOTE_STRONG",
     "why": "vLLM plug-in with lightweight expert-folding CUDA kernel; reports up to 1.41x TTFT and 2.45x TPOT speedups while retaining ~99% average quality.",
-    "published_at": "2026-08-24T08:53:58Z",
-    "updated_at": "2026-08-24T08:53:58Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -5755,8 +5755,8 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "PROMOTE_STRONG",
     "why": "Direct LLM inference memory-capacity system using HBF+HBM, burst-buffer control, off-critical-path refresh and read-only FTL; strong architecture/runtime contribution.",
-    "published_at": "2026-08-25T18:58:14Z",
-    "updated_at": "2026-08-25T18:58:14Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -5776,8 +5776,8 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "PROMOTE_STRONG",
     "why": "Single-GPU omni-model serving system coordinating temporal request scheduling and spatial SM sharing under heterogeneous SLOs; reports up to 4.9x/7.0x SLO-attainment gains and 38.4–63.7% first-response latency reduction.",
-    "published_at": "2026-08-03T06:59:15Z",
-    "updated_at": "2026-08-03T06:59:15Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -5799,8 +5799,8 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "PROMOTE_STRONG",
     "why": "High-value industrial systems paper backed by Microsoft production deployment. Maia 200 is a software-defined locally accessed dataflow accelerator for large-scale AI inference, with FP4/FP8 compute, 7 TB/s HBM bandwidth, and production Azure evidence; strong canonical/P0 candidate.",
-    "published_at": "2026-08-25T15:05:40Z",
-    "updated_at": "2026-08-25T15:05:40Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -5820,8 +5820,8 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "PROMOTE_STRONG",
     "why": "Production-trace-driven agent-RL training system with distributed prefix reuse and KV manager; reports up to 5.2x update throughput.",
-    "published_at": "2026-08-26T11:58:47Z",
-    "updated_at": "2026-08-26T11:58:47Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -5842,8 +5842,8 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "PROMOTE_STRONG",
     "why": "Implemented in SGLang; jointly schedules prefix-cache state and requests, reducing mean/p99 workflow JCT by up to 39.8%/49.4% on synthetic DAGs and sizable gains on MetaGPT workflows.",
-    "published_at": "2026-08-26T08:33:10Z",
-    "updated_at": "2026-08-26T08:33:10Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -6080,10 +6080,10 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "BACKFILL_HIGH",
     "why": "Rotation plus fine-grained group quantization; reports up to 3.4x speedup and 3.6x energy efficiency.",
-    "published_at": "2026-07-30T05:26:20Z",
-    "updated_at": "2026-07-30T05:26:20Z",
-    "is_latest_30d": true,
-    "tracking_tier": "P0 · Strong",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
     "directions": [
       "Quantization"
     ]
@@ -10031,8 +10031,8 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "BACKFILL_HIGH",
     "why": "ICML 2026; cross-layer scheduling balances skewed expert-parallel workloads without remapping experts and reduces GPU idling by mostly over 40% across evaluated configurations.",
-    "published_at": "2026-08-08T06:59:09Z",
-    "updated_at": "2026-08-08T06:59:09Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -11984,8 +11984,8 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "BACKFILL_HIGH",
     "why": "ICML 2026; introduces Local Fusion Attention plus a decoupled parametric Knowledge Memory Module to reduce redundant local modeling and separate knowledge storage from computation; reports 1.33x faster pretraining convergence than Transformer baselines.",
-    "published_at": "2026-08-12T07:45:11Z",
-    "updated_at": "2026-08-12T07:45:11Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -15733,8 +15733,8 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "BACKFILL_HIGH",
     "why": "ICML 2026 protected Physical-AI work. BRACE makes replanning token/latency-budget aware and E-RECAP prunes context; reports 62-92% fewer replanning tokens and large reductions in SLO violations across Habitat, RoboFactory and AirSim.",
-    "published_at": "2026-08-02T18:17:35Z",
-    "updated_at": "2026-08-02T18:17:35Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -23125,13 +23125,35 @@
     "formal_class": "STRONG_CURRENT",
     "decision": "PROMOTE_STRONG",
     "why": "FIBER decouples execution instances from private registers and adds fine-grained register/dataflow scheduling; reports 1.8x-2.25x end-to-end mixed-precision LLM-serving speedups across Ampere/Hopper/Blackwell.",
-    "published_at": "2026-08-20T04:35:13Z",
-    "updated_at": "2026-08-20T04:35:13Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "Affix Cache for Diffusion Large Language Models",
+    "venue": "",
+    "topic": "diffusion LLM inference / KV cache / serving",
+    "arxiv": "2608.26140",
+    "doi": "",
+    "official_id": "2608.26140",
+    "paper_url": "https://arxiv.org/abs/2608.26140",
+    "code_url": "",
+    "formal_class": "",
+    "decision": "PROMOTE_STRONG",
+    "why": "Fresh direct systems work. ACache reuses affix KV states while selectively recomputing anchor tokens; the paper reports up to 55.7% lower recompute latency and up to 1.68x end-to-end throughput in a Nano-vLLM prototype.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
@@ -23146,8 +23168,8 @@
     "formal_class": "STRONG_CURRENT",
     "decision": "PROMOTE_STRONG_PROTECTED_PHYSICAL_AI",
     "why": "Vision-Language-Action (VLA) models have demonstrated remarkable capabilities in the field of embodied AI, but their high computational cost and limited predicted action length hinder real-time deployment. Although Dadu-Corki, a dedicated accelerator for efficient embodied AI, has been introduced, it does not exploit the inherent interaction patterns between the robot and its environment, which results in a relatively short predicted action length. We observe that robotic environments naturally alternate between active states-where precise actions are crucial-and inactive states-where actions have limited impact on task success. This insight enables a new scheduling opportunity: long-action-length speculative prediction in inactive states, paired with selective verification in active states. We propose SpecVLA, an algorithm-system co-design framework that adaptively balances action length, inference latency, and task reliability. On the algorithm side, SpecVLA introduces a state-aware VLA inference execution paradigm and a hardware-friendly construction of a smaller verification model (sVLA) using differential residuals and block-wise mixed-precision quantization. On the system side, we develop a heterogeneous architecture consisting of a GPU and a robotic-specific hardware module, along with a speculative dataflow that decouples VLA and sVLA through parallel execution. Comprehensive evaluations on OpenVLA and RDT across LIBERO and ManiSkill benchmarks show that SpecVLA reduces end-to-end latency significantly while preserving task success rate. By enabling long-action-length speculative prediction with timely verification, SpecVLA achieves real-time robotic manipulation with both high efficiency and reliability.",
-    "published_at": "2026-08-16T08:59:22Z",
-    "updated_at": "2026-08-16T08:59:22Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -23172,8 +23194,8 @@
     "formal_class": "STRONG_CURRENT",
     "decision": "P0",
     "why": "",
-    "published_at": "2026-08-17T17:59:25Z",
-    "updated_at": "2026-08-17T17:59:25Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -23193,8 +23215,8 @@
     "formal_class": "STRONG_CURRENT",
     "decision": "PROMOTE_STRONG",
     "why": "ECCV 2026; spatial+temporal selective upsampling; up to 6.34x on FLUX, nearly 9x FLOPs reduction, 14.76x with distillation.",
-    "published_at": "2026-08-18T16:42:09Z",
-    "updated_at": "2026-08-18T16:42:09Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -23215,8 +23237,8 @@
     "formal_class": "STRONG_CURRENT",
     "decision": "PROMOTE_STRONG",
     "why": "Modern mixture-of-experts (MoE) language models increasingly strain the capacity and cost efficiency of high-bandwidth memory (HBM), as rapidly growing expert weights must be provisioned close to GPUs. High-bandwidth flash (HBF) offers substantially greater capacity, but conventional designs typically deliver HBF-resident expert weights to the GPU through HBM, leaving an additional direct GPU-HBF connection underutilized. We explore an HBF organization that simultaneously exploits two independent expert-delivery routes: a direct path that transfers expert weights from HBF to the GPU and a relay path that transfers them from HBF through the HBM base die to the GPU. Whole experts are assigned to one of the two routes, and transfers over both routes proceed concurrently, increasing aggregate expert-delivery bandwidth without replicating expert weights or introducing a shared relay bottleneck. Early expert determination identifies upcoming experts ahead of their conventional execution point, allowing HBF read latency to overlap with preceding computation, while separate management of immutable expert weights and mutable KV-cache data reduces interference between the two traffic classes. We evaluate the architecture using an event-driven continuous-batching LLM serving simulator with empirically measured GPU compute latencies. Across representative MoE workloads, concurrently utilizing the direct GPU-HBF and HBF-HBM-GPU routes consistently improves expert-delivery efficiency over designs restricted to either route alone. For a representative workload, the proposed architecture can achieve 1.94$\\times$ higher throughput and 1.90$\\times$ end-to-end speedup over a design that delivers all HBF-resident expert weights to the GPU through the HBM base die.",
-    "published_at": "2026-08-14T14:22:21Z",
-    "updated_at": "2026-08-14T14:22:21Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -23238,8 +23260,8 @@
     "formal_class": "STRONG_CURRENT",
     "decision": "P0",
     "why": "",
-    "published_at": "2026-08-17T16:53:03Z",
-    "updated_at": "2026-08-17T16:53:03Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -23259,8 +23281,8 @@
     "formal_class": "STRONG_CURRENT",
     "decision": "PROMOTE_STRONG",
     "why": "Scheduling-based deterministic LLM inference using isolated prefill plus fixed-shape batched decode and CUDA graphs; reports 15-324% higher throughput than batch-invariant approaches, 51.8% lower TTFT and 48.6% lower TPOT on average.",
-    "published_at": "2026-08-14T15:17:14Z",
-    "updated_at": "2026-08-14T15:17:14Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -23280,8 +23302,8 @@
     "formal_class": "STRONG_CURRENT",
     "decision": "PROMOTE_STRONG",
     "why": "Mixture-of-Experts (MoE) models have been widely adopted in real-time interactive applications such as coding assistants, real-time audio-video interaction systems. To meet the extremely low response latency requirements of these scenarios, practitioners commonly employ small-batch decoding, under which MoE inference becomes memory-bound and is severely bottlenecked by expert weight loading. However, this bottleneck has received limited attention, and existing solutions such as post-training weight compression or fine-grained expert design during pre-training either degrade model accuracy or introduce additional computation and communication overhead. To tackle this issue, we propose DeaMoE, a decoding-efficient MoE architecture, in which the experts are grouped into several departments, and the experts belonging to the same department share most parameters since they come from the same professional field, and additionally each expert contains a few private parameters to reflect its uniqueness. Moreover, we design customized two-stage routing strategy for DeaMoE to avoid redundant loading, under which DeaMoE greatly improves the efficiency during LLM decoding. Compared with vanilla MoE, DeaMoE reduces per-step loaded weights by up to 50.9% and achieves up to 1.33 end-to-end TPOT speedup for the pre-trained 7B model on A40, and up to 2.00x and 1.97x peak speedup for DeepSeek-V3 on A40 and H100 in microbenchmarks.",
-    "published_at": "2026-08-14T15:25:32Z",
-    "updated_at": "2026-08-14T15:25:32Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -23302,8 +23324,8 @@
     "formal_class": "STRONG_CURRENT",
     "decision": "P0_PHYSICAL_AI",
     "why": "",
-    "published_at": "2026-08-17T10:04:49Z",
-    "updated_at": "2026-08-17T10:04:49Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -23322,8 +23344,8 @@
     "formal_class": "STRONG_CURRENT",
     "decision": "PROMOTE_STRONG_PROTECTED_PHYSICAL_AI",
     "why": "Vision-Language-Action (VLA) models have emerged as a promising foundation for Embodied AI, but their high inference cost poses significant challenges for deployment in robotic systems. In practice, on-device inference is constrained by limited compute capacity and energy budgets, struggling to simultaneously satisfy real-time control and energy efficiency requirements. Alternatively, offloading the inference workload to an edge server is susceptible to fluctuations in system conditions, introducing unpredictable latency risks. Device-edge co-inference offers a promising solution, but systematic research tailored to VLA models remains scarce, particularly a unified co-inference framework that jointly addresses real-time constraints and system-level energy efficiency. Thus, we propose EcoVLA, an adaptive device-edge co-inference framework for VLA models that maximizes system energy efficiency under real-time constraints. EcoVLA first introduces a unified stage-level abstraction over different VLA paradigms, establishing an architecture-agnostic co-inference design space. It then formulates a joint device-edge-network latency and energy prediction model to enable rapid runtime evaluation of candidate co-inference schemes. Building on this, EcoVLA continuously selects the energy-optimal scheme satisfying real-time constraints with millisecond-level overhead, adapting to runtime variations in network and system states. Furthermore, EcoVLA incorporates a lightweight transmission mechanism for inter-stage intermediate tensors to reduce the communication overhead incurred by cross-device collaboration. Experimental results across VLA models show that EcoVLA improves system energy efficiency by up to 236% over existing co-inference approaches under a 20 Hz action output frequency constraint, while consistently maintaining SLO satisfaction under dynamic network and edge workload conditions.",
-    "published_at": "2026-08-16T03:08:40Z",
-    "updated_at": "2026-08-16T03:08:40Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -23347,8 +23369,8 @@
     "formal_class": "STRONG_CURRENT",
     "decision": "PROMOTE_STRONG",
     "why": "Native PyTorch/TorchAO SmoothQuant path with graph fusion and optimized Intel CPU INT8 kernels; reports up to 5.8x end-to-end throughput and upstream implementation.",
-    "published_at": "2026-08-18T06:58:29Z",
-    "updated_at": "2026-08-18T06:58:29Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -23369,8 +23391,8 @@
     "formal_class": "STRONG_CURRENT",
     "decision": "PROMOTE_STRONG",
     "why": "Metapath-trie reuse eliminates redundant traversal; hardware sampling unit reports ~order-of-magnitude sampling improvement and substantial end-to-end mini-batch HGNN inference speedup.",
-    "published_at": "2026-08-18T14:58:03Z",
-    "updated_at": "2026-08-18T14:58:03Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -23389,8 +23411,8 @@
     "formal_class": "STRONG_CURRENT",
     "decision": "PROMOTE_STRONG",
     "why": "First dedicated EV-GNN processor chip; measured 25.6 μs latency and 1.6 μJ per end-to-end event-wise inference on VGA event vision.",
-    "published_at": "2026-08-18T13:49:50Z",
-    "updated_at": "2026-08-18T13:49:50Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -23409,8 +23431,8 @@
     "formal_class": "STRONG_CURRENT",
     "decision": "PROMOTE_STRONG",
     "why": "Sparse mixture-of-experts (MoE) language models reduce arithmetic by activating only a small subset of experts per token, yet deployment still requires storing and moving the full expert bank. We present ExactMoE, an inference design that applies symmetric group-128 four-bit weight quantization only to routed experts, stores those experts in kernel-native MARLIN form in pinned host memory, and executes all selected experts through a configurable GPU-resident slot cache and fused grouped MoE kernels. The router, attention, embeddings, normalization layers, and language-model head remain in BF16. \"Exact\" refers to complete expert availability and an unchanged top-k routing procedure: no expert is pruned, substituted, or forced to execute on the CPU. It does not imply numerical identity with the BF16 model. On OLMoE-1B-7B-0924-Instruct, evaluated on a single NVIDIA L4, a 16-slot configuration reduces peak reserved GPU memory from 14.168 to 1.836 GiB (87.04%) while retaining 81.85% of BF16 decode throughput. A fully resident 64-slot configuration reaches 31.923 tokens/s versus 21.662 tokens/s for BF16 while reserving 4.061 GiB. Across 12,450 zero-shot multiple-choice questions, ExactMoE obtains 70.3534% normalized accuracy versus 70.8996% for BF16, retaining 99.23% of the baseline accuracy. In a matched 16-token ablation, fused grouped execution is 1.97x as fast as a sequential W4 reference. These results identify a practical memory-transfer-throughput frontier for complete-expert MoE inference.",
-    "published_at": "2026-08-15T19:26:07Z",
-    "updated_at": "2026-08-15T19:26:07Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -23434,8 +23456,8 @@
     "formal_class": "STRONG_CURRENT",
     "decision": "PROMOTE_STRONG",
     "why": "FlashAttention-V targets scalable vector CPUs, integrates into ggml/llama.cpp, and reports large prefill/decode kernel speedups while identifying long-vector quantization bottlenecks.",
-    "published_at": "2026-08-19T08:02:17Z",
-    "updated_at": "2026-08-19T08:02:17Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -23457,8 +23479,8 @@
     "formal_class": "STRONG_CURRENT",
     "decision": "P0_PHYSICAL_AI",
     "why": "",
-    "published_at": "2026-08-13T08:10:54Z",
-    "updated_at": "2026-08-13T08:10:54Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -23478,8 +23500,8 @@
     "formal_class": "STRONG_CURRENT",
     "decision": "PROMOTE_STRONG",
     "why": "Production-oriented sparse-prefill backend with PackGQA, warp specialization, pingpong pipelining, FP8, paged KV cache, and continuous batching; reports up to 47.26x speedup over FlashAttention-2 at 128K context and integrates toward SGLang-style serving.",
-    "published_at": "2026-08-20T08:02:55Z",
-    "updated_at": "2026-08-20T08:02:55Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -23488,6 +23510,27 @@
       "Sparsity / Pruning",
       "Efficient Attention",
       "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "FlashVLA: Streaming Action Decoding for Fast and Asynchronous VLA Inference",
+    "venue": "",
+    "topic": "Physical AI / VLA serving / streaming action decoding",
+    "arxiv": "2608.27384",
+    "doi": "",
+    "official_id": "2608.27384",
+    "paper_url": "https://arxiv.org/abs/2608.27384",
+    "code_url": "",
+    "formal_class": "",
+    "decision": "PROMOTE_STRONG",
+    "why": "Protected Physical-AI direct serving work. FlashVLA jointly targets low-latency inference and temporally consistent asynchronous execution and reports >=30 Hz control frequency on one GPU in real-world deployment.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "VLA / WAM / Physical AI"
     ]
   },
   {
@@ -23502,8 +23545,8 @@
     "formal_class": "STRONG_CURRENT",
     "decision": "P0",
     "why": "",
-    "published_at": "2026-08-16T08:01:06Z",
-    "updated_at": "2026-08-16T08:01:06Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -23523,8 +23566,8 @@
     "formal_class": "STRONG_CURRENT",
     "decision": "P0",
     "why": "",
-    "published_at": "2026-08-17T06:22:53Z",
-    "updated_at": "2026-08-17T06:22:53Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -23545,8 +23588,8 @@
     "formal_class": "STRONG_CURRENT",
     "decision": "PROMOTE_STRONG",
     "why": "Agentic applications are shifting AI serving from isolated model inference to long-running workloads in which LLMs coordinate tools, environments, and persistent state. However, the system behavior of these workloads---where latency, cost, and bottlenecks arise---remains poorly characterized, leaving serving systems to rely on assumptions built for conventional inference. We present AgentSysBench, a benchmark suite and measurement toolkit with ten representative agentic applications and unified systems-level instrumentation. Across controlled deployments and production traces, we identify six properties that distinguish agentic workloads from conventional LLM serving: (1) execution is heavyweight and stateful, with non-LLM components dominating latency in 5 of 10 applications and sandbox working-set memory peaking at 28 GB per session; (2) applications compose components with heterogeneous resource affinity---GPU-bound inference, memory-bound retrieval, CPU-bound sandboxes---whose task latencies diverge by up to 32x; (3) bottlenecks shift across requests, models, and deployments; (4) production sessions hold state idle for minutes to hours between active steps; (5) a control-plane tax---auxiliary LLM calls and context overhead from tool schemas and observations---crowds out productive compute and context; and (6) production traces from three applications reveal heavy cross-request redundancy in search queries and web fetches, exposing a large caching opportunity. Four design explorations demonstrate that these findings are actionable: task-aware serving reduces latency by 29--40%, communication-aware placement by up to 4.5x, state offloading reduces memory usage by 4.6x, and tool-result caching removes 35.2% of redundant search calls and saves 19.3% of aggregate search latency.",
-    "published_at": "2026-08-15T09:02:16Z",
-    "updated_at": "2026-08-15T09:02:16Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -23570,8 +23613,8 @@
     "formal_class": "STRONG_CURRENT",
     "decision": "PROMOTE_STRONG",
     "why": "Diffusion models have achieved dominant performance in visual generation but suffer from substantial inference overhead. While cache-based acceleration has emerged as a promising solution, existing policies rely on local similarity heuristics, which we identify as being significantly misaligned with final generation quality. This discrepancy stems from the non-uniform propagation and accumulation of errors along the denoising trajectory. To address this, we propose Global-Impact Cache (GCache). We first establish a rigorous theoretical characterization of the error propagation upper bound. Recognizing that this bound can be overly conservative for complex, highly non-convex diffusion models, we further reparameterize the propagation exponent with a Bernstein form and reformulate cache policy search as a bilevel optimization problem. In detail, GCache identifies an optimal reuse policy in the inner objective while aligning the error-weighting function with generation quality loss in the outer objective. This framework effectively reconciles theoretical rigor with empirical performance, learning to prioritize computation where it most impacts visual fidelity. Extensive experiments demonstrate that GCache consistently outperforms prior caching strategies on both video and image generation. Notably, on the state-of-the-art Wan2.1 video diffusion model, GCache maintains a 2.17x speedup while significantly enhancing generation quality, reducing LPIPS from 0.1095 to 0.0316.",
-    "published_at": "2026-08-13T10:08:47Z",
-    "updated_at": "2026-08-13T10:08:47Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -23592,8 +23635,8 @@
     "formal_class": "STRONG_CURRENT",
     "decision": "PROMOTE_STRONG",
     "why": "",
-    "published_at": "2026-08-17T15:36:45Z",
-    "updated_at": "2026-08-17T15:36:45Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -23613,8 +23656,8 @@
     "formal_class": "STRONG_CURRENT",
     "decision": "PROMOTE_STRONG",
     "why": "Container-granularity scheduling leaves abundant short-lived idle slices within containers unexploited. Reallocating containers is too heavyweight to utilize such fine-grained opportunities under SLA constraints, and operator-level scheduling requires reasoning about dependencies, memory safety, and cluster-wide execution dynamics in real time. In this paper, we present SliceScheduler, a dynamic operator-level scheduling system for multi-tenant model serving. The key idea is to expose cluster-wide operator execution state and enable what-if reasoning over scheduling decisions. SliceScheduler consists of four key components. First, we introduce the Global Mapping Graph (GMG), a unified abstraction that captures operator dependencies, tensor shapes, resource mappings, and execution states, providing a real-time, cluster-wide view with explicit resource semantics. Second, we build a global simulator on top of GMG to predict operator-level execution and memory evolution under candidate placements. Third, we design an incremental, simulation-based scheduling module that selects placements to exploit fragmented idle slices while avoiding memory violations and preserving SLA. Finally, we develop an operator executor that materializes scheduling decisions on GPUs and coordinates computation and cross-accelerator transfers. We implement SliceScheduler as a PyTorch backend and evaluate it using production trace replay. Experimental results show that SliceScheduler improves token throughput by 1.10--2.29$\\times$ compared to existing approaches, while maintaining SLA violations within 9\\%. SliceScheduler demonstrates that operator-level scheduling is a practical and effective approach to improving GPU utilization for multi-tenant LLM serving.",
-    "published_at": "2026-08-16T14:31:56Z",
-    "updated_at": "2026-08-16T14:31:56Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -23636,8 +23679,8 @@
     "formal_class": "STRONG_CURRENT",
     "decision": "PROMOTE_STRONG",
     "why": "Production paged-serving engines apply uniform paging granularity to the KV cache, even though the two regions of a multi-agent workload have opposite storage requirements: a long shared prefix demands contiguity, while the per-request suffix demands fine-grained allocation. We present \\textbf{GraniKV}, a KV-cache layer that allocates the shared prefix in a contiguous HOT pool and the suffix in a token-level COLD pool, combined with a per-step dispatcher which selects the appropriate backend among dual backends for each regime (compute-, memory-, or communication-bound). To the best of our knowledge, GraniKV is the first system to apply asymmetric paging granularity to the KV cache of a production paged-serving engine. At $L_p{=}16$\\,K shared tokens GraniKV reaches $\\mathbf{2.16\\times}$, $\\mathbf{1.98\\times}$, and $\\mathbf{1.57\\times}$ output-token throughput over the production baseline on Llama-3.1-8B/TP=1, Qwen-2.5-14B/TP=2, and Qwen-2.5-32B/TP=4. The gain decomposes: cascade attention integration contributes the majority at saturation; the asymmetric storage layer adds $1.05$--$1.15\\times$ end-to-end while being what makes the batched-GEMM prefix backend possible at all. Under heterogeneous multi-agent serving with \\emph{distinct} prompts of different lengths, the attribution inverts: GraniKV sustains $\\mathbf{1.95\\times}$ while batch-global cascade collapses to parity --- the storage layer alone carries the win in the regime that motivates the paper.",
-    "published_at": "2026-08-16T07:19:49Z",
-    "updated_at": "2026-08-23T16:29:29Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -23662,8 +23705,8 @@
     "formal_class": "STRONG_CURRENT",
     "decision": "P0_PHYSICAL_AI",
     "why": "",
-    "published_at": "2026-08-17T17:22:33Z",
-    "updated_at": "2026-08-17T17:22:33Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -23682,13 +23725,35 @@
     "formal_class": "STRONG_CURRENT",
     "decision": "PROMOTE_STRONG",
     "why": "Joint architecture/runtime DSE for Transformer-Mamba serving across chiplet composition, placement, bandwidth, batching, and scheduling; reports 1.55x average throughput and 43.7% lower TTFT, up to 2.3x throughput.",
-    "published_at": "2026-08-19T19:26:21Z",
-    "updated_at": "2026-08-19T19:26:21Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Just Noticeable Difference Modeling for Token Compression in Vision-Language-Action Models",
+    "venue": "",
+    "topic": "Physical AI / VLA token compression / KV reuse / pruning",
+    "arxiv": "2608.21247",
+    "doi": "",
+    "official_id": "2608.21247",
+    "paper_url": "https://arxiv.org/abs/2608.21247",
+    "code_url": "",
+    "formal_class": "",
+    "decision": "PROMOTE_STRONG",
+    "why": "Protected Physical-AI efficiency work. Action-JND explicitly optimizes safe VLA token compression for latency-sensitive closed-loop actions and applies to stale-KV reuse and token pruning on OpenVLA/OpenVLA-OFT.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Sparsity / Pruning",
+      "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI"
     ]
   },
   {
@@ -23703,8 +23768,8 @@
     "formal_class": "STRONG_CURRENT",
     "decision": "PROMOTE_STRONG",
     "why": "ECCV 2026; learnable invertible feature decomposition; near-lossless quality at 5-7x speedup on FLUX/Qwen-Image/HunyuanVideo.",
-    "published_at": "2026-08-18T16:26:21Z",
-    "updated_at": "2026-08-18T16:26:21Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -23724,8 +23789,8 @@
     "formal_class": "STRONG_CURRENT",
     "decision": "PROMOTE_STRONG",
     "why": "Up to 2.95x acceleration on Wan2.1 by magnitude-direction decoupling with lightweight-model substitution and cached direction guidance.",
-    "published_at": "2026-08-18T12:12:21Z",
-    "updated_at": "2026-08-18T12:12:21Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -23745,8 +23810,8 @@
     "formal_class": "STRONG_CURRENT",
     "decision": "PROMOTE_STRONG",
     "why": "Frozen-backbone modular neural memory; O(N) preprocessing/O(1) query; about 80% compute and peak-memory reduction at 128K context.",
-    "published_at": "2026-08-18T10:28:23Z",
-    "updated_at": "2026-08-18T10:28:23Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -23765,8 +23830,8 @@
     "formal_class": "STRONG_CURRENT",
     "decision": "P0_PHYSICAL_AI",
     "why": "",
-    "published_at": "2026-08-17T12:40:23Z",
-    "updated_at": "2026-08-17T12:40:23Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -23786,8 +23851,8 @@
     "formal_class": "STRONG_CURRENT",
     "decision": "PROMOTE_STRONG",
     "why": "Training-free timestep optimization; 5-step schedule retains 89-94% of 50-step quality while cutting inference cost 10x.",
-    "published_at": "2026-08-18T17:33:00Z",
-    "updated_at": "2026-08-18T17:33:00Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -23806,8 +23871,8 @@
     "formal_class": "STRONG_CURRENT",
     "decision": "P0",
     "why": "",
-    "published_at": "2026-08-17T12:16:09Z",
-    "updated_at": "2026-08-17T12:16:09Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -23828,8 +23893,8 @@
     "formal_class": "STRONG_CURRENT",
     "decision": "PROMOTE_STRONG",
     "why": "Pipeline-parallel LLM serving across Intel AI PCs using pre-compiled OpenVINO layer shards, stateful speculative decoding, and interleaved multi-user micro-batching; reports 1.79x throughput for two concurrent users on a two-node Llama-3.1-8B INT4 pipeline and interactive 70B inference across four Lunar Lake systems.",
-    "published_at": "2026-08-19T17:33:28Z",
-    "updated_at": "2026-08-19T17:33:28Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -23852,8 +23917,8 @@
     "formal_class": "STRONG_CURRENT",
     "decision": "PROMOTE_STRONG",
     "why": "Auditable H100/B200 benchmark for architecture-specific PTX kernel optimization plus model adaptation; directly relevant to automated kernel optimization.",
-    "published_at": "2026-08-18T05:14:41Z",
-    "updated_at": "2026-08-19T20:36:11Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -23872,8 +23937,8 @@
     "formal_class": "STRONG_CURRENT",
     "decision": "PROMOTE_STRONG",
     "why": "Resource-wise composition-invariant KV caching plus selective layer/head routing and structural-semantic pruning for tool/skill schemas; reports 3.655x TTFT speedup, 92.43% lower allocated KV memory, and 1.423x attention acceleration.",
-    "published_at": "2026-08-20T05:57:24Z",
-    "updated_at": "2026-08-20T05:57:24Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -23896,8 +23961,8 @@
     "formal_class": "STRONG_CURRENT",
     "decision": "PROMOTE_STRONG_PROTECTED_PHYSICAL_AI",
     "why": "Vision-Language-Action (VLA) models have recently achieved promising performance in robotic manipulation. However, existing benchmarks mainly evaluate generalization on static manipulation tasks and largely overlook dynamic interaction scenarios. To address this gap, we present ReflexBench, a benchmark for reaction-critical manipulation. ReflexBench contains six dynamic tasks and introduces an evaluation framework that decouples simulator stepping from robot control while supporting configurable latency under synchronous and asynchronous inference. Building upon ReflexBench, we propose ReflexVLA, an efficient VLA model designed for reaction-critical manipulation without large-scale robot-data pretraining. ReflexVLA enhances temporal reasoning through latent future prediction and multi-frame temporal fusion within the vision backbone, while reducing deployment latency through batched visual encoding and CUDA Graph replay. Experiments show that ReflexVLA consistently improves dynamic manipulation performance while maintaining competitive accuracy on standard static manipulation benchmarks, and real-world experiments further demonstrate its effectiveness under practical deployment conditions. Project website: https://reflexvla.github.io",
-    "published_at": "2026-08-14T15:19:04Z",
-    "updated_at": "2026-08-14T15:19:04Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -23919,8 +23984,8 @@
     "formal_class": "STRONG_CURRENT",
     "decision": "PROMOTE_STRONG",
     "why": "Open-source unified associative-scan Triton kernels for seven RL estimators; 1.6-5.70x full-call speedup over torch.compile baseline.",
-    "published_at": "2026-08-18T10:58:20Z",
-    "updated_at": "2026-08-19T11:29:40Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -23940,8 +24005,8 @@
     "formal_class": "STRONG_CURRENT",
     "decision": "PROMOTE_STRONG_PROTECTED_PHYSICAL_AI",
     "why": "Role-conditioned sub-token routing compresses retained VLA token value representations after visual-token reduction; on OpenVLA-OFT-7B it wins 33/36 matched visual-KV settings and reduces total KV to 9.2-11.3% of original while retaining strong control performance.",
-    "published_at": "2026-08-19T00:38:23Z",
-    "updated_at": "2026-08-19T00:38:23Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -23961,8 +24026,8 @@
     "formal_class": "STRONG_CURRENT",
     "decision": "PROMOTE_STRONG",
     "why": "Cross-phase GPU spatial sharing runtime for VLM RL post-training with phase-aware memory management and parallelism-aware weight sharing; on 32 H800 GPUs reports 1.23x-1.30x over serial colocation and 1.57x-2.24x over disaggregation.",
-    "published_at": "2026-08-14T17:13:34Z",
-    "updated_at": "2026-08-14T17:13:34Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -23983,8 +24048,8 @@
     "formal_class": "STRONG_CURRENT",
     "decision": "PROMOTE_STRONG",
     "why": "Diffusion Transformers (DiTs) incur quadratic self-attention cost over spatiotemporal tokens. Existing training-free sparse attention methods often construct sparse masks from block-level or cluster-level proxy scores, which can obscure fine-grained differences among keys and miss high contribution keys under aggressive sparsity. Moreover, such proxy scores may yield overly concentrated softmax distributions, causing Top-$p$ to retain too few keys for some query clusters. Although a fixed Top-$k$ minimum alleviates this failure mode, a shared value cannot adapt to variations across heads and inputs. To address both limitations, we propose SCOPE, a training-free sparse attention framework that combines 3D-RoPE-aligned key subspace clustering with online per-head Top-$k$ estimation for efficient video-DiT inference. SCOPE partitions post-RoPE keys into temporal, height, and width subspaces, clusters them independently, and aggregates the corresponding centroid scores through lookup tables to obtain per key proxy scores for each query cluster. Building on existing hybrid Top-$p$/fixed Top-$k$ selection, SCOPE derives a head-specific Top-$k$ value online by averaging the initial retained key counts within each head, weighted by query cluster size, and selects additional keys only for query clusters whose initial retained key counts fall below this value. Sparse attention is then computed over the selected original keys and values. Across six model--task configurations, SCOPE consistently outperforms existing training-free baselines in both fidelity and latency, achieving up to a $1.99\\times$ end-to-end speedup on 720p HunyuanVideo with $28.46$ dB PSNR relative to dense attention.",
-    "published_at": "2026-08-13T03:43:31Z",
-    "updated_at": "2026-08-13T03:43:31Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -23992,6 +24057,29 @@
       "Efficient Attention",
       "Distributed Training / Inference",
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "SPICE: Speculative Prefetching with Low-Rank Expert Surrogates and Heterogeneous Orchestration for MoE Inference Acceleration",
+    "venue": "",
+    "topic": "MoE systems / expert offload / heterogeneous inference",
+    "arxiv": "2608.21240",
+    "doi": "",
+    "official_id": "2608.21240",
+    "paper_url": "https://arxiv.org/abs/2608.21240",
+    "code_url": "",
+    "formal_class": "",
+    "decision": "PROMOTE_STRONG",
+    "why": "Direct MoE offloading systems work. Confidence-aware speculative expert prefetch plus CPU-GPU heterogeneous recovery targets PCIe expert-loading bottlenecks; reports up to 3.12x TPOT speedup.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Speculative Decoding",
+      "KV Cache / Long Context",
+      "MoE Systems / Accelerators",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -24006,8 +24094,8 @@
     "formal_class": "STRONG_CURRENT",
     "decision": "P0",
     "why": "",
-    "published_at": "2026-08-17T13:47:44Z",
-    "updated_at": "2026-08-17T13:47:44Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -24027,8 +24115,8 @@
     "formal_class": "STRONG_CURRENT",
     "decision": "PROMOTE_STRONG",
     "why": "In expert-parallel (EP) MoE serving, every layer synchronizes at the slowest GPU. Dispatchers balance token counts (EPLB, LPLB, UltraEP) or activated-expert counts (METRO), assuming expert time is linear in one. Measurements on two datacenter GPU generations show it is neither: below $n^* \\approx 156$--$168$ tokens, HBM weight streaming dominates---cost attaches to $activated replicas$, not tokens; above it, grouped GEMM rounds tokens to 128-tile $M$-tiles, so $splitting$ an expert adds padded compute. A max-affine profile $t=\\max(a+bG,\\,c+βN)$ captures both regimes. Realistic decode batches hold hot experts in the linear regime and cold in the flat $simultaneously$; recorded batches show proxy dispatches differ by $1.4$--$1.6\\times$ in modeled block time (p95 up to $1.7\\times$), and $which$ proxy wins flips with the regime. We formalize per-batch dispatch as a fixed-charge makespan problem---NP-hard on two fully replicated GPUs, polynomial in degenerate limits---and present TEMPO, a makespan-aware dispatcher solving it in milliseconds off the critical path; its SGLang integration runs out-of-process and fuses dispatch with count collection into one in-graph kernel. Anchored by an 8-GPU Testbed A microbenchmark, TEMPO stays within $1\\%$ of the best fixed baseline everywhere and wins by up to $15.5\\%$ where regimes mix. End-to-end on Testbed B, Qwen3-235B (inside the win region) gains $4$--$6\\%$ throughput and cuts p99 latency by $\\sim 15.6\\%$; DeepSeek-V3 (outside, communication-dominated) shows only mechanism cost. A phase diagram, not a universal win, is the claim: it predicts both outcomes before deployment.",
-    "published_at": "2026-08-13T10:21:11Z",
-    "updated_at": "2026-08-14T07:00:29Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -24050,8 +24138,8 @@
     "formal_class": "STRONG_CURRENT",
     "decision": "P0",
     "why": "",
-    "published_at": "2026-08-11T02:49:33Z",
-    "updated_at": "2026-08-11T02:49:33Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -24071,8 +24159,8 @@
     "formal_class": "STRONG_CURRENT",
     "decision": "PROMOTE_STRONG",
     "why": "Long-context prefill in large language models (LLMs) incurs substantial computation and memory traffic because dense self-attention computes quadratic query-key scores. Existing methods either use a uniform low-precision path or select token interactions, leaving spatial precision routing over hardware-aligned score tiles outside fused dense attention. We introduce TileMix, a tile-centric precision-routing kernel that makes numerical precision an executable spatial decision over score-tile groups within fused dense attention. TileMix partitions the attention matrix into hardware-aligned score tiles, packs routing decisions into compact bitmasks, and dispatches each tile group through FP16 or INT8 score computation while both paths update a shared online-softmax state. Scalable precision grouping lets each routing bit govern multiple adjacent key tiles, preserving hardware-aligned compute tiles and compact metadata at long contexts. By routing all legal tile groups, TileMix preserves dense token connectivity, requires no training, and supports grouped-query attention, variable-length batches, and INT8 key/value caches. Across LongEval, LV-Eval, and A100 prefill benchmarks on LLaMA, Qwen, and Vicuna, TileMix recovers long-context quality lost under uniform INT8 and improves prefill throughput over FP16, yielding a controllable accuracy-efficiency frontier across model families. The implementation is available at https://github.com/HanzhiZhang-Ulrica/TileMix.",
-    "published_at": "2026-08-18T03:53:02Z",
-    "updated_at": "2026-08-18T03:53:02Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -24081,6 +24169,26 @@
       "Quantization",
       "Efficient Attention",
       "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "TreeGraft: Adaptive Multi-Drafter Grafting for Tree-Based Speculative Decoding",
+    "venue": "",
+    "topic": "speculative decoding / LLM inference",
+    "arxiv": "2608.26112",
+    "doi": "",
+    "official_id": "2608.26112",
+    "paper_url": "https://arxiv.org/abs/2608.26112",
+    "code_url": "",
+    "formal_class": "",
+    "decision": "PROMOTE_STRONG",
+    "why": "Fresh direct inference work from the official arXiv Friday 28 Aug new-submission inventory. Multi-drafter tree construction addresses the drafter latency-vs-quality trade-off and directly targets higher accepted length / lower target-model decoding cost.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Speculative Decoding"
     ]
   },
   {
@@ -24095,8 +24203,8 @@
     "formal_class": "STRONG_CURRENT",
     "decision": "P0_PHYSICAL_AI",
     "why": "",
-    "published_at": "2026-08-17T13:49:43Z",
-    "updated_at": "2026-08-17T13:49:43Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [

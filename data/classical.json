@@ -5873,6 +5873,26 @@
     ]
   },
   {
+    "title": "GyRot: Leveraging Hidden Synergy between Rotation and Fine-grained Group Quantization for Low-bit LLM Inference",
+    "venue": "HPCA 2026",
+    "topic": "low-bit LLM quantization / accelerator co-design",
+    "arxiv": "2607.27694",
+    "doi": "",
+    "official_id": "",
+    "paper_url": "https://arxiv.org/abs/2607.27694",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Rotation plus fine-grained group quantization; reports up to 3.4x speedup and 3.6x energy efficiency.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization"
+    ]
+  },
+  {
     "title": "LEGO: Supporting LLM-enhanced Games with One Gaming GPU",
     "venue": "HPCA 2026",
     "topic": "LLM serving / GPU co-location / real-time scheduling",
