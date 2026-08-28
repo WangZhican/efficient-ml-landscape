@@ -1,6 +1,6 @@
 # 08 · GPU Kernel / DSL / Compiler
 
-> **269 canonical papers** mapped here, plus a broader **68-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **270 canonical papers** mapped here, plus a broader **68-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -77,7 +77,7 @@
 | **P0 · Strong** | **A Thread-Register Decoupled GPU Execution Model for Efficient Tensor Computation** | Fresh / preprint | GPU execution architecture / tensor cores / LLM serving | [Link](https://arxiv.org/abs/2608.19628) | — |
 | **P1 · Watch** | **A Scalable Pipeline for LLM-Teacher Distillation Labeling: Work-Stealing Job Scheduling and Memory-Aware GPU Concurrency** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.15975) | — |
 
-## 🏛️ Classical / Historical · 244 canonical
+## 🏛️ Classical / Historical · 245 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -148,6 +148,7 @@
 | **Canonical** | **AMDP: Asynchronous Multi-Directional Pipeline Parallelism for Large-Scale Models Training** | ICML 2026 | distributed training / pipeline parallelism / asynchronous scheduling / GPU utilization | [Link](https://arxiv.org/abs/2605.29664) | — |
 | **Canonical** | **AREAL-DTA: Dynamic Tree Attention for Efficient Reinforcement Learning of Large Language Models** | ICML 2026 | distributed RL post-training / dynamic tree attention / prefix sharing | [Link](https://arxiv.org/abs/2602.00482) | [Repo](https://areal-ai.io/) |
 | **Canonical** | **Attn-QAT: 4-Bit Attention With Quantization-Aware Training** | ICML 2026 | FP4 attention / quantization-aware training / fused attention kernels | [Link](https://arxiv.org/abs/2603.00040) | — |
+| **Canonical** | **Cache Coherent Resampling for Efficient Test Time Scaling in LLM Reasoning via Adaptive Sequential Monte Carlo** | ICML 2026 | efficient reasoning / test-time scaling / KV cache / parallel inference / adaptive sequential Monte Carlo | [Link](https://openreview.net/forum?id=JN6wxUGmW8) | [Repo](https://github.com/Vicky-0256/ASMC) |
 | **Canonical** | **Characterizing Vision-Language-Action Models across XPUs: Constraints and Acceleration for On-Robot Deployment** | ICML 2026 | Physical AI / VLA serving / heterogeneous edge accelerators / diffusion-policy cache / runtime | [Link](https://arxiv.org/abs/2604.24447) | — |
 | **Canonical** | **ConServe: Fine-Grained GPU Harvesting for LLM Online and Offline Co-Serving** | ICML 2026 | LLM serving / online-offline co-serving / fine-grained GPU harvesting / preemption | [Link](https://arxiv.org/abs/2410.01228) | — |
 | **Canonical** | **CONTINUUM: Restoring the Contiguous Tensor Abstraction Efficiently for Dynamic AI Workloads via Hardware Virtualization** | ICML 2026 | AI systems / GPU memory virtualization / dynamic tensor memory / LLM runtime | [Link](https://openreview.net/forum?id=hROxrfMoXj) | — |

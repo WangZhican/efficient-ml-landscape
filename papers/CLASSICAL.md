@@ -1,10 +1,10 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **1078 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **1079 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
-## ICML 2026 · 365
+## ICML 2026 · 366
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -47,6 +47,7 @@
 | **Canonical** | **BPDQ: Bit-Plane Decomposition Quantization on a Variable Grid for Large Language Models** | ICML 2026 | quantization / low-bit PTQ / 2-bit LLM inference / memory-bound serving / edge deployment | [Link](https://arxiv.org/abs/2602.04163) | [Repo](https://github.com/KingdalfGoodman/BPDQ) |
 | **Canonical** | **BubbleSpec: Turning Long-Tail Bubbles into Speculative Rollout Drafts for Synchronous Reinforcement Learning** | ICML 2026 | LLM RL systems / rollout acceleration / speculative decoding / distributed training | [Link](https://arxiv.org/abs/2605.08862) | — |
 | **Canonical** | **Budget-Constrained Step-Level Diffusion Caching** | ICML 2026 | diffusion acceleration / step-level caching / fixed-budget inference | [Link](https://arxiv.org/abs/2606.13496) | [Repo](https://github.com/Westlake-AGI-Lab/BudCache) |
+| **Canonical** | **Cache Coherent Resampling for Efficient Test Time Scaling in LLM Reasoning via Adaptive Sequential Monte Carlo** | ICML 2026 | efficient reasoning / test-time scaling / KV cache / parallel inference / adaptive sequential Monte Carlo | [Link](https://openreview.net/forum?id=JN6wxUGmW8) | [Repo](https://github.com/Vicky-0256/ASMC) |
 | **Canonical** | **CacheEdit: Efficient Multi-round Image Editing via Adaptive Token-wise Reuse.** | ICML 2026 | video/image generation acceleration / diffusion acceleration / multi-round image editing / adaptive activation cache / token-wise reuse | [Link](https://openreview.net/forum?id=6IlpepWXJr) | — |
 | **Canonical** | **CAT-Q: Cost-efficient and Accurate Ternary Quantization for LLMs** | ICML 2026 | LLM quantization / ternary PTQ / 1.58-bit deployment / low-cost calibration / inference acceleration | [Link](https://arxiv.org/abs/2606.26650) | [Repo](https://github.com/IntelChina-AI/BitTern) |
 | **Canonical** | **Characterizing Vision-Language-Action Models across XPUs: Constraints and Acceleration for On-Robot Deployment** | ICML 2026 | Physical AI / VLA serving / heterogeneous edge accelerators / diffusion-policy cache / runtime | [Link](https://arxiv.org/abs/2604.24447) | — |

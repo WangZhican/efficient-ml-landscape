@@ -8981,6 +8981,28 @@
     ]
   },
   {
+    "title": "Cache Coherent Resampling for Efficient Test Time Scaling in LLM Reasoning via Adaptive Sequential Monte Carlo",
+    "venue": "ICML 2026",
+    "topic": "efficient reasoning / test-time scaling / KV cache / parallel inference / adaptive sequential Monte Carlo",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "JN6wxUGmW8",
+    "paper_url": "https://openreview.net/forum?id=JN6wxUGmW8",
+    "code_url": "https://github.com/Vicky-0256/ASMC",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 paper. ASMC replaces serial trajectory MCMC with GPU-parallel particles; cache-coherent resampling reorders KV caches and particle-bound tensors to avoid prefix recomputation and sharply reduce tail latency at fixed reasoning budgets.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "GPU Kernel / DSL / Compiler",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "CacheEdit: Efficient Multi-round Image Editing via Adaptive Token-wise Reuse.",
     "venue": "ICML 2026",
     "topic": "video/image generation acceleration / diffusion acceleration / multi-round image editing / adaptive activation cache / token-wise reuse",

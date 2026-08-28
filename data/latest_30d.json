@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-08-29",
   "window_start_beijing": "2026-07-30",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 304,
+  "tracked_total": 305,
   "p0_strong_or_canonical": [
     {
       "title": "Zetta: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence",
@@ -3248,6 +3248,26 @@
       "directions": [
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Precision-Induced Miscalibration: Understanding and Correcting Confidence Distortion in Quantized Neural Networks",
+      "venue": "ICML 2026",
+      "topic": "quantization / low-precision calibration / confidence distortion / mixed precision",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "zCkFbxKeF5",
+      "paper_url": "https://openreview.net/forum?id=zCkFbxKeF5",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "ICML 2026 quantization-adjacent work. It characterizes confidence/gradient distortion caused by low precision and proposes PACS with sub-1% overhead. Relevant to deployment robustness, but the main contribution is calibration rather than model/runtime efficiency, so retain as high-value watchlist rather than canonical Efficient-ML systems lineage.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization"
       ]
     },
     {
@@ -9853,6 +9873,26 @@
       "directions": [
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Precision-Induced Miscalibration: Understanding and Correcting Confidence Distortion in Quantized Neural Networks",
+      "venue": "ICML 2026",
+      "topic": "quantization / low-precision calibration / confidence distortion / mixed precision",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "zCkFbxKeF5",
+      "paper_url": "https://openreview.net/forum?id=zCkFbxKeF5",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "ICML 2026 quantization-adjacent work. It characterizes confidence/gradient distortion caused by low precision and proposes PACS with sub-1% overhead. Relevant to deployment robustness, but the main contribution is calibration rather than model/runtime efficiency, so retain as high-value watchlist rather than canonical Efficient-ML systems lineage.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization"
       ]
     },
     {
