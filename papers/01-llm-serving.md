@@ -1,6 +1,6 @@
 # 01 · LLM Serving
 
-> **445 canonical papers** mapped here, plus a broader **215-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **447 canonical papers** mapped here, plus a broader **215-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -202,7 +202,7 @@
 | **P0 · Strong** | **FreeToken: Efficient Edge-Native MoE Serving with Bandwidth-Adaptive Execution** | Fresh / preprint | edge MoE serving | [Link](https://arxiv.org/abs/2608.16157) | — |
 | **P0 · Strong** | **FLINT: Efficiently Leveraging High Bandwidth Flash for Capacity-Scalable LLM Inference Acceleration** | Fresh / preprint | LLM serving / memory hierarchy / hardware architecture | [Link](https://arxiv.org/abs/2608.25062) | — |
 | **P0 · Strong** | **FlashVLA: Streaming Action Decoding for Fast and Asynchronous VLA Inference** | Fresh / preprint | Physical AI / VLA serving / streaming action decoding | [Link](https://arxiv.org/abs/2608.27384) | — |
-| **P0 · Strong** | **FlashPrefill V2: Block-Sparse Prefill Attention for Long-Context LLM Serving** | Fresh / preprint | long-context LLM serving / block-sparse prefill attention / GPU kernel | [Link](https://arxiv.org/abs/2608.19758) | [Repo](https://github.com/qhfan/FlashPrefillv2) |
+| **P0 · Strong** | **FlashPrefill V2: Block-Sparse Prefill Attention for Long-Context LLM Serving** | Fresh / preprint | long-context LLM serving / block-sparse prefill attention / GPU kernel | [Link](https://arxiv.org/abs/2608.19758) | — |
 | **P0 · Strong** | **FlashAttention for Scalable Vector Architectures** | Fresh / preprint | efficient attention / CPU vector architecture / llama.cpp | [Link](https://arxiv.org/abs/2608.18656) | — |
 | **P0 · Strong** | **ExFold: Unified Expert Folding for Training-Free MoE Prefill-Decode Acceleration** | Fresh / preprint | MoE systems / LLM serving / CUDA kernel | [Link](https://arxiv.org/abs/2608.24938) | — |
 | **P0 · Strong** | **Every Expert Counts: ExactMoE for Memory-Efficient W4A16 Inference** | Fresh / preprint | MoE memory-efficient W4A16 inference / GPU slot cache | [Link](https://arxiv.org/abs/2608.15383) | — |
@@ -224,7 +224,7 @@
 | **P0 · Strong** | **A Thread-Register Decoupled GPU Execution Model for Efficient Tensor Computation** | Fresh / preprint | GPU execution architecture / tensor cores / LLM serving | [Link](https://arxiv.org/abs/2608.19628) | — |
 | **P1 · Watch** | **A Scalable Pipeline for LLM-Teacher Distillation Labeling: Work-Stealing Job Scheduling and Memory-Aware GPU Concurrency** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.15975) | — |
 
-## 🏛️ Classical / Historical · 415 canonical
+## 🏛️ Classical / Historical · 417 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -359,6 +359,7 @@
 | **Canonical** | **ASTRA: Communication-Efficient Acceleration for Multi-Device Transformer Inference** | ICML 2026 | distributed inference / communication compression / multi-device transformer | [Link](https://arxiv.org/abs/2505.19342) | — |
 | **Canonical** | **AsyncSpade: Efficient Test-Time Scaling with Asynchronous Sparse Decoding** | ICML 2026 | efficient reasoning / sparse decoding / KV filtering / asynchronous serving | [Link](https://arxiv.org/abs/2510.07486) | — |
 | **Canonical** | **AugServe: Adaptive Request Scheduling for Augmented Large Language Model Inference Serving** | ICML 2026 | LLM serving / augmented-agent request scheduling | [Link](https://arxiv.org/abs/2512.04013) | — |
+| **Canonical** | **AutoMoT: A Unified Vision-Language-Action Model with Asynchronous Mixture-of-Transformers for End-to-End Autonomous Driving** | ICML 2026 | VLA/WAM/Physical AI serving / asynchronous inference / KV-cache bridging / autonomous driving | [Link](https://arxiv.org/abs/2603.14851) | [Repo](https://github.com/OscarHuangWind/AutoMoT) |
 | **Canonical** | **BeaconKV: Key-Value Cache Compression Guided by Beacon Queries for Efficient Large Reasoning Model Inference** | ICML 2026 | KV cache / long reasoning / training-free compression | [Link](https://openreview.net/forum?id=bgAbffQCrL) | [Repo](https://github.com/aiha-lab/BeaconKV) |
 | **Canonical** | **Beyond Prediction: Tail-Aware Scheduling for LLM Inference** | ICML 2026 | LLM serving / tail-aware scheduling / KV-aware preemption / SLO optimization | [Link](https://arxiv.org/abs/2606.18431) | — |
 | **Canonical** | **Bounded Hyperbolic Tangent: A Stable and Efficient Alternative to Pre-Layer Normalization in Large Language Models** | ICML 2026 | distributed training / LLM pretraining efficiency / normalization / inference throughput | [Link](https://arxiv.org/abs/2601.09719) | — |
@@ -447,6 +448,7 @@
 | **Canonical** | **ReMoE: Boosting Expert Reuse through Router Fine-Tuning in Memory-Constrained MoE LLM Inference** | ICML 2026 | MoE serving / expert offload / edge inference / cache locality | [Link](https://arxiv.org/abs/2605.27081) | [Repo](https://github.com/BUAA-OSCAR/ReMoE) |
 | **Canonical** | **ReQAT: Achieving Full-Precision Reasoning Accuracy with 4-bit Floating-Point Quantization-Aware Training** | ICML 2026 | quantization / reasoning inference / W4A4KV4 / QAT | [Link](https://arxiv.org/abs/2606.15682) | [Repo](https://github.com/aiha-lab/ReQAT) |
 | **Canonical** | **Revisiting Efficiency–Accuracy Scaling in Mixture-of-Experts Architectures** | ICML 2026 | MoE systems/accelerators / LLM serving / hardware-software co-design / memory bandwidth / expert communication / inference efficiency | [Link](https://arxiv.org/abs/2601.18089) | [Repo](https://research.nvidia.com/labs/nemotron/LatentMoE/) |
+| **Canonical** | **RoboFlow4D: A Lightweight Flow World Model Toward Real-Time Flow-Guided Robotic Manipulation** | ICML 2026 | VLA/WAM/Physical AI serving / lightweight flow world model / real-time robotic manipulation | [Link](https://arxiv.org/abs/2605.17522) | [Repo](https://github.com/EDEM-AI/RoboFlow4D) |
 | **Canonical** | **RSTR: Reducing SpatioTemporal Redundancy in Diffusion Transformers** | ICML 2026 | diffusion acceleration / compute reduction / guidance scheduling / adaptive rank | [Link](https://arxiv.org/abs/2512.14096) | — |
 | **Canonical** | **RTInfer: Real-Time Inference of Multiple DNNs on Edge GPUs** | ICML 2026 | edge AI systems / real-time inference / GPU scheduling | [Link](https://dongw.emnets.cn/) | — |
 | **Canonical** | **RTPrune: Reading-Twice Inspired Token Pruning for Efficient DeepSeek-OCR Inference** | ICML 2026 | multimodal inference / visual token pruning / OCR | [Link](https://arxiv.org/abs/2605.00392) | [Repo](https://github.com/BurnWan/RTPrune) |

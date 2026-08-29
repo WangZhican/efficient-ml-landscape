@@ -1,6 +1,6 @@
 # 03 · KV Cache / Long Context
 
-> **295 canonical papers** mapped here, plus a broader **52-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **296 canonical papers** mapped here, plus a broader **52-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -53,7 +53,7 @@
 | **P0 · Strong** | **GraniKV: Asymmetric Granularity KV-Cache Paging for Multi-Agent Systems with Long Shared Prefix** | Fresh / preprint | KV-cache paging / multi-agent serving | [Link](https://arxiv.org/abs/2608.15584) | — |
 | **P0 · Strong** | **From Local Mismatch to Global Impact: Optimizing Cache Reuse Policy for Efficient Diffusion** | Fresh / preprint | diffusion cache policy / video-image generation acceleration | [Link](https://arxiv.org/abs/2608.13043) | — |
 | **P0 · Strong** | **From LLM Inference to Agentic Workloads: Characterization and Implications for Serving Systems** | Fresh / preprint | agentic serving characterization / systems benchmark | [Link](https://arxiv.org/abs/2608.15127) | — |
-| **P0 · Strong** | **FlashPrefill V2: Block-Sparse Prefill Attention for Long-Context LLM Serving** | Fresh / preprint | long-context LLM serving / block-sparse prefill attention / GPU kernel | [Link](https://arxiv.org/abs/2608.19758) | [Repo](https://github.com/qhfan/FlashPrefillv2) |
+| **P0 · Strong** | **FlashPrefill V2: Block-Sparse Prefill Attention for Long-Context LLM Serving** | Fresh / preprint | long-context LLM serving / block-sparse prefill attention / GPU kernel | [Link](https://arxiv.org/abs/2608.19758) | — |
 | **P1 · Watch** | **Elastic KV Cache for LLM Serving:A Working Reclamation Mechanism, and Why Chunked Prefill Already Closes the Gap** | Fresh / preprint | LLM serving / KV cache / reclamation / chunked prefill | [Link](https://arxiv.org/abs/2608.23658) | — |
 | **P0 · Strong** | **EcoVLA: Energy-Efficient Device-Edge Co-Inference for Vision-Language-Action Models under Real-Time Constraints** | Fresh / preprint | VLA device-edge co-inference / energy-aware runtime | [Link](https://arxiv.org/abs/2608.15502) | — |
 | **P1 · Watch** | **CacheRouter: A Dual-Path Tool Routing Architecture with Cache-Preserving Main-Model Isolation for Long-Tail Tool Discovery** | Fresh / preprint | agent serving / prefix cache / tool routing | [Link](https://arxiv.org/abs/2608.22708) | — |
@@ -61,7 +61,7 @@
 | **P0 · Strong** | **ATFlash: Per-RoPE-Wavelength Attention Windows for Compute/Memory-Efficient LLM Inference** | Fresh / preprint | efficient attention / long-context / FlashAttention | [Link](https://arxiv.org/abs/2608.02947) | — |
 | **P0 · Strong** | **Affix Cache for Diffusion Large Language Models** | Fresh / preprint | diffusion LLM inference / KV cache / serving | [Link](https://arxiv.org/abs/2608.26140) | — |
 
-## 🏛️ Classical / Historical · 280 canonical
+## 🏛️ Classical / Historical · 281 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -185,6 +185,7 @@
 | **Canonical** | **AdaSplash-2: Faster Differentiable Sparse Attention** | ICML 2026 | efficient attention / differentiable sparse attention / Triton GPU kernel / long-context training | [Link](https://arxiv.org/abs/2604.15180) | [Repo](https://github.com/deep-spin/adasplash) |
 | **Canonical** | **ArborKV: Structure-Aware KV Cache Management for Scaling Tree-based LLM Reasoning** | ICML 2026 | KV cache / tree-based LLM reasoning / memory management | [Link](https://arxiv.org/abs/2605.22106) | — |
 | **Canonical** | **Attention with Routed-Memory for Learnable Sparse Control** | ICML 2026 | KV cache / long-context inference / routed fixed-size memory / adaptive sparse retrieval | [Link](https://niug1984.github.io/publication.html) | — |
+| **Canonical** | **AutoMoT: A Unified Vision-Language-Action Model with Asynchronous Mixture-of-Transformers for End-to-End Autonomous Driving** | ICML 2026 | VLA/WAM/Physical AI serving / asynchronous inference / KV-cache bridging / autonomous driving | [Link](https://arxiv.org/abs/2603.14851) | [Repo](https://github.com/OscarHuangWind/AutoMoT) |
 | **Canonical** | **BeaconKV: Key-Value Cache Compression Guided by Beacon Queries for Efficient Large Reasoning Model Inference** | ICML 2026 | KV cache / long reasoning / training-free compression | [Link](https://openreview.net/forum?id=bgAbffQCrL) | [Repo](https://github.com/aiha-lab/BeaconKV) |
 | **Canonical** | **Beyond Prediction: Tail-Aware Scheduling for LLM Inference** | ICML 2026 | LLM serving / tail-aware scheduling / KV-aware preemption / SLO optimization | [Link](https://arxiv.org/abs/2606.18431) | — |
 | **Canonical** | **Cache Coherent Resampling for Efficient Test Time Scaling in LLM Reasoning via Adaptive Sequential Monte Carlo** | ICML 2026 | efficient reasoning / test-time scaling / KV cache / parallel inference / adaptive sequential Monte Carlo | [Link](https://openreview.net/forum?id=JN6wxUGmW8) | [Repo](https://github.com/Vicky-0256/ASMC) |

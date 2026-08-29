@@ -1,6 +1,6 @@
 # 14 · VLA / WAM / Physical AI
 
-> **60 canonical papers** mapped here, plus a broader **56-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **62 canonical papers** mapped here, plus a broader **56-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -65,7 +65,7 @@
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 | **P2 · Relevant** | **Act with Intent: Distilling Behavior Intent for Vision-Language-Action Models** | Fresh / preprint | Physical AI / VLA / action decoder | [Link](https://arxiv.org/abs/2608.23478) | — |
 
-## 🏛️ Classical / Historical · 49 canonical
+## 🏛️ Classical / Historical · 51 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -81,12 +81,14 @@
 | **Canonical** | **CombatVLA: An Efficient Vision-Language-Action Model for Combat Tasks in 3D Action Role-Playing Games** | ICCV 2025 | Physical AI / VLA efficient action generation / runtime | [Link](https://openaccess.thecvf.com/content/ICCV2025/html/Chen_CombatVLA_An_Efficient_Vision-Language-Action_Model_for_Combat_Tasks_in_3D_ICCV_2025_paper.html) | [Repo](https://github.com/ChenVoid/CombatVLA) |
 | **Canonical** | **AdaNav: Adaptive Reasoning with Uncertainty for Vision-Language Navigation** | ICML 2026 | Physical AI / vision-language navigation / adaptive reasoning / uncertainty-triggered inference / embodied-agent compute reduction | [Link](https://arxiv.org/abs/2509.24387) | [Repo](https://github.com/xinding-sys/AdaNav) |
 | **Canonical** | **Ask Less, See More: Communication-Conditioned Token Pruning for Vehicle-to-Vehicle Cooperative Autonomous Driving with Multimodal Large Language Models** | ICML 2026 | Physical AI / autonomous driving / V2V cooperative MLLM / visual-token pruning / communication-efficient inference | [Link](https://openreview.net/forum?id=HWMMBBujpo) | — |
+| **Canonical** | **AutoMoT: A Unified Vision-Language-Action Model with Asynchronous Mixture-of-Transformers for End-to-End Autonomous Driving** | ICML 2026 | VLA/WAM/Physical AI serving / asynchronous inference / KV-cache bridging / autonomous driving | [Link](https://arxiv.org/abs/2603.14851) | [Repo](https://github.com/OscarHuangWind/AutoMoT) |
 | **Canonical** | **Characterizing Vision-Language-Action Models across XPUs: Constraints and Acceleration for On-Robot Deployment** | ICML 2026 | Physical AI / VLA serving / heterogeneous edge accelerators / diffusion-policy cache / runtime | [Link](https://arxiv.org/abs/2604.24447) | — |
 | **Canonical** | **EcoVLA: Environment-Aware Adaptive Pruning with Interleaved Inference Orchestration for Vision-Language-Action Models** | ICML 2026 | Physical AI / VLA serving / adaptive channel pruning / interleaved inference orchestration | [Link](https://arxiv.org/abs/2602.00780) | — |
 | **Canonical** | **Latent Reasoning VLA: Latent Thinking and Prediction for Vision-Language-Action Models** | ICML 2026 | VLA / Physical AI serving / latent reasoning / efficient action inference | [Link](https://arxiv.org/abs/2602.01166) | [Repo](https://github.com/LoveJu1y/LaRA-VLA) |
 | **Canonical** | **RealtimeTool: Parallel Decoding for Real-Time LLM Function Calling** | ICML 2026 | parallel decoding / real-time function calling / agent inference / on-device LLM runtime / Physical AI control | [Link](https://arxiv.org/abs/2603.00030) | [Repo](https://github.com/HaxxorCialtion/SimpleTool) |
 | **Canonical** | **Reasoning-VLA: An Efficient and Spatial-Guided General Vision-Language-Action Reasoning Model for Autonomous Driving** | ICML 2026 | Physical AI / VLA / autonomous driving / parallel action generation | [Link](https://arxiv.org/abs/2511.19912) | [Repo](https://github.com/xipi702/Reasoning-VLA) |
 | **Canonical** | **Reflex: Real-Time Vision-Language-Action Control through Streaming Inference** | ICML 2026 | Physical AI / VLA serving / streaming inference / KV cache / operator fusion | [Link](https://arxiv.org/abs/2607.14695) | [Repo](https://github.com/9yc/Reflex) |
+| **Canonical** | **RoboFlow4D: A Lightweight Flow World Model Toward Real-Time Flow-Guided Robotic Manipulation** | ICML 2026 | VLA/WAM/Physical AI serving / lightweight flow world model / real-time robotic manipulation | [Link](https://arxiv.org/abs/2605.17522) | [Repo](https://github.com/EDEM-AI/RoboFlow4D) |
 | **Canonical** | **SCALE: Self-uncertainty Conditioned Adaptive Looking and Execution for Vision-Language-Action Models** | ICML 2026 | Physical AI / VLA inference / test-time scaling / single-pass adaptive execution | [Link](https://arxiv.org/abs/2602.04208) | [Repo](https://github.com/snumprlab/scale) |
 | **Canonical** | **See What Matters: Differentiable Grid Sample Pruning for Generalizable Vision-Language-Action Model** | ICML 2026 | Physical AI / VLA / visual-token pruning / geometry-aware resampling | [Link](https://arxiv.org/abs/2605.11817) | [Repo](https://github.com/Fediory/Grid-Sampler) |
 | **Canonical** | **Sparse ActionGen: Accelerating Diffusion Policy with Real-time Pruning** | ICML 2026 | Physical AI / diffusion-policy acceleration / pruning+reuse | [Link](https://arxiv.org/abs/2601.12894) | — |

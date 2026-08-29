@@ -8641,6 +8641,30 @@
     ]
   },
   {
+    "title": "AutoMoT: A Unified Vision-Language-Action Model with Asynchronous Mixture-of-Transformers for End-to-End Autonomous Driving",
+    "venue": "ICML 2026",
+    "topic": "VLA/WAM/Physical AI serving / asynchronous inference / KV-cache bridging / autonomous driving",
+    "arxiv": "2603.14851",
+    "doi": "",
+    "official_id": "2603.14851",
+    "paper_url": "https://arxiv.org/abs/2603.14851",
+    "code_url": "https://github.com/OscarHuangWind/AutoMoT",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Physical-AI protected canonical. Asynchronous Mixture-of-Transformers uses low-frequency 4B understanding and high-frequency 1.6B action experts with KV-cache bridging, explicitly targeting low-latency real-time action inference while preserving reasoning capability.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "AutoQRA: Joint Optimization of Mixed-Precision Quantization and Low-rank Adapters for Efficient LLM Fine-Tuning",
     "venue": "ICML 2026",
     "topic": "LLM quantization / LoRA / memory-efficient fine-tuning / mixed precision",
@@ -13817,6 +13841,27 @@
       "LLM Serving",
       "MoE Systems / Accelerators",
       "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "RoboFlow4D: A Lightweight Flow World Model Toward Real-Time Flow-Guided Robotic Manipulation",
+    "venue": "ICML 2026",
+    "topic": "VLA/WAM/Physical AI serving / lightweight flow world model / real-time robotic manipulation",
+    "arxiv": "2605.17522",
+    "doi": "",
+    "official_id": "2605.17522",
+    "paper_url": "https://arxiv.org/abs/2605.17522",
+    "code_url": "https://github.com/EDEM-AI/RoboFlow4D",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Physical-AI protected canonical. End-to-end lightweight 3D flow world model replaces heavy modular flow-planning stacks and forms a slow-planner/fast-executor closed loop for real-time manipulation; reports strong computational-efficiency gains in simulation and real robots.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "VLA / WAM / Physical AI"
     ]
   },
   {

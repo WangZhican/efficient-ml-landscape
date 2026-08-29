@@ -1,6 +1,6 @@
 # 10 · Multimodal / MLLM Serving
 
-> **147 canonical papers** mapped here, plus a broader **55-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **148 canonical papers** mapped here, plus a broader **55-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -64,7 +64,7 @@
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 | **P2 · Relevant** | **Act with Intent: Distilling Behavior Intent for Vision-Language-Action Models** | Fresh / preprint | Physical AI / VLA / action decoder | [Link](https://arxiv.org/abs/2608.23478) | — |
 
-## 🏛️ Classical / Historical · 138 canonical
+## 🏛️ Classical / Historical · 139 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -140,6 +140,7 @@
 | **Canonical** | **AD-BTS: Adaptive Dual-Branch Token Sparsification via Spatial Information Density** | ICML 2026 | multimodal serving / MLLM / visual token sparsification / prefill acceleration / adaptive token pruning | [Link](https://openreview.net/forum?id=Zm8DAMbfXE) | — |
 | **Canonical** | **AdaNav: Adaptive Reasoning with Uncertainty for Vision-Language Navigation** | ICML 2026 | Physical AI / vision-language navigation / adaptive reasoning / uncertainty-triggered inference / embodied-agent compute reduction | [Link](https://arxiv.org/abs/2509.24387) | [Repo](https://github.com/xinding-sys/AdaNav) |
 | **Canonical** | **Ask Less, See More: Communication-Conditioned Token Pruning for Vehicle-to-Vehicle Cooperative Autonomous Driving with Multimodal Large Language Models** | ICML 2026 | Physical AI / autonomous driving / V2V cooperative MLLM / visual-token pruning / communication-efficient inference | [Link](https://openreview.net/forum?id=HWMMBBujpo) | — |
+| **Canonical** | **AutoMoT: A Unified Vision-Language-Action Model with Asynchronous Mixture-of-Transformers for End-to-End Autonomous Driving** | ICML 2026 | VLA/WAM/Physical AI serving / asynchronous inference / KV-cache bridging / autonomous driving | [Link](https://arxiv.org/abs/2603.14851) | [Repo](https://github.com/OscarHuangWind/AutoMoT) |
 | **Canonical** | **Characterizing Vision-Language-Action Models across XPUs: Constraints and Acceleration for On-Robot Deployment** | ICML 2026 | Physical AI / VLA serving / heterogeneous edge accelerators / diffusion-policy cache / runtime | [Link](https://arxiv.org/abs/2604.24447) | — |
 | **Canonical** | **CLIP Tricks You: Training-free Token Pruning for Efficient Pixel Grounding in Large Vision-Language Models** | ICML 2026 | multimodal/MLLM serving / visual-token pruning / training-free inference acceleration / memory reduction | [Link](https://arxiv.org/abs/2605.13178) | [Repo](https://github.com/sejong-rcv/LiteLVLM) |
 | **Canonical** | **ConceptMoE: Adaptive Token-to-Concept Compression for Implicit Compute Allocation** | ICML 2026 | MoE / adaptive token compression / KV-cache reduction / long-context inference / multimodal efficiency | [Link](https://arxiv.org/abs/2601.21420) | [Repo](https://github.com/ZihaoHuang-notabot/ConceptMoE) |

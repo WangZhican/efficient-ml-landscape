@@ -1,6 +1,6 @@
 # 13 · Efficient Reasoning / Agents
 
-> **190 canonical papers** mapped here, plus a broader **53-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **191 canonical papers** mapped here, plus a broader **53-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -62,7 +62,7 @@
 | **P0 · Strong** | **ClawGym II: Exploring Black-Box RL on Agent Harness** | Fresh / preprint | agent training systems | [Link](https://arxiv.org/abs/2608.16798) | — |
 | **P1 · Watch** | **CacheRouter: A Dual-Path Tool Routing Architecture with Cache-Preserving Main-Model Isolation for Long-Tail Tool Discovery** | Fresh / preprint | agent serving / prefix cache / tool routing | [Link](https://arxiv.org/abs/2608.22708) | — |
 
-## 🏛️ Classical / Historical · 177 canonical
+## 🏛️ Classical / Historical · 178 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -109,6 +109,7 @@
 | **Canonical** | **AsyncSpade: Efficient Test-Time Scaling with Asynchronous Sparse Decoding** | ICML 2026 | efficient reasoning / sparse decoding / KV filtering / asynchronous serving | [Link](https://arxiv.org/abs/2510.07486) | — |
 | **Canonical** | **Attention with Routed-Memory for Learnable Sparse Control** | ICML 2026 | KV cache / long-context inference / routed fixed-size memory / adaptive sparse retrieval | [Link](https://niug1984.github.io/publication.html) | — |
 | **Canonical** | **AugServe: Adaptive Request Scheduling for Augmented Large Language Model Inference Serving** | ICML 2026 | LLM serving / augmented-agent request scheduling | [Link](https://arxiv.org/abs/2512.04013) | — |
+| **Canonical** | **AutoMoT: A Unified Vision-Language-Action Model with Asynchronous Mixture-of-Transformers for End-to-End Autonomous Driving** | ICML 2026 | VLA/WAM/Physical AI serving / asynchronous inference / KV-cache bridging / autonomous driving | [Link](https://arxiv.org/abs/2603.14851) | [Repo](https://github.com/OscarHuangWind/AutoMoT) |
 | **Canonical** | **BeaconKV: Key-Value Cache Compression Guided by Beacon Queries for Efficient Large Reasoning Model Inference** | ICML 2026 | KV cache / long reasoning / training-free compression | [Link](https://openreview.net/forum?id=bgAbffQCrL) | [Repo](https://github.com/aiha-lab/BeaconKV) |
 | **Canonical** | **BubbleSpec: Turning Long-Tail Bubbles into Speculative Rollout Drafts for Synchronous Reinforcement Learning** | ICML 2026 | LLM RL systems / rollout acceleration / speculative decoding / distributed training | [Link](https://arxiv.org/abs/2605.08862) | — |
 | **Canonical** | **Cache Coherent Resampling for Efficient Test Time Scaling in LLM Reasoning via Adaptive Sequential Monte Carlo** | ICML 2026 | efficient reasoning / test-time scaling / KV cache / parallel inference / adaptive sequential Monte Carlo | [Link](https://openreview.net/forum?id=JN6wxUGmW8) | [Repo](https://github.com/Vicky-0256/ASMC) |
