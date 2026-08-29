@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-08-29",
   "window_start_beijing": "2026-07-30",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 307,
+  "tracked_total": 309,
   "p0_strong_or_canonical": [
     {
       "title": "Zetta: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence",
@@ -45,6 +45,29 @@
         "Sparsity / Pruning",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "VisCache: Visual KV Cache Pruning for Efficient Vision Large Language Model Inference",
+      "venue": "EMNLP 2026 Main Conference",
+      "topic": "multimodal/MLLM serving / KV cache / pruning / video inference",
+      "arxiv": "2608.24063",
+      "doi": "",
+      "official_id": "2608.24063",
+      "paper_url": "https://arxiv.org/abs/2608.24063",
+      "code_url": "https://github.com/Wlklk/VisCache",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "BACKFILL_HIGH",
+      "why": "Training-free coarse-to-fine visual KV pruning combines semantic keyframe filtering with layer-wise PruneKV. Reports up to 2.35x inference speedup with 19-28% KV retention and has an official author repository; accepted to EMNLP 2026 main conference. Direct MLLM-serving efficiency contribution.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Sparsity / Pruning",
+        "Multimodal / MLLM Serving"
       ]
     },
     {
@@ -463,6 +486,28 @@
       "tracking_tier": "P0 · Strong",
       "directions": [
         "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "NUNA: Characterizing and Mitigating Non-Uniform Network Access in Multi-Die GPU Scale-Up Systems",
+      "venue": "arXiv 2026",
+      "topic": "distributed inference / multi-die GPU / collectives / heterogeneous AI systems",
+      "arxiv": "2608.00867",
+      "doi": "",
+      "official_id": "2608.00867",
+      "paper_url": "https://arxiv.org/abs/2608.00867",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "BACKFILL_HIGH",
+      "why": "Introduces non-uniform network access as a multi-die GPU scale-up bottleneck and proposes NUNA-aware routing plus placement. Reports up to 1.8x faster collectives and 7% mean / 28% max time-per-output-token speedup in ML inference. Direct AI-infra/architecture contribution.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -1228,6 +1273,29 @@
       "tracking_tier": "P0 · Strong",
       "directions": [
         "Distributed Training / Inference",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "CAKE: Compiler-Agent Co-Design for Frontier Kernel Evolution",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel / DSL / compiler / agentic systems / LLM serving",
+      "arxiv": "2608.12629",
+      "doi": "",
+      "official_id": "2608.12629",
+      "paper_url": "https://arxiv.org/abs/2608.12629",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "BACKFILL_HIGH",
+      "why": "Compiler-agent co-design exposes hardware-explicit scheduling through CAKE IR and closes the loop between agent failures and compiler evolution. On B200 the best candidate exceeds tuned FlashML on Flash-KMeans; agent-generated Kimi Delta Attention reports 2.05x geometric-mean speedup over official FlashKDA and passes end-to-end serving validation. Directly relevant to GPU-kernel/DSL/compiler and AI-infra automation.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler",
         "Efficient Reasoning / Agents"
       ]
     },
@@ -4618,28 +4686,6 @@
       ]
     },
     {
-      "title": "CAKE: Compiler-Agent Co-Design for Frontier Kernel Evolution",
-      "venue": "",
-      "topic": "llm_serving / kernel",
-      "arxiv": "2608.12629",
-      "doi": "",
-      "official_id": "",
-      "paper_url": "https://arxiv.org/abs/2608.12629",
-      "code_url": "",
-      "formal_class": "RELEVANT_LOW_PRIORITY",
-      "decision": "P2_RELEVANT_LOW_PRIORITY",
-      "tracking_tier": "P2 · Relevant",
-      "why": "Directly relevant to the rolling Efficient ML / AI Infra scope; retained for recall, but lower priority pending deeper quality/novelty/venue/adoption review.",
-      "published_at": "2026-08-12T22:31:32Z",
-      "updated_at": "2026-08-12T22:31:32Z",
-      "is_latest_30d": true,
-      "directions": [
-        "LLM Serving",
-        "GPU Kernel / DSL / Compiler",
-        "Efficient Reasoning / Agents"
-      ]
-    },
-    {
       "title": "User-Assisted Collaborative Distributed Inference for Efficient QoS-Aware Autoscaling",
       "venue": "",
       "topic": "llm_serving / dist",
@@ -6719,6 +6765,29 @@
       ]
     },
     {
+      "title": "VisCache: Visual KV Cache Pruning for Efficient Vision Large Language Model Inference",
+      "venue": "EMNLP 2026 Main Conference",
+      "topic": "multimodal/MLLM serving / KV cache / pruning / video inference",
+      "arxiv": "2608.24063",
+      "doi": "",
+      "official_id": "2608.24063",
+      "paper_url": "https://arxiv.org/abs/2608.24063",
+      "code_url": "https://github.com/Wlklk/VisCache",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "BACKFILL_HIGH",
+      "why": "Training-free coarse-to-fine visual KV pruning combines semantic keyframe filtering with layer-wise PruneKV. Reports up to 2.35x inference speedup with 19-28% KV retention and has an official author repository; accepted to EMNLP 2026 main conference. Direct MLLM-serving efficiency contribution.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Sparsity / Pruning",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
       "title": "TreeGraft: Adaptive Multi-Drafter Grafting for Tree-Based Speculative Decoding",
       "venue": "",
       "topic": "speculative decoding / LLM inference",
@@ -7134,6 +7203,28 @@
       "tracking_tier": "P0 · Strong",
       "directions": [
         "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "NUNA: Characterizing and Mitigating Non-Uniform Network Access in Multi-Die GPU Scale-Up Systems",
+      "venue": "arXiv 2026",
+      "topic": "distributed inference / multi-die GPU / collectives / heterogeneous AI systems",
+      "arxiv": "2608.00867",
+      "doi": "",
+      "official_id": "2608.00867",
+      "paper_url": "https://arxiv.org/abs/2608.00867",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "BACKFILL_HIGH",
+      "why": "Introduces non-uniform network access as a multi-die GPU scale-up bottleneck and proposes NUNA-aware routing plus placement. Reports up to 1.8x faster collectives and 7% mean / 28% max time-per-output-token speedup in ML inference. Direct AI-infra/architecture contribution.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -7899,6 +7990,29 @@
       "tracking_tier": "P0 · Strong",
       "directions": [
         "Distributed Training / Inference",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "CAKE: Compiler-Agent Co-Design for Frontier Kernel Evolution",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel / DSL / compiler / agentic systems / LLM serving",
+      "arxiv": "2608.12629",
+      "doi": "",
+      "official_id": "2608.12629",
+      "paper_url": "https://arxiv.org/abs/2608.12629",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "BACKFILL_HIGH",
+      "why": "Compiler-agent co-design exposes hardware-explicit scheduling through CAKE IR and closes the loop between agent failures and compiler evolution. On B200 the best candidate exceeds tuned FlashML on Flash-KMeans; agent-generated Kimi Delta Attention reports 2.05x geometric-mean speedup over official FlashKDA and passes end-to-end serving validation. Directly relevant to GPU-kernel/DSL/compiler and AI-infra automation.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler",
         "Efficient Reasoning / Agents"
       ]
     },
@@ -11282,28 +11396,6 @@
       "directions": [
         "LLM Serving",
         "GPU Kernel / DSL / Compiler"
-      ]
-    },
-    {
-      "title": "CAKE: Compiler-Agent Co-Design for Frontier Kernel Evolution",
-      "venue": "",
-      "topic": "llm_serving / kernel",
-      "arxiv": "2608.12629",
-      "doi": "",
-      "official_id": "",
-      "paper_url": "https://arxiv.org/abs/2608.12629",
-      "code_url": "",
-      "formal_class": "RELEVANT_LOW_PRIORITY",
-      "decision": "P2_RELEVANT_LOW_PRIORITY",
-      "tracking_tier": "P2 · Relevant",
-      "why": "Directly relevant to the rolling Efficient ML / AI Infra scope; retained for recall, but lower priority pending deeper quality/novelty/venue/adoption review.",
-      "published_at": "2026-08-12T22:31:32Z",
-      "updated_at": "2026-08-12T22:31:32Z",
-      "is_latest_30d": true,
-      "directions": [
-        "LLM Serving",
-        "GPU Kernel / DSL / Compiler",
-        "Efficient Reasoning / Agents"
       ]
     },
     {
