@@ -1,10 +1,10 @@
 # 🧭 Research Map
 
-> **1175 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
+> **1176 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
 
 <div align="center">
 
-[**🆕 Latest 30 Days · 316 tracked**](LATEST_30D.md) · [**🏛️ Classical · 1105**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
+[**🆕 Latest 30 Days · 316 tracked**](LATEST_30D.md) · [**🏛️ Classical · 1106**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
 
 </div>
 
@@ -12,15 +12,15 @@
 
 | # | Research direction | Canonical | Latest 30d tracked |
 |---:|---|---:|---:|
-| 01 | [**LLM Serving**](01-llm-serving.md) | **462** | **222** |
-| 02 | [**Speculative Decoding**](02-speculative-decoding.md) | **158** | **29** |
+| 01 | [**LLM Serving**](01-llm-serving.md) | **463** | **222** |
+| 02 | [**Speculative Decoding**](02-speculative-decoding.md) | **159** | **29** |
 | 03 | [**KV Cache / Long Context**](03-kv-cache-long-context.md) | **303** | **56** |
-| 04 | [**Quantization**](04-quantization.md) | **171** | **51** |
+| 04 | [**Quantization**](04-quantization.md) | **172** | **51** |
 | 05 | [**Sparsity / Pruning**](05-sparsity-pruning.md) | **198** | **63** |
 | 06 | [**Efficient Attention**](06-efficient-attention.md) | **173** | **47** |
 | 07 | [**MoE Systems / Accelerators**](07-moe-systems.md) | **88** | **31** |
 | 08 | [**GPU Kernel / DSL / Compiler**](08-gpu-kernel-compiler.md) | **278** | **71** |
-| 09 | [**Distributed Training / Inference**](09-distributed-training-inference.md) | **202** | **35** |
+| 09 | [**Distributed Training / Inference**](09-distributed-training-inference.md) | **203** | **35** |
 | 10 | [**Multimodal / MLLM Serving**](10-multimodal-mllm-serving.md) | **149** | **56** |
 | 11 | [**Video / Image Generation**](11-video-image-generation.md) | **51** | **17** |
 | 12 | [**Diffusion / Flow Acceleration**](12-diffusion-flow.md) | **148** | **25** |

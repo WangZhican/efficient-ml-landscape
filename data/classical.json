@@ -17391,6 +17391,29 @@
     ]
   },
   {
+    "title": "A 14.08-to-135.69Token/s ReRAM-on-Logic Stacked Outlier-Free Large-Language-Model Accelerator with Block-Clustered Weight-Compression and Adaptive Parallel-Speculative-Decoding",
+    "venue": "ISSCC 2026",
+    "topic": "LLM inference accelerator / speculative decoding / low-bit quantization / ReRAM-on-logic",
+    "arxiv": "",
+    "doi": "10.1109/ISSCC49663.2026.11409211",
+    "official_id": "10.1109/ISSCC49663.2026.11409211",
+    "paper_url": "https://doi.org/10.1109/ISSCC49663.2026.11409211",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ISSCC 2026 fabricated 55nm LLM accelerator using face-to-face ReRAM-on-logic stacking. It combines local rotation for outlier-free low-bit quantization, blockwise vector-quantized weight compression, and adaptive parallel speculative decoding with an out-of-order scheduler, directly co-optimizing memory, quantization, and decoding throughput.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "Quantization",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "A 147TOPS/W, 250TOPS/mm2, Fully Synthesizable, Digital Compute-in-Memory Accelerator Supporting INT8xINT8 with Zero-Point Quantization in Intel 18A Technology",
     "venue": "ISSCC 2026",
     "topic": "edge/cloud/heterogeneous AI systems / compute-in-memory / INT8 quantization accelerator",
