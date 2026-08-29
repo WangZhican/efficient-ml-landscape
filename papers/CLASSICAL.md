@@ -1,10 +1,10 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **1079 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **1080 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
-## ICML 2026 · 366
+## ICML 2026 · 367
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -170,6 +170,7 @@
 | **Canonical** | **Knapsack RL: Compute-Efficient Reinforcement Learning via Heterogeneous Rollout Allocation** | ICML 2026 | LLM RL / rollout allocation / training compute efficiency | [Link](https://www.liziniu.org/publications.html) | [Repo](https://github.com/liziniu/KnapsackRL) |
 | **Canonical** | **KnapSpec: Self-Speculative Decoding via Adaptive Layer Selection as a Knapsack Problem** | ICML 2026 | speculative decoding / adaptive layer selection / long-context inference | [Link](https://arxiv.org/abs/2602.20217) | [Repo](https://github.com/kaist-flexml-lab/knapspec) |
 | **Canonical** | **Knowing When to Quit: A Principled Framework for Dynamic Abstention in LLM Reasoning** | ICML 2026 | efficient reasoning / dynamic abstention / early termination / test-time compute | [Link](https://arxiv.org/abs/2604.18419) | — |
+| **Canonical** | **Latent Reasoning VLA: Latent Thinking and Prediction for Vision-Language-Action Models** | ICML 2026 | VLA / Physical AI serving / latent reasoning / efficient action inference | [Link](https://arxiv.org/abs/2602.01166) | [Repo](https://github.com/LoveJu1y/LaRA-VLA) |
 | **Canonical** | **LATMiX: Learnable Affine Transformations for Microscaling Quantization of LLMs** | ICML 2026 | quantization / microscaling MX / learnable affine transforms / low-bit LLM inference | [Link](https://arxiv.org/abs/2602.17681) | — |
 | **Canonical** | **LazyAttention: Efficient Retrieval-Augmented Generation with Deferred Positional Encoding** | ICML 2026 | LLM serving / RAG / KV cache reuse / deferred positional encoding / attention kernels | [Link](https://arxiv.org/abs/2606.04302) | — |
 | **Canonical** | **LC-QAT: Data-Efficient 2-Bit QAT for LLMs via Linear-Constrained Vector Quantization** | ICML 2026 | LLM quantization / 2-bit QAT / vector quantization / efficient deployment | [Link](https://arxiv.org/abs/2606.10531) | [Repo](https://github.com/backspacetg/unisvq) |

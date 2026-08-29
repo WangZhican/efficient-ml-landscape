@@ -1,6 +1,6 @@
 # 10 · Multimodal / MLLM Serving
 
-> **146 canonical papers** mapped here, plus a broader **55-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **147 canonical papers** mapped here, plus a broader **55-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -64,7 +64,7 @@
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 | **P2 · Relevant** | **Act with Intent: Distilling Behavior Intent for Vision-Language-Action Models** | Fresh / preprint | Physical AI / VLA / action decoder | [Link](https://arxiv.org/abs/2608.23478) | — |
 
-## 🏛️ Classical / Historical · 137 canonical
+## 🏛️ Classical / Historical · 138 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -154,6 +154,7 @@
 | **Canonical** | **HilbertA: Hilbert-Curve–Aligned Sparse Attention for 2D Structured Data** | ICML 2026 | efficient attention / diffusion acceleration / multimodal inference / GPU-aligned sparse attention / hardware-aware token layout | [Link](https://openreview.net/forum?id=yhMt5V4FNb) | — |
 | **Canonical** | **Improving Visual Token Reduction via Rectifying Distortions for Efficient Multimodal LLM Inference** | ICML 2026 | multimodal / MLLM inference / visual token reduction / token merging | [Link](https://arxiv.org/abs/2606.01711) | [Repo](https://github.com/cvlab-yonsei/RESTORE) |
 | **Canonical** | **InfoFlow KV: Information-Flow-Aware KV Recomputation for Long Context** | ICML 2026 | KV cache / long-context RAG / selective recomputation | [Link](https://arxiv.org/abs/2603.05353) | [Repo](https://github.com/Canyu-Zhang/kv-cache-optimization) |
+| **Canonical** | **Latent Reasoning VLA: Latent Thinking and Prediction for Vision-Language-Action Models** | ICML 2026 | VLA / Physical AI serving / latent reasoning / efficient action inference | [Link](https://arxiv.org/abs/2602.01166) | [Repo](https://github.com/LoveJu1y/LaRA-VLA) |
 | **Canonical** | **LiME: Lightweight Mixture of Experts for Efficient Multimodal Multi-task Learning** | ICML 2026 | multimodal efficiency / lightweight MoE / parameter-efficient fine-tuning / adaptive routing | [Link](https://arxiv.org/abs/2604.02338) | — |
 | **Canonical** | **MemOCR: Layout-Aware Visual Memory for Efficient Long-Horizon Reasoning** | ICML 2026 | efficient reasoning / agent memory / multimodal memory compression / long-horizon context efficiency | [Link](https://arxiv.org/abs/2601.21468) | [Repo](https://github.com/meituan/MemOCR) |
 | **Canonical** | **MoshiRAG: Asynchronous Knowledge Retrieval for Full-Duplex Speech Language Models** | ICML 2026 | multimodal serving / full-duplex speech LM / asynchronous RAG / real-time inference | [Link](https://arxiv.org/abs/2604.12928) | [Repo](https://github.com/kyutai-labs/moshi-rag) |

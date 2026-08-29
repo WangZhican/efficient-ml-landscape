@@ -1,6 +1,6 @@
 # 01 · LLM Serving
 
-> **441 canonical papers** mapped here, plus a broader **214-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **442 canonical papers** mapped here, plus a broader **214-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -223,7 +223,7 @@
 | **P0 · Strong** | **A Thread-Register Decoupled GPU Execution Model for Efficient Tensor Computation** | Fresh / preprint | GPU execution architecture / tensor cores / LLM serving | [Link](https://arxiv.org/abs/2608.19628) | — |
 | **P1 · Watch** | **A Scalable Pipeline for LLM-Teacher Distillation Labeling: Work-Stealing Job Scheduling and Memory-Aware GPU Concurrency** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.15975) | — |
 
-## 🏛️ Classical / Historical · 412 canonical
+## 🏛️ Classical / Historical · 413 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -408,6 +408,7 @@
 | **Canonical** | **HeraSys: Collaborative Serving of Multiple LLM Workflows via Fine-Grained End-to-End Optimization** | ICML 2026 | agentic LLM serving / multi-workflow scheduling / reuse / adaptive batching | [Link](https://arxiv.org/abs/2607.22578) | — |
 | **Canonical** | **HexGen-3: A Fully Disaggregated LLM Serving Framework with Fine-Grained Heterogeneous Resource Autoscaling** | ICML 2026 | LLM serving / disaggregation / heterogeneous resource autoscaling | [Link](https://youhe-jiang.github.io/) | — |
 | **Canonical** | **Incremental BPE Tokenization** | ICML 2026 | LLM serving / tokenization runtime / streaming inference / incremental BPE | [Link](https://arxiv.org/abs/2605.30813) | [Repo](https://github.com/ModelTC/mtc-inc-bpe) |
+| **Canonical** | **Latent Reasoning VLA: Latent Thinking and Prediction for Vision-Language-Action Models** | ICML 2026 | VLA / Physical AI serving / latent reasoning / efficient action inference | [Link](https://arxiv.org/abs/2602.01166) | [Repo](https://github.com/LoveJu1y/LaRA-VLA) |
 | **Canonical** | **LazyAttention: Efficient Retrieval-Augmented Generation with Deferred Positional Encoding** | ICML 2026 | LLM serving / RAG / KV cache reuse / deferred positional encoding / attention kernels | [Link](https://arxiv.org/abs/2606.04302) | — |
 | **Canonical** | **LEAP: Zone-Aware MCTS for LLM Self-Speculative Decoding** | ICML 2026 | speculative decoding / self-speculative decoding / MCTS layer selection | [Link](https://openreview.net/forum?id=VrI9sWkJB1) | [Repo](https://github.com/leiquanzheng/LEAP) |
 | **Canonical** | **Less Token, More Signal: MoE Expert Pruning via Critical Token Selection** | ICML 2026 | MoE systems / expert pruning / memory-efficient inference | [Link](https://openreview.net/forum?id=4iupzej9nT) | — |

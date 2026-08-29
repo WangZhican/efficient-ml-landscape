@@ -1,6 +1,6 @@
 # 13 · Efficient Reasoning / Agents
 
-> **188 canonical papers** mapped here, plus a broader **52-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **189 canonical papers** mapped here, plus a broader **52-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -61,7 +61,7 @@
 | **P0 · Strong** | **ClawGym II: Exploring Black-Box RL on Agent Harness** | Fresh / preprint | agent training systems | [Link](https://arxiv.org/abs/2608.16798) | — |
 | **P1 · Watch** | **CacheRouter: A Dual-Path Tool Routing Architecture with Cache-Preserving Main-Model Isolation for Long-Tail Tool Discovery** | Fresh / preprint | agent serving / prefix cache / tool routing | [Link](https://arxiv.org/abs/2608.22708) | — |
 
-## 🏛️ Classical / Historical · 176 canonical
+## 🏛️ Classical / Historical · 177 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -146,6 +146,7 @@
 | **Canonical** | **KernelFoundry: Hardware-aware evolutionary GPU kernel optimization** | ICML 2026 | GPU kernel / compiler / evolutionary optimization / hardware-aware agent systems | [Link](https://arxiv.org/abs/2603.12440) | [Repo](https://github.com/isl-org/kernelfoundry) |
 | **Canonical** | **Knapsack RL: Compute-Efficient Reinforcement Learning via Heterogeneous Rollout Allocation** | ICML 2026 | LLM RL / rollout allocation / training compute efficiency | [Link](https://www.liziniu.org/publications.html) | [Repo](https://github.com/liziniu/KnapsackRL) |
 | **Canonical** | **Knowing When to Quit: A Principled Framework for Dynamic Abstention in LLM Reasoning** | ICML 2026 | efficient reasoning / dynamic abstention / early termination / test-time compute | [Link](https://arxiv.org/abs/2604.18419) | — |
+| **Canonical** | **Latent Reasoning VLA: Latent Thinking and Prediction for Vision-Language-Action Models** | ICML 2026 | VLA / Physical AI serving / latent reasoning / efficient action inference | [Link](https://arxiv.org/abs/2602.01166) | [Repo](https://github.com/LoveJu1y/LaRA-VLA) |
 | **Canonical** | **Learning Query-Aware Budget-Tier Routing for Runtime Agent Memory** | ICML 2026 | efficient reasoning / agent systems / runtime memory / adaptive compute routing / performance-cost control | [Link](https://arxiv.org/abs/2602.06025) | [Repo](https://github.com/ViktorAxelsen/BudgetMem) |
 | **Canonical** | **Learning to Evict from Key-Value Cache** | ICML 2026 | KV cache / long-context inference / learned eviction / reinforcement learning | [Link](https://arxiv.org/abs/2602.10238) | [Repo](https://github.com/apple/ml-learning-to-evict) |
 | **Canonical** | **Learning to Share: Selective Memory for Efficient Parallel Agentic Systems** | ICML 2026 | efficient agent systems / parallel agents / shared memory / computation reuse | [Link](https://arxiv.org/abs/2602.05965) | [Repo](https://github.com/UCF-CRCV/autogen-lts) |

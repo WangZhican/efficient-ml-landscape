@@ -11654,6 +11654,29 @@
     ]
   },
   {
+    "title": "Latent Reasoning VLA: Latent Thinking and Prediction for Vision-Language-Action Models",
+    "venue": "ICML 2026",
+    "topic": "VLA / Physical AI serving / latent reasoning / efficient action inference",
+    "arxiv": "2602.01166",
+    "doi": "",
+    "official_id": "2602.01166",
+    "paper_url": "https://arxiv.org/abs/2602.01166",
+    "code_url": "https://github.com/LoveJu1y/LaRA-VLA",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 protected Physical-AI efficiency paper. LaRA-VLA internalizes multimodal chain-of-thought into continuous latent reasoning, eliminating explicit reasoning-token generation and reporting up to 90% inference-latency reduction while improving VLA task performance; official training/evaluation code and weights are released.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "LATMiX: Learnable Affine Transformations for Microscaling Quantization of LLMs",
     "venue": "ICML 2026",
     "topic": "quantization / microscaling MX / learnable affine transforms / low-bit LLM inference",
