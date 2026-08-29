@@ -1,10 +1,10 @@
 # 01 · LLM Serving
 
-> **444 canonical papers** mapped here, plus a broader **214-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **445 canonical papers** mapped here, plus a broader **215-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 214 tracked
+## 🆕 Latest 30 Days · 215 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -191,6 +191,7 @@
 | **P1 · Watch** | **Minima-KV: Retention-Preserving KV Cache Compression with Mixed-Format Paged Attention** | Fresh / preprint | KV cache / paged attention / mixed-format inference | [Link](https://arxiv.org/abs/2608.23834) | — |
 | **P1 · Watch** | **Memory-Sovereign Inference: Output-Exact Execution Beyond Full Residency** | Fresh / preprint | LLM serving / storage-backed inference / memory hierarchy / exactness | [Link](https://arxiv.org/abs/2608.23805) | — |
 | **P1 · Watch** | **Learning how to Forget: Fine-tuning for Long-Context Sparse Attention** | Fresh / preprint | long-context / sparse attention / KV cache policy | [Link](https://arxiv.org/abs/2608.19920) | [Repo](https://github.com/awslabs/keys_values) |
+| **P0 · Strong** | **Learning Agent Execution for KV-Cache Management in Agentic Serving** | arXiv 2026 | LLM serving / agent systems / KV cache / cache eviction / prefetching | [Link](https://arxiv.org/abs/2608.14624) | — |
 | **P1 · Watch** | **KernelArc: A Multi-Agent Framework for GPU Kernel Optimization** | Fresh / preprint | GPU kernel / agentic optimization / H100-B200 | [Link](https://arxiv.org/abs/2608.17071) | — |
 | **P1 · Watch** | **Hydra: Phase-Aware Workload Characterization of LLM Inference across Edge SoC Generations, Backends, and Quantization Levels** | Fresh / preprint | edge AI / LLM inference / quantization characterization | [Link](https://arxiv.org/abs/2608.25053) | — |
 | **P0 · Strong** | **HYDRA: A Heterogeneous Chiplet DSE Framework for Serving Dynamic Hybrid LLM Workloads** | Fresh / preprint | LLM serving / heterogeneous chiplets / architecture-runtime co-design | [Link](https://arxiv.org/abs/2608.19395) | — |

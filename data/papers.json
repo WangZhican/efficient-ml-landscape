@@ -1242,6 +1242,28 @@
     ]
   },
   {
+    "title": "Learning Agent Execution for KV-Cache Management in Agentic Serving",
+    "venue": "arXiv 2026",
+    "topic": "LLM serving / agent systems / KV cache / cache eviction / prefetching",
+    "arxiv": "2608.14624",
+    "doi": "",
+    "official_id": "2608.14624",
+    "paper_url": "https://arxiv.org/abs/2608.14624",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "CacheScout is a direct AI-infra runtime contribution for multi-agent LLM serving. It learns agent execution transitions online and uses them for KV-cache eviction and proactive prefetching on top of vLLM, reporting 10-18 percentage-point higher cache hit rate, 18-45% lower mean TTFT, 29-38% lower per-turn latency, and up to 57% higher peak throughput.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "Lynx: Progressive Speculative Quantization for accelerating KV Transfer in Long-Context Inference",
     "venue": "arXiv 2026",
     "topic": "LLM serving / disaggregated inference / KV cache transfer / progressive quantization / speculative decoding",
