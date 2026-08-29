@@ -1378,6 +1378,30 @@
     ]
   },
   {
+    "title": "Simthesizer: An Agent-Driven Simulation Framework for LLM Serving Systems",
+    "venue": "arXiv 2026",
+    "topic": "LLM serving / serving simulator / agentic workloads / disaggregated serving / speculative decoding / KV cache",
+    "arxiv": "2608.24650",
+    "doi": "",
+    "official_id": "2608.24650",
+    "paper_url": "https://arxiv.org/abs/2608.24650",
+    "code_url": "https://github.com/casys-kaist/Simthesizer",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Introduces a composable dynamic-DAG simulator plus agent-driven lowering for rapidly evolving LLM serving mechanisms. It explicitly models agentic multi-call/tool workflows, disaggregated serving, KV-cache quantization and speculative decoding; extensions track a vLLM-based real system with 2.51% average throughput error versus 6.03% for extensions on existing simulators, while simulation is up to 284.96x/23.19x faster than LLMServingSim2.0/Vidur. Direct AI-infra systems contribution with public implementation.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "KV Cache / Long Context",
+      "Quantization",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "A Cost-Effective Near-Storage Processing Solution for Offline Inference of Long-Context LLMs",
     "venue": "ASPLOS 2026",
     "topic": "LLM serving / long context / near-storage processing",

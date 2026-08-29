@@ -1,10 +1,10 @@
 # 🧭 Research Map
 
-> **1155 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
+> **1156 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
 
 <div align="center">
 
-[**🆕 Latest 30 Days · 309 tracked**](LATEST_30D.md) · [**🏛️ Classical · 1088**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
+[**🆕 Latest 30 Days · 310 tracked**](LATEST_30D.md) · [**🏛️ Classical · 1088**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
 
 </div>
 
@@ -12,10 +12,10 @@
 
 | # | Research direction | Canonical | Latest 30d tracked |
 |---:|---|---:|---:|
-| 01 | [**LLM Serving**](01-llm-serving.md) | **449** | **216** |
-| 02 | [**Speculative Decoding**](02-speculative-decoding.md) | **154** | **26** |
-| 03 | [**KV Cache / Long Context**](03-kv-cache-long-context.md) | **297** | **53** |
-| 04 | [**Quantization**](04-quantization.md) | **166** | **50** |
+| 01 | [**LLM Serving**](01-llm-serving.md) | **450** | **217** |
+| 02 | [**Speculative Decoding**](02-speculative-decoding.md) | **155** | **27** |
+| 03 | [**KV Cache / Long Context**](03-kv-cache-long-context.md) | **298** | **54** |
+| 04 | [**Quantization**](04-quantization.md) | **167** | **51** |
 | 05 | [**Sparsity / Pruning**](05-sparsity-pruning.md) | **196** | **63** |
 | 06 | [**Efficient Attention**](06-efficient-attention.md) | **171** | **47** |
 | 07 | [**MoE Systems / Accelerators**](07-moe-systems.md) | **87** | **31** |
@@ -24,7 +24,7 @@
 | 10 | [**Multimodal / MLLM Serving**](10-multimodal-mllm-serving.md) | **149** | **56** |
 | 11 | [**Video / Image Generation**](11-video-image-generation.md) | **48** | **17** |
 | 12 | [**Diffusion / Flow Acceleration**](12-diffusion-flow.md) | **144** | **25** |
-| 13 | [**Efficient Reasoning / Agents**](13-efficient-reasoning-agents.md) | **192** | **53** |
+| 13 | [**Efficient Reasoning / Agents**](13-efficient-reasoning-agents.md) | **193** | **54** |
 | 14 | [**VLA / WAM / Physical AI**](14-physical-ai-vla-wam.md) | **62** | **56** |
 | 15 | [**Edge / Cloud / Heterogeneous AI**](15-edge-cloud-heterogeneous.md) | **227** | **97** |
 
