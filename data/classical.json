@@ -17391,6 +17391,27 @@
     ]
   },
   {
+    "title": "A 147TOPS/W, 250TOPS/mm2, Fully Synthesizable, Digital Compute-in-Memory Accelerator Supporting INT8xINT8 with Zero-Point Quantization in Intel 18A Technology",
+    "venue": "ISSCC 2026",
+    "topic": "edge/cloud/heterogeneous AI systems / compute-in-memory / INT8 quantization accelerator",
+    "arxiv": "",
+    "doi": "10.1109/ISSCC49663.2026.11409207",
+    "official_id": "10.1109/ISSCC49663.2026.11409207",
+    "paper_url": "https://doi.org/10.1109/ISSCC49663.2026.11409207",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ISSCC 2026 fabricated Intel 18A fully synthesizable digital compute-in-memory AI accelerator supporting zero-point-quantized INT8xINT8. It reaches 21.5 TOPS, 250 TOPS/mm2 and up to 147 TOPS/W, with explicit power/area optimizations for quantized AI inference; a direct efficient-AI hardware canonical item.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "A 28nm Speculative-Decoding LLM Processor Achieving 105-to-685μs/Token Latency for Billion-Parameter Models",
     "venue": "ISSCC 2026",
     "topic": "speculative decoding / LLM accelerator / mixed precision",
@@ -17408,6 +17429,26 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Speculative Decoding"
+    ]
+  },
+  {
+    "title": "A 48Gb/s 24Gb GDDR7 DRAM for Mid-Range Inference AI with Symmetric 2CH-Mode Operation, Clock-Path Optimization, and RAS Features",
+    "venue": "ISSCC 2026",
+    "topic": "edge/cloud/heterogeneous AI systems / AI memory / inference infrastructure / GDDR7",
+    "arxiv": "",
+    "doi": "10.1109/ISSCC49663.2026.11409122",
+    "official_id": "10.1109/ISSCC49663.2026.11409122",
+    "paper_url": "https://doi.org/10.1109/ISSCC49663.2026.11409122",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ISSCC 2026 memory-system paper explicitly targeting mid-range inference AI. The 24Gb GDDR7 reaches 48Gb/s, uses symmetric 2-channel operation to increase effective density without the usual speed penalty, adds server RAS features, and provides low-VDDQ support for energy-efficient on-device AI.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -17494,6 +17535,27 @@
     "directions": [
       "Quantization",
       "Multimodal / MLLM Serving",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "HYDAR: A 390K QPS, 1574K QPS/W Hybrid Analog/Digital Compute-in-RRAM Accelerator for Efficient Recommendation System",
+    "venue": "ISSCC 2026",
+    "topic": "edge/cloud/heterogeneous AI systems / recommendation serving / vector search / RRAM accelerator",
+    "arxiv": "",
+    "doi": "10.1109/ISSCC49663.2026.11409110",
+    "official_id": "10.1109/ISSCC49663.2026.11409110",
+    "paper_url": "https://doi.org/10.1109/ISSCC49663.2026.11409110",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ISSCC 2026 28nm hybrid compute-in-RRAM accelerator for recommendation-system similarity vector search. It uses early termination, irregular-workload-aware dataflow and coarse-to-fine retrieval; the 36M-RRAM chip reaches 390K QPS and 1574K QPS/W, while a 576M scale-out system reports 66x QPS and 181x QPS/W gains.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
       "Edge / Cloud / Heterogeneous AI"
     ]
   },
