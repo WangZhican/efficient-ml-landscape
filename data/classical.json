@@ -16148,6 +16148,27 @@
     ]
   },
   {
+    "title": "AccCtr: Accelerating Training-Free Conditional Control For Diffusion Models",
+    "venue": "IJCAI 2025",
+    "topic": "diffusion/flow acceleration / image generation acceleration",
+    "arxiv": "",
+    "doi": "10.24963/ijcai.2025/95",
+    "official_id": "10.24963/ijcai.2025/95",
+    "paper_url": "https://www.ijcai.org/proceedings/2025/95",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "IJCAI 2025 Main Track direct diffusion-inference acceleration. AccCtr restructures training-free conditional diffusion sampling to reduce slow guidance/sampling cost and reports faster generation with strong sample quality.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "Accelerating Adversarial Training on Under-Utilized GPU",
     "venue": "IJCAI 2025",
     "topic": "GPU utilization / efficient training / adversarial training",

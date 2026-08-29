@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **1164 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **316 visible papers = 70 P0 + 124 P1 + 122 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1165 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **316 visible papers = 70 P0 + 124 P1 + 122 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -339,7 +339,7 @@
 | **P2 · Relevant** | **Prime Agent: A Self-Improving RLM Harness** | Fresh / preprint | agent systems / long-horizon harness / resource accounting | [Link](https://arxiv.org/abs/2608.23552) | — |
 | **P2 · Relevant** | **Act with Intent: Distilling Behavior Intent for Vision-Language-Action Models** | Fresh / preprint | Physical AI / VLA / action decoder | [Link](https://arxiv.org/abs/2608.23478) | — |
 
-## 🏛️ Classical / Historical · 1094
+## 🏛️ Classical / Historical · 1095
 
 ### ICML 2026 · 372
 
@@ -1447,10 +1447,11 @@
 | **Canonical** | **Serving Hybrid LLM Loads with SLO Guarantees Using CPU-GPU Attention Piggybacking** | SIGMOD 2026 | LLM serving / heterogeneous CPU-GPU / SLO scheduling | [Link](https://arxiv.org/abs/2603.12831) | — |
 | **Canonical** | **SG-Serve: Efficient Model Serving for Subgraph-based Graph Representation Learning** | SIGMOD 2026 | graph model serving / tail-latency optimization / workload-aware GPU batching | [Link](https://dl.acm.org/doi/10.1145/3786697) | — |
 
-### IJCAI 2025 · 9
+### IJCAI 2025 · 10
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
+| **Canonical** | **AccCtr: Accelerating Training-Free Conditional Control For Diffusion Models** | IJCAI 2025 | diffusion/flow acceleration / image generation acceleration | [Link](https://www.ijcai.org/proceedings/2025/95) | — |
 | **Canonical** | **Accelerating Adversarial Training on Under-Utilized GPU** | IJCAI 2025 | GPU utilization / efficient training / adversarial training | [Link](https://www.ijcai.org/proceedings/2025/774) | [Repo](https://github.com/zxzhan/AttackRider) |
 | **Canonical** | **Accelerating Diffusion-based Super-Resolution with Dynamic Time-Spatial Sampling** | IJCAI 2025 | diffusion acceleration / adaptive sampling / image generation efficiency | [Link](https://www.ijcai.org/proceedings/2025/199) | — |
 | **Canonical** | **Accurate Sublayer Pruning for Large Language Models by Exploiting Latency and Tunability Information** | IJCAI 2025 | LLM sublayer pruning / latency-aware inference acceleration | [Link](https://arxiv.org/abs/2506.03510) | [Repo](https://github.com/snudm-starlab/SPRINT) |

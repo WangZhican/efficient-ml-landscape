@@ -1,12 +1,12 @@
 {
-  "unique_papers": 1164,
+  "unique_papers": 1165,
   "latest_30d_tracked_total": 316,
   "latest_30d_quality_gated": 70,
   "latest_30d_watchlist": 124,
   "latest_30d_relevant_low_priority": 122,
-  "classical_papers": 1094,
+  "classical_papers": 1095,
   "latest_strong": 45,
-  "papers_with_primary_link": 1142,
+  "papers_with_primary_link": 1143,
   "papers_with_verified_code_link": 320,
   "venues": 51,
   "direction_counts": {
@@ -20,12 +20,12 @@
     "GPU Kernel / DSL / Compiler": 275,
     "Distributed Training / Inference": 201,
     "Multimodal / MLLM Serving": 149,
-    "Video / Image Generation": 48,
-    "Diffusion / Flow Acceleration": 145,
+    "Video / Image Generation": 49,
+    "Diffusion / Flow Acceleration": 146,
     "Efficient Reasoning / Agents": 198,
     "VLA / WAM / Physical AI": 62,
     "Edge / Cloud / Heterogeneous AI": 232
   },
   "source_date_beijing": "2026-08-30",
-  "updated_at_beijing": "2026-08-30T01:07:37+08:00"
+  "updated_at_beijing": "2026-08-30T02:01:50+08:00"
 }
