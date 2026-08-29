@@ -24437,6 +24437,29 @@
     ]
   },
   {
+    "title": "Multi-Segment Attention: Enabling Efficient KV-Cache Management for Faster Large Language Model Serving",
+    "venue": "",
+    "topic": "LLM serving / KV cache / efficient attention / agentic serving",
+    "arxiv": "2606.02964",
+    "doi": "",
+    "official_id": "2606.02964",
+    "paper_url": "https://arxiv.org/abs/2606.02964",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "AsymCache is a lossless computation-latency-aware KV-cache management system. It combines fused Multi-Segment Attention for non-contiguous KV regions, position/reuse-aware eviction, and adaptive chunking; reports up to 2.03x lower TTFT and 1.71x lower TPOT over recent baselines, plus up to 18.1% lower agent-job latency when integrated with Continuum.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Attention",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "NebulaVLA: A Dual-Frequency Vision-Language-Action Model With Guide Action for Robotic Manipulation",
     "venue": "",
     "topic": "VLA efficient inference",
