@@ -23975,6 +23975,28 @@
     ]
   },
   {
+    "title": "EdgeFlow: Fast Cold Starts for LLMs on Mobile Devices",
+    "venue": "",
+    "topic": "edge/cloud/heterogeneous AI systems / mobile LLM inference / quantization / NPU runtime",
+    "arxiv": "2604.09083",
+    "doi": "",
+    "official_id": "2604.09083",
+    "paper_url": "https://arxiv.org/abs/2604.09083",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "EdgeFlow is a direct mobile-LLM inference system targeting cold-start TTFT. It combines NPU-aware adaptive weight precision, SIMD-friendly packing, and a fine-grained CPU-NPU pipeline; the paper reports up to 4.07x lower cold-start latency than llama.cpp/MNN/llm.npu at comparable accuracy. First-party author publication page independently lists the paper and primary PDF.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Efficient INT8 Inference of Small NLP Models on Server CPUs with PyTorch Native Stack",
     "venue": "",
     "topic": "CPU INT8 inference / PyTorch-TorchAO / TorchInductor",
