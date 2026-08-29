@@ -23729,6 +23729,29 @@
     ]
   },
   {
+    "title": "AGENTSERVESIM: A Hardware-aware Simulator for Multi-Turn LLM Agent Serving",
+    "venue": "",
+    "topic": "LLM serving / agentic serving / KV-cache management / hardware-aware simulation",
+    "arxiv": "2606.09613",
+    "doi": "",
+    "official_id": "2606.09613",
+    "paper_url": "https://arxiv.org/abs/2606.09613",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Direct agent-serving systems simulator: models multi-turn program execution, tool gaps, session-aware routing and KV residency across HBM/DRAM-CXL/eviction; reproduces real serving behavior within 6% while enabling policy exploration on CPUs.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Reasoning / Agents",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification",
     "venue": "",
     "topic": "VLA speculative inference / algorithm-architecture co-design",
@@ -24307,6 +24330,29 @@
     ]
   },
   {
+    "title": "HyMCache: A KV Cache Framework for Multi-Turn LLM Serving with CXL-Hybrid Memory",
+    "venue": "",
+    "topic": "LLM serving / KV cache / CXL-hybrid memory / disaggregated inference",
+    "arxiv": "2607.18141",
+    "doi": "",
+    "official_id": "2607.18141",
+    "paper_url": "https://arxiv.org/abs/2607.18141",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Real CXL-HM prototype for TB-scale reusable KV in multi-turn/agentic serving. Request-level prefix prefetch and write buffering stage SSD-backed KV into device DRAM; reports 3.0x over local LMCache and 1.45x in PD-disaggregated serving at equal DRAM budget.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Reasoning / Agents",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Just Noticeable Difference Modeling for Token Compression in Vision-Language-Action Models",
     "venue": "",
     "topic": "Physical AI / VLA token compression / KV reuse / pruning",
@@ -24673,6 +24719,30 @@
     "directions": [
       "Efficient Attention",
       "Video / Image Generation"
+    ]
+  },
+  {
+    "title": "SwiftCache: Efficient LLM Serving for Multi-turn Conversations with Heterogeneous KV Cache Sharing",
+    "venue": "",
+    "topic": "LLM serving / KV cache / multi-turn agents / NVLink memory sharing",
+    "arxiv": "2606.16135",
+    "doi": "",
+    "official_id": "2606.16135",
+    "paper_url": "https://arxiv.org/abs/2606.16135",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Collaborative serving system that lets heterogeneous colocated models donate idle GPU memory and NVLink bandwidth for cross-model KV-prefix sharing; reports up to 69% lower P99 TTFT and 3.98x longer supported context versus vLLM/SGLang.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "GPU Kernel / DSL / Compiler",
+      "Efficient Reasoning / Agents",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
