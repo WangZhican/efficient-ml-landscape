@@ -17834,6 +17834,46 @@
     ]
   },
   {
+    "title": "A 51.6μJ/Token Subspace-Rotation-Based Dual-Quantized Large-Language-Model Accelerator with Fused Scale-Activation INT Datapath and Rearranged Bit-Slice LUT Computation",
+    "venue": "ISSCC 2026",
+    "topic": "LLM quantization / rotation / accelerator architecture",
+    "arxiv": "",
+    "doi": "10.1109/ISSCC49663.2026.11409212",
+    "official_id": "ISSCC26_ROT_DUALQ_LLM",
+    "paper_url": "https://doi.org/10.1109/ISSCC49663.2026.11409212",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ISSCC 2026 silicon accelerator for rotation-based dual-quantized LLM inference. Subspace rotation with parallel Hadamard transposer reduces rotation power/area; fused scale-activation INT datapath and rearranged bit-slice LUT computation directly co-design quantization and hardware.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization"
+    ]
+  },
+  {
+    "title": "A Quad-Chiplet AI SoC with Full-Chip Scalable Mesh over 16Gbps UCIe-Advanced Die-to-Die Interface for Large Scale AI Inferencing",
+    "venue": "ISSCC 2026",
+    "topic": "LLM inference accelerator / chiplet / UCIe / AI infrastructure",
+    "arxiv": "",
+    "doi": "10.1109/ISSCC49663.2026.11409003",
+    "official_id": "IEEE11409003",
+    "paper_url": "https://rebellions.ai/isscc-a-quad-chiplet-ai-soc-with-full-chip-scalable-mesh-over-16gbps-ucie-advanced-die-to-die-interface-for-large-scale-ai-inferencing/",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Rebellions Rebel100 production-oriented quad-chiplet AI SoC for large-scale LLM inference. Four homogeneous chiplets are unified through UCIe-Advanced and a full-chip mesh; the public product page exposes HBM3E, mixed precision, predictive DMA and vLLM/Triton support, making this a direct AI-infrastructure accelerator contribution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "ARIES and REGULUS: A Unified and Scalable Hardware-Software Co-Designed NPU SoC Family for On-Device and On-Premises Multimodal Inference",
     "venue": "ISSCC 2026",
     "topic": "NPU / multimodal inference / mixed precision / edge-cloud AI",
