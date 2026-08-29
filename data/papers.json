@@ -1287,6 +1287,28 @@
     ]
   },
   {
+    "title": "S2-MoE: Enabling Efficient Self-Speculative Decoding for Mixture-of-Experts on Edge Devices",
+    "venue": "arXiv 2026",
+    "topic": "speculative decoding / MoE systems / edge inference / llama.cpp",
+    "arxiv": "2608.15018",
+    "doi": "",
+    "official_id": "2608.15018",
+    "paper_url": "https://arxiv.org/abs/2608.15018",
+    "code_url": "https://github.com/angerybob/S2-MoE",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Direct edge-AI inference contribution combining routing-aware adaptive speculative expansion, reuse-aware expert gating, and shared-context self-speculation for MoE. Implemented in llama.cpp; reports up to 5.3x and about 2.0x average speedup across evaluated MoE models/tasks, with Jetson Orin and RTX 4090 evaluation.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Speculative Decoding",
+      "MoE Systems / Accelerators",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "SAC: Disaggregated KV Cache System for Sparse Attention LLMs with CXL",
     "venue": "arXiv 2026",
     "topic": "LLM serving / KV cache / sparse attention / disaggregated memory / CXL",

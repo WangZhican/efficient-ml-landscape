@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-08-29",
   "window_start_beijing": "2026-07-30",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 306,
+  "tracked_total": 307,
   "p0_strong_or_canonical": [
     {
       "title": "Zetta: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence",
@@ -222,6 +222,28 @@
         "Efficient Attention",
         "Distributed Training / Inference",
         "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "S2-MoE: Enabling Efficient Self-Speculative Decoding for Mixture-of-Experts on Edge Devices",
+      "venue": "arXiv 2026",
+      "topic": "speculative decoding / MoE systems / edge inference / llama.cpp",
+      "arxiv": "2608.15018",
+      "doi": "",
+      "official_id": "2608.15018",
+      "paper_url": "https://arxiv.org/abs/2608.15018",
+      "code_url": "https://github.com/angerybob/S2-MoE",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "BACKFILL_HIGH",
+      "why": "Direct edge-AI inference contribution combining routing-aware adaptive speculative expansion, reuse-aware expert gating, and shared-context self-speculation for MoE. Implemented in llama.cpp; reports up to 5.3x and about 2.0x average speedup across evaluated MoE models/tasks, with Jetson Orin and RTX 4090 evaluation.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Speculative Decoding",
+        "MoE Systems / Accelerators",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -6871,6 +6893,28 @@
         "Efficient Attention",
         "Distributed Training / Inference",
         "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "S2-MoE: Enabling Efficient Self-Speculative Decoding for Mixture-of-Experts on Edge Devices",
+      "venue": "arXiv 2026",
+      "topic": "speculative decoding / MoE systems / edge inference / llama.cpp",
+      "arxiv": "2608.15018",
+      "doi": "",
+      "official_id": "2608.15018",
+      "paper_url": "https://arxiv.org/abs/2608.15018",
+      "code_url": "https://github.com/angerybob/S2-MoE",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "BACKFILL_HIGH",
+      "why": "Direct edge-AI inference contribution combining routing-aware adaptive speculative expansion, reuse-aware expert gating, and shared-context self-speculation for MoE. Implemented in llama.cpp; reports up to 5.3x and about 2.0x average speedup across evaluated MoE models/tasks, with Jetson Orin and RTX 4090 evaluation.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Speculative Decoding",
+        "MoE Systems / Accelerators",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
