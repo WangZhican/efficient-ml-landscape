@@ -1,10 +1,10 @@
 # 📚 Paper Library
 
-> **1160 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **310 visible papers = 68 P0 + 120 P1 + 122 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1161 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **311 visible papers = 69 P0 + 120 P1 + 122 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
-## 🆕 P0 · Strong / Canonical recent · 68
+## 🆕 P0 · Strong / Canonical recent · 69
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -74,6 +74,7 @@
 | **P0 · Strong** | **APT: Accelerating Diffusion Transformers via Attention Probability-Guided Pruning and Quantization** | Fresh / preprint | diffusion acceleration / sparse attention / quantization / accelerator | [Link](https://arxiv.org/abs/2608.25380) | — |
 | **P0 · Strong** | **An Empirical Study of Training Pixel-Space Text-to-Image Diffusion Models** | Fresh / preprint | image generation acceleration | [Link](https://arxiv.org/abs/2608.16887) | — |
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
+| **P0 · Strong** | **AgentSpec: Speculative Decoding for Batch Inference of LLM Agents** | EMNLP 2026 | speculative decoding / efficient reasoning-agent systems / LLM serving | [Link](https://arxiv.org/abs/2608.24004) | — |
 | **P0 · Strong** | **Affix Cache for Diffusion Large Language Models** | Fresh / preprint | diffusion LLM inference / KV cache / serving | [Link](https://arxiv.org/abs/2608.26140) | — |
 | **P0 · Strong** | **A Thread-Register Decoupled GPU Execution Model for Efficient Tensor Computation** | Fresh / preprint | GPU execution architecture / tensor cores / LLM serving | [Link](https://arxiv.org/abs/2608.19628) | — |
 

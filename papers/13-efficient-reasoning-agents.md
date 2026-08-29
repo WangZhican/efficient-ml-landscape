@@ -1,10 +1,10 @@
 # 13 · Efficient Reasoning / Agents
 
-> **197 canonical papers** mapped here, plus a broader **54-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **198 canonical papers** mapped here, plus a broader **55-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 54 tracked
+## 🆕 Latest 30 Days · 55 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -62,6 +62,7 @@
 | **P0 · Strong** | **ClawGym II: Exploring Black-Box RL on Agent Harness** | Fresh / preprint | agent training systems | [Link](https://arxiv.org/abs/2608.16798) | — |
 | **P0 · Strong** | **CAKE: Compiler-Agent Co-Design for Frontier Kernel Evolution** | arXiv 2026 | GPU kernel / DSL / compiler / agentic systems / LLM serving | [Link](https://arxiv.org/abs/2608.12629) | — |
 | **P1 · Watch** | **CacheRouter: A Dual-Path Tool Routing Architecture with Cache-Preserving Main-Model Isolation for Long-Tail Tool Discovery** | Fresh / preprint | agent serving / prefix cache / tool routing | [Link](https://arxiv.org/abs/2608.22708) | — |
+| **P0 · Strong** | **AgentSpec: Speculative Decoding for Batch Inference of LLM Agents** | EMNLP 2026 | speculative decoding / efficient reasoning-agent systems / LLM serving | [Link](https://arxiv.org/abs/2608.24004) | — |
 
 ## 🏛️ Classical / Historical · 182 canonical
 

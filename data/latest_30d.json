@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-08-29",
   "window_start_beijing": "2026-07-30",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 310,
+  "tracked_total": 311,
   "p0_strong_or_canonical": [
     {
       "title": "Zetta: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence",
@@ -1458,6 +1458,28 @@
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "AgentSpec: Speculative Decoding for Batch Inference of LLM Agents",
+      "venue": "EMNLP 2026",
+      "topic": "speculative decoding / efficient reasoning-agent systems / LLM serving",
+      "arxiv": "2608.24004",
+      "doi": "",
+      "official_id": "2608.24004",
+      "paper_url": "https://arxiv.org/abs/2608.24004",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "BACKFILL_HIGH",
+      "why": "AgentSpec targets the large-batch failure mode of speculative decoding for LLM-agent serving. It uses structure-isolated drafting plus redundancy-aware dynamic token-budget allocation, is implemented in vLLM, and evaluates five agent workloads across four model families; the paper reports up to 2.02x speedup over autoregressive decoding while remaining effective at larger batch sizes.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Speculative Decoding",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -8199,6 +8221,28 @@
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "AgentSpec: Speculative Decoding for Batch Inference of LLM Agents",
+      "venue": "EMNLP 2026",
+      "topic": "speculative decoding / efficient reasoning-agent systems / LLM serving",
+      "arxiv": "2608.24004",
+      "doi": "",
+      "official_id": "2608.24004",
+      "paper_url": "https://arxiv.org/abs/2608.24004",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "BACKFILL_HIGH",
+      "why": "AgentSpec targets the large-batch failure mode of speculative decoding for LLM-agent serving. It uses structure-isolated drafting plus redundancy-aware dynamic token-budget allocation, is implemented in vLLM, and evaluates five agent workloads across four model families; the paper reports up to 2.02x speedup over autoregressive decoding while remaining effective at larger batch sizes.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Speculative Decoding",
+        "Efficient Reasoning / Agents"
       ]
     },
     {

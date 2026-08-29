@@ -4795,6 +4795,28 @@
     ]
   },
   {
+    "title": "AgentSpec: Speculative Decoding for Batch Inference of LLM Agents",
+    "venue": "EMNLP 2026",
+    "topic": "speculative decoding / efficient reasoning-agent systems / LLM serving",
+    "arxiv": "2608.24004",
+    "doi": "",
+    "official_id": "2608.24004",
+    "paper_url": "https://arxiv.org/abs/2608.24004",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "AgentSpec targets the large-batch failure mode of speculative decoding for LLM-agent serving. It uses structure-isolated drafting plus redundancy-aware dynamic token-budget allocation, is implemented in vLLM, and evaluates five agent workloads across four model families; the paper reports up to 2.02x speedup over autoregressive decoding while remaining effective at larger batch sizes.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "VisCache: Visual KV Cache Pruning for Efficient Vision Large Language Model Inference",
     "venue": "EMNLP 2026 Main Conference",
     "topic": "multimodal/MLLM serving / KV cache / pruning / video inference",
