@@ -17431,6 +17431,31 @@
     ]
   },
   {
+    "title": "A 71.3mJ/Frame End-to-End Driving Processor with Flexible Heterogeneous Core Orchestration via Sparsity Reasoning",
+    "venue": "ISSCC 2026",
+    "topic": "VLA/WAM/Physical AI serving / edge AI accelerator / sparsity / heterogeneous runtime",
+    "arxiv": "",
+    "doi": "10.1109/ISSCC49663.2026.11409158",
+    "official_id": "10.1109/ISSCC49663.2026.11409158",
+    "paper_url": "https://www.isl-yonsei.ac/news-posts/congratulations-jueun-and-sanghos-paper-is-accepted-to-ieee-international-solid-state-circuits-conference-isscc/",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ISSCC 2026 fabricated end-to-end autonomous-driving processor. It combines a sparsity reasoning unit, sparsity-aware adaptive heterogeneous-core orchestration, segmented aggregation network, and long/short-term memory support for temporal attention. Public author/lab records report 10.3 fps at 71.3 mJ/frame and 218x lower energy than prior driving SoC, making it a protected Physical-AI systems/hardware canonical item.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "A Quad-Chiplet AI SoC with Full-Chip Scalable Mesh over 16Gbps UCIe-Advanced Die-to-Die Interface for Large Scale AI Inferencing",
     "venue": "ISSCC 2026",
     "topic": "LLM inference accelerator / chiplet / UCIe / AI infrastructure",
@@ -17491,6 +17516,31 @@
     "directions": [
       "Quantization",
       "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "MADiC: A 3nm 7.4TOPS/mm2, 17.4TOPS/W Generative Diffusion Accelerator Enabled by Hardware-Compiler Co-Optimization of Memory Hierarchy and Operator Parallelism",
+    "venue": "ISSCC 2026",
+    "topic": "diffusion/flow acceleration / image generation accelerator / hardware-compiler co-design",
+    "arxiv": "",
+    "doi": "10.1109/ISSCC49663.2026.11409294",
+    "official_id": "10.1109/ISSCC49663.2026.11409294",
+    "paper_url": "https://doi.org/10.1109/ISSCC49663.2026.11409294",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ISSCC 2026 MediaTek 3nm diffusion accelerator for generative image workloads. It co-optimizes L1/L2 memory hierarchy, cross-loop feature-map allocation, operator parallelism and activation-aware scheduling, reporting 7.4 TOPS/mm2 and 17.4 TOPS/W; direct high-value diffusion acceleration silicon.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference",
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration",
       "Edge / Cloud / Heterogeneous AI"
     ]
   },
@@ -17578,6 +17628,27 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Tiamat: A 98-to-134ms/Step Transformer-Based Diffusion Model Processor Supporting Classifier-Free Guidance for Image Generation",
+    "venue": "ISSCC 2026",
+    "topic": "diffusion/flow acceleration / image generation accelerator / transformer hardware",
+    "arxiv": "",
+    "doi": "10.1109/ISSCC49663.2026.11409204",
+    "official_id": "10.1109/ISSCC49663.2026.11409204",
+    "paper_url": "https://www.ee.nthu.edu.tw/vcslab/publications.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ISSCC 2026 transformer-based diffusion processor with native classifier-free-guidance support; measured latency is 98-to-134 ms per diffusion step. This is direct generative-model inference acceleration silicon and belongs in the diffusion/image-generation hardware lineage.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
