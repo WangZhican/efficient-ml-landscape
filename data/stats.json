@@ -1,12 +1,12 @@
 {
-  "unique_papers": 1145,
+  "unique_papers": 1146,
   "latest_30d_tracked_total": 305,
   "latest_30d_quality_gated": 62,
   "latest_30d_watchlist": 120,
   "latest_30d_relevant_low_priority": 123,
-  "classical_papers": 1083,
+  "classical_papers": 1084,
   "latest_strong": 45,
-  "papers_with_primary_link": 1123,
+  "papers_with_primary_link": 1124,
   "papers_with_verified_code_link": 314,
   "venues": 48,
   "direction_counts": {
@@ -21,11 +21,11 @@
     "Distributed Training / Inference": 200,
     "Multimodal / MLLM Serving": 147,
     "Video / Image Generation": 48,
-    "Diffusion / Flow Acceleration": 143,
+    "Diffusion / Flow Acceleration": 144,
     "Efficient Reasoning / Agents": 189,
     "VLA / WAM / Physical AI": 60,
     "Edge / Cloud / Heterogeneous AI": 224
   },
   "source_date_beijing": "2026-08-29",
-  "updated_at_beijing": "2026-08-29T10:04:21+08:00"
+  "updated_at_beijing": "2026-08-29T11:02:56+08:00"
 }

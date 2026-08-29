@@ -11936,6 +11936,26 @@
     ]
   },
   {
+    "title": "LUGS: Latent-aware Guidance for Efficient Unmasking in Diffusion Large Language Models",
+    "venue": "ICML 2026",
+    "topic": "diffusion language model acceleration / efficient decoding / unmasking policy / latent guidance",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "u1EL7dCemU",
+    "paper_url": "https://openreview.net/forum?id=u1EL7dCemU",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 poster. Direct dLLM inference-efficiency work: uses latent hidden-state guidance to improve unmasking decisions beyond local confidence/entropy heuristics, targeting better quality-efficiency trade-offs in parallel diffusion decoding.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "M+Adam: Low-Precision Training via Additive-Multiplicative Optimization",
     "venue": "ICML 2026",
     "topic": "low-precision training / FP8 FP4 / optimizer / memory efficiency",
