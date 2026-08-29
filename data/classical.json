@@ -1242,6 +1242,29 @@
     ]
   },
   {
+    "title": "Lynx: Progressive Speculative Quantization for accelerating KV Transfer in Long-Context Inference",
+    "venue": "arXiv 2026",
+    "topic": "LLM serving / disaggregated inference / KV cache transfer / progressive quantization / speculative decoding",
+    "arxiv": "2607.01831",
+    "doi": "",
+    "official_id": "2607.01831",
+    "paper_url": "https://arxiv.org/abs/2607.01831",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Direct AI-infra systems work for disaggregated long-context inference. Splits KV into high-priority Anchor bits and Residual bits, begins speculative decode after Anchor arrival while Residual transfer overlaps, then verifies against higher precision. Reports up to 1.43x TTFT improvement over INT8 while matching BF16-level accuracy.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "KV Cache / Long Context",
+      "Quantization"
+    ]
+  },
+  {
     "title": "A Cost-Effective Near-Storage Processing Solution for Offline Inference of Long-Context LLMs",
     "venue": "ASPLOS 2026",
     "topic": "LLM serving / long context / near-storage processing",
