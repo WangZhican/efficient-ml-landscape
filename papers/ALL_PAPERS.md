@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **1147 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **305 visible papers = 62 P0 + 120 P1 + 123 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1148 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **305 visible papers = 62 P0 + 120 P1 + 123 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -328,7 +328,7 @@
 | **P2 · Relevant** | **Prime Agent: A Self-Improving RLM Harness** | Fresh / preprint | agent systems / long-horizon harness / resource accounting | [Link](https://arxiv.org/abs/2608.23552) | — |
 | **P2 · Relevant** | **Act with Intent: Distilling Behavior Intent for Vision-Language-Action Models** | Fresh / preprint | Physical AI / VLA / action decoder | [Link](https://arxiv.org/abs/2608.23478) | — |
 
-## 🏛️ Classical / Historical · 1085
+## 🏛️ Classical / Historical · 1086
 
 ### ICML 2026 · 370
 
@@ -1632,11 +1632,12 @@
 | **Canonical** | **Modular GPU Programming with Typed Perspectives** | PLDI 2026 | GPU kernel DSL / compiler / Tensor Core programming | [Link](https://arxiv.org/abs/2511.11939) | — |
 | **Canonical** | **Neptune: Advanced ML Operator Fusion for Locality and Parallelism on GPUs** | PLDI 2026 | ML compiler / attention operator fusion | [Link](https://arxiv.org/abs/2510.08726) | [Repo](https://github.com/uiuc-arc/neptune) |
 
-### arXiv 2026 · 1
+### arXiv 2026 · 2
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **Canonical** | **Lynx: Progressive Speculative Quantization for accelerating KV Transfer in Long-Context Inference** | arXiv 2026 | LLM serving / disaggregated inference / KV cache transfer / progressive quantization / speculative decoding | [Link](https://arxiv.org/abs/2607.01831) | — |
+| **Canonical** | **SAC: Disaggregated KV Cache System for Sparse Attention LLMs with CXL** | arXiv 2026 | LLM serving / KV cache / sparse attention / disaggregated memory / CXL | [Link](https://arxiv.org/abs/2606.19746) | — |
 
 ### HPCA 2026 Industry Track · 1
 

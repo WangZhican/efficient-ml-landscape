@@ -1265,6 +1265,30 @@
     ]
   },
   {
+    "title": "SAC: Disaggregated KV Cache System for Sparse Attention LLMs with CXL",
+    "venue": "arXiv 2026",
+    "topic": "LLM serving / KV cache / sparse attention / disaggregated memory / CXL",
+    "arxiv": "2606.19746",
+    "doi": "",
+    "official_id": "2606.19746",
+    "paper_url": "https://arxiv.org/abs/2606.19746",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Direct AI-infra systems work for sparse-attention LLM serving. SAC replaces coarse full-prefix RDMA fetching with cache-line-granular CXL load/store and fetches only top-k KV entries on demand. Evaluated with DeepSeek-V3.2/SGLang, reporting 2.1x higher throughput, 9.7x lower TTFT, and 1.8x lower TBT versus RDMA baselines.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "A Cost-Effective Near-Storage Processing Solution for Offline Inference of Long-Context LLMs",
     "venue": "ASPLOS 2026",
     "topic": "LLM serving / long context / near-storage processing",
