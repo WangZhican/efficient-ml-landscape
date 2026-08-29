@@ -1,8 +1,8 @@
 {
-  "window_end_beijing": "2026-08-29",
-  "window_start_beijing": "2026-07-30",
+  "window_end_beijing": "2026-08-30",
+  "window_start_beijing": "2026-07-31",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 311,
+  "tracked_total": 316,
   "p0_strong_or_canonical": [
     {
       "title": "Zetta: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence",
@@ -1388,6 +1388,28 @@
         "KV Cache / Long Context",
         "Sparsity / Pruning",
         "Efficient Attention"
+      ]
+    },
+    {
+      "title": "AsymSpec: Efficient Cloud–Edge Speculative Decoding over Asymmetric Networks",
+      "venue": "",
+      "topic": "speculative decoding / LLM serving / edge-cloud heterogeneous AI systems",
+      "arxiv": "2608.04974",
+      "doi": "",
+      "official_id": "2608.04974",
+      "paper_url": "https://arxiv.org/abs/2608.04974",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "BACKFILL_HIGH",
+      "why": "Cloud-edge speculative serving system with asymmetric verification protocol and confirmed-prefix cross-request pipeline; reports 2.82–28.03x output-token throughput over strongest baseline across three network profiles.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Speculative Decoding",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -3729,6 +3751,27 @@
       ]
     },
     {
+      "title": "Here is a GIFT: Enforcing User Data Isolation in LLM Serving via GPU Information Flow Tracking",
+      "venue": "",
+      "topic": "LLM serving / GPU runtime / confidential computing",
+      "arxiv": "2608.25431",
+      "doi": "",
+      "official_id": "2608.25431",
+      "paper_url": "https://arxiv.org/abs/2608.25431",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "vLLM/DistServe implementation of GPU information-flow tracking for user-data isolation with near-zero latency overhead and roughly 4–10.7% throughput overhead depending on configuration; important AI-infra security work but not primarily an efficiency mechanism.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
       "title": "FlashQuant: Sparse-Dense Fusion for Memory-Efficient Outlier-Aware LLM Inference",
       "venue": "",
       "topic": "",
@@ -3876,6 +3919,29 @@
         "Sparsity / Pruning",
         "Efficient Attention",
         "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "Edge-Native Embodied Intelligence for Action-Aware Wireless Edge Networks",
+      "venue": "",
+      "topic": "VLA/WAM/Physical AI serving / edge-cloud / heterogeneous AI systems",
+      "arxiv": "2608.17774",
+      "doi": "",
+      "official_id": "2608.17774",
+      "paper_url": "https://arxiv.org/abs/2608.17774",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI systems watch: action-aware edge-6G-embodiment architecture with confidence-triggered offloading, edge cognitive services, inference-budget-aware orchestration, and case studies on OOD drone navigation / wireless adapter delivery. Directly relevant to cloud-edge Physical AI but currently architecture/case-study heavy, so retain P1 rather than force canonical.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -4065,6 +4131,49 @@
       "is_latest_30d": true,
       "directions": [
         "LLM Serving"
+      ]
+    },
+    {
+      "title": "Architecting the Next Generation of Asynchronous, Distributed GPUs for the AI Era",
+      "venue": "",
+      "topic": "GPU architecture / distributed accelerators / simulation",
+      "arxiv": "2608.22602",
+      "doi": "",
+      "official_id": "2608.22602",
+      "paper_url": "https://arxiv.org/abs/2608.22602",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Cycle-level simulator for Ampere/Hopper/Blackwell validated against silicon (99% Pearson correlation, 13.5% mean absolute cycle error) and used for chiplet/SRAM/inter-GPU-prefetch studies; retain as infrastructure watch rather than force canonical.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "An Internet for the KV Cache: Rethinking Classical Infrastructure Boundaries in the LLM Inference Age",
+      "venue": "",
+      "topic": "KV cache / distributed serving / cloud-network-storage systems",
+      "arxiv": "2608.01526",
+      "doi": "",
+      "official_id": "2608.01526",
+      "paper_url": "https://arxiv.org/abs/2608.01526",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "High-value systems vision arguing KV cache should become an internet-scale content-distribution primitive across compute, storage, and network boundaries; useful lineage/architecture watch, but explicitly a call-for-arms rather than an implemented serving mechanism.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Distributed Training / Inference"
       ]
     },
     {
@@ -8154,6 +8263,28 @@
       ]
     },
     {
+      "title": "AsymSpec: Efficient Cloud–Edge Speculative Decoding over Asymmetric Networks",
+      "venue": "",
+      "topic": "speculative decoding / LLM serving / edge-cloud heterogeneous AI systems",
+      "arxiv": "2608.04974",
+      "doi": "",
+      "official_id": "2608.04974",
+      "paper_url": "https://arxiv.org/abs/2608.04974",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "BACKFILL_HIGH",
+      "why": "Cloud-edge speculative serving system with asymmetric verification protocol and confirmed-prefix cross-request pipeline; reports 2.82–28.03x output-token throughput over strongest baseline across three network profiles.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Speculative Decoding",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "APT: Accelerating Diffusion Transformers via Attention Probability-Guided Pruning and Quantization",
       "venue": "Fresh / preprint",
       "topic": "diffusion acceleration / sparse attention / quantization / accelerator",
@@ -10490,6 +10621,27 @@
       ]
     },
     {
+      "title": "Here is a GIFT: Enforcing User Data Isolation in LLM Serving via GPU Information Flow Tracking",
+      "venue": "",
+      "topic": "LLM serving / GPU runtime / confidential computing",
+      "arxiv": "2608.25431",
+      "doi": "",
+      "official_id": "2608.25431",
+      "paper_url": "https://arxiv.org/abs/2608.25431",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "vLLM/DistServe implementation of GPU information-flow tracking for user-data isolation with near-zero latency overhead and roughly 4–10.7% throughput overhead depending on configuration; important AI-infra security work but not primarily an efficiency mechanism.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
       "title": "FlashQuant: Sparse-Dense Fusion for Memory-Efficient Outlier-Aware LLM Inference",
       "venue": "",
       "topic": "",
@@ -10637,6 +10789,29 @@
         "Sparsity / Pruning",
         "Efficient Attention",
         "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "Edge-Native Embodied Intelligence for Action-Aware Wireless Edge Networks",
+      "venue": "",
+      "topic": "VLA/WAM/Physical AI serving / edge-cloud / heterogeneous AI systems",
+      "arxiv": "2608.17774",
+      "doi": "",
+      "official_id": "2608.17774",
+      "paper_url": "https://arxiv.org/abs/2608.17774",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI systems watch: action-aware edge-6G-embodiment architecture with confidence-triggered offloading, edge cognitive services, inference-budget-aware orchestration, and case studies on OOD drone navigation / wireless adapter delivery. Directly relevant to cloud-edge Physical AI but currently architecture/case-study heavy, so retain P1 rather than force canonical.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -10826,6 +11001,49 @@
       "is_latest_30d": true,
       "directions": [
         "LLM Serving"
+      ]
+    },
+    {
+      "title": "Architecting the Next Generation of Asynchronous, Distributed GPUs for the AI Era",
+      "venue": "",
+      "topic": "GPU architecture / distributed accelerators / simulation",
+      "arxiv": "2608.22602",
+      "doi": "",
+      "official_id": "2608.22602",
+      "paper_url": "https://arxiv.org/abs/2608.22602",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Cycle-level simulator for Ampere/Hopper/Blackwell validated against silicon (99% Pearson correlation, 13.5% mean absolute cycle error) and used for chiplet/SRAM/inter-GPU-prefetch studies; retain as infrastructure watch rather than force canonical.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "An Internet for the KV Cache: Rethinking Classical Infrastructure Boundaries in the LLM Inference Age",
+      "venue": "",
+      "topic": "KV cache / distributed serving / cloud-network-storage systems",
+      "arxiv": "2608.01526",
+      "doi": "",
+      "official_id": "2608.01526",
+      "paper_url": "https://arxiv.org/abs/2608.01526",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "High-value systems vision arguing KV cache should become an internet-scale content-distribution primitive across compute, storage, and network boundaries; useful lineage/architecture watch, but explicitly a call-for-arms rather than an implemented serving mechanism.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Distributed Training / Inference"
       ]
     },
     {

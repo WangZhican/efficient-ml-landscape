@@ -23821,6 +23821,28 @@
     ]
   },
   {
+    "title": "AsymSpec: Efficient Cloud–Edge Speculative Decoding over Asymmetric Networks",
+    "venue": "",
+    "topic": "speculative decoding / LLM serving / edge-cloud heterogeneous AI systems",
+    "arxiv": "2608.04974",
+    "doi": "",
+    "official_id": "2608.04974",
+    "paper_url": "https://arxiv.org/abs/2608.04974",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Cloud-edge speculative serving system with asymmetric verification protocol and confirmed-prefix cross-request pipeline; reports 2.82–28.03x output-token throughput over strongest baseline across three network profiles.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "AViTS: Adaptive Spatiotemporal Token Selection for Efficient Dynamic-Resolution Generation",
     "venue": "",
     "topic": "diffusion/image generation acceleration / adaptive token selection",
