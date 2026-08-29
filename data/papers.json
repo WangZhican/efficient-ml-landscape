@@ -17856,6 +17856,28 @@
     ]
   },
   {
+    "title": "LUT-SSM: A 99.3TFLOPS/W LUT-Based State-Space Model Accelerator Using Energy-Efficient Element-Wise Layer Fusion and LUT-Friendly Weight-Only Quantization",
+    "venue": "ISSCC 2026",
+    "topic": "edge/cloud/heterogeneous AI systems / quantization / SSM accelerator",
+    "arxiv": "",
+    "doi": "10.1109/ISSCC49663.2026.11409105",
+    "official_id": "10.1109/ISSCC49663.2026.11409105",
+    "paper_url": "https://pure.kaist.ac.kr/en/publications/lut-ssm-a-993tflopsw-lut-based-state-space-model-accelerator-usin/",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ISSCC 2026 fabricated 28nm FD-SOI SSM accelerator supporting INT-FP GEMM, many-to-many LUT acceleration and element-wise layer fusion; achieves 99.3 TFLOPS/W peak and 96.1 TFLOPS/W on Mamba-1.4B, 1.28x higher energy efficiency than recent designs.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Revolver: Low-Bit GenAI Accelerator for Distilled-Model and CoT with Phase-Aware-Quantization and Rotation-Based Integer-Scaled Group Quantization",
     "venue": "ISSCC 2026",
     "topic": "low-bit GenAI accelerator / reasoning / quantization",
@@ -17874,6 +17896,31 @@
     "directions": [
       "Quantization",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "SMoLPU: 122.1μJ/Token Sparse MoE-Based Speculative Decoding Language Processing Unit with Adaptive-Offload NPU-CIM Core",
+    "venue": "ISSCC 2026",
+    "topic": "MoE systems/accelerators / speculative decoding / edge AI hardware",
+    "arxiv": "",
+    "doi": "10.1109/ISSCC49663.2026.11409285",
+    "official_id": "10.1109/ISSCC49663.2026.11409285",
+    "paper_url": "https://pure.kaist.ac.kr/en/publications/smolpu-1221%CE%BCjtoken-sparse-moe-based-speculative-decoding-language/",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ISSCC 2026 silicon LLM processor combining sparse-MoE speculative decoding, adaptive expert refinement, NPU-CIM offload and DRAM LUT-CIM; reports 2.3x/4.2x prefill/decode energy-efficiency improvement, 3.3x lower latency, and 43.5% lower energy per parameter than prior SOTA.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "MoE Systems / Accelerators",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
