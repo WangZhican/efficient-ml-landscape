@@ -1,6 +1,6 @@
 # 11 · Video / Image Generation
 
-> **47 canonical papers** mapped here, plus a broader **17-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **48 canonical papers** mapped here, plus a broader **17-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -26,7 +26,7 @@
 | **P0 · Strong** | **AViTS: Adaptive Spatiotemporal Token Selection for Efficient Dynamic-Resolution Generation** | Fresh / preprint | diffusion/image generation acceleration / adaptive token selection | [Link](https://arxiv.org/abs/2608.17995) | — |
 | **P0 · Strong** | **An Empirical Study of Training Pixel-Space Text-to-Image Diffusion Models** | Fresh / preprint | image generation acceleration | [Link](https://arxiv.org/abs/2608.16887) | — |
 
-## 🏛️ Classical / Historical · 40 canonical
+## 🏛️ Classical / Historical · 41 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -63,6 +63,7 @@
 | **Canonical** | **Quant VideoGen: Auto-Regressive Long Video Generation via 2-Bit KV-Cache Quantization** | ICML 2026 | video generation / KV-cache quantization / long-horizon inference | [Link](https://arxiv.org/abs/2602.02958) | [Repo](https://github.com/svg-project/Quant-VideoGen) |
 | **Canonical** | **RobuQ: Pushing DiTs to W1.58A2 via Robust Activation Quantization** | ICML 2026 | quantization / diffusion transformer / ternary weights / ultra-low-bit inference | [Link](https://arxiv.org/abs/2509.23582) | [Repo](https://github.com/racoonykc/RobuQ) |
 | **Canonical** | **SGMD: Score Gradient Matching Distillation for Few-Step Video Diffusion Distillation** | ICML 2026 | video generation acceleration / diffusion distillation / few-step generation | [Link](https://arxiv.org/abs/2605.30116) | [Repo](https://github.com/ModelTC/LightX2V) |
+| **Canonical** | **Spectral Evolution Search: Efficient Inference-Time Scaling for Reward-Aligned Image Generation** | ICML 2026 | image generation acceleration / diffusion-flow inference-time scaling / low-frequency search / reward alignment | [Link](https://arxiv.org/abs/2602.03208) | [Repo](https://github.com/yjy415/Spectral-Evolution-Search) |
 | **Canonical** | **Speculative Coupled Decoding for Training-Free Lossless Acceleration of Autoregressive Visual Generation** | ICML 2026 | speculative decoding / autoregressive image-video generation / lossless visual generation acceleration | [Link](https://arxiv.org/abs/2510.24211) | [Repo](https://github.com/junhyukso/SCD) |
 | **Canonical** | **Veda: Scalable Video Diffusion via Distilled Sparse Attention** | ICML 2026 | video diffusion acceleration / distilled sparse attention / tile-sparse GPU kernel | [Link](https://arxiv.org/abs/2605.30325) | — |
 | **Canonical** | **Video-SVD: Efficient Video Diffusion via Orthogonal Basis Composition** | ICML 2026 | video generation acceleration / efficient attention / low-rank basis composition | [Link](https://openreview.net/forum?id=jsqpBopQuS) | [Repo](https://github.com/ICTMCG/Video-SVD) |

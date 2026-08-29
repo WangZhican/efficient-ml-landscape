@@ -1,6 +1,6 @@
 # 07 · MoE Systems / Accelerators
 
-> **85 canonical papers** mapped here, plus a broader **30-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **86 canonical papers** mapped here, plus a broader **30-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -39,7 +39,7 @@
 | **P1 · Watch** | **Cacheable by Design? Training Mixture-of-Experts Routers for Locality Against the Edge Memory-Bandwidth Wall: A Pre-Registered Negative Result with a Systems Measurement Study** | Fresh / preprint | edge MoE serving / expert caching / memory bandwidth | [Link](https://arxiv.org/abs/2608.18261) | — |
 | **P0 · Strong** | **Beyond Capacity: Scalable MoE LLM Inference via High-Bandwidth Flash with Direct GPU and HBM Paths** | Fresh / preprint | MoE serving / high-bandwidth flash architecture | [Link](https://arxiv.org/abs/2608.14333) | — |
 
-## 🏛️ Classical / Historical · 77 canonical
+## 🏛️ Classical / Historical · 78 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -120,3 +120,4 @@
 | **Canonical** | **KTransformers: Unleashing the Full Potential of CPU/GPU Hybrid Inference for MoE Models** | SOSP 2025 | LLM serving / KV / GPU systems | [Link](https://doi.org/10.1145/3731569.3764843) | — |
 | **Canonical** | **Fate: Fast Edge Inference of Mixture-of-Experts Models via Cross-Layer Gate** | The Web Conference 2026 | edge MoE inference / expert prefetch | [Link](https://arxiv.org/abs/2502.12224) | — |
 | **Canonical** | **Self-Speculative Decoding for On-device MoE Acceleration** | The Web Conference 2026 | on-device MoE / speculative decoding | [Link](https://doi.org/10.1145/3774904.3792218) | — |
+| **Canonical** | **ToMoE: Converting Dense Large Language Models to Mixture-of-Experts through Dynamic Structural Pruning** | TMLR 2026 (presented at ICML 2026) | MoE / dynamic structural pruning / dense-to-MoE conversion / efficient LLM inference | [Link](https://arxiv.org/abs/2501.15316) | [Repo](https://github.com/gaosh/ToMoE) |

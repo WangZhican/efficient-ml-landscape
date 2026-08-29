@@ -1,6 +1,6 @@
 # 04 · Quantization
 
-> **164 canonical papers** mapped here, plus a broader **50-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **165 canonical papers** mapped here, plus a broader **50-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -59,7 +59,7 @@
 | **P0 · Strong** | **APT: Accelerating Diffusion Transformers via Attention Probability-Guided Pruning and Quantization** | Fresh / preprint | diffusion acceleration / sparse attention / quantization / accelerator | [Link](https://arxiv.org/abs/2608.25380) | — |
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 
-## 🏛️ Classical / Historical · 155 canonical
+## 🏛️ Classical / Historical · 156 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -144,6 +144,7 @@
 | **Canonical** | **Light Forcing: Accelerating Autoregressive Video Diffusion via Sparse Attention** | ICML 2026 | video generation acceleration / autoregressive video / sparse attention / kernels | [Link](https://arxiv.org/abs/2602.04789) | [Repo](https://github.com/chengtao-lv/LightForcing) |
 | **Canonical** | **LSGQuant: Layer-Sensitivity Guided Quantization for One-Step Diffusion Real-World Video Super-Resolution** | ICML 2026 | quantization / video generation acceleration / diffusion transformer / low-bit inference | [Link](https://arxiv.org/abs/2602.03182) | [Repo](https://github.com/zhengchen1999/LSGQuant) |
 | **Canonical** | **M+Adam: Low-Precision Training via Additive-Multiplicative Optimization** | ICML 2026 | low-precision training / FP8 FP4 / optimizer / memory efficiency | [Link](https://arxiv.org/abs/2607.10611) | — |
+| **Canonical** | **MixFP4: Enhancing NVFP4 with Adaptive FP4/INT4 Block Representations** | ICML 2026 | quantization / FP4-INT4 micro-format / Tensor Core co-design / LLM inference | [Link](https://arxiv.org/abs/2605.31035) | — |
 | **Canonical** | **MixQuant: Pushing the Limits of Block Rotations in Post-Training Quantization** | ICML 2026 | quantization / post-training quantization / block Hadamard rotation / low-bit LLM inference | [Link](https://arxiv.org/abs/2601.22347) | [Repo](https://github.com/Xilinx/brevitas) |
 | **Canonical** | **NanoQuant: Efficient Sub-1-Bit Quantization of Large Language Models** | ICML 2026 | quantization / sub-1-bit PTQ / custom kernels / consumer-GPU deployment | [Link](https://arxiv.org/abs/2602.06694) | [Repo](https://github.com/SamsungLabs/NanoQuant) |
 | **Canonical** | **NeUQI: Near-Optimal Uniform Quantization Parameter Initialization for Low-Bit LLMs** | ICML 2026 | LLM quantization / low-bit PTQ / uniform quantization / parameter initialization / consumer-GPU deployment | [Link](https://arxiv.org/abs/2505.17595) | — |

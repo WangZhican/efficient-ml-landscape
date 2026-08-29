@@ -8347,8 +8347,8 @@
     "topic": "speculative decoding / risk-bounded acceptance / inference acceleration",
     "arxiv": "",
     "doi": "",
-    "official_id": "ICML2026_ARCDECODEACCELERATEDDECODINGWITHRISKBOUN",
-    "paper_url": "https://github.com/NeuraLiying/ARC-Decode",
+    "official_id": "0K57Wtg15V",
+    "paper_url": "https://openreview.net/forum?id=0K57Wtg15V",
     "code_url": "https://github.com/NeuraLiying/ARC-Decode",
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "BACKFILL_HIGH",
@@ -12103,6 +12103,27 @@
     ]
   },
   {
+    "title": "MixFP4: Enhancing NVFP4 with Adaptive FP4/INT4 Block Representations",
+    "venue": "ICML 2026",
+    "topic": "quantization / FP4-INT4 micro-format / Tensor Core co-design / LLM inference",
+    "arxiv": "2605.31035",
+    "doi": "",
+    "official_id": "2605.31035",
+    "paper_url": "https://arxiv.org/abs/2605.31035",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 poster. MixFP4 extends NVFP4 with per-block E2M1/E1M2 selection while reusing the FP8 block-scale sign bit for zero-extra-metadata format tagging and a unified internal compute representation; reports improved 4-bit robustness with only 3.1% area and 1.5% power overhead in the proposed Tensor Core support.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "MixQuant: Pushing the Limits of Block Rotations in Post-Training Quantization",
     "venue": "ICML 2026",
     "topic": "quantization / post-training quantization / block Hadamard rotation / low-bit LLM inference",
@@ -14738,6 +14759,27 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "Spectral Evolution Search: Efficient Inference-Time Scaling for Reward-Aligned Image Generation",
+    "venue": "ICML 2026",
+    "topic": "image generation acceleration / diffusion-flow inference-time scaling / low-frequency search / reward alignment",
+    "arxiv": "2602.03208",
+    "doi": "",
+    "official_id": "2602.03208",
+    "paper_url": "https://arxiv.org/abs/2602.03208",
+    "code_url": "https://github.com/yjy415/Spectral-Evolution-Search",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 poster. SES exploits spectral bias in diffusion/flow generative dynamics and moves gradient-free initial-noise search into a low-frequency wavelet subspace, improving the generation-quality versus compute Pareto frontier under equal inference budgets; official implementation supports SDXL, FLUX and Qwen-Image.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
@@ -22391,6 +22433,28 @@
       "KV Cache / Long Context",
       "Multimodal / MLLM Serving",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "ToMoE: Converting Dense Large Language Models to Mixture-of-Experts through Dynamic Structural Pruning",
+    "venue": "TMLR 2026 (presented at ICML 2026)",
+    "topic": "MoE / dynamic structural pruning / dense-to-MoE conversion / efficient LLM inference",
+    "arxiv": "2501.15316",
+    "doi": "",
+    "official_id": "RFHq46pjb6",
+    "paper_url": "https://arxiv.org/abs/2501.15316",
+    "code_url": "https://github.com/gaosh/ToMoE",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "TMLR 2026 paper presented at ICML 2026. ToMoE converts dense LLM MLPs into input-adaptive MoE structure through differentiable dynamic pruning, reducing active parameters without permanently deleting model capacity; official author repository provides conversion, export and grouped-GEMM execution paths.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "MoE Systems / Accelerators",
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {

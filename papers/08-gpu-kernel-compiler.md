@@ -1,6 +1,6 @@
 # 08 · GPU Kernel / DSL / Compiler
 
-> **270 canonical papers** mapped here, plus a broader **68-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **272 canonical papers** mapped here, plus a broader **68-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -77,7 +77,7 @@
 | **P0 · Strong** | **A Thread-Register Decoupled GPU Execution Model for Efficient Tensor Computation** | Fresh / preprint | GPU execution architecture / tensor cores / LLM serving | [Link](https://arxiv.org/abs/2608.19628) | — |
 | **P1 · Watch** | **A Scalable Pipeline for LLM-Teacher Distillation Labeling: Work-Stealing Job Scheduling and Memory-Aware GPU Concurrency** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.15975) | — |
 
-## 🏛️ Classical / Historical · 245 canonical
+## 🏛️ Classical / Historical · 247 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -176,6 +176,7 @@
 | **Canonical** | **LiftQuant: Continuous Bit-Width Control for Pareto-Optimal LLM Deployment** | ICML 2026 | quantization / fractional bit-width / memory-constrained LLM deployment | [Link](https://arxiv.org/abs/2606.04050) | [Repo](https://github.com/Heliulu/LiftQuant) |
 | **Canonical** | **Light Forcing: Accelerating Autoregressive Video Diffusion via Sparse Attention** | ICML 2026 | video generation acceleration / autoregressive video / sparse attention / kernels | [Link](https://arxiv.org/abs/2602.04789) | [Repo](https://github.com/chengtao-lv/LightForcing) |
 | **Canonical** | **Long-Context Modeling with Dynamic Hierarchical Sparse Attention for Memory-Constrained LLM Inference** | ICML 2026 | efficient attention / long-context LLM inference / on-device inference | [Link](https://arxiv.org/abs/2510.24606) | [Repo](https://github.com/xiongsiheng/DHSA) |
+| **Canonical** | **MixFP4: Enhancing NVFP4 with Adaptive FP4/INT4 Block Representations** | ICML 2026 | quantization / FP4-INT4 micro-format / Tensor Core co-design / LLM inference | [Link](https://arxiv.org/abs/2605.31035) | — |
 | **Canonical** | **NanoQuant: Efficient Sub-1-Bit Quantization of Large Language Models** | ICML 2026 | quantization / sub-1-bit PTQ / custom kernels / consumer-GPU deployment | [Link](https://arxiv.org/abs/2602.06694) | [Repo](https://github.com/SamsungLabs/NanoQuant) |
 | **Canonical** | **NanoSpec: Accelerating Speculative Decoding using Minimalist In-Context Vocabularies** | ICML 2026 | speculative decoding / active-vocabulary pruning / GPU runtime | [Link](https://arxiv.org/abs/2605.26444) | — |
 | **Canonical** | **NeUQI: Near-Optimal Uniform Quantization Parameter Initialization for Low-Bit LLMs** | ICML 2026 | LLM quantization / low-bit PTQ / uniform quantization / parameter initialization / consumer-GPU deployment | [Link](https://arxiv.org/abs/2505.17595) | — |
@@ -310,6 +311,7 @@
 | **Canonical** | **PrefillOnly: An Inference Engine for Prefill-only Workloads in Large Language Model Applications** | SOSP 2025 | LLM serving / KV / GPU systems | [Link](https://arxiv.org/abs/2505.07203) | — |
 | **Canonical** | **Robust LLM Training Infrastructure at ByteDance** | SOSP 2025 | distributed LLM training / reliability / fault tolerance | [Link](https://arxiv.org/abs/2509.16293) | — |
 | **Canonical** | **Tempo: Compiled Dynamic Deep Learning with Symbolic Dependence Graphs** | SOSP 2025 | ML compiler / dynamic deep learning | [Link](https://doi.org/10.1145/3731569.3764840) | — |
+| **Canonical** | **ToMoE: Converting Dense Large Language Models to Mixture-of-Experts through Dynamic Structural Pruning** | TMLR 2026 (presented at ICML 2026) | MoE / dynamic structural pruning / dense-to-MoE conversion / efficient LLM inference | [Link](https://arxiv.org/abs/2501.15316) | [Repo](https://github.com/gaosh/ToMoE) |
 | **Canonical** | **Colocating ML Inference and Training with Fast GPU Memory Handover** | USENIX ATC 2025 | GPU inference-training colocation / elastic GPU memory handover | [Link](https://www.usenix.org/system/files/atc25-wang-jiali.pdf) | — |
 | **Canonical** | **GeneralSparse: Bridging the Gap in SpMM for Pruned Large Language Model Inference on GPUs** | USENIX ATC 2025 | sparse LLM inference / GPU kernels | [Link](https://www.usenix.org/conference/atc25/presentation/wang-yaoyu) | — |
 | **Canonical** | **GMI-DRL: Empowering Multi-GPU DRL with Adaptive-Grained Parallelism** | USENIX ATC 2025 | distributed DRL training / multi-GPU adaptive-grained parallelism / GPU multiplexing | [Link](https://www.usenix.org/conference/atc25/presentation/wang-yuke) | — |

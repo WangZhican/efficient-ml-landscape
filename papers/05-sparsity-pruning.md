@@ -1,6 +1,6 @@
 # 05 · Sparsity / Pruning
 
-> **193 canonical papers** mapped here, plus a broader **62-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **194 canonical papers** mapped here, plus a broader **62-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -71,7 +71,7 @@
 | **P0 · Strong** | **ATFlash: Per-RoPE-Wavelength Attention Windows for Compute/Memory-Efficient LLM Inference** | Fresh / preprint | efficient attention / long-context / FlashAttention | [Link](https://arxiv.org/abs/2608.02947) | — |
 | **P0 · Strong** | **APT: Accelerating Diffusion Transformers via Attention Probability-Guided Pruning and Quantization** | Fresh / preprint | diffusion acceleration / sparse attention / quantization / accelerator | [Link](https://arxiv.org/abs/2608.25380) | — |
 
-## 🏛️ Classical / Historical · 184 canonical
+## 🏛️ Classical / Historical · 185 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -149,7 +149,7 @@
 | **Canonical** | **AD-BTS: Adaptive Dual-Branch Token Sparsification via Spatial Information Density** | ICML 2026 | multimodal serving / MLLM / visual token sparsification / prefill acceleration / adaptive token pruning | [Link](https://openreview.net/forum?id=Zm8DAMbfXE) | — |
 | **Canonical** | **Adaptive Visual Autoregressive Acceleration via Dual-Linkage Entropy Analysis** | ICML 2026 | video/image generation acceleration / visual autoregressive models / token reduction / cache reuse / training-free inference acceleration | [Link](https://arxiv.org/abs/2602.01345) | — |
 | **Canonical** | **AdaSplash-2: Faster Differentiable Sparse Attention** | ICML 2026 | efficient attention / differentiable sparse attention / Triton GPU kernel / long-context training | [Link](https://arxiv.org/abs/2604.15180) | [Repo](https://github.com/deep-spin/adasplash) |
-| **Canonical** | **ARC-Decode: Accelerated Decoding with Risk-Bounded Acceptance** | ICML 2026 | speculative decoding / risk-bounded acceptance / inference acceleration | [Link](https://github.com/NeuraLiying/ARC-Decode) | [Repo](https://github.com/NeuraLiying/ARC-Decode) |
+| **Canonical** | **ARC-Decode: Accelerated Decoding with Risk-Bounded Acceptance** | ICML 2026 | speculative decoding / risk-bounded acceptance / inference acceleration | [Link](https://openreview.net/forum?id=0K57Wtg15V) | [Repo](https://github.com/NeuraLiying/ARC-Decode) |
 | **Canonical** | **Ask Less, See More: Communication-Conditioned Token Pruning for Vehicle-to-Vehicle Cooperative Autonomous Driving with Multimodal Large Language Models** | ICML 2026 | Physical AI / autonomous driving / V2V cooperative MLLM / visual-token pruning / communication-efficient inference | [Link](https://openreview.net/forum?id=HWMMBBujpo) | — |
 | **Canonical** | **AsyncSpade: Efficient Test-Time Scaling with Asynchronous Sparse Decoding** | ICML 2026 | efficient reasoning / sparse decoding / KV filtering / asynchronous serving | [Link](https://arxiv.org/abs/2510.07486) | — |
 | **Canonical** | **Attention Sparsity is Input-Stable: Training-Free Sparse Attention for Video Generation via Offline Sparsity Profiling and Online QK Co-Clustering** | ICML 2026 | video/image generation acceleration / sparse attention / training-free inference | [Link](https://arxiv.org/abs/2603.18636) | [Repo](https://github.com/Mutual-Luo/SVOO) |
@@ -255,6 +255,7 @@
 | **Canonical** | **TAC: Cache-Based System for Accelerating Billion-Scale GNN Training on Multi-GPU Platform** | PPoPP 2026 | GNN training systems / multi-GPU cache / sparse Tensor Core | [Link](https://ppopp26.sigplan.org/details/PPoPP-2026-papers/50/TAC-Cache-Based-System-for-Accelerating-Billion-Scale-GNN-Training-on-Multi-GPU-Plat) | — |
 | **Canonical** | **DCP: Addressing Input Dynamism In Long-Context Training via Dynamic Context Parallelism** | SOSP 2025 | long-context LLM training / dynamic context parallelism | [Link](https://arxiv.org/abs/2510.10620) | [Repo](https://github.com/chenyu-jiang/dcp) |
 | **Canonical** | **Probe-and-Fetch: Dynamic KV Cache Pruning for Accelerated Long-Context Inference in Web-Scale AI Search** | The Web Conference 2026 | KV cache pruning / long-context inference | [Link](https://doi.org/10.1145/3774904.3792794) | — |
+| **Canonical** | **ToMoE: Converting Dense Large Language Models to Mixture-of-Experts through Dynamic Structural Pruning** | TMLR 2026 (presented at ICML 2026) | MoE / dynamic structural pruning / dense-to-MoE conversion / efficient LLM inference | [Link](https://arxiv.org/abs/2501.15316) | [Repo](https://github.com/gaosh/ToMoE) |
 | **Canonical** | **GeneralSparse: Bridging the Gap in SpMM for Pruned Large Language Model Inference on GPUs** | USENIX ATC 2025 | sparse LLM inference / GPU kernels | [Link](https://www.usenix.org/conference/atc25/presentation/wang-yaoyu) | — |
 | **Canonical** | **JENGA: Enhancing LLM Long-Context Fine-tuning with Contextual Token Sparsity** | USENIX ATC 2025 | long-context LLM fine-tuning / contextual token sparsity / kernels | [Link](https://www.usenix.org/system/files/atc25-wang-tuowei.pdf) | — |
 | **Canonical** | **Universal Checkpointing: A Flexible and Efficient Distributed Checkpointing System for Large-Scale DNN Training with Reconfigurable Parallelism** | USENIX ATC 2025 | distributed LLM training / elastic checkpointing / reconfigurable parallelism | [Link](https://www.usenix.org/system/files/atc25-lian.pdf) | — |

@@ -1,6 +1,6 @@
 # 12 · Diffusion / Flow Acceleration
 
-> **142 canonical papers** mapped here, plus a broader **25-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **143 canonical papers** mapped here, plus a broader **25-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -34,7 +34,7 @@
 | **P0 · Strong** | **An Empirical Study of Training Pixel-Space Text-to-Image Diffusion Models** | Fresh / preprint | image generation acceleration | [Link](https://arxiv.org/abs/2608.16887) | — |
 | **P0 · Strong** | **Affix Cache for Diffusion Large Language Models** | Fresh / preprint | diffusion LLM inference / KV cache / serving | [Link](https://arxiv.org/abs/2608.26140) | — |
 
-## 🏛️ Classical / Historical · 132 canonical
+## 🏛️ Classical / Historical · 133 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -144,6 +144,7 @@
 | **Canonical** | **SGMD: Score Gradient Matching Distillation for Few-Step Video Diffusion Distillation** | ICML 2026 | video generation acceleration / diffusion distillation / few-step generation | [Link](https://arxiv.org/abs/2605.30116) | [Repo](https://github.com/ModelTC/LightX2V) |
 | **Canonical** | **SPA-Cache: Singular Proxies for Adaptive Caching in Diffusion Language Models** | ICML 2026 | diffusion language model / adaptive caching / inference acceleration | [Link](https://arxiv.org/abs/2602.02544) | [Repo](https://github.com/wenhao728/spa-cache) |
 | **Canonical** | **Sparse ActionGen: Accelerating Diffusion Policy with Real-time Pruning** | ICML 2026 | Physical AI / diffusion-policy acceleration / pruning+reuse | [Link](https://arxiv.org/abs/2601.12894) | — |
+| **Canonical** | **Spectral Evolution Search: Efficient Inference-Time Scaling for Reward-Aligned Image Generation** | ICML 2026 | image generation acceleration / diffusion-flow inference-time scaling / low-frequency search / reward alignment | [Link](https://arxiv.org/abs/2602.03208) | [Repo](https://github.com/yjy415/Spectral-Evolution-Search) |
 | **Canonical** | **Stop the Flip-Flop: Context-Preserving Verification for Fast Revocable Diffusion Decoding** | ICML 2026 | diffusion language model / parallel decoding / KV cache / verification | [Link](https://arxiv.org/abs/2602.06161) | — |
 | **Canonical** | **Stop Training for the Worst: Progressive Unmasking Accelerates Masked Diffusion Training** | ICML 2026 | diffusion language model / masked diffusion training / training efficiency | [Link](https://arxiv.org/abs/2602.10314) | [Repo](https://github.com/JaeyeonKim01/PUMA) |
 | **Canonical** | **StreamFlow: Theory, Algorithm, and Implementation for High-Efficiency Rectified Flow Generation** | ICML 2026 | diffusion / rectified-flow acceleration / TensorRT / generation runtime | [Link](https://arxiv.org/abs/2511.22009) | — |

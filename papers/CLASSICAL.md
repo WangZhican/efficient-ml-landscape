@@ -1,10 +1,10 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **1080 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **1083 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
-## ICML 2026 · 367
+## ICML 2026 · 369
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -27,7 +27,7 @@
 | **Canonical** | **AGoQ: Activation and Gradient Quantization for Memory-Efficient Distributed Training of LLMs** | ICML 2026 | distributed LLM training / activation-gradient quantization / communication-efficient training | [Link](https://arxiv.org/abs/2605.00539) | — |
 | **Canonical** | **AMDP: Asynchronous Multi-Directional Pipeline Parallelism for Large-Scale Models Training** | ICML 2026 | distributed training / pipeline parallelism / asynchronous scheduling / GPU utilization | [Link](https://arxiv.org/abs/2605.29664) | — |
 | **Canonical** | **ArborKV: Structure-Aware KV Cache Management for Scaling Tree-based LLM Reasoning** | ICML 2026 | KV cache / tree-based LLM reasoning / memory management | [Link](https://arxiv.org/abs/2605.22106) | — |
-| **Canonical** | **ARC-Decode: Accelerated Decoding with Risk-Bounded Acceptance** | ICML 2026 | speculative decoding / risk-bounded acceptance / inference acceleration | [Link](https://github.com/NeuraLiying/ARC-Decode) | [Repo](https://github.com/NeuraLiying/ARC-Decode) |
+| **Canonical** | **ARC-Decode: Accelerated Decoding with Risk-Bounded Acceptance** | ICML 2026 | speculative decoding / risk-bounded acceptance / inference acceleration | [Link](https://openreview.net/forum?id=0K57Wtg15V) | [Repo](https://github.com/NeuraLiying/ARC-Decode) |
 | **Canonical** | **AREAL-DTA: Dynamic Tree Attention for Efficient Reinforcement Learning of Large Language Models** | ICML 2026 | distributed RL post-training / dynamic tree attention / prefix sharing | [Link](https://arxiv.org/abs/2602.00482) | [Repo](https://areal-ai.io/) |
 | **Canonical** | **Ask Less, See More: Communication-Conditioned Token Pruning for Vehicle-to-Vehicle Cooperative Autonomous Driving with Multimodal Large Language Models** | ICML 2026 | Physical AI / autonomous driving / V2V cooperative MLLM / visual-token pruning / communication-efficient inference | [Link](https://openreview.net/forum?id=HWMMBBujpo) | — |
 | **Canonical** | **ASTRA: Communication-Efficient Acceleration for Multi-Device Transformer Inference** | ICML 2026 | distributed inference / communication compression / multi-device transformer | [Link](https://arxiv.org/abs/2505.19342) | — |
@@ -201,6 +201,7 @@
 | **Canonical** | **Memory-Efficient LLM Pretraining via Minimalist Optimizer Design** | ICML 2026 | distributed training / memory-efficient LLM pretraining / optimizer-state reduction | [Link](https://arxiv.org/abs/2506.16659) | [Repo](https://github.com/OptimAI-Lab/Minimalist_LLM_Pretraining) |
 | **Canonical** | **Memory-Efficient LLM Training with Dynamic Sparsity: From Stability to Practical Scaling** | ICML 2026 | LLM training efficiency / dynamic sparsity / memory-efficient optimization | [Link](https://arxiv.org/abs/2606.00888) | [Repo](https://github.com/QiaoXiao7282/SMET) |
 | **Canonical** | **Mining Tensor/Neuron-Level Sparsity to Maximize Mixture-of-Experts Potential in Post-Training and Inference** | ICML 2026 | MoE systems / post-training sparsity / token-expert dropping / expert partition / inference acceleration | [Link](https://arxiv.org/abs/2508.18376) | — |
+| **Canonical** | **MixFP4: Enhancing NVFP4 with Adaptive FP4/INT4 Block Representations** | ICML 2026 | quantization / FP4-INT4 micro-format / Tensor Core co-design / LLM inference | [Link](https://arxiv.org/abs/2605.31035) | — |
 | **Canonical** | **MixQuant: Pushing the Limits of Block Rotations in Post-Training Quantization** | ICML 2026 | quantization / post-training quantization / block Hadamard rotation / low-bit LLM inference | [Link](https://arxiv.org/abs/2601.22347) | [Repo](https://github.com/Xilinx/brevitas) |
 | **Canonical** | **Mixture of Distributions Matters: Dynamic Sparse Attention for Efficient Video Diffusion Transformers** | ICML 2026 | video generation acceleration / diffusion / dynamic sparse attention | [Link](https://arxiv.org/abs/2601.11641) | — |
 | **Canonical** | **MoSE: Mixture of Slimmable Experts for Efficient and Adaptive Language Models** | ICML 2026 | MoE / conditional computation / slimmable experts / adaptive inference FLOPs | [Link](https://arxiv.org/abs/2602.06154) | [Repo](https://github.com/tnurbek/mose) |
@@ -324,6 +325,7 @@
 | **Canonical** | **SpecPrune-VLA: Accelerating Vision-Language-Action Models via Action-Aware Self-Speculative Pruning** | ICML 2026 | Physical AI / VLA inference / token pruning / self-speculative acceleration | [Link](https://arxiv.org/abs/2509.05614) | [Repo](https://github.com/alexwhz-sjtu/SpecPrune-VLA) |
 | **Canonical** | **SpecSA: Bridging Speculative Decoding and Sparse Attention for Efficient LLM Inference** | ICML 2026 | speculative decoding / sparse attention / long-context LLM inference / GPU kernels | [Link](https://arxiv.org/abs/2605.19893) | — |
 | **Canonical** | **Spectra: Rethinking Optimizers for LLMs Under Spectral Anisotropy** | ICML 2026 | distributed training / LLM optimizer efficiency / optimizer-state memory reduction / spectral optimization | [Link](https://arxiv.org/abs/2602.11185) | [Repo](https://github.com/kimmichtank/spectra) |
+| **Canonical** | **Spectral Evolution Search: Efficient Inference-Time Scaling for Reward-Aligned Image Generation** | ICML 2026 | image generation acceleration / diffusion-flow inference-time scaling / low-frequency search / reward alignment | [Link](https://arxiv.org/abs/2602.03208) | [Repo](https://github.com/yjy415/Spectral-Evolution-Search) |
 | **Canonical** | **Spectral Heat Flow for Conservative Token Condensation in Vision-Language Models** | ICML 2026 | multimodal inference / visual token condensation / training-free token compression | [Link](https://arxiv.org/abs/2607.10640) | [Repo](https://github.com/Lzy-dot/SpecFlow) |
 | **Canonical** | **Speculative Coupled Decoding for Training-Free Lossless Acceleration of Autoregressive Visual Generation** | ICML 2026 | speculative decoding / autoregressive image-video generation / lossless visual generation acceleration | [Link](https://arxiv.org/abs/2510.24211) | [Repo](https://github.com/junhyukso/SCD) |
 | **Canonical** | **SPEED-Bench: A Unified and Diverse Benchmark for Speculative Decoding** | ICML 2026 | speculative decoding / production benchmarking / LLM serving / vLLM / TensorRT-LLM / throughput evaluation | [Link](https://arxiv.org/abs/2604.09557) | [Repo](https://github.com/NVIDIA/Model-Optimizer/tree/main/examples/specdec_bench) |
@@ -1308,3 +1310,9 @@
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **Canonical** | **eGPU: Production-Scale Elastic Sharing over 10,000 GPUs** | HPCA 2026 Industry Track | production GPU sharing / elastic multi-tenant ML | [Link](https://doi.org/10.1109/HPCA68181.2026.11408556) | — |
+
+## TMLR 2026 (presented at ICML 2026) · 1
+
+| Priority | Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|---|
+| **Canonical** | **ToMoE: Converting Dense Large Language Models to Mixture-of-Experts through Dynamic Structural Pruning** | TMLR 2026 (presented at ICML 2026) | MoE / dynamic structural pruning / dense-to-MoE conversion / efficient LLM inference | [Link](https://arxiv.org/abs/2501.15316) | [Repo](https://github.com/gaosh/ToMoE) |
