@@ -1378,6 +1378,27 @@
     ]
   },
   {
+    "title": "Sangam: Efficiently Serving Diffusion LLMs with the AR Stack",
+    "venue": "arXiv 2026",
+    "topic": "LLM serving / diffusion language models / scheduling / disaggregated serving",
+    "arxiv": "2607.04206",
+    "doi": "",
+    "official_id": "2607.04206",
+    "paper_url": "https://arxiv.org/abs/2607.04206",
+    "code_url": "https://github.com/UT-InfraAI/sangam",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Serving system for cached diffusion LLMs. Deficit token-budget scheduling handles indivisible recurrent prefills; colocated/disaggregated/hybrid execution addresses dLLM prefill-decode interference and partitioning. Official UT-InfraAI implementation is available.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "Simthesizer: An Agent-Driven Simulation Framework for LLM Serving Systems",
     "venue": "arXiv 2026",
     "topic": "LLM serving / serving simulator / agentic workloads / disaggregated serving / speculative decoding / KV cache",
