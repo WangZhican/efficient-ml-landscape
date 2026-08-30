@@ -991,6 +991,27 @@
     ]
   },
   {
+    "title": "Accelerating Diffusion Models via Parallel Denoising",
+    "venue": "ACM Multimedia 2025",
+    "topic": "diffusion/image generation acceleration / parallel denoising",
+    "arxiv": "",
+    "doi": "10.1145/3746027.3755827",
+    "official_id": "10.1145/3746027.3755827",
+    "paper_url": "https://dl.acm.org/doi/10.1145/3746027.3755827",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ACM Multimedia 2025 direct diffusion inference acceleration result. The work parallelizes denoising to reduce sequential sampling latency, making it a direct fit for diffusion/flow acceleration and image-generation inference efficiency.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "Accelerating Diffusion Transformer via Error-Optimized Cache",
     "venue": "ACM Multimedia 2025",
     "topic": "diffusion transformer inference / feature caching",
