@@ -18674,6 +18674,27 @@
     ]
   },
   {
+    "title": "Cognify: Supercharging Gen-AI Workflows With Hierarchical Autotuning",
+    "venue": "KDD 2025",
+    "topic": "efficient reasoning / agent systems / Gen-AI workflow optimization / serving cost and latency",
+    "arxiv": "2502.08056",
+    "doi": "10.1145/3711896.3736884",
+    "official_id": "2502.08056",
+    "paper_url": "https://arxiv.org/abs/2502.08056",
+    "code_url": "https://github.com/GenseeAI/cognify",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "KDD 2025 high-value agent/workflow efficiency system. Cognify/AdaSeek automatically tunes Gen-AI workflows across structure, operator and prompt choices under hierarchical search; the paper reports up to 10x lower execution monetary cost and 2.7x lower end-to-end latency while also improving quality, making it a direct efficient-agent/workflow systems contribution rather than a generic application paper.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "EARN: Efficient Inference Acceleration for LLM-based Generative Recommendation by Register Tokens",
     "venue": "KDD 2025",
     "topic": "LLM inference acceleration / KV cache / recommendation",
