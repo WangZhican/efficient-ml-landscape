@@ -18335,6 +18335,27 @@
     ]
   },
   {
+    "title": "PipeRAG: Fast Retrieval-Augmented Generation via Adaptive Pipeline Parallelism",
+    "venue": "KDD 2025",
+    "topic": "LLM serving / RAG systems / pipeline parallelism / latency optimization",
+    "arxiv": "2503.02989",
+    "doi": "10.1145/3690624.3709194",
+    "official_id": "2503.02989",
+    "paper_url": "https://arxiv.org/abs/2503.02989",
+    "code_url": "https://github.com/amazon-science/piperag",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "KDD 2025 high-value algorithm-system co-design for retrieval-augmented generation. PipeRAG overlaps retrieval and generation with pipeline parallelism, flexible retrieval intervals, and a hardware-aware performance model; the paper reports up to 2.6x end-to-end generation speedup while improving generation quality.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "ResMoE: Space-efficient Compression of Mixture of Experts LLMs via Residual Restoration",
     "venue": "KDD 2025",
     "topic": "MoE systems / inference memory and parameter compression",

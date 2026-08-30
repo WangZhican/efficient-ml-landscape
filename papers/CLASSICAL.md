@@ -1,6 +1,6 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **1135 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **1136 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
@@ -1235,6 +1235,19 @@
 | **Canonical** | **TeLLMe: An Efficient End-to-End Ternary LLM Prefill and Decode Accelerator with Table-Lookup Matmul on Edge FPGAs** | FPGA 2026 | edge LLM inference / ternary accelerator / FPGA | [Link](https://arxiv.org/abs/2510.15926) | [Repo](https://github.com/UCI-CORSA/TeLLMe_FPGA_2026) |
 | **Canonical** | **UDP: A Universal DSP Packing Framework for Low-bitwidth MAC Acceleration on FPGAs** | FPGA 2026 | low-bit quantization / FPGA accelerator / DSP packing / LLM inference hardware | [Link](https://doi.org/10.1145/3748173.3779194) | [Repo](https://github.com/wintermelon008/UDP) |
 
+## KDD 2025 · 8
+
+| Priority | Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|---|
+| **Canonical** | **BurstGPT: A Real-World Workload Dataset to Optimize LLM Serving Systems** | KDD 2025 | LLM serving / workload benchmark / scheduling / KV cache / disaggregation evaluation | [Link](https://arxiv.org/abs/2401.17644) | [Repo](https://github.com/HPMLL/BurstGPT) |
+| **Canonical** | **Cognify: Supercharging Gen-AI Workflows With Hierarchical Autotuning** | KDD 2025 | efficient reasoning / agent systems / Gen-AI workflow optimization / serving cost and latency | [Link](https://arxiv.org/abs/2502.08056) | [Repo](https://github.com/GenseeAI/cognify) |
+| **Canonical** | **EARN: Efficient Inference Acceleration for LLM-based Generative Recommendation by Register Tokens** | KDD 2025 | LLM inference acceleration / KV cache / recommendation | [Link](https://arxiv.org/abs/2507.00715) | — |
+| **Canonical** | **Enhancing Learned Knowledge in LoRA Adapters Through Efficient Contrastive Decoding on Ascend NPUs** | KDD 2025 | LLM decoding / LoRA / Ascend NPU kernel optimization | [Link](https://arxiv.org/abs/2505.14620) | — |
+| **Canonical** | **Exploiting Student Parallelism for Low-latency GPU Inference of BERT-like Models in Online Services** | KDD 2025 | GPU online inference / BERT serving / student parallelism | [Link](https://arxiv.org/abs/2408.12526) | — |
+| **Canonical** | **PipeRAG: Fast Retrieval-Augmented Generation via Adaptive Pipeline Parallelism** | KDD 2025 | LLM serving / RAG systems / pipeline parallelism / latency optimization | [Link](https://arxiv.org/abs/2503.02989) | [Repo](https://github.com/amazon-science/piperag) |
+| **Canonical** | **ResMoE: Space-efficient Compression of Mixture of Experts LLMs via Residual Restoration** | KDD 2025 | MoE systems / inference memory and parameter compression | [Link](https://arxiv.org/abs/2503.06881) | [Repo](https://github.com/iDEA-iSAIL-Lab-UIUC/ResMoE) |
+| **Canonical** | **SEPTQ: A Simple and Effective Post-Training Quantization Paradigm for Large Language Models** | KDD 2025 | LLM post-training quantization / low-bit inference | [Link](https://arxiv.org/abs/2604.10091) | — |
+
 ## MobiCom 2025 · 8
 
 | Priority | Paper | Venue | Topic | Paper | Code |
@@ -1260,18 +1273,6 @@
 | **Canonical** | **HAKES: Scalable Vector Database for Embedding Search Service** | VLDB/PVLDB Volume 18 | vector database / RAG retrieval infrastructure | [Link](https://arxiv.org/abs/2505.12524) | — |
 | **Canonical** | **Magnus: A Holistic Approach to Data Management for Large-Scale Machine Learning Workloads** | VLDB/PVLDB Volume 18 | ML data systems / large-scale training infrastructure | [Link](https://www.vldb.org/pvldb/vol18/p4964-song.pdf) | — |
 | **Canonical** | **mLoRA: Fine-Tuning LoRA Adapters via Highly-Efficient Pipeline Parallelism in Multiple GPUs** | VLDB/PVLDB Volume 18 | LoRA fine-tuning systems / multi-GPU pipeline | [Link](https://arxiv.org/abs/2312.02515) | — |
-
-## KDD 2025 · 7
-
-| Priority | Paper | Venue | Topic | Paper | Code |
-|---|---|---|---|---|---|
-| **Canonical** | **BurstGPT: A Real-World Workload Dataset to Optimize LLM Serving Systems** | KDD 2025 | LLM serving / workload benchmark / scheduling / KV cache / disaggregation evaluation | [Link](https://arxiv.org/abs/2401.17644) | [Repo](https://github.com/HPMLL/BurstGPT) |
-| **Canonical** | **Cognify: Supercharging Gen-AI Workflows With Hierarchical Autotuning** | KDD 2025 | efficient reasoning / agent systems / Gen-AI workflow optimization / serving cost and latency | [Link](https://arxiv.org/abs/2502.08056) | [Repo](https://github.com/GenseeAI/cognify) |
-| **Canonical** | **EARN: Efficient Inference Acceleration for LLM-based Generative Recommendation by Register Tokens** | KDD 2025 | LLM inference acceleration / KV cache / recommendation | [Link](https://arxiv.org/abs/2507.00715) | — |
-| **Canonical** | **Enhancing Learned Knowledge in LoRA Adapters Through Efficient Contrastive Decoding on Ascend NPUs** | KDD 2025 | LLM decoding / LoRA / Ascend NPU kernel optimization | [Link](https://arxiv.org/abs/2505.14620) | — |
-| **Canonical** | **Exploiting Student Parallelism for Low-latency GPU Inference of BERT-like Models in Online Services** | KDD 2025 | GPU online inference / BERT serving / student parallelism | [Link](https://arxiv.org/abs/2408.12526) | — |
-| **Canonical** | **ResMoE: Space-efficient Compression of Mixture of Experts LLMs via Residual Restoration** | KDD 2025 | MoE systems / inference memory and parameter compression | [Link](https://arxiv.org/abs/2503.06881) | [Repo](https://github.com/iDEA-iSAIL-Lab-UIUC/ResMoE) |
-| **Canonical** | **SEPTQ: A Simple and Effective Post-Training Quantization Paradigm for Large Language Models** | KDD 2025 | LLM post-training quantization / low-bit inference | [Link](https://arxiv.org/abs/2604.10091) | — |
 
 ## arXiv 2026 · 6
 

@@ -1,6 +1,6 @@
 # 01 · LLM Serving
 
-> **476 canonical papers** mapped here, plus a broader **222-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **477 canonical papers** mapped here, plus a broader **222-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -231,7 +231,7 @@
 | **P0 · Strong** | **A Thread-Register Decoupled GPU Execution Model for Efficient Tensor Computation** | Fresh / preprint | GPU execution architecture / tensor cores / LLM serving | [Link](https://arxiv.org/abs/2608.19628) | — |
 | **P1 · Watch** | **A Scalable Pipeline for LLM-Teacher Distillation Labeling: Work-Stealing Job Scheduling and Memory-Aware GPU Concurrency** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.15975) | — |
 
-## 🏛️ Classical / Historical · 441 canonical
+## 🏛️ Classical / Historical · 442 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -525,6 +525,7 @@
 | **Canonical** | **BurstGPT: A Real-World Workload Dataset to Optimize LLM Serving Systems** | KDD 2025 | LLM serving / workload benchmark / scheduling / KV cache / disaggregation evaluation | [Link](https://arxiv.org/abs/2401.17644) | [Repo](https://github.com/HPMLL/BurstGPT) |
 | **Canonical** | **Cognify: Supercharging Gen-AI Workflows With Hierarchical Autotuning** | KDD 2025 | efficient reasoning / agent systems / Gen-AI workflow optimization / serving cost and latency | [Link](https://arxiv.org/abs/2502.08056) | [Repo](https://github.com/GenseeAI/cognify) |
 | **Canonical** | **Exploiting Student Parallelism for Low-latency GPU Inference of BERT-like Models in Online Services** | KDD 2025 | GPU online inference / BERT serving / student parallelism | [Link](https://arxiv.org/abs/2408.12526) | — |
+| **Canonical** | **PipeRAG: Fast Retrieval-Augmented Generation via Adaptive Pipeline Parallelism** | KDD 2025 | LLM serving / RAG systems / pipeline parallelism / latency optimization | [Link](https://arxiv.org/abs/2503.02989) | [Repo](https://github.com/amazon-science/piperag) |
 | **Canonical** | **BitL: A Hybrid Bit-Serial and Parallel Deep Learning Accelerator for Critical Path Reduction** | MICRO 2025 | bit-level sparsity / hybrid bit-serial-bit-parallel DNN accelerator / efficient inference | [Link](https://doi.org/10.1145/3725843.3756044) | — |
 | **Canonical** | **Chameleon: Adaptive Caching and Scheduling for Many-Adapter LLM Inference Environments** | MICRO 2025 | LLM serving / adapter caching and scheduling | [Link](https://arxiv.org/abs/2411.17741) | — |
 | **Canonical** | **Crane: Inter-Layer Scheduling Framework for DNN Inference and Training Co-Support on Tiled Architecture** | MICRO 2025 | DNN accelerator scheduling / inference+training co-support | [Link](https://doi.org/10.1145/3725843.3756023) | — |
