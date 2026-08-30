@@ -1,12 +1,12 @@
 {
-  "unique_papers": 1185,
+  "unique_papers": 1186,
   "latest_30d_tracked_total": 316,
   "latest_30d_quality_gated": 70,
   "latest_30d_watchlist": 124,
   "latest_30d_relevant_low_priority": 122,
-  "classical_papers": 1115,
+  "classical_papers": 1116,
   "latest_strong": 45,
-  "papers_with_primary_link": 1163,
+  "papers_with_primary_link": 1164,
   "papers_with_verified_code_link": 320,
   "venues": 51,
   "direction_counts": {
@@ -24,8 +24,8 @@
     "Diffusion / Flow Acceleration": 148,
     "Efficient Reasoning / Agents": 199,
     "VLA / WAM / Physical AI": 63,
-    "Edge / Cloud / Heterogeneous AI": 245
+    "Edge / Cloud / Heterogeneous AI": 246
   },
   "source_date_beijing": "2026-08-30",
-  "updated_at_beijing": "2026-08-30T09:03:54+08:00"
+  "updated_at_beijing": "2026-08-30T09:06:51+08:00"
 }

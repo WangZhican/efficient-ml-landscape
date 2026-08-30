@@ -17597,6 +17597,26 @@
     ]
   },
   {
+    "title": "A 28nm 106.85TOPS/W and 77.68TFLOPS/W CIM Macro with Stage-Wise-Enabled Lossless Compressors Based on Sign-Bit-Embedded Transition-Counting-Lines for Edge-AI Devices",
+    "venue": "ISSCC 2026",
+    "topic": "edge AI / compute-in-memory / lossless activation compression",
+    "arxiv": "",
+    "doi": "10.1109/ISSCC49663.2026.11409281",
+    "official_id": "10.1109/ISSCC49663.2026.11409281",
+    "paper_url": "https://doi.org/10.1109/ISSCC49663.2026.11409281",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ISSCC 2026 Session 30 edge-AI CIM macro combining stage-wise-enabled lossless compressors with sign-bit-embedded transition-counting lines, reporting 106.85 TOPS/W and 77.68 TFLOPS/W.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "A 28nm 127.54TFLOPS/W MXFP6 and 117.42TFLOPS/W MXFP8 Compute-in-Memory Macro with Adaptive-Preserved-Bit-Width and Serial-Dual-Bit-Sliding Schemes",
     "venue": "ISSCC 2026",
     "topic": "MXFP6/MXFP8 / compute-in-memory / quantized AI acceleration",

@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **1185 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **316 visible papers = 70 P0 + 124 P1 + 122 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1186 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **316 visible papers = 70 P0 + 124 P1 + 122 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -339,7 +339,7 @@
 | **P2 · Relevant** | **Prime Agent: A Self-Improving RLM Harness** | Fresh / preprint | agent systems / long-horizon harness / resource accounting | [Link](https://arxiv.org/abs/2608.23552) | — |
 | **P2 · Relevant** | **Act with Intent: Distilling Behavior Intent for Vision-Language-Action Models** | Fresh / preprint | Physical AI / VLA / action decoder | [Link](https://arxiv.org/abs/2608.23478) | — |
 
-## 🏛️ Classical / Historical · 1115
+## 🏛️ Classical / Historical · 1116
 
 ### ICML 2026 · 372
 
@@ -1026,7 +1026,7 @@
 | **Canonical** | **WATOS: Efficient LLM Training Strategies and Architecture Co-exploration for Wafer-scale Chip** | HPCA 2026 | distributed LLM training / wafer-scale architecture co-design | [Link](https://arxiv.org/abs/2512.12279) | — |
 | **Canonical** | **µShare: Non-Intrusive Kernel Co-Locating on NVIDIA GPUs** | HPCA 2026 | GPU resource sharing / kernel co-location / inference throughput | [Link](https://arxiv.org/abs/2601.06562) | — |
 
-### ISSCC 2026 · 26
+### ISSCC 2026 · 27
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -1040,6 +1040,7 @@
 | **Canonical** | **A 16nm 72kb 120.5TFLOPS/W Versatile-Format Dual-Representation Gain-Cell CIM Macro for General Purpose AI Tasks** | ISSCC 2026 | general-purpose AI / gain-cell CIM / multi-format inference | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409052) | — |
 | **Canonical** | **A 16nm, 1Mb, 1-to-8b-Configurable 444.21TOPS/W Fully Digital SRAM Compute-in-Memory Macro for Hybrid SNN-CNN Edge Computing** | ISSCC 2026 | edge AI / SRAM CIM / configurable precision / SNN-CNN | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409250) | — |
 | **Canonical** | **A 22nm 96Mb 50.6-to-90.2TFLOPS/W Non-Linear MLC ReRAM CIM Macro with High-Retention for Mamba/Transformer/CNN** | ISSCC 2026 | Mamba / Transformer / CNN / ReRAM compute-in-memory | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409297) | — |
+| **Canonical** | **A 28nm 106.85TOPS/W and 77.68TFLOPS/W CIM Macro with Stage-Wise-Enabled Lossless Compressors Based on Sign-Bit-Embedded Transition-Counting-Lines for Edge-AI Devices** | ISSCC 2026 | edge AI / compute-in-memory / lossless activation compression | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409281) | — |
 | **Canonical** | **A 28nm 127.54TFLOPS/W MXFP6 and 117.42TFLOPS/W MXFP8 Compute-in-Memory Macro with Adaptive-Preserved-Bit-Width and Serial-Dual-Bit-Sliding Schemes** | ISSCC 2026 | MXFP6/MXFP8 / compute-in-memory / quantized AI acceleration | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409034) | — |
 | **Canonical** | **A 28nm Speculative-Decoding LLM Processor Achieving 105-to-685μs/Token Latency for Billion-Parameter Models** | ISSCC 2026 | speculative decoding / LLM accelerator / mixed precision | [Link](https://doi.org/10.1109/ISSCC49663.2026.11408953) | — |
 | **Canonical** | **A 48Gb/s 24Gb GDDR7 DRAM for Mid-Range Inference AI with Symmetric 2CH-Mode Operation, Clock-Path Optimization, and RAS Features** | ISSCC 2026 | edge/cloud/heterogeneous AI systems / AI memory / inference infrastructure / GDDR7 | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409122) | — |
