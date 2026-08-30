@@ -1098,6 +1098,29 @@
     ]
   },
   {
+    "title": "FlexGaussian: Flexible and Cost-Effective Training-Free Compression for 3D Gaussian Splatting",
+    "venue": "ACM Multimedia 2025",
+    "topic": "video/image generation acceleration / 3D Gaussian splatting / quantization / pruning / edge deployment",
+    "arxiv": "2507.06671",
+    "doi": "10.1145/3746027.3754744",
+    "official_id": "2507.06671",
+    "paper_url": "https://arxiv.org/abs/2507.06671",
+    "code_url": "https://github.com/Supercomputing-System-AI-Lab/FlexGaussian",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ACM Multimedia 2025 direct 3DGS compression/deployment result. Mixed-precision quantization plus attribute-discriminative pruning achieves up to 96.4% compression with <1 dB PSNR loss, is deployable on mobile/edge devices, and runs 1.7-2.1x faster than prior training-free compression and 10-100x faster than retraining-based approaches.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "Sparsity / Pruning",
+      "Video / Image Generation",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "How2Compress: Scalable and Efficient Edge Video Analytics via Adaptive Granular Video Compression",
     "venue": "ACM Multimedia 2025",
     "topic": "edge video analytics / adaptive video compression",
@@ -1115,6 +1138,30 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "LVLM_CSP: Accelerating Large Vision Language Models via Clustering, Scattering, and Pruning for Reasoning Segmentation",
+    "venue": "ACM Multimedia 2025",
+    "topic": "multimodal/MLLM serving / sparsity-pruning / visual-token pruning",
+    "arxiv": "2504.10854",
+    "doi": "10.1145/3746027.3755243",
+    "official_id": "2504.10854",
+    "paper_url": "https://arxiv.org/abs/2504.10854",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ACM Multimedia 2025 direct LVLM inference-efficiency result. Training-free clustering-scattering-pruning reduces image-token inference FLOPs by 65% with virtually no accuracy degradation and 70% with about 1% accuracy drop on a 7B LVLM, closing a direct multimodal token-pruning recall gap.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Distributed Training / Inference",
+      "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents"
     ]
   },
   {

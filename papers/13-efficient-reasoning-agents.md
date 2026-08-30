@@ -1,6 +1,6 @@
 # 13 · Efficient Reasoning / Agents
 
-> **199 canonical papers** mapped here, plus a broader **55-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **200 canonical papers** mapped here, plus a broader **55-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -64,7 +64,7 @@
 | **P1 · Watch** | **CacheRouter: A Dual-Path Tool Routing Architecture with Cache-Preserving Main-Model Isolation for Long-Tail Tool Discovery** | Fresh / preprint | agent serving / prefix cache / tool routing | [Link](https://arxiv.org/abs/2608.22708) | — |
 | **P0 · Strong** | **AgentSpec: Speculative Decoding for Batch Inference of LLM Agents** | EMNLP 2026 | speculative decoding / efficient reasoning-agent systems / LLM serving | [Link](https://arxiv.org/abs/2608.24004) | — |
 
-## 🏛️ Classical / Historical · 183 canonical
+## 🏛️ Classical / Historical · 184 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -72,6 +72,7 @@
 | **Canonical** | **Guided by Gut: Efficient Test-Time Scaling with Reinforced Intrinsic Confidence** | ACL 2026 | efficient reasoning / test-time scaling / KV-memory reduction | [Link](https://arxiv.org/abs/2505.20325) | [Repo](https://github.com/Amirhosein-gh98/Guided-by-Gut) |
 | **Canonical** | **LazyEviction: Lagged KV Eviction with Attention Pattern Observation for Efficient Long Reasoning** | ACL 2026 | KV cache / efficient reasoning | [Link](https://doi.org/10.18653/v1/2026.acl-long.1683) | — |
 | **Canonical** | **MixKVQ: Query-Aware Mixed-Precision KV Cache Quantization for Long-Context Reasoning** | ACL 2026 | KV cache quantization / long-context reasoning / mixed precision | [Link](https://doi.org/10.18653/v1/2026.acl-long.326) | [Repo](https://github.com/ZeroNLP/MixKVQ) |
+| **Canonical** | **LVLM_CSP: Accelerating Large Vision Language Models via Clustering, Scattering, and Pruning for Reasoning Segmentation** | ACM Multimedia 2025 | multimodal/MLLM serving / sparsity-pruning / visual-token pruning | [Link](https://arxiv.org/abs/2504.10854) | — |
 | **Canonical** | **SpeContext: Enabling Efficient Long-context Reasoning with Speculative Context Sparsity in LLMs** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://arxiv.org/abs/2512.00722) | — |
 | **Canonical** | **Taming the Long-Tail: Efficient Reasoning RL Training with Adaptive Drafter** | ASPLOS 2026 | reasoning RL training / speculative decoding / rollout systems | [Link](https://arxiv.org/abs/2511.16665) | — |
 | **Canonical** | **Hawkeye: Model Collaboration for Efficient Reasoning** | COLM 2025 | efficient reasoning / model collaboration | [Link](https://arxiv.org/abs/2504.00424) | — |
