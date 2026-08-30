@@ -1011,6 +1011,28 @@
     ]
   },
   {
+    "title": "CITR: Efficient Long Video Understanding Needs Causal Importance",
+    "venue": "ACM Multimedia 2025",
+    "topic": "multimodal/MLLM serving / efficient attention / long-video inference",
+    "arxiv": "2508.06165",
+    "doi": "10.1145/3746027.3755307",
+    "official_id": "2508.06165",
+    "paper_url": "https://arxiv.org/abs/2508.06165",
+    "code_url": "https://github.com/Columbine21/CITR",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ACM Multimedia 2025 direct long-video VLM inference-efficiency result. CITR uses causal importance-based visual-token reduction so streaming and multi-query inference can discard redundant history online; reported offline latency reduction is 49% with less than 1% performance drop while streaming memory is controlled within 24GB.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Efficient Attention",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
     "title": "Compute Only 16 Tokens in One Timestep: Accelerating Diffusion Transformers with Cluster-Driven Feature Caching",
     "venue": "ACM Multimedia 2025",
     "topic": "diffusion token/feature caching",
@@ -1050,6 +1072,29 @@
     "directions": [
       "Quantization",
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "ELFATT: Efficient Linear Fast Attention for Vision Transformers",
+    "venue": "ACM Multimedia 2025",
+    "topic": "efficient attention / edge AI / diffusion acceleration",
+    "arxiv": "2501.06098",
+    "doi": "10.1145/3746027.3754825",
+    "official_id": "2501.06098",
+    "paper_url": "https://arxiv.org/abs/2501.06098",
+    "code_url": "https://github.com/Alicewithrabbit/ELFATT",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ACM Multimedia 2025 direct efficient-attention result. ELFATT combines global linear attention and sparse blockified attention, reporting 4-7x speedup over vanilla softmax attention, 2-3x even with FlashAttention-2 baselines, 1.6-2.0x on edge GPUs, and training-free Stable Diffusion acceleration.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "Diffusion / Flow Acceleration",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
