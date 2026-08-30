@@ -1,10 +1,10 @@
 # 🧭 Research Map
 
-> **1203 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
+> **1204 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
 
 <div align="center">
 
-[**🆕 Latest 30 Days · 316 tracked**](LATEST_30D.md) · [**🏛️ Classical · 1133**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
+[**🆕 Latest 30 Days · 316 tracked**](LATEST_30D.md) · [**🏛️ Classical · 1134**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
 
 </div>
 
@@ -12,9 +12,9 @@
 
 | # | Research direction | Canonical | Latest 30d tracked |
 |---:|---|---:|---:|
-| 01 | [**LLM Serving**](01-llm-serving.md) | **474** | **222** |
+| 01 | [**LLM Serving**](01-llm-serving.md) | **475** | **222** |
 | 02 | [**Speculative Decoding**](02-speculative-decoding.md) | **160** | **29** |
-| 03 | [**KV Cache / Long Context**](03-kv-cache-long-context.md) | **305** | **56** |
+| 03 | [**KV Cache / Long Context**](03-kv-cache-long-context.md) | **306** | **56** |
 | 04 | [**Quantization**](04-quantization.md) | **176** | **51** |
 | 05 | [**Sparsity / Pruning**](05-sparsity-pruning.md) | **202** | **63** |
 | 06 | [**Efficient Attention**](06-efficient-attention.md) | **176** | **47** |

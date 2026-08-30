@@ -18653,6 +18653,27 @@
     ]
   },
   {
+    "title": "BurstGPT: A Real-World Workload Dataset to Optimize LLM Serving Systems",
+    "venue": "KDD 2025",
+    "topic": "LLM serving / workload benchmark / scheduling / KV cache / disaggregation evaluation",
+    "arxiv": "2401.17644",
+    "doi": "10.1145/3711896.3737413",
+    "official_id": "2401.17644",
+    "paper_url": "https://arxiv.org/abs/2401.17644",
+    "code_url": "https://github.com/HPMLL/BurstGPT",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "KDD 2025 high-value serving benchmark: real Azure OpenAI GPT workload traces covering request concurrency/burstiness, conversation patterns, response lengths and failures. The KDD version reports 10.31M traces over 213 days and is directly useful for validating KV-cache management, scheduling and disaggregated-serving systems under realistic workloads.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context"
+    ]
+  },
+  {
     "title": "EARN: Efficient Inference Acceleration for LLM-based Generative Recommendation by Register Tokens",
     "venue": "KDD 2025",
     "topic": "LLM inference acceleration / KV cache / recommendation",
