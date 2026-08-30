@@ -1,8 +1,8 @@
 {
-  "window_end_beijing": "2026-08-30",
-  "window_start_beijing": "2026-07-31",
+  "window_end_beijing": "2026-08-31",
+  "window_start_beijing": "2026-08-01",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 316,
+  "tracked_total": 318,
   "p0_strong_or_canonical": [
     {
       "title": "Zetta: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence",
@@ -613,6 +613,29 @@
       "is_latest_30d": true,
       "tracking_tier": "P0 · Strong",
       "directions": [
+        "Video / Image Generation",
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "LoSA: Near-Lossless Sparse Attention for Training-Free Video Diffusion Acceleration",
+      "venue": "arXiv 2026",
+      "topic": "video/image generation acceleration / sparse attention / video diffusion",
+      "arxiv": "2608.12032",
+      "doi": "",
+      "official_id": "2608.12032",
+      "paper_url": "https://arxiv.org/abs/2608.12032",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Direct video diffusion inference acceleration. Retains 99% attention mass with reusable block-sparse patterns; reports 1.36x standalone speedup and up to 3.2x when composed with feature caching with near-lossless VBench quality.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Sparsity / Pruning",
+        "Efficient Attention",
         "Video / Image Generation",
         "Diffusion / Flow Acceleration"
       ]
@@ -1298,6 +1321,26 @@
       "directions": [
         "Distributed Training / Inference",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "ChebBooster: A Training-Free Approach for Efficient Diffusion Transformer Inference via Chebyshev-Inspired Extrapolation",
+      "venue": "",
+      "topic": "diffusion/flow acceleration / training-free DiT extrapolation / cache-style compute skipping",
+      "arxiv": "2608.23429",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.23429",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Direct diffusion inference acceleration. Chebyshev-inspired stable extrapolation skips expensive DiT block executions; reports up to 3.68x latency speedup and 5.12x FLOPs reduction across DiT-XL/2, PixArt-Sigma and FLUX.1-dev.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Diffusion / Flow Acceleration"
       ]
     },
     {
@@ -4052,7 +4095,7 @@
     {
       "title": "ChebBooster: A Training-Free Approach for Efficient Diffusion Transformer Inference via Chebyshev-Inspired Extrapolation",
       "venue": "",
-      "topic": "diffusion/DiT inference acceleration / training-free extrapolation",
+      "topic": "diffusion/flow acceleration / training-free DiT extrapolation / cache-style compute skipping",
       "arxiv": "2608.23429",
       "doi": "",
       "official_id": "",
@@ -4061,7 +4104,7 @@
       "formal_class": "WATCH",
       "decision": "WATCH",
       "tracking_tier": "P1 · Watch",
-      "why": "Training-free DiT acceleration using numerically stable Chebyshev-inspired extrapolation; reports up to 3.68x latency speedup and 5.12x FLOPs reduction across DiT-XL/2, PixArt-Sigma and FLUX.1-dev.",
+      "why": "Direct diffusion inference acceleration. Chebyshev-inspired stable extrapolation skips expensive DiT block executions; reports up to 3.68x latency speedup and 5.12x FLOPs reduction across DiT-XL/2, PixArt-Sigma and FLUX.1-dev.",
       "published_at": "",
       "updated_at": "",
       "is_latest_30d": true,
@@ -7492,6 +7535,29 @@
       ]
     },
     {
+      "title": "LoSA: Near-Lossless Sparse Attention for Training-Free Video Diffusion Acceleration",
+      "venue": "arXiv 2026",
+      "topic": "video/image generation acceleration / sparse attention / video diffusion",
+      "arxiv": "2608.12032",
+      "doi": "",
+      "official_id": "2608.12032",
+      "paper_url": "https://arxiv.org/abs/2608.12032",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Direct video diffusion inference acceleration. Retains 99% attention mass with reusable block-sparse patterns; reports 1.36x standalone speedup and up to 3.2x when composed with feature caching with near-lossless VBench quality.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Sparsity / Pruning",
+        "Efficient Attention",
+        "Video / Image Generation",
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
       "title": "LoKiFormer: Locality-aware Attention with Decoupled Knowledge Memory for Efficient Large Language Model Pretraining",
       "venue": "ICML 2026",
       "topic": "LLM pretraining efficiency / efficient attention / explicit knowledge memory",
@@ -8172,6 +8238,26 @@
       "directions": [
         "Distributed Training / Inference",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "ChebBooster: A Training-Free Approach for Efficient Diffusion Transformer Inference via Chebyshev-Inspired Extrapolation",
+      "venue": "",
+      "topic": "diffusion/flow acceleration / training-free DiT extrapolation / cache-style compute skipping",
+      "arxiv": "2608.23429",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.23429",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Direct diffusion inference acceleration. Chebyshev-inspired stable extrapolation skips expensive DiT block executions; reports up to 3.68x latency speedup and 5.12x FLOPs reduction across DiT-XL/2, PixArt-Sigma and FLUX.1-dev.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Diffusion / Flow Acceleration"
       ]
     },
     {
@@ -10924,7 +11010,7 @@
     {
       "title": "ChebBooster: A Training-Free Approach for Efficient Diffusion Transformer Inference via Chebyshev-Inspired Extrapolation",
       "venue": "",
-      "topic": "diffusion/DiT inference acceleration / training-free extrapolation",
+      "topic": "diffusion/flow acceleration / training-free DiT extrapolation / cache-style compute skipping",
       "arxiv": "2608.23429",
       "doi": "",
       "official_id": "",
@@ -10933,7 +11019,7 @@
       "formal_class": "WATCH",
       "decision": "WATCH",
       "tracking_tier": "P1 · Watch",
-      "why": "Training-free DiT acceleration using numerically stable Chebyshev-inspired extrapolation; reports up to 3.68x latency speedup and 5.12x FLOPs reduction across DiT-XL/2, PixArt-Sigma and FLUX.1-dev.",
+      "why": "Direct diffusion inference acceleration. Chebyshev-inspired stable extrapolation skips expensive DiT block executions; reports up to 3.68x latency speedup and 5.12x FLOPs reduction across DiT-XL/2, PixArt-Sigma and FLUX.1-dev.",
       "published_at": "",
       "updated_at": "",
       "is_latest_30d": true,

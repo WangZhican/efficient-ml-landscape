@@ -1376,6 +1376,29 @@
     ]
   },
   {
+    "title": "A1: A Fully Transparent Open-Source, Adaptive and Efficient Truncated Vision-Language-Action Model",
+    "venue": "arXiv 2026",
+    "topic": "VLA/WAM/Physical AI serving / adaptive early exit / flow action-head acceleration",
+    "arxiv": "2604.05672",
+    "doi": "",
+    "official_id": "2604.05672",
+    "paper_url": "https://arxiv.org/abs/2604.05672",
+    "code_url": "https://github.com/ATeam-Research/A1",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_PHYSICAL_AI_HIGH",
+    "why": "Protected Physical-AI efficiency gap. Budget-aware adaptive VLM early termination plus inter-layer truncated flow matching jointly accelerate backbone and action head; reports up to 72% lower per-episode flow-matching latency and 76.6% backbone compute reduction. Full official training stack is open source.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
+      "Diffusion / Flow Acceleration",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "ActionCache: Training-Free Acceleration for Vision-Language-Action Models with Action Caching and Refinement",
     "venue": "arXiv 2026",
     "topic": "VLA/WAM/Physical AI serving / action cache / flow action-head acceleration",
@@ -1442,6 +1465,29 @@
       "LLM Serving",
       "KV Cache / Long Context",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "LoSA: Near-Lossless Sparse Attention for Training-Free Video Diffusion Acceleration",
+    "venue": "arXiv 2026",
+    "topic": "video/image generation acceleration / sparse attention / video diffusion",
+    "arxiv": "2608.12032",
+    "doi": "",
+    "official_id": "2608.12032",
+    "paper_url": "https://arxiv.org/abs/2608.12032",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Direct video diffusion inference acceleration. Retains 99% attention mass with reusable block-sparse patterns; reports 1.36x standalone speedup and up to 3.2x when composed with feature caching with near-lossless VBench quality.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
@@ -24811,6 +24857,26 @@
       "KV Cache / Long Context",
       "MoE Systems / Accelerators",
       "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "ChebBooster: A Training-Free Approach for Efficient Diffusion Transformer Inference via Chebyshev-Inspired Extrapolation",
+    "venue": "",
+    "topic": "diffusion/flow acceleration / training-free DiT extrapolation / cache-style compute skipping",
+    "arxiv": "2608.23429",
+    "doi": "",
+    "official_id": "",
+    "paper_url": "https://arxiv.org/abs/2608.23429",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Direct diffusion inference acceleration. Chebyshev-inspired stable extrapolation skips expensive DiT block executions; reports up to 3.68x latency speedup and 5.12x FLOPs reduction across DiT-XL/2, PixArt-Sigma and FLUX.1-dev.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
