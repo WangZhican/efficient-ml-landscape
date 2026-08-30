@@ -1,6 +1,6 @@
 # 10 · Multimodal / MLLM Serving
 
-> **150 canonical papers** mapped here, plus a broader **56-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **152 canonical papers** mapped here, plus a broader **56-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -65,7 +65,7 @@
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 | **P2 · Relevant** | **Act with Intent: Distilling Behavior Intent for Vision-Language-Action Models** | Fresh / preprint | Physical AI / VLA / action decoder | [Link](https://arxiv.org/abs/2608.23478) | — |
 
-## 🏛️ Classical / Historical · 140 canonical
+## 🏛️ Classical / Historical · 142 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -78,6 +78,8 @@
 | **Canonical** | **See the Forest for the Trees: Loosely Speculative Decoding via Visual-Semantic Guidance for Efficient Inference of Video LLMs** | ACL 2026 | multimodal serving / speculative decoding | [Link](https://doi.org/10.18653/v1/2026.acl-long.1087) | — |
 | **Canonical** | **MQuant: Unleashing the Inference Potential of Multimodal Large Language Models via Full Static Quantization** | ACM Multimedia 2025 | multimodal LLM quantization / static PTQ / efficient inference | [Link](https://arxiv.org/abs/2502.00425) | [Repo](https://github.com/StiphyJay/MQuant) |
 | **Canonical** | **VISA: Group-wise Visual Token Selection and Aggregation via Graph Summarization for Efficient MLLMs Inference** | ACM Multimedia 2025 | MLLM inference / visual token pruning and aggregation | [Link](https://arxiv.org/abs/2508.17857) | — |
+| **Canonical** | **ActionCache: Training-Free Acceleration for Vision-Language-Action Models with Action Caching and Refinement** | arXiv 2026 | VLA/WAM/Physical AI serving / action cache / flow action-head acceleration | [Link](https://arxiv.org/abs/2607.06370) | — |
+| **Canonical** | **vla.cpp: A Unified Inference Runtime for Vision-Language-Action Models** | arXiv 2026 | VLA/WAM/Physical AI serving / portable runtime / edge deployment / quantized inference | [Link](https://arxiv.org/abs/2606.08094) | [Repo](https://github.com/VinRobotics/vla.cpp) |
 | **Canonical** | **DIP: Efficient Large Multimodal Model Training with Dynamic Interleaved Pipeline** | ASPLOS 2026 | multimodal distributed training / pipeline scheduling | [Link](https://arxiv.org/abs/2504.14145) | — |
 | **Canonical** | **Open-Qwen2VL: Compute-Efficient Pre-Training of Fully-Open Multimodal LLMs on Academic Resources** | COLM 2025 | multimodal training efficiency / open MLLM systems | [Link](https://arxiv.org/abs/2504.00595) | [Repo](https://github.com/Victorwz/Open-Qwen2VL) |
 | **Canonical** | **Resource-efficient Inference with Foundation Model Programs** | COLM 2025 | agentic inference / multimodal serving / dynamic model routing | [Link](https://arxiv.org/abs/2504.07247) | [Repo](https://github.com/Flitternie/FMProgramming) |

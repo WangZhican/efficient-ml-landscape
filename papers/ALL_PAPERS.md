@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **1192 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **316 visible papers = 70 P0 + 124 P1 + 122 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1195 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **316 visible papers = 70 P0 + 124 P1 + 122 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -339,7 +339,7 @@
 | **P2 · Relevant** | **Prime Agent: A Self-Improving RLM Harness** | Fresh / preprint | agent systems / long-horizon harness / resource accounting | [Link](https://arxiv.org/abs/2608.23552) | — |
 | **P2 · Relevant** | **Act with Intent: Distilling Behavior Intent for Vision-Language-Action Models** | Fresh / preprint | Physical AI / VLA / action decoder | [Link](https://arxiv.org/abs/2608.23478) | — |
 
-## 🏛️ Classical / Historical · 1122
+## 🏛️ Classical / Historical · 1125
 
 ### ICML 2026 · 372
 
@@ -1591,6 +1591,17 @@
 | **Canonical** | **Magnus: A Holistic Approach to Data Management for Large-Scale Machine Learning Workloads** | VLDB/PVLDB Volume 18 | ML data systems / large-scale training infrastructure | [Link](https://www.vldb.org/pvldb/vol18/p4964-song.pdf) | — |
 | **Canonical** | **mLoRA: Fine-Tuning LoRA Adapters via Highly-Efficient Pipeline Parallelism in Multiple GPUs** | VLDB/PVLDB Volume 18 | LoRA fine-tuning systems / multi-GPU pipeline | [Link](https://arxiv.org/abs/2312.02515) | — |
 
+### arXiv 2026 · 6
+
+| Priority | Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|---|
+| **Canonical** | **ActionCache: Training-Free Acceleration for Vision-Language-Action Models with Action Caching and Refinement** | arXiv 2026 | VLA/WAM/Physical AI serving / action cache / flow action-head acceleration | [Link](https://arxiv.org/abs/2607.06370) | — |
+| **Canonical** | **Lynx: Progressive Speculative Quantization for accelerating KV Transfer in Long-Context Inference** | arXiv 2026 | LLM serving / disaggregated inference / KV cache transfer / progressive quantization / speculative decoding | [Link](https://arxiv.org/abs/2607.01831) | — |
+| **Canonical** | **Realtime-VLA FLASH: Speculative Inference Framework for Diffusion-based VLAs** | arXiv 2026 | VLA/WAM/Physical AI serving / speculative inference / diffusion action head / Triton kernels | [Link](https://arxiv.org/abs/2605.13778) | [Repo](https://github.com/dexmal/realtime-vla-flash) |
+| **Canonical** | **SAC: Disaggregated KV Cache System for Sparse Attention LLMs with CXL** | arXiv 2026 | LLM serving / KV cache / sparse attention / disaggregated memory / CXL | [Link](https://arxiv.org/abs/2606.19746) | — |
+| **Canonical** | **Sangam: Efficiently Serving Diffusion LLMs with the AR Stack** | arXiv 2026 | LLM serving / diffusion language models / scheduling / disaggregated serving | [Link](https://arxiv.org/abs/2607.04206) | [Repo](https://github.com/UT-InfraAI/sangam) |
+| **Canonical** | **vla.cpp: A Unified Inference Runtime for Vision-Language-Action Models** | arXiv 2026 | VLA/WAM/Physical AI serving / portable runtime / edge deployment / quantized inference | [Link](https://arxiv.org/abs/2606.08094) | [Repo](https://github.com/VinRobotics/vla.cpp) |
+
 ### CoRL 2025 · 6
 
 | Priority | Paper | Venue | Topic | Paper | Code |
@@ -1674,14 +1685,6 @@
 | **Canonical** | **Enhancing Learned Knowledge in LoRA Adapters Through Efficient Contrastive Decoding on Ascend NPUs** | KDD 2025 | LLM decoding / LoRA / Ascend NPU kernel optimization | [Link](https://arxiv.org/abs/2505.14620) | — |
 | **Canonical** | **Exploiting Student Parallelism for Low-latency GPU Inference of BERT-like Models in Online Services** | KDD 2025 | GPU online inference / BERT serving / student parallelism | [Link](https://arxiv.org/abs/2408.12526) | — |
 | **Canonical** | **SEPTQ: A Simple and Effective Post-Training Quantization Paradigm for Large Language Models** | KDD 2025 | LLM post-training quantization / low-bit inference | [Link](https://arxiv.org/abs/2604.10091) | — |
-
-### arXiv 2026 · 3
-
-| Priority | Paper | Venue | Topic | Paper | Code |
-|---|---|---|---|---|---|
-| **Canonical** | **Lynx: Progressive Speculative Quantization for accelerating KV Transfer in Long-Context Inference** | arXiv 2026 | LLM serving / disaggregated inference / KV cache transfer / progressive quantization / speculative decoding | [Link](https://arxiv.org/abs/2607.01831) | — |
-| **Canonical** | **SAC: Disaggregated KV Cache System for Sparse Attention LLMs with CXL** | arXiv 2026 | LLM serving / KV cache / sparse attention / disaggregated memory / CXL | [Link](https://arxiv.org/abs/2606.19746) | — |
-| **Canonical** | **Sangam: Efficiently Serving Diffusion LLMs with the AR Stack** | arXiv 2026 | LLM serving / diffusion language models / scheduling / disaggregated serving | [Link](https://arxiv.org/abs/2607.04206) | [Repo](https://github.com/UT-InfraAI/sangam) |
 
 ### PLDI 2026 · 3
 

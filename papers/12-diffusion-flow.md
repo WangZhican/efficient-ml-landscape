@@ -1,6 +1,6 @@
 # 12 · Diffusion / Flow Acceleration
 
-> **149 canonical papers** mapped here, plus a broader **25-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **152 canonical papers** mapped here, plus a broader **25-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -34,7 +34,7 @@
 | **P0 · Strong** | **An Empirical Study of Training Pixel-Space Text-to-Image Diffusion Models** | Fresh / preprint | image generation acceleration | [Link](https://arxiv.org/abs/2608.16887) | — |
 | **P0 · Strong** | **Affix Cache for Diffusion Large Language Models** | Fresh / preprint | diffusion LLM inference / KV cache / serving | [Link](https://arxiv.org/abs/2608.26140) | — |
 
-## 🏛️ Classical / Historical · 139 canonical
+## 🏛️ Classical / Historical · 142 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -46,7 +46,10 @@
 | **Canonical** | **Single Trajectory Distillation for Accelerating Image and Video Style Transfer** | ACM Multimedia 2025 | diffusion/style-transfer acceleration / trajectory distillation | [Link](https://arxiv.org/abs/2412.18945) | — |
 | **Canonical** | **SpeCa: Accelerating Diffusion Transformers with Speculative Feature Caching** | ACM Multimedia 2025 | diffusion speculative caching | [Link](https://arxiv.org/abs/2509.11628) | — |
 | **Canonical** | **UltraVSR: Achieving Ultra-Realistic Video Super-Resolution with Efficient One-Step Diffusion Space** | ACM Multimedia 2025 | one-step diffusion / efficient video super-resolution | [Link](https://arxiv.org/abs/2505.19958) | [Repo](https://github.com/yongliuy/UltraVSR) |
+| **Canonical** | **ActionCache: Training-Free Acceleration for Vision-Language-Action Models with Action Caching and Refinement** | arXiv 2026 | VLA/WAM/Physical AI serving / action cache / flow action-head acceleration | [Link](https://arxiv.org/abs/2607.06370) | — |
+| **Canonical** | **Realtime-VLA FLASH: Speculative Inference Framework for Diffusion-based VLAs** | arXiv 2026 | VLA/WAM/Physical AI serving / speculative inference / diffusion action head / Triton kernels | [Link](https://arxiv.org/abs/2605.13778) | [Repo](https://github.com/dexmal/realtime-vla-flash) |
 | **Canonical** | **Sangam: Efficiently Serving Diffusion LLMs with the AR Stack** | arXiv 2026 | LLM serving / diffusion language models / scheduling / disaggregated serving | [Link](https://arxiv.org/abs/2607.04206) | [Repo](https://github.com/UT-InfraAI/sangam) |
+| **Canonical** | **vla.cpp: A Unified Inference Runtime for Vision-Language-Action Models** | arXiv 2026 | VLA/WAM/Physical AI serving / portable runtime / edge deployment / quantized inference | [Link](https://arxiv.org/abs/2606.08094) | [Repo](https://github.com/VinRobotics/vla.cpp) |
 | **Canonical** | **DSV: Exploiting Dynamic Sparsity to Accelerate Large-Scale Video DiT Training** | ASPLOS 2026 | video diffusion training / sparse attention / distributed training | [Link](https://arxiv.org/abs/2502.07590) | — |
 | **Canonical** | **MoDM: Efficient Serving for Image Generation via Mixture-of-Diffusion Models** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://arxiv.org/abs/2503.11972) | — |
 | **Canonical** | **TetriServe: Efficiently Serving Mixed DiT Workloads** | ASPLOS 2026 | diffusion/DiT serving / scheduling | [Link](https://arxiv.org/abs/2510.01565) | — |

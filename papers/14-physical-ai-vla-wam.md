@@ -1,6 +1,6 @@
 # 14 · VLA / WAM / Physical AI
 
-> **67 canonical papers** mapped here, plus a broader **57-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **70 canonical papers** mapped here, plus a broader **57-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -66,10 +66,13 @@
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 | **P2 · Relevant** | **Act with Intent: Distilling Behavior Intent for Vision-Language-Action Models** | Fresh / preprint | Physical AI / VLA / action decoder | [Link](https://arxiv.org/abs/2608.23478) | — |
 
-## 🏛️ Classical / Historical · 56 canonical
+## 🏛️ Classical / Historical · 59 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
+| **Canonical** | **ActionCache: Training-Free Acceleration for Vision-Language-Action Models with Action Caching and Refinement** | arXiv 2026 | VLA/WAM/Physical AI serving / action cache / flow action-head acceleration | [Link](https://arxiv.org/abs/2607.06370) | — |
+| **Canonical** | **Realtime-VLA FLASH: Speculative Inference Framework for Diffusion-based VLAs** | arXiv 2026 | VLA/WAM/Physical AI serving / speculative inference / diffusion action head / Triton kernels | [Link](https://arxiv.org/abs/2605.13778) | [Repo](https://github.com/dexmal/realtime-vla-flash) |
+| **Canonical** | **vla.cpp: A Unified Inference Runtime for Vision-Language-Action Models** | arXiv 2026 | VLA/WAM/Physical AI serving / portable runtime / edge deployment / quantized inference | [Link](https://arxiv.org/abs/2606.08094) | [Repo](https://github.com/VinRobotics/vla.cpp) |
 | **Canonical** | **ControlVLA: Few-shot Object-centric Adaptation for Pre-trained Vision-Language-Action Models** | CoRL 2025 | Physical AI / parameter-efficient VLA adaptation / few-shot fine-tuning | [Link](https://arxiv.org/abs/2506.16211) | — |
 | **Canonical** | **FLOWER: Democratizing Generalist Robot Policies with Efficient Vision-Language-Flow Models** | CoRL 2025 | Physical AI / efficient VLA / model compression / flow policy | [Link](https://arxiv.org/abs/2509.04996) | [Repo](https://github.com/intuitive-robots/flower_vla_pret) |
 | **Canonical** | **Focusing on What Matters: Object-Agent-centric Tokenization for Vision Language Action models** | CoRL 2025 | Physical AI / VLA visual-token compression / efficient training | [Link](https://proceedings.mlr.press/v305/bendikas25a.html) | — |

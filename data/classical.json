@@ -1242,6 +1242,30 @@
     ]
   },
   {
+    "title": "ActionCache: Training-Free Acceleration for Vision-Language-Action Models with Action Caching and Refinement",
+    "venue": "arXiv 2026",
+    "topic": "VLA/WAM/Physical AI serving / action cache / flow action-head acceleration",
+    "arxiv": "2607.06370",
+    "doi": "",
+    "official_id": "2607.06370",
+    "paper_url": "https://arxiv.org/abs/2607.06370",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_PHYSICAL_AI_HIGH",
+    "why": "Training-free external action cache reuses retrieved intermediate actions to warm-start flow/diffusion action generation, directly reducing iterative action-head NFEs and latency for pi0.5 and GR00T-N1.6.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Multimodal / MLLM Serving",
+      "Diffusion / Flow Acceleration",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Lynx: Progressive Speculative Quantization for accelerating KV Transfer in Long-Context Inference",
     "venue": "arXiv 2026",
     "topic": "LLM serving / disaggregated inference / KV cache transfer / progressive quantization / speculative decoding",
@@ -1262,6 +1286,30 @@
       "Speculative Decoding",
       "KV Cache / Long Context",
       "Quantization"
+    ]
+  },
+  {
+    "title": "Realtime-VLA FLASH: Speculative Inference Framework for Diffusion-based VLAs",
+    "venue": "arXiv 2026",
+    "topic": "VLA/WAM/Physical AI serving / speculative inference / diffusion action head / Triton kernels",
+    "arxiv": "2605.13778",
+    "doi": "",
+    "official_id": "2605.13778",
+    "paper_url": "https://arxiv.org/abs/2605.13778",
+    "code_url": "https://github.com/dexmal/realtime-vla-flash",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_PHYSICAL_AI_HIGH",
+    "why": "Speculative inference system for diffusion VLAs using a lightweight draft model, parallel main-model verification and fallback; official implementation includes customized Triton serving kernels and reports ~3.04x task-level speedup.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "GPU Kernel / DSL / Compiler",
+      "Diffusion / Flow Acceleration",
+      "VLA / WAM / Physical AI"
     ]
   },
   {
@@ -1307,6 +1355,31 @@
     "directions": [
       "LLM Serving",
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "vla.cpp: A Unified Inference Runtime for Vision-Language-Action Models",
+    "venue": "arXiv 2026",
+    "topic": "VLA/WAM/Physical AI serving / portable runtime / edge deployment / quantized inference",
+    "arxiv": "2606.08094",
+    "doi": "",
+    "official_id": "2606.08094",
+    "paper_url": "https://arxiv.org/abs/2606.08094",
+    "code_url": "https://github.com/VinRobotics/vla.cpp",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_PHYSICAL_AI_HIGH",
+    "why": "Unified llama.cpp/ggml-class C++ runtime serving multiple VLA architectures including flow/diffusion action heads, with portable deployment from GPUs to embedded modules and low-memory BitVLA execution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "Multimodal / MLLM Serving",
+      "Diffusion / Flow Acceleration",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {

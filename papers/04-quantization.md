@@ -1,6 +1,6 @@
 # 04 · Quantization
 
-> **174 canonical papers** mapped here, plus a broader **51-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **175 canonical papers** mapped here, plus a broader **51-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -60,7 +60,7 @@
 | **P0 · Strong** | **APT: Accelerating Diffusion Transformers via Attention Probability-Guided Pruning and Quantization** | Fresh / preprint | diffusion acceleration / sparse attention / quantization / accelerator | [Link](https://arxiv.org/abs/2608.25380) | — |
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 
-## 🏛️ Classical / Historical · 164 canonical
+## 🏛️ Classical / Historical · 165 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -74,6 +74,7 @@
 | **Canonical** | **MQuant: Unleashing the Inference Potential of Multimodal Large Language Models via Full Static Quantization** | ACM Multimedia 2025 | multimodal LLM quantization / static PTQ / efficient inference | [Link](https://arxiv.org/abs/2502.00425) | [Repo](https://github.com/StiphyJay/MQuant) |
 | **Canonical** | **Quantization Meets OOD: Generalizable Quantization-aware Training from a Flatness Perspective** | ACM Multimedia 2025 | quantization-aware training / OOD generalization | [Link](https://arxiv.org/abs/2509.00859) | — |
 | **Canonical** | **Lynx: Progressive Speculative Quantization for accelerating KV Transfer in Long-Context Inference** | arXiv 2026 | LLM serving / disaggregated inference / KV cache transfer / progressive quantization / speculative decoding | [Link](https://arxiv.org/abs/2607.01831) | — |
+| **Canonical** | **vla.cpp: A Unified Inference Runtime for Vision-Language-Action Models** | arXiv 2026 | VLA/WAM/Physical AI serving / portable runtime / edge deployment / quantized inference | [Link](https://arxiv.org/abs/2606.08094) | [Repo](https://github.com/VinRobotics/vla.cpp) |
 | **Canonical** | **Mugi: Value Level Parallelism For Efficient LLMs** | ASPLOS 2026 | LLM accelerator / value-level parallelism / low precision | [Link](https://arxiv.org/abs/2601.10823) | — |
 | **Canonical** | **KVSink: Understanding and Enhancing the Preservation of Attention Sinks in KV Cache Quantization for LLMs** | COLM 2025 | KV cache quantization / attention sinks | [Link](https://arxiv.org/abs/2508.04257) | — |
 | **Canonical** | **SQuat: Subspace-orthogonal KV Cache Quantization** | COLM 2025 | KV cache quantization | [Link](https://arxiv.org/abs/2503.24358) | — |

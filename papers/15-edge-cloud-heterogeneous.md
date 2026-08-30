@@ -1,6 +1,6 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **247 canonical papers** mapped here, plus a broader **99-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **248 canonical papers** mapped here, plus a broader **99-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -108,7 +108,7 @@
 | **P0 · Strong** | **AsymSpec: Efficient Cloud–Edge Speculative Decoding over Asymmetric Networks** | Fresh / preprint | speculative decoding / LLM serving / edge-cloud heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.04974) | — |
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 
-## 🏛️ Classical / Historical · 229 canonical
+## 🏛️ Classical / Historical · 230 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -119,6 +119,7 @@
 | **Canonical** | **How2Compress: Scalable and Efficient Edge Video Analytics via Adaptive Granular Video Compression** | ACM Multimedia 2025 | edge video analytics / adaptive video compression | [Link](https://arxiv.org/abs/2510.18409) | [Repo](https://github.com/wyhallenwu/how2compress) |
 | **Canonical** | **TinyServe: Query-Aware Cache Selection for Efficient LLM Serving** | ACM Multimedia 2025 | LLM serving / KV cache sparsity / CUDA kernels / edge inference | [Link](https://arxiv.org/abs/2509.12211) | [Repo](https://github.com/FastLM/tinyserve-vllm) |
 | **Canonical** | **SAC: Disaggregated KV Cache System for Sparse Attention LLMs with CXL** | arXiv 2026 | LLM serving / KV cache / sparse attention / disaggregated memory / CXL | [Link](https://arxiv.org/abs/2606.19746) | — |
+| **Canonical** | **vla.cpp: A Unified Inference Runtime for Vision-Language-Action Models** | arXiv 2026 | VLA/WAM/Physical AI serving / portable runtime / edge deployment / quantized inference | [Link](https://arxiv.org/abs/2606.08094) | [Repo](https://github.com/VinRobotics/vla.cpp) |
 | **Canonical** | **MoE-APEX: An Efficient MoE Inference System with Adaptive Precision Expert Offloading** | ASPLOS 2026 | edge MoE inference / expert offloading / mixed precision | [Link](https://doi.org/10.1145/3779212.3790187) | — |
 | **Canonical** | **MSCCL++: Rethinking GPU Communication Abstractions for Cutting-edge AI Applications** | ASPLOS 2026 | distributed AI / GPU communication runtime | [Link](https://arxiv.org/abs/2504.09014) | [Repo](https://github.com/microsoft/mscclpp) |
 | **Canonical** | **PF-LLM: Large Language Model Hinted Hardware Prefetching** | ASPLOS 2026 | LLM inference / hardware prefetching | — | — |
