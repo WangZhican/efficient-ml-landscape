@@ -1,6 +1,6 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **239 canonical papers** mapped here, plus a broader **99-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **245 canonical papers** mapped here, plus a broader **99-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -108,7 +108,7 @@
 | **P0 · Strong** | **AsymSpec: Efficient Cloud–Edge Speculative Decoding over Asymmetric Networks** | Fresh / preprint | speculative decoding / LLM serving / edge-cloud heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.04974) | — |
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 
-## 🏛️ Classical / Historical · 221 canonical
+## 🏛️ Classical / Historical · 227 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -239,7 +239,13 @@
 | **Canonical** | **SMoE: An Algorithm-System Co-Design for Pushing MoE to the Edge via Expert Substitution** | ISCA 2026 | edge MoE / algorithm-system co-design | [Link](https://www.iscaconf.org/isca2026/program/) | — |
 | **Canonical** | **SMOOTH: Hardware-Assisted Fine-Grained On-Chip Memory Management for Efficient On-Device LLM Inference** | ISCA 2026 | edge speculative reasoning + quantization + memory-system + generative inference accelerators | — | — |
 | **Canonical** | **XtraMAC: An Efficient MAC Architecture for Mixed-Precision LLM Inference on FPGA** | ISCA 2026 | mixed-precision LLM / FPGA accelerator | [Link](https://arxiv.org/abs/2605.06052) | [Repo](https://github.com/Xtra-Computing/XtraMAC) |
+| **Canonical** | **A 1.2GHz 12.77GB/s/mm² 3D Two-DRAM-One-Logic Process-Near-Memory Chip for Edge LLM Applications** | ISSCC 2026 | edge LLM / 3D DRAM / process-near-memory / heterogeneous AI systems | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409184) | — |
+| **Canonical** | **A 12nm 4Mb 104.56-to-137.75TFLOPS/W Charge-Trap Transistor-Based Computing-in-Memory Macro Using Analog-Predict-Digital-Compute for AI Edge Devices** | ISSCC 2026 | edge AI / charge-trap compute-in-memory / mixed INT-FP4 | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409272) | — |
 | **Canonical** | **A 147TOPS/W, 250TOPS/mm2, Fully Synthesizable, Digital Compute-in-Memory Accelerator Supporting INT8xINT8 with Zero-Point Quantization in Intel 18A Technology** | ISSCC 2026 | edge/cloud/heterogeneous AI systems / compute-in-memory / INT8 quantization accelerator | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409207) | — |
+| **Canonical** | **A 16Mb 166.8TOPS/W Near-Memory Phase-Domain-Computing Ferroelectric NAND Flash for Approximate Nearest Neighbor Search on Edge Devices** | ISSCC 2026 | vector search / ANN / edge near-memory computing / ferroelectric NAND | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409218) | — |
+| **Canonical** | **A 16nm 72kb 120.5TFLOPS/W Versatile-Format Dual-Representation Gain-Cell CIM Macro for General Purpose AI Tasks** | ISSCC 2026 | general-purpose AI / gain-cell CIM / multi-format inference | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409052) | — |
+| **Canonical** | **A 16nm, 1Mb, 1-to-8b-Configurable 444.21TOPS/W Fully Digital SRAM Compute-in-Memory Macro for Hybrid SNN-CNN Edge Computing** | ISSCC 2026 | edge AI / SRAM CIM / configurable precision / SNN-CNN | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409250) | — |
+| **Canonical** | **A 22nm 96Mb 50.6-to-90.2TFLOPS/W Non-Linear MLC ReRAM CIM Macro with High-Retention for Mamba/Transformer/CNN** | ISSCC 2026 | Mamba / Transformer / CNN / ReRAM compute-in-memory | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409297) | — |
 | **Canonical** | **A 48Gb/s 24Gb GDDR7 DRAM for Mid-Range Inference AI with Symmetric 2CH-Mode Operation, Clock-Path Optimization, and RAS Features** | ISSCC 2026 | edge/cloud/heterogeneous AI systems / AI memory / inference infrastructure / GDDR7 | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409122) | — |
 | **Canonical** | **A 71.3mJ/Frame End-to-End Driving Processor with Flexible Heterogeneous Core Orchestration via Sparsity Reasoning** | ISSCC 2026 | VLA/WAM/Physical AI serving / edge AI accelerator / sparsity / heterogeneous runtime | [Link](https://www.isl-yonsei.ac/news-posts/congratulations-jueun-and-sanghos-paper-is-accepted-to-ieee-international-solid-state-circuits-conference-isscc/) | — |
 | **Canonical** | **ARIES and REGULUS: A Unified and Scalable Hardware-Software Co-Designed NPU SoC Family for On-Device and On-Premises Multimodal Inference** | ISSCC 2026 | NPU / multimodal inference / mixed precision / edge-cloud AI | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409083) | — |

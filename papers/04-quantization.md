@@ -1,6 +1,6 @@
 # 04 · Quantization
 
-> **172 canonical papers** mapped here, plus a broader **51-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **174 canonical papers** mapped here, plus a broader **51-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -60,7 +60,7 @@
 | **P0 · Strong** | **APT: Accelerating Diffusion Transformers via Attention Probability-Guided Pruning and Quantization** | Fresh / preprint | diffusion acceleration / sparse attention / quantization / accelerator | [Link](https://arxiv.org/abs/2608.25380) | — |
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 
-## 🏛️ Classical / Historical · 162 canonical
+## 🏛️ Classical / Historical · 164 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -196,8 +196,10 @@
 | **Canonical** | **SHyLA: 3D-Stacked NVM-DRAM Hybrid LLM-Inference Architecture Exploiting Data and Memory Heterogeneity** | ISCA 2026 | edge speculative reasoning + quantization + memory-system + generative inference accelerators | [Link](https://he-liu-ooo.github.io/files/papers/isca2026-shyla-paper.pdf) | — |
 | **Canonical** | **SingularBit: Exploiting Synergy of Singular Value Decomposition and Low-Bit Quantization for Weight and KV Compression in LLM Inference** | ISCA 2026 | quantization / KV compression / SVD | [Link](https://www.iscaconf.org/isca2026/program/) | — |
 | **Canonical** | **SMOOTH: Hardware-Assisted Fine-Grained On-Chip Memory Management for Efficient On-Device LLM Inference** | ISCA 2026 | edge speculative reasoning + quantization + memory-system + generative inference accelerators | — | — |
+| **Canonical** | **A 12nm 4Mb 104.56-to-137.75TFLOPS/W Charge-Trap Transistor-Based Computing-in-Memory Macro Using Analog-Predict-Digital-Compute for AI Edge Devices** | ISSCC 2026 | edge AI / charge-trap compute-in-memory / mixed INT-FP4 | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409272) | — |
 | **Canonical** | **A 14.08-to-135.69Token/s ReRAM-on-Logic Stacked Outlier-Free Large-Language-Model Accelerator with Block-Clustered Weight-Compression and Adaptive Parallel-Speculative-Decoding** | ISSCC 2026 | LLM inference accelerator / speculative decoding / low-bit quantization / ReRAM-on-logic | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409211) | — |
 | **Canonical** | **A 147TOPS/W, 250TOPS/mm2, Fully Synthesizable, Digital Compute-in-Memory Accelerator Supporting INT8xINT8 with Zero-Point Quantization in Intel 18A Technology** | ISSCC 2026 | edge/cloud/heterogeneous AI systems / compute-in-memory / INT8 quantization accelerator | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409207) | — |
+| **Canonical** | **A 28nm 127.54TFLOPS/W MXFP6 and 117.42TFLOPS/W MXFP8 Compute-in-Memory Macro with Adaptive-Preserved-Bit-Width and Serial-Dual-Bit-Sliding Schemes** | ISSCC 2026 | MXFP6/MXFP8 / compute-in-memory / quantized AI acceleration | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409034) | — |
 | **Canonical** | **A 51.6μJ/Token Subspace-Rotation-Based Dual-Quantized Large-Language-Model Accelerator with Fused Scale-Activation INT Datapath and Rearranged Bit-Slice LUT Computation** | ISSCC 2026 | LLM quantization / rotation / accelerator architecture | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409212) | — |
 | **Canonical** | **ARIES and REGULUS: A Unified and Scalable Hardware-Software Co-Designed NPU SoC Family for On-Device and On-Premises Multimodal Inference** | ISSCC 2026 | NPU / multimodal inference / mixed precision / edge-cloud AI | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409083) | — |
 | **Canonical** | **LUT-SSM: A 99.3TFLOPS/W LUT-Based State-Space Model Accelerator Using Energy-Efficient Element-Wise Layer Fusion and LUT-Friendly Weight-Only Quantization** | ISSCC 2026 | edge/cloud/heterogeneous AI systems / quantization / SSM accelerator | [Link](https://pure.kaist.ac.kr/en/publications/lut-ssm-a-993tflopsw-lut-based-state-space-model-accelerator-usin/) | — |

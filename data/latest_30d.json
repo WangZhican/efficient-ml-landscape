@@ -3324,7 +3324,8 @@
       "is_latest_30d": true,
       "directions": [
         "LLM Serving",
-        "GPU Kernel / DSL / Compiler"
+        "GPU Kernel / DSL / Compiler",
+        "Video / Image Generation"
       ]
     },
     {
@@ -4533,6 +4534,7 @@
       "updated_at": "2026-08-19T16:08:10Z",
       "is_latest_30d": true,
       "directions": [
+        "Video / Image Generation",
         "VLA / WAM / Physical AI"
       ]
     },
@@ -10194,7 +10196,8 @@
       "is_latest_30d": true,
       "directions": [
         "LLM Serving",
-        "GPU Kernel / DSL / Compiler"
+        "GPU Kernel / DSL / Compiler",
+        "Video / Image Generation"
       ]
     },
     {
@@ -11401,6 +11404,7 @@
       "updated_at": "2026-08-19T16:08:10Z",
       "is_latest_30d": true,
       "directions": [
+        "Video / Image Generation",
         "VLA / WAM / Physical AI"
       ]
     },

@@ -17834,6 +17834,26 @@
     ]
   },
   {
+    "title": "A 1.2GHz 12.77GB/s/mm² 3D Two-DRAM-One-Logic Process-Near-Memory Chip for Edge LLM Applications",
+    "venue": "ISSCC 2026",
+    "topic": "edge LLM / 3D DRAM / process-near-memory / heterogeneous AI systems",
+    "arxiv": "",
+    "doi": "10.1109/ISSCC49663.2026.11409184",
+    "official_id": "10.1109/ISSCC49663.2026.11409184",
+    "paper_url": "https://doi.org/10.1109/ISSCC49663.2026.11409184",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ISSCC 2026 Session 30 3D two-DRAM-one-logic process-near-memory chip explicitly targeting edge LLM applications. The stacked architecture reduces memory-movement bottlenecks and reports 12.77 GB/s/mm² bandwidth density at 1.2 GHz.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "A 1286fps 0.39mJ/Frame Modeling/Rendering Unified 3D GS Processor with Locality-Optimized Computation and Reconfigurable Architecture",
     "venue": "ISSCC 2026",
     "topic": "3D Gaussian Splatting / modeling-rendering unified accelerator / neural rendering",
@@ -17852,6 +17872,27 @@
     "directions": [
       "LLM Serving",
       "Video / Image Generation"
+    ]
+  },
+  {
+    "title": "A 12nm 4Mb 104.56-to-137.75TFLOPS/W Charge-Trap Transistor-Based Computing-in-Memory Macro Using Analog-Predict-Digital-Compute for AI Edge Devices",
+    "venue": "ISSCC 2026",
+    "topic": "edge AI / charge-trap compute-in-memory / mixed INT-FP4",
+    "arxiv": "",
+    "doi": "10.1109/ISSCC49663.2026.11409272",
+    "official_id": "10.1109/ISSCC49663.2026.11409272",
+    "paper_url": "https://doi.org/10.1109/ISSCC49663.2026.11409272",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ISSCC 2026 Session 30 12nm 4Mb nonvolatile CIM macro for edge AI. Analog-predict-digital-compute reduces unnecessary MAC work and supports INT/FP4 computation, reporting 104.56-to-137.75 TFLOPS/W.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -17896,6 +17937,106 @@
     "directions": [
       "Quantization",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "A 16Mb 166.8TOPS/W Near-Memory Phase-Domain-Computing Ferroelectric NAND Flash for Approximate Nearest Neighbor Search on Edge Devices",
+    "venue": "ISSCC 2026",
+    "topic": "vector search / ANN / edge near-memory computing / ferroelectric NAND",
+    "arxiv": "",
+    "doi": "10.1109/ISSCC49663.2026.11409218",
+    "official_id": "10.1109/ISSCC49663.2026.11409218",
+    "paper_url": "https://doi.org/10.1109/ISSCC49663.2026.11409218",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ISSCC 2026 Session 30 near-memory ferroelectric NAND accelerator for approximate nearest-neighbor search on edge devices, directly relevant to vector retrieval infrastructure and reporting 166.8 TOPS/W.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "A 16nm 72kb 120.5TFLOPS/W Versatile-Format Dual-Representation Gain-Cell CIM Macro for General Purpose AI Tasks",
+    "venue": "ISSCC 2026",
+    "topic": "general-purpose AI / gain-cell CIM / multi-format inference",
+    "arxiv": "",
+    "doi": "10.1109/ISSCC49663.2026.11409052",
+    "official_id": "10.1109/ISSCC49663.2026.11409052",
+    "paper_url": "https://doi.org/10.1109/ISSCC49663.2026.11409052",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ISSCC 2026 Session 30 16nm gain-cell CIM macro supporting versatile formats via dual representations for general-purpose AI tasks, reporting 120.5 TFLOPS/W.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "A 16nm, 1Mb, 1-to-8b-Configurable 444.21TOPS/W Fully Digital SRAM Compute-in-Memory Macro for Hybrid SNN-CNN Edge Computing",
+    "venue": "ISSCC 2026",
+    "topic": "edge AI / SRAM CIM / configurable precision / SNN-CNN",
+    "arxiv": "",
+    "doi": "10.1109/ISSCC49663.2026.11409250",
+    "official_id": "10.1109/ISSCC49663.2026.11409250",
+    "paper_url": "https://doi.org/10.1109/ISSCC49663.2026.11409250",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ISSCC 2026 Session 30 fully digital SRAM CIM macro with 1-to-8-bit configurable precision for hybrid SNN-CNN edge computing, reporting up to 444.21 TOPS/W.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "A 22nm 96Mb 50.6-to-90.2TFLOPS/W Non-Linear MLC ReRAM CIM Macro with High-Retention for Mamba/Transformer/CNN",
+    "venue": "ISSCC 2026",
+    "topic": "Mamba / Transformer / CNN / ReRAM compute-in-memory",
+    "arxiv": "",
+    "doi": "10.1109/ISSCC49663.2026.11409297",
+    "official_id": "10.1109/ISSCC49663.2026.11409297",
+    "paper_url": "https://doi.org/10.1109/ISSCC49663.2026.11409297",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ISSCC 2026 Session 30 22nm 96Mb nonlinear MLC ReRAM CIM macro explicitly evaluated for Mamba, Transformer, and CNN workloads, combining high-retention storage with 50.6-to-90.2 TFLOPS/W inference efficiency.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "A 28nm 127.54TFLOPS/W MXFP6 and 117.42TFLOPS/W MXFP8 Compute-in-Memory Macro with Adaptive-Preserved-Bit-Width and Serial-Dual-Bit-Sliding Schemes",
+    "venue": "ISSCC 2026",
+    "topic": "MXFP6/MXFP8 / compute-in-memory / quantized AI acceleration",
+    "arxiv": "",
+    "doi": "10.1109/ISSCC49663.2026.11409034",
+    "official_id": "10.1109/ISSCC49663.2026.11409034",
+    "paper_url": "https://doi.org/10.1109/ISSCC49663.2026.11409034",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ISSCC 2026 Session 30 fabricated MXFP compute-in-memory macro. Adaptive preserved bit width and serial dual-bit sliding directly target microscaling floating-point inference efficiency, reporting 127.54 TFLOPS/W for MXFP6 and 117.42 TFLOPS/W for MXFP8.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization"
     ]
   },
   {

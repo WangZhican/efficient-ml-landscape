@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **1178 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **316 visible papers = 70 P0 + 124 P1 + 122 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1185 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **316 visible papers = 70 P0 + 124 P1 + 122 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -339,7 +339,7 @@
 | **P2 · Relevant** | **Prime Agent: A Self-Improving RLM Harness** | Fresh / preprint | agent systems / long-horizon harness / resource accounting | [Link](https://arxiv.org/abs/2608.23552) | — |
 | **P2 · Relevant** | **Act with Intent: Distilling Behavior Intent for Vision-Language-Action Models** | Fresh / preprint | Physical AI / VLA / action decoder | [Link](https://arxiv.org/abs/2608.23478) | — |
 
-## 🏛️ Classical / Historical · 1108
+## 🏛️ Classical / Historical · 1115
 
 ### ICML 2026 · 372
 
@@ -1026,6 +1026,37 @@
 | **Canonical** | **WATOS: Efficient LLM Training Strategies and Architecture Co-exploration for Wafer-scale Chip** | HPCA 2026 | distributed LLM training / wafer-scale architecture co-design | [Link](https://arxiv.org/abs/2512.12279) | — |
 | **Canonical** | **µShare: Non-Intrusive Kernel Co-Locating on NVIDIA GPUs** | HPCA 2026 | GPU resource sharing / kernel co-location / inference throughput | [Link](https://arxiv.org/abs/2601.06562) | — |
 
+### ISSCC 2026 · 26
+
+| Priority | Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|---|
+| **Canonical** | **A 0.24mJ/Frame Quadratic Interpolation 4DGS Processor with Recursive Computation Reuse and Tree-Based Parallel-Rendering** | ISSCC 2026 | 4D Gaussian Splatting / neural rendering accelerator / dynamic-scene generation | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409230) | — |
+| **Canonical** | **A 1.2GHz 12.77GB/s/mm² 3D Two-DRAM-One-Logic Process-Near-Memory Chip for Edge LLM Applications** | ISSCC 2026 | edge LLM / 3D DRAM / process-near-memory / heterogeneous AI systems | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409184) | — |
+| **Canonical** | **A 1286fps 0.39mJ/Frame Modeling/Rendering Unified 3D GS Processor with Locality-Optimized Computation and Reconfigurable Architecture** | ISSCC 2026 | 3D Gaussian Splatting / modeling-rendering unified accelerator / neural rendering | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409198) | — |
+| **Canonical** | **A 12nm 4Mb 104.56-to-137.75TFLOPS/W Charge-Trap Transistor-Based Computing-in-Memory Macro Using Analog-Predict-Digital-Compute for AI Edge Devices** | ISSCC 2026 | edge AI / charge-trap compute-in-memory / mixed INT-FP4 | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409272) | — |
+| **Canonical** | **A 14.08-to-135.69Token/s ReRAM-on-Logic Stacked Outlier-Free Large-Language-Model Accelerator with Block-Clustered Weight-Compression and Adaptive Parallel-Speculative-Decoding** | ISSCC 2026 | LLM inference accelerator / speculative decoding / low-bit quantization / ReRAM-on-logic | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409211) | — |
+| **Canonical** | **A 147TOPS/W, 250TOPS/mm2, Fully Synthesizable, Digital Compute-in-Memory Accelerator Supporting INT8xINT8 with Zero-Point Quantization in Intel 18A Technology** | ISSCC 2026 | edge/cloud/heterogeneous AI systems / compute-in-memory / INT8 quantization accelerator | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409207) | — |
+| **Canonical** | **A 16Mb 166.8TOPS/W Near-Memory Phase-Domain-Computing Ferroelectric NAND Flash for Approximate Nearest Neighbor Search on Edge Devices** | ISSCC 2026 | vector search / ANN / edge near-memory computing / ferroelectric NAND | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409218) | — |
+| **Canonical** | **A 16nm 72kb 120.5TFLOPS/W Versatile-Format Dual-Representation Gain-Cell CIM Macro for General Purpose AI Tasks** | ISSCC 2026 | general-purpose AI / gain-cell CIM / multi-format inference | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409052) | — |
+| **Canonical** | **A 16nm, 1Mb, 1-to-8b-Configurable 444.21TOPS/W Fully Digital SRAM Compute-in-Memory Macro for Hybrid SNN-CNN Edge Computing** | ISSCC 2026 | edge AI / SRAM CIM / configurable precision / SNN-CNN | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409250) | — |
+| **Canonical** | **A 22nm 96Mb 50.6-to-90.2TFLOPS/W Non-Linear MLC ReRAM CIM Macro with High-Retention for Mamba/Transformer/CNN** | ISSCC 2026 | Mamba / Transformer / CNN / ReRAM compute-in-memory | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409297) | — |
+| **Canonical** | **A 28nm 127.54TFLOPS/W MXFP6 and 117.42TFLOPS/W MXFP8 Compute-in-Memory Macro with Adaptive-Preserved-Bit-Width and Serial-Dual-Bit-Sliding Schemes** | ISSCC 2026 | MXFP6/MXFP8 / compute-in-memory / quantized AI acceleration | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409034) | — |
+| **Canonical** | **A 28nm Speculative-Decoding LLM Processor Achieving 105-to-685μs/Token Latency for Billion-Parameter Models** | ISSCC 2026 | speculative decoding / LLM accelerator / mixed precision | [Link](https://doi.org/10.1109/ISSCC49663.2026.11408953) | — |
+| **Canonical** | **A 48Gb/s 24Gb GDDR7 DRAM for Mid-Range Inference AI with Symmetric 2CH-Mode Operation, Clock-Path Optimization, and RAS Features** | ISSCC 2026 | edge/cloud/heterogeneous AI systems / AI memory / inference infrastructure / GDDR7 | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409122) | — |
+| **Canonical** | **A 51.6μJ/Token Subspace-Rotation-Based Dual-Quantized Large-Language-Model Accelerator with Fused Scale-Activation INT Datapath and Rearranged Bit-Slice LUT Computation** | ISSCC 2026 | LLM quantization / rotation / accelerator architecture | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409212) | — |
+| **Canonical** | **A 71.3mJ/Frame End-to-End Driving Processor with Flexible Heterogeneous Core Orchestration via Sparsity Reasoning** | ISSCC 2026 | VLA/WAM/Physical AI serving / edge AI accelerator / sparsity / heterogeneous runtime | [Link](https://www.isl-yonsei.ac/news-posts/congratulations-jueun-and-sanghos-paper-is-accepted-to-ieee-international-solid-state-circuits-conference-isscc/) | — |
+| **Canonical** | **A Quad-Chiplet AI SoC with Full-Chip Scalable Mesh over 16Gbps UCIe-Advanced Die-to-Die Interface for Large Scale AI Inferencing** | ISSCC 2026 | LLM inference accelerator / chiplet / UCIe / AI infrastructure | [Link](https://rebellions.ai/isscc-a-quad-chiplet-ai-soc-with-full-chip-scalable-mesh-over-16gbps-ucie-advanced-die-to-die-interface-for-large-scale-ai-inferencing/) | — |
+| **Canonical** | **ARIES and REGULUS: A Unified and Scalable Hardware-Software Co-Designed NPU SoC Family for On-Device and On-Premises Multimodal Inference** | ISSCC 2026 | NPU / multimodal inference / mixed precision / edge-cloud AI | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409083) | — |
+| **Canonical** | **HYDAR: A 390K QPS, 1574K QPS/W Hybrid Analog/Digital Compute-in-RRAM Accelerator for Efficient Recommendation System** | ISSCC 2026 | edge/cloud/heterogeneous AI systems / recommendation serving / vector search / RRAM accelerator | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409110) | — |
+| **Canonical** | **LUT-SSM: A 99.3TFLOPS/W LUT-Based State-Space Model Accelerator Using Energy-Efficient Element-Wise Layer Fusion and LUT-Friendly Weight-Only Quantization** | ISSCC 2026 | edge/cloud/heterogeneous AI systems / quantization / SSM accelerator | [Link](https://pure.kaist.ac.kr/en/publications/lut-ssm-a-993tflopsw-lut-based-state-space-model-accelerator-usin/) | — |
+| **Canonical** | **MADiC: A 3nm 7.4TOPS/mm2, 17.4TOPS/W Generative Diffusion Accelerator Enabled by Hardware-Compiler Co-Optimization of Memory Hierarchy and Operator Parallelism** | ISSCC 2026 | diffusion/flow acceleration / image generation accelerator / hardware-compiler co-design | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409294) | — |
+| **Canonical** | **Revolver: Low-Bit GenAI Accelerator for Distilled-Model and CoT with Phase-Aware-Quantization and Rotation-Based Integer-Scaled Group Quantization** | ISSCC 2026 | low-bit GenAI accelerator / reasoning / quantization | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409015) | — |
+| **Canonical** | **SMoLPU: 122.1μJ/Token Sparse MoE-Based Speculative Decoding Language Processing Unit with Adaptive-Offload NPU-CIM Core** | ISSCC 2026 | MoE systems/accelerators / speculative decoding / edge AI hardware | [Link](https://pure.kaist.ac.kr/en/publications/smolpu-1221%CE%BCjtoken-sparse-moe-based-speculative-decoding-language/) | — |
+| **Canonical** | **SoulMate: A 9.8mW Mobile Intelligence System-on-Chip with Mixed-Rank Architecture for On-Device LLM Personalization** | ISSCC 2026 | on-device LLM / personalization / RAG / fine-tuning accelerator | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409048) | — |
+| **Canonical** | **Spyre: An inference-optimized scalable AI accelerator for enterprise workloads** | ISSCC 2026 | AI accelerator / enterprise inference | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409090) | — |
+| **Canonical** | **Tiamat: A 98-to-134ms/Step Transformer-Based Diffusion Model Processor Supporting Classifier-Free Guidance for Image Generation** | ISSCC 2026 | diffusion/flow acceleration / image generation accelerator / transformer hardware | [Link](https://www.ee.nthu.edu.tw/vcslab/publications.html) | — |
+| **Canonical** | **Tri-Oracle: A 17.78μJ/Token Vision-Language Model Accelerator with Token-Attention-Weight Redundancy Prediction** | ISSCC 2026 | VLM accelerator / token pruning / attention sparsity / weight sparsity | [Link](https://doi.org/10.1109/ISSCC49663.2026.11408987) | — |
+
 ### ACL 2026 · 25
 
 | Priority | Paper | Venue | Topic | Paper | Code |
@@ -1246,30 +1277,6 @@
 | **Canonical** | **Torpor: GPU-Enabled Serverless Computing for Low-Latency, Resource-Efficient Inference** | USENIX ATC 2025 | serverless GPU inference / model swapping / scheduling | [Link](https://www.usenix.org/conference/atc25/presentation/yu) | — |
 | **Canonical** | **Universal Checkpointing: A Flexible and Efficient Distributed Checkpointing System for Large-Scale DNN Training with Reconfigurable Parallelism** | USENIX ATC 2025 | distributed LLM training / elastic checkpointing / reconfigurable parallelism | [Link](https://www.usenix.org/system/files/atc25-lian.pdf) | — |
 | **Canonical** | **Weaver: Efficient Multi-LLM Serving with Attention Offloading** | USENIX ATC 2025 | multi-LLM serving / attention offloading | [Link](https://www.usenix.org/conference/atc25/presentation/gao) | — |
-
-### ISSCC 2026 · 19
-
-| Priority | Paper | Venue | Topic | Paper | Code |
-|---|---|---|---|---|---|
-| **Canonical** | **A 0.24mJ/Frame Quadratic Interpolation 4DGS Processor with Recursive Computation Reuse and Tree-Based Parallel-Rendering** | ISSCC 2026 | 4D Gaussian Splatting / neural rendering accelerator / dynamic-scene generation | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409230) | — |
-| **Canonical** | **A 1286fps 0.39mJ/Frame Modeling/Rendering Unified 3D GS Processor with Locality-Optimized Computation and Reconfigurable Architecture** | ISSCC 2026 | 3D Gaussian Splatting / modeling-rendering unified accelerator / neural rendering | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409198) | — |
-| **Canonical** | **A 14.08-to-135.69Token/s ReRAM-on-Logic Stacked Outlier-Free Large-Language-Model Accelerator with Block-Clustered Weight-Compression and Adaptive Parallel-Speculative-Decoding** | ISSCC 2026 | LLM inference accelerator / speculative decoding / low-bit quantization / ReRAM-on-logic | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409211) | — |
-| **Canonical** | **A 147TOPS/W, 250TOPS/mm2, Fully Synthesizable, Digital Compute-in-Memory Accelerator Supporting INT8xINT8 with Zero-Point Quantization in Intel 18A Technology** | ISSCC 2026 | edge/cloud/heterogeneous AI systems / compute-in-memory / INT8 quantization accelerator | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409207) | — |
-| **Canonical** | **A 28nm Speculative-Decoding LLM Processor Achieving 105-to-685μs/Token Latency for Billion-Parameter Models** | ISSCC 2026 | speculative decoding / LLM accelerator / mixed precision | [Link](https://doi.org/10.1109/ISSCC49663.2026.11408953) | — |
-| **Canonical** | **A 48Gb/s 24Gb GDDR7 DRAM for Mid-Range Inference AI with Symmetric 2CH-Mode Operation, Clock-Path Optimization, and RAS Features** | ISSCC 2026 | edge/cloud/heterogeneous AI systems / AI memory / inference infrastructure / GDDR7 | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409122) | — |
-| **Canonical** | **A 51.6μJ/Token Subspace-Rotation-Based Dual-Quantized Large-Language-Model Accelerator with Fused Scale-Activation INT Datapath and Rearranged Bit-Slice LUT Computation** | ISSCC 2026 | LLM quantization / rotation / accelerator architecture | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409212) | — |
-| **Canonical** | **A 71.3mJ/Frame End-to-End Driving Processor with Flexible Heterogeneous Core Orchestration via Sparsity Reasoning** | ISSCC 2026 | VLA/WAM/Physical AI serving / edge AI accelerator / sparsity / heterogeneous runtime | [Link](https://www.isl-yonsei.ac/news-posts/congratulations-jueun-and-sanghos-paper-is-accepted-to-ieee-international-solid-state-circuits-conference-isscc/) | — |
-| **Canonical** | **A Quad-Chiplet AI SoC with Full-Chip Scalable Mesh over 16Gbps UCIe-Advanced Die-to-Die Interface for Large Scale AI Inferencing** | ISSCC 2026 | LLM inference accelerator / chiplet / UCIe / AI infrastructure | [Link](https://rebellions.ai/isscc-a-quad-chiplet-ai-soc-with-full-chip-scalable-mesh-over-16gbps-ucie-advanced-die-to-die-interface-for-large-scale-ai-inferencing/) | — |
-| **Canonical** | **ARIES and REGULUS: A Unified and Scalable Hardware-Software Co-Designed NPU SoC Family for On-Device and On-Premises Multimodal Inference** | ISSCC 2026 | NPU / multimodal inference / mixed precision / edge-cloud AI | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409083) | — |
-| **Canonical** | **HYDAR: A 390K QPS, 1574K QPS/W Hybrid Analog/Digital Compute-in-RRAM Accelerator for Efficient Recommendation System** | ISSCC 2026 | edge/cloud/heterogeneous AI systems / recommendation serving / vector search / RRAM accelerator | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409110) | — |
-| **Canonical** | **LUT-SSM: A 99.3TFLOPS/W LUT-Based State-Space Model Accelerator Using Energy-Efficient Element-Wise Layer Fusion and LUT-Friendly Weight-Only Quantization** | ISSCC 2026 | edge/cloud/heterogeneous AI systems / quantization / SSM accelerator | [Link](https://pure.kaist.ac.kr/en/publications/lut-ssm-a-993tflopsw-lut-based-state-space-model-accelerator-usin/) | — |
-| **Canonical** | **MADiC: A 3nm 7.4TOPS/mm2, 17.4TOPS/W Generative Diffusion Accelerator Enabled by Hardware-Compiler Co-Optimization of Memory Hierarchy and Operator Parallelism** | ISSCC 2026 | diffusion/flow acceleration / image generation accelerator / hardware-compiler co-design | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409294) | — |
-| **Canonical** | **Revolver: Low-Bit GenAI Accelerator for Distilled-Model and CoT with Phase-Aware-Quantization and Rotation-Based Integer-Scaled Group Quantization** | ISSCC 2026 | low-bit GenAI accelerator / reasoning / quantization | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409015) | — |
-| **Canonical** | **SMoLPU: 122.1μJ/Token Sparse MoE-Based Speculative Decoding Language Processing Unit with Adaptive-Offload NPU-CIM Core** | ISSCC 2026 | MoE systems/accelerators / speculative decoding / edge AI hardware | [Link](https://pure.kaist.ac.kr/en/publications/smolpu-1221%CE%BCjtoken-sparse-moe-based-speculative-decoding-language/) | — |
-| **Canonical** | **SoulMate: A 9.8mW Mobile Intelligence System-on-Chip with Mixed-Rank Architecture for On-Device LLM Personalization** | ISSCC 2026 | on-device LLM / personalization / RAG / fine-tuning accelerator | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409048) | — |
-| **Canonical** | **Spyre: An inference-optimized scalable AI accelerator for enterprise workloads** | ISSCC 2026 | AI accelerator / enterprise inference | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409090) | — |
-| **Canonical** | **Tiamat: A 98-to-134ms/Step Transformer-Based Diffusion Model Processor Supporting Classifier-Free Guidance for Image Generation** | ISSCC 2026 | diffusion/flow acceleration / image generation accelerator / transformer hardware | [Link](https://www.ee.nthu.edu.tw/vcslab/publications.html) | — |
-| **Canonical** | **Tri-Oracle: A 17.78μJ/Token Vision-Language Model Accelerator with Token-Attention-Weight Redundancy Prediction** | ISSCC 2026 | VLM accelerator / token pruning / attention sparsity / weight sparsity | [Link](https://doi.org/10.1109/ISSCC49663.2026.11408987) | — |
 
 ### SOSP 2025 · 19
 
