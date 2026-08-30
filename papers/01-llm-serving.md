@@ -1,6 +1,6 @@
 # 01 · LLM Serving
 
-> **464 canonical papers** mapped here, plus a broader **222-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **468 canonical papers** mapped here, plus a broader **222-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -231,7 +231,7 @@
 | **P0 · Strong** | **A Thread-Register Decoupled GPU Execution Model for Efficient Tensor Computation** | Fresh / preprint | GPU execution architecture / tensor cores / LLM serving | [Link](https://arxiv.org/abs/2608.19628) | — |
 | **P1 · Watch** | **A Scalable Pipeline for LLM-Teacher Distillation Labeling: Work-Stealing Job Scheduling and Memory-Aware GPU Concurrency** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.15975) | — |
 
-## 🏛️ Classical / Historical · 429 canonical
+## 🏛️ Classical / Historical · 433 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -594,6 +594,10 @@
 | **Canonical** | **MixFusion: A Patch-Level Parallel Serving System for Mixed-Resolution Diffusion Models** | PPoPP 2026 | diffusion serving / patch-level parallelism | [Link](https://doi.org/10.1145/3774934.3786420) | — |
 | **Canonical** | **CLIP-RT: Learning Language-Conditioned Robotic Policies from Natural Language Supervision** | RSS 2025 | Physical AI / lightweight VLA / high-throughput robot inference | [Link](https://arxiv.org/abs/2411.00508) | [Repo](https://github.com/clip-rt/clip-rt) |
 | **Canonical** | **Fine-Tuning Vision-Language-Action Models: Optimizing Speed and Success** | RSS 2025 | Physical AI / VLA efficient fine-tuning / parallel action decoding | [Link](https://arxiv.org/abs/2502.19645) | [Repo](https://github.com/moojink/openvla-oft) |
+| **Canonical** | **Action-to-Action Flow Matching** | RSS 2026 | VLA/WAM/Physical AI serving / action-head / flow matching / real-time inference | [Link](https://arxiv.org/abs/2602.07322) | — |
+| **Canonical** | **AR-VLA: True Autoregressive Action Expert for Vision-Language-Action Models** | RSS 2026 | VLA/WAM/Physical AI serving / streaming action expert / asynchronous perception-control | [Link](https://arxiv.org/abs/2603.10126) | — |
+| **Canonical** | **Causal World Modeling for Robot Control** | RSS 2026 | VLA/WAM/Physical AI serving / world-action model / asynchronous inference / KV-cache | [Link](https://arxiv.org/abs/2601.21998) | — |
+| **Canonical** | **mimic-video: Video-Action Models for Generalizable Robot Control Beyond VLAs** | RSS 2026 | VLA/WAM/Physical AI serving / video-action model / flow action decoder / sample-efficient training | [Link](https://arxiv.org/abs/2512.15692) | [Repo](https://github.com/mimic-video/mimic-video) |
 | **Canonical** | **RLinf-USER: A Unified and Extensible System for Real-World Online Policy Learning in Embodied AI** | RSS 2026 | Physical AI systems / multi-robot online learning / edge-cloud scheduling | [Link](https://arxiv.org/abs/2602.07837) | [Repo](https://github.com/RLinf/RLinf) |
 | **Canonical** | **Compile-Time QoS Scheme for Deep Learning Inferences** | SC 2025 | multi-tenant inference / QoS / compiler scheduling | [Link](https://doi.org/10.1145/3712285.3759846) | — |
 | **Canonical** | **Engine-Agnostic Model Hot-Swapping for Cost-Effective LLM Inference** | SC 2025 | LLM serving / GPU model hot-swapping | [Link](https://doi.org/10.1145/3731599.3767354) | — |

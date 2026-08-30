@@ -1,6 +1,6 @@
 # 14 · VLA / WAM / Physical AI
 
-> **63 canonical papers** mapped here, plus a broader **57-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **67 canonical papers** mapped here, plus a broader **57-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -66,7 +66,7 @@
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 | **P2 · Relevant** | **Act with Intent: Distilling Behavior Intent for Vision-Language-Action Models** | Fresh / preprint | Physical AI / VLA / action decoder | [Link](https://arxiv.org/abs/2608.23478) | — |
 
-## 🏛️ Classical / Historical · 52 canonical
+## 🏛️ Classical / Historical · 56 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -117,6 +117,10 @@
 | **Canonical** | **Fine-Tuning Vision-Language-Action Models: Optimizing Speed and Success** | RSS 2025 | Physical AI / VLA efficient fine-tuning / parallel action decoding | [Link](https://arxiv.org/abs/2502.19645) | [Repo](https://github.com/moojink/openvla-oft) |
 | **Canonical** | **Learning to Act Anywhere with Task-centric Latent Actions** | RSS 2025 | Physical AI / VLA efficient pretraining / latent action decoding | [Link](https://arxiv.org/abs/2505.06111) | [Repo](https://github.com/OpenDriveLab/UniVLA) |
 | **Canonical** | **Uni-NaVid: A Video-based Vision-Language-Action Model for Unifying Embodied Navigation Tasks** | RSS 2025 | Physical AI / VLA navigation / online visual-token merging | [Link](https://arxiv.org/abs/2412.06224) | [Repo](https://github.com/jzhzhang/Uni-NaVid) |
+| **Canonical** | **Action-to-Action Flow Matching** | RSS 2026 | VLA/WAM/Physical AI serving / action-head / flow matching / real-time inference | [Link](https://arxiv.org/abs/2602.07322) | — |
+| **Canonical** | **AR-VLA: True Autoregressive Action Expert for Vision-Language-Action Models** | RSS 2026 | VLA/WAM/Physical AI serving / streaming action expert / asynchronous perception-control | [Link](https://arxiv.org/abs/2603.10126) | — |
+| **Canonical** | **Causal World Modeling for Robot Control** | RSS 2026 | VLA/WAM/Physical AI serving / world-action model / asynchronous inference / KV-cache | [Link](https://arxiv.org/abs/2601.21998) | — |
+| **Canonical** | **mimic-video: Video-Action Models for Generalizable Robot Control Beyond VLAs** | RSS 2026 | VLA/WAM/Physical AI serving / video-action model / flow action decoder / sample-efficient training | [Link](https://arxiv.org/abs/2512.15692) | [Repo](https://github.com/mimic-video/mimic-video) |
 | **Canonical** | **RIO: Flexible Real-Time Robot I/O for Cross-Embodiment Robot Learning** | RSS 2026 | Physical AI runtime / cross-embodiment VLA deployment / real-time robot I/O | [Link](https://arxiv.org/abs/2605.11564) | [Repo](https://github.com/robot-i-o/rio) |
 | **Canonical** | **RLinf-USER: A Unified and Extensible System for Real-World Online Policy Learning in Embodied AI** | RSS 2026 | Physical AI systems / multi-robot online learning / edge-cloud scheduling | [Link](https://arxiv.org/abs/2602.07837) | [Repo](https://github.com/RLinf/RLinf) |
 | **Canonical** | **RLux-VLA: A Unified and Efficient Framework for Reinforcement Learning of Vision-Language-Action Models** | RSS 2026 | Physical AI / VLA RL systems / scalable training | [Link](https://arxiv.org/abs/2510.06710) | — |

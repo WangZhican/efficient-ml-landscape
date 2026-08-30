@@ -21302,6 +21302,72 @@
     ]
   },
   {
+    "title": "Action-to-Action Flow Matching",
+    "venue": "RSS 2026",
+    "topic": "VLA/WAM/Physical AI serving / action-head / flow matching / real-time inference",
+    "arxiv": "2602.07322",
+    "doi": "",
+    "official_id": "2602.07322",
+    "paper_url": "https://arxiv.org/abs/2602.07322",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_PHYSICAL_AI_HIGH",
+    "why": "Direct action-generation efficiency work: replaces Gaussian-noise initialization with action-history initialization, bypasses costly iterative denoising and reports single-step 0.56ms action generation; RSS 2026 protected action-head/flow direction.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Diffusion / Flow Acceleration",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "AR-VLA: True Autoregressive Action Expert for Vision-Language-Action Models",
+    "venue": "RSS 2026",
+    "topic": "VLA/WAM/Physical AI serving / streaming action expert / asynchronous perception-control",
+    "arxiv": "2603.10126",
+    "doi": "",
+    "official_id": "2603.10126",
+    "paper_url": "https://arxiv.org/abs/2603.10126",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_PHYSICAL_AI_HIGH",
+    "why": "RSS 2026 VLA architecture that maintains a long-lived autoregressive action history while asynchronously refreshing expensive vision-language context, directly addressing fast-control/slow-perception mismatch and perception staleness.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Causal World Modeling for Robot Control",
+    "venue": "RSS 2026",
+    "topic": "VLA/WAM/Physical AI serving / world-action model / asynchronous inference / KV-cache",
+    "arxiv": "2601.21998",
+    "doi": "",
+    "official_id": "2601.21998",
+    "paper_url": "https://arxiv.org/abs/2601.21998",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_PHYSICAL_AI_HIGH",
+    "why": "RSS 2026 causal WAM (LingBot-VA/CauVA) jointly models video and action, retains interaction history and includes an asynchronous inference pipeline that overlaps action prediction with motor execution; direct protected WAM/runtime lineage.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Mimic Intent, Not Just Trajectories",
     "venue": "RSS 2026",
     "topic": "Physical AI / spectral action tokenization / efficient autoregressive policy",
@@ -21319,6 +21385,27 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "mimic-video: Video-Action Models for Generalizable Robot Control Beyond VLAs",
+    "venue": "RSS 2026",
+    "topic": "VLA/WAM/Physical AI serving / video-action model / flow action decoder / sample-efficient training",
+    "arxiv": "2512.15692",
+    "doi": "",
+    "official_id": "2512.15692",
+    "paper_url": "https://arxiv.org/abs/2512.15692",
+    "code_url": "https://github.com/mimic-video/mimic-video",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_PHYSICAL_AI_HIGH",
+    "why": "RSS 2026 video-action model with a lightweight flow-matching action decoder on frozen video latents; reports 10x sample efficiency and 2x convergence speed versus a comparable VLA, with efficient single-video-forward-per-action-chunk inference in the official implementation.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "VLA / WAM / Physical AI"
     ]
   },
   {
