@@ -1207,6 +1207,27 @@
     ]
   },
   {
+    "title": "PUMA: Layer-Pruned Language Model for Efficient Unified Multimodal Retrieval with Modality-Adaptive Learning",
+    "venue": "ACM Multimedia 2025",
+    "topic": "multimodal/MLLM efficiency / pruning / retrieval inference",
+    "arxiv": "2507.08064",
+    "doi": "",
+    "official_id": "2507.08064",
+    "paper_url": "https://arxiv.org/abs/2507.08064",
+    "code_url": "https://github.com/iLearn-Lab/ACM-MM25-PUMA",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ACM Multimedia 2025 direct MLLM efficiency result. PUMA structurally prunes the language model by retaining shallow layers and self-distilling dropped deep-layer representations, explicitly targeting lower parameter/resource cost and higher inference efficiency while preserving unified multimodal retrieval quality.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
     "title": "Quantization Meets OOD: Generalizable Quantization-aware Training from a Flatness Perspective",
     "venue": "ACM Multimedia 2025",
     "topic": "quantization-aware training / OOD generalization",
