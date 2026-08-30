@@ -224,6 +224,33 @@ def main():
     d = json.loads(args.source.read_text())
     source_date = datetime.fromisoformat(d.get("date_beijing") or args.source.parent.parent.name).date()
     recent_arxiv = load_recent_arxiv_index(args.source)
+    # Public-safe census summaries live beside the validated paper source. Keep
+    # only aggregate counts/status here; never export internal paths, retries,
+    # provenance, or manager/debug state.
+    group_summary = {}
+    venue_summary = {}
+    gp = args.source.parent / "MAJOR_GROUP_COVERAGE.json"
+    vp = args.source.parent / "VENUE_COVERAGE.json"
+    if gp.exists():
+        g = json.loads(gp.read_text())
+        group_summary = {
+            "major_group_universe": int(g.get("universe_target_after_pass2_expansion") or g.get("universe_target") or 0),
+            "major_group_status": g.get("status", ""),
+        }
+    if vp.exists():
+        v = json.loads(vp.read_text())
+        rounds = []
+        for k, val in v.items():
+            m = re.fullmatch(r"saturation_round(\d+)", str(k))
+            if m:
+                rounds.append((int(m.group(1)), val))
+        active_no, active = max(rounds, default=(0, {}), key=lambda x: x[0])
+        venue_summary = {
+            "venue_mandatory_universe": int(v.get("mandatory_universe_size", 0)),
+            "venue_active_round": active_no,
+            "venue_active_round_checked": len(active.get("checked_ids", [])),
+            "venue_active_round_status": active.get("status", ""),
+        }
     raw = d.get("formal_high_value_records", [])
     seen = set()
     records = []
@@ -471,6 +498,8 @@ def main():
         "papers_with_verified_code_link": sum(bool(r["code_url"]) for r in records),
         "venues": len(set(r.get("venue") or "Fresh / Preprint" for r in records)),
         "direction_counts": {name: len(bydir[slug]) for slug, name, _ in DIRECTIONS},
+        **group_summary,
+        **venue_summary,
         "source_date_beijing": d.get("date_beijing", ""),
         "updated_at_beijing": d.get("updated_at_beijing", ""),
     }
