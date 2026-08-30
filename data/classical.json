@@ -16303,6 +16303,28 @@
     ]
   },
   {
+    "title": "Efficient Inter-Operator Scheduling for Concurrent Recommendation Model Inference on GPU",
+    "venue": "IJCAI 2025",
+    "topic": "LLM/AI serving / GPU scheduling / recommendation inference",
+    "arxiv": "",
+    "doi": "10.24963/ijcai.2025/318",
+    "official_id": "10.24963/ijcai.2025/318",
+    "paper_url": "https://www.ijcai.org/proceedings/2025/318",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "IJCAI 2025 Main Track direct AI-inference systems paper. RecOS schedules operators from concurrent recommendation queries across CUDA streams using workload-aware inter-op parallelism and unified asynchronous tensor management; official evaluation reports online serving latency reductions up to 68%.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "FBQuant: FeedBack Quantization for Large Language Models",
     "venue": "IJCAI 2025",
     "topic": "LLM weight quantization / CUDA kernel",
