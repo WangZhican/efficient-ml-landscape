@@ -18716,6 +18716,26 @@
     ]
   },
   {
+    "title": "ResMoE: Space-efficient Compression of Mixture of Experts LLMs via Residual Restoration",
+    "venue": "KDD 2025",
+    "topic": "MoE systems / inference memory and parameter compression",
+    "arxiv": "2503.06881",
+    "doi": "10.1145/3690624.3709196",
+    "official_id": "2503.06881",
+    "paper_url": "https://arxiv.org/abs/2503.06881",
+    "code_url": "https://github.com/iDEA-iSAIL-Lab-UIUC/ResMoE",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "KDD 2025 direct MoE inference-efficiency paper. ResMoE extracts a common barycenter expert and approximates residuals in a one-shot data-agnostic manner, reducing per-expert parameter count by up to 75% while maintaining comparable performance on Switch Transformer, Mixtral and DeepSeekMoE.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "MoE Systems / Accelerators"
+    ]
+  },
+  {
     "title": "SEPTQ: A Simple and Effective Post-Training Quantization Paradigm for Large Language Models",
     "venue": "KDD 2025",
     "topic": "LLM post-training quantization / low-bit inference",
