@@ -17814,6 +17814,47 @@
     ]
   },
   {
+    "title": "A 0.24mJ/Frame Quadratic Interpolation 4DGS Processor with Recursive Computation Reuse and Tree-Based Parallel-Rendering",
+    "venue": "ISSCC 2026",
+    "topic": "4D Gaussian Splatting / neural rendering accelerator / dynamic-scene generation",
+    "arxiv": "",
+    "doi": "10.1109/ISSCC49663.2026.11409230",
+    "official_id": "10.1109/ISSCC49663.2026.11409230",
+    "paper_url": "https://doi.org/10.1109/ISSCC49663.2026.11409230",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ISSCC 2026 fabricated 4DGS processor targeting the memory, redundant-computation, and PE-utilization bottlenecks of dynamic Gaussian rendering. Adaptive quadratic interpolation, recursive computation reuse, and tree-based parallel rendering achieve 0.24mJ/frame and reported 6.11x energy-efficiency improvement on D-NeRF.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Video / Image Generation"
+    ]
+  },
+  {
+    "title": "A 1286fps 0.39mJ/Frame Modeling/Rendering Unified 3D GS Processor with Locality-Optimized Computation and Reconfigurable Architecture",
+    "venue": "ISSCC 2026",
+    "topic": "3D Gaussian Splatting / modeling-rendering unified accelerator / neural rendering",
+    "arxiv": "",
+    "doi": "10.1109/ISSCC49663.2026.11409198",
+    "official_id": "10.1109/ISSCC49663.2026.11409198",
+    "paper_url": "https://doi.org/10.1109/ISSCC49663.2026.11409198",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ISSCC 2026 3D Gaussian Splatting processor co-optimizing neural modeling and Gaussian rendering. It uses locality-aware dynamic fine-grained rendering, a locality-optimized unified workflow, and reconfigurable modeling/rendering hardware, reporting 1286fps, 0.39mJ/frame, 3.4x higher rendering throughput, and 74.1% lower energy per frame than prior 3DGS accelerators.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Video / Image Generation"
+    ]
+  },
+  {
     "title": "A 14.08-to-135.69Token/s ReRAM-on-Logic Stacked Outlier-Free Large-Language-Model Accelerator with Block-Clustered Weight-Compression and Adaptive Parallel-Speculative-Decoding",
     "venue": "ISSCC 2026",
     "topic": "LLM inference accelerator / speculative decoding / low-bit quantization / ReRAM-on-logic",

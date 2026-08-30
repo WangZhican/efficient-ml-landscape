@@ -20,7 +20,7 @@ DIRECTIONS = [
     ("08-gpu-kernel-compiler", "GPU Kernel / DSL / Compiler", ["kernel", "compiler", "triton", "cuda", "gemm", "gpu", "dsl", "fusion", "tensor core"]),
     ("09-distributed-training-inference", "Distributed Training / Inference", ["distributed", "parallelism", "pipeline parallel", "tensor parallel", "collective", "communication", "multi-gpu", "cluster", "training system", "training efficiency", "memory-efficient training", "memory-efficient optimizer", "optimizer"]),
     ("10-multimodal-mllm-serving", "Multimodal / MLLM Serving", ["multimodal", "mllm", "vlm", "vision-language", "omni", "visual token"]),
-    ("11-video-image-generation", "Video / Image Generation", ["video generation", "image generation", "autoregressive image", "video model", "videolm"]),
+    ("11-video-image-generation", "Video / Image Generation", ["video generation", "image generation", "autoregressive image", "video model", "videolm", "gaussian splatting", "3dgs", "4dgs", "neural rendering", "scene generation"]),
     ("12-diffusion-flow", "Diffusion / Flow Acceleration", ["diffusion", "dit", "flow matching", "rectified flow", "denoising"]),
     ("13-efficient-reasoning-agents", "Efficient Reasoning / Agents", ["reasoning", "agent", "agentic", "rollout", "test-time", "test time", "reinforcement learning"]),
     ("14-physical-ai-vla-wam", "VLA / WAM / Physical AI", ["vla", "vision-language-action", "world action", "wam", "robot", "embodied", "action generation", "autonomous driving", "humanoid"]),
