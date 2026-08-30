@@ -1,6 +1,6 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **1116 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **1118 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
@@ -689,7 +689,7 @@
 | **Canonical** | **WATOS: Efficient LLM Training Strategies and Architecture Co-exploration for Wafer-scale Chip** | HPCA 2026 | distributed LLM training / wafer-scale architecture co-design | [Link](https://arxiv.org/abs/2512.12279) | — |
 | **Canonical** | **µShare: Non-Intrusive Kernel Co-Locating on NVIDIA GPUs** | HPCA 2026 | GPU resource sharing / kernel co-location / inference throughput | [Link](https://arxiv.org/abs/2601.06562) | — |
 
-## ISSCC 2026 · 27
+## ISSCC 2026 · 29
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -710,6 +710,7 @@
 | **Canonical** | **A 51.6μJ/Token Subspace-Rotation-Based Dual-Quantized Large-Language-Model Accelerator with Fused Scale-Activation INT Datapath and Rearranged Bit-Slice LUT Computation** | ISSCC 2026 | LLM quantization / rotation / accelerator architecture | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409212) | — |
 | **Canonical** | **A 71.3mJ/Frame End-to-End Driving Processor with Flexible Heterogeneous Core Orchestration via Sparsity Reasoning** | ISSCC 2026 | VLA/WAM/Physical AI serving / edge AI accelerator / sparsity / heterogeneous runtime | [Link](https://www.isl-yonsei.ac/news-posts/congratulations-jueun-and-sanghos-paper-is-accepted-to-ieee-international-solid-state-circuits-conference-isscc/) | — |
 | **Canonical** | **A Quad-Chiplet AI SoC with Full-Chip Scalable Mesh over 16Gbps UCIe-Advanced Die-to-Die Interface for Large Scale AI Inferencing** | ISSCC 2026 | LLM inference accelerator / chiplet / UCIe / AI infrastructure | [Link](https://rebellions.ai/isscc-a-quad-chiplet-ai-soc-with-full-chip-scalable-mesh-over-16gbps-ucie-advanced-die-to-die-interface-for-large-scale-ai-inferencing/) | — |
+| **Canonical** | **Alpha-Vision: A Real-Time Always-on Vision Processor with 787μs Face Detection Latency in <5mW** | ISSCC 2026 | edge AI / always-on vision / CNN-ViT accelerator / hardware-software co-design | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409322) | — |
 | **Canonical** | **ARIES and REGULUS: A Unified and Scalable Hardware-Software Co-Designed NPU SoC Family for On-Device and On-Premises Multimodal Inference** | ISSCC 2026 | NPU / multimodal inference / mixed precision / edge-cloud AI | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409083) | — |
 | **Canonical** | **HYDAR: A 390K QPS, 1574K QPS/W Hybrid Analog/Digital Compute-in-RRAM Accelerator for Efficient Recommendation System** | ISSCC 2026 | edge/cloud/heterogeneous AI systems / recommendation serving / vector search / RRAM accelerator | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409110) | — |
 | **Canonical** | **LUT-SSM: A 99.3TFLOPS/W LUT-Based State-Space Model Accelerator Using Energy-Efficient Element-Wise Layer Fusion and LUT-Friendly Weight-Only Quantization** | ISSCC 2026 | edge/cloud/heterogeneous AI systems / quantization / SSM accelerator | [Link](https://pure.kaist.ac.kr/en/publications/lut-ssm-a-993tflopsw-lut-based-state-space-model-accelerator-usin/) | — |
@@ -720,6 +721,7 @@
 | **Canonical** | **Spyre: An inference-optimized scalable AI accelerator for enterprise workloads** | ISSCC 2026 | AI accelerator / enterprise inference | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409090) | — |
 | **Canonical** | **Tiamat: A 98-to-134ms/Step Transformer-Based Diffusion Model Processor Supporting Classifier-Free Guidance for Image Generation** | ISSCC 2026 | diffusion/flow acceleration / image generation accelerator / transformer hardware | [Link](https://www.ee.nthu.edu.tw/vcslab/publications.html) | — |
 | **Canonical** | **Tri-Oracle: A 17.78μJ/Token Vision-Language Model Accelerator with Token-Attention-Weight Redundancy Prediction** | ISSCC 2026 | VLM accelerator / token pruning / attention sparsity / weight sparsity | [Link](https://doi.org/10.1109/ISSCC49663.2026.11408987) | — |
+| **Canonical** | **VARSA: A Visual Autoregressive Generation Accelerator Using Performance-Scalable Multi-Precision PE-LUT and Grid-Similarity Attention Compression** | ISSCC 2026 | visual autoregressive generation / multi-precision acceleration / attention compression | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409066) | — |
 
 ## ACL 2026 · 25
 

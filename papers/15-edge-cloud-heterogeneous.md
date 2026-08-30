@@ -1,6 +1,6 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **246 canonical papers** mapped here, plus a broader **99-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **247 canonical papers** mapped here, plus a broader **99-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -108,7 +108,7 @@
 | **P0 · Strong** | **AsymSpec: Efficient Cloud–Edge Speculative Decoding over Asymmetric Networks** | Fresh / preprint | speculative decoding / LLM serving / edge-cloud heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.04974) | — |
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 
-## 🏛️ Classical / Historical · 228 canonical
+## 🏛️ Classical / Historical · 229 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -249,6 +249,7 @@
 | **Canonical** | **A 28nm 106.85TOPS/W and 77.68TFLOPS/W CIM Macro with Stage-Wise-Enabled Lossless Compressors Based on Sign-Bit-Embedded Transition-Counting-Lines for Edge-AI Devices** | ISSCC 2026 | edge AI / compute-in-memory / lossless activation compression | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409281) | — |
 | **Canonical** | **A 48Gb/s 24Gb GDDR7 DRAM for Mid-Range Inference AI with Symmetric 2CH-Mode Operation, Clock-Path Optimization, and RAS Features** | ISSCC 2026 | edge/cloud/heterogeneous AI systems / AI memory / inference infrastructure / GDDR7 | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409122) | — |
 | **Canonical** | **A 71.3mJ/Frame End-to-End Driving Processor with Flexible Heterogeneous Core Orchestration via Sparsity Reasoning** | ISSCC 2026 | VLA/WAM/Physical AI serving / edge AI accelerator / sparsity / heterogeneous runtime | [Link](https://www.isl-yonsei.ac/news-posts/congratulations-jueun-and-sanghos-paper-is-accepted-to-ieee-international-solid-state-circuits-conference-isscc/) | — |
+| **Canonical** | **Alpha-Vision: A Real-Time Always-on Vision Processor with 787μs Face Detection Latency in <5mW** | ISSCC 2026 | edge AI / always-on vision / CNN-ViT accelerator / hardware-software co-design | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409322) | — |
 | **Canonical** | **ARIES and REGULUS: A Unified and Scalable Hardware-Software Co-Designed NPU SoC Family for On-Device and On-Premises Multimodal Inference** | ISSCC 2026 | NPU / multimodal inference / mixed precision / edge-cloud AI | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409083) | — |
 | **Canonical** | **HYDAR: A 390K QPS, 1574K QPS/W Hybrid Analog/Digital Compute-in-RRAM Accelerator for Efficient Recommendation System** | ISSCC 2026 | edge/cloud/heterogeneous AI systems / recommendation serving / vector search / RRAM accelerator | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409110) | — |
 | **Canonical** | **LUT-SSM: A 99.3TFLOPS/W LUT-Based State-Space Model Accelerator Using Energy-Efficient Element-Wise Layer Fusion and LUT-Friendly Weight-Only Quantization** | ISSCC 2026 | edge/cloud/heterogeneous AI systems / quantization / SSM accelerator | [Link](https://pure.kaist.ac.kr/en/publications/lut-ssm-a-993tflopsw-lut-based-state-space-model-accelerator-usin/) | — |

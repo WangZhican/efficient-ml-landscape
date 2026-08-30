@@ -1,10 +1,10 @@
 # 🧭 Research Map
 
-> **1186 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
+> **1188 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
 
 <div align="center">
 
-[**🆕 Latest 30 Days · 316 tracked**](LATEST_30D.md) · [**🏛️ Classical · 1116**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
+[**🆕 Latest 30 Days · 316 tracked**](LATEST_30D.md) · [**🏛️ Classical · 1118**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
 
 </div>
 
@@ -17,7 +17,7 @@
 | 03 | [**KV Cache / Long Context**](03-kv-cache-long-context.md) | **303** | **56** |
 | 04 | [**Quantization**](04-quantization.md) | **174** | **51** |
 | 05 | [**Sparsity / Pruning**](05-sparsity-pruning.md) | **198** | **63** |
-| 06 | [**Efficient Attention**](06-efficient-attention.md) | **173** | **47** |
+| 06 | [**Efficient Attention**](06-efficient-attention.md) | **174** | **47** |
 | 07 | [**MoE Systems / Accelerators**](07-moe-systems.md) | **88** | **31** |
 | 08 | [**GPU Kernel / DSL / Compiler**](08-gpu-kernel-compiler.md) | **278** | **71** |
 | 09 | [**Distributed Training / Inference**](09-distributed-training-inference.md) | **203** | **35** |
@@ -26,7 +26,7 @@
 | 12 | [**Diffusion / Flow Acceleration**](12-diffusion-flow.md) | **148** | **25** |
 | 13 | [**Efficient Reasoning / Agents**](13-efficient-reasoning-agents.md) | **199** | **55** |
 | 14 | [**VLA / WAM / Physical AI**](14-physical-ai-vla-wam.md) | **63** | **57** |
-| 15 | [**Edge / Cloud / Heterogeneous AI**](15-edge-cloud-heterogeneous.md) | **246** | **99** |
+| 15 | [**Edge / Cloud / Heterogeneous AI**](15-edge-cloud-heterogeneous.md) | **247** | **99** |
 
 > Counts are multi-label and therefore do not sum to the unique-paper total. A canonical paper can intentionally appear in several directions.
 

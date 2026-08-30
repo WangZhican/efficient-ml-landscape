@@ -18165,6 +18165,26 @@
     ]
   },
   {
+    "title": "Alpha-Vision: A Real-Time Always-on Vision Processor with 787μs Face Detection Latency in <5mW",
+    "venue": "ISSCC 2026",
+    "topic": "edge AI / always-on vision / CNN-ViT accelerator / hardware-software co-design",
+    "arxiv": "",
+    "doi": "10.1109/ISSCC49663.2026.11409322",
+    "official_id": "10.1109/ISSCC49663.2026.11409322",
+    "paper_url": "https://doi.org/10.1109/ISSCC49663.2026.11409322",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ISSCC 2026 Session 31 NVIDIA always-on edge vision processor supporting CNN and ViT inference with end-to-end execution without external memory accesses. It reports 787us face-detection latency and 4.6mW average power at 60fps, making it a direct edge-AI hardware/runtime result.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "ARIES and REGULUS: A Unified and Scalable Hardware-Software Co-Designed NPU SoC Family for On-Device and On-Premises Multimodal Inference",
     "venue": "ISSCC 2026",
     "topic": "NPU / multimodal inference / mixed precision / edge-cloud AI",
@@ -18381,6 +18401,26 @@
       "Sparsity / Pruning",
       "Efficient Attention",
       "Multimodal / MLLM Serving"
+    ]
+  },
+  {
+    "title": "VARSA: A Visual Autoregressive Generation Accelerator Using Performance-Scalable Multi-Precision PE-LUT and Grid-Similarity Attention Compression",
+    "venue": "ISSCC 2026",
+    "topic": "visual autoregressive generation / multi-precision acceleration / attention compression",
+    "arxiv": "",
+    "doi": "10.1109/ISSCC49663.2026.11409066",
+    "official_id": "10.1109/ISSCC49663.2026.11409066",
+    "paper_url": "https://doi.org/10.1109/ISSCC49663.2026.11409066",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ISSCC 2026 Session 31 fabricated visual autoregressive generation accelerator. Performance-scalable multi-precision PE-LUT compute and grid-similarity attention compression directly target image-generation inference efficiency; reported 33.45 TOPS/W and 503 mJ/inference for 512x512 generation.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Attention"
     ]
   },
   {
