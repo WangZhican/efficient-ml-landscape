@@ -1269,6 +1269,27 @@
     ]
   },
   {
+    "title": "Short-LVLM: Compressing and Accelerating Large Vision-Language Models by Pruning Redundant Layers",
+    "venue": "ACM Multimedia 2025",
+    "topic": "multimodal/MLLM inference / structural pruning / model compression",
+    "arxiv": "2507.23362",
+    "doi": "10.1145/3746027.3755122",
+    "official_id": "2507.23362",
+    "paper_url": "https://arxiv.org/abs/2507.23362",
+    "code_url": "https://github.com/ASGO-MM/Short-LVLM",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ACM Multimedia 2025 direct LVLM efficiency result. Short-LVLM identifies redundant VL layers and feature-gap failure modes, then provides training-free model-agnostic layer pruning to reduce model parameters and inference computation while preserving multimodal capability.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
     "title": "Single Trajectory Distillation for Accelerating Image and Video Style Transfer",
     "venue": "ACM Multimedia 2025",
     "topic": "diffusion/style-transfer acceleration / trajectory distillation",
