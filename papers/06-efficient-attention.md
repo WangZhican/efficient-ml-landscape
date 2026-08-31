@@ -1,6 +1,6 @@
 # 06 · Efficient Attention
 
-> **179 canonical papers** mapped here, plus a broader **48-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **181 canonical papers** mapped here, plus a broader **48-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -57,7 +57,7 @@
 | **P0 · Strong** | **ATFlash: Per-RoPE-Wavelength Attention Windows for Compute/Memory-Efficient LLM Inference** | Fresh / preprint | efficient attention / long-context / FlashAttention | [Link](https://arxiv.org/abs/2608.02947) | — |
 | **P0 · Strong** | **APT: Accelerating Diffusion Transformers via Attention Probability-Guided Pruning and Quantization** | Fresh / preprint | diffusion acceleration / sparse attention / quantization / accelerator | [Link](https://arxiv.org/abs/2608.25380) | — |
 
-## 🏛️ Classical / Historical · 165 canonical
+## 🏛️ Classical / Historical · 167 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -209,6 +209,8 @@
 | **Canonical** | **SALS: Sparse Attention in Latent Space for KV Cache Compression** | NeurIPS 2025 | KV cache compression / sparse attention | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/00a0ebcad584c59dbc439c2af8793638-Abstract-Conference.html) | — |
 | **Canonical** | **SmallKV: Small Model Assisted Compensation of KV Cache Compression for Efficient LLM Inference** | NeurIPS 2025 | KV cache compression / small-model assistance | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/45790132b9f91b5787232e1cbe0712fc-Abstract-Conference.html) | — |
 | **Canonical** | **Spotlight Attention: Towards Efficient LLM Generation via Non-linear Hashing-based KV Cache Retrieval** | NeurIPS 2025 | sparse attention / KV retrieval / CUDA kernel | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/7c799b09cc40973ceaa47da50131dc63-Abstract-Conference.html) | — |
+| **Canonical** | **Value-Guided KV Compression for LLMs via Approximated CUR Decomposition** | NeurIPS 2025 | KV cache/long-context / efficient LLM inference | [Link](https://arxiv.org/abs/2509.15038) | — |
+| **Canonical** | **VORTA: Efficient Video Diffusion via Routing Sparse Attention** | NeurIPS 2025 | video/image generation acceleration / efficient attention / diffusion | [Link](https://arxiv.org/abs/2505.18809) | [Repo](https://github.com/wenhao728/VORTA) |
 | **Canonical** | **ECHO: Efficient KV Cache Offloading with Lossless Prefetching for Serving Native Sparse Attention LLMs** | OSDI 2026 | sparse-attention KV-cache serving | [Link](https://www.usenix.org/system/files/osdi26-liu-guangda.pdf) | — |
 | **Canonical** | **Neptune: Advanced ML Operator Fusion for Locality and Parallelism on GPUs** | PLDI 2026 | ML compiler / attention operator fusion | [Link](https://arxiv.org/abs/2510.08726) | [Repo](https://github.com/uiuc-arc/neptune) |
 | **Canonical** | **FlashAttention-T: Towards Fully Tensorized Attention by Exploiting Tensor-Vector Parallelism** | PPoPP 2026 | attention kernel / tensor core / GPU | [Link](https://doi.org/10.1145/3774934.3786425) | — |

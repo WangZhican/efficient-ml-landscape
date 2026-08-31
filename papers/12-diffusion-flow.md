@@ -1,6 +1,6 @@
 # 12 · Diffusion / Flow Acceleration
 
-> **157 canonical papers** mapped here, plus a broader **27-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **158 canonical papers** mapped here, plus a broader **27-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -36,7 +36,7 @@
 | **P0 · Strong** | **An Empirical Study of Training Pixel-Space Text-to-Image Diffusion Models** | Fresh / preprint | image generation acceleration | [Link](https://arxiv.org/abs/2608.16887) | — |
 | **P0 · Strong** | **Affix Cache for Diffusion Large Language Models** | Fresh / preprint | diffusion LLM inference / KV cache / serving | [Link](https://arxiv.org/abs/2608.26140) | — |
 
-## 🏛️ Classical / Historical · 145 canonical
+## 🏛️ Classical / Historical · 146 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -176,6 +176,7 @@
 | **Canonical** | **S-DMA** | MICRO 2025 | MoE + diffusion + tensor compression + hybrid LM + reasoning + edge training acceleration | [Link](https://doi.org/10.1145/3725843.3756046) | — |
 | **Canonical** | **Stratum** | MICRO 2025 | MoE + diffusion + tensor compression + hybrid LM + reasoning + edge training acceleration | [Link](https://doi.org/10.1145/3725843.3756043) | — |
 | **Canonical** | **Self Forcing: Bridging the Train-Test Gap in Autoregressive Video Diffusion** | NeurIPS 2025 | autoregressive video diffusion / streaming generation | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/f4823f831af67a3ef15e41a85434422a-Abstract-Conference.html) | — |
+| **Canonical** | **VORTA: Efficient Video Diffusion via Routing Sparse Attention** | NeurIPS 2025 | video/image generation acceleration / efficient attention / diffusion | [Link](https://arxiv.org/abs/2505.18809) | [Repo](https://github.com/wenhao728/VORTA) |
 | **Canonical** | **ChituDiffusion: A Data-Characteristic-Aware Serving System for Diffusion Models** | PPoPP 2026 | diffusion serving / compile-runtime co-optimization | [Link](https://doi.org/10.1145/3774934.3786424) | — |
 | **Canonical** | **MixFusion: A Patch-Level Parallel Serving System for Mixed-Resolution Diffusion Models** | PPoPP 2026 | diffusion serving / patch-level parallelism | [Link](https://doi.org/10.1145/3774934.3786420) | — |
 | **Canonical** | **FAST: Efficient Action Tokenization for Vision-Language-Action Models** | RSS 2025 | Physical AI / VLA action tokenization / efficient training and inference | [Link](https://arxiv.org/abs/2501.09747) | — |

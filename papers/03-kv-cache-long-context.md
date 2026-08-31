@@ -1,6 +1,6 @@
 # 03 · KV Cache / Long Context
 
-> **309 canonical papers** mapped here, plus a broader **56-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **311 canonical papers** mapped here, plus a broader **56-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -65,7 +65,7 @@
 | **P1 · Watch** | **An Internet for the KV Cache: Rethinking Classical Infrastructure Boundaries in the LLM Inference Age** | Fresh / preprint | KV cache / distributed serving / cloud-network-storage systems | [Link](https://arxiv.org/abs/2608.01526) | — |
 | **P0 · Strong** | **Affix Cache for Diffusion Large Language Models** | Fresh / preprint | diffusion LLM inference / KV cache / serving | [Link](https://arxiv.org/abs/2608.26140) | — |
 
-## 🏛️ Classical / Historical · 292 canonical
+## 🏛️ Classical / Historical · 294 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -311,11 +311,13 @@
 | **Canonical** | **Memory-Efficient Visual Autoregressive Modeling with Scale-Aware KV Cache Compression** | NeurIPS 2025 | visual autoregressive generation / KV cache compression | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/14550b451b65682b09f9080026d00a7e-Abstract-Conference.html) | — |
 | **Canonical** | **MPCache: MPC-Friendly KV Cache Eviction for Efficient Private LLM Inference** | NeurIPS 2025 | private LLM inference / KV eviction / MPC | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/8c2df4c35cdbee764ebb9e9d0acd5197-Abstract-Conference.html) | — |
 | **Canonical** | **MUSTAFAR: Promoting Unstructured Sparsity for KV Cache Pruning in LLM Inference** | NeurIPS 2025 | KV pruning / sparse attention kernel | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/6ea69f8116b7c01e3c3e43b62e6868fc-Abstract-Conference.html) | — |
+| **Canonical** | **Reasoning Path Compression: Compressing Generation Trajectories for Efficient LLM Reasoning** | NeurIPS 2025 | efficient reasoning / KV cache compression | [Link](https://arxiv.org/abs/2505.13866) | [Repo](https://github.com/jiwonsong-dev/ReasoningPathCompression) |
 | **Canonical** | **SALS: Sparse Attention in Latent Space for KV Cache Compression** | NeurIPS 2025 | KV cache compression / sparse attention | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/00a0ebcad584c59dbc439c2af8793638-Abstract-Conference.html) | — |
 | **Canonical** | **Self Forcing: Bridging the Train-Test Gap in Autoregressive Video Diffusion** | NeurIPS 2025 | autoregressive video diffusion / streaming generation | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/f4823f831af67a3ef15e41a85434422a-Abstract-Conference.html) | — |
 | **Canonical** | **SmallKV: Small Model Assisted Compensation of KV Cache Compression for Efficient LLM Inference** | NeurIPS 2025 | KV cache compression / small-model assistance | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/45790132b9f91b5787232e1cbe0712fc-Abstract-Conference.html) | — |
 | **Canonical** | **Speculate Deep and Accurate: Lossless and Training-Free Acceleration for Offloaded LLMs via Substitute Speculative Decoding** | NeurIPS 2025 | offloaded LLM inference / speculative decoding | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/4e32ca54ae8a3a0ea4c1fd3663f73b0f-Abstract-Conference.html) | — |
 | **Canonical** | **Spotlight Attention: Towards Efficient LLM Generation via Non-linear Hashing-based KV Cache Retrieval** | NeurIPS 2025 | sparse attention / KV retrieval / CUDA kernel | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/7c799b09cc40973ceaa47da50131dc63-Abstract-Conference.html) | — |
+| **Canonical** | **Value-Guided KV Compression for LLMs via Approximated CUR Decomposition** | NeurIPS 2025 | KV cache/long-context / efficient LLM inference | [Link](https://arxiv.org/abs/2509.15038) | — |
 | **Canonical** | **DroidSpeak: KV Cache Sharing Across Fine-tuned Model Variants** | NSDI 2026 | KV cache / multi-model serving | [Link](https://www.usenix.org/system/files/nsdi26-liu-yuhan.pdf) | — |
 | **Canonical** | **SwiftEP: Accelerating MoE Inference with Buffer Fusion and TMA Offloading** | NSDI 2026 | MoE communication / inference runtime | [Link](https://www.usenix.org/system/files/nsdi26-li-xingyi.pdf) | — |
 | **Canonical** | **SYMPHONY: Enabling Compute-Memory Disaggregation in LLM Serving Systems** | NSDI 2026 | KV-cache / disaggregated memory serving | [Link](https://www.usenix.org/system/files/nsdi26-agarwal.pdf) | — |

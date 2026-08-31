@@ -20350,6 +20350,28 @@
     ]
   },
   {
+    "title": "Reasoning Path Compression: Compressing Generation Trajectories for Efficient LLM Reasoning",
+    "venue": "NeurIPS 2025",
+    "topic": "efficient reasoning / KV cache compression",
+    "arxiv": "2505.13866",
+    "doi": "10.52202/085713-4668",
+    "official_id": "2505.13866",
+    "paper_url": "https://arxiv.org/abs/2505.13866",
+    "code_url": "https://github.com/jiwonsong-dev/ReasoningPathCompression",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Training-free reasoning-trajectory KV compression for long reasoning; reports up to 1.60x QwQ-32B generation throughput with 1.2% AIME 2024 accuracy drop.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "SageAttention3: Microscaling FP4 Attention for Inference and An Exploration of 8-Bit Training",
     "venue": "NeurIPS 2025",
     "topic": "low-bit attention kernel / FP4",
@@ -20526,6 +20548,50 @@
     "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving"
+    ]
+  },
+  {
+    "title": "Value-Guided KV Compression for LLMs via Approximated CUR Decomposition",
+    "venue": "NeurIPS 2025",
+    "topic": "KV cache/long-context / efficient LLM inference",
+    "arxiv": "2509.15038",
+    "doi": "10.52202/085713-2656",
+    "official_id": "2509.15038",
+    "paper_url": "https://arxiv.org/abs/2509.15038",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "CurDKV uses value-guided CUR leverage scores for KV compression, improves quality under aggressive budgets and reduces generation latency by up to 40%; compatible with FlashAttention and GQA.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Efficient Attention"
+    ]
+  },
+  {
+    "title": "VORTA: Efficient Video Diffusion via Routing Sparse Attention",
+    "venue": "NeurIPS 2025",
+    "topic": "video/image generation acceleration / efficient attention / diffusion",
+    "arxiv": "2505.18809",
+    "doi": "10.52202/085713-0268",
+    "official_id": "2505.18809",
+    "paper_url": "https://arxiv.org/abs/2505.18809",
+    "code_url": "https://github.com/wenhao728/VORTA",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Routing sparse attention for video diffusion transformers; 1.76x end-to-end speedup without quality loss and up to 14.41x when combined with caching/step distillation.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
