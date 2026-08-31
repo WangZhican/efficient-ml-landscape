@@ -1,6 +1,6 @@
 # 01 · LLM Serving
 
-> **480 canonical papers** mapped here, plus a broader **222-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **481 canonical papers** mapped here, plus a broader **222-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -231,12 +231,13 @@
 | **P0 · Strong** | **A Thread-Register Decoupled GPU Execution Model for Efficient Tensor Computation** | Fresh / preprint | GPU execution architecture / tensor cores / LLM serving | [Link](https://arxiv.org/abs/2608.19628) | — |
 | **P1 · Watch** | **A Scalable Pipeline for LLM-Teacher Distillation Labeling: Work-Stealing Job Scheduling and Memory-Aware GPU Concurrency** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.15975) | — |
 
-## 🏛️ Classical / Historical · 445 canonical
+## 🏛️ Classical / Historical · 446 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **Canonical** | **Accelerating LLM Inference Throughput via Asynchronous KV Cache Prefetching** | AAAI 2026 | LLM inference / KV cache prefetch / GPU memory hierarchy | [Link](https://doi.org/10.1609/aaai.v40i25.39224) | — |
 | **Canonical** | **HitKV: Activation Frequency Knows Which Tokens Are Important** | AAAI 2026 | KV cache/long-context | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/40105) | — |
+| **Canonical** | **Judge Q: Trainable Queries for Optimized Information Retention in KV Cache Eviction** | AAAI 2026 | KV cache/long-context / efficient LLM inference | [Link](https://arxiv.org/abs/2509.10798) | [Repo](https://github.com/Mambaaaaaaaaaa/Judge-Q) |
 | **Canonical** | **KeepKV: Achieving Periodic Lossless KV Cache Compression for Efficient LLM Inference** | AAAI 2026 | KV cache compression / inference throughput | [Link](https://doi.org/10.1609/aaai.v40i39.40611) | — |
 | **Canonical** | **Q Cache: Visual Attention Is Valuable in Less than Half of Decode Layers for Multimodal Large Language Model** | AAAI 2026 | MLLM inference / cross-layer attention reuse / KV cache | [Link](https://doi.org/10.1609/aaai.v40i16.38414) | — |
 | **Canonical** | **SMIDT: High-Performance Inference Framework for MoE Models with Dynamic Top-K Routing** | AAAI 2026 | MoE systems/accelerators / LLM serving | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39403) | — |

@@ -1,6 +1,6 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **1140 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **1141 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
@@ -841,6 +841,33 @@
 | **Canonical** | **UNComp: Can Matrix Entropy Uncover Sparsity? — A Compressor Design from an Uncertainty-Aware Perspective** | EMNLP 2025 | KV cache compression / long-context inference / uncertainty-aware sparsity | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.209) | — |
 | **Canonical** | **XQuant: Achieving Ultra-Low Bit KV Cache Quantization with Cross-Layer Compression** | EMNLP 2025 | KV cache quantization / long-context inference | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.494) | — |
 
+## AAAI 2026 · 22
+
+| Priority | Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|---|
+| **Canonical** | **Accelerating LLM Inference Throughput via Asynchronous KV Cache Prefetching** | AAAI 2026 | LLM inference / KV cache prefetch / GPU memory hierarchy | [Link](https://doi.org/10.1609/aaai.v40i25.39224) | — |
+| **Canonical** | **AccKV: Towards Efficient Audio-Video LLMs Inference via Adaptive-Focusing and Cross-Calibration KV Cache Optimization** | AAAI 2026 | audio-video LLM / multimodal KV cache optimization | [Link](https://doi.org/10.1609/aaai.v40i7.37467) | — |
+| **Canonical** | **DIAA: A Decoding-Efficient Inference Acceleration Approach for On-Device Large Language Models** | AAAI 2026 | on-device LLM / speculative decoding / edge inference | [Link](https://doi.org/10.1609/aaai.v40i31.39789) | — |
+| **Canonical** | **Efficient Multimodal Large Language Model via Dynamic KV Cache Quantization** | AAAI 2026 | MLLM inference / KV cache quantization | [Link](https://doi.org/10.1609/aaai.v40i25.39241) | — |
+| **Canonical** | **FlashSVD: Memory-Efficient Inference with Streaming for Low-Rank Models** | AAAI 2026 | sparsity/pruning / GPU kernels | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39720) | — |
+| **Canonical** | **HALO: Hardware-Aware Quantization with Low Critical-Path-Delay Weights for LLM Acceleration** | AAAI 2026 | quantization / hardware-aware inference | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39406) | [Repo](https://github.com/ecolab-nus/HALO) |
+| **Canonical** | **Head-Aware KV Cache Compression for Efficient Visual Autoregressive Modeling** | AAAI 2026 | KV cache / image generation acceleration | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39686) | [Repo](https://github.com/Zr2223/HACK) |
+| **Canonical** | **HitKV: Activation Frequency Knows Which Tokens Are Important** | AAAI 2026 | KV cache/long-context | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/40105) | — |
+| **Canonical** | **Judge Q: Trainable Queries for Optimized Information Retention in KV Cache Eviction** | AAAI 2026 | KV cache/long-context / efficient LLM inference | [Link](https://arxiv.org/abs/2509.10798) | [Repo](https://github.com/Mambaaaaaaaaaa/Judge-Q) |
+| **Canonical** | **KeepKV: Achieving Periodic Lossless KV Cache Compression for Efficient LLM Inference** | AAAI 2026 | KV cache compression / inference throughput | [Link](https://doi.org/10.1609/aaai.v40i39.40611) | — |
+| **Canonical** | **KVmix: Gradient-Based Layer Importance-Aware Mixed-Precision Quantization for KV Cache** | AAAI 2026 | KV cache quantization / mixed precision | [Link](https://doi.org/10.1609/aaai.v40i37.40422) | — |
+| **Canonical** | **MHA2MLA-VLM: Enabling DeepSeek’s Economical Multi-Head Latent Attention Across Vision-Language Models** | AAAI 2026 | VLM inference / MLA / KV cache compression | [Link](https://doi.org/10.1609/aaai.v40i36.40319) | — |
+| **Canonical** | **Q Cache: Visual Attention Is Valuable in Less than Half of Decode Layers for Multimodal Large Language Model** | AAAI 2026 | MLLM inference / cross-layer attention reuse / KV cache | [Link](https://doi.org/10.1609/aaai.v40i16.38414) | — |
+| **Canonical** | **Scaling LLM Speculative Decoding: Non-Autoregressive Forecasting in Large-Batch Scenarios** | AAAI 2026 | speculative decoding / large-batch inference / non-autoregressive drafting | [Link](https://arxiv.org/abs/2511.20340) | [Repo](https://github.com/ShiLuohe/SpecFormer) |
+| **Canonical** | **Self-Indexing KVCache: Predicting Sparse Attention from Compressed Keys** | AAAI 2026 | KV cache compression / sparse attention / CUDA kernel | [Link](https://doi.org/10.1609/aaai.v40i33.39988) | — |
+| **Canonical** | **SlimInfer: Accelerating Long-Context LLM Inference via Dynamic Token Pruning** | AAAI 2026 | long-context LLM inference / token pruning / asynchronous KV manager | [Link](https://arxiv.org/abs/2508.06447) | [Repo](https://github.com/Longxmas/SlimInfer) |
+| **Canonical** | **SMIDT: High-Performance Inference Framework for MoE Models with Dynamic Top-K Routing** | AAAI 2026 | MoE systems/accelerators / LLM serving | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39403) | — |
+| **Canonical** | **Sparse Attention Across Multiple-Context KV Cache** | AAAI 2026 | RAG / sparse attention / multi-context KV cache | [Link](https://doi.org/10.1609/aaai.v40i36.40266) | — |
+| **Canonical** | **Steering Pretrained Drafters During Speculative Decoding** | AAAI 2026 | speculative decoding / drafter-verifier alignment | [Link](https://arxiv.org/abs/2511.09844) | [Repo](https://github.com/ETH-DISCO/SD-square) |
+| **Canonical** | **Talon: Breaking the Synchronization Barrier in Speculative Decoding with Hybrid Model-based and Retrieve-based Drafting** | AAAI 2026 | speculative decoding / asynchronous draft-verify pipeline / hybrid model-retrieval drafting | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39266) | — |
+| **Canonical** | **TimeBill: Time-Budgeted Inference for Large Language Models** | AAAI 2026 | LLM inference / time budget / adaptive KV eviction | [Link](https://doi.org/10.1609/aaai.v40i36.40317) | — |
+| **Canonical** | **TokenPowerBench: Benchmarking the Power Consumption of LLM Inference** | AAAI 2026 | LLM serving / energy benchmarking | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/40535) | [Repo](https://github.com/chenxuniu/TokenPowerBench) |
+
 ## COLM 2025 · 22
 
 | Priority | Paper | Venue | Topic | Paper | Code |
@@ -867,32 +894,6 @@
 | **Canonical** | **SQuat: Subspace-orthogonal KV Cache Quantization** | COLM 2025 | KV cache quantization | [Link](https://arxiv.org/abs/2503.24358) | — |
 | **Canonical** | **Task-Circuit Quantization: Leveraging Knowledge Localization and Interpretability for Compression** | COLM 2025 | quantization / compression | [Link](https://arxiv.org/abs/2504.07389) | [Repo](https://github.com/The-Inscrutable-X/TACQ) |
 | **Canonical** | **X-EcoMLA: Upcycling Pre-Trained Attention into MLA for Efficient and Extreme KV Compression** | COLM 2025 | KV cache compression / efficient attention architecture | [Link](https://arxiv.org/abs/2503.11132) | — |
-
-## AAAI 2026 · 21
-
-| Priority | Paper | Venue | Topic | Paper | Code |
-|---|---|---|---|---|---|
-| **Canonical** | **Accelerating LLM Inference Throughput via Asynchronous KV Cache Prefetching** | AAAI 2026 | LLM inference / KV cache prefetch / GPU memory hierarchy | [Link](https://doi.org/10.1609/aaai.v40i25.39224) | — |
-| **Canonical** | **AccKV: Towards Efficient Audio-Video LLMs Inference via Adaptive-Focusing and Cross-Calibration KV Cache Optimization** | AAAI 2026 | audio-video LLM / multimodal KV cache optimization | [Link](https://doi.org/10.1609/aaai.v40i7.37467) | — |
-| **Canonical** | **DIAA: A Decoding-Efficient Inference Acceleration Approach for On-Device Large Language Models** | AAAI 2026 | on-device LLM / speculative decoding / edge inference | [Link](https://doi.org/10.1609/aaai.v40i31.39789) | — |
-| **Canonical** | **Efficient Multimodal Large Language Model via Dynamic KV Cache Quantization** | AAAI 2026 | MLLM inference / KV cache quantization | [Link](https://doi.org/10.1609/aaai.v40i25.39241) | — |
-| **Canonical** | **FlashSVD: Memory-Efficient Inference with Streaming for Low-Rank Models** | AAAI 2026 | sparsity/pruning / GPU kernels | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39720) | — |
-| **Canonical** | **HALO: Hardware-Aware Quantization with Low Critical-Path-Delay Weights for LLM Acceleration** | AAAI 2026 | quantization / hardware-aware inference | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39406) | [Repo](https://github.com/ecolab-nus/HALO) |
-| **Canonical** | **Head-Aware KV Cache Compression for Efficient Visual Autoregressive Modeling** | AAAI 2026 | KV cache / image generation acceleration | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39686) | [Repo](https://github.com/Zr2223/HACK) |
-| **Canonical** | **HitKV: Activation Frequency Knows Which Tokens Are Important** | AAAI 2026 | KV cache/long-context | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/40105) | — |
-| **Canonical** | **KeepKV: Achieving Periodic Lossless KV Cache Compression for Efficient LLM Inference** | AAAI 2026 | KV cache compression / inference throughput | [Link](https://doi.org/10.1609/aaai.v40i39.40611) | — |
-| **Canonical** | **KVmix: Gradient-Based Layer Importance-Aware Mixed-Precision Quantization for KV Cache** | AAAI 2026 | KV cache quantization / mixed precision | [Link](https://doi.org/10.1609/aaai.v40i37.40422) | — |
-| **Canonical** | **MHA2MLA-VLM: Enabling DeepSeek’s Economical Multi-Head Latent Attention Across Vision-Language Models** | AAAI 2026 | VLM inference / MLA / KV cache compression | [Link](https://doi.org/10.1609/aaai.v40i36.40319) | — |
-| **Canonical** | **Q Cache: Visual Attention Is Valuable in Less than Half of Decode Layers for Multimodal Large Language Model** | AAAI 2026 | MLLM inference / cross-layer attention reuse / KV cache | [Link](https://doi.org/10.1609/aaai.v40i16.38414) | — |
-| **Canonical** | **Scaling LLM Speculative Decoding: Non-Autoregressive Forecasting in Large-Batch Scenarios** | AAAI 2026 | speculative decoding / large-batch inference / non-autoregressive drafting | [Link](https://arxiv.org/abs/2511.20340) | [Repo](https://github.com/ShiLuohe/SpecFormer) |
-| **Canonical** | **Self-Indexing KVCache: Predicting Sparse Attention from Compressed Keys** | AAAI 2026 | KV cache compression / sparse attention / CUDA kernel | [Link](https://doi.org/10.1609/aaai.v40i33.39988) | — |
-| **Canonical** | **SlimInfer: Accelerating Long-Context LLM Inference via Dynamic Token Pruning** | AAAI 2026 | long-context LLM inference / token pruning / asynchronous KV manager | [Link](https://arxiv.org/abs/2508.06447) | [Repo](https://github.com/Longxmas/SlimInfer) |
-| **Canonical** | **SMIDT: High-Performance Inference Framework for MoE Models with Dynamic Top-K Routing** | AAAI 2026 | MoE systems/accelerators / LLM serving | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39403) | — |
-| **Canonical** | **Sparse Attention Across Multiple-Context KV Cache** | AAAI 2026 | RAG / sparse attention / multi-context KV cache | [Link](https://doi.org/10.1609/aaai.v40i36.40266) | — |
-| **Canonical** | **Steering Pretrained Drafters During Speculative Decoding** | AAAI 2026 | speculative decoding / drafter-verifier alignment | [Link](https://arxiv.org/abs/2511.09844) | [Repo](https://github.com/ETH-DISCO/SD-square) |
-| **Canonical** | **Talon: Breaking the Synchronization Barrier in Speculative Decoding with Hybrid Model-based and Retrieve-based Drafting** | AAAI 2026 | speculative decoding / asynchronous draft-verify pipeline / hybrid model-retrieval drafting | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39266) | — |
-| **Canonical** | **TimeBill: Time-Budgeted Inference for Large Language Models** | AAAI 2026 | LLM inference / time budget / adaptive KV eviction | [Link](https://doi.org/10.1609/aaai.v40i36.40317) | — |
-| **Canonical** | **TokenPowerBench: Benchmarking the Power Consumption of LLM Inference** | AAAI 2026 | LLM serving / energy benchmarking | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/40535) | [Repo](https://github.com/chenxuniu/TokenPowerBench) |
 
 ## ACM Multimedia 2025 · 20
 

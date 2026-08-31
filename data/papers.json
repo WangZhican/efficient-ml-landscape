@@ -171,6 +171,28 @@
     ]
   },
   {
+    "title": "Judge Q: Trainable Queries for Optimized Information Retention in KV Cache Eviction",
+    "venue": "AAAI 2026",
+    "topic": "KV cache/long-context / efficient LLM inference",
+    "arxiv": "2509.10798",
+    "doi": "10.1609/aaai.v40i38.40497",
+    "official_id": "2509.10798",
+    "paper_url": "https://arxiv.org/abs/2509.10798",
+    "code_url": "https://github.com/Mambaaaaaaaaaa/Judge-Q",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "AAAI-26 KV-cache eviction method using trainable soft-token queries to better approximate decode-time attention and preserve global information under tight KV budgets; directly relevant to long-context inference efficiency and forms a lineage predecessor to later adaptive soft-token KV compression work.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Attention"
+    ]
+  },
+  {
     "title": "KeepKV: Achieving Periodic Lossless KV Cache Compression for Efficient LLM Inference",
     "venue": "AAAI 2026",
     "topic": "KV cache compression / inference throughput",
