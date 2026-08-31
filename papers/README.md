@@ -1,10 +1,10 @@
 # 🧭 Research Map
 
-> **1211 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
+> **1212 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
 
 <div align="center">
 
-[**🆕 Latest 30 Days · 318 tracked**](LATEST_30D.md) · [**🏛️ Classical · 1139**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
+[**🆕 Latest 30 Days · 318 tracked**](LATEST_30D.md) · [**🏛️ Classical · 1140**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
 
 </div>
 
@@ -12,13 +12,13 @@
 
 | # | Research direction | Canonical | Latest 30d tracked |
 |---:|---|---:|---:|
-| 01 | [**LLM Serving**](01-llm-serving.md) | **479** | **222** |
+| 01 | [**LLM Serving**](01-llm-serving.md) | **480** | **222** |
 | 02 | [**Speculative Decoding**](02-speculative-decoding.md) | **160** | **29** |
-| 03 | [**KV Cache / Long Context**](03-kv-cache-long-context.md) | **307** | **56** |
+| 03 | [**KV Cache / Long Context**](03-kv-cache-long-context.md) | **308** | **56** |
 | 04 | [**Quantization**](04-quantization.md) | **176** | **51** |
 | 05 | [**Sparsity / Pruning**](05-sparsity-pruning.md) | **204** | **64** |
 | 06 | [**Efficient Attention**](06-efficient-attention.md) | **178** | **48** |
-| 07 | [**MoE Systems / Accelerators**](07-moe-systems.md) | **89** | **31** |
+| 07 | [**MoE Systems / Accelerators**](07-moe-systems.md) | **90** | **31** |
 | 08 | [**GPU Kernel / DSL / Compiler**](08-gpu-kernel-compiler.md) | **280** | **71** |
 | 09 | [**Distributed Training / Inference**](09-distributed-training-inference.md) | **206** | **35** |
 | 10 | [**Multimodal / MLLM Serving**](10-multimodal-mllm-serving.md) | **157** | **56** |

@@ -1397,6 +1397,28 @@
     ]
   },
   {
+    "title": "Coordinated Scheduling for MoE LLM Serving",
+    "venue": "ACM SIGOPS Annual Technical Conference (ATC) 2026 / arXiv",
+    "topic": "MoE systems / LLM serving / coordinated scheduling / expert placement / KV-cache-aware routing",
+    "arxiv": "2606.15177",
+    "doi": "",
+    "official_id": "2606.15177",
+    "paper_url": "https://arxiv.org/abs/2606.15177",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Gimbal is a direct MoE-serving systems contribution that coordinates DP-engine request scheduling with source-aware expert placement using online KV-cache, prefill, queue and MoE pressure signals. It reports 42.9% lower average TTFT, 33.3% lower average TPOT, and 44.3% lower P99 TTFT than vLLM, with improved high-load throughput.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "MoE Systems / Accelerators"
+    ]
+  },
+  {
     "title": "A1: A Fully Transparent Open-Source, Adaptive and Efficient Truncated Vision-Language-Action Model",
     "venue": "arXiv 2026",
     "topic": "VLA/WAM/Physical AI serving / adaptive early exit / flow action-head acceleration",
