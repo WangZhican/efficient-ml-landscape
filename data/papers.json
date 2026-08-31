@@ -19528,6 +19528,27 @@
     ]
   },
   {
+    "title": "BEAM: Joint Resource–Power Optimization for Energy-Efficient LLM Inference under SLO constraints",
+    "venue": "MLSys 2026",
+    "topic": "energy-efficient LLM serving / SLO-aware scheduling / GPU DVFS",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "MLSYS2026_eb3c42ddfa16d8421fdba13528107cc1",
+    "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/eb3c42ddfa16d8421fdba13528107cc1-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "MLSys 2026 vLLM-based serving controller jointly optimizing GPU frequency, chunk size and microbatch count using latency slack. Reduces end-to-end GPU energy by up to 51% while meeting per-request SLOs.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "BLASST: Dynamic BLocked Attention Sparsity via Softmax Thresholding",
     "venue": "MLSys 2026",
     "topic": "sparse attention / long-context inference",
@@ -19571,6 +19592,29 @@
       "LLM Serving",
       "Speculative Decoding",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "BOute: Cost-Efficient LLM Serving with Heterogeneous LLMs and GPUs via Multi-Objective Bayesian Optimization",
+    "venue": "MLSys 2026",
+    "topic": "LLM serving / heterogeneous models and GPUs / cost-aware routing",
+    "arxiv": "2602.10729",
+    "doi": "",
+    "official_id": "MLSYS2026_ed1d3d4c64dc1b95332a8cde3f2a0bdf",
+    "paper_url": "https://arxiv.org/abs/2602.10729",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "MLSys 2026 quality-aware serving system jointly optimizing query routing, heterogeneous GPU deployment and parallelism. Reports up to 157% performance improvement under equal cost/quality constraints and 15-61% serving-cost reduction at equal targets.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -19703,6 +19747,29 @@
     ]
   },
   {
+    "title": "FlexiCache: Leveraging Temporal Stability of Attention Heads for Efficient KV Cache Management",
+    "venue": "MLSys 2026",
+    "topic": "KV cache / long-context LLM serving / hierarchical memory",
+    "arxiv": "2511.00868",
+    "doi": "",
+    "official_id": "MLSYS2026_94bcb01789fccf15afe2764d8fe0f40e",
+    "paper_url": "https://arxiv.org/abs/2511.00868",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "MLSys 2026 hierarchical KV-cache management exploiting per-head temporal stability. Reduces GPU KV footprint by up to 70%, improves offline throughput by 1.38-1.55x and lowers online token latency by 1.6-2.1x while preserving accuracy.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "FlexTrain: Scalable Hybrid-Parallel Training with Elastic Resource Utilization and Consistent Accuracy",
     "venue": "MLSys 2026",
     "topic": "distributed training / elastic GPU scheduling",
@@ -19765,6 +19832,28 @@
       "LLM Serving",
       "Speculative Decoding",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "GhostServe: A Lightweight Checkpointing System in the Shadow for Fault-Tolerant LLM Serving",
+    "venue": "MLSys 2026",
+    "topic": "LLM serving reliability / KV-cache fault tolerance / distributed inference",
+    "arxiv": "2605.00831",
+    "doi": "",
+    "official_id": "MLSYS2026_d99e8e80a6c41e148db686918dd7eab3",
+    "paper_url": "https://arxiv.org/abs/2605.00831",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "MLSys 2026 fault-tolerant LLM serving system using erasure-coded streaming KV-cache checkpointing. It reduces checkpoint latency by up to 2.7x and recovery latency by 2.1x while improving median response latency under failures. Direct production-serving resilience result.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Distributed Training / Inference"
     ]
   },
   {
@@ -20029,6 +20118,30 @@
     ]
   },
   {
+    "title": "RaidServe: High-performance Resilient Serving",
+    "venue": "MLSys 2026",
+    "topic": "LLM serving reliability / tensor parallelism / KV-cache recovery",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "MLSYS2026_507b4aacefe5325908e24f042617b741",
+    "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/507b4aacefe5325908e24f042617b741-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "MLSys 2026 resilient tensor-parallel serving system with cyclic KV placement, hybrid attention, load-aware routing and proactive KV backup. Reports up to 2x throughput and two orders of magnitude faster recovery under GPU failures.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "SkipKV",
     "venue": "MLSys 2026",
     "topic": "LLM serving + KV + speculative + reasoning efficiency",
@@ -20115,6 +20228,29 @@
     ]
   },
   {
+    "title": "SuperInfer: SLO-Aware Rotary Scheduling and Memory Management for LLM Inference on Superchips",
+    "venue": "MLSys 2026",
+    "topic": "LLM serving / KV-cache offload / heterogeneous GPU-CPU superchips",
+    "arxiv": "2601.20309",
+    "doi": "",
+    "official_id": "MLSYS2026_07fd64f9316f40193c6a4d87d8afa011",
+    "paper_url": "https://arxiv.org/abs/2601.20309",
+    "code_url": "https://github.com/Supercomputing-System-AI-Lab/SuperInfer",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "MLSys 2026 GH200-oriented serving system combining proactive SLO-aware request rotation with full-duplex NVLink-C2C KV transfer. Improves TTFT SLO attainment by up to 74.7% while preserving TBT and throughput.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "TeleRAG: Efficient Retrieval-Augmented Generation Inference with Lookahead Retrieval",
     "venue": "MLSys 2026",
     "topic": "RAG serving / prefetch / multi-GPU inference",
@@ -20135,6 +20271,28 @@
       "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "TokenWeave: Efficient Compute-Communication Overlap for Distributed LLM Inference",
+    "venue": "MLSys 2026",
+    "topic": "distributed LLM inference / GPU communication overlap / kernels",
+    "arxiv": "2505.11329",
+    "doi": "",
+    "official_id": "MLSYS2026_73ba81c7b25134a559c8a9c39ec1a4c3",
+    "paper_url": "https://arxiv.org/abs/2505.11329",
+    "code_url": "https://github.com/microsoft/tokenweave",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "MLSys 2026 distributed inference system enabling communication-compute overlap at low token counts via token splitting and fused AllReduce-RMSNorm using Multimem. Proceedings report up to 1.28x latency speedup and 1.19x throughput improvement.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
     ]
   },
   {
