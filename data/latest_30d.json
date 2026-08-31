@@ -1,8 +1,8 @@
 {
-  "window_end_beijing": "2026-08-31",
-  "window_start_beijing": "2026-08-01",
+  "window_end_beijing": "2026-09-01",
+  "window_start_beijing": "2026-08-02",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 318,
+  "tracked_total": 291,
   "p0_strong_or_canonical": [
     {
       "title": "Zetta: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence",
@@ -22,94 +22,6 @@
       "tracking_tier": "P0 · Strong",
       "directions": [
         "VLA / WAM / Physical AI"
-      ]
-    },
-    {
-      "title": "When Replanning Becomes the Bottleneck: Budgeted Replanning for Embodied Agents",
-      "venue": "ICML 2026",
-      "topic": "Physical AI / embodied-agent serving / replanning SLO / context pruning",
-      "arxiv": "2608.01428",
-      "doi": "",
-      "official_id": "2608.01428",
-      "paper_url": "https://arxiv.org/abs/2608.01428",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "BACKFILL_HIGH",
-      "why": "ICML 2026 protected Physical-AI work. BRACE makes replanning token/latency-budget aware and E-RECAP prunes context; reports 62-92% fewer replanning tokens and large reductions in SLO violations across Habitat, RoboFactory and AirSim.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "Sparsity / Pruning",
-        "Efficient Reasoning / Agents",
-        "VLA / WAM / Physical AI"
-      ]
-    },
-    {
-      "title": "VisCache: Visual KV Cache Pruning for Efficient Vision Large Language Model Inference",
-      "venue": "EMNLP 2026 Main Conference",
-      "topic": "multimodal/MLLM serving / KV cache / pruning / video inference",
-      "arxiv": "2608.24063",
-      "doi": "",
-      "official_id": "2608.24063",
-      "paper_url": "https://arxiv.org/abs/2608.24063",
-      "code_url": "https://github.com/Wlklk/VisCache",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "BACKFILL_HIGH",
-      "why": "Training-free coarse-to-fine visual KV pruning combines semantic keyframe filtering with layer-wise PruneKV. Reports up to 2.35x inference speedup with 19-28% KV retention and has an official author repository; accepted to EMNLP 2026 main conference. Direct MLLM-serving efficiency contribution.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "KV Cache / Long Context",
-        "Sparsity / Pruning",
-        "Multimodal / MLLM Serving"
-      ]
-    },
-    {
-      "title": "TreeGraft: Adaptive Multi-Drafter Grafting for Tree-Based Speculative Decoding",
-      "venue": "",
-      "topic": "speculative decoding / LLM inference",
-      "arxiv": "2608.26112",
-      "doi": "",
-      "official_id": "2608.26112",
-      "paper_url": "https://arxiv.org/abs/2608.26112",
-      "code_url": "",
-      "formal_class": "",
-      "decision": "PROMOTE_STRONG",
-      "why": "Fresh direct inference work from the official arXiv Friday 28 Aug new-submission inventory. Multi-drafter tree construction addresses the drafter latency-vs-quality trade-off and directly targets higher accepted length / lower target-model decoding cost.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "Speculative Decoding"
-      ]
-    },
-    {
-      "title": "TOPAS: Workflow-Aware Prefix-State Scheduling for Multi-Agent LLM Serving",
-      "venue": "Fresh / preprint",
-      "topic": "agent serving / prefix cache / scheduling",
-      "arxiv": "2608.25523",
-      "doi": "",
-      "official_id": "2608.25523",
-      "paper_url": "https://arxiv.org/abs/2608.25523",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Implemented in SGLang; jointly schedules prefix-cache state and requests, reducing mean/p99 workflow JCT by up to 39.8%/49.4% on synthetic DAGs and sizable gains on MetaGPT workflows.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "KV Cache / Long Context",
-        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -202,53 +114,6 @@
       ]
     },
     {
-      "title": "SPICE: Speculative Prefetching with Low-Rank Expert Surrogates and Heterogeneous Orchestration for MoE Inference Acceleration",
-      "venue": "",
-      "topic": "MoE systems / expert offload / heterogeneous inference",
-      "arxiv": "2608.21240",
-      "doi": "",
-      "official_id": "2608.21240",
-      "paper_url": "https://arxiv.org/abs/2608.21240",
-      "code_url": "",
-      "formal_class": "",
-      "decision": "PROMOTE_STRONG",
-      "why": "Direct MoE offloading systems work. Confidence-aware speculative expert prefetch plus CPU-GPU heterogeneous recovery targets PCIe expert-loading bottlenecks; reports up to 3.12x TPOT speedup.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "Speculative Decoding",
-        "KV Cache / Long Context",
-        "MoE Systems / Accelerators",
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "Simthesizer: An Agent-Driven Simulation Framework for LLM Serving Systems",
-      "venue": "arXiv 2026",
-      "topic": "LLM serving / serving simulator / agentic workloads / disaggregated serving / speculative decoding / KV cache",
-      "arxiv": "2608.24650",
-      "doi": "",
-      "official_id": "2608.24650",
-      "paper_url": "https://arxiv.org/abs/2608.24650",
-      "code_url": "https://github.com/casys-kaist/Simthesizer",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "BACKFILL_HIGH",
-      "why": "Introduces a composable dynamic-DAG simulator plus agent-driven lowering for rapidly evolving LLM serving mechanisms. It explicitly models agentic multi-call/tool workflows, disaggregated serving, KV-cache quantization and speculative decoding; extensions track a vLLM-based real system with 2.51% average throughput error versus 6.03% for extensions on existing simulators, while simulation is up to 284.96x/23.19x faster than LLMServingSim2.0/Vidur. Direct AI-infra systems contribution with public implementation.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "Speculative Decoding",
-        "KV Cache / Long Context",
-        "Quantization",
-        "Efficient Reasoning / Agents"
-      ]
-    },
-    {
       "title": "SCOPE: Subspace Clustering with Online Per-Head Top-K Estimation for Sparse Video Attention",
       "venue": "",
       "topic": "sparse video attention / DiT inference",
@@ -269,28 +134,6 @@
         "Efficient Attention",
         "Distributed Training / Inference",
         "Diffusion / Flow Acceleration"
-      ]
-    },
-    {
-      "title": "S2-MoE: Enabling Efficient Self-Speculative Decoding for Mixture-of-Experts on Edge Devices",
-      "venue": "arXiv 2026",
-      "topic": "speculative decoding / MoE systems / edge inference / llama.cpp",
-      "arxiv": "2608.15018",
-      "doi": "",
-      "official_id": "2608.15018",
-      "paper_url": "https://arxiv.org/abs/2608.15018",
-      "code_url": "https://github.com/angerybob/S2-MoE",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "BACKFILL_HIGH",
-      "why": "Direct edge-AI inference contribution combining routing-aware adaptive speculative expansion, reuse-aware expert gating, and shared-context self-speculation for MoE. Implemented in llama.cpp; reports up to 5.3x and about 2.0x average speedup across evaluated MoE models/tasks, with Jetson Orin and RTX 4090 evaluation.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "Speculative Decoding",
-        "MoE Systems / Accelerators",
-        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -425,28 +268,6 @@
       ]
     },
     {
-      "title": "psRL: Efficient Training for Agentic AI via Training-Time Prefix Sharing",
-      "venue": "Fresh / preprint",
-      "topic": "agent RL systems / distributed training / KV prefix sharing",
-      "arxiv": "2608.25683",
-      "doi": "",
-      "official_id": "2608.25683",
-      "paper_url": "https://arxiv.org/abs/2608.25683",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Production-trace-driven agent-RL training system with distributed prefix reuse and KV manager; reports up to 5.2x update throughput.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "Distributed Training / Inference",
-        "Efficient Reasoning / Agents"
-      ]
-    },
-    {
       "title": "Pre-Compiled Pipeline Shards for Distributed LLM Inference on Intel AI PC Fleets",
       "venue": "",
       "topic": "distributed LLM inference / edge AI PC fleet / speculative decoding",
@@ -513,28 +334,6 @@
       ]
     },
     {
-      "title": "NUNA: Characterizing and Mitigating Non-Uniform Network Access in Multi-Die GPU Scale-Up Systems",
-      "venue": "arXiv 2026",
-      "topic": "distributed inference / multi-die GPU / collectives / heterogeneous AI systems",
-      "arxiv": "2608.00867",
-      "doi": "",
-      "official_id": "2608.00867",
-      "paper_url": "https://arxiv.org/abs/2608.00867",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "BACKFILL_HIGH",
-      "why": "Introduces non-uniform network access as a multi-die GPU scale-up bottleneck and proposes NUNA-aware routing plus placement. Reports up to 1.8x faster collectives and 7% mean / 28% max time-per-output-token speedup in ML inference. Direct AI-infra/architecture contribution.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "GPU Kernel / DSL / Compiler",
-        "Distributed Training / Inference",
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
       "title": "NebulaVLA: A Dual-Frequency Vision-Language-Action Model With Guide Action for Robotic Manipulation",
       "venue": "",
       "topic": "VLA efficient inference",
@@ -576,27 +375,6 @@
       ]
     },
     {
-      "title": "Maia 200: A Software Defined Dataflow System for Large-scale AI Acceleration",
-      "venue": "Fresh / preprint",
-      "topic": "edge/cloud/heterogeneous AI systems / production inference accelerator / dataflow architecture",
-      "arxiv": "2608.24664",
-      "doi": "",
-      "official_id": "2608.24664",
-      "paper_url": "https://arxiv.org/abs/2608.24664",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "High-value industrial systems paper backed by Microsoft production deployment. Maia 200 is a software-defined locally accessed dataflow accelerator for large-scale AI inference, with FP4/FP8 compute, 7 TB/s HBM bandwidth, and production Azure evidence; strong canonical/P0 candidate.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "Quantization",
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
       "title": "Magnitude-Direction Decoupling for Fast Video Generation with Flow Matching Models",
       "venue": "",
       "topic": "video generation acceleration / flow matching",
@@ -615,52 +393,6 @@
       "directions": [
         "Video / Image Generation",
         "Diffusion / Flow Acceleration"
-      ]
-    },
-    {
-      "title": "LoSA: Near-Lossless Sparse Attention for Training-Free Video Diffusion Acceleration",
-      "venue": "arXiv 2026",
-      "topic": "video/image generation acceleration / sparse attention / video diffusion",
-      "arxiv": "2608.12032",
-      "doi": "",
-      "official_id": "2608.12032",
-      "paper_url": "https://arxiv.org/abs/2608.12032",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Direct video diffusion inference acceleration. Retains 99% attention mass with reusable block-sparse patterns; reports 1.36x standalone speedup and up to 3.2x when composed with feature caching with near-lossless VBench quality.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "Sparsity / Pruning",
-        "Efficient Attention",
-        "Video / Image Generation",
-        "Diffusion / Flow Acceleration"
-      ]
-    },
-    {
-      "title": "LoKiFormer: Locality-aware Attention with Decoupled Knowledge Memory for Efficient Large Language Model Pretraining",
-      "venue": "ICML 2026",
-      "topic": "LLM pretraining efficiency / efficient attention / explicit knowledge memory",
-      "arxiv": "2608.12419",
-      "doi": "",
-      "official_id": "ICML2026_LOKIFORMERLOCALITYAWAREATTENTIONWITHDECO",
-      "paper_url": "https://arxiv.org/abs/2608.12419",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "BACKFILL_HIGH",
-      "why": "ICML 2026; introduces Local Fusion Attention plus a decoupled parametric Knowledge Memory Module to reduce redundant local modeling and separate knowledge storage from computation; reports 1.33x faster pretraining convergence than Transformer baselines.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "Efficient Attention",
-        "GPU Kernel / DSL / Compiler",
-        "Distributed Training / Inference",
-        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -685,50 +417,6 @@
       ]
     },
     {
-      "title": "Learning Agent Execution for KV-Cache Management in Agentic Serving",
-      "venue": "arXiv 2026",
-      "topic": "LLM serving / agent systems / KV cache / cache eviction / prefetching",
-      "arxiv": "2608.14624",
-      "doi": "",
-      "official_id": "2608.14624",
-      "paper_url": "https://arxiv.org/abs/2608.14624",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "BACKFILL_HIGH",
-      "why": "CacheScout is a direct AI-infra runtime contribution for multi-agent LLM serving. It learns agent execution transitions online and uses them for KV-cache eviction and proactive prefetching on top of vLLM, reporting 10-18 percentage-point higher cache hit rate, 18-45% lower mean TTFT, 29-38% lower per-turn latency, and up to 57% higher peak throughput.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "KV Cache / Long Context",
-        "Efficient Reasoning / Agents"
-      ]
-    },
-    {
-      "title": "Just Noticeable Difference Modeling for Token Compression in Vision-Language-Action Models",
-      "venue": "",
-      "topic": "Physical AI / VLA token compression / KV reuse / pruning",
-      "arxiv": "2608.21247",
-      "doi": "",
-      "official_id": "2608.21247",
-      "paper_url": "https://arxiv.org/abs/2608.21247",
-      "code_url": "",
-      "formal_class": "",
-      "decision": "PROMOTE_STRONG",
-      "why": "Protected Physical-AI efficiency work. Action-JND explicitly optimizes safe VLA token compression for latency-sensitive closed-loop actions and applies to stale-KV reuse and token pruning on OpenVLA/OpenVLA-OFT.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "Sparsity / Pruning",
-        "Multimodal / MLLM Serving",
-        "VLA / WAM / Physical AI"
-      ]
-    },
-    {
       "title": "HYDRA: A Heterogeneous Chiplet DSE Framework for Serving Dynamic Hybrid LLM Workloads",
       "venue": "",
       "topic": "LLM serving / heterogeneous chiplets / architecture-runtime co-design",
@@ -746,29 +434,6 @@
       "tracking_tier": "P0 · Strong",
       "directions": [
         "LLM Serving",
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "HorizonServe: Coordinating Request Scheduling with GPU Sharing for Omni-Model Serving",
-      "venue": "Fresh / preprint",
-      "topic": "multimodal/omni-model serving / GPU scheduling",
-      "arxiv": "2608.01785",
-      "doi": "",
-      "official_id": "2608.01785",
-      "paper_url": "https://arxiv.org/abs/2608.01785",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Single-GPU omni-model serving system coordinating temporal request scheduling and spatial SM sharing under heterogeneous SLOs; reports up to 4.9x/7.0x SLO-attainment gains and 38.4–63.7% first-response latency reduction.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "GPU Kernel / DSL / Compiler",
-        "Multimodal / MLLM Serving",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -953,48 +618,6 @@
       ]
     },
     {
-      "title": "FLINT: Efficiently Leveraging High Bandwidth Flash for Capacity-Scalable LLM Inference Acceleration",
-      "venue": "Fresh / preprint",
-      "topic": "LLM serving / memory hierarchy / hardware architecture",
-      "arxiv": "2608.25062",
-      "doi": "",
-      "official_id": "2608.25062",
-      "paper_url": "https://arxiv.org/abs/2608.25062",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Direct LLM inference memory-capacity system using HBF+HBM, burst-buffer control, off-critical-path refresh and read-only FTL; strong architecture/runtime contribution.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "FlashVLA: Streaming Action Decoding for Fast and Asynchronous VLA Inference",
-      "venue": "",
-      "topic": "Physical AI / VLA serving / streaming action decoding",
-      "arxiv": "2608.27384",
-      "doi": "",
-      "official_id": "2608.27384",
-      "paper_url": "https://arxiv.org/abs/2608.27384",
-      "code_url": "",
-      "formal_class": "",
-      "decision": "PROMOTE_STRONG",
-      "why": "Protected Physical-AI direct serving work. FlashVLA jointly targets low-latency inference and temporally consistent asynchronous execution and reports >=30 Hz control frequency on one GPU in real-world deployment.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "VLA / WAM / Physical AI"
-      ]
-    },
-    {
       "title": "FlashPrefill V2: Block-Sparse Prefill Attention for Long-Context LLM Serving",
       "venue": "",
       "topic": "long-context LLM serving / block-sparse prefill attention / GPU kernel",
@@ -1059,28 +682,6 @@
         "LLM Serving",
         "Quantization",
         "Efficient Attention",
-        "GPU Kernel / DSL / Compiler"
-      ]
-    },
-    {
-      "title": "ExFold: Unified Expert Folding for Training-Free MoE Prefill-Decode Acceleration",
-      "venue": "Fresh / preprint",
-      "topic": "MoE systems / LLM serving / CUDA kernel",
-      "arxiv": "2608.24938",
-      "doi": "",
-      "official_id": "2608.24938",
-      "paper_url": "https://arxiv.org/abs/2608.24938",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "vLLM plug-in with lightweight expert-folding CUDA kernel; reports up to 1.41x TTFT and 2.45x TPOT speedups while retaining ~99% average quality.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "MoE Systems / Accelerators",
         "GPU Kernel / DSL / Compiler"
       ]
     },
@@ -1197,29 +798,6 @@
       ]
     },
     {
-      "title": "EasyBalance: Cross-Layer Load Balancing in Distributed MoE Inference",
-      "venue": "ICML 2026",
-      "topic": "MoE inference / expert parallelism / cross-layer load balancing",
-      "arxiv": "2608.07964",
-      "doi": "",
-      "official_id": "ICML2026_EASYBALANCE",
-      "paper_url": "https://arxiv.org/abs/2608.07964",
-      "code_url": "https://github.com/yize-wu/EasyInfra",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "BACKFILL_HIGH",
-      "why": "ICML 2026; cross-layer scheduling balances skewed expert-parallel workloads without remapping experts and reduces GPU idling by mostly over 40% across evaluated configurations.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "MoE Systems / Accelerators",
-        "GPU Kernel / DSL / Compiler",
-        "Distributed Training / Inference"
-      ]
-    },
-    {
       "title": "DriveCache: Action-Aware Caching for Driving World Model Inference",
       "venue": "",
       "topic": "world-model / diffusion caching",
@@ -1283,26 +861,6 @@
       ]
     },
     {
-      "title": "ComFuse: Fusing Complex Memory-Intensive Subgraphs with Compute-Intensive Kernels For Modern GPU Architectures",
-      "venue": "Fresh / preprint",
-      "topic": "GPU kernel / compiler / operator fusion",
-      "arxiv": "2608.03537",
-      "doi": "",
-      "official_id": "2608.03537",
-      "paper_url": "https://arxiv.org/abs/2608.03537",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Automated GPU compiler for joint compute-memory fusion and B2BGEMM using CUTLASS/modern GPU features; up to 1.97x over TorchInductor on selected workloads.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "GPU Kernel / DSL / Compiler"
-      ]
-    },
-    {
       "title": "ClawGym II: Exploring Black-Box RL on Agent Harness",
       "venue": "",
       "topic": "agent training systems",
@@ -1320,49 +878,6 @@
       "tracking_tier": "P0 · Strong",
       "directions": [
         "Distributed Training / Inference",
-        "Efficient Reasoning / Agents"
-      ]
-    },
-    {
-      "title": "ChebBooster: A Training-Free Approach for Efficient Diffusion Transformer Inference via Chebyshev-Inspired Extrapolation",
-      "venue": "",
-      "topic": "diffusion/flow acceleration / training-free DiT extrapolation / cache-style compute skipping",
-      "arxiv": "2608.23429",
-      "doi": "",
-      "official_id": "",
-      "paper_url": "https://arxiv.org/abs/2608.23429",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Direct diffusion inference acceleration. Chebyshev-inspired stable extrapolation skips expensive DiT block executions; reports up to 3.68x latency speedup and 5.12x FLOPs reduction across DiT-XL/2, PixArt-Sigma and FLUX.1-dev.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "Diffusion / Flow Acceleration"
-      ]
-    },
-    {
-      "title": "CAKE: Compiler-Agent Co-Design for Frontier Kernel Evolution",
-      "venue": "arXiv 2026",
-      "topic": "GPU kernel / DSL / compiler / agentic systems / LLM serving",
-      "arxiv": "2608.12629",
-      "doi": "",
-      "official_id": "2608.12629",
-      "paper_url": "https://arxiv.org/abs/2608.12629",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "BACKFILL_HIGH",
-      "why": "Compiler-agent co-design exposes hardware-explicit scheduling through CAKE IR and closes the loop between agent failures and compiler evolution. On B200 the best candidate exceeds tuned FlashML on Flash-KMeans; agent-generated Kimi Delta Attention reports 2.05x geometric-mean speedup over official FlashKDA and passes end-to-end serving validation. Directly relevant to GPU-kernel/DSL/compiler and AI-infra automation.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "Efficient Attention",
-        "GPU Kernel / DSL / Compiler",
         "Efficient Reasoning / Agents"
       ]
     },
@@ -1412,73 +927,6 @@
       ]
     },
     {
-      "title": "ATFlash: Per-RoPE-Wavelength Attention Windows for Compute/Memory-Efficient LLM Inference",
-      "venue": "Fresh / preprint",
-      "topic": "efficient attention / long-context / FlashAttention",
-      "arxiv": "2608.02947",
-      "doi": "",
-      "official_id": "2608.02947",
-      "paper_url": "https://arxiv.org/abs/2608.02947",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "FlashAttention-4/FlashInfer-compatible per-RoPE-frequency pruning; prunes 37–48% QK terms with high output fidelity and reaches up to 1.31x end-to-end speedup at 1M-token context.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "KV Cache / Long Context",
-        "Sparsity / Pruning",
-        "Efficient Attention"
-      ]
-    },
-    {
-      "title": "AsymSpec: Efficient Cloud–Edge Speculative Decoding over Asymmetric Networks",
-      "venue": "",
-      "topic": "speculative decoding / LLM serving / edge-cloud heterogeneous AI systems",
-      "arxiv": "2608.04974",
-      "doi": "",
-      "official_id": "2608.04974",
-      "paper_url": "https://arxiv.org/abs/2608.04974",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "BACKFILL_HIGH",
-      "why": "Cloud-edge speculative serving system with asymmetric verification protocol and confirmed-prefix cross-request pipeline; reports 2.82–28.03x output-token throughput over strongest baseline across three network profiles.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "Speculative Decoding",
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "APT: Accelerating Diffusion Transformers via Attention Probability-Guided Pruning and Quantization",
-      "venue": "Fresh / preprint",
-      "topic": "diffusion acceleration / sparse attention / quantization / accelerator",
-      "arxiv": "2608.25380",
-      "doi": "",
-      "official_id": "2608.25380",
-      "paper_url": "https://arxiv.org/abs/2608.25380",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Software-hardware co-design for high-resolution DiT; APDT+TAFA plus specialized dual-precision sparse accelerator, reporting up to 8.16x speedup and 14.98x energy efficiency over A100.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "Quantization",
-        "Sparsity / Pruning",
-        "Efficient Attention",
-        "Diffusion / Flow Acceleration"
-      ]
-    },
-    {
       "title": "An Empirical Study of Training Pixel-Space Text-to-Image Diffusion Models",
       "venue": "",
       "topic": "image generation acceleration",
@@ -1523,50 +971,6 @@
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "AgentSpec: Speculative Decoding for Batch Inference of LLM Agents",
-      "venue": "EMNLP 2026",
-      "topic": "speculative decoding / efficient reasoning-agent systems / LLM serving",
-      "arxiv": "2608.24004",
-      "doi": "",
-      "official_id": "2608.24004",
-      "paper_url": "https://arxiv.org/abs/2608.24004",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "BACKFILL_HIGH",
-      "why": "AgentSpec targets the large-batch failure mode of speculative decoding for LLM-agent serving. It uses structure-isolated drafting plus redundancy-aware dynamic token-budget allocation, is implemented in vLLM, and evaluates five agent workloads across four model families; the paper reports up to 2.02x speedup over autoregressive decoding while remaining effective at larger batch sizes.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "Speculative Decoding",
-        "Efficient Reasoning / Agents"
-      ]
-    },
-    {
-      "title": "Affix Cache for Diffusion Large Language Models",
-      "venue": "",
-      "topic": "diffusion LLM inference / KV cache / serving",
-      "arxiv": "2608.26140",
-      "doi": "",
-      "official_id": "2608.26140",
-      "paper_url": "https://arxiv.org/abs/2608.26140",
-      "code_url": "",
-      "formal_class": "",
-      "decision": "PROMOTE_STRONG",
-      "why": "Fresh direct systems work. ACache reuses affix KV states while selectively recomputing anchor tokens; the paper reports up to 55.7% lower recompute latency and up to 1.68x end-to-end throughput in a Nano-vLLM prototype.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "KV Cache / Long Context",
-        "Diffusion / Flow Acceleration"
       ]
     },
     {
@@ -6942,94 +6346,6 @@
       ]
     },
     {
-      "title": "When Replanning Becomes the Bottleneck: Budgeted Replanning for Embodied Agents",
-      "venue": "ICML 2026",
-      "topic": "Physical AI / embodied-agent serving / replanning SLO / context pruning",
-      "arxiv": "2608.01428",
-      "doi": "",
-      "official_id": "2608.01428",
-      "paper_url": "https://arxiv.org/abs/2608.01428",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "BACKFILL_HIGH",
-      "why": "ICML 2026 protected Physical-AI work. BRACE makes replanning token/latency-budget aware and E-RECAP prunes context; reports 62-92% fewer replanning tokens and large reductions in SLO violations across Habitat, RoboFactory and AirSim.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "Sparsity / Pruning",
-        "Efficient Reasoning / Agents",
-        "VLA / WAM / Physical AI"
-      ]
-    },
-    {
-      "title": "VisCache: Visual KV Cache Pruning for Efficient Vision Large Language Model Inference",
-      "venue": "EMNLP 2026 Main Conference",
-      "topic": "multimodal/MLLM serving / KV cache / pruning / video inference",
-      "arxiv": "2608.24063",
-      "doi": "",
-      "official_id": "2608.24063",
-      "paper_url": "https://arxiv.org/abs/2608.24063",
-      "code_url": "https://github.com/Wlklk/VisCache",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "BACKFILL_HIGH",
-      "why": "Training-free coarse-to-fine visual KV pruning combines semantic keyframe filtering with layer-wise PruneKV. Reports up to 2.35x inference speedup with 19-28% KV retention and has an official author repository; accepted to EMNLP 2026 main conference. Direct MLLM-serving efficiency contribution.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "KV Cache / Long Context",
-        "Sparsity / Pruning",
-        "Multimodal / MLLM Serving"
-      ]
-    },
-    {
-      "title": "TreeGraft: Adaptive Multi-Drafter Grafting for Tree-Based Speculative Decoding",
-      "venue": "",
-      "topic": "speculative decoding / LLM inference",
-      "arxiv": "2608.26112",
-      "doi": "",
-      "official_id": "2608.26112",
-      "paper_url": "https://arxiv.org/abs/2608.26112",
-      "code_url": "",
-      "formal_class": "",
-      "decision": "PROMOTE_STRONG",
-      "why": "Fresh direct inference work from the official arXiv Friday 28 Aug new-submission inventory. Multi-drafter tree construction addresses the drafter latency-vs-quality trade-off and directly targets higher accepted length / lower target-model decoding cost.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "Speculative Decoding"
-      ]
-    },
-    {
-      "title": "TOPAS: Workflow-Aware Prefix-State Scheduling for Multi-Agent LLM Serving",
-      "venue": "Fresh / preprint",
-      "topic": "agent serving / prefix cache / scheduling",
-      "arxiv": "2608.25523",
-      "doi": "",
-      "official_id": "2608.25523",
-      "paper_url": "https://arxiv.org/abs/2608.25523",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Implemented in SGLang; jointly schedules prefix-cache state and requests, reducing mean/p99 workflow JCT by up to 39.8%/49.4% on synthetic DAGs and sizable gains on MetaGPT workflows.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "KV Cache / Long Context",
-        "Efficient Reasoning / Agents"
-      ]
-    },
-    {
       "title": "TileMix: Tile-Centric Mixed-Precision Attention for LLM Inference Acceleration",
       "venue": "",
       "topic": "mixed-precision attention kernel / long-context inference",
@@ -7119,53 +6435,6 @@
       ]
     },
     {
-      "title": "SPICE: Speculative Prefetching with Low-Rank Expert Surrogates and Heterogeneous Orchestration for MoE Inference Acceleration",
-      "venue": "",
-      "topic": "MoE systems / expert offload / heterogeneous inference",
-      "arxiv": "2608.21240",
-      "doi": "",
-      "official_id": "2608.21240",
-      "paper_url": "https://arxiv.org/abs/2608.21240",
-      "code_url": "",
-      "formal_class": "",
-      "decision": "PROMOTE_STRONG",
-      "why": "Direct MoE offloading systems work. Confidence-aware speculative expert prefetch plus CPU-GPU heterogeneous recovery targets PCIe expert-loading bottlenecks; reports up to 3.12x TPOT speedup.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "Speculative Decoding",
-        "KV Cache / Long Context",
-        "MoE Systems / Accelerators",
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "Simthesizer: An Agent-Driven Simulation Framework for LLM Serving Systems",
-      "venue": "arXiv 2026",
-      "topic": "LLM serving / serving simulator / agentic workloads / disaggregated serving / speculative decoding / KV cache",
-      "arxiv": "2608.24650",
-      "doi": "",
-      "official_id": "2608.24650",
-      "paper_url": "https://arxiv.org/abs/2608.24650",
-      "code_url": "https://github.com/casys-kaist/Simthesizer",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "BACKFILL_HIGH",
-      "why": "Introduces a composable dynamic-DAG simulator plus agent-driven lowering for rapidly evolving LLM serving mechanisms. It explicitly models agentic multi-call/tool workflows, disaggregated serving, KV-cache quantization and speculative decoding; extensions track a vLLM-based real system with 2.51% average throughput error versus 6.03% for extensions on existing simulators, while simulation is up to 284.96x/23.19x faster than LLMServingSim2.0/Vidur. Direct AI-infra systems contribution with public implementation.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "Speculative Decoding",
-        "KV Cache / Long Context",
-        "Quantization",
-        "Efficient Reasoning / Agents"
-      ]
-    },
-    {
       "title": "SCOPE: Subspace Clustering with Online Per-Head Top-K Estimation for Sparse Video Attention",
       "venue": "",
       "topic": "sparse video attention / DiT inference",
@@ -7186,28 +6455,6 @@
         "Efficient Attention",
         "Distributed Training / Inference",
         "Diffusion / Flow Acceleration"
-      ]
-    },
-    {
-      "title": "S2-MoE: Enabling Efficient Self-Speculative Decoding for Mixture-of-Experts on Edge Devices",
-      "venue": "arXiv 2026",
-      "topic": "speculative decoding / MoE systems / edge inference / llama.cpp",
-      "arxiv": "2608.15018",
-      "doi": "",
-      "official_id": "2608.15018",
-      "paper_url": "https://arxiv.org/abs/2608.15018",
-      "code_url": "https://github.com/angerybob/S2-MoE",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "BACKFILL_HIGH",
-      "why": "Direct edge-AI inference contribution combining routing-aware adaptive speculative expansion, reuse-aware expert gating, and shared-context self-speculation for MoE. Implemented in llama.cpp; reports up to 5.3x and about 2.0x average speedup across evaluated MoE models/tasks, with Jetson Orin and RTX 4090 evaluation.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "Speculative Decoding",
-        "MoE Systems / Accelerators",
-        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -7342,28 +6589,6 @@
       ]
     },
     {
-      "title": "psRL: Efficient Training for Agentic AI via Training-Time Prefix Sharing",
-      "venue": "Fresh / preprint",
-      "topic": "agent RL systems / distributed training / KV prefix sharing",
-      "arxiv": "2608.25683",
-      "doi": "",
-      "official_id": "2608.25683",
-      "paper_url": "https://arxiv.org/abs/2608.25683",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Production-trace-driven agent-RL training system with distributed prefix reuse and KV manager; reports up to 5.2x update throughput.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "Distributed Training / Inference",
-        "Efficient Reasoning / Agents"
-      ]
-    },
-    {
       "title": "Pre-Compiled Pipeline Shards for Distributed LLM Inference on Intel AI PC Fleets",
       "venue": "",
       "topic": "distributed LLM inference / edge AI PC fleet / speculative decoding",
@@ -7430,28 +6655,6 @@
       ]
     },
     {
-      "title": "NUNA: Characterizing and Mitigating Non-Uniform Network Access in Multi-Die GPU Scale-Up Systems",
-      "venue": "arXiv 2026",
-      "topic": "distributed inference / multi-die GPU / collectives / heterogeneous AI systems",
-      "arxiv": "2608.00867",
-      "doi": "",
-      "official_id": "2608.00867",
-      "paper_url": "https://arxiv.org/abs/2608.00867",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "BACKFILL_HIGH",
-      "why": "Introduces non-uniform network access as a multi-die GPU scale-up bottleneck and proposes NUNA-aware routing plus placement. Reports up to 1.8x faster collectives and 7% mean / 28% max time-per-output-token speedup in ML inference. Direct AI-infra/architecture contribution.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "GPU Kernel / DSL / Compiler",
-        "Distributed Training / Inference",
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
       "title": "NebulaVLA: A Dual-Frequency Vision-Language-Action Model With Guide Action for Robotic Manipulation",
       "venue": "",
       "topic": "VLA efficient inference",
@@ -7493,27 +6696,6 @@
       ]
     },
     {
-      "title": "Maia 200: A Software Defined Dataflow System for Large-scale AI Acceleration",
-      "venue": "Fresh / preprint",
-      "topic": "edge/cloud/heterogeneous AI systems / production inference accelerator / dataflow architecture",
-      "arxiv": "2608.24664",
-      "doi": "",
-      "official_id": "2608.24664",
-      "paper_url": "https://arxiv.org/abs/2608.24664",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "High-value industrial systems paper backed by Microsoft production deployment. Maia 200 is a software-defined locally accessed dataflow accelerator for large-scale AI inference, with FP4/FP8 compute, 7 TB/s HBM bandwidth, and production Azure evidence; strong canonical/P0 candidate.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "Quantization",
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
       "title": "Magnitude-Direction Decoupling for Fast Video Generation with Flow Matching Models",
       "venue": "",
       "topic": "video generation acceleration / flow matching",
@@ -7532,52 +6714,6 @@
       "directions": [
         "Video / Image Generation",
         "Diffusion / Flow Acceleration"
-      ]
-    },
-    {
-      "title": "LoSA: Near-Lossless Sparse Attention for Training-Free Video Diffusion Acceleration",
-      "venue": "arXiv 2026",
-      "topic": "video/image generation acceleration / sparse attention / video diffusion",
-      "arxiv": "2608.12032",
-      "doi": "",
-      "official_id": "2608.12032",
-      "paper_url": "https://arxiv.org/abs/2608.12032",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Direct video diffusion inference acceleration. Retains 99% attention mass with reusable block-sparse patterns; reports 1.36x standalone speedup and up to 3.2x when composed with feature caching with near-lossless VBench quality.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "Sparsity / Pruning",
-        "Efficient Attention",
-        "Video / Image Generation",
-        "Diffusion / Flow Acceleration"
-      ]
-    },
-    {
-      "title": "LoKiFormer: Locality-aware Attention with Decoupled Knowledge Memory for Efficient Large Language Model Pretraining",
-      "venue": "ICML 2026",
-      "topic": "LLM pretraining efficiency / efficient attention / explicit knowledge memory",
-      "arxiv": "2608.12419",
-      "doi": "",
-      "official_id": "ICML2026_LOKIFORMERLOCALITYAWAREATTENTIONWITHDECO",
-      "paper_url": "https://arxiv.org/abs/2608.12419",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "BACKFILL_HIGH",
-      "why": "ICML 2026; introduces Local Fusion Attention plus a decoupled parametric Knowledge Memory Module to reduce redundant local modeling and separate knowledge storage from computation; reports 1.33x faster pretraining convergence than Transformer baselines.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "Efficient Attention",
-        "GPU Kernel / DSL / Compiler",
-        "Distributed Training / Inference",
-        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -7602,50 +6738,6 @@
       ]
     },
     {
-      "title": "Learning Agent Execution for KV-Cache Management in Agentic Serving",
-      "venue": "arXiv 2026",
-      "topic": "LLM serving / agent systems / KV cache / cache eviction / prefetching",
-      "arxiv": "2608.14624",
-      "doi": "",
-      "official_id": "2608.14624",
-      "paper_url": "https://arxiv.org/abs/2608.14624",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "BACKFILL_HIGH",
-      "why": "CacheScout is a direct AI-infra runtime contribution for multi-agent LLM serving. It learns agent execution transitions online and uses them for KV-cache eviction and proactive prefetching on top of vLLM, reporting 10-18 percentage-point higher cache hit rate, 18-45% lower mean TTFT, 29-38% lower per-turn latency, and up to 57% higher peak throughput.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "KV Cache / Long Context",
-        "Efficient Reasoning / Agents"
-      ]
-    },
-    {
-      "title": "Just Noticeable Difference Modeling for Token Compression in Vision-Language-Action Models",
-      "venue": "",
-      "topic": "Physical AI / VLA token compression / KV reuse / pruning",
-      "arxiv": "2608.21247",
-      "doi": "",
-      "official_id": "2608.21247",
-      "paper_url": "https://arxiv.org/abs/2608.21247",
-      "code_url": "",
-      "formal_class": "",
-      "decision": "PROMOTE_STRONG",
-      "why": "Protected Physical-AI efficiency work. Action-JND explicitly optimizes safe VLA token compression for latency-sensitive closed-loop actions and applies to stale-KV reuse and token pruning on OpenVLA/OpenVLA-OFT.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "Sparsity / Pruning",
-        "Multimodal / MLLM Serving",
-        "VLA / WAM / Physical AI"
-      ]
-    },
-    {
       "title": "HYDRA: A Heterogeneous Chiplet DSE Framework for Serving Dynamic Hybrid LLM Workloads",
       "venue": "",
       "topic": "LLM serving / heterogeneous chiplets / architecture-runtime co-design",
@@ -7663,29 +6755,6 @@
       "tracking_tier": "P0 · Strong",
       "directions": [
         "LLM Serving",
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "HorizonServe: Coordinating Request Scheduling with GPU Sharing for Omni-Model Serving",
-      "venue": "Fresh / preprint",
-      "topic": "multimodal/omni-model serving / GPU scheduling",
-      "arxiv": "2608.01785",
-      "doi": "",
-      "official_id": "2608.01785",
-      "paper_url": "https://arxiv.org/abs/2608.01785",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Single-GPU omni-model serving system coordinating temporal request scheduling and spatial SM sharing under heterogeneous SLOs; reports up to 4.9x/7.0x SLO-attainment gains and 38.4–63.7% first-response latency reduction.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "GPU Kernel / DSL / Compiler",
-        "Multimodal / MLLM Serving",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -7870,48 +6939,6 @@
       ]
     },
     {
-      "title": "FLINT: Efficiently Leveraging High Bandwidth Flash for Capacity-Scalable LLM Inference Acceleration",
-      "venue": "Fresh / preprint",
-      "topic": "LLM serving / memory hierarchy / hardware architecture",
-      "arxiv": "2608.25062",
-      "doi": "",
-      "official_id": "2608.25062",
-      "paper_url": "https://arxiv.org/abs/2608.25062",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Direct LLM inference memory-capacity system using HBF+HBM, burst-buffer control, off-critical-path refresh and read-only FTL; strong architecture/runtime contribution.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "FlashVLA: Streaming Action Decoding for Fast and Asynchronous VLA Inference",
-      "venue": "",
-      "topic": "Physical AI / VLA serving / streaming action decoding",
-      "arxiv": "2608.27384",
-      "doi": "",
-      "official_id": "2608.27384",
-      "paper_url": "https://arxiv.org/abs/2608.27384",
-      "code_url": "",
-      "formal_class": "",
-      "decision": "PROMOTE_STRONG",
-      "why": "Protected Physical-AI direct serving work. FlashVLA jointly targets low-latency inference and temporally consistent asynchronous execution and reports >=30 Hz control frequency on one GPU in real-world deployment.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "VLA / WAM / Physical AI"
-      ]
-    },
-    {
       "title": "FlashPrefill V2: Block-Sparse Prefill Attention for Long-Context LLM Serving",
       "venue": "",
       "topic": "long-context LLM serving / block-sparse prefill attention / GPU kernel",
@@ -7976,28 +7003,6 @@
         "LLM Serving",
         "Quantization",
         "Efficient Attention",
-        "GPU Kernel / DSL / Compiler"
-      ]
-    },
-    {
-      "title": "ExFold: Unified Expert Folding for Training-Free MoE Prefill-Decode Acceleration",
-      "venue": "Fresh / preprint",
-      "topic": "MoE systems / LLM serving / CUDA kernel",
-      "arxiv": "2608.24938",
-      "doi": "",
-      "official_id": "2608.24938",
-      "paper_url": "https://arxiv.org/abs/2608.24938",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "vLLM plug-in with lightweight expert-folding CUDA kernel; reports up to 1.41x TTFT and 2.45x TPOT speedups while retaining ~99% average quality.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "MoE Systems / Accelerators",
         "GPU Kernel / DSL / Compiler"
       ]
     },
@@ -8114,29 +7119,6 @@
       ]
     },
     {
-      "title": "EasyBalance: Cross-Layer Load Balancing in Distributed MoE Inference",
-      "venue": "ICML 2026",
-      "topic": "MoE inference / expert parallelism / cross-layer load balancing",
-      "arxiv": "2608.07964",
-      "doi": "",
-      "official_id": "ICML2026_EASYBALANCE",
-      "paper_url": "https://arxiv.org/abs/2608.07964",
-      "code_url": "https://github.com/yize-wu/EasyInfra",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "BACKFILL_HIGH",
-      "why": "ICML 2026; cross-layer scheduling balances skewed expert-parallel workloads without remapping experts and reduces GPU idling by mostly over 40% across evaluated configurations.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "MoE Systems / Accelerators",
-        "GPU Kernel / DSL / Compiler",
-        "Distributed Training / Inference"
-      ]
-    },
-    {
       "title": "DriveCache: Action-Aware Caching for Driving World Model Inference",
       "venue": "",
       "topic": "world-model / diffusion caching",
@@ -8200,26 +7182,6 @@
       ]
     },
     {
-      "title": "ComFuse: Fusing Complex Memory-Intensive Subgraphs with Compute-Intensive Kernels For Modern GPU Architectures",
-      "venue": "Fresh / preprint",
-      "topic": "GPU kernel / compiler / operator fusion",
-      "arxiv": "2608.03537",
-      "doi": "",
-      "official_id": "2608.03537",
-      "paper_url": "https://arxiv.org/abs/2608.03537",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Automated GPU compiler for joint compute-memory fusion and B2BGEMM using CUTLASS/modern GPU features; up to 1.97x over TorchInductor on selected workloads.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "GPU Kernel / DSL / Compiler"
-      ]
-    },
-    {
       "title": "ClawGym II: Exploring Black-Box RL on Agent Harness",
       "venue": "",
       "topic": "agent training systems",
@@ -8237,49 +7199,6 @@
       "tracking_tier": "P0 · Strong",
       "directions": [
         "Distributed Training / Inference",
-        "Efficient Reasoning / Agents"
-      ]
-    },
-    {
-      "title": "ChebBooster: A Training-Free Approach for Efficient Diffusion Transformer Inference via Chebyshev-Inspired Extrapolation",
-      "venue": "",
-      "topic": "diffusion/flow acceleration / training-free DiT extrapolation / cache-style compute skipping",
-      "arxiv": "2608.23429",
-      "doi": "",
-      "official_id": "",
-      "paper_url": "https://arxiv.org/abs/2608.23429",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Direct diffusion inference acceleration. Chebyshev-inspired stable extrapolation skips expensive DiT block executions; reports up to 3.68x latency speedup and 5.12x FLOPs reduction across DiT-XL/2, PixArt-Sigma and FLUX.1-dev.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "Diffusion / Flow Acceleration"
-      ]
-    },
-    {
-      "title": "CAKE: Compiler-Agent Co-Design for Frontier Kernel Evolution",
-      "venue": "arXiv 2026",
-      "topic": "GPU kernel / DSL / compiler / agentic systems / LLM serving",
-      "arxiv": "2608.12629",
-      "doi": "",
-      "official_id": "2608.12629",
-      "paper_url": "https://arxiv.org/abs/2608.12629",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "BACKFILL_HIGH",
-      "why": "Compiler-agent co-design exposes hardware-explicit scheduling through CAKE IR and closes the loop between agent failures and compiler evolution. On B200 the best candidate exceeds tuned FlashML on Flash-KMeans; agent-generated Kimi Delta Attention reports 2.05x geometric-mean speedup over official FlashKDA and passes end-to-end serving validation. Directly relevant to GPU-kernel/DSL/compiler and AI-infra automation.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "Efficient Attention",
-        "GPU Kernel / DSL / Compiler",
         "Efficient Reasoning / Agents"
       ]
     },
@@ -8329,73 +7248,6 @@
       ]
     },
     {
-      "title": "ATFlash: Per-RoPE-Wavelength Attention Windows for Compute/Memory-Efficient LLM Inference",
-      "venue": "Fresh / preprint",
-      "topic": "efficient attention / long-context / FlashAttention",
-      "arxiv": "2608.02947",
-      "doi": "",
-      "official_id": "2608.02947",
-      "paper_url": "https://arxiv.org/abs/2608.02947",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "FlashAttention-4/FlashInfer-compatible per-RoPE-frequency pruning; prunes 37–48% QK terms with high output fidelity and reaches up to 1.31x end-to-end speedup at 1M-token context.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "KV Cache / Long Context",
-        "Sparsity / Pruning",
-        "Efficient Attention"
-      ]
-    },
-    {
-      "title": "AsymSpec: Efficient Cloud–Edge Speculative Decoding over Asymmetric Networks",
-      "venue": "",
-      "topic": "speculative decoding / LLM serving / edge-cloud heterogeneous AI systems",
-      "arxiv": "2608.04974",
-      "doi": "",
-      "official_id": "2608.04974",
-      "paper_url": "https://arxiv.org/abs/2608.04974",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "BACKFILL_HIGH",
-      "why": "Cloud-edge speculative serving system with asymmetric verification protocol and confirmed-prefix cross-request pipeline; reports 2.82–28.03x output-token throughput over strongest baseline across three network profiles.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "Speculative Decoding",
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "APT: Accelerating Diffusion Transformers via Attention Probability-Guided Pruning and Quantization",
-      "venue": "Fresh / preprint",
-      "topic": "diffusion acceleration / sparse attention / quantization / accelerator",
-      "arxiv": "2608.25380",
-      "doi": "",
-      "official_id": "2608.25380",
-      "paper_url": "https://arxiv.org/abs/2608.25380",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Software-hardware co-design for high-resolution DiT; APDT+TAFA plus specialized dual-precision sparse accelerator, reporting up to 8.16x speedup and 14.98x energy efficiency over A100.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "Quantization",
-        "Sparsity / Pruning",
-        "Efficient Attention",
-        "Diffusion / Flow Acceleration"
-      ]
-    },
-    {
       "title": "An Empirical Study of Training Pixel-Space Text-to-Image Diffusion Models",
       "venue": "",
       "topic": "image generation acceleration",
@@ -8440,50 +7292,6 @@
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "AgentSpec: Speculative Decoding for Batch Inference of LLM Agents",
-      "venue": "EMNLP 2026",
-      "topic": "speculative decoding / efficient reasoning-agent systems / LLM serving",
-      "arxiv": "2608.24004",
-      "doi": "",
-      "official_id": "2608.24004",
-      "paper_url": "https://arxiv.org/abs/2608.24004",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "BACKFILL_HIGH",
-      "why": "AgentSpec targets the large-batch failure mode of speculative decoding for LLM-agent serving. It uses structure-isolated drafting plus redundancy-aware dynamic token-budget allocation, is implemented in vLLM, and evaluates five agent workloads across four model families; the paper reports up to 2.02x speedup over autoregressive decoding while remaining effective at larger batch sizes.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "Speculative Decoding",
-        "Efficient Reasoning / Agents"
-      ]
-    },
-    {
-      "title": "Affix Cache for Diffusion Large Language Models",
-      "venue": "",
-      "topic": "diffusion LLM inference / KV cache / serving",
-      "arxiv": "2608.26140",
-      "doi": "",
-      "official_id": "2608.26140",
-      "paper_url": "https://arxiv.org/abs/2608.26140",
-      "code_url": "",
-      "formal_class": "",
-      "decision": "PROMOTE_STRONG",
-      "why": "Fresh direct systems work. ACache reuses affix KV states while selectively recomputing anchor tokens; the paper reports up to 55.7% lower recompute latency and up to 1.68x end-to-end throughput in a Nano-vLLM prototype.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "KV Cache / Long Context",
-        "Diffusion / Flow Acceleration"
       ]
     },
     {
