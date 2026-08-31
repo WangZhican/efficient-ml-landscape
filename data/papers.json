@@ -21421,6 +21421,51 @@
     ]
   },
   {
+    "title": "BatchGen: An Architecture for Scalable and Efficient Batch Inference",
+    "venue": "OSDI 2026",
+    "topic": "LLM batch inference / MoE serving / distributed inference",
+    "arxiv": "2606.21712",
+    "doi": "",
+    "official_id": "USENIX_OSDI26_318503",
+    "paper_url": "https://arxiv.org/abs/2606.21712",
+    "code_url": "https://github.com/batchgen-project/batchgen",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "OSDI 2026 production-ready batch-inference architecture based on sequence coroutines. On 128 GPUs it reduces batch completion time by up to 2.3x and on memory-constrained accelerators outperforms the strongest offloading baseline by up to 9.6x. Direct high-value serving/runtime systems paper.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "MoE Systems / Accelerators",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "CoPilotIO: CPU as a Co-Pilot for GPU I/O to Free GPU Compute",
+    "venue": "OSDI 2026",
+    "topic": "GPU I/O / heterogeneous AI systems / MoE inference infrastructure",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX_OSDI26_318537",
+    "paper_url": "https://www.usenix.org/conference/osdi26/presentation/chen-guanyi",
+    "code_url": "https://github.com/ScaleXLab/OSDI26-CoPilotIO",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "OSDI 2026 GPU I/O engine that moves completion polling to CPU co-pilots, cuts I/O-induced stalls by up to 55.5%, needs 50% fewer SMs to saturate PCIe bandwidth, and improves real applications including MoE inference by up to 85%. First-class GPU systems/AI-infrastructure result.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "MoE Systems / Accelerators",
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "ECHO: Efficient KV Cache Offloading with Lossless Prefetching for Serving Native Sparse Attention LLMs",
     "venue": "OSDI 2026",
     "topic": "sparse-attention KV-cache serving",
@@ -21659,6 +21704,26 @@
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context"
+    ]
+  },
+  {
+    "title": "StriaTrace: Efficient Tracing and Diagnosis for Online LLM Inference (Operational Systems)",
+    "venue": "OSDI 2026",
+    "topic": "LLM serving observability / tracing / production AI infrastructure",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX_OSDI26_318447",
+    "paper_url": "https://www.usenix.org/conference/osdi26/presentation/wu-haonan",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "OSDI 2026 operational LLM-inference tracing and diagnosis system. It reduces tracing overhead by 97.8% and has diagnosed hundreds of production abnormalities across 19 root causes. Direct production-serving reliability/observability contribution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving"
     ]
   },
   {
