@@ -1,6 +1,6 @@
 # 05 · Sparsity / Pruning
 
-> **205 canonical papers** mapped here, plus a broader **64-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **209 canonical papers** mapped here, plus a broader **64-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -73,7 +73,7 @@
 | **P0 · Strong** | **ATFlash: Per-RoPE-Wavelength Attention Windows for Compute/Memory-Efficient LLM Inference** | Fresh / preprint | efficient attention / long-context / FlashAttention | [Link](https://arxiv.org/abs/2608.02947) | — |
 | **P0 · Strong** | **APT: Accelerating Diffusion Transformers via Attention Probability-Guided Pruning and Quantization** | Fresh / preprint | diffusion acceleration / sparse attention / quantization / accelerator | [Link](https://arxiv.org/abs/2608.25380) | — |
 
-## 🏛️ Classical / Historical · 194 canonical
+## 🏛️ Classical / Historical · 198 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -146,6 +146,10 @@
 | **Canonical** | **ProxyAttn: Guided Sparse Attention via Representative Heads** | ICLR 2026 | sparse attention / long-context prefill | [Link](https://openreview.net/pdf?id=m3HXHQYmZu) | — |
 | **Canonical** | **RESA: Bringing Back What Sparse Attention Ignores with Residual Estimation** | ICLR 2026 | sparse attention / KV efficiency | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/89bd6217280d1417370c89ee493ba3c7-Abstract-Conference.html) | — |
 | **Canonical** | **Retrospective Sparse Attention for Efficient Long-Context Generation** | ICLR 2026 | KV cache compression / long-generation inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/f4daa773a5bb2d562a9204a7e2225a67-Abstract-Conference.html) | [Repo](https://github.com/csh3695/RetroAttention) |
+| **Canonical** | **Scaling Attention via Feature Sparsity** | ICLR 2026 | efficient attention / feature sparsity / FlashSFA kernel | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/13e386233fe29d15525e7114fede6ce0-Abstract-Conference.html) | [Repo](https://github.com/YannX1e/Sparse-Feature-Attention) |
+| **Canonical** | **Sparse Attention Adaptation for Long Reasoning** | ICLR 2026 | efficient attention / long reasoning / sparse decode / GPU kernel | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/b56d827a2b8433517e722e0272c7f464-Abstract-Conference.html) | — |
+| **Canonical** | **SparseD: Sparse Attention for Diffusion Language Models** | ICLR 2026 | diffusion language model / sparse attention / inference acceleration | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/a1598ba0aa7bd7bdf18e0ad04d993edc-Abstract-Conference.html) | [Repo](https://github.com/INV-WZQ/SparseD) |
+| **Canonical** | **Sparsity Forcing: Reinforcing Token Sparsity of MLLMs** | ICLR 2026 | multimodal/MLLM efficiency / token sparsity / RL post-training | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/fc034d186280f55370b6aca7a3285a65-Abstract-Conference.html) | — |
 | **Canonical** | **Tactic: Adaptive Sparse Attention with Clustering and Distribution Fitting for Long-Context LLMs** | ICLR 2026 | sparse attention / long-context inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/33f94d79acf71051d6a27f4d8889e20e-Abstract-Conference.html) | — |
 | **Canonical** | **WINA: Weight Informed Neuron Activation for Accelerating Large Language Model Inference** | ICLR 2026 | training-free sparse activation / LLM inference | [Link](https://openreview.net/pdf?id=l7Vb3yxmuz) | — |
 | **Canonical** | **CoreMatching: A Co-adaptive Sparse Inference Framework with Token and Neuron Pruning for Comprehensive Acceleration of Vision-Language Models** | ICML 2025 | VLM sparsity / pruning | [Link](https://proceedings.mlr.press/v267/wang25eb.html) | — |

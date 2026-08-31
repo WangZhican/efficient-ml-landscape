@@ -1,6 +1,6 @@
 # 06 · Efficient Attention
 
-> **183 canonical papers** mapped here, plus a broader **48-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **187 canonical papers** mapped here, plus a broader **48-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -57,7 +57,7 @@
 | **P0 · Strong** | **ATFlash: Per-RoPE-Wavelength Attention Windows for Compute/Memory-Efficient LLM Inference** | Fresh / preprint | efficient attention / long-context / FlashAttention | [Link](https://arxiv.org/abs/2608.02947) | — |
 | **P0 · Strong** | **APT: Accelerating Diffusion Transformers via Attention Probability-Guided Pruning and Quantization** | Fresh / preprint | diffusion acceleration / sparse attention / quantization / accelerator | [Link](https://arxiv.org/abs/2608.25380) | — |
 
-## 🏛️ Classical / Historical · 169 canonical
+## 🏛️ Classical / Historical · 173 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -113,11 +113,15 @@
 | **Canonical** | **FastVAR: Linear Visual Autoregressive Modeling via Cached Token Pruning** | ICCV 2025 | autoregressive image generation acceleration / cached token pruning | [Link](https://arxiv.org/abs/2503.23367) | [Repo](https://github.com/csguoh/FastVAR) |
 | **Canonical** | **Representation Shift: Unifying Token Compression with FlashAttention** | ICCV 2025 | token compression / FlashAttention-compatible efficient inference | [Link](https://openaccess.thecvf.com/content/ICCV2025/html/Choi_Representation_Shift_Unifying_Token_Compression_with_FlashAttention_ICCV_2025_paper.html) | [Repo](https://github.com/mlvlab/Representation-Shift) |
 | **Canonical** | **Draft-based Approximate Inference for LLMs** | ICLR 2026 | KV cache compression / sparse attention / prompt compression | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/28b3dc0970fa4624a63278a4268de997-Abstract-Conference.html) | [Repo](https://github.com/furiosa-ai/draft-based-approx-llm) |
+| **Canonical** | **Long-Context Attention Benchmark: From Kernel Efficiency to Distributed Context Parallelism** | ICLR 2026 | efficient attention / distributed context parallelism / benchmark | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/7df69dbf39705c7a39b40f2d70e806c1-Abstract-Conference.html) | — |
 | **Canonical** | **Multi-Head Low-Rank Attention** | ICLR 2026 | KV-efficient attention / tensor-parallel decoding | [Link](https://openreview.net/pdf?id=vBJKZ19XGY) | — |
 | **Canonical** | **ProxyAttn: Guided Sparse Attention via Representative Heads** | ICLR 2026 | sparse attention / long-context prefill | [Link](https://openreview.net/pdf?id=m3HXHQYmZu) | — |
 | **Canonical** | **QuoKA: Query-Oriented KV Selection for Efficient LLM Prefill** | ICLR 2026 | efficient attention / long-context prefill | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/760fe89b5a5e5792b33f23a2db1b9fbf-Abstract-Conference.html) | — |
 | **Canonical** | **RESA: Bringing Back What Sparse Attention Ignores with Residual Estimation** | ICLR 2026 | sparse attention / KV efficiency | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/89bd6217280d1417370c89ee493ba3c7-Abstract-Conference.html) | — |
 | **Canonical** | **Retrospective Sparse Attention for Efficient Long-Context Generation** | ICLR 2026 | KV cache compression / long-generation inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/f4daa773a5bb2d562a9204a7e2225a67-Abstract-Conference.html) | [Repo](https://github.com/csh3695/RetroAttention) |
+| **Canonical** | **Scaling Attention via Feature Sparsity** | ICLR 2026 | efficient attention / feature sparsity / FlashSFA kernel | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/13e386233fe29d15525e7114fede6ce0-Abstract-Conference.html) | [Repo](https://github.com/YannX1e/Sparse-Feature-Attention) |
+| **Canonical** | **Sparse Attention Adaptation for Long Reasoning** | ICLR 2026 | efficient attention / long reasoning / sparse decode / GPU kernel | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/b56d827a2b8433517e722e0272c7f464-Abstract-Conference.html) | — |
+| **Canonical** | **SparseD: Sparse Attention for Diffusion Language Models** | ICLR 2026 | diffusion language model / sparse attention / inference acceleration | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/a1598ba0aa7bd7bdf18e0ad04d993edc-Abstract-Conference.html) | [Repo](https://github.com/INV-WZQ/SparseD) |
 | **Canonical** | **Tactic: Adaptive Sparse Attention with Clustering and Distribution Fitting for Long-Context LLMs** | ICLR 2026 | sparse attention / long-context inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/33f94d79acf71051d6a27f4d8889e20e-Abstract-Conference.html) | — |
 | **Canonical** | **ThinKV: Thought-Adaptive KV Cache Compression for Efficient Reasoning Models** | ICLR 2026 | KV cache compression / efficient reasoning | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/b2b502c3629beadda06311386d2c6f73-Abstract-Conference.html) | — |
 | **Canonical** | **Sparse Video-Gen: Accelerating Video Diffusion Transformers with Spatial-Temporal Sparsity** | ICML 2025 | video/image generation acceleration / efficient attention | [Link](https://proceedings.mlr.press/v267/xi25c.html) | — |

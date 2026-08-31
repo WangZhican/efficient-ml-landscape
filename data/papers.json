@@ -7878,6 +7878,49 @@
     ]
   },
   {
+    "title": "Beyond Speedup - Utilizing KV Cache for Sampling and Reasoning",
+    "venue": "ICLR 2026",
+    "topic": "KV cache / efficient reasoning / representation reuse",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:d147f24cac1b6cd88753ca830e462bdc",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/d147f24cac1b6cd88753ca830e462bdc-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICLR 2026 reuses KV-cache representations for downstream sampling/reasoning and fast/slow thinking switching, reducing generated tokens by up to 5.7x with minimal accuracy loss.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "Capacity-Aware Inference: Mitigating the Straggler Effect in Mixture of Experts",
+    "venue": "ICLR 2026",
+    "topic": "MoE systems / expert parallelism / straggler mitigation",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:94e845868a9ace4bc239d0c529d32f4c",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/94e845868a9ace4bc239d0c529d32f4c-Abstract-Conference.html",
+    "code_url": "https://github.com/CASE-Lab-UMD/Capacity-Aware-MoE",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICLR 2026 capacity-aware token/expert scheduling for MoE inference; official paper reports up to 1.85x inference speedup on Mixtral-8x7B-Instruct with minimal quality impact.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "MoE Systems / Accelerators",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "DefensiveKV: Taming the Fragility of KV Cache Eviction in LLM Inference",
     "venue": "ICLR 2026",
     "topic": "KV cache eviction / robust aggregation",
@@ -8073,6 +8116,29 @@
     ]
   },
   {
+    "title": "Long-Context Attention Benchmark: From Kernel Efficiency to Distributed Context Parallelism",
+    "venue": "ICLR 2026",
+    "topic": "efficient attention / distributed context parallelism / benchmark",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:7df69dbf39705c7a39b40f2d70e806c1",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/7df69dbf39705c7a39b40f2d70e806c1-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICLR 2026 unified benchmark spanning attention kernels and distributed context parallelism, evaluated up to 96 GPUs; directly relevant to kernel/distributed efficiency selection.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "LouisKV: Efficient KV Cache Retrieval for Long Input-Output Sequences",
     "venue": "ICLR 2026",
     "topic": "KV cache / long-context inference / retrieval / Triton-CUDA kernels",
@@ -8161,6 +8227,30 @@
     ]
   },
   {
+    "title": "Reasoning Language Model Inference Serving Unveiled: An Empirical Study",
+    "venue": "ICLR 2026",
+    "topic": "LLM serving / reasoning inference / quantization / speculative decoding",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:a741b3864dbe6f0f588f2bb2a97e5e8e",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/a741b3864dbe6f0f588f2bb2a97e5e8e-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICLR 2026 empirical systems study of reasoning-model serving; characterizes memory/straggler/runtime behavior and evaluates quantization, KV-cache quantization, speculative decoding and prefix caching under realistic workloads.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "KV Cache / Long Context",
+      "Quantization",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "RESA: Bringing Back What Sparse Attention Ignores with Residual Estimation",
     "venue": "ICLR 2026",
     "topic": "sparse attention / KV efficiency",
@@ -8202,6 +8292,119 @@
       "KV Cache / Long Context",
       "Sparsity / Pruning",
       "Efficient Attention"
+    ]
+  },
+  {
+    "title": "Scaling Attention via Feature Sparsity",
+    "venue": "ICLR 2026",
+    "topic": "efficient attention / feature sparsity / FlashSFA kernel",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:13e386233fe29d15525e7114fede6ce0",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/13e386233fe29d15525e7114fede6ce0-Abstract-Conference.html",
+    "code_url": "https://github.com/YannX1e/Sparse-Feature-Attention",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICLR 2026 introduces Sparse Feature Attention and FlashSFA; reports up to 2.5x speedup and nearly 50% FLOP/KV-cache reduction while matching dense baselines.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "Semantic Parallelism: Redefining Efficient MoE Inference via Model-Data Co-Scheduling",
+    "venue": "ICLR 2026",
+    "topic": "MoE systems / expert parallelism / serving / communication",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:f0552f14388d95b19740dee809f5cad1",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/f0552f14388d95b19740dee809f5cad1-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICLR 2026 Sem-MoE co-schedules expert placement and request/token placement inside SGLang to reduce expert-parallel all-to-all communication and improve inference throughput.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "MoE Systems / Accelerators",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "Sparse Attention Adaptation for Long Reasoning",
+    "venue": "ICLR 2026",
+    "topic": "efficient attention / long reasoning / sparse decode / GPU kernel",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:b56d827a2b8433517e722e0272c7f464",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/b56d827a2b8433517e722e0272c7f464-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "SeerAttention-R adapts learned sparse attention to autoregressive reasoning decode; official ICLR paper reports up to about 9x sparse decoding kernel speedup over FlashAttention-3 at 90% sparsity.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "SparseD: Sparse Attention for Diffusion Language Models",
+    "venue": "ICLR 2026",
+    "topic": "diffusion language model / sparse attention / inference acceleration",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:a1598ba0aa7bd7bdf18e0ad04d993edc",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/a1598ba0aa7bd7bdf18e0ad04d993edc-Abstract-Conference.html",
+    "code_url": "https://github.com/INV-WZQ/SparseD",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICLR 2026 sparse-attention acceleration for diffusion language models; official paper reports up to 1.50x speedup at 64k context with 1,024 denoising steps.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "Sparsity Forcing: Reinforcing Token Sparsity of MLLMs",
+    "venue": "ICLR 2026",
+    "topic": "multimodal/MLLM efficiency / token sparsity / RL post-training",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR2026:fc034d186280f55370b6aca7a3285a65",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/fc034d186280f55370b6aca7a3285a65-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICLR 2026 MLLM token-sparsity post-training framework; official paper reports token reduction up to 75%, inference memory reduction up to 3x and decode speedup up to 3.3x.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Multimodal / MLLM Serving"
     ]
   },
   {
