@@ -6297,6 +6297,27 @@
     ]
   },
   {
+    "title": "COMET: Communication and Memory Co-Design for Fine-Grained AI Inference in MCM Accelerators",
+    "venue": "HPCA 2026",
+    "topic": "edge/cloud/heterogeneous AI systems / chiplet / inference communication",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "DOI:10.1109/HPCA68181.2026.11408536",
+    "paper_url": "https://doi.org/10.1109/HPCA68181.2026.11408536",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "HPCA 2026 chiplet communication-memory co-design for fine-grained AI inference; official HPCA/IEEE evidence reports 1.1-2.6x inference speedup and 1.5-4.4x higher bandwidth utilization across DNN/LLM workloads.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Distributed Training / Inference",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Compression-Aware Gradient Splitting for Collective Communications in Distributed Training",
     "venue": "HPCA 2026",
     "topic": "distributed training / compressed collective communication",
@@ -6335,6 +6356,27 @@
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context"
+    ]
+  },
+  {
+    "title": "Exploration of LLM Workload Reliability based on di/dt Effects and Voltage Droops",
+    "venue": "HPCA 2026",
+    "topic": "LLM serving / AI infrastructure reliability / GPU power delivery",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "DOI:10.1109/HPCA68181.2026.11408597",
+    "paper_url": "https://2026.hpca-conf.org/details/hpca-2026-main-conference/39/Exploration-of-LLM-Workload-Reliability-based-on-di-dt-effects-and-Voltage-Droops",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "HPCA 2026 production-AI infrastructure study of LLM-induced GPU power oscillations and voltage droops; reports >100mV droops on real LLM workloads and proposes kernel staggering to move oscillations away from PDN resonance.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {
