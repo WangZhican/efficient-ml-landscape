@@ -1,6 +1,6 @@
 # 07 · MoE Systems / Accelerators
 
-> **92 canonical papers** mapped here, plus a broader **31-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **93 canonical papers** mapped here, plus a broader **31-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -40,7 +40,7 @@
 | **P1 · Watch** | **Cacheable by Design? Training Mixture-of-Experts Routers for Locality Against the Edge Memory-Bandwidth Wall: A Pre-Registered Negative Result with a Systems Measurement Study** | Fresh / preprint | edge MoE serving / expert caching / memory bandwidth | [Link](https://arxiv.org/abs/2608.18261) | — |
 | **P0 · Strong** | **Beyond Capacity: Scalable MoE LLM Inference via High-Bandwidth Flash with Direct GPU and HBM Paths** | Fresh / preprint | MoE serving / high-bandwidth flash architecture | [Link](https://arxiv.org/abs/2608.14333) | — |
 
-## 🏛️ Classical / Historical · 83 canonical
+## 🏛️ Classical / Historical · 84 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -76,6 +76,7 @@
 | **Canonical** | **GEMQ: Global Expert-Level Mixed-Precision Quantization for MoE LLMs** | ICML 2026 | quantization / MoE systems / mixed precision / memory-efficient inference | [Link](https://arxiv.org/abs/2605.23078) | [Repo](https://github.com/jndeng/GEMQ) |
 | **Canonical** | **GradPower: Powering Gradients for Faster Language Model Pre-Training** | ICML 2026 | distributed training / optimizer / LLM pre-training efficiency / MoE training | [Link](https://arxiv.org/abs/2505.24275) | — |
 | **Canonical** | **Grouter: Decoupling Routing from Representation for Accelerated MoE Training** | ICML 2026 | MoE systems / efficient training / routing / distributed training | [Link](https://arxiv.org/abs/2603.06626) | [Repo](https://github.com/JimmyAwoe/Grouter) |
+| **Canonical** | **Least-Loaded Expert Parallelism: Load Balancing An Imbalanced Mixture-of-Experts** | ICML 2026 | MoE systems / expert parallelism / distributed inference / load balancing | [Link](https://arxiv.org/abs/2601.17111) | [Repo](https://github.com/SalesforceAIResearch/LeastLoadedEP) |
 | **Canonical** | **Less Token, More Signal: MoE Expert Pruning via Critical Token Selection** | ICML 2026 | MoE systems / expert pruning / memory-efficient inference | [Link](https://openreview.net/forum?id=4iupzej9nT) | — |
 | **Canonical** | **LiME: Lightweight Mixture of Experts for Efficient Multimodal Multi-task Learning** | ICML 2026 | multimodal efficiency / lightweight MoE / parameter-efficient fine-tuning / adaptive routing | [Link](https://arxiv.org/abs/2604.02338) | — |
 | **Canonical** | **Mining Tensor/Neuron-Level Sparsity to Maximize Mixture-of-Experts Potential in Post-Training and Inference** | ICML 2026 | MoE systems / post-training sparsity / token-expert dropping / expert partition / inference acceleration | [Link](https://arxiv.org/abs/2508.18376) | — |

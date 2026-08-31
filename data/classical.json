@@ -12157,6 +12157,28 @@
     ]
   },
   {
+    "title": "Least-Loaded Expert Parallelism: Load Balancing An Imbalanced Mixture-of-Experts",
+    "venue": "ICML 2026",
+    "topic": "MoE systems / expert parallelism / distributed inference / load balancing",
+    "arxiv": "2601.17111",
+    "doi": "",
+    "official_id": "arxiv:2601.17111",
+    "paper_url": "https://arxiv.org/abs/2601.17111",
+    "code_url": "https://github.com/SalesforceAIResearch/LeastLoadedEP",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 system/algorithmic infrastructure work for imbalanced MoE expert parallelism. LLEP dynamically reroutes excess tokens together with expert parameters to underutilized devices; authors report up to 5x speedup and 4x lower peak memory versus standard EP, including about 1.9x faster full-model inference for gpt-oss-120b.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "MoE Systems / Accelerators",
+      "Distributed Training / Inference",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Less Is More: Training-Free Sparse Attention with Global Locality for Efficient Reasoning",
     "venue": "ICML 2026",
     "topic": "efficient reasoning / sparse attention / KV-cache decoding",

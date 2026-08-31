@@ -1,10 +1,10 @@
 # 🧭 Research Map
 
-> **1234 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
+> **1235 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
 
 <div align="center">
 
-[**🆕 Latest 30 Days · 318 tracked**](LATEST_30D.md) · [**🏛️ Classical · 1162**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
+[**🆕 Latest 30 Days · 318 tracked**](LATEST_30D.md) · [**🏛️ Classical · 1163**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
 
 </div>
 
@@ -18,15 +18,15 @@
 | 04 | [**Quantization**](04-quantization.md) | **177** | **51** |
 | 05 | [**Sparsity / Pruning**](05-sparsity-pruning.md) | **205** | **64** |
 | 06 | [**Efficient Attention**](06-efficient-attention.md) | **183** | **48** |
-| 07 | [**MoE Systems / Accelerators**](07-moe-systems.md) | **92** | **31** |
+| 07 | [**MoE Systems / Accelerators**](07-moe-systems.md) | **93** | **31** |
 | 08 | [**GPU Kernel / DSL / Compiler**](08-gpu-kernel-compiler.md) | **290** | **71** |
-| 09 | [**Distributed Training / Inference**](09-distributed-training-inference.md) | **212** | **35** |
+| 09 | [**Distributed Training / Inference**](09-distributed-training-inference.md) | **213** | **35** |
 | 10 | [**Multimodal / MLLM Serving**](10-multimodal-mllm-serving.md) | **157** | **56** |
 | 11 | [**Video / Image Generation**](11-video-image-generation.md) | **57** | **20** |
 | 12 | [**Diffusion / Flow Acceleration**](12-diffusion-flow.md) | **158** | **27** |
 | 13 | [**Efficient Reasoning / Agents**](13-efficient-reasoning-agents.md) | **203** | **55** |
 | 14 | [**VLA / WAM / Physical AI**](14-physical-ai-vla-wam.md) | **71** | **57** |
-| 15 | [**Edge / Cloud / Heterogeneous AI**](15-edge-cloud-heterogeneous.md) | **257** | **99** |
+| 15 | [**Edge / Cloud / Heterogeneous AI**](15-edge-cloud-heterogeneous.md) | **258** | **99** |
 
 > Counts are multi-label and therefore do not sum to the unique-paper total. A canonical paper can intentionally appear in several directions.
 
