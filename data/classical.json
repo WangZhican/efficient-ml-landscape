@@ -20782,6 +20782,28 @@
     ]
   },
   {
+    "title": "PlanetServe: A Decentralized, Scalable, and Privacy-Preserving Overlay for Democratizing Large Language Model Serving",
+    "venue": "NSDI 2026",
+    "topic": "LLM serving / distributed inference / edge-cloud heterogeneous AI systems",
+    "arxiv": "2504.20101",
+    "doi": "",
+    "official_id": "USENIX_NSdi26_316600",
+    "paper_url": "https://arxiv.org/abs/2504.20101",
+    "code_url": "https://github.com/fffeifang/PlanetServe",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "NSDI-26 decentralized LLM-serving overlay that pools heterogeneous contributed compute, combines privacy-preserving communication, overlay forwarding/load balancing and serving-quality verification, and reports over 50% latency reduction versus a no-overlay-forwarding baseline. Direct first-class AI-infrastructure/LLM-serving result.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "RLBoost: Harvesting Preemptible Cloud Resources for Cost-Efficient Reinforcement Learning on LLMs",
     "venue": "NSDI 2026",
     "topic": "efficient reasoning / RL training infrastructure",
