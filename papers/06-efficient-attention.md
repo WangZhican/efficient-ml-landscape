@@ -1,6 +1,6 @@
 # 06 · Efficient Attention
 
-> **177 canonical papers** mapped here, plus a broader **48-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **178 canonical papers** mapped here, plus a broader **48-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -57,7 +57,7 @@
 | **P0 · Strong** | **ATFlash: Per-RoPE-Wavelength Attention Windows for Compute/Memory-Efficient LLM Inference** | Fresh / preprint | efficient attention / long-context / FlashAttention | [Link](https://arxiv.org/abs/2608.02947) | — |
 | **P0 · Strong** | **APT: Accelerating Diffusion Transformers via Attention Probability-Guided Pruning and Quantization** | Fresh / preprint | diffusion acceleration / sparse attention / quantization / accelerator | [Link](https://arxiv.org/abs/2608.25380) | — |
 
-## 🏛️ Classical / Historical · 163 canonical
+## 🏛️ Classical / Historical · 164 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -220,6 +220,7 @@
 | **Canonical** | **CoDec: Prefix-Shared Decoding Kernel for LLMs** | SIGMOD 2026 | LLM decoding kernel / shared-prefix attention / KV-cache memory access | [Link](https://arxiv.org/abs/2505.17694) | [Repo](https://github.com/wzbxpy/codec) |
 | **Canonical** | **DepCache: A KV Cache Management Framework for GraphRAG with Dependency Attention** | SIGMOD 2026 | GraphRAG dependency attention / KV-cache management | [Link](https://doi.org/10.1145/3769778) | [Repo](https://github.com/Sanzo00/DepCache) |
 | **Canonical** | **Serving Hybrid LLM Loads with SLO Guarantees Using CPU-GPU Attention Piggybacking** | SIGMOD 2026 | LLM serving / heterogeneous CPU-GPU / SLO scheduling | [Link](https://arxiv.org/abs/2603.12831) | — |
+| **Canonical** | **BanaServe: Unified KV Cache and Dynamic Module Migration for Balancing Disaggregated LLM Serving in AI Infrastructure** | Software: Practice and Experience 2026 / arXiv 2025 | LLM serving / disaggregated inference / KV cache / dynamic module migration / AI infrastructure | [Link](https://arxiv.org/abs/2510.13223) | — |
 | **Canonical** | **DCP: Addressing Input Dynamism In Long-Context Training via Dynamic Context Parallelism** | SOSP 2025 | long-context LLM training / dynamic context parallelism | [Link](https://arxiv.org/abs/2510.10620) | [Repo](https://github.com/chenyu-jiang/dcp) |
 | **Canonical** | **Weaver: Efficient Multi-LLM Serving with Attention Offloading** | USENIX ATC 2025 | multi-LLM serving / attention offloading | [Link](https://www.usenix.org/conference/atc25/presentation/gao) | — |
 | **Canonical** | **Silicon-Oracle (Soracle): A Multi-Modal Autoregressive Model Accelerator for Context-Aware Assistance on Mobile Platform** | VLSI Symposium 2026 | multimodal autoregressive accelerator / mobile inference | [Link](https://doi.org/10.1109/VLSITechnologyandCir65830.2026.11577228) | — |

@@ -1,6 +1,6 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **1138 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **1139 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
@@ -1375,6 +1375,12 @@
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **Canonical** | **eGPU: Production-Scale Elastic Sharing over 10,000 GPUs** | HPCA 2026 Industry Track | production GPU sharing / elastic multi-tenant ML | [Link](https://doi.org/10.1109/HPCA68181.2026.11408556) | — |
+
+## Software: Practice and Experience 2026 / arXiv 2025 · 1
+
+| Priority | Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|---|
+| **Canonical** | **BanaServe: Unified KV Cache and Dynamic Module Migration for Balancing Disaggregated LLM Serving in AI Infrastructure** | Software: Practice and Experience 2026 / arXiv 2025 | LLM serving / disaggregated inference / KV cache / dynamic module migration / AI infrastructure | [Link](https://arxiv.org/abs/2510.13223) | — |
 
 ## TMLR 2026 (presented at ICML 2026) · 1
 

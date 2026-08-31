@@ -23286,6 +23286,28 @@
     ]
   },
   {
+    "title": "BanaServe: Unified KV Cache and Dynamic Module Migration for Balancing Disaggregated LLM Serving in AI Infrastructure",
+    "venue": "Software: Practice and Experience 2026 / arXiv 2025",
+    "topic": "LLM serving / disaggregated inference / KV cache / dynamic module migration / AI infrastructure",
+    "arxiv": "2510.13223",
+    "doi": "",
+    "official_id": "2510.13223",
+    "paper_url": "https://arxiv.org/abs/2510.13223",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "BanaServe is a direct LLM-serving systems contribution for disaggregated prefill/decode inference. It jointly migrates model layers and attention KV state and uses a shared global KV store to rebalance dynamic workloads. The paper reports 1.2x-3.9x throughput over vLLM and 1.1x-2.8x over DistServe with substantial latency reductions.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Attention"
+    ]
+  },
+  {
     "title": "Aegaeon: Effective GPU Pooling for Concurrent LLM Serving on the Market",
     "venue": "SOSP 2025",
     "topic": "LLM serving / KV / GPU systems",

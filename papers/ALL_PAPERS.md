@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **1210 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **318 visible papers = 72 P0 + 124 P1 + 122 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1211 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **318 visible papers = 72 P0 + 124 P1 + 122 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -341,7 +341,7 @@
 | **P2 · Relevant** | **Prime Agent: A Self-Improving RLM Harness** | Fresh / preprint | agent systems / long-horizon harness / resource accounting | [Link](https://arxiv.org/abs/2608.23552) | — |
 | **P2 · Relevant** | **Act with Intent: Distilling Behavior Intent for Vision-Language-Action Models** | Fresh / preprint | Physical AI / VLA / action decoder | [Link](https://arxiv.org/abs/2608.23478) | — |
 
-## 🏛️ Classical / Historical · 1138
+## 🏛️ Classical / Historical · 1139
 
 ### ICML 2026 · 372
 
@@ -1714,6 +1714,12 @@
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **Canonical** | **eGPU: Production-Scale Elastic Sharing over 10,000 GPUs** | HPCA 2026 Industry Track | production GPU sharing / elastic multi-tenant ML | [Link](https://doi.org/10.1109/HPCA68181.2026.11408556) | — |
+
+### Software: Practice and Experience 2026 / arXiv 2025 · 1
+
+| Priority | Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|---|
+| **Canonical** | **BanaServe: Unified KV Cache and Dynamic Module Migration for Balancing Disaggregated LLM Serving in AI Infrastructure** | Software: Practice and Experience 2026 / arXiv 2025 | LLM serving / disaggregated inference / KV cache / dynamic module migration / AI infrastructure | [Link](https://arxiv.org/abs/2510.13223) | — |
 
 ### TMLR 2026 (presented at ICML 2026) · 1
 

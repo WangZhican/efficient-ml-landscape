@@ -1,6 +1,6 @@
 # 01 · LLM Serving
 
-> **478 canonical papers** mapped here, plus a broader **222-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **479 canonical papers** mapped here, plus a broader **222-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -231,7 +231,7 @@
 | **P0 · Strong** | **A Thread-Register Decoupled GPU Execution Model for Efficient Tensor Computation** | Fresh / preprint | GPU execution architecture / tensor cores / LLM serving | [Link](https://arxiv.org/abs/2608.19628) | — |
 | **P1 · Watch** | **A Scalable Pipeline for LLM-Teacher Distillation Labeling: Work-Stealing Job Scheduling and Memory-Aware GPU Concurrency** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.15975) | — |
 
-## 🏛️ Classical / Historical · 443 canonical
+## 🏛️ Classical / Historical · 444 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -639,6 +639,7 @@
 | **Canonical** | **On Evaluating Performance of LLM Inference Serving Systems** | SoCC 2026 | LLM serving / evaluation methodology / systems benchmarking | [Link](https://arxiv.org/abs/2507.09019) | — |
 | **Canonical** | **PEACE: Power and Performance Aware Colocation for Efficient GPU Spatial Partitioning** | SoCC 2026 | KV virtualization + long-context serving + GPU colocation + on-device adaptation | [Link](https://doi.org/10.1145/3815789.3827949) | — |
 | **Canonical** | **Tessera: Contract-Driven Cost–SLO Optimization for Multi-tenant GPU Clouds** | SoCC 2026 | multi-tenant GPU cloud / cost-SLO optimization / AI infrastructure scheduling | [Link](https://acmsocc.org/2026/accepted-papers.html) | — |
+| **Canonical** | **BanaServe: Unified KV Cache and Dynamic Module Migration for Balancing Disaggregated LLM Serving in AI Infrastructure** | Software: Practice and Experience 2026 / arXiv 2025 | LLM serving / disaggregated inference / KV cache / dynamic module migration / AI infrastructure | [Link](https://arxiv.org/abs/2510.13223) | — |
 | **Canonical** | **Aegaeon: Effective GPU Pooling for Concurrent LLM Serving on the Market** | SOSP 2025 | LLM serving / KV / GPU systems | [Link](https://doi.org/10.1145/3731569.3764815) | — |
 | **Canonical** | **DiffKV: Differentiated Memory Management for Large Language Models with Parallel KV Compaction** | SOSP 2025 | LLM serving / KV / GPU systems | [Link](https://doi.org/10.1145/3731569.3764810) | — |
 | **Canonical** | **HedraRAG: Co-Optimizing Generation and Retrieval for Heterogeneous RAG Workflows** | SOSP 2025 | RAG serving / generation-retrieval co-optimization | [Link](https://doi.org/10.1145/3731569.3764806) | — |
