@@ -1,6 +1,6 @@
 # 08 · GPU Kernel / DSL / Compiler
 
-> **287 canonical papers** mapped here, plus a broader **71-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **290 canonical papers** mapped here, plus a broader **71-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -80,7 +80,7 @@
 | **P0 · Strong** | **A Thread-Register Decoupled GPU Execution Model for Efficient Tensor Computation** | Fresh / preprint | GPU execution architecture / tensor cores / LLM serving | [Link](https://arxiv.org/abs/2608.19628) | — |
 | **P1 · Watch** | **A Scalable Pipeline for LLM-Teacher Distillation Labeling: Work-Stealing Job Scheduling and Memory-Aware GPU Concurrency** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.15975) | — |
 
-## 🏛️ Classical / Historical · 260 canonical
+## 🏛️ Classical / Historical · 263 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -92,6 +92,8 @@
 | **Canonical** | **TinyServe: Query-Aware Cache Selection for Efficient LLM Serving** | ACM Multimedia 2025 | LLM serving / KV cache sparsity / CUDA kernels / edge inference | [Link](https://arxiv.org/abs/2509.12211) | [Repo](https://github.com/FastLM/tinyserve-vllm) |
 | **Canonical** | **Realtime-VLA FLASH: Speculative Inference Framework for Diffusion-based VLAs** | arXiv 2026 | VLA/WAM/Physical AI serving / speculative inference / diffusion action head / Triton kernels | [Link](https://arxiv.org/abs/2605.13778) | [Repo](https://github.com/dexmal/realtime-vla-flash) |
 | **Canonical** | **Bullet: Boosting GPU Utilization for LLM Serving via Dynamic Spatial-Temporal Orchestration** | ASPLOS 2026 | LLM serving / GPU utilization / scheduling | [Link](https://arxiv.org/abs/2504.19516) | — |
+| **Canonical** | **DFVG: A Heterogeneous Architecture for Speculative Decoding with Draft-on-FPGA and Verify-on-GPU** | ASPLOS 2026 | speculative decoding / heterogeneous GPU-FPGA / LLM accelerator | [Link](https://www.asplos-conference.org/asplos2026/program/) | [Repo](https://github.com/ShaoqiangLu/DFVG) |
+| **Canonical** | **FlashMem: Supporting Modern DNN Workloads on Mobile with GPU Memory Hierarchy Optimizations** | ASPLOS 2026 | edge/mobile AI systems / GPU memory hierarchy / model streaming | [Link](https://arxiv.org/abs/2602.15379) | — |
 | **Canonical** | **GFS: A Preemption-aware Scheduling Framework for GPU Clusters with Predictive Spot Instance Management** | ASPLOS 2026 | GPU cluster scheduling / AI training infrastructure | [Link](https://arxiv.org/abs/2509.11134) | — |
 | **Canonical** | **Insum: Sparse GPU Kernels Simplified and Optimized with Indirect Einsums** | ASPLOS 2026 | GPU kernel / sparse compiler | [Link](https://arxiv.org/abs/2510.17505) | — |
 | **Canonical** | **Linear Layouts: Robust Code Generation of Efficient Tensor Computation Using F_2** | ASPLOS 2026 | GPU kernel / tensor compiler / Triton / tensor layouts | [Link](https://arxiv.org/abs/2505.23819) | — |
@@ -100,6 +102,7 @@
 | **Canonical** | **PAT: Accelerating LLM Decoding via Prefix-Aware Attention with Resource Efficient Multi-Tile Kernel** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://arxiv.org/abs/2511.22333) | — |
 | **Canonical** | **SuperOffload: Unleashing the Power of Large-Scale LLM Training on Superchips** | ASPLOS 2026 | distributed LLM training / heterogeneous superchip offload | [Link](https://arxiv.org/abs/2509.21271) | [Repo](https://supercomputing-system-ai-lab.github.io/projects/superoffload/) |
 | **Canonical** | **SwiftSpec: Ultra-Low Latency LLM Decoding by Scaling Asynchronous Speculative Decoding** | ASPLOS 2026 | speculative decoding / low-latency LLM serving | [Link](https://arxiv.org/abs/2506.11309) | — |
+| **Canonical** | **Tilus: A Tile-Level GPGPU Programming Language for Low-Precision Computation** | ASPLOS 2026 | GPU kernel DSL / low-precision compilation / LLM inference | [Link](https://arxiv.org/abs/2504.12984) | [Repo](https://github.com/NVIDIA/tilus) |
 | **Canonical** | **Towards High-Goodput LLM Serving with Prefill-decode Multiplexing** | ASPLOS 2026 | LLM serving / prefill-decode multiplexing | [Link](https://arxiv.org/abs/2504.14489) | — |
 | **Canonical** | **Hardware-Efficient Attention for Fast Decoding** | COLM 2025 | efficient attention / KV-cache bandwidth / serving | [Link](https://arxiv.org/abs/2505.21487) | — |
 | **Canonical** | **SentenceKV: Efficient LLM Inference via Sentence-Level Semantic KV Caching** | COLM 2025 | KV cache / long-context inference | [Link](https://arxiv.org/abs/2504.00970) | [Repo](https://github.com/zzbright1998/SentenceKV) |

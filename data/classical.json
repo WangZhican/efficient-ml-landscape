@@ -1669,6 +1669,26 @@
     ]
   },
   {
+    "title": "BlendServe: Optimizing Offline Inference with Resource-Aware Batching",
+    "venue": "ASPLOS 2026",
+    "topic": "LLM serving / offline batch inference / resource-aware scheduling",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "doi:10.1145/3779212.3790133",
+    "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ASPLOS 2026 offline LLM inference scheduler that jointly exploits resource overlap and prefix sharing via a resource-aware prefix tree; reports up to 90% of optimal throughput.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving"
+    ]
+  },
+  {
     "title": "Bullet: Boosting GPU Utilization for LLM Serving via Dynamic Spatial-Temporal Orchestration",
     "venue": "ASPLOS 2026",
     "topic": "LLM serving / GPU utilization / scheduling",
@@ -1709,6 +1729,28 @@
       "LLM Serving",
       "Speculative Decoding",
       "MoE Systems / Accelerators"
+    ]
+  },
+  {
+    "title": "DFVG: A Heterogeneous Architecture for Speculative Decoding with Draft-on-FPGA and Verify-on-GPU",
+    "venue": "ASPLOS 2026",
+    "topic": "speculative decoding / heterogeneous GPU-FPGA / LLM accelerator",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "doi:10.1145/3779212.3790153",
+    "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
+    "code_url": "https://github.com/ShaoqiangLu/DFVG",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ASPLOS 2026 heterogeneous speculative-decoding architecture assigning draft generation to FPGA and verification to GPU; direct system/architecture acceleration result with official author artifact.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Speculative Decoding",
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -1777,6 +1819,50 @@
       "LLM Serving",
       "Speculative Decoding",
       "MoE Systems / Accelerators"
+    ]
+  },
+  {
+    "title": "FastTTS: Accelerating Test-Time Scaling for Edge LLM Reasoning",
+    "venue": "ASPLOS 2026",
+    "topic": "efficient reasoning / edge LLM serving / KV-aware scheduling",
+    "arxiv": "2509.00195",
+    "doi": "",
+    "official_id": "arxiv:2509.00195",
+    "paper_url": "https://arxiv.org/abs/2509.00195",
+    "code_url": "https://github.com/ihc-fan-lab/FastTTS",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ASPLOS 2026 edge test-time-scaling serving framework combining speculative beam extension, asymmetric memory allocation and prefix-aware scheduling; reports about 2.2x higher goodput and 38-68% lower latency.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "Efficient Reasoning / Agents",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "FlashMem: Supporting Modern DNN Workloads on Mobile with GPU Memory Hierarchy Optimizations",
+    "venue": "ASPLOS 2026",
+    "topic": "edge/mobile AI systems / GPU memory hierarchy / model streaming",
+    "arxiv": "2602.15379",
+    "doi": "",
+    "official_id": "arxiv:2602.15379",
+    "paper_url": "https://arxiv.org/abs/2602.15379",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ASPLOS 2026 mobile GPU memory-streaming framework for large and multi-DNN workloads; reports 2.0-8.4x memory reduction and 1.7-75x speedup.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -2108,6 +2194,26 @@
     ]
   },
   {
+    "title": "QoServe: Breaking the Silos of LLM Inference Serving",
+    "venue": "ASPLOS 2026",
+    "topic": "LLM serving / SLO-aware scheduling / workload co-location",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "doi:10.1145/3779212.3790206",
+    "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ASPLOS 2026 LLM serving system breaking workload silos via SLO-aware co-scheduling. Author-reported evaluation shows 23% fewer GPUs and up to 2.4x higher goodput under load.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving"
+    ]
+  },
+  {
     "title": "REPA: Reconfigurable PIM for the Joint Acceleration of KV Cache Offloading and Processing",
     "venue": "ASPLOS 2026",
     "topic": "KV cache / PIM acceleration",
@@ -2172,6 +2278,26 @@
       "Speculative Decoding",
       "MoE Systems / Accelerators",
       "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "SNIP: An Adaptive Mixed Precision Framework for Subbyte Large Language Model Training",
+    "venue": "ASPLOS 2026",
+    "topic": "LLM training / adaptive mixed precision / subbyte quantization",
+    "arxiv": "2602.01410",
+    "doi": "",
+    "official_id": "arxiv:2602.01410",
+    "paper_url": "https://arxiv.org/abs/2602.01410",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ASPLOS 2026 adaptive layer-wise subbyte mixed-precision training framework using divergence metrics and ILP; reports up to 80% FLOP reduction while preserving model quality.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization"
     ]
   },
   {
@@ -2331,6 +2457,26 @@
       "Distributed Training / Inference",
       "Diffusion / Flow Acceleration",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Tilus: A Tile-Level GPGPU Programming Language for Low-Precision Computation",
+    "venue": "ASPLOS 2026",
+    "topic": "GPU kernel DSL / low-precision compilation / LLM inference",
+    "arxiv": "2504.12984",
+    "doi": "",
+    "official_id": "doi:10.1145/3760250.3762219",
+    "paper_url": "https://arxiv.org/abs/2504.12984",
+    "code_url": "https://github.com/NVIDIA/tilus",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ASPLOS 2026 GPU DSL supporting arbitrary 1-8 bit low-precision computation with explicit shared-memory/register control; outperforms Triton/Ladder and open-sources the official NVIDIA Tilus implementation.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {

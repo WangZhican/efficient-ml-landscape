@@ -1,6 +1,6 @@
 # 02 · Speculative Decoding
 
-> **160 canonical papers** mapped here, plus a broader **29-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **162 canonical papers** mapped here, plus a broader **29-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -38,7 +38,7 @@
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 | **P0 · Strong** | **AgentSpec: Speculative Decoding for Batch Inference of LLM Agents** | EMNLP 2026 | speculative decoding / efficient reasoning-agent systems / LLM serving | [Link](https://arxiv.org/abs/2608.24004) | — |
 
-## 🏛️ Classical / Historical · 152 canonical
+## 🏛️ Classical / Historical · 154 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -61,7 +61,9 @@
 | **Canonical** | **Lynx: Progressive Speculative Quantization for accelerating KV Transfer in Long-Context Inference** | arXiv 2026 | LLM serving / disaggregated inference / KV cache transfer / progressive quantization / speculative decoding | [Link](https://arxiv.org/abs/2607.01831) | — |
 | **Canonical** | **Realtime-VLA FLASH: Speculative Inference Framework for Diffusion-based VLAs** | arXiv 2026 | VLA/WAM/Physical AI serving / speculative inference / diffusion action head / Triton kernels | [Link](https://arxiv.org/abs/2605.13778) | [Repo](https://github.com/dexmal/realtime-vla-flash) |
 | **Canonical** | **DFVG** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://doi.org/10.1145/3779212.3790153) | — |
+| **Canonical** | **DFVG: A Heterogeneous Architecture for Speculative Decoding with Draft-on-FPGA and Verify-on-GPU** | ASPLOS 2026 | speculative decoding / heterogeneous GPU-FPGA / LLM accelerator | [Link](https://www.asplos-conference.org/asplos2026/program/) | [Repo](https://github.com/ShaoqiangLu/DFVG) |
 | **Canonical** | **EARTH: An Efficient MoE Accelerator with Entropy-Aware Speculative Prefetch and Result Reuse** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://doi.org/10.1145/3779212.3790155) | — |
+| **Canonical** | **FastTTS: Accelerating Test-Time Scaling for Edge LLM Reasoning** | ASPLOS 2026 | efficient reasoning / edge LLM serving / KV-aware scheduling | [Link](https://arxiv.org/abs/2509.00195) | [Repo](https://github.com/ihc-fan-lab/FastTTS) |
 | **Canonical** | **LAER-MoE: Load-Adaptive Expert Re-layout for Efficient Mixture-of-Experts Training** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://arxiv.org/abs/2602.11686) | — |
 | **Canonical** | **MoDM: Efficient Serving for Image Generation via Mixture-of-Diffusion Models** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://arxiv.org/abs/2503.11972) | — |
 | **Canonical** | **oFFN: Outlier and Neuron-aware Structured FFN for Fast yet Accurate LLM Inference** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://doi.org/10.1145/3779212.3790194) | — |

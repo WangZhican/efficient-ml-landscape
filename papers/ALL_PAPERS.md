@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **1227 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **318 visible papers = 72 P0 + 124 P1 + 122 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1234 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **318 visible papers = 72 P0 + 124 P1 + 122 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -341,7 +341,7 @@
 | **P2 · Relevant** | **Prime Agent: A Self-Improving RLM Harness** | Fresh / preprint | agent systems / long-horizon harness / resource accounting | [Link](https://arxiv.org/abs/2608.23552) | — |
 | **P2 · Relevant** | **Act with Intent: Distilling Behavior Intent for Vision-Language-Action Models** | Fresh / preprint | Physical AI / VLA / action decoder | [Link](https://arxiv.org/abs/2608.23478) | — |
 
-## 🏛️ Classical / Historical · 1155
+## 🏛️ Classical / Historical · 1162
 
 ### ICML 2026 · 372
 
@@ -720,6 +720,57 @@
 | **Canonical** | **xKV: Cross-Layer KV-Cache Compression via Aligned Singular Vector Extraction** | ICML 2026 | KV cache compression / long-context inference / cross-layer low-rank factorization | [Link](https://arxiv.org/abs/2503.18893) | [Repo](https://github.com/abdelfattah-lab/xKV) |
 | **Canonical** | **ZipMoE: Efficient On-Device MoE Serving via Lossless Compression and Cache-Affinity Scheduling** | ICML 2026 | MoE serving / on-device inference / lossless compression / cache-affinity scheduling | [Link](https://arxiv.org/abs/2601.21198) | — |
 
+### ASPLOS 2026 · 46
+
+| Priority | Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|---|
+| **Canonical** | **A Cost-Effective Near-Storage Processing Solution for Offline Inference of Long-Context LLMs** | ASPLOS 2026 | LLM serving / long context / near-storage processing | [Link](https://arxiv.org/abs/2502.09921) | [Repo](https://github.com/hongsunjang/HILOS) |
+| **Canonical** | **BAT: Efficient Generative Recommender Serving with Bipartite Attention** | ASPLOS 2026 | generative recommender serving / KV prefix cache | [Link](https://doi.org/10.1145/3779212.3790131) | — |
+| **Canonical** | **BlendServe: Optimizing Offline Inference for Auto-regressive Large Models with Resource-aware Batching** | ASPLOS 2026 | LLM serving / offline batching / prefix sharing | [Link](https://arxiv.org/abs/2411.16102) | — |
+| **Canonical** | **BlendServe: Optimizing Offline Inference with Resource-Aware Batching** | ASPLOS 2026 | LLM serving / offline batch inference / resource-aware scheduling | [Link](https://www.asplos-conference.org/asplos2026/program/) | — |
+| **Canonical** | **Bullet: Boosting GPU Utilization for LLM Serving via Dynamic Spatial-Temporal Orchestration** | ASPLOS 2026 | LLM serving / GPU utilization / scheduling | [Link](https://arxiv.org/abs/2504.19516) | — |
+| **Canonical** | **DFVG** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://doi.org/10.1145/3779212.3790153) | — |
+| **Canonical** | **DFVG: A Heterogeneous Architecture for Speculative Decoding with Draft-on-FPGA and Verify-on-GPU** | ASPLOS 2026 | speculative decoding / heterogeneous GPU-FPGA / LLM accelerator | [Link](https://www.asplos-conference.org/asplos2026/program/) | [Repo](https://github.com/ShaoqiangLu/DFVG) |
+| **Canonical** | **DIP: Efficient Large Multimodal Model Training with Dynamic Interleaved Pipeline** | ASPLOS 2026 | multimodal distributed training / pipeline scheduling | [Link](https://arxiv.org/abs/2504.14145) | — |
+| **Canonical** | **DSV: Exploiting Dynamic Sparsity to Accelerate Large-Scale Video DiT Training** | ASPLOS 2026 | video diffusion training / sparse attention / distributed training | [Link](https://arxiv.org/abs/2502.07590) | — |
+| **Canonical** | **EARTH: An Efficient MoE Accelerator with Entropy-Aware Speculative Prefetch and Result Reuse** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://doi.org/10.1145/3779212.3790155) | — |
+| **Canonical** | **FastTTS: Accelerating Test-Time Scaling for Edge LLM Reasoning** | ASPLOS 2026 | efficient reasoning / edge LLM serving / KV-aware scheduling | [Link](https://arxiv.org/abs/2509.00195) | [Repo](https://github.com/ihc-fan-lab/FastTTS) |
+| **Canonical** | **FlashMem: Supporting Modern DNN Workloads on Mobile with GPU Memory Hierarchy Optimizations** | ASPLOS 2026 | edge/mobile AI systems / GPU memory hierarchy / model streaming | [Link](https://arxiv.org/abs/2602.15379) | — |
+| **Canonical** | **GFS: A Preemption-aware Scheduling Framework for GPU Clusters with Predictive Spot Instance Management** | ASPLOS 2026 | GPU cluster scheduling / AI training infrastructure | [Link](https://arxiv.org/abs/2509.11134) | — |
+| **Canonical** | **I/O Analysis is All You Need: An I/O Analysis for Long-Sequence Attention** | ASPLOS 2026 | attention accelerator / I/O analysis | [Link](https://doi.org/10.1145/3779212.3790174) | — |
+| **Canonical** | **Insum: Sparse GPU Kernels Simplified and Optimized with Indirect Einsums** | ASPLOS 2026 | GPU kernel / sparse compiler | [Link](https://arxiv.org/abs/2510.17505) | — |
+| **Canonical** | **LAER-MoE: Load-Adaptive Expert Re-layout for Efficient Mixture-of-Experts Training** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://arxiv.org/abs/2602.11686) | — |
+| **Canonical** | **Linear Layouts: Robust Code Generation of Efficient Tensor Computation Using F_2** | ASPLOS 2026 | GPU kernel / tensor compiler / Triton / tensor layouts | [Link](https://arxiv.org/abs/2505.23819) | — |
+| **Canonical** | **MoDM: Efficient Serving for Image Generation via Mixture-of-Diffusion Models** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://arxiv.org/abs/2503.11972) | — |
+| **Canonical** | **MoE-APEX: An Efficient MoE Inference System with Adaptive Precision Expert Offloading** | ASPLOS 2026 | edge MoE inference / expert offloading / mixed precision | [Link](https://doi.org/10.1145/3779212.3790187) | — |
+| **Canonical** | **Morphlux: Transforming Torus Fabrics for Efficient Multi-tenant ML** | ASPLOS 2026 | distributed ML / datacenter interconnect / photonic fabric | [Link](https://arxiv.org/abs/2508.03674) | — |
+| **Canonical** | **MSCCL++: Rethinking GPU Communication Abstractions for Cutting-edge AI Applications** | ASPLOS 2026 | distributed AI / GPU communication runtime | [Link](https://arxiv.org/abs/2504.09014) | [Repo](https://github.com/microsoft/mscclpp) |
+| **Canonical** | **Mugi: Value Level Parallelism For Efficient LLMs** | ASPLOS 2026 | LLM accelerator / value-level parallelism / low precision | [Link](https://arxiv.org/abs/2601.10823) | — |
+| **Canonical** | **oFFN: Outlier and Neuron-aware Structured FFN for Fast yet Accurate LLM Inference** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://doi.org/10.1145/3779212.3790194) | — |
+| **Canonical** | **Ouroboros: Wafer-Scale SRAM CIM with Token-Grained Pipelining for Large Language Model Inference** | ASPLOS 2026 | LLM accelerator / wafer-scale CIM | [Link](https://arxiv.org/abs/2603.02737) | — |
+| **Canonical** | **PAT: Accelerating LLM Decoding via Prefix-Aware Attention with Resource Efficient Multi-Tile Kernel** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://arxiv.org/abs/2511.22333) | — |
+| **Canonical** | **PF-LLM: Large Language Model Hinted Hardware Prefetching** | ASPLOS 2026 | LLM inference / hardware prefetching | — | — |
+| **Canonical** | **QoServe** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://doi.org/10.1145/3779212.3790206) | — |
+| **Canonical** | **QoServe: Breaking the Silos of LLM Inference Serving** | ASPLOS 2026 | LLM serving / SLO-aware scheduling / workload co-location | [Link](https://www.asplos-conference.org/asplos2026/program/) | — |
+| **Canonical** | **REPA: Reconfigurable PIM for the Joint Acceleration of KV Cache Offloading and Processing** | ASPLOS 2026 | KV cache / PIM acceleration | [Link](https://doi.org/10.1145/3779212.3790212) | — |
+| **Canonical** | **Shift Parallelism** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | — | — |
+| **Canonical** | **Shift Parallelism: Low-Latency, High-Throughput LLM Inference for Dynamic Workloads** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://arxiv.org/abs/2509.16495) | — |
+| **Canonical** | **SNIP: An Adaptive Mixed Precision Framework for Subbyte Large Language Model Training** | ASPLOS 2026 | LLM training / adaptive mixed precision / subbyte quantization | [Link](https://arxiv.org/abs/2602.01410) | — |
+| **Canonical** | **SpeContext: Enabling Efficient Long-context Reasoning with Speculative Context Sparsity in LLMs** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://arxiv.org/abs/2512.00722) | — |
+| **Canonical** | **STARC: Selective Token Access with Remapping and Clustering for Efficient LLM Decoding on PIM Systems** | ASPLOS 2026 | sparse attention / PIM / KV cache | [Link](https://doi.org/10.1145/3779212.3790226) | — |
+| **Canonical** | **Streaming Tensor Program: A streaming abstraction for dynamic parallelism** | ASPLOS 2026 | tensor programming abstraction / spatial dataflow accelerator / dynamic parallelism / LLM layers | [Link](https://arxiv.org/abs/2511.07776) | — |
+| **Canonical** | **SuperOffload: Unleashing the Power of Large-Scale LLM Training on Superchips** | ASPLOS 2026 | distributed LLM training / heterogeneous superchip offload | [Link](https://arxiv.org/abs/2509.21271) | [Repo](https://supercomputing-system-ai-lab.github.io/projects/superoffload/) |
+| **Canonical** | **SwiftSpec: Ultra-Low Latency LLM Decoding by Scaling Asynchronous Speculative Decoding** | ASPLOS 2026 | speculative decoding / low-latency LLM serving | [Link](https://arxiv.org/abs/2506.11309) | — |
+| **Canonical** | **Taming the Long-Tail: Efficient Reasoning RL Training with Adaptive Drafter** | ASPLOS 2026 | reasoning RL training / speculative decoding / rollout systems | [Link](https://arxiv.org/abs/2511.16665) | — |
+| **Canonical** | **TetriServe: Efficiently Serving Mixed DiT Workloads** | ASPLOS 2026 | diffusion/DiT serving / scheduling | [Link](https://arxiv.org/abs/2510.01565) | — |
+| **Canonical** | **Tilus: A Tile-Level GPGPU Programming Language for Low-Precision Computation** | ASPLOS 2026 | GPU kernel DSL / low-precision compilation / LLM inference | [Link](https://arxiv.org/abs/2504.12984) | [Repo](https://github.com/NVIDIA/tilus) |
+| **Canonical** | **Towards High-Goodput LLM Serving with Prefill-decode Multiplexing** | ASPLOS 2026 | LLM serving / prefill-decode multiplexing | [Link](https://arxiv.org/abs/2504.14489) | — |
+| **Canonical** | **TPLA: Tensor Parallel Latent Attention for Efficient Disaggregated Prefill & Decode Inference** | ASPLOS 2026 | MLA / tensor parallelism / KV cache / disaggregated inference | [Link](https://arxiv.org/abs/2508.15881) | — |
+| **Canonical** | **XY-Serve** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | — | — |
+| **Canonical** | **XY-Serve: End-to-End Versatile Production Serving for Dynamic LLM Workloads** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://arxiv.org/abs/2412.18106) | — |
+| **Canonical** | **ZipServ** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | — | — |
+| **Canonical** | **ZipServ: Fast and Memory-Efficient LLM Inference with Hardware-Aware Lossless Compression** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://arxiv.org/abs/2603.17435) | — |
+
 ### ISCA 2026 · 43
 
 | Priority | Paper | Venue | Topic | Paper | Code |
@@ -767,50 +818,6 @@
 | **Canonical** | **Understanding Inference Scaling for LLMs: Bottlenecks, Trade-offs, and Performance Principles** | ISCA 2026 | LLM inference systems / reasoning workloads / parallelism and scaling | [Link](https://arxiv.org/abs/2605.19775) | — |
 | **Canonical** | **UniCore: A Bit-Width Scalable GEMM Unit for Unified LLM Inference** | ISCA 2026 | LLM accelerator / variable bit-width GEMM | [Link](https://www.iscaconf.org/isca2026/program/) | — |
 | **Canonical** | **XtraMAC: An Efficient MAC Architecture for Mixed-Precision LLM Inference on FPGA** | ISCA 2026 | mixed-precision LLM / FPGA accelerator | [Link](https://arxiv.org/abs/2605.06052) | [Repo](https://github.com/Xtra-Computing/XtraMAC) |
-
-### ASPLOS 2026 · 39
-
-| Priority | Paper | Venue | Topic | Paper | Code |
-|---|---|---|---|---|---|
-| **Canonical** | **A Cost-Effective Near-Storage Processing Solution for Offline Inference of Long-Context LLMs** | ASPLOS 2026 | LLM serving / long context / near-storage processing | [Link](https://arxiv.org/abs/2502.09921) | [Repo](https://github.com/hongsunjang/HILOS) |
-| **Canonical** | **BAT: Efficient Generative Recommender Serving with Bipartite Attention** | ASPLOS 2026 | generative recommender serving / KV prefix cache | [Link](https://doi.org/10.1145/3779212.3790131) | — |
-| **Canonical** | **BlendServe: Optimizing Offline Inference for Auto-regressive Large Models with Resource-aware Batching** | ASPLOS 2026 | LLM serving / offline batching / prefix sharing | [Link](https://arxiv.org/abs/2411.16102) | — |
-| **Canonical** | **Bullet: Boosting GPU Utilization for LLM Serving via Dynamic Spatial-Temporal Orchestration** | ASPLOS 2026 | LLM serving / GPU utilization / scheduling | [Link](https://arxiv.org/abs/2504.19516) | — |
-| **Canonical** | **DFVG** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://doi.org/10.1145/3779212.3790153) | — |
-| **Canonical** | **DIP: Efficient Large Multimodal Model Training with Dynamic Interleaved Pipeline** | ASPLOS 2026 | multimodal distributed training / pipeline scheduling | [Link](https://arxiv.org/abs/2504.14145) | — |
-| **Canonical** | **DSV: Exploiting Dynamic Sparsity to Accelerate Large-Scale Video DiT Training** | ASPLOS 2026 | video diffusion training / sparse attention / distributed training | [Link](https://arxiv.org/abs/2502.07590) | — |
-| **Canonical** | **EARTH: An Efficient MoE Accelerator with Entropy-Aware Speculative Prefetch and Result Reuse** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://doi.org/10.1145/3779212.3790155) | — |
-| **Canonical** | **GFS: A Preemption-aware Scheduling Framework for GPU Clusters with Predictive Spot Instance Management** | ASPLOS 2026 | GPU cluster scheduling / AI training infrastructure | [Link](https://arxiv.org/abs/2509.11134) | — |
-| **Canonical** | **I/O Analysis is All You Need: An I/O Analysis for Long-Sequence Attention** | ASPLOS 2026 | attention accelerator / I/O analysis | [Link](https://doi.org/10.1145/3779212.3790174) | — |
-| **Canonical** | **Insum: Sparse GPU Kernels Simplified and Optimized with Indirect Einsums** | ASPLOS 2026 | GPU kernel / sparse compiler | [Link](https://arxiv.org/abs/2510.17505) | — |
-| **Canonical** | **LAER-MoE: Load-Adaptive Expert Re-layout for Efficient Mixture-of-Experts Training** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://arxiv.org/abs/2602.11686) | — |
-| **Canonical** | **Linear Layouts: Robust Code Generation of Efficient Tensor Computation Using F_2** | ASPLOS 2026 | GPU kernel / tensor compiler / Triton / tensor layouts | [Link](https://arxiv.org/abs/2505.23819) | — |
-| **Canonical** | **MoDM: Efficient Serving for Image Generation via Mixture-of-Diffusion Models** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://arxiv.org/abs/2503.11972) | — |
-| **Canonical** | **MoE-APEX: An Efficient MoE Inference System with Adaptive Precision Expert Offloading** | ASPLOS 2026 | edge MoE inference / expert offloading / mixed precision | [Link](https://doi.org/10.1145/3779212.3790187) | — |
-| **Canonical** | **Morphlux: Transforming Torus Fabrics for Efficient Multi-tenant ML** | ASPLOS 2026 | distributed ML / datacenter interconnect / photonic fabric | [Link](https://arxiv.org/abs/2508.03674) | — |
-| **Canonical** | **MSCCL++: Rethinking GPU Communication Abstractions for Cutting-edge AI Applications** | ASPLOS 2026 | distributed AI / GPU communication runtime | [Link](https://arxiv.org/abs/2504.09014) | [Repo](https://github.com/microsoft/mscclpp) |
-| **Canonical** | **Mugi: Value Level Parallelism For Efficient LLMs** | ASPLOS 2026 | LLM accelerator / value-level parallelism / low precision | [Link](https://arxiv.org/abs/2601.10823) | — |
-| **Canonical** | **oFFN: Outlier and Neuron-aware Structured FFN for Fast yet Accurate LLM Inference** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://doi.org/10.1145/3779212.3790194) | — |
-| **Canonical** | **Ouroboros: Wafer-Scale SRAM CIM with Token-Grained Pipelining for Large Language Model Inference** | ASPLOS 2026 | LLM accelerator / wafer-scale CIM | [Link](https://arxiv.org/abs/2603.02737) | — |
-| **Canonical** | **PAT: Accelerating LLM Decoding via Prefix-Aware Attention with Resource Efficient Multi-Tile Kernel** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://arxiv.org/abs/2511.22333) | — |
-| **Canonical** | **PF-LLM: Large Language Model Hinted Hardware Prefetching** | ASPLOS 2026 | LLM inference / hardware prefetching | — | — |
-| **Canonical** | **QoServe** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://doi.org/10.1145/3779212.3790206) | — |
-| **Canonical** | **REPA: Reconfigurable PIM for the Joint Acceleration of KV Cache Offloading and Processing** | ASPLOS 2026 | KV cache / PIM acceleration | [Link](https://doi.org/10.1145/3779212.3790212) | — |
-| **Canonical** | **Shift Parallelism** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | — | — |
-| **Canonical** | **Shift Parallelism: Low-Latency, High-Throughput LLM Inference for Dynamic Workloads** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://arxiv.org/abs/2509.16495) | — |
-| **Canonical** | **SpeContext: Enabling Efficient Long-context Reasoning with Speculative Context Sparsity in LLMs** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://arxiv.org/abs/2512.00722) | — |
-| **Canonical** | **STARC: Selective Token Access with Remapping and Clustering for Efficient LLM Decoding on PIM Systems** | ASPLOS 2026 | sparse attention / PIM / KV cache | [Link](https://doi.org/10.1145/3779212.3790226) | — |
-| **Canonical** | **Streaming Tensor Program: A streaming abstraction for dynamic parallelism** | ASPLOS 2026 | tensor programming abstraction / spatial dataflow accelerator / dynamic parallelism / LLM layers | [Link](https://arxiv.org/abs/2511.07776) | — |
-| **Canonical** | **SuperOffload: Unleashing the Power of Large-Scale LLM Training on Superchips** | ASPLOS 2026 | distributed LLM training / heterogeneous superchip offload | [Link](https://arxiv.org/abs/2509.21271) | [Repo](https://supercomputing-system-ai-lab.github.io/projects/superoffload/) |
-| **Canonical** | **SwiftSpec: Ultra-Low Latency LLM Decoding by Scaling Asynchronous Speculative Decoding** | ASPLOS 2026 | speculative decoding / low-latency LLM serving | [Link](https://arxiv.org/abs/2506.11309) | — |
-| **Canonical** | **Taming the Long-Tail: Efficient Reasoning RL Training with Adaptive Drafter** | ASPLOS 2026 | reasoning RL training / speculative decoding / rollout systems | [Link](https://arxiv.org/abs/2511.16665) | — |
-| **Canonical** | **TetriServe: Efficiently Serving Mixed DiT Workloads** | ASPLOS 2026 | diffusion/DiT serving / scheduling | [Link](https://arxiv.org/abs/2510.01565) | — |
-| **Canonical** | **Towards High-Goodput LLM Serving with Prefill-decode Multiplexing** | ASPLOS 2026 | LLM serving / prefill-decode multiplexing | [Link](https://arxiv.org/abs/2504.14489) | — |
-| **Canonical** | **TPLA: Tensor Parallel Latent Attention for Efficient Disaggregated Prefill & Decode Inference** | ASPLOS 2026 | MLA / tensor parallelism / KV cache / disaggregated inference | [Link](https://arxiv.org/abs/2508.15881) | — |
-| **Canonical** | **XY-Serve** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | — | — |
-| **Canonical** | **XY-Serve: End-to-End Versatile Production Serving for Dynamic LLM Workloads** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://arxiv.org/abs/2412.18106) | — |
-| **Canonical** | **ZipServ** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | — | — |
-| **Canonical** | **ZipServ: Fast and Memory-Efficient LLM Inference with Hardware-Aware Lossless Compression** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://arxiv.org/abs/2603.17435) | — |
 
 ### MLSys 2026 · 38
 
