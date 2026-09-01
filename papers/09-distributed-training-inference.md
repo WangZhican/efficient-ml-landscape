@@ -1,6 +1,6 @@
 # 09 · Distributed Training / Inference
 
-> **219 canonical papers** mapped here, plus a broader **37-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **220 canonical papers** mapped here, plus a broader **37-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -46,7 +46,7 @@
 | **P1 · Watch** | **AReaL-DTE: Sparse Policy-Weight Transfer for Online Agentic Reinforcement Learning** | Fresh / preprint | agentic RL systems / sparse policy-weight synchronization / cross-cluster serving-training | [Link](https://arxiv.org/abs/2608.00455) | — |
 | **P2 · Relevant** | **HCCL: Collective Communication for Meta Training and Inference Accelerators** | Fresh / preprint | llm_serving | [Link](https://arxiv.org/abs/2608.00358) | — |
 
-## 🏛️ Classical / Historical · 203 canonical
+## 🏛️ Classical / Historical · 204 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -246,6 +246,7 @@
 | **Canonical** | **FedSRD: Sparsify-Reconstruct-Decompose for Communication-Efficient Federated Large Language Models Fine-Tuning** | The Web Conference 2026 | distributed LLM fine-tuning / communication efficiency / federated learning | [Link](https://arxiv.org/abs/2510.04601) | — |
 | **Canonical** | **CrossPipe: Towards Optimal Pipeline Schedules for Cross-Datacenter Training** | USENIX ATC 2025 | distributed LLM training / cross-datacenter pipeline parallelism / communication-computation overlap | [Link](https://arxiv.org/abs/2507.00217) | [Repo](https://github.com/spcl/crosspipe) |
 | **Canonical** | **GMI-DRL: Empowering Multi-GPU DRL with Adaptive-Grained Parallelism** | USENIX ATC 2025 | distributed DRL training / multi-GPU adaptive-grained parallelism / GPU multiplexing | [Link](https://www.usenix.org/conference/atc25/presentation/wang-yuke) | — |
+| **Canonical** | **GREYHOUND: Hunting Fail-Slows in Hybrid-Parallel Training at Scale** | USENIX ATC 2025 | distributed training/inference / reliability / large-scale GPU training | [Link](https://www.usenix.org/conference/atc25/presentation/wu-tianyuan) | — |
 | **Canonical** | **HypeReca: Distributed Heterogeneous In-Memory Embedding Database for Training Recommender Models** | USENIX ATC 2025 | distributed recommender training / heterogeneous GPU-CPU memory / embedding system | [Link](https://www.usenix.org/conference/atc25/presentation/he-jiaao) | [Repo](https://github.com/thu-pacman/hypereca) |
 | **Canonical** | **mTuner: Accelerating Parameter-Efficient Fine-Tuning on Multi-GPU Servers with Elastic Tensor** | USENIX ATC 2025 | LLM PEFT / multi-GPU fine-tuning / dynamic tensor memory management | [Link](https://www.usenix.org/conference/atc25/presentation/huang-kezhao) | [Repo](https://github.com/xxcclong/mTuner) |
 | **Canonical** | **Optimus: Accelerating Large-Scale Multi-Modal LLM Training by Bubble Exploitation** | USENIX ATC 2025 | multimodal LLM training / distributed training / pipeline bubble exploitation | [Link](https://arxiv.org/abs/2408.03505) | — |

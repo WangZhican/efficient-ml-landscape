@@ -25166,6 +25166,28 @@
     ]
   },
   {
+    "title": "GREYHOUND: Hunting Fail-Slows in Hybrid-Parallel Training at Scale",
+    "venue": "USENIX ATC 2025",
+    "topic": "distributed training/inference / reliability / large-scale GPU training",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX-ATC25-308500",
+    "paper_url": "https://www.usenix.org/conference/atc25/presentation/wu-tianyuan",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "USENIX ATC 2025 production-scale distributed-training infrastructure. Characterizes fail-slows on a >10,000-GPU production cluster, detects computation/communication stragglers with >99% accuracy, and improves end-to-end throughput by 1.58x on 256 H800 GPUs.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "HypeReca: Distributed Heterogeneous In-Memory Embedding Database for Training Recommender Models",
     "venue": "USENIX ATC 2025",
     "topic": "distributed recommender training / heterogeneous GPU-CPU memory / embedding system",
