@@ -7604,6 +7604,27 @@
     ]
   },
   {
+    "title": "Accelerating Diffusion Sampling via Exploiting Local Transition Coherence",
+    "venue": "ICCV 2025",
+    "topic": "diffusion acceleration / training-free sampling / image-video generation",
+    "arxiv": "2503.09675",
+    "doi": "",
+    "official_id": "arXiv:2503.09675",
+    "paper_url": "https://arxiv.org/abs/2503.09675",
+    "code_url": "https://zhushangwen.github.io/LTC-accel.io/",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Direct training-free diffusion sampling acceleration accepted at ICCV 2025. LTC-Accel exploits local transition coherence without architecture-specific assumptions; the paper reports 1.67x speedup on Stable Diffusion v2, 1.55x on video generation, and up to 10x when combined with distillation, exceeding 16 FPS in the reported setting.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "Accelerating Diffusion Transformer via Gradient-Optimized Cache",
     "venue": "ICCV 2025",
     "topic": "diffusion transformer feature caching",
@@ -7747,6 +7768,27 @@
       "Multimodal / MLLM Serving",
       "Efficient Reasoning / Agents",
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "DOLLAR: Few-Step Video Generation via Distillation and Latent Reward Optimization",
+    "venue": "ICCV 2025",
+    "topic": "video generation acceleration / diffusion distillation / few-step sampling",
+    "arxiv": "2412.15689",
+    "doi": "",
+    "official_id": "arXiv:2412.15689",
+    "paper_url": "https://arxiv.org/abs/2412.15689",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Direct video-generation acceleration result accepted at ICCV 2025. DOLLAR combines variational score distillation and consistency distillation for few-step video generation; the authors report a 15.6x acceleration for the 4-step student versus the 50-step teacher and up to 278.6x sampling acceleration in the 1-step setting, while preserving strong video quality/diversity.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
@@ -8059,6 +8101,28 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Quantization",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "REDUCIO! Generating 1K Video within 16 Seconds using Extremely Compressed Motion Latents",
+    "venue": "ICCV 2025",
+    "topic": "video generation acceleration / latent compression / diffusion efficiency",
+    "arxiv": "2411.13552",
+    "doi": "",
+    "official_id": "arXiv:2411.13552",
+    "paper_url": "https://arxiv.org/abs/2411.13552",
+    "code_url": "https://github.com/microsoft/Reducio-VAE",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Direct video-generation training/inference efficiency result accepted at ICCV 2025. REDUCIO uses an image-conditioned VAE with 64x compressed motion latents and reports training its video DiT in about 3.2K A100 GPU-hours and generating a 16-frame 1024x1024 clip in 15.5 seconds on one A100.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Video / Image Generation",
       "Diffusion / Flow Acceleration"
     ]
   },
