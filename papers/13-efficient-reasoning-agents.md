@@ -1,6 +1,6 @@
 # 13 · Efficient Reasoning / Agents
 
-> **216 canonical papers** mapped here, plus a broader **56-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **221 canonical papers** mapped here, plus a broader **56-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -65,7 +65,7 @@
 | **P2 · Relevant** | **SpecBox: Speculative Sandbox Scheduling for Efficient LLM Agent Serving** | Fresh / preprint | llm_serving / agent | [Link](https://arxiv.org/abs/2607.23933) | — |
 | **P2 · Relevant** | **Agentic CPU-GPU Scheduling for Heterogeneous AI Workloads** | Fresh / preprint | llm_serving / gen / agent / edge | [Link](https://arxiv.org/abs/2607.22242) | — |
 
-## 🏛️ Classical / Historical · 199 canonical
+## 🏛️ Classical / Historical · 204 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -228,16 +228,21 @@
 | **Canonical** | **Stratum** | MICRO 2025 | MoE + diffusion + tensor compression + hybrid LM + reasoning + edge training acceleration | [Link](https://doi.org/10.1145/3725843.3756043) | — |
 | **Canonical** | **AgenticCache: Cache-Driven Asynchronous Planning for Embodied AI Agents** | MLSys 2026 | Physical AI / embodied-agent planning cache / latency reduction | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/file/c66a9db149261435664284a20b6f1d42-Paper-Conference.pdf) | — |
 | **Canonical** | **BEAM** | MLSys 2026 | LLM serving + KV + speculative + reasoning efficiency | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/file/eb3c42ddfa16d8421fdba13528107cc1-Paper-Conference.pdf) | — |
+| **Canonical** | **Beat the long tail: Distribution-Aware Speculative Decoding for RL Training** | MLSys 2026 | efficient reasoning / RL training / speculative decoding | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/cbc4ab80cd77aa0eb87da062fbcddb46-Abstract-Conference.html) | — |
 | **Canonical** | **BOute** | MLSys 2026 | LLM serving + KV + speculative + reasoning efficiency | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/file/ed1d3d4c64dc1b95332a8cde3f2a0bdf-Paper-Conference.pdf) | — |
+| **Canonical** | **ContextPilot: Fast Long-Context Inference via Context Reuse** | MLSys 2026 | long-context inference / context reuse / KV reuse | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/b0131b6ee02a00b03fc3320176fec8f5-Abstract-Conference.html) | [Repo](https://github.com/EfficientContext/ContextPilot) |
 | **Canonical** | **fabric-lib** | MLSys 2026 | LLM serving + KV + speculative + reasoning efficiency | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/file/dea9b4b6f55ae611c54065d6fc750755-Paper-Conference.pdf) | — |
 | **Canonical** | **FlashInfer-Bench: Building the Virtuous Cycle for AI-driven LLM Systems** | MLSys 2026 | GPU kernel / LLM systems / agentic optimization | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/37e44c4b5321605735be9761f9b758fc-Abstract-Conference.html) | [Repo](https://github.com/flashinfer-ai/flashinfer-bench) |
 | **Canonical** | **FlexiCache** | MLSys 2026 | LLM serving + KV + speculative + reasoning efficiency | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/file/94bcb01789fccf15afe2764d8fe0f40e-Paper-Conference.pdf) | — |
 | **Canonical** | **GhostServe** | MLSys 2026 | LLM serving + KV + speculative + reasoning efficiency | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/file/d99e8e80a6c41e148db686918dd7eab3-Paper-Conference.pdf) | — |
+| **Canonical** | **HetRL: Efficient Reinforcement Learning for LLMs in Heterogeneous Environments** | MLSys 2026 | distributed training / RL systems / heterogeneous GPUs | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/5321b1dabcd2be188d796c21b733e8c7-Abstract-Conference.html) | — |
 | **Canonical** | **Locality-Aware Beam Scheduling for Efficient Test-Time Compute with a Consumer-grade GPU** | MLSys 2026 | efficient reasoning / test-time compute / KV offload scheduling | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/file/c74b624843218d9b6713fcf299d6d5e4-Paper-Conference.pdf) | — |
 | **Canonical** | **OPKV** | MLSys 2026 | LLM serving + KV + speculative + reasoning efficiency | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/file/71381211d0abef73ed1887b83c4547b1-Paper-Conference.pdf) | — |
 | **Canonical** | **Optimizing PyTorch Inference with LLM-Based Multi-Agent Systems** | MLSys 2026 | GPU kernel / compiler / agentic inference optimization | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/bd49b53516ce9ea248fb73522d71a508-Abstract-Conference.html) | [Repo](https://github.com/pike-project/pike) |
 | **Canonical** | **RaidServe** | MLSys 2026 | LLM serving + KV + speculative + reasoning efficiency | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/file/507b4aacefe5325908e24f042617b741-Paper-Conference.pdf) | — |
+| **Canonical** | **ReSpec: Towards Optimizing Speculative Decoding in Reinforcement Learning Systems** | MLSys 2026 | efficient reasoning / RL training / speculative decoding | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/dcb38c6ad7911842ab31081be9540b89-Abstract-Conference.html) | — |
 | **Canonical** | **SkipKV** | MLSys 2026 | LLM serving + KV + speculative + reasoning efficiency | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/file/45c1f6a8cbf2da59ebf2c802b4f742cd-Paper-Conference.pdf) | — |
+| **Canonical** | **SpecDiff-2: Scaling Diffusion Drafter Alignment For Faster Speculative Decoding** | MLSys 2026 | speculative decoding / diffusion drafter / efficient reasoning | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/041dad5ed2191b44ba3ed0e00cdc3187-Abstract-Conference.html) | — |
 | **Canonical** | **SpecGen** | MLSys 2026 | LLM serving + KV + speculative + reasoning efficiency | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/file/66a026c0d17040889b50f0dfa650e5e0-Paper-Conference.pdf) | — |
 | **Canonical** | **SuperInfer** | MLSys 2026 | LLM serving + KV + speculative + reasoning efficiency | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/file/07fd64f9316f40193c6a4d87d8afa011-Paper-Conference.pdf) | — |
 | **Canonical** | **LLM-Explorer: Towards Efficient and Affordable LLM-based Exploration for Mobile Apps** | MobiCom 2025 | mobile agent / efficient LLM usage | [Link](https://arxiv.org/abs/2505.10593) | — |

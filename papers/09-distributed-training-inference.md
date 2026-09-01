@@ -1,6 +1,6 @@
 # 09 · Distributed Training / Inference
 
-> **251 canonical papers** mapped here, plus a broader **38-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **259 canonical papers** mapped here, plus a broader **38-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -47,7 +47,7 @@
 | **P1 · Watch** | **AReaL-DTE: Sparse Policy-Weight Transfer for Online Agentic Reinforcement Learning** | Fresh / preprint | agentic RL systems / sparse policy-weight synchronization / cross-cluster serving-training | [Link](https://arxiv.org/abs/2608.00455) | — |
 | **P2 · Relevant** | **HCCL: Collective Communication for Meta Training and Inference Accelerators** | Fresh / preprint | llm_serving | [Link](https://arxiv.org/abs/2608.00358) | — |
 
-## 🏛️ Classical / Historical · 234 canonical
+## 🏛️ Classical / Historical · 242 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -189,13 +189,21 @@
 | **Canonical** | **SkipReduce: (Interconnection) Network Sparsity to Accelerate Distributed Machine Learning** | MICRO 2025 | distributed training / collective communication sparsity | [Link](https://doi.org/10.1145/3725843.3756092) | — |
 | **Canonical** | **BOute: Cost-Efficient LLM Serving with Heterogeneous LLMs and GPUs via Multi-Objective Bayesian Optimization** | MLSys 2026 | LLM serving / heterogeneous models and GPUs / cost-aware routing | [Link](https://arxiv.org/abs/2602.10729) | — |
 | **Canonical** | **Charon: A Unified and Fine-Grained Simulator for Large-Scale LLM Training and Inference** | MLSys 2026 | distributed training/inference / LLM performance simulation | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/dbc8ce0fdfcd55172d73fb05dbae07fc-Abstract-Conference.html) | — |
+| **Canonical** | **db-SP: Accelerating Sparse Attention for Visual Generative Models with Dual-Balanced Sequence Parallelism** | MLSys 2026 | video/image generation acceleration / sparse attention / sequence parallelism | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/db988b089d8d97d0f159c15ed0be6a71-Abstract-Conference.html) | — |
+| **Canonical** | **DreamDDP: Accelerating Low-Bandwidth Geo-Distributed LLM Training with Layer-wise Partial Synchronization** | MLSys 2026 | distributed training / geo-distributed / communication overlap | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/f5c530d3f287c43dccfca298698e9254-Abstract-Conference.html) | — |
+| **Canonical** | **Efficient Long-Context Language Model Training by Core Attention Disaggregation** | MLSys 2026 | distributed training / long context / attention disaggregation | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/423b59ae02381f27862c21d1c41a5603-Abstract-Conference.html) | — |
 | **Canonical** | **FlexTrain: Scalable Hybrid-Parallel Training with Elastic Resource Utilization and Consistent Accuracy** | MLSys 2026 | distributed training / elastic GPU scheduling | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/3c40417b8dca30c08cc361df5b33ad7e-Abstract-Conference.html) | — |
 | **Canonical** | **GhostServe: A Lightweight Checkpointing System in the Shadow for Fault-Tolerant LLM Serving** | MLSys 2026 | LLM serving reliability / KV-cache fault tolerance / distributed inference | [Link](https://arxiv.org/abs/2605.00831) | — |
+| **Canonical** | **HetRL: Efficient Reinforcement Learning for LLMs in Heterogeneous Environments** | MLSys 2026 | distributed training / RL systems / heterogeneous GPUs | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/5321b1dabcd2be188d796c21b733e8c7-Abstract-Conference.html) | — |
 | **Canonical** | **HexiScale: Facilitating Large Language Model Training over Heterogeneous Hardware** | MLSys 2026 | distributed training / heterogeneous GPU systems | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/d5a655b8b373737b4f2aea8f78e5e754-Abstract-Conference.html) | — |
+| **Canonical** | **Meeting SLOs, Slashing Hours: Automated Enterprise LLM Optimization with OptiKIT** | MLSys 2026 | LLM optimization platform / heterogeneous infrastructure / enterprise deployment | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/4904fad153f6434a7bcf04465d4be2cc-Abstract-Conference.html) | — |
+| **Canonical** | **MTraining: Distributed Dynamic Sparse Attention for Efficient Ultra-Long Context Training** | MLSys 2026 | distributed training / sparse attention / long context | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/7fafdf453029d7b8674b6f3dd18112bf-Abstract-Conference.html) | [Repo](https://github.com/microsoft/MInference/tree/main/mtraining) |
 | **Canonical** | **Optimizing Deployment Configurations for LLM Inference** | MLSys 2026 | LLM serving / deployment configuration / hardware heterogeneity / production systems | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/97dc07f1253ab33ee514f395a82fa7cc-Abstract-Conference.html) | — |
+| **Canonical** | **ProTrain: Efficient LLM Training via Automatic Memory Management** | MLSys 2026 | distributed training / memory management / automatic optimization | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/56280ad5fb53967fd55e4ba1b1cfc418-Abstract-Conference.html) | — |
 | **Canonical** | **RaidServe: High-performance Resilient Serving** | MLSys 2026 | LLM serving reliability / tensor parallelism / KV-cache recovery | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/507b4aacefe5325908e24f042617b741-Abstract-Conference.html) | — |
 | **Canonical** | **TeleRAG: Efficient Retrieval-Augmented Generation Inference with Lookahead Retrieval** | MLSys 2026 | RAG serving / prefetch / multi-GPU inference | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/7fd522b89ac21009b7bbe7560a9a5add-Abstract-Conference.html) | [Repo](https://github.com/uw-syfi/TeleRAG) |
 | **Canonical** | **TokenWeave: Efficient Compute-Communication Overlap for Distributed LLM Inference** | MLSys 2026 | distributed LLM inference / GPU communication overlap / kernels | [Link](https://arxiv.org/abs/2505.11329) | [Repo](https://github.com/microsoft/tokenweave) |
+| **Canonical** | **Zorse: Optimizing LLM Training Efficiency on Heterogeneous GPU Clusters** | MLSys 2026 | distributed training / heterogeneous GPUs / parallelism | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/bfa6dd59c1d7f7c785909f9ff7cffe67-Abstract-Conference.html) | — |
 | **Canonical** | **Confidant: Customizing Transformer-based LLMs via Collaborative Training on Mobile Devices** | MobiCom 2025 | edge AI / mobile LLM training / pipeline parallelism / heterogeneous scheduling | [Link](https://arxiv.org/abs/2311.13381) | — |
 | **Canonical** | **Block-Diagonal LoRA for Eliminating Communication Overhead in Tensor Parallel LoRA Serving** | NeurIPS 2025 | LoRA serving / tensor parallel communication elimination | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/0095274aecea2127c404fc6f7462aa44-Abstract-Conference.html) | — |
 | **Canonical** | **KVCOMM: Online Cross-context KV-cache Communication for Efficient LLM-based Multi-agent Systems** | NeurIPS 2025 | multi-agent LLM serving / cross-context KV cache reuse / prefill acceleration | [Link](https://doi.org/10.52202/085713-0605) | [Repo](https://github.com/FastMAS/KVCOMM) |

@@ -19774,6 +19774,47 @@
     ]
   },
   {
+    "title": "Beat the long tail: Distribution-Aware Speculative Decoding for RL Training",
+    "venue": "MLSys 2026",
+    "topic": "efficient reasoning / RL training / speculative decoding",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "MLSYS2026_cbc4ab80cd77aa0eb87da062fbcddb46",
+    "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/cbc4ab80cd77aa0eb87da062fbcddb46-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "MLSys 2026 distribution-aware speculative decoding for RL rollout tails; uses historical rollouts and length-aware budgets and reports up to 50% rollout-time reduction.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Speculative Decoding",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "Beyond the Buzz: A Pragmatic Take on Inference Disaggregation",
+    "venue": "MLSys 2026",
+    "topic": "LLM serving / prefill-decode disaggregation / systems characterization",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "MLSYS2026_d49cee5f3a79d97d719df255689d83d7",
+    "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/d49cee5f3a79d97d719df255689d83d7-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "MLSys 2026 large-scale study of disaggregated inference across hundreds of thousands of design points, identifying workload/hardware regimes and dynamic rate-matching requirements.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving"
+    ]
+  },
+  {
     "title": "BLASST: Dynamic BLocked Attention Sparsity via Softmax Thresholding",
     "venue": "MLSys 2026",
     "topic": "sparse attention / long-context inference",
@@ -19863,6 +19904,28 @@
     ]
   },
   {
+    "title": "ContextPilot: Fast Long-Context Inference via Context Reuse",
+    "venue": "MLSys 2026",
+    "topic": "long-context inference / context reuse / KV reuse",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "MLSYS2026_b0131b6ee02a00b03fc3320176fec8f5",
+    "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/b0131b6ee02a00b03fc3320176fec8f5-Abstract-Conference.html",
+    "code_url": "https://github.com/EfficientContext/ContextPilot",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "MLSys 2026 context-reuse system for RAG, agent memory and multi-agent workloads; reports up to 3x lower prefill latency while preserving reasoning quality.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "CRAFT: Fine-Grained Cost-Aware Expert Replication For Efficient Mixture-of-Experts Serving",
     "venue": "MLSys 2026",
     "topic": "MoE serving / expert replication",
@@ -19881,6 +19944,73 @@
     "directions": [
       "LLM Serving",
       "MoE Systems / Accelerators"
+    ]
+  },
+  {
+    "title": "db-SP: Accelerating Sparse Attention for Visual Generative Models with Dual-Balanced Sequence Parallelism",
+    "venue": "MLSys 2026",
+    "topic": "video/image generation acceleration / sparse attention / sequence parallelism",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "MLSYS2026_db988b089d8d97d0f159c15ed0be6a71",
+    "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/db988b089d8d97d0f159c15ed0be6a71-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "MLSys 2026 sparsity-aware sequence parallelism for DiT inference; dynamically balances head/block sparse work and reports 1.25x end-to-end and 1.40x attention speedup.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "Distributed Training / Inference",
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "DreamDDP: Accelerating Low-Bandwidth Geo-Distributed LLM Training with Layer-wise Partial Synchronization",
+    "venue": "MLSys 2026",
+    "topic": "distributed training / geo-distributed / communication overlap",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "MLSYS2026_f5c530d3f287c43dccfca298698e9254",
+    "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/f5c530d3f287c43dccfca298698e9254-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "MLSys 2026 low-bandwidth geo-distributed training via layer-wise partial synchronization and communication-compute overlap; reports 1.49x-3.91x speedups.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "Efficient Long-Context Language Model Training by Core Attention Disaggregation",
+    "venue": "MLSys 2026",
+    "topic": "distributed training / long context / attention disaggregation",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "MLSYS2026_423b59ae02381f27862c21d1c41a5603",
+    "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/423b59ae02381f27862c21d1c41a5603-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "MLSys 2026 DistCA system disaggregating parameter-free core attention onto attention servers; scales to 512 H200 GPUs and reports up to 1.9x end-to-end training throughput.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Attention",
+      "Distributed Training / Inference"
     ]
   },
   {
@@ -19903,6 +20033,48 @@
       "LLM Serving",
       "GPU Kernel / DSL / Compiler",
       "Multimodal / MLLM Serving",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Event Tensor: A Unified Abstraction for Compiling Dynamic Megakernel",
+    "venue": "MLSys 2026",
+    "topic": "GPU kernel / compiler / LLM inference",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "MLSYS2026_53d3f45797970d323bd8a0d379c525aa",
+    "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/53d3f45797970d323bd8a0d379c525aa-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "MLSys 2026 compiler abstraction for dynamic persistent megakernels with shape/data-dependent execution; reports state-of-the-art LLM serving latency with lower warmup overhead.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "ExecuTorch - A Unified PyTorch Solution to Run ML Models On-Device",
+    "venue": "MLSys 2026",
+    "topic": "edge AI systems / heterogeneous runtime / on-device inference",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "MLSYS2026_236f915dd02af4f11927f67330b21d4b",
+    "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/236f915dd02af4f11927f67330b21d4b-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "MLSys 2026 PyTorch-native edge deployment runtime spanning microcontrollers through SoCs with quantization and pluggable backends; important edge/heterogeneous AI infrastructure result.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
       "Edge / Cloud / Heterogeneous AI"
     ]
   },
@@ -20102,6 +20274,30 @@
     ]
   },
   {
+    "title": "HetRL: Efficient Reinforcement Learning for LLMs in Heterogeneous Environments",
+    "venue": "MLSys 2026",
+    "topic": "distributed training / RL systems / heterogeneous GPUs",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "MLSYS2026_5321b1dabcd2be188d796c21b733e8c7",
+    "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/5321b1dabcd2be188d796c21b733e8c7-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "MLSys 2026 heterogeneous-GPU/network RL training scheduler for LLM post-training; 20k GPU-hour evaluation reports up to 9.17x throughput and 3.17x average improvement.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference",
+      "Efficient Reasoning / Agents",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "HexiScale: Facilitating Large Language Model Training over Heterogeneous Hardware",
     "venue": "MLSys 2026",
     "topic": "distributed training / heterogeneous GPU systems",
@@ -20213,6 +20409,71 @@
     ]
   },
   {
+    "title": "MAC-Attention: a Match--Amend--Complete scheme for fast and accurate attention computation",
+    "venue": "MLSys 2026",
+    "topic": "efficient attention / long-context inference / KV reuse",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "MLSYS2026_7398289396de403d7d0505ed791e704a",
+    "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/7398289396de403d7d0505ed791e704a-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "MLSys 2026 attention-reuse system preserving full KV access while reusing matched attention computations; reports >14.3x attention-phase speedup and up to 2.6x end-to-end speedup.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Efficient Attention"
+    ]
+  },
+  {
+    "title": "Meeting SLOs, Slashing Hours: Automated Enterprise LLM Optimization with OptiKIT",
+    "venue": "MLSys 2026",
+    "topic": "LLM optimization platform / heterogeneous infrastructure / enterprise deployment",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "MLSYS2026_4904fad153f6434a7bcf04465d4be2cc",
+    "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/4904fad153f6434a7bcf04465d4be2cc-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "MLSys 2026 production-grade distributed LLM optimization framework automating compression/tuning and resource orchestration; reports >2x GPU-throughput improvement in production.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "MixLLM: LLM Quantization with Global Mixed-precision between Output-features and Highly-efficient System Design",
+    "venue": "MLSys 2026",
+    "topic": "quantization / LLM inference / GPU kernels",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "MLSYS2026_a66caa1703fe34705a4368c3014c1966",
+    "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/a66caa1703fe34705a4368c3014c1966-Abstract-Conference.html",
+    "code_url": "https://github.com/microsoft/MixLLM",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "MLSys 2026 algorithm-system co-design for globally mixed-precision output-feature quantization with optimized dequantization and software pipelining; direct efficient-inference result.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "MorphServe: Efficient and Workload-Aware LLM Serving via Runtime Quantized Layer Swapping and KV Cache Resizing",
     "venue": "MLSys 2026",
     "topic": "LLM serving / dynamic quantization / KV resizing",
@@ -20232,6 +20493,30 @@
       "LLM Serving",
       "KV Cache / Long Context",
       "Quantization"
+    ]
+  },
+  {
+    "title": "MTraining: Distributed Dynamic Sparse Attention for Efficient Ultra-Long Context Training",
+    "venue": "MLSys 2026",
+    "topic": "distributed training / sparse attention / long context",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "MLSYS2026_7fafdf453029d7b8674b6f3dd18112bf",
+    "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/7fafdf453029d7b8674b6f3dd18112bf-Abstract-Conference.html",
+    "code_url": "https://github.com/microsoft/MInference/tree/main/mtraining",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "MLSys 2026 distributed sparse-attention training system using balanced and hierarchical sparse ring attention; reports up to 6x training throughput at 512K context.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "Distributed Training / Inference"
     ]
   },
   {
@@ -20299,6 +20584,27 @@
     ]
   },
   {
+    "title": "PRISM: Parametrically Refactor Inference for Speculative Decoding Draft Models",
+    "venue": "MLSys 2026",
+    "topic": "speculative decoding / draft-model architecture / inference",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "MLSYS2026_414fd191b3246a19a55741b938380136",
+    "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/414fd191b3246a19a55741b938380136-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "MLSys 2026 speculative-decoding draft architecture that decouples model capacity from inference cost; reports >2.6x decoding-throughput improvement on an optimized engine.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding"
+    ]
+  },
+  {
     "title": "ProfInfer: An eBPF-based Fine-Grained LLM Inference Profiler",
     "venue": "MLSys 2026",
     "topic": "LLM inference profiling / edge runtime observability",
@@ -20318,6 +20624,27 @@
       "KV Cache / Long Context",
       "MoE Systems / Accelerators",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "ProTrain: Efficient LLM Training via Automatic Memory Management",
+    "venue": "MLSys 2026",
+    "topic": "distributed training / memory management / automatic optimization",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "MLSYS2026_56280ad5fb53967fd55e4ba1b1cfc418",
+    "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/56280ad5fb53967fd55e4ba1b1cfc418-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "MLSys 2026 automatic training-memory management and cost-model search system; reports 1.43x-2.71x training-throughput improvement.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference"
     ]
   },
   {
@@ -20367,6 +20694,27 @@
     ]
   },
   {
+    "title": "ReSpec: Towards Optimizing Speculative Decoding in Reinforcement Learning Systems",
+    "venue": "MLSys 2026",
+    "topic": "efficient reasoning / RL training / speculative decoding",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "MLSYS2026_dcb38c6ad7911842ab31081be9540b89",
+    "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/dcb38c6ad7911842ab31081be9540b89-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "MLSys 2026 system adapting speculative decoding to LLM RL rollouts via dynamic configuration, evolving drafters and reward-aware updates; reports up to 4.5x speedup.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Speculative Decoding",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "SkipKV",
     "venue": "MLSys 2026",
     "topic": "LLM serving + KV + speculative + reasoning efficiency",
@@ -20385,6 +20733,28 @@
     "directions": [
       "LLM Serving",
       "Speculative Decoding",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "SpecDiff-2: Scaling Diffusion Drafter Alignment For Faster Speculative Decoding",
+    "venue": "MLSys 2026",
+    "topic": "speculative decoding / diffusion drafter / efficient reasoning",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "MLSYS2026_041dad5ed2191b44ba3ed0e00cdc3187",
+    "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/041dad5ed2191b44ba3ed0e00cdc3187-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "MLSys 2026 lossless speculative decoding with discrete-diffusion drafting and verifier alignment; reports up to 5.5x average speedup over standard decoding.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Speculative Decoding",
+      "Diffusion / Flow Acceleration",
       "Efficient Reasoning / Agents"
     ]
   },
@@ -20518,6 +20888,51 @@
       "LLM Serving",
       "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "TriInfer: Hybrid EPD Disaggregation for Efficient Multimodal Large Language Model Inference",
+    "venue": "MLSys 2026",
+    "topic": "multimodal serving / encode-prefill-decode disaggregation / heterogeneous inference",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "MLSYS2026_f068c65585985c25c17f221390774ec7",
+    "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/f068c65585985c25c17f221390774ec7-Abstract-Conference.html",
+    "code_url": "https://github.com/dongxianzhe/triinfer",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "MLSys 2026 MLLM serving system disaggregating encode, prefill and decode onto heterogeneous instances; reports up to 3.7x higher throughput under P90 SLOs.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Zorse: Optimizing LLM Training Efficiency on Heterogeneous GPU Clusters",
+    "venue": "MLSys 2026",
+    "topic": "distributed training / heterogeneous GPUs / parallelism",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "MLSYS2026_bfa6dd59c1d7f7c785909f9ff7cffe67",
+    "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/bfa6dd59c1d7f7c785909f9ff7cffe67-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "MLSys 2026 heterogeneous-cluster LLM training system with Pipeline-Efficient ZeRO DP and automated planning; reports up to 3x higher throughput.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {

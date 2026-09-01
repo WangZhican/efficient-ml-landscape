@@ -1,6 +1,6 @@
 # 04 · Quantization
 
-> **181 canonical papers** mapped here, plus a broader **53-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **183 canonical papers** mapped here, plus a broader **53-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -62,7 +62,7 @@
 | **P1 · Watch** | **Sparse by Command: Task-Conditional Compute Skipping for Multi-Task Inference Accelerators** | Fresh / preprint | llm_serving / quant / sparse / gen / edge | [Link](https://arxiv.org/abs/2607.22038) | — |
 | **P1 · Watch** | **Precision-Induced Miscalibration: Understanding and Correcting Confidence Distortion in Quantized Neural Networks** | ICML 2026 | quantization / low-precision calibration / confidence distortion / mixed precision | [Link](https://openreview.net/forum?id=zCkFbxKeF5) | — |
 
-## 🏛️ Classical / Historical · 169 canonical
+## 🏛️ Classical / Historical · 171 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -215,8 +215,10 @@
 | **Canonical** | **Amove: Accelerating LLMs through Mitigating Outliers and Salient Points via Fine-Grained Grouped Vectorized Data Type** | MICRO 2025 | LLM quantization / vectorized datatype | [Link](https://doi.org/10.1145/3725843.3756113) | — |
 | **Canonical** | **AxCore: A Quantization-Aware Approximate GEMM Unit for LLM Inference** | MICRO 2025 | LLM quantization / accelerator | [Link](https://soldierchen.github.io/assets/pdf/axcore-micro25.pdf) | [Repo](https://github.com/CLab-HKUST-GZ/micro58-axcore) |
 | **Canonical** | **MX+: Pushing the Limits of Microscaling Formats for Efficient Large Language Model Serving** | MICRO 2025 | LLM serving / low-precision microscaling | [Link](https://arxiv.org/abs/2510.14557) | — |
+| **Canonical** | **ExecuTorch - A Unified PyTorch Solution to Run ML Models On-Device** | MLSys 2026 | edge AI systems / heterogeneous runtime / on-device inference | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/236f915dd02af4f11927f67330b21d4b-Abstract-Conference.html) | — |
 | **Canonical** | **IntAttention: A Fully Integer Attention Pipeline for Efficient Edge Inference** | MLSys 2026 | edge inference / integer attention | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/file/ea5ffdf7da91256ecd2770f9fd2dade9-Paper-Conference.pdf) | — |
 | **Canonical** | **Kitty: Accurate and Efficient 2-bit KV Cache Quantization with Dynamic Channel-wise Precision Boost** | MLSys 2026 | KV cache quantization / low-bit inference | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/file/e4d8d1b5120be349d3fff8878650cf45-Paper-Conference.pdf) | — |
+| **Canonical** | **MixLLM: LLM Quantization with Global Mixed-precision between Output-features and Highly-efficient System Design** | MLSys 2026 | quantization / LLM inference / GPU kernels | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/a66caa1703fe34705a4368c3014c1966-Abstract-Conference.html) | [Repo](https://github.com/microsoft/MixLLM) |
 | **Canonical** | **MorphServe: Efficient and Workload-Aware LLM Serving via Runtime Quantized Layer Swapping and KV Cache Resizing** | MLSys 2026 | LLM serving / dynamic quantization / KV resizing | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/file/8144a9d62e506af0fcdeac0e456b2710-Paper-Conference.pdf) | — |
 | **Canonical** | **AdaptQNet: Optimizing Quantized DNN on Microcontrollers via Adaptive Heterogeneous Processing Unit Utilization** | MobiCom 2025 | edge AI / MCU inference / quantization / heterogeneous processor scheduling | [Link](https://doi.org/10.1145/3680207.3765247) | — |
 | **Canonical** | **Wireless Hearables With Programmable Speech AI Accelerators** | MobiCom 2025 | edge AI / on-device speech inference / accelerator co-design / quantization | [Link](https://arxiv.org/abs/2503.18698) | — |

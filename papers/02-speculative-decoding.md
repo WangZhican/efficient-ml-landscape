@@ -1,6 +1,6 @@
 # 02 · Speculative Decoding
 
-> **169 canonical papers** mapped here, plus a broader **30-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **173 canonical papers** mapped here, plus a broader **30-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -39,7 +39,7 @@
 | **P2 · Relevant** | **DraftExpert: Expansion-Aware Self-Speculative Decoding for End-Device MoE Inference** | Fresh / preprint | llm_serving / spec / moe / edge | [Link](https://arxiv.org/abs/2607.24434) | — |
 | **P2 · Relevant** | **SpecBox: Speculative Sandbox Scheduling for Efficient LLM Agent Serving** | Fresh / preprint | llm_serving / agent | [Link](https://arxiv.org/abs/2607.23933) | — |
 
-## 🏛️ Classical / Historical · 160 canonical
+## 🏛️ Classical / Historical · 164 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -181,13 +181,17 @@
 | **Canonical** | **A 28nm Speculative-Decoding LLM Processor Achieving 105-to-685μs/Token Latency for Billion-Parameter Models** | ISSCC 2026 | speculative decoding / LLM accelerator / mixed precision | [Link](https://doi.org/10.1109/ISSCC49663.2026.11408953) | — |
 | **Canonical** | **SMoLPU: 122.1μJ/Token Sparse MoE-Based Speculative Decoding Language Processing Unit with Adaptive-Offload NPU-CIM Core** | ISSCC 2026 | MoE systems/accelerators / speculative decoding / edge AI hardware | [Link](https://pure.kaist.ac.kr/en/publications/smolpu-1221%CE%BCjtoken-sparse-moe-based-speculative-decoding-language/) | — |
 | **Canonical** | **BEAM** | MLSys 2026 | LLM serving + KV + speculative + reasoning efficiency | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/file/eb3c42ddfa16d8421fdba13528107cc1-Paper-Conference.pdf) | — |
+| **Canonical** | **Beat the long tail: Distribution-Aware Speculative Decoding for RL Training** | MLSys 2026 | efficient reasoning / RL training / speculative decoding | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/cbc4ab80cd77aa0eb87da062fbcddb46-Abstract-Conference.html) | — |
 | **Canonical** | **BOute** | MLSys 2026 | LLM serving + KV + speculative + reasoning efficiency | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/file/ed1d3d4c64dc1b95332a8cde3f2a0bdf-Paper-Conference.pdf) | — |
 | **Canonical** | **fabric-lib** | MLSys 2026 | LLM serving + KV + speculative + reasoning efficiency | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/file/dea9b4b6f55ae611c54065d6fc750755-Paper-Conference.pdf) | — |
 | **Canonical** | **FlexiCache** | MLSys 2026 | LLM serving + KV + speculative + reasoning efficiency | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/file/94bcb01789fccf15afe2764d8fe0f40e-Paper-Conference.pdf) | — |
 | **Canonical** | **GhostServe** | MLSys 2026 | LLM serving + KV + speculative + reasoning efficiency | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/file/d99e8e80a6c41e148db686918dd7eab3-Paper-Conference.pdf) | — |
 | **Canonical** | **OPKV** | MLSys 2026 | LLM serving + KV + speculative + reasoning efficiency | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/file/71381211d0abef73ed1887b83c4547b1-Paper-Conference.pdf) | — |
+| **Canonical** | **PRISM: Parametrically Refactor Inference for Speculative Decoding Draft Models** | MLSys 2026 | speculative decoding / draft-model architecture / inference | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/414fd191b3246a19a55741b938380136-Abstract-Conference.html) | — |
 | **Canonical** | **RaidServe** | MLSys 2026 | LLM serving + KV + speculative + reasoning efficiency | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/file/507b4aacefe5325908e24f042617b741-Paper-Conference.pdf) | — |
+| **Canonical** | **ReSpec: Towards Optimizing Speculative Decoding in Reinforcement Learning Systems** | MLSys 2026 | efficient reasoning / RL training / speculative decoding | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/dcb38c6ad7911842ab31081be9540b89-Abstract-Conference.html) | — |
 | **Canonical** | **SkipKV** | MLSys 2026 | LLM serving + KV + speculative + reasoning efficiency | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/file/45c1f6a8cbf2da59ebf2c802b4f742cd-Paper-Conference.pdf) | — |
+| **Canonical** | **SpecDiff-2: Scaling Diffusion Drafter Alignment For Faster Speculative Decoding** | MLSys 2026 | speculative decoding / diffusion drafter / efficient reasoning | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/041dad5ed2191b44ba3ed0e00cdc3187-Abstract-Conference.html) | — |
 | **Canonical** | **SpecGen** | MLSys 2026 | LLM serving + KV + speculative + reasoning efficiency | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/file/66a026c0d17040889b50f0dfa650e5e0-Paper-Conference.pdf) | — |
 | **Canonical** | **Speculative Decoding: Performance or Illusion?** | MLSys 2026 | speculative decoding / production inference characterization | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/file/554e056fe2b6d9fd27ffcd3367ae1267-Paper-Conference.pdf) | — |
 | **Canonical** | **SuperInfer** | MLSys 2026 | LLM serving + KV + speculative + reasoning efficiency | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/file/07fd64f9316f40193c6a4d87d8afa011-Paper-Conference.pdf) | — |
