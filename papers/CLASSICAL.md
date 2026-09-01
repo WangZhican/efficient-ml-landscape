@@ -1,6 +1,6 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **1180 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **1182 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
@@ -778,7 +778,7 @@
 | **Canonical** | **Tri-Oracle: A 17.78μJ/Token Vision-Language Model Accelerator with Token-Attention-Weight Redundancy Prediction** | ISSCC 2026 | VLM accelerator / token pruning / attention sparsity / weight sparsity | [Link](https://doi.org/10.1109/ISSCC49663.2026.11408987) | — |
 | **Canonical** | **VARSA: A Visual Autoregressive Generation Accelerator Using Performance-Scalable Multi-Precision PE-LUT and Grid-Similarity Attention Compression** | ISSCC 2026 | visual autoregressive generation / multi-precision acceleration / attention compression | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409066) | — |
 
-## ACL 2026 · 25
+## ACL 2026 · 26
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -787,6 +787,7 @@
 | **Canonical** | **Calibrated Speculative Decoding: Frequency-Guided Candidate Selection for Efficient Inference** | ACL 2026 | speculative decoding / training-free inference acceleration | [Link](https://doi.org/10.18653/v1/2026.acl-long.1369) | — |
 | **Canonical** | **ConfSpec: Efficient Step-Level Speculative Reasoning via Confidence-Gated Verification** | ACL 2026 | efficient reasoning / step-level speculative verification | [Link](https://aclanthology.org/2026.acl-long.1221/) | — |
 | **Canonical** | **ContrastKV: Robust KV Cache Eviction via Contrastive Signal Fusion for Multi-Query Generalization** | ACL 2026 | KV-cache eviction / long-context multi-query inference | [Link](https://aclanthology.org/2026.acl-long.417/) | — |
+| **Canonical** | **DREAM-S: Speculative Decoding with Searchable Drafting and Target-Aware Refinement for Multimodal Generation** | ACL 2026 | speculative decoding / multimodal MLLM serving / hardware-aware draft design | [Link](https://arxiv.org/abs/2606.00535) | [Repo](https://github.com/SAI-Lab-NYU/DREAM-S) |
 | **Canonical** | **EDSD: Entropy-Driven Design for Faster Speculative Decoding** | ACL 2026 | speculative decoding / entropy-guided draft design | [Link](https://aclanthology.org/2026.acl-long.2145/) | — |
 | **Canonical** | **EfficientLLM: Unified Pruning-Aware Pretraining for Auto-Designed Compact Language Models** | ACL 2026 | pruning / compact edge LLM | [Link](https://doi.org/10.18653/v1/2026.acl-long.355) | — |
 | **Canonical** | **Evolving Sparsity: Leveraging Token Importance Dynamics for Efficient LLM Decoding with Sparse Attention** | ACL 2026 | sparse attention / long-context decoding | [Link](https://doi.org/10.18653/v1/2026.acl-long.530) | — |
@@ -1409,6 +1410,12 @@
 | **Canonical** | **Compiling Strassen-like Matrix Multiplication Algorithms to Fast CUDA Kernels** | PLDI 2026 | GPU compiler / matrix multiplication / LLM inference kernel | [Link](https://pldi26.sigplan.org/details/pldi-2026-papers/24/Compiling-Strassen-like-Matrix-Multiplication-Algorithms-to-Fast-CUDA-Kernels) | [Repo](https://github.com/microsoft/subcuber) |
 | **Canonical** | **Modular GPU Programming with Typed Perspectives** | PLDI 2026 | GPU kernel DSL / compiler / Tensor Core programming | [Link](https://arxiv.org/abs/2511.11939) | — |
 | **Canonical** | **Neptune: Advanced ML Operator Fusion for Locality and Parallelism on GPUs** | PLDI 2026 | ML compiler / attention operator fusion | [Link](https://arxiv.org/abs/2510.08726) | [Repo](https://github.com/uiuc-arc/neptune) |
+
+## ACL 2026 Findings · 1
+
+| Priority | Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|---|
+| **Canonical** | **SpecExtend: A Drop-in Enhancement for Speculative Decoding of Long Sequences** | ACL 2026 Findings | speculative decoding / KV cache / long-context efficient inference | [Link](https://arxiv.org/abs/2505.20776) | [Repo](https://github.com/jycha98/SpecExtend) |
 
 ## ACM SIGOPS Annual Technical Conference (ATC) 2026 / arXiv · 1
 

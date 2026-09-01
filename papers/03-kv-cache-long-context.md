@@ -1,6 +1,6 @@
 # 03 · KV Cache / Long Context
 
-> **325 canonical papers** mapped here, plus a broader **59-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **326 canonical papers** mapped here, plus a broader **59-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -68,7 +68,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P1 · Watch** | **Edge-Native Embodied Intelligence for Action-Aware Wireless Edge Networks** | Fresh / preprint | VLA/WAM/Physical AI serving / edge-cloud / heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.17774) | — |
 
-## 🏛️ Classical / Historical · 305 canonical
+## 🏛️ Classical / Historical · 306 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -99,6 +99,7 @@
 | **Canonical** | **Question Tells You Where the Answer Is: Intention-aware Long-Context KV Cache Compression** | ACL 2026 | KV cache / long-context inference | [Link](https://doi.org/10.18653/v1/2026.acl-long.1250) | — |
 | **Canonical** | **SpecCache: Speculative KV Cache Reuse for Efficient RAG Serving** | ACL 2026 | RAG serving / KV cache reuse | [Link](https://doi.org/10.18653/v1/2026.acl-long.859) | — |
 | **Canonical** | **VecInfer: Efficient LLM Inference with Low-Bit KV Cache via Outlier-Suppressed Vector Quantization** | ACL 2026 | KV-cache quantization / low-bit LLM inference / CUDA kernel | [Link](https://aclanthology.org/2026.acl-long.1454/) | — |
+| **Canonical** | **SpecExtend: A Drop-in Enhancement for Speculative Decoding of Long Sequences** | ACL 2026 Findings | speculative decoding / KV cache / long-context efficient inference | [Link](https://arxiv.org/abs/2505.20776) | [Repo](https://github.com/jycha98/SpecExtend) |
 | **Canonical** | **TinyServe: Query-Aware Cache Selection for Efficient LLM Serving** | ACM Multimedia 2025 | LLM serving / KV cache sparsity / CUDA kernels / edge inference | [Link](https://arxiv.org/abs/2509.12211) | [Repo](https://github.com/FastLM/tinyserve-vllm) |
 | **Canonical** | **Coordinated Scheduling for MoE LLM Serving** | ACM SIGOPS Annual Technical Conference (ATC) 2026 / arXiv | MoE systems / LLM serving / coordinated scheduling / expert placement / KV-cache-aware routing | [Link](https://arxiv.org/abs/2606.15177) | — |
 | **Canonical** | **ActionCache: Training-Free Acceleration for Vision-Language-Action Models with Action Caching and Refinement** | arXiv 2026 | VLA/WAM/Physical AI serving / action cache / flow action-head acceleration | [Link](https://arxiv.org/abs/2607.06370) | — |

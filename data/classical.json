@@ -569,6 +569,28 @@
     ]
   },
   {
+    "title": "DREAM-S: Speculative Decoding with Searchable Drafting and Target-Aware Refinement for Multimodal Generation",
+    "venue": "ACL 2026",
+    "topic": "speculative decoding / multimodal MLLM serving / hardware-aware draft design",
+    "arxiv": "2606.00535",
+    "doi": "",
+    "official_id": "10.18653/v1/2026.acl-long.2177",
+    "paper_url": "https://arxiv.org/abs/2606.00535",
+    "code_url": "https://github.com/SAI-Lab-NYU/DREAM-S",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ACL 2026 long paper on VLM speculative decoding. Uses target-aware NAS/supernet training plus adaptive intermediate feature distillation to co-design draft-target interaction and hardware-suitable draft architecture; reports up to 3.85x speedup over standard autoregressive decoding.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
     "title": "EDSD: Entropy-Driven Design for Faster Speculative Decoding",
     "venue": "ACL 2026",
     "topic": "speculative decoding / entropy-guided draft design",
@@ -990,6 +1012,29 @@
       "Quantization",
       "Efficient Attention",
       "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "SpecExtend: A Drop-in Enhancement for Speculative Decoding of Long Sequences",
+    "venue": "ACL 2026 Findings",
+    "topic": "speculative decoding / KV cache / long-context efficient inference",
+    "arxiv": "2505.20776",
+    "doi": "",
+    "official_id": "10.18653/v1/2026.findings-acl.2153",
+    "paper_url": "https://arxiv.org/abs/2505.20776",
+    "code_url": "https://github.com/jycha98/SpecExtend",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ACL 2026 Findings paper extending speculative decoding to long sequences without retraining. Integrates FlashAttention/Hybrid Tree Attention and cross-model retrieval KV eviction; reports up to 2.84x on 16K document summarization and 3.86x on long-form reasoning while preserving short-input performance.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Speculative Decoding",
+      "KV Cache / Long Context",
+      "Efficient Attention",
+      "Efficient Reasoning / Agents"
     ]
   },
   {

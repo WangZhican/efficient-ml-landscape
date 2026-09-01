@@ -1,6 +1,6 @@
 # 06 · Efficient Attention
 
-> **189 canonical papers** mapped here, plus a broader **50-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **190 canonical papers** mapped here, plus a broader **50-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -59,7 +59,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 173 canonical
+## 🏛️ Classical / Historical · 174 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -74,6 +74,7 @@
 | **Canonical** | **Latent-Condensed Transformer for Efficient Long Context Modeling** | ACL 2026 | efficient attention / KV compression | [Link](https://doi.org/10.18653/v1/2026.acl-long.1176) | — |
 | **Canonical** | **LazyEviction: Lagged KV Eviction with Attention Pattern Observation for Efficient Long Reasoning** | ACL 2026 | KV cache / efficient reasoning | [Link](https://doi.org/10.18653/v1/2026.acl-long.1683) | — |
 | **Canonical** | **VecInfer: Efficient LLM Inference with Low-Bit KV Cache via Outlier-Suppressed Vector Quantization** | ACL 2026 | KV-cache quantization / low-bit LLM inference / CUDA kernel | [Link](https://aclanthology.org/2026.acl-long.1454/) | — |
+| **Canonical** | **SpecExtend: A Drop-in Enhancement for Speculative Decoding of Long Sequences** | ACL 2026 Findings | speculative decoding / KV cache / long-context efficient inference | [Link](https://arxiv.org/abs/2505.20776) | [Repo](https://github.com/jycha98/SpecExtend) |
 | **Canonical** | **CITR: Efficient Long Video Understanding Needs Causal Importance** | ACM Multimedia 2025 | multimodal/MLLM serving / efficient attention / long-video inference | [Link](https://arxiv.org/abs/2508.06165) | [Repo](https://github.com/Columbine21/CITR) |
 | **Canonical** | **ELFATT: Efficient Linear Fast Attention for Vision Transformers** | ACM Multimedia 2025 | efficient attention / edge AI / diffusion acceleration | [Link](https://arxiv.org/abs/2501.06098) | [Repo](https://github.com/Alicewithrabbit/ELFATT) |
 | **Canonical** | **MQuant: Unleashing the Inference Potential of Multimodal Large Language Models via Full Static Quantization** | ACM Multimedia 2025 | multimodal LLM quantization / static PTQ / efficient inference | [Link](https://arxiv.org/abs/2502.00425) | [Repo](https://github.com/StiphyJay/MQuant) |

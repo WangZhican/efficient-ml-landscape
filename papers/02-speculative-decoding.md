@@ -1,6 +1,6 @@
 # 02 · Speculative Decoding
 
-> **164 canonical papers** mapped here, plus a broader **29-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **166 canonical papers** mapped here, plus a broader **29-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -38,7 +38,7 @@
 | **P2 · Relevant** | **DraftExpert: Expansion-Aware Self-Speculative Decoding for End-Device MoE Inference** | Fresh / preprint | llm_serving / spec / moe / edge | [Link](https://arxiv.org/abs/2607.24434) | — |
 | **P2 · Relevant** | **SpecBox: Speculative Sandbox Scheduling for Efficient LLM Agent Serving** | Fresh / preprint | llm_serving / agent | [Link](https://arxiv.org/abs/2607.23933) | — |
 
-## 🏛️ Classical / Historical · 156 canonical
+## 🏛️ Classical / Historical · 158 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -48,6 +48,7 @@
 | **Canonical** | **Talon: Breaking the Synchronization Barrier in Speculative Decoding with Hybrid Model-based and Retrieve-based Drafting** | AAAI 2026 | speculative decoding / asynchronous draft-verify pipeline / hybrid model-retrieval drafting | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39266) | — |
 | **Canonical** | **Calibrated Speculative Decoding: Frequency-Guided Candidate Selection for Efficient Inference** | ACL 2026 | speculative decoding / training-free inference acceleration | [Link](https://doi.org/10.18653/v1/2026.acl-long.1369) | — |
 | **Canonical** | **ConfSpec: Efficient Step-Level Speculative Reasoning via Confidence-Gated Verification** | ACL 2026 | efficient reasoning / step-level speculative verification | [Link](https://aclanthology.org/2026.acl-long.1221/) | — |
+| **Canonical** | **DREAM-S: Speculative Decoding with Searchable Drafting and Target-Aware Refinement for Multimodal Generation** | ACL 2026 | speculative decoding / multimodal MLLM serving / hardware-aware draft design | [Link](https://arxiv.org/abs/2606.00535) | [Repo](https://github.com/SAI-Lab-NYU/DREAM-S) |
 | **Canonical** | **EDSD: Entropy-Driven Design for Faster Speculative Decoding** | ACL 2026 | speculative decoding / entropy-guided draft design | [Link](https://aclanthology.org/2026.acl-long.2145/) | — |
 | **Canonical** | **HCSpec: Two-Tier Horizontal Cascade Speculative Decoding for High-Efficiency Large Language Model Inference** | ACL 2026 | speculative decoding / cascade verification | [Link](https://doi.org/10.18653/v1/2026.acl-long.353) | — |
 | **Canonical** | **HeteroSpec: Leveraging Contextual Heterogeneity for Efficient Speculative Decoding** | ACL 2026 | speculative decoding / adaptive verification | [Link](https://doi.org/10.18653/v1/2026.acl-long.589) | — |
@@ -57,6 +58,7 @@
 | **Canonical** | **SpecCache: Speculative KV Cache Reuse for Efficient RAG Serving** | ACL 2026 | RAG serving / KV cache reuse | [Link](https://doi.org/10.18653/v1/2026.acl-long.859) | — |
 | **Canonical** | **SSSD: Simply-Scalable Speculative Decoding** | ACL 2026 | speculative decoding / serving | [Link](https://doi.org/10.18653/v1/2026.acl-long.1530) | — |
 | **Canonical** | **UniSpec: Training-Free Speculative Decoding for Robust LLM Acceleration Across Languages and Hardware** | ACL 2026 | speculative decoding / hardware-aware calibration | [Link](https://doi.org/10.18653/v1/2026.acl-long.285) | — |
+| **Canonical** | **SpecExtend: A Drop-in Enhancement for Speculative Decoding of Long Sequences** | ACL 2026 Findings | speculative decoding / KV cache / long-context efficient inference | [Link](https://arxiv.org/abs/2505.20776) | [Repo](https://github.com/jycha98/SpecExtend) |
 | **Canonical** | **SpeCa: Accelerating Diffusion Transformers with Speculative Feature Caching** | ACM Multimedia 2025 | diffusion speculative caching | [Link](https://arxiv.org/abs/2509.11628) | — |
 | **Canonical** | **Lynx: Progressive Speculative Quantization for accelerating KV Transfer in Long-Context Inference** | arXiv 2026 | LLM serving / disaggregated inference / KV cache transfer / progressive quantization / speculative decoding | [Link](https://arxiv.org/abs/2607.01831) | — |
 | **Canonical** | **Realtime-VLA FLASH: Speculative Inference Framework for Diffusion-based VLAs** | arXiv 2026 | VLA/WAM/Physical AI serving / speculative inference / diffusion action head / Triton kernels | [Link](https://arxiv.org/abs/2605.13778) | [Repo](https://github.com/dexmal/realtime-vla-flash) |
