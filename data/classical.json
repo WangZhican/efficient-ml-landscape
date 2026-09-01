@@ -22856,6 +22856,28 @@
     ]
   },
   {
+    "title": "Plexus: Taming Billion-edge Graphs with 3D Parallel Full-graph GNN Training",
+    "venue": "SC 2025",
+    "topic": "distributed training / GNN systems / GPU communication",
+    "arxiv": "2505.04083",
+    "doi": "",
+    "official_id": "10.1145/3712285.3759890",
+    "paper_url": "https://arxiv.org/abs/2505.04083",
+    "code_url": "https://github.com/hpcgroup/plexus",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "SC25 distributed full-graph GNN training system using 3D parallelism, double-permutation load balancing and performance-model-guided configuration. Scales to 2048 GPUs on Perlmutter and 1024 GPUs on Frontier, with 2.3-12.5x speedup over prior SOTA and 5.2-8.7x / 7.0-54.2x time-to-solution reductions on Perlmutter / Frontier.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Understanding Communication Bottlenecks in Multi-Node LLM Inference",
     "venue": "SC 2025",
     "topic": "distributed LLM inference / communication characterization",
