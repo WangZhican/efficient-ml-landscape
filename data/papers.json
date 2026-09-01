@@ -6916,6 +6916,51 @@
     ]
   },
   {
+    "title": "Faster-WAM: Efficient Inference-Time Future Conditioning for Robust World Action Models",
+    "venue": "Fresh / preprint",
+    "topic": "VLA/WAM/Physical AI serving / cache / flow acceleration",
+    "arxiv": "2608.04404",
+    "doi": "",
+    "official_id": "arXiv:2608.04404",
+    "paper_url": "https://arxiv.org/abs/2608.04404",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Protected Physical-AI direct inference acceleration. SparseMoT plus Interval KV-Fusion computes future context once and reuses it across action denoising; reports 2.21x speedup versus Joint-WAM while improving OOD LIBERO-Plus success.",
+    "published_at": "2026-08-05T03:18:58Z",
+    "updated_at": "2026-08-05T03:18:58Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "GPU Kernel / DSL / Compiler",
+      "Diffusion / Flow Acceleration",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "FlashBoot: Sub-Second Weight Loading for Large Models at Rack Scale",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / MoE systems / rack-scale runtime",
+    "arxiv": "2608.08482",
+    "doi": "",
+    "official_id": "arXiv:2608.08482",
+    "paper_url": "https://arxiv.org/abs/2608.08482",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Direct serving infrastructure for elastic rack-scale model bring-up. FabricArena/FlashLoad/FlashClone remove fragmented tensor loading and NCCL setup; reports up to 50x single-node and >270x concurrent rack-scale loading speedup on NVL72.",
+    "published_at": "2026-08-09T04:56:59Z",
+    "updated_at": "2026-08-09T04:56:59Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "MoE Systems / Accelerators"
+    ]
+  },
+  {
     "title": "FLINT: Efficiently Leveraging High Bandwidth Flash for Capacity-Scalable LLM Inference Acceleration",
     "venue": "Fresh / preprint",
     "topic": "LLM serving / memory hierarchy / hardware architecture",
@@ -6960,6 +7005,28 @@
     ]
   },
   {
+    "title": "LongCat Sparse Attention: Taming the Lightning via Streaming-aware Hierarchical Cross-Layer Indexing",
+    "venue": "Fresh / preprint",
+    "topic": "efficient attention / long-context / hardware-system co-design",
+    "arxiv": "2608.01662",
+    "doi": "",
+    "official_id": "arXiv:2608.01662",
+    "paper_url": "https://arxiv.org/abs/2608.01662",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Direct hardware-algorithm co-designed sparse-attention system. Streaming-aware contiguous layouts, cross-layer index reuse, and hierarchical scoring target index computation plus HBM access inefficiency and support native training to 1M context.",
+    "published_at": "2026-08-03T03:51:21Z",
+    "updated_at": "2026-08-04T07:46:43Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Efficient Attention"
+    ]
+  },
+  {
     "title": "Maia 200: A Software Defined Dataflow System for Large-scale AI Acceleration",
     "venue": "Fresh / preprint",
     "topic": "edge/cloud/heterogeneous AI systems / production inference accelerator / dataflow architecture",
@@ -6978,6 +7045,28 @@
     "directions": [
       "Quantization",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Memory-Efficient Training-Free Acceleration of Diffusion Transformers with BaryCache",
+    "venue": "Fresh / preprint",
+    "topic": "diffusion/flow acceleration / cache",
+    "arxiv": "2608.28670",
+    "doi": "",
+    "official_id": "arXiv:2608.28670",
+    "paper_url": "https://arxiv.org/abs/2608.28670",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Direct training-free Diffusion Transformer acceleration centered on memory-efficient cache reuse; fresh primary arXiv identity retained as canonical high-value diffusion acceleration work.",
+    "published_at": "2026-08-24T16:11:56Z",
+    "updated_at": "2026-08-24T16:11:56Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "KV Cache / Long Context",
+      "Distributed Training / Inference",
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
@@ -7025,6 +7114,27 @@
     ]
   },
   {
+    "title": "SwiftQK: Fast and Communication-Efficient Tensor Parallelism for Query-Key Normalization",
+    "venue": "Fresh / preprint",
+    "topic": "distributed inference / GPU kernel / tensor parallelism",
+    "arxiv": "2608.09160",
+    "doi": "",
+    "official_id": "arXiv:2608.09160",
+    "paper_url": "https://arxiv.org/abs/2608.09160",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Direct multi-GPU inference kernel contribution. Communicates only scalar QK-Norm statistics and overlaps P2P reduction in a persistent kernel; reports 81.4-93.9% QK-Norm latency reduction and 29.5% average TPOT reduction versus full-vector All-Gather.",
+    "published_at": "2026-08-10T06:16:24Z",
+    "updated_at": "2026-08-10T06:16:24Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "TOPAS: Workflow-Aware Prefix-State Scheduling for Multi-Agent LLM Serving",
     "venue": "Fresh / preprint",
     "topic": "agent serving / prefix cache / scheduling",
@@ -7044,6 +7154,27 @@
       "LLM Serving",
       "KV Cache / Long Context",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "World Action Models in Real Time: An Empirical Study of Smooth Execution via Asynchronous Deployment",
+    "venue": "Fresh / preprint",
+    "topic": "VLA/WAM/Physical AI serving / asynchronous runtime",
+    "arxiv": "2608.01880",
+    "doi": "",
+    "official_id": "arXiv:2608.01880",
+    "paper_url": "https://arxiv.org/abs/2608.01880",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Protected Physical-AI runtime/deployment study directly addressing iterative WAM inference latency by overlapping inference with action execution; evaluates six asynchronous strategies on a 10 Hz bimanual robot and identifies temporal alignment as the key deployment constraint.",
+    "published_at": "2026-08-03T08:24:36Z",
+    "updated_at": "2026-08-11T16:52:57Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "VLA / WAM / Physical AI"
     ]
   },
   {
@@ -9208,6 +9339,28 @@
     "directions": [
       "KV Cache / Long Context",
       "Quantization"
+    ]
+  },
+  {
+    "title": "CateKV: On Sequential Consistency for Long-Context LLM Inference Acceleration",
+    "venue": "ICML 2025",
+    "topic": "KV cache/long-context / efficient attention",
+    "arxiv": "2608.30295",
+    "doi": "",
+    "official_id": "arXiv:2608.30295",
+    "paper_url": "https://arxiv.org/abs/2608.30295",
+    "code_url": "https://github.com/haoyun-jiang/CateKV",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "ICML 2025 direct long-context inference acceleration. Hybrid KV retention by head consistency reduces memory up to 2.72x, accelerates single-sample decoding up to 2.18x, and improves batch throughput up to 3.96x while preserving accuracy.",
+    "published_at": "2026-08-31T06:02:37Z",
+    "updated_at": "2026-08-31T06:02:37Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Attention"
     ]
   },
   {
