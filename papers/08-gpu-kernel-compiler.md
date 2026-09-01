@@ -1,6 +1,6 @@
 # 08 · GPU Kernel / DSL / Compiler
 
-> **309 canonical papers** mapped here, plus a broader **75-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **320 canonical papers** mapped here, plus a broader **75-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -84,7 +84,7 @@
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 | **P1 · Watch** | **Here is a GIFT: Enforcing User Data Isolation in LLM Serving via GPU Information Flow Tracking** | Fresh / preprint | LLM serving / GPU runtime / confidential computing | [Link](https://arxiv.org/abs/2608.25431) | — |
 
-## 🏛️ Classical / Historical · 278 canonical
+## 🏛️ Classical / Historical · 289 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -289,14 +289,25 @@
 | **Canonical** | **RollPacker: Taming Long-Tail Rollouts for RL Post-Training with Tail Batching** | NSDI 2026 | LLM RL post-training systems / rollout scheduling / GPU utilization | [Link](https://arxiv.org/abs/2509.21009) | [Repo](https://github.com/Farrrrland/RollPacker) |
 | **Canonical** | **Supercharging Packet-level Network Simulation of Large Model Training via Memoization and Fast-Forwarding** | NSDI 2026 | distributed training / simulator | [Link](https://www.usenix.org/conference/nsdi26/presentation/long) | — |
 | **Canonical** | **SwiftEP: Accelerating MoE Inference with Buffer Fusion and TMA Offloading** | NSDI 2026 | MoE communication / inference runtime | [Link](https://www.usenix.org/system/files/nsdi26-li-xingyi.pdf) | — |
+| **Canonical** | **Achieving Cloud-Grade SLOs for Local Mixture-of-Experts Inference through CPU–GPU Hybrid Design** | OSDI 2026 | MoE systems / edge-local inference / heterogeneous CPU-GPU | [Link](https://www.usenix.org/conference/osdi26/presentation/wang-wenxin) | — |
 | **Canonical** | **CoPilotIO: CPU as a Co-Pilot for GPU I/O to Free GPU Compute** | OSDI 2026 | GPU I/O / heterogeneous AI systems / MoE inference infrastructure | [Link](https://www.usenix.org/conference/osdi26/presentation/chen-guanyi) | [Repo](https://github.com/ScaleXLab/OSDI26-CoPilotIO) |
 | **Canonical** | **Efficient LLM Serving on Commodity GPU Clusters with Data-Reduced Cross-Instance Orchestration** | OSDI 2026 | commodity-GPU LLM serving | [Link](https://www.usenix.org/system/files/osdi26-du.pdf) | — |
 | **Canonical** | **Kairox: Adaptive GPU-CPU Hybrid LLM Inference via Online Neuron Balancing** | OSDI 2026 | LLM inference / GPU-CPU hybrid execution / activation sparsity / edge inference | [Link](https://www.usenix.org/conference/osdi26/presentation/jiang-yapeng) | — |
+| **Canonical** | **MoonBright: A GPU Memory Allocator with Device-Side Page Table Materialization and Deferred TLB Coherence** | OSDI 2026 | GPU runtime / memory management | [Link](https://www.usenix.org/conference/osdi26/presentation/zhang-yangyu) | — |
+| **Canonical** | **MPK: A Compiler and Runtime for Mega-Kernelizing Tensor Programs** | OSDI 2026 | GPU kernel / compiler / runtime | [Link](https://www.usenix.org/conference/osdi26/presentation/cheng) | — |
+| **Canonical** | **Nixie: Efficient, Transparent Temporal Multiplexing for Consumer GPUs** | OSDI 2026 | GPU runtime / sharing / edge-local systems | [Link](https://www.usenix.org/conference/osdi26/presentation/xu-yechen) | — |
 | **Canonical** | **No Buffer, No Bottleneck: Efficient Zero-Copy KV Cache Offloading for Long-Context LLMs** | OSDI 2026 | LLM serving / KV cache offloading / heterogeneous CPU-GPU memory | [Link](https://www.usenix.org/conference/osdi26/presentation/luo) | — |
+| **Canonical** | **Optimal Software Pipelining and Warp Specialization for Tensor Core GPUs** | OSDI 2026 | GPU kernel / compiler / Tensor Core | [Link](https://www.usenix.org/conference/osdi26/presentation/soi) | — |
 | **Canonical** | **Prism: Cost-Efficient Multi-LLM Serving via GPU Memory Ballooning** | OSDI 2026 | LLM serving / multi-model serving / GPU memory ballooning / production deployment | [Link](https://www.usenix.org/conference/osdi26/presentation/yu-shan) | [Repo](https://github.com/ovg-project/kvcached) |
 | **Canonical** | **Revisiting Pipeline Parallelism for LLM Serving** | OSDI 2026 | LLM serving / pipeline parallelism / scheduling / SGLang | [Link](https://www.usenix.org/conference/osdi26/presentation/hwang) | [Repo](https://github.com/Sys-KU/FastPP) |
 | **Canonical** | **Safeguarding LLM Training at Scale: Online SDC Detection and Insights from 35 Million GPU Hours** | OSDI 2026 | distributed LLM training infrastructure / GPU reliability / online SDC detection | [Link](https://www.usenix.org/conference/osdi26/presentation/lei) | — |
+| **Canonical** | **SDCs in the Wild: Characterizing and Diagnosing SDC-Defective GPUs in Production LLM Training (Operational Systems)** | OSDI 2026 | distributed LLM training / GPU reliability | [Link](https://www.usenix.org/conference/osdi26/presentation/zheng) | — |
+| **Canonical** | **Syncopate: Efficient Multi-GPU AI Kernels via Automatic Chunk-Centric Compute-Communication Overlap** | OSDI 2026 | GPU kernels / distributed training / compiler-runtime | [Link](https://www.usenix.org/conference/osdi26/presentation/qiang) | — |
 | **Canonical** | **Teaching the Old Dog New Tricks: Building Efficient Data Pipelines for Large-Scale LLM Pre-Training (Operational Systems)** | OSDI 2026 | large-scale LLM pre-training infrastructure / data pipeline / storage / checkpoint I/O | [Link](https://www.usenix.org/conference/osdi26/presentation/chen-luofan) | — |
+| **Canonical** | **TileLoom: Automatic Dataflow Planning for Tile-Based Languages on Spatial Dataflow Accelerators** | OSDI 2026 | GPU/accelerator compiler / dataflow planning | [Link](https://www.usenix.org/conference/osdi26/presentation/li-wei) | — |
+| **Canonical** | **UCCL-Tran: An Extensible Software Transport Layer for GPU Networking** | OSDI 2026 | distributed training/inference / GPU networking | [Link](https://www.usenix.org/conference/osdi26/presentation/zhou-yang) | — |
+| **Canonical** | **UEP: Portable Expert-Parallel Communication** | OSDI 2026 | MoE systems / expert-parallel communication | [Link](https://www.usenix.org/conference/osdi26/presentation/mao-ziming-uep) | — |
+| **Canonical** | **VTC: DNN Compilation with Virtual Tensors for Data Movement Elimination** | OSDI 2026 | GPU/accelerator compiler / DNN / data movement | [Link](https://www.usenix.org/conference/osdi26/presentation/hu-muyan) | — |
 | **Canonical** | **Compiling Strassen-like Matrix Multiplication Algorithms to Fast CUDA Kernels** | PLDI 2026 | GPU compiler / matrix multiplication / LLM inference kernel | [Link](https://pldi26.sigplan.org/details/pldi-2026-papers/24/Compiling-Strassen-like-Matrix-Multiplication-Algorithms-to-Fast-CUDA-Kernels) | [Repo](https://github.com/microsoft/subcuber) |
 | **Canonical** | **Modular GPU Programming with Typed Perspectives** | PLDI 2026 | GPU kernel DSL / compiler / Tensor Core programming | [Link](https://arxiv.org/abs/2511.11939) | — |
 | **Canonical** | **Neptune: Advanced ML Operator Fusion for Locality and Parallelism on GPUs** | PLDI 2026 | ML compiler / attention operator fusion | [Link](https://arxiv.org/abs/2510.08726) | [Repo](https://github.com/uiuc-arc/neptune) |

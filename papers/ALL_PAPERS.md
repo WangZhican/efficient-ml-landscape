@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **1299 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **341 visible papers = 91 P0 + 128 P1 + 122 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1324 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **341 visible papers = 91 P0 + 128 P1 + 122 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -364,7 +364,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 1208
+## 🏛️ Classical / Historical · 1233
 
 ### ICML 2026 · 373
 
@@ -842,6 +842,52 @@
 | **Canonical** | **Understanding Inference Scaling for LLMs: Bottlenecks, Trade-offs, and Performance Principles** | ISCA 2026 | LLM inference systems / reasoning workloads / parallelism and scaling | [Link](https://arxiv.org/abs/2605.19775) | — |
 | **Canonical** | **UniCore: A Bit-Width Scalable GEMM Unit for Unified LLM Inference** | ISCA 2026 | LLM accelerator / variable bit-width GEMM | [Link](https://www.iscaconf.org/isca2026/program/) | — |
 | **Canonical** | **XtraMAC: An Efficient MAC Architecture for Mixed-Precision LLM Inference on FPGA** | ISCA 2026 | mixed-precision LLM / FPGA accelerator | [Link](https://arxiv.org/abs/2605.06052) | [Repo](https://github.com/Xtra-Computing/XtraMAC) |
+
+### OSDI 2026 · 41
+
+| Priority | Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|---|
+| **Canonical** | **Achieving Cloud-Grade SLOs for Local Mixture-of-Experts Inference through CPU–GPU Hybrid Design** | OSDI 2026 | MoE systems / edge-local inference / heterogeneous CPU-GPU | [Link](https://www.usenix.org/conference/osdi26/presentation/wang-wenxin) | — |
+| **Canonical** | **ADAngel: Accelerating Arbitrary-Precision Quantized LLMs with Adaptive Computing Mapping** | OSDI 2026 | arbitrary-precision quantized LLM runtime | [Link](https://www.usenix.org/system/files/osdi26-liu-yao.pdf) | — |
+| **Canonical** | **BatchGen: An Architecture for Scalable and Efficient Batch Inference** | OSDI 2026 | LLM batch inference / MoE serving / distributed inference | [Link](https://arxiv.org/abs/2606.21712) | [Repo](https://github.com/batchgen-project/batchgen) |
+| **Canonical** | **Breaking the Reward Barrier: Accelerating Tree-of-Thought Reasoning via Speculative Exploration** | OSDI 2026 | efficient reasoning / speculative execution | [Link](https://www.usenix.org/conference/osdi26/presentation/zhong) | — |
+| **Canonical** | **CoPilotIO: CPU as a Co-Pilot for GPU I/O to Free GPU Compute** | OSDI 2026 | GPU I/O / heterogeneous AI systems / MoE inference infrastructure | [Link](https://www.usenix.org/conference/osdi26/presentation/chen-guanyi) | [Repo](https://github.com/ScaleXLab/OSDI26-CoPilotIO) |
+| **Canonical** | **DynaRL: Flexible and Dynamic Scheduling of Large-Scale Reinforcement Learning Training** | OSDI 2026 | efficient reasoning / RL scheduling | [Link](https://www.usenix.org/conference/osdi26/presentation/wang-yuanqing) | — |
+| **Canonical** | **ECHO: Efficient KV Cache Offloading with Lossless Prefetching for Serving Native Sparse Attention LLMs** | OSDI 2026 | sparse-attention KV-cache serving | [Link](https://www.usenix.org/system/files/osdi26-liu-guangda.pdf) | — |
+| **Canonical** | **Efficient LLM Serving on Commodity GPU Clusters with Data-Reduced Cross-Instance Orchestration** | OSDI 2026 | commodity-GPU LLM serving | [Link](https://www.usenix.org/system/files/osdi26-du.pdf) | — |
+| **Canonical** | **Heterogeneity at Hyperscale: Characterization and Scheduling of Large Production AI Clusters at Alibaba (Operational Systems)** | OSDI 2026 | distributed training/inference / AI cluster scheduling | [Link](https://www.usenix.org/conference/osdi26/presentation/li-suyi) | — |
+| **Canonical** | **Inference in the Shadows: Taming Memory Bandwidth Contention in Mobile LLM Inference with Sereno** | OSDI 2026 | mobile LLM inference / edge serving / memory bandwidth contention / speculative decoding | [Link](https://www.usenix.org/conference/osdi26/presentation/xin) | — |
+| **Canonical** | **Kairox: Adaptive GPU-CPU Hybrid LLM Inference via Online Neuron Balancing** | OSDI 2026 | LLM inference / GPU-CPU hybrid execution / activation sparsity / edge inference | [Link](https://www.usenix.org/conference/osdi26/presentation/jiang-yapeng) | — |
+| **Canonical** | **Kareus: Joint Reduction of Dynamic and Static Energy in Large Model Training** | OSDI 2026 | distributed training / energy efficiency | [Link](https://www.usenix.org/conference/osdi26/presentation/wu-ruofan) | — |
+| **Canonical** | **MoonBright: A GPU Memory Allocator with Device-Side Page Table Materialization and Deferred TLB Coherence** | OSDI 2026 | GPU runtime / memory management | [Link](https://www.usenix.org/conference/osdi26/presentation/zhang-yangyu) | — |
+| **Canonical** | **MPK: A Compiler and Runtime for Mega-Kernelizing Tensor Programs** | OSDI 2026 | GPU kernel / compiler / runtime | [Link](https://www.usenix.org/conference/osdi26/presentation/cheng) | — |
+| **Canonical** | **Nixie: Efficient, Transparent Temporal Multiplexing for Consumer GPUs** | OSDI 2026 | GPU runtime / sharing / edge-local systems | [Link](https://www.usenix.org/conference/osdi26/presentation/xu-yechen) | — |
+| **Canonical** | **No Buffer, No Bottleneck: Efficient Zero-Copy KV Cache Offloading for Long-Context LLMs** | OSDI 2026 | LLM serving / KV cache offloading / heterogeneous CPU-GPU memory | [Link](https://www.usenix.org/conference/osdi26/presentation/luo) | — |
+| **Canonical** | **OpenTela: Unifying Decentralized Computing Resources for Heterogeneous LLM Serving (Operational Systems)** | OSDI 2026 | LLM serving / heterogeneous clusters / decentralized orchestration / operational systems | [Link](https://www.usenix.org/conference/osdi26/presentation/yao) | [Repo](https://github.com/eth-easl/opentela) |
+| **Canonical** | **OpGuard: Bitwise Alignment for Precise and General Debugging of Production LLM Training** | OSDI 2026 | distributed LLM training / debugging / reliability | [Link](https://www.usenix.org/conference/osdi26/presentation/zhou-ziming) | — |
+| **Canonical** | **Optimal Software Pipelining and Warp Specialization for Tensor Core GPUs** | OSDI 2026 | GPU kernel / compiler / Tensor Core | [Link](https://www.usenix.org/conference/osdi26/presentation/soi) | — |
+| **Canonical** | **Prism: Cost-Efficient Multi-LLM Serving via GPU Memory Ballooning** | OSDI 2026 | LLM serving / multi-model serving / GPU memory ballooning / production deployment | [Link](https://www.usenix.org/conference/osdi26/presentation/yu-shan) | [Repo](https://github.com/ovg-project/kvcached) |
+| **Canonical** | **Quota Marketplace: Dynamic Pricing for Efficient Allocation of ML Training Resources** | OSDI 2026 | distributed training / cluster scheduling / resource allocation | [Link](https://www.usenix.org/conference/osdi26/presentation/sivan) | — |
+| **Canonical** | **Revisiting Pipeline Parallelism for LLM Serving** | OSDI 2026 | LLM serving / pipeline parallelism / scheduling / SGLang | [Link](https://www.usenix.org/conference/osdi26/presentation/hwang) | [Repo](https://github.com/Sys-KU/FastPP) |
+| **Canonical** | **RLinf: Flexible and Efficient Large-Scale Reinforcement Learning via Macro-to-Micro Flow Transformation** | OSDI 2026 | efficient reasoning / large-scale RL systems | [Link](https://www.usenix.org/conference/osdi26/presentation/yu-chao) | — |
+| **Canonical** | **RobustRL: Role-Based Fault Tolerance System for RL Post-Training** | OSDI 2026 | efficient reasoning / RL post-training reliability | [Link](https://www.usenix.org/conference/osdi26/presentation/chen-zhenqian) | — |
+| **Canonical** | **RollArt: Disaggregated Multi-Task Agentic RL Training at Scale** | OSDI 2026 | efficient reasoning / agentic RL systems | [Link](https://www.usenix.org/conference/osdi26/presentation/gao) | — |
+| **Canonical** | **Safeguarding LLM Training at Scale: Online SDC Detection and Insights from 35 Million GPU Hours** | OSDI 2026 | distributed LLM training infrastructure / GPU reliability / online SDC detection | [Link](https://www.usenix.org/conference/osdi26/presentation/lei) | — |
+| **Canonical** | **SDCs in the Wild: Characterizing and Diagnosing SDC-Defective GPUs in Production LLM Training (Operational Systems)** | OSDI 2026 | distributed LLM training / GPU reliability | [Link](https://www.usenix.org/conference/osdi26/presentation/zheng) | — |
+| **Canonical** | **Seer: Online Context Learning for Fast Synchronous LLM Reinforcement Learning** | OSDI 2026 | RL rollout systems | [Link](https://www.usenix.org/system/files/osdi26-qin.pdf) | — |
+| **Canonical** | **Simple Is Better: Multiplication May Be All You Need for LLM Request Scheduling** | OSDI 2026 | LLM serving / request scheduling | [Link](https://www.usenix.org/conference/osdi26/presentation/zhang-dingyan) | — |
+| **Canonical** | **Strata: Hierarchical Context Caching for Long Context Language Model Serving** | OSDI 2026 | long-context KV-cache serving | [Link](https://www.usenix.org/system/files/osdi26-xie-zhiqiang.pdf) | — |
+| **Canonical** | **StriaTrace: Efficient Tracing and Diagnosis for Online LLM Inference (Operational Systems)** | OSDI 2026 | LLM serving observability / tracing / production AI infrastructure | [Link](https://www.usenix.org/conference/osdi26/presentation/wu-haonan) | — |
+| **Canonical** | **Syncopate: Efficient Multi-GPU AI Kernels via Automatic Chunk-Centric Compute-Communication Overlap** | OSDI 2026 | GPU kernels / distributed training / compiler-runtime | [Link](https://www.usenix.org/conference/osdi26/presentation/qiang) | — |
+| **Canonical** | **Teaching the Old Dog New Tricks: Building Efficient Data Pipelines for Large-Scale LLM Pre-Training (Operational Systems)** | OSDI 2026 | large-scale LLM pre-training infrastructure / data pipeline / storage / checkpoint I/O | [Link](https://www.usenix.org/conference/osdi26/presentation/chen-luofan) | — |
+| **Canonical** | **Tessera: A Holistic Pipeline Parallelism Framework for Trillion-Parameter Heterogeneous MoE Training (Operational Systems)** | OSDI 2026 | distributed training / MoE / pipeline parallelism | [Link](https://www.usenix.org/conference/osdi26/presentation/hu-weifang) | — |
+| **Canonical** | **TileLoom: Automatic Dataflow Planning for Tile-Based Languages on Spatial Dataflow Accelerators** | OSDI 2026 | GPU/accelerator compiler / dataflow planning | [Link](https://www.usenix.org/conference/osdi26/presentation/li-wei) | — |
+| **Canonical** | **TrainMover: An Interruption-Resilient Runtime for ML Training** | OSDI 2026 | distributed training / runtime / fault tolerance | [Link](https://www.usenix.org/conference/osdi26/presentation/lao) | — |
+| **Canonical** | **UCCL-Tran: An Extensible Software Transport Layer for GPU Networking** | OSDI 2026 | distributed training/inference / GPU networking | [Link](https://www.usenix.org/conference/osdi26/presentation/zhou-yang) | — |
+| **Canonical** | **UEP: Portable Expert-Parallel Communication** | OSDI 2026 | MoE systems / expert-parallel communication | [Link](https://www.usenix.org/conference/osdi26/presentation/mao-ziming-uep) | — |
+| **Canonical** | **Unleash All Cores: Asymmetry-Aware Scalable DNN Inference on Mobile CPUs** | OSDI 2026 | edge AI / DNN inference / mobile CPU | [Link](https://www.usenix.org/conference/osdi26/presentation/sang) | — |
+| **Canonical** | **VTC: DNN Compilation with Virtual Tensors for Data Movement Elimination** | OSDI 2026 | GPU/accelerator compiler / DNN / data movement | [Link](https://www.usenix.org/conference/osdi26/presentation/hu-muyan) | — |
+| **Canonical** | **Weave: Efficient Co-Scheduling for Disaggregated RL Post-Training** | OSDI 2026 | efficient reasoning / RL post-training systems | [Link](https://www.usenix.org/conference/osdi26/presentation/wu-tianyuan) | — |
 
 ### MLSys 2026 · 38
 
@@ -1496,27 +1542,6 @@
 | **Canonical** | **ReaLM: Reliable and Efficient Large Language Model Inference with Statistical Algorithm-Based Fault Tolerance** | DAC 2025 | reliable and energy-efficient LLM inference / statistical ABFT / algorithm-circuit co-design | [Link](https://arxiv.org/abs/2503.24053) | [Repo](https://github.com/PKU-SEC-Lab/ReaLM_DAC25) |
 | **Canonical** | **SpecASR: Accelerating LLM-based Automatic Speech Recognition via Speculative Decoding** | DAC 2025 | speculative decoding / audio-language inference / real-time ASR | [Link](https://arxiv.org/abs/2507.18181) | — |
 | **Canonical** | **SQ-DM: Accelerating Diffusion Models with Aggressive Quantization and Temporal Sparsity** | DAC 2025 | diffusion acceleration / low-bit quantization / temporal activation sparsity / accelerator co-design | [Link](https://arxiv.org/abs/2501.15448) | — |
-
-### OSDI 2026 · 16
-
-| Priority | Paper | Venue | Topic | Paper | Code |
-|---|---|---|---|---|---|
-| **Canonical** | **ADAngel: Accelerating Arbitrary-Precision Quantized LLMs with Adaptive Computing Mapping** | OSDI 2026 | arbitrary-precision quantized LLM runtime | [Link](https://www.usenix.org/system/files/osdi26-liu-yao.pdf) | — |
-| **Canonical** | **BatchGen: An Architecture for Scalable and Efficient Batch Inference** | OSDI 2026 | LLM batch inference / MoE serving / distributed inference | [Link](https://arxiv.org/abs/2606.21712) | [Repo](https://github.com/batchgen-project/batchgen) |
-| **Canonical** | **CoPilotIO: CPU as a Co-Pilot for GPU I/O to Free GPU Compute** | OSDI 2026 | GPU I/O / heterogeneous AI systems / MoE inference infrastructure | [Link](https://www.usenix.org/conference/osdi26/presentation/chen-guanyi) | [Repo](https://github.com/ScaleXLab/OSDI26-CoPilotIO) |
-| **Canonical** | **ECHO: Efficient KV Cache Offloading with Lossless Prefetching for Serving Native Sparse Attention LLMs** | OSDI 2026 | sparse-attention KV-cache serving | [Link](https://www.usenix.org/system/files/osdi26-liu-guangda.pdf) | — |
-| **Canonical** | **Efficient LLM Serving on Commodity GPU Clusters with Data-Reduced Cross-Instance Orchestration** | OSDI 2026 | commodity-GPU LLM serving | [Link](https://www.usenix.org/system/files/osdi26-du.pdf) | — |
-| **Canonical** | **Inference in the Shadows: Taming Memory Bandwidth Contention in Mobile LLM Inference with Sereno** | OSDI 2026 | mobile LLM inference / edge serving / memory bandwidth contention / speculative decoding | [Link](https://www.usenix.org/conference/osdi26/presentation/xin) | — |
-| **Canonical** | **Kairox: Adaptive GPU-CPU Hybrid LLM Inference via Online Neuron Balancing** | OSDI 2026 | LLM inference / GPU-CPU hybrid execution / activation sparsity / edge inference | [Link](https://www.usenix.org/conference/osdi26/presentation/jiang-yapeng) | — |
-| **Canonical** | **No Buffer, No Bottleneck: Efficient Zero-Copy KV Cache Offloading for Long-Context LLMs** | OSDI 2026 | LLM serving / KV cache offloading / heterogeneous CPU-GPU memory | [Link](https://www.usenix.org/conference/osdi26/presentation/luo) | — |
-| **Canonical** | **OpenTela: Unifying Decentralized Computing Resources for Heterogeneous LLM Serving (Operational Systems)** | OSDI 2026 | LLM serving / heterogeneous clusters / decentralized orchestration / operational systems | [Link](https://www.usenix.org/conference/osdi26/presentation/yao) | [Repo](https://github.com/eth-easl/opentela) |
-| **Canonical** | **Prism: Cost-Efficient Multi-LLM Serving via GPU Memory Ballooning** | OSDI 2026 | LLM serving / multi-model serving / GPU memory ballooning / production deployment | [Link](https://www.usenix.org/conference/osdi26/presentation/yu-shan) | [Repo](https://github.com/ovg-project/kvcached) |
-| **Canonical** | **Revisiting Pipeline Parallelism for LLM Serving** | OSDI 2026 | LLM serving / pipeline parallelism / scheduling / SGLang | [Link](https://www.usenix.org/conference/osdi26/presentation/hwang) | [Repo](https://github.com/Sys-KU/FastPP) |
-| **Canonical** | **Safeguarding LLM Training at Scale: Online SDC Detection and Insights from 35 Million GPU Hours** | OSDI 2026 | distributed LLM training infrastructure / GPU reliability / online SDC detection | [Link](https://www.usenix.org/conference/osdi26/presentation/lei) | — |
-| **Canonical** | **Seer: Online Context Learning for Fast Synchronous LLM Reinforcement Learning** | OSDI 2026 | RL rollout systems | [Link](https://www.usenix.org/system/files/osdi26-qin.pdf) | — |
-| **Canonical** | **Strata: Hierarchical Context Caching for Long Context Language Model Serving** | OSDI 2026 | long-context KV-cache serving | [Link](https://www.usenix.org/system/files/osdi26-xie-zhiqiang.pdf) | — |
-| **Canonical** | **StriaTrace: Efficient Tracing and Diagnosis for Online LLM Inference (Operational Systems)** | OSDI 2026 | LLM serving observability / tracing / production AI infrastructure | [Link](https://www.usenix.org/conference/osdi26/presentation/wu-haonan) | — |
-| **Canonical** | **Teaching the Old Dog New Tricks: Building Efficient Data Pipelines for Large-Scale LLM Pre-Training (Operational Systems)** | OSDI 2026 | large-scale LLM pre-training infrastructure / data pipeline / storage / checkpoint I/O | [Link](https://www.usenix.org/conference/osdi26/presentation/chen-luofan) | — |
 
 ### SIGCOMM 2025 · 15
 

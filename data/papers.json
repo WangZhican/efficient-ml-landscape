@@ -23031,6 +23031,29 @@
     ]
   },
   {
+    "title": "Achieving Cloud-Grade SLOs for Local Mixture-of-Experts Inference through CPU–GPU Hybrid Design",
+    "venue": "OSDI 2026",
+    "topic": "MoE systems / edge-local inference / heterogeneous CPU-GPU",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX_OSDI26_WANG_WENXIN",
+    "paper_url": "https://www.usenix.org/conference/osdi26/presentation/wang-wenxin",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Direct OSDI 2026 local MoE inference system using CPU-GPU hybrid execution and prefill-decode disaggregation.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "MoE Systems / Accelerators",
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "ADAngel: Accelerating Arbitrary-Precision Quantized LLMs with Adaptive Computing Mapping",
     "venue": "OSDI 2026",
     "topic": "arbitrary-precision quantized LLM runtime",
@@ -23074,6 +23097,27 @@
     ]
   },
   {
+    "title": "Breaking the Reward Barrier: Accelerating Tree-of-Thought Reasoning via Speculative Exploration",
+    "venue": "OSDI 2026",
+    "topic": "efficient reasoning / speculative execution",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX_OSDI26_ZHONG",
+    "paper_url": "https://www.usenix.org/conference/osdi26/presentation/zhong",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Direct OSDI 2026 efficient reasoning systems work accelerating tree-of-thought via speculative exploration.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Speculative Decoding",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "CoPilotIO: CPU as a Co-Pilot for GPU I/O to Free GPU Compute",
     "venue": "OSDI 2026",
     "topic": "GPU I/O / heterogeneous AI systems / MoE inference infrastructure",
@@ -23093,6 +23137,27 @@
       "MoE Systems / Accelerators",
       "GPU Kernel / DSL / Compiler",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "DynaRL: Flexible and Dynamic Scheduling of Large-Scale Reinforcement Learning Training",
+    "venue": "OSDI 2026",
+    "topic": "efficient reasoning / RL scheduling",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX_OSDI26_WANG_YUANQING",
+    "paper_url": "https://www.usenix.org/conference/osdi26/presentation/wang-yuanqing",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Direct OSDI 2026 systems work on dynamic scheduling for large-scale RL training.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -23141,6 +23206,28 @@
     ]
   },
   {
+    "title": "Heterogeneity at Hyperscale: Characterization and Scheduling of Large Production AI Clusters at Alibaba (Operational Systems)",
+    "venue": "OSDI 2026",
+    "topic": "distributed training/inference / AI cluster scheduling",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX_OSDI26_LI_SUYI",
+    "paper_url": "https://www.usenix.org/conference/osdi26/presentation/li-suyi",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Direct OSDI 2026 operational AI-infrastructure work characterizing and scheduling large heterogeneous production clusters.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Inference in the Shadows: Taming Memory Bandwidth Contention in Mobile LLM Inference with Sereno",
     "venue": "OSDI 2026",
     "topic": "mobile LLM inference / edge serving / memory bandwidth contention / speculative decoding",
@@ -23181,6 +23268,88 @@
     "directions": [
       "LLM Serving",
       "Sparsity / Pruning",
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Kareus: Joint Reduction of Dynamic and Static Energy in Large Model Training",
+    "venue": "OSDI 2026",
+    "topic": "distributed training / energy efficiency",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX_OSDI26_WU_RUOFAN",
+    "paper_url": "https://www.usenix.org/conference/osdi26/presentation/wu-ruofan",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Direct OSDI 2026 large-model training efficiency work targeting both dynamic and static energy.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "MoonBright: A GPU Memory Allocator with Device-Side Page Table Materialization and Deferred TLB Coherence",
+    "venue": "OSDI 2026",
+    "topic": "GPU runtime / memory management",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX_OSDI26_ZHANG_YANGYU",
+    "paper_url": "https://www.usenix.org/conference/osdi26/presentation/zhang-yangyu",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Direct OSDI 2026 GPU-runtime memory allocator relevant to AI workloads and accelerator efficiency.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "MPK: A Compiler and Runtime for Mega-Kernelizing Tensor Programs",
+    "venue": "OSDI 2026",
+    "topic": "GPU kernel / compiler / runtime",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX_OSDI26_CHENG",
+    "paper_url": "https://www.usenix.org/conference/osdi26/presentation/cheng",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Direct OSDI 2026 compiler-runtime work for mega-kernelizing tensor programs.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "Nixie: Efficient, Transparent Temporal Multiplexing for Consumer GPUs",
+    "venue": "OSDI 2026",
+    "topic": "GPU runtime / sharing / edge-local systems",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX_OSDI26_XU_YECHEN",
+    "paper_url": "https://www.usenix.org/conference/osdi26/presentation/xu-yechen",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Direct OSDI 2026 GPU virtualization/runtime work enabling efficient transparent temporal multiplexing on consumer GPUs.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
       "GPU Kernel / DSL / Compiler",
       "Edge / Cloud / Heterogeneous AI"
     ]
@@ -23231,6 +23400,46 @@
     ]
   },
   {
+    "title": "OpGuard: Bitwise Alignment for Precise and General Debugging of Production LLM Training",
+    "venue": "OSDI 2026",
+    "topic": "distributed LLM training / debugging / reliability",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX_OSDI26_ZHOU_ZIMING",
+    "paper_url": "https://www.usenix.org/conference/osdi26/presentation/zhou-ziming",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Direct OSDI 2026 production LLM-training debugging system using bitwise alignment.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "Optimal Software Pipelining and Warp Specialization for Tensor Core GPUs",
+    "venue": "OSDI 2026",
+    "topic": "GPU kernel / compiler / Tensor Core",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX_OSDI26_SOI",
+    "paper_url": "https://www.usenix.org/conference/osdi26/presentation/soi",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Direct OSDI 2026 GPU compiler/kernel work on software pipelining and warp specialization for Tensor Cores.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "Prism: Cost-Efficient Multi-LLM Serving via GPU Memory Ballooning",
     "venue": "OSDI 2026",
     "topic": "LLM serving / multi-model serving / GPU memory ballooning / production deployment",
@@ -23250,6 +23459,27 @@
       "LLM Serving",
       "KV Cache / Long Context",
       "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "Quota Marketplace: Dynamic Pricing for Efficient Allocation of ML Training Resources",
+    "venue": "OSDI 2026",
+    "topic": "distributed training / cluster scheduling / resource allocation",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX_OSDI26_SIVAN",
+    "paper_url": "https://www.usenix.org/conference/osdi26/presentation/sivan",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Direct OSDI 2026 ML cluster resource-allocation system using dynamic pricing.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference"
     ]
   },
   {
@@ -23275,6 +23505,67 @@
     ]
   },
   {
+    "title": "RLinf: Flexible and Efficient Large-Scale Reinforcement Learning via Macro-to-Micro Flow Transformation",
+    "venue": "OSDI 2026",
+    "topic": "efficient reasoning / large-scale RL systems",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX_OSDI26_YU_CHAO",
+    "paper_url": "https://www.usenix.org/conference/osdi26/presentation/yu-chao",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Direct OSDI 2026 large-scale RL training system focused on flexible and efficient execution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Distributed Training / Inference",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "RobustRL: Role-Based Fault Tolerance System for RL Post-Training",
+    "venue": "OSDI 2026",
+    "topic": "efficient reasoning / RL post-training reliability",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX_OSDI26_CHEN_ZHENQIAN",
+    "paper_url": "https://www.usenix.org/conference/osdi26/presentation/chen-zhenqian",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Direct OSDI 2026 RL post-training fault-tolerance system with role-based recovery.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "RollArt: Disaggregated Multi-Task Agentic RL Training at Scale",
+    "venue": "OSDI 2026",
+    "topic": "efficient reasoning / agentic RL systems",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX_OSDI26_GAO",
+    "paper_url": "https://www.usenix.org/conference/osdi26/presentation/gao",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Direct OSDI 2026 agentic RL infrastructure using disaggregated multi-task training at scale.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "Safeguarding LLM Training at Scale: Online SDC Detection and Insights from 35 Million GPU Hours",
     "venue": "OSDI 2026",
     "topic": "distributed LLM training infrastructure / GPU reliability / online SDC detection",
@@ -23286,6 +23577,27 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "BACKFILL_HIGH",
     "why": "AEGIS is an online SDC detection framework tailored to production-scale LLM training. USENIX reports deployment across 35 million GPU-hours, 18 real SDC incidents and 13 faulty GPUs detected, with only 0.86% training overhead. Direct large-scale AI training infrastructure and reliability systems contribution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "SDCs in the Wild: Characterizing and Diagnosing SDC-Defective GPUs in Production LLM Training (Operational Systems)",
+    "venue": "OSDI 2026",
+    "topic": "distributed LLM training / GPU reliability",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX_OSDI26_ZHENG",
+    "paper_url": "https://www.usenix.org/conference/osdi26/presentation/zheng",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Direct OSDI 2026 production LLM-training reliability work characterizing and diagnosing SDC-defective GPUs.",
     "published_at": "",
     "updated_at": "",
     "is_latest_30d": false,
@@ -23313,6 +23625,26 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "Simple Is Better: Multiplication May Be All You Need for LLM Request Scheduling",
+    "venue": "OSDI 2026",
+    "topic": "LLM serving / request scheduling",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX_OSDI26_ZHANG_DINGYAN",
+    "paper_url": "https://www.usenix.org/conference/osdi26/presentation/zhang-dingyan",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Direct OSDI 2026 LLM serving systems work on request scheduling.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving"
     ]
   },
   {
@@ -23357,6 +23689,27 @@
     ]
   },
   {
+    "title": "Syncopate: Efficient Multi-GPU AI Kernels via Automatic Chunk-Centric Compute-Communication Overlap",
+    "venue": "OSDI 2026",
+    "topic": "GPU kernels / distributed training / compiler-runtime",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX_OSDI26_QIANG",
+    "paper_url": "https://www.usenix.org/conference/osdi26/presentation/qiang",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Direct OSDI 2026 multi-GPU AI-kernel optimization work on automatic compute-communication overlap.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "Teaching the Old Dog New Tricks: Building Efficient Data Pipelines for Large-Scale LLM Pre-Training (Operational Systems)",
     "venue": "OSDI 2026",
     "topic": "large-scale LLM pre-training infrastructure / data pipeline / storage / checkpoint I/O",
@@ -23374,6 +23727,175 @@
     "tracking_tier": "Canonical",
     "directions": [
       "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "Tessera: A Holistic Pipeline Parallelism Framework for Trillion-Parameter Heterogeneous MoE Training (Operational Systems)",
+    "venue": "OSDI 2026",
+    "topic": "distributed training / MoE / pipeline parallelism",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX_OSDI26_HU_WEIFANG",
+    "paper_url": "https://www.usenix.org/conference/osdi26/presentation/hu-weifang",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Direct OSDI 2026 trillion-parameter heterogeneous MoE training systems work.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "MoE Systems / Accelerators",
+      "Distributed Training / Inference",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "TileLoom: Automatic Dataflow Planning for Tile-Based Languages on Spatial Dataflow Accelerators",
+    "venue": "OSDI 2026",
+    "topic": "GPU/accelerator compiler / dataflow planning",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX_OSDI26_LI_WEI",
+    "paper_url": "https://www.usenix.org/conference/osdi26/presentation/li-wei",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Direct OSDI 2026 compiler-system work on automatic dataflow planning for tile-based accelerator programming.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "TrainMover: An Interruption-Resilient Runtime for ML Training",
+    "venue": "OSDI 2026",
+    "topic": "distributed training / runtime / fault tolerance",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX_OSDI26_LAO",
+    "paper_url": "https://www.usenix.org/conference/osdi26/presentation/lao",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Direct OSDI 2026 ML-training runtime focused on interruption-resilient execution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "UCCL-Tran: An Extensible Software Transport Layer for GPU Networking",
+    "venue": "OSDI 2026",
+    "topic": "distributed training/inference / GPU networking",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX_OSDI26_ZHOU_YANG",
+    "paper_url": "https://www.usenix.org/conference/osdi26/presentation/zhou-yang",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Direct OSDI 2026 GPU networking transport layer relevant to distributed AI communication.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "UEP: Portable Expert-Parallel Communication",
+    "venue": "OSDI 2026",
+    "topic": "MoE systems / expert-parallel communication",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX_OSDI26_MAO_ZIMING_UEP",
+    "paper_url": "https://www.usenix.org/conference/osdi26/presentation/mao-ziming-uep",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Direct OSDI 2026 expert-parallel communication system targeting heterogeneous GPU/NIC portability.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "MoE Systems / Accelerators",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Unleash All Cores: Asymmetry-Aware Scalable DNN Inference on Mobile CPUs",
+    "venue": "OSDI 2026",
+    "topic": "edge AI / DNN inference / mobile CPU",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX_OSDI26_SANG",
+    "paper_url": "https://www.usenix.org/conference/osdi26/presentation/sang",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Direct OSDI 2026 edge-inference systems work on scalable asymmetry-aware DNN execution on mobile CPUs.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "VTC: DNN Compilation with Virtual Tensors for Data Movement Elimination",
+    "venue": "OSDI 2026",
+    "topic": "GPU/accelerator compiler / DNN / data movement",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX_OSDI26_HU_MUYAN",
+    "paper_url": "https://www.usenix.org/conference/osdi26/presentation/hu-muyan",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Direct OSDI 2026 DNN compiler work using virtual tensors to eliminate data movement.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "Weave: Efficient Co-Scheduling for Disaggregated RL Post-Training",
+    "venue": "OSDI 2026",
+    "topic": "efficient reasoning / RL post-training systems",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX_OSDI26_WU_TIANYUAN",
+    "paper_url": "https://www.usenix.org/conference/osdi26/presentation/wu-tianyuan",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Direct OSDI 2026 RL post-training systems work on disaggregated co-scheduling.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
