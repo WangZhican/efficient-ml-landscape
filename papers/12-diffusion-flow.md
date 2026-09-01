@@ -1,6 +1,6 @@
 # 12 · Diffusion / Flow Acceleration
 
-> **161 canonical papers** mapped here, plus a broader **28-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **162 canonical papers** mapped here, plus a broader **28-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -37,7 +37,7 @@
 | **P2 · Relevant** | **OnlineCache: Learning Dynamic Caching Policies with Error Correction for Efficient Diffusion Inference** | Fresh / preprint | LLM serving; generation acceleration; edge / heterogeneous AI | [Link](https://arxiv.org/abs/2607.29398) | — |
 | **P1 · Watch** | **CORA-Diff: Confidence-Oriented Residual Acceptance for Efficient Diffusion Language Model Inference** | Fresh / preprint | diffusion language model inference / training-free residual acceptance / decoding acceleration | [Link](https://arxiv.org/abs/2608.11235) | — |
 
-## 🏛️ Classical / Historical · 148 canonical
+## 🏛️ Classical / Historical · 149 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -60,6 +60,7 @@
 | **Canonical** | **MoDM: Efficient Serving for Image Generation via Mixture-of-Diffusion Models** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://arxiv.org/abs/2503.11972) | — |
 | **Canonical** | **TetriServe: Efficiently Serving Mixed DiT Workloads** | ASPLOS 2026 | diffusion/DiT serving / scheduling | [Link](https://arxiv.org/abs/2510.01565) | — |
 | **Canonical** | **Accelerating Autoregressive Video Diffusion via History-Guided Cache and Residual Correction** | CVPR 2026 | autoregressive video diffusion / caching | [Link](https://openaccess.thecvf.com/content/CVPR2026/papers/Nan_Accelerating_Autoregressive_Video_Diffusion_via_History-Guided_Cache_and_Residual_Correction_CVPR_2026_paper.pdf) | — |
+| **Canonical** | **Accelerating Diffusion via Hybrid Data-Pipeline Parallelism Based on Conditional Guidance Scheduling** | CVPR 2026 | diffusion/flow acceleration / distributed inference / multi-GPU scheduling | [Link](https://openaccess.thecvf.com/content/CVPR2026/html/Jung_Accelerating_Diffusion_via_Hybrid_Data-Pipeline_Parallelism_Based_on_Conditional_Guidance_CVPR_2026_paper.html) | [Repo](https://github.com/kaist-dmlab/Hybridiff) |
 | **Canonical** | **Accelerating Diffusion-based Video Editing via Heterogeneous Caching: Beyond Full Computing at Sampled Denoising Timestep** | CVPR 2026 | video diffusion editing / heterogeneous caching | [Link](https://openaccess.thecvf.com/content/CVPR2026/papers/Liu_Accelerating_Diffusion-based_Video_Editing_via_Heterogeneous_Caching_Beyond_Full_Computing_CVPR_2026_paper.pdf) | — |
 | **Canonical** | **Adaptive Spectral Feature Forecasting for Diffusion Sampling Acceleration** | CVPR 2026 | diffusion/video generation acceleration / spectral feature forecasting / long-range reuse | [Link](https://arxiv.org/abs/2603.01623) | [Repo](https://github.com/hanjq17/Spectrum) |
 | **Canonical** | **Attention Surgery: An Efficient Recipe to Linearize Your Video Diffusion Transformer** | CVPR 2026 | video diffusion / linear attention / mobile inference | [Link](https://openaccess.thecvf.com/content/CVPR2026/html/Ghafoorian_Attention_Surgery_An_Efficient_Recipe_to_Linearize_Your_Video_Diffusion_CVPR_2026_paper.html) | — |

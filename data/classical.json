@@ -3254,6 +3254,29 @@
     ]
   },
   {
+    "title": "Accelerating Diffusion via Hybrid Data-Pipeline Parallelism Based on Conditional Guidance Scheduling",
+    "venue": "CVPR 2026",
+    "topic": "diffusion/flow acceleration / distributed inference / multi-GPU scheduling",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "cvf:Jung_Accelerating_Diffusion_via_Hybrid_Data-Pipeline_Parallelism_Based_on_Conditional_Guidance_CVPR_2026_paper",
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Jung_Accelerating_Diffusion_via_Hybrid_Data-Pipeline_Parallelism_Based_on_Conditional_Guidance_CVPR_2026_paper.html",
+    "code_url": "https://github.com/kaist-dmlab/Hybridiff",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Direct distributed diffusion/flow inference acceleration. Hybridiff combines condition-based data partitioning with adaptive pipeline switching and reports 2.31x and 2.07x latency reduction for SDXL and SD3 on two RTX 3090 GPUs while preserving quality.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "Accelerating Diffusion-based Video Editing via Heterogeneous Caching: Beyond Full Computing at Sampled Denoising Timestep",
     "venue": "CVPR 2026",
     "topic": "video diffusion editing / heterogeneous caching",
