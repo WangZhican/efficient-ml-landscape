@@ -1,6 +1,6 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **1192 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **1208 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
@@ -641,6 +641,43 @@
 | **Canonical** | **viNPU: Optimizing Vision Transformer Inference on Mobile NPUs** | EuroSys 2026 | edge AI / mobile NPU / Vision Transformer inference optimization | [Link](https://2026.eurosys.org/papers.html) | — |
 | **Canonical** | **Zeppelin: Balancing Variable-length Workloads in Data Parallel Large Model Training** | EuroSys 2026 | distributed LLM training / variable-length balancing / communication optimization | [Link](https://arxiv.org/abs/2509.21841) | — |
 
+## NSDI 2026 · 32
+
+| Priority | Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|---|
+| **Canonical** | **Agentix: An Efficient Serving Engine for LLM Agents as General Programs** | NSDI 2026 | agentic LLM serving | [Link](https://www.usenix.org/system/files/nsdi26-luo.pdf) | — |
+| **Canonical** | **Attack of the Bubbles: Straggler-Resilient Pipeline Parallelism for Large Model Training** | NSDI 2026 | distributed training / pipeline parallelism | [Link](https://www.usenix.org/conference/nsdi26/presentation/wu-tianyuan) | — |
+| **Canonical** | **Checkmate: Zero Performance Overhead Model Checkpointing via Network Gradient Replication** | NSDI 2026 | distributed training / checkpointing | [Link](https://www.usenix.org/conference/nsdi26/presentation/bhardwaj) | — |
+| **Canonical** | **Cortex: Achieving Low-Latency, Cost-Efficient Remote Data Access For LLM via Semantic-Aware Knowledge Caching** | NSDI 2026 | agent systems / semantic knowledge caching | [Link](https://www.usenix.org/system/files/nsdi26-ruan-cortex.pdf) | — |
+| **Canonical** | **Di-PS: System-Algorithm Co-Design for Asynchronous and Heterogeneous Cross-cluster LLM Training at Scale** | NSDI 2026 | distributed training / heterogeneous clusters | [Link](https://www.usenix.org/conference/nsdi26/presentation/li-shengwei) | — |
+| **Canonical** | **DistRS: Disaggregated Reward Service for RLVR with Batch-Level Constraint** | NSDI 2026 | efficient reasoning / RL post-training infra | [Link](https://www.usenix.org/conference/nsdi26/presentation/zhu-ruidong) | — |
+| **Canonical** | **DroidSpeak: KV Cache Sharing Across Fine-tuned Model Variants** | NSDI 2026 | KV cache / multi-model serving | [Link](https://www.usenix.org/system/files/nsdi26-liu-yuhan.pdf) | — |
+| **Canonical** | **EROICA: Online Performance Troubleshooting for Large-scale Model Training** | NSDI 2026 | distributed training / observability | [Link](https://www.usenix.org/conference/nsdi26/presentation/guan-yu) | — |
+| **Canonical** | **FalconFS: Distributed File System for Large-Scale Deep Learning Pipeline** | NSDI 2026 | distributed training / storage pipeline | [Link](https://www.usenix.org/conference/nsdi26/presentation/xu) | — |
+| **Canonical** | **FAST: An Efficient Scheduler for All-to-All GPU Communication** | NSDI 2026 | distributed training / collective communication | [Link](https://www.usenix.org/conference/nsdi26/presentation/lei-yiran) | — |
+| **Canonical** | **FastServe: Iteration-Level Preemptive Scheduling for Large Language Model Inference** | NSDI 2026 | LLM serving / preemptive scheduling / GPU memory management | [Link](https://www.usenix.org/conference/nsdi26/presentation/wu-bingyang) | — |
+| **Canonical** | **FENIX: Enabling In-Network DNN Inference with FPGA-Enhanced Programmable Switches** | NSDI 2026 | edge / heterogeneous AI inference | [Link](https://www.usenix.org/conference/nsdi26/presentation/gao) | — |
+| **Canonical** | **FLARE: Anomaly Diagnostics for Divergent LLM Training in GPU Clusters of Thousand-Plus Scale** | NSDI 2026 | distributed LLM training infrastructure / GPU cluster diagnostics / observability | [Link](https://www.usenix.org/system/files/nsdi26-cui.pdf) | — |
+| **Canonical** | **FlexLLM: Token-Level Co-Serving of LLM Inference and Finetuning with SLO Guarantees** | NSDI 2026 | inference + PEFT co-serving | [Link](https://www.usenix.org/system/files/nsdi26-oliaro.pdf) | — |
+| **Canonical** | **ForestColl: Throughput-Optimal Collective Communications on Heterogeneous Network Fabrics** | NSDI 2026 | distributed training / collective communication | [Link](https://www.usenix.org/conference/nsdi26/presentation/zhao-liangyu) | — |
+| **Canonical** | **HeteCCL: Synthesizing Near-Optimal Collective Communication Schedules for Heterogeneous GPU Clusters** | NSDI 2026 | distributed training / heterogeneous collectives | [Link](https://www.usenix.org/conference/nsdi26/presentation/hei) | — |
+| **Canonical** | **HydraServe: Minimizing Cold Start Latency for Serverless LLM Serving in Public Clouds** | NSDI 2026 | LLM serving / serverless inference | [Link](https://www.usenix.org/conference/nsdi26/presentation/lou) | — |
+| **Canonical** | **JITServe: SLO-aware LLM Serving with Imprecise Request Information** | NSDI 2026 | LLM serving / SLO scheduling | [Link](https://www.usenix.org/system/files/nsdi26-zhang-wei.pdf) | — |
+| **Canonical** | **Libra: Flexible Request Partitioning and Scheduling for Serving Unbalanced and Dynamic LLM Workloads** | NSDI 2026 | LLM serving / dynamic partitioning / KV transfer | [Link](https://www.usenix.org/system/files/nsdi26-ruan-libra.pdf) | — |
+| **Canonical** | **Matryoshka: Realizing Hyperscale Data Center Network Design for the AI Era** | NSDI 2026 | AI datacenter networking | [Link](https://www.usenix.org/conference/nsdi26/presentation/cai) | — |
+| **Canonical** | **MuxTune: Efficient Multi-Task LLM Fine-Tuning in Multi-Tenant Datacenters via Spatial-Temporal Backbone Multiplexing** | NSDI 2026 | distributed training / PEFT | [Link](https://www.usenix.org/conference/nsdi26/presentation/xue-chunyu) | — |
+| **Canonical** | **Phantora: Maximizing Code Reuse in Simulation-based Machine Learning System Performance Estimation** | NSDI 2026 | distributed training / simulator | [Link](https://www.usenix.org/conference/nsdi26/presentation/qin) | [Repo](https://github.com/QDelta/Phantora) |
+| **Canonical** | **PlanetServe: A Decentralized, Scalable, and Privacy-Preserving Overlay for Democratizing Large Language Model Serving** | NSDI 2026 | LLM serving / distributed inference / edge-cloud heterogeneous AI systems | [Link](https://arxiv.org/abs/2504.20101) | [Repo](https://github.com/fffeifang/PlanetServe) |
+| **Canonical** | **RLBoost: Harvesting Preemptible Cloud Resources for Cost-Efficient Reinforcement Learning on LLMs** | NSDI 2026 | efficient reasoning / RL training infrastructure | [Link](https://www.usenix.org/system/files/nsdi26-wu-yongji.pdf) | — |
+| **Canonical** | **RollPacker: Taming Long-Tail Rollouts for RL Post-Training with Tail Batching** | NSDI 2026 | LLM RL post-training systems / rollout scheduling / GPU utilization | [Link](https://arxiv.org/abs/2509.21009) | [Repo](https://github.com/Farrrrland/RollPacker) |
+| **Canonical** | **ServeGen: Workload Characterization and Generation of Large Language Model Serving in Production** | NSDI 2026 | LLM serving / production workload characterization / benchmark generation | [Link](https://www.usenix.org/conference/nsdi26/presentation/xiang-servegen) | [Repo](https://github.com/alibaba/ServeGen) |
+| **Canonical** | **Sparse Checkpointing for Fast and Reliable MoE Training** | NSDI 2026 | MoE systems / distributed training | [Link](https://www.usenix.org/conference/nsdi26/presentation/gandhi) | — |
+| **Canonical** | **Supercharging Packet-level Network Simulation of Large Model Training via Memoization and Fast-Forwarding** | NSDI 2026 | distributed training / simulator | [Link](https://www.usenix.org/conference/nsdi26/presentation/long) | — |
+| **Canonical** | **SwiftEP: Accelerating MoE Inference with Buffer Fusion and TMA Offloading** | NSDI 2026 | MoE communication / inference runtime | [Link](https://www.usenix.org/system/files/nsdi26-li-xingyi.pdf) | — |
+| **Canonical** | **SYMI: Efficient Mixture-of-Experts Training via Model and Optimizer State Decoupling** | NSDI 2026 | MoE training systems | [Link](https://www.usenix.org/system/files/nsdi26-skiadopoulos.pdf) | — |
+| **Canonical** | **SYMPHONY: Enabling Compute-Memory Disaggregation in LLM Serving Systems** | NSDI 2026 | KV-cache / disaggregated memory serving | [Link](https://www.usenix.org/system/files/nsdi26-agarwal.pdf) | — |
+| **Canonical** | **ZipLLM: Efficient LLM Storage via Model-Aware Synergistic Data Deduplication and Compression** | NSDI 2026 | LLM storage / model deduplication / compression | [Link](https://www.usenix.org/system/files/nsdi26-wang-zirui.pdf) | — |
+
 ## CVPR 2026 · 31
 
 | Priority | Paper | Venue | Topic | Paper | Code |
@@ -1097,27 +1134,6 @@
 | **Canonical** | **ReaLM: Reliable and Efficient Large Language Model Inference with Statistical Algorithm-Based Fault Tolerance** | DAC 2025 | reliable and energy-efficient LLM inference / statistical ABFT / algorithm-circuit co-design | [Link](https://arxiv.org/abs/2503.24053) | [Repo](https://github.com/PKU-SEC-Lab/ReaLM_DAC25) |
 | **Canonical** | **SpecASR: Accelerating LLM-based Automatic Speech Recognition via Speculative Decoding** | DAC 2025 | speculative decoding / audio-language inference / real-time ASR | [Link](https://arxiv.org/abs/2507.18181) | — |
 | **Canonical** | **SQ-DM: Accelerating Diffusion Models with Aggressive Quantization and Temporal Sparsity** | DAC 2025 | diffusion acceleration / low-bit quantization / temporal activation sparsity / accelerator co-design | [Link](https://arxiv.org/abs/2501.15448) | — |
-
-## NSDI 2026 · 16
-
-| Priority | Paper | Venue | Topic | Paper | Code |
-|---|---|---|---|---|---|
-| **Canonical** | **Agentix: An Efficient Serving Engine for LLM Agents as General Programs** | NSDI 2026 | agentic LLM serving | [Link](https://www.usenix.org/system/files/nsdi26-luo.pdf) | — |
-| **Canonical** | **Cortex: Achieving Low-Latency, Cost-Efficient Remote Data Access For LLM via Semantic-Aware Knowledge Caching** | NSDI 2026 | agent systems / semantic knowledge caching | [Link](https://www.usenix.org/system/files/nsdi26-ruan-cortex.pdf) | — |
-| **Canonical** | **DroidSpeak: KV Cache Sharing Across Fine-tuned Model Variants** | NSDI 2026 | KV cache / multi-model serving | [Link](https://www.usenix.org/system/files/nsdi26-liu-yuhan.pdf) | — |
-| **Canonical** | **FastServe: Iteration-Level Preemptive Scheduling for Large Language Model Inference** | NSDI 2026 | LLM serving / preemptive scheduling / GPU memory management | [Link](https://www.usenix.org/conference/nsdi26/presentation/wu-bingyang) | — |
-| **Canonical** | **FLARE: Anomaly Diagnostics for Divergent LLM Training in GPU Clusters of Thousand-Plus Scale** | NSDI 2026 | distributed LLM training infrastructure / GPU cluster diagnostics / observability | [Link](https://www.usenix.org/system/files/nsdi26-cui.pdf) | — |
-| **Canonical** | **FlexLLM: Token-Level Co-Serving of LLM Inference and Finetuning with SLO Guarantees** | NSDI 2026 | inference + PEFT co-serving | [Link](https://www.usenix.org/system/files/nsdi26-oliaro.pdf) | — |
-| **Canonical** | **JITServe: SLO-aware LLM Serving with Imprecise Request Information** | NSDI 2026 | LLM serving / SLO scheduling | [Link](https://www.usenix.org/system/files/nsdi26-zhang-wei.pdf) | — |
-| **Canonical** | **Libra: Flexible Request Partitioning and Scheduling for Serving Unbalanced and Dynamic LLM Workloads** | NSDI 2026 | LLM serving / dynamic partitioning / KV transfer | [Link](https://www.usenix.org/system/files/nsdi26-ruan-libra.pdf) | — |
-| **Canonical** | **PlanetServe: A Decentralized, Scalable, and Privacy-Preserving Overlay for Democratizing Large Language Model Serving** | NSDI 2026 | LLM serving / distributed inference / edge-cloud heterogeneous AI systems | [Link](https://arxiv.org/abs/2504.20101) | [Repo](https://github.com/fffeifang/PlanetServe) |
-| **Canonical** | **RLBoost: Harvesting Preemptible Cloud Resources for Cost-Efficient Reinforcement Learning on LLMs** | NSDI 2026 | efficient reasoning / RL training infrastructure | [Link](https://www.usenix.org/system/files/nsdi26-wu-yongji.pdf) | — |
-| **Canonical** | **RollPacker: Taming Long-Tail Rollouts for RL Post-Training with Tail Batching** | NSDI 2026 | LLM RL post-training systems / rollout scheduling / GPU utilization | [Link](https://arxiv.org/abs/2509.21009) | [Repo](https://github.com/Farrrrland/RollPacker) |
-| **Canonical** | **ServeGen: Workload Characterization and Generation of Large Language Model Serving in Production** | NSDI 2026 | LLM serving / production workload characterization / benchmark generation | [Link](https://www.usenix.org/conference/nsdi26/presentation/xiang-servegen) | [Repo](https://github.com/alibaba/ServeGen) |
-| **Canonical** | **SwiftEP: Accelerating MoE Inference with Buffer Fusion and TMA Offloading** | NSDI 2026 | MoE communication / inference runtime | [Link](https://www.usenix.org/system/files/nsdi26-li-xingyi.pdf) | — |
-| **Canonical** | **SYMI: Efficient Mixture-of-Experts Training via Model and Optimizer State Decoupling** | NSDI 2026 | MoE training systems | [Link](https://www.usenix.org/system/files/nsdi26-skiadopoulos.pdf) | — |
-| **Canonical** | **SYMPHONY: Enabling Compute-Memory Disaggregation in LLM Serving Systems** | NSDI 2026 | KV-cache / disaggregated memory serving | [Link](https://www.usenix.org/system/files/nsdi26-agarwal.pdf) | — |
-| **Canonical** | **ZipLLM: Efficient LLM Storage via Model-Aware Synergistic Data Deduplication and Compression** | NSDI 2026 | LLM storage / model deduplication / compression | [Link](https://www.usenix.org/system/files/nsdi26-wang-zirui.pdf) | — |
 
 ## OSDI 2026 · 16
 

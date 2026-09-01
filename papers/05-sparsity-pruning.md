@@ -1,6 +1,6 @@
 # 05 · Sparsity / Pruning
 
-> **212 canonical papers** mapped here, plus a broader **67-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **213 canonical papers** mapped here, plus a broader **67-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -76,7 +76,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 198 canonical
+## 🏛️ Classical / Historical · 199 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -266,6 +266,7 @@
 | **Canonical** | **SALS: Sparse Attention in Latent Space for KV Cache Compression** | NeurIPS 2025 | KV cache compression / sparse attention | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/00a0ebcad584c59dbc439c2af8793638-Abstract-Conference.html) | — |
 | **Canonical** | **Spotlight Attention: Towards Efficient LLM Generation via Non-linear Hashing-based KV Cache Retrieval** | NeurIPS 2025 | sparse attention / KV retrieval / CUDA kernel | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/7c799b09cc40973ceaa47da50131dc63-Abstract-Conference.html) | — |
 | **Canonical** | **VORTA: Efficient Video Diffusion via Routing Sparse Attention** | NeurIPS 2025 | video/image generation acceleration / efficient attention / diffusion | [Link](https://arxiv.org/abs/2505.18809) | [Repo](https://github.com/wenhao728/VORTA) |
+| **Canonical** | **Sparse Checkpointing for Fast and Reliable MoE Training** | NSDI 2026 | MoE systems / distributed training | [Link](https://www.usenix.org/conference/nsdi26/presentation/gandhi) | — |
 | **Canonical** | **ECHO: Efficient KV Cache Offloading with Lossless Prefetching for Serving Native Sparse Attention LLMs** | OSDI 2026 | sparse-attention KV-cache serving | [Link](https://www.usenix.org/system/files/osdi26-liu-guangda.pdf) | — |
 | **Canonical** | **Kairox: Adaptive GPU-CPU Hybrid LLM Inference via Online Neuron Balancing** | OSDI 2026 | LLM inference / GPU-CPU hybrid execution / activation sparsity / edge inference | [Link](https://www.usenix.org/conference/osdi26/presentation/jiang-yapeng) | — |
 | **Canonical** | **Accelerating Sparse Transformer Inference on GPU** | PPoPP 2026 | sparse transformer inference + mixed-precision quantization | — | — |

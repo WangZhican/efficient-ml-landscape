@@ -1,6 +1,6 @@
 # 07 · MoE Systems / Accelerators
 
-> **97 canonical papers** mapped here, plus a broader **33-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **100 canonical papers** mapped here, plus a broader **33-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -42,7 +42,7 @@
 | **P2 · Relevant** | **DraftExpert: Expansion-Aware Self-Speculative Decoding for End-Device MoE Inference** | Fresh / preprint | llm_serving / spec / moe / edge | [Link](https://arxiv.org/abs/2607.24434) | — |
 | **P2 · Relevant** | **Decoding the Skew: Distribution-Aware MoE Inference with Adaptive Kernel Dispatch** | Fresh / preprint | llm_serving / moe | [Link](https://arxiv.org/abs/2607.23099) | — |
 
-## 🏛️ Classical / Historical · 86 canonical
+## 🏛️ Classical / Historical · 89 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -118,6 +118,9 @@
 | **Canonical** | **ProfInfer: An eBPF-based Fine-Grained LLM Inference Profiler** | MLSys 2026 | LLM inference profiling / edge runtime observability | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/file/03dbc11a22e79cd38bea53cf518c2371-Paper-Conference.pdf) | — |
 | **Canonical** | **D2MoE: Dual Routing and Dynamic Scheduling for Efficient On-Device MoE-based LLM Serving** | MobiCom 2025 | on-device MoE serving / dynamic scheduling | [Link](https://doi.org/10.1145/3680207.3723493) | — |
 | **Canonical** | **MoESD: Unveil Speculative Decoding's Potential for Accelerating Sparse MoE** | NeurIPS 2025 | MoE inference / speculative decoding | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/b637af7745d3ad4cb0b9cdaa056ab41e-Abstract-Conference.html) | — |
+| **Canonical** | **FAST: An Efficient Scheduler for All-to-All GPU Communication** | NSDI 2026 | distributed training / collective communication | [Link](https://www.usenix.org/conference/nsdi26/presentation/lei-yiran) | — |
+| **Canonical** | **Sparse Checkpointing for Fast and Reliable MoE Training** | NSDI 2026 | MoE systems / distributed training | [Link](https://www.usenix.org/conference/nsdi26/presentation/gandhi) | — |
+| **Canonical** | **Supercharging Packet-level Network Simulation of Large Model Training via Memoization and Fast-Forwarding** | NSDI 2026 | distributed training / simulator | [Link](https://www.usenix.org/conference/nsdi26/presentation/long) | — |
 | **Canonical** | **SwiftEP: Accelerating MoE Inference with Buffer Fusion and TMA Offloading** | NSDI 2026 | MoE communication / inference runtime | [Link](https://www.usenix.org/system/files/nsdi26-li-xingyi.pdf) | — |
 | **Canonical** | **SYMI: Efficient Mixture-of-Experts Training via Model and Optimizer State Decoupling** | NSDI 2026 | MoE training systems | [Link](https://www.usenix.org/system/files/nsdi26-skiadopoulos.pdf) | — |
 | **Canonical** | **BatchGen: An Architecture for Scalable and Efficient Batch Inference** | OSDI 2026 | LLM batch inference / MoE serving / distributed inference | [Link](https://arxiv.org/abs/2606.21712) | [Repo](https://github.com/batchgen-project/batchgen) |

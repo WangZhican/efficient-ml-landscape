@@ -1,6 +1,6 @@
 # 03 · KV Cache / Long Context
 
-> **332 canonical papers** mapped here, plus a broader **65-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **333 canonical papers** mapped here, plus a broader **65-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -74,7 +74,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P1 · Watch** | **Edge-Native Embodied Intelligence for Action-Aware Wireless Edge Networks** | Fresh / preprint | VLA/WAM/Physical AI serving / edge-cloud / heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.17774) | — |
 
-## 🏛️ Classical / Historical · 307 canonical
+## 🏛️ Classical / Historical · 308 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -338,6 +338,7 @@
 | **Canonical** | **Speculate Deep and Accurate: Lossless and Training-Free Acceleration for Offloaded LLMs via Substitute Speculative Decoding** | NeurIPS 2025 | offloaded LLM inference / speculative decoding | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/4e32ca54ae8a3a0ea4c1fd3663f73b0f-Abstract-Conference.html) | — |
 | **Canonical** | **Spotlight Attention: Towards Efficient LLM Generation via Non-linear Hashing-based KV Cache Retrieval** | NeurIPS 2025 | sparse attention / KV retrieval / CUDA kernel | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/7c799b09cc40973ceaa47da50131dc63-Abstract-Conference.html) | — |
 | **Canonical** | **Value-Guided KV Compression for LLMs via Approximated CUR Decomposition** | NeurIPS 2025 | KV cache/long-context / efficient LLM inference | [Link](https://arxiv.org/abs/2509.15038) | — |
+| **Canonical** | **Attack of the Bubbles: Straggler-Resilient Pipeline Parallelism for Large Model Training** | NSDI 2026 | distributed training / pipeline parallelism | [Link](https://www.usenix.org/conference/nsdi26/presentation/wu-tianyuan) | — |
 | **Canonical** | **DroidSpeak: KV Cache Sharing Across Fine-tuned Model Variants** | NSDI 2026 | KV cache / multi-model serving | [Link](https://www.usenix.org/system/files/nsdi26-liu-yuhan.pdf) | — |
 | **Canonical** | **SwiftEP: Accelerating MoE Inference with Buffer Fusion and TMA Offloading** | NSDI 2026 | MoE communication / inference runtime | [Link](https://www.usenix.org/system/files/nsdi26-li-xingyi.pdf) | — |
 | **Canonical** | **SYMPHONY: Enabling Compute-Memory Disaggregation in LLM Serving Systems** | NSDI 2026 | KV-cache / disaggregated memory serving | [Link](https://www.usenix.org/system/files/nsdi26-agarwal.pdf) | — |

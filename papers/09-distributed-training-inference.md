@@ -1,6 +1,6 @@
 # 09 · Distributed Training / Inference
 
-> **225 canonical papers** mapped here, plus a broader **38-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **239 canonical papers** mapped here, plus a broader **38-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -47,7 +47,7 @@
 | **P1 · Watch** | **AReaL-DTE: Sparse Policy-Weight Transfer for Online Agentic Reinforcement Learning** | Fresh / preprint | agentic RL systems / sparse policy-weight synchronization / cross-cluster serving-training | [Link](https://arxiv.org/abs/2608.00455) | — |
 | **P2 · Relevant** | **HCCL: Collective Communication for Meta Training and Inference Accelerators** | Fresh / preprint | llm_serving | [Link](https://arxiv.org/abs/2608.00358) | — |
 
-## 🏛️ Classical / Historical · 208 canonical
+## 🏛️ Classical / Historical · 222 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -200,10 +200,24 @@
 | **Canonical** | **Block-Diagonal LoRA for Eliminating Communication Overhead in Tensor Parallel LoRA Serving** | NeurIPS 2025 | LoRA serving / tensor parallel communication elimination | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/0095274aecea2127c404fc6f7462aa44-Abstract-Conference.html) | — |
 | **Canonical** | **KVCOMM: Online Cross-context KV-cache Communication for Efficient LLM-based Multi-agent Systems** | NeurIPS 2025 | multi-agent LLM serving / cross-context KV cache reuse / prefill acceleration | [Link](https://doi.org/10.52202/085713-0605) | [Repo](https://github.com/FastMAS/KVCOMM) |
 | **Canonical** | **MPCache: MPC-Friendly KV Cache Eviction for Efficient Private LLM Inference** | NeurIPS 2025 | private LLM inference / KV eviction / MPC | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/8c2df4c35cdbee764ebb9e9d0acd5197-Abstract-Conference.html) | — |
+| **Canonical** | **Attack of the Bubbles: Straggler-Resilient Pipeline Parallelism for Large Model Training** | NSDI 2026 | distributed training / pipeline parallelism | [Link](https://www.usenix.org/conference/nsdi26/presentation/wu-tianyuan) | — |
+| **Canonical** | **Checkmate: Zero Performance Overhead Model Checkpointing via Network Gradient Replication** | NSDI 2026 | distributed training / checkpointing | [Link](https://www.usenix.org/conference/nsdi26/presentation/bhardwaj) | — |
+| **Canonical** | **Di-PS: System-Algorithm Co-Design for Asynchronous and Heterogeneous Cross-cluster LLM Training at Scale** | NSDI 2026 | distributed training / heterogeneous clusters | [Link](https://www.usenix.org/conference/nsdi26/presentation/li-shengwei) | — |
+| **Canonical** | **EROICA: Online Performance Troubleshooting for Large-scale Model Training** | NSDI 2026 | distributed training / observability | [Link](https://www.usenix.org/conference/nsdi26/presentation/guan-yu) | — |
+| **Canonical** | **FalconFS: Distributed File System for Large-Scale Deep Learning Pipeline** | NSDI 2026 | distributed training / storage pipeline | [Link](https://www.usenix.org/conference/nsdi26/presentation/xu) | — |
+| **Canonical** | **FAST: An Efficient Scheduler for All-to-All GPU Communication** | NSDI 2026 | distributed training / collective communication | [Link](https://www.usenix.org/conference/nsdi26/presentation/lei-yiran) | — |
 | **Canonical** | **FastServe: Iteration-Level Preemptive Scheduling for Large Language Model Inference** | NSDI 2026 | LLM serving / preemptive scheduling / GPU memory management | [Link](https://www.usenix.org/conference/nsdi26/presentation/wu-bingyang) | — |
 | **Canonical** | **FLARE: Anomaly Diagnostics for Divergent LLM Training in GPU Clusters of Thousand-Plus Scale** | NSDI 2026 | distributed LLM training infrastructure / GPU cluster diagnostics / observability | [Link](https://www.usenix.org/system/files/nsdi26-cui.pdf) | — |
+| **Canonical** | **ForestColl: Throughput-Optimal Collective Communications on Heterogeneous Network Fabrics** | NSDI 2026 | distributed training / collective communication | [Link](https://www.usenix.org/conference/nsdi26/presentation/zhao-liangyu) | — |
+| **Canonical** | **HeteCCL: Synthesizing Near-Optimal Collective Communication Schedules for Heterogeneous GPU Clusters** | NSDI 2026 | distributed training / heterogeneous collectives | [Link](https://www.usenix.org/conference/nsdi26/presentation/hei) | — |
+| **Canonical** | **HydraServe: Minimizing Cold Start Latency for Serverless LLM Serving in Public Clouds** | NSDI 2026 | LLM serving / serverless inference | [Link](https://www.usenix.org/conference/nsdi26/presentation/lou) | — |
+| **Canonical** | **Matryoshka: Realizing Hyperscale Data Center Network Design for the AI Era** | NSDI 2026 | AI datacenter networking | [Link](https://www.usenix.org/conference/nsdi26/presentation/cai) | — |
+| **Canonical** | **MuxTune: Efficient Multi-Task LLM Fine-Tuning in Multi-Tenant Datacenters via Spatial-Temporal Backbone Multiplexing** | NSDI 2026 | distributed training / PEFT | [Link](https://www.usenix.org/conference/nsdi26/presentation/xue-chunyu) | — |
+| **Canonical** | **Phantora: Maximizing Code Reuse in Simulation-based Machine Learning System Performance Estimation** | NSDI 2026 | distributed training / simulator | [Link](https://www.usenix.org/conference/nsdi26/presentation/qin) | [Repo](https://github.com/QDelta/Phantora) |
 | **Canonical** | **PlanetServe: A Decentralized, Scalable, and Privacy-Preserving Overlay for Democratizing Large Language Model Serving** | NSDI 2026 | LLM serving / distributed inference / edge-cloud heterogeneous AI systems | [Link](https://arxiv.org/abs/2504.20101) | [Repo](https://github.com/fffeifang/PlanetServe) |
 | **Canonical** | **RollPacker: Taming Long-Tail Rollouts for RL Post-Training with Tail Batching** | NSDI 2026 | LLM RL post-training systems / rollout scheduling / GPU utilization | [Link](https://arxiv.org/abs/2509.21009) | [Repo](https://github.com/Farrrrland/RollPacker) |
+| **Canonical** | **Sparse Checkpointing for Fast and Reliable MoE Training** | NSDI 2026 | MoE systems / distributed training | [Link](https://www.usenix.org/conference/nsdi26/presentation/gandhi) | — |
+| **Canonical** | **Supercharging Packet-level Network Simulation of Large Model Training via Memoization and Fast-Forwarding** | NSDI 2026 | distributed training / simulator | [Link](https://www.usenix.org/conference/nsdi26/presentation/long) | — |
 | **Canonical** | **SwiftEP: Accelerating MoE Inference with Buffer Fusion and TMA Offloading** | NSDI 2026 | MoE communication / inference runtime | [Link](https://www.usenix.org/system/files/nsdi26-li-xingyi.pdf) | — |
 | **Canonical** | **SYMI: Efficient Mixture-of-Experts Training via Model and Optimizer State Decoupling** | NSDI 2026 | MoE training systems | [Link](https://www.usenix.org/system/files/nsdi26-skiadopoulos.pdf) | — |
 | **Canonical** | **BatchGen: An Architecture for Scalable and Efficient Batch Inference** | OSDI 2026 | LLM batch inference / MoE serving / distributed inference | [Link](https://arxiv.org/abs/2606.21712) | [Repo](https://github.com/batchgen-project/batchgen) |

@@ -1,6 +1,6 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **266 canonical papers** mapped here, plus a broader **103-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **270 canonical papers** mapped here, plus a broader **103-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -112,7 +112,7 @@
 | **P2 · Relevant** | **Unified Static-Dynamic Pruning for Efficient LLM Inference** | Fresh / preprint | llm_serving / sparse / kernel / edge | [Link](https://arxiv.org/abs/2607.21985) | — |
 | **P1 · Watch** | **Edge-Native Embodied Intelligence for Action-Aware Wireless Edge Networks** | Fresh / preprint | VLA/WAM/Physical AI serving / edge-cloud / heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.17774) | — |
 
-## 🏛️ Classical / Historical · 246 canonical
+## 🏛️ Classical / Historical · 250 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -304,6 +304,10 @@
 | **Canonical** | **Knowing When to Stop: Efficient Context Processing via Latent Sufficiency Signals** | NeurIPS 2025 | efficient context processing / adaptive cutoff | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/3afa7f9b7ac8da474b3d915570d58291-Abstract-Conference.html) | — |
 | **Canonical** | **SpecEdge: Scalable Edge-Assisted Serving Framework for Interactive LLMs** | NeurIPS 2025 | edge-cloud LLM serving / speculative decoding | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/8587069d00a69d0ea498d547fffad6dd-Abstract-Conference.html) | — |
 | **Canonical** | **Cortex: Achieving Low-Latency, Cost-Efficient Remote Data Access For LLM via Semantic-Aware Knowledge Caching** | NSDI 2026 | agent systems / semantic knowledge caching | [Link](https://www.usenix.org/system/files/nsdi26-ruan-cortex.pdf) | — |
+| **Canonical** | **Di-PS: System-Algorithm Co-Design for Asynchronous and Heterogeneous Cross-cluster LLM Training at Scale** | NSDI 2026 | distributed training / heterogeneous clusters | [Link](https://www.usenix.org/conference/nsdi26/presentation/li-shengwei) | — |
+| **Canonical** | **FENIX: Enabling In-Network DNN Inference with FPGA-Enhanced Programmable Switches** | NSDI 2026 | edge / heterogeneous AI inference | [Link](https://www.usenix.org/conference/nsdi26/presentation/gao) | — |
+| **Canonical** | **ForestColl: Throughput-Optimal Collective Communications on Heterogeneous Network Fabrics** | NSDI 2026 | distributed training / collective communication | [Link](https://www.usenix.org/conference/nsdi26/presentation/zhao-liangyu) | — |
+| **Canonical** | **HeteCCL: Synthesizing Near-Optimal Collective Communication Schedules for Heterogeneous GPU Clusters** | NSDI 2026 | distributed training / heterogeneous collectives | [Link](https://www.usenix.org/conference/nsdi26/presentation/hei) | — |
 | **Canonical** | **PlanetServe: A Decentralized, Scalable, and Privacy-Preserving Overlay for Democratizing Large Language Model Serving** | NSDI 2026 | LLM serving / distributed inference / edge-cloud heterogeneous AI systems | [Link](https://arxiv.org/abs/2504.20101) | [Repo](https://github.com/fffeifang/PlanetServe) |
 | **Canonical** | **ZipLLM: Efficient LLM Storage via Model-Aware Synergistic Data Deduplication and Compression** | NSDI 2026 | LLM storage / model deduplication / compression | [Link](https://www.usenix.org/system/files/nsdi26-wang-zirui.pdf) | — |
 | **Canonical** | **CoPilotIO: CPU as a Co-Pilot for GPU I/O to Free GPU Compute** | OSDI 2026 | GPU I/O / heterogeneous AI systems / MoE inference infrastructure | [Link](https://www.usenix.org/conference/osdi26/presentation/chen-guanyi) | [Repo](https://github.com/ScaleXLab/OSDI26-CoPilotIO) |

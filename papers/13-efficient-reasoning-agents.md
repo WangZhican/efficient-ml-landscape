@@ -1,6 +1,6 @@
 # 13 · Efficient Reasoning / Agents
 
-> **209 canonical papers** mapped here, plus a broader **56-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **210 canonical papers** mapped here, plus a broader **56-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -65,7 +65,7 @@
 | **P2 · Relevant** | **SpecBox: Speculative Sandbox Scheduling for Efficient LLM Agent Serving** | Fresh / preprint | llm_serving / agent | [Link](https://arxiv.org/abs/2607.23933) | — |
 | **P2 · Relevant** | **Agentic CPU-GPU Scheduling for Heterogeneous AI Workloads** | Fresh / preprint | llm_serving / gen / agent / edge | [Link](https://arxiv.org/abs/2607.22242) | — |
 
-## 🏛️ Classical / Historical · 192 canonical
+## 🏛️ Classical / Historical · 193 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -247,6 +247,7 @@
 | **Canonical** | **Self Forcing: Bridging the Train-Test Gap in Autoregressive Video Diffusion** | NeurIPS 2025 | autoregressive video diffusion / streaming generation | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/f4823f831af67a3ef15e41a85434422a-Abstract-Conference.html) | — |
 | **Canonical** | **Agentix: An Efficient Serving Engine for LLM Agents as General Programs** | NSDI 2026 | agentic LLM serving | [Link](https://www.usenix.org/system/files/nsdi26-luo.pdf) | — |
 | **Canonical** | **Cortex: Achieving Low-Latency, Cost-Efficient Remote Data Access For LLM via Semantic-Aware Knowledge Caching** | NSDI 2026 | agent systems / semantic knowledge caching | [Link](https://www.usenix.org/system/files/nsdi26-ruan-cortex.pdf) | — |
+| **Canonical** | **DistRS: Disaggregated Reward Service for RLVR with Batch-Level Constraint** | NSDI 2026 | efficient reasoning / RL post-training infra | [Link](https://www.usenix.org/conference/nsdi26/presentation/zhu-ruidong) | — |
 | **Canonical** | **RLBoost: Harvesting Preemptible Cloud Resources for Cost-Efficient Reinforcement Learning on LLMs** | NSDI 2026 | efficient reasoning / RL training infrastructure | [Link](https://www.usenix.org/system/files/nsdi26-wu-yongji.pdf) | — |
 | **Canonical** | **RollPacker: Taming Long-Tail Rollouts for RL Post-Training with Tail Batching** | NSDI 2026 | LLM RL post-training systems / rollout scheduling / GPU utilization | [Link](https://arxiv.org/abs/2509.21009) | [Repo](https://github.com/Farrrrland/RollPacker) |
 | **Canonical** | **ServeGen: Workload Characterization and Generation of Large Language Model Serving in Production** | NSDI 2026 | LLM serving / production workload characterization / benchmark generation | [Link](https://www.usenix.org/conference/nsdi26/presentation/xiang-servegen) | [Repo](https://github.com/alibaba/ServeGen) |

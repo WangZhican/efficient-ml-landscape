@@ -1,6 +1,6 @@
 # 08 · GPU Kernel / DSL / Compiler
 
-> **305 canonical papers** mapped here, plus a broader **75-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **309 canonical papers** mapped here, plus a broader **75-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -84,7 +84,7 @@
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 | **P1 · Watch** | **Here is a GIFT: Enforcing User Data Isolation in LLM Serving via GPU Information Flow Tracking** | Fresh / preprint | LLM serving / GPU runtime / confidential computing | [Link](https://arxiv.org/abs/2608.25431) | — |
 
-## 🏛️ Classical / Historical · 274 canonical
+## 🏛️ Classical / Historical · 278 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -281,9 +281,13 @@
 | **Canonical** | **Self Forcing: Bridging the Train-Test Gap in Autoregressive Video Diffusion** | NeurIPS 2025 | autoregressive video diffusion / streaming generation | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/f4823f831af67a3ef15e41a85434422a-Abstract-Conference.html) | — |
 | **Canonical** | **Speculate Deep and Accurate: Lossless and Training-Free Acceleration for Offloaded LLMs via Substitute Speculative Decoding** | NeurIPS 2025 | offloaded LLM inference / speculative decoding | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/4e32ca54ae8a3a0ea4c1fd3663f73b0f-Abstract-Conference.html) | — |
 | **Canonical** | **Spotlight Attention: Towards Efficient LLM Generation via Non-linear Hashing-based KV Cache Retrieval** | NeurIPS 2025 | sparse attention / KV retrieval / CUDA kernel | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/7c799b09cc40973ceaa47da50131dc63-Abstract-Conference.html) | — |
+| **Canonical** | **FAST: An Efficient Scheduler for All-to-All GPU Communication** | NSDI 2026 | distributed training / collective communication | [Link](https://www.usenix.org/conference/nsdi26/presentation/lei-yiran) | — |
 | **Canonical** | **FastServe: Iteration-Level Preemptive Scheduling for Large Language Model Inference** | NSDI 2026 | LLM serving / preemptive scheduling / GPU memory management | [Link](https://www.usenix.org/conference/nsdi26/presentation/wu-bingyang) | — |
 | **Canonical** | **FLARE: Anomaly Diagnostics for Divergent LLM Training in GPU Clusters of Thousand-Plus Scale** | NSDI 2026 | distributed LLM training infrastructure / GPU cluster diagnostics / observability | [Link](https://www.usenix.org/system/files/nsdi26-cui.pdf) | — |
+| **Canonical** | **HeteCCL: Synthesizing Near-Optimal Collective Communication Schedules for Heterogeneous GPU Clusters** | NSDI 2026 | distributed training / heterogeneous collectives | [Link](https://www.usenix.org/conference/nsdi26/presentation/hei) | — |
+| **Canonical** | **Phantora: Maximizing Code Reuse in Simulation-based Machine Learning System Performance Estimation** | NSDI 2026 | distributed training / simulator | [Link](https://www.usenix.org/conference/nsdi26/presentation/qin) | [Repo](https://github.com/QDelta/Phantora) |
 | **Canonical** | **RollPacker: Taming Long-Tail Rollouts for RL Post-Training with Tail Batching** | NSDI 2026 | LLM RL post-training systems / rollout scheduling / GPU utilization | [Link](https://arxiv.org/abs/2509.21009) | [Repo](https://github.com/Farrrrland/RollPacker) |
+| **Canonical** | **Supercharging Packet-level Network Simulation of Large Model Training via Memoization and Fast-Forwarding** | NSDI 2026 | distributed training / simulator | [Link](https://www.usenix.org/conference/nsdi26/presentation/long) | — |
 | **Canonical** | **SwiftEP: Accelerating MoE Inference with Buffer Fusion and TMA Offloading** | NSDI 2026 | MoE communication / inference runtime | [Link](https://www.usenix.org/system/files/nsdi26-li-xingyi.pdf) | — |
 | **Canonical** | **CoPilotIO: CPU as a Co-Pilot for GPU I/O to Free GPU Compute** | OSDI 2026 | GPU I/O / heterogeneous AI systems / MoE inference infrastructure | [Link](https://www.usenix.org/conference/osdi26/presentation/chen-guanyi) | [Repo](https://github.com/ScaleXLab/OSDI26-CoPilotIO) |
 | **Canonical** | **Efficient LLM Serving on Commodity GPU Clusters with Data-Reduced Cross-Instance Orchestration** | OSDI 2026 | commodity-GPU LLM serving | [Link](https://www.usenix.org/system/files/osdi26-du.pdf) | — |

@@ -21465,6 +21465,48 @@
     ]
   },
   {
+    "title": "Attack of the Bubbles: Straggler-Resilient Pipeline Parallelism for Large Model Training",
+    "venue": "NSDI 2026",
+    "topic": "distributed training / pipeline parallelism",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX_NSDI26_WU_TIANYUAN",
+    "paper_url": "https://www.usenix.org/conference/nsdi26/presentation/wu-tianyuan",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "NSDI 2026 large-model training system (PIPEMORPH) that adapts pipeline schedules and offloads communication under stragglers; reports 1.2-3.5x iteration-time improvement under communication slowdown.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "Checkmate: Zero Performance Overhead Model Checkpointing via Network Gradient Replication",
+    "venue": "NSDI 2026",
+    "topic": "distributed training / checkpointing",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX_NSDI26_BHARDWAJ",
+    "paper_url": "https://www.usenix.org/conference/nsdi26/presentation/bhardwaj",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Per-iteration DNN checkpointing via network gradient replication; NSDI 2026 reports no training-throughput slowdown, 5-34.5x more frequent checkpoints and 80-97.1% less repeated work after failures.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "Cortex: Achieving Low-Latency, Cost-Efficient Remote Data Access For LLM via Semantic-Aware Knowledge Caching",
     "venue": "NSDI 2026",
     "topic": "agent systems / semantic knowledge caching",
@@ -21484,6 +21526,48 @@
       "LLM Serving",
       "Efficient Reasoning / Agents",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Di-PS: System-Algorithm Co-Design for Asynchronous and Heterogeneous Cross-cluster LLM Training at Scale",
+    "venue": "NSDI 2026",
+    "topic": "distributed training / heterogeneous clusters",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX_NSDI26_LI_SHENGWEI",
+    "paper_url": "https://www.usenix.org/conference/nsdi26/presentation/li-shengwei",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Operational NSDI 2026 system for asynchronous heterogeneous cross-cluster LLM training; deployed across up to 9 clusters and >10,000 NPUs for 100B-parameter training.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Distributed Training / Inference",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "DistRS: Disaggregated Reward Service for RLVR with Batch-Level Constraint",
+    "venue": "NSDI 2026",
+    "topic": "efficient reasoning / RL post-training infra",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX_NSDI26_ZHU_RUIDONG",
+    "paper_url": "https://www.usenix.org/conference/nsdi26/presentation/zhu-ruidong",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "NSDI 2026 disaggregated reward service for RLVR post-training with elastic multi-tenant scheduling; reports up to 3.79x lower resource consumption.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -21508,6 +21592,69 @@
     ]
   },
   {
+    "title": "EROICA: Online Performance Troubleshooting for Large-scale Model Training",
+    "venue": "NSDI 2026",
+    "topic": "distributed training / observability",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX_NSDI26_GUAN_YU",
+    "paper_url": "https://www.usenix.org/conference/nsdi26/presentation/guan-yu",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "NSDI 2026 production troubleshooting system for large-model training; deployed on about 100,000 GPUs for 1.5 years with 97.5% diagnosis success.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "FalconFS: Distributed File System for Large-Scale Deep Learning Pipeline",
+    "venue": "NSDI 2026",
+    "topic": "distributed training / storage pipeline",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX_NSDI26_XU",
+    "paper_url": "https://www.usenix.org/conference/nsdi26/presentation/xu",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "NSDI 2026 distributed filesystem designed for large-scale deep-learning data pipelines, a direct AI-training infrastructure result.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "FAST: An Efficient Scheduler for All-to-All GPU Communication",
+    "venue": "NSDI 2026",
+    "topic": "distributed training / collective communication",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX_NSDI26_LEI_YIRAN",
+    "paper_url": "https://www.usenix.org/conference/nsdi26/presentation/lei-yiran",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "NSDI 2026 scheduler for all-to-all GPU communication, directly relevant to distributed MoE/training communication efficiency.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "MoE Systems / Accelerators",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "FastServe: Iteration-Level Preemptive Scheduling for Large Language Model Inference",
     "venue": "NSDI 2026",
     "topic": "LLM serving / preemptive scheduling / GPU memory management",
@@ -21527,6 +21674,26 @@
       "LLM Serving",
       "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "FENIX: Enabling In-Network DNN Inference with FPGA-Enhanced Programmable Switches",
+    "venue": "NSDI 2026",
+    "topic": "edge / heterogeneous AI inference",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX_NSDI26_GAO",
+    "paper_url": "https://www.usenix.org/conference/nsdi26/presentation/gao",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "NSDI 2026 FPGA-enhanced programmable-switch system enabling microsecond-level, multi-terabit in-network DNN inference with low hardware overhead.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -21571,6 +21738,71 @@
     ]
   },
   {
+    "title": "ForestColl: Throughput-Optimal Collective Communications on Heterogeneous Network Fabrics",
+    "venue": "NSDI 2026",
+    "topic": "distributed training / collective communication",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX_NSDI26_ZHAO_LIANGYU",
+    "paper_url": "https://www.usenix.org/conference/nsdi26/presentation/zhao-liangyu",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "NSDI 2026 collective-communication schedule synthesis for heterogeneous accelerator fabrics, motivated by DNN scaling; polynomial-time construction with throughput optimality.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "HeteCCL: Synthesizing Near-Optimal Collective Communication Schedules for Heterogeneous GPU Clusters",
+    "venue": "NSDI 2026",
+    "topic": "distributed training / heterogeneous collectives",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX_NSDI26_HEI",
+    "paper_url": "https://www.usenix.org/conference/nsdi26/presentation/hei",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "NSDI 2026 heterogeneous-GPU collective schedule synthesis; reports 2.8-4.4x bandwidth gains over baselines and 23-37% end-to-end training-efficiency improvement.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "HydraServe: Minimizing Cold Start Latency for Serverless LLM Serving in Public Clouds",
+    "venue": "NSDI 2026",
+    "topic": "LLM serving / serverless inference",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX_NSDI26_LOU",
+    "paper_url": "https://www.usenix.org/conference/nsdi26/presentation/lou",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "NSDI 2026 serverless LLM-serving system for cold-start reduction via distributed model fetching, overlapped runtime preparation, placement and pipeline consolidation; reports 1.7-4.7x cold-start reduction.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "JITServe: SLO-aware LLM Serving with Imprecise Request Information",
     "venue": "NSDI 2026",
     "topic": "LLM serving / SLO scheduling",
@@ -21608,6 +21840,68 @@
     "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving"
+    ]
+  },
+  {
+    "title": "Matryoshka: Realizing Hyperscale Data Center Network Design for the AI Era",
+    "venue": "NSDI 2026",
+    "topic": "AI datacenter networking",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX_NSDI26_CAI",
+    "paper_url": "https://www.usenix.org/conference/nsdi26/presentation/cai",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "NSDI 2026 hyperscale datacenter network design targeting AI-era infrastructure requirements and large accelerator-cluster communication.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "MuxTune: Efficient Multi-Task LLM Fine-Tuning in Multi-Tenant Datacenters via Spatial-Temporal Backbone Multiplexing",
+    "venue": "NSDI 2026",
+    "topic": "distributed training / PEFT",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX_NSDI26_XUE_CHUNYU",
+    "paper_url": "https://www.usenix.org/conference/nsdi26/presentation/xue-chunyu",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "NSDI 2026 multi-tenant LLM fine-tuning system using spatial-temporal backbone multiplexing and hierarchical co-scheduling; reports up to 2.33x throughput and 5.29x memory reduction.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "Phantora: Maximizing Code Reuse in Simulation-based Machine Learning System Performance Estimation",
+    "venue": "NSDI 2026",
+    "topic": "distributed training / simulator",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX_NSDI26_QIN",
+    "paper_url": "https://www.usenix.org/conference/nsdi26/presentation/qin",
+    "code_url": "https://github.com/QDelta/Phantora",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "NSDI 2026 hybrid GPU-cluster simulator for ML-system performance estimation that executes unmodified training frameworks and supports LLM training stacks on a single GPU.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
     ]
   },
   {
@@ -21696,6 +21990,50 @@
       "LLM Serving",
       "Multimodal / MLLM Serving",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "Sparse Checkpointing for Fast and Reliable MoE Training",
+    "venue": "NSDI 2026",
+    "topic": "MoE systems / distributed training",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX_NSDI26_GANDHI",
+    "paper_url": "https://www.usenix.org/conference/nsdi26/presentation/gandhi",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "NSDI 2026 MoEvement distributed in-memory checkpointing for MoE training; reports up to 4x lower checkpoint overhead, 31x lower recovery overhead and up to 8x overall training speedup.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "MoE Systems / Accelerators",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "Supercharging Packet-level Network Simulation of Large Model Training via Memoization and Fast-Forwarding",
+    "venue": "NSDI 2026",
+    "topic": "distributed training / simulator",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX_NSDI26_LONG",
+    "paper_url": "https://www.usenix.org/conference/nsdi26/presentation/long",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "NSDI 2026 Wormhole accelerates packet-level simulation for large-model training using memoization and steady-state fast-forwarding; reports 744x kernel speedup and 510x on MoE workloads.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "MoE Systems / Accelerators",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
     ]
   },
   {

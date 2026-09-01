@@ -1,6 +1,6 @@
 # 01 · LLM Serving
 
-> **521 canonical papers** mapped here, plus a broader **237-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **527 canonical papers** mapped here, plus a broader **237-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -246,7 +246,7 @@
 | **P1 · Watch** | **Here is a GIFT: Enforcing User Data Isolation in LLM Serving via GPU Information Flow Tracking** | Fresh / preprint | LLM serving / GPU runtime / confidential computing | [Link](https://arxiv.org/abs/2608.25431) | — |
 | **P1 · Watch** | **Edge-Native Embodied Intelligence for Action-Aware Wireless Edge Networks** | Fresh / preprint | VLA/WAM/Physical AI serving / edge-cloud / heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.17774) | — |
 
-## 🏛️ Classical / Historical · 473 canonical
+## 🏛️ Classical / Historical · 479 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -616,12 +616,18 @@
 | **Canonical** | **Tail-Optimized Caching for LLM Inference** | NeurIPS 2025 | LLM serving / prompt caching / tail latency | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/f05fe8b796dcbd67bc7bb1ea89df1793-Abstract-Conference.html) | — |
 | **Canonical** | **Zebra-Llama: Towards Extremely Efficient Hybrid Models** | NeurIPS 2025 | efficient hybrid LLM architecture / KV reduction | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/7089237e828d55febd85a8d07f89e102-Abstract-Conference.html) | [Repo](https://github.com/AMD-AGI/AMD-Hybrid-Models) |
 | **Canonical** | **Agentix: An Efficient Serving Engine for LLM Agents as General Programs** | NSDI 2026 | agentic LLM serving | [Link](https://www.usenix.org/system/files/nsdi26-luo.pdf) | — |
+| **Canonical** | **Checkmate: Zero Performance Overhead Model Checkpointing via Network Gradient Replication** | NSDI 2026 | distributed training / checkpointing | [Link](https://www.usenix.org/conference/nsdi26/presentation/bhardwaj) | — |
 | **Canonical** | **Cortex: Achieving Low-Latency, Cost-Efficient Remote Data Access For LLM via Semantic-Aware Knowledge Caching** | NSDI 2026 | agent systems / semantic knowledge caching | [Link](https://www.usenix.org/system/files/nsdi26-ruan-cortex.pdf) | — |
+| **Canonical** | **DistRS: Disaggregated Reward Service for RLVR with Batch-Level Constraint** | NSDI 2026 | efficient reasoning / RL post-training infra | [Link](https://www.usenix.org/conference/nsdi26/presentation/zhu-ruidong) | — |
 | **Canonical** | **DroidSpeak: KV Cache Sharing Across Fine-tuned Model Variants** | NSDI 2026 | KV cache / multi-model serving | [Link](https://www.usenix.org/system/files/nsdi26-liu-yuhan.pdf) | — |
+| **Canonical** | **FAST: An Efficient Scheduler for All-to-All GPU Communication** | NSDI 2026 | distributed training / collective communication | [Link](https://www.usenix.org/conference/nsdi26/presentation/lei-yiran) | — |
 | **Canonical** | **FastServe: Iteration-Level Preemptive Scheduling for Large Language Model Inference** | NSDI 2026 | LLM serving / preemptive scheduling / GPU memory management | [Link](https://www.usenix.org/conference/nsdi26/presentation/wu-bingyang) | — |
 | **Canonical** | **FlexLLM: Token-Level Co-Serving of LLM Inference and Finetuning with SLO Guarantees** | NSDI 2026 | inference + PEFT co-serving | [Link](https://www.usenix.org/system/files/nsdi26-oliaro.pdf) | — |
+| **Canonical** | **ForestColl: Throughput-Optimal Collective Communications on Heterogeneous Network Fabrics** | NSDI 2026 | distributed training / collective communication | [Link](https://www.usenix.org/conference/nsdi26/presentation/zhao-liangyu) | — |
+| **Canonical** | **HydraServe: Minimizing Cold Start Latency for Serverless LLM Serving in Public Clouds** | NSDI 2026 | LLM serving / serverless inference | [Link](https://www.usenix.org/conference/nsdi26/presentation/lou) | — |
 | **Canonical** | **JITServe: SLO-aware LLM Serving with Imprecise Request Information** | NSDI 2026 | LLM serving / SLO scheduling | [Link](https://www.usenix.org/system/files/nsdi26-zhang-wei.pdf) | — |
 | **Canonical** | **Libra: Flexible Request Partitioning and Scheduling for Serving Unbalanced and Dynamic LLM Workloads** | NSDI 2026 | LLM serving / dynamic partitioning / KV transfer | [Link](https://www.usenix.org/system/files/nsdi26-ruan-libra.pdf) | — |
+| **Canonical** | **MuxTune: Efficient Multi-Task LLM Fine-Tuning in Multi-Tenant Datacenters via Spatial-Temporal Backbone Multiplexing** | NSDI 2026 | distributed training / PEFT | [Link](https://www.usenix.org/conference/nsdi26/presentation/xue-chunyu) | — |
 | **Canonical** | **PlanetServe: A Decentralized, Scalable, and Privacy-Preserving Overlay for Democratizing Large Language Model Serving** | NSDI 2026 | LLM serving / distributed inference / edge-cloud heterogeneous AI systems | [Link](https://arxiv.org/abs/2504.20101) | [Repo](https://github.com/fffeifang/PlanetServe) |
 | **Canonical** | **RLBoost: Harvesting Preemptible Cloud Resources for Cost-Efficient Reinforcement Learning on LLMs** | NSDI 2026 | efficient reasoning / RL training infrastructure | [Link](https://www.usenix.org/system/files/nsdi26-wu-yongji.pdf) | — |
 | **Canonical** | **RollPacker: Taming Long-Tail Rollouts for RL Post-Training with Tail Batching** | NSDI 2026 | LLM RL post-training systems / rollout scheduling / GPU utilization | [Link](https://arxiv.org/abs/2509.21009) | [Repo](https://github.com/Farrrrland/RollPacker) |
