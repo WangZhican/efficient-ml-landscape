@@ -1767,10 +1767,10 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "BACKFILL_HIGH",
     "why": "Introduces non-uniform network access as a multi-die GPU scale-up bottleneck and proposes NUNA-aware routing plus placement. Reports up to 1.8x faster collectives and 7% mean / 28% max time-per-output-token speedup in ML inference. Direct AI-infra/architecture contribution.",
-    "published_at": "2026-08-01T21:01:52Z",
-    "updated_at": "2026-08-01T21:01:52Z",
-    "is_latest_30d": true,
-    "tracking_tier": "P0 · Strong",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
     "directions": [
       "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference",
@@ -6740,6 +6740,53 @@
     ]
   },
   {
+    "title": "Accelerating Unified Multimodal Models with Core-Expansion Routing and Unified Computation Scheduling",
+    "venue": "Fresh / preprint",
+    "topic": "multimodal/MLLM serving / sparsity / scheduling / cache reuse",
+    "arxiv": "2608.29291",
+    "doi": "",
+    "official_id": "2608.29291",
+    "paper_url": "https://arxiv.org/abs/2608.29291",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Direct multimodal inference acceleration. CE-Router plus unified scheduling coordinates layer skipping, FFN pruning, diffusion-head cache reuse, and denoising early exit across understanding and generation.",
+    "published_at": "2026-08-29T14:27:55Z",
+    "updated_at": "2026-08-29T14:27:55Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Multimodal / MLLM Serving",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "AdaVLA: Adaptive Step Flow Matching for Training-free Acceleration of Vision-Language-Action Models",
+    "venue": "Fresh / preprint",
+    "topic": "VLA/WAM/Physical AI serving / flow acceleration",
+    "arxiv": "2608.29208",
+    "doi": "",
+    "official_id": "2608.29208",
+    "paper_url": "https://arxiv.org/abs/2608.29208",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Protected Physical-AI direct acceleration work: training-free adaptive-step flow matching explicitly reduces VLA action-generation inference cost. Fresh 2026-09-01 primary arXiv identity.",
+    "published_at": "2026-08-29T11:44:18Z",
+    "updated_at": "2026-08-29T11:44:18Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
+      "Diffusion / Flow Acceleration",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "APT: Accelerating Diffusion Transformers via Attention Probability-Guided Pruning and Quantization",
     "venue": "Fresh / preprint",
     "topic": "diffusion acceleration / sparse attention / quantization / accelerator",
@@ -6802,6 +6849,48 @@
     "tracking_tier": "P0 · Strong",
     "directions": [
       "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "DASC: Decay-Aware State Compression for Hybrid Linear-Attention Serving",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / state cache / hybrid linear attention",
+    "arxiv": "2608.30386",
+    "doi": "",
+    "official_id": "2608.30386",
+    "paper_url": "https://arxiv.org/abs/2608.30386",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Direct serving systems work for hybrid linear-attention models. Compresses recurrent state checkpoints by 2.63x; under fixed memory budgets reports 42.6% lower mean TTFT and 68.4% higher input throughput.",
+    "published_at": "2026-08-31T07:42:43Z",
+    "updated_at": "2026-08-31T07:42:43Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Efficient Attention"
+    ]
+  },
+  {
+    "title": "EpaCache: Error-Propagation-Aware Caching for Accelerating Diffusion-Based Visual Generation",
+    "venue": "Fresh / preprint",
+    "topic": "video/image generation acceleration / diffusion cache",
+    "arxiv": "2608.29264",
+    "doi": "",
+    "official_id": "2608.29264",
+    "paper_url": "https://arxiv.org/abs/2608.29264",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Direct training-free diffusion caching acceleration. Reports 2.63x speedup on HunyuanVideo and improves quality versus prior caching at matched latency.",
+    "published_at": "2026-08-29T13:38:11Z",
+    "updated_at": "2026-08-29T13:38:11Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
@@ -6911,6 +7000,28 @@
       "LLM Serving",
       "Distributed Training / Inference",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "Strong Drafts Need Compact Memories: Long-Context Speculative Decoding with Compressed KV Cache",
+    "venue": "Fresh / preprint",
+    "topic": "speculative decoding / KV cache / long-context serving",
+    "arxiv": "2608.30252",
+    "doi": "",
+    "official_id": "2608.30252",
+    "paper_url": "https://arxiv.org/abs/2608.30252",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Direct long-context speculative-decoding systems work combining a stronger draft with compressed draft-side KV memory to preserve acceptance while controlling long-prefix draft latency.",
+    "published_at": "2026-08-31T05:03:30Z",
+    "updated_at": "2026-08-31T05:03:30Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "KV Cache / Long Context"
     ]
   },
   {

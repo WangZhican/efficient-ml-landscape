@@ -1578,6 +1578,28 @@
     ]
   },
   {
+    "title": "NUNA: Characterizing and Mitigating Non-Uniform Network Access in Multi-Die GPU Scale-Up Systems",
+    "venue": "arXiv 2026",
+    "topic": "distributed inference / multi-die GPU / collectives / heterogeneous AI systems",
+    "arxiv": "2608.00867",
+    "doi": "",
+    "official_id": "2608.00867",
+    "paper_url": "https://arxiv.org/abs/2608.00867",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Introduces non-uniform network access as a multi-die GPU scale-up bottleneck and proposes NUNA-aware routing plus placement. Reports up to 1.8x faster collectives and 7% mean / 28% max time-per-output-token speedup in ML inference. Direct AI-infra/architecture contribution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Realtime-VLA FLASH: Speculative Inference Framework for Diffusion-based VLAs",
     "venue": "arXiv 2026",
     "topic": "VLA/WAM/Physical AI serving / speculative inference / diffusion action head / Triton kernels",
