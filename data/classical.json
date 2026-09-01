@@ -4839,6 +4839,26 @@
     ]
   },
   {
+    "title": "FLRC: Fine-grained Low-Rank Compressor for Efficient LLM Inference",
+    "venue": "EMNLP 2025",
+    "topic": "LLM inference / model compression / low-rank acceleration",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "2025.emnlp-main.755",
+    "paper_url": "https://aclanthology.org/2025.emnlp-main.755/",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Direct efficient LLM inference compression result. FLRC allocates layer-specific low ranks and uses progressive low-rank decoding to reduce memory/computation while preserving generation quality; EMNLP reports up to 17% ROUGE-L improvement over prior low-rank compressors on summarization.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "GraphKV: Breaking the Static Selection Paradigm with Graph-Based KV Cache Eviction",
     "venue": "EMNLP 2025",
     "topic": "KV cache eviction / graph-based selection",
@@ -4941,6 +4961,26 @@
     ]
   },
   {
+    "title": "QuZO: Quantized Zeroth-Order Fine-Tuning for Large Language Models",
+    "venue": "EMNLP 2025",
+    "topic": "quantization / memory-efficient LLM fine-tuning / zeroth-order optimization",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "2025.emnlp-main.271",
+    "paper_url": "https://aclanthology.org/2025.emnlp-main.271/",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Direct memory-efficient low-precision LLM fine-tuning result. QuZO performs fine-tuning through INT4/INT8/FP8 forward passes without backpropagation through low-precision STE and reports 2.94x-5.47x lower memory consumption than quantized first-order methods for LLaMA-7B fine-tuning.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization"
+    ]
+  },
+  {
     "title": "Reasoning under Uncertainty: Efficient LLM Inference via Unsupervised Confidence Dilution and Convergent Adaptive Sampling",
     "venue": "EMNLP 2025",
     "topic": "efficient reasoning / adaptive sampling",
@@ -5023,6 +5063,28 @@
       "Speculative Decoding",
       "Sparsity / Pruning",
       "Multimodal / MLLM Serving"
+    ]
+  },
+  {
+    "title": "SwiftKV: Fast Prefill-Optimized Inference with Knowledge-Preserving Model Transformation",
+    "venue": "EMNLP 2025",
+    "topic": "LLM serving / prefill acceleration / KV cache / inference systems",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "2025.emnlp-main.1306",
+    "paper_url": "https://aclanthology.org/2025.emnlp-main.1306/",
+    "code_url": "https://github.com/snowflakedb/arcticinference",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Direct LLM inference/serving efficiency result from EMNLP 2025. SwiftKV transforms the model so later-layer KV caches can be prefixed from earlier-layer representations, cutting prefill computation by 25-50%; the paper reports up to 2x higher aggregate serving throughput and 60% lower time per output token.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {

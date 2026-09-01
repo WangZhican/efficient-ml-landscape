@@ -1,6 +1,6 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **1182 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **1185 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
@@ -809,6 +809,37 @@
 | **Canonical** | **UniSpec: Training-Free Speculative Decoding for Robust LLM Acceleration Across Languages and Hardware** | ACL 2026 | speculative decoding / hardware-aware calibration | [Link](https://doi.org/10.18653/v1/2026.acl-long.285) | — |
 | **Canonical** | **VecInfer: Efficient LLM Inference with Low-Bit KV Cache via Outlier-Suppressed Vector Quantization** | ACL 2026 | KV-cache quantization / low-bit LLM inference / CUDA kernel | [Link](https://aclanthology.org/2026.acl-long.1454/) | — |
 
+## EMNLP 2025 · 26
+
+| Priority | Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|---|
+| **Canonical** | **Accelerated Test-Time Scaling with Model-Free Speculative Sampling** | EMNLP 2025 | efficient reasoning / model-free speculative decoding | [Link](https://aclanthology.org/2025.emnlp-main.1558/) | — |
+| **Canonical** | **Alignment-Augmented Speculative Decoding with Alignment Sampling and Conditional Verification** | EMNLP 2025 | speculative decoding / conditional verification | [Link](https://aclanthology.org/2025.emnlp-main.343/) | — |
+| **Canonical** | **Cacheback: Speculative Decoding With Nothing But Cache** | EMNLP 2025 | speculative decoding / cache-based drafting | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.1581) | — |
+| **Canonical** | **CopySpec: Accelerating LLMs with Speculative Copy-and-Paste** | EMNLP 2025 | speculative decoding / context reuse | [Link](https://aclanthology.org/2025.emnlp-main.1337/) | [Repo](https://github.com/RazvanDu/CopySpec) |
+| **Canonical** | **Cost-Optimal Grouped-Query Attention for Long-Context Modeling** | EMNLP 2025 | efficient attention / GQA / long-context modeling | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.272) | — |
+| **Canonical** | **Dovetail: A CPU/GPU Heterogeneous Speculative Decoding for LLM inference** | EMNLP 2025 | heterogeneous CPU/GPU inference / speculative decoding | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.879) | — |
+| **Canonical** | **Draft Model Knows When to Stop: Self-Verification Speculative Decoding for Long-Form Generation** | EMNLP 2025 | speculative decoding / efficient reasoning | [Link](https://aclanthology.org/2025.emnlp-main.844/) | — |
+| **Canonical** | **Efficient Beam Search for Large Language Models Using Trie-Based Decoding** | EMNLP 2025 | beam search / shared KV cache / decoding acceleration | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.748) | — |
+| **Canonical** | **Faster In-Context Learning for LLMs via N-Gram Trie Speculative Decoding** | EMNLP 2025 | speculative decoding / in-context learning | [Link](https://aclanthology.org/2025.emnlp-main.911/) | — |
+| **Canonical** | **FIER: Fine-Grained and Efficient KV Cache Retrieval for Long-context LLM Inference** | EMNLP 2025 | KV cache retrieval / long-context inference | [Link](https://doi.org/10.18653/v1/2025.findings-emnlp.515) | — |
+| **Canonical** | **FLRC: Fine-grained Low-Rank Compressor for Efficient LLM Inference** | EMNLP 2025 | LLM inference / model compression / low-rank acceleration | [Link](https://aclanthology.org/2025.emnlp-main.755/) | — |
+| **Canonical** | **GraphKV: Breaking the Static Selection Paradigm with Graph-Based KV Cache Eviction** | EMNLP 2025 | KV cache eviction / graph-based selection | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.1112) | — |
+| **Canonical** | **LeanK: Learnable K Cache Channel Pruning for Efficient Decoding** | EMNLP 2025 | KV cache pruning / decoding acceleration | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.1584) | — |
+| **Canonical** | **Lookahead Q-Cache: Achieving More Consistent KV Cache Eviction via Pseudo Query** | EMNLP 2025 | KV cache eviction / long-context inference | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.1732) | — |
+| **Canonical** | **PRISM: Efficient Long-Range Reasoning With Short-Context LLMs** | EMNLP 2025 | efficient reasoning / KV reuse / short-context inference | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.517) | — |
+| **Canonical** | **QSpec: Speculative Decoding with Complementary Quantization Schemes** | EMNLP 2025 | speculative decoding / quantization | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.240) | — |
+| **Canonical** | **QuZO: Quantized Zeroth-Order Fine-Tuning for Large Language Models** | EMNLP 2025 | quantization / memory-efficient LLM fine-tuning / zeroth-order optimization | [Link](https://aclanthology.org/2025.emnlp-main.271/) | — |
+| **Canonical** | **Reasoning under Uncertainty: Efficient LLM Inference via Unsupervised Confidence Dilution and Convergent Adaptive Sampling** | EMNLP 2025 | efficient reasoning / adaptive sampling | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.1638) | — |
+| **Canonical** | **Spec-VLA: Speculative Decoding for Vision-Language-Action Models with Relaxed Acceptance** | EMNLP 2025 | Physical AI / VLA speculative decoding / relaxed action-token verification | [Link](https://arxiv.org/abs/2507.22424) | [Repo](https://github.com/PineTreeWss/SpecVLA) |
+| **Canonical** | **Speculative Streaming: Efficient and Scalable Speculative Decoding with Multi-Stream Attention** | EMNLP 2025 | speculative decoding / multi-stream attention | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.986) | — |
+| **Canonical** | **SpecVLM: Enhancing Speculative Decoding of Video LLMs via Verifier-Guided Token Pruning** | EMNLP 2025 | multimodal speculative decoding / video LLM / verifier-guided visual-token pruning | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.366) | [Repo](https://github.com/zju-jiyicheng/SpecVLM) |
+| **Canonical** | **SwiftKV: Fast Prefill-Optimized Inference with Knowledge-Preserving Model Transformation** | EMNLP 2025 | LLM serving / prefill acceleration / KV cache / inference systems | [Link](https://aclanthology.org/2025.emnlp-main.1306/) | [Repo](https://github.com/snowflakedb/arcticinference) |
+| **Canonical** | **Thought calibration: Efficient and confident test-time scaling** | EMNLP 2025 | efficient reasoning / adaptive test-time compute | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.722) | — |
+| **Canonical** | **TokenSelect: Efficient Long-Context Inference and Length Extrapolation for LLMs via Dynamic Token-Level KV Cache Selection** | EMNLP 2025 | long-context inference / KV selection / sparse attention | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.1079) | — |
+| **Canonical** | **UNComp: Can Matrix Entropy Uncover Sparsity? — A Compressor Design from an Uncertainty-Aware Perspective** | EMNLP 2025 | KV cache compression / long-context inference / uncertainty-aware sparsity | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.209) | — |
+| **Canonical** | **XQuant: Achieving Ultra-Low Bit KV Cache Quantization with Cross-Layer Compression** | EMNLP 2025 | KV cache quantization / long-context inference | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.494) | — |
+
 ## ICML 2025 · 25
 
 | Priority | Paper | Venue | Topic | Paper | Code |
@@ -868,34 +899,6 @@
 | **Canonical** | **Stratum** | MICRO 2025 | MoE + diffusion + tensor compression + hybrid LM + reasoning + edge training acceleration | [Link](https://doi.org/10.1145/3725843.3756043) | — |
 | **Canonical** | **Stratum: System-Hardware Co-design with Tiered Monolithic 3D-DRAM for Efficient MoE Serving** | MICRO 2025 | MoE serving / memory-system co-design | — | — |
 | **Canonical** | **StreamTensor: Make Tensors Stream in Dataflow Accelerators for LLMs** | MICRO 2025 | LLM accelerator / dataflow | [Link](https://arxiv.org/abs/2509.13694) | — |
-
-## EMNLP 2025 · 23
-
-| Priority | Paper | Venue | Topic | Paper | Code |
-|---|---|---|---|---|---|
-| **Canonical** | **Accelerated Test-Time Scaling with Model-Free Speculative Sampling** | EMNLP 2025 | efficient reasoning / model-free speculative decoding | [Link](https://aclanthology.org/2025.emnlp-main.1558/) | — |
-| **Canonical** | **Alignment-Augmented Speculative Decoding with Alignment Sampling and Conditional Verification** | EMNLP 2025 | speculative decoding / conditional verification | [Link](https://aclanthology.org/2025.emnlp-main.343/) | — |
-| **Canonical** | **Cacheback: Speculative Decoding With Nothing But Cache** | EMNLP 2025 | speculative decoding / cache-based drafting | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.1581) | — |
-| **Canonical** | **CopySpec: Accelerating LLMs with Speculative Copy-and-Paste** | EMNLP 2025 | speculative decoding / context reuse | [Link](https://aclanthology.org/2025.emnlp-main.1337/) | [Repo](https://github.com/RazvanDu/CopySpec) |
-| **Canonical** | **Cost-Optimal Grouped-Query Attention for Long-Context Modeling** | EMNLP 2025 | efficient attention / GQA / long-context modeling | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.272) | — |
-| **Canonical** | **Dovetail: A CPU/GPU Heterogeneous Speculative Decoding for LLM inference** | EMNLP 2025 | heterogeneous CPU/GPU inference / speculative decoding | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.879) | — |
-| **Canonical** | **Draft Model Knows When to Stop: Self-Verification Speculative Decoding for Long-Form Generation** | EMNLP 2025 | speculative decoding / efficient reasoning | [Link](https://aclanthology.org/2025.emnlp-main.844/) | — |
-| **Canonical** | **Efficient Beam Search for Large Language Models Using Trie-Based Decoding** | EMNLP 2025 | beam search / shared KV cache / decoding acceleration | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.748) | — |
-| **Canonical** | **Faster In-Context Learning for LLMs via N-Gram Trie Speculative Decoding** | EMNLP 2025 | speculative decoding / in-context learning | [Link](https://aclanthology.org/2025.emnlp-main.911/) | — |
-| **Canonical** | **FIER: Fine-Grained and Efficient KV Cache Retrieval for Long-context LLM Inference** | EMNLP 2025 | KV cache retrieval / long-context inference | [Link](https://doi.org/10.18653/v1/2025.findings-emnlp.515) | — |
-| **Canonical** | **GraphKV: Breaking the Static Selection Paradigm with Graph-Based KV Cache Eviction** | EMNLP 2025 | KV cache eviction / graph-based selection | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.1112) | — |
-| **Canonical** | **LeanK: Learnable K Cache Channel Pruning for Efficient Decoding** | EMNLP 2025 | KV cache pruning / decoding acceleration | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.1584) | — |
-| **Canonical** | **Lookahead Q-Cache: Achieving More Consistent KV Cache Eviction via Pseudo Query** | EMNLP 2025 | KV cache eviction / long-context inference | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.1732) | — |
-| **Canonical** | **PRISM: Efficient Long-Range Reasoning With Short-Context LLMs** | EMNLP 2025 | efficient reasoning / KV reuse / short-context inference | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.517) | — |
-| **Canonical** | **QSpec: Speculative Decoding with Complementary Quantization Schemes** | EMNLP 2025 | speculative decoding / quantization | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.240) | — |
-| **Canonical** | **Reasoning under Uncertainty: Efficient LLM Inference via Unsupervised Confidence Dilution and Convergent Adaptive Sampling** | EMNLP 2025 | efficient reasoning / adaptive sampling | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.1638) | — |
-| **Canonical** | **Spec-VLA: Speculative Decoding for Vision-Language-Action Models with Relaxed Acceptance** | EMNLP 2025 | Physical AI / VLA speculative decoding / relaxed action-token verification | [Link](https://arxiv.org/abs/2507.22424) | [Repo](https://github.com/PineTreeWss/SpecVLA) |
-| **Canonical** | **Speculative Streaming: Efficient and Scalable Speculative Decoding with Multi-Stream Attention** | EMNLP 2025 | speculative decoding / multi-stream attention | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.986) | — |
-| **Canonical** | **SpecVLM: Enhancing Speculative Decoding of Video LLMs via Verifier-Guided Token Pruning** | EMNLP 2025 | multimodal speculative decoding / video LLM / verifier-guided visual-token pruning | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.366) | [Repo](https://github.com/zju-jiyicheng/SpecVLM) |
-| **Canonical** | **Thought calibration: Efficient and confident test-time scaling** | EMNLP 2025 | efficient reasoning / adaptive test-time compute | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.722) | — |
-| **Canonical** | **TokenSelect: Efficient Long-Context Inference and Length Extrapolation for LLMs via Dynamic Token-Level KV Cache Selection** | EMNLP 2025 | long-context inference / KV selection / sparse attention | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.1079) | — |
-| **Canonical** | **UNComp: Can Matrix Entropy Uncover Sparsity? — A Compressor Design from an Uncertainty-Aware Perspective** | EMNLP 2025 | KV cache compression / long-context inference / uncertainty-aware sparsity | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.209) | — |
-| **Canonical** | **XQuant: Achieving Ultra-Low Bit KV Cache Quantization with Cross-Layer Compression** | EMNLP 2025 | KV cache quantization / long-context inference | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.494) | — |
 
 ## AAAI 2026 · 22
 

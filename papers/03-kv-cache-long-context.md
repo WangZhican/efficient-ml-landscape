@@ -1,6 +1,6 @@
 # 03 · KV Cache / Long Context
 
-> **326 canonical papers** mapped here, plus a broader **59-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **327 canonical papers** mapped here, plus a broader **59-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -68,7 +68,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P1 · Watch** | **Edge-Native Embodied Intelligence for Action-Aware Wireless Edge Networks** | Fresh / preprint | VLA/WAM/Physical AI serving / edge-cloud / heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.17774) | — |
 
-## 🏛️ Classical / Historical · 306 canonical
+## 🏛️ Classical / Historical · 307 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -134,6 +134,7 @@
 | **Canonical** | **GraphKV: Breaking the Static Selection Paradigm with Graph-Based KV Cache Eviction** | EMNLP 2025 | KV cache eviction / graph-based selection | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.1112) | — |
 | **Canonical** | **LeanK: Learnable K Cache Channel Pruning for Efficient Decoding** | EMNLP 2025 | KV cache pruning / decoding acceleration | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.1584) | — |
 | **Canonical** | **Lookahead Q-Cache: Achieving More Consistent KV Cache Eviction via Pseudo Query** | EMNLP 2025 | KV cache eviction / long-context inference | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.1732) | — |
+| **Canonical** | **SwiftKV: Fast Prefill-Optimized Inference with Knowledge-Preserving Model Transformation** | EMNLP 2025 | LLM serving / prefill acceleration / KV cache / inference systems | [Link](https://aclanthology.org/2025.emnlp-main.1306/) | [Repo](https://github.com/snowflakedb/arcticinference) |
 | **Canonical** | **TokenSelect: Efficient Long-Context Inference and Length Extrapolation for LLMs via Dynamic Token-Level KV Cache Selection** | EMNLP 2025 | long-context inference / KV selection / sparse attention | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.1079) | — |
 | **Canonical** | **UNComp: Can Matrix Entropy Uncover Sparsity? — A Compressor Design from an Uncertainty-Aware Perspective** | EMNLP 2025 | KV cache compression / long-context inference / uncertainty-aware sparsity | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.209) | — |
 | **Canonical** | **XQuant: Achieving Ultra-Low Bit KV Cache Quantization with Cross-Layer Compression** | EMNLP 2025 | KV cache quantization / long-context inference | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.494) | — |
