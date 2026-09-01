@@ -23517,6 +23517,28 @@
     ]
   },
   {
+    "title": "DFLOP: A Data-driven Framework for Multimodal LLM Training Pipeline Optimization",
+    "venue": "SIGMOD 2026",
+    "topic": "distributed training / multimodal MLLM systems / pipeline parallelism",
+    "arxiv": "2603.25120",
+    "doi": "",
+    "official_id": "10.1145/3802037",
+    "paper_url": "https://arxiv.org/abs/2603.25120",
+    "code_url": "https://github.com/BDAI-Research/DFLOP",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "SIGMOD 2026 direct AI-infrastructure paper. DFLOP profiles model/data heterogeneity, chooses data-aware 3D parallel configurations, and dynamically schedules microbatches to reduce pipeline imbalance; reports up to 3.6x faster MLLM training and about 82-84% lower GPU idle time versus PyTorch/Megatron-LM baselines.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
     "title": "Efficient LLM Serving for Agentic Workflows: A Data Systems Perspective",
     "venue": "SIGMOD 2026",
     "topic": "agentic LLM serving / workflow-aware caching / cache-aware scheduling",
@@ -23664,6 +23686,28 @@
     "directions": [
       "LLM Serving",
       "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "TranSQL+: Serving Large Language Models with SQL on Low-Resource Hardware",
+    "venue": "SIGMOD 2026",
+    "topic": "LLM serving / edge low-resource inference / compiler-runtime",
+    "arxiv": "2502.02818",
+    "doi": "",
+    "official_id": "10.1145/3769836",
+    "paper_url": "https://arxiv.org/abs/2502.02818",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "SIGMOD 2026 direct Efficient-ML/AI-infrastructure paper. TranSQL+ compiles LLM computation graphs into pure SQL so relational databases can serve LLMs on CPU/low-memory hardware; reports up to 20x lower prefill latency and 4x higher decoding speed than DeepSpeed Inference and llama.cpp in the evaluated constrained configurations.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
