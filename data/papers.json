@@ -3439,6 +3439,26 @@
     ]
   },
   {
+    "title": "SpecDec++: Boosting Speculative Decoding via Adaptive Candidate Lengths",
+    "venue": "COLM 2025",
+    "topic": "speculative decoding / LLM inference / adaptive candidate length",
+    "arxiv": "2405.19715",
+    "doi": "",
+    "official_id": "2405.19715",
+    "paper_url": "https://arxiv.org/abs/2405.19715",
+    "code_url": "https://github.com/Kaffaljidhmah2/SpecDec_pp",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "COLM 2025 accepted speculative-decoding work. SpecDec++ formulates adaptive candidate-length selection as an MDP and uses an acceptance-prediction head to stop speculation dynamically. On Llama-2-chat 7B/70B it reports 2.04x, 2.23x and 2.26x speedups on Alpaca, HumanEval and GSM8K, improving fixed-length speculative decoding by 7.2%-11.1%.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Speculative Decoding"
+    ]
+  },
+  {
     "title": "SQuat: Subspace-orthogonal KV Cache Quantization",
     "venue": "COLM 2025",
     "topic": "KV cache quantization",
