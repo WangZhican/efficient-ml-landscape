@@ -4744,6 +4744,26 @@
     ]
   },
   {
+    "title": "3D-CIMlet: A Chiplet Co-Design Framework for Heterogeneous In-Memory Acceleration of Edge LLM Inference and Continual Learning",
+    "venue": "DAC 2025",
+    "topic": "edge/cloud/heterogeneous AI systems / LLM accelerator / chiplet / compute-in-memory",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "DOI:10.1109/DAC63849.2025.11133077",
+    "paper_url": "https://doi.org/10.1109/DAC63849.2025.11133077",
+    "code_url": "https://github.com/NanoX-Lab/3D-CIMlet",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "DAC 2025 thermal- and reliability-aware 2.5D/3D heterogeneous RRAM/eDRAM CIM chiplet co-design framework for edge LLM inference and continual learning; reports up to 9.3x/12x energy-efficiency gains and up to 92.5% EDP reduction over 2D baselines.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "3D-TokSIM: Stacking 3D Memory with Token-Stationary Compute-in-Memory for Speculative LLM Inference",
     "venue": "DAC 2025",
     "topic": "speculative decoding / 3D memory / compute-in-memory accelerator",
@@ -4847,6 +4867,28 @@
     "directions": [
       "Quantization",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "ClusterKV: Manipulating LLM KV Cache in Semantic Space for Recallable Compression",
+    "venue": "DAC 2025",
+    "topic": "KV cache / long-context inference / recallable semantic-cluster compression",
+    "arxiv": "2412.03213",
+    "doi": "",
+    "official_id": "DOI:10.1109/DAC63849.2025.11132479",
+    "paper_url": "https://arxiv.org/abs/2412.03213",
+    "code_url": "https://github.com/sjtu-zhao-lab/ClusterKV",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "DAC 2025 long-context inference system that recalls KV entries by semantic clusters; reports negligible quality loss with 1k-2k KV budget at 32k context, up to 2x latency speedup and 2.5x decoding-throughput improvement.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Distributed Training / Inference"
     ]
   },
   {
@@ -26492,6 +26534,27 @@
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context"
+    ]
+  },
+  {
+    "title": "Hydraulis: Balancing Large Transformer Model Training via Co-designing Parallel Strategies and Data Assignment",
+    "venue": "SIGMOD 2026",
+    "topic": "distributed training / dynamic heterogeneous parallelism / data assignment",
+    "arxiv": "2412.07894",
+    "doi": "",
+    "official_id": "DOI:10.1145/3769802",
+    "paper_url": "https://arxiv.org/abs/2412.07894",
+    "code_url": "https://github.com/PKU-DAIR/Hetu",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "SIGMOD 2026 large-Transformer training system jointly optimizing dynamic heterogeneous parallel strategies and data assignment under variable sequence lengths; reports 1.32x-2.66x performance improvement.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Distributed Training / Inference",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
