@@ -1,6 +1,6 @@
 # 03 · KV Cache / Long Context
 
-> **344 canonical papers** mapped here, plus a broader **65-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **345 canonical papers** mapped here, plus a broader **65-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -74,7 +74,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P1 · Watch** | **Edge-Native Embodied Intelligence for Action-Aware Wireless Edge Networks** | Fresh / preprint | VLA/WAM/Physical AI serving / edge-cloud / heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.17774) | — |
 
-## 🏛️ Classical / Historical · 319 canonical
+## 🏛️ Classical / Historical · 320 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -91,6 +91,7 @@
 | **Canonical** | **Self-Indexing KVCache: Predicting Sparse Attention from Compressed Keys** | AAAI 2026 | KV cache compression / sparse attention / CUDA kernel | [Link](https://doi.org/10.1609/aaai.v40i33.39988) | — |
 | **Canonical** | **SlimInfer: Accelerating Long-Context LLM Inference via Dynamic Token Pruning** | AAAI 2026 | long-context LLM inference / token pruning / asynchronous KV manager | [Link](https://arxiv.org/abs/2508.06447) | [Repo](https://github.com/Longxmas/SlimInfer) |
 | **Canonical** | **Sparse Attention Across Multiple-Context KV Cache** | AAAI 2026 | RAG / sparse attention / multi-context KV cache | [Link](https://doi.org/10.1609/aaai.v40i36.40266) | — |
+| **Canonical** | **SubGCache: Accelerating Graph-based RAG with Subgraph-level KV Cache** | AAAI 2026 | KV cache / RAG serving / cross-request reuse | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/40827) | — |
 | **Canonical** | **AdapShot: Adaptive Many-Shot In-Context Learning with Semantic-Aware KV Cache Reuse** | ACL 2026 | KV reuse / efficient in-context learning | [Link](https://doi.org/10.18653/v1/2026.acl-long.1990) | — |
 | **Canonical** | **ContrastKV: Robust KV Cache Eviction via Contrastive Signal Fusion for Multi-Query Generalization** | ACL 2026 | KV-cache eviction / long-context multi-query inference | [Link](https://aclanthology.org/2026.acl-long.417/) | — |
 | **Canonical** | **Every Token Counts: Generalizing 16M Ultra-Long Context in Large Language Models** | ACL 2026 | efficient attention / ultra-long-context / MoE | [Link](https://aclanthology.org/2026.acl-long.464/) | — |

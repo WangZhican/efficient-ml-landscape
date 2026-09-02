@@ -44,6 +44,69 @@
     ]
   },
   {
+    "title": "AdaSpec: Adaptive Multilingual Speculative Decoding with Self-Synthesized Language-Aware Training and Vocabulary Simplification",
+    "venue": "AAAI 2026",
+    "topic": "speculative decoding / multilingual inference",
+    "arxiv": "",
+    "doi": "10.1609/aaai.v40i36.40307",
+    "official_id": "AAAI-40307",
+    "paper_url": "https://ojs.aaai.org/index.php/AAAI/article/view/40307",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Speculative Decoding"
+    ]
+  },
+  {
+    "title": "Annealed Relaxation of Speculative Decoding for Faster Autoregressive Image Generation",
+    "venue": "AAAI 2026",
+    "topic": "speculative decoding / video-image generation acceleration",
+    "arxiv": "",
+    "doi": "10.1609/aaai.v40i28.39489",
+    "official_id": "AAAI-39489",
+    "paper_url": "https://ojs.aaai.org/index.php/AAAI/article/view/39489",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Speculative Decoding",
+      "Video / Image Generation"
+    ]
+  },
+  {
+    "title": "CATP: Contextually Adaptive Token Pruning for Efficient and Enhanced Multimodal In-Context Learning",
+    "venue": "AAAI 2026",
+    "topic": "multimodal/MLLM serving / visual token pruning",
+    "arxiv": "",
+    "doi": "10.1609/aaai.v40i8.37592",
+    "official_id": "AAAI-37592",
+    "paper_url": "https://ojs.aaai.org/index.php/AAAI/article/view/37592",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
     "title": "DIAA: A Decoding-Efficient Inference Acceleration Approach for On-Device Large Language Models",
     "venue": "AAAI 2026",
     "topic": "on-device LLM / speculative decoding / edge inference",
@@ -171,6 +234,29 @@
     ]
   },
   {
+    "title": "Instruction-Guided Cross-Modal Clustering for Training-Free Visual Token Pruning in Vision-Language Models",
+    "venue": "AAAI 2026",
+    "topic": "multimodal/MLLM serving / visual token pruning",
+    "arxiv": "",
+    "doi": "10.1609/aaai.v40i14.38212",
+    "official_id": "AAAI-38212",
+    "paper_url": "https://ojs.aaai.org/index.php/AAAI/article/view/38212",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Distributed Training / Inference",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
     "title": "Judge Q: Trainable Queries for Optimized Information Retention in KV Cache Eviction",
     "venue": "AAAI 2026",
     "topic": "KV cache/long-context / efficient LLM inference",
@@ -253,6 +339,28 @@
     "directions": [
       "KV Cache / Long Context",
       "Efficient Attention",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
+    "title": "PosPrune: Visual Token Pruning with Positional Bias Correction for Efficient Large Vision-Language Models",
+    "venue": "AAAI 2026",
+    "topic": "multimodal/MLLM serving / visual token pruning",
+    "arxiv": "",
+    "doi": "10.1609/aaai.v40i13.38020",
+    "official_id": "AAAI-38020",
+    "paper_url": "https://ojs.aaai.org/index.php/AAAI/article/view/38020",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
       "Multimodal / MLLM Serving"
     ]
   },
@@ -407,6 +515,50 @@
     ]
   },
   {
+    "title": "STEP-Nav: Spatial-Temporal Efficient Visual Token Pruning for Vision-and-Language Navigation with Large Language Models",
+    "venue": "AAAI 2026",
+    "topic": "VLA/WAM/Physical AI serving / visual token pruning",
+    "arxiv": "",
+    "doi": "10.1609/aaai.v40i29.39588",
+    "official_id": "AAAI-39588",
+    "paper_url": "https://ojs.aaai.org/index.php/AAAI/article/view/39588",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "SubGCache: Accelerating Graph-based RAG with Subgraph-level KV Cache",
+    "venue": "AAAI 2026",
+    "topic": "KV cache / RAG serving / cross-request reuse",
+    "arxiv": "",
+    "doi": "10.1609/aaai.v40i41.40827",
+    "official_id": "AAAI-40827",
+    "paper_url": "https://ojs.aaai.org/index.php/AAAI/article/view/40827",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context"
+    ]
+  },
+  {
     "title": "Talon: Breaking the Synchronization Barrier in Speculative Decoding with Hybrid Model-based and Retrieve-based Drafting",
     "venue": "AAAI 2026",
     "topic": "speculative decoding / asynchronous draft-verify pipeline / hybrid model-retrieval drafting",
@@ -464,6 +616,29 @@
     "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving"
+    ]
+  },
+  {
+    "title": "TOP-RL: Task-Optimized Progressive Token Pruning with Reinforcement Learning for Vision Language Models",
+    "venue": "AAAI 2026",
+    "topic": "multimodal/MLLM serving / visual token pruning",
+    "arxiv": "",
+    "doi": "10.1609/aaai.v40i18.38614",
+    "official_id": "AAAI-38614",
+    "paper_url": "https://ojs.aaai.org/index.php/AAAI/article/view/38614",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents"
     ]
   },
   {

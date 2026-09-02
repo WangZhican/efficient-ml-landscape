@@ -1,6 +1,6 @@
 # 02 · Speculative Decoding
 
-> **176 canonical papers** mapped here, plus a broader **30-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **178 canonical papers** mapped here, plus a broader **30-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -39,10 +39,12 @@
 | **P2 · Relevant** | **DraftExpert: Expansion-Aware Self-Speculative Decoding for End-Device MoE Inference** | Fresh / preprint | llm_serving / spec / moe / edge | [Link](https://arxiv.org/abs/2607.24434) | — |
 | **P2 · Relevant** | **SpecBox: Speculative Sandbox Scheduling for Efficient LLM Agent Serving** | Fresh / preprint | llm_serving / agent | [Link](https://arxiv.org/abs/2607.23933) | — |
 
-## 🏛️ Classical / Historical · 167 canonical
+## 🏛️ Classical / Historical · 169 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
+| **Canonical** | **AdaSpec: Adaptive Multilingual Speculative Decoding with Self-Synthesized Language-Aware Training and Vocabulary Simplification** | AAAI 2026 | speculative decoding / multilingual inference | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/40307) | — |
+| **Canonical** | **Annealed Relaxation of Speculative Decoding for Faster Autoregressive Image Generation** | AAAI 2026 | speculative decoding / video-image generation acceleration | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39489) | — |
 | **Canonical** | **DIAA: A Decoding-Efficient Inference Acceleration Approach for On-Device Large Language Models** | AAAI 2026 | on-device LLM / speculative decoding / edge inference | [Link](https://doi.org/10.1609/aaai.v40i31.39789) | — |
 | **Canonical** | **Scaling LLM Speculative Decoding: Non-Autoregressive Forecasting in Large-Batch Scenarios** | AAAI 2026 | speculative decoding / large-batch inference / non-autoregressive drafting | [Link](https://arxiv.org/abs/2511.20340) | [Repo](https://github.com/ShiLuohe/SpecFormer) |
 | **Canonical** | **Steering Pretrained Drafters During Speculative Decoding** | AAAI 2026 | speculative decoding / drafter-verifier alignment | [Link](https://arxiv.org/abs/2511.09844) | [Repo](https://github.com/ETH-DISCO/SD-square) |

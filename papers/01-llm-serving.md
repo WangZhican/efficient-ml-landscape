@@ -1,6 +1,6 @@
 # 01 · LLM Serving
 
-> **553 canonical papers** mapped here, plus a broader **237-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **559 canonical papers** mapped here, plus a broader **237-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -246,17 +246,23 @@
 | **P1 · Watch** | **Here is a GIFT: Enforcing User Data Isolation in LLM Serving via GPU Information Flow Tracking** | Fresh / preprint | LLM serving / GPU runtime / confidential computing | [Link](https://arxiv.org/abs/2608.25431) | — |
 | **P1 · Watch** | **Edge-Native Embodied Intelligence for Action-Aware Wireless Edge Networks** | Fresh / preprint | VLA/WAM/Physical AI serving / edge-cloud / heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.17774) | — |
 
-## 🏛️ Classical / Historical · 505 canonical
+## 🏛️ Classical / Historical · 511 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **Canonical** | **Accelerating LLM Inference Throughput via Asynchronous KV Cache Prefetching** | AAAI 2026 | LLM inference / KV cache prefetch / GPU memory hierarchy | [Link](https://doi.org/10.1609/aaai.v40i25.39224) | — |
+| **Canonical** | **CATP: Contextually Adaptive Token Pruning for Efficient and Enhanced Multimodal In-Context Learning** | AAAI 2026 | multimodal/MLLM serving / visual token pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/37592) | — |
 | **Canonical** | **HitKV: Activation Frequency Knows Which Tokens Are Important** | AAAI 2026 | KV cache/long-context | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/40105) | — |
+| **Canonical** | **Instruction-Guided Cross-Modal Clustering for Training-Free Visual Token Pruning in Vision-Language Models** | AAAI 2026 | multimodal/MLLM serving / visual token pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/38212) | — |
 | **Canonical** | **Judge Q: Trainable Queries for Optimized Information Retention in KV Cache Eviction** | AAAI 2026 | KV cache/long-context / efficient LLM inference | [Link](https://arxiv.org/abs/2509.10798) | [Repo](https://github.com/Mambaaaaaaaaaa/Judge-Q) |
 | **Canonical** | **KeepKV: Achieving Periodic Lossless KV Cache Compression for Efficient LLM Inference** | AAAI 2026 | KV cache compression / inference throughput | [Link](https://doi.org/10.1609/aaai.v40i39.40611) | — |
+| **Canonical** | **PosPrune: Visual Token Pruning with Positional Bias Correction for Efficient Large Vision-Language Models** | AAAI 2026 | multimodal/MLLM serving / visual token pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/38020) | — |
 | **Canonical** | **Q Cache: Visual Attention Is Valuable in Less than Half of Decode Layers for Multimodal Large Language Model** | AAAI 2026 | MLLM inference / cross-layer attention reuse / KV cache | [Link](https://doi.org/10.1609/aaai.v40i16.38414) | — |
 | **Canonical** | **SMIDT: High-Performance Inference Framework for MoE Models with Dynamic Top-K Routing** | AAAI 2026 | MoE systems/accelerators / LLM serving | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39403) | — |
+| **Canonical** | **STEP-Nav: Spatial-Temporal Efficient Visual Token Pruning for Vision-and-Language Navigation with Large Language Models** | AAAI 2026 | VLA/WAM/Physical AI serving / visual token pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39588) | — |
+| **Canonical** | **SubGCache: Accelerating Graph-based RAG with Subgraph-level KV Cache** | AAAI 2026 | KV cache / RAG serving / cross-request reuse | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/40827) | — |
 | **Canonical** | **TokenPowerBench: Benchmarking the Power Consumption of LLM Inference** | AAAI 2026 | LLM serving / energy benchmarking | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/40535) | [Repo](https://github.com/chenxuniu/TokenPowerBench) |
+| **Canonical** | **TOP-RL: Task-Optimized Progressive Token Pruning with Reinforcement Learning for Vision Language Models** | AAAI 2026 | multimodal/MLLM serving / visual token pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/38614) | — |
 | **Canonical** | **DREAM-S: Speculative Decoding with Searchable Drafting and Target-Aware Refinement for Multimodal Generation** | ACL 2026 | speculative decoding / multimodal MLLM serving / hardware-aware draft design | [Link](https://arxiv.org/abs/2606.00535) | [Repo](https://github.com/SAI-Lab-NYU/DREAM-S) |
 | **Canonical** | **FLARE: Fine-Grained Length-Aware Routing for Resource-Efficient Heterogeneous LLM Serving** | ACL 2026 | LLM serving / heterogeneous routing | [Link](https://aclanthology.org/2026.acl-long.1018/) | — |
 | **Canonical** | **See the Forest for the Trees: Loosely Speculative Decoding via Visual-Semantic Guidance for Efficient Inference of Video LLMs** | ACL 2026 | multimodal serving / speculative decoding | [Link](https://doi.org/10.18653/v1/2026.acl-long.1087) | — |

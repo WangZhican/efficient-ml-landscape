@@ -1,6 +1,6 @@
 # 13 · Efficient Reasoning / Agents
 
-> **226 canonical papers** mapped here, plus a broader **56-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **227 canonical papers** mapped here, plus a broader **56-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -65,10 +65,11 @@
 | **P2 · Relevant** | **SpecBox: Speculative Sandbox Scheduling for Efficient LLM Agent Serving** | Fresh / preprint | llm_serving / agent | [Link](https://arxiv.org/abs/2607.23933) | — |
 | **P2 · Relevant** | **Agentic CPU-GPU Scheduling for Heterogeneous AI Workloads** | Fresh / preprint | llm_serving / gen / agent / edge | [Link](https://arxiv.org/abs/2607.22242) | — |
 
-## 🏛️ Classical / Historical · 209 canonical
+## 🏛️ Classical / Historical · 210 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
+| **Canonical** | **TOP-RL: Task-Optimized Progressive Token Pruning with Reinforcement Learning for Vision Language Models** | AAAI 2026 | multimodal/MLLM serving / visual token pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/38614) | — |
 | **Canonical** | **Anti-Length Shift: Dynamic Outlier Truncation for Training Efficient Reasoning Models** | ACL 2026 | efficient reasoning / token reduction | [Link](https://aclanthology.org/2026.acl-long.1047/) | — |
 | **Canonical** | **Chain-of-Thought Compression Should Not Be Blind: V-Skip for Efficient Multimodal Reasoning via Dual-Path Anchoring** | ACL 2026 | efficient reasoning / multimodal token compression | [Link](https://aclanthology.org/2026.acl-long.887/) | — |
 | **Canonical** | **ConfSpec: Efficient Step-Level Speculative Reasoning via Confidence-Gated Verification** | ACL 2026 | efficient reasoning / step-level speculative verification | [Link](https://aclanthology.org/2026.acl-long.1221/) | — |
