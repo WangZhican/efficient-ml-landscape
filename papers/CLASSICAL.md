@@ -1,6 +1,6 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **1287 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **1291 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
@@ -1507,6 +1507,15 @@
 | **Canonical** | **SPECTRA: An Asymmetric-Precision Speculative Decoding LLM Accelerator with Product Quantization and Reconfigurable Flip-Flop Buffers in 28nm CMOS** | VLSI Symposium 2026 | speculative decoding / LLM accelerator | [Link](https://doi.org/10.1109/VLSITechnologyandCir65830.2026.11577608) | — |
 | **Canonical** | **SR-VLNA: A 5.0–23.9 mJ/meter Spatial Reasoning-based Vision Language Navigation Accelerator for Embodied Agents** | VLSI Symposium 2026 | Physical AI / vision-language navigation accelerator | [Link](https://doi.org/10.1109/VLSITechnologyandCir65830.2026.11577427) | — |
 
+## CoRR 2026 · 4
+
+| Priority | Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|---|
+| **Canonical** | **ES-dLLM: Efficient Inference for Diffusion Large Language Models by Early-Skipping** | CoRR 2026 | diffusion/flow acceleration / diffusion language model inference / token skipping / KV-hidden-state reuse | [Link](https://arxiv.org/abs/2603.10088) | — |
+| **Canonical** | **K-Search: LLM Kernel Generation via Co-Evolving Intrinsic World Model** | CoRR 2026 | GPU kernel/DSL/compilers / automated kernel optimization / FlashInfer / MoE / MLA / GQA | [Link](https://arxiv.org/abs/2602.19128) | [Repo](https://github.com/caoshiyi/K-Search) |
+| **Canonical** | **MARS: Efficient, Adaptive Co-Scheduling for Heterogeneous Agentic Systems** | CoRR 2026 | efficient reasoning/agent systems / agent serving / heterogeneous GPU-CPU co-scheduling / KV cache | [Link](https://arxiv.org/abs/2604.26963) | [Repo](https://github.com/Afterglow231/MARS_preview) |
+| **Canonical** | **Pythia: Toward Predictability-Driven Agent-Native LLM Serving** | CoRR 2026 | LLM serving / efficient reasoning/agent systems / multi-agent serving / prefix cache / scaling | [Link](https://arxiv.org/abs/2604.25899) | — |
+
 ## PLDI 2026 · 3
 
 | Priority | Paper | Venue | Topic | Paper | Code |
@@ -1527,11 +1536,11 @@
 |---|---|---|---|---|---|
 | **Canonical** | **Coordinated Scheduling for MoE LLM Serving** | ACM SIGOPS Annual Technical Conference (ATC) 2026 / arXiv | MoE systems / LLM serving / coordinated scheduling / expert placement / KV-cache-aware routing | [Link](https://arxiv.org/abs/2606.15177) | — |
 
-## CoRR 2026 · 1
+## CoRR 2025 · 1
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
-| **Canonical** | **K-Search: LLM Kernel Generation via Co-Evolving Intrinsic World Model** | CoRR 2026 | GPU kernel/DSL/compilers / automated kernel optimization / FlashInfer / MoE / MLA / GQA | [Link](https://arxiv.org/abs/2602.19128) | [Repo](https://github.com/caoshiyi/K-Search) |
+| **Canonical** | **Seesaw: High-throughput LLM Inference via Model Re-sharding** | CoRR 2025 | LLM serving / distributed inference / dynamic model resharding / KV cache | [Link](https://arxiv.org/abs/2503.06433) | — |
 
 ## HPCA 2026 Industry Track · 1
 

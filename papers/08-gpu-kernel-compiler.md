@@ -1,6 +1,6 @@
 # 08 · GPU Kernel / DSL / Compiler
 
-> **328 canonical papers** mapped here, plus a broader **75-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **329 canonical papers** mapped here, plus a broader **75-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -84,7 +84,7 @@
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 | **P1 · Watch** | **Here is a GIFT: Enforcing User Data Isolation in LLM Serving via GPU Information Flow Tracking** | Fresh / preprint | LLM serving / GPU runtime / confidential computing | [Link](https://arxiv.org/abs/2608.25431) | — |
 
-## 🏛️ Classical / Historical · 297 canonical
+## 🏛️ Classical / Historical · 298 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -115,6 +115,7 @@
 | **Canonical** | **SmolVLM: Redefining small and efficient multimodal models** | COLM 2025 | multimodal / compact VLM / edge inference | [Link](https://arxiv.org/abs/2504.05299) | [Repo](https://github.com/huggingface/smollm) |
 | **Canonical** | **FLOWER: Democratizing Generalist Robot Policies with Efficient Vision-Language-Flow Models** | CoRL 2025 | Physical AI / efficient VLA / model compression / flow policy | [Link](https://arxiv.org/abs/2509.04996) | [Repo](https://github.com/intuitive-robots/flower_vla_pret) |
 | **Canonical** | **K-Search: LLM Kernel Generation via Co-Evolving Intrinsic World Model** | CoRR 2026 | GPU kernel/DSL/compilers / automated kernel optimization / FlashInfer / MoE / MLA / GQA | [Link](https://arxiv.org/abs/2602.19128) | [Repo](https://github.com/caoshiyi/K-Search) |
+| **Canonical** | **MARS: Efficient, Adaptive Co-Scheduling for Heterogeneous Agentic Systems** | CoRR 2026 | efficient reasoning/agent systems / agent serving / heterogeneous GPU-CPU co-scheduling / KV cache | [Link](https://arxiv.org/abs/2604.26963) | [Repo](https://github.com/Afterglow231/MARS_preview) |
 | **Canonical** | **Accelerating Diffusion via Hybrid Data-Pipeline Parallelism Based on Conditional Guidance Scheduling** | CVPR 2026 | diffusion/flow acceleration / distributed inference / multi-GPU scheduling | [Link](https://openaccess.thecvf.com/content/CVPR2026/html/Jung_Accelerating_Diffusion_via_Hybrid_Data-Pipeline_Parallelism_Based_on_Conditional_Guidance_CVPR_2026_paper.html) | [Repo](https://github.com/kaist-dmlab/Hybridiff) |
 | **Canonical** | **DeltaQuant: 4-bit Video Diffusion Models with Spatiotemporal Delta Smoothing** | CVPR 2026 | video diffusion / W4A4 quantization / efficient kernels | [Link](https://openaccess.thecvf.com/content/CVPR2026/html/Li_DeltaQuant_4-bit_Video_Diffusion_Models_with_Spatiotemporal_Delta_Smoothing_CVPR_2026_paper.html) | — |
 | **Canonical** | **Otil: Accelerating Diffusion Model Inference via Communication-Efficient Multi-GPU Parallelism** | CVPR 2026 | diffusion inference / multi-GPU / communication reduction | [Link](https://openaccess.thecvf.com/content/CVPR2026/html/Li_Otil_Accelerating_Diffusion_Model_Inference_via_Communication-Efficient_Multi-GPU_Parallelism_CVPR_2026_paper.html) | — |

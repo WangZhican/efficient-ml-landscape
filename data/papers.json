@@ -4041,6 +4041,48 @@
     ]
   },
   {
+    "title": "Seesaw: High-throughput LLM Inference via Model Re-sharding",
+    "venue": "CoRR 2025",
+    "topic": "LLM serving / distributed inference / dynamic model resharding / KV cache",
+    "arxiv": "2503.06433",
+    "doi": "",
+    "official_id": "2503.06433",
+    "paper_url": "https://arxiv.org/abs/2503.06433",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Toronto 2025 direct distributed LLM inference engine. Seesaw dynamically re-shards parallelism between prefill and decode, with tiered KV buffering and transition-minimizing scheduling; reports up to 1.78x throughput over vLLM.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "ES-dLLM: Efficient Inference for Diffusion Large Language Models by Early-Skipping",
+    "venue": "CoRR 2026",
+    "topic": "diffusion/flow acceleration / diffusion language model inference / token skipping / KV-hidden-state reuse",
+    "arxiv": "2603.10088",
+    "doi": "",
+    "official_id": "2603.10088",
+    "paper_url": "https://arxiv.org/abs/2603.10088",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Kaisheng Ma lineage 2026 direct diffusion-LLM inference acceleration. ES-dLLM skips low-importance tokens in early layers using inter-iteration tensor variation/confidence, reporting 5.6x-16.8x speedup over vanilla inference and up to 1.85x over a caching baseline while preserving quality.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "K-Search: LLM Kernel Generation via Co-Evolving Intrinsic World Model",
     "venue": "CoRR 2026",
     "topic": "GPU kernel/DSL/compilers / automated kernel optimization / FlashInfer / MoE / MLA / GQA",
@@ -4059,6 +4101,52 @@
     "directions": [
       "MoE Systems / Accelerators",
       "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "MARS: Efficient, Adaptive Co-Scheduling for Heterogeneous Agentic Systems",
+    "venue": "CoRR 2026",
+    "topic": "efficient reasoning/agent systems / agent serving / heterogeneous GPU-CPU co-scheduling / KV cache",
+    "arxiv": "2604.26963",
+    "doi": "",
+    "official_id": "2604.26963",
+    "paper_url": "https://arxiv.org/abs/2604.26963",
+    "code_url": "https://github.com/Afterglow231/MARS_preview",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Duke 2026 direct agent-serving systems work. MARS globally co-schedules GPU inference and CPU tool execution for multi-turn agentic workloads, with adaptive KV-cache retention; reports up to 5.94x end-to-end latency reduction and up to 1.87x OpenHands task-completion speedup.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "GPU Kernel / DSL / Compiler",
+      "Efficient Reasoning / Agents",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Pythia: Toward Predictability-Driven Agent-Native LLM Serving",
+    "venue": "CoRR 2026",
+    "topic": "LLM serving / efficient reasoning/agent systems / multi-agent serving / prefix cache / scaling",
+    "arxiv": "2604.25899",
+    "doi": "",
+    "official_id": "2604.25899",
+    "paper_url": "https://arxiv.org/abs/2604.25899",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "PKU systems 2026 direct multi-agent serving work. Pythia exposes workflow semantics to the serving layer to reduce uncertainty, improve prefix reuse, mitigate long-context contention, and improve throughput/job completion time.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Reasoning / Agents"
     ]
   },
   {

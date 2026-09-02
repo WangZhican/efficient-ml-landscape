@@ -1,6 +1,6 @@
 # 01 · LLM Serving
 
-> **561 canonical papers** mapped here, plus a broader **237-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **564 canonical papers** mapped here, plus a broader **237-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -246,7 +246,7 @@
 | **P1 · Watch** | **Here is a GIFT: Enforcing User Data Isolation in LLM Serving via GPU Information Flow Tracking** | Fresh / preprint | LLM serving / GPU runtime / confidential computing | [Link](https://arxiv.org/abs/2608.25431) | — |
 | **P1 · Watch** | **Edge-Native Embodied Intelligence for Action-Aware Wireless Edge Networks** | Fresh / preprint | VLA/WAM/Physical AI serving / edge-cloud / heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.17774) | — |
 
-## 🏛️ Classical / Historical · 513 canonical
+## 🏛️ Classical / Historical · 516 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -324,6 +324,9 @@
 | **Canonical** | **Resource-efficient Inference with Foundation Model Programs** | COLM 2025 | agentic inference / multimodal serving / dynamic model routing | [Link](https://arxiv.org/abs/2504.07247) | [Repo](https://github.com/Flitternie/FMProgramming) |
 | **Canonical** | **RoboMonkey: Scaling Test-Time Sampling and Verification for Vision-Language-Action Models** | CoRL 2025 | Physical AI / VLA inference-time scaling / batched serving / verification | [Link](https://arxiv.org/abs/2506.17811) | [Repo](https://github.com/robomonkey-vla/RoboMonkey) |
 | **Canonical** | **π₀.₅: a Vision-Language-Action Model with Open-World Generalization** | CoRL 2025 | Physical AI / VLA foundation model / flow action head / open-world generalization | [Link](https://proceedings.mlr.press/v305/black25a.html) | [Repo](https://github.com/Physical-Intelligence/openpi) |
+| **Canonical** | **Seesaw: High-throughput LLM Inference via Model Re-sharding** | CoRR 2025 | LLM serving / distributed inference / dynamic model resharding / KV cache | [Link](https://arxiv.org/abs/2503.06433) | — |
+| **Canonical** | **MARS: Efficient, Adaptive Co-Scheduling for Heterogeneous Agentic Systems** | CoRR 2026 | efficient reasoning/agent systems / agent serving / heterogeneous GPU-CPU co-scheduling / KV cache | [Link](https://arxiv.org/abs/2604.26963) | [Repo](https://github.com/Afterglow231/MARS_preview) |
+| **Canonical** | **Pythia: Toward Predictability-Driven Agent-Native LLM Serving** | CoRR 2026 | LLM serving / efficient reasoning/agent systems / multi-agent serving / prefix cache / scaling | [Link](https://arxiv.org/abs/2604.25899) | — |
 | **Canonical** | **Accelerating Diffusion via Hybrid Data-Pipeline Parallelism Based on Conditional Guidance Scheduling** | CVPR 2026 | diffusion/flow acceleration / distributed inference / multi-GPU scheduling | [Link](https://openaccess.thecvf.com/content/CVPR2026/html/Jung_Accelerating_Diffusion_via_Hybrid_Data-Pipeline_Parallelism_Based_on_Conditional_Guidance_CVPR_2026_paper.html) | [Repo](https://github.com/kaist-dmlab/Hybridiff) |
 | **Canonical** | **Denoising as Path Planning: Training-Free Acceleration of Diffusion Models with DPCache** | CVPR 2026 | diffusion / cache scheduling | [Link](https://openaccess.thecvf.com/content/CVPR2026/papers/Cui_Denoising_as_Path_Planning_Training-Free_Acceleration_of_Diffusion_Models_with_CVPR_2026_paper.pdf) | — |
 | **Canonical** | **FlashDecoder: Real-Time Latent-to-Pixel Streaming Decoder with Transformers** | CVPR 2026 | video/image generation acceleration / streaming decoder / rolling KV cache | [Link](https://arxiv.org/abs/2607.14898) | — |

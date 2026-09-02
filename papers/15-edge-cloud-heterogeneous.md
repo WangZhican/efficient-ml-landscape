@@ -1,6 +1,6 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **288 canonical papers** mapped here, plus a broader **103-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **289 canonical papers** mapped here, plus a broader **103-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -112,7 +112,7 @@
 | **P2 · Relevant** | **Unified Static-Dynamic Pruning for Efficient LLM Inference** | Fresh / preprint | llm_serving / sparse / kernel / edge | [Link](https://arxiv.org/abs/2607.21985) | — |
 | **P1 · Watch** | **Edge-Native Embodied Intelligence for Action-Aware Wireless Edge Networks** | Fresh / preprint | VLA/WAM/Physical AI serving / edge-cloud / heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.17774) | — |
 
-## 🏛️ Classical / Historical · 268 canonical
+## 🏛️ Classical / Historical · 269 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -147,6 +147,7 @@
 | **Canonical** | **SmolVLM: Redefining small and efficient multimodal models** | COLM 2025 | multimodal / compact VLM / edge inference | [Link](https://arxiv.org/abs/2504.05299) | [Repo](https://github.com/huggingface/smollm) |
 | **Canonical** | **Task-Circuit Quantization: Leveraging Knowledge Localization and Interpretability for Compression** | COLM 2025 | quantization / compression | [Link](https://arxiv.org/abs/2504.07389) | [Repo](https://github.com/The-Inscrutable-X/TACQ) |
 | **Canonical** | **ControlVLA: Few-shot Object-centric Adaptation for Pre-trained Vision-Language-Action Models** | CoRL 2025 | Physical AI / parameter-efficient VLA adaptation / few-shot fine-tuning | [Link](https://arxiv.org/abs/2506.16211) | — |
+| **Canonical** | **MARS: Efficient, Adaptive Co-Scheduling for Heterogeneous Agentic Systems** | CoRR 2026 | efficient reasoning/agent systems / agent serving / heterogeneous GPU-CPU co-scheduling / KV cache | [Link](https://arxiv.org/abs/2604.26963) | [Repo](https://github.com/Afterglow231/MARS_preview) |
 | **Canonical** | **Accelerating Diffusion-based Video Editing via Heterogeneous Caching: Beyond Full Computing at Sampled Denoising Timestep** | CVPR 2026 | video diffusion editing / heterogeneous caching | [Link](https://openaccess.thecvf.com/content/CVPR2026/papers/Liu_Accelerating_Diffusion-based_Video_Editing_via_Heterogeneous_Caching_Beyond_Full_Computing_CVPR_2026_paper.pdf) | — |
 | **Canonical** | **Attention Surgery: An Efficient Recipe to Linearize Your Video Diffusion Transformer** | CVPR 2026 | video diffusion / linear attention / mobile inference | [Link](https://openaccess.thecvf.com/content/CVPR2026/html/Ghafoorian_Attention_Surgery_An_Efficient_Recipe_to_Linearize_Your_Video_Diffusion_CVPR_2026_paper.html) | — |
 | **Canonical** | **3D-CIMlet: A Chiplet Co-Design Framework for Heterogeneous In-Memory Acceleration of Edge LLM Inference and Continual Learning** | DAC 2025 | edge/cloud/heterogeneous AI systems / LLM accelerator / chiplet / compute-in-memory | [Link](https://doi.org/10.1109/DAC63849.2025.11133077) | [Repo](https://github.com/NanoX-Lab/3D-CIMlet) |
