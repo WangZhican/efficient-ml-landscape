@@ -1,10 +1,10 @@
 # 10 · Multimodal / MLLM Serving
 
-> **176 canonical papers** mapped here, plus a broader **60-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **176 canonical papers** mapped here, plus a broader **59-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 60 tracked
+## 🆕 Latest 30 Days · 59 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -56,7 +56,6 @@
 | **P1 · Watch** | **Heterogeneity-Aware Microscaling for Efficient Low-Bit LLM Inference** | Fresh / preprint | quant / multimodal | [Link](https://arxiv.org/abs/2608.03867) | — |
 | **P2 · Relevant** | **PhyAI: Real-Time Physical AI at the Edge, Scalable Rollouts in the Cloud** | Fresh / preprint | LLM serving; multimodal / MLLM; generation acceleration; Physical AI | [Link](https://arxiv.org/abs/2608.03682) | — |
 | **P2 · Relevant** | **Adaptive Two-Stage Visual Token Pruning for Efficient Inference in Video-Language Models** | Fresh / preprint | llm_serving / sparse / multimodal / gen / edge | [Link](https://arxiv.org/abs/2608.03112) | — |
-| **P0 · Strong** | **HorizonServe: Coordinating Request Scheduling with GPU Sharing for Omni-Model Serving** | Fresh / preprint | multimodal/omni-model serving / GPU scheduling | [Link](https://arxiv.org/abs/2608.01785) | — |
 | **P2 · Relevant** | **WAM-Diff2: Hierarchical AR-to-Diffusion Distillation for Highly Efficient Autonomous Driving VLA** | Fresh / preprint | LLM serving; multimodal / MLLM; Physical AI | [Link](https://arxiv.org/abs/2608.01035) | — |
 | **P1 · Watch** | **Latency-Tolerant Cloud-Edge Collaborative Vision-Language-Action Models via Emergent Representational Specialization** | Fresh / preprint | llm_serving / multimodal / physical | [Link](https://arxiv.org/abs/2608.00569) | — |
 | **P2 · Relevant** | **FibVLA: An Efficient Temporal Vision-Language-Action Model with Fibonacci Sampling** | Fresh / preprint | kv / multimodal / gen / physical | [Link](https://arxiv.org/abs/2607.29596) | — |
@@ -69,7 +68,7 @@
 | **P1 · Watch** | **Omni-Prune: Query-Aware Unified Token Pruning for Efficient Omnimodal Large Language Models** | Fresh / preprint | llm_serving / sparse / edge | [Link](https://arxiv.org/abs/2607.23445) | — |
 | **P2 · Relevant** | **Structured Redundancy Modeling for Efficient Visual Token Pruning in High-Resolution MLLMs** | Fresh / preprint | llm_serving / sparse / multimodal / edge | [Link](https://arxiv.org/abs/2607.23046) | — |
 
-## 🏛️ Classical / Historical · 162 canonical
+## 🏛️ Classical / Historical · 163 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -138,6 +137,7 @@
 | **Canonical** | **SpecVLM: Enhancing Speculative Decoding of Video LLMs via Verifier-Guided Token Pruning** | EMNLP 2025 | multimodal speculative decoding / video LLM / verifier-guided visual-token pruning | [Link](https://doi.org/10.18653/v1/2025.emnlp-main.366) | [Repo](https://github.com/zju-jiyicheng/SpecVLM) |
 | **Canonical** | **Efficient Multimodal Serving via Module Multiplexing** | EuroSys 2026 | multimodal/MLLM serving / module multiplexing | [Link](https://doi.org/10.1145/3767295.3769389) | — |
 | **Canonical** | **MegaScale-Omni: A Hyper-Scale, Workload-Resilient System for MultiModal LLM Training in Production** | EuroSys 2026 | multimodal LLM training / production distributed systems / elastic workload management | [Link](https://arxiv.org/abs/2605.08962) | — |
+| **Canonical** | **HorizonServe: Coordinating Request Scheduling with GPU Sharing for Omni-Model Serving** | Fresh / preprint | multimodal/omni-model serving / GPU scheduling | [Link](https://arxiv.org/abs/2608.01785) | — |
 | **Canonical** | **Adaptive Draft Sequence Length: Enhancing Speculative Decoding Throughput on PIM-Enabled Systems** | HPCA 2026 | efficient VLM + PIM inference + reasoning accelerator + speculative decoding | [Link](https://doi.org/10.1109/HPCA68181.2026.11408598) | — |
 | **Canonical** | **Focus: A Streaming Concentration Architecture for Efficient Vision-Language Models** | HPCA 2026 | efficient VLM + PIM inference + reasoning accelerator + speculative decoding | [Link](https://arxiv.org/abs/2512.14661) | — |
 | **Canonical** | **LoCaLUT: Harnessing Capacity-Computation Tradeoffs for LUT-Based Inference in DRAM-PIM** | HPCA 2026 | efficient VLM + PIM inference + reasoning accelerator + speculative decoding | [Link](https://arxiv.org/abs/2604.04523) | — |

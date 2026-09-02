@@ -1,9 +1,119 @@
 {
-  "window_end_beijing": "2026-09-02",
-  "window_start_beijing": "2026-08-03",
+  "window_end_beijing": "2026-09-03",
+  "window_start_beijing": "2026-08-04",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 340,
+  "tracked_total": 341,
   "p0_strong_or_canonical": [
+    {
+      "title": "mzCache: On-Device LLM Memory Management under Multitasking",
+      "venue": "MobiCom 2026",
+      "topic": "edge/cloud/heterogeneous AI / KV cache / on-device LLM serving",
+      "arxiv": "2609.01338",
+      "doi": "",
+      "official_id": "arXiv:2609.01338",
+      "paper_url": "https://arxiv.org/abs/2609.01338",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "ACM MobiCom 2026 on-device LLM memory manager for unified-memory mobile SoCs under multitasking. Fine-grained shared buffers, hybrid swap and backward-out eviction enable concurrent restoration; Android/llama.cpp prototype reports 2.1-5.5x TTFT reduction.",
+      "published_at": "2026-09-01T14:49:20Z",
+      "updated_at": "2026-09-01T14:49:20Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Knowing When to Stop: Adaptive Action Chunking via Internal Cross-Attention Dynamics in VLAs",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / adaptive action execution",
+      "arxiv": "2609.00908",
+      "doi": "",
+      "official_id": "arXiv:2609.00908",
+      "paper_url": "https://arxiv.org/abs/2609.00908",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Training-free adaptive VLA action-chunk truncation using already-computed cross-attention entropy; directly targets the inference-frequency versus open-loop accuracy tradeoff with negligible additional overhead on pi0.5 and X-VLA across simulation and real manipulation.",
+      "published_at": "2026-09-01T08:38:16Z",
+      "updated_at": "2026-09-01T08:38:16Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Efficient Attention",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "CacheBridge: Efficient Cross-Model KV Cache Transfer",
+      "venue": "arXiv 2026",
+      "topic": "KV cache / multi-model serving / GPU kernel",
+      "arxiv": "2609.00891",
+      "doi": "",
+      "official_id": "arXiv:2609.00891",
+      "paper_url": "https://arxiv.org/abs/2609.00891",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Cross-model KV transfer with matched-head affine mapping, attention-aware calibration and fused GPU sufficient-statistics kernel; reports 8x lower mapper storage, up to 3.0x application speedup and 10.7x faster mapper construction while retaining target quality.",
+      "published_at": "2026-09-01T08:20:35Z",
+      "updated_at": "2026-09-01T08:20:35Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "HBQ: Hierarchical Scaling Block Quantization with Hardware-Efficiency-Aware Design for Accurate LLM Inference",
+      "venue": "MICRO 2026",
+      "topic": "quantization / hardware accelerator / KV cache",
+      "arxiv": "2609.00450",
+      "doi": "",
+      "official_id": "arXiv:2609.00450",
+      "paper_url": "https://arxiv.org/abs/2609.00450",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "MICRO 2026 hardware-aware hierarchical block quantization across weights, activations, KV cache and partial sums; 28nm ASIC evaluation reports 2.3x/4.6x area/energy efficiency over WoQ at matched accuracy and 1.5-3.0x speedup over prior BQ.",
+      "published_at": "2026-08-31T22:39:52Z",
+      "updated_at": "2026-08-31T22:39:52Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "KV Cache / Long Context",
+        "Quantization"
+      ]
+    },
+    {
+      "title": "DynaNDE: Dynamic Near-Data Expert Scheduling for Batched MoE Inference",
+      "venue": "arXiv 2026",
+      "topic": "MoE systems / accelerators / heterogeneous inference",
+      "arxiv": "2609.00407",
+      "doi": "",
+      "official_id": "arXiv:2609.00407",
+      "paper_url": "https://arxiv.org/abs/2609.00407",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Dynamic NPU-NDP expert scheduling for batched MoE inference with hardware-heterogeneity and reuse-aware runtime; reports average 2.6x prefill and 2.2x decode speedup over prior NPU-NDP MoE serving.",
+      "published_at": "2026-08-31T21:38:59Z",
+      "updated_at": "2026-08-31T21:38:59Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "MoE Systems / Accelerators",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
     {
       "title": "DASC: Decay-Aware State Compression for Hybrid Linear-Attention Serving",
       "venue": "Fresh / preprint",
@@ -82,7 +192,7 @@
       "decision": "PROMOTE_STRONG",
       "why": "Direct multimodal inference acceleration. CE-Router plus unified scheduling coordinates layer skipping, FFN pruning, diffusion-head cache reuse, and denoising early exit across understanding and generation.",
       "published_at": "2026-08-29T14:27:55Z",
-      "updated_at": "2026-08-29T14:27:55Z",
+      "updated_at": "2026-09-01T05:51:02Z",
       "is_latest_30d": true,
       "tracking_tier": "P0 · Strong",
       "directions": [
@@ -1921,95 +2031,6 @@
         "Sparsity / Pruning",
         "Efficient Attention"
       ]
-    },
-    {
-      "title": "World Action Models in Real Time: An Empirical Study of Smooth Execution via Asynchronous Deployment",
-      "venue": "Fresh / preprint",
-      "topic": "VLA/WAM/Physical AI serving / asynchronous runtime",
-      "arxiv": "2608.01880",
-      "doi": "",
-      "official_id": "arXiv:2608.01880",
-      "paper_url": "https://arxiv.org/abs/2608.01880",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Protected Physical-AI runtime/deployment study directly addressing iterative WAM inference latency by overlapping inference with action execution; evaluates six asynchronous strategies on a 10 Hz bimanual robot and identifies temporal alignment as the key deployment constraint.",
-      "published_at": "2026-08-03T08:24:36Z",
-      "updated_at": "2026-08-11T16:52:57Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "VLA / WAM / Physical AI"
-      ]
-    },
-    {
-      "title": "HorizonServe: Coordinating Request Scheduling with GPU Sharing for Omni-Model Serving",
-      "venue": "Fresh / preprint",
-      "topic": "multimodal/omni-model serving / GPU scheduling",
-      "arxiv": "2608.01785",
-      "doi": "",
-      "official_id": "2608.01785",
-      "paper_url": "https://arxiv.org/abs/2608.01785",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Single-GPU omni-model serving system coordinating temporal request scheduling and spatial SM sharing under heterogeneous SLOs; reports up to 4.9x/7.0x SLO-attainment gains and 38.4–63.7% first-response latency reduction.",
-      "published_at": "2026-08-03T06:59:15Z",
-      "updated_at": "2026-08-03T06:59:15Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "GPU Kernel / DSL / Compiler",
-        "Multimodal / MLLM Serving",
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "LongCat Sparse Attention: Taming the Lightning via Streaming-aware Hierarchical Cross-Layer Indexing",
-      "venue": "Fresh / preprint",
-      "topic": "efficient attention / long-context / hardware-system co-design",
-      "arxiv": "2608.01662",
-      "doi": "",
-      "official_id": "arXiv:2608.01662",
-      "paper_url": "https://arxiv.org/abs/2608.01662",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Direct hardware-algorithm co-designed sparse-attention system. Streaming-aware contiguous layouts, cross-layer index reuse, and hierarchical scoring target index computation plus HBM access inefficiency and support native training to 1M context.",
-      "published_at": "2026-08-03T03:51:21Z",
-      "updated_at": "2026-08-04T07:46:43Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "KV Cache / Long Context",
-        "Sparsity / Pruning",
-        "Efficient Attention"
-      ]
-    },
-    {
-      "title": "When Replanning Becomes the Bottleneck: Budgeted Replanning for Embodied Agents",
-      "venue": "ICML 2026",
-      "topic": "Physical AI / embodied-agent serving / replanning SLO / context pruning",
-      "arxiv": "2608.01428",
-      "doi": "",
-      "official_id": "2608.01428",
-      "paper_url": "https://arxiv.org/abs/2608.01428",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "BACKFILL_HIGH",
-      "why": "ICML 2026 protected Physical-AI work. BRACE makes replanning token/latency-budget aware and E-RECAP prunes context; reports 62-92% fewer replanning tokens and large reductions in SLO violations across Habitat, RoboFactory and AirSim.",
-      "published_at": "2026-08-02T18:17:35Z",
-      "updated_at": "2026-08-02T18:17:35Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "Sparsity / Pruning",
-        "Efficient Reasoning / Agents",
-        "VLA / WAM / Physical AI"
-      ]
     }
   ],
   "p1_watchlist": [
@@ -2411,7 +2432,7 @@
       "tracking_tier": "P1 · Watch",
       "why": "Protected Physical-AI/WAM efficiency work. LAWA removes future-video generation at inference while retaining latent future intention; reports 42.9% lower inference latency than matched Joint-WAM while preserving performance and improving over Fast-WAM on RoboCasa.",
       "published_at": "2026-08-25",
-      "updated_at": "2026-08-25T17:59:03Z",
+      "updated_at": "2026-09-01T06:44:23Z",
       "is_latest_30d": true,
       "directions": [
         "VLA / WAM / Physical AI"
@@ -4381,27 +4402,6 @@
       ]
     },
     {
-      "title": "DEFT: Joint Task Placement and DVFS for Energy-Efficient Multi-GPU Runtimes",
-      "venue": "",
-      "topic": "distributed runtime / multi-GPU / energy efficiency",
-      "arxiv": "2608.02122",
-      "doi": "",
-      "official_id": "",
-      "paper_url": "https://arxiv.org/abs/2608.02122",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "Joint task placement and per-GPU DVFS in CUDASTF; reduces average energy 14.8% on L40S while keeping performance within 1.5% of fastest baseline. Direct systems relevance; retain P1 pending ML-specific workload breadth.",
-      "published_at": "2026-08-03T12:15:11Z",
-      "updated_at": "2026-08-03T12:15:11Z",
-      "is_latest_30d": true,
-      "directions": [
-        "GPU Kernel / DSL / Compiler",
-        "Distributed Training / Inference"
-      ]
-    },
-    {
       "title": "Energy-Efficient LLM Serving via Disaggregated Attention--FFN and Flexible Frequency Scaling",
       "venue": "",
       "topic": "llm_serving",
@@ -4415,7 +4415,7 @@
       "tracking_tier": "P1 · Watch",
       "why": "Directly relevant recent Efficient-ML/AI-Infra work with concrete systems/efficiency mechanism; retained as P1 pending deeper venue/adoption/independent-validation review.",
       "published_at": "2026-08-03T08:32:50Z",
-      "updated_at": "2026-08-03T08:32:50Z",
+      "updated_at": "",
       "is_latest_30d": true,
       "directions": [
         "LLM Serving",
@@ -4441,28 +4441,6 @@
       "directions": [
         "Sparsity / Pruning",
         "GPU Kernel / DSL / Compiler"
-      ]
-    },
-    {
-      "title": "An Internet for the KV Cache: Rethinking Classical Infrastructure Boundaries in the LLM Inference Age",
-      "venue": "",
-      "topic": "KV cache / distributed serving / cloud-network-storage systems",
-      "arxiv": "2608.01526",
-      "doi": "",
-      "official_id": "2608.01526",
-      "paper_url": "https://arxiv.org/abs/2608.01526",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "High-value systems vision arguing KV cache should become an internet-scale content-distribution primitive across compute, storage, and network boundaries; useful lineage/architecture watch, but explicitly a call-for-arms rather than an implemented serving mechanism.",
-      "published_at": "2026-08-02T22:31:22Z",
-      "updated_at": "2026-08-02T22:31:22Z",
-      "is_latest_30d": true,
-      "directions": [
-        "LLM Serving",
-        "KV Cache / Long Context",
-        "Distributed Training / Inference"
       ]
     },
     {
@@ -4743,6 +4721,49 @@
         "KV Cache / Long Context",
         "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "DEFT: Joint Task Placement and DVFS for Energy-Efficient Multi-GPU Runtimes",
+      "venue": "",
+      "topic": "distributed runtime / multi-GPU / energy efficiency",
+      "arxiv": "2608.02122",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.02122",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Joint task placement and per-GPU DVFS in CUDASTF; reduces average energy 14.8% on L40S while keeping performance within 1.5% of fastest baseline. Direct systems relevance; retain P1 pending ML-specific workload breadth.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "An Internet for the KV Cache: Rethinking Classical Infrastructure Boundaries in the LLM Inference Age",
+      "venue": "",
+      "topic": "KV cache / distributed serving / cloud-network-storage systems",
+      "arxiv": "2608.01526",
+      "doi": "",
+      "official_id": "2608.01526",
+      "paper_url": "https://arxiv.org/abs/2608.01526",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "High-value systems vision arguing KV cache should become an internet-scale content-distribution primitive across compute, storage, and network boundaries; useful lineage/architecture watch, but explicitly a call-for-arms rather than an implemented serving mechanism.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Distributed Training / Inference"
       ]
     }
   ],
@@ -7403,6 +7424,116 @@
   ],
   "tracking_records": [
     {
+      "title": "mzCache: On-Device LLM Memory Management under Multitasking",
+      "venue": "MobiCom 2026",
+      "topic": "edge/cloud/heterogeneous AI / KV cache / on-device LLM serving",
+      "arxiv": "2609.01338",
+      "doi": "",
+      "official_id": "arXiv:2609.01338",
+      "paper_url": "https://arxiv.org/abs/2609.01338",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "ACM MobiCom 2026 on-device LLM memory manager for unified-memory mobile SoCs under multitasking. Fine-grained shared buffers, hybrid swap and backward-out eviction enable concurrent restoration; Android/llama.cpp prototype reports 2.1-5.5x TTFT reduction.",
+      "published_at": "2026-09-01T14:49:20Z",
+      "updated_at": "2026-09-01T14:49:20Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Knowing When to Stop: Adaptive Action Chunking via Internal Cross-Attention Dynamics in VLAs",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / adaptive action execution",
+      "arxiv": "2609.00908",
+      "doi": "",
+      "official_id": "arXiv:2609.00908",
+      "paper_url": "https://arxiv.org/abs/2609.00908",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Training-free adaptive VLA action-chunk truncation using already-computed cross-attention entropy; directly targets the inference-frequency versus open-loop accuracy tradeoff with negligible additional overhead on pi0.5 and X-VLA across simulation and real manipulation.",
+      "published_at": "2026-09-01T08:38:16Z",
+      "updated_at": "2026-09-01T08:38:16Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Efficient Attention",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "CacheBridge: Efficient Cross-Model KV Cache Transfer",
+      "venue": "arXiv 2026",
+      "topic": "KV cache / multi-model serving / GPU kernel",
+      "arxiv": "2609.00891",
+      "doi": "",
+      "official_id": "arXiv:2609.00891",
+      "paper_url": "https://arxiv.org/abs/2609.00891",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Cross-model KV transfer with matched-head affine mapping, attention-aware calibration and fused GPU sufficient-statistics kernel; reports 8x lower mapper storage, up to 3.0x application speedup and 10.7x faster mapper construction while retaining target quality.",
+      "published_at": "2026-09-01T08:20:35Z",
+      "updated_at": "2026-09-01T08:20:35Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "HBQ: Hierarchical Scaling Block Quantization with Hardware-Efficiency-Aware Design for Accurate LLM Inference",
+      "venue": "MICRO 2026",
+      "topic": "quantization / hardware accelerator / KV cache",
+      "arxiv": "2609.00450",
+      "doi": "",
+      "official_id": "arXiv:2609.00450",
+      "paper_url": "https://arxiv.org/abs/2609.00450",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "MICRO 2026 hardware-aware hierarchical block quantization across weights, activations, KV cache and partial sums; 28nm ASIC evaluation reports 2.3x/4.6x area/energy efficiency over WoQ at matched accuracy and 1.5-3.0x speedup over prior BQ.",
+      "published_at": "2026-08-31T22:39:52Z",
+      "updated_at": "2026-08-31T22:39:52Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "KV Cache / Long Context",
+        "Quantization"
+      ]
+    },
+    {
+      "title": "DynaNDE: Dynamic Near-Data Expert Scheduling for Batched MoE Inference",
+      "venue": "arXiv 2026",
+      "topic": "MoE systems / accelerators / heterogeneous inference",
+      "arxiv": "2609.00407",
+      "doi": "",
+      "official_id": "arXiv:2609.00407",
+      "paper_url": "https://arxiv.org/abs/2609.00407",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Dynamic NPU-NDP expert scheduling for batched MoE inference with hardware-heterogeneity and reuse-aware runtime; reports average 2.6x prefill and 2.2x decode speedup over prior NPU-NDP MoE serving.",
+      "published_at": "2026-08-31T21:38:59Z",
+      "updated_at": "2026-08-31T21:38:59Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "MoE Systems / Accelerators",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "DASC: Decay-Aware State Compression for Hybrid Linear-Attention Serving",
       "venue": "Fresh / preprint",
       "topic": "LLM serving / state cache / hybrid linear attention",
@@ -7480,7 +7611,7 @@
       "decision": "PROMOTE_STRONG",
       "why": "Direct multimodal inference acceleration. CE-Router plus unified scheduling coordinates layer skipping, FFN pruning, diffusion-head cache reuse, and denoising early exit across understanding and generation.",
       "published_at": "2026-08-29T14:27:55Z",
-      "updated_at": "2026-08-29T14:27:55Z",
+      "updated_at": "2026-09-01T05:51:02Z",
       "is_latest_30d": true,
       "tracking_tier": "P0 · Strong",
       "directions": [
@@ -9321,95 +9452,6 @@
       ]
     },
     {
-      "title": "World Action Models in Real Time: An Empirical Study of Smooth Execution via Asynchronous Deployment",
-      "venue": "Fresh / preprint",
-      "topic": "VLA/WAM/Physical AI serving / asynchronous runtime",
-      "arxiv": "2608.01880",
-      "doi": "",
-      "official_id": "arXiv:2608.01880",
-      "paper_url": "https://arxiv.org/abs/2608.01880",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Protected Physical-AI runtime/deployment study directly addressing iterative WAM inference latency by overlapping inference with action execution; evaluates six asynchronous strategies on a 10 Hz bimanual robot and identifies temporal alignment as the key deployment constraint.",
-      "published_at": "2026-08-03T08:24:36Z",
-      "updated_at": "2026-08-11T16:52:57Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "VLA / WAM / Physical AI"
-      ]
-    },
-    {
-      "title": "HorizonServe: Coordinating Request Scheduling with GPU Sharing for Omni-Model Serving",
-      "venue": "Fresh / preprint",
-      "topic": "multimodal/omni-model serving / GPU scheduling",
-      "arxiv": "2608.01785",
-      "doi": "",
-      "official_id": "2608.01785",
-      "paper_url": "https://arxiv.org/abs/2608.01785",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Single-GPU omni-model serving system coordinating temporal request scheduling and spatial SM sharing under heterogeneous SLOs; reports up to 4.9x/7.0x SLO-attainment gains and 38.4–63.7% first-response latency reduction.",
-      "published_at": "2026-08-03T06:59:15Z",
-      "updated_at": "2026-08-03T06:59:15Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "GPU Kernel / DSL / Compiler",
-        "Multimodal / MLLM Serving",
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "LongCat Sparse Attention: Taming the Lightning via Streaming-aware Hierarchical Cross-Layer Indexing",
-      "venue": "Fresh / preprint",
-      "topic": "efficient attention / long-context / hardware-system co-design",
-      "arxiv": "2608.01662",
-      "doi": "",
-      "official_id": "arXiv:2608.01662",
-      "paper_url": "https://arxiv.org/abs/2608.01662",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Direct hardware-algorithm co-designed sparse-attention system. Streaming-aware contiguous layouts, cross-layer index reuse, and hierarchical scoring target index computation plus HBM access inefficiency and support native training to 1M context.",
-      "published_at": "2026-08-03T03:51:21Z",
-      "updated_at": "2026-08-04T07:46:43Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "KV Cache / Long Context",
-        "Sparsity / Pruning",
-        "Efficient Attention"
-      ]
-    },
-    {
-      "title": "When Replanning Becomes the Bottleneck: Budgeted Replanning for Embodied Agents",
-      "venue": "ICML 2026",
-      "topic": "Physical AI / embodied-agent serving / replanning SLO / context pruning",
-      "arxiv": "2608.01428",
-      "doi": "",
-      "official_id": "2608.01428",
-      "paper_url": "https://arxiv.org/abs/2608.01428",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "BACKFILL_HIGH",
-      "why": "ICML 2026 protected Physical-AI work. BRACE makes replanning token/latency-budget aware and E-RECAP prunes context; reports 62-92% fewer replanning tokens and large reductions in SLO violations across Habitat, RoboFactory and AirSim.",
-      "published_at": "2026-08-02T18:17:35Z",
-      "updated_at": "2026-08-02T18:17:35Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "Sparsity / Pruning",
-        "Efficient Reasoning / Agents",
-        "VLA / WAM / Physical AI"
-      ]
-    },
-    {
       "title": "CHIPSMORE: Compute-in-Interconnect and -Memory Chiplets for Multi-Mode Multi-Request LLM Inference Acceleration",
       "venue": "",
       "topic": "edge/cloud/heterogeneous AI systems / LLM accelerator",
@@ -9807,7 +9849,7 @@
       "tracking_tier": "P1 · Watch",
       "why": "Protected Physical-AI/WAM efficiency work. LAWA removes future-video generation at inference while retaining latent future intention; reports 42.9% lower inference latency than matched Joint-WAM while preserving performance and improving over Fast-WAM on RoboCasa.",
       "published_at": "2026-08-25",
-      "updated_at": "2026-08-25T17:59:03Z",
+      "updated_at": "2026-09-01T06:44:23Z",
       "is_latest_30d": true,
       "directions": [
         "VLA / WAM / Physical AI"
@@ -11777,27 +11819,6 @@
       ]
     },
     {
-      "title": "DEFT: Joint Task Placement and DVFS for Energy-Efficient Multi-GPU Runtimes",
-      "venue": "",
-      "topic": "distributed runtime / multi-GPU / energy efficiency",
-      "arxiv": "2608.02122",
-      "doi": "",
-      "official_id": "",
-      "paper_url": "https://arxiv.org/abs/2608.02122",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "Joint task placement and per-GPU DVFS in CUDASTF; reduces average energy 14.8% on L40S while keeping performance within 1.5% of fastest baseline. Direct systems relevance; retain P1 pending ML-specific workload breadth.",
-      "published_at": "2026-08-03T12:15:11Z",
-      "updated_at": "2026-08-03T12:15:11Z",
-      "is_latest_30d": true,
-      "directions": [
-        "GPU Kernel / DSL / Compiler",
-        "Distributed Training / Inference"
-      ]
-    },
-    {
       "title": "Energy-Efficient LLM Serving via Disaggregated Attention--FFN and Flexible Frequency Scaling",
       "venue": "",
       "topic": "llm_serving",
@@ -11811,7 +11832,7 @@
       "tracking_tier": "P1 · Watch",
       "why": "Directly relevant recent Efficient-ML/AI-Infra work with concrete systems/efficiency mechanism; retained as P1 pending deeper venue/adoption/independent-validation review.",
       "published_at": "2026-08-03T08:32:50Z",
-      "updated_at": "2026-08-03T08:32:50Z",
+      "updated_at": "",
       "is_latest_30d": true,
       "directions": [
         "LLM Serving",
@@ -11837,28 +11858,6 @@
       "directions": [
         "Sparsity / Pruning",
         "GPU Kernel / DSL / Compiler"
-      ]
-    },
-    {
-      "title": "An Internet for the KV Cache: Rethinking Classical Infrastructure Boundaries in the LLM Inference Age",
-      "venue": "",
-      "topic": "KV cache / distributed serving / cloud-network-storage systems",
-      "arxiv": "2608.01526",
-      "doi": "",
-      "official_id": "2608.01526",
-      "paper_url": "https://arxiv.org/abs/2608.01526",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "High-value systems vision arguing KV cache should become an internet-scale content-distribution primitive across compute, storage, and network boundaries; useful lineage/architecture watch, but explicitly a call-for-arms rather than an implemented serving mechanism.",
-      "published_at": "2026-08-02T22:31:22Z",
-      "updated_at": "2026-08-02T22:31:22Z",
-      "is_latest_30d": true,
-      "directions": [
-        "LLM Serving",
-        "KV Cache / Long Context",
-        "Distributed Training / Inference"
       ]
     },
     {
@@ -12139,6 +12138,49 @@
         "KV Cache / Long Context",
         "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "DEFT: Joint Task Placement and DVFS for Energy-Efficient Multi-GPU Runtimes",
+      "venue": "",
+      "topic": "distributed runtime / multi-GPU / energy efficiency",
+      "arxiv": "2608.02122",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.02122",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Joint task placement and per-GPU DVFS in CUDASTF; reduces average energy 14.8% on L40S while keeping performance within 1.5% of fastest baseline. Direct systems relevance; retain P1 pending ML-specific workload breadth.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "An Internet for the KV Cache: Rethinking Classical Infrastructure Boundaries in the LLM Inference Age",
+      "venue": "",
+      "topic": "KV cache / distributed serving / cloud-network-storage systems",
+      "arxiv": "2608.01526",
+      "doi": "",
+      "official_id": "2608.01526",
+      "paper_url": "https://arxiv.org/abs/2608.01526",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "High-value systems vision arguing KV cache should become an internet-scale content-distribution primitive across compute, storage, and network boundaries; useful lineage/architecture watch, but explicitly a call-for-arms rather than an implemented serving mechanism.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Distributed Training / Inference"
       ]
     },
     {

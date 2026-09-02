@@ -1,13 +1,14 @@
 # 14 · VLA / WAM / Physical AI
 
-> **81 canonical papers** mapped here, plus a broader **60-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **82 canonical papers** mapped here, plus a broader **59-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 60 tracked
+## 🆕 Latest 30 Days · 59 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
+| **P0 · Strong** | **Knowing When to Stop: Adaptive Action Chunking via Internal Cross-Attention Dynamics in VLAs** | arXiv 2026 | VLA/WAM/Physical AI serving / adaptive action execution | [Link](https://arxiv.org/abs/2609.00908) | — |
 | **P0 · Strong** | **AdaVLA: Adaptive Step Flow Matching for Training-free Acceleration of Vision-Language-Action Models** | Fresh / preprint | VLA/WAM/Physical AI serving / flow acceleration | [Link](https://arxiv.org/abs/2608.29208) | — |
 | **P0 · Strong** | **FlashVLA: Streaming Action Decoding for Fast and Asynchronous VLA Inference** | Fresh / preprint | Physical AI / VLA serving / streaming action decoding | [Link](https://arxiv.org/abs/2608.27384) | — |
 | **P2 · Relevant** | **StreamPI: Streaming Multimodal Temporal Modeling for Vision-Language-Action Models** | Fresh / preprint | Physical AI / VLA streaming | [Link](https://arxiv.org/abs/2608.26067) | — |
@@ -54,8 +55,6 @@
 | **P2 · Relevant** | **Deltoris: Enabling Real-time VLA Inference in Embodied AI via Bit-level Sparsity and Speculative Inference** | Fresh / preprint | LLM serving; speculative decoding; sparsity / pruning; multimodal / MLLM; Physical AI; edge / heterogeneous AI | [Link](https://arxiv.org/abs/2608.04428) | — |
 | **P0 · Strong** | **Faster-WAM: Efficient Inference-Time Future Conditioning for Robust World Action Models** | Fresh / preprint | VLA/WAM/Physical AI serving / cache / flow acceleration | [Link](https://arxiv.org/abs/2608.04404) | — |
 | **P2 · Relevant** | **PACE: Adaptive Budget Allocation for Time-Efficient Embodied Planning** | Fresh / preprint | LLM serving; Physical AI | [Link](https://arxiv.org/abs/2608.03034) | — |
-| **P0 · Strong** | **World Action Models in Real Time: An Empirical Study of Smooth Execution via Asynchronous Deployment** | Fresh / preprint | VLA/WAM/Physical AI serving / asynchronous runtime | [Link](https://arxiv.org/abs/2608.01880) | — |
-| **P0 · Strong** | **When Replanning Becomes the Bottleneck: Budgeted Replanning for Embodied Agents** | ICML 2026 | Physical AI / embodied-agent serving / replanning SLO / context pruning | [Link](https://arxiv.org/abs/2608.01428) | — |
 | **P2 · Relevant** | **WAM-Diff2: Hierarchical AR-to-Diffusion Distillation for Highly Efficient Autonomous Driving VLA** | Fresh / preprint | LLM serving; multimodal / MLLM; Physical AI | [Link](https://arxiv.org/abs/2608.01035) | — |
 | **P1 · Watch** | **Latency-Tolerant Cloud-Edge Collaborative Vision-Language-Action Models via Emergent Representational Specialization** | Fresh / preprint | llm_serving / multimodal / physical | [Link](https://arxiv.org/abs/2608.00569) | — |
 | **P2 · Relevant** | **The Gate, Not the Cache: Gate Provenance Bounds the Closed-Loop Reliability of Training-Free VLA Token Skipping** | Fresh / preprint | llm_serving / sparse / gen / physical | [Link](https://arxiv.org/abs/2608.00391) | — |
@@ -69,7 +68,7 @@
 | **P2 · Relevant** | **A Motion-Aware Vector Quantization Framework with Centroid Reuse for Efficient VLA Inference** | Fresh / preprint | llm_serving / quant / multimodal / physical | [Link](https://arxiv.org/abs/2607.24148) | — |
 | **P1 · Watch** | **Edge-Native Embodied Intelligence for Action-Aware Wireless Edge Networks** | Fresh / preprint | VLA/WAM/Physical AI serving / edge-cloud / heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.17774) | — |
 
-## 🏛️ Classical / Historical · 66 canonical
+## 🏛️ Classical / Historical · 68 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -91,6 +90,7 @@
 | **Canonical** | **Prune2Drive: A Plug-and-Play Framework for Accelerating Vision-Language Models in Autonomous Driving** | CVPR 2026 | autonomous driving / VLM token pruning / Physical AI | [Link](https://openaccess.thecvf.com/content/CVPR2026/papers/Xiong_Prune2Drive_A_Plug-and-Play_Framework_for_Accelerating_Vision-Language_Models_in_Autonomous_CVPR_2026_paper.pdf) | — |
 | **Canonical** | **QuantVLA: Scale-Calibrated Post-Training Quantization for Vision-Language-Action Models** | CVPR 2026 | VLA / PTQ / Physical AI / diffusion action head | [Link](https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_QuantVLA_Scale-Calibrated_Post-Training_Quantization_for_Vision-Language-Action_Models_CVPR_2026_paper.html) | — |
 | **Canonical** | **Spec-VLA: Speculative Decoding for Vision-Language-Action Models with Relaxed Acceptance** | EMNLP 2025 | Physical AI / VLA speculative decoding / relaxed action-token verification | [Link](https://arxiv.org/abs/2507.22424) | [Repo](https://github.com/PineTreeWss/SpecVLA) |
+| **Canonical** | **World Action Models in Real Time: An Empirical Study of Smooth Execution via Asynchronous Deployment** | Fresh / preprint | VLA/WAM/Physical AI serving / asynchronous runtime | [Link](https://arxiv.org/abs/2608.01880) | — |
 | **Canonical** | **CombatVLA: An Efficient Vision-Language-Action Model for Combat Tasks in 3D Action Role-Playing Games** | ICCV 2025 | Physical AI / VLA efficient action generation / runtime | [Link](https://openaccess.thecvf.com/content/ICCV2025/html/Chen_CombatVLA_An_Efficient_Vision-Language-Action_Model_for_Combat_Tasks_in_3D_ICCV_2025_paper.html) | [Repo](https://github.com/ChenVoid/CombatVLA) |
 | **Canonical** | **Saliency-Aware Quantized Imitation Learning for Efficient Robotic Control** | ICCV 2025 | VLA/WAM/Physical AI serving / quantization / edge robotic control | [Link](https://arxiv.org/abs/2505.15304) | — |
 | **Canonical** | **AdaNav: Adaptive Reasoning with Uncertainty for Vision-Language Navigation** | ICML 2026 | Physical AI / vision-language navigation / adaptive reasoning / uncertainty-triggered inference / embodied-agent compute reduction | [Link](https://arxiv.org/abs/2509.24387) | [Repo](https://github.com/xinding-sys/AdaNav) |
@@ -110,6 +110,7 @@
 | **Canonical** | **Speedup Patch: Learning a Plug-and-Play Policy to Accelerate Embodied Manipulation** | ICML 2026 | VLA / Physical AI / embodied policy runtime / action-chunk acceleration | [Link](https://arxiv.org/abs/2603.20658) | — |
 | **Canonical** | **SpikeVLA: Vision-Language-Action Models with Spiking Neural Networks** | ICML 2026 | VLA / Physical AI / spiking neural networks / edge inference / energy-efficient embodied AI | [Link](https://arxiv.org/abs/2606.27807) | — |
 | **Canonical** | **VLA-ATTC: Adaptive Test-Time Compute for VLA Models with Relative Action Critic Model** | ICML 2026 | VLA / Physical AI / adaptive test-time compute / action critic / compute-aware embodied inference | [Link](https://arxiv.org/abs/2605.01194) | — |
+| **Canonical** | **When Replanning Becomes the Bottleneck: Budgeted Replanning for Embodied Agents** | ICML 2026 | Physical AI / embodied-agent serving / replanning SLO / context pruning | [Link](https://arxiv.org/abs/2608.01428) | — |
 | **Canonical** | **Adaptive Capacity Allocation for Vision Language Action Fine-tuning** | ICRA 2026 | Physical AI / VLA parameter-efficient fine-tuning / adaptive LoRA | [Link](https://arxiv.org/abs/2603.07404) | — |
 | **Canonical** | **EveryDayVLA: A Vision-Language-Action Model for Affordable Robotic Manipulation** | ICRA 2026 | Physical AI / VLA / real-time adaptive-horizon replanning / low-cost deployment | [Link](https://arxiv.org/abs/2511.05397) | [Repo](https://github.com/everydayvla/EveryDayVLA) |
 | **Canonical** | **Rethinking the Practicality of Vision-language-action Model: A Comprehensive Benchmark and An Improved Baseline** | ICRA 2026 | Physical AI / lightweight VLA / consumer-GPU deployment / action chunking / cross-embodiment | [Link](https://arxiv.org/abs/2602.22663) | [Repo](https://github.com/OpenHelix-Team/LLaVA-VLA) |

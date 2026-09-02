@@ -1,6 +1,6 @@
 # 08 · GPU Kernel / DSL / Compiler
 
-> **333 canonical papers** mapped here, plus a broader **75-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **338 canonical papers** mapped here, plus a broader **75-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -8,6 +8,7 @@
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
+| **P0 · Strong** | **CacheBridge: Efficient Cross-Model KV Cache Transfer** | arXiv 2026 | KV cache / multi-model serving / GPU kernel | [Link](https://arxiv.org/abs/2609.00891) | — |
 | **P0 · Strong** | **Training Communication-Efficient Mixture-of-Experts Language Models with Layer Re-Configuration** | arXiv 2026 | MoE systems / distributed training / communication efficiency | [Link](https://arxiv.org/abs/2608.28511) | — |
 | **P0 · Strong** | **FlashVLA: Streaming Action Decoding for Fast and Asynchronous VLA Inference** | Fresh / preprint | Physical AI / VLA serving / streaming action decoding | [Link](https://arxiv.org/abs/2608.27384) | — |
 | **P0 · Strong** | **DAMP: Decay-Aware Mixed-Precision Recurrent-State Quantization** | arXiv 2026 | quantization / recurrent-state memory / LLM inference | [Link](https://arxiv.org/abs/2608.27513) | — |
@@ -64,9 +65,7 @@
 | **P0 · Strong** | **Faster-WAM: Efficient Inference-Time Future Conditioning for Robust World Action Models** | Fresh / preprint | VLA/WAM/Physical AI serving / cache / flow acceleration | [Link](https://arxiv.org/abs/2608.04404) | — |
 | **P2 · Relevant** | **On Design Principles for Efficient Heterogeneous DRAM-PIM-GPU Systems** | Fresh / preprint | llm_serving / edge | [Link](https://arxiv.org/abs/2608.04169) | — |
 | **P0 · Strong** | **ComFuse: Fusing Complex Memory-Intensive Subgraphs with Compute-Intensive Kernels For Modern GPU Architectures** | Fresh / preprint | GPU kernel / compiler / operator fusion | [Link](https://arxiv.org/abs/2608.03537) | — |
-| **P1 · Watch** | **DEFT: Joint Task Placement and DVFS for Energy-Efficient Multi-GPU Runtimes** | Fresh / preprint | distributed runtime / multi-GPU / energy efficiency | [Link](https://arxiv.org/abs/2608.02122) | — |
 | **P1 · Watch** | **LEAP: Lean Environment-Feedback via Adaptive Pruning for Code RL in GPU Kernel Generation** | Fresh / preprint | GPU kernel generation / RL post-training / adaptive environment pruning / systems optimization | [Link](https://arxiv.org/abs/2608.01804) | — |
-| **P0 · Strong** | **HorizonServe: Coordinating Request Scheduling with GPU Sharing for Omni-Model Serving** | Fresh / preprint | multimodal/omni-model serving / GPU scheduling | [Link](https://arxiv.org/abs/2608.01785) | — |
 | **P2 · Relevant** | **Bole: Efficient Tree Speculation for Hybrid-Attention Language Models** | Fresh / preprint | LLM serving; KV cache / long context; speculative decoding; efficient attention; GPU kernel / compiler | [Link](https://arxiv.org/abs/2608.01651) | — |
 | **P2 · Relevant** | **Meganeura: Portable GPU Training and Inference through Vulkan and Metal** | Fresh / preprint | llm_serving / quant / kernel | [Link](https://arxiv.org/abs/2608.01563) | — |
 | **P2 · Relevant** | **Celty: SpMspV GPU Kernel and SIMT Co-Design for Efficient Dual-Sparse LLM Inference** | Fresh / preprint | LLM serving; sparsity / pruning; GPU kernel / compiler | [Link](https://arxiv.org/abs/2608.01536) | — |
@@ -83,8 +82,9 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 | **P1 · Watch** | **Here is a GIFT: Enforcing User Data Isolation in LLM Serving via GPU Information Flow Tracking** | Fresh / preprint | LLM serving / GPU runtime / confidential computing | [Link](https://arxiv.org/abs/2608.25431) | — |
+| **P1 · Watch** | **DEFT: Joint Task Placement and DVFS for Energy-Efficient Multi-GPU Runtimes** | Fresh / preprint | distributed runtime / multi-GPU / energy efficiency | [Link](https://arxiv.org/abs/2608.02122) | — |
 
-## 🏛️ Classical / Historical · 302 canonical
+## 🏛️ Classical / Historical · 307 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -94,7 +94,10 @@
 | **Canonical** | **ContrastKV: Robust KV Cache Eviction via Contrastive Signal Fusion for Multi-Query Generalization** | ACL 2026 | KV-cache eviction / long-context multi-query inference | [Link](https://aclanthology.org/2026.acl-long.417/) | — |
 | **Canonical** | **VecInfer: Efficient LLM Inference with Low-Bit KV Cache via Outlier-Suppressed Vector Quantization** | ACL 2026 | KV-cache quantization / low-bit LLM inference / CUDA kernel | [Link](https://aclanthology.org/2026.acl-long.1454/) | — |
 | **Canonical** | **TinyServe: Query-Aware Cache Selection for Efficient LLM Serving** | ACM Multimedia 2025 | LLM serving / KV cache sparsity / CUDA kernels / edge inference | [Link](https://arxiv.org/abs/2509.12211) | [Repo](https://github.com/FastLM/tinyserve-vllm) |
+| **Canonical** | **Compiler-Grounded Hierarchical Diagnosis for LLM-Based Triton Kernel Optimization** | arXiv 2026 | GPU kernel/DSL/compilers / NPU kernel optimization | [Link](https://arxiv.org/abs/2607.23089) | — |
 | **Canonical** | **NUNA: Characterizing and Mitigating Non-Uniform Network Access in Multi-Die GPU Scale-Up Systems** | arXiv 2026 | distributed inference / multi-die GPU / collectives / heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.00867) | — |
+| **Canonical** | **Optimizing CUDA like a Human: Micro-Profiling Tools as Expert Surrogates for LLM-Based GPU Kernel Optimization** | arXiv 2026 | GPU kernel/DSL/compilers / agentic kernel optimization | [Link](https://arxiv.org/abs/2606.26453) | — |
+| **Canonical** | **Ragged Paged Attention: A High-Performance and Flexible LLM Inference Kernel for TPU** | arXiv 2026 | efficient attention / TPU inference / JAX-Pallas | [Link](https://arxiv.org/abs/2604.15464) | — |
 | **Canonical** | **Realtime-VLA FLASH: Speculative Inference Framework for Diffusion-based VLAs** | arXiv 2026 | VLA/WAM/Physical AI serving / speculative inference / diffusion action head / Triton kernels | [Link](https://arxiv.org/abs/2605.13778) | [Repo](https://github.com/dexmal/realtime-vla-flash) |
 | **Canonical** | **Bullet: Boosting GPU Utilization for LLM Serving via Dynamic Spatial-Temporal Orchestration** | ASPLOS 2026 | LLM serving / GPU utilization / scheduling | [Link](https://arxiv.org/abs/2504.19516) | — |
 | **Canonical** | **DFVG: A Heterogeneous Architecture for Speculative Decoding with Draft-on-FPGA and Verify-on-GPU** | ASPLOS 2026 | speculative decoding / heterogeneous GPU-FPGA / LLM accelerator | [Link](https://www.asplos-conference.org/asplos2026/program/) | [Repo](https://github.com/ShaoqiangLu/DFVG) |
@@ -140,6 +143,7 @@
 | **Canonical** | **GPU Checkpoint/Restore Made Fast and Lightweight** | FAST 2026 | GPU systems / checkpoint restore / elasticity / fault tolerance / ML infrastructure | [Link](https://www.usenix.org/conference/fast26/presentation/zeng) | — |
 | **Canonical** | **Enabling Efficient SpMM for Sparse Attention on GEMM-Optimized Hardware with Block Aggregation** | FPGA 2026 | sparse attention / FPGA / SpMM-GEMM transformation | [Link](https://doi.org/10.1145/3748173.3779187) | — |
 | **Canonical** | **FARE: A Fine-grained Pipelined Reconfigurable FlashAttention Kernel** | FPGA 2026 | FlashAttention accelerator / FPGA | [Link](https://doi.org/10.1145/3748173.3779572) | — |
+| **Canonical** | **HorizonServe: Coordinating Request Scheduling with GPU Sharing for Omni-Model Serving** | Fresh / preprint | multimodal/omni-model serving / GPU scheduling | [Link](https://arxiv.org/abs/2608.01785) | — |
 | **Canonical** | **AutoGNN: End-to-End Hardware-Driven Graph Preprocessing for Enhanced GNN Performance** | HPCA 2026 | GNN inference / FPGA accelerator / graph preprocessing | [Link](https://arxiv.org/abs/2602.00803) | — |
 | **Canonical** | **BitDecoding: Unlocking Tensor Cores for Long-Context LLMs with Low-Bit KV Cache** | HPCA 2026 | low-bit KV cache / Tensor Core decoding | [Link](https://doi.org/10.1109/HPCA68181.2026.11408481) | — |
 | **Canonical** | **Exploration of LLM Workload Reliability based on di/dt Effects and Voltage Droops** | HPCA 2026 | LLM serving / AI infrastructure reliability / GPU power delivery | [Link](https://2026.hpca-conf.org/details/hpca-2026-main-conference/39/Exploration-of-LLM-Workload-Reliability-based-on-di-dt-effects-and-Voltage-Droops) | — |
@@ -281,6 +285,7 @@
 | **Canonical** | **Meeting SLOs, Slashing Hours: Automated Enterprise LLM Optimization with OptiKIT** | MLSys 2026 | LLM optimization platform / heterogeneous infrastructure / enterprise deployment | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/4904fad153f6434a7bcf04465d4be2cc-Abstract-Conference.html) | — |
 | **Canonical** | **MixLLM: LLM Quantization with Global Mixed-precision between Output-features and Highly-efficient System Design** | MLSys 2026 | quantization / LLM inference / GPU kernels | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/a66caa1703fe34705a4368c3014c1966-Abstract-Conference.html) | [Repo](https://github.com/microsoft/MixLLM) |
 | **Canonical** | **Optimizing PyTorch Inference with LLM-Based Multi-Agent Systems** | MLSys 2026 | GPU kernel / compiler / agentic inference optimization | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/bd49b53516ce9ea248fb73522d71a508-Abstract-Conference.html) | [Repo](https://github.com/pike-project/pike) |
+| **Canonical** | **ParallelKittens: Systematic and Practical Simplification of Multi-GPU AI Kernels** | MLSys 2026 | GPU kernel/DSL/compilers / distributed training-inference | [Link](https://arxiv.org/abs/2511.13940) | — |
 | **Canonical** | **RaidServe: High-performance Resilient Serving** | MLSys 2026 | LLM serving reliability / tensor parallelism / KV-cache recovery | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/507b4aacefe5325908e24f042617b741-Abstract-Conference.html) | — |
 | **Canonical** | **SuperInfer: SLO-Aware Rotary Scheduling and Memory Management for LLM Inference on Superchips** | MLSys 2026 | LLM serving / KV-cache offload / heterogeneous GPU-CPU superchips | [Link](https://arxiv.org/abs/2601.20309) | [Repo](https://github.com/Supercomputing-System-AI-Lab/SuperInfer) |
 | **Canonical** | **TeleRAG: Efficient Retrieval-Augmented Generation Inference with Lookahead Retrieval** | MLSys 2026 | RAG serving / prefetch / multi-GPU inference | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/7fd522b89ac21009b7bbe7560a9a5add-Abstract-Conference.html) | [Repo](https://github.com/uw-syfi/TeleRAG) |

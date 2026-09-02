@@ -1,10 +1,10 @@
 # 13 · Efficient Reasoning / Agents
 
-> **232 canonical papers** mapped here, plus a broader **56-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **233 canonical papers** mapped here, plus a broader **55-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 56 tracked
+## 🆕 Latest 30 Days · 55 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -58,14 +58,13 @@
 | **P2 · Relevant** | **When Does Disaggregation Pay? Simulating Prefill--Decode--Attention--FFN Specialization for Agentic LLM Inference** | Fresh / preprint | LLM serving; quantization; generation acceleration; agent systems; edge / heterogeneous AI | [Link](https://arxiv.org/abs/2608.03741) | — |
 | **P2 · Relevant** | **PhyAI: Real-Time Physical AI at the Edge, Scalable Rollouts in the Cloud** | Fresh / preprint | LLM serving; multimodal / MLLM; generation acceleration; Physical AI | [Link](https://arxiv.org/abs/2608.03682) | — |
 | **P2 · Relevant** | **Heterogeneous LLM Serving with General-Purpose Processing-Near-Memory for Retrieval-Based Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / agent / edge | [Link](https://arxiv.org/abs/2608.03555) | — |
-| **P0 · Strong** | **When Replanning Becomes the Bottleneck: Budgeted Replanning for Embodied Agents** | ICML 2026 | Physical AI / embodied-agent serving / replanning SLO / context pruning | [Link](https://arxiv.org/abs/2608.01428) | — |
 | **P1 · Watch** | **AReaL-DTE: Sparse Policy-Weight Transfer for Online Agentic Reinforcement Learning** | Fresh / preprint | agentic RL systems / sparse policy-weight synchronization / cross-cluster serving-training | [Link](https://arxiv.org/abs/2608.00455) | — |
 | **P2 · Relevant** | **NELSSA: A GPU-PNM Heterogeneous System for Mixed-Length LLM Serving via Length-based Request Placement** | Fresh / preprint | LLM serving; KV cache / long context; sparsity / pruning; agent systems; edge / heterogeneous AI | [Link](https://arxiv.org/abs/2607.26633) | — |
 | **P2 · Relevant** | **DualDecoder: Accelerate Long Context LLM Inference by Predictive Prefetch** | Fresh / preprint | LLM serving; KV cache / long context; agent systems | [Link](https://arxiv.org/abs/2607.26475) | — |
 | **P2 · Relevant** | **SpecBox: Speculative Sandbox Scheduling for Efficient LLM Agent Serving** | Fresh / preprint | llm_serving / agent | [Link](https://arxiv.org/abs/2607.23933) | — |
 | **P2 · Relevant** | **Agentic CPU-GPU Scheduling for Heterogeneous AI Workloads** | Fresh / preprint | llm_serving / gen / agent / edge | [Link](https://arxiv.org/abs/2607.22242) | — |
 
-## 🏛️ Classical / Historical · 215 canonical
+## 🏛️ Classical / Historical · 217 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -79,6 +78,7 @@
 | **Canonical** | **SpecExtend: A Drop-in Enhancement for Speculative Decoding of Long Sequences** | ACL 2026 Findings | speculative decoding / KV cache / long-context efficient inference | [Link](https://arxiv.org/abs/2505.20776) | [Repo](https://github.com/jycha98/SpecExtend) |
 | **Canonical** | **LVLM_CSP: Accelerating Large Vision Language Models via Clustering, Scattering, and Pruning for Reasoning Segmentation** | ACM Multimedia 2025 | multimodal/MLLM serving / sparsity-pruning / visual-token pruning | [Link](https://arxiv.org/abs/2504.10854) | — |
 | **Canonical** | **Learning Agent Execution for KV-Cache Management in Agentic Serving** | arXiv 2026 | LLM serving / agent systems / KV cache / cache eviction / prefetching | [Link](https://arxiv.org/abs/2608.14624) | — |
+| **Canonical** | **Optimizing CUDA like a Human: Micro-Profiling Tools as Expert Surrogates for LLM-Based GPU Kernel Optimization** | arXiv 2026 | GPU kernel/DSL/compilers / agentic kernel optimization | [Link](https://arxiv.org/abs/2606.26453) | — |
 | **Canonical** | **FastTTS: Accelerating Test-Time Scaling for Edge LLM Reasoning** | ASPLOS 2026 | efficient reasoning / edge LLM serving / KV-aware scheduling | [Link](https://arxiv.org/abs/2509.00195) | [Repo](https://github.com/ihc-fan-lab/FastTTS) |
 | **Canonical** | **SpeContext: Enabling Efficient Long-context Reasoning with Speculative Context Sparsity in LLMs** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://arxiv.org/abs/2512.00722) | — |
 | **Canonical** | **Taming the Long-Tail: Efficient Reasoning RL Training with Adaptive Drafter** | ASPLOS 2026 | reasoning RL training / speculative decoding / rollout systems | [Link](https://arxiv.org/abs/2511.16665) | — |
@@ -216,6 +216,7 @@
 | **Canonical** | **VectorWorld: Efficient Streaming World Model via Diffusion Flow on Vector Graphs** | ICML 2026 | Physical AI / streaming world model / autonomous-driving simulation / one-step diffusion-flow generation | [Link](https://arxiv.org/abs/2603.17652) | [Repo](https://github.com/jiangchaokang/VectorWorld) |
 | **Canonical** | **VidLaDA: Bidirectional Diffusion Large Language Models for Efficient Video Understanding** | ICML 2026 | multimodal / video LLM / diffusion language model / MARS-Cache / parallel decoding | [Link](https://arxiv.org/abs/2601.17868) | [Repo](https://github.com/ziHoHe/VidLaDA) |
 | **Canonical** | **VLA-ATTC: Adaptive Test-Time Compute for VLA Models with Relative Action Critic Model** | ICML 2026 | VLA / Physical AI / adaptive test-time compute / action critic / compute-aware embodied inference | [Link](https://arxiv.org/abs/2605.01194) | — |
+| **Canonical** | **When Replanning Becomes the Bottleneck: Budgeted Replanning for Embodied Agents** | ICML 2026 | Physical AI / embodied-agent serving / replanning SLO / context pruning | [Link](https://arxiv.org/abs/2608.01428) | — |
 | **Canonical** | **Which Heads Matter for Reasoning? RL-Guided KV Cache Compression** | ICML 2026 | KV cache / efficient reasoning / reasoning-aware head allocation / SGLang inference | [Link](https://arxiv.org/abs/2510.08525) | [Repo](https://github.com/Kurt232/RLKV) |
 | **Canonical** | **AdaToken-3D: Dynamic Spatial Gating for Efficient 3D Large Multimodal-Models Reasoning** | IROS 2025 | 3D multimodal inference / token pruning / Physical AI | [Link](https://arxiv.org/abs/2505.12782) | — |
 | **Canonical** | **LightPlanner: Unleashing the Reasoning Capabilities of Lightweight Large Language Models in Task Planning** | IROS 2025 | edge-efficient embodied task planning / lightweight LLM / long-horizon memory | [Link](https://arxiv.org/abs/2503.08508) | [Repo](https://github.com/jetteezhou/LightPlanner) |

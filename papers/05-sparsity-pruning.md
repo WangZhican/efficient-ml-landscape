@@ -1,10 +1,10 @@
 # 05 · Sparsity / Pruning
 
-> **225 canonical papers** mapped here, plus a broader **67-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **225 canonical papers** mapped here, plus a broader **65-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 67 tracked
+## 🆕 Latest 30 Days · 65 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -58,9 +58,7 @@
 | **P2 · Relevant** | **LowRank-SSM: Hardware-Software Co-Design for Rank-Reduced Mamba Acceleration on FPGA** | Fresh / preprint | llm_serving / quant / sparse / edge | [Link](https://arxiv.org/abs/2608.02954) | — |
 | **P0 · Strong** | **ATFlash: Per-RoPE-Wavelength Attention Windows for Compute/Memory-Efficient LLM Inference** | Fresh / preprint | efficient attention / long-context / FlashAttention | [Link](https://arxiv.org/abs/2608.02947) | — |
 | **P1 · Watch** | **LEAP: Lean Environment-Feedback via Adaptive Pruning for Code RL in GPU Kernel Generation** | Fresh / preprint | GPU kernel generation / RL post-training / adaptive environment pruning / systems optimization | [Link](https://arxiv.org/abs/2608.01804) | — |
-| **P0 · Strong** | **LongCat Sparse Attention: Taming the Lightning via Streaming-aware Hierarchical Cross-Layer Indexing** | Fresh / preprint | efficient attention / long-context / hardware-system co-design | [Link](https://arxiv.org/abs/2608.01662) | — |
 | **P2 · Relevant** | **Celty: SpMspV GPU Kernel and SIMT Co-Design for Efficient Dual-Sparse LLM Inference** | Fresh / preprint | LLM serving; sparsity / pruning; GPU kernel / compiler | [Link](https://arxiv.org/abs/2608.01536) | — |
-| **P0 · Strong** | **When Replanning Becomes the Bottleneck: Budgeted Replanning for Embodied Agents** | ICML 2026 | Physical AI / embodied-agent serving / replanning SLO / context pruning | [Link](https://arxiv.org/abs/2608.01428) | — |
 | **P1 · Watch** | **AReaL-DTE: Sparse Policy-Weight Transfer for Online Agentic Reinforcement Learning** | Fresh / preprint | agentic RL systems / sparse policy-weight synchronization / cross-cluster serving-training | [Link](https://arxiv.org/abs/2608.00455) | — |
 | **P2 · Relevant** | **The Gate, Not the Cache: Gate Provenance Bounds the Closed-Loop Reliability of Training-Free VLA Token Skipping** | Fresh / preprint | llm_serving / sparse / gen / physical | [Link](https://arxiv.org/abs/2608.00391) | — |
 | **P2 · Relevant** | **WIDE: Boosting Adaptive LLM Inference via Token-level Dynamic Width Pruning** | Fresh / preprint | LLM serving; sparsity / pruning; edge / heterogeneous AI | [Link](https://arxiv.org/abs/2607.28418) | — |
@@ -76,7 +74,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 211 canonical
+## 🏛️ Classical / Historical · 213 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -142,6 +140,7 @@
 | **Canonical** | **SolidAttention: Low-Latency SSD-based Serving on Memory-Constrained PCs** | FAST 2026 | LLM serving / sparse attention / SSD KV-cache offload | [Link](https://www.usenix.org/conference/fast26/presentation/zheng) | — |
 | **Canonical** | **Enabling Efficient SpMM for Sparse Attention on GEMM-Optimized Hardware with Block Aggregation** | FPGA 2026 | sparse attention / FPGA / SpMM-GEMM transformation | [Link](https://doi.org/10.1145/3748173.3779187) | — |
 | **Canonical** | **KANELÉ: Kolmogorov-Arnold Networks for Efficient LUT-based Evaluation** | FPGA 2026 | efficient FPGA ML inference / LUT neural networks | [Link](https://arxiv.org/abs/2512.12850) | — |
+| **Canonical** | **LongCat Sparse Attention: Taming the Lightning via Streaming-aware Hierarchical Cross-Layer Indexing** | Fresh / preprint | efficient attention / long-context / hardware-system co-design | [Link](https://arxiv.org/abs/2608.01662) | — |
 | **Canonical** | **PADE: A Predictor-Free Sparse Attention Accelerator via Unified Execution and Stage Fusion** | HPCA 2026 | sparse attention accelerator / algorithm-hardware co-design | [Link](https://arxiv.org/abs/2512.14322) | — |
 | **Canonical** | **AIM: Adaptive Inference of Multi-Modal LLMs via Token Merging and Pruning** | ICCV 2025 | multimodal token merging/pruning | [Link](https://openaccess.thecvf.com/content/ICCV2025/papers/Zhong_AIM_Adaptive_Inference_of_Multi-Modal_LLMs_via_Token_Merging_and_ICCV_2025_paper.pdf) | — |
 | **Canonical** | **FastVAR: Linear Visual Autoregressive Modeling via Cached Token Pruning** | ICCV 2025 | autoregressive image generation acceleration / cached token pruning | [Link](https://arxiv.org/abs/2503.23367) | [Repo](https://github.com/csguoh/FastVAR) |
@@ -255,6 +254,7 @@
 | **Canonical** | **Understanding and Mitigating Token-Pruning-Induced Vulnerabilities in VLMs** | ICML 2026 | multimodal/MLLM serving / token pruning / safety-aware efficient inference / visual-token sparsity | [Link](https://openreview.net/forum?id=D3OHVbePvz) | [Repo](https://github.com/liongliong/SAP) |
 | **Canonical** | **Veda: Scalable Video Diffusion via Distilled Sparse Attention** | ICML 2026 | video diffusion acceleration / distilled sparse attention / tile-sparse GPU kernel | [Link](https://arxiv.org/abs/2605.30325) | — |
 | **Canonical** | **Vegas: Self-Speculative Decoding with Verification-Guided Sparse Attention** | ICML 2026 | speculative decoding / sparse attention / KV-cache selection / vLLM serving | [Link](https://arxiv.org/abs/2602.07223) | [Repo](https://github.com/platformxlab/vegas) |
+| **Canonical** | **When Replanning Becomes the Bottleneck: Budgeted Replanning for Embodied Agents** | ICML 2026 | Physical AI / embodied-agent serving / replanning SLO / context pruning | [Link](https://arxiv.org/abs/2608.01428) | — |
 | **Canonical** | **The Better You Learn, The Smarter You Prune: Towards Efficient Vision-language-action Models via Differentiable Token Pruning** | ICRA 2026 | Physical AI / VLA / adaptive visual-token pruning / inference acceleration | [Link](https://arxiv.org/abs/2509.12594) | [Repo](https://github.com/LiAutoAD/LightVLA) |
 | **Canonical** | **Accurate Sublayer Pruning for Large Language Models by Exploiting Latency and Tunability Information** | IJCAI 2025 | LLM sublayer pruning / latency-aware inference acceleration | [Link](https://arxiv.org/abs/2506.03510) | [Repo](https://github.com/snudm-starlab/SPRINT) |
 | **Canonical** | **Not All Layers of LLMs Are Necessary During Inference** | IJCAI 2025 | adaptive early-exit / dynamic-depth LLM inference | [Link](https://arxiv.org/abs/2403.02181) | — |

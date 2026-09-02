@@ -1,6 +1,6 @@
 # 09 · Distributed Training / Inference
 
-> **270 canonical papers** mapped here, plus a broader **38-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **271 canonical papers** mapped here, plus a broader **38-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -41,13 +41,13 @@
 | **P2 · Relevant** | **PLoRA: An NDP-Enhanced Pooled-Memory System for Cost-Efficient Multi-LoRA Serving** | Fresh / preprint | LLM serving; KV cache / long context; distributed AI | [Link](https://arxiv.org/abs/2608.05483) | — |
 | **P1 · Watch** | **Efficient Knowledge Distillation for LLMs: Offline Top-K Logits and a Fused Chunked KL Loss** | Fresh / preprint | LLM distillation systems / fused chunked KL / memory-efficient training | [Link](https://arxiv.org/abs/2608.03796) | — |
 | **P1 · Watch** | **Broadcast Rate Limits in Wi-Fi: A Forgotten Bottleneck for Collaborative Edge LLM Inference** | Fresh / preprint | collaborative edge MoE serving / communication / Wi-Fi broadcast bottleneck | [Link](https://arxiv.org/abs/2608.02341) | — |
-| **P1 · Watch** | **DEFT: Joint Task Placement and DVFS for Energy-Efficient Multi-GPU Runtimes** | Fresh / preprint | distributed runtime / multi-GPU / energy efficiency | [Link](https://arxiv.org/abs/2608.02122) | — |
-| **P1 · Watch** | **An Internet for the KV Cache: Rethinking Classical Infrastructure Boundaries in the LLM Inference Age** | Fresh / preprint | KV cache / distributed serving / cloud-network-storage systems | [Link](https://arxiv.org/abs/2608.01526) | — |
 | **P2 · Relevant** | **HetRoute Heterogeneous and Cost-aware Collaborative Routing Framework for Distributed Edge MoE Inference** | Fresh / preprint | llm_serving / quant / moe / dist / edge | [Link](https://arxiv.org/abs/2608.00577) | — |
 | **P1 · Watch** | **AReaL-DTE: Sparse Policy-Weight Transfer for Online Agentic Reinforcement Learning** | Fresh / preprint | agentic RL systems / sparse policy-weight synchronization / cross-cluster serving-training | [Link](https://arxiv.org/abs/2608.00455) | — |
 | **P2 · Relevant** | **HCCL: Collective Communication for Meta Training and Inference Accelerators** | Fresh / preprint | llm_serving | [Link](https://arxiv.org/abs/2608.00358) | — |
+| **P1 · Watch** | **DEFT: Joint Task Placement and DVFS for Energy-Efficient Multi-GPU Runtimes** | Fresh / preprint | distributed runtime / multi-GPU / energy efficiency | [Link](https://arxiv.org/abs/2608.02122) | — |
+| **P1 · Watch** | **An Internet for the KV Cache: Rethinking Classical Infrastructure Boundaries in the LLM Inference Age** | Fresh / preprint | KV cache / distributed serving / cloud-network-storage systems | [Link](https://arxiv.org/abs/2608.01526) | — |
 
-## 🏛️ Classical / Historical · 253 canonical
+## 🏛️ Classical / Historical · 254 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -209,6 +209,7 @@
 | **Canonical** | **Meeting SLOs, Slashing Hours: Automated Enterprise LLM Optimization with OptiKIT** | MLSys 2026 | LLM optimization platform / heterogeneous infrastructure / enterprise deployment | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/4904fad153f6434a7bcf04465d4be2cc-Abstract-Conference.html) | — |
 | **Canonical** | **MTraining: Distributed Dynamic Sparse Attention for Efficient Ultra-Long Context Training** | MLSys 2026 | distributed training / sparse attention / long context | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/7fafdf453029d7b8674b6f3dd18112bf-Abstract-Conference.html) | [Repo](https://github.com/microsoft/MInference/tree/main/mtraining) |
 | **Canonical** | **Optimizing Deployment Configurations for LLM Inference** | MLSys 2026 | LLM serving / deployment configuration / hardware heterogeneity / production systems | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/97dc07f1253ab33ee514f395a82fa7cc-Abstract-Conference.html) | — |
+| **Canonical** | **ParallelKittens: Systematic and Practical Simplification of Multi-GPU AI Kernels** | MLSys 2026 | GPU kernel/DSL/compilers / distributed training-inference | [Link](https://arxiv.org/abs/2511.13940) | — |
 | **Canonical** | **ProTrain: Efficient LLM Training via Automatic Memory Management** | MLSys 2026 | distributed training / memory management / automatic optimization | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/56280ad5fb53967fd55e4ba1b1cfc418-Abstract-Conference.html) | — |
 | **Canonical** | **RaidServe: High-performance Resilient Serving** | MLSys 2026 | LLM serving reliability / tensor parallelism / KV-cache recovery | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/507b4aacefe5325908e24f042617b741-Abstract-Conference.html) | — |
 | **Canonical** | **TeleRAG: Efficient Retrieval-Augmented Generation Inference with Lookahead Retrieval** | MLSys 2026 | RAG serving / prefetch / multi-GPU inference | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/7fd522b89ac21009b7bbe7560a9a5add-Abstract-Conference.html) | [Repo](https://github.com/uw-syfi/TeleRAG) |

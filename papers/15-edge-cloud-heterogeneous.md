@@ -1,13 +1,15 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **293 canonical papers** mapped here, plus a broader **102-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **296 canonical papers** mapped here, plus a broader **103-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 102 tracked
+## 🆕 Latest 30 Days · 103 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
+| **P0 · Strong** | **mzCache: On-Device LLM Memory Management under Multitasking** | MobiCom 2026 | edge/cloud/heterogeneous AI / KV cache / on-device LLM serving | [Link](https://arxiv.org/abs/2609.01338) | — |
+| **P0 · Strong** | **DynaNDE: Dynamic Near-Data Expert Scheduling for Batched MoE Inference** | arXiv 2026 | MoE systems / accelerators / heterogeneous inference | [Link](https://arxiv.org/abs/2609.00407) | — |
 | **P1 · Watch** | **CHIPSMORE: Compute-in-Interconnect and -Memory Chiplets for Multi-Mode Multi-Request LLM Inference Acceleration** | Fresh / preprint | edge/cloud/heterogeneous AI systems / LLM accelerator | [Link](https://arxiv.org/abs/2608.30509) | — |
 | **P1 · Watch** | **Context-Aware Interleaved Batching for WhisperX** | Fresh / preprint | edge/cloud/heterogeneous AI systems / inference batching | [Link](https://arxiv.org/abs/2608.31170) | — |
 | **P0 · Strong** | **Training Communication-Efficient Mixture-of-Experts Language Models with Layer Re-Configuration** | arXiv 2026 | MoE systems / distributed training / communication efficiency | [Link](https://arxiv.org/abs/2608.28511) | — |
@@ -86,7 +88,6 @@
 | **P2 · Relevant** | **LowRank-SSM: Hardware-Software Co-Design for Rank-Reduced Mamba Acceleration on FPGA** | Fresh / preprint | llm_serving / quant / sparse / edge | [Link](https://arxiv.org/abs/2608.02954) | — |
 | **P1 · Watch** | **Broadcast Rate Limits in Wi-Fi: A Forgotten Bottleneck for Collaborative Edge LLM Inference** | Fresh / preprint | collaborative edge MoE serving / communication / Wi-Fi broadcast bottleneck | [Link](https://arxiv.org/abs/2608.02341) | — |
 | **P2 · Relevant** | **Efficiency and Cost Alignment in Batched LLM Serving via Resource-Fair Scheduling** | Fresh / preprint | llm_serving / edge | [Link](https://arxiv.org/abs/2608.02244) | — |
-| **P0 · Strong** | **HorizonServe: Coordinating Request Scheduling with GPU Sharing for Omni-Model Serving** | Fresh / preprint | multimodal/omni-model serving / GPU scheduling | [Link](https://arxiv.org/abs/2608.01785) | — |
 | **P2 · Relevant** | **CascadeLUT: Information-Ordered Streaming Inference for Bandwidth-Constrained FPGAs** | Fresh / preprint | LLM serving; quantization; edge / heterogeneous AI | [Link](https://arxiv.org/abs/2608.00720) | — |
 | **P2 · Relevant** | **HetRoute Heterogeneous and Cost-aware Collaborative Routing Framework for Distributed Edge MoE Inference** | Fresh / preprint | llm_serving / quant / moe / dist / edge | [Link](https://arxiv.org/abs/2608.00577) | — |
 | **P1 · Watch** | **Latency-Tolerant Cloud-Edge Collaborative Vision-Language-Action Models via Emergent Representational Specialization** | Fresh / preprint | llm_serving / multimodal / physical | [Link](https://arxiv.org/abs/2608.00569) | — |
@@ -111,7 +112,7 @@
 | **P2 · Relevant** | **Unified Static-Dynamic Pruning for Efficient LLM Inference** | Fresh / preprint | llm_serving / sparse / kernel / edge | [Link](https://arxiv.org/abs/2607.21985) | — |
 | **P1 · Watch** | **Edge-Native Embodied Intelligence for Action-Aware Wireless Edge Networks** | Fresh / preprint | VLA/WAM/Physical AI serving / edge-cloud / heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.17774) | — |
 
-## 🏛️ Classical / Historical · 273 canonical
+## 🏛️ Classical / Historical · 275 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -124,6 +125,7 @@
 | **Canonical** | **FlexGaussian: Flexible and Cost-Effective Training-Free Compression for 3D Gaussian Splatting** | ACM Multimedia 2025 | video/image generation acceleration / 3D Gaussian splatting / quantization / pruning / edge deployment | [Link](https://arxiv.org/abs/2507.06671) | [Repo](https://github.com/Supercomputing-System-AI-Lab/FlexGaussian) |
 | **Canonical** | **How2Compress: Scalable and Efficient Edge Video Analytics via Adaptive Granular Video Compression** | ACM Multimedia 2025 | edge video analytics / adaptive video compression | [Link](https://arxiv.org/abs/2510.18409) | [Repo](https://github.com/wyhallenwu/how2compress) |
 | **Canonical** | **TinyServe: Query-Aware Cache Selection for Efficient LLM Serving** | ACM Multimedia 2025 | LLM serving / KV cache sparsity / CUDA kernels / edge inference | [Link](https://arxiv.org/abs/2509.12211) | [Repo](https://github.com/FastLM/tinyserve-vllm) |
+| **Canonical** | **Compiler-Grounded Hierarchical Diagnosis for LLM-Based Triton Kernel Optimization** | arXiv 2026 | GPU kernel/DSL/compilers / NPU kernel optimization | [Link](https://arxiv.org/abs/2607.23089) | — |
 | **Canonical** | **NUNA: Characterizing and Mitigating Non-Uniform Network Access in Multi-Die GPU Scale-Up Systems** | arXiv 2026 | distributed inference / multi-die GPU / collectives / heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.00867) | — |
 | **Canonical** | **SAC: Disaggregated KV Cache System for Sparse Attention LLMs with CXL** | arXiv 2026 | LLM serving / KV cache / sparse attention / disaggregated memory / CXL | [Link](https://arxiv.org/abs/2606.19746) | — |
 | **Canonical** | **vla.cpp: A Unified Inference Runtime for Vision-Language-Action Models** | arXiv 2026 | VLA/WAM/Physical AI serving / portable runtime / edge deployment / quantized inference | [Link](https://arxiv.org/abs/2606.08094) | [Repo](https://github.com/VinRobotics/vla.cpp) |
@@ -177,6 +179,7 @@
 | **Canonical** | **HGQ: High Granularity Quantization for Real-time Neural Networks on FPGAs** | FPGA 2026 | quantization / FPGA / low-latency inference | [Link](https://arxiv.org/abs/2405.00645) | — |
 | **Canonical** | **Hummingbird+: Advancing FPGA-based LLM Deployment from Research Prototype to Edge Product** | FPGA 2026 | edge LLM inference / FPGA accelerator / deployment | [Link](https://www.isfpga.org/program/) | — |
 | **Canonical** | **TeLLMe: An Efficient End-to-End Ternary LLM Prefill and Decode Accelerator with Table-Lookup Matmul on Edge FPGAs** | FPGA 2026 | edge LLM inference / ternary accelerator / FPGA | [Link](https://arxiv.org/abs/2510.15926) | [Repo](https://github.com/UCI-CORSA/TeLLMe_FPGA_2026) |
+| **Canonical** | **HorizonServe: Coordinating Request Scheduling with GPU Sharing for Omni-Model Serving** | Fresh / preprint | multimodal/omni-model serving / GPU scheduling | [Link](https://arxiv.org/abs/2608.01785) | — |
 | **Canonical** | **Adaptive Draft Sequence Length: Enhancing Speculative Decoding Throughput on PIM-Enabled Systems** | HPCA 2026 | efficient VLM + PIM inference + reasoning accelerator + speculative decoding | [Link](https://doi.org/10.1109/HPCA68181.2026.11408598) | — |
 | **Canonical** | **AQPIM: Breaking the PIM Capacity Wall for LLMs with In-Memory Activation Quantization** | HPCA 2026 | PIM / activation quantization / long-context LLM | [Link](https://arxiv.org/abs/2604.18137) | — |
 | **Canonical** | **AutoHAAP: Automated Heterogeneity-Aware Asymmetric Partitioning for LLM Training** | HPCA 2026 | heterogeneous distributed LLM training / partition search | [Link](https://doi.org/10.1109/HPCA68181.2026.11408533) | — |

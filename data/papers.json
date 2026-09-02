@@ -1940,6 +1940,29 @@
     ]
   },
   {
+    "title": "CacheBridge: Efficient Cross-Model KV Cache Transfer",
+    "venue": "arXiv 2026",
+    "topic": "KV cache / multi-model serving / GPU kernel",
+    "arxiv": "2609.00891",
+    "doi": "",
+    "official_id": "arXiv:2609.00891",
+    "paper_url": "https://arxiv.org/abs/2609.00891",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Cross-model KV transfer with matched-head affine mapping, attention-aware calibration and fused GPU sufficient-statistics kernel; reports 8x lower mapper storage, up to 3.0x application speedup and 10.7x faster mapper construction while retaining target quality.",
+    "published_at": "2026-09-01T08:20:35Z",
+    "updated_at": "2026-09-01T08:20:35Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "CAKE: Compiler-Agent Co-Design for Frontier Kernel Evolution",
     "venue": "arXiv 2026",
     "topic": "GPU kernel / DSL / compiler / agentic systems / LLM serving",
@@ -1960,6 +1983,27 @@
       "Efficient Attention",
       "GPU Kernel / DSL / Compiler",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "Compiler-Grounded Hierarchical Diagnosis for LLM-Based Triton Kernel Optimization",
+    "venue": "arXiv 2026",
+    "topic": "GPU kernel/DSL/compilers / NPU kernel optimization",
+    "arxiv": "2607.23089",
+    "doi": "",
+    "official_id": "arXiv:2607.23089",
+    "paper_url": "https://arxiv.org/abs/2607.23089",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Compiler-grounded hierarchical Triton-kernel diagnosis on Ascend NPU; 37-kernel benchmark reports 4.35x geometric-mean and 2.73x median speedup from initial to optimized kernels.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -2028,6 +2072,28 @@
     ]
   },
   {
+    "title": "DynaNDE: Dynamic Near-Data Expert Scheduling for Batched MoE Inference",
+    "venue": "arXiv 2026",
+    "topic": "MoE systems / accelerators / heterogeneous inference",
+    "arxiv": "2609.00407",
+    "doi": "",
+    "official_id": "arXiv:2609.00407",
+    "paper_url": "https://arxiv.org/abs/2609.00407",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Dynamic NPU-NDP expert scheduling for batched MoE inference with hardware-heterogeneity and reuse-aware runtime; reports average 2.6x prefill and 2.2x decode speedup over prior NPU-NDP MoE serving.",
+    "published_at": "2026-08-31T21:38:59Z",
+    "updated_at": "2026-08-31T21:38:59Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "MoE Systems / Accelerators",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "HyQuant: Hybrid-Precision Quantization for LLM Attention",
     "venue": "arXiv 2026",
     "topic": "quantization / KV cache / efficient attention",
@@ -2048,6 +2114,28 @@
       "KV Cache / Long Context",
       "Quantization",
       "Efficient Attention"
+    ]
+  },
+  {
+    "title": "Knowing When to Stop: Adaptive Action Chunking via Internal Cross-Attention Dynamics in VLAs",
+    "venue": "arXiv 2026",
+    "topic": "VLA/WAM/Physical AI serving / adaptive action execution",
+    "arxiv": "2609.00908",
+    "doi": "",
+    "official_id": "arXiv:2609.00908",
+    "paper_url": "https://arxiv.org/abs/2609.00908",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Training-free adaptive VLA action-chunk truncation using already-computed cross-attention entropy; directly targets the inference-frequency versus open-loop accuracy tradeoff with negligible additional overhead on pi0.5 and X-VLA across simulation and real manipulation.",
+    "published_at": "2026-09-01T08:38:16Z",
+    "updated_at": "2026-09-01T08:38:16Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Efficient Attention",
+      "VLA / WAM / Physical AI"
     ]
   },
   {
@@ -2141,6 +2229,27 @@
     ]
   },
   {
+    "title": "Optimizing CUDA like a Human: Micro-Profiling Tools as Expert Surrogates for LLM-Based GPU Kernel Optimization",
+    "venue": "arXiv 2026",
+    "topic": "GPU kernel/DSL/compilers / agentic kernel optimization",
+    "arxiv": "2606.26453",
+    "doi": "",
+    "official_id": "arXiv:2606.26453",
+    "paper_url": "https://arxiv.org/abs/2606.26453",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "KernelPro combines profiler-grounded multi-agent search with CuTe/CUDA generation; KernelBench reports 2.42x/4.69x/5.30x geometric-mean speedups on Levels 1/2/3 and measurable energy reduction.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "PACE: A Unified Condense-and-Extract Paradigm for Fast VLM Inference",
     "venue": "arXiv 2026",
     "topic": "multimodal/MLLM serving / visual token efficiency",
@@ -2159,6 +2268,28 @@
     "directions": [
       "LLM Serving",
       "Multimodal / MLLM Serving"
+    ]
+  },
+  {
+    "title": "Ragged Paged Attention: A High-Performance and Flexible LLM Inference Kernel for TPU",
+    "venue": "arXiv 2026",
+    "topic": "efficient attention / TPU inference / JAX-Pallas",
+    "arxiv": "2604.15464",
+    "doi": "",
+    "official_id": "arXiv:2604.15464",
+    "paper_url": "https://arxiv.org/abs/2604.15464",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Pallas/Mosaic ragged paged-attention kernel for dynamic LLM serving on TPU with fine-grained tiling, fused KV update+attention software pipeline and workload-specialized compilation.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {
@@ -7599,7 +7730,7 @@
     "decision": "PROMOTE_STRONG",
     "why": "Direct multimodal inference acceleration. CE-Router plus unified scheduling coordinates layer skipping, FFN pruning, diffusion-head cache reuse, and denoising early exit across understanding and generation.",
     "published_at": "2026-08-29T14:27:55Z",
-    "updated_at": "2026-08-29T14:27:55Z",
+    "updated_at": "2026-09-01T05:51:02Z",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -7840,10 +7971,10 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "PROMOTE_STRONG",
     "why": "Single-GPU omni-model serving system coordinating temporal request scheduling and spatial SM sharing under heterogeneous SLOs; reports up to 4.9x/7.0x SLO-attainment gains and 38.4–63.7% first-response latency reduction.",
-    "published_at": "2026-08-03T06:59:15Z",
-    "updated_at": "2026-08-03T06:59:15Z",
-    "is_latest_30d": true,
-    "tracking_tier": "P0 · Strong",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving",
       "GPU Kernel / DSL / Compiler",
@@ -7863,10 +7994,10 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "PROMOTE_STRONG",
     "why": "Direct hardware-algorithm co-designed sparse-attention system. Streaming-aware contiguous layouts, cross-layer index reuse, and hierarchical scoring target index computation plus HBM access inefficiency and support native training to 1M context.",
-    "published_at": "2026-08-03T03:51:21Z",
-    "updated_at": "2026-08-04T07:46:43Z",
-    "is_latest_30d": true,
-    "tracking_tier": "P0 · Strong",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
     "directions": [
       "KV Cache / Long Context",
       "Sparsity / Pruning",
@@ -8015,10 +8146,10 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "PROMOTE_STRONG",
     "why": "Protected Physical-AI runtime/deployment study directly addressing iterative WAM inference latency by overlapping inference with action execution; evaluates six asynchronous strategies on a 10 Hz bimanual robot and identifies temporal alignment as the key deployment constraint.",
-    "published_at": "2026-08-03T08:24:36Z",
-    "updated_at": "2026-08-11T16:52:57Z",
-    "is_latest_30d": true,
-    "tracking_tier": "P0 · Strong",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving",
       "VLA / WAM / Physical AI"
@@ -18777,10 +18908,10 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "BACKFILL_HIGH",
     "why": "ICML 2026 protected Physical-AI work. BRACE makes replanning token/latency-budget aware and E-RECAP prunes context; reports 62-92% fewer replanning tokens and large reductions in SLO violations across Habitat, RoboFactory and AirSim.",
-    "published_at": "2026-08-02T18:17:35Z",
-    "updated_at": "2026-08-02T18:17:35Z",
-    "is_latest_30d": true,
-    "tracking_tier": "P0 · Strong",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving",
       "Sparsity / Pruning",
@@ -21597,6 +21728,27 @@
     ]
   },
   {
+    "title": "HBQ: Hierarchical Scaling Block Quantization with Hardware-Efficiency-Aware Design for Accurate LLM Inference",
+    "venue": "MICRO 2026",
+    "topic": "quantization / hardware accelerator / KV cache",
+    "arxiv": "2609.00450",
+    "doi": "",
+    "official_id": "arXiv:2609.00450",
+    "paper_url": "https://arxiv.org/abs/2609.00450",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "MICRO 2026 hardware-aware hierarchical block quantization across weights, activations, KV cache and partial sums; 28nm ASIC evaluation reports 2.3x/4.6x area/energy efficiency over WoQ at matched accuracy and 1.5-3.0x speedup over prior BQ.",
+    "published_at": "2026-08-31T22:39:52Z",
+    "updated_at": "2026-08-31T22:39:52Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "KV Cache / Long Context",
+      "Quantization"
+    ]
+  },
+  {
     "title": "AgenticCache: Cache-Driven Asynchronous Planning for Embodied AI Agents",
     "venue": "MLSys 2026",
     "topic": "Physical AI / embodied-agent planning cache / latency reduction",
@@ -22515,6 +22667,28 @@
     ]
   },
   {
+    "title": "ParallelKittens: Systematic and Practical Simplification of Multi-GPU AI Kernels",
+    "venue": "MLSys 2026",
+    "topic": "GPU kernel/DSL/compilers / distributed training-inference",
+    "arxiv": "2511.13940",
+    "doi": "",
+    "official_id": "arXiv:2511.13940",
+    "paper_url": "https://arxiv.org/abs/2511.13940",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Minimal CUDA framework for overlapped multi-GPU AI kernels extending ThunderKittens; MLSys 2026 reports up to 2.33x speedup for data/tensor parallel, 4.08x for sequence parallel, and 1.22x for expert parallel workloads.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "MoE Systems / Accelerators",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "PRISM: Parametrically Refactor Inference for Speculative Decoding Draft Models",
     "venue": "MLSys 2026",
     "topic": "speculative decoding / draft-model architecture / inference",
@@ -23036,6 +23210,28 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Quantization",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "mzCache: On-Device LLM Memory Management under Multitasking",
+    "venue": "MobiCom 2026",
+    "topic": "edge/cloud/heterogeneous AI / KV cache / on-device LLM serving",
+    "arxiv": "2609.01338",
+    "doi": "",
+    "official_id": "arXiv:2609.01338",
+    "paper_url": "https://arxiv.org/abs/2609.01338",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "ACM MobiCom 2026 on-device LLM memory manager for unified-memory mobile SoCs under multitasking. Fine-grained shared buffers, hybrid swap and backward-out eviction enable concurrent restoration; Android/llama.cpp prototype reports 2.1-5.5x TTFT reduction.",
+    "published_at": "2026-09-01T14:49:20Z",
+    "updated_at": "2026-09-01T14:49:20Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
       "Edge / Cloud / Heterogeneous AI"
     ]
   },

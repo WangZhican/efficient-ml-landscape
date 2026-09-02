@@ -1896,6 +1896,27 @@
     ]
   },
   {
+    "title": "Compiler-Grounded Hierarchical Diagnosis for LLM-Based Triton Kernel Optimization",
+    "venue": "arXiv 2026",
+    "topic": "GPU kernel/DSL/compilers / NPU kernel optimization",
+    "arxiv": "2607.23089",
+    "doi": "",
+    "official_id": "arXiv:2607.23089",
+    "paper_url": "https://arxiv.org/abs/2607.23089",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Compiler-grounded hierarchical Triton-kernel diagnosis on Ascend NPU; 37-kernel benchmark reports 4.35x geometric-mean and 2.73x median speedup from initial to optimized kernels.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Learning Agent Execution for KV-Cache Management in Agentic Serving",
     "venue": "arXiv 2026",
     "topic": "LLM serving / agent systems / KV cache / cache eviction / prefetching",
@@ -1960,6 +1981,49 @@
       "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Optimizing CUDA like a Human: Micro-Profiling Tools as Expert Surrogates for LLM-Based GPU Kernel Optimization",
+    "venue": "arXiv 2026",
+    "topic": "GPU kernel/DSL/compilers / agentic kernel optimization",
+    "arxiv": "2606.26453",
+    "doi": "",
+    "official_id": "arXiv:2606.26453",
+    "paper_url": "https://arxiv.org/abs/2606.26453",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "KernelPro combines profiler-grounded multi-agent search with CuTe/CUDA generation; KernelBench reports 2.42x/4.69x/5.30x geometric-mean speedups on Levels 1/2/3 and measurable energy reduction.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "Ragged Paged Attention: A High-Performance and Flexible LLM Inference Kernel for TPU",
+    "venue": "arXiv 2026",
+    "topic": "efficient attention / TPU inference / JAX-Pallas",
+    "arxiv": "2604.15464",
+    "doi": "",
+    "official_id": "arXiv:2604.15464",
+    "paper_url": "https://arxiv.org/abs/2604.15464",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Pallas/Mosaic ragged paged-attention kernel for dynamic LLM serving on TPU with fine-grained tiling, fused KV update+attention software pipeline and workload-specialized compilation.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {
@@ -7204,6 +7268,72 @@
     "directions": [
       "LLM Serving",
       "Quantization"
+    ]
+  },
+  {
+    "title": "HorizonServe: Coordinating Request Scheduling with GPU Sharing for Omni-Model Serving",
+    "venue": "Fresh / preprint",
+    "topic": "multimodal/omni-model serving / GPU scheduling",
+    "arxiv": "2608.01785",
+    "doi": "",
+    "official_id": "2608.01785",
+    "paper_url": "https://arxiv.org/abs/2608.01785",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Single-GPU omni-model serving system coordinating temporal request scheduling and spatial SM sharing under heterogeneous SLOs; reports up to 4.9x/7.0x SLO-attainment gains and 38.4–63.7% first-response latency reduction.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Multimodal / MLLM Serving",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "LongCat Sparse Attention: Taming the Lightning via Streaming-aware Hierarchical Cross-Layer Indexing",
+    "venue": "Fresh / preprint",
+    "topic": "efficient attention / long-context / hardware-system co-design",
+    "arxiv": "2608.01662",
+    "doi": "",
+    "official_id": "arXiv:2608.01662",
+    "paper_url": "https://arxiv.org/abs/2608.01662",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Direct hardware-algorithm co-designed sparse-attention system. Streaming-aware contiguous layouts, cross-layer index reuse, and hierarchical scoring target index computation plus HBM access inefficiency and support native training to 1M context.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Efficient Attention"
+    ]
+  },
+  {
+    "title": "World Action Models in Real Time: An Empirical Study of Smooth Execution via Asynchronous Deployment",
+    "venue": "Fresh / preprint",
+    "topic": "VLA/WAM/Physical AI serving / asynchronous runtime",
+    "arxiv": "2608.01880",
+    "doi": "",
+    "official_id": "arXiv:2608.01880",
+    "paper_url": "https://arxiv.org/abs/2608.01880",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Protected Physical-AI runtime/deployment study directly addressing iterative WAM inference latency by overlapping inference with action execution; evaluates six asynchronous strategies on a 10 Hz bimanual robot and identifies temporal alignment as the key deployment constraint.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "VLA / WAM / Physical AI"
     ]
   },
   {
@@ -17880,6 +18010,29 @@
     ]
   },
   {
+    "title": "When Replanning Becomes the Bottleneck: Budgeted Replanning for Embodied Agents",
+    "venue": "ICML 2026",
+    "topic": "Physical AI / embodied-agent serving / replanning SLO / context pruning",
+    "arxiv": "2608.01428",
+    "doi": "",
+    "official_id": "2608.01428",
+    "paper_url": "https://arxiv.org/abs/2608.01428",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 protected Physical-AI work. BRACE makes replanning token/latency-budget aware and E-RECAP prunes context; reports 62-92% fewer replanning tokens and large reductions in SLO violations across Habitat, RoboFactory and AirSim.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "When RL Meets Adaptive Speculative Training: A Unified Training-Serving System",
     "venue": "ICML 2026",
     "topic": "speculative decoding / online speculator training / RL systems / SGLang serving",
@@ -21603,6 +21756,28 @@
     "directions": [
       "GPU Kernel / DSL / Compiler",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "ParallelKittens: Systematic and Practical Simplification of Multi-GPU AI Kernels",
+    "venue": "MLSys 2026",
+    "topic": "GPU kernel/DSL/compilers / distributed training-inference",
+    "arxiv": "2511.13940",
+    "doi": "",
+    "official_id": "arXiv:2511.13940",
+    "paper_url": "https://arxiv.org/abs/2511.13940",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Minimal CUDA framework for overlapped multi-GPU AI kernels extending ThunderKittens; MLSys 2026 reports up to 2.33x speedup for data/tensor parallel, 4.08x for sequence parallel, and 1.22x for expert parallel workloads.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "MoE Systems / Accelerators",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
     ]
   },
   {
