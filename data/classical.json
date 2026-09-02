@@ -2254,6 +2254,27 @@
     ]
   },
   {
+    "title": "Revati: Transparent GPU-Free Time-Warp Emulation for LLM Serving",
+    "venue": "arXiv 2026",
+    "topic": "LLM serving; systems emulation; performance modeling; vLLM; SGLang; infrastructure optimization",
+    "arxiv": "2601.00397",
+    "doi": "",
+    "official_id": "arXiv:2601.00397",
+    "paper_url": "https://arxiv.org/abs/2601.00397",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Georgia Tech SAIL/Alexey Tumanov canonical infrastructure gap: transparent CUDA-API time-warp emulation executes real vLLM/SGLang serving control logic without GPUs, achieving <5% prediction error while running 5-17x faster than real GPU execution and enabling low-cost configuration-space exploration.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "RTP-LLM: High-Performance Alibaba LLM Inference Engine",
     "venue": "arXiv 2026",
     "topic": "LLM serving / KV cache / speculative decoding / quantization / multimodal serving",
@@ -21597,6 +21618,29 @@
     ]
   },
   {
+    "title": "fabric-lib: RDMA Point-to-Point Communication for LLM Systems",
+    "venue": "MLSys 2026",
+    "topic": "distributed inference; LLM serving; RDMA; KV-cache transfer; MoE communication; RL systems",
+    "arxiv": "2510.27656",
+    "doi": "",
+    "official_id": "arXiv:2510.27656",
+    "paper_url": "https://arxiv.org/abs/2510.27656",
+    "code_url": "https://github.com/perplexityai/pplx-garden",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Perplexity AI canonical gap: portable point-to-point RDMA layer across ConnectX and AWS EFA reaches 400 Gbps and is evaluated for disaggregated KV transfer, trillion-parameter RL weight updates, and MoE dispatch/combine; official MLSys proceedings links the Perplexity pplx-garden implementation.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "MoE Systems / Accelerators",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "FlashInfer-Bench: Building the Virtuous Cycle for AI-driven LLM Systems",
     "venue": "MLSys 2026",
     "topic": "GPU kernel / LLM systems / agentic optimization",
@@ -22471,6 +22515,29 @@
       "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "SHIP: SRAM-Based Huge Inference Pipelines for Fast LLM Serving",
+    "venue": "MLSys 2026 Industry Track",
+    "topic": "LLM serving; inference accelerator; SRAM-based serving; distributed inference; pipeline parallelism",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "MLSys2026:9c20f16b05f5e5e70fa07e2a4364b80e",
+    "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/9c20f16b05f5e5e70fa07e2a4364b80e-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Groq canonical gap: MLSys 2026 industry paper documents the first large-scale SRAM-based LLM inference deployment, synchronous low-diameter interconnect scaling to thousands of LPUs, memory-capacity optimizations, paged attention/prefix caching/speculative decoding, and large pipeline-parallel serving under dynamic traffic.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "Efficient Attention",
+      "Distributed Training / Inference"
     ]
   },
   {
@@ -24963,6 +25030,26 @@
       "LLM Serving",
       "Distributed Training / Inference",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "EcoServe: Enabling Cost-effective LLM Serving with Proactive Intra- and Inter-Instance Orchestration",
+    "venue": "OSDI 2026 / arXiv",
+    "topic": "LLM serving; prefill-decode disaggregation; scheduling; commodity interconnect; cost-efficient inference",
+    "arxiv": "2504.18154",
+    "doi": "",
+    "official_id": "arXiv:2504.18154",
+    "paper_url": "https://arxiv.org/abs/2504.18154",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "SYSU Yutong Lu serving-lineage canonical gap: partially disaggregated serving combines temporal prefill/decode separation, rolling activation, adaptive routing and mitosis scaling; on 32 L20 GPUs over commodity Ethernet it reports 82.49%-126.96% average goodput improvements over representative colocated/disaggregated baselines.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving"
     ]
   },
   {

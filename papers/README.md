@@ -1,10 +1,10 @@
 # 🧭 Research Map
 
-> **1422 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
+> **1426 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
 
 <div align="center">
 
-[**🆕 Latest 30 Days · 348 tracked**](LATEST_30D.md) · [**🏛️ Classical · 1325**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
+[**🆕 Latest 30 Days · 348 tracked**](LATEST_30D.md) · [**🏛️ Classical · 1329**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
 
 </div>
 
@@ -12,15 +12,15 @@
 
 | # | Research direction | Canonical | Latest 30d tracked |
 |---:|---|---:|---:|
-| 01 | [**LLM Serving**](01-llm-serving.md) | **587** | **238** |
-| 02 | [**Speculative Decoding**](02-speculative-decoding.md) | **181** | **31** |
-| 03 | [**KV Cache / Long Context**](03-kv-cache-long-context.md) | **359** | **69** |
+| 01 | [**LLM Serving**](01-llm-serving.md) | **591** | **238** |
+| 02 | [**Speculative Decoding**](02-speculative-decoding.md) | **182** | **31** |
+| 03 | [**KV Cache / Long Context**](03-kv-cache-long-context.md) | **360** | **69** |
 | 04 | [**Quantization**](04-quantization.md) | **194** | **56** |
 | 05 | [**Sparsity / Pruning**](05-sparsity-pruning.md) | **226** | **65** |
-| 06 | [**Efficient Attention**](06-efficient-attention.md) | **208** | **54** |
-| 07 | [**MoE Systems / Accelerators**](07-moe-systems.md) | **111** | **35** |
-| 08 | [**GPU Kernel / DSL / Compiler**](08-gpu-kernel-compiler.md) | **348** | **76** |
-| 09 | [**Distributed Training / Inference**](09-distributed-training-inference.md) | **275** | **39** |
+| 06 | [**Efficient Attention**](06-efficient-attention.md) | **209** | **54** |
+| 07 | [**MoE Systems / Accelerators**](07-moe-systems.md) | **112** | **35** |
+| 08 | [**GPU Kernel / DSL / Compiler**](08-gpu-kernel-compiler.md) | **349** | **76** |
+| 09 | [**Distributed Training / Inference**](09-distributed-training-inference.md) | **277** | **39** |
 | 10 | [**Multimodal / MLLM Serving**](10-multimodal-mllm-serving.md) | **179** | **60** |
 | 11 | [**Video / Image Generation**](11-video-image-generation.md) | **67** | **23** |
 | 12 | [**Diffusion / Flow Acceleration**](12-diffusion-flow.md) | **178** | **35** |
