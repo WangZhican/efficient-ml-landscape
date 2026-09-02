@@ -1,6 +1,6 @@
 # 02 · Speculative Decoding
 
-> **174 canonical papers** mapped here, plus a broader **30-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **176 canonical papers** mapped here, plus a broader **30-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -39,7 +39,7 @@
 | **P2 · Relevant** | **DraftExpert: Expansion-Aware Self-Speculative Decoding for End-Device MoE Inference** | Fresh / preprint | llm_serving / spec / moe / edge | [Link](https://arxiv.org/abs/2607.24434) | — |
 | **P2 · Relevant** | **SpecBox: Speculative Sandbox Scheduling for Efficient LLM Agent Serving** | Fresh / preprint | llm_serving / agent | [Link](https://arxiv.org/abs/2607.23933) | — |
 
-## 🏛️ Classical / Historical · 165 canonical
+## 🏛️ Classical / Historical · 167 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -117,6 +117,8 @@
 | **Canonical** | **Inference-Cost-Aware Dynamic Tree Construction for Efficient Inference in Large Language Models** | ICLR 2026 | speculative decoding / hardware-aware tree construction | [Link](https://openreview.net/pdf?id=iaWyRYthFf) | — |
 | **Canonical** | **Multi-Head Low-Rank Attention** | ICLR 2026 | KV-efficient attention / tensor-parallel decoding | [Link](https://openreview.net/pdf?id=vBJKZ19XGY) | — |
 | **Canonical** | **Reasoning Language Model Inference Serving Unveiled: An Empirical Study** | ICLR 2026 | LLM serving / reasoning inference / quantization / speculative decoding | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/a741b3864dbe6f0f588f2bb2a97e5e8e-Abstract-Conference.html) | — |
+| **Canonical** | **Speculative Speculative Decoding** | ICLR 2026 | speculative decoding / inference pipeline parallelism | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/1b96f01343ff10150e6719eb163e1536-Abstract-Conference.html) | — |
+| **Canonical** | **Training-Free Loosely Speculative Decoding: Accepting Semantically Correct Drafts Beyond Exact Match** | ICLR 2026 | speculative decoding / LLM inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/acb94e709f02895fd98b5867f0b184f3-Abstract-Conference.html) | — |
 | **Canonical** | **Accelerating LLM Inference with Lossless Speculative Decoding Algorithms for Heterogeneous Vocabularies** | ICML 2025 | speculative decoding | [Link](https://proceedings.mlr.press/v267/timor25a.html) | — |
 | **Canonical** | **BanditSpec: Adaptive Speculative Decoding via Bandit Algorithms** | ICML 2025 | speculative decoding / adaptive runtime | [Link](https://proceedings.mlr.press/v267/hou25h.html) | [Repo](https://github.com/sail-sg/BanditSpec) |
 | **Canonical** | **Gumiho: A Hybrid Architecture to Prioritize Early Tokens in Speculative Decoding** | ICML 2025 | speculative decoding / draft architecture | [Link](https://proceedings.mlr.press/v267/li25dg.html) | [Repo](https://github.com/AMD-AGI/Gumiho) |

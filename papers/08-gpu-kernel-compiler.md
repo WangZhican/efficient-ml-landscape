@@ -1,6 +1,6 @@
 # 08 · GPU Kernel / DSL / Compiler
 
-> **326 canonical papers** mapped here, plus a broader **75-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **327 canonical papers** mapped here, plus a broader **75-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -84,7 +84,7 @@
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 | **P1 · Watch** | **Here is a GIFT: Enforcing User Data Isolation in LLM Serving via GPU Information Flow Tracking** | Fresh / preprint | LLM serving / GPU runtime / confidential computing | [Link](https://arxiv.org/abs/2608.25431) | — |
 
-## 🏛️ Classical / Historical · 295 canonical
+## 🏛️ Classical / Historical · 296 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -151,6 +151,7 @@
 | **Canonical** | **REDUCIO! Generating 1K Video within 16 Seconds using Extremely Compressed Motion Latents** | ICCV 2025 | video generation acceleration / latent compression / diffusion efficiency | [Link](https://arxiv.org/abs/2411.13552) | [Repo](https://github.com/microsoft/Reducio-VAE) |
 | **Canonical** | **Saliency-Aware Quantized Imitation Learning for Efficient Robotic Control** | ICCV 2025 | VLA/WAM/Physical AI serving / quantization / edge robotic control | [Link](https://arxiv.org/abs/2505.15304) | — |
 | **Canonical** | **FreeKV: Boosting KV Cache Retrieval for Efficient LLM Inference** | ICLR 2026 | KV cache retrieval / CPU-GPU hybrid memory / long-context inference | [Link](https://arxiv.org/abs/2505.13109) | — |
+| **Canonical** | **IceCache: Memory-Efficient KV-cache Management for Long-Sequence LLMs** | ICLR 2026 | KV cache / CPU-GPU offload / long-context inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/94de1ef32f1b564b885720ab89fd95af-Abstract-Conference.html) | — |
 | **Canonical** | **Inference-Cost-Aware Dynamic Tree Construction for Efficient Inference in Large Language Models** | ICLR 2026 | speculative decoding / hardware-aware tree construction | [Link](https://openreview.net/pdf?id=iaWyRYthFf) | — |
 | **Canonical** | **Long-Context Attention Benchmark: From Kernel Efficiency to Distributed Context Parallelism** | ICLR 2026 | efficient attention / distributed context parallelism / benchmark | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/7df69dbf39705c7a39b40f2d70e806c1-Abstract-Conference.html) | — |
 | **Canonical** | **LouisKV: Efficient KV Cache Retrieval for Long Input-Output Sequences** | ICLR 2026 | KV cache / long-context inference / retrieval / Triton-CUDA kernels | [Link](https://arxiv.org/abs/2510.11292) | — |

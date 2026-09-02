@@ -1,6 +1,6 @@
 # 05 · Sparsity / Pruning
 
-> **215 canonical papers** mapped here, plus a broader **67-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **216 canonical papers** mapped here, plus a broader **67-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -76,7 +76,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 201 canonical
+## 🏛️ Classical / Historical · 202 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -154,6 +154,7 @@
 | **Canonical** | **SparseD: Sparse Attention for Diffusion Language Models** | ICLR 2026 | diffusion language model / sparse attention / inference acceleration | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/a1598ba0aa7bd7bdf18e0ad04d993edc-Abstract-Conference.html) | [Repo](https://github.com/INV-WZQ/SparseD) |
 | **Canonical** | **Sparsity Forcing: Reinforcing Token Sparsity of MLLMs** | ICLR 2026 | multimodal/MLLM efficiency / token sparsity / RL post-training | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/fc034d186280f55370b6aca7a3285a65-Abstract-Conference.html) | — |
 | **Canonical** | **Tactic: Adaptive Sparse Attention with Clustering and Distribution Fitting for Long-Context LLMs** | ICLR 2026 | sparse attention / long-context inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/33f94d79acf71051d6a27f4d8889e20e-Abstract-Conference.html) | — |
+| **Canonical** | **vAttention: Verified Sparse Attention via Sampling** | ICLR 2026 | efficient attention / sparse attention / long-context decoding | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/55cb562b1f5af71f6707f3ff3c7941e6-Abstract-Conference.html) | — |
 | **Canonical** | **WINA: Weight Informed Neuron Activation for Accelerating Large Language Model Inference** | ICLR 2026 | training-free sparse activation / LLM inference | [Link](https://openreview.net/pdf?id=l7Vb3yxmuz) | — |
 | **Canonical** | **CoreMatching: A Co-adaptive Sparse Inference Framework with Token and Neuron Pruning for Comprehensive Acceleration of Vision-Language Models** | ICML 2025 | VLM sparsity / pruning | [Link](https://proceedings.mlr.press/v267/wang25eb.html) | — |
 | **Canonical** | **Dialogue Without Limits: Constant-Sized KV Caches for Extended Response in LLMs** | ICML 2025 | KV cache / long-context inference | [Link](https://proceedings.mlr.press/v267/ghadia25a.html) | [Repo](https://github.com/ghadiaravi13/MorphKV) |

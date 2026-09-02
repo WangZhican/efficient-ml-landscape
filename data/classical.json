@@ -7956,6 +7956,27 @@
     ]
   },
   {
+    "title": "Efficient Quantization of Mixture-of-Experts with Theoretical Generalization Guarantees",
+    "venue": "ICLR 2026",
+    "topic": "quantization / MoE inference",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR26_7b97d09f0ab0f52eab856b0ed1122456",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/7b97d09f0ab0f52eab856b0ed1122456-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICLR 2026 direct MoE inference-compression work using expert-wise mixed precision guided by router-norm change and intra-neuron variance, reducing inference cost with negligible allocation overhead.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "MoE Systems / Accelerators"
+    ]
+  },
+  {
     "title": "Fast-dLLM v2: Efficient Block-Diffusion LLM",
     "venue": "ICLR 2026",
     "topic": "diffusion LLM inference / block diffusion / hierarchical caching",
@@ -8061,6 +8082,30 @@
       "LLM Serving",
       "KV Cache / Long Context",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "IceCache: Memory-Efficient KV-cache Management for Long-Sequence LLMs",
+    "venue": "ICLR 2026",
+    "topic": "KV cache / CPU-GPU offload / long-context inference",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR26_94de1ef32f1b564b885720ab89fd95af",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/94de1ef32f1b564b885720ab89fd95af-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICLR 2026 direct long-context KV-management work integrating semantic clustering with PagedAttention for CPU-GPU offload; maintains 99% full-cache accuracy with a 256-token budget and competitive latency.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -8265,6 +8310,26 @@
     ]
   },
   {
+    "title": "ReST-KV: Robust KV Cache Eviction with Layer-wise Output Reconstruction and Spatial-Temporal Smoothing",
+    "venue": "ICLR 2026",
+    "topic": "KV cache / long-context inference",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR26_8be9c134bb193d8bd3827d4df8488228",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/8be9c134bb193d8bd3827d4df8488228-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICLR 2026 direct KV-cache compression work; layer-wise reconstruction plus spatial-temporal smoothing improves long-context quality and reports 10.61x decoding-latency reduction at 128K context.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context"
+    ]
+  },
+  {
     "title": "Retrospective Sparse Attention for Efficient Long-Context Generation",
     "venue": "ICLR 2026",
     "topic": "KV cache compression / long-generation inference",
@@ -8400,6 +8465,27 @@
     ]
   },
   {
+    "title": "Speculative Speculative Decoding",
+    "venue": "ICLR 2026",
+    "topic": "speculative decoding / inference pipeline parallelism",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR26_1b96f01343ff10150e6719eb163e1536",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/1b96f01343ff10150e6719eb163e1536-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICLR 2026 direct speculative-decoding systems/algorithm result. Saguaro overlaps speculation with verification and reports up to 2x over optimized speculative decoding and 5x over autoregressive decoding.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Speculative Decoding",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "Tactic: Adaptive Sparse Attention with Clustering and Distribution Fitting for Long-Context LLMs",
     "venue": "ICLR 2026",
     "topic": "sparse attention / long-context inference",
@@ -8449,6 +8535,26 @@
     ]
   },
   {
+    "title": "Training-Free Loosely Speculative Decoding: Accepting Semantically Correct Drafts Beyond Exact Match",
+    "venue": "ICLR 2026",
+    "topic": "speculative decoding / LLM inference",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR26_acb94e709f02895fd98b5867f0b184f3",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/acb94e709f02895fd98b5867f0b184f3-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICLR 2026 direct speculative-decoding acceleration work; training-free relaxed verification preserves >=99% target accuracy and reports 2.81x/5.07x speedups on Llama-3.1-70B/405B.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Speculative Decoding"
+    ]
+  },
+  {
     "title": "TurboQuant: Online Vector Quantization with Near-optimal Distortion Rate",
     "venue": "ICLR 2026",
     "topic": "online vector quantization / KV cache compression",
@@ -8467,6 +8573,28 @@
     "directions": [
       "KV Cache / Long Context",
       "Quantization"
+    ]
+  },
+  {
+    "title": "vAttention: Verified Sparse Attention via Sampling",
+    "venue": "ICLR 2026",
+    "topic": "efficient attention / sparse attention / long-context decoding",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICLR26_55cb562b1f5af71f6707f3ff3c7941e6",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/55cb562b1f5af71f6707f3ff3c7941e6-Abstract-Conference.html",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICLR 2026 direct efficient-attention result: verified sparse attention with user-controlled approximation guarantees; reports full-attention quality at 10x–20x sparsity and fast long-generation decoding.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Efficient Attention"
     ]
   },
   {
