@@ -1827,6 +1827,29 @@
     ]
   },
   {
+    "title": "Connex: Endpoint Mobility Primitives for Dynamic LLM Serving",
+    "venue": "ACM SIGCOMM 2026",
+    "topic": "LLM serving; distributed inference; GPU communication; elastic serving; worker migration; endpoint mobility",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "DOI:10.1145/3789240.3829200",
+    "paper_url": "https://doi.org/10.1145/3789240.3829200",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "University of Macau/SIAT serving-systems canonical gap: mobility-first GPU communication layer for elastic LLM inference adds epoch routing, ordered handover and credit backpressure; SIGCOMM 2026 evaluation reports up to 85% lower P99 transition spikes, sub-200 ms cutover and <5% steady-state overhead. Author-official primary PDF verified.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "Coordinated Scheduling for MoE LLM Serving",
     "venue": "ACM SIGOPS Annual Technical Conference (ATC) 2026 / arXiv",
     "topic": "MoE systems / LLM serving / coordinated scheduling / expert placement / KV-cache-aware routing",
@@ -2204,6 +2227,27 @@
     ]
   },
   {
+    "title": "Heterogeneous Memory Design Exploration for AI Accelerators with a Gain Cell Memory Compiler",
+    "venue": "arXiv 2026",
+    "topic": "edge/cloud/heterogeneous AI systems; AI accelerator memory; SRAM/GCRAM; compiler; hardware design-space exploration",
+    "arxiv": "2602.21278",
+    "doi": "",
+    "official_id": "arXiv:2602.21278",
+    "paper_url": "https://arxiv.org/abs/2602.21278",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Stanford Thierry Tambe hardware-memory canonical gap: OpenGCRAM compiler jointly explores SRAM and gain-cell RAM macro designs, enabling heterogeneous on-chip memory choices for AI accelerators under area, delay and power objectives.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "HyQuant: Hybrid-Precision Quantization for LLM Attention",
     "venue": "arXiv 2026",
     "topic": "quantization / KV cache / efficient attention",
@@ -2428,6 +2472,28 @@
     ]
   },
   {
+    "title": "Orla: A Library for Serving LLM-Based Multi-Agent Systems",
+    "venue": "arXiv 2026",
+    "topic": "efficient reasoning/agent systems; LLM serving; multi-agent runtime; workflow scheduling; KV cache management",
+    "arxiv": "2603.13605",
+    "doi": "",
+    "official_id": "arXiv:2603.13605",
+    "paper_url": "https://arxiv.org/abs/2603.13605",
+    "code_url": "https://orlaserver.github.io/",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Harvard Minlan Yu agent-serving canonical gap: serving layer above LLM engines separates workflow policy from request execution, with stage mapping, workflow orchestration and cross-workflow inference-state/KV-cache management; project page is author/lab official and links paper/code.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "PACE: A Unified Condense-and-Extract Paradigm for Fast VLM Inference",
     "venue": "arXiv 2026",
     "topic": "multimodal/MLLM serving / visual token efficiency",
@@ -2446,6 +2512,28 @@
     "directions": [
       "LLM Serving",
       "Multimodal / MLLM Serving"
+    ]
+  },
+  {
+    "title": "PALS: Power-Aware LLM Serving for Mixture-of-Experts Models",
+    "venue": "arXiv 2026",
+    "topic": "LLM serving; MoE systems; energy-efficient serving; power-aware runtime; QoS",
+    "arxiv": "2605.21427",
+    "doi": "",
+    "official_id": "arXiv:2605.21427",
+    "paper_url": "https://arxiv.org/abs/2605.21427",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Harvard Minlan Yu infrastructure canonical gap: vLLM-based runtime jointly controls GPU power caps and batch size using offline power-performance models plus online feedback; reports up to 26.3% better energy efficiency and 4x-7x fewer QoS violations under power constraints.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "MoE Systems / Accelerators",
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {
@@ -2672,6 +2760,30 @@
       "KV Cache / Long Context",
       "Quantization",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "StreamFusion: Scalable Sequence Parallelism for Distributed Inference of Diffusion Transformers on GPUs",
+    "venue": "arXiv 2026",
+    "topic": "video/image generation acceleration; diffusion/flow acceleration; distributed inference; sequence parallelism; GPU communication",
+    "arxiv": "2601.20273",
+    "doi": "",
+    "official_id": "arXiv:2601.20273",
+    "paper_url": "https://arxiv.org/abs/2601.20273",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Toronto EcoSystem canonical gap: topology-aware sequence parallelism for distributed DiT inference combines inter/intra-machine placement, Torus Attention communication-compute overlap, and one-sided communication; reports 1.35x average and up to 1.77x speedup over prior sequence-parallel inference.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference",
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
@@ -19420,6 +19532,28 @@
       "Sparsity / Pruning",
       "Multimodal / MLLM Serving",
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Onyx: A 12-nm Programmable Accelerator for Dense and Sparse Applications",
+    "venue": "IEEE JSSC 2026",
+    "topic": "edge/cloud/heterogeneous AI systems; AI accelerator; sparse/dense tensor algebra; CGRA; compiler-hardware co-design",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "DOI:10.1109/JSSC.2025.3604724",
+    "paper_url": "https://doi.org/10.1109/JSSC.2025.3604724",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Stanford Raina/Kjolstad accelerator canonical gap: fabricated 12-nm programmable CGRA supports dense and sparse tensor algebra with compressed-stream memory primitives and compute skipping; reports peak 756 INT16 GOPS/W and large EDP gains over CPU sparse libraries and prior CGRAs. Stanford Compilers Lab lists the JSSC 2026 publication.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
