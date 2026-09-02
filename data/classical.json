@@ -21663,6 +21663,28 @@
     ]
   },
   {
+    "title": "R-KV: Redundancy-aware KV Cache Compression for Reasoning Models",
+    "venue": "NeurIPS 2025",
+    "topic": "KV cache/long-context / efficient reasoning / decoding-time compression",
+    "arxiv": "2505.24133",
+    "doi": "",
+    "official_id": "doi:10.52202/085713-2038",
+    "paper_url": "https://arxiv.org/abs/2505.24133",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "NeurIPS 2025 reasoning-specific decoding-time KV compression. R-KV explicitly models redundancy in long chain-of-thought traces; official/author sources report near-full reasoning quality with about 10% KV budget and large memory/throughput gains, making it a direct bridge between KV-cache systems and efficient reasoning.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "Reasoning Path Compression: Compressing Generation Trajectories for Efficient LLM Reasoning",
     "venue": "NeurIPS 2025",
     "topic": "efficient reasoning / KV cache compression",
