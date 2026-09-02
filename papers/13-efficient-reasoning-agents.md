@@ -1,6 +1,6 @@
 # 13 · Efficient Reasoning / Agents
 
-> **231 canonical papers** mapped here, plus a broader **56-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **232 canonical papers** mapped here, plus a broader **56-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -65,7 +65,7 @@
 | **P2 · Relevant** | **SpecBox: Speculative Sandbox Scheduling for Efficient LLM Agent Serving** | Fresh / preprint | llm_serving / agent | [Link](https://arxiv.org/abs/2607.23933) | — |
 | **P2 · Relevant** | **Agentic CPU-GPU Scheduling for Heterogeneous AI Workloads** | Fresh / preprint | llm_serving / gen / agent / edge | [Link](https://arxiv.org/abs/2607.22242) | — |
 
-## 🏛️ Classical / Historical · 214 canonical
+## 🏛️ Classical / Historical · 215 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -87,6 +87,7 @@
 | **Canonical** | **Focusing on What Matters: Object-Agent-centric Tokenization for Vision Language Action models** | CoRL 2025 | Physical AI / VLA visual-token compression / efficient training | [Link](https://proceedings.mlr.press/v305/bendikas25a.html) | — |
 | **Canonical** | **RoboMonkey: Scaling Test-Time Sampling and Verification for Vision-Language-Action Models** | CoRL 2025 | Physical AI / VLA inference-time scaling / batched serving / verification | [Link](https://arxiv.org/abs/2506.17811) | [Repo](https://github.com/robomonkey-vla/RoboMonkey) |
 | **Canonical** | **Training Strategies for Efficient Embodied Reasoning** | CoRL 2025 | Physical AI / efficient embodied reasoning / VLA inference | [Link](https://proceedings.mlr.press/v305/chen25a.html) | — |
+| **Canonical** | **M*: A Modular, Extensible, Serving System for Multimodal Models** | CoRR 2026 | multimodal/MLLM serving / composite-model runtime / VLA-world-model serving / graph-based distributed runtime | [Link](https://arxiv.org/abs/2606.12688) | [Repo](https://github.com/mstar-project/mstar) |
 | **Canonical** | **MARS: Efficient, Adaptive Co-Scheduling for Heterogeneous Agentic Systems** | CoRR 2026 | efficient reasoning/agent systems / agent serving / heterogeneous GPU-CPU co-scheduling / KV cache | [Link](https://arxiv.org/abs/2604.26963) | [Repo](https://github.com/Afterglow231/MARS_preview) |
 | **Canonical** | **Pythia: Toward Predictability-Driven Agent-Native LLM Serving** | CoRR 2026 | LLM serving / efficient reasoning/agent systems / multi-agent serving / prefix cache / scaling | [Link](https://arxiv.org/abs/2604.25899) | — |
 | **Canonical** | **TClone: Low-Latency Forking of Live GUI Environments for Computer-Use Agents** | CoRR 2026 | efficient reasoning/agent systems / computer-use agent runtime / workspace forking / systems infrastructure | [Link](https://arxiv.org/abs/2605.17320) | [Repo](https://github.com/WukLab/os4agent) |
