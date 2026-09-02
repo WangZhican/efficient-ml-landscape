@@ -3242,6 +3242,27 @@
     ]
   },
   {
+    "title": "Enabling Spill-Free Compilation via Affine-Based Live Range Reduction Optimization",
+    "venue": "CGO 2026",
+    "topic": "AI accelerator compiler; dataflow accelerator; register pressure; spill-free compilation; heterogeneous AI systems",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "CGO 2026",
+    "paper_url": "https://2026.cgo.org/details/cgo-2026-papers/2/Enabling-Spill-Free-Compilation-via-Affine-Based-Live-Range-Reduction-Optimization",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "IBM Spyre compiler canonical gap: compiler-directed affine-expression propagation enables safe symbolic rematerialization to shorten live ranges and reduce scalar-register pressure without spill support; evaluated across transformer/CNN workloads and achieves spill-free code generation with most workloads using under half the available registers.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Adaptive Computation Pruning for the Forgetting Transformer",
     "venue": "COLM 2025",
     "topic": "efficient attention / sparsity / training efficiency",

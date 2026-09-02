@@ -1,6 +1,6 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **1315 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **1316 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
@@ -1568,6 +1568,12 @@
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **Canonical** | **Coordinated Scheduling for MoE LLM Serving** | ACM SIGOPS Annual Technical Conference (ATC) 2026 / arXiv | MoE systems / LLM serving / coordinated scheduling / expert placement / KV-cache-aware routing | [Link](https://arxiv.org/abs/2606.15177) | — |
+
+## CGO 2026 · 1
+
+| Priority | Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|---|
+| **Canonical** | **Enabling Spill-Free Compilation via Affine-Based Live Range Reduction Optimization** | CGO 2026 | AI accelerator compiler; dataflow accelerator; register pressure; spill-free compilation; heterogeneous AI systems | [Link](https://2026.cgo.org/details/cgo-2026-papers/2/Enabling-Spill-Free-Compilation-via-Affine-Based-Live-Range-Reduction-Optimization) | — |
 
 ## CoRL 2026 Spotlight / RSS 2026 L2P Workshop · 1
 

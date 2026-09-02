@@ -1,6 +1,6 @@
 # 08 · GPU Kernel / DSL / Compiler
 
-> **341 canonical papers** mapped here, plus a broader **76-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **342 canonical papers** mapped here, plus a broader **76-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -85,7 +85,7 @@
 | **P1 · Watch** | **Here is a GIFT: Enforcing User Data Isolation in LLM Serving via GPU Information Flow Tracking** | Fresh / preprint | LLM serving / GPU runtime / confidential computing | [Link](https://arxiv.org/abs/2608.25431) | — |
 | **P1 · Watch** | **DEFT: Joint Task Placement and DVFS for Energy-Efficient Multi-GPU Runtimes** | Fresh / preprint | distributed runtime / multi-GPU / energy efficiency | [Link](https://arxiv.org/abs/2608.02122) | — |
 
-## 🏛️ Classical / Historical · 310 canonical
+## 🏛️ Classical / Historical · 311 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -116,6 +116,7 @@
 | **Canonical** | **SwiftSpec: Ultra-Low Latency LLM Decoding by Scaling Asynchronous Speculative Decoding** | ASPLOS 2026 | speculative decoding / low-latency LLM serving | [Link](https://arxiv.org/abs/2506.11309) | — |
 | **Canonical** | **Tilus: A Tile-Level GPGPU Programming Language for Low-Precision Computation** | ASPLOS 2026 | GPU kernel DSL / low-precision compilation / LLM inference | [Link](https://arxiv.org/abs/2504.12984) | [Repo](https://github.com/NVIDIA/tilus) |
 | **Canonical** | **Towards High-Goodput LLM Serving with Prefill-decode Multiplexing** | ASPLOS 2026 | LLM serving / prefill-decode multiplexing | [Link](https://arxiv.org/abs/2504.14489) | — |
+| **Canonical** | **Enabling Spill-Free Compilation via Affine-Based Live Range Reduction Optimization** | CGO 2026 | AI accelerator compiler; dataflow accelerator; register pressure; spill-free compilation; heterogeneous AI systems | [Link](https://2026.cgo.org/details/cgo-2026-papers/2/Enabling-Spill-Free-Compilation-via-Affine-Based-Live-Range-Reduction-Optimization) | — |
 | **Canonical** | **Hardware-Efficient Attention for Fast Decoding** | COLM 2025 | efficient attention / KV-cache bandwidth / serving | [Link](https://arxiv.org/abs/2505.21487) | — |
 | **Canonical** | **SentenceKV: Efficient LLM Inference via Sentence-Level Semantic KV Caching** | COLM 2025 | KV cache / long-context inference | [Link](https://arxiv.org/abs/2504.00970) | [Repo](https://github.com/zzbright1998/SentenceKV) |
 | **Canonical** | **SlimMoE: Structured Compression of Large MoE Models via Expert Slimming and Distillation** | COLM 2025 | MoE compression / efficient inference | [Link](https://arxiv.org/abs/2506.18349) | — |

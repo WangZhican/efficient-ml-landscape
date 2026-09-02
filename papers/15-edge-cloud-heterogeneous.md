@@ -1,6 +1,6 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **300 canonical papers** mapped here, plus a broader **105-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **301 canonical papers** mapped here, plus a broader **105-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -114,7 +114,7 @@
 | **P2 · Relevant** | **Unified Static-Dynamic Pruning for Efficient LLM Inference** | Fresh / preprint | llm_serving / sparse / kernel / edge | [Link](https://arxiv.org/abs/2607.21985) | — |
 | **P1 · Watch** | **Edge-Native Embodied Intelligence for Action-Aware Wireless Edge Networks** | Fresh / preprint | VLA/WAM/Physical AI serving / edge-cloud / heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.17774) | — |
 
-## 🏛️ Classical / Historical · 278 canonical
+## 🏛️ Classical / Historical · 279 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -144,6 +144,7 @@
 | **Canonical** | **STARC: Selective Token Access with Remapping and Clustering for Efficient LLM Decoding on PIM Systems** | ASPLOS 2026 | sparse attention / PIM / KV cache | [Link](https://doi.org/10.1145/3779212.3790226) | — |
 | **Canonical** | **SuperOffload: Unleashing the Power of Large-Scale LLM Training on Superchips** | ASPLOS 2026 | distributed LLM training / heterogeneous superchip offload | [Link](https://arxiv.org/abs/2509.21271) | [Repo](https://supercomputing-system-ai-lab.github.io/projects/superoffload/) |
 | **Canonical** | **TetriServe: Efficiently Serving Mixed DiT Workloads** | ASPLOS 2026 | diffusion/DiT serving / scheduling | [Link](https://arxiv.org/abs/2510.01565) | — |
+| **Canonical** | **Enabling Spill-Free Compilation via Affine-Based Live Range Reduction Optimization** | CGO 2026 | AI accelerator compiler; dataflow accelerator; register pressure; spill-free compilation; heterogeneous AI systems | [Link](https://2026.cgo.org/details/cgo-2026-papers/2/Enabling-Spill-Free-Compilation-via-Affine-Based-Live-Range-Reduction-Optimization) | — |
 | **Canonical** | **CITER: Collaborative Inference for Efficient Large Language Model Decoding with Token-Level Routing** | COLM 2025 | collaborative inference / token-level routing / efficient decoding | [Link](https://arxiv.org/abs/2502.01976) | [Repo](https://github.com/aiming-lab/CITER) |
 | **Canonical** | **Meta-Learning for Speeding Up Large Model Inference in Decentralized Environments** | COLM 2025 | edge/cloud/heterogeneous AI systems / distributed inference / inference acceleration selection | [Link](https://arxiv.org/abs/2410.21340) | — |
 | **Canonical** | **Mixture of Attention Spans: Optimizing LLM Inference Efficiency with Heterogeneous Sliding-Window Lengths** | COLM 2025 | sparse attention / long-context inference / KV cache compression | [Link](https://arxiv.org/abs/2406.14909) | [Repo](https://github.com/thu-nics/MoA) |
