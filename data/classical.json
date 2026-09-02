@@ -1917,6 +1917,27 @@
     ]
   },
   {
+    "title": "JAXBench: Benchmarking Autonomous TPU Kernel Optimization",
+    "venue": "arXiv 2026",
+    "topic": "GPU kernel / DSL / compiler; TPU/Pallas autonomous kernel optimization",
+    "arxiv": "2607.20466",
+    "doi": "",
+    "official_id": "arXiv:2607.20466",
+    "paper_url": "https://arxiv.org/abs/2607.20466",
+    "code_url": "https://github.com/AI-Hypercomputer/accelerator-agents",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Google/TPU kernel-systems canonical gap: introduces a 50-workload TPU-native benchmark for autonomous Pallas kernel optimization, with production LLM operators and hand-tuned Tokamax references; reports documentation-conditioned agents solving 48/50 workloads at 1.28x geomean and Autocomp at 1.36x over XLA.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "Learning Agent Execution for KV-Cache Management in Agentic Serving",
     "venue": "arXiv 2026",
     "topic": "LLM serving / agent systems / KV cache / cache eviction / prefetching",
@@ -2048,6 +2069,30 @@
       "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration",
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "RTP-LLM: High-Performance Alibaba LLM Inference Engine",
+    "venue": "arXiv 2026",
+    "topic": "LLM serving / KV cache / speculative decoding / quantization / multimodal serving",
+    "arxiv": "2605.29639",
+    "doi": "",
+    "official_id": "arXiv:2605.29639",
+    "paper_url": "https://arxiv.org/abs/2605.29639",
+    "code_url": "https://github.com/alibaba/rtp-llm",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Alibaba production-serving canonical gap: production LLM inference engine serving 100M+ users, integrating file-order model loading, prefill-decode disaggregation, hierarchical KV caching, modular speculative decoding, adaptive KV quantization and multimodal decoupling; reports 4.7-6.3x loading speedup and substantial latency/throughput gains over vLLM/SGLang.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "KV Cache / Long Context",
+      "Quantization",
+      "Multimodal / MLLM Serving"
     ]
   },
   {
