@@ -2007,6 +2007,31 @@
     ]
   },
   {
+    "title": "LPM: Industrial-Scale Generative Video Restoration",
+    "venue": "arXiv 2026",
+    "topic": "video/image generation acceleration; diffusion serving; industrial video restoration; quantization; TensorRT-LLM",
+    "arxiv": "2607.13460",
+    "doi": "",
+    "official_id": "arXiv:2607.13460",
+    "paper_url": "https://arxiv.org/abs/2607.13460",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Kuaishou production video-system canonical gap: training-aware consistency distillation plus FP8 DiT, SageAttention, INT8 tiled VAE, TensorRT-LLM, operator fusion and custom CUDA kernels yield 39.5x end-to-end speedup over the original 25-step pipeline; deployed at industrial scale on content accounting for about 45% of Kuaishou viewing time.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler",
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "Lynx: Progressive Speculative Quantization for accelerating KV Transfer in Long-Context Inference",
     "venue": "arXiv 2026",
     "topic": "LLM serving / disaggregated inference / KV cache transfer / progressive quantization / speculative decoding",
@@ -8448,7 +8473,8 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "Efficient Reasoning / Agents"
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
     ]
   },
   {
@@ -12548,7 +12574,8 @@
     "directions": [
       "Distributed Training / Inference",
       "Multimodal / MLLM Serving",
-      "Efficient Reasoning / Agents"
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
     ]
   },
   {
@@ -17941,7 +17968,8 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Diffusion / Flow Acceleration",
-      "Efficient Reasoning / Agents"
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
     ]
   },
   {
@@ -18401,6 +18429,27 @@
     ]
   },
   {
+    "title": "Gleanmer: A 6 mW SoC for Real-Time 3D Gaussian Occupancy Mapping",
+    "venue": "IEEE VLSI 2026",
+    "topic": "edge/cloud/heterogeneous AI systems; Physical AI; autonomous navigation; 3D Gaussian occupancy mapping accelerator",
+    "arxiv": "2603.29005",
+    "doi": "",
+    "official_id": "arXiv:2603.29005",
+    "paper_url": "https://arxiv.org/abs/2603.29005",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "MIT EEMS Physical-AI hardware gap: fabricated 16nm SoC co-designs direct Gaussian-map computation and data reuse for real-time autonomous-navigation occupancy mapping; reduces construction/query energy by up to 63%/81%, cuts accelerator area 38%, exceeds 88 fps construction and operates under 6 mW.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "AccCtr: Accelerating Training-Free Conditional Control For Diffusion Models",
     "venue": "IJCAI 2025",
     "topic": "diffusion/flow acceleration / image generation acceleration",
@@ -18647,7 +18696,8 @@
     "directions": [
       "Sparsity / Pruning",
       "Multimodal / MLLM Serving",
-      "Efficient Reasoning / Agents"
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
     ]
   },
   {
@@ -18733,7 +18783,8 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "Diffusion / Flow Acceleration"
+      "Diffusion / Flow Acceleration",
+      "VLA / WAM / Physical AI"
     ]
   },
   {
@@ -21343,6 +21394,7 @@
       "LLM Serving",
       "GPU Kernel / DSL / Compiler",
       "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI",
       "Edge / Cloud / Heterogeneous AI"
     ]
   },
@@ -21781,6 +21833,26 @@
     "directions": [
       "Quantization",
       "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "MLCommons Chakra: Advancing Performance Benchmarking and Co-design using Standardized Execution Traces",
+    "venue": "MLSys 2026",
+    "topic": "distributed training/inference; AI infrastructure benchmarking; execution traces; SW-HW co-design",
+    "arxiv": "2605.11333",
+    "doi": "",
+    "official_id": "arXiv:2605.11333",
+    "paper_url": "https://arxiv.org/abs/2605.11333",
+    "code_url": "https://github.com/mlcommons/chakra",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Georgia Tech/MLCommons AI-infrastructure canonical gap: open interoperable execution-trace representation plus collection/analysis/generation tooling for production distributed AI workloads, enabling benchmarking, simulators/emulators/replay and SW-HW co-design; MLSys 2026 and adopted as an active MLCommons project.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Distributed Training / Inference"
     ]
   },
   {
@@ -22394,6 +22466,7 @@
     "directions": [
       "GPU Kernel / DSL / Compiler",
       "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI",
       "Edge / Cloud / Heterogeneous AI"
     ]
   },
@@ -25330,7 +25403,8 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Video / Image Generation",
-      "Diffusion / Flow Acceleration"
+      "Diffusion / Flow Acceleration",
+      "VLA / WAM / Physical AI"
     ]
   },
   {
@@ -25416,7 +25490,7 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "Edge / Cloud / Heterogeneous AI"
+      "VLA / WAM / Physical AI"
     ]
   },
   {
@@ -25458,7 +25532,8 @@
     "tracking_tier": "Canonical",
     "directions": [
       "KV Cache / Long Context",
-      "Diffusion / Flow Acceleration"
+      "Diffusion / Flow Acceleration",
+      "VLA / WAM / Physical AI"
     ]
   },
   {
@@ -25478,7 +25553,7 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "Edge / Cloud / Heterogeneous AI"
+      "VLA / WAM / Physical AI"
     ]
   },
   {

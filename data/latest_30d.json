@@ -484,6 +484,7 @@
       "tracking_tier": "P0 · Strong",
       "directions": [
         "LLM Serving",
+        "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -2727,7 +2728,8 @@
       "updated_at": "2026-08-24T17:59:05Z",
       "is_latest_30d": true,
       "directions": [
-        "KV Cache / Long Context"
+        "KV Cache / Long Context",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -3609,7 +3611,7 @@
       "updated_at": "2026-08-18T17:59:30Z",
       "is_latest_30d": true,
       "directions": [
-        "Edge / Cloud / Heterogeneous AI"
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -3930,6 +3932,7 @@
       "is_latest_30d": true,
       "directions": [
         "Distributed Training / Inference",
+        "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -4166,6 +4169,7 @@
         "LLM Serving",
         "Sparsity / Pruning",
         "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -4973,6 +4977,7 @@
       "updated_at": "2026-08-25T17:56:54Z",
       "is_latest_30d": true,
       "directions": [
+        "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -6223,6 +6228,7 @@
         "LLM Serving",
         "Multimodal / MLLM Serving",
         "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -8050,6 +8056,7 @@
       "tracking_tier": "P0 · Strong",
       "directions": [
         "LLM Serving",
+        "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -10291,7 +10298,8 @@
       "updated_at": "2026-08-24T17:59:05Z",
       "is_latest_30d": true,
       "directions": [
-        "KV Cache / Long Context"
+        "KV Cache / Long Context",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -11173,7 +11181,7 @@
       "updated_at": "2026-08-18T17:59:30Z",
       "is_latest_30d": true,
       "directions": [
-        "Edge / Cloud / Heterogeneous AI"
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -11494,6 +11502,7 @@
       "is_latest_30d": true,
       "directions": [
         "Distributed Training / Inference",
+        "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -11730,6 +11739,7 @@
         "LLM Serving",
         "Sparsity / Pruning",
         "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -12535,6 +12545,7 @@
       "updated_at": "2026-08-25T17:56:54Z",
       "is_latest_30d": true,
       "directions": [
+        "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -13785,6 +13796,7 @@
         "LLM Serving",
         "Multimodal / MLLM Serving",
         "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },

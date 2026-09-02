@@ -23,7 +23,7 @@ DIRECTIONS = [
     ("11-video-image-generation", "Video / Image Generation", ["video generation", "image generation", "autoregressive image", "video model", "videolm", "gaussian splatting", "3dgs", "4dgs", "neural rendering", "scene generation"]),
     ("12-diffusion-flow", "Diffusion / Flow Acceleration", ["diffusion", "dit", "flow matching", "rectified flow", "denoising"]),
     ("13-efficient-reasoning-agents", "Efficient Reasoning / Agents", ["reasoning", "agent", "agentic", "rollout", "test-time", "test time", "reinforcement learning"]),
-    ("14-physical-ai-vla-wam", "VLA / WAM / Physical AI", ["vla", "vision-language-action", "world action", "wam", "robot", "embodied", "action generation", "autonomous driving", "humanoid"]),
+    ("14-physical-ai-vla-wam", "VLA / WAM / Physical AI", ["vla", "vision-language-action", "world action", "wam", "robot", "embodied", "physical ai", "action generation", "autonomous driving", "autonomous navigation", "humanoid"]),
     ("15-edge-cloud-heterogeneous", "Edge / Cloud / Heterogeneous AI", ["edge", "device", "heterogeneous", "cpu-gpu", "npu", "mobile", "cloud-edge", "cxl", "pim", "on-device", "memory hierarchy"]),
 ]
 
