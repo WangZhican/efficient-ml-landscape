@@ -8454,6 +8454,30 @@
     ]
   },
   {
+    "title": "Saliency-Aware Quantized Imitation Learning for Efficient Robotic Control",
+    "venue": "ICCV 2025",
+    "topic": "VLA/WAM/Physical AI serving / quantization / edge robotic control",
+    "arxiv": "2505.15304",
+    "doi": "",
+    "official_id": "doi:10.1109/ICCV51701.2025.01221",
+    "paper_url": "https://arxiv.org/abs/2505.15304",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICCV 2025 Physical-AI protected-gap paper. SQIL makes low-bit imitation-learning/VLA deployment state-saliency aware; the paper reports a 4-bit weight-quantized VLA achieving up to 2.5x speedup and 2.5x energy savings on an edge GPU with minimal accuracy loss, directly connecting VLA quantization to deployment efficiency.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "GPU Kernel / DSL / Compiler",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "ShortV: Efficient Multimodal Large Language Models by Freezing Visual Tokens in Ineffective Layers",
     "venue": "ICCV 2025",
     "topic": "training-free VLM layer/token efficiency",
