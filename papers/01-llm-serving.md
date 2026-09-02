@@ -1,6 +1,6 @@
 # 01 · LLM Serving
 
-> **559 canonical papers** mapped here, plus a broader **237-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **560 canonical papers** mapped here, plus a broader **237-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -246,7 +246,7 @@
 | **P1 · Watch** | **Here is a GIFT: Enforcing User Data Isolation in LLM Serving via GPU Information Flow Tracking** | Fresh / preprint | LLM serving / GPU runtime / confidential computing | [Link](https://arxiv.org/abs/2608.25431) | — |
 | **P1 · Watch** | **Edge-Native Embodied Intelligence for Action-Aware Wireless Edge Networks** | Fresh / preprint | VLA/WAM/Physical AI serving / edge-cloud / heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.17774) | — |
 
-## 🏛️ Classical / Historical · 511 canonical
+## 🏛️ Classical / Historical · 512 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -317,6 +317,7 @@
 | **Canonical** | **ZipServ: Fast and Memory-Efficient LLM Inference with Hardware-Aware Lossless Compression** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://arxiv.org/abs/2603.17435) | — |
 | **Canonical** | **Adaptive Computation Pruning for the Forgetting Transformer** | COLM 2025 | efficient attention / sparsity / training efficiency | [Link](https://arxiv.org/abs/2504.06949) | [Repo](https://github.com/zhixuan-lin/forgetting-transformer) |
 | **Canonical** | **Hardware-Efficient Attention for Fast Decoding** | COLM 2025 | efficient attention / KV-cache bandwidth / serving | [Link](https://arxiv.org/abs/2505.21487) | — |
+| **Canonical** | **Meta-Learning for Speeding Up Large Model Inference in Decentralized Environments** | COLM 2025 | edge/cloud/heterogeneous AI systems / distributed inference / inference acceleration selection | [Link](https://arxiv.org/abs/2410.21340) | — |
 | **Canonical** | **Mixture of Attention Spans: Optimizing LLM Inference Efficiency with Heterogeneous Sliding-Window Lengths** | COLM 2025 | sparse attention / long-context inference / KV cache compression | [Link](https://arxiv.org/abs/2406.14909) | [Repo](https://github.com/thu-nics/MoA) |
 | **Canonical** | **Plato: Plan to Efficient Decode for Large Language Model Inference** | COLM 2025 | parallel/plan-based LLM decoding | [Link](https://openreview.net/pdf?id=oGO0fNVWrN) | — |
 | **Canonical** | **RADLADS: Rapid Attention Distillation to Linear Attention Decoders at Scale** | COLM 2025 | linear attention / efficient long-context inference | [Link](https://arxiv.org/abs/2505.03005) | [Repo](https://github.com/recursal/RADLADS-paper) |

@@ -3547,6 +3547,28 @@
     ]
   },
   {
+    "title": "Meta-Learning for Speeding Up Large Model Inference in Decentralized Environments",
+    "venue": "COLM 2025",
+    "topic": "edge/cloud/heterogeneous AI systems / distributed inference / inference acceleration selection",
+    "arxiv": "2410.21340",
+    "doi": "",
+    "official_id": "arxiv:2410.21340",
+    "paper_url": "https://arxiv.org/abs/2410.21340",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "COLM 2025 main-conference paper on automatically selecting efficient inference acceleration strategies for decentralized heterogeneous deployments using meta-learning over historical performance. Directly relevant to distributed/edge AI inference systems and currently absent from individual authority.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Mixture of Attention Spans: Optimizing LLM Inference Efficiency with Heterogeneous Sliding-Window Lengths",
     "venue": "COLM 2025",
     "topic": "sparse attention / long-context inference / KV cache compression",

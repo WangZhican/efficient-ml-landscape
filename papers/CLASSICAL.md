@@ -1,6 +1,6 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **1282 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **1283 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
@@ -1062,7 +1062,7 @@
 | **Canonical** | **Stratum: System-Hardware Co-design with Tiered Monolithic 3D-DRAM for Efficient MoE Serving** | MICRO 2025 | MoE serving / memory-system co-design | — | — |
 | **Canonical** | **StreamTensor: Make Tensors Stream in Dataflow Accelerators for LLMs** | MICRO 2025 | LLM accelerator / dataflow | [Link](https://arxiv.org/abs/2509.13694) | — |
 
-## COLM 2025 · 23
+## COLM 2025 · 24
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -1073,6 +1073,7 @@
 | **Canonical** | **Hardware-Efficient Attention for Fast Decoding** | COLM 2025 | efficient attention / KV-cache bandwidth / serving | [Link](https://arxiv.org/abs/2505.21487) | — |
 | **Canonical** | **Hawkeye: Model Collaboration for Efficient Reasoning** | COLM 2025 | efficient reasoning / model collaboration | [Link](https://arxiv.org/abs/2504.00424) | — |
 | **Canonical** | **KVSink: Understanding and Enhancing the Preservation of Attention Sinks in KV Cache Quantization for LLMs** | COLM 2025 | KV cache quantization / attention sinks | [Link](https://arxiv.org/abs/2508.04257) | — |
+| **Canonical** | **Meta-Learning for Speeding Up Large Model Inference in Decentralized Environments** | COLM 2025 | edge/cloud/heterogeneous AI systems / distributed inference / inference acceleration selection | [Link](https://arxiv.org/abs/2410.21340) | — |
 | **Canonical** | **Mixture of Attention Spans: Optimizing LLM Inference Efficiency with Heterogeneous Sliding-Window Lengths** | COLM 2025 | sparse attention / long-context inference / KV cache compression | [Link](https://arxiv.org/abs/2406.14909) | [Repo](https://github.com/thu-nics/MoA) |
 | **Canonical** | **Open-Qwen2VL: Compute-Efficient Pre-Training of Fully-Open Multimodal LLMs on Academic Resources** | COLM 2025 | multimodal training efficiency / open MLLM systems | [Link](https://arxiv.org/abs/2504.00595) | [Repo](https://github.com/Victorwz/Open-Qwen2VL) |
 | **Canonical** | **OverFill: Two-Stage Models for Efficient Language Model Decoding** | COLM 2025 | efficient LLM decoding / stage-specialized model | [Link](https://arxiv.org/abs/2508.08446) | — |
