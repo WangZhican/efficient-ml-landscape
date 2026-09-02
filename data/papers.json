@@ -3870,6 +3870,28 @@
     ]
   },
   {
+    "title": "FlashDecoder: Real-Time Latent-to-Pixel Streaming Decoder with Transformers",
+    "venue": "CVPR 2026",
+    "topic": "video/image generation acceleration / streaming decoder / rolling KV cache",
+    "arxiv": "2607.14898",
+    "doi": "",
+    "official_id": "cvf:Kang_FlashDecoder_Real-Time_Latent-to-Pixel_Streaming_Decoder_with_Transformers_CVPR_2026_paper",
+    "paper_url": "https://arxiv.org/abs/2607.14898",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "CVPR 2026 fast memory-efficient latent-to-pixel video decoder using framewise transformer decoding and a fixed rolling KV cache; reports 3.6x-4.7x faster decoding, up to 11x lower memory, and up to 12x speedup with architecture-aware inference optimization.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Video / Image Generation"
+    ]
+  },
+  {
     "title": "Forecast the Principal, Stabilize the Residual: Subspace-Aware Feature Caching for Diffusion Transformers",
     "venue": "CVPR 2026",
     "topic": "diffusion / subspace-aware feature caching",
@@ -4206,6 +4228,29 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Video / Image Generation"
+    ]
+  },
+  {
+    "title": "Thinking with Drafts: Speculative Temporal Reasoning for Efficient Long Video Understanding",
+    "venue": "CVPR 2026",
+    "topic": "multimodal/MLLM serving / speculative reasoning / long-video inference",
+    "arxiv": "2512.00805",
+    "doi": "",
+    "official_id": "cvf:Hu_Thinking_with_Drafts_Speculative_Temporal_Reasoning_for_Efficient_Long_Video_CVPR_2026_paper",
+    "paper_url": "https://arxiv.org/abs/2512.00805",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "CVPR 2026 SpecTemp dual-model speculative temporal reasoning framework: a lightweight draft MLLM proposes salient frames and a target MLLM verifies/reasons, reducing redundant multimodal context and accelerating long-video inference by roughly 19-23% versus frame-thinking baselines.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
