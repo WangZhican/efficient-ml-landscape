@@ -1,10 +1,10 @@
 # 12 · Diffusion / Flow Acceleration
 
-> **175 canonical papers** mapped here, plus a broader **34-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **176 canonical papers** mapped here, plus a broader **35-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 34 tracked
+## 🆕 Latest 30 Days · 35 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -32,6 +32,7 @@
 | **P0 · Strong** | **An Empirical Study of Training Pixel-Space Text-to-Image Diffusion Models** | Fresh / preprint | image generation acceleration | [Link](https://arxiv.org/abs/2608.16887) | — |
 | **P0 · Strong** | **DriveCache: Action-Aware Caching for Driving World Model Inference** | Fresh / preprint | world-model / diffusion caching | [Link](https://arxiv.org/abs/2608.16354) | — |
 | **P2 · Relevant** | **Nexus: Structured Synergy for Efficient Text-to-Image Generation using Rectified Flow Model** | Fresh / preprint | image generation / sparse architecture / low-bit / flow matching | [Link](https://arxiv.org/abs/2608.16104) | — |
+| **P0 · Strong** | **DARTree: Speculative Diffusion Decoding with Autoregressive Draft Trees** | arXiv 2026 | speculative decoding / diffusion language model acceleration | [Link](https://arxiv.org/abs/2608.13524) | — |
 | **P0 · Strong** | **From Local Mismatch to Global Impact: Optimizing Cache Reuse Policy for Efficient Diffusion** | Fresh / preprint | diffusion cache policy / video-image generation acceleration | [Link](https://arxiv.org/abs/2608.13043) | — |
 | **P0 · Strong** | **SCOPE: Subspace Clustering with Online Per-Head Top-K Estimation for Sparse Video Attention** | Fresh / preprint | sparse video attention / DiT inference | [Link](https://arxiv.org/abs/2608.12780) | — |
 | **P0 · Strong** | **LoSA: Near-Lossless Sparse Attention for Training-Free Video Diffusion Acceleration** | arXiv 2026 | video/image generation acceleration / sparse attention / video diffusion | [Link](https://arxiv.org/abs/2608.12032) | — |

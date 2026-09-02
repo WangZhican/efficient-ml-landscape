@@ -1,10 +1,10 @@
 # 01 · LLM Serving
 
-> **578 canonical papers** mapped here, plus a broader **237-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **579 canonical papers** mapped here, plus a broader **238-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 237 tracked
+## 🆕 Latest 30 Days · 238 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -16,6 +16,7 @@
 | **P0 · Strong** | **CateKV: On Sequential Consistency for Long-Context LLM Inference Acceleration** | ICML 2025 | KV cache/long-context / efficient attention | [Link](https://arxiv.org/abs/2608.30295) | [Repo](https://github.com/haoyun-jiang/CateKV) |
 | **P0 · Strong** | **Strong Drafts Need Compact Memories: Long-Context Speculative Decoding with Compressed KV Cache** | Fresh / preprint | speculative decoding / KV cache / long-context serving | [Link](https://arxiv.org/abs/2608.30252) | — |
 | **P1 · Watch** | **Context-Aware Interleaved Batching for WhisperX** | Fresh / preprint | edge/cloud/heterogeneous AI systems / inference batching | [Link](https://arxiv.org/abs/2608.31170) | — |
+| **P0 · Strong** | **DriftingVLA: Native One-Step Vision-Language-Action Generation via Per-Dimension Temporal Drifting** | arXiv 2026 | VLA/WAM/Physical AI serving / action-head acceleration | [Link](https://arxiv.org/abs/2608.29749) | — |
 | **P0 · Strong** | **Accelerating Unified Multimodal Models with Core-Expansion Routing and Unified Computation Scheduling** | Fresh / preprint | multimodal/MLLM serving / sparsity / scheduling / cache reuse | [Link](https://arxiv.org/abs/2608.29291) | — |
 | **P0 · Strong** | **AdaVLA: Adaptive Step Flow Matching for Training-free Acceleration of Vision-Language-Action Models** | Fresh / preprint | VLA/WAM/Physical AI serving / flow acceleration | [Link](https://arxiv.org/abs/2608.29208) | — |
 | **P0 · Strong** | **Training Communication-Efficient Mixture-of-Experts Language Models with Layer Re-Configuration** | arXiv 2026 | MoE systems / distributed training / communication efficiency | [Link](https://arxiv.org/abs/2608.28511) | — |

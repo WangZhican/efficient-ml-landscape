@@ -1,10 +1,10 @@
 # 03 · KV Cache / Long Context
 
-> **354 canonical papers** mapped here, plus a broader **67-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **356 canonical papers** mapped here, plus a broader **69-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 67 tracked
+## 🆕 Latest 30 Days · 69 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -14,6 +14,7 @@
 | **P0 · Strong** | **CateKV: On Sequential Consistency for Long-Context LLM Inference Acceleration** | ICML 2025 | KV cache/long-context / efficient attention | [Link](https://arxiv.org/abs/2608.30295) | [Repo](https://github.com/haoyun-jiang/CateKV) |
 | **P0 · Strong** | **Strong Drafts Need Compact Memories: Long-Context Speculative Decoding with Compressed KV Cache** | Fresh / preprint | speculative decoding / KV cache / long-context serving | [Link](https://arxiv.org/abs/2608.30252) | — |
 | **P0 · Strong** | **Accelerating Unified Multimodal Models with Core-Expansion Routing and Unified Computation Scheduling** | Fresh / preprint | multimodal/MLLM serving / sparsity / scheduling / cache reuse | [Link](https://arxiv.org/abs/2608.29291) | — |
+| **P0 · Strong** | **SemKV: Semantic Mixed-Precision KV Cache Quantization Guided by the Quality Cliff for Long-Context LLM Inference** | arXiv 2026 | KV cache/long-context / quantization | [Link](https://arxiv.org/abs/2608.28911) | — |
 | **P0 · Strong** | **ContextPilot: Teaching Agents for Proactive Context Management via Fine-grained RL** | arXiv 2026 | efficient reasoning/agent systems / long-context management | [Link](https://arxiv.org/abs/2608.28476) | [Repo](https://github.com/Tencent/ContextPilot) |
 | **P0 · Strong** | **DensityKV: Density-Guided KV Cache Compression for Long Video Generation** | arXiv 2026 | KV cache / video generation acceleration / efficient attention | [Link](https://arxiv.org/abs/2608.27922) | [Repo](https://github.com/ZhaoWQQ/DensityKV) |
 | **P0 · Strong** | **HyQuant: Hybrid-Precision Quantization for LLM Attention** | arXiv 2026 | quantization / KV cache / efficient attention | [Link](https://arxiv.org/abs/2608.27875) | [Repo](https://github.com/jerrysfls/HyQuant) |
@@ -62,6 +63,7 @@
 | **P1 · Watch** | **Spend Bits Where Queries Look: KV Cache Vector Quantization with Attention-Preserving Transforms** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.04074) | — |
 | **P2 · Relevant** | **TaskPress: Query-Agnostic KV Cache Compression via Task-Guided Pruning** | Fresh / preprint | KV cache / long context; quantization; sparsity / pruning; generation acceleration; edge / heterogeneous AI | [Link](https://arxiv.org/abs/2608.03276) | — |
 | **P0 · Strong** | **ATFlash: Per-RoPE-Wavelength Attention Windows for Compute/Memory-Efficient LLM Inference** | Fresh / preprint | efficient attention / long-context / FlashAttention | [Link](https://arxiv.org/abs/2608.02947) | — |
+| **P0 · Strong** | **AnchorKV: Anchor-Residual KV Cache Compression** | arXiv 2026 | KV cache/long-context / compression | [Link](https://arxiv.org/abs/2608.02901) | — |
 | **P2 · Relevant** | **DART: Decoded Attention over Recurrent States for Efficient Long-Context Sequence Modeling** | Fresh / preprint | llm_serving / kv / attn / gen | [Link](https://arxiv.org/abs/2608.02032) | — |
 | **P2 · Relevant** | **Output-Aware Rotation for INT2 KV-Cache Quantization** | Fresh / preprint | llm_serving / kv / quant | [Link](https://arxiv.org/abs/2608.02691) | — |
 | **P2 · Relevant** | **Bole: Efficient Tree Speculation for Hybrid-Attention Language Models** | Fresh / preprint | LLM serving; KV cache / long context; speculative decoding; efficient attention; GPU kernel / compiler | [Link](https://arxiv.org/abs/2608.01651) | — |

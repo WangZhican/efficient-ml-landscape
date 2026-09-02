@@ -1,10 +1,10 @@
 # 13 · Efficient Reasoning / Agents
 
-> **233 canonical papers** mapped here, plus a broader **55-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **234 canonical papers** mapped here, plus a broader **56-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 55 tracked
+## 🆕 Latest 30 Days · 56 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -54,6 +54,7 @@
 | **P2 · Relevant** | **Cascade: Exploiting SLO-Aware latency budget for fair and high goodput LLM inference serving** | Fresh / preprint | LLM serving; agent systems; edge / heterogeneous AI | [Link](https://arxiv.org/abs/2608.06557) | — |
 | **P1 · Watch** | **A Two-Tier Perspective on Inference-Time Parallelism in Multi-Agent LLM Systems** | ICML 2026 | efficient agent systems / multi-agent inference / parallel execution / latency-cost tradeoff | [Link](https://arxiv.org/abs/2608.05791) | — |
 | **P2 · Relevant** | **SparseDitto: Customizing GPU Kernels for Different Sparsity Patterns with LLM-Based Agentic System** | Fresh / preprint | sparse / kernel / gen / agent / edge | [Link](https://arxiv.org/abs/2608.05033) | — |
+| **P0 · Strong** | **RAC: Reference-Aware Activation Compression for Communication-Efficient Split LLM Inference** | arXiv 2026 | distributed inference / edge-cloud / activation compression | [Link](https://arxiv.org/abs/2608.04991) | — |
 | **P0 · Strong** | **Architectural Implications of Agentic AI Workflows** | arXiv 2026 | efficient reasoning/agent systems / edge-cloud AI infrastructure | [Link](https://arxiv.org/abs/2608.04458) | — |
 | **P2 · Relevant** | **When Does Disaggregation Pay? Simulating Prefill--Decode--Attention--FFN Specialization for Agentic LLM Inference** | Fresh / preprint | LLM serving; quantization; generation acceleration; agent systems; edge / heterogeneous AI | [Link](https://arxiv.org/abs/2608.03741) | — |
 | **P2 · Relevant** | **PhyAI: Real-Time Physical AI at the Edge, Scalable Rollouts in the Cloud** | Fresh / preprint | LLM serving; multimodal / MLLM; generation acceleration; Physical AI | [Link](https://arxiv.org/abs/2608.03682) | — |

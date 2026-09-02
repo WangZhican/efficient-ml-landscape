@@ -1,6 +1,6 @@
 # 🆕 Latest 30 Days
 
-> Rolling 30-day view ending **2026-09-03**: **341 tracked papers = 92 P0 + 128 P1 + 121 P2**. Topical relevance determines visibility; quality determines priority. The classical census remains stricter.
+> Rolling 30-day view ending **2026-09-03**: **348 tracked papers = 97 P0 + 130 P1 + 121 P2**. Topical relevance determines visibility; quality determines priority. The classical census remains stricter.
 
 [← Paper Library](ALL_PAPERS.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/latest_30d.json) · [CSV](../data/latest_30d.csv)
 
@@ -16,9 +16,11 @@
 | **P0 · Strong** | **DASC: Decay-Aware State Compression for Hybrid Linear-Attention Serving** | Fresh / preprint | LLM serving / state cache / hybrid linear attention | [Link](https://arxiv.org/abs/2608.30386) | — |
 | **P0 · Strong** | **CateKV: On Sequential Consistency for Long-Context LLM Inference Acceleration** | ICML 2025 | KV cache/long-context / efficient attention | [Link](https://arxiv.org/abs/2608.30295) | [Repo](https://github.com/haoyun-jiang/CateKV) |
 | **P0 · Strong** | **Strong Drafts Need Compact Memories: Long-Context Speculative Decoding with Compressed KV Cache** | Fresh / preprint | speculative decoding / KV cache / long-context serving | [Link](https://arxiv.org/abs/2608.30252) | — |
+| **P0 · Strong** | **DriftingVLA: Native One-Step Vision-Language-Action Generation via Per-Dimension Temporal Drifting** | arXiv 2026 | VLA/WAM/Physical AI serving / action-head acceleration | [Link](https://arxiv.org/abs/2608.29749) | — |
 | **P0 · Strong** | **Accelerating Unified Multimodal Models with Core-Expansion Routing and Unified Computation Scheduling** | Fresh / preprint | multimodal/MLLM serving / sparsity / scheduling / cache reuse | [Link](https://arxiv.org/abs/2608.29291) | — |
 | **P0 · Strong** | **EpaCache: Error-Propagation-Aware Caching for Accelerating Diffusion-Based Visual Generation** | Fresh / preprint | video/image generation acceleration / diffusion cache | [Link](https://arxiv.org/abs/2608.29264) | — |
 | **P0 · Strong** | **AdaVLA: Adaptive Step Flow Matching for Training-free Acceleration of Vision-Language-Action Models** | Fresh / preprint | VLA/WAM/Physical AI serving / flow acceleration | [Link](https://arxiv.org/abs/2608.29208) | — |
+| **P0 · Strong** | **SemKV: Semantic Mixed-Precision KV Cache Quantization Guided by the Quality Cliff for Long-Context LLM Inference** | arXiv 2026 | KV cache/long-context / quantization | [Link](https://arxiv.org/abs/2608.28911) | — |
 | **P0 · Strong** | **Training Communication-Efficient Mixture-of-Experts Language Models with Layer Re-Configuration** | arXiv 2026 | MoE systems / distributed training / communication efficiency | [Link](https://arxiv.org/abs/2608.28511) | — |
 | **P0 · Strong** | **ContextPilot: Teaching Agents for Proactive Context Management via Fine-grained RL** | arXiv 2026 | efficient reasoning/agent systems / long-context management | [Link](https://arxiv.org/abs/2608.28476) | [Repo](https://github.com/Tencent/ContextPilot) |
 | **P0 · Strong** | **DensityKV: Density-Guided KV Cache Compression for Long Video Generation** | arXiv 2026 | KV cache / video generation acceleration / efficient attention | [Link](https://arxiv.org/abs/2608.27922) | [Repo](https://github.com/ZhaoWQQ/DensityKV) |
@@ -82,6 +84,7 @@
 | **P0 · Strong** | **Reflex: Enabling Fast and Predictive Vision-Language-Action Models for Reaction-Critical Manipulation** | Fresh / preprint | fast VLA runtime / reaction-critical manipulation | [Link](https://arxiv.org/abs/2608.14379) | — |
 | **P0 · Strong** | **CoRun: Padding is Simple and Efficient for Deterministic LLM Inference** | Fresh / preprint | LLM serving / deterministic inference / fixed-shape scheduling | [Link](https://arxiv.org/abs/2608.14376) | — |
 | **P0 · Strong** | **Beyond Capacity: Scalable MoE LLM Inference via High-Bandwidth Flash with Direct GPU and HBM Paths** | Fresh / preprint | MoE serving / high-bandwidth flash architecture | [Link](https://arxiv.org/abs/2608.14333) | — |
+| **P0 · Strong** | **DARTree: Speculative Diffusion Decoding with Autoregressive Draft Trees** | arXiv 2026 | speculative decoding / diffusion language model acceleration | [Link](https://arxiv.org/abs/2608.13524) | — |
 | **P0 · Strong** | **TEMPO: Makespan-Aware Expert-Parallel Load Balancing Across Memory- and Compute-Bound Regimes** | Fresh / preprint | MoE expert-parallel load balancing / serving | [Link](https://arxiv.org/abs/2608.13057) | — |
 | **P0 · Strong** | **From Local Mismatch to Global Impact: Optimizing Cache Reuse Policy for Efficient Diffusion** | Fresh / preprint | diffusion cache policy / video-image generation acceleration | [Link](https://arxiv.org/abs/2608.13043) | — |
 | **P0 · Strong** | **FlashDrive: Flash Vision-Language-Action Inference for Autonomous Driving** | Fresh / preprint | full-stack VLA inference acceleration | [Link](https://arxiv.org/abs/2608.12932) | — |
@@ -95,11 +98,13 @@
 | **P0 · Strong** | **FlashBoot: Sub-Second Weight Loading for Large Models at Rack Scale** | Fresh / preprint | LLM serving / MoE systems / rack-scale runtime | [Link](https://arxiv.org/abs/2608.08482) | — |
 | **P0 · Strong** | **Archer: Adaptive Reuse of Cached Hidden States for Efficient Rollback in Diffusion Language Models** | arXiv 2026 | KV cache / diffusion language model acceleration | [Link](https://arxiv.org/abs/2608.08086) | [Repo](https://github.com/Hxnng/Archer) |
 | **P0 · Strong** | **EasyBalance: Cross-Layer Load Balancing in Distributed MoE Inference** | ICML 2026 | MoE inference / expert parallelism / cross-layer load balancing | [Link](https://arxiv.org/abs/2608.07964) | [Repo](https://github.com/yize-wu/EasyInfra) |
+| **P0 · Strong** | **RAC: Reference-Aware Activation Compression for Communication-Efficient Split LLM Inference** | arXiv 2026 | distributed inference / edge-cloud / activation compression | [Link](https://arxiv.org/abs/2608.04991) | — |
 | **P0 · Strong** | **AsymSpec: Efficient Cloud–Edge Speculative Decoding over Asymmetric Networks** | Fresh / preprint | speculative decoding / LLM serving / edge-cloud heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.04974) | — |
 | **P0 · Strong** | **Architectural Implications of Agentic AI Workflows** | arXiv 2026 | efficient reasoning/agent systems / edge-cloud AI infrastructure | [Link](https://arxiv.org/abs/2608.04458) | — |
 | **P0 · Strong** | **Faster-WAM: Efficient Inference-Time Future Conditioning for Robust World Action Models** | Fresh / preprint | VLA/WAM/Physical AI serving / cache / flow acceleration | [Link](https://arxiv.org/abs/2608.04404) | — |
 | **P0 · Strong** | **ComFuse: Fusing Complex Memory-Intensive Subgraphs with Compute-Intensive Kernels For Modern GPU Architectures** | Fresh / preprint | GPU kernel / compiler / operator fusion | [Link](https://arxiv.org/abs/2608.03537) | — |
 | **P0 · Strong** | **ATFlash: Per-RoPE-Wavelength Attention Windows for Compute/Memory-Efficient LLM Inference** | Fresh / preprint | efficient attention / long-context / FlashAttention | [Link](https://arxiv.org/abs/2608.02947) | — |
+| **P0 · Strong** | **AnchorKV: Anchor-Residual KV Cache Compression** | arXiv 2026 | KV cache/long-context / compression | [Link](https://arxiv.org/abs/2608.02901) | — |
 
 ## P1 · Watch
 
@@ -113,6 +118,8 @@
 | **P1 · Watch** | **Survival-Guided Length Control for Efficient Diffusion Language Models** | Fresh / preprint | diffusion LLM inference / efficient decoding | [Link](https://arxiv.org/abs/2608.26374) | — |
 | **P1 · Watch** | **ClusterAttention: A training-free speedup of bidirectional attention** | Fresh / preprint | efficient attention / sparse attention / video generation | [Link](https://arxiv.org/abs/2608.26965) | — |
 | **P1 · Watch** | **Activation Outliers Matter: Robust Recovery for Quantized Multimodal LLMs** | Fresh / preprint | quantization / multimodal / video generation | [Link](https://arxiv.org/abs/2608.26581) | — |
+| **P1 · Watch** | **A Layer Importance Metric for Quantization Accounting for the Speed-Quality Trade-off in Autoregressive Models** | Fresh / preprint | quantization / edge inference / hardware-aware metric | [Link](https://arxiv.org/abs/2608.26926) | — |
+| **P1 · Watch** | **Launch-Bound and Substitutable: Why Three Inference Optimizations Fail to Pay Off in Mixture-of-Experts Models** | Fresh / preprint | MoE systems / inference optimization analysis | [Link](https://arxiv.org/abs/2608.26612) | — |
 | **P1 · Watch** | **VoiceMem: Streaming Dual-Brain Memory for Real-Time Interaction** | Fresh / preprint | agent systems / streaming memory / real-time multimodal | [Link](https://arxiv.org/abs/2608.26005) | — |
 | **P1 · Watch** | **Prefix Sliding for efficient test-time scaling** | Fresh / preprint | efficient reasoning / KV cache / long-context | [Link](https://arxiv.org/abs/2608.26070) | — |
 | **P1 · Watch** | **Fast Generative Grasping via Lie Group-Constrained MeanFlow** | Fresh / preprint | Physical AI / flow acceleration / robotic grasping | [Link](https://arxiv.org/abs/2608.26076) | — |

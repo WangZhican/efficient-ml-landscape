@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-03",
   "window_start_beijing": "2026-08-04",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 341,
+  "tracked_total": 348,
   "p0_strong_or_canonical": [
     {
       "title": "mzCache: On-Device LLM Memory Management under Multitasking",
@@ -180,6 +180,28 @@
       ]
     },
     {
+      "title": "DriftingVLA: Native One-Step Vision-Language-Action Generation via Per-Dimension Temporal Drifting",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / action-head acceleration",
+      "arxiv": "2608.29749",
+      "doi": "",
+      "official_id": "arXiv:2608.29749",
+      "paper_url": "https://arxiv.org/abs/2608.29749",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Protected Physical-AI direct inference acceleration: replaces iterative flow integration with native one-step action-chunk generation; reports 3.36x action-chunk generation speedup while retaining or improving task success.",
+      "published_at": "2026-08-30T12:21:44Z",
+      "updated_at": "2026-08-30T12:21:44Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Accelerating Unified Multimodal Models with Core-Expansion Routing and Unified Computation Scheduling",
       "venue": "Fresh / preprint",
       "topic": "multimodal/MLLM serving / sparsity / scheduling / cache reuse",
@@ -245,6 +267,27 @@
         "Multimodal / MLLM Serving",
         "Diffusion / Flow Acceleration",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "SemKV: Semantic Mixed-Precision KV Cache Quantization Guided by the Quality Cliff for Long-Context LLM Inference",
+      "venue": "arXiv 2026",
+      "topic": "KV cache/long-context / quantization",
+      "arxiv": "2608.28911",
+      "doi": "",
+      "official_id": "arXiv:2608.28911",
+      "paper_url": "https://arxiv.org/abs/2608.28911",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Direct long-context inference memory optimization. Measures the KV quality cliff and uses semantic mixed precision above it; reports 6.0x KV storage reduction with no statistically detectable quality difference and up to 7.9x with distortion-optimized quantization.",
+      "published_at": "2026-08-28T22:19:47Z",
+      "updated_at": "2026-08-28T22:19:47Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "KV Cache / Long Context",
+        "Quantization"
       ]
     },
     {
@@ -1634,6 +1677,27 @@
       ]
     },
     {
+      "title": "DARTree: Speculative Diffusion Decoding with Autoregressive Draft Trees",
+      "venue": "arXiv 2026",
+      "topic": "speculative decoding / diffusion language model acceleration",
+      "arxiv": "2608.13524",
+      "doi": "",
+      "official_id": "arXiv:2608.13524",
+      "paper_url": "https://arxiv.org/abs/2608.13524",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Training-free speculative decoding with diffusion-based tree drafts plus branch-conditioned AR correction; reports up to 12.97 accepted tokens per verification round and 9.73x lossless speedup over locally measured autoregressive decoding.",
+      "published_at": "2026-08-13T17:43:44Z",
+      "updated_at": "2026-08-13T17:43:44Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Speculative Decoding",
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
       "title": "TEMPO: Makespan-Aware Expert-Parallel Load Balancing Across Memory- and Compute-Bound Regimes",
       "venue": "",
       "topic": "MoE expert-parallel load balancing / serving",
@@ -1922,6 +1986,28 @@
       ]
     },
     {
+      "title": "RAC: Reference-Aware Activation Compression for Communication-Efficient Split LLM Inference",
+      "venue": "arXiv 2026",
+      "topic": "distributed inference / edge-cloud / activation compression",
+      "arxiv": "2608.04991",
+      "doi": "",
+      "official_id": "arXiv:2608.04991",
+      "paper_url": "https://arxiv.org/abs/2608.04991",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Direct split-inference communication optimization for privacy-sensitive LLM agents; reference-aware boundary activation coding reports 1.24-2.72x TTFT and 1.01-2.79x TPOT improvements across evaluated model-link pairs.",
+      "published_at": "2026-08-05T16:01:23Z",
+      "updated_at": "2026-08-05T16:01:23Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "AsymSpec: Efficient Cloud–Edge Speculative Decoding over Asymmetric Networks",
       "venue": "",
       "topic": "speculative decoding / LLM serving / edge-cloud heterogeneous AI systems",
@@ -2030,6 +2116,26 @@
         "KV Cache / Long Context",
         "Sparsity / Pruning",
         "Efficient Attention"
+      ]
+    },
+    {
+      "title": "AnchorKV: Anchor-Residual KV Cache Compression",
+      "venue": "arXiv 2026",
+      "topic": "KV cache/long-context / compression",
+      "arxiv": "2608.02901",
+      "doi": "",
+      "official_id": "arXiv:2608.02901",
+      "paper_url": "https://arxiv.org/abs/2608.02901",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Direct KV-cache compression retaining all tokens via anchors plus selective residual refinement; reports 20x cache compression while retaining 99% of full-cache score at 70B scale.",
+      "published_at": "2026-08-03T21:38:30Z",
+      "updated_at": "2026-08-03T21:38:30Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "KV Cache / Long Context"
       ]
     }
   ],
@@ -2159,6 +2265,47 @@
         "Quantization",
         "Multimodal / MLLM Serving",
         "Video / Image Generation"
+      ]
+    },
+    {
+      "title": "A Layer Importance Metric for Quantization Accounting for the Speed-Quality Trade-off in Autoregressive Models",
+      "venue": "",
+      "topic": "quantization / edge inference / hardware-aware metric",
+      "arxiv": "2608.26926",
+      "doi": "",
+      "official_id": "arXiv:2608.26926",
+      "paper_url": "https://arxiv.org/abs/2608.26926",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Relevant hardware-aware quantization allocation metric combining SQNR information retention with roofline speed estimates; retain P1 because current evidence is a fresh preprint with narrower empirical scope.",
+      "published_at": "2026-08-27T10:23:01Z",
+      "updated_at": "2026-08-27T10:23:01Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Launch-Bound and Substitutable: Why Three Inference Optimizations Fail to Pay Off in Mixture-of-Experts Models",
+      "venue": "",
+      "topic": "MoE systems / inference optimization analysis",
+      "arxiv": "2608.26612",
+      "doi": "",
+      "official_id": "arXiv:2608.26612",
+      "paper_url": "https://arxiv.org/abs/2608.26612",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "High-value empirical systems analysis showing isolated Triton fusion speedups can disappear end-to-end under launch-bound MoE execution and that routing fidelity can separate from output quality; retain P1 pending stronger venue/adoption evidence.",
+      "published_at": "2026-08-27T04:51:07Z",
+      "updated_at": "2026-08-28T02:12:23Z",
+      "is_latest_30d": true,
+      "directions": [
+        "MoE Systems / Accelerators"
       ]
     },
     {
@@ -7599,6 +7746,28 @@
       ]
     },
     {
+      "title": "DriftingVLA: Native One-Step Vision-Language-Action Generation via Per-Dimension Temporal Drifting",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / action-head acceleration",
+      "arxiv": "2608.29749",
+      "doi": "",
+      "official_id": "arXiv:2608.29749",
+      "paper_url": "https://arxiv.org/abs/2608.29749",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Protected Physical-AI direct inference acceleration: replaces iterative flow integration with native one-step action-chunk generation; reports 3.36x action-chunk generation speedup while retaining or improving task success.",
+      "published_at": "2026-08-30T12:21:44Z",
+      "updated_at": "2026-08-30T12:21:44Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Accelerating Unified Multimodal Models with Core-Expansion Routing and Unified Computation Scheduling",
       "venue": "Fresh / preprint",
       "topic": "multimodal/MLLM serving / sparsity / scheduling / cache reuse",
@@ -7664,6 +7833,27 @@
         "Multimodal / MLLM Serving",
         "Diffusion / Flow Acceleration",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "SemKV: Semantic Mixed-Precision KV Cache Quantization Guided by the Quality Cliff for Long-Context LLM Inference",
+      "venue": "arXiv 2026",
+      "topic": "KV cache/long-context / quantization",
+      "arxiv": "2608.28911",
+      "doi": "",
+      "official_id": "arXiv:2608.28911",
+      "paper_url": "https://arxiv.org/abs/2608.28911",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Direct long-context inference memory optimization. Measures the KV quality cliff and uses semantic mixed precision above it; reports 6.0x KV storage reduction with no statistically detectable quality difference and up to 7.9x with distortion-optimized quantization.",
+      "published_at": "2026-08-28T22:19:47Z",
+      "updated_at": "2026-08-28T22:19:47Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "KV Cache / Long Context",
+        "Quantization"
       ]
     },
     {
@@ -9053,6 +9243,27 @@
       ]
     },
     {
+      "title": "DARTree: Speculative Diffusion Decoding with Autoregressive Draft Trees",
+      "venue": "arXiv 2026",
+      "topic": "speculative decoding / diffusion language model acceleration",
+      "arxiv": "2608.13524",
+      "doi": "",
+      "official_id": "arXiv:2608.13524",
+      "paper_url": "https://arxiv.org/abs/2608.13524",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Training-free speculative decoding with diffusion-based tree drafts plus branch-conditioned AR correction; reports up to 12.97 accepted tokens per verification round and 9.73x lossless speedup over locally measured autoregressive decoding.",
+      "published_at": "2026-08-13T17:43:44Z",
+      "updated_at": "2026-08-13T17:43:44Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Speculative Decoding",
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
       "title": "TEMPO: Makespan-Aware Expert-Parallel Load Balancing Across Memory- and Compute-Bound Regimes",
       "venue": "",
       "topic": "MoE expert-parallel load balancing / serving",
@@ -9341,6 +9552,28 @@
       ]
     },
     {
+      "title": "RAC: Reference-Aware Activation Compression for Communication-Efficient Split LLM Inference",
+      "venue": "arXiv 2026",
+      "topic": "distributed inference / edge-cloud / activation compression",
+      "arxiv": "2608.04991",
+      "doi": "",
+      "official_id": "arXiv:2608.04991",
+      "paper_url": "https://arxiv.org/abs/2608.04991",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Direct split-inference communication optimization for privacy-sensitive LLM agents; reference-aware boundary activation coding reports 1.24-2.72x TTFT and 1.01-2.79x TPOT improvements across evaluated model-link pairs.",
+      "published_at": "2026-08-05T16:01:23Z",
+      "updated_at": "2026-08-05T16:01:23Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "AsymSpec: Efficient Cloud–Edge Speculative Decoding over Asymmetric Networks",
       "venue": "",
       "topic": "speculative decoding / LLM serving / edge-cloud heterogeneous AI systems",
@@ -9449,6 +9682,26 @@
         "KV Cache / Long Context",
         "Sparsity / Pruning",
         "Efficient Attention"
+      ]
+    },
+    {
+      "title": "AnchorKV: Anchor-Residual KV Cache Compression",
+      "venue": "arXiv 2026",
+      "topic": "KV cache/long-context / compression",
+      "arxiv": "2608.02901",
+      "doi": "",
+      "official_id": "arXiv:2608.02901",
+      "paper_url": "https://arxiv.org/abs/2608.02901",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Direct KV-cache compression retaining all tokens via anchors plus selective residual refinement; reports 20x cache compression while retaining 99% of full-cache score at 70B scale.",
+      "published_at": "2026-08-03T21:38:30Z",
+      "updated_at": "2026-08-03T21:38:30Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "KV Cache / Long Context"
       ]
     },
     {
@@ -9576,6 +9829,47 @@
         "Quantization",
         "Multimodal / MLLM Serving",
         "Video / Image Generation"
+      ]
+    },
+    {
+      "title": "A Layer Importance Metric for Quantization Accounting for the Speed-Quality Trade-off in Autoregressive Models",
+      "venue": "",
+      "topic": "quantization / edge inference / hardware-aware metric",
+      "arxiv": "2608.26926",
+      "doi": "",
+      "official_id": "arXiv:2608.26926",
+      "paper_url": "https://arxiv.org/abs/2608.26926",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Relevant hardware-aware quantization allocation metric combining SQNR information retention with roofline speed estimates; retain P1 because current evidence is a fresh preprint with narrower empirical scope.",
+      "published_at": "2026-08-27T10:23:01Z",
+      "updated_at": "2026-08-27T10:23:01Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Launch-Bound and Substitutable: Why Three Inference Optimizations Fail to Pay Off in Mixture-of-Experts Models",
+      "venue": "",
+      "topic": "MoE systems / inference optimization analysis",
+      "arxiv": "2608.26612",
+      "doi": "",
+      "official_id": "arXiv:2608.26612",
+      "paper_url": "https://arxiv.org/abs/2608.26612",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "High-value empirical systems analysis showing isolated Triton fusion speedups can disappear end-to-end under launch-bound MoE execution and that routing fidelity can separate from output quality; retain P1 pending stronger venue/adoption evidence.",
+      "published_at": "2026-08-27T04:51:07Z",
+      "updated_at": "2026-08-28T02:12:23Z",
+      "is_latest_30d": true,
+      "directions": [
+        "MoE Systems / Accelerators"
       ]
     },
     {

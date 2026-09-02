@@ -1,10 +1,10 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **296 canonical papers** mapped here, plus a broader **103-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **297 canonical papers** mapped here, plus a broader **105-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 103 tracked
+## 🆕 Latest 30 Days · 105 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -13,6 +13,7 @@
 | **P1 · Watch** | **CHIPSMORE: Compute-in-Interconnect and -Memory Chiplets for Multi-Mode Multi-Request LLM Inference Acceleration** | Fresh / preprint | edge/cloud/heterogeneous AI systems / LLM accelerator | [Link](https://arxiv.org/abs/2608.30509) | — |
 | **P1 · Watch** | **Context-Aware Interleaved Batching for WhisperX** | Fresh / preprint | edge/cloud/heterogeneous AI systems / inference batching | [Link](https://arxiv.org/abs/2608.31170) | — |
 | **P0 · Strong** | **Training Communication-Efficient Mixture-of-Experts Language Models with Layer Re-Configuration** | arXiv 2026 | MoE systems / distributed training / communication efficiency | [Link](https://arxiv.org/abs/2608.28511) | — |
+| **P1 · Watch** | **A Layer Importance Metric for Quantization Accounting for the Speed-Quality Trade-off in Autoregressive Models** | Fresh / preprint | quantization / edge inference / hardware-aware metric | [Link](https://arxiv.org/abs/2608.26926) | — |
 | **P0 · Strong** | **Redwood: A Frontier AI Accelerator Designed, Verified, and Deployed from Scratch in 2 Weeks by AI** | arXiv 2026 | edge/cloud/heterogeneous AI systems / Physical AI accelerator | [Link](https://arxiv.org/abs/2608.26418) | — |
 | **P0 · Strong** | **FLINT: Efficiently Leveraging High Bandwidth Flash for Capacity-Scalable LLM Inference Acceleration** | Fresh / preprint | LLM serving / memory hierarchy / hardware architecture | [Link](https://arxiv.org/abs/2608.25062) | — |
 | **P1 · Watch** | **Hydra: Phase-Aware Workload Characterization of LLM Inference across Edge SoC Generations, Backends, and Quantization Levels** | Fresh / preprint | edge AI / LLM inference / quantization characterization | [Link](https://arxiv.org/abs/2608.25053) | — |
@@ -74,6 +75,7 @@
 | **P2 · Relevant** | **Runtime Observability for Heterogeneous Attention Memory** | Fresh / preprint | llm_serving / kv / edge | [Link](https://arxiv.org/abs/2608.05863) | — |
 | **P2 · Relevant** | **EdgeXpert: An Edge Device for Memory-Efficient LLM Inference with Mixture-of-Experts and Speculative Decoding** | Fresh / preprint | LLM serving; speculative decoding; MoE systems; generation acceleration; edge / heterogeneous AI | [Link](https://arxiv.org/abs/2608.05303) | — |
 | **P2 · Relevant** | **SparseDitto: Customizing GPU Kernels for Different Sparsity Patterns with LLM-Based Agentic System** | Fresh / preprint | sparse / kernel / gen / agent / edge | [Link](https://arxiv.org/abs/2608.05033) | — |
+| **P0 · Strong** | **RAC: Reference-Aware Activation Compression for Communication-Efficient Split LLM Inference** | arXiv 2026 | distributed inference / edge-cloud / activation compression | [Link](https://arxiv.org/abs/2608.04991) | — |
 | **P0 · Strong** | **AsymSpec: Efficient Cloud–Edge Speculative Decoding over Asymmetric Networks** | Fresh / preprint | speculative decoding / LLM serving / edge-cloud heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.04974) | — |
 | **P0 · Strong** | **Architectural Implications of Agentic AI Workflows** | arXiv 2026 | efficient reasoning/agent systems / edge-cloud AI infrastructure | [Link](https://arxiv.org/abs/2608.04458) | — |
 | **P2 · Relevant** | **Deltoris: Enabling Real-time VLA Inference in Embodied AI via Bit-level Sparsity and Speculative Inference** | Fresh / preprint | LLM serving; speculative decoding; sparsity / pruning; multimodal / MLLM; Physical AI; edge / heterogeneous AI | [Link](https://arxiv.org/abs/2608.04428) | — |
