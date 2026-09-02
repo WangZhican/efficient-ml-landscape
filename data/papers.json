@@ -4041,6 +4041,27 @@
     ]
   },
   {
+    "title": "K-Search: LLM Kernel Generation via Co-Evolving Intrinsic World Model",
+    "venue": "CoRR 2026",
+    "topic": "GPU kernel/DSL/compilers / automated kernel optimization / FlashInfer / MoE / MLA / GQA",
+    "arxiv": "2602.19128",
+    "doi": "",
+    "official_id": "2602.19128",
+    "paper_url": "https://arxiv.org/abs/2602.19128",
+    "code_url": "https://github.com/caoshiyi/K-Search",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Berkeley Sky 2026 direct Efficient-ML kernel-systems work. K-Search uses a co-evolving intrinsic world model to automate high-performance GPU kernel optimization; evaluated on FlashInfer GQA/MLA/MoE kernels with 2.10x average improvement over prior evolutionary-search baselines and up to 14.3x on complex MoE kernels, plus state-of-the-art GPUMode TriMul H100 performance.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "MoE Systems / Accelerators",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "Accelerating Autoregressive Video Diffusion via History-Guided Cache and Residual Correction",
     "venue": "CVPR 2026",
     "topic": "autoregressive video diffusion / caching",

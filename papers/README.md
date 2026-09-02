@@ -1,10 +1,10 @@
 # 🧭 Research Map
 
-> **1377 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
+> **1378 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
 
 <div align="center">
 
-[**🆕 Latest 30 Days · 341 tracked**](LATEST_30D.md) · [**🏛️ Classical · 1286**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
+[**🆕 Latest 30 Days · 341 tracked**](LATEST_30D.md) · [**🏛️ Classical · 1287**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
 
 </div>
 
@@ -18,8 +18,8 @@
 | 04 | [**Quantization**](04-quantization.md) | **187** | **53** |
 | 05 | [**Sparsity / Pruning**](05-sparsity-pruning.md) | **224** | **67** |
 | 06 | [**Efficient Attention**](06-efficient-attention.md) | **201** | **53** |
-| 07 | [**MoE Systems / Accelerators**](07-moe-systems.md) | **106** | **33** |
-| 08 | [**GPU Kernel / DSL / Compiler**](08-gpu-kernel-compiler.md) | **327** | **75** |
+| 07 | [**MoE Systems / Accelerators**](07-moe-systems.md) | **107** | **33** |
+| 08 | [**GPU Kernel / DSL / Compiler**](08-gpu-kernel-compiler.md) | **328** | **75** |
 | 09 | [**Distributed Training / Inference**](09-distributed-training-inference.md) | **265** | **38** |
 | 10 | [**Multimodal / MLLM Serving**](10-multimodal-mllm-serving.md) | **174** | **61** |
 | 11 | [**Video / Image Generation**](11-video-image-generation.md) | **65** | **23** |
