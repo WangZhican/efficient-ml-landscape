@@ -5011,6 +5011,28 @@
     ]
   },
   {
+    "title": "DCP: Dual-Cue Pruning for Efficient Large Vision-Language Models",
+    "venue": "EMNLP 2025",
+    "topic": "multimodal/MLLM serving / visual token pruning",
+    "arxiv": "",
+    "doi": "10.18653/v1/2025.emnlp-main.1074",
+    "official_id": "2025.emnlp-main.1074",
+    "paper_url": "https://aclanthology.org/2025.emnlp-main.1074/",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
     "title": "Dovetail: A CPU/GPU Heterogeneous Speculative Decoding for LLM inference",
     "venue": "EMNLP 2025",
     "topic": "heterogeneous CPU/GPU inference / speculative decoding",
@@ -5111,6 +5133,26 @@
     "tracking_tier": "Canonical",
     "directions": [
       "KV Cache / Long Context"
+    ]
+  },
+  {
+    "title": "Firewall Routing: Blocking Leads to Better Hybrid Inference for LLMs",
+    "venue": "EMNLP 2025",
+    "topic": "LLM serving / efficient routing",
+    "arxiv": "",
+    "doi": "10.18653/v1/2025.emnlp-main.331",
+    "official_id": "2025.emnlp-main.331",
+    "paper_url": "https://aclanthology.org/2025.emnlp-main.331/",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving"
     ]
   },
   {
@@ -5402,6 +5444,26 @@
       "KV Cache / Long Context",
       "Sparsity / Pruning",
       "Efficient Attention"
+    ]
+  },
+  {
+    "title": "TokenSkip: Controllable Chain-of-Thought Compression in LLMs",
+    "venue": "EMNLP 2025",
+    "topic": "efficient reasoning / token compression",
+    "arxiv": "",
+    "doi": "10.18653/v1/2025.emnlp-main.165",
+    "official_id": "2025.emnlp-main.165",
+    "paper_url": "https://aclanthology.org/2025.emnlp-main.165/",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Reasoning / Agents"
     ]
   },
   {

@@ -1,6 +1,6 @@
 # 01 · LLM Serving
 
-> **551 canonical papers** mapped here, plus a broader **237-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **553 canonical papers** mapped here, plus a broader **237-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -246,7 +246,7 @@
 | **P1 · Watch** | **Here is a GIFT: Enforcing User Data Isolation in LLM Serving via GPU Information Flow Tracking** | Fresh / preprint | LLM serving / GPU runtime / confidential computing | [Link](https://arxiv.org/abs/2608.25431) | — |
 | **P1 · Watch** | **Edge-Native Embodied Intelligence for Action-Aware Wireless Edge Networks** | Fresh / preprint | VLA/WAM/Physical AI serving / edge-cloud / heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.17774) | — |
 
-## 🏛️ Classical / Historical · 503 canonical
+## 🏛️ Classical / Historical · 505 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -330,6 +330,8 @@
 | **Canonical** | **PacTrain: Pruning and Adaptive Sparse Gradient Compression for Efficient Collective Communication in Distributed Deep Learning** | DAC 2025 | distributed training / sparse gradient compression / collective communication | [Link](https://arxiv.org/abs/2505.18563) | — |
 | **Canonical** | **FlexAttention for Efficient High-Resolution Vision-Language Models** | ECCV 2024 | multimodal/MLLM serving / efficient attention | [Link](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/3642_ECCV_2024_paper.php) | — |
 | **Canonical** | **Turbo: Informativity-Driven Acceleration Plug-In for Vision-Language Large Models** | ECCV 2024 | VLM inference acceleration / token redundancy pruning | [Link](https://arxiv.org/abs/2407.11717) | [Repo](https://github.com/anakin-skywalker-Joseph/Folder) |
+| **Canonical** | **DCP: Dual-Cue Pruning for Efficient Large Vision-Language Models** | EMNLP 2025 | multimodal/MLLM serving / visual token pruning | [Link](https://aclanthology.org/2025.emnlp-main.1074/) | — |
+| **Canonical** | **Firewall Routing: Blocking Leads to Better Hybrid Inference for LLMs** | EMNLP 2025 | LLM serving / efficient routing | [Link](https://aclanthology.org/2025.emnlp-main.331/) | — |
 | **Canonical** | **SwiftKV: Fast Prefill-Optimized Inference with Knowledge-Preserving Model Transformation** | EMNLP 2025 | LLM serving / prefill acceleration / KV cache / inference systems | [Link](https://aclanthology.org/2025.emnlp-main.1306/) | [Repo](https://github.com/snowflakedb/arcticinference) |
 | **Canonical** | **AdaGen: Workload-Adaptive Cluster Scheduler for Latency-Optimal LLM Inference Serving** | EuroSys 2026 | LLM serving / cluster scheduling / SLO / distributed execution | [Link](https://2026.eurosys.org/papers.html) | — |
 | **Canonical** | **AdaServe: Accelerating Multi-SLO LLM Serving with SLO-Customized Speculative Decoding** | EuroSys 2026 | LLM serving / speculative decoding / multi-SLO | [Link](https://doi.org/10.1145/3767295.3769315) | — |
