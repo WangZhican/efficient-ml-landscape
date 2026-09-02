@@ -1,6 +1,6 @@
 # 13 · Efficient Reasoning / Agents
 
-> **223 canonical papers** mapped here, plus a broader **56-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **225 canonical papers** mapped here, plus a broader **56-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -65,10 +65,12 @@
 | **P2 · Relevant** | **SpecBox: Speculative Sandbox Scheduling for Efficient LLM Agent Serving** | Fresh / preprint | llm_serving / agent | [Link](https://arxiv.org/abs/2607.23933) | — |
 | **P2 · Relevant** | **Agentic CPU-GPU Scheduling for Heterogeneous AI Workloads** | Fresh / preprint | llm_serving / gen / agent / edge | [Link](https://arxiv.org/abs/2607.22242) | — |
 
-## 🏛️ Classical / Historical · 206 canonical
+## 🏛️ Classical / Historical · 208 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
+| **Canonical** | **Anti-Length Shift: Dynamic Outlier Truncation for Training Efficient Reasoning Models** | ACL 2026 | efficient reasoning / token reduction | [Link](https://aclanthology.org/2026.acl-long.1047/) | — |
+| **Canonical** | **Chain-of-Thought Compression Should Not Be Blind: V-Skip for Efficient Multimodal Reasoning via Dual-Path Anchoring** | ACL 2026 | efficient reasoning / multimodal token compression | [Link](https://aclanthology.org/2026.acl-long.887/) | — |
 | **Canonical** | **ConfSpec: Efficient Step-Level Speculative Reasoning via Confidence-Gated Verification** | ACL 2026 | efficient reasoning / step-level speculative verification | [Link](https://aclanthology.org/2026.acl-long.1221/) | — |
 | **Canonical** | **Guided by Gut: Efficient Test-Time Scaling with Reinforced Intrinsic Confidence** | ACL 2026 | efficient reasoning / test-time scaling / KV-memory reduction | [Link](https://arxiv.org/abs/2505.20325) | [Repo](https://github.com/Amirhosein-gh98/Guided-by-Gut) |
 | **Canonical** | **LazyEviction: Lagged KV Eviction with Attention Pattern Observation for Efficient Long Reasoning** | ACL 2026 | KV cache / efficient reasoning | [Link](https://doi.org/10.18653/v1/2026.acl-long.1683) | — |

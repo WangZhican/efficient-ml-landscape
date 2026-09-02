@@ -1,6 +1,6 @@
 # 04 · Quantization
 
-> **185 canonical papers** mapped here, plus a broader **53-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **187 canonical papers** mapped here, plus a broader **53-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -62,7 +62,7 @@
 | **P1 · Watch** | **Sparse by Command: Task-Conditional Compute Skipping for Multi-Task Inference Accelerators** | Fresh / preprint | llm_serving / quant / sparse / gen / edge | [Link](https://arxiv.org/abs/2607.22038) | — |
 | **P1 · Watch** | **Precision-Induced Miscalibration: Understanding and Correcting Confidence Distortion in Quantized Neural Networks** | ICML 2026 | quantization / low-precision calibration / confidence distortion / mixed precision | [Link](https://openreview.net/forum?id=zCkFbxKeF5) | — |
 
-## 🏛️ Classical / Historical · 173 canonical
+## 🏛️ Classical / Historical · 175 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -70,6 +70,8 @@
 | **Canonical** | **HALO: Hardware-Aware Quantization with Low Critical-Path-Delay Weights for LLM Acceleration** | AAAI 2026 | quantization / hardware-aware inference | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39406) | [Repo](https://github.com/ecolab-nus/HALO) |
 | **Canonical** | **KVmix: Gradient-Based Layer Importance-Aware Mixed-Precision Quantization for KV Cache** | AAAI 2026 | KV cache quantization / mixed precision | [Link](https://doi.org/10.1609/aaai.v40i37.40422) | — |
 | **Canonical** | **BTC-LLM: Efficient Sub-1-Bit LLM Quantization via Learnable Transformation and Binary Codebook** | ACL 2026 | quantization / efficient LLM inference | [Link](https://doi.org/10.18653/v1/2026.acl-long.1066) | — |
+| **Canonical** | **BWLA: Breaking the Barrier of W1AX Post-Training Quantization for LLMs** | ACL 2026 | quantization / low-bit LLM inference | [Link](https://aclanthology.org/2026.acl-long.880/) | — |
+| **Canonical** | **LBLLM: Lightweight Binarization of Large Language Models via Three-Stage Distillation** | ACL 2026 | quantization / low-bit LLM inference | [Link](https://aclanthology.org/2026.acl-long.1640/) | — |
 | **Canonical** | **MixKVQ: Query-Aware Mixed-Precision KV Cache Quantization for Long-Context Reasoning** | ACL 2026 | KV cache quantization / long-context reasoning / mixed precision | [Link](https://doi.org/10.18653/v1/2026.acl-long.326) | [Repo](https://github.com/ZeroNLP/MixKVQ) |
 | **Canonical** | **VecInfer: Efficient LLM Inference with Low-Bit KV Cache via Outlier-Suppressed Vector Quantization** | ACL 2026 | KV-cache quantization / low-bit LLM inference / CUDA kernel | [Link](https://aclanthology.org/2026.acl-long.1454/) | — |
 | **Canonical** | **DilateQuant: Accurate and Efficient Quantization-Aware Training for Diffusion Models via Weight Dilation** | ACM Multimedia 2025 | diffusion quantization / efficient inference | [Link](https://arxiv.org/abs/2409.14307) | — |

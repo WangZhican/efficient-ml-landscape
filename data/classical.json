@@ -487,6 +487,46 @@
     ]
   },
   {
+    "title": "Alloc-MoE: Budget-Aware Expert Activation Allocation for Efficient Mixture-of-Experts Inference",
+    "venue": "ACL 2026",
+    "topic": "MoE systems / efficient inference",
+    "arxiv": "",
+    "doi": "10.18653/v1/2026.acl-long.437",
+    "official_id": "2026.acl-long.437",
+    "paper_url": "https://aclanthology.org/2026.acl-long.437/",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "MoE Systems / Accelerators"
+    ]
+  },
+  {
+    "title": "Anti-Length Shift: Dynamic Outlier Truncation for Training Efficient Reasoning Models",
+    "venue": "ACL 2026",
+    "topic": "efficient reasoning / token reduction",
+    "arxiv": "",
+    "doi": "10.18653/v1/2026.acl-long.1047",
+    "official_id": "2026.acl-long.1047",
+    "paper_url": "https://aclanthology.org/2026.acl-long.1047/",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "BTC-LLM: Efficient Sub-1-Bit LLM Quantization via Learnable Transformation and Binary Codebook",
     "venue": "ACL 2026",
     "topic": "quantization / efficient LLM inference",
@@ -494,6 +534,26 @@
     "doi": "10.18653/v1/2026.acl-long.1066",
     "official_id": "2026.acl-long.1066",
     "paper_url": "https://doi.org/10.18653/v1/2026.acl-long.1066",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization"
+    ]
+  },
+  {
+    "title": "BWLA: Breaking the Barrier of W1AX Post-Training Quantization for LLMs",
+    "venue": "ACL 2026",
+    "topic": "quantization / low-bit LLM inference",
+    "arxiv": "",
+    "doi": "10.18653/v1/2026.acl-long.880",
+    "official_id": "2026.acl-long.880",
+    "paper_url": "https://aclanthology.org/2026.acl-long.880/",
     "code_url": "",
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "BACKFILL_HIGH",
@@ -524,6 +584,27 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Speculative Decoding"
+    ]
+  },
+  {
+    "title": "Chain-of-Thought Compression Should Not Be Blind: V-Skip for Efficient Multimodal Reasoning via Dual-Path Anchoring",
+    "venue": "ACL 2026",
+    "topic": "efficient reasoning / multimodal token compression",
+    "arxiv": "",
+    "doi": "10.18653/v1/2026.acl-long.887",
+    "official_id": "2026.acl-long.887",
+    "paper_url": "https://aclanthology.org/2026.acl-long.887/",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -632,6 +713,28 @@
     ]
   },
   {
+    "title": "Every Token Counts: Generalizing 16M Ultra-Long Context in Large Language Models",
+    "venue": "ACL 2026",
+    "topic": "efficient attention / ultra-long-context / MoE",
+    "arxiv": "",
+    "doi": "10.18653/v1/2026.acl-long.464",
+    "official_id": "2026.acl-long.464",
+    "paper_url": "https://aclanthology.org/2026.acl-long.464/",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Efficient Attention",
+      "MoE Systems / Accelerators"
+    ]
+  },
+  {
     "title": "Evolving Sparsity: Leveraging Token Importance Dynamics for Efficient LLM Decoding with Sparse Attention",
     "venue": "ACL 2026",
     "topic": "sparse attention / long-context decoding",
@@ -651,6 +754,27 @@
       "KV Cache / Long Context",
       "Sparsity / Pruning",
       "Efficient Attention"
+    ]
+  },
+  {
+    "title": "FLARE: Fine-Grained Length-Aware Routing for Resource-Efficient Heterogeneous LLM Serving",
+    "venue": "ACL 2026",
+    "topic": "LLM serving / heterogeneous routing",
+    "arxiv": "",
+    "doi": "10.18653/v1/2026.acl-long.1018",
+    "official_id": "2026.acl-long.1018",
+    "paper_url": "https://aclanthology.org/2026.acl-long.1018/",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -844,6 +968,26 @@
     ]
   },
   {
+    "title": "LBLLM: Lightweight Binarization of Large Language Models via Three-Stage Distillation",
+    "venue": "ACL 2026",
+    "topic": "quantization / low-bit LLM inference",
+    "arxiv": "",
+    "doi": "10.18653/v1/2026.acl-long.1640",
+    "official_id": "2026.acl-long.1640",
+    "paper_url": "https://aclanthology.org/2026.acl-long.1640/",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization"
+    ]
+  },
+  {
     "title": "LongSpec: Long-Context Lossless Speculative Decoding with Efficient Drafting and Verification",
     "venue": "ACL 2026",
     "topic": "speculative decoding / long-context inference",
@@ -904,6 +1048,28 @@
     "tracking_tier": "Canonical",
     "directions": [
       "KV Cache / Long Context"
+    ]
+  },
+  {
+    "title": "S2O: Early Stopping for Sparse Attention via Online Permutation",
+    "venue": "ACL 2026",
+    "topic": "efficient attention / sparse attention / long-context inference",
+    "arxiv": "",
+    "doi": "10.18653/v1/2026.acl-long.351",
+    "official_id": "2026.acl-long.351",
+    "paper_url": "https://aclanthology.org/2026.acl-long.351/",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Efficient Attention"
     ]
   },
   {
@@ -1012,6 +1178,28 @@
       "Quantization",
       "Efficient Attention",
       "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "Vista-LLM: Decoupled Query-Guided Visual Token Pruning for Efficient Long-Video Large Language Models",
+    "venue": "ACL 2026",
+    "topic": "multimodal/MLLM serving / visual token pruning",
+    "arxiv": "",
+    "doi": "10.18653/v1/2026.acl-long.601",
+    "official_id": "2026.acl-long.601",
+    "paper_url": "https://aclanthology.org/2026.acl-long.601/",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Multimodal / MLLM Serving"
     ]
   },
   {

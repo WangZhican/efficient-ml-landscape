@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **1353 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **341 visible papers = 91 P0 + 128 P1 + 122 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1362 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **341 visible papers = 91 P0 + 128 P1 + 122 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -364,7 +364,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 1262
+## 🏛️ Classical / Historical · 1271
 
 ### ICML 2026 · 373
 
@@ -1033,6 +1033,46 @@
 | **Canonical** | **VORTA: Efficient Video Diffusion via Routing Sparse Attention** | NeurIPS 2025 | video/image generation acceleration / efficient attention / diffusion | [Link](https://arxiv.org/abs/2505.18809) | [Repo](https://github.com/wenhao728/VORTA) |
 | **Canonical** | **Zebra-Llama: Towards Extremely Efficient Hybrid Models** | NeurIPS 2025 | efficient hybrid LLM architecture / KV reduction | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/7089237e828d55febd85a8d07f89e102-Abstract-Conference.html) | [Repo](https://github.com/AMD-AGI/AMD-Hybrid-Models) |
 
+### ACL 2026 · 35
+
+| Priority | Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|---|
+| **Canonical** | **AdapShot: Adaptive Many-Shot In-Context Learning with Semantic-Aware KV Cache Reuse** | ACL 2026 | KV reuse / efficient in-context learning | [Link](https://doi.org/10.18653/v1/2026.acl-long.1990) | — |
+| **Canonical** | **Alloc-MoE: Budget-Aware Expert Activation Allocation for Efficient Mixture-of-Experts Inference** | ACL 2026 | MoE systems / efficient inference | [Link](https://aclanthology.org/2026.acl-long.437/) | — |
+| **Canonical** | **Anti-Length Shift: Dynamic Outlier Truncation for Training Efficient Reasoning Models** | ACL 2026 | efficient reasoning / token reduction | [Link](https://aclanthology.org/2026.acl-long.1047/) | — |
+| **Canonical** | **BTC-LLM: Efficient Sub-1-Bit LLM Quantization via Learnable Transformation and Binary Codebook** | ACL 2026 | quantization / efficient LLM inference | [Link](https://doi.org/10.18653/v1/2026.acl-long.1066) | — |
+| **Canonical** | **BWLA: Breaking the Barrier of W1AX Post-Training Quantization for LLMs** | ACL 2026 | quantization / low-bit LLM inference | [Link](https://aclanthology.org/2026.acl-long.880/) | — |
+| **Canonical** | **Calibrated Speculative Decoding: Frequency-Guided Candidate Selection for Efficient Inference** | ACL 2026 | speculative decoding / training-free inference acceleration | [Link](https://doi.org/10.18653/v1/2026.acl-long.1369) | — |
+| **Canonical** | **Chain-of-Thought Compression Should Not Be Blind: V-Skip for Efficient Multimodal Reasoning via Dual-Path Anchoring** | ACL 2026 | efficient reasoning / multimodal token compression | [Link](https://aclanthology.org/2026.acl-long.887/) | — |
+| **Canonical** | **ConfSpec: Efficient Step-Level Speculative Reasoning via Confidence-Gated Verification** | ACL 2026 | efficient reasoning / step-level speculative verification | [Link](https://aclanthology.org/2026.acl-long.1221/) | — |
+| **Canonical** | **ContrastKV: Robust KV Cache Eviction via Contrastive Signal Fusion for Multi-Query Generalization** | ACL 2026 | KV-cache eviction / long-context multi-query inference | [Link](https://aclanthology.org/2026.acl-long.417/) | — |
+| **Canonical** | **DREAM-S: Speculative Decoding with Searchable Drafting and Target-Aware Refinement for Multimodal Generation** | ACL 2026 | speculative decoding / multimodal MLLM serving / hardware-aware draft design | [Link](https://arxiv.org/abs/2606.00535) | [Repo](https://github.com/SAI-Lab-NYU/DREAM-S) |
+| **Canonical** | **EDSD: Entropy-Driven Design for Faster Speculative Decoding** | ACL 2026 | speculative decoding / entropy-guided draft design | [Link](https://aclanthology.org/2026.acl-long.2145/) | — |
+| **Canonical** | **EfficientLLM: Unified Pruning-Aware Pretraining for Auto-Designed Compact Language Models** | ACL 2026 | pruning / compact edge LLM | [Link](https://doi.org/10.18653/v1/2026.acl-long.355) | — |
+| **Canonical** | **Every Token Counts: Generalizing 16M Ultra-Long Context in Large Language Models** | ACL 2026 | efficient attention / ultra-long-context / MoE | [Link](https://aclanthology.org/2026.acl-long.464/) | — |
+| **Canonical** | **Evolving Sparsity: Leveraging Token Importance Dynamics for Efficient LLM Decoding with Sparse Attention** | ACL 2026 | sparse attention / long-context decoding | [Link](https://doi.org/10.18653/v1/2026.acl-long.530) | — |
+| **Canonical** | **FLARE: Fine-Grained Length-Aware Routing for Resource-Efficient Heterogeneous LLM Serving** | ACL 2026 | LLM serving / heterogeneous routing | [Link](https://aclanthology.org/2026.acl-long.1018/) | — |
+| **Canonical** | **Focus-dLLM: Accelerating Long-Context Diffusion LLM Inference via Confidence-Guided Context Focusing** | ACL 2026 | diffusion LLM / sparse attention | [Link](https://doi.org/10.18653/v1/2026.acl-long.556) | — |
+| **Canonical** | **Guided by Gut: Efficient Test-Time Scaling with Reinforced Intrinsic Confidence** | ACL 2026 | efficient reasoning / test-time scaling / KV-memory reduction | [Link](https://arxiv.org/abs/2505.20325) | [Repo](https://github.com/Amirhosein-gh98/Guided-by-Gut) |
+| **Canonical** | **HCSpec: Two-Tier Horizontal Cascade Speculative Decoding for High-Efficiency Large Language Model Inference** | ACL 2026 | speculative decoding / cascade verification | [Link](https://doi.org/10.18653/v1/2026.acl-long.353) | — |
+| **Canonical** | **HERMES: KV Cache as Hierarchical Memory for Efficient Streaming Video Understanding** | ACL 2026 | multimodal streaming / KV cache | [Link](https://doi.org/10.18653/v1/2026.acl-long.381) | — |
+| **Canonical** | **HeteroSpec: Leveraging Contextual Heterogeneity for Efficient Speculative Decoding** | ACL 2026 | speculative decoding / adaptive verification | [Link](https://doi.org/10.18653/v1/2026.acl-long.589) | — |
+| **Canonical** | **HybridKV: Hybrid KV Cache Compression for Efficient Multimodal Large Language Model Inference** | ACL 2026 | multimodal KV-cache compression / efficient MLLM inference | [Link](https://aclanthology.org/2026.acl-long.594/) | — |
+| **Canonical** | **Jakiro: Boosting Speculative Decoding via Decoupled MoE** | ACL 2026 | speculative decoding / MoE draft model | [Link](https://doi.org/10.18653/v1/2026.acl-long.487) | — |
+| **Canonical** | **Latent-Condensed Transformer for Efficient Long Context Modeling** | ACL 2026 | efficient attention / KV compression | [Link](https://doi.org/10.18653/v1/2026.acl-long.1176) | — |
+| **Canonical** | **LazyEviction: Lagged KV Eviction with Attention Pattern Observation for Efficient Long Reasoning** | ACL 2026 | KV cache / efficient reasoning | [Link](https://doi.org/10.18653/v1/2026.acl-long.1683) | — |
+| **Canonical** | **LBLLM: Lightweight Binarization of Large Language Models via Three-Stage Distillation** | ACL 2026 | quantization / low-bit LLM inference | [Link](https://aclanthology.org/2026.acl-long.1640/) | — |
+| **Canonical** | **LongSpec: Long-Context Lossless Speculative Decoding with Efficient Drafting and Verification** | ACL 2026 | speculative decoding / long-context inference | [Link](https://doi.org/10.18653/v1/2026.acl-long.83) | — |
+| **Canonical** | **MixKVQ: Query-Aware Mixed-Precision KV Cache Quantization for Long-Context Reasoning** | ACL 2026 | KV cache quantization / long-context reasoning / mixed precision | [Link](https://doi.org/10.18653/v1/2026.acl-long.326) | [Repo](https://github.com/ZeroNLP/MixKVQ) |
+| **Canonical** | **Question Tells You Where the Answer Is: Intention-aware Long-Context KV Cache Compression** | ACL 2026 | KV cache / long-context inference | [Link](https://doi.org/10.18653/v1/2026.acl-long.1250) | — |
+| **Canonical** | **S2O: Early Stopping for Sparse Attention via Online Permutation** | ACL 2026 | efficient attention / sparse attention / long-context inference | [Link](https://aclanthology.org/2026.acl-long.351/) | — |
+| **Canonical** | **See the Forest for the Trees: Loosely Speculative Decoding via Visual-Semantic Guidance for Efficient Inference of Video LLMs** | ACL 2026 | multimodal serving / speculative decoding | [Link](https://doi.org/10.18653/v1/2026.acl-long.1087) | — |
+| **Canonical** | **SpecCache: Speculative KV Cache Reuse for Efficient RAG Serving** | ACL 2026 | RAG serving / KV cache reuse | [Link](https://doi.org/10.18653/v1/2026.acl-long.859) | — |
+| **Canonical** | **SSSD: Simply-Scalable Speculative Decoding** | ACL 2026 | speculative decoding / serving | [Link](https://doi.org/10.18653/v1/2026.acl-long.1530) | — |
+| **Canonical** | **UniSpec: Training-Free Speculative Decoding for Robust LLM Acceleration Across Languages and Hardware** | ACL 2026 | speculative decoding / hardware-aware calibration | [Link](https://doi.org/10.18653/v1/2026.acl-long.285) | — |
+| **Canonical** | **VecInfer: Efficient LLM Inference with Low-Bit KV Cache via Outlier-Suppressed Vector Quantization** | ACL 2026 | KV-cache quantization / low-bit LLM inference / CUDA kernel | [Link](https://aclanthology.org/2026.acl-long.1454/) | — |
+| **Canonical** | **Vista-LLM: Decoupled Query-Guided Visual Token Pruning for Efficient Long-Video Large Language Models** | ACL 2026 | multimodal/MLLM serving / visual token pruning | [Link](https://aclanthology.org/2026.acl-long.601/) | — |
+
 ### ICLR 2026 · 35
 
 | Priority | Paper | Venue | Topic | Paper | Code |
@@ -1254,37 +1294,6 @@
 | **Canonical** | **Tiamat: A 98-to-134ms/Step Transformer-Based Diffusion Model Processor Supporting Classifier-Free Guidance for Image Generation** | ISSCC 2026 | diffusion/flow acceleration / image generation accelerator / transformer hardware | [Link](https://www.ee.nthu.edu.tw/vcslab/publications.html) | — |
 | **Canonical** | **Tri-Oracle: A 17.78μJ/Token Vision-Language Model Accelerator with Token-Attention-Weight Redundancy Prediction** | ISSCC 2026 | VLM accelerator / token pruning / attention sparsity / weight sparsity | [Link](https://doi.org/10.1109/ISSCC49663.2026.11408987) | — |
 | **Canonical** | **VARSA: A Visual Autoregressive Generation Accelerator Using Performance-Scalable Multi-Precision PE-LUT and Grid-Similarity Attention Compression** | ISSCC 2026 | visual autoregressive generation / multi-precision acceleration / attention compression | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409066) | — |
-
-### ACL 2026 · 26
-
-| Priority | Paper | Venue | Topic | Paper | Code |
-|---|---|---|---|---|---|
-| **Canonical** | **AdapShot: Adaptive Many-Shot In-Context Learning with Semantic-Aware KV Cache Reuse** | ACL 2026 | KV reuse / efficient in-context learning | [Link](https://doi.org/10.18653/v1/2026.acl-long.1990) | — |
-| **Canonical** | **BTC-LLM: Efficient Sub-1-Bit LLM Quantization via Learnable Transformation and Binary Codebook** | ACL 2026 | quantization / efficient LLM inference | [Link](https://doi.org/10.18653/v1/2026.acl-long.1066) | — |
-| **Canonical** | **Calibrated Speculative Decoding: Frequency-Guided Candidate Selection for Efficient Inference** | ACL 2026 | speculative decoding / training-free inference acceleration | [Link](https://doi.org/10.18653/v1/2026.acl-long.1369) | — |
-| **Canonical** | **ConfSpec: Efficient Step-Level Speculative Reasoning via Confidence-Gated Verification** | ACL 2026 | efficient reasoning / step-level speculative verification | [Link](https://aclanthology.org/2026.acl-long.1221/) | — |
-| **Canonical** | **ContrastKV: Robust KV Cache Eviction via Contrastive Signal Fusion for Multi-Query Generalization** | ACL 2026 | KV-cache eviction / long-context multi-query inference | [Link](https://aclanthology.org/2026.acl-long.417/) | — |
-| **Canonical** | **DREAM-S: Speculative Decoding with Searchable Drafting and Target-Aware Refinement for Multimodal Generation** | ACL 2026 | speculative decoding / multimodal MLLM serving / hardware-aware draft design | [Link](https://arxiv.org/abs/2606.00535) | [Repo](https://github.com/SAI-Lab-NYU/DREAM-S) |
-| **Canonical** | **EDSD: Entropy-Driven Design for Faster Speculative Decoding** | ACL 2026 | speculative decoding / entropy-guided draft design | [Link](https://aclanthology.org/2026.acl-long.2145/) | — |
-| **Canonical** | **EfficientLLM: Unified Pruning-Aware Pretraining for Auto-Designed Compact Language Models** | ACL 2026 | pruning / compact edge LLM | [Link](https://doi.org/10.18653/v1/2026.acl-long.355) | — |
-| **Canonical** | **Evolving Sparsity: Leveraging Token Importance Dynamics for Efficient LLM Decoding with Sparse Attention** | ACL 2026 | sparse attention / long-context decoding | [Link](https://doi.org/10.18653/v1/2026.acl-long.530) | — |
-| **Canonical** | **Focus-dLLM: Accelerating Long-Context Diffusion LLM Inference via Confidence-Guided Context Focusing** | ACL 2026 | diffusion LLM / sparse attention | [Link](https://doi.org/10.18653/v1/2026.acl-long.556) | — |
-| **Canonical** | **Guided by Gut: Efficient Test-Time Scaling with Reinforced Intrinsic Confidence** | ACL 2026 | efficient reasoning / test-time scaling / KV-memory reduction | [Link](https://arxiv.org/abs/2505.20325) | [Repo](https://github.com/Amirhosein-gh98/Guided-by-Gut) |
-| **Canonical** | **HCSpec: Two-Tier Horizontal Cascade Speculative Decoding for High-Efficiency Large Language Model Inference** | ACL 2026 | speculative decoding / cascade verification | [Link](https://doi.org/10.18653/v1/2026.acl-long.353) | — |
-| **Canonical** | **HERMES: KV Cache as Hierarchical Memory for Efficient Streaming Video Understanding** | ACL 2026 | multimodal streaming / KV cache | [Link](https://doi.org/10.18653/v1/2026.acl-long.381) | — |
-| **Canonical** | **HeteroSpec: Leveraging Contextual Heterogeneity for Efficient Speculative Decoding** | ACL 2026 | speculative decoding / adaptive verification | [Link](https://doi.org/10.18653/v1/2026.acl-long.589) | — |
-| **Canonical** | **HybridKV: Hybrid KV Cache Compression for Efficient Multimodal Large Language Model Inference** | ACL 2026 | multimodal KV-cache compression / efficient MLLM inference | [Link](https://aclanthology.org/2026.acl-long.594/) | — |
-| **Canonical** | **Jakiro: Boosting Speculative Decoding via Decoupled MoE** | ACL 2026 | speculative decoding / MoE draft model | [Link](https://doi.org/10.18653/v1/2026.acl-long.487) | — |
-| **Canonical** | **Latent-Condensed Transformer for Efficient Long Context Modeling** | ACL 2026 | efficient attention / KV compression | [Link](https://doi.org/10.18653/v1/2026.acl-long.1176) | — |
-| **Canonical** | **LazyEviction: Lagged KV Eviction with Attention Pattern Observation for Efficient Long Reasoning** | ACL 2026 | KV cache / efficient reasoning | [Link](https://doi.org/10.18653/v1/2026.acl-long.1683) | — |
-| **Canonical** | **LongSpec: Long-Context Lossless Speculative Decoding with Efficient Drafting and Verification** | ACL 2026 | speculative decoding / long-context inference | [Link](https://doi.org/10.18653/v1/2026.acl-long.83) | — |
-| **Canonical** | **MixKVQ: Query-Aware Mixed-Precision KV Cache Quantization for Long-Context Reasoning** | ACL 2026 | KV cache quantization / long-context reasoning / mixed precision | [Link](https://doi.org/10.18653/v1/2026.acl-long.326) | [Repo](https://github.com/ZeroNLP/MixKVQ) |
-| **Canonical** | **Question Tells You Where the Answer Is: Intention-aware Long-Context KV Cache Compression** | ACL 2026 | KV cache / long-context inference | [Link](https://doi.org/10.18653/v1/2026.acl-long.1250) | — |
-| **Canonical** | **See the Forest for the Trees: Loosely Speculative Decoding via Visual-Semantic Guidance for Efficient Inference of Video LLMs** | ACL 2026 | multimodal serving / speculative decoding | [Link](https://doi.org/10.18653/v1/2026.acl-long.1087) | — |
-| **Canonical** | **SpecCache: Speculative KV Cache Reuse for Efficient RAG Serving** | ACL 2026 | RAG serving / KV cache reuse | [Link](https://doi.org/10.18653/v1/2026.acl-long.859) | — |
-| **Canonical** | **SSSD: Simply-Scalable Speculative Decoding** | ACL 2026 | speculative decoding / serving | [Link](https://doi.org/10.18653/v1/2026.acl-long.1530) | — |
-| **Canonical** | **UniSpec: Training-Free Speculative Decoding for Robust LLM Acceleration Across Languages and Hardware** | ACL 2026 | speculative decoding / hardware-aware calibration | [Link](https://doi.org/10.18653/v1/2026.acl-long.285) | — |
-| **Canonical** | **VecInfer: Efficient LLM Inference with Low-Bit KV Cache via Outlier-Suppressed Vector Quantization** | ACL 2026 | KV-cache quantization / low-bit LLM inference / CUDA kernel | [Link](https://aclanthology.org/2026.acl-long.1454/) | — |
 
 ### EMNLP 2025 · 26
 
