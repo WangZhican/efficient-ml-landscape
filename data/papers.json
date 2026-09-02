@@ -4128,6 +4128,29 @@
     ]
   },
   {
+    "title": "Nitsum: Serving Tiered LLM Requests with Adaptive Tensor Parallelism",
+    "venue": "CoRR 2026",
+    "topic": "LLM serving / distributed inference / adaptive tensor parallelism / multi-tier SLO",
+    "arxiv": "2605.05467",
+    "doi": "",
+    "official_id": "2605.05467",
+    "paper_url": "https://arxiv.org/abs/2605.05467",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "UCSD WukLab direct distributed LLM-serving system. Nitsum promotes tensor parallelism to a runtime control surface and jointly adapts TP degree, prefill/decode GPU allocation, request scheduling, TP-aware weight reuse and KV migration; WukLab reports up to 5.3x SLO-compliant goodput over strong serving baselines.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "Pythia: Toward Predictability-Driven Agent-Native LLM Serving",
     "venue": "CoRR 2026",
     "topic": "LLM serving / efficient reasoning/agent systems / multi-agent serving / prefix cache / scaling",
@@ -4146,6 +4169,49 @@
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "TClone: Low-Latency Forking of Live GUI Environments for Computer-Use Agents",
+    "venue": "CoRR 2026",
+    "topic": "efficient reasoning/agent systems / computer-use agent runtime / workspace forking / systems infrastructure",
+    "arxiv": "2605.17320",
+    "doi": "",
+    "official_id": "2605.17320",
+    "paper_url": "https://arxiv.org/abs/2605.17320",
+    "code_url": "https://github.com/WukLab/os4agent",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "UCSD WukLab direct agent-runtime infrastructure with official code. TClone makes a live GUI workspace forkable via sibling containers, copy-on-write memory/file-cache sharing, filesystem versioning and asynchronous checkpointing, enabling speculative/parallel agent execution; reported end-to-end task latency improves 1.9x over KVM and 1.5x over CRIU.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Speculative Decoding",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "VibeServe: Can AI Agents Build Bespoke LLM Serving Systems?",
+    "venue": "CoRR 2026",
+    "topic": "LLM serving / efficient agent systems / automated systems optimization / specialized serving stacks",
+    "arxiv": "2605.06068",
+    "doi": "",
+    "official_id": "2605.06068",
+    "paper_url": "https://arxiv.org/abs/2605.06068",
+    "code_url": "https://github.com/uw-syfi/vibe-serve",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "UW SyFI direct LLM-serving systems work with official code. VibeServe uses a multi-agent optimization loop to synthesize end-to-end serving stacks specialized to model/workload/hardware targets; it remains competitive with vLLM on standard deployments and exploits non-standard scenarios such as predicted-output decoding, hybrid prompt caching, constrained decoding, multimodal inference and Apple Silicon.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
       "Efficient Reasoning / Agents"
     ]
   },
@@ -21695,6 +21761,29 @@
     ]
   },
   {
+    "title": "DynaFlow: Transparent and Flexible Intra-Device Parallelism via Programmable Operator Scheduling",
+    "venue": "MLSys 2026",
+    "topic": "GPU kernel/DSL/compilers / ML systems / intra-device parallelism / programmable operator scheduling",
+    "arxiv": "2605.21603",
+    "doi": "",
+    "official_id": "2605.21603",
+    "paper_url": "https://arxiv.org/abs/2605.21603",
+    "code_url": "https://github.com/uw-syfi/DynaFlow",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "UW SyFI direct ML-systems work, MLSys 2026. DynaFlow decouples logical model definition from physical operator execution schedule, enabling compute/communication overlap and other intra-device parallel strategies without invasive model rewrites while remaining compatible with CUDA Graphs/TorchInductor; evaluation reports up to 1.29x throughput improvement.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Efficient Long-Context Language Model Training by Core Attention Disaggregation",
     "venue": "MLSys 2026",
     "topic": "distributed training / long context / attention disaggregation",
@@ -25554,6 +25643,27 @@
       "Sparsity / Pruning",
       "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "Compass: SLO-aware Query Planner for Compound AI Serving at Scale",
+    "venue": "PVLDB / VLDB 2026",
+    "topic": "LLM serving / compound AI serving / cloud-edge heterogeneous systems / SLO-aware planning",
+    "arxiv": "2504.16397",
+    "doi": "10.14778/3819518.3819524",
+    "official_id": "2504.16397",
+    "paper_url": "https://arxiv.org/abs/2504.16397",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "UIUC Fan Lai group direct AI-infrastructure work, formally published at VLDB 2026. Compass jointly plans operator placement, configuration and resource allocation for compound-AI pipelines across cloud/edge deployment spaces; official VLDB program reports 2.4-5.1x higher service goodput, 3.8-4.5x lower deployment cost, and 4.2-10.5x faster planning.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
