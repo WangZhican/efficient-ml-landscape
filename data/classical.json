@@ -3773,6 +3773,29 @@
     ]
   },
   {
+    "title": "Efficient-WAM: A 1B-Parameter World-Action Model with Low-Cost Future Imagination",
+    "venue": "CoRR 2026",
+    "topic": "VLA/WAM/Physical AI serving / efficient world-action model / sparse future latents / asymmetric denoising",
+    "arxiv": "2606.10040",
+    "doi": "",
+    "official_id": "2606.10040",
+    "paper_url": "https://arxiv.org/abs/2606.10040",
+    "code_url": "https://github.com/jiajun613/Efficient-WAM",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "PKU Shanghang Zhang direct Physical-AI efficiency work. Efficient-WAM compresses future imagination with a compact video expert, token-sparse future latents, and asymmetric video-action denoising; the official project reports about 100 ms per action chunk in physical deployment and up to 30x speedup over heavier WAMs while retaining competitive control performance.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Diffusion / Flow Acceleration",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "ES-dLLM: Efficient Inference for Diffusion Large Language Models by Early-Skipping",
     "venue": "CoRR 2026",
     "topic": "diffusion/flow acceleration / diffusion language model inference / token skipping / KV-hidden-state reuse",
@@ -3834,6 +3857,28 @@
     "directions": [
       "MoE Systems / Accelerators",
       "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "Light-WAM: Efficient World Action Models with State-Fusion Action Decoding",
+    "venue": "CoRR 2026",
+    "topic": "VLA/WAM/Physical AI serving / lightweight world-action model / action-head efficiency / latent supervision",
+    "arxiv": "2606.08242",
+    "doi": "",
+    "official_id": "2606.08242",
+    "paper_url": "https://arxiv.org/abs/2606.08242",
+    "code_url": "https://github.com/L1ziang/Light-WAM",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Direct efficient Physical-AI/WAM work. Light-WAM uses a compact video backbone, downsampled future-video latent supervision and StateFusionActionExpert to predict action chunks in one forward pass instead of a heavy generative action head. It reports 0.44B trainable parameters, 72.03 ms inference latency, 4.1 GiB peak GPU memory and improved training throughput.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "VLA / WAM / Physical AI"
     ]
   },
   {
