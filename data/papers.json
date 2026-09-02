@@ -1960,6 +1960,53 @@
     ]
   },
   {
+    "title": "BaseRT: Advancing Best-in-Class LLM Inference with Apple M5 Neural Accelerators",
+    "venue": "arXiv 2026",
+    "topic": "edge/on-device LLM inference; Apple M5 neural accelerators; Metal 4 tensor kernels; MoE; attention",
+    "arxiv": "2607.19438",
+    "doi": "",
+    "official_id": "arXiv:2607.19438",
+    "paper_url": "https://arxiv.org/abs/2607.19438",
+    "code_url": "https://github.com/basecompute/baseRT",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Distinct BaseRT hardware-generation paper: hand-written Metal 4 tensor-core dense/MoE GEMM and flash-attention kernels for M5 neural accelerators; reports up to 6.4x prompt-processing throughput over llama.cpp and 3.9x over MLX, with decode gains retained.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Efficient Attention",
+      "MoE Systems / Accelerators",
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "BaseRT: Best-in-Class LLM Inference on Apple Silicon via Native Metal",
+    "venue": "arXiv 2026",
+    "topic": "edge/on-device LLM inference runtime; Apple Silicon; Metal kernels; quantization",
+    "arxiv": "2607.00501",
+    "doi": "",
+    "official_id": "arXiv:2607.00501",
+    "paper_url": "https://arxiv.org/abs/2607.00501",
+    "code_url": "https://github.com/basecompute/baseRT",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Apple-Silicon native-runtime canonical gap: framework-free Metal runtime with chip-specific kernel fusion, unified-memory-aware optimization and custom dispatch; supports Q2-FP16 and reports up to 1.56x decode throughput over llama.cpp and 1.35x over MLX.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "CacheBridge: Efficient Cross-Model KV Cache Transfer",
     "venue": "arXiv 2026",
     "topic": "KV cache / multi-model serving / GPU kernel",
@@ -2288,6 +2335,28 @@
       "Speculative Decoding",
       "KV Cache / Long Context",
       "Quantization"
+    ]
+  },
+  {
+    "title": "Native LLM and MLLM Inference at Scale on Apple Silicon",
+    "venue": "arXiv 2026",
+    "topic": "edge/on-device LLM and MLLM serving; Apple Silicon; MLX; continuous batching; prefix caching",
+    "arxiv": "2601.19139",
+    "doi": "",
+    "official_id": "arXiv:2601.19139",
+    "paper_url": "https://arxiv.org/abs/2601.19139",
+    "code_url": "https://github.com/waybarrios/vllm-mlx",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Apple-Silicon serving canonical gap: vllm-mlx provides native MLX continuous batching plus content-based multimodal prefix caching; reports 21-87% higher text throughput than llama.cpp, 4.3x aggregate throughput at concurrency 16, and up to 28x repeated-image-query acceleration on M4 Max.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
