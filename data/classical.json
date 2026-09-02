@@ -3706,6 +3706,29 @@
     ]
   },
   {
+    "title": "Action Chunk Scheduling for Batched Robot Policy Serving",
+    "venue": "CoRL 2026 Spotlight / RSS 2026 L2P Workshop",
+    "topic": "VLA/WAM/Physical AI serving / multi-robot policy serving / action chunk scheduling / cloud robotics",
+    "arxiv": "2608.00337",
+    "doi": "",
+    "official_id": "2608.00337",
+    "paper_url": "https://arxiv.org/abs/2608.00337",
+    "code_url": "https://github.com/GaTech-RL2/armory",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Georgia Tech RL2/Danfei Xu direct Physical-AI serving work. Armory formulates batched robot policy serving as a control-aware scheduling problem, mirrors each robot action queue and communication delay, and uses Lookahead scheduling to reduce starvation under heterogeneous action-consumption rates. Evaluation on LIBERO-10 and a 10-PiPER real-robot fleet served from one L40S with pi0.5 reports up to about 18% higher overall real-world throughput over EDF in the heterogeneous setting.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "SageAttention2++: A More Efficient Implementation of SageAttention2",
     "venue": "CoRR 2025",
     "topic": "efficient attention / quantization / GPU kernels / FP8 attention",

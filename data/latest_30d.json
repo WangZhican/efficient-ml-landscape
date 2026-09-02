@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-02",
   "window_start_beijing": "2026-08-03",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 341,
+  "tracked_total": 340,
   "p0_strong_or_canonical": [
     {
       "title": "DASC: Decay-Aware State Compression for Hybrid Linear-Attention Serving",
@@ -6502,29 +6502,6 @@
       "directions": [
         "LLM Serving",
         "Distributed Training / Inference"
-      ]
-    },
-    {
-      "title": "Action Chunk Scheduling for Batched Robot Policy Serving",
-      "venue": "",
-      "topic": "LLM serving; multimodal / MLLM; generation acceleration; Physical AI; edge / heterogeneous AI",
-      "arxiv": "2608.00337",
-      "doi": "",
-      "official_id": "",
-      "paper_url": "https://arxiv.org/abs/2608.00337",
-      "code_url": "",
-      "formal_class": "RELEVANT_LOW_PRIORITY",
-      "decision": "P2_RELEVANT_LOW_PRIORITY",
-      "tracking_tier": "P2 · Relevant",
-      "why": "Directly relevant to the Efficient ML / AI Infra tracking scope, but retained below Strong/Watch pending deeper quality, novelty, evidence, venue, or adoption review.",
-      "published_at": "2026-07-31T22:58:59Z",
-      "updated_at": "2026-07-31T22:58:59Z",
-      "is_latest_30d": true,
-      "directions": [
-        "LLM Serving",
-        "Multimodal / MLLM Serving",
-        "VLA / WAM / Physical AI",
-        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -13919,29 +13896,6 @@
       "directions": [
         "LLM Serving",
         "Distributed Training / Inference"
-      ]
-    },
-    {
-      "title": "Action Chunk Scheduling for Batched Robot Policy Serving",
-      "venue": "",
-      "topic": "LLM serving; multimodal / MLLM; generation acceleration; Physical AI; edge / heterogeneous AI",
-      "arxiv": "2608.00337",
-      "doi": "",
-      "official_id": "",
-      "paper_url": "https://arxiv.org/abs/2608.00337",
-      "code_url": "",
-      "formal_class": "RELEVANT_LOW_PRIORITY",
-      "decision": "P2_RELEVANT_LOW_PRIORITY",
-      "tracking_tier": "P2 · Relevant",
-      "why": "Directly relevant to the Efficient ML / AI Infra tracking scope, but retained below Strong/Watch pending deeper quality, novelty, evidence, venue, or adoption review.",
-      "published_at": "2026-07-31T22:58:59Z",
-      "updated_at": "2026-07-31T22:58:59Z",
-      "is_latest_30d": true,
-      "directions": [
-        "LLM Serving",
-        "Multimodal / MLLM Serving",
-        "VLA / WAM / Physical AI",
-        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
