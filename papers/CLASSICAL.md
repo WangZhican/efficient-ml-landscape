@@ -1,6 +1,6 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **1368 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **1369 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
@@ -639,7 +639,7 @@
 | **Canonical** | **vAttention: Verified Sparse Attention via Sampling** | ICLR 2026 | efficient attention / sparse attention / long-context decoding | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/55cb562b1f5af71f6707f3ff3c7941e6-Abstract-Conference.html) | — |
 | **Canonical** | **WINA: Weight Informed Neuron Activation for Accelerating Large Language Model Inference** | ICLR 2026 | training-free sparse activation / LLM inference | [Link](https://openreview.net/pdf?id=l7Vb3yxmuz) | — |
 
-## arXiv 2026 · 36
+## arXiv 2026 · 37
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -679,6 +679,7 @@
 | **Canonical** | **Statistically-Lossless Quantization of Large Language Models** | arXiv 2026 | LLM quantization; statistically-lossless compression; low-bit inference; optimized kernels | [Link](https://arxiv.org/abs/2605.02404) | [Repo](https://github.com/IST-DASLab/SLQ) |
 | **Canonical** | **StreamFusion: Scalable Sequence Parallelism for Distributed Inference of Diffusion Transformers on GPUs** | arXiv 2026 | video/image generation acceleration; diffusion/flow acceleration; distributed inference; sequence parallelism; GPU communication | [Link](https://arxiv.org/abs/2601.20273) | — |
 | **Canonical** | **vla.cpp: A Unified Inference Runtime for Vision-Language-Action Models** | arXiv 2026 | VLA/WAM/Physical AI serving / portable runtime / edge deployment / quantized inference | [Link](https://arxiv.org/abs/2606.08094) | [Repo](https://github.com/VinRobotics/vla.cpp) |
+| **Canonical** | **Vortex: Efficient and Programmable Sparse Attention Serving for AI Agents** | arXiv 2026 | efficient attention / sparse attention serving / LLM serving / agent systems / GPU kernels | [Link](https://arxiv.org/abs/2606.06453) | [Repo](https://github.com/Infini-AI-Lab/vortex_torch) |
 
 ## ICCV 2025 · 36
 

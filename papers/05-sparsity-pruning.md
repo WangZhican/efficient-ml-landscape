@@ -1,6 +1,6 @@
 # 05 · Sparsity / Pruning
 
-> **228 canonical papers** mapped here, plus a broader **64-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **229 canonical papers** mapped here, plus a broader **64-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -73,7 +73,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 217 canonical
+## 🏛️ Classical / Historical · 218 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -101,6 +101,7 @@
 | **Canonical** | **VISA: Group-wise Visual Token Selection and Aggregation via Graph Summarization for Efficient MLLMs Inference** | ACM Multimedia 2025 | MLLM inference / visual token pruning and aggregation | [Link](https://arxiv.org/abs/2508.17857) | — |
 | **Canonical** | **Model Compression with Exact Budget Constraints via Riemannian Manifolds** | arXiv 2026 | LLM compression; mixed-precision quantization; MoE expert pruning; exact-budget optimization | [Link](https://arxiv.org/abs/2605.00649) | [Repo](https://github.com/IST-DASLab/RCO) |
 | **Canonical** | **SAC: Disaggregated KV Cache System for Sparse Attention LLMs with CXL** | arXiv 2026 | LLM serving / KV cache / sparse attention / disaggregated memory / CXL | [Link](https://arxiv.org/abs/2606.19746) | — |
+| **Canonical** | **Vortex: Efficient and Programmable Sparse Attention Serving for AI Agents** | arXiv 2026 | efficient attention / sparse attention serving / LLM serving / agent systems / GPU kernels | [Link](https://arxiv.org/abs/2606.06453) | [Repo](https://github.com/Infini-AI-Lab/vortex_torch) |
 | **Canonical** | **DSV: Exploiting Dynamic Sparsity to Accelerate Large-Scale Video DiT Training** | ASPLOS 2026 | video diffusion training / sparse attention / distributed training | [Link](https://arxiv.org/abs/2502.07590) | — |
 | **Canonical** | **Insum: Sparse GPU Kernels Simplified and Optimized with Indirect Einsums** | ASPLOS 2026 | GPU kernel / sparse compiler | [Link](https://arxiv.org/abs/2510.17505) | — |
 | **Canonical** | **SpeContext: Enabling Efficient Long-context Reasoning with Speculative Context Sparsity in LLMs** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://arxiv.org/abs/2512.00722) | — |

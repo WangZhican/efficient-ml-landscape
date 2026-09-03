@@ -1,6 +1,6 @@
 # 06 · Efficient Attention
 
-> **213 canonical papers** mapped here, plus a broader **53-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **214 canonical papers** mapped here, plus a broader **53-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -62,7 +62,7 @@
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 | **P1 · Watch** | **Spend Bits Where Queries Look: KV Cache Vector Quantization with Attention-Preserving Transforms** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.04074) | — |
 
-## 🏛️ Classical / Historical · 194 canonical
+## 🏛️ Classical / Historical · 195 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -90,6 +90,7 @@
 | **Canonical** | **SAC: Disaggregated KV Cache System for Sparse Attention LLMs with CXL** | arXiv 2026 | LLM serving / KV cache / sparse attention / disaggregated memory / CXL | [Link](https://arxiv.org/abs/2606.19746) | — |
 | **Canonical** | **SageBwd: A Trainable Low-bit Attention** | arXiv 2026 | efficient attention; low-bit training; INT8 attention; pretraining | [Link](https://arxiv.org/abs/2603.02170) | — |
 | **Canonical** | **StreamFusion: Scalable Sequence Parallelism for Distributed Inference of Diffusion Transformers on GPUs** | arXiv 2026 | video/image generation acceleration; diffusion/flow acceleration; distributed inference; sequence parallelism; GPU communication | [Link](https://arxiv.org/abs/2601.20273) | — |
+| **Canonical** | **Vortex: Efficient and Programmable Sparse Attention Serving for AI Agents** | arXiv 2026 | efficient attention / sparse attention serving / LLM serving / agent systems / GPU kernels | [Link](https://arxiv.org/abs/2606.06453) | [Repo](https://github.com/Infini-AI-Lab/vortex_torch) |
 | **Canonical** | **A Cost-Effective Near-Storage Processing Solution for Offline Inference of Long-Context LLMs** | ASPLOS 2026 | LLM serving / long context / near-storage processing | [Link](https://arxiv.org/abs/2502.09921) | [Repo](https://github.com/hongsunjang/HILOS) |
 | **Canonical** | **BAT: Efficient Generative Recommender Serving with Bipartite Attention** | ASPLOS 2026 | generative recommender serving / KV prefix cache | [Link](https://doi.org/10.1145/3779212.3790131) | — |
 | **Canonical** | **DSV: Exploiting Dynamic Sparsity to Accelerate Large-Scale Video DiT Training** | ASPLOS 2026 | video diffusion training / sparse attention / distributed training | [Link](https://arxiv.org/abs/2502.07590) | — |

@@ -1,6 +1,6 @@
 # 01 · LLM Serving
 
-> **610 canonical papers** mapped here, plus a broader **239-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **611 canonical papers** mapped here, plus a broader **239-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -248,7 +248,7 @@
 | **P1 · Watch** | **Edge-Native Embodied Intelligence for Action-Aware Wireless Edge Networks** | Fresh / preprint | VLA/WAM/Physical AI serving / edge-cloud / heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.17774) | — |
 | **P1 · Watch** | **An Internet for the KV Cache: Rethinking Classical Infrastructure Boundaries in the LLM Inference Age** | Fresh / preprint | KV cache / distributed serving / cloud-network-storage systems | [Link](https://arxiv.org/abs/2608.01526) | — |
 
-## 🏛️ Classical / Historical · 558 canonical
+## 🏛️ Classical / Historical · 559 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -297,6 +297,7 @@
 | **Canonical** | **SAC: Disaggregated KV Cache System for Sparse Attention LLMs with CXL** | arXiv 2026 | LLM serving / KV cache / sparse attention / disaggregated memory / CXL | [Link](https://arxiv.org/abs/2606.19746) | — |
 | **Canonical** | **Sangam: Efficiently Serving Diffusion LLMs with the AR Stack** | arXiv 2026 | LLM serving / diffusion language models / scheduling / disaggregated serving | [Link](https://arxiv.org/abs/2607.04206) | [Repo](https://github.com/UT-InfraAI/sangam) |
 | **Canonical** | **vla.cpp: A Unified Inference Runtime for Vision-Language-Action Models** | arXiv 2026 | VLA/WAM/Physical AI serving / portable runtime / edge deployment / quantized inference | [Link](https://arxiv.org/abs/2606.08094) | [Repo](https://github.com/VinRobotics/vla.cpp) |
+| **Canonical** | **Vortex: Efficient and Programmable Sparse Attention Serving for AI Agents** | arXiv 2026 | efficient attention / sparse attention serving / LLM serving / agent systems / GPU kernels | [Link](https://arxiv.org/abs/2606.06453) | [Repo](https://github.com/Infini-AI-Lab/vortex_torch) |
 | **Canonical** | **SeDeM: Selective Decompression of Hidden-State Memories for Long-Context Question Answering** | arXiv 2026 / EMNLP 2026 main reported by author route | KV cache/long-context / context compression / efficient inference | [Link](https://arxiv.org/abs/2608.00311) | — |
 | **Canonical** | **A Cost-Effective Near-Storage Processing Solution for Offline Inference of Long-Context LLMs** | ASPLOS 2026 | LLM serving / long context / near-storage processing | [Link](https://arxiv.org/abs/2502.09921) | [Repo](https://github.com/hongsunjang/HILOS) |
 | **Canonical** | **BAT: Efficient Generative Recommender Serving with Bipartite Attention** | ASPLOS 2026 | generative recommender serving / KV prefix cache | [Link](https://doi.org/10.1145/3779212.3790131) | — |

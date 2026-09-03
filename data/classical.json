@@ -2696,6 +2696,30 @@
     ]
   },
   {
+    "title": "Vortex: Efficient and Programmable Sparse Attention Serving for AI Agents",
+    "venue": "arXiv 2026",
+    "topic": "efficient attention / sparse attention serving / LLM serving / agent systems / GPU kernels",
+    "arxiv": "2606.06453",
+    "doi": "",
+    "official_id": "arXiv:2606.06453",
+    "paper_url": "https://arxiv.org/abs/2606.06453",
+    "code_url": "https://github.com/Infini-AI-Lab/vortex_torch",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "2026 Zhihao Jia/Beidi Chen/Infini-AI-Lab sparse-attention serving system. Vortex provides a Python-embedded programmable sparse-attention frontend over a page-centric tensor abstraction with an efficient backend integrated into modern LLM serving stacks including SGLang/FlashInfer. Primary arXiv reports up to 3.46x throughput over full attention for agent-generated sparse-attention algorithms, up to 4.7x on MLA GLM-4.7-Flash, and scaling to a 229B MiniMax model on B200 GPUs. Official author-team repository Infini-AI-Lab/vortex_torch verified.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "SeDeM: Selective Decompression of Hidden-State Memories for Long-Context Question Answering",
     "venue": "arXiv 2026 / EMNLP 2026 main reported by author route",
     "topic": "KV cache/long-context / context compression / efficient inference",

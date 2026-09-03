@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **1464 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **346 visible papers = 96 P0 + 130 P1 + 120 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1465 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **346 visible papers = 96 P0 + 130 P1 + 120 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -369,7 +369,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 1368
+## 🏛️ Classical / Historical · 1369
 
 ### ICML 2026 · 376
 
@@ -1006,7 +1006,7 @@
 | **Canonical** | **vAttention: Verified Sparse Attention via Sampling** | ICLR 2026 | efficient attention / sparse attention / long-context decoding | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/55cb562b1f5af71f6707f3ff3c7941e6-Abstract-Conference.html) | — |
 | **Canonical** | **WINA: Weight Informed Neuron Activation for Accelerating Large Language Model Inference** | ICLR 2026 | training-free sparse activation / LLM inference | [Link](https://openreview.net/pdf?id=l7Vb3yxmuz) | — |
 
-### arXiv 2026 · 36
+### arXiv 2026 · 37
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -1046,6 +1046,7 @@
 | **Canonical** | **Statistically-Lossless Quantization of Large Language Models** | arXiv 2026 | LLM quantization; statistically-lossless compression; low-bit inference; optimized kernels | [Link](https://arxiv.org/abs/2605.02404) | [Repo](https://github.com/IST-DASLab/SLQ) |
 | **Canonical** | **StreamFusion: Scalable Sequence Parallelism for Distributed Inference of Diffusion Transformers on GPUs** | arXiv 2026 | video/image generation acceleration; diffusion/flow acceleration; distributed inference; sequence parallelism; GPU communication | [Link](https://arxiv.org/abs/2601.20273) | — |
 | **Canonical** | **vla.cpp: A Unified Inference Runtime for Vision-Language-Action Models** | arXiv 2026 | VLA/WAM/Physical AI serving / portable runtime / edge deployment / quantized inference | [Link](https://arxiv.org/abs/2606.08094) | [Repo](https://github.com/VinRobotics/vla.cpp) |
+| **Canonical** | **Vortex: Efficient and Programmable Sparse Attention Serving for AI Agents** | arXiv 2026 | efficient attention / sparse attention serving / LLM serving / agent systems / GPU kernels | [Link](https://arxiv.org/abs/2606.06453) | [Repo](https://github.com/Infini-AI-Lab/vortex_torch) |
 
 ### ICCV 2025 · 36
 
