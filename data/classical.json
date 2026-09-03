@@ -1988,6 +1988,29 @@
     ]
   },
   {
+    "title": "CacheFlow: Efficient LLM Serving with 3D-Parallel KV Cache Restoration",
+    "venue": "arXiv 2026",
+    "topic": "LLM serving; KV-cache restoration; long-context inference; token/layer/GPU parallelism; compute-I/O overlap",
+    "arxiv": "2604.25080",
+    "doi": "",
+    "official_id": "arXiv:2604.25080",
+    "paper_url": "https://arxiv.org/abs/2604.25080",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Fresh major-group saturation recheck of the UIUC Fan Lai lineage surfaced a true paper-level miss. CacheFlow reframes KV restoration as 3D parallel execution across tokens, layers and GPUs with batch-aware scheduling to overlap recomputation and I/O; the paper reports 10%-62% TTFT reduction over existing restoration methods across long-context serving workloads.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "Compiler-Grounded Hierarchical Diagnosis for LLM-Based Triton Kernel Optimization",
     "venue": "arXiv 2026",
     "topic": "GPU kernel/DSL/compilers / NPU kernel optimization",
@@ -2066,6 +2089,28 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "KAIROS: Stateful, Context-Aware Power-Efficient Agentic Inference Serving",
+    "venue": "arXiv 2026",
+    "topic": "agentic LLM serving; power efficiency; context-aware GPU DVFS; memory-aware scheduling; multi-instance routing",
+    "arxiv": "2604.16682",
+    "doi": "",
+    "official_id": "arXiv:2604.16682",
+    "paper_url": "https://arxiv.org/abs/2604.16682",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Fresh major-group saturation recheck of the Michigan SymbioticLab/Mosharaf Chowdhury lineage surfaced a true paper-level miss. KAIROS treats evolving agent context as a first-class control signal and jointly manages GPU frequency, per-instance concurrency, and multi-instance placement; it reports 27% average and up to 39.8% GPU power reduction while meeting performance targets on agentic workloads.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
       "GPU Kernel / DSL / Compiler",
       "Efficient Reasoning / Agents"
     ]
