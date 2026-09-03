@@ -4404,28 +4404,6 @@
       ]
     },
     {
-      "title": "Spend Bits Where Queries Look: KV Cache Vector Quantization with Attention-Preserving Transforms",
-      "venue": "",
-      "topic": "",
-      "arxiv": "2608.04074",
-      "doi": "",
-      "official_id": "",
-      "paper_url": "https://arxiv.org/abs/2608.04074",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "",
-      "published_at": "2026-08-04T16:10:59Z",
-      "updated_at": "2026-08-04T16:10:59Z",
-      "is_latest_30d": true,
-      "directions": [
-        "KV Cache / Long Context",
-        "Quantization",
-        "Efficient Attention"
-      ]
-    },
-    {
       "title": "Heterogeneity-Aware Microscaling for Efficient Low-Bit LLM Inference",
       "venue": "",
       "topic": "quant / multimodal",
@@ -4439,7 +4417,7 @@
       "tracking_tier": "P1 · Watch",
       "why": "Directly relevant recent Efficient-ML/AI-Infra work with concrete systems/efficiency mechanism; retained as P1 pending deeper venue/adoption/independent-validation review.",
       "published_at": "2026-08-04T16:08:20Z",
-      "updated_at": "2026-08-04T16:08:20Z",
+      "updated_at": "",
       "is_latest_30d": true,
       "directions": [
         "Quantization",
@@ -4788,6 +4766,28 @@
         "Quantization",
         "Sparsity / Pruning",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Spend Bits Where Queries Look: KV Cache Vector Quantization with Attention-Preserving Transforms",
+      "venue": "",
+      "topic": "",
+      "arxiv": "2608.04074",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.04074",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context",
+        "Quantization",
+        "Efficient Attention"
       ]
     },
     {
@@ -11934,28 +11934,6 @@
       ]
     },
     {
-      "title": "Spend Bits Where Queries Look: KV Cache Vector Quantization with Attention-Preserving Transforms",
-      "venue": "",
-      "topic": "",
-      "arxiv": "2608.04074",
-      "doi": "",
-      "official_id": "",
-      "paper_url": "https://arxiv.org/abs/2608.04074",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "",
-      "published_at": "2026-08-04T16:10:59Z",
-      "updated_at": "2026-08-04T16:10:59Z",
-      "is_latest_30d": true,
-      "directions": [
-        "KV Cache / Long Context",
-        "Quantization",
-        "Efficient Attention"
-      ]
-    },
-    {
       "title": "Heterogeneity-Aware Microscaling for Efficient Low-Bit LLM Inference",
       "venue": "",
       "topic": "quant / multimodal",
@@ -11969,7 +11947,7 @@
       "tracking_tier": "P1 · Watch",
       "why": "Directly relevant recent Efficient-ML/AI-Infra work with concrete systems/efficiency mechanism; retained as P1 pending deeper venue/adoption/independent-validation review.",
       "published_at": "2026-08-04T16:08:20Z",
-      "updated_at": "2026-08-04T16:08:20Z",
+      "updated_at": "",
       "is_latest_30d": true,
       "directions": [
         "Quantization",
@@ -12318,6 +12296,28 @@
         "Quantization",
         "Sparsity / Pruning",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Spend Bits Where Queries Look: KV Cache Vector Quantization with Attention-Preserving Transforms",
+      "venue": "",
+      "topic": "",
+      "arxiv": "2608.04074",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2608.04074",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context",
+        "Quantization",
+        "Efficient Attention"
       ]
     },
     {

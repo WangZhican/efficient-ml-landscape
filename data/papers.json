@@ -16311,6 +16311,26 @@
     ]
   },
   {
+    "title": "Model-Preserving Adaptive Rounding",
+    "venue": "ICML 2026",
+    "topic": "quantization / LLM PTQ / adaptive rounding / model-preserving compression",
+    "arxiv": "2505.22988",
+    "doi": "",
+    "official_id": "arXiv:2505.22988",
+    "paper_url": "https://arxiv.org/abs/2505.22988",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 Cornell RelaxML quantization paper introducing YAQA, an adaptive-rounding PTQ method using full-model/Kronecker-factored Hessian approximations rather than layer-local activation error. Primary arXiv reports about 30% lower KL divergence to the original model across models/quantizers with no inference overhead; official Christopher De Sa publication page lists it as ICML 2026.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization"
+    ]
+  },
+  {
     "title": "MoSE: Mixture of Slimmable Experts for Efficient and Adaptive Language Models",
     "venue": "ICML 2026",
     "topic": "MoE / conditional computation / slimmable experts / adaptive inference FLOPs",
