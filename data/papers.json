@@ -1872,6 +1872,28 @@
     ]
   },
   {
+    "title": "Kinetics: Rethinking Test-Time Scaling Laws",
+    "venue": "arXiv 2025",
+    "topic": "efficient reasoning / test-time scaling / sparse attention / inference cost modeling",
+    "arxiv": "2506.05333",
+    "doi": "",
+    "official_id": "arXiv:2506.05333",
+    "paper_url": "https://arxiv.org/abs/2506.05333",
+    "code_url": "https://github.com/Infini-AI-Lab/Kinetics",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Infini-AI-Lab/Beidi Chen test-time scaling efficiency work. Kinetics incorporates both compute and memory-access cost, identifies attention as a dominant test-time bottleneck and proposes sparse-attention-centered scaling; primary arXiv reports substantial accuracy gains under equal resource budgets and official author-team repository is verified.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "Continuum: Efficient and Robust Multi-Turn LLM Agent Scheduling with KV Cache Time-to-Live",
     "venue": "arXiv 2025 / Berkeley EECS TR 2026",
     "topic": "agentic LLM serving; KV cache management; multi-turn scheduling; tool-aware serving",
@@ -3063,6 +3085,31 @@
       "Speculative Decoding",
       "KV Cache / Long Context",
       "Quantization",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "Sparrow: Sparse Rollout for Stable and Efficient Long-context RL of Large Language Models",
+    "venue": "arXiv 2026",
+    "topic": "efficient reasoning / RL training systems / sparse attention / long-context rollout",
+    "arxiv": "2606.08446",
+    "doi": "",
+    "official_id": "arXiv:2606.08446",
+    "paper_url": "https://arxiv.org/abs/2606.08446",
+    "code_url": "https://github.com/Infini-AI-Lab/Sparrow",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "2026 Infini-AI-Lab/Beidi Chen work on efficient long-context RLVR. Dynamic sparsity scheduling controls sparse-to-dense actor-policy mismatch during rollout and primary arXiv reports 2.2x, 2.4x and 2.0x rollout speedups on Qwen3 1.7B/4B/8B while preserving stable training; official author-team repository verified.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "Distributed Training / Inference",
       "Efficient Reasoning / Agents"
     ]
   },
