@@ -4391,6 +4391,28 @@
     ]
   },
   {
+    "title": "A Workflow-Aware Serving Layer for Agentic Applications",
+    "venue": "CoRR 2026",
+    "topic": "agent systems / LLM serving / workflow-aware scheduling / heterogeneous backends / verification-aware routing",
+    "arxiv": "2607.02942",
+    "doi": "",
+    "official_id": "2607.02942",
+    "paper_url": "https://arxiv.org/abs/2607.02942",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Direct agentic-serving systems work from Georgia Tech. Dyserve inserts a workflow-aware serving layer between agent orchestrators and model engines, jointly choosing per-node models, verifiers and heterogeneous backends with admission-time ILP planning plus runtime strategy switching under load.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Efficient Reasoning / Agents",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Efficient-WAM: A 1B-Parameter World-Action Model with Low-Cost Future Imagination",
     "venue": "CoRR 2026",
     "topic": "VLA/WAM/Physical AI serving / efficient world-action model / sparse future latents / asymmetric denoising",
@@ -10711,6 +10733,26 @@
       "Efficient Attention",
       "Video / Image Generation",
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "SparseLoRA: Accelerating LLM Fine-Tuning with Contextual Sparsity",
+    "venue": "ICML 2025",
+    "topic": "sparsity / efficient training / LoRA / contextual sparsity / LLM fine-tuning",
+    "arxiv": "2506.16500",
+    "doi": "",
+    "official_id": "2506.16500",
+    "paper_url": "https://arxiv.org/abs/2506.16500",
+    "code_url": "https://github.com/z-lab/sparselora",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Canonical efficient-ML training paper from Berkeley/MIT/NVIDIA/UCSD. SparseLoRA applies contextual sparsity to pretrained-weight computation during LoRA fine-tuning, reporting up to 2.2x compute reduction and 1.6x measured speedup while preserving downstream quality.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning"
     ]
   },
   {
@@ -18450,6 +18492,26 @@
     "directions": [
       "Quantization",
       "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "V_1: Unifying Generation and Self-Verification for Parallel Reasoners",
+    "venue": "ICML 2026",
+    "topic": "efficient reasoning / test-time scaling / self-verification / parallel reasoning / compute allocation",
+    "arxiv": "2603.04304",
+    "doi": "",
+    "official_id": "2603.04304",
+    "paper_url": "https://arxiv.org/abs/2603.04304",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "High-value efficient-reasoning work from Berkeley. V1 uses uncertainty-guided tournament-style pairwise self-verification to allocate test-time compute selectively, improving reasoning accuracy while making candidate verification more compute-efficient than pointwise scoring.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Reasoning / Agents"
     ]
   },
   {

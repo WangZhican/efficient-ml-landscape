@@ -1,6 +1,6 @@
 # 05 · Sparsity / Pruning
 
-> **227 canonical papers** mapped here, plus a broader **65-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **228 canonical papers** mapped here, plus a broader **65-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -74,7 +74,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 215 canonical
+## 🏛️ Classical / Historical · 216 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -170,6 +170,7 @@
 | **Canonical** | **DLP: Dynamic Layerwise Pruning in Large Language Models** | ICML 2025 | LLM pruning | [Link](https://proceedings.mlr.press/v267/chen25l.html) | — |
 | **Canonical** | **Lexico: Extreme KV Cache Compression via Sparse Coding over Universal Dictionaries** | ICML 2025 | KV cache compression / sparse coding | [Link](https://arxiv.org/abs/2412.08890) | [Repo](https://github.com/krafton-ai/lexico) |
 | **Canonical** | **Sparse Video-Gen: Accelerating Video Diffusion Transformers with Spatial-Temporal Sparsity** | ICML 2025 | video/image generation acceleration / efficient attention | [Link](https://proceedings.mlr.press/v267/xi25c.html) | — |
+| **Canonical** | **SparseLoRA: Accelerating LLM Fine-Tuning with Contextual Sparsity** | ICML 2025 | sparsity / efficient training / LoRA / contextual sparsity / LLM fine-tuning | [Link](https://arxiv.org/abs/2506.16500) | [Repo](https://github.com/z-lab/sparselora) |
 | **Canonical** | **A Unified Sparse Attention via Multi-Granularity Compression** | ICML 2026 | efficient attention / long-context inference | [Link](https://arxiv.org/abs/2512.14082) | — |
 | **Canonical** | **AD-BTS: Adaptive Dual-Branch Token Sparsification via Spatial Information Density** | ICML 2026 | multimodal serving / MLLM / visual token sparsification / prefill acceleration / adaptive token pruning | [Link](https://openreview.net/forum?id=Zm8DAMbfXE) | — |
 | **Canonical** | **Adaptive Visual Autoregressive Acceleration via Dual-Linkage Entropy Analysis** | ICML 2026 | video/image generation acceleration / visual autoregressive models / token reduction / cache reuse / training-free inference acceleration | [Link](https://arxiv.org/abs/2602.01345) | — |
