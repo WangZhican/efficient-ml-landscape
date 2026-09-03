@@ -2292,6 +2292,28 @@
     ]
   },
   {
+    "title": "GSQ: Highly-Accurate Low-Precision Scalar Quantization for LLMs via Gumbel-Softmax Sampling",
+    "venue": "arXiv 2026",
+    "topic": "LLM quantization / 1-3 bit scalar PTQ / kernel-compatible deployment / MoE compression",
+    "arxiv": "2604.18556",
+    "doi": "",
+    "official_id": "arXiv:2604.18556",
+    "paper_url": "https://arxiv.org/abs/2604.18556",
+    "code_url": "https://github.com/IST-DASLab/GSQ",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "DASLab reverse-census recall miss: Gumbel-Softmax scalar PTQ closes much of the 2-3 bit gap to vector/trellis methods while retaining standard scalar formats; scales to trillion-parameter MoE and is compatible with optimized integer/GGUF deployment kernels.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "MoE Systems / Accelerators",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "Heterogeneous Memory Design Exploration for AI Accelerators with a Gain Cell Memory Compiler",
     "venue": "arXiv 2026",
     "topic": "edge/cloud/heterogeneous AI systems; AI accelerator memory; SRAM/GCRAM; compiler; hardware design-space exploration",
@@ -11202,6 +11224,27 @@
       "Sparsity / Pruning",
       "Efficient Attention",
       "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "The Geometry of LLM Quantization: GPTQ as Babai's Nearest Plane Algorithm",
+    "venue": "ICLR 2026",
+    "topic": "LLM quantization / GPTQ theory / low-bit inference kernels",
+    "arxiv": "2507.18553",
+    "doi": "",
+    "official_id": "arXiv:2507.18553",
+    "paper_url": "https://arxiv.org/abs/2507.18553",
+    "code_url": "https://github.com/IST-DASLab/GPTQ-Babai",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "DASLab reverse-census recall miss and ICLR 2026 canonical quantization work: proves GPTQ equivalence to Babai nearest-plane, derives error guarantees, introduces no-clipping PTQ variants, and supplies efficient GPU inference kernels.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {
