@@ -5213,6 +5213,28 @@
     ]
   },
   {
+    "title": "Regulating Branch Parallelism in LLM Serving",
+    "venue": "CoRR 2026",
+    "topic": "LLM serving / branch-parallel decoding / SLO-aware scheduling / KV-sharing",
+    "arxiv": "2605.06914",
+    "doi": "",
+    "official_id": "2605.06914",
+    "paper_url": "https://arxiv.org/abs/2605.06914",
+    "code_url": "https://github.com/Swapnil-Gandhi/pace",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "TAPER dynamically regulates intra-request branch parallelism per decode step using the batch slack budget; it reports 1.77x goodput over IRP-Off and 1.48x over eager branching while maintaining >95% SLO attainment.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "TClone: Low-Latency Forking of Live GUI Environments for Computer-Use Agents",
     "venue": "CoRR 2026",
     "topic": "efficient reasoning/agent systems / computer-use agent runtime / workspace forking / systems infrastructure",
@@ -20071,6 +20093,27 @@
       "Sparsity / Pruning",
       "Multimodal / MLLM Serving",
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "MCP: From Context Compression to Mining for Efficient RAG-based LLM Serving",
+    "venue": "IEEE ICDM 2026 (accepted)",
+    "topic": "LLM serving / RAG / context compression / KV pressure / online latency",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICDM2026_MCP_CONTEXT_MINING",
+    "paper_url": "https://mtuann.github.io/",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Accepted ICDM 2026 direct efficient-serving work. MCP mines historical attention traces into reusable document-keyed evidence views, reducing online context-compression overhead and serving token/KV pressure while preserving the standard RAG interface.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Efficient Attention"
     ]
   },
   {
