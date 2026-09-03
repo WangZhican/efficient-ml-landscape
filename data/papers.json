@@ -1872,6 +1872,28 @@
     ]
   },
   {
+    "title": "Continuum: Efficient and Robust Multi-Turn LLM Agent Scheduling with KV Cache Time-to-Live",
+    "venue": "arXiv 2025 / Berkeley EECS TR 2026",
+    "topic": "agentic LLM serving; KV cache management; multi-turn scheduling; tool-aware serving",
+    "arxiv": "2511.02230",
+    "doi": "",
+    "official_id": "arXiv:2511.02230",
+    "paper_url": "https://arxiv.org/abs/2511.02230",
+    "code_url": "https://github.com/Hanchenli/vllm-continuum",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Berkeley Sky Joseph Gonzalez/Ion Stoica fresh saturation recheck surfaced a true paper-level miss. Continuum introduces TTL-aware KV-cache retention plus program-level scheduling for multi-turn agent workloads, reducing repeated prefill/reload and queueing delay; current v6 evaluation reports over 8x average job-completion-time improvement on real-world agent workloads while improving throughput.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "A1: A Fully Transparent Open-Source, Adaptive and Efficient Truncated Vision-Language-Action Model",
     "venue": "arXiv 2026",
     "topic": "VLA/WAM/Physical AI serving / adaptive early exit / flow action-head acceleration",
