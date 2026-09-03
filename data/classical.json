@@ -1987,6 +1987,26 @@
     ]
   },
   {
+    "title": "Grid Games: The Power of Multiple Grids for Quantizing Large Language Models",
+    "venue": "arXiv 2026",
+    "topic": "LLM quantization; microscaled FP4; adaptive grids; hardware data formats",
+    "arxiv": "2605.12327",
+    "doi": "",
+    "official_id": "arXiv:2605.12327",
+    "paper_url": "https://arxiv.org/abs/2605.12327",
+    "code_url": "https://github.com/IST-DASLab/GridGames",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "ISTA DASLab canonical miss: adaptive per-block grid selection improves microscaled FP4 quantization and introduces hardware-oriented SFP4-style grid families with TensorCore implementability.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization"
+    ]
+  },
+  {
     "title": "Heterogeneous Memory Design Exploration for AI Accelerators with a Gain Cell Memory Compiler",
     "venue": "arXiv 2026",
     "topic": "edge/cloud/heterogeneous AI systems; AI accelerator memory; SRAM/GCRAM; compiler; hardware design-space exploration",
@@ -2099,6 +2119,50 @@
     ]
   },
   {
+    "title": "MatGPTQ: Accurate and Efficient Post-Training Matryoshka Quantization",
+    "venue": "arXiv 2026",
+    "topic": "LLM quantization; Matryoshka precision; PTQ; mixed-precision kernels",
+    "arxiv": "2602.03537",
+    "doi": "",
+    "official_id": "arXiv:2602.03537",
+    "paper_url": "https://arxiv.org/abs/2602.03537",
+    "code_url": "https://github.com/IST-DASLab/MatGPTQ",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "ISTA DASLab canonical miss: one-shot PTQ produces a single sliceable multi-precision model, adds budget-aware heterogeneous bit allocation and efficient mixed-precision execution kernels.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Mix-Quant: Quantized Prefilling, Precise Decoding for Agentic LLMs",
+    "venue": "arXiv 2026",
+    "topic": "agentic LLM inference; quantized prefill; NVFP4; prefill-decode disaggregation",
+    "arxiv": "2605.20315",
+    "doi": "",
+    "official_id": "arXiv:2605.20315",
+    "paper_url": "https://arxiv.org/abs/2605.20315",
+    "code_url": "https://github.com/haiquanlu/Mix-Quant",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "NUS xML canonical miss: phase-aware agent serving quantizes compute-heavy prefilling to NVFP4 while preserving BF16 decoding; reports up to 3x prefill speedup and provides a modified-vLLM disaggregated serving pipeline.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "Native LLM and MLLM Inference at Scale on Apple Silicon",
     "venue": "arXiv 2026",
     "topic": "edge/on-device LLM and MLLM serving; Apple Silicon; MLX; continuous batching; prefix caching",
@@ -2208,6 +2272,30 @@
     ]
   },
   {
+    "title": "Q-ARVD: Quantizing Autoregressive Video Diffusion Models",
+    "venue": "arXiv 2026",
+    "topic": "video generation acceleration; autoregressive video diffusion; quantization; Triton kernels",
+    "arxiv": "2605.21072",
+    "doi": "",
+    "official_id": "arXiv:2605.21072",
+    "paper_url": "https://arxiv.org/abs/2605.21072",
+    "code_url": "https://github.com/tsa18/Q-ARVD",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "NUS xML canonical miss: targets frame-wise error accumulation and heterogeneous weight outliers in autoregressive video diffusion; reports INT8 deployment gains with Triton kernels and near-lossless quantized generation.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "GPU Kernel / DSL / Compiler",
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Ragged Paged Attention: A High-Performance and Flexible LLM Inference Kernel for TPU",
     "venue": "arXiv 2026",
     "topic": "efficient attention / TPU inference / JAX-Pallas",
@@ -2249,6 +2337,28 @@
       "LLM Serving",
       "Speculative Decoding",
       "GPU Kernel / DSL / Compiler",
+      "Diffusion / Flow Acceleration",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Reducing Temporal Redundancy for Efficient Vision-Language-Action Inference",
+    "venue": "arXiv 2026",
+    "topic": "Physical AI; VLA inference; temporal redundancy; visual token reuse; diffusion action acceleration",
+    "arxiv": "2607.12287",
+    "doi": "",
+    "official_id": "arXiv:2607.12287",
+    "paper_url": "https://arxiv.org/abs/2607.12287",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "SJTU EPIC protected Physical-AI canonical miss: incrementally updates dynamic visual tokens and compresses diffusion action sampling to two steps, reporting over 2x VLA inference speedup while maintaining high manipulation success.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Multimodal / MLLM Serving",
       "Diffusion / Flow Acceleration",
       "VLA / WAM / Physical AI"
     ]
@@ -2341,6 +2451,27 @@
     "directions": [
       "LLM Serving",
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "Statistically-Lossless Quantization of Large Language Models",
+    "venue": "arXiv 2026",
+    "topic": "LLM quantization; statistically-lossless compression; low-bit inference; optimized kernels",
+    "arxiv": "2605.02404",
+    "doi": "",
+    "official_id": "arXiv:2605.02404",
+    "paper_url": "https://arxiv.org/abs/2605.02404",
+    "code_url": "https://github.com/IST-DASLab/SLQ",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "ISTA DASLab canonical miss: formalizes task- and distribution-lossless quantization, introduces EAR fidelity, and reports task-lossless compression below 4 bits plus 1.7-3.6x inference speedups with optimized kernels.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {
