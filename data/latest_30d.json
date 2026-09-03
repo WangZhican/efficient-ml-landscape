@@ -1,9 +1,51 @@
 {
-  "window_end_beijing": "2026-09-03",
-  "window_start_beijing": "2026-08-04",
+  "window_end_beijing": "2026-09-04",
+  "window_start_beijing": "2026-08-05",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 347,
+  "tracked_total": 346,
   "p0_strong_or_canonical": [
+    {
+      "title": "UE5M3 FP4 Block Scaling for Stable Language Model Pretraining",
+      "venue": "arXiv 2026",
+      "topic": "quantization / efficient training / low-precision systems",
+      "arxiv": "2609.02846",
+      "doi": "",
+      "official_id": "arXiv:2609.02846",
+      "paper_url": "https://arxiv.org/abs/2609.02846",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "FP4 pretraining recipe pairing E2M1 payloads with unsigned E5M3 block scales, simplifying scaling and removing RHT/BF16 exemptions in an ablation; 8B/190B-token study reports lower loss and a native execution ablation with 21.2% higher measured model-body token throughput.",
+      "published_at": "2026-09-02T17:32:07Z",
+      "updated_at": "2026-09-02T17:32:07Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Quantization"
+      ]
+    },
+    {
+      "title": "ShallowStream: Index Shallow then Answer Deep for Streaming Video Understanding",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / streaming video / Physical-AI protected",
+      "arxiv": "2609.02780",
+      "doi": "",
+      "official_id": "arXiv:2609.02780",
+      "paper_url": "https://arxiv.org/abs/2609.02780",
+      "code_url": "https://github.com/CURRENTF/ShallowStream",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Streaming MLLM system that uses shallow-layer KV as an always-on retrieval index and invokes deeper computation only for selected evidence; reports up to 52.1x lower per-frame prefill latency and 11.9x lower 10-second end-to-end latency while matching strong streaming baselines.",
+      "published_at": "2026-09-02T16:14:48Z",
+      "updated_at": "2026-09-02T16:14:48Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving"
+      ]
+    },
     {
       "title": "mzCache: On-Device LLM Memory Management under Multitasking",
       "venue": "MobiCom 2026",
@@ -214,7 +256,7 @@
       "decision": "PROMOTE_STRONG",
       "why": "Direct multimodal inference acceleration. CE-Router plus unified scheduling coordinates layer skipping, FFN pruning, diffusion-head cache reuse, and denoising early exit across understanding and generation.",
       "published_at": "2026-08-29T14:27:55Z",
-      "updated_at": "2026-09-01T05:51:02Z",
+      "updated_at": "2026-09-02T03:40:57Z",
       "is_latest_30d": true,
       "tracking_tier": "P0 · Strong",
       "directions": [
@@ -2075,68 +2117,6 @@
         "GPU Kernel / DSL / Compiler",
         "Diffusion / Flow Acceleration",
         "VLA / WAM / Physical AI"
-      ]
-    },
-    {
-      "title": "ComFuse: Fusing Complex Memory-Intensive Subgraphs with Compute-Intensive Kernels For Modern GPU Architectures",
-      "venue": "Fresh / preprint",
-      "topic": "GPU kernel / compiler / operator fusion",
-      "arxiv": "2608.03537",
-      "doi": "",
-      "official_id": "2608.03537",
-      "paper_url": "https://arxiv.org/abs/2608.03537",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Automated GPU compiler for joint compute-memory fusion and B2BGEMM using CUTLASS/modern GPU features; up to 1.97x over TorchInductor on selected workloads.",
-      "published_at": "2026-08-04T12:15:28Z",
-      "updated_at": "2026-08-04T12:15:28Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "GPU Kernel / DSL / Compiler"
-      ]
-    },
-    {
-      "title": "ATFlash: Per-RoPE-Wavelength Attention Windows for Compute/Memory-Efficient LLM Inference",
-      "venue": "Fresh / preprint",
-      "topic": "efficient attention / long-context / FlashAttention",
-      "arxiv": "2608.02947",
-      "doi": "",
-      "official_id": "2608.02947",
-      "paper_url": "https://arxiv.org/abs/2608.02947",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "FlashAttention-4/FlashInfer-compatible per-RoPE-frequency pruning; prunes 37–48% QK terms with high output fidelity and reaches up to 1.31x end-to-end speedup at 1M-token context.",
-      "published_at": "2026-08-03T23:23:38Z",
-      "updated_at": "2026-08-03T23:23:38Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "KV Cache / Long Context",
-        "Sparsity / Pruning",
-        "Efficient Attention"
-      ]
-    },
-    {
-      "title": "AnchorKV: Anchor-Residual KV Cache Compression",
-      "venue": "arXiv 2026",
-      "topic": "KV cache/long-context / compression",
-      "arxiv": "2608.02901",
-      "doi": "",
-      "official_id": "arXiv:2608.02901",
-      "paper_url": "https://arxiv.org/abs/2608.02901",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Direct KV-cache compression retaining all tokens via anchors plus selective residual refinement; reports 20x cache compression while retaining 99% of full-cache score at 70B scale.",
-      "published_at": "2026-08-03T21:38:30Z",
-      "updated_at": "2026-08-03T21:38:30Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "KV Cache / Long Context"
       ]
     }
   ],
@@ -4521,7 +4501,7 @@
       "tracking_tier": "P1 · Watch",
       "why": "Directly relevant recent Efficient-ML/AI-Infra work with concrete systems/efficiency mechanism; retained as P1 pending deeper venue/adoption/independent-validation review.",
       "published_at": "2026-08-04T01:01:12Z",
-      "updated_at": "2026-08-04T01:01:12Z",
+      "updated_at": "",
       "is_latest_30d": true,
       "directions": [
         "LLM Serving",
@@ -7557,6 +7537,48 @@
   ],
   "tracking_records": [
     {
+      "title": "UE5M3 FP4 Block Scaling for Stable Language Model Pretraining",
+      "venue": "arXiv 2026",
+      "topic": "quantization / efficient training / low-precision systems",
+      "arxiv": "2609.02846",
+      "doi": "",
+      "official_id": "arXiv:2609.02846",
+      "paper_url": "https://arxiv.org/abs/2609.02846",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "FP4 pretraining recipe pairing E2M1 payloads with unsigned E5M3 block scales, simplifying scaling and removing RHT/BF16 exemptions in an ablation; 8B/190B-token study reports lower loss and a native execution ablation with 21.2% higher measured model-body token throughput.",
+      "published_at": "2026-09-02T17:32:07Z",
+      "updated_at": "2026-09-02T17:32:07Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Quantization"
+      ]
+    },
+    {
+      "title": "ShallowStream: Index Shallow then Answer Deep for Streaming Video Understanding",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / streaming video / Physical-AI protected",
+      "arxiv": "2609.02780",
+      "doi": "",
+      "official_id": "arXiv:2609.02780",
+      "paper_url": "https://arxiv.org/abs/2609.02780",
+      "code_url": "https://github.com/CURRENTF/ShallowStream",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Streaming MLLM system that uses shallow-layer KV as an always-on retrieval index and invokes deeper computation only for selected evidence; reports up to 52.1x lower per-frame prefill latency and 11.9x lower 10-second end-to-end latency while matching strong streaming baselines.",
+      "published_at": "2026-09-02T16:14:48Z",
+      "updated_at": "2026-09-02T16:14:48Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
       "title": "mzCache: On-Device LLM Memory Management under Multitasking",
       "venue": "MobiCom 2026",
       "topic": "edge/cloud/heterogeneous AI / KV cache / on-device LLM serving",
@@ -7766,7 +7788,7 @@
       "decision": "PROMOTE_STRONG",
       "why": "Direct multimodal inference acceleration. CE-Router plus unified scheduling coordinates layer skipping, FFN pruning, diffusion-head cache reuse, and denoising early exit across understanding and generation.",
       "published_at": "2026-08-29T14:27:55Z",
-      "updated_at": "2026-09-01T05:51:02Z",
+      "updated_at": "2026-09-02T03:40:57Z",
       "is_latest_30d": true,
       "tracking_tier": "P0 · Strong",
       "directions": [
@@ -9627,68 +9649,6 @@
         "GPU Kernel / DSL / Compiler",
         "Diffusion / Flow Acceleration",
         "VLA / WAM / Physical AI"
-      ]
-    },
-    {
-      "title": "ComFuse: Fusing Complex Memory-Intensive Subgraphs with Compute-Intensive Kernels For Modern GPU Architectures",
-      "venue": "Fresh / preprint",
-      "topic": "GPU kernel / compiler / operator fusion",
-      "arxiv": "2608.03537",
-      "doi": "",
-      "official_id": "2608.03537",
-      "paper_url": "https://arxiv.org/abs/2608.03537",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Automated GPU compiler for joint compute-memory fusion and B2BGEMM using CUTLASS/modern GPU features; up to 1.97x over TorchInductor on selected workloads.",
-      "published_at": "2026-08-04T12:15:28Z",
-      "updated_at": "2026-08-04T12:15:28Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "GPU Kernel / DSL / Compiler"
-      ]
-    },
-    {
-      "title": "ATFlash: Per-RoPE-Wavelength Attention Windows for Compute/Memory-Efficient LLM Inference",
-      "venue": "Fresh / preprint",
-      "topic": "efficient attention / long-context / FlashAttention",
-      "arxiv": "2608.02947",
-      "doi": "",
-      "official_id": "2608.02947",
-      "paper_url": "https://arxiv.org/abs/2608.02947",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "FlashAttention-4/FlashInfer-compatible per-RoPE-frequency pruning; prunes 37–48% QK terms with high output fidelity and reaches up to 1.31x end-to-end speedup at 1M-token context.",
-      "published_at": "2026-08-03T23:23:38Z",
-      "updated_at": "2026-08-03T23:23:38Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "KV Cache / Long Context",
-        "Sparsity / Pruning",
-        "Efficient Attention"
-      ]
-    },
-    {
-      "title": "AnchorKV: Anchor-Residual KV Cache Compression",
-      "venue": "arXiv 2026",
-      "topic": "KV cache/long-context / compression",
-      "arxiv": "2608.02901",
-      "doi": "",
-      "official_id": "arXiv:2608.02901",
-      "paper_url": "https://arxiv.org/abs/2608.02901",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Direct KV-cache compression retaining all tokens via anchors plus selective residual refinement; reports 20x cache compression while retaining 99% of full-cache score at 70B scale.",
-      "published_at": "2026-08-03T21:38:30Z",
-      "updated_at": "2026-08-03T21:38:30Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "KV Cache / Long Context"
       ]
     },
     {
@@ -12071,7 +12031,7 @@
       "tracking_tier": "P1 · Watch",
       "why": "Directly relevant recent Efficient-ML/AI-Infra work with concrete systems/efficiency mechanism; retained as P1 pending deeper venue/adoption/independent-validation review.",
       "published_at": "2026-08-04T01:01:12Z",
-      "updated_at": "2026-08-04T01:01:12Z",
+      "updated_at": "",
       "is_latest_30d": true,
       "directions": [
         "LLM Serving",

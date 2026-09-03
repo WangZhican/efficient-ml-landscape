@@ -106,14 +106,22 @@ def parse_iso(s):
 
 
 def load_recent_arxiv_index(source):
-    scan = source.parent / "ARXIV_30D_SCAN.json"
-    if not scan.exists():
-        return {}
-    try:
-        d = json.loads(scan.read_text())
-    except (OSError, json.JSONDecodeError):
-        return {}
-    return {r.get("arxiv", ""): r for r in d.get("candidates", []) if r.get("arxiv")}
+    # Prefer the complete 30-day primary index. If the current 30-day scan is
+    # still pending/timeout, fall back to the current 7-day primary index so
+    # newly discovered papers are never misclassified as classical merely
+    # because the broader refresh has not completed yet.
+    for name in ("ARXIV_30D_SCAN.json", "ARXIV_7D_SCAN.json"):
+        scan = source.parent / name
+        if not scan.exists():
+            continue
+        try:
+            d = json.loads(scan.read_text())
+        except (OSError, json.JSONDecodeError):
+            continue
+        rows = {r.get("arxiv", ""): r for r in d.get("candidates", []) if r.get("arxiv")}
+        if rows:
+            return rows
+    return {}
 
 
 def is_latest_30d(raw_record, recent_arxiv, source_date):

@@ -1941,6 +1941,26 @@
     ]
   },
   {
+    "title": "AnchorKV: Anchor-Residual KV Cache Compression",
+    "venue": "arXiv 2026",
+    "topic": "KV cache/long-context / compression",
+    "arxiv": "2608.02901",
+    "doi": "",
+    "official_id": "arXiv:2608.02901",
+    "paper_url": "https://arxiv.org/abs/2608.02901",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Direct KV-cache compression retaining all tokens via anchors plus selective residual refinement; reports 20x cache compression while retaining 99% of full-cache score at 70B scale.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context"
+    ]
+  },
+  {
     "title": "BaseRT: Advancing Best-in-Class LLM Inference with Apple M5 Neural Accelerators",
     "venue": "arXiv 2026",
     "topic": "edge/on-device LLM inference; Apple M5 neural accelerators; Metal 4 tensor kernels; MoE; attention",
@@ -8062,6 +8082,48 @@
     "directions": [
       "LLM Serving",
       "Quantization"
+    ]
+  },
+  {
+    "title": "ATFlash: Per-RoPE-Wavelength Attention Windows for Compute/Memory-Efficient LLM Inference",
+    "venue": "Fresh / preprint",
+    "topic": "efficient attention / long-context / FlashAttention",
+    "arxiv": "2608.02947",
+    "doi": "",
+    "official_id": "2608.02947",
+    "paper_url": "https://arxiv.org/abs/2608.02947",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "FlashAttention-4/FlashInfer-compatible per-RoPE-frequency pruning; prunes 37–48% QK terms with high output fidelity and reaches up to 1.31x end-to-end speedup at 1M-token context.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Efficient Attention"
+    ]
+  },
+  {
+    "title": "ComFuse: Fusing Complex Memory-Intensive Subgraphs with Compute-Intensive Kernels For Modern GPU Architectures",
+    "venue": "Fresh / preprint",
+    "topic": "GPU kernel / compiler / operator fusion",
+    "arxiv": "2608.03537",
+    "doi": "",
+    "official_id": "2608.03537",
+    "paper_url": "https://arxiv.org/abs/2608.03537",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Automated GPU compiler for joint compute-memory fusion and B2BGEMM using CUTLASS/modern GPU features; up to 1.97x over TorchInductor on selected workloads.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {

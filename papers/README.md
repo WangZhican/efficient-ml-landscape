@@ -1,10 +1,10 @@
 # 🧭 Research Map
 
-> **1461 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
+> **1463 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
 
 <div align="center">
 
-[**🆕 Latest 30 Days · 347 tracked**](LATEST_30D.md) · [**🏛️ Classical · 1364**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
+[**🆕 Latest 30 Days · 346 tracked**](LATEST_30D.md) · [**🏛️ Classical · 1367**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
 
 </div>
 
@@ -12,16 +12,16 @@
 
 | # | Research direction | Canonical | Latest 30d tracked |
 |---:|---|---:|---:|
-| 01 | [**LLM Serving**](01-llm-serving.md) | **608** | **237** |
+| 01 | [**LLM Serving**](01-llm-serving.md) | **610** | **239** |
 | 02 | [**Speculative Decoding**](02-speculative-decoding.md) | **184** | **31** |
-| 03 | [**KV Cache / Long Context**](03-kv-cache-long-context.md) | **369** | **69** |
-| 04 | [**Quantization**](04-quantization.md) | **206** | **56** |
-| 05 | [**Sparsity / Pruning**](05-sparsity-pruning.md) | **228** | **65** |
-| 06 | [**Efficient Attention**](06-efficient-attention.md) | **213** | **54** |
+| 03 | [**KV Cache / Long Context**](03-kv-cache-long-context.md) | **369** | **67** |
+| 04 | [**Quantization**](04-quantization.md) | **207** | **57** |
+| 05 | [**Sparsity / Pruning**](05-sparsity-pruning.md) | **228** | **64** |
+| 06 | [**Efficient Attention**](06-efficient-attention.md) | **213** | **53** |
 | 07 | [**MoE Systems / Accelerators**](07-moe-systems.md) | **115** | **35** |
-| 08 | [**GPU Kernel / DSL / Compiler**](08-gpu-kernel-compiler.md) | **362** | **76** |
+| 08 | [**GPU Kernel / DSL / Compiler**](08-gpu-kernel-compiler.md) | **362** | **75** |
 | 09 | [**Distributed Training / Inference**](09-distributed-training-inference.md) | **281** | **39** |
-| 10 | [**Multimodal / MLLM Serving**](10-multimodal-mllm-serving.md) | **181** | **60** |
+| 10 | [**Multimodal / MLLM Serving**](10-multimodal-mllm-serving.md) | **182** | **61** |
 | 11 | [**Video / Image Generation**](11-video-image-generation.md) | **68** | **23** |
 | 12 | [**Diffusion / Flow Acceleration**](12-diffusion-flow.md) | **180** | **35** |
 | 13 | [**Efficient Reasoning / Agents**](13-efficient-reasoning-agents.md) | **245** | **56** |
