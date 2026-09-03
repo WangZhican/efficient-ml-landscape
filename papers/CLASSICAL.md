@@ -1,6 +1,6 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **1340 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **1341 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
@@ -1614,6 +1614,12 @@
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **Canonical** | **eGPU: Production-Scale Elastic Sharing over 10,000 GPUs** | HPCA 2026 Industry Track | production GPU sharing / elastic multi-tenant ML | [Link](https://doi.org/10.1109/HPCA68181.2026.11408556) | — |
+
+## HPDC 2026 · 1
+
+| Priority | Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|---|
+| **Canonical** | **UniEP: Unified Expert-Parallel MoE MegaKernel for LLM Training** | HPDC 2026 | MoE training; expert parallelism; distributed GPU megakernel; compute-communication overlap; deterministic execution | [Link](https://arxiv.org/abs/2604.19241) | [Repo](https://github.com/ByteDance-Seed/Triton-distributed) |
 
 ## IEEE JSSC 2026 · 1
 

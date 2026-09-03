@@ -1,6 +1,6 @@
 # 07 · MoE Systems / Accelerators
 
-> **113 canonical papers** mapped here, plus a broader **35-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **114 canonical papers** mapped here, plus a broader **35-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -44,7 +44,7 @@
 | **P2 · Relevant** | **DraftExpert: Expansion-Aware Self-Speculative Decoding for End-Device MoE Inference** | Fresh / preprint | llm_serving / spec / moe / edge | [Link](https://arxiv.org/abs/2607.24434) | — |
 | **P2 · Relevant** | **Decoding the Skew: Distribution-Aware MoE Inference with Adaptive Kernel Dispatch** | Fresh / preprint | llm_serving / moe | [Link](https://arxiv.org/abs/2607.23099) | — |
 
-## 🏛️ Classical / Historical · 101 canonical
+## 🏛️ Classical / Historical · 102 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -77,6 +77,7 @@
 | **Canonical** | **MegaScale-MoE: Large-Scale Communication-Efficient Training of Mixture-of-Experts Models in Production** | EuroSys 2026 | MoE training systems / communication optimization | [Link](https://arxiv.org/abs/2505.11432) | — |
 | **Canonical** | **Taming Latency-Memory Trade-Off in MoE-Based LLM Serving via Fine-Grained Expert Offloading** | EuroSys 2026 | MoE serving / expert offloading / prefetching / cache management | [Link](https://arxiv.org/abs/2502.05370) | — |
 | **Canonical** | **MoEntwine: Unleashing the Potential of Wafer-scale Chips for Large-scale Expert Parallel Inference** | HPCA 2026 | MoE inference / expert parallelism / wafer-scale systems | [Link](https://arxiv.org/abs/2510.25258) | — |
+| **Canonical** | **UniEP: Unified Expert-Parallel MoE MegaKernel for LLM Training** | HPDC 2026 | MoE training; expert parallelism; distributed GPU megakernel; compute-communication overlap; deterministic execution | [Link](https://arxiv.org/abs/2604.19241) | [Repo](https://github.com/ByteDance-Seed/Triton-distributed) |
 | **Canonical** | **Capacity-Aware Inference: Mitigating the Straggler Effect in Mixture of Experts** | ICLR 2026 | MoE systems / expert parallelism / straggler mitigation | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/94e845868a9ace4bc239d0c529d32f4c-Abstract-Conference.html) | [Repo](https://github.com/CASE-Lab-UMD/Capacity-Aware-MoE) |
 | **Canonical** | **Efficient Quantization of Mixture-of-Experts with Theoretical Generalization Guarantees** | ICLR 2026 | quantization / MoE inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/7b97d09f0ab0f52eab856b0ed1122456-Abstract-Conference.html) | — |
 | **Canonical** | **Semantic Parallelism: Redefining Efficient MoE Inference via Model-Data Co-Scheduling** | ICLR 2026 | MoE systems / expert parallelism / serving / communication | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/f0552f14388d95b19740dee809f5cad1-Abstract-Conference.html) | — |

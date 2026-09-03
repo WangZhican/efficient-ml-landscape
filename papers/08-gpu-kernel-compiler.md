@@ -1,6 +1,6 @@
 # 08 · GPU Kernel / DSL / Compiler
 
-> **353 canonical papers** mapped here, plus a broader **76-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **354 canonical papers** mapped here, plus a broader **76-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -85,7 +85,7 @@
 | **P1 · Watch** | **Here is a GIFT: Enforcing User Data Isolation in LLM Serving via GPU Information Flow Tracking** | Fresh / preprint | LLM serving / GPU runtime / confidential computing | [Link](https://arxiv.org/abs/2608.25431) | — |
 | **P1 · Watch** | **DEFT: Joint Task Placement and DVFS for Energy-Efficient Multi-GPU Runtimes** | Fresh / preprint | distributed runtime / multi-GPU / energy efficiency | [Link](https://arxiv.org/abs/2608.02122) | — |
 
-## 🏛️ Classical / Historical · 322 canonical
+## 🏛️ Classical / Historical · 323 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -170,6 +170,7 @@
 | **Canonical** | **VectorLiteRAG: Latency-Aware and Fine-Grained Resource Partitioning for Efficient RAG** | HPCA 2026 | RAG serving / GPU resource partitioning / vector search | [Link](https://arxiv.org/abs/2504.08930) | [Repo](https://github.com/sitar-lab/VectorLiteRAG-AE) |
 | **Canonical** | **µShare: Non-Intrusive Kernel Co-Locating on NVIDIA GPUs** | HPCA 2026 | GPU resource sharing / kernel co-location / inference throughput | [Link](https://arxiv.org/abs/2601.06562) | — |
 | **Canonical** | **eGPU: Production-Scale Elastic Sharing over 10,000 GPUs** | HPCA 2026 Industry Track | production GPU sharing / elastic multi-tenant ML | [Link](https://doi.org/10.1109/HPCA68181.2026.11408556) | — |
+| **Canonical** | **UniEP: Unified Expert-Parallel MoE MegaKernel for LLM Training** | HPDC 2026 | MoE training; expert parallelism; distributed GPU megakernel; compute-communication overlap; deterministic execution | [Link](https://arxiv.org/abs/2604.19241) | [Repo](https://github.com/ByteDance-Seed/Triton-distributed) |
 | **Canonical** | **METEOR: Multi-Encoder Collaborative Token Pruning for Efficient Vision Language Models** | ICCV 2025 | multimodal inference / multi-encoder token pruning | [Link](https://openaccess.thecvf.com/content/ICCV2025/html/Liu_METEOR_Multi-Encoder_Collaborative_Token_Pruning_for_Efficient_Vision_Language_Models_ICCV_2025_paper.html) | [Repo](https://github.com/YuchenLiu98/METEOR) |
 | **Canonical** | **REDUCIO! Generating 1K Video within 16 Seconds using Extremely Compressed Motion Latents** | ICCV 2025 | video generation acceleration / latent compression / diffusion efficiency | [Link](https://arxiv.org/abs/2411.13552) | [Repo](https://github.com/microsoft/Reducio-VAE) |
 | **Canonical** | **Saliency-Aware Quantized Imitation Learning for Efficient Robotic Control** | ICCV 2025 | VLA/WAM/Physical AI serving / quantization / edge robotic control | [Link](https://arxiv.org/abs/2505.15304) | — |

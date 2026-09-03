@@ -1,6 +1,6 @@
 # 09 · Distributed Training / Inference
 
-> **277 canonical papers** mapped here, plus a broader **39-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **278 canonical papers** mapped here, plus a broader **39-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -48,7 +48,7 @@
 | **P1 · Watch** | **DEFT: Joint Task Placement and DVFS for Energy-Efficient Multi-GPU Runtimes** | Fresh / preprint | distributed runtime / multi-GPU / energy efficiency | [Link](https://arxiv.org/abs/2608.02122) | — |
 | **P1 · Watch** | **An Internet for the KV Cache: Rethinking Classical Infrastructure Boundaries in the LLM Inference Age** | Fresh / preprint | KV cache / distributed serving / cloud-network-storage systems | [Link](https://arxiv.org/abs/2608.01526) | — |
 
-## 🏛️ Classical / Historical · 259 canonical
+## 🏛️ Classical / Historical · 260 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -111,6 +111,7 @@
 | **Canonical** | **VeloxGNN: Efficient Out-of-Core GNN Training with Delayed Gradient Propagation** | HPCA 2026 | GNN training / out-of-core systems / data movement | [Link](https://2026.hpca-conf.org/details/hpca-2026-main-conference/102/VeloxGNN-Accelerating-Out-of-Core-based-GNN-Training-with-Low-Data-Migration-and-Hig) | — |
 | **Canonical** | **WATOS: Efficient LLM Training Strategies and Architecture Co-exploration for Wafer-scale Chip** | HPCA 2026 | distributed LLM training / wafer-scale architecture co-design | [Link](https://arxiv.org/abs/2512.12279) | — |
 | **Canonical** | **eGPU: Production-Scale Elastic Sharing over 10,000 GPUs** | HPCA 2026 Industry Track | production GPU sharing / elastic multi-tenant ML | [Link](https://doi.org/10.1109/HPCA68181.2026.11408556) | — |
+| **Canonical** | **UniEP: Unified Expert-Parallel MoE MegaKernel for LLM Training** | HPDC 2026 | MoE training; expert parallelism; distributed GPU megakernel; compute-communication overlap; deterministic execution | [Link](https://arxiv.org/abs/2604.19241) | [Repo](https://github.com/ByteDance-Seed/Triton-distributed) |
 | **Canonical** | **Capacity-Aware Inference: Mitigating the Straggler Effect in Mixture of Experts** | ICLR 2026 | MoE systems / expert parallelism / straggler mitigation | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/94e845868a9ace4bc239d0c529d32f4c-Abstract-Conference.html) | [Repo](https://github.com/CASE-Lab-UMD/Capacity-Aware-MoE) |
 | **Canonical** | **IceCache: Memory-Efficient KV-cache Management for Long-Sequence LLMs** | ICLR 2026 | KV cache / CPU-GPU offload / long-context inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/94de1ef32f1b564b885720ab89fd95af-Abstract-Conference.html) | — |
 | **Canonical** | **Long-Context Attention Benchmark: From Kernel Efficiency to Distributed Context Parallelism** | ICLR 2026 | efficient attention / distributed context parallelism / benchmark | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/7df69dbf39705c7a39b40f2d70e806c1-Abstract-Conference.html) | — |

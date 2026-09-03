@@ -9419,6 +9419,28 @@
     ]
   },
   {
+    "title": "UniEP: Unified Expert-Parallel MoE MegaKernel for LLM Training",
+    "venue": "HPDC 2026",
+    "topic": "MoE training; expert parallelism; distributed GPU megakernel; compute-communication overlap; deterministic execution",
+    "arxiv": "2604.19241",
+    "doi": "",
+    "official_id": "arXiv:2604.19241",
+    "paper_url": "https://arxiv.org/abs/2604.19241",
+    "code_url": "https://github.com/ByteDance-Seed/Triton-distributed",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Fresh major-group saturation recheck of the Tsinghua PACMAN/Jidong Zhai lineage surfaced a true paper-level miss. UniEP fuses expert-parallel communication and GroupGEMM computation into configurable distributed MegaKernels, adds deterministic token ordering for bitwise-equivalent execution, and reports 1.03x-1.38x speedups over state-of-the-art overlap methods on Hopper clusters. The first author and PACMAN official publication pages confirm HPDC 2026 acceptance; implementation builds on the authors ByteDance-Seed Triton-distributed project.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "MoE Systems / Accelerators",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "Accelerating Diffusion Sampling via Exploiting Local Transition Coherence",
     "venue": "ICCV 2025",
     "topic": "diffusion acceleration / training-free sampling / image-video generation",
