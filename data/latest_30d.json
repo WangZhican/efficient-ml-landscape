@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-03",
   "window_start_beijing": "2026-08-04",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 348,
+  "tracked_total": 347,
   "p0_strong_or_canonical": [
     {
       "title": "mzCache: On-Device LLM Memory Management under Multitasking",
@@ -6804,26 +6804,6 @@
       "directions": [
         "LLM Serving",
         "KV Cache / Long Context"
-      ]
-    },
-    {
-      "title": "DeltaServe: Host-Agnostic Co-Serving of Inference and Fine-Tuning for LLMs",
-      "venue": "",
-      "topic": "LLM serving; generation acceleration",
-      "arxiv": "2607.28848",
-      "doi": "",
-      "official_id": "",
-      "paper_url": "https://arxiv.org/abs/2607.28848",
-      "code_url": "",
-      "formal_class": "RELEVANT_LOW_PRIORITY",
-      "decision": "P2_RELEVANT_LOW_PRIORITY",
-      "tracking_tier": "P2 · Relevant",
-      "why": "Directly relevant to the Efficient ML / AI Infra tracking scope, but retained below Strong/Watch pending deeper quality, novelty, evidence, venue, or adoption review.",
-      "published_at": "2026-07-30T21:20:21Z",
-      "updated_at": "2026-07-30T21:20:21Z",
-      "is_latest_30d": true,
-      "directions": [
-        "LLM Serving"
       ]
     },
     {
@@ -14372,26 +14352,6 @@
       "directions": [
         "LLM Serving",
         "KV Cache / Long Context"
-      ]
-    },
-    {
-      "title": "DeltaServe: Host-Agnostic Co-Serving of Inference and Fine-Tuning for LLMs",
-      "venue": "",
-      "topic": "LLM serving; generation acceleration",
-      "arxiv": "2607.28848",
-      "doi": "",
-      "official_id": "",
-      "paper_url": "https://arxiv.org/abs/2607.28848",
-      "code_url": "",
-      "formal_class": "RELEVANT_LOW_PRIORITY",
-      "decision": "P2_RELEVANT_LOW_PRIORITY",
-      "tracking_tier": "P2 · Relevant",
-      "why": "Directly relevant to the Efficient ML / AI Infra tracking scope, but retained below Strong/Watch pending deeper quality, novelty, evidence, venue, or adoption review.",
-      "published_at": "2026-07-30T21:20:21Z",
-      "updated_at": "2026-07-30T21:20:21Z",
-      "is_latest_30d": true,
-      "directions": [
-        "LLM Serving"
       ]
     },
     {

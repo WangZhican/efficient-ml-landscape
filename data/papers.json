@@ -4900,6 +4900,27 @@
     ]
   },
   {
+    "title": "A Universal Load Balancing Principle and Its Application to Large Language Model Serving",
+    "venue": "CoRR 2026",
+    "topic": "LLM serving / load balancing / data-parallel decoding / scheduling / energy efficiency",
+    "arxiv": "2601.17855",
+    "doi": "",
+    "official_id": "2601.17855",
+    "paper_url": "https://arxiv.org/abs/2601.17855",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Direct serving-scheduling work surfaced in the PKU neighborhood. It formulates finite-horizon load balancing for barrier-synchronized stateful decoding, targeting persistent straggler idle time and improving throughput, latency, and energy efficiency with theoretical guarantees.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding"
+    ]
+  },
+  {
     "title": "A Workflow-Aware Serving Layer for Agentic Applications",
     "venue": "CoRR 2026",
     "topic": "agent systems / LLM serving / workflow-aware scheduling / heterogeneous backends / verification-aware routing",
@@ -4919,6 +4940,27 @@
       "LLM Serving",
       "Efficient Reasoning / Agents",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "DeltaServe: Host-Agnostic Co-Serving of Inference and Fine-Tuning for LLMs",
+    "venue": "CoRR 2026",
+    "topic": "LLM serving / inference-training co-serving / LoRA / SLO-aware scheduling / GPU utilization",
+    "arxiv": "2607.28848",
+    "doi": "",
+    "official_id": "2607.28848",
+    "paper_url": "https://arxiv.org/abs/2607.28848",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Direct LLM serving systems work previously retained only as P2. DeltaServe converts idle inference capacity into LoRA fine-tuning throughput with an SLO-aware, CUDA-graph-aware scheduler and host-agnostic hooks for vLLM/SGLang/S-LoRA; it reports 2.9x higher fine-tuning throughput than LLMStation on a production trace while maintaining 100% inference SLO compliance.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {
@@ -5007,6 +5049,30 @@
       "KV Cache / Long Context",
       "Efficient Attention",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "GoodServe: Towards High-Goodput Serving of Agentic LLM Inferences over Heterogeneous Resources",
+    "venue": "CoRR 2026",
+    "topic": "agent systems / LLM serving / heterogeneous GPUs / routing / SLO / request migration",
+    "arxiv": "2605.16867",
+    "doi": "",
+    "official_id": "2605.16867",
+    "paper_url": "https://arxiv.org/abs/2605.16867",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Direct agentic LLM serving system. GoodServe jointly estimates demand and heterogeneous GPU serving state, performs just-enough instance routing, and migrates at-risk requests; evaluation reports up to 27.4% higher goodput than prior routing methods.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "GPU Kernel / DSL / Compiler",
+      "Efficient Reasoning / Agents",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -27028,6 +27094,28 @@
     "directions": [
       "LLM Serving",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "SmoothAgent: Efficient Long-Horizon LLM-Based Agent Serving with Lookahead Context Engineering",
+    "venue": "PVLDB 2027 forthcoming / arXiv 2026",
+    "topic": "agent systems / LLM serving / context engineering / KV cache / lookahead scheduling",
+    "arxiv": "2607.00151",
+    "doi": "",
+    "official_id": "2607.00151",
+    "paper_url": "https://arxiv.org/abs/2607.00151",
+    "code_url": "https://github.com/PanZaifeng/SmoothAgent",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Direct agent-serving systems work. SmoothAgent exploits segment-decomposable context transformations to precompute transformed KV caches asynchronously, with a lookahead-aware SLO scheduler; the paper reports up to 11.9x improvement in transform-point TTFT.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
