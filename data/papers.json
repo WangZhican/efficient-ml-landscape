@@ -4964,6 +4964,28 @@
     ]
   },
   {
+    "title": "Blink: CPU-Free LLM Inference by Delegating the Serving Stack to GPU and SmartNIC",
+    "venue": "CoRR 2026",
+    "topic": "LLM serving / GPU-resident scheduling / SmartNIC / CPU-free serving stack / KV-cache management",
+    "arxiv": "2604.07609",
+    "doi": "",
+    "official_id": "2604.07609",
+    "paper_url": "https://arxiv.org/abs/2604.07609",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Direct LLM serving systems work. Blink removes the host CPU from the steady-state inference critical path by moving request handling to a SmartNIC and batching/scheduling/KV-cache management into a persistent GPU kernel. The paper reports up to 8.47x lower P99 TTFT, 3.40x lower P99 TPOT, 2.1x higher decode throughput, and up to 48.6% lower energy/token versus CPU-centric baselines.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "DeltaServe: Host-Agnostic Co-Serving of Inference and Fine-Tuning for LLMs",
     "venue": "CoRR 2026",
     "topic": "LLM serving / inference-training co-serving / LoRA / SLO-aware scheduling / GPU utilization",
@@ -27157,6 +27179,28 @@
       "Sparsity / Pruning",
       "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "DreamActVLA: Temporally Aligned Asynchronous Inference for Vision-Language-Action Models",
+    "venue": "Project/primary artifact 2026",
+    "topic": "VLA/WAM/Physical AI serving / temporally aligned asynchronous inference / latent world model",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "dreamactvla2026",
+    "paper_url": "https://dream-act-vla.github.io/",
+    "code_url": "https://github.com/Somdit/DreamActVLA",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Direct Physical-AI inference/runtime work. DreamActVLA removes VLA idle gaps through asynchronous inference while correcting stale observations with an action-conditioned latent world model. The project reports 94.2% average LIBERO success versus 96.8% synchronous oracle and 67.3% naive async, with the world model adding about 50 ms versus about 226 ms policy-chunk inference.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI"
     ]
   },
   {
