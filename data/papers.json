@@ -2313,6 +2313,26 @@
     ]
   },
   {
+    "title": "HiKV: Hierarchical Importance-Aware KV Cache with Hardware Acceleration for LLM Decoding",
+    "venue": "arXiv 2026",
+    "topic": "KV cache compression; LLM decoding; algorithm-hardware co-design; long context",
+    "arxiv": "2607.22389",
+    "doi": "",
+    "official_id": "arXiv:2607.22389",
+    "paper_url": "https://arxiv.org/abs/2607.22389",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Fresh KU Leuven MICAS/Marian Verhelst neighborhood recheck surfaced an uncatalogued algorithm-hardware KV-cache paper. HiKV performs hierarchical token- and element-level importance-aware compression and couples it with dedicated hardware support for efficient LLM decoding.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context"
+    ]
+  },
+  {
     "title": "HyQuant: Hybrid-Precision Quantization for LLM Attention",
     "venue": "arXiv 2026",
     "topic": "quantization / KV cache / efficient attention",
@@ -2914,6 +2934,27 @@
       "Sparsity / Pruning",
       "Efficient Attention",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "SageBwd: A Trainable Low-bit Attention",
+    "venue": "arXiv 2026",
+    "topic": "efficient attention; low-bit training; INT8 attention; pretraining",
+    "arxiv": "2603.02170",
+    "doi": "",
+    "official_id": "arXiv:2603.02170",
+    "paper_url": "https://arxiv.org/abs/2603.02170",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Fresh SageAttention/Jianfei Chen neighborhood recheck surfaced an uncatalogued low-bit attention paper. SageBwd studies trainable INT8 attention, identifies backward score-gradient quantization as the main error source, and shows settings that match full-precision attention during pretraining.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "Efficient Attention"
     ]
   },
   {
