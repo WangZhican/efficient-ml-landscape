@@ -1,6 +1,6 @@
 # 09 · Distributed Training / Inference
 
-> **280 canonical papers** mapped here, plus a broader **39-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **281 canonical papers** mapped here, plus a broader **39-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -48,7 +48,7 @@
 | **P1 · Watch** | **DEFT: Joint Task Placement and DVFS for Energy-Efficient Multi-GPU Runtimes** | Fresh / preprint | distributed runtime / multi-GPU / energy efficiency | [Link](https://arxiv.org/abs/2608.02122) | — |
 | **P1 · Watch** | **An Internet for the KV Cache: Rethinking Classical Infrastructure Boundaries in the LLM Inference Age** | Fresh / preprint | KV cache / distributed serving / cloud-network-storage systems | [Link](https://arxiv.org/abs/2608.01526) | — |
 
-## 🏛️ Classical / Historical · 262 canonical
+## 🏛️ Classical / Historical · 263 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -231,6 +231,7 @@
 | **Canonical** | **Attack of the Bubbles: Straggler-Resilient Pipeline Parallelism for Large Model Training** | NSDI 2026 | distributed training / pipeline parallelism | [Link](https://www.usenix.org/conference/nsdi26/presentation/wu-tianyuan) | — |
 | **Canonical** | **Checkmate: Zero Performance Overhead Model Checkpointing via Network Gradient Replication** | NSDI 2026 | distributed training / checkpointing | [Link](https://www.usenix.org/conference/nsdi26/presentation/bhardwaj) | — |
 | **Canonical** | **Di-PS: System-Algorithm Co-Design for Asynchronous and Heterogeneous Cross-cluster LLM Training at Scale** | NSDI 2026 | distributed training / heterogeneous clusters | [Link](https://www.usenix.org/conference/nsdi26/presentation/li-shengwei) | — |
+| **Canonical** | **Enabling AI Network Cross-Layer Design and Operations with Arcadia: A Simulation Platform at Scale** | NSDI 2026 | distributed training/inference / AI network / simulation / cluster infrastructure | [Link](https://www.usenix.org/conference/nsdi26/presentation/wang-zhaodong) | — |
 | **Canonical** | **EROICA: Online Performance Troubleshooting for Large-scale Model Training** | NSDI 2026 | distributed training / observability | [Link](https://www.usenix.org/conference/nsdi26/presentation/guan-yu) | — |
 | **Canonical** | **FalconFS: Distributed File System for Large-Scale Deep Learning Pipeline** | NSDI 2026 | distributed training / storage pipeline | [Link](https://www.usenix.org/conference/nsdi26/presentation/xu) | — |
 | **Canonical** | **FAST: An Efficient Scheduler for All-to-All GPU Communication** | NSDI 2026 | distributed training / collective communication | [Link](https://www.usenix.org/conference/nsdi26/presentation/lei-yiran) | — |

@@ -3163,6 +3163,27 @@
     ]
   },
   {
+    "title": "SeDeM: Selective Decompression of Hidden-State Memories for Long-Context Question Answering",
+    "venue": "arXiv 2026 / EMNLP 2026 main reported by author route",
+    "topic": "KV cache/long-context / context compression / efficient inference",
+    "arxiv": "2608.00311",
+    "doi": "",
+    "official_id": "2608.00311",
+    "paper_url": "https://arxiv.org/abs/2608.00311",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "UCLA VAST long-context efficiency work: compact hidden-state memory plus query-conditioned selective decompression avoids full-context processing and reduces TTFT while improving autoregressive decoding throughput relative to ICAE.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context"
+    ]
+  },
+  {
     "title": "A Cost-Effective Near-Storage Processing Solution for Offline Inference of Long-Context LLMs",
     "venue": "ASPLOS 2026",
     "topic": "LLM serving / long context / near-storage processing",
@@ -25272,6 +25293,26 @@
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context"
+    ]
+  },
+  {
+    "title": "Enabling AI Network Cross-Layer Design and Operations with Arcadia: A Simulation Platform at Scale",
+    "venue": "NSDI 2026",
+    "topic": "distributed training/inference / AI network / simulation / cluster infrastructure",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX_NSdi26_316720",
+    "paper_url": "https://www.usenix.org/conference/nsdi26/presentation/wang-zhaodong",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Production-grade Meta AI-network simulation platform for training clusters; cluster-level multi-granularity simulation with fast-forwarding and PDES optimizations, reporting 58.8x speedup over ASTRA-SIM and continuous production calibration.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Distributed Training / Inference"
     ]
   },
   {
