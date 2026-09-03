@@ -1,6 +1,6 @@
 # 13 · Efficient Reasoning / Agents
 
-> **237 canonical papers** mapped here, plus a broader **56-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **238 canonical papers** mapped here, plus a broader **56-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -65,7 +65,7 @@
 | **P2 · Relevant** | **SpecBox: Speculative Sandbox Scheduling for Efficient LLM Agent Serving** | Fresh / preprint | llm_serving / agent | [Link](https://arxiv.org/abs/2607.23933) | — |
 | **P2 · Relevant** | **Agentic CPU-GPU Scheduling for Heterogeneous AI Workloads** | Fresh / preprint | llm_serving / gen / agent / edge | [Link](https://arxiv.org/abs/2607.22242) | — |
 
-## 🏛️ Classical / Historical · 220 canonical
+## 🏛️ Classical / Historical · 221 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -119,6 +119,7 @@
 | **Canonical** | **Beyond Speedup - Utilizing KV Cache for Sampling and Reasoning** | ICLR 2026 | KV cache / efficient reasoning / representation reuse | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/d147f24cac1b6cd88753ca830e462bdc-Abstract-Conference.html) | — |
 | **Canonical** | **ICaRus: Identical Cache Reuse for Efficient Multi-Model Inference** | ICLR 2026 | multi-model LLM serving / cross-model KV cache reuse | [Link](https://arxiv.org/abs/2603.13281) | — |
 | **Canonical** | **KV-Cache Transform Coding for Compact Storage in LLM Inference** | ICLR 2026 | KV cache compression / LLM serving storage | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/3fb6f10bd2784f6cfb6a6ed6280df40c-Abstract-Conference.html) | — |
+| **Canonical** | **ParoQuant: Pairwise Rotation Quantization for Efficient Reasoning LLM Inference** | ICLR 2026 | LLM quantization; reasoning inference; rotation quantization; weight-only PTQ; GPU kernels | [Link](https://arxiv.org/abs/2511.10645) | — |
 | **Canonical** | **Reasoning Language Model Inference Serving Unveiled: An Empirical Study** | ICLR 2026 | LLM serving / reasoning inference / quantization / speculative decoding | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/a741b3864dbe6f0f588f2bb2a97e5e8e-Abstract-Conference.html) | — |
 | **Canonical** | **Sparse Attention Adaptation for Long Reasoning** | ICLR 2026 | efficient attention / long reasoning / sparse decode / GPU kernel | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/b56d827a2b8433517e722e0272c7f464-Abstract-Conference.html) | — |
 | **Canonical** | **ThinKV: Thought-Adaptive KV Cache Compression for Efficient Reasoning Models** | ICLR 2026 | KV cache compression / efficient reasoning | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/b2b502c3629beadda06311386d2c6f73-Abstract-Conference.html) | — |

@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **1434 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **348 visible papers = 97 P0 + 130 P1 + 121 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1436 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **348 visible papers = 97 P0 + 130 P1 + 121 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -371,7 +371,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 1337
+## 🏛️ Classical / Historical · 1339
 
 ### ICML 2026 · 374
 
@@ -1004,6 +1004,47 @@
 | **Canonical** | **VFlowOpt: A Token Pruning Framework for LMMs with Visual Information Flow-Guided Optimization** | ICCV 2025 | multimodal/VLM token pruning / KV efficiency | [Link](https://openaccess.thecvf.com/content/ICCV2025/html/Yang_VFlowOpt_A_Token_Pruning_Framework_for_LMMs_with_Visual_Information_ICCV_2025_paper.html) | — |
 | **Canonical** | **ZipVL: Accelerating Vision-Language Models through Dynamic Token Sparsity** | ICCV 2025 | VLM dynamic token sparsity / KV efficiency | [Link](https://openaccess.thecvf.com/content/ICCV2025/papers/He_ZipVL_Accelerating_Vision-Language_Models_through_Dynamic_Token_Sparsity_ICCV_2025_paper.pdf) | — |
 
+### ICLR 2026 · 36
+
+| Priority | Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|---|
+| **Canonical** | **Autoregressive Image Generation with Randomized Parallel Decoding** | ICLR 2026 | autoregressive image generation / parallel decoding | [Link](https://openreview.net/pdf?id=rJdGst0W8s) | — |
+| **Canonical** | **Beyond Speedup - Utilizing KV Cache for Sampling and Reasoning** | ICLR 2026 | KV cache / efficient reasoning / representation reuse | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/d147f24cac1b6cd88753ca830e462bdc-Abstract-Conference.html) | — |
+| **Canonical** | **Capacity-Aware Inference: Mitigating the Straggler Effect in Mixture of Experts** | ICLR 2026 | MoE systems / expert parallelism / straggler mitigation | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/94e845868a9ace4bc239d0c529d32f4c-Abstract-Conference.html) | [Repo](https://github.com/CASE-Lab-UMD/Capacity-Aware-MoE) |
+| **Canonical** | **DefensiveKV: Taming the Fragility of KV Cache Eviction in LLM Inference** | ICLR 2026 | KV cache eviction / robust aggregation | [Link](https://arxiv.org/abs/2510.13334) | [Repo](https://github.com/FFY0/DefensiveKV) |
+| **Canonical** | **Draft-based Approximate Inference for LLMs** | ICLR 2026 | KV cache compression / sparse attention / prompt compression | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/28b3dc0970fa4624a63278a4268de997-Abstract-Conference.html) | [Repo](https://github.com/furiosa-ai/draft-based-approx-llm) |
+| **Canonical** | **Efficient Quantization of Mixture-of-Experts with Theoretical Generalization Guarantees** | ICLR 2026 | quantization / MoE inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/7b97d09f0ab0f52eab856b0ed1122456-Abstract-Conference.html) | — |
+| **Canonical** | **Fast-dLLM v2: Efficient Block-Diffusion LLM** | ICLR 2026 | diffusion LLM inference / block diffusion / hierarchical caching | [Link](https://arxiv.org/abs/2509.26328) | [Repo](https://github.com/NVlabs/Fast-dLLM) |
+| **Canonical** | **Fast-dLLM: Training-free Acceleration of Diffusion LLM by Enabling KV Cache and Parallel Decoding** | ICLR 2026 | diffusion LLM inference / KV cache / parallel decoding | [Link](https://arxiv.org/abs/2505.22618) | [Repo](https://github.com/NVlabs/Fast-dLLM) |
+| **Canonical** | **FlashDLM: Accelerating Diffusion Language Model Inference via Efficient KV Caching and Guided Diffusion** | ICLR 2026 | diffusion language model inference / KV caching / guided diffusion / decoding acceleration | [Link](https://openreview.net/forum?id=KUfKvlX3VY) | [Repo](https://github.com/ZhanqiuHu/flash-dlm-experimental) |
+| **Canonical** | **FreeKV: Boosting KV Cache Retrieval for Efficient LLM Inference** | ICLR 2026 | KV cache retrieval / CPU-GPU hybrid memory / long-context inference | [Link](https://arxiv.org/abs/2505.13109) | — |
+| **Canonical** | **ICaRus: Identical Cache Reuse for Efficient Multi-Model Inference** | ICLR 2026 | multi-model LLM serving / cross-model KV cache reuse | [Link](https://arxiv.org/abs/2603.13281) | — |
+| **Canonical** | **IceCache: Memory-Efficient KV-cache Management for Long-Sequence LLMs** | ICLR 2026 | KV cache / CPU-GPU offload / long-context inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/94de1ef32f1b564b885720ab89fd95af-Abstract-Conference.html) | — |
+| **Canonical** | **Inference-Cost-Aware Dynamic Tree Construction for Efficient Inference in Large Language Models** | ICLR 2026 | speculative decoding / hardware-aware tree construction | [Link](https://openreview.net/pdf?id=iaWyRYthFf) | — |
+| **Canonical** | **KV-Cache Transform Coding for Compact Storage in LLM Inference** | ICLR 2026 | KV cache compression / LLM serving storage | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/3fb6f10bd2784f6cfb6a6ed6280df40c-Abstract-Conference.html) | — |
+| **Canonical** | **Long-Context Attention Benchmark: From Kernel Efficiency to Distributed Context Parallelism** | ICLR 2026 | efficient attention / distributed context parallelism / benchmark | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/7df69dbf39705c7a39b40f2d70e806c1-Abstract-Conference.html) | — |
+| **Canonical** | **LouisKV: Efficient KV Cache Retrieval for Long Input-Output Sequences** | ICLR 2026 | KV cache / long-context inference / retrieval / Triton-CUDA kernels | [Link](https://arxiv.org/abs/2510.11292) | — |
+| **Canonical** | **Multi-Head Low-Rank Attention** | ICLR 2026 | KV-efficient attention / tensor-parallel decoding | [Link](https://openreview.net/pdf?id=vBJKZ19XGY) | — |
+| **Canonical** | **ParoQuant: Pairwise Rotation Quantization for Efficient Reasoning LLM Inference** | ICLR 2026 | LLM quantization; reasoning inference; rotation quantization; weight-only PTQ; GPU kernels | [Link](https://arxiv.org/abs/2511.10645) | — |
+| **Canonical** | **ProxyAttn: Guided Sparse Attention via Representative Heads** | ICLR 2026 | sparse attention / long-context prefill | [Link](https://openreview.net/pdf?id=m3HXHQYmZu) | — |
+| **Canonical** | **QuoKA: Query-Oriented KV Selection for Efficient LLM Prefill** | ICLR 2026 | efficient attention / long-context prefill | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/760fe89b5a5e5792b33f23a2db1b9fbf-Abstract-Conference.html) | — |
+| **Canonical** | **Reasoning Language Model Inference Serving Unveiled: An Empirical Study** | ICLR 2026 | LLM serving / reasoning inference / quantization / speculative decoding | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/a741b3864dbe6f0f588f2bb2a97e5e8e-Abstract-Conference.html) | — |
+| **Canonical** | **RESA: Bringing Back What Sparse Attention Ignores with Residual Estimation** | ICLR 2026 | sparse attention / KV efficiency | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/89bd6217280d1417370c89ee493ba3c7-Abstract-Conference.html) | — |
+| **Canonical** | **ReST-KV: Robust KV Cache Eviction with Layer-wise Output Reconstruction and Spatial-Temporal Smoothing** | ICLR 2026 | KV cache / long-context inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/8be9c134bb193d8bd3827d4df8488228-Abstract-Conference.html) | — |
+| **Canonical** | **Retrospective Sparse Attention for Efficient Long-Context Generation** | ICLR 2026 | KV cache compression / long-generation inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/f4daa773a5bb2d562a9204a7e2225a67-Abstract-Conference.html) | [Repo](https://github.com/csh3695/RetroAttention) |
+| **Canonical** | **Scaling Attention via Feature Sparsity** | ICLR 2026 | efficient attention / feature sparsity / FlashSFA kernel | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/13e386233fe29d15525e7114fede6ce0-Abstract-Conference.html) | [Repo](https://github.com/YannX1e/Sparse-Feature-Attention) |
+| **Canonical** | **Semantic Parallelism: Redefining Efficient MoE Inference via Model-Data Co-Scheduling** | ICLR 2026 | MoE systems / expert parallelism / serving / communication | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/f0552f14388d95b19740dee809f5cad1-Abstract-Conference.html) | — |
+| **Canonical** | **Sparse Attention Adaptation for Long Reasoning** | ICLR 2026 | efficient attention / long reasoning / sparse decode / GPU kernel | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/b56d827a2b8433517e722e0272c7f464-Abstract-Conference.html) | — |
+| **Canonical** | **SparseD: Sparse Attention for Diffusion Language Models** | ICLR 2026 | diffusion language model / sparse attention / inference acceleration | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/a1598ba0aa7bd7bdf18e0ad04d993edc-Abstract-Conference.html) | [Repo](https://github.com/INV-WZQ/SparseD) |
+| **Canonical** | **Sparsity Forcing: Reinforcing Token Sparsity of MLLMs** | ICLR 2026 | multimodal/MLLM efficiency / token sparsity / RL post-training | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/fc034d186280f55370b6aca7a3285a65-Abstract-Conference.html) | — |
+| **Canonical** | **Speculative Speculative Decoding** | ICLR 2026 | speculative decoding / inference pipeline parallelism | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/1b96f01343ff10150e6719eb163e1536-Abstract-Conference.html) | — |
+| **Canonical** | **Tactic: Adaptive Sparse Attention with Clustering and Distribution Fitting for Long-Context LLMs** | ICLR 2026 | sparse attention / long-context inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/33f94d79acf71051d6a27f4d8889e20e-Abstract-Conference.html) | — |
+| **Canonical** | **ThinKV: Thought-Adaptive KV Cache Compression for Efficient Reasoning Models** | ICLR 2026 | KV cache compression / efficient reasoning | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/b2b502c3629beadda06311386d2c6f73-Abstract-Conference.html) | — |
+| **Canonical** | **Training-Free Loosely Speculative Decoding: Accepting Semantically Correct Drafts Beyond Exact Match** | ICLR 2026 | speculative decoding / LLM inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/acb94e709f02895fd98b5867f0b184f3-Abstract-Conference.html) | — |
+| **Canonical** | **TurboQuant: Online Vector Quantization with Near-optimal Distortion Rate** | ICLR 2026 | online vector quantization / KV cache compression | [Link](https://openreview.net/pdf?id=tO3ASKZlok) | — |
+| **Canonical** | **vAttention: Verified Sparse Attention via Sampling** | ICLR 2026 | efficient attention / sparse attention / long-context decoding | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/55cb562b1f5af71f6707f3ff3c7941e6-Abstract-Conference.html) | — |
+| **Canonical** | **WINA: Weight Informed Neuron Activation for Accelerating Large Language Model Inference** | ICLR 2026 | training-free sparse activation / LLM inference | [Link](https://openreview.net/pdf?id=l7Vb3yxmuz) | — |
+
 ### NeurIPS 2025 · 36
 
 | Priority | Paper | Venue | Topic | Paper | Code |
@@ -1084,46 +1125,6 @@
 | **Canonical** | **UniSpec: Training-Free Speculative Decoding for Robust LLM Acceleration Across Languages and Hardware** | ACL 2026 | speculative decoding / hardware-aware calibration | [Link](https://doi.org/10.18653/v1/2026.acl-long.285) | — |
 | **Canonical** | **VecInfer: Efficient LLM Inference with Low-Bit KV Cache via Outlier-Suppressed Vector Quantization** | ACL 2026 | KV-cache quantization / low-bit LLM inference / CUDA kernel | [Link](https://aclanthology.org/2026.acl-long.1454/) | — |
 | **Canonical** | **Vista-LLM: Decoupled Query-Guided Visual Token Pruning for Efficient Long-Video Large Language Models** | ACL 2026 | multimodal/MLLM serving / visual token pruning | [Link](https://aclanthology.org/2026.acl-long.601/) | — |
-
-### ICLR 2026 · 35
-
-| Priority | Paper | Venue | Topic | Paper | Code |
-|---|---|---|---|---|---|
-| **Canonical** | **Autoregressive Image Generation with Randomized Parallel Decoding** | ICLR 2026 | autoregressive image generation / parallel decoding | [Link](https://openreview.net/pdf?id=rJdGst0W8s) | — |
-| **Canonical** | **Beyond Speedup - Utilizing KV Cache for Sampling and Reasoning** | ICLR 2026 | KV cache / efficient reasoning / representation reuse | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/d147f24cac1b6cd88753ca830e462bdc-Abstract-Conference.html) | — |
-| **Canonical** | **Capacity-Aware Inference: Mitigating the Straggler Effect in Mixture of Experts** | ICLR 2026 | MoE systems / expert parallelism / straggler mitigation | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/94e845868a9ace4bc239d0c529d32f4c-Abstract-Conference.html) | [Repo](https://github.com/CASE-Lab-UMD/Capacity-Aware-MoE) |
-| **Canonical** | **DefensiveKV: Taming the Fragility of KV Cache Eviction in LLM Inference** | ICLR 2026 | KV cache eviction / robust aggregation | [Link](https://arxiv.org/abs/2510.13334) | [Repo](https://github.com/FFY0/DefensiveKV) |
-| **Canonical** | **Draft-based Approximate Inference for LLMs** | ICLR 2026 | KV cache compression / sparse attention / prompt compression | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/28b3dc0970fa4624a63278a4268de997-Abstract-Conference.html) | [Repo](https://github.com/furiosa-ai/draft-based-approx-llm) |
-| **Canonical** | **Efficient Quantization of Mixture-of-Experts with Theoretical Generalization Guarantees** | ICLR 2026 | quantization / MoE inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/7b97d09f0ab0f52eab856b0ed1122456-Abstract-Conference.html) | — |
-| **Canonical** | **Fast-dLLM v2: Efficient Block-Diffusion LLM** | ICLR 2026 | diffusion LLM inference / block diffusion / hierarchical caching | [Link](https://arxiv.org/abs/2509.26328) | [Repo](https://github.com/NVlabs/Fast-dLLM) |
-| **Canonical** | **Fast-dLLM: Training-free Acceleration of Diffusion LLM by Enabling KV Cache and Parallel Decoding** | ICLR 2026 | diffusion LLM inference / KV cache / parallel decoding | [Link](https://arxiv.org/abs/2505.22618) | [Repo](https://github.com/NVlabs/Fast-dLLM) |
-| **Canonical** | **FlashDLM: Accelerating Diffusion Language Model Inference via Efficient KV Caching and Guided Diffusion** | ICLR 2026 | diffusion language model inference / KV caching / guided diffusion / decoding acceleration | [Link](https://openreview.net/forum?id=KUfKvlX3VY) | [Repo](https://github.com/ZhanqiuHu/flash-dlm-experimental) |
-| **Canonical** | **FreeKV: Boosting KV Cache Retrieval for Efficient LLM Inference** | ICLR 2026 | KV cache retrieval / CPU-GPU hybrid memory / long-context inference | [Link](https://arxiv.org/abs/2505.13109) | — |
-| **Canonical** | **ICaRus: Identical Cache Reuse for Efficient Multi-Model Inference** | ICLR 2026 | multi-model LLM serving / cross-model KV cache reuse | [Link](https://arxiv.org/abs/2603.13281) | — |
-| **Canonical** | **IceCache: Memory-Efficient KV-cache Management for Long-Sequence LLMs** | ICLR 2026 | KV cache / CPU-GPU offload / long-context inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/94de1ef32f1b564b885720ab89fd95af-Abstract-Conference.html) | — |
-| **Canonical** | **Inference-Cost-Aware Dynamic Tree Construction for Efficient Inference in Large Language Models** | ICLR 2026 | speculative decoding / hardware-aware tree construction | [Link](https://openreview.net/pdf?id=iaWyRYthFf) | — |
-| **Canonical** | **KV-Cache Transform Coding for Compact Storage in LLM Inference** | ICLR 2026 | KV cache compression / LLM serving storage | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/3fb6f10bd2784f6cfb6a6ed6280df40c-Abstract-Conference.html) | — |
-| **Canonical** | **Long-Context Attention Benchmark: From Kernel Efficiency to Distributed Context Parallelism** | ICLR 2026 | efficient attention / distributed context parallelism / benchmark | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/7df69dbf39705c7a39b40f2d70e806c1-Abstract-Conference.html) | — |
-| **Canonical** | **LouisKV: Efficient KV Cache Retrieval for Long Input-Output Sequences** | ICLR 2026 | KV cache / long-context inference / retrieval / Triton-CUDA kernels | [Link](https://arxiv.org/abs/2510.11292) | — |
-| **Canonical** | **Multi-Head Low-Rank Attention** | ICLR 2026 | KV-efficient attention / tensor-parallel decoding | [Link](https://openreview.net/pdf?id=vBJKZ19XGY) | — |
-| **Canonical** | **ProxyAttn: Guided Sparse Attention via Representative Heads** | ICLR 2026 | sparse attention / long-context prefill | [Link](https://openreview.net/pdf?id=m3HXHQYmZu) | — |
-| **Canonical** | **QuoKA: Query-Oriented KV Selection for Efficient LLM Prefill** | ICLR 2026 | efficient attention / long-context prefill | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/760fe89b5a5e5792b33f23a2db1b9fbf-Abstract-Conference.html) | — |
-| **Canonical** | **Reasoning Language Model Inference Serving Unveiled: An Empirical Study** | ICLR 2026 | LLM serving / reasoning inference / quantization / speculative decoding | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/a741b3864dbe6f0f588f2bb2a97e5e8e-Abstract-Conference.html) | — |
-| **Canonical** | **RESA: Bringing Back What Sparse Attention Ignores with Residual Estimation** | ICLR 2026 | sparse attention / KV efficiency | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/89bd6217280d1417370c89ee493ba3c7-Abstract-Conference.html) | — |
-| **Canonical** | **ReST-KV: Robust KV Cache Eviction with Layer-wise Output Reconstruction and Spatial-Temporal Smoothing** | ICLR 2026 | KV cache / long-context inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/8be9c134bb193d8bd3827d4df8488228-Abstract-Conference.html) | — |
-| **Canonical** | **Retrospective Sparse Attention for Efficient Long-Context Generation** | ICLR 2026 | KV cache compression / long-generation inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/f4daa773a5bb2d562a9204a7e2225a67-Abstract-Conference.html) | [Repo](https://github.com/csh3695/RetroAttention) |
-| **Canonical** | **Scaling Attention via Feature Sparsity** | ICLR 2026 | efficient attention / feature sparsity / FlashSFA kernel | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/13e386233fe29d15525e7114fede6ce0-Abstract-Conference.html) | [Repo](https://github.com/YannX1e/Sparse-Feature-Attention) |
-| **Canonical** | **Semantic Parallelism: Redefining Efficient MoE Inference via Model-Data Co-Scheduling** | ICLR 2026 | MoE systems / expert parallelism / serving / communication | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/f0552f14388d95b19740dee809f5cad1-Abstract-Conference.html) | — |
-| **Canonical** | **Sparse Attention Adaptation for Long Reasoning** | ICLR 2026 | efficient attention / long reasoning / sparse decode / GPU kernel | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/b56d827a2b8433517e722e0272c7f464-Abstract-Conference.html) | — |
-| **Canonical** | **SparseD: Sparse Attention for Diffusion Language Models** | ICLR 2026 | diffusion language model / sparse attention / inference acceleration | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/a1598ba0aa7bd7bdf18e0ad04d993edc-Abstract-Conference.html) | [Repo](https://github.com/INV-WZQ/SparseD) |
-| **Canonical** | **Sparsity Forcing: Reinforcing Token Sparsity of MLLMs** | ICLR 2026 | multimodal/MLLM efficiency / token sparsity / RL post-training | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/fc034d186280f55370b6aca7a3285a65-Abstract-Conference.html) | — |
-| **Canonical** | **Speculative Speculative Decoding** | ICLR 2026 | speculative decoding / inference pipeline parallelism | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/1b96f01343ff10150e6719eb163e1536-Abstract-Conference.html) | — |
-| **Canonical** | **Tactic: Adaptive Sparse Attention with Clustering and Distribution Fitting for Long-Context LLMs** | ICLR 2026 | sparse attention / long-context inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/33f94d79acf71051d6a27f4d8889e20e-Abstract-Conference.html) | — |
-| **Canonical** | **ThinKV: Thought-Adaptive KV Cache Compression for Efficient Reasoning Models** | ICLR 2026 | KV cache compression / efficient reasoning | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/b2b502c3629beadda06311386d2c6f73-Abstract-Conference.html) | — |
-| **Canonical** | **Training-Free Loosely Speculative Decoding: Accepting Semantically Correct Drafts Beyond Exact Match** | ICLR 2026 | speculative decoding / LLM inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/acb94e709f02895fd98b5867f0b184f3-Abstract-Conference.html) | — |
-| **Canonical** | **TurboQuant: Online Vector Quantization with Near-optimal Distortion Rate** | ICLR 2026 | online vector quantization / KV cache compression | [Link](https://openreview.net/pdf?id=tO3ASKZlok) | — |
-| **Canonical** | **vAttention: Verified Sparse Attention via Sampling** | ICLR 2026 | efficient attention / sparse attention / long-context decoding | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/55cb562b1f5af71f6707f3ff3c7941e6-Abstract-Conference.html) | — |
-| **Canonical** | **WINA: Weight Informed Neuron Activation for Accelerating Large Language Model Inference** | ICLR 2026 | training-free sparse activation / LLM inference | [Link](https://openreview.net/pdf?id=l7Vb3yxmuz) | — |
 
 ### CVPR 2026 · 33
 
@@ -1308,7 +1309,7 @@
 | **Canonical** | **TokenPowerBench: Benchmarking the Power Consumption of LLM Inference** | AAAI 2026 | LLM serving / energy benchmarking | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/40535) | [Repo](https://github.com/chenxuniu/TokenPowerBench) |
 | **Canonical** | **TOP-RL: Task-Optimized Progressive Token Pruning with Reinforcement Learning for Vision Language Models** | AAAI 2026 | multimodal/MLLM serving / visual token pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/38614) | — |
 
-### arXiv 2026 · 29
+### arXiv 2026 · 30
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -1325,6 +1326,7 @@
 | **Canonical** | **Lynx: Progressive Speculative Quantization for accelerating KV Transfer in Long-Context Inference** | arXiv 2026 | LLM serving / disaggregated inference / KV cache transfer / progressive quantization / speculative decoding | [Link](https://arxiv.org/abs/2607.01831) | — |
 | **Canonical** | **MatGPTQ: Accurate and Efficient Post-Training Matryoshka Quantization** | arXiv 2026 | LLM quantization; Matryoshka precision; PTQ; mixed-precision kernels | [Link](https://arxiv.org/abs/2602.03537) | [Repo](https://github.com/IST-DASLab/MatGPTQ) |
 | **Canonical** | **Mix-Quant: Quantized Prefilling, Precise Decoding for Agentic LLMs** | arXiv 2026 | agentic LLM inference; quantized prefill; NVFP4; prefill-decode disaggregation | [Link](https://arxiv.org/abs/2605.20315) | [Repo](https://github.com/haiquanlu/Mix-Quant) |
+| **Canonical** | **Model Compression with Exact Budget Constraints via Riemannian Manifolds** | arXiv 2026 | LLM compression; mixed-precision quantization; MoE expert pruning; exact-budget optimization | [Link](https://arxiv.org/abs/2605.00649) | [Repo](https://github.com/IST-DASLab/RCO) |
 | **Canonical** | **Native LLM and MLLM Inference at Scale on Apple Silicon** | arXiv 2026 | edge/on-device LLM and MLLM serving; Apple Silicon; MLX; continuous batching; prefix caching | [Link](https://arxiv.org/abs/2601.19139) | [Repo](https://github.com/waybarrios/vllm-mlx) |
 | **Canonical** | **NUNA: Characterizing and Mitigating Non-Uniform Network Access in Multi-Die GPU Scale-Up Systems** | arXiv 2026 | distributed inference / multi-die GPU / collectives / heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.00867) | — |
 | **Canonical** | **Optimizing CUDA like a Human: Micro-Profiling Tools as Expert Surrogates for LLM-Based GPU Kernel Optimization** | arXiv 2026 | GPU kernel/DSL/compilers / agentic kernel optimization | [Link](https://arxiv.org/abs/2606.26453) | — |

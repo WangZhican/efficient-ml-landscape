@@ -2471,6 +2471,28 @@
     ]
   },
   {
+    "title": "Model Compression with Exact Budget Constraints via Riemannian Manifolds",
+    "venue": "arXiv 2026",
+    "topic": "LLM compression; mixed-precision quantization; MoE expert pruning; exact-budget optimization",
+    "arxiv": "2605.00649",
+    "doi": "",
+    "official_id": "arXiv:2605.00649",
+    "paper_url": "https://arxiv.org/abs/2605.00649",
+    "code_url": "https://github.com/IST-DASLab/RCO",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "ISTA DASLab true canonical miss found on fresh recheck: RCO optimizes the actual loss under an exact compression budget using Riemannian constrained optimization, covering mixed-precision quantization and MoE expert pruning with exact feasibility and lower search cost.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "Sparsity / Pruning",
+      "MoE Systems / Accelerators"
+    ]
+  },
+  {
     "title": "Native LLM and MLLM Inference at Scale on Apple Silicon",
     "venue": "arXiv 2026",
     "topic": "edge/on-device LLM and MLLM serving; Apple Silicon; MLX; continuous batching; prefix caching",
@@ -10498,6 +10520,28 @@
     "directions": [
       "Speculative Decoding",
       "Efficient Attention"
+    ]
+  },
+  {
+    "title": "ParoQuant: Pairwise Rotation Quantization for Efficient Reasoning LLM Inference",
+    "venue": "ICLR 2026",
+    "topic": "LLM quantization; reasoning inference; rotation quantization; weight-only PTQ; GPU kernels",
+    "arxiv": "2511.10645",
+    "doi": "",
+    "official_id": "arXiv:2511.10645",
+    "paper_url": "https://arxiv.org/abs/2511.10645",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "UCSD Z Lab / MIT Han Lab true canonical miss found on fresh recheck: ICLR 2026 weight-only PTQ combines optimizable pairwise Givens rotations with channel scaling and a co-designed inference kernel, improving reasoning-model quantization accuracy with lightweight runtime overhead.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "GPU Kernel / DSL / Compiler",
+      "Efficient Reasoning / Agents"
     ]
   },
   {

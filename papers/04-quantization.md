@@ -1,6 +1,6 @@
 # 04 · Quantization
 
-> **200 canonical papers** mapped here, plus a broader **56-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **202 canonical papers** mapped here, plus a broader **56-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -65,7 +65,7 @@
 | **P1 · Watch** | **Sparse by Command: Task-Conditional Compute Skipping for Multi-Task Inference Accelerators** | Fresh / preprint | llm_serving / quant / sparse / gen / edge | [Link](https://arxiv.org/abs/2607.22038) | — |
 | **P1 · Watch** | **Precision-Induced Miscalibration: Understanding and Correcting Confidence Distortion in Quantized Neural Networks** | ICML 2026 | quantization / low-precision calibration / confidence distortion / mixed precision | [Link](https://openreview.net/forum?id=zCkFbxKeF5) | — |
 
-## 🏛️ Classical / Historical · 186 canonical
+## 🏛️ Classical / Historical · 188 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -87,6 +87,7 @@
 | **Canonical** | **Lynx: Progressive Speculative Quantization for accelerating KV Transfer in Long-Context Inference** | arXiv 2026 | LLM serving / disaggregated inference / KV cache transfer / progressive quantization / speculative decoding | [Link](https://arxiv.org/abs/2607.01831) | — |
 | **Canonical** | **MatGPTQ: Accurate and Efficient Post-Training Matryoshka Quantization** | arXiv 2026 | LLM quantization; Matryoshka precision; PTQ; mixed-precision kernels | [Link](https://arxiv.org/abs/2602.03537) | [Repo](https://github.com/IST-DASLab/MatGPTQ) |
 | **Canonical** | **Mix-Quant: Quantized Prefilling, Precise Decoding for Agentic LLMs** | arXiv 2026 | agentic LLM inference; quantized prefill; NVFP4; prefill-decode disaggregation | [Link](https://arxiv.org/abs/2605.20315) | [Repo](https://github.com/haiquanlu/Mix-Quant) |
+| **Canonical** | **Model Compression with Exact Budget Constraints via Riemannian Manifolds** | arXiv 2026 | LLM compression; mixed-precision quantization; MoE expert pruning; exact-budget optimization | [Link](https://arxiv.org/abs/2605.00649) | [Repo](https://github.com/IST-DASLab/RCO) |
 | **Canonical** | **Q-ARVD: Quantizing Autoregressive Video Diffusion Models** | arXiv 2026 | video generation acceleration; autoregressive video diffusion; quantization; Triton kernels | [Link](https://arxiv.org/abs/2605.21072) | [Repo](https://github.com/tsa18/Q-ARVD) |
 | **Canonical** | **RTP-LLM: High-Performance Alibaba LLM Inference Engine** | arXiv 2026 | LLM serving / KV cache / speculative decoding / quantization / multimodal serving | [Link](https://arxiv.org/abs/2605.29639) | [Repo](https://github.com/alibaba/rtp-llm) |
 | **Canonical** | **Statistically-Lossless Quantization of Large Language Models** | arXiv 2026 | LLM quantization; statistically-lossless compression; low-bit inference; optimized kernels | [Link](https://arxiv.org/abs/2605.02404) | [Repo](https://github.com/IST-DASLab/SLQ) |
@@ -131,6 +132,7 @@
 | **Canonical** | **Text Embedding Knows How to Quantize Text-Guided Diffusion Models** | ICCV 2025 | diffusion quantization / dynamic precision | [Link](https://openaccess.thecvf.com/content/ICCV2025/papers/Lee_Text_Embedding_Knows_How_to_Quantize_Text-Guided_Diffusion_Models_ICCV_2025_paper.pdf) | — |
 | **Canonical** | **Efficient Quantization of Mixture-of-Experts with Theoretical Generalization Guarantees** | ICLR 2026 | quantization / MoE inference | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/7b97d09f0ab0f52eab856b0ed1122456-Abstract-Conference.html) | — |
 | **Canonical** | **KV-Cache Transform Coding for Compact Storage in LLM Inference** | ICLR 2026 | KV cache compression / LLM serving storage | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/3fb6f10bd2784f6cfb6a6ed6280df40c-Abstract-Conference.html) | — |
+| **Canonical** | **ParoQuant: Pairwise Rotation Quantization for Efficient Reasoning LLM Inference** | ICLR 2026 | LLM quantization; reasoning inference; rotation quantization; weight-only PTQ; GPU kernels | [Link](https://arxiv.org/abs/2511.10645) | — |
 | **Canonical** | **Reasoning Language Model Inference Serving Unveiled: An Empirical Study** | ICLR 2026 | LLM serving / reasoning inference / quantization / speculative decoding | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/a741b3864dbe6f0f588f2bb2a97e5e8e-Abstract-Conference.html) | — |
 | **Canonical** | **ThinKV: Thought-Adaptive KV Cache Compression for Efficient Reasoning Models** | ICLR 2026 | KV cache compression / efficient reasoning | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/b2b502c3629beadda06311386d2c6f73-Abstract-Conference.html) | — |
 | **Canonical** | **TurboQuant: Online Vector Quantization with Near-optimal Distortion Rate** | ICLR 2026 | online vector quantization / KV cache compression | [Link](https://openreview.net/pdf?id=tO3ASKZlok) | — |

@@ -1,6 +1,6 @@
 # 08 · GPU Kernel / DSL / Compiler
 
-> **352 canonical papers** mapped here, plus a broader **76-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **353 canonical papers** mapped here, plus a broader **76-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -85,7 +85,7 @@
 | **P1 · Watch** | **Here is a GIFT: Enforcing User Data Isolation in LLM Serving via GPU Information Flow Tracking** | Fresh / preprint | LLM serving / GPU runtime / confidential computing | [Link](https://arxiv.org/abs/2608.25431) | — |
 | **P1 · Watch** | **DEFT: Joint Task Placement and DVFS for Energy-Efficient Multi-GPU Runtimes** | Fresh / preprint | distributed runtime / multi-GPU / energy efficiency | [Link](https://arxiv.org/abs/2608.02122) | — |
 
-## 🏛️ Classical / Historical · 321 canonical
+## 🏛️ Classical / Historical · 322 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -178,6 +178,7 @@
 | **Canonical** | **Inference-Cost-Aware Dynamic Tree Construction for Efficient Inference in Large Language Models** | ICLR 2026 | speculative decoding / hardware-aware tree construction | [Link](https://openreview.net/pdf?id=iaWyRYthFf) | — |
 | **Canonical** | **Long-Context Attention Benchmark: From Kernel Efficiency to Distributed Context Parallelism** | ICLR 2026 | efficient attention / distributed context parallelism / benchmark | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/7df69dbf39705c7a39b40f2d70e806c1-Abstract-Conference.html) | — |
 | **Canonical** | **LouisKV: Efficient KV Cache Retrieval for Long Input-Output Sequences** | ICLR 2026 | KV cache / long-context inference / retrieval / Triton-CUDA kernels | [Link](https://arxiv.org/abs/2510.11292) | — |
+| **Canonical** | **ParoQuant: Pairwise Rotation Quantization for Efficient Reasoning LLM Inference** | ICLR 2026 | LLM quantization; reasoning inference; rotation quantization; weight-only PTQ; GPU kernels | [Link](https://arxiv.org/abs/2511.10645) | — |
 | **Canonical** | **QuoKA: Query-Oriented KV Selection for Efficient LLM Prefill** | ICLR 2026 | efficient attention / long-context prefill | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/760fe89b5a5e5792b33f23a2db1b9fbf-Abstract-Conference.html) | — |
 | **Canonical** | **Scaling Attention via Feature Sparsity** | ICLR 2026 | efficient attention / feature sparsity / FlashSFA kernel | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/13e386233fe29d15525e7114fede6ce0-Abstract-Conference.html) | [Repo](https://github.com/YannX1e/Sparse-Feature-Attention) |
 | **Canonical** | **Sparse Attention Adaptation for Long Reasoning** | ICLR 2026 | efficient attention / long reasoning / sparse decode / GPU kernel | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/b56d827a2b8433517e722e0272c7f464-Abstract-Conference.html) | — |
