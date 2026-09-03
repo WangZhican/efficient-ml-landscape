@@ -19872,6 +19872,28 @@
     ]
   },
   {
+    "title": "LLMServingSim 2.0: A Unified Simulator for Heterogeneous and Disaggregated LLM Serving Infrastructure",
+    "venue": "ISPASS 2026 Best Paper",
+    "topic": "LLM serving; heterogeneous accelerators; disaggregated inference; serving simulation; hardware-software co-design",
+    "arxiv": "2602.23036",
+    "doi": "",
+    "official_id": "arXiv:2602.23036",
+    "paper_url": "https://arxiv.org/abs/2602.23036",
+    "code_url": "https://github.com/casys-kaist/LLMServingSim",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "KAIST CASYS/Jongse Park canonical gap: ISPASS 2026 Best Paper provides a unified runtime-driven simulator for heterogeneous accelerators, disaggregated memory/model components, batching/routing/offloading/interconnect and power. It validates against real deployments with sub-1% average error and supports systematic HW/SW co-design; official casys-kaist repository is active and public.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "A 0.24mJ/Frame Quadratic Interpolation 4DGS Processor with Recursive Computation Reuse and Tree-Based Parallel-Rendering",
     "venue": "ISSCC 2026",
     "topic": "4D Gaussian Splatting / neural rendering accelerator / dynamic-scene generation",
@@ -21179,6 +21201,26 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "C3: Collaborative CPU-Commodity DRAM Computation for Reliable LLM Acceleration",
+    "venue": "MICRO 2026",
+    "topic": "LLM inference acceleration; processing-using-DRAM; memory-centric computing; quantized inference; dense retrieval",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "MICRO2026:C3",
+    "paper_url": "https://alian.csl.cornell.edu/",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Cornell Mohammad Alian/Jose Martinez lineage canonical gap: MICRO 2026 C3 uses collaborative CPU plus unmodified commodity DRAM processing-using-DRAM to reduce data movement; primary author/lab evidence reports acceleration for quantized LLM inference and dense retrieval. The paper is accepted, while the primary manuscript is still forthcoming.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization"
     ]
   },
   {

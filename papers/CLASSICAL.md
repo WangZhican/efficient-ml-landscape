@@ -1,6 +1,6 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **1329 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **1331 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
@@ -1612,6 +1612,18 @@
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **Canonical** | **Gleanmer: A 6 mW SoC for Real-Time 3D Gaussian Occupancy Mapping** | IEEE VLSI 2026 | edge/cloud/heterogeneous AI systems; Physical AI; autonomous navigation; 3D Gaussian occupancy mapping accelerator | [Link](https://arxiv.org/abs/2603.29005) | — |
+
+## ISPASS 2026 Best Paper · 1
+
+| Priority | Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|---|
+| **Canonical** | **LLMServingSim 2.0: A Unified Simulator for Heterogeneous and Disaggregated LLM Serving Infrastructure** | ISPASS 2026 Best Paper | LLM serving; heterogeneous accelerators; disaggregated inference; serving simulation; hardware-software co-design | [Link](https://arxiv.org/abs/2602.23036) | [Repo](https://github.com/casys-kaist/LLMServingSim) |
+
+## MICRO 2026 · 1
+
+| Priority | Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|---|
+| **Canonical** | **C3: Collaborative CPU-Commodity DRAM Computation for Reliable LLM Acceleration** | MICRO 2026 | LLM inference acceleration; processing-using-DRAM; memory-centric computing; quantized inference; dense retrieval | [Link](https://alian.csl.cornell.edu/) | — |
 
 ## MLSys 2026 Industry Track · 1
 

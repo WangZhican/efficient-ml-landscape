@@ -1,6 +1,6 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **302 canonical papers** mapped here, plus a broader **105-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **303 canonical papers** mapped here, plus a broader **105-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -114,7 +114,7 @@
 | **P2 · Relevant** | **Unified Static-Dynamic Pruning for Efficient LLM Inference** | Fresh / preprint | llm_serving / sparse / kernel / edge | [Link](https://arxiv.org/abs/2607.21985) | — |
 | **P1 · Watch** | **Edge-Native Embodied Intelligence for Action-Aware Wireless Edge Networks** | Fresh / preprint | VLA/WAM/Physical AI serving / edge-cloud / heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.17774) | — |
 
-## 🏛️ Classical / Historical · 280 canonical
+## 🏛️ Classical / Historical · 281 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -273,6 +273,7 @@
 | **Canonical** | **SMoE: An Algorithm-System Co-Design for Pushing MoE to the Edge via Expert Substitution** | ISCA 2026 | edge MoE / algorithm-system co-design | [Link](https://www.iscaconf.org/isca2026/program/) | — |
 | **Canonical** | **SMOOTH: Hardware-Assisted Fine-Grained On-Chip Memory Management for Efficient On-Device LLM Inference** | ISCA 2026 | edge speculative reasoning + quantization + memory-system + generative inference accelerators | — | — |
 | **Canonical** | **XtraMAC: An Efficient MAC Architecture for Mixed-Precision LLM Inference on FPGA** | ISCA 2026 | mixed-precision LLM / FPGA accelerator | [Link](https://arxiv.org/abs/2605.06052) | [Repo](https://github.com/Xtra-Computing/XtraMAC) |
+| **Canonical** | **LLMServingSim 2.0: A Unified Simulator for Heterogeneous and Disaggregated LLM Serving Infrastructure** | ISPASS 2026 Best Paper | LLM serving; heterogeneous accelerators; disaggregated inference; serving simulation; hardware-software co-design | [Link](https://arxiv.org/abs/2602.23036) | [Repo](https://github.com/casys-kaist/LLMServingSim) |
 | **Canonical** | **A 1.2GHz 12.77GB/s/mm² 3D Two-DRAM-One-Logic Process-Near-Memory Chip for Edge LLM Applications** | ISSCC 2026 | edge LLM / 3D DRAM / process-near-memory / heterogeneous AI systems | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409184) | — |
 | **Canonical** | **A 12nm 4Mb 104.56-to-137.75TFLOPS/W Charge-Trap Transistor-Based Computing-in-Memory Macro Using Analog-Predict-Digital-Compute for AI Edge Devices** | ISSCC 2026 | edge AI / charge-trap compute-in-memory / mixed INT-FP4 | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409272) | — |
 | **Canonical** | **A 147TOPS/W, 250TOPS/mm2, Fully Synthesizable, Digital Compute-in-Memory Accelerator Supporting INT8xINT8 with Zero-Point Quantization in Intel 18A Technology** | ISSCC 2026 | edge/cloud/heterogeneous AI systems / compute-in-memory / INT8 quantization accelerator | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409207) | — |

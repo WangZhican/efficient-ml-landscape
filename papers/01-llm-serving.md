@@ -1,6 +1,6 @@
 # 01 · LLM Serving
 
-> **591 canonical papers** mapped here, plus a broader **238-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **592 canonical papers** mapped here, plus a broader **238-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -247,7 +247,7 @@
 | **P1 · Watch** | **Edge-Native Embodied Intelligence for Action-Aware Wireless Edge Networks** | Fresh / preprint | VLA/WAM/Physical AI serving / edge-cloud / heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.17774) | — |
 | **P1 · Watch** | **An Internet for the KV Cache: Rethinking Classical Infrastructure Boundaries in the LLM Inference Age** | Fresh / preprint | KV cache / distributed serving / cloud-network-storage systems | [Link](https://arxiv.org/abs/2608.01526) | — |
 
-## 🏛️ Classical / Historical · 541 canonical
+## 🏛️ Classical / Historical · 542 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -586,6 +586,7 @@
 | **Canonical** | **Symbiotic MLLM Serving: Dynamically Balancing Parallelism Across GPUs and Resources Within GPUs** | ISCA 2026 | multimodal LLM serving / GPU resource balancing | [Link](https://www.iscaconf.org/isca2026/program/) | — |
 | **Canonical** | **Tetris: Efficient Long-context LLM Serving with Chunkwise Dynamic Sequence Parallelism** | ISCA 2026 | long-context LLM serving / sequence parallelism | [Link](https://arxiv.org/abs/2511.06247) | — |
 | **Canonical** | **Understanding Inference Scaling for LLMs: Bottlenecks, Trade-offs, and Performance Principles** | ISCA 2026 | LLM inference systems / reasoning workloads / parallelism and scaling | [Link](https://arxiv.org/abs/2605.19775) | — |
+| **Canonical** | **LLMServingSim 2.0: A Unified Simulator for Heterogeneous and Disaggregated LLM Serving Infrastructure** | ISPASS 2026 Best Paper | LLM serving; heterogeneous accelerators; disaggregated inference; serving simulation; hardware-software co-design | [Link](https://arxiv.org/abs/2602.23036) | [Repo](https://github.com/casys-kaist/LLMServingSim) |
 | **Canonical** | **A 1286fps 0.39mJ/Frame Modeling/Rendering Unified 3D GS Processor with Locality-Optimized Computation and Reconfigurable Architecture** | ISSCC 2026 | 3D Gaussian Splatting / modeling-rendering unified accelerator / neural rendering | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409198) | — |
 | **Canonical** | **A 14.08-to-135.69Token/s ReRAM-on-Logic Stacked Outlier-Free Large-Language-Model Accelerator with Block-Clustered Weight-Compression and Adaptive Parallel-Speculative-Decoding** | ISSCC 2026 | LLM inference accelerator / speculative decoding / low-bit quantization / ReRAM-on-logic | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409211) | — |
 | **Canonical** | **A 71.3mJ/Frame End-to-End Driving Processor with Flexible Heterogeneous Core Orchestration via Sparsity Reasoning** | ISSCC 2026 | VLA/WAM/Physical AI serving / edge AI accelerator / sparsity / heterogeneous runtime | [Link](https://www.isl-yonsei.ac/news-posts/congratulations-jueun-and-sanghos-paper-is-accepted-to-ieee-international-solid-state-circuits-conference-isscc/) | — |

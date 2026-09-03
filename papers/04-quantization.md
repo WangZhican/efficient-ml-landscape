@@ -1,6 +1,6 @@
 # 04 · Quantization
 
-> **194 canonical papers** mapped here, plus a broader **56-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **195 canonical papers** mapped here, plus a broader **56-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -65,7 +65,7 @@
 | **P1 · Watch** | **Sparse by Command: Task-Conditional Compute Skipping for Multi-Task Inference Accelerators** | Fresh / preprint | llm_serving / quant / sparse / gen / edge | [Link](https://arxiv.org/abs/2607.22038) | — |
 | **P1 · Watch** | **Precision-Induced Miscalibration: Understanding and Correcting Confidence Distortion in Quantized Neural Networks** | ICML 2026 | quantization / low-precision calibration / confidence distortion / mixed precision | [Link](https://openreview.net/forum?id=zCkFbxKeF5) | — |
 
-## 🏛️ Classical / Historical · 180 canonical
+## 🏛️ Classical / Historical · 181 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -227,6 +227,7 @@
 | **Canonical** | **Amove: Accelerating LLMs through Mitigating Outliers and Salient Points via Fine-Grained Grouped Vectorized Data Type** | MICRO 2025 | LLM quantization / vectorized datatype | [Link](https://doi.org/10.1145/3725843.3756113) | — |
 | **Canonical** | **AxCore: A Quantization-Aware Approximate GEMM Unit for LLM Inference** | MICRO 2025 | LLM quantization / accelerator | [Link](https://soldierchen.github.io/assets/pdf/axcore-micro25.pdf) | [Repo](https://github.com/CLab-HKUST-GZ/micro58-axcore) |
 | **Canonical** | **MX+: Pushing the Limits of Microscaling Formats for Efficient Large Language Model Serving** | MICRO 2025 | LLM serving / low-precision microscaling | [Link](https://arxiv.org/abs/2510.14557) | — |
+| **Canonical** | **C3: Collaborative CPU-Commodity DRAM Computation for Reliable LLM Acceleration** | MICRO 2026 | LLM inference acceleration; processing-using-DRAM; memory-centric computing; quantized inference; dense retrieval | [Link](https://alian.csl.cornell.edu/) | — |
 | **Canonical** | **ExecuTorch - A Unified PyTorch Solution to Run ML Models On-Device** | MLSys 2026 | edge AI systems / heterogeneous runtime / on-device inference | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/236f915dd02af4f11927f67330b21d4b-Abstract-Conference.html) | — |
 | **Canonical** | **IntAttention: A Fully Integer Attention Pipeline for Efficient Edge Inference** | MLSys 2026 | edge inference / integer attention | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/file/ea5ffdf7da91256ecd2770f9fd2dade9-Paper-Conference.pdf) | — |
 | **Canonical** | **Kitty: Accurate and Efficient 2-bit KV Cache Quantization with Dynamic Channel-wise Precision Boost** | MLSys 2026 | KV cache quantization / low-bit inference | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/file/e4d8d1b5120be349d3fff8878650cf45-Paper-Conference.pdf) | — |

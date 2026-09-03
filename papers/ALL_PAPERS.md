@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **1426 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **348 visible papers = 97 P0 + 130 P1 + 121 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1428 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **348 visible papers = 97 P0 + 130 P1 + 121 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -371,7 +371,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 1329
+## 🏛️ Classical / Historical · 1331
 
 ### ICML 2026 · 374
 
@@ -1981,6 +1981,18 @@
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **Canonical** | **Gleanmer: A 6 mW SoC for Real-Time 3D Gaussian Occupancy Mapping** | IEEE VLSI 2026 | edge/cloud/heterogeneous AI systems; Physical AI; autonomous navigation; 3D Gaussian occupancy mapping accelerator | [Link](https://arxiv.org/abs/2603.29005) | — |
+
+### ISPASS 2026 Best Paper · 1
+
+| Priority | Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|---|
+| **Canonical** | **LLMServingSim 2.0: A Unified Simulator for Heterogeneous and Disaggregated LLM Serving Infrastructure** | ISPASS 2026 Best Paper | LLM serving; heterogeneous accelerators; disaggregated inference; serving simulation; hardware-software co-design | [Link](https://arxiv.org/abs/2602.23036) | [Repo](https://github.com/casys-kaist/LLMServingSim) |
+
+### MICRO 2026 · 1
+
+| Priority | Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|---|
+| **Canonical** | **C3: Collaborative CPU-Commodity DRAM Computation for Reliable LLM Acceleration** | MICRO 2026 | LLM inference acceleration; processing-using-DRAM; memory-centric computing; quantized inference; dense retrieval | [Link](https://alian.csl.cornell.edu/) | — |
 
 ### MLSys 2026 Industry Track · 1
 

@@ -1,6 +1,6 @@
 # 03 · KV Cache / Long Context
 
-> **360 canonical papers** mapped here, plus a broader **69-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **361 canonical papers** mapped here, plus a broader **69-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -78,7 +78,7 @@
 | **P1 · Watch** | **Edge-Native Embodied Intelligence for Action-Aware Wireless Edge Networks** | Fresh / preprint | VLA/WAM/Physical AI serving / edge-cloud / heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.17774) | — |
 | **P1 · Watch** | **An Internet for the KV Cache: Rethinking Classical Infrastructure Boundaries in the LLM Inference Age** | Fresh / preprint | KV cache / distributed serving / cloud-network-storage systems | [Link](https://arxiv.org/abs/2608.01526) | — |
 
-## 🏛️ Classical / Historical · 331 canonical
+## 🏛️ Classical / Historical · 332 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -320,6 +320,7 @@
 | **Canonical** | **Omni-LUT: Energy-Efficient LUT-based Accelerator with Hardware-Aware KV Cache Quantization** | ISCA 2026 | LLM inference accelerator / LUT / KV-cache quantization | [Link](https://www.iscaconf.org/isca2026/program/) | — |
 | **Canonical** | **Tetris: Efficient Long-context LLM Serving with Chunkwise Dynamic Sequence Parallelism** | ISCA 2026 | long-context LLM serving / sequence parallelism | [Link](https://arxiv.org/abs/2511.06247) | — |
 | **Canonical** | **Understanding Inference Scaling for LLMs: Bottlenecks, Trade-offs, and Performance Principles** | ISCA 2026 | LLM inference systems / reasoning workloads / parallelism and scaling | [Link](https://arxiv.org/abs/2605.19775) | — |
+| **Canonical** | **LLMServingSim 2.0: A Unified Simulator for Heterogeneous and Disaggregated LLM Serving Infrastructure** | ISPASS 2026 Best Paper | LLM serving; heterogeneous accelerators; disaggregated inference; serving simulation; hardware-software co-design | [Link](https://arxiv.org/abs/2602.23036) | [Repo](https://github.com/casys-kaist/LLMServingSim) |
 | **Canonical** | **SMoLPU: 122.1μJ/Token Sparse MoE-Based Speculative Decoding Language Processing Unit with Adaptive-Offload NPU-CIM Core** | ISSCC 2026 | MoE systems/accelerators / speculative decoding / edge AI hardware | [Link](https://pure.kaist.ac.kr/en/publications/smolpu-1221%CE%BCjtoken-sparse-moe-based-speculative-decoding-language/) | — |
 | **Canonical** | **BurstGPT: A Real-World Workload Dataset to Optimize LLM Serving Systems** | KDD 2025 | LLM serving / workload benchmark / scheduling / KV cache / disaggregation evaluation | [Link](https://arxiv.org/abs/2401.17644) | [Repo](https://github.com/HPMLL/BurstGPT) |
 | **Canonical** | **EARN: Efficient Inference Acceleration for LLM-based Generative Recommendation by Register Tokens** | KDD 2025 | LLM inference acceleration / KV cache / recommendation | [Link](https://arxiv.org/abs/2507.00715) | — |
