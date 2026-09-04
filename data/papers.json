@@ -5629,6 +5629,27 @@
     ]
   },
   {
+    "title": "Just Talk Once: Communication-Efficient Split Federated LLM Fine-Tuning on Edge Devices",
+    "venue": "CoRR 2026",
+    "topic": "distributed training / edge-cloud AI / split federated LLM fine-tuning",
+    "arxiv": "2609.01457",
+    "doi": "",
+    "official_id": "arXiv:2609.01457",
+    "paper_url": "https://arxiv.org/abs/2609.01457",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "System-level split federated LLM fine-tuning that removes bidirectional per-step communication and supports one-shot client upload followed by offline server optimization; evaluated on heterogeneous smartphones and NVIDIA edge boards with substantially reduced communication and client-online time.",
+    "published_at": "2026-09-01T16:00:29Z",
+    "updated_at": "2026-09-01T16:00:29Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Distributed Training / Inference",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "K-Search: LLM Kernel Generation via Co-Evolving Intrinsic World Model",
     "venue": "CoRR 2026",
     "topic": "GPU kernel/DSL/compilers / automated kernel optimization / FlashInfer / MoE / MLA / GQA",
@@ -5850,6 +5871,29 @@
       "LLM Serving",
       "Speculative Decoding",
       "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "RouteSparse: Input-Conditional Pattern Routing for Budgeted Long-Context Prefilling",
+    "venue": "CoRR 2026",
+    "topic": "efficient attention / sparse prefilling / long-context LLM inference",
+    "arxiv": "2608.29058",
+    "doi": "",
+    "official_id": "arXiv:2608.29058",
+    "paper_url": "https://arxiv.org/abs/2608.29058",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Input-conditional sparse-pattern routing with latency-aware budgets and selective dense fallback; on Llama 3.1-8B-Instruct at 128K, reports 6.5x dense-prefill speed with only 0.2-point RULER drop, materially improving the quality-latency tradeoff over fixed per-head routing.",
+    "published_at": "2026-08-29T05:23:41Z",
+    "updated_at": "2026-08-29T05:23:41Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Efficient Attention"
     ]
   },
   {
@@ -8976,6 +9020,28 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
+      "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "LLM Inference on IMC-NoC Architecture with Balanced Dataflow and Fine-Grained Parallelism",
+    "venue": "Extended LEAP / ICCAD 2025",
+    "topic": "LLM serving / accelerator architecture / IMC-NoC / prefill-decode disaggregation",
+    "arxiv": "2609.00857",
+    "doi": "",
+    "official_id": "arXiv:2609.00857",
+    "paper_url": "https://arxiv.org/abs/2609.00857",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Hardware-software co-design spanning IMC/NMC/in-network compute plus mapping/scheduling and prefill-decode disaggregation; reports >=1.52x throughput and 24.91x energy-efficiency improvement versus commercial GPU platforms.",
+    "published_at": "2026-09-01T07:55:45Z",
+    "updated_at": "2026-09-01T07:55:45Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference"
     ]
   },
