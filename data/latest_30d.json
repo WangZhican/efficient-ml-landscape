@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-04",
   "window_start_beijing": "2026-08-05",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 351,
+  "tracked_total": 353,
   "p0_strong_or_canonical": [
     {
       "title": "UE5M3 FP4 Block Scaling for Stable Language Model Pretraining",
@@ -67,6 +67,27 @@
         "Speculative Decoding",
         "Distributed Training / Inference",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "ViSAR: Training-Free Adaptive-k Retrieval for Visual Document Question Answering",
+      "venue": "CoRR 2026",
+      "topic": "multimodal/MLLM serving / visual RAG / adaptive retrieval",
+      "arxiv": "2609.02486",
+      "doi": "",
+      "official_id": "arXiv:2609.02486",
+      "paper_url": "https://arxiv.org/abs/2609.02486",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Training-free query-adaptive page retrieval for visual RAG that reduces downstream LVLM context and reports up to 58.7% RAG latency reduction while maintaining or improving answer accuracy across multiple visual encoders and LVLMs.",
+      "published_at": "2026-09-02T11:54:58Z",
+      "updated_at": "2026-09-02T11:54:58Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving"
       ]
     },
     {
@@ -262,6 +283,30 @@
         "LLM Serving",
         "Speculative Decoding",
         "KV Cache / Long Context"
+      ]
+    },
+    {
+      "title": "Budget-Aware Compression Pipeline for Single-GPU LLM Inference: Methods, Trade-offs, and Coupling Effects",
+      "venue": "GroundLM 2026 (EMNLP 2026 Workshop)",
+      "topic": "LLM serving / quantization / pruning / KV cache / single-GPU inference",
+      "arxiv": "2608.30076",
+      "doi": "",
+      "official_id": "arXiv:2608.30076",
+      "paper_url": "https://arxiv.org/abs/2608.30076",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Joint single-GPU 70B deployment study spanning pruning, weight quantization and KV-cache compression under explicit memory/throughput/integration budgets; reports about 33 GB footprint and about 57 tok/s on 10k-token prompts on one A40 while keeping absolute accuracy within 5%.",
+      "published_at": "2026-08-30T22:54:40Z",
+      "updated_at": "2026-08-30T22:54:40Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Quantization",
+        "Sparsity / Pruning",
+        "GPU Kernel / DSL / Compiler"
       ]
     },
     {
@@ -7712,6 +7757,27 @@
       ]
     },
     {
+      "title": "ViSAR: Training-Free Adaptive-k Retrieval for Visual Document Question Answering",
+      "venue": "CoRR 2026",
+      "topic": "multimodal/MLLM serving / visual RAG / adaptive retrieval",
+      "arxiv": "2609.02486",
+      "doi": "",
+      "official_id": "arXiv:2609.02486",
+      "paper_url": "https://arxiv.org/abs/2609.02486",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Training-free query-adaptive page retrieval for visual RAG that reduces downstream LVLM context and reports up to 58.7% RAG latency reduction while maintaining or improving answer accuracy across multiple visual encoders and LVLMs.",
+      "published_at": "2026-09-02T11:54:58Z",
+      "updated_at": "2026-09-02T11:54:58Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
       "title": "mzCache: On-Device LLM Memory Management under Multitasking",
       "venue": "MobiCom 2026",
       "topic": "edge/cloud/heterogeneous AI / KV cache / on-device LLM serving",
@@ -7904,6 +7970,30 @@
         "LLM Serving",
         "Speculative Decoding",
         "KV Cache / Long Context"
+      ]
+    },
+    {
+      "title": "Budget-Aware Compression Pipeline for Single-GPU LLM Inference: Methods, Trade-offs, and Coupling Effects",
+      "venue": "GroundLM 2026 (EMNLP 2026 Workshop)",
+      "topic": "LLM serving / quantization / pruning / KV cache / single-GPU inference",
+      "arxiv": "2608.30076",
+      "doi": "",
+      "official_id": "arXiv:2608.30076",
+      "paper_url": "https://arxiv.org/abs/2608.30076",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Joint single-GPU 70B deployment study spanning pruning, weight quantization and KV-cache compression under explicit memory/throughput/integration budgets; reports about 33 GB footprint and about 57 tok/s on 10k-token prompts on one A40 while keeping absolute accuracy within 5%.",
+      "published_at": "2026-08-30T22:54:40Z",
+      "updated_at": "2026-08-30T22:54:40Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Quantization",
+        "Sparsity / Pruning",
+        "GPU Kernel / DSL / Compiler"
       ]
     },
     {

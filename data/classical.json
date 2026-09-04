@@ -5256,6 +5256,27 @@
     ]
   },
   {
+    "title": "What Matters for Aggressive Decoding-Time KV Eviction? Temporal Aggregation and Ranking Preservation",
+    "venue": "CoRR 2026",
+    "topic": "KV cache / long-context / decode-time eviction / serving",
+    "arxiv": "2609.03515",
+    "doi": "",
+    "official_id": "arXiv:2609.03515",
+    "paper_url": "https://arxiv.org/abs/2609.03515",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Systematic decode-time KV eviction study introducing InertiaKV/InertiaKV-Lazy; periodic refresh yields 1.34-1.46x decode throughput versus full-refresh InertiaKV across six open-weight backbones and LongBench/LongBench-v2/RULER, while isolating temporal aggregation as a key design factor.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context"
+    ]
+  },
+  {
     "title": "When to Trust Imagination: Adaptive Action Execution for World Action Models",
     "venue": "CoRR 2026",
     "topic": "VLA/WAM/Physical AI serving / adaptive action execution / dynamic action chunking / future-reality verification",
@@ -9325,6 +9346,27 @@
       "MoE Systems / Accelerators",
       "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "FlowTT: Exploiting Computation Flow Reuse in Irregular Tensor-Train Embedding",
+    "venue": "ICCAD 2026",
+    "topic": "GPU kernel / irregular tensor execution / recommendation embedding / compiler-runtime",
+    "arxiv": "2609.03459",
+    "doi": "",
+    "official_id": "arXiv:2609.03459",
+    "paper_url": "https://arxiv.org/abs/2609.03459",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Flow-aware GPU execution framework for Tensor-Train embedding that exposes prefix-shared irregular computation, fuses TT contractions with on-chip retention, and uses persistent-thread scheduling; reports up to 42.2% inference and 49.2% training latency reduction versus EcoRec.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {
@@ -19756,6 +19798,28 @@
     "directions": [
       "Sparsity / Pruning",
       "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Para-Pipe: Exploiting Hierarchical Operator Parallelism of ML Computational Graphs on SoCs",
+    "venue": "IEEE TCAD 2025",
+    "topic": "edge/cloud/heterogeneous AI systems / SoC mapping / operator parallelism",
+    "arxiv": "2609.04168",
+    "doi": "",
+    "official_id": "arXiv:2609.04168",
+    "paper_url": "https://arxiv.org/abs/2609.04168",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Hierarchical mapping framework combining intra/inter-stage operator parallelism with pipelining across heterogeneous SoCs; reports Pareto throughput-latency mappings and average energy-efficiency gains of 11.0% over pure pipelining and 23.3% over non-pipelined parallel execution on Amlogic SoC.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference",
       "Edge / Cloud / Heterogeneous AI"
     ]
   },
