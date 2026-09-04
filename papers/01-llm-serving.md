@@ -1,6 +1,6 @@
 # 01 · LLM Serving
 
-> **642 canonical papers** mapped here, plus a broader **258-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **643 canonical papers** mapped here, plus a broader **258-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -267,7 +267,7 @@
 | **P1 · Watch** | **Edge-Native Embodied Intelligence for Action-Aware Wireless Edge Networks** | Fresh / preprint | VLA/WAM/Physical AI serving / edge-cloud / heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.17774) | — |
 | **P1 · Watch** | **An Internet for the KV Cache: Rethinking Classical Infrastructure Boundaries in the LLM Inference Age** | Fresh / preprint | KV cache / distributed serving / cloud-network-storage systems | [Link](https://arxiv.org/abs/2608.01526) | — |
 
-## 🏛️ Classical / Historical · 572 canonical
+## 🏛️ Classical / Historical · 573 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -714,6 +714,7 @@
 | **Canonical** | **SpecEdge: Scalable Edge-Assisted Serving Framework for Interactive LLMs** | NeurIPS 2025 | edge-cloud LLM serving / speculative decoding | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/8587069d00a69d0ea498d547fffad6dd-Abstract-Conference.html) | — |
 | **Canonical** | **Spotlight Attention: Towards Efficient LLM Generation via Non-linear Hashing-based KV Cache Retrieval** | NeurIPS 2025 | sparse attention / KV retrieval / CUDA kernel | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/7c799b09cc40973ceaa47da50131dc63-Abstract-Conference.html) | — |
 | **Canonical** | **Tail-Optimized Caching for LLM Inference** | NeurIPS 2025 | LLM serving / prompt caching / tail latency | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/f05fe8b796dcbd67bc7bb1ea89df1793-Abstract-Conference.html) | — |
+| **Canonical** | **Yggdrasil: Bridging Dynamic Speculation and Static Runtime for Latency-Optimal Tree-Based LLM Decoding** | NeurIPS 2025 | speculative decoding / compiler-friendly runtime / latency optimization | [Link](https://arxiv.org/abs/2512.23858) | — |
 | **Canonical** | **Zebra-Llama: Towards Extremely Efficient Hybrid Models** | NeurIPS 2025 | efficient hybrid LLM architecture / KV reduction | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/7089237e828d55febd85a8d07f89e102-Abstract-Conference.html) | [Repo](https://github.com/AMD-AGI/AMD-Hybrid-Models) |
 | **Canonical** | **Agentix: An Efficient Serving Engine for LLM Agents as General Programs** | NSDI 2026 | agentic LLM serving | [Link](https://www.usenix.org/system/files/nsdi26-luo.pdf) | — |
 | **Canonical** | **Checkmate: Zero Performance Overhead Model Checkpointing via Network Gradient Replication** | NSDI 2026 | distributed training / checkpointing | [Link](https://www.usenix.org/conference/nsdi26/presentation/bhardwaj) | — |

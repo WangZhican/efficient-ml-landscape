@@ -1,6 +1,6 @@
 # 02 · Speculative Decoding
 
-> **189 canonical papers** mapped here, plus a broader **32-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **191 canonical papers** mapped here, plus a broader **32-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -41,7 +41,7 @@
 | **P2 · Relevant** | **DraftExpert: Expansion-Aware Self-Speculative Decoding for End-Device MoE Inference** | Fresh / preprint | llm_serving / spec / moe / edge | [Link](https://arxiv.org/abs/2607.24434) | — |
 | **P2 · Relevant** | **SpecBox: Speculative Sandbox Scheduling for Efficient LLM Agent Serving** | Fresh / preprint | llm_serving / agent | [Link](https://arxiv.org/abs/2607.23933) | — |
 
-## 🏛️ Classical / Historical · 178 canonical
+## 🏛️ Classical / Historical · 180 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -209,10 +209,12 @@
 | **Canonical** | **Speculative Decoding: Performance or Illusion?** | MLSys 2026 | speculative decoding / production inference characterization | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/file/554e056fe2b6d9fd27ffcd3367ae1267-Paper-Conference.pdf) | — |
 | **Canonical** | **SuperInfer** | MLSys 2026 | LLM serving + KV + speculative + reasoning efficiency | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/file/07fd64f9316f40193c6a4d87d8afa011-Paper-Conference.pdf) | — |
 | **Canonical** | **SHIP: SRAM-Based Huge Inference Pipelines for Fast LLM Serving** | MLSys 2026 Industry Track | LLM serving; inference accelerator; SRAM-based serving; distributed inference; pipeline parallelism | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/9c20f16b05f5e5e70fa07e2a4364b80e-Abstract-Conference.html) | — |
+| **Canonical** | **EasySpec: Layer-Parallel Speculative Decoding for Efficient Multi-GPU Utilization** | NeurIPS 2025 | speculative decoding / multi-GPU inference / layer parallelism | [Link](https://arxiv.org/abs/2502.02493) | [Repo](https://github.com/Yize-Wu/EasySpec) |
 | **Canonical** | **GRIFFIN: Effective Token Alignment for Faster Speculative Decoding** | NeurIPS 2025 | speculative decoding / draft-model alignment | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/b6e67ae290635d0874c4cb43ba2a2cfb-Abstract-Conference.html) | [Repo](https://github.com/hsj576/GRIFFIN) |
 | **Canonical** | **MoESD: Unveil Speculative Decoding's Potential for Accelerating Sparse MoE** | NeurIPS 2025 | MoE inference / speculative decoding | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/b637af7745d3ad4cb0b9cdaa056ab41e-Abstract-Conference.html) | — |
 | **Canonical** | **SpecEdge: Scalable Edge-Assisted Serving Framework for Interactive LLMs** | NeurIPS 2025 | edge-cloud LLM serving / speculative decoding | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/8587069d00a69d0ea498d547fffad6dd-Abstract-Conference.html) | — |
 | **Canonical** | **Speculate Deep and Accurate: Lossless and Training-Free Acceleration for Offloaded LLMs via Substitute Speculative Decoding** | NeurIPS 2025 | offloaded LLM inference / speculative decoding | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/4e32ca54ae8a3a0ea4c1fd3663f73b0f-Abstract-Conference.html) | — |
+| **Canonical** | **Yggdrasil: Bridging Dynamic Speculation and Static Runtime for Latency-Optimal Tree-Based LLM Decoding** | NeurIPS 2025 | speculative decoding / compiler-friendly runtime / latency optimization | [Link](https://arxiv.org/abs/2512.23858) | — |
 | **Canonical** | **Breaking the Reward Barrier: Accelerating Tree-of-Thought Reasoning via Speculative Exploration** | OSDI 2026 | efficient reasoning / speculative execution | [Link](https://www.usenix.org/conference/osdi26/presentation/zhong) | — |
 | **Canonical** | **Inference in the Shadows: Taming Memory Bandwidth Contention in Mobile LLM Inference with Sereno** | OSDI 2026 | mobile LLM inference / edge serving / memory bandwidth contention / speculative decoding | [Link](https://www.usenix.org/conference/osdi26/presentation/xin) | — |
 | **Canonical** | **Fine-Tuning Vision-Language-Action Models: Optimizing Speed and Success** | RSS 2025 | Physical AI / VLA efficient fine-tuning / parallel action decoding | [Link](https://arxiv.org/abs/2502.19645) | [Repo](https://github.com/moojink/openvla-oft) |

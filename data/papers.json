@@ -25707,6 +25707,27 @@
     ]
   },
   {
+    "title": "CodeGEMM: A Codebook-Centric Approach to Efficient GEMM in Quantized LLMs",
+    "venue": "NeurIPS 2025",
+    "topic": "quantized LLM inference / GEMM kernel / codebook quantization",
+    "arxiv": "2512.17970",
+    "doi": "",
+    "official_id": "arXiv:2512.17970",
+    "paper_url": "https://arxiv.org/abs/2512.17970",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Codebook-centric GEMM removes repeated dequantization using precomputed partial sums; reports 1.83x and 8.93x speedups for 8B/70B 2-bit settings versus codebook baselines.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "Compress, Gather, and Recompute: REFORMing Long-Context Processing in Transformers",
     "venue": "NeurIPS 2025",
     "topic": "long-context inference / compressed KV / recompute",
@@ -25724,6 +25745,26 @@
     "tracking_tier": "Canonical",
     "directions": [
       "KV Cache / Long Context"
+    ]
+  },
+  {
+    "title": "DartQuant: Efficient Rotational Distribution Calibration for LLM Quantization",
+    "venue": "NeurIPS 2025",
+    "topic": "quantization / rotation calibration / efficient PTQ",
+    "arxiv": "2511.04063",
+    "doi": "",
+    "official_id": "arXiv:2511.04063",
+    "paper_url": "https://arxiv.org/abs/2511.04063",
+    "code_url": "https://github.com/CAS-CLab/DartQuant",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Distribution-aware rotation calibration reduces optimization cost; reports 47x calibration acceleration and 10x memory savings for 70B-scale rotational quantization.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization"
     ]
   },
   {
@@ -25747,6 +25788,28 @@
       "KV Cache / Long Context",
       "Sparsity / Pruning",
       "Efficient Attention"
+    ]
+  },
+  {
+    "title": "EasySpec: Layer-Parallel Speculative Decoding for Efficient Multi-GPU Utilization",
+    "venue": "NeurIPS 2025",
+    "topic": "speculative decoding / multi-GPU inference / layer parallelism",
+    "arxiv": "2502.02493",
+    "doi": "",
+    "official_id": "arXiv:2502.02493",
+    "paper_url": "https://arxiv.org/abs/2502.02493",
+    "code_url": "https://github.com/Yize-Wu/EasySpec",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Layer-parallel draft execution improves multi-GPU utilization for speculative decoding; reports peak 4.17x speedup over vanilla decoding and up to 1.62x faster drafting.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Speculative Decoding",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
     ]
   },
   {
@@ -26067,6 +26130,27 @@
     ]
   },
   {
+    "title": "Q-Palette: Fractional-Bit Quantizers Toward Optimal Bit Allocation for Efficient LLM Deployment",
+    "venue": "NeurIPS 2025",
+    "topic": "quantization / CUDA kernels / efficient LLM deployment",
+    "arxiv": "2509.20214",
+    "doi": "",
+    "official_id": "arXiv:2509.20214",
+    "paper_url": "https://arxiv.org/abs/2509.20214",
+    "code_url": "https://github.com/snu-mllab/Q-Palette",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Fractional-bit PTQ with optimized CUDA kernels and resource-aware mixed quantizer/layer-fusion selection for memory-bound LLM deployment.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "R-KV: Redundancy-aware KV Cache Compression for Reasoning Models",
     "venue": "NeurIPS 2025",
     "topic": "KV cache/long-context / efficient reasoning / decoding-time compression",
@@ -26331,6 +26415,28 @@
       "Efficient Attention",
       "Video / Image Generation",
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "Yggdrasil: Bridging Dynamic Speculation and Static Runtime for Latency-Optimal Tree-Based LLM Decoding",
+    "venue": "NeurIPS 2025",
+    "topic": "speculative decoding / compiler-friendly runtime / latency optimization",
+    "arxiv": "2512.23858",
+    "doi": "",
+    "official_id": "arXiv:2512.23858",
+    "paper_url": "https://arxiv.org/abs/2512.23858",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Co-designed tree speculative decoding with static-graph-compatible equal-growth trees, latency-aware draft selection and stage scheduling; reports up to 3.98x speedup.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {

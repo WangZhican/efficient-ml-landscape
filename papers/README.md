@@ -1,10 +1,10 @@
 # 🧭 Research Map
 
-> **1515 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
+> **1520 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
 
 <div align="center">
 
-[**🆕 Latest 30 Days · 378 tracked**](LATEST_30D.md) · [**🏛️ Classical · 1389**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
+[**🆕 Latest 30 Days · 378 tracked**](LATEST_30D.md) · [**🏛️ Classical · 1394**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
 
 </div>
 
@@ -12,15 +12,15 @@
 
 | # | Research direction | Canonical | Latest 30d tracked |
 |---:|---|---:|---:|
-| 01 | [**LLM Serving**](01-llm-serving.md) | **642** | **258** |
-| 02 | [**Speculative Decoding**](02-speculative-decoding.md) | **189** | **32** |
+| 01 | [**LLM Serving**](01-llm-serving.md) | **643** | **258** |
+| 02 | [**Speculative Decoding**](02-speculative-decoding.md) | **191** | **32** |
 | 03 | [**KV Cache / Long Context**](03-kv-cache-long-context.md) | **383** | **78** |
-| 04 | [**Quantization**](04-quantization.md) | **213** | **61** |
+| 04 | [**Quantization**](04-quantization.md) | **216** | **61** |
 | 05 | [**Sparsity / Pruning**](05-sparsity-pruning.md) | **237** | **69** |
 | 06 | [**Efficient Attention**](06-efficient-attention.md) | **224** | **61** |
 | 07 | [**MoE Systems / Accelerators**](07-moe-systems.md) | **121** | **38** |
-| 08 | [**GPU Kernel / DSL / Compiler**](08-gpu-kernel-compiler.md) | **379** | **83** |
-| 09 | [**Distributed Training / Inference**](09-distributed-training-inference.md) | **294** | **46** |
+| 08 | [**GPU Kernel / DSL / Compiler**](08-gpu-kernel-compiler.md) | **383** | **83** |
+| 09 | [**Distributed Training / Inference**](09-distributed-training-inference.md) | **295** | **46** |
 | 10 | [**Multimodal / MLLM Serving**](10-multimodal-mllm-serving.md) | **187** | **65** |
 | 11 | [**Video / Image Generation**](11-video-image-generation.md) | **70** | **24** |
 | 12 | [**Diffusion / Flow Acceleration**](12-diffusion-flow.md) | **188** | **39** |

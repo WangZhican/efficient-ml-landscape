@@ -1,6 +1,6 @@
 # 04 · Quantization
 
-> **213 canonical papers** mapped here, plus a broader **61-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **216 canonical papers** mapped here, plus a broader **61-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -70,7 +70,7 @@
 | **P1 · Watch** | **Spend Bits Where Queries Look: KV Cache Vector Quantization with Attention-Preserving Transforms** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.04074) | — |
 | **P1 · Watch** | **Precision-Induced Miscalibration: Understanding and Correcting Confidence Distortion in Quantized Neural Networks** | ICML 2026 | quantization / low-precision calibration / confidence distortion / mixed precision | [Link](https://openreview.net/forum?id=zCkFbxKeF5) | — |
 
-## 🏛️ Classical / Historical · 194 canonical
+## 🏛️ Classical / Historical · 197 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -253,6 +253,9 @@
 | **Canonical** | **MorphServe: Efficient and Workload-Aware LLM Serving via Runtime Quantized Layer Swapping and KV Cache Resizing** | MLSys 2026 | LLM serving / dynamic quantization / KV resizing | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/file/8144a9d62e506af0fcdeac0e456b2710-Paper-Conference.pdf) | — |
 | **Canonical** | **AdaptQNet: Optimizing Quantized DNN on Microcontrollers via Adaptive Heterogeneous Processing Unit Utilization** | MobiCom 2025 | edge AI / MCU inference / quantization / heterogeneous processor scheduling | [Link](https://doi.org/10.1145/3680207.3765247) | — |
 | **Canonical** | **Wireless Hearables With Programmable Speech AI Accelerators** | MobiCom 2025 | edge AI / on-device speech inference / accelerator co-design / quantization | [Link](https://arxiv.org/abs/2503.18698) | — |
+| **Canonical** | **CodeGEMM: A Codebook-Centric Approach to Efficient GEMM in Quantized LLMs** | NeurIPS 2025 | quantized LLM inference / GEMM kernel / codebook quantization | [Link](https://arxiv.org/abs/2512.17970) | — |
+| **Canonical** | **DartQuant: Efficient Rotational Distribution Calibration for LLM Quantization** | NeurIPS 2025 | quantization / rotation calibration / efficient PTQ | [Link](https://arxiv.org/abs/2511.04063) | [Repo](https://github.com/CAS-CLab/DartQuant) |
+| **Canonical** | **Q-Palette: Fractional-Bit Quantizers Toward Optimal Bit Allocation for Efficient LLM Deployment** | NeurIPS 2025 | quantization / CUDA kernels / efficient LLM deployment | [Link](https://arxiv.org/abs/2509.20214) | [Repo](https://github.com/snu-mllab/Q-Palette) |
 | **Canonical** | **SageAttention3: Microscaling FP4 Attention for Inference and An Exploration of 8-Bit Training** | NeurIPS 2025 | low-bit attention kernel / FP4 | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/4db397e0f760cc573c681e81a01a3dba-Abstract-Conference.html) | — |
 | **Canonical** | **ADAngel: Accelerating Arbitrary-Precision Quantized LLMs with Adaptive Computing Mapping** | OSDI 2026 | arbitrary-precision quantized LLM runtime | [Link](https://www.usenix.org/system/files/osdi26-liu-yao.pdf) | — |
 | **Canonical** | **Accelerating Sparse Transformer Inference on GPU** | PPoPP 2026 | sparse transformer inference + mixed-precision quantization | — | — |

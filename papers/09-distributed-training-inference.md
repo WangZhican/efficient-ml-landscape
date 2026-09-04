@@ -1,6 +1,6 @@
 # 09 · Distributed Training / Inference
 
-> **294 canonical papers** mapped here, plus a broader **46-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **295 canonical papers** mapped here, plus a broader **46-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -55,7 +55,7 @@
 | **P1 · Watch** | **DEFT: Joint Task Placement and DVFS for Energy-Efficient Multi-GPU Runtimes** | Fresh / preprint | distributed runtime / multi-GPU / energy efficiency | [Link](https://arxiv.org/abs/2608.02122) | — |
 | **P1 · Watch** | **An Internet for the KV Cache: Rethinking Classical Infrastructure Boundaries in the LLM Inference Age** | Fresh / preprint | KV cache / distributed serving / cloud-network-storage systems | [Link](https://arxiv.org/abs/2608.01526) | — |
 
-## 🏛️ Classical / Historical · 269 canonical
+## 🏛️ Classical / Historical · 270 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -238,6 +238,7 @@
 | **Canonical** | **SHIP: SRAM-Based Huge Inference Pipelines for Fast LLM Serving** | MLSys 2026 Industry Track | LLM serving; inference accelerator; SRAM-based serving; distributed inference; pipeline parallelism | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/9c20f16b05f5e5e70fa07e2a4364b80e-Abstract-Conference.html) | — |
 | **Canonical** | **Confidant: Customizing Transformer-based LLMs via Collaborative Training on Mobile Devices** | MobiCom 2025 | edge AI / mobile LLM training / pipeline parallelism / heterogeneous scheduling | [Link](https://arxiv.org/abs/2311.13381) | — |
 | **Canonical** | **Block-Diagonal LoRA for Eliminating Communication Overhead in Tensor Parallel LoRA Serving** | NeurIPS 2025 | LoRA serving / tensor parallel communication elimination | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/0095274aecea2127c404fc6f7462aa44-Abstract-Conference.html) | — |
+| **Canonical** | **EasySpec: Layer-Parallel Speculative Decoding for Efficient Multi-GPU Utilization** | NeurIPS 2025 | speculative decoding / multi-GPU inference / layer parallelism | [Link](https://arxiv.org/abs/2502.02493) | [Repo](https://github.com/Yize-Wu/EasySpec) |
 | **Canonical** | **KVCOMM: Online Cross-context KV-cache Communication for Efficient LLM-based Multi-agent Systems** | NeurIPS 2025 | multi-agent LLM serving / cross-context KV cache reuse / prefill acceleration | [Link](https://doi.org/10.52202/085713-0605) | [Repo](https://github.com/FastMAS/KVCOMM) |
 | **Canonical** | **MPCache: MPC-Friendly KV Cache Eviction for Efficient Private LLM Inference** | NeurIPS 2025 | private LLM inference / KV eviction / MPC | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/8c2df4c35cdbee764ebb9e9d0acd5197-Abstract-Conference.html) | — |
 | **Canonical** | **Attack of the Bubbles: Straggler-Resilient Pipeline Parallelism for Large Model Training** | NSDI 2026 | distributed training / pipeline parallelism | [Link](https://www.usenix.org/conference/nsdi26/presentation/wu-tianyuan) | — |
