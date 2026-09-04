@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-04",
   "window_start_beijing": "2026-08-05",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 350,
+  "tracked_total": 351,
   "p0_strong_or_canonical": [
     {
       "title": "UE5M3 FP4 Block Scaling for Stable Language Model Pretraining",
@@ -134,6 +134,26 @@
         "KV Cache / Long Context",
         "Efficient Attention",
         "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Characterizing the Scalability and Performance of Large-Scale AI Training Under Multi-Tenancy",
+      "venue": "CoRR 2026",
+      "topic": "distributed training / multi-tenancy / interconnect / HPC AI systems",
+      "arxiv": "2609.00817",
+      "doi": "",
+      "official_id": "2609.00817",
+      "paper_url": "https://arxiv.org/abs/2609.00817",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Large-scale systems characterization across up to 2400 GPUs and multiple supercomputers, comparing five parallelization strategies and studying realistic multi-tenant interference and network congestion. Directly relevant to distributed AI infrastructure capacity planning.",
+      "published_at": "2026-09-01T07:17:17Z",
+      "updated_at": "2026-09-01T07:17:17Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Distributed Training / Inference"
       ]
     },
     {
@@ -7756,6 +7776,26 @@
         "KV Cache / Long Context",
         "Efficient Attention",
         "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Characterizing the Scalability and Performance of Large-Scale AI Training Under Multi-Tenancy",
+      "venue": "CoRR 2026",
+      "topic": "distributed training / multi-tenancy / interconnect / HPC AI systems",
+      "arxiv": "2609.00817",
+      "doi": "",
+      "official_id": "2609.00817",
+      "paper_url": "https://arxiv.org/abs/2609.00817",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Large-scale systems characterization across up to 2400 GPUs and multiple supercomputers, comparing five parallelization strategies and studying realistic multi-tenant interference and network congestion. Directly relevant to distributed AI infrastructure capacity planning.",
+      "published_at": "2026-09-01T07:17:17Z",
+      "updated_at": "2026-09-01T07:17:17Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Distributed Training / Inference"
       ]
     },
     {

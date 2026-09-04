@@ -4943,6 +4943,29 @@
     ]
   },
   {
+    "title": "Hardware-Aware FP4 FlashAttention-4",
+    "venue": "CoRR 2026",
+    "topic": "efficient attention / quantization / GPU kernel / Blackwell FP4",
+    "arxiv": "2609.04105",
+    "doi": "",
+    "official_id": "2609.04105",
+    "paper_url": "https://arxiv.org/abs/2609.04105",
+    "code_url": "https://github.com/MrHuff/fp4-fa4",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Direct hardware-aware attention-kernel work for Blackwell. Direct-P maps softmax probabilities directly into FP4 representation and reports up to 2.13x BF16 forward throughput on GB200; the retained causal training path reports up to about 1.14x complete 8B update speedup while explicitly documenting FP4 training-stability limits.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "K-Search: LLM Kernel Generation via Co-Evolving Intrinsic World Model",
     "venue": "CoRR 2026",
     "topic": "GPU kernel/DSL/compilers / automated kernel optimization / FlashInfer / MoE / MLA / GQA",
@@ -5080,6 +5103,28 @@
     ]
   },
   {
+    "title": "RASER: Resilient Agent Scheduling and Execution Runtime for HPC Clusters",
+    "venue": "CoRR 2026",
+    "topic": "efficient reasoning/agent systems / HPC scheduling / resilient runtime",
+    "arxiv": "2609.03598",
+    "doi": "",
+    "official_id": "2609.03598",
+    "paper_url": "https://arxiv.org/abs/2609.03598",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Direct agent-infrastructure runtime that adapts production HPC/Slurm execution to long-horizon agent workflows with unpredictable durations, external API calls and fault-tolerance requirements. Fits protected efficient-agent systems infrastructure scope.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "Regulating Branch Parallelism in LLM Serving",
     "venue": "CoRR 2026",
     "topic": "LLM serving / branch-parallel decoding / SLO-aware scheduling / KV-sharing",
@@ -5123,6 +5168,49 @@
     ]
   },
   {
+    "title": "Unlocking Lossless Speedups in LLMs via Discrete Diffusion",
+    "venue": "CoRR 2026",
+    "topic": "speculative decoding / diffusion language models / parallel decoding / efficient reasoning",
+    "arxiv": "2609.04010",
+    "doi": "",
+    "official_id": "2609.04010",
+    "paper_url": "https://arxiv.org/abs/2609.04010",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Introduces diffusion-augmented LLMs and Psi-Spec samplers that preserve the underlying autoregressive model distribution while drawing multiple tokens in parallel, making it a direct lossless decoding-acceleration contribution rather than a quality-speed heuristic.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Speculative Decoding",
+      "Diffusion / Flow Acceleration",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "VestigeKV: The NoPE-MLA KV Cache Carries Its Own Eviction Signal in a Vestigial Branch",
+    "venue": "CoRR 2026",
+    "topic": "KV cache / long-context / MLA / cache eviction",
+    "arxiv": "2609.03949",
+    "doi": "",
+    "official_id": "2609.03949",
+    "paper_url": "https://arxiv.org/abs/2609.03949",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Direct long-context KV-cache systems contribution for NoPE-MLA. Uses a query-independent signal already present in the cache to partition attended and archived tiers, targeting the failure of observed-attention eviction before future queries exist.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Efficient Attention"
+    ]
+  },
+  {
     "title": "VibeServe: Can AI Agents Build Bespoke LLM Serving Systems?",
     "venue": "CoRR 2026",
     "topic": "LLM serving / efficient agent systems / automated systems optimization / specialized serving stacks",
@@ -5163,6 +5251,29 @@
     "directions": [
       "LLM Serving",
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Why Gated DeltaNet Survives 4-Bit Quantization: NVFP4 W4A4 for the Recurrent Half of a Hybrid 27B LLM",
+    "venue": "CoRR 2026",
+    "topic": "quantization / hybrid attention-SSM LLM / NVFP4 W4A4 / KV cache",
+    "arxiv": "2609.04098",
+    "doi": "",
+    "official_id": "2609.04098",
+    "paper_url": "https://arxiv.org/abs/2609.04098",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Mechanistic and deployable W4A4 study of the recurrent half of a 27B hybrid LLM. Quantizes all 496 linear layers including Gated DeltaNet, studies recurrence error propagation and fused-kernel scale mismatch, and supplies calibrated KV-cache scales/checkpoint evidence.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Quantization",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {
@@ -10011,6 +10122,28 @@
     "directions": [
       "LLM Serving",
       "MoE Systems / Accelerators",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "Cascadia: An Efficient Cascade Serving System for Large Language Models",
+    "venue": "ICLR 2026",
+    "topic": "LLM serving / model cascades / routing / resource allocation",
+    "arxiv": "2506.04203",
+    "doi": "",
+    "official_id": "2506.04203",
+    "paper_url": "https://arxiv.org/abs/2506.04203",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "True major-group recall miss from Nicholas Lane/Cambridge route. Jointly co-optimizes cascade routing, GPU resource allocation and parallelism; reports up to 4x tighter latency SLOs and up to 5x throughput while maintaining target answer quality.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference"
     ]
   },
