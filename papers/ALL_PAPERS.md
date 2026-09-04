@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **1504 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **361 visible papers = 110 P0 + 131 P1 + 120 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1505 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **361 visible papers = 110 P0 + 131 P1 + 120 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -384,7 +384,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 1394
+## 🏛️ Classical / Historical · 1395
 
 ### ICML 2026 · 376
 
@@ -1449,7 +1449,7 @@
 | **Canonical** | **Tri-Oracle: A 17.78μJ/Token Vision-Language Model Accelerator with Token-Attention-Weight Redundancy Prediction** | ISSCC 2026 | VLM accelerator / token pruning / attention sparsity / weight sparsity | [Link](https://doi.org/10.1109/ISSCC49663.2026.11408987) | — |
 | **Canonical** | **VARSA: A Visual Autoregressive Generation Accelerator Using Performance-Scalable Multi-Precision PE-LUT and Grid-Similarity Attention Compression** | ISSCC 2026 | visual autoregressive generation / multi-precision acceleration / attention compression | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409066) | — |
 
-### CoRR 2026 · 26
+### CoRR 2026 · 27
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -1464,6 +1464,7 @@
 | **Canonical** | **Forget Without Compromise: Nexus Sampling for Streaming KV-Cache Eviction Under Fixed Budgets** | CoRR 2026 | KV cache / long-context / streaming inference / cache eviction / agentic workloads | [Link](https://arxiv.org/abs/2606.23961) | — |
 | **Canonical** | **GoodServe: Towards High-Goodput Serving of Agentic LLM Inferences over Heterogeneous Resources** | CoRR 2026 | agent systems / LLM serving / heterogeneous GPUs / routing / SLO / request migration | [Link](https://arxiv.org/abs/2605.16867) | — |
 | **Canonical** | **Hardware-Aware FP4 FlashAttention-4** | CoRR 2026 | efficient attention / quantization / GPU kernel / Blackwell FP4 | [Link](https://arxiv.org/abs/2609.04105) | [Repo](https://github.com/MrHuff/fp4-fa4) |
+| **Canonical** | **Iapetus: Content-Aware Hierarchical Scheduling for Collaborative ViT Inference in LEO Satellite Networks** | CoRR 2026 | edge/cloud/heterogeneous AI systems / collaborative ViT inference / token compression / layer offloading | [Link](https://arxiv.org/abs/2609.03318) | — |
 | **Canonical** | **K-Search: LLM Kernel Generation via Co-Evolving Intrinsic World Model** | CoRR 2026 | GPU kernel/DSL/compilers / automated kernel optimization / FlashInfer / MoE / MLA / GQA | [Link](https://arxiv.org/abs/2602.19128) | [Repo](https://github.com/caoshiyi/K-Search) |
 | **Canonical** | **Light-WAM: Efficient World Action Models with State-Fusion Action Decoding** | CoRR 2026 | VLA/WAM/Physical AI serving / lightweight world-action model / action-head efficiency / latent supervision | [Link](https://arxiv.org/abs/2606.08242) | [Repo](https://github.com/L1ziang/Light-WAM) |
 | **Canonical** | **M*: A Modular, Extensible, Serving System for Multimodal Models** | CoRR 2026 | multimodal/MLLM serving / composite-model runtime / VLA-world-model serving / graph-based distributed runtime | [Link](https://arxiv.org/abs/2606.12688) | [Repo](https://github.com/mstar-project/mstar) |

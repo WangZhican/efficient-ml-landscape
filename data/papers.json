@@ -5629,6 +5629,28 @@
     ]
   },
   {
+    "title": "Iapetus: Content-Aware Hierarchical Scheduling for Collaborative ViT Inference in LEO Satellite Networks",
+    "venue": "CoRR 2026",
+    "topic": "edge/cloud/heterogeneous AI systems / collaborative ViT inference / token compression / layer offloading",
+    "arxiv": "2609.03318",
+    "doi": "",
+    "official_id": "arXiv:2609.03318",
+    "paper_url": "https://arxiv.org/abs/2609.03318",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Content-aware hierarchical inference scheduler jointly planning visual-token compression and layer offloading under time-varying contact/battery constraints. NVIDIA Jetson AGX Orin hardware-in-the-loop plus constellation-scale replay reports 53.0% lower mean latency and 70.8% lower battery draw while meeting quality targets at 5 tasks/s.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Just Talk Once: Communication-Efficient Split Federated LLM Fine-Tuning on Edge Devices",
     "venue": "CoRR 2026",
     "topic": "distributed training / edge-cloud AI / split federated LLM fine-tuning",

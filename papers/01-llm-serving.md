@@ -1,6 +1,6 @@
 # 01 · LLM Serving
 
-> **636 canonical papers** mapped here, plus a broader **249-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **637 canonical papers** mapped here, plus a broader **249-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -258,7 +258,7 @@
 | **P1 · Watch** | **Edge-Native Embodied Intelligence for Action-Aware Wireless Edge Networks** | Fresh / preprint | VLA/WAM/Physical AI serving / edge-cloud / heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.17774) | — |
 | **P1 · Watch** | **An Internet for the KV Cache: Rethinking Classical Infrastructure Boundaries in the LLM Inference Age** | Fresh / preprint | KV cache / distributed serving / cloud-network-storage systems | [Link](https://arxiv.org/abs/2608.01526) | — |
 
-## 🏛️ Classical / Historical · 575 canonical
+## 🏛️ Classical / Historical · 576 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -370,6 +370,7 @@
 | **Canonical** | **FlexLLM: Composable HLS Library for Flexible Hybrid LLM Accelerator Design** | CoRR 2026 | edge/cloud/heterogeneous AI systems / FPGA HLS / LLM accelerator / quantization / long context | [Link](https://arxiv.org/abs/2601.15710) | — |
 | **Canonical** | **GoodServe: Towards High-Goodput Serving of Agentic LLM Inferences over Heterogeneous Resources** | CoRR 2026 | agent systems / LLM serving / heterogeneous GPUs / routing / SLO / request migration | [Link](https://arxiv.org/abs/2605.16867) | — |
 | **Canonical** | **Hardware-Aware FP4 FlashAttention-4** | CoRR 2026 | efficient attention / quantization / GPU kernel / Blackwell FP4 | [Link](https://arxiv.org/abs/2609.04105) | [Repo](https://github.com/MrHuff/fp4-fa4) |
+| **Canonical** | **Iapetus: Content-Aware Hierarchical Scheduling for Collaborative ViT Inference in LEO Satellite Networks** | CoRR 2026 | edge/cloud/heterogeneous AI systems / collaborative ViT inference / token compression / layer offloading | [Link](https://arxiv.org/abs/2609.03318) | — |
 | **Canonical** | **Light-WAM: Efficient World Action Models with State-Fusion Action Decoding** | CoRR 2026 | VLA/WAM/Physical AI serving / lightweight world-action model / action-head efficiency / latent supervision | [Link](https://arxiv.org/abs/2606.08242) | [Repo](https://github.com/L1ziang/Light-WAM) |
 | **Canonical** | **M*: A Modular, Extensible, Serving System for Multimodal Models** | CoRR 2026 | multimodal/MLLM serving / composite-model runtime / VLA-world-model serving / graph-based distributed runtime | [Link](https://arxiv.org/abs/2606.12688) | [Repo](https://github.com/mstar-project/mstar) |
 | **Canonical** | **MARS: Efficient, Adaptive Co-Scheduling for Heterogeneous Agentic Systems** | CoRR 2026 | efficient reasoning/agent systems / agent serving / heterogeneous GPU-CPU co-scheduling / KV cache | [Link](https://arxiv.org/abs/2604.26963) | [Repo](https://github.com/Afterglow231/MARS_preview) |
