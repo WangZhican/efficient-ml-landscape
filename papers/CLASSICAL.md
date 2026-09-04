@@ -1,6 +1,6 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **1380 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **1382 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
@@ -1206,7 +1206,7 @@
 | **Canonical** | **UltraVSR: Achieving Ultra-Realistic Video Super-Resolution with Efficient One-Step Diffusion Space** | ACM Multimedia 2025 | one-step diffusion / efficient video super-resolution | [Link](https://arxiv.org/abs/2505.19958) | [Repo](https://github.com/yongliuy/UltraVSR) |
 | **Canonical** | **VISA: Group-wise Visual Token Selection and Aggregation via Graph Summarization for Efficient MLLMs Inference** | ACM Multimedia 2025 | MLLM inference / visual token pruning and aggregation | [Link](https://arxiv.org/abs/2508.17857) | — |
 
-## CoRR 2026 · 19
+## CoRR 2026 · 20
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -1214,6 +1214,7 @@
 | **Canonical** | **A Workflow-Aware Serving Layer for Agentic Applications** | CoRR 2026 | agent systems / LLM serving / workflow-aware scheduling / heterogeneous backends / verification-aware routing | [Link](https://arxiv.org/abs/2607.02942) | — |
 | **Canonical** | **Blink: CPU-Free LLM Inference by Delegating the Serving Stack to GPU and SmartNIC** | CoRR 2026 | LLM serving / GPU-resident scheduling / SmartNIC / CPU-free serving stack / KV-cache management | [Link](https://arxiv.org/abs/2604.07609) | — |
 | **Canonical** | **DeltaServe: Host-Agnostic Co-Serving of Inference and Fine-Tuning for LLMs** | CoRR 2026 | LLM serving / inference-training co-serving / LoRA / SLO-aware scheduling / GPU utilization | [Link](https://arxiv.org/abs/2607.28848) | — |
+| **Canonical** | **DSAQuant: Denoising-Stage-Aligned Quantization-Aware Training for Video Generation** | CoRR 2026 | quantization / video generation acceleration / diffusion inference | [Link](https://arxiv.org/abs/2609.04031) | [Repo](https://github.com/robbyant-research/DSAQuant) |
 | **Canonical** | **Efficient-WAM: A 1B-Parameter World-Action Model with Low-Cost Future Imagination** | CoRR 2026 | VLA/WAM/Physical AI serving / efficient world-action model / sparse future latents / asymmetric denoising | [Link](https://arxiv.org/abs/2606.10040) | [Repo](https://github.com/jiajun613/Efficient-WAM) |
 | **Canonical** | **ES-dLLM: Efficient Inference for Diffusion Large Language Models by Early-Skipping** | CoRR 2026 | diffusion/flow acceleration / diffusion language model inference / token skipping / KV-hidden-state reuse | [Link](https://arxiv.org/abs/2603.10088) | — |
 | **Canonical** | **FlexLLM: Composable HLS Library for Flexible Hybrid LLM Accelerator Design** | CoRR 2026 | edge/cloud/heterogeneous AI systems / FPGA HLS / LLM accelerator / quantization / long context | [Link](https://arxiv.org/abs/2601.15710) | — |
@@ -1707,6 +1708,12 @@
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **Canonical** | **SHIP: SRAM-Based Huge Inference Pipelines for Fast LLM Serving** | MLSys 2026 Industry Track | LLM serving; inference accelerator; SRAM-based serving; distributed inference; pipeline parallelism | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/9c20f16b05f5e5e70fa07e2a4364b80e-Abstract-Conference.html) | — |
+
+## MobiCom 2026 · 1
+
+| Priority | Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|---|
+| **Canonical** | **LeanStream: A Speculate-and-Refine Streaming Framework for Efficient on-Device LLM Inference** | MobiCom 2026 | edge/cloud/heterogeneous AI systems / on-device LLM inference / storage offload / sparse execution | [Link](https://arxiv.org/abs/2609.03079) | — |
 
 ## OSDI 2026 / arXiv · 1
 

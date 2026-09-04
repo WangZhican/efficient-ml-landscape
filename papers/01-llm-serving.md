@@ -1,15 +1,16 @@
 # 01 · LLM Serving
 
-> **618 canonical papers** mapped here, plus a broader **241-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **621 canonical papers** mapped here, plus a broader **243-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 241 tracked
+## 🆕 Latest 30 Days · 243 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **P0 · Strong** | **UE5M3 FP4 Block Scaling for Stable Language Model Pretraining** | arXiv 2026 | quantization / efficient training / low-precision systems | [Link](https://arxiv.org/abs/2609.02846) | — |
 | **P0 · Strong** | **ShallowStream: Index Shallow then Answer Deep for Streaming Video Understanding** | arXiv 2026 | multimodal/MLLM serving / streaming video / Physical-AI protected | [Link](https://arxiv.org/abs/2609.02780) | [Repo](https://github.com/CURRENTF/ShallowStream) |
+| **P0 · Strong** | **AceSpec: An Asymmetric Edge-Cloud Collaborative Framework for Communication-Efficient LLM Inference** | CoRR 2026 | speculative decoding / edge-cloud LLM inference / distributed inference / communication efficiency | [Link](https://arxiv.org/abs/2609.02514) | — |
 | **P1 · Watch** | **HeadWiseKV: Budgeted Per-Head Cache Residency for Hybrid Long-Context Language Models** | arXiv 2026 | KV cache/long-context / LLM serving | [Link](https://arxiv.org/abs/2609.02029) | — |
 | **P0 · Strong** | **mzCache: On-Device LLM Memory Management under Multitasking** | MobiCom 2026 | edge/cloud/heterogeneous AI / KV cache / on-device LLM serving | [Link](https://arxiv.org/abs/2609.01338) | — |
 | **P0 · Strong** | **Knowing When to Stop: Adaptive Action Chunking via Internal Cross-Attention Dynamics in VLAs** | arXiv 2026 | VLA/WAM/Physical AI serving / adaptive action execution | [Link](https://arxiv.org/abs/2609.00908) | — |
@@ -22,6 +23,7 @@
 | **P0 · Strong** | **DriftingVLA: Native One-Step Vision-Language-Action Generation via Per-Dimension Temporal Drifting** | arXiv 2026 | VLA/WAM/Physical AI serving / action-head acceleration | [Link](https://arxiv.org/abs/2608.29749) | — |
 | **P0 · Strong** | **Accelerating Unified Multimodal Models with Core-Expansion Routing and Unified Computation Scheduling** | Fresh / preprint | multimodal/MLLM serving / sparsity / scheduling / cache reuse | [Link](https://arxiv.org/abs/2608.29291) | — |
 | **P0 · Strong** | **AdaVLA: Adaptive Step Flow Matching for Training-free Acceleration of Vision-Language-Action Models** | Fresh / preprint | VLA/WAM/Physical AI serving / flow acceleration | [Link](https://arxiv.org/abs/2608.29208) | — |
+| **P0 · Strong** | **Pro-Router: Token-Aware Progressive Model Routing with Adaptive Edge-Cloud Collaboration for Efficient Multimodal LLM Inference** | CoRR 2026 | multimodal/MLLM serving / edge-cloud routing / adaptive inference | [Link](https://arxiv.org/abs/2608.28726) | [Repo](https://github.com/xinyuangui2/pro-router) |
 | **P0 · Strong** | **Training Communication-Efficient Mixture-of-Experts Language Models with Layer Re-Configuration** | arXiv 2026 | MoE systems / distributed training / communication efficiency | [Link](https://arxiv.org/abs/2608.28511) | — |
 | **P0 · Strong** | **HyQuant: Hybrid-Precision Quantization for LLM Attention** | arXiv 2026 | quantization / KV cache / efficient attention | [Link](https://arxiv.org/abs/2608.27875) | [Repo](https://github.com/jerrysfls/HyQuant) |
 | **P1 · Watch** | **Survival-Guided Length Control for Efficient Diffusion Language Models** | Fresh / preprint | diffusion LLM inference / efficient decoding | [Link](https://arxiv.org/abs/2608.26374) | — |
@@ -250,7 +252,7 @@
 | **P1 · Watch** | **Edge-Native Embodied Intelligence for Action-Aware Wireless Edge Networks** | Fresh / preprint | VLA/WAM/Physical AI serving / edge-cloud / heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.17774) | — |
 | **P1 · Watch** | **An Internet for the KV Cache: Rethinking Classical Infrastructure Boundaries in the LLM Inference Age** | Fresh / preprint | KV cache / distributed serving / cloud-network-storage systems | [Link](https://arxiv.org/abs/2608.01526) | — |
 
-## 🏛️ Classical / Historical · 565 canonical
+## 🏛️ Classical / Historical · 566 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -677,6 +679,7 @@
 | **Canonical** | **Confidant: Customizing Transformer-based LLMs via Collaborative Training on Mobile Devices** | MobiCom 2025 | edge AI / mobile LLM training / pipeline parallelism / heterogeneous scheduling | [Link](https://arxiv.org/abs/2311.13381) | — |
 | **Canonical** | **D2MoE: Dual Routing and Dynamic Scheduling for Efficient On-Device MoE-based LLM Serving** | MobiCom 2025 | on-device MoE serving / dynamic scheduling | [Link](https://doi.org/10.1145/3680207.3723493) | — |
 | **Canonical** | **UrgenGo: Urgency-Aware Transparent GPU Kernel Launching for Autonomous Driving** | MobiCom 2025 | Physical AI / autonomous driving runtime / GPU scheduling / deadline-aware kernels | [Link](https://arxiv.org/abs/2509.12207) | — |
+| **Canonical** | **LeanStream: A Speculate-and-Refine Streaming Framework for Efficient on-Device LLM Inference** | MobiCom 2026 | edge/cloud/heterogeneous AI systems / on-device LLM inference / storage offload / sparse execution | [Link](https://arxiv.org/abs/2609.03079) | — |
 | **Canonical** | **Activated LoRA: Fine-tuned LLMs for Intrinsics** | NeurIPS 2025 | LoRA serving / KV cache reuse | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/4d0b6303d4a4811445f69f357bf6def5-Abstract-Conference.html) | — |
 | **Canonical** | **Block-Diagonal LoRA for Eliminating Communication Overhead in Tensor Parallel LoRA Serving** | NeurIPS 2025 | LoRA serving / tensor parallel communication elimination | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/0095274aecea2127c404fc6f7462aa44-Abstract-Conference.html) | — |
 | **Canonical** | **ChunkKV: Semantic-Preserving KV Cache Compression for Efficient Long-Context LLM Inference** | NeurIPS 2025 | KV cache compression / long-context inference | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/2987f911151b39cd3a1761e212319e8e-Abstract-Conference.html) | [Repo](https://github.com/NVIDIA/kvpress) |

@@ -1,6 +1,6 @@
 # 🆕 Latest 30 Days
 
-> Rolling 30-day view ending **2026-09-04**: **348 tracked papers = 97 P0 + 131 P1 + 120 P2**. Topical relevance determines visibility; quality determines priority. The classical census remains stricter.
+> Rolling 30-day view ending **2026-09-04**: **350 tracked papers = 99 P0 + 131 P1 + 120 P2**. Topical relevance determines visibility; quality determines priority. The classical census remains stricter.
 
 [← Paper Library](ALL_PAPERS.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/latest_30d.json) · [CSV](../data/latest_30d.csv)
 
@@ -10,6 +10,7 @@
 |---|---|---|---|---|---|
 | **P0 · Strong** | **UE5M3 FP4 Block Scaling for Stable Language Model Pretraining** | arXiv 2026 | quantization / efficient training / low-precision systems | [Link](https://arxiv.org/abs/2609.02846) | — |
 | **P0 · Strong** | **ShallowStream: Index Shallow then Answer Deep for Streaming Video Understanding** | arXiv 2026 | multimodal/MLLM serving / streaming video / Physical-AI protected | [Link](https://arxiv.org/abs/2609.02780) | [Repo](https://github.com/CURRENTF/ShallowStream) |
+| **P0 · Strong** | **AceSpec: An Asymmetric Edge-Cloud Collaborative Framework for Communication-Efficient LLM Inference** | CoRR 2026 | speculative decoding / edge-cloud LLM inference / distributed inference / communication efficiency | [Link](https://arxiv.org/abs/2609.02514) | — |
 | **P0 · Strong** | **mzCache: On-Device LLM Memory Management under Multitasking** | MobiCom 2026 | edge/cloud/heterogeneous AI / KV cache / on-device LLM serving | [Link](https://arxiv.org/abs/2609.01338) | — |
 | **P0 · Strong** | **Knowing When to Stop: Adaptive Action Chunking via Internal Cross-Attention Dynamics in VLAs** | arXiv 2026 | VLA/WAM/Physical AI serving / adaptive action execution | [Link](https://arxiv.org/abs/2609.00908) | — |
 | **P0 · Strong** | **CacheBridge: Efficient Cross-Model KV Cache Transfer** | arXiv 2026 | KV cache / multi-model serving / GPU kernel | [Link](https://arxiv.org/abs/2609.00891) | — |
@@ -23,6 +24,7 @@
 | **P0 · Strong** | **EpaCache: Error-Propagation-Aware Caching for Accelerating Diffusion-Based Visual Generation** | Fresh / preprint | video/image generation acceleration / diffusion cache | [Link](https://arxiv.org/abs/2608.29264) | — |
 | **P0 · Strong** | **AdaVLA: Adaptive Step Flow Matching for Training-free Acceleration of Vision-Language-Action Models** | Fresh / preprint | VLA/WAM/Physical AI serving / flow acceleration | [Link](https://arxiv.org/abs/2608.29208) | — |
 | **P0 · Strong** | **SemKV: Semantic Mixed-Precision KV Cache Quantization Guided by the Quality Cliff for Long-Context LLM Inference** | arXiv 2026 | KV cache/long-context / quantization | [Link](https://arxiv.org/abs/2608.28911) | — |
+| **P0 · Strong** | **Pro-Router: Token-Aware Progressive Model Routing with Adaptive Edge-Cloud Collaboration for Efficient Multimodal LLM Inference** | CoRR 2026 | multimodal/MLLM serving / edge-cloud routing / adaptive inference | [Link](https://arxiv.org/abs/2608.28726) | [Repo](https://github.com/xinyuangui2/pro-router) |
 | **P0 · Strong** | **Training Communication-Efficient Mixture-of-Experts Language Models with Layer Re-Configuration** | arXiv 2026 | MoE systems / distributed training / communication efficiency | [Link](https://arxiv.org/abs/2608.28511) | — |
 | **P0 · Strong** | **ContextPilot: Teaching Agents for Proactive Context Management via Fine-grained RL** | arXiv 2026 | efficient reasoning/agent systems / long-context management | [Link](https://arxiv.org/abs/2608.28476) | [Repo](https://github.com/Tencent/ContextPilot) |
 | **P0 · Strong** | **DensityKV: Density-Guided KV Cache Compression for Long Video Generation** | arXiv 2026 | KV cache / video generation acceleration / efficient attention | [Link](https://arxiv.org/abs/2608.27922) | [Repo](https://github.com/ZhaoWQQ/DensityKV) |

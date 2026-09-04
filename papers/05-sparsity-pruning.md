@@ -1,6 +1,6 @@
 # 05 · Sparsity / Pruning
 
-> **232 canonical papers** mapped here, plus a broader **64-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **233 canonical papers** mapped here, plus a broader **64-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -73,7 +73,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 221 canonical
+## 🏛️ Classical / Historical · 222 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -278,6 +278,7 @@
 | **Canonical** | **BLASST: Dynamic BLocked Attention Sparsity via Softmax Thresholding** | MLSys 2026 | sparse attention / long-context inference | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/file/c6ee784cbe46d854843e4c883a3321ef-Paper-Conference.pdf) | — |
 | **Canonical** | **db-SP: Accelerating Sparse Attention for Visual Generative Models with Dual-Balanced Sequence Parallelism** | MLSys 2026 | video/image generation acceleration / sparse attention / sequence parallelism | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/db988b089d8d97d0f159c15ed0be6a71-Abstract-Conference.html) | — |
 | **Canonical** | **MTraining: Distributed Dynamic Sparse Attention for Efficient Ultra-Long Context Training** | MLSys 2026 | distributed training / sparse attention / long context | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/7fafdf453029d7b8674b6f3dd18112bf-Abstract-Conference.html) | [Repo](https://github.com/microsoft/MInference/tree/main/mtraining) |
+| **Canonical** | **LeanStream: A Speculate-and-Refine Streaming Framework for Efficient on-Device LLM Inference** | MobiCom 2026 | edge/cloud/heterogeneous AI systems / on-device LLM inference / storage offload / sparse execution | [Link](https://arxiv.org/abs/2609.03079) | — |
 | **Canonical** | **AttentionPredictor: Temporal Patterns Matter for KV Cache Compression** | NeurIPS 2025 | KV cache compression / sparse attention / cache prefetching | [Link](https://doi.org/10.52202/085713-4624) | [Repo](https://github.com/MIRALab-USTC/LLM-AttentionPredictor) |
 | **Canonical** | **Delta Attention: Fast and Accurate Sparse Attention Inference by Delta Correction** | NeurIPS 2025 | sparse attention / long-context inference | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/11cc3abb01080339ceed66eff7c93920-Abstract-Conference.html) | — |
 | **Canonical** | **MoESD: Unveil Speculative Decoding's Potential for Accelerating Sparse MoE** | NeurIPS 2025 | MoE inference / speculative decoding | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/b637af7745d3ad4cb0b9cdaa056ab41e-Abstract-Conference.html) | — |

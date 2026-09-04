@@ -1,6 +1,6 @@
 # 12 · Diffusion / Flow Acceleration
 
-> **181 canonical papers** mapped here, plus a broader **35-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **182 canonical papers** mapped here, plus a broader **35-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -44,7 +44,7 @@
 | **P2 · Relevant** | **OnlineCache: Learning Dynamic Caching Policies with Error Correction for Efficient Diffusion Inference** | Fresh / preprint | LLM serving; generation acceleration; edge / heterogeneous AI | [Link](https://arxiv.org/abs/2607.29398) | — |
 | **P1 · Watch** | **CORA-Diff: Confidence-Oriented Residual Acceptance for Efficient Diffusion Language Model Inference** | Fresh / preprint | diffusion language model inference / training-free residual acceptance / decoding acceleration | [Link](https://arxiv.org/abs/2608.11235) | — |
 
-## 🏛️ Classical / Historical · 162 canonical
+## 🏛️ Classical / Historical · 163 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -71,6 +71,7 @@
 | **Canonical** | **DSV: Exploiting Dynamic Sparsity to Accelerate Large-Scale Video DiT Training** | ASPLOS 2026 | video diffusion training / sparse attention / distributed training | [Link](https://arxiv.org/abs/2502.07590) | — |
 | **Canonical** | **MoDM: Efficient Serving for Image Generation via Mixture-of-Diffusion Models** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://arxiv.org/abs/2503.11972) | — |
 | **Canonical** | **TetriServe: Efficiently Serving Mixed DiT Workloads** | ASPLOS 2026 | diffusion/DiT serving / scheduling | [Link](https://arxiv.org/abs/2510.01565) | — |
+| **Canonical** | **DSAQuant: Denoising-Stage-Aligned Quantization-Aware Training for Video Generation** | CoRR 2026 | quantization / video generation acceleration / diffusion inference | [Link](https://arxiv.org/abs/2609.04031) | [Repo](https://github.com/robbyant-research/DSAQuant) |
 | **Canonical** | **Efficient-WAM: A 1B-Parameter World-Action Model with Low-Cost Future Imagination** | CoRR 2026 | VLA/WAM/Physical AI serving / efficient world-action model / sparse future latents / asymmetric denoising | [Link](https://arxiv.org/abs/2606.10040) | [Repo](https://github.com/jiajun613/Efficient-WAM) |
 | **Canonical** | **ES-dLLM: Efficient Inference for Diffusion Large Language Models by Early-Skipping** | CoRR 2026 | diffusion/flow acceleration / diffusion language model inference / token skipping / KV-hidden-state reuse | [Link](https://arxiv.org/abs/2603.10088) | — |
 | **Canonical** | **M*: A Modular, Extensible, Serving System for Multimodal Models** | CoRR 2026 | multimodal/MLLM serving / composite-model runtime / VLA-world-model serving / graph-based distributed runtime | [Link](https://arxiv.org/abs/2606.12688) | [Repo](https://github.com/mstar-project/mstar) |

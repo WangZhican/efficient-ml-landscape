@@ -4809,6 +4809,28 @@
     ]
   },
   {
+    "title": "DSAQuant: Denoising-Stage-Aligned Quantization-Aware Training for Video Generation",
+    "venue": "CoRR 2026",
+    "topic": "quantization / video generation acceleration / diffusion inference",
+    "arxiv": "2609.04031",
+    "doi": "",
+    "official_id": "2609.04031",
+    "paper_url": "https://arxiv.org/abs/2609.04031",
+    "code_url": "https://github.com/robbyant-research/DSAQuant",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Aggressive W4A4/W3A3 video-diffusion quantization with stage-aligned QAT and inference guidance; reports up to +6.60 VBench under W3A3 while preserving text-video alignment, with official project/code released.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "Efficient-WAM: A 1B-Parameter World-Action Model with Low-Cost Future Imagination",
     "venue": "CoRR 2026",
     "topic": "VLA/WAM/Physical AI serving / efficient world-action model / sparse future latents / asymmetric denoising",
@@ -23751,6 +23773,30 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Quantization",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "LeanStream: A Speculate-and-Refine Streaming Framework for Efficient on-Device LLM Inference",
+    "venue": "MobiCom 2026",
+    "topic": "edge/cloud/heterogeneous AI systems / on-device LLM inference / storage offload / sparse execution",
+    "arxiv": "2609.03079",
+    "doi": "",
+    "official_id": "2609.03079",
+    "paper_url": "https://arxiv.org/abs/2609.03079",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Accepted MobiCom 2026 systems work. Speculate-and-refine streaming overlaps GPU execution with storage I/O and reports 4.8x-7.5x lower memory use at prior-work best throughput plus 1.6x-2.1x higher token throughput.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "GPU Kernel / DSL / Compiler",
       "Edge / Cloud / Heterogeneous AI"
     ]
   },

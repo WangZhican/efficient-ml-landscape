@@ -1,6 +1,6 @@
 # 03 · KV Cache / Long Context
 
-> **372 canonical papers** mapped here, plus a broader **68-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **373 canonical papers** mapped here, plus a broader **68-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -77,7 +77,7 @@
 | **P1 · Watch** | **Edge-Native Embodied Intelligence for Action-Aware Wireless Edge Networks** | Fresh / preprint | VLA/WAM/Physical AI serving / edge-cloud / heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.17774) | — |
 | **P1 · Watch** | **An Internet for the KV Cache: Rethinking Classical Infrastructure Boundaries in the LLM Inference Age** | Fresh / preprint | KV cache / distributed serving / cloud-network-storage systems | [Link](https://arxiv.org/abs/2608.01526) | — |
 
-## 🏛️ Classical / Historical · 345 canonical
+## 🏛️ Classical / Historical · 346 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -352,6 +352,7 @@
 | **Canonical** | **ProfInfer: An eBPF-based Fine-Grained LLM Inference Profiler** | MLSys 2026 | LLM inference profiling / edge runtime observability | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/file/03dbc11a22e79cd38bea53cf518c2371-Paper-Conference.pdf) | — |
 | **Canonical** | **RaidServe: High-performance Resilient Serving** | MLSys 2026 | LLM serving reliability / tensor parallelism / KV-cache recovery | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/507b4aacefe5325908e24f042617b741-Abstract-Conference.html) | — |
 | **Canonical** | **SuperInfer: SLO-Aware Rotary Scheduling and Memory Management for LLM Inference on Superchips** | MLSys 2026 | LLM serving / KV-cache offload / heterogeneous GPU-CPU superchips | [Link](https://arxiv.org/abs/2601.20309) | [Repo](https://github.com/Supercomputing-System-AI-Lab/SuperInfer) |
+| **Canonical** | **LeanStream: A Speculate-and-Refine Streaming Framework for Efficient on-Device LLM Inference** | MobiCom 2026 | edge/cloud/heterogeneous AI systems / on-device LLM inference / storage offload / sparse execution | [Link](https://arxiv.org/abs/2609.03079) | — |
 | **Canonical** | **Accurate KV Cache Eviction via Anchor Direction Projection for Efficient LLM Inference** | NeurIPS 2025 | KV cache eviction | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/0f29157c7613e137834a607075c55e17-Abstract-Conference.html) | — |
 | **Canonical** | **Activated LoRA: Fine-tuned LLMs for Intrinsics** | NeurIPS 2025 | LoRA serving / KV cache reuse | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/4d0b6303d4a4811445f69f357bf6def5-Abstract-Conference.html) | — |
 | **Canonical** | **Ada-KV: Optimizing KV Cache Eviction by Adaptive Budget Allocation for Efficient LLM Inference** | NeurIPS 2025 | KV cache eviction / adaptive head-wise budgets | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/a40ff56daab9f4808b1e18350c8a11ce-Abstract-Conference.html) | — |

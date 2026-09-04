@@ -1,15 +1,16 @@
 # 📚 Paper Library
 
-> **1477 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **348 visible papers = 97 P0 + 131 P1 + 120 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1481 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **350 visible papers = 99 P0 + 131 P1 + 120 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
-## 🆕 P0 · Strong / Canonical recent · 97
+## 🆕 P0 · Strong / Canonical recent · 99
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **P0 · Strong** | **UE5M3 FP4 Block Scaling for Stable Language Model Pretraining** | arXiv 2026 | quantization / efficient training / low-precision systems | [Link](https://arxiv.org/abs/2609.02846) | — |
 | **P0 · Strong** | **ShallowStream: Index Shallow then Answer Deep for Streaming Video Understanding** | arXiv 2026 | multimodal/MLLM serving / streaming video / Physical-AI protected | [Link](https://arxiv.org/abs/2609.02780) | [Repo](https://github.com/CURRENTF/ShallowStream) |
+| **P0 · Strong** | **AceSpec: An Asymmetric Edge-Cloud Collaborative Framework for Communication-Efficient LLM Inference** | CoRR 2026 | speculative decoding / edge-cloud LLM inference / distributed inference / communication efficiency | [Link](https://arxiv.org/abs/2609.02514) | — |
 | **P0 · Strong** | **mzCache: On-Device LLM Memory Management under Multitasking** | MobiCom 2026 | edge/cloud/heterogeneous AI / KV cache / on-device LLM serving | [Link](https://arxiv.org/abs/2609.01338) | — |
 | **P0 · Strong** | **Knowing When to Stop: Adaptive Action Chunking via Internal Cross-Attention Dynamics in VLAs** | arXiv 2026 | VLA/WAM/Physical AI serving / adaptive action execution | [Link](https://arxiv.org/abs/2609.00908) | — |
 | **P0 · Strong** | **CacheBridge: Efficient Cross-Model KV Cache Transfer** | arXiv 2026 | KV cache / multi-model serving / GPU kernel | [Link](https://arxiv.org/abs/2609.00891) | — |
@@ -23,6 +24,7 @@
 | **P0 · Strong** | **EpaCache: Error-Propagation-Aware Caching for Accelerating Diffusion-Based Visual Generation** | Fresh / preprint | video/image generation acceleration / diffusion cache | [Link](https://arxiv.org/abs/2608.29264) | — |
 | **P0 · Strong** | **AdaVLA: Adaptive Step Flow Matching for Training-free Acceleration of Vision-Language-Action Models** | Fresh / preprint | VLA/WAM/Physical AI serving / flow acceleration | [Link](https://arxiv.org/abs/2608.29208) | — |
 | **P0 · Strong** | **SemKV: Semantic Mixed-Precision KV Cache Quantization Guided by the Quality Cliff for Long-Context LLM Inference** | arXiv 2026 | KV cache/long-context / quantization | [Link](https://arxiv.org/abs/2608.28911) | — |
+| **P0 · Strong** | **Pro-Router: Token-Aware Progressive Model Routing with Adaptive Edge-Cloud Collaboration for Efficient Multimodal LLM Inference** | CoRR 2026 | multimodal/MLLM serving / edge-cloud routing / adaptive inference | [Link](https://arxiv.org/abs/2608.28726) | [Repo](https://github.com/xinyuangui2/pro-router) |
 | **P0 · Strong** | **Training Communication-Efficient Mixture-of-Experts Language Models with Layer Re-Configuration** | arXiv 2026 | MoE systems / distributed training / communication efficiency | [Link](https://arxiv.org/abs/2608.28511) | — |
 | **P0 · Strong** | **ContextPilot: Teaching Agents for Proactive Context Management via Fine-grained RL** | arXiv 2026 | efficient reasoning/agent systems / long-context management | [Link](https://arxiv.org/abs/2608.28476) | [Repo](https://github.com/Tencent/ContextPilot) |
 | **P0 · Strong** | **DensityKV: Density-Guided KV Cache Compression for Long Video Generation** | arXiv 2026 | KV cache / video generation acceleration / efficient attention | [Link](https://arxiv.org/abs/2608.27922) | [Repo](https://github.com/ZhaoWQQ/DensityKV) |
@@ -371,7 +373,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 1380
+## 🏛️ Classical / Historical · 1382
 
 ### ICML 2026 · 376
 
@@ -1575,7 +1577,7 @@
 | **Canonical** | **UltraVSR: Achieving Ultra-Realistic Video Super-Resolution with Efficient One-Step Diffusion Space** | ACM Multimedia 2025 | one-step diffusion / efficient video super-resolution | [Link](https://arxiv.org/abs/2505.19958) | [Repo](https://github.com/yongliuy/UltraVSR) |
 | **Canonical** | **VISA: Group-wise Visual Token Selection and Aggregation via Graph Summarization for Efficient MLLMs Inference** | ACM Multimedia 2025 | MLLM inference / visual token pruning and aggregation | [Link](https://arxiv.org/abs/2508.17857) | — |
 
-### CoRR 2026 · 19
+### CoRR 2026 · 20
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -1583,6 +1585,7 @@
 | **Canonical** | **A Workflow-Aware Serving Layer for Agentic Applications** | CoRR 2026 | agent systems / LLM serving / workflow-aware scheduling / heterogeneous backends / verification-aware routing | [Link](https://arxiv.org/abs/2607.02942) | — |
 | **Canonical** | **Blink: CPU-Free LLM Inference by Delegating the Serving Stack to GPU and SmartNIC** | CoRR 2026 | LLM serving / GPU-resident scheduling / SmartNIC / CPU-free serving stack / KV-cache management | [Link](https://arxiv.org/abs/2604.07609) | — |
 | **Canonical** | **DeltaServe: Host-Agnostic Co-Serving of Inference and Fine-Tuning for LLMs** | CoRR 2026 | LLM serving / inference-training co-serving / LoRA / SLO-aware scheduling / GPU utilization | [Link](https://arxiv.org/abs/2607.28848) | — |
+| **Canonical** | **DSAQuant: Denoising-Stage-Aligned Quantization-Aware Training for Video Generation** | CoRR 2026 | quantization / video generation acceleration / diffusion inference | [Link](https://arxiv.org/abs/2609.04031) | [Repo](https://github.com/robbyant-research/DSAQuant) |
 | **Canonical** | **Efficient-WAM: A 1B-Parameter World-Action Model with Low-Cost Future Imagination** | CoRR 2026 | VLA/WAM/Physical AI serving / efficient world-action model / sparse future latents / asymmetric denoising | [Link](https://arxiv.org/abs/2606.10040) | [Repo](https://github.com/jiajun613/Efficient-WAM) |
 | **Canonical** | **ES-dLLM: Efficient Inference for Diffusion Large Language Models by Early-Skipping** | CoRR 2026 | diffusion/flow acceleration / diffusion language model inference / token skipping / KV-hidden-state reuse | [Link](https://arxiv.org/abs/2603.10088) | — |
 | **Canonical** | **FlexLLM: Composable HLS Library for Flexible Hybrid LLM Accelerator Design** | CoRR 2026 | edge/cloud/heterogeneous AI systems / FPGA HLS / LLM accelerator / quantization / long context | [Link](https://arxiv.org/abs/2601.15710) | — |
@@ -2076,6 +2079,12 @@
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **Canonical** | **SHIP: SRAM-Based Huge Inference Pipelines for Fast LLM Serving** | MLSys 2026 Industry Track | LLM serving; inference accelerator; SRAM-based serving; distributed inference; pipeline parallelism | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/9c20f16b05f5e5e70fa07e2a4364b80e-Abstract-Conference.html) | — |
+
+### MobiCom 2026 · 1
+
+| Priority | Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|---|
+| **Canonical** | **LeanStream: A Speculate-and-Refine Streaming Framework for Efficient on-Device LLM Inference** | MobiCom 2026 | edge/cloud/heterogeneous AI systems / on-device LLM inference / storage offload / sparse execution | [Link](https://arxiv.org/abs/2609.03079) | — |
 
 ### OSDI 2026 / arXiv · 1
 

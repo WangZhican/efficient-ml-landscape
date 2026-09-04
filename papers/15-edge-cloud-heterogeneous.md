@@ -1,18 +1,20 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **308 canonical papers** mapped here, plus a broader **106-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **311 canonical papers** mapped here, plus a broader **108-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 106 tracked
+## 🆕 Latest 30 Days · 108 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
+| **P0 · Strong** | **AceSpec: An Asymmetric Edge-Cloud Collaborative Framework for Communication-Efficient LLM Inference** | CoRR 2026 | speculative decoding / edge-cloud LLM inference / distributed inference / communication efficiency | [Link](https://arxiv.org/abs/2609.02514) | — |
 | **P1 · Watch** | **HeadWiseKV: Budgeted Per-Head Cache Residency for Hybrid Long-Context Language Models** | arXiv 2026 | KV cache/long-context / LLM serving | [Link](https://arxiv.org/abs/2609.02029) | — |
 | **P0 · Strong** | **mzCache: On-Device LLM Memory Management under Multitasking** | MobiCom 2026 | edge/cloud/heterogeneous AI / KV cache / on-device LLM serving | [Link](https://arxiv.org/abs/2609.01338) | — |
 | **P0 · Strong** | **DynaNDE: Dynamic Near-Data Expert Scheduling for Batched MoE Inference** | arXiv 2026 | MoE systems / accelerators / heterogeneous inference | [Link](https://arxiv.org/abs/2609.00407) | — |
 | **P1 · Watch** | **CHIPSMORE: Compute-in-Interconnect and -Memory Chiplets for Multi-Mode Multi-Request LLM Inference Acceleration** | Fresh / preprint | edge/cloud/heterogeneous AI systems / LLM accelerator | [Link](https://arxiv.org/abs/2608.30509) | — |
 | **P1 · Watch** | **Context-Aware Interleaved Batching for WhisperX** | Fresh / preprint | edge/cloud/heterogeneous AI systems / inference batching | [Link](https://arxiv.org/abs/2608.31170) | — |
+| **P0 · Strong** | **Pro-Router: Token-Aware Progressive Model Routing with Adaptive Edge-Cloud Collaboration for Efficient Multimodal LLM Inference** | CoRR 2026 | multimodal/MLLM serving / edge-cloud routing / adaptive inference | [Link](https://arxiv.org/abs/2608.28726) | [Repo](https://github.com/xinyuangui2/pro-router) |
 | **P0 · Strong** | **Training Communication-Efficient Mixture-of-Experts Language Models with Layer Re-Configuration** | arXiv 2026 | MoE systems / distributed training / communication efficiency | [Link](https://arxiv.org/abs/2608.28511) | — |
 | **P1 · Watch** | **A Layer Importance Metric for Quantization Accounting for the Speed-Quality Trade-off in Autoregressive Models** | Fresh / preprint | quantization / edge inference / hardware-aware metric | [Link](https://arxiv.org/abs/2608.26926) | — |
 | **P0 · Strong** | **Redwood: A Frontier AI Accelerator Designed, Verified, and Deployed from Scratch in 2 Weeks by AI** | arXiv 2026 | edge/cloud/heterogeneous AI systems / Physical AI accelerator | [Link](https://arxiv.org/abs/2608.26418) | — |
@@ -115,7 +117,7 @@
 | **P2 · Relevant** | **Unified Static-Dynamic Pruning for Efficient LLM Inference** | Fresh / preprint | llm_serving / sparse / kernel / edge | [Link](https://arxiv.org/abs/2607.21985) | — |
 | **P1 · Watch** | **Edge-Native Embodied Intelligence for Action-Aware Wireless Edge Networks** | Fresh / preprint | VLA/WAM/Physical AI serving / edge-cloud / heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.17774) | — |
 
-## 🏛️ Classical / Historical · 286 canonical
+## 🏛️ Classical / Historical · 287 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -332,6 +334,7 @@
 | **Canonical** | **LLM-Explorer: Towards Efficient and Affordable LLM-based Exploration for Mobile Apps** | MobiCom 2025 | mobile agent / efficient LLM usage | [Link](https://arxiv.org/abs/2505.10593) | — |
 | **Canonical** | **Modality Plug-and-Play: Runtime Modality Adaptation in LLM-Driven Autonomous Mobile Systems** | MobiCom 2025 | Physical AI / multimodal edge runtime / efficient modality adaptation | [Link](https://pittisl.github.io/publication/2023-mpnp-llm/) | [Repo](https://github.com/pittisl/mPnP-LLM) |
 | **Canonical** | **Wireless Hearables With Programmable Speech AI Accelerators** | MobiCom 2025 | edge AI / on-device speech inference / accelerator co-design / quantization | [Link](https://arxiv.org/abs/2503.18698) | — |
+| **Canonical** | **LeanStream: A Speculate-and-Refine Streaming Framework for Efficient on-Device LLM Inference** | MobiCom 2026 | edge/cloud/heterogeneous AI systems / on-device LLM inference / storage offload / sparse execution | [Link](https://arxiv.org/abs/2609.03079) | — |
 | **Canonical** | **Homogeneous Keys, Heterogeneous Values: Exploiting Local KV Cache Asymmetry for Long-Context LLMs** | NeurIPS 2025 | KV cache compression / long-context inference / key-value asymmetry | [Link](https://doi.org/10.52202/085713-2726) | [Repo](https://github.com/the-scale-lab/Asymkv) |
 | **Canonical** | **Knowing When to Stop: Efficient Context Processing via Latent Sufficiency Signals** | NeurIPS 2025 | efficient context processing / adaptive cutoff | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/3afa7f9b7ac8da474b3d915570d58291-Abstract-Conference.html) | — |
 | **Canonical** | **SpecEdge: Scalable Edge-Assisted Serving Framework for Interactive LLMs** | NeurIPS 2025 | edge-cloud LLM serving / speculative decoding | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/8587069d00a69d0ea498d547fffad6dd-Abstract-Conference.html) | — |

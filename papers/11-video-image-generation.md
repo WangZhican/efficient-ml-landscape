@@ -1,6 +1,6 @@
 # 11 · Video / Image Generation
 
-> **68 canonical papers** mapped here, plus a broader **23-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **69 canonical papers** mapped here, plus a broader **23-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -32,7 +32,7 @@
 | **P2 · Relevant** | **Sol-Attn: Accelerating Video Generation Inference via On-the-Fly Attention Sparsification** | Fresh / preprint | llm_serving / sparse / gen | [Link](https://arxiv.org/abs/2607.24027) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 58 canonical
+## 🏛️ Classical / Historical · 59 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -44,6 +44,7 @@
 | **Canonical** | **Q-ARVD: Quantizing Autoregressive Video Diffusion Models** | arXiv 2026 | video generation acceleration; autoregressive video diffusion; quantization; Triton kernels | [Link](https://arxiv.org/abs/2605.21072) | [Repo](https://github.com/tsa18/Q-ARVD) |
 | **Canonical** | **StreamFusion: Scalable Sequence Parallelism for Distributed Inference of Diffusion Transformers on GPUs** | arXiv 2026 | video/image generation acceleration; diffusion/flow acceleration; distributed inference; sequence parallelism; GPU communication | [Link](https://arxiv.org/abs/2601.20273) | — |
 | **Canonical** | **MoDM: Efficient Serving for Image Generation via Mixture-of-Diffusion Models** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://arxiv.org/abs/2503.11972) | — |
+| **Canonical** | **DSAQuant: Denoising-Stage-Aligned Quantization-Aware Training for Video Generation** | CoRR 2026 | quantization / video generation acceleration / diffusion inference | [Link](https://arxiv.org/abs/2609.04031) | [Repo](https://github.com/robbyant-research/DSAQuant) |
 | **Canonical** | **Adaptive Spectral Feature Forecasting for Diffusion Sampling Acceleration** | CVPR 2026 | diffusion/video generation acceleration / spectral feature forecasting / long-range reuse | [Link](https://arxiv.org/abs/2603.01623) | [Repo](https://github.com/hanjq17/Spectrum) |
 | **Canonical** | **Attention Surgery: An Efficient Recipe to Linearize Your Video Diffusion Transformer** | CVPR 2026 | video diffusion / linear attention / mobile inference | [Link](https://openaccess.thecvf.com/content/CVPR2026/html/Ghafoorian_Attention_Surgery_An_Efficient_Recipe_to_Linearize_Your_Video_Diffusion_CVPR_2026_paper.html) | — |
 | **Canonical** | **FlashDecoder: Real-Time Latent-to-Pixel Streaming Decoder with Transformers** | CVPR 2026 | video/image generation acceleration / streaming decoder / rolling KV cache | [Link](https://arxiv.org/abs/2607.14898) | — |

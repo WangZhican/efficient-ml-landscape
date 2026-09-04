@@ -1,6 +1,6 @@
 # 08 · GPU Kernel / DSL / Compiler
 
-> **367 canonical papers** mapped here, plus a broader **76-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **368 canonical papers** mapped here, plus a broader **76-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -85,7 +85,7 @@
 | **P1 · Watch** | **Here is a GIFT: Enforcing User Data Isolation in LLM Serving via GPU Information Flow Tracking** | Fresh / preprint | LLM serving / GPU runtime / confidential computing | [Link](https://arxiv.org/abs/2608.25431) | — |
 | **P1 · Watch** | **DEFT: Joint Task Placement and DVFS for Energy-Efficient Multi-GPU Runtimes** | Fresh / preprint | distributed runtime / multi-GPU / energy efficiency | [Link](https://arxiv.org/abs/2608.02122) | — |
 
-## 🏛️ Classical / Historical · 336 canonical
+## 🏛️ Classical / Historical · 337 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -323,6 +323,7 @@
 | **Canonical** | **Zorse: Optimizing LLM Training Efficiency on Heterogeneous GPU Clusters** | MLSys 2026 | distributed training / heterogeneous GPUs / parallelism | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/bfa6dd59c1d7f7c785909f9ff7cffe67-Abstract-Conference.html) | — |
 | **Canonical** | **Modality Plug-and-Play: Runtime Modality Adaptation in LLM-Driven Autonomous Mobile Systems** | MobiCom 2025 | Physical AI / multimodal edge runtime / efficient modality adaptation | [Link](https://pittisl.github.io/publication/2023-mpnp-llm/) | [Repo](https://github.com/pittisl/mPnP-LLM) |
 | **Canonical** | **UrgenGo: Urgency-Aware Transparent GPU Kernel Launching for Autonomous Driving** | MobiCom 2025 | Physical AI / autonomous driving runtime / GPU scheduling / deadline-aware kernels | [Link](https://arxiv.org/abs/2509.12207) | — |
+| **Canonical** | **LeanStream: A Speculate-and-Refine Streaming Framework for Efficient on-Device LLM Inference** | MobiCom 2026 | edge/cloud/heterogeneous AI systems / on-device LLM inference / storage offload / sparse execution | [Link](https://arxiv.org/abs/2609.03079) | — |
 | **Canonical** | **HiFC: High-efficiency Flash-based KV Cache Swapping for Scaling LLM Inference** | NeurIPS 2025 | KV cache swapping / SSD / GDS | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/4431224d3762aa655f0aee4eaf04ff16-Abstract-Conference.html) | — |
 | **Canonical** | **MUSTAFAR: Promoting Unstructured Sparsity for KV Cache Pruning in LLM Inference** | NeurIPS 2025 | KV pruning / sparse attention kernel | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/6ea69f8116b7c01e3c3e43b62e6868fc-Abstract-Conference.html) | — |
 | **Canonical** | **SageAttention3: Microscaling FP4 Attention for Inference and An Exploration of 8-Bit Training** | NeurIPS 2025 | low-bit attention kernel / FP4 | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/4db397e0f760cc573c681e81a01a3dba-Abstract-Conference.html) | — |
