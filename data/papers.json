@@ -23035,8 +23035,10 @@
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
+      "LLM Serving",
       "Efficient Attention",
-      "MoE Systems / Accelerators"
+      "MoE Systems / Accelerators",
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {

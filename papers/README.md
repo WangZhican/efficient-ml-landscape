@@ -4,7 +4,7 @@
 
 <div align="center">
 
-[**🆕 Latest 30 Days · 347 tracked**](LATEST_30D.md) · [**🏛️ Classical · 1371**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
+[**🆕 Latest 30 Days · 348 tracked**](LATEST_30D.md) · [**🏛️ Classical · 1371**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
 
 </div>
 
@@ -12,9 +12,9 @@
 
 | # | Research direction | Canonical | Latest 30d tracked |
 |---:|---|---:|---:|
-| 01 | [**LLM Serving**](01-llm-serving.md) | **613** | **240** |
+| 01 | [**LLM Serving**](01-llm-serving.md) | **613** | **241** |
 | 02 | [**Speculative Decoding**](02-speculative-decoding.md) | **184** | **31** |
-| 03 | [**KV Cache / Long Context**](03-kv-cache-long-context.md) | **370** | **67** |
+| 03 | [**KV Cache / Long Context**](03-kv-cache-long-context.md) | **370** | **68** |
 | 04 | [**Quantization**](04-quantization.md) | **208** | **57** |
 | 05 | [**Sparsity / Pruning**](05-sparsity-pruning.md) | **231** | **64** |
 | 06 | [**Efficient Attention**](06-efficient-attention.md) | **217** | **54** |
@@ -26,7 +26,7 @@
 | 12 | [**Diffusion / Flow Acceleration**](12-diffusion-flow.md) | **180** | **35** |
 | 13 | [**Efficient Reasoning / Agents**](13-efficient-reasoning-agents.md) | **248** | **56** |
 | 14 | [**VLA / WAM / Physical AI**](14-physical-ai-vla-wam.md) | **99** | **65** |
-| 15 | [**Edge / Cloud / Heterogeneous AI**](15-edge-cloud-heterogeneous.md) | **307** | **105** |
+| 15 | [**Edge / Cloud / Heterogeneous AI**](15-edge-cloud-heterogeneous.md) | **307** | **106** |
 
 > Counts are multi-label and therefore do not sum to the unique-paper total. A canonical paper can intentionally appear in several directions.
 
