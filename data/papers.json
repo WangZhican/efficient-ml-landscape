@@ -28752,6 +28752,28 @@
     ]
   },
   {
+    "title": "Towards Efficient LLM Inference via Collective and Adaptive Speculative Decoding",
+    "venue": "SC 2025",
+    "topic": "speculative decoding / LLM serving / adaptive runtime scheduling",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "10.1145/3712285.3759834",
+    "paper_url": "https://doi.org/10.1145/3712285.3759834",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "SC 2025 LLM inference system that combines majority-voted multi-SSM speculation, pipelined overlap of SSM speculation with target-LLM verification, and runtime adaptation of speculation length; implemented on vLLM and evaluated against prior speculative-decoding systems for throughput/latency.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "Understanding Communication Bottlenecks in Multi-Node LLM Inference",
     "venue": "SC 2025",
     "topic": "distributed LLM inference / communication characterization",
