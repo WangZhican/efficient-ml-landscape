@@ -3883,6 +3883,27 @@
     ]
   },
   {
+    "title": "Hexcute: A Compiler Framework for Automating Layout Synthesis in GPU Programs",
+    "venue": "CGO 2026",
+    "topic": "GPU kernel/DSL/compilers / mixed-precision operators / layout synthesis / vLLM",
+    "arxiv": "2504.16214",
+    "doi": "",
+    "official_id": "2504.16214",
+    "paper_url": "https://arxiv.org/abs/2504.16214",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Direct GPU compiler/framework contribution from Toronto/NVIDIA. Automatic layout synthesis and explicit dataflow/pipelining support; official CGO 2026 page reports 6.46x average speedup over Triton for mixed-type MoE and up to 2.60x end-to-end vLLM speedup on DeepSeek-R1-AWQ.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "MoE Systems / Accelerators",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "Adaptive Computation Pruning for the Forgetting Transformer",
     "venue": "COLM 2025",
     "topic": "efficient attention / sparsity / training efficiency",
@@ -7585,6 +7606,28 @@
     "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving"
+    ]
+  },
+  {
+    "title": "LoRAFusion: Efficient LoRA Fine-Tuning for LLMs",
+    "venue": "EuroSys 2026",
+    "topic": "distributed training/inference / parameter-efficient fine-tuning / GPU kernels / multi-LoRA scheduling",
+    "arxiv": "2510.00206",
+    "doi": "",
+    "official_id": "2510.00206",
+    "paper_url": "https://arxiv.org/abs/2510.00206",
+    "code_url": "https://github.com/CentML/lorafusion",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Direct LLM fine-tuning systems work from the Toronto/Pekhimenko lineage. Kernel-level graph splitting removes redundant activation traffic and adaptive multi-job batching reduces pipeline bubbles; reports up to 1.96x end-to-end speedup vs Megatron-LM and 1.46x vs mLoRA.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
     ]
   },
   {

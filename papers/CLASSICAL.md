@@ -1,6 +1,6 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **1381 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **1383 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
@@ -847,6 +847,44 @@
 | **Canonical** | **VLM-PTQ: Efficient Post-Training Quantization for Large Vision-Language Models** | CVPR 2026 | multimodal quantization / VLM PTQ | [Link](https://openaccess.thecvf.com/content/CVPR2026/html/Deng_VLM-PTQ_Efficient_Post-Training_Quantization_for_Large_Vision-Language_Models_CVPR_2026_paper.html) | — |
 | **Canonical** | **ZOO-Prune: Training-Free Token Pruning via Zeroth-Order Gradient Estimation in Vision-Language Models** | CVPR 2026 | VLM inference / training-free visual-token pruning / zeroth-order sensitivity | [Link](https://openaccess.thecvf.com/content/CVPR2026/papers/Kim_ZOO-Prune_Training-Free_Token_Pruning_via_Zeroth-Order_Gradient_Estimation_in_Vision-Language_Models_CVPR_2026_paper.pdf) | [Repo](https://github.com/AIM-SKKU/ZOO-Prune) |
 
+## EuroSys 2026 · 33
+
+| Priority | Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|---|
+| **Canonical** | **AdaGen: Workload-Adaptive Cluster Scheduler for Latency-Optimal LLM Inference Serving** | EuroSys 2026 | LLM serving / cluster scheduling / SLO / distributed execution | [Link](https://2026.eurosys.org/papers.html) | — |
+| **Canonical** | **AdaServe: Accelerating Multi-SLO LLM Serving with SLO-Customized Speculative Decoding** | EuroSys 2026 | LLM serving / speculative decoding / multi-SLO | [Link](https://doi.org/10.1145/3767295.3769315) | — |
+| **Canonical** | **AIMS: Cost-Efficient LLM-Based Agent Deployment in Hybrid Cloud-Edge Environments** | EuroSys 2026 | agent serving / cloud-edge / cost-efficient LLM deployment | [Link](https://2026.eurosys.org/papers.html) | — |
+| **Canonical** | **Arena: Efficiently Training Large Models via Dynamic Scheduling and Adaptive Parallelism Co-Design** | EuroSys 2026 | distributed large-model training / cluster scheduling / adaptive parallelism | [Link](https://arxiv.org/abs/2403.16125) | — |
+| **Canonical** | **Automated End-to-End Model Serving with Cooperative Compilation and Scheduling** | EuroSys 2026 | model serving / compiler-runtime co-design / scheduling | [Link](https://2026.eurosys.org/papers.html) | — |
+| **Canonical** | **Bridging the GPU Utilization Gap: Predictive Multi-Dimensional Resource Scheduling for AI Workloads** | EuroSys 2026 | GPU cluster scheduling / AI workloads / multidimensional resource utilization | [Link](https://2026.eurosys.org/papers.html) | — |
+| **Canonical** | **Crimson: Collaborative Parameter Updates for Efficient Pipeline Training of Large Language Models** | EuroSys 2026 | LLM distributed training / pipeline parallelism / collaborative parameter updates | [Link](https://doi.org/10.1145/3767295.3803606) | — |
+| **Canonical** | **Efficient Data Passing for Serverless Inference Workflows: A GPU-Centric Approach** | EuroSys 2026 | serverless ML inference / GPU-centric data passing / workflow serving | [Link](https://2026.eurosys.org/papers.html) | — |
+| **Canonical** | **Efficient Multimodal Serving via Module Multiplexing** | EuroSys 2026 | multimodal/MLLM serving / module multiplexing | [Link](https://doi.org/10.1145/3767295.3769389) | — |
+| **Canonical** | **FlashPS: Efficient Generative Image Editing with Mask-aware Caching and Scheduling** | EuroSys 2026 | diffusion serving / image editing / activation caching / continuous batching | [Link](https://arxiv.org/abs/2505.20600) | — |
+| **Canonical** | **FlexiQ: Adaptive Mixed-Precision Quantization for Latency/Accuracy Trade-Offs in Deep Neural Networks** | EuroSys 2026 | adaptive mixed-precision quantization / runtime accuracy-latency tradeoff / NPU-GPU inference | [Link](https://arxiv.org/abs/2510.02822) | — |
+| **Canonical** | **FlexPipe: Adapting Dynamic LLM Serving Through Inflight Pipeline Refactoring in Fragmented Serverless Clusters** | EuroSys 2026 | LLM serving / serverless / pipeline parallelism | [Link](https://arxiv.org/abs/2510.11938) | — |
+| **Canonical** | **Handling Network Faults in Distributed AI Training: Failover is Now an Option** | EuroSys 2026 | distributed AI training / network fault tolerance / production resilience | [Link](https://2026.eurosys.org/papers.html) | — |
+| **Canonical** | **HARP: Orchestrating Automated Parallel Training on Heterogeneous GPU Clusters** | EuroSys 2026 | distributed training / heterogeneous GPU cluster / automated parallelism | [Link](https://arxiv.org/abs/2509.24859) | — |
+| **Canonical** | **High Throughput and Low Latency LLM Serving via Adaptive KV Caching** | EuroSys 2026 | LLM serving / KV cache / adaptive caching | [Link](https://doi.org/10.1145/3767295.3803570) | — |
+| **Canonical** | **KUNSERVE** | EuroSys 2026 | responsive LLM streaming + memory-overload-aware serving | — | — |
+| **Canonical** | **LoRAFusion: Efficient LoRA Fine-Tuning for LLMs** | EuroSys 2026 | distributed training/inference / parameter-efficient fine-tuning / GPU kernels / multi-LoRA scheduling | [Link](https://arxiv.org/abs/2510.00206) | [Repo](https://github.com/CentML/lorafusion) |
+| **Canonical** | **MegaScale-Data: Scaling DataLoader for Multisource Large Foundation Model Training** | EuroSys 2026 | foundation-model training / distributed dataloader / multisource data pipeline | [Link](https://arxiv.org/abs/2504.09844) | — |
+| **Canonical** | **MegaScale-MoE: Large-Scale Communication-Efficient Training of Mixture-of-Experts Models in Production** | EuroSys 2026 | MoE training systems / communication optimization | [Link](https://arxiv.org/abs/2505.11432) | — |
+| **Canonical** | **MegaScale-Omni: A Hyper-Scale, Workload-Resilient System for MultiModal LLM Training in Production** | EuroSys 2026 | multimodal LLM training / production distributed systems / elastic workload management | [Link](https://arxiv.org/abs/2605.08962) | — |
+| **Canonical** | **MFS: An Efficient Model Family Serving System for LLMs** | EuroSys 2026 | LLM model-family serving / multi-tier batching / cross-model KV sharing | [Link](https://doi.org/10.1145/3767295.3769355) | — |
+| **Canonical** | **PARD: Enhancing Goodput for Inference Pipeline via Proactive Request Dropping** | EuroSys 2026 | inference pipeline serving / goodput / SLO-aware request dropping | [Link](https://arxiv.org/abs/2602.08747) | — |
+| **Canonical** | **PiLLM: Resource-Efficient LLM Inference Using Workload Prediction** | EuroSys 2026 | LLM inference / workload prediction / resource efficiency | [Link](https://arxiv.org/abs/2601.18733) | — |
+| **Canonical** | **Reducing the GPU Memory Bottleneck with Lossless Compression for ML** | EuroSys 2026 | GPU memory / tensor compression / ML systems | [Link](https://arxiv.org/abs/2605.30728) | — |
+| **Canonical** | **SAS: Sparse Attention Synthesizer for Efficient Language Model Inference** | EuroSys 2026 | efficient attention / kernel synthesis / KV cache | [Link](https://arxiv.org/abs/2602.09051) | — |
+| **Canonical** | **Scaling LLM Test-Time Compute with Mobile NPU on Smartphones** | EuroSys 2026 | on-device LLM reasoning / mobile NPU / hardware-aware quantization | [Link](https://arxiv.org/abs/2509.23324) | — |
+| **Canonical** | **SkyWalker: A Locality-Aware Cross-Region Load Balancer for LLM Inference** | EuroSys 2026 | LLM serving / cross-region load balancing / cloud | [Link](https://arxiv.org/abs/2505.24095) | — |
+| **Canonical** | **SwiftFL: Enabling Speculative Training for On-Device Federated Deep Learning** | EuroSys 2026 | on-device federated learning / speculative training / edge AI systems | [Link](https://doi.org/10.1145/3767295.3803605) | — |
+| **Canonical** | **TailorLLM: Collaborative End-Cloud Inference of Large and Small Language Models Based on Low-Rank Adaptation** | EuroSys 2026 | edge/cloud LLM inference / collaborative serving / LoRA | [Link](https://doi.org/10.1145/3767295.3769346) | — |
+| **Canonical** | **Taming Latency-Memory Trade-Off in MoE-Based LLM Serving via Fine-Grained Expert Offloading** | EuroSys 2026 | MoE serving / expert offloading / prefetching / cache management | [Link](https://arxiv.org/abs/2502.05370) | — |
+| **Canonical** | **TokenFlow** | EuroSys 2026 | responsive LLM streaming + memory-overload-aware serving | — | — |
+| **Canonical** | **viNPU: Optimizing Vision Transformer Inference on Mobile NPUs** | EuroSys 2026 | edge AI / mobile NPU / Vision Transformer inference optimization | [Link](https://2026.eurosys.org/papers.html) | — |
+| **Canonical** | **Zeppelin: Balancing Variable-length Workloads in Data Parallel Large Model Training** | EuroSys 2026 | distributed LLM training / variable-length balancing / communication optimization | [Link](https://arxiv.org/abs/2509.21841) | — |
+
 ## NSDI 2026 · 33
 
 | Priority | Paper | Venue | Topic | Paper | Code |
@@ -884,43 +922,6 @@
 | **Canonical** | **SYMI: Efficient Mixture-of-Experts Training via Model and Optimizer State Decoupling** | NSDI 2026 | MoE training systems | [Link](https://www.usenix.org/system/files/nsdi26-skiadopoulos.pdf) | — |
 | **Canonical** | **SYMPHONY: Enabling Compute-Memory Disaggregation in LLM Serving Systems** | NSDI 2026 | KV-cache / disaggregated memory serving | [Link](https://www.usenix.org/system/files/nsdi26-agarwal.pdf) | — |
 | **Canonical** | **ZipLLM: Efficient LLM Storage via Model-Aware Synergistic Data Deduplication and Compression** | NSDI 2026 | LLM storage / model deduplication / compression | [Link](https://www.usenix.org/system/files/nsdi26-wang-zirui.pdf) | — |
-
-## EuroSys 2026 · 32
-
-| Priority | Paper | Venue | Topic | Paper | Code |
-|---|---|---|---|---|---|
-| **Canonical** | **AdaGen: Workload-Adaptive Cluster Scheduler for Latency-Optimal LLM Inference Serving** | EuroSys 2026 | LLM serving / cluster scheduling / SLO / distributed execution | [Link](https://2026.eurosys.org/papers.html) | — |
-| **Canonical** | **AdaServe: Accelerating Multi-SLO LLM Serving with SLO-Customized Speculative Decoding** | EuroSys 2026 | LLM serving / speculative decoding / multi-SLO | [Link](https://doi.org/10.1145/3767295.3769315) | — |
-| **Canonical** | **AIMS: Cost-Efficient LLM-Based Agent Deployment in Hybrid Cloud-Edge Environments** | EuroSys 2026 | agent serving / cloud-edge / cost-efficient LLM deployment | [Link](https://2026.eurosys.org/papers.html) | — |
-| **Canonical** | **Arena: Efficiently Training Large Models via Dynamic Scheduling and Adaptive Parallelism Co-Design** | EuroSys 2026 | distributed large-model training / cluster scheduling / adaptive parallelism | [Link](https://arxiv.org/abs/2403.16125) | — |
-| **Canonical** | **Automated End-to-End Model Serving with Cooperative Compilation and Scheduling** | EuroSys 2026 | model serving / compiler-runtime co-design / scheduling | [Link](https://2026.eurosys.org/papers.html) | — |
-| **Canonical** | **Bridging the GPU Utilization Gap: Predictive Multi-Dimensional Resource Scheduling for AI Workloads** | EuroSys 2026 | GPU cluster scheduling / AI workloads / multidimensional resource utilization | [Link](https://2026.eurosys.org/papers.html) | — |
-| **Canonical** | **Crimson: Collaborative Parameter Updates for Efficient Pipeline Training of Large Language Models** | EuroSys 2026 | LLM distributed training / pipeline parallelism / collaborative parameter updates | [Link](https://doi.org/10.1145/3767295.3803606) | — |
-| **Canonical** | **Efficient Data Passing for Serverless Inference Workflows: A GPU-Centric Approach** | EuroSys 2026 | serverless ML inference / GPU-centric data passing / workflow serving | [Link](https://2026.eurosys.org/papers.html) | — |
-| **Canonical** | **Efficient Multimodal Serving via Module Multiplexing** | EuroSys 2026 | multimodal/MLLM serving / module multiplexing | [Link](https://doi.org/10.1145/3767295.3769389) | — |
-| **Canonical** | **FlashPS: Efficient Generative Image Editing with Mask-aware Caching and Scheduling** | EuroSys 2026 | diffusion serving / image editing / activation caching / continuous batching | [Link](https://arxiv.org/abs/2505.20600) | — |
-| **Canonical** | **FlexiQ: Adaptive Mixed-Precision Quantization for Latency/Accuracy Trade-Offs in Deep Neural Networks** | EuroSys 2026 | adaptive mixed-precision quantization / runtime accuracy-latency tradeoff / NPU-GPU inference | [Link](https://arxiv.org/abs/2510.02822) | — |
-| **Canonical** | **FlexPipe: Adapting Dynamic LLM Serving Through Inflight Pipeline Refactoring in Fragmented Serverless Clusters** | EuroSys 2026 | LLM serving / serverless / pipeline parallelism | [Link](https://arxiv.org/abs/2510.11938) | — |
-| **Canonical** | **Handling Network Faults in Distributed AI Training: Failover is Now an Option** | EuroSys 2026 | distributed AI training / network fault tolerance / production resilience | [Link](https://2026.eurosys.org/papers.html) | — |
-| **Canonical** | **HARP: Orchestrating Automated Parallel Training on Heterogeneous GPU Clusters** | EuroSys 2026 | distributed training / heterogeneous GPU cluster / automated parallelism | [Link](https://arxiv.org/abs/2509.24859) | — |
-| **Canonical** | **High Throughput and Low Latency LLM Serving via Adaptive KV Caching** | EuroSys 2026 | LLM serving / KV cache / adaptive caching | [Link](https://doi.org/10.1145/3767295.3803570) | — |
-| **Canonical** | **KUNSERVE** | EuroSys 2026 | responsive LLM streaming + memory-overload-aware serving | — | — |
-| **Canonical** | **MegaScale-Data: Scaling DataLoader for Multisource Large Foundation Model Training** | EuroSys 2026 | foundation-model training / distributed dataloader / multisource data pipeline | [Link](https://arxiv.org/abs/2504.09844) | — |
-| **Canonical** | **MegaScale-MoE: Large-Scale Communication-Efficient Training of Mixture-of-Experts Models in Production** | EuroSys 2026 | MoE training systems / communication optimization | [Link](https://arxiv.org/abs/2505.11432) | — |
-| **Canonical** | **MegaScale-Omni: A Hyper-Scale, Workload-Resilient System for MultiModal LLM Training in Production** | EuroSys 2026 | multimodal LLM training / production distributed systems / elastic workload management | [Link](https://arxiv.org/abs/2605.08962) | — |
-| **Canonical** | **MFS: An Efficient Model Family Serving System for LLMs** | EuroSys 2026 | LLM model-family serving / multi-tier batching / cross-model KV sharing | [Link](https://doi.org/10.1145/3767295.3769355) | — |
-| **Canonical** | **PARD: Enhancing Goodput for Inference Pipeline via Proactive Request Dropping** | EuroSys 2026 | inference pipeline serving / goodput / SLO-aware request dropping | [Link](https://arxiv.org/abs/2602.08747) | — |
-| **Canonical** | **PiLLM: Resource-Efficient LLM Inference Using Workload Prediction** | EuroSys 2026 | LLM inference / workload prediction / resource efficiency | [Link](https://arxiv.org/abs/2601.18733) | — |
-| **Canonical** | **Reducing the GPU Memory Bottleneck with Lossless Compression for ML** | EuroSys 2026 | GPU memory / tensor compression / ML systems | [Link](https://arxiv.org/abs/2605.30728) | — |
-| **Canonical** | **SAS: Sparse Attention Synthesizer for Efficient Language Model Inference** | EuroSys 2026 | efficient attention / kernel synthesis / KV cache | [Link](https://arxiv.org/abs/2602.09051) | — |
-| **Canonical** | **Scaling LLM Test-Time Compute with Mobile NPU on Smartphones** | EuroSys 2026 | on-device LLM reasoning / mobile NPU / hardware-aware quantization | [Link](https://arxiv.org/abs/2509.23324) | — |
-| **Canonical** | **SkyWalker: A Locality-Aware Cross-Region Load Balancer for LLM Inference** | EuroSys 2026 | LLM serving / cross-region load balancing / cloud | [Link](https://arxiv.org/abs/2505.24095) | — |
-| **Canonical** | **SwiftFL: Enabling Speculative Training for On-Device Federated Deep Learning** | EuroSys 2026 | on-device federated learning / speculative training / edge AI systems | [Link](https://doi.org/10.1145/3767295.3803605) | — |
-| **Canonical** | **TailorLLM: Collaborative End-Cloud Inference of Large and Small Language Models Based on Low-Rank Adaptation** | EuroSys 2026 | edge/cloud LLM inference / collaborative serving / LoRA | [Link](https://doi.org/10.1145/3767295.3769346) | — |
-| **Canonical** | **Taming Latency-Memory Trade-Off in MoE-Based LLM Serving via Fine-Grained Expert Offloading** | EuroSys 2026 | MoE serving / expert offloading / prefetching / cache management | [Link](https://arxiv.org/abs/2502.05370) | — |
-| **Canonical** | **TokenFlow** | EuroSys 2026 | responsive LLM streaming + memory-overload-aware serving | — | — |
-| **Canonical** | **viNPU: Optimizing Vision Transformer Inference on Mobile NPUs** | EuroSys 2026 | edge AI / mobile NPU / Vision Transformer inference optimization | [Link](https://2026.eurosys.org/papers.html) | — |
-| **Canonical** | **Zeppelin: Balancing Variable-length Workloads in Data Parallel Large Model Training** | EuroSys 2026 | distributed LLM training / variable-length balancing / communication optimization | [Link](https://arxiv.org/abs/2509.21841) | — |
 
 ## HPCA 2026 · 31
 
@@ -1599,6 +1600,13 @@
 | **Canonical** | **Modular GPU Programming with Typed Perspectives** | PLDI 2026 | GPU kernel DSL / compiler / Tensor Core programming | [Link](https://arxiv.org/abs/2511.11939) | — |
 | **Canonical** | **Neptune: Advanced ML Operator Fusion for Locality and Parallelism on GPUs** | PLDI 2026 | ML compiler / attention operator fusion | [Link](https://arxiv.org/abs/2510.08726) | [Repo](https://github.com/uiuc-arc/neptune) |
 
+## CGO 2026 · 2
+
+| Priority | Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|---|
+| **Canonical** | **Enabling Spill-Free Compilation via Affine-Based Live Range Reduction Optimization** | CGO 2026 | AI accelerator compiler; dataflow accelerator; register pressure; spill-free compilation; heterogeneous AI systems | [Link](https://2026.cgo.org/details/cgo-2026-papers/2/Enabling-Spill-Free-Compilation-via-Affine-Based-Live-Range-Reduction-Optimization) | — |
+| **Canonical** | **Hexcute: A Compiler Framework for Automating Layout Synthesis in GPU Programs** | CGO 2026 | GPU kernel/DSL/compilers / mixed-precision operators / layout synthesis / vLLM | [Link](https://arxiv.org/abs/2504.16214) | — |
+
 ## CoRR 2025 · 2
 
 | Priority | Paper | Venue | Topic | Paper | Code |
@@ -1641,12 +1649,6 @@
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **Canonical** | **SeDeM: Selective Decompression of Hidden-State Memories for Long-Context Question Answering** | arXiv 2026 / EMNLP 2026 main reported by author route | KV cache/long-context / context compression / efficient inference | [Link](https://arxiv.org/abs/2608.00311) | — |
-
-## CGO 2026 · 1
-
-| Priority | Paper | Venue | Topic | Paper | Code |
-|---|---|---|---|---|---|
-| **Canonical** | **Enabling Spill-Free Compilation via Affine-Based Live Range Reduction Optimization** | CGO 2026 | AI accelerator compiler; dataflow accelerator; register pressure; spill-free compilation; heterogeneous AI systems | [Link](https://2026.cgo.org/details/cgo-2026-papers/2/Enabling-Spill-Free-Compilation-via-Affine-Based-Live-Range-Reduction-Optimization) | — |
 
 ## COLM 2026 · 1
 

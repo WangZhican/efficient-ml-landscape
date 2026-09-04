@@ -1,10 +1,10 @@
 # 🧭 Research Map
 
-> **1507 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
+> **1509 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
 
 <div align="center">
 
-[**🆕 Latest 30 Days · 378 tracked**](LATEST_30D.md) · [**🏛️ Classical · 1381**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
+[**🆕 Latest 30 Days · 378 tracked**](LATEST_30D.md) · [**🏛️ Classical · 1383**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
 
 </div>
 
@@ -12,15 +12,15 @@
 
 | # | Research direction | Canonical | Latest 30d tracked |
 |---:|---|---:|---:|
-| 01 | [**LLM Serving**](01-llm-serving.md) | **639** | **258** |
+| 01 | [**LLM Serving**](01-llm-serving.md) | **640** | **258** |
 | 02 | [**Speculative Decoding**](02-speculative-decoding.md) | **188** | **32** |
 | 03 | [**KV Cache / Long Context**](03-kv-cache-long-context.md) | **380** | **78** |
 | 04 | [**Quantization**](04-quantization.md) | **212** | **61** |
 | 05 | [**Sparsity / Pruning**](05-sparsity-pruning.md) | **237** | **69** |
 | 06 | [**Efficient Attention**](06-efficient-attention.md) | **224** | **61** |
-| 07 | [**MoE Systems / Accelerators**](07-moe-systems.md) | **118** | **38** |
-| 08 | [**GPU Kernel / DSL / Compiler**](08-gpu-kernel-compiler.md) | **376** | **83** |
-| 09 | [**Distributed Training / Inference**](09-distributed-training-inference.md) | **292** | **46** |
+| 07 | [**MoE Systems / Accelerators**](07-moe-systems.md) | **119** | **38** |
+| 08 | [**GPU Kernel / DSL / Compiler**](08-gpu-kernel-compiler.md) | **378** | **83** |
+| 09 | [**Distributed Training / Inference**](09-distributed-training-inference.md) | **293** | **46** |
 | 10 | [**Multimodal / MLLM Serving**](10-multimodal-mllm-serving.md) | **186** | **65** |
 | 11 | [**Video / Image Generation**](11-video-image-generation.md) | **70** | **24** |
 | 12 | [**Diffusion / Flow Acceleration**](12-diffusion-flow.md) | **187** | **39** |
