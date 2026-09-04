@@ -2400,6 +2400,28 @@
     ]
   },
   {
+    "title": "Foundry: Template-Based CUDA Graph Context Materialization for Fast LLM Serving Cold Start",
+    "venue": "arXiv 2026",
+    "topic": "LLM serving / CUDA graph / cold-start / autoscaling",
+    "arxiv": "2604.06664",
+    "doi": "",
+    "official_id": "arXiv:2604.06664",
+    "paper_url": "https://arxiv.org/abs/2604.06664",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Template-based CUDA graph topology+execution-context materialization for dynamic LLM serving. Across dense and MoE models up to 235B, reports up to 99% cold-start reduction; Qwen3-235B-A22B initialization drops from about 10 minutes to 3.9 seconds while retaining CUDA-graph throughput.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "MoE Systems / Accelerators",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "Grid Games: The Power of Multiple Grids for Quantizing Large Language Models",
     "venue": "arXiv 2026",
     "topic": "LLM quantization; microscaled FP4; adaptive grids; hardware data formats",
@@ -3599,6 +3621,28 @@
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context"
+    ]
+  },
+  {
+    "title": "EfficientRollout: System-Aware Self-Speculative Decoding for RL Rollouts",
+    "venue": "arXiv 2026 / ICML 2026 AdaptFM Workshop",
+    "topic": "efficient reasoning / RL rollout systems / speculative decoding",
+    "arxiv": "2606.18967",
+    "doi": "",
+    "official_id": "arXiv:2606.18967",
+    "paper_url": "https://arxiv.org/abs/2606.18967",
+    "code_url": "https://github.com/furiosa-ai/EfficientRollout",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "System-aware self-speculative decoding for RL rollout generation using a quantized self-drafter, roofline-aware speculation toggling, and acceptance-aware draft-length adaptation; reports up to 19.6% rollout-latency and 12.7% end-to-end latency reduction over an accelerated AR rollout baseline while preserving final quality.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Speculative Decoding",
+      "Quantization",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
