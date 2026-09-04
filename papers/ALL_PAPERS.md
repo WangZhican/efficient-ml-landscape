@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **1488 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **351 visible papers = 100 P0 + 131 P1 + 120 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1489 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **351 visible papers = 100 P0 + 131 P1 + 120 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -374,7 +374,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 1388
+## 🏛️ Classical / Historical · 1389
 
 ### ICML 2026 · 376
 
@@ -2026,6 +2026,12 @@
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **Canonical** | **Enabling Spill-Free Compilation via Affine-Based Live Range Reduction Optimization** | CGO 2026 | AI accelerator compiler; dataflow accelerator; register pressure; spill-free compilation; heterogeneous AI systems | [Link](https://2026.cgo.org/details/cgo-2026-papers/2/Enabling-Spill-Free-Compilation-via-Affine-Based-Live-Range-Reduction-Optimization) | — |
+
+### COLM 2026 · 1
+
+| Priority | Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|---|
+| **Canonical** | **SonicSampler: Unified Tile-Aware Kernels for LLM Sampling and Speculative Verification** | COLM 2026 | LLM serving / speculative decoding / GPU kernels / sampling | [Link](https://arxiv.org/abs/2607.20475) | — |
 
 ### CoRL 2026 Spotlight / RSS 2026 L2P Workshop · 1
 

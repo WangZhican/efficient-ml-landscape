@@ -4522,6 +4522,29 @@
     ]
   },
   {
+    "title": "SonicSampler: Unified Tile-Aware Kernels for LLM Sampling and Speculative Verification",
+    "venue": "COLM 2026",
+    "topic": "LLM serving / speculative decoding / GPU kernels / sampling",
+    "arxiv": "2607.20475",
+    "doi": "",
+    "official_id": "2607.20475",
+    "paper_url": "https://arxiv.org/abs/2607.20475",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "True major-group recall miss from Tri Dao/Together AI lineage. Vertically fuses heterogeneous LLM sampling and speculative verification into CUDA-Graph-compatible tile-aware Triton kernels; reports up to 10x top-k speedup and up to 16x sampling-pipeline speedup, with 15-17% end-to-end speculative-decoding throughput improvement reported by the paper/project evidence.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "ControlVLA: Few-shot Object-centric Adaptation for Pre-trained Vision-Language-Action Models",
     "venue": "CoRL 2025",
     "topic": "Physical AI / parameter-efficient VLA adaptation / few-shot fine-tuning",
