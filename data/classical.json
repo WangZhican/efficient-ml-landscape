@@ -5495,6 +5495,29 @@
     ]
   },
   {
+    "title": "Causality in Video Diffusers is Separable from Denoising",
+    "venue": "CVPR 2026",
+    "topic": "video/image generation acceleration / diffusion-flow acceleration / autoregressive video diffusion",
+    "arxiv": "2602.10095",
+    "doi": "",
+    "official_id": "arXiv:2602.10095",
+    "paper_url": "https://arxiv.org/abs/2602.10095",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Separable Causal Diffusion decouples once-per-frame temporal causal reasoning from iterative frame-wise diffusion rendering, eliminating repeated causal computation across denoising steps while maintaining generation quality; CVPR/arXiv report substantial throughput and per-frame latency gains across pretraining and post-training settings.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "D2Cache: Second-Order Delta Caching for Higher Video Diffusion Acceleration",
     "venue": "CVPR 2026",
     "topic": "video diffusion / second-order caching",
