@@ -1,6 +1,6 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **1383 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **1386 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
@@ -1592,6 +1592,15 @@
 | **Canonical** | **SPECTRA: An Asymmetric-Precision Speculative Decoding LLM Accelerator with Product Quantization and Reconfigurable Flip-Flop Buffers in 28nm CMOS** | VLSI Symposium 2026 | speculative decoding / LLM accelerator | [Link](https://doi.org/10.1109/VLSITechnologyandCir65830.2026.11577608) | — |
 | **Canonical** | **SR-VLNA: A 5.0–23.9 mJ/meter Spatial Reasoning-based Vision Language Navigation Accelerator for Embodied Agents** | VLSI Symposium 2026 | Physical AI / vision-language navigation accelerator | [Link](https://doi.org/10.1109/VLSITechnologyandCir65830.2026.11577427) | — |
 
+## ACL 2026 Findings · 4
+
+| Priority | Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|---|
+| **Canonical** | **LycheeCluster: Efficient Long-Context Inference with Structure-Aware Chunking and Hierarchical KV Indexing** | ACL 2026 Findings | KV cache / long-context efficient inference / hierarchical retrieval | [Link](https://aclanthology.org/2026.findings-acl.376/) | — |
+| **Canonical** | **Mask Tokens as Prophet: Fine-Grained Cache Eviction for Efficient dLLM Inference** | ACL 2026 Findings | KV cache / diffusion language model inference / cache eviction | [Link](https://aclanthology.org/2026.findings-acl.170/) | — |
+| **Canonical** | **RetentiveKV: State-Space Memory for Uncertainty-Aware Multimodal KV Cache Eviction** | ACL 2026 Findings | multimodal KV cache / MLLM inference / state-space memory | [Link](https://aclanthology.org/2026.findings-acl.934/) | — |
+| **Canonical** | **SpecExtend: A Drop-in Enhancement for Speculative Decoding of Long Sequences** | ACL 2026 Findings | speculative decoding / KV cache / long-context efficient inference | [Link](https://arxiv.org/abs/2505.20776) | [Repo](https://github.com/jycha98/SpecExtend) |
+
 ## PLDI 2026 · 3
 
 | Priority | Paper | Venue | Topic | Paper | Code |
@@ -1613,12 +1622,6 @@
 |---|---|---|---|---|---|
 | **Canonical** | **SageAttention2++: A More Efficient Implementation of SageAttention2** | CoRR 2025 | efficient attention / quantization / GPU kernels / FP8 attention | [Link](https://arxiv.org/abs/2505.21136) | [Repo](https://github.com/thu-ml/SageAttention) |
 | **Canonical** | **Seesaw: High-throughput LLM Inference via Model Re-sharding** | CoRR 2025 | LLM serving / distributed inference / dynamic model resharding / KV cache | [Link](https://arxiv.org/abs/2503.06433) | — |
-
-## ACL 2026 Findings · 1
-
-| Priority | Paper | Venue | Topic | Paper | Code |
-|---|---|---|---|---|---|
-| **Canonical** | **SpecExtend: A Drop-in Enhancement for Speculative Decoding of Long Sequences** | ACL 2026 Findings | speculative decoding / KV cache / long-context efficient inference | [Link](https://arxiv.org/abs/2505.20776) | [Repo](https://github.com/jycha98/SpecExtend) |
 
 ## ACM SIGCOMM 2026 · 1
 

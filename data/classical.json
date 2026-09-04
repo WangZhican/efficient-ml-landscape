@@ -1378,6 +1378,69 @@
     ]
   },
   {
+    "title": "LycheeCluster: Efficient Long-Context Inference with Structure-Aware Chunking and Hierarchical KV Indexing",
+    "venue": "ACL 2026 Findings",
+    "topic": "KV cache / long-context efficient inference / hierarchical retrieval",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "10.18653/v1/2026.findings-acl.376",
+    "paper_url": "https://aclanthology.org/2026.findings-acl.376/",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ACL 2026 Findings paper on boundary-aware chunking plus hierarchical KV indexing and lazy streaming updates; reports up to 3.6x end-to-end inference speedup with negligible quality degradation versus full-cache/retrieval baselines.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "Mask Tokens as Prophet: Fine-Grained Cache Eviction for Efficient dLLM Inference",
+    "venue": "ACL 2026 Findings",
+    "topic": "KV cache / diffusion language model inference / cache eviction",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "10.18653/v1/2026.findings-acl.170",
+    "paper_url": "https://aclanthology.org/2026.findings-acl.170/",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ACL 2026 Findings paper on fine-grained KV eviction for diffusion LMs. On LLaDA, 256 KV pairs (<5% of tokens) retain about 94% LongBench performance and report up to 31x acceleration at 32k prompt length.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "RetentiveKV: State-Space Memory for Uncertainty-Aware Multimodal KV Cache Eviction",
+    "venue": "ACL 2026 Findings",
+    "topic": "multimodal KV cache / MLLM inference / state-space memory",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "10.18653/v1/2026.findings-acl.934",
+    "paper_url": "https://aclanthology.org/2026.findings-acl.934/",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ACL 2026 Findings paper using entropy-guided state-space memory to retain information from evicted multimodal KV tokens and reactivate it later; reports 5.0x KV compression and 1.5x decoding acceleration.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
     "title": "SpecExtend: A Drop-in Enhancement for Speculative Decoding of Long Sequences",
     "venue": "ACL 2026 Findings",
     "topic": "speculative decoding / KV cache / long-context efficient inference",
