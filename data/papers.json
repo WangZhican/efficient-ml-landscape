@@ -5385,6 +5385,29 @@
     ]
   },
   {
+    "title": "CRISP: Cliff-awaRe Input-adaptive Sparse Prefilling with Structural-Mass-Motivated Routing",
+    "venue": "CoRR 2026",
+    "topic": "efficient attention / sparse prefilling / long-context LLM inference / routing",
+    "arxiv": "2609.01925",
+    "doi": "",
+    "official_id": "2609.01925",
+    "paper_url": "https://arxiv.org/abs/2609.01925",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Direct long-context inference acceleration. Structural proxy removes JSD routing overhead and sink-aware threshold avoids long-context background-noise accumulation; reports up to 5.30x attention speedup at 512K tokens while matching or exceeding dense attention on retrieval-heavy benchmarks.",
+    "published_at": "2026-09-01T22:49:46Z",
+    "updated_at": "2026-09-01T22:49:46Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Efficient Attention"
+    ]
+  },
+  {
     "title": "DeltaServe: Host-Agnostic Co-Serving of Inference and Fine-Tuning for LLMs",
     "venue": "CoRR 2026",
     "topic": "LLM serving / inference-training co-serving / LoRA / SLO-aware scheduling / GPU utilization",
@@ -5540,6 +5563,27 @@
     ]
   },
   {
+    "title": "Hardware Acceleration of Block-Diffusion LLM for Edge Devices",
+    "venue": "CoRR 2026",
+    "topic": "edge/cloud/heterogeneous AI systems / diffusion LLM / KV compression / hardware acceleration",
+    "arxiv": "2609.01084",
+    "doi": "",
+    "official_id": "2609.01084",
+    "paper_url": "https://arxiv.org/abs/2609.01084",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Direct algorithm-architecture co-design for batch-one edge diffusion-LLM inference. WIFiV-LPDDR, BRQ-KV and DAT-FFN jointly target weight/KV traffic; modeled 1.5B/7B systems report 2.88x/4.44x mean latency speedups and 3.79x/3.96x energy reductions with <1 absolute point benchmark loss.",
+    "published_at": "2026-09-01T11:18:55Z",
+    "updated_at": "2026-09-01T11:18:55Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Diffusion / Flow Acceleration",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Hardware-Aware FP4 FlashAttention-4",
     "venue": "CoRR 2026",
     "topic": "efficient attention / quantization / GPU kernel / Blackwell FP4",
@@ -5678,6 +5722,27 @@
     ]
   },
   {
+    "title": "PCoMoE: Shifting MoE Inference from Monolithic Expert Selection to Fine-Grained Path Composition",
+    "venue": "CoRR 2026",
+    "topic": "MoE systems/accelerators / fine-grained path composition / inference engine",
+    "arxiv": "2609.01024",
+    "doi": "",
+    "official_id": "2609.01024",
+    "paper_url": "https://arxiv.org/abs/2609.01024",
+    "code_url": "https://github.com/gzyyy0/PCoMoE",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Direct MoE inference execution work. Replaces whole-expert execution with path-level composition, compatibility-aware pruning, and a hardware-friendly engine; reports up to 1.31x end-to-end inference speedup while improving model accuracy by 10%.",
+    "published_at": "2026-09-01T10:21:10Z",
+    "updated_at": "2026-09-01T10:21:10Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Sparsity / Pruning",
+      "MoE Systems / Accelerators"
+    ]
+  },
+  {
     "title": "Pro-Router: Token-Aware Progressive Model Routing with Adaptive Edge-Cloud Collaboration for Efficient Multimodal LLM Inference",
     "venue": "CoRR 2026",
     "topic": "multimodal/MLLM serving / edge-cloud routing / adaptive inference",
@@ -5763,6 +5828,48 @@
       "LLM Serving",
       "Speculative Decoding",
       "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "Scaling Inference Prefill with High-Radix Photonic Interconnects",
+    "venue": "CoRR 2026",
+    "topic": "distributed inference / LLM prefill / photonic interconnect / scale-up systems",
+    "arxiv": "2609.01821",
+    "doi": "",
+    "official_id": "2609.01821",
+    "paper_url": "https://arxiv.org/abs/2609.01821",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Direct AI-infrastructure scaling study for MoE inference prefill. Evaluates 1K-1M context regimes and reports 2.1x-3.2x latency improvements in stressed high-batch regimes, 2.8x-5.8x in communication-limited configurations, and 2.2x-4.5x speedups when electrical systems hit scale-up-pod limits.",
+    "published_at": "2026-09-01T19:54:04Z",
+    "updated_at": "2026-09-01T19:54:04Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "MoE Systems / Accelerators",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "SelfLift: Accelerating Few-Step Diffusion via Self-Recovering Resolution Transition",
+    "venue": "CoRR 2026",
+    "topic": "diffusion/flow acceleration / progressive resolution / few-step generation",
+    "arxiv": "2609.02036",
+    "doi": "",
+    "official_id": "2609.02036",
+    "paper_url": "https://arxiv.org/abs/2609.02036",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Direct diffusion inference acceleration. Self-recovering progressive-resolution transition reduces end-to-end latency by 41.5% on FLUX.2-Klein and 44.1% on Z-Image-Turbo; combined with timestep distillation reports 29.61x/19.21x speedups over corresponding 50-step models while preserving competitive quality.",
+    "published_at": "2026-09-02T03:07:42Z",
+    "updated_at": "2026-09-02T03:07:42Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
