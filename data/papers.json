@@ -3151,6 +3151,27 @@
     ]
   },
   {
+    "title": "Rethinking Network Topologies for Cost-Effective Mixture-of-Experts LLM Serving",
+    "venue": "arXiv 2026",
+    "topic": "MoE systems / LLM serving / interconnect topology / cost efficiency",
+    "arxiv": "2605.00254",
+    "doi": "",
+    "official_id": "arXiv:2605.00254",
+    "paper_url": "https://arxiv.org/abs/2605.00254",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Cross-layer study of XPU network topology for MoE LLM serving. Compares scale-up, scale-out, 3D torus and 3D full-mesh and reports 20.6-56.2% higher cost-effectiveness for lower-cost switchless topologies across studied scenarios, with up to 27% throughput-per-cost improvement from reducing over-provisioned link bandwidth.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "MoE Systems / Accelerators"
+    ]
+  },
+  {
     "title": "Revati: Transparent GPU-Free Time-Warp Emulation for LLM Serving",
     "venue": "arXiv 2026",
     "topic": "LLM serving; systems emulation; performance modeling; vLLM; SGLang; infrastructure optimization",
