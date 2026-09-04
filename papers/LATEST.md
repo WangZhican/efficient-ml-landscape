@@ -1,6 +1,6 @@
 # 🆕 Latest 30 Days
 
-> Rolling 30-day view ending **2026-09-04**: **346 tracked papers = 96 P0 + 130 P1 + 120 P2**. Topical relevance determines visibility; quality determines priority. The classical census remains stricter.
+> Rolling 30-day view ending **2026-09-04**: **347 tracked papers = 97 P0 + 130 P1 + 120 P2**. Topical relevance determines visibility; quality determines priority. The classical census remains stricter.
 
 [← Paper Library](ALL_PAPERS.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/latest_30d.json) · [CSV](../data/latest_30d.csv)
 
@@ -43,6 +43,7 @@
 | **P0 · Strong** | **Memory-Efficient Training-Free Acceleration of Diffusion Transformers with BaryCache** | Fresh / preprint | diffusion/flow acceleration / cache | [Link](https://arxiv.org/abs/2608.28670) | — |
 | **P0 · Strong** | **ChebBooster: A Training-Free Approach for Efficient Diffusion Transformer Inference via Chebyshev-Inspired Extrapolation** | Fresh / preprint | diffusion/flow acceleration / training-free DiT extrapolation / cache-style compute skipping | [Link](https://arxiv.org/abs/2608.23429) | — |
 | **P0 · Strong** | **ExFold: Unified Expert Folding for Training-Free MoE Prefill-Decode Acceleration** | Fresh / preprint | MoE systems / LLM serving / CUDA kernel | [Link](https://arxiv.org/abs/2608.24938) | — |
+| **P0 · Strong** | **NOVA: Technology-Architecture Co-Design of Near-Memory Processing for Attention-SSM-MoE Hybrid LLM Inference** | MICRO 2026 | LLM inference / MoE / SSM / near-memory processing / architecture co-design | [Link](https://arxiv.org/abs/2608.22613) | — |
 | **P0 · Strong** | **Just Noticeable Difference Modeling for Token Compression in Vision-Language-Action Models** | Fresh / preprint | Physical AI / VLA token compression / KV reuse / pruning | [Link](https://arxiv.org/abs/2608.21247) | — |
 | **P0 · Strong** | **SPICE: Speculative Prefetching with Low-Rank Expert Surrogates and Heterogeneous Orchestration for MoE Inference Acceleration** | Fresh / preprint | MoE systems / expert offload / heterogeneous inference | [Link](https://arxiv.org/abs/2608.21240) | — |
 | **P0 · Strong** | **FlashPrefill V2: Block-Sparse Prefill Attention for Long-Context LLM Serving** | Fresh / preprint | long-context LLM serving / block-sparse prefill attention / GPU kernel | [Link](https://arxiv.org/abs/2608.19758) | — |

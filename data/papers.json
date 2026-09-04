@@ -23019,6 +23019,27 @@
     ]
   },
   {
+    "title": "NOVA: Technology-Architecture Co-Design of Near-Memory Processing for Attention-SSM-MoE Hybrid LLM Inference",
+    "venue": "MICRO 2026",
+    "topic": "LLM inference / MoE / SSM / near-memory processing / architecture co-design",
+    "arxiv": "2608.22613",
+    "doi": "",
+    "official_id": "arXiv:2608.22613",
+    "paper_url": "https://arxiv.org/abs/2608.22613",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Accepted to MICRO 2026. Technology-architecture co-design for hybrid Attention-SSM-MoE inference; primary paper reports 4.5x higher throughput, 69.8% lower end-to-end latency and 5x energy efficiency vs GPU baseline with 3.9% area overhead.",
+    "published_at": "2026-08-23T21:38:46Z",
+    "updated_at": "2026-08-23T21:38:46Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Efficient Attention",
+      "MoE Systems / Accelerators"
+    ]
+  },
+  {
     "title": "AgenticCache: Cache-Driven Asynchronous Planning for Embodied AI Agents",
     "venue": "MLSys 2026",
     "topic": "Physical AI / embodied-agent planning cache / latency reduction",

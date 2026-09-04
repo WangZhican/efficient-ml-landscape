@@ -1,10 +1,10 @@
 # 07 · MoE Systems / Accelerators
 
-> **115 canonical papers** mapped here, plus a broader **35-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **116 canonical papers** mapped here, plus a broader **36-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 35 tracked
+## 🆕 Latest 30 Days · 36 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -13,6 +13,7 @@
 | **P1 · Watch** | **Launch-Bound and Substitutable: Why Three Inference Optimizations Fail to Pay Off in Mixture-of-Experts Models** | Fresh / preprint | MoE systems / inference optimization analysis | [Link](https://arxiv.org/abs/2608.26612) | — |
 | **P1 · Watch** | **Pipeline-Native Transformers: Co-Designing Model Architecture and CPU Inference for Bandwidth-Efficient Autoregressive Decode** | Fresh / preprint | LLM serving / CPU inference / architecture-runtime co-design / MoE | [Link](https://arxiv.org/abs/2608.23841) | — |
 | **P0 · Strong** | **ExFold: Unified Expert Folding for Training-Free MoE Prefill-Decode Acceleration** | Fresh / preprint | MoE systems / LLM serving / CUDA kernel | [Link](https://arxiv.org/abs/2608.24938) | — |
+| **P0 · Strong** | **NOVA: Technology-Architecture Co-Design of Near-Memory Processing for Attention-SSM-MoE Hybrid LLM Inference** | MICRO 2026 | LLM inference / MoE / SSM / near-memory processing / architecture co-design | [Link](https://arxiv.org/abs/2608.22613) | — |
 | **P1 · Watch** | **NOVA: Technology-Architecture Co-Design of Near-Memory Processing for Attention-SSM-MoE Hybrid LLM Inference** | Fresh / preprint | hybrid LLM inference / near-memory processing / Attention-SSM-MoE architecture | [Link](https://arxiv.org/abs/2608.22613) | — |
 | **P1 · Watch** | **Benchmarking Composable Compression Techniques in Mixture-of-Experts LLMs** | Fresh / preprint | MoE compression benchmark / expert pruning / quantization / KV cache / deployment efficiency | [Link](https://arxiv.org/abs/2608.21693) | — |
 | **P1 · Watch** | **SAEM: Stage-Aware Expert Management for Memory-Efficient MoE Inference in Chain-of-Thought Reasoning** | Fresh / preprint | MoE serving / expert caching-offload / CoT reasoning / memory efficiency | [Link](https://arxiv.org/abs/2608.21614) | — |

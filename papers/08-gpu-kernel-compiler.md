@@ -1,10 +1,10 @@
 # 08 · GPU Kernel / DSL / Compiler
 
-> **363 canonical papers** mapped here, plus a broader **75-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **364 canonical papers** mapped here, plus a broader **76-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 75 tracked
+## 🆕 Latest 30 Days · 76 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -18,6 +18,7 @@
 | **P1 · Watch** | **ProxyFormer: A Dual-Stream Proxy Architecture for Ultra-Long Context and High-Resolution Generation** | Fresh / preprint | long context / KV-cache reduction / high-resolution generation | [Link](https://arxiv.org/abs/2608.23463) | — |
 | **P1 · Watch** | **E2S-Pruner: Progressive Two-Stage Evidence Fusion for Visual Token Pruning in Vision-Language Models** | Fresh / preprint | visual token pruning / MLLM inference / throughput acceleration | [Link](https://arxiv.org/abs/2608.23253) | — |
 | **P0 · Strong** | **ExFold: Unified Expert Folding for Training-Free MoE Prefill-Decode Acceleration** | Fresh / preprint | MoE systems / LLM serving / CUDA kernel | [Link](https://arxiv.org/abs/2608.24938) | — |
+| **P0 · Strong** | **NOVA: Technology-Architecture Co-Design of Near-Memory Processing for Attention-SSM-MoE Hybrid LLM Inference** | MICRO 2026 | LLM inference / MoE / SSM / near-memory processing / architecture co-design | [Link](https://arxiv.org/abs/2608.22613) | — |
 | **P1 · Watch** | **Architecting the Next Generation of Asynchronous, Distributed GPUs for the AI Era** | Fresh / preprint | GPU architecture / distributed accelerators / simulation | [Link](https://arxiv.org/abs/2608.22602) | — |
 | **P1 · Watch** | **LLM4LLM: Bridging Kernel Benchmarks and Real Deployment via Closed-Loop Agentic Optimization** | Fresh / preprint | GPU kernel optimization / deployment-aware agentic optimization / LLM inference | [Link](https://arxiv.org/abs/2608.21836) | — |
 | **P0 · Strong** | **SPICE: Speculative Prefetching with Low-Rank Expert Surrogates and Heterogeneous Orchestration for MoE Inference Acceleration** | Fresh / preprint | MoE systems / expert offload / heterogeneous inference | [Link](https://arxiv.org/abs/2608.21240) | — |

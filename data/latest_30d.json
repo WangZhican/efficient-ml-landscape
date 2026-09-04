@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-04",
   "window_start_beijing": "2026-08-05",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 346,
+  "tracked_total": 347,
   "p0_strong_or_canonical": [
     {
       "title": "UE5M3 FP4 Block Scaling for Stable Language Model Pretraining",
@@ -770,6 +770,27 @@
         "LLM Serving",
         "MoE Systems / Accelerators",
         "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "NOVA: Technology-Architecture Co-Design of Near-Memory Processing for Attention-SSM-MoE Hybrid LLM Inference",
+      "venue": "MICRO 2026",
+      "topic": "LLM inference / MoE / SSM / near-memory processing / architecture co-design",
+      "arxiv": "2608.22613",
+      "doi": "",
+      "official_id": "arXiv:2608.22613",
+      "paper_url": "https://arxiv.org/abs/2608.22613",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Accepted to MICRO 2026. Technology-architecture co-design for hybrid Attention-SSM-MoE inference; primary paper reports 4.5x higher throughput, 69.8% lower end-to-end latency and 5x energy efficiency vs GPU baseline with 3.9% area overhead.",
+      "published_at": "2026-08-23T21:38:46Z",
+      "updated_at": "2026-08-23T21:38:46Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Efficient Attention",
+        "MoE Systems / Accelerators"
       ]
     },
     {
@@ -8302,6 +8323,27 @@
         "LLM Serving",
         "MoE Systems / Accelerators",
         "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "NOVA: Technology-Architecture Co-Design of Near-Memory Processing for Attention-SSM-MoE Hybrid LLM Inference",
+      "venue": "MICRO 2026",
+      "topic": "LLM inference / MoE / SSM / near-memory processing / architecture co-design",
+      "arxiv": "2608.22613",
+      "doi": "",
+      "official_id": "arXiv:2608.22613",
+      "paper_url": "https://arxiv.org/abs/2608.22613",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Accepted to MICRO 2026. Technology-architecture co-design for hybrid Attention-SSM-MoE inference; primary paper reports 4.5x higher throughput, 69.8% lower end-to-end latency and 5x energy efficiency vs GPU baseline with 3.9% area overhead.",
+      "published_at": "2026-08-23T21:38:46Z",
+      "updated_at": "2026-08-23T21:38:46Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Efficient Attention",
+        "MoE Systems / Accelerators"
       ]
     },
     {

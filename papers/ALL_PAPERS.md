@@ -1,10 +1,10 @@
 # 📚 Paper Library
 
-> **1467 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **346 visible papers = 96 P0 + 130 P1 + 120 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1468 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **347 visible papers = 97 P0 + 130 P1 + 120 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
-## 🆕 P0 · Strong / Canonical recent · 96
+## 🆕 P0 · Strong / Canonical recent · 97
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -43,6 +43,7 @@
 | **P0 · Strong** | **Memory-Efficient Training-Free Acceleration of Diffusion Transformers with BaryCache** | Fresh / preprint | diffusion/flow acceleration / cache | [Link](https://arxiv.org/abs/2608.28670) | — |
 | **P0 · Strong** | **ChebBooster: A Training-Free Approach for Efficient Diffusion Transformer Inference via Chebyshev-Inspired Extrapolation** | Fresh / preprint | diffusion/flow acceleration / training-free DiT extrapolation / cache-style compute skipping | [Link](https://arxiv.org/abs/2608.23429) | — |
 | **P0 · Strong** | **ExFold: Unified Expert Folding for Training-Free MoE Prefill-Decode Acceleration** | Fresh / preprint | MoE systems / LLM serving / CUDA kernel | [Link](https://arxiv.org/abs/2608.24938) | — |
+| **P0 · Strong** | **NOVA: Technology-Architecture Co-Design of Near-Memory Processing for Attention-SSM-MoE Hybrid LLM Inference** | MICRO 2026 | LLM inference / MoE / SSM / near-memory processing / architecture co-design | [Link](https://arxiv.org/abs/2608.22613) | — |
 | **P0 · Strong** | **Just Noticeable Difference Modeling for Token Compression in Vision-Language-Action Models** | Fresh / preprint | Physical AI / VLA token compression / KV reuse / pruning | [Link](https://arxiv.org/abs/2608.21247) | — |
 | **P0 · Strong** | **SPICE: Speculative Prefetching with Low-Rank Expert Surrogates and Heterogeneous Orchestration for MoE Inference Acceleration** | Fresh / preprint | MoE systems / expert offload / heterogeneous inference | [Link](https://arxiv.org/abs/2608.21240) | — |
 | **P0 · Strong** | **FlashPrefill V2: Block-Sparse Prefill Attention for Long-Context LLM Serving** | Fresh / preprint | long-context LLM serving / block-sparse prefill attention / GPU kernel | [Link](https://arxiv.org/abs/2608.19758) | — |

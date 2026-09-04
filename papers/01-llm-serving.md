@@ -1,10 +1,10 @@
 # 01 · LLM Serving
 
-> **612 canonical papers** mapped here, plus a broader **239-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **613 canonical papers** mapped here, plus a broader **240-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 239 tracked
+## 🆕 Latest 30 Days · 240 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -61,6 +61,7 @@
 | **P1 · Watch** | **TEE-X: TEE-aware Acceleration Framework for Large Vision Models at the Edge** | Fresh / preprint | edge vision inference / TEE-aware acceleration / secure deployment | [Link](https://arxiv.org/abs/2608.22716) | — |
 | **P1 · Watch** | **CacheRouter: A Dual-Path Tool Routing Architecture with Cache-Preserving Main-Model Isolation for Long-Tail Tool Discovery** | Fresh / preprint | agent serving / prefix cache / tool routing | [Link](https://arxiv.org/abs/2608.22708) | — |
 | **P1 · Watch** | **NeuroPrefetcher: Storage-Aware Sparse LLM Inference via Delta Prefetching** | Fresh / preprint | edge LLM serving / storage-backed sparse inference / predictive delta prefetching | [Link](https://arxiv.org/abs/2608.22643) | — |
+| **P0 · Strong** | **NOVA: Technology-Architecture Co-Design of Near-Memory Processing for Attention-SSM-MoE Hybrid LLM Inference** | MICRO 2026 | LLM inference / MoE / SSM / near-memory processing / architecture co-design | [Link](https://arxiv.org/abs/2608.22613) | — |
 | **P1 · Watch** | **NOVA: Technology-Architecture Co-Design of Near-Memory Processing for Attention-SSM-MoE Hybrid LLM Inference** | Fresh / preprint | hybrid LLM inference / near-memory processing / Attention-SSM-MoE architecture | [Link](https://arxiv.org/abs/2608.22613) | — |
 | **P1 · Watch** | **Beyond Dense Adam States: Adaptive Log-Space Quantization for Memory-Efficient Optimizers** | Fresh / preprint | memory-efficient training / optimizer-state quantization / low-precision optimizer | [Link](https://arxiv.org/abs/2608.22322) | — |
 | **P1 · Watch** | **CST: Collaborative Selective Transmission for Communication-Efficient Multimodal Edge Inference** | Fresh / preprint | multimodal edge inference / selective transmission / communication efficiency | [Link](https://arxiv.org/abs/2608.22115) | — |
