@@ -1,6 +1,6 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **1396 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **1397 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
@@ -1528,6 +1528,18 @@
 | **Canonical** | **SwiftCache: Efficient LLM Serving for Multi-turn Conversations with Heterogeneous KV Cache Sharing** | Fresh / preprint | LLM serving / KV cache / multi-turn agents / NVLink memory sharing | [Link](https://arxiv.org/abs/2606.16135) | — |
 | **Canonical** | **TreeGraft: Adaptive Multi-Drafter Grafting for Tree-Based Speculative Decoding** | Fresh / preprint | speculative decoding / LLM inference | [Link](https://arxiv.org/abs/2608.26112) | — |
 
+## RSS 2025 · 7
+
+| Priority | Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|---|
+| **Canonical** | **CLIP-RT: Learning Language-Conditioned Robotic Policies from Natural Language Supervision** | RSS 2025 | Physical AI / lightweight VLA / high-throughput robot inference | [Link](https://arxiv.org/abs/2411.00508) | [Repo](https://github.com/clip-rt/clip-rt) |
+| **Canonical** | **FAST: Efficient Action Tokenization for Vision-Language-Action Models** | RSS 2025 | Physical AI / VLA action tokenization / efficient training and inference | [Link](https://arxiv.org/abs/2501.09747) | — |
+| **Canonical** | **Fine-Tuning Vision-Language-Action Models: Optimizing Speed and Success** | RSS 2025 | Physical AI / VLA efficient fine-tuning / parallel action decoding | [Link](https://arxiv.org/abs/2502.19645) | [Repo](https://github.com/moojink/openvla-oft) |
+| **Canonical** | **IMLE Policy: Fast and Sample Efficient Visuomotor Policy Learning via Implicit Maximum Likelihood Estimation** | RSS 2025 | VLA/WAM/Physical AI serving / robot policy inference / diffusion-policy acceleration | [Link](https://arxiv.org/abs/2502.12371) | [Repo](https://github.com/krishanrana/imle_policy) |
+| **Canonical** | **Learning to Act Anywhere with Task-centric Latent Actions** | RSS 2025 | Physical AI / VLA efficient pretraining / latent action decoding | [Link](https://arxiv.org/abs/2505.06111) | [Repo](https://github.com/OpenDriveLab/UniVLA) |
+| **Canonical** | **Uni-NaVid: A Video-based Vision-Language-Action Model for Unifying Embodied Navigation Tasks** | RSS 2025 | Physical AI / VLA navigation / online visual-token merging | [Link](https://arxiv.org/abs/2412.06224) | [Repo](https://github.com/jzhzhang/Uni-NaVid) |
+| **Canonical** | **Unified Video Action Model** | RSS 2025 | Physical AI / efficient world-action model inference | [Link](https://doi.org/10.15607/RSS.2025.XXI.074) | — |
+
 ## CoRL 2025 · 6
 
 | Priority | Paper | Venue | Topic | Paper | Code |
@@ -1571,17 +1583,6 @@
 | **Canonical** | **PD-VLA: Accelerating Vision-Language-Action Model Integrated with Action Chunking via Parallel Decoding** | IROS 2025 | VLA / Physical AI serving / action decoding acceleration | [Link](https://arxiv.org/abs/2503.02310) | — |
 | **Canonical** | **Real-Time Iteration Scheme for Diffusion Policy** | IROS 2025 | Physical AI / diffusion-policy inference acceleration / training-free temporal reuse | [Link](https://arxiv.org/abs/2508.05396) | [Repo](https://github.com/RTI-DP/rti-dp) |
 | **Canonical** | **Task-Oriented Token Pruning for Efficient Object Detection and Segmentation** | IROS 2025 | robot perception / task-aware token pruning / Physical AI | [Link](https://doi.org/10.1109/IROS60139.2025.11246298) | — |
-
-## RSS 2025 · 6
-
-| Priority | Paper | Venue | Topic | Paper | Code |
-|---|---|---|---|---|---|
-| **Canonical** | **CLIP-RT: Learning Language-Conditioned Robotic Policies from Natural Language Supervision** | RSS 2025 | Physical AI / lightweight VLA / high-throughput robot inference | [Link](https://arxiv.org/abs/2411.00508) | [Repo](https://github.com/clip-rt/clip-rt) |
-| **Canonical** | **FAST: Efficient Action Tokenization for Vision-Language-Action Models** | RSS 2025 | Physical AI / VLA action tokenization / efficient training and inference | [Link](https://arxiv.org/abs/2501.09747) | — |
-| **Canonical** | **Fine-Tuning Vision-Language-Action Models: Optimizing Speed and Success** | RSS 2025 | Physical AI / VLA efficient fine-tuning / parallel action decoding | [Link](https://arxiv.org/abs/2502.19645) | [Repo](https://github.com/moojink/openvla-oft) |
-| **Canonical** | **Learning to Act Anywhere with Task-centric Latent Actions** | RSS 2025 | Physical AI / VLA efficient pretraining / latent action decoding | [Link](https://arxiv.org/abs/2505.06111) | [Repo](https://github.com/OpenDriveLab/UniVLA) |
-| **Canonical** | **Uni-NaVid: A Video-based Vision-Language-Action Model for Unifying Embodied Navigation Tasks** | RSS 2025 | Physical AI / VLA navigation / online visual-token merging | [Link](https://arxiv.org/abs/2412.06224) | [Repo](https://github.com/jzhzhang/Uni-NaVid) |
-| **Canonical** | **Unified Video Action Model** | RSS 2025 | Physical AI / efficient world-action model inference | [Link](https://doi.org/10.15607/RSS.2025.XXI.074) | — |
 
 ## Fresh / preprint · 5
 

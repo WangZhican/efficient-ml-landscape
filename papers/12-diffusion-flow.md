@@ -1,6 +1,6 @@
 # 12 · Diffusion / Flow Acceleration
 
-> **186 canonical papers** mapped here, plus a broader **37-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **187 canonical papers** mapped here, plus a broader **37-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -46,7 +46,7 @@
 | **P2 · Relevant** | **OnlineCache: Learning Dynamic Caching Policies with Error Correction for Efficient Diffusion Inference** | Fresh / preprint | LLM serving; generation acceleration; edge / heterogeneous AI | [Link](https://arxiv.org/abs/2607.29398) | — |
 | **P1 · Watch** | **CORA-Diff: Confidence-Oriented Residual Acceptance for Efficient Diffusion Language Model Inference** | Fresh / preprint | diffusion language model inference / training-free residual acceptance / decoding acceleration | [Link](https://arxiv.org/abs/2608.11235) | — |
 
-## 🏛️ Classical / Historical · 165 canonical
+## 🏛️ Classical / Historical · 166 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -208,6 +208,7 @@
 | **Canonical** | **ChituDiffusion: A Data-Characteristic-Aware Serving System for Diffusion Models** | PPoPP 2026 | diffusion serving / compile-runtime co-optimization | [Link](https://doi.org/10.1145/3774934.3786424) | — |
 | **Canonical** | **MixFusion: A Patch-Level Parallel Serving System for Mixed-Resolution Diffusion Models** | PPoPP 2026 | diffusion serving / patch-level parallelism | [Link](https://doi.org/10.1145/3774934.3786420) | — |
 | **Canonical** | **FAST: Efficient Action Tokenization for Vision-Language-Action Models** | RSS 2025 | Physical AI / VLA action tokenization / efficient training and inference | [Link](https://arxiv.org/abs/2501.09747) | — |
+| **Canonical** | **IMLE Policy: Fast and Sample Efficient Visuomotor Policy Learning via Implicit Maximum Likelihood Estimation** | RSS 2025 | VLA/WAM/Physical AI serving / robot policy inference / diffusion-policy acceleration | [Link](https://arxiv.org/abs/2502.12371) | [Repo](https://github.com/krishanrana/imle_policy) |
 | **Canonical** | **Unified Video Action Model** | RSS 2025 | Physical AI / efficient world-action model inference | [Link](https://doi.org/10.15607/RSS.2025.XXI.074) | — |
 | **Canonical** | **Action-to-Action Flow Matching** | RSS 2026 | VLA/WAM/Physical AI serving / action-head / flow matching / real-time inference | [Link](https://arxiv.org/abs/2602.07322) | — |
 | **Canonical** | **Muninn: Your Trajectory Diffusion Model But Faster** | RSS 2026 | Physical AI / trajectory diffusion acceleration / training-free cache reuse | [Link](https://arxiv.org/abs/2605.09999) | [Repo](https://github.com/gokulp01/Muninn) |

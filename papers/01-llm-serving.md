@@ -1,6 +1,6 @@
 # 01 · LLM Serving
 
-> **638 canonical papers** mapped here, plus a broader **249-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **639 canonical papers** mapped here, plus a broader **249-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -258,7 +258,7 @@
 | **P1 · Watch** | **Edge-Native Embodied Intelligence for Action-Aware Wireless Edge Networks** | Fresh / preprint | VLA/WAM/Physical AI serving / edge-cloud / heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.17774) | — |
 | **P1 · Watch** | **An Internet for the KV Cache: Rethinking Classical Infrastructure Boundaries in the LLM Inference Age** | Fresh / preprint | KV cache / distributed serving / cloud-network-storage systems | [Link](https://arxiv.org/abs/2608.01526) | — |
 
-## 🏛️ Classical / Historical · 577 canonical
+## 🏛️ Classical / Historical · 578 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -760,6 +760,7 @@
 | **Canonical** | **SmoothAgent: Efficient Long-Horizon LLM-Based Agent Serving with Lookahead Context Engineering** | PVLDB 2027 forthcoming / arXiv 2026 | agent systems / LLM serving / context engineering / KV cache / lookahead scheduling | [Link](https://arxiv.org/abs/2607.00151) | [Repo](https://github.com/PanZaifeng/SmoothAgent) |
 | **Canonical** | **CLIP-RT: Learning Language-Conditioned Robotic Policies from Natural Language Supervision** | RSS 2025 | Physical AI / lightweight VLA / high-throughput robot inference | [Link](https://arxiv.org/abs/2411.00508) | [Repo](https://github.com/clip-rt/clip-rt) |
 | **Canonical** | **Fine-Tuning Vision-Language-Action Models: Optimizing Speed and Success** | RSS 2025 | Physical AI / VLA efficient fine-tuning / parallel action decoding | [Link](https://arxiv.org/abs/2502.19645) | [Repo](https://github.com/moojink/openvla-oft) |
+| **Canonical** | **IMLE Policy: Fast and Sample Efficient Visuomotor Policy Learning via Implicit Maximum Likelihood Estimation** | RSS 2025 | VLA/WAM/Physical AI serving / robot policy inference / diffusion-policy acceleration | [Link](https://arxiv.org/abs/2502.12371) | [Repo](https://github.com/krishanrana/imle_policy) |
 | **Canonical** | **Action-to-Action Flow Matching** | RSS 2026 | VLA/WAM/Physical AI serving / action-head / flow matching / real-time inference | [Link](https://arxiv.org/abs/2602.07322) | — |
 | **Canonical** | **AR-VLA: True Autoregressive Action Expert for Vision-Language-Action Models** | RSS 2026 | VLA/WAM/Physical AI serving / streaming action expert / asynchronous perception-control | [Link](https://arxiv.org/abs/2603.10126) | — |
 | **Canonical** | **Causal World Modeling for Robot Control** | RSS 2026 | VLA/WAM/Physical AI serving / world-action model / asynchronous inference / KV-cache | [Link](https://arxiv.org/abs/2601.21998) | — |

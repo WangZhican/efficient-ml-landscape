@@ -1,6 +1,6 @@
 # 14 · VLA / WAM / Physical AI
 
-> **102 canonical papers** mapped here, plus a broader **65-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **103 canonical papers** mapped here, plus a broader **65-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -74,7 +74,7 @@
 | **P2 · Relevant** | **A Motion-Aware Vector Quantization Framework with Centroid Reuse for Efficient VLA Inference** | Fresh / preprint | llm_serving / quant / multimodal / physical | [Link](https://arxiv.org/abs/2607.24148) | — |
 | **P1 · Watch** | **Edge-Native Embodied Intelligence for Action-Aware Wireless Edge Networks** | Fresh / preprint | VLA/WAM/Physical AI serving / edge-cloud / heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.17774) | — |
 
-## 🏛️ Classical / Historical · 86 canonical
+## 🏛️ Classical / Historical · 87 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -149,6 +149,7 @@
 | **Canonical** | **CLIP-RT: Learning Language-Conditioned Robotic Policies from Natural Language Supervision** | RSS 2025 | Physical AI / lightweight VLA / high-throughput robot inference | [Link](https://arxiv.org/abs/2411.00508) | [Repo](https://github.com/clip-rt/clip-rt) |
 | **Canonical** | **FAST: Efficient Action Tokenization for Vision-Language-Action Models** | RSS 2025 | Physical AI / VLA action tokenization / efficient training and inference | [Link](https://arxiv.org/abs/2501.09747) | — |
 | **Canonical** | **Fine-Tuning Vision-Language-Action Models: Optimizing Speed and Success** | RSS 2025 | Physical AI / VLA efficient fine-tuning / parallel action decoding | [Link](https://arxiv.org/abs/2502.19645) | [Repo](https://github.com/moojink/openvla-oft) |
+| **Canonical** | **IMLE Policy: Fast and Sample Efficient Visuomotor Policy Learning via Implicit Maximum Likelihood Estimation** | RSS 2025 | VLA/WAM/Physical AI serving / robot policy inference / diffusion-policy acceleration | [Link](https://arxiv.org/abs/2502.12371) | [Repo](https://github.com/krishanrana/imle_policy) |
 | **Canonical** | **Learning to Act Anywhere with Task-centric Latent Actions** | RSS 2025 | Physical AI / VLA efficient pretraining / latent action decoding | [Link](https://arxiv.org/abs/2505.06111) | [Repo](https://github.com/OpenDriveLab/UniVLA) |
 | **Canonical** | **Uni-NaVid: A Video-based Vision-Language-Action Model for Unifying Embodied Navigation Tasks** | RSS 2025 | Physical AI / VLA navigation / online visual-token merging | [Link](https://arxiv.org/abs/2412.06224) | [Repo](https://github.com/jzhzhang/Uni-NaVid) |
 | **Canonical** | **Unified Video Action Model** | RSS 2025 | Physical AI / efficient world-action model inference | [Link](https://doi.org/10.15607/RSS.2025.XXI.074) | — |

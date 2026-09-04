@@ -27003,6 +27003,28 @@
     ]
   },
   {
+    "title": "IMLE Policy: Fast and Sample Efficient Visuomotor Policy Learning via Implicit Maximum Likelihood Estimation",
+    "venue": "RSS 2025",
+    "topic": "VLA/WAM/Physical AI serving / robot policy inference / diffusion-policy acceleration",
+    "arxiv": "2502.12371",
+    "doi": "",
+    "official_id": "DOI:10.15607/RSS.2025.XXI.158",
+    "paper_url": "https://arxiv.org/abs/2502.12371",
+    "code_url": "https://github.com/krishanrana/imle_policy",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "RSS 2025 main-conference robot-policy efficiency result. IMLE Policy replaces iterative diffusion action generation with a simple single-step generator, reports 97.3% inference-speed improvement versus Diffusion Policy and 38% less data on average to match baseline performance, with simulation and real-robot validation.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Diffusion / Flow Acceleration",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Learning to Act Anywhere with Task-centric Latent Actions",
     "venue": "RSS 2025",
     "topic": "Physical AI / VLA efficient pretraining / latent action decoding",
