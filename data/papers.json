@@ -2597,6 +2597,28 @@
     ]
   },
   {
+    "title": "Llamas on the Web: Memory-Efficient, Performance-Portable, and Multi-Precision LLM Inference with WebGPU",
+    "venue": "arXiv 2026",
+    "topic": "edge/cloud/heterogeneous AI systems / LLM inference / WebGPU / multi-precision / browser runtime",
+    "arxiv": "2605.20706",
+    "doi": "",
+    "official_id": "2605.20706",
+    "paper_url": "https://arxiv.org/abs/2605.20706",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Microsoft Research LlamaWeb is a direct inference-runtime contribution: a WebGPU backend for llama.cpp with static memory planning, tunable kernels and multi-precision support. Evaluated on 16 devices from 8 vendors, it reports 29-33% lower memory than browser baselines and 45-69% higher decode throughput across four GPUs, making it a strong heterogeneous/on-device AI systems paper.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "LoSA: Near-Lossless Sparse Attention for Training-Free Video Diffusion Acceleration",
     "venue": "arXiv 2026",
     "topic": "video/image generation acceleration / sparse attention / video diffusion",
