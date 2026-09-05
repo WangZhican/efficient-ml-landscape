@@ -1,6 +1,6 @@
 # 12 · Diffusion / Flow Acceleration
 
-> **188 canonical papers** mapped here, plus a broader **39-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **189 canonical papers** mapped here, plus a broader **39-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -48,7 +48,7 @@
 | **P2 · Relevant** | **OnlineCache: Learning Dynamic Caching Policies with Error Correction for Efficient Diffusion Inference** | Fresh / preprint | LLM serving; generation acceleration; edge / heterogeneous AI | [Link](https://arxiv.org/abs/2607.29398) | — |
 | **P1 · Watch** | **CORA-Diff: Confidence-Oriented Residual Acceptance for Efficient Diffusion Language Model Inference** | Fresh / preprint | diffusion language model inference / training-free residual acceptance / decoding acceleration | [Link](https://arxiv.org/abs/2608.11235) | — |
 
-## 🏛️ Classical / Historical · 165 canonical
+## 🏛️ Classical / Historical · 166 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -121,6 +121,7 @@
 | **Canonical** | **REDUCIO! Generating 1K Video within 16 Seconds using Extremely Compressed Motion Latents** | ICCV 2025 | video generation acceleration / latent compression / diffusion efficiency | [Link](https://arxiv.org/abs/2411.13552) | [Repo](https://github.com/microsoft/Reducio-VAE) |
 | **Canonical** | **Text Embedding Knows How to Quantize Text-Guided Diffusion Models** | ICCV 2025 | diffusion quantization / dynamic precision | [Link](https://openaccess.thecvf.com/content/ICCV2025/papers/Lee_Text_Embedding_Knows_How_to_Quantize_Text-Guided_Diffusion_Models_ICCV_2025_paper.pdf) | — |
 | **Canonical** | **Towards Stabilized and Efficient Diffusion Transformers through Long-Skip-Connections with Spectral Constraints** | ICCV 2025 | diffusion transformer training/inference acceleration | [Link](https://openaccess.thecvf.com/content/ICCV2025/papers/Chen_Towards_Stabilized_and_Efficient_Diffusion_Transformers_through_Long-Skip_Connections_with_Spectral_ICCV_2025_paper.pdf) | — |
+| **Canonical** | **Block-wise Adaptive Caching for Accelerating Diffusion Policy** | ICLR 2026 | VLA/WAM/Physical AI serving / diffusion policy / block-wise cache / robot inference acceleration | [Link](https://arxiv.org/abs/2506.13456) | [Repo](https://github.com/ky-ji/BAC) |
 | **Canonical** | **Fast-dLLM v2: Efficient Block-Diffusion LLM** | ICLR 2026 | diffusion LLM inference / block diffusion / hierarchical caching | [Link](https://arxiv.org/abs/2509.26328) | [Repo](https://github.com/NVlabs/Fast-dLLM) |
 | **Canonical** | **Fast-dLLM: Training-free Acceleration of Diffusion LLM by Enabling KV Cache and Parallel Decoding** | ICLR 2026 | diffusion LLM inference / KV cache / parallel decoding | [Link](https://arxiv.org/abs/2505.22618) | [Repo](https://github.com/NVlabs/Fast-dLLM) |
 | **Canonical** | **FlashDLM: Accelerating Diffusion Language Model Inference via Efficient KV Caching and Guided Diffusion** | ICLR 2026 | diffusion language model inference / KV caching / guided diffusion / decoding acceleration | [Link](https://openreview.net/forum?id=KUfKvlX3VY) | [Repo](https://github.com/ZhanqiuHu/flash-dlm-experimental) |

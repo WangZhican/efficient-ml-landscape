@@ -1,6 +1,6 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **1398 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **1399 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
@@ -692,12 +692,13 @@
 | **Canonical** | **VTC: DNN Compilation with Virtual Tensors for Data Movement Elimination** | OSDI 2026 | GPU/accelerator compiler / DNN / data movement | [Link](https://www.usenix.org/conference/osdi26/presentation/hu-muyan) | — |
 | **Canonical** | **Weave: Efficient Co-Scheduling for Disaggregated RL Post-Training** | OSDI 2026 | efficient reasoning / RL post-training systems | [Link](https://www.usenix.org/conference/osdi26/presentation/wu-tianyuan) | — |
 
-## ICLR 2026 · 39
+## ICLR 2026 · 40
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **Canonical** | **Autoregressive Image Generation with Randomized Parallel Decoding** | ICLR 2026 | autoregressive image generation / parallel decoding | [Link](https://openreview.net/pdf?id=rJdGst0W8s) | — |
 | **Canonical** | **Beyond Speedup - Utilizing KV Cache for Sampling and Reasoning** | ICLR 2026 | KV cache / efficient reasoning / representation reuse | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/d147f24cac1b6cd88753ca830e462bdc-Abstract-Conference.html) | — |
+| **Canonical** | **Block-wise Adaptive Caching for Accelerating Diffusion Policy** | ICLR 2026 | VLA/WAM/Physical AI serving / diffusion policy / block-wise cache / robot inference acceleration | [Link](https://arxiv.org/abs/2506.13456) | [Repo](https://github.com/ky-ji/BAC) |
 | **Canonical** | **Capacity-Aware Inference: Mitigating the Straggler Effect in Mixture of Experts** | ICLR 2026 | MoE systems / expert parallelism / straggler mitigation | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/94e845868a9ace4bc239d0c529d32f4c-Abstract-Conference.html) | [Repo](https://github.com/CASE-Lab-UMD/Capacity-Aware-MoE) |
 | **Canonical** | **Cascadia: An Efficient Cascade Serving System for Large Language Models** | ICLR 2026 | LLM serving / model cascades / routing / resource allocation | [Link](https://arxiv.org/abs/2506.04203) | — |
 | **Canonical** | **DefensiveKV: Taming the Fragility of KV Cache Eviction in LLM Inference** | ICLR 2026 | KV cache eviction / robust aggregation | [Link](https://arxiv.org/abs/2510.13334) | [Repo](https://github.com/FFY0/DefensiveKV) |

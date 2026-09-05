@@ -10168,6 +10168,28 @@
     ]
   },
   {
+    "title": "Block-wise Adaptive Caching for Accelerating Diffusion Policy",
+    "venue": "ICLR 2026",
+    "topic": "VLA/WAM/Physical AI serving / diffusion policy / block-wise cache / robot inference acceleration",
+    "arxiv": "2506.13456",
+    "doi": "",
+    "official_id": "arXiv:2506.13456",
+    "paper_url": "https://arxiv.org/abs/2506.13456",
+    "code_url": "https://github.com/ky-ji/BAC",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "BAC is a direct Physical-AI inference-efficiency method for transformer diffusion policies and is explicitly applicable to VLA models. It adaptively caches/reuses intermediate action features at block level, adds a Bubbling Union mechanism to control inter-block error propagation, is training-free, and reports up to 3x inference speedup while maintaining task success.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Diffusion / Flow Acceleration",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Capacity-Aware Inference: Mitigating the Straggler Effect in Mixture of Experts",
     "venue": "ICLR 2026",
     "topic": "MoE systems / expert parallelism / straggler mitigation",

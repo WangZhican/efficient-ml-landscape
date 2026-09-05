@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **1530 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **387 visible papers = 132 P0 + 135 P1 + 120 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1531 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **387 visible papers = 132 P0 + 135 P1 + 120 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -410,7 +410,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 1398
+## 🏛️ Classical / Historical · 1399
 
 ### ICML 2026 · 375
 
@@ -1100,12 +1100,13 @@
 | **Canonical** | **VTC: DNN Compilation with Virtual Tensors for Data Movement Elimination** | OSDI 2026 | GPU/accelerator compiler / DNN / data movement | [Link](https://www.usenix.org/conference/osdi26/presentation/hu-muyan) | — |
 | **Canonical** | **Weave: Efficient Co-Scheduling for Disaggregated RL Post-Training** | OSDI 2026 | efficient reasoning / RL post-training systems | [Link](https://www.usenix.org/conference/osdi26/presentation/wu-tianyuan) | — |
 
-### ICLR 2026 · 39
+### ICLR 2026 · 40
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **Canonical** | **Autoregressive Image Generation with Randomized Parallel Decoding** | ICLR 2026 | autoregressive image generation / parallel decoding | [Link](https://openreview.net/pdf?id=rJdGst0W8s) | — |
 | **Canonical** | **Beyond Speedup - Utilizing KV Cache for Sampling and Reasoning** | ICLR 2026 | KV cache / efficient reasoning / representation reuse | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/d147f24cac1b6cd88753ca830e462bdc-Abstract-Conference.html) | — |
+| **Canonical** | **Block-wise Adaptive Caching for Accelerating Diffusion Policy** | ICLR 2026 | VLA/WAM/Physical AI serving / diffusion policy / block-wise cache / robot inference acceleration | [Link](https://arxiv.org/abs/2506.13456) | [Repo](https://github.com/ky-ji/BAC) |
 | **Canonical** | **Capacity-Aware Inference: Mitigating the Straggler Effect in Mixture of Experts** | ICLR 2026 | MoE systems / expert parallelism / straggler mitigation | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/94e845868a9ace4bc239d0c529d32f4c-Abstract-Conference.html) | [Repo](https://github.com/CASE-Lab-UMD/Capacity-Aware-MoE) |
 | **Canonical** | **Cascadia: An Efficient Cascade Serving System for Large Language Models** | ICLR 2026 | LLM serving / model cascades / routing / resource allocation | [Link](https://arxiv.org/abs/2506.04203) | — |
 | **Canonical** | **DefensiveKV: Taming the Fragility of KV Cache Eviction in LLM Inference** | ICLR 2026 | KV cache eviction / robust aggregation | [Link](https://arxiv.org/abs/2510.13334) | [Repo](https://github.com/FFY0/DefensiveKV) |

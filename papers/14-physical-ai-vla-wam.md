@@ -1,6 +1,6 @@
 # 14 · VLA / WAM / Physical AI
 
-> **104 canonical papers** mapped here, plus a broader **70-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **105 canonical papers** mapped here, plus a broader **70-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -79,7 +79,7 @@
 | **P2 · Relevant** | **A Motion-Aware Vector Quantization Framework with Centroid Reuse for Efficient VLA Inference** | Fresh / preprint | llm_serving / quant / multimodal / physical | [Link](https://arxiv.org/abs/2607.24148) | — |
 | **P1 · Watch** | **Edge-Native Embodied Intelligence for Action-Aware Wireless Edge Networks** | Fresh / preprint | VLA/WAM/Physical AI serving / edge-cloud / heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.17774) | — |
 
-## 🏛️ Classical / Historical · 85 canonical
+## 🏛️ Classical / Historical · 86 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -108,6 +108,7 @@
 | **Canonical** | **CombatVLA: An Efficient Vision-Language-Action Model for Combat Tasks in 3D Action Role-Playing Games** | ICCV 2025 | Physical AI / VLA efficient action generation / runtime | [Link](https://openaccess.thecvf.com/content/ICCV2025/html/Chen_CombatVLA_An_Efficient_Vision-Language-Action_Model_for_Combat_Tasks_in_3D_ICCV_2025_paper.html) | [Repo](https://github.com/ChenVoid/CombatVLA) |
 | **Canonical** | **Harnessing Input-Adaptive Inference for Efficient VLN** | ICCV 2025 | Physical AI / VLN efficient inference / early exit + caching | [Link](https://openaccess.thecvf.com/content/ICCV2025/html/Kang_Harnessing_Input-Adaptive_Inference_for_Efficient_VLN_ICCV_2025_paper.html) | [Repo](https://github.com/Trustworthy-and-Responsible-AI-Lab/adaptive-vision-and-language-navigation) |
 | **Canonical** | **Saliency-Aware Quantized Imitation Learning for Efficient Robotic Control** | ICCV 2025 | VLA/WAM/Physical AI serving / quantization / edge robotic control | [Link](https://arxiv.org/abs/2505.15304) | — |
+| **Canonical** | **Block-wise Adaptive Caching for Accelerating Diffusion Policy** | ICLR 2026 | VLA/WAM/Physical AI serving / diffusion policy / block-wise cache / robot inference acceleration | [Link](https://arxiv.org/abs/2506.13456) | [Repo](https://github.com/ky-ji/BAC) |
 | **Canonical** | **AdaNav: Adaptive Reasoning with Uncertainty for Vision-Language Navigation** | ICML 2026 | Physical AI / vision-language navigation / adaptive reasoning / uncertainty-triggered inference / embodied-agent compute reduction | [Link](https://arxiv.org/abs/2509.24387) | [Repo](https://github.com/xinding-sys/AdaNav) |
 | **Canonical** | **Ask Less, See More: Communication-Conditioned Token Pruning for Vehicle-to-Vehicle Cooperative Autonomous Driving with Multimodal Large Language Models** | ICML 2026 | Physical AI / autonomous driving / V2V cooperative MLLM / visual-token pruning / communication-efficient inference | [Link](https://openreview.net/forum?id=HWMMBBujpo) | — |
 | **Canonical** | **AutoMoT: A Unified Vision-Language-Action Model with Asynchronous Mixture-of-Transformers for End-to-End Autonomous Driving** | ICML 2026 | VLA/WAM/Physical AI serving / asynchronous inference / KV-cache bridging / autonomous driving | [Link](https://arxiv.org/abs/2603.14851) | [Repo](https://github.com/OscarHuangWind/AutoMoT) |

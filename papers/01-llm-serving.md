@@ -1,6 +1,6 @@
 # 01 · LLM Serving
 
-> **651 canonical papers** mapped here, plus a broader **267-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **652 canonical papers** mapped here, plus a broader **267-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -276,7 +276,7 @@
 | **P1 · Watch** | **Edge-Native Embodied Intelligence for Action-Aware Wireless Edge Networks** | Fresh / preprint | VLA/WAM/Physical AI serving / edge-cloud / heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.17774) | — |
 | **P1 · Watch** | **An Internet for the KV Cache: Rethinking Classical Infrastructure Boundaries in the LLM Inference Age** | Fresh / preprint | KV cache / distributed serving / cloud-network-storage systems | [Link](https://arxiv.org/abs/2608.01526) | — |
 
-## 🏛️ Classical / Historical · 575 canonical
+## 🏛️ Classical / Historical · 576 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -465,6 +465,7 @@
 | **Canonical** | **Adaptive Caching for Faster Video Generation with Diffusion Transformers** | ICCV 2025 | video diffusion acceleration / adaptive feature caching | [Link](https://arxiv.org/abs/2411.02397) | — |
 | **Canonical** | **Saliency-Aware Quantized Imitation Learning for Efficient Robotic Control** | ICCV 2025 | VLA/WAM/Physical AI serving / quantization / edge robotic control | [Link](https://arxiv.org/abs/2505.15304) | — |
 | **Canonical** | **SparseVILA: Decoupling Visual Sparsity for Efficient VLM Inference** | ICCV 2025 | multimodal/VLM sparse prefill+decode inference | [Link](https://openaccess.thecvf.com/content/ICCV2025/html/Khaki_SparseVILA_Decoupling_Visual_Sparsity_for_Efficient_VLM_Inference_ICCV_2025_paper.html) | — |
+| **Canonical** | **Block-wise Adaptive Caching for Accelerating Diffusion Policy** | ICLR 2026 | VLA/WAM/Physical AI serving / diffusion policy / block-wise cache / robot inference acceleration | [Link](https://arxiv.org/abs/2506.13456) | [Repo](https://github.com/ky-ji/BAC) |
 | **Canonical** | **Capacity-Aware Inference: Mitigating the Straggler Effect in Mixture of Experts** | ICLR 2026 | MoE systems / expert parallelism / straggler mitigation | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/94e845868a9ace4bc239d0c529d32f4c-Abstract-Conference.html) | [Repo](https://github.com/CASE-Lab-UMD/Capacity-Aware-MoE) |
 | **Canonical** | **Cascadia: An Efficient Cascade Serving System for Large Language Models** | ICLR 2026 | LLM serving / model cascades / routing / resource allocation | [Link](https://arxiv.org/abs/2506.04203) | — |
 | **Canonical** | **Fast-dLLM: Training-free Acceleration of Diffusion LLM by Enabling KV Cache and Parallel Decoding** | ICLR 2026 | diffusion LLM inference / KV cache / parallel decoding | [Link](https://arxiv.org/abs/2505.22618) | [Repo](https://github.com/NVlabs/Fast-dLLM) |
