@@ -3522,6 +3522,28 @@
     ]
   },
   {
+    "title": "SnapFlow: One-Step Action Generation for Flow-Matching VLAs via Progressive Self-Distillation",
+    "venue": "arXiv 2026",
+    "topic": "VLA/WAM/Physical AI serving / flow-matching action generation / one-step denoising / inference acceleration",
+    "arxiv": "2604.05656",
+    "doi": "",
+    "official_id": "arXiv:2604.05656",
+    "paper_url": "https://arxiv.org/abs/2604.05656",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "SnapFlow compresses the iterative flow-matching action-generation process of VLA models such as pi0.5 and SmolVLA into a single forward pass. The paper reports 9.6x denoising speedup and end-to-end latency reduction from 274 ms to 83 ms on pi0.5, and 3.56x end-to-end acceleration on SmolVLA while preserving or improving task quality.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Diffusion / Flow Acceleration",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Sparrow: Sparse Rollout for Stable and Efficient Long-context RL of Large Language Models",
     "venue": "arXiv 2026",
     "topic": "efficient reasoning / RL training systems / sparse attention / long-context rollout",
