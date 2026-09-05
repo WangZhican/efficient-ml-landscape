@@ -9975,6 +9975,27 @@
     ]
   },
   {
+    "title": "Depth-adaptive Inference of Looped Language Models via Continuous Depth Batching",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / adaptive inference / scheduling",
+    "arxiv": "2608.09444",
+    "doi": "",
+    "official_id": "arXiv:2608.09444",
+    "paper_url": "https://arxiv.org/abs/2608.09444",
+    "code_url": "https://github.com/kschwethelm/continuous-depth-batching",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "First end-to-end continuous depth batching runtime for looped LMs. It schedules individual recurrent loop iterations with separate boundary-stage queues and overlaps scheduling with GPU work; reports 1.5-1.9x higher offline throughput and 45-90% lower normalized latency under dynamic load, reaching up to 99% of theoretical adaptive-depth speedup.",
+    "published_at": "2026-08-10T11:20:14Z",
+    "updated_at": "2026-08-10T11:20:14Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "EpaCache: Error-Propagation-Aware Caching for Accelerating Diffusion-Based Visual Generation",
     "venue": "Fresh / preprint",
     "topic": "video/image generation acceleration / diffusion cache",

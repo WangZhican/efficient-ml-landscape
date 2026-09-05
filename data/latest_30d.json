@@ -1,8 +1,8 @@
 {
-  "window_end_beijing": "2026-09-05",
-  "window_start_beijing": "2026-08-06",
+  "window_end_beijing": "2026-09-06",
+  "window_start_beijing": "2026-08-07",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 388,
+  "tracked_total": 391,
   "p0_strong_or_canonical": [
     {
       "title": "Para-Pipe: Exploiting Hierarchical Operator Parallelism of ML Computational Graphs on SoCs",
@@ -2821,6 +2821,27 @@
       ]
     },
     {
+      "title": "Depth-adaptive Inference of Looped Language Models via Continuous Depth Batching",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / adaptive inference / scheduling",
+      "arxiv": "2608.09444",
+      "doi": "",
+      "official_id": "arXiv:2608.09444",
+      "paper_url": "https://arxiv.org/abs/2608.09444",
+      "code_url": "https://github.com/kschwethelm/continuous-depth-batching",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "First end-to-end continuous depth batching runtime for looped LMs. It schedules individual recurrent loop iterations with separate boundary-stage queues and overlaps scheduling with GPU work; reports 1.5-1.9x higher offline throughput and 45-90% lower normalized latency under dynamic load, reaching up to 99% of theoretical adaptive-depth speedup.",
+      "published_at": "2026-08-10T11:20:14Z",
+      "updated_at": "2026-08-10T11:20:14Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
       "title": "SwiftQK: Fast and Communication-Efficient Tensor Parallelism for Query-Key Normalization",
       "venue": "Fresh / preprint",
       "topic": "distributed inference / GPU kernel / tensor parallelism",
@@ -5218,6 +5239,26 @@
       ]
     },
     {
+      "title": "DistillCache: KL-Guided Adaptive KV-Cache Eviction for Memory-Efficient LLM Inference",
+      "venue": "",
+      "topic": "KV cache/long-context / learned eviction",
+      "arxiv": "2608.08878",
+      "doi": "",
+      "official_id": "arXiv:2608.08878",
+      "paper_url": "https://arxiv.org/abs/2608.08878",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct KV-cache inference optimization with learned KL-guided eviction; reports 94.2% full-cache LongBench accuracy at 25% cache budget and up to 2.1x throughput. Retained P1 pending stronger venue/repo/independent evidence.",
+      "published_at": "2026-08-09T19:33:43Z",
+      "updated_at": "2026-08-09T19:33:43Z",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context"
+      ]
+    },
+    {
       "title": "OpRAG: A Resource-Deterministic Runtime for GPU-Backed Multi-Stage RAG Workflows",
       "venue": "",
       "topic": "llm_serving / attn / agent",
@@ -5282,6 +5323,28 @@
       ]
     },
     {
+      "title": "CubicQuant: Parametric Non-Uniform Codebooks for High-Throughput LLM Inference with 1-8-Bit Weights",
+      "venue": "",
+      "topic": "quantization / GPU inference",
+      "arxiv": "2608.06763",
+      "doi": "",
+      "official_id": "arXiv:2608.06763",
+      "paper_url": "https://arxiv.org/abs/2608.06763",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Interesting directly executable 1-8b non-uniform weight format with packed GPU execution and H200 kernel measurements, but paper explicitly leaves downstream model quality and cross-device end-to-end performance open; retain P1 rather than canonical-high.",
+      "published_at": "2026-08-07T03:36:07Z",
+      "updated_at": "2026-08-07T03:36:07Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
       "title": "A Two-Tier Perspective on Inference-Time Parallelism in Multi-Agent LLM Systems",
       "venue": "ICML 2026",
       "topic": "efficient agent systems / multi-agent inference / parallel execution / latency-cost tradeoff",
@@ -5295,7 +5358,7 @@
       "tracking_tier": "P1 · Watch",
       "why": "ICML 2026 and directly relevant to efficient agent execution. TIPEX unifies replica- and structural-parallel inference and demonstrates lower end-to-end latency / improved accuracy tradeoffs on GAIA, but system implementation/deployment evidence is currently thinner than canonical serving work, so retain as P1 Watch pending deeper validation.",
       "published_at": "2026-08-06T09:26:24Z",
-      "updated_at": "2026-08-06T09:26:24Z",
+      "updated_at": "",
       "is_latest_30d": true,
       "directions": [
         "Distributed Training / Inference",
@@ -11273,6 +11336,27 @@
       ]
     },
     {
+      "title": "Depth-adaptive Inference of Looped Language Models via Continuous Depth Batching",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / adaptive inference / scheduling",
+      "arxiv": "2608.09444",
+      "doi": "",
+      "official_id": "arXiv:2608.09444",
+      "paper_url": "https://arxiv.org/abs/2608.09444",
+      "code_url": "https://github.com/kschwethelm/continuous-depth-batching",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "First end-to-end continuous depth batching runtime for looped LMs. It schedules individual recurrent loop iterations with separate boundary-stage queues and overlaps scheduling with GPU work; reports 1.5-1.9x higher offline throughput and 45-90% lower normalized latency under dynamic load, reaching up to 99% of theoretical adaptive-depth speedup.",
+      "published_at": "2026-08-10T11:20:14Z",
+      "updated_at": "2026-08-10T11:20:14Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
       "title": "SwiftQK: Fast and Communication-Efficient Tensor Parallelism for Query-Key Normalization",
       "venue": "Fresh / preprint",
       "topic": "distributed inference / GPU kernel / tensor parallelism",
@@ -13668,6 +13752,26 @@
       ]
     },
     {
+      "title": "DistillCache: KL-Guided Adaptive KV-Cache Eviction for Memory-Efficient LLM Inference",
+      "venue": "",
+      "topic": "KV cache/long-context / learned eviction",
+      "arxiv": "2608.08878",
+      "doi": "",
+      "official_id": "arXiv:2608.08878",
+      "paper_url": "https://arxiv.org/abs/2608.08878",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct KV-cache inference optimization with learned KL-guided eviction; reports 94.2% full-cache LongBench accuracy at 25% cache budget and up to 2.1x throughput. Retained P1 pending stronger venue/repo/independent evidence.",
+      "published_at": "2026-08-09T19:33:43Z",
+      "updated_at": "2026-08-09T19:33:43Z",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context"
+      ]
+    },
+    {
       "title": "OpRAG: A Resource-Deterministic Runtime for GPU-Backed Multi-Stage RAG Workflows",
       "venue": "",
       "topic": "llm_serving / attn / agent",
@@ -13732,6 +13836,28 @@
       ]
     },
     {
+      "title": "CubicQuant: Parametric Non-Uniform Codebooks for High-Throughput LLM Inference with 1-8-Bit Weights",
+      "venue": "",
+      "topic": "quantization / GPU inference",
+      "arxiv": "2608.06763",
+      "doi": "",
+      "official_id": "arXiv:2608.06763",
+      "paper_url": "https://arxiv.org/abs/2608.06763",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Interesting directly executable 1-8b non-uniform weight format with packed GPU execution and H200 kernel measurements, but paper explicitly leaves downstream model quality and cross-device end-to-end performance open; retain P1 rather than canonical-high.",
+      "published_at": "2026-08-07T03:36:07Z",
+      "updated_at": "2026-08-07T03:36:07Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
       "title": "A Two-Tier Perspective on Inference-Time Parallelism in Multi-Agent LLM Systems",
       "venue": "ICML 2026",
       "topic": "efficient agent systems / multi-agent inference / parallel execution / latency-cost tradeoff",
@@ -13745,7 +13871,7 @@
       "tracking_tier": "P1 · Watch",
       "why": "ICML 2026 and directly relevant to efficient agent execution. TIPEX unifies replica- and structural-parallel inference and demonstrates lower end-to-end latency / improved accuracy tradeoffs on GAIA, but system implementation/deployment evidence is currently thinner than canonical serving work, so retain as P1 Watch pending deeper validation.",
       "published_at": "2026-08-06T09:26:24Z",
-      "updated_at": "2026-08-06T09:26:24Z",
+      "updated_at": "",
       "is_latest_30d": true,
       "directions": [
         "Distributed Training / Inference",
