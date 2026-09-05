@@ -8400,6 +8400,28 @@
     ]
   },
   {
+    "title": "LUT-LLM: Efficient Large Language Model Inference with Memory-based Computations on FPGAs",
+    "venue": "FCCM 2026",
+    "topic": "LLM inference accelerator / FPGA / lookup-table computation / vector quantization / edge and heterogeneous AI systems",
+    "arxiv": "2511.06174",
+    "doi": "",
+    "official_id": "arXiv:2511.06174",
+    "paper_url": "https://arxiv.org/abs/2511.06174",
+    "code_url": "https://github.com/LUT-FPGA/LUT-LLM",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "LUT-LLM is a direct systems/architecture contribution for efficient LLM inference. It shifts 1B+ LLM inference from arithmetic-heavy GEMV toward memory-based LUT computation on FPGA using activation-weight co-quantization, bandwidth-aware centroid search, efficient 2D lookup, and temporal-spatial hybrid execution. The primary paper reports 1.10-3.29x faster generation and 3.05-6.60x higher energy efficiency than GPU baselines. UCLA VAST lists it as FCCM 2026 and links the official LUT-FPGA/LUT-LLM repository.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "CXL-SpecKV: A Disaggregated FPGA Speculative KV-Cache for Datacenter LLM Serving",
     "venue": "FPGA 2026",
     "topic": "LLM serving / CXL / FPGA / speculative KV cache",
