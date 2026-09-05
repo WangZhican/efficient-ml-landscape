@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-05",
   "window_start_beijing": "2026-08-06",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 383,
+  "tracked_total": 387,
   "p0_strong_or_canonical": [
     {
       "title": "Para-Pipe: Exploiting Hierarchical Operator Parallelism of ML Computational Graphs on SoCs",
@@ -661,6 +661,27 @@
       ]
     },
     {
+      "title": "OUTLETS: Output-Length Prediction from Speculative Decoding Backbones",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / speculative decoding / output-length prediction / scheduling",
+      "arxiv": "2609.01068",
+      "doi": "",
+      "official_id": "arXiv:2609.01068",
+      "paper_url": "https://arxiv.org/abs/2609.01068",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Repurposes latent representations already produced by speculative decoding draft backbones as a trajectory-aware output-length predictor. Under saturated disaggregated serving, its predictions improve standard scheduling and reduce short-request P99 latency by 34.8% while adding only a lightweight regression head when the draft backbone is already in use.",
+      "published_at": "2026-09-01T11:00:39Z",
+      "updated_at": "2026-09-01T11:00:39Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Speculative Decoding"
+      ]
+    },
+    {
       "title": "PCoMoE: Shifting MoE Inference from Monolithic Expert Selection to Fine-Grained Path Composition",
       "venue": "CoRR 2026",
       "topic": "MoE systems/accelerators / fine-grained path composition / inference engine",
@@ -679,6 +700,29 @@
       "directions": [
         "Sparsity / Pruning",
         "MoE Systems / Accelerators"
+      ]
+    },
+    {
+      "title": "AInfer-PD: Communication-Safe In-Place Prefill-Decode Multiplexing for Distributed MoE Rollouts",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / agentic RL rollout / prefill-decode multiplexing / distributed MoE / communication",
+      "arxiv": "2609.00993",
+      "doi": "",
+      "official_id": "arXiv:2609.00993",
+      "paper_url": "https://arxiv.org/abs/2609.00993",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Extends in-place P/D multiplexing to distributed MoE rollout inference with coordinated collective ordering and independent DeepEP communication state. Reports 7.1-22.5% lower fixed-workload completion time than the same AInfer engine without multiplexing and 24.8-32.9% versus SGLang on single-node workloads; two-node reductions are 18.0-35.3% and 18.3-31.8%.",
+      "published_at": "2026-09-01T09:44:40Z",
+      "updated_at": "2026-09-01T09:44:40Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "MoE Systems / Accelerators",
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -988,6 +1032,27 @@
       "directions": [
         "LLM Serving",
         "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "SMILE: Smooth Motion for Improved Long-Horizon VLA Execution",
+      "venue": "arXiv 2026 / submitted RA-L",
+      "topic": "VLA/WAM/Physical AI serving / action chunking / long-horizon execution / action representation",
+      "arxiv": "2608.29432",
+      "doi": "",
+      "official_id": "arXiv:2608.29432",
+      "paper_url": "https://arxiv.org/abs/2608.29432",
+      "code_url": "https://jongwoopark7978.github.io/smilevla/",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Uses B-spline coefficient action representation to smooth action chunks and enable longer fixed execution horizons without changing the VLA backbone. Reports 1.1x speedup on LIBERO with SMILE-Evo1 and 1.5x on CALVIN with SMILE-VPP while improving task quality; directly addresses amortized VLA inference efficiency and action execution stability.",
+      "published_at": "2026-08-29T20:37:00Z",
+      "updated_at": "2026-08-29T20:37:00Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
         "VLA / WAM / Physical AI"
       ]
     },
@@ -2953,6 +3018,27 @@
         "Efficient Attention",
         "GPU Kernel / DSL / Compiler",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Rethinking Language's Role in Efficient VLA for Autonomous Vehicles: Toward Smarter, Trustworthy Driving",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / autonomous driving / inference efficiency survey",
+      "arxiv": "2608.30144",
+      "doi": "",
+      "official_id": "arXiv:2608.30144",
+      "paper_url": "https://arxiv.org/abs/2608.30144",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI survey/taxonomy centered on where language should remain at inference time under onboard latency, memory, FLOPs and token budgets. Useful landscape and lineage source, but it is primarily a survey rather than a new serving/runtime mechanism, so retain as high-value watch.",
+      "published_at": "2026-08-31T01:51:51Z",
+      "updated_at": "2026-08-31T01:51:51Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -9007,6 +9093,27 @@
       ]
     },
     {
+      "title": "OUTLETS: Output-Length Prediction from Speculative Decoding Backbones",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / speculative decoding / output-length prediction / scheduling",
+      "arxiv": "2609.01068",
+      "doi": "",
+      "official_id": "arXiv:2609.01068",
+      "paper_url": "https://arxiv.org/abs/2609.01068",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Repurposes latent representations already produced by speculative decoding draft backbones as a trajectory-aware output-length predictor. Under saturated disaggregated serving, its predictions improve standard scheduling and reduce short-request P99 latency by 34.8% while adding only a lightweight regression head when the draft backbone is already in use.",
+      "published_at": "2026-09-01T11:00:39Z",
+      "updated_at": "2026-09-01T11:00:39Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Speculative Decoding"
+      ]
+    },
+    {
       "title": "PCoMoE: Shifting MoE Inference from Monolithic Expert Selection to Fine-Grained Path Composition",
       "venue": "CoRR 2026",
       "topic": "MoE systems/accelerators / fine-grained path composition / inference engine",
@@ -9025,6 +9132,29 @@
       "directions": [
         "Sparsity / Pruning",
         "MoE Systems / Accelerators"
+      ]
+    },
+    {
+      "title": "AInfer-PD: Communication-Safe In-Place Prefill-Decode Multiplexing for Distributed MoE Rollouts",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / agentic RL rollout / prefill-decode multiplexing / distributed MoE / communication",
+      "arxiv": "2609.00993",
+      "doi": "",
+      "official_id": "arXiv:2609.00993",
+      "paper_url": "https://arxiv.org/abs/2609.00993",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Extends in-place P/D multiplexing to distributed MoE rollout inference with coordinated collective ordering and independent DeepEP communication state. Reports 7.1-22.5% lower fixed-workload completion time than the same AInfer engine without multiplexing and 24.8-32.9% versus SGLang on single-node workloads; two-node reductions are 18.0-35.3% and 18.3-31.8%.",
+      "published_at": "2026-09-01T09:44:40Z",
+      "updated_at": "2026-09-01T09:44:40Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "MoE Systems / Accelerators",
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -9334,6 +9464,27 @@
       "directions": [
         "LLM Serving",
         "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "SMILE: Smooth Motion for Improved Long-Horizon VLA Execution",
+      "venue": "arXiv 2026 / submitted RA-L",
+      "topic": "VLA/WAM/Physical AI serving / action chunking / long-horizon execution / action representation",
+      "arxiv": "2608.29432",
+      "doi": "",
+      "official_id": "arXiv:2608.29432",
+      "paper_url": "https://arxiv.org/abs/2608.29432",
+      "code_url": "https://jongwoopark7978.github.io/smilevla/",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Uses B-spline coefficient action representation to smooth action chunks and enable longer fixed execution horizons without changing the VLA backbone. Reports 1.1x speedup on LIBERO with SMILE-Evo1 and 1.5x on CALVIN with SMILE-VPP while improving task quality; directly addresses amortized VLA inference efficiency and action execution stability.",
+      "published_at": "2026-08-29T20:37:00Z",
+      "updated_at": "2026-08-29T20:37:00Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
         "VLA / WAM / Physical AI"
       ]
     },
@@ -11297,6 +11448,27 @@
         "Efficient Attention",
         "GPU Kernel / DSL / Compiler",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Rethinking Language's Role in Efficient VLA for Autonomous Vehicles: Toward Smarter, Trustworthy Driving",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / autonomous driving / inference efficiency survey",
+      "arxiv": "2608.30144",
+      "doi": "",
+      "official_id": "arXiv:2608.30144",
+      "paper_url": "https://arxiv.org/abs/2608.30144",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI survey/taxonomy centered on where language should remain at inference time under onboard latency, memory, FLOPs and token budgets. Useful landscape and lineage source, but it is primarily a survey rather than a new serving/runtime mechanism, so retain as high-value watch.",
+      "published_at": "2026-08-31T01:51:51Z",
+      "updated_at": "2026-08-31T01:51:51Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
