@@ -1,6 +1,6 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **1396 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **1397 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
@@ -1655,6 +1655,12 @@
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **Canonical** | **Continuum: Efficient and Robust Multi-Turn LLM Agent Scheduling with KV Cache Time-to-Live** | arXiv 2025 / Berkeley EECS TR 2026 | agentic LLM serving; KV cache management; multi-turn scheduling; tool-aware serving | [Link](https://arxiv.org/abs/2511.02230) | [Repo](https://github.com/Hanchenli/vllm-continuum) |
+
+## arXiv 2025 technical report · 1
+
+| Priority | Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|---|
+| **Canonical** | **LMCache: An Efficient KV Cache Layer for Enterprise-Scale LLM Inference** | arXiv 2025 technical report | LLM serving / KV cache / prefix reuse / prefill-decode disaggregation / distributed inference | [Link](https://arxiv.org/abs/2510.09665) | [Repo](https://github.com/LMCache/LMCache) |
 
 ## arXiv 2026 / EMNLP 2026 main reported by author route · 1
 

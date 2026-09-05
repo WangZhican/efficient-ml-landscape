@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **1525 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **383 visible papers = 129 P0 + 134 P1 + 120 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1526 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **383 visible papers = 129 P0 + 134 P1 + 120 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -406,7 +406,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 1396
+## 🏛️ Classical / Historical · 1397
 
 ### ICML 2026 · 375
 
@@ -2059,6 +2059,12 @@
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **Canonical** | **Continuum: Efficient and Robust Multi-Turn LLM Agent Scheduling with KV Cache Time-to-Live** | arXiv 2025 / Berkeley EECS TR 2026 | agentic LLM serving; KV cache management; multi-turn scheduling; tool-aware serving | [Link](https://arxiv.org/abs/2511.02230) | [Repo](https://github.com/Hanchenli/vllm-continuum) |
+
+### arXiv 2025 technical report · 1
+
+| Priority | Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|---|
+| **Canonical** | **LMCache: An Efficient KV Cache Layer for Enterprise-Scale LLM Inference** | arXiv 2025 technical report | LLM serving / KV cache / prefix reuse / prefill-decode disaggregation / distributed inference | [Link](https://arxiv.org/abs/2510.09665) | [Repo](https://github.com/LMCache/LMCache) |
 
 ### arXiv 2026 / EMNLP 2026 main reported by author route · 1
 

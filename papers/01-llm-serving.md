@@ -1,6 +1,6 @@
 # 01 · LLM Serving
 
-> **646 canonical papers** mapped here, plus a broader **263-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **647 canonical papers** mapped here, plus a broader **263-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -272,7 +272,7 @@
 | **P1 · Watch** | **Edge-Native Embodied Intelligence for Action-Aware Wireless Edge Networks** | Fresh / preprint | VLA/WAM/Physical AI serving / edge-cloud / heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.17774) | — |
 | **P1 · Watch** | **An Internet for the KV Cache: Rethinking Classical Infrastructure Boundaries in the LLM Inference Age** | Fresh / preprint | KV cache / distributed serving / cloud-network-storage systems | [Link](https://arxiv.org/abs/2608.01526) | — |
 
-## 🏛️ Classical / Historical · 573 canonical
+## 🏛️ Classical / Historical · 574 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -301,6 +301,7 @@
 | **Canonical** | **Connex: Endpoint Mobility Primitives for Dynamic LLM Serving** | ACM SIGCOMM 2026 | LLM serving; distributed inference; GPU communication; elastic serving; worker migration; endpoint mobility | [Link](https://doi.org/10.1145/3789240.3829200) | — |
 | **Canonical** | **Coordinated Scheduling for MoE LLM Serving** | ACM SIGOPS Annual Technical Conference (ATC) 2026 / arXiv | MoE systems / LLM serving / coordinated scheduling / expert placement / KV-cache-aware routing | [Link](https://arxiv.org/abs/2606.15177) | — |
 | **Canonical** | **Continuum: Efficient and Robust Multi-Turn LLM Agent Scheduling with KV Cache Time-to-Live** | arXiv 2025 / Berkeley EECS TR 2026 | agentic LLM serving; KV cache management; multi-turn scheduling; tool-aware serving | [Link](https://arxiv.org/abs/2511.02230) | [Repo](https://github.com/Hanchenli/vllm-continuum) |
+| **Canonical** | **LMCache: An Efficient KV Cache Layer for Enterprise-Scale LLM Inference** | arXiv 2025 technical report | LLM serving / KV cache / prefix reuse / prefill-decode disaggregation / distributed inference | [Link](https://arxiv.org/abs/2510.09665) | [Repo](https://github.com/LMCache/LMCache) |
 | **Canonical** | **A1: A Fully Transparent Open-Source, Adaptive and Efficient Truncated Vision-Language-Action Model** | arXiv 2026 | VLA/WAM/Physical AI serving / adaptive early exit / flow action-head acceleration | [Link](https://arxiv.org/abs/2604.05672) | [Repo](https://github.com/ATeam-Research/A1) |
 | **Canonical** | **ActionCache: Training-Free Acceleration for Vision-Language-Action Models with Action Caching and Refinement** | arXiv 2026 | VLA/WAM/Physical AI serving / action cache / flow action-head acceleration | [Link](https://arxiv.org/abs/2607.06370) | — |
 | **Canonical** | **Architectural Implications of Agentic AI Workflows** | arXiv 2026 | efficient reasoning/agent systems / edge-cloud AI infrastructure | [Link](https://arxiv.org/abs/2608.04458) | — |

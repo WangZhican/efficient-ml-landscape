@@ -1979,6 +1979,28 @@
     ]
   },
   {
+    "title": "LMCache: An Efficient KV Cache Layer for Enterprise-Scale LLM Inference",
+    "venue": "arXiv 2025 technical report",
+    "topic": "LLM serving / KV cache / prefix reuse / prefill-decode disaggregation / distributed inference",
+    "arxiv": "2510.09665",
+    "doi": "",
+    "official_id": "arXiv:2510.09665",
+    "paper_url": "https://arxiv.org/abs/2510.09665",
+    "code_url": "https://github.com/LMCache/LMCache",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "LMCache is a direct enterprise-scale LLM inference infrastructure contribution. It exposes KV cache as a first-class cross-query/cross-engine storage and communication layer supporting prefix reuse, offloading, PD disaggregation, optimized KV movement and orchestration APIs; the paper reports up to 15x throughput improvement with vLLM and at least 2x lower latency across evaluated settings.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "A Universal Context-Reuse Layer for Cross-Model KV Sharing",
     "venue": "arXiv 2026",
     "topic": "KV cache / LLM serving / cross-model context reuse / multi-agent inference",

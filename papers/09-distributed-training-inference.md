@@ -1,6 +1,6 @@
 # 09 · Distributed Training / Inference
 
-> **295 canonical papers** mapped here, plus a broader **46-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **296 canonical papers** mapped here, plus a broader **46-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -55,7 +55,7 @@
 | **P1 · Watch** | **DEFT: Joint Task Placement and DVFS for Energy-Efficient Multi-GPU Runtimes** | Fresh / preprint | distributed runtime / multi-GPU / energy efficiency | [Link](https://arxiv.org/abs/2608.02122) | — |
 | **P1 · Watch** | **An Internet for the KV Cache: Rethinking Classical Infrastructure Boundaries in the LLM Inference Age** | Fresh / preprint | KV cache / distributed serving / cloud-network-storage systems | [Link](https://arxiv.org/abs/2608.01526) | — |
 
-## 🏛️ Classical / Historical · 270 canonical
+## 🏛️ Classical / Historical · 271 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -64,6 +64,7 @@
 | **Canonical** | **Compute Only 16 Tokens in One Timestep: Accelerating Diffusion Transformers with Cluster-Driven Feature Caching** | ACM Multimedia 2025 | diffusion token/feature caching | [Link](https://arxiv.org/abs/2509.10312) | — |
 | **Canonical** | **LVLM_CSP: Accelerating Large Vision Language Models via Clustering, Scattering, and Pruning for Reasoning Segmentation** | ACM Multimedia 2025 | multimodal/MLLM serving / sparsity-pruning / visual-token pruning | [Link](https://arxiv.org/abs/2504.10854) | — |
 | **Canonical** | **Connex: Endpoint Mobility Primitives for Dynamic LLM Serving** | ACM SIGCOMM 2026 | LLM serving; distributed inference; GPU communication; elastic serving; worker migration; endpoint mobility | [Link](https://doi.org/10.1145/3789240.3829200) | — |
+| **Canonical** | **LMCache: An Efficient KV Cache Layer for Enterprise-Scale LLM Inference** | arXiv 2025 technical report | LLM serving / KV cache / prefix reuse / prefill-decode disaggregation / distributed inference | [Link](https://arxiv.org/abs/2510.09665) | [Repo](https://github.com/LMCache/LMCache) |
 | **Canonical** | **CacheFlow: Efficient LLM Serving with 3D-Parallel KV Cache Restoration** | arXiv 2026 | LLM serving; KV-cache restoration; long-context inference; token/layer/GPU parallelism; compute-I/O overlap | [Link](https://arxiv.org/abs/2604.25080) | — |
 | **Canonical** | **NUNA: Characterizing and Mitigating Non-Uniform Network Access in Multi-Die GPU Scale-Up Systems** | arXiv 2026 | distributed inference / multi-die GPU / collectives / heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.00867) | — |
 | **Canonical** | **RAC: Reference-Aware Activation Compression for Communication-Efficient Split LLM Inference** | arXiv 2026 | distributed inference / edge-cloud / activation compression | [Link](https://arxiv.org/abs/2608.04991) | — |
