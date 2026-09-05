@@ -21742,6 +21742,27 @@
     ]
   },
   {
+    "title": "A Tensor Compiler for Processing-In-Memory Architectures",
+    "venue": "ISCA 2026",
+    "topic": "GPU kernel/DSL/compilers / processing-in-memory / heterogeneous AI systems / LLM inference",
+    "arxiv": "2511.15503",
+    "doi": "",
+    "official_id": "2511.15503",
+    "paper_url": "https://arxiv.org/abs/2511.15503",
+    "code_url": "https://github.com/SPIN-Research-Group/DCC",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "DCC is a direct ML compiler/architecture co-design contribution from the Toronto Pekhimenko / SPIN lineage. It jointly optimizes data rearrangement and compute schedules across PIM backends and reports up to 7.71x end-to-end LLM inference speedup over GPU-only execution on the evaluated AttAcc backend.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Accelerating MoE with Dynamic In-Switch Computing on Multi-GPUs",
     "venue": "ISCA 2026",
     "topic": "MoE / multi-GPU / in-switch computing",
