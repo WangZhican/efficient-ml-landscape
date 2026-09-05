@@ -2160,6 +2160,27 @@
     ]
   },
   {
+    "title": "FlowPrefill: Decoupling Preemption from Prefill Scheduling Granularity to Mitigate Head-of-Line Blocking in LLM Serving",
+    "venue": "arXiv 2026",
+    "topic": "LLM serving / prefill scheduling / operator-level preemption / SLO goodput",
+    "arxiv": "2602.16603",
+    "doi": "",
+    "official_id": "arXiv:2602.16603",
+    "paper_url": "https://arxiv.org/abs/2602.16603",
+    "code_url": "https://github.com/ChiachiHsieh/FlowPrefill",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Direct LLM-serving systems work that decouples preemption granularity from scheduling frequency via operator-level preemption and event-driven scheduling; reports up to 5.6x maximum goodput while satisfying heterogeneous SLOs on production traces.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Foundry: Template-Based CUDA Graph Context Materialization for Fast LLM Serving Cold Start",
     "venue": "arXiv 2026",
     "topic": "LLM serving / CUDA graph / cold-start / autoscaling",

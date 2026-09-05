@@ -1,10 +1,10 @@
 # 🧭 Research Map
 
-> **1520 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
+> **1521 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
 
 <div align="center">
 
-[**🆕 Latest 30 Days · 378 tracked**](LATEST_30D.md) · [**🏛️ Classical · 1394**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
+[**🆕 Latest 30 Days · 378 tracked**](LATEST_30D.md) · [**🏛️ Classical · 1395**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
 
 </div>
 
@@ -12,7 +12,7 @@
 
 | # | Research direction | Canonical | Latest 30d tracked |
 |---:|---|---:|---:|
-| 01 | [**LLM Serving**](01-llm-serving.md) | **643** | **258** |
+| 01 | [**LLM Serving**](01-llm-serving.md) | **644** | **258** |
 | 02 | [**Speculative Decoding**](02-speculative-decoding.md) | **191** | **32** |
 | 03 | [**KV Cache / Long Context**](03-kv-cache-long-context.md) | **383** | **78** |
 | 04 | [**Quantization**](04-quantization.md) | **216** | **61** |
@@ -26,7 +26,7 @@
 | 12 | [**Diffusion / Flow Acceleration**](12-diffusion-flow.md) | **188** | **39** |
 | 13 | [**Efficient Reasoning / Agents**](13-efficient-reasoning-agents.md) | **258** | **63** |
 | 14 | [**VLA / WAM / Physical AI**](14-physical-ai-vla-wam.md) | **103** | **67** |
-| 15 | [**Edge / Cloud / Heterogeneous AI**](15-edge-cloud-heterogeneous.md) | **317** | **111** |
+| 15 | [**Edge / Cloud / Heterogeneous AI**](15-edge-cloud-heterogeneous.md) | **318** | **111** |
 
 > Counts are multi-label and therefore do not sum to the unique-paper total. A canonical paper can intentionally appear in several directions.
 

@@ -1,6 +1,6 @@
 # 01 · LLM Serving
 
-> **643 canonical papers** mapped here, plus a broader **258-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **644 canonical papers** mapped here, plus a broader **258-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -267,7 +267,7 @@
 | **P1 · Watch** | **Edge-Native Embodied Intelligence for Action-Aware Wireless Edge Networks** | Fresh / preprint | VLA/WAM/Physical AI serving / edge-cloud / heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.17774) | — |
 | **P1 · Watch** | **An Internet for the KV Cache: Rethinking Classical Infrastructure Boundaries in the LLM Inference Age** | Fresh / preprint | KV cache / distributed serving / cloud-network-storage systems | [Link](https://arxiv.org/abs/2608.01526) | — |
 
-## 🏛️ Classical / Historical · 573 canonical
+## 🏛️ Classical / Historical · 574 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -302,6 +302,7 @@
 | **Canonical** | **BaseRT: Advancing Best-in-Class LLM Inference with Apple M5 Neural Accelerators** | arXiv 2026 | edge/on-device LLM inference; Apple M5 neural accelerators; Metal 4 tensor kernels; MoE; attention | [Link](https://arxiv.org/abs/2607.19438) | [Repo](https://github.com/basecompute/baseRT) |
 | **Canonical** | **BaseRT: Best-in-Class LLM Inference on Apple Silicon via Native Metal** | arXiv 2026 | edge/on-device LLM inference runtime; Apple Silicon; Metal kernels; quantization | [Link](https://arxiv.org/abs/2607.00501) | [Repo](https://github.com/basecompute/baseRT) |
 | **Canonical** | **CacheFlow: Efficient LLM Serving with 3D-Parallel KV Cache Restoration** | arXiv 2026 | LLM serving; KV-cache restoration; long-context inference; token/layer/GPU parallelism; compute-I/O overlap | [Link](https://arxiv.org/abs/2604.25080) | — |
+| **Canonical** | **FlowPrefill: Decoupling Preemption from Prefill Scheduling Granularity to Mitigate Head-of-Line Blocking in LLM Serving** | arXiv 2026 | LLM serving / prefill scheduling / operator-level preemption / SLO goodput | [Link](https://arxiv.org/abs/2602.16603) | [Repo](https://github.com/ChiachiHsieh/FlowPrefill) |
 | **Canonical** | **Foundry: Template-Based CUDA Graph Context Materialization for Fast LLM Serving Cold Start** | arXiv 2026 | LLM serving / CUDA graph / cold-start / autoscaling | [Link](https://arxiv.org/abs/2604.06664) | — |
 | **Canonical** | **KAIROS: Stateful, Context-Aware Power-Efficient Agentic Inference Serving** | arXiv 2026 | agentic LLM serving; power efficiency; context-aware GPU DVFS; memory-aware scheduling; multi-instance routing | [Link](https://arxiv.org/abs/2604.16682) | — |
 | **Canonical** | **Learning Agent Execution for KV-Cache Management in Agentic Serving** | arXiv 2026 | LLM serving / agent systems / KV cache / cache eviction / prefetching | [Link](https://arxiv.org/abs/2608.14624) | — |

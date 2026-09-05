@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **1520 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **378 visible papers = 126 P0 + 132 P1 + 120 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1521 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **378 visible papers = 126 P0 + 132 P1 + 120 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -401,7 +401,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 1394
+## 🏛️ Classical / Historical · 1395
 
 ### ICML 2026 · 376
 
@@ -901,7 +901,7 @@
 | **Canonical** | **ZipServ** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | — | — |
 | **Canonical** | **ZipServ: Fast and Memory-Efficient LLM Inference with Hardware-Aware Lossless Compression** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://arxiv.org/abs/2603.17435) | — |
 
-### arXiv 2026 · 43
+### arXiv 2026 · 44
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -913,6 +913,7 @@
 | **Canonical** | **BaseRT: Best-in-Class LLM Inference on Apple Silicon via Native Metal** | arXiv 2026 | edge/on-device LLM inference runtime; Apple Silicon; Metal kernels; quantization | [Link](https://arxiv.org/abs/2607.00501) | [Repo](https://github.com/basecompute/baseRT) |
 | **Canonical** | **CacheFlow: Efficient LLM Serving with 3D-Parallel KV Cache Restoration** | arXiv 2026 | LLM serving; KV-cache restoration; long-context inference; token/layer/GPU parallelism; compute-I/O overlap | [Link](https://arxiv.org/abs/2604.25080) | — |
 | **Canonical** | **Compiler-Grounded Hierarchical Diagnosis for LLM-Based Triton Kernel Optimization** | arXiv 2026 | GPU kernel/DSL/compilers / NPU kernel optimization | [Link](https://arxiv.org/abs/2607.23089) | — |
+| **Canonical** | **FlowPrefill: Decoupling Preemption from Prefill Scheduling Granularity to Mitigate Head-of-Line Blocking in LLM Serving** | arXiv 2026 | LLM serving / prefill scheduling / operator-level preemption / SLO goodput | [Link](https://arxiv.org/abs/2602.16603) | [Repo](https://github.com/ChiachiHsieh/FlowPrefill) |
 | **Canonical** | **Foundry: Template-Based CUDA Graph Context Materialization for Fast LLM Serving Cold Start** | arXiv 2026 | LLM serving / CUDA graph / cold-start / autoscaling | [Link](https://arxiv.org/abs/2604.06664) | — |
 | **Canonical** | **Grid Games: The Power of Multiple Grids for Quantizing Large Language Models** | arXiv 2026 | LLM quantization; microscaled FP4; adaptive grids; hardware data formats | [Link](https://arxiv.org/abs/2605.12327) | [Repo](https://github.com/IST-DASLab/GridGames) |
 | **Canonical** | **GSQ: Highly-Accurate Low-Precision Scalar Quantization for LLMs via Gumbel-Softmax Sampling** | arXiv 2026 | LLM quantization / 1-3 bit scalar PTQ / kernel-compatible deployment / MoE compression | [Link](https://arxiv.org/abs/2604.18556) | [Repo](https://github.com/IST-DASLab/GSQ) |
