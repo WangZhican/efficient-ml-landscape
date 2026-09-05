@@ -1979,6 +1979,29 @@
     ]
   },
   {
+    "title": "A Universal Context-Reuse Layer for Cross-Model KV Sharing",
+    "venue": "arXiv 2026",
+    "topic": "KV cache / LLM serving / cross-model context reuse / multi-agent inference",
+    "arxiv": "2608.30963",
+    "doi": "",
+    "official_id": "arXiv:2608.30963",
+    "paper_url": "https://arxiv.org/abs/2608.30963",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Introduces cross-model KV sharing across different model scales, architectures, attention configurations, tokenizers and families. Reports up to 67.05% target-side prefill reduction at 4K context and a Llama3.1-70B to Qwen2.5-7B handoff reducing measured latency from 899 ms to 138 ms with near-native accuracy.",
+    "published_at": "2026-08-31T15:28:17Z",
+    "updated_at": "2026-08-31T15:28:17Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Attention",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "A1: A Fully Transparent Open-Source, Adaptive and Efficient Truncated Vision-Language-Action Model",
     "venue": "arXiv 2026",
     "topic": "VLA/WAM/Physical AI serving / adaptive early exit / flow action-head acceleration",
@@ -2924,6 +2947,27 @@
       "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "OCGQuant: Outlier-Companion Grouping for NVFP4 Quantization",
+    "venue": "arXiv 2026",
+    "topic": "quantization / NVFP4 / LLM inference / activation outliers",
+    "arxiv": "2609.00066",
+    "doi": "",
+    "official_id": "arXiv:2609.00066",
+    "paper_url": "https://arxiv.org/abs/2609.00066",
+    "code_url": "https://github.com/Eshamont/OCGQuant",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "NVFP4-specific PTQ method that reduces collateral block quantization error by pairing outlier channels with low-magnitude companions. On Llama3/Qwen3 it reports the best evaluated perplexity/downstream accuracy while keeping prefill speedup close to RTN and matching RTN peak decoding memory.",
+    "published_at": "2026-08-30T16:00:11Z",
+    "updated_at": "2026-08-30T16:00:11Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Quantization"
     ]
   },
   {

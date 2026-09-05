@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-05",
   "window_start_beijing": "2026-08-06",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 378,
+  "tracked_total": 382,
   "p0_strong_or_canonical": [
     {
       "title": "Para-Pipe: Exploiting Hierarchical Operator Parallelism of ML Computational Graphs on SoCs",
@@ -812,6 +812,29 @@
       ]
     },
     {
+      "title": "A Universal Context-Reuse Layer for Cross-Model KV Sharing",
+      "venue": "arXiv 2026",
+      "topic": "KV cache / LLM serving / cross-model context reuse / multi-agent inference",
+      "arxiv": "2608.30963",
+      "doi": "",
+      "official_id": "arXiv:2608.30963",
+      "paper_url": "https://arxiv.org/abs/2608.30963",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Introduces cross-model KV sharing across different model scales, architectures, attention configurations, tokenizers and families. Reports up to 67.05% target-side prefill reduction at 4K context and a Llama3.1-70B to Qwen2.5-7B handoff reducing measured latency from 899 ms to 138 ms with near-native accuracy.",
+      "published_at": "2026-08-31T15:28:17Z",
+      "updated_at": "2026-08-31T15:28:17Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Efficient Attention",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "DASC: Decay-Aware State Compression for Hybrid Linear-Attention Serving",
       "venue": "Fresh / preprint",
       "topic": "LLM serving / state cache / hybrid linear attention",
@@ -898,6 +921,27 @@
         "Quantization",
         "Sparsity / Pruning",
         "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "OCGQuant: Outlier-Companion Grouping for NVFP4 Quantization",
+      "venue": "arXiv 2026",
+      "topic": "quantization / NVFP4 / LLM inference / activation outliers",
+      "arxiv": "2609.00066",
+      "doi": "",
+      "official_id": "arXiv:2609.00066",
+      "paper_url": "https://arxiv.org/abs/2609.00066",
+      "code_url": "https://github.com/Eshamont/OCGQuant",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "NVFP4-specific PTQ method that reduces collateral block quantization error by pairing outlier channels with low-magnitude companions. On Llama3/Qwen3 it reports the best evaluated perplexity/downstream accuracy while keeping prefill speedup close to RTN and matching RTN peak decoding memory.",
+      "published_at": "2026-08-30T16:00:11Z",
+      "updated_at": "2026-08-30T16:00:11Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Quantization"
       ]
     },
     {
@@ -2820,6 +2864,28 @@
       ]
     },
     {
+      "title": "EmbodiedSkills: A Unified Framework for Orchestrating, Training, and Deploying VLA Agents",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / embodied agent runtime / skill orchestration",
+      "arxiv": "2609.01281",
+      "doi": "",
+      "official_id": "arXiv:2609.01281",
+      "paper_url": "https://arxiv.org/abs/2609.01281",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI framework with a fixed executable-skill interface connecting skill selection, bounded VLA execution, post-action verification and recovery. Strong runtime/agent-systems relevance, but current evaluation emphasizes task success rather than serving latency/throughput efficiency; retain as P1 watch.",
+      "published_at": "2026-09-01T14:14:47Z",
+      "updated_at": "2026-09-01T14:14:47Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "CHIPSMORE: Compute-in-Interconnect and -Memory Chiplets for Multi-Mode Multi-Request LLM Inference Acceleration",
       "venue": "",
       "topic": "edge/cloud/heterogeneous AI systems / LLM accelerator",
@@ -2836,6 +2902,31 @@
       "updated_at": "2026-08-31T09:43:07Z",
       "is_latest_30d": true,
       "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Event-Driven Language Models with Sparse Neural Activity for Neuromorphic Hardware",
+      "venue": "arXiv 2026",
+      "topic": "sparsity / quantization / linear attention / neuromorphic edge inference",
+      "arxiv": "2608.30439",
+      "doi": "",
+      "official_id": "arXiv:2608.30439",
+      "paper_url": "https://arxiv.org/abs/2608.30439",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct hardware-efficiency route inducing sparse neural activity in heavily quantized linear-attention models, with up to 4x fewer effective arithmetic operations. Projects up to 37x throughput and 16x lower power versus edge-GPU inference on the target neuromorphic platform, but hardware results are projection-heavy, so retain as P1 watch.",
+      "published_at": "2026-08-31T08:28:01Z",
+      "updated_at": "2026-08-31T08:28:01Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Sparsity / Pruning",
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -9042,6 +9133,29 @@
       ]
     },
     {
+      "title": "A Universal Context-Reuse Layer for Cross-Model KV Sharing",
+      "venue": "arXiv 2026",
+      "topic": "KV cache / LLM serving / cross-model context reuse / multi-agent inference",
+      "arxiv": "2608.30963",
+      "doi": "",
+      "official_id": "arXiv:2608.30963",
+      "paper_url": "https://arxiv.org/abs/2608.30963",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Introduces cross-model KV sharing across different model scales, architectures, attention configurations, tokenizers and families. Reports up to 67.05% target-side prefill reduction at 4K context and a Llama3.1-70B to Qwen2.5-7B handoff reducing measured latency from 899 ms to 138 ms with near-native accuracy.",
+      "published_at": "2026-08-31T15:28:17Z",
+      "updated_at": "2026-08-31T15:28:17Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Efficient Attention",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "DASC: Decay-Aware State Compression for Hybrid Linear-Attention Serving",
       "venue": "Fresh / preprint",
       "topic": "LLM serving / state cache / hybrid linear attention",
@@ -9128,6 +9242,27 @@
         "Quantization",
         "Sparsity / Pruning",
         "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "OCGQuant: Outlier-Companion Grouping for NVFP4 Quantization",
+      "venue": "arXiv 2026",
+      "topic": "quantization / NVFP4 / LLM inference / activation outliers",
+      "arxiv": "2609.00066",
+      "doi": "",
+      "official_id": "arXiv:2609.00066",
+      "paper_url": "https://arxiv.org/abs/2609.00066",
+      "code_url": "https://github.com/Eshamont/OCGQuant",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "NVFP4-specific PTQ method that reduces collateral block quantization error by pairing outlier channels with low-magnitude companions. On Llama3/Qwen3 it reports the best evaluated perplexity/downstream accuracy while keeping prefill speedup close to RTN and matching RTN peak decoding memory.",
+      "published_at": "2026-08-30T16:00:11Z",
+      "updated_at": "2026-08-30T16:00:11Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Quantization"
       ]
     },
     {
@@ -11048,6 +11183,28 @@
       ]
     },
     {
+      "title": "EmbodiedSkills: A Unified Framework for Orchestrating, Training, and Deploying VLA Agents",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / embodied agent runtime / skill orchestration",
+      "arxiv": "2609.01281",
+      "doi": "",
+      "official_id": "arXiv:2609.01281",
+      "paper_url": "https://arxiv.org/abs/2609.01281",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI framework with a fixed executable-skill interface connecting skill selection, bounded VLA execution, post-action verification and recovery. Strong runtime/agent-systems relevance, but current evaluation emphasizes task success rather than serving latency/throughput efficiency; retain as P1 watch.",
+      "published_at": "2026-09-01T14:14:47Z",
+      "updated_at": "2026-09-01T14:14:47Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "CHIPSMORE: Compute-in-Interconnect and -Memory Chiplets for Multi-Mode Multi-Request LLM Inference Acceleration",
       "venue": "",
       "topic": "edge/cloud/heterogeneous AI systems / LLM accelerator",
@@ -11064,6 +11221,31 @@
       "updated_at": "2026-08-31T09:43:07Z",
       "is_latest_30d": true,
       "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Event-Driven Language Models with Sparse Neural Activity for Neuromorphic Hardware",
+      "venue": "arXiv 2026",
+      "topic": "sparsity / quantization / linear attention / neuromorphic edge inference",
+      "arxiv": "2608.30439",
+      "doi": "",
+      "official_id": "arXiv:2608.30439",
+      "paper_url": "https://arxiv.org/abs/2608.30439",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct hardware-efficiency route inducing sparse neural activity in heavily quantized linear-attention models, with up to 4x fewer effective arithmetic operations. Projects up to 37x throughput and 16x lower power versus edge-GPU inference on the target neuromorphic platform, but hardware results are projection-heavy, so retain as P1 watch.",
+      "published_at": "2026-08-31T08:28:01Z",
+      "updated_at": "2026-08-31T08:28:01Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Sparsity / Pruning",
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
