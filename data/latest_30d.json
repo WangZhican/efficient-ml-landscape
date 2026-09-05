@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-05",
   "window_start_beijing": "2026-08-06",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 387,
+  "tracked_total": 388,
   "p0_strong_or_canonical": [
     {
       "title": "Para-Pipe: Exploiting Hierarchical Operator Parallelism of ML Computational Graphs on SoCs",
@@ -2598,6 +2598,26 @@
         "KV Cache / Long Context",
         "MoE Systems / Accelerators",
         "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "QUASAR: Lowering the Loss Floor of Quantization-Aware Training with Loss-Aware Reconstruction",
+      "venue": "arXiv 2026",
+      "topic": "quantization / quantization-aware training / low-bit LLM deployment / NVFP4",
+      "arxiv": "2608.13966",
+      "doi": "",
+      "official_id": "arXiv:2608.13966",
+      "paper_url": "https://arxiv.org/abs/2608.13966",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "QUASAR is a current low-bit LLM QAT method that continuously performs lightweight loss-aware reconstruction inside training, supports standard integer/NVFP4 deployment with no inference-time changes, and improves held-out KL and downstream accuracy at 2-4 bits over strong QAT/PTQ baselines. It is directly relevant to Efficient ML low-precision deployment.",
+      "published_at": "2026-08-14T05:29:58Z",
+      "updated_at": "2026-08-14T05:29:58Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Quantization"
       ]
     },
     {
@@ -11030,6 +11050,26 @@
         "KV Cache / Long Context",
         "MoE Systems / Accelerators",
         "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "QUASAR: Lowering the Loss Floor of Quantization-Aware Training with Loss-Aware Reconstruction",
+      "venue": "arXiv 2026",
+      "topic": "quantization / quantization-aware training / low-bit LLM deployment / NVFP4",
+      "arxiv": "2608.13966",
+      "doi": "",
+      "official_id": "arXiv:2608.13966",
+      "paper_url": "https://arxiv.org/abs/2608.13966",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "QUASAR is a current low-bit LLM QAT method that continuously performs lightweight loss-aware reconstruction inside training, supports standard integer/NVFP4 deployment with no inference-time changes, and improves held-out KL and downstream accuracy at 2-4 bits over strong QAT/PTQ baselines. It is directly relevant to Efficient ML low-precision deployment.",
+      "published_at": "2026-08-14T05:29:58Z",
+      "updated_at": "2026-08-14T05:29:58Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Quantization"
       ]
     },
     {

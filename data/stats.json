@@ -1,19 +1,19 @@
 {
-  "unique_papers": 1531,
-  "latest_30d_tracked_total": 387,
-  "latest_30d_quality_gated": 132,
+  "unique_papers": 1532,
+  "latest_30d_tracked_total": 388,
+  "latest_30d_quality_gated": 133,
   "latest_30d_watchlist": 135,
   "latest_30d_relevant_low_priority": 120,
   "classical_papers": 1399,
   "latest_strong": 45,
-  "papers_with_primary_link": 1509,
+  "papers_with_primary_link": 1510,
   "papers_with_verified_code_link": 427,
   "venues": 84,
   "direction_counts": {
     "LLM Serving": 652,
     "Speculative Decoding": 194,
     "KV Cache / Long Context": 386,
-    "Quantization": 217,
+    "Quantization": 218,
     "Sparsity / Pruning": 237,
     "Efficient Attention": 225,
     "MoE Systems / Accelerators": 122,
@@ -33,5 +33,5 @@
   "venue_active_round_checked": 22,
   "venue_active_round_status": "IN_PROGRESS_NONZERO",
   "source_date_beijing": "2026-09-05",
-  "updated_at_beijing": "2026-09-05T19:04:57+08:00"
+  "updated_at_beijing": "2026-09-05T20:03:42+08:00"
 }
