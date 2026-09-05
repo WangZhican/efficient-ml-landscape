@@ -1,6 +1,6 @@
 # 02 · Speculative Decoding
 
-> **193 canonical papers** mapped here, plus a broader **33-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **194 canonical papers** mapped here, plus a broader **33-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -42,7 +42,7 @@
 | **P2 · Relevant** | **DraftExpert: Expansion-Aware Self-Speculative Decoding for End-Device MoE Inference** | Fresh / preprint | llm_serving / spec / moe / edge | [Link](https://arxiv.org/abs/2607.24434) | — |
 | **P2 · Relevant** | **SpecBox: Speculative Sandbox Scheduling for Efficient LLM Agent Serving** | Fresh / preprint | llm_serving / agent | [Link](https://arxiv.org/abs/2607.23933) | — |
 
-## 🏛️ Classical / Historical · 181 canonical
+## 🏛️ Classical / Historical · 182 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -71,6 +71,7 @@
 | **Canonical** | **RTP-LLM: High-Performance Alibaba LLM Inference Engine** | arXiv 2026 | LLM serving / KV cache / speculative decoding / quantization / multimodal serving | [Link](https://arxiv.org/abs/2605.29639) | [Repo](https://github.com/alibaba/rtp-llm) |
 | **Canonical** | **Speculative Interaction Agents: Building Real-Time Agents with Asynchronous I/O and Speculative Tool Calling** | arXiv 2026 | efficient reasoning/agent systems / asynchronous I/O / speculative tool calling / low-latency interactive agents | [Link](https://arxiv.org/abs/2605.13360) | — |
 | **Canonical** | **EfficientRollout: System-Aware Self-Speculative Decoding for RL Rollouts** | arXiv 2026 / ICML 2026 AdaptFM Workshop | efficient reasoning / RL rollout systems / speculative decoding | [Link](https://arxiv.org/abs/2606.18967) | [Repo](https://github.com/furiosa-ai/EfficientRollout) |
+| **Canonical** | **VeriCache: Turning Lossy KV Cache into Lossless LLM Inference** | arXiv 2026 technical report | LLM serving / KV cache / lossless compression / speculative verification / long-context inference | [Link](https://arxiv.org/abs/2605.17613) | — |
 | **Canonical** | **DFVG** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://doi.org/10.1145/3779212.3790153) | — |
 | **Canonical** | **DFVG: A Heterogeneous Architecture for Speculative Decoding with Draft-on-FPGA and Verify-on-GPU** | ASPLOS 2026 | speculative decoding / heterogeneous GPU-FPGA / LLM accelerator | [Link](https://www.asplos-conference.org/asplos2026/program/) | [Repo](https://github.com/ShaoqiangLu/DFVG) |
 | **Canonical** | **EARTH: An Efficient MoE Accelerator with Entropy-Aware Speculative Prefetch and Result Reuse** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://doi.org/10.1145/3779212.3790155) | — |

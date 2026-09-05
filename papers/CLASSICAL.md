@@ -1,6 +1,6 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **1397 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **1398 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
@@ -1673,6 +1673,12 @@
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **Canonical** | **EfficientRollout: System-Aware Self-Speculative Decoding for RL Rollouts** | arXiv 2026 / ICML 2026 AdaptFM Workshop | efficient reasoning / RL rollout systems / speculative decoding | [Link](https://arxiv.org/abs/2606.18967) | [Repo](https://github.com/furiosa-ai/EfficientRollout) |
+
+## arXiv 2026 technical report · 1
+
+| Priority | Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|---|
+| **Canonical** | **VeriCache: Turning Lossy KV Cache into Lossless LLM Inference** | arXiv 2026 technical report | LLM serving / KV cache / lossless compression / speculative verification / long-context inference | [Link](https://arxiv.org/abs/2605.17613) | — |
 
 ## COLM 2026 · 1
 

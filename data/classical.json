@@ -3048,6 +3048,28 @@
     ]
   },
   {
+    "title": "VeriCache: Turning Lossy KV Cache into Lossless LLM Inference",
+    "venue": "arXiv 2026 technical report",
+    "topic": "LLM serving / KV cache / lossless compression / speculative verification / long-context inference",
+    "arxiv": "2605.17613",
+    "doi": "",
+    "official_id": "arXiv:2605.17613",
+    "paper_url": "https://arxiv.org/abs/2605.17613",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "VeriCache is a direct KV-cache serving mechanism that converts lossy KV compression into output-identical inference by drafting with compressed KV and verifying against full KV loaded from secondary storage. Its runtime overlaps HBM-bound drafting with PCIe/network-bound full-KV movement, uses long accepted runs to amortize verification, applies to long-context decoding and remote prefix caching, and reports up to 4x higher throughput than full-KV inference while preserving identical greedy-decoding outputs.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "KV Cache / Long Context"
+    ]
+  },
+  {
     "title": "A Cost-Effective Near-Storage Processing Solution for Offline Inference of Long-Context LLMs",
     "venue": "ASPLOS 2026",
     "topic": "LLM serving / long context / near-storage processing",

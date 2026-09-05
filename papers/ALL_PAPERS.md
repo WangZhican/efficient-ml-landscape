@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **1529 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **387 visible papers = 132 P0 + 135 P1 + 120 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1530 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **387 visible papers = 132 P0 + 135 P1 + 120 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -410,7 +410,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 1397
+## 🏛️ Classical / Historical · 1398
 
 ### ICML 2026 · 375
 
@@ -2081,6 +2081,12 @@
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **Canonical** | **EfficientRollout: System-Aware Self-Speculative Decoding for RL Rollouts** | arXiv 2026 / ICML 2026 AdaptFM Workshop | efficient reasoning / RL rollout systems / speculative decoding | [Link](https://arxiv.org/abs/2606.18967) | [Repo](https://github.com/furiosa-ai/EfficientRollout) |
+
+### arXiv 2026 technical report · 1
+
+| Priority | Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|---|
+| **Canonical** | **VeriCache: Turning Lossy KV Cache into Lossless LLM Inference** | arXiv 2026 technical report | LLM serving / KV cache / lossless compression / speculative verification / long-context inference | [Link](https://arxiv.org/abs/2605.17613) | — |
 
 ### COLM 2026 · 1
 
