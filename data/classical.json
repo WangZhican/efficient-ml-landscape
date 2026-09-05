@@ -1979,6 +1979,29 @@
     ]
   },
   {
+    "title": "FlowKV: A Disaggregated Inference Framework with Low-Latency KV Cache Transfer and Load-Aware Scheduling",
+    "venue": "arXiv 2025 technical report",
+    "topic": "LLM serving / prefill-decode disaggregation / KV cache transfer / load-aware scheduling / heterogeneous GPU inference",
+    "arxiv": "2504.03775",
+    "doi": "",
+    "official_id": "arXiv:2504.03775",
+    "paper_url": "https://arxiv.org/abs/2504.03775",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "FlowKV is a direct LLM serving system for prefill/decode disaggregation. It redesigns KV-cache layout/allocation to reduce transfer-call overhead and adds load-aware scheduling with flexible P/D role allocation. The primary paper reports average KV-transfer latency dropping from 0.944s to 0.053s (96%) and 15.2%-48.9% inference acceleration on LongBench, including heterogeneous-GPU scenarios. This is a canonical systems-level lineage item rather than a generic KV-compression algorithm.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "LMCache: An Efficient KV Cache Layer for Enterprise-Scale LLM Inference",
     "venue": "arXiv 2025 technical report",
     "topic": "LLM serving / KV cache / prefix reuse / prefill-decode disaggregation / distributed inference",
