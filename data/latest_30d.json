@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-05",
   "window_start_beijing": "2026-08-06",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 382,
+  "tracked_total": 383,
   "p0_strong_or_canonical": [
     {
       "title": "Para-Pipe: Exploiting Hierarchical Operator Parallelism of ML Computational Graphs on SoCs",
@@ -832,6 +832,31 @@
         "KV Cache / Long Context",
         "Efficient Attention",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Faster Than Flash: Exploiting Attention Sparsity for Efficient Long-Context Decoding",
+      "venue": "ICML 2026",
+      "topic": "long-context LLM decoding / sparse attention / fused Triton kernel",
+      "arxiv": "2609.00097",
+      "doi": "",
+      "official_id": "ICML2026_R8YHLMRUR2",
+      "paper_url": "https://arxiv.org/abs/2609.00097",
+      "code_url": "https://github.com/qluoluo/faster-flash-decoding",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "BACKFILL_HIGH",
+      "why": "ICML 2026; hardware-algorithm co-design with low-bit content-aware scanning, top-delta sparsity and fused selector-compute Triton kernels; reports up to 11.6x kernel and 2.37x end-to-end throughput gains.",
+      "published_at": "2026-08-31T15:13:20Z",
+      "updated_at": "2026-08-31T15:13:20Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Quantization",
+        "Sparsity / Pruning",
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler"
       ]
     },
     {
@@ -9153,6 +9178,31 @@
         "KV Cache / Long Context",
         "Efficient Attention",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Faster Than Flash: Exploiting Attention Sparsity for Efficient Long-Context Decoding",
+      "venue": "ICML 2026",
+      "topic": "long-context LLM decoding / sparse attention / fused Triton kernel",
+      "arxiv": "2609.00097",
+      "doi": "",
+      "official_id": "ICML2026_R8YHLMRUR2",
+      "paper_url": "https://arxiv.org/abs/2609.00097",
+      "code_url": "https://github.com/qluoluo/faster-flash-decoding",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "BACKFILL_HIGH",
+      "why": "ICML 2026; hardware-algorithm co-design with low-bit content-aware scanning, top-delta sparsity and fused selector-compute Triton kernels; reports up to 11.6x kernel and 2.37x end-to-end throughput gains.",
+      "published_at": "2026-08-31T15:13:20Z",
+      "updated_at": "2026-08-31T15:13:20Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Quantization",
+        "Sparsity / Pruning",
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler"
       ]
     },
     {

@@ -1,13 +1,13 @@
 {
   "unique_papers": 1525,
-  "latest_30d_tracked_total": 382,
-  "latest_30d_quality_gated": 128,
+  "latest_30d_tracked_total": 383,
+  "latest_30d_quality_gated": 129,
   "latest_30d_watchlist": 134,
   "latest_30d_relevant_low_priority": 120,
-  "classical_papers": 1397,
+  "classical_papers": 1396,
   "latest_strong": 45,
   "papers_with_primary_link": 1503,
-  "papers_with_verified_code_link": 423,
+  "papers_with_verified_code_link": 424,
   "venues": 81,
   "direction_counts": {
     "LLM Serving": 646,
@@ -33,5 +33,5 @@
   "venue_active_round_checked": 22,
   "venue_active_round_status": "IN_PROGRESS_NONZERO",
   "source_date_beijing": "2026-09-05",
-  "updated_at_beijing": "2026-09-05T13:03:21+08:00"
+  "updated_at_beijing": "2026-09-05T13:05:52+08:00"
 }
