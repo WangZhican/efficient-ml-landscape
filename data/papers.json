@@ -10372,6 +10372,49 @@
     ]
   },
   {
+    "title": "QTEA: Ternary LLMs with Sparse Residual Salient Weight and By-Column Optimization",
+    "venue": "Fresh / preprint",
+    "topic": "quantization / sparse residual / GPU inference",
+    "arxiv": "2609.00224",
+    "doi": "",
+    "official_id": "arXiv:2609.00224",
+    "paper_url": "https://arxiv.org/abs/2609.00224",
+    "code_url": "https://github.com/Intelligent-Microsystems-Lab/QTEA",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Sub-2-bit weight-only PTQ with semi-structured 1:4 salient residuals, GPTQ-style column refinement, and a lookup-table GPU kernel; reports effective 1.7 bits/weight on Qwen3-14B, strong accuracy/perplexity gains, and 7.2x faster per-token generation than FP16. Directly relevant to efficient LLM inference and hardware-friendly quantization.",
+    "published_at": "2026-08-31T18:33:36Z",
+    "updated_at": "2026-09-02T07:12:48Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Quantization",
+      "Sparsity / Pruning",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "RegionCache: Semantic-Aware Region Reuse for Efficient Multi-Turn Image Generation",
+    "venue": "Fresh / preprint",
+    "topic": "video/image generation acceleration / diffusion cache",
+    "arxiv": "2608.29809",
+    "doi": "",
+    "official_id": "arXiv:2608.29809",
+    "paper_url": "https://arxiv.org/abs/2608.29809",
+    "code_url": "https://github.com/hebutBryant/RegionCache",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Semantic-aware regional diffusion-state reuse for multi-turn DiT image editing; avoids recomputing unchanged regions and reports 1.43x-2.55x end-to-end speedup with comparable quality. Direct systems/algorithm acceleration contribution with public author code.",
+    "published_at": "2026-08-30T14:21:46Z",
+    "updated_at": "2026-08-30T14:21:46Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "Strong Drafts Need Compact Memories: Long-Context Speculative Decoding with Compressed KV Cache",
     "venue": "Fresh / preprint",
     "topic": "speculative decoding / KV cache / long-context serving",
