@@ -3703,6 +3703,28 @@
     ]
   },
   {
+    "title": "Thought-Level Beam Search for Reasoning",
+    "venue": "arXiv 2026",
+    "topic": "efficient reasoning / inference-time compute / LLM serving / vLLM runtime",
+    "arxiv": "2608.08020",
+    "doi": "",
+    "official_id": "arXiv:2608.08020",
+    "paper_url": "https://arxiv.org/abs/2608.08020",
+    "code_url": "https://github.com/Dao-AILab/gambit-parallel-reasoning",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Gambit treats test-time reasoning as hardware-constrained compute allocation over partial trajectories. It performs synchronized prune-and-branch thought-level beam search with lightweight hidden-state scoring and a constant-size active pool, maintaining hardware utilization while reducing wasted reasoning tokens. The paper reports >2x productive trace throughput, up to 68.5% fewer tokens than standard parallel sampling, <1% system overhead, and accuracy gains under identical hardware budgets.",
+    "published_at": "2026-08-08T09:00:01Z",
+    "updated_at": "2026-08-11T04:35:54Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "Training Communication-Efficient Mixture-of-Experts Language Models with Layer Re-Configuration",
     "venue": "arXiv 2026",
     "topic": "MoE systems / distributed training / communication efficiency",

@@ -1,10 +1,10 @@
 # 📚 Paper Library
 
-> **1538 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **391 visible papers = 134 P0 + 137 P1 + 120 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1539 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **392 visible papers = 135 P0 + 137 P1 + 120 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
-## 🆕 P0 · Strong / Canonical recent · 134
+## 🆕 P0 · Strong / Canonical recent · 135
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -141,6 +141,7 @@
 | **P0 · Strong** | **WA-SpecDec: World-Aware Speculative Decoding for Vision-Language-Action Models** | arXiv 2026 | speculative decoding / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.08725) | — |
 | **P0 · Strong** | **FlashBoot: Sub-Second Weight Loading for Large Models at Rack Scale** | Fresh / preprint | LLM serving / MoE systems / rack-scale runtime | [Link](https://arxiv.org/abs/2608.08482) | — |
 | **P0 · Strong** | **Archer: Adaptive Reuse of Cached Hidden States for Efficient Rollback in Diffusion Language Models** | arXiv 2026 | KV cache / diffusion language model acceleration | [Link](https://arxiv.org/abs/2608.08086) | [Repo](https://github.com/Hxnng/Archer) |
+| **P0 · Strong** | **Thought-Level Beam Search for Reasoning** | arXiv 2026 | efficient reasoning / inference-time compute / LLM serving / vLLM runtime | [Link](https://arxiv.org/abs/2608.08020) | [Repo](https://github.com/Dao-AILab/gambit-parallel-reasoning) |
 | **P0 · Strong** | **EasyBalance: Cross-Layer Load Balancing in Distributed MoE Inference** | ICML 2026 | MoE inference / expert parallelism / cross-layer load balancing | [Link](https://arxiv.org/abs/2608.07964) | [Repo](https://github.com/yize-wu/EasyInfra) |
 
 ## 🧭 P1 · Watch · 137

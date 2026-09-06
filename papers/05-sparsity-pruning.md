@@ -1,10 +1,10 @@
 # 05 · Sparsity / Pruning
 
-> **237 canonical papers** mapped here, plus a broader **71-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **238 canonical papers** mapped here, plus a broader **72-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 71 tracked
+## 🆕 Latest 30 Days · 72 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -53,6 +53,7 @@
 | **P0 · Strong** | **LoSA: Near-Lossless Sparse Attention for Training-Free Video Diffusion Acceleration** | arXiv 2026 | video/image generation acceleration / sparse attention / video diffusion | [Link](https://arxiv.org/abs/2608.12032) | — |
 | **P2 · Relevant** | **UnionSparse: An Index-Efficient Sparsity Framework for Low-Bit Sparse LLM Inference on Edge** | Fresh / preprint | llm_serving / quant / sparse | [Link](https://arxiv.org/abs/2608.09291) | — |
 | **P2 · Relevant** | **OasisKV: Scaling In-Decode KV Cache Beyond HBM with Lookahead Sparse Prefetching** | Fresh / preprint | LLM serving; KV cache / long context; speculative decoding; sparsity / pruning; efficient attention | [Link](https://arxiv.org/abs/2608.08097) | — |
+| **P0 · Strong** | **Thought-Level Beam Search for Reasoning** | arXiv 2026 | efficient reasoning / inference-time compute / LLM serving / vLLM runtime | [Link](https://arxiv.org/abs/2608.08020) | [Repo](https://github.com/Dao-AILab/gambit-parallel-reasoning) |
 | **P2 · Relevant** | **HiSparse: Scaling Sparse-Attention Decoding with Hierarchical KV Cache Management** | Fresh / preprint | LLM serving; KV cache / long context; sparsity / pruning; GPU kernel / compiler | [Link](https://arxiv.org/abs/2608.07009) | — |
 | **P2 · Relevant** | **Autonomy-of-Heads: Data-Free Sparse Attention from Frozen Query-Key Geometry** | Fresh / preprint | llm_serving / kv / sparse / edge | [Link](https://arxiv.org/abs/2608.06849) | — |
 | **P2 · Relevant** | **SparseDitto: Customizing GPU Kernels for Different Sparsity Patterns with LLM-Based Agentic System** | Fresh / preprint | sparse / kernel / gen / agent / edge | [Link](https://arxiv.org/abs/2608.05033) | — |

@@ -1,10 +1,10 @@
 # 13 · Efficient Reasoning / Agents
 
-> **261 canonical papers** mapped here, plus a broader **66-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **262 canonical papers** mapped here, plus a broader **67-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 66 tracked
+## 🆕 Latest 30 Days · 67 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -61,6 +61,7 @@
 | **P0 · Strong** | **CAKE: Compiler-Agent Co-Design for Frontier Kernel Evolution** | arXiv 2026 | GPU kernel / DSL / compiler / agentic systems / LLM serving | [Link](https://arxiv.org/abs/2608.12629) | — |
 | **P0 · Strong** | **TideRL: Boosting Agentic RL Goodput with Readiness-Aware Scheduling** | Fresh / preprint | agentic RL infrastructure | [Link](https://arxiv.org/abs/2608.10402) | — |
 | **P1 · Watch** | **OpRAG: A Resource-Deterministic Runtime for GPU-Backed Multi-Stage RAG Workflows** | Fresh / preprint | llm_serving / attn / agent | [Link](https://arxiv.org/abs/2608.08340) | — |
+| **P0 · Strong** | **Thought-Level Beam Search for Reasoning** | arXiv 2026 | efficient reasoning / inference-time compute / LLM serving / vLLM runtime | [Link](https://arxiv.org/abs/2608.08020) | [Repo](https://github.com/Dao-AILab/gambit-parallel-reasoning) |
 | **P1 · Watch** | **KGCache: Amortized Subgraph Retrieval for KG Reasoning with LLMs** | Fresh / preprint | RAG/KG reasoning / retrieval caching / agent inference acceleration | [Link](https://arxiv.org/abs/2608.07954) | — |
 | **P2 · Relevant** | **SPECTRA: Pushing the KV Cache Beyond the 2-Bit Cliff via Spectral Transform Coding** | Fresh / preprint | kv / quant / agent / edge | [Link](https://arxiv.org/abs/2608.07915) | — |
 | **P2 · Relevant** | **Cascade: Exploiting SLO-Aware latency budget for fair and high goodput LLM inference serving** | Fresh / preprint | LLM serving; agent systems; edge / heterogeneous AI | [Link](https://arxiv.org/abs/2608.06557) | — |

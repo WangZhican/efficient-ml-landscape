@@ -1,10 +1,10 @@
 # 01 · LLM Serving
 
-> **656 canonical papers** mapped here, plus a broader **270-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **657 canonical papers** mapped here, plus a broader **271-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 270 tracked
+## 🆕 Latest 30 Days · 271 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -187,6 +187,7 @@
 | **P2 · Relevant** | **LLMVisor: A Real-Time Latency Attribution Model for Multi-Tenant LLM Serving** | Fresh / preprint | llm_serving / dist / gen | [Link](https://arxiv.org/abs/2608.08382) | — |
 | **P1 · Watch** | **OpRAG: A Resource-Deterministic Runtime for GPU-Backed Multi-Stage RAG Workflows** | Fresh / preprint | llm_serving / attn / agent | [Link](https://arxiv.org/abs/2608.08340) | — |
 | **P2 · Relevant** | **OasisKV: Scaling In-Decode KV Cache Beyond HBM with Lookahead Sparse Prefetching** | Fresh / preprint | LLM serving; KV cache / long context; speculative decoding; sparsity / pruning; efficient attention | [Link](https://arxiv.org/abs/2608.08097) | — |
+| **P0 · Strong** | **Thought-Level Beam Search for Reasoning** | arXiv 2026 | efficient reasoning / inference-time compute / LLM serving / vLLM runtime | [Link](https://arxiv.org/abs/2608.08020) | [Repo](https://github.com/Dao-AILab/gambit-parallel-reasoning) |
 | **P0 · Strong** | **EasyBalance: Cross-Layer Load Balancing in Distributed MoE Inference** | ICML 2026 | MoE inference / expert parallelism / cross-layer load balancing | [Link](https://arxiv.org/abs/2608.07964) | [Repo](https://github.com/yize-wu/EasyInfra) |
 | **P1 · Watch** | **KGCache: Amortized Subgraph Retrieval for KG Reasoning with LLMs** | Fresh / preprint | RAG/KG reasoning / retrieval caching / agent inference acceleration | [Link](https://arxiv.org/abs/2608.07954) | — |
 | **P2 · Relevant** | **HiSparse: Scaling Sparse-Attention Decoding with Hierarchical KV Cache Management** | Fresh / preprint | LLM serving; KV cache / long context; sparsity / pruning; GPU kernel / compiler | [Link](https://arxiv.org/abs/2608.07009) | — |
