@@ -2205,6 +2205,29 @@
     ]
   },
   {
+    "title": "Fast-WAM: Do World Action Models Need Test-time Future Imagination?",
+    "venue": "arXiv 2026",
+    "topic": "VLA/WAM/Physical AI serving / world-action model inference / test-time video elimination",
+    "arxiv": "2603.16666",
+    "doi": "",
+    "official_id": "arXiv:2603.16666",
+    "paper_url": "https://arxiv.org/abs/2603.16666",
+    "code_url": "https://yuantianyuan01.github.io/FastWAM/",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Direct inference-efficiency contribution: keeps video co-training but removes explicit future-video generation at test time. Reports 190 ms real-world latency and >4x speedup over imagine-then-execute WAMs while retaining competitive control performance.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Video / Image Generation",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "FlowPrefill: Decoupling Preemption from Prefill Scheduling Granularity to Mitigate Head-of-Line Blocking in LLM Serving",
     "venue": "arXiv 2026",
     "topic": "LLM serving / prefill scheduling / operator-level preemption / SLO goodput",
@@ -2427,7 +2450,7 @@
     "doi": "",
     "official_id": "2605.20706",
     "paper_url": "https://arxiv.org/abs/2605.20706",
-    "code_url": "",
+    "code_url": "https://reeselevine.github.io/llamas-on-the-web/",
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "PROMOTE_STRONG",
     "why": "Microsoft Research LlamaWeb is a direct inference-runtime contribution: a WebGPU backend for llama.cpp with static memory planning, tunable kernels and multi-precision support. Evaluated on 16 devices from 8 vendors, it reports 29-33% lower memory than browser baselines and 45-69% higher decode throughput across four GPUs, making it a strong heterogeneous/on-device AI systems paper.",
@@ -18468,7 +18491,7 @@
     "doi": "",
     "official_id": "2606.19932",
     "paper_url": "https://arxiv.org/abs/2606.19932",
-    "code_url": "",
+    "code_url": "https://spatial-aware-reduction-framework.github.io/",
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "BACKFILL_HIGH",
     "why": "ICML 2026. STORM makes token reduction compatible with 2D selective-scan Vision Mamba by enforcing spatially structured row/column reduction inside local windows. It is training-free and preserves the grid topology required by SS2D. The official project reports a 1.4x throughput boost while retaining above 80% ImageNet accuracy, and up to 56.7 percentage-point accuracy recovery versus ordinary ToMe under the same reduction regime. Direct sparsity/pruning and inference-efficiency canonical.",

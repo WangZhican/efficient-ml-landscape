@@ -1,8 +1,8 @@
 {
-  "window_end_beijing": "2026-09-06",
-  "window_start_beijing": "2026-08-07",
+  "window_end_beijing": "2026-09-07",
+  "window_start_beijing": "2026-08-08",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 397,
+  "tracked_total": 400,
   "p0_strong_or_canonical": [
     {
       "title": "Para-Pipe: Exploiting Hierarchical Operator Parallelism of ML Computational Graphs on SoCs",
@@ -2651,7 +2651,7 @@
       "doi": "",
       "official_id": "arXiv:2608.13966",
       "paper_url": "https://arxiv.org/abs/2608.13966",
-      "code_url": "",
+      "code_url": "https://vincentcounathe.github.io/",
       "formal_class": "CANONICAL_HIGH_VALUE",
       "decision": "PROMOTE_STRONG",
       "why": "QUASAR is a current low-bit LLM QAT method that continuously performs lightweight loss-aware reconstruction inside training, supports standard integer/NVFP4 deployment with no inference-time changes, and improves held-out KL and downstream accuracy at 2-4 bits over strong QAT/PTQ baselines. It is directly relevant to Efficient ML low-precision deployment.",
@@ -5859,6 +5859,48 @@
       ]
     },
     {
+      "title": "WAM4D: Fast 4D World Action Model via Spatial Register Tokens",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI / training-time geometry / lightweight action inference",
+      "arxiv": "2606.14048",
+      "doi": "",
+      "official_id": "arXiv:2606.14048",
+      "paper_url": "https://arxiv.org/abs/2606.14048",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Transfers 4D geometric priors with lightweight spatial register tokens and removes the register branch for deployment-time action inference. Direct inference-efficiency relevance, retained as high-value watch pending stronger runtime/open-source evidence.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Unified 4D World Action Modeling from Video Priors with Asynchronous Denoising",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI / asynchronous denoising / efficient action decoding",
+      "arxiv": "2604.26694",
+      "doi": "",
+      "official_id": "arXiv:2604.26694",
+      "paper_url": "https://arxiv.org/abs/2604.26694",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "X-WAM uses asynchronous noise sampling/denoising to decode actions with fewer inference steps while retaining full video/4D generation. Direct protected Physical-AI efficiency relevance, but retained as watch pending stronger systems/runtime/open-source evidence.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Diffusion / Flow Acceleration",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Spend Bits Where Queries Look: KV Cache Vector Quantization with Attention-Preserving Transforms",
       "venue": "",
       "topic": "",
@@ -5898,6 +5940,26 @@
       "is_latest_30d": true,
       "directions": [
         "Quantization"
+      ]
+    },
+    {
+      "title": "Learning 4D Geometric Priors for Inference-Efficient World Action Models",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI / inference-efficient world-action model / geometry distillation",
+      "arxiv": "2607.05468",
+      "doi": "",
+      "official_id": "arXiv:2607.05468",
+      "paper_url": "https://arxiv.org/abs/2607.05468",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "MECo-WAM injects 4D geometric priors only during training and removes all auxiliary 4D components at deployment, preserving the lightweight inference graph while improving LIBERO/RoboTwin performance. Direct protected Physical-AI efficiency relevance; watch pending stronger systems/runtime/open-source evidence.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -11295,7 +11357,7 @@
       "doi": "",
       "official_id": "arXiv:2608.13966",
       "paper_url": "https://arxiv.org/abs/2608.13966",
-      "code_url": "",
+      "code_url": "https://vincentcounathe.github.io/",
       "formal_class": "CANONICAL_HIGH_VALUE",
       "decision": "PROMOTE_STRONG",
       "why": "QUASAR is a current low-bit LLM QAT method that continuously performs lightweight loss-aware reconstruction inside training, supports standard integer/NVFP4 deployment with no inference-time changes, and improves held-out KL and downstream accuracy at 2-4 bits over strong QAT/PTQ baselines. It is directly relevant to Efficient ML low-precision deployment.",
@@ -14501,6 +14563,48 @@
       ]
     },
     {
+      "title": "WAM4D: Fast 4D World Action Model via Spatial Register Tokens",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI / training-time geometry / lightweight action inference",
+      "arxiv": "2606.14048",
+      "doi": "",
+      "official_id": "arXiv:2606.14048",
+      "paper_url": "https://arxiv.org/abs/2606.14048",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Transfers 4D geometric priors with lightweight spatial register tokens and removes the register branch for deployment-time action inference. Direct inference-efficiency relevance, retained as high-value watch pending stronger runtime/open-source evidence.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Unified 4D World Action Modeling from Video Priors with Asynchronous Denoising",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI / asynchronous denoising / efficient action decoding",
+      "arxiv": "2604.26694",
+      "doi": "",
+      "official_id": "arXiv:2604.26694",
+      "paper_url": "https://arxiv.org/abs/2604.26694",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "X-WAM uses asynchronous noise sampling/denoising to decode actions with fewer inference steps while retaining full video/4D generation. Direct protected Physical-AI efficiency relevance, but retained as watch pending stronger systems/runtime/open-source evidence.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Diffusion / Flow Acceleration",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Spend Bits Where Queries Look: KV Cache Vector Quantization with Attention-Preserving Transforms",
       "venue": "",
       "topic": "",
@@ -14540,6 +14644,26 @@
       "is_latest_30d": true,
       "directions": [
         "Quantization"
+      ]
+    },
+    {
+      "title": "Learning 4D Geometric Priors for Inference-Efficient World Action Models",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI / inference-efficient world-action model / geometry distillation",
+      "arxiv": "2607.05468",
+      "doi": "",
+      "official_id": "arXiv:2607.05468",
+      "paper_url": "https://arxiv.org/abs/2607.05468",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "MECo-WAM injects 4D geometric priors only during training and removes all auxiliary 4D components at deployment, preserving the lightweight inference graph while improving LIBERO/RoboTwin performance. Direct protected Physical-AI efficiency relevance; watch pending stronger systems/runtime/open-source evidence.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "VLA / WAM / Physical AI"
       ]
     },
     {

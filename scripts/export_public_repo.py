@@ -54,7 +54,7 @@ def link_for(r):
 
 
 def code_for(r):
-    for key in ("repo", "github", "code_url", "project_repo", "official_repo"):
+    for key in ("repo", "github", "code_url", "project_repo", "official_repo", "project_url", "official_project"):
         v = (r.get(key) or "").strip()
         if v.startswith("http"):
             return v
