@@ -2352,6 +2352,30 @@
     ]
   },
   {
+    "title": "Jetson-PI: Towards Onboard Real-Time Robot Control via Foresight-Aligned Asynchronous Inference",
+    "venue": "arXiv 2026",
+    "topic": "VLA/WAM/Physical AI serving / edge deployment / asynchronous inference / scheduling / runtime",
+    "arxiv": "2607.12659",
+    "doi": "",
+    "official_id": "arXiv:2607.12659",
+    "paper_url": "https://arxiv.org/abs/2607.12659",
+    "code_url": "https://github.com/PKU-SEC-Lab/Jetson-PI",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Jetson-PI targets onboard real-time VLA inference on Jetson-class edge devices. It combines a lightweight foresight-aligned future-correction module, confidence-based VLM/action-expert scheduling, CUDA graph reuse, GPU-resident buffering and flow unrolling. The paper reports 8.66x and 5.41x higher control frequency than naive PyTorch and vla.cpp on Jetson Orin, while improving average LIBERO success rate over VLASH by 14.8%.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "KAIROS: Stateful, Context-Aware Power-Efficient Agentic Inference Serving",
     "venue": "arXiv 2026",
     "topic": "agentic LLM serving; power efficiency; context-aware GPU DVFS; memory-aware scheduling; multi-instance routing",

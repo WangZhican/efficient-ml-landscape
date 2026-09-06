@@ -1,6 +1,6 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **323 canonical papers** mapped here, plus a broader **113-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **324 canonical papers** mapped here, plus a broader **113-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -122,7 +122,7 @@
 | **P2 · Relevant** | **Unified Static-Dynamic Pruning for Efficient LLM Inference** | Fresh / preprint | llm_serving / sparse / kernel / edge | [Link](https://arxiv.org/abs/2607.21985) | — |
 | **P1 · Watch** | **Edge-Native Embodied Intelligence for Action-Aware Wireless Edge Networks** | Fresh / preprint | VLA/WAM/Physical AI serving / edge-cloud / heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.17774) | — |
 
-## 🏛️ Classical / Historical · 296 canonical
+## 🏛️ Classical / Historical · 297 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -142,6 +142,7 @@
 | **Canonical** | **Compiler-Grounded Hierarchical Diagnosis for LLM-Based Triton Kernel Optimization** | arXiv 2026 | GPU kernel/DSL/compilers / NPU kernel optimization | [Link](https://arxiv.org/abs/2607.23089) | — |
 | **Canonical** | **FlowPrefill: Decoupling Preemption from Prefill Scheduling Granularity to Mitigate Head-of-Line Blocking in LLM Serving** | arXiv 2026 | LLM serving / prefill scheduling / operator-level preemption / SLO goodput | [Link](https://arxiv.org/abs/2602.16603) | [Repo](https://github.com/ChiachiHsieh/FlowPrefill) |
 | **Canonical** | **Heterogeneous Memory Design Exploration for AI Accelerators with a Gain Cell Memory Compiler** | arXiv 2026 | edge/cloud/heterogeneous AI systems; AI accelerator memory; SRAM/GCRAM; compiler; hardware design-space exploration | [Link](https://arxiv.org/abs/2602.21278) | — |
+| **Canonical** | **Jetson-PI: Towards Onboard Real-Time Robot Control via Foresight-Aligned Asynchronous Inference** | arXiv 2026 | VLA/WAM/Physical AI serving / edge deployment / asynchronous inference / scheduling / runtime | [Link](https://arxiv.org/abs/2607.12659) | [Repo](https://github.com/PKU-SEC-Lab/Jetson-PI) |
 | **Canonical** | **Llamas on the Web: Memory-Efficient, Performance-Portable, and Multi-Precision LLM Inference with WebGPU** | arXiv 2026 | edge/cloud/heterogeneous AI systems / LLM inference / WebGPU / multi-precision / browser runtime | [Link](https://arxiv.org/abs/2605.20706) | — |
 | **Canonical** | **MatGPTQ: Accurate and Efficient Post-Training Matryoshka Quantization** | arXiv 2026 | LLM quantization; Matryoshka precision; PTQ; mixed-precision kernels | [Link](https://arxiv.org/abs/2602.03537) | [Repo](https://github.com/IST-DASLab/MatGPTQ) |
 | **Canonical** | **Native LLM and MLLM Inference at Scale on Apple Silicon** | arXiv 2026 | edge/on-device LLM and MLLM serving; Apple Silicon; MLX; continuous batching; prefix caching | [Link](https://arxiv.org/abs/2601.19139) | [Repo](https://github.com/waybarrios/vllm-mlx) |

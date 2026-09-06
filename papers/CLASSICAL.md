@@ -1,6 +1,6 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **1403 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **1404 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
@@ -450,7 +450,7 @@
 | **Canonical** | **TriInfer: Hybrid EPD Disaggregation for Efficient Multimodal Large Language Model Inference** | MLSys 2026 | multimodal serving / encode-prefill-decode disaggregation / heterogeneous inference | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/f068c65585985c25c17f221390774ec7-Abstract-Conference.html) | [Repo](https://github.com/dongxianzhe/triinfer) |
 | **Canonical** | **Zorse: Optimizing LLM Training Efficiency on Heterogeneous GPU Clusters** | MLSys 2026 | distributed training / heterogeneous GPUs / parallelism | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/bfa6dd59c1d7f7c785909f9ff7cffe67-Abstract-Conference.html) | — |
 
-## arXiv 2026 · 46
+## arXiv 2026 · 47
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -469,6 +469,7 @@
 | **Canonical** | **Heterogeneous Memory Design Exploration for AI Accelerators with a Gain Cell Memory Compiler** | arXiv 2026 | edge/cloud/heterogeneous AI systems; AI accelerator memory; SRAM/GCRAM; compiler; hardware design-space exploration | [Link](https://arxiv.org/abs/2602.21278) | — |
 | **Canonical** | **HiKV: Hierarchical Importance-Aware KV Cache with Hardware Acceleration for LLM Decoding** | arXiv 2026 | KV cache compression; LLM decoding; algorithm-hardware co-design; long context | [Link](https://arxiv.org/abs/2607.22389) | — |
 | **Canonical** | **JAXBench: Benchmarking Autonomous TPU Kernel Optimization** | arXiv 2026 | GPU kernel / DSL / compiler; TPU/Pallas autonomous kernel optimization | [Link](https://arxiv.org/abs/2607.20466) | [Repo](https://github.com/AI-Hypercomputer/accelerator-agents) |
+| **Canonical** | **Jetson-PI: Towards Onboard Real-Time Robot Control via Foresight-Aligned Asynchronous Inference** | arXiv 2026 | VLA/WAM/Physical AI serving / edge deployment / asynchronous inference / scheduling / runtime | [Link](https://arxiv.org/abs/2607.12659) | [Repo](https://github.com/PKU-SEC-Lab/Jetson-PI) |
 | **Canonical** | **KAIROS: Stateful, Context-Aware Power-Efficient Agentic Inference Serving** | arXiv 2026 | agentic LLM serving; power efficiency; context-aware GPU DVFS; memory-aware scheduling; multi-instance routing | [Link](https://arxiv.org/abs/2604.16682) | — |
 | **Canonical** | **Learning Agent Execution for KV-Cache Management in Agentic Serving** | arXiv 2026 | LLM serving / agent systems / KV cache / cache eviction / prefetching | [Link](https://arxiv.org/abs/2608.14624) | — |
 | **Canonical** | **Llamas on the Web: Memory-Efficient, Performance-Portable, and Multi-Precision LLM Inference with WebGPU** | arXiv 2026 | edge/cloud/heterogeneous AI systems / LLM inference / WebGPU / multi-precision / browser runtime | [Link](https://arxiv.org/abs/2605.20706) | — |
