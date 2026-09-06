@@ -3888,6 +3888,29 @@
     ]
   },
   {
+    "title": "World-Language-Action Model for Unified World Modeling, Language Reasoning, and Action Synthesis",
+    "venue": "arXiv 2026",
+    "topic": "VLA/WAM/Physical AI serving / world-action model / efficient inference / runtime",
+    "arxiv": "2606.05979",
+    "doi": "10.48550/arXiv.2606.05979",
+    "official_id": "arXiv:2606.05979",
+    "paper_url": "https://arxiv.org/abs/2606.05979",
+    "code_url": "https://github.com/SJTU-DENG-Lab/WLA",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "WLA unifies world modeling, language reasoning and action synthesis. Its efficiency path is directly deployment-relevant: meta-query supervision allows the World Expert to be disabled in efficient inference mode, while CUDA graph capture and custom Triton fusion reduce launch/operator overhead. The 2B-active-parameter WLA-0 reports about 40 ms per inference on an RTX 5090; the World Expert can be re-enabled for test-time scaling when extra compute is available.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "SeDeM: Selective Decompression of Hidden-State Memories for Long-Context Question Answering",
     "venue": "arXiv 2026 / EMNLP 2026 main reported by author route",
     "topic": "KV cache/long-context / context compression / efficient inference",
