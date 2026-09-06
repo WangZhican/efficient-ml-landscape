@@ -85,6 +85,27 @@
     ]
   },
   {
+    "title": "Bi-VLM: Binary Post-Training Quantization for Vision-Language Models",
+    "venue": "AAAI 2026",
+    "topic": "multimodal/MLLM efficiency / quantization / ultra-low-bit VLM PTQ",
+    "arxiv": "2509.18763",
+    "doi": "10.1609/aaai.v40i12.37989",
+    "official_id": "DOI:10.1609/aaai.v40i12.37989",
+    "paper_url": "https://arxiv.org/abs/2509.18763",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "AAAI-26 main-track VLM efficiency paper. Saliency-aware hybrid ultra-low-bit PTQ pushes VLM weights to <=2 bits and explicitly targets resource-constrained inference; primary AAAI/arXiv evidence confirms an independent direct Efficient-ML identity absent from current authority.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
     "title": "CATP: Contextually Adaptive Token Pruning for Efficient and Enhanced Multimodal In-Context Learning",
     "venue": "AAAI 2026",
     "topic": "multimodal/MLLM serving / visual token pruning",
@@ -321,6 +342,26 @@
     ]
   },
   {
+    "title": "LatentLLM: Activation-Aware Transform to Multi-Head Latent Attention",
+    "venue": "AAAI 2026",
+    "topic": "LLM compression / efficient attention / tensor decomposition",
+    "arxiv": "2505.18413",
+    "doi": "10.1609/aaai.v40i27.39425",
+    "official_id": "DOI:10.1609/aaai.v40i27.39425",
+    "paper_url": "https://arxiv.org/abs/2505.18413",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "AAAI-26 main-track model-compression paper. Attention-aware joint tensor decomposition converts pretrained LLM/LMM components into a reduced latent structure for lower compute/memory; official AAAI and MERL/arXiv lineage confirm a distinct Efficient-ML identity absent from current authority.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Attention"
+    ]
+  },
+  {
     "title": "MHA2MLA-VLM: Enabling DeepSeek’s Economical Multi-Head Latent Attention Across Vision-Language Models",
     "venue": "AAAI 2026",
     "topic": "VLM inference / MLA / KV cache compression",
@@ -385,6 +426,27 @@
       "KV Cache / Long Context",
       "Efficient Attention",
       "Multimodal / MLLM Serving"
+    ]
+  },
+  {
+    "title": "Re-SpS: A Reinforcement Learning Approach to Speculative Sampling",
+    "venue": "AAAI 2026",
+    "topic": "speculative decoding / LLM inference / adaptive draft-tree optimization",
+    "arxiv": "2601.12212",
+    "doi": "10.1609/aaai.v40i39.40625",
+    "official_id": "DOI:10.1609/aaai.v40i39.40625",
+    "paper_url": "https://arxiv.org/abs/2601.12212",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "AAAI-26 main-track speculative-decoding paper. Online RL adapts draft-tree hyperparameters in real time and reports up to 5.45x speedup over backbone and 1.12x over EAGLE-3 without output loss; direct inference-efficiency identity absent from current authority.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Speculative Decoding",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -639,6 +701,29 @@
       "Sparsity / Pruning",
       "Multimodal / MLLM Serving",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "ViTCoP: Accelerating Large Vision-Language Models via Visual and Textual Semantic Collaborative Pruning",
+    "venue": "AAAI 2026",
+    "topic": "multimodal/MLLM efficiency / visual token pruning / inference acceleration",
+    "arxiv": "2601.17818",
+    "doi": "10.1609/aaai.v40i29.39594",
+    "official_id": "DOI:10.1609/aaai.v40i29.39594",
+    "paper_url": "https://arxiv.org/abs/2601.17818",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "AAAI-26 main-track LVLM inference-acceleration paper. Visual+textual semantic collaborative pruning reduces redundant visual tokens while preserving FlashAttention compatibility and reports inference-latency/GPU-memory reduction; absent as an independent authority identity.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler",
+      "Multimodal / MLLM Serving"
     ]
   },
   {
