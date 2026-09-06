@@ -1,6 +1,6 @@
 # 08 · GPU Kernel / DSL / Compiler
 
-> **390 canonical papers** mapped here, plus a broader **88-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **391 canonical papers** mapped here, plus a broader **88-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -97,7 +97,7 @@
 | **P1 · Watch** | **Here is a GIFT: Enforcing User Data Isolation in LLM Serving via GPU Information Flow Tracking** | Fresh / preprint | LLM serving / GPU runtime / confidential computing | [Link](https://arxiv.org/abs/2608.25431) | — |
 | **P1 · Watch** | **DEFT: Joint Task Placement and DVFS for Energy-Efficient Multi-GPU Runtimes** | Fresh / preprint | distributed runtime / multi-GPU / energy efficiency | [Link](https://arxiv.org/abs/2608.02122) | — |
 
-## 🏛️ Classical / Historical · 350 canonical
+## 🏛️ Classical / Historical · 351 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -132,6 +132,7 @@
 | **Canonical** | **Revati: Transparent GPU-Free Time-Warp Emulation for LLM Serving** | arXiv 2026 | LLM serving; systems emulation; performance modeling; vLLM; SGLang; infrastructure optimization | [Link](https://arxiv.org/abs/2601.00397) | — |
 | **Canonical** | **Statistically-Lossless Quantization of Large Language Models** | arXiv 2026 | LLM quantization; statistically-lossless compression; low-bit inference; optimized kernels | [Link](https://arxiv.org/abs/2605.02404) | [Repo](https://github.com/IST-DASLab/SLQ) |
 | **Canonical** | **StreamFusion: Scalable Sequence Parallelism for Distributed Inference of Diffusion Transformers on GPUs** | arXiv 2026 | video/image generation acceleration; diffusion/flow acceleration; distributed inference; sequence parallelism; GPU communication | [Link](https://arxiv.org/abs/2601.20273) | — |
+| **Canonical** | **Tutti: Making SSD-Backed KV Cache Practical for Long-Context LLM Serving** | arXiv 2026 | LLM serving / KV cache / long-context / SSD offload / GPU-centric I/O / vLLM | [Link](https://arxiv.org/abs/2605.03375) | — |
 | **Canonical** | **Vortex: Efficient and Programmable Sparse Attention Serving for AI Agents** | arXiv 2026 | efficient attention / sparse attention serving / LLM serving / agent systems / GPU kernels | [Link](https://arxiv.org/abs/2606.06453) | [Repo](https://github.com/Infini-AI-Lab/vortex_torch) |
 | **Canonical** | **World-Language-Action Model for Unified World Modeling, Language Reasoning, and Action Synthesis** | arXiv 2026 | VLA/WAM/Physical AI serving / world-action model / efficient inference / runtime | [Link](https://arxiv.org/abs/2606.05979) | [Repo](https://github.com/SJTU-DENG-Lab/WLA) |
 | **Canonical** | **Bullet: Boosting GPU Utilization for LLM Serving via Dynamic Spatial-Temporal Orchestration** | ASPLOS 2026 | LLM serving / GPU utilization / scheduling | [Link](https://arxiv.org/abs/2504.19516) | — |

@@ -3749,6 +3749,28 @@
     ]
   },
   {
+    "title": "Tutti: Making SSD-Backed KV Cache Practical for Long-Context LLM Serving",
+    "venue": "arXiv 2026",
+    "topic": "LLM serving / KV cache / long-context / SSD offload / GPU-centric I/O / vLLM",
+    "arxiv": "2605.03375",
+    "doi": "",
+    "official_id": "arXiv:2605.03375",
+    "paper_url": "https://arxiv.org/abs/2605.03375",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Tutti makes SSD-backed KV cache practical for long-context LLM serving by moving KV-cache object management and I/O control to the GPU, introducing GPU io_uring and slack-aware I/O scheduling. The paper reports 78.3% lower TTFT than GDS-enabled SSD-backed LMCache under SLO constraints, 2x achievable request rate, and 27% lower serving cost while approaching DRAM-backed performance.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "UE5M3 FP4 Block Scaling for Stable Language Model Pretraining",
     "venue": "arXiv 2026",
     "topic": "quantization / efficient training / low-precision systems",
