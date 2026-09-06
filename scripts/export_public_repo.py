@@ -259,14 +259,24 @@ def main():
             "venue_active_round_checked": len(active.get("checked_ids", [])),
             "venue_active_round_status": active.get("status", ""),
         }
-    raw = d.get("formal_high_value_records", [])
+    # The validated authority is the monotonic union of current formal records and
+    # canonical historical/backfill individuals.  These lists intentionally
+    # overlap, so deduplicate below instead of exporting only the formal slice.
+    raw = d.get("formal_high_value_records", []) + d.get("canonical_backfill_high_individual", [])
     seen = set()
+    seen_titles = set()
     records = []
     for r in raw:
-        key = (r.get("arxiv") or "").strip() or (r.get("doi") or "").strip().lower() or norm_title(r.get("title"))
-        if not key or key in seen:
+        title_key = norm_title(r.get("title"))
+        key = (r.get("arxiv") or "").strip() or (r.get("doi") or "").strip().lower() or title_key
+        # Identifier enrichment can make the same paper appear once with DOI/arXiv
+        # and once as a title-only canonical row.  Deduplicate on both identity and
+        # normalized title so the public union cannot inflate authority counts.
+        if not key or key in seen or (title_key and title_key in seen_titles):
             continue
         seen.add(key)
+        if title_key:
+            seen_titles.add(title_key)
         x = {
             "title": r.get("title", ""),
             "venue": r.get("venue", ""),
