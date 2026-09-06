@@ -6571,6 +6571,28 @@
     ]
   },
   {
+    "title": "Scaling Multi-Node Mixture-of-Experts Inference Using Expert Activation Patterns",
+    "venue": "CoRR 2026",
+    "topic": "MoE systems / distributed inference / expert placement / workload-aware batching",
+    "arxiv": "2604.23150",
+    "doi": "",
+    "official_id": "arXiv:2604.23150",
+    "paper_url": "https://arxiv.org/abs/2604.23150",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "True major-group recall miss from Georgia Tech ACT/Tushar Krishna neighborhood. Profiles >100k expert-activation traces across frontier MoE models and uses prefill/decode activation correlation for workload-aware micro-batch grouping and expert placement, reducing inter-node all-to-all traffic and improving MoE decode latency/utilization.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "MoE Systems / Accelerators",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "SelfLift: Accelerating Few-Step Diffusion via Self-Recovering Resolution Transition",
     "venue": "CoRR 2026",
     "topic": "diffusion/flow acceleration / progressive resolution / few-step generation",
