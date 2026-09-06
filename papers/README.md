@@ -4,7 +4,7 @@
 
 <div align="center">
 
-[**🆕 Latest 30 Days · 392 tracked**](LATEST_30D.md) · [**🏛️ Classical · 1405**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
+[**🆕 Latest 30 Days · 393 tracked**](LATEST_30D.md) · [**🏛️ Classical · 1405**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
 
 </div>
 
@@ -19,12 +19,12 @@
 | 05 | [**Sparsity / Pruning**](05-sparsity-pruning.md) | **238** | **72** |
 | 06 | [**Efficient Attention**](06-efficient-attention.md) | **225** | **64** |
 | 07 | [**MoE Systems / Accelerators**](07-moe-systems.md) | **122** | **39** |
-| 08 | [**GPU Kernel / DSL / Compiler**](08-gpu-kernel-compiler.md) | **390** | **87** |
-| 09 | [**Distributed Training / Inference**](09-distributed-training-inference.md) | **297** | **47** |
+| 08 | [**GPU Kernel / DSL / Compiler**](08-gpu-kernel-compiler.md) | **390** | **88** |
+| 09 | [**Distributed Training / Inference**](09-distributed-training-inference.md) | **297** | **48** |
 | 10 | [**Multimodal / MLLM Serving**](10-multimodal-mllm-serving.md) | **188** | **65** |
 | 11 | [**Video / Image Generation**](11-video-image-generation.md) | **70** | **24** |
 | 12 | [**Diffusion / Flow Acceleration**](12-diffusion-flow.md) | **190** | **39** |
-| 13 | [**Efficient Reasoning / Agents**](13-efficient-reasoning-agents.md) | **263** | **67** |
+| 13 | [**Efficient Reasoning / Agents**](13-efficient-reasoning-agents.md) | **263** | **68** |
 | 14 | [**VLA / WAM / Physical AI**](14-physical-ai-vla-wam.md) | **108** | **70** |
 | 15 | [**Edge / Cloud / Heterogeneous AI**](15-edge-cloud-heterogeneous.md) | **324** | **113** |
 

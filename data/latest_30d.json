@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-06",
   "window_start_beijing": "2026-08-07",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 392,
+  "tracked_total": 393,
   "p0_strong_or_canonical": [
     {
       "title": "Para-Pipe: Exploiting Hierarchical Operator Parallelism of ML Computational Graphs on SoCs",
@@ -3209,6 +3209,28 @@
         "Quantization",
         "Multimodal / MLLM Serving",
         "Video / Image Generation"
+      ]
+    },
+    {
+      "title": "Performance Foundations of Parallel & Distributed Reasoning Language Models",
+      "venue": "arXiv 2026",
+      "topic": "distributed training / efficient reasoning / RL-for-LLM systems / parallelism",
+      "arxiv": "2608.27046",
+      "doi": "",
+      "official_id": "arXiv:2608.27046",
+      "paper_url": "https://arxiv.org/abs/2608.27046",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Compute-centric systems analysis of RL-for-LLM post-training. It formalizes work/depth/memory costs and systematizes intra-/inter-model parallelism, disaggregated placement, stage fusion, hybrid parallelism, and asynchronous execution. Directly relevant to efficient reasoning and distributed AI infrastructure, but primarily a systems taxonomy/guideline paper rather than a new runtime implementation, so retained as high-value watchlist rather than PROMOTE_STRONG.",
+      "published_at": "2026-08-27T12:33:47Z",
+      "updated_at": "2026-08-27T12:33:47Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -11744,6 +11766,28 @@
         "Quantization",
         "Multimodal / MLLM Serving",
         "Video / Image Generation"
+      ]
+    },
+    {
+      "title": "Performance Foundations of Parallel & Distributed Reasoning Language Models",
+      "venue": "arXiv 2026",
+      "topic": "distributed training / efficient reasoning / RL-for-LLM systems / parallelism",
+      "arxiv": "2608.27046",
+      "doi": "",
+      "official_id": "arXiv:2608.27046",
+      "paper_url": "https://arxiv.org/abs/2608.27046",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Compute-centric systems analysis of RL-for-LLM post-training. It formalizes work/depth/memory costs and systematizes intra-/inter-model parallelism, disaggregated placement, stage fusion, hybrid parallelism, and asynchronous execution. Directly relevant to efficient reasoning and distributed AI infrastructure, but primarily a systems taxonomy/guideline paper rather than a new runtime implementation, so retained as high-value watchlist rather than PROMOTE_STRONG.",
+      "published_at": "2026-08-27T12:33:47Z",
+      "updated_at": "2026-08-27T12:33:47Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
