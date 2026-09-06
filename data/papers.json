@@ -7785,6 +7785,28 @@
     ]
   },
   {
+    "title": "FSGen: Agile Fused and Sparse Accelerator Generator with Accurate Power Model for LLM Applications",
+    "venue": "DAC 2026",
+    "topic": "LLM inference accelerator / fused-operator dataflow / sparsity / hardware generator / RTL / PPA-aware design-space exploration / edge and heterogeneous AI systems",
+    "arxiv": "2608.09252",
+    "doi": "10.1145/3770743.3804052",
+    "official_id": "arXiv:2608.09252",
+    "paper_url": "https://arxiv.org/abs/2608.09252",
+    "code_url": "https://github.com/hkust-zhiyao/FSGen",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "FSGen is a direct Efficient-ML architecture contribution for attention-based LLM accelerators. It provides a unified representation for fused operator dataflows and multi-level sparsity, an end-to-end Chisel RTL generator, and early-stage ML PPA estimators for accelerator design-space exploration. The paper reports designs with 1.4x better power efficiency or up to 10x speedup at similar PPA and 58x better FoM over prior generator baselines.",
+    "published_at": "2026-08-10T08:13:38Z",
+    "updated_at": "2026-08-10T08:13:38Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "AdaDiff: Accelerating Diffusion Models through Step-Wise Adaptive Computation",
     "venue": "ECCV 2024",
     "topic": "diffusion acceleration / adaptive computation / early exit",
