@@ -1,6 +1,6 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **1419 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **1420 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
@@ -605,7 +605,7 @@
 | **Canonical** | **UniCore: A Bit-Width Scalable GEMM Unit for Unified LLM Inference** | ISCA 2026 | LLM accelerator / variable bit-width GEMM | [Link](https://www.iscaconf.org/isca2026/program/) | — |
 | **Canonical** | **XtraMAC: An Efficient MAC Architecture for Mixed-Precision LLM Inference on FPGA** | ISCA 2026 | mixed-precision LLM / FPGA accelerator | [Link](https://arxiv.org/abs/2605.06052) | [Repo](https://github.com/Xtra-Computing/XtraMAC) |
 
-## AAAI 2026 · 41
+## AAAI 2026 · 42
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -621,6 +621,7 @@
 | **Canonical** | **DIAA: A Decoding-Efficient Inference Acceleration Approach for On-Device Large Language Models** | AAAI 2026 | on-device LLM / speculative decoding / edge inference | [Link](https://doi.org/10.1609/aaai.v40i31.39789) | — |
 | **Canonical** | **Efficient Multimodal Large Language Model via Dynamic KV Cache Quantization** | AAAI 2026 | MLLM inference / KV cache quantization | [Link](https://doi.org/10.1609/aaai.v40i25.39241) | — |
 | **Canonical** | **FlashSVD: Memory-Efficient Inference with Streaming for Low-Rank Models** | AAAI 2026 | sparsity/pruning / GPU kernels | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39720) | — |
+| **Canonical** | **FLRQ: Faster LLM Quantization with Flexible Low-Rank Matrix Sketching** | AAAI 2026 | quantization / low-rank PTQ / LLM compression | [Link](https://arxiv.org/abs/2601.05684) | — |
 | **Canonical** | **HALO: Hardware-Aware Quantization with Low Critical-Path-Delay Weights for LLM Acceleration** | AAAI 2026 | quantization / hardware-aware inference | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39406) | [Repo](https://github.com/ecolab-nus/HALO) |
 | **Canonical** | **Head-Aware KV Cache Compression for Efficient Visual Autoregressive Modeling** | AAAI 2026 | KV cache / image generation acceleration | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39686) | [Repo](https://github.com/Zr2223/HACK) |
 | **Canonical** | **HitKV: Activation Frequency Knows Which Tokens Are Important** | AAAI 2026 | KV cache/long-context | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/40105) | — |

@@ -257,6 +257,26 @@
     ]
   },
   {
+    "title": "FLRQ: Faster LLM Quantization with Flexible Low-Rank Matrix Sketching",
+    "venue": "AAAI 2026",
+    "topic": "quantization / low-rank PTQ / LLM compression",
+    "arxiv": "2601.05684",
+    "doi": "10.1609/aaai.v40i26.39283",
+    "official_id": "arXiv:2601.05684",
+    "paper_url": "https://arxiv.org/abs/2601.05684",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "AAAI-26 main-track LLM PTQ method replaces expensive SVD-style low-rank approximation with adaptive Rank1-Sketch flexible-rank selection and clipping-aware refinement; direct low-bit quantization efficiency identity absent from authority.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization"
+    ]
+  },
+  {
     "title": "HALO: Hardware-Aware Quantization with Low Critical-Path-Delay Weights for LLM Acceleration",
     "venue": "AAAI 2026",
     "topic": "quantization / hardware-aware inference",
