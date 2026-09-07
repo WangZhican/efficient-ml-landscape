@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-08",
   "window_start_beijing": "2026-08-09",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 425,
+  "tracked_total": 429,
   "p0_strong_or_canonical": [
     {
       "title": "Don't Drop Dropout: Optimizing Layer Sparsity for Efficient LLM Training and Inference",
@@ -67,6 +67,29 @@
       "directions": [
         "LLM Serving",
         "Quantization"
+      ]
+    },
+    {
+      "title": "VLA-Precision: Asymmetric Co-Bootstrapping for Efficient Real-World Online RL of Vision-Language-Action Models",
+      "venue": "arXiv 2026",
+      "topic": "VLA / Physical AI / real-world online RL / streaming runtime",
+      "arxiv": "2609.04355",
+      "doi": "",
+      "official_id": "arXiv:2609.04355",
+      "paper_url": "https://arxiv.org/abs/2609.04355",
+      "code_url": "https://vla-precision.github.io/",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Protected Physical-AI true miss. Beyond the online-RL algorithm, ACoB-Stream explicitly co-designs a closed-loop experience-policy execution architecture around invariant-state decoupling and on-demand streaming to reduce large-VLA rollout overhead; the paper reports up to 10.9x throughput/computational-efficiency improvement and 98.3% mean success over nine high-precision chemistry tasks across four robot embodiments. This is directly relevant to VLA runtime/infra rather than generic robot learning only.",
+      "published_at": "2026-09-03T18:19:36Z",
+      "updated_at": "2026-09-03T18:19:36Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -3273,6 +3296,50 @@
       ]
     },
     {
+      "title": "Quality Recovery for Quantized KV Caches via Low-Rank Attention Adaptation",
+      "venue": "arXiv 2026",
+      "topic": "KV cache / quantization / long-context inference / low-rank adaptation",
+      "arxiv": "2609.04263",
+      "doi": "",
+      "official_id": "arXiv:2609.04263",
+      "paper_url": "https://arxiv.org/abs/2609.04263",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "High-value KV-quantization watch item. It keeps physically packed low-bit cache formats fixed and distills floating-cache behavior into low-rank Q/K/V projection updates, recovering substantial held-out perplexity gaps across multiple models/quantizers while showing that perplexity recovery does not necessarily recover long-context retrieval. Useful evidence for quantized-KV deployment tradeoffs, but currently narrower and more adaptation-centric than a new serving runtime mechanism.",
+      "published_at": "2026-09-02T13:37:04Z",
+      "updated_at": "2026-09-02T13:37:04Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Quantization",
+        "Efficient Attention"
+      ]
+    },
+    {
+      "title": "Efficient GUI Agents: A Systems Survey of Observation, Memory, Action, and Runtime Optimization",
+      "venue": "arXiv 2026 / EMNLP 2026 workshop",
+      "topic": "efficient reasoning/agent systems / GUI agents / runtime optimization",
+      "arxiv": "2609.02309",
+      "doi": "",
+      "official_id": "arXiv:2609.02309",
+      "paper_url": "https://arxiv.org/abs/2609.02309",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "High-value efficient-agent systems survey. It frames deployment efficiency end-to-end across observation, context/memory, action budget and planner/runtime overhead, with explicit attention to selective reading, recoverable memory, verification-aware control and hybrid GUI/non-GUI runtimes. Keep for lineage and recall expansion; survey contribution does not justify canonical mechanism promotion.",
+      "published_at": "2026-09-02T08:54:58Z",
+      "updated_at": "2026-09-02T08:54:58Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Attention",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "HeadWiseKV: Budgeted Per-Head Cache Residency for Hybrid Long-Context Language Models",
       "venue": "arXiv 2026",
       "topic": "KV cache/long-context / LLM serving",
@@ -5497,6 +5564,29 @@
       "directions": [
         "LLM Serving",
         "KV Cache / Long Context"
+      ]
+    },
+    {
+      "title": "Collective Communication for Distributed LLM Systems: Planning, Runtime Adaptation, and Computation Coordination",
+      "venue": "arXiv 2026",
+      "topic": "distributed training/inference / collective communication / runtime adaptation",
+      "arxiv": "2608.15118",
+      "doi": "",
+      "official_id": "arXiv:2608.15118",
+      "paper_url": "https://arxiv.org/abs/2608.15118",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "High-value distributed-systems lineage watch item. Tutorial-style taxonomy organizes collective optimization into topology-aware planning, runtime execution/adaptation, and computation-communication coordination across heterogeneous GPU interconnects, multi-NIC systems, mixed parallelism, serving latency and training throughput. Strong census/lineage value, but primarily a survey/tutorial rather than a new mechanism.",
+      "published_at": "2026-08-15T08:40:01Z",
+      "updated_at": "2026-08-15T08:40:01Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -9308,6 +9398,29 @@
       ]
     },
     {
+      "title": "VLA-Precision: Asymmetric Co-Bootstrapping for Efficient Real-World Online RL of Vision-Language-Action Models",
+      "venue": "arXiv 2026",
+      "topic": "VLA / Physical AI / real-world online RL / streaming runtime",
+      "arxiv": "2609.04355",
+      "doi": "",
+      "official_id": "arXiv:2609.04355",
+      "paper_url": "https://arxiv.org/abs/2609.04355",
+      "code_url": "https://vla-precision.github.io/",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Protected Physical-AI true miss. Beyond the online-RL algorithm, ACoB-Stream explicitly co-designs a closed-loop experience-policy execution architecture around invariant-state decoupling and on-demand streaming to reduce large-VLA rollout overhead; the paper reports up to 10.9x throughput/computational-efficiency improvement and 98.3% mean success over nine high-precision chemistry tasks across four robot embodiments. This is directly relevant to VLA runtime/infra rather than generic robot learning only.",
+      "published_at": "2026-09-03T18:19:36Z",
+      "updated_at": "2026-09-03T18:19:36Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Para-Pipe: Exploiting Hierarchical Operator Parallelism of ML Computational Graphs on SoCs",
       "venue": "IEEE TCAD 2025",
       "topic": "edge/cloud/heterogeneous AI systems / SoC mapping / operator parallelism",
@@ -12509,6 +12622,50 @@
       ]
     },
     {
+      "title": "Quality Recovery for Quantized KV Caches via Low-Rank Attention Adaptation",
+      "venue": "arXiv 2026",
+      "topic": "KV cache / quantization / long-context inference / low-rank adaptation",
+      "arxiv": "2609.04263",
+      "doi": "",
+      "official_id": "arXiv:2609.04263",
+      "paper_url": "https://arxiv.org/abs/2609.04263",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "High-value KV-quantization watch item. It keeps physically packed low-bit cache formats fixed and distills floating-cache behavior into low-rank Q/K/V projection updates, recovering substantial held-out perplexity gaps across multiple models/quantizers while showing that perplexity recovery does not necessarily recover long-context retrieval. Useful evidence for quantized-KV deployment tradeoffs, but currently narrower and more adaptation-centric than a new serving runtime mechanism.",
+      "published_at": "2026-09-02T13:37:04Z",
+      "updated_at": "2026-09-02T13:37:04Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Quantization",
+        "Efficient Attention"
+      ]
+    },
+    {
+      "title": "Efficient GUI Agents: A Systems Survey of Observation, Memory, Action, and Runtime Optimization",
+      "venue": "arXiv 2026 / EMNLP 2026 workshop",
+      "topic": "efficient reasoning/agent systems / GUI agents / runtime optimization",
+      "arxiv": "2609.02309",
+      "doi": "",
+      "official_id": "arXiv:2609.02309",
+      "paper_url": "https://arxiv.org/abs/2609.02309",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "High-value efficient-agent systems survey. It frames deployment efficiency end-to-end across observation, context/memory, action budget and planner/runtime overhead, with explicit attention to selective reading, recoverable memory, verification-aware control and hybrid GUI/non-GUI runtimes. Keep for lineage and recall expansion; survey contribution does not justify canonical mechanism promotion.",
+      "published_at": "2026-09-02T08:54:58Z",
+      "updated_at": "2026-09-02T08:54:58Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Attention",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "HeadWiseKV: Budgeted Per-Head Cache Residency for Hybrid Long-Context Language Models",
       "venue": "arXiv 2026",
       "topic": "KV cache/long-context / LLM serving",
@@ -14733,6 +14890,29 @@
       "directions": [
         "LLM Serving",
         "KV Cache / Long Context"
+      ]
+    },
+    {
+      "title": "Collective Communication for Distributed LLM Systems: Planning, Runtime Adaptation, and Computation Coordination",
+      "venue": "arXiv 2026",
+      "topic": "distributed training/inference / collective communication / runtime adaptation",
+      "arxiv": "2608.15118",
+      "doi": "",
+      "official_id": "arXiv:2608.15118",
+      "paper_url": "https://arxiv.org/abs/2608.15118",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "High-value distributed-systems lineage watch item. Tutorial-style taxonomy organizes collective optimization into topology-aware planning, runtime execution/adaptation, and computation-communication coordination across heterogeneous GPU interconnects, multi-NIC systems, mixed parallelism, serving latency and training throughput. Strong census/lineage value, but primarily a survey/tutorial rather than a new mechanism.",
+      "published_at": "2026-08-15T08:40:01Z",
+      "updated_at": "2026-08-15T08:40:01Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {

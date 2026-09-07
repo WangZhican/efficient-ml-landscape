@@ -4273,6 +4273,29 @@
     ]
   },
   {
+    "title": "VLA-Precision: Asymmetric Co-Bootstrapping for Efficient Real-World Online RL of Vision-Language-Action Models",
+    "venue": "arXiv 2026",
+    "topic": "VLA / Physical AI / real-world online RL / streaming runtime",
+    "arxiv": "2609.04355",
+    "doi": "",
+    "official_id": "arXiv:2609.04355",
+    "paper_url": "https://arxiv.org/abs/2609.04355",
+    "code_url": "https://vla-precision.github.io/",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Protected Physical-AI true miss. Beyond the online-RL algorithm, ACoB-Stream explicitly co-designs a closed-loop experience-policy execution architecture around invariant-state decoupling and on-demand streaming to reduce large-VLA rollout overhead; the paper reports up to 10.9x throughput/computational-efficiency improvement and 98.3% mean success over nine high-precision chemistry tasks across four robot embodiments. This is directly relevant to VLA runtime/infra rather than generic robot learning only.",
+    "published_at": "2026-09-03T18:19:36Z",
+    "updated_at": "2026-09-03T18:19:36Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "vla.cpp: A Unified Inference Runtime for Vision-Language-Action Models",
     "venue": "arXiv 2026",
     "topic": "VLA/WAM/Physical AI serving / portable runtime / edge deployment / quantized inference",
