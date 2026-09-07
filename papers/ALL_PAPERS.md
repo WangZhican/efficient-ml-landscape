@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **1562 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **411 visible papers = 138 P0 + 153 P1 + 120 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1563 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **411 visible papers = 138 P0 + 153 P1 + 120 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -434,7 +434,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 1424
+## 🏛️ Classical / Historical · 1425
 
 ### ICML 2026 · 375
 
@@ -2219,6 +2219,12 @@
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **Canonical** | **EcoServe: Enabling Cost-effective LLM Serving with Proactive Intra- and Inter-Instance Orchestration** | OSDI 2026 / arXiv | LLM serving; prefill-decode disaggregation; scheduling; commodity interconnect; cost-efficient inference | [Link](https://arxiv.org/abs/2504.18154) | — |
+
+### PRCV 2026 / arXiv 2026 · 1
+
+| Priority | Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|---|
+| **Canonical** | **Evolving Cache Schedules for Fast Diffusion Policy Inference** | PRCV 2026 / arXiv 2026 | Physical AI / diffusion-policy inference / activation caching / action-generation acceleration | [Link](https://arxiv.org/abs/2607.20293) | [Repo](https://github.com/pillom/EVO) |
 
 ### Project/primary artifact 2026 · 1
 

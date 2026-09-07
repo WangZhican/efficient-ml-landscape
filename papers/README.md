@@ -1,10 +1,10 @@
 # 🧭 Research Map
 
-> **1562 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
+> **1563 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
 
 <div align="center">
 
-[**🆕 Latest 30 Days · 411 tracked**](LATEST_30D.md) · [**🏛️ Classical · 1424**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
+[**🆕 Latest 30 Days · 411 tracked**](LATEST_30D.md) · [**🏛️ Classical · 1425**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
 
 </div>
 
@@ -23,9 +23,9 @@
 | 09 | [**Distributed Training / Inference**](09-distributed-training-inference.md) | **299** | **49** |
 | 10 | [**Multimodal / MLLM Serving**](10-multimodal-mllm-serving.md) | **192** | **66** |
 | 11 | [**Video / Image Generation**](11-video-image-generation.md) | **73** | **25** |
-| 12 | [**Diffusion / Flow Acceleration**](12-diffusion-flow.md) | **191** | **41** |
+| 12 | [**Diffusion / Flow Acceleration**](12-diffusion-flow.md) | **192** | **41** |
 | 13 | [**Efficient Reasoning / Agents**](13-efficient-reasoning-agents.md) | **267** | **69** |
-| 14 | [**VLA / WAM / Physical AI**](14-physical-ai-vla-wam.md) | **109** | **73** |
+| 14 | [**VLA / WAM / Physical AI**](14-physical-ai-vla-wam.md) | **110** | **73** |
 | 15 | [**Edge / Cloud / Heterogeneous AI**](15-edge-cloud-heterogeneous.md) | **329** | **122** |
 
 > Counts are multi-label and therefore do not sum to the unique-paper total. A canonical paper can intentionally appear in several directions.

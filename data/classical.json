@@ -27432,6 +27432,27 @@
     ]
   },
   {
+    "title": "Evolving Cache Schedules for Fast Diffusion Policy Inference",
+    "venue": "PRCV 2026 / arXiv 2026",
+    "topic": "Physical AI / diffusion-policy inference / activation caching / action-generation acceleration",
+    "arxiv": "2607.20293",
+    "doi": "",
+    "official_id": "arXiv:2607.20293",
+    "paper_url": "https://arxiv.org/abs/2607.20293",
+    "code_url": "https://github.com/pillom/EVO",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Protected Physical-AI reverse census recovered a direct inference-efficiency paper absent from the current authority/watch union. EVO globally optimizes cache-refresh schedules over the block-timestep lattice for transformer diffusion policies, is training-free and plug-and-play, and reports up to 8.05x action-generation speedup while preserving near-full closed-loop performance. Official code is linked from the primary arXiv record.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Diffusion / Flow Acceleration",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "DreamActVLA: Temporally Aligned Asynchronous Inference for Vision-Language-Action Models",
     "venue": "Project/primary artifact 2026",
     "topic": "VLA/WAM/Physical AI serving / temporally aligned asynchronous inference / latent world model",
