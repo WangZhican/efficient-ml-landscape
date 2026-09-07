@@ -44,6 +44,27 @@
     ]
   },
   {
+    "title": "AdaFuse: Accelerating Dynamic Adapter Inference via Token-Level Pre-Gating and Fused Kernel Optimization",
+    "venue": "AAAI 2026",
+    "topic": "LLM serving / dynamic adapters / fused CUDA kernel / inference latency",
+    "arxiv": "2603.11873",
+    "doi": "10.1609/aaai.v40i37.40435",
+    "official_id": "DOI:10.1609/aaai.v40i37.40435",
+    "paper_url": "https://arxiv.org/abs/2603.11873",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "AAAI-26 main-track algorithm-system co-design for dynamic adapter inference; token-level pre-gating plus fused switching CUDA kernel cuts decoding latency by over 2.4x; absent from authority.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "AdaSpec: Adaptive Multilingual Speculative Decoding with Self-Synthesized Language-Aware Training and Vocabulary Simplification",
     "venue": "AAAI 2026",
     "topic": "speculative decoding / multilingual inference",
@@ -61,6 +82,28 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Speculative Decoding"
+    ]
+  },
+  {
+    "title": "AMS-KV: Adaptive KV Caching in Multi-Scale Visual Autoregressive Transformers",
+    "venue": "AAAI 2026",
+    "topic": "image generation acceleration / VAR / KV cache",
+    "arxiv": "2511.16047",
+    "doi": "10.1609/aaai.v40i32.39936",
+    "official_id": "DOI:10.1609/aaai.v40i32.39936",
+    "paper_url": "https://arxiv.org/abs/2511.16047",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "AAAI-26 main-track generation-efficiency paper; scale-adaptive KV policy reduces cache use up to 84.83% and self-attention latency 60.48%, enabling larger stable batch sizes; absent from authority.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Efficient Attention",
+      "Video / Image Generation"
     ]
   },
   {
@@ -103,6 +146,27 @@
     "directions": [
       "Quantization",
       "Multimodal / MLLM Serving"
+    ]
+  },
+  {
+    "title": "BitDP: Ultra-low-bit Communication for Data Parallelism in LLM Training",
+    "venue": "AAAI 2026",
+    "topic": "distributed training / gradient quantization / communication compression",
+    "arxiv": "",
+    "doi": "10.1609/aaai.v40i30.39703",
+    "official_id": "DOI:10.1609/aaai.v40i30.39703",
+    "paper_url": "https://ojs.aaai.org/index.php/AAAI/article/view/39703",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "AAAI-26 main-track systems paper reducing data-parallel gradient communication by up to 32x with 1-2 bit communication and modern collective compatibility; direct distributed-training efficiency identity absent from authority.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "Distributed Training / Inference"
     ]
   },
   {
@@ -362,6 +426,29 @@
     ]
   },
   {
+    "title": "Lethe: Layer- and Time-Adaptive KV Cache Pruning for Reasoning-Intensive LLM Serving",
+    "venue": "AAAI 2026",
+    "topic": "KV cache / reasoning serving / dynamic pruning",
+    "arxiv": "2511.06029",
+    "doi": "10.1609/aaai.v40i33.40036",
+    "official_id": "DOI:10.1609/aaai.v40i33.40036",
+    "paper_url": "https://arxiv.org/abs/2511.06029",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "AAAI-26 main-track KV-cache serving paper targeting long decoding; layerwise allocation plus multi-round temporal pruning reports up to 2.56x throughput; absent from authority.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "MHA2MLA-VLM: Enabling DeepSeek’s Economical Multi-Head Latent Attention Across Vision-Language Models",
     "venue": "AAAI 2026",
     "topic": "VLM inference / MLA / KV cache compression",
@@ -381,6 +468,27 @@
       "KV Cache / Long Context",
       "Efficient Attention",
       "Multimodal / MLLM Serving"
+    ]
+  },
+  {
+    "title": "OTARo: Once Tuning for All Precisions Toward Robust On-Device LLMs",
+    "venue": "AAAI 2026",
+    "topic": "edge/on-device LLM / quantization / multi-precision deployment",
+    "arxiv": "2511.13147",
+    "doi": "10.1609/aaai.v40i24.39112",
+    "official_id": "DOI:10.1609/aaai.v40i24.39112",
+    "paper_url": "https://arxiv.org/abs/2511.13147",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "AAAI-26 main-track on-device quantization work enabling one model to switch deployment precision via shared-exponent floating point and once-tuning; direct edge/heterogeneous Efficient-ML identity absent from authority.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -447,6 +555,28 @@
     "directions": [
       "Speculative Decoding",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "Rethinking Visual Token Reduction in LVLMs Under Cross-Modal Misalignment",
+    "venue": "AAAI 2026",
+    "topic": "multimodal/MLLM serving / visual token pruning / inference acceleration",
+    "arxiv": "2506.22283",
+    "doi": "10.1609/aaai.v40i32.39949",
+    "official_id": "DOI:10.1609/aaai.v40i32.39949",
+    "paper_url": "https://arxiv.org/abs/2506.22283",
+    "code_url": "https://github.com/Ruixxxx/VisionDrop",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "AAAI-26 main-track VisionDrop paper; training-free progressive visual-token pruning gives 2.7x inference-latency reduction and 6x FLOPs reduction on LLaVA-NeXT-7B while retaining 95.71% performance; official repo verified.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Multimodal / MLLM Serving"
     ]
   },
   {

@@ -1,6 +1,6 @@
 # 05 · Sparsity / Pruning
 
-> **241 canonical papers** mapped here, plus a broader **74-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **243 canonical papers** mapped here, plus a broader **74-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -83,14 +83,16 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 221 canonical
+## 🏛️ Classical / Historical · 223 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **Canonical** | **CATP: Contextually Adaptive Token Pruning for Efficient and Enhanced Multimodal In-Context Learning** | AAAI 2026 | multimodal/MLLM serving / visual token pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/37592) | — |
 | **Canonical** | **FlashSVD: Memory-Efficient Inference with Streaming for Low-Rank Models** | AAAI 2026 | sparsity/pruning / GPU kernels | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39720) | — |
 | **Canonical** | **Instruction-Guided Cross-Modal Clustering for Training-Free Visual Token Pruning in Vision-Language Models** | AAAI 2026 | multimodal/MLLM serving / visual token pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/38212) | — |
+| **Canonical** | **Lethe: Layer- and Time-Adaptive KV Cache Pruning for Reasoning-Intensive LLM Serving** | AAAI 2026 | KV cache / reasoning serving / dynamic pruning | [Link](https://arxiv.org/abs/2511.06029) | — |
 | **Canonical** | **PosPrune: Visual Token Pruning with Positional Bias Correction for Efficient Large Vision-Language Models** | AAAI 2026 | multimodal/MLLM serving / visual token pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/38020) | — |
+| **Canonical** | **Rethinking Visual Token Reduction in LVLMs Under Cross-Modal Misalignment** | AAAI 2026 | multimodal/MLLM serving / visual token pruning / inference acceleration | [Link](https://arxiv.org/abs/2506.22283) | [Repo](https://github.com/Ruixxxx/VisionDrop) |
 | **Canonical** | **Self-Indexing KVCache: Predicting Sparse Attention from Compressed Keys** | AAAI 2026 | KV cache compression / sparse attention / CUDA kernel | [Link](https://doi.org/10.1609/aaai.v40i33.39988) | — |
 | **Canonical** | **SlimInfer: Accelerating Long-Context LLM Inference via Dynamic Token Pruning** | AAAI 2026 | long-context LLM inference / token pruning / asynchronous KV manager | [Link](https://arxiv.org/abs/2508.06447) | [Repo](https://github.com/Longxmas/SlimInfer) |
 | **Canonical** | **Sparse Attention Across Multiple-Context KV Cache** | AAAI 2026 | RAG / sparse attention / multi-context KV cache | [Link](https://doi.org/10.1609/aaai.v40i36.40266) | — |

@@ -1,6 +1,6 @@
 # 03 · KV Cache / Long Context
 
-> **388 canonical papers** mapped here, plus a broader **82-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **390 canonical papers** mapped here, plus a broader **82-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -91,18 +91,20 @@
 | **P1 · Watch** | **Edge-Native Embodied Intelligence for Action-Aware Wireless Edge Networks** | Fresh / preprint | VLA/WAM/Physical AI serving / edge-cloud / heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.17774) | — |
 | **P1 · Watch** | **An Internet for the KV Cache: Rethinking Classical Infrastructure Boundaries in the LLM Inference Age** | Fresh / preprint | KV cache / distributed serving / cloud-network-storage systems | [Link](https://arxiv.org/abs/2608.01526) | — |
 
-## 🏛️ Classical / Historical · 349 canonical
+## 🏛️ Classical / Historical · 351 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **Canonical** | **Accelerating LLM Inference Throughput via Asynchronous KV Cache Prefetching** | AAAI 2026 | LLM inference / KV cache prefetch / GPU memory hierarchy | [Link](https://doi.org/10.1609/aaai.v40i25.39224) | — |
 | **Canonical** | **AccKV: Towards Efficient Audio-Video LLMs Inference via Adaptive-Focusing and Cross-Calibration KV Cache Optimization** | AAAI 2026 | audio-video LLM / multimodal KV cache optimization | [Link](https://doi.org/10.1609/aaai.v40i7.37467) | — |
+| **Canonical** | **AMS-KV: Adaptive KV Caching in Multi-Scale Visual Autoregressive Transformers** | AAAI 2026 | image generation acceleration / VAR / KV cache | [Link](https://arxiv.org/abs/2511.16047) | — |
 | **Canonical** | **Efficient Multimodal Large Language Model via Dynamic KV Cache Quantization** | AAAI 2026 | MLLM inference / KV cache quantization | [Link](https://doi.org/10.1609/aaai.v40i25.39241) | — |
 | **Canonical** | **Head-Aware KV Cache Compression for Efficient Visual Autoregressive Modeling** | AAAI 2026 | KV cache / image generation acceleration | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39686) | [Repo](https://github.com/Zr2223/HACK) |
 | **Canonical** | **HitKV: Activation Frequency Knows Which Tokens Are Important** | AAAI 2026 | KV cache/long-context | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/40105) | — |
 | **Canonical** | **Judge Q: Trainable Queries for Optimized Information Retention in KV Cache Eviction** | AAAI 2026 | KV cache/long-context / efficient LLM inference | [Link](https://arxiv.org/abs/2509.10798) | [Repo](https://github.com/Mambaaaaaaaaaa/Judge-Q) |
 | **Canonical** | **KeepKV: Achieving Periodic Lossless KV Cache Compression for Efficient LLM Inference** | AAAI 2026 | KV cache compression / inference throughput | [Link](https://doi.org/10.1609/aaai.v40i39.40611) | — |
 | **Canonical** | **KVmix: Gradient-Based Layer Importance-Aware Mixed-Precision Quantization for KV Cache** | AAAI 2026 | KV cache quantization / mixed precision | [Link](https://doi.org/10.1609/aaai.v40i37.40422) | — |
+| **Canonical** | **Lethe: Layer- and Time-Adaptive KV Cache Pruning for Reasoning-Intensive LLM Serving** | AAAI 2026 | KV cache / reasoning serving / dynamic pruning | [Link](https://arxiv.org/abs/2511.06029) | — |
 | **Canonical** | **MHA2MLA-VLM: Enabling DeepSeek’s Economical Multi-Head Latent Attention Across Vision-Language Models** | AAAI 2026 | VLM inference / MLA / KV cache compression | [Link](https://doi.org/10.1609/aaai.v40i36.40319) | — |
 | **Canonical** | **Q Cache: Visual Attention Is Valuable in Less than Half of Decode Layers for Multimodal Large Language Model** | AAAI 2026 | MLLM inference / cross-layer attention reuse / KV cache | [Link](https://doi.org/10.1609/aaai.v40i16.38414) | — |
 | **Canonical** | **Self-Indexing KVCache: Predicting Sparse Attention from Compressed Keys** | AAAI 2026 | KV cache compression / sparse attention / CUDA kernel | [Link](https://doi.org/10.1609/aaai.v40i33.39988) | — |

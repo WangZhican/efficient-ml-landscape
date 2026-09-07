@@ -1,6 +1,6 @@
 # 10 · Multimodal / MLLM Serving
 
-> **190 canonical papers** mapped here, plus a broader **65-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **191 canonical papers** mapped here, plus a broader **65-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -74,7 +74,7 @@
 | **P1 · Watch** | **Omni-Prune: Query-Aware Unified Token Pruning for Efficient Omnimodal Large Language Models** | Fresh / preprint | llm_serving / sparse / edge | [Link](https://arxiv.org/abs/2607.23445) | — |
 | **P2 · Relevant** | **Structured Redundancy Modeling for Efficient Visual Token Pruning in High-Resolution MLLMs** | Fresh / preprint | llm_serving / sparse / multimodal / edge | [Link](https://arxiv.org/abs/2607.23046) | — |
 
-## 🏛️ Classical / Historical · 171 canonical
+## 🏛️ Classical / Historical · 172 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -86,6 +86,7 @@
 | **Canonical** | **MHA2MLA-VLM: Enabling DeepSeek’s Economical Multi-Head Latent Attention Across Vision-Language Models** | AAAI 2026 | VLM inference / MLA / KV cache compression | [Link](https://doi.org/10.1609/aaai.v40i36.40319) | — |
 | **Canonical** | **PosPrune: Visual Token Pruning with Positional Bias Correction for Efficient Large Vision-Language Models** | AAAI 2026 | multimodal/MLLM serving / visual token pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/38020) | — |
 | **Canonical** | **Q Cache: Visual Attention Is Valuable in Less than Half of Decode Layers for Multimodal Large Language Model** | AAAI 2026 | MLLM inference / cross-layer attention reuse / KV cache | [Link](https://doi.org/10.1609/aaai.v40i16.38414) | — |
+| **Canonical** | **Rethinking Visual Token Reduction in LVLMs Under Cross-Modal Misalignment** | AAAI 2026 | multimodal/MLLM serving / visual token pruning / inference acceleration | [Link](https://arxiv.org/abs/2506.22283) | [Repo](https://github.com/Ruixxxx/VisionDrop) |
 | **Canonical** | **STEP-Nav: Spatial-Temporal Efficient Visual Token Pruning for Vision-and-Language Navigation with Large Language Models** | AAAI 2026 | VLA/WAM/Physical AI serving / visual token pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39588) | — |
 | **Canonical** | **TOP-RL: Task-Optimized Progressive Token Pruning with Reinforcement Learning for Vision Language Models** | AAAI 2026 | multimodal/MLLM serving / visual token pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/38614) | — |
 | **Canonical** | **ViTCoP: Accelerating Large Vision-Language Models via Visual and Textual Semantic Collaborative Pruning** | AAAI 2026 | multimodal/MLLM efficiency / visual token pruning / inference acceleration | [Link](https://arxiv.org/abs/2601.17818) | — |

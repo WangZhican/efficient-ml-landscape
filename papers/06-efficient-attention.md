@@ -1,6 +1,6 @@
 # 06 · Efficient Attention
 
-> **228 canonical papers** mapped here, plus a broader **65-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **229 canonical papers** mapped here, plus a broader **65-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -74,10 +74,11 @@
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 | **P1 · Watch** | **Spend Bits Where Queries Look: KV Cache Vector Quantization with Attention-Preserving Transforms** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.04074) | — |
 
-## 🏛️ Classical / Historical · 198 canonical
+## 🏛️ Classical / Historical · 199 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
+| **Canonical** | **AMS-KV: Adaptive KV Caching in Multi-Scale Visual Autoregressive Transformers** | AAAI 2026 | image generation acceleration / VAR / KV cache | [Link](https://arxiv.org/abs/2511.16047) | — |
 | **Canonical** | **FlashSVD: Memory-Efficient Inference with Streaming for Low-Rank Models** | AAAI 2026 | sparsity/pruning / GPU kernels | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39720) | — |
 | **Canonical** | **Judge Q: Trainable Queries for Optimized Information Retention in KV Cache Eviction** | AAAI 2026 | KV cache/long-context / efficient LLM inference | [Link](https://arxiv.org/abs/2509.10798) | [Repo](https://github.com/Mambaaaaaaaaaa/Judge-Q) |
 | **Canonical** | **LatentLLM: Activation-Aware Transform to Multi-Head Latent Attention** | AAAI 2026 | LLM compression / efficient attention / tensor decomposition | [Link](https://arxiv.org/abs/2505.18413) | — |

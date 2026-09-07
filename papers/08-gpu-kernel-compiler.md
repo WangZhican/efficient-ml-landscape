@@ -1,6 +1,6 @@
 # 08 · GPU Kernel / DSL / Compiler
 
-> **393 canonical papers** mapped here, plus a broader **89-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **394 canonical papers** mapped here, plus a broader **89-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -98,11 +98,12 @@
 | **P1 · Watch** | **DEFT: Joint Task Placement and DVFS for Energy-Efficient Multi-GPU Runtimes** | Fresh / preprint | distributed runtime / multi-GPU / energy efficiency | [Link](https://arxiv.org/abs/2608.02122) | — |
 | **P1 · Watch** | **CubicQuant: Parametric Non-Uniform Codebooks for High-Throughput LLM Inference with 1-8-Bit Weights** | Fresh / preprint | quantization / GPU inference | [Link](https://arxiv.org/abs/2608.06763) | — |
 
-## 🏛️ Classical / Historical · 352 canonical
+## 🏛️ Classical / Historical · 353 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **Canonical** | **Accelerating LLM Inference Throughput via Asynchronous KV Cache Prefetching** | AAAI 2026 | LLM inference / KV cache prefetch / GPU memory hierarchy | [Link](https://doi.org/10.1609/aaai.v40i25.39224) | — |
+| **Canonical** | **AdaFuse: Accelerating Dynamic Adapter Inference via Token-Level Pre-Gating and Fused Kernel Optimization** | AAAI 2026 | LLM serving / dynamic adapters / fused CUDA kernel / inference latency | [Link](https://arxiv.org/abs/2603.11873) | — |
 | **Canonical** | **FlashSVD: Memory-Efficient Inference with Streaming for Low-Rank Models** | AAAI 2026 | sparsity/pruning / GPU kernels | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39720) | — |
 | **Canonical** | **Self-Indexing KVCache: Predicting Sparse Attention from Compressed Keys** | AAAI 2026 | KV cache compression / sparse attention / CUDA kernel | [Link](https://doi.org/10.1609/aaai.v40i33.39988) | — |
 | **Canonical** | **ViTCoP: Accelerating Large Vision-Language Models via Visual and Textual Semantic Collaborative Pruning** | AAAI 2026 | multimodal/MLLM efficiency / visual token pruning / inference acceleration | [Link](https://arxiv.org/abs/2601.17818) | — |

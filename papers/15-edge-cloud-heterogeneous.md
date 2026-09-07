@@ -1,6 +1,6 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **325 canonical papers** mapped here, plus a broader **114-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **326 canonical papers** mapped here, plus a broader **114-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -123,12 +123,13 @@
 | **P1 · Watch** | **Edge-Native Embodied Intelligence for Action-Aware Wireless Edge Networks** | Fresh / preprint | VLA/WAM/Physical AI serving / edge-cloud / heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.17774) | — |
 | **P1 · Watch** | **CubicQuant: Parametric Non-Uniform Codebooks for High-Throughput LLM Inference with 1-8-Bit Weights** | Fresh / preprint | quantization / GPU inference | [Link](https://arxiv.org/abs/2608.06763) | — |
 
-## 🏛️ Classical / Historical · 297 canonical
+## 🏛️ Classical / Historical · 298 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **Canonical** | **Accelerating LLM Inference Throughput via Asynchronous KV Cache Prefetching** | AAAI 2026 | LLM inference / KV cache prefetch / GPU memory hierarchy | [Link](https://doi.org/10.1609/aaai.v40i25.39224) | — |
 | **Canonical** | **DIAA: A Decoding-Efficient Inference Acceleration Approach for On-Device Large Language Models** | AAAI 2026 | on-device LLM / speculative decoding / edge inference | [Link](https://doi.org/10.1609/aaai.v40i31.39789) | — |
+| **Canonical** | **OTARo: Once Tuning for All Precisions Toward Robust On-Device LLMs** | AAAI 2026 | edge/on-device LLM / quantization / multi-precision deployment | [Link](https://arxiv.org/abs/2511.13147) | — |
 | **Canonical** | **TimeBill: Time-Budgeted Inference for Large Language Models** | AAAI 2026 | LLM inference / time budget / adaptive KV eviction | [Link](https://doi.org/10.1609/aaai.v40i36.40317) | — |
 | **Canonical** | **EfficientLLM: Unified Pruning-Aware Pretraining for Auto-Designed Compact Language Models** | ACL 2026 | pruning / compact edge LLM | [Link](https://doi.org/10.18653/v1/2026.acl-long.355) | — |
 | **Canonical** | **FLARE: Fine-Grained Length-Aware Routing for Resource-Efficient Heterogeneous LLM Serving** | ACL 2026 | LLM serving / heterogeneous routing | [Link](https://aclanthology.org/2026.acl-long.1018/) | — |

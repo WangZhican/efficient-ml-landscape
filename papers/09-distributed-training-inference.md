@@ -1,6 +1,6 @@
 # 09 · Distributed Training / Inference
 
-> **298 canonical papers** mapped here, plus a broader **48-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **299 canonical papers** mapped here, plus a broader **48-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -57,10 +57,11 @@
 | **P1 · Watch** | **DEFT: Joint Task Placement and DVFS for Energy-Efficient Multi-GPU Runtimes** | Fresh / preprint | distributed runtime / multi-GPU / energy efficiency | [Link](https://arxiv.org/abs/2608.02122) | — |
 | **P1 · Watch** | **An Internet for the KV Cache: Rethinking Classical Infrastructure Boundaries in the LLM Inference Age** | Fresh / preprint | KV cache / distributed serving / cloud-network-storage systems | [Link](https://arxiv.org/abs/2608.01526) | — |
 
-## 🏛️ Classical / Historical · 272 canonical
+## 🏛️ Classical / Historical · 273 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
+| **Canonical** | **BitDP: Ultra-low-bit Communication for Data Parallelism in LLM Training** | AAAI 2026 | distributed training / gradient quantization / communication compression | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39703) | — |
 | **Canonical** | **Instruction-Guided Cross-Modal Clustering for Training-Free Visual Token Pruning in Vision-Language Models** | AAAI 2026 | multimodal/MLLM serving / visual token pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/38212) | — |
 | **Canonical** | **LycheeCluster: Efficient Long-Context Inference with Structure-Aware Chunking and Hierarchical KV Indexing** | ACL 2026 Findings | KV cache / long-context efficient inference / hierarchical retrieval | [Link](https://aclanthology.org/2026.findings-acl.376/) | — |
 | **Canonical** | **Compute Only 16 Tokens in One Timestep: Accelerating Diffusion Transformers with Cluster-Driven Feature Caching** | ACM Multimedia 2025 | diffusion token/feature caching | [Link](https://arxiv.org/abs/2509.10312) | — |
