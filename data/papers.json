@@ -2194,6 +2194,29 @@
     ]
   },
   {
+    "title": "ETS: Efficient Tree Search for Inference-Time Scaling",
+    "venue": "arXiv 2025",
+    "topic": "efficient reasoning / inference-time scaling / KV-cache sharing / tree search",
+    "arxiv": "2502.13575",
+    "doi": "",
+    "official_id": "arXiv:2502.13575",
+    "paper_url": "https://arxiv.org/abs/2502.13575",
+    "code_url": "https://github.com/SqueezeAILab/ETS",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Berkeley Squeeze AI/Sophia Shao-Keutzer-Gholami reverse census recovered a direct inference-efficiency paper absent from the current authority. ETS makes tree-search cost KV-cache aware, pruning redundant trajectories while preserving semantic diversity; it reports 1.8x lower average KV-cache size and 1.4x higher throughput than prior search, with official code.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "Kinetics: Rethinking Test-Time Scaling Laws",
     "venue": "arXiv 2025",
     "topic": "efficient reasoning / test-time scaling / sparse attention / inference cost modeling",
