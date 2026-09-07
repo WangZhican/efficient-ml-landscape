@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-07",
   "window_start_beijing": "2026-08-08",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 411,
+  "tracked_total": 412,
   "p0_strong_or_canonical": [
     {
       "title": "Para-Pipe: Exploiting Hierarchical Operator Parallelism of ML Computational Graphs on SoCs",
@@ -5982,6 +5982,28 @@
       "directions": [
         "LLM Serving",
         "KV Cache / Long Context",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "The Workload-Router-Pool Architecture for LLM Inference Optimization: A Vision Paper from the vLLM Semantic Router Project",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / semantic routing / fleet architecture / agentic and multimodal serving",
+      "arxiv": "2603.21354",
+      "doi": "",
+      "official_id": "arXiv:2603.21354",
+      "paper_url": "https://arxiv.org/abs/2603.21354",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Major-group 041-050 Junchen Jiang/vLLM Semantic Router route surfaced an independent serving-architecture vision paper absent from the current authority/watch union. It organizes workload, routing, and pool optimization into a WRP framework and maps prior serving mechanisms plus open directions; retained as high-value watch rather than canonical-high because it is primarily a synthesis/vision paper rather than a new implemented runtime mechanism.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
         "Efficient Reasoning / Agents"
       ]
     },
@@ -14918,6 +14940,28 @@
       "directions": [
         "LLM Serving",
         "KV Cache / Long Context",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "The Workload-Router-Pool Architecture for LLM Inference Optimization: A Vision Paper from the vLLM Semantic Router Project",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / semantic routing / fleet architecture / agentic and multimodal serving",
+      "arxiv": "2603.21354",
+      "doi": "",
+      "official_id": "arXiv:2603.21354",
+      "paper_url": "https://arxiv.org/abs/2603.21354",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Major-group 041-050 Junchen Jiang/vLLM Semantic Router route surfaced an independent serving-architecture vision paper absent from the current authority/watch union. It organizes workload, routing, and pool optimization into a WRP framework and maps prior serving mechanisms plus open directions; retained as high-value watch rather than canonical-high because it is primarily a synthesis/vision paper rather than a new implemented runtime mechanism.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
         "Efficient Reasoning / Agents"
       ]
     },

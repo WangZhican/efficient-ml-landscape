@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **1566 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **411 visible papers = 138 P0 + 153 P1 + 120 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1566 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **412 visible papers = 138 P0 + 154 P1 + 120 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -147,7 +147,7 @@
 | **P0 · Strong** | **Thought-Level Beam Search for Reasoning** | arXiv 2026 | efficient reasoning / inference-time compute / LLM serving / vLLM runtime | [Link](https://arxiv.org/abs/2608.08020) | [Repo](https://github.com/Dao-AILab/gambit-parallel-reasoning) |
 | **P0 · Strong** | **EasyBalance: Cross-Layer Load Balancing in Distributed MoE Inference** | ICML 2026 | MoE inference / expert parallelism / cross-layer load balancing | [Link](https://arxiv.org/abs/2608.07964) | [Repo](https://github.com/yize-wu/EasyInfra) |
 
-## 🧭 P1 · Watch · 153
+## 🧭 P1 · Watch · 154
 
 > Clearly relevant and promising, but still awaiting stronger novelty, evidence, venue, or adoption validation.
 
@@ -291,6 +291,7 @@
 | **P1 · Watch** | **Unified 4D World Action Modeling from Video Priors with Asynchronous Denoising** | arXiv 2026 | VLA/WAM/Physical AI / asynchronous denoising / efficient action decoding | [Link](https://arxiv.org/abs/2604.26694) | — |
 | **P1 · Watch** | **TrainDeeploy: Hardware-Accelerated Parameter-Efficient Fine-Tuning of Small Transformer Models at the Extreme Edge** | DATE 2026 | extreme-edge AI; transformer fine-tuning; LoRA; RISC-V SoC | [Link](https://arxiv.org/abs/2603.09511) | — |
 | **P1 · Watch** | **TraceLab: Characterizing Coding Agent Workloads for LLM Serving** | arXiv 2026 | agentic LLM serving; coding-agent workload characterization; KV-cache behavior; tool latency; serving traces | [Link](https://arxiv.org/abs/2606.30560) | [Repo](https://github.com/uw-syfi/TraceLab) |
+| **P1 · Watch** | **The Workload-Router-Pool Architecture for LLM Inference Optimization: A Vision Paper from the vLLM Semantic Router Project** | arXiv 2026 | LLM serving / semantic routing / fleet architecture / agentic and multimodal serving | [Link](https://arxiv.org/abs/2603.21354) | — |
 | **P1 · Watch** | **The Hyperscale Lottery: How State-Space Models Have Sacrificed Edge Efficiency** | arXiv 2026 | edge AI; state-space models; efficiency characterization; cloud-edge tradeoff | [Link](https://arxiv.org/abs/2604.07935) | — |
 | **P1 · Watch** | **The 1/W Law: An Analytical Study of Context-Length Routing Topology and GPU Generation Gains for LLM Inference Energy Efficiency** | arXiv 2026 | LLM serving / context-length routing / inference energy efficiency / heterogeneous GPU fleet | [Link](https://arxiv.org/abs/2603.17280) | — |
 | **P1 · Watch** | **Spend Bits Where Queries Look: KV Cache Vector Quantization with Attention-Preserving Transforms** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.04074) | — |
