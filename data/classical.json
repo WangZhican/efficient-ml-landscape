@@ -2487,6 +2487,28 @@
     ]
   },
   {
+    "title": "FleetOpt: Analytical Fleet Provisioning for LLM Inference with Compress-and-Route as Implementation Mechanism",
+    "venue": "arXiv 2026",
+    "topic": "LLM serving / heterogeneous GPU fleet / context-length routing / fleet provisioning",
+    "arxiv": "2603.16514",
+    "doi": "",
+    "official_id": "arXiv:2603.16514",
+    "paper_url": "https://arxiv.org/abs/2603.16514",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Junchen Jiang reverse census recovered a direct LLM fleet-provisioning framework absent from the current authority. FleetOpt analytically derives a two-pool context-length topology and uses Compress-and-Route as the implementation mechanism; on production traces it reports 6-82% total GPU-cost reduction versus a homogeneous fleet.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "FlowPrefill: Decoupling Preemption from Prefill Scheduling Granularity to Mitigate Head-of-Line Blocking in LLM Serving",
     "venue": "arXiv 2026",
     "topic": "LLM serving / prefill scheduling / operator-level preemption / SLO goodput",
