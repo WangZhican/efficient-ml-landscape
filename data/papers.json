@@ -2970,6 +2970,29 @@
     ]
   },
   {
+    "title": "HBF Sucks? A Full-Stack Characterization of High-Bandwidth Flash for KV-Centric LLM Serving",
+    "venue": "arXiv 2026",
+    "topic": "LLM serving / KV cache / heterogeneous memory and storage",
+    "arxiv": "2608.11668",
+    "doi": "",
+    "official_id": "arXiv:2608.11668",
+    "paper_url": "https://arxiv.org/abs/2608.11668",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Full-stack characterization of high-bandwidth flash for KV-centric LLM serving using four two-hour Qwen-Bailian production traces, five dense/MoE models, and H100/B200 profiles. Shows a drop-in HBF-for-SSD design can worsen end-to-end latency by 2-5.5x and SLO goodput by 1.1-2.7x because near-tier capacity/bandwidth loss, write-heavy transient KV traffic, thermal limits, and endurance dominate raw flash read latency; establishes concrete system-design conditions for selective HBF placement.",
+    "published_at": "2026-08-12T05:25:38Z",
+    "updated_at": "2026-08-25T14:33:44Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "MoE Systems / Accelerators",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Heterogeneous Memory Design Exploration for AI Accelerators with a Gain Cell Memory Compiler",
     "venue": "arXiv 2026",
     "topic": "edge/cloud/heterogeneous AI systems; AI accelerator memory; SRAM/GCRAM; compiler; hardware design-space exploration",

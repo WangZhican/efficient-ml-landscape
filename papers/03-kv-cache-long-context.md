@@ -1,10 +1,10 @@
 # 03 · KV Cache / Long Context
 
-> **393 canonical papers** mapped here, plus a broader **83-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **394 canonical papers** mapped here, plus a broader **84-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 83 tracked
+## 🆕 Latest 30 Days · 84 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -69,6 +69,7 @@
 | **P1 · Watch** | **KV Cache Compression Through the Lens of Transform Coding** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.14191) | — |
 | **P1 · Watch** | **vToken: Token-Level Virtualization for Reclaimable KV Caches** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.13263) | — |
 | **P0 · Strong** | **From Local Mismatch to Global Impact: Optimizing Cache Reuse Policy for Efficient Diffusion** | Fresh / preprint | diffusion cache policy / video-image generation acceleration | [Link](https://arxiv.org/abs/2608.13043) | — |
+| **P0 · Strong** | **HBF Sucks? A Full-Stack Characterization of High-Bandwidth Flash for KV-Centric LLM Serving** | arXiv 2026 | LLM serving / KV cache / heterogeneous memory and storage | [Link](https://arxiv.org/abs/2608.11668) | — |
 | **P2 · Relevant** | **Governing the KV Cache: Preventing Timing Side-Channel Leakage in Multi-Tenant LLM Inference** | Fresh / preprint | llm_serving / kv / gen / edge | [Link](https://arxiv.org/abs/2608.09225) | — |
 | **P1 · Watch** | **DistillCache: KL-Guided Adaptive KV-Cache Eviction for Memory-Efficient LLM Inference** | Fresh / preprint | KV cache/long-context / learned eviction | [Link](https://arxiv.org/abs/2608.08878) | — |
 | **P2 · Relevant** | **OasisKV: Scaling In-Decode KV Cache Beyond HBM with Lookahead Sparse Prefetching** | Fresh / preprint | LLM serving; KV cache / long context; speculative decoding; sparsity / pruning; efficient attention | [Link](https://arxiv.org/abs/2608.08097) | — |

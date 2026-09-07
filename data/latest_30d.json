@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-08",
   "window_start_beijing": "2026-08-09",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 417,
+  "tracked_total": 420,
   "p0_strong_or_canonical": [
     {
       "title": "Don't Drop Dropout: Optimizing Layer Sparsity for Efficient LLM Training and Inference",
@@ -2953,6 +2953,29 @@
       ]
     },
     {
+      "title": "HBF Sucks? A Full-Stack Characterization of High-Bandwidth Flash for KV-Centric LLM Serving",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / KV cache / heterogeneous memory and storage",
+      "arxiv": "2608.11668",
+      "doi": "",
+      "official_id": "arXiv:2608.11668",
+      "paper_url": "https://arxiv.org/abs/2608.11668",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Full-stack characterization of high-bandwidth flash for KV-centric LLM serving using four two-hour Qwen-Bailian production traces, five dense/MoE models, and H100/B200 profiles. Shows a drop-in HBF-for-SSD design can worsen end-to-end latency by 2-5.5x and SLO goodput by 1.1-2.7x because near-tier capacity/bandwidth loss, write-heavy transient KV traffic, thermal limits, and endurance dominate raw flash read latency; establishes concrete system-design conditions for selective HBF placement.",
+      "published_at": "2026-08-12T05:25:38Z",
+      "updated_at": "2026-08-25T14:33:44Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "MoE Systems / Accelerators",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "TideRL: Boosting Agentic RL Goodput with Readiness-Aware Scheduling",
       "venue": "",
       "topic": "agentic RL infrastructure",
@@ -3205,6 +3228,28 @@
       "directions": [
         "LLM Serving",
         "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Streaming4D: Accelerate 4D World Models via Block-wise Video Generation and Incremental Reconstruction",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / world-model acceleration / streaming 4D reconstruction",
+      "arxiv": "2609.00610",
+      "doi": "",
+      "official_id": "arXiv:2609.00610",
+      "paper_url": "https://arxiv.org/abs/2609.00610",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI/WAM efficiency watch: tightly couples block-wise autoregressive video generation with incremental 3D reconstruction so reconstruction begins as soon as each temporal block is emitted, overlapping synthesis and geometry updates. Reports 1.24x runtime speedup on a single RTX 4090 while targeting interactive real-time 4D world-model use; retained as watch because it is world-representation infrastructure rather than a full embodied-control serving system.",
+      "published_at": "2026-09-01T02:49:45Z",
+      "updated_at": "2026-09-01T02:49:45Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation",
         "VLA / WAM / Physical AI"
       ]
     },
@@ -3546,6 +3591,26 @@
         "LLM Serving",
         "Speculative Decoding",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Transforms for LLM Quantization: The Great Inversion and Format Co-Design",
+      "venue": "arXiv 2026",
+      "topic": "quantization / number-format co-design / transform methods",
+      "arxiv": "2608.25188",
+      "doi": "",
+      "official_id": "arXiv:2608.25188",
+      "paper_url": "https://arxiv.org/abs/2608.25188",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "High-value quantization synthesis rather than a new runtime: formalizes the opposition between energy-concentrating classical transform coding and flattening for grouped shared-scale LLM quantization, and connects transform choice to INT4/FP4/MXFP4/NVFP4 formats. Surveys roughly 200 works and classifies 43 transform methods; useful canonical-neighborhood/lineage reference but retained as watch because its main contribution is survey/theory synthesis.",
+      "published_at": "2026-08-25T22:01:51Z",
+      "updated_at": "2026-08-25T22:01:51Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization"
       ]
     },
     {
@@ -12019,6 +12084,29 @@
       ]
     },
     {
+      "title": "HBF Sucks? A Full-Stack Characterization of High-Bandwidth Flash for KV-Centric LLM Serving",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / KV cache / heterogeneous memory and storage",
+      "arxiv": "2608.11668",
+      "doi": "",
+      "official_id": "arXiv:2608.11668",
+      "paper_url": "https://arxiv.org/abs/2608.11668",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Full-stack characterization of high-bandwidth flash for KV-centric LLM serving using four two-hour Qwen-Bailian production traces, five dense/MoE models, and H100/B200 profiles. Shows a drop-in HBF-for-SSD design can worsen end-to-end latency by 2-5.5x and SLO goodput by 1.1-2.7x because near-tier capacity/bandwidth loss, write-heavy transient KV traffic, thermal limits, and endurance dominate raw flash read latency; establishes concrete system-design conditions for selective HBF placement.",
+      "published_at": "2026-08-12T05:25:38Z",
+      "updated_at": "2026-08-25T14:33:44Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "MoE Systems / Accelerators",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "TideRL: Boosting Agentic RL Goodput with Readiness-Aware Scheduling",
       "venue": "",
       "topic": "agentic RL infrastructure",
@@ -12269,6 +12357,28 @@
       "directions": [
         "LLM Serving",
         "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Streaming4D: Accelerate 4D World Models via Block-wise Video Generation and Incremental Reconstruction",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / world-model acceleration / streaming 4D reconstruction",
+      "arxiv": "2609.00610",
+      "doi": "",
+      "official_id": "arXiv:2609.00610",
+      "paper_url": "https://arxiv.org/abs/2609.00610",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI/WAM efficiency watch: tightly couples block-wise autoregressive video generation with incremental 3D reconstruction so reconstruction begins as soon as each temporal block is emitted, overlapping synthesis and geometry updates. Reports 1.24x runtime speedup on a single RTX 4090 while targeting interactive real-time 4D world-model use; retained as watch because it is world-representation infrastructure rather than a full embodied-control serving system.",
+      "published_at": "2026-09-01T02:49:45Z",
+      "updated_at": "2026-09-01T02:49:45Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation",
         "VLA / WAM / Physical AI"
       ]
     },
@@ -12610,6 +12720,26 @@
         "LLM Serving",
         "Speculative Decoding",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Transforms for LLM Quantization: The Great Inversion and Format Co-Design",
+      "venue": "arXiv 2026",
+      "topic": "quantization / number-format co-design / transform methods",
+      "arxiv": "2608.25188",
+      "doi": "",
+      "official_id": "arXiv:2608.25188",
+      "paper_url": "https://arxiv.org/abs/2608.25188",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "High-value quantization synthesis rather than a new runtime: formalizes the opposition between energy-concentrating classical transform coding and flattening for grouped shared-scale LLM quantization, and connects transform choice to INT4/FP4/MXFP4/NVFP4 formats. Surveys roughly 200 works and classifies 43 transform methods; useful canonical-neighborhood/lineage reference but retained as watch because its main contribution is survey/theory synthesis.",
+      "published_at": "2026-08-25T22:01:51Z",
+      "updated_at": "2026-08-25T22:01:51Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization"
       ]
     },
     {
