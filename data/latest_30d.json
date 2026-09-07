@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-08",
   "window_start_beijing": "2026-08-09",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 429,
+  "tracked_total": 432,
   "p0_strong_or_canonical": [
     {
       "title": "Don't Drop Dropout: Optimizing Layer Sparsity for Efficient LLM Training and Inference",
@@ -3232,6 +3232,29 @@
         "LLM Serving",
         "MoE Systems / Accelerators"
       ]
+    },
+    {
+      "title": "Aero Realtime: Fully Aligned Input-Output Streams for Low-Latency Streaming Multimodal Generation",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / streaming generation / KV reuse / distributed training",
+      "arxiv": "2608.08469",
+      "doi": "",
+      "official_id": "arXiv:2608.08469",
+      "paper_url": "https://arxiv.org/abs/2608.08469",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "True 30d systems miss. Aero Realtime replaces turn-based prefill-then-decode with a duplex slot-aligned streaming architecture in which new multimodal observations and text generation advance together. Inference appends only the newest slot and reuses KV cache; the work also includes a serving recipe, hardware-aware distributed training and resumable inference. On four A6000 GPUs it reports 84 ms median and 173 ms P95 processing lag over a 20-minute continuous stream, making this directly relevant to realtime multimodal serving/runtime rather than only model quality.",
+      "published_at": "2026-08-09T04:22:57Z",
+      "updated_at": "2026-08-09T04:22:57Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Distributed Training / Inference",
+        "Multimodal / MLLM Serving"
+      ]
     }
   ],
   "p1_watchlist": [
@@ -3253,6 +3276,30 @@
       "is_latest_30d": true,
       "directions": [
         "MoE Systems / Accelerators"
+      ]
+    },
+    {
+      "title": "Linguistic Trajectory Encoding for Efficient Long-Horizon Spatial Memory in Embodied Agents",
+      "venue": "arXiv 2026",
+      "topic": "Physical AI / embodied agent memory / long-horizon spatial compression",
+      "arxiv": "2609.04802",
+      "doi": "",
+      "official_id": "arXiv:2609.04802",
+      "paper_url": "https://arxiv.org/abs/2609.04802",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI memory-efficiency watch. LTE compresses per-object motion histories using language plus sparse spatial/visual anchors, adapting representation to motion complexity. The paper reports 8.7x-26.1x trajectory compression with sub-second queries over 24-hour video and substantial retrieval gains. Valuable for embodied long-context/memory census, though it is a memory representation rather than a full VLA/WAM serving runtime.",
+      "published_at": "2026-09-04T07:00:48Z",
+      "updated_at": "2026-09-04T07:00:48Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Sparsity / Pruning",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -5608,6 +5655,31 @@
       "directions": [
         "Speculative Decoding",
         "MoE Systems / Accelerators",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Risk-Adaptive Edge--Cloud Visual Reasoning for Communication-Efficient Autonomous Driving",
+      "venue": "arXiv 2026",
+      "topic": "Physical AI / edge-cloud inference / autonomous driving / selective VLM offload",
+      "arxiv": "2608.14991",
+      "doi": "",
+      "official_id": "arXiv:2608.14991",
+      "paper_url": "https://arxiv.org/abs/2608.14991",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI edge/cloud systems watch. An onboard VLM plus lightweight detector decide when cloud VLM reasoning is needed while safety-critical validation/control remain local. CARLA experiments match periodic-cloud task success while cutting cloud requests by 54.1% and evaluate multiple network profiles. Strong edge-cloud execution relevance, but the runtime mechanism is comparatively simple, so retain as high-value watch rather than canonical-high.",
+      "published_at": "2026-08-15T02:36:01Z",
+      "updated_at": "2026-08-15T02:36:01Z",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context",
+        "Distributed Training / Inference",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -12562,6 +12634,29 @@
       ]
     },
     {
+      "title": "Aero Realtime: Fully Aligned Input-Output Streams for Low-Latency Streaming Multimodal Generation",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / streaming generation / KV reuse / distributed training",
+      "arxiv": "2608.08469",
+      "doi": "",
+      "official_id": "arXiv:2608.08469",
+      "paper_url": "https://arxiv.org/abs/2608.08469",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "True 30d systems miss. Aero Realtime replaces turn-based prefill-then-decode with a duplex slot-aligned streaming architecture in which new multimodal observations and text generation advance together. Inference appends only the newest slot and reuses KV cache; the work also includes a serving recipe, hardware-aware distributed training and resumable inference. On four A6000 GPUs it reports 84 ms median and 173 ms P95 processing lag over a 20-minute continuous stream, making this directly relevant to realtime multimodal serving/runtime rather than only model quality.",
+      "published_at": "2026-08-09T04:22:57Z",
+      "updated_at": "2026-08-09T04:22:57Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Distributed Training / Inference",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
       "title": "Cache-Aware Joint Router Adaptation for Memory-Efficient MoE Inference",
       "venue": "arXiv 2026",
       "topic": "MoE systems/accelerators / expert cache / router adaptation",
@@ -12579,6 +12674,30 @@
       "is_latest_30d": true,
       "directions": [
         "MoE Systems / Accelerators"
+      ]
+    },
+    {
+      "title": "Linguistic Trajectory Encoding for Efficient Long-Horizon Spatial Memory in Embodied Agents",
+      "venue": "arXiv 2026",
+      "topic": "Physical AI / embodied agent memory / long-horizon spatial compression",
+      "arxiv": "2609.04802",
+      "doi": "",
+      "official_id": "arXiv:2609.04802",
+      "paper_url": "https://arxiv.org/abs/2609.04802",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI memory-efficiency watch. LTE compresses per-object motion histories using language plus sparse spatial/visual anchors, adapting representation to motion complexity. The paper reports 8.7x-26.1x trajectory compression with sub-second queries over 24-hour video and substantial retrieval gains. Valuable for embodied long-context/memory census, though it is a memory representation rather than a full VLA/WAM serving runtime.",
+      "published_at": "2026-09-04T07:00:48Z",
+      "updated_at": "2026-09-04T07:00:48Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Sparsity / Pruning",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -14934,6 +15053,31 @@
       "directions": [
         "Speculative Decoding",
         "MoE Systems / Accelerators",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Risk-Adaptive Edge--Cloud Visual Reasoning for Communication-Efficient Autonomous Driving",
+      "venue": "arXiv 2026",
+      "topic": "Physical AI / edge-cloud inference / autonomous driving / selective VLM offload",
+      "arxiv": "2608.14991",
+      "doi": "",
+      "official_id": "arXiv:2608.14991",
+      "paper_url": "https://arxiv.org/abs/2608.14991",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI edge/cloud systems watch. An onboard VLM plus lightweight detector decide when cloud VLM reasoning is needed while safety-critical validation/control remain local. CARLA experiments match periodic-cloud task success while cutting cloud requests by 54.1% and evaluate multiple network profiles. Strong edge-cloud execution relevance, but the runtime mechanism is comparatively simple, so retain as high-value watch rather than canonical-high.",
+      "published_at": "2026-08-15T02:36:01Z",
+      "updated_at": "2026-08-15T02:36:01Z",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context",
+        "Distributed Training / Inference",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },

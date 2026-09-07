@@ -2376,6 +2376,29 @@
     ]
   },
   {
+    "title": "Aero Realtime: Fully Aligned Input-Output Streams for Low-Latency Streaming Multimodal Generation",
+    "venue": "arXiv 2026",
+    "topic": "multimodal/MLLM serving / streaming generation / KV reuse / distributed training",
+    "arxiv": "2608.08469",
+    "doi": "",
+    "official_id": "arXiv:2608.08469",
+    "paper_url": "https://arxiv.org/abs/2608.08469",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "True 30d systems miss. Aero Realtime replaces turn-based prefill-then-decode with a duplex slot-aligned streaming architecture in which new multimodal observations and text generation advance together. Inference appends only the newest slot and reuses KV cache; the work also includes a serving recipe, hardware-aware distributed training and resumable inference. On four A6000 GPUs it reports 84 ms median and 173 ms P95 processing lag over a 20-minute continuous stream, making this directly relevant to realtime multimodal serving/runtime rather than only model quality.",
+    "published_at": "2026-08-09T04:22:57Z",
+    "updated_at": "2026-08-09T04:22:57Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Distributed Training / Inference",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
     "title": "AInfer-PD: Communication-Safe In-Place Prefill-Decode Multiplexing for Distributed MoE Rollouts",
     "venue": "arXiv 2026",
     "topic": "LLM serving / agentic RL rollout / prefill-decode multiplexing / distributed MoE / communication",
