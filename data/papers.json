@@ -623,6 +623,30 @@
     ]
   },
   {
+    "title": "Sharp Eyes and Memory for VideoLLMs: Information-Aware Visual Token Pruning for Efficient and Reliable VideoLLM Reasoning",
+    "venue": "AAAI 2026",
+    "topic": "multimodal/VideoLLM efficiency / visual token pruning / KV cache pruning / FlashAttention-compatible inference",
+    "arxiv": "2511.08003",
+    "doi": "10.1609/aaai.v40i10.37805",
+    "official_id": "arXiv:2511.08003",
+    "paper_url": "https://arxiv.org/abs/2511.08003",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "AAAI-26 main-track VideoLLM inference-efficiency paper (SharpV): adaptive spatial-temporal visual-token pruning plus degradation-aware KV-cache pruning, attention-score-free and FlashAttention-compatible; direct multimodal efficiency identity absent from authority.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "SlimInfer: Accelerating Long-Context LLM Inference via Dynamic Token Pruning",
     "venue": "AAAI 2026",
     "topic": "long-context LLM inference / token pruning / asynchronous KV manager",
