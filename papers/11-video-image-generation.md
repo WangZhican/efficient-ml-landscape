@@ -1,36 +1,40 @@
 # 11 · Video / Image Generation
 
-> **73 canonical papers** mapped here, plus a broader **21-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **73 canonical papers** mapped here, plus a broader **25-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 21 tracked
+## 🆕 Latest 30 Days · 25 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **P0 · Strong** | **DSAQuant: Denoising-Stage-Aligned Quantization-Aware Training for Video Generation** | CoRR 2026 | quantization / video generation acceleration / diffusion inference | [Link](https://arxiv.org/abs/2609.04031) | [Repo](https://github.com/robbyant-research/DSAQuant) |
 | **P1 · Watch** | **DreamX-Creator: Democratizing Native Audio-Video Generation at 2K Resolution** | Fresh / preprint | video/image generation acceleration / diffusion distillation | [Link](https://arxiv.org/abs/2608.31106) | [Repo](https://github.com/AMAP-ML/DreamX-Creator) |
+| **P0 · Strong** | **RegionCache: Semantic-Aware Region Reuse for Efficient Multi-Turn Image Generation** | Fresh / preprint | video/image generation acceleration / diffusion cache | [Link](https://arxiv.org/abs/2608.29809) | [Repo](https://github.com/hebutBryant/RegionCache) |
+| **P0 · Strong** | **EpaCache: Error-Propagation-Aware Caching for Accelerating Diffusion-Based Visual Generation** | Fresh / preprint | video/image generation acceleration / diffusion cache | [Link](https://arxiv.org/abs/2608.29264) | — |
+| **P0 · Strong** | **DensityKV: Density-Guided KV Cache Compression for Long Video Generation** | arXiv 2026 | KV cache / video generation acceleration / efficient attention | [Link](https://arxiv.org/abs/2608.27922) | [Repo](https://github.com/ZhaoWQQ/DensityKV) |
 | **P1 · Watch** | **ClusterAttention: A training-free speedup of bidirectional attention** | Fresh / preprint | efficient attention / sparse attention / video generation | [Link](https://arxiv.org/abs/2608.26965) | — |
 | **P1 · Watch** | **Activation Outliers Matter: Robust Recovery for Quantized Multimodal LLMs** | Fresh / preprint | quantization / multimodal / video generation | [Link](https://arxiv.org/abs/2608.26581) | — |
+| **P1 · Watch** | **TurboT2VA: Fast Large-Scale Text-to-Video-Audio Generation via Score-Regularized Consistency Distillation** | Fresh / preprint | video/image generation acceleration / multimodal diffusion / quantization / sparse attention | [Link](https://arxiv.org/abs/2608.24674) | — |
 | **P1 · Watch** | **Latent Action as Intention Enables Efficient Future Imagination for World Action Models** | Fresh / preprint | Physical AI / WAM / latent action / inference latency | [Link](https://arxiv.org/abs/2608.24882) | — |
+| **P1 · Watch** | **Swift-Image: Exploring the Performance Frontier of Compact Unified Image Generation Models** | Fresh / preprint | image generation efficiency / pruning / few-step distillation | [Link](https://arxiv.org/abs/2608.20334) | — |
 | **P2 · Relevant** | **GS-VLA: Plug-and-Play Viewpoint Canonicalization for Frozen VLA Policies via Gaussian Splatting** | Fresh / preprint | Physical AI / VLA robustness / lightweight runtime module | [Link](https://arxiv.org/abs/2608.19066) | — |
 | **P1 · Watch** | **Partition the Support, Reconstruct the Residual: Training-Free Sparse Attention for Video Generation and World Models** | Fresh / preprint | efficient attention / video generation / world models | [Link](https://arxiv.org/abs/2608.18484) | — |
+| **P0 · Strong** | **AViTS: Adaptive Spatiotemporal Token Selection for Efficient Dynamic-Resolution Generation** | Fresh / preprint | diffusion/image generation acceleration / adaptive token selection | [Link](https://arxiv.org/abs/2608.17995) | — |
+| **P0 · Strong** | **LinCa: Accelerating Diffusion Models via Learnable Decomposed Feature Caching** | Fresh / preprint | diffusion/video generation acceleration / feature caching | [Link](https://arxiv.org/abs/2608.17973) | — |
+| **P0 · Strong** | **Magnitude-Direction Decoupling for Fast Video Generation with Flow Matching Models** | Fresh / preprint | video generation acceleration / flow matching | [Link](https://arxiv.org/abs/2608.17695) | — |
+| **P0 · Strong** | **An Empirical Study of Training Pixel-Space Text-to-Image Diffusion Models** | Fresh / preprint | image generation acceleration | [Link](https://arxiv.org/abs/2608.16887) | — |
+| **P0 · Strong** | **GenRouter: Unified Workflow Routing for Agentic Image Generation** | Fresh / preprint | agentic image generation / workflow routing / inference efficiency | [Link](https://arxiv.org/abs/2608.16721) | — |
+| **P0 · Strong** | **SQuad: Sub-Quadratic Attention Distillation for Efficient Video Generation** | Fresh / preprint | video generation acceleration / efficient attention | [Link](https://arxiv.org/abs/2608.16585) | — |
 | **P2 · Relevant** | **Nexus: Structured Synergy for Efficient Text-to-Image Generation using Rectified Flow Model** | Fresh / preprint | image generation / sparse architecture / low-bit / flow matching | [Link](https://arxiv.org/abs/2608.16104) | — |
+| **P1 · Watch** | **RoofGS: Roofline-Guided End-to-End Acceleration of 3D Gaussian Splatting** | Fresh / preprint | 3D Gaussian Splatting / roofline / GPU kernels | [Link](https://arxiv.org/abs/2608.15785) | — |
+| **P0 · Strong** | **From Local Mismatch to Global Impact: Optimizing Cache Reuse Policy for Efficient Diffusion** | Fresh / preprint | diffusion cache policy / video-image generation acceleration | [Link](https://arxiv.org/abs/2608.13043) | — |
+| **P0 · Strong** | **LoSA: Near-Lossless Sparse Attention for Training-Free Video Diffusion Acceleration** | arXiv 2026 | video/image generation acceleration / sparse attention / video diffusion | [Link](https://arxiv.org/abs/2608.12032) | — |
 | **P2 · Relevant** | **EchoCache: Energy-Guided Cross-Modal Caching for Efficient Audio-Driven Video Generation** | Fresh / preprint | LLM serving; quantization; generation acceleration | [Link](https://arxiv.org/abs/2608.02474) | — |
 | **P2 · Relevant** | **Sol-Attn: Accelerating Video Generation Inference via On-the-Fly Attention Sparsification** | Fresh / preprint | llm_serving / sparse / gen | [Link](https://arxiv.org/abs/2607.24027) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
-| **P1 · Watch** | **TurboT2VA: Fast Large-Scale Text-to-Video-Audio Generation via Score-Regularized Consistency Distillation** | Fresh / preprint | video/image generation acceleration / multimodal diffusion / quantization / sparse attention | [Link](https://arxiv.org/abs/2608.24674) | — |
-| **P1 · Watch** | **Swift-Image: Exploring the Performance Frontier of Compact Unified Image Generation Models** | Fresh / preprint | image generation efficiency / pruning / few-step distillation | [Link](https://arxiv.org/abs/2608.20334) | — |
-| **P0 · Strong** | **SQuad: Sub-Quadratic Attention Distillation for Efficient Video Generation** | Fresh / preprint | video generation acceleration / efficient attention | [Link](https://arxiv.org/abs/2608.16585) | — |
-| **P1 · Watch** | **RoofGS: Roofline-Guided End-to-End Acceleration of 3D Gaussian Splatting** | Fresh / preprint | 3D Gaussian Splatting / roofline / GPU kernels | [Link](https://arxiv.org/abs/2608.15785) | — |
-| **P0 · Strong** | **Magnitude-Direction Decoupling for Fast Video Generation with Flow Matching Models** | Fresh / preprint | video generation acceleration / flow matching | [Link](https://arxiv.org/abs/2608.17695) | — |
-| **P0 · Strong** | **LinCa: Accelerating Diffusion Models via Learnable Decomposed Feature Caching** | Fresh / preprint | diffusion/video generation acceleration / feature caching | [Link](https://arxiv.org/abs/2608.17973) | — |
-| **P0 · Strong** | **GenRouter: Unified Workflow Routing for Agentic Image Generation** | Fresh / preprint | agentic image generation / workflow routing / inference efficiency | [Link](https://arxiv.org/abs/2608.16721) | — |
-| **P0 · Strong** | **From Local Mismatch to Global Impact: Optimizing Cache Reuse Policy for Efficient Diffusion** | Fresh / preprint | diffusion cache policy / video-image generation acceleration | [Link](https://arxiv.org/abs/2608.13043) | — |
-| **P0 · Strong** | **AViTS: Adaptive Spatiotemporal Token Selection for Efficient Dynamic-Resolution Generation** | Fresh / preprint | diffusion/image generation acceleration / adaptive token selection | [Link](https://arxiv.org/abs/2608.17995) | — |
-| **P0 · Strong** | **An Empirical Study of Training Pixel-Space Text-to-Image Diffusion Models** | Fresh / preprint | image generation acceleration | [Link](https://arxiv.org/abs/2608.16887) | — |
 
-## 🏛️ Classical / Historical · 65 canonical
+## 🏛️ Classical / Historical · 61 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -39,9 +43,7 @@
 | **Canonical** | **Head-Aware KV Cache Compression for Efficient Visual Autoregressive Modeling** | AAAI 2026 | KV cache / image generation acceleration | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39686) | [Repo](https://github.com/Zr2223/HACK) |
 | **Canonical** | **Accelerating Diffusion Models via Parallel Denoising** | ACM Multimedia 2025 | diffusion/image generation acceleration / parallel denoising | [Link](https://dl.acm.org/doi/10.1145/3746027.3755827) | — |
 | **Canonical** | **FlexGaussian: Flexible and Cost-Effective Training-Free Compression for 3D Gaussian Splatting** | ACM Multimedia 2025 | video/image generation acceleration / 3D Gaussian splatting / quantization / pruning / edge deployment | [Link](https://arxiv.org/abs/2507.06671) | [Repo](https://github.com/Supercomputing-System-AI-Lab/FlexGaussian) |
-| **Canonical** | **DensityKV: Density-Guided KV Cache Compression for Long Video Generation** | arXiv 2026 | KV cache / video generation acceleration / efficient attention | [Link](https://arxiv.org/abs/2608.27922) | [Repo](https://github.com/ZhaoWQQ/DensityKV) |
 | **Canonical** | **Fast-WAM: Do World Action Models Need Test-time Future Imagination?** | arXiv 2026 | VLA/WAM/Physical AI serving / world-action model inference / test-time video elimination | [Link](https://arxiv.org/abs/2603.16666) | [Repo](https://yuantianyuan01.github.io/FastWAM/) |
-| **Canonical** | **LoSA: Near-Lossless Sparse Attention for Training-Free Video Diffusion Acceleration** | arXiv 2026 | video/image generation acceleration / sparse attention / video diffusion | [Link](https://arxiv.org/abs/2608.12032) | — |
 | **Canonical** | **LPM: Industrial-Scale Generative Video Restoration** | arXiv 2026 | video/image generation acceleration; diffusion serving; industrial video restoration; quantization; TensorRT-LLM | [Link](https://arxiv.org/abs/2607.13460) | — |
 | **Canonical** | **Q-ARVD: Quantizing Autoregressive Video Diffusion Models** | arXiv 2026 | video generation acceleration; autoregressive video diffusion; quantization; Triton kernels | [Link](https://arxiv.org/abs/2605.21072) | [Repo](https://github.com/tsa18/Q-ARVD) |
 | **Canonical** | **StreamFusion: Scalable Sequence Parallelism for Distributed Inference of Diffusion Transformers on GPUs** | arXiv 2026 | video/image generation acceleration; diffusion/flow acceleration; distributed inference; sequence parallelism; GPU communication | [Link](https://arxiv.org/abs/2601.20273) | — |
@@ -52,8 +54,6 @@
 | **Canonical** | **FlashDecoder: Real-Time Latent-to-Pixel Streaming Decoder with Transformers** | CVPR 2026 | video/image generation acceleration / streaming decoder / rolling KV cache | [Link](https://arxiv.org/abs/2607.14898) | — |
 | **Canonical** | **LinVideo: A Post-Training Framework towards O(n) Attention in Efficient Video Generation** | CVPR 2026 | video generation acceleration / linear attention / post-training | [Link](https://arxiv.org/abs/2510.08318) | — |
 | **Canonical** | **SURF: Signature-Retained Fast Video Generation** | CVPR 2026 | video generation acceleration / low-resolution preview / efficient refinement | [Link](https://arxiv.org/abs/2603.21002) | — |
-| **Canonical** | **EpaCache: Error-Propagation-Aware Caching for Accelerating Diffusion-Based Visual Generation** | Fresh / preprint | video/image generation acceleration / diffusion cache | [Link](https://arxiv.org/abs/2608.29264) | — |
-| **Canonical** | **RegionCache: Semantic-Aware Region Reuse for Efficient Multi-Turn Image Generation** | Fresh / preprint | video/image generation acceleration / diffusion cache | [Link](https://arxiv.org/abs/2608.29809) | [Repo](https://github.com/hebutBryant/RegionCache) |
 | **Canonical** | **Accelerating Diffusion Sampling via Exploiting Local Transition Coherence** | ICCV 2025 | diffusion acceleration / training-free sampling / image-video generation | [Link](https://arxiv.org/abs/2503.09675) | [Repo](https://zhushangwen.github.io/LTC-accel.io/) |
 | **Canonical** | **Adaptive Caching for Faster Video Generation with Diffusion Transformers** | ICCV 2025 | video diffusion acceleration / adaptive feature caching | [Link](https://arxiv.org/abs/2411.02397) | — |
 | **Canonical** | **DOLLAR: Few-Step Video Generation via Distillation and Latent Reward Optimization** | ICCV 2025 | video generation acceleration / diffusion distillation / few-step sampling | [Link](https://arxiv.org/abs/2412.15689) | — |
