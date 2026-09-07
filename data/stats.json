@@ -1,19 +1,19 @@
 {
-  "unique_papers": 1566,
-  "latest_30d_tracked_total": 412,
-  "latest_30d_quality_gated": 138,
-  "latest_30d_watchlist": 154,
+  "unique_papers": 1567,
+  "latest_30d_tracked_total": 364,
+  "latest_30d_quality_gated": 88,
+  "latest_30d_watchlist": 156,
   "latest_30d_relevant_low_priority": 120,
-  "classical_papers": 1428,
+  "classical_papers": 1479,
   "latest_strong": 45,
-  "papers_with_primary_link": 1544,
+  "papers_with_primary_link": 1545,
   "papers_with_verified_code_link": 444,
   "venues": 89,
   "direction_counts": {
-    "LLM Serving": 668,
+    "LLM Serving": 669,
     "Speculative Decoding": 196,
     "KV Cache / Long Context": 393,
-    "Quantization": 225,
+    "Quantization": 226,
     "Sparsity / Pruning": 247,
     "Efficient Attention": 231,
     "MoE Systems / Accelerators": 123,
@@ -32,6 +32,6 @@
   "venue_active_round": 8,
   "venue_active_round_checked": 24,
   "venue_active_round_status": "IN_PROGRESS_NONZERO",
-  "source_date_beijing": "2026-09-07",
-  "updated_at_beijing": "2026-09-07T22:08:09+08:00"
+  "source_date_beijing": "2026-09-08",
+  "updated_at_beijing": "2026-09-08T00:06:13+08:00"
 }
