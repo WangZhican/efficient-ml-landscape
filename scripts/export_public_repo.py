@@ -307,7 +307,11 @@ def main():
     classical = [r for r in records if not r.get("is_latest_30d")]
     watch = []
     watch_seen = set()
-    for r in d.get("watchlist", []):
+    # Durable discovery uses both legacy `watchlist` and the newer
+    # append-only `watchlist_records`. Export their monotonic union so a
+    # high-value retained paper cannot disappear from the public Paper List
+    # merely because it was written through the newer record schema.
+    for r in d.get("watchlist", []) + d.get("watchlist_records", []):
         key = (r.get("arxiv") or "").strip() or (r.get("doi") or "").strip().lower() or norm_title(r.get("title"))
         if not key or key in watch_seen:
             continue

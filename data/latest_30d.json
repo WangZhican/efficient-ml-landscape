@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-07",
   "window_start_beijing": "2026-08-08",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 400,
+  "tracked_total": 411,
   "p0_strong_or_canonical": [
     {
       "title": "Para-Pipe: Exploiting Hierarchical Operator Parallelism of ML Computational Graphs on SoCs",
@@ -3360,6 +3360,26 @@
       ]
     },
     {
+      "title": "LowRankArena: A Standardized Evaluation Platform for SVD-Based LLM Compression",
+      "venue": "arXiv 2026",
+      "topic": "LLM compression / low-rank SVD / standardized evaluation / inference benchmarking",
+      "arxiv": "2608.26389",
+      "doi": "",
+      "official_id": "arXiv:2608.26389",
+      "paper_url": "https://arxiv.org/abs/2608.26389",
+      "code_url": "https://github.com/Zishan-Shao/lowrankarena",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Duke/Yiran Chen reverse-census route surfaced a recent primary paper absent from the current authority/watch union. It standardizes SVD-based LLM compression evaluation across methods, backbones, keep ratios and inference measurements and releases a reproducible open-source pipeline plus >3 TiB compressed checkpoints. Retained as high-value watch rather than canonical-high because its main contribution is benchmarking/evaluation infrastructure rather than a new compression or serving algorithm.",
+      "published_at": "2026-08-26T20:27:21Z",
+      "updated_at": "2026-08-26T20:27:21Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving"
+      ]
+    },
+    {
       "title": "VoiceMem: Streaming Dual-Brain Memory for Real-Time Interaction",
       "venue": "",
       "topic": "agent systems / streaming memory / real-time multimodal",
@@ -5287,6 +5307,27 @@
       ]
     },
     {
+      "title": "Exploring High-Bandwidth Flash for Modern LLM Inference: Opportunities and Challenges",
+      "venue": "IEEE Computer Architecture Letters 2026",
+      "topic": "LLM inference; flash storage; memory hierarchy; data movement",
+      "arxiv": "2608.13868",
+      "doi": "",
+      "official_id": "arXiv:2608.13868",
+      "paper_url": "https://arxiv.org/abs/2608.13868",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Fresh Onur Mutlu memory-centric route surfaced a relevant high-bandwidth-flash/LLM-inference study. It is valuable architecture evidence for storage-assisted inference but primarily an opportunities/challenges characterization rather than a new serving mechanism, so retain P1 watch.",
+      "published_at": "2026-08-14T01:36:12Z",
+      "updated_at": "2026-08-14T01:36:12Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "OpScale: Operator-level Provisioning and Autoscaling for LLM Serving",
       "venue": "",
       "topic": "",
@@ -5901,6 +5942,92 @@
       ]
     },
     {
+      "title": "TrainDeeploy: Hardware-Accelerated Parameter-Efficient Fine-Tuning of Small Transformer Models at the Extreme Edge",
+      "venue": "DATE 2026",
+      "topic": "extreme-edge AI; transformer fine-tuning; LoRA; RISC-V SoC",
+      "arxiv": "2603.09511",
+      "doi": "",
+      "official_id": "arXiv:2603.09511",
+      "paper_url": "https://arxiv.org/abs/2603.09511",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Fresh PULP/Luca Benini route surfaced a high-value edge-AI training system. TrainDeeploy provides end-to-end on-device transformer fine-tuning with PEFT on ultra-low-power heterogeneous RISC-V SoCs, but its focus is small transformer training rather than mainstream LLM serving, so retain P1 watch.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "TraceLab: Characterizing Coding Agent Workloads for LLM Serving",
+      "venue": "arXiv 2026",
+      "topic": "agentic LLM serving; coding-agent workload characterization; KV-cache behavior; tool latency; serving traces",
+      "arxiv": "2606.30560",
+      "doi": "",
+      "official_id": "arXiv:2606.30560",
+      "paper_url": "https://arxiv.org/abs/2606.30560",
+      "code_url": "https://github.com/uw-syfi/TraceLab",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Fresh UW SyFI/Stephanie Wang/Arvind Krishnamurthy/Baris Kasikci neighborhood reconciliation surfaced a high-value uncatalogued workload-characterization artifact. TraceLab releases real coding-agent traces and reproducible tooling, exposing long autonomous loops, long contexts with short outputs, heavy-tailed tool calls and imperfect prefix-cache reuse that directly motivate future agent-serving scheduling and KV-cache optimizations. Retained as P1 watch because the main contribution is characterization/dataset/tooling rather than a new serving mechanism.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "The Hyperscale Lottery: How State-Space Models Have Sacrificed Edge Efficiency",
+      "venue": "arXiv 2026",
+      "topic": "edge AI; state-space models; efficiency characterization; cloud-edge tradeoff",
+      "arxiv": "2604.07935",
+      "doi": "",
+      "official_id": "arXiv:2604.07935",
+      "paper_url": "https://arxiv.org/abs/2604.07935",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "High-value Stanford/KU Leuven efficiency characterization: documents an edge-efficiency regression from hyperscale-oriented SSM evolution, but contribution is primarily analysis/position evidence rather than a new acceleration mechanism; retain P1 watch.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "The 1/W Law: An Analytical Study of Context-Length Routing Topology and GPU Generation Gains for LLM Inference Energy Efficiency",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / context-length routing / inference energy efficiency / heterogeneous GPU fleet",
+      "arxiv": "2603.17280",
+      "doi": "",
+      "official_id": "arXiv:2603.17280",
+      "paper_url": "https://arxiv.org/abs/2603.17280",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "UChicago/Junchen Jiang reverse-census route surfaced a direct LLM-serving energy-efficiency study absent from the current authority/watch union. It derives context-length-dependent tokens/W behavior and evaluates routing-topology/FleetOpt tradeoffs; retained as high-value watch rather than canonical-high because the main contribution is analytical/simulation-based rather than a new implemented serving runtime.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Spend Bits Where Queries Look: KV Cache Vector Quantization with Attention-Preserving Transforms",
       "venue": "",
       "topic": "",
@@ -5923,6 +6050,26 @@
       ]
     },
     {
+      "title": "PRIMAL: Processing-In-Memory Based Low-Rank Adaptation for LLM Inference Accelerator",
+      "venue": "arXiv 2026",
+      "topic": "LLM inference accelerator / processing-in-memory / LoRA / edge AI",
+      "arxiv": "2601.13628",
+      "doi": "",
+      "official_id": "arXiv:2601.13628",
+      "paper_url": "https://arxiv.org/abs/2601.13628",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct PIM-based LLM inference accelerator integrating LoRA with heterogeneous PIM PEs, reprogramming/power-gating and dataflow orchestration. Retained as high-value watch pending stronger venue/independent adoption evidence.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Precision-Induced Miscalibration: Understanding and Correcting Confidence Distortion in Quantized Neural Networks",
       "venue": "ICML 2026",
       "topic": "quantization / low-precision calibration / confidence distortion / mixed precision",
@@ -5940,6 +6087,30 @@
       "is_latest_30d": true,
       "directions": [
         "Quantization"
+      ]
+    },
+    {
+      "title": "On the Limitations of Non-GPU AI Accelerators for Large-Model Inference: A Field Study of MoE and Multimodal Serving on Huawei Ascend",
+      "venue": "arXiv 2026",
+      "topic": "heterogeneous AI systems; Huawei Ascend/CANN; vLLM-Ascend; MoE/MLLM serving field study",
+      "arxiv": "2607.08215",
+      "doi": "",
+      "official_id": "arXiv:2607.08215",
+      "paper_url": "https://arxiv.org/abs/2607.08215",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "High-value systems watchlist: reproducible field study of MoE and multimodal serving on 16-device Huawei Ascend 910/CANN/vLLM-Ascend, documenting twelve required source patches and eight platform limitation categories. Valuable for heterogeneous-inference engineering, but contribution is diagnostic rather than a new acceleration system, so retain as P1 watch rather than canonical promotion.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "MoE Systems / Accelerators",
+        "GPU Kernel / DSL / Compiler",
+        "Multimodal / MLLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -5980,6 +6151,26 @@
       "is_latest_30d": true,
       "directions": [
         "LLM Serving",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "FusionCIM: Accelerating LLM Inference with Fusion-Driven Computing-in-Memory Architecture",
+      "venue": "arXiv 2026",
+      "topic": "LLM inference accelerator / compute-in-memory / operator fusion / dataflow",
+      "arxiv": "2604.25317",
+      "doi": "",
+      "official_id": "arXiv:2604.25317",
+      "paper_url": "https://arxiv.org/abs/2604.25317",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct LLM inference CIM architecture with hybrid inner/outer-product CIM, QO-stationary dataflow and pattern-aware online softmax. Retained as high-value watch because it is a strong architecture preprint but no top-tier venue evidence was confirmed in this pass.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
         "GPU Kernel / DSL / Compiler"
       ]
     },
@@ -6028,6 +6219,27 @@
       ]
     },
     {
+      "title": "DeepTools: A Full-Stack Machine Learning Compiler for the IBM Spyre Accelerator",
+      "venue": "CGO 2026 extended abstract",
+      "topic": "AI accelerator compiler stack; IBM Spyre; heterogeneous AI systems",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "IBM Research CGO 2026",
+      "paper_url": "https://research.ibm.com/publications/deeptools-a-full-stack-machine-learning-compiler-for-the-ibm-spyre-accelerator",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "High-value compiler-stack overview for IBM Spyre, useful for architecture/compiler lineage and implementation context, but an extended abstract/overview rather than a standalone mechanism paper; retain P1 watch instead of canonical promotion.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "CubicQuant: Parametric Non-Uniform Codebooks for High-Throughput LLM Inference with 1-8-Bit Weights",
       "venue": "",
       "topic": "quantization / GPU inference",
@@ -6069,6 +6281,26 @@
         "LLM Serving",
         "KV Cache / Long Context",
         "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "A methodology for accurate benchmarking of neural network accelerators using a high-level synthesis-based hardware generator",
+      "venue": "Philosophical Transactions A 2026",
+      "topic": "AI accelerator benchmarking; HLS; hardware design-space evaluation",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "DOI:10.1098/rsta.2024.0514",
+      "paper_url": "https://doi.org/10.1098/rsta.2024.0514",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Useful Stanford Raina benchmarking methodology using Voyager HLS baselines for apples-to-apples accelerator comparison, but benchmark/methodology contribution is weaker than mechanism/system canonical threshold; retain P1 watch.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
       ]
     }
   ],
@@ -12064,6 +12296,26 @@
       ]
     },
     {
+      "title": "LowRankArena: A Standardized Evaluation Platform for SVD-Based LLM Compression",
+      "venue": "arXiv 2026",
+      "topic": "LLM compression / low-rank SVD / standardized evaluation / inference benchmarking",
+      "arxiv": "2608.26389",
+      "doi": "",
+      "official_id": "arXiv:2608.26389",
+      "paper_url": "https://arxiv.org/abs/2608.26389",
+      "code_url": "https://github.com/Zishan-Shao/lowrankarena",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Duke/Yiran Chen reverse-census route surfaced a recent primary paper absent from the current authority/watch union. It standardizes SVD-based LLM compression evaluation across methods, backbones, keep ratios and inference measurements and releases a reproducible open-source pipeline plus >3 TiB compressed checkpoints. Retained as high-value watch rather than canonical-high because its main contribution is benchmarking/evaluation infrastructure rather than a new compression or serving algorithm.",
+      "published_at": "2026-08-26T20:27:21Z",
+      "updated_at": "2026-08-26T20:27:21Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving"
+      ]
+    },
+    {
       "title": "VoiceMem: Streaming Dual-Brain Memory for Real-Time Interaction",
       "venue": "",
       "topic": "agent systems / streaming memory / real-time multimodal",
@@ -13991,6 +14243,27 @@
       ]
     },
     {
+      "title": "Exploring High-Bandwidth Flash for Modern LLM Inference: Opportunities and Challenges",
+      "venue": "IEEE Computer Architecture Letters 2026",
+      "topic": "LLM inference; flash storage; memory hierarchy; data movement",
+      "arxiv": "2608.13868",
+      "doi": "",
+      "official_id": "arXiv:2608.13868",
+      "paper_url": "https://arxiv.org/abs/2608.13868",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Fresh Onur Mutlu memory-centric route surfaced a relevant high-bandwidth-flash/LLM-inference study. It is valuable architecture evidence for storage-assisted inference but primarily an opportunities/challenges characterization rather than a new serving mechanism, so retain P1 watch.",
+      "published_at": "2026-08-14T01:36:12Z",
+      "updated_at": "2026-08-14T01:36:12Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "OpScale: Operator-level Provisioning and Autoscaling for LLM Serving",
       "venue": "",
       "topic": "",
@@ -14605,6 +14878,92 @@
       ]
     },
     {
+      "title": "TrainDeeploy: Hardware-Accelerated Parameter-Efficient Fine-Tuning of Small Transformer Models at the Extreme Edge",
+      "venue": "DATE 2026",
+      "topic": "extreme-edge AI; transformer fine-tuning; LoRA; RISC-V SoC",
+      "arxiv": "2603.09511",
+      "doi": "",
+      "official_id": "arXiv:2603.09511",
+      "paper_url": "https://arxiv.org/abs/2603.09511",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Fresh PULP/Luca Benini route surfaced a high-value edge-AI training system. TrainDeeploy provides end-to-end on-device transformer fine-tuning with PEFT on ultra-low-power heterogeneous RISC-V SoCs, but its focus is small transformer training rather than mainstream LLM serving, so retain P1 watch.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "TraceLab: Characterizing Coding Agent Workloads for LLM Serving",
+      "venue": "arXiv 2026",
+      "topic": "agentic LLM serving; coding-agent workload characterization; KV-cache behavior; tool latency; serving traces",
+      "arxiv": "2606.30560",
+      "doi": "",
+      "official_id": "arXiv:2606.30560",
+      "paper_url": "https://arxiv.org/abs/2606.30560",
+      "code_url": "https://github.com/uw-syfi/TraceLab",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Fresh UW SyFI/Stephanie Wang/Arvind Krishnamurthy/Baris Kasikci neighborhood reconciliation surfaced a high-value uncatalogued workload-characterization artifact. TraceLab releases real coding-agent traces and reproducible tooling, exposing long autonomous loops, long contexts with short outputs, heavy-tailed tool calls and imperfect prefix-cache reuse that directly motivate future agent-serving scheduling and KV-cache optimizations. Retained as P1 watch because the main contribution is characterization/dataset/tooling rather than a new serving mechanism.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "The Hyperscale Lottery: How State-Space Models Have Sacrificed Edge Efficiency",
+      "venue": "arXiv 2026",
+      "topic": "edge AI; state-space models; efficiency characterization; cloud-edge tradeoff",
+      "arxiv": "2604.07935",
+      "doi": "",
+      "official_id": "arXiv:2604.07935",
+      "paper_url": "https://arxiv.org/abs/2604.07935",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "High-value Stanford/KU Leuven efficiency characterization: documents an edge-efficiency regression from hyperscale-oriented SSM evolution, but contribution is primarily analysis/position evidence rather than a new acceleration mechanism; retain P1 watch.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "The 1/W Law: An Analytical Study of Context-Length Routing Topology and GPU Generation Gains for LLM Inference Energy Efficiency",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / context-length routing / inference energy efficiency / heterogeneous GPU fleet",
+      "arxiv": "2603.17280",
+      "doi": "",
+      "official_id": "arXiv:2603.17280",
+      "paper_url": "https://arxiv.org/abs/2603.17280",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "UChicago/Junchen Jiang reverse-census route surfaced a direct LLM-serving energy-efficiency study absent from the current authority/watch union. It derives context-length-dependent tokens/W behavior and evaluates routing-topology/FleetOpt tradeoffs; retained as high-value watch rather than canonical-high because the main contribution is analytical/simulation-based rather than a new implemented serving runtime.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Spend Bits Where Queries Look: KV Cache Vector Quantization with Attention-Preserving Transforms",
       "venue": "",
       "topic": "",
@@ -14627,6 +14986,26 @@
       ]
     },
     {
+      "title": "PRIMAL: Processing-In-Memory Based Low-Rank Adaptation for LLM Inference Accelerator",
+      "venue": "arXiv 2026",
+      "topic": "LLM inference accelerator / processing-in-memory / LoRA / edge AI",
+      "arxiv": "2601.13628",
+      "doi": "",
+      "official_id": "arXiv:2601.13628",
+      "paper_url": "https://arxiv.org/abs/2601.13628",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct PIM-based LLM inference accelerator integrating LoRA with heterogeneous PIM PEs, reprogramming/power-gating and dataflow orchestration. Retained as high-value watch pending stronger venue/independent adoption evidence.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Precision-Induced Miscalibration: Understanding and Correcting Confidence Distortion in Quantized Neural Networks",
       "venue": "ICML 2026",
       "topic": "quantization / low-precision calibration / confidence distortion / mixed precision",
@@ -14644,6 +15023,30 @@
       "is_latest_30d": true,
       "directions": [
         "Quantization"
+      ]
+    },
+    {
+      "title": "On the Limitations of Non-GPU AI Accelerators for Large-Model Inference: A Field Study of MoE and Multimodal Serving on Huawei Ascend",
+      "venue": "arXiv 2026",
+      "topic": "heterogeneous AI systems; Huawei Ascend/CANN; vLLM-Ascend; MoE/MLLM serving field study",
+      "arxiv": "2607.08215",
+      "doi": "",
+      "official_id": "arXiv:2607.08215",
+      "paper_url": "https://arxiv.org/abs/2607.08215",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "High-value systems watchlist: reproducible field study of MoE and multimodal serving on 16-device Huawei Ascend 910/CANN/vLLM-Ascend, documenting twelve required source patches and eight platform limitation categories. Valuable for heterogeneous-inference engineering, but contribution is diagnostic rather than a new acceleration system, so retain as P1 watch rather than canonical promotion.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "MoE Systems / Accelerators",
+        "GPU Kernel / DSL / Compiler",
+        "Multimodal / MLLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -14684,6 +15087,26 @@
       "is_latest_30d": true,
       "directions": [
         "LLM Serving",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "FusionCIM: Accelerating LLM Inference with Fusion-Driven Computing-in-Memory Architecture",
+      "venue": "arXiv 2026",
+      "topic": "LLM inference accelerator / compute-in-memory / operator fusion / dataflow",
+      "arxiv": "2604.25317",
+      "doi": "",
+      "official_id": "arXiv:2604.25317",
+      "paper_url": "https://arxiv.org/abs/2604.25317",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct LLM inference CIM architecture with hybrid inner/outer-product CIM, QO-stationary dataflow and pattern-aware online softmax. Retained as high-value watch because it is a strong architecture preprint but no top-tier venue evidence was confirmed in this pass.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
         "GPU Kernel / DSL / Compiler"
       ]
     },
@@ -14732,6 +15155,27 @@
       ]
     },
     {
+      "title": "DeepTools: A Full-Stack Machine Learning Compiler for the IBM Spyre Accelerator",
+      "venue": "CGO 2026 extended abstract",
+      "topic": "AI accelerator compiler stack; IBM Spyre; heterogeneous AI systems",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "IBM Research CGO 2026",
+      "paper_url": "https://research.ibm.com/publications/deeptools-a-full-stack-machine-learning-compiler-for-the-ibm-spyre-accelerator",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "High-value compiler-stack overview for IBM Spyre, useful for architecture/compiler lineage and implementation context, but an extended abstract/overview rather than a standalone mechanism paper; retain P1 watch instead of canonical promotion.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "CubicQuant: Parametric Non-Uniform Codebooks for High-Throughput LLM Inference with 1-8-Bit Weights",
       "venue": "",
       "topic": "quantization / GPU inference",
@@ -14773,6 +15217,26 @@
         "LLM Serving",
         "KV Cache / Long Context",
         "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "A methodology for accurate benchmarking of neural network accelerators using a high-level synthesis-based hardware generator",
+      "venue": "Philosophical Transactions A 2026",
+      "topic": "AI accelerator benchmarking; HLS; hardware design-space evaluation",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "DOI:10.1098/rsta.2024.0514",
+      "paper_url": "https://doi.org/10.1098/rsta.2024.0514",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Useful Stanford Raina benchmarking methodology using Voyager HLS baselines for apples-to-apples accelerator comparison, but benchmark/methodology contribution is weaker than mechanism/system canonical threshold; retain P1 watch.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
