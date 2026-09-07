@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-08",
   "window_start_beijing": "2026-08-09",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 421,
+  "tracked_total": 425,
   "p0_strong_or_canonical": [
     {
       "title": "Don't Drop Dropout: Optimizing Layer Sparsity for Efficient LLM Training and Inference",
@@ -484,6 +484,27 @@
         "LLM Serving",
         "KV Cache / Long Context",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Speculative Macro Commit for Faster Tool-Using Agents",
+      "venue": "MLSP 2026 / arXiv 2026",
+      "topic": "efficient agent systems / speculative execution / tool-use runtime",
+      "arxiv": "2609.03236",
+      "doi": "",
+      "official_id": "arXiv:2609.03236",
+      "paper_url": "https://arxiv.org/abs/2609.03236",
+      "code_url": "https://github.com/zeyuliu1037/speculative-macro-commit",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "30d true miss in efficient agent runtime. SMC uses a large authoritative actor plus a faster speculative drafter executing future action chains on isolated environment snapshots; matching the actor next action allows pre-executed multi-step macro chains and observations to be committed. The paper reports 18.59% lower latency than sequential execution on tau2-Bench Telecom and 44.9% lower wall time on AppWorld, with public author code.",
+      "published_at": "2026-09-03T00:31:43Z",
+      "updated_at": "2026-09-03T00:31:43Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Speculative Decoding",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -1429,6 +1450,27 @@
       "directions": [
         "LLM Serving",
         "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "TwinKV: A Composable Repair Pass for KV Cache Eviction via Pairwise Key Redundancy",
+      "venue": "arXiv 2026",
+      "topic": "KV cache / long-context inference / training-free eviction repair",
+      "arxiv": "2608.27128",
+      "doi": "",
+      "official_id": "arXiv:2608.27128",
+      "paper_url": "https://arxiv.org/abs/2608.27128",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "30d true miss in KV-cache compression. TwinKV challenges attention magnitude as a causal eviction proxy and adds a training-free, attention-free composable repair pass: it swaps orphaned evicted tokens with redundant retained donors using pairwise key redundancy while preserving the original policy budget. It improves multiple existing eviction policies across LongBench, LooGLE and RULER and is directly useful as a policy-agnostic KV compression layer.",
+      "published_at": "2026-08-27T13:43:30Z",
+      "updated_at": "2026-08-31T03:59:21Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "KV Cache / Long Context",
+        "Efficient Attention"
       ]
     },
     {
@@ -2972,6 +3014,29 @@
         "LLM Serving",
         "KV Cache / Long Context",
         "MoE Systems / Accelerators",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Scheduling Mixed RL Rollouts Beyond Prefix Locality",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / RL rollout scheduling / KV-cache capacity allocation",
+      "arxiv": "2608.11152",
+      "doi": "",
+      "official_id": "arXiv:2608.11152",
+      "paper_url": "https://arxiv.org/abs/2608.11152",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "30d true miss in direct AI-infra serving. MISA-T is a routing-layer admission policy for heterogeneous RLVR/RLHF/agentic rollout serving, combining adaptive session admission, workload-aware KV-capacity allocation, and residency-time-aware KV accounting. The paper reports 53.3% and 43.6% rollout-throughput gains over tuned cache-aware vLLM Router in rollout-only tests, and 35.6% higher throughput with 22.8% lower mean iteration time in a matched training experiment while preserving the requested workload mixture.",
+      "published_at": "2026-08-11T17:10:50Z",
+      "updated_at": "2026-08-11T17:10:50Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Efficient Reasoning / Agents",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -5555,6 +5620,28 @@
       "is_latest_30d": true,
       "directions": [
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "RealisticTritonBench: A Benchmark for Triton-Kernel Generation in Real-World AI Frameworks",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel / Triton / compiler-agent benchmark / systems evaluation",
+      "arxiv": "2608.12004",
+      "doi": "",
+      "official_id": "arXiv:2608.12004",
+      "paper_url": "https://arxiv.org/abs/2608.12004",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "High-value GPU-kernel/DSL watch item. RealisticTritonBench derives Triton generation tasks from real pull requests in production AI frameworks and evaluates generated kernels after integration with end-to-end framework tests, addressing isolated-kernel and weak-correctness limitations of prior benchmarks. Strong lineage/benchmark value, but primarily an evaluation benchmark rather than a new serving/runtime optimization mechanism.",
+      "published_at": "2026-08-12T12:38:17Z",
+      "updated_at": "2026-08-12T12:38:17Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -9638,6 +9725,27 @@
       ]
     },
     {
+      "title": "Speculative Macro Commit for Faster Tool-Using Agents",
+      "venue": "MLSP 2026 / arXiv 2026",
+      "topic": "efficient agent systems / speculative execution / tool-use runtime",
+      "arxiv": "2609.03236",
+      "doi": "",
+      "official_id": "arXiv:2609.03236",
+      "paper_url": "https://arxiv.org/abs/2609.03236",
+      "code_url": "https://github.com/zeyuliu1037/speculative-macro-commit",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "30d true miss in efficient agent runtime. SMC uses a large authoritative actor plus a faster speculative drafter executing future action chains on isolated environment snapshots; matching the actor next action allows pre-executed multi-step macro chains and observations to be committed. The paper reports 18.59% lower latency than sequential execution on tau2-Bench Telecom and 44.9% lower wall time on AppWorld, with public author code.",
+      "published_at": "2026-09-03T00:31:43Z",
+      "updated_at": "2026-09-03T00:31:43Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Speculative Decoding",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "LeanStream: A Speculate-and-Refine Streaming Framework for Efficient on-Device LLM Inference",
       "venue": "MobiCom 2026",
       "topic": "edge/cloud/heterogeneous AI systems / on-device LLM inference / storage offload / sparse execution",
@@ -10580,6 +10688,27 @@
       "directions": [
         "LLM Serving",
         "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "TwinKV: A Composable Repair Pass for KV Cache Eviction via Pairwise Key Redundancy",
+      "venue": "arXiv 2026",
+      "topic": "KV cache / long-context inference / training-free eviction repair",
+      "arxiv": "2608.27128",
+      "doi": "",
+      "official_id": "arXiv:2608.27128",
+      "paper_url": "https://arxiv.org/abs/2608.27128",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "30d true miss in KV-cache compression. TwinKV challenges attention magnitude as a causal eviction proxy and adds a training-free, attention-free composable repair pass: it swaps orphaned evicted tokens with redundant retained donors using pairwise key redundancy while preserving the original policy budget. It improves multiple existing eviction policies across LongBench, LooGLE and RULER and is directly useful as a policy-agnostic KV compression layer.",
+      "published_at": "2026-08-27T13:43:30Z",
+      "updated_at": "2026-08-31T03:59:21Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "KV Cache / Long Context",
+        "Efficient Attention"
       ]
     },
     {
@@ -12123,6 +12252,29 @@
         "LLM Serving",
         "KV Cache / Long Context",
         "MoE Systems / Accelerators",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Scheduling Mixed RL Rollouts Beyond Prefix Locality",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / RL rollout scheduling / KV-cache capacity allocation",
+      "arxiv": "2608.11152",
+      "doi": "",
+      "official_id": "arXiv:2608.11152",
+      "paper_url": "https://arxiv.org/abs/2608.11152",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "30d true miss in direct AI-infra serving. MISA-T is a routing-layer admission policy for heterogeneous RLVR/RLHF/agentic rollout serving, combining adaptive session admission, workload-aware KV-capacity allocation, and residency-time-aware KV accounting. The paper reports 53.3% and 43.6% rollout-throughput gains over tuned cache-aware vLLM Router in rollout-only tests, and 35.6% higher throughput with 22.8% lower mean iteration time in a matched training experiment while preserving the requested workload mixture.",
+      "published_at": "2026-08-11T17:10:50Z",
+      "updated_at": "2026-08-11T17:10:50Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Efficient Reasoning / Agents",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -14704,6 +14856,28 @@
       "is_latest_30d": true,
       "directions": [
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "RealisticTritonBench: A Benchmark for Triton-Kernel Generation in Real-World AI Frameworks",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel / Triton / compiler-agent benchmark / systems evaluation",
+      "arxiv": "2608.12004",
+      "doi": "",
+      "official_id": "arXiv:2608.12004",
+      "paper_url": "https://arxiv.org/abs/2608.12004",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "High-value GPU-kernel/DSL watch item. RealisticTritonBench derives Triton generation tasks from real pull requests in production AI frameworks and evaluates generated kernels after integration with end-to-end framework tests, addressing isolated-kernel and weak-correctness limitations of prior benchmarks. Strong lineage/benchmark value, but primarily an evaluation benchmark rather than a new serving/runtime optimization mechanism.",
+      "published_at": "2026-08-12T12:38:17Z",
+      "updated_at": "2026-08-12T12:38:17Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
