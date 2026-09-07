@@ -2729,6 +2729,28 @@
     ]
   },
   {
+    "title": "Efficient On-Device Diffusion LLM Inference with Mobile NPU",
+    "venue": "arXiv 2026",
+    "topic": "edge AI / diffusion LLM inference / mobile NPU / speculative decoding / KV reuse",
+    "arxiv": "2606.13740",
+    "doi": "",
+    "official_id": "arXiv:2606.13740",
+    "paper_url": "https://arxiv.org/abs/2606.13740",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "30d/90d-backup edge-cloud reverse census recovered llada.cpp, a direct NPU-aware dLLM inference framework absent from the authority. It combines multi-block speculative decoding, dual-path progressive revision, and a swap-optimized memory runtime; the primary paper reports 17-42x LLaDA-8B generation-latency reduction versus the CPU baseline with prefix KV reuse.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Speculative Decoding",
+      "Diffusion / Flow Acceleration",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Every Kernel Is a Join: Automatic Multi-GPU Parallelism for AI Computations in Einsummable",
     "venue": "arXiv 2026",
     "topic": "distributed training/inference / GPU systems / compiler",
