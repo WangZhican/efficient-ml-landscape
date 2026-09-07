@@ -1,10 +1,10 @@
 # 📚 Paper Library
 
-> **1571 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **420 visible papers = 142 P0 + 158 P1 + 120 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1572 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **421 visible papers = 143 P0 + 158 P1 + 120 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
-## 🆕 P0 · Strong / Canonical recent · 142
+## 🆕 P0 · Strong / Canonical recent · 143
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -149,6 +149,7 @@
 | **P0 · Strong** | **FSGen: Agile Fused and Sparse Accelerator Generator with Accurate Power Model for LLM Applications** | DAC 2026 | LLM inference accelerator / fused-operator dataflow / sparsity / hardware generator / RTL / PPA-aware design-space exploration / edge and heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.09252) | [Repo](https://github.com/hkust-zhiyao/FSGen) |
 | **P0 · Strong** | **SwiftQK: Fast and Communication-Efficient Tensor Parallelism for Query-Key Normalization** | Fresh / preprint | distributed inference / GPU kernel / tensor parallelism | [Link](https://arxiv.org/abs/2608.09160) | — |
 | **P0 · Strong** | **WA-SpecDec: World-Aware Speculative Decoding for Vision-Language-Action Models** | arXiv 2026 | speculative decoding / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.08725) | — |
+| **P0 · Strong** | **RippleKV: Cross-Layer KV Cache Allocation via Perturbation Propagation** | arXiv 2026 | KV cache / long-context inference / cross-layer cache allocation | [Link](https://arxiv.org/abs/2608.08684) | — |
 | **P0 · Strong** | **FlashBoot: Sub-Second Weight Loading for Large Models at Rack Scale** | Fresh / preprint | LLM serving / MoE systems / rack-scale runtime | [Link](https://arxiv.org/abs/2608.08482) | — |
 
 ## 🧭 P1 · Watch · 158

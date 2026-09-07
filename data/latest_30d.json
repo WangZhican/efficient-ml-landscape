@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-08",
   "window_start_beijing": "2026-08-09",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 420,
+  "tracked_total": 421,
   "p0_strong_or_canonical": [
     {
       "title": "Don't Drop Dropout: Optimizing Layer Sparsity for Efficient LLM Training and Inference",
@@ -3102,6 +3102,26 @@
         "Speculative Decoding",
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "RippleKV: Cross-Layer KV Cache Allocation via Perturbation Propagation",
+      "venue": "arXiv 2026",
+      "topic": "KV cache / long-context inference / cross-layer cache allocation",
+      "arxiv": "2608.08684",
+      "doi": "",
+      "official_id": "arXiv:2608.08684",
+      "paper_url": "https://arxiv.org/abs/2608.08684",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Quality-gated 30d true miss. RippleKV allocates a fixed global KV-cache budget across layers by measuring how norm-adaptive perturbations injected into each layer value cache propagate to the final predictive distribution. The resulting offline downstream-sensitivity profile is converted to non-uniform layer budgets while preserving the total cache budget. LongBench experiments report the strongest average performance among evaluated KV-compression methods under matched budgets, with no online profiling overhead. This is directly relevant to long-context inference memory efficiency and fills a cross-layer allocation neighborhood missed by the earlier 30d scan.",
+      "published_at": "2026-08-09T13:01:11Z",
+      "updated_at": "2026-08-09T13:01:11Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "KV Cache / Long Context"
       ]
     },
     {
@@ -12233,6 +12253,26 @@
         "Speculative Decoding",
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "RippleKV: Cross-Layer KV Cache Allocation via Perturbation Propagation",
+      "venue": "arXiv 2026",
+      "topic": "KV cache / long-context inference / cross-layer cache allocation",
+      "arxiv": "2608.08684",
+      "doi": "",
+      "official_id": "arXiv:2608.08684",
+      "paper_url": "https://arxiv.org/abs/2608.08684",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Quality-gated 30d true miss. RippleKV allocates a fixed global KV-cache budget across layers by measuring how norm-adaptive perturbations injected into each layer value cache propagate to the final predictive distribution. The resulting offline downstream-sensitivity profile is converted to non-uniform layer budgets while preserving the total cache budget. LongBench experiments report the strongest average performance among evaluated KV-compression methods under matched budgets, with no online profiling overhead. This is directly relevant to long-context inference memory efficiency and fills a cross-layer allocation neighborhood missed by the earlier 30d scan.",
+      "published_at": "2026-08-09T13:01:11Z",
+      "updated_at": "2026-08-09T13:01:11Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "KV Cache / Long Context"
       ]
     },
     {
