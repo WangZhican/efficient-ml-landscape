@@ -1,6 +1,6 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **332 canonical papers** mapped here, plus a broader **126-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **333 canonical papers** mapped here, plus a broader **126-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -77,7 +77,7 @@
 | **P2 · Relevant** | **APEX: Adaptive Expert Prefetching for Memory-Efficient Edge MoE Inference** | Fresh / preprint | llm_serving / moe / gen | [Link](https://arxiv.org/abs/2608.11688) | — |
 | **P0 · Strong** | **HBF Sucks? A Full-Stack Characterization of High-Bandwidth Flash for KV-Centric LLM Serving** | arXiv 2026 | LLM serving / KV cache / heterogeneous memory and storage | [Link](https://arxiv.org/abs/2608.11668) | — |
 | **P0 · Strong** | **Scheduling Mixed RL Rollouts Beyond Prefix Locality** | arXiv 2026 | LLM serving / RL rollout scheduling / KV-cache capacity allocation | [Link](https://arxiv.org/abs/2608.11152) | — |
-| **P2 · Relevant** | **MemSpec: Memory-Aware Runtime for Adaptive Draft Scheduling in Speculative Decoding on Edge Devices** | Fresh / preprint | LLM serving; speculative decoding; generation acceleration; edge / heterogeneous AI | [Link](https://arxiv.org/abs/2608.10362) | — |
+| **P0 · Strong** | **MemSpec: Memory-Aware Runtime for Adaptive Draft Scheduling in Speculative Decoding on Edge Devices** | LCTES 2026 | LLM serving / speculative decoding / memory-aware edge runtime / adaptive draft scheduling | [Link](https://arxiv.org/abs/2608.10362) | — |
 | **P2 · Relevant** | **Entropy-Constrained Adaptive Stochastic Quantization** | Fresh / preprint | llm_serving / kv / quant / edge | [Link](https://arxiv.org/abs/2608.18147) | — |
 | **P2 · Relevant** | **UnionSparse: An Index-Efficient Sparsity Framework for Low-Bit Sparse LLM Inference on Edge** | Fresh / preprint | llm_serving / quant / sparse | [Link](https://arxiv.org/abs/2608.09291) | — |
 | **P0 · Strong** | **FSGen: Agile Fused and Sparse Accelerator Generator with Accurate Power Model for LLM Applications** | DAC 2026 | LLM inference accelerator / fused-operator dataflow / sparsity / hardware generator / RTL / PPA-aware design-space exploration / edge and heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.09252) | [Repo](https://github.com/hkust-zhiyao/FSGen) |

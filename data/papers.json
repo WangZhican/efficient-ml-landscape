@@ -24586,6 +24586,28 @@
     ]
   },
   {
+    "title": "MemSpec: Memory-Aware Runtime for Adaptive Draft Scheduling in Speculative Decoding on Edge Devices",
+    "venue": "LCTES 2026",
+    "topic": "LLM serving / speculative decoding / memory-aware edge runtime / adaptive draft scheduling",
+    "arxiv": "2608.10362",
+    "doi": "",
+    "official_id": "arXiv:2608.10362",
+    "paper_url": "https://arxiv.org/abs/2608.10362",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Evidence-backed 30d audit upgrade from retained P2. MemSpec is a direct inference runtime contribution: it decouples adaptive draft selection from execution using proactive resident working-set management and a memory-aware scheduler, addressing model-switch/loading overhead under tight edge-device memory. On Jetson Orin Nano it reports 40.7% average steady-state throughput improvement over bandit-based adaptive draft selection and approaches the oracle upper bound. The earlier P2 classification underweighted its systems/runtime novelty and published LCTES venue.",
+    "published_at": "2026-08-11T01:41:37Z",
+    "updated_at": "2026-08-11T01:41:37Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Amove: Accelerating LLMs through Mitigating Outliers and Salient Points via Fine-Grained Grouped Vectorized Data Type",
     "venue": "MICRO 2025",
     "topic": "LLM quantization / vectorized datatype",

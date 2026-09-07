@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-08",
   "window_start_beijing": "2026-08-09",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 432,
+  "tracked_total": 433,
   "p0_strong_or_canonical": [
     {
       "title": "Don't Drop Dropout: Optimizing Layer Sparsity for Efficient LLM Training and Inference",
@@ -3085,6 +3085,28 @@
       ]
     },
     {
+      "title": "MemSpec: Memory-Aware Runtime for Adaptive Draft Scheduling in Speculative Decoding on Edge Devices",
+      "venue": "LCTES 2026",
+      "topic": "LLM serving / speculative decoding / memory-aware edge runtime / adaptive draft scheduling",
+      "arxiv": "2608.10362",
+      "doi": "",
+      "official_id": "arXiv:2608.10362",
+      "paper_url": "https://arxiv.org/abs/2608.10362",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Evidence-backed 30d audit upgrade from retained P2. MemSpec is a direct inference runtime contribution: it decouples adaptive draft selection from execution using proactive resident working-set management and a memory-aware scheduler, addressing model-switch/loading overhead under tight edge-device memory. On Jetson Orin Nano it reports 40.7% average steady-state throughput improvement over bandit-based adaptive draft selection and approaches the oracle upper bound. The earlier P2 classification underweighted its systems/runtime novelty and published LCTES venue.",
+      "published_at": "2026-08-11T01:41:37Z",
+      "updated_at": "2026-08-11T01:41:37Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Speculative Decoding",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "World Tokens: Enhancing Embodied Policies with Training-Time World Modeling",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / efficient embodied inference",
@@ -5704,6 +5726,28 @@
       ]
     },
     {
+      "title": "BICPO-VLA: Behavior-Identified Continuation Preference Optimization for Smooth Asynchronous Vision-Language-Action Control",
+      "venue": "arXiv 2026",
+      "topic": "VLA / Physical AI / asynchronous action-chunk generation / request-to-handoff latency",
+      "arxiv": "2608.13924",
+      "doi": "",
+      "official_id": "arXiv:2608.13924",
+      "paper_url": "https://arxiv.org/abs/2608.13924",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI 30d recall miss. BICPO-VLA explicitly targets asynchronous VLA request-to-handoff delay: a causal history encoder identifies intended behavior, sequential Haar-subspace action generation reduces iterative refinement in the raw action space, and handoff-state-conditioned Flow-DPO adapts the generated chunk to state drift. It is retained as high-value watch because the contribution is strongly deployment/latency motivated but is primarily an algorithmic control-generation method rather than a complete serving/runtime system.",
+      "published_at": "2026-08-14T03:51:27Z",
+      "updated_at": "2026-08-14T03:51:27Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Exploring High-Bandwidth Flash for Modern LLM Inference: Opportunities and Challenges",
       "venue": "IEEE Computer Architecture Letters 2026",
       "topic": "LLM inference; flash storage; memory hierarchy; data movement",
@@ -7537,28 +7581,6 @@
         "LLM Serving",
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI"
-      ]
-    },
-    {
-      "title": "MemSpec: Memory-Aware Runtime for Adaptive Draft Scheduling in Speculative Decoding on Edge Devices",
-      "venue": "",
-      "topic": "LLM serving; speculative decoding; generation acceleration; edge / heterogeneous AI",
-      "arxiv": "2608.10362",
-      "doi": "",
-      "official_id": "",
-      "paper_url": "https://arxiv.org/abs/2608.10362",
-      "code_url": "",
-      "formal_class": "RELEVANT_LOW_PRIORITY",
-      "decision": "P2_RELEVANT_LOW_PRIORITY",
-      "tracking_tier": "P2 · Relevant",
-      "why": "Directly relevant to the Efficient ML / AI Infra tracking scope, but retained below Strong/Watch pending deeper quality, novelty, evidence, venue, or adoption review.",
-      "published_at": "2026-08-11T01:41:37Z",
-      "updated_at": "2026-08-11T01:41:37Z",
-      "is_latest_30d": true,
-      "directions": [
-        "LLM Serving",
-        "Speculative Decoding",
-        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -12485,6 +12507,28 @@
       ]
     },
     {
+      "title": "MemSpec: Memory-Aware Runtime for Adaptive Draft Scheduling in Speculative Decoding on Edge Devices",
+      "venue": "LCTES 2026",
+      "topic": "LLM serving / speculative decoding / memory-aware edge runtime / adaptive draft scheduling",
+      "arxiv": "2608.10362",
+      "doi": "",
+      "official_id": "arXiv:2608.10362",
+      "paper_url": "https://arxiv.org/abs/2608.10362",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Evidence-backed 30d audit upgrade from retained P2. MemSpec is a direct inference runtime contribution: it decouples adaptive draft selection from execution using proactive resident working-set management and a memory-aware scheduler, addressing model-switch/loading overhead under tight edge-device memory. On Jetson Orin Nano it reports 40.7% average steady-state throughput improvement over bandit-based adaptive draft selection and approaches the oracle upper bound. The earlier P2 classification underweighted its systems/runtime novelty and published LCTES venue.",
+      "published_at": "2026-08-11T01:41:37Z",
+      "updated_at": "2026-08-11T01:41:37Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Speculative Decoding",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "World Tokens: Enhancing Embodied Policies with Training-Time World Modeling",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / efficient embodied inference",
@@ -15102,6 +15146,28 @@
       ]
     },
     {
+      "title": "BICPO-VLA: Behavior-Identified Continuation Preference Optimization for Smooth Asynchronous Vision-Language-Action Control",
+      "venue": "arXiv 2026",
+      "topic": "VLA / Physical AI / asynchronous action-chunk generation / request-to-handoff latency",
+      "arxiv": "2608.13924",
+      "doi": "",
+      "official_id": "arXiv:2608.13924",
+      "paper_url": "https://arxiv.org/abs/2608.13924",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI 30d recall miss. BICPO-VLA explicitly targets asynchronous VLA request-to-handoff delay: a causal history encoder identifies intended behavior, sequential Haar-subspace action generation reduces iterative refinement in the raw action space, and handoff-state-conditioned Flow-DPO adapts the generated chunk to state drift. It is retained as high-value watch because the contribution is strongly deployment/latency motivated but is primarily an algorithmic control-generation method rather than a complete serving/runtime system.",
+      "published_at": "2026-08-14T03:51:27Z",
+      "updated_at": "2026-08-14T03:51:27Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Exploring High-Bandwidth Flash for Modern LLM Inference: Opportunities and Challenges",
       "venue": "IEEE Computer Architecture Letters 2026",
       "topic": "LLM inference; flash storage; memory hierarchy; data movement",
@@ -16933,28 +16999,6 @@
         "LLM Serving",
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI"
-      ]
-    },
-    {
-      "title": "MemSpec: Memory-Aware Runtime for Adaptive Draft Scheduling in Speculative Decoding on Edge Devices",
-      "venue": "",
-      "topic": "LLM serving; speculative decoding; generation acceleration; edge / heterogeneous AI",
-      "arxiv": "2608.10362",
-      "doi": "",
-      "official_id": "",
-      "paper_url": "https://arxiv.org/abs/2608.10362",
-      "code_url": "",
-      "formal_class": "RELEVANT_LOW_PRIORITY",
-      "decision": "P2_RELEVANT_LOW_PRIORITY",
-      "tracking_tier": "P2 · Relevant",
-      "why": "Directly relevant to the Efficient ML / AI Infra tracking scope, but retained below Strong/Watch pending deeper quality, novelty, evidence, venue, or adoption review.",
-      "published_at": "2026-08-11T01:41:37Z",
-      "updated_at": "2026-08-11T01:41:37Z",
-      "is_latest_30d": true,
-      "directions": [
-        "LLM Serving",
-        "Speculative Decoding",
-        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {

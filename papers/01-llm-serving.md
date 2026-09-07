@@ -1,10 +1,10 @@
 # 01 · LLM Serving
 
-> **676 canonical papers** mapped here, plus a broader **293-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **677 canonical papers** mapped here, plus a broader **294-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 293 tracked
+## 🆕 Latest 30 Days · 294 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -173,6 +173,7 @@
 | **P0 · Strong** | **CoRun: Padding is Simple and Efficient for Deterministic LLM Inference** | Fresh / preprint | LLM serving / deterministic inference / fixed-shape scheduling | [Link](https://arxiv.org/abs/2608.14376) | — |
 | **P0 · Strong** | **Beyond Capacity: Scalable MoE LLM Inference via High-Bandwidth Flash with Direct GPU and HBM Paths** | Fresh / preprint | MoE serving / high-bandwidth flash architecture | [Link](https://arxiv.org/abs/2608.14333) | — |
 | **P2 · Relevant** | **MoE Expert Execution in Disaggregated LLM Serving with a High-Bandwidth ReRAM Near-Memory Architecture** | Fresh / preprint | llm_serving / moe | [Link](https://arxiv.org/abs/2608.13962) | — |
+| **P1 · Watch** | **BICPO-VLA: Behavior-Identified Continuation Preference Optimization for Smooth Asynchronous Vision-Language-Action Control** | arXiv 2026 | VLA / Physical AI / asynchronous action-chunk generation / request-to-handoff latency | [Link](https://arxiv.org/abs/2608.13924) | — |
 | **P1 · Watch** | **Exploring High-Bandwidth Flash for Modern LLM Inference: Opportunities and Challenges** | IEEE Computer Architecture Letters 2026 | LLM inference; flash storage; memory hierarchy; data movement | [Link](https://arxiv.org/abs/2608.13868) | — |
 | **P2 · Relevant** | **A Barrier-Free Synchronization Algorithm for Multi-Engine AI Accelerators** | Fresh / preprint | llm_serving / kernel | [Link](https://arxiv.org/abs/2608.13757) | — |
 | **P1 · Watch** | **OpScale: Operator-level Provisioning and Autoscaling for LLM Serving** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.13499) | — |
@@ -187,7 +188,7 @@
 | **P0 · Strong** | **Scheduling Mixed RL Rollouts Beyond Prefix Locality** | arXiv 2026 | LLM serving / RL rollout scheduling / KV-cache capacity allocation | [Link](https://arxiv.org/abs/2608.11152) | — |
 | **P2 · Relevant** | **DriveVLA-M0: Failure-Aware Memory Augmentation for Autonomous Driving** | Fresh / preprint | llm_serving / multimodal / gen / physical | [Link](https://arxiv.org/abs/2608.10413) | — |
 | **P0 · Strong** | **TideRL: Boosting Agentic RL Goodput with Readiness-Aware Scheduling** | Fresh / preprint | agentic RL infrastructure | [Link](https://arxiv.org/abs/2608.10402) | — |
-| **P2 · Relevant** | **MemSpec: Memory-Aware Runtime for Adaptive Draft Scheduling in Speculative Decoding on Edge Devices** | Fresh / preprint | LLM serving; speculative decoding; generation acceleration; edge / heterogeneous AI | [Link](https://arxiv.org/abs/2608.10362) | — |
+| **P0 · Strong** | **MemSpec: Memory-Aware Runtime for Adaptive Draft Scheduling in Speculative Decoding on Edge Devices** | LCTES 2026 | LLM serving / speculative decoding / memory-aware edge runtime / adaptive draft scheduling | [Link](https://arxiv.org/abs/2608.10362) | — |
 | **P2 · Relevant** | **Hand-Written PTX Tensor-Core GEMM Kernels: A Multi-Precision Study on NVIDIA L4** | Fresh / preprint | llm_serving / quant / gen | [Link](https://arxiv.org/abs/2608.10103) | — |
 | **P2 · Relevant** | **Entropy-Constrained Adaptive Stochastic Quantization** | Fresh / preprint | llm_serving / kv / quant / edge | [Link](https://arxiv.org/abs/2608.18147) | — |
 | **P0 · Strong** | **World Tokens: Enhancing Embodied Policies with Training-Time World Modeling** | arXiv 2026 | VLA/WAM/Physical AI serving / efficient embodied inference | [Link](https://arxiv.org/abs/2608.09730) | — |

@@ -1,10 +1,10 @@
 # 📚 Paper Library
 
-> **1577 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **432 visible papers = 148 P0 + 164 P1 + 120 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1578 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **433 visible papers = 149 P0 + 165 P1 + 119 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
-## 🆕 P0 · Strong / Canonical recent · 148
+## 🆕 P0 · Strong / Canonical recent · 149
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -148,6 +148,7 @@
 | **P0 · Strong** | **HBF Sucks? A Full-Stack Characterization of High-Bandwidth Flash for KV-Centric LLM Serving** | arXiv 2026 | LLM serving / KV cache / heterogeneous memory and storage | [Link](https://arxiv.org/abs/2608.11668) | — |
 | **P0 · Strong** | **Scheduling Mixed RL Rollouts Beyond Prefix Locality** | arXiv 2026 | LLM serving / RL rollout scheduling / KV-cache capacity allocation | [Link](https://arxiv.org/abs/2608.11152) | — |
 | **P0 · Strong** | **TideRL: Boosting Agentic RL Goodput with Readiness-Aware Scheduling** | Fresh / preprint | agentic RL infrastructure | [Link](https://arxiv.org/abs/2608.10402) | — |
+| **P0 · Strong** | **MemSpec: Memory-Aware Runtime for Adaptive Draft Scheduling in Speculative Decoding on Edge Devices** | LCTES 2026 | LLM serving / speculative decoding / memory-aware edge runtime / adaptive draft scheduling | [Link](https://arxiv.org/abs/2608.10362) | — |
 | **P0 · Strong** | **World Tokens: Enhancing Embodied Policies with Training-Time World Modeling** | arXiv 2026 | VLA/WAM/Physical AI serving / efficient embodied inference | [Link](https://arxiv.org/abs/2608.09730) | — |
 | **P0 · Strong** | **Depth-adaptive Inference of Looped Language Models via Continuous Depth Batching** | Fresh / preprint | LLM serving / adaptive inference / scheduling | [Link](https://arxiv.org/abs/2608.09444) | [Repo](https://github.com/kschwethelm/continuous-depth-batching) |
 | **P0 · Strong** | **FSGen: Agile Fused and Sparse Accelerator Generator with Accurate Power Model for LLM Applications** | DAC 2026 | LLM inference accelerator / fused-operator dataflow / sparsity / hardware generator / RTL / PPA-aware design-space exploration / edge and heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.09252) | [Repo](https://github.com/hkust-zhiyao/FSGen) |
@@ -157,7 +158,7 @@
 | **P0 · Strong** | **FlashBoot: Sub-Second Weight Loading for Large Models at Rack Scale** | Fresh / preprint | LLM serving / MoE systems / rack-scale runtime | [Link](https://arxiv.org/abs/2608.08482) | — |
 | **P0 · Strong** | **Aero Realtime: Fully Aligned Input-Output Streams for Low-Latency Streaming Multimodal Generation** | arXiv 2026 | multimodal/MLLM serving / streaming generation / KV reuse / distributed training | [Link](https://arxiv.org/abs/2608.08469) | — |
 
-## 🧭 P1 · Watch · 164
+## 🧭 P1 · Watch · 165
 
 > Clearly relevant and promising, but still awaiting stronger novelty, evidence, venue, or adoption validation.
 
@@ -277,6 +278,7 @@
 | **P1 · Watch** | **S2-MoE: Enabling Efficient Self-Speculative Decoding for Mixture-of-Experts on Edge Devices** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.15018) | — |
 | **P1 · Watch** | **Risk-Adaptive Edge--Cloud Visual Reasoning for Communication-Efficient Autonomous Driving** | arXiv 2026 | Physical AI / edge-cloud inference / autonomous driving / selective VLM offload | [Link](https://arxiv.org/abs/2608.14991) | — |
 | **P1 · Watch** | **KV Cache Compression Through the Lens of Transform Coding** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.14191) | — |
+| **P1 · Watch** | **BICPO-VLA: Behavior-Identified Continuation Preference Optimization for Smooth Asynchronous Vision-Language-Action Control** | arXiv 2026 | VLA / Physical AI / asynchronous action-chunk generation / request-to-handoff latency | [Link](https://arxiv.org/abs/2608.13924) | — |
 | **P1 · Watch** | **Exploring High-Bandwidth Flash for Modern LLM Inference: Opportunities and Challenges** | IEEE Computer Architecture Letters 2026 | LLM inference; flash storage; memory hierarchy; data movement | [Link](https://arxiv.org/abs/2608.13868) | — |
 | **P1 · Watch** | **OpScale: Operator-level Provisioning and Autoscaling for LLM Serving** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.13499) | — |
 | **P1 · Watch** | **vToken: Token-Level Virtualization for Reclaimable KV Caches** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.13263) | — |
@@ -328,7 +330,7 @@
 | **P1 · Watch** | **An Internet for the KV Cache: Rethinking Classical Infrastructure Boundaries in the LLM Inference Age** | Fresh / preprint | KV cache / distributed serving / cloud-network-storage systems | [Link](https://arxiv.org/abs/2608.01526) | — |
 | **P1 · Watch** | **A methodology for accurate benchmarking of neural network accelerators using a high-level synthesis-based hardware generator** | Philosophical Transactions A 2026 | AI accelerator benchmarking; HLS; hardware design-space evaluation | [Link](https://doi.org/10.1098/rsta.2024.0514) | — |
 
-## 📎 P2 · Relevant, lower priority · 120
+## 📎 P2 · Relevant, lower priority · 119
 
 > Directly in scope and therefore retained for recall, even when current quality/impact evidence is not strong enough for Watch or Canonical promotion.
 
@@ -370,7 +372,6 @@
 | **P2 · Relevant** | **Spec Sheets Are Not Kernels: An ISA- and Source-Level Audit of INT8 Availability on NVIDIA Blackwell Ultra** | Fresh / preprint | llm_serving / quant / kernel / gen | [Link](https://arxiv.org/abs/2608.11693) | — |
 | **P2 · Relevant** | **APEX: Adaptive Expert Prefetching for Memory-Efficient Edge MoE Inference** | Fresh / preprint | llm_serving / moe / gen | [Link](https://arxiv.org/abs/2608.11688) | — |
 | **P2 · Relevant** | **DriveVLA-M0: Failure-Aware Memory Augmentation for Autonomous Driving** | Fresh / preprint | llm_serving / multimodal / gen / physical | [Link](https://arxiv.org/abs/2608.10413) | — |
-| **P2 · Relevant** | **MemSpec: Memory-Aware Runtime for Adaptive Draft Scheduling in Speculative Decoding on Edge Devices** | Fresh / preprint | LLM serving; speculative decoding; generation acceleration; edge / heterogeneous AI | [Link](https://arxiv.org/abs/2608.10362) | — |
 | **P2 · Relevant** | **Hand-Written PTX Tensor-Core GEMM Kernels: A Multi-Precision Study on NVIDIA L4** | Fresh / preprint | llm_serving / quant / gen | [Link](https://arxiv.org/abs/2608.10103) | — |
 | **P2 · Relevant** | **Entropy-Constrained Adaptive Stochastic Quantization** | Fresh / preprint | llm_serving / kv / quant / edge | [Link](https://arxiv.org/abs/2608.18147) | — |
 | **P2 · Relevant** | **UnionSparse: An Index-Efficient Sparsity Framework for Low-Bit Sparse LLM Inference on Edge** | Fresh / preprint | llm_serving / quant / sparse | [Link](https://arxiv.org/abs/2608.09291) | — |
