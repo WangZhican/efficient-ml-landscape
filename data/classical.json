@@ -21702,6 +21702,26 @@
     ]
   },
   {
+    "title": "Accelerating LLM Inference with Flexible N:M Sparsity via A Fully Digital Compute-in-Memory Accelerator",
+    "venue": "ISLPED 2025",
+    "topic": "LLM inference / structured N:M sparsity / compute-in-memory accelerator / algorithm-hardware co-design",
+    "arxiv": "2504.14365",
+    "doi": "",
+    "official_id": "arXiv:2504.14365",
+    "paper_url": "https://arxiv.org/abs/2504.14365",
+    "code_url": "https://github.com/FLOW-open-project/FLOW",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Georgia Tech Tushar Krishna reverse census recovered a direct sparse-LLM inference algorithm+architecture paper absent from the authority. FLOW jointly selects layer-wise N and M using outlier density/distribution, while FlexCiM is a flexible digital compute-in-memory accelerator; the paper reports up to 1.75x lower inference latency and 1.5x lower energy. Official code plus RTL are public, and the project reports ISLPED 2025 acceptance and Best Paper Award nomination.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning"
+    ]
+  },
+  {
     "title": "LLMServingSim 2.0: A Unified Simulator for Heterogeneous and Disaggregated LLM Serving Infrastructure",
     "venue": "ISPASS 2026 Best Paper",
     "topic": "LLM serving; heterogeneous accelerators; disaggregated inference; serving simulation; hardware-software co-design",

@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **1565 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **411 visible papers = 138 P0 + 153 P1 + 120 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1566 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **411 visible papers = 138 P0 + 153 P1 + 120 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -434,7 +434,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 1427
+## 🏛️ Classical / Historical · 1428
 
 ### ICML 2026 · 375
 
@@ -2197,6 +2197,12 @@
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **Canonical** | **Gleanmer: A 6 mW SoC for Real-Time 3D Gaussian Occupancy Mapping** | IEEE VLSI 2026 | edge/cloud/heterogeneous AI systems; Physical AI; autonomous navigation; 3D Gaussian occupancy mapping accelerator | [Link](https://arxiv.org/abs/2603.29005) | — |
+
+### ISLPED 2025 · 1
+
+| Priority | Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|---|
+| **Canonical** | **Accelerating LLM Inference with Flexible N:M Sparsity via A Fully Digital Compute-in-Memory Accelerator** | ISLPED 2025 | LLM inference / structured N:M sparsity / compute-in-memory accelerator / algorithm-hardware co-design | [Link](https://arxiv.org/abs/2504.14365) | [Repo](https://github.com/FLOW-open-project/FLOW) |
 
 ### ISPASS 2026 Best Paper · 1
 

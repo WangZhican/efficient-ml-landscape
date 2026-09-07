@@ -1,10 +1,10 @@
 # 🧭 Research Map
 
-> **1565 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
+> **1566 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
 
 <div align="center">
 
-[**🆕 Latest 30 Days · 411 tracked**](LATEST_30D.md) · [**🏛️ Classical · 1427**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
+[**🆕 Latest 30 Days · 411 tracked**](LATEST_30D.md) · [**🏛️ Classical · 1428**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
 
 </div>
 
@@ -16,7 +16,7 @@
 | 02 | [**Speculative Decoding**](02-speculative-decoding.md) | **196** | **33** |
 | 03 | [**KV Cache / Long Context**](03-kv-cache-long-context.md) | **393** | **83** |
 | 04 | [**Quantization**](04-quantization.md) | **225** | **67** |
-| 05 | [**Sparsity / Pruning**](05-sparsity-pruning.md) | **246** | **74** |
+| 05 | [**Sparsity / Pruning**](05-sparsity-pruning.md) | **247** | **74** |
 | 06 | [**Efficient Attention**](06-efficient-attention.md) | **231** | **65** |
 | 07 | [**MoE Systems / Accelerators**](07-moe-systems.md) | **123** | **40** |
 | 08 | [**GPU Kernel / DSL / Compiler**](08-gpu-kernel-compiler.md) | **397** | **93** |

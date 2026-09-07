@@ -1,6 +1,6 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **1427 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **1428 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
@@ -1765,6 +1765,12 @@
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **Canonical** | **Gleanmer: A 6 mW SoC for Real-Time 3D Gaussian Occupancy Mapping** | IEEE VLSI 2026 | edge/cloud/heterogeneous AI systems; Physical AI; autonomous navigation; 3D Gaussian occupancy mapping accelerator | [Link](https://arxiv.org/abs/2603.29005) | — |
+
+## ISLPED 2025 · 1
+
+| Priority | Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|---|
+| **Canonical** | **Accelerating LLM Inference with Flexible N:M Sparsity via A Fully Digital Compute-in-Memory Accelerator** | ISLPED 2025 | LLM inference / structured N:M sparsity / compute-in-memory accelerator / algorithm-hardware co-design | [Link](https://arxiv.org/abs/2504.14365) | [Repo](https://github.com/FLOW-open-project/FLOW) |
 
 ## ISPASS 2026 Best Paper · 1
 
