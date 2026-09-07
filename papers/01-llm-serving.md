@@ -1,6 +1,6 @@
 # 01 · LLM Serving
 
-> **666 canonical papers** mapped here, plus a broader **273-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **667 canonical papers** mapped here, plus a broader **273-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -282,7 +282,7 @@
 | **P1 · Watch** | **CubicQuant: Parametric Non-Uniform Codebooks for High-Throughput LLM Inference with 1-8-Bit Weights** | Fresh / preprint | quantization / GPU inference | [Link](https://arxiv.org/abs/2608.06763) | — |
 | **P1 · Watch** | **An Internet for the KV Cache: Rethinking Classical Infrastructure Boundaries in the LLM Inference Age** | Fresh / preprint | KV cache / distributed serving / cloud-network-storage systems | [Link](https://arxiv.org/abs/2608.01526) | — |
 
-## 🏛️ Classical / Historical · 588 canonical
+## 🏛️ Classical / Historical · 589 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -350,6 +350,7 @@
 | **Canonical** | **vla.cpp: A Unified Inference Runtime for Vision-Language-Action Models** | arXiv 2026 | VLA/WAM/Physical AI serving / portable runtime / edge deployment / quantized inference | [Link](https://arxiv.org/abs/2606.08094) | [Repo](https://github.com/VinRobotics/vla.cpp) |
 | **Canonical** | **Vortex: Efficient and Programmable Sparse Attention Serving for AI Agents** | arXiv 2026 | efficient attention / sparse attention serving / LLM serving / agent systems / GPU kernels | [Link](https://arxiv.org/abs/2606.06453) | [Repo](https://github.com/Infini-AI-Lab/vortex_torch) |
 | **Canonical** | **World-Language-Action Model for Unified World Modeling, Language Reasoning, and Action Synthesis** | arXiv 2026 | VLA/WAM/Physical AI serving / world-action model / efficient inference / runtime | [Link](https://arxiv.org/abs/2606.05979) | [Repo](https://github.com/SJTU-DENG-Lab/WLA) |
+| **Canonical** | **WWW.Serve: Interconnecting Global LLM Services through Decentralization** | arXiv 2026 | LLM serving / decentralized inference / heterogeneous GPU resources / request dispatch | [Link](https://arxiv.org/abs/2603.20661) | — |
 | **Canonical** | **SeDeM: Selective Decompression of Hidden-State Memories for Long-Context Question Answering** | arXiv 2026 / EMNLP 2026 main reported by author route | KV cache/long-context / context compression / efficient inference | [Link](https://arxiv.org/abs/2608.00311) | — |
 | **Canonical** | **VeriCache: Turning Lossy KV Cache into Lossless LLM Inference** | arXiv 2026 technical report | LLM serving / KV cache / lossless compression / speculative verification / long-context inference | [Link](https://arxiv.org/abs/2605.17613) | — |
 | **Canonical** | **A Cost-Effective Near-Storage Processing Solution for Offline Inference of Long-Context LLMs** | ASPLOS 2026 | LLM serving / long context / near-storage processing | [Link](https://arxiv.org/abs/2502.09921) | [Repo](https://github.com/hongsunjang/HILOS) |

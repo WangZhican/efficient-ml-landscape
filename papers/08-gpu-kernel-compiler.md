@@ -1,6 +1,6 @@
 # 08 · GPU Kernel / DSL / Compiler
 
-> **396 canonical papers** mapped here, plus a broader **89-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **397 canonical papers** mapped here, plus a broader **89-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -98,7 +98,7 @@
 | **P1 · Watch** | **DEFT: Joint Task Placement and DVFS for Energy-Efficient Multi-GPU Runtimes** | Fresh / preprint | distributed runtime / multi-GPU / energy efficiency | [Link](https://arxiv.org/abs/2608.02122) | — |
 | **P1 · Watch** | **CubicQuant: Parametric Non-Uniform Codebooks for High-Throughput LLM Inference with 1-8-Bit Weights** | Fresh / preprint | quantization / GPU inference | [Link](https://arxiv.org/abs/2608.06763) | — |
 
-## 🏛️ Classical / Historical · 355 canonical
+## 🏛️ Classical / Historical · 356 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -139,6 +139,7 @@
 | **Canonical** | **Tutti: Making SSD-Backed KV Cache Practical for Long-Context LLM Serving** | arXiv 2026 | LLM serving / KV cache / long-context / SSD offload / GPU-centric I/O / vLLM | [Link](https://arxiv.org/abs/2605.03375) | — |
 | **Canonical** | **Vortex: Efficient and Programmable Sparse Attention Serving for AI Agents** | arXiv 2026 | efficient attention / sparse attention serving / LLM serving / agent systems / GPU kernels | [Link](https://arxiv.org/abs/2606.06453) | [Repo](https://github.com/Infini-AI-Lab/vortex_torch) |
 | **Canonical** | **World-Language-Action Model for Unified World Modeling, Language Reasoning, and Action Synthesis** | arXiv 2026 | VLA/WAM/Physical AI serving / world-action model / efficient inference / runtime | [Link](https://arxiv.org/abs/2606.05979) | [Repo](https://github.com/SJTU-DENG-Lab/WLA) |
+| **Canonical** | **WWW.Serve: Interconnecting Global LLM Services through Decentralization** | arXiv 2026 | LLM serving / decentralized inference / heterogeneous GPU resources / request dispatch | [Link](https://arxiv.org/abs/2603.20661) | — |
 | **Canonical** | **Bullet: Boosting GPU Utilization for LLM Serving via Dynamic Spatial-Temporal Orchestration** | ASPLOS 2026 | LLM serving / GPU utilization / scheduling | [Link](https://arxiv.org/abs/2504.19516) | — |
 | **Canonical** | **DFVG: A Heterogeneous Architecture for Speculative Decoding with Draft-on-FPGA and Verify-on-GPU** | ASPLOS 2026 | speculative decoding / heterogeneous GPU-FPGA / LLM accelerator | [Link](https://www.asplos-conference.org/asplos2026/program/) | [Repo](https://github.com/ShaoqiangLu/DFVG) |
 | **Canonical** | **FlashMem: Supporting Modern DNN Workloads on Mobile with GPU Memory Hierarchy Optimizations** | ASPLOS 2026 | edge/mobile AI systems / GPU memory hierarchy / model streaming | [Link](https://arxiv.org/abs/2602.15379) | — |

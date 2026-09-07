@@ -3446,6 +3446,28 @@
     ]
   },
   {
+    "title": "WWW.Serve: Interconnecting Global LLM Services through Decentralization",
+    "venue": "arXiv 2026",
+    "topic": "LLM serving / decentralized inference / heterogeneous GPU resources / request dispatch",
+    "arxiv": "2603.20661",
+    "doi": "",
+    "official_id": "arXiv:2603.20661",
+    "paper_url": "https://arxiv.org/abs/2603.20661",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Beidi Chen current-route replay surfaced a direct decentralized LLM serving system absent from the locked authority+manifest. WWW.Serve supports self-organizing request dispatch across independently controlled providers and reports up to 1.5x global SLO attainment with 27.6% lower latency; retained as canonical serving-systems work.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "SeDeM: Selective Decompression of Hidden-State Memories for Long-Context Question Answering",
     "venue": "arXiv 2026 / EMNLP 2026 main reported by author route",
     "topic": "KV cache/long-context / context compression / efficient inference",
