@@ -1,6 +1,6 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **1430 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **1432 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
@@ -1471,6 +1471,19 @@
 | **Canonical** | **PEACE: Power and Performance Aware Colocation for Efficient GPU Spatial Partitioning** | SoCC 2026 | KV virtualization + long-context serving + GPU colocation + on-device adaptation | [Link](https://doi.org/10.1145/3815789.3827949) | — |
 | **Canonical** | **Tessera: Contract-Driven Cost–SLO Optimization for Multi-tenant GPU Clouds** | SoCC 2026 | multi-tenant GPU cloud / cost-SLO optimization / AI infrastructure scheduling | [Link](https://acmsocc.org/2026/accepted-papers.html) | — |
 
+## EMNLP 2025 Findings · 8
+
+| Priority | Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|---|
+| **Canonical** | **Cache Saver: A Modular Framework for Efficient, Affordable, and Reproducible LLM Inference** | EMNLP 2025 Findings | LLM inference framework / response caching / cost and carbon efficiency | [Link](https://aclanthology.org/2025.findings-emnlp.1402/) | [Repo](https://github.com/au-clan/cachesaver) |
+| **Canonical** | **DynamicKV: Task-Aware Adaptive KV Cache Compression for Long Context LLMs** | EMNLP 2025 Findings | KV cache compression / task-aware adaptive allocation | [Link](https://aclanthology.org/2025.findings-emnlp.426/) | — |
+| **Canonical** | **EvolKV: Evolutionary KV Cache Compression for LLM Inference** | EMNLP 2025 Findings | KV cache compression / evolutionary budget allocation | [Link](https://aclanthology.org/2025.findings-emnlp.88/) | — |
+| **Canonical** | **FractalLLM: Lossless Self-Speculative Decoding with Layer Embedded Self-Compression** | EMNLP 2025 Findings | speculative decoding / self-speculative decoding / layer-embedded compression | [Link](https://aclanthology.org/2025.findings-emnlp.1286/) | [Repo](https://github.com/YEonleo/FractalLLM) |
+| **Canonical** | **Hardware-Aware Parallel Prompt Decoding for Memory-Efficient Acceleration of LLM Inference** | EMNLP 2025 Findings | speculative decoding / edge LLM / memory-efficient inference | [Link](https://aclanthology.org/2025.findings-emnlp.120/) | — |
+| **Canonical** | **LAVa: Layer-wise KV Cache Eviction with Dynamic Budget Allocation** | EMNLP 2025 Findings | KV cache eviction / dynamic layer-head budgets | [Link](https://aclanthology.org/2025.findings-emnlp.737/) | — |
+| **Canonical** | **More Tokens, Lower Precision: Towards the Optimal Token-Precision Trade-off in KV Cache Compression** | EMNLP 2025 Findings | KV cache compression / token-precision co-optimization | [Link](https://aclanthology.org/2025.findings-emnlp.429/) | — |
+| **Canonical** | **SwiftPrune: Hessian-Free Weight Pruning for Large Language Models** | EMNLP 2025 Findings | sparsity/pruning / structured sparsity / post-training compression | [Link](https://arxiv.org/abs/2501.16376) | — |
+
 ## FAST 2026 · 8
 
 | Priority | Paper | Venue | Topic | Paper | Code |
@@ -1571,17 +1584,6 @@
 | **Canonical** | **RoboMonkey: Scaling Test-Time Sampling and Verification for Vision-Language-Action Models** | CoRL 2025 | Physical AI / VLA inference-time scaling / batched serving / verification | [Link](https://arxiv.org/abs/2506.17811) | [Repo](https://github.com/robomonkey-vla/RoboMonkey) |
 | **Canonical** | **Training Strategies for Efficient Embodied Reasoning** | CoRL 2025 | Physical AI / efficient embodied reasoning / VLA inference | [Link](https://proceedings.mlr.press/v305/chen25a.html) | — |
 | **Canonical** | **π₀.₅: a Vision-Language-Action Model with Open-World Generalization** | CoRL 2025 | Physical AI / VLA foundation model / flow action head / open-world generalization | [Link](https://proceedings.mlr.press/v305/black25a.html) | [Repo](https://github.com/Physical-Intelligence/openpi) |
-
-## EMNLP 2025 Findings · 6
-
-| Priority | Paper | Venue | Topic | Paper | Code |
-|---|---|---|---|---|---|
-| **Canonical** | **Cache Saver: A Modular Framework for Efficient, Affordable, and Reproducible LLM Inference** | EMNLP 2025 Findings | LLM inference framework / response caching / cost and carbon efficiency | [Link](https://aclanthology.org/2025.findings-emnlp.1402/) | [Repo](https://github.com/au-clan/cachesaver) |
-| **Canonical** | **DynamicKV: Task-Aware Adaptive KV Cache Compression for Long Context LLMs** | EMNLP 2025 Findings | KV cache compression / task-aware adaptive allocation | [Link](https://aclanthology.org/2025.findings-emnlp.426/) | — |
-| **Canonical** | **EvolKV: Evolutionary KV Cache Compression for LLM Inference** | EMNLP 2025 Findings | KV cache compression / evolutionary budget allocation | [Link](https://aclanthology.org/2025.findings-emnlp.88/) | — |
-| **Canonical** | **Hardware-Aware Parallel Prompt Decoding for Memory-Efficient Acceleration of LLM Inference** | EMNLP 2025 Findings | speculative decoding / edge LLM / memory-efficient inference | [Link](https://aclanthology.org/2025.findings-emnlp.120/) | — |
-| **Canonical** | **LAVa: Layer-wise KV Cache Eviction with Dynamic Budget Allocation** | EMNLP 2025 Findings | KV cache eviction / dynamic layer-head budgets | [Link](https://aclanthology.org/2025.findings-emnlp.737/) | — |
-| **Canonical** | **More Tokens, Lower Precision: Towards the Optimal Token-Precision Trade-off in KV Cache Compression** | EMNLP 2025 Findings | KV cache compression / token-precision co-optimization | [Link](https://aclanthology.org/2025.findings-emnlp.429/) | — |
 
 ## Fresh / preprint · 6
 

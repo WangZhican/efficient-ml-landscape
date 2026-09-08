@@ -8058,6 +8058,26 @@
     ]
   },
   {
+    "title": "FractalLLM: Lossless Self-Speculative Decoding with Layer Embedded Self-Compression",
+    "venue": "EMNLP 2025 Findings",
+    "topic": "speculative decoding / self-speculative decoding / layer-embedded compression",
+    "arxiv": "",
+    "doi": "10.18653/v1/2025.findings-emnlp.1286",
+    "official_id": "ACL:2025.findings-emnlp.1286",
+    "paper_url": "https://aclanthology.org/2025.findings-emnlp.1286/",
+    "code_url": "https://github.com/YEonleo/FractalLLM",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "EMNLP 2025 Findings direct lossless self-speculative decoding method; compressed layers draft multiple tokens and the original model verifies them in one pass, with up to 2.47x reported inference speedup and no extra training.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Speculative Decoding"
+    ]
+  },
+  {
     "title": "Hardware-Aware Parallel Prompt Decoding for Memory-Efficient Acceleration of LLM Inference",
     "venue": "EMNLP 2025 Findings",
     "topic": "speculative decoding / edge LLM / memory-efficient inference",
@@ -8118,6 +8138,26 @@
     "directions": [
       "KV Cache / Long Context",
       "Quantization",
+      "Sparsity / Pruning"
+    ]
+  },
+  {
+    "title": "SwiftPrune: Hessian-Free Weight Pruning for Large Language Models",
+    "venue": "EMNLP 2025 Findings",
+    "topic": "sparsity/pruning / structured sparsity / post-training compression",
+    "arxiv": "2501.16376",
+    "doi": "10.18653/v1/2025.findings-emnlp.690",
+    "official_id": "arXiv:2501.16376",
+    "paper_url": "https://arxiv.org/abs/2501.16376",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "EMNLP 2025 Findings direct LLM pruning method removes Hessian computation and sorting overhead, supports structured sparsity for modern accelerators, and reports 12.29x average (up to 56.02x) pruning-process speedup over prior approaches.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
       "Sparsity / Pruning"
     ]
   },
