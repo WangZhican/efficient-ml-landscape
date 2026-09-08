@@ -1,10 +1,10 @@
 # 📚 Paper Library
 
-> **1615 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **422 visible papers = 99 P0 + 204 P1 + 119 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1616 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **427 visible papers = 100 P0 + 208 P1 + 119 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
-## 🆕 P0 · Strong / Canonical recent · 99
+## 🆕 P0 · Strong / Canonical recent · 100
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -28,6 +28,7 @@
 | **P0 · Strong** | **Unlocking Lossless Speedups in LLMs via Discrete Diffusion** | CoRR 2026 | speculative decoding / diffusion language models / parallel decoding / efficient reasoning | [Link](https://arxiv.org/abs/2609.04010) | — |
 | **P0 · Strong** | **VestigeKV: The NoPE-MLA KV Cache Carries Its Own Eviction Signal in a Vestigial Branch** | CoRR 2026 | KV cache / long-context / MLA / cache eviction | [Link](https://arxiv.org/abs/2609.03949) | — |
 | **P0 · Strong** | **Every Kernel Is a Join: Automatic Multi-GPU Parallelism for AI Computations in Einsummable** | arXiv 2026 | distributed training/inference / GPU systems / compiler | [Link](https://arxiv.org/abs/2609.03905) | — |
+| **P0 · Strong** | **Almost Free State Prediction Separation** | arXiv 2026 | efficient reasoning/agent systems / LLM inference / KV-cache-neutral extra compute | [Link](https://arxiv.org/abs/2609.03807) | — |
 | **P0 · Strong** | **MINERVA: How Small Can a Manipulation Policy Be and Still Solve LIBERO?** | arXiv 2026 | VLA/WAM/Physical AI / compact policy / deployment efficiency | [Link](https://arxiv.org/abs/2609.03715) | — |
 | **P0 · Strong** | **WISE: World-model-guided Imagination Scheduling for Efficient Post-training of Vision-Language-Action Models** | arXiv 2026 | VLA/WAM/Physical AI / world-model scheduling / efficient post-training | [Link](https://arxiv.org/abs/2609.03681) | — |
 | **P0 · Strong** | **CoFiE: Coarse-to-Fine Evidence Selection for Efficient Streaming Video Understanding** | arXiv 2026 | multimodal/MLLM serving / sparsity / streaming video | [Link](https://arxiv.org/abs/2609.03675) | — |
@@ -108,12 +109,13 @@
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 | **P0 · Strong** | **A Thread-Register Decoupled GPU Execution Model for Efficient Tensor Computation** | Fresh / preprint | GPU execution architecture / tensor cores / LLM serving | [Link](https://arxiv.org/abs/2608.19628) | — |
 
-## 🧭 P1 · Watch · 204
+## 🧭 P1 · Watch · 208
 
 > Clearly relevant and promising, but still awaiting stronger novelty, evidence, venue, or adoption validation.
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
+| **P1 · Watch** | **Proton Irradiation Characterization of an Open-Source ML Accelerator on a Zynq UltraScale+ MPSoC** | arXiv 2026 | edge/cloud/heterogeneous AI systems / Physical AI / FPGA accelerator reliability | [Link](https://arxiv.org/abs/2609.05249) | — |
 | **P1 · Watch** | **ACE: Adaptive Calibration-Free Expert Skipping for MoE-based LLMs** | arXiv 2026 | MoE systems/accelerators / adaptive expert skipping | [Link](https://arxiv.org/abs/2609.05228) | — |
 | **P1 · Watch** | **APEX-RBD: Mixed-Precision Exploration Framework for Hardware-Efficient Robot Dynamics Accelerator Design** | arXiv 2026 | VLA/WAM/Physical AI serving / robot accelerator / mixed precision / edge hardware | [Link](https://arxiv.org/abs/2609.05161) | — |
 | **P1 · Watch** | **Deep Microcompression: Structured Pruning and Bit-packed Quantization for Microcontrollers** | arXiv 2026 | edge/cloud/heterogeneous AI systems / microcontroller inference / pruning / quantization | [Link](https://arxiv.org/abs/2609.05081) | — |
@@ -137,6 +139,7 @@
 | **P1 · Watch** | **FAVE: Foveated Adaptive Visual Encoding for Efficient Fine-Grained Visual Understanding** | arXiv 2026 | multimodal/MLLM serving / visual-token efficiency / adaptive encoding | [Link](https://arxiv.org/abs/2609.04392) | — |
 | **P1 · Watch** | **Compile by Training: Turning Natural-Language Specifications into Local Neural Functions** | arXiv 2026 | efficient reasoning/agent systems / local inference / distillation | [Link](https://arxiv.org/abs/2609.04199) | — |
 | **P1 · Watch** | **TAP-Path: Task-Adaptive Structural and Token Pruning for Efficient and Trustworthy Pathology Foundation Models** | arXiv 2026 | sparsity/pruning / multimodal models / efficient inference | [Link](https://arxiv.org/abs/2609.04071) | — |
+| **P1 · Watch** | **Flip, Don't Shuffle: Watermarking LLMs at the Speed of Inference** | arXiv 2026 | LLM serving / inference kernel / watermarking overhead | [Link](https://arxiv.org/abs/2609.03844) | — |
 | **P1 · Watch** | **Lngram v2: Latent N-Gram Memory with Interpretable Discrete Representations** | arXiv 2026 | KV cache/long-context / multimodal serving / conditional memory / efficient model architecture | [Link](https://arxiv.org/abs/2609.03426) | — |
 | **P1 · Watch** | **SGD-KV: Summarization Guided KV Cache Compression** | Fresh / preprint | KV cache/long-context | [Link](https://arxiv.org/abs/2609.03235) | — |
 | **P1 · Watch** | **Who Speaks for the Pruned? Visual Token Pruning as Coverage Optimization** | arXiv 2026 | multimodal/MLLM serving / sparsity/pruning / visual token pruning | [Link](https://arxiv.org/abs/2609.03158) | — |
@@ -145,11 +148,13 @@
 | **P1 · Watch** | **GPU-Accelerated Astrodynamics World Models for Spacecraft Rendezvous and Proximity Operations** | arXiv 2026 | VLA/WAM/Physical AI serving / world models / GPU simulation | [Link](https://arxiv.org/abs/2609.03067) | — |
 | **P1 · Watch** | **Quality Recovery for Quantized KV Caches via Low-Rank Attention Adaptation** | arXiv 2026 | KV cache / quantization / long-context inference / low-rank adaptation | [Link](https://arxiv.org/abs/2609.04263) | — |
 | **P1 · Watch** | **Debias-SparseGPT: Bias-Aware Pruning for Large Language Models** | arXiv 2026 | sparsity/pruning / LLM compression | [Link](https://arxiv.org/abs/2609.02496) | — |
+| **P1 · Watch** | **Scalable Kronecker-Fisher Approximation: Efficient Hessian Analysis for Billion-Parameter Language Models Compression** | arXiv 2026 | quantization / sparsity / compression / Hessian-Fisher analysis | [Link](https://arxiv.org/abs/2609.02451) | — |
 | **P1 · Watch** | **LookStep: Efficient Vision-Language Navigation with Linguistic Foresight and Event Driven Memory** | arXiv 2026 | VLA/WAM/Physical AI serving / embodied navigation / bounded memory | [Link](https://arxiv.org/abs/2609.02350) | [Repo](https://github.com/kunyang-YU/LookStep) |
 | **P1 · Watch** | **Efficient GUI Agents: A Systems Survey of Observation, Memory, Action, and Runtime Optimization** | arXiv 2026 / EMNLP 2026 workshop | efficient reasoning/agent systems / GUI agents / runtime optimization | [Link](https://arxiv.org/abs/2609.02309) | — |
 | **P1 · Watch** | **SCX Router: Streaming Zero-Shot Model Selection with a Decoder-KV Classifier and a Real-World Task Ontology** | arXiv 2026 | LLM serving / model routing / KV-cache reuse | [Link](https://arxiv.org/abs/2609.02292) | — |
 | **P1 · Watch** | **GeoSPRINT: Geometric Redundancy-Aware Step Pruning for Inference in Diffusion Trajectories** | arXiv 2026 | diffusion/flow acceleration / inference-step pruning | [Link](https://arxiv.org/abs/2609.02160) | — |
 | **P1 · Watch** | **XMerge: Cross-Axis Selection and Reconstructive Layer Merging for LLM Depth Compression** | arXiv 2026 | sparsity/pruning / LLM compression / serving | [Link](https://arxiv.org/abs/2609.02083) | — |
+| **P1 · Watch** | **Modeling What Changes: Sparse, Residual World Models for Object-Centric Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving / sparse world models / object-centric prediction | [Link](https://arxiv.org/abs/2609.02046) | — |
 | **P1 · Watch** | **HeadWiseKV: Budgeted Per-Head Cache Residency for Hybrid Long-Context Language Models** | arXiv 2026 | KV cache/long-context / LLM serving | [Link](https://arxiv.org/abs/2609.02029) | — |
 | **P1 · Watch** | **Post-Training Ternarization of Qwen3-4B Capability, Effective Bit Budget, Storage Compression, and Deployment** | arXiv 2026 | quantization / LLM deployment / edge systems | [Link](https://arxiv.org/abs/2609.01962) | — |
 | **P1 · Watch** | **Network-Aware Forecasting on Wireless Access Points** | arXiv 2026 | edge/cloud/heterogeneous AI systems / on-device inference / resource contention | [Link](https://arxiv.org/abs/2609.01957) | — |

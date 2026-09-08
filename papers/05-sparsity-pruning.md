@@ -1,10 +1,10 @@
 # 05 · Sparsity / Pruning
 
-> **253 canonical papers** mapped here, plus a broader **75-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **253 canonical papers** mapped here, plus a broader **77-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 75 tracked
+## 🆕 Latest 30 Days · 77 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -20,8 +20,10 @@
 | **P1 · Watch** | **Who Speaks for the Pruned? Visual Token Pruning as Coverage Optimization** | arXiv 2026 | multimodal/MLLM serving / sparsity/pruning / visual token pruning | [Link](https://arxiv.org/abs/2609.03158) | — |
 | **P0 · Strong** | **LeanStream: A Speculate-and-Refine Streaming Framework for Efficient on-Device LLM Inference** | MobiCom 2026 | edge/cloud/heterogeneous AI systems / on-device LLM inference / storage offload / sparse execution | [Link](https://arxiv.org/abs/2609.03079) | — |
 | **P1 · Watch** | **Debias-SparseGPT: Bias-Aware Pruning for Large Language Models** | arXiv 2026 | sparsity/pruning / LLM compression | [Link](https://arxiv.org/abs/2609.02496) | — |
+| **P1 · Watch** | **Scalable Kronecker-Fisher Approximation: Efficient Hessian Analysis for Billion-Parameter Language Models Compression** | arXiv 2026 | quantization / sparsity / compression / Hessian-Fisher analysis | [Link](https://arxiv.org/abs/2609.02451) | — |
 | **P1 · Watch** | **GeoSPRINT: Geometric Redundancy-Aware Step Pruning for Inference in Diffusion Trajectories** | arXiv 2026 | diffusion/flow acceleration / inference-step pruning | [Link](https://arxiv.org/abs/2609.02160) | — |
 | **P1 · Watch** | **XMerge: Cross-Axis Selection and Reconstructive Layer Merging for LLM Depth Compression** | arXiv 2026 | sparsity/pruning / LLM compression / serving | [Link](https://arxiv.org/abs/2609.02083) | — |
+| **P1 · Watch** | **Modeling What Changes: Sparse, Residual World Models for Object-Centric Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving / sparse world models / object-centric prediction | [Link](https://arxiv.org/abs/2609.02046) | — |
 | **P0 · Strong** | **CRISP: Cliff-awaRe Input-adaptive Sparse Prefilling with Structural-Mass-Motivated Routing** | CoRR 2026 | efficient attention / sparse prefilling / long-context LLM inference / routing | [Link](https://arxiv.org/abs/2609.01925) | — |
 | **P1 · Watch** | **ClusterAttention: A training-free speedup of bidirectional attention** | Fresh / preprint | efficient attention / sparse attention / video generation | [Link](https://arxiv.org/abs/2608.26965) | — |
 | **P1 · Watch** | **E2S-Pruner: Progressive Two-Stage Evidence Fusion for Visual Token Pruning in Vision-Language Models** | Fresh / preprint | visual token pruning / MLLM inference / throughput acceleration | [Link](https://arxiv.org/abs/2608.23253) | — |

@@ -2445,6 +2445,27 @@
     ]
   },
   {
+    "title": "Almost Free State Prediction Separation",
+    "venue": "arXiv 2026",
+    "topic": "efficient reasoning/agent systems / LLM inference / KV-cache-neutral extra compute",
+    "arxiv": "2609.03807",
+    "doi": "",
+    "official_id": "arXiv:2609.03807",
+    "paper_url": "https://arxiv.org/abs/2609.03807",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Microsoft/Cornell free-pause-token method improves next-token prediction by 2-3 centinats on a 1B model while adding no context length, no KV cache, and essentially no inference latency; training overhead is reduced to about 1.14x. This is directly relevant to inference-efficient extra-compute/reasoning design.",
+    "published_at": "2026-09-03T13:12:47Z",
+    "updated_at": "2026-09-04T13:55:56Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "KV Cache / Long Context",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "AnchorKV: Anchor-Residual KV Cache Compression",
     "venue": "arXiv 2026",
     "topic": "KV cache/long-context / compression",

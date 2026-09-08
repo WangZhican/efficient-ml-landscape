@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-09",
   "window_start_beijing": "2026-08-10",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 422,
+  "tracked_total": 427,
   "p0_strong_or_canonical": [
     {
       "title": "Don't Drop Dropout: Optimizing Layer Sparsity for Efficient LLM Training and Inference",
@@ -435,6 +435,27 @@
       "directions": [
         "GPU Kernel / DSL / Compiler",
         "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "Almost Free State Prediction Separation",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / LLM inference / KV-cache-neutral extra compute",
+      "arxiv": "2609.03807",
+      "doi": "",
+      "official_id": "arXiv:2609.03807",
+      "paper_url": "https://arxiv.org/abs/2609.03807",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Microsoft/Cornell free-pause-token method improves next-token prediction by 2-3 centinats on a 1B model while adding no context length, no KV cache, and essentially no inference latency; training overhead is reduced to about 1.14x. This is directly relevant to inference-efficient extra-compute/reasoning design.",
+      "published_at": "2026-09-03T13:12:47Z",
+      "updated_at": "2026-09-04T13:55:56Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "KV Cache / Long Context",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -2170,6 +2191,27 @@
   ],
   "p1_watchlist": [
     {
+      "title": "Proton Irradiation Characterization of an Open-Source ML Accelerator on a Zynq UltraScale+ MPSoC",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / Physical AI / FPGA accelerator reliability",
+      "arxiv": "2609.05249",
+      "doi": "",
+      "official_id": "arXiv:2609.05249",
+      "paper_url": "https://arxiv.org/abs/2609.05249",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "System-level proton-irradiation study of an open-source Tensil neural-network accelerator on Zynq UltraScale+ running ResNet-20 inference, documenting availability loss and silent output corruption with implications for recovery and verifiable edge/space AI deployment. Important Physical-AI/edge accelerator reliability evidence, but not primarily an efficiency or acceleration contribution.",
+      "published_at": "2026-09-04T15:14:59Z",
+      "updated_at": "2026-09-04T15:14:59Z",
+      "is_latest_30d": true,
+      "directions": [
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "ACE: Adaptive Calibration-Free Expert Skipping for MoE-based LLMs",
       "venue": "arXiv 2026",
       "topic": "MoE systems/accelerators / adaptive expert skipping",
@@ -2668,6 +2710,28 @@
       ]
     },
     {
+      "title": "Flip, Don't Shuffle: Watermarking LLMs at the Speed of Inference",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / inference kernel / watermarking overhead",
+      "arxiv": "2609.03844",
+      "doi": "",
+      "official_id": "arXiv:2609.03844",
+      "paper_url": "https://arxiv.org/abs/2609.03844",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Stateless Bernoulli Watermarking reduces token membership to O(1), supports single-kernel execution with zero intermediate allocations and distributed inference, and reports <1% end-to-end generation overhead. Accepted at EMNLP 2026 Main, but watermarking is adjacent rather than a core serving primitive, so retain as high-value watch.",
+      "published_at": "2026-09-03T13:38:49Z",
+      "updated_at": "2026-09-03T13:38:49Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference"
+      ]
+    },
+    {
       "title": "Lngram v2: Latent N-Gram Memory with Interpretable Discrete Representations",
       "venue": "arXiv 2026",
       "topic": "KV cache/long-context / multimodal serving / conditional memory / efficient model architecture",
@@ -2837,6 +2901,28 @@
       ]
     },
     {
+      "title": "Scalable Kronecker-Fisher Approximation: Efficient Hessian Analysis for Billion-Parameter Language Models Compression",
+      "venue": "arXiv 2026",
+      "topic": "quantization / sparsity / compression / Hessian-Fisher analysis",
+      "arxiv": "2609.02451",
+      "doi": "",
+      "official_id": "arXiv:2609.02451",
+      "paper_url": "https://arxiv.org/abs/2609.02451",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Scalable Kronecker-based Fisher/Hessian approximation captures cross-layer sensitivity for billion-parameter models without materializing the full matrix and correlates with degradation/recovery under quantization and sparsification. Useful for mixed-precision and sparsity allocation, but current contribution is analysis/methodology rather than demonstrated end-to-end serving acceleration.",
+      "published_at": "2026-09-02T11:17:52Z",
+      "updated_at": "2026-09-02T11:17:52Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Sparsity / Pruning"
+      ]
+    },
+    {
       "title": "LookStep: Efficient Vision-Language Navigation with Linguistic Foresight and Event Driven Memory",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / embodied navigation / bounded memory",
@@ -2940,6 +3026,29 @@
       "directions": [
         "LLM Serving",
         "Sparsity / Pruning"
+      ]
+    },
+    {
+      "title": "Modeling What Changes: Sparse, Residual World Models for Object-Centric Manipulation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / sparse world models / object-centric prediction",
+      "arxiv": "2609.02046",
+      "doi": "",
+      "official_id": "arXiv:2609.02046",
+      "paper_url": "https://arxiv.org/abs/2609.02046",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Sparse change-gated residual world model predicts only changing objects, giving 8.6-11.1x fewer parameters and 2.5-4.6x better next-state pose accuracy than a dense baseline on 3-8 object MuJoCo pushing, with lower rollout drift and cross-object-count transfer. Strong Physical-AI efficiency signal, but planning success remains early and no deployment/runtime latency is shown, so retain as protected high-value watch.",
+      "published_at": "2026-09-02T03:20:09Z",
+      "updated_at": "2026-09-02T03:20:09Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -9593,6 +9702,27 @@
       ]
     },
     {
+      "title": "Almost Free State Prediction Separation",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / LLM inference / KV-cache-neutral extra compute",
+      "arxiv": "2609.03807",
+      "doi": "",
+      "official_id": "arXiv:2609.03807",
+      "paper_url": "https://arxiv.org/abs/2609.03807",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Microsoft/Cornell free-pause-token method improves next-token prediction by 2-3 centinats on a 1B model while adding no context length, no KV cache, and essentially no inference latency; training overhead is reduced to about 1.14x. This is directly relevant to inference-efficient extra-compute/reasoning design.",
+      "published_at": "2026-09-03T13:12:47Z",
+      "updated_at": "2026-09-04T13:55:56Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "KV Cache / Long Context",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "MINERVA: How Small Can a Manipulation Policy Be and Still Solve LIBERO?",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI / compact policy / deployment efficiency",
@@ -11323,6 +11453,27 @@
       ]
     },
     {
+      "title": "Proton Irradiation Characterization of an Open-Source ML Accelerator on a Zynq UltraScale+ MPSoC",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / Physical AI / FPGA accelerator reliability",
+      "arxiv": "2609.05249",
+      "doi": "",
+      "official_id": "arXiv:2609.05249",
+      "paper_url": "https://arxiv.org/abs/2609.05249",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "System-level proton-irradiation study of an open-source Tensil neural-network accelerator on Zynq UltraScale+ running ResNet-20 inference, documenting availability loss and silent output corruption with implications for recovery and verifiable edge/space AI deployment. Important Physical-AI/edge accelerator reliability evidence, but not primarily an efficiency or acceleration contribution.",
+      "published_at": "2026-09-04T15:14:59Z",
+      "updated_at": "2026-09-04T15:14:59Z",
+      "is_latest_30d": true,
+      "directions": [
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "ACE: Adaptive Calibration-Free Expert Skipping for MoE-based LLMs",
       "venue": "arXiv 2026",
       "topic": "MoE systems/accelerators / adaptive expert skipping",
@@ -11821,6 +11972,28 @@
       ]
     },
     {
+      "title": "Flip, Don't Shuffle: Watermarking LLMs at the Speed of Inference",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / inference kernel / watermarking overhead",
+      "arxiv": "2609.03844",
+      "doi": "",
+      "official_id": "arXiv:2609.03844",
+      "paper_url": "https://arxiv.org/abs/2609.03844",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Stateless Bernoulli Watermarking reduces token membership to O(1), supports single-kernel execution with zero intermediate allocations and distributed inference, and reports <1% end-to-end generation overhead. Accepted at EMNLP 2026 Main, but watermarking is adjacent rather than a core serving primitive, so retain as high-value watch.",
+      "published_at": "2026-09-03T13:38:49Z",
+      "updated_at": "2026-09-03T13:38:49Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference"
+      ]
+    },
+    {
       "title": "Lngram v2: Latent N-Gram Memory with Interpretable Discrete Representations",
       "venue": "arXiv 2026",
       "topic": "KV cache/long-context / multimodal serving / conditional memory / efficient model architecture",
@@ -11990,6 +12163,28 @@
       ]
     },
     {
+      "title": "Scalable Kronecker-Fisher Approximation: Efficient Hessian Analysis for Billion-Parameter Language Models Compression",
+      "venue": "arXiv 2026",
+      "topic": "quantization / sparsity / compression / Hessian-Fisher analysis",
+      "arxiv": "2609.02451",
+      "doi": "",
+      "official_id": "arXiv:2609.02451",
+      "paper_url": "https://arxiv.org/abs/2609.02451",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Scalable Kronecker-based Fisher/Hessian approximation captures cross-layer sensitivity for billion-parameter models without materializing the full matrix and correlates with degradation/recovery under quantization and sparsification. Useful for mixed-precision and sparsity allocation, but current contribution is analysis/methodology rather than demonstrated end-to-end serving acceleration.",
+      "published_at": "2026-09-02T11:17:52Z",
+      "updated_at": "2026-09-02T11:17:52Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Sparsity / Pruning"
+      ]
+    },
+    {
       "title": "LookStep: Efficient Vision-Language Navigation with Linguistic Foresight and Event Driven Memory",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / embodied navigation / bounded memory",
@@ -12093,6 +12288,29 @@
       "directions": [
         "LLM Serving",
         "Sparsity / Pruning"
+      ]
+    },
+    {
+      "title": "Modeling What Changes: Sparse, Residual World Models for Object-Centric Manipulation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / sparse world models / object-centric prediction",
+      "arxiv": "2609.02046",
+      "doi": "",
+      "official_id": "arXiv:2609.02046",
+      "paper_url": "https://arxiv.org/abs/2609.02046",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Sparse change-gated residual world model predicts only changing objects, giving 8.6-11.1x fewer parameters and 2.5-4.6x better next-state pose accuracy than a dense baseline on 3-8 object MuJoCo pushing, with lower rollout drift and cross-object-count transfer. Strong Physical-AI efficiency signal, but planning success remains early and no deployment/runtime latency is shown, so retain as protected high-value watch.",
+      "published_at": "2026-09-02T03:20:09Z",
+      "updated_at": "2026-09-02T03:20:09Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {

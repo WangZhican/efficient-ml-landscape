@@ -1,13 +1,14 @@
 # 14 · VLA / WAM / Physical AI
 
-> **116 canonical papers** mapped here, plus a broader **80-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **116 canonical papers** mapped here, plus a broader **82-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 80 tracked
+## 🆕 Latest 30 Days · 82 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
+| **P1 · Watch** | **Proton Irradiation Characterization of an Open-Source ML Accelerator on a Zynq UltraScale+ MPSoC** | arXiv 2026 | edge/cloud/heterogeneous AI systems / Physical AI / FPGA accelerator reliability | [Link](https://arxiv.org/abs/2609.05249) | — |
 | **P1 · Watch** | **APEX-RBD: Mixed-Precision Exploration Framework for Hardware-Efficient Robot Dynamics Accelerator Design** | arXiv 2026 | VLA/WAM/Physical AI serving / robot accelerator / mixed precision / edge hardware | [Link](https://arxiv.org/abs/2609.05161) | — |
 | **P1 · Watch** | **Reasoning Without Inference Cost: Latent Semantic Scaffolding for Robot VLA Policies** | arXiv 2026 | VLA/WAM/Physical AI serving / zero-overhead reasoning / deployment efficiency | [Link](https://arxiv.org/abs/2609.04893) | — |
 | **P1 · Watch** | **Coupled Control and Wireless World Models for Resilient Remote Robotic Control** | arXiv 2026 | VLA/WAM/Physical AI serving / cloud-edge robotics / communication-aware world models | [Link](https://arxiv.org/abs/2609.04851) | — |
@@ -20,6 +21,7 @@
 | **P1 · Watch** | **GPU-Accelerated Astrodynamics World Models for Spacecraft Rendezvous and Proximity Operations** | arXiv 2026 | VLA/WAM/Physical AI serving / world models / GPU simulation | [Link](https://arxiv.org/abs/2609.03067) | — |
 | **P1 · Watch** | **LookStep: Efficient Vision-Language Navigation with Linguistic Foresight and Event Driven Memory** | arXiv 2026 | VLA/WAM/Physical AI serving / embodied navigation / bounded memory | [Link](https://arxiv.org/abs/2609.02350) | [Repo](https://github.com/kunyang-YU/LookStep) |
 | **P0 · Strong** | **Hardware-Accelerated Instance Segmentation for Resource-Constrained Space Robotics with Criticality Analysis** | arXiv 2026 | VLA/WAM/Physical AI serving / edge accelerator / quantization / reliable robotics inference | [Link](https://arxiv.org/abs/2609.02219) | — |
+| **P1 · Watch** | **Modeling What Changes: Sparse, Residual World Models for Object-Centric Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving / sparse world models / object-centric prediction | [Link](https://arxiv.org/abs/2609.02046) | — |
 | **P2 · Relevant** | **StreamPI: Streaming Multimodal Temporal Modeling for Vision-Language-Action Models** | Fresh / preprint | Physical AI / VLA streaming | [Link](https://arxiv.org/abs/2608.26067) | — |
 | **P1 · Watch** | **Fast Generative Grasping via Lie Group-Constrained MeanFlow** | Fresh / preprint | Physical AI / flow acceleration / robotic grasping | [Link](https://arxiv.org/abs/2608.26076) | — |
 | **P1 · Watch** | **Latent Action as Intention Enables Efficient Future Imagination for World Action Models** | Fresh / preprint | Physical AI / WAM / latent action / inference latency | [Link](https://arxiv.org/abs/2608.24882) | — |

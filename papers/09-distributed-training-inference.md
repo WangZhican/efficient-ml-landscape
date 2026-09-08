@@ -1,10 +1,10 @@
 # 09 · Distributed Training / Inference
 
-> **307 canonical papers** mapped here, plus a broader **48-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **307 canonical papers** mapped here, plus a broader **49-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 48 tracked
+## 🆕 Latest 30 Days · 49 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -17,6 +17,7 @@
 | **P0 · Strong** | **Tuning Collective Patterns to Alleviate Congestion in Shared AI Clusters** | arXiv 2026 | distributed training/inference / AI-cluster networking / collectives | [Link](https://arxiv.org/abs/2609.04417) | — |
 | **P0 · Strong** | **Para-Pipe: Exploiting Hierarchical Operator Parallelism of ML Computational Graphs on SoCs** | IEEE TCAD 2025 | edge/cloud/heterogeneous AI systems / SoC mapping / operator parallelism | [Link](https://arxiv.org/abs/2609.04168) | — |
 | **P0 · Strong** | **Every Kernel Is a Join: Automatic Multi-GPU Parallelism for AI Computations in Einsummable** | arXiv 2026 | distributed training/inference / GPU systems / compiler | [Link](https://arxiv.org/abs/2609.03905) | — |
+| **P1 · Watch** | **Flip, Don't Shuffle: Watermarking LLMs at the Speed of Inference** | arXiv 2026 | LLM serving / inference kernel / watermarking overhead | [Link](https://arxiv.org/abs/2609.03844) | — |
 | **P0 · Strong** | **RASER: Resilient Agent Scheduling and Execution Runtime for HPC Clusters** | CoRR 2026 | efficient reasoning/agent systems / HPC scheduling / resilient runtime | [Link](https://arxiv.org/abs/2609.03598) | — |
 | **P0 · Strong** | **BASP: Communication-Efficient Batch-Aware Sequence Parallelism for LLM Training** | arXiv 2026 | distributed training/inference / long-context training / sequence parallelism | [Link](https://arxiv.org/abs/2609.03151) | — |
 | **P0 · Strong** | **AceSpec: An Asymmetric Edge-Cloud Collaborative Framework for Communication-Efficient LLM Inference** | CoRR 2026 | speculative decoding / edge-cloud LLM inference / distributed inference / communication efficiency | [Link](https://arxiv.org/abs/2609.02514) | — |

@@ -1,13 +1,14 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **342 canonical papers** mapped here, plus a broader **129-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **342 canonical papers** mapped here, plus a broader **130-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 129 tracked
+## 🆕 Latest 30 Days · 130 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
+| **P1 · Watch** | **Proton Irradiation Characterization of an Open-Source ML Accelerator on a Zynq UltraScale+ MPSoC** | arXiv 2026 | edge/cloud/heterogeneous AI systems / Physical AI / FPGA accelerator reliability | [Link](https://arxiv.org/abs/2609.05249) | — |
 | **P1 · Watch** | **APEX-RBD: Mixed-Precision Exploration Framework for Hardware-Efficient Robot Dynamics Accelerator Design** | arXiv 2026 | VLA/WAM/Physical AI serving / robot accelerator / mixed precision / edge hardware | [Link](https://arxiv.org/abs/2609.05161) | — |
 | **P1 · Watch** | **Deep Microcompression: Structured Pruning and Bit-packed Quantization for Microcontrollers** | arXiv 2026 | edge/cloud/heterogeneous AI systems / microcontroller inference / pruning / quantization | [Link](https://arxiv.org/abs/2609.05081) | — |
 | **P1 · Watch** | **GreenPipe: Power Modeling for Containerized DNN Inference on Kubernetes Edge Nodes** | arXiv 2026 | edge/cloud heterogeneous AI systems / Kubernetes inference / online power modeling / energy-aware serving | [Link](https://arxiv.org/abs/2609.04952) | — |
