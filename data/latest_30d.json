@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-08",
   "window_start_beijing": "2026-08-09",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 448,
+  "tracked_total": 450,
   "p0_strong_or_canonical": [
     {
       "title": "Don't Drop Dropout: Optimizing Layer Sparsity for Efficient LLM Training and Inference",
@@ -3587,6 +3587,32 @@
       ]
     },
     {
+      "title": "Diffusion Language Models for Mobile Edge Agentic AI: Foundations, Applications, and Challenges",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / diffusion language models / edge-cloud serving / mobile edge AI",
+      "arxiv": "2609.04778",
+      "doi": "",
+      "official_id": "arXiv:2609.04778",
+      "paper_url": "https://arxiv.org/abs/2609.04778",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "30d edge/agent replay recovered a systems-oriented survey absent from the authority union. It connects DLM parallel refinement and quality-latency elasticity to edge constraints including memory, energy, bandwidth, split inference, communication-aware serving, long-context state, and multimodal grounding. High lineage value, but its primary contribution is survey/taxonomy rather than a new runtime mechanism, so retain as high-value watch.",
+      "published_at": "2026-09-04T06:16:49Z",
+      "updated_at": "2026-09-04T06:16:49Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Distributed Training / Inference",
+        "Multimodal / MLLM Serving",
+        "Diffusion / Flow Acceleration",
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Compile by Training: Turning Natural-Language Specifications into Local Neural Functions",
       "venue": "arXiv 2026",
       "topic": "efficient reasoning/agent systems / local inference / distillation",
@@ -3712,6 +3738,28 @@
         "LLM Serving",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Drift-Aware LLM Routing with Sparse Contexts and Shared Budgets",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / multi-model routing / nonstationary workloads / resource budgets",
+      "arxiv": "2609.00662",
+      "doi": "",
+      "official_id": "arXiv:2609.00662",
+      "paper_url": "https://arxiv.org/abs/2609.00662",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "30d edge/heterogeneous replay recovered a relevant multi-model routing formulation absent from authority. DRS handles high-dimensional sparse prompt contexts, workload/model-frontier drift, multiple compute/latency/memory/cost budgets, online shadow prices, and hard admission meters. The contribution is currently theory-heavy with limited production-runtime evidence, so retain as high-value watch rather than canonical-high.",
+      "published_at": "2026-09-01T03:39:59Z",
+      "updated_at": "2026-09-01T03:39:59Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -13339,6 +13387,32 @@
       ]
     },
     {
+      "title": "Diffusion Language Models for Mobile Edge Agentic AI: Foundations, Applications, and Challenges",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / diffusion language models / edge-cloud serving / mobile edge AI",
+      "arxiv": "2609.04778",
+      "doi": "",
+      "official_id": "arXiv:2609.04778",
+      "paper_url": "https://arxiv.org/abs/2609.04778",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "30d edge/agent replay recovered a systems-oriented survey absent from the authority union. It connects DLM parallel refinement and quality-latency elasticity to edge constraints including memory, energy, bandwidth, split inference, communication-aware serving, long-context state, and multimodal grounding. High lineage value, but its primary contribution is survey/taxonomy rather than a new runtime mechanism, so retain as high-value watch.",
+      "published_at": "2026-09-04T06:16:49Z",
+      "updated_at": "2026-09-04T06:16:49Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Distributed Training / Inference",
+        "Multimodal / MLLM Serving",
+        "Diffusion / Flow Acceleration",
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Compile by Training: Turning Natural-Language Specifications into Local Neural Functions",
       "venue": "arXiv 2026",
       "topic": "efficient reasoning/agent systems / local inference / distillation",
@@ -13464,6 +13538,28 @@
         "LLM Serving",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Drift-Aware LLM Routing with Sparse Contexts and Shared Budgets",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / multi-model routing / nonstationary workloads / resource budgets",
+      "arxiv": "2609.00662",
+      "doi": "",
+      "official_id": "arXiv:2609.00662",
+      "paper_url": "https://arxiv.org/abs/2609.00662",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "30d edge/heterogeneous replay recovered a relevant multi-model routing formulation absent from authority. DRS handles high-dimensional sparse prompt contexts, workload/model-frontier drift, multiple compute/latency/memory/cost budgets, online shadow prices, and hard admission meters. The contribution is currently theory-heavy with limited production-runtime evidence, so retain as high-value watch rather than canonical-high.",
+      "published_at": "2026-09-01T03:39:59Z",
+      "updated_at": "2026-09-01T03:39:59Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
