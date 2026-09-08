@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-08",
   "window_start_beijing": "2026-08-09",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 443,
+  "tracked_total": 447,
   "p0_strong_or_canonical": [
     {
       "title": "Don't Drop Dropout: Optimizing Layer Sparsity for Efficient LLM Training and Inference",
@@ -1024,6 +1024,30 @@
       "directions": [
         "KV Cache / Long Context",
         "Quantization"
+      ]
+    },
+    {
+      "title": "DRLM: Deep Reinforcement Learning-Based LLM Query Orchestration in Edge Environments",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud heterogeneous AI systems / LLM serving / query orchestration / model-device-quantization routing",
+      "arxiv": "2609.00442",
+      "doi": "",
+      "official_id": "arXiv:2609.00442",
+      "paper_url": "https://arxiv.org/abs/2609.00442",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "30d edge/heterogeneous replay recovered a direct LLM serving orchestration paper absent from authority. DRLM combines class-conditioned quality and configuration-aware latency predictors with factorized PPO for state-aware model-device-quantization routing; a 64-node edge-cluster evaluation reports up to 51% inference-latency and 67% queuing-delay reduction with at most 8% accuracy loss.",
+      "published_at": "2026-08-31T22:26:56Z",
+      "updated_at": "2026-08-31T22:26:56Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -2157,6 +2181,28 @@
         "Quantization",
         "Distributed Training / Inference",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Squeezing the Cache, Preserving the Truth: Monotonic Equipotential Allocation with Geodesia-KV",
+      "venue": "arXiv 2026",
+      "topic": "KV cache / long-context / mixed-precision cache / sparse reading / vLLM runtime",
+      "arxiv": "2608.23599",
+      "doi": "",
+      "official_id": "arXiv:2608.23599",
+      "paper_url": "https://arxiv.org/abs/2608.23599",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "30d KV-runtime replay recovered a hardware-ready cache-management paper absent from authority. Geodesia-KV separates resident bits from read bandwidth, combines monotonic block-wise precision demotion with rate-distortion residuals and query-sparse reads, and ships as a native vLLM GeodesiaKVCacheManager; consumer-hardware results include 1M-token generation on a 16-GiB GPU and up to 71.7% peak-VRAM savings.",
+      "published_at": "2026-08-19T08:04:29Z",
+      "updated_at": "2026-08-19T08:04:29Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "KV Cache / Long Context",
+        "Sparsity / Pruning",
+        "GPU Kernel / DSL / Compiler"
       ]
     },
     {
@@ -3385,6 +3431,29 @@
       ]
     },
     {
+      "title": "VoxZip: Semantic-Anchored Temporal KV Cache Compression for Long-Context Audio Inference",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / long-context audio / KV cache compression / throughput and memory",
+      "arxiv": "2608.08569",
+      "doi": "",
+      "official_id": "arXiv:2608.08569",
+      "paper_url": "https://arxiv.org/abs/2608.08569",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "30d multimodal-KV replay recovered a direct long-context inference efficiency paper absent from authority. VoxZip uses ASR semantic anchors to align/compress/fuse audio tokens and temporally decayed accumulated-attention filtering for later eviction; on Qwen3-Omni it retains over 90% baseline quality at 20x KV compression and reports 1.9x inference throughput plus 3.3x lower peak memory at 4x compression.",
+      "published_at": "2026-08-09T08:17:18Z",
+      "updated_at": "2026-08-09T08:17:18Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Efficient Attention",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
       "title": "FlashBoot: Sub-Second Weight Loading for Large Models at Rack Scale",
       "venue": "Fresh / preprint",
       "topic": "LLM serving / MoE systems / rack-scale runtime",
@@ -3642,6 +3711,31 @@
       "directions": [
         "LLM Serving",
         "Video / Image Generation",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "TuringLLM: Efficiently Scaling Foundation Models Toward Physical AI",
+      "venue": "arXiv 2026",
+      "topic": "Physical AI / efficient foundation model / MoE routing / hybrid attention / long-context inference",
+      "arxiv": "2608.30567",
+      "doi": "",
+      "official_id": "arXiv:2608.30567",
+      "paper_url": "https://arxiv.org/abs/2608.30567",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI replay recovered a current efficiency-oriented foundation-model report absent from authority/watch. Turing-20B-A2B activates about 2B of 20B parameters, uses dynamic quantile top-k routing plus capacity-constrained prefill and hybrid Lightning/full attention for long-context latency scaling. Retained as high-value watch because the primary contribution is model architecture/training rather than a standalone serving/runtime mechanism.",
+      "published_at": "2026-08-31T10:42:35Z",
+      "updated_at": "2026-08-31T10:42:35Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Quantization",
+        "Efficient Attention",
+        "MoE Systems / Accelerators",
         "VLA / WAM / Physical AI"
       ]
     },
@@ -10665,6 +10759,30 @@
       ]
     },
     {
+      "title": "DRLM: Deep Reinforcement Learning-Based LLM Query Orchestration in Edge Environments",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud heterogeneous AI systems / LLM serving / query orchestration / model-device-quantization routing",
+      "arxiv": "2609.00442",
+      "doi": "",
+      "official_id": "arXiv:2609.00442",
+      "paper_url": "https://arxiv.org/abs/2609.00442",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "30d edge/heterogeneous replay recovered a direct LLM serving orchestration paper absent from authority. DRLM combines class-conditioned quality and configuration-aware latency predictors with factorized PPO for state-aware model-device-quantization routing; a 64-node edge-cluster evaluation reports up to 51% inference-latency and 67% queuing-delay reduction with at most 8% accuracy loss.",
+      "published_at": "2026-08-31T22:26:56Z",
+      "updated_at": "2026-08-31T22:26:56Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "DynaNDE: Dynamic Near-Data Expert Scheduling for Batched MoE Inference",
       "venue": "arXiv 2026",
       "topic": "MoE systems / accelerators / heterogeneous inference",
@@ -11795,6 +11913,28 @@
         "Quantization",
         "Distributed Training / Inference",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Squeezing the Cache, Preserving the Truth: Monotonic Equipotential Allocation with Geodesia-KV",
+      "venue": "arXiv 2026",
+      "topic": "KV cache / long-context / mixed-precision cache / sparse reading / vLLM runtime",
+      "arxiv": "2608.23599",
+      "doi": "",
+      "official_id": "arXiv:2608.23599",
+      "paper_url": "https://arxiv.org/abs/2608.23599",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "30d KV-runtime replay recovered a hardware-ready cache-management paper absent from authority. Geodesia-KV separates resident bits from read bandwidth, combines monotonic block-wise precision demotion with rate-distortion residuals and query-sparse reads, and ships as a native vLLM GeodesiaKVCacheManager; consumer-hardware results include 1M-token generation on a 16-GiB GPU and up to 71.7% peak-VRAM savings.",
+      "published_at": "2026-08-19T08:04:29Z",
+      "updated_at": "2026-08-19T08:04:29Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "KV Cache / Long Context",
+        "Sparsity / Pruning",
+        "GPU Kernel / DSL / Compiler"
       ]
     },
     {
@@ -13023,6 +13163,29 @@
       ]
     },
     {
+      "title": "VoxZip: Semantic-Anchored Temporal KV Cache Compression for Long-Context Audio Inference",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / long-context audio / KV cache compression / throughput and memory",
+      "arxiv": "2608.08569",
+      "doi": "",
+      "official_id": "arXiv:2608.08569",
+      "paper_url": "https://arxiv.org/abs/2608.08569",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "30d multimodal-KV replay recovered a direct long-context inference efficiency paper absent from authority. VoxZip uses ASR semantic anchors to align/compress/fuse audio tokens and temporally decayed accumulated-attention filtering for later eviction; on Qwen3-Omni it retains over 90% baseline quality at 20x KV compression and reports 1.9x inference throughput plus 3.3x lower peak memory at 4x compression.",
+      "published_at": "2026-08-09T08:17:18Z",
+      "updated_at": "2026-08-09T08:17:18Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Efficient Attention",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
       "title": "FlashBoot: Sub-Second Weight Loading for Large Models at Rack Scale",
       "venue": "Fresh / preprint",
       "topic": "LLM serving / MoE systems / rack-scale runtime",
@@ -13278,6 +13441,31 @@
       "directions": [
         "LLM Serving",
         "Video / Image Generation",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "TuringLLM: Efficiently Scaling Foundation Models Toward Physical AI",
+      "venue": "arXiv 2026",
+      "topic": "Physical AI / efficient foundation model / MoE routing / hybrid attention / long-context inference",
+      "arxiv": "2608.30567",
+      "doi": "",
+      "official_id": "arXiv:2608.30567",
+      "paper_url": "https://arxiv.org/abs/2608.30567",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI replay recovered a current efficiency-oriented foundation-model report absent from authority/watch. Turing-20B-A2B activates about 2B of 20B parameters, uses dynamic quantile top-k routing plus capacity-constrained prefill and hybrid Lightning/full attention for long-context latency scaling. Retained as high-value watch because the primary contribution is model architecture/training rather than a standalone serving/runtime mechanism.",
+      "published_at": "2026-08-31T10:42:35Z",
+      "updated_at": "2026-08-31T10:42:35Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Quantization",
+        "Efficient Attention",
+        "MoE Systems / Accelerators",
         "VLA / WAM / Physical AI"
       ]
     },
