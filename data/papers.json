@@ -2533,6 +2533,27 @@
     ]
   },
   {
+    "title": "BrainWAM: Action-Space Coordination of Semantic Priors and Predictive Dynamics for Autonomous Driving",
+    "venue": "arXiv 2026",
+    "topic": "Physical AI / WAM / autonomous driving / asynchronous rectified-flow inference / action-space coordination",
+    "arxiv": "2608.12854",
+    "doi": "",
+    "official_id": "arXiv:2608.12854",
+    "paper_url": "https://arxiv.org/abs/2608.12854",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Protected 30d Physical-AI/WAM replay recovered a direct inference-efficiency mechanism absent from authority/watch. BrainWAM keeps semantic VLA priors and predictive world dynamics in specialized action-oriented pathways, then introduces asynchronous rectified-flow inference that decouples video and action denoising to shorten inference latency while preserving planning-relevant predictive context.",
+    "published_at": "2026-08-13T05:56:17Z",
+    "updated_at": "2026-08-19T15:52:04Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Diffusion / Flow Acceleration",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "CacheBridge: Efficient Cross-Model KV Cache Transfer",
     "venue": "arXiv 2026",
     "topic": "KV cache / multi-model serving / GPU kernel",
