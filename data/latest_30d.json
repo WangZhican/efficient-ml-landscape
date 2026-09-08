@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-09",
   "window_start_beijing": "2026-08-10",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 396,
+  "tracked_total": 402,
   "p0_strong_or_canonical": [
     {
       "title": "Don't Drop Dropout: Optimizing Layer Sparsity for Efficient LLM Training and Inference",
@@ -962,6 +962,26 @@
         "LLM Serving",
         "GPU Kernel / DSL / Compiler",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Predict, Don't Iterate: Efficient Adaptive-Length Infilling for Diffusion Language Models",
+      "venue": "arXiv 2026",
+      "topic": "diffusion language models / inference acceleration / adaptive decoding",
+      "arxiv": "2609.02108",
+      "doi": "",
+      "official_id": "arXiv:2609.02108",
+      "paper_url": "https://arxiv.org/abs/2609.02108",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "PILL removes preset-length search and avoids repeated multi-step denoising confidence probes for DLM infilling; across five DLMs and eight benchmarks it improves quality while running 1.82x faster than the strongest dynamic-length baseline.",
+      "published_at": "2026-09-02T04:52:01Z",
+      "updated_at": "2026-09-02T04:52:01Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Diffusion / Flow Acceleration"
       ]
     },
     {
@@ -2127,6 +2147,49 @@
       ]
     },
     {
+      "title": "Compact-Memory LLM Agents via Online Max-Member Clustering and Atom-Aware Packing",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / memory compression / long-horizon agents",
+      "arxiv": "2609.04915",
+      "doi": "",
+      "official_id": "arXiv:2609.04915",
+      "paper_url": "https://arxiv.org/abs/2609.04915",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Online clustered memory reaches 83% of full-context quality at 32% of token cost under a 4k budget and improves over streaming-cluster baselines; relevant to efficient long-horizon agents, though current evidence is token-budget efficiency rather than serving-system latency.",
+      "published_at": "2026-09-04T09:19:00Z",
+      "updated_at": "2026-09-04T09:19:00Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Fast Gauss Sums via Flash Attention",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / efficient attention reuse",
+      "arxiv": "2609.04910",
+      "doi": "",
+      "official_id": "arXiv:2609.04910",
+      "paper_url": "https://arxiv.org/abs/2609.04910",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Maps arbitrary signed Gaussian kernel sums onto FlashAttention using small input augmentations, outperforming compiled PyTorch and PyKeOps for D>8 in fp16 while keeping linear memory scaling; useful kernel-reuse result, but it targets kernel methods rather than mainstream AI-inference workloads.",
+      "published_at": "2026-09-04T09:11:45Z",
+      "updated_at": "2026-09-04T09:11:45Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
       "title": "Cache-Aware Joint Router Adaptation for Memory-Efficient MoE Inference",
       "venue": "arXiv 2026",
       "topic": "MoE systems/accelerators / expert cache / router adaptation",
@@ -2166,6 +2229,29 @@
         "LLM Serving",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Coupled Control and Wireless World Models for Resilient Remote Robotic Control",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / cloud-edge robotics / communication-aware world models",
+      "arxiv": "2609.04851",
+      "doi": "",
+      "official_id": "arXiv:2609.04851",
+      "paper_url": "https://arxiv.org/abs/2609.04851",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Couples control and wireless JEPA world models to predict robot and channel state and schedule uplink transmissions, explicitly targeting communication-efficient remote robotic control; currently validated in Gazebo-ROS-Sionna simulation rather than production deployment.",
+      "published_at": "2026-09-04T08:09:55Z",
+      "updated_at": "2026-09-04T08:09:55Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -2260,6 +2346,27 @@
       "directions": [
         "LLM Serving",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Importance-Aware Low-Rank Distillation of Diffusion Transformers",
+      "venue": "arXiv 2026",
+      "topic": "diffusion/flow acceleration / model compression",
+      "arxiv": "2609.04646",
+      "doi": "",
+      "official_id": "arXiv:2609.04646",
+      "paper_url": "https://arxiv.org/abs/2609.04646",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "SVDtrunc allocates low-rank compression across DiT blocks and retains near-full FLUX.dev quality at 68% of original parameter count while remaining competitive at 57%; strong deployment-efficiency signal but no direct measured latency/throughput result in the primary abstract.",
+      "published_at": "2026-09-04T02:25:11Z",
+      "updated_at": "2026-09-04T02:25:11Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Diffusion / Flow Acceleration"
       ]
     },
     {
@@ -2449,6 +2556,27 @@
       "directions": [
         "Efficient Attention",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "SCX Router: Streaming Zero-Shot Model Selection with a Decoder-KV Classifier and a Real-World Task Ontology",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / model routing / KV-cache reuse",
+      "arxiv": "2609.02292",
+      "doi": "",
+      "official_id": "arXiv:2609.02292",
+      "paper_url": "https://arxiv.org/abs/2609.02292",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Lightweight 0.6B zero-shot inference router preserves decoder KV across sessions and evaluates transient candidate labels without polluting persistent cache; directly relevant to serving model selection, but current primary evidence emphasizes routing quality rather than end-to-end latency/cost measurements.",
+      "published_at": "2026-09-02T08:40:07Z",
+      "updated_at": "2026-09-02T08:40:07Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context"
       ]
     },
     {
@@ -9563,6 +9691,26 @@
       ]
     },
     {
+      "title": "Predict, Don't Iterate: Efficient Adaptive-Length Infilling for Diffusion Language Models",
+      "venue": "arXiv 2026",
+      "topic": "diffusion language models / inference acceleration / adaptive decoding",
+      "arxiv": "2609.02108",
+      "doi": "",
+      "official_id": "arXiv:2609.02108",
+      "paper_url": "https://arxiv.org/abs/2609.02108",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "PILL removes preset-length search and avoids repeated multi-step denoising confidence probes for DLM infilling; across five DLMs and eight benchmarks it improves quality while running 1.82x faster than the strongest dynamic-length baseline.",
+      "published_at": "2026-09-02T04:52:01Z",
+      "updated_at": "2026-09-02T04:52:01Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
       "title": "SelfLift: Accelerating Few-Step Diffusion via Self-Recovering Resolution Transition",
       "venue": "CoRR 2026",
       "topic": "diffusion/flow acceleration / progressive resolution / few-step generation",
@@ -10723,6 +10871,49 @@
       ]
     },
     {
+      "title": "Compact-Memory LLM Agents via Online Max-Member Clustering and Atom-Aware Packing",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / memory compression / long-horizon agents",
+      "arxiv": "2609.04915",
+      "doi": "",
+      "official_id": "arXiv:2609.04915",
+      "paper_url": "https://arxiv.org/abs/2609.04915",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Online clustered memory reaches 83% of full-context quality at 32% of token cost under a 4k budget and improves over streaming-cluster baselines; relevant to efficient long-horizon agents, though current evidence is token-budget efficiency rather than serving-system latency.",
+      "published_at": "2026-09-04T09:19:00Z",
+      "updated_at": "2026-09-04T09:19:00Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Fast Gauss Sums via Flash Attention",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / efficient attention reuse",
+      "arxiv": "2609.04910",
+      "doi": "",
+      "official_id": "arXiv:2609.04910",
+      "paper_url": "https://arxiv.org/abs/2609.04910",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Maps arbitrary signed Gaussian kernel sums onto FlashAttention using small input augmentations, outperforming compiled PyTorch and PyKeOps for D>8 in fp16 while keeping linear memory scaling; useful kernel-reuse result, but it targets kernel methods rather than mainstream AI-inference workloads.",
+      "published_at": "2026-09-04T09:11:45Z",
+      "updated_at": "2026-09-04T09:11:45Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
       "title": "Cache-Aware Joint Router Adaptation for Memory-Efficient MoE Inference",
       "venue": "arXiv 2026",
       "topic": "MoE systems/accelerators / expert cache / router adaptation",
@@ -10762,6 +10953,29 @@
         "LLM Serving",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Coupled Control and Wireless World Models for Resilient Remote Robotic Control",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / cloud-edge robotics / communication-aware world models",
+      "arxiv": "2609.04851",
+      "doi": "",
+      "official_id": "arXiv:2609.04851",
+      "paper_url": "https://arxiv.org/abs/2609.04851",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Couples control and wireless JEPA world models to predict robot and channel state and schedule uplink transmissions, explicitly targeting communication-efficient remote robotic control; currently validated in Gazebo-ROS-Sionna simulation rather than production deployment.",
+      "published_at": "2026-09-04T08:09:55Z",
+      "updated_at": "2026-09-04T08:09:55Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -10856,6 +11070,27 @@
       "directions": [
         "LLM Serving",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Importance-Aware Low-Rank Distillation of Diffusion Transformers",
+      "venue": "arXiv 2026",
+      "topic": "diffusion/flow acceleration / model compression",
+      "arxiv": "2609.04646",
+      "doi": "",
+      "official_id": "arXiv:2609.04646",
+      "paper_url": "https://arxiv.org/abs/2609.04646",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "SVDtrunc allocates low-rank compression across DiT blocks and retains near-full FLUX.dev quality at 68% of original parameter count while remaining competitive at 57%; strong deployment-efficiency signal but no direct measured latency/throughput result in the primary abstract.",
+      "published_at": "2026-09-04T02:25:11Z",
+      "updated_at": "2026-09-04T02:25:11Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Diffusion / Flow Acceleration"
       ]
     },
     {
@@ -11045,6 +11280,27 @@
       "directions": [
         "Efficient Attention",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "SCX Router: Streaming Zero-Shot Model Selection with a Decoder-KV Classifier and a Real-World Task Ontology",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / model routing / KV-cache reuse",
+      "arxiv": "2609.02292",
+      "doi": "",
+      "official_id": "arXiv:2609.02292",
+      "paper_url": "https://arxiv.org/abs/2609.02292",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Lightweight 0.6B zero-shot inference router preserves decoder KV across sessions and evaluates transient candidate labels without polluting persistent cache; directly relevant to serving model selection, but current primary evidence emphasizes routing quality rather than end-to-end latency/cost measurements.",
+      "published_at": "2026-09-02T08:40:07Z",
+      "updated_at": "2026-09-02T08:40:07Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context"
       ]
     },
     {

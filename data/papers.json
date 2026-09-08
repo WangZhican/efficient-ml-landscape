@@ -3985,6 +3985,26 @@
     ]
   },
   {
+    "title": "Predict, Don't Iterate: Efficient Adaptive-Length Infilling for Diffusion Language Models",
+    "venue": "arXiv 2026",
+    "topic": "diffusion language models / inference acceleration / adaptive decoding",
+    "arxiv": "2609.02108",
+    "doi": "",
+    "official_id": "arXiv:2609.02108",
+    "paper_url": "https://arxiv.org/abs/2609.02108",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "PILL removes preset-length search and avoids repeated multi-step denoising confidence probes for DLM infilling; across five DLMs and eight benchmarks it improves quality while running 1.82x faster than the strongest dynamic-length baseline.",
+    "published_at": "2026-09-02T04:52:01Z",
+    "updated_at": "2026-09-02T04:52:01Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "Q-ARVD: Quantizing Autoregressive Video Diffusion Models",
     "venue": "arXiv 2026",
     "topic": "video generation acceleration; autoregressive video diffusion; quantization; Triton kernels",
