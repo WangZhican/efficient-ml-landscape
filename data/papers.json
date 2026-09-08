@@ -2376,6 +2376,29 @@
     ]
   },
   {
+    "title": "Adaptive Context Parallelism for Production LLM Serving",
+    "venue": "arXiv 2026",
+    "topic": "LLM serving / context parallelism / adaptive placement / prefix cache / cluster reconfiguration",
+    "arxiv": "2609.04774",
+    "doi": "",
+    "official_id": "arXiv:2609.04774",
+    "paper_url": "https://arxiv.org/abs/2609.04774",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "30d distributed-serving replay recovered a direct production LLM serving paper absent from authority. Vertumnus routes requests among workers with different context-parallel degrees using queueing, cache-aware prefill, and GPU-time cost; it also performs seconds-scale split/merge reconfiguration and global prefix-cache coordination. A 64-GPU evaluation reports up to 28.1% lower mean TTFT and +13.3 percentage points token-weighted SLO attainment.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "Aero Realtime: Fully Aligned Input-Output Streams for Low-Latency Streaming Multimodal Generation",
     "venue": "arXiv 2026",
     "topic": "multimodal/MLLM serving / streaming generation / KV reuse / distributed training",
@@ -2482,6 +2505,28 @@
       "LLM Serving",
       "GPU Kernel / DSL / Compiler",
       "Efficient Reasoning / Agents",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Atlas: Optimizing Deployment of Compound AI Workflows on Heterogeneous Clusters",
+    "venue": "arXiv 2026",
+    "topic": "distributed inference / compound AI serving / heterogeneous clusters / SLO-aware deployment optimization",
+    "arxiv": "2609.04513",
+    "doi": "",
+    "official_id": "arXiv:2609.04513",
+    "paper_url": "https://arxiv.org/abs/2609.04513",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "30d distributed-inference replay recovered a systems paper absent from authority. Atlas predicts workflow-level accuracy from local conditional transitions, composes this with system profiles, and solves model-variant plus heterogeneous-hardware placement under SLO constraints; across four workflows it reports up to 0.947 Spearman correlation, 2.6x lower profiling cost than exhaustive profiling, and up to 42% lower deployment cost while matching oracle accuracy.",
+    "published_at": "2026-09-03T22:01:39Z",
+    "updated_at": "2026-09-03T22:01:39Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference",
       "Edge / Cloud / Heterogeneous AI"
     ]
   },

@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-08",
   "window_start_beijing": "2026-08-09",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 447,
+  "tracked_total": 448,
   "p0_strong_or_canonical": [
     {
       "title": "Don't Drop Dropout: Optimizing Layer Sparsity for Efficient LLM Training and Inference",
@@ -108,6 +108,28 @@
       "tracking_tier": "P0 · Strong",
       "directions": [
         "Quantization"
+      ]
+    },
+    {
+      "title": "Atlas: Optimizing Deployment of Compound AI Workflows on Heterogeneous Clusters",
+      "venue": "arXiv 2026",
+      "topic": "distributed inference / compound AI serving / heterogeneous clusters / SLO-aware deployment optimization",
+      "arxiv": "2609.04513",
+      "doi": "",
+      "official_id": "arXiv:2609.04513",
+      "paper_url": "https://arxiv.org/abs/2609.04513",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "30d distributed-inference replay recovered a systems paper absent from authority. Atlas predicts workflow-level accuracy from local conditional transitions, composes this with system profiles, and solves model-variant plus heterogeneous-hardware placement under SLO constraints; across four workflows it reports up to 0.947 Spearman correlation, 2.6x lower profiling cost than exhaustive profiling, and up to 42% lower deployment cost while matching oracle accuracy.",
+      "published_at": "2026-09-03T22:01:39Z",
+      "updated_at": "2026-09-03T22:01:39Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -9840,6 +9862,28 @@
       "tracking_tier": "P0 · Strong",
       "directions": [
         "Quantization"
+      ]
+    },
+    {
+      "title": "Atlas: Optimizing Deployment of Compound AI Workflows on Heterogeneous Clusters",
+      "venue": "arXiv 2026",
+      "topic": "distributed inference / compound AI serving / heterogeneous clusters / SLO-aware deployment optimization",
+      "arxiv": "2609.04513",
+      "doi": "",
+      "official_id": "arXiv:2609.04513",
+      "paper_url": "https://arxiv.org/abs/2609.04513",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "30d distributed-inference replay recovered a systems paper absent from authority. Atlas predicts workflow-level accuracy from local conditional transitions, composes this with system profiles, and solves model-variant plus heterogeneous-hardware placement under SLO constraints; across four workflows it reports up to 0.947 Spearman correlation, 2.6x lower profiling cost than exhaustive profiling, and up to 42% lower deployment cost while matching oracle accuracy.",
+      "published_at": "2026-09-03T22:01:39Z",
+      "updated_at": "2026-09-03T22:01:39Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
