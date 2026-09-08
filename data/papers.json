@@ -2532,6 +2532,29 @@
     ]
   },
   {
+    "title": "Atlas: Algorithm-Hardware Co-Design for On-Device City-Scale 3D Gaussian Splatting in VR",
+    "venue": "arXiv 2026",
+    "topic": "edge/cloud/heterogeneous AI systems / 3D Gaussian splatting / on-device rendering",
+    "arxiv": "2609.02352",
+    "doi": "",
+    "official_id": "arXiv:2609.02352",
+    "paper_url": "https://arxiv.org/abs/2609.02352",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Direct algorithm-hardware/runtime co-design for memory-constrained on-device 3DGS. Hierarchical offloading, temporal-aware LoD search and stereo rasterization yield 18.5x speedup over GPU baseline, 3.9x over prior 3DGS accelerators and 92.4% energy savings.",
+    "published_at": "2026-09-02T09:25:00Z",
+    "updated_at": "2026-09-02T09:25:00Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "KV Cache / Long Context",
+      "GPU Kernel / DSL / Compiler",
+      "Video / Image Generation",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Atlas: Optimizing Deployment of Compound AI Workflows on Heterogeneous Clusters",
     "venue": "arXiv 2026",
     "topic": "distributed inference / compound AI serving / heterogeneous clusters / SLO-aware deployment optimization",
@@ -2598,6 +2621,28 @@
       "Quantization",
       "GPU Kernel / DSL / Compiler",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "BASP: Communication-Efficient Batch-Aware Sequence Parallelism for LLM Training",
+    "venue": "arXiv 2026",
+    "topic": "distributed training/inference / long-context training / sequence parallelism",
+    "arxiv": "2609.03151",
+    "doi": "",
+    "official_id": "arXiv:2609.03151",
+    "paper_url": "https://arxiv.org/abs/2609.03151",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Direct distributed-training systems technique: batch-aware GPU grouping reduces all-to-all group size for sequence parallelism. A100-cluster experiments report 1.17-1.31x end-to-end training-time improvement for Llama/Qwen while preserving accuracy and memory usage.",
+    "published_at": "2026-09-02T20:33:23Z",
+    "updated_at": "2026-09-02T20:33:23Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "KV Cache / Long Context",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
     ]
   },
   {
@@ -2752,6 +2797,26 @@
     "directions": [
       "KV Cache / Long Context",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "CREDIT: Cost-guided Reduction-reuse with Efficient DSMEM Inter-CTA Tiling",
+    "venue": "arXiv 2026",
+    "topic": "GPU kernel/DSL/compilers / NVIDIA DSMEM / inter-CTA tiling",
+    "arxiv": "2609.01864",
+    "doi": "",
+    "official_id": "arXiv:2609.01864",
+    "paper_url": "https://arxiv.org/abs/2609.01864",
+    "code_url": "https://github.com/zhengxiongli08/CREDIT",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Direct GPU-kernel systems contribution accepted by HPEC 2026. Cost-guided DSMEM profitability model plus reduction-reuse transformation; beats torch.compile, Triton and optimized CUDA baselines on six workloads, with 1.466x geometric-mean speedup on RTX 5090 and 1.318x on H100; official source code is available.",
+    "published_at": "2026-09-01T20:54:29Z",
+    "updated_at": "2026-09-01T20:54:29Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {
@@ -3259,6 +3324,28 @@
     ]
   },
   {
+    "title": "Jina-OCR-v1: Efficient Document Parsing with Speculative Decoding and Dense Verifiable Rewards",
+    "venue": "arXiv 2026",
+    "topic": "multimodal/MLLM serving / speculative decoding / efficient OCR",
+    "arxiv": "2609.03181",
+    "doi": "",
+    "official_id": "arXiv:2609.03181",
+    "paper_url": "https://arxiv.org/abs/2609.03181",
+    "code_url": "https://huggingface.co/jinaai/jina-ocr-v1",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Deployment-oriented multimodal model explicitly built for low-budget GPUs. FastMTP recursively reuses one draft block for K=3 speculative steps with lossless greedy verification; on NVIDIA L4 it doubles decode speed and reaches 2.57 pages/s. Official model is public.",
+    "published_at": "2026-09-02T21:49:21Z",
+    "updated_at": "2026-09-02T21:49:21Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
     "title": "KAIROS: Stateful, Context-Aware Power-Efficient Agentic Inference Serving",
     "venue": "arXiv 2026",
     "topic": "agentic LLM serving; power efficiency; context-aware GPU DVFS; memory-aware scheduling; multi-instance routing",
@@ -3300,6 +3387,28 @@
       "LLM Serving",
       "Efficient Attention",
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Language Models Can Control Their Own Attention",
+    "venue": "arXiv 2026",
+    "topic": "efficient attention / KV cache / long-context inference / serving runtime",
+    "arxiv": "2609.02737",
+    "doi": "",
+    "official_id": "arXiv:2609.02737",
+    "paper_url": "https://arxiv.org/abs/2609.02737",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Introduces Declarative Attention: the model declares global/focus/local attention spans and the inference engine skips irrelevant KV-cache reads. Across 15 long-context tasks it reduces attended decode tokens by 52.0% and 31.1% on two off-the-shelf models; includes a vLLM-compatible block-masking runtime path.",
+    "published_at": "2026-09-02T15:43:38Z",
+    "updated_at": "2026-09-02T15:43:38Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Attention"
     ]
   },
   {
@@ -4182,6 +4291,27 @@
     "directions": [
       "LLM Serving",
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "Scalable Context Orchestration for Serving LLMs Over Voice",
+    "venue": "arXiv 2026",
+    "topic": "LLM serving / multimodal voice serving / context management middleware",
+    "arxiv": "2609.04288",
+    "doi": "",
+    "official_id": "arXiv:2609.04288",
+    "paper_url": "https://arxiv.org/abs/2609.04288",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Direct serving middleware for bounded voice-specific context and runtime directives. Real-world evaluation reports 79.2% lower model usage cost and up to 24.9x lower per-turn cost in long sessions while retaining up to 98.7% baseline answer quality.",
+    "published_at": "2026-09-03T09:27:00Z",
+    "updated_at": "2026-09-03T09:27:00Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving"
     ]
   },
   {

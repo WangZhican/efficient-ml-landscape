@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-09",
   "window_start_beijing": "2026-08-10",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 379,
+  "tracked_total": 390,
   "p0_strong_or_canonical": [
     {
       "title": "Don't Drop Dropout: Optimizing Layer Sparsity for Efficient LLM Training and Inference",
@@ -461,6 +461,27 @@
       ]
     },
     {
+      "title": "Scalable Context Orchestration for Serving LLMs Over Voice",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / multimodal voice serving / context management middleware",
+      "arxiv": "2609.04288",
+      "doi": "",
+      "official_id": "arXiv:2609.04288",
+      "paper_url": "https://arxiv.org/abs/2609.04288",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Direct serving middleware for bounded voice-specific context and runtime directives. Real-world evaluation reports 79.2% lower model usage cost and up to 24.9x lower per-turn cost in long sessions while retaining up to 98.7% baseline answer quality.",
+      "published_at": "2026-09-03T09:27:00Z",
+      "updated_at": "2026-09-03T09:27:00Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
       "title": "LeanGRPO: Eliminating Redundant Recomputation in Diffusion RL",
       "venue": "arXiv 2026",
       "topic": "diffusion/flow acceleration / efficient training / reasoning post-training",
@@ -636,6 +657,50 @@
       ]
     },
     {
+      "title": "Jina-OCR-v1: Efficient Document Parsing with Speculative Decoding and Dense Verifiable Rewards",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / speculative decoding / efficient OCR",
+      "arxiv": "2609.03181",
+      "doi": "",
+      "official_id": "arXiv:2609.03181",
+      "paper_url": "https://arxiv.org/abs/2609.03181",
+      "code_url": "https://huggingface.co/jinaai/jina-ocr-v1",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Deployment-oriented multimodal model explicitly built for low-budget GPUs. FastMTP recursively reuses one draft block for K=3 speculative steps with lossless greedy verification; on NVIDIA L4 it doubles decode speed and reaches 2.57 pages/s. Official model is public.",
+      "published_at": "2026-09-02T21:49:21Z",
+      "updated_at": "2026-09-02T21:49:21Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Speculative Decoding",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "BASP: Communication-Efficient Batch-Aware Sequence Parallelism for LLM Training",
+      "venue": "arXiv 2026",
+      "topic": "distributed training/inference / long-context training / sequence parallelism",
+      "arxiv": "2609.03151",
+      "doi": "",
+      "official_id": "arXiv:2609.03151",
+      "paper_url": "https://arxiv.org/abs/2609.03151",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Direct distributed-training systems technique: batch-aware GPU grouping reduces all-to-all group size for sequence parallelism. A100-cluster experiments report 1.17-1.31x end-to-end training-time improvement for Llama/Qwen while preserving accuracy and memory usage.",
+      "published_at": "2026-09-02T20:33:23Z",
+      "updated_at": "2026-09-02T20:33:23Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "KV Cache / Long Context",
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference"
+      ]
+    },
+    {
       "title": "LeanStream: A Speculate-and-Refine Streaming Framework for Efficient on-Device LLM Inference",
       "venue": "MobiCom 2026",
       "topic": "edge/cloud/heterogeneous AI systems / on-device LLM inference / storage offload / sparse execution",
@@ -699,6 +764,28 @@
       "directions": [
         "LLM Serving",
         "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "Language Models Can Control Their Own Attention",
+      "venue": "arXiv 2026",
+      "topic": "efficient attention / KV cache / long-context inference / serving runtime",
+      "arxiv": "2609.02737",
+      "doi": "",
+      "official_id": "arXiv:2609.02737",
+      "paper_url": "https://arxiv.org/abs/2609.02737",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Introduces Declarative Attention: the model declares global/focus/local attention spans and the inference engine skips irrelevant KV-cache reads. Across 15 long-context tasks it reduces attended decode tokens by 52.0% and 31.1% on two off-the-shelf models; includes a vLLM-compatible block-masking runtime path.",
+      "published_at": "2026-09-02T15:43:38Z",
+      "updated_at": "2026-09-02T15:43:38Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Efficient Attention"
       ]
     },
     {
@@ -768,6 +855,29 @@
       ]
     },
     {
+      "title": "Atlas: Algorithm-Hardware Co-Design for On-Device City-Scale 3D Gaussian Splatting in VR",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / 3D Gaussian splatting / on-device rendering",
+      "arxiv": "2609.02352",
+      "doi": "",
+      "official_id": "arXiv:2609.02352",
+      "paper_url": "https://arxiv.org/abs/2609.02352",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Direct algorithm-hardware/runtime co-design for memory-constrained on-device 3DGS. Hierarchical offloading, temporal-aware LoD search and stereo rasterization yield 18.5x speedup over GPU baseline, 3.9x over prior 3DGS accelerators and 92.4% energy savings.",
+      "published_at": "2026-09-02T09:25:00Z",
+      "updated_at": "2026-09-02T09:25:00Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "KV Cache / Long Context",
+        "GPU Kernel / DSL / Compiler",
+        "Video / Image Generation",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "MeanField Surrogate Modeling for Scalable Runtime Scheduling of Concurrent Heterogeneous AI Inference on Shared GPUs",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI systems / GPU scheduling / concurrent inference",
@@ -830,6 +940,26 @@
         "KV Cache / Long Context",
         "Sparsity / Pruning",
         "Efficient Attention"
+      ]
+    },
+    {
+      "title": "CREDIT: Cost-guided Reduction-reuse with Efficient DSMEM Inter-CTA Tiling",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / NVIDIA DSMEM / inter-CTA tiling",
+      "arxiv": "2609.01864",
+      "doi": "",
+      "official_id": "arXiv:2609.01864",
+      "paper_url": "https://arxiv.org/abs/2609.01864",
+      "code_url": "https://github.com/zhengxiongli08/CREDIT",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Direct GPU-kernel systems contribution accepted by HPEC 2026. Cost-guided DSMEM profitability model plus reduction-reuse transformation; beats torch.compile, Triton and optimized CUDA baselines on six workloads, with 1.466x geometric-mean speedup on RTX 5090 and 1.318x on H100; official source code is available.",
+      "published_at": "2026-09-01T20:54:29Z",
+      "updated_at": "2026-09-01T20:54:29Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
       ]
     },
     {
@@ -1847,6 +1977,50 @@
   ],
   "p1_watchlist": [
     {
+      "title": "APEX-RBD: Mixed-Precision Exploration Framework for Hardware-Efficient Robot Dynamics Accelerator Design",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / robot accelerator / mixed precision / edge hardware",
+      "arxiv": "2609.05161",
+      "doi": "",
+      "official_id": "arXiv:2609.05161",
+      "paper_url": "https://arxiv.org/abs/2609.05161",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI hardware-efficiency candidate. Automates mixed-precision design-space exploration for rigid-body-dynamics accelerators and reports up to 1.9x area reduction and 1.8x power savings across robotic platforms; valuable but focused on dynamics hardware rather than learned policy serving.",
+      "published_at": "2026-09-04T14:02:44Z",
+      "updated_at": "2026-09-04T14:02:44Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Deep Microcompression: Structured Pruning and Bit-packed Quantization for Microcontrollers",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / microcontroller inference / pruning / quantization",
+      "arxiv": "2609.05081",
+      "doi": "",
+      "official_id": "arXiv:2609.05081",
+      "paper_url": "https://arxiv.org/abs/2609.05081",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Hardware-aware MCU deployment pipeline combining structured pruning, QAT and fixed-length bit-packing; reports 55.8x weight compression and deployment on ATmega328P with 2KB SRAM. Valuable edge-AI systems signal but currently limited-model/MCU scope.",
+      "published_at": "2026-09-04T12:38:07Z",
+      "updated_at": "2026-09-04T12:38:07Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Sparsity / Pruning",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "GreenPipe: Power Modeling for Containerized DNN Inference on Kubernetes Edge Nodes",
       "venue": "arXiv 2026",
       "topic": "edge/cloud heterogeneous AI systems / Kubernetes inference / online power modeling / energy-aware serving",
@@ -1983,6 +2157,27 @@
       ]
     },
     {
+      "title": "Sustainable Edge Vision via Empirically Calibrated DVFS: Eliminating Thermal Throttling on Passively Cooled Hardware",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / DVFS / thermal-aware inference",
+      "arxiv": "2609.04705",
+      "doi": "",
+      "official_id": "arXiv:2609.04705",
+      "paper_url": "https://arxiv.org/abs/2609.04705",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Real hardware edge-inference scheduler on passively cooled Raspberry Pi 5. Eliminates observed thermal throttling, improves frame rate by 6.8% versus temperature-only control and reduces energy/frame by 1.9%; scope is narrow, so high-value watch rather than canonical-high.",
+      "published_at": "2026-09-04T04:24:05Z",
+      "updated_at": "2026-09-04T04:24:05Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Continual Field-Adaptive Models (CFAMs) for Post-Deployment Physical AI",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / on-device adaptation / post-deployment runtime",
@@ -2002,6 +2197,27 @@
         "LLM Serving",
         "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "FAVE: Foveated Adaptive Visual Encoding for Efficient Fine-Grained Visual Understanding",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / visual-token efficiency / adaptive encoding",
+      "arxiv": "2609.04392",
+      "doi": "",
+      "official_id": "arXiv:2609.04392",
+      "paper_url": "https://arxiv.org/abs/2609.04392",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Strong MLLM efficiency signal: variable-resolution foveated encoding, 12.7x lower FLOPs in a controlled small-object setting and 3.3x controlled TTFT speedup when integrated with FastVLM. Current contribution is primarily model/encoding design rather than a full serving-system paper, so retain as high-value watch.",
+      "published_at": "2026-09-03T18:58:41Z",
+      "updated_at": "2026-09-03T18:58:41Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving"
       ]
     },
     {
@@ -2106,6 +2322,27 @@
       "directions": [
         "Efficient Attention",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "GeoSPRINT: Geometric Redundancy-Aware Step Pruning for Inference in Diffusion Trajectories",
+      "venue": "arXiv 2026",
+      "topic": "diffusion/flow acceleration / inference-step pruning",
+      "arxiv": "2609.02160",
+      "doi": "",
+      "official_id": "arXiv:2609.02160",
+      "paper_url": "https://arxiv.org/abs/2609.02160",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Training-free diffusion acceleration via geometric redundancy-aware nonuniform sampling schedules. Improves FID over uniform DDIM at matched NFE budgets across CIFAR-10, LSUN Church and Stable Diffusion v1.5; promising algorithmic acceleration but no direct wall-clock/runtime systems evidence yet.",
+      "published_at": "2026-09-02T06:22:04Z",
+      "updated_at": "2026-09-02T06:22:04Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Sparsity / Pruning",
+        "Diffusion / Flow Acceleration"
       ]
     },
     {
@@ -8695,6 +8932,27 @@
       ]
     },
     {
+      "title": "Scalable Context Orchestration for Serving LLMs Over Voice",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / multimodal voice serving / context management middleware",
+      "arxiv": "2609.04288",
+      "doi": "",
+      "official_id": "arXiv:2609.04288",
+      "paper_url": "https://arxiv.org/abs/2609.04288",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Direct serving middleware for bounded voice-specific context and runtime directives. Real-world evaluation reports 79.2% lower model usage cost and up to 24.9x lower per-turn cost in long sessions while retaining up to 98.7% baseline answer quality.",
+      "published_at": "2026-09-03T09:27:00Z",
+      "updated_at": "2026-09-03T09:27:00Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
       "title": "LeanGRPO: Eliminating Redundant Recomputation in Diffusion RL",
       "venue": "arXiv 2026",
       "topic": "diffusion/flow acceleration / efficient training / reasoning post-training",
@@ -8870,6 +9128,50 @@
       ]
     },
     {
+      "title": "Jina-OCR-v1: Efficient Document Parsing with Speculative Decoding and Dense Verifiable Rewards",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / speculative decoding / efficient OCR",
+      "arxiv": "2609.03181",
+      "doi": "",
+      "official_id": "arXiv:2609.03181",
+      "paper_url": "https://arxiv.org/abs/2609.03181",
+      "code_url": "https://huggingface.co/jinaai/jina-ocr-v1",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Deployment-oriented multimodal model explicitly built for low-budget GPUs. FastMTP recursively reuses one draft block for K=3 speculative steps with lossless greedy verification; on NVIDIA L4 it doubles decode speed and reaches 2.57 pages/s. Official model is public.",
+      "published_at": "2026-09-02T21:49:21Z",
+      "updated_at": "2026-09-02T21:49:21Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Speculative Decoding",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "BASP: Communication-Efficient Batch-Aware Sequence Parallelism for LLM Training",
+      "venue": "arXiv 2026",
+      "topic": "distributed training/inference / long-context training / sequence parallelism",
+      "arxiv": "2609.03151",
+      "doi": "",
+      "official_id": "arXiv:2609.03151",
+      "paper_url": "https://arxiv.org/abs/2609.03151",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Direct distributed-training systems technique: batch-aware GPU grouping reduces all-to-all group size for sequence parallelism. A100-cluster experiments report 1.17-1.31x end-to-end training-time improvement for Llama/Qwen while preserving accuracy and memory usage.",
+      "published_at": "2026-09-02T20:33:23Z",
+      "updated_at": "2026-09-02T20:33:23Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "KV Cache / Long Context",
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference"
+      ]
+    },
+    {
       "title": "LeanStream: A Speculate-and-Refine Streaming Framework for Efficient on-Device LLM Inference",
       "venue": "MobiCom 2026",
       "topic": "edge/cloud/heterogeneous AI systems / on-device LLM inference / storage offload / sparse execution",
@@ -8933,6 +9235,28 @@
       "directions": [
         "LLM Serving",
         "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "Language Models Can Control Their Own Attention",
+      "venue": "arXiv 2026",
+      "topic": "efficient attention / KV cache / long-context inference / serving runtime",
+      "arxiv": "2609.02737",
+      "doi": "",
+      "official_id": "arXiv:2609.02737",
+      "paper_url": "https://arxiv.org/abs/2609.02737",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Introduces Declarative Attention: the model declares global/focus/local attention spans and the inference engine skips irrelevant KV-cache reads. Across 15 long-context tasks it reduces attended decode tokens by 52.0% and 31.1% on two off-the-shelf models; includes a vLLM-compatible block-masking runtime path.",
+      "published_at": "2026-09-02T15:43:38Z",
+      "updated_at": "2026-09-02T15:43:38Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Efficient Attention"
       ]
     },
     {
@@ -9002,6 +9326,29 @@
       ]
     },
     {
+      "title": "Atlas: Algorithm-Hardware Co-Design for On-Device City-Scale 3D Gaussian Splatting in VR",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / 3D Gaussian splatting / on-device rendering",
+      "arxiv": "2609.02352",
+      "doi": "",
+      "official_id": "arXiv:2609.02352",
+      "paper_url": "https://arxiv.org/abs/2609.02352",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Direct algorithm-hardware/runtime co-design for memory-constrained on-device 3DGS. Hierarchical offloading, temporal-aware LoD search and stereo rasterization yield 18.5x speedup over GPU baseline, 3.9x over prior 3DGS accelerators and 92.4% energy savings.",
+      "published_at": "2026-09-02T09:25:00Z",
+      "updated_at": "2026-09-02T09:25:00Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "KV Cache / Long Context",
+        "GPU Kernel / DSL / Compiler",
+        "Video / Image Generation",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "MeanField Surrogate Modeling for Scalable Runtime Scheduling of Concurrent Heterogeneous AI Inference on Shared GPUs",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI systems / GPU scheduling / concurrent inference",
@@ -9064,6 +9411,26 @@
         "KV Cache / Long Context",
         "Sparsity / Pruning",
         "Efficient Attention"
+      ]
+    },
+    {
+      "title": "CREDIT: Cost-guided Reduction-reuse with Efficient DSMEM Inter-CTA Tiling",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / NVIDIA DSMEM / inter-CTA tiling",
+      "arxiv": "2609.01864",
+      "doi": "",
+      "official_id": "arXiv:2609.01864",
+      "paper_url": "https://arxiv.org/abs/2609.01864",
+      "code_url": "https://github.com/zhengxiongli08/CREDIT",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Direct GPU-kernel systems contribution accepted by HPEC 2026. Cost-guided DSMEM profitability model plus reduction-reuse transformation; beats torch.compile, Triton and optimized CUDA baselines on six workloads, with 1.466x geometric-mean speedup on RTX 5090 and 1.318x on H100; official source code is available.",
+      "published_at": "2026-09-01T20:54:29Z",
+      "updated_at": "2026-09-01T20:54:29Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
       ]
     },
     {
@@ -10079,6 +10446,50 @@
       ]
     },
     {
+      "title": "APEX-RBD: Mixed-Precision Exploration Framework for Hardware-Efficient Robot Dynamics Accelerator Design",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / robot accelerator / mixed precision / edge hardware",
+      "arxiv": "2609.05161",
+      "doi": "",
+      "official_id": "arXiv:2609.05161",
+      "paper_url": "https://arxiv.org/abs/2609.05161",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI hardware-efficiency candidate. Automates mixed-precision design-space exploration for rigid-body-dynamics accelerators and reports up to 1.9x area reduction and 1.8x power savings across robotic platforms; valuable but focused on dynamics hardware rather than learned policy serving.",
+      "published_at": "2026-09-04T14:02:44Z",
+      "updated_at": "2026-09-04T14:02:44Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Deep Microcompression: Structured Pruning and Bit-packed Quantization for Microcontrollers",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / microcontroller inference / pruning / quantization",
+      "arxiv": "2609.05081",
+      "doi": "",
+      "official_id": "arXiv:2609.05081",
+      "paper_url": "https://arxiv.org/abs/2609.05081",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Hardware-aware MCU deployment pipeline combining structured pruning, QAT and fixed-length bit-packing; reports 55.8x weight compression and deployment on ATmega328P with 2KB SRAM. Valuable edge-AI systems signal but currently limited-model/MCU scope.",
+      "published_at": "2026-09-04T12:38:07Z",
+      "updated_at": "2026-09-04T12:38:07Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Sparsity / Pruning",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "GreenPipe: Power Modeling for Containerized DNN Inference on Kubernetes Edge Nodes",
       "venue": "arXiv 2026",
       "topic": "edge/cloud heterogeneous AI systems / Kubernetes inference / online power modeling / energy-aware serving",
@@ -10215,6 +10626,27 @@
       ]
     },
     {
+      "title": "Sustainable Edge Vision via Empirically Calibrated DVFS: Eliminating Thermal Throttling on Passively Cooled Hardware",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / DVFS / thermal-aware inference",
+      "arxiv": "2609.04705",
+      "doi": "",
+      "official_id": "arXiv:2609.04705",
+      "paper_url": "https://arxiv.org/abs/2609.04705",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Real hardware edge-inference scheduler on passively cooled Raspberry Pi 5. Eliminates observed thermal throttling, improves frame rate by 6.8% versus temperature-only control and reduces energy/frame by 1.9%; scope is narrow, so high-value watch rather than canonical-high.",
+      "published_at": "2026-09-04T04:24:05Z",
+      "updated_at": "2026-09-04T04:24:05Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Continual Field-Adaptive Models (CFAMs) for Post-Deployment Physical AI",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / on-device adaptation / post-deployment runtime",
@@ -10234,6 +10666,27 @@
         "LLM Serving",
         "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "FAVE: Foveated Adaptive Visual Encoding for Efficient Fine-Grained Visual Understanding",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / visual-token efficiency / adaptive encoding",
+      "arxiv": "2609.04392",
+      "doi": "",
+      "official_id": "arXiv:2609.04392",
+      "paper_url": "https://arxiv.org/abs/2609.04392",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Strong MLLM efficiency signal: variable-resolution foveated encoding, 12.7x lower FLOPs in a controlled small-object setting and 3.3x controlled TTFT speedup when integrated with FastVLM. Current contribution is primarily model/encoding design rather than a full serving-system paper, so retain as high-value watch.",
+      "published_at": "2026-09-03T18:58:41Z",
+      "updated_at": "2026-09-03T18:58:41Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving"
       ]
     },
     {
@@ -10338,6 +10791,27 @@
       "directions": [
         "Efficient Attention",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "GeoSPRINT: Geometric Redundancy-Aware Step Pruning for Inference in Diffusion Trajectories",
+      "venue": "arXiv 2026",
+      "topic": "diffusion/flow acceleration / inference-step pruning",
+      "arxiv": "2609.02160",
+      "doi": "",
+      "official_id": "arXiv:2609.02160",
+      "paper_url": "https://arxiv.org/abs/2609.02160",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Training-free diffusion acceleration via geometric redundancy-aware nonuniform sampling schedules. Improves FID over uniform DDIM at matched NFE budgets across CIFAR-10, LSUN Church and Stable Diffusion v1.5; promising algorithmic acceleration but no direct wall-clock/runtime systems evidence yet.",
+      "published_at": "2026-09-02T06:22:04Z",
+      "updated_at": "2026-09-02T06:22:04Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Sparsity / Pruning",
+        "Diffusion / Flow Acceleration"
       ]
     },
     {

@@ -1,13 +1,14 @@
 # 04 · Quantization
 
-> **230 canonical papers** mapped here, plus a broader **62-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **230 canonical papers** mapped here, plus a broader **63-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 62 tracked
+## 🆕 Latest 30 Days · 63 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
+| **P1 · Watch** | **Deep Microcompression: Structured Pruning and Bit-packed Quantization for Microcontrollers** | arXiv 2026 | edge/cloud/heterogeneous AI systems / microcontroller inference / pruning / quantization | [Link](https://arxiv.org/abs/2609.05081) | — |
 | **P1 · Watch** | **Same Request, Different Answer: Quantization Amplifies Cache-Induced Divergence in LLM Serving** | arXiv 2026 | LLM serving / prefix cache / quantization / reproducibility | [Link](https://arxiv.org/abs/2609.04748) | — |
 | **P0 · Strong** | **FlexPosit: Tunable Fractional Precision for LLM Inference Accelerators** | MICRO 2026 | quantization / LLM accelerator / bit-serial architecture | [Link](https://arxiv.org/abs/2609.04724) | — |
 | **P0 · Strong** | **Scale-QLoRA: Code-Invariant Adapter Merging for Native 4-bit Microscaling LLMs** | arXiv 2026 | quantization / native 4-bit microscaling / LoRA deployment / code-invariant merge | [Link](https://arxiv.org/abs/2609.04526) | — |
