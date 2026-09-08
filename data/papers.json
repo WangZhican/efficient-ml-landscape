@@ -12347,6 +12347,29 @@
     ]
   },
   {
+    "title": "Beyond Text-Visual Attention: Exploiting Visual Cues for Effective Token Pruning in VLMs",
+    "venue": "ICCV 2025",
+    "topic": "multimodal/MLLM serving / VLM token pruning / inference acceleration",
+    "arxiv": "2412.01818",
+    "doi": "",
+    "official_id": "arXiv:2412.01818",
+    "paper_url": "https://arxiv.org/abs/2412.01818",
+    "code_url": "https://github.com/Theia-4869/VisPruner",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "ICCV 2025 plug-and-play visual-cue token pruning for LVLMs. Official ICCV abstract reports 91% FLOPs reduction and 75% inference-latency reduction on LLaVA-1.5-7B without training while maintaining comparable performance; direct inference-efficiency contribution with released official code.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
     "title": "Bringing RNNs Back to Efficient Open-Ended Video Understanding",
     "venue": "ICCV 2025",
     "topic": "long-video multimodal inference / linear RNN / constant-state memory",
