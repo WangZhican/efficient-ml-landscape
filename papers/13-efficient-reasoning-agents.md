@@ -1,10 +1,10 @@
 # 13 · Efficient Reasoning / Agents
 
-> **274 canonical papers** mapped here, plus a broader **82-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **275 canonical papers** mapped here, plus a broader **83-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 82 tracked
+## 🆕 Latest 30 Days · 83 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -90,8 +90,9 @@
 | **P1 · Watch** | **TraceLab: Characterizing Coding Agent Workloads for LLM Serving** | arXiv 2026 | agentic LLM serving; coding-agent workload characterization; KV-cache behavior; tool latency; serving traces | [Link](https://arxiv.org/abs/2606.30560) | [Repo](https://github.com/uw-syfi/TraceLab) |
 | **P1 · Watch** | **The Workload-Router-Pool Architecture for LLM Inference Optimization: A Vision Paper from the vLLM Semantic Router Project** | arXiv 2026 | LLM serving / semantic routing / fleet architecture / agentic and multimodal serving | [Link](https://arxiv.org/abs/2603.21354) | — |
 | **P1 · Watch** | **Single-agent or Multi-agent Systems? Why Not Both?** | arXiv 2025 | efficient reasoning / agent systems / hybrid SAS-MAS routing and cascading | [Link](https://arxiv.org/abs/2505.18286) | — |
+| **P1 · Watch** | **Beyond Semantic Organization: Memory as Execution State Management for Long-Horizon Agents** | arXiv 2026 | efficient reasoning/agent systems / long-horizon memory / context compression | [Link](https://arxiv.org/abs/2606.06090) | — |
 
-## 🏛️ Classical / Historical · 242 canonical
+## 🏛️ Classical / Historical · 243 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -111,6 +112,7 @@
 | **Canonical** | **Kinetics: Rethinking Test-Time Scaling Laws** | arXiv 2025 | efficient reasoning / test-time scaling / sparse attention / inference cost modeling | [Link](https://arxiv.org/abs/2506.05333) | [Repo](https://github.com/Infini-AI-Lab/Kinetics) |
 | **Canonical** | **Continuum: Efficient and Robust Multi-Turn LLM Agent Scheduling with KV Cache Time-to-Live** | arXiv 2025 / Berkeley EECS TR 2026 | agentic LLM serving; KV cache management; multi-turn scheduling; tool-aware serving | [Link](https://arxiv.org/abs/2511.02230) | [Repo](https://github.com/Hanchenli/vllm-continuum) |
 | **Canonical** | **Architectural Implications of Agentic AI Workflows** | arXiv 2026 | efficient reasoning/agent systems / edge-cloud AI infrastructure | [Link](https://arxiv.org/abs/2608.04458) | — |
+| **Canonical** | **AstraFlow: Dataflow-Oriented Reinforcement Learning for Agentic LLMs** | arXiv 2026 | efficient reasoning/agent systems / distributed RL training / heterogeneous elastic execution | [Link](https://arxiv.org/abs/2605.15565) | [Repo](https://github.com/Infini-AI-Lab/astraflow) |
 | **Canonical** | **Fast-WAM: Do World Action Models Need Test-time Future Imagination?** | arXiv 2026 | VLA/WAM/Physical AI serving / world-action model inference / test-time video elimination | [Link](https://arxiv.org/abs/2603.16666) | [Repo](https://yuantianyuan01.github.io/FastWAM/) |
 | **Canonical** | **JAXBench: Benchmarking Autonomous TPU Kernel Optimization** | arXiv 2026 | GPU kernel / DSL / compiler; TPU/Pallas autonomous kernel optimization | [Link](https://arxiv.org/abs/2607.20466) | [Repo](https://github.com/AI-Hypercomputer/accelerator-agents) |
 | **Canonical** | **KAIROS: Stateful, Context-Aware Power-Efficient Agentic Inference Serving** | arXiv 2026 | agentic LLM serving; power efficiency; context-aware GPU DVFS; memory-aware scheduling; multi-instance routing | [Link](https://arxiv.org/abs/2604.16682) | — |

@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **1592 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **450 visible papers = 160 P0 + 171 P1 + 119 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1593 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **451 visible papers = 160 P0 + 172 P1 + 119 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -169,7 +169,7 @@
 | **P0 · Strong** | **FlashBoot: Sub-Second Weight Loading for Large Models at Rack Scale** | Fresh / preprint | LLM serving / MoE systems / rack-scale runtime | [Link](https://arxiv.org/abs/2608.08482) | — |
 | **P0 · Strong** | **Aero Realtime: Fully Aligned Input-Output Streams for Low-Latency Streaming Multimodal Generation** | arXiv 2026 | multimodal/MLLM serving / streaming generation / KV reuse / distributed training | [Link](https://arxiv.org/abs/2608.08469) | — |
 
-## 🧭 P1 · Watch · 171
+## 🧭 P1 · Watch · 172
 
 > Clearly relevant and promising, but still awaiting stronger novelty, evidence, venue, or adoption validation.
 
@@ -344,6 +344,7 @@
 | **P1 · Watch** | **DEFT: Joint Task Placement and DVFS for Energy-Efficient Multi-GPU Runtimes** | Fresh / preprint | distributed runtime / multi-GPU / energy efficiency | [Link](https://arxiv.org/abs/2608.02122) | — |
 | **P1 · Watch** | **DeepTools: A Full-Stack Machine Learning Compiler for the IBM Spyre Accelerator** | CGO 2026 extended abstract | AI accelerator compiler stack; IBM Spyre; heterogeneous AI systems | [Link](https://research.ibm.com/publications/deeptools-a-full-stack-machine-learning-compiler-for-the-ibm-spyre-accelerator) | — |
 | **P1 · Watch** | **CubicQuant: Parametric Non-Uniform Codebooks for High-Throughput LLM Inference with 1-8-Bit Weights** | Fresh / preprint | quantization / GPU inference | [Link](https://arxiv.org/abs/2608.06763) | — |
+| **P1 · Watch** | **Beyond Semantic Organization: Memory as Execution State Management for Long-Horizon Agents** | arXiv 2026 | efficient reasoning/agent systems / long-horizon memory / context compression | [Link](https://arxiv.org/abs/2606.06090) | — |
 | **P1 · Watch** | **An Internet for the KV Cache: Rethinking Classical Infrastructure Boundaries in the LLM Inference Age** | Fresh / preprint | KV cache / distributed serving / cloud-network-storage systems | [Link](https://arxiv.org/abs/2608.01526) | — |
 | **P1 · Watch** | **A methodology for accurate benchmarking of neural network accelerators using a high-level synthesis-based hardware generator** | Philosophical Transactions A 2026 | AI accelerator benchmarking; HLS; hardware design-space evaluation | [Link](https://doi.org/10.1098/rsta.2024.0514) | — |
 
@@ -473,7 +474,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 1432
+## 🏛️ Classical / Historical · 1433
 
 ### ICML 2026 · 374
 
@@ -920,7 +921,7 @@
 | **Canonical** | **TriInfer: Hybrid EPD Disaggregation for Efficient Multimodal Large Language Model Inference** | MLSys 2026 | multimodal serving / encode-prefill-decode disaggregation / heterogeneous inference | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/f068c65585985c25c17f221390774ec7-Abstract-Conference.html) | [Repo](https://github.com/dongxianzhe/triinfer) |
 | **Canonical** | **Zorse: Optimizing LLM Training Efficiency on Heterogeneous GPU Clusters** | MLSys 2026 | distributed training / heterogeneous GPUs / parallelism | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/bfa6dd59c1d7f7c785909f9ff7cffe67-Abstract-Conference.html) | — |
 
-### arXiv 2026 · 57
+### arXiv 2026 · 58
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -930,6 +931,7 @@
 | **Canonical** | **AnchorKV: Anchor-Residual KV Cache Compression** | arXiv 2026 | KV cache/long-context / compression | [Link](https://arxiv.org/abs/2608.02901) | — |
 | **Canonical** | **Archer: Adaptive Reuse of Cached Hidden States for Efficient Rollback in Diffusion Language Models** | arXiv 2026 | KV cache / diffusion language model acceleration | [Link](https://arxiv.org/abs/2608.08086) | [Repo](https://github.com/Hxnng/Archer) |
 | **Canonical** | **Architectural Implications of Agentic AI Workflows** | arXiv 2026 | efficient reasoning/agent systems / edge-cloud AI infrastructure | [Link](https://arxiv.org/abs/2608.04458) | — |
+| **Canonical** | **AstraFlow: Dataflow-Oriented Reinforcement Learning for Agentic LLMs** | arXiv 2026 | efficient reasoning/agent systems / distributed RL training / heterogeneous elastic execution | [Link](https://arxiv.org/abs/2605.15565) | [Repo](https://github.com/Infini-AI-Lab/astraflow) |
 | **Canonical** | **BaseRT: Advancing Best-in-Class LLM Inference with Apple M5 Neural Accelerators** | arXiv 2026 | edge/on-device LLM inference; Apple M5 neural accelerators; Metal 4 tensor kernels; MoE; attention | [Link](https://arxiv.org/abs/2607.19438) | [Repo](https://github.com/basecompute/baseRT) |
 | **Canonical** | **BaseRT: Best-in-Class LLM Inference on Apple Silicon via Native Metal** | arXiv 2026 | edge/on-device LLM inference runtime; Apple Silicon; Metal kernels; quantization | [Link](https://arxiv.org/abs/2607.00501) | [Repo](https://github.com/basecompute/baseRT) |
 | **Canonical** | **CacheFlow: Efficient LLM Serving with 3D-Parallel KV Cache Restoration** | arXiv 2026 | LLM serving; KV-cache restoration; long-context inference; token/layer/GPU parallelism; compute-I/O overlap | [Link](https://arxiv.org/abs/2604.25080) | — |

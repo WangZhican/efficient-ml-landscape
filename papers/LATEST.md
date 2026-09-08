@@ -1,6 +1,6 @@
 # 🆕 Latest 30 Days
 
-> Rolling 30-day view ending **2026-09-08**: **450 tracked papers = 160 P0 + 171 P1 + 119 P2**. Topical relevance determines visibility; quality determines priority. The classical census remains stricter.
+> Rolling 30-day view ending **2026-09-08**: **451 tracked papers = 160 P0 + 172 P1 + 119 P2**. Topical relevance determines visibility; quality determines priority. The classical census remains stricter.
 
 [← Paper Library](ALL_PAPERS.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/latest_30d.json) · [CSV](../data/latest_30d.csv)
 
@@ -344,6 +344,7 @@
 | **P1 · Watch** | **DEFT: Joint Task Placement and DVFS for Energy-Efficient Multi-GPU Runtimes** | Fresh / preprint | distributed runtime / multi-GPU / energy efficiency | [Link](https://arxiv.org/abs/2608.02122) | — |
 | **P1 · Watch** | **DeepTools: A Full-Stack Machine Learning Compiler for the IBM Spyre Accelerator** | CGO 2026 extended abstract | AI accelerator compiler stack; IBM Spyre; heterogeneous AI systems | [Link](https://research.ibm.com/publications/deeptools-a-full-stack-machine-learning-compiler-for-the-ibm-spyre-accelerator) | — |
 | **P1 · Watch** | **CubicQuant: Parametric Non-Uniform Codebooks for High-Throughput LLM Inference with 1-8-Bit Weights** | Fresh / preprint | quantization / GPU inference | [Link](https://arxiv.org/abs/2608.06763) | — |
+| **P1 · Watch** | **Beyond Semantic Organization: Memory as Execution State Management for Long-Horizon Agents** | arXiv 2026 | efficient reasoning/agent systems / long-horizon memory / context compression | [Link](https://arxiv.org/abs/2606.06090) | — |
 | **P1 · Watch** | **An Internet for the KV Cache: Rethinking Classical Infrastructure Boundaries in the LLM Inference Age** | Fresh / preprint | KV cache / distributed serving / cloud-network-storage systems | [Link](https://arxiv.org/abs/2608.01526) | — |
 | **P1 · Watch** | **A methodology for accurate benchmarking of neural network accelerators using a high-level synthesis-based hardware generator** | Philosophical Transactions A 2026 | AI accelerator benchmarking; HLS; hardware design-space evaluation | [Link](https://doi.org/10.1098/rsta.2024.0514) | — |
 

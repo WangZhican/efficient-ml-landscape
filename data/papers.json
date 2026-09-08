@@ -2509,6 +2509,29 @@
     ]
   },
   {
+    "title": "AstraFlow: Dataflow-Oriented Reinforcement Learning for Agentic LLMs",
+    "venue": "arXiv 2026",
+    "topic": "efficient reasoning/agent systems / distributed RL training / heterogeneous elastic execution",
+    "arxiv": "2605.15565",
+    "doi": "",
+    "official_id": "arXiv:2605.15565",
+    "paper_url": "https://arxiv.org/abs/2605.15565",
+    "code_url": "https://github.com/Infini-AI-Lab/astraflow",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Direct agentic-RL system: dataflow-oriented rollout/training decoupling, multi-policy collaboration, elastic heterogeneous cross-region execution; reports 2.7x training-time speedup and <=1.1% sparse weight-delta transfer in the official project evidence.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "Distributed Training / Inference",
+      "Efficient Reasoning / Agents",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Atlas: Optimizing Deployment of Compound AI Workflows on Heterogeneous Clusters",
     "venue": "arXiv 2026",
     "topic": "distributed inference / compound AI serving / heterogeneous clusters / SLO-aware deployment optimization",

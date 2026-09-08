@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-08",
   "window_start_beijing": "2026-08-09",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 450,
+  "tracked_total": 451,
   "p0_strong_or_canonical": [
     {
       "title": "Don't Drop Dropout: Optimizing Layer Sparsity for Efficient LLM Training and Inference",
@@ -7145,6 +7145,26 @@
         "LLM Serving",
         "Quantization",
         "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Beyond Semantic Organization: Memory as Execution State Management for Long-Horizon Agents",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / long-horizon memory / context compression",
+      "arxiv": "2606.06090",
+      "doi": "",
+      "official_id": "arXiv:2606.06090",
+      "paper_url": "https://arxiv.org/abs/2606.06090",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Execution-state-tree agent memory with explicit Grow/Compress/Maintain/Revise operations; primary paper reports 7.8-20.4 pp task-success gain and 55.1% lower token consumption. High-value systems-adjacent agent-memory mechanism, retained as watch pending stronger runtime/deployment evidence.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -16945,6 +16965,26 @@
         "LLM Serving",
         "Quantization",
         "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Beyond Semantic Organization: Memory as Execution State Management for Long-Horizon Agents",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / long-horizon memory / context compression",
+      "arxiv": "2606.06090",
+      "doi": "",
+      "official_id": "arXiv:2606.06090",
+      "paper_url": "https://arxiv.org/abs/2606.06090",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Execution-state-tree agent memory with explicit Grow/Compress/Maintain/Revise operations; primary paper reports 7.8-20.4 pp task-success gain and 55.1% lower token consumption. High-value systems-adjacent agent-memory mechanism, retained as watch pending stronger runtime/deployment evidence.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
       ]
     },
     {
