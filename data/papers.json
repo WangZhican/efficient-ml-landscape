@@ -3853,6 +3853,28 @@
     ]
   },
   {
+    "title": "Measurement-Driven Sub-Network Selection for On-Premise Retrieval-Augmented Factory Agents",
+    "venue": "arXiv 2026",
+    "topic": "edge/cloud/heterogeneous AI systems / RAG agents / model compression / deployment selection",
+    "arxiv": "2609.02760",
+    "doi": "",
+    "official_id": "arXiv:2609.02760",
+    "paper_url": "https://arxiv.org/abs/2609.02760",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Deployment-centered edge AI contribution that selects a structurally compressed sub-network per device using measured on-device throughput, judged RAG quality, a general-capability floor, and memory budget. A weight-shared supernetwork makes selection practical; case study spans three heterogeneous edge tiers at 1.3-5 W standby.",
+    "published_at": "2026-09-02T16:00:05Z",
+    "updated_at": "2026-09-02T16:00:05Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Efficient Reasoning / Agents",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "MINERVA: How Small Can a Manipulation Policy Be and Still Solve LIBERO?",
     "venue": "arXiv 2026",
     "topic": "VLA/WAM/Physical AI / compact policy / deployment efficiency",
@@ -3915,6 +3937,27 @@
       "Quantization",
       "Sparsity / Pruning",
       "MoE Systems / Accelerators"
+    ]
+  },
+  {
+    "title": "Multi-Turn LLM Conversations under the Least-Recently-Used Policy: Mean-Field Asymptotics and Hit Ratio Approximation",
+    "venue": "arXiv 2026",
+    "topic": "LLM serving / KV cache / multi-turn conversations / cache provisioning",
+    "arxiv": "2609.02027",
+    "doi": "",
+    "official_id": "arXiv:2609.02027",
+    "paper_url": "https://arxiv.org/abs/2609.02027",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Direct LLM-serving/KV systems contribution. Derives a mean-field closed-form limit and practical LRU KV-cache hit-ratio estimator for growing multi-turn prefixes, then validates the estimator with real Qwen3-8B serving experiments on Ascend NPUs; useful for HBM capacity provisioning rather than a purely abstract cache model.",
+    "published_at": "2026-09-02T02:57:16Z",
+    "updated_at": "2026-09-02T02:57:16Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context"
     ]
   },
   {

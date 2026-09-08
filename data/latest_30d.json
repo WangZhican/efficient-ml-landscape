@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-09",
   "window_start_beijing": "2026-08-10",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 418,
+  "tracked_total": 422,
   "p0_strong_or_canonical": [
     {
       "title": "Don't Drop Dropout: Optimizing Layer Sparsity for Efficient LLM Training and Inference",
@@ -874,6 +874,28 @@
       ]
     },
     {
+      "title": "Measurement-Driven Sub-Network Selection for On-Premise Retrieval-Augmented Factory Agents",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / RAG agents / model compression / deployment selection",
+      "arxiv": "2609.02760",
+      "doi": "",
+      "official_id": "arXiv:2609.02760",
+      "paper_url": "https://arxiv.org/abs/2609.02760",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Deployment-centered edge AI contribution that selects a structurally compressed sub-network per device using measured on-device throughput, judged RAG quality, a general-capability floor, and memory budget. A weight-shared supernetwork makes selection practical; case study spans three heterogeneous edge tiers at 1.3-5 W standby.",
+      "published_at": "2026-09-02T16:00:05Z",
+      "updated_at": "2026-09-02T16:00:05Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Language Models Can Control Their Own Attention",
       "venue": "arXiv 2026",
       "topic": "efficient attention / KV cache / long-context inference / serving runtime",
@@ -1087,6 +1109,27 @@
       "tracking_tier": "P0 · Strong",
       "directions": [
         "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "Multi-Turn LLM Conversations under the Least-Recently-Used Policy: Mean-Field Asymptotics and Hit Ratio Approximation",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / KV cache / multi-turn conversations / cache provisioning",
+      "arxiv": "2609.02027",
+      "doi": "",
+      "official_id": "arXiv:2609.02027",
+      "paper_url": "https://arxiv.org/abs/2609.02027",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Direct LLM-serving/KV systems contribution. Derives a mean-field closed-form limit and practical LRU KV-cache hit-ratio estimator for growing multi-turn prefixes, then validates the estimator with real Qwen3-8B serving experiments on Ascend NPUs; useful for HBM capacity provisioning rather than a purely abstract cache model.",
+      "published_at": "2026-09-02T02:57:16Z",
+      "updated_at": "2026-09-02T02:57:16Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context"
       ]
     },
     {
@@ -2625,6 +2668,28 @@
       ]
     },
     {
+      "title": "Lngram v2: Latent N-Gram Memory with Interpretable Discrete Representations",
+      "venue": "arXiv 2026",
+      "topic": "KV cache/long-context / multimodal serving / conditional memory / efficient model architecture",
+      "arxiv": "2609.03426",
+      "doi": "",
+      "official_id": "arXiv:2609.03426",
+      "paper_url": "https://arxiv.org/abs/2609.03426",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Promising efficient memory mechanism that decouples route count, memory dimension and backbone width, with grouped-query readout and hard discrete addressing. Scales to a 30B VLM while substantially reducing total and activated memory parameters, but current evidence emphasizes model/parameter efficiency rather than measured serving latency or throughput.",
+      "published_at": "2026-09-03T06:33:23Z",
+      "updated_at": "2026-09-03T06:33:23Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
       "title": "SGD-KV: Summarization Guided KV Cache Compression",
       "venue": "",
       "topic": "KV cache/long-context",
@@ -2684,6 +2749,26 @@
       "is_latest_30d": true,
       "directions": [
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Compute-in-Memory Attention: A Time-Domain Analog Softmax Circuit with RC-Tunable Temperature",
+      "venue": "arXiv 2026",
+      "topic": "efficient attention / AI accelerator / compute-in-memory / analog softmax",
+      "arxiv": "2609.04266",
+      "doi": "",
+      "official_id": "arXiv:2609.04266",
+      "paper_url": "https://arxiv.org/abs/2609.04266",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Relevant attention-accelerator circuit that eliminates an intermediate ADC path by applying tunable time-domain analog softmax directly to CIM score voltages. Post-layout 22-nm simulations report 242.97 ns, 13.44 mW and 25.5 pJ/output element for 128-way softmax, with hardware-aware Transformer loss within 2.5% of ideal. Simulation-only evidence keeps it watchlist-high rather than canonical-high.",
+      "published_at": "2026-09-02T18:43:19Z",
+      "updated_at": "2026-09-02T18:43:19Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Attention"
       ]
     },
     {
@@ -9944,6 +10029,28 @@
       ]
     },
     {
+      "title": "Measurement-Driven Sub-Network Selection for On-Premise Retrieval-Augmented Factory Agents",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / RAG agents / model compression / deployment selection",
+      "arxiv": "2609.02760",
+      "doi": "",
+      "official_id": "arXiv:2609.02760",
+      "paper_url": "https://arxiv.org/abs/2609.02760",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Deployment-centered edge AI contribution that selects a structurally compressed sub-network per device using measured on-device throughput, judged RAG quality, a general-capability floor, and memory budget. A weight-shared supernetwork makes selection practical; case study spans three heterogeneous edge tiers at 1.3-5 W standby.",
+      "published_at": "2026-09-02T16:00:05Z",
+      "updated_at": "2026-09-02T16:00:05Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Language Models Can Control Their Own Attention",
       "venue": "arXiv 2026",
       "topic": "efficient attention / KV cache / long-context inference / serving runtime",
@@ -10157,6 +10264,27 @@
       "tracking_tier": "P0 · Strong",
       "directions": [
         "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "Multi-Turn LLM Conversations under the Least-Recently-Used Policy: Mean-Field Asymptotics and Hit Ratio Approximation",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / KV cache / multi-turn conversations / cache provisioning",
+      "arxiv": "2609.02027",
+      "doi": "",
+      "official_id": "arXiv:2609.02027",
+      "paper_url": "https://arxiv.org/abs/2609.02027",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Direct LLM-serving/KV systems contribution. Derives a mean-field closed-form limit and practical LRU KV-cache hit-ratio estimator for growing multi-turn prefixes, then validates the estimator with real Qwen3-8B serving experiments on Ascend NPUs; useful for HBM capacity provisioning rather than a purely abstract cache model.",
+      "published_at": "2026-09-02T02:57:16Z",
+      "updated_at": "2026-09-02T02:57:16Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context"
       ]
     },
     {
@@ -11693,6 +11821,28 @@
       ]
     },
     {
+      "title": "Lngram v2: Latent N-Gram Memory with Interpretable Discrete Representations",
+      "venue": "arXiv 2026",
+      "topic": "KV cache/long-context / multimodal serving / conditional memory / efficient model architecture",
+      "arxiv": "2609.03426",
+      "doi": "",
+      "official_id": "arXiv:2609.03426",
+      "paper_url": "https://arxiv.org/abs/2609.03426",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Promising efficient memory mechanism that decouples route count, memory dimension and backbone width, with grouped-query readout and hard discrete addressing. Scales to a 30B VLM while substantially reducing total and activated memory parameters, but current evidence emphasizes model/parameter efficiency rather than measured serving latency or throughput.",
+      "published_at": "2026-09-03T06:33:23Z",
+      "updated_at": "2026-09-03T06:33:23Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
       "title": "SGD-KV: Summarization Guided KV Cache Compression",
       "venue": "",
       "topic": "KV cache/long-context",
@@ -11752,6 +11902,26 @@
       "is_latest_30d": true,
       "directions": [
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Compute-in-Memory Attention: A Time-Domain Analog Softmax Circuit with RC-Tunable Temperature",
+      "venue": "arXiv 2026",
+      "topic": "efficient attention / AI accelerator / compute-in-memory / analog softmax",
+      "arxiv": "2609.04266",
+      "doi": "",
+      "official_id": "arXiv:2609.04266",
+      "paper_url": "https://arxiv.org/abs/2609.04266",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Relevant attention-accelerator circuit that eliminates an intermediate ADC path by applying tunable time-domain analog softmax directly to CIM score voltages. Post-layout 22-nm simulations report 242.97 ns, 13.44 mW and 25.5 pJ/output element for 128-way softmax, with hardware-aware Transformer loss within 2.5% of ideal. Simulation-only evidence keeps it watchlist-high rather than canonical-high.",
+      "published_at": "2026-09-02T18:43:19Z",
+      "updated_at": "2026-09-02T18:43:19Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Attention"
       ]
     },
     {
