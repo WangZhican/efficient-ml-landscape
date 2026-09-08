@@ -23,8 +23,8 @@
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/Papers-1578-7c3aed?style=for-the-badge" alt="1578 papers" />
-  <img src="https://img.shields.io/badge/Primary%20Links-1556-059669?style=for-the-badge" alt="1556 primary links" />
+  <img src="https://img.shields.io/badge/Papers-1581-7c3aed?style=for-the-badge" alt="1581 papers" />
+  <img src="https://img.shields.io/badge/Primary%20Links-1559-059669?style=for-the-badge" alt="1559 primary links" />
   <img src="https://img.shields.io/badge/Research%20Tracks-15-2563eb?style=for-the-badge" alt="15 research tracks" />
   <img src="https://img.shields.io/badge/Physical%20AI-Protected-f59e0b?style=for-the-badge" alt="Physical AI protected" />
 </p>
@@ -53,13 +53,13 @@
 
 | 指标 | 当前公开版本 |
 |---|---:|
-| **质量门控后的唯一论文** | **1578** |
-| **最近 30 天追踪总数** | **433** |
-| **最近 30 天质量门控论文** | **149** |
-| **最近 30 天 Watchlist** | **165** |
+| **质量门控后的唯一论文** | **1581** |
+| **最近 30 天追踪总数** | **437** |
+| **最近 30 天质量门控论文** | **152** |
+| **最近 30 天 Watchlist** | **166** |
 | **最近 30 天低优先级相关论文** | **119** |
 | **经典 / 历史论文** | **1429** |
-| **已有可信一手论文链接** | **1556** |
+| **已有可信一手论文链接** | **1559** |
 | **最新 Strong 论文** | **45** |
 | **研究方向** | **15** |
 | **已出现的 Venue/Source 标签** | **46** |
