@@ -1,10 +1,10 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **339 canonical papers** mapped here, plus a broader **123-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **339 canonical papers** mapped here, plus a broader **125-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 123 tracked
+## 🆕 Latest 30 Days · 125 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -26,6 +26,8 @@
 | **P0 · Strong** | **Atlas: Algorithm-Hardware Co-Design for On-Device City-Scale 3D Gaussian Splatting in VR** | arXiv 2026 | edge/cloud/heterogeneous AI systems / 3D Gaussian splatting / on-device rendering | [Link](https://arxiv.org/abs/2609.02352) | — |
 | **P0 · Strong** | **MeanField Surrogate Modeling for Scalable Runtime Scheduling of Concurrent Heterogeneous AI Inference on Shared GPUs** | arXiv 2026 | edge/cloud/heterogeneous AI systems / GPU scheduling / concurrent inference | [Link](https://arxiv.org/abs/2609.02109) | — |
 | **P1 · Watch** | **HeadWiseKV: Budgeted Per-Head Cache Residency for Hybrid Long-Context Language Models** | arXiv 2026 | KV cache/long-context / LLM serving | [Link](https://arxiv.org/abs/2609.02029) | — |
+| **P1 · Watch** | **Post-Training Ternarization of Qwen3-4B Capability, Effective Bit Budget, Storage Compression, and Deployment** | arXiv 2026 | quantization / LLM deployment / edge systems | [Link](https://arxiv.org/abs/2609.01962) | — |
+| **P1 · Watch** | **SCULPT: Training Edge Vision Models for Post-Training Quantization Readiness** | arXiv 2026 | quantization / edge AI / deployment | [Link](https://arxiv.org/abs/2609.01743) | — |
 | **P1 · Watch** | **Context-Aware Interleaved Batching for WhisperX** | Fresh / preprint | edge/cloud/heterogeneous AI systems / inference batching | [Link](https://arxiv.org/abs/2608.31170) | — |
 | **P2 · Relevant** | **From Seeing to Acting: Smart Glasses as First-Person Intelligence Platforms** | Fresh / preprint | Physical AI / wearable first-person intelligence / edge platform | [Link](https://arxiv.org/abs/2608.24877) | — |
 | **P1 · Watch** | **TEE-X: TEE-aware Acceleration Framework for Large Vision Models at the Edge** | Fresh / preprint | edge vision inference / TEE-aware acceleration / secure deployment | [Link](https://arxiv.org/abs/2608.22716) | — |

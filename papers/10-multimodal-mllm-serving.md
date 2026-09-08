@@ -1,10 +1,10 @@
 # 10 · Multimodal / MLLM Serving
 
-> **198 canonical papers** mapped here, plus a broader **68-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **198 canonical papers** mapped here, plus a broader **69-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 68 tracked
+## 🆕 Latest 30 Days · 69 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -16,6 +16,7 @@
 | **P0 · Strong** | **CoFiE: Coarse-to-Fine Evidence Selection for Efficient Streaming Video Understanding** | arXiv 2026 | multimodal/MLLM serving / sparsity / streaming video | [Link](https://arxiv.org/abs/2609.03675) | — |
 | **P0 · Strong** | **Scalable Context Orchestration for Serving LLMs Over Voice** | arXiv 2026 | LLM serving / multimodal voice serving / context management middleware | [Link](https://arxiv.org/abs/2609.04288) | — |
 | **P0 · Strong** | **Jina-OCR-v1: Efficient Document Parsing with Speculative Decoding and Dense Verifiable Rewards** | arXiv 2026 | multimodal/MLLM serving / speculative decoding / efficient OCR | [Link](https://arxiv.org/abs/2609.03181) | [Repo](https://huggingface.co/jinaai/jina-ocr-v1) |
+| **P1 · Watch** | **Who Speaks for the Pruned? Visual Token Pruning as Coverage Optimization** | arXiv 2026 | multimodal/MLLM serving / sparsity/pruning / visual token pruning | [Link](https://arxiv.org/abs/2609.03158) | — |
 | **P0 · Strong** | **ShallowStream: Index Shallow then Answer Deep for Streaming Video Understanding** | arXiv 2026 | multimodal/MLLM serving / streaming video / Physical-AI protected | [Link](https://arxiv.org/abs/2609.02780) | [Repo](https://github.com/CURRENTF/ShallowStream) |
 | **P0 · Strong** | **ViSAR: Training-Free Adaptive-k Retrieval for Visual Document Question Answering** | CoRR 2026 | multimodal/MLLM serving / visual RAG / adaptive retrieval | [Link](https://arxiv.org/abs/2609.02486) | — |
 | **P1 · Watch** | **Context-Aware Interleaved Batching for WhisperX** | Fresh / preprint | edge/cloud/heterogeneous AI systems / inference batching | [Link](https://arxiv.org/abs/2608.31170) | — |

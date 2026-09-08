@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-09",
   "window_start_beijing": "2026-08-10",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 409,
+  "tracked_total": 414,
   "p0_strong_or_canonical": [
     {
       "title": "Don't Drop Dropout: Optimizing Layer Sparsity for Efficient LLM Training and Inference",
@@ -1128,6 +1128,27 @@
       "tracking_tier": "P0 · Strong",
       "directions": [
         "LLM Serving"
+      ]
+    },
+    {
+      "title": "LatentPress: Context Compression Beyond Text and Vision",
+      "venue": "arXiv 2026",
+      "topic": "KV cache/long-context / LLM serving / context compression",
+      "arxiv": "2609.01507",
+      "doi": "",
+      "official_id": "arXiv:2609.01507",
+      "paper_url": "https://arxiv.org/abs/2609.01507",
+      "code_url": "https://github.com/HJSang/LatentPress",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "LatentPress compresses long conversational/document context into continuous memory tokens read directly by a frozen decoder. It reports 4-16x compression, about 43 ms write latency, and 5-9x faster compressed-prefix reading than raw context or cached OCR while matching or exceeding raw-context QA in several regimes.",
+      "published_at": "2026-09-01T16:38:15Z",
+      "updated_at": "2026-09-03T03:34:01Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context"
       ]
     },
     {
@@ -2599,6 +2620,28 @@
       ]
     },
     {
+      "title": "Who Speaks for the Pruned? Visual Token Pruning as Coverage Optimization",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / sparsity/pruning / visual token pruning",
+      "arxiv": "2609.03158",
+      "doi": "",
+      "official_id": "arXiv:2609.03158",
+      "paper_url": "https://arxiv.org/abs/2609.03158",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "CoverPruner formulates training-free visual-token pruning as representational coverage maximization and reports the best average accuracy across multiple VLMs and compression rates, especially under aggressive pruning. It directly targets inference cost, but the current abstract does not provide end-to-end latency or throughput measurements.",
+      "published_at": "2026-09-02T20:51:02Z",
+      "updated_at": "2026-09-02T20:51:02Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
       "title": "RACE-AIMC: Selective Inference for Heterogeneous Analog In-Memory Accelerators at the Edge",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI systems / analog in-memory accelerator / selective inference",
@@ -2747,6 +2790,27 @@
       ]
     },
     {
+      "title": "XMerge: Cross-Axis Selection and Reconstructive Layer Merging for LLM Depth Compression",
+      "venue": "arXiv 2026",
+      "topic": "sparsity/pruning / LLM compression / serving",
+      "arxiv": "2609.02083",
+      "doi": "",
+      "official_id": "arXiv:2609.02083",
+      "paper_url": "https://arxiv.org/abs/2609.02083",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "XMerge removes complete transformer layers while preserving the standard serving architecture and reconstructs local boundaries to reduce quality loss. It reports decode savings sufficient to amortize construction cost after tens of thousands of requests, but lacks a strong end-to-end production serving benchmark.",
+      "published_at": "2026-09-02T04:12:44Z",
+      "updated_at": "2026-09-02T04:12:44Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning"
+      ]
+    },
+    {
       "title": "HeadWiseKV: Budgeted Per-Head Cache Residency for Hybrid Long-Context Language Models",
       "venue": "arXiv 2026",
       "topic": "KV cache/long-context / LLM serving",
@@ -2765,6 +2829,49 @@
       "directions": [
         "LLM Serving",
         "KV Cache / Long Context",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Post-Training Ternarization of Qwen3-4B Capability, Effective Bit Budget, Storage Compression, and Deployment",
+      "venue": "arXiv 2026",
+      "topic": "quantization / LLM deployment / edge systems",
+      "arxiv": "2609.01962",
+      "doi": "",
+      "official_id": "arXiv:2609.01962",
+      "paper_url": "https://arxiv.org/abs/2609.01962",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "This study converts Qwen3-4B to 1.641 effective bits per quantized linear weight and packs the model from 8.29 GiB to 3.96 GiB, explicitly auditing deployment behavior. It is valuable as a negative systems result because its preliminary Triton GEMV is 4.6x slower than FP16 cuBLAS, showing storage compression does not automatically yield inference speedup.",
+      "published_at": "2026-09-02T00:42:54Z",
+      "updated_at": "2026-09-02T00:42:54Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "SCULPT: Training Edge Vision Models for Post-Training Quantization Readiness",
+      "venue": "arXiv 2026",
+      "topic": "quantization / edge AI / deployment",
+      "arxiv": "2609.01743",
+      "doi": "",
+      "official_id": "arXiv:2609.01743",
+      "paper_url": "https://arxiv.org/abs/2609.01743",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "SCULPT shapes activation distributions during ordinary FP32 training so models are easier to post-train quantize, exporting learned clipping bounds to standard INT8/W4A8 deployment without runtime transforms. It reports a large W8A8 accuracy recovery on EfficientNet-B0, but has limited systems-scale latency evidence.",
+      "published_at": "2026-09-01T18:10:19Z",
+      "updated_at": "2026-09-01T18:10:19Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -10003,6 +10110,27 @@
       ]
     },
     {
+      "title": "LatentPress: Context Compression Beyond Text and Vision",
+      "venue": "arXiv 2026",
+      "topic": "KV cache/long-context / LLM serving / context compression",
+      "arxiv": "2609.01507",
+      "doi": "",
+      "official_id": "arXiv:2609.01507",
+      "paper_url": "https://arxiv.org/abs/2609.01507",
+      "code_url": "https://github.com/HJSang/LatentPress",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "LatentPress compresses long conversational/document context into continuous memory tokens read directly by a frozen decoder. It reports 4-16x compression, about 43 ms write latency, and 5-9x faster compressed-prefix reading than raw context or cached OCR while matching or exceeding raw-context QA in several regimes.",
+      "published_at": "2026-09-01T16:38:15Z",
+      "updated_at": "2026-09-03T03:34:01Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context"
+      ]
+    },
+    {
       "title": "Zetta: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence",
       "venue": "",
       "topic": "Physical AI / embodied runtime",
@@ -11469,6 +11597,28 @@
       ]
     },
     {
+      "title": "Who Speaks for the Pruned? Visual Token Pruning as Coverage Optimization",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / sparsity/pruning / visual token pruning",
+      "arxiv": "2609.03158",
+      "doi": "",
+      "official_id": "arXiv:2609.03158",
+      "paper_url": "https://arxiv.org/abs/2609.03158",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "CoverPruner formulates training-free visual-token pruning as representational coverage maximization and reports the best average accuracy across multiple VLMs and compression rates, especially under aggressive pruning. It directly targets inference cost, but the current abstract does not provide end-to-end latency or throughput measurements.",
+      "published_at": "2026-09-02T20:51:02Z",
+      "updated_at": "2026-09-02T20:51:02Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
       "title": "RACE-AIMC: Selective Inference for Heterogeneous Analog In-Memory Accelerators at the Edge",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI systems / analog in-memory accelerator / selective inference",
@@ -11617,6 +11767,27 @@
       ]
     },
     {
+      "title": "XMerge: Cross-Axis Selection and Reconstructive Layer Merging for LLM Depth Compression",
+      "venue": "arXiv 2026",
+      "topic": "sparsity/pruning / LLM compression / serving",
+      "arxiv": "2609.02083",
+      "doi": "",
+      "official_id": "arXiv:2609.02083",
+      "paper_url": "https://arxiv.org/abs/2609.02083",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "XMerge removes complete transformer layers while preserving the standard serving architecture and reconstructs local boundaries to reduce quality loss. It reports decode savings sufficient to amortize construction cost after tens of thousands of requests, but lacks a strong end-to-end production serving benchmark.",
+      "published_at": "2026-09-02T04:12:44Z",
+      "updated_at": "2026-09-02T04:12:44Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning"
+      ]
+    },
+    {
       "title": "HeadWiseKV: Budgeted Per-Head Cache Residency for Hybrid Long-Context Language Models",
       "venue": "arXiv 2026",
       "topic": "KV cache/long-context / LLM serving",
@@ -11635,6 +11806,49 @@
       "directions": [
         "LLM Serving",
         "KV Cache / Long Context",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Post-Training Ternarization of Qwen3-4B Capability, Effective Bit Budget, Storage Compression, and Deployment",
+      "venue": "arXiv 2026",
+      "topic": "quantization / LLM deployment / edge systems",
+      "arxiv": "2609.01962",
+      "doi": "",
+      "official_id": "arXiv:2609.01962",
+      "paper_url": "https://arxiv.org/abs/2609.01962",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "This study converts Qwen3-4B to 1.641 effective bits per quantized linear weight and packs the model from 8.29 GiB to 3.96 GiB, explicitly auditing deployment behavior. It is valuable as a negative systems result because its preliminary Triton GEMV is 4.6x slower than FP16 cuBLAS, showing storage compression does not automatically yield inference speedup.",
+      "published_at": "2026-09-02T00:42:54Z",
+      "updated_at": "2026-09-02T00:42:54Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "SCULPT: Training Edge Vision Models for Post-Training Quantization Readiness",
+      "venue": "arXiv 2026",
+      "topic": "quantization / edge AI / deployment",
+      "arxiv": "2609.01743",
+      "doi": "",
+      "official_id": "arXiv:2609.01743",
+      "paper_url": "https://arxiv.org/abs/2609.01743",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "SCULPT shapes activation distributions during ordinary FP32 training so models are easier to post-train quantize, exporting learned clipping bounds to standard INT8/W4A8 deployment without runtime transforms. It reports a large W8A8 accuracy recovery on EfficientNet-B0, but has limited systems-scale latency evidence.",
+      "published_at": "2026-09-01T18:10:19Z",
+      "updated_at": "2026-09-01T18:10:19Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },

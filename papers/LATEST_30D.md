@@ -1,6 +1,6 @@
 # 🆕 Latest 30 Days
 
-> Rolling 30-day view ending **2026-09-09**: **409 tracked papers = 97 P0 + 193 P1 + 119 P2**. Topical relevance determines visibility; quality determines priority. The classical census remains stricter.
+> Rolling 30-day view ending **2026-09-09**: **414 tracked papers = 98 P0 + 197 P1 + 119 P2**. Topical relevance determines visibility; quality determines priority. The classical census remains stricter.
 
 [← Paper Library](ALL_PAPERS.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/latest_30d.json) · [CSV](../data/latest_30d.csv)
 
@@ -60,6 +60,7 @@
 | **P0 · Strong** | **CREDIT: Cost-guided Reduction-reuse with Efficient DSMEM Inter-CTA Tiling** | arXiv 2026 | GPU kernel/DSL/compilers / NVIDIA DSMEM / inter-CTA tiling | [Link](https://arxiv.org/abs/2609.01864) | [Repo](https://github.com/zhengxiongli08/CREDIT) |
 | **P0 · Strong** | **Scaling Inference Prefill with High-Radix Photonic Interconnects** | CoRR 2026 | distributed inference / LLM prefill / photonic interconnect / scale-up systems | [Link](https://arxiv.org/abs/2609.01821) | — |
 | **P0 · Strong** | **HEAT: Faster Fully Homomorphic Inference via Approximations-Weights Co-Adaptation** | arXiv 2026 | LLM serving / privacy-preserving inference / FHE acceleration | [Link](https://arxiv.org/abs/2609.01730) | — |
+| **P0 · Strong** | **LatentPress: Context Compression Beyond Text and Vision** | arXiv 2026 | KV cache/long-context / LLM serving / context compression | [Link](https://arxiv.org/abs/2609.01507) | [Repo](https://github.com/HJSang/LatentPress) |
 | **P0 · Strong** | **Zetta: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence** | Fresh / preprint | Physical AI / embodied runtime | [Link](https://arxiv.org/abs/2608.16590) | — |
 | **P0 · Strong** | **TileMix: Tile-Centric Mixed-Precision Attention for LLM Inference Acceleration** | Fresh / preprint | mixed-precision attention kernel / long-context inference | [Link](https://arxiv.org/abs/2608.17336) | — |
 | **P0 · Strong** | **TideRL: Boosting Agentic RL Goodput with Readiness-Aware Scheduling** | Fresh / preprint | agentic RL infrastructure | [Link](https://arxiv.org/abs/2608.10402) | — |
@@ -134,6 +135,7 @@
 | **P1 · Watch** | **Compile by Training: Turning Natural-Language Specifications into Local Neural Functions** | arXiv 2026 | efficient reasoning/agent systems / local inference / distillation | [Link](https://arxiv.org/abs/2609.04199) | — |
 | **P1 · Watch** | **TAP-Path: Task-Adaptive Structural and Token Pruning for Efficient and Trustworthy Pathology Foundation Models** | arXiv 2026 | sparsity/pruning / multimodal models / efficient inference | [Link](https://arxiv.org/abs/2609.04071) | — |
 | **P1 · Watch** | **SGD-KV: Summarization Guided KV Cache Compression** | Fresh / preprint | KV cache/long-context | [Link](https://arxiv.org/abs/2609.03235) | — |
+| **P1 · Watch** | **Who Speaks for the Pruned? Visual Token Pruning as Coverage Optimization** | arXiv 2026 | multimodal/MLLM serving / sparsity/pruning / visual token pruning | [Link](https://arxiv.org/abs/2609.03158) | — |
 | **P1 · Watch** | **RACE-AIMC: Selective Inference for Heterogeneous Analog In-Memory Accelerators at the Edge** | arXiv 2026 | edge/cloud/heterogeneous AI systems / analog in-memory accelerator / selective inference | [Link](https://arxiv.org/abs/2609.03149) | — |
 | **P1 · Watch** | **GPU-Accelerated Astrodynamics World Models for Spacecraft Rendezvous and Proximity Operations** | arXiv 2026 | VLA/WAM/Physical AI serving / world models / GPU simulation | [Link](https://arxiv.org/abs/2609.03067) | — |
 | **P1 · Watch** | **Quality Recovery for Quantized KV Caches via Low-Rank Attention Adaptation** | arXiv 2026 | KV cache / quantization / long-context inference / low-rank adaptation | [Link](https://arxiv.org/abs/2609.04263) | — |
@@ -141,7 +143,10 @@
 | **P1 · Watch** | **Efficient GUI Agents: A Systems Survey of Observation, Memory, Action, and Runtime Optimization** | arXiv 2026 / EMNLP 2026 workshop | efficient reasoning/agent systems / GUI agents / runtime optimization | [Link](https://arxiv.org/abs/2609.02309) | — |
 | **P1 · Watch** | **SCX Router: Streaming Zero-Shot Model Selection with a Decoder-KV Classifier and a Real-World Task Ontology** | arXiv 2026 | LLM serving / model routing / KV-cache reuse | [Link](https://arxiv.org/abs/2609.02292) | — |
 | **P1 · Watch** | **GeoSPRINT: Geometric Redundancy-Aware Step Pruning for Inference in Diffusion Trajectories** | arXiv 2026 | diffusion/flow acceleration / inference-step pruning | [Link](https://arxiv.org/abs/2609.02160) | — |
+| **P1 · Watch** | **XMerge: Cross-Axis Selection and Reconstructive Layer Merging for LLM Depth Compression** | arXiv 2026 | sparsity/pruning / LLM compression / serving | [Link](https://arxiv.org/abs/2609.02083) | — |
 | **P1 · Watch** | **HeadWiseKV: Budgeted Per-Head Cache Residency for Hybrid Long-Context Language Models** | arXiv 2026 | KV cache/long-context / LLM serving | [Link](https://arxiv.org/abs/2609.02029) | — |
+| **P1 · Watch** | **Post-Training Ternarization of Qwen3-4B Capability, Effective Bit Budget, Storage Compression, and Deployment** | arXiv 2026 | quantization / LLM deployment / edge systems | [Link](https://arxiv.org/abs/2609.01962) | — |
+| **P1 · Watch** | **SCULPT: Training Edge Vision Models for Post-Training Quantization Readiness** | arXiv 2026 | quantization / edge AI / deployment | [Link](https://arxiv.org/abs/2609.01743) | — |
 | **P1 · Watch** | **DreamX-Creator: Democratizing Native Audio-Video Generation at 2K Resolution** | Fresh / preprint | video/image generation acceleration / diffusion distillation | [Link](https://arxiv.org/abs/2608.31106) | [Repo](https://github.com/AMAP-ML/DreamX-Creator) |
 | **P1 · Watch** | **Context-Aware Interleaved Batching for WhisperX** | Fresh / preprint | edge/cloud/heterogeneous AI systems / inference batching | [Link](https://arxiv.org/abs/2608.31170) | — |
 | **P1 · Watch** | **Survival-Guided Length Control for Efficient Diffusion Language Models** | Fresh / preprint | diffusion LLM inference / efficient decoding | [Link](https://arxiv.org/abs/2608.26374) | — |

@@ -3540,6 +3540,27 @@
     ]
   },
   {
+    "title": "LatentPress: Context Compression Beyond Text and Vision",
+    "venue": "arXiv 2026",
+    "topic": "KV cache/long-context / LLM serving / context compression",
+    "arxiv": "2609.01507",
+    "doi": "",
+    "official_id": "arXiv:2609.01507",
+    "paper_url": "https://arxiv.org/abs/2609.01507",
+    "code_url": "https://github.com/HJSang/LatentPress",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "LatentPress compresses long conversational/document context into continuous memory tokens read directly by a frozen decoder. It reports 4-16x compression, about 43 ms write latency, and 5-9x faster compressed-prefix reading than raw context or cached OCR while matching or exceeding raw-context QA in several regimes.",
+    "published_at": "2026-09-01T16:38:15Z",
+    "updated_at": "2026-09-03T03:34:01Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context"
+    ]
+  },
+  {
     "title": "LeanGRPO: Eliminating Redundant Recomputation in Diffusion RL",
     "venue": "arXiv 2026",
     "topic": "diffusion/flow acceleration / efficient training / reasoning post-training",

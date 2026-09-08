@@ -1,10 +1,10 @@
 # 03 · KV Cache / Long Context
 
-> **406 canonical papers** mapped here, plus a broader **75-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **407 canonical papers** mapped here, plus a broader **76-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 75 tracked
+## 🆕 Latest 30 Days · 76 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -29,6 +29,7 @@
 | **P1 · Watch** | **SCX Router: Streaming Zero-Shot Model Selection with a Decoder-KV Classifier and a Real-World Task Ontology** | arXiv 2026 | LLM serving / model routing / KV-cache reuse | [Link](https://arxiv.org/abs/2609.02292) | — |
 | **P1 · Watch** | **HeadWiseKV: Budgeted Per-Head Cache Residency for Hybrid Long-Context Language Models** | arXiv 2026 | KV cache/long-context / LLM serving | [Link](https://arxiv.org/abs/2609.02029) | — |
 | **P0 · Strong** | **CRISP: Cliff-awaRe Input-adaptive Sparse Prefilling with Structural-Mass-Motivated Routing** | CoRR 2026 | efficient attention / sparse prefilling / long-context LLM inference / routing | [Link](https://arxiv.org/abs/2609.01925) | — |
+| **P0 · Strong** | **LatentPress: Context Compression Beyond Text and Vision** | arXiv 2026 | KV cache/long-context / LLM serving / context compression | [Link](https://arxiv.org/abs/2609.01507) | [Repo](https://github.com/HJSang/LatentPress) |
 | **P1 · Watch** | **Prefix Sliding for efficient test-time scaling** | Fresh / preprint | efficient reasoning / KV cache / long-context | [Link](https://arxiv.org/abs/2608.26070) | — |
 | **P1 · Watch** | **Benchmarking Composable Compression Techniques in Mixture-of-Experts LLMs** | Fresh / preprint | MoE compression benchmark / expert pruning / quantization / KV cache / deployment efficiency | [Link](https://arxiv.org/abs/2608.21693) | — |
 | **P1 · Watch** | **SAEM: Stage-Aware Expert Management for Memory-Efficient MoE Inference in Chain-of-Thought Reasoning** | Fresh / preprint | MoE serving / expert caching-offload / CoT reasoning / memory efficiency | [Link](https://arxiv.org/abs/2608.21614) | — |
