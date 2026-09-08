@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-09",
   "window_start_beijing": "2026-08-10",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 390,
+  "tracked_total": 396,
   "p0_strong_or_canonical": [
     {
       "title": "Don't Drop Dropout: Optimizing Layer Sparsity for Efficient LLM Training and Inference",
@@ -70,6 +70,29 @@
       ]
     },
     {
+      "title": "KVMem: Virtualizing Million-Token Agent Workspaces on a Consumer GPU",
+      "venue": "arXiv 2026",
+      "topic": "KV cache/long-context / efficient reasoning/agent systems / memory virtualization",
+      "arxiv": "2609.04852",
+      "doi": "",
+      "official_id": "arXiv:2609.04852",
+      "paper_url": "https://arxiv.org/abs/2609.04852",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Direct KV-context virtualization system spanning GPU, host memory and NVMe with attention-space indexing. Demonstrates 1M-token agent workspaces on a 24GB RTX 5090 Laptop GPU, roughly 50 tokens/s local generation, and improved task success over compaction-only baselines.",
+      "published_at": "2026-09-04T08:09:59Z",
+      "updated_at": "2026-09-04T08:09:59Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "KV Cache / Long Context",
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "FlexPosit: Tunable Fractional Precision for LLM Inference Accelerators",
       "venue": "MICRO 2026",
       "topic": "quantization / LLM accelerator / bit-serial architecture",
@@ -88,6 +111,27 @@
       "directions": [
         "LLM Serving",
         "Quantization"
+      ]
+    },
+    {
+      "title": "CIERA: Cross-Iteration Exponent Reuse for Lossless Allgather in Sharded MoE Training",
+      "venue": "arXiv 2026",
+      "topic": "MoE systems/accelerators / distributed training / lossless allgather compression",
+      "arxiv": "2609.04609",
+      "doi": "",
+      "official_id": "arXiv:2609.04609",
+      "paper_url": "https://arxiv.org/abs/2609.04609",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Direct system-aware MoE communication method. Caches stable exponents across iterations, transmits sign+mantissa when safe, overlaps compression with Allgather/computation, preserves bitwise-exact reconstruction, and reports 3.70x speedup at 16 GPUs with 4.28x projected at 128 GPUs.",
+      "published_at": "2026-09-04T01:19:42Z",
+      "updated_at": "2026-09-04T01:19:42Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "MoE Systems / Accelerators",
+        "Distributed Training / Inference"
       ]
     },
     {
@@ -172,6 +216,27 @@
       "directions": [
         "Sparsity / Pruning",
         "MoE Systems / Accelerators"
+      ]
+    },
+    {
+      "title": "Tuning Collective Patterns to Alleviate Congestion in Shared AI Clusters",
+      "venue": "arXiv 2026",
+      "topic": "distributed training/inference / AI-cluster networking / collectives",
+      "arxiv": "2609.04417",
+      "doi": "",
+      "official_id": "arXiv:2609.04417",
+      "paper_url": "https://arxiv.org/abs/2609.04417",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "REACT is a deployable NCCL shim that detects congestion from runtime flow statistics and retunes collective patterns without switch or global scheduler support. Shared-cluster evaluation improves collective algorithm bandwidth by 13-38%, with simulations showing up to 75%.",
+      "published_at": "2026-09-03T19:32:40Z",
+      "updated_at": "2026-09-03T19:32:40Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference"
       ]
     },
     {
@@ -1977,6 +2042,26 @@
   ],
   "p1_watchlist": [
     {
+      "title": "ACE: Adaptive Calibration-Free Expert Skipping for MoE-based LLMs",
+      "venue": "arXiv 2026",
+      "topic": "MoE systems/accelerators / adaptive expert skipping",
+      "arxiv": "2609.05228",
+      "doi": "",
+      "official_id": "arXiv:2609.05228",
+      "paper_url": "https://arxiv.org/abs/2609.05228",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Training- and calibration-free token-adaptive expert skipping with offline spectral/prototype statistics and lightweight runtime table lookups. Strong quality at 50% expert skipping across multiple MoE LLMs, but current abstract lacks measured end-to-end systems speedup.",
+      "published_at": "2026-09-04T14:56:00Z",
+      "updated_at": "2026-09-04T14:56:00Z",
+      "is_latest_30d": true,
+      "directions": [
+        "MoE Systems / Accelerators"
+      ]
+    },
+    {
       "title": "APEX-RBD: Mixed-Precision Exploration Framework for Hardware-Efficient Robot Dynamics Accelerator Design",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / robot accelerator / mixed precision / edge hardware",
@@ -2175,6 +2260,48 @@
       "directions": [
         "LLM Serving",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "JLIR: A Julia-Native MLIR-Inspired Intermediate Representation with Automatic JACC Kernel Extraction",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / Julia IR / accelerator kernel extraction",
+      "arxiv": "2609.04585",
+      "doi": "",
+      "official_id": "arXiv:2609.04585",
+      "paper_url": "https://arxiv.org/abs/2609.04585",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Compiler-infrastructure contribution bringing MLIR-style extensible IR into Julia with automatic JACC accelerator-kernel extraction. Relevant to DSL/compiler route, but current primary evidence does not yet establish strong AI-workload performance impact.",
+      "published_at": "2026-09-04T00:35:54Z",
+      "updated_at": "2026-09-04T00:35:54Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Training-Free Halving of Activated Experts in Fine-Grained Mixture-of-Experts Models",
+      "venue": "arXiv 2026",
+      "topic": "MoE systems/accelerators / expert pruning / inference efficiency",
+      "arxiv": "2609.04575",
+      "doi": "",
+      "official_id": "arXiv:2609.04575",
+      "paper_url": "https://arxiv.org/abs/2609.04575",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Training-free method separates active expert count from probability-mass normalization, halving routed-expert compute on Qwen3.6-35B-A3B with only 0.35 MMLU-point loss and replicating on Qwen3.5-397B-A17B. Strong algorithmic MoE-efficiency signal but lacks measured serving latency/throughput.",
+      "published_at": "2026-09-04T00:11:28Z",
+      "updated_at": "2026-09-04T00:11:28Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "MoE Systems / Accelerators"
       ]
     },
     {
@@ -8541,6 +8668,29 @@
       ]
     },
     {
+      "title": "KVMem: Virtualizing Million-Token Agent Workspaces on a Consumer GPU",
+      "venue": "arXiv 2026",
+      "topic": "KV cache/long-context / efficient reasoning/agent systems / memory virtualization",
+      "arxiv": "2609.04852",
+      "doi": "",
+      "official_id": "arXiv:2609.04852",
+      "paper_url": "https://arxiv.org/abs/2609.04852",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Direct KV-context virtualization system spanning GPU, host memory and NVMe with attention-space indexing. Demonstrates 1M-token agent workspaces on a 24GB RTX 5090 Laptop GPU, roughly 50 tokens/s local generation, and improved task success over compaction-only baselines.",
+      "published_at": "2026-09-04T08:09:59Z",
+      "updated_at": "2026-09-04T08:09:59Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "KV Cache / Long Context",
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "FlexPosit: Tunable Fractional Precision for LLM Inference Accelerators",
       "venue": "MICRO 2026",
       "topic": "quantization / LLM accelerator / bit-serial architecture",
@@ -8559,6 +8709,27 @@
       "directions": [
         "LLM Serving",
         "Quantization"
+      ]
+    },
+    {
+      "title": "CIERA: Cross-Iteration Exponent Reuse for Lossless Allgather in Sharded MoE Training",
+      "venue": "arXiv 2026",
+      "topic": "MoE systems/accelerators / distributed training / lossless allgather compression",
+      "arxiv": "2609.04609",
+      "doi": "",
+      "official_id": "arXiv:2609.04609",
+      "paper_url": "https://arxiv.org/abs/2609.04609",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Direct system-aware MoE communication method. Caches stable exponents across iterations, transmits sign+mantissa when safe, overlaps compression with Allgather/computation, preserves bitwise-exact reconstruction, and reports 3.70x speedup at 16 GPUs with 4.28x projected at 128 GPUs.",
+      "published_at": "2026-09-04T01:19:42Z",
+      "updated_at": "2026-09-04T01:19:42Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "MoE Systems / Accelerators",
+        "Distributed Training / Inference"
       ]
     },
     {
@@ -8643,6 +8814,27 @@
       "directions": [
         "Sparsity / Pruning",
         "MoE Systems / Accelerators"
+      ]
+    },
+    {
+      "title": "Tuning Collective Patterns to Alleviate Congestion in Shared AI Clusters",
+      "venue": "arXiv 2026",
+      "topic": "distributed training/inference / AI-cluster networking / collectives",
+      "arxiv": "2609.04417",
+      "doi": "",
+      "official_id": "arXiv:2609.04417",
+      "paper_url": "https://arxiv.org/abs/2609.04417",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "REACT is a deployable NCCL shim that detects congestion from runtime flow statistics and retunes collective patterns without switch or global scheduler support. Shared-cluster evaluation improves collective algorithm bandwidth by 13-38%, with simulations showing up to 75%.",
+      "published_at": "2026-09-03T19:32:40Z",
+      "updated_at": "2026-09-03T19:32:40Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference"
       ]
     },
     {
@@ -10446,6 +10638,26 @@
       ]
     },
     {
+      "title": "ACE: Adaptive Calibration-Free Expert Skipping for MoE-based LLMs",
+      "venue": "arXiv 2026",
+      "topic": "MoE systems/accelerators / adaptive expert skipping",
+      "arxiv": "2609.05228",
+      "doi": "",
+      "official_id": "arXiv:2609.05228",
+      "paper_url": "https://arxiv.org/abs/2609.05228",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Training- and calibration-free token-adaptive expert skipping with offline spectral/prototype statistics and lightweight runtime table lookups. Strong quality at 50% expert skipping across multiple MoE LLMs, but current abstract lacks measured end-to-end systems speedup.",
+      "published_at": "2026-09-04T14:56:00Z",
+      "updated_at": "2026-09-04T14:56:00Z",
+      "is_latest_30d": true,
+      "directions": [
+        "MoE Systems / Accelerators"
+      ]
+    },
+    {
       "title": "APEX-RBD: Mixed-Precision Exploration Framework for Hardware-Efficient Robot Dynamics Accelerator Design",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / robot accelerator / mixed precision / edge hardware",
@@ -10644,6 +10856,48 @@
       "directions": [
         "LLM Serving",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "JLIR: A Julia-Native MLIR-Inspired Intermediate Representation with Automatic JACC Kernel Extraction",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / Julia IR / accelerator kernel extraction",
+      "arxiv": "2609.04585",
+      "doi": "",
+      "official_id": "arXiv:2609.04585",
+      "paper_url": "https://arxiv.org/abs/2609.04585",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Compiler-infrastructure contribution bringing MLIR-style extensible IR into Julia with automatic JACC accelerator-kernel extraction. Relevant to DSL/compiler route, but current primary evidence does not yet establish strong AI-workload performance impact.",
+      "published_at": "2026-09-04T00:35:54Z",
+      "updated_at": "2026-09-04T00:35:54Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Training-Free Halving of Activated Experts in Fine-Grained Mixture-of-Experts Models",
+      "venue": "arXiv 2026",
+      "topic": "MoE systems/accelerators / expert pruning / inference efficiency",
+      "arxiv": "2609.04575",
+      "doi": "",
+      "official_id": "arXiv:2609.04575",
+      "paper_url": "https://arxiv.org/abs/2609.04575",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Training-free method separates active expert count from probability-mass normalization, halving routed-expert compute on Qwen3.6-35B-A3B with only 0.35 MMLU-point loss and replicating on Qwen3.5-397B-A17B. Strong algorithmic MoE-efficiency signal but lacks measured serving latency/throughput.",
+      "published_at": "2026-09-04T00:11:28Z",
+      "updated_at": "2026-09-04T00:11:28Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "MoE Systems / Accelerators"
       ]
     },
     {

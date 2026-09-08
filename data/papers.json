@@ -2736,6 +2736,27 @@
     ]
   },
   {
+    "title": "CIERA: Cross-Iteration Exponent Reuse for Lossless Allgather in Sharded MoE Training",
+    "venue": "arXiv 2026",
+    "topic": "MoE systems/accelerators / distributed training / lossless allgather compression",
+    "arxiv": "2609.04609",
+    "doi": "",
+    "official_id": "arXiv:2609.04609",
+    "paper_url": "https://arxiv.org/abs/2609.04609",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Direct system-aware MoE communication method. Caches stable exponents across iterations, transmits sign+mantissa when safe, overlaps compression with Allgather/computation, preserves bitwise-exact reconstruction, and reports 3.70x speedup at 16 GPUs with 4.28x projected at 128 GPUs.",
+    "published_at": "2026-09-04T01:19:42Z",
+    "updated_at": "2026-09-04T01:19:42Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "MoE Systems / Accelerators",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "CoFiE: Coarse-to-Fine Evidence Selection for Efficient Streaming Video Understanding",
     "venue": "arXiv 2026",
     "topic": "multimodal/MLLM serving / sparsity / streaming video",
@@ -3387,6 +3408,29 @@
       "LLM Serving",
       "Efficient Attention",
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "KVMem: Virtualizing Million-Token Agent Workspaces on a Consumer GPU",
+    "venue": "arXiv 2026",
+    "topic": "KV cache/long-context / efficient reasoning/agent systems / memory virtualization",
+    "arxiv": "2609.04852",
+    "doi": "",
+    "official_id": "arXiv:2609.04852",
+    "paper_url": "https://arxiv.org/abs/2609.04852",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Direct KV-context virtualization system spanning GPU, host memory and NVMe with attention-space indexing. Demonstrates 1M-token agent workspaces on a 24GB RTX 5090 Laptop GPU, roughly 50 tokens/s local generation, and improved task success over compaction-only baselines.",
+    "published_at": "2026-09-04T08:09:59Z",
+    "updated_at": "2026-09-04T08:09:59Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "KV Cache / Long Context",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -4623,6 +4667,27 @@
       "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Tuning Collective Patterns to Alleviate Congestion in Shared AI Clusters",
+    "venue": "arXiv 2026",
+    "topic": "distributed training/inference / AI-cluster networking / collectives",
+    "arxiv": "2609.04417",
+    "doi": "",
+    "official_id": "arXiv:2609.04417",
+    "paper_url": "https://arxiv.org/abs/2609.04417",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "REACT is a deployable NCCL shim that detects congestion from runtime flow statistics and retunes collective patterns without switch or global scheduler support. Shared-cluster evaluation improves collective algorithm bandwidth by 13-38%, with simulations showing up to 75%.",
+    "published_at": "2026-09-03T19:32:40Z",
+    "updated_at": "2026-09-03T19:32:40Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference"
     ]
   },
   {
