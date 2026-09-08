@@ -1,6 +1,6 @@
 # 🆕 Latest 30 Days
 
-> Rolling 30-day view ending **2026-09-08**: **437 tracked papers = 152 P0 + 166 P1 + 119 P2**. Topical relevance determines visibility; quality determines priority. The classical census remains stricter.
+> Rolling 30-day view ending **2026-09-08**: **441 tracked papers = 155 P0 + 167 P1 + 119 P2**. Topical relevance determines visibility; quality determines priority. The classical census remains stricter.
 
 [← Paper Library](ALL_PAPERS.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/latest_30d.json) · [CSV](../data/latest_30d.csv)
 
@@ -10,7 +10,10 @@
 |---|---|---|---|---|---|
 | **P0 · Strong** | **Don't Drop Dropout: Optimizing Layer Sparsity for Efficient LLM Training and Inference** | ICML 2026 | LLM training efficiency / layer sparsity / early exit / self-speculative decoding | [Link](https://arxiv.org/abs/2609.05275) | — |
 | **P0 · Strong** | **BeaconKV: Key-Value Cache Compression Guided by Beacon Queries for Efficient Large Reasoning Model Inference** | ICML 2026 | KV cache / long reasoning / training-free compression | [Link](https://arxiv.org/abs/2609.04971) | [Repo](https://github.com/aiha-lab/BeaconKV) |
+| **P0 · Strong** | **Forgetting Without Restarting: Execution-State Unlearning for Stateful LLM Agents** | arXiv 2026 | efficient reasoning/agent systems / stateful agent runtime / KV cache / selective replay | [Link](https://arxiv.org/abs/2609.04875) | — |
 | **P0 · Strong** | **FlexPosit: Tunable Fractional Precision for LLM Inference Accelerators** | MICRO 2026 | quantization / LLM accelerator / bit-serial architecture | [Link](https://arxiv.org/abs/2609.04724) | — |
+| **P0 · Strong** | **Scale-QLoRA: Code-Invariant Adapter Merging for Native 4-bit Microscaling LLMs** | arXiv 2026 | quantization / native 4-bit microscaling / LoRA deployment / code-invariant merge | [Link](https://arxiv.org/abs/2609.04526) | — |
+| **P0 · Strong** | **When Load-Balancing Goes Too Far: Expert Pruning in Over-Dispersed Mixture-of-Experts Models** | arXiv 2026 | MoE systems / expert pruning / inference memory reduction / routing dispersion | [Link](https://arxiv.org/abs/2609.04453) | — |
 | **P0 · Strong** | **VLA-Precision: Asymmetric Co-Bootstrapping for Efficient Real-World Online RL of Vision-Language-Action Models** | arXiv 2026 | VLA / Physical AI / real-world online RL / streaming runtime | [Link](https://arxiv.org/abs/2609.04355) | [Repo](https://vla-precision.github.io/) |
 | **P0 · Strong** | **Para-Pipe: Exploiting Hierarchical Operator Parallelism of ML Computational Graphs on SoCs** | IEEE TCAD 2025 | edge/cloud/heterogeneous AI systems / SoC mapping / operator parallelism | [Link](https://arxiv.org/abs/2609.04168) | — |
 | **P0 · Strong** | **Hardware-Aware FP4 FlashAttention-4** | CoRR 2026 | efficient attention / quantization / GPU kernel / Blackwell FP4 | [Link](https://arxiv.org/abs/2609.04105) | [Repo](https://github.com/MrHuff/fp4-fa4) |
@@ -205,6 +208,7 @@
 | **P1 · Watch** | **Latent Action as Intention Enables Efficient Future Imagination for World Action Models** | Fresh / preprint | Physical AI / WAM / latent action / inference latency | [Link](https://arxiv.org/abs/2608.24882) | — |
 | **P1 · Watch** | **PuzzleKV: Page-Wise Low-Rank Decomposition for KV Cache Compression** | Fresh / preprint | KV cache / low-rank compression / autoregressive decode | [Link](https://arxiv.org/abs/2608.23843) | — |
 | **P1 · Watch** | **Pipeline-Native Transformers: Co-Designing Model Architecture and CPU Inference for Bandwidth-Efficient Autoregressive Decode** | Fresh / preprint | LLM serving / CPU inference / architecture-runtime co-design / MoE | [Link](https://arxiv.org/abs/2608.23841) | — |
+| **P1 · Watch** | **ShardMeter: Sharded and Geo-Distributed Training Without the Guesswork** | arXiv 2026 | distributed training/inference / geo-distributed systems / performance modeling / configuration planning | [Link](https://arxiv.org/abs/2608.23840) | — |
 | **P1 · Watch** | **Minima-KV: Retention-Preserving KV Cache Compression with Mixed-Format Paged Attention** | Fresh / preprint | KV cache / paged attention / mixed-format inference | [Link](https://arxiv.org/abs/2608.23834) | — |
 | **P1 · Watch** | **Learning to Act While Waiting: RL Finetuning of Generalist Robot Policies Under Inference Latency** | Fresh / preprint | Physical AI / VLA / asynchronous inference / latency-aware RL | [Link](https://arxiv.org/abs/2608.23831) | — |
 | **P1 · Watch** | **Serving Masked Diffusion LLMs: Characterization and Design Principles from Real Hardware** | Fresh / preprint | diffusion language model serving / batching / real hardware characterization | [Link](https://arxiv.org/abs/2608.23807) | — |

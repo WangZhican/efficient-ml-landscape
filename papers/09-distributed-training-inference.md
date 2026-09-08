@@ -1,10 +1,10 @@
 # 09 · Distributed Training / Inference
 
-> **300 canonical papers** mapped here, plus a broader **52-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **300 canonical papers** mapped here, plus a broader **53-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 52 tracked
+## 🆕 Latest 30 Days · 53 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -25,6 +25,7 @@
 | **P0 · Strong** | **psRL: Efficient Training for Agentic AI via Training-Time Prefix Sharing** | Fresh / preprint | agent RL systems / distributed training / KV prefix sharing | [Link](https://arxiv.org/abs/2608.25683) | — |
 | **P1 · Watch** | **DataKernelBench: Can LLMs Optimize Database Queries on GPUs?** | Fresh / preprint | GPU kernel / compiler / benchmark | [Link](https://arxiv.org/abs/2608.25061) | — |
 | **P1 · Watch** | **More GPUs or a Smaller Cache? Tensor Parallelism versus KV Compression for Memory-Bound LLM Serving** | Fresh / preprint | LLM serving / KV cache / tensor parallelism / cost-performance | [Link](https://arxiv.org/abs/2608.23962) | — |
+| **P1 · Watch** | **ShardMeter: Sharded and Geo-Distributed Training Without the Guesswork** | arXiv 2026 | distributed training/inference / geo-distributed systems / performance modeling / configuration planning | [Link](https://arxiv.org/abs/2608.23840) | — |
 | **P0 · Strong** | **Memory-Efficient Training-Free Acceleration of Diffusion Transformers with BaryCache** | Fresh / preprint | diffusion/flow acceleration / cache | [Link](https://arxiv.org/abs/2608.28670) | — |
 | **P1 · Watch** | **Architecting the Next Generation of Asynchronous, Distributed GPUs for the AI Era** | Fresh / preprint | GPU architecture / distributed accelerators / simulation | [Link](https://arxiv.org/abs/2608.22602) | — |
 | **P1 · Watch** | **Beyond Dense Adam States: Adaptive Log-Space Quantization for Memory-Efficient Optimizers** | Fresh / preprint | memory-efficient training / optimizer-state quantization / low-precision optimizer | [Link](https://arxiv.org/abs/2608.22322) | — |

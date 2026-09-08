@@ -1,10 +1,10 @@
 # 01 · LLM Serving
 
-> **680 canonical papers** mapped here, plus a broader **298-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **680 canonical papers** mapped here, plus a broader **299-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 298 tracked
+## 🆕 Latest 30 Days · 299 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -88,6 +88,7 @@
 | **P2 · Relevant** | **From Seeing to Acting: Smart Glasses as First-Person Intelligence Platforms** | Fresh / preprint | Physical AI / wearable first-person intelligence / edge platform | [Link](https://arxiv.org/abs/2608.24877) | — |
 | **P1 · Watch** | **PuzzleKV: Page-Wise Low-Rank Decomposition for KV Cache Compression** | Fresh / preprint | KV cache / low-rank compression / autoregressive decode | [Link](https://arxiv.org/abs/2608.23843) | — |
 | **P1 · Watch** | **Pipeline-Native Transformers: Co-Designing Model Architecture and CPU Inference for Bandwidth-Efficient Autoregressive Decode** | Fresh / preprint | LLM serving / CPU inference / architecture-runtime co-design / MoE | [Link](https://arxiv.org/abs/2608.23841) | — |
+| **P1 · Watch** | **ShardMeter: Sharded and Geo-Distributed Training Without the Guesswork** | arXiv 2026 | distributed training/inference / geo-distributed systems / performance modeling / configuration planning | [Link](https://arxiv.org/abs/2608.23840) | — |
 | **P1 · Watch** | **Minima-KV: Retention-Preserving KV Cache Compression with Mixed-Format Paged Attention** | Fresh / preprint | KV cache / paged attention / mixed-format inference | [Link](https://arxiv.org/abs/2608.23834) | — |
 | **P1 · Watch** | **Serving Masked Diffusion LLMs: Characterization and Design Principles from Real Hardware** | Fresh / preprint | diffusion language model serving / batching / real hardware characterization | [Link](https://arxiv.org/abs/2608.23807) | — |
 | **P1 · Watch** | **Memory-Sovereign Inference: Output-Exact Execution Beyond Full Residency** | Fresh / preprint | LLM serving / storage-backed inference / memory hierarchy / exactness | [Link](https://arxiv.org/abs/2608.23805) | — |

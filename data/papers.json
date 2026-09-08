@@ -2884,6 +2884,27 @@
     ]
   },
   {
+    "title": "Forgetting Without Restarting: Execution-State Unlearning for Stateful LLM Agents",
+    "venue": "arXiv 2026",
+    "topic": "efficient reasoning/agent systems / stateful agent runtime / KV cache / selective replay",
+    "arxiv": "2609.04875",
+    "doi": "",
+    "official_id": "arXiv:2609.04875",
+    "paper_url": "https://arxiv.org/abs/2609.04875",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "30d agent-runtime replay recovered a systems mechanism absent from authority. It formalizes execution-state unlearning across prompt, compressed memory, pending state and KV cache, and implements provenance-guided selective replay: locate the revoked information injection point, crop/restore the KV checkpoint, and regenerate only the tainted suffix instead of restarting the entire trajectory. The paper reports counterfactual-equivalent behavior with up to 9x fewer recomputed tokens than full reset.",
+    "published_at": "2026-09-04T08:31:40Z",
+    "updated_at": "2026-09-04T08:31:40Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "KV Cache / Long Context",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "Foundry: Template-Based CUDA Graph Context Materialization for Fast LLM Serving Cold Start",
     "venue": "arXiv 2026",
     "topic": "LLM serving / CUDA graph / cold-start / autoscaling",
@@ -4008,6 +4029,26 @@
     ]
   },
   {
+    "title": "Scale-QLoRA: Code-Invariant Adapter Merging for Native 4-bit Microscaling LLMs",
+    "venue": "arXiv 2026",
+    "topic": "quantization / native 4-bit microscaling / LoRA deployment / code-invariant merge",
+    "arxiv": "2609.04526",
+    "doi": "",
+    "official_id": "arXiv:2609.04526",
+    "paper_url": "https://arxiv.org/abs/2609.04526",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "30d quantization deployment replay recovered a paper absent from the current authority/watch union. It targets a concrete deployment problem for NVFP4/MXFP4 checkpoints: conventional LoRA merging can re-derive the discrete code plane and erase adaptation. Scale-QLoRA freezes the E2M1 code plane and adapts only per-block scales on the deployment grid, making merge bit-exact within the native format while removing runtime adapter overhead and enabling exact rollback/deduplication.",
+    "published_at": "2026-09-03T22:29:37Z",
+    "updated_at": "2026-09-03T22:29:37Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Quantization"
+    ]
+  },
+  {
     "title": "Scheduling Mixed RL Rollouts Beyond Prefix Locality",
     "venue": "arXiv 2026",
     "topic": "LLM serving / RL rollout scheduling / KV-cache capacity allocation",
@@ -4477,6 +4518,27 @@
       "Speculative Decoding",
       "Multimodal / MLLM Serving",
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "When Load-Balancing Goes Too Far: Expert Pruning in Over-Dispersed Mixture-of-Experts Models",
+    "venue": "arXiv 2026",
+    "topic": "MoE systems / expert pruning / inference memory reduction / routing dispersion",
+    "arxiv": "2609.04453",
+    "doi": "",
+    "official_id": "arXiv:2609.04453",
+    "paper_url": "https://arxiv.org/abs/2609.04453",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "30d MoE efficiency replay recovered a direct inference-memory paper absent from authority. It identifies over-dispersed routing as a distinct regime where standard router-importance and perplexity proxies become misleading for expert pruning, then proposes domain-aware Minimax Expert Score Allocation to reduce worst-case capability degradation while pruning experts and lowering the model memory footprint.",
+    "published_at": "2026-09-03T20:21:20Z",
+    "updated_at": "2026-09-03T20:21:20Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Sparsity / Pruning",
+      "MoE Systems / Accelerators"
     ]
   },
   {

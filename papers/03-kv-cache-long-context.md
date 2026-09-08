@@ -1,14 +1,15 @@
 # 03 · KV Cache / Long Context
 
-> **398 canonical papers** mapped here, plus a broader **91-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **399 canonical papers** mapped here, plus a broader **92-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 91 tracked
+## 🆕 Latest 30 Days · 92 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **P0 · Strong** | **BeaconKV: Key-Value Cache Compression Guided by Beacon Queries for Efficient Large Reasoning Model Inference** | ICML 2026 | KV cache / long reasoning / training-free compression | [Link](https://arxiv.org/abs/2609.04971) | [Repo](https://github.com/aiha-lab/BeaconKV) |
+| **P0 · Strong** | **Forgetting Without Restarting: Execution-State Unlearning for Stateful LLM Agents** | arXiv 2026 | efficient reasoning/agent systems / stateful agent runtime / KV cache / selective replay | [Link](https://arxiv.org/abs/2609.04875) | — |
 | **P1 · Watch** | **Linguistic Trajectory Encoding for Efficient Long-Horizon Spatial Memory in Embodied Agents** | arXiv 2026 | Physical AI / embodied agent memory / long-horizon spatial compression | [Link](https://arxiv.org/abs/2609.04802) | — |
 | **P0 · Strong** | **Why Gated DeltaNet Survives 4-Bit Quantization: NVFP4 W4A4 for the Recurrent Half of a Hybrid 27B LLM** | CoRR 2026 | quantization / hybrid attention-SSM LLM / NVFP4 W4A4 / KV cache | [Link](https://arxiv.org/abs/2609.04098) | — |
 | **P0 · Strong** | **VestigeKV: The NoPE-MLA KV Cache Carries Its Own Eviction Signal in a Vestigial Branch** | CoRR 2026 | KV cache / long-context / MLA / cache eviction | [Link](https://arxiv.org/abs/2609.03949) | — |

@@ -1,10 +1,10 @@
 # 08 · GPU Kernel / DSL / Compiler
 
-> **399 canonical papers** mapped here, plus a broader **96-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **399 canonical papers** mapped here, plus a broader **97-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 96 tracked
+## 🆕 Latest 30 Days · 97 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -29,6 +29,7 @@
 | **P1 · Watch** | **Launch-Bound and Substitutable: Why Three Inference Optimizations Fail to Pay Off in Mixture-of-Experts Models** | Fresh / preprint | MoE systems / inference optimization analysis | [Link](https://arxiv.org/abs/2608.26612) | — |
 | **P1 · Watch** | **DataKernelBench: Can LLMs Optimize Database Queries on GPUs?** | Fresh / preprint | GPU kernel / compiler / benchmark | [Link](https://arxiv.org/abs/2608.25061) | — |
 | **P1 · Watch** | **TurboT2VA: Fast Large-Scale Text-to-Video-Audio Generation via Score-Regularized Consistency Distillation** | Fresh / preprint | video/image generation acceleration / multimodal diffusion / quantization / sparse attention | [Link](https://arxiv.org/abs/2608.24674) | — |
+| **P1 · Watch** | **ShardMeter: Sharded and Geo-Distributed Training Without the Guesswork** | arXiv 2026 | distributed training/inference / geo-distributed systems / performance modeling / configuration planning | [Link](https://arxiv.org/abs/2608.23840) | — |
 | **P1 · Watch** | **ProxyFormer: A Dual-Stream Proxy Architecture for Ultra-Long Context and High-Resolution Generation** | Fresh / preprint | long context / KV-cache reduction / high-resolution generation | [Link](https://arxiv.org/abs/2608.23463) | — |
 | **P1 · Watch** | **E2S-Pruner: Progressive Two-Stage Evidence Fusion for Visual Token Pruning in Vision-Language Models** | Fresh / preprint | visual token pruning / MLLM inference / throughput acceleration | [Link](https://arxiv.org/abs/2608.23253) | — |
 | **P0 · Strong** | **ExFold: Unified Expert Folding for Training-Free MoE Prefill-Decode Acceleration** | Fresh / preprint | MoE systems / LLM serving / CUDA kernel | [Link](https://arxiv.org/abs/2608.24938) | — |

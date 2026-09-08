@@ -1,14 +1,15 @@
 # 07 · MoE Systems / Accelerators
 
-> **125 canonical papers** mapped here, plus a broader **42-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **126 canonical papers** mapped here, plus a broader **43-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 42 tracked
+## 🆕 Latest 30 Days · 43 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **P1 · Watch** | **Cache-Aware Joint Router Adaptation for Memory-Efficient MoE Inference** | arXiv 2026 | MoE systems/accelerators / expert cache / router adaptation | [Link](https://arxiv.org/abs/2609.04895) | — |
+| **P0 · Strong** | **When Load-Balancing Goes Too Far: Expert Pruning in Over-Dispersed Mixture-of-Experts Models** | arXiv 2026 | MoE systems / expert pruning / inference memory reduction / routing dispersion | [Link](https://arxiv.org/abs/2609.04453) | — |
 | **P0 · Strong** | **Scaling Inference Prefill with High-Radix Photonic Interconnects** | CoRR 2026 | distributed inference / LLM prefill / photonic interconnect / scale-up systems | [Link](https://arxiv.org/abs/2609.01821) | — |
 | **P0 · Strong** | **PCoMoE: Shifting MoE Inference from Monolithic Expert Selection to Fine-Grained Path Composition** | CoRR 2026 | MoE systems/accelerators / fine-grained path composition / inference engine | [Link](https://arxiv.org/abs/2609.01024) | [Repo](https://github.com/gzyyy0/PCoMoE) |
 | **P0 · Strong** | **AInfer-PD: Communication-Safe In-Place Prefill-Decode Multiplexing for Distributed MoE Rollouts** | arXiv 2026 | LLM serving / agentic RL rollout / prefill-decode multiplexing / distributed MoE / communication | [Link](https://arxiv.org/abs/2609.00993) | — |
