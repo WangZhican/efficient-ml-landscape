@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-09",
   "window_start_beijing": "2026-08-10",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 416,
+  "tracked_total": 418,
   "p0_strong_or_canonical": [
     {
       "title": "Don't Drop Dropout: Optimizing Layer Sparsity for Efficient LLM Training and Inference",
@@ -677,6 +677,27 @@
       ]
     },
     {
+      "title": "Spruce: Scalable Private Outsourced Retrieval Using Compact Embeddings",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / RAG retrieval / privacy-preserving systems / efficient retrieval",
+      "arxiv": "2609.03376",
+      "doi": "",
+      "official_id": "arXiv:2609.03376",
+      "paper_url": "https://arxiv.org/abs/2609.03376",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Direct RAG-serving systems contribution. Co-designs compact binary retrieval representations with two-server MPC; across 383K-5.42M document corpora, full scans are 4.8-6.7x faster than closest measured prior work, private pruning is 13.1-22.9x faster while retaining 93.9-97.3% full-float NDCG, and largest-corpus sustained throughput improves 31.5x at 1 Gbps.",
+      "published_at": "2026-09-03T05:19:03Z",
+      "updated_at": "2026-09-03T05:19:03Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning"
+      ]
+    },
+    {
       "title": "Latency-Aware Orchestration for Multi-Agent LLM Workflows on Heterogeneous GPUs",
       "venue": "arXiv 2026",
       "topic": "efficient reasoning/agent systems / heterogeneous GPU serving",
@@ -984,6 +1005,29 @@
       ]
     },
     {
+      "title": "Hardware-Accelerated Instance Segmentation for Resource-Constrained Space Robotics with Criticality Analysis",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / edge accelerator / quantization / reliable robotics inference",
+      "arxiv": "2609.02219",
+      "doi": "",
+      "official_id": "arXiv:2609.02219",
+      "paper_url": "https://arxiv.org/abs/2609.02219",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Deployment-oriented Physical-AI systems paper combining quantization calibration, DPU architectural adaptation to reduce CPU fallback, bounded-latency execution, and radiation criticality analysis on a lunar micro-rover. Reports 309 ms inference at 5.7 W, recovers 69.8% of quantization-induced accuracy loss, and targeted mitigation lowers global criticality by 31.7%.",
+      "published_at": "2026-09-02T07:33:27Z",
+      "updated_at": "2026-09-02T07:33:27Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "MeanField Surrogate Modeling for Scalable Runtime Scheduling of Concurrent Heterogeneous AI Inference on Shared GPUs",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI systems / GPU scheduling / concurrent inference",
@@ -1046,6 +1090,28 @@
       ]
     },
     {
+      "title": "RT-HiSS: Ray Tracing Accelerated High Dimensional Vector Similarity Searches",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/accelerators / vector search / heterogeneous GPU cores",
+      "arxiv": "2609.01975",
+      "doi": "",
+      "official_id": "arXiv:2609.01975",
+      "paper_url": "https://arxiv.org/abs/2609.01975",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Direct heterogeneous-GPU acceleration contribution that repurposes RT cores for exact high-dimensional similarity search with CUDA refinement, batching, shared-memory tiling and compressed result masks; reports up to 8.37x over competitive GPU algorithms and up to 2368.26x over brute force across six real-world datasets.",
+      "published_at": "2026-09-02T01:17:22Z",
+      "updated_at": "2026-09-02T01:17:22Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "CRISP: Cliff-awaRe Input-adaptive Sparse Prefilling with Structural-Mass-Motivated Routing",
       "venue": "CoRR 2026",
       "topic": "efficient attention / sparse prefilling / long-context LLM inference / routing",
@@ -1066,89 +1132,6 @@
         "KV Cache / Long Context",
         "Sparsity / Pruning",
         "Efficient Attention"
-      ]
-    },
-    {
-      "title": "CREDIT: Cost-guided Reduction-reuse with Efficient DSMEM Inter-CTA Tiling",
-      "venue": "arXiv 2026",
-      "topic": "GPU kernel/DSL/compilers / NVIDIA DSMEM / inter-CTA tiling",
-      "arxiv": "2609.01864",
-      "doi": "",
-      "official_id": "arXiv:2609.01864",
-      "paper_url": "https://arxiv.org/abs/2609.01864",
-      "code_url": "https://github.com/zhengxiongli08/CREDIT",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Direct GPU-kernel systems contribution accepted by HPEC 2026. Cost-guided DSMEM profitability model plus reduction-reuse transformation; beats torch.compile, Triton and optimized CUDA baselines on six workloads, with 1.466x geometric-mean speedup on RTX 5090 and 1.318x on H100; official source code is available.",
-      "published_at": "2026-09-01T20:54:29Z",
-      "updated_at": "2026-09-01T20:54:29Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "GPU Kernel / DSL / Compiler"
-      ]
-    },
-    {
-      "title": "Scaling Inference Prefill with High-Radix Photonic Interconnects",
-      "venue": "CoRR 2026",
-      "topic": "distributed inference / LLM prefill / photonic interconnect / scale-up systems",
-      "arxiv": "2609.01821",
-      "doi": "",
-      "official_id": "2609.01821",
-      "paper_url": "https://arxiv.org/abs/2609.01821",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Direct AI-infrastructure scaling study for MoE inference prefill. Evaluates 1K-1M context regimes and reports 2.1x-3.2x latency improvements in stressed high-batch regimes, 2.8x-5.8x in communication-limited configurations, and 2.2x-4.5x speedups when electrical systems hit scale-up-pod limits.",
-      "published_at": "2026-09-01T19:54:04Z",
-      "updated_at": "2026-09-01T19:54:04Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "MoE Systems / Accelerators",
-        "Distributed Training / Inference"
-      ]
-    },
-    {
-      "title": "HEAT: Faster Fully Homomorphic Inference via Approximations-Weights Co-Adaptation",
-      "venue": "arXiv 2026",
-      "topic": "LLM serving / privacy-preserving inference / FHE acceleration",
-      "arxiv": "2609.01730",
-      "doi": "",
-      "official_id": "arXiv:2609.01730",
-      "paper_url": "https://arxiv.org/abs/2609.01730",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "HEAT makes per-nonlinearity approximation iteration counts learnable and co-adapts them with model weights. On encrypted GPT-2 decoding it reports 3.1x fewer iterations, 1.6x fewer bootstraps and 1.4x lower end-to-end latency while improving decode agreement.",
-      "published_at": "2026-09-01T18:02:02Z",
-      "updated_at": "2026-09-01T18:02:02Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving"
-      ]
-    },
-    {
-      "title": "LatentPress: Context Compression Beyond Text and Vision",
-      "venue": "arXiv 2026",
-      "topic": "KV cache/long-context / LLM serving / context compression",
-      "arxiv": "2609.01507",
-      "doi": "",
-      "official_id": "arXiv:2609.01507",
-      "paper_url": "https://arxiv.org/abs/2609.01507",
-      "code_url": "https://github.com/HJSang/LatentPress",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "LatentPress compresses long conversational/document context into continuous memory tokens read directly by a frozen decoder. It reports 4-16x compression, about 43 ms write latency, and 5-9x faster compressed-prefix reading than raw context or cached OCR while matching or exceeding raw-context QA in several regimes.",
-      "published_at": "2026-09-01T16:38:15Z",
-      "updated_at": "2026-09-03T03:34:01Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "KV Cache / Long Context"
       ]
     },
     {
@@ -2229,6 +2212,28 @@
       ]
     },
     {
+      "title": "MCPO: Modality-Contrastive Preference Optimization for Multimodal Chain-of-Thought Compression",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / multimodal reasoning / CoT compression / KV pressure",
+      "arxiv": "2609.04947",
+      "doi": "",
+      "official_id": "arXiv:2609.04947",
+      "paper_url": "https://arxiv.org/abs/2609.04947",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Strong efficiency signal for multimodal reasoning: fewer than 900 training samples, up to 69.5% CoT-length reduction and up to 3.34x end-to-end inference speedup while preserving accuracy. Contribution is primarily algorithmic preference/compression rather than a serving-system design, so retain as high-value watch.",
+      "published_at": "2026-09-04T09:54:53Z",
+      "updated_at": "2026-09-04T09:54:53Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Compact-Memory LLM Agents via Online Max-Member Clustering and Atom-Aware Packing",
       "venue": "arXiv 2026",
       "topic": "efficient reasoning/agent systems / memory compression / long-horizon agents",
@@ -2747,6 +2752,28 @@
       ]
     },
     {
+      "title": "LookStep: Efficient Vision-Language Navigation with Linguistic Foresight and Event Driven Memory",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / embodied navigation / bounded memory",
+      "arxiv": "2609.02350",
+      "doi": "",
+      "official_id": "arXiv:2609.02350",
+      "paper_url": "https://arxiv.org/abs/2609.02350",
+      "code_url": "https://github.com/kunyang-YU/LookStep",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI efficiency signal. Replaces accumulated frames/cognitive maps with event-driven bounded rolling memory and linguistic future-state modeling; reports 49.7% R2R-CE Val-Unseen success with better memory efficiency and less data, with official author code/model release. Current paper emphasizes policy/task quality more than measured end-to-end serving latency, so keep as high-value watch.",
+      "published_at": "2026-09-02T09:24:08Z",
+      "updated_at": "2026-09-04T09:59:59Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Efficient GUI Agents: A Systems Survey of Observation, Memory, Action, and Runtime Optimization",
       "venue": "arXiv 2026 / EMNLP 2026 workshop",
       "topic": "efficient reasoning/agent systems / GUI agents / runtime optimization",
@@ -2875,47 +2902,24 @@
       ]
     },
     {
-      "title": "SCULPT: Training Edge Vision Models for Post-Training Quantization Readiness",
+      "title": "Network-Aware Forecasting on Wireless Access Points",
       "venue": "arXiv 2026",
-      "topic": "quantization / edge AI / deployment",
-      "arxiv": "2609.01743",
+      "topic": "edge/cloud/heterogeneous AI systems / on-device inference / resource contention",
+      "arxiv": "2609.01957",
       "doi": "",
-      "official_id": "arXiv:2609.01743",
-      "paper_url": "https://arxiv.org/abs/2609.01743",
+      "official_id": "arXiv:2609.01957",
+      "paper_url": "https://arxiv.org/abs/2609.01957",
       "code_url": "",
       "formal_class": "WATCH",
       "decision": "WATCH",
       "tracking_tier": "P1 · Watch",
-      "why": "SCULPT shapes activation distributions during ordinary FP32 training so models are easier to post-train quantize, exporting learned clipping bounds to standard INT8/W4A8 deployment without runtime transforms. It reports a large W8A8 accuracy recovery on EfficientNet-B0, but has limited systems-scale latency evidence.",
-      "published_at": "2026-09-01T18:10:19Z",
-      "updated_at": "2026-09-01T18:10:19Z",
-      "is_latest_30d": true,
-      "directions": [
-        "Quantization",
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "Selective Agent Guidance via Entropy: Learning Autonomous Policies from Imperfect VLM Teachers",
-      "venue": "arXiv 2026",
-      "topic": "efficient reasoning/agent systems / VLA/WAM/Physical AI serving / distillation",
-      "arxiv": "2609.01567",
-      "doi": "",
-      "official_id": "arXiv:2609.01567",
-      "paper_url": "https://arxiv.org/abs/2609.01567",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "SAGE queries an expensive VLM teacher only on uncertain training steps and distills useful guidance into a lightweight autonomous policy; deployment requires no VLM calls. This is a strong efficiency signal for embodied/interactive agents, but current evidence emphasizes learning quality and teacher-query reduction rather than serving latency.",
-      "published_at": "2026-09-01T17:33:41Z",
-      "updated_at": "2026-09-02T11:12:21Z",
+      "why": "Useful real deployment measurement for inference sharing an enterprise AP with packet processing. Five implementations run 6.1-19.1x slower on target AP than Raspberry Pi 5; two similarly sized foundation models differ 19x in AP latency; 13-stream serving under network saturation raises p99 RTT 76% and cuts throughput 7.06%. Primarily a measurement/deployability study rather than a new runtime, so watchlist-high.",
+      "published_at": "2026-09-02T00:19:58Z",
+      "updated_at": "2026-09-02T00:19:58Z",
       "is_latest_30d": true,
       "directions": [
         "LLM Serving",
-        "Multimodal / MLLM Serving",
-        "Efficient Reasoning / Agents",
-        "VLA / WAM / Physical AI"
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -4978,6 +4982,50 @@
       "directions": [
         "LLM Serving",
         "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "Selective Agent Guidance via Entropy: Learning Autonomous Policies from Imperfect VLM Teachers",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / VLA/WAM/Physical AI serving / distillation",
+      "arxiv": "2609.01567",
+      "doi": "",
+      "official_id": "arXiv:2609.01567",
+      "paper_url": "https://arxiv.org/abs/2609.01567",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "SAGE queries an expensive VLM teacher only on uncertain training steps and distills useful guidance into a lightweight autonomous policy; deployment requires no VLM calls. This is a strong efficiency signal for embodied/interactive agents, but current evidence emphasizes learning quality and teacher-query reduction rather than serving latency.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "SCULPT: Training Edge Vision Models for Post-Training Quantization Readiness",
+      "venue": "arXiv 2026",
+      "topic": "quantization / edge AI / deployment",
+      "arxiv": "2609.01743",
+      "doi": "",
+      "official_id": "arXiv:2609.01743",
+      "paper_url": "https://arxiv.org/abs/2609.01743",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "SCULPT shapes activation distributions during ordinary FP32 training so models are easier to post-train quantize, exporting learned clipping bounds to standard INT8/W4A8 deployment without runtime transforms. It reports a large W8A8 accuracy recovery on EfficientNet-B0, but has limited systems-scale latency evidence.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -9699,6 +9747,27 @@
       ]
     },
     {
+      "title": "Spruce: Scalable Private Outsourced Retrieval Using Compact Embeddings",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / RAG retrieval / privacy-preserving systems / efficient retrieval",
+      "arxiv": "2609.03376",
+      "doi": "",
+      "official_id": "arXiv:2609.03376",
+      "paper_url": "https://arxiv.org/abs/2609.03376",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Direct RAG-serving systems contribution. Co-designs compact binary retrieval representations with two-server MPC; across 383K-5.42M document corpora, full scans are 4.8-6.7x faster than closest measured prior work, private pruning is 13.1-22.9x faster while retaining 93.9-97.3% full-float NDCG, and largest-corpus sustained throughput improves 31.5x at 1 Gbps.",
+      "published_at": "2026-09-03T05:19:03Z",
+      "updated_at": "2026-09-03T05:19:03Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning"
+      ]
+    },
+    {
       "title": "Latency-Aware Orchestration for Multi-Agent LLM Workflows on Heterogeneous GPUs",
       "venue": "arXiv 2026",
       "topic": "efficient reasoning/agent systems / heterogeneous GPU serving",
@@ -10006,6 +10075,29 @@
       ]
     },
     {
+      "title": "Hardware-Accelerated Instance Segmentation for Resource-Constrained Space Robotics with Criticality Analysis",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / edge accelerator / quantization / reliable robotics inference",
+      "arxiv": "2609.02219",
+      "doi": "",
+      "official_id": "arXiv:2609.02219",
+      "paper_url": "https://arxiv.org/abs/2609.02219",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Deployment-oriented Physical-AI systems paper combining quantization calibration, DPU architectural adaptation to reduce CPU fallback, bounded-latency execution, and radiation criticality analysis on a lunar micro-rover. Reports 309 ms inference at 5.7 W, recovers 69.8% of quantization-induced accuracy loss, and targeted mitigation lowers global criticality by 31.7%.",
+      "published_at": "2026-09-02T07:33:27Z",
+      "updated_at": "2026-09-02T07:33:27Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "MeanField Surrogate Modeling for Scalable Runtime Scheduling of Concurrent Heterogeneous AI Inference on Shared GPUs",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI systems / GPU scheduling / concurrent inference",
@@ -10068,6 +10160,28 @@
       ]
     },
     {
+      "title": "RT-HiSS: Ray Tracing Accelerated High Dimensional Vector Similarity Searches",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/accelerators / vector search / heterogeneous GPU cores",
+      "arxiv": "2609.01975",
+      "doi": "",
+      "official_id": "arXiv:2609.01975",
+      "paper_url": "https://arxiv.org/abs/2609.01975",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Direct heterogeneous-GPU acceleration contribution that repurposes RT cores for exact high-dimensional similarity search with CUDA refinement, batching, shared-memory tiling and compressed result masks; reports up to 8.37x over competitive GPU algorithms and up to 2368.26x over brute force across six real-world datasets.",
+      "published_at": "2026-09-02T01:17:22Z",
+      "updated_at": "2026-09-02T01:17:22Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "CRISP: Cliff-awaRe Input-adaptive Sparse Prefilling with Structural-Mass-Motivated Routing",
       "venue": "CoRR 2026",
       "topic": "efficient attention / sparse prefilling / long-context LLM inference / routing",
@@ -10088,89 +10202,6 @@
         "KV Cache / Long Context",
         "Sparsity / Pruning",
         "Efficient Attention"
-      ]
-    },
-    {
-      "title": "CREDIT: Cost-guided Reduction-reuse with Efficient DSMEM Inter-CTA Tiling",
-      "venue": "arXiv 2026",
-      "topic": "GPU kernel/DSL/compilers / NVIDIA DSMEM / inter-CTA tiling",
-      "arxiv": "2609.01864",
-      "doi": "",
-      "official_id": "arXiv:2609.01864",
-      "paper_url": "https://arxiv.org/abs/2609.01864",
-      "code_url": "https://github.com/zhengxiongli08/CREDIT",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Direct GPU-kernel systems contribution accepted by HPEC 2026. Cost-guided DSMEM profitability model plus reduction-reuse transformation; beats torch.compile, Triton and optimized CUDA baselines on six workloads, with 1.466x geometric-mean speedup on RTX 5090 and 1.318x on H100; official source code is available.",
-      "published_at": "2026-09-01T20:54:29Z",
-      "updated_at": "2026-09-01T20:54:29Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "GPU Kernel / DSL / Compiler"
-      ]
-    },
-    {
-      "title": "Scaling Inference Prefill with High-Radix Photonic Interconnects",
-      "venue": "CoRR 2026",
-      "topic": "distributed inference / LLM prefill / photonic interconnect / scale-up systems",
-      "arxiv": "2609.01821",
-      "doi": "",
-      "official_id": "2609.01821",
-      "paper_url": "https://arxiv.org/abs/2609.01821",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Direct AI-infrastructure scaling study for MoE inference prefill. Evaluates 1K-1M context regimes and reports 2.1x-3.2x latency improvements in stressed high-batch regimes, 2.8x-5.8x in communication-limited configurations, and 2.2x-4.5x speedups when electrical systems hit scale-up-pod limits.",
-      "published_at": "2026-09-01T19:54:04Z",
-      "updated_at": "2026-09-01T19:54:04Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "MoE Systems / Accelerators",
-        "Distributed Training / Inference"
-      ]
-    },
-    {
-      "title": "HEAT: Faster Fully Homomorphic Inference via Approximations-Weights Co-Adaptation",
-      "venue": "arXiv 2026",
-      "topic": "LLM serving / privacy-preserving inference / FHE acceleration",
-      "arxiv": "2609.01730",
-      "doi": "",
-      "official_id": "arXiv:2609.01730",
-      "paper_url": "https://arxiv.org/abs/2609.01730",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "HEAT makes per-nonlinearity approximation iteration counts learnable and co-adapts them with model weights. On encrypted GPT-2 decoding it reports 3.1x fewer iterations, 1.6x fewer bootstraps and 1.4x lower end-to-end latency while improving decode agreement.",
-      "published_at": "2026-09-01T18:02:02Z",
-      "updated_at": "2026-09-01T18:02:02Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving"
-      ]
-    },
-    {
-      "title": "LatentPress: Context Compression Beyond Text and Vision",
-      "venue": "arXiv 2026",
-      "topic": "KV cache/long-context / LLM serving / context compression",
-      "arxiv": "2609.01507",
-      "doi": "",
-      "official_id": "arXiv:2609.01507",
-      "paper_url": "https://arxiv.org/abs/2609.01507",
-      "code_url": "https://github.com/HJSang/LatentPress",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "LatentPress compresses long conversational/document context into continuous memory tokens read directly by a frozen decoder. It reports 4-16x compression, about 43 ms write latency, and 5-9x faster compressed-prefix reading than raw context or cached OCR while matching or exceeding raw-context QA in several regimes.",
-      "published_at": "2026-09-01T16:38:15Z",
-      "updated_at": "2026-09-03T03:34:01Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "KV Cache / Long Context"
       ]
     },
     {
@@ -11249,6 +11280,28 @@
       ]
     },
     {
+      "title": "MCPO: Modality-Contrastive Preference Optimization for Multimodal Chain-of-Thought Compression",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / multimodal reasoning / CoT compression / KV pressure",
+      "arxiv": "2609.04947",
+      "doi": "",
+      "official_id": "arXiv:2609.04947",
+      "paper_url": "https://arxiv.org/abs/2609.04947",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Strong efficiency signal for multimodal reasoning: fewer than 900 training samples, up to 69.5% CoT-length reduction and up to 3.34x end-to-end inference speedup while preserving accuracy. Contribution is primarily algorithmic preference/compression rather than a serving-system design, so retain as high-value watch.",
+      "published_at": "2026-09-04T09:54:53Z",
+      "updated_at": "2026-09-04T09:54:53Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Compact-Memory LLM Agents via Online Max-Member Clustering and Atom-Aware Packing",
       "venue": "arXiv 2026",
       "topic": "efficient reasoning/agent systems / memory compression / long-horizon agents",
@@ -11767,6 +11820,28 @@
       ]
     },
     {
+      "title": "LookStep: Efficient Vision-Language Navigation with Linguistic Foresight and Event Driven Memory",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / embodied navigation / bounded memory",
+      "arxiv": "2609.02350",
+      "doi": "",
+      "official_id": "arXiv:2609.02350",
+      "paper_url": "https://arxiv.org/abs/2609.02350",
+      "code_url": "https://github.com/kunyang-YU/LookStep",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI efficiency signal. Replaces accumulated frames/cognitive maps with event-driven bounded rolling memory and linguistic future-state modeling; reports 49.7% R2R-CE Val-Unseen success with better memory efficiency and less data, with official author code/model release. Current paper emphasizes policy/task quality more than measured end-to-end serving latency, so keep as high-value watch.",
+      "published_at": "2026-09-02T09:24:08Z",
+      "updated_at": "2026-09-04T09:59:59Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Efficient GUI Agents: A Systems Survey of Observation, Memory, Action, and Runtime Optimization",
       "venue": "arXiv 2026 / EMNLP 2026 workshop",
       "topic": "efficient reasoning/agent systems / GUI agents / runtime optimization",
@@ -11895,47 +11970,24 @@
       ]
     },
     {
-      "title": "SCULPT: Training Edge Vision Models for Post-Training Quantization Readiness",
+      "title": "Network-Aware Forecasting on Wireless Access Points",
       "venue": "arXiv 2026",
-      "topic": "quantization / edge AI / deployment",
-      "arxiv": "2609.01743",
+      "topic": "edge/cloud/heterogeneous AI systems / on-device inference / resource contention",
+      "arxiv": "2609.01957",
       "doi": "",
-      "official_id": "arXiv:2609.01743",
-      "paper_url": "https://arxiv.org/abs/2609.01743",
+      "official_id": "arXiv:2609.01957",
+      "paper_url": "https://arxiv.org/abs/2609.01957",
       "code_url": "",
       "formal_class": "WATCH",
       "decision": "WATCH",
       "tracking_tier": "P1 · Watch",
-      "why": "SCULPT shapes activation distributions during ordinary FP32 training so models are easier to post-train quantize, exporting learned clipping bounds to standard INT8/W4A8 deployment without runtime transforms. It reports a large W8A8 accuracy recovery on EfficientNet-B0, but has limited systems-scale latency evidence.",
-      "published_at": "2026-09-01T18:10:19Z",
-      "updated_at": "2026-09-01T18:10:19Z",
-      "is_latest_30d": true,
-      "directions": [
-        "Quantization",
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "Selective Agent Guidance via Entropy: Learning Autonomous Policies from Imperfect VLM Teachers",
-      "venue": "arXiv 2026",
-      "topic": "efficient reasoning/agent systems / VLA/WAM/Physical AI serving / distillation",
-      "arxiv": "2609.01567",
-      "doi": "",
-      "official_id": "arXiv:2609.01567",
-      "paper_url": "https://arxiv.org/abs/2609.01567",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "SAGE queries an expensive VLM teacher only on uncertain training steps and distills useful guidance into a lightweight autonomous policy; deployment requires no VLM calls. This is a strong efficiency signal for embodied/interactive agents, but current evidence emphasizes learning quality and teacher-query reduction rather than serving latency.",
-      "published_at": "2026-09-01T17:33:41Z",
-      "updated_at": "2026-09-02T11:12:21Z",
+      "why": "Useful real deployment measurement for inference sharing an enterprise AP with packet processing. Five implementations run 6.1-19.1x slower on target AP than Raspberry Pi 5; two similarly sized foundation models differ 19x in AP latency; 13-stream serving under network saturation raises p99 RTT 76% and cuts throughput 7.06%. Primarily a measurement/deployability study rather than a new runtime, so watchlist-high.",
+      "published_at": "2026-09-02T00:19:58Z",
+      "updated_at": "2026-09-02T00:19:58Z",
       "is_latest_30d": true,
       "directions": [
         "LLM Serving",
-        "Multimodal / MLLM Serving",
-        "Efficient Reasoning / Agents",
-        "VLA / WAM / Physical AI"
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -13998,6 +14050,50 @@
       "directions": [
         "LLM Serving",
         "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "Selective Agent Guidance via Entropy: Learning Autonomous Policies from Imperfect VLM Teachers",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / VLA/WAM/Physical AI serving / distillation",
+      "arxiv": "2609.01567",
+      "doi": "",
+      "official_id": "arXiv:2609.01567",
+      "paper_url": "https://arxiv.org/abs/2609.01567",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "SAGE queries an expensive VLM teacher only on uncertain training steps and distills useful guidance into a lightweight autonomous policy; deployment requires no VLM calls. This is a strong efficiency signal for embodied/interactive agents, but current evidence emphasizes learning quality and teacher-query reduction rather than serving latency.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "SCULPT: Training Edge Vision Models for Post-Training Quantization Readiness",
+      "venue": "arXiv 2026",
+      "topic": "quantization / edge AI / deployment",
+      "arxiv": "2609.01743",
+      "doi": "",
+      "official_id": "arXiv:2609.01743",
+      "paper_url": "https://arxiv.org/abs/2609.01743",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "SCULPT shapes activation distributions during ordinary FP32 training so models are easier to post-train quantize, exporting learned clipping bounds to standard INT8/W4A8 deployment without runtime transforms. It reports a large W8A8 accuracy recovery on EfficientNet-B0, but has limited systems-scale latency evidence.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {

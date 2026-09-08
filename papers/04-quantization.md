@@ -1,10 +1,10 @@
 # 04 · Quantization
 
-> **230 canonical papers** mapped here, plus a broader **66-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **231 canonical papers** mapped here, plus a broader **67-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 66 tracked
+## 🆕 Latest 30 Days · 67 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -19,8 +19,8 @@
 | **P0 · Strong** | **UE5M3 FP4 Block Scaling for Stable Language Model Pretraining** | arXiv 2026 | quantization / efficient training / low-precision systems | [Link](https://arxiv.org/abs/2609.02846) | — |
 | **P0 · Strong** | **Unfolding the Leech Lattice: Fused Multi-Shell Decoding and VRAM Layouts for 2-Bit LLM Weights** | arXiv 2026 | LLM quantization / 2-bit serving / fused dequantize-GEMV kernel / VRAM layout | [Link](https://arxiv.org/abs/2609.02652) | — |
 | **P1 · Watch** | **Quality Recovery for Quantized KV Caches via Low-Rank Attention Adaptation** | arXiv 2026 | KV cache / quantization / long-context inference / low-rank adaptation | [Link](https://arxiv.org/abs/2609.04263) | — |
+| **P0 · Strong** | **Hardware-Accelerated Instance Segmentation for Resource-Constrained Space Robotics with Criticality Analysis** | arXiv 2026 | VLA/WAM/Physical AI serving / edge accelerator / quantization / reliable robotics inference | [Link](https://arxiv.org/abs/2609.02219) | — |
 | **P1 · Watch** | **Post-Training Ternarization of Qwen3-4B Capability, Effective Bit Budget, Storage Compression, and Deployment** | arXiv 2026 | quantization / LLM deployment / edge systems | [Link](https://arxiv.org/abs/2609.01962) | — |
-| **P1 · Watch** | **SCULPT: Training Edge Vision Models for Post-Training Quantization Readiness** | arXiv 2026 | quantization / edge AI / deployment | [Link](https://arxiv.org/abs/2609.01743) | — |
 | **P1 · Watch** | **Activation Outliers Matter: Robust Recovery for Quantized Multimodal LLMs** | Fresh / preprint | quantization / multimodal / video generation | [Link](https://arxiv.org/abs/2608.26581) | — |
 | **P2 · Relevant** | **StreamPI: Streaming Multimodal Temporal Modeling for Vision-Language-Action Models** | Fresh / preprint | Physical AI / VLA streaming | [Link](https://arxiv.org/abs/2608.26067) | — |
 | **P1 · Watch** | **Beyond Dense Adam States: Adaptive Log-Space Quantization for Memory-Efficient Optimizers** | Fresh / preprint | memory-efficient training / optimizer-state quantization / low-precision optimizer | [Link](https://arxiv.org/abs/2608.22322) | — |
@@ -60,6 +60,7 @@
 | **P1 · Watch** | **Transforms for LLM Quantization: The Great Inversion and Format Co-Design** | arXiv 2026 | quantization / number-format co-design / transform methods | [Link](https://arxiv.org/abs/2608.25188) | — |
 | **P0 · Strong** | **TileMix: Tile-Centric Mixed-Precision Attention for LLM Inference Acceleration** | Fresh / preprint | mixed-precision attention kernel / long-context inference | [Link](https://arxiv.org/abs/2608.17336) | — |
 | **P1 · Watch** | **Spend Bits Where Queries Look: KV Cache Vector Quantization with Attention-Preserving Transforms** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.04074) | — |
+| **P1 · Watch** | **SCULPT: Training Edge Vision Models for Post-Training Quantization Readiness** | arXiv 2026 | quantization / edge AI / deployment | [Link](https://arxiv.org/abs/2609.01743) | — |
 | **P1 · Watch** | **PuzzleKV: Page-Wise Low-Rank Decomposition for KV Cache Compression** | Fresh / preprint | KV cache / low-rank compression / autoregressive decode | [Link](https://arxiv.org/abs/2608.23843) | — |
 | **P1 · Watch** | **Precision-Induced Miscalibration: Understanding and Correcting Confidence Distortion in Quantized Neural Networks** | ICML 2026 | quantization / low-precision calibration / confidence distortion / mixed precision | [Link](https://openreview.net/forum?id=zCkFbxKeF5) | — |
 | **P0 · Strong** | **Pre-Compiled Pipeline Shards for Distributed LLM Inference on Intel AI PC Fleets** | Fresh / preprint | distributed LLM inference / edge AI PC fleet / speculative decoding | [Link](https://arxiv.org/abs/2608.19147) | [Repo](https://github.com/labscommunity/pipeline-sharded-inference-paper) |

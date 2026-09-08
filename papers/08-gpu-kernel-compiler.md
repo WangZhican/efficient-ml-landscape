@@ -1,6 +1,6 @@
 # 08 · GPU Kernel / DSL / Compiler
 
-> **407 canonical papers** mapped here, plus a broader **92-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **408 canonical papers** mapped here, plus a broader **92-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -24,8 +24,8 @@
 | **P0 · Strong** | **Unfolding the Leech Lattice: Fused Multi-Shell Decoding and VRAM Layouts for 2-Bit LLM Weights** | arXiv 2026 | LLM quantization / 2-bit serving / fused dequantize-GEMV kernel / VRAM layout | [Link](https://arxiv.org/abs/2609.02652) | — |
 | **P0 · Strong** | **Atlas: Algorithm-Hardware Co-Design for On-Device City-Scale 3D Gaussian Splatting in VR** | arXiv 2026 | edge/cloud/heterogeneous AI systems / 3D Gaussian splatting / on-device rendering | [Link](https://arxiv.org/abs/2609.02352) | — |
 | **P0 · Strong** | **MeanField Surrogate Modeling for Scalable Runtime Scheduling of Concurrent Heterogeneous AI Inference on Shared GPUs** | arXiv 2026 | edge/cloud/heterogeneous AI systems / GPU scheduling / concurrent inference | [Link](https://arxiv.org/abs/2609.02109) | — |
+| **P0 · Strong** | **RT-HiSS: Ray Tracing Accelerated High Dimensional Vector Similarity Searches** | arXiv 2026 | GPU kernel/accelerators / vector search / heterogeneous GPU cores | [Link](https://arxiv.org/abs/2609.01975) | — |
 | **P1 · Watch** | **Post-Training Ternarization of Qwen3-4B Capability, Effective Bit Budget, Storage Compression, and Deployment** | arXiv 2026 | quantization / LLM deployment / edge systems | [Link](https://arxiv.org/abs/2609.01962) | — |
-| **P0 · Strong** | **CREDIT: Cost-guided Reduction-reuse with Efficient DSMEM Inter-CTA Tiling** | arXiv 2026 | GPU kernel/DSL/compilers / NVIDIA DSMEM / inter-CTA tiling | [Link](https://arxiv.org/abs/2609.01864) | [Repo](https://github.com/zhengxiongli08/CREDIT) |
 | **P1 · Watch** | **E2S-Pruner: Progressive Two-Stage Evidence Fusion for Visual Token Pruning in Vision-Language Models** | Fresh / preprint | visual token pruning / MLLM inference / throughput acceleration | [Link](https://arxiv.org/abs/2608.23253) | — |
 | **P1 · Watch** | **LLM4LLM: Bridging Kernel Benchmarks and Real Deployment via Closed-Loop Agentic Optimization** | Fresh / preprint | GPU kernel optimization / deployment-aware agentic optimization / LLM inference | [Link](https://arxiv.org/abs/2608.21836) | — |
 | **P1 · Watch** | **SPICE: Speculative Prefetching with Low-Rank Expert Surrogates and Heterogeneous Orchestration for MoE Inference Acceleration** | Fresh / preprint | llm_serving / spec / moe / edge | [Link](https://arxiv.org/abs/2608.21240) | — |
@@ -101,7 +101,7 @@
 | **P0 · Strong** | **A Thread-Register Decoupled GPU Execution Model for Efficient Tensor Computation** | Fresh / preprint | GPU execution architecture / tensor cores / LLM serving | [Link](https://arxiv.org/abs/2608.19628) | — |
 | **P1 · Watch** | **A Scalable Pipeline for LLM-Teacher Distillation Labeling: Work-Stealing Job Scheduling and Memory-Aware GPU Concurrency** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.15975) | — |
 
-## 🏛️ Classical / Historical · 375 canonical
+## 🏛️ Classical / Historical · 376 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -123,6 +123,7 @@
 | **Canonical** | **CacheFlow: Efficient LLM Serving with 3D-Parallel KV Cache Restoration** | arXiv 2026 | LLM serving; KV-cache restoration; long-context inference; token/layer/GPU parallelism; compute-I/O overlap | [Link](https://arxiv.org/abs/2604.25080) | — |
 | **Canonical** | **CAKE: Compiler-Agent Co-Design for Frontier Kernel Evolution** | arXiv 2026 | GPU kernel / DSL / compiler / agentic systems / LLM serving | [Link](https://arxiv.org/abs/2608.12629) | — |
 | **Canonical** | **Compiler-Grounded Hierarchical Diagnosis for LLM-Based Triton Kernel Optimization** | arXiv 2026 | GPU kernel/DSL/compilers / NPU kernel optimization | [Link](https://arxiv.org/abs/2607.23089) | — |
+| **Canonical** | **CREDIT: Cost-guided Reduction-reuse with Efficient DSMEM Inter-CTA Tiling** | arXiv 2026 | GPU kernel/DSL/compilers / NVIDIA DSMEM / inter-CTA tiling | [Link](https://arxiv.org/abs/2609.01864) | [Repo](https://github.com/zhengxiongli08/CREDIT) |
 | **Canonical** | **DAMP: Decay-Aware Mixed-Precision Recurrent-State Quantization** | arXiv 2026 | quantization / recurrent-state memory / LLM inference | [Link](https://arxiv.org/abs/2608.27513) | — |
 | **Canonical** | **FleetOpt: Analytical Fleet Provisioning for LLM Inference with Compress-and-Route as Implementation Mechanism** | arXiv 2026 | LLM serving / heterogeneous GPU fleet / context-length routing / fleet provisioning | [Link](https://arxiv.org/abs/2603.16514) | — |
 | **Canonical** | **Foundry: Template-Based CUDA Graph Context Materialization for Fast LLM Serving Cold Start** | arXiv 2026 | LLM serving / CUDA graph / cold-start / autoscaling | [Link](https://arxiv.org/abs/2604.06664) | — |

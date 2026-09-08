@@ -1,10 +1,10 @@
 # 07 · MoE Systems / Accelerators
 
-> **127 canonical papers** mapped here, plus a broader **37-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **127 canonical papers** mapped here, plus a broader **36-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 37 tracked
+## 🆕 Latest 30 Days · 36 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -14,7 +14,6 @@
 | **P0 · Strong** | **CIERA: Cross-Iteration Exponent Reuse for Lossless Allgather in Sharded MoE Training** | arXiv 2026 | MoE systems/accelerators / distributed training / lossless allgather compression | [Link](https://arxiv.org/abs/2609.04609) | — |
 | **P1 · Watch** | **Training-Free Halving of Activated Experts in Fine-Grained Mixture-of-Experts Models** | arXiv 2026 | MoE systems/accelerators / expert pruning / inference efficiency | [Link](https://arxiv.org/abs/2609.04575) | — |
 | **P0 · Strong** | **When Load-Balancing Goes Too Far: Expert Pruning in Over-Dispersed Mixture-of-Experts Models** | arXiv 2026 | MoE systems / expert pruning / inference memory reduction / routing dispersion | [Link](https://arxiv.org/abs/2609.04453) | — |
-| **P0 · Strong** | **Scaling Inference Prefill with High-Radix Photonic Interconnects** | CoRR 2026 | distributed inference / LLM prefill / photonic interconnect / scale-up systems | [Link](https://arxiv.org/abs/2609.01821) | — |
 | **P1 · Watch** | **NOVA: Technology-Architecture Co-Design of Near-Memory Processing for Attention-SSM-MoE Hybrid LLM Inference** | Fresh / preprint | hybrid LLM inference / near-memory processing / Attention-SSM-MoE architecture | [Link](https://arxiv.org/abs/2608.22613) | — |
 | **P1 · Watch** | **Benchmarking Composable Compression Techniques in Mixture-of-Experts LLMs** | Fresh / preprint | MoE compression benchmark / expert pruning / quantization / KV cache / deployment efficiency | [Link](https://arxiv.org/abs/2608.21693) | — |
 | **P1 · Watch** | **SAEM: Stage-Aware Expert Management for Memory-Efficient MoE Inference in Chain-of-Thought Reasoning** | Fresh / preprint | MoE serving / expert caching-offload / CoT reasoning / memory efficiency | [Link](https://arxiv.org/abs/2608.21614) | — |
@@ -46,7 +45,7 @@
 | **P1 · Watch** | **Cacheable by Design? Training Mixture-of-Experts Routers for Locality Against the Edge Memory-Bandwidth Wall: A Pre-Registered Negative Result with a Systems Measurement Study** | Fresh / preprint | edge MoE serving / expert caching / memory bandwidth | [Link](https://arxiv.org/abs/2608.18261) | — |
 | **P0 · Strong** | **Beyond Capacity: Scalable MoE LLM Inference via High-Bandwidth Flash with Direct GPU and HBM Paths** | Fresh / preprint | MoE serving / high-bandwidth flash architecture | [Link](https://arxiv.org/abs/2608.14333) | — |
 
-## 🏛️ Classical / Historical · 119 canonical
+## 🏛️ Classical / Historical · 120 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -86,6 +85,7 @@
 | **Canonical** | **SlimMoE: Structured Compression of Large MoE Models via Expert Slimming and Distillation** | COLM 2025 | MoE compression / efficient inference | [Link](https://arxiv.org/abs/2506.18349) | — |
 | **Canonical** | **K-Search: LLM Kernel Generation via Co-Evolving Intrinsic World Model** | CoRR 2026 | GPU kernel/DSL/compilers / automated kernel optimization / FlashInfer / MoE / MLA / GQA | [Link](https://arxiv.org/abs/2602.19128) | [Repo](https://github.com/caoshiyi/K-Search) |
 | **Canonical** | **PCoMoE: Shifting MoE Inference from Monolithic Expert Selection to Fine-Grained Path Composition** | CoRR 2026 | MoE systems/accelerators / fine-grained path composition / inference engine | [Link](https://arxiv.org/abs/2609.01024) | [Repo](https://github.com/gzyyy0/PCoMoE) |
+| **Canonical** | **Scaling Inference Prefill with High-Radix Photonic Interconnects** | CoRR 2026 | distributed inference / LLM prefill / photonic interconnect / scale-up systems | [Link](https://arxiv.org/abs/2609.01821) | — |
 | **Canonical** | **Scaling Multi-Node Mixture-of-Experts Inference Using Expert Activation Patterns** | CoRR 2026 | MoE systems / distributed inference / expert placement / workload-aware batching | [Link](https://arxiv.org/abs/2604.23150) | — |
 | **Canonical** | **HybriMoE: Hybrid CPU-GPU Scheduling and Cache Management for Efficient MoE Inference** | DAC 2025 | MoE inference / hybrid CPU-GPU scheduling / expert prefetch and cache management | [Link](https://arxiv.org/abs/2504.05897) | [Repo](https://github.com/PKU-SEC-Lab/HybriMoE) |
 | **Canonical** | **MegaScale-MoE: Large-Scale Communication-Efficient Training of Mixture-of-Experts Models in Production** | EuroSys 2026 | MoE training systems / communication optimization | [Link](https://arxiv.org/abs/2505.11432) | — |

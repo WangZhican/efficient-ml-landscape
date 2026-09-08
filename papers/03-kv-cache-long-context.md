@@ -1,10 +1,10 @@
 # 03 · KV Cache / Long Context
 
-> **407 canonical papers** mapped here, plus a broader **76-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **407 canonical papers** mapped here, plus a broader **75-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 76 tracked
+## 🆕 Latest 30 Days · 75 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -29,7 +29,6 @@
 | **P1 · Watch** | **SCX Router: Streaming Zero-Shot Model Selection with a Decoder-KV Classifier and a Real-World Task Ontology** | arXiv 2026 | LLM serving / model routing / KV-cache reuse | [Link](https://arxiv.org/abs/2609.02292) | — |
 | **P1 · Watch** | **HeadWiseKV: Budgeted Per-Head Cache Residency for Hybrid Long-Context Language Models** | arXiv 2026 | KV cache/long-context / LLM serving | [Link](https://arxiv.org/abs/2609.02029) | — |
 | **P0 · Strong** | **CRISP: Cliff-awaRe Input-adaptive Sparse Prefilling with Structural-Mass-Motivated Routing** | CoRR 2026 | efficient attention / sparse prefilling / long-context LLM inference / routing | [Link](https://arxiv.org/abs/2609.01925) | — |
-| **P0 · Strong** | **LatentPress: Context Compression Beyond Text and Vision** | arXiv 2026 | KV cache/long-context / LLM serving / context compression | [Link](https://arxiv.org/abs/2609.01507) | [Repo](https://github.com/HJSang/LatentPress) |
 | **P1 · Watch** | **Prefix Sliding for efficient test-time scaling** | Fresh / preprint | efficient reasoning / KV cache / long-context | [Link](https://arxiv.org/abs/2608.26070) | — |
 | **P1 · Watch** | **Benchmarking Composable Compression Techniques in Mixture-of-Experts LLMs** | Fresh / preprint | MoE compression benchmark / expert pruning / quantization / KV cache / deployment efficiency | [Link](https://arxiv.org/abs/2608.21693) | — |
 | **P1 · Watch** | **SAEM: Stage-Aware Expert Management for Memory-Efficient MoE Inference in Chain-of-Thought Reasoning** | Fresh / preprint | MoE serving / expert caching-offload / CoT reasoning / memory efficiency | [Link](https://arxiv.org/abs/2608.21614) | — |
@@ -85,7 +84,7 @@
 | **P0 · Strong** | **Beyond Capacity: Scalable MoE LLM Inference via High-Bandwidth Flash with Direct GPU and HBM Paths** | Fresh / preprint | MoE serving / high-bandwidth flash architecture | [Link](https://arxiv.org/abs/2608.14333) | — |
 | **P1 · Watch** | **An Internet for the KV Cache: Rethinking Classical Infrastructure Boundaries in the LLM Inference Age** | Fresh / preprint | KV cache / distributed serving / cloud-network-storage systems | [Link](https://arxiv.org/abs/2608.01526) | — |
 
-## 🏛️ Classical / Historical · 382 canonical
+## 🏛️ Classical / Historical · 383 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -146,6 +145,7 @@
 | **Canonical** | **HBF Sucks? A Full-Stack Characterization of High-Bandwidth Flash for KV-Centric LLM Serving** | arXiv 2026 | LLM serving / KV cache / heterogeneous memory and storage | [Link](https://arxiv.org/abs/2608.11668) | — |
 | **Canonical** | **HiKV: Hierarchical Importance-Aware KV Cache with Hardware Acceleration for LLM Decoding** | arXiv 2026 | KV cache compression; LLM decoding; algorithm-hardware co-design; long context | [Link](https://arxiv.org/abs/2607.22389) | — |
 | **Canonical** | **HyQuant: Hybrid-Precision Quantization for LLM Attention** | arXiv 2026 | quantization / KV cache / efficient attention | [Link](https://arxiv.org/abs/2608.27875) | [Repo](https://github.com/jerrysfls/HyQuant) |
+| **Canonical** | **LatentPress: Context Compression Beyond Text and Vision** | arXiv 2026 | KV cache/long-context / LLM serving / context compression | [Link](https://arxiv.org/abs/2609.01507) | [Repo](https://github.com/HJSang/LatentPress) |
 | **Canonical** | **Learning Agent Execution for KV-Cache Management in Agentic Serving** | arXiv 2026 | LLM serving / agent systems / KV cache / cache eviction / prefetching | [Link](https://arxiv.org/abs/2608.14624) | — |
 | **Canonical** | **LycheeDecode: Accelerating Long-Context LLM Inference via Hybrid-Head Sparse Decoding** | arXiv 2026 | KV cache/long-context / efficient attention / LLM decoding | [Link](https://arxiv.org/abs/2602.04541) | [Repo](https://lg9077.github.io/lycheedecode/) |
 | **Canonical** | **Lynx: Progressive Speculative Quantization for accelerating KV Transfer in Long-Context Inference** | arXiv 2026 | LLM serving / disaggregated inference / KV cache transfer / progressive quantization / speculative decoding | [Link](https://arxiv.org/abs/2607.01831) | — |

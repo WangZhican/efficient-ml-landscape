@@ -1,10 +1,10 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **339 canonical papers** mapped here, plus a broader **125-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **341 canonical papers** mapped here, plus a broader **128-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 125 tracked
+## 🆕 Latest 30 Days · 128 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -24,10 +24,12 @@
 | **P0 · Strong** | **GaLe: memory-efficient Global Approximate and Local Exact features** | arXiv 2026 | edge/cloud/heterogeneous AI systems / memory-efficient inference | [Link](https://arxiv.org/abs/2609.02689) | — |
 | **P0 · Strong** | **AceSpec: An Asymmetric Edge-Cloud Collaborative Framework for Communication-Efficient LLM Inference** | CoRR 2026 | speculative decoding / edge-cloud LLM inference / distributed inference / communication efficiency | [Link](https://arxiv.org/abs/2609.02514) | — |
 | **P0 · Strong** | **Atlas: Algorithm-Hardware Co-Design for On-Device City-Scale 3D Gaussian Splatting in VR** | arXiv 2026 | edge/cloud/heterogeneous AI systems / 3D Gaussian splatting / on-device rendering | [Link](https://arxiv.org/abs/2609.02352) | — |
+| **P0 · Strong** | **Hardware-Accelerated Instance Segmentation for Resource-Constrained Space Robotics with Criticality Analysis** | arXiv 2026 | VLA/WAM/Physical AI serving / edge accelerator / quantization / reliable robotics inference | [Link](https://arxiv.org/abs/2609.02219) | — |
 | **P0 · Strong** | **MeanField Surrogate Modeling for Scalable Runtime Scheduling of Concurrent Heterogeneous AI Inference on Shared GPUs** | arXiv 2026 | edge/cloud/heterogeneous AI systems / GPU scheduling / concurrent inference | [Link](https://arxiv.org/abs/2609.02109) | — |
 | **P1 · Watch** | **HeadWiseKV: Budgeted Per-Head Cache Residency for Hybrid Long-Context Language Models** | arXiv 2026 | KV cache/long-context / LLM serving | [Link](https://arxiv.org/abs/2609.02029) | — |
+| **P0 · Strong** | **RT-HiSS: Ray Tracing Accelerated High Dimensional Vector Similarity Searches** | arXiv 2026 | GPU kernel/accelerators / vector search / heterogeneous GPU cores | [Link](https://arxiv.org/abs/2609.01975) | — |
 | **P1 · Watch** | **Post-Training Ternarization of Qwen3-4B Capability, Effective Bit Budget, Storage Compression, and Deployment** | arXiv 2026 | quantization / LLM deployment / edge systems | [Link](https://arxiv.org/abs/2609.01962) | — |
-| **P1 · Watch** | **SCULPT: Training Edge Vision Models for Post-Training Quantization Readiness** | arXiv 2026 | quantization / edge AI / deployment | [Link](https://arxiv.org/abs/2609.01743) | — |
+| **P1 · Watch** | **Network-Aware Forecasting on Wireless Access Points** | arXiv 2026 | edge/cloud/heterogeneous AI systems / on-device inference / resource contention | [Link](https://arxiv.org/abs/2609.01957) | — |
 | **P1 · Watch** | **Context-Aware Interleaved Batching for WhisperX** | Fresh / preprint | edge/cloud/heterogeneous AI systems / inference batching | [Link](https://arxiv.org/abs/2608.31170) | — |
 | **P2 · Relevant** | **From Seeing to Acting: Smart Glasses as First-Person Intelligence Platforms** | Fresh / preprint | Physical AI / wearable first-person intelligence / edge platform | [Link](https://arxiv.org/abs/2608.24877) | — |
 | **P1 · Watch** | **TEE-X: TEE-aware Acceleration Framework for Large Vision Models at the Edge** | Fresh / preprint | edge vision inference / TEE-aware acceleration / secure deployment | [Link](https://arxiv.org/abs/2608.22716) | — |
@@ -103,6 +105,7 @@
 | **P1 · Watch** | **TrainDeeploy: Hardware-Accelerated Parameter-Efficient Fine-Tuning of Small Transformer Models at the Extreme Edge** | DATE 2026 | extreme-edge AI; transformer fine-tuning; LoRA; RISC-V SoC | [Link](https://arxiv.org/abs/2603.09511) | — |
 | **P1 · Watch** | **The Hyperscale Lottery: How State-Space Models Have Sacrificed Edge Efficiency** | arXiv 2026 | edge AI; state-space models; efficiency characterization; cloud-edge tradeoff | [Link](https://arxiv.org/abs/2604.07935) | — |
 | **P1 · Watch** | **The 1/W Law: An Analytical Study of Context-Length Routing Topology and GPU Generation Gains for LLM Inference Energy Efficiency** | arXiv 2026 | LLM serving / context-length routing / inference energy efficiency / heterogeneous GPU fleet | [Link](https://arxiv.org/abs/2603.17280) | — |
+| **P1 · Watch** | **SCULPT: Training Edge Vision Models for Post-Training Quantization Readiness** | arXiv 2026 | quantization / edge AI / deployment | [Link](https://arxiv.org/abs/2609.01743) | — |
 | **P1 · Watch** | **S2-MoE: Enabling Efficient Self-Speculative Decoding for Mixture-of-Experts on Edge Devices** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.15018) | — |
 | **P1 · Watch** | **Risk-Adaptive Edge--Cloud Visual Reasoning for Communication-Efficient Autonomous Driving** | arXiv 2026 | Physical AI / edge-cloud inference / autonomous driving / selective VLM offload | [Link](https://arxiv.org/abs/2608.14991) | — |
 | **P1 · Watch** | **PRIMAL: Processing-In-Memory Based Low-Rank Adaptation for LLM Inference Accelerator** | arXiv 2026 | LLM inference accelerator / processing-in-memory / LoRA / edge AI | [Link](https://arxiv.org/abs/2601.13628) | — |

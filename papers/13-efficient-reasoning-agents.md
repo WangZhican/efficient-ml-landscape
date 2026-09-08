@@ -1,14 +1,15 @@
 # 13 · Efficient Reasoning / Agents
 
-> **278 canonical papers** mapped here, plus a broader **79-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **278 canonical papers** mapped here, plus a broader **80-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 79 tracked
+## 🆕 Latest 30 Days · 80 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **P0 · Strong** | **BeaconKV: Key-Value Cache Compression Guided by Beacon Queries for Efficient Large Reasoning Model Inference** | ICML 2026 | KV cache / long reasoning / training-free compression | [Link](https://arxiv.org/abs/2609.04971) | [Repo](https://github.com/aiha-lab/BeaconKV) |
+| **P1 · Watch** | **MCPO: Modality-Contrastive Preference Optimization for Multimodal Chain-of-Thought Compression** | arXiv 2026 | efficient reasoning/agent systems / multimodal reasoning / CoT compression / KV pressure | [Link](https://arxiv.org/abs/2609.04947) | — |
 | **P1 · Watch** | **Compact-Memory LLM Agents via Online Max-Member Clustering and Atom-Aware Packing** | arXiv 2026 | efficient reasoning/agent systems / memory compression / long-horizon agents | [Link](https://arxiv.org/abs/2609.04915) | — |
 | **P1 · Watch** | **Reasoning Without Inference Cost: Latent Semantic Scaffolding for Robot VLA Policies** | arXiv 2026 | VLA/WAM/Physical AI serving / zero-overhead reasoning / deployment efficiency | [Link](https://arxiv.org/abs/2609.04893) | — |
 | **P0 · Strong** | **Forgetting Without Restarting: Execution-State Unlearning for Stateful LLM Agents** | arXiv 2026 | efficient reasoning/agent systems / stateful agent runtime / KV cache / selective replay | [Link](https://arxiv.org/abs/2609.04875) | — |
@@ -30,7 +31,6 @@
 | **P0 · Strong** | **Latency-Aware Orchestration for Multi-Agent LLM Workflows on Heterogeneous GPUs** | arXiv 2026 | efficient reasoning/agent systems / heterogeneous GPU serving | [Link](https://arxiv.org/abs/2609.03335) | — |
 | **P0 · Strong** | **Speculative Macro Commit for Faster Tool-Using Agents** | MLSP 2026 / arXiv 2026 | efficient agent systems / speculative execution / tool-use runtime | [Link](https://arxiv.org/abs/2609.03236) | [Repo](https://github.com/zeyuliu1037/speculative-macro-commit) |
 | **P1 · Watch** | **Efficient GUI Agents: A Systems Survey of Observation, Memory, Action, and Runtime Optimization** | arXiv 2026 / EMNLP 2026 workshop | efficient reasoning/agent systems / GUI agents / runtime optimization | [Link](https://arxiv.org/abs/2609.02309) | — |
-| **P1 · Watch** | **Selective Agent Guidance via Entropy: Learning Autonomous Policies from Imperfect VLM Teachers** | arXiv 2026 | efficient reasoning/agent systems / VLA/WAM/Physical AI serving / distillation | [Link](https://arxiv.org/abs/2609.01567) | — |
 | **P2 · Relevant** | **AdaThinking-E: One-Token Entropy Regulation for Adaptive Thinking** | Fresh / preprint | efficient reasoning / adaptive test-time compute | [Link](https://arxiv.org/abs/2608.26141) | — |
 | **P1 · Watch** | **VoiceMem: Streaming Dual-Brain Memory for Real-Time Interaction** | Fresh / preprint | agent systems / streaming memory / real-time multimodal | [Link](https://arxiv.org/abs/2608.26005) | — |
 | **P1 · Watch** | **Prefix Sliding for efficient test-time scaling** | Fresh / preprint | efficient reasoning / KV cache / long-context | [Link](https://arxiv.org/abs/2608.26070) | — |
@@ -65,6 +65,7 @@
 | **P1 · Watch** | **tau_0-VLA: a Hierarchical Robot Foundation Model with World-Model-Guided Test-Time Computation** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.16885) | — |
 | **P1 · Watch** | **Single-agent or Multi-agent Systems? Why Not Both?** | arXiv 2025 | efficient reasoning / agent systems / hybrid SAS-MAS routing and cascading | [Link](https://arxiv.org/abs/2505.18286) | — |
 | **P1 · Watch** | **Simthesizer: An Agent-Driven Simulation Framework for LLM Serving Systems** | Fresh / preprint | LLM serving / systems simulation / agentic infrastructure | [Link](https://arxiv.org/abs/2608.24650) | — |
+| **P1 · Watch** | **Selective Agent Guidance via Entropy: Learning Autonomous Policies from Imperfect VLM Teachers** | arXiv 2026 | efficient reasoning/agent systems / VLA/WAM/Physical AI serving / distillation | [Link](https://arxiv.org/abs/2609.01567) | — |
 | **P0 · Strong** | **rl-triton: High-Performance Triton GPU Kernels for Reinforcement Learning Credit Assignment** | Fresh / preprint | GPU kernel / Triton / RL infrastructure | [Link](https://arxiv.org/abs/2608.17641) | — |
 | **P1 · Watch** | **Risk-Adaptive Edge--Cloud Visual Reasoning for Communication-Efficient Autonomous Driving** | arXiv 2026 | Physical AI / edge-cloud inference / autonomous driving / selective VLM offload | [Link](https://arxiv.org/abs/2608.14991) | — |
 | **P1 · Watch** | **ReWorld: An Interactive World Model with Long-Horizon Memory** | Fresh / preprint | Physical AI / interactive world model / bounded KV cache / real-time streaming | [Link](https://arxiv.org/abs/2608.23565) | — |

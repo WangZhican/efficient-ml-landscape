@@ -1,10 +1,10 @@
 # 09 · Distributed Training / Inference
 
-> **307 canonical papers** mapped here, plus a broader **49-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **307 canonical papers** mapped here, plus a broader **48-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 49 tracked
+## 🆕 Latest 30 Days · 48 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -20,7 +20,6 @@
 | **P0 · Strong** | **RASER: Resilient Agent Scheduling and Execution Runtime for HPC Clusters** | CoRR 2026 | efficient reasoning/agent systems / HPC scheduling / resilient runtime | [Link](https://arxiv.org/abs/2609.03598) | — |
 | **P0 · Strong** | **BASP: Communication-Efficient Batch-Aware Sequence Parallelism for LLM Training** | arXiv 2026 | distributed training/inference / long-context training / sequence parallelism | [Link](https://arxiv.org/abs/2609.03151) | — |
 | **P0 · Strong** | **AceSpec: An Asymmetric Edge-Cloud Collaborative Framework for Communication-Efficient LLM Inference** | CoRR 2026 | speculative decoding / edge-cloud LLM inference / distributed inference / communication efficiency | [Link](https://arxiv.org/abs/2609.02514) | — |
-| **P0 · Strong** | **Scaling Inference Prefill with High-Radix Photonic Interconnects** | CoRR 2026 | distributed inference / LLM prefill / photonic interconnect / scale-up systems | [Link](https://arxiv.org/abs/2609.01821) | — |
 | **P1 · Watch** | **ClusterAttention: A training-free speedup of bidirectional attention** | Fresh / preprint | efficient attention / sparse attention / video generation | [Link](https://arxiv.org/abs/2608.26965) | — |
 | **P1 · Watch** | **Beyond Dense Adam States: Adaptive Log-Space Quantization for Memory-Efficient Optimizers** | Fresh / preprint | memory-efficient training / optimizer-state quantization / low-precision optimizer | [Link](https://arxiv.org/abs/2608.22322) | — |
 | **P1 · Watch** | **CST: Collaborative Selective Transmission for Communication-Efficient Multimodal Edge Inference** | Fresh / preprint | multimodal edge inference / selective transmission / communication efficiency | [Link](https://arxiv.org/abs/2608.22115) | — |
@@ -58,7 +57,7 @@
 | **P1 · Watch** | **Architecting the Next Generation of Asynchronous, Distributed GPUs for the AI Era** | Fresh / preprint | GPU architecture / distributed accelerators / simulation | [Link](https://arxiv.org/abs/2608.22602) | — |
 | **P1 · Watch** | **An Internet for the KV Cache: Rethinking Classical Infrastructure Boundaries in the LLM Inference Age** | Fresh / preprint | KV cache / distributed serving / cloud-network-storage systems | [Link](https://arxiv.org/abs/2608.01526) | — |
 
-## 🏛️ Classical / Historical · 287 canonical
+## 🏛️ Classical / Historical · 288 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -105,6 +104,7 @@
 | **Canonical** | **M*: A Modular, Extensible, Serving System for Multimodal Models** | CoRR 2026 | multimodal/MLLM serving / composite-model runtime / VLA-world-model serving / graph-based distributed runtime | [Link](https://arxiv.org/abs/2606.12688) | [Repo](https://github.com/mstar-project/mstar) |
 | **Canonical** | **Nitsum: Serving Tiered LLM Requests with Adaptive Tensor Parallelism** | CoRR 2026 | LLM serving / distributed inference / adaptive tensor parallelism / multi-tier SLO | [Link](https://arxiv.org/abs/2605.05467) | — |
 | **Canonical** | **Regulating Branch Parallelism in LLM Serving** | CoRR 2026 | LLM serving / branch-parallel decoding / SLO-aware scheduling / KV-sharing | [Link](https://arxiv.org/abs/2605.06914) | [Repo](https://github.com/Swapnil-Gandhi/pace) |
+| **Canonical** | **Scaling Inference Prefill with High-Radix Photonic Interconnects** | CoRR 2026 | distributed inference / LLM prefill / photonic interconnect / scale-up systems | [Link](https://arxiv.org/abs/2609.01821) | — |
 | **Canonical** | **Scaling Multi-Node Mixture-of-Experts Inference Using Expert Activation Patterns** | CoRR 2026 | MoE systems / distributed inference / expert placement / workload-aware batching | [Link](https://arxiv.org/abs/2604.23150) | — |
 | **Canonical** | **Accelerating Diffusion via Hybrid Data-Pipeline Parallelism Based on Conditional Guidance Scheduling** | CVPR 2026 | diffusion/flow acceleration / distributed inference / multi-GPU scheduling | [Link](https://openaccess.thecvf.com/content/CVPR2026/html/Jung_Accelerating_Diffusion_via_Hybrid_Data-Pipeline_Parallelism_Based_on_Conditional_Guidance_CVPR_2026_paper.html) | [Repo](https://github.com/kaist-dmlab/Hybridiff) |
 | **Canonical** | **Otil: Accelerating Diffusion Model Inference via Communication-Efficient Multi-GPU Parallelism** | CVPR 2026 | diffusion inference / multi-GPU / communication reduction | [Link](https://openaccess.thecvf.com/content/CVPR2026/html/Li_Otil_Accelerating_Diffusion_Model_Inference_via_Communication-Efficient_Multi-GPU_Parallelism_CVPR_2026_paper.html) | — |

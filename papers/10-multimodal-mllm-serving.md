@@ -1,13 +1,14 @@
 # 10 · Multimodal / MLLM Serving
 
-> **198 canonical papers** mapped here, plus a broader **69-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **198 canonical papers** mapped here, plus a broader **72-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 69 tracked
+## 🆕 Latest 30 Days · 72 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
+| **P1 · Watch** | **MCPO: Modality-Contrastive Preference Optimization for Multimodal Chain-of-Thought Compression** | arXiv 2026 | efficient reasoning/agent systems / multimodal reasoning / CoT compression / KV pressure | [Link](https://arxiv.org/abs/2609.04947) | — |
 | **P1 · Watch** | **Diffusion Language Models for Mobile Edge Agentic AI: Foundations, Applications, and Challenges** | arXiv 2026 | efficient reasoning/agent systems / diffusion language models / edge-cloud serving / mobile edge AI | [Link](https://arxiv.org/abs/2609.04778) | — |
 | **P1 · Watch** | **FAVE: Foveated Adaptive Visual Encoding for Efficient Fine-Grained Visual Understanding** | arXiv 2026 | multimodal/MLLM serving / visual-token efficiency / adaptive encoding | [Link](https://arxiv.org/abs/2609.04392) | — |
 | **P0 · Strong** | **VLA-Precision: Asymmetric Co-Bootstrapping for Efficient Real-World Online RL of Vision-Language-Action Models** | arXiv 2026 | VLA / Physical AI / real-world online RL / streaming runtime | [Link](https://arxiv.org/abs/2609.04355) | [Repo](https://vla-precision.github.io/) |
@@ -19,6 +20,7 @@
 | **P1 · Watch** | **Who Speaks for the Pruned? Visual Token Pruning as Coverage Optimization** | arXiv 2026 | multimodal/MLLM serving / sparsity/pruning / visual token pruning | [Link](https://arxiv.org/abs/2609.03158) | — |
 | **P0 · Strong** | **ShallowStream: Index Shallow then Answer Deep for Streaming Video Understanding** | arXiv 2026 | multimodal/MLLM serving / streaming video / Physical-AI protected | [Link](https://arxiv.org/abs/2609.02780) | [Repo](https://github.com/CURRENTF/ShallowStream) |
 | **P0 · Strong** | **ViSAR: Training-Free Adaptive-k Retrieval for Visual Document Question Answering** | CoRR 2026 | multimodal/MLLM serving / visual RAG / adaptive retrieval | [Link](https://arxiv.org/abs/2609.02486) | — |
+| **P1 · Watch** | **LookStep: Efficient Vision-Language Navigation with Linguistic Foresight and Event Driven Memory** | arXiv 2026 | VLA/WAM/Physical AI serving / embodied navigation / bounded memory | [Link](https://arxiv.org/abs/2609.02350) | [Repo](https://github.com/kunyang-YU/LookStep) |
 | **P1 · Watch** | **Context-Aware Interleaved Batching for WhisperX** | Fresh / preprint | edge/cloud/heterogeneous AI systems / inference batching | [Link](https://arxiv.org/abs/2608.31170) | — |
 | **P1 · Watch** | **Activation Outliers Matter: Robust Recovery for Quantized Multimodal LLMs** | Fresh / preprint | quantization / multimodal / video generation | [Link](https://arxiv.org/abs/2608.26581) | — |
 | **P1 · Watch** | **VoiceMem: Streaming Dual-Brain Memory for Real-Time Interaction** | Fresh / preprint | agent systems / streaming memory / real-time multimodal | [Link](https://arxiv.org/abs/2608.26005) | — |
@@ -62,6 +64,7 @@
 | **P1 · Watch** | **TurboT2VA: Fast Large-Scale Text-to-Video-Audio Generation via Score-Regularized Consistency Distillation** | Fresh / preprint | video/image generation acceleration / multimodal diffusion / quantization / sparse attention | [Link](https://arxiv.org/abs/2608.24674) | — |
 | **P1 · Watch** | **The Workload-Router-Pool Architecture for LLM Inference Optimization: A Vision Paper from the vLLM Semantic Router Project** | arXiv 2026 | LLM serving / semantic routing / fleet architecture / agentic and multimodal serving | [Link](https://arxiv.org/abs/2603.21354) | — |
 | **P1 · Watch** | **SLIM-0.5B: Learning Action-Grounded Predictive Latents for Robot Manipulation** | arXiv 2026 | Physical AI / compact robot policy / predictive latent world model / lower inference latency and GPU memory | [Link](https://arxiv.org/abs/2608.09771) | — |
+| **P1 · Watch** | **Selective Agent Guidance via Entropy: Learning Autonomous Policies from Imperfect VLM Teachers** | arXiv 2026 | efficient reasoning/agent systems / VLA/WAM/Physical AI serving / distillation | [Link](https://arxiv.org/abs/2609.01567) | — |
 | **P0 · Strong** | **Rollplex: Cross-Phase GPU Spatial Sharing for Vision Language Model Post-Training** | Fresh / preprint | VLM post-training / GPU spatial sharing / RL runtime | [Link](https://arxiv.org/abs/2608.14498) | — |
 | **P0 · Strong** | **Role-Conditioned Sub-Token Routing for Efficient Vision-Language-Action Policies** | Fresh / preprint | VLA efficiency / KV compression / sub-token routing | [Link](https://arxiv.org/abs/2608.18410) | — |
 | **P1 · Watch** | **Risk-Adaptive Edge--Cloud Visual Reasoning for Communication-Efficient Autonomous Driving** | arXiv 2026 | Physical AI / edge-cloud inference / autonomous driving / selective VLM offload | [Link](https://arxiv.org/abs/2608.14991) | — |

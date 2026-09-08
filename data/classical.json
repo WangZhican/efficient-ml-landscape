@@ -2711,6 +2711,26 @@
     ]
   },
   {
+    "title": "CREDIT: Cost-guided Reduction-reuse with Efficient DSMEM Inter-CTA Tiling",
+    "venue": "arXiv 2026",
+    "topic": "GPU kernel/DSL/compilers / NVIDIA DSMEM / inter-CTA tiling",
+    "arxiv": "2609.01864",
+    "doi": "",
+    "official_id": "arXiv:2609.01864",
+    "paper_url": "https://arxiv.org/abs/2609.01864",
+    "code_url": "https://github.com/zhengxiongli08/CREDIT",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Direct GPU-kernel systems contribution accepted by HPEC 2026. Cost-guided DSMEM profitability model plus reduction-reuse transformation; beats torch.compile, Triton and optimized CUDA baselines on six workloads, with 1.466x geometric-mean speedup on RTX 5090 and 1.318x on H100; official source code is available.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "DAMP: Decay-Aware Mixed-Precision Recurrent-State Quantization",
     "venue": "arXiv 2026",
     "topic": "quantization / recurrent-state memory / LLM inference",
@@ -3041,6 +3061,26 @@
     ]
   },
   {
+    "title": "HEAT: Faster Fully Homomorphic Inference via Approximations-Weights Co-Adaptation",
+    "venue": "arXiv 2026",
+    "topic": "LLM serving / privacy-preserving inference / FHE acceleration",
+    "arxiv": "2609.01730",
+    "doi": "",
+    "official_id": "arXiv:2609.01730",
+    "paper_url": "https://arxiv.org/abs/2609.01730",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "HEAT makes per-nonlinearity approximation iteration counts learnable and co-adapts them with model weights. On encrypted GPT-2 decoding it reports 3.1x fewer iterations, 1.6x fewer bootstraps and 1.4x lower end-to-end latency while improving decode agreement.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving"
+    ]
+  },
+  {
     "title": "Heterogeneous Memory Design Exploration for AI Accelerators with a Gain Cell Memory Compiler",
     "venue": "arXiv 2026",
     "topic": "edge/cloud/heterogeneous AI systems; AI accelerator memory; SRAM/GCRAM; compiler; hardware design-space exploration",
@@ -3191,6 +3231,27 @@
       "LLM Serving",
       "Efficient Attention",
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "LatentPress: Context Compression Beyond Text and Vision",
+    "venue": "arXiv 2026",
+    "topic": "KV cache/long-context / LLM serving / context compression",
+    "arxiv": "2609.01507",
+    "doi": "",
+    "official_id": "arXiv:2609.01507",
+    "paper_url": "https://arxiv.org/abs/2609.01507",
+    "code_url": "https://github.com/HJSang/LatentPress",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "LatentPress compresses long conversational/document context into continuous memory tokens read directly by a frozen decoder. It reports 4-16x compression, about 43 ms write latency, and 5-9x faster compressed-prefix reading than raw context or cached OCR while matching or exceeding raw-context QA in several regimes.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context"
     ]
   },
   {
@@ -6814,6 +6875,28 @@
       "KV Cache / Long Context",
       "Sparsity / Pruning",
       "Efficient Attention"
+    ]
+  },
+  {
+    "title": "Scaling Inference Prefill with High-Radix Photonic Interconnects",
+    "venue": "CoRR 2026",
+    "topic": "distributed inference / LLM prefill / photonic interconnect / scale-up systems",
+    "arxiv": "2609.01821",
+    "doi": "",
+    "official_id": "2609.01821",
+    "paper_url": "https://arxiv.org/abs/2609.01821",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Direct AI-infrastructure scaling study for MoE inference prefill. Evaluates 1K-1M context regimes and reports 2.1x-3.2x latency improvements in stressed high-batch regimes, 2.8x-5.8x in communication-limited configurations, and 2.2x-4.5x speedups when electrical systems hit scale-up-pod limits.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "MoE Systems / Accelerators",
+      "Distributed Training / Inference"
     ]
   },
   {
