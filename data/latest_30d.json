@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-09",
   "window_start_beijing": "2026-08-10",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 414,
+  "tracked_total": 416,
   "p0_strong_or_canonical": [
     {
       "title": "Don't Drop Dropout: Optimizing Layer Sparsity for Efficient LLM Training and Inference",
@@ -2538,6 +2538,26 @@
       ]
     },
     {
+      "title": "When Quantization Breaks Memory: Recurrent-State Write-Back in Low-Precision Temporal Inference",
+      "venue": "arXiv 2026",
+      "topic": "quantization / recurrent-state memory / inference reliability",
+      "arxiv": "2609.04490",
+      "doi": "",
+      "official_id": "arXiv:2609.04490",
+      "paper_url": "https://arxiv.org/abs/2609.04490",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Shows that deterministic 4-bit recurrent-state storage can catastrophically amplify error over time, and that error-feedback/residual-memory write-back can recover accuracy without retraining. The result is domain-specific but exposes a general systems interface issue for low-precision stateful inference.",
+      "published_at": "2026-09-03T21:23:35Z",
+      "updated_at": "2026-09-03T21:23:35Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization"
+      ]
+    },
+    {
       "title": "FAVE: Foveated Adaptive Visual Encoding for Efficient Fine-Grained Visual Understanding",
       "venue": "arXiv 2026",
       "topic": "multimodal/MLLM serving / visual-token efficiency / adaptive encoding",
@@ -2873,6 +2893,29 @@
       "directions": [
         "Quantization",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Selective Agent Guidance via Entropy: Learning Autonomous Policies from Imperfect VLM Teachers",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / VLA/WAM/Physical AI serving / distillation",
+      "arxiv": "2609.01567",
+      "doi": "",
+      "official_id": "arXiv:2609.01567",
+      "paper_url": "https://arxiv.org/abs/2609.01567",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "SAGE queries an expensive VLM teacher only on uncertain training steps and distills useful guidance into a lightweight autonomous policy; deployment requires no VLM calls. This is a strong efficiency signal for embodied/interactive agents, but current evidence emphasizes learning quality and teacher-query reduction rather than serving latency.",
+      "published_at": "2026-09-01T17:33:41Z",
+      "updated_at": "2026-09-02T11:12:21Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -11515,6 +11558,26 @@
       ]
     },
     {
+      "title": "When Quantization Breaks Memory: Recurrent-State Write-Back in Low-Precision Temporal Inference",
+      "venue": "arXiv 2026",
+      "topic": "quantization / recurrent-state memory / inference reliability",
+      "arxiv": "2609.04490",
+      "doi": "",
+      "official_id": "arXiv:2609.04490",
+      "paper_url": "https://arxiv.org/abs/2609.04490",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Shows that deterministic 4-bit recurrent-state storage can catastrophically amplify error over time, and that error-feedback/residual-memory write-back can recover accuracy without retraining. The result is domain-specific but exposes a general systems interface issue for low-precision stateful inference.",
+      "published_at": "2026-09-03T21:23:35Z",
+      "updated_at": "2026-09-03T21:23:35Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization"
+      ]
+    },
+    {
       "title": "FAVE: Foveated Adaptive Visual Encoding for Efficient Fine-Grained Visual Understanding",
       "venue": "arXiv 2026",
       "topic": "multimodal/MLLM serving / visual-token efficiency / adaptive encoding",
@@ -11850,6 +11913,29 @@
       "directions": [
         "Quantization",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Selective Agent Guidance via Entropy: Learning Autonomous Policies from Imperfect VLM Teachers",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / VLA/WAM/Physical AI serving / distillation",
+      "arxiv": "2609.01567",
+      "doi": "",
+      "official_id": "arXiv:2609.01567",
+      "paper_url": "https://arxiv.org/abs/2609.01567",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "SAGE queries an expensive VLM teacher only on uncertain training steps and distills useful guidance into a lightweight autonomous policy; deployment requires no VLM calls. This is a strong efficiency signal for embodied/interactive agents, but current evidence emphasizes learning quality and teacher-query reduction rather than serving latency.",
+      "published_at": "2026-09-01T17:33:41Z",
+      "updated_at": "2026-09-02T11:12:21Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
