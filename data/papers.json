@@ -2906,6 +2906,27 @@
     ]
   },
   {
+    "title": "Distilled Continuous Diffusion Language Models Can Write Code in Few Steps---or One",
+    "venue": "arXiv 2026",
+    "topic": "diffusion/flow acceleration / diffusion language models / efficient reasoning",
+    "arxiv": "2609.04531",
+    "doi": "",
+    "official_id": "arXiv:2609.04531",
+    "paper_url": "https://arxiv.org/abs/2609.04531",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "PlaidQ distills a continuous diffusion language model for code from hundreds of denoising steps to 16, a few, or even one step, shifting the quality-compute frontier; training/inference code and checkpoints are released by the authors.",
+    "published_at": "2026-09-03T22:42:57Z",
+    "updated_at": "2026-09-03T22:42:57Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Diffusion / Flow Acceleration",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "DriftingVLA: Native One-Step Vision-Language-Action Generation via Per-Dimension Temporal Drifting",
     "venue": "arXiv 2026",
     "topic": "VLA/WAM/Physical AI serving / action-head acceleration",
@@ -3126,6 +3147,26 @@
     ]
   },
   {
+    "title": "GaLe: memory-efficient Global Approximate and Local Exact features",
+    "venue": "arXiv 2026",
+    "topic": "edge/cloud/heterogeneous AI systems / memory-efficient inference",
+    "arxiv": "2609.02689",
+    "doi": "",
+    "official_id": "arXiv:2609.02689",
+    "paper_url": "https://arxiv.org/abs/2609.02689",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "GaLe enables pretrained hybrid CNN-transformer inference on constrained devices without retraining by combining local exact and global approximate features; on Cortex-M33 it reports up to 65% speedup and 90% RAM reduction versus patch-based inference while matching exact-inference performance.",
+    "published_at": "2026-09-02T14:56:18Z",
+    "updated_at": "2026-09-02T14:56:18Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "GaussianDream++: Efficient 3D Gaussian World Modeling for Robotic Manipulation",
     "venue": "arXiv 2026",
     "topic": "VLA/WAM/Physical AI serving / efficient 3D world modeling",
@@ -3233,6 +3274,26 @@
       "KV Cache / Long Context",
       "MoE Systems / Accelerators",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "HEAT: Faster Fully Homomorphic Inference via Approximations-Weights Co-Adaptation",
+    "venue": "arXiv 2026",
+    "topic": "LLM serving / privacy-preserving inference / FHE acceleration",
+    "arxiv": "2609.01730",
+    "doi": "",
+    "official_id": "arXiv:2609.01730",
+    "paper_url": "https://arxiv.org/abs/2609.01730",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "HEAT makes per-nonlinearity approximation iteration counts learnable and co-adapts them with model weights. On encrypted GPT-2 decoding it reports 3.1x fewer iterations, 1.6x fewer bootstraps and 1.4x lower end-to-end latency while improving decode agreement.",
+    "published_at": "2026-09-01T18:02:02Z",
+    "updated_at": "2026-09-01T18:02:02Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving"
     ]
   },
   {

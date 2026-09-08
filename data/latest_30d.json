@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-09",
   "window_start_beijing": "2026-08-10",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 402,
+  "tracked_total": 409,
   "p0_strong_or_canonical": [
     {
       "title": "Don't Drop Dropout: Optimizing Layer Sparsity for Efficient LLM Training and Inference",
@@ -132,6 +132,27 @@
       "directions": [
         "MoE Systems / Accelerators",
         "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "Distilled Continuous Diffusion Language Models Can Write Code in Few Steps---or One",
+      "venue": "arXiv 2026",
+      "topic": "diffusion/flow acceleration / diffusion language models / efficient reasoning",
+      "arxiv": "2609.04531",
+      "doi": "",
+      "official_id": "arXiv:2609.04531",
+      "paper_url": "https://arxiv.org/abs/2609.04531",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "PlaidQ distills a continuous diffusion language model for code from hundreds of denoising steps to 16, a few, or even one step, shifting the quality-compute frontier; training/inference code and checkpoints are released by the authors.",
+      "published_at": "2026-09-03T22:42:57Z",
+      "updated_at": "2026-09-03T22:42:57Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Diffusion / Flow Acceleration",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -854,6 +875,26 @@
       ]
     },
     {
+      "title": "GaLe: memory-efficient Global Approximate and Local Exact features",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / memory-efficient inference",
+      "arxiv": "2609.02689",
+      "doi": "",
+      "official_id": "arXiv:2609.02689",
+      "paper_url": "https://arxiv.org/abs/2609.02689",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "GaLe enables pretrained hybrid CNN-transformer inference on constrained devices without retraining by combining local exact and global approximate features; on Cortex-M33 it reports up to 65% speedup and 90% RAM reduction versus patch-based inference while matching exact-inference performance.",
+      "published_at": "2026-09-02T14:56:18Z",
+      "updated_at": "2026-09-02T14:56:18Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Unfolding the Leech Lattice: Fused Multi-Shell Decoding and VRAM Layouts for 2-Bit LLM Weights",
       "venue": "arXiv 2026",
       "topic": "LLM quantization / 2-bit serving / fused dequantize-GEMV kernel / VRAM layout",
@@ -1067,6 +1108,26 @@
         "LLM Serving",
         "MoE Systems / Accelerators",
         "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "HEAT: Faster Fully Homomorphic Inference via Approximations-Weights Co-Adaptation",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / privacy-preserving inference / FHE acceleration",
+      "arxiv": "2609.01730",
+      "doi": "",
+      "official_id": "arXiv:2609.01730",
+      "paper_url": "https://arxiv.org/abs/2609.01730",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "HEAT makes per-nonlinearity approximation iteration counts learnable and co-adapts them with model weights. On encrypted GPT-2 decoding it reports 3.1x fewer iterations, 1.6x fewer bootstraps and 1.4x lower end-to-end latency while improving decode agreement.",
+      "published_at": "2026-09-01T18:02:02Z",
+      "updated_at": "2026-09-01T18:02:02Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving"
       ]
     },
     {
@@ -2279,6 +2340,28 @@
       ]
     },
     {
+      "title": "ProtLingo: Efficient Protein Language Modeling via Conditional Memory and Expert Routing",
+      "venue": "arXiv 2026",
+      "topic": "MoE systems/accelerators / conditional memory / efficient language models",
+      "arxiv": "2609.04793",
+      "doi": "",
+      "official_id": "arXiv:2609.04793",
+      "paper_url": "https://arxiv.org/abs/2609.04793",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Combines conditional local memory with sparse expert routing in a protein language model and activates only a subset of expert parameters. Interesting efficiency mechanism, but primary evidence focuses on parameter/task efficiency rather than end-to-end systems latency or throughput.",
+      "published_at": "2026-09-04T06:46:42Z",
+      "updated_at": "2026-09-04T06:46:42Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "MoE Systems / Accelerators"
+      ]
+    },
+    {
       "title": "Diffusion Language Models for Mobile Edge Agentic AI: Foundations, Applications, and Challenges",
       "venue": "arXiv 2026",
       "topic": "efficient reasoning/agent systems / diffusion language models / edge-cloud serving / mobile edge AI",
@@ -2475,6 +2558,27 @@
       ]
     },
     {
+      "title": "TAP-Path: Task-Adaptive Structural and Token Pruning for Efficient and Trustworthy Pathology Foundation Models",
+      "venue": "arXiv 2026",
+      "topic": "sparsity/pruning / multimodal models / efficient inference",
+      "arxiv": "2609.04071",
+      "doi": "",
+      "official_id": "arXiv:2609.04071",
+      "paper_url": "https://arxiv.org/abs/2609.04071",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Combines transformer-block removal and adaptive patch-token pruning, reducing encoder parameters by about 25% and analytical compute by 35.2% while preserving or improving pathology accuracy. Strong compression signal but currently domain-specific and without measured systems latency.",
+      "published_at": "2026-09-03T16:43:36Z",
+      "updated_at": "2026-09-03T16:43:36Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Sparsity / Pruning",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
       "title": "SGD-KV: Summarization Guided KV Cache Compression",
       "venue": "",
       "topic": "KV cache/long-context",
@@ -2515,6 +2619,28 @@
       ]
     },
     {
+      "title": "GPU-Accelerated Astrodynamics World Models for Spacecraft Rendezvous and Proximity Operations",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / world models / GPU simulation",
+      "arxiv": "2609.03067",
+      "doi": "",
+      "official_id": "arXiv:2609.03067",
+      "paper_url": "https://arxiv.org/abs/2609.03067",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Introduces an open-source JAX GPU-parallel spacecraft environment and a flow-matching world model for autonomous rendezvous, with improved sample efficiency and docking success. It is a useful Physical-AI world-model/runtime signal, but not yet a serving or deployment-efficiency paper.",
+      "published_at": "2026-09-02T18:39:40Z",
+      "updated_at": "2026-09-02T18:39:40Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Quality Recovery for Quantized KV Caches via Low-Rank Attention Adaptation",
       "venue": "arXiv 2026",
       "topic": "KV cache / quantization / long-context inference / low-rank adaptation",
@@ -2535,6 +2661,26 @@
         "KV Cache / Long Context",
         "Quantization",
         "Efficient Attention"
+      ]
+    },
+    {
+      "title": "Debias-SparseGPT: Bias-Aware Pruning for Large Language Models",
+      "venue": "arXiv 2026",
+      "topic": "sparsity/pruning / LLM compression",
+      "arxiv": "2609.02496",
+      "doi": "",
+      "official_id": "arXiv:2609.02496",
+      "paper_url": "https://arxiv.org/abs/2609.02496",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Extends SparseGPT with a bias-aware second-order term and evaluates 25%, 50%, and 2:4 structured sparsity while preserving perplexity and zero-shot accuracy. Relevant pruning follow-up, but the primary contribution is fairness-quality rather than measured runtime/system acceleration.",
+      "published_at": "2026-09-02T12:01:54Z",
+      "updated_at": "2026-09-02T12:01:54Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Sparsity / Pruning"
       ]
     },
     {
@@ -8861,6 +9007,27 @@
       ]
     },
     {
+      "title": "Distilled Continuous Diffusion Language Models Can Write Code in Few Steps---or One",
+      "venue": "arXiv 2026",
+      "topic": "diffusion/flow acceleration / diffusion language models / efficient reasoning",
+      "arxiv": "2609.04531",
+      "doi": "",
+      "official_id": "arXiv:2609.04531",
+      "paper_url": "https://arxiv.org/abs/2609.04531",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "PlaidQ distills a continuous diffusion language model for code from hundreds of denoising steps to 16, a few, or even one step, shifting the quality-compute frontier; training/inference code and checkpoints are released by the authors.",
+      "published_at": "2026-09-03T22:42:57Z",
+      "updated_at": "2026-09-03T22:42:57Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Diffusion / Flow Acceleration",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Scale-QLoRA: Code-Invariant Adapter Merging for Native 4-bit Microscaling LLMs",
       "venue": "arXiv 2026",
       "topic": "quantization / native 4-bit microscaling / LoRA deployment / code-invariant merge",
@@ -9580,6 +9747,26 @@
       ]
     },
     {
+      "title": "GaLe: memory-efficient Global Approximate and Local Exact features",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / memory-efficient inference",
+      "arxiv": "2609.02689",
+      "doi": "",
+      "official_id": "arXiv:2609.02689",
+      "paper_url": "https://arxiv.org/abs/2609.02689",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "GaLe enables pretrained hybrid CNN-transformer inference on constrained devices without retraining by combining local exact and global approximate features; on Cortex-M33 it reports up to 65% speedup and 90% RAM reduction versus patch-based inference while matching exact-inference performance.",
+      "published_at": "2026-09-02T14:56:18Z",
+      "updated_at": "2026-09-02T14:56:18Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Unfolding the Leech Lattice: Fused Multi-Shell Decoding and VRAM Layouts for 2-Bit LLM Weights",
       "venue": "arXiv 2026",
       "topic": "LLM quantization / 2-bit serving / fused dequantize-GEMV kernel / VRAM layout",
@@ -9793,6 +9980,26 @@
         "LLM Serving",
         "MoE Systems / Accelerators",
         "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "HEAT: Faster Fully Homomorphic Inference via Approximations-Weights Co-Adaptation",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / privacy-preserving inference / FHE acceleration",
+      "arxiv": "2609.01730",
+      "doi": "",
+      "official_id": "arXiv:2609.01730",
+      "paper_url": "https://arxiv.org/abs/2609.01730",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "HEAT makes per-nonlinearity approximation iteration counts learnable and co-adapts them with model weights. On encrypted GPT-2 decoding it reports 3.1x fewer iterations, 1.6x fewer bootstraps and 1.4x lower end-to-end latency while improving decode agreement.",
+      "published_at": "2026-09-01T18:02:02Z",
+      "updated_at": "2026-09-01T18:02:02Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving"
       ]
     },
     {
@@ -11003,6 +11210,28 @@
       ]
     },
     {
+      "title": "ProtLingo: Efficient Protein Language Modeling via Conditional Memory and Expert Routing",
+      "venue": "arXiv 2026",
+      "topic": "MoE systems/accelerators / conditional memory / efficient language models",
+      "arxiv": "2609.04793",
+      "doi": "",
+      "official_id": "arXiv:2609.04793",
+      "paper_url": "https://arxiv.org/abs/2609.04793",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Combines conditional local memory with sparse expert routing in a protein language model and activates only a subset of expert parameters. Interesting efficiency mechanism, but primary evidence focuses on parameter/task efficiency rather than end-to-end systems latency or throughput.",
+      "published_at": "2026-09-04T06:46:42Z",
+      "updated_at": "2026-09-04T06:46:42Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "MoE Systems / Accelerators"
+      ]
+    },
+    {
       "title": "Diffusion Language Models for Mobile Edge Agentic AI: Foundations, Applications, and Challenges",
       "venue": "arXiv 2026",
       "topic": "efficient reasoning/agent systems / diffusion language models / edge-cloud serving / mobile edge AI",
@@ -11199,6 +11428,27 @@
       ]
     },
     {
+      "title": "TAP-Path: Task-Adaptive Structural and Token Pruning for Efficient and Trustworthy Pathology Foundation Models",
+      "venue": "arXiv 2026",
+      "topic": "sparsity/pruning / multimodal models / efficient inference",
+      "arxiv": "2609.04071",
+      "doi": "",
+      "official_id": "arXiv:2609.04071",
+      "paper_url": "https://arxiv.org/abs/2609.04071",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Combines transformer-block removal and adaptive patch-token pruning, reducing encoder parameters by about 25% and analytical compute by 35.2% while preserving or improving pathology accuracy. Strong compression signal but currently domain-specific and without measured systems latency.",
+      "published_at": "2026-09-03T16:43:36Z",
+      "updated_at": "2026-09-03T16:43:36Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Sparsity / Pruning",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
       "title": "SGD-KV: Summarization Guided KV Cache Compression",
       "venue": "",
       "topic": "KV cache/long-context",
@@ -11239,6 +11489,28 @@
       ]
     },
     {
+      "title": "GPU-Accelerated Astrodynamics World Models for Spacecraft Rendezvous and Proximity Operations",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / world models / GPU simulation",
+      "arxiv": "2609.03067",
+      "doi": "",
+      "official_id": "arXiv:2609.03067",
+      "paper_url": "https://arxiv.org/abs/2609.03067",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Introduces an open-source JAX GPU-parallel spacecraft environment and a flow-matching world model for autonomous rendezvous, with improved sample efficiency and docking success. It is a useful Physical-AI world-model/runtime signal, but not yet a serving or deployment-efficiency paper.",
+      "published_at": "2026-09-02T18:39:40Z",
+      "updated_at": "2026-09-02T18:39:40Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Quality Recovery for Quantized KV Caches via Low-Rank Attention Adaptation",
       "venue": "arXiv 2026",
       "topic": "KV cache / quantization / long-context inference / low-rank adaptation",
@@ -11259,6 +11531,26 @@
         "KV Cache / Long Context",
         "Quantization",
         "Efficient Attention"
+      ]
+    },
+    {
+      "title": "Debias-SparseGPT: Bias-Aware Pruning for Large Language Models",
+      "venue": "arXiv 2026",
+      "topic": "sparsity/pruning / LLM compression",
+      "arxiv": "2609.02496",
+      "doi": "",
+      "official_id": "arXiv:2609.02496",
+      "paper_url": "https://arxiv.org/abs/2609.02496",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Extends SparseGPT with a bias-aware second-order term and evaluates 25%, 50%, and 2:4 structured sparsity while preserving perplexity and zero-shot accuracy. Relevant pruning follow-up, but the primary contribution is fairness-quality rather than measured runtime/system acceleration.",
+      "published_at": "2026-09-02T12:01:54Z",
+      "updated_at": "2026-09-02T12:01:54Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Sparsity / Pruning"
       ]
     },
     {
