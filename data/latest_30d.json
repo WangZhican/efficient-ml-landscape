@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-09",
   "window_start_beijing": "2026-08-10",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 528,
+  "tracked_total": 533,
   "p0_strong_or_canonical": [
     {
       "title": "Ostrich: Taking Large Strides Through Stiff Contact in Differentiable Dynamics",
@@ -1212,6 +1212,26 @@
       ]
     },
     {
+      "title": "Substrate-Aware AI Agents: Execution Context as a First-Class Input",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / resource-aware code generation / runtime constraints",
+      "arxiv": "2609.05232",
+      "doi": "",
+      "official_id": "arXiv:2609.05232",
+      "paper_url": "https://arxiv.org/abs/2609.05232",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "7d replay recovered a controlled agent-efficiency study showing that explicitly exposing memory and wall-time contracts changes generated program structure. Across three frontier-model cohorts, contract disclosure reduced measured peak memory in 13/14 aligned comparisons and mean wall time in all cohorts, with executions up to 3.1x faster; under a tighter budget, cohort mean MaxRSS and wall time fell 49-74% and 35-64%. This is direct evidence for substrate-aware agent planning as an efficiency mechanism.",
+      "published_at": "2026-09-04T14:57:17Z",
+      "updated_at": "2026-09-04T14:57:17Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "BeaconKV: Key-Value Cache Compression Guided by Beacon Queries for Efficient Large Reasoning Model Inference",
       "venue": "ICML 2026",
       "topic": "KV cache / long reasoning / training-free compression",
@@ -1358,6 +1378,26 @@
       "directions": [
         "LLM Serving",
         "Quantization"
+      ]
+    },
+    {
+      "title": "BF16 Component-Product Emulation of FP32 and FP64 GEMM on Intel AMX",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / CPU matrix engines / low-precision GEMM / Intel AMX",
+      "arxiv": "2609.04663",
+      "doi": "",
+      "official_id": "arXiv:2609.04663",
+      "paper_url": "https://arxiv.org/abs/2609.04663",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "7d replay recovered a systems method that uses BF16 AMX component products to emulate higher-precision FP32/FP64 GEMM. The implementation uses packed BF16 components, VNNI-packed panels and tile-resident operand reuse; tested configurations can exceed oneMKL SGEMM and, at sufficiently large orders and low product counts, oneMKL DGEMM. This is directly relevant to low-precision matrix-engine utilization for higher-precision workloads.",
+      "published_at": "2026-09-04T02:49:24Z",
+      "updated_at": "2026-09-04T02:49:24Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
       ]
     },
     {
@@ -2272,6 +2312,29 @@
       ]
     },
     {
+      "title": "TRACE: Spatiotemporal Contact Memory Graph Network Simulator for Granular Dynamics",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / learned simulation / robot world models / graph simulator",
+      "arxiv": "2609.02991",
+      "doi": "",
+      "official_id": "arXiv:2609.02991",
+      "paper_url": "https://arxiv.org/abs/2609.02991",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "7d lower-rank replay recovered a learned granular-dynamics simulator with direct solver-relative runtime evidence. TRACE preserves contact history on graph edges and reports 12.2x and 8.9x speedups over the MPM reference solver in 2D and 3D while also reducing long-rollout position and final-deposit errors. This is strong Physical-AI simulation/runtime evidence rather than only a modeling paper.",
+      "published_at": "2026-09-02T15:30:41Z",
+      "updated_at": "2026-09-02T15:30:41Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "GaLe: memory-efficient Global Approximate and Local Exact features",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI systems / memory-efficient inference",
@@ -2420,6 +2483,29 @@
       "directions": [
         "LLM Serving",
         "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "The Diagnosis a Reporter Leaves Unspoken: Surfacing Frozen Tumor Features for Brain-Tumor MRI Reporting",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / multimodal inference / single-pass decoding / healthcare AI",
+      "arxiv": "2609.02411",
+      "doi": "",
+      "official_id": "arXiv:2609.02411",
+      "paper_url": "https://arxiv.org/abs/2609.02411",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "7d replay recovered a direct inference-efficiency result: NeuroFusion replaces a multi-chain CoT reporting path with a fast single-pass draft-then-review decoder informed by frozen discriminative features, restoring diagnosis quality while reducing per-case latency by about 5-6x (about 80 s versus 457 s). The contribution includes a clear conditional-computation/inference simplification signal despite the medical application domain.",
+      "published_at": "2026-09-02T10:29:53Z",
+      "updated_at": "2026-09-02T10:29:53Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Speculative Decoding",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -4894,6 +4980,27 @@
       "is_latest_30d": true,
       "directions": [
         "KV Cache / Long Context"
+      ]
+    },
+    {
+      "title": "Bringing dApps to OCUDU: An E3 Controller for Real-Time Open RAN Intelligence",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / real-time AI-RAN / Open RAN / runtime interfaces",
+      "arxiv": "2609.03162",
+      "doi": "",
+      "official_id": "arXiv:2609.03162",
+      "paper_url": "https://arxiv.org/abs/2609.03162",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "7d protected edge replay recovered an open-source E3Controller for OCUDU that enables sub-millisecond dApp access/control through a sidecar design and validates real-time I/Q delivery on a production-grade Open RAN stack with no measurable throughput penalty. It is valuable runtime/interface infrastructure, but lacks a comparative speedup or broader AI workload efficiency result, so it remains high-value watch.",
+      "published_at": "2026-09-02T20:56:03Z",
+      "updated_at": "2026-09-02T20:56:03Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -12690,6 +12797,26 @@
       ]
     },
     {
+      "title": "Substrate-Aware AI Agents: Execution Context as a First-Class Input",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / resource-aware code generation / runtime constraints",
+      "arxiv": "2609.05232",
+      "doi": "",
+      "official_id": "arXiv:2609.05232",
+      "paper_url": "https://arxiv.org/abs/2609.05232",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "7d replay recovered a controlled agent-efficiency study showing that explicitly exposing memory and wall-time contracts changes generated program structure. Across three frontier-model cohorts, contract disclosure reduced measured peak memory in 13/14 aligned comparisons and mean wall time in all cohorts, with executions up to 3.1x faster; under a tighter budget, cohort mean MaxRSS and wall time fell 49-74% and 35-64%. This is direct evidence for substrate-aware agent planning as an efficiency mechanism.",
+      "published_at": "2026-09-04T14:57:17Z",
+      "updated_at": "2026-09-04T14:57:17Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "BeaconKV: Key-Value Cache Compression Guided by Beacon Queries for Efficient Large Reasoning Model Inference",
       "venue": "ICML 2026",
       "topic": "KV cache / long reasoning / training-free compression",
@@ -12836,6 +12963,26 @@
       "directions": [
         "LLM Serving",
         "Quantization"
+      ]
+    },
+    {
+      "title": "BF16 Component-Product Emulation of FP32 and FP64 GEMM on Intel AMX",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / CPU matrix engines / low-precision GEMM / Intel AMX",
+      "arxiv": "2609.04663",
+      "doi": "",
+      "official_id": "arXiv:2609.04663",
+      "paper_url": "https://arxiv.org/abs/2609.04663",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "7d replay recovered a systems method that uses BF16 AMX component products to emulate higher-precision FP32/FP64 GEMM. The implementation uses packed BF16 components, VNNI-packed panels and tile-resident operand reuse; tested configurations can exceed oneMKL SGEMM and, at sufficiently large orders and low product counts, oneMKL DGEMM. This is directly relevant to low-precision matrix-engine utilization for higher-precision workloads.",
+      "published_at": "2026-09-04T02:49:24Z",
+      "updated_at": "2026-09-04T02:49:24Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
       ]
     },
     {
@@ -13750,6 +13897,29 @@
       ]
     },
     {
+      "title": "TRACE: Spatiotemporal Contact Memory Graph Network Simulator for Granular Dynamics",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / learned simulation / robot world models / graph simulator",
+      "arxiv": "2609.02991",
+      "doi": "",
+      "official_id": "arXiv:2609.02991",
+      "paper_url": "https://arxiv.org/abs/2609.02991",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "7d lower-rank replay recovered a learned granular-dynamics simulator with direct solver-relative runtime evidence. TRACE preserves contact history on graph edges and reports 12.2x and 8.9x speedups over the MPM reference solver in 2D and 3D while also reducing long-rollout position and final-deposit errors. This is strong Physical-AI simulation/runtime evidence rather than only a modeling paper.",
+      "published_at": "2026-09-02T15:30:41Z",
+      "updated_at": "2026-09-02T15:30:41Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "GaLe: memory-efficient Global Approximate and Local Exact features",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI systems / memory-efficient inference",
@@ -13898,6 +14068,29 @@
       "directions": [
         "LLM Serving",
         "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "The Diagnosis a Reporter Leaves Unspoken: Surfacing Frozen Tumor Features for Brain-Tumor MRI Reporting",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / multimodal inference / single-pass decoding / healthcare AI",
+      "arxiv": "2609.02411",
+      "doi": "",
+      "official_id": "arXiv:2609.02411",
+      "paper_url": "https://arxiv.org/abs/2609.02411",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "7d replay recovered a direct inference-efficiency result: NeuroFusion replaces a multi-chain CoT reporting path with a fast single-pass draft-then-review decoder informed by frozen discriminative features, restoring diagnosis quality while reducing per-case latency by about 5-6x (about 80 s versus 457 s). The contribution includes a clear conditional-computation/inference simplification signal despite the medical application domain.",
+      "published_at": "2026-09-02T10:29:53Z",
+      "updated_at": "2026-09-02T10:29:53Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Speculative Decoding",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -16370,6 +16563,27 @@
       "is_latest_30d": true,
       "directions": [
         "KV Cache / Long Context"
+      ]
+    },
+    {
+      "title": "Bringing dApps to OCUDU: An E3 Controller for Real-Time Open RAN Intelligence",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / real-time AI-RAN / Open RAN / runtime interfaces",
+      "arxiv": "2609.03162",
+      "doi": "",
+      "official_id": "arXiv:2609.03162",
+      "paper_url": "https://arxiv.org/abs/2609.03162",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "7d protected edge replay recovered an open-source E3Controller for OCUDU that enables sub-millisecond dApp access/control through a sidecar design and validates real-time I/Q delivery on a production-grade Open RAN stack with no measurable throughput penalty. It is valuable runtime/interface infrastructure, but lacks a comparative speedup or broader AI workload efficiency result, so it remains high-value watch.",
+      "published_at": "2026-09-02T20:56:03Z",
+      "updated_at": "2026-09-02T20:56:03Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
