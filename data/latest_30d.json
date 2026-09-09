@@ -2,8 +2,50 @@
   "window_end_beijing": "2026-09-09",
   "window_start_beijing": "2026-08-10",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 425,
+  "tracked_total": 391,
   "p0_strong_or_canonical": [
+    {
+      "title": "AutoUVM: Automated Prefetching Framework for LLMs under UVM Oversubscription",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / memory oversubscription / UVM prefetching / heterogeneous memory",
+      "arxiv": "2609.06172",
+      "doi": "",
+      "official_id": "arXiv:2609.06172",
+      "paper_url": "https://arxiv.org/abs/2609.06172",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Framework-aware transparent UVM prefetching exposes tensor-level access information and dynamically adapts to memory pressure. Across ten LLMs it reports 3.1x average speedup over baseline UVM, 1.9x over the best prior UVM prefetcher, and up to 4.7x over object-level prefetchers while reducing page faults.",
+      "published_at": "2026-09-05T16:24:55Z",
+      "updated_at": "2026-09-05T16:24:55Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "All for 1-Bit: Towards Genuine 1-Bit Post-Training Quantization for LLMs",
+      "venue": "arXiv 2026",
+      "topic": "quantization / LLM inference / genuine 1-bit PTQ",
+      "arxiv": "2609.06161",
+      "doi": "",
+      "official_id": "arXiv:2609.06161",
+      "paper_url": "https://arxiv.org/abs/2609.06161",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "AF1 targets a strict 1.0-BPW post-training quantization budget rather than nominal binary weights with hidden overhead. On LLaMA/Qwen/Gemma it reports better quality than prior binarization PTQ, average 2.5x inference speedup versus BF16 and over 90% memory reduction, with reproducible code.",
+      "published_at": "2026-09-05T16:03:41Z",
+      "updated_at": "2026-09-05T16:03:41Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Quantization",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
     {
       "title": "Don't Drop Dropout: Optimizing Layer Sparsity for Efficient LLM Training and Inference",
       "venue": "ICML 2026",
@@ -258,837 +300,6 @@
       "directions": [
         "LLM Serving",
         "Distributed Training / Inference"
-      ]
-    },
-    {
-      "title": "VLA-Precision: Asymmetric Co-Bootstrapping for Efficient Real-World Online RL of Vision-Language-Action Models",
-      "venue": "arXiv 2026",
-      "topic": "VLA / Physical AI / real-world online RL / streaming runtime",
-      "arxiv": "2609.04355",
-      "doi": "",
-      "official_id": "arXiv:2609.04355",
-      "paper_url": "https://arxiv.org/abs/2609.04355",
-      "code_url": "https://vla-precision.github.io/",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Protected Physical-AI true miss. Beyond the online-RL algorithm, ACoB-Stream explicitly co-designs a closed-loop experience-policy execution architecture around invariant-state decoupling and on-demand streaming to reduce large-VLA rollout overhead; the paper reports up to 10.9x throughput/computational-efficiency improvement and 98.3% mean success over nine high-precision chemistry tasks across four robot embodiments. This is directly relevant to VLA runtime/infra rather than generic robot learning only.",
-      "published_at": "2026-09-03T18:19:36Z",
-      "updated_at": "2026-09-03T18:19:36Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "Multimodal / MLLM Serving",
-        "Efficient Reasoning / Agents",
-        "VLA / WAM / Physical AI"
-      ]
-    },
-    {
-      "title": "Para-Pipe: Exploiting Hierarchical Operator Parallelism of ML Computational Graphs on SoCs",
-      "venue": "IEEE TCAD 2025",
-      "topic": "edge/cloud/heterogeneous AI systems / SoC mapping / operator parallelism",
-      "arxiv": "2609.04168",
-      "doi": "",
-      "official_id": "arXiv:2609.04168",
-      "paper_url": "https://arxiv.org/abs/2609.04168",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Hierarchical mapping framework combining intra/inter-stage operator parallelism with pipelining across heterogeneous SoCs; reports Pareto throughput-latency mappings and average energy-efficiency gains of 11.0% over pure pipelining and 23.3% over non-pipelined parallel execution on Amlogic SoC.",
-      "published_at": "2026-09-03T17:53:44Z",
-      "updated_at": "2026-09-03T17:53:44Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "Distributed Training / Inference",
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "Hardware-Aware FP4 FlashAttention-4",
-      "venue": "CoRR 2026",
-      "topic": "efficient attention / quantization / GPU kernel / Blackwell FP4",
-      "arxiv": "2609.04105",
-      "doi": "",
-      "official_id": "2609.04105",
-      "paper_url": "https://arxiv.org/abs/2609.04105",
-      "code_url": "https://github.com/MrHuff/fp4-fa4",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Direct hardware-aware attention-kernel work for Blackwell. Direct-P maps softmax probabilities directly into FP4 representation and reports up to 2.13x BF16 forward throughput on GB200; the retained causal training path reports up to about 1.14x complete 8B update speedup while explicitly documenting FP4 training-stability limits.",
-      "published_at": "2026-09-03T17:12:35Z",
-      "updated_at": "2026-09-03T17:12:35Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "Quantization",
-        "Efficient Attention",
-        "GPU Kernel / DSL / Compiler"
-      ]
-    },
-    {
-      "title": "Why Gated DeltaNet Survives 4-Bit Quantization: NVFP4 W4A4 for the Recurrent Half of a Hybrid 27B LLM",
-      "venue": "CoRR 2026",
-      "topic": "quantization / hybrid attention-SSM LLM / NVFP4 W4A4 / KV cache",
-      "arxiv": "2609.04098",
-      "doi": "",
-      "official_id": "2609.04098",
-      "paper_url": "https://arxiv.org/abs/2609.04098",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Mechanistic and deployable W4A4 study of the recurrent half of a 27B hybrid LLM. Quantizes all 496 linear layers including Gated DeltaNet, studies recurrence error propagation and fused-kernel scale mismatch, and supplies calibrated KV-cache scales/checkpoint evidence.",
-      "published_at": "2026-09-03T17:04:26Z",
-      "updated_at": "2026-09-03T17:04:26Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "KV Cache / Long Context",
-        "Quantization",
-        "Efficient Attention",
-        "GPU Kernel / DSL / Compiler"
-      ]
-    },
-    {
-      "title": "DSAQuant: Denoising-Stage-Aligned Quantization-Aware Training for Video Generation",
-      "venue": "CoRR 2026",
-      "topic": "quantization / video generation acceleration / diffusion inference",
-      "arxiv": "2609.04031",
-      "doi": "",
-      "official_id": "2609.04031",
-      "paper_url": "https://arxiv.org/abs/2609.04031",
-      "code_url": "https://github.com/robbyant-research/DSAQuant",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Aggressive W4A4/W3A3 video-diffusion quantization with stage-aligned QAT and inference guidance; reports up to +6.60 VBench under W3A3 while preserving text-video alignment, with official project/code released.",
-      "published_at": "2026-09-03T16:09:25Z",
-      "updated_at": "2026-09-03T16:09:25Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "Quantization",
-        "Video / Image Generation",
-        "Diffusion / Flow Acceleration"
-      ]
-    },
-    {
-      "title": "Unlocking Lossless Speedups in LLMs via Discrete Diffusion",
-      "venue": "CoRR 2026",
-      "topic": "speculative decoding / diffusion language models / parallel decoding / efficient reasoning",
-      "arxiv": "2609.04010",
-      "doi": "",
-      "official_id": "2609.04010",
-      "paper_url": "https://arxiv.org/abs/2609.04010",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Introduces diffusion-augmented LLMs and Psi-Spec samplers that preserve the underlying autoregressive model distribution while drawing multiple tokens in parallel, making it a direct lossless decoding-acceleration contribution rather than a quality-speed heuristic.",
-      "published_at": "2026-09-03T15:48:43Z",
-      "updated_at": "2026-09-03T15:48:43Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "Speculative Decoding",
-        "Diffusion / Flow Acceleration",
-        "Efficient Reasoning / Agents"
-      ]
-    },
-    {
-      "title": "VestigeKV: The NoPE-MLA KV Cache Carries Its Own Eviction Signal in a Vestigial Branch",
-      "venue": "CoRR 2026",
-      "topic": "KV cache / long-context / MLA / cache eviction",
-      "arxiv": "2609.03949",
-      "doi": "",
-      "official_id": "2609.03949",
-      "paper_url": "https://arxiv.org/abs/2609.03949",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Direct long-context KV-cache systems contribution for NoPE-MLA. Uses a query-independent signal already present in the cache to partition attended and archived tiers, targeting the failure of observed-attention eviction before future queries exist.",
-      "published_at": "2026-09-03T14:53:20Z",
-      "updated_at": "2026-09-03T14:53:20Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "KV Cache / Long Context",
-        "Efficient Attention"
-      ]
-    },
-    {
-      "title": "Every Kernel Is a Join: Automatic Multi-GPU Parallelism for AI Computations in Einsummable",
-      "venue": "arXiv 2026",
-      "topic": "distributed training/inference / GPU systems / compiler",
-      "arxiv": "2609.03905",
-      "doi": "",
-      "official_id": "arXiv:2609.03905",
-      "paper_url": "https://arxiv.org/abs/2609.03905",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Automatically decomposes PyTorch-like AI computations across multi-GPU servers using join-aggregation specs and synthesized topology-aware exchange programs rather than canned collectives. On LLaMA blocks across eight A100 GPUs reports 8.97 ms geometric-mean runtime versus 13.80 ms hand-tuned PyTorch and 15.90 ms vLLM. Canonical systems/compiler work.",
-      "published_at": "2026-09-03T14:24:02Z",
-      "updated_at": "2026-09-03T14:24:02Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "GPU Kernel / DSL / Compiler",
-        "Distributed Training / Inference"
-      ]
-    },
-    {
-      "title": "Almost Free State Prediction Separation",
-      "venue": "arXiv 2026",
-      "topic": "efficient reasoning/agent systems / LLM inference / KV-cache-neutral extra compute",
-      "arxiv": "2609.03807",
-      "doi": "",
-      "official_id": "arXiv:2609.03807",
-      "paper_url": "https://arxiv.org/abs/2609.03807",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Microsoft/Cornell free-pause-token method improves next-token prediction by 2-3 centinats on a 1B model while adding no context length, no KV cache, and essentially no inference latency; training overhead is reduced to about 1.14x. This is directly relevant to inference-efficient extra-compute/reasoning design.",
-      "published_at": "2026-09-03T13:12:47Z",
-      "updated_at": "2026-09-04T13:55:56Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "KV Cache / Long Context",
-        "Efficient Reasoning / Agents"
-      ]
-    },
-    {
-      "title": "MINERVA: How Small Can a Manipulation Policy Be and Still Solve LIBERO?",
-      "venue": "arXiv 2026",
-      "topic": "VLA/WAM/Physical AI / compact policy / deployment efficiency",
-      "arxiv": "2609.03715",
-      "doi": "",
-      "official_id": "arXiv:2609.03715",
-      "paper_url": "https://arxiv.org/abs/2609.03715",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Empirically estimates LIBERO task-capacity floor: a 0.54M-parameter policy reaches 95.1% average success over 2,000 rollouts, runs 5-9 ms per action chunk on laptop CPU, and exposes weak robustness/task-ID memorization in standard LIBERO. Strong deployment-efficiency and benchmark-diagnostic result; protected Physical-AI canonical-high.",
-      "published_at": "2026-09-03T11:51:10Z",
-      "updated_at": "2026-09-03T11:51:10Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "Efficient Reasoning / Agents",
-        "VLA / WAM / Physical AI"
-      ]
-    },
-    {
-      "title": "WISE: World-model-guided Imagination Scheduling for Efficient Post-training of Vision-Language-Action Models",
-      "venue": "arXiv 2026",
-      "topic": "VLA/WAM/Physical AI / world-model scheduling / efficient post-training",
-      "arxiv": "2609.03681",
-      "doi": "",
-      "official_id": "arXiv:2609.03681",
-      "paper_url": "https://arxiv.org/abs/2609.03681",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Schedules when and how world-model imagination is used for VLA refinement, with bounded multi-view rollouts and outcome-based supervision. On pi0 and pi0.5 it reports consistent manipulation gains while reducing GPU computation time by about 80% versus full imagination. Protected Physical-AI canonical-high.",
-      "published_at": "2026-09-03T11:17:57Z",
-      "updated_at": "2026-09-03T11:17:57Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "GPU Kernel / DSL / Compiler",
-        "Multimodal / MLLM Serving",
-        "Efficient Reasoning / Agents",
-        "VLA / WAM / Physical AI"
-      ]
-    },
-    {
-      "title": "CoFiE: Coarse-to-Fine Evidence Selection for Efficient Streaming Video Understanding",
-      "venue": "arXiv 2026",
-      "topic": "multimodal/MLLM serving / sparsity / streaming video",
-      "arxiv": "2609.03675",
-      "doi": "",
-      "official_id": "arXiv:2609.03675",
-      "paper_url": "https://arxiv.org/abs/2609.03675",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Moves coarse evidence filtering before the expensive vision encoder, then performs query-specific refinement at LLM prefill. Reports up to 80% evidence-frame filtering and up to 2.54x lower end-to-end inference latency while improving benchmark accuracy. Canonical multimodal serving contribution.",
-      "published_at": "2026-09-03T11:14:21Z",
-      "updated_at": "2026-09-03T11:14:21Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "Sparsity / Pruning",
-        "Multimodal / MLLM Serving"
-      ]
-    },
-    {
-      "title": "SV-WAM: An Efficient Surround-View World-Action Model for End-to-End Autonomous Driving",
-      "venue": "arXiv 2026",
-      "topic": "VLA/WAM/Physical AI / world-action model / efficient deployment",
-      "arxiv": "2609.03602",
-      "doi": "",
-      "official_id": "arXiv:2609.03602",
-      "paper_url": "https://arxiv.org/abs/2609.03602",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Uses future-video prediction as training-only dense supervision for a six-camera WAM and discards the video branch at deployment via an action-centered causal mask, enabling action-only planning with low inference latency and strong closed-loop/open-loop results. Protected Physical-AI canonical-high.",
-      "published_at": "2026-09-03T09:47:51Z",
-      "updated_at": "2026-09-03T09:47:51Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "VLA / WAM / Physical AI"
-      ]
-    },
-    {
-      "title": "RASER: Resilient Agent Scheduling and Execution Runtime for HPC Clusters",
-      "venue": "CoRR 2026",
-      "topic": "efficient reasoning/agent systems / HPC scheduling / resilient runtime",
-      "arxiv": "2609.03598",
-      "doi": "",
-      "official_id": "2609.03598",
-      "paper_url": "https://arxiv.org/abs/2609.03598",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Direct agent-infrastructure runtime that adapts production HPC/Slurm execution to long-horizon agent workflows with unpredictable durations, external API calls and fault-tolerance requirements. Fits protected efficient-agent systems infrastructure scope.",
-      "published_at": "2026-09-03T09:47:01Z",
-      "updated_at": "2026-09-03T09:47:01Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "Distributed Training / Inference",
-        "Efficient Reasoning / Agents"
-      ]
-    },
-    {
-      "title": "Scalable Context Orchestration for Serving LLMs Over Voice",
-      "venue": "arXiv 2026",
-      "topic": "LLM serving / multimodal voice serving / context management middleware",
-      "arxiv": "2609.04288",
-      "doi": "",
-      "official_id": "arXiv:2609.04288",
-      "paper_url": "https://arxiv.org/abs/2609.04288",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Direct serving middleware for bounded voice-specific context and runtime directives. Real-world evaluation reports 79.2% lower model usage cost and up to 24.9x lower per-turn cost in long sessions while retaining up to 98.7% baseline answer quality.",
-      "published_at": "2026-09-03T09:27:00Z",
-      "updated_at": "2026-09-03T09:27:00Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "Multimodal / MLLM Serving"
-      ]
-    },
-    {
-      "title": "LeanGRPO: Eliminating Redundant Recomputation in Diffusion RL",
-      "venue": "arXiv 2026",
-      "topic": "diffusion/flow acceleration / efficient training / reasoning post-training",
-      "arxiv": "2609.03528",
-      "doi": "",
-      "official_id": "arXiv:2609.03528",
-      "paper_url": "https://arxiv.org/abs/2609.03528",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Eliminates mathematically redundant selected-timestep recomputation in diffusion RL through retain/reweight recompute-free schedules, preserving the original objective and reporting up to 1.83x end-to-end speedup on FLUX.1-dev and Wan. Canonical efficient post-training contribution.",
-      "published_at": "2026-09-03T08:24:56Z",
-      "updated_at": "2026-09-03T08:24:56Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "Diffusion / Flow Acceleration",
-        "Efficient Reasoning / Agents"
-      ]
-    },
-    {
-      "title": "What Matters for Aggressive Decoding-Time KV Eviction? Temporal Aggregation and Ranking Preservation",
-      "venue": "CoRR 2026",
-      "topic": "KV cache / long-context / decode-time eviction / serving",
-      "arxiv": "2609.03515",
-      "doi": "",
-      "official_id": "arXiv:2609.03515",
-      "paper_url": "https://arxiv.org/abs/2609.03515",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Systematic decode-time KV eviction study introducing InertiaKV/InertiaKV-Lazy; periodic refresh yields 1.34-1.46x decode throughput versus full-refresh InertiaKV across six open-weight backbones and LongBench/LongBench-v2/RULER, while isolating temporal aggregation as a key design factor.",
-      "published_at": "2026-09-03T08:17:34Z",
-      "updated_at": "2026-09-03T08:17:34Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "KV Cache / Long Context"
-      ]
-    },
-    {
-      "title": "GrowPage: On-Demand KV Budgeting for Efficient LLM Reasoning Serving",
-      "venue": "arXiv 2026",
-      "topic": "KV cache/long-context / efficient reasoning / LLM serving",
-      "arxiv": "2609.03494",
-      "doi": "",
-      "official_id": "arXiv:2609.03494",
-      "paper_url": "https://arxiv.org/abs/2609.03494",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Treats KV capacity itself as a runtime resource and acquires physical pages on demand from evolving attention working sets while preserving PagedAttention continuous batching and prefix caching; reports superior performance-throughput trade-off across reasoning workloads. Canonical systems contribution.",
-      "published_at": "2026-09-03T07:53:05Z",
-      "updated_at": "2026-09-03T07:53:05Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "KV Cache / Long Context",
-        "Efficient Attention",
-        "Efficient Reasoning / Agents"
-      ]
-    },
-    {
-      "title": "FlowTT: Exploiting Computation Flow Reuse in Irregular Tensor-Train Embedding",
-      "venue": "ICCAD 2026",
-      "topic": "GPU kernel / irregular tensor execution / recommendation embedding / compiler-runtime",
-      "arxiv": "2609.03459",
-      "doi": "",
-      "official_id": "arXiv:2609.03459",
-      "paper_url": "https://arxiv.org/abs/2609.03459",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Flow-aware GPU execution framework for Tensor-Train embedding that exposes prefix-shared irregular computation, fuses TT contractions with on-chip retention, and uses persistent-thread scheduling; reports up to 42.2% inference and 49.2% training latency reduction versus EcoRec.",
-      "published_at": "2026-09-03T07:17:33Z",
-      "updated_at": "2026-09-03T07:17:33Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "GPU Kernel / DSL / Compiler"
-      ]
-    },
-    {
-      "title": "Random Attention: Rethinking KV Cache Eviction for Efficient Reasoning",
-      "venue": "arXiv 2026",
-      "topic": "KV cache/long-context / efficient reasoning / LLM serving",
-      "arxiv": "2609.03430",
-      "doi": "",
-      "official_id": "arXiv:2609.03430",
-      "paper_url": "https://arxiv.org/abs/2609.03430",
-      "code_url": "https://github.com/SalesforceAIResearch/Random-Attention",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Training-free random per-head KV eviction that preserves prompts and exploits redundancy in reasoning traces; across four models and six reasoning tasks it matches the strongest prior evictor while serving 32-43% higher throughput in vLLM. Direct systems evidence and official SalesforceAIResearch code make this canonical-high.",
-      "published_at": "2026-09-03T06:38:38Z",
-      "updated_at": "2026-09-03T06:38:38Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "KV Cache / Long Context",
-        "Efficient Attention",
-        "Efficient Reasoning / Agents"
-      ]
-    },
-    {
-      "title": "Spruce: Scalable Private Outsourced Retrieval Using Compact Embeddings",
-      "venue": "arXiv 2026",
-      "topic": "LLM serving / RAG retrieval / privacy-preserving systems / efficient retrieval",
-      "arxiv": "2609.03376",
-      "doi": "",
-      "official_id": "arXiv:2609.03376",
-      "paper_url": "https://arxiv.org/abs/2609.03376",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Direct RAG-serving systems contribution. Co-designs compact binary retrieval representations with two-server MPC; across 383K-5.42M document corpora, full scans are 4.8-6.7x faster than closest measured prior work, private pruning is 13.1-22.9x faster while retaining 93.9-97.3% full-float NDCG, and largest-corpus sustained throughput improves 31.5x at 1 Gbps.",
-      "published_at": "2026-09-03T05:19:03Z",
-      "updated_at": "2026-09-03T05:19:03Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "Sparsity / Pruning"
-      ]
-    },
-    {
-      "title": "Latency-Aware Orchestration for Multi-Agent LLM Workflows on Heterogeneous GPUs",
-      "venue": "arXiv 2026",
-      "topic": "efficient reasoning/agent systems / heterogeneous GPU serving",
-      "arxiv": "2609.03335",
-      "doi": "",
-      "official_id": "arXiv:2609.03335",
-      "paper_url": "https://arxiv.org/abs/2609.03335",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Prediction-guided runtime constructs physical execution graphs for concurrent multi-agent workflows on heterogeneous GPU pools, jointly optimizing model lifecycle, fusion, placement and execution order; reports up to 36.8% makespan and 25.9% p95 completion-latency reduction. Canonical agent-serving systems work.",
-      "published_at": "2026-09-03T03:48:39Z",
-      "updated_at": "2026-09-03T03:48:39Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "GPU Kernel / DSL / Compiler",
-        "Efficient Reasoning / Agents",
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "Iapetus: Content-Aware Hierarchical Scheduling for Collaborative ViT Inference in LEO Satellite Networks",
-      "venue": "CoRR 2026",
-      "topic": "edge/cloud/heterogeneous AI systems / collaborative ViT inference / token compression / layer offloading",
-      "arxiv": "2609.03318",
-      "doi": "",
-      "official_id": "arXiv:2609.03318",
-      "paper_url": "https://arxiv.org/abs/2609.03318",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Content-aware hierarchical inference scheduler jointly planning visual-token compression and layer offloading under time-varying contact/battery constraints. NVIDIA Jetson AGX Orin hardware-in-the-loop plus constellation-scale replay reports 53.0% lower mean latency and 70.8% lower battery draw while meeting quality targets at 5 tasks/s.",
-      "published_at": "2026-09-03T03:13:09Z",
-      "updated_at": "2026-09-03T03:13:09Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "KV Cache / Long Context",
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "Speculative Macro Commit for Faster Tool-Using Agents",
-      "venue": "MLSP 2026 / arXiv 2026",
-      "topic": "efficient agent systems / speculative execution / tool-use runtime",
-      "arxiv": "2609.03236",
-      "doi": "",
-      "official_id": "arXiv:2609.03236",
-      "paper_url": "https://arxiv.org/abs/2609.03236",
-      "code_url": "https://github.com/zeyuliu1037/speculative-macro-commit",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "30d true miss in efficient agent runtime. SMC uses a large authoritative actor plus a faster speculative drafter executing future action chains on isolated environment snapshots; matching the actor next action allows pre-executed multi-step macro chains and observations to be committed. The paper reports 18.59% lower latency than sequential execution on tau2-Bench Telecom and 44.9% lower wall time on AppWorld, with public author code.",
-      "published_at": "2026-09-03T00:31:43Z",
-      "updated_at": "2026-09-03T00:31:43Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "Speculative Decoding",
-        "Efficient Reasoning / Agents"
-      ]
-    },
-    {
-      "title": "MemoryLACE: Memory Lifecycle-Aware Consolidation and Evidence Retrieval",
-      "venue": "arXiv 2026",
-      "topic": "efficient reasoning/agent systems / long-term agent memory / runtime efficiency",
-      "arxiv": "2609.03201",
-      "doi": "",
-      "official_id": "arXiv:2609.03201",
-      "paper_url": "https://arxiv.org/abs/2609.03201",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Lifecycle-aware sparse merge/supersession/contradiction memory for long-term LLM agents. On BEAM it reports 66.6% lower end-to-end runtime than Hindsight while improving same-backbone quality, making it a direct agent-memory runtime result rather than only a memory-quality method.",
-      "published_at": "2026-09-02T22:33:51Z",
-      "updated_at": "2026-09-02T22:33:51Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "Sparsity / Pruning",
-        "Efficient Reasoning / Agents"
-      ]
-    },
-    {
-      "title": "Jina-OCR-v1: Efficient Document Parsing with Speculative Decoding and Dense Verifiable Rewards",
-      "venue": "arXiv 2026",
-      "topic": "multimodal/MLLM serving / speculative decoding / efficient OCR",
-      "arxiv": "2609.03181",
-      "doi": "",
-      "official_id": "arXiv:2609.03181",
-      "paper_url": "https://arxiv.org/abs/2609.03181",
-      "code_url": "https://huggingface.co/jinaai/jina-ocr-v1",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Deployment-oriented multimodal model explicitly built for low-budget GPUs. FastMTP recursively reuses one draft block for K=3 speculative steps with lossless greedy verification; on NVIDIA L4 it doubles decode speed and reaches 2.57 pages/s. Official model is public.",
-      "published_at": "2026-09-02T21:49:21Z",
-      "updated_at": "2026-09-02T21:49:21Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "Speculative Decoding",
-        "Multimodal / MLLM Serving"
-      ]
-    },
-    {
-      "title": "BASP: Communication-Efficient Batch-Aware Sequence Parallelism for LLM Training",
-      "venue": "arXiv 2026",
-      "topic": "distributed training/inference / long-context training / sequence parallelism",
-      "arxiv": "2609.03151",
-      "doi": "",
-      "official_id": "arXiv:2609.03151",
-      "paper_url": "https://arxiv.org/abs/2609.03151",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Direct distributed-training systems technique: batch-aware GPU grouping reduces all-to-all group size for sequence parallelism. A100-cluster experiments report 1.17-1.31x end-to-end training-time improvement for Llama/Qwen while preserving accuracy and memory usage.",
-      "published_at": "2026-09-02T20:33:23Z",
-      "updated_at": "2026-09-02T20:33:23Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "KV Cache / Long Context",
-        "GPU Kernel / DSL / Compiler",
-        "Distributed Training / Inference"
-      ]
-    },
-    {
-      "title": "LeanStream: A Speculate-and-Refine Streaming Framework for Efficient on-Device LLM Inference",
-      "venue": "MobiCom 2026",
-      "topic": "edge/cloud/heterogeneous AI systems / on-device LLM inference / storage offload / sparse execution",
-      "arxiv": "2609.03079",
-      "doi": "",
-      "official_id": "2609.03079",
-      "paper_url": "https://arxiv.org/abs/2609.03079",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Accepted MobiCom 2026 systems work. Speculate-and-refine streaming overlaps GPU execution with storage I/O and reports 4.8x-7.5x lower memory use at prior-work best throughput plus 1.6x-2.1x higher token throughput.",
-      "published_at": "2026-09-02T18:49:08Z",
-      "updated_at": "2026-09-02T18:49:08Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "KV Cache / Long Context",
-        "Sparsity / Pruning",
-        "GPU Kernel / DSL / Compiler",
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "UE5M3 FP4 Block Scaling for Stable Language Model Pretraining",
-      "venue": "arXiv 2026",
-      "topic": "quantization / efficient training / low-precision systems",
-      "arxiv": "2609.02846",
-      "doi": "",
-      "official_id": "arXiv:2609.02846",
-      "paper_url": "https://arxiv.org/abs/2609.02846",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "FP4 pretraining recipe pairing E2M1 payloads with unsigned E5M3 block scales, simplifying scaling and removing RHT/BF16 exemptions in an ablation; 8B/190B-token study reports lower loss and a native execution ablation with 21.2% higher measured model-body token throughput.",
-      "published_at": "2026-09-02T17:32:07Z",
-      "updated_at": "2026-09-02T17:32:07Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "Quantization"
-      ]
-    },
-    {
-      "title": "ShallowStream: Index Shallow then Answer Deep for Streaming Video Understanding",
-      "venue": "arXiv 2026",
-      "topic": "multimodal/MLLM serving / streaming video / Physical-AI protected",
-      "arxiv": "2609.02780",
-      "doi": "",
-      "official_id": "arXiv:2609.02780",
-      "paper_url": "https://arxiv.org/abs/2609.02780",
-      "code_url": "https://github.com/CURRENTF/ShallowStream",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Streaming MLLM system that uses shallow-layer KV as an always-on retrieval index and invokes deeper computation only for selected evidence; reports up to 52.1x lower per-frame prefill latency and 11.9x lower 10-second end-to-end latency while matching strong streaming baselines.",
-      "published_at": "2026-09-02T16:14:48Z",
-      "updated_at": "2026-09-02T16:14:48Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "Multimodal / MLLM Serving"
-      ]
-    },
-    {
-      "title": "Measurement-Driven Sub-Network Selection for On-Premise Retrieval-Augmented Factory Agents",
-      "venue": "arXiv 2026",
-      "topic": "edge/cloud/heterogeneous AI systems / RAG agents / model compression / deployment selection",
-      "arxiv": "2609.02760",
-      "doi": "",
-      "official_id": "arXiv:2609.02760",
-      "paper_url": "https://arxiv.org/abs/2609.02760",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Deployment-centered edge AI contribution that selects a structurally compressed sub-network per device using measured on-device throughput, judged RAG quality, a general-capability floor, and memory budget. A weight-shared supernetwork makes selection practical; case study spans three heterogeneous edge tiers at 1.3-5 W standby.",
-      "published_at": "2026-09-02T16:00:05Z",
-      "updated_at": "2026-09-02T16:00:05Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "Efficient Reasoning / Agents",
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "Language Models Can Control Their Own Attention",
-      "venue": "arXiv 2026",
-      "topic": "efficient attention / KV cache / long-context inference / serving runtime",
-      "arxiv": "2609.02737",
-      "doi": "",
-      "official_id": "arXiv:2609.02737",
-      "paper_url": "https://arxiv.org/abs/2609.02737",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Introduces Declarative Attention: the model declares global/focus/local attention spans and the inference engine skips irrelevant KV-cache reads. Across 15 long-context tasks it reduces attended decode tokens by 52.0% and 31.1% on two off-the-shelf models; includes a vLLM-compatible block-masking runtime path.",
-      "published_at": "2026-09-02T15:43:38Z",
-      "updated_at": "2026-09-02T15:43:38Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "KV Cache / Long Context",
-        "Efficient Attention"
-      ]
-    },
-    {
-      "title": "GaLe: memory-efficient Global Approximate and Local Exact features",
-      "venue": "arXiv 2026",
-      "topic": "edge/cloud/heterogeneous AI systems / memory-efficient inference",
-      "arxiv": "2609.02689",
-      "doi": "",
-      "official_id": "arXiv:2609.02689",
-      "paper_url": "https://arxiv.org/abs/2609.02689",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "GaLe enables pretrained hybrid CNN-transformer inference on constrained devices without retraining by combining local exact and global approximate features; on Cortex-M33 it reports up to 65% speedup and 90% RAM reduction versus patch-based inference while matching exact-inference performance.",
-      "published_at": "2026-09-02T14:56:18Z",
-      "updated_at": "2026-09-02T14:56:18Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "Unfolding the Leech Lattice: Fused Multi-Shell Decoding and VRAM Layouts for 2-Bit LLM Weights",
-      "venue": "arXiv 2026",
-      "topic": "LLM quantization / 2-bit serving / fused dequantize-GEMV kernel / VRAM layout",
-      "arxiv": "2609.02652",
-      "doi": "",
-      "official_id": "arXiv:2609.02652",
-      "paper_url": "https://arxiv.org/abs/2609.02652",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "30d quantization+kernel replay recovered a serving-path paper absent from the current authority. It implements the missing multi-shell Leech-lattice decode path, co-designs bit-exact VRAM layouts with a fused dequantize-plus-matvec kernel, and directly measures decode-phase GEMV and end-to-end serving cost against FP16/AWQ/QTIP. The paper reports end-to-end gains up to 1.41x at 14B while exposing the crucial distinction between nominal/on-disk bit rate and in-VRAM traffic.",
-      "published_at": "2026-09-02T14:26:06Z",
-      "updated_at": "2026-09-02T14:26:06Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "Quantization",
-        "GPU Kernel / DSL / Compiler"
-      ]
-    },
-    {
-      "title": "AceSpec: An Asymmetric Edge-Cloud Collaborative Framework for Communication-Efficient LLM Inference",
-      "venue": "CoRR 2026",
-      "topic": "speculative decoding / edge-cloud LLM inference / distributed inference / communication efficiency",
-      "arxiv": "2609.02514",
-      "doi": "",
-      "official_id": "2609.02514",
-      "paper_url": "https://arxiv.org/abs/2609.02514",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Direct edge-cloud speculative-inference systems contribution. Probabilistic state cache and asymmetric communication avoid WAN rollback stalls; reports up to 3.52x throughput and near-peak performance under 50 Kbps WAN.",
-      "published_at": "2026-09-02T12:18:32Z",
-      "updated_at": "2026-09-02T12:18:32Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "Speculative Decoding",
-        "Distributed Training / Inference",
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "ViSAR: Training-Free Adaptive-k Retrieval for Visual Document Question Answering",
-      "venue": "CoRR 2026",
-      "topic": "multimodal/MLLM serving / visual RAG / adaptive retrieval",
-      "arxiv": "2609.02486",
-      "doi": "",
-      "official_id": "arXiv:2609.02486",
-      "paper_url": "https://arxiv.org/abs/2609.02486",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Training-free query-adaptive page retrieval for visual RAG that reduces downstream LVLM context and reports up to 58.7% RAG latency reduction while maintaining or improving answer accuracy across multiple visual encoders and LVLMs.",
-      "published_at": "2026-09-02T11:54:58Z",
-      "updated_at": "2026-09-03T10:07:37Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "Multimodal / MLLM Serving"
-      ]
-    },
-    {
-      "title": "Atlas: Algorithm-Hardware Co-Design for On-Device City-Scale 3D Gaussian Splatting in VR",
-      "venue": "arXiv 2026",
-      "topic": "edge/cloud/heterogeneous AI systems / 3D Gaussian splatting / on-device rendering",
-      "arxiv": "2609.02352",
-      "doi": "",
-      "official_id": "arXiv:2609.02352",
-      "paper_url": "https://arxiv.org/abs/2609.02352",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Direct algorithm-hardware/runtime co-design for memory-constrained on-device 3DGS. Hierarchical offloading, temporal-aware LoD search and stereo rasterization yield 18.5x speedup over GPU baseline, 3.9x over prior 3DGS accelerators and 92.4% energy savings.",
-      "published_at": "2026-09-02T09:25:00Z",
-      "updated_at": "2026-09-02T09:25:00Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "KV Cache / Long Context",
-        "GPU Kernel / DSL / Compiler",
-        "Video / Image Generation",
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "Hardware-Accelerated Instance Segmentation for Resource-Constrained Space Robotics with Criticality Analysis",
-      "venue": "arXiv 2026",
-      "topic": "VLA/WAM/Physical AI serving / edge accelerator / quantization / reliable robotics inference",
-      "arxiv": "2609.02219",
-      "doi": "",
-      "official_id": "arXiv:2609.02219",
-      "paper_url": "https://arxiv.org/abs/2609.02219",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Deployment-oriented Physical-AI systems paper combining quantization calibration, DPU architectural adaptation to reduce CPU fallback, bounded-latency execution, and radiation criticality analysis on a lunar micro-rover. Reports 309 ms inference at 5.7 W, recovers 69.8% of quantization-induced accuracy loss, and targeted mitigation lowers global criticality by 31.7%.",
-      "published_at": "2026-09-02T07:33:27Z",
-      "updated_at": "2026-09-02T07:33:27Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "Quantization",
-        "VLA / WAM / Physical AI",
-        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -2084,6 +1295,52 @@
   ],
   "p1_watchlist": [
     {
+      "title": "One MLLM, One Call: Efficient Zero-Shot Vision-and-Language Navigation via Spatial-Aware Waypoints",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / VLN / sparse MLLM invocation / robot navigation",
+      "arxiv": "2609.06476",
+      "doi": "",
+      "official_id": "arXiv:2609.06476",
+      "paper_url": "https://arxiv.org/abs/2609.06476",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "O2C-Nav reduces zero-shot VLN-CE to a single MLLM call per decision step using structured waypoints, explicit spatial markers, and a low-level FMM planner, directly targeting inference latency and visual-processing overhead. It outperforms prior zero-shot methods and releases code, but the current primary abstract does not provide hard end-to-end latency/throughput numbers, so retain as protected high-value watch.",
+      "published_at": "2026-09-06T08:49:10Z",
+      "updated_at": "2026-09-06T08:49:10Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "LayerRoute: Action-Conditioned Mixture-of-Layers Routing for Vision-Language-Action Policies",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / adaptive layer routing / cached VLM representations",
+      "arxiv": "2609.06079",
+      "doi": "",
+      "official_id": "arXiv:2609.06079",
+      "paper_url": "https://arxiv.org/abs/2609.06079",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "LayerRoute dynamically mixes cached VLM-layer representations and rereads prior action states for VLA control, improving StarVLA-pi and pi0.5 across simulation and real-world benchmarks with only 0.31%/3.87% added parameters. It is highly relevant to adaptive representation access and cache reuse, but the current evidence emphasizes task quality rather than measured inference speedup, so retain as protected high-value watch.",
+      "published_at": "2026-09-05T13:13:07Z",
+      "updated_at": "2026-09-05T13:13:07Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Proton Irradiation Characterization of an Open-Source ML Accelerator on a Zynq UltraScale+ MPSoC",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI systems / Physical AI / FPGA accelerator reliability",
@@ -2560,412 +1817,6 @@
       "is_latest_30d": true,
       "directions": [
         "Quantization"
-      ]
-    },
-    {
-      "title": "FAVE: Foveated Adaptive Visual Encoding for Efficient Fine-Grained Visual Understanding",
-      "venue": "arXiv 2026",
-      "topic": "multimodal/MLLM serving / visual-token efficiency / adaptive encoding",
-      "arxiv": "2609.04392",
-      "doi": "",
-      "official_id": "arXiv:2609.04392",
-      "paper_url": "https://arxiv.org/abs/2609.04392",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "Strong MLLM efficiency signal: variable-resolution foveated encoding, 12.7x lower FLOPs in a controlled small-object setting and 3.3x controlled TTFT speedup when integrated with FastVLM. Current contribution is primarily model/encoding design rather than a full serving-system paper, so retain as high-value watch.",
-      "published_at": "2026-09-03T18:58:41Z",
-      "updated_at": "2026-09-03T18:58:41Z",
-      "is_latest_30d": true,
-      "directions": [
-        "LLM Serving",
-        "Multimodal / MLLM Serving"
-      ]
-    },
-    {
-      "title": "Compile by Training: Turning Natural-Language Specifications into Local Neural Functions",
-      "venue": "arXiv 2026",
-      "topic": "efficient reasoning/agent systems / local inference / distillation",
-      "arxiv": "2609.04199",
-      "doi": "",
-      "official_id": "arXiv:2609.04199",
-      "paper_url": "https://arxiv.org/abs/2609.04199",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "Fresh efficiency-adjacent work that compiles recurring natural-language functions into reusable compact local neural functions, avoiding repeated remote LLM calls and their latency/cost/provider dependency. Strong deployment motivation but no broad end-to-end systems benchmark yet, so retain as P1 watch rather than canonical-high.",
-      "published_at": "2026-09-03T17:59:49Z",
-      "updated_at": "2026-09-03T17:59:49Z",
-      "is_latest_30d": true,
-      "directions": [
-        "Efficient Reasoning / Agents"
-      ]
-    },
-    {
-      "title": "TAP-Path: Task-Adaptive Structural and Token Pruning for Efficient and Trustworthy Pathology Foundation Models",
-      "venue": "arXiv 2026",
-      "topic": "sparsity/pruning / multimodal models / efficient inference",
-      "arxiv": "2609.04071",
-      "doi": "",
-      "official_id": "arXiv:2609.04071",
-      "paper_url": "https://arxiv.org/abs/2609.04071",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "Combines transformer-block removal and adaptive patch-token pruning, reducing encoder parameters by about 25% and analytical compute by 35.2% while preserving or improving pathology accuracy. Strong compression signal but currently domain-specific and without measured systems latency.",
-      "published_at": "2026-09-03T16:43:36Z",
-      "updated_at": "2026-09-03T16:43:36Z",
-      "is_latest_30d": true,
-      "directions": [
-        "Sparsity / Pruning",
-        "Multimodal / MLLM Serving"
-      ]
-    },
-    {
-      "title": "Flip, Don't Shuffle: Watermarking LLMs at the Speed of Inference",
-      "venue": "arXiv 2026",
-      "topic": "LLM serving / inference kernel / watermarking overhead",
-      "arxiv": "2609.03844",
-      "doi": "",
-      "official_id": "arXiv:2609.03844",
-      "paper_url": "https://arxiv.org/abs/2609.03844",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "Stateless Bernoulli Watermarking reduces token membership to O(1), supports single-kernel execution with zero intermediate allocations and distributed inference, and reports <1% end-to-end generation overhead. Accepted at EMNLP 2026 Main, but watermarking is adjacent rather than a core serving primitive, so retain as high-value watch.",
-      "published_at": "2026-09-03T13:38:49Z",
-      "updated_at": "2026-09-03T13:38:49Z",
-      "is_latest_30d": true,
-      "directions": [
-        "LLM Serving",
-        "GPU Kernel / DSL / Compiler",
-        "Distributed Training / Inference"
-      ]
-    },
-    {
-      "title": "Lngram v2: Latent N-Gram Memory with Interpretable Discrete Representations",
-      "venue": "arXiv 2026",
-      "topic": "KV cache/long-context / multimodal serving / conditional memory / efficient model architecture",
-      "arxiv": "2609.03426",
-      "doi": "",
-      "official_id": "arXiv:2609.03426",
-      "paper_url": "https://arxiv.org/abs/2609.03426",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "Promising efficient memory mechanism that decouples route count, memory dimension and backbone width, with grouped-query readout and hard discrete addressing. Scales to a 30B VLM while substantially reducing total and activated memory parameters, but current evidence emphasizes model/parameter efficiency rather than measured serving latency or throughput.",
-      "published_at": "2026-09-03T06:33:23Z",
-      "updated_at": "2026-09-03T06:33:23Z",
-      "is_latest_30d": true,
-      "directions": [
-        "LLM Serving",
-        "KV Cache / Long Context",
-        "Multimodal / MLLM Serving"
-      ]
-    },
-    {
-      "title": "SGD-KV: Summarization Guided KV Cache Compression",
-      "venue": "",
-      "topic": "KV cache/long-context",
-      "arxiv": "2609.03235",
-      "doi": "",
-      "official_id": "arXiv:2609.03235",
-      "paper_url": "https://arxiv.org/abs/2609.03235",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "Head-aware KV-cache compression using summarization-head diagnostics; evaluated on Qwen2.5-7B-1M and Qwen3-32B up to 1M context with up to 75% KV-memory reduction. Retained P1 because current evidence is primarily algorithmic memory/accuracy rather than an end-to-end serving runtime.",
-      "published_at": "2026-09-03T00:31:11Z",
-      "updated_at": "2026-09-03T00:31:11Z",
-      "is_latest_30d": true,
-      "directions": [
-        "KV Cache / Long Context"
-      ]
-    },
-    {
-      "title": "Who Speaks for the Pruned? Visual Token Pruning as Coverage Optimization",
-      "venue": "arXiv 2026",
-      "topic": "multimodal/MLLM serving / sparsity/pruning / visual token pruning",
-      "arxiv": "2609.03158",
-      "doi": "",
-      "official_id": "arXiv:2609.03158",
-      "paper_url": "https://arxiv.org/abs/2609.03158",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "CoverPruner formulates training-free visual-token pruning as representational coverage maximization and reports the best average accuracy across multiple VLMs and compression rates, especially under aggressive pruning. It directly targets inference cost, but the current abstract does not provide end-to-end latency or throughput measurements.",
-      "published_at": "2026-09-02T20:51:02Z",
-      "updated_at": "2026-09-02T20:51:02Z",
-      "is_latest_30d": true,
-      "directions": [
-        "LLM Serving",
-        "Sparsity / Pruning",
-        "Multimodal / MLLM Serving"
-      ]
-    },
-    {
-      "title": "RACE-AIMC: Selective Inference for Heterogeneous Analog In-Memory Accelerators at the Edge",
-      "venue": "arXiv 2026",
-      "topic": "edge/cloud/heterogeneous AI systems / analog in-memory accelerator / selective inference",
-      "arxiv": "2609.03149",
-      "doi": "",
-      "official_id": "arXiv:2609.03149",
-      "paper_url": "https://arxiv.org/abs/2609.03149",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "Relevant heterogeneous edge-AI accelerator routing framework with certified selective inference and modeled 69.02% energy reduction versus always running all accelerators, but current evidence is simulation-only and lacks a strong systems venue, so retain as high-value watch rather than canonical-high.",
-      "published_at": "2026-09-02T20:30:32Z",
-      "updated_at": "2026-09-02T20:30:32Z",
-      "is_latest_30d": true,
-      "directions": [
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "Compute-in-Memory Attention: A Time-Domain Analog Softmax Circuit with RC-Tunable Temperature",
-      "venue": "arXiv 2026",
-      "topic": "efficient attention / AI accelerator / compute-in-memory / analog softmax",
-      "arxiv": "2609.04266",
-      "doi": "",
-      "official_id": "arXiv:2609.04266",
-      "paper_url": "https://arxiv.org/abs/2609.04266",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "Relevant attention-accelerator circuit that eliminates an intermediate ADC path by applying tunable time-domain analog softmax directly to CIM score voltages. Post-layout 22-nm simulations report 242.97 ns, 13.44 mW and 25.5 pJ/output element for 128-way softmax, with hardware-aware Transformer loss within 2.5% of ideal. Simulation-only evidence keeps it watchlist-high rather than canonical-high.",
-      "published_at": "2026-09-02T18:43:19Z",
-      "updated_at": "2026-09-02T18:43:19Z",
-      "is_latest_30d": true,
-      "directions": [
-        "Efficient Attention"
-      ]
-    },
-    {
-      "title": "GPU-Accelerated Astrodynamics World Models for Spacecraft Rendezvous and Proximity Operations",
-      "venue": "arXiv 2026",
-      "topic": "VLA/WAM/Physical AI serving / world models / GPU simulation",
-      "arxiv": "2609.03067",
-      "doi": "",
-      "official_id": "arXiv:2609.03067",
-      "paper_url": "https://arxiv.org/abs/2609.03067",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "Introduces an open-source JAX GPU-parallel spacecraft environment and a flow-matching world model for autonomous rendezvous, with improved sample efficiency and docking success. It is a useful Physical-AI world-model/runtime signal, but not yet a serving or deployment-efficiency paper.",
-      "published_at": "2026-09-02T18:39:40Z",
-      "updated_at": "2026-09-02T18:39:40Z",
-      "is_latest_30d": true,
-      "directions": [
-        "LLM Serving",
-        "GPU Kernel / DSL / Compiler",
-        "VLA / WAM / Physical AI"
-      ]
-    },
-    {
-      "title": "RVSD: Retrieval Vision Sparse Decoding for Mitigating Visual Hallucinations in Large Vision-Language Models",
-      "venue": "arXiv 2026",
-      "topic": "multimodal/MLLM serving / sparse decoding / visual token retrieval",
-      "arxiv": "2609.02731",
-      "doi": "",
-      "official_id": "arXiv:2609.02731",
-      "paper_url": "https://arxiv.org/abs/2609.02731",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "Training-free single-pass LVLM decoding combines semantics-directed visual-token sparsification with on-demand semantic-space visual retrieval, explicitly avoiding multi-round decoding overhead while retaining long-context hallucination suppression. Relevant inference design, but current public evidence is quality-centric and lacks hard end-to-end latency/throughput gains.",
-      "published_at": "2026-09-02T15:40:40Z",
-      "updated_at": "2026-09-02T15:40:40Z",
-      "is_latest_30d": true,
-      "directions": [
-        "LLM Serving",
-        "KV Cache / Long Context",
-        "Sparsity / Pruning",
-        "Multimodal / MLLM Serving"
-      ]
-    },
-    {
-      "title": "HINT: Human-Intent Inception for Long-Horizon Robot Manipulation",
-      "venue": "arXiv 2026",
-      "topic": "VLA/WAM/Physical AI serving / sparse semantic reasoning / low-latency control",
-      "arxiv": "2609.02653",
-      "doi": "",
-      "official_id": "arXiv:2609.02653",
-      "paper_url": "https://arxiv.org/abs/2609.02653",
-      "code_url": "https://robot-hint.github.io/",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "Invokes semantic reasoning only at manipulation-pattern transitions, then uses continuous multi-view grounding/tracking, with no added trainable parameters in the foundation action model and reported low-latency control across two policies. Strong protected Physical-AI efficiency signal, but the paper does not yet provide sufficiently detailed systems latency/throughput evidence for canonical-high.",
-      "published_at": "2026-09-02T14:26:30Z",
-      "updated_at": "2026-09-02T14:26:30Z",
-      "is_latest_30d": true,
-      "directions": [
-        "LLM Serving",
-        "Sparsity / Pruning",
-        "Efficient Reasoning / Agents",
-        "VLA / WAM / Physical AI"
-      ]
-    },
-    {
-      "title": "Quality Recovery for Quantized KV Caches via Low-Rank Attention Adaptation",
-      "venue": "arXiv 2026",
-      "topic": "KV cache / quantization / long-context inference / low-rank adaptation",
-      "arxiv": "2609.04263",
-      "doi": "",
-      "official_id": "arXiv:2609.04263",
-      "paper_url": "https://arxiv.org/abs/2609.04263",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "High-value KV-quantization watch item. It keeps physically packed low-bit cache formats fixed and distills floating-cache behavior into low-rank Q/K/V projection updates, recovering substantial held-out perplexity gaps across multiple models/quantizers while showing that perplexity recovery does not necessarily recover long-context retrieval. Useful evidence for quantized-KV deployment tradeoffs, but currently narrower and more adaptation-centric than a new serving runtime mechanism.",
-      "published_at": "2026-09-02T13:37:04Z",
-      "updated_at": "2026-09-02T13:37:04Z",
-      "is_latest_30d": true,
-      "directions": [
-        "LLM Serving",
-        "KV Cache / Long Context",
-        "Quantization",
-        "Efficient Attention"
-      ]
-    },
-    {
-      "title": "Debias-SparseGPT: Bias-Aware Pruning for Large Language Models",
-      "venue": "arXiv 2026",
-      "topic": "sparsity/pruning / LLM compression",
-      "arxiv": "2609.02496",
-      "doi": "",
-      "official_id": "arXiv:2609.02496",
-      "paper_url": "https://arxiv.org/abs/2609.02496",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "Extends SparseGPT with a bias-aware second-order term and evaluates 25%, 50%, and 2:4 structured sparsity while preserving perplexity and zero-shot accuracy. Relevant pruning follow-up, but the primary contribution is fairness-quality rather than measured runtime/system acceleration.",
-      "published_at": "2026-09-02T12:01:54Z",
-      "updated_at": "2026-09-02T12:01:54Z",
-      "is_latest_30d": true,
-      "directions": [
-        "Sparsity / Pruning"
-      ]
-    },
-    {
-      "title": "Scalable Kronecker-Fisher Approximation: Efficient Hessian Analysis for Billion-Parameter Language Models Compression",
-      "venue": "arXiv 2026",
-      "topic": "quantization / sparsity / compression / Hessian-Fisher analysis",
-      "arxiv": "2609.02451",
-      "doi": "",
-      "official_id": "arXiv:2609.02451",
-      "paper_url": "https://arxiv.org/abs/2609.02451",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "Scalable Kronecker-based Fisher/Hessian approximation captures cross-layer sensitivity for billion-parameter models without materializing the full matrix and correlates with degradation/recovery under quantization and sparsification. Useful for mixed-precision and sparsity allocation, but current contribution is analysis/methodology rather than demonstrated end-to-end serving acceleration.",
-      "published_at": "2026-09-02T11:17:52Z",
-      "updated_at": "2026-09-02T11:17:52Z",
-      "is_latest_30d": true,
-      "directions": [
-        "LLM Serving",
-        "Quantization",
-        "Sparsity / Pruning"
-      ]
-    },
-    {
-      "title": "LookStep: Efficient Vision-Language Navigation with Linguistic Foresight and Event Driven Memory",
-      "venue": "arXiv 2026",
-      "topic": "VLA/WAM/Physical AI serving / embodied navigation / bounded memory",
-      "arxiv": "2609.02350",
-      "doi": "",
-      "official_id": "arXiv:2609.02350",
-      "paper_url": "https://arxiv.org/abs/2609.02350",
-      "code_url": "https://github.com/kunyang-YU/LookStep",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "Protected Physical-AI efficiency signal. Replaces accumulated frames/cognitive maps with event-driven bounded rolling memory and linguistic future-state modeling; reports 49.7% R2R-CE Val-Unseen success with better memory efficiency and less data, with official author code/model release. Current paper emphasizes policy/task quality more than measured end-to-end serving latency, so keep as high-value watch.",
-      "published_at": "2026-09-02T09:24:08Z",
-      "updated_at": "2026-09-04T09:59:59Z",
-      "is_latest_30d": true,
-      "directions": [
-        "LLM Serving",
-        "Multimodal / MLLM Serving",
-        "VLA / WAM / Physical AI"
-      ]
-    },
-    {
-      "title": "Efficient GUI Agents: A Systems Survey of Observation, Memory, Action, and Runtime Optimization",
-      "venue": "arXiv 2026 / EMNLP 2026 workshop",
-      "topic": "efficient reasoning/agent systems / GUI agents / runtime optimization",
-      "arxiv": "2609.02309",
-      "doi": "",
-      "official_id": "arXiv:2609.02309",
-      "paper_url": "https://arxiv.org/abs/2609.02309",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "High-value efficient-agent systems survey. It frames deployment efficiency end-to-end across observation, context/memory, action budget and planner/runtime overhead, with explicit attention to selective reading, recoverable memory, verification-aware control and hybrid GUI/non-GUI runtimes. Keep for lineage and recall expansion; survey contribution does not justify canonical mechanism promotion.",
-      "published_at": "2026-09-02T08:54:58Z",
-      "updated_at": "2026-09-02T08:54:58Z",
-      "is_latest_30d": true,
-      "directions": [
-        "Efficient Attention",
-        "Efficient Reasoning / Agents"
-      ]
-    },
-    {
-      "title": "SCX Router: Streaming Zero-Shot Model Selection with a Decoder-KV Classifier and a Real-World Task Ontology",
-      "venue": "arXiv 2026",
-      "topic": "LLM serving / model routing / KV-cache reuse",
-      "arxiv": "2609.02292",
-      "doi": "",
-      "official_id": "arXiv:2609.02292",
-      "paper_url": "https://arxiv.org/abs/2609.02292",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "Lightweight 0.6B zero-shot inference router preserves decoder KV across sessions and evaluates transient candidate labels without polluting persistent cache; directly relevant to serving model selection, but current primary evidence emphasizes routing quality rather than end-to-end latency/cost measurements.",
-      "published_at": "2026-09-02T08:40:07Z",
-      "updated_at": "2026-09-02T08:40:07Z",
-      "is_latest_30d": true,
-      "directions": [
-        "LLM Serving",
-        "KV Cache / Long Context"
-      ]
-    },
-    {
-      "title": "GeoSPRINT: Geometric Redundancy-Aware Step Pruning for Inference in Diffusion Trajectories",
-      "venue": "arXiv 2026",
-      "topic": "diffusion/flow acceleration / inference-step pruning",
-      "arxiv": "2609.02160",
-      "doi": "",
-      "official_id": "arXiv:2609.02160",
-      "paper_url": "https://arxiv.org/abs/2609.02160",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "Training-free diffusion acceleration via geometric redundancy-aware nonuniform sampling schedules. Improves FID over uniform DDIM at matched NFE budgets across CIFAR-10, LSUN Church and Stable Diffusion v1.5; promising algorithmic acceleration but no direct wall-clock/runtime systems evidence yet.",
-      "published_at": "2026-09-02T06:22:04Z",
-      "updated_at": "2026-09-02T06:22:04Z",
-      "is_latest_30d": true,
-      "directions": [
-        "Sparsity / Pruning",
-        "Diffusion / Flow Acceleration"
       ]
     },
     {
@@ -4510,6 +3361,28 @@
       ]
     },
     {
+      "title": "Who Speaks for the Pruned? Visual Token Pruning as Coverage Optimization",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / sparsity/pruning / visual token pruning",
+      "arxiv": "2609.03158",
+      "doi": "",
+      "official_id": "arXiv:2609.03158",
+      "paper_url": "https://arxiv.org/abs/2609.03158",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "CoverPruner formulates training-free visual-token pruning as representational coverage maximization and reports the best average accuracy across multiple VLMs and compression rates, especially under aggressive pruning. It directly targets inference cost, but the current abstract does not provide end-to-end latency or throughput measurements.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
       "title": "Which Eviction Policy Should an LLM Cache Use? A Systematic Study Across Workloads, Capacities, and Encoders",
       "venue": "",
       "topic": "LLM semantic cache / eviction policy / serving benchmark",
@@ -4858,6 +3731,27 @@
       ]
     },
     {
+      "title": "TAP-Path: Task-Adaptive Structural and Token Pruning for Efficient and Trustworthy Pathology Foundation Models",
+      "venue": "arXiv 2026",
+      "topic": "sparsity/pruning / multimodal models / efficient inference",
+      "arxiv": "2609.04071",
+      "doi": "",
+      "official_id": "arXiv:2609.04071",
+      "paper_url": "https://arxiv.org/abs/2609.04071",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Combines transformer-block removal and adaptive patch-token pruning, reducing encoder parameters by about 25% and analytical compute by 35.2% while preserving or improving pathology accuracy. Strong compression signal but currently domain-specific and without measured systems latency.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Sparsity / Pruning",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
       "title": "Swift-Image: Exploring the Performance Frontier of Compact Unified Image Generation Models",
       "venue": "",
       "topic": "image generation efficiency / pruning / few-step distillation",
@@ -5031,6 +3925,26 @@
       ]
     },
     {
+      "title": "SGD-KV: Summarization Guided KV Cache Compression",
+      "venue": "",
+      "topic": "KV cache/long-context",
+      "arxiv": "2609.03235",
+      "doi": "",
+      "official_id": "arXiv:2609.03235",
+      "paper_url": "https://arxiv.org/abs/2609.03235",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Head-aware KV-cache compression using summarization-head diagnostics; evaluated on Qwen2.5-7B-1M and Qwen3-32B up to 1M context with up to 75% KV-memory reduction. Retained P1 because current evidence is primarily algorithmic memory/accuracy rather than an end-to-end serving runtime.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context"
+      ]
+    },
+    {
       "title": "Serving Masked Diffusion LLMs: Characterization and Design Principles from Real Hardware",
       "venue": "",
       "topic": "diffusion language model serving / batching / real hardware characterization",
@@ -5075,6 +3989,27 @@
       ]
     },
     {
+      "title": "SCX Router: Streaming Zero-Shot Model Selection with a Decoder-KV Classifier and a Real-World Task Ontology",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / model routing / KV-cache reuse",
+      "arxiv": "2609.02292",
+      "doi": "",
+      "official_id": "arXiv:2609.02292",
+      "paper_url": "https://arxiv.org/abs/2609.02292",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Lightweight 0.6B zero-shot inference router preserves decoder KV across sessions and evaluates transient candidate labels without polluting persistent cache; directly relevant to serving model selection, but current primary evidence emphasizes routing quality rather than end-to-end latency/cost measurements.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context"
+      ]
+    },
+    {
       "title": "SCULPT: Training Edge Vision Models for Post-Training Quantization Readiness",
       "venue": "arXiv 2026",
       "topic": "quantization / edge AI / deployment",
@@ -5093,6 +4028,28 @@
       "directions": [
         "Quantization",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Scalable Kronecker-Fisher Approximation: Efficient Hessian Analysis for Billion-Parameter Language Models Compression",
+      "venue": "arXiv 2026",
+      "topic": "quantization / sparsity / compression / Hessian-Fisher analysis",
+      "arxiv": "2609.02451",
+      "doi": "",
+      "official_id": "arXiv:2609.02451",
+      "paper_url": "https://arxiv.org/abs/2609.02451",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Scalable Kronecker-based Fisher/Hessian approximation captures cross-layer sensitivity for billion-parameter models without materializing the full matrix and correlates with degradation/recovery under quantization and sparsification. Useful for mixed-precision and sparsity allocation, but current contribution is analysis/methodology rather than demonstrated end-to-end serving acceleration.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Sparsity / Pruning"
       ]
     },
     {
@@ -5115,6 +4072,29 @@
         "Speculative Decoding",
         "MoE Systems / Accelerators",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "RVSD: Retrieval Vision Sparse Decoding for Mitigating Visual Hallucinations in Large Vision-Language Models",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / sparse decoding / visual token retrieval",
+      "arxiv": "2609.02731",
+      "doi": "",
+      "official_id": "arXiv:2609.02731",
+      "paper_url": "https://arxiv.org/abs/2609.02731",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Training-free single-pass LVLM decoding combines semantics-directed visual-token sparsification with on-demand semantic-space visual retrieval, explicitly avoiding multi-round decoding overhead while retaining long-context hallucination suppression. Relevant inference design, but current public evidence is quality-centric and lacks hard end-to-end latency/throughput gains.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Sparsity / Pruning",
+        "Multimodal / MLLM Serving"
       ]
     },
     {
@@ -5247,6 +4227,49 @@
       "directions": [
         "Sparsity / Pruning",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "RACE-AIMC: Selective Inference for Heterogeneous Analog In-Memory Accelerators at the Edge",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / analog in-memory accelerator / selective inference",
+      "arxiv": "2609.03149",
+      "doi": "",
+      "official_id": "arXiv:2609.03149",
+      "paper_url": "https://arxiv.org/abs/2609.03149",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Relevant heterogeneous edge-AI accelerator routing framework with certified selective inference and modeled 69.02% energy reduction versus always running all accelerators, but current evidence is simulation-only and lacks a strong systems venue, so retain as high-value watch rather than canonical-high.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Quality Recovery for Quantized KV Caches via Low-Rank Attention Adaptation",
+      "venue": "arXiv 2026",
+      "topic": "KV cache / quantization / long-context inference / low-rank adaptation",
+      "arxiv": "2609.04263",
+      "doi": "",
+      "official_id": "arXiv:2609.04263",
+      "paper_url": "https://arxiv.org/abs/2609.04263",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "High-value KV-quantization watch item. It keeps physically packed low-bit cache formats fixed and distills floating-cache behavior into low-rank Q/K/V projection updates, recovering substantial held-out perplexity gaps across multiple models/quantizers while showing that perplexity recovery does not necessarily recover long-context retrieval. Useful evidence for quantized-KV deployment tradeoffs, but currently narrower and more adaptation-centric than a new serving runtime mechanism.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Quantization",
+        "Efficient Attention"
       ]
     },
     {
@@ -5653,6 +4676,50 @@
       ]
     },
     {
+      "title": "LookStep: Efficient Vision-Language Navigation with Linguistic Foresight and Event Driven Memory",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / embodied navigation / bounded memory",
+      "arxiv": "2609.02350",
+      "doi": "",
+      "official_id": "arXiv:2609.02350",
+      "paper_url": "https://arxiv.org/abs/2609.02350",
+      "code_url": "https://github.com/kunyang-YU/LookStep",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI efficiency signal. Replaces accumulated frames/cognitive maps with event-driven bounded rolling memory and linguistic future-state modeling; reports 49.7% R2R-CE Val-Unseen success with better memory efficiency and less data, with official author code/model release. Current paper emphasizes policy/task quality more than measured end-to-end serving latency, so keep as high-value watch.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Lngram v2: Latent N-Gram Memory with Interpretable Discrete Representations",
+      "venue": "arXiv 2026",
+      "topic": "KV cache/long-context / multimodal serving / conditional memory / efficient model architecture",
+      "arxiv": "2609.03426",
+      "doi": "",
+      "official_id": "arXiv:2609.03426",
+      "paper_url": "https://arxiv.org/abs/2609.03426",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Promising efficient memory mechanism that decouples route count, memory dimension and backbone width, with grouped-query readout and hard discrete addressing. Scales to a 30B VLM while substantially reducing total and activated memory parameters, but current evidence emphasizes model/parameter efficiency rather than measured serving latency or throughput.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
       "title": "Learning to Act While Waiting: RL Finetuning of Generalist Robot Policies Under Inference Latency",
       "venue": "",
       "topic": "Physical AI / VLA / asynchronous inference / latency-aware RL",
@@ -5845,6 +4912,29 @@
       ]
     },
     {
+      "title": "HINT: Human-Intent Inception for Long-Horizon Robot Manipulation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / sparse semantic reasoning / low-latency control",
+      "arxiv": "2609.02653",
+      "doi": "",
+      "official_id": "arXiv:2609.02653",
+      "paper_url": "https://arxiv.org/abs/2609.02653",
+      "code_url": "https://robot-hint.github.io/",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Invokes semantic reasoning only at manipulation-pattern transitions, then uses continuous multi-view grounding/tracking, with no added trainable parameters in the foundation action model and reported low-latency control across two policies. Strong protected Physical-AI efficiency signal, but the paper does not yet provide sufficiently detailed systems latency/throughput evidence for canonical-high.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Here is a GIFT: Enforcing User Data Isolation in LLM Serving via GPU Information Flow Tracking",
       "venue": "",
       "topic": "LLM serving / GPU runtime / confidential computing",
@@ -5888,6 +4978,49 @@
       ]
     },
     {
+      "title": "GPU-Accelerated Astrodynamics World Models for Spacecraft Rendezvous and Proximity Operations",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / world models / GPU simulation",
+      "arxiv": "2609.03067",
+      "doi": "",
+      "official_id": "arXiv:2609.03067",
+      "paper_url": "https://arxiv.org/abs/2609.03067",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Introduces an open-source JAX GPU-parallel spacecraft environment and a flow-matching world model for autonomous rendezvous, with improved sample efficiency and docking success. It is a useful Physical-AI world-model/runtime signal, but not yet a serving or deployment-efficiency paper.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "GeoSPRINT: Geometric Redundancy-Aware Step Pruning for Inference in Diffusion Trajectories",
+      "venue": "arXiv 2026",
+      "topic": "diffusion/flow acceleration / inference-step pruning",
+      "arxiv": "2609.02160",
+      "doi": "",
+      "official_id": "arXiv:2609.02160",
+      "paper_url": "https://arxiv.org/abs/2609.02160",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Training-free diffusion acceleration via geometric redundancy-aware nonuniform sampling schedules. Improves FID over uniform DDIM at matched NFE budgets across CIFAR-10, LSUN Church and Stable Diffusion v1.5; promising algorithmic acceleration but no direct wall-clock/runtime systems evidence yet.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Sparsity / Pruning",
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
       "title": "FusionCIM: Accelerating LLM Inference with Fusion-Driven Computing-in-Memory Architecture",
       "venue": "arXiv 2026",
       "topic": "LLM inference accelerator / compute-in-memory / operator fusion / dataflow",
@@ -5905,6 +5038,28 @@
       "is_latest_30d": true,
       "directions": [
         "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Flip, Don't Shuffle: Watermarking LLMs at the Speed of Inference",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / inference kernel / watermarking overhead",
+      "arxiv": "2609.03844",
+      "doi": "",
+      "official_id": "arXiv:2609.03844",
+      "paper_url": "https://arxiv.org/abs/2609.03844",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Stateless Bernoulli Watermarking reduces token membership to O(1), supports single-kernel execution with zero intermediate allocations and distributed inference, and reports <1% end-to-end generation overhead. Accepted at EMNLP 2026 Main, but watermarking is adjacent rather than a core serving primitive, so retain as high-value watch.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference"
       ]
     },
     {
@@ -5927,6 +5082,27 @@
         "Quantization",
         "Sparsity / Pruning",
         "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "FAVE: Foveated Adaptive Visual Encoding for Efficient Fine-Grained Visual Understanding",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / visual-token efficiency / adaptive encoding",
+      "arxiv": "2609.04392",
+      "doi": "",
+      "official_id": "arXiv:2609.04392",
+      "paper_url": "https://arxiv.org/abs/2609.04392",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Strong MLLM efficiency signal: variable-resolution foveated encoding, 12.7x lower FLOPs in a controlled small-object setting and 3.3x controlled TTFT speedup when integrated with FastVLM. Current contribution is primarily model/encoding design rather than a full serving-system paper, so retain as high-value watch.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving"
       ]
     },
     {
@@ -6079,6 +5255,27 @@
       "is_latest_30d": true,
       "directions": [
         "LLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Efficient GUI Agents: A Systems Survey of Observation, Memory, Action, and Runtime Optimization",
+      "venue": "arXiv 2026 / EMNLP 2026 workshop",
+      "topic": "efficient reasoning/agent systems / GUI agents / runtime optimization",
+      "arxiv": "2609.02309",
+      "doi": "",
+      "official_id": "arXiv:2609.02309",
+      "paper_url": "https://arxiv.org/abs/2609.02309",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "High-value efficient-agent systems survey. It frames deployment efficiency end-to-end across observation, context/memory, action budget and planner/runtime overhead, with explicit attention to selective reading, recoverable memory, verification-aware control and hybrid GUI/non-GUI runtimes. Keep for lineage and recall expansion; survey contribution does not justify canonical mechanism promotion.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Attention",
         "Efficient Reasoning / Agents"
       ]
     },
@@ -6275,6 +5472,26 @@
       ]
     },
     {
+      "title": "Debias-SparseGPT: Bias-Aware Pruning for Large Language Models",
+      "venue": "arXiv 2026",
+      "topic": "sparsity/pruning / LLM compression",
+      "arxiv": "2609.02496",
+      "doi": "",
+      "official_id": "arXiv:2609.02496",
+      "paper_url": "https://arxiv.org/abs/2609.02496",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Extends SparseGPT with a bias-aware second-order term and evaluates 25%, 50%, and 2:4 structured sparsity while preserving perplexity and zero-shot accuracy. Relevant pruning follow-up, but the primary contribution is fairness-quality rather than measured runtime/system acceleration.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Sparsity / Pruning"
+      ]
+    },
+    {
       "title": "DataKernelBench: Can LLMs Optimize Database Queries on GPUs?",
       "venue": "",
       "topic": "GPU kernel / compiler / benchmark",
@@ -6314,6 +5531,46 @@
         "LLM Serving",
         "Quantization",
         "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Compute-in-Memory Attention: A Time-Domain Analog Softmax Circuit with RC-Tunable Temperature",
+      "venue": "arXiv 2026",
+      "topic": "efficient attention / AI accelerator / compute-in-memory / analog softmax",
+      "arxiv": "2609.04266",
+      "doi": "",
+      "official_id": "arXiv:2609.04266",
+      "paper_url": "https://arxiv.org/abs/2609.04266",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Relevant attention-accelerator circuit that eliminates an intermediate ADC path by applying tunable time-domain analog softmax directly to CIM score voltages. Post-layout 22-nm simulations report 242.97 ns, 13.44 mW and 25.5 pJ/output element for 128-way softmax, with hardware-aware Transformer loss within 2.5% of ideal. Simulation-only evidence keeps it watchlist-high rather than canonical-high.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Attention"
+      ]
+    },
+    {
+      "title": "Compile by Training: Turning Natural-Language Specifications into Local Neural Functions",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / local inference / distillation",
+      "arxiv": "2609.04199",
+      "doi": "",
+      "official_id": "arXiv:2609.04199",
+      "paper_url": "https://arxiv.org/abs/2609.04199",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Fresh efficiency-adjacent work that compiles recurring natural-language functions into reusable compact local neural functions, avoiding repeated remote LLM calls and their latency/cost/provider dependency. Strong deployment motivation but no broad end-to-end systems benchmark yet, so retain as P1 watch rather than canonical-high.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -9230,6 +8487,48 @@
   ],
   "tracking_records": [
     {
+      "title": "AutoUVM: Automated Prefetching Framework for LLMs under UVM Oversubscription",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / memory oversubscription / UVM prefetching / heterogeneous memory",
+      "arxiv": "2609.06172",
+      "doi": "",
+      "official_id": "arXiv:2609.06172",
+      "paper_url": "https://arxiv.org/abs/2609.06172",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Framework-aware transparent UVM prefetching exposes tensor-level access information and dynamically adapts to memory pressure. Across ten LLMs it reports 3.1x average speedup over baseline UVM, 1.9x over the best prior UVM prefetcher, and up to 4.7x over object-level prefetchers while reducing page faults.",
+      "published_at": "2026-09-05T16:24:55Z",
+      "updated_at": "2026-09-05T16:24:55Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "All for 1-Bit: Towards Genuine 1-Bit Post-Training Quantization for LLMs",
+      "venue": "arXiv 2026",
+      "topic": "quantization / LLM inference / genuine 1-bit PTQ",
+      "arxiv": "2609.06161",
+      "doi": "",
+      "official_id": "arXiv:2609.06161",
+      "paper_url": "https://arxiv.org/abs/2609.06161",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "AF1 targets a strict 1.0-BPW post-training quantization budget rather than nominal binary weights with hidden overhead. On LLaMA/Qwen/Gemma it reports better quality than prior binarization PTQ, average 2.5x inference speedup versus BF16 and over 90% memory reduction, with reproducible code.",
+      "published_at": "2026-09-05T16:03:41Z",
+      "updated_at": "2026-09-05T16:03:41Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Quantization",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
       "title": "Don't Drop Dropout: Optimizing Layer Sparsity for Efficient LLM Training and Inference",
       "venue": "ICML 2026",
       "topic": "LLM training efficiency / layer sparsity / early exit / self-speculative decoding",
@@ -9483,837 +8782,6 @@
       "directions": [
         "LLM Serving",
         "Distributed Training / Inference"
-      ]
-    },
-    {
-      "title": "VLA-Precision: Asymmetric Co-Bootstrapping for Efficient Real-World Online RL of Vision-Language-Action Models",
-      "venue": "arXiv 2026",
-      "topic": "VLA / Physical AI / real-world online RL / streaming runtime",
-      "arxiv": "2609.04355",
-      "doi": "",
-      "official_id": "arXiv:2609.04355",
-      "paper_url": "https://arxiv.org/abs/2609.04355",
-      "code_url": "https://vla-precision.github.io/",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Protected Physical-AI true miss. Beyond the online-RL algorithm, ACoB-Stream explicitly co-designs a closed-loop experience-policy execution architecture around invariant-state decoupling and on-demand streaming to reduce large-VLA rollout overhead; the paper reports up to 10.9x throughput/computational-efficiency improvement and 98.3% mean success over nine high-precision chemistry tasks across four robot embodiments. This is directly relevant to VLA runtime/infra rather than generic robot learning only.",
-      "published_at": "2026-09-03T18:19:36Z",
-      "updated_at": "2026-09-03T18:19:36Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "Multimodal / MLLM Serving",
-        "Efficient Reasoning / Agents",
-        "VLA / WAM / Physical AI"
-      ]
-    },
-    {
-      "title": "Para-Pipe: Exploiting Hierarchical Operator Parallelism of ML Computational Graphs on SoCs",
-      "venue": "IEEE TCAD 2025",
-      "topic": "edge/cloud/heterogeneous AI systems / SoC mapping / operator parallelism",
-      "arxiv": "2609.04168",
-      "doi": "",
-      "official_id": "arXiv:2609.04168",
-      "paper_url": "https://arxiv.org/abs/2609.04168",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Hierarchical mapping framework combining intra/inter-stage operator parallelism with pipelining across heterogeneous SoCs; reports Pareto throughput-latency mappings and average energy-efficiency gains of 11.0% over pure pipelining and 23.3% over non-pipelined parallel execution on Amlogic SoC.",
-      "published_at": "2026-09-03T17:53:44Z",
-      "updated_at": "2026-09-03T17:53:44Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "Distributed Training / Inference",
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "Hardware-Aware FP4 FlashAttention-4",
-      "venue": "CoRR 2026",
-      "topic": "efficient attention / quantization / GPU kernel / Blackwell FP4",
-      "arxiv": "2609.04105",
-      "doi": "",
-      "official_id": "2609.04105",
-      "paper_url": "https://arxiv.org/abs/2609.04105",
-      "code_url": "https://github.com/MrHuff/fp4-fa4",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Direct hardware-aware attention-kernel work for Blackwell. Direct-P maps softmax probabilities directly into FP4 representation and reports up to 2.13x BF16 forward throughput on GB200; the retained causal training path reports up to about 1.14x complete 8B update speedup while explicitly documenting FP4 training-stability limits.",
-      "published_at": "2026-09-03T17:12:35Z",
-      "updated_at": "2026-09-03T17:12:35Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "Quantization",
-        "Efficient Attention",
-        "GPU Kernel / DSL / Compiler"
-      ]
-    },
-    {
-      "title": "Why Gated DeltaNet Survives 4-Bit Quantization: NVFP4 W4A4 for the Recurrent Half of a Hybrid 27B LLM",
-      "venue": "CoRR 2026",
-      "topic": "quantization / hybrid attention-SSM LLM / NVFP4 W4A4 / KV cache",
-      "arxiv": "2609.04098",
-      "doi": "",
-      "official_id": "2609.04098",
-      "paper_url": "https://arxiv.org/abs/2609.04098",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Mechanistic and deployable W4A4 study of the recurrent half of a 27B hybrid LLM. Quantizes all 496 linear layers including Gated DeltaNet, studies recurrence error propagation and fused-kernel scale mismatch, and supplies calibrated KV-cache scales/checkpoint evidence.",
-      "published_at": "2026-09-03T17:04:26Z",
-      "updated_at": "2026-09-03T17:04:26Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "KV Cache / Long Context",
-        "Quantization",
-        "Efficient Attention",
-        "GPU Kernel / DSL / Compiler"
-      ]
-    },
-    {
-      "title": "DSAQuant: Denoising-Stage-Aligned Quantization-Aware Training for Video Generation",
-      "venue": "CoRR 2026",
-      "topic": "quantization / video generation acceleration / diffusion inference",
-      "arxiv": "2609.04031",
-      "doi": "",
-      "official_id": "2609.04031",
-      "paper_url": "https://arxiv.org/abs/2609.04031",
-      "code_url": "https://github.com/robbyant-research/DSAQuant",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Aggressive W4A4/W3A3 video-diffusion quantization with stage-aligned QAT and inference guidance; reports up to +6.60 VBench under W3A3 while preserving text-video alignment, with official project/code released.",
-      "published_at": "2026-09-03T16:09:25Z",
-      "updated_at": "2026-09-03T16:09:25Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "Quantization",
-        "Video / Image Generation",
-        "Diffusion / Flow Acceleration"
-      ]
-    },
-    {
-      "title": "Unlocking Lossless Speedups in LLMs via Discrete Diffusion",
-      "venue": "CoRR 2026",
-      "topic": "speculative decoding / diffusion language models / parallel decoding / efficient reasoning",
-      "arxiv": "2609.04010",
-      "doi": "",
-      "official_id": "2609.04010",
-      "paper_url": "https://arxiv.org/abs/2609.04010",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Introduces diffusion-augmented LLMs and Psi-Spec samplers that preserve the underlying autoregressive model distribution while drawing multiple tokens in parallel, making it a direct lossless decoding-acceleration contribution rather than a quality-speed heuristic.",
-      "published_at": "2026-09-03T15:48:43Z",
-      "updated_at": "2026-09-03T15:48:43Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "Speculative Decoding",
-        "Diffusion / Flow Acceleration",
-        "Efficient Reasoning / Agents"
-      ]
-    },
-    {
-      "title": "VestigeKV: The NoPE-MLA KV Cache Carries Its Own Eviction Signal in a Vestigial Branch",
-      "venue": "CoRR 2026",
-      "topic": "KV cache / long-context / MLA / cache eviction",
-      "arxiv": "2609.03949",
-      "doi": "",
-      "official_id": "2609.03949",
-      "paper_url": "https://arxiv.org/abs/2609.03949",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Direct long-context KV-cache systems contribution for NoPE-MLA. Uses a query-independent signal already present in the cache to partition attended and archived tiers, targeting the failure of observed-attention eviction before future queries exist.",
-      "published_at": "2026-09-03T14:53:20Z",
-      "updated_at": "2026-09-03T14:53:20Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "KV Cache / Long Context",
-        "Efficient Attention"
-      ]
-    },
-    {
-      "title": "Every Kernel Is a Join: Automatic Multi-GPU Parallelism for AI Computations in Einsummable",
-      "venue": "arXiv 2026",
-      "topic": "distributed training/inference / GPU systems / compiler",
-      "arxiv": "2609.03905",
-      "doi": "",
-      "official_id": "arXiv:2609.03905",
-      "paper_url": "https://arxiv.org/abs/2609.03905",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Automatically decomposes PyTorch-like AI computations across multi-GPU servers using join-aggregation specs and synthesized topology-aware exchange programs rather than canned collectives. On LLaMA blocks across eight A100 GPUs reports 8.97 ms geometric-mean runtime versus 13.80 ms hand-tuned PyTorch and 15.90 ms vLLM. Canonical systems/compiler work.",
-      "published_at": "2026-09-03T14:24:02Z",
-      "updated_at": "2026-09-03T14:24:02Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "GPU Kernel / DSL / Compiler",
-        "Distributed Training / Inference"
-      ]
-    },
-    {
-      "title": "Almost Free State Prediction Separation",
-      "venue": "arXiv 2026",
-      "topic": "efficient reasoning/agent systems / LLM inference / KV-cache-neutral extra compute",
-      "arxiv": "2609.03807",
-      "doi": "",
-      "official_id": "arXiv:2609.03807",
-      "paper_url": "https://arxiv.org/abs/2609.03807",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Microsoft/Cornell free-pause-token method improves next-token prediction by 2-3 centinats on a 1B model while adding no context length, no KV cache, and essentially no inference latency; training overhead is reduced to about 1.14x. This is directly relevant to inference-efficient extra-compute/reasoning design.",
-      "published_at": "2026-09-03T13:12:47Z",
-      "updated_at": "2026-09-04T13:55:56Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "KV Cache / Long Context",
-        "Efficient Reasoning / Agents"
-      ]
-    },
-    {
-      "title": "MINERVA: How Small Can a Manipulation Policy Be and Still Solve LIBERO?",
-      "venue": "arXiv 2026",
-      "topic": "VLA/WAM/Physical AI / compact policy / deployment efficiency",
-      "arxiv": "2609.03715",
-      "doi": "",
-      "official_id": "arXiv:2609.03715",
-      "paper_url": "https://arxiv.org/abs/2609.03715",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Empirically estimates LIBERO task-capacity floor: a 0.54M-parameter policy reaches 95.1% average success over 2,000 rollouts, runs 5-9 ms per action chunk on laptop CPU, and exposes weak robustness/task-ID memorization in standard LIBERO. Strong deployment-efficiency and benchmark-diagnostic result; protected Physical-AI canonical-high.",
-      "published_at": "2026-09-03T11:51:10Z",
-      "updated_at": "2026-09-03T11:51:10Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "Efficient Reasoning / Agents",
-        "VLA / WAM / Physical AI"
-      ]
-    },
-    {
-      "title": "WISE: World-model-guided Imagination Scheduling for Efficient Post-training of Vision-Language-Action Models",
-      "venue": "arXiv 2026",
-      "topic": "VLA/WAM/Physical AI / world-model scheduling / efficient post-training",
-      "arxiv": "2609.03681",
-      "doi": "",
-      "official_id": "arXiv:2609.03681",
-      "paper_url": "https://arxiv.org/abs/2609.03681",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Schedules when and how world-model imagination is used for VLA refinement, with bounded multi-view rollouts and outcome-based supervision. On pi0 and pi0.5 it reports consistent manipulation gains while reducing GPU computation time by about 80% versus full imagination. Protected Physical-AI canonical-high.",
-      "published_at": "2026-09-03T11:17:57Z",
-      "updated_at": "2026-09-03T11:17:57Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "GPU Kernel / DSL / Compiler",
-        "Multimodal / MLLM Serving",
-        "Efficient Reasoning / Agents",
-        "VLA / WAM / Physical AI"
-      ]
-    },
-    {
-      "title": "CoFiE: Coarse-to-Fine Evidence Selection for Efficient Streaming Video Understanding",
-      "venue": "arXiv 2026",
-      "topic": "multimodal/MLLM serving / sparsity / streaming video",
-      "arxiv": "2609.03675",
-      "doi": "",
-      "official_id": "arXiv:2609.03675",
-      "paper_url": "https://arxiv.org/abs/2609.03675",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Moves coarse evidence filtering before the expensive vision encoder, then performs query-specific refinement at LLM prefill. Reports up to 80% evidence-frame filtering and up to 2.54x lower end-to-end inference latency while improving benchmark accuracy. Canonical multimodal serving contribution.",
-      "published_at": "2026-09-03T11:14:21Z",
-      "updated_at": "2026-09-03T11:14:21Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "Sparsity / Pruning",
-        "Multimodal / MLLM Serving"
-      ]
-    },
-    {
-      "title": "SV-WAM: An Efficient Surround-View World-Action Model for End-to-End Autonomous Driving",
-      "venue": "arXiv 2026",
-      "topic": "VLA/WAM/Physical AI / world-action model / efficient deployment",
-      "arxiv": "2609.03602",
-      "doi": "",
-      "official_id": "arXiv:2609.03602",
-      "paper_url": "https://arxiv.org/abs/2609.03602",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Uses future-video prediction as training-only dense supervision for a six-camera WAM and discards the video branch at deployment via an action-centered causal mask, enabling action-only planning with low inference latency and strong closed-loop/open-loop results. Protected Physical-AI canonical-high.",
-      "published_at": "2026-09-03T09:47:51Z",
-      "updated_at": "2026-09-03T09:47:51Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "VLA / WAM / Physical AI"
-      ]
-    },
-    {
-      "title": "RASER: Resilient Agent Scheduling and Execution Runtime for HPC Clusters",
-      "venue": "CoRR 2026",
-      "topic": "efficient reasoning/agent systems / HPC scheduling / resilient runtime",
-      "arxiv": "2609.03598",
-      "doi": "",
-      "official_id": "2609.03598",
-      "paper_url": "https://arxiv.org/abs/2609.03598",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Direct agent-infrastructure runtime that adapts production HPC/Slurm execution to long-horizon agent workflows with unpredictable durations, external API calls and fault-tolerance requirements. Fits protected efficient-agent systems infrastructure scope.",
-      "published_at": "2026-09-03T09:47:01Z",
-      "updated_at": "2026-09-03T09:47:01Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "Distributed Training / Inference",
-        "Efficient Reasoning / Agents"
-      ]
-    },
-    {
-      "title": "Scalable Context Orchestration for Serving LLMs Over Voice",
-      "venue": "arXiv 2026",
-      "topic": "LLM serving / multimodal voice serving / context management middleware",
-      "arxiv": "2609.04288",
-      "doi": "",
-      "official_id": "arXiv:2609.04288",
-      "paper_url": "https://arxiv.org/abs/2609.04288",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Direct serving middleware for bounded voice-specific context and runtime directives. Real-world evaluation reports 79.2% lower model usage cost and up to 24.9x lower per-turn cost in long sessions while retaining up to 98.7% baseline answer quality.",
-      "published_at": "2026-09-03T09:27:00Z",
-      "updated_at": "2026-09-03T09:27:00Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "Multimodal / MLLM Serving"
-      ]
-    },
-    {
-      "title": "LeanGRPO: Eliminating Redundant Recomputation in Diffusion RL",
-      "venue": "arXiv 2026",
-      "topic": "diffusion/flow acceleration / efficient training / reasoning post-training",
-      "arxiv": "2609.03528",
-      "doi": "",
-      "official_id": "arXiv:2609.03528",
-      "paper_url": "https://arxiv.org/abs/2609.03528",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Eliminates mathematically redundant selected-timestep recomputation in diffusion RL through retain/reweight recompute-free schedules, preserving the original objective and reporting up to 1.83x end-to-end speedup on FLUX.1-dev and Wan. Canonical efficient post-training contribution.",
-      "published_at": "2026-09-03T08:24:56Z",
-      "updated_at": "2026-09-03T08:24:56Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "Diffusion / Flow Acceleration",
-        "Efficient Reasoning / Agents"
-      ]
-    },
-    {
-      "title": "What Matters for Aggressive Decoding-Time KV Eviction? Temporal Aggregation and Ranking Preservation",
-      "venue": "CoRR 2026",
-      "topic": "KV cache / long-context / decode-time eviction / serving",
-      "arxiv": "2609.03515",
-      "doi": "",
-      "official_id": "arXiv:2609.03515",
-      "paper_url": "https://arxiv.org/abs/2609.03515",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Systematic decode-time KV eviction study introducing InertiaKV/InertiaKV-Lazy; periodic refresh yields 1.34-1.46x decode throughput versus full-refresh InertiaKV across six open-weight backbones and LongBench/LongBench-v2/RULER, while isolating temporal aggregation as a key design factor.",
-      "published_at": "2026-09-03T08:17:34Z",
-      "updated_at": "2026-09-03T08:17:34Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "KV Cache / Long Context"
-      ]
-    },
-    {
-      "title": "GrowPage: On-Demand KV Budgeting for Efficient LLM Reasoning Serving",
-      "venue": "arXiv 2026",
-      "topic": "KV cache/long-context / efficient reasoning / LLM serving",
-      "arxiv": "2609.03494",
-      "doi": "",
-      "official_id": "arXiv:2609.03494",
-      "paper_url": "https://arxiv.org/abs/2609.03494",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Treats KV capacity itself as a runtime resource and acquires physical pages on demand from evolving attention working sets while preserving PagedAttention continuous batching and prefix caching; reports superior performance-throughput trade-off across reasoning workloads. Canonical systems contribution.",
-      "published_at": "2026-09-03T07:53:05Z",
-      "updated_at": "2026-09-03T07:53:05Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "KV Cache / Long Context",
-        "Efficient Attention",
-        "Efficient Reasoning / Agents"
-      ]
-    },
-    {
-      "title": "FlowTT: Exploiting Computation Flow Reuse in Irregular Tensor-Train Embedding",
-      "venue": "ICCAD 2026",
-      "topic": "GPU kernel / irregular tensor execution / recommendation embedding / compiler-runtime",
-      "arxiv": "2609.03459",
-      "doi": "",
-      "official_id": "arXiv:2609.03459",
-      "paper_url": "https://arxiv.org/abs/2609.03459",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Flow-aware GPU execution framework for Tensor-Train embedding that exposes prefix-shared irregular computation, fuses TT contractions with on-chip retention, and uses persistent-thread scheduling; reports up to 42.2% inference and 49.2% training latency reduction versus EcoRec.",
-      "published_at": "2026-09-03T07:17:33Z",
-      "updated_at": "2026-09-03T07:17:33Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "GPU Kernel / DSL / Compiler"
-      ]
-    },
-    {
-      "title": "Random Attention: Rethinking KV Cache Eviction for Efficient Reasoning",
-      "venue": "arXiv 2026",
-      "topic": "KV cache/long-context / efficient reasoning / LLM serving",
-      "arxiv": "2609.03430",
-      "doi": "",
-      "official_id": "arXiv:2609.03430",
-      "paper_url": "https://arxiv.org/abs/2609.03430",
-      "code_url": "https://github.com/SalesforceAIResearch/Random-Attention",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Training-free random per-head KV eviction that preserves prompts and exploits redundancy in reasoning traces; across four models and six reasoning tasks it matches the strongest prior evictor while serving 32-43% higher throughput in vLLM. Direct systems evidence and official SalesforceAIResearch code make this canonical-high.",
-      "published_at": "2026-09-03T06:38:38Z",
-      "updated_at": "2026-09-03T06:38:38Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "KV Cache / Long Context",
-        "Efficient Attention",
-        "Efficient Reasoning / Agents"
-      ]
-    },
-    {
-      "title": "Spruce: Scalable Private Outsourced Retrieval Using Compact Embeddings",
-      "venue": "arXiv 2026",
-      "topic": "LLM serving / RAG retrieval / privacy-preserving systems / efficient retrieval",
-      "arxiv": "2609.03376",
-      "doi": "",
-      "official_id": "arXiv:2609.03376",
-      "paper_url": "https://arxiv.org/abs/2609.03376",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Direct RAG-serving systems contribution. Co-designs compact binary retrieval representations with two-server MPC; across 383K-5.42M document corpora, full scans are 4.8-6.7x faster than closest measured prior work, private pruning is 13.1-22.9x faster while retaining 93.9-97.3% full-float NDCG, and largest-corpus sustained throughput improves 31.5x at 1 Gbps.",
-      "published_at": "2026-09-03T05:19:03Z",
-      "updated_at": "2026-09-03T05:19:03Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "Sparsity / Pruning"
-      ]
-    },
-    {
-      "title": "Latency-Aware Orchestration for Multi-Agent LLM Workflows on Heterogeneous GPUs",
-      "venue": "arXiv 2026",
-      "topic": "efficient reasoning/agent systems / heterogeneous GPU serving",
-      "arxiv": "2609.03335",
-      "doi": "",
-      "official_id": "arXiv:2609.03335",
-      "paper_url": "https://arxiv.org/abs/2609.03335",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Prediction-guided runtime constructs physical execution graphs for concurrent multi-agent workflows on heterogeneous GPU pools, jointly optimizing model lifecycle, fusion, placement and execution order; reports up to 36.8% makespan and 25.9% p95 completion-latency reduction. Canonical agent-serving systems work.",
-      "published_at": "2026-09-03T03:48:39Z",
-      "updated_at": "2026-09-03T03:48:39Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "GPU Kernel / DSL / Compiler",
-        "Efficient Reasoning / Agents",
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "Iapetus: Content-Aware Hierarchical Scheduling for Collaborative ViT Inference in LEO Satellite Networks",
-      "venue": "CoRR 2026",
-      "topic": "edge/cloud/heterogeneous AI systems / collaborative ViT inference / token compression / layer offloading",
-      "arxiv": "2609.03318",
-      "doi": "",
-      "official_id": "arXiv:2609.03318",
-      "paper_url": "https://arxiv.org/abs/2609.03318",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Content-aware hierarchical inference scheduler jointly planning visual-token compression and layer offloading under time-varying contact/battery constraints. NVIDIA Jetson AGX Orin hardware-in-the-loop plus constellation-scale replay reports 53.0% lower mean latency and 70.8% lower battery draw while meeting quality targets at 5 tasks/s.",
-      "published_at": "2026-09-03T03:13:09Z",
-      "updated_at": "2026-09-03T03:13:09Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "KV Cache / Long Context",
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "Speculative Macro Commit for Faster Tool-Using Agents",
-      "venue": "MLSP 2026 / arXiv 2026",
-      "topic": "efficient agent systems / speculative execution / tool-use runtime",
-      "arxiv": "2609.03236",
-      "doi": "",
-      "official_id": "arXiv:2609.03236",
-      "paper_url": "https://arxiv.org/abs/2609.03236",
-      "code_url": "https://github.com/zeyuliu1037/speculative-macro-commit",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "30d true miss in efficient agent runtime. SMC uses a large authoritative actor plus a faster speculative drafter executing future action chains on isolated environment snapshots; matching the actor next action allows pre-executed multi-step macro chains and observations to be committed. The paper reports 18.59% lower latency than sequential execution on tau2-Bench Telecom and 44.9% lower wall time on AppWorld, with public author code.",
-      "published_at": "2026-09-03T00:31:43Z",
-      "updated_at": "2026-09-03T00:31:43Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "Speculative Decoding",
-        "Efficient Reasoning / Agents"
-      ]
-    },
-    {
-      "title": "MemoryLACE: Memory Lifecycle-Aware Consolidation and Evidence Retrieval",
-      "venue": "arXiv 2026",
-      "topic": "efficient reasoning/agent systems / long-term agent memory / runtime efficiency",
-      "arxiv": "2609.03201",
-      "doi": "",
-      "official_id": "arXiv:2609.03201",
-      "paper_url": "https://arxiv.org/abs/2609.03201",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Lifecycle-aware sparse merge/supersession/contradiction memory for long-term LLM agents. On BEAM it reports 66.6% lower end-to-end runtime than Hindsight while improving same-backbone quality, making it a direct agent-memory runtime result rather than only a memory-quality method.",
-      "published_at": "2026-09-02T22:33:51Z",
-      "updated_at": "2026-09-02T22:33:51Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "Sparsity / Pruning",
-        "Efficient Reasoning / Agents"
-      ]
-    },
-    {
-      "title": "Jina-OCR-v1: Efficient Document Parsing with Speculative Decoding and Dense Verifiable Rewards",
-      "venue": "arXiv 2026",
-      "topic": "multimodal/MLLM serving / speculative decoding / efficient OCR",
-      "arxiv": "2609.03181",
-      "doi": "",
-      "official_id": "arXiv:2609.03181",
-      "paper_url": "https://arxiv.org/abs/2609.03181",
-      "code_url": "https://huggingface.co/jinaai/jina-ocr-v1",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Deployment-oriented multimodal model explicitly built for low-budget GPUs. FastMTP recursively reuses one draft block for K=3 speculative steps with lossless greedy verification; on NVIDIA L4 it doubles decode speed and reaches 2.57 pages/s. Official model is public.",
-      "published_at": "2026-09-02T21:49:21Z",
-      "updated_at": "2026-09-02T21:49:21Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "Speculative Decoding",
-        "Multimodal / MLLM Serving"
-      ]
-    },
-    {
-      "title": "BASP: Communication-Efficient Batch-Aware Sequence Parallelism for LLM Training",
-      "venue": "arXiv 2026",
-      "topic": "distributed training/inference / long-context training / sequence parallelism",
-      "arxiv": "2609.03151",
-      "doi": "",
-      "official_id": "arXiv:2609.03151",
-      "paper_url": "https://arxiv.org/abs/2609.03151",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Direct distributed-training systems technique: batch-aware GPU grouping reduces all-to-all group size for sequence parallelism. A100-cluster experiments report 1.17-1.31x end-to-end training-time improvement for Llama/Qwen while preserving accuracy and memory usage.",
-      "published_at": "2026-09-02T20:33:23Z",
-      "updated_at": "2026-09-02T20:33:23Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "KV Cache / Long Context",
-        "GPU Kernel / DSL / Compiler",
-        "Distributed Training / Inference"
-      ]
-    },
-    {
-      "title": "LeanStream: A Speculate-and-Refine Streaming Framework for Efficient on-Device LLM Inference",
-      "venue": "MobiCom 2026",
-      "topic": "edge/cloud/heterogeneous AI systems / on-device LLM inference / storage offload / sparse execution",
-      "arxiv": "2609.03079",
-      "doi": "",
-      "official_id": "2609.03079",
-      "paper_url": "https://arxiv.org/abs/2609.03079",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Accepted MobiCom 2026 systems work. Speculate-and-refine streaming overlaps GPU execution with storage I/O and reports 4.8x-7.5x lower memory use at prior-work best throughput plus 1.6x-2.1x higher token throughput.",
-      "published_at": "2026-09-02T18:49:08Z",
-      "updated_at": "2026-09-02T18:49:08Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "KV Cache / Long Context",
-        "Sparsity / Pruning",
-        "GPU Kernel / DSL / Compiler",
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "UE5M3 FP4 Block Scaling for Stable Language Model Pretraining",
-      "venue": "arXiv 2026",
-      "topic": "quantization / efficient training / low-precision systems",
-      "arxiv": "2609.02846",
-      "doi": "",
-      "official_id": "arXiv:2609.02846",
-      "paper_url": "https://arxiv.org/abs/2609.02846",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "FP4 pretraining recipe pairing E2M1 payloads with unsigned E5M3 block scales, simplifying scaling and removing RHT/BF16 exemptions in an ablation; 8B/190B-token study reports lower loss and a native execution ablation with 21.2% higher measured model-body token throughput.",
-      "published_at": "2026-09-02T17:32:07Z",
-      "updated_at": "2026-09-02T17:32:07Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "Quantization"
-      ]
-    },
-    {
-      "title": "ShallowStream: Index Shallow then Answer Deep for Streaming Video Understanding",
-      "venue": "arXiv 2026",
-      "topic": "multimodal/MLLM serving / streaming video / Physical-AI protected",
-      "arxiv": "2609.02780",
-      "doi": "",
-      "official_id": "arXiv:2609.02780",
-      "paper_url": "https://arxiv.org/abs/2609.02780",
-      "code_url": "https://github.com/CURRENTF/ShallowStream",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Streaming MLLM system that uses shallow-layer KV as an always-on retrieval index and invokes deeper computation only for selected evidence; reports up to 52.1x lower per-frame prefill latency and 11.9x lower 10-second end-to-end latency while matching strong streaming baselines.",
-      "published_at": "2026-09-02T16:14:48Z",
-      "updated_at": "2026-09-02T16:14:48Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "Multimodal / MLLM Serving"
-      ]
-    },
-    {
-      "title": "Measurement-Driven Sub-Network Selection for On-Premise Retrieval-Augmented Factory Agents",
-      "venue": "arXiv 2026",
-      "topic": "edge/cloud/heterogeneous AI systems / RAG agents / model compression / deployment selection",
-      "arxiv": "2609.02760",
-      "doi": "",
-      "official_id": "arXiv:2609.02760",
-      "paper_url": "https://arxiv.org/abs/2609.02760",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Deployment-centered edge AI contribution that selects a structurally compressed sub-network per device using measured on-device throughput, judged RAG quality, a general-capability floor, and memory budget. A weight-shared supernetwork makes selection practical; case study spans three heterogeneous edge tiers at 1.3-5 W standby.",
-      "published_at": "2026-09-02T16:00:05Z",
-      "updated_at": "2026-09-02T16:00:05Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "Efficient Reasoning / Agents",
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "Language Models Can Control Their Own Attention",
-      "venue": "arXiv 2026",
-      "topic": "efficient attention / KV cache / long-context inference / serving runtime",
-      "arxiv": "2609.02737",
-      "doi": "",
-      "official_id": "arXiv:2609.02737",
-      "paper_url": "https://arxiv.org/abs/2609.02737",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Introduces Declarative Attention: the model declares global/focus/local attention spans and the inference engine skips irrelevant KV-cache reads. Across 15 long-context tasks it reduces attended decode tokens by 52.0% and 31.1% on two off-the-shelf models; includes a vLLM-compatible block-masking runtime path.",
-      "published_at": "2026-09-02T15:43:38Z",
-      "updated_at": "2026-09-02T15:43:38Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "KV Cache / Long Context",
-        "Efficient Attention"
-      ]
-    },
-    {
-      "title": "GaLe: memory-efficient Global Approximate and Local Exact features",
-      "venue": "arXiv 2026",
-      "topic": "edge/cloud/heterogeneous AI systems / memory-efficient inference",
-      "arxiv": "2609.02689",
-      "doi": "",
-      "official_id": "arXiv:2609.02689",
-      "paper_url": "https://arxiv.org/abs/2609.02689",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "GaLe enables pretrained hybrid CNN-transformer inference on constrained devices without retraining by combining local exact and global approximate features; on Cortex-M33 it reports up to 65% speedup and 90% RAM reduction versus patch-based inference while matching exact-inference performance.",
-      "published_at": "2026-09-02T14:56:18Z",
-      "updated_at": "2026-09-02T14:56:18Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "Unfolding the Leech Lattice: Fused Multi-Shell Decoding and VRAM Layouts for 2-Bit LLM Weights",
-      "venue": "arXiv 2026",
-      "topic": "LLM quantization / 2-bit serving / fused dequantize-GEMV kernel / VRAM layout",
-      "arxiv": "2609.02652",
-      "doi": "",
-      "official_id": "arXiv:2609.02652",
-      "paper_url": "https://arxiv.org/abs/2609.02652",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "30d quantization+kernel replay recovered a serving-path paper absent from the current authority. It implements the missing multi-shell Leech-lattice decode path, co-designs bit-exact VRAM layouts with a fused dequantize-plus-matvec kernel, and directly measures decode-phase GEMV and end-to-end serving cost against FP16/AWQ/QTIP. The paper reports end-to-end gains up to 1.41x at 14B while exposing the crucial distinction between nominal/on-disk bit rate and in-VRAM traffic.",
-      "published_at": "2026-09-02T14:26:06Z",
-      "updated_at": "2026-09-02T14:26:06Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "Quantization",
-        "GPU Kernel / DSL / Compiler"
-      ]
-    },
-    {
-      "title": "AceSpec: An Asymmetric Edge-Cloud Collaborative Framework for Communication-Efficient LLM Inference",
-      "venue": "CoRR 2026",
-      "topic": "speculative decoding / edge-cloud LLM inference / distributed inference / communication efficiency",
-      "arxiv": "2609.02514",
-      "doi": "",
-      "official_id": "2609.02514",
-      "paper_url": "https://arxiv.org/abs/2609.02514",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Direct edge-cloud speculative-inference systems contribution. Probabilistic state cache and asymmetric communication avoid WAN rollback stalls; reports up to 3.52x throughput and near-peak performance under 50 Kbps WAN.",
-      "published_at": "2026-09-02T12:18:32Z",
-      "updated_at": "2026-09-02T12:18:32Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "Speculative Decoding",
-        "Distributed Training / Inference",
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "ViSAR: Training-Free Adaptive-k Retrieval for Visual Document Question Answering",
-      "venue": "CoRR 2026",
-      "topic": "multimodal/MLLM serving / visual RAG / adaptive retrieval",
-      "arxiv": "2609.02486",
-      "doi": "",
-      "official_id": "arXiv:2609.02486",
-      "paper_url": "https://arxiv.org/abs/2609.02486",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Training-free query-adaptive page retrieval for visual RAG that reduces downstream LVLM context and reports up to 58.7% RAG latency reduction while maintaining or improving answer accuracy across multiple visual encoders and LVLMs.",
-      "published_at": "2026-09-02T11:54:58Z",
-      "updated_at": "2026-09-03T10:07:37Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "Multimodal / MLLM Serving"
-      ]
-    },
-    {
-      "title": "Atlas: Algorithm-Hardware Co-Design for On-Device City-Scale 3D Gaussian Splatting in VR",
-      "venue": "arXiv 2026",
-      "topic": "edge/cloud/heterogeneous AI systems / 3D Gaussian splatting / on-device rendering",
-      "arxiv": "2609.02352",
-      "doi": "",
-      "official_id": "arXiv:2609.02352",
-      "paper_url": "https://arxiv.org/abs/2609.02352",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Direct algorithm-hardware/runtime co-design for memory-constrained on-device 3DGS. Hierarchical offloading, temporal-aware LoD search and stereo rasterization yield 18.5x speedup over GPU baseline, 3.9x over prior 3DGS accelerators and 92.4% energy savings.",
-      "published_at": "2026-09-02T09:25:00Z",
-      "updated_at": "2026-09-02T09:25:00Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "KV Cache / Long Context",
-        "GPU Kernel / DSL / Compiler",
-        "Video / Image Generation",
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "Hardware-Accelerated Instance Segmentation for Resource-Constrained Space Robotics with Criticality Analysis",
-      "venue": "arXiv 2026",
-      "topic": "VLA/WAM/Physical AI serving / edge accelerator / quantization / reliable robotics inference",
-      "arxiv": "2609.02219",
-      "doi": "",
-      "official_id": "arXiv:2609.02219",
-      "paper_url": "https://arxiv.org/abs/2609.02219",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Deployment-oriented Physical-AI systems paper combining quantization calibration, DPU architectural adaptation to reduce CPU fallback, bounded-latency execution, and radiation criticality analysis on a lunar micro-rover. Reports 309 ms inference at 5.7 W, recovers 69.8% of quantization-induced accuracy loss, and targeted mitigation lowers global criticality by 31.7%.",
-      "published_at": "2026-09-02T07:33:27Z",
-      "updated_at": "2026-09-02T07:33:27Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "Quantization",
-        "VLA / WAM / Physical AI",
-        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -11307,6 +9775,52 @@
       ]
     },
     {
+      "title": "One MLLM, One Call: Efficient Zero-Shot Vision-and-Language Navigation via Spatial-Aware Waypoints",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / VLN / sparse MLLM invocation / robot navigation",
+      "arxiv": "2609.06476",
+      "doi": "",
+      "official_id": "arXiv:2609.06476",
+      "paper_url": "https://arxiv.org/abs/2609.06476",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "O2C-Nav reduces zero-shot VLN-CE to a single MLLM call per decision step using structured waypoints, explicit spatial markers, and a low-level FMM planner, directly targeting inference latency and visual-processing overhead. It outperforms prior zero-shot methods and releases code, but the current primary abstract does not provide hard end-to-end latency/throughput numbers, so retain as protected high-value watch.",
+      "published_at": "2026-09-06T08:49:10Z",
+      "updated_at": "2026-09-06T08:49:10Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "LayerRoute: Action-Conditioned Mixture-of-Layers Routing for Vision-Language-Action Policies",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / adaptive layer routing / cached VLM representations",
+      "arxiv": "2609.06079",
+      "doi": "",
+      "official_id": "arXiv:2609.06079",
+      "paper_url": "https://arxiv.org/abs/2609.06079",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "LayerRoute dynamically mixes cached VLM-layer representations and rereads prior action states for VLA control, improving StarVLA-pi and pi0.5 across simulation and real-world benchmarks with only 0.31%/3.87% added parameters. It is highly relevant to adaptive representation access and cache reuse, but the current evidence emphasizes task quality rather than measured inference speedup, so retain as protected high-value watch.",
+      "published_at": "2026-09-05T13:13:07Z",
+      "updated_at": "2026-09-05T13:13:07Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Proton Irradiation Characterization of an Open-Source ML Accelerator on a Zynq UltraScale+ MPSoC",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI systems / Physical AI / FPGA accelerator reliability",
@@ -11783,412 +10297,6 @@
       "is_latest_30d": true,
       "directions": [
         "Quantization"
-      ]
-    },
-    {
-      "title": "FAVE: Foveated Adaptive Visual Encoding for Efficient Fine-Grained Visual Understanding",
-      "venue": "arXiv 2026",
-      "topic": "multimodal/MLLM serving / visual-token efficiency / adaptive encoding",
-      "arxiv": "2609.04392",
-      "doi": "",
-      "official_id": "arXiv:2609.04392",
-      "paper_url": "https://arxiv.org/abs/2609.04392",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "Strong MLLM efficiency signal: variable-resolution foveated encoding, 12.7x lower FLOPs in a controlled small-object setting and 3.3x controlled TTFT speedup when integrated with FastVLM. Current contribution is primarily model/encoding design rather than a full serving-system paper, so retain as high-value watch.",
-      "published_at": "2026-09-03T18:58:41Z",
-      "updated_at": "2026-09-03T18:58:41Z",
-      "is_latest_30d": true,
-      "directions": [
-        "LLM Serving",
-        "Multimodal / MLLM Serving"
-      ]
-    },
-    {
-      "title": "Compile by Training: Turning Natural-Language Specifications into Local Neural Functions",
-      "venue": "arXiv 2026",
-      "topic": "efficient reasoning/agent systems / local inference / distillation",
-      "arxiv": "2609.04199",
-      "doi": "",
-      "official_id": "arXiv:2609.04199",
-      "paper_url": "https://arxiv.org/abs/2609.04199",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "Fresh efficiency-adjacent work that compiles recurring natural-language functions into reusable compact local neural functions, avoiding repeated remote LLM calls and their latency/cost/provider dependency. Strong deployment motivation but no broad end-to-end systems benchmark yet, so retain as P1 watch rather than canonical-high.",
-      "published_at": "2026-09-03T17:59:49Z",
-      "updated_at": "2026-09-03T17:59:49Z",
-      "is_latest_30d": true,
-      "directions": [
-        "Efficient Reasoning / Agents"
-      ]
-    },
-    {
-      "title": "TAP-Path: Task-Adaptive Structural and Token Pruning for Efficient and Trustworthy Pathology Foundation Models",
-      "venue": "arXiv 2026",
-      "topic": "sparsity/pruning / multimodal models / efficient inference",
-      "arxiv": "2609.04071",
-      "doi": "",
-      "official_id": "arXiv:2609.04071",
-      "paper_url": "https://arxiv.org/abs/2609.04071",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "Combines transformer-block removal and adaptive patch-token pruning, reducing encoder parameters by about 25% and analytical compute by 35.2% while preserving or improving pathology accuracy. Strong compression signal but currently domain-specific and without measured systems latency.",
-      "published_at": "2026-09-03T16:43:36Z",
-      "updated_at": "2026-09-03T16:43:36Z",
-      "is_latest_30d": true,
-      "directions": [
-        "Sparsity / Pruning",
-        "Multimodal / MLLM Serving"
-      ]
-    },
-    {
-      "title": "Flip, Don't Shuffle: Watermarking LLMs at the Speed of Inference",
-      "venue": "arXiv 2026",
-      "topic": "LLM serving / inference kernel / watermarking overhead",
-      "arxiv": "2609.03844",
-      "doi": "",
-      "official_id": "arXiv:2609.03844",
-      "paper_url": "https://arxiv.org/abs/2609.03844",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "Stateless Bernoulli Watermarking reduces token membership to O(1), supports single-kernel execution with zero intermediate allocations and distributed inference, and reports <1% end-to-end generation overhead. Accepted at EMNLP 2026 Main, but watermarking is adjacent rather than a core serving primitive, so retain as high-value watch.",
-      "published_at": "2026-09-03T13:38:49Z",
-      "updated_at": "2026-09-03T13:38:49Z",
-      "is_latest_30d": true,
-      "directions": [
-        "LLM Serving",
-        "GPU Kernel / DSL / Compiler",
-        "Distributed Training / Inference"
-      ]
-    },
-    {
-      "title": "Lngram v2: Latent N-Gram Memory with Interpretable Discrete Representations",
-      "venue": "arXiv 2026",
-      "topic": "KV cache/long-context / multimodal serving / conditional memory / efficient model architecture",
-      "arxiv": "2609.03426",
-      "doi": "",
-      "official_id": "arXiv:2609.03426",
-      "paper_url": "https://arxiv.org/abs/2609.03426",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "Promising efficient memory mechanism that decouples route count, memory dimension and backbone width, with grouped-query readout and hard discrete addressing. Scales to a 30B VLM while substantially reducing total and activated memory parameters, but current evidence emphasizes model/parameter efficiency rather than measured serving latency or throughput.",
-      "published_at": "2026-09-03T06:33:23Z",
-      "updated_at": "2026-09-03T06:33:23Z",
-      "is_latest_30d": true,
-      "directions": [
-        "LLM Serving",
-        "KV Cache / Long Context",
-        "Multimodal / MLLM Serving"
-      ]
-    },
-    {
-      "title": "SGD-KV: Summarization Guided KV Cache Compression",
-      "venue": "",
-      "topic": "KV cache/long-context",
-      "arxiv": "2609.03235",
-      "doi": "",
-      "official_id": "arXiv:2609.03235",
-      "paper_url": "https://arxiv.org/abs/2609.03235",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "Head-aware KV-cache compression using summarization-head diagnostics; evaluated on Qwen2.5-7B-1M and Qwen3-32B up to 1M context with up to 75% KV-memory reduction. Retained P1 because current evidence is primarily algorithmic memory/accuracy rather than an end-to-end serving runtime.",
-      "published_at": "2026-09-03T00:31:11Z",
-      "updated_at": "2026-09-03T00:31:11Z",
-      "is_latest_30d": true,
-      "directions": [
-        "KV Cache / Long Context"
-      ]
-    },
-    {
-      "title": "Who Speaks for the Pruned? Visual Token Pruning as Coverage Optimization",
-      "venue": "arXiv 2026",
-      "topic": "multimodal/MLLM serving / sparsity/pruning / visual token pruning",
-      "arxiv": "2609.03158",
-      "doi": "",
-      "official_id": "arXiv:2609.03158",
-      "paper_url": "https://arxiv.org/abs/2609.03158",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "CoverPruner formulates training-free visual-token pruning as representational coverage maximization and reports the best average accuracy across multiple VLMs and compression rates, especially under aggressive pruning. It directly targets inference cost, but the current abstract does not provide end-to-end latency or throughput measurements.",
-      "published_at": "2026-09-02T20:51:02Z",
-      "updated_at": "2026-09-02T20:51:02Z",
-      "is_latest_30d": true,
-      "directions": [
-        "LLM Serving",
-        "Sparsity / Pruning",
-        "Multimodal / MLLM Serving"
-      ]
-    },
-    {
-      "title": "RACE-AIMC: Selective Inference for Heterogeneous Analog In-Memory Accelerators at the Edge",
-      "venue": "arXiv 2026",
-      "topic": "edge/cloud/heterogeneous AI systems / analog in-memory accelerator / selective inference",
-      "arxiv": "2609.03149",
-      "doi": "",
-      "official_id": "arXiv:2609.03149",
-      "paper_url": "https://arxiv.org/abs/2609.03149",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "Relevant heterogeneous edge-AI accelerator routing framework with certified selective inference and modeled 69.02% energy reduction versus always running all accelerators, but current evidence is simulation-only and lacks a strong systems venue, so retain as high-value watch rather than canonical-high.",
-      "published_at": "2026-09-02T20:30:32Z",
-      "updated_at": "2026-09-02T20:30:32Z",
-      "is_latest_30d": true,
-      "directions": [
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "Compute-in-Memory Attention: A Time-Domain Analog Softmax Circuit with RC-Tunable Temperature",
-      "venue": "arXiv 2026",
-      "topic": "efficient attention / AI accelerator / compute-in-memory / analog softmax",
-      "arxiv": "2609.04266",
-      "doi": "",
-      "official_id": "arXiv:2609.04266",
-      "paper_url": "https://arxiv.org/abs/2609.04266",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "Relevant attention-accelerator circuit that eliminates an intermediate ADC path by applying tunable time-domain analog softmax directly to CIM score voltages. Post-layout 22-nm simulations report 242.97 ns, 13.44 mW and 25.5 pJ/output element for 128-way softmax, with hardware-aware Transformer loss within 2.5% of ideal. Simulation-only evidence keeps it watchlist-high rather than canonical-high.",
-      "published_at": "2026-09-02T18:43:19Z",
-      "updated_at": "2026-09-02T18:43:19Z",
-      "is_latest_30d": true,
-      "directions": [
-        "Efficient Attention"
-      ]
-    },
-    {
-      "title": "GPU-Accelerated Astrodynamics World Models for Spacecraft Rendezvous and Proximity Operations",
-      "venue": "arXiv 2026",
-      "topic": "VLA/WAM/Physical AI serving / world models / GPU simulation",
-      "arxiv": "2609.03067",
-      "doi": "",
-      "official_id": "arXiv:2609.03067",
-      "paper_url": "https://arxiv.org/abs/2609.03067",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "Introduces an open-source JAX GPU-parallel spacecraft environment and a flow-matching world model for autonomous rendezvous, with improved sample efficiency and docking success. It is a useful Physical-AI world-model/runtime signal, but not yet a serving or deployment-efficiency paper.",
-      "published_at": "2026-09-02T18:39:40Z",
-      "updated_at": "2026-09-02T18:39:40Z",
-      "is_latest_30d": true,
-      "directions": [
-        "LLM Serving",
-        "GPU Kernel / DSL / Compiler",
-        "VLA / WAM / Physical AI"
-      ]
-    },
-    {
-      "title": "RVSD: Retrieval Vision Sparse Decoding for Mitigating Visual Hallucinations in Large Vision-Language Models",
-      "venue": "arXiv 2026",
-      "topic": "multimodal/MLLM serving / sparse decoding / visual token retrieval",
-      "arxiv": "2609.02731",
-      "doi": "",
-      "official_id": "arXiv:2609.02731",
-      "paper_url": "https://arxiv.org/abs/2609.02731",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "Training-free single-pass LVLM decoding combines semantics-directed visual-token sparsification with on-demand semantic-space visual retrieval, explicitly avoiding multi-round decoding overhead while retaining long-context hallucination suppression. Relevant inference design, but current public evidence is quality-centric and lacks hard end-to-end latency/throughput gains.",
-      "published_at": "2026-09-02T15:40:40Z",
-      "updated_at": "2026-09-02T15:40:40Z",
-      "is_latest_30d": true,
-      "directions": [
-        "LLM Serving",
-        "KV Cache / Long Context",
-        "Sparsity / Pruning",
-        "Multimodal / MLLM Serving"
-      ]
-    },
-    {
-      "title": "HINT: Human-Intent Inception for Long-Horizon Robot Manipulation",
-      "venue": "arXiv 2026",
-      "topic": "VLA/WAM/Physical AI serving / sparse semantic reasoning / low-latency control",
-      "arxiv": "2609.02653",
-      "doi": "",
-      "official_id": "arXiv:2609.02653",
-      "paper_url": "https://arxiv.org/abs/2609.02653",
-      "code_url": "https://robot-hint.github.io/",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "Invokes semantic reasoning only at manipulation-pattern transitions, then uses continuous multi-view grounding/tracking, with no added trainable parameters in the foundation action model and reported low-latency control across two policies. Strong protected Physical-AI efficiency signal, but the paper does not yet provide sufficiently detailed systems latency/throughput evidence for canonical-high.",
-      "published_at": "2026-09-02T14:26:30Z",
-      "updated_at": "2026-09-02T14:26:30Z",
-      "is_latest_30d": true,
-      "directions": [
-        "LLM Serving",
-        "Sparsity / Pruning",
-        "Efficient Reasoning / Agents",
-        "VLA / WAM / Physical AI"
-      ]
-    },
-    {
-      "title": "Quality Recovery for Quantized KV Caches via Low-Rank Attention Adaptation",
-      "venue": "arXiv 2026",
-      "topic": "KV cache / quantization / long-context inference / low-rank adaptation",
-      "arxiv": "2609.04263",
-      "doi": "",
-      "official_id": "arXiv:2609.04263",
-      "paper_url": "https://arxiv.org/abs/2609.04263",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "High-value KV-quantization watch item. It keeps physically packed low-bit cache formats fixed and distills floating-cache behavior into low-rank Q/K/V projection updates, recovering substantial held-out perplexity gaps across multiple models/quantizers while showing that perplexity recovery does not necessarily recover long-context retrieval. Useful evidence for quantized-KV deployment tradeoffs, but currently narrower and more adaptation-centric than a new serving runtime mechanism.",
-      "published_at": "2026-09-02T13:37:04Z",
-      "updated_at": "2026-09-02T13:37:04Z",
-      "is_latest_30d": true,
-      "directions": [
-        "LLM Serving",
-        "KV Cache / Long Context",
-        "Quantization",
-        "Efficient Attention"
-      ]
-    },
-    {
-      "title": "Debias-SparseGPT: Bias-Aware Pruning for Large Language Models",
-      "venue": "arXiv 2026",
-      "topic": "sparsity/pruning / LLM compression",
-      "arxiv": "2609.02496",
-      "doi": "",
-      "official_id": "arXiv:2609.02496",
-      "paper_url": "https://arxiv.org/abs/2609.02496",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "Extends SparseGPT with a bias-aware second-order term and evaluates 25%, 50%, and 2:4 structured sparsity while preserving perplexity and zero-shot accuracy. Relevant pruning follow-up, but the primary contribution is fairness-quality rather than measured runtime/system acceleration.",
-      "published_at": "2026-09-02T12:01:54Z",
-      "updated_at": "2026-09-02T12:01:54Z",
-      "is_latest_30d": true,
-      "directions": [
-        "Sparsity / Pruning"
-      ]
-    },
-    {
-      "title": "Scalable Kronecker-Fisher Approximation: Efficient Hessian Analysis for Billion-Parameter Language Models Compression",
-      "venue": "arXiv 2026",
-      "topic": "quantization / sparsity / compression / Hessian-Fisher analysis",
-      "arxiv": "2609.02451",
-      "doi": "",
-      "official_id": "arXiv:2609.02451",
-      "paper_url": "https://arxiv.org/abs/2609.02451",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "Scalable Kronecker-based Fisher/Hessian approximation captures cross-layer sensitivity for billion-parameter models without materializing the full matrix and correlates with degradation/recovery under quantization and sparsification. Useful for mixed-precision and sparsity allocation, but current contribution is analysis/methodology rather than demonstrated end-to-end serving acceleration.",
-      "published_at": "2026-09-02T11:17:52Z",
-      "updated_at": "2026-09-02T11:17:52Z",
-      "is_latest_30d": true,
-      "directions": [
-        "LLM Serving",
-        "Quantization",
-        "Sparsity / Pruning"
-      ]
-    },
-    {
-      "title": "LookStep: Efficient Vision-Language Navigation with Linguistic Foresight and Event Driven Memory",
-      "venue": "arXiv 2026",
-      "topic": "VLA/WAM/Physical AI serving / embodied navigation / bounded memory",
-      "arxiv": "2609.02350",
-      "doi": "",
-      "official_id": "arXiv:2609.02350",
-      "paper_url": "https://arxiv.org/abs/2609.02350",
-      "code_url": "https://github.com/kunyang-YU/LookStep",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "Protected Physical-AI efficiency signal. Replaces accumulated frames/cognitive maps with event-driven bounded rolling memory and linguistic future-state modeling; reports 49.7% R2R-CE Val-Unseen success with better memory efficiency and less data, with official author code/model release. Current paper emphasizes policy/task quality more than measured end-to-end serving latency, so keep as high-value watch.",
-      "published_at": "2026-09-02T09:24:08Z",
-      "updated_at": "2026-09-04T09:59:59Z",
-      "is_latest_30d": true,
-      "directions": [
-        "LLM Serving",
-        "Multimodal / MLLM Serving",
-        "VLA / WAM / Physical AI"
-      ]
-    },
-    {
-      "title": "Efficient GUI Agents: A Systems Survey of Observation, Memory, Action, and Runtime Optimization",
-      "venue": "arXiv 2026 / EMNLP 2026 workshop",
-      "topic": "efficient reasoning/agent systems / GUI agents / runtime optimization",
-      "arxiv": "2609.02309",
-      "doi": "",
-      "official_id": "arXiv:2609.02309",
-      "paper_url": "https://arxiv.org/abs/2609.02309",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "High-value efficient-agent systems survey. It frames deployment efficiency end-to-end across observation, context/memory, action budget and planner/runtime overhead, with explicit attention to selective reading, recoverable memory, verification-aware control and hybrid GUI/non-GUI runtimes. Keep for lineage and recall expansion; survey contribution does not justify canonical mechanism promotion.",
-      "published_at": "2026-09-02T08:54:58Z",
-      "updated_at": "2026-09-02T08:54:58Z",
-      "is_latest_30d": true,
-      "directions": [
-        "Efficient Attention",
-        "Efficient Reasoning / Agents"
-      ]
-    },
-    {
-      "title": "SCX Router: Streaming Zero-Shot Model Selection with a Decoder-KV Classifier and a Real-World Task Ontology",
-      "venue": "arXiv 2026",
-      "topic": "LLM serving / model routing / KV-cache reuse",
-      "arxiv": "2609.02292",
-      "doi": "",
-      "official_id": "arXiv:2609.02292",
-      "paper_url": "https://arxiv.org/abs/2609.02292",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "Lightweight 0.6B zero-shot inference router preserves decoder KV across sessions and evaluates transient candidate labels without polluting persistent cache; directly relevant to serving model selection, but current primary evidence emphasizes routing quality rather than end-to-end latency/cost measurements.",
-      "published_at": "2026-09-02T08:40:07Z",
-      "updated_at": "2026-09-02T08:40:07Z",
-      "is_latest_30d": true,
-      "directions": [
-        "LLM Serving",
-        "KV Cache / Long Context"
-      ]
-    },
-    {
-      "title": "GeoSPRINT: Geometric Redundancy-Aware Step Pruning for Inference in Diffusion Trajectories",
-      "venue": "arXiv 2026",
-      "topic": "diffusion/flow acceleration / inference-step pruning",
-      "arxiv": "2609.02160",
-      "doi": "",
-      "official_id": "arXiv:2609.02160",
-      "paper_url": "https://arxiv.org/abs/2609.02160",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "Training-free diffusion acceleration via geometric redundancy-aware nonuniform sampling schedules. Improves FID over uniform DDIM at matched NFE budgets across CIFAR-10, LSUN Church and Stable Diffusion v1.5; promising algorithmic acceleration but no direct wall-clock/runtime systems evidence yet.",
-      "published_at": "2026-09-02T06:22:04Z",
-      "updated_at": "2026-09-02T06:22:04Z",
-      "is_latest_30d": true,
-      "directions": [
-        "Sparsity / Pruning",
-        "Diffusion / Flow Acceleration"
       ]
     },
     {
@@ -13733,6 +11841,28 @@
       ]
     },
     {
+      "title": "Who Speaks for the Pruned? Visual Token Pruning as Coverage Optimization",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / sparsity/pruning / visual token pruning",
+      "arxiv": "2609.03158",
+      "doi": "",
+      "official_id": "arXiv:2609.03158",
+      "paper_url": "https://arxiv.org/abs/2609.03158",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "CoverPruner formulates training-free visual-token pruning as representational coverage maximization and reports the best average accuracy across multiple VLMs and compression rates, especially under aggressive pruning. It directly targets inference cost, but the current abstract does not provide end-to-end latency or throughput measurements.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
       "title": "Which Eviction Policy Should an LLM Cache Use? A Systematic Study Across Workloads, Capacities, and Encoders",
       "venue": "",
       "topic": "LLM semantic cache / eviction policy / serving benchmark",
@@ -14081,6 +12211,27 @@
       ]
     },
     {
+      "title": "TAP-Path: Task-Adaptive Structural and Token Pruning for Efficient and Trustworthy Pathology Foundation Models",
+      "venue": "arXiv 2026",
+      "topic": "sparsity/pruning / multimodal models / efficient inference",
+      "arxiv": "2609.04071",
+      "doi": "",
+      "official_id": "arXiv:2609.04071",
+      "paper_url": "https://arxiv.org/abs/2609.04071",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Combines transformer-block removal and adaptive patch-token pruning, reducing encoder parameters by about 25% and analytical compute by 35.2% while preserving or improving pathology accuracy. Strong compression signal but currently domain-specific and without measured systems latency.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Sparsity / Pruning",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
       "title": "Swift-Image: Exploring the Performance Frontier of Compact Unified Image Generation Models",
       "venue": "",
       "topic": "image generation efficiency / pruning / few-step distillation",
@@ -14254,6 +12405,26 @@
       ]
     },
     {
+      "title": "SGD-KV: Summarization Guided KV Cache Compression",
+      "venue": "",
+      "topic": "KV cache/long-context",
+      "arxiv": "2609.03235",
+      "doi": "",
+      "official_id": "arXiv:2609.03235",
+      "paper_url": "https://arxiv.org/abs/2609.03235",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Head-aware KV-cache compression using summarization-head diagnostics; evaluated on Qwen2.5-7B-1M and Qwen3-32B up to 1M context with up to 75% KV-memory reduction. Retained P1 because current evidence is primarily algorithmic memory/accuracy rather than an end-to-end serving runtime.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context"
+      ]
+    },
+    {
       "title": "Serving Masked Diffusion LLMs: Characterization and Design Principles from Real Hardware",
       "venue": "",
       "topic": "diffusion language model serving / batching / real hardware characterization",
@@ -14298,6 +12469,27 @@
       ]
     },
     {
+      "title": "SCX Router: Streaming Zero-Shot Model Selection with a Decoder-KV Classifier and a Real-World Task Ontology",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / model routing / KV-cache reuse",
+      "arxiv": "2609.02292",
+      "doi": "",
+      "official_id": "arXiv:2609.02292",
+      "paper_url": "https://arxiv.org/abs/2609.02292",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Lightweight 0.6B zero-shot inference router preserves decoder KV across sessions and evaluates transient candidate labels without polluting persistent cache; directly relevant to serving model selection, but current primary evidence emphasizes routing quality rather than end-to-end latency/cost measurements.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context"
+      ]
+    },
+    {
       "title": "SCULPT: Training Edge Vision Models for Post-Training Quantization Readiness",
       "venue": "arXiv 2026",
       "topic": "quantization / edge AI / deployment",
@@ -14316,6 +12508,28 @@
       "directions": [
         "Quantization",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Scalable Kronecker-Fisher Approximation: Efficient Hessian Analysis for Billion-Parameter Language Models Compression",
+      "venue": "arXiv 2026",
+      "topic": "quantization / sparsity / compression / Hessian-Fisher analysis",
+      "arxiv": "2609.02451",
+      "doi": "",
+      "official_id": "arXiv:2609.02451",
+      "paper_url": "https://arxiv.org/abs/2609.02451",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Scalable Kronecker-based Fisher/Hessian approximation captures cross-layer sensitivity for billion-parameter models without materializing the full matrix and correlates with degradation/recovery under quantization and sparsification. Useful for mixed-precision and sparsity allocation, but current contribution is analysis/methodology rather than demonstrated end-to-end serving acceleration.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Sparsity / Pruning"
       ]
     },
     {
@@ -14338,6 +12552,29 @@
         "Speculative Decoding",
         "MoE Systems / Accelerators",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "RVSD: Retrieval Vision Sparse Decoding for Mitigating Visual Hallucinations in Large Vision-Language Models",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / sparse decoding / visual token retrieval",
+      "arxiv": "2609.02731",
+      "doi": "",
+      "official_id": "arXiv:2609.02731",
+      "paper_url": "https://arxiv.org/abs/2609.02731",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Training-free single-pass LVLM decoding combines semantics-directed visual-token sparsification with on-demand semantic-space visual retrieval, explicitly avoiding multi-round decoding overhead while retaining long-context hallucination suppression. Relevant inference design, but current public evidence is quality-centric and lacks hard end-to-end latency/throughput gains.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Sparsity / Pruning",
+        "Multimodal / MLLM Serving"
       ]
     },
     {
@@ -14470,6 +12707,49 @@
       "directions": [
         "Sparsity / Pruning",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "RACE-AIMC: Selective Inference for Heterogeneous Analog In-Memory Accelerators at the Edge",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / analog in-memory accelerator / selective inference",
+      "arxiv": "2609.03149",
+      "doi": "",
+      "official_id": "arXiv:2609.03149",
+      "paper_url": "https://arxiv.org/abs/2609.03149",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Relevant heterogeneous edge-AI accelerator routing framework with certified selective inference and modeled 69.02% energy reduction versus always running all accelerators, but current evidence is simulation-only and lacks a strong systems venue, so retain as high-value watch rather than canonical-high.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Quality Recovery for Quantized KV Caches via Low-Rank Attention Adaptation",
+      "venue": "arXiv 2026",
+      "topic": "KV cache / quantization / long-context inference / low-rank adaptation",
+      "arxiv": "2609.04263",
+      "doi": "",
+      "official_id": "arXiv:2609.04263",
+      "paper_url": "https://arxiv.org/abs/2609.04263",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "High-value KV-quantization watch item. It keeps physically packed low-bit cache formats fixed and distills floating-cache behavior into low-rank Q/K/V projection updates, recovering substantial held-out perplexity gaps across multiple models/quantizers while showing that perplexity recovery does not necessarily recover long-context retrieval. Useful evidence for quantized-KV deployment tradeoffs, but currently narrower and more adaptation-centric than a new serving runtime mechanism.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Quantization",
+        "Efficient Attention"
       ]
     },
     {
@@ -14876,6 +13156,50 @@
       ]
     },
     {
+      "title": "LookStep: Efficient Vision-Language Navigation with Linguistic Foresight and Event Driven Memory",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / embodied navigation / bounded memory",
+      "arxiv": "2609.02350",
+      "doi": "",
+      "official_id": "arXiv:2609.02350",
+      "paper_url": "https://arxiv.org/abs/2609.02350",
+      "code_url": "https://github.com/kunyang-YU/LookStep",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI efficiency signal. Replaces accumulated frames/cognitive maps with event-driven bounded rolling memory and linguistic future-state modeling; reports 49.7% R2R-CE Val-Unseen success with better memory efficiency and less data, with official author code/model release. Current paper emphasizes policy/task quality more than measured end-to-end serving latency, so keep as high-value watch.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Lngram v2: Latent N-Gram Memory with Interpretable Discrete Representations",
+      "venue": "arXiv 2026",
+      "topic": "KV cache/long-context / multimodal serving / conditional memory / efficient model architecture",
+      "arxiv": "2609.03426",
+      "doi": "",
+      "official_id": "arXiv:2609.03426",
+      "paper_url": "https://arxiv.org/abs/2609.03426",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Promising efficient memory mechanism that decouples route count, memory dimension and backbone width, with grouped-query readout and hard discrete addressing. Scales to a 30B VLM while substantially reducing total and activated memory parameters, but current evidence emphasizes model/parameter efficiency rather than measured serving latency or throughput.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
       "title": "Learning to Act While Waiting: RL Finetuning of Generalist Robot Policies Under Inference Latency",
       "venue": "",
       "topic": "Physical AI / VLA / asynchronous inference / latency-aware RL",
@@ -15068,6 +13392,29 @@
       ]
     },
     {
+      "title": "HINT: Human-Intent Inception for Long-Horizon Robot Manipulation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / sparse semantic reasoning / low-latency control",
+      "arxiv": "2609.02653",
+      "doi": "",
+      "official_id": "arXiv:2609.02653",
+      "paper_url": "https://arxiv.org/abs/2609.02653",
+      "code_url": "https://robot-hint.github.io/",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Invokes semantic reasoning only at manipulation-pattern transitions, then uses continuous multi-view grounding/tracking, with no added trainable parameters in the foundation action model and reported low-latency control across two policies. Strong protected Physical-AI efficiency signal, but the paper does not yet provide sufficiently detailed systems latency/throughput evidence for canonical-high.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Here is a GIFT: Enforcing User Data Isolation in LLM Serving via GPU Information Flow Tracking",
       "venue": "",
       "topic": "LLM serving / GPU runtime / confidential computing",
@@ -15111,6 +13458,49 @@
       ]
     },
     {
+      "title": "GPU-Accelerated Astrodynamics World Models for Spacecraft Rendezvous and Proximity Operations",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / world models / GPU simulation",
+      "arxiv": "2609.03067",
+      "doi": "",
+      "official_id": "arXiv:2609.03067",
+      "paper_url": "https://arxiv.org/abs/2609.03067",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Introduces an open-source JAX GPU-parallel spacecraft environment and a flow-matching world model for autonomous rendezvous, with improved sample efficiency and docking success. It is a useful Physical-AI world-model/runtime signal, but not yet a serving or deployment-efficiency paper.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "GeoSPRINT: Geometric Redundancy-Aware Step Pruning for Inference in Diffusion Trajectories",
+      "venue": "arXiv 2026",
+      "topic": "diffusion/flow acceleration / inference-step pruning",
+      "arxiv": "2609.02160",
+      "doi": "",
+      "official_id": "arXiv:2609.02160",
+      "paper_url": "https://arxiv.org/abs/2609.02160",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Training-free diffusion acceleration via geometric redundancy-aware nonuniform sampling schedules. Improves FID over uniform DDIM at matched NFE budgets across CIFAR-10, LSUN Church and Stable Diffusion v1.5; promising algorithmic acceleration but no direct wall-clock/runtime systems evidence yet.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Sparsity / Pruning",
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
       "title": "FusionCIM: Accelerating LLM Inference with Fusion-Driven Computing-in-Memory Architecture",
       "venue": "arXiv 2026",
       "topic": "LLM inference accelerator / compute-in-memory / operator fusion / dataflow",
@@ -15128,6 +13518,28 @@
       "is_latest_30d": true,
       "directions": [
         "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Flip, Don't Shuffle: Watermarking LLMs at the Speed of Inference",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / inference kernel / watermarking overhead",
+      "arxiv": "2609.03844",
+      "doi": "",
+      "official_id": "arXiv:2609.03844",
+      "paper_url": "https://arxiv.org/abs/2609.03844",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Stateless Bernoulli Watermarking reduces token membership to O(1), supports single-kernel execution with zero intermediate allocations and distributed inference, and reports <1% end-to-end generation overhead. Accepted at EMNLP 2026 Main, but watermarking is adjacent rather than a core serving primitive, so retain as high-value watch.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference"
       ]
     },
     {
@@ -15150,6 +13562,27 @@
         "Quantization",
         "Sparsity / Pruning",
         "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "FAVE: Foveated Adaptive Visual Encoding for Efficient Fine-Grained Visual Understanding",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / visual-token efficiency / adaptive encoding",
+      "arxiv": "2609.04392",
+      "doi": "",
+      "official_id": "arXiv:2609.04392",
+      "paper_url": "https://arxiv.org/abs/2609.04392",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Strong MLLM efficiency signal: variable-resolution foveated encoding, 12.7x lower FLOPs in a controlled small-object setting and 3.3x controlled TTFT speedup when integrated with FastVLM. Current contribution is primarily model/encoding design rather than a full serving-system paper, so retain as high-value watch.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving"
       ]
     },
     {
@@ -15302,6 +13735,27 @@
       "is_latest_30d": true,
       "directions": [
         "LLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Efficient GUI Agents: A Systems Survey of Observation, Memory, Action, and Runtime Optimization",
+      "venue": "arXiv 2026 / EMNLP 2026 workshop",
+      "topic": "efficient reasoning/agent systems / GUI agents / runtime optimization",
+      "arxiv": "2609.02309",
+      "doi": "",
+      "official_id": "arXiv:2609.02309",
+      "paper_url": "https://arxiv.org/abs/2609.02309",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "High-value efficient-agent systems survey. It frames deployment efficiency end-to-end across observation, context/memory, action budget and planner/runtime overhead, with explicit attention to selective reading, recoverable memory, verification-aware control and hybrid GUI/non-GUI runtimes. Keep for lineage and recall expansion; survey contribution does not justify canonical mechanism promotion.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Attention",
         "Efficient Reasoning / Agents"
       ]
     },
@@ -15498,6 +13952,26 @@
       ]
     },
     {
+      "title": "Debias-SparseGPT: Bias-Aware Pruning for Large Language Models",
+      "venue": "arXiv 2026",
+      "topic": "sparsity/pruning / LLM compression",
+      "arxiv": "2609.02496",
+      "doi": "",
+      "official_id": "arXiv:2609.02496",
+      "paper_url": "https://arxiv.org/abs/2609.02496",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Extends SparseGPT with a bias-aware second-order term and evaluates 25%, 50%, and 2:4 structured sparsity while preserving perplexity and zero-shot accuracy. Relevant pruning follow-up, but the primary contribution is fairness-quality rather than measured runtime/system acceleration.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Sparsity / Pruning"
+      ]
+    },
+    {
       "title": "DataKernelBench: Can LLMs Optimize Database Queries on GPUs?",
       "venue": "",
       "topic": "GPU kernel / compiler / benchmark",
@@ -15537,6 +14011,46 @@
         "LLM Serving",
         "Quantization",
         "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Compute-in-Memory Attention: A Time-Domain Analog Softmax Circuit with RC-Tunable Temperature",
+      "venue": "arXiv 2026",
+      "topic": "efficient attention / AI accelerator / compute-in-memory / analog softmax",
+      "arxiv": "2609.04266",
+      "doi": "",
+      "official_id": "arXiv:2609.04266",
+      "paper_url": "https://arxiv.org/abs/2609.04266",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Relevant attention-accelerator circuit that eliminates an intermediate ADC path by applying tunable time-domain analog softmax directly to CIM score voltages. Post-layout 22-nm simulations report 242.97 ns, 13.44 mW and 25.5 pJ/output element for 128-way softmax, with hardware-aware Transformer loss within 2.5% of ideal. Simulation-only evidence keeps it watchlist-high rather than canonical-high.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Attention"
+      ]
+    },
+    {
+      "title": "Compile by Training: Turning Natural-Language Specifications into Local Neural Functions",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / local inference / distillation",
+      "arxiv": "2609.04199",
+      "doi": "",
+      "official_id": "arXiv:2609.04199",
+      "paper_url": "https://arxiv.org/abs/2609.04199",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Fresh efficiency-adjacent work that compiles recurring natural-language functions into reusable compact local neural functions, avoiding repeated remote LLM calls and their latency/cost/provider dependency. Strong deployment motivation but no broad end-to-end systems benchmark yet, so retain as P1 watch rather than canonical-high.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
       ]
     },
     {
