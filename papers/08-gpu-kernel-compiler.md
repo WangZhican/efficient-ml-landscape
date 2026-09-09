@@ -1,10 +1,10 @@
 # 08 · GPU Kernel / DSL / Compiler
 
-> **425 canonical papers** mapped here, plus a broader **113-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **427 canonical papers** mapped here, plus a broader **116-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 113 tracked
+## 🆕 Latest 30 Days · 116 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -15,6 +15,7 @@
 | **P0 · Strong** | **SemBridge: Compiling Consumer Observations into Cross-Stack Communication Plans** | arXiv 2026 | distributed training/inference / compiler / heterogeneous communication | [Link](https://arxiv.org/abs/2609.08231) | — |
 | **P0 · Strong** | **mjorbit: A Simulation Framework for Space Robotics** | arXiv 2026 | VLA/WAM/Physical AI serving / robotics runtime / GPU simulation | [Link](https://arxiv.org/abs/2609.08010) | [Repo](https://johnzhang3.github.io/mjorbit/) |
 | **P0 · Strong** | **Deadline-Aware Adaptive Prefill Chunking for Efficient Large Language Model Serving** | arXiv 2026 | LLM serving / chunked prefill / SLO scheduling / goodput | [Link](https://arxiv.org/abs/2609.07883) | — |
+| **P0 · Strong** | **GPU-Accelerated Hypergraph Partitioning and Placement to Map SNNs on Neuromorphic Hardware** | arXiv 2026 | edge/cloud/heterogeneous AI systems / neuromorphic accelerator / GPU compiler-mapping | [Link](https://arxiv.org/abs/2609.07577) | — |
 | **P0 · Strong** | **Analytical Resource Management for Fine-grained MoE Computation-Communication Overlap** | arXiv 2026 | MoE systems/accelerators / distributed inference / compute-communication overlap | [Link](https://arxiv.org/abs/2609.07536) | — |
 | **P1 · Watch** | **RouteRelay: Event-Triggered Cross-Layer Route Reuse for Efficient Dynamic Sparse Attention** | arXiv 2026 | efficient attention / sparse attention / route reuse / GPU kernels | [Link](https://arxiv.org/abs/2609.07306) | — |
 | **P1 · Watch** | **Dense Structural Compression of Transformers via Gauge-Correct Channel Removal** | arXiv 2026 | sparsity/pruning / dense structural compression / efficient inference | [Link](https://arxiv.org/abs/2609.07264) | — |
@@ -24,6 +25,8 @@
 | **P0 · Strong** | **OCTN: Neural OCT Representations for Robot-Guided Precision Intervention** | arXiv 2026 | VLA/WAM/Physical AI serving / edge/GPU runtime / robot-guided intervention | [Link](https://arxiv.org/abs/2609.06810) | [Repo](https://raprakashvi.github.io/octn) |
 | **P0 · Strong** | **ForgeStencil: Automating Per-Case Stencil Specialization from Kernels to 100+ Real Applications** | arXiv 2026 | GPU kernel/DSL/compilers / code-generation agents / CUDA specialization | [Link](https://arxiv.org/abs/2609.06694) | — |
 | **P0 · Strong** | **All for 1-Bit: Towards Genuine 1-Bit Post-Training Quantization for LLMs** | arXiv 2026 | quantization / LLM inference / genuine 1-bit PTQ | [Link](https://arxiv.org/abs/2609.06161) | — |
+| **P0 · Strong** | **ACE: Adapter Consolidation across Experts for Parameter-Efficient Fine-Tuning of MoE LLMs** | arXiv 2026 | MoE systems/accelerators / distributed training / PEFT | [Link](https://arxiv.org/abs/2609.06072) | [Repo](https://github.com/UbiquitousAILab/ACE) |
+| **P1 · Watch** | **FALCON-S: Fixed-wing ground-effect Aerodynamics Simulator and Flight Control Learning Suite** | arXiv 2026 | VLA/WAM/Physical AI serving / GPU simulation / robot learning | [Link](https://arxiv.org/abs/2609.06046) | — |
 | **P0 · Strong** | **STAR-Pro: Stage-Wise Token Adaptive Reduction with Progressive Refinement for Efficient Large Vision-Language Models** | arXiv 2026 | multimodal/MLLM serving / visual token pruning / adaptive compute | [Link](https://arxiv.org/abs/2609.05916) | [Repo](https://github.com/EasonAI-5589/starpro) |
 | **P0 · Strong** | **Interface-Aware KV Cache Quantization for Dense On-Chip NVM in Long-Context LLM Decoding** | arXiv 2026 | KV cache/long-context / quantization / NVM / accelerator co-design | [Link](https://arxiv.org/abs/2609.05764) | — |
 | **P1 · Watch** | **RAGMark: A Comprehensive Framework for Benchmarking Retrieval-Augmented Generation Systems** | arXiv 2026 | LLM serving / RAG systems / benchmarking | [Link](https://arxiv.org/abs/2609.05760) | [Repo](https://github.com/zferic/RAGMark) |

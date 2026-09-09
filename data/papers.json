@@ -2352,6 +2352,28 @@
     ]
   },
   {
+    "title": "ACE: Adapter Consolidation across Experts for Parameter-Efficient Fine-Tuning of MoE LLMs",
+    "venue": "arXiv 2026",
+    "topic": "MoE systems/accelerators / distributed training / PEFT",
+    "arxiv": "2609.06072",
+    "doi": "",
+    "official_id": "arXiv:2609.06072",
+    "paper_url": "https://arxiv.org/abs/2609.06072",
+    "code_url": "https://github.com/UbiquitousAILab/ACE",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "ACE consolidates redundant expert-specific LoRA adapters into group-shared higher-rank adapters and executes them as fewer larger GEMMs. Across four MoE backbones it provides 1.31-1.48x wall-clock training speedup over expert-wise LoRA without increasing peak memory.",
+    "published_at": "2026-09-05T13:05:01Z",
+    "updated_at": "2026-09-05T13:05:01Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "MoE Systems / Accelerators",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "ActionCache: Training-Free Acceleration for Vision-Language-Action Models with Action Caching and Refinement",
     "venue": "arXiv 2026",
     "topic": "VLA/WAM/Physical AI serving / action cache / flow action-head acceleration",
@@ -3428,6 +3450,29 @@
     ]
   },
   {
+    "title": "Following a Unique Path: A Fast Certifier Applied to Outlier-Robust Pose Registration",
+    "venue": "arXiv 2026",
+    "topic": "VLA/WAM/Physical AI serving / robotic perception / optimization runtime",
+    "arxiv": "2609.03222",
+    "doi": "",
+    "official_id": "arXiv:2609.03222",
+    "paper_url": "https://arxiv.org/abs/2609.03222",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "CP-Cert exploits indirect linear algebra, sparsity and parallelism to certify degenerate pose-registration relaxations efficiently. It reaches runtimes up to three orders of magnitude faster than state-of-the-art direct solvers and is integrated into an outlier-robust real-world pose-estimation pipeline.",
+    "published_at": "2026-09-02T23:39:56Z",
+    "updated_at": "2026-09-02T23:39:56Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Distributed Training / Inference",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "ForgeStencil: Automating Per-Case Stencil Specialization from Kernels to 100+ Real Applications",
     "venue": "arXiv 2026",
     "topic": "GPU kernel/DSL/compilers / code-generation agents / CUDA specialization",
@@ -3552,6 +3597,28 @@
     "directions": [
       "LLM Serving",
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "GPU-Accelerated Hypergraph Partitioning and Placement to Map SNNs on Neuromorphic Hardware",
+    "venue": "arXiv 2026",
+    "topic": "edge/cloud/heterogeneous AI systems / neuromorphic accelerator / GPU compiler-mapping",
+    "arxiv": "2609.07577",
+    "doi": "",
+    "official_id": "arXiv:2609.07577",
+    "paper_url": "https://arxiv.org/abs/2609.07577",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "This work builds a GPU-accelerated hypergraph partitioning and placement pipeline for mapping million-neuron SNNs to neuromorphic cores. The mapper is 18-280x faster on average than sequential tools while model-based evaluation reports up to 16% lower communication latency and 42% lower spike-movement energy.",
+    "published_at": "2026-09-07T14:52:48Z",
+    "updated_at": "2026-09-07T14:52:48Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -4146,6 +4213,26 @@
     ]
   },
   {
+    "title": "Loom: Weaving Diagnostic Strands into Free-Text Consensus via Embedding-Space Reweighting",
+    "venue": "arXiv 2026",
+    "topic": "efficient reasoning/agent systems / inference latency / consensus",
+    "arxiv": "2609.02649",
+    "doi": "",
+    "official_id": "arXiv:2609.02649",
+    "paper_url": "https://arxiv.org/abs/2609.02649",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Loom replaces deep monolithic RCA agents with deterministic embedding-space consensus plus one lightweight LLM synthesis call. On OpenRCA it occupies the accuracy-efficiency Pareto frontier while running about 26x faster than a state-of-the-art autonomous agent, or about 33x with an 8B synthesizer.",
+    "published_at": "2026-09-02T14:24:32Z",
+    "updated_at": "2026-09-02T14:24:32Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "LoSA: Near-Lossless Sparse Attention for Training-Free Video Diffusion Acceleration",
     "venue": "arXiv 2026",
     "topic": "video/image generation acceleration / sparse attention / video diffusion",
@@ -4191,6 +4278,26 @@
       "GPU Kernel / DSL / Compiler",
       "Video / Image Generation",
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "LUMIN: Lightweight Universal Manufacturing Inspection Network for Anomaly Detection",
+    "venue": "arXiv 2026",
+    "topic": "edge/cloud/heterogeneous AI systems / efficient inference / memory bank",
+    "arxiv": "2609.04775",
+    "doi": "",
+    "official_id": "arXiv:2609.04775",
+    "paper_url": "https://arxiv.org/abs/2609.04775",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "LUMIN targets both memory-bank construction and inference. PSP makes sampling 341x faster than FPS, while parallel similarity computation reduces inference memory and latency by over 95% and stratified evaluation reduces computation time by 20x with negligible metric loss.",
+    "published_at": "2026-09-04T06:12:10Z",
+    "updated_at": "2026-09-04T06:12:10Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
