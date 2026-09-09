@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-09",
   "window_start_beijing": "2026-08-10",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 440,
+  "tracked_total": 448,
   "p0_strong_or_canonical": [
     {
       "title": "HDA-MoE: Hybrid Parallelism and Dynamic, Adaptive Scheduling for Mixture-of-Experts with 3D Near-Memory Processing",
@@ -24,6 +24,51 @@
         "LLM Serving",
         "MoE Systems / Accelerators",
         "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "SequenceO1: End-to-End Ultra-Long (100K) Sequence Modeling in Recommendation with Low-Rank Caching",
+      "venue": "arXiv 2026",
+      "topic": "LLM/recommendation serving / ultra-long sequence / low-rank caching / fused kernel",
+      "arxiv": "2609.08443",
+      "doi": "",
+      "official_id": "arXiv:2609.08443",
+      "paper_url": "https://arxiv.org/abs/2609.08443",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "SequenceO1 is deployed at full traffic on Douyin for histories up to 100K interactions. Its compress-then-reason design combines target-agnostic sketches, target-conditioned cross attention, low-rank user-representation caching, multi-request batching, pipeline lift, and a fused FlashSA kernel to amortize storage, communication, and compute across online requests.",
+      "published_at": "2026-09-08T08:49:44Z",
+      "updated_at": "2026-09-08T08:49:44Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "MemForest: Efficient Agent Memory Management via EventTree Partitioning and Progressive Merging",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / memory compression / retrieval",
+      "arxiv": "2609.08273",
+      "doi": "",
+      "official_id": "arXiv:2609.08273",
+      "paper_url": "https://arxiv.org/abs/2609.08273",
+      "code_url": "https://github.com/Celina-love-sweet/MemForest",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "MemForest compresses continuously accumulated agent memory with event-centric partitioning, EventTree progressive merging, and anchor-guided retrieval. At 50% compression it retains 97.1% of Mem0 performance with 1.89x retrieval speedup, and 99.7% of M3-Agent performance with 2.24x retrieval speedup across robot/web multimodal benchmarks.",
+      "published_at": "2026-09-08T05:30:30Z",
+      "updated_at": "2026-09-08T05:30:30Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -117,6 +162,30 @@
       ]
     },
     {
+      "title": "Online Draft Co-Training for Speculative Decoding in Large-Scale, Long-Context RL Post-Training",
+      "venue": "arXiv 2026",
+      "topic": "speculative decoding / RL post-training / context parallelism / pipeline parallelism",
+      "arxiv": "2609.07108",
+      "doi": "",
+      "official_id": "arXiv:2609.07108",
+      "paper_url": "https://arxiv.org/abs/2609.07108",
+      "code_url": "https://github.com/NVIDIA-NeMo/RL",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "The system co-trains speculative drafts during large-scale RL rollout generation, extending packed zigzag-ring context parallelism with branch attention and adding TapChannel to move target features across pipeline stages without disturbing the pipeline schedule. It reports substantial rollout and end-to-end speedups up to 122B models, strong scaling to 256K context, memory savings, and modest PP transport overhead.",
+      "published_at": "2026-09-07T06:48:29Z",
+      "updated_at": "2026-09-07T06:48:29Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Speculative Decoding",
+        "KV Cache / Long Context",
+        "Efficient Attention",
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "RedKnot-MLA: Multi-Head Offline-Online Reuse for DeepSeek-V4 Long-Context Serving",
       "venue": "arXiv 2026",
       "topic": "LLM serving / KV cache reuse / MLA / long context",
@@ -202,6 +271,30 @@
       ]
     },
     {
+      "title": "STAR-Pro: Stage-Wise Token Adaptive Reduction with Progressive Refinement for Efficient Large Vision-Language Models",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / visual token pruning / adaptive compute",
+      "arxiv": "2609.05916",
+      "doi": "",
+      "official_id": "arXiv:2609.05916",
+      "paper_url": "https://arxiv.org/abs/2609.05916",
+      "code_url": "https://github.com/EasonAI-5589/starpro",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "STAR-Pro is a training-free two-stage visual-token reduction method that preserves broad feature coverage before fusion and progressively refines survivors as text-to-visual attention evolves. Across seven LVLMs and 18 image/video benchmarks, LLaVA-Video-7B reduces visual tokens by 90.5%, retains 92.7% of baseline performance, and achieves a measured 2.24x inference speedup.",
+      "published_at": "2026-09-05T06:18:28Z",
+      "updated_at": "2026-09-05T06:18:28Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
       "title": "CONDUIT: A Unified Residual-Stream Restoration Framework for KV Cache Reuse in Vision-Language Models",
       "venue": "arXiv 2026",
       "topic": "multimodal/MLLM serving / KV cache reuse / visual-prefix reuse",
@@ -221,6 +314,29 @@
         "LLM Serving",
         "KV Cache / Long Context",
         "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "Interface-Aware KV Cache Quantization for Dense On-Chip NVM in Long-Context LLM Decoding",
+      "venue": "arXiv 2026",
+      "topic": "KV cache/long-context / quantization / NVM / accelerator co-design",
+      "arxiv": "2609.05764",
+      "doi": "",
+      "official_id": "arXiv:2609.05764",
+      "paper_url": "https://arxiv.org/abs/2609.05764",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "This work co-designs 4-bit KV quantization with dense on-chip NVM and fixed-range converters rather than assuming GPU-style metadata. Across 3B-14B models and contexts to 32K, it maintains accuracy under modeled device noise while reporting 3.1-3.6x lower KV read energy than KIVI/KVQuant mapped to the same NVM and about 8x lower metadata overhead than KIVI.",
+      "published_at": "2026-09-04T22:58:21Z",
+      "updated_at": "2026-09-04T22:58:21Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "KV Cache / Long Context",
+        "Quantization",
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -2345,6 +2461,29 @@
   ],
   "p1_watchlist": [
     {
+      "title": "A Measurement Study of LLM Inference Trade-offs Across Edge Continuum Hardware",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / LLM inference / measurement",
+      "arxiv": "2609.08307",
+      "doi": "",
+      "official_id": "arXiv:2609.08307",
+      "paper_url": "https://arxiv.org/abs/2609.08307",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "This controlled study measures accuracy, footprint, prefill latency, per-token latency and execution energy across Jetson AGX Orin and near-edge CPU/GPU nodes, including quantized open models and cloud GPT-4o as a reference. It provides useful placement and Pareto evidence but introduces no new serving mechanism, so retain as a high-value measurement watch.",
+      "published_at": "2026-09-08T06:28:32Z",
+      "updated_at": "2026-09-08T06:28:32Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "MetaKV: Adaptive KV Cache Compression for Constrained LLM Inference",
       "venue": "arXiv 2026",
       "topic": "KV cache/long-context / adaptive compression / constrained inference",
@@ -2363,6 +2502,50 @@
       "directions": [
         "KV Cache / Long Context",
         "Quantization"
+      ]
+    },
+    {
+      "title": "RouteRelay: Event-Triggered Cross-Layer Route Reuse for Efficient Dynamic Sparse Attention",
+      "venue": "arXiv 2026",
+      "topic": "efficient attention / sparse attention / route reuse / GPU kernels",
+      "arxiv": "2609.07306",
+      "doi": "",
+      "official_id": "arXiv:2609.07306",
+      "paper_url": "https://arxiv.org/abs/2609.07306",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "RouteRelay reuses sparse-attention routing metadata across layers and selectively reroutes rows only when sentinel chunks challenge the retained route. It reaches at least 99.99% route recall and evaluates 38.4-51.6% of full-routing score pairs at larger routing scales, but its current unfused CPU implementation remains slower than dense matrix multiplication, so this is an important systems watch rather than canonical-high yet.",
+      "published_at": "2026-09-07T10:23:06Z",
+      "updated_at": "2026-09-07T10:23:06Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Sparsity / Pruning",
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Unified AI Gateway: A Framework for Joint Model Routing and KV Cache Management",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / model routing / KV cache management / edge-cloud placement",
+      "arxiv": "2609.06940",
+      "doi": "",
+      "official_id": "arXiv:2609.06940",
+      "paper_url": "https://arxiv.org/abs/2609.06940",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Unified AI Gateway jointly reasons about model choice, execution site, and KV-cache actions under quality, latency, cost and resource constraints, with analytical workload simulations reporting 1.25-13.28x TTFT and 1.20-6.16x input-cost benefits. It is strategically relevant but is primarily a synthesis/framework with simulation rather than a new measured deployed system, so retain as high-value watch.",
+      "published_at": "2026-09-07T02:21:39Z",
+      "updated_at": "2026-09-07T02:21:39Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -9580,6 +9763,51 @@
       ]
     },
     {
+      "title": "SequenceO1: End-to-End Ultra-Long (100K) Sequence Modeling in Recommendation with Low-Rank Caching",
+      "venue": "arXiv 2026",
+      "topic": "LLM/recommendation serving / ultra-long sequence / low-rank caching / fused kernel",
+      "arxiv": "2609.08443",
+      "doi": "",
+      "official_id": "arXiv:2609.08443",
+      "paper_url": "https://arxiv.org/abs/2609.08443",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "SequenceO1 is deployed at full traffic on Douyin for histories up to 100K interactions. Its compress-then-reason design combines target-agnostic sketches, target-conditioned cross attention, low-rank user-representation caching, multi-request batching, pipeline lift, and a fused FlashSA kernel to amortize storage, communication, and compute across online requests.",
+      "published_at": "2026-09-08T08:49:44Z",
+      "updated_at": "2026-09-08T08:49:44Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "MemForest: Efficient Agent Memory Management via EventTree Partitioning and Progressive Merging",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / memory compression / retrieval",
+      "arxiv": "2609.08273",
+      "doi": "",
+      "official_id": "arXiv:2609.08273",
+      "paper_url": "https://arxiv.org/abs/2609.08273",
+      "code_url": "https://github.com/Celina-love-sweet/MemForest",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "MemForest compresses continuously accumulated agent memory with event-centric partitioning, EventTree progressive merging, and anchor-guided retrieval. At 50% compression it retains 97.1% of Mem0 performance with 1.89x retrieval speedup, and 99.7% of M3-Agent performance with 2.24x retrieval speedup across robot/web multimodal benchmarks.",
+      "published_at": "2026-09-08T05:30:30Z",
+      "updated_at": "2026-09-08T05:30:30Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Deadline-Aware Adaptive Prefill Chunking for Efficient Large Language Model Serving",
       "venue": "arXiv 2026",
       "topic": "LLM serving / chunked prefill / SLO scheduling / goodput",
@@ -9670,6 +9898,30 @@
       ]
     },
     {
+      "title": "Online Draft Co-Training for Speculative Decoding in Large-Scale, Long-Context RL Post-Training",
+      "venue": "arXiv 2026",
+      "topic": "speculative decoding / RL post-training / context parallelism / pipeline parallelism",
+      "arxiv": "2609.07108",
+      "doi": "",
+      "official_id": "arXiv:2609.07108",
+      "paper_url": "https://arxiv.org/abs/2609.07108",
+      "code_url": "https://github.com/NVIDIA-NeMo/RL",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "The system co-trains speculative drafts during large-scale RL rollout generation, extending packed zigzag-ring context parallelism with branch attention and adding TapChannel to move target features across pipeline stages without disturbing the pipeline schedule. It reports substantial rollout and end-to-end speedups up to 122B models, strong scaling to 256K context, memory savings, and modest PP transport overhead.",
+      "published_at": "2026-09-07T06:48:29Z",
+      "updated_at": "2026-09-07T06:48:29Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Speculative Decoding",
+        "KV Cache / Long Context",
+        "Efficient Attention",
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "RedKnot-MLA: Multi-Head Offline-Online Reuse for DeepSeek-V4 Long-Context Serving",
       "venue": "arXiv 2026",
       "topic": "LLM serving / KV cache reuse / MLA / long context",
@@ -9755,6 +10007,30 @@
       ]
     },
     {
+      "title": "STAR-Pro: Stage-Wise Token Adaptive Reduction with Progressive Refinement for Efficient Large Vision-Language Models",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / visual token pruning / adaptive compute",
+      "arxiv": "2609.05916",
+      "doi": "",
+      "official_id": "arXiv:2609.05916",
+      "paper_url": "https://arxiv.org/abs/2609.05916",
+      "code_url": "https://github.com/EasonAI-5589/starpro",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "STAR-Pro is a training-free two-stage visual-token reduction method that preserves broad feature coverage before fusion and progressively refines survivors as text-to-visual attention evolves. Across seven LVLMs and 18 image/video benchmarks, LLaVA-Video-7B reduces visual tokens by 90.5%, retains 92.7% of baseline performance, and achieves a measured 2.24x inference speedup.",
+      "published_at": "2026-09-05T06:18:28Z",
+      "updated_at": "2026-09-05T06:18:28Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
       "title": "CONDUIT: A Unified Residual-Stream Restoration Framework for KV Cache Reuse in Vision-Language Models",
       "venue": "arXiv 2026",
       "topic": "multimodal/MLLM serving / KV cache reuse / visual-prefix reuse",
@@ -9774,6 +10050,29 @@
         "LLM Serving",
         "KV Cache / Long Context",
         "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "Interface-Aware KV Cache Quantization for Dense On-Chip NVM in Long-Context LLM Decoding",
+      "venue": "arXiv 2026",
+      "topic": "KV cache/long-context / quantization / NVM / accelerator co-design",
+      "arxiv": "2609.05764",
+      "doi": "",
+      "official_id": "arXiv:2609.05764",
+      "paper_url": "https://arxiv.org/abs/2609.05764",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "This work co-designs 4-bit KV quantization with dense on-chip NVM and fixed-range converters rather than assuming GPU-style metadata. Across 3B-14B models and contexts to 32K, it maintains accuracy under modeled device noise while reporting 3.1-3.6x lower KV read energy than KIVI/KVQuant mapped to the same NVM and about 8x lower metadata overhead than KIVI.",
+      "published_at": "2026-09-04T22:58:21Z",
+      "updated_at": "2026-09-04T22:58:21Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "KV Cache / Long Context",
+        "Quantization",
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -11896,6 +12195,29 @@
       ]
     },
     {
+      "title": "A Measurement Study of LLM Inference Trade-offs Across Edge Continuum Hardware",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / LLM inference / measurement",
+      "arxiv": "2609.08307",
+      "doi": "",
+      "official_id": "arXiv:2609.08307",
+      "paper_url": "https://arxiv.org/abs/2609.08307",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "This controlled study measures accuracy, footprint, prefill latency, per-token latency and execution energy across Jetson AGX Orin and near-edge CPU/GPU nodes, including quantized open models and cloud GPT-4o as a reference. It provides useful placement and Pareto evidence but introduces no new serving mechanism, so retain as a high-value measurement watch.",
+      "published_at": "2026-09-08T06:28:32Z",
+      "updated_at": "2026-09-08T06:28:32Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "MetaKV: Adaptive KV Cache Compression for Constrained LLM Inference",
       "venue": "arXiv 2026",
       "topic": "KV cache/long-context / adaptive compression / constrained inference",
@@ -11914,6 +12236,50 @@
       "directions": [
         "KV Cache / Long Context",
         "Quantization"
+      ]
+    },
+    {
+      "title": "RouteRelay: Event-Triggered Cross-Layer Route Reuse for Efficient Dynamic Sparse Attention",
+      "venue": "arXiv 2026",
+      "topic": "efficient attention / sparse attention / route reuse / GPU kernels",
+      "arxiv": "2609.07306",
+      "doi": "",
+      "official_id": "arXiv:2609.07306",
+      "paper_url": "https://arxiv.org/abs/2609.07306",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "RouteRelay reuses sparse-attention routing metadata across layers and selectively reroutes rows only when sentinel chunks challenge the retained route. It reaches at least 99.99% route recall and evaluates 38.4-51.6% of full-routing score pairs at larger routing scales, but its current unfused CPU implementation remains slower than dense matrix multiplication, so this is an important systems watch rather than canonical-high yet.",
+      "published_at": "2026-09-07T10:23:06Z",
+      "updated_at": "2026-09-07T10:23:06Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Sparsity / Pruning",
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Unified AI Gateway: A Framework for Joint Model Routing and KV Cache Management",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / model routing / KV cache management / edge-cloud placement",
+      "arxiv": "2609.06940",
+      "doi": "",
+      "official_id": "arXiv:2609.06940",
+      "paper_url": "https://arxiv.org/abs/2609.06940",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Unified AI Gateway jointly reasons about model choice, execution site, and KV-cache actions under quality, latency, cost and resource constraints, with analytical workload simulations reporting 1.25-13.28x TTFT and 1.20-6.16x input-cost benefits. It is strategically relevant but is primarily a synthesis/framework with simulation rather than a new measured deployed system, so retain as high-value watch.",
+      "published_at": "2026-09-07T02:21:39Z",
+      "updated_at": "2026-09-07T02:21:39Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
