@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-10",
   "window_start_beijing": "2026-08-11",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 547,
+  "tracked_total": 552,
   "p0_strong_or_canonical": [
     {
       "title": "Distributed Linear Programming on GPU Clusters at Extreme Scale",
@@ -1359,6 +1359,28 @@
       ]
     },
     {
+      "title": "From 80x to 385x: A Best-Matching-Unit Search at the L2 Roof, Measured Against a Symmetrically Tuned Baseline",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / memory-bandwidth optimization / sparse search",
+      "arxiv": "2609.05138",
+      "doi": "",
+      "official_id": "arXiv:2609.05138",
+      "paper_url": "https://arxiv.org/abs/2609.05138",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "This work symmetrically tunes both SparseBin and cuSPARSE baselines for SOM best-matching-unit search, using tiling, membership clustering, neuron-axis chunking and vectorized loads. The tuned kernel reaches 5.6-10.1x per-epoch improvement over the prior configuration and about 385x over the earlier CUDA implementation while reaching 77% of peak L2 bandwidth, making it a direct measured GPU-kernel optimization result.",
+      "published_at": "2026-09-04T13:38:42Z",
+      "updated_at": "2026-09-04T13:38:42Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Sparsity / Pruning",
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference"
+      ]
+    },
+    {
       "title": "BeaconKV: Key-Value Cache Compression Guided by Beacon Queries for Efficient Large Reasoning Model Inference",
       "venue": "ICML 2026",
       "topic": "KV cache / long reasoning / training-free compression",
@@ -2390,6 +2412,26 @@
         "Sparsity / Pruning",
         "GPU Kernel / DSL / Compiler",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "GRADSOLVE: fast exact gradients for ODE ensembles on GPUs",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / JAX / differentiable scientific computing",
+      "arxiv": "2609.02876",
+      "doi": "",
+      "official_id": "arXiv:2609.02876",
+      "paper_url": "https://arxiv.org/abs/2609.02876",
+      "code_url": "https://github.com/ECLIPSE-AI4Science/gradsolve",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "GRADSOLVE is an open-source JAX GPU runtime for exact discrete-adjoint gradients of low-dimensional ODE ensembles. The primary abstract reports a 2.8x forward-solver speedup over DiffEqGPU.jl and 5.6-14.1x faster gradient computation than Diffrax checkpointed adjoints at matched forward-state accuracy across three GPU generations, providing direct measured GPU-kernel/runtime evidence.",
+      "published_at": "2026-09-02T17:56:10Z",
+      "updated_at": "2026-09-02T17:56:10Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
       ]
     },
     {
@@ -4014,6 +4056,27 @@
       ]
     },
     {
+      "title": "Separating Stream Stability from Long-Term Recall in Language Models",
+      "venue": "arXiv 2026",
+      "topic": "KV cache/long-context / streaming LLM / constant-memory evaluation",
+      "arxiv": "2609.07282",
+      "doi": "",
+      "official_id": "arXiv:2609.07282",
+      "paper_url": "https://arxiv.org/abs/2609.07282",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "ThreeH separates stability, access and utility horizons under a common state/compute budget and shows that attention-sink streaming can remain stable indefinitely while losing semantic access outside the active cache. It is an important systems-evaluation contract for constant-memory streaming and cache/recurrent/retrieval designs, but it does not introduce a new measured faster runtime, so it remains watch.",
+      "published_at": "2026-09-07T09:49:32Z",
+      "updated_at": "2026-09-07T09:49:32Z",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context",
+        "Efficient Attention"
+      ]
+    },
+    {
       "title": "LightSplat: Real-Time High-Fidelity 3D Gaussian SLAM with Loop Closure",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / 3DGS / real-time SLAM",
@@ -4163,6 +4226,29 @@
         "LLM Serving",
         "KV Cache / Long Context",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Distributed Dexterous Manipulation with Spatially Conditioned Multi-Agent Transformers",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / multi-agent transformer / dexterous manipulation",
+      "arxiv": "2609.06930",
+      "doi": "",
+      "official_id": "arXiv:2609.06930",
+      "paper_url": "https://arxiv.org/abs/2609.06930",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI work uses spatially conditioned Multi-Agent Transformers for an 8x8 array of 64 soft delta robots and introduces action selection that maintains real-world manipulation accuracy around 1.5 cm while using about 65% fewer robots. This is meaningful resource-use evidence, but the primary abstract does not report inference latency/throughput or compute speedup, so it remains watch rather than strong.",
+      "published_at": "2026-09-07T02:01:12Z",
+      "updated_at": "2026-09-07T02:01:12Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -4316,6 +4402,29 @@
         "KV Cache / Long Context",
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Beyond Retraining-Free MoE Compression: A Cost-Normalized Study of Post-Compression Adjustment",
+      "venue": "arXiv 2026",
+      "topic": "MoE systems/accelerators / compression / deployment memory / adjustment cost",
+      "arxiv": "2609.06076",
+      "doi": "",
+      "official_id": "arXiv:2609.06076",
+      "paper_url": "https://arxiv.org/abs/2609.06076",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "This study evaluates four MoE pruning/merging methods on two MoE LLM backbones with matched GPU-cost accounting and shows that a tiny one-epoch post-compression adjustment on 3,000 C4 examples recovers 37.3% of the original-to-compressed performance gap on average. It is useful deployment-efficiency evidence, but it does not provide a new serving runtime or measured latency/throughput speedup, so it remains watch.",
+      "published_at": "2026-09-05T13:09:29Z",
+      "updated_at": "2026-09-05T13:09:29Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "MoE Systems / Accelerators",
+        "GPU Kernel / DSL / Compiler"
       ]
     },
     {
@@ -13236,6 +13345,28 @@
       ]
     },
     {
+      "title": "From 80x to 385x: A Best-Matching-Unit Search at the L2 Roof, Measured Against a Symmetrically Tuned Baseline",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / memory-bandwidth optimization / sparse search",
+      "arxiv": "2609.05138",
+      "doi": "",
+      "official_id": "arXiv:2609.05138",
+      "paper_url": "https://arxiv.org/abs/2609.05138",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "This work symmetrically tunes both SparseBin and cuSPARSE baselines for SOM best-matching-unit search, using tiling, membership clustering, neuron-axis chunking and vectorized loads. The tuned kernel reaches 5.6-10.1x per-epoch improvement over the prior configuration and about 385x over the earlier CUDA implementation while reaching 77% of peak L2 bandwidth, making it a direct measured GPU-kernel optimization result.",
+      "published_at": "2026-09-04T13:38:42Z",
+      "updated_at": "2026-09-04T13:38:42Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Sparsity / Pruning",
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference"
+      ]
+    },
+    {
       "title": "BeaconKV: Key-Value Cache Compression Guided by Beacon Queries for Efficient Large Reasoning Model Inference",
       "venue": "ICML 2026",
       "topic": "KV cache / long reasoning / training-free compression",
@@ -14267,6 +14398,26 @@
         "Sparsity / Pruning",
         "GPU Kernel / DSL / Compiler",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "GRADSOLVE: fast exact gradients for ODE ensembles on GPUs",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / JAX / differentiable scientific computing",
+      "arxiv": "2609.02876",
+      "doi": "",
+      "official_id": "arXiv:2609.02876",
+      "paper_url": "https://arxiv.org/abs/2609.02876",
+      "code_url": "https://github.com/ECLIPSE-AI4Science/gradsolve",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "GRADSOLVE is an open-source JAX GPU runtime for exact discrete-adjoint gradients of low-dimensional ODE ensembles. The primary abstract reports a 2.8x forward-solver speedup over DiffEqGPU.jl and 5.6-14.1x faster gradient computation than Diffrax checkpointed adjoints at matched forward-state accuracy across three GPU generations, providing direct measured GPU-kernel/runtime evidence.",
+      "published_at": "2026-09-02T17:56:10Z",
+      "updated_at": "2026-09-02T17:56:10Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
       ]
     },
     {
@@ -15889,6 +16040,27 @@
       ]
     },
     {
+      "title": "Separating Stream Stability from Long-Term Recall in Language Models",
+      "venue": "arXiv 2026",
+      "topic": "KV cache/long-context / streaming LLM / constant-memory evaluation",
+      "arxiv": "2609.07282",
+      "doi": "",
+      "official_id": "arXiv:2609.07282",
+      "paper_url": "https://arxiv.org/abs/2609.07282",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "ThreeH separates stability, access and utility horizons under a common state/compute budget and shows that attention-sink streaming can remain stable indefinitely while losing semantic access outside the active cache. It is an important systems-evaluation contract for constant-memory streaming and cache/recurrent/retrieval designs, but it does not introduce a new measured faster runtime, so it remains watch.",
+      "published_at": "2026-09-07T09:49:32Z",
+      "updated_at": "2026-09-07T09:49:32Z",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context",
+        "Efficient Attention"
+      ]
+    },
+    {
       "title": "LightSplat: Real-Time High-Fidelity 3D Gaussian SLAM with Loop Closure",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / 3DGS / real-time SLAM",
@@ -16038,6 +16210,29 @@
         "LLM Serving",
         "KV Cache / Long Context",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Distributed Dexterous Manipulation with Spatially Conditioned Multi-Agent Transformers",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / multi-agent transformer / dexterous manipulation",
+      "arxiv": "2609.06930",
+      "doi": "",
+      "official_id": "arXiv:2609.06930",
+      "paper_url": "https://arxiv.org/abs/2609.06930",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI work uses spatially conditioned Multi-Agent Transformers for an 8x8 array of 64 soft delta robots and introduces action selection that maintains real-world manipulation accuracy around 1.5 cm while using about 65% fewer robots. This is meaningful resource-use evidence, but the primary abstract does not report inference latency/throughput or compute speedup, so it remains watch rather than strong.",
+      "published_at": "2026-09-07T02:01:12Z",
+      "updated_at": "2026-09-07T02:01:12Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -16191,6 +16386,29 @@
         "KV Cache / Long Context",
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Beyond Retraining-Free MoE Compression: A Cost-Normalized Study of Post-Compression Adjustment",
+      "venue": "arXiv 2026",
+      "topic": "MoE systems/accelerators / compression / deployment memory / adjustment cost",
+      "arxiv": "2609.06076",
+      "doi": "",
+      "official_id": "arXiv:2609.06076",
+      "paper_url": "https://arxiv.org/abs/2609.06076",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "This study evaluates four MoE pruning/merging methods on two MoE LLM backbones with matched GPU-cost accounting and shows that a tiny one-epoch post-compression adjustment on 3,000 C4 examples recovers 37.3% of the original-to-compressed performance gap on average. It is useful deployment-efficiency evidence, but it does not provide a new serving runtime or measured latency/throughput speedup, so it remains watch.",
+      "published_at": "2026-09-05T13:09:29Z",
+      "updated_at": "2026-09-05T13:09:29Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "MoE Systems / Accelerators",
+        "GPU Kernel / DSL / Compiler"
       ]
     },
     {

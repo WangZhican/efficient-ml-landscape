@@ -3686,6 +3686,28 @@
     ]
   },
   {
+    "title": "From 80x to 385x: A Best-Matching-Unit Search at the L2 Roof, Measured Against a Symmetrically Tuned Baseline",
+    "venue": "arXiv 2026",
+    "topic": "GPU kernel/DSL/compilers / memory-bandwidth optimization / sparse search",
+    "arxiv": "2609.05138",
+    "doi": "",
+    "official_id": "arXiv:2609.05138",
+    "paper_url": "https://arxiv.org/abs/2609.05138",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "This work symmetrically tunes both SparseBin and cuSPARSE baselines for SOM best-matching-unit search, using tiling, membership clustering, neuron-axis chunking and vectorized loads. The tuned kernel reaches 5.6-10.1x per-epoch improvement over the prior configuration and about 385x over the earlier CUDA implementation while reaching 77% of peak L2 bandwidth, making it a direct measured GPU-kernel optimization result.",
+    "published_at": "2026-09-04T13:38:42Z",
+    "updated_at": "2026-09-04T13:38:42Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Sparsity / Pruning",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "From Monolithic Blending to Agentic Orchestration: Dynamic Response for Conversational Assistants at Scale",
     "venue": "arXiv 2026",
     "topic": "efficient reasoning/agent systems / production conversational serving / orchestration / GPU footprint",
@@ -3811,6 +3833,26 @@
       "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "GRADSOLVE: fast exact gradients for ODE ensembles on GPUs",
+    "venue": "arXiv 2026",
+    "topic": "GPU kernel/DSL/compilers / JAX / differentiable scientific computing",
+    "arxiv": "2609.02876",
+    "doi": "",
+    "official_id": "arXiv:2609.02876",
+    "paper_url": "https://arxiv.org/abs/2609.02876",
+    "code_url": "https://github.com/ECLIPSE-AI4Science/gradsolve",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "GRADSOLVE is an open-source JAX GPU runtime for exact discrete-adjoint gradients of low-dimensional ODE ensembles. The primary abstract reports a 2.8x forward-solver speedup over DiffEqGPU.jl and 5.6-14.1x faster gradient computation than Diffrax checkpointed adjoints at matched forward-state accuracy across three GPU generations, providing direct measured GPU-kernel/runtime evidence.",
+    "published_at": "2026-09-02T17:56:10Z",
+    "updated_at": "2026-09-02T17:56:10Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {
