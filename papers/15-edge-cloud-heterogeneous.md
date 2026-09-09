@@ -1,10 +1,10 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **365 canonical papers** mapped here, plus a broader **157-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **365 canonical papers** mapped here, plus a broader **158-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 157 tracked
+## 🆕 Latest 30 Days · 158 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -48,6 +48,7 @@
 | **P1 · Watch** | **Continual Field-Adaptive Models (CFAMs) for Post-Deployment Physical AI** | arXiv 2026 | VLA/WAM/Physical AI serving / on-device adaptation / post-deployment runtime | [Link](https://arxiv.org/abs/2609.04552) | — |
 | **P1 · Watch** | **SocioGesture: Real-Time and Adaptive Social Gesture Perception for Human-Robot Interaction** | arXiv 2026 | VLA/WAM/Physical AI serving / edge perception / human-robot interaction | [Link](https://arxiv.org/abs/2609.04545) | — |
 | **P0 · Strong** | **Atlas: Optimizing Deployment of Compound AI Workflows on Heterogeneous Clusters** | arXiv 2026 | distributed inference / compound AI serving / heterogeneous clusters / SLO-aware deployment optimization | [Link](https://arxiv.org/abs/2609.04513) | — |
+| **P1 · Watch** | **Performance Study of Serverless Workloads in Confidential Virtual Machines** | arXiv 2026 | edge/cloud/heterogeneous AI systems / confidential serverless / memory and startup overhead | [Link](https://arxiv.org/abs/2609.04478) | — |
 | **P0 · Strong** | **Para-Pipe: Exploiting Hierarchical Operator Parallelism of ML Computational Graphs on SoCs** | IEEE TCAD 2025 | edge/cloud/heterogeneous AI systems / SoC mapping / operator parallelism | [Link](https://arxiv.org/abs/2609.04168) | — |
 | **P1 · Watch** | **EdgeMem: LLM-Free Agent Memory Construction and Retrieval via Evidence-Preserving Multi-Anchor Hypergraph** | arXiv 2026 | efficient reasoning/agent systems / agent memory / retrieval / LLM-free memory management | [Link](https://arxiv.org/abs/2609.05553) | — |
 | **P0 · Strong** | **Latency-Aware Orchestration for Multi-Agent LLM Workflows on Heterogeneous GPUs** | arXiv 2026 | efficient reasoning/agent systems / heterogeneous GPU serving | [Link](https://arxiv.org/abs/2609.03335) | — |

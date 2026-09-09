@@ -1,14 +1,15 @@
 # 05 · Sparsity / Pruning
 
-> **265 canonical papers** mapped here, plus a broader **98-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **265 canonical papers** mapped here, plus a broader **99-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 98 tracked
+## 🆕 Latest 30 Days · 99 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **P0 · Strong** | **Distributed Linear Programming on GPU Clusters at Extreme Scale** | arXiv 2026 | distributed training/inference / GPU clusters / sparse optimization / communication | [Link](https://arxiv.org/abs/2609.09108) | — |
+| **P1 · Watch** | **Hyperparameter Scaling Laws Across MoE Sparsity** | arXiv 2026 | MoE systems/accelerators / sparse training / scaling laws | [Link](https://arxiv.org/abs/2609.08690) | — |
 | **P0 · Strong** | **Sample-Guided Exact Top-K Selection for Long-Context Sparse Attention** | arXiv 2026 | efficient attention / sparse attention / GPU kernel | [Link](https://arxiv.org/abs/2609.08450) | [Repo](https://github.com/Tencent/hpc-ops) |
 | **P1 · Watch** | **Do Dynamic Routers Need Memory? HeRo: History-Aware Routing for Efficient LLM Inference** | arXiv 2026 | sparsity/pruning / dynamic layer routing / efficient LLM inference / router memory | [Link](https://arxiv.org/abs/2609.08189) | — |
 | **P1 · Watch** | **Anti-Gravity Walking by a Flying Humanoid Robot via Thrust-Rate Input Whole-Body Model Predictive Control** | arXiv 2026 | VLA/WAM/Physical AI serving / robot control / real-time MPC / humanoid | [Link](https://arxiv.org/abs/2609.07544) | — |

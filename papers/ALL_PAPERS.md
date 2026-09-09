@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **1694 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **543 visible papers = 156 P0 + 268 P1 + 119 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1694 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **547 visible papers = 156 P0 + 272 P1 + 119 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -165,7 +165,7 @@
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 | **P0 · Strong** | **A Thread-Register Decoupled GPU Execution Model for Efficient Tensor Computation** | Fresh / preprint | GPU execution architecture / tensor cores / LLM serving | [Link](https://arxiv.org/abs/2608.19628) | — |
 
-## 🧭 P1 · Watch · 268
+## 🧭 P1 · Watch · 272
 
 > Clearly relevant and promising, but still awaiting stronger novelty, evidence, venue, or adoption validation.
 
@@ -178,6 +178,7 @@
 | **P1 · Watch** | **GraphFAS: A Distributed System for Automated Graph Feature Generation and Selection in Industrial Transaction Networks** | arXiv 2026 | distributed training/inference / industrial graph systems / feature pipeline / production deployment | [Link](https://arxiv.org/abs/2609.08970) | — |
 | **P1 · Watch** | **SkillAdam: Stable and Efficient Skill Evolution for Agents** | arXiv 2026 | efficient reasoning/agent systems / skill optimization / agent memory / cost reduction | [Link](https://arxiv.org/abs/2609.08944) | [Repo](https://github.com/ruc-datalab/SkillAdam) |
 | **P1 · Watch** | **Tools-CC-Bench: a Benchmark Suite for Collective Communication with Compression in HPC and AI Workloads** | arXiv 2026 | distributed training/inference / collective communication / compression / systems benchmarking | [Link](https://arxiv.org/abs/2609.08739) | — |
+| **P1 · Watch** | **Hyperparameter Scaling Laws Across MoE Sparsity** | arXiv 2026 | MoE systems/accelerators / sparse training / scaling laws | [Link](https://arxiv.org/abs/2609.08690) | — |
 | **P1 · Watch** | **MoEMB: Scaling Universal Multimodal Embeddings with Efficient Mixture-of-Experts Models** | arXiv 2026 | multimodal/MLLM serving / MoE systems / retrieval embeddings | [Link](https://arxiv.org/abs/2609.08663) | — |
 | **P1 · Watch** | **BIO-MEMART: Biometric-Aware KV Cache Memory for Multi-User LLM Agents** | arXiv 2026 | KV cache/long-context / efficient reasoning/agent systems / shared memory | [Link](https://arxiv.org/abs/2609.08566) | — |
 | **P1 · Watch** | **A Measurement Study of LLM Inference Trade-offs Across Edge Continuum Hardware** | arXiv 2026 | edge/cloud/heterogeneous AI systems / LLM inference / measurement | [Link](https://arxiv.org/abs/2609.08307) | — |
@@ -189,6 +190,7 @@
 | **P1 · Watch** | **MetaKV: Adaptive KV Cache Compression for Constrained LLM Inference** | arXiv 2026 | KV cache/long-context / adaptive compression / constrained inference | [Link](https://arxiv.org/abs/2609.07966) | — |
 | **P1 · Watch** | **Streaming Hierarchical Inference with Tabular Foundation Models** | arXiv 2026 | edge/cloud/heterogeneous AI systems / hierarchical inference / selective offloading | [Link](https://arxiv.org/abs/2609.07956) | — |
 | **P1 · Watch** | **Interactive Debugger for Performance Portable Python HPC Kernels** | arXiv 2026 | GPU kernel/DSL/compilers / Python HPC / developer tooling | [Link](https://arxiv.org/abs/2609.07912) | — |
+| **P1 · Watch** | **Quantization Amplifies Determinism, Not Bias: Scale-Dependent Behavioral Effects of Serving-Time Weight Compression** | arXiv 2026 | quantization / LLM serving / behavioral fidelity | [Link](https://arxiv.org/abs/2609.07901) | — |
 | **P1 · Watch** | **The OCUDU dApp Platform: An Open Runtime and E3 Interface for Real-Time AI-RAN** | arXiv 2026 | edge/cloud/heterogeneous AI systems / real-time AI-RAN / GPU runtime / edge orchestration | [Link](https://arxiv.org/abs/2609.07843) | — |
 | **P1 · Watch** | **Kalman Delta Networks: Uncertainty-aware Associative Memory** | arXiv 2026 | efficient attention / long-context / constant-memory recurrent inference | [Link](https://arxiv.org/abs/2609.07816) | — |
 | **P1 · Watch** | **Real-Time dApps for AI-RAN: Measured Interface Requirements for Inline PHY and Slot-Level Control** | arXiv 2026 | edge/cloud/heterogeneous AI systems / AI-RAN / low-latency runtime interface | [Link](https://arxiv.org/abs/2609.07805) | — |
@@ -240,9 +242,11 @@
 | **P1 · Watch** | **Continual Field-Adaptive Models (CFAMs) for Post-Deployment Physical AI** | arXiv 2026 | VLA/WAM/Physical AI serving / on-device adaptation / post-deployment runtime | [Link](https://arxiv.org/abs/2609.04552) | — |
 | **P1 · Watch** | **SocioGesture: Real-Time and Adaptive Social Gesture Perception for Human-Robot Interaction** | arXiv 2026 | VLA/WAM/Physical AI serving / edge perception / human-robot interaction | [Link](https://arxiv.org/abs/2609.04545) | — |
 | **P1 · Watch** | **When Quantization Breaks Memory: Recurrent-State Write-Back in Low-Precision Temporal Inference** | arXiv 2026 | quantization / recurrent-state memory / inference reliability | [Link](https://arxiv.org/abs/2609.04490) | — |
+| **P1 · Watch** | **Performance Study of Serverless Workloads in Confidential Virtual Machines** | arXiv 2026 | edge/cloud/heterogeneous AI systems / confidential serverless / memory and startup overhead | [Link](https://arxiv.org/abs/2609.04478) | — |
 | **P1 · Watch** | **Accelerating Atom Simulations with Variable-Block Sparse Matrix Library** | arXiv 2026 | GPU kernel/DSL/compilers / distributed sparse linear algebra / scientific AI infrastructure | [Link](https://arxiv.org/abs/2609.04397) | — |
 | **P1 · Watch** | **FAVE: Foveated Adaptive Visual Encoding for Efficient Fine-Grained Visual Understanding** | arXiv 2026 | multimodal/MLLM serving / visual-token efficiency / adaptive encoding | [Link](https://arxiv.org/abs/2609.04392) | — |
 | **P1 · Watch** | **Compile by Training: Turning Natural-Language Specifications into Local Neural Functions** | arXiv 2026 | efficient reasoning/agent systems / local inference / distillation | [Link](https://arxiv.org/abs/2609.04199) | — |
+| **P1 · Watch** | **Beyond Retrieval: Progressive Latent Memory Evolution for Streaming Video Understanding** | arXiv 2026 | multimodal/MLLM serving / streaming video / bounded latent memory | [Link](https://arxiv.org/abs/2609.04131) | — |
 | **P1 · Watch** | **TAP-Path: Task-Adaptive Structural and Token Pruning for Efficient and Trustworthy Pathology Foundation Models** | arXiv 2026 | sparsity/pruning / multimodal models / efficient inference | [Link](https://arxiv.org/abs/2609.04071) | — |
 | **P1 · Watch** | **Continuous Actions from Discrete Minds: Latent-Aligned Planning for End-to-End Autonomous Driving** | arXiv 2026 | VLA/WAM/Physical AI serving / autonomous driving / non-autoregressive action | [Link](https://arxiv.org/abs/2609.04070) | — |
 | **P1 · Watch** | **FWBC-VLA: Force-Aware Whole-Body Compensation for Contact-Rich Loco-Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving / contact-rich manipulation / action decoding / whole-body control | [Link](https://arxiv.org/abs/2609.03889) | — |

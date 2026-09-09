@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-10",
   "window_start_beijing": "2026-08-11",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 543,
+  "tracked_total": 547,
   "p0_strong_or_canonical": [
     {
       "title": "Distributed Linear Programming on GPU Clusters at Extreme Scale",
@@ -3554,6 +3554,28 @@
       ]
     },
     {
+      "title": "Hyperparameter Scaling Laws Across MoE Sparsity",
+      "venue": "arXiv 2026",
+      "topic": "MoE systems/accelerators / sparse training / scaling laws",
+      "arxiv": "2609.08690",
+      "doi": "",
+      "official_id": "arXiv:2609.08690",
+      "paper_url": "https://arxiv.org/abs/2609.08690",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "The work runs 1,800 pre-training experiments spanning six activated-parameter scales, about 20T tokens and 200k H800-equivalent GPU-hours, deriving scaling laws that explicitly include activation ratio and validating on a 12B ultra-sparse MoE with 1/64 experts active. It is important MoE efficiency methodology but does not introduce a measured systems/runtime speedup, so it remains watch.",
+      "published_at": "2026-09-08T12:57:20Z",
+      "updated_at": "2026-09-08T12:57:20Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Sparsity / Pruning",
+        "MoE Systems / Accelerators",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
       "title": "MoEMB: Scaling Universal Multimodal Embeddings with Efficient Mixture-of-Experts Models",
       "venue": "arXiv 2026",
       "topic": "multimodal/MLLM serving / MoE systems / retrieval embeddings",
@@ -3794,6 +3816,27 @@
         "Quantization",
         "GPU Kernel / DSL / Compiler",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Quantization Amplifies Determinism, Not Bias: Scale-Dependent Behavioral Effects of Serving-Time Weight Compression",
+      "venue": "arXiv 2026",
+      "topic": "quantization / LLM serving / behavioral fidelity",
+      "arxiv": "2609.07901",
+      "doi": "",
+      "official_id": "arXiv:2609.07901",
+      "paper_url": "https://arxiv.org/abs/2609.07901",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "This controlled serving-time study compares Qwen3 8B/14B/32B under W4A16 AWQ, W8A16 FP8-Marlin and BF16 across about 71k paired completions, finding scale-dependent output concentration and stylistic drift. It is valuable deployment-quality evidence for quantization, but it does not claim a new quantization runtime or measured speedup, so it remains watch.",
+      "published_at": "2026-09-07T19:06:31Z",
+      "updated_at": "2026-09-07T19:06:31Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization"
       ]
     },
     {
@@ -4911,6 +4954,26 @@
       ]
     },
     {
+      "title": "Performance Study of Serverless Workloads in Confidential Virtual Machines",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / confidential serverless / memory and startup overhead",
+      "arxiv": "2609.04478",
+      "doi": "",
+      "official_id": "arXiv:2609.04478",
+      "paper_url": "https://arxiv.org/abs/2609.04478",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "This empirical systems study characterizes warm/cold-start and memory-efficiency overheads of serverless workloads inside confidential VMs, identifying page-deduplication/reclaimability and VMEXIT effects and practical mitigation directions. It is high-value cloud-systems characterization, but not a new broadly faster runtime with headline speedup, so it remains watch.",
+      "published_at": "2026-09-03T21:01:13Z",
+      "updated_at": "2026-09-03T21:01:13Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Accelerating Atom Simulations with Variable-Block Sparse Matrix Library",
       "venue": "arXiv 2026",
       "topic": "GPU kernel/DSL/compilers / distributed sparse linear algebra / scientific AI infrastructure",
@@ -4972,6 +5035,27 @@
       "is_latest_30d": true,
       "directions": [
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Beyond Retrieval: Progressive Latent Memory Evolution for Streaming Video Understanding",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / streaming video / bounded latent memory",
+      "arxiv": "2609.04131",
+      "doi": "",
+      "official_id": "arXiv:2609.04131",
+      "paper_url": "https://arxiv.org/abs/2609.04131",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "LatentStream targets continuous causal video understanding under a fixed memory budget, using hierarchical streaming memory and compact fixed-length evolving latent tokens. It reports SOTA quality but no measured latency/throughput/system speedup in the primary abstract, so it is retained as high-value watch rather than strong.",
+      "published_at": "2026-09-03T17:28:14Z",
+      "updated_at": "2026-09-03T17:28:14Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving"
       ]
     },
     {
@@ -15345,6 +15429,28 @@
       ]
     },
     {
+      "title": "Hyperparameter Scaling Laws Across MoE Sparsity",
+      "venue": "arXiv 2026",
+      "topic": "MoE systems/accelerators / sparse training / scaling laws",
+      "arxiv": "2609.08690",
+      "doi": "",
+      "official_id": "arXiv:2609.08690",
+      "paper_url": "https://arxiv.org/abs/2609.08690",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "The work runs 1,800 pre-training experiments spanning six activated-parameter scales, about 20T tokens and 200k H800-equivalent GPU-hours, deriving scaling laws that explicitly include activation ratio and validating on a 12B ultra-sparse MoE with 1/64 experts active. It is important MoE efficiency methodology but does not introduce a measured systems/runtime speedup, so it remains watch.",
+      "published_at": "2026-09-08T12:57:20Z",
+      "updated_at": "2026-09-08T12:57:20Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Sparsity / Pruning",
+        "MoE Systems / Accelerators",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
       "title": "MoEMB: Scaling Universal Multimodal Embeddings with Efficient Mixture-of-Experts Models",
       "venue": "arXiv 2026",
       "topic": "multimodal/MLLM serving / MoE systems / retrieval embeddings",
@@ -15585,6 +15691,27 @@
         "Quantization",
         "GPU Kernel / DSL / Compiler",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Quantization Amplifies Determinism, Not Bias: Scale-Dependent Behavioral Effects of Serving-Time Weight Compression",
+      "venue": "arXiv 2026",
+      "topic": "quantization / LLM serving / behavioral fidelity",
+      "arxiv": "2609.07901",
+      "doi": "",
+      "official_id": "arXiv:2609.07901",
+      "paper_url": "https://arxiv.org/abs/2609.07901",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "This controlled serving-time study compares Qwen3 8B/14B/32B under W4A16 AWQ, W8A16 FP8-Marlin and BF16 across about 71k paired completions, finding scale-dependent output concentration and stylistic drift. It is valuable deployment-quality evidence for quantization, but it does not claim a new quantization runtime or measured speedup, so it remains watch.",
+      "published_at": "2026-09-07T19:06:31Z",
+      "updated_at": "2026-09-07T19:06:31Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization"
       ]
     },
     {
@@ -16702,6 +16829,26 @@
       ]
     },
     {
+      "title": "Performance Study of Serverless Workloads in Confidential Virtual Machines",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / confidential serverless / memory and startup overhead",
+      "arxiv": "2609.04478",
+      "doi": "",
+      "official_id": "arXiv:2609.04478",
+      "paper_url": "https://arxiv.org/abs/2609.04478",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "This empirical systems study characterizes warm/cold-start and memory-efficiency overheads of serverless workloads inside confidential VMs, identifying page-deduplication/reclaimability and VMEXIT effects and practical mitigation directions. It is high-value cloud-systems characterization, but not a new broadly faster runtime with headline speedup, so it remains watch.",
+      "published_at": "2026-09-03T21:01:13Z",
+      "updated_at": "2026-09-03T21:01:13Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Accelerating Atom Simulations with Variable-Block Sparse Matrix Library",
       "venue": "arXiv 2026",
       "topic": "GPU kernel/DSL/compilers / distributed sparse linear algebra / scientific AI infrastructure",
@@ -16763,6 +16910,27 @@
       "is_latest_30d": true,
       "directions": [
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Beyond Retrieval: Progressive Latent Memory Evolution for Streaming Video Understanding",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / streaming video / bounded latent memory",
+      "arxiv": "2609.04131",
+      "doi": "",
+      "official_id": "arXiv:2609.04131",
+      "paper_url": "https://arxiv.org/abs/2609.04131",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "LatentStream targets continuous causal video understanding under a fixed memory budget, using hierarchical streaming memory and compact fixed-length evolving latent tokens. It reports SOTA quality but no measured latency/throughput/system speedup in the primary abstract, so it is retained as high-value watch rather than strong.",
+      "published_at": "2026-09-03T17:28:14Z",
+      "updated_at": "2026-09-03T17:28:14Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving"
       ]
     },
     {
