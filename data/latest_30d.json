@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-09",
   "window_start_beijing": "2026-08-10",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 502,
+  "tracked_total": 507,
   "p0_strong_or_canonical": [
     {
       "title": "Ostrich: Taking Large Strides Through Stiff Contact in Differentiable Dynamics",
@@ -24,6 +24,28 @@
         "LLM Serving",
         "GPU Kernel / DSL / Compiler",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "TontaubeV1: Streaming Text-to-Speech with Hierarchical Codec Modeling and Bounded Context",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / streaming speech generation / bounded-context inference / consumer GPU",
+      "arxiv": "2609.08703",
+      "doi": "",
+      "official_id": "arXiv:2609.08703",
+      "paper_url": "https://arxiv.org/abs/2609.08703",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "7d low-rank measured-efficiency replay recovered a direct streaming-generation systems paper absent from authority. TontaubeV1 uses hierarchical codec prediction plus bounded context to stream from a single consumer GPU; on RTX 5090 it reports about 200 ms time-to-first-audio, end-to-end RTF 0.08 for one input and aggregate RTF 0.02 across eight concurrent inputs, while releasing model weights.",
+      "published_at": "2026-09-08T13:03:46Z",
+      "updated_at": "2026-09-08T13:03:46Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Multimodal / MLLM Serving"
       ]
     },
     {
@@ -862,6 +884,29 @@
         "Quantization",
         "GPU Kernel / DSL / Compiler",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "From Monolithic Blending to Agentic Orchestration: Dynamic Response for Conversational Assistants at Scale",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / production conversational serving / orchestration / GPU footprint",
+      "arxiv": "2609.05758",
+      "doi": "",
+      "official_id": "arXiv:2609.05758",
+      "paper_url": "https://arxiv.org/abs/2609.05758",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "7d low-rank replay recovered a production-scale agent-serving system absent from authority. The migration replaces a monolithic 235B blended responder with a bounded ReAct orchestrator plus smaller generator; serving optimizations reduce orchestrator P90 latency from 3.87 s to 2.24 s, reduce GPU footprint by roughly one-third, and cut estimated annual serving cost by more than an order of magnitude. Accepted to EMNLP 2026 Industry Track.",
+      "published_at": "2026-09-04T22:38:10Z",
+      "updated_at": "2026-09-04T22:38:10Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -3269,6 +3314,50 @@
       ]
     },
     {
+      "title": "Do Dynamic Routers Need Memory? HeRo: History-Aware Routing for Efficient LLM Inference",
+      "venue": "arXiv 2026",
+      "topic": "sparsity/pruning / dynamic layer routing / efficient LLM inference / router memory",
+      "arxiv": "2609.08189",
+      "doi": "",
+      "official_id": "arXiv:2609.08189",
+      "paper_url": "https://arxiv.org/abs/2609.08189",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "7d low-rank replay recovered a relevant dynamic-routing paper absent from authority. HeRo conditions token-wise FFN routing on an explicit history state built with linear attention; on Llama 3.1-8B it reports 100.24% dense-model aggregate performance while bypassing 26.87% of parameters, and 97.01% performance while bypassing 38.82%. Retained as high-value watch because the abstract does not report measured wall-clock latency or throughput gains.",
+      "published_at": "2026-09-08T03:20:07Z",
+      "updated_at": "2026-09-08T03:20:07Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Efficient Attention"
+      ]
+    },
+    {
+      "title": "Jacap: Robust KV Cache Eviction via Jacobian-Based Nonlinear Information Capacity Preservation",
+      "venue": "arXiv 2026",
+      "topic": "KV cache/long-context / eviction / information geometry / cache compression",
+      "arxiv": "2609.08131",
+      "doi": "",
+      "official_id": "arXiv:2609.08131",
+      "paper_url": "https://arxiv.org/abs/2609.08131",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "7d low-rank replay recovered a theoretically grounded KV-cache eviction method absent from authority. Jacap derives a Jacobian information-capacity objective for nonlinear softmax attention and uses softmax-aware importance plus statistical leverage scores for cache subset selection, with strongest gains reported in high-compression regimes. Retained as high-value watch because the current evidence is quality-under-compression rather than measured serving latency/throughput.",
+      "published_at": "2026-09-08T02:08:57Z",
+      "updated_at": "2026-09-08T02:08:57Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Efficient Attention"
+      ]
+    },
+    {
       "title": "Marigold V2: Revisiting Diffusion Transformers for Monocular Depth Estimation",
       "venue": "arXiv 2026",
       "topic": "diffusion/flow acceleration / dense vision / single-step inference",
@@ -4290,6 +4379,28 @@
         "LLM Serving",
         "GPU Kernel / DSL / Compiler",
         "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "EdgeMem: LLM-Free Agent Memory Construction and Retrieval via Evidence-Preserving Multi-Anchor Hypergraph",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / agent memory / retrieval / LLM-free memory management",
+      "arxiv": "2609.05553",
+      "doi": "",
+      "official_id": "arXiv:2609.05553",
+      "paper_url": "https://arxiv.org/abs/2609.05553",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "7d low-rank replay recovered a directly relevant efficient-agent memory paper absent from authority. EdgeMem preserves original turns and constructs/retrieves memory through lightweight local multi-anchor hypergraph processing, requiring no generative-LLM calls for memory construction or retrieval. Retained as high-value watch because the current abstract demonstrates quality and removal of generative memory calls but does not report hard end-to-end latency/throughput speedup.",
+      "published_at": "2026-09-03T11:17:03Z",
+      "updated_at": "2026-09-03T11:17:03Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -10943,6 +11054,28 @@
       ]
     },
     {
+      "title": "TontaubeV1: Streaming Text-to-Speech with Hierarchical Codec Modeling and Bounded Context",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / streaming speech generation / bounded-context inference / consumer GPU",
+      "arxiv": "2609.08703",
+      "doi": "",
+      "official_id": "arXiv:2609.08703",
+      "paper_url": "https://arxiv.org/abs/2609.08703",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "7d low-rank measured-efficiency replay recovered a direct streaming-generation systems paper absent from authority. TontaubeV1 uses hierarchical codec prediction plus bounded context to stream from a single consumer GPU; on RTX 5090 it reports about 200 ms time-to-first-audio, end-to-end RTF 0.08 for one input and aggregate RTF 0.02 across eight concurrent inputs, while releasing model weights.",
+      "published_at": "2026-09-08T13:03:46Z",
+      "updated_at": "2026-09-08T13:03:46Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
       "title": "HDA-MoE: Hybrid Parallelism and Dynamic, Adaptive Scheduling for Mixture-of-Experts with 3D Near-Memory Processing",
       "venue": "arXiv 2026",
       "topic": "MoE systems/accelerators / 3D near-memory processing / hybrid parallelism / runtime scheduling",
@@ -11778,6 +11911,29 @@
         "Quantization",
         "GPU Kernel / DSL / Compiler",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "From Monolithic Blending to Agentic Orchestration: Dynamic Response for Conversational Assistants at Scale",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / production conversational serving / orchestration / GPU footprint",
+      "arxiv": "2609.05758",
+      "doi": "",
+      "official_id": "arXiv:2609.05758",
+      "paper_url": "https://arxiv.org/abs/2609.05758",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "7d low-rank replay recovered a production-scale agent-serving system absent from authority. The migration replaces a monolithic 235B blended responder with a bounded ReAct orchestrator plus smaller generator; serving optimizations reduce orchestrator P90 latency from 3.87 s to 2.24 s, reduce GPU footprint by roughly one-third, and cut estimated annual serving cost by more than an order of magnitude. Accepted to EMNLP 2026 Industry Track.",
+      "published_at": "2026-09-04T22:38:10Z",
+      "updated_at": "2026-09-04T22:38:10Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -14183,6 +14339,50 @@
       ]
     },
     {
+      "title": "Do Dynamic Routers Need Memory? HeRo: History-Aware Routing for Efficient LLM Inference",
+      "venue": "arXiv 2026",
+      "topic": "sparsity/pruning / dynamic layer routing / efficient LLM inference / router memory",
+      "arxiv": "2609.08189",
+      "doi": "",
+      "official_id": "arXiv:2609.08189",
+      "paper_url": "https://arxiv.org/abs/2609.08189",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "7d low-rank replay recovered a relevant dynamic-routing paper absent from authority. HeRo conditions token-wise FFN routing on an explicit history state built with linear attention; on Llama 3.1-8B it reports 100.24% dense-model aggregate performance while bypassing 26.87% of parameters, and 97.01% performance while bypassing 38.82%. Retained as high-value watch because the abstract does not report measured wall-clock latency or throughput gains.",
+      "published_at": "2026-09-08T03:20:07Z",
+      "updated_at": "2026-09-08T03:20:07Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Efficient Attention"
+      ]
+    },
+    {
+      "title": "Jacap: Robust KV Cache Eviction via Jacobian-Based Nonlinear Information Capacity Preservation",
+      "venue": "arXiv 2026",
+      "topic": "KV cache/long-context / eviction / information geometry / cache compression",
+      "arxiv": "2609.08131",
+      "doi": "",
+      "official_id": "arXiv:2609.08131",
+      "paper_url": "https://arxiv.org/abs/2609.08131",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "7d low-rank replay recovered a theoretically grounded KV-cache eviction method absent from authority. Jacap derives a Jacobian information-capacity objective for nonlinear softmax attention and uses softmax-aware importance plus statistical leverage scores for cache subset selection, with strongest gains reported in high-compression regimes. Retained as high-value watch because the current evidence is quality-under-compression rather than measured serving latency/throughput.",
+      "published_at": "2026-09-08T02:08:57Z",
+      "updated_at": "2026-09-08T02:08:57Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Efficient Attention"
+      ]
+    },
+    {
       "title": "Marigold V2: Revisiting Diffusion Transformers for Monocular Depth Estimation",
       "venue": "arXiv 2026",
       "topic": "diffusion/flow acceleration / dense vision / single-step inference",
@@ -15204,6 +15404,28 @@
         "LLM Serving",
         "GPU Kernel / DSL / Compiler",
         "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "EdgeMem: LLM-Free Agent Memory Construction and Retrieval via Evidence-Preserving Multi-Anchor Hypergraph",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / agent memory / retrieval / LLM-free memory management",
+      "arxiv": "2609.05553",
+      "doi": "",
+      "official_id": "arXiv:2609.05553",
+      "paper_url": "https://arxiv.org/abs/2609.05553",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "7d low-rank replay recovered a directly relevant efficient-agent memory paper absent from authority. EdgeMem preserves original turns and constructs/retrieves memory through lightweight local multi-anchor hypergraph processing, requiring no generative-LLM calls for memory construction or retrieval. Retained as high-value watch because the current abstract demonstrates quality and removal of generative memory calls but does not report hard end-to-end latency/throughput speedup.",
+      "published_at": "2026-09-03T11:17:03Z",
+      "updated_at": "2026-09-03T11:17:03Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {

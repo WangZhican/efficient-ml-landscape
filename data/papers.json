@@ -3537,6 +3537,29 @@
     ]
   },
   {
+    "title": "From Monolithic Blending to Agentic Orchestration: Dynamic Response for Conversational Assistants at Scale",
+    "venue": "arXiv 2026",
+    "topic": "efficient reasoning/agent systems / production conversational serving / orchestration / GPU footprint",
+    "arxiv": "2609.05758",
+    "doi": "",
+    "official_id": "arXiv:2609.05758",
+    "paper_url": "https://arxiv.org/abs/2609.05758",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "7d low-rank replay recovered a production-scale agent-serving system absent from authority. The migration replaces a monolithic 235B blended responder with a bounded ReAct orchestrator plus smaller generator; serving optimizations reduce orchestrator P90 latency from 3.87 s to 2.24 s, reduce GPU footprint by roughly one-third, and cut estimated annual serving cost by more than an order of magnitude. Accepted to EMNLP 2026 Industry Track.",
+    "published_at": "2026-09-04T22:38:10Z",
+    "updated_at": "2026-09-04T22:38:10Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "GPU Kernel / DSL / Compiler",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "GaLe: memory-efficient Global Approximate and Local Exact features",
     "venue": "arXiv 2026",
     "topic": "edge/cloud/heterogeneous AI systems / memory-efficient inference",
@@ -5926,6 +5949,28 @@
       "LLM Serving",
       "Sparsity / Pruning",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "TontaubeV1: Streaming Text-to-Speech with Hierarchical Codec Modeling and Bounded Context",
+    "venue": "arXiv 2026",
+    "topic": "multimodal/MLLM serving / streaming speech generation / bounded-context inference / consumer GPU",
+    "arxiv": "2609.08703",
+    "doi": "",
+    "official_id": "arXiv:2609.08703",
+    "paper_url": "https://arxiv.org/abs/2609.08703",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "7d low-rank measured-efficiency replay recovered a direct streaming-generation systems paper absent from authority. TontaubeV1 uses hierarchical codec prediction plus bounded context to stream from a single consumer GPU; on RTX 5090 it reports about 200 ms time-to-first-audio, end-to-end RTF 0.08 for one input and aggregate RTF 0.02 across eight concurrent inputs, while releasing model weights.",
+    "published_at": "2026-09-08T13:03:46Z",
+    "updated_at": "2026-09-08T13:03:46Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Multimodal / MLLM Serving"
     ]
   },
   {
