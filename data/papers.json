@@ -3278,6 +3278,27 @@
     ]
   },
   {
+    "title": "Efficient Constant Optimization for Symbolic Regression with GPU-Accelerated Tree-Based Genetic Programming",
+    "venue": "arXiv 2026",
+    "topic": "GPU kernel/DSL/compilers / GPU-resident batched optimization / CUDA / symbolic regression runtime",
+    "arxiv": "2609.03352",
+    "doi": "",
+    "official_id": "arXiv:2609.03352",
+    "paper_url": "https://arxiv.org/abs/2609.03352",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "7d lower-rank systematic replay recovered a GPU-resident optimization system absent from authority. The batched Levenberg-Marquardt solver uses a fixed number of population-wide CUDA launches per iteration and reverse-mode AD; on A100 it sustains up to 5.1e5 trees/s and at saturation delivers about 9.9x Operon throughput on a 64-core EPYC while matching fp64-reference quality.",
+    "published_at": "2026-09-03T04:20:27Z",
+    "updated_at": "2026-09-03T04:20:27Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "Efficient On-Device Diffusion LLM Inference with Mobile NPU",
     "venue": "arXiv 2026",
     "topic": "edge AI / diffusion LLM inference / mobile NPU / speculative decoding / KV reuse",
@@ -4649,6 +4670,27 @@
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context"
+    ]
+  },
+  {
+    "title": "Multimodal Resource-Exhaustion Attacks on Vision-Language Models via Joint Pixel-Prompt Optimization",
+    "venue": "arXiv 2026",
+    "topic": "multimodal/MLLM serving / availability security / resource exhaustion / latency and energy amplification",
+    "arxiv": "2609.05889",
+    "doi": "",
+    "official_id": "arXiv:2609.05889",
+    "paper_url": "https://arxiv.org/abs/2609.05889",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "7d lower-rank systematic replay recovered a serving-security paper with unusually direct measured system impact. JPPO jointly optimizes image and visible prompt inputs; on open-source VLMs it reports over 4.6x latency and 5.3x energy amplification on Qwen2.5-VL-7B and over 36.6x latency with 32.7x energy amplification on BLIP-2, exposing a concrete multimodal-serving availability failure mode.",
+    "published_at": "2026-09-05T05:20:53Z",
+    "updated_at": "2026-09-05T05:20:53Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving"
     ]
   },
   {
@@ -6374,6 +6416,28 @@
       "LLM Serving",
       "GPU Kernel / DSL / Compiler",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "X2Streaming-ASR: wait when uncertain, emit when ready for streaming ASR",
+    "venue": "arXiv 2026",
+    "topic": "multimodal/MLLM serving / streaming ASR / realtime voice agents / low-latency inference",
+    "arxiv": "2609.08672",
+    "doi": "",
+    "official_id": "arXiv:2609.08672",
+    "paper_url": "https://arxiv.org/abs/2609.08672",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "7d lower-rank systematic replay recovered a direct realtime multimodal-serving paper absent from authority. X2Streaming-ASR learns when and what to commit under a single-pass hard-commit constraint; across AISHELL-1/2/3 and WenetSpeech it reports mean character-level commit latency of 27-84 ms versus 409-585 ms for evaluated streaming baselines while achieving the best streaming CER on AISHELL-1 and AISHELL-3.",
+    "published_at": "2026-09-08T12:39:06Z",
+    "updated_at": "2026-09-08T12:39:06Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents"
     ]
   },
   {

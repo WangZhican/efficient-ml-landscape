@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-09",
   "window_start_beijing": "2026-08-10",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 507,
+  "tracked_total": 511,
   "p0_strong_or_canonical": [
     {
       "title": "Ostrich: Taking Large Strides Through Stiff Contact in Differentiable Dynamics",
@@ -68,6 +68,28 @@
         "LLM Serving",
         "MoE Systems / Accelerators",
         "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "X2Streaming-ASR: wait when uncertain, emit when ready for streaming ASR",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / streaming ASR / realtime voice agents / low-latency inference",
+      "arxiv": "2609.08672",
+      "doi": "",
+      "official_id": "arXiv:2609.08672",
+      "paper_url": "https://arxiv.org/abs/2609.08672",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "7d lower-rank systematic replay recovered a direct realtime multimodal-serving paper absent from authority. X2Streaming-ASR learns when and what to commit under a single-pass hard-commit constraint; across AISHELL-1/2/3 and WenetSpeech it reports mean character-level commit latency of 27-84 ms versus 409-585 ms for evaluated streaming baselines while achieving the best streaming CER on AISHELL-1 and AISHELL-3.",
+      "published_at": "2026-09-08T12:39:06Z",
+      "updated_at": "2026-09-08T12:39:06Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -838,6 +860,27 @@
         "Sparsity / Pruning",
         "Efficient Attention",
         "GPU Kernel / DSL / Compiler",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "Multimodal Resource-Exhaustion Attacks on Vision-Language Models via Joint Pixel-Prompt Optimization",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / availability security / resource exhaustion / latency and energy amplification",
+      "arxiv": "2609.05889",
+      "doi": "",
+      "official_id": "arXiv:2609.05889",
+      "paper_url": "https://arxiv.org/abs/2609.05889",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "7d lower-rank systematic replay recovered a serving-security paper with unusually direct measured system impact. JPPO jointly optimizes image and visible prompt inputs; on open-source VLMs it reports over 4.6x latency and 5.3x energy amplification on Qwen2.5-VL-7B and over 36.6x latency with 32.7x energy amplification on BLIP-2, exposing a concrete multimodal-serving availability failure mode.",
+      "published_at": "2026-09-05T05:20:53Z",
+      "updated_at": "2026-09-05T05:20:53Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
         "Multimodal / MLLM Serving"
       ]
     },
@@ -1729,6 +1772,27 @@
       "directions": [
         "LLM Serving",
         "Sparsity / Pruning"
+      ]
+    },
+    {
+      "title": "Efficient Constant Optimization for Symbolic Regression with GPU-Accelerated Tree-Based Genetic Programming",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / GPU-resident batched optimization / CUDA / symbolic regression runtime",
+      "arxiv": "2609.03352",
+      "doi": "",
+      "official_id": "arXiv:2609.03352",
+      "paper_url": "https://arxiv.org/abs/2609.03352",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "7d lower-rank systematic replay recovered a GPU-resident optimization system absent from authority. The batched Levenberg-Marquardt solver uses a fixed number of population-wide CUDA launches per iteration and reverse-mode AD; on A100 it sustains up to 5.1e5 trees/s and at saturation delivers about 9.9x Operon throughput on a 64-core EPYC while matching fp64-reference quality.",
+      "published_at": "2026-09-03T04:20:27Z",
+      "updated_at": "2026-09-03T04:20:27Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler"
       ]
     },
     {
@@ -4401,6 +4465,28 @@
         "LLM Serving",
         "Efficient Reasoning / Agents",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Scaling Bimanual Household Manipulation from 1,500 hours of Demonstrations to On-Policy Corrections",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / bimanual manipulation / data pipeline / training efficiency",
+      "arxiv": "2609.03591",
+      "doi": "",
+      "official_id": "arXiv:2609.03591",
+      "paper_url": "https://arxiv.org/abs/2609.03591",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "7d protected Physical-AI replay recovered XR-2 and its 1,500-hour bimanual demonstration corpus. The work explicitly uses a purpose-built high-throughput data pipeline and multi-stage training paradigm and reports favorable training efficiency/data utilization, but the current abstract lacks comparative throughput/latency or systems-speedup numbers, so it is retained as high-value watch rather than promoted strong.",
+      "published_at": "2026-09-03T09:37:09Z",
+      "updated_at": "2026-09-03T09:37:09Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -11098,6 +11184,28 @@
       ]
     },
     {
+      "title": "X2Streaming-ASR: wait when uncertain, emit when ready for streaming ASR",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / streaming ASR / realtime voice agents / low-latency inference",
+      "arxiv": "2609.08672",
+      "doi": "",
+      "official_id": "arXiv:2609.08672",
+      "paper_url": "https://arxiv.org/abs/2609.08672",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "7d lower-rank systematic replay recovered a direct realtime multimodal-serving paper absent from authority. X2Streaming-ASR learns when and what to commit under a single-pass hard-commit constraint; across AISHELL-1/2/3 and WenetSpeech it reports mean character-level commit latency of 27-84 ms versus 409-585 ms for evaluated streaming baselines while achieving the best streaming CER on AISHELL-1 and AISHELL-3.",
+      "published_at": "2026-09-08T12:39:06Z",
+      "updated_at": "2026-09-08T12:39:06Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Sample-Guided Exact Top-K Selection for Long-Context Sparse Attention",
       "venue": "arXiv 2026",
       "topic": "efficient attention / sparse attention / GPU kernel",
@@ -11865,6 +11973,27 @@
         "Sparsity / Pruning",
         "Efficient Attention",
         "GPU Kernel / DSL / Compiler",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "Multimodal Resource-Exhaustion Attacks on Vision-Language Models via Joint Pixel-Prompt Optimization",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / availability security / resource exhaustion / latency and energy amplification",
+      "arxiv": "2609.05889",
+      "doi": "",
+      "official_id": "arXiv:2609.05889",
+      "paper_url": "https://arxiv.org/abs/2609.05889",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "7d lower-rank systematic replay recovered a serving-security paper with unusually direct measured system impact. JPPO jointly optimizes image and visible prompt inputs; on open-source VLMs it reports over 4.6x latency and 5.3x energy amplification on Qwen2.5-VL-7B and over 36.6x latency with 32.7x energy amplification on BLIP-2, exposing a concrete multimodal-serving availability failure mode.",
+      "published_at": "2026-09-05T05:20:53Z",
+      "updated_at": "2026-09-05T05:20:53Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
         "Multimodal / MLLM Serving"
       ]
     },
@@ -12756,6 +12885,27 @@
       "directions": [
         "LLM Serving",
         "Sparsity / Pruning"
+      ]
+    },
+    {
+      "title": "Efficient Constant Optimization for Symbolic Regression with GPU-Accelerated Tree-Based Genetic Programming",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / GPU-resident batched optimization / CUDA / symbolic regression runtime",
+      "arxiv": "2609.03352",
+      "doi": "",
+      "official_id": "arXiv:2609.03352",
+      "paper_url": "https://arxiv.org/abs/2609.03352",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "7d lower-rank systematic replay recovered a GPU-resident optimization system absent from authority. The batched Levenberg-Marquardt solver uses a fixed number of population-wide CUDA launches per iteration and reverse-mode AD; on A100 it sustains up to 5.1e5 trees/s and at saturation delivers about 9.9x Operon throughput on a 64-core EPYC while matching fp64-reference quality.",
+      "published_at": "2026-09-03T04:20:27Z",
+      "updated_at": "2026-09-03T04:20:27Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler"
       ]
     },
     {
@@ -15426,6 +15576,28 @@
         "LLM Serving",
         "Efficient Reasoning / Agents",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Scaling Bimanual Household Manipulation from 1,500 hours of Demonstrations to On-Policy Corrections",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / bimanual manipulation / data pipeline / training efficiency",
+      "arxiv": "2609.03591",
+      "doi": "",
+      "official_id": "arXiv:2609.03591",
+      "paper_url": "https://arxiv.org/abs/2609.03591",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "7d protected Physical-AI replay recovered XR-2 and its 1,500-hour bimanual demonstration corpus. The work explicitly uses a purpose-built high-throughput data pipeline and multi-stage training paradigm and reports favorable training efficiency/data utilization, but the current abstract lacks comparative throughput/latency or systems-speedup numbers, so it is retained as high-value watch rather than promoted strong.",
+      "published_at": "2026-09-03T09:37:09Z",
+      "updated_at": "2026-09-03T09:37:09Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
