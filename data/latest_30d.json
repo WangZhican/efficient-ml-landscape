@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-10",
   "window_start_beijing": "2026-08-11",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 532,
+  "tracked_total": 538,
   "p0_strong_or_canonical": [
     {
       "title": "Distributed Linear Programming on GPU Clusters at Extreme Scale",
@@ -2328,6 +2328,26 @@
       ]
     },
     {
+      "title": "A Time-Encoded Analog Photonic Interposer for Energy-EfficientIntegration of Analog Vision Sensors and Analog Accelerators",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / photonic interconnect / analog AI accelerator",
+      "arxiv": "2609.03125",
+      "doi": "",
+      "official_id": "arXiv:2609.03125",
+      "paper_url": "https://arxiv.org/abs/2609.03125",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "A time-encoded analog photonic interposer transports analog vision signals between chiplets without a conventional high-precision ADC/DAC pipeline. The primary abstract reports a 2.04x energy-delay-product improvement over an 8-bit digital electrical baseline on Visual Wake Words while keeping accuracy close to the digital baseline.",
+      "published_at": "2026-09-02T20:01:11Z",
+      "updated_at": "2026-09-02T20:01:11Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "LeanStream: A Speculate-and-Refine Streaming Framework for Efficient on-Device LLM Inference",
       "venue": "MobiCom 2026",
       "topic": "edge/cloud/heterogeneous AI systems / on-device LLM inference / storage offload / sparse execution",
@@ -3734,6 +3754,28 @@
       ]
     },
     {
+      "title": "Interactive Debugger for Performance Portable Python HPC Kernels",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / Python HPC / developer tooling",
+      "arxiv": "2609.07912",
+      "doi": "",
+      "official_id": "arXiv:2609.07912",
+      "paper_url": "https://arxiv.org/abs/2609.07912",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "PKDB adds breakpoints, stepping, inspection, live code evaluation and hot kernel substitution while preserving on-device PyKokkos execution across CPU/GPU backends. The primary abstract reports limited overhead but no quantified workload speedup; it is retained as high-value runtime/tooling infrastructure.",
+      "published_at": "2026-09-07T19:25:32Z",
+      "updated_at": "2026-09-07T19:25:32Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "The OCUDU dApp Platform: An Open Runtime and E3 Interface for Real-Time AI-RAN",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI systems / real-time AI-RAN / GPU runtime / edge orchestration",
@@ -3774,6 +3816,29 @@
       "directions": [
         "LLM Serving",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "ICI-VLA: In-Context Imitation with Spatiotemporally Aligned Demonstrations for Vision-Language-Action Models",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / test-time adaptation / retrieval-conditioned control",
+      "arxiv": "2609.07581",
+      "doi": "",
+      "official_id": "arXiv:2609.07581",
+      "paper_url": "https://arxiv.org/abs/2609.07581",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI work keeps the VLA fixed at inference and adapts through retrieved phase- and geometry-aligned micro-demonstrations, reaching 97.7% LIBERO, 60.4% RoboTwin 2.0 and 83.2% across four physical tasks. No measured serving latency/throughput benefit is reported, so it remains watch.",
+      "published_at": "2026-09-07T14:55:35Z",
+      "updated_at": "2026-09-07T14:55:35Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -3930,6 +3995,27 @@
       ]
     },
     {
+      "title": "GIFT: Goal-Injected Fine-Tuning for Efficient Manipulation Policy Adaptation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / lightweight adaptation / goal-conditioned manipulation",
+      "arxiv": "2609.07006",
+      "doi": "",
+      "official_id": "arXiv:2609.07006",
+      "paper_url": "https://arxiv.org/abs/2609.07006",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI work injects generated goal-image features into pretrained VLA policies through zero-initialized convolution; one epoch of fine-tuning improves reported task success by 4.7-13.4 percentage points. The efficiency claim is adaptation-oriented and the abstract lacks serving/runtime measurements, so it remains watch.",
+      "published_at": "2026-09-07T03:56:49Z",
+      "updated_at": "2026-09-07T03:56:49Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Train Overcomplete, Deploy Compact: Scaling Recovery Capacity for Structured LLM Pruning",
       "venue": "arXiv 2026",
       "topic": "sparsity/pruning / structured LLM pruning / recovery",
@@ -3970,6 +4056,28 @@
         "LLM Serving",
         "KV Cache / Long Context",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Characterizing Contention-Induced Reliability Collapse in KV-Cache Timing Side Channels for Multi-Tenant LLM Serving",
+      "venue": "arXiv 2026",
+      "topic": "KV cache/long-context / LLM serving / multi-tenant security characterization",
+      "arxiv": "2609.06853",
+      "doi": "",
+      "official_id": "arXiv:2609.06853",
+      "paper_url": "https://arxiv.org/abs/2609.06853",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Seven experiments on live shared LLM serving show that KV-cache timing side-channel reliability collapses under realistic contention; on a two-node two-GPU tensor-parallel vLLM setup mean effect size drops from 3.418 to 0.511. This is valuable multi-tenant KV-cache systems characterization rather than an efficiency-improving runtime, so it remains watch.",
+      "published_at": "2026-09-06T21:56:29Z",
+      "updated_at": "2026-09-06T21:56:29Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "GPU Kernel / DSL / Compiler"
       ]
     },
     {
@@ -4716,6 +4824,29 @@
       "is_latest_30d": true,
       "directions": [
         "Quantization"
+      ]
+    },
+    {
+      "title": "Accelerating Atom Simulations with Variable-Block Sparse Matrix Library",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / distributed sparse linear algebra / scientific AI infrastructure",
+      "arxiv": "2609.04397",
+      "doi": "",
+      "official_id": "arXiv:2609.04397",
+      "paper_url": "https://arxiv.org/abs/2609.04397",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "VBCSR preserves variable-size atomic blocks and groups equal-shape blocks for optimized dense-kernel dispatch, with a unified CSR/BSR/VBCSR interface and a demonstration above one million atoms. The abstract states it outperforms tested Python-accessible references but does not expose a quantified end-to-end speedup, so it remains high-value watch.",
+      "published_at": "2026-09-03T19:06:28Z",
+      "updated_at": "2026-09-03T19:06:28Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Sparsity / Pruning",
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference"
       ]
     },
     {
@@ -13884,6 +14015,26 @@
       ]
     },
     {
+      "title": "A Time-Encoded Analog Photonic Interposer for Energy-EfficientIntegration of Analog Vision Sensors and Analog Accelerators",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / photonic interconnect / analog AI accelerator",
+      "arxiv": "2609.03125",
+      "doi": "",
+      "official_id": "arXiv:2609.03125",
+      "paper_url": "https://arxiv.org/abs/2609.03125",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "A time-encoded analog photonic interposer transports analog vision signals between chiplets without a conventional high-precision ADC/DAC pipeline. The primary abstract reports a 2.04x energy-delay-product improvement over an 8-bit digital electrical baseline on Visual Wake Words while keeping accuracy close to the digital baseline.",
+      "published_at": "2026-09-02T20:01:11Z",
+      "updated_at": "2026-09-02T20:01:11Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "LeanStream: A Speculate-and-Refine Streaming Framework for Efficient on-Device LLM Inference",
       "venue": "MobiCom 2026",
       "topic": "edge/cloud/heterogeneous AI systems / on-device LLM inference / storage offload / sparse execution",
@@ -15288,6 +15439,28 @@
       ]
     },
     {
+      "title": "Interactive Debugger for Performance Portable Python HPC Kernels",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / Python HPC / developer tooling",
+      "arxiv": "2609.07912",
+      "doi": "",
+      "official_id": "arXiv:2609.07912",
+      "paper_url": "https://arxiv.org/abs/2609.07912",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "PKDB adds breakpoints, stepping, inspection, live code evaluation and hot kernel substitution while preserving on-device PyKokkos execution across CPU/GPU backends. The primary abstract reports limited overhead but no quantified workload speedup; it is retained as high-value runtime/tooling infrastructure.",
+      "published_at": "2026-09-07T19:25:32Z",
+      "updated_at": "2026-09-07T19:25:32Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "The OCUDU dApp Platform: An Open Runtime and E3 Interface for Real-Time AI-RAN",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI systems / real-time AI-RAN / GPU runtime / edge orchestration",
@@ -15328,6 +15501,29 @@
       "directions": [
         "LLM Serving",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "ICI-VLA: In-Context Imitation with Spatiotemporally Aligned Demonstrations for Vision-Language-Action Models",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / test-time adaptation / retrieval-conditioned control",
+      "arxiv": "2609.07581",
+      "doi": "",
+      "official_id": "arXiv:2609.07581",
+      "paper_url": "https://arxiv.org/abs/2609.07581",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI work keeps the VLA fixed at inference and adapts through retrieved phase- and geometry-aligned micro-demonstrations, reaching 97.7% LIBERO, 60.4% RoboTwin 2.0 and 83.2% across four physical tasks. No measured serving latency/throughput benefit is reported, so it remains watch.",
+      "published_at": "2026-09-07T14:55:35Z",
+      "updated_at": "2026-09-07T14:55:35Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -15484,6 +15680,27 @@
       ]
     },
     {
+      "title": "GIFT: Goal-Injected Fine-Tuning for Efficient Manipulation Policy Adaptation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / lightweight adaptation / goal-conditioned manipulation",
+      "arxiv": "2609.07006",
+      "doi": "",
+      "official_id": "arXiv:2609.07006",
+      "paper_url": "https://arxiv.org/abs/2609.07006",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI work injects generated goal-image features into pretrained VLA policies through zero-initialized convolution; one epoch of fine-tuning improves reported task success by 4.7-13.4 percentage points. The efficiency claim is adaptation-oriented and the abstract lacks serving/runtime measurements, so it remains watch.",
+      "published_at": "2026-09-07T03:56:49Z",
+      "updated_at": "2026-09-07T03:56:49Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Train Overcomplete, Deploy Compact: Scaling Recovery Capacity for Structured LLM Pruning",
       "venue": "arXiv 2026",
       "topic": "sparsity/pruning / structured LLM pruning / recovery",
@@ -15524,6 +15741,28 @@
         "LLM Serving",
         "KV Cache / Long Context",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Characterizing Contention-Induced Reliability Collapse in KV-Cache Timing Side Channels for Multi-Tenant LLM Serving",
+      "venue": "arXiv 2026",
+      "topic": "KV cache/long-context / LLM serving / multi-tenant security characterization",
+      "arxiv": "2609.06853",
+      "doi": "",
+      "official_id": "arXiv:2609.06853",
+      "paper_url": "https://arxiv.org/abs/2609.06853",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Seven experiments on live shared LLM serving show that KV-cache timing side-channel reliability collapses under realistic contention; on a two-node two-GPU tensor-parallel vLLM setup mean effect size drops from 3.418 to 0.511. This is valuable multi-tenant KV-cache systems characterization rather than an efficiency-improving runtime, so it remains watch.",
+      "published_at": "2026-09-06T21:56:29Z",
+      "updated_at": "2026-09-06T21:56:29Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "GPU Kernel / DSL / Compiler"
       ]
     },
     {
@@ -16270,6 +16509,29 @@
       "is_latest_30d": true,
       "directions": [
         "Quantization"
+      ]
+    },
+    {
+      "title": "Accelerating Atom Simulations with Variable-Block Sparse Matrix Library",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / distributed sparse linear algebra / scientific AI infrastructure",
+      "arxiv": "2609.04397",
+      "doi": "",
+      "official_id": "arXiv:2609.04397",
+      "paper_url": "https://arxiv.org/abs/2609.04397",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "VBCSR preserves variable-size atomic blocks and groups equal-shape blocks for optimized dense-kernel dispatch, with a unified CSR/BSR/VBCSR interface and a demonstration above one million atoms. The abstract states it outperforms tested Python-accessible references but does not expose a quantified end-to-end speedup, so it remains high-value watch.",
+      "published_at": "2026-09-03T19:06:28Z",
+      "updated_at": "2026-09-03T19:06:28Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Sparsity / Pruning",
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference"
       ]
     },
     {

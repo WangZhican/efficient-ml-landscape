@@ -1,10 +1,10 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **364 canonical papers** mapped here, plus a broader **155-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **365 canonical papers** mapped here, plus a broader **157-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 155 tracked
+## 🆕 Latest 30 Days · 157 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -12,6 +12,7 @@
 | **P1 · Watch** | **A Measurement Study of LLM Inference Trade-offs Across Edge Continuum Hardware** | arXiv 2026 | edge/cloud/heterogeneous AI systems / LLM inference / measurement | [Link](https://arxiv.org/abs/2609.08307) | — |
 | **P0 · Strong** | **SemBridge: Compiling Consumer Observations into Cross-Stack Communication Plans** | arXiv 2026 | distributed training/inference / compiler / heterogeneous communication | [Link](https://arxiv.org/abs/2609.08231) | — |
 | **P1 · Watch** | **Streaming Hierarchical Inference with Tabular Foundation Models** | arXiv 2026 | edge/cloud/heterogeneous AI systems / hierarchical inference / selective offloading | [Link](https://arxiv.org/abs/2609.07956) | — |
+| **P1 · Watch** | **Interactive Debugger for Performance Portable Python HPC Kernels** | arXiv 2026 | GPU kernel/DSL/compilers / Python HPC / developer tooling | [Link](https://arxiv.org/abs/2609.07912) | — |
 | **P1 · Watch** | **The OCUDU dApp Platform: An Open Runtime and E3 Interface for Real-Time AI-RAN** | arXiv 2026 | edge/cloud/heterogeneous AI systems / real-time AI-RAN / GPU runtime / edge orchestration | [Link](https://arxiv.org/abs/2609.07843) | — |
 | **P0 · Strong** | **ComVLA: Communication-Aware Split Inference for VLA Models in 6G-Connected Robotics** | IEEE GLOBECOM 2026 | VLA/WAM/Physical AI serving / split inference / cloud-edge robotics / wireless-aware token budgeting | [Link](https://arxiv.org/abs/2609.07838) | — |
 | **P1 · Watch** | **Real-Time dApps for AI-RAN: Measured Interface Requirements for Inline PHY and Slot-Level Control** | arXiv 2026 | edge/cloud/heterogeneous AI systems / AI-RAN / low-latency runtime interface | [Link](https://arxiv.org/abs/2609.07805) | — |
@@ -53,6 +54,7 @@
 | **P0 · Strong** | **Iapetus: Content-Aware Hierarchical Scheduling for Collaborative ViT Inference in LEO Satellite Networks** | CoRR 2026 | edge/cloud/heterogeneous AI systems / collaborative ViT inference / token compression / layer offloading | [Link](https://arxiv.org/abs/2609.03318) | — |
 | **P1 · Watch** | **Bringing dApps to OCUDU: An E3 Controller for Real-Time Open RAN Intelligence** | arXiv 2026 | edge/cloud/heterogeneous AI systems / real-time AI-RAN / Open RAN / runtime interfaces | [Link](https://arxiv.org/abs/2609.03162) | — |
 | **P1 · Watch** | **RACE-AIMC: Selective Inference for Heterogeneous Analog In-Memory Accelerators at the Edge** | arXiv 2026 | edge/cloud/heterogeneous AI systems / analog in-memory accelerator / selective inference | [Link](https://arxiv.org/abs/2609.03149) | — |
+| **P0 · Strong** | **A Time-Encoded Analog Photonic Interposer for Energy-EfficientIntegration of Analog Vision Sensors and Analog Accelerators** | arXiv 2026 | edge/cloud/heterogeneous AI systems / photonic interconnect / analog AI accelerator | [Link](https://arxiv.org/abs/2609.03125) | — |
 | **P0 · Strong** | **LeanStream: A Speculate-and-Refine Streaming Framework for Efficient on-Device LLM Inference** | MobiCom 2026 | edge/cloud/heterogeneous AI systems / on-device LLM inference / storage offload / sparse execution | [Link](https://arxiv.org/abs/2609.03079) | — |
 | **P1 · Watch** | **Context-Aware Interleaved Batching for WhisperX** | Fresh / preprint | edge/cloud/heterogeneous AI systems / inference batching | [Link](https://arxiv.org/abs/2608.31170) | — |
 | **P2 · Relevant** | **From Seeing to Acting: Smart Glasses as First-Person Intelligence Platforms** | Fresh / preprint | Physical AI / wearable first-person intelligence / edge platform | [Link](https://arxiv.org/abs/2608.24877) | — |

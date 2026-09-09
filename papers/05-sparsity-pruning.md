@@ -1,10 +1,10 @@
 # 05 · Sparsity / Pruning
 
-> **265 canonical papers** mapped here, plus a broader **97-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **265 canonical papers** mapped here, plus a broader **98-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 97 tracked
+## 🆕 Latest 30 Days · 98 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -31,6 +31,7 @@
 | **P1 · Watch** | **LookThere! Sparse Vision by Reinforced Selection** | arXiv 2026 | sparsity/pruning / adaptive vision inference / edge-efficient perception | [Link](https://arxiv.org/abs/2609.04698) | — |
 | **P1 · Watch** | **Training-Free Halving of Activated Experts in Fine-Grained Mixture-of-Experts Models** | arXiv 2026 | MoE systems/accelerators / expert pruning / inference efficiency | [Link](https://arxiv.org/abs/2609.04575) | — |
 | **P0 · Strong** | **When Load-Balancing Goes Too Far: Expert Pruning in Over-Dispersed Mixture-of-Experts Models** | arXiv 2026 | MoE systems / expert pruning / inference memory reduction / routing dispersion | [Link](https://arxiv.org/abs/2609.04453) | — |
+| **P1 · Watch** | **Accelerating Atom Simulations with Variable-Block Sparse Matrix Library** | arXiv 2026 | GPU kernel/DSL/compilers / distributed sparse linear algebra / scientific AI infrastructure | [Link](https://arxiv.org/abs/2609.04397) | — |
 | **P1 · Watch** | **TAP-Path: Task-Adaptive Structural and Token Pruning for Efficient and Trustworthy Pathology Foundation Models** | arXiv 2026 | sparsity/pruning / multimodal models / efficient inference | [Link](https://arxiv.org/abs/2609.04071) | — |
 | **P0 · Strong** | **CoFiE: Coarse-to-Fine Evidence Selection for Efficient Streaming Video Understanding** | arXiv 2026 | multimodal/MLLM serving / sparsity / streaming video | [Link](https://arxiv.org/abs/2609.03675) | — |
 | **P0 · Strong** | **Spruce: Scalable Private Outsourced Retrieval Using Compact Embeddings** | arXiv 2026 | LLM serving / RAG retrieval / privacy-preserving systems / efficient retrieval | [Link](https://arxiv.org/abs/2609.03376) | — |

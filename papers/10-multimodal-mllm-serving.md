@@ -1,10 +1,10 @@
 # 10 · Multimodal / MLLM Serving
 
-> **208 canonical papers** mapped here, plus a broader **89-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **208 canonical papers** mapped here, plus a broader **90-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 89 tracked
+## 🆕 Latest 30 Days · 90 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -14,6 +14,7 @@
 | **P0 · Strong** | **X2Streaming-ASR: wait when uncertain, emit when ready for streaming ASR** | arXiv 2026 | multimodal/MLLM serving / streaming ASR / realtime voice agents / low-latency inference | [Link](https://arxiv.org/abs/2609.08672) | — |
 | **P1 · Watch** | **MoEMB: Scaling Universal Multimodal Embeddings with Efficient Mixture-of-Experts Models** | arXiv 2026 | multimodal/MLLM serving / MoE systems / retrieval embeddings | [Link](https://arxiv.org/abs/2609.08663) | — |
 | **P0 · Strong** | **MemForest: Efficient Agent Memory Management via EventTree Partitioning and Progressive Merging** | arXiv 2026 | efficient reasoning/agent systems / memory compression / retrieval | [Link](https://arxiv.org/abs/2609.08273) | [Repo](https://github.com/Celina-love-sweet/MemForest) |
+| **P1 · Watch** | **ICI-VLA: In-Context Imitation with Spatiotemporally Aligned Demonstrations for Vision-Language-Action Models** | arXiv 2026 | VLA/WAM/Physical AI serving / test-time adaptation / retrieval-conditioned control | [Link](https://arxiv.org/abs/2609.07581) | — |
 | **P0 · Strong** | **ASTRA: Low-Overhead Runtime Architecture for STReam Adaptation in Video Analytics** | arXiv 2026 | edge/cloud/heterogeneous AI systems / multimodal serving / runtime adaptation | [Link](https://arxiv.org/abs/2609.07020) | — |
 | **P1 · Watch** | **ECOKV: Geometry-Aware KV Cache Eviction via Complementary Diversity Metrics** | arXiv 2026 | KV cache/long-context / multimodal MLLM serving / cache eviction | [Link](https://arxiv.org/abs/2609.06663) | — |
 | **P1 · Watch** | **One MLLM, One Call: Efficient Zero-Shot Vision-and-Language Navigation via Spatial-Aware Waypoints** | arXiv 2026 | VLA/WAM/Physical AI serving / VLN / sparse MLLM invocation / robot navigation | [Link](https://arxiv.org/abs/2609.06476) | — |

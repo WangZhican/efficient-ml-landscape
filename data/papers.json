@@ -2329,6 +2329,26 @@
     ]
   },
   {
+    "title": "A Time-Encoded Analog Photonic Interposer for Energy-EfficientIntegration of Analog Vision Sensors and Analog Accelerators",
+    "venue": "arXiv 2026",
+    "topic": "edge/cloud/heterogeneous AI systems / photonic interconnect / analog AI accelerator",
+    "arxiv": "2609.03125",
+    "doi": "",
+    "official_id": "arXiv:2609.03125",
+    "paper_url": "https://arxiv.org/abs/2609.03125",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "A time-encoded analog photonic interposer transports analog vision signals between chiplets without a conventional high-precision ADC/DAC pipeline. The primary abstract reports a 2.04x energy-delay-product improvement over an 8-bit digital electrical baseline on Visual Wake Words while keeping accuracy close to the digital baseline.",
+    "published_at": "2026-09-02T20:01:11Z",
+    "updated_at": "2026-09-02T20:01:11Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "A Universal Context-Reuse Layer for Cross-Model KV Sharing",
     "venue": "arXiv 2026",
     "topic": "KV cache / LLM serving / cross-model context reuse / multi-agent inference",

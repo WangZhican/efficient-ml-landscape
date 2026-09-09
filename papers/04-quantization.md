@@ -1,10 +1,10 @@
 # 04 · Quantization
 
-> **234 canonical papers** mapped here, plus a broader **75-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **234 canonical papers** mapped here, plus a broader **77-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 75 tracked
+## 🆕 Latest 30 Days · 77 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -13,6 +13,7 @@
 | **P1 · Watch** | **KBBQ: A Predictive Noise Law and the Limits of Spectrum Flattening in FP4 Quantization** | arXiv 2026 | quantization / FP4 / W4A4 / transform-based quantization | [Link](https://arxiv.org/abs/2609.08135) | — |
 | **P1 · Watch** | **Marigold V2: Revisiting Diffusion Transformers for Monocular Depth Estimation** | arXiv 2026 | diffusion/flow acceleration / dense vision / single-step inference | [Link](https://arxiv.org/abs/2609.08084) | [Repo](https://hf.co/spaces/huawei-bayerlab/marigold-v2-web) |
 | **P1 · Watch** | **MetaKV: Adaptive KV Cache Compression for Constrained LLM Inference** | arXiv 2026 | KV cache/long-context / adaptive compression / constrained inference | [Link](https://arxiv.org/abs/2609.07966) | — |
+| **P1 · Watch** | **Interactive Debugger for Performance Portable Python HPC Kernels** | arXiv 2026 | GPU kernel/DSL/compilers / Python HPC / developer tooling | [Link](https://arxiv.org/abs/2609.07912) | — |
 | **P0 · Strong** | **Analytical Resource Management for Fine-grained MoE Computation-Communication Overlap** | arXiv 2026 | MoE systems/accelerators / distributed inference / compute-communication overlap | [Link](https://arxiv.org/abs/2609.07536) | — |
 | **P1 · Watch** | **RoboDreamer: Anticipatory Humanoid Locomotion with Predictive State-Space Models** | arXiv 2026 | VLA/WAM/Physical AI serving / humanoid control / action chunking | [Link](https://arxiv.org/abs/2609.07096) | — |
 | **P0 · Strong** | **All for 1-Bit: Towards Genuine 1-Bit Post-Training Quantization for LLMs** | arXiv 2026 | quantization / LLM inference / genuine 1-bit PTQ | [Link](https://arxiv.org/abs/2609.06161) | — |
@@ -22,6 +23,7 @@
 | **P0 · Strong** | **FlexPosit: Tunable Fractional Precision for LLM Inference Accelerators** | MICRO 2026 | quantization / LLM accelerator / bit-serial architecture | [Link](https://arxiv.org/abs/2609.04724) | — |
 | **P0 · Strong** | **Scale-QLoRA: Code-Invariant Adapter Merging for Native 4-bit Microscaling LLMs** | arXiv 2026 | quantization / native 4-bit microscaling / LoRA deployment / code-invariant merge | [Link](https://arxiv.org/abs/2609.04526) | — |
 | **P1 · Watch** | **When Quantization Breaks Memory: Recurrent-State Write-Back in Low-Precision Temporal Inference** | arXiv 2026 | quantization / recurrent-state memory / inference reliability | [Link](https://arxiv.org/abs/2609.04490) | — |
+| **P1 · Watch** | **Accelerating Atom Simulations with Variable-Block Sparse Matrix Library** | arXiv 2026 | GPU kernel/DSL/compilers / distributed sparse linear algebra / scientific AI infrastructure | [Link](https://arxiv.org/abs/2609.04397) | — |
 | **P0 · Strong** | **Hardware-Aware FP4 FlashAttention-4** | CoRR 2026 | efficient attention / quantization / GPU kernel / Blackwell FP4 | [Link](https://arxiv.org/abs/2609.04105) | [Repo](https://github.com/MrHuff/fp4-fa4) |
 | **P0 · Strong** | **Why Gated DeltaNet Survives 4-Bit Quantization: NVFP4 W4A4 for the Recurrent Half of a Hybrid 27B LLM** | CoRR 2026 | quantization / hybrid attention-SSM LLM / NVFP4 W4A4 / KV cache | [Link](https://arxiv.org/abs/2609.04098) | — |
 | **P0 · Strong** | **DSAQuant: Denoising-Stage-Aligned Quantization-Aware Training for Video Generation** | CoRR 2026 | quantization / video generation acceleration / diffusion inference | [Link](https://arxiv.org/abs/2609.04031) | [Repo](https://github.com/robbyant-research/DSAQuant) |

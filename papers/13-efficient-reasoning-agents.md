@@ -1,10 +1,10 @@
 # 13 · Efficient Reasoning / Agents
 
-> **298 canonical papers** mapped here, plus a broader **108-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **298 canonical papers** mapped here, plus a broader **109-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 108 tracked
+## 🆕 Latest 30 Days · 109 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -15,6 +15,7 @@
 | **P1 · Watch** | **BIO-MEMART: Biometric-Aware KV Cache Memory for Multi-User LLM Agents** | arXiv 2026 | KV cache/long-context / efficient reasoning/agent systems / shared memory | [Link](https://arxiv.org/abs/2609.08566) | — |
 | **P0 · Strong** | **MemForest: Efficient Agent Memory Management via EventTree Partitioning and Progressive Merging** | arXiv 2026 | efficient reasoning/agent systems / memory compression / retrieval | [Link](https://arxiv.org/abs/2609.08273) | [Repo](https://github.com/Celina-love-sweet/MemForest) |
 | **P1 · Watch** | **WorldAgen: Unified State-Action Prediction with Test-Time World Model Training** | arXiv 2026 | VLA/WAM/Physical AI serving / world models / test-time adaptation | [Link](https://arxiv.org/abs/2609.08162) | — |
+| **P1 · Watch** | **ICI-VLA: In-Context Imitation with Spatiotemporally Aligned Demonstrations for Vision-Language-Action Models** | arXiv 2026 | VLA/WAM/Physical AI serving / test-time adaptation / retrieval-conditioned control | [Link](https://arxiv.org/abs/2609.07581) | — |
 | **P0 · Strong** | **PV-WM: A Heterogeneous Micro-Macro World Model for Articulated Pedestrian-Vehicle Co-Rollout** | arXiv 2026 | VLA/WAM/Physical AI serving / world model / efficient rollout | [Link](https://arxiv.org/abs/2609.07328) | — |
 | **P0 · Strong** | **Online Draft Co-Training for Speculative Decoding in Large-Scale, Long-Context RL Post-Training** | arXiv 2026 | speculative decoding / RL post-training / context parallelism / pipeline parallelism | [Link](https://arxiv.org/abs/2609.07108) | [Repo](https://github.com/NVIDIA-NeMo/RL) |
 | **P1 · Watch** | **Train Overcomplete, Deploy Compact: Scaling Recovery Capacity for Structured LLM Pruning** | arXiv 2026 | sparsity/pruning / structured LLM pruning / recovery | [Link](https://arxiv.org/abs/2609.06974) | [Repo](https://github.com/mmai-laboratory/OverRep) |
