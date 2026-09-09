@@ -1,10 +1,10 @@
 # 08 · GPU Kernel / DSL / Compiler
 
-> **430 canonical papers** mapped here, plus a broader **119-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **431 canonical papers** mapped here, plus a broader **121-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 119 tracked
+## 🆕 Latest 30 Days · 121 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -39,6 +39,7 @@
 | **P0 · Strong** | **MaxKernel: Agentic Kernel Generation for TPUs** | arXiv 2026 | GPU kernel/DSL/compilers / TPU kernel generation / agentic optimization | [Link](https://arxiv.org/abs/2609.04523) | [Repo](https://github.com/AI-Hypercomputer/accelerator-agents/tree/main/MaxKernel) |
 | **P0 · Strong** | **Hardware-Aware FP4 FlashAttention-4** | CoRR 2026 | efficient attention / quantization / GPU kernel / Blackwell FP4 | [Link](https://arxiv.org/abs/2609.04105) | [Repo](https://github.com/MrHuff/fp4-fa4) |
 | **P0 · Strong** | **Why Gated DeltaNet Survives 4-Bit Quantization: NVFP4 W4A4 for the Recurrent Half of a Hybrid 27B LLM** | CoRR 2026 | quantization / hybrid attention-SSM LLM / NVFP4 W4A4 / KV cache | [Link](https://arxiv.org/abs/2609.04098) | — |
+| **P0 · Strong** | **sp-DBA: a general framework for adaptive transform-domain computation** | arXiv 2026 | GPU kernel/DSL/compilers / distributed GPU runtime / adaptive FFT computation / scientific AI infrastructure | [Link](https://arxiv.org/abs/2609.03922) | — |
 | **P0 · Strong** | **Every Kernel Is a Join: Automatic Multi-GPU Parallelism for AI Computations in Einsummable** | arXiv 2026 | distributed training/inference / GPU systems / compiler | [Link](https://arxiv.org/abs/2609.03905) | — |
 | **P1 · Watch** | **Flip, Don't Shuffle: Watermarking LLMs at the Speed of Inference** | arXiv 2026 | LLM serving / inference kernel / watermarking overhead | [Link](https://arxiv.org/abs/2609.03844) | — |
 | **P0 · Strong** | **WISE: World-model-guided Imagination Scheduling for Efficient Post-training of Vision-Language-Action Models** | arXiv 2026 | VLA/WAM/Physical AI / world-model scheduling / efficient post-training | [Link](https://arxiv.org/abs/2609.03681) | — |
@@ -46,6 +47,7 @@
 | **P0 · Strong** | **Efficient Constant Optimization for Symbolic Regression with GPU-Accelerated Tree-Based Genetic Programming** | arXiv 2026 | GPU kernel/DSL/compilers / GPU-resident batched optimization / CUDA / symbolic regression runtime | [Link](https://arxiv.org/abs/2609.03352) | — |
 | **P0 · Strong** | **Latency-Aware Orchestration for Multi-Agent LLM Workflows on Heterogeneous GPUs** | arXiv 2026 | efficient reasoning/agent systems / heterogeneous GPU serving | [Link](https://arxiv.org/abs/2609.03335) | — |
 | **P0 · Strong** | **BASP: Communication-Efficient Batch-Aware Sequence Parallelism for LLM Training** | arXiv 2026 | distributed training/inference / long-context training / sequence parallelism | [Link](https://arxiv.org/abs/2609.03151) | — |
+| **P1 · Watch** | **Sensing Which Modality Matters: Evidence-Gated Regularization for Robust VLA Policies** | arXiv 2026 | VLA/WAM/Physical AI serving / multimodal robustness / zero-overhead inference / sensor fusion | [Link](https://arxiv.org/abs/2609.03142) | — |
 | **P0 · Strong** | **LeanStream: A Speculate-and-Refine Streaming Framework for Efficient on-Device LLM Inference** | MobiCom 2026 | edge/cloud/heterogeneous AI systems / on-device LLM inference / storage offload / sparse execution | [Link](https://arxiv.org/abs/2609.03079) | — |
 | **P1 · Watch** | **GPU-Accelerated Astrodynamics World Models for Spacecraft Rendezvous and Proximity Operations** | arXiv 2026 | VLA/WAM/Physical AI serving / world models / GPU simulation | [Link](https://arxiv.org/abs/2609.03067) | — |
 | **P0 · Strong** | **H3DNAS: Hardware-Aware ONNX-Native 3D Point Cloud Model Compression** | arXiv 2026 | edge/cloud/heterogeneous AI systems / sparsity-pruning / deployment compiler | [Link](https://arxiv.org/abs/2609.02684) | [Repo](https://github.com/ClarityLab-Org/h3dnas) |

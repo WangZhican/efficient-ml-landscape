@@ -1,10 +1,10 @@
 # 10 · Multimodal / MLLM Serving
 
-> **206 canonical papers** mapped here, plus a broader **87-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **206 canonical papers** mapped here, plus a broader **88-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 87 tracked
+## 🆕 Latest 30 Days · 88 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -32,6 +32,7 @@
 | **P1 · Watch** | **Lngram v2: Latent N-Gram Memory with Interpretable Discrete Representations** | arXiv 2026 | KV cache/long-context / multimodal serving / conditional memory / efficient model architecture | [Link](https://arxiv.org/abs/2609.03426) | — |
 | **P0 · Strong** | **Jina-OCR-v1: Efficient Document Parsing with Speculative Decoding and Dense Verifiable Rewards** | arXiv 2026 | multimodal/MLLM serving / speculative decoding / efficient OCR | [Link](https://arxiv.org/abs/2609.03181) | [Repo](https://huggingface.co/jinaai/jina-ocr-v1) |
 | **P1 · Watch** | **Who Speaks for the Pruned? Visual Token Pruning as Coverage Optimization** | arXiv 2026 | multimodal/MLLM serving / sparsity/pruning / visual token pruning | [Link](https://arxiv.org/abs/2609.03158) | — |
+| **P1 · Watch** | **Sensing Which Modality Matters: Evidence-Gated Regularization for Robust VLA Policies** | arXiv 2026 | VLA/WAM/Physical AI serving / multimodal robustness / zero-overhead inference / sensor fusion | [Link](https://arxiv.org/abs/2609.03142) | — |
 | **P0 · Strong** | **ShallowStream: Index Shallow then Answer Deep for Streaming Video Understanding** | arXiv 2026 | multimodal/MLLM serving / streaming video / Physical-AI protected | [Link](https://arxiv.org/abs/2609.02780) | [Repo](https://github.com/CURRENTF/ShallowStream) |
 | **P1 · Watch** | **RVSD: Retrieval Vision Sparse Decoding for Mitigating Visual Hallucinations in Large Vision-Language Models** | arXiv 2026 | multimodal/MLLM serving / sparse decoding / visual token retrieval | [Link](https://arxiv.org/abs/2609.02731) | — |
 | **P0 · Strong** | **ViSAR: Training-Free Adaptive-k Retrieval for Visual Document Question Answering** | CoRR 2026 | multimodal/MLLM serving / visual RAG / adaptive retrieval | [Link](https://arxiv.org/abs/2609.02486) | — |

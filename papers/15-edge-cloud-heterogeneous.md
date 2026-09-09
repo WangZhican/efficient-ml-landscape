@@ -1,10 +1,10 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **357 canonical papers** mapped here, plus a broader **153-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **359 canonical papers** mapped here, plus a broader **155-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 153 tracked
+## 🆕 Latest 30 Days · 155 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -21,9 +21,11 @@
 | **P1 · Watch** | **Unified AI Gateway: A Framework for Joint Model Routing and KV Cache Management** | arXiv 2026 | LLM serving / model routing / KV cache management / edge-cloud placement | [Link](https://arxiv.org/abs/2609.06940) | — |
 | **P0 · Strong** | **OCTN: Neural OCT Representations for Robot-Guided Precision Intervention** | arXiv 2026 | VLA/WAM/Physical AI serving / edge/GPU runtime / robot-guided intervention | [Link](https://arxiv.org/abs/2609.06810) | [Repo](https://raprakashvi.github.io/octn) |
 | **P1 · Watch** | **BLINK: Batch Normalization-based Integrity Checkpoints for In-Situ Detection and Mitigation of Diverse Weight Corruptions in DNN Accelerators** | arXiv 2026 | edge/cloud/heterogeneous AI systems / accelerator reliability / runtime | [Link](https://arxiv.org/abs/2609.06781) | — |
+| **P0 · Strong** | **Gutenberg: Taming Latency-Critical Cloud Services with Near-Data-Processing** | arXiv 2026 | edge/cloud/heterogeneous AI systems / near-data processing / latency-critical cloud services / tail latency | [Link](https://arxiv.org/abs/2609.06691) | — |
 | **P0 · Strong** | **EStream: Fast and Memory-Efficient MoE Prefill through Expert Virtualization on Mobile NPUs** | arXiv 2026 | edge AI systems / MoE serving / mobile NPU / expert virtualization | [Link](https://arxiv.org/abs/2609.06551) | — |
 | **P0 · Strong** | **AutoUVM: Automated Prefetching Framework for LLMs under UVM Oversubscription** | arXiv 2026 | LLM serving / memory oversubscription / UVM prefetching / heterogeneous memory | [Link](https://arxiv.org/abs/2609.06172) | — |
 | **P0 · Strong** | **Poseidon: DAG-Guided Parallelism Search for LLM Pre-Training on Heterogeneous Clusters** | arXiv 2026 | distributed training/inference / heterogeneous clusters / parallelism search | [Link](https://arxiv.org/abs/2609.06086) | — |
+| **P0 · Strong** | **MolParser-Mobile: Ultrafast OCSR System for Large-Scale Chemical Literature Mining** | arXiv 2026 | edge/cloud/heterogeneous AI systems / efficient vision inference / high-throughput deployment / lightweight model systems | [Link](https://arxiv.org/abs/2609.05807) | — |
 | **P1 · Watch** | **Distilling Vision-Language Models for On-Device Fire Understanding** | arXiv 2026 | multimodal/MLLM serving / edge inference / VLM distillation | [Link](https://arxiv.org/abs/2609.05782) | — |
 | **P0 · Strong** | **Interface-Aware KV Cache Quantization for Dense On-Chip NVM in Long-Context LLM Decoding** | arXiv 2026 | KV cache/long-context / quantization / NVM / accelerator co-design | [Link](https://arxiv.org/abs/2609.05764) | — |
 | **P0 · Strong** | **DejaVu: Unifying Memory Allocations to Eliminate Redundant Copies on Unified-Memory SoCs** | arXiv 2026 | edge/cloud/heterogeneous AI systems / UMA / compiler-runtime memory optimization | [Link](https://arxiv.org/abs/2609.05635) | — |

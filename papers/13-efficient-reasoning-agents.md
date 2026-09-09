@@ -1,10 +1,10 @@
 # 13 · Efficient Reasoning / Agents
 
-> **292 canonical papers** mapped here, plus a broader **103-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **293 canonical papers** mapped here, plus a broader **104-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 103 tracked
+## 🆕 Latest 30 Days · 104 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -18,6 +18,7 @@
 | **P0 · Strong** | **OCTN: Neural OCT Representations for Robot-Guided Precision Intervention** | arXiv 2026 | VLA/WAM/Physical AI serving / edge/GPU runtime / robot-guided intervention | [Link](https://arxiv.org/abs/2609.06810) | [Repo](https://raprakashvi.github.io/octn) |
 | **P0 · Strong** | **PARSER: Read in Parallel, Reason in Depth for Long-Context LLM Agents** | arXiv 2026 | efficient reasoning/agent systems / long-context / parallel inference | [Link](https://arxiv.org/abs/2609.06702) | — |
 | **P0 · Strong** | **ForgeStencil: Automating Per-Case Stencil Specialization from Kernels to 100+ Real Applications** | arXiv 2026 | GPU kernel/DSL/compilers / code-generation agents / CUDA specialization | [Link](https://arxiv.org/abs/2609.06694) | — |
+| **P0 · Strong** | **Substrate-Portable Execution for Production LLM Workflows** | arXiv 2026 | efficient reasoning/agent systems / LLM serving / production orchestration / batch and streaming runtime | [Link](https://arxiv.org/abs/2609.06128) | — |
 | **P1 · Watch** | **FALCON-S: Fixed-wing ground-effect Aerodynamics Simulator and Flight Control Learning Suite** | arXiv 2026 | VLA/WAM/Physical AI serving / GPU simulation / robot learning | [Link](https://arxiv.org/abs/2609.06046) | — |
 | **P1 · Watch** | **Distilling Vision-Language Models for On-Device Fire Understanding** | arXiv 2026 | multimodal/MLLM serving / edge inference / VLM distillation | [Link](https://arxiv.org/abs/2609.05782) | — |
 | **P0 · Strong** | **From Monolithic Blending to Agentic Orchestration: Dynamic Response for Conversational Assistants at Scale** | arXiv 2026 | efficient reasoning/agent systems / production conversational serving / orchestration / GPU footprint | [Link](https://arxiv.org/abs/2609.05758) | — |

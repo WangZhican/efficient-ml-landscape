@@ -3731,6 +3731,26 @@
     ]
   },
   {
+    "title": "Gutenberg: Taming Latency-Critical Cloud Services with Near-Data-Processing",
+    "venue": "arXiv 2026",
+    "topic": "edge/cloud/heterogeneous AI systems / near-data processing / latency-critical cloud services / tail latency",
+    "arxiv": "2609.06691",
+    "doi": "",
+    "official_id": "arXiv:2609.06691",
+    "paper_url": "https://arxiv.org/abs/2609.06691",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "7d full-PASS lower-rank replay recovered a direct systems paper on mutable latency-critical cloud services. Gutenberg jointly controls page placement, replication, CPU/NDP execution and routing, using delta-buffered writable replication and CPU helpers; on TailBench with ZSim/Ramulator-calibrated timing it reports average and p99 latency reductions up to 80.4% and 85.8% versus prior systems while improving isolation and fairness.",
+    "published_at": "2026-09-06T16:04:42Z",
+    "updated_at": "2026-09-06T16:04:42Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "H3DNAS: Hardware-Aware ONNX-Native 3D Point Cloud Model Compression",
     "venue": "arXiv 2026",
     "topic": "edge/cloud/heterogeneous AI systems / sparsity-pruning / deployment compiler",
@@ -4649,6 +4669,27 @@
       "Quantization",
       "Sparsity / Pruning",
       "MoE Systems / Accelerators"
+    ]
+  },
+  {
+    "title": "MolParser-Mobile: Ultrafast OCSR System for Large-Scale Chemical Literature Mining",
+    "venue": "arXiv 2026",
+    "topic": "edge/cloud/heterogeneous AI systems / efficient vision inference / high-throughput deployment / lightweight model systems",
+    "arxiv": "2609.05807",
+    "doi": "",
+    "official_id": "arXiv:2609.05807",
+    "paper_url": "https://arxiv.org/abs/2609.05807",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "7d lower-rank replay recovered a deployment-oriented vision inference system whose bottleneck is explicitly throughput. MolParser-Mobile uses an AutoML-optimized lightweight end-to-end OCSR architecture with 9.98M parameters and reports 1,520 molecules/s on a single RTX 4090D while maintaining competitive recognition accuracy, making the measured inference-efficiency contribution strong enough for canonical retention.",
+    "published_at": "2026-09-05T01:44:22Z",
+    "updated_at": "2026-09-05T01:44:22Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -5751,6 +5792,27 @@
     ]
   },
   {
+    "title": "sp-DBA: a general framework for adaptive transform-domain computation",
+    "venue": "arXiv 2026",
+    "topic": "GPU kernel/DSL/compilers / distributed GPU runtime / adaptive FFT computation / scientific AI infrastructure",
+    "arxiv": "2609.03922",
+    "doi": "",
+    "official_id": "arXiv:2609.03922",
+    "paper_url": "https://arxiv.org/abs/2609.03922",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "7d systematic replay recovered an execution-level adaptive framework that preserves mature transform workflows while selectively activating spectral blocks. Across materials, biology and optical-communications workloads it reports up to 28.1x transform-update speedup and up to 8.4x overall acceleration, with strong/weak scaling demonstrated on up to eight GPUs inside distributed FFT workflows.",
+    "published_at": "2026-09-03T14:38:06Z",
+    "updated_at": "2026-09-03T14:38:06Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "Sparrow: Sparse Rollout for Stable and Efficient Long-context RL of Large Language Models",
     "venue": "arXiv 2026",
     "topic": "efficient reasoning / RL training systems / sparse attention / long-context rollout",
@@ -5907,6 +5969,28 @@
       "Distributed Training / Inference",
       "Video / Image Generation",
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "Substrate-Portable Execution for Production LLM Workflows",
+    "venue": "arXiv 2026",
+    "topic": "efficient reasoning/agent systems / LLM serving / production orchestration / batch and streaming runtime",
+    "arxiv": "2609.06128",
+    "doi": "",
+    "official_id": "arXiv:2609.06128",
+    "paper_url": "https://arxiv.org/abs/2609.06128",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "7d replay recovered a production LLM-agent execution platform motivated by Amazon Rufus at millions-of-users scale. A typed workflow graph is compiled without workflow-code changes to in-process streaming, durable AWS SWF asynchronous execution, or distributed Apache Flink batch execution; dozens of production agent configurations preserve output quality across bindings, while batch execution reduces per-query inference cost in line with published batch-API discounts.",
+    "published_at": "2026-09-05T14:52:35Z",
+    "updated_at": "2026-09-05T14:52:35Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference",
+      "Efficient Reasoning / Agents"
     ]
   },
   {

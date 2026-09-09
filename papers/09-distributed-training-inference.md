@@ -1,10 +1,10 @@
 # 09 · Distributed Training / Inference
 
-> **320 canonical papers** mapped here, plus a broader **66-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **322 canonical papers** mapped here, plus a broader **68-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 66 tracked
+## 🆕 Latest 30 Days · 68 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -18,6 +18,7 @@
 | **P0 · Strong** | **Parallelism Strategy Chaining for Fast Training Convergence** | arXiv 2026 | distributed training/inference / parallelism / online adaptation | [Link](https://arxiv.org/abs/2609.07236) | — |
 | **P0 · Strong** | **Online Draft Co-Training for Speculative Decoding in Large-Scale, Long-Context RL Post-Training** | arXiv 2026 | speculative decoding / RL post-training / context parallelism / pipeline parallelism | [Link](https://arxiv.org/abs/2609.07108) | [Repo](https://github.com/NVIDIA-NeMo/RL) |
 | **P0 · Strong** | **Sharing a Fabric with Collective Communication: Two Storage Penalties in Deep Learning Training** | arXiv 2026 | distributed training/inference / storage / collective communication | [Link](https://arxiv.org/abs/2609.06506) | [Repo](https://github.com/flux-framework/dyad) |
+| **P0 · Strong** | **Substrate-Portable Execution for Production LLM Workflows** | arXiv 2026 | efficient reasoning/agent systems / LLM serving / production orchestration / batch and streaming runtime | [Link](https://arxiv.org/abs/2609.06128) | — |
 | **P0 · Strong** | **Poseidon: DAG-Guided Parallelism Search for LLM Pre-Training on Heterogeneous Clusters** | arXiv 2026 | distributed training/inference / heterogeneous clusters / parallelism search | [Link](https://arxiv.org/abs/2609.06086) | — |
 | **P0 · Strong** | **ACE: Adapter Consolidation across Experts for Parameter-Efficient Fine-Tuning of MoE LLMs** | arXiv 2026 | MoE systems/accelerators / distributed training / PEFT | [Link](https://arxiv.org/abs/2609.06072) | [Repo](https://github.com/UbiquitousAILab/ACE) |
 | **P1 · Watch** | **RAGMark: A Comprehensive Framework for Benchmarking Retrieval-Augmented Generation Systems** | arXiv 2026 | LLM serving / RAG systems / benchmarking | [Link](https://arxiv.org/abs/2609.05760) | [Repo](https://github.com/zferic/RAGMark) |
@@ -29,6 +30,7 @@
 | **P0 · Strong** | **Atlas: Optimizing Deployment of Compound AI Workflows on Heterogeneous Clusters** | arXiv 2026 | distributed inference / compound AI serving / heterogeneous clusters / SLO-aware deployment optimization | [Link](https://arxiv.org/abs/2609.04513) | — |
 | **P0 · Strong** | **Tuning Collective Patterns to Alleviate Congestion in Shared AI Clusters** | arXiv 2026 | distributed training/inference / AI-cluster networking / collectives | [Link](https://arxiv.org/abs/2609.04417) | — |
 | **P0 · Strong** | **Para-Pipe: Exploiting Hierarchical Operator Parallelism of ML Computational Graphs on SoCs** | IEEE TCAD 2025 | edge/cloud/heterogeneous AI systems / SoC mapping / operator parallelism | [Link](https://arxiv.org/abs/2609.04168) | — |
+| **P0 · Strong** | **sp-DBA: a general framework for adaptive transform-domain computation** | arXiv 2026 | GPU kernel/DSL/compilers / distributed GPU runtime / adaptive FFT computation / scientific AI infrastructure | [Link](https://arxiv.org/abs/2609.03922) | — |
 | **P0 · Strong** | **Every Kernel Is a Join: Automatic Multi-GPU Parallelism for AI Computations in Einsummable** | arXiv 2026 | distributed training/inference / GPU systems / compiler | [Link](https://arxiv.org/abs/2609.03905) | — |
 | **P1 · Watch** | **Flip, Don't Shuffle: Watermarking LLMs at the Speed of Inference** | arXiv 2026 | LLM serving / inference kernel / watermarking overhead | [Link](https://arxiv.org/abs/2609.03844) | — |
 | **P0 · Strong** | **RASER: Resilient Agent Scheduling and Execution Runtime for HPC Clusters** | CoRR 2026 | efficient reasoning/agent systems / HPC scheduling / resilient runtime | [Link](https://arxiv.org/abs/2609.03598) | — |

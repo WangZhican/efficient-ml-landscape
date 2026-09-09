@@ -1,10 +1,10 @@
 # 14 · VLA / WAM / Physical AI
 
-> **129 canonical papers** mapped here, plus a broader **109-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **129 canonical papers** mapped here, plus a broader **111-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 109 tracked
+## 🆕 Latest 30 Days · 111 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -24,6 +24,7 @@
 | **P1 · Watch** | **One MLLM, One Call: Efficient Zero-Shot Vision-and-Language Navigation via Spatial-Aware Waypoints** | arXiv 2026 | VLA/WAM/Physical AI serving / VLN / sparse MLLM invocation / robot navigation | [Link](https://arxiv.org/abs/2609.06476) | — |
 | **P0 · Strong** | **GloVLA: Let Geometry Move and Local VLA Interact for Robust Object-Centric Manipulation in Unstructured Environments** | arXiv 2026 | VLA/WAM/Physical AI serving / hybrid control / inference reduction | [Link](https://arxiv.org/abs/2609.06256) | [Repo](https://glovla-project.github.io/) |
 | **P1 · Watch** | **LayerRoute: Action-Conditioned Mixture-of-Layers Routing for Vision-Language-Action Policies** | arXiv 2026 | VLA/WAM/Physical AI serving / adaptive layer routing / cached VLM representations | [Link](https://arxiv.org/abs/2609.06079) | — |
+| **P1 · Watch** | **NSFlow: End-to-End Differentiable Neuro-Symbolic Optical Flow for Visual Odometry** | arXiv 2026 | VLA/WAM/Physical AI serving / embedded visual odometry / realtime perception / efficient robotics | [Link](https://arxiv.org/abs/2609.06074) | — |
 | **P1 · Watch** | **FALCON-S: Fixed-wing ground-effect Aerodynamics Simulator and Flight Control Learning Suite** | arXiv 2026 | VLA/WAM/Physical AI serving / GPU simulation / robot learning | [Link](https://arxiv.org/abs/2609.06046) | — |
 | **P1 · Watch** | **CR-VLA-Force: Learning Control-aware Compliance VLA Model for Robust Contact-rich Robotic Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving / multimodal MoE / reactive control | [Link](https://arxiv.org/abs/2609.05832) | — |
 | **P0 · Strong** | **SceneMosaic: Efficient and Diverse Simulation-Ready Scene Generation via Hybrid Agentic Layout Evolution** | arXiv 2026 | VLA/WAM/Physical AI serving / simulation infrastructure / agentic generation | [Link](https://arxiv.org/abs/2609.05594) | [Repo](https://github.com/rxjfighting/SceneMosaic) |
@@ -43,6 +44,7 @@
 | **P1 · Watch** | **Scaling Bimanual Household Manipulation from 1,500 hours of Demonstrations to On-Policy Corrections** | arXiv 2026 | VLA/WAM/Physical AI serving / bimanual manipulation / data pipeline / training efficiency | [Link](https://arxiv.org/abs/2609.03591) | — |
 | **P1 · Watch** | **Building Pretraining Data for World Models: An Unreal Engine-Based Pipeline for Action-Conditioned Video Generation** | arXiv 2026 | VLA/WAM/Physical AI serving / world-model infrastructure / distributed data pipeline | [Link](https://arxiv.org/abs/2609.03557) | — |
 | **P0 · Strong** | **Following a Unique Path: A Fast Certifier Applied to Outlier-Robust Pose Registration** | arXiv 2026 | VLA/WAM/Physical AI serving / robotic perception / optimization runtime | [Link](https://arxiv.org/abs/2609.03222) | — |
+| **P1 · Watch** | **Sensing Which Modality Matters: Evidence-Gated Regularization for Robust VLA Policies** | arXiv 2026 | VLA/WAM/Physical AI serving / multimodal robustness / zero-overhead inference / sensor fusion | [Link](https://arxiv.org/abs/2609.03142) | — |
 | **P1 · Watch** | **GPU-Accelerated Astrodynamics World Models for Spacecraft Rendezvous and Proximity Operations** | arXiv 2026 | VLA/WAM/Physical AI serving / world models / GPU simulation | [Link](https://arxiv.org/abs/2609.03067) | — |
 | **P1 · Watch** | **SolarWM: Open Data and Scalable Training for Long-Horizon Video World Models** | arXiv 2026 | VLA/WAM/Physical AI serving / world-model infrastructure / long-horizon inference | [Link](https://arxiv.org/abs/2609.02886) | — |
 | **P1 · Watch** | **HINT: Human-Intent Inception for Long-Horizon Robot Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving / sparse semantic reasoning / low-latency control | [Link](https://arxiv.org/abs/2609.02653) | [Repo](https://robot-hint.github.io/) |
