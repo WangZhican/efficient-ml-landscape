@@ -2376,6 +2376,27 @@
     ]
   },
   {
+    "title": "ActionSplice: In-Flight Action Editing for Interactive World Models",
+    "venue": "arXiv 2026",
+    "topic": "VLA/WAM/Physical AI serving / interactive world models / inference runtime",
+    "arxiv": "2609.08230",
+    "doi": "",
+    "official_id": "arXiv:2609.08230",
+    "paper_url": "https://arxiv.org/abs/2609.08230",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "ActionSplice transports the interrupted backbone-native state to the revised-action state without rolling back completed solver evaluations. Across minWM-Wan Action2V and HY-WM1.5, temporal splicing provides 2.73x and 1.69x pixel-ready speedups over waiting while substantially reducing rollback-relative perceptual error.",
+    "published_at": "2026-09-08T04:21:36Z",
+    "updated_at": "2026-09-08T04:21:36Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Adaptive Context Parallelism for Production LLM Serving",
     "venue": "arXiv 2026",
     "topic": "LLM serving / context parallelism / adaptive placement / prefix cache / cluster reconfiguration",
@@ -3513,6 +3534,27 @@
     ]
   },
   {
+    "title": "GloVLA: Let Geometry Move and Local VLA Interact for Robust Object-Centric Manipulation in Unstructured Environments",
+    "venue": "arXiv 2026",
+    "topic": "VLA/WAM/Physical AI serving / hybrid control / inference reduction",
+    "arxiv": "2609.06256",
+    "doi": "",
+    "official_id": "arXiv:2609.06256",
+    "paper_url": "https://arxiv.org/abs/2609.06256",
+    "code_url": "https://glovla-project.github.io/",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "GloVLA separates global geometric transport from short-horizon local VLA interaction. On physical UR10e tasks it raises success from 35.6% to 90.0% while more than halving mean VLA inference time, directly reducing expensive VLA invocation along the trajectory.",
+    "published_at": "2026-09-05T20:48:14Z",
+    "updated_at": "2026-09-05T20:48:14Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Grid Games: The Power of Multiple Grids for Quantizing Large Language Models",
     "venue": "arXiv 2026",
     "topic": "LLM quantization; microscaled FP4; adaptive grids; hardware data formats",
@@ -3726,6 +3768,26 @@
     "tracking_tier": "Canonical",
     "directions": [
       "KV Cache / Long Context"
+    ]
+  },
+  {
+    "title": "HoneyRoute: Honeypot-Model Routing for Adversarial LLM Serving",
+    "venue": "arXiv 2026",
+    "topic": "LLM serving / routing / security-aware inference",
+    "arxiv": "2609.08306",
+    "doi": "",
+    "official_id": "arXiv:2609.08306",
+    "paper_url": "https://arxiv.org/abs/2609.08306",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "HoneyRoute adds a lightweight serving router that diverts malicious requests to a honeypot model. It achieves F1=.911 with 38 ms median added latency, approximately 1/385 the latency of a two-tier guard-LLM cascade, while reducing production-model token consumption by 97.8% under adversarial flooding.",
+    "published_at": "2026-09-08T06:26:46Z",
+    "updated_at": "2026-09-08T06:26:46Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving"
     ]
   },
   {
@@ -4352,6 +4414,27 @@
     ]
   },
   {
+    "title": "MINT: A Unified Model for World-Space Camera and Hand Motion Estimation from Scalable Egocentric Pipeline Supervision",
+    "venue": "arXiv 2026",
+    "topic": "VLA/WAM/Physical AI serving / egocentric perception / unified inference",
+    "arxiv": "2609.04958",
+    "doi": "",
+    "official_id": "arXiv:2609.04958",
+    "paper_url": "https://arxiv.org/abs/2609.04958",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "MINT replaces a multi-stage camera/depth/hand trajectory pipeline with one shared spatiotemporal model and explicit coordinate transforms. It approaches state of the art on public benchmarks while achieving a 3.67x end-to-end speedup over the labeling pipeline that supervises it.",
+    "published_at": "2026-09-04T10:05:11Z",
+    "updated_at": "2026-09-08T08:22:56Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Mix-Quant: Quantized Prefilling, Precise Decoding for Agentic LLMs",
     "venue": "arXiv 2026",
     "topic": "agentic LLM inference; quantized prefill; NVFP4; prefill-decode disaggregation",
@@ -4679,6 +4762,27 @@
       "LLM Serving",
       "MoE Systems / Accelerators",
       "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "Parallelism Strategy Chaining for Fast Training Convergence",
+    "venue": "arXiv 2026",
+    "topic": "distributed training/inference / parallelism / online adaptation",
+    "arxiv": "2609.07236",
+    "doi": "",
+    "official_id": "arXiv:2609.07236",
+    "paper_url": "https://arxiv.org/abs/2609.07236",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "CONA observes that the best data/tensor/pipeline strategy changes during training and switches strategies online using a throughput-and-gradient surrogate. Across GPT-3 1.3B, BERT-Large and Llama-3.2-1B it reaches target perplexity 1.4-9.6x faster than prior strategy-selection methods.",
+    "published_at": "2026-09-07T08:55:14Z",
+    "updated_at": "2026-09-07T08:55:14Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference"
     ]
   },
   {
@@ -5252,6 +5356,30 @@
     ]
   },
   {
+    "title": "SceneMosaic: Efficient and Diverse Simulation-Ready Scene Generation via Hybrid Agentic Layout Evolution",
+    "venue": "arXiv 2026",
+    "topic": "VLA/WAM/Physical AI serving / simulation infrastructure / agentic generation",
+    "arxiv": "2609.05594",
+    "doi": "",
+    "official_id": "arXiv:2609.05594",
+    "paper_url": "https://arxiv.org/abs/2609.05594",
+    "code_url": "https://github.com/rxjfighting/SceneMosaic",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "SceneMosaic combines an image-based prior with local VLM-agent evolution and Cartesian composition. On SceneEval-100 it matches the strongest agentic baseline in semantic layout quality with a 24x speedup while reducing physical violations, making it strong embodied-simulation generation infrastructure.",
+    "published_at": "2026-09-04T17:45:52Z",
+    "updated_at": "2026-09-04T17:45:52Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
+      "Video / Image Generation",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Scheduling Mixed RL Rollouts Beyond Prefix Locality",
     "venue": "arXiv 2026",
     "topic": "LLM serving / RL rollout scheduling / KV-cache capacity allocation",
@@ -5361,6 +5489,26 @@
     "directions": [
       "LLM Serving",
       "Multimodal / MLLM Serving"
+    ]
+  },
+  {
+    "title": "Sharing a Fabric with Collective Communication: Two Storage Penalties in Deep Learning Training",
+    "venue": "arXiv 2026",
+    "topic": "distributed training/inference / storage / collective communication",
+    "arxiv": "2609.06506",
+    "doi": "",
+    "official_id": "arXiv:2609.06506",
+    "paper_url": "https://arxiv.org/abs/2609.06506",
+    "code_url": "https://github.com/flux-framework/dyad",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "This work isolates DataLoader stalls and collective contention when storage I/O shares the training fabric with NCCL/RCCL. Node-local NVMe staging via DYAD removes both effects, yielding a 7.4x epoch speedup over direct Lustre reads and 1.31x over VAST after cache warmup.",
+    "published_at": "2026-09-06T09:46:19Z",
+    "updated_at": "2026-09-06T09:46:19Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Distributed Training / Inference"
     ]
   },
   {
@@ -5628,6 +5776,27 @@
     "directions": [
       "Video / Image Generation",
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "TFTrack: A Template-Free Framework for Efficient 3D Point Cloud Tracking",
+    "venue": "arXiv 2026",
+    "topic": "VLA/WAM/Physical AI serving / efficient perception / 3D tracking",
+    "arxiv": "2609.07738",
+    "doi": "",
+    "official_id": "arXiv:2609.07738",
+    "paper_url": "https://arxiv.org/abs/2609.07738",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "TFTrack removes redundant template-search pair processing and complex motion modeling from 3D single-object tracking. On KITTI and nuScenes it remains competitive while reducing FLOPs by about 50% and running at about 120 FPS, directly supporting real-time robotic perception.",
+    "published_at": "2026-09-07T16:43:18Z",
+    "updated_at": "2026-09-07T16:43:18Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "VLA / WAM / Physical AI"
     ]
   },
   {
