@@ -3863,10 +3863,10 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "PROMOTE_STRONG",
     "why": "Direct runtime-scheduling systems paper, accepted by IEEE Embedded Systems Letters. MeanField surrogate models concurrent LLM+vision inference with approximately linear profiling growth; scheduler handles 78,732 feasible N=5 configurations, stays within 0.10% of exhaustive search with zero SLA violations, and makes decisions at 26 ms median, about 5x faster than exhaustive surrogate search.",
-    "published_at": "2026-09-02T04:52:22Z",
-    "updated_at": "2026-09-02T04:52:22Z",
-    "is_latest_30d": true,
-    "tracking_tier": "P0 · Strong",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving",
       "GPU Kernel / DSL / Compiler",
@@ -3893,6 +3893,27 @@
       "LLM Serving",
       "Efficient Reasoning / Agents",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "MemoryLACE: Memory Lifecycle-Aware Consolidation and Evidence Retrieval",
+    "venue": "arXiv 2026",
+    "topic": "efficient reasoning/agent systems / long-term agent memory / runtime efficiency",
+    "arxiv": "2609.03201",
+    "doi": "",
+    "official_id": "arXiv:2609.03201",
+    "paper_url": "https://arxiv.org/abs/2609.03201",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Lifecycle-aware sparse merge/supersession/contradiction memory for long-term LLM agents. On BEAM it reports 66.6% lower end-to-end runtime than Hindsight while improving same-backbone quality, making it a direct agent-memory runtime result rather than only a memory-quality method.",
+    "published_at": "2026-09-02T22:33:51Z",
+    "updated_at": "2026-09-02T22:33:51Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Sparsity / Pruning",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -3972,10 +3993,10 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "PROMOTE_STRONG",
     "why": "Direct LLM-serving/KV systems contribution. Derives a mean-field closed-form limit and practical LRU KV-cache hit-ratio estimator for growing multi-turn prefixes, then validates the estimator with real Qwen3-8B serving experiments on Ascend NPUs; useful for HBM capacity provisioning rather than a purely abstract cache model.",
-    "published_at": "2026-09-02T02:57:16Z",
-    "updated_at": "2026-09-02T02:57:16Z",
-    "is_latest_30d": true,
-    "tracking_tier": "P0 · Strong",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context"
@@ -4165,10 +4186,10 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "PROMOTE_STRONG",
     "why": "PILL removes preset-length search and avoids repeated multi-step denoising confidence probes for DLM infilling; across five DLMs and eight benchmarks it improves quality while running 1.82x faster than the strongest dynamic-length baseline.",
-    "published_at": "2026-09-02T04:52:01Z",
-    "updated_at": "2026-09-02T04:52:01Z",
-    "is_latest_30d": true,
-    "tracking_tier": "P0 · Strong",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
     "directions": [
       "Diffusion / Flow Acceleration"
     ]
@@ -4426,10 +4447,10 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "PROMOTE_STRONG",
     "why": "Direct heterogeneous-GPU acceleration contribution that repurposes RT cores for exact high-dimensional similarity search with CUDA refinement, batching, shared-memory tiling and compressed result masks; reports up to 8.37x over competitive GPU algorithms and up to 2368.26x over brute force across six real-world datasets.",
-    "published_at": "2026-09-02T01:17:22Z",
-    "updated_at": "2026-09-02T01:17:22Z",
-    "is_latest_30d": true,
-    "tracking_tier": "P0 · Strong",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving",
       "GPU Kernel / DSL / Compiler",
@@ -7290,10 +7311,10 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "PROMOTE_STRONG",
     "why": "Direct long-context inference acceleration. Structural proxy removes JSD routing overhead and sink-aware threshold avoids long-context background-noise accumulation; reports up to 5.30x attention speedup at 512K tokens while matching or exceeding dense attention on retrieval-heavy benchmarks.",
-    "published_at": "2026-09-01T22:49:46Z",
-    "updated_at": "2026-09-01T22:49:46Z",
-    "is_latest_30d": true,
-    "tracking_tier": "P0 · Strong",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context",
@@ -7846,10 +7867,10 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "PROMOTE_STRONG",
     "why": "Direct diffusion inference acceleration. Self-recovering progressive-resolution transition reduces end-to-end latency by 41.5% on FLUX.2-Klein and 44.1% on Z-Image-Turbo; combined with timestep distillation reports 29.61x/19.21x speedups over corresponding 50-step models while preserving competitive quality.",
-    "published_at": "2026-09-02T03:07:42Z",
-    "updated_at": "2026-09-02T03:07:42Z",
-    "is_latest_30d": true,
-    "tracking_tier": "P0 · Strong",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
     "directions": [
       "Diffusion / Flow Acceleration"
     ]

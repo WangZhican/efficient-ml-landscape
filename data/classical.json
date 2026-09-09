@@ -3460,6 +3460,28 @@
     ]
   },
   {
+    "title": "MeanField Surrogate Modeling for Scalable Runtime Scheduling of Concurrent Heterogeneous AI Inference on Shared GPUs",
+    "venue": "arXiv 2026",
+    "topic": "edge/cloud/heterogeneous AI systems / GPU scheduling / concurrent inference",
+    "arxiv": "2609.02109",
+    "doi": "",
+    "official_id": "arXiv:2609.02109",
+    "paper_url": "https://arxiv.org/abs/2609.02109",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Direct runtime-scheduling systems paper, accepted by IEEE Embedded Systems Letters. MeanField surrogate models concurrent LLM+vision inference with approximately linear profiling growth; scheduler handles 78,732 feasible N=5 configurations, stays within 0.10% of exhaustive search with zero SLA violations, and makes decisions at 26 ms median, about 5x faster than exhaustive surrogate search.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Mix-Quant: Quantized Prefilling, Precise Decoding for Agentic LLMs",
     "venue": "arXiv 2026",
     "topic": "agentic LLM inference; quantized prefill; NVFP4; prefill-decode disaggregation",
@@ -3501,6 +3523,27 @@
       "Quantization",
       "Sparsity / Pruning",
       "MoE Systems / Accelerators"
+    ]
+  },
+  {
+    "title": "Multi-Turn LLM Conversations under the Least-Recently-Used Policy: Mean-Field Asymptotics and Hit Ratio Approximation",
+    "venue": "arXiv 2026",
+    "topic": "LLM serving / KV cache / multi-turn conversations / cache provisioning",
+    "arxiv": "2609.02027",
+    "doi": "",
+    "official_id": "arXiv:2609.02027",
+    "paper_url": "https://arxiv.org/abs/2609.02027",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Direct LLM-serving/KV systems contribution. Derives a mean-field closed-form limit and practical LRU KV-cache hit-ratio estimator for growing multi-turn prefixes, then validates the estimator with real Qwen3-8B serving experiments on Ascend NPUs; useful for HBM capacity provisioning rather than a purely abstract cache model.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context"
     ]
   },
   {
@@ -3673,6 +3716,26 @@
       "LLM Serving",
       "MoE Systems / Accelerators",
       "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "Predict, Don't Iterate: Efficient Adaptive-Length Infilling for Diffusion Language Models",
+    "venue": "arXiv 2026",
+    "topic": "diffusion language models / inference acceleration / adaptive decoding",
+    "arxiv": "2609.02108",
+    "doi": "",
+    "official_id": "arXiv:2609.02108",
+    "paper_url": "https://arxiv.org/abs/2609.02108",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "PILL removes preset-length search and avoids repeated multi-step denoising confidence probes for DLM infilling; across five DLMs and eight benchmarks it improves quality while running 1.82x faster than the strongest dynamic-length baseline.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
@@ -3891,6 +3954,28 @@
     "tracking_tier": "Canonical",
     "directions": [
       "KV Cache / Long Context"
+    ]
+  },
+  {
+    "title": "RT-HiSS: Ray Tracing Accelerated High Dimensional Vector Similarity Searches",
+    "venue": "arXiv 2026",
+    "topic": "GPU kernel/accelerators / vector search / heterogeneous GPU cores",
+    "arxiv": "2609.01975",
+    "doi": "",
+    "official_id": "arXiv:2609.01975",
+    "paper_url": "https://arxiv.org/abs/2609.01975",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Direct heterogeneous-GPU acceleration contribution that repurposes RT cores for exact high-dimensional similarity search with CUDA refinement, batching, shared-memory tiling and compressed result masks; reports up to 8.37x over competitive GPU algorithms and up to 2368.26x over brute force across six real-world datasets.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -6478,6 +6563,29 @@
     ]
   },
   {
+    "title": "CRISP: Cliff-awaRe Input-adaptive Sparse Prefilling with Structural-Mass-Motivated Routing",
+    "venue": "CoRR 2026",
+    "topic": "efficient attention / sparse prefilling / long-context LLM inference / routing",
+    "arxiv": "2609.01925",
+    "doi": "",
+    "official_id": "2609.01925",
+    "paper_url": "https://arxiv.org/abs/2609.01925",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Direct long-context inference acceleration. Structural proxy removes JSD routing overhead and sink-aware threshold avoids long-context background-noise accumulation; reports up to 5.30x attention speedup at 512K tokens while matching or exceeding dense attention on retrieval-heavy benchmarks.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Efficient Attention"
+    ]
+  },
+  {
     "title": "DeltaServe: Host-Agnostic Co-Serving of Inference and Fine-Tuning for LLMs",
     "venue": "CoRR 2026",
     "topic": "LLM serving / inference-training co-serving / LoRA / SLO-aware scheduling / GPU utilization",
@@ -6919,6 +7027,26 @@
       "LLM Serving",
       "MoE Systems / Accelerators",
       "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "SelfLift: Accelerating Few-Step Diffusion via Self-Recovering Resolution Transition",
+    "venue": "CoRR 2026",
+    "topic": "diffusion/flow acceleration / progressive resolution / few-step generation",
+    "arxiv": "2609.02036",
+    "doi": "",
+    "official_id": "2609.02036",
+    "paper_url": "https://arxiv.org/abs/2609.02036",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Direct diffusion inference acceleration. Self-recovering progressive-resolution transition reduces end-to-end latency by 41.5% on FLUX.2-Klein and 44.1% on Z-Image-Turbo; combined with timestep distillation reports 29.61x/19.21x speedups over corresponding 50-step models while preserving competitive quality.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Diffusion / Flow Acceleration"
     ]
   },
   {

@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-09",
   "window_start_beijing": "2026-08-10",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 427,
+  "tracked_total": 425,
   "p0_strong_or_canonical": [
     {
       "title": "Don't Drop Dropout: Optimizing Layer Sparsity for Efficient LLM Training and Inference",
@@ -785,6 +785,27 @@
       ]
     },
     {
+      "title": "MemoryLACE: Memory Lifecycle-Aware Consolidation and Evidence Retrieval",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / long-term agent memory / runtime efficiency",
+      "arxiv": "2609.03201",
+      "doi": "",
+      "official_id": "arXiv:2609.03201",
+      "paper_url": "https://arxiv.org/abs/2609.03201",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Lifecycle-aware sparse merge/supersession/contradiction memory for long-term LLM agents. On BEAM it reports 66.6% lower end-to-end runtime than Hindsight while improving same-backbone quality, making it a direct agent-memory runtime result rather than only a memory-quality method.",
+      "published_at": "2026-09-02T22:33:51Z",
+      "updated_at": "2026-09-02T22:33:51Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Sparsity / Pruning",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Jina-OCR-v1: Efficient Document Parsing with Speculative Decoding and Dense Verifiable Rewards",
       "venue": "arXiv 2026",
       "topic": "multimodal/MLLM serving / speculative decoding / efficient OCR",
@@ -1068,134 +1089,6 @@
         "Quantization",
         "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "MeanField Surrogate Modeling for Scalable Runtime Scheduling of Concurrent Heterogeneous AI Inference on Shared GPUs",
-      "venue": "arXiv 2026",
-      "topic": "edge/cloud/heterogeneous AI systems / GPU scheduling / concurrent inference",
-      "arxiv": "2609.02109",
-      "doi": "",
-      "official_id": "arXiv:2609.02109",
-      "paper_url": "https://arxiv.org/abs/2609.02109",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Direct runtime-scheduling systems paper, accepted by IEEE Embedded Systems Letters. MeanField surrogate models concurrent LLM+vision inference with approximately linear profiling growth; scheduler handles 78,732 feasible N=5 configurations, stays within 0.10% of exhaustive search with zero SLA violations, and makes decisions at 26 ms median, about 5x faster than exhaustive surrogate search.",
-      "published_at": "2026-09-02T04:52:22Z",
-      "updated_at": "2026-09-02T04:52:22Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "GPU Kernel / DSL / Compiler",
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "Predict, Don't Iterate: Efficient Adaptive-Length Infilling for Diffusion Language Models",
-      "venue": "arXiv 2026",
-      "topic": "diffusion language models / inference acceleration / adaptive decoding",
-      "arxiv": "2609.02108",
-      "doi": "",
-      "official_id": "arXiv:2609.02108",
-      "paper_url": "https://arxiv.org/abs/2609.02108",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "PILL removes preset-length search and avoids repeated multi-step denoising confidence probes for DLM infilling; across five DLMs and eight benchmarks it improves quality while running 1.82x faster than the strongest dynamic-length baseline.",
-      "published_at": "2026-09-02T04:52:01Z",
-      "updated_at": "2026-09-02T04:52:01Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "Diffusion / Flow Acceleration"
-      ]
-    },
-    {
-      "title": "SelfLift: Accelerating Few-Step Diffusion via Self-Recovering Resolution Transition",
-      "venue": "CoRR 2026",
-      "topic": "diffusion/flow acceleration / progressive resolution / few-step generation",
-      "arxiv": "2609.02036",
-      "doi": "",
-      "official_id": "2609.02036",
-      "paper_url": "https://arxiv.org/abs/2609.02036",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Direct diffusion inference acceleration. Self-recovering progressive-resolution transition reduces end-to-end latency by 41.5% on FLUX.2-Klein and 44.1% on Z-Image-Turbo; combined with timestep distillation reports 29.61x/19.21x speedups over corresponding 50-step models while preserving competitive quality.",
-      "published_at": "2026-09-02T03:07:42Z",
-      "updated_at": "2026-09-02T03:07:42Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "Diffusion / Flow Acceleration"
-      ]
-    },
-    {
-      "title": "Multi-Turn LLM Conversations under the Least-Recently-Used Policy: Mean-Field Asymptotics and Hit Ratio Approximation",
-      "venue": "arXiv 2026",
-      "topic": "LLM serving / KV cache / multi-turn conversations / cache provisioning",
-      "arxiv": "2609.02027",
-      "doi": "",
-      "official_id": "arXiv:2609.02027",
-      "paper_url": "https://arxiv.org/abs/2609.02027",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Direct LLM-serving/KV systems contribution. Derives a mean-field closed-form limit and practical LRU KV-cache hit-ratio estimator for growing multi-turn prefixes, then validates the estimator with real Qwen3-8B serving experiments on Ascend NPUs; useful for HBM capacity provisioning rather than a purely abstract cache model.",
-      "published_at": "2026-09-02T02:57:16Z",
-      "updated_at": "2026-09-02T02:57:16Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "KV Cache / Long Context"
-      ]
-    },
-    {
-      "title": "RT-HiSS: Ray Tracing Accelerated High Dimensional Vector Similarity Searches",
-      "venue": "arXiv 2026",
-      "topic": "GPU kernel/accelerators / vector search / heterogeneous GPU cores",
-      "arxiv": "2609.01975",
-      "doi": "",
-      "official_id": "arXiv:2609.01975",
-      "paper_url": "https://arxiv.org/abs/2609.01975",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Direct heterogeneous-GPU acceleration contribution that repurposes RT cores for exact high-dimensional similarity search with CUDA refinement, batching, shared-memory tiling and compressed result masks; reports up to 8.37x over competitive GPU algorithms and up to 2368.26x over brute force across six real-world datasets.",
-      "published_at": "2026-09-02T01:17:22Z",
-      "updated_at": "2026-09-02T01:17:22Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "GPU Kernel / DSL / Compiler",
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "CRISP: Cliff-awaRe Input-adaptive Sparse Prefilling with Structural-Mass-Motivated Routing",
-      "venue": "CoRR 2026",
-      "topic": "efficient attention / sparse prefilling / long-context LLM inference / routing",
-      "arxiv": "2609.01925",
-      "doi": "",
-      "official_id": "2609.01925",
-      "paper_url": "https://arxiv.org/abs/2609.01925",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Direct long-context inference acceleration. Structural proxy removes JSD routing overhead and sink-aware threshold avoids long-context background-noise accumulation; reports up to 5.30x attention speedup at 512K tokens while matching or exceeding dense attention on retrieval-heavy benchmarks.",
-      "published_at": "2026-09-01T22:49:46Z",
-      "updated_at": "2026-09-01T22:49:46Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "KV Cache / Long Context",
-        "Sparsity / Pruning",
-        "Efficient Attention"
       ]
     },
     {
@@ -2543,6 +2436,28 @@
       ]
     },
     {
+      "title": "LookThere! Sparse Vision by Reinforced Selection",
+      "venue": "arXiv 2026",
+      "topic": "sparsity/pruning / adaptive vision inference / edge-efficient perception",
+      "arxiv": "2609.04698",
+      "doi": "",
+      "official_id": "arXiv:2609.04698",
+      "paper_url": "https://arxiv.org/abs/2609.04698",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "End-to-end learned selector/extractor achieves a new performance-compute Pareto frontier and can retain accuracy with as little as 0.2% of the input on sparse high-resolution tasks, generalizing across classification, segmentation and regression. Strong adaptive-compute signal, but primarily a vision algorithm rather than AI-infra/serving system, so keep as high-value watch.",
+      "published_at": "2026-09-04T04:00:43Z",
+      "updated_at": "2026-09-04T04:00:43Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Importance-Aware Low-Rank Distillation of Diffusion Transformers",
       "venue": "arXiv 2026",
       "topic": "diffusion/flow acceleration / model compression",
@@ -2858,6 +2773,52 @@
       ]
     },
     {
+      "title": "RVSD: Retrieval Vision Sparse Decoding for Mitigating Visual Hallucinations in Large Vision-Language Models",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / sparse decoding / visual token retrieval",
+      "arxiv": "2609.02731",
+      "doi": "",
+      "official_id": "arXiv:2609.02731",
+      "paper_url": "https://arxiv.org/abs/2609.02731",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Training-free single-pass LVLM decoding combines semantics-directed visual-token sparsification with on-demand semantic-space visual retrieval, explicitly avoiding multi-round decoding overhead while retaining long-context hallucination suppression. Relevant inference design, but current public evidence is quality-centric and lacks hard end-to-end latency/throughput gains.",
+      "published_at": "2026-09-02T15:40:40Z",
+      "updated_at": "2026-09-02T15:40:40Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Sparsity / Pruning",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "HINT: Human-Intent Inception for Long-Horizon Robot Manipulation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / sparse semantic reasoning / low-latency control",
+      "arxiv": "2609.02653",
+      "doi": "",
+      "official_id": "arXiv:2609.02653",
+      "paper_url": "https://arxiv.org/abs/2609.02653",
+      "code_url": "https://robot-hint.github.io/",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Invokes semantic reasoning only at manipulation-pattern transitions, then uses continuous multi-view grounding/tracking, with no added trainable parameters in the foundation action model and reported low-latency control across two policies. Strong protected Physical-AI efficiency signal, but the paper does not yet provide sufficiently detailed systems latency/throughput evidence for canonical-high.",
+      "published_at": "2026-09-02T14:26:30Z",
+      "updated_at": "2026-09-02T14:26:30Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Quality Recovery for Quantized KV Caches via Low-Rank Attention Adaptation",
       "venue": "arXiv 2026",
       "topic": "KV cache / quantization / long-context inference / low-rank adaptation",
@@ -3005,115 +2966,6 @@
       "directions": [
         "Sparsity / Pruning",
         "Diffusion / Flow Acceleration"
-      ]
-    },
-    {
-      "title": "XMerge: Cross-Axis Selection and Reconstructive Layer Merging for LLM Depth Compression",
-      "venue": "arXiv 2026",
-      "topic": "sparsity/pruning / LLM compression / serving",
-      "arxiv": "2609.02083",
-      "doi": "",
-      "official_id": "arXiv:2609.02083",
-      "paper_url": "https://arxiv.org/abs/2609.02083",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "XMerge removes complete transformer layers while preserving the standard serving architecture and reconstructs local boundaries to reduce quality loss. It reports decode savings sufficient to amortize construction cost after tens of thousands of requests, but lacks a strong end-to-end production serving benchmark.",
-      "published_at": "2026-09-02T04:12:44Z",
-      "updated_at": "2026-09-02T04:12:44Z",
-      "is_latest_30d": true,
-      "directions": [
-        "LLM Serving",
-        "Sparsity / Pruning"
-      ]
-    },
-    {
-      "title": "Modeling What Changes: Sparse, Residual World Models for Object-Centric Manipulation",
-      "venue": "arXiv 2026",
-      "topic": "VLA/WAM/Physical AI serving / sparse world models / object-centric prediction",
-      "arxiv": "2609.02046",
-      "doi": "",
-      "official_id": "arXiv:2609.02046",
-      "paper_url": "https://arxiv.org/abs/2609.02046",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "Sparse change-gated residual world model predicts only changing objects, giving 8.6-11.1x fewer parameters and 2.5-4.6x better next-state pose accuracy than a dense baseline on 3-8 object MuJoCo pushing, with lower rollout drift and cross-object-count transfer. Strong Physical-AI efficiency signal, but planning success remains early and no deployment/runtime latency is shown, so retain as protected high-value watch.",
-      "published_at": "2026-09-02T03:20:09Z",
-      "updated_at": "2026-09-02T03:20:09Z",
-      "is_latest_30d": true,
-      "directions": [
-        "LLM Serving",
-        "Sparsity / Pruning",
-        "Efficient Reasoning / Agents",
-        "VLA / WAM / Physical AI"
-      ]
-    },
-    {
-      "title": "HeadWiseKV: Budgeted Per-Head Cache Residency for Hybrid Long-Context Language Models",
-      "venue": "arXiv 2026",
-      "topic": "KV cache/long-context / LLM serving",
-      "arxiv": "2609.02029",
-      "doi": "",
-      "official_id": "arXiv:2609.02029",
-      "paper_url": "https://arxiv.org/abs/2609.02029",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "Training-free per-head KV residency allocation for hybrid long-context language models. Grouped-cache runtime physically materializes reduced per-head residency; Qwen3.6-27B systems study reports 8.59% lower sampled peak device memory at 112K context and extends verified maximum context from 114K to 161K. Directly relevant to KV-cache/long-context serving, but current systems gains are moderate, so retained as high-value watch rather than canonical-high.",
-      "published_at": "2026-09-02T02:59:11Z",
-      "updated_at": "2026-09-02T02:59:11Z",
-      "is_latest_30d": true,
-      "directions": [
-        "LLM Serving",
-        "KV Cache / Long Context",
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "Post-Training Ternarization of Qwen3-4B Capability, Effective Bit Budget, Storage Compression, and Deployment",
-      "venue": "arXiv 2026",
-      "topic": "quantization / LLM deployment / edge systems",
-      "arxiv": "2609.01962",
-      "doi": "",
-      "official_id": "arXiv:2609.01962",
-      "paper_url": "https://arxiv.org/abs/2609.01962",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "This study converts Qwen3-4B to 1.641 effective bits per quantized linear weight and packs the model from 8.29 GiB to 3.96 GiB, explicitly auditing deployment behavior. It is valuable as a negative systems result because its preliminary Triton GEMV is 4.6x slower than FP16 cuBLAS, showing storage compression does not automatically yield inference speedup.",
-      "published_at": "2026-09-02T00:42:54Z",
-      "updated_at": "2026-09-02T00:42:54Z",
-      "is_latest_30d": true,
-      "directions": [
-        "Quantization",
-        "GPU Kernel / DSL / Compiler",
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "Network-Aware Forecasting on Wireless Access Points",
-      "venue": "arXiv 2026",
-      "topic": "edge/cloud/heterogeneous AI systems / on-device inference / resource contention",
-      "arxiv": "2609.01957",
-      "doi": "",
-      "official_id": "arXiv:2609.01957",
-      "paper_url": "https://arxiv.org/abs/2609.01957",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "Useful real deployment measurement for inference sharing an enterprise AP with packet processing. Five implementations run 6.1-19.1x slower on target AP than Raspberry Pi 5; two similarly sized foundation models differ 19x in AP latency; 13-stream serving under network saturation raises p99 RTT 76% and cuts throughput 7.06%. Primarily a measurement/deployability study rather than a new runtime, so watchlist-high.",
-      "published_at": "2026-09-02T00:19:58Z",
-      "updated_at": "2026-09-02T00:19:58Z",
-      "is_latest_30d": true,
-      "directions": [
-        "LLM Serving",
-        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -4637,6 +4489,27 @@
       ]
     },
     {
+      "title": "XMerge: Cross-Axis Selection and Reconstructive Layer Merging for LLM Depth Compression",
+      "venue": "arXiv 2026",
+      "topic": "sparsity/pruning / LLM compression / serving",
+      "arxiv": "2609.02083",
+      "doi": "",
+      "official_id": "arXiv:2609.02083",
+      "paper_url": "https://arxiv.org/abs/2609.02083",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "XMerge removes complete transformer layers while preserving the standard serving architecture and reconstructs local boundaries to reduce quality loss. It reports decode savings sufficient to amortize construction cost after tens of thousands of requests, but lacks a strong end-to-end production serving benchmark.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning"
+      ]
+    },
+    {
       "title": "Which Eviction Policy Should an LLM Cache Use? A Systematic Study Across Workloads, Capacities, and Encoders",
       "venue": "",
       "topic": "LLM semantic cache / eviction policy / serving benchmark",
@@ -5479,6 +5352,28 @@
       ]
     },
     {
+      "title": "Post-Training Ternarization of Qwen3-4B Capability, Effective Bit Budget, Storage Compression, and Deployment",
+      "venue": "arXiv 2026",
+      "topic": "quantization / LLM deployment / edge systems",
+      "arxiv": "2609.01962",
+      "doi": "",
+      "official_id": "arXiv:2609.01962",
+      "paper_url": "https://arxiv.org/abs/2609.01962",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "This study converts Qwen3-4B to 1.641 effective bits per quantized linear weight and packs the model from 8.29 GiB to 3.96 GiB, explicitly auditing deployment behavior. It is valuable as a negative systems result because its preliminary Triton GEMV is 4.6x slower than FP16 cuBLAS, showing storage compression does not automatically yield inference speedup.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Pipeline-Native Transformers: Co-Designing Model Architecture and CPU Inference for Bandwidth-Efficient Autoregressive Decode",
       "venue": "",
       "topic": "LLM serving / CPU inference / architecture-runtime co-design / MoE",
@@ -5587,6 +5482,27 @@
       ]
     },
     {
+      "title": "Network-Aware Forecasting on Wireless Access Points",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / on-device inference / resource contention",
+      "arxiv": "2609.01957",
+      "doi": "",
+      "official_id": "arXiv:2609.01957",
+      "paper_url": "https://arxiv.org/abs/2609.01957",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Useful real deployment measurement for inference sharing an enterprise AP with packet processing. Five implementations run 6.1-19.1x slower on target AP than Raspberry Pi 5; two similarly sized foundation models differ 19x in AP latency; 13-stream serving under network saturation raises p99 RTT 76% and cuts throughput 7.06%. Primarily a measurement/deployability study rather than a new runtime, so watchlist-high.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "More GPUs or a Smaller Cache? Tensor Parallelism versus KV Compression for Memory-Bound LLM Serving",
       "venue": "",
       "topic": "LLM serving / KV cache / tensor parallelism / cost-performance",
@@ -5628,6 +5544,29 @@
         "MoE Systems / Accelerators",
         "GPU Kernel / DSL / Compiler",
         "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "Modeling What Changes: Sparse, Residual World Models for Object-Centric Manipulation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / sparse world models / object-centric prediction",
+      "arxiv": "2609.02046",
+      "doi": "",
+      "official_id": "arXiv:2609.02046",
+      "paper_url": "https://arxiv.org/abs/2609.02046",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Sparse change-gated residual world model predicts only changing objects, giving 8.6-11.1x fewer parameters and 2.5-4.6x better next-state pose accuracy than a dense baseline on 3-8 object MuJoCo pushing, with lower rollout drift and cross-object-count transfer. Strong Physical-AI efficiency signal, but planning success remains early and no deployment/runtime latency is shown, so retain as protected high-value watch.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -5924,6 +5863,28 @@
       "directions": [
         "LLM Serving",
         "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "HeadWiseKV: Budgeted Per-Head Cache Residency for Hybrid Long-Context Language Models",
+      "venue": "arXiv 2026",
+      "topic": "KV cache/long-context / LLM serving",
+      "arxiv": "2609.02029",
+      "doi": "",
+      "official_id": "arXiv:2609.02029",
+      "paper_url": "https://arxiv.org/abs/2609.02029",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Training-free per-head KV residency allocation for hybrid long-context language models. Grouped-cache runtime physically materializes reduced per-head residency; Qwen3.6-27B systems study reports 8.59% lower sampled peak device memory at 112K context and extends verified maximum context from 114K to 161K. Directly relevant to KV-cache/long-context serving, but current systems gains are moderate, so retained as high-value watch rather than canonical-high.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -10049,6 +10010,27 @@
       ]
     },
     {
+      "title": "MemoryLACE: Memory Lifecycle-Aware Consolidation and Evidence Retrieval",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / long-term agent memory / runtime efficiency",
+      "arxiv": "2609.03201",
+      "doi": "",
+      "official_id": "arXiv:2609.03201",
+      "paper_url": "https://arxiv.org/abs/2609.03201",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Lifecycle-aware sparse merge/supersession/contradiction memory for long-term LLM agents. On BEAM it reports 66.6% lower end-to-end runtime than Hindsight while improving same-backbone quality, making it a direct agent-memory runtime result rather than only a memory-quality method.",
+      "published_at": "2026-09-02T22:33:51Z",
+      "updated_at": "2026-09-02T22:33:51Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Sparsity / Pruning",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Jina-OCR-v1: Efficient Document Parsing with Speculative Decoding and Dense Verifiable Rewards",
       "venue": "arXiv 2026",
       "topic": "multimodal/MLLM serving / speculative decoding / efficient OCR",
@@ -10332,134 +10314,6 @@
         "Quantization",
         "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "MeanField Surrogate Modeling for Scalable Runtime Scheduling of Concurrent Heterogeneous AI Inference on Shared GPUs",
-      "venue": "arXiv 2026",
-      "topic": "edge/cloud/heterogeneous AI systems / GPU scheduling / concurrent inference",
-      "arxiv": "2609.02109",
-      "doi": "",
-      "official_id": "arXiv:2609.02109",
-      "paper_url": "https://arxiv.org/abs/2609.02109",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Direct runtime-scheduling systems paper, accepted by IEEE Embedded Systems Letters. MeanField surrogate models concurrent LLM+vision inference with approximately linear profiling growth; scheduler handles 78,732 feasible N=5 configurations, stays within 0.10% of exhaustive search with zero SLA violations, and makes decisions at 26 ms median, about 5x faster than exhaustive surrogate search.",
-      "published_at": "2026-09-02T04:52:22Z",
-      "updated_at": "2026-09-02T04:52:22Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "GPU Kernel / DSL / Compiler",
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "Predict, Don't Iterate: Efficient Adaptive-Length Infilling for Diffusion Language Models",
-      "venue": "arXiv 2026",
-      "topic": "diffusion language models / inference acceleration / adaptive decoding",
-      "arxiv": "2609.02108",
-      "doi": "",
-      "official_id": "arXiv:2609.02108",
-      "paper_url": "https://arxiv.org/abs/2609.02108",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "PILL removes preset-length search and avoids repeated multi-step denoising confidence probes for DLM infilling; across five DLMs and eight benchmarks it improves quality while running 1.82x faster than the strongest dynamic-length baseline.",
-      "published_at": "2026-09-02T04:52:01Z",
-      "updated_at": "2026-09-02T04:52:01Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "Diffusion / Flow Acceleration"
-      ]
-    },
-    {
-      "title": "SelfLift: Accelerating Few-Step Diffusion via Self-Recovering Resolution Transition",
-      "venue": "CoRR 2026",
-      "topic": "diffusion/flow acceleration / progressive resolution / few-step generation",
-      "arxiv": "2609.02036",
-      "doi": "",
-      "official_id": "2609.02036",
-      "paper_url": "https://arxiv.org/abs/2609.02036",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Direct diffusion inference acceleration. Self-recovering progressive-resolution transition reduces end-to-end latency by 41.5% on FLUX.2-Klein and 44.1% on Z-Image-Turbo; combined with timestep distillation reports 29.61x/19.21x speedups over corresponding 50-step models while preserving competitive quality.",
-      "published_at": "2026-09-02T03:07:42Z",
-      "updated_at": "2026-09-02T03:07:42Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "Diffusion / Flow Acceleration"
-      ]
-    },
-    {
-      "title": "Multi-Turn LLM Conversations under the Least-Recently-Used Policy: Mean-Field Asymptotics and Hit Ratio Approximation",
-      "venue": "arXiv 2026",
-      "topic": "LLM serving / KV cache / multi-turn conversations / cache provisioning",
-      "arxiv": "2609.02027",
-      "doi": "",
-      "official_id": "arXiv:2609.02027",
-      "paper_url": "https://arxiv.org/abs/2609.02027",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Direct LLM-serving/KV systems contribution. Derives a mean-field closed-form limit and practical LRU KV-cache hit-ratio estimator for growing multi-turn prefixes, then validates the estimator with real Qwen3-8B serving experiments on Ascend NPUs; useful for HBM capacity provisioning rather than a purely abstract cache model.",
-      "published_at": "2026-09-02T02:57:16Z",
-      "updated_at": "2026-09-02T02:57:16Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "KV Cache / Long Context"
-      ]
-    },
-    {
-      "title": "RT-HiSS: Ray Tracing Accelerated High Dimensional Vector Similarity Searches",
-      "venue": "arXiv 2026",
-      "topic": "GPU kernel/accelerators / vector search / heterogeneous GPU cores",
-      "arxiv": "2609.01975",
-      "doi": "",
-      "official_id": "arXiv:2609.01975",
-      "paper_url": "https://arxiv.org/abs/2609.01975",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Direct heterogeneous-GPU acceleration contribution that repurposes RT cores for exact high-dimensional similarity search with CUDA refinement, batching, shared-memory tiling and compressed result masks; reports up to 8.37x over competitive GPU algorithms and up to 2368.26x over brute force across six real-world datasets.",
-      "published_at": "2026-09-02T01:17:22Z",
-      "updated_at": "2026-09-02T01:17:22Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "GPU Kernel / DSL / Compiler",
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "CRISP: Cliff-awaRe Input-adaptive Sparse Prefilling with Structural-Mass-Motivated Routing",
-      "venue": "CoRR 2026",
-      "topic": "efficient attention / sparse prefilling / long-context LLM inference / routing",
-      "arxiv": "2609.01925",
-      "doi": "",
-      "official_id": "2609.01925",
-      "paper_url": "https://arxiv.org/abs/2609.01925",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "decision": "PROMOTE_STRONG",
-      "why": "Direct long-context inference acceleration. Structural proxy removes JSD routing overhead and sink-aware threshold avoids long-context background-noise accumulation; reports up to 5.30x attention speedup at 512K tokens while matching or exceeding dense attention on retrieval-heavy benchmarks.",
-      "published_at": "2026-09-01T22:49:46Z",
-      "updated_at": "2026-09-01T22:49:46Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "KV Cache / Long Context",
-        "Sparsity / Pruning",
-        "Efficient Attention"
       ]
     },
     {
@@ -11805,6 +11659,28 @@
       ]
     },
     {
+      "title": "LookThere! Sparse Vision by Reinforced Selection",
+      "venue": "arXiv 2026",
+      "topic": "sparsity/pruning / adaptive vision inference / edge-efficient perception",
+      "arxiv": "2609.04698",
+      "doi": "",
+      "official_id": "arXiv:2609.04698",
+      "paper_url": "https://arxiv.org/abs/2609.04698",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "End-to-end learned selector/extractor achieves a new performance-compute Pareto frontier and can retain accuracy with as little as 0.2% of the input on sparse high-resolution tasks, generalizing across classification, segmentation and regression. Strong adaptive-compute signal, but primarily a vision algorithm rather than AI-infra/serving system, so keep as high-value watch.",
+      "published_at": "2026-09-04T04:00:43Z",
+      "updated_at": "2026-09-04T04:00:43Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Importance-Aware Low-Rank Distillation of Diffusion Transformers",
       "venue": "arXiv 2026",
       "topic": "diffusion/flow acceleration / model compression",
@@ -12120,6 +11996,52 @@
       ]
     },
     {
+      "title": "RVSD: Retrieval Vision Sparse Decoding for Mitigating Visual Hallucinations in Large Vision-Language Models",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / sparse decoding / visual token retrieval",
+      "arxiv": "2609.02731",
+      "doi": "",
+      "official_id": "arXiv:2609.02731",
+      "paper_url": "https://arxiv.org/abs/2609.02731",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Training-free single-pass LVLM decoding combines semantics-directed visual-token sparsification with on-demand semantic-space visual retrieval, explicitly avoiding multi-round decoding overhead while retaining long-context hallucination suppression. Relevant inference design, but current public evidence is quality-centric and lacks hard end-to-end latency/throughput gains.",
+      "published_at": "2026-09-02T15:40:40Z",
+      "updated_at": "2026-09-02T15:40:40Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Sparsity / Pruning",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "HINT: Human-Intent Inception for Long-Horizon Robot Manipulation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / sparse semantic reasoning / low-latency control",
+      "arxiv": "2609.02653",
+      "doi": "",
+      "official_id": "arXiv:2609.02653",
+      "paper_url": "https://arxiv.org/abs/2609.02653",
+      "code_url": "https://robot-hint.github.io/",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Invokes semantic reasoning only at manipulation-pattern transitions, then uses continuous multi-view grounding/tracking, with no added trainable parameters in the foundation action model and reported low-latency control across two policies. Strong protected Physical-AI efficiency signal, but the paper does not yet provide sufficiently detailed systems latency/throughput evidence for canonical-high.",
+      "published_at": "2026-09-02T14:26:30Z",
+      "updated_at": "2026-09-02T14:26:30Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Quality Recovery for Quantized KV Caches via Low-Rank Attention Adaptation",
       "venue": "arXiv 2026",
       "topic": "KV cache / quantization / long-context inference / low-rank adaptation",
@@ -12267,115 +12189,6 @@
       "directions": [
         "Sparsity / Pruning",
         "Diffusion / Flow Acceleration"
-      ]
-    },
-    {
-      "title": "XMerge: Cross-Axis Selection and Reconstructive Layer Merging for LLM Depth Compression",
-      "venue": "arXiv 2026",
-      "topic": "sparsity/pruning / LLM compression / serving",
-      "arxiv": "2609.02083",
-      "doi": "",
-      "official_id": "arXiv:2609.02083",
-      "paper_url": "https://arxiv.org/abs/2609.02083",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "XMerge removes complete transformer layers while preserving the standard serving architecture and reconstructs local boundaries to reduce quality loss. It reports decode savings sufficient to amortize construction cost after tens of thousands of requests, but lacks a strong end-to-end production serving benchmark.",
-      "published_at": "2026-09-02T04:12:44Z",
-      "updated_at": "2026-09-02T04:12:44Z",
-      "is_latest_30d": true,
-      "directions": [
-        "LLM Serving",
-        "Sparsity / Pruning"
-      ]
-    },
-    {
-      "title": "Modeling What Changes: Sparse, Residual World Models for Object-Centric Manipulation",
-      "venue": "arXiv 2026",
-      "topic": "VLA/WAM/Physical AI serving / sparse world models / object-centric prediction",
-      "arxiv": "2609.02046",
-      "doi": "",
-      "official_id": "arXiv:2609.02046",
-      "paper_url": "https://arxiv.org/abs/2609.02046",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "Sparse change-gated residual world model predicts only changing objects, giving 8.6-11.1x fewer parameters and 2.5-4.6x better next-state pose accuracy than a dense baseline on 3-8 object MuJoCo pushing, with lower rollout drift and cross-object-count transfer. Strong Physical-AI efficiency signal, but planning success remains early and no deployment/runtime latency is shown, so retain as protected high-value watch.",
-      "published_at": "2026-09-02T03:20:09Z",
-      "updated_at": "2026-09-02T03:20:09Z",
-      "is_latest_30d": true,
-      "directions": [
-        "LLM Serving",
-        "Sparsity / Pruning",
-        "Efficient Reasoning / Agents",
-        "VLA / WAM / Physical AI"
-      ]
-    },
-    {
-      "title": "HeadWiseKV: Budgeted Per-Head Cache Residency for Hybrid Long-Context Language Models",
-      "venue": "arXiv 2026",
-      "topic": "KV cache/long-context / LLM serving",
-      "arxiv": "2609.02029",
-      "doi": "",
-      "official_id": "arXiv:2609.02029",
-      "paper_url": "https://arxiv.org/abs/2609.02029",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "Training-free per-head KV residency allocation for hybrid long-context language models. Grouped-cache runtime physically materializes reduced per-head residency; Qwen3.6-27B systems study reports 8.59% lower sampled peak device memory at 112K context and extends verified maximum context from 114K to 161K. Directly relevant to KV-cache/long-context serving, but current systems gains are moderate, so retained as high-value watch rather than canonical-high.",
-      "published_at": "2026-09-02T02:59:11Z",
-      "updated_at": "2026-09-02T02:59:11Z",
-      "is_latest_30d": true,
-      "directions": [
-        "LLM Serving",
-        "KV Cache / Long Context",
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "Post-Training Ternarization of Qwen3-4B Capability, Effective Bit Budget, Storage Compression, and Deployment",
-      "venue": "arXiv 2026",
-      "topic": "quantization / LLM deployment / edge systems",
-      "arxiv": "2609.01962",
-      "doi": "",
-      "official_id": "arXiv:2609.01962",
-      "paper_url": "https://arxiv.org/abs/2609.01962",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "This study converts Qwen3-4B to 1.641 effective bits per quantized linear weight and packs the model from 8.29 GiB to 3.96 GiB, explicitly auditing deployment behavior. It is valuable as a negative systems result because its preliminary Triton GEMV is 4.6x slower than FP16 cuBLAS, showing storage compression does not automatically yield inference speedup.",
-      "published_at": "2026-09-02T00:42:54Z",
-      "updated_at": "2026-09-02T00:42:54Z",
-      "is_latest_30d": true,
-      "directions": [
-        "Quantization",
-        "GPU Kernel / DSL / Compiler",
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "Network-Aware Forecasting on Wireless Access Points",
-      "venue": "arXiv 2026",
-      "topic": "edge/cloud/heterogeneous AI systems / on-device inference / resource contention",
-      "arxiv": "2609.01957",
-      "doi": "",
-      "official_id": "arXiv:2609.01957",
-      "paper_url": "https://arxiv.org/abs/2609.01957",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "Useful real deployment measurement for inference sharing an enterprise AP with packet processing. Five implementations run 6.1-19.1x slower on target AP than Raspberry Pi 5; two similarly sized foundation models differ 19x in AP latency; 13-stream serving under network saturation raises p99 RTT 76% and cuts throughput 7.06%. Primarily a measurement/deployability study rather than a new runtime, so watchlist-high.",
-      "published_at": "2026-09-02T00:19:58Z",
-      "updated_at": "2026-09-02T00:19:58Z",
-      "is_latest_30d": true,
-      "directions": [
-        "LLM Serving",
-        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -13899,6 +13712,27 @@
       ]
     },
     {
+      "title": "XMerge: Cross-Axis Selection and Reconstructive Layer Merging for LLM Depth Compression",
+      "venue": "arXiv 2026",
+      "topic": "sparsity/pruning / LLM compression / serving",
+      "arxiv": "2609.02083",
+      "doi": "",
+      "official_id": "arXiv:2609.02083",
+      "paper_url": "https://arxiv.org/abs/2609.02083",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "XMerge removes complete transformer layers while preserving the standard serving architecture and reconstructs local boundaries to reduce quality loss. It reports decode savings sufficient to amortize construction cost after tens of thousands of requests, but lacks a strong end-to-end production serving benchmark.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning"
+      ]
+    },
+    {
       "title": "Which Eviction Policy Should an LLM Cache Use? A Systematic Study Across Workloads, Capacities, and Encoders",
       "venue": "",
       "topic": "LLM semantic cache / eviction policy / serving benchmark",
@@ -14741,6 +14575,28 @@
       ]
     },
     {
+      "title": "Post-Training Ternarization of Qwen3-4B Capability, Effective Bit Budget, Storage Compression, and Deployment",
+      "venue": "arXiv 2026",
+      "topic": "quantization / LLM deployment / edge systems",
+      "arxiv": "2609.01962",
+      "doi": "",
+      "official_id": "arXiv:2609.01962",
+      "paper_url": "https://arxiv.org/abs/2609.01962",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "This study converts Qwen3-4B to 1.641 effective bits per quantized linear weight and packs the model from 8.29 GiB to 3.96 GiB, explicitly auditing deployment behavior. It is valuable as a negative systems result because its preliminary Triton GEMV is 4.6x slower than FP16 cuBLAS, showing storage compression does not automatically yield inference speedup.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Pipeline-Native Transformers: Co-Designing Model Architecture and CPU Inference for Bandwidth-Efficient Autoregressive Decode",
       "venue": "",
       "topic": "LLM serving / CPU inference / architecture-runtime co-design / MoE",
@@ -14849,6 +14705,27 @@
       ]
     },
     {
+      "title": "Network-Aware Forecasting on Wireless Access Points",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / on-device inference / resource contention",
+      "arxiv": "2609.01957",
+      "doi": "",
+      "official_id": "arXiv:2609.01957",
+      "paper_url": "https://arxiv.org/abs/2609.01957",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Useful real deployment measurement for inference sharing an enterprise AP with packet processing. Five implementations run 6.1-19.1x slower on target AP than Raspberry Pi 5; two similarly sized foundation models differ 19x in AP latency; 13-stream serving under network saturation raises p99 RTT 76% and cuts throughput 7.06%. Primarily a measurement/deployability study rather than a new runtime, so watchlist-high.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "More GPUs or a Smaller Cache? Tensor Parallelism versus KV Compression for Memory-Bound LLM Serving",
       "venue": "",
       "topic": "LLM serving / KV cache / tensor parallelism / cost-performance",
@@ -14890,6 +14767,29 @@
         "MoE Systems / Accelerators",
         "GPU Kernel / DSL / Compiler",
         "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "Modeling What Changes: Sparse, Residual World Models for Object-Centric Manipulation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / sparse world models / object-centric prediction",
+      "arxiv": "2609.02046",
+      "doi": "",
+      "official_id": "arXiv:2609.02046",
+      "paper_url": "https://arxiv.org/abs/2609.02046",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Sparse change-gated residual world model predicts only changing objects, giving 8.6-11.1x fewer parameters and 2.5-4.6x better next-state pose accuracy than a dense baseline on 3-8 object MuJoCo pushing, with lower rollout drift and cross-object-count transfer. Strong Physical-AI efficiency signal, but planning success remains early and no deployment/runtime latency is shown, so retain as protected high-value watch.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -15186,6 +15086,28 @@
       "directions": [
         "LLM Serving",
         "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "HeadWiseKV: Budgeted Per-Head Cache Residency for Hybrid Long-Context Language Models",
+      "venue": "arXiv 2026",
+      "topic": "KV cache/long-context / LLM serving",
+      "arxiv": "2609.02029",
+      "doi": "",
+      "official_id": "arXiv:2609.02029",
+      "paper_url": "https://arxiv.org/abs/2609.02029",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Training-free per-head KV residency allocation for hybrid long-context language models. Grouped-cache runtime physically materializes reduced per-head residency; Qwen3.6-27B systems study reports 8.59% lower sampled peak device memory at 112K context and extends verified maximum context from 114K to 161K. Directly relevant to KV-cache/long-context serving, but current systems gains are moderate, so retained as high-value watch rather than canonical-high.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
