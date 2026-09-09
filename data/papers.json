@@ -3578,6 +3578,28 @@
     ]
   },
   {
+    "title": "H3DNAS: Hardware-Aware ONNX-Native 3D Point Cloud Model Compression",
+    "venue": "arXiv 2026",
+    "topic": "edge/cloud/heterogeneous AI systems / sparsity-pruning / deployment compiler",
+    "arxiv": "2609.02684",
+    "doi": "",
+    "official_id": "arXiv:2609.02684",
+    "paper_url": "https://arxiv.org/abs/2609.02684",
+    "code_url": "https://github.com/ClarityLab-Org/h3dnas",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "H3DNAS performs hardware-aware compression directly on ONNX graphs without original source or gradients, using a channel dependency graph, hierarchical search and graph surgery. On Jetson Orin Nano-class deployment targets it reduces parameters by 43.2-65.5% and achieves 1.29-1.99x inference speedups with negligible accuracy loss.",
+    "published_at": "2026-09-02T14:53:35Z",
+    "updated_at": "2026-09-02T14:53:35Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Sparsity / Pruning",
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Hardware-Accelerated Instance Segmentation for Resource-Constrained Space Robotics with Criticality Analysis",
     "venue": "arXiv 2026",
     "topic": "VLA/WAM/Physical AI serving / edge accelerator / quantization / reliable robotics inference",
@@ -4574,6 +4596,28 @@
     ]
   },
   {
+    "title": "Ostrich: Taking Large Strides Through Stiff Contact in Differentiable Dynamics",
+    "venue": "arXiv 2026",
+    "topic": "VLA/WAM/Physical AI serving / GPU simulation / differentiable dynamics",
+    "arxiv": "2609.08800",
+    "doi": "",
+    "official_id": "arXiv:2609.08800",
+    "paper_url": "https://arxiv.org/abs/2609.08800",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Ostrich is a GPU-accelerated rigid-body differentiable simulator for stiff contact that uses large timesteps, implicit differentiation and Schur-complement reuse. It reports 211x faster warm iterations than MJX, 4.7x faster than Newton Semi-Implicit, 29x checkpointed-MJX optimization throughput, and 8,192 parallel worlds on one 24GB GPU, making it strong Physical-AI simulation infrastructure.",
+    "published_at": "2026-09-08T14:28:52Z",
+    "updated_at": "2026-09-08T14:28:52Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "OUTLETS: Output-Length Prediction from Speculative Decoding Backbones",
     "venue": "arXiv 2026",
     "topic": "LLM serving / speculative decoding / output-length prediction / scheduling",
@@ -4638,6 +4682,50 @@
     ]
   },
   {
+    "title": "PARSER: Read in Parallel, Reason in Depth for Long-Context LLM Agents",
+    "venue": "arXiv 2026",
+    "topic": "efficient reasoning/agent systems / long-context / parallel inference",
+    "arxiv": "2609.06702",
+    "doi": "",
+    "official_id": "arXiv:2609.06702",
+    "paper_url": "https://arxiv.org/abs/2609.06702",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "PARSER decouples document reading from reasoning using frozen chunk-local subagents and iterative scatter-gather lead-agent reasoning. On 7K-896K-token multi-hop QA it improves quality while reducing inference latency by up to 11x versus sequential memory agents, making it a strong efficient-agent inference result.",
+    "published_at": "2026-09-06T16:19:01Z",
+    "updated_at": "2026-09-06T16:19:01Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "KV Cache / Long Context",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "Poseidon: DAG-Guided Parallelism Search for LLM Pre-Training on Heterogeneous Clusters",
+    "venue": "arXiv 2026",
+    "topic": "distributed training/inference / heterogeneous clusters / parallelism search",
+    "arxiv": "2609.06086",
+    "doi": "",
+    "official_id": "arXiv:2609.06086",
+    "paper_url": "https://arxiv.org/abs/2609.06086",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Poseidon builds an explicit DAG training-time model and prunes the parallelism search space with stage-level early stopping and layer-to-stage mapping. On heterogeneous accelerator clusters it improves LLM training throughput by up to 2.76x over state-of-the-art systems.",
+    "published_at": "2026-09-05T13:29:18Z",
+    "updated_at": "2026-09-05T13:29:18Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Distributed Training / Inference",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Predict, Don't Iterate: Efficient Adaptive-Length Infilling for Diffusion Language Models",
     "venue": "arXiv 2026",
     "topic": "diffusion language models / inference acceleration / adaptive decoding",
@@ -4655,6 +4743,29 @@
     "tracking_tier": "P0 · Strong",
     "directions": [
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "PV-WM: A Heterogeneous Micro-Macro World Model for Articulated Pedestrian-Vehicle Co-Rollout",
+    "venue": "arXiv 2026",
+    "topic": "VLA/WAM/Physical AI serving / world model / efficient rollout",
+    "arxiv": "2609.07328",
+    "doi": "",
+    "official_id": "arXiv:2609.07328",
+    "paper_url": "https://arxiv.org/abs/2609.07328",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "PV-WM jointly rolls out articulated pedestrians and vehicles with a single recurrent model. Relative to a modular specialist it uses 57.1% fewer parameters, 96.5% lower average FLOPs per local scene and 25.5% lower measured p95 latency while improving forecast errors, giving direct efficient world-model evidence.",
+    "published_at": "2026-09-07T10:45:26Z",
+    "updated_at": "2026-09-07T10:45:26Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -5164,6 +5275,30 @@
     ]
   },
   {
+    "title": "SemBridge: Compiling Consumer Observations into Cross-Stack Communication Plans",
+    "venue": "arXiv 2026",
+    "topic": "distributed training/inference / compiler / heterogeneous communication",
+    "arxiv": "2609.08231",
+    "doi": "",
+    "official_id": "arXiv:2609.08231",
+    "paper_url": "https://arxiv.org/abs/2609.08231",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "SemBridge compiles consumer-visible distributed-tensor obligations into backend-neutral communication plans across CUDA/NCCL and CANN/HCCL. On a measured two-host 1-GbE deployment, source projection cuts result traffic by >99.97% and improves throughput by 8.92-80.20% across Dense, MoE and MiniMax workloads, providing direct systems evidence.",
+    "published_at": "2026-09-08T04:23:21Z",
+    "updated_at": "2026-09-08T04:23:21Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "MoE Systems / Accelerators",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "SemKV: Semantic Mixed-Precision KV Cache Quantization Guided by the Quality Cliff for Long-Context LLM Inference",
     "venue": "arXiv 2026",
     "topic": "KV cache/long-context / quantization",
@@ -5226,6 +5361,27 @@
     "directions": [
       "LLM Serving",
       "Multimodal / MLLM Serving"
+    ]
+  },
+  {
+    "title": "SHIFT: Surface-aware High-speed Integration For TSDFs",
+    "venue": "arXiv 2026",
+    "topic": "VLA/WAM/Physical AI serving / robotic mapping / memory-efficient runtime",
+    "arxiv": "2609.06547",
+    "doi": "",
+    "official_id": "arXiv:2609.06547",
+    "paper_url": "https://arxiv.org/abs/2609.06547",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "SHIFT reduces redundant online TSDF/ESDF updates by compressing flat regions into super-rays, freezing converged gradients and using a compact ESDF layout. Across RGB-D and LiDAR sequences it cuts TSDF cost by 1.42-4.07x while preserving millimeter-scale mesh error and lowers ESDF memory by up to 28%, directly targeting real-time robotic mapping.",
+    "published_at": "2026-09-06T11:36:19Z",
+    "updated_at": "2026-09-06T11:36:19Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "VLA / WAM / Physical AI"
     ]
   },
   {
@@ -5673,6 +5829,27 @@
       "Diffusion / Flow Acceleration",
       "VLA / WAM / Physical AI",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "VoRTeC: Taming Foundation Flow for One-step Real time Video Compression",
+    "venue": "arXiv 2026",
+    "topic": "video/image generation acceleration / diffusion-flow / real-time decoding",
+    "arxiv": "2609.02291",
+    "doi": "",
+    "official_id": "arXiv:2609.02291",
+    "paper_url": "https://arxiv.org/abs/2609.02291",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "VoRTeC turns a Wan2.1 foundation flow model into a one-step generative video compressor using compact latent encoding, flow-position prediction, tail-frame reuse and prior caching. It reports 3-197x faster decoding than prior diffusion-based methods, reaching 13 FPS at 720p and 32 FPS at 480p.",
+    "published_at": "2026-09-02T08:39:23Z",
+    "updated_at": "2026-09-03T02:54:14Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
