@@ -2487,6 +2487,30 @@
     ]
   },
   {
+    "title": "Analytical Resource Management for Fine-grained MoE Computation-Communication Overlap",
+    "venue": "arXiv 2026",
+    "topic": "MoE systems/accelerators / distributed inference / compute-communication overlap",
+    "arxiv": "2609.07536",
+    "doi": "",
+    "official_id": "arXiv:2609.07536",
+    "paper_url": "https://arxiv.org/abs/2609.07536",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "A wave-quantized analytical model selects communication CTA count and SM-resource partition before launch for dependency-coupled MoE overlap. Integrated into COMET/FLUX on four A100 GPUs, it reports 2.528x geometric-mean speedup at GEMM2+GatherRS, 1.771x at the post-router MoE layer, and 1.185x complete-model prefill versus COMET, with 0.157 us mean solver overhead.",
+    "published_at": "2026-09-07T14:20:36Z",
+    "updated_at": "2026-09-07T14:20:36Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "MoE Systems / Accelerators",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "AnchorKV: Anchor-Residual KV Cache Compression",
     "venue": "arXiv 2026",
     "topic": "KV cache/long-context / compression",
@@ -3013,6 +3037,27 @@
     ]
   },
   {
+    "title": "DejaVu: Unifying Memory Allocations to Eliminate Redundant Copies on Unified-Memory SoCs",
+    "venue": "arXiv 2026",
+    "topic": "edge/cloud/heterogeneous AI systems / UMA / compiler-runtime memory optimization",
+    "arxiv": "2609.05635",
+    "doi": "",
+    "official_id": "arXiv:2609.05635",
+    "paper_url": "https://arxiv.org/abs/2609.05635",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "DejaVu removes redundant CPU-GPU copies on unified-memory edge SoCs using a compile-time LLVM proof path and a profile-guided binary path for closed-source applications. Across seven benchmarks and three NVIDIA Jetson platforms, copy-dominated workloads speed up by up to 6.9x and closed-source end-to-end applications by 1.10-1.14x, reaching at least 99% of manual optimization performance.",
+    "published_at": "2026-09-04T18:13:46Z",
+    "updated_at": "2026-09-04T18:13:46Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "DensityKV: Density-Guided KV Cache Compression for Long Video Generation",
     "venue": "arXiv 2026",
     "topic": "KV cache / video generation acceleration / efficient attention",
@@ -3294,6 +3339,27 @@
     "directions": [
       "LLM Serving",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "ForgeStencil: Automating Per-Case Stencil Specialization from Kernels to 100+ Real Applications",
+    "venue": "arXiv 2026",
+    "topic": "GPU kernel/DSL/compilers / code-generation agents / CUDA specialization",
+    "arxiv": "2609.06694",
+    "doi": "",
+    "official_id": "arXiv:2609.06694",
+    "paper_url": "https://arxiv.org/abs/2609.06694",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "ForgeStencil uses code-synthesis agents to generate per-case CUDA kernels and end-to-end application rewrites, with a measurement-integrity harness rejecting invalid gains. Same-precision f32 kernels reach 2.35x geometric-mean speedup over per-case SOTA baselines on A100, and end-to-end application median speedup is 1.41x across 100 real codes.",
+    "published_at": "2026-09-06T16:09:33Z",
+    "updated_at": "2026-09-06T16:09:33Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -3619,6 +3685,28 @@
       "Quantization",
       "GPU Kernel / DSL / Compiler",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Intra-Prompt Parallel Decoding for Common-Context Question Answering",
+    "venue": "arXiv 2026",
+    "topic": "LLM serving / parallel decoding / shared-context inference",
+    "arxiv": "2609.05707",
+    "doi": "",
+    "official_id": "arXiv:2609.05707",
+    "paper_url": "https://arxiv.org/abs/2609.05707",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "IPPD answers multiple questions sharing one context inside a single prompt using virtual position IDs and attention-mask manipulation, requiring no fine-tuning or architecture change. It reports up to 7x effective throughput over standard decoding without quality degradation and outperforms prefix caching with PagedAttention in most settings; accepted to EMNLP 2026 main.",
+    "published_at": "2026-09-04T20:25:52Z",
+    "updated_at": "2026-09-04T20:25:52Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "Efficient Attention"
     ]
   },
   {
@@ -4196,6 +4284,28 @@
       "LLM Serving",
       "Quantization",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "mjorbit: A Simulation Framework for Space Robotics",
+    "venue": "arXiv 2026",
+    "topic": "VLA/WAM/Physical AI serving / robotics runtime / GPU simulation",
+    "arxiv": "2609.08010",
+    "doi": "",
+    "official_id": "arXiv:2609.08010",
+    "paper_url": "https://arxiv.org/abs/2609.08010",
+    "code_url": "https://johnzhang3.github.io/mjorbit/",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "mjorbit extends MuJoCo with spacecraft dynamics, actuators and sensors and exposes both low-latency C++ CPU and high-throughput GPU backends for contact-rich space robotics. It demonstrates realistic on-orbit MPC and RL case studies and provides open-source code, making it a concrete Physical-AI runtime/simulation infrastructure contribution.",
+    "published_at": "2026-09-07T21:45:19Z",
+    "updated_at": "2026-09-07T21:45:19Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "VLA / WAM / Physical AI"
     ]
   },
   {
@@ -4830,6 +4940,29 @@
     "directions": [
       "Quantization",
       "Efficient Attention"
+    ]
+  },
+  {
+    "title": "Sample-Guided Exact Top-K Selection for Long-Context Sparse Attention",
+    "venue": "arXiv 2026",
+    "topic": "efficient attention / sparse attention / GPU kernel",
+    "arxiv": "2609.08450",
+    "doi": "",
+    "official_id": "arXiv:2609.08450",
+    "paper_url": "https://arxiv.org/abs/2609.08450",
+    "code_url": "https://github.com/Tencent/hpc-ops",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "HPC-Ops Top-K uses fixed-stride sampling only to propose a coarse boundary while a mandatory full-row pass certifies correctness, then performs exact FP32 refinement with graph-capturable ragged dispatch. On Hy4-Preview indexer scores it beats the fastest verified exact baseline by 1.29-1.75x across 20 operator configurations (1.55x geometric mean) and gives 1.36x/1.48x on framework traces.",
+    "published_at": "2026-09-08T08:51:19Z",
+    "updated_at": "2026-09-08T08:51:19Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {

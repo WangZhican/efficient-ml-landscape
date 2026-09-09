@@ -1,13 +1,14 @@
 # 05 · Sparsity / Pruning
 
-> **256 canonical papers** mapped here, plus a broader **85-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **257 canonical papers** mapped here, plus a broader **86-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 85 tracked
+## 🆕 Latest 30 Days · 86 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
+| **P0 · Strong** | **Sample-Guided Exact Top-K Selection for Long-Context Sparse Attention** | arXiv 2026 | efficient attention / sparse attention / GPU kernel | [Link](https://arxiv.org/abs/2609.08450) | [Repo](https://github.com/Tencent/hpc-ops) |
 | **P1 · Watch** | **RouteRelay: Event-Triggered Cross-Layer Route Reuse for Efficient Dynamic Sparse Attention** | arXiv 2026 | efficient attention / sparse attention / route reuse / GPU kernels | [Link](https://arxiv.org/abs/2609.07306) | — |
 | **P0 · Strong** | **CEDAR: Error-Bounded Residual Routing for Efficient Long-Context Attention** | arXiv 2026 | efficient attention / long context / sparse routing / kernel acceleration | [Link](https://arxiv.org/abs/2609.07237) | — |
 | **P1 · Watch** | **Train Overcomplete, Deploy Compact: Scaling Recovery Capacity for Structured LLM Pruning** | arXiv 2026 | sparsity/pruning / structured LLM pruning / recovery | [Link](https://arxiv.org/abs/2609.06974) | [Repo](https://github.com/mmai-laboratory/OverRep) |
