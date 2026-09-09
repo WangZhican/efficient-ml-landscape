@@ -1,10 +1,10 @@
 # 10 · Multimodal / MLLM Serving
 
-> **208 canonical papers** mapped here, plus a broader **91-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **208 canonical papers** mapped here, plus a broader **93-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 91 tracked
+## 🆕 Latest 30 Days · 93 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -17,6 +17,7 @@
 | **P1 · Watch** | **ICI-VLA: In-Context Imitation with Spatiotemporally Aligned Demonstrations for Vision-Language-Action Models** | arXiv 2026 | VLA/WAM/Physical AI serving / test-time adaptation / retrieval-conditioned control | [Link](https://arxiv.org/abs/2609.07581) | — |
 | **P0 · Strong** | **ASTRA: Low-Overhead Runtime Architecture for STReam Adaptation in Video Analytics** | arXiv 2026 | edge/cloud/heterogeneous AI systems / multimodal serving / runtime adaptation | [Link](https://arxiv.org/abs/2609.07020) | — |
 | **P1 · Watch** | **ECOKV: Geometry-Aware KV Cache Eviction via Complementary Diversity Metrics** | arXiv 2026 | KV cache/long-context / multimodal MLLM serving / cache eviction | [Link](https://arxiv.org/abs/2609.06663) | — |
+| **P1 · Watch** | **VLA-Corrector: Stage-Aware Observable State Understanding for Prompt-Based Closed-Loop Recovery of Vision-Language-Action Policies** | arXiv 2026 | VLA/WAM/Physical AI serving / closed-loop recovery / runtime verifier | [Link](https://arxiv.org/abs/2609.06508) | — |
 | **P1 · Watch** | **One MLLM, One Call: Efficient Zero-Shot Vision-and-Language Navigation via Spatial-Aware Waypoints** | arXiv 2026 | VLA/WAM/Physical AI serving / VLN / sparse MLLM invocation / robot navigation | [Link](https://arxiv.org/abs/2609.06476) | — |
 | **P1 · Watch** | **LayerRoute: Action-Conditioned Mixture-of-Layers Routing for Vision-Language-Action Policies** | arXiv 2026 | VLA/WAM/Physical AI serving / adaptive layer routing / cached VLM representations | [Link](https://arxiv.org/abs/2609.06079) | — |
 | **P0 · Strong** | **STAR-Pro: Stage-Wise Token Adaptive Reduction with Progressive Refinement for Efficient Large Vision-Language Models** | arXiv 2026 | multimodal/MLLM serving / visual token pruning / adaptive compute | [Link](https://arxiv.org/abs/2609.05916) | [Repo](https://github.com/EasonAI-5589/starpro) |
@@ -35,6 +36,7 @@
 | **P0 · Strong** | **CoFiE: Coarse-to-Fine Evidence Selection for Efficient Streaming Video Understanding** | arXiv 2026 | multimodal/MLLM serving / sparsity / streaming video | [Link](https://arxiv.org/abs/2609.03675) | — |
 | **P0 · Strong** | **Scalable Context Orchestration for Serving LLMs Over Voice** | arXiv 2026 | LLM serving / multimodal voice serving / context management middleware | [Link](https://arxiv.org/abs/2609.04288) | — |
 | **P1 · Watch** | **Lngram v2: Latent N-Gram Memory with Interpretable Discrete Representations** | arXiv 2026 | KV cache/long-context / multimodal serving / conditional memory / efficient model architecture | [Link](https://arxiv.org/abs/2609.03426) | — |
+| **P1 · Watch** | **FailureSpot: Label-Efficient Timestamp-Level Failure Detection for Vision-Language-Action Models** | arXiv 2026 | VLA/WAM/Physical AI serving / failure detection / runtime safety | [Link](https://arxiv.org/abs/2609.04277) | — |
 | **P0 · Strong** | **Jina-OCR-v1: Efficient Document Parsing with Speculative Decoding and Dense Verifiable Rewards** | arXiv 2026 | multimodal/MLLM serving / speculative decoding / efficient OCR | [Link](https://arxiv.org/abs/2609.03181) | [Repo](https://huggingface.co/jinaai/jina-ocr-v1) |
 | **P1 · Watch** | **Who Speaks for the Pruned? Visual Token Pruning as Coverage Optimization** | arXiv 2026 | multimodal/MLLM serving / sparsity/pruning / visual token pruning | [Link](https://arxiv.org/abs/2609.03158) | — |
 | **P1 · Watch** | **Sensing Which Modality Matters: Evidence-Gated Regularization for Robust VLA Policies** | arXiv 2026 | VLA/WAM/Physical AI serving / multimodal robustness / zero-overhead inference / sensor fusion | [Link](https://arxiv.org/abs/2609.03142) | — |

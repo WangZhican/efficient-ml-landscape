@@ -1,10 +1,10 @@
 # 08 · GPU Kernel / DSL / Compiler
 
-> **444 canonical papers** mapped here, plus a broader **139-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **444 canonical papers** mapped here, plus a broader **140-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 139 tracked
+## 🆕 Latest 30 Days · 140 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -38,6 +38,7 @@
 | **P0 · Strong** | **A HIP-Compatible Accelerator Backend for Fourier-Bessel Particle-in-Cell Simulations on CPU/DCU Heterogeneous Clusters** | arXiv 2026 | GPU kernel/DSL/compilers / heterogeneous accelerators / HIP portability / distributed runtime | [Link](https://arxiv.org/abs/2609.06680) | — |
 | **P0 · Strong** | **RGB Input Pipelines: Throughput, GPU Memory, and Transformation Coverage** | arXiv 2026 | GPU kernel/DSL/compilers / data pipeline / training systems / input preprocessing | [Link](https://arxiv.org/abs/2609.06635) | — |
 | **P0 · Strong** | **All for 1-Bit: Towards Genuine 1-Bit Post-Training Quantization for LLMs** | arXiv 2026 | quantization / LLM inference / genuine 1-bit PTQ | [Link](https://arxiv.org/abs/2609.06161) | — |
+| **P1 · Watch** | **From Splats to Silicon: Rethinking Computational Efficiency of 3DGS** | arXiv 2026 | GPU kernel/DSL/compilers / 3DGS acceleration / accelerator architecture | [Link](https://arxiv.org/abs/2609.06157) | — |
 | **P0 · Strong** | **WaferTrans: Enabling IOMMU-free Distributed Virtual Address Translation for Wafer-scale GPUs** | arXiv 2026 | GPU kernel/DSL/compilers / wafer-scale GPU / unified memory / address translation | [Link](https://arxiv.org/abs/2609.06125) | — |
 | **P1 · Watch** | **Beyond Retraining-Free MoE Compression: A Cost-Normalized Study of Post-Compression Adjustment** | arXiv 2026 | MoE systems/accelerators / compression / deployment memory / adjustment cost | [Link](https://arxiv.org/abs/2609.06076) | — |
 | **P0 · Strong** | **ACE: Adapter Consolidation across Experts for Parameter-Efficient Fine-Tuning of MoE LLMs** | arXiv 2026 | MoE systems/accelerators / distributed training / PEFT | [Link](https://arxiv.org/abs/2609.06072) | [Repo](https://github.com/UbiquitousAILab/ACE) |

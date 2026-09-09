@@ -1,13 +1,14 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **367 canonical papers** mapped here, plus a broader **161-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **368 canonical papers** mapped here, plus a broader **163-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 161 tracked
+## 🆕 Latest 30 Days · 163 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
+| **P1 · Watch** | **TriCCOT: Tri-part Convolutional Conformal Transformer for Onboard Space Object Detection** | arXiv 2026 | edge/cloud/heterogeneous AI systems / FPGA / efficient attention | [Link](https://arxiv.org/abs/2609.08659) | — |
 | **P0 · Strong** | **FlexSpIM: An Event-Based Digital Compute-In-Memory Accelerator with Flexible Operand Resolution and Layer-Wise Hybrid Stationarity** | arXiv 2026 | edge/cloud/heterogeneous AI systems / SNN accelerator / digital CIM | [Link](https://arxiv.org/abs/2609.08446) | — |
 | **P1 · Watch** | **A Measurement Study of LLM Inference Trade-offs Across Edge Continuum Hardware** | arXiv 2026 | edge/cloud/heterogeneous AI systems / LLM inference / measurement | [Link](https://arxiv.org/abs/2609.08307) | — |
 | **P0 · Strong** | **SemBridge: Compiling Consumer Observations into Cross-Stack Communication Plans** | arXiv 2026 | distributed training/inference / compiler / heterogeneous communication | [Link](https://arxiv.org/abs/2609.08231) | — |
@@ -36,6 +37,7 @@
 | **P1 · Watch** | **Distilling Vision-Language Models for On-Device Fire Understanding** | arXiv 2026 | multimodal/MLLM serving / edge inference / VLM distillation | [Link](https://arxiv.org/abs/2609.05782) | — |
 | **P0 · Strong** | **Interface-Aware KV Cache Quantization for Dense On-Chip NVM in Long-Context LLM Decoding** | arXiv 2026 | KV cache/long-context / quantization / NVM / accelerator co-design | [Link](https://arxiv.org/abs/2609.05764) | — |
 | **P0 · Strong** | **DejaVu: Unifying Memory Allocations to Eliminate Redundant Copies on Unified-Memory SoCs** | arXiv 2026 | edge/cloud/heterogeneous AI systems / UMA / compiler-runtime memory optimization | [Link](https://arxiv.org/abs/2609.05635) | — |
+| **P0 · Strong** | **Lightweight Vision Transformer Compression for On-Device Plant Disease Detection in Resource-Constrained Agricultural Field Conditions** | arXiv 2026 | quantization / sparsity-pruning / edge AI deployment | [Link](https://arxiv.org/abs/2609.05334) | — |
 | **P1 · Watch** | **Proton Irradiation Characterization of an Open-Source ML Accelerator on a Zynq UltraScale+ MPSoC** | arXiv 2026 | edge/cloud/heterogeneous AI systems / Physical AI / FPGA accelerator reliability | [Link](https://arxiv.org/abs/2609.05249) | — |
 | **P1 · Watch** | **APEX-RBD: Mixed-Precision Exploration Framework for Hardware-Efficient Robot Dynamics Accelerator Design** | arXiv 2026 | VLA/WAM/Physical AI serving / robot accelerator / mixed precision / edge hardware | [Link](https://arxiv.org/abs/2609.05161) | — |
 | **P1 · Watch** | **MomentQuant: an even more minimalist interval method with linear time complexity for time series classification** | arXiv 2026 | edge/cloud/heterogeneous AI systems / efficient inference / linear-time algorithms | [Link](https://arxiv.org/abs/2609.05136) | — |

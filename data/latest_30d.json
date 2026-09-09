@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-10",
   "window_start_beijing": "2026-08-11",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 557,
+  "tracked_total": 562,
   "p0_strong_or_canonical": [
     {
       "title": "Distributed Linear Programming on GPU Clusters at Extreme Scale",
@@ -1334,6 +1334,28 @@
         "Video / Image Generation",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Lightweight Vision Transformer Compression for On-Device Plant Disease Detection in Resource-Constrained Agricultural Field Conditions",
+      "venue": "arXiv 2026",
+      "topic": "quantization / sparsity-pruning / edge AI deployment",
+      "arxiv": "2609.05334",
+      "doi": "",
+      "official_id": "arXiv:2609.05334",
+      "paper_url": "https://arxiv.org/abs/2609.05334",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Unified H-BAC pruning, quantization and distillation pipeline for on-device ViT deployment. Primary results retain 95.13% baseline accuracy while reducing model size by 74-98%; the fully integrated configuration compresses 327.42 MB to 6.01 MB, a 54.5x size reduction, with 95.13 +/- 2.32% accuracy. The paper also fairly reports that a directly trained same-size student can be competitive, making the deployment trade-off especially useful.",
+      "published_at": "2026-09-04T16:40:06Z",
+      "updated_at": "2026-09-04T16:40:06Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Quantization",
+        "Sparsity / Pruning",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -3706,6 +3728,28 @@
       ]
     },
     {
+      "title": "TriCCOT: Tri-part Convolutional Conformal Transformer for Onboard Space Object Detection",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / FPGA / efficient attention",
+      "arxiv": "2609.08659",
+      "doi": "",
+      "official_id": "arXiv:2609.08659",
+      "paper_url": "https://arxiv.org/abs/2609.08659",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "TriCCOT replaces FPGA-unfriendly Transformer operations with convolutional projections, global channel statistics and hardware-friendly gating, and reports full unified CNN-Transformer deployment on a Xilinx Versal VCK190 without DPU modification. This is strong deployability evidence, but the primary abstract does not give measured latency, throughput, memory or energy gains, so it remains watch.",
+      "published_at": "2026-09-08T12:26:55Z",
+      "updated_at": "2026-09-08T12:26:55Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Attention",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "BIO-MEMART: Biometric-Aware KV Cache Memory for Multi-User LLM Agents",
       "venue": "arXiv 2026",
       "topic": "KV cache/long-context / efficient reasoning/agent systems / shared memory",
@@ -4403,6 +4447,28 @@
       ]
     },
     {
+      "title": "VLA-Corrector: Stage-Aware Observable State Understanding for Prompt-Based Closed-Loop Recovery of Vision-Language-Action Policies",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / closed-loop recovery / runtime verifier",
+      "arxiv": "2609.06508",
+      "doi": "",
+      "official_id": "arXiv:2609.06508",
+      "paper_url": "https://arxiv.org/abs/2609.06508",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI work adds an observable-history Learned Verifier over multi-view vision, proprioception and executed actions, then produces stage-conditioned recovery prompts for the same frozen VLA policy without privileged simulator state. LIBERO and LIBERO Plus evaluations show substantially improved closed-loop reliability, but no measured serving overhead or throughput is reported in the primary abstract, so it remains watch.",
+      "published_at": "2026-09-06T09:50:30Z",
+      "updated_at": "2026-09-06T09:50:30Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "One MLLM, One Call: Efficient Zero-Shot Vision-and-Language Navigation via Spatial-Aware Waypoints",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / VLN / sparse MLLM invocation / robot navigation",
@@ -4466,6 +4532,27 @@
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "From Splats to Silicon: Rethinking Computational Efficiency of 3DGS",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / 3DGS acceleration / accelerator architecture",
+      "arxiv": "2609.06157",
+      "doi": "",
+      "official_id": "arXiv:2609.06157",
+      "paper_url": "https://arxiv.org/abs/2609.06157",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "This workload-centric 3DGS systems study connects representation changes, GPU runtime optimization and hardware architecture, with reproduced measurements and controlled GPU profiling that trace workload counts into stage time and memory traffic. It is highly relevant to efficient-3DGS systems methodology, but its contribution is synthesis and characterization rather than a single new faster runtime, so it remains high-value watch.",
+      "published_at": "2026-09-05T15:57:26Z",
+      "updated_at": "2026-09-05T15:57:26Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Video / Image Generation"
       ]
     },
     {
@@ -5468,6 +5555,29 @@
       "is_latest_30d": true,
       "directions": [
         "KV Cache / Long Context"
+      ]
+    },
+    {
+      "title": "FailureSpot: Label-Efficient Timestamp-Level Failure Detection for Vision-Language-Action Models",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / failure detection / runtime safety",
+      "arxiv": "2609.04277",
+      "doi": "",
+      "official_id": "arXiv:2609.04277",
+      "paper_url": "https://arxiv.org/abs/2609.04277",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI work derives weak supervision directly from VLA action chunks and uses active learning for sparse timestamp annotations, improving both timestamp-level and trajectory-level failure detection across multiple VLA policies. It targets deployment reliability with lightweight proactive detection but reports no direct runtime latency/throughput gain in the primary abstract, so it remains watch.",
+      "published_at": "2026-09-03T00:04:06Z",
+      "updated_at": "2026-09-03T00:04:06Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -13432,6 +13542,28 @@
       ]
     },
     {
+      "title": "Lightweight Vision Transformer Compression for On-Device Plant Disease Detection in Resource-Constrained Agricultural Field Conditions",
+      "venue": "arXiv 2026",
+      "topic": "quantization / sparsity-pruning / edge AI deployment",
+      "arxiv": "2609.05334",
+      "doi": "",
+      "official_id": "arXiv:2609.05334",
+      "paper_url": "https://arxiv.org/abs/2609.05334",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Unified H-BAC pruning, quantization and distillation pipeline for on-device ViT deployment. Primary results retain 95.13% baseline accuracy while reducing model size by 74-98%; the fully integrated configuration compresses 327.42 MB to 6.01 MB, a 54.5x size reduction, with 95.13 +/- 2.32% accuracy. The paper also fairly reports that a directly trained same-size student can be competitive, making the deployment trade-off especially useful.",
+      "published_at": "2026-09-04T16:40:06Z",
+      "updated_at": "2026-09-04T16:40:06Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Quantization",
+        "Sparsity / Pruning",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Don't Drop Dropout: Optimizing Layer Sparsity for Efficient LLM Training and Inference",
       "venue": "ICML 2026",
       "topic": "LLM training efficiency / layer sparsity / early exit / self-speculative decoding",
@@ -15799,6 +15931,28 @@
       ]
     },
     {
+      "title": "TriCCOT: Tri-part Convolutional Conformal Transformer for Onboard Space Object Detection",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / FPGA / efficient attention",
+      "arxiv": "2609.08659",
+      "doi": "",
+      "official_id": "arXiv:2609.08659",
+      "paper_url": "https://arxiv.org/abs/2609.08659",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "TriCCOT replaces FPGA-unfriendly Transformer operations with convolutional projections, global channel statistics and hardware-friendly gating, and reports full unified CNN-Transformer deployment on a Xilinx Versal VCK190 without DPU modification. This is strong deployability evidence, but the primary abstract does not give measured latency, throughput, memory or energy gains, so it remains watch.",
+      "published_at": "2026-09-08T12:26:55Z",
+      "updated_at": "2026-09-08T12:26:55Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Attention",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "BIO-MEMART: Biometric-Aware KV Cache Memory for Multi-User LLM Agents",
       "venue": "arXiv 2026",
       "topic": "KV cache/long-context / efficient reasoning/agent systems / shared memory",
@@ -16496,6 +16650,28 @@
       ]
     },
     {
+      "title": "VLA-Corrector: Stage-Aware Observable State Understanding for Prompt-Based Closed-Loop Recovery of Vision-Language-Action Policies",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / closed-loop recovery / runtime verifier",
+      "arxiv": "2609.06508",
+      "doi": "",
+      "official_id": "arXiv:2609.06508",
+      "paper_url": "https://arxiv.org/abs/2609.06508",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI work adds an observable-history Learned Verifier over multi-view vision, proprioception and executed actions, then produces stage-conditioned recovery prompts for the same frozen VLA policy without privileged simulator state. LIBERO and LIBERO Plus evaluations show substantially improved closed-loop reliability, but no measured serving overhead or throughput is reported in the primary abstract, so it remains watch.",
+      "published_at": "2026-09-06T09:50:30Z",
+      "updated_at": "2026-09-06T09:50:30Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "One MLLM, One Call: Efficient Zero-Shot Vision-and-Language Navigation via Spatial-Aware Waypoints",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / VLN / sparse MLLM invocation / robot navigation",
@@ -16559,6 +16735,27 @@
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "From Splats to Silicon: Rethinking Computational Efficiency of 3DGS",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / 3DGS acceleration / accelerator architecture",
+      "arxiv": "2609.06157",
+      "doi": "",
+      "official_id": "arXiv:2609.06157",
+      "paper_url": "https://arxiv.org/abs/2609.06157",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "This workload-centric 3DGS systems study connects representation changes, GPU runtime optimization and hardware architecture, with reproduced measurements and controlled GPU profiling that trace workload counts into stage time and memory traffic. It is highly relevant to efficient-3DGS systems methodology, but its contribution is synthesis and characterization rather than a single new faster runtime, so it remains high-value watch.",
+      "published_at": "2026-09-05T15:57:26Z",
+      "updated_at": "2026-09-05T15:57:26Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Video / Image Generation"
       ]
     },
     {
@@ -17561,6 +17758,29 @@
       "is_latest_30d": true,
       "directions": [
         "KV Cache / Long Context"
+      ]
+    },
+    {
+      "title": "FailureSpot: Label-Efficient Timestamp-Level Failure Detection for Vision-Language-Action Models",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / failure detection / runtime safety",
+      "arxiv": "2609.04277",
+      "doi": "",
+      "official_id": "arXiv:2609.04277",
+      "paper_url": "https://arxiv.org/abs/2609.04277",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI work derives weak supervision directly from VLA action chunks and uses active learning for sparse timestamp annotations, improving both timestamp-level and trajectory-level failure detection across multiple VLA policies. It targets deployment reliability with lightweight proactive detection but reports no direct runtime latency/throughput gain in the primary abstract, so it remains watch.",
+      "published_at": "2026-09-03T00:04:06Z",
+      "updated_at": "2026-09-03T00:04:06Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {

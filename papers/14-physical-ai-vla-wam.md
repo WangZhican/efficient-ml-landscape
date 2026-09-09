@@ -1,10 +1,10 @@
 # 14 · VLA / WAM / Physical AI
 
-> **131 canonical papers** mapped here, plus a broader **122-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **131 canonical papers** mapped here, plus a broader **124-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 122 tracked
+## 🆕 Latest 30 Days · 124 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -28,6 +28,7 @@
 | **P1 · Watch** | **Distributed Dexterous Manipulation with Spatially Conditioned Multi-Agent Transformers** | arXiv 2026 | VLA/WAM/Physical AI serving / multi-agent transformer / dexterous manipulation | [Link](https://arxiv.org/abs/2609.06930) | — |
 | **P0 · Strong** | **OCTN: Neural OCT Representations for Robot-Guided Precision Intervention** | arXiv 2026 | VLA/WAM/Physical AI serving / edge/GPU runtime / robot-guided intervention | [Link](https://arxiv.org/abs/2609.06810) | [Repo](https://raprakashvi.github.io/octn) |
 | **P0 · Strong** | **SHIFT: Surface-aware High-speed Integration For TSDFs** | arXiv 2026 | VLA/WAM/Physical AI serving / robotic mapping / memory-efficient runtime | [Link](https://arxiv.org/abs/2609.06547) | — |
+| **P1 · Watch** | **VLA-Corrector: Stage-Aware Observable State Understanding for Prompt-Based Closed-Loop Recovery of Vision-Language-Action Policies** | arXiv 2026 | VLA/WAM/Physical AI serving / closed-loop recovery / runtime verifier | [Link](https://arxiv.org/abs/2609.06508) | — |
 | **P1 · Watch** | **One MLLM, One Call: Efficient Zero-Shot Vision-and-Language Navigation via Spatial-Aware Waypoints** | arXiv 2026 | VLA/WAM/Physical AI serving / VLN / sparse MLLM invocation / robot navigation | [Link](https://arxiv.org/abs/2609.06476) | — |
 | **P0 · Strong** | **GloVLA: Let Geometry Move and Local VLA Interact for Robust Object-Centric Manipulation in Unstructured Environments** | arXiv 2026 | VLA/WAM/Physical AI serving / hybrid control / inference reduction | [Link](https://arxiv.org/abs/2609.06256) | [Repo](https://glovla-project.github.io/) |
 | **P1 · Watch** | **MobileVLA-R1 2.0: RL-Enhanced Reasoning for Mobile Robot Control** | arXiv 2026 | VLA/WAM/Physical AI serving / mobile robot control / reasoning-action decoupling | [Link](https://arxiv.org/abs/2609.06251) | [Repo](https://github.com/AIGeeksGroup/MobileVLA-R1-2.0) |
@@ -54,6 +55,7 @@
 | **P0 · Strong** | **SV-WAM: An Efficient Surround-View World-Action Model for End-to-End Autonomous Driving** | arXiv 2026 | VLA/WAM/Physical AI / world-action model / efficient deployment | [Link](https://arxiv.org/abs/2609.03602) | — |
 | **P1 · Watch** | **Scaling Bimanual Household Manipulation from 1,500 hours of Demonstrations to On-Policy Corrections** | arXiv 2026 | VLA/WAM/Physical AI serving / bimanual manipulation / data pipeline / training efficiency | [Link](https://arxiv.org/abs/2609.03591) | — |
 | **P1 · Watch** | **Building Pretraining Data for World Models: An Unreal Engine-Based Pipeline for Action-Conditioned Video Generation** | arXiv 2026 | VLA/WAM/Physical AI serving / world-model infrastructure / distributed data pipeline | [Link](https://arxiv.org/abs/2609.03557) | — |
+| **P1 · Watch** | **FailureSpot: Label-Efficient Timestamp-Level Failure Detection for Vision-Language-Action Models** | arXiv 2026 | VLA/WAM/Physical AI serving / failure detection / runtime safety | [Link](https://arxiv.org/abs/2609.04277) | — |
 | **P0 · Strong** | **Following a Unique Path: A Fast Certifier Applied to Outlier-Robust Pose Registration** | arXiv 2026 | VLA/WAM/Physical AI serving / robotic perception / optimization runtime | [Link](https://arxiv.org/abs/2609.03222) | — |
 | **P1 · Watch** | **RoboTok: An Internet-Scale Data Engine for Human Demonstration Retrieval and Dexterous Manipulation Learning** | arXiv 2026 | VLA/WAM/Physical AI serving / data engine / scalable demonstration retrieval | [Link](https://arxiv.org/abs/2609.03199) | — |
 | **P1 · Watch** | **Sensing Which Modality Matters: Evidence-Gated Regularization for Robust VLA Policies** | arXiv 2026 | VLA/WAM/Physical AI serving / multimodal robustness / zero-overhead inference / sensor fusion | [Link](https://arxiv.org/abs/2609.03142) | — |

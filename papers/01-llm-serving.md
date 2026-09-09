@@ -1,10 +1,10 @@
 # 01 · LLM Serving
 
-> **741 canonical papers** mapped here, plus a broader **374-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **741 canonical papers** mapped here, plus a broader **377-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 374 tracked
+## 🆕 Latest 30 Days · 377 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -16,6 +16,7 @@
 | **P0 · Strong** | **HDA-MoE: Hybrid Parallelism and Dynamic, Adaptive Scheduling for Mixture-of-Experts with 3D Near-Memory Processing** | arXiv 2026 | MoE systems/accelerators / 3D near-memory processing / hybrid parallelism / runtime scheduling | [Link](https://arxiv.org/abs/2609.08682) | — |
 | **P0 · Strong** | **X2Streaming-ASR: wait when uncertain, emit when ready for streaming ASR** | arXiv 2026 | multimodal/MLLM serving / streaming ASR / realtime voice agents / low-latency inference | [Link](https://arxiv.org/abs/2609.08672) | — |
 | **P1 · Watch** | **MoEMB: Scaling Universal Multimodal Embeddings with Efficient Mixture-of-Experts Models** | arXiv 2026 | multimodal/MLLM serving / MoE systems / retrieval embeddings | [Link](https://arxiv.org/abs/2609.08663) | — |
+| **P1 · Watch** | **TriCCOT: Tri-part Convolutional Conformal Transformer for Onboard Space Object Detection** | arXiv 2026 | edge/cloud/heterogeneous AI systems / FPGA / efficient attention | [Link](https://arxiv.org/abs/2609.08659) | — |
 | **P1 · Watch** | **BIO-MEMART: Biometric-Aware KV Cache Memory for Multi-User LLM Agents** | arXiv 2026 | KV cache/long-context / efficient reasoning/agent systems / shared memory | [Link](https://arxiv.org/abs/2609.08566) | — |
 | **P0 · Strong** | **SequenceO1: End-to-End Ultra-Long (100K) Sequence Modeling in Recommendation with Low-Rank Caching** | arXiv 2026 | LLM/recommendation serving / ultra-long sequence / low-rank caching / fused kernel | [Link](https://arxiv.org/abs/2609.08443) | — |
 | **P1 · Watch** | **A Measurement Study of LLM Inference Trade-offs Across Edge Continuum Hardware** | arXiv 2026 | edge/cloud/heterogeneous AI systems / LLM inference / measurement | [Link](https://arxiv.org/abs/2609.08307) | — |
@@ -62,6 +63,7 @@
 | **P0 · Strong** | **RGB Input Pipelines: Throughput, GPU Memory, and Transformation Coverage** | arXiv 2026 | GPU kernel/DSL/compilers / data pipeline / training systems / input preprocessing | [Link](https://arxiv.org/abs/2609.06635) | — |
 | **P0 · Strong** | **EStream: Fast and Memory-Efficient MoE Prefill through Expert Virtualization on Mobile NPUs** | arXiv 2026 | edge AI systems / MoE serving / mobile NPU / expert virtualization | [Link](https://arxiv.org/abs/2609.06551) | — |
 | **P0 · Strong** | **SHIFT: Surface-aware High-speed Integration For TSDFs** | arXiv 2026 | VLA/WAM/Physical AI serving / robotic mapping / memory-efficient runtime | [Link](https://arxiv.org/abs/2609.06547) | — |
+| **P1 · Watch** | **VLA-Corrector: Stage-Aware Observable State Understanding for Prompt-Based Closed-Loop Recovery of Vision-Language-Action Policies** | arXiv 2026 | VLA/WAM/Physical AI serving / closed-loop recovery / runtime verifier | [Link](https://arxiv.org/abs/2609.06508) | — |
 | **P1 · Watch** | **One MLLM, One Call: Efficient Zero-Shot Vision-and-Language Navigation via Spatial-Aware Waypoints** | arXiv 2026 | VLA/WAM/Physical AI serving / VLN / sparse MLLM invocation / robot navigation | [Link](https://arxiv.org/abs/2609.06476) | — |
 | **P0 · Strong** | **GloVLA: Let Geometry Move and Local VLA Interact for Robust Object-Centric Manipulation in Unstructured Environments** | arXiv 2026 | VLA/WAM/Physical AI serving / hybrid control / inference reduction | [Link](https://arxiv.org/abs/2609.06256) | [Repo](https://glovla-project.github.io/) |
 | **P1 · Watch** | **MobileVLA-R1 2.0: RL-Enhanced Reasoning for Mobile Robot Control** | arXiv 2026 | VLA/WAM/Physical AI serving / mobile robot control / reasoning-action decoupling | [Link](https://arxiv.org/abs/2609.06251) | [Repo](https://github.com/AIGeeksGroup/MobileVLA-R1-2.0) |
@@ -132,6 +134,7 @@
 | **P0 · Strong** | **Latency-Aware Orchestration for Multi-Agent LLM Workflows on Heterogeneous GPUs** | arXiv 2026 | efficient reasoning/agent systems / heterogeneous GPU serving | [Link](https://arxiv.org/abs/2609.03335) | — |
 | **P0 · Strong** | **Iapetus: Content-Aware Hierarchical Scheduling for Collaborative ViT Inference in LEO Satellite Networks** | CoRR 2026 | edge/cloud/heterogeneous AI systems / collaborative ViT inference / token compression / layer offloading | [Link](https://arxiv.org/abs/2609.03318) | — |
 | **P1 · Watch** | **SGD-KV: Summarization Guided KV Cache Compression** | Fresh / preprint | KV cache/long-context | [Link](https://arxiv.org/abs/2609.03235) | — |
+| **P1 · Watch** | **FailureSpot: Label-Efficient Timestamp-Level Failure Detection for Vision-Language-Action Models** | arXiv 2026 | VLA/WAM/Physical AI serving / failure detection / runtime safety | [Link](https://arxiv.org/abs/2609.04277) | — |
 | **P0 · Strong** | **Following a Unique Path: A Fast Certifier Applied to Outlier-Robust Pose Registration** | arXiv 2026 | VLA/WAM/Physical AI serving / robotic perception / optimization runtime | [Link](https://arxiv.org/abs/2609.03222) | — |
 | **P1 · Watch** | **RoboTok: An Internet-Scale Data Engine for Human Demonstration Retrieval and Dexterous Manipulation Learning** | arXiv 2026 | VLA/WAM/Physical AI serving / data engine / scalable demonstration retrieval | [Link](https://arxiv.org/abs/2609.03199) | — |
 | **P0 · Strong** | **Jina-OCR-v1: Efficient Document Parsing with Speculative Decoding and Dense Verifiable Rewards** | arXiv 2026 | multimodal/MLLM serving / speculative decoding / efficient OCR | [Link](https://arxiv.org/abs/2609.03181) | [Repo](https://huggingface.co/jinaai/jina-ocr-v1) |

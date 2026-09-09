@@ -1,15 +1,16 @@
 # 11 · Video / Image Generation
 
-> **81 canonical papers** mapped here, plus a broader **28-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **81 canonical papers** mapped here, plus a broader **29-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 28 tracked
+## 🆕 Latest 30 Days · 29 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **P1 · Watch** | **LightSplat: Real-Time High-Fidelity 3D Gaussian SLAM with Loop Closure** | arXiv 2026 | VLA/WAM/Physical AI serving / 3DGS / real-time SLAM | [Link](https://arxiv.org/abs/2609.07274) | — |
 | **P0 · Strong** | **RoLA: Rotary-Positioned Low-Rank Linear Attention for Efficient Diffusion Transformers** | arXiv 2026 | video/image generation acceleration / diffusion/flow acceleration / efficient attention | [Link](https://arxiv.org/abs/2609.06712) | — |
+| **P1 · Watch** | **From Splats to Silicon: Rethinking Computational Efficiency of 3DGS** | arXiv 2026 | GPU kernel/DSL/compilers / 3DGS acceleration / accelerator architecture | [Link](https://arxiv.org/abs/2609.06157) | — |
 | **P0 · Strong** | **TBDub: Production-Oriented Visual Dubbing** | arXiv 2026 | video/image generation acceleration / diffusion/flow acceleration / few-step distillation | [Link](https://arxiv.org/abs/2609.06144) | [Repo](https://github.com/TaoLiveAIGC/TBDub) |
 | **P0 · Strong** | **SceneMosaic: Efficient and Diverse Simulation-Ready Scene Generation via Hybrid Agentic Layout Evolution** | arXiv 2026 | VLA/WAM/Physical AI serving / simulation infrastructure / agentic generation | [Link](https://arxiv.org/abs/2609.05594) | [Repo](https://github.com/rxjfighting/SceneMosaic) |
 | **P0 · Strong** | **DSAQuant: Denoising-Stage-Aligned Quantization-Aware Training for Video Generation** | CoRR 2026 | quantization / video generation acceleration / diffusion inference | [Link](https://arxiv.org/abs/2609.04031) | [Repo](https://github.com/robbyant-research/DSAQuant) |

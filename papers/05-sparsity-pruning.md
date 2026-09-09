@@ -1,10 +1,10 @@
 # 05 · Sparsity / Pruning
 
-> **266 canonical papers** mapped here, plus a broader **102-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **267 canonical papers** mapped here, plus a broader **104-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 102 tracked
+## 🆕 Latest 30 Days · 104 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -27,6 +27,7 @@
 | **P0 · Strong** | **Poseidon: DAG-Guided Parallelism Search for LLM Pre-Training on Heterogeneous Clusters** | arXiv 2026 | distributed training/inference / heterogeneous clusters / parallelism search | [Link](https://arxiv.org/abs/2609.06086) | — |
 | **P1 · Watch** | **Beyond Retraining-Free MoE Compression: A Cost-Normalized Study of Post-Compression Adjustment** | arXiv 2026 | MoE systems/accelerators / compression / deployment memory / adjustment cost | [Link](https://arxiv.org/abs/2609.06076) | — |
 | **P0 · Strong** | **STAR-Pro: Stage-Wise Token Adaptive Reduction with Progressive Refinement for Efficient Large Vision-Language Models** | arXiv 2026 | multimodal/MLLM serving / visual token pruning / adaptive compute | [Link](https://arxiv.org/abs/2609.05916) | [Repo](https://github.com/EasonAI-5589/starpro) |
+| **P0 · Strong** | **Lightweight Vision Transformer Compression for On-Device Plant Disease Detection in Resource-Constrained Agricultural Field Conditions** | arXiv 2026 | quantization / sparsity-pruning / edge AI deployment | [Link](https://arxiv.org/abs/2609.05334) | — |
 | **P0 · Strong** | **Don't Drop Dropout: Optimizing Layer Sparsity for Efficient LLM Training and Inference** | ICML 2026 | LLM training efficiency / layer sparsity / early exit / self-speculative decoding | [Link](https://arxiv.org/abs/2609.05275) | — |
 | **P0 · Strong** | **From 80x to 385x: A Best-Matching-Unit Search at the L2 Roof, Measured Against a Symmetrically Tuned Baseline** | arXiv 2026 | GPU kernel/DSL/compilers / memory-bandwidth optimization / sparse search | [Link](https://arxiv.org/abs/2609.05138) | — |
 | **P1 · Watch** | **Deep Microcompression: Structured Pruning and Bit-packed Quantization for Microcontrollers** | arXiv 2026 | edge/cloud/heterogeneous AI systems / microcontroller inference / pruning / quantization | [Link](https://arxiv.org/abs/2609.05081) | — |
@@ -39,6 +40,7 @@
 | **P1 · Watch** | **TAP-Path: Task-Adaptive Structural and Token Pruning for Efficient and Trustworthy Pathology Foundation Models** | arXiv 2026 | sparsity/pruning / multimodal models / efficient inference | [Link](https://arxiv.org/abs/2609.04071) | — |
 | **P0 · Strong** | **CoFiE: Coarse-to-Fine Evidence Selection for Efficient Streaming Video Understanding** | arXiv 2026 | multimodal/MLLM serving / sparsity / streaming video | [Link](https://arxiv.org/abs/2609.03675) | — |
 | **P0 · Strong** | **Spruce: Scalable Private Outsourced Retrieval Using Compact Embeddings** | arXiv 2026 | LLM serving / RAG retrieval / privacy-preserving systems / efficient retrieval | [Link](https://arxiv.org/abs/2609.03376) | — |
+| **P1 · Watch** | **FailureSpot: Label-Efficient Timestamp-Level Failure Detection for Vision-Language-Action Models** | arXiv 2026 | VLA/WAM/Physical AI serving / failure detection / runtime safety | [Link](https://arxiv.org/abs/2609.04277) | — |
 | **P0 · Strong** | **Following a Unique Path: A Fast Certifier Applied to Outlier-Robust Pose Registration** | arXiv 2026 | VLA/WAM/Physical AI serving / robotic perception / optimization runtime | [Link](https://arxiv.org/abs/2609.03222) | — |
 | **P0 · Strong** | **MemoryLACE: Memory Lifecycle-Aware Consolidation and Evidence Retrieval** | arXiv 2026 | efficient reasoning/agent systems / long-term agent memory / runtime efficiency | [Link](https://arxiv.org/abs/2609.03201) | — |
 | **P1 · Watch** | **Who Speaks for the Pruned? Visual Token Pruning as Coverage Optimization** | arXiv 2026 | multimodal/MLLM serving / sparsity/pruning / visual token pruning | [Link](https://arxiv.org/abs/2609.03158) | — |

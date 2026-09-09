@@ -4505,6 +4505,28 @@
     ]
   },
   {
+    "title": "Lightweight Vision Transformer Compression for On-Device Plant Disease Detection in Resource-Constrained Agricultural Field Conditions",
+    "venue": "arXiv 2026",
+    "topic": "quantization / sparsity-pruning / edge AI deployment",
+    "arxiv": "2609.05334",
+    "doi": "",
+    "official_id": "arXiv:2609.05334",
+    "paper_url": "https://arxiv.org/abs/2609.05334",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Unified H-BAC pruning, quantization and distillation pipeline for on-device ViT deployment. Primary results retain 95.13% baseline accuracy while reducing model size by 74-98%; the fully integrated configuration compresses 327.42 MB to 6.01 MB, a 54.5x size reduction, with 95.13 +/- 2.32% accuracy. The paper also fairly reports that a directly trained same-size student can be competitive, making the deployment trade-off especially useful.",
+    "published_at": "2026-09-04T16:40:06Z",
+    "updated_at": "2026-09-04T16:40:06Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Quantization",
+      "Sparsity / Pruning",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "LiveVVT: High-Fidelity Video Virtual Try-On in Real Time",
     "venue": "arXiv 2026",
     "topic": "video generation acceleration / streaming diffusion / rolling recurrent generation / few-step distillation",
