@@ -2977,6 +2977,27 @@
     ]
   },
   {
+    "title": "CMD: An Integrated CGRA Framework with Cluster-Based Distributed Memory Design",
+    "venue": "arXiv 2026",
+    "topic": "GPU kernel/DSL/compilers / accelerators / CGRA / memory-aware compilation",
+    "arxiv": "2609.05982",
+    "doi": "",
+    "official_id": "arXiv:2609.05982",
+    "paper_url": "https://arxiv.org/abs/2609.05982",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "7d systematic replay recovered an integrated reconfigurable-accelerator framework with co-designed memory-aware compiler and design-space exploration. Post-DSE CMD CGRAs report 1.39x average speedup over a conventional CGRA while reducing total area to 0.912x on average, providing measured architecture/compiler efficiency evidence.",
+    "published_at": "2026-09-05T08:55:07Z",
+    "updated_at": "2026-09-05T08:55:07Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "Codebook Agent: Amortized Topology Design for LLM Multi-Agent Systems",
     "venue": "arXiv 2026",
     "topic": "efficient reasoning/agent systems / multi-agent topology / inference cost",
@@ -4564,6 +4585,27 @@
     ]
   },
   {
+    "title": "MedFlow: Class-Aware Multi-Scale Generation for Medical Time-Series Synthesis",
+    "venue": "arXiv 2026",
+    "topic": "diffusion/flow acceleration / generative inference / sampling throughput / time-series",
+    "arxiv": "2609.04804",
+    "doi": "",
+    "official_id": "arXiv:2609.04804",
+    "paper_url": "https://arxiv.org/abs/2609.04804",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "7d replay recovered a flow-matching generation system with direct measured sampling efficiency. Across four medical time-series datasets it reports 3.8x higher sampling throughput while also improving downstream utility and Context-FID, making it relevant to diffusion/flow inference efficiency despite the application domain.",
+    "published_at": "2026-09-04T07:02:12Z",
+    "updated_at": "2026-09-04T07:02:12Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "MemForest: Efficient Agent Memory Management via EventTree Partitioning and Progressive Merging",
     "venue": "arXiv 2026",
     "topic": "efficient reasoning/agent systems / memory compression / retrieval",
@@ -5593,6 +5635,27 @@
     ]
   },
   {
+    "title": "Scalability Analysis of Distributed Kolmogorov-Arnold Network Training on High-Performance Computing Systems",
+    "venue": "arXiv 2026",
+    "topic": "distributed training/inference / multi-GPU scaling / HPC / DDP",
+    "arxiv": "2609.07740",
+    "doi": "",
+    "official_id": "arXiv:2609.07740",
+    "paper_url": "https://arxiv.org/abs/2609.07740",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "7d lower-rank replay recovered a direct empirical multi-node multi-GPU scaling study. KAN data-parallel training reaches 5.97x speedup and 74.7% parallel efficiency at 8 NVIDIA A100 GPUs across 4 nodes, with communication overhead characterized at 1.3%-6.1%. This is concrete distributed-training systems evidence rather than only an algorithmic KAN paper.",
+    "published_at": "2026-09-07T16:45:20Z",
+    "updated_at": "2026-09-07T16:45:20Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "Scalable Context Orchestration for Serving LLMs Over Voice",
     "venue": "arXiv 2026",
     "topic": "LLM serving / multimodal voice serving / context management middleware",
@@ -6186,6 +6249,29 @@
       "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "TrajMind: Chaining Role-Specialized LoRAs for Fast-and-Slow Collective Trajectory Anomaly Diagnosis",
+    "venue": "arXiv 2026",
+    "topic": "efficient reasoning/agent systems / multimodal serving / conditional execution / LoRA routing",
+    "arxiv": "2609.02540",
+    "doi": "",
+    "official_id": "arXiv:2609.02540",
+    "paper_url": "https://arxiv.org/abs/2609.02540",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "7d replay recovered a fast-and-slow multimodal diagnostic architecture that avoids executing the full diagnosis path for every monitored window. The fast path reduces latency by 41.1% while maintaining at least 93.5% binary balanced accuracy, making conditional agent/model execution a directly measured efficiency contribution.",
+    "published_at": "2026-09-02T12:51:55Z",
+    "updated_at": "2026-09-04T08:07:59Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference",
+      "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents"
     ]
   },
   {

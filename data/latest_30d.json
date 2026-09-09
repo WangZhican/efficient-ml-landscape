@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-09",
   "window_start_beijing": "2026-08-10",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 522,
+  "tracked_total": 528,
   "p0_strong_or_canonical": [
     {
       "title": "Ostrich: Taking Large Strides Through Stiff Contact in Differentiable Dynamics",
@@ -311,6 +311,27 @@
         "Distributed Training / Inference",
         "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Scalability Analysis of Distributed Kolmogorov-Arnold Network Training on High-Performance Computing Systems",
+      "venue": "arXiv 2026",
+      "topic": "distributed training/inference / multi-GPU scaling / HPC / DDP",
+      "arxiv": "2609.07740",
+      "doi": "",
+      "official_id": "arXiv:2609.07740",
+      "paper_url": "https://arxiv.org/abs/2609.07740",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "7d lower-rank replay recovered a direct empirical multi-node multi-GPU scaling study. KAN data-parallel training reaches 5.97x speedup and 74.7% parallel efficiency at 8 NVIDIA A100 GPUs across 4 nodes, with communication overhead characterized at 1.3%-6.1%. This is concrete distributed-training systems evidence rather than only an algorithmic KAN paper.",
+      "published_at": "2026-09-07T16:45:20Z",
+      "updated_at": "2026-09-07T16:45:20Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference"
       ]
     },
     {
@@ -947,6 +968,27 @@
       ]
     },
     {
+      "title": "CMD: An Integrated CGRA Framework with Cluster-Based Distributed Memory Design",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / accelerators / CGRA / memory-aware compilation",
+      "arxiv": "2609.05982",
+      "doi": "",
+      "official_id": "arXiv:2609.05982",
+      "paper_url": "https://arxiv.org/abs/2609.05982",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "7d systematic replay recovered an integrated reconfigurable-accelerator framework with co-designed memory-aware compiler and design-space exploration. Post-DSE CMD CGRAs report 1.39x average speedup over a conventional CGRA while reducing total area to 0.912x on average, providing measured architecture/compiler efficiency evidence.",
+      "published_at": "2026-09-05T08:55:07Z",
+      "updated_at": "2026-09-05T08:55:07Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference"
+      ]
+    },
+    {
       "title": "STAR-Pro: Stage-Wise Token Adaptive Reduction with Progressive Refinement for Efficient Large Vision-Language Models",
       "venue": "arXiv 2026",
       "topic": "multimodal/MLLM serving / visual token pruning / adaptive compute",
@@ -1254,6 +1296,27 @@
         "Efficient Attention",
         "GPU Kernel / DSL / Compiler",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "MedFlow: Class-Aware Multi-Scale Generation for Medical Time-Series Synthesis",
+      "venue": "arXiv 2026",
+      "topic": "diffusion/flow acceleration / generative inference / sampling throughput / time-series",
+      "arxiv": "2609.04804",
+      "doi": "",
+      "official_id": "arXiv:2609.04804",
+      "paper_url": "https://arxiv.org/abs/2609.04804",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "7d replay recovered a flow-matching generation system with direct measured sampling efficiency. Across four medical time-series datasets it reports 3.8x higher sampling throughput while also improving downstream utility and Context-FID, making it relevant to diffusion/flow inference efficiency despite the application domain.",
+      "published_at": "2026-09-04T07:02:12Z",
+      "updated_at": "2026-09-04T07:02:12Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Diffusion / Flow Acceleration"
       ]
     },
     {
@@ -2289,6 +2352,29 @@
       "is_latest_30d": true,
       "tracking_tier": "P0 · Strong",
       "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "TrajMind: Chaining Role-Specialized LoRAs for Fast-and-Slow Collective Trajectory Anomaly Diagnosis",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / multimodal serving / conditional execution / LoRA routing",
+      "arxiv": "2609.02540",
+      "doi": "",
+      "official_id": "arXiv:2609.02540",
+      "paper_url": "https://arxiv.org/abs/2609.02540",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "7d replay recovered a fast-and-slow multimodal diagnostic architecture that avoids executing the full diagnosis path for every monitored window. The fast path reduces latency by 41.1% while maintaining at least 93.5% binary balanced accuracy, making conditional agent/model execution a directly measured efficiency contribution.",
+      "published_at": "2026-09-02T12:51:55Z",
+      "updated_at": "2026-09-04T08:07:59Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference",
+        "Multimodal / MLLM Serving",
         "Efficient Reasoning / Agents"
       ]
     },
@@ -3658,6 +3744,28 @@
       ]
     },
     {
+      "title": "The OCUDU dApp Platform: An Open Runtime and E3 Interface for Real-Time AI-RAN",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / real-time AI-RAN / GPU runtime / edge orchestration",
+      "arxiv": "2609.07843",
+      "doi": "",
+      "official_id": "arXiv:2609.07843",
+      "paper_url": "https://arxiv.org/abs/2609.07843",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected edge/heterogeneous replay recovered an open production-DU runtime that supports GPU-resident receive-chain apps, scheduler-path apps under a 100 us admitted deadline, and never-blocking observer apps. Live GB10 gNB validation shows all three classes running together without fallback. It is highly relevant real-time AI infrastructure, but the abstract does not provide a comparative throughput or speedup baseline, so it remains high-value watch.",
+      "published_at": "2026-09-07T18:03:21Z",
+      "updated_at": "2026-09-07T18:03:21Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Real-Time dApps for AI-RAN: Measured Interface Requirements for Inline PHY and Slot-Level Control",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI systems / AI-RAN / low-latency runtime interface",
@@ -3676,6 +3784,28 @@
       "directions": [
         "LLM Serving",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Anti-Gravity Walking by a Flying Humanoid Robot via Thrust-Rate Input Whole-Body Model Predictive Control",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / robot control / real-time MPC / humanoid",
+      "arxiv": "2609.07544",
+      "doi": "",
+      "official_id": "arXiv:2609.07544",
+      "paper_url": "https://arxiv.org/abs/2609.07544",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI replay recovered a real-time whole-body MPC implementation for a flying humanoid, including sparse optimal-control structure and hardware demonstration under contact switching. This is deployment-relevant compute/control evidence, but the abstract does not provide absolute controller latency, throughput, or a comparative runtime speedup, so it remains high-value watch rather than canonical-high.",
+      "published_at": "2026-09-07T14:27:33Z",
+      "updated_at": "2026-09-07T14:27:33Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -11662,6 +11792,27 @@
       ]
     },
     {
+      "title": "Scalability Analysis of Distributed Kolmogorov-Arnold Network Training on High-Performance Computing Systems",
+      "venue": "arXiv 2026",
+      "topic": "distributed training/inference / multi-GPU scaling / HPC / DDP",
+      "arxiv": "2609.07740",
+      "doi": "",
+      "official_id": "arXiv:2609.07740",
+      "paper_url": "https://arxiv.org/abs/2609.07740",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "7d lower-rank replay recovered a direct empirical multi-node multi-GPU scaling study. KAN data-parallel training reaches 5.97x speedup and 74.7% parallel efficiency at 8 NVIDIA A100 GPUs across 4 nodes, with communication overhead characterized at 1.3%-6.1%. This is concrete distributed-training systems evidence rather than only an algorithmic KAN paper.",
+      "published_at": "2026-09-07T16:45:20Z",
+      "updated_at": "2026-09-07T16:45:20Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference"
+      ]
+    },
+    {
       "title": "TFTrack: A Template-Free Framework for Efficient 3D Point Cloud Tracking",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / efficient perception / 3D tracking",
@@ -12295,6 +12446,27 @@
       ]
     },
     {
+      "title": "CMD: An Integrated CGRA Framework with Cluster-Based Distributed Memory Design",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / accelerators / CGRA / memory-aware compilation",
+      "arxiv": "2609.05982",
+      "doi": "",
+      "official_id": "arXiv:2609.05982",
+      "paper_url": "https://arxiv.org/abs/2609.05982",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "7d systematic replay recovered an integrated reconfigurable-accelerator framework with co-designed memory-aware compiler and design-space exploration. Post-DSE CMD CGRAs report 1.39x average speedup over a conventional CGRA while reducing total area to 0.912x on average, providing measured architecture/compiler efficiency evidence.",
+      "published_at": "2026-09-05T08:55:07Z",
+      "updated_at": "2026-09-05T08:55:07Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference"
+      ]
+    },
+    {
       "title": "STAR-Pro: Stage-Wise Token Adaptive Reduction with Progressive Refinement for Efficient Large Vision-Language Models",
       "venue": "arXiv 2026",
       "topic": "multimodal/MLLM serving / visual token pruning / adaptive compute",
@@ -12602,6 +12774,27 @@
         "Efficient Attention",
         "GPU Kernel / DSL / Compiler",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "MedFlow: Class-Aware Multi-Scale Generation for Medical Time-Series Synthesis",
+      "venue": "arXiv 2026",
+      "topic": "diffusion/flow acceleration / generative inference / sampling throughput / time-series",
+      "arxiv": "2609.04804",
+      "doi": "",
+      "official_id": "arXiv:2609.04804",
+      "paper_url": "https://arxiv.org/abs/2609.04804",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "7d replay recovered a flow-matching generation system with direct measured sampling efficiency. Across four medical time-series datasets it reports 3.8x higher sampling throughput while also improving downstream utility and Context-FID, making it relevant to diffusion/flow inference efficiency despite the application domain.",
+      "published_at": "2026-09-04T07:02:12Z",
+      "updated_at": "2026-09-04T07:02:12Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Diffusion / Flow Acceleration"
       ]
     },
     {
@@ -13637,6 +13830,29 @@
       "is_latest_30d": true,
       "tracking_tier": "P0 · Strong",
       "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "TrajMind: Chaining Role-Specialized LoRAs for Fast-and-Slow Collective Trajectory Anomaly Diagnosis",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / multimodal serving / conditional execution / LoRA routing",
+      "arxiv": "2609.02540",
+      "doi": "",
+      "official_id": "arXiv:2609.02540",
+      "paper_url": "https://arxiv.org/abs/2609.02540",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "7d replay recovered a fast-and-slow multimodal diagnostic architecture that avoids executing the full diagnosis path for every monitored window. The fast path reduces latency by 41.1% while maintaining at least 93.5% binary balanced accuracy, making conditional agent/model execution a directly measured efficiency contribution.",
+      "published_at": "2026-09-02T12:51:55Z",
+      "updated_at": "2026-09-04T08:07:59Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference",
+        "Multimodal / MLLM Serving",
         "Efficient Reasoning / Agents"
       ]
     },
@@ -15004,6 +15220,28 @@
       ]
     },
     {
+      "title": "The OCUDU dApp Platform: An Open Runtime and E3 Interface for Real-Time AI-RAN",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / real-time AI-RAN / GPU runtime / edge orchestration",
+      "arxiv": "2609.07843",
+      "doi": "",
+      "official_id": "arXiv:2609.07843",
+      "paper_url": "https://arxiv.org/abs/2609.07843",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected edge/heterogeneous replay recovered an open production-DU runtime that supports GPU-resident receive-chain apps, scheduler-path apps under a 100 us admitted deadline, and never-blocking observer apps. Live GB10 gNB validation shows all three classes running together without fallback. It is highly relevant real-time AI infrastructure, but the abstract does not provide a comparative throughput or speedup baseline, so it remains high-value watch.",
+      "published_at": "2026-09-07T18:03:21Z",
+      "updated_at": "2026-09-07T18:03:21Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Real-Time dApps for AI-RAN: Measured Interface Requirements for Inline PHY and Slot-Level Control",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI systems / AI-RAN / low-latency runtime interface",
@@ -15022,6 +15260,28 @@
       "directions": [
         "LLM Serving",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Anti-Gravity Walking by a Flying Humanoid Robot via Thrust-Rate Input Whole-Body Model Predictive Control",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / robot control / real-time MPC / humanoid",
+      "arxiv": "2609.07544",
+      "doi": "",
+      "official_id": "arXiv:2609.07544",
+      "paper_url": "https://arxiv.org/abs/2609.07544",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI replay recovered a real-time whole-body MPC implementation for a flying humanoid, including sparse optimal-control structure and hardware demonstration under contact switching. This is deployment-relevant compute/control evidence, but the abstract does not provide absolute controller latency, throughput, or a comparative runtime speedup, so it remains high-value watch rather than canonical-high.",
+      "published_at": "2026-09-07T14:27:33Z",
+      "updated_at": "2026-09-07T14:27:33Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
