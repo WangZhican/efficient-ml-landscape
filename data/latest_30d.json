@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-10",
   "window_start_beijing": "2026-08-11",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 522,
+  "tracked_total": 527,
   "p0_strong_or_canonical": [
     {
       "title": "Distributed Linear Programming on GPU Clusters at Extreme Scale",
@@ -421,6 +421,27 @@
         "MoE Systems / Accelerators",
         "GPU Kernel / DSL / Compiler",
         "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "TASTE: Throughput-Aware Batch Size Tuning for On-Device Edge Learning",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / on-device learning / throughput tuning",
+      "arxiv": "2609.07444",
+      "doi": "",
+      "official_id": "arXiv:2609.07444",
+      "paper_url": "https://arxiv.org/abs/2609.07444",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Bayesian-optimization-based batch-size tuning for on-device training explicitly targets hardware throughput ceilings across edge devices. With gradient accumulation and linear learning-rate scaling, the paper reports up to 2x training-throughput improvement on Raspberry Pi 4 versus maximum-batch-size settings without accuracy loss.",
+      "published_at": "2026-09-07T12:50:32Z",
+      "updated_at": "2026-09-07T12:50:32Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -860,6 +881,28 @@
       ]
     },
     {
+      "title": "Diamond Agent: Agentic Control of Federated HPC Resources as a Service",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / distributed training/inference / heterogeneous HPC orchestration",
+      "arxiv": "2609.06181",
+      "doi": "",
+      "official_id": "arXiv:2609.06181",
+      "paper_url": "https://arxiv.org/abs/2609.06181",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Agentic federated-HPC runtime with typed skills, cross-site resource discovery, Globus data movement, live queue-aware placement, and event-driven continuation. Across 27 hours of telemetry and 19 matched multi-site rounds (83 jobs) on four production supercomputers, it reduces median additional completion time relative to the fastest observed placement from 42 s to 4 s, a 10.5x reduction versus fixed-site placement.",
+      "published_at": "2026-09-05T16:52:55Z",
+      "updated_at": "2026-09-05T16:52:55Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "AutoUVM: Automated Prefetching Framework for LLMs under UVM Oversubscription",
       "venue": "arXiv 2026",
       "topic": "LLM serving / memory oversubscription / UVM prefetching / heterogeneous memory",
@@ -1008,6 +1051,26 @@
       "directions": [
         "GPU Kernel / DSL / Compiler",
         "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "GPU-Accelerated Gate-Level Time-Based Power Analysis via Event-Density-Aware Partitioning and Kernel Fusion",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / EDA acceleration / kernel fusion / workload partitioning",
+      "arxiv": "2609.05960",
+      "doi": "",
+      "official_id": "arXiv:2609.05960",
+      "paper_url": "https://arxiv.org/abs/2609.05960",
+      "code_url": "https://yikangoy.github.io/publications/",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "First GPU-accelerated gate-level time-based power analysis framework, combining state-dependent power retrieval, event-density-aware GPU thread partitioning, and fused power-computation kernels. The primary abstract reports up to 37.63x end-to-end speedup over multi-threaded Synopsys PrimeTime PX while maintaining high accuracy.",
+      "published_at": "2026-09-05T07:53:52Z",
+      "updated_at": "2026-09-05T07:53:52Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
       ]
     },
     {
@@ -3846,6 +3909,28 @@
       ]
     },
     {
+      "title": "ECOKV: Geometry-Aware KV Cache Eviction via Complementary Diversity Metrics",
+      "venue": "arXiv 2026",
+      "topic": "KV cache/long-context / multimodal MLLM serving / cache eviction",
+      "arxiv": "2609.06663",
+      "doi": "",
+      "official_id": "arXiv:2609.06663",
+      "paper_url": "https://arxiv.org/abs/2609.06663",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Directly relevant KV-cache compression work for multimodal LLMs: complementary Euclidean and cosine diversity metrics estimate per-head redundancy and adaptively balance diversity and importance while reducing the recent-token observation window. The primary abstract reports state-of-the-art quality across compression ratios but no measured end-to-end latency, throughput, or memory-speedup number, so it remains high-value watch.",
+      "published_at": "2026-09-06T15:13:48Z",
+      "updated_at": "2026-09-06T15:13:48Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
       "title": "One MLLM, One Call: Efficient Zero-Shot Vision-and-Language Navigation via Spatial-Aware Waypoints",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / VLN / sparse MLLM invocation / robot navigation",
@@ -4001,6 +4086,28 @@
         "LLM Serving",
         "GPU Kernel / DSL / Compiler",
         "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "RoboSPA: Can VLA Models Go Beyond Simple Scenes and Short-Horizon Tasks?",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / benchmark / long-horizon embodied reasoning",
+      "arxiv": "2609.05324",
+      "doi": "",
+      "official_id": "arXiv:2609.05324",
+      "paper_url": "https://arxiv.org/abs/2609.05324",
+      "code_url": "https://github.com/fanzhenxuan/RoboSPA",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI benchmark with 10 task categories, 56 base tasks, 280 difficulty variants and 527K trajectories across multiple embodiments. It exposes spatial, execution, and memory-intensive planning failures in current VLAs and provides official data/code, but it is primarily a diagnostic benchmark rather than an efficiency/runtime contribution, so it remains high-value watch.",
+      "published_at": "2026-09-04T16:19:01Z",
+      "updated_at": "2026-09-04T16:19:01Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -11766,6 +11873,27 @@
       ]
     },
     {
+      "title": "TASTE: Throughput-Aware Batch Size Tuning for On-Device Edge Learning",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / on-device learning / throughput tuning",
+      "arxiv": "2609.07444",
+      "doi": "",
+      "official_id": "arXiv:2609.07444",
+      "paper_url": "https://arxiv.org/abs/2609.07444",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Bayesian-optimization-based batch-size tuning for on-device training explicitly targets hardware throughput ceilings across edge devices. With gradient accumulation and linear learning-rate scaling, the paper reports up to 2x training-throughput improvement on Raspberry Pi 4 versus maximum-batch-size settings without accuracy loss.",
+      "published_at": "2026-09-07T12:50:32Z",
+      "updated_at": "2026-09-07T12:50:32Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "PV-WM: A Heterogeneous Micro-Macro World Model for Articulated Pedestrian-Vehicle Co-Rollout",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / world model / efficient rollout",
@@ -12202,6 +12330,28 @@
       ]
     },
     {
+      "title": "Diamond Agent: Agentic Control of Federated HPC Resources as a Service",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / distributed training/inference / heterogeneous HPC orchestration",
+      "arxiv": "2609.06181",
+      "doi": "",
+      "official_id": "arXiv:2609.06181",
+      "paper_url": "https://arxiv.org/abs/2609.06181",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Agentic federated-HPC runtime with typed skills, cross-site resource discovery, Globus data movement, live queue-aware placement, and event-driven continuation. Across 27 hours of telemetry and 19 matched multi-site rounds (83 jobs) on four production supercomputers, it reduces median additional completion time relative to the fastest observed placement from 42 s to 4 s, a 10.5x reduction versus fixed-site placement.",
+      "published_at": "2026-09-05T16:52:55Z",
+      "updated_at": "2026-09-05T16:52:55Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "AutoUVM: Automated Prefetching Framework for LLMs under UVM Oversubscription",
       "venue": "arXiv 2026",
       "topic": "LLM serving / memory oversubscription / UVM prefetching / heterogeneous memory",
@@ -12350,6 +12500,26 @@
       "directions": [
         "GPU Kernel / DSL / Compiler",
         "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "GPU-Accelerated Gate-Level Time-Based Power Analysis via Event-Density-Aware Partitioning and Kernel Fusion",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / EDA acceleration / kernel fusion / workload partitioning",
+      "arxiv": "2609.05960",
+      "doi": "",
+      "official_id": "arXiv:2609.05960",
+      "paper_url": "https://arxiv.org/abs/2609.05960",
+      "code_url": "https://yikangoy.github.io/publications/",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "First GPU-accelerated gate-level time-based power analysis framework, combining state-dependent power retrieval, event-density-aware GPU thread partitioning, and fused power-computation kernels. The primary abstract reports up to 37.63x end-to-end speedup over multi-threaded Synopsys PrimeTime PX while maintaining high accuracy.",
+      "published_at": "2026-09-05T07:53:52Z",
+      "updated_at": "2026-09-05T07:53:52Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
       ]
     },
     {
@@ -15186,6 +15356,28 @@
       ]
     },
     {
+      "title": "ECOKV: Geometry-Aware KV Cache Eviction via Complementary Diversity Metrics",
+      "venue": "arXiv 2026",
+      "topic": "KV cache/long-context / multimodal MLLM serving / cache eviction",
+      "arxiv": "2609.06663",
+      "doi": "",
+      "official_id": "arXiv:2609.06663",
+      "paper_url": "https://arxiv.org/abs/2609.06663",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Directly relevant KV-cache compression work for multimodal LLMs: complementary Euclidean and cosine diversity metrics estimate per-head redundancy and adaptively balance diversity and importance while reducing the recent-token observation window. The primary abstract reports state-of-the-art quality across compression ratios but no measured end-to-end latency, throughput, or memory-speedup number, so it remains high-value watch.",
+      "published_at": "2026-09-06T15:13:48Z",
+      "updated_at": "2026-09-06T15:13:48Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
       "title": "One MLLM, One Call: Efficient Zero-Shot Vision-and-Language Navigation via Spatial-Aware Waypoints",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / VLN / sparse MLLM invocation / robot navigation",
@@ -15341,6 +15533,28 @@
         "LLM Serving",
         "GPU Kernel / DSL / Compiler",
         "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "RoboSPA: Can VLA Models Go Beyond Simple Scenes and Short-Horizon Tasks?",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / benchmark / long-horizon embodied reasoning",
+      "arxiv": "2609.05324",
+      "doi": "",
+      "official_id": "arXiv:2609.05324",
+      "paper_url": "https://arxiv.org/abs/2609.05324",
+      "code_url": "https://github.com/fanzhenxuan/RoboSPA",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI benchmark with 10 task categories, 56 base tasks, 280 difficulty variants and 527K trajectories across multiple embodiments. It exposes spatial, execution, and memory-intensive planning failures in current VLAs and provides official data/code, but it is primarily a diagnostic benchmark rather than an efficiency/runtime contribution, so it remains high-value watch.",
+      "published_at": "2026-09-04T16:19:01Z",
+      "updated_at": "2026-09-04T16:19:01Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {

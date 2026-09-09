@@ -3253,6 +3253,28 @@
     ]
   },
   {
+    "title": "Diamond Agent: Agentic Control of Federated HPC Resources as a Service",
+    "venue": "arXiv 2026",
+    "topic": "efficient reasoning/agent systems / distributed training/inference / heterogeneous HPC orchestration",
+    "arxiv": "2609.06181",
+    "doi": "",
+    "official_id": "arXiv:2609.06181",
+    "paper_url": "https://arxiv.org/abs/2609.06181",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Agentic federated-HPC runtime with typed skills, cross-site resource discovery, Globus data movement, live queue-aware placement, and event-driven continuation. Across 27 hours of telemetry and 19 matched multi-site rounds (83 jobs) on four production supercomputers, it reduces median additional completion time relative to the fastest observed placement from 42 s to 4 s, a 10.5x reduction versus fixed-site placement.",
+    "published_at": "2026-09-05T16:52:55Z",
+    "updated_at": "2026-09-05T16:52:55Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Distributed Training / Inference",
+      "Efficient Reasoning / Agents",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Distilled Continuous Diffusion Language Models Can Write Code in Few Steps---or One",
     "venue": "arXiv 2026",
     "topic": "diffusion/flow acceleration / diffusion language models / efficient reasoning",
@@ -3727,6 +3749,26 @@
     "directions": [
       "LLM Serving",
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "GPU-Accelerated Gate-Level Time-Based Power Analysis via Event-Density-Aware Partitioning and Kernel Fusion",
+    "venue": "arXiv 2026",
+    "topic": "GPU kernel/DSL/compilers / EDA acceleration / kernel fusion / workload partitioning",
+    "arxiv": "2609.05960",
+    "doi": "",
+    "official_id": "arXiv:2609.05960",
+    "paper_url": "https://arxiv.org/abs/2609.05960",
+    "code_url": "https://yikangoy.github.io/publications/",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "First GPU-accelerated gate-level time-based power analysis framework, combining state-dependent power retrieval, event-density-aware GPU thread partitioning, and fused power-computation kernels. The primary abstract reports up to 37.63x end-to-end speedup over multi-threaded Synopsys PrimeTime PX while maintaining high accuracy.",
+    "published_at": "2026-09-05T07:53:52Z",
+    "updated_at": "2026-09-05T07:53:52Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {
@@ -6201,6 +6243,27 @@
     "tracking_tier": "P0 · Strong",
     "directions": [
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "TASTE: Throughput-Aware Batch Size Tuning for On-Device Edge Learning",
+    "venue": "arXiv 2026",
+    "topic": "edge/cloud/heterogeneous AI systems / on-device learning / throughput tuning",
+    "arxiv": "2609.07444",
+    "doi": "",
+    "official_id": "arXiv:2609.07444",
+    "paper_url": "https://arxiv.org/abs/2609.07444",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Bayesian-optimization-based batch-size tuning for on-device training explicitly targets hardware throughput ceilings across edge devices. With gradient accumulation and linear learning-rate scaling, the paper reports up to 2x training-throughput improvement on Raspberry Pi 4 versus maximum-batch-size settings without accuracy loss.",
+    "published_at": "2026-09-07T12:50:32Z",
+    "updated_at": "2026-09-07T12:50:32Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
