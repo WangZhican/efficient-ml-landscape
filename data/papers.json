@@ -3256,6 +3256,26 @@
     ]
   },
   {
+    "title": "FlexSpIM: An Event-Based Digital Compute-In-Memory Accelerator with Flexible Operand Resolution and Layer-Wise Hybrid Stationarity",
+    "venue": "arXiv 2026",
+    "topic": "edge/cloud/heterogeneous AI systems / SNN accelerator / digital CIM",
+    "arxiv": "2609.08446",
+    "doi": "",
+    "official_id": "arXiv:2609.08446",
+    "paper_url": "https://arxiv.org/abs/2609.08446",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "FlexSpIM is a fabricated 40-nm digital compute-in-memory SNN accelerator with bitwise operand-resolution reconfiguration and hybrid layer-wise stationarity. Prototype/system evaluation reports up to 45% energy and 52% latency reduction versus fixed-stationarity approaches while retaining 95.8% DVS gesture accuracy.",
+    "published_at": "2026-09-08T08:50:31Z",
+    "updated_at": "2026-09-08T08:50:31Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "FlowPrefill: Decoupling Preemption from Prefill Scheduling Granularity to Mitigate Head-of-Line Blocking in LLM Serving",
     "venue": "arXiv 2026",
     "topic": "LLM serving / prefill scheduling / operator-level preemption / SLO goodput",

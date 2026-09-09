@@ -1,12 +1,12 @@
 {
-  "unique_papers": 1632,
-  "latest_30d_tracked_total": 448,
-  "latest_30d_quality_gated": 112,
-  "latest_30d_watchlist": 217,
+  "unique_papers": 1633,
+  "latest_30d_tracked_total": 450,
+  "latest_30d_quality_gated": 113,
+  "latest_30d_watchlist": 218,
   "latest_30d_relevant_low_priority": 119,
   "classical_papers": 1520,
   "latest_strong": 45,
-  "papers_with_primary_link": 1610,
+  "papers_with_primary_link": 1611,
   "papers_with_verified_code_link": 459,
   "venues": 93,
   "direction_counts": {
@@ -24,7 +24,7 @@
     "Diffusion / Flow Acceleration": 198,
     "Efficient Reasoning / Agents": 283,
     "VLA / WAM / Physical AI": 118,
-    "Edge / Cloud / Heterogeneous AI": 346
+    "Edge / Cloud / Heterogeneous AI": 347
   },
   "major_group_universe": 201,
   "major_group_status": "SECOND_PASS_NONZERO_UNIVERSE_EXPANDED_TO_201",
@@ -33,5 +33,5 @@
   "venue_active_round_checked": 34,
   "venue_active_round_status": "IN_PROGRESS_NONZERO",
   "source_date_beijing": "2026-09-09",
-  "updated_at_beijing": "2026-09-09T13:05:43+08:00"
+  "updated_at_beijing": "2026-09-09T13:08:22+08:00"
 }

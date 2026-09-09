@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-09",
   "window_start_beijing": "2026-08-10",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 448,
+  "tracked_total": 450,
   "p0_strong_or_canonical": [
     {
       "title": "HDA-MoE: Hybrid Parallelism and Dynamic, Adaptive Scheduling for Mixture-of-Experts with 3D Near-Memory Processing",
@@ -24,6 +24,26 @@
         "LLM Serving",
         "MoE Systems / Accelerators",
         "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "FlexSpIM: An Event-Based Digital Compute-In-Memory Accelerator with Flexible Operand Resolution and Layer-Wise Hybrid Stationarity",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / SNN accelerator / digital CIM",
+      "arxiv": "2609.08446",
+      "doi": "",
+      "official_id": "arXiv:2609.08446",
+      "paper_url": "https://arxiv.org/abs/2609.08446",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "FlexSpIM is a fabricated 40-nm digital compute-in-memory SNN accelerator with bitwise operand-resolution reconfiguration and hybrid layer-wise stationarity. Prototype/system evaluation reports up to 45% energy and 52% latency reduction versus fixed-stationarity approaches while retaining 95.8% DVS gesture accuracy.",
+      "published_at": "2026-09-08T08:50:31Z",
+      "updated_at": "2026-09-08T08:50:31Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -2524,6 +2544,27 @@
         "Sparsity / Pruning",
         "Efficient Attention",
         "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Train Overcomplete, Deploy Compact: Scaling Recovery Capacity for Structured LLM Pruning",
+      "venue": "arXiv 2026",
+      "topic": "sparsity/pruning / structured LLM pruning / recovery",
+      "arxiv": "2609.06974",
+      "doi": "",
+      "official_id": "arXiv:2609.06974",
+      "paper_url": "https://arxiv.org/abs/2609.06974",
+      "code_url": "https://github.com/mmai-laboratory/OverRep",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "OverRep temporarily overparameterizes the recovery module during training and algebraically merges it into an inference-time compact module. It improves retained reasoning by up to 5.5 and 8.4 points at 25% and 50% structured pruning while preserving the compact deployed architecture, but current evidence emphasizes quality recovery rather than measured latency, so retain as high-value watch.",
+      "published_at": "2026-09-07T03:10:32Z",
+      "updated_at": "2026-09-07T03:10:32Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Sparsity / Pruning",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -9763,6 +9804,26 @@
       ]
     },
     {
+      "title": "FlexSpIM: An Event-Based Digital Compute-In-Memory Accelerator with Flexible Operand Resolution and Layer-Wise Hybrid Stationarity",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / SNN accelerator / digital CIM",
+      "arxiv": "2609.08446",
+      "doi": "",
+      "official_id": "arXiv:2609.08446",
+      "paper_url": "https://arxiv.org/abs/2609.08446",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "FlexSpIM is a fabricated 40-nm digital compute-in-memory SNN accelerator with bitwise operand-resolution reconfiguration and hybrid layer-wise stationarity. Prototype/system evaluation reports up to 45% energy and 52% latency reduction versus fixed-stationarity approaches while retaining 95.8% DVS gesture accuracy.",
+      "published_at": "2026-09-08T08:50:31Z",
+      "updated_at": "2026-09-08T08:50:31Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "SequenceO1: End-to-End Ultra-Long (100K) Sequence Modeling in Recommendation with Low-Rank Caching",
       "venue": "arXiv 2026",
       "topic": "LLM/recommendation serving / ultra-long sequence / low-rank caching / fused kernel",
@@ -12258,6 +12319,27 @@
         "Sparsity / Pruning",
         "Efficient Attention",
         "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Train Overcomplete, Deploy Compact: Scaling Recovery Capacity for Structured LLM Pruning",
+      "venue": "arXiv 2026",
+      "topic": "sparsity/pruning / structured LLM pruning / recovery",
+      "arxiv": "2609.06974",
+      "doi": "",
+      "official_id": "arXiv:2609.06974",
+      "paper_url": "https://arxiv.org/abs/2609.06974",
+      "code_url": "https://github.com/mmai-laboratory/OverRep",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "OverRep temporarily overparameterizes the recovery module during training and algebraically merges it into an inference-time compact module. It improves retained reasoning by up to 5.5 and 8.4 points at 25% and 50% structured pruning while preserving the compact deployed architecture, but current evidence emphasizes quality recovery rather than measured latency, so retain as high-value watch.",
+      "published_at": "2026-09-07T03:10:32Z",
+      "updated_at": "2026-09-07T03:10:32Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Sparsity / Pruning",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
