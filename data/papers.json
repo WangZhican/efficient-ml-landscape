@@ -2306,6 +2306,29 @@
     ]
   },
   {
+    "title": "A HIP-Compatible Accelerator Backend for Fourier-Bessel Particle-in-Cell Simulations on CPU/DCU Heterogeneous Clusters",
+    "venue": "arXiv 2026",
+    "topic": "GPU kernel/DSL/compilers / heterogeneous accelerators / HIP portability / distributed runtime",
+    "arxiv": "2609.06680",
+    "doi": "",
+    "official_id": "arXiv:2609.06680",
+    "paper_url": "https://arxiv.org/abs/2609.06680",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "7d systematic replay recovered a concrete heterogeneous accelerator backend that replaces a CUDA-only execution path with HIP-compatible support while preserving the Python workflow. It reports 1.32-1.54x speedup over the original FBPIC implementation on V100, enables DCU execution, and reaches 1.88x strong-scaling speedup on four accelerators plus 2.72x aggregate throughput at about 68% weak-scaling efficiency.",
+    "published_at": "2026-09-06T15:45:04Z",
+    "updated_at": "2026-09-06T15:45:04Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "A Universal Context-Reuse Layer for Cross-Model KV Sharing",
     "venue": "arXiv 2026",
     "topic": "KV cache / LLM serving / cross-model context reuse / multi-agent inference",
@@ -3882,6 +3905,26 @@
     ]
   },
   {
+    "title": "Hidden in Plain Sight: The Overlooked Significance of Canonical Elements for Extreme LLM Sparsity",
+    "venue": "arXiv 2026",
+    "topic": "sparsity/pruning / LLM inference / decoding acceleration / memory efficiency",
+    "arxiv": "2609.06557",
+    "doi": "",
+    "official_id": "arXiv:2609.06557",
+    "paper_url": "https://arxiv.org/abs/2609.06557",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "7d full-PASS lower-rank replay recovered a directly measured extreme-sparsity LLM inference result. Progressive second-order sparsification plus continued training preserves useful quality to 95-99% sparsity; on LLaMA-2-7B the paper reports 3.23x decoding speedup and 6.21x memory savings at 95% sparsity, making it directly relevant to efficient inference rather than only model compression.",
+    "published_at": "2026-09-06T12:05:32Z",
+    "updated_at": "2026-09-06T12:05:32Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Sparsity / Pruning"
+    ]
+  },
+  {
     "title": "HiKV: Hierarchical Importance-Aware KV Cache with Hardware Acceleration for LLM Decoding",
     "venue": "arXiv 2026",
     "topic": "KV cache compression; LLM decoding; algorithm-hardware co-design; long context",
@@ -5325,6 +5368,28 @@
     "directions": [
       "LLM Serving",
       "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "RGB Input Pipelines: Throughput, GPU Memory, and Transformation Coverage",
+    "venue": "arXiv 2026",
+    "topic": "GPU kernel/DSL/compilers / data pipeline / training systems / input preprocessing",
+    "arxiv": "2609.06635",
+    "doi": "",
+    "official_id": "arXiv:2609.06635",
+    "paper_url": "https://arxiv.org/abs/2609.06635",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "7d replay recovered a focused systems benchmark of seven RGB input paths from five libraries, measuring synchronized CUDA float16 batch throughput and peak GPU memory over 759 measurements on an NVIDIA L4. DALI and AlbumentationsX reach median 5,029 and 4,679 images/s on shared recipes; DALI is 1.18x median faster on 22 shared recipes. The work provides actionable coverage/performance evidence and benchmark code for a frequently overlooked training/inference input bottleneck.",
+    "published_at": "2026-09-06T14:32:59Z",
+    "updated_at": "2026-09-06T14:32:59Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
     ]
   },
   {
