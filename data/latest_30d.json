@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-10",
   "window_start_beijing": "2026-08-11",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 552,
+  "tracked_total": 557,
   "p0_strong_or_canonical": [
     {
       "title": "Distributed Linear Programming on GPU Clusters at Extreme Scale",
@@ -265,6 +265,26 @@
       "directions": [
         "LLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "GPU-Enabled Large-Scale Optimization Using Randomized Linear Algebra",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / scientific ML / randomized linear algebra",
+      "arxiv": "2609.08136",
+      "doi": "",
+      "official_id": "arXiv:2609.08136",
+      "paper_url": "https://arxiv.org/abs/2609.08136",
+      "code_url": "https://github.com/udellgroup/rlaopt",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "rlaopt is an Apache-licensed PyTorch package that exposes GPU-enabled randomized-linear-algebra solvers for positive-definite systems and constrained convex empirical-risk problems, including NystromPCG, NysADMM and SAPPHIRE. The primary abstract reports substantial GPU-execution speedups across ridge regression, bounded multinomial logistic regression and bounded elastic net, while also supporting differentiation through solver iterations, making this a practical reusable GPU systems/runtime contribution.",
+      "published_at": "2026-09-08T02:14:05Z",
+      "updated_at": "2026-09-08T02:14:05Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
       ]
     },
     {
@@ -1697,6 +1717,29 @@
       ]
     },
     {
+      "title": "Scalable Edge-assisted Fusion and Path Prediction for Connected Autonomous Vehicles",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / edge-cloud heterogeneous AI / connected autonomous vehicles",
+      "arxiv": "2609.04364",
+      "doi": "",
+      "official_id": "arXiv:2609.04364",
+      "paper_url": "https://arxiv.org/abs/2609.04364",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Conductor moves multi-vehicle world-model fusion and trajectory prediction to the edge, combines an occlusion-aware input selector with a runtime controller, and dynamically adapts both AV input count and prediction work to stay inside a strict Age-of-Information budget. Primary-source evaluation reports the AoI safety bound is met across scenarios with up to 31 CAVs while preserving fusion fidelity close to an Oracle and substantially above random selection under the same deadline, providing direct systems evidence for protected Physical-AI cloud-edge runtime design.",
+      "published_at": "2026-09-03T18:25:03Z",
+      "updated_at": "2026-09-03T18:25:03Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "VLA-Precision: Asymmetric Co-Bootstrapping for Efficient Real-World Online RL of Vision-Language-Action Models",
       "venue": "arXiv 2026",
       "topic": "VLA / Physical AI / real-world online RL / streaming runtime",
@@ -2368,6 +2411,28 @@
         "KV Cache / Long Context",
         "GPU Kernel / DSL / Compiler",
         "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "A single-precision floating-point systolic Givens-QRD Triangular Solver for MVDR Beamforming",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / FPGA accelerator / systolic linear algebra",
+      "arxiv": "2609.03137",
+      "doi": "",
+      "official_id": "arXiv:2609.03137",
+      "paper_url": "https://arxiv.org/abs/2609.03137",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "This Zynq UltraScale+ implementation uses three parallel single-precision systolic Givens-QRD kernels for latency-critical MVDR weight computation. Primary measurements report 31,123 weight vectors/s at 90.9% parallel efficiency and 12,698 vectors/s/W on programmable logic, giving 2.3x the power-normalized throughput of a matched 24-core Xeon comparison while retaining numerically validated float32 accuracy. The direct hardware throughput/energy measurements justify canonical-high retention.",
+      "published_at": "2026-09-02T20:20:15Z",
+      "updated_at": "2026-09-02T20:20:15Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -3773,6 +3838,28 @@
       ]
     },
     {
+      "title": "Nyström Attention Matches Full Attention for Cross-Sectional Stock Prediction",
+      "venue": "arXiv 2026",
+      "topic": "efficient attention / low-rank attention / linear-complexity approximation",
+      "arxiv": "2609.08106",
+      "doi": "",
+      "official_id": "arXiv:2609.08106",
+      "paper_url": "https://arxiv.org/abs/2609.08106",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "This controlled attention decomposition finds the learned cross-sectional attention deviation to be low-rank and shows Nystrom attention with 32 landmarks matches full O(N^2) attention at O(mN) cost, with statistical equivalence at N=300 and N=800. It is useful evidence for low-rank rather than sparse attention structure, but the primary abstract does not report measured latency, throughput, memory or energy gains, so it remains high-value watch.",
+      "published_at": "2026-09-08T01:34:53Z",
+      "updated_at": "2026-09-08T01:34:53Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Efficient Attention"
+      ]
+    },
+    {
       "title": "Marigold V2: Revisiting Diffusion Transformers for Monocular Depth Estimation",
       "venue": "arXiv 2026",
       "topic": "diffusion/flow acceleration / dense vision / single-step inference",
@@ -4621,6 +4708,28 @@
       "directions": [
         "LLM Serving",
         "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "MomentQuant: an even more minimalist interval method with linear time complexity for time series classification",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / efficient inference / linear-time algorithms",
+      "arxiv": "2609.05136",
+      "doi": "",
+      "official_id": "arXiv:2609.05136",
+      "paper_url": "https://arxiv.org/abs/2609.05136",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "MomentQuant replaces exact interval quantiles with Cornish-Fisher approximations, removes the sorting requirement and reduces inference complexity to linear time. The primary abstract reports the optimized Quant implementation is faster than the original and MomentQuant is faster again with only a tiny predictive-performance decrease, making it relevant to lightweight inference; however, no numeric deployment latency/throughput gain is given in the primary abstract, so it remains watch rather than strong.",
+      "published_at": "2026-09-04T13:37:51Z",
+      "updated_at": "2026-09-04T13:37:51Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -12254,6 +12363,26 @@
       ]
     },
     {
+      "title": "GPU-Enabled Large-Scale Optimization Using Randomized Linear Algebra",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / scientific ML / randomized linear algebra",
+      "arxiv": "2609.08136",
+      "doi": "",
+      "official_id": "arXiv:2609.08136",
+      "paper_url": "https://arxiv.org/abs/2609.08136",
+      "code_url": "https://github.com/udellgroup/rlaopt",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "rlaopt is an Apache-licensed PyTorch package that exposes GPU-enabled randomized-linear-algebra solvers for positive-definite systems and constrained convex empirical-risk problems, including NystromPCG, NysADMM and SAPPHIRE. The primary abstract reports substantial GPU-execution speedups across ridge regression, bounded multinomial logistic regression and bounded elastic net, while also supporting differentiation through solver iterations, making this a practical reusable GPU systems/runtime contribution.",
+      "published_at": "2026-09-08T02:14:05Z",
+      "updated_at": "2026-09-08T02:14:05Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
       "title": "mjorbit: A Simulation Framework for Space Robotics",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / robotics runtime / GPU simulation",
@@ -13683,6 +13812,29 @@
       ]
     },
     {
+      "title": "Scalable Edge-assisted Fusion and Path Prediction for Connected Autonomous Vehicles",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / edge-cloud heterogeneous AI / connected autonomous vehicles",
+      "arxiv": "2609.04364",
+      "doi": "",
+      "official_id": "arXiv:2609.04364",
+      "paper_url": "https://arxiv.org/abs/2609.04364",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Conductor moves multi-vehicle world-model fusion and trajectory prediction to the edge, combines an occlusion-aware input selector with a runtime controller, and dynamically adapts both AV input count and prediction work to stay inside a strict Age-of-Information budget. Primary-source evaluation reports the AoI safety bound is met across scenarios with up to 31 CAVs while preserving fusion fidelity close to an Oracle and substantially above random selection under the same deadline, providing direct systems evidence for protected Physical-AI cloud-edge runtime design.",
+      "published_at": "2026-09-03T18:25:03Z",
+      "updated_at": "2026-09-03T18:25:03Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "VLA-Precision: Asymmetric Co-Bootstrapping for Efficient Real-World Online RL of Vision-Language-Action Models",
       "venue": "arXiv 2026",
       "topic": "VLA / Physical AI / real-world online RL / streaming runtime",
@@ -14354,6 +14506,28 @@
         "KV Cache / Long Context",
         "GPU Kernel / DSL / Compiler",
         "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "A single-precision floating-point systolic Givens-QRD Triangular Solver for MVDR Beamforming",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / FPGA accelerator / systolic linear algebra",
+      "arxiv": "2609.03137",
+      "doi": "",
+      "official_id": "arXiv:2609.03137",
+      "paper_url": "https://arxiv.org/abs/2609.03137",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "This Zynq UltraScale+ implementation uses three parallel single-precision systolic Givens-QRD kernels for latency-critical MVDR weight computation. Primary measurements report 31,123 weight vectors/s at 90.9% parallel efficiency and 12,698 vectors/s/W on programmable logic, giving 2.3x the power-normalized throughput of a matched 24-core Xeon comparison while retaining numerically validated float32 accuracy. The direct hardware throughput/energy measurements justify canonical-high retention.",
+      "published_at": "2026-09-02T20:20:15Z",
+      "updated_at": "2026-09-02T20:20:15Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -15757,6 +15931,28 @@
       ]
     },
     {
+      "title": "Nyström Attention Matches Full Attention for Cross-Sectional Stock Prediction",
+      "venue": "arXiv 2026",
+      "topic": "efficient attention / low-rank attention / linear-complexity approximation",
+      "arxiv": "2609.08106",
+      "doi": "",
+      "official_id": "arXiv:2609.08106",
+      "paper_url": "https://arxiv.org/abs/2609.08106",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "This controlled attention decomposition finds the learned cross-sectional attention deviation to be low-rank and shows Nystrom attention with 32 landmarks matches full O(N^2) attention at O(mN) cost, with statistical equivalence at N=300 and N=800. It is useful evidence for low-rank rather than sparse attention structure, but the primary abstract does not report measured latency, throughput, memory or energy gains, so it remains high-value watch.",
+      "published_at": "2026-09-08T01:34:53Z",
+      "updated_at": "2026-09-08T01:34:53Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Efficient Attention"
+      ]
+    },
+    {
       "title": "Marigold V2: Revisiting Diffusion Transformers for Monocular Depth Estimation",
       "venue": "arXiv 2026",
       "topic": "diffusion/flow acceleration / dense vision / single-step inference",
@@ -16605,6 +16801,28 @@
       "directions": [
         "LLM Serving",
         "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "MomentQuant: an even more minimalist interval method with linear time complexity for time series classification",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / efficient inference / linear-time algorithms",
+      "arxiv": "2609.05136",
+      "doi": "",
+      "official_id": "arXiv:2609.05136",
+      "paper_url": "https://arxiv.org/abs/2609.05136",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "MomentQuant replaces exact interval quantiles with Cornish-Fisher approximations, removes the sorting requirement and reduces inference complexity to linear time. The primary abstract reports the optimized Quant implementation is faster than the original and MomentQuant is faster again with only a tiny predictive-performance decrease, making it relevant to lightweight inference; however, no numeric deployment latency/throughput gain is given in the primary abstract, so it remains watch rather than strong.",
+      "published_at": "2026-09-04T13:37:51Z",
+      "updated_at": "2026-09-04T13:37:51Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },

@@ -2329,6 +2329,28 @@
     ]
   },
   {
+    "title": "A single-precision floating-point systolic Givens-QRD Triangular Solver for MVDR Beamforming",
+    "venue": "arXiv 2026",
+    "topic": "edge/cloud/heterogeneous AI systems / FPGA accelerator / systolic linear algebra",
+    "arxiv": "2609.03137",
+    "doi": "",
+    "official_id": "arXiv:2609.03137",
+    "paper_url": "https://arxiv.org/abs/2609.03137",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "This Zynq UltraScale+ implementation uses three parallel single-precision systolic Givens-QRD kernels for latency-critical MVDR weight computation. Primary measurements report 31,123 weight vectors/s at 90.9% parallel efficiency and 12,698 vectors/s/W on programmable logic, giving 2.3x the power-normalized throughput of a matched 24-core Xeon comparison while retaining numerically validated float32 accuracy. The direct hardware throughput/energy measurements justify canonical-high retention.",
+    "published_at": "2026-09-02T20:20:15Z",
+    "updated_at": "2026-09-02T20:20:15Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "A Time-Encoded Analog Photonic Interposer for Energy-EfficientIntegration of Analog Vision Sensors and Analog Accelerators",
     "venue": "arXiv 2026",
     "topic": "edge/cloud/heterogeneous AI systems / photonic interconnect / analog AI accelerator",
@@ -3833,6 +3855,26 @@
       "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "GPU-Enabled Large-Scale Optimization Using Randomized Linear Algebra",
+    "venue": "arXiv 2026",
+    "topic": "GPU kernel/DSL/compilers / scientific ML / randomized linear algebra",
+    "arxiv": "2609.08136",
+    "doi": "",
+    "official_id": "arXiv:2609.08136",
+    "paper_url": "https://arxiv.org/abs/2609.08136",
+    "code_url": "https://github.com/udellgroup/rlaopt",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "rlaopt is an Apache-licensed PyTorch package that exposes GPU-enabled randomized-linear-algebra solvers for positive-definite systems and constrained convex empirical-risk problems, including NystromPCG, NysADMM and SAPPHIRE. The primary abstract reports substantial GPU-execution speedups across ridge regression, bounded multinomial logistic regression and bounded elastic net, while also supporting differentiation through solver iterations, making this a practical reusable GPU systems/runtime contribution.",
+    "published_at": "2026-09-08T02:14:05Z",
+    "updated_at": "2026-09-08T02:14:05Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {
@@ -5840,6 +5882,29 @@
     "directions": [
       "LLM Serving",
       "Multimodal / MLLM Serving"
+    ]
+  },
+  {
+    "title": "Scalable Edge-assisted Fusion and Path Prediction for Connected Autonomous Vehicles",
+    "venue": "arXiv 2026",
+    "topic": "VLA/WAM/Physical AI serving / edge-cloud heterogeneous AI / connected autonomous vehicles",
+    "arxiv": "2609.04364",
+    "doi": "",
+    "official_id": "arXiv:2609.04364",
+    "paper_url": "https://arxiv.org/abs/2609.04364",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Conductor moves multi-vehicle world-model fusion and trajectory prediction to the edge, combines an occlusion-aware input selector with a runtime controller, and dynamically adapts both AV input count and prediction work to stay inside a strict Age-of-Information budget. Primary-source evaluation reports the AoI safety bound is met across scenarios with up to 31 CAVs while preserving fusion fidelity close to an Oracle and substantially above random selection under the same deadline, providing direct systems evidence for protected Physical-AI cloud-edge runtime design.",
+    "published_at": "2026-09-03T18:25:03Z",
+    "updated_at": "2026-09-03T18:25:03Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
