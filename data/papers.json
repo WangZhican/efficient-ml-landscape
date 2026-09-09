@@ -4294,6 +4294,26 @@
     ]
   },
   {
+    "title": "Laplacian Frequency Hierarchies for Efficient 3D Gaussian Splatting Training",
+    "venue": "arXiv 2026",
+    "topic": "video/image generation acceleration / 3D Gaussian Splatting / efficient training",
+    "arxiv": "2609.03334",
+    "doi": "",
+    "official_id": "arXiv:2609.03334",
+    "paper_url": "https://arxiv.org/abs/2609.03334",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Frequency-staged 3DGS training archives lower-frequency Gaussian fields so later stages optimize residuals with fewer active primitives. The primary abstract reports average training speedups of 1.73x/1.21x at 1K and 1.74x/1.33x at 4K when combined with Taming-3DGS/FastGS, with competitive reconstruction quality.",
+    "published_at": "2026-09-03T03:46:49Z",
+    "updated_at": "2026-09-03T03:46:49Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Video / Image Generation"
+    ]
+  },
+  {
     "title": "Latency-Aware Orchestration for Multi-Agent LLM Workflows on Heterogeneous GPUs",
     "venue": "arXiv 2026",
     "topic": "efficient reasoning/agent systems / heterogeneous GPU serving",
@@ -6373,6 +6393,27 @@
       "LLM Serving",
       "GPU Kernel / DSL / Compiler",
       "Multimodal / MLLM Serving"
+    ]
+  },
+  {
+    "title": "Towards Enabling Distance-Based Memory Addressing",
+    "venue": "arXiv 2026",
+    "topic": "edge/cloud/heterogeneous AI systems / memory-centric acceleration / vector search / ANNS",
+    "arxiv": "2609.06270",
+    "doi": "",
+    "official_id": "arXiv:2609.06270",
+    "paper_url": "https://arxiv.org/abs/2609.06270",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Hardware/software co-design for in-memory distance-based addressing performs approximate data-parallel brute-force similarity computation before post-processing pruning. The primary abstract reports near-perfect recall on representative million/billion-scale workloads with orders-of-magnitude performance and energy improvement over state-of-the-art algorithmic approaches.",
+    "published_at": "2026-09-05T21:43:50Z",
+    "updated_at": "2026-09-05T21:43:50Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Sparsity / Pruning",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {

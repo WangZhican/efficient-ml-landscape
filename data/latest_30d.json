@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-10",
   "window_start_beijing": "2026-08-11",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 527,
+  "tracked_total": 532,
   "p0_strong_or_canonical": [
     {
       "title": "Distributed Linear Programming on GPU Clusters at Extreme Scale",
@@ -857,6 +857,27 @@
       "tracking_tier": "P0 · Strong",
       "directions": [
         "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "Towards Enabling Distance-Based Memory Addressing",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / memory-centric acceleration / vector search / ANNS",
+      "arxiv": "2609.06270",
+      "doi": "",
+      "official_id": "arXiv:2609.06270",
+      "paper_url": "https://arxiv.org/abs/2609.06270",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Hardware/software co-design for in-memory distance-based addressing performs approximate data-parallel brute-force similarity computation before post-processing pruning. The primary abstract reports near-perfect recall on representative million/billion-scale workloads with orders-of-magnitude performance and energy improvement over state-of-the-art algorithmic approaches.",
+      "published_at": "2026-09-05T21:43:50Z",
+      "updated_at": "2026-09-05T21:43:50Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Sparsity / Pruning",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -2153,6 +2174,26 @@
         "GPU Kernel / DSL / Compiler",
         "Efficient Reasoning / Agents",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Laplacian Frequency Hierarchies for Efficient 3D Gaussian Splatting Training",
+      "venue": "arXiv 2026",
+      "topic": "video/image generation acceleration / 3D Gaussian Splatting / efficient training",
+      "arxiv": "2609.03334",
+      "doi": "",
+      "official_id": "arXiv:2609.03334",
+      "paper_url": "https://arxiv.org/abs/2609.03334",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Frequency-staged 3DGS training archives lower-frequency Gaussian fields so later stages optimize residuals with fewer active primitives. The primary abstract reports average training speedups of 1.73x/1.21x at 1K and 1.74x/1.33x at 4K when combined with Taming-3DGS/FastGS, with competitive reconstruction quality.",
+      "published_at": "2026-09-03T03:46:49Z",
+      "updated_at": "2026-09-03T03:46:49Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Video / Image Generation"
       ]
     },
     {
@@ -3562,6 +3603,49 @@
       ]
     },
     {
+      "title": "WorldAgen: Unified State-Action Prediction with Test-Time World Model Training",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / world models / test-time adaptation",
+      "arxiv": "2609.08162",
+      "doi": "",
+      "official_id": "arXiv:2609.08162",
+      "paper_url": "https://arxiv.org/abs/2609.08162",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI work unifying world-state prediction and action prediction with lightweight test-time training to adapt world dynamics in unseen environments. It improves CALVIN/LIBERO performance after a small number of test-time samples, but the primary abstract gives no measured test-time overhead, latency or throughput, so it remains watch.",
+      "published_at": "2026-09-08T02:46:13Z",
+      "updated_at": "2026-09-08T02:46:13Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "KBBQ: A Predictive Noise Law and the Limits of Spectrum Flattening in FP4 Quantization",
+      "venue": "arXiv 2026",
+      "topic": "quantization / FP4 / W4A4 / transform-based quantization",
+      "arxiv": "2609.08135",
+      "doi": "",
+      "official_id": "arXiv:2609.08135",
+      "paper_url": "https://arxiv.org/abs/2609.08135",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "High-value FP4 quantization work with a closed-form second-order noise law and Kappa-Braked Blockwise Quantization. Across four base models and two FP4 formats, KBBQ improves W4A4 quality over prior state of the art without additional deployment-time computation. The primary abstract does not report measured latency/throughput or memory speedup, so it remains high-value watch.",
+      "published_at": "2026-09-08T02:12:30Z",
+      "updated_at": "2026-09-08T02:12:30Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization"
+      ]
+    },
+    {
       "title": "Jacap: Robust KV Cache Eviction via Jacobian-Based Nonlinear Information Capacity Preservation",
       "venue": "arXiv 2026",
       "topic": "KV cache/long-context / eviction / information geometry / cache compression",
@@ -3951,6 +4035,29 @@
         "Sparsity / Pruning",
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "MobileVLA-R1 2.0: RL-Enhanced Reasoning for Mobile Robot Control",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / mobile robot control / reasoning-action decoupling",
+      "arxiv": "2609.06251",
+      "doi": "",
+      "official_id": "arXiv:2609.06251",
+      "paper_url": "https://arxiv.org/abs/2609.06251",
+      "code_url": "https://github.com/AIGeeksGroup/MobileVLA-R1-2.0",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI work coupling structured embodied reasoning with a reasoning-conditioned action decoder and embodiment-specific controllers, evaluated on navigation, quadruped control and real Unitree Go2/G1 deployments. It improves task success but reports no serving/runtime efficiency metric, so it remains high-value watch.",
+      "published_at": "2026-09-05T20:31:14Z",
+      "updated_at": "2026-09-05T20:31:14Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -12309,6 +12416,27 @@
       ]
     },
     {
+      "title": "Towards Enabling Distance-Based Memory Addressing",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / memory-centric acceleration / vector search / ANNS",
+      "arxiv": "2609.06270",
+      "doi": "",
+      "official_id": "arXiv:2609.06270",
+      "paper_url": "https://arxiv.org/abs/2609.06270",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Hardware/software co-design for in-memory distance-based addressing performs approximate data-parallel brute-force similarity computation before post-processing pruning. The primary abstract reports near-perfect recall on representative million/billion-scale workloads with orders-of-magnitude performance and energy improvement over state-of-the-art algorithmic approaches.",
+      "published_at": "2026-09-05T21:43:50Z",
+      "updated_at": "2026-09-05T21:43:50Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Sparsity / Pruning",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "GloVLA: Let Geometry Move and Local VLA Interact for Robust Object-Centric Manipulation in Unstructured Environments",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / hybrid control / inference reduction",
@@ -13602,6 +13730,26 @@
         "GPU Kernel / DSL / Compiler",
         "Efficient Reasoning / Agents",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Laplacian Frequency Hierarchies for Efficient 3D Gaussian Splatting Training",
+      "venue": "arXiv 2026",
+      "topic": "video/image generation acceleration / 3D Gaussian Splatting / efficient training",
+      "arxiv": "2609.03334",
+      "doi": "",
+      "official_id": "arXiv:2609.03334",
+      "paper_url": "https://arxiv.org/abs/2609.03334",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Frequency-staged 3DGS training archives lower-frequency Gaussian fields so later stages optimize residuals with fewer active primitives. The primary abstract reports average training speedups of 1.73x/1.21x at 1K and 1.74x/1.33x at 4K when combined with Taming-3DGS/FastGS, with competitive reconstruction quality.",
+      "published_at": "2026-09-03T03:46:49Z",
+      "updated_at": "2026-09-03T03:46:49Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Video / Image Generation"
       ]
     },
     {
@@ -15009,6 +15157,49 @@
       ]
     },
     {
+      "title": "WorldAgen: Unified State-Action Prediction with Test-Time World Model Training",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / world models / test-time adaptation",
+      "arxiv": "2609.08162",
+      "doi": "",
+      "official_id": "arXiv:2609.08162",
+      "paper_url": "https://arxiv.org/abs/2609.08162",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI work unifying world-state prediction and action prediction with lightweight test-time training to adapt world dynamics in unseen environments. It improves CALVIN/LIBERO performance after a small number of test-time samples, but the primary abstract gives no measured test-time overhead, latency or throughput, so it remains watch.",
+      "published_at": "2026-09-08T02:46:13Z",
+      "updated_at": "2026-09-08T02:46:13Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "KBBQ: A Predictive Noise Law and the Limits of Spectrum Flattening in FP4 Quantization",
+      "venue": "arXiv 2026",
+      "topic": "quantization / FP4 / W4A4 / transform-based quantization",
+      "arxiv": "2609.08135",
+      "doi": "",
+      "official_id": "arXiv:2609.08135",
+      "paper_url": "https://arxiv.org/abs/2609.08135",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "High-value FP4 quantization work with a closed-form second-order noise law and Kappa-Braked Blockwise Quantization. Across four base models and two FP4 formats, KBBQ improves W4A4 quality over prior state of the art without additional deployment-time computation. The primary abstract does not report measured latency/throughput or memory speedup, so it remains high-value watch.",
+      "published_at": "2026-09-08T02:12:30Z",
+      "updated_at": "2026-09-08T02:12:30Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization"
+      ]
+    },
+    {
       "title": "Jacap: Robust KV Cache Eviction via Jacobian-Based Nonlinear Information Capacity Preservation",
       "venue": "arXiv 2026",
       "topic": "KV cache/long-context / eviction / information geometry / cache compression",
@@ -15398,6 +15589,29 @@
         "Sparsity / Pruning",
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "MobileVLA-R1 2.0: RL-Enhanced Reasoning for Mobile Robot Control",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / mobile robot control / reasoning-action decoupling",
+      "arxiv": "2609.06251",
+      "doi": "",
+      "official_id": "arXiv:2609.06251",
+      "paper_url": "https://arxiv.org/abs/2609.06251",
+      "code_url": "https://github.com/AIGeeksGroup/MobileVLA-R1-2.0",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI work coupling structured embodied reasoning with a reasoning-conditioned action decoder and embodiment-specific controllers, evaluated on navigation, quadruped control and real Unitree Go2/G1 deployments. It improves task success but reports no serving/runtime efficiency metric, so it remains high-value watch.",
+      "published_at": "2026-09-05T20:31:14Z",
+      "updated_at": "2026-09-05T20:31:14Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
