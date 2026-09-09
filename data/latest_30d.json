@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-09",
   "window_start_beijing": "2026-08-10",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 466,
+  "tracked_total": 472,
   "p0_strong_or_canonical": [
     {
       "title": "HDA-MoE: Hybrid Parallelism and Dynamic, Adaptive Scheduling for Mixture-of-Experts with 3D Near-Memory Processing",
@@ -207,6 +207,27 @@
       ]
     },
     {
+      "title": "An Efficient Out-of-Core Tomographic Imaging Framework for Edge Devices",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / GPU kernel / mixed precision / out-of-core",
+      "arxiv": "2609.07249",
+      "doi": "",
+      "official_id": "arXiv:2609.07249",
+      "paper_url": "https://arxiv.org/abs/2609.07249",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "edgeFBP is an end-to-end out-of-core CT reconstruction runtime for Nvidia Jetson SoCs using mixed precision and Tensor Cores for the bottleneck back-projection kernel. It reports 1.83x speedup over RTK on Jetson Nano, 2.56x on Jetson AGX, and up to 5-48x higher energy efficiency than DGX A100 under a 25W budget, giving direct measured edge-system evidence.",
+      "published_at": "2026-09-07T09:10:18Z",
+      "updated_at": "2026-09-07T09:10:18Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "CEDAR: Error-Bounded Residual Routing for Efficient Long-Context Attention",
       "venue": "arXiv 2026",
       "topic": "efficient attention / long context / sparse routing / kernel acceleration",
@@ -275,6 +296,29 @@
       ]
     },
     {
+      "title": "ASTRA: Low-Overhead Runtime Architecture for STReam Adaptation in Video Analytics",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / multimodal serving / runtime adaptation",
+      "arxiv": "2609.07020",
+      "doi": "",
+      "official_id": "arXiv:2609.07020",
+      "paper_url": "https://arxiv.org/abs/2609.07020",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "ASTRA is a low-overhead runtime for online resolution/frame-rate adaptation in live edge video analytics, deployed on the NSF COSMOS testbed and evaluated with up to eight cameras under real network conditions. It maintains over 90% probability of meeting accuracy/latency requirements, stays within 10% of offline-optimal performance, and adds about 2% average GPU-utilization overhead per camera.",
+      "published_at": "2026-09-07T04:17:51Z",
+      "updated_at": "2026-09-07T04:17:51Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Multimodal / MLLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "RedKnot-MLA: Multi-Head Offline-Online Reuse for DeepSeek-V4 Long-Context Serving",
       "venue": "arXiv 2026",
       "topic": "LLM serving / KV cache reuse / MLA / long context",
@@ -293,6 +337,31 @@
       "directions": [
         "LLM Serving",
         "KV Cache / Long Context"
+      ]
+    },
+    {
+      "title": "OCTN: Neural OCT Representations for Robot-Guided Precision Intervention",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / edge/GPU runtime / robot-guided intervention",
+      "arxiv": "2609.06810",
+      "doi": "",
+      "official_id": "arXiv:2609.06810",
+      "paper_url": "https://arxiv.org/abs/2609.06810",
+      "code_url": "https://raprakashvi.github.io/octn",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "OCTN stores a continuous OCT tissue representation natively on GPU for fast geometric reasoning and robot integration. It reports up to 43x faster intensity-based spatial queries than conventional CPU processing, 4x lower acquisition time from sparse B-scans, sub-10s training, and demonstrates OCT-guided robotic laser surgery, making it strong protected Physical-AI runtime evidence.",
+      "published_at": "2026-09-06T20:01:34Z",
+      "updated_at": "2026-09-06T20:01:34Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -2790,6 +2859,50 @@
       ]
     },
     {
+      "title": "Streaming Hierarchical Inference with Tabular Foundation Models",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / hierarchical inference / selective offloading",
+      "arxiv": "2609.07956",
+      "doi": "",
+      "official_id": "arXiv:2609.07956",
+      "paper_url": "https://arxiv.org/abs/2609.07956",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "HINT combines sliding-window graph ANN retrieval at the edge with uncertainty-aware selective offloading to a cloud-hosted tabular foundation model, explicitly trading predictive quality against communication and latency. It is a clean edge-cloud inference pattern, but the current abstract reports favorable trade-offs without concrete throughput/latency gains, so retain as high-value watch.",
+      "published_at": "2026-09-07T20:26:36Z",
+      "updated_at": "2026-09-07T20:26:36Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Distributed Training / Inference",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / WAM infrastructure / deployment stack",
+      "arxiv": "2609.07398",
+      "doi": "",
+      "official_id": "arXiv:2609.07398",
+      "paper_url": "https://arxiv.org/abs/2609.07398",
+      "code_url": "https://github.com/OpenWAM-Official/OpenWAM",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "OpenWAM provides an open modular infrastructure that factorizes WAM model, representation, training, inference, deployment and evaluation choices, with released code, checkpoints, data recipes and real-robot evaluation across multiple embodiments. It is important infrastructure for the protected WAM direction, but the paper currently emphasizes modularity, scaling and task performance rather than measured serving speedup, so retain as high-value watch.",
+      "published_at": "2026-09-07T12:12:32Z",
+      "updated_at": "2026-09-07T12:12:32Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "RouteRelay: Event-Triggered Cross-Layer Route Reuse for Efficient Dynamic Sparse Attention",
       "venue": "arXiv 2026",
       "topic": "efficient attention / sparse attention / route reuse / GPU kernels",
@@ -2918,6 +3031,29 @@
       "directions": [
         "LLM Serving",
         "KV Cache / Long Context",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "CR-VLA-Force: Learning Control-aware Compliance VLA Model for Robust Contact-rich Robotic Manipulation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / multimodal MoE / reactive control",
+      "arxiv": "2609.05832",
+      "doi": "",
+      "official_id": "arXiv:2609.05832",
+      "paper_url": "https://arxiv.org/abs/2609.05832",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "CR-VLA-Force explicitly targets the latency and action-chunk limitations of force-aware VLA control using a multimodal MoE plus VLA-guided adaptive compliance controller, and validates on real contact-rich tasks. It is accepted by IEEE RA-L and highly relevant to reactive Physical-AI deployment, but the current primary abstract does not provide measured end-to-end latency or throughput numbers, so retain as high-value watch.",
+      "published_at": "2026-09-05T02:54:51Z",
+      "updated_at": "2026-09-05T02:54:51Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "MoE Systems / Accelerators",
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI"
       ]
@@ -10338,6 +10474,27 @@
       ]
     },
     {
+      "title": "An Efficient Out-of-Core Tomographic Imaging Framework for Edge Devices",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / GPU kernel / mixed precision / out-of-core",
+      "arxiv": "2609.07249",
+      "doi": "",
+      "official_id": "arXiv:2609.07249",
+      "paper_url": "https://arxiv.org/abs/2609.07249",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "edgeFBP is an end-to-end out-of-core CT reconstruction runtime for Nvidia Jetson SoCs using mixed precision and Tensor Cores for the bottleneck back-projection kernel. It reports 1.83x speedup over RTK on Jetson Nano, 2.56x on Jetson AGX, and up to 5-48x higher energy efficiency than DGX A100 under a 25W budget, giving direct measured edge-system evidence.",
+      "published_at": "2026-09-07T09:10:18Z",
+      "updated_at": "2026-09-07T09:10:18Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "CEDAR: Error-Bounded Residual Routing for Efficient Long-Context Attention",
       "venue": "arXiv 2026",
       "topic": "efficient attention / long context / sparse routing / kernel acceleration",
@@ -10406,6 +10563,29 @@
       ]
     },
     {
+      "title": "ASTRA: Low-Overhead Runtime Architecture for STReam Adaptation in Video Analytics",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / multimodal serving / runtime adaptation",
+      "arxiv": "2609.07020",
+      "doi": "",
+      "official_id": "arXiv:2609.07020",
+      "paper_url": "https://arxiv.org/abs/2609.07020",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "ASTRA is a low-overhead runtime for online resolution/frame-rate adaptation in live edge video analytics, deployed on the NSF COSMOS testbed and evaluated with up to eight cameras under real network conditions. It maintains over 90% probability of meeting accuracy/latency requirements, stays within 10% of offline-optimal performance, and adds about 2% average GPU-utilization overhead per camera.",
+      "published_at": "2026-09-07T04:17:51Z",
+      "updated_at": "2026-09-07T04:17:51Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Multimodal / MLLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "RedKnot-MLA: Multi-Head Offline-Online Reuse for DeepSeek-V4 Long-Context Serving",
       "venue": "arXiv 2026",
       "topic": "LLM serving / KV cache reuse / MLA / long context",
@@ -10424,6 +10604,31 @@
       "directions": [
         "LLM Serving",
         "KV Cache / Long Context"
+      ]
+    },
+    {
+      "title": "OCTN: Neural OCT Representations for Robot-Guided Precision Intervention",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / edge/GPU runtime / robot-guided intervention",
+      "arxiv": "2609.06810",
+      "doi": "",
+      "official_id": "arXiv:2609.06810",
+      "paper_url": "https://arxiv.org/abs/2609.06810",
+      "code_url": "https://raprakashvi.github.io/octn",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "OCTN stores a continuous OCT tissue representation natively on GPU for fast geometric reasoning and robot integration. It reports up to 43x faster intensity-based spatial queries than conventional CPU processing, 4x lower acquisition time from sparse B-scans, sub-10s training, and demonstrates OCT-guided robotic laser surgery, making it strong protected Physical-AI runtime evidence.",
+      "published_at": "2026-09-06T20:01:34Z",
+      "updated_at": "2026-09-06T20:01:34Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -12919,6 +13124,50 @@
       ]
     },
     {
+      "title": "Streaming Hierarchical Inference with Tabular Foundation Models",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / hierarchical inference / selective offloading",
+      "arxiv": "2609.07956",
+      "doi": "",
+      "official_id": "arXiv:2609.07956",
+      "paper_url": "https://arxiv.org/abs/2609.07956",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "HINT combines sliding-window graph ANN retrieval at the edge with uncertainty-aware selective offloading to a cloud-hosted tabular foundation model, explicitly trading predictive quality against communication and latency. It is a clean edge-cloud inference pattern, but the current abstract reports favorable trade-offs without concrete throughput/latency gains, so retain as high-value watch.",
+      "published_at": "2026-09-07T20:26:36Z",
+      "updated_at": "2026-09-07T20:26:36Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Distributed Training / Inference",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / WAM infrastructure / deployment stack",
+      "arxiv": "2609.07398",
+      "doi": "",
+      "official_id": "arXiv:2609.07398",
+      "paper_url": "https://arxiv.org/abs/2609.07398",
+      "code_url": "https://github.com/OpenWAM-Official/OpenWAM",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "OpenWAM provides an open modular infrastructure that factorizes WAM model, representation, training, inference, deployment and evaluation choices, with released code, checkpoints, data recipes and real-robot evaluation across multiple embodiments. It is important infrastructure for the protected WAM direction, but the paper currently emphasizes modularity, scaling and task performance rather than measured serving speedup, so retain as high-value watch.",
+      "published_at": "2026-09-07T12:12:32Z",
+      "updated_at": "2026-09-07T12:12:32Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "RouteRelay: Event-Triggered Cross-Layer Route Reuse for Efficient Dynamic Sparse Attention",
       "venue": "arXiv 2026",
       "topic": "efficient attention / sparse attention / route reuse / GPU kernels",
@@ -13047,6 +13296,29 @@
       "directions": [
         "LLM Serving",
         "KV Cache / Long Context",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "CR-VLA-Force: Learning Control-aware Compliance VLA Model for Robust Contact-rich Robotic Manipulation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / multimodal MoE / reactive control",
+      "arxiv": "2609.05832",
+      "doi": "",
+      "official_id": "arXiv:2609.05832",
+      "paper_url": "https://arxiv.org/abs/2609.05832",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "CR-VLA-Force explicitly targets the latency and action-chunk limitations of force-aware VLA control using a multimodal MoE plus VLA-guided adaptive compliance controller, and validates on real contact-rich tasks. It is accepted by IEEE RA-L and highly relevant to reactive Physical-AI deployment, but the current primary abstract does not provide measured end-to-end latency or throughput numbers, so retain as high-value watch.",
+      "published_at": "2026-09-05T02:54:51Z",
+      "updated_at": "2026-09-05T02:54:51Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "MoE Systems / Accelerators",
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI"
       ]

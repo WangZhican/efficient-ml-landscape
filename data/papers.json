@@ -2487,6 +2487,27 @@
     ]
   },
   {
+    "title": "An Efficient Out-of-Core Tomographic Imaging Framework for Edge Devices",
+    "venue": "arXiv 2026",
+    "topic": "edge/cloud/heterogeneous AI systems / GPU kernel / mixed precision / out-of-core",
+    "arxiv": "2609.07249",
+    "doi": "",
+    "official_id": "arXiv:2609.07249",
+    "paper_url": "https://arxiv.org/abs/2609.07249",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "edgeFBP is an end-to-end out-of-core CT reconstruction runtime for Nvidia Jetson SoCs using mixed precision and Tensor Cores for the bottleneck back-projection kernel. It reports 1.83x speedup over RTK on Jetson Nano, 2.56x on Jetson AGX, and up to 5-48x higher energy efficiency than DGX A100 under a 25W budget, giving direct measured edge-system evidence.",
+    "published_at": "2026-09-07T09:10:18Z",
+    "updated_at": "2026-09-07T09:10:18Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Analytical Resource Management for Fine-grained MoE Computation-Communication Overlap",
     "venue": "arXiv 2026",
     "topic": "MoE systems/accelerators / distributed inference / compute-communication overlap",
@@ -2571,6 +2592,29 @@
       "LLM Serving",
       "GPU Kernel / DSL / Compiler",
       "Efficient Reasoning / Agents",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "ASTRA: Low-Overhead Runtime Architecture for STReam Adaptation in Video Analytics",
+    "venue": "arXiv 2026",
+    "topic": "edge/cloud/heterogeneous AI systems / multimodal serving / runtime adaptation",
+    "arxiv": "2609.07020",
+    "doi": "",
+    "official_id": "arXiv:2609.07020",
+    "paper_url": "https://arxiv.org/abs/2609.07020",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "ASTRA is a low-overhead runtime for online resolution/frame-rate adaptation in live edge video analytics, deployed on the NSF COSMOS testbed and evaluated with up to eight cameras under real network conditions. It maintains over 90% probability of meeting accuracy/latency requirements, stays within 10% of offline-optimal performance, and adds about 2% average GPU-utilization overhead per camera.",
+    "published_at": "2026-09-07T04:17:51Z",
+    "updated_at": "2026-09-07T04:17:51Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Multimodal / MLLM Serving",
       "Edge / Cloud / Heterogeneous AI"
     ]
   },
@@ -4435,6 +4479,31 @@
     "directions": [
       "LLM Serving",
       "Quantization"
+    ]
+  },
+  {
+    "title": "OCTN: Neural OCT Representations for Robot-Guided Precision Intervention",
+    "venue": "arXiv 2026",
+    "topic": "VLA/WAM/Physical AI serving / edge/GPU runtime / robot-guided intervention",
+    "arxiv": "2609.06810",
+    "doi": "",
+    "official_id": "arXiv:2609.06810",
+    "paper_url": "https://arxiv.org/abs/2609.06810",
+    "code_url": "https://raprakashvi.github.io/octn",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "OCTN stores a continuous OCT tissue representation natively on GPU for fast geometric reasoning and robot integration. It reports up to 43x faster intensity-based spatial queries than conventional CPU processing, 4x lower acquisition time from sparse B-scans, sub-10s training, and demonstrates OCT-guided robotic laser surgery, making it strong protected Physical-AI runtime evidence.",
+    "published_at": "2026-09-06T20:01:34Z",
+    "updated_at": "2026-09-06T20:01:34Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "GPU Kernel / DSL / Compiler",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
