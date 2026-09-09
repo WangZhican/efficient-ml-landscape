@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-10",
   "window_start_beijing": "2026-08-11",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 538,
+  "tracked_total": 543,
   "p0_strong_or_canonical": [
     {
       "title": "Distributed Linear Programming on GPU Clusters at Extreme Scale",
@@ -1006,6 +1006,27 @@
         "LLM Serving",
         "Distributed Training / Inference",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "WaferTrans: Enabling IOMMU-free Distributed Virtual Address Translation for Wafer-scale GPUs",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / wafer-scale GPU / unified memory / address translation",
+      "arxiv": "2609.06125",
+      "doi": "",
+      "official_id": "arXiv:2609.06125",
+      "paper_url": "https://arxiv.org/abs/2609.06125",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "WaferTrans removes the centralized CPU-IOMMU from remote virtual-address translation on wafer-scale GPUs via PTE Presence Consistency, distributed PTE-presence mapping and cooperative lookup. The primary abstract reports 2.5x average performance over the SOTA Trans-FW design, providing direct measured architecture/runtime evidence.",
+      "published_at": "2026-09-05T14:47:20Z",
+      "updated_at": "2026-09-05T14:47:20Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference"
       ]
     },
     {
@@ -3798,6 +3819,28 @@
       ]
     },
     {
+      "title": "Kalman Delta Networks: Uncertainty-aware Associative Memory",
+      "venue": "arXiv 2026",
+      "topic": "efficient attention / long-context / constant-memory recurrent inference",
+      "arxiv": "2609.07816",
+      "doi": "",
+      "official_id": "arXiv:2609.07816",
+      "paper_url": "https://arxiv.org/abs/2609.07816",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "KDN reformulates recurrent associative memory as a linear-Gaussian state-space model and introduces scan-compatible diagonal and isotropic approximations whose uncertainty recurrences admit associative scans with logarithmic parallel depth. It improves perplexity and downstream accuracy over strong linear-attention baselines, but the abstract does not report measured latency/throughput gains, so it remains watch.",
+      "published_at": "2026-09-07T17:53:29Z",
+      "updated_at": "2026-09-07T17:53:29Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Efficient Attention"
+      ]
+    },
+    {
       "title": "Real-Time dApps for AI-RAN: Measured Interface Requirements for Inline PHY and Slot-Level Control",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI systems / AI-RAN / low-latency runtime interface",
@@ -3995,6 +4038,27 @@
       ]
     },
     {
+      "title": "MEMOBench: A Process Level Memory Benchmark for Robotic Manipulation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / robot memory / benchmark",
+      "arxiv": "2609.07047",
+      "doi": "",
+      "official_id": "arXiv:2609.07047",
+      "paper_url": "https://arxiv.org/abs/2609.07047",
+      "code_url": "https://github.com/Collab-Gen/MEMOBench",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI benchmark separates robot-memory Storage, Update and Compression across 30 history-dependent tasks, 1,500 demonstrations and 4,200 executable checkpoints; the strongest memory baseline reaches only 31.9% average success. It is important diagnostic infrastructure but not an efficiency-improving runtime, so it remains watch.",
+      "published_at": "2026-09-07T05:06:20Z",
+      "updated_at": "2026-09-07T05:06:20Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "GIFT: Goal-Injected Fine-Tuning for Efficient Manipulation Policy Adaptation",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / lightweight adaptation / goal-conditioned manipulation",
@@ -4143,6 +4207,26 @@
         "Sparsity / Pruning",
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "PACO: A Fully Cache-Oblivious Parallel FFT with One Global Redistribution",
+      "venue": "arXiv 2026",
+      "topic": "distributed training/inference / parallel FFT / communication-efficient HPC",
+      "arxiv": "2609.06449",
+      "doi": "",
+      "official_id": "arXiv:2609.06449",
+      "paper_url": "https://arxiv.org/abs/2609.06449",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "PACO fuses deferred cache-oblivious layout changes into the single redistribution already required by the parallel FFT, proving optimal local cache complexity and exactly one global redistribution round under its ownership model. The current paper is primarily theoretical and exposes no measured end-to-end hardware speedup, so it remains high-value watch.",
+      "published_at": "2026-09-06T07:49:01Z",
+      "updated_at": "2026-09-06T07:49:01Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Distributed Training / Inference"
       ]
     },
     {
@@ -5082,6 +5166,28 @@
       "is_latest_30d": true,
       "directions": [
         "KV Cache / Long Context"
+      ]
+    },
+    {
+      "title": "RoboTok: An Internet-Scale Data Engine for Human Demonstration Retrieval and Dexterous Manipulation Learning",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / data engine / scalable demonstration retrieval",
+      "arxiv": "2609.03199",
+      "doi": "",
+      "official_id": "arXiv:2609.03199",
+      "paper_url": "https://arxiv.org/abs/2609.03199",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI work builds an internet-scale motion-retrieval data engine using compact actor-centered 3D hand-trajectory embeddings for efficient search and continual indexing, and improves downstream dexterous manipulation policy success. The available primary description does not quantify retrieval latency/throughput or systems speedup, so it remains watch.",
+      "published_at": "2026-09-02T22:31:43Z",
+      "updated_at": "2026-09-02T22:31:43Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -12696,6 +12802,27 @@
       ]
     },
     {
+      "title": "WaferTrans: Enabling IOMMU-free Distributed Virtual Address Translation for Wafer-scale GPUs",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / wafer-scale GPU / unified memory / address translation",
+      "arxiv": "2609.06125",
+      "doi": "",
+      "official_id": "arXiv:2609.06125",
+      "paper_url": "https://arxiv.org/abs/2609.06125",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "WaferTrans removes the centralized CPU-IOMMU from remote virtual-address translation on wafer-scale GPUs via PTE Presence Consistency, distributed PTE-presence mapping and cooperative lookup. The primary abstract reports 2.5x average performance over the SOTA Trans-FW design, providing direct measured architecture/runtime evidence.",
+      "published_at": "2026-09-05T14:47:20Z",
+      "updated_at": "2026-09-05T14:47:20Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference"
+      ]
+    },
+    {
       "title": "Poseidon: DAG-Guided Parallelism Search for LLM Pre-Training on Heterogeneous Clusters",
       "venue": "arXiv 2026",
       "topic": "distributed training/inference / heterogeneous clusters / parallelism search",
@@ -15483,6 +15610,28 @@
       ]
     },
     {
+      "title": "Kalman Delta Networks: Uncertainty-aware Associative Memory",
+      "venue": "arXiv 2026",
+      "topic": "efficient attention / long-context / constant-memory recurrent inference",
+      "arxiv": "2609.07816",
+      "doi": "",
+      "official_id": "arXiv:2609.07816",
+      "paper_url": "https://arxiv.org/abs/2609.07816",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "KDN reformulates recurrent associative memory as a linear-Gaussian state-space model and introduces scan-compatible diagonal and isotropic approximations whose uncertainty recurrences admit associative scans with logarithmic parallel depth. It improves perplexity and downstream accuracy over strong linear-attention baselines, but the abstract does not report measured latency/throughput gains, so it remains watch.",
+      "published_at": "2026-09-07T17:53:29Z",
+      "updated_at": "2026-09-07T17:53:29Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Efficient Attention"
+      ]
+    },
+    {
       "title": "Real-Time dApps for AI-RAN: Measured Interface Requirements for Inline PHY and Slot-Level Control",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI systems / AI-RAN / low-latency runtime interface",
@@ -15680,6 +15829,27 @@
       ]
     },
     {
+      "title": "MEMOBench: A Process Level Memory Benchmark for Robotic Manipulation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / robot memory / benchmark",
+      "arxiv": "2609.07047",
+      "doi": "",
+      "official_id": "arXiv:2609.07047",
+      "paper_url": "https://arxiv.org/abs/2609.07047",
+      "code_url": "https://github.com/Collab-Gen/MEMOBench",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI benchmark separates robot-memory Storage, Update and Compression across 30 history-dependent tasks, 1,500 demonstrations and 4,200 executable checkpoints; the strongest memory baseline reaches only 31.9% average success. It is important diagnostic infrastructure but not an efficiency-improving runtime, so it remains watch.",
+      "published_at": "2026-09-07T05:06:20Z",
+      "updated_at": "2026-09-07T05:06:20Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "GIFT: Goal-Injected Fine-Tuning for Efficient Manipulation Policy Adaptation",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / lightweight adaptation / goal-conditioned manipulation",
@@ -15828,6 +15998,26 @@
         "Sparsity / Pruning",
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "PACO: A Fully Cache-Oblivious Parallel FFT with One Global Redistribution",
+      "venue": "arXiv 2026",
+      "topic": "distributed training/inference / parallel FFT / communication-efficient HPC",
+      "arxiv": "2609.06449",
+      "doi": "",
+      "official_id": "arXiv:2609.06449",
+      "paper_url": "https://arxiv.org/abs/2609.06449",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "PACO fuses deferred cache-oblivious layout changes into the single redistribution already required by the parallel FFT, proving optimal local cache complexity and exactly one global redistribution round under its ownership model. The current paper is primarily theoretical and exposes no measured end-to-end hardware speedup, so it remains high-value watch.",
+      "published_at": "2026-09-06T07:49:01Z",
+      "updated_at": "2026-09-06T07:49:01Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Distributed Training / Inference"
       ]
     },
     {
@@ -16767,6 +16957,28 @@
       "is_latest_30d": true,
       "directions": [
         "KV Cache / Long Context"
+      ]
+    },
+    {
+      "title": "RoboTok: An Internet-Scale Data Engine for Human Demonstration Retrieval and Dexterous Manipulation Learning",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / data engine / scalable demonstration retrieval",
+      "arxiv": "2609.03199",
+      "doi": "",
+      "official_id": "arXiv:2609.03199",
+      "paper_url": "https://arxiv.org/abs/2609.03199",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI work builds an internet-scale motion-retrieval data engine using compact actor-centered 3D hand-trajectory embeddings for efficient search and continual indexing, and improves downstream dexterous manipulation policy success. The available primary description does not quantify retrieval latency/throughput or systems speedup, so it remains watch.",
+      "published_at": "2026-09-02T22:31:43Z",
+      "updated_at": "2026-09-02T22:31:43Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "VLA / WAM / Physical AI"
       ]
     },
     {

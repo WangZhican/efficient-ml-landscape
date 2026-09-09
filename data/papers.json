@@ -6775,6 +6775,27 @@
     ]
   },
   {
+    "title": "WaferTrans: Enabling IOMMU-free Distributed Virtual Address Translation for Wafer-scale GPUs",
+    "venue": "arXiv 2026",
+    "topic": "GPU kernel/DSL/compilers / wafer-scale GPU / unified memory / address translation",
+    "arxiv": "2609.06125",
+    "doi": "",
+    "official_id": "arXiv:2609.06125",
+    "paper_url": "https://arxiv.org/abs/2609.06125",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "WaferTrans removes the centralized CPU-IOMMU from remote virtual-address translation on wafer-scale GPUs via PTE Presence Consistency, distributed PTE-presence mapping and cooperative lookup. The primary abstract reports 2.5x average performance over the SOTA Trans-FW design, providing direct measured architecture/runtime evidence.",
+    "published_at": "2026-09-05T14:47:20Z",
+    "updated_at": "2026-09-05T14:47:20Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "When Load-Balancing Goes Too Far: Expert Pruning in Over-Dispersed Mixture-of-Experts Models",
     "venue": "arXiv 2026",
     "topic": "MoE systems / expert pruning / inference memory reduction / routing dispersion",
