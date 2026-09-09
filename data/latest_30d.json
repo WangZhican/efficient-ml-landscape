@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-09",
   "window_start_beijing": "2026-08-10",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 458,
+  "tracked_total": 466,
   "p0_strong_or_canonical": [
     {
       "title": "HDA-MoE: Hybrid Parallelism and Dynamic, Adaptive Scheduling for Mixture-of-Experts with 3D Near-Memory Processing",
@@ -296,6 +296,29 @@
       ]
     },
     {
+      "title": "RoLA: Rotary-Positioned Low-Rank Linear Attention for Efficient Diffusion Transformers",
+      "venue": "arXiv 2026",
+      "topic": "video/image generation acceleration / diffusion/flow acceleration / efficient attention",
+      "arxiv": "2609.06712",
+      "doi": "",
+      "official_id": "arXiv:2609.06712",
+      "paper_url": "https://arxiv.org/abs/2609.06712",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "RoLA places RoPE outside a nonlinear low-rank feature map so the global branch keeps a reusable linear summary while preserving relative rotary geometry. On Wan2.1-14B video generation at 720p/81 frames on H100, the sparse-low-rank module remains competitive at 90% sparsity and achieves 2.63x measured end-to-end inference speedup.",
+      "published_at": "2026-09-06T16:34:46Z",
+      "updated_at": "2026-09-06T16:34:46Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Sparsity / Pruning",
+        "Efficient Attention",
+        "Video / Image Generation",
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
       "title": "ForgeStencil: Automating Per-Case Stencil Specialization from Kernels to 100+ Real Applications",
       "venue": "arXiv 2026",
       "topic": "GPU kernel/DSL/compilers / code-generation agents / CUDA specialization",
@@ -378,6 +401,27 @@
       "directions": [
         "Quantization",
         "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "TBDub: Production-Oriented Visual Dubbing",
+      "venue": "arXiv 2026",
+      "topic": "video/image generation acceleration / diffusion/flow acceleration / few-step distillation",
+      "arxiv": "2609.06144",
+      "doi": "",
+      "official_id": "arXiv:2609.06144",
+      "paper_url": "https://arxiv.org/abs/2609.06144",
+      "code_url": "https://github.com/TaoLiveAIGC/TBDub",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "TBDub combines production-domain post-training with task-aware DMD/DMD2 distillation, compressing a 30-step video-DiT teacher to a two-step student. On a single H20 at 512x512 it reaches 7.13 effective FPS, reduces total end-to-end latency by 13.93x, and accelerates the DiT stage by 42.49x while largely retaining teacher quality.",
+      "published_at": "2026-09-05T15:38:23Z",
+      "updated_at": "2026-09-05T15:38:23Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Video / Image Generation",
+        "Diffusion / Flow Acceleration"
       ]
     },
     {
@@ -1557,6 +1601,27 @@
       ]
     },
     {
+      "title": "Codebook Agent: Amortized Topology Design for LLM Multi-Agent Systems",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / multi-agent topology / inference cost",
+      "arxiv": "2609.02264",
+      "doi": "",
+      "official_id": "arXiv:2609.02264",
+      "paper_url": "https://arxiv.org/abs/2609.02264",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Codebook Agent amortizes per-query multi-agent communication-topology search into a compact learned codebook and batched MLP reranker. Across six benchmarks it emits a topology in 2.4 ms, improves average accuracy over prior designers, and uses 21.9-33.2% fewer LLM tokens, providing direct systems evidence for cheaper agent orchestration.",
+      "published_at": "2026-09-02T08:10:22Z",
+      "updated_at": "2026-09-02T08:10:22Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Hardware-Accelerated Instance Segmentation for Resource-Constrained Space Robotics with Criticality Analysis",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / edge accelerator / quantization / reliable robotics inference",
@@ -2614,6 +2679,51 @@
   ],
   "p1_watchlist": [
     {
+      "title": "MoEMB: Scaling Universal Multimodal Embeddings with Efficient Mixture-of-Experts Models",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / MoE systems / retrieval embeddings",
+      "arxiv": "2609.08663",
+      "doi": "",
+      "official_id": "arXiv:2609.08663",
+      "paper_url": "https://arxiv.org/abs/2609.08663",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "MoEMB scales universal multimodal embeddings along the expert axis and studies adaptive computation. With only 3B active parameters it surpasses reasoning-token embedding methods using over 4x active parameters, but the current abstract emphasizes active compute and quality rather than measured serving latency or throughput, so retain as high-value watch.",
+      "published_at": "2026-09-08T12:29:50Z",
+      "updated_at": "2026-09-08T12:29:50Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "MoE Systems / Accelerators",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "BIO-MEMART: Biometric-Aware KV Cache Memory for Multi-User LLM Agents",
+      "venue": "arXiv 2026",
+      "topic": "KV cache/long-context / efficient reasoning/agent systems / shared memory",
+      "arxiv": "2609.08566",
+      "doi": "",
+      "official_id": "arXiv:2609.08566",
+      "paper_url": "https://arxiv.org/abs/2609.08566",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Bio-MemArt adds biometric authorization to reusable KV-memory blocks while preserving MemArt latent retrieval and direct cache reuse. Its efficiency study reduces average prefill tokens from 18,781.96 full-context to 28.57, but the main novelty is access control rather than serving acceleration, so retain as a high-value KV/agent watch.",
+      "published_at": "2026-09-08T10:56:17Z",
+      "updated_at": "2026-09-08T10:56:17Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "A Measurement Study of LLM Inference Trade-offs Across Edge Continuum Hardware",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI systems / LLM inference / measurement",
@@ -2698,6 +2808,28 @@
       "directions": [
         "Sparsity / Pruning",
         "Efficient Attention",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Dense Structural Compression of Transformers via Gauge-Correct Channel Removal",
+      "venue": "arXiv 2026",
+      "topic": "sparsity/pruning / dense structural compression / efficient inference",
+      "arxiv": "2609.07264",
+      "doi": "",
+      "official_id": "arXiv:2609.07264",
+      "paper_url": "https://arxiv.org/abs/2609.07264",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "GaugeLasso learns structurally removable transformer channels while retaining dense tensors suitable for GPU execution, achieving very large FMA compression on controlled tasks and discovering depth-dependent compact architectures. The evidence is scientifically interesting but currently centered on synthetic/statistical tasks without measured LLM-serving latency, so retain as watch.",
+      "published_at": "2026-09-07T09:20:59Z",
+      "updated_at": "2026-09-07T09:20:59Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
         "GPU Kernel / DSL / Compiler"
       ]
     },
@@ -2811,6 +2943,28 @@
         "Multimodal / MLLM Serving",
         "Efficient Reasoning / Agents",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "RAGMark: A Comprehensive Framework for Benchmarking Retrieval-Augmented Generation Systems",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / RAG systems / benchmarking",
+      "arxiv": "2609.05760",
+      "doi": "",
+      "official_id": "arXiv:2609.05760",
+      "paper_url": "https://arxiv.org/abs/2609.05760",
+      "code_url": "https://github.com/zferic/RAGMark",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "RAGMark is a modular multi-GPU RAG benchmark collecting per-stage latency, TTFT, throughput, GPU utilization, memory, power and quality. Its experiments expose cross-stage bottleneck shifts and show reranking plus compression can lower energy by up to 66%, but the contribution is primarily measurement infrastructure rather than a new serving mechanism.",
+      "published_at": "2026-09-04T22:44:05Z",
+      "updated_at": "2026-09-04T22:44:05Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference"
       ]
     },
     {
@@ -3265,6 +3419,28 @@
       "why": "Protected Physical-AI deployment signal. CFAM performs autonomous gradient-free on-device post-deployment updates across five embodiments and reports 2.5x fewer prior-training trajectories plus +13.9pp action success after near-OOD field updates. Systems/deployment relevance is real, but the contribution remains model/learning-framework heavy and lacks a strong systems venue, so high-value watch.",
       "published_at": "2026-09-03T23:15:53Z",
       "updated_at": "2026-09-03T23:15:53Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "SocioGesture: Real-Time and Adaptive Social Gesture Perception for Human-Robot Interaction",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / edge perception / human-robot interaction",
+      "arxiv": "2609.04545",
+      "doi": "",
+      "official_id": "arXiv:2609.04545",
+      "paper_url": "https://arxiv.org/abs/2609.04545",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "SocioGesture uses a compact confidence-aware skeleton representation and lightweight dual-stream model for low-latency onboard social-gesture recognition, and runs in real time on a robot-mounted edge device with deployment-time adaptation. It is useful protected Physical-AI runtime evidence, but the abstract lacks concrete latency/throughput numbers.",
+      "published_at": "2026-09-03T23:03:43Z",
+      "updated_at": "2026-09-03T23:03:43Z",
       "is_latest_30d": true,
       "directions": [
         "LLM Serving",
@@ -10251,6 +10427,29 @@
       ]
     },
     {
+      "title": "RoLA: Rotary-Positioned Low-Rank Linear Attention for Efficient Diffusion Transformers",
+      "venue": "arXiv 2026",
+      "topic": "video/image generation acceleration / diffusion/flow acceleration / efficient attention",
+      "arxiv": "2609.06712",
+      "doi": "",
+      "official_id": "arXiv:2609.06712",
+      "paper_url": "https://arxiv.org/abs/2609.06712",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "RoLA places RoPE outside a nonlinear low-rank feature map so the global branch keeps a reusable linear summary while preserving relative rotary geometry. On Wan2.1-14B video generation at 720p/81 frames on H100, the sparse-low-rank module remains competitive at 90% sparsity and achieves 2.63x measured end-to-end inference speedup.",
+      "published_at": "2026-09-06T16:34:46Z",
+      "updated_at": "2026-09-06T16:34:46Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Sparsity / Pruning",
+        "Efficient Attention",
+        "Video / Image Generation",
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
       "title": "ForgeStencil: Automating Per-Case Stencil Specialization from Kernels to 100+ Real Applications",
       "venue": "arXiv 2026",
       "topic": "GPU kernel/DSL/compilers / code-generation agents / CUDA specialization",
@@ -10333,6 +10532,27 @@
       "directions": [
         "Quantization",
         "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "TBDub: Production-Oriented Visual Dubbing",
+      "venue": "arXiv 2026",
+      "topic": "video/image generation acceleration / diffusion/flow acceleration / few-step distillation",
+      "arxiv": "2609.06144",
+      "doi": "",
+      "official_id": "arXiv:2609.06144",
+      "paper_url": "https://arxiv.org/abs/2609.06144",
+      "code_url": "https://github.com/TaoLiveAIGC/TBDub",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "TBDub combines production-domain post-training with task-aware DMD/DMD2 distillation, compressing a 30-step video-DiT teacher to a two-step student. On a single H20 at 512x512 it reaches 7.13 effective FPS, reduces total end-to-end latency by 13.93x, and accelerates the DiT stage by 42.49x while largely retaining teacher quality.",
+      "published_at": "2026-09-05T15:38:23Z",
+      "updated_at": "2026-09-05T15:38:23Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Video / Image Generation",
+        "Diffusion / Flow Acceleration"
       ]
     },
     {
@@ -11512,6 +11732,27 @@
       ]
     },
     {
+      "title": "Codebook Agent: Amortized Topology Design for LLM Multi-Agent Systems",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / multi-agent topology / inference cost",
+      "arxiv": "2609.02264",
+      "doi": "",
+      "official_id": "arXiv:2609.02264",
+      "paper_url": "https://arxiv.org/abs/2609.02264",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Codebook Agent amortizes per-query multi-agent communication-topology search into a compact learned codebook and batched MLP reranker. Across six benchmarks it emits a topology in 2.4 ms, improves average accuracy over prior designers, and uses 21.9-33.2% fewer LLM tokens, providing direct systems evidence for cheaper agent orchestration.",
+      "published_at": "2026-09-02T08:10:22Z",
+      "updated_at": "2026-09-02T08:10:22Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Hardware-Accelerated Instance Segmentation for Resource-Constrained Space Robotics with Criticality Analysis",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / edge accelerator / quantization / reliable robotics inference",
@@ -12567,6 +12808,51 @@
       ]
     },
     {
+      "title": "MoEMB: Scaling Universal Multimodal Embeddings with Efficient Mixture-of-Experts Models",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / MoE systems / retrieval embeddings",
+      "arxiv": "2609.08663",
+      "doi": "",
+      "official_id": "arXiv:2609.08663",
+      "paper_url": "https://arxiv.org/abs/2609.08663",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "MoEMB scales universal multimodal embeddings along the expert axis and studies adaptive computation. With only 3B active parameters it surpasses reasoning-token embedding methods using over 4x active parameters, but the current abstract emphasizes active compute and quality rather than measured serving latency or throughput, so retain as high-value watch.",
+      "published_at": "2026-09-08T12:29:50Z",
+      "updated_at": "2026-09-08T12:29:50Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "MoE Systems / Accelerators",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "BIO-MEMART: Biometric-Aware KV Cache Memory for Multi-User LLM Agents",
+      "venue": "arXiv 2026",
+      "topic": "KV cache/long-context / efficient reasoning/agent systems / shared memory",
+      "arxiv": "2609.08566",
+      "doi": "",
+      "official_id": "arXiv:2609.08566",
+      "paper_url": "https://arxiv.org/abs/2609.08566",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Bio-MemArt adds biometric authorization to reusable KV-memory blocks while preserving MemArt latent retrieval and direct cache reuse. Its efficiency study reduces average prefill tokens from 18,781.96 full-context to 28.57, but the main novelty is access control rather than serving acceleration, so retain as a high-value KV/agent watch.",
+      "published_at": "2026-09-08T10:56:17Z",
+      "updated_at": "2026-09-08T10:56:17Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "A Measurement Study of LLM Inference Trade-offs Across Edge Continuum Hardware",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI systems / LLM inference / measurement",
@@ -12651,6 +12937,28 @@
       "directions": [
         "Sparsity / Pruning",
         "Efficient Attention",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Dense Structural Compression of Transformers via Gauge-Correct Channel Removal",
+      "venue": "arXiv 2026",
+      "topic": "sparsity/pruning / dense structural compression / efficient inference",
+      "arxiv": "2609.07264",
+      "doi": "",
+      "official_id": "arXiv:2609.07264",
+      "paper_url": "https://arxiv.org/abs/2609.07264",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "GaugeLasso learns structurally removable transformer channels while retaining dense tensors suitable for GPU execution, achieving very large FMA compression on controlled tasks and discovering depth-dependent compact architectures. The evidence is scientifically interesting but currently centered on synthetic/statistical tasks without measured LLM-serving latency, so retain as watch.",
+      "published_at": "2026-09-07T09:20:59Z",
+      "updated_at": "2026-09-07T09:20:59Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
         "GPU Kernel / DSL / Compiler"
       ]
     },
@@ -12764,6 +13072,28 @@
         "Multimodal / MLLM Serving",
         "Efficient Reasoning / Agents",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "RAGMark: A Comprehensive Framework for Benchmarking Retrieval-Augmented Generation Systems",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / RAG systems / benchmarking",
+      "arxiv": "2609.05760",
+      "doi": "",
+      "official_id": "arXiv:2609.05760",
+      "paper_url": "https://arxiv.org/abs/2609.05760",
+      "code_url": "https://github.com/zferic/RAGMark",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "RAGMark is a modular multi-GPU RAG benchmark collecting per-stage latency, TTFT, throughput, GPU utilization, memory, power and quality. Its experiments expose cross-stage bottleneck shifts and show reranking plus compression can lower energy by up to 66%, but the contribution is primarily measurement infrastructure rather than a new serving mechanism.",
+      "published_at": "2026-09-04T22:44:05Z",
+      "updated_at": "2026-09-04T22:44:05Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference"
       ]
     },
     {
@@ -13218,6 +13548,28 @@
       "why": "Protected Physical-AI deployment signal. CFAM performs autonomous gradient-free on-device post-deployment updates across five embodiments and reports 2.5x fewer prior-training trajectories plus +13.9pp action success after near-OOD field updates. Systems/deployment relevance is real, but the contribution remains model/learning-framework heavy and lacks a strong systems venue, so high-value watch.",
       "published_at": "2026-09-03T23:15:53Z",
       "updated_at": "2026-09-03T23:15:53Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "SocioGesture: Real-Time and Adaptive Social Gesture Perception for Human-Robot Interaction",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / edge perception / human-robot interaction",
+      "arxiv": "2609.04545",
+      "doi": "",
+      "official_id": "arXiv:2609.04545",
+      "paper_url": "https://arxiv.org/abs/2609.04545",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "SocioGesture uses a compact confidence-aware skeleton representation and lightweight dual-stream model for low-latency onboard social-gesture recognition, and runs in real time on a robot-mounted edge device with deployment-time adaptation. It is useful protected Physical-AI runtime evidence, but the abstract lacks concrete latency/throughput numbers.",
+      "published_at": "2026-09-03T23:03:43Z",
+      "updated_at": "2026-09-03T23:03:43Z",
       "is_latest_30d": true,
       "directions": [
         "LLM Serving",

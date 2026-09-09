@@ -2867,6 +2867,27 @@
     ]
   },
   {
+    "title": "Codebook Agent: Amortized Topology Design for LLM Multi-Agent Systems",
+    "venue": "arXiv 2026",
+    "topic": "efficient reasoning/agent systems / multi-agent topology / inference cost",
+    "arxiv": "2609.02264",
+    "doi": "",
+    "official_id": "arXiv:2609.02264",
+    "paper_url": "https://arxiv.org/abs/2609.02264",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Codebook Agent amortizes per-query multi-agent communication-topology search into a compact learned codebook and batched MLP reranker. Across six benchmarks it emits a topology in 2.4 ms, improves average accuracy over prior designers, and uses 21.9-33.2% fewer LLM tokens, providing direct systems evidence for cheaper agent orchestration.",
+    "published_at": "2026-09-02T08:10:22Z",
+    "updated_at": "2026-09-02T08:10:22Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Distributed Training / Inference",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "CoFiE: Coarse-to-Fine Evidence Selection for Efficient Streaming Video Understanding",
     "venue": "arXiv 2026",
     "topic": "multimodal/MLLM serving / sparsity / streaming video",
@@ -4830,6 +4851,29 @@
     ]
   },
   {
+    "title": "RoLA: Rotary-Positioned Low-Rank Linear Attention for Efficient Diffusion Transformers",
+    "venue": "arXiv 2026",
+    "topic": "video/image generation acceleration / diffusion/flow acceleration / efficient attention",
+    "arxiv": "2609.06712",
+    "doi": "",
+    "official_id": "arXiv:2609.06712",
+    "paper_url": "https://arxiv.org/abs/2609.06712",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "RoLA places RoPE outside a nonlinear low-rank feature map so the global branch keeps a reusable linear summary while preserving relative rotary geometry. On Wan2.1-14B video generation at 720p/81 frames on H100, the sparse-low-rank module remains competitive at 90% sparsity and achieves 2.63x measured end-to-end inference speedup.",
+    "published_at": "2026-09-06T16:34:46Z",
+    "updated_at": "2026-09-06T16:34:46Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "RT-HiSS: Ray Tracing Accelerated High Dimensional Vector Similarity Searches",
     "venue": "arXiv 2026",
     "topic": "GPU kernel/accelerators / vector search / heterogeneous GPU cores",
@@ -5338,6 +5382,27 @@
     "tracking_tier": "P0 · Strong",
     "directions": [
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "TBDub: Production-Oriented Visual Dubbing",
+    "venue": "arXiv 2026",
+    "topic": "video/image generation acceleration / diffusion/flow acceleration / few-step distillation",
+    "arxiv": "2609.06144",
+    "doi": "",
+    "official_id": "arXiv:2609.06144",
+    "paper_url": "https://arxiv.org/abs/2609.06144",
+    "code_url": "https://github.com/TaoLiveAIGC/TBDub",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "TBDub combines production-domain post-training with task-aware DMD/DMD2 distillation, compressing a 30-step video-DiT teacher to a two-step student. On a single H20 at 512x512 it reaches 7.13 effective FPS, reduces total end-to-end latency by 13.93x, and accelerates the DiT stage by 42.49x while largely retaining teacher quality.",
+    "published_at": "2026-09-05T15:38:23Z",
+    "updated_at": "2026-09-05T15:38:23Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
