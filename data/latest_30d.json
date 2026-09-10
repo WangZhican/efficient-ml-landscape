@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-11",
   "window_start_beijing": "2026-08-12",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 656,
+  "tracked_total": 661,
   "p0_strong_or_canonical": [
     {
       "title": "HybridFLow: SDN-Orchestrated Client Partitioning for Hybrid Federated Learning",
@@ -68,6 +68,27 @@
         "LLM Serving",
         "GPU Kernel / DSL / Compiler",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Decoupled Self-Forcing Distillation for Streaming Talking Head Generation",
+      "venue": "arXiv 2026",
+      "topic": "video/image generation acceleration / streaming diffusion / causal distillation",
+      "arxiv": "2609.10317",
+      "doi": "",
+      "official_id": "arXiv:2609.10317",
+      "paper_url": "https://arxiv.org/abs/2609.10317",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Decouples low-dimensional causal motion generation from a distilled causal diffusion renderer and runs both as parallel streams. Reports 15.4 FPS at 1.3 s latency with no quality degradation, directly addressing streaming generative inference efficiency.",
+      "published_at": "2026-09-09T15:22:49Z",
+      "updated_at": "2026-09-09T15:22:49Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Video / Image Generation",
+        "Diffusion / Flow Acceleration"
       ]
     },
     {
@@ -1112,6 +1133,29 @@
       "directions": [
         "LLM Serving",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "RAFM-SER++: A Lightweight Multimodal Emotion Recognition Framework for Real-Time Behavioral Monitoring in Surveillance Systems",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / lightweight asymmetric fusion / real-time inference",
+      "arxiv": "2609.07409",
+      "doi": "",
+      "official_id": "arXiv:2609.07409",
+      "paper_url": "https://arxiv.org/abs/2609.07409",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Replaces interaction-heavy bidirectional multimodal fusion with one-directional residual attention. Reports >60% fewer trainable parameters, 79.60 it/s inference, and strong BACC on IEMOCAP/ESD; direct measured accuracy-efficiency evidence.",
+      "published_at": "2026-09-07T12:23:42Z",
+      "updated_at": "2026-09-07T12:23:42Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler",
+        "Multimodal / MLLM Serving"
       ]
     },
     {
@@ -4453,6 +4497,26 @@
       ]
     },
     {
+      "title": "Closing the Consistency Gap: Self-Evolving Agents That Learn to Stay on Course",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / episodic memory / production consistency",
+      "arxiv": "2609.08832",
+      "doi": "",
+      "official_id": "arXiv:2609.08832",
+      "paper_url": "https://arxiv.org/abs/2609.08832",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Converts unstable agent trajectory steps into episodic guidelines. On AppWorld with ReAct/GPT-4.1, all-five-runs success improves by +16 points same-task and +13 points similar-task. High-value agent-runtime reliability work, but not direct inference acceleration.",
+      "published_at": "2026-09-08T14:53:43Z",
+      "updated_at": "2026-09-08T14:53:43Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Hi-FLoop: Hierarchical State-Feedback Loops for Multi-Timescale World Modeling",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI / world models / multi-timescale closed-loop generation",
@@ -4884,6 +4948,27 @@
         "LLM Serving",
         "KV Cache / Long Context",
         "Efficient Attention"
+      ]
+    },
+    {
+      "title": "Router Prior Bias: Preserving Base Routing Structure in MoE Post-Training",
+      "venue": "arXiv 2026",
+      "topic": "MoE systems/accelerators / router post-training / expert co-activation",
+      "arxiv": "2609.08115",
+      "doi": "",
+      "official_id": "arXiv:2609.08115",
+      "paper_url": "https://arxiv.org/abs/2609.08115",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Shows downstream MoE post-training benefits from softly preserving the pretrained router prior rather than re-imposing uniform load balancing. Important expert-routing lineage on Moonlight-16B-A3B and Qwen3-30B-A3B, but no measured serving throughput/latency gain in the primary abstract.",
+      "published_at": "2026-09-08T01:49:13Z",
+      "updated_at": "2026-09-08T01:49:13Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "MoE Systems / Accelerators"
       ]
     },
     {
@@ -6160,6 +6245,26 @@
         "LLM Serving",
         "GPU Kernel / DSL / Compiler",
         "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "Beyond Scalar Flexibility: From Eligible AI Workloads to Dependable Load Relief",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / datacenter power / workload flexibility",
+      "arxiv": "2609.05406",
+      "doi": "",
+      "official_id": "arXiv:2609.05406",
+      "paper_url": "https://arxiv.org/abs/2609.05406",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Reconstructs 4,439 hourly power observations from a 185-day trace of 155,410 GPUs and derives duration/reliability-aware AI workload flexibility. Valuable production-scale AI-infrastructure power characterization, but not an ML acceleration technique.",
+      "published_at": "2026-09-04T17:52:50Z",
+      "updated_at": "2026-09-04T17:52:50Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -14281,6 +14386,27 @@
       ]
     },
     {
+      "title": "Decoupled Self-Forcing Distillation for Streaming Talking Head Generation",
+      "venue": "arXiv 2026",
+      "topic": "video/image generation acceleration / streaming diffusion / causal distillation",
+      "arxiv": "2609.10317",
+      "doi": "",
+      "official_id": "arXiv:2609.10317",
+      "paper_url": "https://arxiv.org/abs/2609.10317",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Decouples low-dimensional causal motion generation from a distilled causal diffusion renderer and runs both as parallel streams. Reports 15.4 FPS at 1.3 s latency with no quality degradation, directly addressing streaming generative inference efficiency.",
+      "published_at": "2026-09-09T15:22:49Z",
+      "updated_at": "2026-09-09T15:22:49Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Video / Image Generation",
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
       "title": "Maverick: Private and Verifiable LLM Inference Made Practical via Matrix-Vector Multiplication Delegation",
       "venue": "arXiv 2026",
       "topic": "LLM serving / private inference / verifiable delegation / heterogeneous offload",
@@ -15322,6 +15448,29 @@
       "directions": [
         "LLM Serving",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "RAFM-SER++: A Lightweight Multimodal Emotion Recognition Framework for Real-Time Behavioral Monitoring in Surveillance Systems",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / lightweight asymmetric fusion / real-time inference",
+      "arxiv": "2609.07409",
+      "doi": "",
+      "official_id": "arXiv:2609.07409",
+      "paper_url": "https://arxiv.org/abs/2609.07409",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Replaces interaction-heavy bidirectional multimodal fusion with one-directional residual attention. Reports >60% fewer trainable parameters, 79.60 it/s inference, and strong BACC on IEMOCAP/ESD; direct measured accuracy-efficiency evidence.",
+      "published_at": "2026-09-07T12:23:42Z",
+      "updated_at": "2026-09-07T12:23:42Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler",
+        "Multimodal / MLLM Serving"
       ]
     },
     {
@@ -18661,6 +18810,26 @@
       ]
     },
     {
+      "title": "Closing the Consistency Gap: Self-Evolving Agents That Learn to Stay on Course",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / episodic memory / production consistency",
+      "arxiv": "2609.08832",
+      "doi": "",
+      "official_id": "arXiv:2609.08832",
+      "paper_url": "https://arxiv.org/abs/2609.08832",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Converts unstable agent trajectory steps into episodic guidelines. On AppWorld with ReAct/GPT-4.1, all-five-runs success improves by +16 points same-task and +13 points similar-task. High-value agent-runtime reliability work, but not direct inference acceleration.",
+      "published_at": "2026-09-08T14:53:43Z",
+      "updated_at": "2026-09-08T14:53:43Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Hi-FLoop: Hierarchical State-Feedback Loops for Multi-Timescale World Modeling",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI / world models / multi-timescale closed-loop generation",
@@ -19092,6 +19261,27 @@
         "LLM Serving",
         "KV Cache / Long Context",
         "Efficient Attention"
+      ]
+    },
+    {
+      "title": "Router Prior Bias: Preserving Base Routing Structure in MoE Post-Training",
+      "venue": "arXiv 2026",
+      "topic": "MoE systems/accelerators / router post-training / expert co-activation",
+      "arxiv": "2609.08115",
+      "doi": "",
+      "official_id": "arXiv:2609.08115",
+      "paper_url": "https://arxiv.org/abs/2609.08115",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Shows downstream MoE post-training benefits from softly preserving the pretrained router prior rather than re-imposing uniform load balancing. Important expert-routing lineage on Moonlight-16B-A3B and Qwen3-30B-A3B, but no measured serving throughput/latency gain in the primary abstract.",
+      "published_at": "2026-09-08T01:49:13Z",
+      "updated_at": "2026-09-08T01:49:13Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "MoE Systems / Accelerators"
       ]
     },
     {
@@ -20368,6 +20558,26 @@
         "LLM Serving",
         "GPU Kernel / DSL / Compiler",
         "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "Beyond Scalar Flexibility: From Eligible AI Workloads to Dependable Load Relief",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / datacenter power / workload flexibility",
+      "arxiv": "2609.05406",
+      "doi": "",
+      "official_id": "arXiv:2609.05406",
+      "paper_url": "https://arxiv.org/abs/2609.05406",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Reconstructs 4,439 hourly power observations from a 185-day trace of 155,410 GPUs and derives duration/reliability-aware AI workload flexibility. Valuable production-scale AI-infrastructure power characterization, but not an ML acceleration technique.",
+      "published_at": "2026-09-04T17:52:50Z",
+      "updated_at": "2026-09-04T17:52:50Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
