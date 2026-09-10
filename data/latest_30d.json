@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-10",
   "window_start_beijing": "2026-08-11",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 567,
+  "tracked_total": 571,
   "p0_strong_or_canonical": [
     {
       "title": "Distributed Linear Programming on GPU Clusters at Extreme Scale",
@@ -3620,6 +3620,26 @@
       ]
     },
     {
+      "title": "MeClear: Cooperative Game-Theoretic Attribution and Risk-Aware Memory Clearance for Long-Horizon LLM Agents",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / agent memory / context management",
+      "arxiv": "2609.09115",
+      "doi": "",
+      "official_id": "arXiv:2609.09115",
+      "paper_url": "https://arxiv.org/abs/2609.09115",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Task-conditioned memory clearance uses LOO screening plus sampled cooperative Shapley attribution to suppress harmful memories without modifying the persistent store. Across ten long-dialogue memory pools it reaches 85.9% target recall and 82.3% task recovery, +25.5 points over LOO, but no direct token/latency reduction is reported, so it remains watch.",
+      "published_at": "2026-09-08T17:46:00Z",
+      "updated_at": "2026-09-08T17:46:00Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Ozaki 2.5: Engineering the Deconstruction Path of fp64-Emulated Dense Matrix Multiplication on FP8 Tensor Cores",
       "venue": "arXiv 2026",
       "topic": "GPU kernel/DSL/compilers / FP8 tensor cores / mixed precision / GEMM / architecture co-design",
@@ -3787,6 +3807,27 @@
         "MoE Systems / Accelerators",
         "Multimodal / MLLM Serving",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "CoordFormer: Give Me Any Coordinates and I Will Give You Labels",
+      "venue": "arXiv 2026",
+      "topic": "efficient attention / high-resolution inference / edge-cloud vision",
+      "arxiv": "2609.08660",
+      "doi": "",
+      "official_id": "arXiv:2609.08660",
+      "paper_url": "https://arxiv.org/abs/2609.08660",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Coordinate decoding with localized cross-attention combines downsampled global ViT tokens and high-resolution local patches, supporting semantic-edge-focused inference that reduces memory, latency and compute on very-high-resolution segmentation. SOTA accuracy is reported, but the abstract omits exact speedup/memory numbers, so it remains watch.",
+      "published_at": "2026-09-08T12:28:25Z",
+      "updated_at": "2026-09-08T12:28:25Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Attention",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -5620,6 +5661,28 @@
       ]
     },
     {
+      "title": "PPO-STGNN: A Proximal Policy Optimization Approach with Spatio-Temporal Graph Neural Networks for DAG Task Scheduling in Cloud-Edge-End Computing",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / scheduling / reinforcement learning",
+      "arxiv": "2609.03503",
+      "doi": "",
+      "official_id": "arXiv:2609.03503",
+      "paper_url": "https://arxiv.org/abs/2609.03503",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "DAG scheduling across heterogeneous cloud-edge-end resources using STGNN state encoding plus PPO and multi-teacher behavior-cloning pretraining. Experiments report better load balancing while maintaining low completion time, but the primary abstract provides no exact latency/makespan gain, so this remains high-value watch.",
+      "published_at": "2026-09-03T08:04:30Z",
+      "updated_at": "2026-09-03T08:04:30Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Lngram v2: Latent N-Gram Memory with Interpretable Discrete Representations",
       "venue": "arXiv 2026",
       "topic": "KV cache/long-context / multimodal serving / conditional memory / efficient model architecture",
@@ -5639,6 +5702,28 @@
         "LLM Serving",
         "KV Cache / Long Context",
         "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "R2S-Eval: Robot Evaluation with Real-to-Sim Calibration via Vision-Language Models",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / evaluation infrastructure / real-to-sim",
+      "arxiv": "2609.03276",
+      "doi": "",
+      "official_id": "arXiv:2609.03276",
+      "paper_url": "https://arxiv.org/abs/2609.03276",
+      "code_url": "https://r2s-eval.github.io",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI evaluation infrastructure calibrates simulation to a real setup and uses VLM preference judgments to reduce repeated hardware trials and operator effort while producing stable policy rankings. Real and simulated experiments support the workflow, but the abstract gives no exact evaluation-time or hardware-effort reduction, so it remains watch.",
+      "published_at": "2026-09-03T02:08:16Z",
+      "updated_at": "2026-09-03T02:08:16Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -15927,6 +16012,26 @@
       ]
     },
     {
+      "title": "MeClear: Cooperative Game-Theoretic Attribution and Risk-Aware Memory Clearance for Long-Horizon LLM Agents",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / agent memory / context management",
+      "arxiv": "2609.09115",
+      "doi": "",
+      "official_id": "arXiv:2609.09115",
+      "paper_url": "https://arxiv.org/abs/2609.09115",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Task-conditioned memory clearance uses LOO screening plus sampled cooperative Shapley attribution to suppress harmful memories without modifying the persistent store. Across ten long-dialogue memory pools it reaches 85.9% target recall and 82.3% task recovery, +25.5 points over LOO, but no direct token/latency reduction is reported, so it remains watch.",
+      "published_at": "2026-09-08T17:46:00Z",
+      "updated_at": "2026-09-08T17:46:00Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Ozaki 2.5: Engineering the Deconstruction Path of fp64-Emulated Dense Matrix Multiplication on FP8 Tensor Cores",
       "venue": "arXiv 2026",
       "topic": "GPU kernel/DSL/compilers / FP8 tensor cores / mixed precision / GEMM / architecture co-design",
@@ -16094,6 +16199,27 @@
         "MoE Systems / Accelerators",
         "Multimodal / MLLM Serving",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "CoordFormer: Give Me Any Coordinates and I Will Give You Labels",
+      "venue": "arXiv 2026",
+      "topic": "efficient attention / high-resolution inference / edge-cloud vision",
+      "arxiv": "2609.08660",
+      "doi": "",
+      "official_id": "arXiv:2609.08660",
+      "paper_url": "https://arxiv.org/abs/2609.08660",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Coordinate decoding with localized cross-attention combines downsampled global ViT tokens and high-resolution local patches, supporting semantic-edge-focused inference that reduces memory, latency and compute on very-high-resolution segmentation. SOTA accuracy is reported, but the abstract omits exact speedup/memory numbers, so it remains watch.",
+      "published_at": "2026-09-08T12:28:25Z",
+      "updated_at": "2026-09-08T12:28:25Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Attention",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -17927,6 +18053,28 @@
       ]
     },
     {
+      "title": "PPO-STGNN: A Proximal Policy Optimization Approach with Spatio-Temporal Graph Neural Networks for DAG Task Scheduling in Cloud-Edge-End Computing",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / scheduling / reinforcement learning",
+      "arxiv": "2609.03503",
+      "doi": "",
+      "official_id": "arXiv:2609.03503",
+      "paper_url": "https://arxiv.org/abs/2609.03503",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "DAG scheduling across heterogeneous cloud-edge-end resources using STGNN state encoding plus PPO and multi-teacher behavior-cloning pretraining. Experiments report better load balancing while maintaining low completion time, but the primary abstract provides no exact latency/makespan gain, so this remains high-value watch.",
+      "published_at": "2026-09-03T08:04:30Z",
+      "updated_at": "2026-09-03T08:04:30Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Lngram v2: Latent N-Gram Memory with Interpretable Discrete Representations",
       "venue": "arXiv 2026",
       "topic": "KV cache/long-context / multimodal serving / conditional memory / efficient model architecture",
@@ -17946,6 +18094,28 @@
         "LLM Serving",
         "KV Cache / Long Context",
         "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "R2S-Eval: Robot Evaluation with Real-to-Sim Calibration via Vision-Language Models",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / evaluation infrastructure / real-to-sim",
+      "arxiv": "2609.03276",
+      "doi": "",
+      "official_id": "arXiv:2609.03276",
+      "paper_url": "https://arxiv.org/abs/2609.03276",
+      "code_url": "https://r2s-eval.github.io",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI evaluation infrastructure calibrates simulation to a real setup and uses VLM preference judgments to reduce repeated hardware trials and operator effort while producing stable policy rankings. Real and simulated experiments support the workflow, but the abstract gives no exact evaluation-time or hardware-effort reduction, so it remains watch.",
+      "published_at": "2026-09-03T02:08:16Z",
+      "updated_at": "2026-09-03T02:08:16Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
