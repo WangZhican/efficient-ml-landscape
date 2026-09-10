@@ -3298,6 +3298,27 @@
     ]
   },
   {
+    "title": "Cost-Aware Hierarchical Multi-Agent Ransomware Detection and Family Attribution",
+    "venue": "arXiv 2026",
+    "topic": "efficient reasoning/agent systems / adaptive multimodal routing / cost-aware orchestration",
+    "arxiv": "2609.04820",
+    "doi": "",
+    "official_id": "arXiv:2609.04820",
+    "paper_url": "https://arxiv.org/abs/2609.04820",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Uses confidence- and disagreement-aware hierarchical routing so cheap static analysis handles easy cases while dynamic, memory, and local-LLM verification are invoked selectively. It reports 43.97% lower average analysis cost than exhaustive analysis while retaining 96.57% binary accuracy and substantially reducing average latency except when the LLM fallback is used, providing measured agent-system efficiency evidence.",
+    "published_at": "2026-09-04T07:17:09Z",
+    "updated_at": "2026-09-04T07:17:09Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "CREDIT: Cost-guided Reduction-reuse with Efficient DSMEM Inter-CTA Tiling",
     "venue": "arXiv 2026",
     "topic": "GPU kernel/DSL/compilers / NVIDIA DSMEM / inter-CTA tiling",

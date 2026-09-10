@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-10",
   "window_start_beijing": "2026-08-11",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 623,
+  "tracked_total": 629,
   "p0_strong_or_canonical": [
     {
       "title": "HybridFLow: SDN-Orchestrated Client Partitioning for Hybrid Federated Learning",
@@ -2112,6 +2112,27 @@
       ]
     },
     {
+      "title": "Cost-Aware Hierarchical Multi-Agent Ransomware Detection and Family Attribution",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / adaptive multimodal routing / cost-aware orchestration",
+      "arxiv": "2609.04820",
+      "doi": "",
+      "official_id": "arXiv:2609.04820",
+      "paper_url": "https://arxiv.org/abs/2609.04820",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Uses confidence- and disagreement-aware hierarchical routing so cheap static analysis handles easy cases while dynamic, memory, and local-LLM verification are invoked selectively. It reports 43.97% lower average analysis cost than exhaustive analysis while retaining 96.57% binary accuracy and substantially reducing average latency except when the LLM fallback is used, providing measured agent-system efficiency evidence.",
+      "published_at": "2026-09-04T07:17:09Z",
+      "updated_at": "2026-09-04T07:17:09Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "MedFlow: Class-Aware Multi-Scale Generation for Medical Time-Series Synthesis",
       "venue": "arXiv 2026",
       "topic": "diffusion/flow acceleration / generative inference / sampling throughput / time-series",
@@ -3885,6 +3906,49 @@
       ]
     },
     {
+      "title": "CEDD-optimizer: Enabling Cost-Efficient Dataset Distillation on Geographically Distributed Edge Systems",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / distributed dataset distillation / cost optimization",
+      "arxiv": "2609.10151",
+      "doi": "",
+      "official_id": "arXiv:2609.10151",
+      "paper_url": "https://arxiv.org/abs/2609.10151",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Optimizes dataset-distillation compression ratio and distillation steps across geographically distributed edge devices under heterogeneous energy and transfer prices. The abstract reports up to a 20.8 improvement over baseline under the same quality constraint, but the unit is not explicit in the primary abstract, so it is retained as high-value watch rather than promoted strong.",
+      "published_at": "2026-09-09T13:29:28Z",
+      "updated_at": "2026-09-09T13:29:28Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Distributed Training / Inference",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "GTA-2: A Multi-VLM Framework for Synthesizing Robot Manipulation Skills via Grounded Task Axes",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI / multi-VLM skill synthesis / zero-shot manipulation / modular control",
+      "arxiv": "2609.09808",
+      "doi": "",
+      "official_id": "arXiv:2609.09808",
+      "paper_url": "https://arxiv.org/abs/2609.09808",
+      "code_url": "https://gta2-project.github.io/",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Factorizes manipulation into semantic subtasks, grounded task axes, controller parameters, and visual grounding using four specialized VLM agents, enabling zero-shot executable skill synthesis without robot demonstrations or task-specific fine-tuning. On 14 real-robot tasks it reaches 73.9% zero-shot success versus the strongest baseline by +31.4 points, rising to 90.7% with targeted refinement; this is high-value Physical-AI architecture evidence but not measured inference acceleration.",
+      "published_at": "2026-09-09T07:04:35Z",
+      "updated_at": "2026-09-09T07:04:35Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "SymbolicLight V2: Hybrid Neuromorphic Architecture and Sparse Execution for Low-Energy Language Inference",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI / sparse inference / FPGA",
@@ -4772,6 +4836,27 @@
       ]
     },
     {
+      "title": "MEMO: Multimodal Evidence Memory Organization for Long-Horizon LLM Agents",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / long-horizon memory / multimodal evidence budgeting",
+      "arxiv": "2609.07471",
+      "doi": "",
+      "official_id": "arXiv:2609.07471",
+      "paper_url": "https://arxiv.org/abs/2609.07471",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Selects relevant evidence blocks and assigns them to textual, visual, or dual-channel carriers under a constrained working-memory budget. Across HotpotQA, 2WikiMultiHopQA, LoCoMo, and ALFWorld it reports fewer memory tokens with improved downstream performance, but the primary abstract gives no exact latency, token-reduction, or cost ratio, so it remains high-value watch.",
+      "published_at": "2026-09-07T13:24:40Z",
+      "updated_at": "2026-09-07T13:24:40Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / WAM infrastructure / deployment stack",
@@ -5286,6 +5371,27 @@
       ]
     },
     {
+      "title": "SIDE: Sensor Impersonation Detection at the Edge via Sequence Prediction",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / edge inference / quantization / tiny ML",
+      "arxiv": "2609.06271",
+      "doi": "",
+      "official_id": "arXiv:2609.06271",
+      "paper_url": "https://arxiv.org/abs/2609.06271",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Deploys an LSTM detector on Arduino Nano 33 BLE and compares non-quantized, 16-bit, and 8-bit variants: model size falls from 554 KB to 298.5 KB and 185 KB, while the authors explicitly report quantization made execution slower in their measurements. This is a useful hardware-aware negative result for edge quantization, not a strong acceleration result.",
+      "published_at": "2026-09-05T21:46:07Z",
+      "updated_at": "2026-09-05T21:46:07Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "MobileVLA-R1 2.0: RL-Enhanced Reasoning for Mobile Robot Control",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / mobile robot control / reasoning-action decoupling",
@@ -5347,6 +5453,27 @@
       "directions": [
         "GPU Kernel / DSL / Compiler",
         "Video / Image Generation"
+      ]
+    },
+    {
+      "title": "Protocol Compression Changes Which Party Pays: Bilateral Cost in Cross-Organization LLM Agent Communication",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / agent communication / protocol compression / token cost",
+      "arxiv": "2609.06129",
+      "doi": "",
+      "official_id": "arXiv:2609.06129",
+      "paper_url": "https://arxiv.org/abs/2609.06129",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Measures bilateral token and monetary cost of compressed protocols across six vendors and 1,053 completed cross-organization agent dialogues. Negotiated sessions cost 52% of the English baseline largely because they terminate sooner, while break-even horizons are 20-70 turns and some vendor pairs reverse which endpoint is cheaper. Valuable deployment economics and communication-efficiency evidence, but not a generally positive acceleration method.",
+      "published_at": "2026-09-05T14:54:45Z",
+      "updated_at": "2026-09-05T14:54:45Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -15625,6 +15752,27 @@
       ]
     },
     {
+      "title": "Cost-Aware Hierarchical Multi-Agent Ransomware Detection and Family Attribution",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / adaptive multimodal routing / cost-aware orchestration",
+      "arxiv": "2609.04820",
+      "doi": "",
+      "official_id": "arXiv:2609.04820",
+      "paper_url": "https://arxiv.org/abs/2609.04820",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Uses confidence- and disagreement-aware hierarchical routing so cheap static analysis handles easy cases while dynamic, memory, and local-LLM verification are invoked selectively. It reports 43.97% lower average analysis cost than exhaustive analysis while retaining 96.57% binary accuracy and substantially reducing average latency except when the LLM fallback is used, providing measured agent-system efficiency evidence.",
+      "published_at": "2026-09-04T07:17:09Z",
+      "updated_at": "2026-09-04T07:17:09Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "MedFlow: Class-Aware Multi-Scale Generation for Medical Time-Series Synthesis",
       "venue": "arXiv 2026",
       "topic": "diffusion/flow acceleration / generative inference / sampling throughput / time-series",
@@ -17396,6 +17544,49 @@
       ]
     },
     {
+      "title": "CEDD-optimizer: Enabling Cost-Efficient Dataset Distillation on Geographically Distributed Edge Systems",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / distributed dataset distillation / cost optimization",
+      "arxiv": "2609.10151",
+      "doi": "",
+      "official_id": "arXiv:2609.10151",
+      "paper_url": "https://arxiv.org/abs/2609.10151",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Optimizes dataset-distillation compression ratio and distillation steps across geographically distributed edge devices under heterogeneous energy and transfer prices. The abstract reports up to a 20.8 improvement over baseline under the same quality constraint, but the unit is not explicit in the primary abstract, so it is retained as high-value watch rather than promoted strong.",
+      "published_at": "2026-09-09T13:29:28Z",
+      "updated_at": "2026-09-09T13:29:28Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Distributed Training / Inference",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "GTA-2: A Multi-VLM Framework for Synthesizing Robot Manipulation Skills via Grounded Task Axes",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI / multi-VLM skill synthesis / zero-shot manipulation / modular control",
+      "arxiv": "2609.09808",
+      "doi": "",
+      "official_id": "arXiv:2609.09808",
+      "paper_url": "https://arxiv.org/abs/2609.09808",
+      "code_url": "https://gta2-project.github.io/",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Factorizes manipulation into semantic subtasks, grounded task axes, controller parameters, and visual grounding using four specialized VLM agents, enabling zero-shot executable skill synthesis without robot demonstrations or task-specific fine-tuning. On 14 real-robot tasks it reaches 73.9% zero-shot success versus the strongest baseline by +31.4 points, rising to 90.7% with targeted refinement; this is high-value Physical-AI architecture evidence but not measured inference acceleration.",
+      "published_at": "2026-09-09T07:04:35Z",
+      "updated_at": "2026-09-09T07:04:35Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "SymbolicLight V2: Hybrid Neuromorphic Architecture and Sparse Execution for Low-Energy Language Inference",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI / sparse inference / FPGA",
@@ -18283,6 +18474,27 @@
       ]
     },
     {
+      "title": "MEMO: Multimodal Evidence Memory Organization for Long-Horizon LLM Agents",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / long-horizon memory / multimodal evidence budgeting",
+      "arxiv": "2609.07471",
+      "doi": "",
+      "official_id": "arXiv:2609.07471",
+      "paper_url": "https://arxiv.org/abs/2609.07471",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Selects relevant evidence blocks and assigns them to textual, visual, or dual-channel carriers under a constrained working-memory budget. Across HotpotQA, 2WikiMultiHopQA, LoCoMo, and ALFWorld it reports fewer memory tokens with improved downstream performance, but the primary abstract gives no exact latency, token-reduction, or cost ratio, so it remains high-value watch.",
+      "published_at": "2026-09-07T13:24:40Z",
+      "updated_at": "2026-09-07T13:24:40Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / WAM infrastructure / deployment stack",
@@ -18797,6 +19009,27 @@
       ]
     },
     {
+      "title": "SIDE: Sensor Impersonation Detection at the Edge via Sequence Prediction",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / edge inference / quantization / tiny ML",
+      "arxiv": "2609.06271",
+      "doi": "",
+      "official_id": "arXiv:2609.06271",
+      "paper_url": "https://arxiv.org/abs/2609.06271",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Deploys an LSTM detector on Arduino Nano 33 BLE and compares non-quantized, 16-bit, and 8-bit variants: model size falls from 554 KB to 298.5 KB and 185 KB, while the authors explicitly report quantization made execution slower in their measurements. This is a useful hardware-aware negative result for edge quantization, not a strong acceleration result.",
+      "published_at": "2026-09-05T21:46:07Z",
+      "updated_at": "2026-09-05T21:46:07Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "MobileVLA-R1 2.0: RL-Enhanced Reasoning for Mobile Robot Control",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / mobile robot control / reasoning-action decoupling",
@@ -18858,6 +19091,27 @@
       "directions": [
         "GPU Kernel / DSL / Compiler",
         "Video / Image Generation"
+      ]
+    },
+    {
+      "title": "Protocol Compression Changes Which Party Pays: Bilateral Cost in Cross-Organization LLM Agent Communication",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / agent communication / protocol compression / token cost",
+      "arxiv": "2609.06129",
+      "doi": "",
+      "official_id": "arXiv:2609.06129",
+      "paper_url": "https://arxiv.org/abs/2609.06129",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Measures bilateral token and monetary cost of compressed protocols across six vendors and 1,053 completed cross-organization agent dialogues. Negotiated sessions cost 52% of the English baseline largely because they terminate sooner, while break-even horizons are 20-70 turns and some vendor pairs reverse which endpoint is cheaper. Valuable deployment economics and communication-efficiency evidence, but not a generally positive acceleration method.",
+      "published_at": "2026-09-05T14:54:45Z",
+      "updated_at": "2026-09-05T14:54:45Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
