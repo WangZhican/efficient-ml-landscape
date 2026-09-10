@@ -2614,6 +2614,26 @@
     ]
   },
   {
+    "title": "Agentic Algorithm Engineering: Improving Shared-Memory Exact Minimum Cuts",
+    "venue": "arXiv 2026",
+    "topic": "efficient reasoning/agent systems / autonomous algorithm engineering / shared-memory optimization / performance tuning",
+    "arxiv": "2609.07204",
+    "doi": "",
+    "official_id": "arXiv:2609.07204",
+    "paper_url": "https://arxiv.org/abs/2609.07204",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Autonomous LLM agents repeatedly profile, modify and benchmark an already heavily hand-tuned shared-memory exact minimum-cut implementation. The resulting changes yield 1.28x sequential and 1.63x 32-thread speedups on real-world k-cores, and 6.26x/127x on DIMACS core instances, providing direct measured evidence that agentic systems can improve low-level algorithm/runtime efficiency rather than only generate code.",
+    "published_at": "2026-09-07T08:26:05Z",
+    "updated_at": "2026-09-07T08:26:05Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "AInfer-PD: Communication-Safe In-Place Prefill-Decode Multiplexing for Distributed MoE Rollouts",
     "venue": "arXiv 2026",
     "topic": "LLM serving / agentic RL rollout / prefill-decode multiplexing / distributed MoE / communication",
@@ -7622,6 +7642,26 @@
       "LLM Serving",
       "Quantization",
       "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "Uni-Light: An Ultra-Lightweight Framework via Uncertainty-Aware Knowledge Distillation for Brain Tumour Segmentation",
+    "venue": "arXiv 2026",
+    "topic": "edge/cloud/heterogeneous AI systems / lightweight neural networks / knowledge distillation / memory-FLOP efficiency",
+    "arxiv": "2609.06729",
+    "doi": "",
+    "official_id": "arXiv:2609.06729",
+    "paper_url": "https://arxiv.org/abs/2609.06729",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Targets deployment efficiency directly: the ultra-lightweight 3D segmentation model reduces parameters by 97.56%, FLOPs by 73.03%, and inference memory footprint by 81.58% while retaining or improving segmentation fidelity on BraTS2023-GLI and MSD-BTS. These are explicit multi-axis inference-efficiency gains, so it clears the strong quality gate despite the medical application domain.",
+    "published_at": "2026-09-06T17:00:57Z",
+    "updated_at": "2026-09-06T17:00:57Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {

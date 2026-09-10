@@ -1,10 +1,10 @@
 # 14 · VLA / WAM / Physical AI
 
-> **137 canonical papers** mapped here, plus a broader **158-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **137 canonical papers** mapped here, plus a broader **160-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 158 tracked
+## 🆕 Latest 30 Days · 160 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -29,7 +29,9 @@
 | **P1 · Watch** | **RoboCousin: Build Your Own Simulation Playground for Robust Bimanual Robotic Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving / synthetic data systems / bimanual manipulation | [Link](https://arxiv.org/abs/2609.08339) | — |
 | **P0 · Strong** | **MemForest: Efficient Agent Memory Management via EventTree Partitioning and Progressive Merging** | arXiv 2026 | efficient reasoning/agent systems / memory compression / retrieval | [Link](https://arxiv.org/abs/2609.08273) | [Repo](https://github.com/Celina-love-sweet/MemForest) |
 | **P0 · Strong** | **ActionSplice: In-Flight Action Editing for Interactive World Models** | arXiv 2026 | VLA/WAM/Physical AI serving / interactive world models / inference runtime | [Link](https://arxiv.org/abs/2609.08230) | — |
+| **P1 · Watch** | **Drive by Hindsight and Foresight: Tool-Grounded Synergistic Reasoning over Hierarchical Memory for Autonomous Driving** | arXiv 2026 | VLA/WAM/Physical AI / autonomous driving / hierarchical memory / proactive tool invocation | [Link](https://arxiv.org/abs/2609.08217) | — |
 | **P1 · Watch** | **WorldAgen: Unified State-Action Prediction with Test-Time World Model Training** | arXiv 2026 | VLA/WAM/Physical AI serving / world models / test-time adaptation | [Link](https://arxiv.org/abs/2609.08162) | — |
+| **P1 · Watch** | **OmniNav: Robust Long-Horizon Target Navigation in Dynamic Environments** | arXiv 2026 | VLA/WAM/Physical AI / long-horizon navigation / persistent scene memory / closed-loop recovery | [Link](https://arxiv.org/abs/2609.08159) | [Repo](https://omni-nav.github.io/) |
 | **P0 · Strong** | **mjorbit: A Simulation Framework for Space Robotics** | arXiv 2026 | VLA/WAM/Physical AI serving / robotics runtime / GPU simulation | [Link](https://arxiv.org/abs/2609.08010) | [Repo](https://johnzhang3.github.io/mjorbit/) |
 | **P0 · Strong** | **ComVLA: Communication-Aware Split Inference for VLA Models in 6G-Connected Robotics** | IEEE GLOBECOM 2026 | VLA/WAM/Physical AI serving / split inference / cloud-edge robotics / wireless-aware token budgeting | [Link](https://arxiv.org/abs/2609.07838) | — |
 | **P0 · Strong** | **TFTrack: A Template-Free Framework for Efficient 3D Point Cloud Tracking** | arXiv 2026 | VLA/WAM/Physical AI serving / efficient perception / 3D tracking | [Link](https://arxiv.org/abs/2609.07738) | — |

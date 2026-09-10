@@ -1,10 +1,10 @@
 # 10 · Multimodal / MLLM Serving
 
-> **212 canonical papers** mapped here, plus a broader **109-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **212 canonical papers** mapped here, plus a broader **110-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 109 tracked
+## 🆕 Latest 30 Days · 110 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -22,6 +22,7 @@
 | **P0 · Strong** | **X2Streaming-ASR: wait when uncertain, emit when ready for streaming ASR** | arXiv 2026 | multimodal/MLLM serving / streaming ASR / realtime voice agents / low-latency inference | [Link](https://arxiv.org/abs/2609.08672) | — |
 | **P1 · Watch** | **MoEMB: Scaling Universal Multimodal Embeddings with Efficient Mixture-of-Experts Models** | arXiv 2026 | multimodal/MLLM serving / MoE systems / retrieval embeddings | [Link](https://arxiv.org/abs/2609.08663) | — |
 | **P0 · Strong** | **MemForest: Efficient Agent Memory Management via EventTree Partitioning and Progressive Merging** | arXiv 2026 | efficient reasoning/agent systems / memory compression / retrieval | [Link](https://arxiv.org/abs/2609.08273) | [Repo](https://github.com/Celina-love-sweet/MemForest) |
+| **P1 · Watch** | **OmniNav: Robust Long-Horizon Target Navigation in Dynamic Environments** | arXiv 2026 | VLA/WAM/Physical AI / long-horizon navigation / persistent scene memory / closed-loop recovery | [Link](https://arxiv.org/abs/2609.08159) | [Repo](https://omni-nav.github.io/) |
 | **P1 · Watch** | **ReactVAU: A Slow-Fast Decoupled Framework for Streaming Video Anomaly Understanding** | arXiv 2026 | multimodal/MLLM serving / streaming video / conditional MLLM invocation / persistent memory | [Link](https://arxiv.org/abs/2609.07941) | — |
 | **P1 · Watch** | **ICI-VLA: In-Context Imitation with Spatiotemporally Aligned Demonstrations for Vision-Language-Action Models** | arXiv 2026 | VLA/WAM/Physical AI serving / test-time adaptation / retrieval-conditioned control | [Link](https://arxiv.org/abs/2609.07581) | — |
 | **P1 · Watch** | **MEMO: Multimodal Evidence Memory Organization for Long-Horizon LLM Agents** | arXiv 2026 | efficient reasoning/agent systems / long-horizon memory / multimodal evidence budgeting | [Link](https://arxiv.org/abs/2609.07471) | — |

@@ -1,10 +1,10 @@
 # 04 · Quantization
 
-> **238 canonical papers** mapped here, plus a broader **93-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **238 canonical papers** mapped here, plus a broader **94-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 93 tracked
+## 🆕 Latest 30 Days · 94 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -22,6 +22,7 @@
 | **P1 · Watch** | **Quantization Amplifies Determinism, Not Bias: Scale-Dependent Behavioral Effects of Serving-Time Weight Compression** | arXiv 2026 | quantization / LLM serving / behavioral fidelity | [Link](https://arxiv.org/abs/2609.07901) | — |
 | **P1 · Watch** | **Accuracy is Not Enough: A Divergence-Based Approach to Evaluate Fidelity Loss in Quantized LLMs** | arXiv 2026 | quantization / deployment evaluation / distribution fidelity | [Link](https://arxiv.org/abs/2609.07664) | — |
 | **P0 · Strong** | **Analytical Resource Management for Fine-grained MoE Computation-Communication Overlap** | arXiv 2026 | MoE systems/accelerators / distributed inference / compute-communication overlap | [Link](https://arxiv.org/abs/2609.07536) | — |
+| **P1 · Watch** | **EnvPilot: Systematic Design and Evaluation of an Experience-Augmented Agent for Software Environment Setup** | arXiv 2026 | efficient reasoning/agent systems / software engineering agents / trajectory memory / experience reuse | [Link](https://arxiv.org/abs/2609.07357) | — |
 | **P1 · Watch** | **RoboDreamer: Anticipatory Humanoid Locomotion with Predictive State-Space Models** | arXiv 2026 | VLA/WAM/Physical AI serving / humanoid control / action chunking | [Link](https://arxiv.org/abs/2609.07096) | — |
 | **P1 · Watch** | **Steering Under Compression: Dose-Response, Capability Cost, and Failure Asymmetry in Quantized LLMs** | arXiv 2026 | quantization / LLM deployment / activation steering / capability-cost characterization | [Link](https://arxiv.org/abs/2609.06473) | — |
 | **P1 · Watch** | **SIDE: Sensor Impersonation Detection at the Edge via Sequence Prediction** | arXiv 2026 | edge/cloud/heterogeneous AI systems / edge inference / quantization / tiny ML | [Link](https://arxiv.org/abs/2609.06271) | — |

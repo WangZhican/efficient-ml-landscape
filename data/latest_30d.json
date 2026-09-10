@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-10",
   "window_start_beijing": "2026-08-11",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 648,
+  "tracked_total": 655,
   "p0_strong_or_canonical": [
     {
       "title": "HybridFLow: SDN-Orchestrated Client Partitioning for Hybrid Federated Learning",
@@ -1226,6 +1226,26 @@
       ]
     },
     {
+      "title": "Agentic Algorithm Engineering: Improving Shared-Memory Exact Minimum Cuts",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / autonomous algorithm engineering / shared-memory optimization / performance tuning",
+      "arxiv": "2609.07204",
+      "doi": "",
+      "official_id": "arXiv:2609.07204",
+      "paper_url": "https://arxiv.org/abs/2609.07204",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Autonomous LLM agents repeatedly profile, modify and benchmark an already heavily hand-tuned shared-memory exact minimum-cut implementation. The resulting changes yield 1.28x sequential and 1.63x 32-thread speedups on real-world k-cores, and 6.26x/127x on DIMACS core instances, providing direct measured evidence that agentic systems can improve low-level algorithm/runtime efficiency rather than only generate code.",
+      "published_at": "2026-09-07T08:26:05Z",
+      "updated_at": "2026-09-07T08:26:05Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Enabling High-Bandwidth Flash for Generative Recommendation Serving with Write-Aware KV Cache Policy",
       "venue": "arXiv 2026",
       "topic": "LLM/recommendation serving / KV cache / flash tiering / endurance-aware cache policy",
@@ -1356,6 +1376,26 @@
         "GPU Kernel / DSL / Compiler",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Uni-Light: An Ultra-Lightweight Framework via Uncertainty-Aware Knowledge Distillation for Brain Tumour Segmentation",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / lightweight neural networks / knowledge distillation / memory-FLOP efficiency",
+      "arxiv": "2609.06729",
+      "doi": "",
+      "official_id": "arXiv:2609.06729",
+      "paper_url": "https://arxiv.org/abs/2609.06729",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Targets deployment efficiency directly: the ultra-lightweight 3D segmentation model reduces parameters by 97.56%, FLOPs by 73.03%, and inference memory footprint by 81.58% while retaining or improving segmentation fidelity on BraTS2023-GLI and MSD-BTS. These are explicit multi-axis inference-efficiency gains, so it clears the strong quality gate despite the medical application domain.",
+      "published_at": "2026-09-06T17:00:57Z",
+      "updated_at": "2026-09-06T17:00:57Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -4189,6 +4229,27 @@
       ]
     },
     {
+      "title": "QPS-ToR: A Parallel Iterative Switching Algorithm for Reconfigurable Optical Datacenter Switching",
+      "venue": "arXiv 2026",
+      "topic": "distributed training/inference / datacenter networking / optical switching / low-complexity scheduling",
+      "arxiv": "2609.09400",
+      "doi": "",
+      "official_id": "arXiv:2609.09400",
+      "paper_url": "https://arxiv.org/abs/2609.09400",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Replaces single-iteration iSLIP in a reconfigurable optical datacenter fabric with sliding-window QPS and, in 128-ToR flow simulations, reports up to 36% higher throughput and 82% lower flow completion time versus NegotiaToR. The system result is strong, but the current paper is workload-agnostic rather than AI-specific, so it is retained as high-value AI-infrastructure networking evidence instead of canonical strong.",
+      "published_at": "2026-09-08T19:55:09Z",
+      "updated_at": "2026-09-08T19:55:09Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference"
+      ]
+    },
+    {
       "title": "Encrypt What Matters: When Selective Homomorphic Inference Is Efficient",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI systems / privacy-preserving inference / selective FHE",
@@ -4705,6 +4766,27 @@
       ]
     },
     {
+      "title": "Drive by Hindsight and Foresight: Tool-Grounded Synergistic Reasoning over Hierarchical Memory for Autonomous Driving",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI / autonomous driving / hierarchical memory / proactive tool invocation",
+      "arxiv": "2609.08217",
+      "doi": "",
+      "official_id": "arXiv:2609.08217",
+      "paper_url": "https://arxiv.org/abs/2609.08217",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Couples scene-level short-term memory, evolving long-term experience memory and adaptive tool invocation in a closed reasoning loop. Its 7B model reaches 79.09% MCQ on DriveLMM-o1, with short-term memory improving STSBench by 24.2 points and frozen-parameter long-term memory adding 3.57 MCQ points. It is valuable Physical-AI memory/tool-use evidence, but the reported contribution is capability rather than inference efficiency.",
+      "published_at": "2026-09-08T03:59:10Z",
+      "updated_at": "2026-09-08T03:59:10Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Do Dynamic Routers Need Memory? HeRo: History-Aware Routing for Efficient LLM Inference",
       "venue": "arXiv 2026",
       "topic": "sparsity/pruning / dynamic layer routing / efficient LLM inference / router memory",
@@ -4745,6 +4827,27 @@
       "directions": [
         "LLM Serving",
         "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "OmniNav: Robust Long-Horizon Target Navigation in Dynamic Environments",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI / long-horizon navigation / persistent scene memory / closed-loop recovery",
+      "arxiv": "2609.08159",
+      "doi": "",
+      "official_id": "arXiv:2609.08159",
+      "paper_url": "https://arxiv.org/abs/2609.08159",
+      "code_url": "https://omni-nav.github.io/",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Maintains an updatable 3D object scene memory, revises target beliefs under partial observability, and propagates execution feedback through hierarchical closed-loop recovery. It improves real-world pick-and-place success from 53.3% to 71.7% over an adapted open-loop baseline. This is strong protected evidence for persistent embodied memory and closed-loop execution, but it does not claim inference acceleration.",
+      "published_at": "2026-09-08T02:43:48Z",
+      "updated_at": "2026-09-08T02:43:48Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI"
       ]
     },
@@ -5137,6 +5240,48 @@
       "directions": [
         "LLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Beyond Fluent Generation: A CPU Reliability Benchmark for MCP-Style Tool Calling in Sub-2B Small Language Models for Edge Deployment",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / tool-using SLMs / CPU inference / reliability-resource tradeoff",
+      "arxiv": "2609.07370",
+      "doi": "",
+      "official_id": "arXiv:2609.07370",
+      "paper_url": "https://arxiv.org/abs/2609.07370",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Provides an explicit edge-agent resource baseline for sub-2B tool-calling models. Qwen2.5-1.5B uses 7,960 MiB and 30.782 s mean CPU latency versus 3,637 MiB and 10.627 s for Qwen2.5-0.5B, while reliability changes substantially. This is valuable deployment evidence but a benchmark rather than a new acceleration method, so it stays watch.",
+      "published_at": "2026-09-07T11:44:38Z",
+      "updated_at": "2026-09-07T11:44:38Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "EnvPilot: Systematic Design and Evaluation of an Experience-Augmented Agent for Software Environment Setup",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / software engineering agents / trajectory memory / experience reuse",
+      "arxiv": "2609.07357",
+      "doi": "",
+      "official_id": "arXiv:2609.07357",
+      "paper_url": "https://arxiv.org/abs/2609.07357",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Maintains a trajectory-derived memory initialized with 667 validated experiences and retrieves prior setup strategies to avoid redundant exploration. On 112 real GitHub instances across nine languages it reaches 75% Pass@1 while the paper reports reduced reasoning cost, but the primary abstract does not expose a clean quantitative token/latency/cost reduction, so it remains a high-value watch item.",
+      "published_at": "2026-09-07T11:24:14Z",
+      "updated_at": "2026-09-07T11:24:14Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -15278,6 +15423,26 @@
       ]
     },
     {
+      "title": "Agentic Algorithm Engineering: Improving Shared-Memory Exact Minimum Cuts",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / autonomous algorithm engineering / shared-memory optimization / performance tuning",
+      "arxiv": "2609.07204",
+      "doi": "",
+      "official_id": "arXiv:2609.07204",
+      "paper_url": "https://arxiv.org/abs/2609.07204",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Autonomous LLM agents repeatedly profile, modify and benchmark an already heavily hand-tuned shared-memory exact minimum-cut implementation. The resulting changes yield 1.28x sequential and 1.63x 32-thread speedups on real-world k-cores, and 6.26x/127x on DIMACS core instances, providing direct measured evidence that agentic systems can improve low-level algorithm/runtime efficiency rather than only generate code.",
+      "published_at": "2026-09-07T08:26:05Z",
+      "updated_at": "2026-09-07T08:26:05Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Enabling High-Bandwidth Flash for Generative Recommendation Serving with Write-Aware KV Cache Policy",
       "venue": "arXiv 2026",
       "topic": "LLM/recommendation serving / KV cache / flash tiering / endurance-aware cache policy",
@@ -15408,6 +15573,26 @@
         "GPU Kernel / DSL / Compiler",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Uni-Light: An Ultra-Lightweight Framework via Uncertainty-Aware Knowledge Distillation for Brain Tumour Segmentation",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / lightweight neural networks / knowledge distillation / memory-FLOP efficiency",
+      "arxiv": "2609.06729",
+      "doi": "",
+      "official_id": "arXiv:2609.06729",
+      "paper_url": "https://arxiv.org/abs/2609.06729",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Targets deployment efficiency directly: the ultra-lightweight 3D segmentation model reduces parameters by 97.56%, FLOPs by 73.03%, and inference memory footprint by 81.58% while retaining or improving segmentation fidelity on BraTS2023-GLI and MSD-BTS. These are explicit multi-axis inference-efficiency gains, so it clears the strong quality gate despite the medical application domain.",
+      "published_at": "2026-09-06T17:00:57Z",
+      "updated_at": "2026-09-06T17:00:57Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -18239,6 +18424,27 @@
       ]
     },
     {
+      "title": "QPS-ToR: A Parallel Iterative Switching Algorithm for Reconfigurable Optical Datacenter Switching",
+      "venue": "arXiv 2026",
+      "topic": "distributed training/inference / datacenter networking / optical switching / low-complexity scheduling",
+      "arxiv": "2609.09400",
+      "doi": "",
+      "official_id": "arXiv:2609.09400",
+      "paper_url": "https://arxiv.org/abs/2609.09400",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Replaces single-iteration iSLIP in a reconfigurable optical datacenter fabric with sliding-window QPS and, in 128-ToR flow simulations, reports up to 36% higher throughput and 82% lower flow completion time versus NegotiaToR. The system result is strong, but the current paper is workload-agnostic rather than AI-specific, so it is retained as high-value AI-infrastructure networking evidence instead of canonical strong.",
+      "published_at": "2026-09-08T19:55:09Z",
+      "updated_at": "2026-09-08T19:55:09Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference"
+      ]
+    },
+    {
       "title": "Encrypt What Matters: When Selective Homomorphic Inference Is Efficient",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI systems / privacy-preserving inference / selective FHE",
@@ -18755,6 +18961,27 @@
       ]
     },
     {
+      "title": "Drive by Hindsight and Foresight: Tool-Grounded Synergistic Reasoning over Hierarchical Memory for Autonomous Driving",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI / autonomous driving / hierarchical memory / proactive tool invocation",
+      "arxiv": "2609.08217",
+      "doi": "",
+      "official_id": "arXiv:2609.08217",
+      "paper_url": "https://arxiv.org/abs/2609.08217",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Couples scene-level short-term memory, evolving long-term experience memory and adaptive tool invocation in a closed reasoning loop. Its 7B model reaches 79.09% MCQ on DriveLMM-o1, with short-term memory improving STSBench by 24.2 points and frozen-parameter long-term memory adding 3.57 MCQ points. It is valuable Physical-AI memory/tool-use evidence, but the reported contribution is capability rather than inference efficiency.",
+      "published_at": "2026-09-08T03:59:10Z",
+      "updated_at": "2026-09-08T03:59:10Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Do Dynamic Routers Need Memory? HeRo: History-Aware Routing for Efficient LLM Inference",
       "venue": "arXiv 2026",
       "topic": "sparsity/pruning / dynamic layer routing / efficient LLM inference / router memory",
@@ -18795,6 +19022,27 @@
       "directions": [
         "LLM Serving",
         "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "OmniNav: Robust Long-Horizon Target Navigation in Dynamic Environments",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI / long-horizon navigation / persistent scene memory / closed-loop recovery",
+      "arxiv": "2609.08159",
+      "doi": "",
+      "official_id": "arXiv:2609.08159",
+      "paper_url": "https://arxiv.org/abs/2609.08159",
+      "code_url": "https://omni-nav.github.io/",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Maintains an updatable 3D object scene memory, revises target beliefs under partial observability, and propagates execution feedback through hierarchical closed-loop recovery. It improves real-world pick-and-place success from 53.3% to 71.7% over an adapted open-loop baseline. This is strong protected evidence for persistent embodied memory and closed-loop execution, but it does not claim inference acceleration.",
+      "published_at": "2026-09-08T02:43:48Z",
+      "updated_at": "2026-09-08T02:43:48Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI"
       ]
     },
@@ -19187,6 +19435,48 @@
       "directions": [
         "LLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Beyond Fluent Generation: A CPU Reliability Benchmark for MCP-Style Tool Calling in Sub-2B Small Language Models for Edge Deployment",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / tool-using SLMs / CPU inference / reliability-resource tradeoff",
+      "arxiv": "2609.07370",
+      "doi": "",
+      "official_id": "arXiv:2609.07370",
+      "paper_url": "https://arxiv.org/abs/2609.07370",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Provides an explicit edge-agent resource baseline for sub-2B tool-calling models. Qwen2.5-1.5B uses 7,960 MiB and 30.782 s mean CPU latency versus 3,637 MiB and 10.627 s for Qwen2.5-0.5B, while reliability changes substantially. This is valuable deployment evidence but a benchmark rather than a new acceleration method, so it stays watch.",
+      "published_at": "2026-09-07T11:44:38Z",
+      "updated_at": "2026-09-07T11:44:38Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "EnvPilot: Systematic Design and Evaluation of an Experience-Augmented Agent for Software Environment Setup",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / software engineering agents / trajectory memory / experience reuse",
+      "arxiv": "2609.07357",
+      "doi": "",
+      "official_id": "arXiv:2609.07357",
+      "paper_url": "https://arxiv.org/abs/2609.07357",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Maintains a trajectory-derived memory initialized with 667 validated experiences and retrieves prior setup strategies to avoid redundant exploration. On 112 real GitHub instances across nine languages it reaches 75% Pass@1 while the paper reports reduced reasoning cost, but the primary abstract does not expose a clean quantitative token/latency/cost reduction, so it remains a high-value watch item.",
+      "published_at": "2026-09-07T11:24:14Z",
+      "updated_at": "2026-09-07T11:24:14Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Efficient Reasoning / Agents"
       ]
     },
     {

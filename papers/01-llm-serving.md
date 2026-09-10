@@ -1,10 +1,10 @@
 # 01 · LLM Serving
 
-> **761 canonical papers** mapped here, plus a broader **418-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **761 canonical papers** mapped here, plus a broader **419-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 418 tracked
+## 🆕 Latest 30 Days · 419 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -29,6 +29,7 @@
 | **P0 · Strong** | **StreamAlign: Streaming Text-Aligned Speech Tokenization** | arXiv 2026 | multimodal/MLLM serving / speech tokenization / streaming inference / latency | [Link](https://arxiv.org/abs/2609.09719) | — |
 | **P0 · Strong** | **PELM: Power Efficient On-Device LLM Inference with Speculative Decoding and Dynamic Voltage Frequency Scaling** | arXiv 2026 | LLM serving / speculative decoding / edge inference / energy-aware runtime | [Link](https://arxiv.org/abs/2609.09662) | [Repo](https://github.com/imec-nu/PELM) |
 | **P0 · Strong** | **UNISON: A Co-Designed Near-Memory Scheduler of Session KV Residency for LLM Agents** | arXiv 2026 | KV cache/long-context / agent serving / near-memory scheduling | [Link](https://arxiv.org/abs/2609.09643) | — |
+| **P1 · Watch** | **QPS-ToR: A Parallel Iterative Switching Algorithm for Reconfigurable Optical Datacenter Switching** | arXiv 2026 | distributed training/inference / datacenter networking / optical switching / low-complexity scheduling | [Link](https://arxiv.org/abs/2609.09400) | — |
 | **P0 · Strong** | **AccelMPC: High-Rate, Low-Power FPGA-Accelerated Model Predictive Control for Tiny Drones** | arXiv 2026 | VLA/WAM/Physical AI serving / edge robotics / FPGA acceleration / real-time control | [Link](https://arxiv.org/abs/2609.09380) | — |
 | **P1 · Watch** | **Proxy Policy Steering** | arXiv 2026 | VLA/WAM/Physical AI / inference-time adaptation / flow policy steering | [Link](https://arxiv.org/abs/2609.09148) | — |
 | **P1 · Watch** | **DeCAL: Towards Physically-Grounded Dexterous Vision-Language-Action Models via Contact-Aware Latent Co-Imagination** | arXiv 2026 | VLA/WAM/Physical AI serving / dexterous manipulation / tactile fusion / world modeling | [Link](https://arxiv.org/abs/2609.09119) | [Repo](https://aureleopku.github.io/DeCAL) |
