@@ -2306,6 +2306,70 @@
     ]
   },
   {
+    "title": "A single-precision floating-point systolic Givens-QRD Triangular Solver for MVDR Beamforming",
+    "venue": "arXiv 2026",
+    "topic": "edge/cloud/heterogeneous AI systems / FPGA accelerator / systolic linear algebra",
+    "arxiv": "2609.03137",
+    "doi": "",
+    "official_id": "arXiv:2609.03137",
+    "paper_url": "https://arxiv.org/abs/2609.03137",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "This Zynq UltraScale+ implementation uses three parallel single-precision systolic Givens-QRD kernels for latency-critical MVDR weight computation. Primary measurements report 31,123 weight vectors/s at 90.9% parallel efficiency and 12,698 vectors/s/W on programmable logic, giving 2.3x the power-normalized throughput of a matched 24-core Xeon comparison while retaining numerically validated float32 accuracy. The direct hardware throughput/energy measurements justify canonical-high retention.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "A Technique for Load Shifting Low-latency Applications in Multi-Region Renewables Harvesting via SMT Core Pooling",
+    "venue": "arXiv 2026",
+    "topic": "edge/cloud/heterogeneous AI systems / cloud scheduling / sustainable systems",
+    "arxiv": "2609.03297",
+    "doi": "",
+    "official_id": "arXiv:2609.03297",
+    "paper_url": "https://arxiv.org/abs/2609.03297",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Hardware-software co-design for renewable-aware multi-region load shifting of low-latency workloads. Implemented with OpenStack and CPU idle states on a real testbed using Azure VM arrival traces; results report 80% less offloading of low-latency VMs and 43.81% lower coefficient of variation of p90 end-user latency, with 11.97% worst-case latency compromise from SMT. This is direct measured systems evidence.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "A Time-Encoded Analog Photonic Interposer for Energy-EfficientIntegration of Analog Vision Sensors and Analog Accelerators",
+    "venue": "arXiv 2026",
+    "topic": "edge/cloud/heterogeneous AI systems / photonic interconnect / analog AI accelerator",
+    "arxiv": "2609.03125",
+    "doi": "",
+    "official_id": "arXiv:2609.03125",
+    "paper_url": "https://arxiv.org/abs/2609.03125",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "A time-encoded analog photonic interposer transports analog vision signals between chiplets without a conventional high-precision ADC/DAC pipeline. The primary abstract reports a 2.04x energy-delay-product improvement over an 8-bit digital electrical baseline on Visual Wake Words while keeping accuracy close to the digital baseline.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "A Universal Context-Reuse Layer for Cross-Model KV Sharing",
     "venue": "arXiv 2026",
     "topic": "KV cache / LLM serving / cross-model context reuse / multi-agent inference",
@@ -2599,6 +2663,28 @@
       "Quantization",
       "GPU Kernel / DSL / Compiler",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "BASP: Communication-Efficient Batch-Aware Sequence Parallelism for LLM Training",
+    "venue": "arXiv 2026",
+    "topic": "distributed training/inference / long-context training / sequence parallelism",
+    "arxiv": "2609.03151",
+    "doi": "",
+    "official_id": "arXiv:2609.03151",
+    "paper_url": "https://arxiv.org/abs/2609.03151",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Direct distributed-training systems technique: batch-aware GPU grouping reduces all-to-all group size for sequence parallelism. A100-cluster experiments report 1.17-1.31x end-to-end training-time improvement for Llama/Qwen while preserving accuracy and memory usage.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
     ]
   },
   {
@@ -2908,6 +2994,27 @@
     ]
   },
   {
+    "title": "Efficient Constant Optimization for Symbolic Regression with GPU-Accelerated Tree-Based Genetic Programming",
+    "venue": "arXiv 2026",
+    "topic": "GPU kernel/DSL/compilers / GPU-resident batched optimization / CUDA / symbolic regression runtime",
+    "arxiv": "2609.03352",
+    "doi": "",
+    "official_id": "arXiv:2609.03352",
+    "paper_url": "https://arxiv.org/abs/2609.03352",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "7d lower-rank systematic replay recovered a GPU-resident optimization system absent from authority. The batched Levenberg-Marquardt solver uses a fixed number of population-wide CUDA launches per iteration and reverse-mode AD; on A100 it sustains up to 5.1e5 trees/s and at saturation delivers about 9.9x Operon throughput on a 64-core EPYC while matching fp64-reference quality.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "Efficient On-Device Diffusion LLM Inference with Mobile NPU",
     "venue": "arXiv 2026",
     "topic": "edge AI / diffusion LLM inference / mobile NPU / speculative decoding / KV reuse",
@@ -2996,6 +3103,29 @@
     ]
   },
   {
+    "title": "Following a Unique Path: A Fast Certifier Applied to Outlier-Robust Pose Registration",
+    "venue": "arXiv 2026",
+    "topic": "VLA/WAM/Physical AI serving / robotic perception / optimization runtime",
+    "arxiv": "2609.03222",
+    "doi": "",
+    "official_id": "arXiv:2609.03222",
+    "paper_url": "https://arxiv.org/abs/2609.03222",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "CP-Cert exploits indirect linear algebra, sparsity and parallelism to certify degenerate pose-registration relaxations efficiently. It reaches runtimes up to three orders of magnitude faster than state-of-the-art direct solvers and is integrated into an outlier-robust real-world pose-estimation pipeline.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Distributed Training / Inference",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Foundry: Template-Based CUDA Graph Context Materialization for Fast LLM Serving Cold Start",
     "venue": "arXiv 2026",
     "topic": "LLM serving / CUDA graph / cold-start / autoscaling",
@@ -3057,6 +3187,26 @@
       "LLM Serving",
       "Efficient Reasoning / Agents",
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "GRADSOLVE: fast exact gradients for ODE ensembles on GPUs",
+    "venue": "arXiv 2026",
+    "topic": "GPU kernel/DSL/compilers / JAX / differentiable scientific computing",
+    "arxiv": "2609.02876",
+    "doi": "",
+    "official_id": "arXiv:2609.02876",
+    "paper_url": "https://arxiv.org/abs/2609.02876",
+    "code_url": "https://github.com/ECLIPSE-AI4Science/gradsolve",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "GRADSOLVE is an open-source JAX GPU runtime for exact discrete-adjoint gradients of low-dimensional ODE ensembles. The primary abstract reports a 2.8x forward-solver speedup over DiffEqGPU.jl and 5.6-14.1x faster gradient computation than Diffrax checkpointed adjoints at matched forward-state accuracy across three GPU generations, providing direct measured GPU-kernel/runtime evidence.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {
@@ -3299,6 +3449,28 @@
     ]
   },
   {
+    "title": "Jina-OCR-v1: Efficient Document Parsing with Speculative Decoding and Dense Verifiable Rewards",
+    "venue": "arXiv 2026",
+    "topic": "multimodal/MLLM serving / speculative decoding / efficient OCR",
+    "arxiv": "2609.03181",
+    "doi": "",
+    "official_id": "arXiv:2609.03181",
+    "paper_url": "https://arxiv.org/abs/2609.03181",
+    "code_url": "https://huggingface.co/jinaai/jina-ocr-v1",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Deployment-oriented multimodal model explicitly built for low-budget GPUs. FastMTP recursively reuses one draft block for K=3 speculative steps with lossless greedy verification; on NVIDIA L4 it doubles decode speed and reaches 2.57 pages/s. Official model is public.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
     "title": "KAIROS: Stateful, Context-Aware Power-Efficient Agentic Inference Serving",
     "venue": "arXiv 2026",
     "topic": "agentic LLM serving; power efficiency; context-aware GPU DVFS; memory-aware scheduling; multi-instance routing",
@@ -3362,6 +3534,70 @@
       "LLM Serving",
       "KV Cache / Long Context",
       "Efficient Attention"
+    ]
+  },
+  {
+    "title": "Lantern: Finding Committable Transactions via Back-Propagation on DAGs",
+    "venue": "arXiv 2026",
+    "topic": "distributed training/inference / data systems / transaction runtime",
+    "arxiv": "2609.03315",
+    "doi": "",
+    "official_id": "arXiv:2609.03315",
+    "paper_url": "https://arxiv.org/abs/2609.03315",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Deterministic concurrency control without prior read-write sets. Lantern uses DAG back-propagation to identify additional committable transactions and conflict-free batch selection for read-modify-write workloads. Integrated into ChainMaker and evaluated on YCSB and SmallBank, it reaches up to 4.2x throughput over Aria and at least 2.2x execution-layer throughput improvement, providing direct measured systems evidence.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "Laplacian Frequency Hierarchies for Efficient 3D Gaussian Splatting Training",
+    "venue": "arXiv 2026",
+    "topic": "video/image generation acceleration / 3D Gaussian Splatting / efficient training",
+    "arxiv": "2609.03334",
+    "doi": "",
+    "official_id": "arXiv:2609.03334",
+    "paper_url": "https://arxiv.org/abs/2609.03334",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Frequency-staged 3DGS training archives lower-frequency Gaussian fields so later stages optimize residuals with fewer active primitives. The primary abstract reports average training speedups of 1.73x/1.21x at 1K and 1.74x/1.33x at 4K when combined with Taming-3DGS/FastGS, with competitive reconstruction quality.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Video / Image Generation"
+    ]
+  },
+  {
+    "title": "Latency-Aware Orchestration for Multi-Agent LLM Workflows on Heterogeneous GPUs",
+    "venue": "arXiv 2026",
+    "topic": "efficient reasoning/agent systems / heterogeneous GPU serving",
+    "arxiv": "2609.03335",
+    "doi": "",
+    "official_id": "arXiv:2609.03335",
+    "paper_url": "https://arxiv.org/abs/2609.03335",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Prediction-guided runtime constructs physical execution graphs for concurrent multi-agent workflows on heterogeneous GPU pools, jointly optimizing model lifecycle, fusion, placement and execution order; reports up to 36.8% makespan and 25.9% p95 completion-latency reduction. Canonical agent-serving systems work.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Efficient Reasoning / Agents",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -3652,6 +3888,27 @@
       "LLM Serving",
       "Efficient Reasoning / Agents",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "MemoryLACE: Memory Lifecycle-Aware Consolidation and Evidence Retrieval",
+    "venue": "arXiv 2026",
+    "topic": "efficient reasoning/agent systems / long-term agent memory / runtime efficiency",
+    "arxiv": "2609.03201",
+    "doi": "",
+    "official_id": "arXiv:2609.03201",
+    "paper_url": "https://arxiv.org/abs/2609.03201",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Lifecycle-aware sparse merge/supersession/contradiction memory for long-term LLM agents. On BEAM it reports 66.6% lower end-to-end runtime than Hindsight while improving same-backbone quality, making it a direct agent-memory runtime result rather than only a memory-quality method.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -4644,6 +4901,27 @@
     "directions": [
       "KV Cache / Long Context",
       "Efficient Attention"
+    ]
+  },
+  {
+    "title": "UE5M3 FP4 Block Scaling for Stable Language Model Pretraining",
+    "venue": "arXiv 2026",
+    "topic": "quantization / efficient training / low-precision systems",
+    "arxiv": "2609.02846",
+    "doi": "",
+    "official_id": "arXiv:2609.02846",
+    "paper_url": "https://arxiv.org/abs/2609.02846",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "FP4 pretraining recipe pairing E2M1 payloads with unsigned E5M3 block scales, simplifying scaling and removing RHT/BF16 exemptions in an ablation; 8B/190B-token study reports lower loss and a native execution ablation with 21.2% higher measured model-body token throughput.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Quantization"
     ]
   },
   {
@@ -7065,6 +7343,28 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Diffusion / Flow Acceleration",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Iapetus: Content-Aware Hierarchical Scheduling for Collaborative ViT Inference in LEO Satellite Networks",
+    "venue": "CoRR 2026",
+    "topic": "edge/cloud/heterogeneous AI systems / collaborative ViT inference / token compression / layer offloading",
+    "arxiv": "2609.03318",
+    "doi": "",
+    "official_id": "arXiv:2609.03318",
+    "paper_url": "https://arxiv.org/abs/2609.03318",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Content-aware hierarchical inference scheduler jointly planning visual-token compression and layer offloading under time-varying contact/battery constraints. NVIDIA Jetson AGX Orin hardware-in-the-loop plus constellation-scale replay reports 53.0% lower mean latency and 70.8% lower battery draw while meeting quality targets at 5 tasks/s.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
       "Edge / Cloud / Heterogeneous AI"
     ]
   },
@@ -25376,6 +25676,27 @@
     ]
   },
   {
+    "title": "Speculative Macro Commit for Faster Tool-Using Agents",
+    "venue": "MLSP 2026 / arXiv 2026",
+    "topic": "efficient agent systems / speculative execution / tool-use runtime",
+    "arxiv": "2609.03236",
+    "doi": "",
+    "official_id": "arXiv:2609.03236",
+    "paper_url": "https://arxiv.org/abs/2609.03236",
+    "code_url": "https://github.com/zeyuliu1037/speculative-macro-commit",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "30d true miss in efficient agent runtime. SMC uses a large authoritative actor plus a faster speculative drafter executing future action chains on isolated environment snapshots; matching the actor next action allows pre-executed multi-step macro chains and observations to be committed. The paper reports 18.59% lower latency than sequential execution on tau2-Bench Telecom and 44.9% lower wall time on AppWorld, with public author code.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Speculative Decoding",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "AgenticCache: Cache-Driven Asynchronous Planning for Embodied AI Agents",
     "venue": "MLSys 2026",
     "topic": "Physical AI / embodied-agent planning cache / latency reduction",
@@ -26905,6 +27226,30 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Quantization",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "LeanStream: A Speculate-and-Refine Streaming Framework for Efficient on-Device LLM Inference",
+    "venue": "MobiCom 2026",
+    "topic": "edge/cloud/heterogeneous AI systems / on-device LLM inference / storage offload / sparse execution",
+    "arxiv": "2609.03079",
+    "doi": "",
+    "official_id": "2609.03079",
+    "paper_url": "https://arxiv.org/abs/2609.03079",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Accepted MobiCom 2026 systems work. Speculate-and-refine streaming overlaps GPU execution with storage I/O and reports 4.8x-7.5x lower memory use at prior-work best throughput plus 1.6x-2.1x higher token throughput.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "GPU Kernel / DSL / Compiler",
       "Edge / Cloud / Heterogeneous AI"
     ]
   },
