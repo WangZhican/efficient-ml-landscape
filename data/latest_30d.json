@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-10",
   "window_start_beijing": "2026-08-11",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 588,
+  "tracked_total": 593,
   "p0_strong_or_canonical": [
     {
       "title": "Distributed Linear Programming on GPU Clusters at Extreme Scale",
@@ -3896,6 +3896,27 @@
       ]
     },
     {
+      "title": "RoboCousin: Build Your Own Simulation Playground for Robust Bimanual Robotic Manipulation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / synthetic data systems / bimanual manipulation",
+      "arxiv": "2609.08339",
+      "doi": "",
+      "official_id": "arXiv:2609.08339",
+      "paper_url": "https://arxiv.org/abs/2609.08339",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI data-system work that converts user observations into simulation-ready assets, scenes, grasp-contact annotations and expert trajectories. RoboCousin-OBD contains over 3,000 object instances and 50 environments, and the pipeline generates over one million trajectories across 50 tasks with sim-to-real validation. It improves data scalability rather than inference latency, so it remains high-value watch.",
+      "published_at": "2026-09-08T07:13:07Z",
+      "updated_at": "2026-09-08T07:13:07Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "A Measurement Study of LLM Inference Trade-offs Across Edge Continuum Hardware",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI systems / LLM inference / measurement",
@@ -4377,6 +4398,27 @@
       ]
     },
     {
+      "title": "Query-Aware Token Budgeting for Efficient Late-Interaction Visual Document Retrieval",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / retrieval systems / token compression",
+      "arxiv": "2609.07262",
+      "doi": "",
+      "official_id": "arXiv:2609.07262",
+      "paper_url": "https://arxiv.org/abs/2609.07262",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Uses a heavily compressed hot-path index followed by query-aware stage-two token budgeting over shortlisted pages, recovering 98.39% of full-token score with greedy marginal-gain selection under a pool-factor-eight-equivalent reranking budget. The latency analysis identifies practical operating points but the abstract gives no direct end-to-end speedup, so it remains high-value watch.",
+      "published_at": "2026-09-07T09:18:03Z",
+      "updated_at": "2026-09-07T09:18:03Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
       "title": "RoboDreamer: Anticipatory Humanoid Locomotion with Predictive State-Space Models",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / humanoid control / action chunking",
@@ -4396,6 +4438,26 @@
         "LLM Serving",
         "Quantization",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "NOVA-CIM: Noise- and Correlation-Tolerant Stochastic Interfaces for Analog Compute-in-Memory",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / compute-in-memory / accelerator interfaces",
+      "arxiv": "2609.07059",
+      "doi": "",
+      "official_id": "arXiv:2609.07059",
+      "paper_url": "https://arxiv.org/abs/2609.07059",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Replaces multi-bit ADC readout with random-reference 1-bit sensing and lightweight stochastic counting for analog CIM, targeting energy-efficient inference while improving robustness to read noise and correlated stochastic inputs. End-to-end ViT-Base accuracy remains 84.48% versus 84.51% BF16 under modeled read noise, but no measured latency/energy speedup is reported, so it remains high-value watch.",
+      "published_at": "2026-09-07T05:31:43Z",
+      "updated_at": "2026-09-07T05:31:43Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -4963,6 +5025,29 @@
         "LLM Serving",
         "GPU Kernel / DSL / Compiler",
         "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "Towards Neuro-Symbolic Procedural Reasoning for Long-Horizon Vision-Language-Action Manipulation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / long-horizon VLA / procedural memory",
+      "arxiv": "2609.05369",
+      "doi": "",
+      "official_id": "arXiv:2609.05369",
+      "paper_url": "https://arxiv.org/abs/2609.05369",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI work combining learned VLA control with explicit task graphs and multimodal procedural memory to maintain long-horizon task state, dependencies, conditional branches and visual evidence. It is an ECCV 2026 workshop extended abstract and does not report compute-side speedup, so it is retained as a high-value watch for VLA runtime/state architecture rather than promoted strong.",
+      "published_at": "2026-09-04T17:14:50Z",
+      "updated_at": "2026-09-04T17:14:50Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -5636,6 +5721,27 @@
         "LLM Serving",
         "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Toward Sustainable Distributed LLM Inference: A Systems Synthesis and Research Agenda for an Energy-, Carbon-, and Cache-Aware llm-d Control Plane",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / distributed inference / cache-aware scheduling / sustainable systems",
+      "arxiv": "2609.05565",
+      "doi": "",
+      "official_id": "arXiv:2609.05565",
+      "paper_url": "https://arxiv.org/abs/2609.05565",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Systems synthesis connecting model/phase/cache/hardware/replica/region/time decisions for distributed LLM inference and proposing an energy-, carbon-, and cache-aware llm-d control plane with SLO-satisfied goodput-per-joule and per-CO2e evaluation. It explicitly states that its contribution is synthesis rather than new benchmark results, so it is retained as a high-value systems agenda watch rather than promoted strong.",
+      "published_at": "2026-09-03T21:56:54Z",
+      "updated_at": "2026-09-03T21:56:54Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference"
       ]
     },
     {
@@ -16650,6 +16756,27 @@
       ]
     },
     {
+      "title": "RoboCousin: Build Your Own Simulation Playground for Robust Bimanual Robotic Manipulation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / synthetic data systems / bimanual manipulation",
+      "arxiv": "2609.08339",
+      "doi": "",
+      "official_id": "arXiv:2609.08339",
+      "paper_url": "https://arxiv.org/abs/2609.08339",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI data-system work that converts user observations into simulation-ready assets, scenes, grasp-contact annotations and expert trajectories. RoboCousin-OBD contains over 3,000 object instances and 50 environments, and the pipeline generates over one million trajectories across 50 tasks with sim-to-real validation. It improves data scalability rather than inference latency, so it remains high-value watch.",
+      "published_at": "2026-09-08T07:13:07Z",
+      "updated_at": "2026-09-08T07:13:07Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "A Measurement Study of LLM Inference Trade-offs Across Edge Continuum Hardware",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI systems / LLM inference / measurement",
@@ -17131,6 +17258,27 @@
       ]
     },
     {
+      "title": "Query-Aware Token Budgeting for Efficient Late-Interaction Visual Document Retrieval",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / retrieval systems / token compression",
+      "arxiv": "2609.07262",
+      "doi": "",
+      "official_id": "arXiv:2609.07262",
+      "paper_url": "https://arxiv.org/abs/2609.07262",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Uses a heavily compressed hot-path index followed by query-aware stage-two token budgeting over shortlisted pages, recovering 98.39% of full-token score with greedy marginal-gain selection under a pool-factor-eight-equivalent reranking budget. The latency analysis identifies practical operating points but the abstract gives no direct end-to-end speedup, so it remains high-value watch.",
+      "published_at": "2026-09-07T09:18:03Z",
+      "updated_at": "2026-09-07T09:18:03Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
       "title": "RoboDreamer: Anticipatory Humanoid Locomotion with Predictive State-Space Models",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / humanoid control / action chunking",
@@ -17150,6 +17298,26 @@
         "LLM Serving",
         "Quantization",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "NOVA-CIM: Noise- and Correlation-Tolerant Stochastic Interfaces for Analog Compute-in-Memory",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / compute-in-memory / accelerator interfaces",
+      "arxiv": "2609.07059",
+      "doi": "",
+      "official_id": "arXiv:2609.07059",
+      "paper_url": "https://arxiv.org/abs/2609.07059",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Replaces multi-bit ADC readout with random-reference 1-bit sensing and lightweight stochastic counting for analog CIM, targeting energy-efficient inference while improving robustness to read noise and correlated stochastic inputs. End-to-end ViT-Base accuracy remains 84.48% versus 84.51% BF16 under modeled read noise, but no measured latency/energy speedup is reported, so it remains high-value watch.",
+      "published_at": "2026-09-07T05:31:43Z",
+      "updated_at": "2026-09-07T05:31:43Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -17717,6 +17885,29 @@
         "LLM Serving",
         "GPU Kernel / DSL / Compiler",
         "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "Towards Neuro-Symbolic Procedural Reasoning for Long-Horizon Vision-Language-Action Manipulation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / long-horizon VLA / procedural memory",
+      "arxiv": "2609.05369",
+      "doi": "",
+      "official_id": "arXiv:2609.05369",
+      "paper_url": "https://arxiv.org/abs/2609.05369",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI work combining learned VLA control with explicit task graphs and multimodal procedural memory to maintain long-horizon task state, dependencies, conditional branches and visual evidence. It is an ECCV 2026 workshop extended abstract and does not report compute-side speedup, so it is retained as a high-value watch for VLA runtime/state architecture rather than promoted strong.",
+      "published_at": "2026-09-04T17:14:50Z",
+      "updated_at": "2026-09-04T17:14:50Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -18390,6 +18581,27 @@
         "LLM Serving",
         "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Toward Sustainable Distributed LLM Inference: A Systems Synthesis and Research Agenda for an Energy-, Carbon-, and Cache-Aware llm-d Control Plane",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / distributed inference / cache-aware scheduling / sustainable systems",
+      "arxiv": "2609.05565",
+      "doi": "",
+      "official_id": "arXiv:2609.05565",
+      "paper_url": "https://arxiv.org/abs/2609.05565",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Systems synthesis connecting model/phase/cache/hardware/replica/region/time decisions for distributed LLM inference and proposing an energy-, carbon-, and cache-aware llm-d control plane with SLO-satisfied goodput-per-joule and per-CO2e evaluation. It explicitly states that its contribution is synthesis rather than new benchmark results, so it is retained as a high-value systems agenda watch rather than promoted strong.",
+      "published_at": "2026-09-03T21:56:54Z",
+      "updated_at": "2026-09-03T21:56:54Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference"
       ]
     },
     {
