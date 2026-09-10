@@ -1,12 +1,12 @@
 {
-  "unique_papers": 1744,
-  "latest_30d_tracked_total": 655,
-  "latest_30d_quality_gated": 180,
-  "latest_30d_watchlist": 356,
+  "unique_papers": 1746,
+  "latest_30d_tracked_total": 656,
+  "latest_30d_quality_gated": 174,
+  "latest_30d_watchlist": 363,
   "latest_30d_relevant_low_priority": 119,
-  "classical_papers": 1564,
+  "classical_papers": 1572,
   "latest_strong": 45,
-  "papers_with_primary_link": 1722,
+  "papers_with_primary_link": 1724,
   "papers_with_verified_code_link": 475,
   "venues": 93,
   "direction_counts": {
@@ -18,8 +18,8 @@
     "Efficient Attention": 249,
     "MoE Systems / Accelerators": 133,
     "GPU Kernel / DSL / Compiler": 453,
-    "Distributed Training / Inference": 338,
-    "Multimodal / MLLM Serving": 212,
+    "Distributed Training / Inference": 339,
+    "Multimodal / MLLM Serving": 213,
     "Video / Image Generation": 81,
     "Diffusion / Flow Acceleration": 205,
     "Efficient Reasoning / Agents": 313,
@@ -32,6 +32,6 @@
   "venue_active_round": 8,
   "venue_active_round_checked": 34,
   "venue_active_round_status": "IN_PROGRESS_NONZERO",
-  "source_date_beijing": "2026-09-10",
-  "updated_at_beijing": "2026-09-10T23:01:20+08:00"
+  "source_date_beijing": "2026-09-11",
+  "updated_at_beijing": "2026-09-11T00:07:20+08:00"
 }

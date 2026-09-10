@@ -2689,10 +2689,10 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "PROMOTE_STRONG",
     "why": "Microsoft/Cornell free-pause-token method improves next-token prediction by 2-3 centinats on a 1B model while adding no context length, no KV cache, and essentially no inference latency; training overhead is reduced to about 1.14x. This is directly relevant to inference-efficient extra-compute/reasoning design.",
-    "published_at": "2026-09-03T13:12:47Z",
-    "updated_at": "2026-09-08T15:13:27Z",
-    "is_latest_30d": true,
-    "tracking_tier": "P0 · Strong",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
     "directions": [
       "KV Cache / Long Context",
       "Efficient Reasoning / Agents"
@@ -2943,6 +2943,26 @@
       "LLM Serving",
       "Efficient Attention",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "AuK Technical Report: An Open-Source Foundational Model for Speech Generation and Editing",
+    "venue": "arXiv 2026",
+    "topic": "multimodal generative inference / flow distillation / low-step generation",
+    "arxiv": "2609.08936",
+    "doi": "",
+    "official_id": "arXiv:2609.08936",
+    "paper_url": "https://arxiv.org/abs/2609.08936",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Distills a rectified-flow speech generation/editing foundation model with consistency initialization and task-routed Decoupled DMD. AuK-Flash performs 4-step inference without classifier-free guidance and reports 4.5x wall-clock speedup over the full model under matched conditions, while retaining leading/competitive generation and editing quality.",
+    "published_at": "2026-09-08T15:59:16Z",
+    "updated_at": "2026-09-08T15:59:16Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Multimodal / MLLM Serving"
     ]
   },
   {
@@ -3268,10 +3288,10 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "PROMOTE_STRONG",
     "why": "Moves coarse evidence filtering before the expensive vision encoder, then performs query-specific refinement at LLM prefill. Reports up to 80% evidence-frame filtering and up to 2.54x lower end-to-end inference latency while improving benchmark accuracy. Canonical multimodal serving contribution.",
-    "published_at": "2026-09-03T11:14:21Z",
-    "updated_at": "2026-09-03T11:14:21Z",
-    "is_latest_30d": true,
-    "tracking_tier": "P0 · Strong",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving",
       "Sparsity / Pruning",
@@ -3810,10 +3830,10 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "PROMOTE_STRONG",
     "why": "Automatically decomposes PyTorch-like AI computations across multi-GPU servers using join-aggregation specs and synthesized topology-aware exchange programs rather than canned collectives. On LLaMA blocks across eight A100 GPUs reports 8.97 ms geometric-mean runtime versus 13.80 ms hand-tuned PyTorch and 15.90 ms vLLM. Canonical systems/compiler work.",
-    "published_at": "2026-09-03T14:24:02Z",
-    "updated_at": "2026-09-03T14:24:02Z",
-    "is_latest_30d": true,
-    "tracking_tier": "P0 · Strong",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
     "directions": [
       "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference"
@@ -3903,6 +3923,26 @@
       "KV Cache / Long Context",
       "Multimodal / MLLM Serving",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "FedSubMuon: Communication-Efficient Federated LLM Fine-Tuning via Structured Subspace Muon",
+    "venue": "arXiv 2026",
+    "topic": "distributed training/inference / federated LLM fine-tuning / communication efficiency",
+    "arxiv": "2609.06073",
+    "doi": "",
+    "official_id": "arXiv:2609.06073",
+    "paper_url": "https://arxiv.org/abs/2609.06073",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Optimizes compact coefficient matrices inside shared structured subspaces so clients avoid transmitting full layer-sized Muon updates. Across matched communication budgets FedSubMuon performs best; on Dolly-15K the closest communication baseline requires 5.5x and 1.4x more total communication for Llama-1B and Qwen-4B. This is direct measured LLM communication-efficiency evidence.",
+    "published_at": "2026-09-05T13:07:13Z",
+    "updated_at": "2026-09-05T13:07:13Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Distributed Training / Inference"
     ]
   },
   {
@@ -5517,10 +5557,10 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "PROMOTE_STRONG",
     "why": "Empirically estimates LIBERO task-capacity floor: a 0.54M-parameter policy reaches 95.1% average success over 2,000 rollouts, runs 5-9 ms per action chunk on laptop CPU, and exposes weak robustness/task-ID memorization in standard LIBERO. Strong deployment-efficiency and benchmark-diagnostic result; protected Physical-AI canonical-high.",
-    "published_at": "2026-09-03T11:51:10Z",
-    "updated_at": "2026-09-03T11:51:10Z",
-    "is_latest_30d": true,
-    "tracking_tier": "P0 · Strong",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
     "directions": [
       "Efficient Reasoning / Agents",
       "VLA / WAM / Physical AI"
@@ -7003,10 +7043,10 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "PROMOTE_STRONG",
     "why": "7d systematic replay recovered an execution-level adaptive framework that preserves mature transform workflows while selectively activating spectral blocks. Across materials, biology and optical-communications workloads it reports up to 28.1x transform-update speedup and up to 8.4x overall acceleration, with strong/weak scaling demonstrated on up to eight GPUs inside distributed FFT workflows.",
-    "published_at": "2026-09-03T14:38:06Z",
-    "updated_at": "2026-09-03T14:38:06Z",
-    "is_latest_30d": true,
-    "tracking_tier": "P0 · Strong",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
     "directions": [
       "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference"
@@ -7901,10 +7941,10 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "PROMOTE_STRONG",
     "why": "Schedules when and how world-model imagination is used for VLA refinement, with bounded multi-view rollouts and outcome-based supervision. On pi0 and pi0.5 it reports consistent manipulation gains while reducing GPU computation time by about 80% versus full imagination. Protected Physical-AI canonical-high.",
-    "published_at": "2026-09-03T11:17:57Z",
-    "updated_at": "2026-09-03T11:17:57Z",
-    "is_latest_30d": true,
-    "tracking_tier": "P0 · Strong",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving",
       "GPU Kernel / DSL / Compiler",
@@ -10629,10 +10669,10 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "PROMOTE_STRONG",
     "why": "Introduces diffusion-augmented LLMs and Psi-Spec samplers that preserve the underlying autoregressive model distribution while drawing multiple tokens in parallel, making it a direct lossless decoding-acceleration contribution rather than a quality-speed heuristic.",
-    "published_at": "2026-09-03T15:48:43Z",
-    "updated_at": "2026-09-03T15:48:43Z",
-    "is_latest_30d": true,
-    "tracking_tier": "P0 · Strong",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
     "directions": [
       "Speculative Decoding",
       "Diffusion / Flow Acceleration",
@@ -10651,10 +10691,10 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "PROMOTE_STRONG",
     "why": "Direct long-context KV-cache systems contribution for NoPE-MLA. Uses a query-independent signal already present in the cache to partition attended and archived tiers, targeting the failure of observed-attention eviction before future queries exist.",
-    "published_at": "2026-09-03T14:53:20Z",
-    "updated_at": "2026-09-09T16:04:52Z",
-    "is_latest_30d": true,
-    "tracking_tier": "P0 · Strong",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
     "directions": [
       "KV Cache / Long Context",
       "Efficient Attention"
