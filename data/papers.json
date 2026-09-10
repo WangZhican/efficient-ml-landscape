@@ -2699,6 +2699,28 @@
     ]
   },
   {
+    "title": "Ambient @ EgoLongQA 2026: Distilling Long-Video perception into a Sub-2B Model",
+    "venue": "arXiv 2026",
+    "topic": "multimodal/MLLM serving / model compression / video reasoning",
+    "arxiv": "2609.07154",
+    "doi": "",
+    "official_id": "arXiv:2609.07154",
+    "paper_url": "https://arxiv.org/abs/2609.07154",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "A sub-2B VLM distills the perception component of a larger tool-using long-video agent into one greedy forward pass. It retains 89% of the large agent pipeline accuracy while using only 1.1% of its parameters, providing unusually strong model-size and deployment-efficiency evidence for long-video reasoning.",
+    "published_at": "2026-09-07T07:50:30Z",
+    "updated_at": "2026-09-07T07:50:30Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "AMEND: Audited Margins Enable Nonblocking Drops in GPU-PIM LLM Decoding",
     "venue": "arXiv 2026",
     "topic": "KV cache/long-context / sparse attention / GPU-PIM / LLM decoding",
@@ -3506,6 +3528,27 @@
     "directions": [
       "Video / Image Generation",
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "Deformable Object Manipulation under Partial Observability via Real-Time Full-Shape Estimation",
+    "venue": "arXiv 2026",
+    "topic": "VLA/WAM/Physical AI serving / robot world model / real-time control",
+    "arxiv": "2609.10308",
+    "doi": "",
+    "official_id": "arXiv:2609.10308",
+    "paper_url": "https://arxiv.org/abs/2609.10308",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "cRVAE replaces expensive online physics identification with a lightweight learned forward model from partial corner observations. It runs about 350x faster than XPBD on rope and over 1500x faster on fabric per forward pass, keeping receding-horizon planning within a 100 ms control budget and demonstrating hardware deployment on Unitree Go2.",
+    "published_at": "2026-09-09T15:17:30Z",
+    "updated_at": "2026-09-09T15:17:30Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "VLA / WAM / Physical AI"
     ]
   },
   {

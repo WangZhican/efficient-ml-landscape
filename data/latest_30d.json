@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-11",
   "window_start_beijing": "2026-08-12",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 695,
+  "tracked_total": 701,
   "p0_strong_or_canonical": [
     {
       "title": "HybridFLow: SDN-Orchestrated Client Partitioning for Hybrid Federated Learning",
@@ -89,6 +89,27 @@
       "directions": [
         "Video / Image Generation",
         "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "Deformable Object Manipulation under Partial Observability via Real-Time Full-Shape Estimation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / robot world model / real-time control",
+      "arxiv": "2609.10308",
+      "doi": "",
+      "official_id": "arXiv:2609.10308",
+      "paper_url": "https://arxiv.org/abs/2609.10308",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "cRVAE replaces expensive online physics identification with a lightweight learned forward model from partial corner observations. It runs about 350x faster than XPBD on rope and over 1500x faster on fabric per forward pass, keeping receding-horizon planning within a 100 ms control budget and demonstrating hardware deployment on Unitree Go2.",
+      "published_at": "2026-09-09T15:17:30Z",
+      "updated_at": "2026-09-09T15:17:30Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -1328,6 +1349,28 @@
       "directions": [
         "LLM Serving",
         "KV Cache / Long Context"
+      ]
+    },
+    {
+      "title": "Ambient @ EgoLongQA 2026: Distilling Long-Video perception into a Sub-2B Model",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / model compression / video reasoning",
+      "arxiv": "2609.07154",
+      "doi": "",
+      "official_id": "arXiv:2609.07154",
+      "paper_url": "https://arxiv.org/abs/2609.07154",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "A sub-2B VLM distills the perception component of a larger tool-using long-video agent into one greedy forward pass. It retains 89% of the large agent pipeline accuracy while using only 1.1% of its parameters, providing unusually strong model-size and deployment-efficiency evidence for long-video reasoning.",
+      "published_at": "2026-09-07T07:50:30Z",
+      "updated_at": "2026-09-07T07:50:30Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -4371,6 +4414,28 @@
       ]
     },
     {
+      "title": "PRAGMA: Evaluating Personalized Guidance with Memory Alignment in Lifelong Conversations",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / long-term memory / retrieval benchmark",
+      "arxiv": "2609.09664",
+      "doi": "",
+      "official_id": "arXiv:2609.09664",
+      "paper_url": "https://arxiv.org/abs/2609.09664",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "PRAGMA targets the computational and reliability problems of full conversational histories and evaluates retrieval, memory and long-context systems for personalized guidance. It is a useful long-term-memory systems benchmark, but the abstract does not quantify end-to-end token or latency savings.",
+      "published_at": "2026-09-09T03:31:47Z",
+      "updated_at": "2026-09-09T03:31:47Z",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context",
+        "Quantization",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "JEPA Policy: Diffusion-Free Imitation Learning via Paired Action and Future Representation Prediction",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI / diffusion-free action policy / low-latency visuomotor imitation",
@@ -5860,6 +5925,28 @@
       ]
     },
     {
+      "title": "PhysMAS: Physics-Grounded Multi-Agent Synthesis of Compositional 4D Gaussians",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / 4D Gaussian world modeling / physics agents",
+      "arxiv": "2609.07174",
+      "doi": "",
+      "official_id": "arXiv:2609.07174",
+      "paper_url": "https://arxiv.org/abs/2609.07174",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "PhysMAS uses persistent object-part identity, material reasoning agents and solver-aware skills for physically executable 4D Gaussian synthesis, explicitly avoiding SDS-style repeated score evaluations and backpropagation. It is protected Physical-AI evidence, but the abstract lacks a clean runtime or memory ratio.",
+      "published_at": "2026-09-07T08:07:05Z",
+      "updated_at": "2026-09-07T08:07:05Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "NutriBench-Kitchen: Benchmarking Embodied AI for Nutrition Management",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI / persistent embodied memory / long-horizon kitchen agents",
@@ -6586,6 +6673,26 @@
       ]
     },
     {
+      "title": "DAREBench: Deployment-Aware and Reliable Evaluation of Models as Agents",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / deployment benchmark / cost-aware model selection",
+      "arxiv": "2609.06059",
+      "doi": "",
+      "official_id": "arXiv:2609.06059",
+      "paper_url": "https://arxiv.org/abs/2609.06059",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "DAREBench evaluates 35 commercial and local models over 7,587 agent runs and reports accuracy, token consumption and API reference cost across a workload matrix. It is valuable for deployment-aware agent quality-cost selection, but is primarily a benchmark rather than an acceleration method.",
+      "published_at": "2026-09-05T12:36:59Z",
+      "updated_at": "2026-09-05T12:36:59Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "FALCON-S: Fixed-wing ground-effect Aerodynamics Simulator and Flight Control Learning Suite",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / GPU simulation / robot learning",
@@ -6848,6 +6955,26 @@
         "LLM Serving",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Adaptive Gated Deepfake Detection for Low-Resolution and Resource-Constrained Environments",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / adaptive inference / early exit",
+      "arxiv": "2609.05320",
+      "doi": "",
+      "official_id": "arXiv:2609.05320",
+      "paper_url": "https://arxiv.org/abs/2609.05320",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "AdaGate-DF routes samples through a dual multi-exit path using image-quality cues so easier inputs can exit early, targeting resource-constrained inference while maintaining competitive detection accuracy. The abstract reports low latency but no clean speedup ratio, so it remains a watch item.",
+      "published_at": "2026-09-04T16:14:57Z",
+      "updated_at": "2026-09-04T16:14:57Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -15140,6 +15267,27 @@
       ]
     },
     {
+      "title": "Deformable Object Manipulation under Partial Observability via Real-Time Full-Shape Estimation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / robot world model / real-time control",
+      "arxiv": "2609.10308",
+      "doi": "",
+      "official_id": "arXiv:2609.10308",
+      "paper_url": "https://arxiv.org/abs/2609.10308",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "cRVAE replaces expensive online physics identification with a lightweight learned forward model from partial corner observations. It runs about 350x faster than XPBD on rope and over 1500x faster on fabric per forward pass, keeping receding-horizon planning within a 100 ms control budget and demonstrating hardware deployment on Unitree Go2.",
+      "published_at": "2026-09-09T15:17:30Z",
+      "updated_at": "2026-09-09T15:17:30Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Maverick: Private and Verifiable LLM Inference Made Practical via Matrix-Vector Multiplication Delegation",
       "venue": "arXiv 2026",
       "topic": "LLM serving / private inference / verifiable delegation / heterogeneous offload",
@@ -16376,6 +16524,28 @@
       "directions": [
         "LLM Serving",
         "KV Cache / Long Context"
+      ]
+    },
+    {
+      "title": "Ambient @ EgoLongQA 2026: Distilling Long-Video perception into a Sub-2B Model",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / model compression / video reasoning",
+      "arxiv": "2609.07154",
+      "doi": "",
+      "official_id": "arXiv:2609.07154",
+      "paper_url": "https://arxiv.org/abs/2609.07154",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "A sub-2B VLM distills the perception component of a larger tool-using long-video agent into one greedy forward pass. It retains 89% of the large agent pipeline accuracy while using only 1.1% of its parameters, providing unusually strong model-size and deployment-efficiency evidence for long-video reasoning.",
+      "published_at": "2026-09-07T07:50:30Z",
+      "updated_at": "2026-09-07T07:50:30Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -19417,6 +19587,28 @@
       ]
     },
     {
+      "title": "PRAGMA: Evaluating Personalized Guidance with Memory Alignment in Lifelong Conversations",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / long-term memory / retrieval benchmark",
+      "arxiv": "2609.09664",
+      "doi": "",
+      "official_id": "arXiv:2609.09664",
+      "paper_url": "https://arxiv.org/abs/2609.09664",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "PRAGMA targets the computational and reliability problems of full conversational histories and evaluates retrieval, memory and long-context systems for personalized guidance. It is a useful long-term-memory systems benchmark, but the abstract does not quantify end-to-end token or latency savings.",
+      "published_at": "2026-09-09T03:31:47Z",
+      "updated_at": "2026-09-09T03:31:47Z",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context",
+        "Quantization",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "JEPA Policy: Diffusion-Free Imitation Learning via Paired Action and Future Representation Prediction",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI / diffusion-free action policy / low-latency visuomotor imitation",
@@ -20906,6 +21098,28 @@
       ]
     },
     {
+      "title": "PhysMAS: Physics-Grounded Multi-Agent Synthesis of Compositional 4D Gaussians",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / 4D Gaussian world modeling / physics agents",
+      "arxiv": "2609.07174",
+      "doi": "",
+      "official_id": "arXiv:2609.07174",
+      "paper_url": "https://arxiv.org/abs/2609.07174",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "PhysMAS uses persistent object-part identity, material reasoning agents and solver-aware skills for physically executable 4D Gaussian synthesis, explicitly avoiding SDS-style repeated score evaluations and backpropagation. It is protected Physical-AI evidence, but the abstract lacks a clean runtime or memory ratio.",
+      "published_at": "2026-09-07T08:07:05Z",
+      "updated_at": "2026-09-07T08:07:05Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "NutriBench-Kitchen: Benchmarking Embodied AI for Nutrition Management",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI / persistent embodied memory / long-horizon kitchen agents",
@@ -21632,6 +21846,26 @@
       ]
     },
     {
+      "title": "DAREBench: Deployment-Aware and Reliable Evaluation of Models as Agents",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / deployment benchmark / cost-aware model selection",
+      "arxiv": "2609.06059",
+      "doi": "",
+      "official_id": "arXiv:2609.06059",
+      "paper_url": "https://arxiv.org/abs/2609.06059",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "DAREBench evaluates 35 commercial and local models over 7,587 agent runs and reports accuracy, token consumption and API reference cost across a workload matrix. It is valuable for deployment-aware agent quality-cost selection, but is primarily a benchmark rather than an acceleration method.",
+      "published_at": "2026-09-05T12:36:59Z",
+      "updated_at": "2026-09-05T12:36:59Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "FALCON-S: Fixed-wing ground-effect Aerodynamics Simulator and Flight Control Learning Suite",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / GPU simulation / robot learning",
@@ -21894,6 +22128,26 @@
         "LLM Serving",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Adaptive Gated Deepfake Detection for Low-Resolution and Resource-Constrained Environments",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / adaptive inference / early exit",
+      "arxiv": "2609.05320",
+      "doi": "",
+      "official_id": "arXiv:2609.05320",
+      "paper_url": "https://arxiv.org/abs/2609.05320",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "AdaGate-DF routes samples through a dual multi-exit path using image-quality cues so easier inputs can exit early, targeting resource-constrained inference while maintaining competitive detection accuracy. The abstract reports low latency but no clean speedup ratio, so it remains a watch item.",
+      "published_at": "2026-09-04T16:14:57Z",
+      "updated_at": "2026-09-04T16:14:57Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
