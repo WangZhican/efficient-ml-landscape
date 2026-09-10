@@ -3170,6 +3170,31 @@
     ]
   },
   {
+    "title": "CLFTv2: Efficient Camera-LiDAR Fusion for Semantic Segmentation via Hierarchical Feature Pyramids",
+    "venue": "arXiv 2026",
+    "topic": "VLA/WAM/Physical AI / multimodal perception / efficient attention / edge inference",
+    "arxiv": "2609.09881",
+    "doi": "",
+    "official_id": "arXiv:2609.09881",
+    "paper_url": "https://arxiv.org/abs/2609.09881",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Replaces global ViT/query-matching fusion with hierarchical shifted-window attention and a lightweight FPN-style decoder. Against a Swin-based Mask2Former adaptation it uses 1.4x fewer GFLOPs and delivers 2.2x higher throughput with comparable overall accuracy while improving vulnerable-road-user recall, giving direct on-vehicle perception efficiency evidence.",
+    "published_at": "2026-09-09T08:37:06Z",
+    "updated_at": "2026-09-09T08:37:06Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler",
+      "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "CMD: An Integrated CGRA Framework with Cluster-Based Distributed Memory Design",
     "venue": "arXiv 2026",
     "topic": "GPU kernel/DSL/compilers / accelerators / CGRA / memory-aware compilation",
@@ -3818,6 +3843,29 @@
     ]
   },
   {
+    "title": "Federated Binary Gating with Server-Side Vision-Language Inference for Surveillance Anomaly Classification",
+    "venue": "arXiv 2026",
+    "topic": "multimodal/MLLM serving / edge-cloud gating / selective VLM inference / federated systems",
+    "arxiv": "2609.07403",
+    "doi": "",
+    "official_id": "arXiv:2609.07403",
+    "paper_url": "https://arxiv.org/abs/2609.07403",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Uses a lightweight federated local video gate so only flagged clips invoke server-side Qwen3-VL-8B. In a real three-node heterogeneous deployment, fixed-threshold routing preserves nearly the same macro-F1 as centralized CNN+VLM while transmitting only 51.4% of videos, providing measured selective-offload and server-VLM utilization reduction.",
+    "published_at": "2026-09-07T12:14:57Z",
+    "updated_at": "2026-09-07T12:14:57Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Multimodal / MLLM Serving",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Fine-Tuning a KV Cache Concatenation-Aware Model or Recomputing KV Caches? Why Not Both?",
     "venue": "arXiv 2026",
     "topic": "KV cache/long-context / RAG serving / prefill acceleration",
@@ -3987,6 +4035,26 @@
       "LLM Serving",
       "MoE Systems / Accelerators",
       "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "FPGA Acceleration of Fully Homomorphic Encryption with Adaptive Key Switching",
+    "venue": "arXiv 2026",
+    "topic": "edge/cloud/heterogeneous AI systems / privacy-preserving inference / FPGA acceleration",
+    "arxiv": "2609.09423",
+    "doi": "",
+    "official_id": "arXiv:2609.09423",
+    "paper_url": "https://arxiv.org/abs/2609.09423",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Co-designs a memory-efficient KLSS datapath with a runtime selector between HKS and KLSS and eliminates off-chip ciphertext transfers. On Alveo U280 it achieves 1.84-3.31x bootstrapping speedup and 1.66-2.52x secure image-classification speedup over state-of-the-art FPGA accelerators, providing strong measured accelerator evidence.",
+    "published_at": "2026-09-08T20:24:21Z",
+    "updated_at": "2026-09-08T20:24:21Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -4455,6 +4523,28 @@
     "tracking_tier": "Canonical",
     "directions": [
       "KV Cache / Long Context"
+    ]
+  },
+  {
+    "title": "HiRAD: A Flexible Large-Scale AGV Routing System",
+    "venue": "arXiv 2026",
+    "topic": "VLA/WAM/Physical AI / real-time multi-agent routing / hierarchical RL / edge control",
+    "arxiv": "2609.09752",
+    "doi": "",
+    "official_id": "arXiv:2609.09752",
+    "paper_url": "https://arxiv.org/abs/2609.09752",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Uses hierarchical heading/velocity control and an asynchronous event-driven decision pipeline to reduce inference complexity from O(n^2) to O(n). It cuts per-step decision latency by up to 71% and reduces makespan by 45-63% on large AGV routing workloads, directly satisfying real-time Physical-AI runtime efficiency criteria.",
+    "published_at": "2026-09-09T05:50:17Z",
+    "updated_at": "2026-09-09T05:50:17Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -4935,6 +5025,27 @@
       "Quantization",
       "Sparsity / Pruning",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "LiteRAG: Cost-Efficient Graph-Based Retrieval-Augmented Generation",
+    "venue": "arXiv 2026",
+    "topic": "LLM serving / RAG / retrieval efficiency / context reduction",
+    "arxiv": "2609.10239",
+    "doi": "",
+    "official_id": "arXiv:2609.10239",
+    "paper_url": "https://arxiv.org/abs/2609.10239",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Replaces retrieval-time LLM control with query-conditioned graph exploration and reasoning-chain context construction. On DistComp it cuts per-query latency by over 100x and cost by over 99% versus GraphRAG Global and DRIFT while achieving the best reported overall quality; on UltraDomain it matches LinearRAG quality with about 14x fewer tokens. This is direct measured RAG serving efficiency evidence.",
+    "published_at": "2026-09-09T14:32:07Z",
+    "updated_at": "2026-09-09T14:32:07Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
