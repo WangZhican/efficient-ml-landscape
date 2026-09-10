@@ -4058,6 +4058,27 @@
     ]
   },
   {
+    "title": "FrankenReport: Early Exiting in Long-Form Generation Using Expected Value of Computation",
+    "venue": "arXiv 2026",
+    "topic": "efficient reasoning/agent systems / adaptive computation / early exit / deep research serving",
+    "arxiv": "2609.06320",
+    "doi": "",
+    "official_id": "arXiv:2609.06320",
+    "paper_url": "https://arxiv.org/abs/2609.06320",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Introduces section-level expected-value-of-computation gating so long-form research generation can stop targeted computation when predicted quality gains are small. In simulation it outperforms random allocation by up to 4x under low budgets and smoothly recovers full-pipeline quality as budget increases, providing direct adaptive-compute evidence for agentic/deep-research workloads.",
+    "published_at": "2026-09-06T00:43:52Z",
+    "updated_at": "2026-09-06T00:43:52Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "From 80x to 385x: A Best-Matching-Unit Search at the L2 Roof, Measured Against a Symmetrically Tuned Baseline",
     "venue": "arXiv 2026",
     "topic": "GPU kernel/DSL/compilers / memory-bandwidth optimization / sparse search",
@@ -7062,6 +7083,28 @@
     "directions": [
       "Quantization",
       "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "Stencil Computation at the Intersection of AI and HPC",
+    "venue": "arXiv 2026",
+    "topic": "GPU kernel/DSL/compilers / tensor compiler / heterogeneous GPU / HPC-AI convergence",
+    "arxiv": "2609.10368",
+    "doi": "",
+    "official_id": "arXiv:2609.10368",
+    "paper_url": "https://arxiv.org/abs/2609.10368",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Applies AI tensor-compiler abstractions from TinyTC and Triton to an 8th-order 25-point stencil across Intel, NVIDIA and AMD GPUs. On Intel B580, TinyTC reaches 15.6 Gpts/s versus 13.5 Gpts/s for PyTorch/Triton under random initialization, with zero-initialized runs reaching 35.8 Gpts/s through hardware memory compression; the study also exposes bandwidth and cache-management effects. This is direct measured compiler/runtime throughput evidence.",
+    "published_at": "2026-09-09T15:59:22Z",
+    "updated_at": "2026-09-09T15:59:22Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {

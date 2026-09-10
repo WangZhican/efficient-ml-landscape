@@ -1,10 +1,10 @@
 # 01 · LLM Serving
 
-> **759 canonical papers** mapped here, plus a broader **412-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **761 canonical papers** mapped here, plus a broader **416-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 412 tracked
+## 🆕 Latest 30 Days · 416 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -13,6 +13,7 @@
 | **P1 · Watch** | **Frequency-Conditioned Flow Matching for Vision-Language-Action Models** | arXiv 2026 | VLA/WAM/Physical AI / flow matching / action generation | [Link](https://arxiv.org/abs/2609.10405) | — |
 | **P0 · Strong** | **HybridFLow: SDN-Orchestrated Client Partitioning for Hybrid Federated Learning** | arXiv 2026 | distributed training / edge-cloud / federated learning / network-aware scheduling | [Link](https://arxiv.org/abs/2609.10404) | — |
 | **P0 · Strong** | **PACE: Perceived-Latency-Aware Cascading Service Routing and Filler Control for QoE-Efficient Retrieval-Augmented Dialogue Serving** | arXiv 2026 | LLM serving / RAG serving / Physical AI cloud-edge runtime / dialogue systems | [Link](https://arxiv.org/abs/2609.10372) | — |
+| **P0 · Strong** | **Stencil Computation at the Intersection of AI and HPC** | arXiv 2026 | GPU kernel/DSL/compilers / tensor compiler / heterogeneous GPU / HPC-AI convergence | [Link](https://arxiv.org/abs/2609.10368) | — |
 | **P1 · Watch** | **Why Is Video Still So Expensive? A Survey of Inference-Efficiency Mechanisms in Video and Audiovisual LLMs** | arXiv 2026 | multimodal/MLLM serving / video inference / efficiency survey / canonical lineage | [Link](https://arxiv.org/abs/2609.10355) | — |
 | **P1 · Watch** | **Beyond One-Size-Fits-All: Sample-Adaptive Strategy Routing for Vision Token Pruning in MLLMs** | arXiv 2026 | multimodal/MLLM serving / vision token pruning / adaptive routing | [Link](https://arxiv.org/abs/2609.10346) | — |
 | **P1 · Watch** | **TRACE: Trajectory-robust Admission with Evidence Ordering for Efficient GUI Agents** | arXiv 2026 | efficient reasoning/agent systems / multimodal serving / KV cache / token pruning | [Link](https://arxiv.org/abs/2609.10297) | — |
@@ -80,6 +81,7 @@
 | **P1 · Watch** | **Query-Aware Token Budgeting for Efficient Late-Interaction Visual Document Retrieval** | arXiv 2026 | multimodal/MLLM serving / retrieval systems / token compression | [Link](https://arxiv.org/abs/2609.07262) | — |
 | **P0 · Strong** | **Parallelism Strategy Chaining for Fast Training Convergence** | arXiv 2026 | distributed training/inference / parallelism / online adaptation | [Link](https://arxiv.org/abs/2609.07236) | — |
 | **P0 · Strong** | **Enabling High-Bandwidth Flash for Generative Recommendation Serving with Write-Aware KV Cache Policy** | arXiv 2026 | LLM/recommendation serving / KV cache / flash tiering / endurance-aware cache policy | [Link](https://arxiv.org/abs/2609.07175) | — |
+| **P1 · Watch** | **NutriBench-Kitchen: Benchmarking Embodied AI for Nutrition Management** | arXiv 2026 | VLA/WAM/Physical AI / persistent embodied memory / long-horizon kitchen agents | [Link](https://arxiv.org/abs/2609.07135) | — |
 | **P1 · Watch** | **RoboDreamer: Anticipatory Humanoid Locomotion with Predictive State-Space Models** | arXiv 2026 | VLA/WAM/Physical AI serving / humanoid control / action chunking | [Link](https://arxiv.org/abs/2609.07096) | — |
 | **P1 · Watch** | **MEMOBench: A Process Level Memory Benchmark for Robotic Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving / robot memory / benchmark | [Link](https://arxiv.org/abs/2609.07047) | [Repo](https://github.com/Collab-Gen/MEMOBench) |
 | **P0 · Strong** | **ASTRA: Low-Overhead Runtime Architecture for STReam Adaptation in Video Analytics** | arXiv 2026 | edge/cloud/heterogeneous AI systems / multimodal serving / runtime adaptation | [Link](https://arxiv.org/abs/2609.07020) | — |
@@ -99,6 +101,7 @@
 | **P1 · Watch** | **DFlow: Enabling Verifier Information Flow in Block Diffusion Speculative Decoding** | arXiv 2026 | speculative decoding / diffusion language models / verifier reuse | [Link](https://arxiv.org/abs/2609.06498) | — |
 | **P1 · Watch** | **One MLLM, One Call: Efficient Zero-Shot Vision-and-Language Navigation via Spatial-Aware Waypoints** | arXiv 2026 | VLA/WAM/Physical AI serving / VLN / sparse MLLM invocation / robot navigation | [Link](https://arxiv.org/abs/2609.06476) | — |
 | **P1 · Watch** | **From Concentration to Differentiation and Back: Routing Effective Rank in MoE Reasoning Cohorts** | arXiv 2026 | MoE systems/accelerators / efficient reasoning / routing characterization | [Link](https://arxiv.org/abs/2609.06403) | — |
+| **P0 · Strong** | **FrankenReport: Early Exiting in Long-Form Generation Using Expected Value of Computation** | arXiv 2026 | efficient reasoning/agent systems / adaptive computation / early exit / deep research serving | [Link](https://arxiv.org/abs/2609.06320) | — |
 | **P0 · Strong** | **GloVLA: Let Geometry Move and Local VLA Interact for Robust Object-Centric Manipulation in Unstructured Environments** | arXiv 2026 | VLA/WAM/Physical AI serving / hybrid control / inference reduction | [Link](https://arxiv.org/abs/2609.06256) | [Repo](https://glovla-project.github.io/) |
 | **P1 · Watch** | **MobileVLA-R1 2.0: RL-Enhanced Reasoning for Mobile Robot Control** | arXiv 2026 | VLA/WAM/Physical AI serving / mobile robot control / reasoning-action decoupling | [Link](https://arxiv.org/abs/2609.06251) | [Repo](https://github.com/AIGeeksGroup/MobileVLA-R1-2.0) |
 | **P0 · Strong** | **AutoUVM: Automated Prefetching Framework for LLMs under UVM Oversubscription** | arXiv 2026 | LLM serving / memory oversubscription / UVM prefetching / heterogeneous memory | [Link](https://arxiv.org/abs/2609.06172) | — |
@@ -123,6 +126,7 @@
 | **P1 · Watch** | **Towards Neuro-Symbolic Procedural Reasoning for Long-Horizon Vision-Language-Action Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving / long-horizon VLA / procedural memory | [Link](https://arxiv.org/abs/2609.05369) | — |
 | **P1 · Watch** | **RoboSPA: Can VLA Models Go Beyond Simple Scenes and Short-Horizon Tasks?** | arXiv 2026 | VLA/WAM/Physical AI serving / benchmark / long-horizon embodied reasoning | [Link](https://arxiv.org/abs/2609.05324) | [Repo](https://github.com/fanzhenxuan/RoboSPA) |
 | **P1 · Watch** | **Temporal Tactile Encoding and Compliance for Intent-Aware Robot-to-Human Bimanual Handover** | arXiv 2026 | VLA/WAM/Physical AI serving / multimodal VLA / tactile control | [Link](https://arxiv.org/abs/2609.05282) | — |
+| **P1 · Watch** | **Compact Neural Appearance Models for Efficient Gaussian Splatting** | arXiv 2026 | VLA/WAM/Physical AI / 3DGS / compact appearance representation / CUDA rendering | [Link](https://arxiv.org/abs/2609.05255) | — |
 | **P1 · Watch** | **LIBERO-RECOVER: Beyond Task Success Towards Failure Recovery in Robotic Manipulation Models** | arXiv 2026 | VLA/WAM/Physical AI / evaluation / failure recovery / robustness | [Link](https://arxiv.org/abs/2609.05178) | [Repo](https://liulin815.github.io/LIBERO-Recovery/) |
 | **P1 · Watch** | **APEX-RBD: Mixed-Precision Exploration Framework for Hardware-Efficient Robot Dynamics Accelerator Design** | arXiv 2026 | VLA/WAM/Physical AI serving / robot accelerator / mixed precision / edge hardware | [Link](https://arxiv.org/abs/2609.05161) | — |
 | **P1 · Watch** | **Compression Beyond the Uncompressed: A Two-Stage Training Recipe for Soft Context Compression in RAG** | arXiv 2026 | LLM serving / RAG / soft context compression / inference efficiency | [Link](https://arxiv.org/abs/2609.05157) | — |

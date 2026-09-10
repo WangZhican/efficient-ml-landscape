@@ -1,10 +1,10 @@
 # 14 · VLA / WAM / Physical AI
 
-> **137 canonical papers** mapped here, plus a broader **153-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **137 canonical papers** mapped here, plus a broader **156-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 153 tracked
+## 🆕 Latest 30 Days · 156 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -39,6 +39,7 @@
 | **P1 · Watch** | **OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining** | arXiv 2026 | VLA/WAM/Physical AI serving / WAM infrastructure / deployment stack | [Link](https://arxiv.org/abs/2609.07398) | [Repo](https://github.com/OpenWAM-Official/OpenWAM) |
 | **P0 · Strong** | **PV-WM: A Heterogeneous Micro-Macro World Model for Articulated Pedestrian-Vehicle Co-Rollout** | arXiv 2026 | VLA/WAM/Physical AI serving / world model / efficient rollout | [Link](https://arxiv.org/abs/2609.07328) | — |
 | **P1 · Watch** | **LightSplat: Real-Time High-Fidelity 3D Gaussian SLAM with Loop Closure** | arXiv 2026 | VLA/WAM/Physical AI serving / 3DGS / real-time SLAM | [Link](https://arxiv.org/abs/2609.07274) | — |
+| **P1 · Watch** | **NutriBench-Kitchen: Benchmarking Embodied AI for Nutrition Management** | arXiv 2026 | VLA/WAM/Physical AI / persistent embodied memory / long-horizon kitchen agents | [Link](https://arxiv.org/abs/2609.07135) | — |
 | **P1 · Watch** | **RoboDreamer: Anticipatory Humanoid Locomotion with Predictive State-Space Models** | arXiv 2026 | VLA/WAM/Physical AI serving / humanoid control / action chunking | [Link](https://arxiv.org/abs/2609.07096) | — |
 | **P1 · Watch** | **MEMOBench: A Process Level Memory Benchmark for Robotic Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving / robot memory / benchmark | [Link](https://arxiv.org/abs/2609.07047) | [Repo](https://github.com/Collab-Gen/MEMOBench) |
 | **P1 · Watch** | **GIFT: Goal-Injected Fine-Tuning for Efficient Manipulation Policy Adaptation** | arXiv 2026 | VLA/WAM/Physical AI serving / lightweight adaptation / goal-conditioned manipulation | [Link](https://arxiv.org/abs/2609.07006) | — |
@@ -60,6 +61,7 @@
 | **P1 · Watch** | **Towards Neuro-Symbolic Procedural Reasoning for Long-Horizon Vision-Language-Action Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving / long-horizon VLA / procedural memory | [Link](https://arxiv.org/abs/2609.05369) | — |
 | **P1 · Watch** | **RoboSPA: Can VLA Models Go Beyond Simple Scenes and Short-Horizon Tasks?** | arXiv 2026 | VLA/WAM/Physical AI serving / benchmark / long-horizon embodied reasoning | [Link](https://arxiv.org/abs/2609.05324) | [Repo](https://github.com/fanzhenxuan/RoboSPA) |
 | **P1 · Watch** | **Temporal Tactile Encoding and Compliance for Intent-Aware Robot-to-Human Bimanual Handover** | arXiv 2026 | VLA/WAM/Physical AI serving / multimodal VLA / tactile control | [Link](https://arxiv.org/abs/2609.05282) | — |
+| **P1 · Watch** | **Compact Neural Appearance Models for Efficient Gaussian Splatting** | arXiv 2026 | VLA/WAM/Physical AI / 3DGS / compact appearance representation / CUDA rendering | [Link](https://arxiv.org/abs/2609.05255) | — |
 | **P1 · Watch** | **Proton Irradiation Characterization of an Open-Source ML Accelerator on a Zynq UltraScale+ MPSoC** | arXiv 2026 | edge/cloud/heterogeneous AI systems / Physical AI / FPGA accelerator reliability | [Link](https://arxiv.org/abs/2609.05249) | — |
 | **P1 · Watch** | **LIBERO-RECOVER: Beyond Task Success Towards Failure Recovery in Robotic Manipulation Models** | arXiv 2026 | VLA/WAM/Physical AI / evaluation / failure recovery / robustness | [Link](https://arxiv.org/abs/2609.05178) | [Repo](https://liulin815.github.io/LIBERO-Recovery/) |
 | **P1 · Watch** | **APEX-RBD: Mixed-Precision Exploration Framework for Hardware-Efficient Robot Dynamics Accelerator Design** | arXiv 2026 | VLA/WAM/Physical AI serving / robot accelerator / mixed precision / edge hardware | [Link](https://arxiv.org/abs/2609.05161) | — |
@@ -71,6 +73,7 @@
 | **P1 · Watch** | **Coupled Control and Wireless World Models for Resilient Remote Robotic Control** | arXiv 2026 | VLA/WAM/Physical AI serving / cloud-edge robotics / communication-aware world models | [Link](https://arxiv.org/abs/2609.04851) | — |
 | **P1 · Watch** | **Linguistic Trajectory Encoding for Efficient Long-Horizon Spatial Memory in Embodied Agents** | arXiv 2026 | Physical AI / embodied agent memory / long-horizon spatial compression | [Link](https://arxiv.org/abs/2609.04802) | — |
 | **P1 · Watch** | **HaptiNet: Networked Haptic Robots Enable Physical Co-presence in Geographically-Unconstrained Rehabilitation** | arXiv 2026 | VLA/WAM/Physical AI serving / distributed robotics / network delay compensation | [Link](https://arxiv.org/abs/2609.04799) | — |
+| **P1 · Watch** | **Open-Set 3D Scene Graphs for Field Robotics: An Outdoor Case Study** | arXiv 2026 | VLA/WAM/Physical AI / scene graph memory / field robotics / open-set VLM mapping | [Link](https://arxiv.org/abs/2609.04607) | — |
 | **P1 · Watch** | **Continual Field-Adaptive Models (CFAMs) for Post-Deployment Physical AI** | arXiv 2026 | VLA/WAM/Physical AI serving / on-device adaptation / post-deployment runtime | [Link](https://arxiv.org/abs/2609.04552) | — |
 | **P1 · Watch** | **SocioGesture: Real-Time and Adaptive Social Gesture Perception for Human-Robot Interaction** | arXiv 2026 | VLA/WAM/Physical AI serving / edge perception / human-robot interaction | [Link](https://arxiv.org/abs/2609.04545) | — |
 | **P0 · Strong** | **Scalable Edge-assisted Fusion and Path Prediction for Connected Autonomous Vehicles** | arXiv 2026 | VLA/WAM/Physical AI serving / edge-cloud heterogeneous AI / connected autonomous vehicles | [Link](https://arxiv.org/abs/2609.04364) | — |

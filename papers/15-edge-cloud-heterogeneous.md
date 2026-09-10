@@ -1,15 +1,16 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **385 canonical papers** mapped here, plus a broader **188-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **386 canonical papers** mapped here, plus a broader **189-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 188 tracked
+## 🆕 Latest 30 Days · 189 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **P0 · Strong** | **HybridFLow: SDN-Orchestrated Client Partitioning for Hybrid Federated Learning** | arXiv 2026 | distributed training / edge-cloud / federated learning / network-aware scheduling | [Link](https://arxiv.org/abs/2609.10404) | — |
 | **P0 · Strong** | **PACE: Perceived-Latency-Aware Cascading Service Routing and Filler Control for QoE-Efficient Retrieval-Augmented Dialogue Serving** | arXiv 2026 | LLM serving / RAG serving / Physical AI cloud-edge runtime / dialogue systems | [Link](https://arxiv.org/abs/2609.10372) | — |
+| **P0 · Strong** | **Stencil Computation at the Intersection of AI and HPC** | arXiv 2026 | GPU kernel/DSL/compilers / tensor compiler / heterogeneous GPU / HPC-AI convergence | [Link](https://arxiv.org/abs/2609.10368) | — |
 | **P0 · Strong** | **Maverick: Private and Verifiable LLM Inference Made Practical via Matrix-Vector Multiplication Delegation** | arXiv 2026 | LLM serving / private inference / verifiable delegation / heterogeneous offload | [Link](https://arxiv.org/abs/2609.10264) | — |
 | **P1 · Watch** | **CEDD-optimizer: Enabling Cost-Efficient Dataset Distillation on Geographically Distributed Edge Systems** | arXiv 2026 | edge/cloud/heterogeneous AI systems / distributed dataset distillation / cost optimization | [Link](https://arxiv.org/abs/2609.10151) | — |
 | **P0 · Strong** | **Elastoformer: Enabling Dynamic Adaptivity via Elastic Model Transformation** | arXiv 2026 | edge/cloud/heterogeneous AI systems / elastic inference / pruning / runtime adaptivity | [Link](https://arxiv.org/abs/2609.10018) | [Repo](https://github.com/sudaksh14/Elastoformer) |

@@ -1,15 +1,16 @@
 # 08 · GPU Kernel / DSL / Compiler
 
-> **452 canonical papers** mapped here, plus a broader **145-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **453 canonical papers** mapped here, plus a broader **147-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 145 tracked
+## 🆕 Latest 30 Days · 147 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **P1 · Watch** | **Show-Harness: Just a VLM Agent Can Play Robots** | arXiv 2026 | VLA/WAM/Physical AI / VLM agents / robot interface / low-cost deployment | [Link](https://arxiv.org/abs/2609.10522) | [Repo](https://showlab.github.io/Show-Harness/) |
 | **P1 · Watch** | **PASCAL: A Phase-Aware Shared-Cache Model for Parallel Scans** | arXiv 2026 | GPU kernel/DSL/compilers / cache modeling / AI accelerators | [Link](https://arxiv.org/abs/2609.10515) | — |
+| **P0 · Strong** | **Stencil Computation at the Intersection of AI and HPC** | arXiv 2026 | GPU kernel/DSL/compilers / tensor compiler / heterogeneous GPU / HPC-AI convergence | [Link](https://arxiv.org/abs/2609.10368) | — |
 | **P0 · Strong** | **Kernel-Managed Shared Memory for System-Wide Personalization** | arXiv 2026 | efficient reasoning/agent systems / memory / agent runtime / context management | [Link](https://arxiv.org/abs/2609.10144) | — |
 | **P0 · Strong** | **CLFTv2: Efficient Camera-LiDAR Fusion for Semantic Segmentation via Hierarchical Feature Pyramids** | arXiv 2026 | VLA/WAM/Physical AI / multimodal perception / efficient attention / edge inference | [Link](https://arxiv.org/abs/2609.09881) | — |
 | **P0 · Strong** | **AMEND: Audited Margins Enable Nonblocking Drops in GPU-PIM LLM Decoding** | arXiv 2026 | KV cache/long-context / sparse attention / GPU-PIM / LLM decoding | [Link](https://arxiv.org/abs/2609.09823) | — |
@@ -60,6 +61,7 @@
 | **P1 · Watch** | **RAGMark: A Comprehensive Framework for Benchmarking Retrieval-Augmented Generation Systems** | arXiv 2026 | LLM serving / RAG systems / benchmarking | [Link](https://arxiv.org/abs/2609.05760) | [Repo](https://github.com/zferic/RAGMark) |
 | **P0 · Strong** | **From Monolithic Blending to Agentic Orchestration: Dynamic Response for Conversational Assistants at Scale** | arXiv 2026 | efficient reasoning/agent systems / production conversational serving / orchestration / GPU footprint | [Link](https://arxiv.org/abs/2609.05758) | — |
 | **P0 · Strong** | **DejaVu: Unifying Memory Allocations to Eliminate Redundant Copies on Unified-Memory SoCs** | arXiv 2026 | edge/cloud/heterogeneous AI systems / UMA / compiler-runtime memory optimization | [Link](https://arxiv.org/abs/2609.05635) | — |
+| **P1 · Watch** | **Compact Neural Appearance Models for Efficient Gaussian Splatting** | arXiv 2026 | VLA/WAM/Physical AI / 3DGS / compact appearance representation / CUDA rendering | [Link](https://arxiv.org/abs/2609.05255) | — |
 | **P0 · Strong** | **From 80x to 385x: A Best-Matching-Unit Search at the L2 Roof, Measured Against a Symmetrically Tuned Baseline** | arXiv 2026 | GPU kernel/DSL/compilers / memory-bandwidth optimization / sparse search | [Link](https://arxiv.org/abs/2609.05138) | — |
 | **P1 · Watch** | **Fast Gauss Sums via Flash Attention** | arXiv 2026 | GPU kernel/DSL/compilers / efficient attention reuse | [Link](https://arxiv.org/abs/2609.04910) | — |
 | **P0 · Strong** | **KVMem: Virtualizing Million-Token Agent Workspaces on a Consumer GPU** | arXiv 2026 | KV cache/long-context / efficient reasoning/agent systems / memory virtualization | [Link](https://arxiv.org/abs/2609.04852) | — |

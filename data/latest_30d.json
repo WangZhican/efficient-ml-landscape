@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-10",
   "window_start_beijing": "2026-08-11",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 636,
+  "tracked_total": 641,
   "p0_strong_or_canonical": [
     {
       "title": "HybridFLow: SDN-Orchestrated Client Partitioning for Hybrid Federated Learning",
@@ -45,6 +45,28 @@
       "directions": [
         "LLM Serving",
         "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Stencil Computation at the Intersection of AI and HPC",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / tensor compiler / heterogeneous GPU / HPC-AI convergence",
+      "arxiv": "2609.10368",
+      "doi": "",
+      "official_id": "arXiv:2609.10368",
+      "paper_url": "https://arxiv.org/abs/2609.10368",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Applies AI tensor-compiler abstractions from TinyTC and Triton to an 8th-order 25-point stencil across Intel, NVIDIA and AMD GPUs. On Intel B580, TinyTC reaches 15.6 Gpts/s versus 13.5 Gpts/s for PyTorch/Triton under random initialization, with zero-initialized runs reaching 35.8 Gpts/s through hardware memory compression; the study also exposes bandwidth and cache-management effects. This is direct measured compiler/runtime throughput evidence.",
+      "published_at": "2026-09-09T15:59:22Z",
+      "updated_at": "2026-09-09T15:59:22Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -1526,6 +1548,27 @@
       "tracking_tier": "P0 · Strong",
       "directions": [
         "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "FrankenReport: Early Exiting in Long-Form Generation Using Expected Value of Computation",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / adaptive computation / early exit / deep research serving",
+      "arxiv": "2609.06320",
+      "doi": "",
+      "official_id": "arXiv:2609.06320",
+      "paper_url": "https://arxiv.org/abs/2609.06320",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Introduces section-level expected-value-of-computation gating so long-form research generation can stop targeted computation when predicted quality gains are small. In simulation it outperforms random allocation by up to 4x under low budgets and smoothly recovers full-pipeline quality as budget increases, providing direct adaptive-compute evidence for agentic/deep-research workloads.",
+      "published_at": "2026-09-06T00:43:52Z",
+      "updated_at": "2026-09-06T00:43:52Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -5118,6 +5161,28 @@
       ]
     },
     {
+      "title": "NutriBench-Kitchen: Benchmarking Embodied AI for Nutrition Management",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI / persistent embodied memory / long-horizon kitchen agents",
+      "arxiv": "2609.07135",
+      "doi": "",
+      "official_id": "arXiv:2609.07135",
+      "paper_url": "https://arxiv.org/abs/2609.07135",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Introduces 1,500 manually verified QA pairs from 160 cooking videos covering ingredient entry, memory management, recipe query and long/short-term planning, explicitly testing whether embodied agents continuously maintain and use persistent food state. It fills a useful long-horizon memory benchmark gap but does not present serving or runtime-efficiency gains, so it is retained only as protected Physical-AI watch.",
+      "published_at": "2026-09-07T07:34:33Z",
+      "updated_at": "2026-09-07T07:34:33Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "RoboDreamer: Anticipatory Humanoid Locomotion with Predictive State-Space Models",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / humanoid control / action chunking",
@@ -5920,6 +5985,30 @@
       ]
     },
     {
+      "title": "Compact Neural Appearance Models for Efficient Gaussian Splatting",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI / 3DGS / compact appearance representation / CUDA rendering",
+      "arxiv": "2609.05255",
+      "doi": "",
+      "official_id": "arXiv:2609.05255",
+      "paper_url": "https://arxiv.org/abs/2609.05255",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Performs an end-to-end comparison of spherical-harmonic and learned spherical appearance models inside one optimized differentiable CUDA rasterizer, and introduces compact per-primitive latent codes decoded by a tiny shared MLP. The representation directly targets per-primitive storage and memory traffic and includes rendering-performance evaluation, but the primary abstract does not expose a single quantitative speedup or memory-reduction figure, so it remains a protected high-value watch item.",
+      "published_at": "2026-09-04T15:18:54Z",
+      "updated_at": "2026-09-04T15:18:54Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "GPU Kernel / DSL / Compiler",
+        "Video / Image Generation",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Proton Irradiation Characterization of an Open-Source ML Accelerator on a Zynq UltraScale+ MPSoC",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI systems / Physical AI / FPGA accelerator reliability",
@@ -6546,6 +6635,27 @@
       "directions": [
         "LLM Serving",
         "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "Open-Set 3D Scene Graphs for Field Robotics: An Outdoor Case Study",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI / scene graph memory / field robotics / open-set VLM mapping",
+      "arxiv": "2609.04607",
+      "doi": "",
+      "official_id": "arXiv:2609.04607",
+      "paper_url": "https://arxiv.org/abs/2609.04607",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Systematically evaluates semantic embeddings, graph navigation, region understanding and memory size of an open-set 3D scene graph across five outdoor robotic datasets, including repeated-traversal consistency. It is valuable evidence for persistent spatial memory and VLM-grounded world-state infrastructure, but it is a characterization study rather than a measured inference-acceleration method.",
+      "published_at": "2026-09-04T01:14:09Z",
+      "updated_at": "2026-09-04T01:14:09Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -13842,6 +13952,28 @@
       ]
     },
     {
+      "title": "Stencil Computation at the Intersection of AI and HPC",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / tensor compiler / heterogeneous GPU / HPC-AI convergence",
+      "arxiv": "2609.10368",
+      "doi": "",
+      "official_id": "arXiv:2609.10368",
+      "paper_url": "https://arxiv.org/abs/2609.10368",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Applies AI tensor-compiler abstractions from TinyTC and Triton to an 8th-order 25-point stencil across Intel, NVIDIA and AMD GPUs. On Intel B580, TinyTC reaches 15.6 Gpts/s versus 13.5 Gpts/s for PyTorch/Triton under random initialization, with zero-initialized runs reaching 35.8 Gpts/s through hardware memory compression; the study also exposes bandwidth and cache-management effects. This is direct measured compiler/runtime throughput evidence.",
+      "published_at": "2026-09-09T15:59:22Z",
+      "updated_at": "2026-09-09T15:59:22Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Maverick: Private and Verifiable LLM Inference Made Practical via Matrix-Vector Multiplication Delegation",
       "venue": "arXiv 2026",
       "topic": "LLM serving / private inference / verifiable delegation / heterogeneous offload",
@@ -15319,6 +15451,27 @@
       "tracking_tier": "P0 · Strong",
       "directions": [
         "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "FrankenReport: Early Exiting in Long-Form Generation Using Expected Value of Computation",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / adaptive computation / early exit / deep research serving",
+      "arxiv": "2609.06320",
+      "doi": "",
+      "official_id": "arXiv:2609.06320",
+      "paper_url": "https://arxiv.org/abs/2609.06320",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Introduces section-level expected-value-of-computation gating so long-form research generation can stop targeted computation when predicted quality gains are small. In simulation it outperforms random allocation by up to 4x under low budgets and smoothly recovers full-pipeline quality as budget increases, providing direct adaptive-compute evidence for agentic/deep-research workloads.",
+      "published_at": "2026-09-06T00:43:52Z",
+      "updated_at": "2026-09-06T00:43:52Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -18909,6 +19062,28 @@
       ]
     },
     {
+      "title": "NutriBench-Kitchen: Benchmarking Embodied AI for Nutrition Management",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI / persistent embodied memory / long-horizon kitchen agents",
+      "arxiv": "2609.07135",
+      "doi": "",
+      "official_id": "arXiv:2609.07135",
+      "paper_url": "https://arxiv.org/abs/2609.07135",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Introduces 1,500 manually verified QA pairs from 160 cooking videos covering ingredient entry, memory management, recipe query and long/short-term planning, explicitly testing whether embodied agents continuously maintain and use persistent food state. It fills a useful long-horizon memory benchmark gap but does not present serving or runtime-efficiency gains, so it is retained only as protected Physical-AI watch.",
+      "published_at": "2026-09-07T07:34:33Z",
+      "updated_at": "2026-09-07T07:34:33Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "RoboDreamer: Anticipatory Humanoid Locomotion with Predictive State-Space Models",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / humanoid control / action chunking",
@@ -19711,6 +19886,30 @@
       ]
     },
     {
+      "title": "Compact Neural Appearance Models for Efficient Gaussian Splatting",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI / 3DGS / compact appearance representation / CUDA rendering",
+      "arxiv": "2609.05255",
+      "doi": "",
+      "official_id": "arXiv:2609.05255",
+      "paper_url": "https://arxiv.org/abs/2609.05255",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Performs an end-to-end comparison of spherical-harmonic and learned spherical appearance models inside one optimized differentiable CUDA rasterizer, and introduces compact per-primitive latent codes decoded by a tiny shared MLP. The representation directly targets per-primitive storage and memory traffic and includes rendering-performance evaluation, but the primary abstract does not expose a single quantitative speedup or memory-reduction figure, so it remains a protected high-value watch item.",
+      "published_at": "2026-09-04T15:18:54Z",
+      "updated_at": "2026-09-04T15:18:54Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "GPU Kernel / DSL / Compiler",
+        "Video / Image Generation",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Proton Irradiation Characterization of an Open-Source ML Accelerator on a Zynq UltraScale+ MPSoC",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI systems / Physical AI / FPGA accelerator reliability",
@@ -20337,6 +20536,27 @@
       "directions": [
         "LLM Serving",
         "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "Open-Set 3D Scene Graphs for Field Robotics: An Outdoor Case Study",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI / scene graph memory / field robotics / open-set VLM mapping",
+      "arxiv": "2609.04607",
+      "doi": "",
+      "official_id": "arXiv:2609.04607",
+      "paper_url": "https://arxiv.org/abs/2609.04607",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Systematically evaluates semantic embeddings, graph navigation, region understanding and memory size of an open-set 3D scene graph across five outdoor robotic datasets, including repeated-traversal consistency. It is valuable evidence for persistent spatial memory and VLM-grounded world-state infrastructure, but it is a characterization study rather than a measured inference-acceleration method.",
+      "published_at": "2026-09-04T01:14:09Z",
+      "updated_at": "2026-09-04T01:14:09Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
