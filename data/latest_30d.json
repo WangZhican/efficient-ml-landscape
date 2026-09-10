@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-11",
   "window_start_beijing": "2026-08-12",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 692,
+  "tracked_total": 695,
   "p0_strong_or_canonical": [
     {
       "title": "HybridFLow: SDN-Orchestrated Client Partitioning for Hybrid Federated Learning",
@@ -7696,6 +7696,27 @@
       ]
     },
     {
+      "title": "$τ^τ$-Bench: An Environment for End-To-End, Realistic Agent Construction",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / serving-cost benchmark / agent construction",
+      "arxiv": "2609.04611",
+      "doi": "",
+      "official_id": "arXiv:2609.04611",
+      "paper_url": "https://arxiv.org/abs/2609.04611",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "$τ^τ$-Bench makes serving cost and model choice part of end-to-end agent construction across 53 realistic tasks and evaluates deployed agents against held-out users. It is useful infrastructure evidence for cost-aware agent engineering, but is a benchmark rather than an acceleration method.",
+      "published_at": "2026-09-04T01:23:47Z",
+      "updated_at": "2026-09-04T01:23:47Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Open-Set 3D Scene Graphs for Field Robotics: An Outdoor Case Study",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI / scene graph memory / field robotics / open-set VLM mapping",
@@ -7883,6 +7904,50 @@
       "is_latest_30d": true,
       "directions": [
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "GRACE: Graph-Grounded Reflective Agent Copilot Engine for Expert-in-the-Loop Knowledge Expansion",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / cost-aware verification / RAG agents",
+      "arxiv": "2609.04442",
+      "doi": "",
+      "official_id": "arXiv:2609.04442",
+      "paper_url": "https://arxiv.org/abs/2609.04442",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "GRACE uses a Return-on-Attention objective to defer uncertain claims to expert or agent review only when priority-weighted uncertainty justifies verification cost. This is relevant adaptive-compute evidence for agentic RAG, but lacks a clean latency or dollar-cost reduction ratio.",
+      "published_at": "2026-09-03T20:03:20Z",
+      "updated_at": "2026-09-03T20:03:20Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Attention",
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "ICM-Bench: Person-Level Identity Reasoning in Multimodal Agents with Long-Term Memory",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / long-term memory / benchmark",
+      "arxiv": "2609.04438",
+      "doi": "",
+      "official_id": "arXiv:2609.04438",
+      "paper_url": "https://arxiv.org/abs/2609.04438",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "ICM-Bench isolates identity-centric long-term memory over 839 synthetic clips and 1,217 questions and compares caption-memory, memory-augmented agents and graph retrieval. It is a useful memory-system evaluation node, but primarily a benchmark rather than an efficiency method.",
+      "published_at": "2026-09-03T19:58:51Z",
+      "updated_at": "2026-09-08T00:10:56Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -22677,6 +22742,27 @@
       ]
     },
     {
+      "title": "$τ^τ$-Bench: An Environment for End-To-End, Realistic Agent Construction",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / serving-cost benchmark / agent construction",
+      "arxiv": "2609.04611",
+      "doi": "",
+      "official_id": "arXiv:2609.04611",
+      "paper_url": "https://arxiv.org/abs/2609.04611",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "$τ^τ$-Bench makes serving cost and model choice part of end-to-end agent construction across 53 realistic tasks and evaluates deployed agents against held-out users. It is useful infrastructure evidence for cost-aware agent engineering, but is a benchmark rather than an acceleration method.",
+      "published_at": "2026-09-04T01:23:47Z",
+      "updated_at": "2026-09-04T01:23:47Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Open-Set 3D Scene Graphs for Field Robotics: An Outdoor Case Study",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI / scene graph memory / field robotics / open-set VLM mapping",
@@ -22864,6 +22950,50 @@
       "is_latest_30d": true,
       "directions": [
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "GRACE: Graph-Grounded Reflective Agent Copilot Engine for Expert-in-the-Loop Knowledge Expansion",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / cost-aware verification / RAG agents",
+      "arxiv": "2609.04442",
+      "doi": "",
+      "official_id": "arXiv:2609.04442",
+      "paper_url": "https://arxiv.org/abs/2609.04442",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "GRACE uses a Return-on-Attention objective to defer uncertain claims to expert or agent review only when priority-weighted uncertainty justifies verification cost. This is relevant adaptive-compute evidence for agentic RAG, but lacks a clean latency or dollar-cost reduction ratio.",
+      "published_at": "2026-09-03T20:03:20Z",
+      "updated_at": "2026-09-03T20:03:20Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Attention",
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "ICM-Bench: Person-Level Identity Reasoning in Multimodal Agents with Long-Term Memory",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / long-term memory / benchmark",
+      "arxiv": "2609.04438",
+      "doi": "",
+      "official_id": "arXiv:2609.04438",
+      "paper_url": "https://arxiv.org/abs/2609.04438",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "ICM-Bench isolates identity-centric long-term memory over 839 synthetic clips and 1,217 questions and compares caption-memory, memory-augmented agents and graph retrieval. It is a useful memory-system evaluation node, but primarily a benchmark rather than an efficiency method.",
+      "published_at": "2026-09-03T19:58:51Z",
+      "updated_at": "2026-09-08T00:10:56Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
