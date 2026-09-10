@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-11",
   "window_start_beijing": "2026-08-12",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 701,
+  "tracked_total": 706,
   "p0_strong_or_canonical": [
     {
       "title": "HybridFLow: SDN-Orchestrated Client Partitioning for Hybrid Federated Learning",
@@ -530,6 +530,26 @@
         "Distributed Training / Inference",
         "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "TEFM: Token-Efficient Faithful Modeling for Structured Data",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / token compression / structured-data inference",
+      "arxiv": "2609.09552",
+      "doi": "",
+      "official_id": "arXiv:2609.09552",
+      "paper_url": "https://arxiv.org/abs/2609.09552",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "TEFM compresses structured observations into compact Behavioral Code tokens and reports roughly 1% token retention in clinical tasks and 2% in security tasks while maintaining competitive classification accuracy. The 98-99% prompt-token reduction is a direct, architecture-agnostic serving-efficiency signal despite the application domains.",
+      "published_at": "2026-09-09T00:14:29Z",
+      "updated_at": "2026-09-09T00:14:29Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving"
       ]
     },
     {
@@ -4328,6 +4348,28 @@
       ]
     },
     {
+      "title": "VLX-VR: An Agentic-Aware Video Reasoning Model",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / adaptive evidence acquisition / agent memory",
+      "arxiv": "2609.09985",
+      "doi": "",
+      "official_id": "arXiv:2609.09985",
+      "paper_url": "https://arxiv.org/abs/2609.09985",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "VLX-VR uses a Think-Memory-Observation loop so a video reasoning model can adaptively acquire evidence, read or write memory, and decide when to terminate rather than relying on fixed-context single-pass processing. It is relevant to adaptive multimodal serving, but the abstract provides quality rather than latency or token-cost measurements.",
+      "published_at": "2026-09-09T10:13:30Z",
+      "updated_at": "2026-09-09T10:13:30Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "UnitBoost: Managing Compound LLM Systems with a Merge Operator, Not a Model",
       "venue": "arXiv 2026",
       "topic": "efficient reasoning/agent systems / compound LLM systems / non-generative orchestration",
@@ -4476,6 +4518,28 @@
       "directions": [
         "GPU Kernel / DSL / Compiler",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Agentic AI-enabled Semantic Commissioning of a Cognitive Digital Twin for Reconfigurable Manufacturing",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / industrial agents / runtime orchestration",
+      "arxiv": "2609.09503",
+      "doi": "",
+      "official_id": "arXiv:2609.09503",
+      "paper_url": "https://arxiv.org/abs/2609.09503",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "A LangGraph multi-agent workflow combines RAG and MCP-based telemetry binding for a robotic machining cell and reports reducing commissioning from several weeks to about two hours. It is strong workflow-efficiency evidence for industrial Physical AI, but the gain is deployment-process automation rather than model inference acceleration.",
+      "published_at": "2026-09-08T22:34:38Z",
+      "updated_at": "2026-09-08T22:34:38Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -5856,6 +5920,27 @@
       "directions": [
         "KV Cache / Long Context",
         "Efficient Attention"
+      ]
+    },
+    {
+      "title": "Mathematical Modeling of a Cognitive Continuum Digital Shadow for Large-Scale, Cross-Facility Workflows",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / cross-facility scheduling / cost-energy optimization",
+      "arxiv": "2609.07275",
+      "doi": "",
+      "official_id": "arXiv:2609.07275",
+      "paper_url": "https://arxiv.org/abs/2609.07275",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "The Cognitive Continuum Digital Shadow models cross-facility instruments, networks, storage and compute with stochastic optimization to expose cost, makespan and energy trade-offs before execution. It is relevant heterogeneous-infrastructure scheduling evidence, but this first paper is primarily a mathematical formulation rather than measured AI-serving acceleration.",
+      "published_at": "2026-09-07T09:37:09Z",
+      "updated_at": "2026-09-07T09:37:09Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -7904,6 +7989,27 @@
         "LLM Serving",
         "Sparsity / Pruning",
         "MoE Systems / Accelerators"
+      ]
+    },
+    {
+      "title": "Dynamic Adaptation of the LLM Context for Generating Routines with Coupled Semantics",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / dynamic context / sample-efficient search",
+      "arxiv": "2609.04570",
+      "doi": "",
+      "official_id": "arXiv:2609.04570",
+      "paper_url": "https://arxiv.org/abs/2609.04570",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "A validation agent converts execution traces into structured diagnostics that dynamically adapt generation context, outperforming Reflexion and OpenEvolve at matched 300-600 evaluation budgets on most tested problems. This is useful sample-efficiency evidence for agentic code search, but not a direct serving accelerator.",
+      "published_at": "2026-09-03T23:56:18Z",
+      "updated_at": "2026-09-03T23:56:18Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -15708,6 +15814,26 @@
       ]
     },
     {
+      "title": "TEFM: Token-Efficient Faithful Modeling for Structured Data",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / token compression / structured-data inference",
+      "arxiv": "2609.09552",
+      "doi": "",
+      "official_id": "arXiv:2609.09552",
+      "paper_url": "https://arxiv.org/abs/2609.09552",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "TEFM compresses structured observations into compact Behavioral Code tokens and reports roughly 1% token retention in clinical tasks and 2% in security tasks while maintaining competitive classification accuracy. The 98-99% prompt-token reduction is a direct, architecture-agnostic serving-efficiency signal despite the application domains.",
+      "published_at": "2026-09-09T00:14:29Z",
+      "updated_at": "2026-09-09T00:14:29Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving"
+      ]
+    },
+    {
       "title": "FPGA Acceleration of Fully Homomorphic Encryption with Adaptive Key Switching",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI systems / privacy-preserving inference / FPGA acceleration",
@@ -19501,6 +19627,28 @@
       ]
     },
     {
+      "title": "VLX-VR: An Agentic-Aware Video Reasoning Model",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / adaptive evidence acquisition / agent memory",
+      "arxiv": "2609.09985",
+      "doi": "",
+      "official_id": "arXiv:2609.09985",
+      "paper_url": "https://arxiv.org/abs/2609.09985",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "VLX-VR uses a Think-Memory-Observation loop so a video reasoning model can adaptively acquire evidence, read or write memory, and decide when to terminate rather than relying on fixed-context single-pass processing. It is relevant to adaptive multimodal serving, but the abstract provides quality rather than latency or token-cost measurements.",
+      "published_at": "2026-09-09T10:13:30Z",
+      "updated_at": "2026-09-09T10:13:30Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "UnitBoost: Managing Compound LLM Systems with a Merge Operator, Not a Model",
       "venue": "arXiv 2026",
       "topic": "efficient reasoning/agent systems / compound LLM systems / non-generative orchestration",
@@ -19649,6 +19797,28 @@
       "directions": [
         "GPU Kernel / DSL / Compiler",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Agentic AI-enabled Semantic Commissioning of a Cognitive Digital Twin for Reconfigurable Manufacturing",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / industrial agents / runtime orchestration",
+      "arxiv": "2609.09503",
+      "doi": "",
+      "official_id": "arXiv:2609.09503",
+      "paper_url": "https://arxiv.org/abs/2609.09503",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "A LangGraph multi-agent workflow combines RAG and MCP-based telemetry binding for a robotic machining cell and reports reducing commissioning from several weeks to about two hours. It is strong workflow-efficiency evidence for industrial Physical AI, but the gain is deployment-process automation rather than model inference acceleration.",
+      "published_at": "2026-09-08T22:34:38Z",
+      "updated_at": "2026-09-08T22:34:38Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -21029,6 +21199,27 @@
       "directions": [
         "KV Cache / Long Context",
         "Efficient Attention"
+      ]
+    },
+    {
+      "title": "Mathematical Modeling of a Cognitive Continuum Digital Shadow for Large-Scale, Cross-Facility Workflows",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / cross-facility scheduling / cost-energy optimization",
+      "arxiv": "2609.07275",
+      "doi": "",
+      "official_id": "arXiv:2609.07275",
+      "paper_url": "https://arxiv.org/abs/2609.07275",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "The Cognitive Continuum Digital Shadow models cross-facility instruments, networks, storage and compute with stochastic optimization to expose cost, makespan and energy trade-offs before execution. It is relevant heterogeneous-infrastructure scheduling evidence, but this first paper is primarily a mathematical formulation rather than measured AI-serving acceleration.",
+      "published_at": "2026-09-07T09:37:09Z",
+      "updated_at": "2026-09-07T09:37:09Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -23077,6 +23268,27 @@
         "LLM Serving",
         "Sparsity / Pruning",
         "MoE Systems / Accelerators"
+      ]
+    },
+    {
+      "title": "Dynamic Adaptation of the LLM Context for Generating Routines with Coupled Semantics",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / dynamic context / sample-efficient search",
+      "arxiv": "2609.04570",
+      "doi": "",
+      "official_id": "arXiv:2609.04570",
+      "paper_url": "https://arxiv.org/abs/2609.04570",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "A validation agent converts execution traces into structured diagnostics that dynamically adapt generation context, outperforming Reflexion and OpenEvolve at matched 300-600 evaluation budgets on most tested problems. This is useful sample-efficiency evidence for agentic code search, but not a direct serving accelerator.",
+      "published_at": "2026-09-03T23:56:18Z",
+      "updated_at": "2026-09-03T23:56:18Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents"
       ]
     },
     {

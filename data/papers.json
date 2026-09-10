@@ -7509,6 +7509,26 @@
     ]
   },
   {
+    "title": "TEFM: Token-Efficient Faithful Modeling for Structured Data",
+    "venue": "arXiv 2026",
+    "topic": "LLM serving / token compression / structured-data inference",
+    "arxiv": "2609.09552",
+    "doi": "",
+    "official_id": "arXiv:2609.09552",
+    "paper_url": "https://arxiv.org/abs/2609.09552",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "TEFM compresses structured observations into compact Behavioral Code tokens and reports roughly 1% token retention in clinical tasks and 2% in security tasks while maintaining competitive classification accuracy. The 98-99% prompt-token reduction is a direct, architecture-agnostic serving-efficiency signal despite the application domains.",
+    "published_at": "2026-09-09T00:14:29Z",
+    "updated_at": "2026-09-09T00:14:29Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving"
+    ]
+  },
+  {
     "title": "TFTrack: A Template-Free Framework for Efficient 3D Point Cloud Tracking",
     "venue": "arXiv 2026",
     "topic": "VLA/WAM/Physical AI serving / efficient perception / 3D tracking",
