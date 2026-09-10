@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-10",
   "window_start_beijing": "2026-08-11",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 580,
+  "tracked_total": 584,
   "p0_strong_or_canonical": [
     {
       "title": "Distributed Linear Programming on GPU Clusters at Extreme Scale",
@@ -4529,6 +4529,27 @@
       ]
     },
     {
+      "title": "Diagnosing and Dynamically Filtering Occupancy World Models for Active Mapping",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / world-model runtime / active mapping / occupancy filtering",
+      "arxiv": "2609.06820",
+      "doi": "",
+      "official_id": "arXiv:2609.06820",
+      "paper_url": "https://arxiv.org/abs/2609.06820",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI/world-model work that isolates how occupancy completion errors alter both exploration choices and motion feasibility, then studies dynamic filtering of learned occupancy for active mapping. The planner is held fixed so the effect of the world-model representation is attributable, making this useful for world-model runtime reliability and selective-use policies. It does not present a direct serving or compute speedup metric in the primary abstract, so it remains high-value watch.",
+      "published_at": "2026-09-06T20:29:17Z",
+      "updated_at": "2026-09-06T20:29:17Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "BLINK: Batch Normalization-based Integrity Checkpoints for In-Situ Detection and Mitigation of Diverse Weight Corruptions in DNN Accelerators",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI systems / accelerator reliability / runtime",
@@ -4790,6 +4811,49 @@
       ]
     },
     {
+      "title": "LoGIC: Budgeted Context Construction for Node-Level Graph In-Context Learning with Tabular Foundation Models",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / efficient attention / context budgeting / graph in-context learning",
+      "arxiv": "2609.05955",
+      "doi": "",
+      "official_id": "arXiv:2609.05955",
+      "paper_url": "https://arxiv.org/abs/2609.05955",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "LoGIC targets the quadratic attention, preprocessing, and memory bottlenecks caused by using the full labeled training table as graph-ICL context. It allocates labeled-context and unlabeled-halo budgets, shares context within graph-local query clusters, and reports markedly lower peak memory while preserving locally runnable full-context performance and enabling frozen graph ICL on million-node graphs. The primary abstract lacks an exact latency or memory-reduction factor, so it remains high-value watch.",
+      "published_at": "2026-09-05T07:43:30Z",
+      "updated_at": "2026-09-05T07:43:30Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Attention",
+        "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "Rethinking the Evaluation of Efficiency Methods for Multi-Agent Systems",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / multi-agent efficiency / evaluation methodology",
+      "arxiv": "2609.05933",
+      "doi": "",
+      "official_id": "arXiv:2609.05933",
+      "paper_url": "https://arxiv.org/abs/2609.05933",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Directly audits claimed efficiency gains in LLM multi-agent systems under a shared backbone, agent registry, runtime, topology, scale, depth, and tool-use controls. It shows that apparent gains can come from structural collapse, disabled tool pathways, or weak starting systems where random pruning already preserves accuracy. This is important for evaluating agent-efficiency papers, but it is primarily a diagnostic benchmark rather than a new acceleration method, so it remains high-value watch.",
+      "published_at": "2026-09-05T06:47:38Z",
+      "updated_at": "2026-09-05T06:47:38Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Sparsity / Pruning",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "CR-VLA-Force: Learning Control-aware Compliance VLA Model for Robust Contact-rich Robotic Manipulation",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / multimodal MoE / reactive control",
@@ -4982,6 +5046,28 @@
         "LLM Serving",
         "Quantization",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "A Schema Bounded Language Model for Refining Robot Policies Without Destabilizing Local Learning",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / hierarchical agent runtime / decentralized robot control",
+      "arxiv": "2609.05133",
+      "doi": "",
+      "official_id": "arXiv:2609.05133",
+      "paper_url": "https://arxiv.org/abs/2609.05133",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI runtime work that cleanly separates expensive LLM reasoning from fast local control: LLM inference is confined to round-level policy generation/refinement while a UCB bandit and policy-conditioned Double DQN execute tick-level actions. In the evaluated three-robot simulation, the complete configuration reached all 90 robot-round goals and achieved 42-tick median completion time, 25.0-39.1% lower than alternative configurations. The evidence is simulation-level task efficiency rather than measured inference latency/throughput, so it remains watch.",
+      "published_at": "2026-09-04T13:35:55Z",
+      "updated_at": "2026-09-04T13:35:55Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -17110,6 +17196,27 @@
       ]
     },
     {
+      "title": "Diagnosing and Dynamically Filtering Occupancy World Models for Active Mapping",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / world-model runtime / active mapping / occupancy filtering",
+      "arxiv": "2609.06820",
+      "doi": "",
+      "official_id": "arXiv:2609.06820",
+      "paper_url": "https://arxiv.org/abs/2609.06820",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI/world-model work that isolates how occupancy completion errors alter both exploration choices and motion feasibility, then studies dynamic filtering of learned occupancy for active mapping. The planner is held fixed so the effect of the world-model representation is attributable, making this useful for world-model runtime reliability and selective-use policies. It does not present a direct serving or compute speedup metric in the primary abstract, so it remains high-value watch.",
+      "published_at": "2026-09-06T20:29:17Z",
+      "updated_at": "2026-09-06T20:29:17Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "BLINK: Batch Normalization-based Integrity Checkpoints for In-Situ Detection and Mitigation of Diverse Weight Corruptions in DNN Accelerators",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI systems / accelerator reliability / runtime",
@@ -17371,6 +17478,49 @@
       ]
     },
     {
+      "title": "LoGIC: Budgeted Context Construction for Node-Level Graph In-Context Learning with Tabular Foundation Models",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / efficient attention / context budgeting / graph in-context learning",
+      "arxiv": "2609.05955",
+      "doi": "",
+      "official_id": "arXiv:2609.05955",
+      "paper_url": "https://arxiv.org/abs/2609.05955",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "LoGIC targets the quadratic attention, preprocessing, and memory bottlenecks caused by using the full labeled training table as graph-ICL context. It allocates labeled-context and unlabeled-halo budgets, shares context within graph-local query clusters, and reports markedly lower peak memory while preserving locally runnable full-context performance and enabling frozen graph ICL on million-node graphs. The primary abstract lacks an exact latency or memory-reduction factor, so it remains high-value watch.",
+      "published_at": "2026-09-05T07:43:30Z",
+      "updated_at": "2026-09-05T07:43:30Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Attention",
+        "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "Rethinking the Evaluation of Efficiency Methods for Multi-Agent Systems",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / multi-agent efficiency / evaluation methodology",
+      "arxiv": "2609.05933",
+      "doi": "",
+      "official_id": "arXiv:2609.05933",
+      "paper_url": "https://arxiv.org/abs/2609.05933",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Directly audits claimed efficiency gains in LLM multi-agent systems under a shared backbone, agent registry, runtime, topology, scale, depth, and tool-use controls. It shows that apparent gains can come from structural collapse, disabled tool pathways, or weak starting systems where random pruning already preserves accuracy. This is important for evaluating agent-efficiency papers, but it is primarily a diagnostic benchmark rather than a new acceleration method, so it remains high-value watch.",
+      "published_at": "2026-09-05T06:47:38Z",
+      "updated_at": "2026-09-05T06:47:38Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Sparsity / Pruning",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "CR-VLA-Force: Learning Control-aware Compliance VLA Model for Robust Contact-rich Robotic Manipulation",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / multimodal MoE / reactive control",
@@ -17563,6 +17713,28 @@
         "LLM Serving",
         "Quantization",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "A Schema Bounded Language Model for Refining Robot Policies Without Destabilizing Local Learning",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / hierarchical agent runtime / decentralized robot control",
+      "arxiv": "2609.05133",
+      "doi": "",
+      "official_id": "arXiv:2609.05133",
+      "paper_url": "https://arxiv.org/abs/2609.05133",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI runtime work that cleanly separates expensive LLM reasoning from fast local control: LLM inference is confined to round-level policy generation/refinement while a UCB bandit and policy-conditioned Double DQN execute tick-level actions. In the evaluated three-robot simulation, the complete configuration reached all 90 robot-round goals and achieved 42-tick median completion time, 25.0-39.1% lower than alternative configurations. The evidence is simulation-level task efficiency rather than measured inference latency/throughput, so it remains watch.",
+      "published_at": "2026-09-04T13:35:55Z",
+      "updated_at": "2026-09-04T13:35:55Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
