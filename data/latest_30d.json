@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-10",
   "window_start_beijing": "2026-08-11",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 576,
+  "tracked_total": 580,
   "p0_strong_or_canonical": [
     {
       "title": "Distributed Linear Programming on GPU Clusters at Extreme Scale",
@@ -4636,6 +4636,26 @@
       ]
     },
     {
+      "title": "Query-Oblivious Coresets for Softmax Attention: Improved Bounds and Efficient Constructions",
+      "venue": "arXiv 2026",
+      "topic": "efficient attention / attention coresets / theory",
+      "arxiv": "2609.06327",
+      "doi": "",
+      "official_id": "arXiv:2609.06327",
+      "paper_url": "https://arxiv.org/abs/2609.06327",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Constructs query-oblivious subsets of key-value pairs that approximate softmax attention uniformly over a query ball, improving coreset-size bounds and giving randomized polynomial-time constructions. This is directly relevant to principled attention compression, but current evidence is theoretical rather than measured accelerator/runtime speedup, so it remains high-value watch.",
+      "published_at": "2026-09-06T01:23:58Z",
+      "updated_at": "2026-09-06T01:23:58Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Attention"
+      ]
+    },
+    {
       "title": "MobileVLA-R1 2.0: RL-Enhanced Reasoning for Mobile Robot Control",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / mobile robot control / reasoning-action decoupling",
@@ -4920,6 +4940,26 @@
         "LLM Serving",
         "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Compression Beyond the Uncompressed: A Two-Stage Training Recipe for Soft Context Compression in RAG",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / RAG / soft context compression / inference efficiency",
+      "arxiv": "2609.05157",
+      "doi": "",
+      "official_id": "arXiv:2609.05157",
+      "paper_url": "https://arxiv.org/abs/2609.05157",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "DEX-Comp directly targets the inference overhead of long retrieved contexts by encoding documents into substantially shorter embedding sequences. Its two-stage recipe first distills correct uncompressed-RAG behavior, then uses RL only on cases the uncompressed system fails. This is highly relevant to serving efficiency, but the primary abstract emphasizes QA quality across retrieval depths and does not provide a measured latency/throughput or token-cost reduction, so it remains high-value watch.",
+      "published_at": "2026-09-04T13:58:19Z",
+      "updated_at": "2026-09-04T13:58:19Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving"
       ]
     },
     {
@@ -5614,6 +5654,29 @@
       ]
     },
     {
+      "title": "OctWorld: Long-Range World-Consistent Video Generation with Octree-Based 3D Mapping",
+      "venue": "arXiv 2026",
+      "topic": "video/image generation acceleration / world models / sparse 3D memory",
+      "arxiv": "2609.03919",
+      "doi": "",
+      "official_id": "arXiv:2609.03919",
+      "paper_url": "https://arxiv.org/abs/2609.03919",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "OctWorld adds a persistent OctMap memory using TSDF fusion in a dynamic sparse octree to stabilize long-range autoregressive video world generation under revisits. The sparse adaptive 3D memory is structurally relevant to efficient world-model generation, but the primary abstract does not report a concrete latency, throughput, or memory reduction, so it remains high-value watch.",
+      "published_at": "2026-09-03T14:35:38Z",
+      "updated_at": "2026-09-03T14:35:38Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "GPU Kernel / DSL / Compiler",
+        "Video / Image Generation"
+      ]
+    },
+    {
       "title": "FWBC-VLA: Force-Aware Whole-Body Compensation for Contact-Rich Loco-Manipulation",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / contact-rich manipulation / action decoding / whole-body control",
@@ -5893,6 +5956,27 @@
       "directions": [
         "LLM Serving",
         "Quantization",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Real-Time Shape Control of Multi-Segment Soft Robotic Arms Using Koopman Operators with Global and Local Observables",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / real-time robot control / model-based runtime",
+      "arxiv": "2609.03175",
+      "doi": "",
+      "official_id": "arXiv:2609.03175",
+      "paper_url": "https://arxiv.org/abs/2609.03175",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI runtime work: a Koopman-MPC controller combines global and local observables for real-time full-shape control, scales numerically to 10 independently actuated segments, and is physically validated on 3- and 5-segment arms at tip speeds up to 0.6 m/s, with robustness to 400 g payloads and 7 N disturbances. It is a strong real-time control result, but not a serving/computation speedup paper, so it remains watch.",
+      "published_at": "2026-09-02T21:36:13Z",
+      "updated_at": "2026-09-02T21:36:13Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
         "VLA / WAM / Physical AI"
       ]
     },
@@ -17133,6 +17217,26 @@
       ]
     },
     {
+      "title": "Query-Oblivious Coresets for Softmax Attention: Improved Bounds and Efficient Constructions",
+      "venue": "arXiv 2026",
+      "topic": "efficient attention / attention coresets / theory",
+      "arxiv": "2609.06327",
+      "doi": "",
+      "official_id": "arXiv:2609.06327",
+      "paper_url": "https://arxiv.org/abs/2609.06327",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Constructs query-oblivious subsets of key-value pairs that approximate softmax attention uniformly over a query ball, improving coreset-size bounds and giving randomized polynomial-time constructions. This is directly relevant to principled attention compression, but current evidence is theoretical rather than measured accelerator/runtime speedup, so it remains high-value watch.",
+      "published_at": "2026-09-06T01:23:58Z",
+      "updated_at": "2026-09-06T01:23:58Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Attention"
+      ]
+    },
+    {
       "title": "MobileVLA-R1 2.0: RL-Enhanced Reasoning for Mobile Robot Control",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / mobile robot control / reasoning-action decoupling",
@@ -17417,6 +17521,26 @@
         "LLM Serving",
         "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Compression Beyond the Uncompressed: A Two-Stage Training Recipe for Soft Context Compression in RAG",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / RAG / soft context compression / inference efficiency",
+      "arxiv": "2609.05157",
+      "doi": "",
+      "official_id": "arXiv:2609.05157",
+      "paper_url": "https://arxiv.org/abs/2609.05157",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "DEX-Comp directly targets the inference overhead of long retrieved contexts by encoding documents into substantially shorter embedding sequences. Its two-stage recipe first distills correct uncompressed-RAG behavior, then uses RL only on cases the uncompressed system fails. This is highly relevant to serving efficiency, but the primary abstract emphasizes QA quality across retrieval depths and does not provide a measured latency/throughput or token-cost reduction, so it remains high-value watch.",
+      "published_at": "2026-09-04T13:58:19Z",
+      "updated_at": "2026-09-04T13:58:19Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving"
       ]
     },
     {
@@ -18111,6 +18235,29 @@
       ]
     },
     {
+      "title": "OctWorld: Long-Range World-Consistent Video Generation with Octree-Based 3D Mapping",
+      "venue": "arXiv 2026",
+      "topic": "video/image generation acceleration / world models / sparse 3D memory",
+      "arxiv": "2609.03919",
+      "doi": "",
+      "official_id": "arXiv:2609.03919",
+      "paper_url": "https://arxiv.org/abs/2609.03919",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "OctWorld adds a persistent OctMap memory using TSDF fusion in a dynamic sparse octree to stabilize long-range autoregressive video world generation under revisits. The sparse adaptive 3D memory is structurally relevant to efficient world-model generation, but the primary abstract does not report a concrete latency, throughput, or memory reduction, so it remains high-value watch.",
+      "published_at": "2026-09-03T14:35:38Z",
+      "updated_at": "2026-09-03T14:35:38Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "GPU Kernel / DSL / Compiler",
+        "Video / Image Generation"
+      ]
+    },
+    {
       "title": "FWBC-VLA: Force-Aware Whole-Body Compensation for Contact-Rich Loco-Manipulation",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / contact-rich manipulation / action decoding / whole-body control",
@@ -18390,6 +18537,27 @@
       "directions": [
         "LLM Serving",
         "Quantization",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Real-Time Shape Control of Multi-Segment Soft Robotic Arms Using Koopman Operators with Global and Local Observables",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / real-time robot control / model-based runtime",
+      "arxiv": "2609.03175",
+      "doi": "",
+      "official_id": "arXiv:2609.03175",
+      "paper_url": "https://arxiv.org/abs/2609.03175",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI runtime work: a Koopman-MPC controller combines global and local observables for real-time full-shape control, scales numerically to 10 independently actuated segments, and is physically validated on 3- and 5-segment arms at tip speeds up to 0.6 m/s, with robustness to 400 g payloads and 7 N disturbances. It is a strong real-time control result, but not a serving/computation speedup paper, so it remains watch.",
+      "published_at": "2026-09-02T21:36:13Z",
+      "updated_at": "2026-09-02T21:36:13Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
         "VLA / WAM / Physical AI"
       ]
     },
