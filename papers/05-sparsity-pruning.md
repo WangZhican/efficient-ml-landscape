@@ -1,18 +1,22 @@
 # 05 · Sparsity / Pruning
 
-> **268 canonical papers** mapped here, plus a broader **106-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **269 canonical papers** mapped here, plus a broader **110-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 106 tracked
+## 🆕 Latest 30 Days · 110 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **P1 · Watch** | **TRACE: Trajectory-robust Admission with Evidence Ordering for Efficient GUI Agents** | arXiv 2026 | efficient reasoning/agent systems / multimodal serving / KV cache / token pruning | [Link](https://arxiv.org/abs/2609.10297) | — |
+| **P0 · Strong** | **AMEND: Audited Margins Enable Nonblocking Drops in GPU-PIM LLM Decoding** | arXiv 2026 | KV cache/long-context / sparse attention / GPU-PIM / LLM decoding | [Link](https://arxiv.org/abs/2609.09823) | — |
+| **P1 · Watch** | **SymbolicLight V2: Hybrid Neuromorphic Architecture and Sparse Execution for Low-Energy Language Inference** | arXiv 2026 | edge/cloud/heterogeneous AI / sparse inference / FPGA | [Link](https://arxiv.org/abs/2609.09772) | — |
 | **P0 · Strong** | **Epoch: Compiling Diffusion Blocks for Sparse MoE Serving** | arXiv 2026 | MoE systems/accelerators / diffusion language model serving / compiler-runtime | [Link](https://arxiv.org/abs/2609.09748) | — |
 | **P0 · Strong** | **Distributed Linear Programming on GPU Clusters at Extreme Scale** | arXiv 2026 | distributed training/inference / GPU clusters / sparse optimization / communication | [Link](https://arxiv.org/abs/2609.09108) | — |
+| **P1 · Watch** | **DiffLUT-Net: Differentiable Training of FPGA LUT Networks with Learnable Connectivity** | arXiv 2026 | edge/cloud/heterogeneous AI / FPGA / hardware-native networks | [Link](https://arxiv.org/abs/2609.09254) | — |
 | **P1 · Watch** | **Hyperparameter Scaling Laws Across MoE Sparsity** | arXiv 2026 | MoE systems/accelerators / sparse training / scaling laws | [Link](https://arxiv.org/abs/2609.08690) | — |
 | **P0 · Strong** | **Sample-Guided Exact Top-K Selection for Long-Context Sparse Attention** | arXiv 2026 | efficient attention / sparse attention / GPU kernel | [Link](https://arxiv.org/abs/2609.08450) | [Repo](https://github.com/Tencent/hpc-ops) |
+| **P1 · Watch** | **Distribution-Consistent Inference for Dynamic Sparse Mixture-of-Experts** | arXiv 2026 | MoE systems/accelerators / dynamic routing / sparse inference | [Link](https://arxiv.org/abs/2609.09241) | — |
 | **P1 · Watch** | **Do Dynamic Routers Need Memory? HeRo: History-Aware Routing for Efficient LLM Inference** | arXiv 2026 | sparsity/pruning / dynamic layer routing / efficient LLM inference / router memory | [Link](https://arxiv.org/abs/2609.08189) | — |
 | **P1 · Watch** | **Nyström Attention Matches Full Attention for Cross-Sectional Stock Prediction** | arXiv 2026 | efficient attention / low-rank attention / linear-complexity approximation | [Link](https://arxiv.org/abs/2609.08106) | — |
 | **P1 · Watch** | **Anti-Gravity Walking by a Flying Humanoid Robot via Thrust-Rate Input Whole-Body Model Predictive Control** | arXiv 2026 | VLA/WAM/Physical AI serving / robot control / real-time MPC / humanoid | [Link](https://arxiv.org/abs/2609.07544) | — |

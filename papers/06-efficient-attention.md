@@ -1,19 +1,23 @@
 # 06 · Efficient Attention
 
-> **244 canonical papers** mapped here, plus a broader **74-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **248 canonical papers** mapped here, plus a broader **79-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 74 tracked
+## 🆕 Latest 30 Days · 79 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
+| **P1 · Watch** | **PASCAL: A Phase-Aware Shared-Cache Model for Parallel Scans** | arXiv 2026 | GPU kernel/DSL/compilers / cache modeling / AI accelerators | [Link](https://arxiv.org/abs/2609.10515) | — |
+| **P0 · Strong** | **AMEND: Audited Margins Enable Nonblocking Drops in GPU-PIM LLM Decoding** | arXiv 2026 | KV cache/long-context / sparse attention / GPU-PIM / LLM decoding | [Link](https://arxiv.org/abs/2609.09823) | — |
+| **P0 · Strong** | **Fine-Tuning a KV Cache Concatenation-Aware Model or Recomputing KV Caches? Why Not Both?** | arXiv 2026 | KV cache/long-context / RAG serving / prefill acceleration | [Link](https://arxiv.org/abs/2609.09768) | — |
 | **P0 · Strong** | **EFQ-Softmax: Exp-Free Quantization for Softmax** | arXiv 2026 | quantization / efficient attention / low-bit inference kernels | [Link](https://arxiv.org/abs/2609.09721) | — |
 | **P1 · Watch** | **It's Not RoPE that Creates Sinks: The Role of Self-Concentration and Value-Non-Mixing in Attention** | arXiv 2026 | quantization / attention / massive activations / low-bit robustness | [Link](https://arxiv.org/abs/2609.09085) | — |
 | **P1 · Watch** | **CoordFormer: Give Me Any Coordinates and I Will Give You Labels** | arXiv 2026 | efficient attention / high-resolution inference / edge-cloud vision | [Link](https://arxiv.org/abs/2609.08660) | — |
 | **P1 · Watch** | **TriCCOT: Tri-part Convolutional Conformal Transformer for Onboard Space Object Detection** | arXiv 2026 | edge/cloud/heterogeneous AI systems / FPGA / efficient attention | [Link](https://arxiv.org/abs/2609.08659) | — |
 | **P0 · Strong** | **Sample-Guided Exact Top-K Selection for Long-Context Sparse Attention** | arXiv 2026 | efficient attention / sparse attention / GPU kernel | [Link](https://arxiv.org/abs/2609.08450) | [Repo](https://github.com/Tencent/hpc-ops) |
 | **P0 · Strong** | **SequenceO1: End-to-End Ultra-Long (100K) Sequence Modeling in Recommendation with Low-Rank Caching** | arXiv 2026 | LLM/recommendation serving / ultra-long sequence / low-rank caching / fused kernel | [Link](https://arxiv.org/abs/2609.08443) | — |
+| **P0 · Strong** | **AttnCompress: Dynamic Attention-Guided Trajectory Compression for Software Engineering Agents** | arXiv 2026 | efficient reasoning/agent systems / context compression / agent serving | [Link](https://arxiv.org/abs/2609.08318) | — |
 | **P1 · Watch** | **Do Dynamic Routers Need Memory? HeRo: History-Aware Routing for Efficient LLM Inference** | arXiv 2026 | sparsity/pruning / dynamic layer routing / efficient LLM inference / router memory | [Link](https://arxiv.org/abs/2609.08189) | — |
 | **P1 · Watch** | **Jacap: Robust KV Cache Eviction via Jacobian-Based Nonlinear Information Capacity Preservation** | arXiv 2026 | KV cache/long-context / eviction / information geometry / cache compression | [Link](https://arxiv.org/abs/2609.08131) | — |
 | **P1 · Watch** | **Nyström Attention Matches Full Attention for Cross-Sectional Stock Prediction** | arXiv 2026 | efficient attention / low-rank attention / linear-complexity approximation | [Link](https://arxiv.org/abs/2609.08106) | — |
@@ -24,6 +28,7 @@
 | **P0 · Strong** | **Online Draft Co-Training for Speculative Decoding in Large-Scale, Long-Context RL Post-Training** | arXiv 2026 | speculative decoding / RL post-training / context parallelism / pipeline parallelism | [Link](https://arxiv.org/abs/2609.07108) | [Repo](https://github.com/NVIDIA-NeMo/RL) |
 | **P0 · Strong** | **RoLA: Rotary-Positioned Low-Rank Linear Attention for Efficient Diffusion Transformers** | arXiv 2026 | video/image generation acceleration / diffusion/flow acceleration / efficient attention | [Link](https://arxiv.org/abs/2609.06712) | — |
 | **P1 · Watch** | **Query-Oblivious Coresets for Softmax Attention: Improved Bounds and Efficient Constructions** | arXiv 2026 | efficient attention / attention coresets / theory | [Link](https://arxiv.org/abs/2609.06327) | — |
+| **P0 · Strong** | **Shift-Accumulate Attention: Multiplier-Free Query--Key Products for Transformer Decoding** | arXiv 2026 | quantization / efficient attention / KV cache / GPU kernels | [Link](https://arxiv.org/abs/2609.09208) | — |
 | **P1 · Watch** | **LoGIC: Budgeted Context Construction for Node-Level Graph In-Context Learning with Tabular Foundation Models** | arXiv 2026 | LLM serving / efficient attention / context budgeting / graph in-context learning | [Link](https://arxiv.org/abs/2609.05955) | — |
 | **P0 · Strong** | **STAR-Pro: Stage-Wise Token Adaptive Reduction with Progressive Refinement for Efficient Large Vision-Language Models** | arXiv 2026 | multimodal/MLLM serving / visual token pruning / adaptive compute | [Link](https://arxiv.org/abs/2609.05916) | [Repo](https://github.com/EasonAI-5589/starpro) |
 | **P0 · Strong** | **Intra-Prompt Parallel Decoding for Common-Context Question Answering** | arXiv 2026 | LLM serving / parallel decoding / shared-context inference | [Link](https://arxiv.org/abs/2609.05707) | — |

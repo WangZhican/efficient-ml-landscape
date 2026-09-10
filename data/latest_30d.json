@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-10",
   "window_start_beijing": "2026-08-11",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 585,
+  "tracked_total": 602,
   "p0_strong_or_canonical": [
     {
       "title": "PACE: Perceived-Latency-Aware Cascading Service Routing and Filler Control for QoE-Efficient Retrieval-Augmented Dialogue Serving",
@@ -24,6 +24,97 @@
         "LLM Serving",
         "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "AMEND: Audited Margins Enable Nonblocking Drops in GPU-PIM LLM Decoding",
+      "venue": "arXiv 2026",
+      "topic": "KV cache/long-context / sparse attention / GPU-PIM / LLM decoding",
+      "arxiv": "2609.09823",
+      "doi": "",
+      "official_id": "arXiv:2609.09823",
+      "paper_url": "https://arxiv.org/abs/2609.09823",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Predicts block-sparse attention decisions from audited prior-step margins so the GPU fetches only predicted survivors while near-bank PIM concurrently checks omitted blocks, avoiding a serial selector on the token critical path. Across LongBench/RULER simulation at batch 8 it preserves near-baseline quality and reports 1.40-3.63x end-to-end decode speedup with 28-66% lower dynamic decode energy over 8K-64K contexts.",
+      "published_at": "2026-09-09T07:25:14Z",
+      "updated_at": "2026-09-09T07:25:14Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Sparsity / Pruning",
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "InstantMimic: A High Performance System for Learning Physics-based Skills in Seconds",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI / GPU systems / robotics training",
+      "arxiv": "2609.09821",
+      "doi": "",
+      "official_id": "arXiv:2609.09821",
+      "paper_url": "https://arxiv.org/abs/2609.09821",
+      "code_url": "https://scripter36.github.io/InstantMimic/",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "SIGGRAPH Asia 2026 system that removes fragmented-kernel and CPU-memory bottlenecks by making simulation, environment computation, policy inference, and policy updates one GPU-native execution flow. The resulting end-to-end pipeline trains diverse physics-based imitation skills in seconds and makes LLM-agent hyperparameter search practical; directly relevant to efficient Physical-AI training/runtime systems.",
+      "published_at": "2026-09-09T07:23:51Z",
+      "updated_at": "2026-09-09T07:23:51Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "HBFSim: Fast and Faithful Simulation of High-Bandwidth Flash Under Real GPU Execution",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / GPU memory hierarchy / simulation / HBF",
+      "arxiv": "2609.09800",
+      "doi": "",
+      "official_id": "arXiv:2609.09800",
+      "paper_url": "https://arxiv.org/abs/2609.09800",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "First evaluation platform applying High-Bandwidth-Flash timing, capacity, and thermal effects while a real LLM workload executes on real GPU kernels, using PTX rewriting and launch gating. It preserves unmodified vLLM/Qwen3-30B-A3B token outputs, matches all six device calibration breakpoints, and its device fast path runs the evaluated case in 2s versus 44s for the detailed reference path (20.8x), enabling practical pre-silicon memory-tier studies.",
+      "published_at": "2026-09-09T06:51:45Z",
+      "updated_at": "2026-09-09T06:51:45Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Fine-Tuning a KV Cache Concatenation-Aware Model or Recomputing KV Caches? Why Not Both?",
+      "venue": "arXiv 2026",
+      "topic": "KV cache/long-context / RAG serving / prefill acceleration",
+      "arxiv": "2609.09768",
+      "doi": "",
+      "official_id": "arXiv:2609.09768",
+      "paper_url": "https://arxiv.org/abs/2609.09768",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Combines KV-concatenation-aware fine-tuning with selective KV recomputation for long-context RAG. On RULER at 124k tokens it improves score by 9.7 points over recompute-only while reducing TTFT by 80% versus full attention, directly addressing the quality-efficiency tradeoff in reusable KV caches.",
+      "published_at": "2026-09-09T06:12:39Z",
+      "updated_at": "2026-09-09T06:12:39Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Efficient Attention"
       ]
     },
     {
@@ -93,6 +184,28 @@
         "LLM Serving",
         "Speculative Decoding",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "UNISON: A Co-Designed Near-Memory Scheduler of Session KV Residency for LLM Agents",
+      "venue": "arXiv 2026",
+      "topic": "KV cache/long-context / agent serving / near-memory scheduling",
+      "arxiv": "2609.09643",
+      "doi": "",
+      "official_id": "arXiv:2609.09643",
+      "paper_url": "https://arxiv.org/abs/2609.09643",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Co-designs session-level KV eviction and tiering for tool-using agent loops via a near-memory scheduler. Across 1,415 sessions and 33,596 turns, the joint policy is best non-oracle on every trace, improves hit rate by 0.3-23.1%, lowers AMAT by 22-51%, and reduces TTFT by 58-89%; the 28-nm controller is 0.169 mm^2 at 13.6 mW.",
+      "published_at": "2026-09-09T02:58:40Z",
+      "updated_at": "2026-09-09T02:58:40Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -311,6 +424,28 @@
         "Efficient Attention",
         "GPU Kernel / DSL / Compiler",
         "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "AttnCompress: Dynamic Attention-Guided Trajectory Compression for Software Engineering Agents",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / context compression / agent serving",
+      "arxiv": "2609.08318",
+      "doi": "",
+      "official_id": "arXiv:2609.08318",
+      "paper_url": "https://arxiv.org/abs/2609.08318",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "ISSTA 2026 dynamic trajectory compression uses structure-aware segmentation, proxy-attention relevance, and a rolling recall window. On SWE-Bench-Verified and Multi-SWE-Bench it reaches 53.17% pass rate while cutting token consumption by 21.6% and total cost by 33.6%, a measured agent-serving efficiency gain without sacrificing task quality.",
+      "published_at": "2026-09-08T06:42:24Z",
+      "updated_at": "2026-09-08T06:42:24Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Efficient Attention",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -1054,6 +1189,29 @@
       ]
     },
     {
+      "title": "Shift-Accumulate Attention: Multiplier-Free Query--Key Products for Transformer Decoding",
+      "venue": "arXiv 2026",
+      "topic": "quantization / efficient attention / KV cache / GPU kernels",
+      "arxiv": "2609.09208",
+      "doi": "",
+      "official_id": "arXiv:2609.09208",
+      "paper_url": "https://arxiv.org/abs/2609.09208",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Signed power-of-two KV coding turns QK products into sign/shift/integer accumulation and also uses shift-exact online softmax and log-quantized AV. Fused RTX 4090 kernels report 4.60x speedup over FP16 SDPA at B=8,T=32k with 2.5x smaller KV cache; an iso-storage control isolates 2.02x arithmetic benefit, while the paper explicitly notes matched INT8 MAC can be faster on current GPU hardware.",
+      "published_at": "2026-09-05T21:14:28Z",
+      "updated_at": "2026-09-05T21:14:28Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "KV Cache / Long Context",
+        "Quantization",
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
       "title": "GloVLA: Let Geometry Move and Local VLA Interact for Robust Object-Centric Manipulation in Unstructured Environments",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / hybrid control / inference reduction",
@@ -1266,6 +1424,26 @@
       "directions": [
         "GPU Kernel / DSL / Compiler",
         "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "Accelerating Diffusion Transformers with Gaussian Process Rectified Feature Cache",
+      "venue": "arXiv 2026",
+      "topic": "diffusion/flow acceleration / feature caching / adaptive compute",
+      "arxiv": "2609.05981",
+      "doi": "",
+      "official_id": "arXiv:2609.05981",
+      "paper_url": "https://arxiv.org/abs/2609.05981",
+      "code_url": "https://github.com/LeapLabTHU/GP-Cache",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "ECCV 2026 plug-and-play GP-Refiner corrects prediction-based feature caches with Gaussian-process uncertainty and adaptively triggers full-compute calibration. Combined with TaylorSeer it reduces computational load by 19.3% while improving PSNR by 0.9 dB and reducing LPIPS from 0.46 to 0.29, giving a direct quality-efficiency improvement.",
+      "published_at": "2026-09-05T08:54:54Z",
+      "updated_at": "2026-09-05T08:54:54Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Diffusion / Flow Acceleration"
       ]
     },
     {
@@ -3406,6 +3584,97 @@
   ],
   "p1_watchlist": [
     {
+      "title": "Show-Harness: Just a VLM Agent Can Play Robots",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI / VLM agents / robot interface / low-cost deployment",
+      "arxiv": "2609.10522",
+      "doi": "",
+      "official_id": "arXiv:2609.10522",
+      "paper_url": "https://arxiv.org/abs/2609.10522",
+      "code_url": "https://showlab.github.io/Show-Harness/",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Show-Harness exposes compact semantic action units with embodiment-specific deterministic interpreters, allowing frontier VLMs to control robots zero-shot and small open VLMs to adapt with only a few GPU-hours. It generalizes across tasks and embodiments without added model capacity or costly embodiment-specific pretraining, but lacks direct serving latency/throughput measurements, so it remains protected Physical-AI watch.",
+      "published_at": "2026-09-09T17:53:38Z",
+      "updated_at": "2026-09-09T17:53:38Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "PASCAL: A Phase-Aware Shared-Cache Model for Parallel Scans",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / cache modeling / AI accelerators",
+      "arxiv": "2609.10515",
+      "doi": "",
+      "official_id": "arXiv:2609.10515",
+      "paper_url": "https://arxiv.org/abs/2609.10515",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Models progress divergence across multicore parallel scans such as attention K/V reuse and GEMM panel reuse without requiring target traces or cycle timing. On 60 NVIDIA GB10 configurations it reaches 13.84% MAPE versus 44.79% for TileSight and 54.16% for exact symbolic SDCM. Valuable design-space model, but not itself an acceleration mechanism.",
+      "published_at": "2026-09-09T17:48:51Z",
+      "updated_at": "2026-09-09T17:48:51Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "ConvMem: Convolutional Memory for Long-Context Reasoning",
+      "venue": "arXiv 2026",
+      "topic": "KV cache/long-context / efficient reasoning / agent memory",
+      "arxiv": "2609.10441",
+      "doi": "",
+      "official_id": "arXiv:2609.10441",
+      "paper_url": "https://arxiv.org/abs/2609.10441",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Training-free hierarchical-convolution memory shortens sequential segment processing to a logarithmic tree and exposes parallelism across text segments and reasoning threads. It improves RULER HotpotQA/2WikiMultiHopQA over training-free baselines, but the primary evidence gives no measured latency, throughput, or token-cost reduction, so it stays high-value watch.",
+      "published_at": "2026-09-09T16:53:02Z",
+      "updated_at": "2026-09-09T16:53:02Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Frequency-Conditioned Flow Matching for Vision-Language-Action Models",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI / flow matching / action generation",
+      "arxiv": "2609.10405",
+      "doi": "",
+      "official_id": "arXiv:2609.10405",
+      "paper_url": "https://arxiv.org/abs/2609.10405",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "FreqFM makes action frequency an explicit conditioning dimension for flow-matching VLA action experts using DCT-space source matching, frequency-balanced objectives, and frequency-scaled guidance. It improves LIBERO-Plus by 9.3 points and also validates on six real-robot tasks, but reports algorithmic task gains rather than serving/runtime efficiency, so it is retained as protected Physical-AI watch.",
+      "published_at": "2026-09-09T16:24:40Z",
+      "updated_at": "2026-09-09T16:24:40Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Diffusion / Flow Acceleration",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "TRACE: Trajectory-robust Admission with Evidence Ordering for Efficient GUI Agents",
       "venue": "arXiv 2026",
       "topic": "efficient reasoning/agent systems / multimodal serving / KV cache / token pruning",
@@ -3449,6 +3718,28 @@
         "LLM Serving",
         "KV Cache / Long Context",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "SymbolicLight V2: Hybrid Neuromorphic Architecture and Sparse Execution for Low-Energy Language Inference",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI / sparse inference / FPGA",
+      "arxiv": "2609.09772",
+      "doi": "",
+      "official_id": "arXiv:2609.09772",
+      "paper_url": "https://arxiv.org/abs/2609.09772",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Hybrid neuromorphic language architecture implemented on Alveo U50C and ARM. Same-checkpoint FPGA variants raise decode throughput from 474.6 to 643.2 tok/s and cut gross card energy/token 27.6%; however the deployed checkpoint trails a same-budget dense control in quality, so the paper does not establish equal-quality efficiency and remains watch.",
+      "published_at": "2026-09-09T06:18:49Z",
+      "updated_at": "2026-09-09T06:18:49Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -3599,6 +3890,28 @@
       ]
     },
     {
+      "title": "DiffLUT-Net: Differentiable Training of FPGA LUT Networks with Learnable Connectivity",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI / FPGA / hardware-native networks",
+      "arxiv": "2609.09254",
+      "doi": "",
+      "official_id": "arXiv:2609.09254",
+      "paper_url": "https://arxiv.org/abs/2609.09254",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "FPGA-native networks jointly learn six-input LUT truth tables and sparse connectivity, then export directly to synthesizable Verilog and prune unused logic. It reports favorable accuracy-resource tradeoffs across five benchmarks and releases code, but the abstract provides no exact latency/energy/throughput advantage, so it remains high-value watch.",
+      "published_at": "2026-09-08T15:00:50Z",
+      "updated_at": "2026-09-08T15:00:50Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Tools-CC-Bench: a Benchmark Suite for Collective Communication with Compression in HPC and AI Workloads",
       "venue": "arXiv 2026",
       "topic": "distributed training/inference / collective communication / compression / systems benchmarking",
@@ -3730,6 +4043,28 @@
       ]
     },
     {
+      "title": "Safe Task Planning with Long-Term Graph Memory for Embodied Agents",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI / embodied agents / long-term memory / safety",
+      "arxiv": "2609.08444",
+      "doi": "",
+      "official_id": "arXiv:2609.08444",
+      "paper_url": "https://arxiv.org/abs/2609.08444",
+      "code_url": "https://sites.google.com/view/safemem",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "CoRL 2026 SafeMem maintains a long-term semantic graph under partial observability and uses an LLM risk predictor plus conservatism-modulated replanning. It substantially improves safe success on IS-Bench and a real robot platform, making it a protected Physical-AI memory/safety node, but it reports no serving or compute-efficiency metric.",
+      "published_at": "2026-09-08T08:49:50Z",
+      "updated_at": "2026-09-08T08:49:50Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "RoboCousin: Build Your Own Simulation Playground for Robust Bimanual Robotic Manipulation",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / synthetic data systems / bimanual manipulation",
@@ -3771,6 +4106,28 @@
         "Quantization",
         "GPU Kernel / DSL / Compiler",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Distribution-Consistent Inference for Dynamic Sparse Mixture-of-Experts",
+      "venue": "arXiv 2026",
+      "topic": "MoE systems/accelerators / dynamic routing / sparse inference",
+      "arxiv": "2609.09241",
+      "doi": "",
+      "official_id": "arXiv:2609.09241",
+      "paper_url": "https://arxiv.org/abs/2609.09241",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Findings EMNLP 2026 identifies representation-scale shift when inference-time top-k is reduced and proposes lightweight layer-wise distribution alignment using calibration statistics. It recovers much of the lost quality while preserving dynamic sparse-routing efficiency with negligible overhead, but the primary abstract gives no concrete latency/FLOP/throughput reduction, so it remains watch.",
+      "published_at": "2026-09-08T06:23:07Z",
+      "updated_at": "2026-09-08T06:23:07Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "MoE Systems / Accelerators"
       ]
     },
     {
@@ -4507,6 +4864,28 @@
         "LLM Serving",
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "DFlow: Enabling Verifier Information Flow in Block Diffusion Speculative Decoding",
+      "venue": "arXiv 2026",
+      "topic": "speculative decoding / diffusion language models / verifier reuse",
+      "arxiv": "2609.06498",
+      "doi": "",
+      "official_id": "arXiv:2609.06498",
+      "paper_url": "https://arxiv.org/abs/2609.06498",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "DFlow reuses verifier hidden states from rejected suffix positions across drafting rounds, so spent verifier computation informs later drafts without extra target computation, and self-conditioning teaches that cross-round information flow. It improves draft quality and acceptance length over DFlash on Qwen3, but the primary abstract gives no exact end-to-end throughput or latency speedup, so it remains high-value watch.",
+      "published_at": "2026-09-06T09:25:56Z",
+      "updated_at": "2026-09-06T09:25:56Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Speculative Decoding",
+        "Diffusion / Flow Acceleration"
       ]
     },
     {
@@ -12723,6 +13102,97 @@
       ]
     },
     {
+      "title": "AMEND: Audited Margins Enable Nonblocking Drops in GPU-PIM LLM Decoding",
+      "venue": "arXiv 2026",
+      "topic": "KV cache/long-context / sparse attention / GPU-PIM / LLM decoding",
+      "arxiv": "2609.09823",
+      "doi": "",
+      "official_id": "arXiv:2609.09823",
+      "paper_url": "https://arxiv.org/abs/2609.09823",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Predicts block-sparse attention decisions from audited prior-step margins so the GPU fetches only predicted survivors while near-bank PIM concurrently checks omitted blocks, avoiding a serial selector on the token critical path. Across LongBench/RULER simulation at batch 8 it preserves near-baseline quality and reports 1.40-3.63x end-to-end decode speedup with 28-66% lower dynamic decode energy over 8K-64K contexts.",
+      "published_at": "2026-09-09T07:25:14Z",
+      "updated_at": "2026-09-09T07:25:14Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Sparsity / Pruning",
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "InstantMimic: A High Performance System for Learning Physics-based Skills in Seconds",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI / GPU systems / robotics training",
+      "arxiv": "2609.09821",
+      "doi": "",
+      "official_id": "arXiv:2609.09821",
+      "paper_url": "https://arxiv.org/abs/2609.09821",
+      "code_url": "https://scripter36.github.io/InstantMimic/",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "SIGGRAPH Asia 2026 system that removes fragmented-kernel and CPU-memory bottlenecks by making simulation, environment computation, policy inference, and policy updates one GPU-native execution flow. The resulting end-to-end pipeline trains diverse physics-based imitation skills in seconds and makes LLM-agent hyperparameter search practical; directly relevant to efficient Physical-AI training/runtime systems.",
+      "published_at": "2026-09-09T07:23:51Z",
+      "updated_at": "2026-09-09T07:23:51Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "HBFSim: Fast and Faithful Simulation of High-Bandwidth Flash Under Real GPU Execution",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / GPU memory hierarchy / simulation / HBF",
+      "arxiv": "2609.09800",
+      "doi": "",
+      "official_id": "arXiv:2609.09800",
+      "paper_url": "https://arxiv.org/abs/2609.09800",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "First evaluation platform applying High-Bandwidth-Flash timing, capacity, and thermal effects while a real LLM workload executes on real GPU kernels, using PTX rewriting and launch gating. It preserves unmodified vLLM/Qwen3-30B-A3B token outputs, matches all six device calibration breakpoints, and its device fast path runs the evaluated case in 2s versus 44s for the detailed reference path (20.8x), enabling practical pre-silicon memory-tier studies.",
+      "published_at": "2026-09-09T06:51:45Z",
+      "updated_at": "2026-09-09T06:51:45Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Fine-Tuning a KV Cache Concatenation-Aware Model or Recomputing KV Caches? Why Not Both?",
+      "venue": "arXiv 2026",
+      "topic": "KV cache/long-context / RAG serving / prefill acceleration",
+      "arxiv": "2609.09768",
+      "doi": "",
+      "official_id": "arXiv:2609.09768",
+      "paper_url": "https://arxiv.org/abs/2609.09768",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Combines KV-concatenation-aware fine-tuning with selective KV recomputation for long-context RAG. On RULER at 124k tokens it improves score by 9.7 points over recompute-only while reducing TTFT by 80% versus full attention, directly addressing the quality-efficiency tradeoff in reusable KV caches.",
+      "published_at": "2026-09-09T06:12:39Z",
+      "updated_at": "2026-09-09T06:12:39Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Efficient Attention"
+      ]
+    },
+    {
       "title": "Epoch: Compiling Diffusion Blocks for Sparse MoE Serving",
       "venue": "arXiv 2026",
       "topic": "MoE systems/accelerators / diffusion language model serving / compiler-runtime",
@@ -12789,6 +13259,28 @@
         "LLM Serving",
         "Speculative Decoding",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "UNISON: A Co-Designed Near-Memory Scheduler of Session KV Residency for LLM Agents",
+      "venue": "arXiv 2026",
+      "topic": "KV cache/long-context / agent serving / near-memory scheduling",
+      "arxiv": "2609.09643",
+      "doi": "",
+      "official_id": "arXiv:2609.09643",
+      "paper_url": "https://arxiv.org/abs/2609.09643",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Co-designs session-level KV eviction and tiering for tool-using agent loops via a near-memory scheduler. Across 1,415 sessions and 33,596 turns, the joint policy is best non-oracle on every trace, improves hit rate by 0.3-23.1%, lowers AMAT by 22-51%, and reduces TTFT by 58-89%; the 28-nm controller is 0.169 mm^2 at 13.6 mW.",
+      "published_at": "2026-09-09T02:58:40Z",
+      "updated_at": "2026-09-09T02:58:40Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -13007,6 +13499,28 @@
         "Efficient Attention",
         "GPU Kernel / DSL / Compiler",
         "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "AttnCompress: Dynamic Attention-Guided Trajectory Compression for Software Engineering Agents",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / context compression / agent serving",
+      "arxiv": "2609.08318",
+      "doi": "",
+      "official_id": "arXiv:2609.08318",
+      "paper_url": "https://arxiv.org/abs/2609.08318",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "ISSTA 2026 dynamic trajectory compression uses structure-aware segmentation, proxy-attention relevance, and a rolling recall window. On SWE-Bench-Verified and Multi-SWE-Bench it reaches 53.17% pass rate while cutting token consumption by 21.6% and total cost by 33.6%, a measured agent-serving efficiency gain without sacrificing task quality.",
+      "published_at": "2026-09-08T06:42:24Z",
+      "updated_at": "2026-09-08T06:42:24Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Efficient Attention",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -13750,6 +14264,29 @@
       ]
     },
     {
+      "title": "Shift-Accumulate Attention: Multiplier-Free Query--Key Products for Transformer Decoding",
+      "venue": "arXiv 2026",
+      "topic": "quantization / efficient attention / KV cache / GPU kernels",
+      "arxiv": "2609.09208",
+      "doi": "",
+      "official_id": "arXiv:2609.09208",
+      "paper_url": "https://arxiv.org/abs/2609.09208",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Signed power-of-two KV coding turns QK products into sign/shift/integer accumulation and also uses shift-exact online softmax and log-quantized AV. Fused RTX 4090 kernels report 4.60x speedup over FP16 SDPA at B=8,T=32k with 2.5x smaller KV cache; an iso-storage control isolates 2.02x arithmetic benefit, while the paper explicitly notes matched INT8 MAC can be faster on current GPU hardware.",
+      "published_at": "2026-09-05T21:14:28Z",
+      "updated_at": "2026-09-05T21:14:28Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "KV Cache / Long Context",
+        "Quantization",
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
       "title": "GloVLA: Let Geometry Move and Local VLA Interact for Robust Object-Centric Manipulation in Unstructured Environments",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / hybrid control / inference reduction",
@@ -13962,6 +14499,26 @@
       "directions": [
         "GPU Kernel / DSL / Compiler",
         "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "Accelerating Diffusion Transformers with Gaussian Process Rectified Feature Cache",
+      "venue": "arXiv 2026",
+      "topic": "diffusion/flow acceleration / feature caching / adaptive compute",
+      "arxiv": "2609.05981",
+      "doi": "",
+      "official_id": "arXiv:2609.05981",
+      "paper_url": "https://arxiv.org/abs/2609.05981",
+      "code_url": "https://github.com/LeapLabTHU/GP-Cache",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "ECCV 2026 plug-and-play GP-Refiner corrects prediction-based feature caches with Gaussian-process uncertainty and adaptively triggers full-compute calibration. Combined with TaylorSeer it reduces computational load by 19.3% while improving PSNR by 0.9 dB and reducing LPIPS from 0.46 to 0.29, giving a direct quality-efficiency improvement.",
+      "published_at": "2026-09-05T08:54:54Z",
+      "updated_at": "2026-09-05T08:54:54Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Diffusion / Flow Acceleration"
       ]
     },
     {
@@ -16100,6 +16657,97 @@
       ]
     },
     {
+      "title": "Show-Harness: Just a VLM Agent Can Play Robots",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI / VLM agents / robot interface / low-cost deployment",
+      "arxiv": "2609.10522",
+      "doi": "",
+      "official_id": "arXiv:2609.10522",
+      "paper_url": "https://arxiv.org/abs/2609.10522",
+      "code_url": "https://showlab.github.io/Show-Harness/",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Show-Harness exposes compact semantic action units with embodiment-specific deterministic interpreters, allowing frontier VLMs to control robots zero-shot and small open VLMs to adapt with only a few GPU-hours. It generalizes across tasks and embodiments without added model capacity or costly embodiment-specific pretraining, but lacks direct serving latency/throughput measurements, so it remains protected Physical-AI watch.",
+      "published_at": "2026-09-09T17:53:38Z",
+      "updated_at": "2026-09-09T17:53:38Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "PASCAL: A Phase-Aware Shared-Cache Model for Parallel Scans",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / cache modeling / AI accelerators",
+      "arxiv": "2609.10515",
+      "doi": "",
+      "official_id": "arXiv:2609.10515",
+      "paper_url": "https://arxiv.org/abs/2609.10515",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Models progress divergence across multicore parallel scans such as attention K/V reuse and GEMM panel reuse without requiring target traces or cycle timing. On 60 NVIDIA GB10 configurations it reaches 13.84% MAPE versus 44.79% for TileSight and 54.16% for exact symbolic SDCM. Valuable design-space model, but not itself an acceleration mechanism.",
+      "published_at": "2026-09-09T17:48:51Z",
+      "updated_at": "2026-09-09T17:48:51Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "ConvMem: Convolutional Memory for Long-Context Reasoning",
+      "venue": "arXiv 2026",
+      "topic": "KV cache/long-context / efficient reasoning / agent memory",
+      "arxiv": "2609.10441",
+      "doi": "",
+      "official_id": "arXiv:2609.10441",
+      "paper_url": "https://arxiv.org/abs/2609.10441",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Training-free hierarchical-convolution memory shortens sequential segment processing to a logarithmic tree and exposes parallelism across text segments and reasoning threads. It improves RULER HotpotQA/2WikiMultiHopQA over training-free baselines, but the primary evidence gives no measured latency, throughput, or token-cost reduction, so it stays high-value watch.",
+      "published_at": "2026-09-09T16:53:02Z",
+      "updated_at": "2026-09-09T16:53:02Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Frequency-Conditioned Flow Matching for Vision-Language-Action Models",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI / flow matching / action generation",
+      "arxiv": "2609.10405",
+      "doi": "",
+      "official_id": "arXiv:2609.10405",
+      "paper_url": "https://arxiv.org/abs/2609.10405",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "FreqFM makes action frequency an explicit conditioning dimension for flow-matching VLA action experts using DCT-space source matching, frequency-balanced objectives, and frequency-scaled guidance. It improves LIBERO-Plus by 9.3 points and also validates on six real-robot tasks, but reports algorithmic task gains rather than serving/runtime efficiency, so it is retained as protected Physical-AI watch.",
+      "published_at": "2026-09-09T16:24:40Z",
+      "updated_at": "2026-09-09T16:24:40Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Diffusion / Flow Acceleration",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "TRACE: Trajectory-robust Admission with Evidence Ordering for Efficient GUI Agents",
       "venue": "arXiv 2026",
       "topic": "efficient reasoning/agent systems / multimodal serving / KV cache / token pruning",
@@ -16143,6 +16791,28 @@
         "LLM Serving",
         "KV Cache / Long Context",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "SymbolicLight V2: Hybrid Neuromorphic Architecture and Sparse Execution for Low-Energy Language Inference",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI / sparse inference / FPGA",
+      "arxiv": "2609.09772",
+      "doi": "",
+      "official_id": "arXiv:2609.09772",
+      "paper_url": "https://arxiv.org/abs/2609.09772",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Hybrid neuromorphic language architecture implemented on Alveo U50C and ARM. Same-checkpoint FPGA variants raise decode throughput from 474.6 to 643.2 tok/s and cut gross card energy/token 27.6%; however the deployed checkpoint trails a same-budget dense control in quality, so the paper does not establish equal-quality efficiency and remains watch.",
+      "published_at": "2026-09-09T06:18:49Z",
+      "updated_at": "2026-09-09T06:18:49Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -16293,6 +16963,28 @@
       ]
     },
     {
+      "title": "DiffLUT-Net: Differentiable Training of FPGA LUT Networks with Learnable Connectivity",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI / FPGA / hardware-native networks",
+      "arxiv": "2609.09254",
+      "doi": "",
+      "official_id": "arXiv:2609.09254",
+      "paper_url": "https://arxiv.org/abs/2609.09254",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "FPGA-native networks jointly learn six-input LUT truth tables and sparse connectivity, then export directly to synthesizable Verilog and prune unused logic. It reports favorable accuracy-resource tradeoffs across five benchmarks and releases code, but the abstract provides no exact latency/energy/throughput advantage, so it remains high-value watch.",
+      "published_at": "2026-09-08T15:00:50Z",
+      "updated_at": "2026-09-08T15:00:50Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Tools-CC-Bench: a Benchmark Suite for Collective Communication with Compression in HPC and AI Workloads",
       "venue": "arXiv 2026",
       "topic": "distributed training/inference / collective communication / compression / systems benchmarking",
@@ -16424,6 +17116,28 @@
       ]
     },
     {
+      "title": "Safe Task Planning with Long-Term Graph Memory for Embodied Agents",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI / embodied agents / long-term memory / safety",
+      "arxiv": "2609.08444",
+      "doi": "",
+      "official_id": "arXiv:2609.08444",
+      "paper_url": "https://arxiv.org/abs/2609.08444",
+      "code_url": "https://sites.google.com/view/safemem",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "CoRL 2026 SafeMem maintains a long-term semantic graph under partial observability and uses an LLM risk predictor plus conservatism-modulated replanning. It substantially improves safe success on IS-Bench and a real robot platform, making it a protected Physical-AI memory/safety node, but it reports no serving or compute-efficiency metric.",
+      "published_at": "2026-09-08T08:49:50Z",
+      "updated_at": "2026-09-08T08:49:50Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "RoboCousin: Build Your Own Simulation Playground for Robust Bimanual Robotic Manipulation",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / synthetic data systems / bimanual manipulation",
@@ -16465,6 +17179,28 @@
         "Quantization",
         "GPU Kernel / DSL / Compiler",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Distribution-Consistent Inference for Dynamic Sparse Mixture-of-Experts",
+      "venue": "arXiv 2026",
+      "topic": "MoE systems/accelerators / dynamic routing / sparse inference",
+      "arxiv": "2609.09241",
+      "doi": "",
+      "official_id": "arXiv:2609.09241",
+      "paper_url": "https://arxiv.org/abs/2609.09241",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Findings EMNLP 2026 identifies representation-scale shift when inference-time top-k is reduced and proposes lightweight layer-wise distribution alignment using calibration statistics. It recovers much of the lost quality while preserving dynamic sparse-routing efficiency with negligible overhead, but the primary abstract gives no concrete latency/FLOP/throughput reduction, so it remains watch.",
+      "published_at": "2026-09-08T06:23:07Z",
+      "updated_at": "2026-09-08T06:23:07Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "MoE Systems / Accelerators"
       ]
     },
     {
@@ -17201,6 +17937,28 @@
         "LLM Serving",
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "DFlow: Enabling Verifier Information Flow in Block Diffusion Speculative Decoding",
+      "venue": "arXiv 2026",
+      "topic": "speculative decoding / diffusion language models / verifier reuse",
+      "arxiv": "2609.06498",
+      "doi": "",
+      "official_id": "arXiv:2609.06498",
+      "paper_url": "https://arxiv.org/abs/2609.06498",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "DFlow reuses verifier hidden states from rejected suffix positions across drafting rounds, so spent verifier computation informs later drafts without extra target computation, and self-conditioning teaches that cross-round information flow. It improves draft quality and acceptance length over DFlash on Qwen3, but the primary abstract gives no exact end-to-end throughput or latency speedup, so it remains high-value watch.",
+      "published_at": "2026-09-06T09:25:56Z",
+      "updated_at": "2026-09-06T09:25:56Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Speculative Decoding",
+        "Diffusion / Flow Acceleration"
       ]
     },
     {

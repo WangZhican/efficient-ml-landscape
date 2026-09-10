@@ -2439,6 +2439,26 @@
     ]
   },
   {
+    "title": "Accelerating Diffusion Transformers with Gaussian Process Rectified Feature Cache",
+    "venue": "arXiv 2026",
+    "topic": "diffusion/flow acceleration / feature caching / adaptive compute",
+    "arxiv": "2609.05981",
+    "doi": "",
+    "official_id": "arXiv:2609.05981",
+    "paper_url": "https://arxiv.org/abs/2609.05981",
+    "code_url": "https://github.com/LeapLabTHU/GP-Cache",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "ECCV 2026 plug-and-play GP-Refiner corrects prediction-based feature caches with Gaussian-process uncertainty and adaptively triggers full-compute calibration. Combined with TaylorSeer it reduces computational load by 19.3% while improving PSNR by 0.9 dB and reducing LPIPS from 0.46 to 0.29, giving a direct quality-efficiency improvement.",
+    "published_at": "2026-09-05T08:54:54Z",
+    "updated_at": "2026-09-05T08:54:54Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "AccelMPC: High-Rate, Low-Power FPGA-Accelerated Model Predictive Control for Tiny Drones",
     "venue": "arXiv 2026",
     "topic": "VLA/WAM/Physical AI serving / edge robotics / FPGA acceleration / real-time control",
@@ -2639,6 +2659,31 @@
     ]
   },
   {
+    "title": "AMEND: Audited Margins Enable Nonblocking Drops in GPU-PIM LLM Decoding",
+    "venue": "arXiv 2026",
+    "topic": "KV cache/long-context / sparse attention / GPU-PIM / LLM decoding",
+    "arxiv": "2609.09823",
+    "doi": "",
+    "official_id": "arXiv:2609.09823",
+    "paper_url": "https://arxiv.org/abs/2609.09823",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Predicts block-sparse attention decisions from audited prior-step margins so the GPU fetches only predicted survivors while near-bank PIM concurrently checks omitted blocks, avoiding a serial selector on the token critical path. Across LongBench/RULER simulation at batch 8 it preserves near-baseline quality and reports 1.40-3.63x end-to-end decode speedup with 28-66% lower dynamic decode energy over 8K-64K contexts.",
+    "published_at": "2026-09-09T07:25:14Z",
+    "updated_at": "2026-09-09T07:25:14Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "An Efficient Out-of-Core Tomographic Imaging Framework for Edge Devices",
     "venue": "arXiv 2026",
     "topic": "edge/cloud/heterogeneous AI systems / GPU kernel / mixed precision / out-of-core",
@@ -2836,6 +2881,28 @@
       "LLM Serving",
       "Distributed Training / Inference",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "AttnCompress: Dynamic Attention-Guided Trajectory Compression for Software Engineering Agents",
+    "venue": "arXiv 2026",
+    "topic": "efficient reasoning/agent systems / context compression / agent serving",
+    "arxiv": "2609.08318",
+    "doi": "",
+    "official_id": "arXiv:2609.08318",
+    "paper_url": "https://arxiv.org/abs/2609.08318",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "ISSTA 2026 dynamic trajectory compression uses structure-aware segmentation, proxy-attention relevance, and a rolling recall window. On SWE-Bench-Verified and Multi-SWE-Bench it reaches 53.17% pass rate while cutting token consumption by 21.6% and total cost by 33.6%, a measured agent-serving efficiency gain without sacrificing task quality.",
+    "published_at": "2026-09-08T06:42:24Z",
+    "updated_at": "2026-09-08T06:42:24Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Efficient Attention",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -3649,6 +3716,28 @@
     ]
   },
   {
+    "title": "Fine-Tuning a KV Cache Concatenation-Aware Model or Recomputing KV Caches? Why Not Both?",
+    "venue": "arXiv 2026",
+    "topic": "KV cache/long-context / RAG serving / prefill acceleration",
+    "arxiv": "2609.09768",
+    "doi": "",
+    "official_id": "arXiv:2609.09768",
+    "paper_url": "https://arxiv.org/abs/2609.09768",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Combines KV-concatenation-aware fine-tuning with selective KV recomputation for long-context RAG. On RULER at 124k tokens it improves score by 9.7 points over recompute-only while reducing TTFT by 80% versus full attention, directly addressing the quality-efficiency tradeoff in reusable KV caches.",
+    "published_at": "2026-09-09T06:12:39Z",
+    "updated_at": "2026-09-09T06:12:39Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Attention"
+    ]
+  },
+  {
     "title": "FleetOpt: Analytical Fleet Provisioning for LLM Inference with Compress-and-Route as Implementation Mechanism",
     "venue": "arXiv 2026",
     "topic": "LLM serving / heterogeneous GPU fleet / context-length routing / fleet provisioning",
@@ -4142,6 +4231,28 @@
     ]
   },
   {
+    "title": "HBFSim: Fast and Faithful Simulation of High-Bandwidth Flash Under Real GPU Execution",
+    "venue": "arXiv 2026",
+    "topic": "LLM serving / GPU memory hierarchy / simulation / HBF",
+    "arxiv": "2609.09800",
+    "doi": "",
+    "official_id": "arXiv:2609.09800",
+    "paper_url": "https://arxiv.org/abs/2609.09800",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "First evaluation platform applying High-Bandwidth-Flash timing, capacity, and thermal effects while a real LLM workload executes on real GPU kernels, using PTX rewriting and launch gating. It preserves unmodified vLLM/Qwen3-30B-A3B token outputs, matches all six device calibration breakpoints, and its device fast path runs the evaluated case in 2s versus 44s for the detailed reference path (20.8x), enabling practical pre-silicon memory-tier studies.",
+    "published_at": "2026-09-09T06:51:45Z",
+    "updated_at": "2026-09-09T06:51:45Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "HDA-MoE: Hybrid Parallelism and Dynamic, Adaptive Scheduling for Mixture-of-Experts with 3D Near-Memory Processing",
     "venue": "arXiv 2026",
     "topic": "MoE systems/accelerators / 3D near-memory processing / hybrid parallelism / runtime scheduling",
@@ -4285,6 +4396,28 @@
       "KV Cache / Long Context",
       "Quantization",
       "Efficient Attention"
+    ]
+  },
+  {
+    "title": "InstantMimic: A High Performance System for Learning Physics-based Skills in Seconds",
+    "venue": "arXiv 2026",
+    "topic": "VLA/WAM/Physical AI / GPU systems / robotics training",
+    "arxiv": "2609.09821",
+    "doi": "",
+    "official_id": "arXiv:2609.09821",
+    "paper_url": "https://arxiv.org/abs/2609.09821",
+    "code_url": "https://scripter36.github.io/InstantMimic/",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "SIGGRAPH Asia 2026 system that removes fragmented-kernel and CPU-memory bottlenecks by making simulation, environment computation, policy inference, and policy updates one GPU-native execution flow. The resulting end-to-end pipeline trains diverse physics-based imitation skills in seconds and makes LLM-agent hyperparameter search practical; directly relevant to efficient Physical-AI training/runtime systems.",
+    "published_at": "2026-09-09T07:23:51Z",
+    "updated_at": "2026-09-09T07:23:51Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
     ]
   },
   {
@@ -6302,6 +6435,29 @@
     ]
   },
   {
+    "title": "Shift-Accumulate Attention: Multiplier-Free Query--Key Products for Transformer Decoding",
+    "venue": "arXiv 2026",
+    "topic": "quantization / efficient attention / KV cache / GPU kernels",
+    "arxiv": "2609.09208",
+    "doi": "",
+    "official_id": "arXiv:2609.09208",
+    "paper_url": "https://arxiv.org/abs/2609.09208",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Signed power-of-two KV coding turns QK products into sign/shift/integer accumulation and also uses shift-exact online softmax and log-quantized AV. Fused RTX 4090 kernels report 4.60x speedup over FP16 SDPA at B=8,T=32k with 2.5x smaller KV cache; an iso-storage control isolates 2.02x arithmetic benefit, while the paper explicitly notes matched INT8 MAC can be faster on current GPU hardware.",
+    "published_at": "2026-09-05T21:14:28Z",
+    "updated_at": "2026-09-05T21:14:28Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "KV Cache / Long Context",
+      "Quantization",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "SHIFT: Surface-aware High-speed Integration For TSDFs",
     "venue": "arXiv 2026",
     "topic": "VLA/WAM/Physical AI serving / robotic mapping / memory-efficient runtime",
@@ -6956,6 +7112,28 @@
       "LLM Serving",
       "Quantization",
       "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "UNISON: A Co-Designed Near-Memory Scheduler of Session KV Residency for LLM Agents",
+    "venue": "arXiv 2026",
+    "topic": "KV cache/long-context / agent serving / near-memory scheduling",
+    "arxiv": "2609.09643",
+    "doi": "",
+    "official_id": "arXiv:2609.09643",
+    "paper_url": "https://arxiv.org/abs/2609.09643",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Co-designs session-level KV eviction and tiering for tool-using agent loops via a near-memory scheduler. Across 1,415 sessions and 33,596 turns, the joint policy is best non-oracle on every trace, improves hit rate by 0.3-23.1%, lowers AMAT by 22-51%, and reduces TTFT by 58-89%; the 28-nm controller is 0.169 mm^2 at 13.6 mW.",
+    "published_at": "2026-09-09T02:58:40Z",
+    "updated_at": "2026-09-09T02:58:40Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Reasoning / Agents"
     ]
   },
   {

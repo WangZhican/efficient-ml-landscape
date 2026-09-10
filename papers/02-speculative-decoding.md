@@ -1,16 +1,17 @@
 # 02 · Speculative Decoding
 
-> **205 canonical papers** mapped here, plus a broader **28-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **205 canonical papers** mapped here, plus a broader **29-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 28 tracked
+## 🆕 Latest 30 Days · 29 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **P0 · Strong** | **PELM: Power Efficient On-Device LLM Inference with Speculative Decoding and Dynamic Voltage Frequency Scaling** | arXiv 2026 | LLM serving / speculative decoding / edge inference / energy-aware runtime | [Link](https://arxiv.org/abs/2609.09662) | [Repo](https://github.com/imec-nu/PELM) |
 | **P0 · Strong** | **Osprey: Target-agnostic Pre-training Makes Stronger Drafters in Speculative Decoding** | arXiv 2026 | speculative decoding / LLM inference acceleration / drafter training | [Link](https://arxiv.org/abs/2609.09338) | — |
 | **P0 · Strong** | **Online Draft Co-Training for Speculative Decoding in Large-Scale, Long-Context RL Post-Training** | arXiv 2026 | speculative decoding / RL post-training / context parallelism / pipeline parallelism | [Link](https://arxiv.org/abs/2609.07108) | [Repo](https://github.com/NVIDIA-NeMo/RL) |
+| **P1 · Watch** | **DFlow: Enabling Verifier Information Flow in Block Diffusion Speculative Decoding** | arXiv 2026 | speculative decoding / diffusion language models / verifier reuse | [Link](https://arxiv.org/abs/2609.06498) | — |
 | **P0 · Strong** | **Intra-Prompt Parallel Decoding for Common-Context Question Answering** | arXiv 2026 | LLM serving / parallel decoding / shared-context inference | [Link](https://arxiv.org/abs/2609.05707) | — |
 | **P0 · Strong** | **Don't Drop Dropout: Optimizing Layer Sparsity for Efficient LLM Training and Inference** | ICML 2026 | LLM training efficiency / layer sparsity / early exit / self-speculative decoding | [Link](https://arxiv.org/abs/2609.05275) | — |
 | **P0 · Strong** | **Unlocking Lossless Speedups in LLMs via Discrete Diffusion** | CoRR 2026 | speculative decoding / diffusion language models / parallel decoding / efficient reasoning | [Link](https://arxiv.org/abs/2609.04010) | — |

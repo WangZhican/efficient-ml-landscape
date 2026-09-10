@@ -1,13 +1,14 @@
 # 09 · Distributed Training / Inference
 
-> **334 canonical papers** mapped here, plus a broader **84-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **334 canonical papers** mapped here, plus a broader **85-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 84 tracked
+## 🆕 Latest 30 Days · 85 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
+| **P1 · Watch** | **ConvMem: Convolutional Memory for Long-Context Reasoning** | arXiv 2026 | KV cache/long-context / efficient reasoning / agent memory | [Link](https://arxiv.org/abs/2609.10441) | — |
 | **P0 · Strong** | **Epoch: Compiling Diffusion Blocks for Sparse MoE Serving** | arXiv 2026 | MoE systems/accelerators / diffusion language model serving / compiler-runtime | [Link](https://arxiv.org/abs/2609.09748) | — |
 | **P0 · Strong** | **Distributed Linear Programming on GPU Clusters at Extreme Scale** | arXiv 2026 | distributed training/inference / GPU clusters / sparse optimization / communication | [Link](https://arxiv.org/abs/2609.09108) | — |
 | **P1 · Watch** | **GraphFAS: A Distributed System for Automated Graph Feature Generation and Selection in Industrial Transaction Networks** | arXiv 2026 | distributed training/inference / industrial graph systems / feature pipeline / production deployment | [Link](https://arxiv.org/abs/2609.08970) | — |

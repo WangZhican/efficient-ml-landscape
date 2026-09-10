@@ -1,17 +1,20 @@
 # 12 · Diffusion / Flow Acceleration
 
-> **203 canonical papers** mapped here, plus a broader **37-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **204 canonical papers** mapped here, plus a broader **40-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 37 tracked
+## 🆕 Latest 30 Days · 40 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
+| **P1 · Watch** | **Frequency-Conditioned Flow Matching for Vision-Language-Action Models** | arXiv 2026 | VLA/WAM/Physical AI / flow matching / action generation | [Link](https://arxiv.org/abs/2609.10405) | — |
 | **P0 · Strong** | **Epoch: Compiling Diffusion Blocks for Sparse MoE Serving** | arXiv 2026 | MoE systems/accelerators / diffusion language model serving / compiler-runtime | [Link](https://arxiv.org/abs/2609.09748) | — |
 | **P1 · Watch** | **Marigold V2: Revisiting Diffusion Transformers for Monocular Depth Estimation** | arXiv 2026 | diffusion/flow acceleration / dense vision / single-step inference | [Link](https://arxiv.org/abs/2609.08084) | [Repo](https://hf.co/spaces/huawei-bayerlab/marigold-v2-web) |
 | **P0 · Strong** | **RoLA: Rotary-Positioned Low-Rank Linear Attention for Efficient Diffusion Transformers** | arXiv 2026 | video/image generation acceleration / diffusion/flow acceleration / efficient attention | [Link](https://arxiv.org/abs/2609.06712) | — |
+| **P1 · Watch** | **DFlow: Enabling Verifier Information Flow in Block Diffusion Speculative Decoding** | arXiv 2026 | speculative decoding / diffusion language models / verifier reuse | [Link](https://arxiv.org/abs/2609.06498) | — |
 | **P0 · Strong** | **TBDub: Production-Oriented Visual Dubbing** | arXiv 2026 | video/image generation acceleration / diffusion/flow acceleration / few-step distillation | [Link](https://arxiv.org/abs/2609.06144) | [Repo](https://github.com/TaoLiveAIGC/TBDub) |
+| **P0 · Strong** | **Accelerating Diffusion Transformers with Gaussian Process Rectified Feature Cache** | arXiv 2026 | diffusion/flow acceleration / feature caching / adaptive compute | [Link](https://arxiv.org/abs/2609.05981) | [Repo](https://github.com/LeapLabTHU/GP-Cache) |
 | **P0 · Strong** | **MedFlow: Class-Aware Multi-Scale Generation for Medical Time-Series Synthesis** | arXiv 2026 | diffusion/flow acceleration / generative inference / sampling throughput / time-series | [Link](https://arxiv.org/abs/2609.04804) | — |
 | **P1 · Watch** | **Diffusion Language Models for Mobile Edge Agentic AI: Foundations, Applications, and Challenges** | arXiv 2026 | efficient reasoning/agent systems / diffusion language models / edge-cloud serving / mobile edge AI | [Link](https://arxiv.org/abs/2609.04778) | — |
 | **P1 · Watch** | **Importance-Aware Low-Rank Distillation of Diffusion Transformers** | arXiv 2026 | diffusion/flow acceleration / model compression | [Link](https://arxiv.org/abs/2609.04646) | — |
