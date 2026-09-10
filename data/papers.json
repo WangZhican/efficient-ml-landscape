@@ -3364,6 +3364,26 @@
     ]
   },
   {
+    "title": "CUA-Universe: A Scalable and Dynamic Environment for Hybrid GUI+CLI Agents",
+    "venue": "arXiv 2026",
+    "topic": "efficient reasoning/agent systems / computer-use agents / GUI+CLI runtime / trajectory efficiency",
+    "arxiv": "2609.05374",
+    "doi": "",
+    "official_id": "arXiv:2609.05374",
+    "paper_url": "https://arxiv.org/abs/2609.05374",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Builds a scalable environment-to-data pipeline for hybrid GUI+CLI computer-use agents and explicitly trains agents toward efficient hybrid paths. Its 9B model improves CUA-Verse by +39.3 score points while reducing steps 37% and tokens 60%; on OSWorld it improves success rate by 16.8 points while reducing steps 57% and tokens 44%. This is direct measured agent-runtime efficiency evidence rather than only an accuracy gain.",
+    "published_at": "2026-09-04T17:26:18Z",
+    "updated_at": "2026-09-04T17:26:18Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "DAMP: Decay-Aware Mixed-Precision Recurrent-State Quantization",
     "venue": "arXiv 2026",
     "topic": "quantization / recurrent-state memory / LLM inference",
@@ -4266,6 +4286,28 @@
     "tracking_tier": "Canonical",
     "directions": [
       "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "GraphDroid: Asynchronous LLM-Based Mobile App GUI Testing via History-Aware Exploration and Hybrid Intent Fulfillment",
+    "venue": "arXiv 2026",
+    "topic": "efficient reasoning/agent systems / asynchronous LLM agents / GUI testing / cost-aware tool use",
+    "arxiv": "2609.10031",
+    "doi": "",
+    "official_id": "arXiv:2609.10031",
+    "paper_url": "https://arxiv.org/abs/2609.10031",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Uses history-aware cluster memory, asynchronous intent generation, and hybrid fulfillment that reserves the LLM for complex intents while routing simple intents to a lightweight heuristic. Across 41 Android apps it achieves up to 36.4% higher code coverage while costing less than one eighth of the best pure-LLM baseline, directly addressing LLM-agent latency and cost.",
+    "published_at": "2026-09-09T11:04:53Z",
+    "updated_at": "2026-09-09T11:04:53Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Distributed Training / Inference",
+      "Efficient Reasoning / Agents",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {

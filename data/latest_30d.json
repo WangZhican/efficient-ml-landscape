@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-10",
   "window_start_beijing": "2026-08-11",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 641,
+  "tracked_total": 648,
   "p0_strong_or_canonical": [
     {
       "title": "HybridFLow: SDN-Orchestrated Client Partitioning for Hybrid Federated Learning",
@@ -153,6 +153,28 @@
       "directions": [
         "Quantization",
         "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "GraphDroid: Asynchronous LLM-Based Mobile App GUI Testing via History-Aware Exploration and Hybrid Intent Fulfillment",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / asynchronous LLM agents / GUI testing / cost-aware tool use",
+      "arxiv": "2609.10031",
+      "doi": "",
+      "official_id": "arXiv:2609.10031",
+      "paper_url": "https://arxiv.org/abs/2609.10031",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Uses history-aware cluster memory, asynchronous intent generation, and hybrid fulfillment that reserves the LLM for complex intents while routing simple intents to a lightweight heuristic. Across 41 Android apps it achieves up to 36.4% higher code coverage while costing less than one eighth of the best pure-LLM baseline, directly addressing LLM-agent latency and cost.",
+      "published_at": "2026-09-09T11:04:53Z",
+      "updated_at": "2026-09-09T11:04:53Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -2069,6 +2091,26 @@
         "Video / Image Generation",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "CUA-Universe: A Scalable and Dynamic Environment for Hybrid GUI+CLI Agents",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / computer-use agents / GUI+CLI runtime / trajectory efficiency",
+      "arxiv": "2609.05374",
+      "doi": "",
+      "official_id": "arXiv:2609.05374",
+      "paper_url": "https://arxiv.org/abs/2609.05374",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Builds a scalable environment-to-data pipeline for hybrid GUI+CLI computer-use agents and explicitly trains agents toward efficient hybrid paths. Its 9B model improves CUA-Verse by +39.3 score points while reducing steps 37% and tokens 60%; on OSWorld it improves success rate by 16.8 points while reducing steps 57% and tokens 44%. This is direct measured agent-runtime efficiency evidence rather than only an accuracy gain.",
+      "published_at": "2026-09-04T17:26:18Z",
+      "updated_at": "2026-09-04T17:26:18Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -4640,6 +4682,29 @@
       ]
     },
     {
+      "title": "Agentic ML Exploration (A-MLE) for Ads Ranking",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / ML infrastructure / autonomous experimentation / industrial ranking",
+      "arxiv": "2609.08248",
+      "doi": "",
+      "official_id": "arXiv:2609.08248",
+      "paper_url": "https://arxiv.org/abs/2609.08248",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Industrial autonomous ML-exploration system deployed across a portfolio of large-scale ads-ranking models, coordinating hypothesis generation, experiment execution, analysis and shared knowledge with sandboxed tools and human checkpoints. It directly targets the human-throughput bottleneck of ML iteration, but the primary abstract does not expose a clean quantitative latency, compute, or cost reduction, so it remains high-value watch rather than strong.",
+      "published_at": "2026-09-08T04:48:03Z",
+      "updated_at": "2026-09-08T04:48:03Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Do Dynamic Routers Need Memory? HeRo: History-Aware Routing for Efficient LLM Inference",
       "venue": "arXiv 2026",
       "topic": "sparsity/pruning / dynamic layer routing / efficient LLM inference / router memory",
@@ -4812,6 +4877,29 @@
         "KV Cache / Long Context",
         "Distributed Training / Inference",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "ReactVAU: A Slow-Fast Decoupled Framework for Streaming Video Anomaly Understanding",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / streaming video / conditional MLLM invocation / persistent memory",
+      "arxiv": "2609.07941",
+      "doi": "",
+      "official_id": "arXiv:2609.07941",
+      "paper_url": "https://arxiv.org/abs/2609.07941",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Introduces a slow-fast streaming design where a lightweight detector continuously filters the stream, anomaly-aware persistent memory preserves rare events, and heavyweight MLLM reasoning wakes only on suspicious events. The paper explicitly reports substantially fewer heavyweight MLLM invocations and real-time streaming operation, but the primary abstract omits a single quantitative latency/throughput figure, so it is retained as a high-value serving watch item.",
+      "published_at": "2026-09-07T19:53:38Z",
+      "updated_at": "2026-09-09T07:11:48Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -5525,6 +5613,26 @@
       ]
     },
     {
+      "title": "PLSR: Progressive and Localized Super-Resolution of 3D Objects via Localized Latent Voxel Diffusion",
+      "venue": "arXiv 2026",
+      "topic": "diffusion/flow acceleration / 3D generation / localized denoising / memory efficiency",
+      "arxiv": "2609.06436",
+      "doi": "",
+      "official_id": "arXiv:2609.06436",
+      "paper_url": "https://arxiv.org/abs/2609.06436",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Decomposes global 3D super-resolution into localized latent-voxel diffusion subproblems with low-cost finetuning and patch-wise denoising, explicitly targeting memory and computational efficiency for high-resolution 3D generation. The primary abstract claims significant computational-cost reduction but gives no exact speedup or memory number, so it is kept as a high-value diffusion-efficiency watch item.",
+      "published_at": "2026-09-06T07:21:36Z",
+      "updated_at": "2026-09-06T07:21:36Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
       "title": "From Concentration to Differentiation and Back: Routing Effective Rank in MoE Reasoning Cohorts",
       "venue": "arXiv 2026",
       "topic": "MoE systems/accelerators / efficient reasoning / routing characterization",
@@ -6157,6 +6265,26 @@
       ]
     },
     {
+      "title": "Compact Bellman-Grounded Cognitive Maps for Cost-Aware Navigation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI / navigation memory / compact world representation / cost-aware planning",
+      "arxiv": "2609.05104",
+      "doi": "",
+      "official_id": "arXiv:2609.05104",
+      "paper_url": "https://arxiv.org/abs/2609.05104",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Learns a reusable Bellman-grounded cognitive map with compact coordinate encoding, enabling changing navigation goals without per-goal retraining. On grids up to 1,600 nodes it maintains full success with only 5% mean gap to Dijkstra, while memory growth is sublinear from 400 to 3,600 nodes. It is valuable protected evidence for compact embodied memory, but not a direct VLA/WAM inference accelerator.",
+      "published_at": "2026-09-04T12:56:25Z",
+      "updated_at": "2026-09-04T12:56:25Z",
+      "is_latest_30d": true,
+      "directions": [
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Deep Microcompression: Structured Pruning and Bit-packed Quantization for Microcontrollers",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI systems / microcontroller inference / pruning / quantization",
@@ -6262,6 +6390,27 @@
         "LLM Serving",
         "Multimodal / MLLM Serving",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "One Diffusion Model, Two Roles: Guided Trajectory Planning and Safety-Critical Scenario Generation in Closed-Loop Simulation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI / autonomous driving / diffusion planning / closed-loop simulation",
+      "arxiv": "2609.04921",
+      "doi": "",
+      "official_id": "arXiv:2609.04921",
+      "paper_url": "https://arxiv.org/abs/2609.04921",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Uses one pretrained diffusion traffic model both as an ego planner and as a controllable safety-critical scenario generator, with training-free clean-sample guidance that avoids auxiliary networks. This is highly relevant to WAM/world-model and action-planning lineage, but the abstract emphasizes closed-loop quality and controllability rather than measured inference acceleration, so it remains protected watch.",
+      "published_at": "2026-09-04T09:22:54Z",
+      "updated_at": "2026-09-04T09:22:54Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Diffusion / Flow Acceleration",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -14059,6 +14208,28 @@
       ]
     },
     {
+      "title": "GraphDroid: Asynchronous LLM-Based Mobile App GUI Testing via History-Aware Exploration and Hybrid Intent Fulfillment",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / asynchronous LLM agents / GUI testing / cost-aware tool use",
+      "arxiv": "2609.10031",
+      "doi": "",
+      "official_id": "arXiv:2609.10031",
+      "paper_url": "https://arxiv.org/abs/2609.10031",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Uses history-aware cluster memory, asynchronous intent generation, and hybrid fulfillment that reserves the LLM for complex intents while routing simple intents to a lightweight heuristic. Across 41 Android apps it achieves up to 36.4% higher code coverage while costing less than one eighth of the best pure-LLM baseline, directly addressing LLM-agent latency and cost.",
+      "published_at": "2026-09-09T11:04:53Z",
+      "updated_at": "2026-09-09T11:04:53Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Elastoformer: Enabling Dynamic Adaptivity via Elastic Model Transformation",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI systems / elastic inference / pruning / runtime adaptivity",
@@ -15972,6 +16143,26 @@
         "Video / Image Generation",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "CUA-Universe: A Scalable and Dynamic Environment for Hybrid GUI+CLI Agents",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / computer-use agents / GUI+CLI runtime / trajectory efficiency",
+      "arxiv": "2609.05374",
+      "doi": "",
+      "official_id": "arXiv:2609.05374",
+      "paper_url": "https://arxiv.org/abs/2609.05374",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Builds a scalable environment-to-data pipeline for hybrid GUI+CLI computer-use agents and explicitly trains agents toward efficient hybrid paths. Its 9B model improves CUA-Verse by +39.3 score points while reducing steps 37% and tokens 60%; on OSWorld it improves success rate by 16.8 points while reducing steps 57% and tokens 44%. This is direct measured agent-runtime efficiency evidence rather than only an accuracy gain.",
+      "published_at": "2026-09-04T17:26:18Z",
+      "updated_at": "2026-09-04T17:26:18Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -18541,6 +18732,29 @@
       ]
     },
     {
+      "title": "Agentic ML Exploration (A-MLE) for Ads Ranking",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / ML infrastructure / autonomous experimentation / industrial ranking",
+      "arxiv": "2609.08248",
+      "doi": "",
+      "official_id": "arXiv:2609.08248",
+      "paper_url": "https://arxiv.org/abs/2609.08248",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Industrial autonomous ML-exploration system deployed across a portfolio of large-scale ads-ranking models, coordinating hypothesis generation, experiment execution, analysis and shared knowledge with sandboxed tools and human checkpoints. It directly targets the human-throughput bottleneck of ML iteration, but the primary abstract does not expose a clean quantitative latency, compute, or cost reduction, so it remains high-value watch rather than strong.",
+      "published_at": "2026-09-08T04:48:03Z",
+      "updated_at": "2026-09-08T04:48:03Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Do Dynamic Routers Need Memory? HeRo: History-Aware Routing for Efficient LLM Inference",
       "venue": "arXiv 2026",
       "topic": "sparsity/pruning / dynamic layer routing / efficient LLM inference / router memory",
@@ -18713,6 +18927,29 @@
         "KV Cache / Long Context",
         "Distributed Training / Inference",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "ReactVAU: A Slow-Fast Decoupled Framework for Streaming Video Anomaly Understanding",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / streaming video / conditional MLLM invocation / persistent memory",
+      "arxiv": "2609.07941",
+      "doi": "",
+      "official_id": "arXiv:2609.07941",
+      "paper_url": "https://arxiv.org/abs/2609.07941",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Introduces a slow-fast streaming design where a lightweight detector continuously filters the stream, anomaly-aware persistent memory preserves rare events, and heavyweight MLLM reasoning wakes only on suspicious events. The paper explicitly reports substantially fewer heavyweight MLLM invocations and real-time streaming operation, but the primary abstract omits a single quantitative latency/throughput figure, so it is retained as a high-value serving watch item.",
+      "published_at": "2026-09-07T19:53:38Z",
+      "updated_at": "2026-09-09T07:11:48Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -19426,6 +19663,26 @@
       ]
     },
     {
+      "title": "PLSR: Progressive and Localized Super-Resolution of 3D Objects via Localized Latent Voxel Diffusion",
+      "venue": "arXiv 2026",
+      "topic": "diffusion/flow acceleration / 3D generation / localized denoising / memory efficiency",
+      "arxiv": "2609.06436",
+      "doi": "",
+      "official_id": "arXiv:2609.06436",
+      "paper_url": "https://arxiv.org/abs/2609.06436",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Decomposes global 3D super-resolution into localized latent-voxel diffusion subproblems with low-cost finetuning and patch-wise denoising, explicitly targeting memory and computational efficiency for high-resolution 3D generation. The primary abstract claims significant computational-cost reduction but gives no exact speedup or memory number, so it is kept as a high-value diffusion-efficiency watch item.",
+      "published_at": "2026-09-06T07:21:36Z",
+      "updated_at": "2026-09-06T07:21:36Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
       "title": "From Concentration to Differentiation and Back: Routing Effective Rank in MoE Reasoning Cohorts",
       "venue": "arXiv 2026",
       "topic": "MoE systems/accelerators / efficient reasoning / routing characterization",
@@ -20058,6 +20315,26 @@
       ]
     },
     {
+      "title": "Compact Bellman-Grounded Cognitive Maps for Cost-Aware Navigation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI / navigation memory / compact world representation / cost-aware planning",
+      "arxiv": "2609.05104",
+      "doi": "",
+      "official_id": "arXiv:2609.05104",
+      "paper_url": "https://arxiv.org/abs/2609.05104",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Learns a reusable Bellman-grounded cognitive map with compact coordinate encoding, enabling changing navigation goals without per-goal retraining. On grids up to 1,600 nodes it maintains full success with only 5% mean gap to Dijkstra, while memory growth is sublinear from 400 to 3,600 nodes. It is valuable protected evidence for compact embodied memory, but not a direct VLA/WAM inference accelerator.",
+      "published_at": "2026-09-04T12:56:25Z",
+      "updated_at": "2026-09-04T12:56:25Z",
+      "is_latest_30d": true,
+      "directions": [
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Deep Microcompression: Structured Pruning and Bit-packed Quantization for Microcontrollers",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI systems / microcontroller inference / pruning / quantization",
@@ -20163,6 +20440,27 @@
         "LLM Serving",
         "Multimodal / MLLM Serving",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "One Diffusion Model, Two Roles: Guided Trajectory Planning and Safety-Critical Scenario Generation in Closed-Loop Simulation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI / autonomous driving / diffusion planning / closed-loop simulation",
+      "arxiv": "2609.04921",
+      "doi": "",
+      "official_id": "arXiv:2609.04921",
+      "paper_url": "https://arxiv.org/abs/2609.04921",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Uses one pretrained diffusion traffic model both as an ego planner and as a controllable safety-critical scenario generator, with training-free clean-sample guidance that avoids auxiliary networks. This is highly relevant to WAM/world-model and action-planning lineage, but the abstract emphasizes closed-loop quality and controllability rather than measured inference acceleration, so it remains protected watch.",
+      "published_at": "2026-09-04T09:22:54Z",
+      "updated_at": "2026-09-04T09:22:54Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Diffusion / Flow Acceleration",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
