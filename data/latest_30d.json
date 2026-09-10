@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-10",
   "window_start_beijing": "2026-08-11",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 571,
+  "tracked_total": 576,
   "p0_strong_or_canonical": [
     {
       "title": "Distributed Linear Programming on GPU Clusters at Extreme Scale",
@@ -2364,6 +2364,27 @@
         "LLM Serving",
         "KV Cache / Long Context",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Lantern: Finding Committable Transactions via Back-Propagation on DAGs",
+      "venue": "arXiv 2026",
+      "topic": "distributed training/inference / data systems / transaction runtime",
+      "arxiv": "2609.03315",
+      "doi": "",
+      "official_id": "arXiv:2609.03315",
+      "paper_url": "https://arxiv.org/abs/2609.03315",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Deterministic concurrency control without prior read-write sets. Lantern uses DAG back-propagation to identify additional committable transactions and conflict-free batch selection for read-modify-write workloads. Integrated into ChainMaker and evaluated on YCSB and SmallBank, it reaches up to 4.2x throughput over Aria and at least 2.2x execution-layer throughput improvement, providing direct measured systems evidence.",
+      "published_at": "2026-09-03T03:10:10Z",
+      "updated_at": "2026-09-03T03:10:10Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference"
       ]
     },
     {
@@ -5121,6 +5142,28 @@
       ]
     },
     {
+      "title": "HaptiNet: Networked Haptic Robots Enable Physical Co-presence in Geographically-Unconstrained Rehabilitation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / distributed robotics / network delay compensation",
+      "arxiv": "2609.04799",
+      "doi": "",
+      "official_id": "arXiv:2609.04799",
+      "paper_url": "https://arxiv.org/abs/2609.04799",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI infrastructure: networked haptic robots use an imitation-learning delay compensator to preserve force-mediated interaction over geographically distributed links. Validation spans 284 healthy participants, 111 patients, and three intercity links totaling about 4,000 km. The work demonstrates robust distributed physical interaction but does not report a compute/serving speedup, so it remains watch.",
+      "published_at": "2026-09-04T06:54:32Z",
+      "updated_at": "2026-09-04T06:54:32Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "ProtLingo: Efficient Protein Language Modeling via Conditional Memory and Expert Routing",
       "venue": "arXiv 2026",
       "topic": "MoE systems/accelerators / conditional memory / efficient language models",
@@ -5165,6 +5208,27 @@
         "Multimodal / MLLM Serving",
         "Diffusion / Flow Acceleration",
         "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Resilience Beyond Stationary Client Unavailability: Unlocking Efficient and Unbiased Federated Learning",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / federated learning / dynamic availability",
+      "arxiv": "2609.04763",
+      "doi": "",
+      "official_id": "arXiv:2609.04763",
+      "paper_url": "https://arxiv.org/abs/2609.04763",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "FedSWE targets heterogeneous non-stationary client availability with missed-computation compensation, stabilized global updates and implicit gossip mixing while remaining agnostic to the availability process. It adds only light memory/compute overhead and has linear-speedup theory in special cases, but the primary abstract gives no exact measured runtime/communication reduction, so it remains high-value watch.",
+      "published_at": "2026-09-04T05:49:21Z",
+      "updated_at": "2026-09-04T05:49:21Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Distributed Training / Inference",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -5529,6 +5593,27 @@
       ]
     },
     {
+      "title": "Sparse auto-regressive modeling for scene generation from multi-view images",
+      "venue": "arXiv 2026",
+      "topic": "video/image generation acceleration / sparse 3D generation / 3D Gaussian Splatting",
+      "arxiv": "2609.03931",
+      "doi": "",
+      "official_id": "arXiv:2609.03931",
+      "paper_url": "https://arxiv.org/abs/2609.03931",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "SPAR3S learns a compact voxel-aligned 3D latent space in which only occupied voxels are represented, then jointly predicts sparse occupancy and latent tokens with a masked autoregressive transformer. The sparse representation directly targets dense-volumetric compute cost and uses differentiable 3D Gaussian Splatting supervision, but the primary abstract reports no exact runtime or memory reduction, so it remains high-value watch.",
+      "published_at": "2026-09-03T14:41:34Z",
+      "updated_at": "2026-09-03T14:41:34Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Sparsity / Pruning",
+        "Video / Image Generation"
+      ]
+    },
+    {
       "title": "FWBC-VLA: Force-Aware Whole-Body Compensation for Contact-Rich Loco-Manipulation",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / contact-rich manipulation / action decoding / whole-body control",
@@ -5569,6 +5654,26 @@
         "LLM Serving",
         "GPU Kernel / DSL / Compiler",
         "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "SimSkill: A Lifelong Learning AI Agent for Autonomous Mastery of Traffic Simulation",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / agent memory / reusable skills",
+      "arxiv": "2609.03753",
+      "doi": "",
+      "official_id": "arXiv:2609.03753",
+      "paper_url": "https://arxiv.org/abs/2609.03753",
+      "code_url": "https://github.com/qiliuchn/SimSkill-V1",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Self-evolving SUMO agent identifies capability gaps, generates and verifies environment-grounded tasks, and consolidates episodic/procedural/semantic memory without backbone updates. It improves verified completion by up to 25 percentage points, but memory benefits are model- and budget-dependent and do not uniformly reduce inference cost, so it remains watch. Official code/data repository is author-provided.",
+      "published_at": "2026-09-03T12:23:56Z",
+      "updated_at": "2026-09-03T12:23:56Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -14761,6 +14866,27 @@
       ]
     },
     {
+      "title": "Lantern: Finding Committable Transactions via Back-Propagation on DAGs",
+      "venue": "arXiv 2026",
+      "topic": "distributed training/inference / data systems / transaction runtime",
+      "arxiv": "2609.03315",
+      "doi": "",
+      "official_id": "arXiv:2609.03315",
+      "paper_url": "https://arxiv.org/abs/2609.03315",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Deterministic concurrency control without prior read-write sets. Lantern uses DAG back-propagation to identify additional committable transactions and conflict-free batch selection for read-modify-write workloads. Integrated into ChainMaker and evaluated on YCSB and SmallBank, it reaches up to 4.2x throughput over Aria and at least 2.2x execution-layer throughput improvement, providing direct measured systems evidence.",
+      "published_at": "2026-09-03T03:10:10Z",
+      "updated_at": "2026-09-03T03:10:10Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference"
+      ]
+    },
+    {
       "title": "A Technique for Load Shifting Low-latency Applications in Multi-Region Renewables Harvesting via SMT Core Pooling",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI systems / cloud scheduling / sustainable systems",
@@ -17513,6 +17639,28 @@
       ]
     },
     {
+      "title": "HaptiNet: Networked Haptic Robots Enable Physical Co-presence in Geographically-Unconstrained Rehabilitation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / distributed robotics / network delay compensation",
+      "arxiv": "2609.04799",
+      "doi": "",
+      "official_id": "arXiv:2609.04799",
+      "paper_url": "https://arxiv.org/abs/2609.04799",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI infrastructure: networked haptic robots use an imitation-learning delay compensator to preserve force-mediated interaction over geographically distributed links. Validation spans 284 healthy participants, 111 patients, and three intercity links totaling about 4,000 km. The work demonstrates robust distributed physical interaction but does not report a compute/serving speedup, so it remains watch.",
+      "published_at": "2026-09-04T06:54:32Z",
+      "updated_at": "2026-09-04T06:54:32Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "ProtLingo: Efficient Protein Language Modeling via Conditional Memory and Expert Routing",
       "venue": "arXiv 2026",
       "topic": "MoE systems/accelerators / conditional memory / efficient language models",
@@ -17557,6 +17705,27 @@
         "Multimodal / MLLM Serving",
         "Diffusion / Flow Acceleration",
         "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Resilience Beyond Stationary Client Unavailability: Unlocking Efficient and Unbiased Federated Learning",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / federated learning / dynamic availability",
+      "arxiv": "2609.04763",
+      "doi": "",
+      "official_id": "arXiv:2609.04763",
+      "paper_url": "https://arxiv.org/abs/2609.04763",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "FedSWE targets heterogeneous non-stationary client availability with missed-computation compensation, stabilized global updates and implicit gossip mixing while remaining agnostic to the availability process. It adds only light memory/compute overhead and has linear-speedup theory in special cases, but the primary abstract gives no exact measured runtime/communication reduction, so it remains high-value watch.",
+      "published_at": "2026-09-04T05:49:21Z",
+      "updated_at": "2026-09-04T05:49:21Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Distributed Training / Inference",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -17921,6 +18090,27 @@
       ]
     },
     {
+      "title": "Sparse auto-regressive modeling for scene generation from multi-view images",
+      "venue": "arXiv 2026",
+      "topic": "video/image generation acceleration / sparse 3D generation / 3D Gaussian Splatting",
+      "arxiv": "2609.03931",
+      "doi": "",
+      "official_id": "arXiv:2609.03931",
+      "paper_url": "https://arxiv.org/abs/2609.03931",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "SPAR3S learns a compact voxel-aligned 3D latent space in which only occupied voxels are represented, then jointly predicts sparse occupancy and latent tokens with a masked autoregressive transformer. The sparse representation directly targets dense-volumetric compute cost and uses differentiable 3D Gaussian Splatting supervision, but the primary abstract reports no exact runtime or memory reduction, so it remains high-value watch.",
+      "published_at": "2026-09-03T14:41:34Z",
+      "updated_at": "2026-09-03T14:41:34Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Sparsity / Pruning",
+        "Video / Image Generation"
+      ]
+    },
+    {
       "title": "FWBC-VLA: Force-Aware Whole-Body Compensation for Contact-Rich Loco-Manipulation",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / contact-rich manipulation / action decoding / whole-body control",
@@ -17961,6 +18151,26 @@
         "LLM Serving",
         "GPU Kernel / DSL / Compiler",
         "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "SimSkill: A Lifelong Learning AI Agent for Autonomous Mastery of Traffic Simulation",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / agent memory / reusable skills",
+      "arxiv": "2609.03753",
+      "doi": "",
+      "official_id": "arXiv:2609.03753",
+      "paper_url": "https://arxiv.org/abs/2609.03753",
+      "code_url": "https://github.com/qiliuchn/SimSkill-V1",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Self-evolving SUMO agent identifies capability gaps, generates and verifies environment-grounded tasks, and consolidates episodic/procedural/semantic memory without backbone updates. It improves verified completion by up to 25 percentage points, but memory benefits are model- and budget-dependent and do not uniformly reduce inference cost, so it remains watch. Official code/data repository is author-provided.",
+      "published_at": "2026-09-03T12:23:56Z",
+      "updated_at": "2026-09-03T12:23:56Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
       ]
     },
     {

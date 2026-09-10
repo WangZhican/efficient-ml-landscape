@@ -4420,6 +4420,27 @@
     ]
   },
   {
+    "title": "Lantern: Finding Committable Transactions via Back-Propagation on DAGs",
+    "venue": "arXiv 2026",
+    "topic": "distributed training/inference / data systems / transaction runtime",
+    "arxiv": "2609.03315",
+    "doi": "",
+    "official_id": "arXiv:2609.03315",
+    "paper_url": "https://arxiv.org/abs/2609.03315",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Deterministic concurrency control without prior read-write sets. Lantern uses DAG back-propagation to identify additional committable transactions and conflict-free batch selection for read-modify-write workloads. Integrated into ChainMaker and evaluated on YCSB and SmallBank, it reaches up to 4.2x throughput over Aria and at least 2.2x execution-layer throughput improvement, providing direct measured systems evidence.",
+    "published_at": "2026-09-03T03:10:10Z",
+    "updated_at": "2026-09-03T03:10:10Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "Laplacian Frequency Hierarchies for Efficient 3D Gaussian Splatting Training",
     "venue": "arXiv 2026",
     "topic": "video/image generation acceleration / 3D Gaussian Splatting / efficient training",
