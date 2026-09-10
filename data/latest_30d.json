@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-11",
   "window_start_beijing": "2026-08-12",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 681,
+  "tracked_total": 687,
   "p0_strong_or_canonical": [
     {
       "title": "HybridFLow: SDN-Orchestrated Client Partitioning for Hybrid Federated Learning",
@@ -2577,6 +2577,28 @@
       ]
     },
     {
+      "title": "Extremely Sparse Supervision Incentivizes Reasoning Ability",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / post-training efficiency / sparse supervision",
+      "arxiv": "2609.04565",
+      "doi": "",
+      "official_id": "arXiv:2609.04565",
+      "paper_url": "https://arxiv.org/abs/2609.04565",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "On-policy distillation experiments across Qwen3 and Llama configurations show that supervising only one or two generated tokens per reasoning trajectory, about 0.05% of all tokens, can match or surpass full-token supervision on reasoning while excluding the overwhelming majority of generated tokens from the training objective. The effect is reproduced across nine teacher-student configurations and GRPO/RLVR settings, making this unusually strong evidence for reasoning post-training efficiency.",
+      "published_at": "2026-09-03T23:38:48Z",
+      "updated_at": "2026-09-03T23:38:48Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Sparsity / Pruning",
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Distilled Continuous Diffusion Language Models Can Write Code in Few Steps---or One",
       "venue": "arXiv 2026",
       "topic": "diffusion/flow acceleration / diffusion language models / efficient reasoning",
@@ -4156,6 +4178,29 @@
       ]
     },
     {
+      "title": "What Should an Agent Forget? Separating What Is Stored from What Is Used",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / long-term memory / context compression",
+      "arxiv": "2609.10263",
+      "doi": "",
+      "official_id": "arXiv:2609.10263",
+      "paper_url": "https://arxiv.org/abs/2609.10263",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "RD-Forget separates a persistent source archive from a query-conditioned answer-time memory view and uses a rate-distortion formulation to construct that view under an explicit memory budget. It directly targets the long-context inefficiency of retaining everything in the prompt while preserving historical access, making it relevant to agent memory serving, though the abstract does not quantify wall-clock or token savings.",
+      "published_at": "2026-09-09T14:48:09Z",
+      "updated_at": "2026-09-09T14:48:09Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Quantization",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "FolDeX: A Physical-World Benchmark for Long-Horizon Robotic Manipulation of Deformable Objects",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI / long-horizon manipulation / deformable objects / real-robot benchmark",
@@ -4216,6 +4261,27 @@
         "LLM Serving",
         "Distributed Training / Inference",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "RoboDrop: Curating VLA Post-Training Data via Local Gradient Compatibility",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / post-training data efficiency / data curation",
+      "arxiv": "2609.10021",
+      "doi": "",
+      "official_id": "arXiv:2609.10021",
+      "paper_url": "https://arxiv.org/abs/2609.10021",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "RoboDrop scores robot demonstrations online during a one-epoch warm-up using local gradient compatibility against task-semantic and visually matched validation samples, then filters harmful episodes automatically. It targets the high cost and brittleness of VLA post-training data collection across controlled corruptions, simulation and real-robot datasets. This is protected Physical-AI data-efficiency work rather than an inference accelerator.",
+      "published_at": "2026-09-09T10:55:10Z",
+      "updated_at": "2026-09-09T10:55:10Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -4366,6 +4432,30 @@
       "directions": [
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "OmniEye: Efficient Multimodal Forensic Video Intelligence for Law-Enforcement Body-Worn Cameras",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / edge deployment / quantization",
+      "arxiv": "2609.09460",
+      "doi": "",
+      "official_id": "arXiv:2609.09460",
+      "paper_url": "https://arxiv.org/abs/2609.09460",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "OmniEye processes 30-second audiovisual windows with a multimodal foundation model, stores structured outputs in SQLite/BM25, and re-perceives only retrieved candidate windows for grounded questioning. The complete system is reported to run on a single 16 GB GPU using a 4-bit quantization-aware-trained model, giving useful deployment evidence for retrieval-gated multimodal serving, but without a direct speedup baseline.",
+      "published_at": "2026-09-08T21:23:46Z",
+      "updated_at": "2026-09-08T21:23:46Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "GPU Kernel / DSL / Compiler",
+        "Multimodal / MLLM Serving",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -5246,6 +5336,28 @@
         "LLM Serving",
         "Quantization",
         "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "Eliciting Self-Verification in Multimodal Reasoning Agents with Reinforcement Learning",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / multimodal tool use / self-verification",
+      "arxiv": "2609.08025",
+      "doi": "",
+      "official_id": "arXiv:2609.08025",
+      "paper_url": "https://arxiv.org/abs/2609.08025",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "SVRL trains multimodal agents to verify and filter retrieved evidence internally, adds a search-aware penalty against unnecessary tool calls, and reports consistent gains in tool efficiency while narrowing the gap between compact open models and much larger proprietary systems with substantially lower training and inference cost. The primary abstract does not provide a clean end-to-end latency or cost ratio, so it remains high-value watch rather than strong.",
+      "published_at": "2026-09-07T22:15:47Z",
+      "updated_at": "2026-09-07T22:15:47Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Speculative Decoding",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -6492,6 +6604,27 @@
       "is_latest_30d": true,
       "directions": [
         "Sparsity / Pruning",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "From Narrative to Auditable Forecasts: A Structured Scaffold for Agentic Forecasting",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / adaptive scaffold / cost-aware inference",
+      "arxiv": "2609.05905",
+      "doi": "",
+      "official_id": "arXiv:2609.05905",
+      "paper_url": "https://arxiv.org/abs/2609.05905",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "AuditForecast replaces unstructured narrative aggregation with a quantitative baseline, targeted retrieval and mechanical odds-space updates. Across live forecasting benchmarks it improves accuracy/calibration and outperforms substantially more expensive deep-research agents while remaining Pareto-dominant in the cost-accuracy tradeoff. Useful agent-system evidence, but the abstract does not expose a single reproducible latency or dollar-cost reduction ratio.",
+      "published_at": "2026-09-05T05:58:39Z",
+      "updated_at": "2026-09-05T05:58:39Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
         "Efficient Reasoning / Agents"
       ]
     },
@@ -17319,6 +17452,28 @@
       ]
     },
     {
+      "title": "Extremely Sparse Supervision Incentivizes Reasoning Ability",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / post-training efficiency / sparse supervision",
+      "arxiv": "2609.04565",
+      "doi": "",
+      "official_id": "arXiv:2609.04565",
+      "paper_url": "https://arxiv.org/abs/2609.04565",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "On-policy distillation experiments across Qwen3 and Llama configurations show that supervising only one or two generated tokens per reasoning trajectory, about 0.05% of all tokens, can match or surpass full-token supervision on reasoning while excluding the overwhelming majority of generated tokens from the training objective. The effect is reproduced across nine teacher-student configurations and GRPO/RLVR settings, making this unusually strong evidence for reasoning post-training efficiency.",
+      "published_at": "2026-09-03T23:38:48Z",
+      "updated_at": "2026-09-03T23:38:48Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Sparsity / Pruning",
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Distilled Continuous Diffusion Language Models Can Write Code in Few Steps---or One",
       "venue": "arXiv 2026",
       "topic": "diffusion/flow acceleration / diffusion language models / efficient reasoning",
@@ -18896,6 +19051,29 @@
       ]
     },
     {
+      "title": "What Should an Agent Forget? Separating What Is Stored from What Is Used",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / long-term memory / context compression",
+      "arxiv": "2609.10263",
+      "doi": "",
+      "official_id": "arXiv:2609.10263",
+      "paper_url": "https://arxiv.org/abs/2609.10263",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "RD-Forget separates a persistent source archive from a query-conditioned answer-time memory view and uses a rate-distortion formulation to construct that view under an explicit memory budget. It directly targets the long-context inefficiency of retaining everything in the prompt while preserving historical access, making it relevant to agent memory serving, though the abstract does not quantify wall-clock or token savings.",
+      "published_at": "2026-09-09T14:48:09Z",
+      "updated_at": "2026-09-09T14:48:09Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Quantization",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "FolDeX: A Physical-World Benchmark for Long-Horizon Robotic Manipulation of Deformable Objects",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI / long-horizon manipulation / deformable objects / real-robot benchmark",
@@ -18956,6 +19134,27 @@
         "LLM Serving",
         "Distributed Training / Inference",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "RoboDrop: Curating VLA Post-Training Data via Local Gradient Compatibility",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / post-training data efficiency / data curation",
+      "arxiv": "2609.10021",
+      "doi": "",
+      "official_id": "arXiv:2609.10021",
+      "paper_url": "https://arxiv.org/abs/2609.10021",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "RoboDrop scores robot demonstrations online during a one-epoch warm-up using local gradient compatibility against task-semantic and visually matched validation samples, then filters harmful episodes automatically. It targets the high cost and brittleness of VLA post-training data collection across controlled corruptions, simulation and real-robot datasets. This is protected Physical-AI data-efficiency work rather than an inference accelerator.",
+      "published_at": "2026-09-09T10:55:10Z",
+      "updated_at": "2026-09-09T10:55:10Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -19106,6 +19305,30 @@
       "directions": [
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "OmniEye: Efficient Multimodal Forensic Video Intelligence for Law-Enforcement Body-Worn Cameras",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / edge deployment / quantization",
+      "arxiv": "2609.09460",
+      "doi": "",
+      "official_id": "arXiv:2609.09460",
+      "paper_url": "https://arxiv.org/abs/2609.09460",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "OmniEye processes 30-second audiovisual windows with a multimodal foundation model, stores structured outputs in SQLite/BM25, and re-perceives only retrieved candidate windows for grounded questioning. The complete system is reported to run on a single 16 GB GPU using a 4-bit quantization-aware-trained model, giving useful deployment evidence for retrieval-gated multimodal serving, but without a direct speedup baseline.",
+      "published_at": "2026-09-08T21:23:46Z",
+      "updated_at": "2026-09-08T21:23:46Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "GPU Kernel / DSL / Compiler",
+        "Multimodal / MLLM Serving",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -19986,6 +20209,28 @@
         "LLM Serving",
         "Quantization",
         "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "Eliciting Self-Verification in Multimodal Reasoning Agents with Reinforcement Learning",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / multimodal tool use / self-verification",
+      "arxiv": "2609.08025",
+      "doi": "",
+      "official_id": "arXiv:2609.08025",
+      "paper_url": "https://arxiv.org/abs/2609.08025",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "SVRL trains multimodal agents to verify and filter retrieved evidence internally, adds a search-aware penalty against unnecessary tool calls, and reports consistent gains in tool efficiency while narrowing the gap between compact open models and much larger proprietary systems with substantially lower training and inference cost. The primary abstract does not provide a clean end-to-end latency or cost ratio, so it remains high-value watch rather than strong.",
+      "published_at": "2026-09-07T22:15:47Z",
+      "updated_at": "2026-09-07T22:15:47Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Speculative Decoding",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -21232,6 +21477,27 @@
       "is_latest_30d": true,
       "directions": [
         "Sparsity / Pruning",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "From Narrative to Auditable Forecasts: A Structured Scaffold for Agentic Forecasting",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / adaptive scaffold / cost-aware inference",
+      "arxiv": "2609.05905",
+      "doi": "",
+      "official_id": "arXiv:2609.05905",
+      "paper_url": "https://arxiv.org/abs/2609.05905",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "AuditForecast replaces unstructured narrative aggregation with a quantitative baseline, targeted retrieval and mechanical odds-space updates. Across live forecasting benchmarks it improves accuracy/calibration and outperforms substantially more expensive deep-research agents while remaining Pareto-dominant in the cost-accuracy tradeoff. Useful agent-system evidence, but the abstract does not expose a single reproducible latency or dollar-cost reduction ratio.",
+      "published_at": "2026-09-05T05:58:39Z",
+      "updated_at": "2026-09-05T05:58:39Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
         "Efficient Reasoning / Agents"
       ]
     },

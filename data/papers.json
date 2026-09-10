@@ -3882,6 +3882,28 @@
     ]
   },
   {
+    "title": "Extremely Sparse Supervision Incentivizes Reasoning Ability",
+    "venue": "arXiv 2026",
+    "topic": "efficient reasoning/agent systems / post-training efficiency / sparse supervision",
+    "arxiv": "2609.04565",
+    "doi": "",
+    "official_id": "arXiv:2609.04565",
+    "paper_url": "https://arxiv.org/abs/2609.04565",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "On-policy distillation experiments across Qwen3 and Llama configurations show that supervising only one or two generated tokens per reasoning trajectory, about 0.05% of all tokens, can match or surpass full-token supervision on reasoning while excluding the overwhelming majority of generated tokens from the training objective. The effect is reproduced across nine teacher-student configurations and GRPO/RLVR settings, making this unusually strong evidence for reasoning post-training efficiency.",
+    "published_at": "2026-09-03T23:38:48Z",
+    "updated_at": "2026-09-03T23:38:48Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Sparsity / Pruning",
+      "Distributed Training / Inference",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "Fast simulation of nonlinear deep resistive networks for energy-based computation",
     "venue": "arXiv 2026",
     "topic": "AI accelerator / analog computing / simulator acceleration / energy-based computation",
