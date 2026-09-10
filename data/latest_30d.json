@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-11",
   "window_start_beijing": "2026-08-12",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 687,
+  "tracked_total": 692,
   "p0_strong_or_canonical": [
     {
       "title": "HybridFLow: SDN-Orchestrated Client Partitioning for Hybrid Federated Learning",
@@ -5428,6 +5428,27 @@
       ]
     },
     {
+      "title": "FrogNano: Training a 4B Coding Agent via Online Task Synthesis",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / small coding agents / resource-constrained deployment",
+      "arxiv": "2609.07925",
+      "doi": "",
+      "official_id": "arXiv:2609.07925",
+      "paper_url": "https://arxiv.org/abs/2609.07925",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "FrogNano trains a 4B coding agent with online task synthesis and reinforcement learning on about 1,500 SWE environments, targeting capable coding agents that can operate under minimal hardware budgets. It is relevant to efficient-agent deployment, but the abstract does not expose a clean latency, memory, or serving-cost reduction ratio.",
+      "published_at": "2026-09-07T19:39:38Z",
+      "updated_at": "2026-09-09T15:35:02Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Interactive Debugger for Performance Portable Python HPC Kernels",
       "venue": "arXiv 2026",
       "topic": "GPU kernel/DSL/compilers / Python HPC / developer tooling",
@@ -5641,6 +5662,29 @@
       "directions": [
         "Multimodal / MLLM Serving",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Unified Vision-Centric Pedestrian Crossing Action Prediction via Adaptive Patch Projection and Proactive Spatial Rectification",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / multimodal token efficiency / autonomous driving",
+      "arxiv": "2609.07420",
+      "doi": "",
+      "official_id": "arXiv:2609.07420",
+      "paper_url": "https://arxiv.org/abs/2609.07420",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "ViCross targets the cost of high-resolution full-frame MLLM encoding with variable-resolution patch mapping that allocates visual tokens adaptively around pedestrians while preserving target-centric reasoning. This is protected Physical-AI token-efficiency work, but the primary abstract does not provide a reproducible wall-clock or token-reduction ratio.",
+      "published_at": "2026-09-07T12:29:04Z",
+      "updated_at": "2026-09-07T12:29:04Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -7022,6 +7066,27 @@
       ]
     },
     {
+      "title": "Large Language Models with At Most One Spike per Neuron",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / energy-efficient LLM / spiking inference",
+      "arxiv": "2609.05151",
+      "doi": "",
+      "official_id": "arXiv:2609.05151",
+      "paper_url": "https://arxiv.org/abs/2609.05151",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "A fully time-to-first-spike LLM formulation is scaled to 1.5B parameters and reports extremely sparse event-driven activity with an energy estimate from spike counts. Because the paper explicitly notes this is a proxy under a cost model rather than measurement on neuromorphic hardware, it is preserved as high-value watch rather than promoted strong.",
+      "published_at": "2026-09-04T13:53:28Z",
+      "updated_at": "2026-09-04T13:53:28Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Sparsity / Pruning",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "MomentQuant: an even more minimalist interval method with linear time complexity for time series classification",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI systems / efficient inference / linear-time algorithms",
@@ -7321,6 +7386,27 @@
       ]
     },
     {
+      "title": "From Deep to Shallow: Unconstrained and Efficient Layer Merging Strategy",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / model compression / embedded inference",
+      "arxiv": "2609.04881",
+      "doi": "",
+      "official_id": "arXiv:2609.04881",
+      "paper_url": "https://arxiv.org/abs/2609.04881",
+      "code_url": "https://github.com/ShulzhenkoPetr/deep-to-shallow",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "The method merges redundant layers without requiring an analytical merge rule and avoids the kernel-size growth that can erase practical speedups. The authors report inference speed-up measurements on real embedded platforms across architectures and datasets, making it relevant deployment evidence, but the abstract omits a clean numerical speedup ratio.",
+      "published_at": "2026-09-04T08:38:35Z",
+      "updated_at": "2026-09-04T08:38:35Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Coupled Control and Wireless World Models for Resilient Remote Robotic Control",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / cloud-edge robotics / communication-aware world models",
@@ -7584,6 +7670,28 @@
       "is_latest_30d": true,
       "directions": [
         "LLM Serving",
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "SCAPES: Semantically Conditioned Autoregressive Prior for Environmental Sounds",
+      "venue": "arXiv 2026",
+      "topic": "diffusion/flow acceleration / lightweight generative models / single-GPU training",
+      "arxiv": "2609.04634",
+      "doi": "",
+      "official_id": "arXiv:2609.04634",
+      "paper_url": "https://arxiv.org/abs/2609.04634",
+      "code_url": "https://github.com/ais-lab/SCAPES",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "SCAPES uses a 36M-parameter latent continuous-normalizing-flow model with flow matching and reports training on a single consumer GPU with convergence after roughly twice the source-audio duration. It is useful evidence for lightweight generative modeling, but it is not yet a direct image/video serving accelerator and lacks an end-to-end baseline speedup.",
+      "published_at": "2026-09-04T02:11:46Z",
+      "updated_at": "2026-09-04T02:11:46Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
         "Diffusion / Flow Acceleration"
       ]
     },
@@ -20301,6 +20409,27 @@
       ]
     },
     {
+      "title": "FrogNano: Training a 4B Coding Agent via Online Task Synthesis",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / small coding agents / resource-constrained deployment",
+      "arxiv": "2609.07925",
+      "doi": "",
+      "official_id": "arXiv:2609.07925",
+      "paper_url": "https://arxiv.org/abs/2609.07925",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "FrogNano trains a 4B coding agent with online task synthesis and reinforcement learning on about 1,500 SWE environments, targeting capable coding agents that can operate under minimal hardware budgets. It is relevant to efficient-agent deployment, but the abstract does not expose a clean latency, memory, or serving-cost reduction ratio.",
+      "published_at": "2026-09-07T19:39:38Z",
+      "updated_at": "2026-09-09T15:35:02Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Interactive Debugger for Performance Portable Python HPC Kernels",
       "venue": "arXiv 2026",
       "topic": "GPU kernel/DSL/compilers / Python HPC / developer tooling",
@@ -20514,6 +20643,29 @@
       "directions": [
         "Multimodal / MLLM Serving",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Unified Vision-Centric Pedestrian Crossing Action Prediction via Adaptive Patch Projection and Proactive Spatial Rectification",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / multimodal token efficiency / autonomous driving",
+      "arxiv": "2609.07420",
+      "doi": "",
+      "official_id": "arXiv:2609.07420",
+      "paper_url": "https://arxiv.org/abs/2609.07420",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "ViCross targets the cost of high-resolution full-frame MLLM encoding with variable-resolution patch mapping that allocates visual tokens adaptively around pedestrians while preserving target-centric reasoning. This is protected Physical-AI token-efficiency work, but the primary abstract does not provide a reproducible wall-clock or token-reduction ratio.",
+      "published_at": "2026-09-07T12:29:04Z",
+      "updated_at": "2026-09-07T12:29:04Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -21895,6 +22047,27 @@
       ]
     },
     {
+      "title": "Large Language Models with At Most One Spike per Neuron",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / energy-efficient LLM / spiking inference",
+      "arxiv": "2609.05151",
+      "doi": "",
+      "official_id": "arXiv:2609.05151",
+      "paper_url": "https://arxiv.org/abs/2609.05151",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "A fully time-to-first-spike LLM formulation is scaled to 1.5B parameters and reports extremely sparse event-driven activity with an energy estimate from spike counts. Because the paper explicitly notes this is a proxy under a cost model rather than measurement on neuromorphic hardware, it is preserved as high-value watch rather than promoted strong.",
+      "published_at": "2026-09-04T13:53:28Z",
+      "updated_at": "2026-09-04T13:53:28Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Sparsity / Pruning",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "MomentQuant: an even more minimalist interval method with linear time complexity for time series classification",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI systems / efficient inference / linear-time algorithms",
@@ -22194,6 +22367,27 @@
       ]
     },
     {
+      "title": "From Deep to Shallow: Unconstrained and Efficient Layer Merging Strategy",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / model compression / embedded inference",
+      "arxiv": "2609.04881",
+      "doi": "",
+      "official_id": "arXiv:2609.04881",
+      "paper_url": "https://arxiv.org/abs/2609.04881",
+      "code_url": "https://github.com/ShulzhenkoPetr/deep-to-shallow",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "The method merges redundant layers without requiring an analytical merge rule and avoids the kernel-size growth that can erase practical speedups. The authors report inference speed-up measurements on real embedded platforms across architectures and datasets, making it relevant deployment evidence, but the abstract omits a clean numerical speedup ratio.",
+      "published_at": "2026-09-04T08:38:35Z",
+      "updated_at": "2026-09-04T08:38:35Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Coupled Control and Wireless World Models for Resilient Remote Robotic Control",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / cloud-edge robotics / communication-aware world models",
@@ -22457,6 +22651,28 @@
       "is_latest_30d": true,
       "directions": [
         "LLM Serving",
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "SCAPES: Semantically Conditioned Autoregressive Prior for Environmental Sounds",
+      "venue": "arXiv 2026",
+      "topic": "diffusion/flow acceleration / lightweight generative models / single-GPU training",
+      "arxiv": "2609.04634",
+      "doi": "",
+      "official_id": "arXiv:2609.04634",
+      "paper_url": "https://arxiv.org/abs/2609.04634",
+      "code_url": "https://github.com/ais-lab/SCAPES",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "SCAPES uses a 36M-parameter latent continuous-normalizing-flow model with flow matching and reports training on a single consumer GPU with convergence after roughly twice the source-audio duration. It is useful evidence for lightweight generative modeling, but it is not yet a direct image/video serving accelerator and lacks an end-to-end baseline speedup.",
+      "published_at": "2026-09-04T02:11:46Z",
+      "updated_at": "2026-09-04T02:11:46Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
         "Diffusion / Flow Acceleration"
       ]
     },
