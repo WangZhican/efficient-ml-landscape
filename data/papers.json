@@ -2416,6 +2416,26 @@
     ]
   },
   {
+    "title": "A*-Thought-V2: Efficient Latent Reasoning via Geometric Dynamics of LLM",
+    "venue": "arXiv 2026",
+    "topic": "efficient reasoning/agent systems / latent reasoning / token compression / efficient training",
+    "arxiv": "2609.07821",
+    "doi": "",
+    "official_id": "arXiv:2609.07821",
+    "paper_url": "https://arxiv.org/abs/2609.07821",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Interleaves explicit text with pooled continuous latent tokens using geometric trajectory alignment. Across Qwen3.5-9B and Qwen3.6-27B it improves average accuracy by up to 2.6% while cutting response length by up to half, raising Accuracy per Computation Unit by 2.29x, and reducing preprocessing/training time by 94.6%/up to 80.3%.",
+    "published_at": "2026-09-07T17:56:20Z",
+    "updated_at": "2026-09-07T17:56:20Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "A1: A Fully Transparent Open-Source, Adaptive and Efficient Truncated Vision-Language-Action Model",
     "venue": "arXiv 2026",
     "topic": "VLA/WAM/Physical AI serving / adaptive early exit / flow action-head acceleration",
@@ -3711,6 +3731,26 @@
     "directions": [
       "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "Fast simulation of nonlinear deep resistive networks for energy-based computation",
+    "venue": "arXiv 2026",
+    "topic": "AI accelerator / analog computing / simulator acceleration / energy-based computation",
+    "arxiv": "2609.07356",
+    "doi": "",
+    "official_id": "arXiv:2609.07356",
+    "paper_url": "https://arxiv.org/abs/2609.07356",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Extends coordinate-descent circuit simulation from ideal diodes to realistic monotone nonlinear devices. Across deep resistive networks it matches SPICE steady states with very low error while reaching speedups up to 1.7e3x; MNIST training on a 1568x100x20 double-Shockley network cuts per-epoch time by roughly 4.4e2x.",
+    "published_at": "2026-09-07T11:22:27Z",
+    "updated_at": "2026-09-07T11:22:27Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -6890,6 +6930,27 @@
     "directions": [
       "Quantization",
       "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "StreamAlign: Streaming Text-Aligned Speech Tokenization",
+    "venue": "arXiv 2026",
+    "topic": "multimodal/MLLM serving / speech tokenization / streaming inference / latency",
+    "arxiv": "2609.09719",
+    "doi": "",
+    "official_id": "arXiv:2609.09719",
+    "paper_url": "https://arxiv.org/abs/2609.09719",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Replaces offline text-aligned speech tokenization with online RNN-T plus ASR-guided alignment and proactive word-boundary prediction. The reported tokenization latency falls from 560 ms to 270 ms while preserving recognition quality and improving downstream spoken-language modeling.",
+    "published_at": "2026-09-09T05:03:12Z",
+    "updated_at": "2026-09-09T05:03:12Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving"
     ]
   },
   {
