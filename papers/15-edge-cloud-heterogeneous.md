@@ -1,10 +1,10 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **388 canonical papers** mapped here, plus a broader **198-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **388 canonical papers** mapped here, plus a broader **200-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 198 tracked
+## 🆕 Latest 30 Days · 200 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -14,6 +14,7 @@
 | **P0 · Strong** | **Stencil Computation at the Intersection of AI and HPC** | arXiv 2026 | GPU kernel/DSL/compilers / tensor compiler / heterogeneous GPU / HPC-AI convergence | [Link](https://arxiv.org/abs/2609.10368) | — |
 | **P0 · Strong** | **Maverick: Private and Verifiable LLM Inference Made Practical via Matrix-Vector Multiplication Delegation** | arXiv 2026 | LLM serving / private inference / verifiable delegation / heterogeneous offload | [Link](https://arxiv.org/abs/2609.10264) | — |
 | **P1 · Watch** | **CEDD-optimizer: Enabling Cost-Efficient Dataset Distillation on Geographically Distributed Edge Systems** | arXiv 2026 | edge/cloud/heterogeneous AI systems / distributed dataset distillation / cost optimization | [Link](https://arxiv.org/abs/2609.10151) | — |
+| **P1 · Watch** | **Storage-Scalable Progressive Semantic Communication via Knowledge-Base Reuse** | arXiv 2026 | edge/cloud/heterogeneous AI systems / semantic communication / storage efficiency | [Link](https://arxiv.org/abs/2609.10112) | — |
 | **P0 · Strong** | **GraphDroid: Asynchronous LLM-Based Mobile App GUI Testing via History-Aware Exploration and Hybrid Intent Fulfillment** | arXiv 2026 | efficient reasoning/agent systems / asynchronous LLM agents / GUI testing / cost-aware tool use | [Link](https://arxiv.org/abs/2609.10031) | — |
 | **P0 · Strong** | **Elastoformer: Enabling Dynamic Adaptivity via Elastic Model Transformation** | arXiv 2026 | edge/cloud/heterogeneous AI systems / elastic inference / pruning / runtime adaptivity | [Link](https://arxiv.org/abs/2609.10018) | [Repo](https://github.com/sudaksh14/Elastoformer) |
 | **P0 · Strong** | **CLFTv2: Efficient Camera-LiDAR Fusion for Semantic Segmentation via Hierarchical Feature Pyramids** | arXiv 2026 | VLA/WAM/Physical AI / multimodal perception / efficient attention / edge inference | [Link](https://arxiv.org/abs/2609.09881) | — |
@@ -73,6 +74,7 @@
 | **P0 · Strong** | **DejaVu: Unifying Memory Allocations to Eliminate Redundant Copies on Unified-Memory SoCs** | arXiv 2026 | edge/cloud/heterogeneous AI systems / UMA / compiler-runtime memory optimization | [Link](https://arxiv.org/abs/2609.05635) | — |
 | **P1 · Watch** | **Beyond Scalar Flexibility: From Eligible AI Workloads to Dependable Load Relief** | arXiv 2026 | edge/cloud/heterogeneous AI systems / datacenter power / workload flexibility | [Link](https://arxiv.org/abs/2609.05406) | — |
 | **P0 · Strong** | **Lightweight Vision Transformer Compression for On-Device Plant Disease Detection in Resource-Constrained Agricultural Field Conditions** | arXiv 2026 | quantization / sparsity-pruning / edge AI deployment | [Link](https://arxiv.org/abs/2609.05334) | — |
+| **P1 · Watch** | **Human-Human & Human-Robot Interaction Transformer (H2INT) for Robot Navigation in Dense and Uncertain Crowds** | arXiv 2026 | VLA/WAM/Physical AI serving / robot navigation / interaction modeling | [Link](https://arxiv.org/abs/2609.05300) | — |
 | **P1 · Watch** | **Proton Irradiation Characterization of an Open-Source ML Accelerator on a Zynq UltraScale+ MPSoC** | arXiv 2026 | edge/cloud/heterogeneous AI systems / Physical AI / FPGA accelerator reliability | [Link](https://arxiv.org/abs/2609.05249) | — |
 | **P1 · Watch** | **APEX-RBD: Mixed-Precision Exploration Framework for Hardware-Efficient Robot Dynamics Accelerator Design** | arXiv 2026 | VLA/WAM/Physical AI serving / robot accelerator / mixed precision / edge hardware | [Link](https://arxiv.org/abs/2609.05161) | — |
 | **P1 · Watch** | **MomentQuant: an even more minimalist interval method with linear time complexity for time series classification** | arXiv 2026 | edge/cloud/heterogeneous AI systems / efficient inference / linear-time algorithms | [Link](https://arxiv.org/abs/2609.05136) | — |

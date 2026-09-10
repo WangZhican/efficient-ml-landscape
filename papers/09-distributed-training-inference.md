@@ -1,10 +1,10 @@
 # 09 · Distributed Training / Inference
 
-> **339 canonical papers** mapped here, plus a broader **94-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **339 canonical papers** mapped here, plus a broader **95-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 94 tracked
+## 🆕 Latest 30 Days · 95 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -12,6 +12,7 @@
 | **P0 · Strong** | **HybridFLow: SDN-Orchestrated Client Partitioning for Hybrid Federated Learning** | arXiv 2026 | distributed training / edge-cloud / federated learning / network-aware scheduling | [Link](https://arxiv.org/abs/2609.10404) | — |
 | **P1 · Watch** | **CEDD-optimizer: Enabling Cost-Efficient Dataset Distillation on Geographically Distributed Edge Systems** | arXiv 2026 | edge/cloud/heterogeneous AI systems / distributed dataset distillation / cost optimization | [Link](https://arxiv.org/abs/2609.10151) | — |
 | **P0 · Strong** | **SAGE: Semantic-Aware Geographic Error Recovery for AI Data Movement** | arXiv 2026 | distributed training/inference / AI interconnect / fault recovery / communication latency | [Link](https://arxiv.org/abs/2609.10126) | — |
+| **P1 · Watch** | **Storage-Scalable Progressive Semantic Communication via Knowledge-Base Reuse** | arXiv 2026 | edge/cloud/heterogeneous AI systems / semantic communication / storage efficiency | [Link](https://arxiv.org/abs/2609.10112) | — |
 | **P0 · Strong** | **GraphDroid: Asynchronous LLM-Based Mobile App GUI Testing via History-Aware Exploration and Hybrid Intent Fulfillment** | arXiv 2026 | efficient reasoning/agent systems / asynchronous LLM agents / GUI testing / cost-aware tool use | [Link](https://arxiv.org/abs/2609.10031) | — |
 | **P1 · Watch** | **Privacy-Preserving Split Learning for Federated LLM Fine-Tuning** | arXiv 2026 | distributed training/inference / federated LLM fine-tuning / split learning privacy | [Link](https://arxiv.org/abs/2609.09794) | — |
 | **P0 · Strong** | **Epoch: Compiling Diffusion Blocks for Sparse MoE Serving** | arXiv 2026 | MoE systems/accelerators / diffusion language model serving / compiler-runtime | [Link](https://arxiv.org/abs/2609.09748) | — |

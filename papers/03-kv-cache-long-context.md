@@ -1,10 +1,10 @@
 # 03 · KV Cache / Long Context
 
-> **428 canonical papers** mapped here, plus a broader **99-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **428 canonical papers** mapped here, plus a broader **100-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 99 tracked
+## 🆕 Latest 30 Days · 100 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -28,6 +28,7 @@
 | **P0 · Strong** | **CEDAR: Error-Bounded Residual Routing for Efficient Long-Context Attention** | arXiv 2026 | efficient attention / long context / sparse routing / kernel acceleration | [Link](https://arxiv.org/abs/2609.07237) | — |
 | **P0 · Strong** | **Enabling High-Bandwidth Flash for Generative Recommendation Serving with Write-Aware KV Cache Policy** | arXiv 2026 | LLM/recommendation serving / KV cache / flash tiering / endurance-aware cache policy | [Link](https://arxiv.org/abs/2609.07175) | — |
 | **P0 · Strong** | **Online Draft Co-Training for Speculative Decoding in Large-Scale, Long-Context RL Post-Training** | arXiv 2026 | speculative decoding / RL post-training / context parallelism / pipeline parallelism | [Link](https://arxiv.org/abs/2609.07108) | [Repo](https://github.com/NVIDIA-NeMo/RL) |
+| **P1 · Watch** | **Where to Look and What to Use: Retrieve-Localize-Generate for Long-Term Conversational Memory Question Answering** | arXiv 2026 | efficient reasoning/agent systems / long-term memory / retrieval localization | [Link](https://arxiv.org/abs/2609.07093) | — |
 | **P0 · Strong** | **RedKnot-MLA: Multi-Head Offline-Online Reuse for DeepSeek-V4 Long-Context Serving** | arXiv 2026 | LLM serving / KV cache reuse / MLA / long context | [Link](https://arxiv.org/abs/2609.07008) | — |
 | **P1 · Watch** | **Unified AI Gateway: A Framework for Joint Model Routing and KV Cache Management** | arXiv 2026 | LLM serving / model routing / KV cache management / edge-cloud placement | [Link](https://arxiv.org/abs/2609.06940) | — |
 | **P1 · Watch** | **Characterizing Contention-Induced Reliability Collapse in KV-Cache Timing Side Channels for Multi-Tenant LLM Serving** | arXiv 2026 | KV cache/long-context / LLM serving / multi-tenant security characterization | [Link](https://arxiv.org/abs/2609.06853) | — |

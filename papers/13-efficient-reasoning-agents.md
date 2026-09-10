@@ -1,10 +1,10 @@
 # 13 · Efficient Reasoning / Agents
 
-> **314 canonical papers** mapped here, plus a broader **150-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **314 canonical papers** mapped here, plus a broader **153-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 150 tracked
+## 🆕 Latest 30 Days · 153 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -23,8 +23,10 @@
 | **P1 · Watch** | **GTA-2: A Multi-VLM Framework for Synthesizing Robot Manipulation Skills via Grounded Task Axes** | arXiv 2026 | VLA/WAM/Physical AI / multi-VLM skill synthesis / zero-shot manipulation / modular control | [Link](https://arxiv.org/abs/2609.09808) | [Repo](https://gta2-project.github.io/) |
 | **P0 · Strong** | **HiRAD: A Flexible Large-Scale AGV Routing System** | arXiv 2026 | VLA/WAM/Physical AI / real-time multi-agent routing / hierarchical RL / edge control | [Link](https://arxiv.org/abs/2609.09752) | — |
 | **P0 · Strong** | **UNISON: A Co-Designed Near-Memory Scheduler of Session KV Residency for LLM Agents** | arXiv 2026 | KV cache/long-context / agent serving / near-memory scheduling | [Link](https://arxiv.org/abs/2609.09643) | — |
+| **P1 · Watch** | **Benchmarking Agentic HLS Design Tasks With HLS-Eval** | arXiv 2026 | GPU kernel/DSL/compilers / hardware design automation / agent cost profiling | [Link](https://arxiv.org/abs/2609.09526) | — |
 | **P1 · Watch** | **From Fixed Keys to Readable Schemas: Small Language Models for Vehicle Agent Function Calls** | arXiv 2026 | VLA/WAM/Physical AI / edge agents / on-device SLM / function calling | [Link](https://arxiv.org/abs/2609.09476) | — |
 | **P1 · Watch** | **Procedural Graphs: Self-Evolving Execution Structures for LLM Agents** | arXiv 2026 | efficient reasoning/agent systems / procedural memory / long-horizon tool use | [Link](https://arxiv.org/abs/2609.09153) | — |
+| **P1 · Watch** | **Co-Evolving Harnesses and Models: On-Policy Correction Helps Weaker Models Catch Up Where Imitation Fails** | arXiv 2026 | efficient reasoning/agent systems / harness optimization / small-model deployment | [Link](https://arxiv.org/abs/2609.09134) | — |
 | **P1 · Watch** | **MeClear: Cooperative Game-Theoretic Attribution and Risk-Aware Memory Clearance for Long-Horizon LLM Agents** | arXiv 2026 | efficient reasoning/agent systems / agent memory / context management | [Link](https://arxiv.org/abs/2609.09115) | — |
 | **P1 · Watch** | **Omni Interaction Agent Technical Report** | arXiv 2026 | multimodal/MLLM serving / efficient reasoning/agent systems / streaming full-duplex runtime | [Link](https://arxiv.org/abs/2609.08977) | — |
 | **P1 · Watch** | **SkillAdam: Stable and Efficient Skill Evolution for Agents** | arXiv 2026 | efficient reasoning/agent systems / skill optimization / agent memory / cost reduction | [Link](https://arxiv.org/abs/2609.08944) | [Repo](https://github.com/ruc-datalab/SkillAdam) |
@@ -50,6 +52,7 @@
 | **P0 · Strong** | **Agentic Algorithm Engineering: Improving Shared-Memory Exact Minimum Cuts** | arXiv 2026 | efficient reasoning/agent systems / autonomous algorithm engineering / shared-memory optimization / performance tuning | [Link](https://arxiv.org/abs/2609.07204) | — |
 | **P1 · Watch** | **NutriBench-Kitchen: Benchmarking Embodied AI for Nutrition Management** | arXiv 2026 | VLA/WAM/Physical AI / persistent embodied memory / long-horizon kitchen agents | [Link](https://arxiv.org/abs/2609.07135) | — |
 | **P0 · Strong** | **Online Draft Co-Training for Speculative Decoding in Large-Scale, Long-Context RL Post-Training** | arXiv 2026 | speculative decoding / RL post-training / context parallelism / pipeline parallelism | [Link](https://arxiv.org/abs/2609.07108) | [Repo](https://github.com/NVIDIA-NeMo/RL) |
+| **P1 · Watch** | **Where to Look and What to Use: Retrieve-Localize-Generate for Long-Term Conversational Memory Question Answering** | arXiv 2026 | efficient reasoning/agent systems / long-term memory / retrieval localization | [Link](https://arxiv.org/abs/2609.07093) | — |
 | **P1 · Watch** | **Train Overcomplete, Deploy Compact: Scaling Recovery Capacity for Structured LLM Pruning** | arXiv 2026 | sparsity/pruning / structured LLM pruning / recovery | [Link](https://arxiv.org/abs/2609.06974) | [Repo](https://github.com/mmai-laboratory/OverRep) |
 | **P1 · Watch** | **Distributed Dexterous Manipulation with Spatially Conditioned Multi-Agent Transformers** | arXiv 2026 | VLA/WAM/Physical AI serving / multi-agent transformer / dexterous manipulation | [Link](https://arxiv.org/abs/2609.06930) | — |
 | **P0 · Strong** | **OCTN: Neural OCT Representations for Robot-Guided Precision Intervention** | arXiv 2026 | VLA/WAM/Physical AI serving / edge/GPU runtime / robot-guided intervention | [Link](https://arxiv.org/abs/2609.06810) | [Repo](https://raprakashvi.github.io/octn) |

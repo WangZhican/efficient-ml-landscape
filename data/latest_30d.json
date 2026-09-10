@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-11",
   "window_start_beijing": "2026-08-12",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 670,
+  "tracked_total": 675,
   "p0_strong_or_canonical": [
     {
       "title": "HybridFLow: SDN-Orchestrated Client Partitioning for Hybrid Federated Learning",
@@ -4176,6 +4176,28 @@
       ]
     },
     {
+      "title": "Storage-Scalable Progressive Semantic Communication via Knowledge-Base Reuse",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / semantic communication / storage efficiency",
+      "arxiv": "2609.10112",
+      "doi": "",
+      "official_id": "arXiv:2609.10112",
+      "paper_url": "https://arxiv.org/abs/2609.10112",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Reuses a compact set of knowledge bases across progressive residual refinement stages, decoupling maintained-KB storage from transmission depth while preserving competitive semantic reconstruction. Useful edge/communication storage-efficiency evidence, but the abstract does not give a clean end-to-end AI serving latency or energy gain.",
+      "published_at": "2026-09-09T12:46:19Z",
+      "updated_at": "2026-09-09T12:46:19Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "UnitBoost: Managing Compound LLM Systems with a Merge Operator, Not a Model",
       "venue": "arXiv 2026",
       "topic": "efficient reasoning/agent systems / compound LLM systems / non-generative orchestration",
@@ -4284,6 +4306,27 @@
       ]
     },
     {
+      "title": "Benchmarking Agentic HLS Design Tasks With HLS-Eval",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / hardware design automation / agent cost profiling",
+      "arxiv": "2609.09526",
+      "doi": "",
+      "official_id": "arXiv:2609.09526",
+      "paper_url": "https://arxiv.org/abs/2609.09526",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Extends HLS-Eval with an agentic flow that edits code, compiles for self-verification, iterates during inference, and logs cost, token usage, and iteration count. Highly relevant to AI-for-hardware workflow efficiency and tool-use evaluation, but it is primarily a benchmark rather than a demonstrated acceleration method.",
+      "published_at": "2026-09-08T23:12:36Z",
+      "updated_at": "2026-09-08T23:12:36Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "From Fixed Keys to Readable Schemas: Small Language Models for Vehicle Agent Function Calls",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI / edge agents / on-device SLM / function calling",
@@ -4388,6 +4431,26 @@
         "LLM Serving",
         "Diffusion / Flow Acceleration",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Co-Evolving Harnesses and Models: On-Policy Correction Helps Weaker Models Catch Up Where Imitation Fails",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / harness optimization / small-model deployment",
+      "arxiv": "2609.09134",
+      "doi": "",
+      "official_id": "arXiv:2609.09134",
+      "paper_url": "https://arxiv.org/abs/2609.09134",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Studies co-evolution of agent harnesses and lightweight model adaptation across seven enterprise tasks. Evolved harnesses let weaker models approach stronger-model behavior at lower deployment cost, while naive expert-trajectory imitation can regress 4-30 points. Strong evidence that runtime scaffolding and model adaptation must be co-designed, but the abstract does not provide a clean latency/token-cost reduction, so it remains high-value watchlist.",
+      "published_at": "2026-09-08T17:53:49Z",
+      "updated_at": "2026-09-08T17:53:49Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -5598,6 +5661,27 @@
       ]
     },
     {
+      "title": "Where to Look and What to Use: Retrieve-Localize-Generate for Long-Term Conversational Memory Question Answering",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / long-term memory / retrieval localization",
+      "arxiv": "2609.07093",
+      "doi": "",
+      "official_id": "arXiv:2609.07093",
+      "paper_url": "https://arxiv.org/abs/2609.07093",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Introduces MemLoc, combining multi-granularity memory retrieval, graph-based cross-session routing, and a reasoning-based evidence localizer to reduce noisy long-context evidence before generation. The architecture is directly relevant to efficient long-term agent memory, but the primary abstract does not provide a clean token/latency reduction, so it remains watchlist.",
+      "published_at": "2026-09-07T06:32:12Z",
+      "updated_at": "2026-09-07T06:32:12Z",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "NOVA-CIM: Noise- and Correlation-Tolerant Stochastic Interfaces for Analog Compute-in-Memory",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI systems / compute-in-memory / accelerator interfaces",
@@ -6458,6 +6542,28 @@
         "LLM Serving",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Human-Human & Human-Robot Interaction Transformer (H2INT) for Robot Navigation in Dense and Uncertain Crowds",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / robot navigation / interaction modeling",
+      "arxiv": "2609.05300",
+      "doi": "",
+      "official_id": "arXiv:2609.05300",
+      "paper_url": "https://arxiv.org/abs/2609.05300",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Uses a gated Transformer and recurrent policy to model human-human and human-robot interactions under heterogeneous pedestrian responsiveness. It is a useful Physical-AI navigation and temporal-interaction lineage point, but it does not establish inference acceleration or deployment-efficiency gains in the primary abstract.",
+      "published_at": "2026-09-04T15:53:56Z",
+      "updated_at": "2026-09-04T15:53:56Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -18681,6 +18787,28 @@
       ]
     },
     {
+      "title": "Storage-Scalable Progressive Semantic Communication via Knowledge-Base Reuse",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / semantic communication / storage efficiency",
+      "arxiv": "2609.10112",
+      "doi": "",
+      "official_id": "arXiv:2609.10112",
+      "paper_url": "https://arxiv.org/abs/2609.10112",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Reuses a compact set of knowledge bases across progressive residual refinement stages, decoupling maintained-KB storage from transmission depth while preserving competitive semantic reconstruction. Useful edge/communication storage-efficiency evidence, but the abstract does not give a clean end-to-end AI serving latency or energy gain.",
+      "published_at": "2026-09-09T12:46:19Z",
+      "updated_at": "2026-09-09T12:46:19Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "UnitBoost: Managing Compound LLM Systems with a Merge Operator, Not a Model",
       "venue": "arXiv 2026",
       "topic": "efficient reasoning/agent systems / compound LLM systems / non-generative orchestration",
@@ -18789,6 +18917,27 @@
       ]
     },
     {
+      "title": "Benchmarking Agentic HLS Design Tasks With HLS-Eval",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / hardware design automation / agent cost profiling",
+      "arxiv": "2609.09526",
+      "doi": "",
+      "official_id": "arXiv:2609.09526",
+      "paper_url": "https://arxiv.org/abs/2609.09526",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Extends HLS-Eval with an agentic flow that edits code, compiles for self-verification, iterates during inference, and logs cost, token usage, and iteration count. Highly relevant to AI-for-hardware workflow efficiency and tool-use evaluation, but it is primarily a benchmark rather than a demonstrated acceleration method.",
+      "published_at": "2026-09-08T23:12:36Z",
+      "updated_at": "2026-09-08T23:12:36Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "From Fixed Keys to Readable Schemas: Small Language Models for Vehicle Agent Function Calls",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI / edge agents / on-device SLM / function calling",
@@ -18893,6 +19042,26 @@
         "LLM Serving",
         "Diffusion / Flow Acceleration",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Co-Evolving Harnesses and Models: On-Policy Correction Helps Weaker Models Catch Up Where Imitation Fails",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / harness optimization / small-model deployment",
+      "arxiv": "2609.09134",
+      "doi": "",
+      "official_id": "arXiv:2609.09134",
+      "paper_url": "https://arxiv.org/abs/2609.09134",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Studies co-evolution of agent harnesses and lightweight model adaptation across seven enterprise tasks. Evolved harnesses let weaker models approach stronger-model behavior at lower deployment cost, while naive expert-trajectory imitation can regress 4-30 points. Strong evidence that runtime scaffolding and model adaptation must be co-designed, but the abstract does not provide a clean latency/token-cost reduction, so it remains high-value watchlist.",
+      "published_at": "2026-09-08T17:53:49Z",
+      "updated_at": "2026-09-08T17:53:49Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -20103,6 +20272,27 @@
       ]
     },
     {
+      "title": "Where to Look and What to Use: Retrieve-Localize-Generate for Long-Term Conversational Memory Question Answering",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / long-term memory / retrieval localization",
+      "arxiv": "2609.07093",
+      "doi": "",
+      "official_id": "arXiv:2609.07093",
+      "paper_url": "https://arxiv.org/abs/2609.07093",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Introduces MemLoc, combining multi-granularity memory retrieval, graph-based cross-session routing, and a reasoning-based evidence localizer to reduce noisy long-context evidence before generation. The architecture is directly relevant to efficient long-term agent memory, but the primary abstract does not provide a clean token/latency reduction, so it remains watchlist.",
+      "published_at": "2026-09-07T06:32:12Z",
+      "updated_at": "2026-09-07T06:32:12Z",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "NOVA-CIM: Noise- and Correlation-Tolerant Stochastic Interfaces for Analog Compute-in-Memory",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI systems / compute-in-memory / accelerator interfaces",
@@ -20963,6 +21153,28 @@
         "LLM Serving",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Human-Human & Human-Robot Interaction Transformer (H2INT) for Robot Navigation in Dense and Uncertain Crowds",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / robot navigation / interaction modeling",
+      "arxiv": "2609.05300",
+      "doi": "",
+      "official_id": "arXiv:2609.05300",
+      "paper_url": "https://arxiv.org/abs/2609.05300",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Uses a gated Transformer and recurrent policy to model human-human and human-robot interactions under heterogeneous pedestrian responsiveness. It is a useful Physical-AI navigation and temporal-interaction lineage point, but it does not establish inference acceleration or deployment-efficiency gains in the primary abstract.",
+      "published_at": "2026-09-04T15:53:56Z",
+      "updated_at": "2026-09-04T15:53:56Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {

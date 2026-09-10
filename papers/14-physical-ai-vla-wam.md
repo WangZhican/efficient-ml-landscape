@@ -1,10 +1,10 @@
 # 14 · VLA / WAM / Physical AI
 
-> **137 canonical papers** mapped here, plus a broader **161-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **137 canonical papers** mapped here, plus a broader **162-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 161 tracked
+## 🆕 Latest 30 Days · 162 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -63,6 +63,7 @@
 | **P0 · Strong** | **SceneMosaic: Efficient and Diverse Simulation-Ready Scene Generation via Hybrid Agentic Layout Evolution** | arXiv 2026 | VLA/WAM/Physical AI serving / simulation infrastructure / agentic generation | [Link](https://arxiv.org/abs/2609.05594) | [Repo](https://github.com/rxjfighting/SceneMosaic) |
 | **P1 · Watch** | **Towards Neuro-Symbolic Procedural Reasoning for Long-Horizon Vision-Language-Action Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving / long-horizon VLA / procedural memory | [Link](https://arxiv.org/abs/2609.05369) | — |
 | **P1 · Watch** | **RoboSPA: Can VLA Models Go Beyond Simple Scenes and Short-Horizon Tasks?** | arXiv 2026 | VLA/WAM/Physical AI serving / benchmark / long-horizon embodied reasoning | [Link](https://arxiv.org/abs/2609.05324) | [Repo](https://github.com/fanzhenxuan/RoboSPA) |
+| **P1 · Watch** | **Human-Human & Human-Robot Interaction Transformer (H2INT) for Robot Navigation in Dense and Uncertain Crowds** | arXiv 2026 | VLA/WAM/Physical AI serving / robot navigation / interaction modeling | [Link](https://arxiv.org/abs/2609.05300) | — |
 | **P1 · Watch** | **Temporal Tactile Encoding and Compliance for Intent-Aware Robot-to-Human Bimanual Handover** | arXiv 2026 | VLA/WAM/Physical AI serving / multimodal VLA / tactile control | [Link](https://arxiv.org/abs/2609.05282) | — |
 | **P1 · Watch** | **One Word, Different Action: A Real-Robot Benchmark for Language-Conditioned Embodied Reasoning** | arXiv 2026 | VLA/WAM/Physical AI serving / real-robot benchmark / language-conditioned action reasoning | [Link](https://arxiv.org/abs/2609.05260) | — |
 | **P1 · Watch** | **Compact Neural Appearance Models for Efficient Gaussian Splatting** | arXiv 2026 | VLA/WAM/Physical AI / 3DGS / compact appearance representation / CUDA rendering | [Link](https://arxiv.org/abs/2609.05255) | — |

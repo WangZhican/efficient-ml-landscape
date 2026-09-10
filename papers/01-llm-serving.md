@@ -1,10 +1,10 @@
 # 01 · LLM Serving
 
-> **762 canonical papers** mapped here, plus a broader **428-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **762 canonical papers** mapped here, plus a broader **430-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 428 tracked
+## 🆕 Latest 30 Days · 430 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -22,6 +22,7 @@
 | **P1 · Watch** | **KVShareArena: KV-Cache Reuse Across Contexts and Model Checkpoints** | arXiv 2026 | KV cache/long-context / LLM serving / benchmark and cost accounting | [Link](https://arxiv.org/abs/2609.10266) | — |
 | **P0 · Strong** | **Maverick: Private and Verifiable LLM Inference Made Practical via Matrix-Vector Multiplication Delegation** | arXiv 2026 | LLM serving / private inference / verifiable delegation / heterogeneous offload | [Link](https://arxiv.org/abs/2609.10264) | — |
 | **P0 · Strong** | **LiteRAG: Cost-Efficient Graph-Based Retrieval-Augmented Generation** | arXiv 2026 | LLM serving / RAG / retrieval efficiency / context reduction | [Link](https://arxiv.org/abs/2609.10239) | — |
+| **P1 · Watch** | **Storage-Scalable Progressive Semantic Communication via Knowledge-Base Reuse** | arXiv 2026 | edge/cloud/heterogeneous AI systems / semantic communication / storage efficiency | [Link](https://arxiv.org/abs/2609.10112) | — |
 | **P0 · Strong** | **CLFTv2: Efficient Camera-LiDAR Fusion for Semantic Segmentation via Hierarchical Feature Pyramids** | arXiv 2026 | VLA/WAM/Physical AI / multimodal perception / efficient attention / edge inference | [Link](https://arxiv.org/abs/2609.09881) | — |
 | **P0 · Strong** | **AMEND: Audited Margins Enable Nonblocking Drops in GPU-PIM LLM Decoding** | arXiv 2026 | KV cache/long-context / sparse attention / GPU-PIM / LLM decoding | [Link](https://arxiv.org/abs/2609.09823) | — |
 | **P1 · Watch** | **UnitBoost: Managing Compound LLM Systems with a Merge Operator, Not a Model** | arXiv 2026 | efficient reasoning/agent systems / compound LLM systems / non-generative orchestration | [Link](https://arxiv.org/abs/2609.09815) | — |
@@ -137,6 +138,7 @@
 | **P0 · Strong** | **SceneMosaic: Efficient and Diverse Simulation-Ready Scene Generation via Hybrid Agentic Layout Evolution** | arXiv 2026 | VLA/WAM/Physical AI serving / simulation infrastructure / agentic generation | [Link](https://arxiv.org/abs/2609.05594) | [Repo](https://github.com/rxjfighting/SceneMosaic) |
 | **P1 · Watch** | **Towards Neuro-Symbolic Procedural Reasoning for Long-Horizon Vision-Language-Action Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving / long-horizon VLA / procedural memory | [Link](https://arxiv.org/abs/2609.05369) | — |
 | **P1 · Watch** | **RoboSPA: Can VLA Models Go Beyond Simple Scenes and Short-Horizon Tasks?** | arXiv 2026 | VLA/WAM/Physical AI serving / benchmark / long-horizon embodied reasoning | [Link](https://arxiv.org/abs/2609.05324) | [Repo](https://github.com/fanzhenxuan/RoboSPA) |
+| **P1 · Watch** | **Human-Human & Human-Robot Interaction Transformer (H2INT) for Robot Navigation in Dense and Uncertain Crowds** | arXiv 2026 | VLA/WAM/Physical AI serving / robot navigation / interaction modeling | [Link](https://arxiv.org/abs/2609.05300) | — |
 | **P1 · Watch** | **Temporal Tactile Encoding and Compliance for Intent-Aware Robot-to-Human Bimanual Handover** | arXiv 2026 | VLA/WAM/Physical AI serving / multimodal VLA / tactile control | [Link](https://arxiv.org/abs/2609.05282) | — |
 | **P1 · Watch** | **One Word, Different Action: A Real-Robot Benchmark for Language-Conditioned Embodied Reasoning** | arXiv 2026 | VLA/WAM/Physical AI serving / real-robot benchmark / language-conditioned action reasoning | [Link](https://arxiv.org/abs/2609.05260) | — |
 | **P1 · Watch** | **Compact Neural Appearance Models for Efficient Gaussian Splatting** | arXiv 2026 | VLA/WAM/Physical AI / 3DGS / compact appearance representation / CUDA rendering | [Link](https://arxiv.org/abs/2609.05255) | — |
