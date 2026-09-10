@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-10",
   "window_start_beijing": "2026-08-11",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 584,
+  "tracked_total": 588,
   "p0_strong_or_canonical": [
     {
       "title": "Distributed Linear Programming on GPU Clusters at Extreme Scale",
@@ -4657,6 +4657,28 @@
       ]
     },
     {
+      "title": "From Concentration to Differentiation and Back: Routing Effective Rank in MoE Reasoning Cohorts",
+      "venue": "arXiv 2026",
+      "topic": "MoE systems/accelerators / efficient reasoning / routing characterization",
+      "arxiv": "2609.06403",
+      "doi": "",
+      "official_id": "arXiv:2609.06403",
+      "paper_url": "https://arxiv.org/abs/2609.06403",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Introduces routing effective rank as a label-free measure of cross-rollout MoE expert-routing organization during test-time scaling, with a reproducible low-high-low trajectory across ten MoE configurations and five reasoning benchmarks. This is useful systems characterization for dynamic routing and test-time compute policies, but it does not itself provide a serving speedup, so it remains watch.",
+      "published_at": "2026-09-06T05:43:22Z",
+      "updated_at": "2026-09-06T05:43:22Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "MoE Systems / Accelerators",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Query-Oblivious Coresets for Softmax Attention: Improved Bounds and Efficient Constructions",
       "venue": "arXiv 2026",
       "topic": "efficient attention / attention coresets / theory",
@@ -4900,6 +4922,28 @@
       ]
     },
     {
+      "title": "Inference-Time Graph Engineering for Multi-Agent LLM Workflows",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / multi-agent orchestration / inference-time workflow graphs",
+      "arxiv": "2609.05774",
+      "doi": "",
+      "official_id": "arXiv:2609.05774",
+      "paper_url": "https://arxiv.org/abs/2609.05774",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "ReActNet compiles each query into task-conditioned temporal communication graphs with edge-level message semantics, separating graph compilation from execution without RL or gradient-based topology optimization. It improves multiple reasoning and assistant tasks while maintaining competitive inference cost, but the abstract gives no exact cost or latency reduction, so it remains high-value watch.",
+      "published_at": "2026-09-04T23:32:11Z",
+      "updated_at": "2026-09-04T23:32:11Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "RAGMark: A Comprehensive Framework for Benchmarking Retrieval-Augmented Generation Systems",
       "venue": "arXiv 2026",
       "topic": "LLM serving / RAG systems / benchmarking",
@@ -4940,6 +4984,28 @@
       "directions": [
         "LLM Serving",
         "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Temporal Tactile Encoding and Compliance for Intent-Aware Robot-to-Human Bimanual Handover",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / multimodal VLA / tactile control",
+      "arxiv": "2609.05282",
+      "doi": "",
+      "official_id": "arXiv:2609.05282",
+      "paper_url": "https://arxiv.org/abs/2609.05282",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI work coupling a VLA model with temporal tactile encoding, proprioception, and a compliance controller for intent-aware bimanual handover. Human-subject evaluation shows complementary gains over visual-only and tactile-without-compliance baselines, but no measured inference latency or compute reduction is reported, so it remains high-value watch.",
+      "published_at": "2026-09-04T15:34:47Z",
+      "updated_at": "2026-09-04T15:34:47Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI"
       ]
     },
@@ -5155,6 +5221,27 @@
         "LLM Serving",
         "Distributed Training / Inference",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "TourPhysics: Bringing Physics to World Models for Exploration and Manipulation from a Single Image",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / world models / physics-grounded generation",
+      "arxiv": "2609.04911",
+      "doi": "",
+      "official_id": "arXiv:2609.04911",
+      "paper_url": "https://arxiv.org/abs/2609.04911",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected world-model work that couples deterministic simulation, geometric evidence, generator controls, and persistent appearance memory for online exploration and manipulation from a single image. It improves trajectory adherence and long-horizon revisit consistency over baselines, but does not report serving/runtime acceleration metrics, so it remains high-value watch.",
+      "published_at": "2026-09-04T09:15:03Z",
+      "updated_at": "2026-09-07T04:56:06Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -17324,6 +17411,28 @@
       ]
     },
     {
+      "title": "From Concentration to Differentiation and Back: Routing Effective Rank in MoE Reasoning Cohorts",
+      "venue": "arXiv 2026",
+      "topic": "MoE systems/accelerators / efficient reasoning / routing characterization",
+      "arxiv": "2609.06403",
+      "doi": "",
+      "official_id": "arXiv:2609.06403",
+      "paper_url": "https://arxiv.org/abs/2609.06403",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Introduces routing effective rank as a label-free measure of cross-rollout MoE expert-routing organization during test-time scaling, with a reproducible low-high-low trajectory across ten MoE configurations and five reasoning benchmarks. This is useful systems characterization for dynamic routing and test-time compute policies, but it does not itself provide a serving speedup, so it remains watch.",
+      "published_at": "2026-09-06T05:43:22Z",
+      "updated_at": "2026-09-06T05:43:22Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "MoE Systems / Accelerators",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Query-Oblivious Coresets for Softmax Attention: Improved Bounds and Efficient Constructions",
       "venue": "arXiv 2026",
       "topic": "efficient attention / attention coresets / theory",
@@ -17567,6 +17676,28 @@
       ]
     },
     {
+      "title": "Inference-Time Graph Engineering for Multi-Agent LLM Workflows",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / multi-agent orchestration / inference-time workflow graphs",
+      "arxiv": "2609.05774",
+      "doi": "",
+      "official_id": "arXiv:2609.05774",
+      "paper_url": "https://arxiv.org/abs/2609.05774",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "ReActNet compiles each query into task-conditioned temporal communication graphs with edge-level message semantics, separating graph compilation from execution without RL or gradient-based topology optimization. It improves multiple reasoning and assistant tasks while maintaining competitive inference cost, but the abstract gives no exact cost or latency reduction, so it remains high-value watch.",
+      "published_at": "2026-09-04T23:32:11Z",
+      "updated_at": "2026-09-04T23:32:11Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "RAGMark: A Comprehensive Framework for Benchmarking Retrieval-Augmented Generation Systems",
       "venue": "arXiv 2026",
       "topic": "LLM serving / RAG systems / benchmarking",
@@ -17607,6 +17738,28 @@
       "directions": [
         "LLM Serving",
         "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Temporal Tactile Encoding and Compliance for Intent-Aware Robot-to-Human Bimanual Handover",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / multimodal VLA / tactile control",
+      "arxiv": "2609.05282",
+      "doi": "",
+      "official_id": "arXiv:2609.05282",
+      "paper_url": "https://arxiv.org/abs/2609.05282",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI work coupling a VLA model with temporal tactile encoding, proprioception, and a compliance controller for intent-aware bimanual handover. Human-subject evaluation shows complementary gains over visual-only and tactile-without-compliance baselines, but no measured inference latency or compute reduction is reported, so it remains high-value watch.",
+      "published_at": "2026-09-04T15:34:47Z",
+      "updated_at": "2026-09-04T15:34:47Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI"
       ]
     },
@@ -17822,6 +17975,27 @@
         "LLM Serving",
         "Distributed Training / Inference",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "TourPhysics: Bringing Physics to World Models for Exploration and Manipulation from a Single Image",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / world models / physics-grounded generation",
+      "arxiv": "2609.04911",
+      "doi": "",
+      "official_id": "arXiv:2609.04911",
+      "paper_url": "https://arxiv.org/abs/2609.04911",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected world-model work that couples deterministic simulation, geometric evidence, generator controls, and persistent appearance memory for online exploration and manipulation from a single image. It improves trajectory adherence and long-horizon revisit consistency over baselines, but does not report serving/runtime acceleration metrics, so it remains high-value watch.",
+      "published_at": "2026-09-04T09:15:03Z",
+      "updated_at": "2026-09-07T04:56:06Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {

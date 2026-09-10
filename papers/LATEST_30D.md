@@ -1,6 +1,6 @@
 # 🆕 Latest 30 Days
 
-> Rolling 30-day view ending **2026-09-10**: **584 tracked papers = 166 P0 + 299 P1 + 119 P2**. Topical relevance determines visibility; quality determines priority. The classical census remains stricter.
+> Rolling 30-day view ending **2026-09-10**: **588 tracked papers = 166 P0 + 303 P1 + 119 P2**. Topical relevance determines visibility; quality determines priority. The classical census remains stricter.
 
 [← Paper Library](ALL_PAPERS.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/latest_30d.json) · [CSV](../data/latest_30d.csv)
 
@@ -229,6 +229,7 @@
 | **P1 · Watch** | **VLA-Corrector: Stage-Aware Observable State Understanding for Prompt-Based Closed-Loop Recovery of Vision-Language-Action Policies** | arXiv 2026 | VLA/WAM/Physical AI serving / closed-loop recovery / runtime verifier | [Link](https://arxiv.org/abs/2609.06508) | — |
 | **P1 · Watch** | **One MLLM, One Call: Efficient Zero-Shot Vision-and-Language Navigation via Spatial-Aware Waypoints** | arXiv 2026 | VLA/WAM/Physical AI serving / VLN / sparse MLLM invocation / robot navigation | [Link](https://arxiv.org/abs/2609.06476) | — |
 | **P1 · Watch** | **PACO: A Fully Cache-Oblivious Parallel FFT with One Global Redistribution** | arXiv 2026 | distributed training/inference / parallel FFT / communication-efficient HPC | [Link](https://arxiv.org/abs/2609.06449) | — |
+| **P1 · Watch** | **From Concentration to Differentiation and Back: Routing Effective Rank in MoE Reasoning Cohorts** | arXiv 2026 | MoE systems/accelerators / efficient reasoning / routing characterization | [Link](https://arxiv.org/abs/2609.06403) | — |
 | **P1 · Watch** | **Query-Oblivious Coresets for Softmax Attention: Improved Bounds and Efficient Constructions** | arXiv 2026 | efficient attention / attention coresets / theory | [Link](https://arxiv.org/abs/2609.06327) | — |
 | **P1 · Watch** | **MobileVLA-R1 2.0: RL-Enhanced Reasoning for Mobile Robot Control** | arXiv 2026 | VLA/WAM/Physical AI serving / mobile robot control / reasoning-action decoupling | [Link](https://arxiv.org/abs/2609.06251) | [Repo](https://github.com/AIGeeksGroup/MobileVLA-R1-2.0) |
 | **P1 · Watch** | **From Splats to Silicon: Rethinking Computational Efficiency of 3DGS** | arXiv 2026 | GPU kernel/DSL/compilers / 3DGS acceleration / accelerator architecture | [Link](https://arxiv.org/abs/2609.06157) | — |
@@ -240,8 +241,10 @@
 | **P1 · Watch** | **Rethinking the Evaluation of Efficiency Methods for Multi-Agent Systems** | arXiv 2026 | efficient reasoning/agent systems / multi-agent efficiency / evaluation methodology | [Link](https://arxiv.org/abs/2609.05933) | — |
 | **P1 · Watch** | **CR-VLA-Force: Learning Control-aware Compliance VLA Model for Robust Contact-rich Robotic Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving / multimodal MoE / reactive control | [Link](https://arxiv.org/abs/2609.05832) | — |
 | **P1 · Watch** | **Distilling Vision-Language Models for On-Device Fire Understanding** | arXiv 2026 | multimodal/MLLM serving / edge inference / VLM distillation | [Link](https://arxiv.org/abs/2609.05782) | — |
+| **P1 · Watch** | **Inference-Time Graph Engineering for Multi-Agent LLM Workflows** | arXiv 2026 | efficient reasoning/agent systems / multi-agent orchestration / inference-time workflow graphs | [Link](https://arxiv.org/abs/2609.05774) | — |
 | **P1 · Watch** | **RAGMark: A Comprehensive Framework for Benchmarking Retrieval-Augmented Generation Systems** | arXiv 2026 | LLM serving / RAG systems / benchmarking | [Link](https://arxiv.org/abs/2609.05760) | [Repo](https://github.com/zferic/RAGMark) |
 | **P1 · Watch** | **RoboSPA: Can VLA Models Go Beyond Simple Scenes and Short-Horizon Tasks?** | arXiv 2026 | VLA/WAM/Physical AI serving / benchmark / long-horizon embodied reasoning | [Link](https://arxiv.org/abs/2609.05324) | [Repo](https://github.com/fanzhenxuan/RoboSPA) |
+| **P1 · Watch** | **Temporal Tactile Encoding and Compliance for Intent-Aware Robot-to-Human Bimanual Handover** | arXiv 2026 | VLA/WAM/Physical AI serving / multimodal VLA / tactile control | [Link](https://arxiv.org/abs/2609.05282) | — |
 | **P1 · Watch** | **Proton Irradiation Characterization of an Open-Source ML Accelerator on a Zynq UltraScale+ MPSoC** | arXiv 2026 | edge/cloud/heterogeneous AI systems / Physical AI / FPGA accelerator reliability | [Link](https://arxiv.org/abs/2609.05249) | — |
 | **P1 · Watch** | **ACE: Adaptive Calibration-Free Expert Skipping for MoE-based LLMs** | arXiv 2026 | MoE systems/accelerators / adaptive expert skipping | [Link](https://arxiv.org/abs/2609.05228) | — |
 | **P1 · Watch** | **APEX-RBD: Mixed-Precision Exploration Framework for Hardware-Efficient Robot Dynamics Accelerator Design** | arXiv 2026 | VLA/WAM/Physical AI serving / robot accelerator / mixed precision / edge hardware | [Link](https://arxiv.org/abs/2609.05161) | — |
@@ -252,6 +255,7 @@
 | **P1 · Watch** | **GreenPipe: Power Modeling for Containerized DNN Inference on Kubernetes Edge Nodes** | arXiv 2026 | edge/cloud heterogeneous AI systems / Kubernetes inference / online power modeling / energy-aware serving | [Link](https://arxiv.org/abs/2609.04952) | — |
 | **P1 · Watch** | **MCPO: Modality-Contrastive Preference Optimization for Multimodal Chain-of-Thought Compression** | arXiv 2026 | efficient reasoning/agent systems / multimodal reasoning / CoT compression / KV pressure | [Link](https://arxiv.org/abs/2609.04947) | — |
 | **P1 · Watch** | **Compact-Memory LLM Agents via Online Max-Member Clustering and Atom-Aware Packing** | arXiv 2026 | efficient reasoning/agent systems / memory compression / long-horizon agents | [Link](https://arxiv.org/abs/2609.04915) | — |
+| **P1 · Watch** | **TourPhysics: Bringing Physics to World Models for Exploration and Manipulation from a Single Image** | arXiv 2026 | VLA/WAM/Physical AI serving / world models / physics-grounded generation | [Link](https://arxiv.org/abs/2609.04911) | — |
 | **P1 · Watch** | **Fast Gauss Sums via Flash Attention** | arXiv 2026 | GPU kernel/DSL/compilers / efficient attention reuse | [Link](https://arxiv.org/abs/2609.04910) | — |
 | **P1 · Watch** | **Cache-Aware Joint Router Adaptation for Memory-Efficient MoE Inference** | arXiv 2026 | MoE systems/accelerators / expert cache / router adaptation | [Link](https://arxiv.org/abs/2609.04895) | — |
 | **P1 · Watch** | **Reasoning Without Inference Cost: Latent Semantic Scaffolding for Robot VLA Policies** | arXiv 2026 | VLA/WAM/Physical AI serving / zero-overhead reasoning / deployment efficiency | [Link](https://arxiv.org/abs/2609.04893) | — |

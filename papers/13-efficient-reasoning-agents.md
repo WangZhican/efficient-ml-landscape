@@ -1,10 +1,10 @@
 # 13 · Efficient Reasoning / Agents
 
-> **299 canonical papers** mapped here, plus a broader **116-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **299 canonical papers** mapped here, plus a broader **118-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 116 tracked
+## 🆕 Latest 30 Days · 118 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -24,12 +24,14 @@
 | **P0 · Strong** | **OCTN: Neural OCT Representations for Robot-Guided Precision Intervention** | arXiv 2026 | VLA/WAM/Physical AI serving / edge/GPU runtime / robot-guided intervention | [Link](https://arxiv.org/abs/2609.06810) | [Repo](https://raprakashvi.github.io/octn) |
 | **P0 · Strong** | **PARSER: Read in Parallel, Reason in Depth for Long-Context LLM Agents** | arXiv 2026 | efficient reasoning/agent systems / long-context / parallel inference | [Link](https://arxiv.org/abs/2609.06702) | — |
 | **P0 · Strong** | **ForgeStencil: Automating Per-Case Stencil Specialization from Kernels to 100+ Real Applications** | arXiv 2026 | GPU kernel/DSL/compilers / code-generation agents / CUDA specialization | [Link](https://arxiv.org/abs/2609.06694) | — |
+| **P1 · Watch** | **From Concentration to Differentiation and Back: Routing Effective Rank in MoE Reasoning Cohorts** | arXiv 2026 | MoE systems/accelerators / efficient reasoning / routing characterization | [Link](https://arxiv.org/abs/2609.06403) | — |
 | **P1 · Watch** | **MobileVLA-R1 2.0: RL-Enhanced Reasoning for Mobile Robot Control** | arXiv 2026 | VLA/WAM/Physical AI serving / mobile robot control / reasoning-action decoupling | [Link](https://arxiv.org/abs/2609.06251) | [Repo](https://github.com/AIGeeksGroup/MobileVLA-R1-2.0) |
 | **P0 · Strong** | **Diamond Agent: Agentic Control of Federated HPC Resources as a Service** | arXiv 2026 | efficient reasoning/agent systems / distributed training/inference / heterogeneous HPC orchestration | [Link](https://arxiv.org/abs/2609.06181) | — |
 | **P0 · Strong** | **Substrate-Portable Execution for Production LLM Workflows** | arXiv 2026 | efficient reasoning/agent systems / LLM serving / production orchestration / batch and streaming runtime | [Link](https://arxiv.org/abs/2609.06128) | — |
 | **P1 · Watch** | **FALCON-S: Fixed-wing ground-effect Aerodynamics Simulator and Flight Control Learning Suite** | arXiv 2026 | VLA/WAM/Physical AI serving / GPU simulation / robot learning | [Link](https://arxiv.org/abs/2609.06046) | — |
 | **P1 · Watch** | **Rethinking the Evaluation of Efficiency Methods for Multi-Agent Systems** | arXiv 2026 | efficient reasoning/agent systems / multi-agent efficiency / evaluation methodology | [Link](https://arxiv.org/abs/2609.05933) | — |
 | **P1 · Watch** | **Distilling Vision-Language Models for On-Device Fire Understanding** | arXiv 2026 | multimodal/MLLM serving / edge inference / VLM distillation | [Link](https://arxiv.org/abs/2609.05782) | — |
+| **P1 · Watch** | **Inference-Time Graph Engineering for Multi-Agent LLM Workflows** | arXiv 2026 | efficient reasoning/agent systems / multi-agent orchestration / inference-time workflow graphs | [Link](https://arxiv.org/abs/2609.05774) | — |
 | **P0 · Strong** | **From Monolithic Blending to Agentic Orchestration: Dynamic Response for Conversational Assistants at Scale** | arXiv 2026 | efficient reasoning/agent systems / production conversational serving / orchestration / GPU footprint | [Link](https://arxiv.org/abs/2609.05758) | — |
 | **P0 · Strong** | **SceneMosaic: Efficient and Diverse Simulation-Ready Scene Generation via Hybrid Agentic Layout Evolution** | arXiv 2026 | VLA/WAM/Physical AI serving / simulation infrastructure / agentic generation | [Link](https://arxiv.org/abs/2609.05594) | [Repo](https://github.com/rxjfighting/SceneMosaic) |
 | **P1 · Watch** | **RoboSPA: Can VLA Models Go Beyond Simple Scenes and Short-Horizon Tasks?** | arXiv 2026 | VLA/WAM/Physical AI serving / benchmark / long-horizon embodied reasoning | [Link](https://arxiv.org/abs/2609.05324) | [Repo](https://github.com/fanzhenxuan/RoboSPA) |
