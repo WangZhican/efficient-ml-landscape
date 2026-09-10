@@ -1,6 +1,6 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **1554 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **1564 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
@@ -385,7 +385,7 @@
 | **Canonical** | **xKV: Cross-Layer KV-Cache Compression via Aligned Singular Vector Extraction** | ICML 2026 | KV cache compression / long-context inference / cross-layer low-rank factorization | [Link](https://arxiv.org/abs/2503.18893) | [Repo](https://github.com/abdelfattah-lab/xKV) |
 | **Canonical** | **ZipMoE: Efficient On-Device MoE Serving via Lossless Compression and Cache-Affinity Scheduling** | ICML 2026 | MoE serving / on-device inference / lossless compression / cache-affinity scheduling | [Link](https://arxiv.org/abs/2601.21198) | — |
 
-## arXiv 2026 · 129
+## arXiv 2026 · 136
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -431,6 +431,7 @@
 | **Canonical** | **GaussianDream++: Efficient 3D Gaussian World Modeling for Robotic Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving / efficient 3D world modeling | [Link](https://arxiv.org/abs/2608.25659) | — |
 | **Canonical** | **GRADSOLVE: fast exact gradients for ODE ensembles on GPUs** | arXiv 2026 | GPU kernel/DSL/compilers / JAX / differentiable scientific computing | [Link](https://arxiv.org/abs/2609.02876) | [Repo](https://github.com/ECLIPSE-AI4Science/gradsolve) |
 | **Canonical** | **Grid Games: The Power of Multiple Grids for Quantizing Large Language Models** | arXiv 2026 | LLM quantization; microscaled FP4; adaptive grids; hardware data formats | [Link](https://arxiv.org/abs/2605.12327) | [Repo](https://github.com/IST-DASLab/GridGames) |
+| **Canonical** | **GrowPage: On-Demand KV Budgeting for Efficient LLM Reasoning Serving** | arXiv 2026 | KV cache/long-context / efficient reasoning / LLM serving | [Link](https://arxiv.org/abs/2609.03494) | — |
 | **Canonical** | **GSQ: Highly-Accurate Low-Precision Scalar Quantization for LLMs via Gumbel-Softmax Sampling** | arXiv 2026 | LLM quantization / 1-3 bit scalar PTQ / kernel-compatible deployment / MoE compression | [Link](https://arxiv.org/abs/2604.18556) | [Repo](https://github.com/IST-DASLab/GSQ) |
 | **Canonical** | **H3DNAS: Hardware-Aware ONNX-Native 3D Point Cloud Model Compression** | arXiv 2026 | edge/cloud/heterogeneous AI systems / sparsity-pruning / deployment compiler | [Link](https://arxiv.org/abs/2609.02684) | [Repo](https://github.com/ClarityLab-Org/h3dnas) |
 | **Canonical** | **Hardware-Accelerated Instance Segmentation for Resource-Constrained Space Robotics with Criticality Analysis** | arXiv 2026 | VLA/WAM/Physical AI serving / edge accelerator / quantization / reliable robotics inference | [Link](https://arxiv.org/abs/2609.02219) | — |
@@ -449,6 +450,7 @@
 | **Canonical** | **Laplacian Frequency Hierarchies for Efficient 3D Gaussian Splatting Training** | arXiv 2026 | video/image generation acceleration / 3D Gaussian Splatting / efficient training | [Link](https://arxiv.org/abs/2609.03334) | — |
 | **Canonical** | **Latency-Aware Orchestration for Multi-Agent LLM Workflows on Heterogeneous GPUs** | arXiv 2026 | efficient reasoning/agent systems / heterogeneous GPU serving | [Link](https://arxiv.org/abs/2609.03335) | — |
 | **Canonical** | **LatentPress: Context Compression Beyond Text and Vision** | arXiv 2026 | KV cache/long-context / LLM serving / context compression | [Link](https://arxiv.org/abs/2609.01507) | [Repo](https://github.com/HJSang/LatentPress) |
+| **Canonical** | **LeanGRPO: Eliminating Redundant Recomputation in Diffusion RL** | arXiv 2026 | diffusion/flow acceleration / efficient training / reasoning post-training | [Link](https://arxiv.org/abs/2609.03528) | — |
 | **Canonical** | **Learning Agent Execution for KV-Cache Management in Agentic Serving** | arXiv 2026 | LLM serving / agent systems / KV cache / cache eviction / prefetching | [Link](https://arxiv.org/abs/2608.14624) | — |
 | **Canonical** | **LiveVVT: High-Fidelity Video Virtual Try-On in Real Time** | arXiv 2026 | video generation acceleration / streaming diffusion / rolling recurrent generation / few-step distillation | [Link](https://arxiv.org/abs/2608.26714) | — |
 | **Canonical** | **Llamas on the Web: Memory-Efficient, Performance-Portable, and Multi-Precision LLM Inference with WebGPU** | arXiv 2026 | edge/cloud/heterogeneous AI systems / LLM inference / WebGPU / multi-precision / browser runtime | [Link](https://arxiv.org/abs/2605.20706) | [Repo](https://reeselevine.github.io/llamas-on-the-web/) |
@@ -478,7 +480,9 @@
 | **Canonical** | **QUASAR: Lowering the Loss Floor of Quantization-Aware Training with Loss-Aware Reconstruction** | arXiv 2026 | quantization / quantization-aware training / low-bit LLM deployment / NVFP4 | [Link](https://arxiv.org/abs/2608.13966) | [Repo](https://vincentcounathe.github.io/) |
 | **Canonical** | **RAC: Reference-Aware Activation Compression for Communication-Efficient Split LLM Inference** | arXiv 2026 | distributed inference / edge-cloud / activation compression | [Link](https://arxiv.org/abs/2608.04991) | — |
 | **Canonical** | **Ragged Paged Attention: A High-Performance and Flexible LLM Inference Kernel for TPU** | arXiv 2026 | efficient attention / TPU inference / JAX-Pallas | [Link](https://arxiv.org/abs/2604.15464) | — |
+| **Canonical** | **Random Attention: Rethinking KV Cache Eviction for Efficient Reasoning** | arXiv 2026 | KV cache/long-context / efficient reasoning / LLM serving | [Link](https://arxiv.org/abs/2609.03430) | [Repo](https://github.com/SalesforceAIResearch/Random-Attention) |
 | **Canonical** | **Realtime-VLA FLASH: Speculative Inference Framework for Diffusion-based VLAs** | arXiv 2026 | VLA/WAM/Physical AI serving / speculative inference / diffusion action head / Triton kernels | [Link](https://arxiv.org/abs/2605.13778) | [Repo](https://github.com/dexmal/realtime-vla-flash) |
+| **Canonical** | **RecurTrace: Adaptive Latent Reasoning with Loop-Time Memory** | arXiv 2026 | efficient reasoning/agent systems / adaptive compute / latent recurrence | [Link](https://arxiv.org/abs/2609.03379) | — |
 | **Canonical** | **Reducing Temporal Redundancy for Efficient Vision-Language-Action Inference** | arXiv 2026 | Physical AI; VLA inference; temporal redundancy; visual token reuse; diffusion action acceleration | [Link](https://arxiv.org/abs/2607.12287) | — |
 | **Canonical** | **Redwood: A Frontier AI Accelerator Designed, Verified, and Deployed from Scratch in 2 Weeks by AI** | arXiv 2026 | edge/cloud/heterogeneous AI systems / Physical AI accelerator | [Link](https://arxiv.org/abs/2608.26418) | — |
 | **Canonical** | **Rethinking Network Topologies for Cost-Effective Mixture-of-Experts LLM Serving** | arXiv 2026 | MoE systems / LLM serving / interconnect topology / cost efficiency | [Link](https://arxiv.org/abs/2605.00254) | — |
@@ -490,6 +494,7 @@
 | **Canonical** | **SAC: Disaggregated KV Cache System for Sparse Attention LLMs with CXL** | arXiv 2026 | LLM serving / KV cache / sparse attention / disaggregated memory / CXL | [Link](https://arxiv.org/abs/2606.19746) | — |
 | **Canonical** | **SageBwd: A Trainable Low-bit Attention** | arXiv 2026 | efficient attention; low-bit training; INT8 attention; pretraining | [Link](https://arxiv.org/abs/2603.02170) | — |
 | **Canonical** | **Sangam: Efficiently Serving Diffusion LLMs with the AR Stack** | arXiv 2026 | LLM serving / diffusion language models / scheduling / disaggregated serving | [Link](https://arxiv.org/abs/2607.04206) | [Repo](https://github.com/UT-InfraAI/sangam) |
+| **Canonical** | **Scalable Context Orchestration for Serving LLMs Over Voice** | arXiv 2026 | LLM serving / multimodal voice serving / context management middleware | [Link](https://arxiv.org/abs/2609.04288) | — |
 | **Canonical** | **Scheduling Mixed RL Rollouts Beyond Prefix Locality** | arXiv 2026 | LLM serving / RL rollout scheduling / KV-cache capacity allocation | [Link](https://arxiv.org/abs/2608.11152) | — |
 | **Canonical** | **SemKV: Semantic Mixed-Precision KV Cache Quantization Guided by the Quality Cliff for Long-Context LLM Inference** | arXiv 2026 | KV cache/long-context / quantization | [Link](https://arxiv.org/abs/2608.28911) | — |
 | **Canonical** | **ShallowStream: Index Shallow then Answer Deep for Streaming Video Understanding** | arXiv 2026 | multimodal/MLLM serving / streaming video / Physical-AI protected | [Link](https://arxiv.org/abs/2609.02780) | [Repo](https://github.com/CURRENTF/ShallowStream) |
@@ -497,9 +502,11 @@
 | **Canonical** | **SnapFlow: One-Step Action Generation for Flow-Matching VLAs via Progressive Self-Distillation** | arXiv 2026 | VLA/WAM/Physical AI serving / flow-matching action generation / one-step denoising / inference acceleration | [Link](https://arxiv.org/abs/2604.05656) | — |
 | **Canonical** | **Sparrow: Sparse Rollout for Stable and Efficient Long-context RL of Large Language Models** | arXiv 2026 | efficient reasoning / RL training systems / sparse attention / long-context rollout | [Link](https://arxiv.org/abs/2606.08446) | [Repo](https://github.com/Infini-AI-Lab/Sparrow) |
 | **Canonical** | **Speculative Interaction Agents: Building Real-Time Agents with Asynchronous I/O and Speculative Tool Calling** | arXiv 2026 | efficient reasoning/agent systems / asynchronous I/O / speculative tool calling / low-latency interactive agents | [Link](https://arxiv.org/abs/2605.13360) | — |
+| **Canonical** | **Spruce: Scalable Private Outsourced Retrieval Using Compact Embeddings** | arXiv 2026 | LLM serving / RAG retrieval / privacy-preserving systems / efficient retrieval | [Link](https://arxiv.org/abs/2609.03376) | — |
 | **Canonical** | **Squeezing the Cache, Preserving the Truth: Monotonic Equipotential Allocation with Geodesia-KV** | arXiv 2026 | KV cache / long-context / mixed-precision cache / sparse reading / vLLM runtime | [Link](https://arxiv.org/abs/2608.23599) | — |
 | **Canonical** | **Statistically-Lossless Quantization of Large Language Models** | arXiv 2026 | LLM quantization; statistically-lossless compression; low-bit inference; optimized kernels | [Link](https://arxiv.org/abs/2605.02404) | [Repo](https://github.com/IST-DASLab/SLQ) |
 | **Canonical** | **StreamFusion: Scalable Sequence Parallelism for Distributed Inference of Diffusion Transformers on GPUs** | arXiv 2026 | video/image generation acceleration; diffusion/flow acceleration; distributed inference; sequence parallelism; GPU communication | [Link](https://arxiv.org/abs/2601.20273) | — |
+| **Canonical** | **SV-WAM: An Efficient Surround-View World-Action Model for End-to-End Autonomous Driving** | arXiv 2026 | VLA/WAM/Physical AI / world-action model / efficient deployment | [Link](https://arxiv.org/abs/2609.03602) | — |
 | **Canonical** | **The Diagnosis a Reporter Leaves Unspoken: Surfacing Frozen Tumor Features for Brain-Tumor MRI Reporting** | arXiv 2026 | efficient reasoning/agent systems / multimodal inference / single-pass decoding / healthcare AI | [Link](https://arxiv.org/abs/2609.02411) | — |
 | **Canonical** | **Thought-Level Beam Search for Reasoning** | arXiv 2026 | efficient reasoning / inference-time compute / LLM serving / vLLM runtime | [Link](https://arxiv.org/abs/2608.08020) | [Repo](https://github.com/Dao-AILab/gambit-parallel-reasoning) |
 | **Canonical** | **TRACE: Spatiotemporal Contact Memory Graph Network Simulator for Granular Dynamics** | arXiv 2026 | VLA/WAM/Physical AI serving / learned simulation / robot world models / graph simulator | [Link](https://arxiv.org/abs/2609.02991) | — |
@@ -951,6 +958,45 @@
 | **Canonical** | **VecInfer: Efficient LLM Inference with Low-Bit KV Cache via Outlier-Suppressed Vector Quantization** | ACL 2026 | KV-cache quantization / low-bit LLM inference / CUDA kernel | [Link](https://aclanthology.org/2026.acl-long.1454/) | — |
 | **Canonical** | **Vista-LLM: Decoupled Query-Guided Visual Token Pruning for Efficient Long-Video Large Language Models** | ACL 2026 | multimodal/MLLM serving / visual token pruning | [Link](https://aclanthology.org/2026.acl-long.601/) | — |
 
+## CoRR 2026 · 34
+
+| Priority | Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|---|
+| **Canonical** | **A Universal Load Balancing Principle and Its Application to Large Language Model Serving** | CoRR 2026 | LLM serving / load balancing / data-parallel decoding / scheduling / energy efficiency | [Link](https://arxiv.org/abs/2601.17855) | — |
+| **Canonical** | **A Workflow-Aware Serving Layer for Agentic Applications** | CoRR 2026 | agent systems / LLM serving / workflow-aware scheduling / heterogeneous backends / verification-aware routing | [Link](https://arxiv.org/abs/2607.02942) | — |
+| **Canonical** | **AceSpec: An Asymmetric Edge-Cloud Collaborative Framework for Communication-Efficient LLM Inference** | CoRR 2026 | speculative decoding / edge-cloud LLM inference / distributed inference / communication efficiency | [Link](https://arxiv.org/abs/2609.02514) | — |
+| **Canonical** | **Blink: CPU-Free LLM Inference by Delegating the Serving Stack to GPU and SmartNIC** | CoRR 2026 | LLM serving / GPU-resident scheduling / SmartNIC / CPU-free serving stack / KV-cache management | [Link](https://arxiv.org/abs/2604.07609) | — |
+| **Canonical** | **Characterizing the Scalability and Performance of Large-Scale AI Training Under Multi-Tenancy** | CoRR 2026 | distributed training / multi-tenancy / interconnect / HPC AI systems | [Link](https://arxiv.org/abs/2609.00817) | — |
+| **Canonical** | **CRISP: Cliff-awaRe Input-adaptive Sparse Prefilling with Structural-Mass-Motivated Routing** | CoRR 2026 | efficient attention / sparse prefilling / long-context LLM inference / routing | [Link](https://arxiv.org/abs/2609.01925) | — |
+| **Canonical** | **DeltaServe: Host-Agnostic Co-Serving of Inference and Fine-Tuning for LLMs** | CoRR 2026 | LLM serving / inference-training co-serving / LoRA / SLO-aware scheduling / GPU utilization | [Link](https://arxiv.org/abs/2607.28848) | — |
+| **Canonical** | **Efficient-WAM: A 1B-Parameter World-Action Model with Low-Cost Future Imagination** | CoRR 2026 | VLA/WAM/Physical AI serving / efficient world-action model / sparse future latents / asymmetric denoising | [Link](https://arxiv.org/abs/2606.10040) | [Repo](https://github.com/jiajun613/Efficient-WAM) |
+| **Canonical** | **ES-dLLM: Efficient Inference for Diffusion Large Language Models by Early-Skipping** | CoRR 2026 | diffusion/flow acceleration / diffusion language model inference / token skipping / KV-hidden-state reuse | [Link](https://arxiv.org/abs/2603.10088) | — |
+| **Canonical** | **FlexLLM: Composable HLS Library for Flexible Hybrid LLM Accelerator Design** | CoRR 2026 | edge/cloud/heterogeneous AI systems / FPGA HLS / LLM accelerator / quantization / long context | [Link](https://arxiv.org/abs/2601.15710) | — |
+| **Canonical** | **Forget Without Compromise: Nexus Sampling for Streaming KV-Cache Eviction Under Fixed Budgets** | CoRR 2026 | KV cache / long-context / streaming inference / cache eviction / agentic workloads | [Link](https://arxiv.org/abs/2606.23961) | — |
+| **Canonical** | **GoodServe: Towards High-Goodput Serving of Agentic LLM Inferences over Heterogeneous Resources** | CoRR 2026 | agent systems / LLM serving / heterogeneous GPUs / routing / SLO / request migration | [Link](https://arxiv.org/abs/2605.16867) | — |
+| **Canonical** | **Hardware Acceleration of Block-Diffusion LLM for Edge Devices** | CoRR 2026 | edge/cloud/heterogeneous AI systems / diffusion LLM / KV compression / hardware acceleration | [Link](https://arxiv.org/abs/2609.01084) | — |
+| **Canonical** | **Iapetus: Content-Aware Hierarchical Scheduling for Collaborative ViT Inference in LEO Satellite Networks** | CoRR 2026 | edge/cloud/heterogeneous AI systems / collaborative ViT inference / token compression / layer offloading | [Link](https://arxiv.org/abs/2609.03318) | — |
+| **Canonical** | **Just Talk Once: Communication-Efficient Split Federated LLM Fine-Tuning on Edge Devices** | CoRR 2026 | distributed training / edge-cloud AI / split federated LLM fine-tuning | [Link](https://arxiv.org/abs/2609.01457) | — |
+| **Canonical** | **K-Search: LLM Kernel Generation via Co-Evolving Intrinsic World Model** | CoRR 2026 | GPU kernel/DSL/compilers / automated kernel optimization / FlashInfer / MoE / MLA / GQA | [Link](https://arxiv.org/abs/2602.19128) | [Repo](https://github.com/caoshiyi/K-Search) |
+| **Canonical** | **Light-WAM: Efficient World Action Models with State-Fusion Action Decoding** | CoRR 2026 | VLA/WAM/Physical AI serving / lightweight world-action model / action-head efficiency / latent supervision | [Link](https://arxiv.org/abs/2606.08242) | [Repo](https://github.com/L1ziang/Light-WAM) |
+| **Canonical** | **M*: A Modular, Extensible, Serving System for Multimodal Models** | CoRR 2026 | multimodal/MLLM serving / composite-model runtime / VLA-world-model serving / graph-based distributed runtime | [Link](https://arxiv.org/abs/2606.12688) | [Repo](https://github.com/mstar-project/mstar) |
+| **Canonical** | **MARS: Efficient, Adaptive Co-Scheduling for Heterogeneous Agentic Systems** | CoRR 2026 | efficient reasoning/agent systems / agent serving / heterogeneous GPU-CPU co-scheduling / KV cache | [Link](https://arxiv.org/abs/2604.26963) | [Repo](https://github.com/Afterglow231/MARS_preview) |
+| **Canonical** | **Nitsum: Serving Tiered LLM Requests with Adaptive Tensor Parallelism** | CoRR 2026 | LLM serving / distributed inference / adaptive tensor parallelism / multi-tier SLO | [Link](https://arxiv.org/abs/2605.05467) | — |
+| **Canonical** | **PCoMoE: Shifting MoE Inference from Monolithic Expert Selection to Fine-Grained Path Composition** | CoRR 2026 | MoE systems/accelerators / fine-grained path composition / inference engine | [Link](https://arxiv.org/abs/2609.01024) | [Repo](https://github.com/gzyyy0/PCoMoE) |
+| **Canonical** | **Pro-Router: Token-Aware Progressive Model Routing with Adaptive Edge-Cloud Collaboration for Efficient Multimodal LLM Inference** | CoRR 2026 | multimodal/MLLM serving / edge-cloud routing / adaptive inference | [Link](https://arxiv.org/abs/2608.28726) | [Repo](https://github.com/xinyuangui2/pro-router) |
+| **Canonical** | **Pythia: Toward Predictability-Driven Agent-Native LLM Serving** | CoRR 2026 | LLM serving / efficient reasoning/agent systems / multi-agent serving / prefix cache / scaling | [Link](https://arxiv.org/abs/2604.25899) | — |
+| **Canonical** | **RASER: Resilient Agent Scheduling and Execution Runtime for HPC Clusters** | CoRR 2026 | efficient reasoning/agent systems / HPC scheduling / resilient runtime | [Link](https://arxiv.org/abs/2609.03598) | — |
+| **Canonical** | **Regulating Branch Parallelism in LLM Serving** | CoRR 2026 | LLM serving / branch-parallel decoding / SLO-aware scheduling / KV-sharing | [Link](https://arxiv.org/abs/2605.06914) | [Repo](https://github.com/Swapnil-Gandhi/pace) |
+| **Canonical** | **RouteSparse: Input-Conditional Pattern Routing for Budgeted Long-Context Prefilling** | CoRR 2026 | efficient attention / sparse prefilling / long-context LLM inference | [Link](https://arxiv.org/abs/2608.29058) | — |
+| **Canonical** | **Scaling Inference Prefill with High-Radix Photonic Interconnects** | CoRR 2026 | distributed inference / LLM prefill / photonic interconnect / scale-up systems | [Link](https://arxiv.org/abs/2609.01821) | — |
+| **Canonical** | **Scaling Multi-Node Mixture-of-Experts Inference Using Expert Activation Patterns** | CoRR 2026 | MoE systems / distributed inference / expert placement / workload-aware batching | [Link](https://arxiv.org/abs/2604.23150) | — |
+| **Canonical** | **SelfLift: Accelerating Few-Step Diffusion via Self-Recovering Resolution Transition** | CoRR 2026 | diffusion/flow acceleration / progressive resolution / few-step generation | [Link](https://arxiv.org/abs/2609.02036) | — |
+| **Canonical** | **TClone: Low-Latency Forking of Live GUI Environments for Computer-Use Agents** | CoRR 2026 | efficient reasoning/agent systems / computer-use agent runtime / workspace forking / systems infrastructure | [Link](https://arxiv.org/abs/2605.17320) | [Repo](https://github.com/WukLab/os4agent) |
+| **Canonical** | **VibeServe: Can AI Agents Build Bespoke LLM Serving Systems?** | CoRR 2026 | LLM serving / efficient agent systems / automated systems optimization / specialized serving stacks | [Link](https://arxiv.org/abs/2605.06068) | [Repo](https://github.com/uw-syfi/vibe-serve) |
+| **Canonical** | **ViSAR: Training-Free Adaptive-k Retrieval for Visual Document Question Answering** | CoRR 2026 | multimodal/MLLM serving / visual RAG / adaptive retrieval | [Link](https://arxiv.org/abs/2609.02486) | — |
+| **Canonical** | **What Matters for Aggressive Decoding-Time KV Eviction? Temporal Aggregation and Ranking Preservation** | CoRR 2026 | KV cache / long-context / decode-time eviction / serving | [Link](https://arxiv.org/abs/2609.03515) | — |
+| **Canonical** | **When to Trust Imagination: Adaptive Action Execution for World Action Models** | CoRR 2026 | VLA/WAM/Physical AI serving / adaptive action execution / dynamic action chunking / future-reality verification | [Link](https://arxiv.org/abs/2605.06222) | — |
+
 ## CVPR 2026 · 34
 
 | Priority | Paper | Venue | Topic | Paper | Code |
@@ -1065,43 +1111,6 @@
 | **Canonical** | **SYMI: Efficient Mixture-of-Experts Training via Model and Optimizer State Decoupling** | NSDI 2026 | MoE training systems | [Link](https://www.usenix.org/system/files/nsdi26-skiadopoulos.pdf) | — |
 | **Canonical** | **SYMPHONY: Enabling Compute-Memory Disaggregation in LLM Serving Systems** | NSDI 2026 | KV-cache / disaggregated memory serving | [Link](https://www.usenix.org/system/files/nsdi26-agarwal.pdf) | — |
 | **Canonical** | **ZipLLM: Efficient LLM Storage via Model-Aware Synergistic Data Deduplication and Compression** | NSDI 2026 | LLM storage / model deduplication / compression | [Link](https://www.usenix.org/system/files/nsdi26-wang-zirui.pdf) | — |
-
-## CoRR 2026 · 32
-
-| Priority | Paper | Venue | Topic | Paper | Code |
-|---|---|---|---|---|---|
-| **Canonical** | **A Universal Load Balancing Principle and Its Application to Large Language Model Serving** | CoRR 2026 | LLM serving / load balancing / data-parallel decoding / scheduling / energy efficiency | [Link](https://arxiv.org/abs/2601.17855) | — |
-| **Canonical** | **A Workflow-Aware Serving Layer for Agentic Applications** | CoRR 2026 | agent systems / LLM serving / workflow-aware scheduling / heterogeneous backends / verification-aware routing | [Link](https://arxiv.org/abs/2607.02942) | — |
-| **Canonical** | **AceSpec: An Asymmetric Edge-Cloud Collaborative Framework for Communication-Efficient LLM Inference** | CoRR 2026 | speculative decoding / edge-cloud LLM inference / distributed inference / communication efficiency | [Link](https://arxiv.org/abs/2609.02514) | — |
-| **Canonical** | **Blink: CPU-Free LLM Inference by Delegating the Serving Stack to GPU and SmartNIC** | CoRR 2026 | LLM serving / GPU-resident scheduling / SmartNIC / CPU-free serving stack / KV-cache management | [Link](https://arxiv.org/abs/2604.07609) | — |
-| **Canonical** | **Characterizing the Scalability and Performance of Large-Scale AI Training Under Multi-Tenancy** | CoRR 2026 | distributed training / multi-tenancy / interconnect / HPC AI systems | [Link](https://arxiv.org/abs/2609.00817) | — |
-| **Canonical** | **CRISP: Cliff-awaRe Input-adaptive Sparse Prefilling with Structural-Mass-Motivated Routing** | CoRR 2026 | efficient attention / sparse prefilling / long-context LLM inference / routing | [Link](https://arxiv.org/abs/2609.01925) | — |
-| **Canonical** | **DeltaServe: Host-Agnostic Co-Serving of Inference and Fine-Tuning for LLMs** | CoRR 2026 | LLM serving / inference-training co-serving / LoRA / SLO-aware scheduling / GPU utilization | [Link](https://arxiv.org/abs/2607.28848) | — |
-| **Canonical** | **Efficient-WAM: A 1B-Parameter World-Action Model with Low-Cost Future Imagination** | CoRR 2026 | VLA/WAM/Physical AI serving / efficient world-action model / sparse future latents / asymmetric denoising | [Link](https://arxiv.org/abs/2606.10040) | [Repo](https://github.com/jiajun613/Efficient-WAM) |
-| **Canonical** | **ES-dLLM: Efficient Inference for Diffusion Large Language Models by Early-Skipping** | CoRR 2026 | diffusion/flow acceleration / diffusion language model inference / token skipping / KV-hidden-state reuse | [Link](https://arxiv.org/abs/2603.10088) | — |
-| **Canonical** | **FlexLLM: Composable HLS Library for Flexible Hybrid LLM Accelerator Design** | CoRR 2026 | edge/cloud/heterogeneous AI systems / FPGA HLS / LLM accelerator / quantization / long context | [Link](https://arxiv.org/abs/2601.15710) | — |
-| **Canonical** | **Forget Without Compromise: Nexus Sampling for Streaming KV-Cache Eviction Under Fixed Budgets** | CoRR 2026 | KV cache / long-context / streaming inference / cache eviction / agentic workloads | [Link](https://arxiv.org/abs/2606.23961) | — |
-| **Canonical** | **GoodServe: Towards High-Goodput Serving of Agentic LLM Inferences over Heterogeneous Resources** | CoRR 2026 | agent systems / LLM serving / heterogeneous GPUs / routing / SLO / request migration | [Link](https://arxiv.org/abs/2605.16867) | — |
-| **Canonical** | **Hardware Acceleration of Block-Diffusion LLM for Edge Devices** | CoRR 2026 | edge/cloud/heterogeneous AI systems / diffusion LLM / KV compression / hardware acceleration | [Link](https://arxiv.org/abs/2609.01084) | — |
-| **Canonical** | **Iapetus: Content-Aware Hierarchical Scheduling for Collaborative ViT Inference in LEO Satellite Networks** | CoRR 2026 | edge/cloud/heterogeneous AI systems / collaborative ViT inference / token compression / layer offloading | [Link](https://arxiv.org/abs/2609.03318) | — |
-| **Canonical** | **Just Talk Once: Communication-Efficient Split Federated LLM Fine-Tuning on Edge Devices** | CoRR 2026 | distributed training / edge-cloud AI / split federated LLM fine-tuning | [Link](https://arxiv.org/abs/2609.01457) | — |
-| **Canonical** | **K-Search: LLM Kernel Generation via Co-Evolving Intrinsic World Model** | CoRR 2026 | GPU kernel/DSL/compilers / automated kernel optimization / FlashInfer / MoE / MLA / GQA | [Link](https://arxiv.org/abs/2602.19128) | [Repo](https://github.com/caoshiyi/K-Search) |
-| **Canonical** | **Light-WAM: Efficient World Action Models with State-Fusion Action Decoding** | CoRR 2026 | VLA/WAM/Physical AI serving / lightweight world-action model / action-head efficiency / latent supervision | [Link](https://arxiv.org/abs/2606.08242) | [Repo](https://github.com/L1ziang/Light-WAM) |
-| **Canonical** | **M*: A Modular, Extensible, Serving System for Multimodal Models** | CoRR 2026 | multimodal/MLLM serving / composite-model runtime / VLA-world-model serving / graph-based distributed runtime | [Link](https://arxiv.org/abs/2606.12688) | [Repo](https://github.com/mstar-project/mstar) |
-| **Canonical** | **MARS: Efficient, Adaptive Co-Scheduling for Heterogeneous Agentic Systems** | CoRR 2026 | efficient reasoning/agent systems / agent serving / heterogeneous GPU-CPU co-scheduling / KV cache | [Link](https://arxiv.org/abs/2604.26963) | [Repo](https://github.com/Afterglow231/MARS_preview) |
-| **Canonical** | **Nitsum: Serving Tiered LLM Requests with Adaptive Tensor Parallelism** | CoRR 2026 | LLM serving / distributed inference / adaptive tensor parallelism / multi-tier SLO | [Link](https://arxiv.org/abs/2605.05467) | — |
-| **Canonical** | **PCoMoE: Shifting MoE Inference from Monolithic Expert Selection to Fine-Grained Path Composition** | CoRR 2026 | MoE systems/accelerators / fine-grained path composition / inference engine | [Link](https://arxiv.org/abs/2609.01024) | [Repo](https://github.com/gzyyy0/PCoMoE) |
-| **Canonical** | **Pro-Router: Token-Aware Progressive Model Routing with Adaptive Edge-Cloud Collaboration for Efficient Multimodal LLM Inference** | CoRR 2026 | multimodal/MLLM serving / edge-cloud routing / adaptive inference | [Link](https://arxiv.org/abs/2608.28726) | [Repo](https://github.com/xinyuangui2/pro-router) |
-| **Canonical** | **Pythia: Toward Predictability-Driven Agent-Native LLM Serving** | CoRR 2026 | LLM serving / efficient reasoning/agent systems / multi-agent serving / prefix cache / scaling | [Link](https://arxiv.org/abs/2604.25899) | — |
-| **Canonical** | **Regulating Branch Parallelism in LLM Serving** | CoRR 2026 | LLM serving / branch-parallel decoding / SLO-aware scheduling / KV-sharing | [Link](https://arxiv.org/abs/2605.06914) | [Repo](https://github.com/Swapnil-Gandhi/pace) |
-| **Canonical** | **RouteSparse: Input-Conditional Pattern Routing for Budgeted Long-Context Prefilling** | CoRR 2026 | efficient attention / sparse prefilling / long-context LLM inference | [Link](https://arxiv.org/abs/2608.29058) | — |
-| **Canonical** | **Scaling Inference Prefill with High-Radix Photonic Interconnects** | CoRR 2026 | distributed inference / LLM prefill / photonic interconnect / scale-up systems | [Link](https://arxiv.org/abs/2609.01821) | — |
-| **Canonical** | **Scaling Multi-Node Mixture-of-Experts Inference Using Expert Activation Patterns** | CoRR 2026 | MoE systems / distributed inference / expert placement / workload-aware batching | [Link](https://arxiv.org/abs/2604.23150) | — |
-| **Canonical** | **SelfLift: Accelerating Few-Step Diffusion via Self-Recovering Resolution Transition** | CoRR 2026 | diffusion/flow acceleration / progressive resolution / few-step generation | [Link](https://arxiv.org/abs/2609.02036) | — |
-| **Canonical** | **TClone: Low-Latency Forking of Live GUI Environments for Computer-Use Agents** | CoRR 2026 | efficient reasoning/agent systems / computer-use agent runtime / workspace forking / systems infrastructure | [Link](https://arxiv.org/abs/2605.17320) | [Repo](https://github.com/WukLab/os4agent) |
-| **Canonical** | **VibeServe: Can AI Agents Build Bespoke LLM Serving Systems?** | CoRR 2026 | LLM serving / efficient agent systems / automated systems optimization / specialized serving stacks | [Link](https://arxiv.org/abs/2605.06068) | [Repo](https://github.com/uw-syfi/vibe-serve) |
-| **Canonical** | **ViSAR: Training-Free Adaptive-k Retrieval for Visual Document Question Answering** | CoRR 2026 | multimodal/MLLM serving / visual RAG / adaptive retrieval | [Link](https://arxiv.org/abs/2609.02486) | — |
-| **Canonical** | **When to Trust Imagination: Adaptive Action Execution for World Action Models** | CoRR 2026 | VLA/WAM/Physical AI serving / adaptive action execution / dynamic action chunking / future-reality verification | [Link](https://arxiv.org/abs/2605.06222) | — |
 
 ## HPCA 2026 · 31
 
@@ -1917,6 +1926,12 @@
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **Canonical** | **UniEP: Unified Expert-Parallel MoE MegaKernel for LLM Training** | HPDC 2026 | MoE training; expert parallelism; distributed GPU megakernel; compute-communication overlap; deterministic execution | [Link](https://arxiv.org/abs/2604.19241) | [Repo](https://github.com/ByteDance-Seed/Triton-distributed) |
+
+## ICCAD 2026 · 1
+
+| Priority | Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|---|
+| **Canonical** | **FlowTT: Exploiting Computation Flow Reuse in Irregular Tensor-Train Embedding** | ICCAD 2026 | GPU kernel / irregular tensor execution / recommendation embedding / compiler-runtime | [Link](https://arxiv.org/abs/2609.03459) | — |
 
 ## IEEE ICDM 2026 (accepted) · 1
 

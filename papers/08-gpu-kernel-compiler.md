@@ -1,10 +1,10 @@
 # 08 · GPU Kernel / DSL / Compiler
 
-> **451 canonical papers** mapped here, plus a broader **145-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **451 canonical papers** mapped here, plus a broader **144-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 145 tracked
+## 🆕 Latest 30 Days · 144 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -75,7 +75,6 @@
 | **P0 · Strong** | **Every Kernel Is a Join: Automatic Multi-GPU Parallelism for AI Computations in Einsummable** | arXiv 2026 | distributed training/inference / GPU systems / compiler | [Link](https://arxiv.org/abs/2609.03905) | — |
 | **P1 · Watch** | **Flip, Don't Shuffle: Watermarking LLMs at the Speed of Inference** | arXiv 2026 | LLM serving / inference kernel / watermarking overhead | [Link](https://arxiv.org/abs/2609.03844) | — |
 | **P0 · Strong** | **WISE: World-model-guided Imagination Scheduling for Efficient Post-training of Vision-Language-Action Models** | arXiv 2026 | VLA/WAM/Physical AI / world-model scheduling / efficient post-training | [Link](https://arxiv.org/abs/2609.03681) | — |
-| **P0 · Strong** | **FlowTT: Exploiting Computation Flow Reuse in Irregular Tensor-Train Embedding** | ICCAD 2026 | GPU kernel / irregular tensor execution / recommendation embedding / compiler-runtime | [Link](https://arxiv.org/abs/2609.03459) | — |
 | **P1 · Watch** | **E2S-Pruner: Progressive Two-Stage Evidence Fusion for Visual Token Pruning in Vision-Language Models** | Fresh / preprint | visual token pruning / MLLM inference / throughput acceleration | [Link](https://arxiv.org/abs/2608.23253) | — |
 | **P1 · Watch** | **LLM4LLM: Bridging Kernel Benchmarks and Real Deployment via Closed-Loop Agentic Optimization** | Fresh / preprint | GPU kernel optimization / deployment-aware agentic optimization / LLM inference | [Link](https://arxiv.org/abs/2608.21836) | — |
 | **P1 · Watch** | **SPICE: Speculative Prefetching with Low-Rank Expert Surrogates and Heterogeneous Orchestration for MoE Inference Acceleration** | Fresh / preprint | llm_serving / spec / moe / edge | [Link](https://arxiv.org/abs/2608.21240) | — |
@@ -154,7 +153,7 @@
 | **P0 · Strong** | **A Thread-Register Decoupled GPU Execution Model for Efficient Tensor Computation** | Fresh / preprint | GPU execution architecture / tensor cores / LLM serving | [Link](https://arxiv.org/abs/2608.19628) | — |
 | **P1 · Watch** | **A Scalable Pipeline for LLM-Teacher Distillation Labeling: Work-Stealing Job Scheduling and Memory-Aware GPU Concurrency** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.15975) | — |
 
-## 🏛️ Classical / Historical · 387 canonical
+## 🏛️ Classical / Historical · 388 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -291,6 +290,7 @@
 | **Canonical** | **µShare: Non-Intrusive Kernel Co-Locating on NVIDIA GPUs** | HPCA 2026 | GPU resource sharing / kernel co-location / inference throughput | [Link](https://arxiv.org/abs/2601.06562) | — |
 | **Canonical** | **eGPU: Production-Scale Elastic Sharing over 10,000 GPUs** | HPCA 2026 Industry Track | production GPU sharing / elastic multi-tenant ML | [Link](https://doi.org/10.1109/HPCA68181.2026.11408556) | — |
 | **Canonical** | **UniEP: Unified Expert-Parallel MoE MegaKernel for LLM Training** | HPDC 2026 | MoE training; expert parallelism; distributed GPU megakernel; compute-communication overlap; deterministic execution | [Link](https://arxiv.org/abs/2604.19241) | [Repo](https://github.com/ByteDance-Seed/Triton-distributed) |
+| **Canonical** | **FlowTT: Exploiting Computation Flow Reuse in Irregular Tensor-Train Embedding** | ICCAD 2026 | GPU kernel / irregular tensor execution / recommendation embedding / compiler-runtime | [Link](https://arxiv.org/abs/2609.03459) | — |
 | **Canonical** | **METEOR: Multi-Encoder Collaborative Token Pruning for Efficient Vision Language Models** | ICCV 2025 | multimodal inference / multi-encoder token pruning | [Link](https://openaccess.thecvf.com/content/ICCV2025/html/Liu_METEOR_Multi-Encoder_Collaborative_Token_Pruning_for_Efficient_Vision_Language_Models_ICCV_2025_paper.html) | [Repo](https://github.com/YuchenLiu98/METEOR) |
 | **Canonical** | **REDUCIO! Generating 1K Video within 16 Seconds using Extremely Compressed Motion Latents** | ICCV 2025 | video generation acceleration / latent compression / diffusion efficiency | [Link](https://arxiv.org/abs/2411.13552) | [Repo](https://github.com/microsoft/Reducio-VAE) |
 | **Canonical** | **Saliency-Aware Quantized Imitation Learning for Efficient Robotic Control** | ICCV 2025 | VLA/WAM/Physical AI serving / quantization / edge robotic control | [Link](https://arxiv.org/abs/2505.15304) | — |

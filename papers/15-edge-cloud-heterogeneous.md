@@ -1,10 +1,10 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **381 canonical papers** mapped here, plus a broader **179-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **381 canonical papers** mapped here, plus a broader **181-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 179 tracked
+## 🆕 Latest 30 Days · 181 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -20,6 +20,7 @@
 | **P1 · Watch** | **From Fixed Keys to Readable Schemas: Small Language Models for Vehicle Agent Function Calls** | arXiv 2026 | VLA/WAM/Physical AI / edge agents / on-device SLM / function calling | [Link](https://arxiv.org/abs/2609.09476) | — |
 | **P0 · Strong** | **AccelMPC: High-Rate, Low-Power FPGA-Accelerated Model Predictive Control for Tiny Drones** | arXiv 2026 | VLA/WAM/Physical AI serving / edge robotics / FPGA acceleration / real-time control | [Link](https://arxiv.org/abs/2609.09380) | — |
 | **P1 · Watch** | **DiffLUT-Net: Differentiable Training of FPGA LUT Networks with Learnable Connectivity** | arXiv 2026 | edge/cloud/heterogeneous AI / FPGA / hardware-native networks | [Link](https://arxiv.org/abs/2609.09254) | — |
+| **P1 · Watch** | **BIFTA: Brain-Inspired Few-Shot Tactile Adaptation for Unknown Sensors** | arXiv 2026 | VLA/WAM/Physical AI / tactile sensing / few-shot adaptation / heterogeneous sensors | [Link](https://arxiv.org/abs/2609.08673) | — |
 | **P1 · Watch** | **CoordFormer: Give Me Any Coordinates and I Will Give You Labels** | arXiv 2026 | efficient attention / high-resolution inference / edge-cloud vision | [Link](https://arxiv.org/abs/2609.08660) | — |
 | **P1 · Watch** | **TriCCOT: Tri-part Convolutional Conformal Transformer for Onboard Space Object Detection** | arXiv 2026 | edge/cloud/heterogeneous AI systems / FPGA / efficient attention | [Link](https://arxiv.org/abs/2609.08659) | — |
 | **P0 · Strong** | **FlexSpIM: An Event-Based Digital Compute-In-Memory Accelerator with Flexible Operand Resolution and Layer-Wise Hybrid Stationarity** | arXiv 2026 | edge/cloud/heterogeneous AI systems / SNN accelerator / digital CIM | [Link](https://arxiv.org/abs/2609.08446) | — |
@@ -61,6 +62,7 @@
 | **P1 · Watch** | **Deep Microcompression: Structured Pruning and Bit-packed Quantization for Microcontrollers** | arXiv 2026 | edge/cloud/heterogeneous AI systems / microcontroller inference / pruning / quantization | [Link](https://arxiv.org/abs/2609.05081) | — |
 | **P1 · Watch** | **GreenPipe: Power Modeling for Containerized DNN Inference on Kubernetes Edge Nodes** | arXiv 2026 | edge/cloud heterogeneous AI systems / Kubernetes inference / online power modeling / energy-aware serving | [Link](https://arxiv.org/abs/2609.04952) | — |
 | **P1 · Watch** | **Coupled Control and Wireless World Models for Resilient Remote Robotic Control** | arXiv 2026 | VLA/WAM/Physical AI serving / cloud-edge robotics / communication-aware world models | [Link](https://arxiv.org/abs/2609.04851) | — |
+| **P1 · Watch** | **Communication-Efficient Personalized Federated Learning via Layer-Wise Multi-Threshold Random Sketching** | arXiv 2026 | edge/cloud/heterogeneous AI systems / federated learning / communication compression / low-bit sketching | [Link](https://arxiv.org/abs/2609.04830) | — |
 | **P1 · Watch** | **Diffusion Language Models for Mobile Edge Agentic AI: Foundations, Applications, and Challenges** | arXiv 2026 | efficient reasoning/agent systems / diffusion language models / edge-cloud serving / mobile edge AI | [Link](https://arxiv.org/abs/2609.04778) | — |
 | **P0 · Strong** | **LUMIN: Lightweight Universal Manufacturing Inspection Network for Anomaly Detection** | arXiv 2026 | edge/cloud/heterogeneous AI systems / efficient inference / memory bank | [Link](https://arxiv.org/abs/2609.04775) | — |
 | **P1 · Watch** | **Resilience Beyond Stationary Client Unavailability: Unlocking Efficient and Unbiased Federated Learning** | arXiv 2026 | edge/cloud/heterogeneous AI systems / federated learning / dynamic availability | [Link](https://arxiv.org/abs/2609.04763) | — |
@@ -75,7 +77,6 @@
 | **P0 · Strong** | **SENTINEL-RL: Offloading Topological Reasoning from LLM Agents in the Security Operations Center** | arXiv 2026 | efficient reasoning/agent systems / reasoning offload / graph runtime / enterprise agents | [Link](https://arxiv.org/abs/2609.04159) | — |
 | **P1 · Watch** | **Predictive Zonotope Reduction: Precise Runtime Monitoring under Uncertainty** | arXiv 2026 | VLA/WAM/Physical AI serving / runtime monitoring / edge safety | [Link](https://arxiv.org/abs/2609.03699) | — |
 | **P1 · Watch** | **EdgeMem: LLM-Free Agent Memory Construction and Retrieval via Evidence-Preserving Multi-Anchor Hypergraph** | arXiv 2026 | efficient reasoning/agent systems / agent memory / retrieval / LLM-free memory management | [Link](https://arxiv.org/abs/2609.05553) | — |
-| **P1 · Watch** | **PPO-STGNN: A Proximal Policy Optimization Approach with Spatio-Temporal Graph Neural Networks for DAG Task Scheduling in Cloud-Edge-End Computing** | arXiv 2026 | edge/cloud/heterogeneous AI systems / scheduling / reinforcement learning | [Link](https://arxiv.org/abs/2609.03503) | — |
 | **P1 · Watch** | **Context-Aware Interleaved Batching for WhisperX** | Fresh / preprint | edge/cloud/heterogeneous AI systems / inference batching | [Link](https://arxiv.org/abs/2608.31170) | — |
 | **P2 · Relevant** | **From Seeing to Acting: Smart Glasses as First-Person Intelligence Platforms** | Fresh / preprint | Physical AI / wearable first-person intelligence / edge platform | [Link](https://arxiv.org/abs/2608.24877) | — |
 | **P1 · Watch** | **TEE-X: TEE-aware Acceleration Framework for Large Vision Models at the Edge** | Fresh / preprint | edge vision inference / TEE-aware acceleration / secure deployment | [Link](https://arxiv.org/abs/2608.22716) | — |
@@ -157,6 +158,7 @@
 | **P1 · Watch** | **RACE-AIMC: Selective Inference for Heterogeneous Analog In-Memory Accelerators at the Edge** | arXiv 2026 | edge/cloud/heterogeneous AI systems / analog in-memory accelerator / selective inference | [Link](https://arxiv.org/abs/2609.03149) | — |
 | **P1 · Watch** | **PRIMAL: Processing-In-Memory Based Low-Rank Adaptation for LLM Inference Accelerator** | arXiv 2026 | LLM inference accelerator / processing-in-memory / LoRA / edge AI | [Link](https://arxiv.org/abs/2601.13628) | — |
 | **P0 · Strong** | **Pre-Compiled Pipeline Shards for Distributed LLM Inference on Intel AI PC Fleets** | Fresh / preprint | distributed LLM inference / edge AI PC fleet / speculative decoding | [Link](https://arxiv.org/abs/2608.19147) | [Repo](https://github.com/labscommunity/pipeline-sharded-inference-paper) |
+| **P1 · Watch** | **PPO-STGNN: A Proximal Policy Optimization Approach with Spatio-Temporal Graph Neural Networks for DAG Task Scheduling in Cloud-Edge-End Computing** | arXiv 2026 | edge/cloud/heterogeneous AI systems / scheduling / reinforcement learning | [Link](https://arxiv.org/abs/2609.03503) | — |
 | **P1 · Watch** | **Post-Training Ternarization of Qwen3-4B Capability, Effective Bit Budget, Storage Compression, and Deployment** | arXiv 2026 | quantization / LLM deployment / edge systems | [Link](https://arxiv.org/abs/2609.01962) | — |
 | **P0 · Strong** | **Pallas: A Proactive KV Cache Migration Framework for LLM Inference in AI-RAN** | Fresh / preprint | LLM serving / KV cache / edge | [Link](https://arxiv.org/abs/2608.16477) | — |
 | **P1 · Watch** | **On the Limitations of Non-GPU AI Accelerators for Large-Model Inference: A Field Study of MoE and Multimodal Serving on Huawei Ascend** | arXiv 2026 | heterogeneous AI systems; Huawei Ascend/CANN; vLLM-Ascend; MoE/MLLM serving field study | [Link](https://arxiv.org/abs/2607.08215) | — |
