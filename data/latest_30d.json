@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-11",
   "window_start_beijing": "2026-08-12",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 665,
+  "tracked_total": 670,
   "p0_strong_or_canonical": [
     {
       "title": "HybridFLow: SDN-Orchestrated Client Partitioning for Hybrid Federated Learning",
@@ -4347,6 +4347,28 @@
       ]
     },
     {
+      "title": "Procedural Graphs: Self-Evolving Execution Structures for LLM Agents",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / procedural memory / long-horizon tool use",
+      "arxiv": "2609.09153",
+      "doi": "",
+      "official_id": "arXiv:2609.09153",
+      "paper_url": "https://arxiv.org/abs/2609.09153",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Externalizes procedural knowledge into a self-evolving graph and localizes the active procedure node before each action, addressing repeated or out-of-order tool calls in long trajectories. Strong runtime-structure relevance, but the abstract does not provide a clean serving-cost or latency gain, so it remains watchlist.",
+      "published_at": "2026-09-08T17:59:41Z",
+      "updated_at": "2026-09-08T17:59:41Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Proxy Policy Steering",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI / inference-time adaptation / flow policy steering",
@@ -4728,6 +4750,26 @@
       "directions": [
         "LLM Serving",
         "KV Cache / Long Context",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "CreaMem: A Scene-Aware Memory Architecture for Personalized Agents",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / long-term memory / retrieval organization",
+      "arxiv": "2609.08550",
+      "doi": "",
+      "official_id": "arXiv:2609.08550",
+      "paper_url": "https://arxiv.org/abs/2609.08550",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Partitions long-term agent memory by life scene and dual-codes memories from episodic and trait perspectives, directly targeting retrieval-space inflation and cross-scene interference. It is useful lineage for efficient agent memory organization, but the primary abstract does not establish a clean latency/token-cost reduction, so it remains high-value watchlist.",
+      "published_at": "2026-09-08T10:33:05Z",
+      "updated_at": "2026-09-08T10:33:05Z",
+      "is_latest_30d": true,
+      "directions": [
         "Efficient Reasoning / Agents"
       ]
     },
@@ -5940,6 +5982,26 @@
       ]
     },
     {
+      "title": "One Shared LoRA Weight for MRI Reconstruction across Acceleration Factors",
+      "venue": "arXiv 2026",
+      "topic": "efficient training/inference / parameter-efficient adaptation / shared LoRA",
+      "arxiv": "2609.06338",
+      "doi": "",
+      "official_id": "arXiv:2609.06338",
+      "paper_url": "https://arxiv.org/abs/2609.06338",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Uses one shared LoRA adapter set plus a lightweight gate across multiple acceleration factors instead of maintaining separate models, with trainable parameters reported at only about 5% of the backbone while retaining competitive reconstruction quality. Useful parameter/storage-efficiency evidence, but domain-specific and without a direct serving speedup claim.",
+      "published_at": "2026-09-06T02:23:24Z",
+      "updated_at": "2026-09-06T02:23:24Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving"
+      ]
+    },
+    {
       "title": "Query-Oblivious Coresets for Softmax Attention: Improved Bounds and Efficient Constructions",
       "venue": "arXiv 2026",
       "topic": "efficient attention / attention coresets / theory",
@@ -6308,6 +6370,29 @@
         "LLM Serving",
         "GPU Kernel / DSL / Compiler",
         "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "WIP: Energy-Efficient LLM-Based Serving Cluster Formulation in Cell-Free Massive MIMO",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / LLM agent resource control / wireless energy efficiency",
+      "arxiv": "2609.05725",
+      "doi": "",
+      "official_id": "arXiv:2609.05725",
+      "paper_url": "https://arxiv.org/abs/2609.05725",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Uses an LLM-based agent to formulate serving clusters in a simulated cell-free massive-MIMO network and reports up to 32% energy-efficiency gain over the baseline. Relevant to AI-native edge/network resource control, but it is a work-in-progress networking application rather than core ML serving infrastructure, so it remains watchlist.",
+      "published_at": "2026-09-04T21:13:37Z",
+      "updated_at": "2026-09-04T21:13:37Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -7195,6 +7280,28 @@
         "LLM Serving",
         "Sparsity / Pruning",
         "MoE Systems / Accelerators"
+      ]
+    },
+    {
+      "title": "La Agente Óptima: Towards Agentic Self-Driving Laboratories",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / autonomous experimentation / conditional agent invocation",
+      "arxiv": "2609.04564",
+      "doi": "",
+      "official_id": "arXiv:2609.04564",
+      "paper_url": "https://arxiv.org/abs/2609.04564",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Separates LLM reasoning from persistent Bayesian-optimization campaigns: repetitive closed-loop optimization proceeds without repeatedly invoking the agent, and control returns to the LLM only when interpretation or campaign revision is needed. This conditional-invocation pattern is relevant to Physical-AI runtime design, but no clean inference-speedup metric is given in the abstract.",
+      "published_at": "2026-09-03T23:37:48Z",
+      "updated_at": "2026-09-03T23:37:48Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -18745,6 +18852,28 @@
       ]
     },
     {
+      "title": "Procedural Graphs: Self-Evolving Execution Structures for LLM Agents",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / procedural memory / long-horizon tool use",
+      "arxiv": "2609.09153",
+      "doi": "",
+      "official_id": "arXiv:2609.09153",
+      "paper_url": "https://arxiv.org/abs/2609.09153",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Externalizes procedural knowledge into a self-evolving graph and localizes the active procedure node before each action, addressing repeated or out-of-order tool calls in long trajectories. Strong runtime-structure relevance, but the abstract does not provide a clean serving-cost or latency gain, so it remains watchlist.",
+      "published_at": "2026-09-08T17:59:41Z",
+      "updated_at": "2026-09-08T17:59:41Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Proxy Policy Steering",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI / inference-time adaptation / flow policy steering",
@@ -19126,6 +19255,26 @@
       "directions": [
         "LLM Serving",
         "KV Cache / Long Context",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "CreaMem: A Scene-Aware Memory Architecture for Personalized Agents",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / long-term memory / retrieval organization",
+      "arxiv": "2609.08550",
+      "doi": "",
+      "official_id": "arXiv:2609.08550",
+      "paper_url": "https://arxiv.org/abs/2609.08550",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Partitions long-term agent memory by life scene and dual-codes memories from episodic and trait perspectives, directly targeting retrieval-space inflation and cross-scene interference. It is useful lineage for efficient agent memory organization, but the primary abstract does not establish a clean latency/token-cost reduction, so it remains high-value watchlist.",
+      "published_at": "2026-09-08T10:33:05Z",
+      "updated_at": "2026-09-08T10:33:05Z",
+      "is_latest_30d": true,
+      "directions": [
         "Efficient Reasoning / Agents"
       ]
     },
@@ -20338,6 +20487,26 @@
       ]
     },
     {
+      "title": "One Shared LoRA Weight for MRI Reconstruction across Acceleration Factors",
+      "venue": "arXiv 2026",
+      "topic": "efficient training/inference / parameter-efficient adaptation / shared LoRA",
+      "arxiv": "2609.06338",
+      "doi": "",
+      "official_id": "arXiv:2609.06338",
+      "paper_url": "https://arxiv.org/abs/2609.06338",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Uses one shared LoRA adapter set plus a lightweight gate across multiple acceleration factors instead of maintaining separate models, with trainable parameters reported at only about 5% of the backbone while retaining competitive reconstruction quality. Useful parameter/storage-efficiency evidence, but domain-specific and without a direct serving speedup claim.",
+      "published_at": "2026-09-06T02:23:24Z",
+      "updated_at": "2026-09-06T02:23:24Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving"
+      ]
+    },
+    {
       "title": "Query-Oblivious Coresets for Softmax Attention: Improved Bounds and Efficient Constructions",
       "venue": "arXiv 2026",
       "topic": "efficient attention / attention coresets / theory",
@@ -20706,6 +20875,29 @@
         "LLM Serving",
         "GPU Kernel / DSL / Compiler",
         "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "WIP: Energy-Efficient LLM-Based Serving Cluster Formulation in Cell-Free Massive MIMO",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / LLM agent resource control / wireless energy efficiency",
+      "arxiv": "2609.05725",
+      "doi": "",
+      "official_id": "arXiv:2609.05725",
+      "paper_url": "https://arxiv.org/abs/2609.05725",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Uses an LLM-based agent to formulate serving clusters in a simulated cell-free massive-MIMO network and reports up to 32% energy-efficiency gain over the baseline. Relevant to AI-native edge/network resource control, but it is a work-in-progress networking application rather than core ML serving infrastructure, so it remains watchlist.",
+      "published_at": "2026-09-04T21:13:37Z",
+      "updated_at": "2026-09-04T21:13:37Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -21593,6 +21785,28 @@
         "LLM Serving",
         "Sparsity / Pruning",
         "MoE Systems / Accelerators"
+      ]
+    },
+    {
+      "title": "La Agente Óptima: Towards Agentic Self-Driving Laboratories",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / autonomous experimentation / conditional agent invocation",
+      "arxiv": "2609.04564",
+      "doi": "",
+      "official_id": "arXiv:2609.04564",
+      "paper_url": "https://arxiv.org/abs/2609.04564",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Separates LLM reasoning from persistent Bayesian-optimization campaigns: repetitive closed-loop optimization proceeds without repeatedly invoking the agent, and control returns to the LLM only when interpretation or campaign revision is needed. This conditional-invocation pattern is relevant to Physical-AI runtime design, but no clean inference-speedup metric is given in the abstract.",
+      "published_at": "2026-09-03T23:37:48Z",
+      "updated_at": "2026-09-03T23:37:48Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
