@@ -1,10 +1,10 @@
 # 📚 Paper Library
 
-> **1749 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **675 visible papers = 177 P0 + 379 P1 + 119 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1750 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **681 visible papers = 178 P0 + 384 P1 + 119 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
-## 🆕 P0 · Strong / Canonical recent · 177
+## 🆕 P0 · Strong / Canonical recent · 178
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -111,6 +111,7 @@
 | **P0 · Strong** | **DejaVu: Unifying Memory Allocations to Eliminate Redundant Copies on Unified-Memory SoCs** | arXiv 2026 | edge/cloud/heterogeneous AI systems / UMA / compiler-runtime memory optimization | [Link](https://arxiv.org/abs/2609.05635) | — |
 | **P0 · Strong** | **SceneMosaic: Efficient and Diverse Simulation-Ready Scene Generation via Hybrid Agentic Layout Evolution** | arXiv 2026 | VLA/WAM/Physical AI serving / simulation infrastructure / agentic generation | [Link](https://arxiv.org/abs/2609.05594) | [Repo](https://github.com/rxjfighting/SceneMosaic) |
 | **P0 · Strong** | **CUA-Universe: A Scalable and Dynamic Environment for Hybrid GUI+CLI Agents** | arXiv 2026 | efficient reasoning/agent systems / computer-use agents / GUI+CLI runtime / trajectory efficiency | [Link](https://arxiv.org/abs/2609.05374) | — |
+| **P0 · Strong** | **Distill Globally, Adapt Locally: Reasoning Distillation and Product-Type Test-Time Training for Scalable Trade-Up Recommendation** | arXiv 2026 | efficient reasoning/agent systems / distillation / scalable inference | [Link](https://arxiv.org/abs/2609.05363) | — |
 | **P0 · Strong** | **Lightweight Vision Transformer Compression for On-Device Plant Disease Detection in Resource-Constrained Agricultural Field Conditions** | arXiv 2026 | quantization / sparsity-pruning / edge AI deployment | [Link](https://arxiv.org/abs/2609.05334) | — |
 | **P0 · Strong** | **Don't Drop Dropout: Optimizing Layer Sparsity for Efficient LLM Training and Inference** | ICML 2026 | LLM training efficiency / layer sparsity / early exit / self-speculative decoding | [Link](https://arxiv.org/abs/2609.05275) | — |
 | **P0 · Strong** | **How to Speculate about Uncertainty in Agentic Coding? A Draft-Model Gate Method** | arXiv 2026 | efficient reasoning/agent systems / speculative methods / runtime gating / token cost | [Link](https://arxiv.org/abs/2609.05274) | — |
@@ -186,7 +187,7 @@
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 | **P0 · Strong** | **A Thread-Register Decoupled GPU Execution Model for Efficient Tensor Computation** | Fresh / preprint | GPU execution architecture / tensor cores / LLM serving | [Link](https://arxiv.org/abs/2608.19628) | — |
 
-## 🧭 P1 · Watch · 379
+## 🧭 P1 · Watch · 384
 
 > Clearly relevant and promising, but still awaiting stronger novelty, evidence, venue, or adoption validation.
 
@@ -215,6 +216,7 @@
 | **P1 · Watch** | **JEPA Policy: Diffusion-Free Imitation Learning via Paired Action and Future Representation Prediction** | arXiv 2026 | VLA/WAM/Physical AI / diffusion-free action policy / low-latency visuomotor imitation | [Link](https://arxiv.org/abs/2609.09630) | — |
 | **P1 · Watch** | **Benchmarking Agentic HLS Design Tasks With HLS-Eval** | arXiv 2026 | GPU kernel/DSL/compilers / hardware design automation / agent cost profiling | [Link](https://arxiv.org/abs/2609.09526) | — |
 | **P1 · Watch** | **From Fixed Keys to Readable Schemas: Small Language Models for Vehicle Agent Function Calls** | arXiv 2026 | VLA/WAM/Physical AI / edge agents / on-device SLM / function calling | [Link](https://arxiv.org/abs/2609.09476) | — |
+| **P1 · Watch** | **Do Agents Know When They Succeed? Calibrating Agent Confidence from Internal Representations** | arXiv 2026 | efficient reasoning/agent systems / runtime reliability / confidence monitoring | [Link](https://arxiv.org/abs/2609.09448) | — |
 | **P1 · Watch** | **QPS-ToR: A Parallel Iterative Switching Algorithm for Reconfigurable Optical Datacenter Switching** | arXiv 2026 | distributed training/inference / datacenter networking / optical switching / low-complexity scheduling | [Link](https://arxiv.org/abs/2609.09400) | — |
 | **P1 · Watch** | **Encrypt What Matters: When Selective Homomorphic Inference Is Efficient** | arXiv 2026 | edge/cloud/heterogeneous AI systems / privacy-preserving inference / selective FHE | [Link](https://arxiv.org/abs/2609.09357) | — |
 | **P1 · Watch** | **Procedural Graphs: Self-Evolving Execution Structures for LLM Agents** | arXiv 2026 | efficient reasoning/agent systems / procedural memory / long-horizon tool use | [Link](https://arxiv.org/abs/2609.09153) | — |
@@ -224,6 +226,7 @@
 | **P1 · Watch** | **MeClear: Cooperative Game-Theoretic Attribution and Risk-Aware Memory Clearance for Long-Horizon LLM Agents** | arXiv 2026 | efficient reasoning/agent systems / agent memory / context management | [Link](https://arxiv.org/abs/2609.09115) | — |
 | **P1 · Watch** | **Ozaki 2.5: Engineering the Deconstruction Path of fp64-Emulated Dense Matrix Multiplication on FP8 Tensor Cores** | arXiv 2026 | GPU kernel/DSL/compilers / FP8 tensor cores / mixed precision / GEMM / architecture co-design | [Link](https://arxiv.org/abs/2609.09095) | — |
 | **P1 · Watch** | **It's Not RoPE that Creates Sinks: The Role of Self-Concentration and Value-Non-Mixing in Attention** | arXiv 2026 | quantization / attention / massive activations / low-bit robustness | [Link](https://arxiv.org/abs/2609.09085) | — |
+| **P1 · Watch** | **PlayTrain: An Efficient Reinforcement Learning Framework for LLM-Generated Adaptable JavaScript Games** | arXiv 2026 | efficient reasoning/agent systems / RL infrastructure / simulation throughput | [Link](https://arxiv.org/abs/2609.09059) | — |
 | **P1 · Watch** | **Omni Interaction Agent Technical Report** | arXiv 2026 | multimodal/MLLM serving / efficient reasoning/agent systems / streaming full-duplex runtime | [Link](https://arxiv.org/abs/2609.08977) | — |
 | **P1 · Watch** | **GraphFAS: A Distributed System for Automated Graph Feature Generation and Selection in Industrial Transaction Networks** | arXiv 2026 | distributed training/inference / industrial graph systems / feature pipeline / production deployment | [Link](https://arxiv.org/abs/2609.08970) | — |
 | **P1 · Watch** | **SkillAdam: Stable and Efficient Skill Evolution for Agents** | arXiv 2026 | efficient reasoning/agent systems / skill optimization / agent memory / cost reduction | [Link](https://arxiv.org/abs/2609.08944) | [Repo](https://github.com/ruc-datalab/SkillAdam) |
@@ -250,6 +253,7 @@
 | **P1 · Watch** | **OmniNav: Robust Long-Horizon Target Navigation in Dynamic Environments** | arXiv 2026 | VLA/WAM/Physical AI / long-horizon navigation / persistent scene memory / closed-loop recovery | [Link](https://arxiv.org/abs/2609.08159) | [Repo](https://omni-nav.github.io/) |
 | **P1 · Watch** | **KBBQ: A Predictive Noise Law and the Limits of Spectrum Flattening in FP4 Quantization** | arXiv 2026 | quantization / FP4 / W4A4 / transform-based quantization | [Link](https://arxiv.org/abs/2609.08135) | — |
 | **P1 · Watch** | **Jacap: Robust KV Cache Eviction via Jacobian-Based Nonlinear Information Capacity Preservation** | arXiv 2026 | KV cache/long-context / eviction / information geometry / cache compression | [Link](https://arxiv.org/abs/2609.08131) | — |
+| **P1 · Watch** | **DISEIL: Demonstration Distillation for Sample-Efficient Imitation Learning** | arXiv 2026 | VLA/WAM/Physical AI serving / imitation learning / data efficiency | [Link](https://arxiv.org/abs/2609.08123) | — |
 | **P1 · Watch** | **Router Prior Bias: Preserving Base Routing Structure in MoE Post-Training** | arXiv 2026 | MoE systems/accelerators / router post-training / expert co-activation | [Link](https://arxiv.org/abs/2609.08115) | — |
 | **P1 · Watch** | **Nyström Attention Matches Full Attention for Cross-Sectional Stock Prediction** | arXiv 2026 | efficient attention / low-rank attention / linear-complexity approximation | [Link](https://arxiv.org/abs/2609.08106) | — |
 | **P1 · Watch** | **Marigold V2: Revisiting Diffusion Transformers for Monocular Depth Estimation** | arXiv 2026 | diffusion/flow acceleration / dense vision / single-step inference | [Link](https://arxiv.org/abs/2609.08084) | [Repo](https://hf.co/spaces/huawei-bayerlab/marigold-v2-web) |
@@ -283,6 +287,7 @@
 | **P1 · Watch** | **Train Overcomplete, Deploy Compact: Scaling Recovery Capacity for Structured LLM Pruning** | arXiv 2026 | sparsity/pruning / structured LLM pruning / recovery | [Link](https://arxiv.org/abs/2609.06974) | [Repo](https://github.com/mmai-laboratory/OverRep) |
 | **P1 · Watch** | **Unified AI Gateway: A Framework for Joint Model Routing and KV Cache Management** | arXiv 2026 | LLM serving / model routing / KV cache management / edge-cloud placement | [Link](https://arxiv.org/abs/2609.06940) | — |
 | **P1 · Watch** | **Distributed Dexterous Manipulation with Spatially Conditioned Multi-Agent Transformers** | arXiv 2026 | VLA/WAM/Physical AI serving / multi-agent transformer / dexterous manipulation | [Link](https://arxiv.org/abs/2609.06930) | — |
+| **P1 · Watch** | **BEFORE THE FLIP: Measuring Hidden Score Shifts In Quantized Vision Language Models Before The Answer Changes for Visual Question Answering** | arXiv 2026 | quantization / multimodal VLM / evaluation methodology | [Link](https://arxiv.org/abs/2609.06922) | — |
 | **P1 · Watch** | **Characterizing Contention-Induced Reliability Collapse in KV-Cache Timing Side Channels for Multi-Tenant LLM Serving** | arXiv 2026 | KV cache/long-context / LLM serving / multi-tenant security characterization | [Link](https://arxiv.org/abs/2609.06853) | — |
 | **P1 · Watch** | **Diagnosing and Dynamically Filtering Occupancy World Models for Active Mapping** | arXiv 2026 | VLA/WAM/Physical AI serving / world-model runtime / active mapping / occupancy filtering | [Link](https://arxiv.org/abs/2609.06820) | — |
 | **P1 · Watch** | **BLINK: Batch Normalization-based Integrity Checkpoints for In-Situ Detection and Mitigation of Diverse Weight Corruptions in DNN Accelerators** | arXiv 2026 | edge/cloud/heterogeneous AI systems / accelerator reliability / runtime | [Link](https://arxiv.org/abs/2609.06781) | — |
@@ -297,6 +302,7 @@
 | **P1 · Watch** | **Linear Algebra Foundations of Efficient Attention: A Phase Reversal in Rank Collapse Under SVD Compression** | arXiv 2026 | efficient attention / low-rank compression / KV-cache lineage | [Link](https://arxiv.org/abs/2609.06341) | — |
 | **P1 · Watch** | **One Shared LoRA Weight for MRI Reconstruction across Acceleration Factors** | arXiv 2026 | efficient training/inference / parameter-efficient adaptation / shared LoRA | [Link](https://arxiv.org/abs/2609.06338) | — |
 | **P1 · Watch** | **Query-Oblivious Coresets for Softmax Attention: Improved Bounds and Efficient Constructions** | arXiv 2026 | efficient attention / attention coresets / theory | [Link](https://arxiv.org/abs/2609.06327) | — |
+| **P1 · Watch** | **IM-ENGINE: Image Editing for Embodied Data Generation** | arXiv 2026 | VLA/WAM/Physical AI serving / embodied data generation / simulation | [Link](https://arxiv.org/abs/2609.06279) | — |
 | **P1 · Watch** | **SIDE: Sensor Impersonation Detection at the Edge via Sequence Prediction** | arXiv 2026 | edge/cloud/heterogeneous AI systems / edge inference / quantization / tiny ML | [Link](https://arxiv.org/abs/2609.06271) | — |
 | **P1 · Watch** | **MobileVLA-R1 2.0: RL-Enhanced Reasoning for Mobile Robot Control** | arXiv 2026 | VLA/WAM/Physical AI serving / mobile robot control / reasoning-action decoupling | [Link](https://arxiv.org/abs/2609.06251) | [Repo](https://github.com/AIGeeksGroup/MobileVLA-R1-2.0) |
 | **P1 · Watch** | **RefGuard: Identity-Aware Language-Guided Robot Manipulation via Joint Target-Anchor-Frame Grounding** | arXiv 2026 | VLA/WAM/Physical AI / deployment reliability / grounding / robot runtime | [Link](https://arxiv.org/abs/2609.06221) | — |

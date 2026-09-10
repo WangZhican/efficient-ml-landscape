@@ -1,10 +1,10 @@
 # 01 · LLM Serving
 
-> **762 canonical papers** mapped here, plus a broader **430-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **762 canonical papers** mapped here, plus a broader **434-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 430 tracked
+## 🆕 Latest 30 Days · 434 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -33,11 +33,13 @@
 | **P0 · Strong** | **StreamAlign: Streaming Text-Aligned Speech Tokenization** | arXiv 2026 | multimodal/MLLM serving / speech tokenization / streaming inference / latency | [Link](https://arxiv.org/abs/2609.09719) | — |
 | **P0 · Strong** | **PELM: Power Efficient On-Device LLM Inference with Speculative Decoding and Dynamic Voltage Frequency Scaling** | arXiv 2026 | LLM serving / speculative decoding / edge inference / energy-aware runtime | [Link](https://arxiv.org/abs/2609.09662) | [Repo](https://github.com/imec-nu/PELM) |
 | **P0 · Strong** | **UNISON: A Co-Designed Near-Memory Scheduler of Session KV Residency for LLM Agents** | arXiv 2026 | KV cache/long-context / agent serving / near-memory scheduling | [Link](https://arxiv.org/abs/2609.09643) | — |
+| **P1 · Watch** | **Do Agents Know When They Succeed? Calibrating Agent Confidence from Internal Representations** | arXiv 2026 | efficient reasoning/agent systems / runtime reliability / confidence monitoring | [Link](https://arxiv.org/abs/2609.09448) | — |
 | **P1 · Watch** | **QPS-ToR: A Parallel Iterative Switching Algorithm for Reconfigurable Optical Datacenter Switching** | arXiv 2026 | distributed training/inference / datacenter networking / optical switching / low-complexity scheduling | [Link](https://arxiv.org/abs/2609.09400) | — |
 | **P0 · Strong** | **AccelMPC: High-Rate, Low-Power FPGA-Accelerated Model Predictive Control for Tiny Drones** | arXiv 2026 | VLA/WAM/Physical AI serving / edge robotics / FPGA acceleration / real-time control | [Link](https://arxiv.org/abs/2609.09380) | — |
 | **P1 · Watch** | **Procedural Graphs: Self-Evolving Execution Structures for LLM Agents** | arXiv 2026 | efficient reasoning/agent systems / procedural memory / long-horizon tool use | [Link](https://arxiv.org/abs/2609.09153) | — |
 | **P1 · Watch** | **Proxy Policy Steering** | arXiv 2026 | VLA/WAM/Physical AI / inference-time adaptation / flow policy steering | [Link](https://arxiv.org/abs/2609.09148) | — |
 | **P1 · Watch** | **DeCAL: Towards Physically-Grounded Dexterous Vision-Language-Action Models via Contact-Aware Latent Co-Imagination** | arXiv 2026 | VLA/WAM/Physical AI serving / dexterous manipulation / tactile fusion / world modeling | [Link](https://arxiv.org/abs/2609.09119) | [Repo](https://aureleopku.github.io/DeCAL) |
+| **P1 · Watch** | **PlayTrain: An Efficient Reinforcement Learning Framework for LLM-Generated Adaptable JavaScript Games** | arXiv 2026 | efficient reasoning/agent systems / RL infrastructure / simulation throughput | [Link](https://arxiv.org/abs/2609.09059) | — |
 | **P1 · Watch** | **Omni Interaction Agent Technical Report** | arXiv 2026 | multimodal/MLLM serving / efficient reasoning/agent systems / streaming full-duplex runtime | [Link](https://arxiv.org/abs/2609.08977) | — |
 | **P1 · Watch** | **GraphFAS: A Distributed System for Automated Graph Feature Generation and Selection in Industrial Transaction Networks** | arXiv 2026 | distributed training/inference / industrial graph systems / feature pipeline / production deployment | [Link](https://arxiv.org/abs/2609.08970) | — |
 | **P1 · Watch** | **DiffLUT-Net: Differentiable Training of FPGA LUT Networks with Learnable Connectivity** | arXiv 2026 | edge/cloud/heterogeneous AI / FPGA / hardware-native networks | [Link](https://arxiv.org/abs/2609.09254) | — |
@@ -64,6 +66,7 @@
 | **P1 · Watch** | **WorldAgen: Unified State-Action Prediction with Test-Time World Model Training** | arXiv 2026 | VLA/WAM/Physical AI serving / world models / test-time adaptation | [Link](https://arxiv.org/abs/2609.08162) | — |
 | **P1 · Watch** | **KBBQ: A Predictive Noise Law and the Limits of Spectrum Flattening in FP4 Quantization** | arXiv 2026 | quantization / FP4 / W4A4 / transform-based quantization | [Link](https://arxiv.org/abs/2609.08135) | — |
 | **P1 · Watch** | **Jacap: Robust KV Cache Eviction via Jacobian-Based Nonlinear Information Capacity Preservation** | arXiv 2026 | KV cache/long-context / eviction / information geometry / cache compression | [Link](https://arxiv.org/abs/2609.08131) | — |
+| **P1 · Watch** | **DISEIL: Demonstration Distillation for Sample-Efficient Imitation Learning** | arXiv 2026 | VLA/WAM/Physical AI serving / imitation learning / data efficiency | [Link](https://arxiv.org/abs/2609.08123) | — |
 | **P1 · Watch** | **Router Prior Bias: Preserving Base Routing Structure in MoE Post-Training** | arXiv 2026 | MoE systems/accelerators / router post-training / expert co-activation | [Link](https://arxiv.org/abs/2609.08115) | — |
 | **P1 · Watch** | **Nyström Attention Matches Full Attention for Cross-Sectional Stock Prediction** | arXiv 2026 | efficient attention / low-rank attention / linear-complexity approximation | [Link](https://arxiv.org/abs/2609.08106) | — |
 | **P1 · Watch** | **Marigold V2: Revisiting Diffusion Transformers for Monocular Depth Estimation** | arXiv 2026 | diffusion/flow acceleration / dense vision / single-step inference | [Link](https://arxiv.org/abs/2609.08084) | [Repo](https://hf.co/spaces/huawei-bayerlab/marigold-v2-web) |
@@ -114,6 +117,7 @@
 | **P1 · Watch** | **Linear Algebra Foundations of Efficient Attention: A Phase Reversal in Rank Collapse Under SVD Compression** | arXiv 2026 | efficient attention / low-rank compression / KV-cache lineage | [Link](https://arxiv.org/abs/2609.06341) | — |
 | **P1 · Watch** | **One Shared LoRA Weight for MRI Reconstruction across Acceleration Factors** | arXiv 2026 | efficient training/inference / parameter-efficient adaptation / shared LoRA | [Link](https://arxiv.org/abs/2609.06338) | — |
 | **P0 · Strong** | **FrankenReport: Early Exiting in Long-Form Generation Using Expected Value of Computation** | arXiv 2026 | efficient reasoning/agent systems / adaptive computation / early exit / deep research serving | [Link](https://arxiv.org/abs/2609.06320) | — |
+| **P1 · Watch** | **IM-ENGINE: Image Editing for Embodied Data Generation** | arXiv 2026 | VLA/WAM/Physical AI serving / embodied data generation / simulation | [Link](https://arxiv.org/abs/2609.06279) | — |
 | **P0 · Strong** | **GloVLA: Let Geometry Move and Local VLA Interact for Robust Object-Centric Manipulation in Unstructured Environments** | arXiv 2026 | VLA/WAM/Physical AI serving / hybrid control / inference reduction | [Link](https://arxiv.org/abs/2609.06256) | [Repo](https://glovla-project.github.io/) |
 | **P1 · Watch** | **MobileVLA-R1 2.0: RL-Enhanced Reasoning for Mobile Robot Control** | arXiv 2026 | VLA/WAM/Physical AI serving / mobile robot control / reasoning-action decoupling | [Link](https://arxiv.org/abs/2609.06251) | [Repo](https://github.com/AIGeeksGroup/MobileVLA-R1-2.0) |
 | **P0 · Strong** | **AutoUVM: Automated Prefetching Framework for LLMs under UVM Oversubscription** | arXiv 2026 | LLM serving / memory oversubscription / UVM prefetching / heterogeneous memory | [Link](https://arxiv.org/abs/2609.06172) | — |

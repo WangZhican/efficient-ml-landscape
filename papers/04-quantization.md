@@ -1,16 +1,17 @@
 # 04 · Quantization
 
-> **238 canonical papers** mapped here, plus a broader **95-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **238 canonical papers** mapped here, plus a broader **97-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 95 tracked
+## 🆕 Latest 30 Days · 97 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **P0 · Strong** | **SAGE: Semantic-Aware Geographic Error Recovery for AI Data Movement** | arXiv 2026 | distributed training/inference / AI interconnect / fault recovery / communication latency | [Link](https://arxiv.org/abs/2609.10126) | — |
 | **P0 · Strong** | **EFQ-Softmax: Exp-Free Quantization for Softmax** | arXiv 2026 | quantization / efficient attention / low-bit inference kernels | [Link](https://arxiv.org/abs/2609.09721) | — |
 | **P1 · Watch** | **JEPA Policy: Diffusion-Free Imitation Learning via Paired Action and Future Representation Prediction** | arXiv 2026 | VLA/WAM/Physical AI / diffusion-free action policy / low-latency visuomotor imitation | [Link](https://arxiv.org/abs/2609.09630) | — |
+| **P1 · Watch** | **Do Agents Know When They Succeed? Calibrating Agent Confidence from Internal Representations** | arXiv 2026 | efficient reasoning/agent systems / runtime reliability / confidence monitoring | [Link](https://arxiv.org/abs/2609.09448) | — |
 | **P1 · Watch** | **It's Not RoPE that Creates Sinks: The Role of Self-Concentration and Value-Non-Mixing in Attention** | arXiv 2026 | quantization / attention / massive activations / low-bit robustness | [Link](https://arxiv.org/abs/2609.09085) | — |
 | **P1 · Watch** | **A Measurement Study of LLM Inference Trade-offs Across Edge Continuum Hardware** | arXiv 2026 | edge/cloud/heterogeneous AI systems / LLM inference / measurement | [Link](https://arxiv.org/abs/2609.08307) | — |
 | **P1 · Watch** | **Scaling Post-Training Ternarisation to Qwen3-8B Capability Retention, Reproduction, Lossless Packing, and Packed Execution** | arXiv 2026 | quantization / ultra-low-bit LLM / packed execution / deployment characterization | [Link](https://arxiv.org/abs/2609.09240) | — |
@@ -25,6 +26,7 @@
 | **P0 · Strong** | **Analytical Resource Management for Fine-grained MoE Computation-Communication Overlap** | arXiv 2026 | MoE systems/accelerators / distributed inference / compute-communication overlap | [Link](https://arxiv.org/abs/2609.07536) | — |
 | **P1 · Watch** | **EnvPilot: Systematic Design and Evaluation of an Experience-Augmented Agent for Software Environment Setup** | arXiv 2026 | efficient reasoning/agent systems / software engineering agents / trajectory memory / experience reuse | [Link](https://arxiv.org/abs/2609.07357) | — |
 | **P1 · Watch** | **RoboDreamer: Anticipatory Humanoid Locomotion with Predictive State-Space Models** | arXiv 2026 | VLA/WAM/Physical AI serving / humanoid control / action chunking | [Link](https://arxiv.org/abs/2609.07096) | — |
+| **P1 · Watch** | **BEFORE THE FLIP: Measuring Hidden Score Shifts In Quantized Vision Language Models Before The Answer Changes for Visual Question Answering** | arXiv 2026 | quantization / multimodal VLM / evaluation methodology | [Link](https://arxiv.org/abs/2609.06922) | — |
 | **P1 · Watch** | **Steering Under Compression: Dose-Response, Capability Cost, and Failure Asymmetry in Quantized LLMs** | arXiv 2026 | quantization / LLM deployment / activation steering / capability-cost characterization | [Link](https://arxiv.org/abs/2609.06473) | — |
 | **P1 · Watch** | **SIDE: Sensor Impersonation Detection at the Edge via Sequence Prediction** | arXiv 2026 | edge/cloud/heterogeneous AI systems / edge inference / quantization / tiny ML | [Link](https://arxiv.org/abs/2609.06271) | — |
 | **P0 · Strong** | **Shift-Accumulate Attention: Multiplier-Free Query--Key Products for Transformer Decoding** | arXiv 2026 | quantization / efficient attention / KV cache / GPU kernels | [Link](https://arxiv.org/abs/2609.09208) | — |

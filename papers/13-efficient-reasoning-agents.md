@@ -1,10 +1,10 @@
 # 13 · Efficient Reasoning / Agents
 
-> **314 canonical papers** mapped here, plus a broader **153-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **315 canonical papers** mapped here, plus a broader **156-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 153 tracked
+## 🆕 Latest 30 Days · 156 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -25,9 +25,11 @@
 | **P0 · Strong** | **UNISON: A Co-Designed Near-Memory Scheduler of Session KV Residency for LLM Agents** | arXiv 2026 | KV cache/long-context / agent serving / near-memory scheduling | [Link](https://arxiv.org/abs/2609.09643) | — |
 | **P1 · Watch** | **Benchmarking Agentic HLS Design Tasks With HLS-Eval** | arXiv 2026 | GPU kernel/DSL/compilers / hardware design automation / agent cost profiling | [Link](https://arxiv.org/abs/2609.09526) | — |
 | **P1 · Watch** | **From Fixed Keys to Readable Schemas: Small Language Models for Vehicle Agent Function Calls** | arXiv 2026 | VLA/WAM/Physical AI / edge agents / on-device SLM / function calling | [Link](https://arxiv.org/abs/2609.09476) | — |
+| **P1 · Watch** | **Do Agents Know When They Succeed? Calibrating Agent Confidence from Internal Representations** | arXiv 2026 | efficient reasoning/agent systems / runtime reliability / confidence monitoring | [Link](https://arxiv.org/abs/2609.09448) | — |
 | **P1 · Watch** | **Procedural Graphs: Self-Evolving Execution Structures for LLM Agents** | arXiv 2026 | efficient reasoning/agent systems / procedural memory / long-horizon tool use | [Link](https://arxiv.org/abs/2609.09153) | — |
 | **P1 · Watch** | **Co-Evolving Harnesses and Models: On-Policy Correction Helps Weaker Models Catch Up Where Imitation Fails** | arXiv 2026 | efficient reasoning/agent systems / harness optimization / small-model deployment | [Link](https://arxiv.org/abs/2609.09134) | — |
 | **P1 · Watch** | **MeClear: Cooperative Game-Theoretic Attribution and Risk-Aware Memory Clearance for Long-Horizon LLM Agents** | arXiv 2026 | efficient reasoning/agent systems / agent memory / context management | [Link](https://arxiv.org/abs/2609.09115) | — |
+| **P1 · Watch** | **PlayTrain: An Efficient Reinforcement Learning Framework for LLM-Generated Adaptable JavaScript Games** | arXiv 2026 | efficient reasoning/agent systems / RL infrastructure / simulation throughput | [Link](https://arxiv.org/abs/2609.09059) | — |
 | **P1 · Watch** | **Omni Interaction Agent Technical Report** | arXiv 2026 | multimodal/MLLM serving / efficient reasoning/agent systems / streaming full-duplex runtime | [Link](https://arxiv.org/abs/2609.08977) | — |
 | **P1 · Watch** | **SkillAdam: Stable and Efficient Skill Evolution for Agents** | arXiv 2026 | efficient reasoning/agent systems / skill optimization / agent memory / cost reduction | [Link](https://arxiv.org/abs/2609.08944) | [Repo](https://github.com/ruc-datalab/SkillAdam) |
 | **P1 · Watch** | **Closing the Consistency Gap: Self-Evolving Agents That Learn to Stay on Course** | arXiv 2026 | efficient reasoning/agent systems / episodic memory / production consistency | [Link](https://arxiv.org/abs/2609.08832) | — |
@@ -73,6 +75,7 @@
 | **P0 · Strong** | **SceneMosaic: Efficient and Diverse Simulation-Ready Scene Generation via Hybrid Agentic Layout Evolution** | arXiv 2026 | VLA/WAM/Physical AI serving / simulation infrastructure / agentic generation | [Link](https://arxiv.org/abs/2609.05594) | [Repo](https://github.com/rxjfighting/SceneMosaic) |
 | **P0 · Strong** | **CUA-Universe: A Scalable and Dynamic Environment for Hybrid GUI+CLI Agents** | arXiv 2026 | efficient reasoning/agent systems / computer-use agents / GUI+CLI runtime / trajectory efficiency | [Link](https://arxiv.org/abs/2609.05374) | — |
 | **P1 · Watch** | **Towards Neuro-Symbolic Procedural Reasoning for Long-Horizon Vision-Language-Action Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving / long-horizon VLA / procedural memory | [Link](https://arxiv.org/abs/2609.05369) | — |
+| **P0 · Strong** | **Distill Globally, Adapt Locally: Reasoning Distillation and Product-Type Test-Time Training for Scalable Trade-Up Recommendation** | arXiv 2026 | efficient reasoning/agent systems / distillation / scalable inference | [Link](https://arxiv.org/abs/2609.05363) | — |
 | **P1 · Watch** | **RoboSPA: Can VLA Models Go Beyond Simple Scenes and Short-Horizon Tasks?** | arXiv 2026 | VLA/WAM/Physical AI serving / benchmark / long-horizon embodied reasoning | [Link](https://arxiv.org/abs/2609.05324) | [Repo](https://github.com/fanzhenxuan/RoboSPA) |
 | **P1 · Watch** | **Testing Interchangeability in LLM Agent Teams** | arXiv 2026 | efficient reasoning/agent systems / multi-agent communication / coordination cost | [Link](https://arxiv.org/abs/2609.05279) | — |
 | **P0 · Strong** | **How to Speculate about Uncertainty in Agentic Coding? A Draft-Model Gate Method** | arXiv 2026 | efficient reasoning/agent systems / speculative methods / runtime gating / token cost | [Link](https://arxiv.org/abs/2609.05274) | — |

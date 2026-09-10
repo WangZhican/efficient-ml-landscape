@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-11",
   "window_start_beijing": "2026-08-12",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 675,
+  "tracked_total": 681,
   "p0_strong_or_canonical": [
     {
       "title": "HybridFLow: SDN-Orchestrated Client Partitioning for Hybrid Federated Learning",
@@ -2238,6 +2238,27 @@
       ]
     },
     {
+      "title": "Distill Globally, Adapt Locally: Reasoning Distillation and Product-Type Test-Time Training for Scalable Trade-Up Recommendation",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / distillation / scalable inference",
+      "arxiv": "2609.05363",
+      "doi": "",
+      "official_id": "arXiv:2609.05363",
+      "paper_url": "https://arxiv.org/abs/2609.05363",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Distills LLM reasoning into a 15.5M non-generative student that uses only two precomputed embeddings at inference. On a 100K-pair proxy catalog, the student on one eight-GPU machine is approximately 5,000x faster and 10,000x lower in estimated cost than direct LLM inference while retaining strong AUC, with lightweight product-type test-time adapters further improving AUC from 0.924 to 0.941.",
+      "published_at": "2026-09-04T17:08:50Z",
+      "updated_at": "2026-09-04T17:08:50Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Lightweight Vision Transformer Compression for On-Device Plant Disease Detection in Resource-Constrained Agricultural Field Conditions",
       "venue": "arXiv 2026",
       "topic": "quantization / sparsity-pruning / edge AI deployment",
@@ -4349,6 +4370,28 @@
       ]
     },
     {
+      "title": "Do Agents Know When They Succeed? Calibrating Agent Confidence from Internal Representations",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / runtime reliability / confidence monitoring",
+      "arxiv": "2609.09448",
+      "doi": "",
+      "official_id": "arXiv:2609.09448",
+      "paper_url": "https://arxiv.org/abs/2609.09448",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Uses residual-stream trajectory dynamics and action-representation probes to predict eventual agent success across Bash, SQL, and Python tasks and three model families. It reports a zero-overhead reliability monitor requiring neither prompt changes nor multi-sample rollouts; highly relevant to low-cost agent runtime control, but the abstract does not quantify end-to-end serving savings.",
+      "published_at": "2026-09-08T20:58:49Z",
+      "updated_at": "2026-09-08T20:58:49Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "QPS-ToR: A Parallel Iterative Switching Algorithm for Reconfigurable Optical Datacenter Switching",
       "venue": "arXiv 2026",
       "topic": "distributed training/inference / datacenter networking / optical switching / low-complexity scheduling",
@@ -4535,6 +4578,28 @@
       "directions": [
         "Quantization",
         "Efficient Attention"
+      ]
+    },
+    {
+      "title": "PlayTrain: An Efficient Reinforcement Learning Framework for LLM-Generated Adaptable JavaScript Games",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / RL infrastructure / simulation throughput",
+      "arxiv": "2609.09059",
+      "doi": "",
+      "official_id": "arXiv:2609.09059",
+      "paper_url": "https://arxiv.org/abs/2609.09059",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Combines LLM-generated JavaScript environments with a high-throughput RL pipeline and reports over 1M agent decisions per second on a single GPU node. This is strong infrastructure evidence for cheap scalable agent-environment generation and training, but it is not directly an LLM serving or inference acceleration method.",
+      "published_at": "2026-09-08T17:15:39Z",
+      "updated_at": "2026-09-08T17:15:39Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -5094,6 +5159,28 @@
         "LLM Serving",
         "KV Cache / Long Context",
         "Efficient Attention"
+      ]
+    },
+    {
+      "title": "DISEIL: Demonstration Distillation for Sample-Efficient Imitation Learning",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / imitation learning / data efficiency",
+      "arxiv": "2609.08123",
+      "doi": "",
+      "official_id": "arXiv:2609.08123",
+      "paper_url": "https://arxiv.org/abs/2609.08123",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Clusters recurring robot-policy failure modes and asks for targeted demonstrations starting at the first unreliable step. Across five simulated tasks and both state/image observations it achieves the highest mean held-out success in all ten settings, with the largest margin at the smallest demonstration budget. Important Physical-AI data-efficiency evidence, though not inference acceleration.",
+      "published_at": "2026-09-08T01:59:04Z",
+      "updated_at": "2026-09-08T01:59:04Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -5810,6 +5897,27 @@
       ]
     },
     {
+      "title": "BEFORE THE FLIP: Measuring Hidden Score Shifts In Quantized Vision Language Models Before The Answer Changes for Visual Question Answering",
+      "venue": "arXiv 2026",
+      "topic": "quantization / multimodal VLM / evaluation methodology",
+      "arxiv": "2609.06922",
+      "doi": "",
+      "official_id": "arXiv:2609.06922",
+      "paper_url": "https://arxiv.org/abs/2609.06922",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Shows that 4-bit compression can materially shift VLM answer margins even when discrete answers remain unchanged, while per-question mixed-precision selection fails to beat shuffled controls at tested storage budgets. Useful evidence that VLM quantization evaluation should inspect hidden score movement rather than answer flips alone, but it does not introduce a new acceleration method.",
+      "published_at": "2026-09-07T01:38:42Z",
+      "updated_at": "2026-09-07T01:38:42Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
       "title": "Characterizing Contention-Induced Reliability Collapse in KV-Cache Timing Side Channels for Multi-Tenant LLM Serving",
       "venue": "arXiv 2026",
       "topic": "KV cache/long-context / LLM serving / multi-tenant security characterization",
@@ -6103,6 +6211,27 @@
       "is_latest_30d": true,
       "directions": [
         "Efficient Attention"
+      ]
+    },
+    {
+      "title": "IM-ENGINE: Image Editing for Embodied Data Generation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / embodied data generation / simulation",
+      "arxiv": "2609.06279",
+      "doi": "",
+      "official_id": "arXiv:2609.06279",
+      "paper_url": "https://arxiv.org/abs/2609.06279",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Uses image editing as an intermediate representation, then recovers simulator-grounded 3D state and physics-valid robot supervision for grasping and goal-state generation. It offers a scalable alternative to costly human demonstrations and is relevant to embodied training-data efficiency, but the primary abstract provides no direct runtime acceleration metric.",
+      "published_at": "2026-09-05T22:21:34Z",
+      "updated_at": "2026-09-05T22:21:34Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -16851,6 +16980,27 @@
       ]
     },
     {
+      "title": "Distill Globally, Adapt Locally: Reasoning Distillation and Product-Type Test-Time Training for Scalable Trade-Up Recommendation",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / distillation / scalable inference",
+      "arxiv": "2609.05363",
+      "doi": "",
+      "official_id": "arXiv:2609.05363",
+      "paper_url": "https://arxiv.org/abs/2609.05363",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Distills LLM reasoning into a 15.5M non-generative student that uses only two precomputed embeddings at inference. On a 100K-pair proxy catalog, the student on one eight-GPU machine is approximately 5,000x faster and 10,000x lower in estimated cost than direct LLM inference while retaining strong AUC, with lightweight product-type test-time adapters further improving AUC from 0.924 to 0.941.",
+      "published_at": "2026-09-04T17:08:50Z",
+      "updated_at": "2026-09-04T17:08:50Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Lightweight Vision Transformer Compression for On-Device Plant Disease Detection in Resource-Constrained Agricultural Field Conditions",
       "venue": "arXiv 2026",
       "topic": "quantization / sparsity-pruning / edge AI deployment",
@@ -18960,6 +19110,28 @@
       ]
     },
     {
+      "title": "Do Agents Know When They Succeed? Calibrating Agent Confidence from Internal Representations",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / runtime reliability / confidence monitoring",
+      "arxiv": "2609.09448",
+      "doi": "",
+      "official_id": "arXiv:2609.09448",
+      "paper_url": "https://arxiv.org/abs/2609.09448",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Uses residual-stream trajectory dynamics and action-representation probes to predict eventual agent success across Bash, SQL, and Python tasks and three model families. It reports a zero-overhead reliability monitor requiring neither prompt changes nor multi-sample rollouts; highly relevant to low-cost agent runtime control, but the abstract does not quantify end-to-end serving savings.",
+      "published_at": "2026-09-08T20:58:49Z",
+      "updated_at": "2026-09-08T20:58:49Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "QPS-ToR: A Parallel Iterative Switching Algorithm for Reconfigurable Optical Datacenter Switching",
       "venue": "arXiv 2026",
       "topic": "distributed training/inference / datacenter networking / optical switching / low-complexity scheduling",
@@ -19146,6 +19318,28 @@
       "directions": [
         "Quantization",
         "Efficient Attention"
+      ]
+    },
+    {
+      "title": "PlayTrain: An Efficient Reinforcement Learning Framework for LLM-Generated Adaptable JavaScript Games",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / RL infrastructure / simulation throughput",
+      "arxiv": "2609.09059",
+      "doi": "",
+      "official_id": "arXiv:2609.09059",
+      "paper_url": "https://arxiv.org/abs/2609.09059",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Combines LLM-generated JavaScript environments with a high-throughput RL pipeline and reports over 1M agent decisions per second on a single GPU node. This is strong infrastructure evidence for cheap scalable agent-environment generation and training, but it is not directly an LLM serving or inference acceleration method.",
+      "published_at": "2026-09-08T17:15:39Z",
+      "updated_at": "2026-09-08T17:15:39Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -19705,6 +19899,28 @@
         "LLM Serving",
         "KV Cache / Long Context",
         "Efficient Attention"
+      ]
+    },
+    {
+      "title": "DISEIL: Demonstration Distillation for Sample-Efficient Imitation Learning",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / imitation learning / data efficiency",
+      "arxiv": "2609.08123",
+      "doi": "",
+      "official_id": "arXiv:2609.08123",
+      "paper_url": "https://arxiv.org/abs/2609.08123",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Clusters recurring robot-policy failure modes and asks for targeted demonstrations starting at the first unreliable step. Across five simulated tasks and both state/image observations it achieves the highest mean held-out success in all ten settings, with the largest margin at the smallest demonstration budget. Important Physical-AI data-efficiency evidence, though not inference acceleration.",
+      "published_at": "2026-09-08T01:59:04Z",
+      "updated_at": "2026-09-08T01:59:04Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -20421,6 +20637,27 @@
       ]
     },
     {
+      "title": "BEFORE THE FLIP: Measuring Hidden Score Shifts In Quantized Vision Language Models Before The Answer Changes for Visual Question Answering",
+      "venue": "arXiv 2026",
+      "topic": "quantization / multimodal VLM / evaluation methodology",
+      "arxiv": "2609.06922",
+      "doi": "",
+      "official_id": "arXiv:2609.06922",
+      "paper_url": "https://arxiv.org/abs/2609.06922",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Shows that 4-bit compression can materially shift VLM answer margins even when discrete answers remain unchanged, while per-question mixed-precision selection fails to beat shuffled controls at tested storage budgets. Useful evidence that VLM quantization evaluation should inspect hidden score movement rather than answer flips alone, but it does not introduce a new acceleration method.",
+      "published_at": "2026-09-07T01:38:42Z",
+      "updated_at": "2026-09-07T01:38:42Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
       "title": "Characterizing Contention-Induced Reliability Collapse in KV-Cache Timing Side Channels for Multi-Tenant LLM Serving",
       "venue": "arXiv 2026",
       "topic": "KV cache/long-context / LLM serving / multi-tenant security characterization",
@@ -20714,6 +20951,27 @@
       "is_latest_30d": true,
       "directions": [
         "Efficient Attention"
+      ]
+    },
+    {
+      "title": "IM-ENGINE: Image Editing for Embodied Data Generation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / embodied data generation / simulation",
+      "arxiv": "2609.06279",
+      "doi": "",
+      "official_id": "arXiv:2609.06279",
+      "paper_url": "https://arxiv.org/abs/2609.06279",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Uses image editing as an intermediate representation, then recovers simulator-grounded 3D state and physics-valid robot supervision for grasping and goal-state generation. It offers a scalable alternative to costly human demonstrations and is relevant to embodied training-data efficiency, but the primary abstract provides no direct runtime acceleration metric.",
+      "published_at": "2026-09-05T22:21:34Z",
+      "updated_at": "2026-09-05T22:21:34Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {

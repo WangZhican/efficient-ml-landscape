@@ -3575,6 +3575,27 @@
     ]
   },
   {
+    "title": "Distill Globally, Adapt Locally: Reasoning Distillation and Product-Type Test-Time Training for Scalable Trade-Up Recommendation",
+    "venue": "arXiv 2026",
+    "topic": "efficient reasoning/agent systems / distillation / scalable inference",
+    "arxiv": "2609.05363",
+    "doi": "",
+    "official_id": "arXiv:2609.05363",
+    "paper_url": "https://arxiv.org/abs/2609.05363",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Distills LLM reasoning into a 15.5M non-generative student that uses only two precomputed embeddings at inference. On a 100K-pair proxy catalog, the student on one eight-GPU machine is approximately 5,000x faster and 10,000x lower in estimated cost than direct LLM inference while retaining strong AUC, with lightweight product-type test-time adapters further improving AUC from 0.924 to 0.941.",
+    "published_at": "2026-09-04T17:08:50Z",
+    "updated_at": "2026-09-04T17:08:50Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "Distilled Continuous Diffusion Language Models Can Write Code in Few Steps---or One",
     "venue": "arXiv 2026",
     "topic": "diffusion/flow acceleration / diffusion language models / efficient reasoning",
