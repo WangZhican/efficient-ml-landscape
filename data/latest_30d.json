@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-10",
   "window_start_beijing": "2026-08-11",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 562,
+  "tracked_total": 567,
   "p0_strong_or_canonical": [
     {
       "title": "Distributed Linear Programming on GPU Clusters at Extreme Scale",
@@ -639,6 +639,26 @@
       "directions": [
         "LLM Serving",
         "KV Cache / Long Context"
+      ]
+    },
+    {
+      "title": "TreeRedux: Separating Concerns in Spark's Distributed Tree Aggregation",
+      "venue": "arXiv 2026",
+      "topic": "distributed training/inference / data systems / runtime memory scalability",
+      "arxiv": "2609.06982",
+      "doi": "",
+      "official_id": "arXiv:2609.06982",
+      "paper_url": "https://arxiv.org/abs/2609.06982",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Minimal Spark tree-aggregation extension that executes a terminal finalize step on an executor so compact result V rather than large intermediate U is materialized on the driver. Default GK Select OOMs at 2.5B elements and executor-side final aggregation at about 16-18B, while Redux Select completes through 28B; Space-Saving supports up to 32x larger sketch capacity. Strong measured distributed-runtime scalability evidence.",
+      "published_at": "2026-09-07T03:17:27Z",
+      "updated_at": "2026-09-07T03:17:27Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Distributed Training / Inference"
       ]
     },
     {
@@ -2220,6 +2240,26 @@
       ]
     },
     {
+      "title": "RecurTrace: Adaptive Latent Reasoning with Loop-Time Memory",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / adaptive compute / latent recurrence",
+      "arxiv": "2609.03379",
+      "doi": "",
+      "official_id": "arXiv:2609.03379",
+      "paper_url": "https://arxiv.org/abs/2609.03379",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Adaptive latent-depth reasoning adds loop-time memory and a learned halting head. On MathQA it reaches 56.9% accuracy with 2.0 average loops, beating the best fixed-depth result by 2.2 points at matched compute; CALM needs 5.6 loops for 54.1%, while stronger adaptive baselines use 2.1-3.2 loops for lower accuracy. It also improves same-budget generation across 0.6B-8B models, directly supporting adaptive-compute efficiency.",
+      "published_at": "2026-09-03T05:29:24Z",
+      "updated_at": "2026-09-03T05:29:24Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Spruce: Scalable Private Outsourced Retrieval Using Compact Embeddings",
       "venue": "arXiv 2026",
       "topic": "LLM serving / RAG retrieval / privacy-preserving systems / efficient retrieval",
@@ -2318,6 +2358,28 @@
       "why": "Content-aware hierarchical inference scheduler jointly planning visual-token compression and layer offloading under time-varying contact/battery constraints. NVIDIA Jetson AGX Orin hardware-in-the-loop plus constellation-scale replay reports 53.0% lower mean latency and 70.8% lower battery draw while meeting quality targets at 5 tasks/s.",
       "published_at": "2026-09-03T03:13:09Z",
       "updated_at": "2026-09-03T03:13:09Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "A Technique for Load Shifting Low-latency Applications in Multi-Region Renewables Harvesting via SMT Core Pooling",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / cloud scheduling / sustainable systems",
+      "arxiv": "2609.03297",
+      "doi": "",
+      "official_id": "arXiv:2609.03297",
+      "paper_url": "https://arxiv.org/abs/2609.03297",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Hardware-software co-design for renewable-aware multi-region load shifting of low-latency workloads. Implemented with OpenStack and CPU idle states on a real testbed using Azure VM arrival traces; results report 80% less offloading of low-latency VMs and 43.81% lower coefficient of variation of p90 end-user latency, with 11.97% worst-case latency compromise from SMT. This is direct measured systems evidence.",
+      "published_at": "2026-09-03T02:44:10Z",
+      "updated_at": "2026-09-03T02:44:10Z",
       "is_latest_30d": true,
       "tracking_tier": "P0 · Strong",
       "directions": [
@@ -5089,6 +5151,26 @@
       ]
     },
     {
+      "title": "HiSfM: Disambiguating Structure-from-Motion via Scaffold-Anchored Hierarchical Reconstruction",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / 3D vision pipeline efficiency",
+      "arxiv": "2609.04718",
+      "doi": "",
+      "official_id": "arXiv:2609.04718",
+      "paper_url": "https://arxiv.org/abs/2609.04718",
+      "code_url": "https://github.com/3dv-casia/HiSfM",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Hierarchical coarse-to-fine SfM builds a compact verified scaffold and then absorbs remaining images, improving robustness under repeated/symmetric structure while substantially reducing runtime versus prior methods. Official author code is available, but the primary abstract does not report an exact latency or speedup figure, so it is retained as high-value watch.",
+      "published_at": "2026-09-04T04:41:24Z",
+      "updated_at": "2026-09-04T04:41:24Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
       "title": "Sustainable Edge Vision via Empirically Calibrated DVFS: Eliminating Thermal Throttling on Passively Cooled Hardware",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI systems / DVFS / thermal-aware inference",
@@ -5446,6 +5528,28 @@
         "LLM Serving",
         "GPU Kernel / DSL / Compiler",
         "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "Predictive Zonotope Reduction: Precise Runtime Monitoring under Uncertainty",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / runtime monitoring / edge safety",
+      "arxiv": "2609.03699",
+      "doi": "",
+      "official_id": "arXiv:2609.03699",
+      "paper_url": "https://arxiv.org/abs/2609.03699",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI runtime work dynamically selects zonotope reduction via beam-search MPC and distills the policy into a small neural policy for substantially faster execution while maintaining improved monitoring precision. Implemented in RLola and evaluated on Raspberry Pi 5 for a robotic-arm workload. The primary abstract lacks an exact latency/speedup number, so it remains high-value watch rather than strong.",
+      "published_at": "2026-09-03T11:36:45Z",
+      "updated_at": "2026-09-03T11:36:45Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -12847,6 +12951,26 @@
       ]
     },
     {
+      "title": "TreeRedux: Separating Concerns in Spark's Distributed Tree Aggregation",
+      "venue": "arXiv 2026",
+      "topic": "distributed training/inference / data systems / runtime memory scalability",
+      "arxiv": "2609.06982",
+      "doi": "",
+      "official_id": "arXiv:2609.06982",
+      "paper_url": "https://arxiv.org/abs/2609.06982",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Minimal Spark tree-aggregation extension that executes a terminal finalize step on an executor so compact result V rather than large intermediate U is materialized on the driver. Default GK Select OOMs at 2.5B elements and executor-side final aggregation at about 16-18B, while Redux Select completes through 28B; Space-Saving supports up to 32x larger sketch capacity. Strong measured distributed-runtime scalability evidence.",
+      "published_at": "2026-09-07T03:17:27Z",
+      "updated_at": "2026-09-07T03:17:27Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Distributed Training / Inference"
+      ]
+    },
+    {
       "title": "OCTN: Neural OCT Representations for Robot-Guided Precision Intervention",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / edge/GPU runtime / robot-guided intervention",
@@ -14425,6 +14549,26 @@
       ]
     },
     {
+      "title": "RecurTrace: Adaptive Latent Reasoning with Loop-Time Memory",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / adaptive compute / latent recurrence",
+      "arxiv": "2609.03379",
+      "doi": "",
+      "official_id": "arXiv:2609.03379",
+      "paper_url": "https://arxiv.org/abs/2609.03379",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Adaptive latent-depth reasoning adds loop-time memory and a learned halting head. On MathQA it reaches 56.9% accuracy with 2.0 average loops, beating the best fixed-depth result by 2.2 points at matched compute; CALM needs 5.6 loops for 54.1%, while stronger adaptive baselines use 2.1-3.2 loops for lower accuracy. It also improves same-budget generation across 0.6B-8B models, directly supporting adaptive-compute efficiency.",
+      "published_at": "2026-09-03T05:29:24Z",
+      "updated_at": "2026-09-03T05:29:24Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Spruce: Scalable Private Outsourced Retrieval Using Compact Embeddings",
       "venue": "arXiv 2026",
       "topic": "LLM serving / RAG retrieval / privacy-preserving systems / efficient retrieval",
@@ -14523,6 +14667,28 @@
       "why": "Content-aware hierarchical inference scheduler jointly planning visual-token compression and layer offloading under time-varying contact/battery constraints. NVIDIA Jetson AGX Orin hardware-in-the-loop plus constellation-scale replay reports 53.0% lower mean latency and 70.8% lower battery draw while meeting quality targets at 5 tasks/s.",
       "published_at": "2026-09-03T03:13:09Z",
       "updated_at": "2026-09-03T03:13:09Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "A Technique for Load Shifting Low-latency Applications in Multi-Region Renewables Harvesting via SMT Core Pooling",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / cloud scheduling / sustainable systems",
+      "arxiv": "2609.03297",
+      "doi": "",
+      "official_id": "arXiv:2609.03297",
+      "paper_url": "https://arxiv.org/abs/2609.03297",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Hardware-software co-design for renewable-aware multi-region load shifting of low-latency workloads. Implemented with OpenStack and CPU idle states on a real testbed using Azure VM arrival traces; results report 80% less offloading of low-latency VMs and 43.81% lower coefficient of variation of p90 end-user latency, with 11.97% worst-case latency compromise from SMT. This is direct measured systems evidence.",
+      "published_at": "2026-09-03T02:44:10Z",
+      "updated_at": "2026-09-03T02:44:10Z",
       "is_latest_30d": true,
       "tracking_tier": "P0 · Strong",
       "directions": [
@@ -17292,6 +17458,26 @@
       ]
     },
     {
+      "title": "HiSfM: Disambiguating Structure-from-Motion via Scaffold-Anchored Hierarchical Reconstruction",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / 3D vision pipeline efficiency",
+      "arxiv": "2609.04718",
+      "doi": "",
+      "official_id": "arXiv:2609.04718",
+      "paper_url": "https://arxiv.org/abs/2609.04718",
+      "code_url": "https://github.com/3dv-casia/HiSfM",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Hierarchical coarse-to-fine SfM builds a compact verified scaffold and then absorbs remaining images, improving robustness under repeated/symmetric structure while substantially reducing runtime versus prior methods. Official author code is available, but the primary abstract does not report an exact latency or speedup figure, so it is retained as high-value watch.",
+      "published_at": "2026-09-04T04:41:24Z",
+      "updated_at": "2026-09-04T04:41:24Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
       "title": "Sustainable Edge Vision via Empirically Calibrated DVFS: Eliminating Thermal Throttling on Passively Cooled Hardware",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI systems / DVFS / thermal-aware inference",
@@ -17649,6 +17835,28 @@
         "LLM Serving",
         "GPU Kernel / DSL / Compiler",
         "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "Predictive Zonotope Reduction: Precise Runtime Monitoring under Uncertainty",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / runtime monitoring / edge safety",
+      "arxiv": "2609.03699",
+      "doi": "",
+      "official_id": "arXiv:2609.03699",
+      "paper_url": "https://arxiv.org/abs/2609.03699",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI runtime work dynamically selects zonotope reduction via beam-search MPC and distills the policy into a small neural policy for substantially faster execution while maintaining improved monitoring precision. Implemented in RLola and evaluated on Raspberry Pi 5 for a robotic-arm workload. The primary abstract lacks an exact latency/speedup number, so it remains high-value watch rather than strong.",
+      "published_at": "2026-09-03T11:36:45Z",
+      "updated_at": "2026-09-03T11:36:45Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
