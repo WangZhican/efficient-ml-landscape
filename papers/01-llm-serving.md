@@ -1,17 +1,19 @@
 # 01 · LLM Serving
 
-> **753 canonical papers** mapped here, plus a broader **408-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **755 canonical papers** mapped here, plus a broader **413-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 408 tracked
+## 🆕 Latest 30 Days · 413 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **P1 · Watch** | **Show-Harness: Just a VLM Agent Can Play Robots** | arXiv 2026 | VLA/WAM/Physical AI / VLM agents / robot interface / low-cost deployment | [Link](https://arxiv.org/abs/2609.10522) | [Repo](https://showlab.github.io/Show-Harness/) |
 | **P1 · Watch** | **ConvMem: Convolutional Memory for Long-Context Reasoning** | arXiv 2026 | KV cache/long-context / efficient reasoning / agent memory | [Link](https://arxiv.org/abs/2609.10441) | — |
 | **P1 · Watch** | **Frequency-Conditioned Flow Matching for Vision-Language-Action Models** | arXiv 2026 | VLA/WAM/Physical AI / flow matching / action generation | [Link](https://arxiv.org/abs/2609.10405) | — |
+| **P0 · Strong** | **HybridFLow: SDN-Orchestrated Client Partitioning for Hybrid Federated Learning** | arXiv 2026 | distributed training / edge-cloud / federated learning / network-aware scheduling | [Link](https://arxiv.org/abs/2609.10404) | — |
 | **P0 · Strong** | **PACE: Perceived-Latency-Aware Cascading Service Routing and Filler Control for QoE-Efficient Retrieval-Augmented Dialogue Serving** | arXiv 2026 | LLM serving / RAG serving / Physical AI cloud-edge runtime / dialogue systems | [Link](https://arxiv.org/abs/2609.10372) | — |
+| **P1 · Watch** | **Why Is Video Still So Expensive? A Survey of Inference-Efficiency Mechanisms in Video and Audiovisual LLMs** | arXiv 2026 | multimodal/MLLM serving / video inference / efficiency survey / canonical lineage | [Link](https://arxiv.org/abs/2609.10355) | — |
 | **P1 · Watch** | **TRACE: Trajectory-robust Admission with Evidence Ordering for Efficient GUI Agents** | arXiv 2026 | efficient reasoning/agent systems / multimodal serving / KV cache / token pruning | [Link](https://arxiv.org/abs/2609.10297) | — |
 | **P1 · Watch** | **KVShareArena: KV-Cache Reuse Across Contexts and Model Checkpoints** | arXiv 2026 | KV cache/long-context / LLM serving / benchmark and cost accounting | [Link](https://arxiv.org/abs/2609.10266) | — |
 | **P0 · Strong** | **Maverick: Private and Verifiable LLM Inference Made Practical via Matrix-Vector Multiplication Delegation** | arXiv 2026 | LLM serving / private inference / verifiable delegation / heterogeneous offload | [Link](https://arxiv.org/abs/2609.10264) | — |
@@ -23,6 +25,7 @@
 | **P0 · Strong** | **PELM: Power Efficient On-Device LLM Inference with Speculative Decoding and Dynamic Voltage Frequency Scaling** | arXiv 2026 | LLM serving / speculative decoding / edge inference / energy-aware runtime | [Link](https://arxiv.org/abs/2609.09662) | [Repo](https://github.com/imec-nu/PELM) |
 | **P0 · Strong** | **UNISON: A Co-Designed Near-Memory Scheduler of Session KV Residency for LLM Agents** | arXiv 2026 | KV cache/long-context / agent serving / near-memory scheduling | [Link](https://arxiv.org/abs/2609.09643) | — |
 | **P0 · Strong** | **AccelMPC: High-Rate, Low-Power FPGA-Accelerated Model Predictive Control for Tiny Drones** | arXiv 2026 | VLA/WAM/Physical AI serving / edge robotics / FPGA acceleration / real-time control | [Link](https://arxiv.org/abs/2609.09380) | — |
+| **P1 · Watch** | **Proxy Policy Steering** | arXiv 2026 | VLA/WAM/Physical AI / inference-time adaptation / flow policy steering | [Link](https://arxiv.org/abs/2609.09148) | — |
 | **P1 · Watch** | **DeCAL: Towards Physically-Grounded Dexterous Vision-Language-Action Models via Contact-Aware Latent Co-Imagination** | arXiv 2026 | VLA/WAM/Physical AI serving / dexterous manipulation / tactile fusion / world modeling | [Link](https://arxiv.org/abs/2609.09119) | [Repo](https://aureleopku.github.io/DeCAL) |
 | **P1 · Watch** | **Omni Interaction Agent Technical Report** | arXiv 2026 | multimodal/MLLM serving / efficient reasoning/agent systems / streaming full-duplex runtime | [Link](https://arxiv.org/abs/2609.08977) | — |
 | **P1 · Watch** | **GraphFAS: A Distributed System for Automated Graph Feature Generation and Selection in Industrial Transaction Networks** | arXiv 2026 | distributed training/inference / industrial graph systems / feature pipeline / production deployment | [Link](https://arxiv.org/abs/2609.08970) | — |
@@ -37,6 +40,7 @@
 | **P1 · Watch** | **BIO-MEMART: Biometric-Aware KV Cache Memory for Multi-User LLM Agents** | arXiv 2026 | KV cache/long-context / efficient reasoning/agent systems / shared memory | [Link](https://arxiv.org/abs/2609.08566) | — |
 | **P1 · Watch** | **Safe Task Planning with Long-Term Graph Memory for Embodied Agents** | arXiv 2026 | VLA/WAM/Physical AI / embodied agents / long-term memory / safety | [Link](https://arxiv.org/abs/2609.08444) | [Repo](https://sites.google.com/view/safemem) |
 | **P0 · Strong** | **SequenceO1: End-to-End Ultra-Long (100K) Sequence Modeling in Recommendation with Low-Rank Caching** | arXiv 2026 | LLM/recommendation serving / ultra-long sequence / low-rank caching / fused kernel | [Link](https://arxiv.org/abs/2609.08443) | — |
+| **P0 · Strong** | **FastE: Readout-Triggered Token Compression for LLM Embedding Inference** | arXiv 2026 | LLM serving / embedding inference / token compression / retrieval systems | [Link](https://arxiv.org/abs/2609.08407) | — |
 | **P1 · Watch** | **RoboCousin: Build Your Own Simulation Playground for Robust Bimanual Robotic Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving / synthetic data systems / bimanual manipulation | [Link](https://arxiv.org/abs/2609.08339) | — |
 | **P0 · Strong** | **AttnCompress: Dynamic Attention-Guided Trajectory Compression for Software Engineering Agents** | arXiv 2026 | efficient reasoning/agent systems / context compression / agent serving | [Link](https://arxiv.org/abs/2609.08318) | — |
 | **P1 · Watch** | **A Measurement Study of LLM Inference Trade-offs Across Edge Continuum Hardware** | arXiv 2026 | edge/cloud/heterogeneous AI systems / LLM inference / measurement | [Link](https://arxiv.org/abs/2609.08307) | — |
@@ -94,6 +98,7 @@
 | **P1 · Watch** | **MobileVLA-R1 2.0: RL-Enhanced Reasoning for Mobile Robot Control** | arXiv 2026 | VLA/WAM/Physical AI serving / mobile robot control / reasoning-action decoupling | [Link](https://arxiv.org/abs/2609.06251) | [Repo](https://github.com/AIGeeksGroup/MobileVLA-R1-2.0) |
 | **P0 · Strong** | **AutoUVM: Automated Prefetching Framework for LLMs under UVM Oversubscription** | arXiv 2026 | LLM serving / memory oversubscription / UVM prefetching / heterogeneous memory | [Link](https://arxiv.org/abs/2609.06172) | — |
 | **P0 · Strong** | **Substrate-Portable Execution for Production LLM Workflows** | arXiv 2026 | efficient reasoning/agent systems / LLM serving / production orchestration / batch and streaming runtime | [Link](https://arxiv.org/abs/2609.06128) | — |
+| **P1 · Watch** | **Where Success Breaks: Failure-Boundary Learning for Robust Vision-Language-Action Models** | arXiv 2026 | VLA/WAM/Physical AI / robust adaptation / failure recovery | [Link](https://arxiv.org/abs/2609.06114) | — |
 | **P0 · Strong** | **Poseidon: DAG-Guided Parallelism Search for LLM Pre-Training on Heterogeneous Clusters** | arXiv 2026 | distributed training/inference / heterogeneous clusters / parallelism search | [Link](https://arxiv.org/abs/2609.06086) | — |
 | **P1 · Watch** | **LayerRoute: Action-Conditioned Mixture-of-Layers Routing for Vision-Language-Action Policies** | arXiv 2026 | VLA/WAM/Physical AI serving / adaptive layer routing / cached VLM representations | [Link](https://arxiv.org/abs/2609.06079) | — |
 | **P1 · Watch** | **Beyond Retraining-Free MoE Compression: A Cost-Normalized Study of Post-Compression Adjustment** | arXiv 2026 | MoE systems/accelerators / compression / deployment memory / adjustment cost | [Link](https://arxiv.org/abs/2609.06076) | — |

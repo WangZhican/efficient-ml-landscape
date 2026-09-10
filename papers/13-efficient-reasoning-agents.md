@@ -1,10 +1,10 @@
 # 13 · Efficient Reasoning / Agents
 
-> **303 canonical papers** mapped here, plus a broader **126-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **305 canonical papers** mapped here, plus a broader **128-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 126 tracked
+## 🆕 Latest 30 Days · 128 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -46,6 +46,7 @@
 | **P0 · Strong** | **SceneMosaic: Efficient and Diverse Simulation-Ready Scene Generation via Hybrid Agentic Layout Evolution** | arXiv 2026 | VLA/WAM/Physical AI serving / simulation infrastructure / agentic generation | [Link](https://arxiv.org/abs/2609.05594) | [Repo](https://github.com/rxjfighting/SceneMosaic) |
 | **P1 · Watch** | **Towards Neuro-Symbolic Procedural Reasoning for Long-Horizon Vision-Language-Action Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving / long-horizon VLA / procedural memory | [Link](https://arxiv.org/abs/2609.05369) | — |
 | **P1 · Watch** | **RoboSPA: Can VLA Models Go Beyond Simple Scenes and Short-Horizon Tasks?** | arXiv 2026 | VLA/WAM/Physical AI serving / benchmark / long-horizon embodied reasoning | [Link](https://arxiv.org/abs/2609.05324) | [Repo](https://github.com/fanzhenxuan/RoboSPA) |
+| **P0 · Strong** | **How to Speculate about Uncertainty in Agentic Coding? A Draft-Model Gate Method** | arXiv 2026 | efficient reasoning/agent systems / speculative methods / runtime gating / token cost | [Link](https://arxiv.org/abs/2609.05274) | — |
 | **P0 · Strong** | **Substrate-Aware AI Agents: Execution Context as a First-Class Input** | arXiv 2026 | efficient reasoning/agent systems / resource-aware code generation / runtime constraints | [Link](https://arxiv.org/abs/2609.05232) | — |
 | **P1 · Watch** | **A Schema Bounded Language Model for Refining Robot Policies Without Destabilizing Local Learning** | arXiv 2026 | VLA/WAM/Physical AI serving / hierarchical agent runtime / decentralized robot control | [Link](https://arxiv.org/abs/2609.05133) | — |
 | **P0 · Strong** | **BeaconKV: Key-Value Cache Compression Guided by Beacon Queries for Efficient Large Reasoning Model Inference** | ICML 2026 | KV cache / long reasoning / training-free compression | [Link](https://arxiv.org/abs/2609.04971) | [Repo](https://github.com/aiha-lab/BeaconKV) |
@@ -61,6 +62,7 @@
 | **P0 · Strong** | **MaxKernel: Agentic Kernel Generation for TPUs** | arXiv 2026 | GPU kernel/DSL/compilers / TPU kernel generation / agentic optimization | [Link](https://arxiv.org/abs/2609.04523) | [Repo](https://github.com/AI-Hypercomputer/accelerator-agents/tree/main/MaxKernel) |
 | **P0 · Strong** | **VLA-Precision: Asymmetric Co-Bootstrapping for Efficient Real-World Online RL of Vision-Language-Action Models** | arXiv 2026 | VLA / Physical AI / real-world online RL / streaming runtime | [Link](https://arxiv.org/abs/2609.04355) | [Repo](https://vla-precision.github.io/) |
 | **P1 · Watch** | **Compile by Training: Turning Natural-Language Specifications into Local Neural Functions** | arXiv 2026 | efficient reasoning/agent systems / local inference / distillation | [Link](https://arxiv.org/abs/2609.04199) | — |
+| **P0 · Strong** | **SENTINEL-RL: Offloading Topological Reasoning from LLM Agents in the Security Operations Center** | arXiv 2026 | efficient reasoning/agent systems / reasoning offload / graph runtime / enterprise agents | [Link](https://arxiv.org/abs/2609.04159) | — |
 | **P0 · Strong** | **Unlocking Lossless Speedups in LLMs via Discrete Diffusion** | CoRR 2026 | speculative decoding / diffusion language models / parallel decoding / efficient reasoning | [Link](https://arxiv.org/abs/2609.04010) | — |
 | **P0 · Strong** | **Almost Free State Prediction Separation** | arXiv 2026 | efficient reasoning/agent systems / LLM inference / KV-cache-neutral extra compute | [Link](https://arxiv.org/abs/2609.03807) | — |
 | **P1 · Watch** | **SimSkill: A Lifelong Learning AI Agent for Autonomous Mastery of Traffic Simulation** | arXiv 2026 | efficient reasoning/agent systems / agent memory / reusable skills | [Link](https://arxiv.org/abs/2609.03753) | [Repo](https://github.com/qiliuchn/SimSkill-V1) |

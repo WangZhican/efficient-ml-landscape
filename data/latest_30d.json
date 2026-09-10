@@ -2,8 +2,30 @@
   "window_end_beijing": "2026-09-10",
   "window_start_beijing": "2026-08-11",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 608,
+  "tracked_total": 621,
   "p0_strong_or_canonical": [
+    {
+      "title": "HybridFLow: SDN-Orchestrated Client Partitioning for Hybrid Federated Learning",
+      "venue": "arXiv 2026",
+      "topic": "distributed training / edge-cloud / federated learning / network-aware scheduling",
+      "arxiv": "2609.10404",
+      "doi": "",
+      "official_id": "arXiv:2609.10404",
+      "paper_url": "https://arxiv.org/abs/2609.10404",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Closed-loop SDN orchestration estimates per-client communication time and partitions synchronous versus asynchronous FL clients using network-wide bottleneck visibility. Across multiple topologies it reaches 80% target accuracy 33-40% faster than SmartFLow and cuts average round duration by 30-40 seconds.",
+      "published_at": "2026-09-09T16:23:53Z",
+      "updated_at": "2026-09-09T16:23:53Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
     {
       "title": "PACE: Perceived-Latency-Aware Cascading Service Routing and Filler Control for QoE-Efficient Retrieval-Augmented Dialogue Serving",
       "venue": "arXiv 2026",
@@ -67,6 +89,48 @@
       "directions": [
         "GPU Kernel / DSL / Compiler",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "SAGE: Semantic-Aware Geographic Error Recovery for AI Data Movement",
+      "venue": "arXiv 2026",
+      "topic": "distributed training/inference / AI interconnect / fault recovery / communication latency",
+      "arxiv": "2609.10126",
+      "doi": "",
+      "official_id": "arXiv:2609.10126",
+      "paper_url": "https://arxiv.org/abs/2609.10126",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Semantic-aware replay architecture distinguishes catastrophic from quantization-like numerical faults and adapts replay restart geography. gem5 Garnet plus ASAP7 evaluation reports 30.1% lower quality-normalized terminal latency than fixed 34-hop recovery, including 28.0% lower mean latency, bounded queues under higher-BER stress, and lower DeiT-S mean/p99.5 latency.",
+      "published_at": "2026-09-09T13:02:48Z",
+      "updated_at": "2026-09-09T13:02:48Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Quantization",
+        "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "Elastoformer: Enabling Dynamic Adaptivity via Elastic Model Transformation",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / elastic inference / pruning / runtime adaptivity",
+      "arxiv": "2609.10018",
+      "doi": "",
+      "official_id": "arXiv:2609.10018",
+      "paper_url": "https://arxiv.org/abs/2609.10018",
+      "code_url": "https://github.com/sudaksh14/Elastoformer",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "SEC 2025 framework converts pretrained ViTs and CNNs into a single elastic family that switches operating modes at runtime rather than maintaining independent models. Experiments report up to 85% FLOP reduction, 50% latency reduction, and 76% memory-overhead reduction; official author repository is public.",
+      "published_at": "2026-09-09T10:52:21Z",
+      "updated_at": "2026-09-09T10:52:21Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Sparsity / Pruning",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -136,6 +200,26 @@
         "LLM Serving",
         "GPU Kernel / DSL / Compiler",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "uFlowCSP: Crystal Structure Prediction using Mean flow generative models",
+      "venue": "arXiv 2026",
+      "topic": "diffusion/flow acceleration / MeanFlow / fast generative inference",
+      "arxiv": "2609.09799",
+      "doi": "",
+      "official_id": "arXiv:2609.09799",
+      "paper_url": "https://arxiv.org/abs/2609.09799",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "MeanFlow crystal generator completes samples in one to five network evaluations. It reports 5-58x faster inference; one step matches CrystalFlow with 100x fewer evaluations and about 10x lower wall-clock time, while five steps outperform major diffusion/flow baselines at far fewer evaluations.",
+      "published_at": "2026-09-09T06:51:42Z",
+      "updated_at": "2026-09-09T06:51:42Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Diffusion / Flow Acceleration"
       ]
     },
     {
@@ -489,6 +573,46 @@
         "Efficient Attention",
         "GPU Kernel / DSL / Compiler",
         "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "PENDA: An Efficient Processing Element via Norm-of-Difference for Deep Learning Accelerators",
+      "venue": "arXiv 2026",
+      "topic": "AI accelerator / processing element / arithmetic architecture / energy efficiency",
+      "arxiv": "2609.08424",
+      "doi": "",
+      "official_id": "arXiv:2609.08424",
+      "paper_url": "https://arxiv.org/abs/2609.08424",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Exact norm-of-difference processing element uses the law of cosines to replace conventional multiply-accumulate datapaths without approximation. Reported PE-array reductions are 11-36% area, 5-48% energy, and 11-19% clock period.",
+      "published_at": "2026-09-08T08:32:19Z",
+      "updated_at": "2026-09-08T08:32:19Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "FastE: Readout-Triggered Token Compression for LLM Embedding Inference",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / embedding inference / token compression / retrieval systems",
+      "arxiv": "2609.08407",
+      "doi": "",
+      "official_id": "arXiv:2609.08407",
+      "paper_url": "https://arxiv.org/abs/2609.08407",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Training-free readout-triggered prefix compression for Qwen3-Embedding and Qwen3-VL-Embedding. On NarrativeQA with Qwen3-Embedding-0.6B it cuts decoder-backbone FLOPs by 40.11% while retaining 99.53% of full-forward nDCG@10, with configurable quality-efficiency trade-offs across text and cross-modal retrieval tasks.",
+      "published_at": "2026-09-08T08:17:21Z",
+      "updated_at": "2026-09-08T08:17:21Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving"
       ]
     },
     {
@@ -1777,6 +1901,27 @@
       ]
     },
     {
+      "title": "How to Speculate about Uncertainty in Agentic Coding? A Draft-Model Gate Method",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / speculative methods / runtime gating / token cost",
+      "arxiv": "2609.05274",
+      "doi": "",
+      "official_id": "arXiv:2609.05274",
+      "paper_url": "https://arxiv.org/abs/2609.05274",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Uses a small open-weight draft model to score already-generated black-box agent trajectories in one forward pass and gate risky actions before execution. On Qwen3-Coder-480B and Claude 3.5 Sonnet software agents it reduces execution error by 6-8 percentage points and deployment token cost by 14-19%, including out-of-distribution transfer without retraining.",
+      "published_at": "2026-09-04T15:30:22Z",
+      "updated_at": "2026-09-04T15:30:22Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Speculative Decoding",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Substrate-Aware AI Agents: Execution Context as a First-Class Input",
       "venue": "arXiv 2026",
       "topic": "efficient reasoning/agent systems / resource-aware code generation / runtime constraints",
@@ -2199,6 +2344,28 @@
       "directions": [
         "LLM Serving",
         "Distributed Training / Inference",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "SENTINEL-RL: Offloading Topological Reasoning from LLM Agents in the Security Operations Center",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / reasoning offload / graph runtime / enterprise agents",
+      "arxiv": "2609.04159",
+      "doi": "",
+      "official_id": "arXiv:2609.04159",
+      "paper_url": "https://arxiv.org/abs/2609.04159",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Decouples graph-topology reasoning from LLM semantic reasoning using a graph encoder plus constrained RL policy. The implementation loads a 24M-edge authentication subgraph in 14.2 minutes, roughly 24x faster than the canonical MERGE pipeline; alerts trigger within <=2.5 s and the integrated containment loop has 6.3 s median completion.",
+      "published_at": "2026-09-03T17:49:12Z",
+      "updated_at": "2026-09-03T17:49:12Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "KV Cache / Long Context",
+        "Efficient Reasoning / Agents",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -3740,6 +3907,28 @@
       ]
     },
     {
+      "title": "Why Is Video Still So Expensive? A Survey of Inference-Efficiency Mechanisms in Video and Audiovisual LLMs",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / video inference / efficiency survey / canonical lineage",
+      "arxiv": "2609.10355",
+      "doi": "",
+      "official_id": "arXiv:2609.10355",
+      "paper_url": "https://arxiv.org/abs/2609.10355",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Recent survey focused specifically on VideoLLM inference-efficiency mechanisms with concrete parameter, FLOP, latency, memory, visual-token, or audio-token reductions. Useful as a canonical map and recall seed across token pruning, temporal sampling, caching, compression, and multimodal serving, but it is a survey rather than a new acceleration method.",
+      "published_at": "2026-09-09T15:50:39Z",
+      "updated_at": "2026-09-09T15:50:39Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
       "title": "TRACE: Trajectory-robust Admission with Evidence Ordering for Efficient GUI Agents",
       "venue": "arXiv 2026",
       "topic": "efficient reasoning/agent systems / multimodal serving / KV cache / token pruning",
@@ -3805,6 +3994,28 @@
         "LLM Serving",
         "Sparsity / Pruning",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Proxy Policy Steering",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI / inference-time adaptation / flow policy steering",
+      "arxiv": "2609.09148",
+      "doi": "",
+      "official_id": "arXiv:2609.09148",
+      "paper_url": "https://arxiv.org/abs/2609.09148",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Inference-time adaptation trains lightweight reference and task proxy policies whose velocity-space residual steers a frozen generalist sampler at every denoising step. Across 8 real and 4 simulation manipulation tasks it improves pi-0.5 by 53% absolute success on average while retaining broad base capabilities; strong Physical-AI relevance, but no measured serving latency/compute reduction in the primary abstract.",
+      "published_at": "2026-09-08T17:59:03Z",
+      "updated_at": "2026-09-09T14:08:31Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Diffusion / Flow Acceleration",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -5105,6 +5316,26 @@
       ]
     },
     {
+      "title": "RefGuard: Identity-Aware Language-Guided Robot Manipulation via Joint Target-Anchor-Frame Grounding",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI / deployment reliability / grounding / robot runtime",
+      "arxiv": "2609.06221",
+      "doi": "",
+      "official_id": "arXiv:2609.06221",
+      "paper_url": "https://arxiv.org/abs/2609.06221",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Maintains a joint target-anchor-reference-frame posterior and defers execution when grounding is ambiguous. On a real UF850 arm it records zero identity switches on ambiguity-stress trials and 90.0% correct execution versus 33-46% identity-switch rates for baselines; protected deployment-reliability work rather than a compute acceleration method.",
+      "published_at": "2026-09-05T18:39:50Z",
+      "updated_at": "2026-09-05T18:39:50Z",
+      "is_latest_30d": true,
+      "directions": [
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "From Splats to Silicon: Rethinking Computational Efficiency of 3DGS",
       "venue": "arXiv 2026",
       "topic": "GPU kernel/DSL/compilers / 3DGS acceleration / accelerator architecture",
@@ -5123,6 +5354,28 @@
       "directions": [
         "GPU Kernel / DSL / Compiler",
         "Video / Image Generation"
+      ]
+    },
+    {
+      "title": "Where Success Breaks: Failure-Boundary Learning for Robust Vision-Language-Action Models",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI / robust adaptation / failure recovery",
+      "arxiv": "2609.06114",
+      "doi": "",
+      "official_id": "arXiv:2609.06114",
+      "paper_url": "https://arxiv.org/abs/2609.06114",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Frames robust VLA adaptation as discovering, localizing, and shaping failure boundaries rather than only fitting successful demonstrations. DLS uses real-grounded priors plus simulated co-training to expose recovery boundaries; retained as a protected deployment-robustness watch item because the main contribution is reliability rather than measured serving efficiency.",
+      "published_at": "2026-09-05T14:24:16Z",
+      "updated_at": "2026-09-05T14:24:16Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -6188,6 +6441,26 @@
       "is_latest_30d": true,
       "directions": [
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "GIFT: Guided Intermediate Feature Training via Action-Oriented Structural Supervision for Robotic Manipulation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI / representation learning / action-oriented structure",
+      "arxiv": "2609.04193",
+      "doi": "",
+      "official_id": "arXiv:2609.04193",
+      "paper_url": "https://arxiv.org/abs/2609.04193",
+      "code_url": "https://openphoenix-team.github.io/GIFT/",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Architecture-flexible structural supervision preserves geometry, affordance, and goal information in intermediate features across VLA, direct-action WAM, and inverse-dynamics WAM. On LIBERO-Plus the three variants reach 79.6%, 72.6%, and 87.8%, and on RoboCasa 61.4%, 83.6%, and 82.3%; important protected Physical-AI work but not a measured inference-speed method.",
+      "published_at": "2026-09-03T17:59:03Z",
+      "updated_at": "2026-09-03T17:59:03Z",
+      "is_latest_30d": true,
+      "directions": [
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -13209,6 +13482,28 @@
   ],
   "tracking_records": [
     {
+      "title": "HybridFLow: SDN-Orchestrated Client Partitioning for Hybrid Federated Learning",
+      "venue": "arXiv 2026",
+      "topic": "distributed training / edge-cloud / federated learning / network-aware scheduling",
+      "arxiv": "2609.10404",
+      "doi": "",
+      "official_id": "arXiv:2609.10404",
+      "paper_url": "https://arxiv.org/abs/2609.10404",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Closed-loop SDN orchestration estimates per-client communication time and partitions synchronous versus asynchronous FL clients using network-wide bottleneck visibility. Across multiple topologies it reaches 80% target accuracy 33-40% faster than SmartFLow and cuts average round duration by 30-40 seconds.",
+      "published_at": "2026-09-09T16:23:53Z",
+      "updated_at": "2026-09-09T16:23:53Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "PACE: Perceived-Latency-Aware Cascading Service Routing and Filler Control for QoE-Efficient Retrieval-Augmented Dialogue Serving",
       "venue": "arXiv 2026",
       "topic": "LLM serving / RAG serving / Physical AI cloud-edge runtime / dialogue systems",
@@ -13271,6 +13566,48 @@
       "directions": [
         "GPU Kernel / DSL / Compiler",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "SAGE: Semantic-Aware Geographic Error Recovery for AI Data Movement",
+      "venue": "arXiv 2026",
+      "topic": "distributed training/inference / AI interconnect / fault recovery / communication latency",
+      "arxiv": "2609.10126",
+      "doi": "",
+      "official_id": "arXiv:2609.10126",
+      "paper_url": "https://arxiv.org/abs/2609.10126",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Semantic-aware replay architecture distinguishes catastrophic from quantization-like numerical faults and adapts replay restart geography. gem5 Garnet plus ASAP7 evaluation reports 30.1% lower quality-normalized terminal latency than fixed 34-hop recovery, including 28.0% lower mean latency, bounded queues under higher-BER stress, and lower DeiT-S mean/p99.5 latency.",
+      "published_at": "2026-09-09T13:02:48Z",
+      "updated_at": "2026-09-09T13:02:48Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Quantization",
+        "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "Elastoformer: Enabling Dynamic Adaptivity via Elastic Model Transformation",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / elastic inference / pruning / runtime adaptivity",
+      "arxiv": "2609.10018",
+      "doi": "",
+      "official_id": "arXiv:2609.10018",
+      "paper_url": "https://arxiv.org/abs/2609.10018",
+      "code_url": "https://github.com/sudaksh14/Elastoformer",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "SEC 2025 framework converts pretrained ViTs and CNNs into a single elastic family that switches operating modes at runtime rather than maintaining independent models. Experiments report up to 85% FLOP reduction, 50% latency reduction, and 76% memory-overhead reduction; official author repository is public.",
+      "published_at": "2026-09-09T10:52:21Z",
+      "updated_at": "2026-09-09T10:52:21Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Sparsity / Pruning",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -13340,6 +13677,26 @@
         "LLM Serving",
         "GPU Kernel / DSL / Compiler",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "uFlowCSP: Crystal Structure Prediction using Mean flow generative models",
+      "venue": "arXiv 2026",
+      "topic": "diffusion/flow acceleration / MeanFlow / fast generative inference",
+      "arxiv": "2609.09799",
+      "doi": "",
+      "official_id": "arXiv:2609.09799",
+      "paper_url": "https://arxiv.org/abs/2609.09799",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "MeanFlow crystal generator completes samples in one to five network evaluations. It reports 5-58x faster inference; one step matches CrystalFlow with 100x fewer evaluations and about 10x lower wall-clock time, while five steps outperform major diffusion/flow baselines at far fewer evaluations.",
+      "published_at": "2026-09-09T06:51:42Z",
+      "updated_at": "2026-09-09T06:51:42Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Diffusion / Flow Acceleration"
       ]
     },
     {
@@ -13693,6 +14050,46 @@
         "Efficient Attention",
         "GPU Kernel / DSL / Compiler",
         "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "PENDA: An Efficient Processing Element via Norm-of-Difference for Deep Learning Accelerators",
+      "venue": "arXiv 2026",
+      "topic": "AI accelerator / processing element / arithmetic architecture / energy efficiency",
+      "arxiv": "2609.08424",
+      "doi": "",
+      "official_id": "arXiv:2609.08424",
+      "paper_url": "https://arxiv.org/abs/2609.08424",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Exact norm-of-difference processing element uses the law of cosines to replace conventional multiply-accumulate datapaths without approximation. Reported PE-array reductions are 11-36% area, 5-48% energy, and 11-19% clock period.",
+      "published_at": "2026-09-08T08:32:19Z",
+      "updated_at": "2026-09-08T08:32:19Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "FastE: Readout-Triggered Token Compression for LLM Embedding Inference",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / embedding inference / token compression / retrieval systems",
+      "arxiv": "2609.08407",
+      "doi": "",
+      "official_id": "arXiv:2609.08407",
+      "paper_url": "https://arxiv.org/abs/2609.08407",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Training-free readout-triggered prefix compression for Qwen3-Embedding and Qwen3-VL-Embedding. On NarrativeQA with Qwen3-Embedding-0.6B it cuts decoder-backbone FLOPs by 40.11% while retaining 99.53% of full-forward nDCG@10, with configurable quality-efficiency trade-offs across text and cross-modal retrieval tasks.",
+      "published_at": "2026-09-08T08:17:21Z",
+      "updated_at": "2026-09-08T08:17:21Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving"
       ]
     },
     {
@@ -14981,6 +15378,27 @@
       ]
     },
     {
+      "title": "How to Speculate about Uncertainty in Agentic Coding? A Draft-Model Gate Method",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / speculative methods / runtime gating / token cost",
+      "arxiv": "2609.05274",
+      "doi": "",
+      "official_id": "arXiv:2609.05274",
+      "paper_url": "https://arxiv.org/abs/2609.05274",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Uses a small open-weight draft model to score already-generated black-box agent trajectories in one forward pass and gate risky actions before execution. On Qwen3-Coder-480B and Claude 3.5 Sonnet software agents it reduces execution error by 6-8 percentage points and deployment token cost by 14-19%, including out-of-distribution transfer without retraining.",
+      "published_at": "2026-09-04T15:30:22Z",
+      "updated_at": "2026-09-04T15:30:22Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Speculative Decoding",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Substrate-Aware AI Agents: Execution Context as a First-Class Input",
       "venue": "arXiv 2026",
       "topic": "efficient reasoning/agent systems / resource-aware code generation / runtime constraints",
@@ -15403,6 +15821,28 @@
       "directions": [
         "LLM Serving",
         "Distributed Training / Inference",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "SENTINEL-RL: Offloading Topological Reasoning from LLM Agents in the Security Operations Center",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / reasoning offload / graph runtime / enterprise agents",
+      "arxiv": "2609.04159",
+      "doi": "",
+      "official_id": "arXiv:2609.04159",
+      "paper_url": "https://arxiv.org/abs/2609.04159",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Decouples graph-topology reasoning from LLM semantic reasoning using a graph encoder plus constrained RL policy. The implementation loads a 24M-edge authentication subgraph in 14.2 minutes, roughly 24x faster than the canonical MERGE pipeline; alerts trigger within <=2.5 s and the integrated containment loop has 6.3 s median completion.",
+      "published_at": "2026-09-03T17:49:12Z",
+      "updated_at": "2026-09-03T17:49:12Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "KV Cache / Long Context",
+        "Efficient Reasoning / Agents",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -16942,6 +17382,28 @@
       ]
     },
     {
+      "title": "Why Is Video Still So Expensive? A Survey of Inference-Efficiency Mechanisms in Video and Audiovisual LLMs",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / video inference / efficiency survey / canonical lineage",
+      "arxiv": "2609.10355",
+      "doi": "",
+      "official_id": "arXiv:2609.10355",
+      "paper_url": "https://arxiv.org/abs/2609.10355",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Recent survey focused specifically on VideoLLM inference-efficiency mechanisms with concrete parameter, FLOP, latency, memory, visual-token, or audio-token reductions. Useful as a canonical map and recall seed across token pruning, temporal sampling, caching, compression, and multimodal serving, but it is a survey rather than a new acceleration method.",
+      "published_at": "2026-09-09T15:50:39Z",
+      "updated_at": "2026-09-09T15:50:39Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
       "title": "TRACE: Trajectory-robust Admission with Evidence Ordering for Efficient GUI Agents",
       "venue": "arXiv 2026",
       "topic": "efficient reasoning/agent systems / multimodal serving / KV cache / token pruning",
@@ -17007,6 +17469,28 @@
         "LLM Serving",
         "Sparsity / Pruning",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Proxy Policy Steering",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI / inference-time adaptation / flow policy steering",
+      "arxiv": "2609.09148",
+      "doi": "",
+      "official_id": "arXiv:2609.09148",
+      "paper_url": "https://arxiv.org/abs/2609.09148",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Inference-time adaptation trains lightweight reference and task proxy policies whose velocity-space residual steers a frozen generalist sampler at every denoising step. Across 8 real and 4 simulation manipulation tasks it improves pi-0.5 by 53% absolute success on average while retaining broad base capabilities; strong Physical-AI relevance, but no measured serving latency/compute reduction in the primary abstract.",
+      "published_at": "2026-09-08T17:59:03Z",
+      "updated_at": "2026-09-09T14:08:31Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Diffusion / Flow Acceleration",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -18307,6 +18791,26 @@
       ]
     },
     {
+      "title": "RefGuard: Identity-Aware Language-Guided Robot Manipulation via Joint Target-Anchor-Frame Grounding",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI / deployment reliability / grounding / robot runtime",
+      "arxiv": "2609.06221",
+      "doi": "",
+      "official_id": "arXiv:2609.06221",
+      "paper_url": "https://arxiv.org/abs/2609.06221",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Maintains a joint target-anchor-reference-frame posterior and defers execution when grounding is ambiguous. On a real UF850 arm it records zero identity switches on ambiguity-stress trials and 90.0% correct execution versus 33-46% identity-switch rates for baselines; protected deployment-reliability work rather than a compute acceleration method.",
+      "published_at": "2026-09-05T18:39:50Z",
+      "updated_at": "2026-09-05T18:39:50Z",
+      "is_latest_30d": true,
+      "directions": [
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "From Splats to Silicon: Rethinking Computational Efficiency of 3DGS",
       "venue": "arXiv 2026",
       "topic": "GPU kernel/DSL/compilers / 3DGS acceleration / accelerator architecture",
@@ -18325,6 +18829,28 @@
       "directions": [
         "GPU Kernel / DSL / Compiler",
         "Video / Image Generation"
+      ]
+    },
+    {
+      "title": "Where Success Breaks: Failure-Boundary Learning for Robust Vision-Language-Action Models",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI / robust adaptation / failure recovery",
+      "arxiv": "2609.06114",
+      "doi": "",
+      "official_id": "arXiv:2609.06114",
+      "paper_url": "https://arxiv.org/abs/2609.06114",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Frames robust VLA adaptation as discovering, localizing, and shaping failure boundaries rather than only fitting successful demonstrations. DLS uses real-grounded priors plus simulated co-training to expose recovery boundaries; retained as a protected deployment-robustness watch item because the main contribution is reliability rather than measured serving efficiency.",
+      "published_at": "2026-09-05T14:24:16Z",
+      "updated_at": "2026-09-05T14:24:16Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -19390,6 +19916,26 @@
       "is_latest_30d": true,
       "directions": [
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "GIFT: Guided Intermediate Feature Training via Action-Oriented Structural Supervision for Robotic Manipulation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI / representation learning / action-oriented structure",
+      "arxiv": "2609.04193",
+      "doi": "",
+      "official_id": "arXiv:2609.04193",
+      "paper_url": "https://arxiv.org/abs/2609.04193",
+      "code_url": "https://openphoenix-team.github.io/GIFT/",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Architecture-flexible structural supervision preserves geometry, affordance, and goal information in intermediate features across VLA, direct-action WAM, and inverse-dynamics WAM. On LIBERO-Plus the three variants reach 79.6%, 72.6%, and 87.8%, and on RoboCasa 61.4%, 83.6%, and 82.3%; important protected Physical-AI work but not a measured inference-speed method.",
+      "published_at": "2026-09-03T17:59:03Z",
+      "updated_at": "2026-09-03T17:59:03Z",
+      "is_latest_30d": true,
+      "directions": [
+        "VLA / WAM / Physical AI"
       ]
     },
     {

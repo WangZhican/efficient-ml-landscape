@@ -1,15 +1,17 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **376 canonical papers** mapped here, plus a broader **173-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **380 canonical papers** mapped here, plus a broader **177-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 173 tracked
+## 🆕 Latest 30 Days · 177 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
+| **P0 · Strong** | **HybridFLow: SDN-Orchestrated Client Partitioning for Hybrid Federated Learning** | arXiv 2026 | distributed training / edge-cloud / federated learning / network-aware scheduling | [Link](https://arxiv.org/abs/2609.10404) | — |
 | **P0 · Strong** | **PACE: Perceived-Latency-Aware Cascading Service Routing and Filler Control for QoE-Efficient Retrieval-Augmented Dialogue Serving** | arXiv 2026 | LLM serving / RAG serving / Physical AI cloud-edge runtime / dialogue systems | [Link](https://arxiv.org/abs/2609.10372) | — |
 | **P0 · Strong** | **Maverick: Private and Verifiable LLM Inference Made Practical via Matrix-Vector Multiplication Delegation** | arXiv 2026 | LLM serving / private inference / verifiable delegation / heterogeneous offload | [Link](https://arxiv.org/abs/2609.10264) | — |
+| **P0 · Strong** | **Elastoformer: Enabling Dynamic Adaptivity via Elastic Model Transformation** | arXiv 2026 | edge/cloud/heterogeneous AI systems / elastic inference / pruning / runtime adaptivity | [Link](https://arxiv.org/abs/2609.10018) | [Repo](https://github.com/sudaksh14/Elastoformer) |
 | **P0 · Strong** | **AMEND: Audited Margins Enable Nonblocking Drops in GPU-PIM LLM Decoding** | arXiv 2026 | KV cache/long-context / sparse attention / GPU-PIM / LLM decoding | [Link](https://arxiv.org/abs/2609.09823) | — |
 | **P0 · Strong** | **HBFSim: Fast and Faithful Simulation of High-Bandwidth Flash Under Real GPU Execution** | arXiv 2026 | LLM serving / GPU memory hierarchy / simulation / HBF | [Link](https://arxiv.org/abs/2609.09800) | — |
 | **P1 · Watch** | **SymbolicLight V2: Hybrid Neuromorphic Architecture and Sparse Execution for Low-Energy Language Inference** | arXiv 2026 | edge/cloud/heterogeneous AI / sparse inference / FPGA | [Link](https://arxiv.org/abs/2609.09772) | — |
@@ -20,6 +22,7 @@
 | **P1 · Watch** | **CoordFormer: Give Me Any Coordinates and I Will Give You Labels** | arXiv 2026 | efficient attention / high-resolution inference / edge-cloud vision | [Link](https://arxiv.org/abs/2609.08660) | — |
 | **P1 · Watch** | **TriCCOT: Tri-part Convolutional Conformal Transformer for Onboard Space Object Detection** | arXiv 2026 | edge/cloud/heterogeneous AI systems / FPGA / efficient attention | [Link](https://arxiv.org/abs/2609.08659) | — |
 | **P0 · Strong** | **FlexSpIM: An Event-Based Digital Compute-In-Memory Accelerator with Flexible Operand Resolution and Layer-Wise Hybrid Stationarity** | arXiv 2026 | edge/cloud/heterogeneous AI systems / SNN accelerator / digital CIM | [Link](https://arxiv.org/abs/2609.08446) | — |
+| **P0 · Strong** | **PENDA: An Efficient Processing Element via Norm-of-Difference for Deep Learning Accelerators** | arXiv 2026 | AI accelerator / processing element / arithmetic architecture / energy efficiency | [Link](https://arxiv.org/abs/2609.08424) | — |
 | **P1 · Watch** | **A Measurement Study of LLM Inference Trade-offs Across Edge Continuum Hardware** | arXiv 2026 | edge/cloud/heterogeneous AI systems / LLM inference / measurement | [Link](https://arxiv.org/abs/2609.08307) | — |
 | **P0 · Strong** | **SemBridge: Compiling Consumer Observations into Cross-Stack Communication Plans** | arXiv 2026 | distributed training/inference / compiler / heterogeneous communication | [Link](https://arxiv.org/abs/2609.08231) | — |
 | **P1 · Watch** | **Streaming Hierarchical Inference with Tabular Foundation Models** | arXiv 2026 | edge/cloud/heterogeneous AI systems / hierarchical inference / selective offloading | [Link](https://arxiv.org/abs/2609.07956) | — |
@@ -67,6 +70,7 @@
 | **P1 · Watch** | **Performance Study of Serverless Workloads in Confidential Virtual Machines** | arXiv 2026 | edge/cloud/heterogeneous AI systems / confidential serverless / memory and startup overhead | [Link](https://arxiv.org/abs/2609.04478) | — |
 | **P0 · Strong** | **Scalable Edge-assisted Fusion and Path Prediction for Connected Autonomous Vehicles** | arXiv 2026 | VLA/WAM/Physical AI serving / edge-cloud heterogeneous AI / connected autonomous vehicles | [Link](https://arxiv.org/abs/2609.04364) | — |
 | **P0 · Strong** | **Para-Pipe: Exploiting Hierarchical Operator Parallelism of ML Computational Graphs on SoCs** | IEEE TCAD 2025 | edge/cloud/heterogeneous AI systems / SoC mapping / operator parallelism | [Link](https://arxiv.org/abs/2609.04168) | — |
+| **P0 · Strong** | **SENTINEL-RL: Offloading Topological Reasoning from LLM Agents in the Security Operations Center** | arXiv 2026 | efficient reasoning/agent systems / reasoning offload / graph runtime / enterprise agents | [Link](https://arxiv.org/abs/2609.04159) | — |
 | **P1 · Watch** | **Predictive Zonotope Reduction: Precise Runtime Monitoring under Uncertainty** | arXiv 2026 | VLA/WAM/Physical AI serving / runtime monitoring / edge safety | [Link](https://arxiv.org/abs/2609.03699) | — |
 | **P1 · Watch** | **EdgeMem: LLM-Free Agent Memory Construction and Retrieval via Evidence-Preserving Multi-Anchor Hypergraph** | arXiv 2026 | efficient reasoning/agent systems / agent memory / retrieval / LLM-free memory management | [Link](https://arxiv.org/abs/2609.05553) | — |
 | **P1 · Watch** | **PPO-STGNN: A Proximal Policy Optimization Approach with Spatio-Temporal Graph Neural Networks for DAG Task Scheduling in Cloud-Edge-End Computing** | arXiv 2026 | edge/cloud/heterogeneous AI systems / scheduling / reinforcement learning | [Link](https://arxiv.org/abs/2609.03503) | — |

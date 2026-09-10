@@ -1,15 +1,17 @@
 # 12 · Diffusion / Flow Acceleration
 
-> **204 canonical papers** mapped here, plus a broader **40-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **205 canonical papers** mapped here, plus a broader **42-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 40 tracked
+## 🆕 Latest 30 Days · 42 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **P1 · Watch** | **Frequency-Conditioned Flow Matching for Vision-Language-Action Models** | arXiv 2026 | VLA/WAM/Physical AI / flow matching / action generation | [Link](https://arxiv.org/abs/2609.10405) | — |
+| **P0 · Strong** | **uFlowCSP: Crystal Structure Prediction using Mean flow generative models** | arXiv 2026 | diffusion/flow acceleration / MeanFlow / fast generative inference | [Link](https://arxiv.org/abs/2609.09799) | — |
 | **P0 · Strong** | **Epoch: Compiling Diffusion Blocks for Sparse MoE Serving** | arXiv 2026 | MoE systems/accelerators / diffusion language model serving / compiler-runtime | [Link](https://arxiv.org/abs/2609.09748) | — |
+| **P1 · Watch** | **Proxy Policy Steering** | arXiv 2026 | VLA/WAM/Physical AI / inference-time adaptation / flow policy steering | [Link](https://arxiv.org/abs/2609.09148) | — |
 | **P1 · Watch** | **Marigold V2: Revisiting Diffusion Transformers for Monocular Depth Estimation** | arXiv 2026 | diffusion/flow acceleration / dense vision / single-step inference | [Link](https://arxiv.org/abs/2609.08084) | [Repo](https://hf.co/spaces/huawei-bayerlab/marigold-v2-web) |
 | **P0 · Strong** | **RoLA: Rotary-Positioned Low-Rank Linear Attention for Efficient Diffusion Transformers** | arXiv 2026 | video/image generation acceleration / diffusion/flow acceleration / efficient attention | [Link](https://arxiv.org/abs/2609.06712) | — |
 | **P1 · Watch** | **DFlow: Enabling Verifier Information Flow in Block Diffusion Speculative Decoding** | arXiv 2026 | speculative decoding / diffusion language models / verifier reuse | [Link](https://arxiv.org/abs/2609.06498) | — |

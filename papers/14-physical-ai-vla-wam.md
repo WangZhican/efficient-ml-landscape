@@ -1,10 +1,10 @@
 # 14 · VLA / WAM / Physical AI
 
-> **135 canonical papers** mapped here, plus a broader **142-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **135 canonical papers** mapped here, plus a broader **146-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 142 tracked
+## 🆕 Latest 30 Days · 146 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -14,6 +14,7 @@
 | **P0 · Strong** | **InstantMimic: A High Performance System for Learning Physics-based Skills in Seconds** | arXiv 2026 | VLA/WAM/Physical AI / GPU systems / robotics training | [Link](https://arxiv.org/abs/2609.09821) | [Repo](https://scripter36.github.io/InstantMimic/) |
 | **P0 · Strong** | **Modality-Decoupled Federated Learning for Privacy-Preserving Embodied Intelligence in 6G** | arXiv 2026 | VLA/WAM/Physical AI / distributed training / edge-cloud / communication compression | [Link](https://arxiv.org/abs/2609.09591) | — |
 | **P0 · Strong** | **AccelMPC: High-Rate, Low-Power FPGA-Accelerated Model Predictive Control for Tiny Drones** | arXiv 2026 | VLA/WAM/Physical AI serving / edge robotics / FPGA acceleration / real-time control | [Link](https://arxiv.org/abs/2609.09380) | — |
+| **P1 · Watch** | **Proxy Policy Steering** | arXiv 2026 | VLA/WAM/Physical AI / inference-time adaptation / flow policy steering | [Link](https://arxiv.org/abs/2609.09148) | — |
 | **P1 · Watch** | **DeCAL: Towards Physically-Grounded Dexterous Vision-Language-Action Models via Contact-Aware Latent Co-Imagination** | arXiv 2026 | VLA/WAM/Physical AI serving / dexterous manipulation / tactile fusion / world modeling | [Link](https://arxiv.org/abs/2609.09119) | [Repo](https://aureleopku.github.io/DeCAL) |
 | **P0 · Strong** | **Ostrich: Taking Large Strides Through Stiff Contact in Differentiable Dynamics** | arXiv 2026 | VLA/WAM/Physical AI serving / GPU simulation / differentiable dynamics | [Link](https://arxiv.org/abs/2609.08800) | — |
 | **P1 · Watch** | **Hi-FLoop: Hierarchical State-Feedback Loops for Multi-Timescale World Modeling** | arXiv 2026 | VLA/WAM/Physical AI / world models / multi-timescale closed-loop generation | [Link](https://arxiv.org/abs/2609.08796) | — |
@@ -42,6 +43,8 @@
 | **P1 · Watch** | **One MLLM, One Call: Efficient Zero-Shot Vision-and-Language Navigation via Spatial-Aware Waypoints** | arXiv 2026 | VLA/WAM/Physical AI serving / VLN / sparse MLLM invocation / robot navigation | [Link](https://arxiv.org/abs/2609.06476) | — |
 | **P0 · Strong** | **GloVLA: Let Geometry Move and Local VLA Interact for Robust Object-Centric Manipulation in Unstructured Environments** | arXiv 2026 | VLA/WAM/Physical AI serving / hybrid control / inference reduction | [Link](https://arxiv.org/abs/2609.06256) | [Repo](https://glovla-project.github.io/) |
 | **P1 · Watch** | **MobileVLA-R1 2.0: RL-Enhanced Reasoning for Mobile Robot Control** | arXiv 2026 | VLA/WAM/Physical AI serving / mobile robot control / reasoning-action decoupling | [Link](https://arxiv.org/abs/2609.06251) | [Repo](https://github.com/AIGeeksGroup/MobileVLA-R1-2.0) |
+| **P1 · Watch** | **RefGuard: Identity-Aware Language-Guided Robot Manipulation via Joint Target-Anchor-Frame Grounding** | arXiv 2026 | VLA/WAM/Physical AI / deployment reliability / grounding / robot runtime | [Link](https://arxiv.org/abs/2609.06221) | — |
+| **P1 · Watch** | **Where Success Breaks: Failure-Boundary Learning for Robust Vision-Language-Action Models** | arXiv 2026 | VLA/WAM/Physical AI / robust adaptation / failure recovery | [Link](https://arxiv.org/abs/2609.06114) | — |
 | **P1 · Watch** | **LayerRoute: Action-Conditioned Mixture-of-Layers Routing for Vision-Language-Action Policies** | arXiv 2026 | VLA/WAM/Physical AI serving / adaptive layer routing / cached VLM representations | [Link](https://arxiv.org/abs/2609.06079) | — |
 | **P1 · Watch** | **NSFlow: End-to-End Differentiable Neuro-Symbolic Optical Flow for Visual Odometry** | arXiv 2026 | VLA/WAM/Physical AI serving / embedded visual odometry / realtime perception / efficient robotics | [Link](https://arxiv.org/abs/2609.06074) | — |
 | **P1 · Watch** | **FALCON-S: Fixed-wing ground-effect Aerodynamics Simulator and Flight Control Learning Suite** | arXiv 2026 | VLA/WAM/Physical AI serving / GPU simulation / robot learning | [Link](https://arxiv.org/abs/2609.06046) | — |
@@ -64,6 +67,7 @@
 | **P1 · Watch** | **SocioGesture: Real-Time and Adaptive Social Gesture Perception for Human-Robot Interaction** | arXiv 2026 | VLA/WAM/Physical AI serving / edge perception / human-robot interaction | [Link](https://arxiv.org/abs/2609.04545) | — |
 | **P0 · Strong** | **Scalable Edge-assisted Fusion and Path Prediction for Connected Autonomous Vehicles** | arXiv 2026 | VLA/WAM/Physical AI serving / edge-cloud heterogeneous AI / connected autonomous vehicles | [Link](https://arxiv.org/abs/2609.04364) | — |
 | **P0 · Strong** | **VLA-Precision: Asymmetric Co-Bootstrapping for Efficient Real-World Online RL of Vision-Language-Action Models** | arXiv 2026 | VLA / Physical AI / real-world online RL / streaming runtime | [Link](https://arxiv.org/abs/2609.04355) | [Repo](https://vla-precision.github.io/) |
+| **P1 · Watch** | **GIFT: Guided Intermediate Feature Training via Action-Oriented Structural Supervision for Robotic Manipulation** | arXiv 2026 | VLA/WAM/Physical AI / representation learning / action-oriented structure | [Link](https://arxiv.org/abs/2609.04193) | [Repo](https://openphoenix-team.github.io/GIFT/) |
 | **P1 · Watch** | **Continuous Actions from Discrete Minds: Latent-Aligned Planning for End-to-End Autonomous Driving** | arXiv 2026 | VLA/WAM/Physical AI serving / autonomous driving / non-autoregressive action | [Link](https://arxiv.org/abs/2609.04070) | — |
 | **P1 · Watch** | **FWBC-VLA: Force-Aware Whole-Body Compensation for Contact-Rich Loco-Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving / contact-rich manipulation / action decoding / whole-body control | [Link](https://arxiv.org/abs/2609.03889) | — |
 | **P0 · Strong** | **MINERVA: How Small Can a Manipulation Policy Be and Still Solve LIBERO?** | arXiv 2026 | VLA/WAM/Physical AI / compact policy / deployment efficiency | [Link](https://arxiv.org/abs/2609.03715) | — |

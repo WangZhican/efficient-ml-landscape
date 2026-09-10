@@ -3604,6 +3604,27 @@
     ]
   },
   {
+    "title": "Elastoformer: Enabling Dynamic Adaptivity via Elastic Model Transformation",
+    "venue": "arXiv 2026",
+    "topic": "edge/cloud/heterogeneous AI systems / elastic inference / pruning / runtime adaptivity",
+    "arxiv": "2609.10018",
+    "doi": "",
+    "official_id": "arXiv:2609.10018",
+    "paper_url": "https://arxiv.org/abs/2609.10018",
+    "code_url": "https://github.com/sudaksh14/Elastoformer",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "SEC 2025 framework converts pretrained ViTs and CNNs into a single elastic family that switches operating modes at runtime rather than maintaining independent models. Experiments report up to 85% FLOP reduction, 50% latency reduction, and 76% memory-overhead reduction; official author repository is public.",
+    "published_at": "2026-09-09T10:52:21Z",
+    "updated_at": "2026-09-09T10:52:21Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Sparsity / Pruning",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Enabling High-Bandwidth Flash for Generative Recommendation Serving with Write-Aware KV Cache Policy",
     "venue": "arXiv 2026",
     "topic": "LLM/recommendation serving / KV cache / flash tiering / endurance-aware cache policy",
@@ -3713,6 +3734,26 @@
       "Video / Image Generation",
       "Efficient Reasoning / Agents",
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "FastE: Readout-Triggered Token Compression for LLM Embedding Inference",
+    "venue": "arXiv 2026",
+    "topic": "LLM serving / embedding inference / token compression / retrieval systems",
+    "arxiv": "2609.08407",
+    "doi": "",
+    "official_id": "arXiv:2609.08407",
+    "paper_url": "https://arxiv.org/abs/2609.08407",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Training-free readout-triggered prefix compression for Qwen3-Embedding and Qwen3-VL-Embedding. On NarrativeQA with Qwen3-Embedding-0.6B it cuts decoder-backbone FLOPs by 40.11% while retaining 99.53% of full-forward nDCG@10, with configurable quality-efficiency trade-offs across text and cross-modal retrieval tasks.",
+    "published_at": "2026-09-08T08:17:21Z",
+    "updated_at": "2026-09-08T08:17:21Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving"
     ]
   },
   {
@@ -4373,6 +4414,49 @@
     "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving"
+    ]
+  },
+  {
+    "title": "How to Speculate about Uncertainty in Agentic Coding? A Draft-Model Gate Method",
+    "venue": "arXiv 2026",
+    "topic": "efficient reasoning/agent systems / speculative methods / runtime gating / token cost",
+    "arxiv": "2609.05274",
+    "doi": "",
+    "official_id": "arXiv:2609.05274",
+    "paper_url": "https://arxiv.org/abs/2609.05274",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Uses a small open-weight draft model to score already-generated black-box agent trajectories in one forward pass and gate risky actions before execution. On Qwen3-Coder-480B and Claude 3.5 Sonnet software agents it reduces execution error by 6-8 percentage points and deployment token cost by 14-19%, including out-of-distribution transfer without retraining.",
+    "published_at": "2026-09-04T15:30:22Z",
+    "updated_at": "2026-09-04T15:30:22Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Speculative Decoding",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "HybridFLow: SDN-Orchestrated Client Partitioning for Hybrid Federated Learning",
+    "venue": "arXiv 2026",
+    "topic": "distributed training / edge-cloud / federated learning / network-aware scheduling",
+    "arxiv": "2609.10404",
+    "doi": "",
+    "official_id": "arXiv:2609.10404",
+    "paper_url": "https://arxiv.org/abs/2609.10404",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Closed-loop SDN orchestration estimates per-client communication time and partitions synchronous versus asynchronous FL clients using network-wide bottleneck visibility. Across multiple topologies it reaches 80% target accuracy 33-40% faster than SmartFLow and cuts average round duration by 30-40 seconds.",
+    "published_at": "2026-09-09T16:23:53Z",
+    "updated_at": "2026-09-09T16:23:53Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -5709,6 +5793,26 @@
     ]
   },
   {
+    "title": "PENDA: An Efficient Processing Element via Norm-of-Difference for Deep Learning Accelerators",
+    "venue": "arXiv 2026",
+    "topic": "AI accelerator / processing element / arithmetic architecture / energy efficiency",
+    "arxiv": "2609.08424",
+    "doi": "",
+    "official_id": "arXiv:2609.08424",
+    "paper_url": "https://arxiv.org/abs/2609.08424",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Exact norm-of-difference processing element uses the law of cosines to replace conventional multiply-accumulate datapaths without approximation. Reported PE-array reductions are 11-36% area, 5-48% energy, and 11-19% clock period.",
+    "published_at": "2026-09-08T08:32:19Z",
+    "updated_at": "2026-09-08T08:32:19Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Poseidon: DAG-Guided Parallelism Search for LLM Pre-Training on Heterogeneous Clusters",
     "venue": "arXiv 2026",
     "topic": "distributed training/inference / heterogeneous clusters / parallelism search",
@@ -6194,6 +6298,27 @@
     ]
   },
   {
+    "title": "SAGE: Semantic-Aware Geographic Error Recovery for AI Data Movement",
+    "venue": "arXiv 2026",
+    "topic": "distributed training/inference / AI interconnect / fault recovery / communication latency",
+    "arxiv": "2609.10126",
+    "doi": "",
+    "official_id": "arXiv:2609.10126",
+    "paper_url": "https://arxiv.org/abs/2609.10126",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Semantic-aware replay architecture distinguishes catastrophic from quantization-like numerical faults and adapts replay restart geography. gem5 Garnet plus ASAP7 evaluation reports 30.1% lower quality-normalized terminal latency than fixed 34-hop recovery, including 28.0% lower mean latency, bounded queues under higher-BER stress, and lower DeiT-S mean/p99.5 latency.",
+    "published_at": "2026-09-09T13:02:48Z",
+    "updated_at": "2026-09-09T13:02:48Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Quantization",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "SageBwd: A Trainable Low-bit Attention",
     "venue": "arXiv 2026",
     "topic": "efficient attention; low-bit training; INT8 attention; pretraining",
@@ -6433,6 +6558,28 @@
     "directions": [
       "KV Cache / Long Context",
       "Quantization"
+    ]
+  },
+  {
+    "title": "SENTINEL-RL: Offloading Topological Reasoning from LLM Agents in the Security Operations Center",
+    "venue": "arXiv 2026",
+    "topic": "efficient reasoning/agent systems / reasoning offload / graph runtime / enterprise agents",
+    "arxiv": "2609.04159",
+    "doi": "",
+    "official_id": "arXiv:2609.04159",
+    "paper_url": "https://arxiv.org/abs/2609.04159",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Decouples graph-topology reasoning from LLM semantic reasoning using a graph encoder plus constrained RL policy. The implementation loads a 24M-edge authentication subgraph in 14.2 minutes, roughly 24x faster than the canonical MERGE pipeline; alerts trigger within <=2.5 s and the integrated containment loop has 6.3 s median completion.",
+    "published_at": "2026-09-03T17:49:12Z",
+    "updated_at": "2026-09-03T17:49:12Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "KV Cache / Long Context",
+      "Efficient Reasoning / Agents",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -7155,6 +7302,26 @@
     "directions": [
       "LLM Serving",
       "Quantization"
+    ]
+  },
+  {
+    "title": "uFlowCSP: Crystal Structure Prediction using Mean flow generative models",
+    "venue": "arXiv 2026",
+    "topic": "diffusion/flow acceleration / MeanFlow / fast generative inference",
+    "arxiv": "2609.09799",
+    "doi": "",
+    "official_id": "arXiv:2609.09799",
+    "paper_url": "https://arxiv.org/abs/2609.09799",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "MeanFlow crystal generator completes samples in one to five network evaluations. It reports 5-58x faster inference; one step matches CrystalFlow with 100x fewer evaluations and about 10x lower wall-clock time, while five steps outperform major diffusion/flow baselines at far fewer evaluations.",
+    "published_at": "2026-09-09T06:51:42Z",
+    "updated_at": "2026-09-09T06:51:42Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Diffusion / Flow Acceleration"
     ]
   },
   {

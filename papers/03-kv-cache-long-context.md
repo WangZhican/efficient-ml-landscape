@@ -1,10 +1,10 @@
 # 03 · KV Cache / Long Context
 
-> **426 canonical papers** mapped here, plus a broader **101-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **427 canonical papers** mapped here, plus a broader **102-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 101 tracked
+## 🆕 Latest 30 Days · 102 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -43,6 +43,7 @@
 | **P1 · Watch** | **Linguistic Trajectory Encoding for Efficient Long-Horizon Spatial Memory in Embodied Agents** | arXiv 2026 | Physical AI / embodied agent memory / long-horizon spatial compression | [Link](https://arxiv.org/abs/2609.04802) | — |
 | **P1 · Watch** | **Diffusion Language Models for Mobile Edge Agentic AI: Foundations, Applications, and Challenges** | arXiv 2026 | efficient reasoning/agent systems / diffusion language models / edge-cloud serving / mobile edge AI | [Link](https://arxiv.org/abs/2609.04778) | — |
 | **P1 · Watch** | **Same Request, Different Answer: Quantization Amplifies Cache-Induced Divergence in LLM Serving** | arXiv 2026 | LLM serving / prefix cache / quantization / reproducibility | [Link](https://arxiv.org/abs/2609.04748) | — |
+| **P0 · Strong** | **SENTINEL-RL: Offloading Topological Reasoning from LLM Agents in the Security Operations Center** | arXiv 2026 | efficient reasoning/agent systems / reasoning offload / graph runtime / enterprise agents | [Link](https://arxiv.org/abs/2609.04159) | — |
 | **P0 · Strong** | **Why Gated DeltaNet Survives 4-Bit Quantization: NVFP4 W4A4 for the Recurrent Half of a Hybrid 27B LLM** | CoRR 2026 | quantization / hybrid attention-SSM LLM / NVFP4 W4A4 / KV cache | [Link](https://arxiv.org/abs/2609.04098) | — |
 | **P0 · Strong** | **VestigeKV: The NoPE-MLA KV Cache Carries Its Own Eviction Signal in a Vestigial Branch** | CoRR 2026 | KV cache / long-context / MLA / cache eviction | [Link](https://arxiv.org/abs/2609.03949) | — |
 | **P0 · Strong** | **Almost Free State Prediction Separation** | arXiv 2026 | efficient reasoning/agent systems / LLM inference / KV-cache-neutral extra compute | [Link](https://arxiv.org/abs/2609.03807) | — |

@@ -1,13 +1,14 @@
 # 04 · Quantization
 
-> **237 canonical papers** mapped here, plus a broader **83-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **238 canonical papers** mapped here, plus a broader **84-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 83 tracked
+## 🆕 Latest 30 Days · 84 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
+| **P0 · Strong** | **SAGE: Semantic-Aware Geographic Error Recovery for AI Data Movement** | arXiv 2026 | distributed training/inference / AI interconnect / fault recovery / communication latency | [Link](https://arxiv.org/abs/2609.10126) | — |
 | **P0 · Strong** | **EFQ-Softmax: Exp-Free Quantization for Softmax** | arXiv 2026 | quantization / efficient attention / low-bit inference kernels | [Link](https://arxiv.org/abs/2609.09721) | — |
 | **P1 · Watch** | **It's Not RoPE that Creates Sinks: The Role of Self-Concentration and Value-Non-Mixing in Attention** | arXiv 2026 | quantization / attention / massive activations / low-bit robustness | [Link](https://arxiv.org/abs/2609.09085) | — |
 | **P1 · Watch** | **A Measurement Study of LLM Inference Trade-offs Across Edge Continuum Hardware** | arXiv 2026 | edge/cloud/heterogeneous AI systems / LLM inference / measurement | [Link](https://arxiv.org/abs/2609.08307) | — |
