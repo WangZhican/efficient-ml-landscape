@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-10",
   "window_start_beijing": "2026-08-11",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 602,
+  "tracked_total": 608,
   "p0_strong_or_canonical": [
     {
       "title": "PACE: Perceived-Latency-Aware Cascading Service Routing and Filler Control for QoE-Efficient Retrieval-Augmented Dialogue Serving",
@@ -24,6 +24,49 @@
         "LLM Serving",
         "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Maverick: Private and Verifiable LLM Inference Made Practical via Matrix-Vector Multiplication Delegation",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / private inference / verifiable delegation / heterogeneous offload",
+      "arxiv": "2609.10264",
+      "doi": "",
+      "official_id": "arXiv:2609.10264",
+      "paper_url": "https://arxiv.org/abs/2609.10264",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "End-to-end Qwen3-4B prototype delegates dominant matrix-vector products while preserving input privacy and verifiability with virtually no server verification overhead. With one client thread, throughput improves up to 17x with online privacy masks, 45x with precomputed masks, and 44x for verification-only; client-side microbenchmarks with simulated network delay reach 12-157x depending on mode.",
+      "published_at": "2026-09-09T14:53:17Z",
+      "updated_at": "2026-09-09T14:53:17Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Kernel-Managed Shared Memory for System-Wide Personalization",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / memory / agent runtime / context management",
+      "arxiv": "2609.10144",
+      "doi": "",
+      "official_id": "arXiv:2609.10144",
+      "paper_url": "https://arxiv.org/abs/2609.10144",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "AIOS kernel-managed shared memory centralizes retrieval, privacy enforcement, and prompt injection across agents. Across GPT-4o, Llama-3.1-8B, and Qwen2.5-7B in 1,800 trials, it approaches full-context personalization while using much shorter prompts and reduces end-to-end latency by 15-61%, with corresponding token and inference-cost reductions.",
+      "published_at": "2026-09-09T13:20:47Z",
+      "updated_at": "2026-09-09T13:20:47Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -206,6 +249,28 @@
         "LLM Serving",
         "KV Cache / Long Context",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Modality-Decoupled Federated Learning for Privacy-Preserving Embodied Intelligence in 6G",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI / distributed training / edge-cloud / communication compression",
+      "arxiv": "2609.09591",
+      "doi": "",
+      "official_id": "arXiv:2609.09591",
+      "paper_url": "https://arxiv.org/abs/2609.09591",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "IEEE Wireless Communications accepted FedMVLA decouples vision, language, and action updates for federated embodied intelligence. A 3GPP-based robotic-manipulation case study reaches 84.8% success, +22.2 points over FedAvg, scales to 128 clients across eight cells, and cuts schedule-averaged per-client uplink model-update payload by 95.6% while keeping p95 round-critical uplink completion near 1.5 s.",
+      "published_at": "2026-09-09T01:36:44Z",
+      "updated_at": "2026-09-09T01:36:44Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Distributed Training / Inference",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -3912,6 +3977,28 @@
       ]
     },
     {
+      "title": "Hi-FLoop: Hierarchical State-Feedback Loops for Multi-Timescale World Modeling",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI / world models / multi-timescale closed-loop generation",
+      "arxiv": "2609.08796",
+      "doi": "",
+      "official_id": "arXiv:2609.08796",
+      "paper_url": "https://arxiv.org/abs/2609.08796",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Hierarchical branch-consistent traffic world model separates 8-s Goal, 2-s Preview, 1-s Control, and 0.5-s feedback commits, with sparse future interaction graphs and generated-state recovery. It directly matches multi-timescale Physical-AI system structure, but currently reports predictive quality rather than serving/runtime savings, so it remains protected watch.",
+      "published_at": "2026-09-08T14:25:11Z",
+      "updated_at": "2026-09-09T12:40:17Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Tools-CC-Bench: a Benchmark Suite for Collective Communication with Compression in HPC and AI Workloads",
       "venue": "arXiv 2026",
       "topic": "distributed training/inference / collective communication / compression / systems benchmarking",
@@ -4411,6 +4498,27 @@
       "directions": [
         "LLM Serving",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Accuracy is Not Enough: A Divergence-Based Approach to Evaluate Fidelity Loss in Quantized LLMs",
+      "venue": "arXiv 2026",
+      "topic": "quantization / deployment evaluation / distribution fidelity",
+      "arxiv": "2609.07664",
+      "doi": "",
+      "official_id": "arXiv:2609.07664",
+      "paper_url": "https://arxiv.org/abs/2609.07664",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "A 120-run matrix across five foundation architectures and four reasoning benchmarks evaluates progressive quantization from BF16 to Q2_K using full-vocabulary JS/TV divergence rather than only argmax accuracy. It shows mixed-precision Q4_K generally preserves distribution fidelity better than Q4_0 at similar memory footprints. This is a useful deployment-quality diagnostic rather than a new acceleration method, so it remains watch.",
+      "published_at": "2026-09-07T15:49:52Z",
+      "updated_at": "2026-09-09T08:50:36Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -5346,6 +5454,27 @@
       "is_latest_30d": true,
       "directions": [
         "MoE Systems / Accelerators"
+      ]
+    },
+    {
+      "title": "LIBERO-RECOVER: Beyond Task Success Towards Failure Recovery in Robotic Manipulation Models",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI / evaluation / failure recovery / robustness",
+      "arxiv": "2609.05178",
+      "doi": "",
+      "official_id": "arXiv:2609.05178",
+      "paper_url": "https://arxiv.org/abs/2609.05178",
+      "code_url": "https://liulin815.github.io/LIBERO-Recovery/",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Introduces 1,000+ real execution-failure scenarios on LIBERO across action retry, adaptation, object-state recovery, and environmental recovery, explicitly targeting VLA/WAM deployment robustness beyond nominal task success. It is a protected Physical-AI benchmark rather than a compute/serving acceleration paper, so it remains high-value watch.",
+      "published_at": "2026-09-04T14:15:27Z",
+      "updated_at": "2026-09-04T14:15:27Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -13102,6 +13231,49 @@
       ]
     },
     {
+      "title": "Maverick: Private and Verifiable LLM Inference Made Practical via Matrix-Vector Multiplication Delegation",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / private inference / verifiable delegation / heterogeneous offload",
+      "arxiv": "2609.10264",
+      "doi": "",
+      "official_id": "arXiv:2609.10264",
+      "paper_url": "https://arxiv.org/abs/2609.10264",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "End-to-end Qwen3-4B prototype delegates dominant matrix-vector products while preserving input privacy and verifiability with virtually no server verification overhead. With one client thread, throughput improves up to 17x with online privacy masks, 45x with precomputed masks, and 44x for verification-only; client-side microbenchmarks with simulated network delay reach 12-157x depending on mode.",
+      "published_at": "2026-09-09T14:53:17Z",
+      "updated_at": "2026-09-09T14:53:17Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Kernel-Managed Shared Memory for System-Wide Personalization",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / memory / agent runtime / context management",
+      "arxiv": "2609.10144",
+      "doi": "",
+      "official_id": "arXiv:2609.10144",
+      "paper_url": "https://arxiv.org/abs/2609.10144",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "AIOS kernel-managed shared memory centralizes retrieval, privacy enforcement, and prompt injection across agents. Across GPT-4o, Llama-3.1-8B, and Qwen2.5-7B in 1,800 trials, it approaches full-context personalization while using much shorter prompts and reduces end-to-end latency by 15-61%, with corresponding token and inference-cost reductions.",
+      "published_at": "2026-09-09T13:20:47Z",
+      "updated_at": "2026-09-09T13:20:47Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "AMEND: Audited Margins Enable Nonblocking Drops in GPU-PIM LLM Decoding",
       "venue": "arXiv 2026",
       "topic": "KV cache/long-context / sparse attention / GPU-PIM / LLM decoding",
@@ -13281,6 +13453,28 @@
         "LLM Serving",
         "KV Cache / Long Context",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Modality-Decoupled Federated Learning for Privacy-Preserving Embodied Intelligence in 6G",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI / distributed training / edge-cloud / communication compression",
+      "arxiv": "2609.09591",
+      "doi": "",
+      "official_id": "arXiv:2609.09591",
+      "paper_url": "https://arxiv.org/abs/2609.09591",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "IEEE Wireless Communications accepted FedMVLA decouples vision, language, and action updates for federated embodied intelligence. A 3GPP-based robotic-manipulation case study reaches 84.8% success, +22.2 points over FedAvg, scales to 128 clients across eight cells, and cuts schedule-averaged per-client uplink model-update payload by 95.6% while keeping p95 round-critical uplink completion near 1.5 s.",
+      "published_at": "2026-09-09T01:36:44Z",
+      "updated_at": "2026-09-09T01:36:44Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Distributed Training / Inference",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -16985,6 +17179,28 @@
       ]
     },
     {
+      "title": "Hi-FLoop: Hierarchical State-Feedback Loops for Multi-Timescale World Modeling",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI / world models / multi-timescale closed-loop generation",
+      "arxiv": "2609.08796",
+      "doi": "",
+      "official_id": "arXiv:2609.08796",
+      "paper_url": "https://arxiv.org/abs/2609.08796",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Hierarchical branch-consistent traffic world model separates 8-s Goal, 2-s Preview, 1-s Control, and 0.5-s feedback commits, with sparse future interaction graphs and generated-state recovery. It directly matches multi-timescale Physical-AI system structure, but currently reports predictive quality rather than serving/runtime savings, so it remains protected watch.",
+      "published_at": "2026-09-08T14:25:11Z",
+      "updated_at": "2026-09-09T12:40:17Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Tools-CC-Bench: a Benchmark Suite for Collective Communication with Compression in HPC and AI Workloads",
       "venue": "arXiv 2026",
       "topic": "distributed training/inference / collective communication / compression / systems benchmarking",
@@ -17484,6 +17700,27 @@
       "directions": [
         "LLM Serving",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Accuracy is Not Enough: A Divergence-Based Approach to Evaluate Fidelity Loss in Quantized LLMs",
+      "venue": "arXiv 2026",
+      "topic": "quantization / deployment evaluation / distribution fidelity",
+      "arxiv": "2609.07664",
+      "doi": "",
+      "official_id": "arXiv:2609.07664",
+      "paper_url": "https://arxiv.org/abs/2609.07664",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "A 120-run matrix across five foundation architectures and four reasoning benchmarks evaluates progressive quantization from BF16 to Q2_K using full-vocabulary JS/TV divergence rather than only argmax accuracy. It shows mixed-precision Q4_K generally preserves distribution fidelity better than Q4_0 at similar memory footprints. This is a useful deployment-quality diagnostic rather than a new acceleration method, so it remains watch.",
+      "published_at": "2026-09-07T15:49:52Z",
+      "updated_at": "2026-09-09T08:50:36Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -18419,6 +18656,27 @@
       "is_latest_30d": true,
       "directions": [
         "MoE Systems / Accelerators"
+      ]
+    },
+    {
+      "title": "LIBERO-RECOVER: Beyond Task Success Towards Failure Recovery in Robotic Manipulation Models",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI / evaluation / failure recovery / robustness",
+      "arxiv": "2609.05178",
+      "doi": "",
+      "official_id": "arXiv:2609.05178",
+      "paper_url": "https://arxiv.org/abs/2609.05178",
+      "code_url": "https://liulin815.github.io/LIBERO-Recovery/",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Introduces 1,000+ real execution-failure scenarios on LIBERO across action retry, adaptation, object-state recovery, and environmental recovery, explicitly targeting VLA/WAM deployment robustness beyond nominal task success. It is a protected Physical-AI benchmark rather than a compute/serving acceleration paper, so it remains high-value watch.",
+      "published_at": "2026-09-04T14:15:27Z",
+      "updated_at": "2026-09-04T14:15:27Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {

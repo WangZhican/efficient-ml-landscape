@@ -4555,6 +4555,27 @@
     ]
   },
   {
+    "title": "Kernel-Managed Shared Memory for System-Wide Personalization",
+    "venue": "arXiv 2026",
+    "topic": "efficient reasoning/agent systems / memory / agent runtime / context management",
+    "arxiv": "2609.10144",
+    "doi": "",
+    "official_id": "arXiv:2609.10144",
+    "paper_url": "https://arxiv.org/abs/2609.10144",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "AIOS kernel-managed shared memory centralizes retrieval, privacy enforcement, and prompt injection across agents. Across GPT-4o, Llama-3.1-8B, and Qwen2.5-7B in 1,800 trials, it approaches full-context personalization while using much shorter prompts and reduces end-to-end latency by 15-61%, with corresponding token and inference-cost reductions.",
+    "published_at": "2026-09-09T13:20:47Z",
+    "updated_at": "2026-09-09T13:20:47Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "Knowing When to Stop: Adaptive Action Chunking via Internal Cross-Attention Dynamics in VLAs",
     "venue": "arXiv 2026",
     "topic": "VLA/WAM/Physical AI serving / adaptive action execution",
@@ -4995,6 +5016,28 @@
     ]
   },
   {
+    "title": "Maverick: Private and Verifiable LLM Inference Made Practical via Matrix-Vector Multiplication Delegation",
+    "venue": "arXiv 2026",
+    "topic": "LLM serving / private inference / verifiable delegation / heterogeneous offload",
+    "arxiv": "2609.10264",
+    "doi": "",
+    "official_id": "arXiv:2609.10264",
+    "paper_url": "https://arxiv.org/abs/2609.10264",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "End-to-end Qwen3-4B prototype delegates dominant matrix-vector products while preserving input privacy and verifiability with virtually no server verification overhead. With one client thread, throughput improves up to 17x with online privacy masks, 45x with precomputed masks, and 44x for verification-only; client-side microbenchmarks with simulated network delay reach 12-157x depending on mode.",
+    "published_at": "2026-09-09T14:53:17Z",
+    "updated_at": "2026-09-09T14:53:17Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "MaxKernel: Agentic Kernel Generation for TPUs",
     "venue": "arXiv 2026",
     "topic": "GPU kernel/DSL/compilers / TPU kernel generation / agentic optimization",
@@ -5207,6 +5250,28 @@
       "LLM Serving",
       "GPU Kernel / DSL / Compiler",
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Modality-Decoupled Federated Learning for Privacy-Preserving Embodied Intelligence in 6G",
+    "venue": "arXiv 2026",
+    "topic": "VLA/WAM/Physical AI / distributed training / edge-cloud / communication compression",
+    "arxiv": "2609.09591",
+    "doi": "",
+    "official_id": "arXiv:2609.09591",
+    "paper_url": "https://arxiv.org/abs/2609.09591",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "IEEE Wireless Communications accepted FedMVLA decouples vision, language, and action updates for federated embodied intelligence. A 3GPP-based robotic-manipulation case study reaches 84.8% success, +22.2 points over FedAvg, scales to 128 clients across eight cells, and cuts schedule-averaged per-client uplink model-update payload by 95.6% while keeping p95 round-critical uplink completion near 1.5 s.",
+    "published_at": "2026-09-09T01:36:44Z",
+    "updated_at": "2026-09-09T01:36:44Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Distributed Training / Inference",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
