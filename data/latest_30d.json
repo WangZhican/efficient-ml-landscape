@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-11",
   "window_start_beijing": "2026-08-12",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 661,
+  "tracked_total": 665,
   "p0_strong_or_canonical": [
     {
       "title": "HybridFLow: SDN-Orchestrated Client Partitioning for Hybrid Federated Learning",
@@ -2818,6 +2818,26 @@
       ]
     },
     {
+      "title": "Subspace Inference Enables Efficient Active Reward Learning from Preferences",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / RLHF reward learning / subspace Bayesian inference",
+      "arxiv": "2609.04066",
+      "doi": "",
+      "official_id": "arXiv:2609.04066",
+      "paper_url": "https://arxiv.org/abs/2609.04066",
+      "code_url": "https://github.com/yutaizhou/bnn_pref",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "PreferenceEKF moves sequential Bayesian uncertainty inference into a low-dimensional parameter subspace instead of the full neural-network space. The primary paper reports better runtime/scalability/sample efficiency than Bayesian deep-learning baselines; paper results show up to about 40x runtime improvement over Last-Layer MCMC while maintaining competitive reward-model and downstream policy quality.",
+      "published_at": "2026-09-03T16:39:55Z",
+      "updated_at": "2026-09-03T16:39:55Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "DSAQuant: Denoising-Stage-Aligned Quantization-Aware Training for Video Generation",
       "venue": "CoRR 2026",
       "topic": "quantization / video generation acceleration / diffusion inference",
@@ -4196,6 +4216,27 @@
         "Multimodal / MLLM Serving",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Privacy-Preserving Split Learning for Federated LLM Fine-Tuning",
+      "venue": "arXiv 2026",
+      "topic": "distributed training/inference / federated LLM fine-tuning / split learning privacy",
+      "arxiv": "2609.09794",
+      "doi": "",
+      "official_id": "arXiv:2609.09794",
+      "paper_url": "https://arxiv.org/abs/2609.09794",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Partitions LLM fine-tuning across resource-constrained clients and a server, then adds learned obfuscate-and-recover protection against autoregressive activation leakage. The paper reports strong privacy with modest utility loss and system overhead; relevant to heterogeneous/federated LLM systems, but the primary source does not establish a strong acceleration win.",
+      "published_at": "2026-09-09T06:48:21Z",
+      "updated_at": "2026-09-09T06:48:21Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Distributed Training / Inference",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -5877,6 +5918,28 @@
       ]
     },
     {
+      "title": "Linear Algebra Foundations of Efficient Attention: A Phase Reversal in Rank Collapse Under SVD Compression",
+      "venue": "arXiv 2026",
+      "topic": "efficient attention / low-rank compression / KV-cache lineage",
+      "arxiv": "2609.06341",
+      "doi": "",
+      "official_id": "arXiv:2609.06341",
+      "paper_url": "https://arxiv.org/abs/2609.06341",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Unifies low-rank attention/KV-cache compression literature and adds a controlled finding that SVD compression reverses its rank-collapse behavior between initialization and pretrained models. Useful compression-mechanism lineage, but it does not present a direct serving latency/throughput improvement, so it stays watchlist.",
+      "published_at": "2026-09-06T02:27:01Z",
+      "updated_at": "2026-09-06T02:27:01Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Efficient Attention"
+      ]
+    },
+    {
       "title": "Query-Oblivious Coresets for Softmax Attention: Improved Bounds and Efficient Constructions",
       "venue": "arXiv 2026",
       "topic": "efficient attention / attention coresets / theory",
@@ -6353,6 +6416,28 @@
       "directions": [
         "Distributed Training / Inference",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "One Word, Different Action: A Real-Robot Benchmark for Language-Conditioned Embodied Reasoning",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / real-robot benchmark / language-conditioned action reasoning",
+      "arxiv": "2609.05260",
+      "doi": "",
+      "official_id": "arXiv:2609.05260",
+      "paper_url": "https://arxiv.org/abs/2609.05260",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Introduces a real-robot benchmark that separates decision invariance from decision sensitivity under minimal instruction changes, multi-constraint reasoning, and real-RGB grounding. It exposes failures when multiple constraints must be composed into one executable action, making it useful protected Physical-AI coverage, but it is a benchmark rather than an inference-efficiency method.",
+      "published_at": "2026-09-04T15:21:58Z",
+      "updated_at": "2026-09-04T15:21:58Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -17133,6 +17218,26 @@
       ]
     },
     {
+      "title": "Subspace Inference Enables Efficient Active Reward Learning from Preferences",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / RLHF reward learning / subspace Bayesian inference",
+      "arxiv": "2609.04066",
+      "doi": "",
+      "official_id": "arXiv:2609.04066",
+      "paper_url": "https://arxiv.org/abs/2609.04066",
+      "code_url": "https://github.com/yutaizhou/bnn_pref",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "PreferenceEKF moves sequential Bayesian uncertainty inference into a low-dimensional parameter subspace instead of the full neural-network space. The primary paper reports better runtime/scalability/sample efficiency than Bayesian deep-learning baselines; paper results show up to about 40x runtime improvement over Last-Layer MCMC while maintaining competitive reward-model and downstream policy quality.",
+      "published_at": "2026-09-03T16:39:55Z",
+      "updated_at": "2026-09-03T16:39:55Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "DSAQuant: Denoising-Stage-Aligned Quantization-Aware Training for Video Generation",
       "venue": "CoRR 2026",
       "topic": "quantization / video generation acceleration / diffusion inference",
@@ -18509,6 +18614,27 @@
         "Multimodal / MLLM Serving",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Privacy-Preserving Split Learning for Federated LLM Fine-Tuning",
+      "venue": "arXiv 2026",
+      "topic": "distributed training/inference / federated LLM fine-tuning / split learning privacy",
+      "arxiv": "2609.09794",
+      "doi": "",
+      "official_id": "arXiv:2609.09794",
+      "paper_url": "https://arxiv.org/abs/2609.09794",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Partitions LLM fine-tuning across resource-constrained clients and a server, then adds learned obfuscate-and-recover protection against autoregressive activation leakage. The paper reports strong privacy with modest utility loss and system overhead; relevant to heterogeneous/federated LLM systems, but the primary source does not establish a strong acceleration win.",
+      "published_at": "2026-09-09T06:48:21Z",
+      "updated_at": "2026-09-09T06:48:21Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Distributed Training / Inference",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -20190,6 +20316,28 @@
       ]
     },
     {
+      "title": "Linear Algebra Foundations of Efficient Attention: A Phase Reversal in Rank Collapse Under SVD Compression",
+      "venue": "arXiv 2026",
+      "topic": "efficient attention / low-rank compression / KV-cache lineage",
+      "arxiv": "2609.06341",
+      "doi": "",
+      "official_id": "arXiv:2609.06341",
+      "paper_url": "https://arxiv.org/abs/2609.06341",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Unifies low-rank attention/KV-cache compression literature and adds a controlled finding that SVD compression reverses its rank-collapse behavior between initialization and pretrained models. Useful compression-mechanism lineage, but it does not present a direct serving latency/throughput improvement, so it stays watchlist.",
+      "published_at": "2026-09-06T02:27:01Z",
+      "updated_at": "2026-09-06T02:27:01Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Efficient Attention"
+      ]
+    },
+    {
       "title": "Query-Oblivious Coresets for Softmax Attention: Improved Bounds and Efficient Constructions",
       "venue": "arXiv 2026",
       "topic": "efficient attention / attention coresets / theory",
@@ -20666,6 +20814,28 @@
       "directions": [
         "Distributed Training / Inference",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "One Word, Different Action: A Real-Robot Benchmark for Language-Conditioned Embodied Reasoning",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / real-robot benchmark / language-conditioned action reasoning",
+      "arxiv": "2609.05260",
+      "doi": "",
+      "official_id": "arXiv:2609.05260",
+      "paper_url": "https://arxiv.org/abs/2609.05260",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Introduces a real-robot benchmark that separates decision invariance from decision sensitivity under minimal instruction changes, multi-constraint reasoning, and real-RGB grounding. It exposes failures when multiple constraints must be composed into one executable action, making it useful protected Physical-AI coverage, but it is a benchmark rather than an inference-efficiency method.",
+      "published_at": "2026-09-04T15:21:58Z",
+      "updated_at": "2026-09-04T15:21:58Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {

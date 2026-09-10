@@ -7299,6 +7299,26 @@
     ]
   },
   {
+    "title": "Subspace Inference Enables Efficient Active Reward Learning from Preferences",
+    "venue": "arXiv 2026",
+    "topic": "efficient reasoning/agent systems / RLHF reward learning / subspace Bayesian inference",
+    "arxiv": "2609.04066",
+    "doi": "",
+    "official_id": "arXiv:2609.04066",
+    "paper_url": "https://arxiv.org/abs/2609.04066",
+    "code_url": "https://github.com/yutaizhou/bnn_pref",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "PreferenceEKF moves sequential Bayesian uncertainty inference into a low-dimensional parameter subspace instead of the full neural-network space. The primary paper reports better runtime/scalability/sample efficiency than Bayesian deep-learning baselines; paper results show up to about 40x runtime improvement over Last-Layer MCMC while maintaining competitive reward-model and downstream policy quality.",
+    "published_at": "2026-09-03T16:39:55Z",
+    "updated_at": "2026-09-03T16:39:55Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "Substrate-Aware AI Agents: Execution Context as a First-Class Input",
     "venue": "arXiv 2026",
     "topic": "efficient reasoning/agent systems / resource-aware code generation / runtime constraints",
