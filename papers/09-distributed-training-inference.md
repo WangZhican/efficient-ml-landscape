@@ -1,10 +1,10 @@
 # 09 · Distributed Training / Inference
 
-> **347 canonical papers** mapped here, plus a broader **108-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **347 canonical papers** mapped here, plus a broader **109-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 108 tracked
+## 🆕 Latest 30 Days · 109 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -44,6 +44,7 @@
 | **P0 · Strong** | **GPU-Accelerated Hypergraph Partitioning and Placement to Map SNNs on Neuromorphic Hardware** | arXiv 2026 | edge/cloud/heterogeneous AI systems / neuromorphic accelerator / GPU compiler-mapping | [Link](https://arxiv.org/abs/2609.07577) | — |
 | **P0 · Strong** | **Analytical Resource Management for Fine-grained MoE Computation-Communication Overlap** | arXiv 2026 | MoE systems/accelerators / distributed inference / compute-communication overlap | [Link](https://arxiv.org/abs/2609.07536) | — |
 | **P0 · Strong** | **Parallelism Strategy Chaining for Fast Training Convergence** | arXiv 2026 | distributed training/inference / parallelism / online adaptation | [Link](https://arxiv.org/abs/2609.07236) | — |
+| **P1 · Watch** | **FedRAW: Preserving Rare-Label Influence in Asynchronous Federated Learning** | arXiv 2026 | distributed training/inference / edge AI | [Link](https://arxiv.org/abs/2609.07192) | — |
 | **P0 · Strong** | **Online Draft Co-Training for Speculative Decoding in Large-Scale, Long-Context RL Post-Training** | arXiv 2026 | speculative decoding / RL post-training / context parallelism / pipeline parallelism | [Link](https://arxiv.org/abs/2609.07108) | [Repo](https://github.com/NVIDIA-NeMo/RL) |
 | **P0 · Strong** | **TreeRedux: Separating Concerns in Spark's Distributed Tree Aggregation** | arXiv 2026 | distributed training/inference / data systems / runtime memory scalability | [Link](https://arxiv.org/abs/2609.06982) | — |
 | **P1 · Watch** | **Distributed Dexterous Manipulation with Spatially Conditioned Multi-Agent Transformers** | arXiv 2026 | VLA/WAM/Physical AI serving / multi-agent transformer / dexterous manipulation | [Link](https://arxiv.org/abs/2609.06930) | — |

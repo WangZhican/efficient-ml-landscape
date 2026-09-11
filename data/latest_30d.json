@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-12",
   "window_start_beijing": "2026-08-13",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 862,
+  "tracked_total": 869,
   "p0_strong_or_canonical": [
     {
       "title": "AccelForge: Comprehensive Modeling and Co-Design Framework for AI Accelerators",
@@ -4335,6 +4335,28 @@
       ]
     },
     {
+      "title": "Safety-aware Skill Adaptation for Reinforcement Learning in Dynamic Environments",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / skill adaptation",
+      "arxiv": "2609.11433",
+      "doi": "",
+      "official_id": "arXiv:2609.11433",
+      "paper_url": "https://arxiv.org/abs/2609.11433",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "safety-guided online robot skill adaptation",
+      "published_at": "2026-09-10T12:05:54Z",
+      "updated_at": "2026-09-10T12:05:54Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Taming Bitwise Behavior in GPU Kernels with Tensor Core: Black-Box Reconstruction, Compiler Enforcement, and Static Verification",
       "venue": "arXiv 2026",
       "topic": "GPU kernel/DSL/compilers / tensor core / deterministic kernels",
@@ -4396,6 +4418,28 @@
       "directions": [
         "GPU Kernel / DSL / Compiler",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Beyond Noise Steering: Dual-Latent Space Reinforcement Learning for Generative Robot Policy",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / generative policy",
+      "arxiv": "2609.11270",
+      "doi": "",
+      "official_id": "arXiv:2609.11270",
+      "paper_url": "https://arxiv.org/abs/2609.11270",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "dual-latent adaptation for frozen generative robot policy",
+      "published_at": "2026-09-10T09:04:04Z",
+      "updated_at": "2026-09-10T09:04:04Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -4854,6 +4898,27 @@
       ]
     },
     {
+      "title": "A-JIT: Agentic Just-In-Time Software Construction",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / adaptive runtime",
+      "arxiv": "2609.10248",
+      "doi": "",
+      "official_id": "arXiv:2609.10248",
+      "paper_url": "https://arxiv.org/abs/2609.10248",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "runtime self-specialization architecture for agentic software",
+      "published_at": "2026-09-09T14:36:51Z",
+      "updated_at": "2026-09-09T14:36:51Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Speculative Decoding",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "FolDeX: A Physical-World Benchmark for Long-Horizon Robotic Manipulation of Deformable Objects",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI / long-horizon manipulation / deformable objects / real-robot benchmark",
@@ -5106,6 +5171,26 @@
       "directions": [
         "LLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "When Does Low-Bit Quantization Preserve the Decisions of Vector Search?",
+      "venue": "arXiv 2026",
+      "topic": "quantization / vector search",
+      "arxiv": "2609.09854",
+      "doi": "",
+      "official_id": "arXiv:2609.09854",
+      "paper_url": "https://arxiv.org/abs/2609.09854",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "decision-preserving low-bit quantization for vector retrieval",
+      "published_at": "2026-09-09T08:06:50Z",
+      "updated_at": "2026-09-09T08:06:50Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization"
       ]
     },
     {
@@ -6729,6 +6814,27 @@
       ]
     },
     {
+      "title": "3DWay: Generalizing Robot Manipulation via 3D Consistent Waypoints",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving",
+      "arxiv": "2609.08224",
+      "doi": "",
+      "official_id": "arXiv:2609.08224",
+      "paper_url": "https://arxiv.org/abs/2609.08224",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "3D-consistent waypoint interface for robot manipulation",
+      "published_at": "2026-09-08T04:18:46Z",
+      "updated_at": "2026-09-08T04:18:46Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Drive by Hindsight and Foresight: Tool-Grounded Synergistic Reasoning over Hierarchical Memory for Autonomous Driving",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI / autonomous driving / hierarchical memory / proactive tool invocation",
@@ -7605,6 +7711,27 @@
       ]
     },
     {
+      "title": "PhysReal: Learning Real-World Deformable Object Physics via Hybrid Constitutive Modeling",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / world models",
+      "arxiv": "2609.07532",
+      "doi": "",
+      "official_id": "arXiv:2609.07532",
+      "paper_url": "https://arxiv.org/abs/2609.07532",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "hybrid differentiable physics world model",
+      "published_at": "2026-09-07T14:11:57Z",
+      "updated_at": "2026-09-07T14:11:57Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Functional-SLAM: Interaction-Aware Mapping with Online Functional Scene Graphs",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / online mapping / scene graphs",
@@ -8012,6 +8139,27 @@
         "Multimodal / MLLM Serving",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "FedRAW: Preserving Rare-Label Influence in Asynchronous Federated Learning",
+      "venue": "arXiv 2026",
+      "topic": "distributed training/inference / edge AI",
+      "arxiv": "2609.07192",
+      "doi": "",
+      "official_id": "arXiv:2609.07192",
+      "paper_url": "https://arxiv.org/abs/2609.07192",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "robust asynchronous aggregation under heterogeneous participation",
+      "published_at": "2026-09-07T08:17:51Z",
+      "updated_at": "2026-09-07T08:17:51Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Distributed Training / Inference",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -22914,6 +23062,28 @@
       ]
     },
     {
+      "title": "Safety-aware Skill Adaptation for Reinforcement Learning in Dynamic Environments",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / skill adaptation",
+      "arxiv": "2609.11433",
+      "doi": "",
+      "official_id": "arXiv:2609.11433",
+      "paper_url": "https://arxiv.org/abs/2609.11433",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "safety-guided online robot skill adaptation",
+      "published_at": "2026-09-10T12:05:54Z",
+      "updated_at": "2026-09-10T12:05:54Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Taming Bitwise Behavior in GPU Kernels with Tensor Core: Black-Box Reconstruction, Compiler Enforcement, and Static Verification",
       "venue": "arXiv 2026",
       "topic": "GPU kernel/DSL/compilers / tensor core / deterministic kernels",
@@ -22975,6 +23145,28 @@
       "directions": [
         "GPU Kernel / DSL / Compiler",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Beyond Noise Steering: Dual-Latent Space Reinforcement Learning for Generative Robot Policy",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / generative policy",
+      "arxiv": "2609.11270",
+      "doi": "",
+      "official_id": "arXiv:2609.11270",
+      "paper_url": "https://arxiv.org/abs/2609.11270",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "dual-latent adaptation for frozen generative robot policy",
+      "published_at": "2026-09-10T09:04:04Z",
+      "updated_at": "2026-09-10T09:04:04Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -23433,6 +23625,27 @@
       ]
     },
     {
+      "title": "A-JIT: Agentic Just-In-Time Software Construction",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / adaptive runtime",
+      "arxiv": "2609.10248",
+      "doi": "",
+      "official_id": "arXiv:2609.10248",
+      "paper_url": "https://arxiv.org/abs/2609.10248",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "runtime self-specialization architecture for agentic software",
+      "published_at": "2026-09-09T14:36:51Z",
+      "updated_at": "2026-09-09T14:36:51Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Speculative Decoding",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "FolDeX: A Physical-World Benchmark for Long-Horizon Robotic Manipulation of Deformable Objects",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI / long-horizon manipulation / deformable objects / real-robot benchmark",
@@ -23685,6 +23898,26 @@
       "directions": [
         "LLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "When Does Low-Bit Quantization Preserve the Decisions of Vector Search?",
+      "venue": "arXiv 2026",
+      "topic": "quantization / vector search",
+      "arxiv": "2609.09854",
+      "doi": "",
+      "official_id": "arXiv:2609.09854",
+      "paper_url": "https://arxiv.org/abs/2609.09854",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "decision-preserving low-bit quantization for vector retrieval",
+      "published_at": "2026-09-09T08:06:50Z",
+      "updated_at": "2026-09-09T08:06:50Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization"
       ]
     },
     {
@@ -25308,6 +25541,27 @@
       ]
     },
     {
+      "title": "3DWay: Generalizing Robot Manipulation via 3D Consistent Waypoints",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving",
+      "arxiv": "2609.08224",
+      "doi": "",
+      "official_id": "arXiv:2609.08224",
+      "paper_url": "https://arxiv.org/abs/2609.08224",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "3D-consistent waypoint interface for robot manipulation",
+      "published_at": "2026-09-08T04:18:46Z",
+      "updated_at": "2026-09-08T04:18:46Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Drive by Hindsight and Foresight: Tool-Grounded Synergistic Reasoning over Hierarchical Memory for Autonomous Driving",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI / autonomous driving / hierarchical memory / proactive tool invocation",
@@ -26184,6 +26438,27 @@
       ]
     },
     {
+      "title": "PhysReal: Learning Real-World Deformable Object Physics via Hybrid Constitutive Modeling",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / world models",
+      "arxiv": "2609.07532",
+      "doi": "",
+      "official_id": "arXiv:2609.07532",
+      "paper_url": "https://arxiv.org/abs/2609.07532",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "hybrid differentiable physics world model",
+      "published_at": "2026-09-07T14:11:57Z",
+      "updated_at": "2026-09-07T14:11:57Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Functional-SLAM: Interaction-Aware Mapping with Online Functional Scene Graphs",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / online mapping / scene graphs",
@@ -26591,6 +26866,27 @@
         "Multimodal / MLLM Serving",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "FedRAW: Preserving Rare-Label Influence in Asynchronous Federated Learning",
+      "venue": "arXiv 2026",
+      "topic": "distributed training/inference / edge AI",
+      "arxiv": "2609.07192",
+      "doi": "",
+      "official_id": "arXiv:2609.07192",
+      "paper_url": "https://arxiv.org/abs/2609.07192",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "robust asynchronous aggregation under heterogeneous participation",
+      "published_at": "2026-09-07T08:17:51Z",
+      "updated_at": "2026-09-07T08:17:51Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Distributed Training / Inference",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {

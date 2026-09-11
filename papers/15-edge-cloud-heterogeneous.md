@@ -1,10 +1,10 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **398 canonical papers** mapped here, plus a broader **240-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **398 canonical papers** mapped here, plus a broader **241-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 240 tracked
+## 🆕 Latest 30 Days · 241 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -84,6 +84,7 @@
 | **P1 · Watch** | **World Models Under Asynchronous Sensor Observations** | arXiv 2026 | VLA/WAM/Physical AI serving / world models / asynchronous sensing | [Link](https://arxiv.org/abs/2609.07299) | — |
 | **P1 · Watch** | **Mathematical Modeling of a Cognitive Continuum Digital Shadow for Large-Scale, Cross-Facility Workflows** | arXiv 2026 | edge/cloud/heterogeneous AI systems / cross-facility scheduling / cost-energy optimization | [Link](https://arxiv.org/abs/2609.07275) | — |
 | **P0 · Strong** | **An Efficient Out-of-Core Tomographic Imaging Framework for Edge Devices** | arXiv 2026 | edge/cloud/heterogeneous AI systems / GPU kernel / mixed precision / out-of-core | [Link](https://arxiv.org/abs/2609.07249) | — |
+| **P1 · Watch** | **FedRAW: Preserving Rare-Label Influence in Asynchronous Federated Learning** | arXiv 2026 | distributed training/inference / edge AI | [Link](https://arxiv.org/abs/2609.07192) | — |
 | **P1 · Watch** | **NOVA-CIM: Noise- and Correlation-Tolerant Stochastic Interfaces for Analog Compute-in-Memory** | arXiv 2026 | edge/cloud/heterogeneous AI systems / compute-in-memory / accelerator interfaces | [Link](https://arxiv.org/abs/2609.07059) | — |
 | **P0 · Strong** | **ASTRA: Low-Overhead Runtime Architecture for STReam Adaptation in Video Analytics** | arXiv 2026 | edge/cloud/heterogeneous AI systems / multimodal serving / runtime adaptation | [Link](https://arxiv.org/abs/2609.07020) | — |
 | **P1 · Watch** | **Unified AI Gateway: A Framework for Joint Model Routing and KV Cache Management** | arXiv 2026 | LLM serving / model routing / KV cache management / edge-cloud placement | [Link](https://arxiv.org/abs/2609.06940) | — |

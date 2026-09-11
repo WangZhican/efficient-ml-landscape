@@ -1,10 +1,10 @@
 # 13 · Efficient Reasoning / Agents
 
-> **324 canonical papers** mapped here, plus a broader **226-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **324 canonical papers** mapped here, plus a broader **229-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 226 tracked
+## 🆕 Latest 30 Days · 229 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -15,9 +15,11 @@
 | **P0 · Strong** | **Ecdysis: Efficient and Effective Training of Runtime Harnesses for LLM Agents** | arXiv 2026 | efficient reasoning/agent systems / agent runtime harness | [Link](https://arxiv.org/abs/2609.11677) | — |
 | **P1 · Watch** | **ChurnBench: A Drift-Aware Benchmark Demonstrating That Refresh Scheduling, Not Cache Age, Governs Staleness in Agentic AI** | arXiv 2026 | efficient reasoning/agent systems / cache freshness / retrieval runtime | [Link](https://arxiv.org/abs/2609.11515) | — |
 | **P1 · Watch** | **ActMap: Single-Pass Uncertainty Quantification from Generation-Time Activation Maps** | arXiv 2026 | efficient reasoning/agent systems / single-pass uncertainty / runtime telemetry | [Link](https://arxiv.org/abs/2609.11498) | — |
+| **P1 · Watch** | **Safety-aware Skill Adaptation for Reinforcement Learning in Dynamic Environments** | arXiv 2026 | VLA/WAM/Physical AI serving / skill adaptation | [Link](https://arxiv.org/abs/2609.11433) | — |
 | **P0 · Strong** | **VikingRAG: Accurate and Token-efficient Retrieval-augmented Generation over Structured Documents** | arXiv 2026 | efficient reasoning/agent systems / token-efficient RAG serving | [Link](https://arxiv.org/abs/2609.11390) | — |
 | **P1 · Watch** | **2AM: Grounding Agent-Side Memory as Guidance for Steerable Action Models in Long-Horizon Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving / agent memory / long-horizon manipulation | [Link](https://arxiv.org/abs/2609.11308) | — |
 | **P0 · Strong** | **Memory Compression for High-Fanout Agent Sandboxes** | arXiv 2026 | efficient reasoning/agent systems / sandbox memory / runtime compression | [Link](https://arxiv.org/abs/2609.11294) | — |
+| **P1 · Watch** | **Beyond Noise Steering: Dual-Latent Space Reinforcement Learning for Generative Robot Policy** | arXiv 2026 | VLA/WAM/Physical AI serving / generative policy | [Link](https://arxiv.org/abs/2609.11270) | — |
 | **P0 · Strong** | **A Voice-Interactive Multi-Agent System for Smart Operating Rooms: Architecture Design and Key Technologies** | arXiv 2026 | LLM serving / agent systems / KV cache / streaming execution | [Link](https://arxiv.org/abs/2609.11231) | — |
 | **P1 · Watch** | **Harness Robotic OS: A Unified Embodied-Agent Runtime for Closed-Loop Quadruped Inspection** | arXiv 2026 | VLA/WAM/Physical AI serving / embodied runtime / agent infrastructure | [Link](https://arxiv.org/abs/2609.11225) | — |
 | **P1 · Watch** | **Less can be More: What Aspects of Speech Drive End-of-Turn Detection** | arXiv 2026 | efficient reasoning/agent systems / streaming voice agents / turn-taking runtime | [Link](https://arxiv.org/abs/2609.11066) | — |
@@ -33,6 +35,7 @@
 | **P1 · Watch** | **TRACE: Trajectory-robust Admission with Evidence Ordering for Efficient GUI Agents** | arXiv 2026 | efficient reasoning/agent systems / multimodal serving / KV cache / token pruning | [Link](https://arxiv.org/abs/2609.10297) | — |
 | **P1 · Watch** | **KVShareArena: KV-Cache Reuse Across Contexts and Model Checkpoints** | arXiv 2026 | KV cache/long-context / LLM serving / benchmark and cost accounting | [Link](https://arxiv.org/abs/2609.10266) | — |
 | **P1 · Watch** | **What Should an Agent Forget? Separating What Is Stored from What Is Used** | arXiv 2026 | efficient reasoning/agent systems / long-term memory / context compression | [Link](https://arxiv.org/abs/2609.10263) | — |
+| **P1 · Watch** | **A-JIT: Agentic Just-In-Time Software Construction** | arXiv 2026 | efficient reasoning/agent systems / adaptive runtime | [Link](https://arxiv.org/abs/2609.10248) | — |
 | **P0 · Strong** | **LiteRAG: Cost-Efficient Graph-Based Retrieval-Augmented Generation** | arXiv 2026 | LLM serving / RAG / retrieval efficiency / context reduction | [Link](https://arxiv.org/abs/2609.10239) | — |
 | **P1 · Watch** | **$Φ$-Bench: Can Large Language Models Engineer the Infrastructure That Powers Them?** | arXiv 2026 | GPU kernel/DSL/compilers / LLM infrastructure engineering agents / benchmark | [Link](https://arxiv.org/abs/2609.10226) | — |
 | **P1 · Watch** | **Beyond Surface Imitation: Contrastive Modeling for Reasoning Path Alignment in Multimodal In-Context Learning** | arXiv 2026 | multimodal/MLLM serving / adaptive reasoning / early exit | [Link](https://arxiv.org/abs/2609.10177) | — |

@@ -1,10 +1,10 @@
 # 01 · LLM Serving
 
-> **788 canonical papers** mapped here, plus a broader **547-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **788 canonical papers** mapped here, plus a broader **551-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 547 tracked
+## 🆕 Latest 30 Days · 551 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -23,10 +23,12 @@
 | **P0 · Strong** | **Characterizing Job Power Elasticity for Power-Flexible AI Training** | arXiv 2026 | distributed training/inference / datacenter power scheduling | [Link](https://arxiv.org/abs/2609.11542) | — |
 | **P1 · Watch** | **ChurnBench: A Drift-Aware Benchmark Demonstrating That Refresh Scheduling, Not Cache Age, Governs Staleness in Agentic AI** | arXiv 2026 | efficient reasoning/agent systems / cache freshness / retrieval runtime | [Link](https://arxiv.org/abs/2609.11515) | — |
 | **P1 · Watch** | **FARM: Reading Failure Signals from the Internal Predictive States of a Frozen Robotic World Model** | arXiv 2026 | VLA/WAM/Physical AI serving / world-model monitoring / low-overhead runtime | [Link](https://arxiv.org/abs/2609.11445) | — |
+| **P1 · Watch** | **Safety-aware Skill Adaptation for Reinforcement Learning in Dynamic Environments** | arXiv 2026 | VLA/WAM/Physical AI serving / skill adaptation | [Link](https://arxiv.org/abs/2609.11433) | — |
 | **P0 · Strong** | **PATTON: Enabling Commodity PIM for Production LLM Serving** | arXiv 2026 | LLM serving / KV cache / PIM accelerator runtime | [Link](https://arxiv.org/abs/2609.11392) | — |
 | **P0 · Strong** | **VikingRAG: Accurate and Token-efficient Retrieval-augmented Generation over Structured Documents** | arXiv 2026 | efficient reasoning/agent systems / token-efficient RAG serving | [Link](https://arxiv.org/abs/2609.11390) | — |
 | **P1 · Watch** | **2AM: Grounding Agent-Side Memory as Guidance for Steerable Action Models in Long-Horizon Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving / agent memory / long-horizon manipulation | [Link](https://arxiv.org/abs/2609.11308) | — |
 | **P0 · Strong** | **Memory Compression for High-Fanout Agent Sandboxes** | arXiv 2026 | efficient reasoning/agent systems / sandbox memory / runtime compression | [Link](https://arxiv.org/abs/2609.11294) | — |
+| **P1 · Watch** | **Beyond Noise Steering: Dual-Latent Space Reinforcement Learning for Generative Robot Policy** | arXiv 2026 | VLA/WAM/Physical AI serving / generative policy | [Link](https://arxiv.org/abs/2609.11270) | — |
 | **P0 · Strong** | **A Voice-Interactive Multi-Agent System for Smart Operating Rooms: Architecture Design and Key Technologies** | arXiv 2026 | LLM serving / agent systems / KV cache / streaming execution | [Link](https://arxiv.org/abs/2609.11231) | — |
 | **P1 · Watch** | **Harness Robotic OS: A Unified Embodied-Agent Runtime for Closed-Loop Quadruped Inspection** | arXiv 2026 | VLA/WAM/Physical AI serving / embodied runtime / agent infrastructure | [Link](https://arxiv.org/abs/2609.11225) | — |
 | **P0 · Strong** | **REVA: Reusable Evidence View Aggregation for Context-Efficient RAG Serving** | arXiv 2026 | LLM serving / RAG / context compression | [Link](https://arxiv.org/abs/2609.11209) | — |
@@ -131,6 +133,7 @@
 | **P1 · Watch** | **Agentic ML Exploration (A-MLE) for Ads Ranking** | arXiv 2026 | efficient reasoning/agent systems / ML infrastructure / autonomous experimentation / industrial ranking | [Link](https://arxiv.org/abs/2609.08248) | — |
 | **P0 · Strong** | **SemBridge: Compiling Consumer Observations into Cross-Stack Communication Plans** | arXiv 2026 | distributed training/inference / compiler / heterogeneous communication | [Link](https://arxiv.org/abs/2609.08231) | — |
 | **P0 · Strong** | **ActionSplice: In-Flight Action Editing for Interactive World Models** | arXiv 2026 | VLA/WAM/Physical AI serving / interactive world models / inference runtime | [Link](https://arxiv.org/abs/2609.08230) | — |
+| **P1 · Watch** | **3DWay: Generalizing Robot Manipulation via 3D Consistent Waypoints** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2609.08224) | — |
 | **P1 · Watch** | **Monkey See, Can Monkey Do? A Benchmark for Evaluating Robot Skill Learning by Observation** | arXiv 2026 | VLA/WAM/Physical AI serving / robot learning / data scaling benchmark | [Link](https://arxiv.org/abs/2609.08209) | — |
 | **P1 · Watch** | **Do Dynamic Routers Need Memory? HeRo: History-Aware Routing for Efficient LLM Inference** | arXiv 2026 | sparsity/pruning / dynamic layer routing / efficient LLM inference / router memory | [Link](https://arxiv.org/abs/2609.08189) | — |
 | **P1 · Watch** | **Dual-Layer Semantic-Spatial Belief Mapping for Aerial Object Goal Navigation** | arXiv 2026 | VLA/WAM/Physical AI serving / persistent spatial memory / VLM navigation | [Link](https://arxiv.org/abs/2609.08164) | — |
@@ -160,6 +163,7 @@
 | **P1 · Watch** | **ICI-VLA: In-Context Imitation with Spatiotemporally Aligned Demonstrations for Vision-Language-Action Models** | arXiv 2026 | VLA/WAM/Physical AI serving / test-time adaptation / retrieval-conditioned control | [Link](https://arxiv.org/abs/2609.07581) | — |
 | **P1 · Watch** | **Anti-Gravity Walking by a Flying Humanoid Robot via Thrust-Rate Input Whole-Body Model Predictive Control** | arXiv 2026 | VLA/WAM/Physical AI serving / robot control / real-time MPC / humanoid | [Link](https://arxiv.org/abs/2609.07544) | — |
 | **P0 · Strong** | **Analytical Resource Management for Fine-grained MoE Computation-Communication Overlap** | arXiv 2026 | MoE systems/accelerators / distributed inference / compute-communication overlap | [Link](https://arxiv.org/abs/2609.07536) | — |
+| **P1 · Watch** | **PhysReal: Learning Real-World Deformable Object Physics via Hybrid Constitutive Modeling** | arXiv 2026 | VLA/WAM/Physical AI serving / world models | [Link](https://arxiv.org/abs/2609.07532) | — |
 | **P1 · Watch** | **Functional-SLAM: Interaction-Aware Mapping with Online Functional Scene Graphs** | arXiv 2026 | VLA/WAM/Physical AI serving / online mapping / scene graphs | [Link](https://arxiv.org/abs/2609.07497) | [Repo](https://github.com/Hbelief1998/Functional-SLAM-CoRL_2026) |
 | **P1 · Watch** | **Parser-Free VLM Verification for Federated Weakly Supervised Video Anomaly Detection** | arXiv 2026 | multimodal/MLLM serving / selective inference / federated edge AI | [Link](https://arxiv.org/abs/2609.07455) | — |
 | **P0 · Strong** | **TASTE: Throughput-Aware Batch Size Tuning for On-Device Edge Learning** | arXiv 2026 | edge/cloud/heterogeneous AI systems / on-device learning / throughput tuning | [Link](https://arxiv.org/abs/2609.07444) | — |
