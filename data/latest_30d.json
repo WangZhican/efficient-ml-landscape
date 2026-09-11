@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-12",
   "window_start_beijing": "2026-08-13",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 884,
+  "tracked_total": 890,
   "p0_strong_or_canonical": [
     {
       "title": "AccelForge: Comprehensive Modeling and Co-Design Framework for AI Accelerators",
@@ -4272,6 +4272,46 @@
       ]
     },
     {
+      "title": "Musec: MomentUm SpEctral Clipping for Stable Muon-type Training",
+      "venue": "arXiv 2026",
+      "topic": "distributed training/inference",
+      "arxiv": "2609.11655",
+      "doi": "",
+      "official_id": "arXiv:2609.11655",
+      "paper_url": "https://arxiv.org/abs/2609.11655",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "optimizer-level architecture-agnostic stabilization of Muon with efficient Newton-Schulz implementation for LLM training",
+      "published_at": "2026-09-10T15:00:01Z",
+      "updated_at": "2026-09-10T15:00:01Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "From Grid to Chip: Power Architecture, Stability, and Flexibility of AI Data Centers",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems",
+      "arxiv": "2609.11649",
+      "doi": "",
+      "official_id": "arXiv:2609.11649",
+      "paper_url": "https://arxiv.org/abs/2609.11649",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "AI data-center grid-to-chip infrastructure perspective linking workload orchestration, power delivery, cooling, storage and grid stability",
+      "published_at": "2026-09-10T14:55:10Z",
+      "updated_at": "2026-09-10T14:55:10Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "ZipCodec: Ultra-Low-Frame-Rate Streaming Speech Coding",
       "venue": "arXiv 2026",
       "topic": "multimodal/MLLM serving / streaming speech / token-rate reduction",
@@ -4633,6 +4673,28 @@
       "updated_at": "2026-09-10T01:42:40Z",
       "is_latest_30d": true,
       "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Auto-RecSys: Harnessing Autonomous Research Agents for Industry-Scale Recommender System",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems",
+      "arxiv": "2609.10922",
+      "doi": "",
+      "official_id": "arXiv:2609.10922",
+      "paper_url": "https://arxiv.org/abs/2609.10922",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "distributed asynchronous agent experimentation across servers with centralized persistent memory, recoverable multi-day GPU execution and deterministic operational harnesses",
+      "published_at": "2026-09-10T00:09:18Z",
+      "updated_at": "2026-09-10T00:09:18Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference",
         "Efficient Reasoning / Agents"
       ]
     },
@@ -7882,6 +7944,26 @@
       ]
     },
     {
+      "title": "No-Regret Mixing of LRU and LFU with Optimal Switching Cost",
+      "venue": "arXiv 2026",
+      "topic": "KV cache/long-context / cache policy lineage",
+      "arxiv": "2609.07566",
+      "doi": "",
+      "official_id": "arXiv:2609.07566",
+      "paper_url": "https://arxiv.org/abs/2609.07566",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "online cache-eviction mixture with regret guarantees and minimum switching cost; relevant cache-policy systems lineage",
+      "published_at": "2026-09-07T14:44:51Z",
+      "updated_at": "2026-09-07T14:44:51Z",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context"
+      ]
+    },
+    {
       "title": "Heat Kernel Textures: the Geodesic Gaussians That Do Not Splat",
       "venue": "arXiv 2026",
       "topic": "video/image generation acceleration / 3D representation / memory efficiency",
@@ -8738,6 +8820,27 @@
       ]
     },
     {
+      "title": "Learning Adaptive SED for heterogeneous load balancing",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / scheduling lineage",
+      "arxiv": "2609.06881",
+      "doi": "",
+      "official_id": "arXiv:2609.06881",
+      "paper_url": "https://arxiv.org/abs/2609.06881",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "online learning of heterogeneous service rates with finite-regret shortest-expected-delay routing; useful scheduling/load-balancing theory lineage",
+      "published_at": "2026-09-07T00:03:03Z",
+      "updated_at": "2026-09-07T00:03:03Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Characterizing Contention-Induced Reliability Collapse in KV-Cache Timing Side Channels for Multi-Tenant LLM Serving",
       "venue": "arXiv 2026",
       "topic": "KV cache/long-context / LLM serving / multi-tenant security characterization",
@@ -9098,6 +9201,26 @@
       "is_latest_30d": true,
       "directions": [
         "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "Stability and Generalization of Straight-Through Estimators for Training Two-Layer Quantized Neural Networks",
+      "venue": "arXiv 2026",
+      "topic": "quantization",
+      "arxiv": "2609.06430",
+      "doi": "",
+      "official_id": "arXiv:2609.06430",
+      "paper_url": "https://arxiv.org/abs/2609.06430",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "theoretical stability/generalization lineage for STE-based binary activation training; relevant to low-bit quantization methodology",
+      "published_at": "2026-09-06T07:12:16Z",
+      "updated_at": "2026-09-06T07:12:16Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization"
       ]
     },
     {
@@ -23319,6 +23442,46 @@
       ]
     },
     {
+      "title": "Musec: MomentUm SpEctral Clipping for Stable Muon-type Training",
+      "venue": "arXiv 2026",
+      "topic": "distributed training/inference",
+      "arxiv": "2609.11655",
+      "doi": "",
+      "official_id": "arXiv:2609.11655",
+      "paper_url": "https://arxiv.org/abs/2609.11655",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "optimizer-level architecture-agnostic stabilization of Muon with efficient Newton-Schulz implementation for LLM training",
+      "published_at": "2026-09-10T15:00:01Z",
+      "updated_at": "2026-09-10T15:00:01Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "From Grid to Chip: Power Architecture, Stability, and Flexibility of AI Data Centers",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems",
+      "arxiv": "2609.11649",
+      "doi": "",
+      "official_id": "arXiv:2609.11649",
+      "paper_url": "https://arxiv.org/abs/2609.11649",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "AI data-center grid-to-chip infrastructure perspective linking workload orchestration, power delivery, cooling, storage and grid stability",
+      "published_at": "2026-09-10T14:55:10Z",
+      "updated_at": "2026-09-10T14:55:10Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "ZipCodec: Ultra-Low-Frame-Rate Streaming Speech Coding",
       "venue": "arXiv 2026",
       "topic": "multimodal/MLLM serving / streaming speech / token-rate reduction",
@@ -23680,6 +23843,28 @@
       "updated_at": "2026-09-10T01:42:40Z",
       "is_latest_30d": true,
       "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Auto-RecSys: Harnessing Autonomous Research Agents for Industry-Scale Recommender System",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems",
+      "arxiv": "2609.10922",
+      "doi": "",
+      "official_id": "arXiv:2609.10922",
+      "paper_url": "https://arxiv.org/abs/2609.10922",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "distributed asynchronous agent experimentation across servers with centralized persistent memory, recoverable multi-day GPU execution and deterministic operational harnesses",
+      "published_at": "2026-09-10T00:09:18Z",
+      "updated_at": "2026-09-10T00:09:18Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference",
         "Efficient Reasoning / Agents"
       ]
     },
@@ -26929,6 +27114,26 @@
       ]
     },
     {
+      "title": "No-Regret Mixing of LRU and LFU with Optimal Switching Cost",
+      "venue": "arXiv 2026",
+      "topic": "KV cache/long-context / cache policy lineage",
+      "arxiv": "2609.07566",
+      "doi": "",
+      "official_id": "arXiv:2609.07566",
+      "paper_url": "https://arxiv.org/abs/2609.07566",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "online cache-eviction mixture with regret guarantees and minimum switching cost; relevant cache-policy systems lineage",
+      "published_at": "2026-09-07T14:44:51Z",
+      "updated_at": "2026-09-07T14:44:51Z",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context"
+      ]
+    },
+    {
       "title": "Heat Kernel Textures: the Geodesic Gaussians That Do Not Splat",
       "venue": "arXiv 2026",
       "topic": "video/image generation acceleration / 3D representation / memory efficiency",
@@ -27785,6 +27990,27 @@
       ]
     },
     {
+      "title": "Learning Adaptive SED for heterogeneous load balancing",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / scheduling lineage",
+      "arxiv": "2609.06881",
+      "doi": "",
+      "official_id": "arXiv:2609.06881",
+      "paper_url": "https://arxiv.org/abs/2609.06881",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "online learning of heterogeneous service rates with finite-regret shortest-expected-delay routing; useful scheduling/load-balancing theory lineage",
+      "published_at": "2026-09-07T00:03:03Z",
+      "updated_at": "2026-09-07T00:03:03Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Characterizing Contention-Induced Reliability Collapse in KV-Cache Timing Side Channels for Multi-Tenant LLM Serving",
       "venue": "arXiv 2026",
       "topic": "KV cache/long-context / LLM serving / multi-tenant security characterization",
@@ -28145,6 +28371,26 @@
       "is_latest_30d": true,
       "directions": [
         "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "Stability and Generalization of Straight-Through Estimators for Training Two-Layer Quantized Neural Networks",
+      "venue": "arXiv 2026",
+      "topic": "quantization",
+      "arxiv": "2609.06430",
+      "doi": "",
+      "official_id": "arXiv:2609.06430",
+      "paper_url": "https://arxiv.org/abs/2609.06430",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "theoretical stability/generalization lineage for STE-based binary activation training; relevant to low-bit quantization methodology",
+      "published_at": "2026-09-06T07:12:16Z",
+      "updated_at": "2026-09-06T07:12:16Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization"
       ]
     },
     {
