@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-11",
   "window_start_beijing": "2026-08-12",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 763,
+  "tracked_total": 768,
   "p0_strong_or_canonical": [
     {
       "title": "HybridFLow: SDN-Orchestrated Client Partitioning for Hybrid Federated Learning",
@@ -5890,6 +5890,26 @@
       ]
     },
     {
+      "title": "Inference-Time Nash Alignment",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / inference-time adaptation",
+      "arxiv": "2609.08082",
+      "doi": "",
+      "official_id": "arXiv:2609.08082",
+      "paper_url": "https://arxiv.org/abs/2609.08082",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Replaces parameter-updating preference fine-tuning with inference-time Best-of-Nash and Nash Mirror Descent under general preferences. It is relevant as a no-fine-tuning alignment path, but the abstract provides no direct end-to-end compute or latency comparison.",
+      "published_at": "2026-09-08T00:50:12Z",
+      "updated_at": "2026-09-08T00:50:12Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "ResidualAuth: What Authorization State Must Language Agents Preserve under Revocable Delegation?",
       "venue": "arXiv 2026",
       "topic": "efficient reasoning/agent systems / agent memory / state compression",
@@ -6921,6 +6941,29 @@
       ]
     },
     {
+      "title": "Companion-style QA Assistance in Ego-Vision",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / streaming video memory / egocentric agents",
+      "arxiv": "2609.06721",
+      "doi": "",
+      "official_id": "arXiv:2609.06721",
+      "paper_url": "https://arxiv.org/abs/2609.06721",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "BuddyVQA targets long-form egocentric streaming QA; MyBuddy adds a question filter and multi-level memory specifically to make QA and visual retrieval efficient in streaming settings. Protected Physical-AI/MLLM runtime lineage, but no explicit token or latency reduction is reported.",
+      "published_at": "2026-09-06T16:49:45Z",
+      "updated_at": "2026-09-06T16:49:45Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Data Efficient Sample Selection for In-Context Learning",
       "venue": "arXiv 2026",
       "topic": "efficient reasoning/agent systems / in-context learning / sample selection",
@@ -7281,6 +7324,26 @@
       ]
     },
     {
+      "title": "Rethinking One-Shot Federated Graph Learning: Training-Free Statistical Estimation",
+      "venue": "arXiv 2026",
+      "topic": "distributed training/inference / training-free learning / communication efficiency",
+      "arxiv": "2609.06154",
+      "doi": "",
+      "official_id": "arXiv:2609.06154",
+      "paper_url": "https://arxiv.org/abs/2609.06154",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "SPEAR removes local GNN training entirely for one-shot federated graph learning and reports at least an order-of-magnitude speedup over all baselines, reaching several orders over generative/distillation methods. Strong efficiency evidence, but the workload is specialized graph FL rather than core foundation-model infra.",
+      "published_at": "2026-09-05T15:55:22Z",
+      "updated_at": "2026-09-05T15:55:22Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Distributed Training / Inference"
+      ]
+    },
+    {
       "title": "Compressed Recurrent Feedback in Tsetlin Machines: A Reproducible Boolean-FSM Study",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI systems / compact recurrent inference",
@@ -7341,6 +7404,27 @@
         "LLM Serving",
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "DataFlex-RL: An Evaluation Platform for RLVR Data Policies",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / RLVR training systems / data efficiency",
+      "arxiv": "2609.06107",
+      "doi": "",
+      "official_id": "arXiv:2609.06107",
+      "paper_url": "https://arxiv.org/abs/2609.06107",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "DataFlex-RL evaluates 13 RLVR data-policy configurations under a common GRPO recipe and finds no reproducible gain over uniform sampling at matched precision. This is useful negative systems evidence for avoiding unnecessary rollout-selection complexity in reasoning post-training.",
+      "published_at": "2026-09-05T14:04:50Z",
+      "updated_at": "2026-09-05T14:04:50Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -7747,6 +7831,27 @@
         "MoE Systems / Accelerators",
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Dynamic Lagging for Simultaneous Translation",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / efficient reasoning / latency-controlled generation",
+      "arxiv": "2609.05799",
+      "doi": "",
+      "official_id": "arXiv:2609.05799",
+      "paper_url": "https://arxiv.org/abs/2609.05799",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Fine-tunes Qwen3-8B for prefix-aware simultaneous translation and uses a single training-free confidence threshold to trace a continuous quality-latency frontier that outperforms wait-k and suffix-deletion controls. This is directly relevant to latency-aware LLM decoding, though the abstract does not report a universal wall-clock speedup.",
+      "published_at": "2026-09-05T01:27:19Z",
+      "updated_at": "2026-09-05T01:27:19Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -22375,6 +22480,26 @@
       ]
     },
     {
+      "title": "Inference-Time Nash Alignment",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / inference-time adaptation",
+      "arxiv": "2609.08082",
+      "doi": "",
+      "official_id": "arXiv:2609.08082",
+      "paper_url": "https://arxiv.org/abs/2609.08082",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Replaces parameter-updating preference fine-tuning with inference-time Best-of-Nash and Nash Mirror Descent under general preferences. It is relevant as a no-fine-tuning alignment path, but the abstract provides no direct end-to-end compute or latency comparison.",
+      "published_at": "2026-09-08T00:50:12Z",
+      "updated_at": "2026-09-08T00:50:12Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "ResidualAuth: What Authorization State Must Language Agents Preserve under Revocable Delegation?",
       "venue": "arXiv 2026",
       "topic": "efficient reasoning/agent systems / agent memory / state compression",
@@ -23406,6 +23531,29 @@
       ]
     },
     {
+      "title": "Companion-style QA Assistance in Ego-Vision",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / streaming video memory / egocentric agents",
+      "arxiv": "2609.06721",
+      "doi": "",
+      "official_id": "arXiv:2609.06721",
+      "paper_url": "https://arxiv.org/abs/2609.06721",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "BuddyVQA targets long-form egocentric streaming QA; MyBuddy adds a question filter and multi-level memory specifically to make QA and visual retrieval efficient in streaming settings. Protected Physical-AI/MLLM runtime lineage, but no explicit token or latency reduction is reported.",
+      "published_at": "2026-09-06T16:49:45Z",
+      "updated_at": "2026-09-06T16:49:45Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Data Efficient Sample Selection for In-Context Learning",
       "venue": "arXiv 2026",
       "topic": "efficient reasoning/agent systems / in-context learning / sample selection",
@@ -23766,6 +23914,26 @@
       ]
     },
     {
+      "title": "Rethinking One-Shot Federated Graph Learning: Training-Free Statistical Estimation",
+      "venue": "arXiv 2026",
+      "topic": "distributed training/inference / training-free learning / communication efficiency",
+      "arxiv": "2609.06154",
+      "doi": "",
+      "official_id": "arXiv:2609.06154",
+      "paper_url": "https://arxiv.org/abs/2609.06154",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "SPEAR removes local GNN training entirely for one-shot federated graph learning and reports at least an order-of-magnitude speedup over all baselines, reaching several orders over generative/distillation methods. Strong efficiency evidence, but the workload is specialized graph FL rather than core foundation-model infra.",
+      "published_at": "2026-09-05T15:55:22Z",
+      "updated_at": "2026-09-05T15:55:22Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Distributed Training / Inference"
+      ]
+    },
+    {
       "title": "Compressed Recurrent Feedback in Tsetlin Machines: A Reproducible Boolean-FSM Study",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI systems / compact recurrent inference",
@@ -23826,6 +23994,27 @@
         "LLM Serving",
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "DataFlex-RL: An Evaluation Platform for RLVR Data Policies",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / RLVR training systems / data efficiency",
+      "arxiv": "2609.06107",
+      "doi": "",
+      "official_id": "arXiv:2609.06107",
+      "paper_url": "https://arxiv.org/abs/2609.06107",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "DataFlex-RL evaluates 13 RLVR data-policy configurations under a common GRPO recipe and finds no reproducible gain over uniform sampling at matched precision. This is useful negative systems evidence for avoiding unnecessary rollout-selection complexity in reasoning post-training.",
+      "published_at": "2026-09-05T14:04:50Z",
+      "updated_at": "2026-09-05T14:04:50Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -24232,6 +24421,27 @@
         "MoE Systems / Accelerators",
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Dynamic Lagging for Simultaneous Translation",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / efficient reasoning / latency-controlled generation",
+      "arxiv": "2609.05799",
+      "doi": "",
+      "official_id": "arXiv:2609.05799",
+      "paper_url": "https://arxiv.org/abs/2609.05799",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Fine-tunes Qwen3-8B for prefix-aware simultaneous translation and uses a single training-free confidence threshold to trace a continuous quality-latency frontier that outperforms wait-k and suffix-deletion controls. This is directly relevant to latency-aware LLM decoding, though the abstract does not report a universal wall-clock speedup.",
+      "published_at": "2026-09-05T01:27:19Z",
+      "updated_at": "2026-09-05T01:27:19Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents"
       ]
     },
     {

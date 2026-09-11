@@ -1,6 +1,6 @@
 # 🆕 Latest 30 Days
 
-> Rolling 30-day view ending **2026-09-11**: **763 tracked papers = 184 P0 + 460 P1 + 119 P2**. Topical relevance determines visibility; quality determines priority. The classical census remains stricter.
+> Rolling 30-day view ending **2026-09-11**: **768 tracked papers = 184 P0 + 465 P1 + 119 P2**. Topical relevance determines visibility; quality determines priority. The classical census remains stricter.
 
 [← Paper Library](ALL_PAPERS.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/latest_30d.json) · [CSV](../data/latest_30d.csv)
 
@@ -287,6 +287,7 @@
 | **P1 · Watch** | **Router Prior Bias: Preserving Base Routing Structure in MoE Post-Training** | arXiv 2026 | MoE systems/accelerators / router post-training / expert co-activation | [Link](https://arxiv.org/abs/2609.08115) | — |
 | **P1 · Watch** | **Nyström Attention Matches Full Attention for Cross-Sectional Stock Prediction** | arXiv 2026 | efficient attention / low-rank attention / linear-complexity approximation | [Link](https://arxiv.org/abs/2609.08106) | — |
 | **P1 · Watch** | **Marigold V2: Revisiting Diffusion Transformers for Monocular Depth Estimation** | arXiv 2026 | diffusion/flow acceleration / dense vision / single-step inference | [Link](https://arxiv.org/abs/2609.08084) | [Repo](https://hf.co/spaces/huawei-bayerlab/marigold-v2-web) |
+| **P1 · Watch** | **Inference-Time Nash Alignment** | arXiv 2026 | efficient reasoning/agent systems / inference-time adaptation | [Link](https://arxiv.org/abs/2609.08082) | — |
 | **P1 · Watch** | **ResidualAuth: What Authorization State Must Language Agents Preserve under Revocable Delegation?** | arXiv 2026 | efficient reasoning/agent systems / agent memory / state compression | [Link](https://arxiv.org/abs/2609.08062) | — |
 | **P1 · Watch** | **Eliciting Self-Verification in Multimodal Reasoning Agents with Reinforcement Learning** | arXiv 2026 | efficient reasoning/agent systems / multimodal tool use / self-verification | [Link](https://arxiv.org/abs/2609.08025) | — |
 | **P1 · Watch** | **MetaKV: Adaptive KV Cache Compression for Constrained LLM Inference** | arXiv 2026 | KV cache/long-context / adaptive compression / constrained inference | [Link](https://arxiv.org/abs/2609.07966) | — |
@@ -335,6 +336,7 @@
 | **P1 · Watch** | **Characterizing Contention-Induced Reliability Collapse in KV-Cache Timing Side Channels for Multi-Tenant LLM Serving** | arXiv 2026 | KV cache/long-context / LLM serving / multi-tenant security characterization | [Link](https://arxiv.org/abs/2609.06853) | — |
 | **P1 · Watch** | **Diagnosing and Dynamically Filtering Occupancy World Models for Active Mapping** | arXiv 2026 | VLA/WAM/Physical AI serving / world-model runtime / active mapping / occupancy filtering | [Link](https://arxiv.org/abs/2609.06820) | — |
 | **P1 · Watch** | **BLINK: Batch Normalization-based Integrity Checkpoints for In-Situ Detection and Mitigation of Diverse Weight Corruptions in DNN Accelerators** | arXiv 2026 | edge/cloud/heterogeneous AI systems / accelerator reliability / runtime | [Link](https://arxiv.org/abs/2609.06781) | — |
+| **P1 · Watch** | **Companion-style QA Assistance in Ego-Vision** | arXiv 2026 | VLA/WAM/Physical AI serving / streaming video memory / egocentric agents | [Link](https://arxiv.org/abs/2609.06721) | — |
 | **P1 · Watch** | **Data Efficient Sample Selection for In-Context Learning** | arXiv 2026 | efficient reasoning/agent systems / in-context learning / sample selection | [Link](https://arxiv.org/abs/2609.06670) | — |
 | **P1 · Watch** | **ECOKV: Geometry-Aware KV Cache Eviction via Complementary Diversity Metrics** | arXiv 2026 | KV cache/long-context / multimodal MLLM serving / cache eviction | [Link](https://arxiv.org/abs/2609.06663) | — |
 | **P1 · Watch** | **VLA-Corrector: Stage-Aware Observable State Understanding for Prompt-Based Closed-Loop Recovery of Vision-Language-Action Policies** | arXiv 2026 | VLA/WAM/Physical AI serving / closed-loop recovery / runtime verifier | [Link](https://arxiv.org/abs/2609.06508) | — |
@@ -352,9 +354,11 @@
 | **P1 · Watch** | **MobileVLA-R1 2.0: RL-Enhanced Reasoning for Mobile Robot Control** | arXiv 2026 | VLA/WAM/Physical AI serving / mobile robot control / reasoning-action decoupling | [Link](https://arxiv.org/abs/2609.06251) | [Repo](https://github.com/AIGeeksGroup/MobileVLA-R1-2.0) |
 | **P1 · Watch** | **RefGuard: Identity-Aware Language-Guided Robot Manipulation via Joint Target-Anchor-Frame Grounding** | arXiv 2026 | VLA/WAM/Physical AI / deployment reliability / grounding / robot runtime | [Link](https://arxiv.org/abs/2609.06221) | — |
 | **P1 · Watch** | **From Splats to Silicon: Rethinking Computational Efficiency of 3DGS** | arXiv 2026 | GPU kernel/DSL/compilers / 3DGS acceleration / accelerator architecture | [Link](https://arxiv.org/abs/2609.06157) | — |
+| **P1 · Watch** | **Rethinking One-Shot Federated Graph Learning: Training-Free Statistical Estimation** | arXiv 2026 | distributed training/inference / training-free learning / communication efficiency | [Link](https://arxiv.org/abs/2609.06154) | — |
 | **P1 · Watch** | **Compressed Recurrent Feedback in Tsetlin Machines: A Reproducible Boolean-FSM Study** | arXiv 2026 | edge/cloud/heterogeneous AI systems / compact recurrent inference | [Link](https://arxiv.org/abs/2609.06133) | — |
 | **P1 · Watch** | **Protocol Compression Changes Which Party Pays: Bilateral Cost in Cross-Organization LLM Agent Communication** | arXiv 2026 | efficient reasoning/agent systems / agent communication / protocol compression / token cost | [Link](https://arxiv.org/abs/2609.06129) | — |
 | **P1 · Watch** | **Where Success Breaks: Failure-Boundary Learning for Robust Vision-Language-Action Models** | arXiv 2026 | VLA/WAM/Physical AI / robust adaptation / failure recovery | [Link](https://arxiv.org/abs/2609.06114) | — |
+| **P1 · Watch** | **DataFlex-RL: An Evaluation Platform for RLVR Data Policies** | arXiv 2026 | efficient reasoning/agent systems / RLVR training systems / data efficiency | [Link](https://arxiv.org/abs/2609.06107) | — |
 | **P1 · Watch** | **FANS: Federated Adaptive Network Search Learning for Heterogeneous Devices** | arXiv 2026 | edge/cloud/heterogeneous AI systems / federated learning / elastic models | [Link](https://arxiv.org/abs/2609.06106) | — |
 | **P1 · Watch** | **LayerRoute: Action-Conditioned Mixture-of-Layers Routing for Vision-Language-Action Policies** | arXiv 2026 | VLA/WAM/Physical AI serving / adaptive layer routing / cached VLM representations | [Link](https://arxiv.org/abs/2609.06079) | — |
 | **P1 · Watch** | **Beyond Retraining-Free MoE Compression: A Cost-Normalized Study of Post-Compression Adjustment** | arXiv 2026 | MoE systems/accelerators / compression / deployment memory / adjustment cost | [Link](https://arxiv.org/abs/2609.06076) | — |
@@ -374,6 +378,7 @@
 | **P1 · Watch** | **Map the Possibilities: Spatial Belief Fields for Language-Goal Aerial Navigation** | arXiv 2026 | VLA/WAM/Physical AI serving / closed-loop navigation / spatial memory | [Link](https://arxiv.org/abs/2609.05841) | — |
 | **P1 · Watch** | **Learning Counterfactual World Models for Embodied Reasoning under Partial Observability** | arXiv 2026 | VLA/WAM/Physical AI serving / world models / planning | [Link](https://arxiv.org/abs/2609.05834) | — |
 | **P1 · Watch** | **CR-VLA-Force: Learning Control-aware Compliance VLA Model for Robust Contact-rich Robotic Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving / multimodal MoE / reactive control | [Link](https://arxiv.org/abs/2609.05832) | — |
+| **P1 · Watch** | **Dynamic Lagging for Simultaneous Translation** | arXiv 2026 | LLM serving / efficient reasoning / latency-controlled generation | [Link](https://arxiv.org/abs/2609.05799) | — |
 | **P1 · Watch** | **Distilling Vision-Language Models for On-Device Fire Understanding** | arXiv 2026 | multimodal/MLLM serving / edge inference / VLM distillation | [Link](https://arxiv.org/abs/2609.05782) | — |
 | **P1 · Watch** | **Inference-Time Graph Engineering for Multi-Agent LLM Workflows** | arXiv 2026 | efficient reasoning/agent systems / multi-agent orchestration / inference-time workflow graphs | [Link](https://arxiv.org/abs/2609.05774) | — |
 | **P1 · Watch** | **RAGMark: A Comprehensive Framework for Benchmarking Retrieval-Augmented Generation Systems** | arXiv 2026 | LLM serving / RAG systems / benchmarking | [Link](https://arxiv.org/abs/2609.05760) | [Repo](https://github.com/zferic/RAGMark) |
