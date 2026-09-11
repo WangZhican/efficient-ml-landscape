@@ -2416,6 +2416,28 @@
     ]
   },
   {
+    "title": "A Voice-Interactive Multi-Agent System for Smart Operating Rooms: Architecture Design and Key Technologies",
+    "venue": "arXiv 2026",
+    "topic": "LLM serving / agent systems / KV cache / streaming execution",
+    "arxiv": "2609.11231",
+    "doi": "",
+    "official_id": "arXiv:2609.11231",
+    "paper_url": "https://arxiv.org/abs/2609.11231",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Implements Qwen3-27B with llama.cpp/SGLang and combines byte-level KV-prefix warming, streaming partial-JSON parsing with early parallel execution, and progressive skill-prompt disclosure. Prefix reuse reduces recomputation from about 500 ms to tens of milliseconds and streaming execution cuts end-to-end latency by about 30%. Domain deployment is surgical, but the runtime techniques are directly reusable LLM-serving mechanisms.",
+    "published_at": "2026-09-10T08:29:27Z",
+    "updated_at": "2026-09-10T08:29:27Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "A*-Thought-V2: Efficient Latent Reasoning via Geometric Dynamics of LLM",
     "venue": "arXiv 2026",
     "topic": "efficient reasoning/agent systems / latent reasoning / token compression / efficient training",
@@ -4552,10 +4574,10 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "PROMOTE_STRONG",
     "why": "This work symmetrically tunes both SparseBin and cuSPARSE baselines for SOM best-matching-unit search, using tiling, membership clustering, neuron-axis chunking and vectorized loads. The tuned kernel reaches 5.6-10.1x per-epoch improvement over the prior configuration and about 385x over the earlier CUDA implementation while reaching 77% of peak L2 bandwidth, making it a direct measured GPU-kernel optimization result.",
-    "published_at": "2026-09-04T13:38:42Z",
-    "updated_at": "2026-09-04T13:38:42Z",
-    "is_latest_30d": true,
-    "tracking_tier": "P0 · Strong",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
     "directions": [
       "Sparsity / Pruning",
       "GPU Kernel / DSL / Compiler",
@@ -5084,10 +5106,10 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "PROMOTE_STRONG",
     "why": "Uses a small open-weight draft model to score already-generated black-box agent trajectories in one forward pass and gate risky actions before execution. On Qwen3-Coder-480B and Claude 3.5 Sonnet software agents it reduces execution error by 6-8 percentage points and deployment token cost by 14-19%, including out-of-distribution transfer without retraining.",
-    "published_at": "2026-09-04T15:30:22Z",
-    "updated_at": "2026-09-04T15:30:22Z",
-    "is_latest_30d": true,
-    "tracking_tier": "P0 · Strong",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
     "directions": [
       "Speculative Decoding",
       "Efficient Reasoning / Agents"
@@ -5555,6 +5577,26 @@
     ]
   },
   {
+    "title": "LILA: Calibration-Free Structured Pruning of Large Language Models via Latent Spectral Geometry",
+    "venue": "arXiv 2026",
+    "topic": "sparsity/pruning / LLM compression / calibration-free structured pruning",
+    "arxiv": "2609.11163",
+    "doi": "",
+    "official_id": "arXiv:2609.11163",
+    "paper_url": "https://arxiv.org/abs/2609.11163",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Closed-form spectral neuron scoring requires no calibration data, gradients, training, or auxiliary policy network at pruning time. At 25% sparsity LILA beats PruneNet by 1.57 pp zero-shot accuracy and calibrated SliceGPT by up to 6.0 pp; NTK analysis reports 22x lower functional distortion than random pruning.",
+    "published_at": "2026-09-10T07:09:09Z",
+    "updated_at": "2026-09-10T07:09:09Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Sparsity / Pruning"
+    ]
+  },
+  {
     "title": "LiteRAG: Cost-Efficient Graph-Based Retrieval-Augmented Generation",
     "venue": "arXiv 2026",
     "topic": "LLM serving / RAG / retrieval efficiency / context reduction",
@@ -5617,6 +5659,27 @@
       "LLM Serving",
       "GPU Kernel / DSL / Compiler",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "LOCUS: Task-Aware Low-Rank Post-Training for Token-Efficient Language Generation",
+    "venue": "arXiv 2026",
+    "topic": "LLM serving / efficient reasoning / output-token reduction",
+    "arxiv": "2609.11739",
+    "doi": "",
+    "official_id": "arXiv:2609.11739",
+    "paper_url": "https://arxiv.org/abs/2609.11739",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Selects a task-aware low-rank post-training subspace that minimizes output-token cost under a utility constraint while updating only 0.24-0.28% of parameters. Continuation length falls by up to 39.84% on Pythia-2.8B and 14.87-17.58% on Qwen2.5-3B without material change in the internal preference diagnostic.",
+    "published_at": "2026-09-10T15:53:25Z",
+    "updated_at": "2026-09-10T15:53:25Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -7949,10 +8012,10 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "PROMOTE_STRONG",
     "why": "7d replay recovered a controlled agent-efficiency study showing that explicitly exposing memory and wall-time contracts changes generated program structure. Across three frontier-model cohorts, contract disclosure reduced measured peak memory in 13/14 aligned comparisons and mean wall time in all cohorts, with executions up to 3.1x faster; under a tighter budget, cohort mean MaxRSS and wall time fell 49-74% and 35-64%. This is direct evidence for substrate-aware agent planning as an efficiency mechanism.",
-    "published_at": "2026-09-04T14:57:17Z",
-    "updated_at": "2026-09-04T14:57:17Z",
-    "is_latest_30d": true,
-    "tracking_tier": "P0 · Strong",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
     "directions": [
       "Efficient Reasoning / Agents"
     ]
@@ -20190,10 +20253,10 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "BACKFILL_HIGH",
     "why": "ICML 2026 direct training-and-inference efficiency study. Proper layer dropout saves up to about 20% training FLOPs and enables post-training early-exit/layer-skipping/self-speculative decoding with up to about 1.4x inference speedup. ICML Downloads and author pages confirm acceptance.",
-    "published_at": "2026-09-04T15:30:47Z",
-    "updated_at": "2026-09-04T15:30:47Z",
-    "is_latest_30d": true,
-    "tracking_tier": "P0 · Strong",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
     "directions": [
       "Speculative Decoding",
       "Sparsity / Pruning",

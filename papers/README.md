@@ -1,10 +1,10 @@
 # 🧭 Research Map
 
-> **1780 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
+> **1783 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
 
 <div align="center">
 
-[**🆕 Latest 30 Days · 841 tracked**](LATEST_30D.md) · [**🏛️ Classical · 1598**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
+[**🆕 Latest 30 Days · 851 tracked**](LATEST_30D.md) · [**🏛️ Classical · 1602**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
 
 </div>
 
@@ -12,21 +12,21 @@
 
 | # | Research direction | Canonical | Latest 30d tracked |
 |---:|---|---:|---:|
-| 01 | [**LLM Serving**](01-llm-serving.md) | **785** | **534** |
-| 02 | [**Speculative Decoding**](02-speculative-decoding.md) | **207** | **32** |
-| 03 | [**KV Cache / Long Context**](03-kv-cache-long-context.md) | **434** | **105** |
-| 04 | [**Quantization**](04-quantization.md) | **240** | **114** |
-| 05 | [**Sparsity / Pruning**](05-sparsity-pruning.md) | **272** | **123** |
+| 01 | [**LLM Serving**](01-llm-serving.md) | **787** | **544** |
+| 02 | [**Speculative Decoding**](02-speculative-decoding.md) | **207** | **30** |
+| 03 | [**KV Cache / Long Context**](03-kv-cache-long-context.md) | **435** | **106** |
+| 04 | [**Quantization**](04-quantization.md) | **240** | **115** |
+| 05 | [**Sparsity / Pruning**](05-sparsity-pruning.md) | **273** | **123** |
 | 06 | [**Efficient Attention**](06-efficient-attention.md) | **251** | **83** |
-| 07 | [**MoE Systems / Accelerators**](07-moe-systems.md) | **133** | **49** |
+| 07 | [**MoE Systems / Accelerators**](07-moe-systems.md) | **133** | **50** |
 | 08 | [**GPU Kernel / DSL / Compiler**](08-gpu-kernel-compiler.md) | **458** | **157** |
-| 09 | [**Distributed Training / Inference**](09-distributed-training-inference.md) | **345** | **106** |
-| 10 | [**Multimodal / MLLM Serving**](10-multimodal-mllm-serving.md) | **219** | **140** |
+| 09 | [**Distributed Training / Inference**](09-distributed-training-inference.md) | **345** | **105** |
+| 10 | [**Multimodal / MLLM Serving**](10-multimodal-mllm-serving.md) | **219** | **143** |
 | 11 | [**Video / Image Generation**](11-video-image-generation.md) | **82** | **41** |
-| 12 | [**Diffusion / Flow Acceleration**](12-diffusion-flow.md) | **207** | **50** |
-| 13 | [**Efficient Reasoning / Agents**](13-efficient-reasoning-agents.md) | **320** | **217** |
-| 14 | [**VLA / WAM / Physical AI**](14-physical-ai-vla-wam.md) | **142** | **221** |
-| 15 | [**Edge / Cloud / Heterogeneous AI**](15-edge-cloud-heterogeneous.md) | **398** | **234** |
+| 12 | [**Diffusion / Flow Acceleration**](12-diffusion-flow.md) | **207** | **51** |
+| 13 | [**Efficient Reasoning / Agents**](13-efficient-reasoning-agents.md) | **322** | **220** |
+| 14 | [**VLA / WAM / Physical AI**](14-physical-ai-vla-wam.md) | **142** | **225** |
+| 15 | [**Edge / Cloud / Heterogeneous AI**](15-edge-cloud-heterogeneous.md) | **398** | **236** |
 
 > Counts are multi-label and therefore do not sum to the unique-paper total. A canonical paper can intentionally appear in several directions.
 

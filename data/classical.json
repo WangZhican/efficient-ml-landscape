@@ -3382,6 +3382,28 @@
     ]
   },
   {
+    "title": "From 80x to 385x: A Best-Matching-Unit Search at the L2 Roof, Measured Against a Symmetrically Tuned Baseline",
+    "venue": "arXiv 2026",
+    "topic": "GPU kernel/DSL/compilers / memory-bandwidth optimization / sparse search",
+    "arxiv": "2609.05138",
+    "doi": "",
+    "official_id": "arXiv:2609.05138",
+    "paper_url": "https://arxiv.org/abs/2609.05138",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "This work symmetrically tunes both SparseBin and cuSPARSE baselines for SOM best-matching-unit search, using tiling, membership clustering, neuron-axis chunking and vectorized loads. The tuned kernel reaches 5.6-10.1x per-epoch improvement over the prior configuration and about 385x over the earlier CUDA implementation while reaching 77% of peak L2 bandwidth, making it a direct measured GPU-kernel optimization result.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "GaLe: memory-efficient Global Approximate and Local Exact features",
     "venue": "arXiv 2026",
     "topic": "edge/cloud/heterogeneous AI systems / memory-efficient inference",
@@ -3635,6 +3657,27 @@
     "tracking_tier": "Canonical",
     "directions": [
       "KV Cache / Long Context"
+    ]
+  },
+  {
+    "title": "How to Speculate about Uncertainty in Agentic Coding? A Draft-Model Gate Method",
+    "venue": "arXiv 2026",
+    "topic": "efficient reasoning/agent systems / speculative methods / runtime gating / token cost",
+    "arxiv": "2609.05274",
+    "doi": "",
+    "official_id": "arXiv:2609.05274",
+    "paper_url": "https://arxiv.org/abs/2609.05274",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Uses a small open-weight draft model to score already-generated black-box agent trajectories in one forward pass and gate risky actions before execution. On Qwen3-Coder-480B and Claude 3.5 Sonnet software agents it reduces execution error by 6-8 percentage points and deployment token cost by 14-19%, including out-of-distribution transfer without retraining.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Speculative Decoding",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -5333,6 +5376,26 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "PROMOTE_STRONG",
     "why": "PreferenceEKF moves sequential Bayesian uncertainty inference into a low-dimensional parameter subspace instead of the full neural-network space. The primary paper reports better runtime/scalability/sample efficiency than Bayesian deep-learning baselines; paper results show up to about 40x runtime improvement over Last-Layer MCMC while maintaining competitive reward-model and downstream policy quality.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "Substrate-Aware AI Agents: Execution Context as a First-Class Input",
+    "venue": "arXiv 2026",
+    "topic": "efficient reasoning/agent systems / resource-aware code generation / runtime constraints",
+    "arxiv": "2609.05232",
+    "doi": "",
+    "official_id": "arXiv:2609.05232",
+    "paper_url": "https://arxiv.org/abs/2609.05232",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "7d replay recovered a controlled agent-efficiency study showing that explicitly exposing memory and wall-time contracts changes generated program structure. Across three frontier-model cohorts, contract disclosure reduced measured peak memory in 13/14 aligned comparisons and mean wall time in all cohorts, with executions up to 3.1x faster; under a tighter budget, cohort mean MaxRSS and wall time fell 49-74% and 35-64%. This is direct evidence for substrate-aware agent planning as an efficiency mechanism.",
     "published_at": "",
     "updated_at": "",
     "is_latest_30d": false,
@@ -17265,6 +17328,28 @@
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context"
+    ]
+  },
+  {
+    "title": "Don't Drop Dropout: Optimizing Layer Sparsity for Efficient LLM Training and Inference",
+    "venue": "ICML 2026",
+    "topic": "LLM training efficiency / layer sparsity / early exit / self-speculative decoding",
+    "arxiv": "2609.05275",
+    "doi": "",
+    "official_id": "arXiv:2609.05275",
+    "paper_url": "https://arxiv.org/abs/2609.05275",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICML 2026 direct training-and-inference efficiency study. Proper layer dropout saves up to about 20% training FLOPs and enables post-training early-exit/layer-skipping/self-speculative decoding with up to about 1.4x inference speedup. ICML Downloads and author pages confirm acceptance.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Speculative Decoding",
+      "Sparsity / Pruning",
+      "Distributed Training / Inference"
     ]
   },
   {
