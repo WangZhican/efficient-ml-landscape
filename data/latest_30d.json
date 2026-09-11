@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-11",
   "window_start_beijing": "2026-08-12",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 730,
+  "tracked_total": 736,
   "p0_strong_or_canonical": [
     {
       "title": "HybridFLow: SDN-Orchestrated Client Partitioning for Hybrid Federated Learning",
@@ -4217,6 +4217,26 @@
       ]
     },
     {
+      "title": "RiLM: Parameter-Efficient Language Modeling via Geodesic Decoding",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / compact language models / parameter efficiency",
+      "arxiv": "2609.10305",
+      "doi": "",
+      "official_id": "arXiv:2609.10305",
+      "paper_url": "https://arxiv.org/abs/2609.10305",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "RiLM removes the conventional output projection by sharing the token embedding geometry for input and geodesic decoding, targeting sub-million-parameter language models for edge deployment. The controlled results are interesting parameter-efficiency evidence, but the work is small-model focused and lacks wall-clock or energy measurements.",
+      "published_at": "2026-09-09T15:16:31Z",
+      "updated_at": "2026-09-09T15:16:31Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "TRACE: Trajectory-robust Admission with Evidence Ordering for Efficient GUI Agents",
       "venue": "arXiv 2026",
       "topic": "efficient reasoning/agent systems / multimodal serving / KV cache / token pruning",
@@ -5724,6 +5744,28 @@
         "Quantization",
         "Multimodal / MLLM Serving",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "MicroIntent: Intent-Based Placement Strategy for Microservice Application in the Compute Continuum Using LLMs",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / compute continuum / LLM placement",
+      "arxiv": "2609.07927",
+      "doi": "",
+      "official_id": "arXiv:2609.07927",
+      "paper_url": "https://arxiv.org/abs/2609.07927",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "MicroIntent uses LLMs to translate high-level business intent into placement decisions across a geographically distributed compute continuum. It is relevant to cloud-edge orchestration and heterogeneous serving, but current evidence is about placement usability/decision quality rather than AI inference throughput or energy.",
+      "published_at": "2026-09-07T19:40:58Z",
+      "updated_at": "2026-09-07T19:40:58Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -7404,6 +7446,27 @@
       ]
     },
     {
+      "title": "Design Docs Are All You Need: An AI-native Machine-Learning Performance Tool",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / ML performance modeling / agentic tooling",
+      "arxiv": "2609.05364",
+      "doi": "",
+      "official_id": "arXiv:2609.05364",
+      "paper_url": "https://arxiv.org/abs/2609.05364",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "SMART stores a DAG of design documents and uses coding agents to regenerate an ML-system performance-modeling library as hardware/model assumptions change. It is relevant AI-infra tooling for rapidly evolving accelerator/software stacks, but it is a performance-modeling workflow rather than a direct inference/training acceleration method.",
+      "published_at": "2026-09-04T17:08:51Z",
+      "updated_at": "2026-09-04T17:08:51Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "MEOX: Compact Multimodal Mixture-of-Experts for Earth Observation",
       "venue": "arXiv 2026",
       "topic": "MoE systems/accelerators / compact multimodal MoE / parameter efficiency",
@@ -7599,6 +7662,29 @@
       "directions": [
         "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Cross-Domain Tracker Adaptation Without Target-Domain Labels via Vision-Language Agents",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / vision-language agents / online perception adaptation",
+      "arxiv": "2609.05239",
+      "doi": "",
+      "official_id": "arXiv:2609.05239",
+      "paper_url": "https://arxiv.org/abs/2609.05239",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "A VLM diagnostic agent inspects tracking failures and iteratively adjusts a detect-to-track pipeline without target-domain labels, recovering a substantial fraction of oracle adaptation performance. It is protected Physical-AI runtime adaptation evidence, but it does not primarily optimize inference compute or latency.",
+      "published_at": "2026-09-04T15:05:22Z",
+      "updated_at": "2026-09-04T15:05:22Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -7811,6 +7897,26 @@
         "LLM Serving",
         "Quantization",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "TROVE: Adaptive Agent Skill Orchestration via Trace-Grounded Route Validation and Editing",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / adaptive orchestration / compute avoidance",
+      "arxiv": "2609.05019",
+      "doi": "",
+      "official_id": "arXiv:2609.05019",
+      "paper_url": "https://arxiv.org/abs/2609.05019",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "TROVE preserves valid workflow fragments and revises only execution steps invalidated by new runtime evidence, explicitly targeting wasted computation from stale plans and broad replanning. This is a useful agent-runtime adaptive-compute pattern, but the abstract does not provide a clean latency/token/cost reduction ratio.",
+      "published_at": "2026-09-04T11:38:13Z",
+      "updated_at": "2026-09-04T11:38:13Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -8110,6 +8216,26 @@
       "directions": [
         "Quantization",
         "Distributed Training / Inference",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "CPR-IE:A Compression-Prediction-Resource Intelligence Efficiency Metric",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / efficiency metric / deployment evaluation",
+      "arxiv": "2609.04809",
+      "doi": "",
+      "official_id": "arXiv:2609.04809",
+      "paper_url": "https://arxiv.org/abs/2609.04809",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "CPR-IE proposes a deployment-oriented efficiency ordering that jointly accounts for compression, predictive quality and resource burden, with unit-invariant aggregation. It is useful as an evaluation lens for Efficient-ML comparisons, but it is a metric/protocol rather than an optimization technique.",
+      "published_at": "2026-09-04T07:06:21Z",
+      "updated_at": "2026-09-04T07:06:21Z",
+      "is_latest_30d": true,
+      "directions": [
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -20013,6 +20139,26 @@
       ]
     },
     {
+      "title": "RiLM: Parameter-Efficient Language Modeling via Geodesic Decoding",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / compact language models / parameter efficiency",
+      "arxiv": "2609.10305",
+      "doi": "",
+      "official_id": "arXiv:2609.10305",
+      "paper_url": "https://arxiv.org/abs/2609.10305",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "RiLM removes the conventional output projection by sharing the token embedding geometry for input and geodesic decoding, targeting sub-million-parameter language models for edge deployment. The controlled results are interesting parameter-efficiency evidence, but the work is small-model focused and lacks wall-clock or energy measurements.",
+      "published_at": "2026-09-09T15:16:31Z",
+      "updated_at": "2026-09-09T15:16:31Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "TRACE: Trajectory-robust Admission with Evidence Ordering for Efficient GUI Agents",
       "venue": "arXiv 2026",
       "topic": "efficient reasoning/agent systems / multimodal serving / KV cache / token pruning",
@@ -21520,6 +21666,28 @@
         "Quantization",
         "Multimodal / MLLM Serving",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "MicroIntent: Intent-Based Placement Strategy for Microservice Application in the Compute Continuum Using LLMs",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / compute continuum / LLM placement",
+      "arxiv": "2609.07927",
+      "doi": "",
+      "official_id": "arXiv:2609.07927",
+      "paper_url": "https://arxiv.org/abs/2609.07927",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "MicroIntent uses LLMs to translate high-level business intent into placement decisions across a geographically distributed compute continuum. It is relevant to cloud-edge orchestration and heterogeneous serving, but current evidence is about placement usability/decision quality rather than AI inference throughput or energy.",
+      "published_at": "2026-09-07T19:40:58Z",
+      "updated_at": "2026-09-07T19:40:58Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -23200,6 +23368,27 @@
       ]
     },
     {
+      "title": "Design Docs Are All You Need: An AI-native Machine-Learning Performance Tool",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / ML performance modeling / agentic tooling",
+      "arxiv": "2609.05364",
+      "doi": "",
+      "official_id": "arXiv:2609.05364",
+      "paper_url": "https://arxiv.org/abs/2609.05364",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "SMART stores a DAG of design documents and uses coding agents to regenerate an ML-system performance-modeling library as hardware/model assumptions change. It is relevant AI-infra tooling for rapidly evolving accelerator/software stacks, but it is a performance-modeling workflow rather than a direct inference/training acceleration method.",
+      "published_at": "2026-09-04T17:08:51Z",
+      "updated_at": "2026-09-04T17:08:51Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "MEOX: Compact Multimodal Mixture-of-Experts for Earth Observation",
       "venue": "arXiv 2026",
       "topic": "MoE systems/accelerators / compact multimodal MoE / parameter efficiency",
@@ -23395,6 +23584,29 @@
       "directions": [
         "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Cross-Domain Tracker Adaptation Without Target-Domain Labels via Vision-Language Agents",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / vision-language agents / online perception adaptation",
+      "arxiv": "2609.05239",
+      "doi": "",
+      "official_id": "arXiv:2609.05239",
+      "paper_url": "https://arxiv.org/abs/2609.05239",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "A VLM diagnostic agent inspects tracking failures and iteratively adjusts a detect-to-track pipeline without target-domain labels, recovering a substantial fraction of oracle adaptation performance. It is protected Physical-AI runtime adaptation evidence, but it does not primarily optimize inference compute or latency.",
+      "published_at": "2026-09-04T15:05:22Z",
+      "updated_at": "2026-09-04T15:05:22Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -23607,6 +23819,26 @@
         "LLM Serving",
         "Quantization",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "TROVE: Adaptive Agent Skill Orchestration via Trace-Grounded Route Validation and Editing",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / adaptive orchestration / compute avoidance",
+      "arxiv": "2609.05019",
+      "doi": "",
+      "official_id": "arXiv:2609.05019",
+      "paper_url": "https://arxiv.org/abs/2609.05019",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "TROVE preserves valid workflow fragments and revises only execution steps invalidated by new runtime evidence, explicitly targeting wasted computation from stale plans and broad replanning. This is a useful agent-runtime adaptive-compute pattern, but the abstract does not provide a clean latency/token/cost reduction ratio.",
+      "published_at": "2026-09-04T11:38:13Z",
+      "updated_at": "2026-09-04T11:38:13Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -23906,6 +24138,26 @@
       "directions": [
         "Quantization",
         "Distributed Training / Inference",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "CPR-IE:A Compression-Prediction-Resource Intelligence Efficiency Metric",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / efficiency metric / deployment evaluation",
+      "arxiv": "2609.04809",
+      "doi": "",
+      "official_id": "arXiv:2609.04809",
+      "paper_url": "https://arxiv.org/abs/2609.04809",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "CPR-IE proposes a deployment-oriented efficiency ordering that jointly accounts for compression, predictive quality and resource burden, with unit-invariant aggregation. It is useful as an evaluation lens for Efficient-ML comparisons, but it is a metric/protocol rather than an optimization technique.",
+      "published_at": "2026-09-04T07:06:21Z",
+      "updated_at": "2026-09-04T07:06:21Z",
+      "is_latest_30d": true,
+      "directions": [
         "Edge / Cloud / Heterogeneous AI"
       ]
     },

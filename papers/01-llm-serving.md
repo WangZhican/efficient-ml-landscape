@@ -1,10 +1,10 @@
 # 01 · LLM Serving
 
-> **766 canonical papers** mapped here, plus a broader **470-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **766 canonical papers** mapped here, plus a broader **472-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 470 tracked
+## 🆕 Latest 30 Days · 472 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -87,6 +87,7 @@
 | **P0 · Strong** | **mjorbit: A Simulation Framework for Space Robotics** | arXiv 2026 | VLA/WAM/Physical AI serving / robotics runtime / GPU simulation | [Link](https://arxiv.org/abs/2609.08010) | [Repo](https://johnzhang3.github.io/mjorbit/) |
 | **P1 · Watch** | **Streaming Hierarchical Inference with Tabular Foundation Models** | arXiv 2026 | edge/cloud/heterogeneous AI systems / hierarchical inference / selective offloading | [Link](https://arxiv.org/abs/2609.07956) | — |
 | **P1 · Watch** | **ReactVAU: A Slow-Fast Decoupled Framework for Streaming Video Anomaly Understanding** | arXiv 2026 | multimodal/MLLM serving / streaming video / conditional MLLM invocation / persistent memory | [Link](https://arxiv.org/abs/2609.07941) | — |
+| **P1 · Watch** | **MicroIntent: Intent-Based Placement Strategy for Microservice Application in the Compute Continuum Using LLMs** | arXiv 2026 | edge/cloud/heterogeneous AI systems / compute continuum / LLM placement | [Link](https://arxiv.org/abs/2609.07927) | — |
 | **P1 · Watch** | **FrogNano: Training a 4B Coding Agent via Online Task Synthesis** | arXiv 2026 | efficient reasoning/agent systems / small coding agents / resource-constrained deployment | [Link](https://arxiv.org/abs/2609.07925) | — |
 | **P1 · Watch** | **Quantization Amplifies Determinism, Not Bias: Scale-Dependent Behavioral Effects of Serving-Time Weight Compression** | arXiv 2026 | quantization / LLM serving / behavioral fidelity | [Link](https://arxiv.org/abs/2609.07901) | — |
 | **P0 · Strong** | **Deadline-Aware Adaptive Prefill Chunking for Efficient Large Language Model Serving** | arXiv 2026 | LLM serving / chunked prefill / SLO scheduling / goodput | [Link](https://arxiv.org/abs/2609.07883) | — |
@@ -172,6 +173,7 @@
 | **P1 · Watch** | **Temporal Tactile Encoding and Compliance for Intent-Aware Robot-to-Human Bimanual Handover** | arXiv 2026 | VLA/WAM/Physical AI serving / multimodal VLA / tactile control | [Link](https://arxiv.org/abs/2609.05282) | — |
 | **P1 · Watch** | **One Word, Different Action: A Real-Robot Benchmark for Language-Conditioned Embodied Reasoning** | arXiv 2026 | VLA/WAM/Physical AI serving / real-robot benchmark / language-conditioned action reasoning | [Link](https://arxiv.org/abs/2609.05260) | — |
 | **P1 · Watch** | **Compact Neural Appearance Models for Efficient Gaussian Splatting** | arXiv 2026 | VLA/WAM/Physical AI / 3DGS / compact appearance representation / CUDA rendering | [Link](https://arxiv.org/abs/2609.05255) | — |
+| **P1 · Watch** | **Cross-Domain Tracker Adaptation Without Target-Domain Labels via Vision-Language Agents** | arXiv 2026 | VLA/WAM/Physical AI serving / vision-language agents / online perception adaptation | [Link](https://arxiv.org/abs/2609.05239) | — |
 | **P1 · Watch** | **LIBERO-RECOVER: Beyond Task Success Towards Failure Recovery in Robotic Manipulation Models** | arXiv 2026 | VLA/WAM/Physical AI / evaluation / failure recovery / robustness | [Link](https://arxiv.org/abs/2609.05178) | [Repo](https://liulin815.github.io/LIBERO-Recovery/) |
 | **P1 · Watch** | **APEX-RBD: Mixed-Precision Exploration Framework for Hardware-Efficient Robot Dynamics Accelerator Design** | arXiv 2026 | VLA/WAM/Physical AI serving / robot accelerator / mixed precision / edge hardware | [Link](https://arxiv.org/abs/2609.05161) | — |
 | **P1 · Watch** | **Compression Beyond the Uncompressed: A Two-Stage Training Recipe for Soft Context Compression in RAG** | arXiv 2026 | LLM serving / RAG / soft context compression / inference efficiency | [Link](https://arxiv.org/abs/2609.05157) | — |

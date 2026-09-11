@@ -1,10 +1,10 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **389 canonical papers** mapped here, plus a broader **211-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **389 canonical papers** mapped here, plus a broader **214-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 211 tracked
+## 🆕 Latest 30 Days · 214 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -12,6 +12,7 @@
 | **P0 · Strong** | **HybridFLow: SDN-Orchestrated Client Partitioning for Hybrid Federated Learning** | arXiv 2026 | distributed training / edge-cloud / federated learning / network-aware scheduling | [Link](https://arxiv.org/abs/2609.10404) | — |
 | **P0 · Strong** | **PACE: Perceived-Latency-Aware Cascading Service Routing and Filler Control for QoE-Efficient Retrieval-Augmented Dialogue Serving** | arXiv 2026 | LLM serving / RAG serving / Physical AI cloud-edge runtime / dialogue systems | [Link](https://arxiv.org/abs/2609.10372) | — |
 | **P0 · Strong** | **Stencil Computation at the Intersection of AI and HPC** | arXiv 2026 | GPU kernel/DSL/compilers / tensor compiler / heterogeneous GPU / HPC-AI convergence | [Link](https://arxiv.org/abs/2609.10368) | — |
+| **P1 · Watch** | **RiLM: Parameter-Efficient Language Modeling via Geodesic Decoding** | arXiv 2026 | edge/cloud/heterogeneous AI systems / compact language models / parameter efficiency | [Link](https://arxiv.org/abs/2609.10305) | — |
 | **P0 · Strong** | **Maverick: Private and Verifiable LLM Inference Made Practical via Matrix-Vector Multiplication Delegation** | arXiv 2026 | LLM serving / private inference / verifiable delegation / heterogeneous offload | [Link](https://arxiv.org/abs/2609.10264) | — |
 | **P1 · Watch** | **CEDD-optimizer: Enabling Cost-Efficient Dataset Distillation on Geographically Distributed Edge Systems** | arXiv 2026 | edge/cloud/heterogeneous AI systems / distributed dataset distillation / cost optimization | [Link](https://arxiv.org/abs/2609.10151) | — |
 | **P1 · Watch** | **Storage-Scalable Progressive Semantic Communication via Knowledge-Base Reuse** | arXiv 2026 | edge/cloud/heterogeneous AI systems / semantic communication / storage efficiency | [Link](https://arxiv.org/abs/2609.10112) | — |
@@ -42,6 +43,7 @@
 | **P1 · Watch** | **Agentic ML Exploration (A-MLE) for Ads Ranking** | arXiv 2026 | efficient reasoning/agent systems / ML infrastructure / autonomous experimentation / industrial ranking | [Link](https://arxiv.org/abs/2609.08248) | — |
 | **P0 · Strong** | **SemBridge: Compiling Consumer Observations into Cross-Stack Communication Plans** | arXiv 2026 | distributed training/inference / compiler / heterogeneous communication | [Link](https://arxiv.org/abs/2609.08231) | — |
 | **P1 · Watch** | **Streaming Hierarchical Inference with Tabular Foundation Models** | arXiv 2026 | edge/cloud/heterogeneous AI systems / hierarchical inference / selective offloading | [Link](https://arxiv.org/abs/2609.07956) | — |
+| **P1 · Watch** | **MicroIntent: Intent-Based Placement Strategy for Microservice Application in the Compute Continuum Using LLMs** | arXiv 2026 | edge/cloud/heterogeneous AI systems / compute continuum / LLM placement | [Link](https://arxiv.org/abs/2609.07927) | — |
 | **P1 · Watch** | **JEDI: JEPA-to-Edge Distillation for Efficient Cropland Segmentation from Satellite Imagery** | arXiv 2026 | edge/cloud/heterogeneous AI systems / distillation / compact vision | [Link](https://arxiv.org/abs/2609.07915) | — |
 | **P1 · Watch** | **Interactive Debugger for Performance Portable Python HPC Kernels** | arXiv 2026 | GPU kernel/DSL/compilers / Python HPC / developer tooling | [Link](https://arxiv.org/abs/2609.07912) | — |
 | **P1 · Watch** | **The OCUDU dApp Platform: An Open Runtime and E3 Interface for Real-Time AI-RAN** | arXiv 2026 | edge/cloud/heterogeneous AI systems / real-time AI-RAN / GPU runtime / edge orchestration | [Link](https://arxiv.org/abs/2609.07843) | — |
@@ -91,6 +93,7 @@
 | **P1 · Watch** | **ReCAST: Restoration-aware Cascaded Stage-wise Training for Obfuscated SMS Risk Classification** | arXiv 2026 | edge/cloud/heterogeneous AI systems / distillation / deployable small models | [Link](https://arxiv.org/abs/2609.04878) | — |
 | **P1 · Watch** | **Coupled Control and Wireless World Models for Resilient Remote Robotic Control** | arXiv 2026 | VLA/WAM/Physical AI serving / cloud-edge robotics / communication-aware world models | [Link](https://arxiv.org/abs/2609.04851) | — |
 | **P1 · Watch** | **Communication-Efficient Personalized Federated Learning via Layer-Wise Multi-Threshold Random Sketching** | arXiv 2026 | edge/cloud/heterogeneous AI systems / federated learning / communication compression / low-bit sketching | [Link](https://arxiv.org/abs/2609.04830) | — |
+| **P1 · Watch** | **CPR-IE:A Compression-Prediction-Resource Intelligence Efficiency Metric** | arXiv 2026 | edge/cloud/heterogeneous AI systems / efficiency metric / deployment evaluation | [Link](https://arxiv.org/abs/2609.04809) | — |
 | **P1 · Watch** | **Diffusion Language Models for Mobile Edge Agentic AI: Foundations, Applications, and Challenges** | arXiv 2026 | efficient reasoning/agent systems / diffusion language models / edge-cloud serving / mobile edge AI | [Link](https://arxiv.org/abs/2609.04778) | — |
 | **P0 · Strong** | **LUMIN: Lightweight Universal Manufacturing Inspection Network for Anomaly Detection** | arXiv 2026 | edge/cloud/heterogeneous AI systems / efficient inference / memory bank | [Link](https://arxiv.org/abs/2609.04775) | — |
 | **P1 · Watch** | **Resilience Beyond Stationary Client Unavailability: Unlocking Efficient and Unbiased Federated Learning** | arXiv 2026 | edge/cloud/heterogeneous AI systems / federated learning / dynamic availability | [Link](https://arxiv.org/abs/2609.04763) | — |

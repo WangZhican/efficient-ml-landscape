@@ -1,10 +1,10 @@
 # 14 · VLA / WAM / Physical AI
 
-> **139 canonical papers** mapped here, plus a broader **180-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **139 canonical papers** mapped here, plus a broader **181-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 180 tracked
+## 🆕 Latest 30 Days · 181 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -82,6 +82,7 @@
 | **P1 · Watch** | **One Word, Different Action: A Real-Robot Benchmark for Language-Conditioned Embodied Reasoning** | arXiv 2026 | VLA/WAM/Physical AI serving / real-robot benchmark / language-conditioned action reasoning | [Link](https://arxiv.org/abs/2609.05260) | — |
 | **P1 · Watch** | **Compact Neural Appearance Models for Efficient Gaussian Splatting** | arXiv 2026 | VLA/WAM/Physical AI / 3DGS / compact appearance representation / CUDA rendering | [Link](https://arxiv.org/abs/2609.05255) | — |
 | **P1 · Watch** | **Proton Irradiation Characterization of an Open-Source ML Accelerator on a Zynq UltraScale+ MPSoC** | arXiv 2026 | edge/cloud/heterogeneous AI systems / Physical AI / FPGA accelerator reliability | [Link](https://arxiv.org/abs/2609.05249) | — |
+| **P1 · Watch** | **Cross-Domain Tracker Adaptation Without Target-Domain Labels via Vision-Language Agents** | arXiv 2026 | VLA/WAM/Physical AI serving / vision-language agents / online perception adaptation | [Link](https://arxiv.org/abs/2609.05239) | — |
 | **P1 · Watch** | **LIBERO-RECOVER: Beyond Task Success Towards Failure Recovery in Robotic Manipulation Models** | arXiv 2026 | VLA/WAM/Physical AI / evaluation / failure recovery / robustness | [Link](https://arxiv.org/abs/2609.05178) | [Repo](https://liulin815.github.io/LIBERO-Recovery/) |
 | **P1 · Watch** | **APEX-RBD: Mixed-Precision Exploration Framework for Hardware-Efficient Robot Dynamics Accelerator Design** | arXiv 2026 | VLA/WAM/Physical AI serving / robot accelerator / mixed precision / edge hardware | [Link](https://arxiv.org/abs/2609.05161) | — |
 | **P1 · Watch** | **A Schema Bounded Language Model for Refining Robot Policies Without Destabilizing Local Learning** | arXiv 2026 | VLA/WAM/Physical AI serving / hierarchical agent runtime / decentralized robot control | [Link](https://arxiv.org/abs/2609.05133) | — |

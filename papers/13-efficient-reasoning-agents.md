@@ -1,10 +1,10 @@
 # 13 · Efficient Reasoning / Agents
 
-> **317 canonical papers** mapped here, plus a broader **178-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **317 canonical papers** mapped here, plus a broader **181-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 178 tracked
+## 🆕 Latest 30 Days · 181 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -90,13 +90,16 @@
 | **P0 · Strong** | **SceneMosaic: Efficient and Diverse Simulation-Ready Scene Generation via Hybrid Agentic Layout Evolution** | arXiv 2026 | VLA/WAM/Physical AI serving / simulation infrastructure / agentic generation | [Link](https://arxiv.org/abs/2609.05594) | [Repo](https://github.com/rxjfighting/SceneMosaic) |
 | **P0 · Strong** | **CUA-Universe: A Scalable and Dynamic Environment for Hybrid GUI+CLI Agents** | arXiv 2026 | efficient reasoning/agent systems / computer-use agents / GUI+CLI runtime / trajectory efficiency | [Link](https://arxiv.org/abs/2609.05374) | — |
 | **P1 · Watch** | **Towards Neuro-Symbolic Procedural Reasoning for Long-Horizon Vision-Language-Action Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving / long-horizon VLA / procedural memory | [Link](https://arxiv.org/abs/2609.05369) | — |
+| **P1 · Watch** | **Design Docs Are All You Need: An AI-native Machine-Learning Performance Tool** | arXiv 2026 | GPU kernel/DSL/compilers / ML performance modeling / agentic tooling | [Link](https://arxiv.org/abs/2609.05364) | — |
 | **P0 · Strong** | **Distill Globally, Adapt Locally: Reasoning Distillation and Product-Type Test-Time Training for Scalable Trade-Up Recommendation** | arXiv 2026 | efficient reasoning/agent systems / distillation / scalable inference | [Link](https://arxiv.org/abs/2609.05363) | — |
 | **P1 · Watch** | **RoboSPA: Can VLA Models Go Beyond Simple Scenes and Short-Horizon Tasks?** | arXiv 2026 | VLA/WAM/Physical AI serving / benchmark / long-horizon embodied reasoning | [Link](https://arxiv.org/abs/2609.05324) | [Repo](https://github.com/fanzhenxuan/RoboSPA) |
 | **P1 · Watch** | **Testing Interchangeability in LLM Agent Teams** | arXiv 2026 | efficient reasoning/agent systems / multi-agent communication / coordination cost | [Link](https://arxiv.org/abs/2609.05279) | — |
 | **P0 · Strong** | **How to Speculate about Uncertainty in Agentic Coding? A Draft-Model Gate Method** | arXiv 2026 | efficient reasoning/agent systems / speculative methods / runtime gating / token cost | [Link](https://arxiv.org/abs/2609.05274) | — |
 | **P1 · Watch** | **One Word, Different Action: A Real-Robot Benchmark for Language-Conditioned Embodied Reasoning** | arXiv 2026 | VLA/WAM/Physical AI serving / real-robot benchmark / language-conditioned action reasoning | [Link](https://arxiv.org/abs/2609.05260) | — |
+| **P1 · Watch** | **Cross-Domain Tracker Adaptation Without Target-Domain Labels via Vision-Language Agents** | arXiv 2026 | VLA/WAM/Physical AI serving / vision-language agents / online perception adaptation | [Link](https://arxiv.org/abs/2609.05239) | — |
 | **P0 · Strong** | **Substrate-Aware AI Agents: Execution Context as a First-Class Input** | arXiv 2026 | efficient reasoning/agent systems / resource-aware code generation / runtime constraints | [Link](https://arxiv.org/abs/2609.05232) | — |
 | **P1 · Watch** | **A Schema Bounded Language Model for Refining Robot Policies Without Destabilizing Local Learning** | arXiv 2026 | VLA/WAM/Physical AI serving / hierarchical agent runtime / decentralized robot control | [Link](https://arxiv.org/abs/2609.05133) | — |
+| **P1 · Watch** | **TROVE: Adaptive Agent Skill Orchestration via Trace-Grounded Route Validation and Editing** | arXiv 2026 | efficient reasoning/agent systems / adaptive orchestration / compute avoidance | [Link](https://arxiv.org/abs/2609.05019) | — |
 | **P0 · Strong** | **BeaconKV: Key-Value Cache Compression Guided by Beacon Queries for Efficient Large Reasoning Model Inference** | ICML 2026 | KV cache / long reasoning / training-free compression | [Link](https://arxiv.org/abs/2609.04971) | [Repo](https://github.com/aiha-lab/BeaconKV) |
 | **P1 · Watch** | **EnvCraft: Synthesizing Executable Environments in Agentic RL for Claw-like Agent** | arXiv 2026 | efficient reasoning/agent systems / agentic RL / executable environments / training infrastructure | [Link](https://arxiv.org/abs/2609.05576) | — |
 | **P1 · Watch** | **MCPO: Modality-Contrastive Preference Optimization for Multimodal Chain-of-Thought Compression** | arXiv 2026 | efficient reasoning/agent systems / multimodal reasoning / CoT compression / KV pressure | [Link](https://arxiv.org/abs/2609.04947) | — |

@@ -1,10 +1,10 @@
 # 08 · GPU Kernel / DSL / Compiler
 
-> **455 canonical papers** mapped here, plus a broader **151-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **455 canonical papers** mapped here, plus a broader **152-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 151 tracked
+## 🆕 Latest 30 Days · 152 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -65,6 +65,7 @@
 | **P1 · Watch** | **RAGMark: A Comprehensive Framework for Benchmarking Retrieval-Augmented Generation Systems** | arXiv 2026 | LLM serving / RAG systems / benchmarking | [Link](https://arxiv.org/abs/2609.05760) | [Repo](https://github.com/zferic/RAGMark) |
 | **P0 · Strong** | **From Monolithic Blending to Agentic Orchestration: Dynamic Response for Conversational Assistants at Scale** | arXiv 2026 | efficient reasoning/agent systems / production conversational serving / orchestration / GPU footprint | [Link](https://arxiv.org/abs/2609.05758) | — |
 | **P0 · Strong** | **DejaVu: Unifying Memory Allocations to Eliminate Redundant Copies on Unified-Memory SoCs** | arXiv 2026 | edge/cloud/heterogeneous AI systems / UMA / compiler-runtime memory optimization | [Link](https://arxiv.org/abs/2609.05635) | — |
+| **P1 · Watch** | **Design Docs Are All You Need: An AI-native Machine-Learning Performance Tool** | arXiv 2026 | GPU kernel/DSL/compilers / ML performance modeling / agentic tooling | [Link](https://arxiv.org/abs/2609.05364) | — |
 | **P0 · Strong** | **Distill Globally, Adapt Locally: Reasoning Distillation and Product-Type Test-Time Training for Scalable Trade-Up Recommendation** | arXiv 2026 | efficient reasoning/agent systems / distillation / scalable inference | [Link](https://arxiv.org/abs/2609.05363) | — |
 | **P1 · Watch** | **Compact Neural Appearance Models for Efficient Gaussian Splatting** | arXiv 2026 | VLA/WAM/Physical AI / 3DGS / compact appearance representation / CUDA rendering | [Link](https://arxiv.org/abs/2609.05255) | — |
 | **P0 · Strong** | **From 80x to 385x: A Best-Matching-Unit Search at the L2 Roof, Measured Against a Symmetrically Tuned Baseline** | arXiv 2026 | GPU kernel/DSL/compilers / memory-bandwidth optimization / sparse search | [Link](https://arxiv.org/abs/2609.05138) | — |
