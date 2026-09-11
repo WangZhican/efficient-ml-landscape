@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-12",
   "window_start_beijing": "2026-08-13",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 879,
+  "tracked_total": 881,
   "p0_strong_or_canonical": [
     {
       "title": "AccelForge: Comprehensive Modeling and Co-Design Framework for AI Accelerators",
@@ -4423,6 +4423,28 @@
       ]
     },
     {
+      "title": "SwarmNxt: Open-source Software-Hardware Platform for Fast and Agile Aerial Swarms",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / runtime infrastructure",
+      "arxiv": "2609.11382",
+      "doi": "",
+      "official_id": "arXiv:2609.11382",
+      "paper_url": "https://arxiv.org/abs/2609.11382",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "open-source software-hardware/ROS2 multi-agent runtime with onboard perception, planning and control for physical swarm experimentation",
+      "published_at": "2026-09-10T11:17:20Z",
+      "updated_at": "2026-09-10T11:17:20Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Taming Bitwise Behavior in GPU Kernels with Tensor Core: Black-Box Reconstruction, Compiler Enforcement, and Static Verification",
       "venue": "arXiv 2026",
       "topic": "GPU kernel/DSL/compilers / tensor core / deterministic kernels",
@@ -4506,6 +4528,26 @@
         "LLM Serving",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Uncertainty DMD: Restoring Diversity in Few-Step Autoregressive Video Distillation",
+      "venue": "arXiv 2026",
+      "topic": "video/image generation acceleration",
+      "arxiv": "2609.11265",
+      "doi": "",
+      "official_id": "arXiv:2609.11265",
+      "paper_url": "https://arxiv.org/abs/2609.11265",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "few-step autoregressive video distillation; direct generation-acceleration lineage",
+      "published_at": "2026-09-10T08:59:47Z",
+      "updated_at": "2026-09-10T08:59:47Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Video / Image Generation"
       ]
     },
     {
@@ -23364,6 +23406,28 @@
       ]
     },
     {
+      "title": "SwarmNxt: Open-source Software-Hardware Platform for Fast and Agile Aerial Swarms",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / runtime infrastructure",
+      "arxiv": "2609.11382",
+      "doi": "",
+      "official_id": "arXiv:2609.11382",
+      "paper_url": "https://arxiv.org/abs/2609.11382",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "open-source software-hardware/ROS2 multi-agent runtime with onboard perception, planning and control for physical swarm experimentation",
+      "published_at": "2026-09-10T11:17:20Z",
+      "updated_at": "2026-09-10T11:17:20Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Taming Bitwise Behavior in GPU Kernels with Tensor Core: Black-Box Reconstruction, Compiler Enforcement, and Static Verification",
       "venue": "arXiv 2026",
       "topic": "GPU kernel/DSL/compilers / tensor core / deterministic kernels",
@@ -23447,6 +23511,26 @@
         "LLM Serving",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Uncertainty DMD: Restoring Diversity in Few-Step Autoregressive Video Distillation",
+      "venue": "arXiv 2026",
+      "topic": "video/image generation acceleration",
+      "arxiv": "2609.11265",
+      "doi": "",
+      "official_id": "arXiv:2609.11265",
+      "paper_url": "https://arxiv.org/abs/2609.11265",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "few-step autoregressive video distillation; direct generation-acceleration lineage",
+      "published_at": "2026-09-10T08:59:47Z",
+      "updated_at": "2026-09-10T08:59:47Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Video / Image Generation"
       ]
     },
     {

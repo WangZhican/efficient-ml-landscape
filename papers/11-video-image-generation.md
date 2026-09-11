@@ -1,13 +1,14 @@
 # 11 · Video / Image Generation
 
-> **82 canonical papers** mapped here, plus a broader **41-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **82 canonical papers** mapped here, plus a broader **42-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 41 tracked
+## 🆕 Latest 30 Days · 42 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
+| **P1 · Watch** | **Uncertainty DMD: Restoring Diversity in Few-Step Autoregressive Video Distillation** | arXiv 2026 | video/image generation acceleration | [Link](https://arxiv.org/abs/2609.11265) | — |
 | **P0 · Strong** | **Decoupled Self-Forcing Distillation for Streaming Talking Head Generation** | arXiv 2026 | video/image generation acceleration / streaming diffusion / causal distillation | [Link](https://arxiv.org/abs/2609.10317) | — |
 | **P1 · Watch** | **Mask Forcing: Improving Autoregressive Video Diffusion Distillation via Dual-Noise Masking Rollout** | arXiv 2026 | video/image generation acceleration / diffusion distillation / autoregressive video generation | [Link](https://arxiv.org/abs/2609.09123) | — |
 | **P1 · Watch** | **Temporal State Transport in Video Generation: Diagnosing and Correcting Spectral Imbalance** | arXiv 2026 | video/image generation acceleration / training-free video control | [Link](https://arxiv.org/abs/2609.08505) | — |
