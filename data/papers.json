@@ -3120,6 +3120,28 @@
     ]
   },
   {
+    "title": "BEACON: A Versatile Accelerator for Computational Pathology Applications",
+    "venue": "arXiv 2026",
+    "topic": "edge/cloud/heterogeneous AI systems / accelerator architecture / AI+X",
+    "arxiv": "2609.11044",
+    "doi": "",
+    "official_id": "arXiv:2609.11044",
+    "paper_url": "https://arxiv.org/abs/2609.11044",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Extends a baseline systolic AI accelerator with small flexible datapath and operator-support changes. The added logic grows chiplet area by only 1.1x while delivering over an order of magnitude higher throughput than CPU/GPU baselines on the multi-stage workload; retained for reusable accelerator-polymorphism lineage beyond the specific pathology application.",
+    "published_at": "2026-09-10T03:45:07Z",
+    "updated_at": "2026-09-10T03:45:07Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "BF16 Component-Product Emulation of FP32 and FP64 GEMM on Intel AMX",
     "venue": "arXiv 2026",
     "topic": "GPU kernel/DSL/compilers / CPU matrix engines / low-precision GEMM / Intel AMX",

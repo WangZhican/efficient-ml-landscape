@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-12",
   "window_start_beijing": "2026-08-13",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 869,
+  "tracked_total": 875,
   "p0_strong_or_canonical": [
     {
       "title": "AccelForge: Comprehensive Modeling and Co-Design Framework for AI Accelerators",
@@ -425,6 +425,28 @@
         "LLM Serving",
         "Distributed Training / Inference",
         "Multimodal / MLLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "BEACON: A Versatile Accelerator for Computational Pathology Applications",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / accelerator architecture / AI+X",
+      "arxiv": "2609.11044",
+      "doi": "",
+      "official_id": "arXiv:2609.11044",
+      "paper_url": "https://arxiv.org/abs/2609.11044",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Extends a baseline systolic AI accelerator with small flexible datapath and operator-support changes. The added logic grows chiplet area by only 1.1x while delivering over an order of magnitude higher throughput than CPU/GPU baselines on the multi-stage workload; retained for reusable accelerator-polymorphism lineage beyond the specific pathology application.",
+      "published_at": "2026-09-10T03:45:07Z",
+      "updated_at": "2026-09-10T03:45:07Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -5046,6 +5068,27 @@
       ]
     },
     {
+      "title": "Belief-State Engine: Augmenting LLMs for Principled Planning Under Partial Observability",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / state abstraction / planning runtime",
+      "arxiv": "2609.10036",
+      "doi": "",
+      "official_id": "arXiv:2609.10036",
+      "paper_url": "https://arxiv.org/abs/2609.10036",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "External Bayesian belief state replaces exposing the full raw action-observation history to an LLM and improves return, calibration and consistency on POMDP tasks. Retained as compact state-abstraction lineage for long-horizon agents; current abstract does not quantify token or latency savings.",
+      "published_at": "2026-09-09T11:07:47Z",
+      "updated_at": "2026-09-09T11:07:47Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "AXON: A ROS 2 RMW with Shared-Memory/QUIC Transport and QKD/ML-KEM Key Establishment",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / robotics middleware / edge-cloud transport",
@@ -5171,6 +5214,28 @@
       "directions": [
         "LLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Numbat: Building and Verifying a Self-Contained Machine-Learning Stack",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / ML systems stack / deployment",
+      "arxiv": "2609.10632",
+      "doi": "",
+      "official_id": "arXiv:2609.10632",
+      "paper_url": "https://arxiv.org/abs/2609.10632",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Self-contained Zig ML stack with tensor/autodiff, mixed precision, multi-GPU training and a stable C ABI removes Python dependency chains and separate export/runtime toolchains. Full COCO training reaches near-reference accuracy with same-machine single-GPU step-time parity; retained as AI-infra stack/verifiability lineage rather than a speedup result.",
+      "published_at": "2026-09-09T08:36:12Z",
+      "updated_at": "2026-09-09T08:36:12Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Speculative Decoding",
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference"
       ]
     },
     {
@@ -7046,6 +7111,26 @@
       ]
     },
     {
+      "title": "Sparse Data Augmentation for Optimization with Provable Guarantees",
+      "venue": "arXiv 2026",
+      "topic": "efficient training / data augmentation / optimization",
+      "arxiv": "2609.08133",
+      "doi": "",
+      "official_id": "arXiv:2609.08133",
+      "paper_url": "https://arxiv.org/abs/2609.08133",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Shows that a fixed sparse set of transformations can approximate full group augmentation with O((log|G|+log(1/delta))/epsilon^2) transformation queries versus O(1/epsilon^4) for group-SGD, giving a principled training-efficiency route for symmetry-heavy ML.",
+      "published_at": "2026-09-08T02:11:20Z",
+      "updated_at": "2026-09-08T02:11:20Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Sparsity / Pruning"
+      ]
+    },
+    {
       "title": "Jacap: Robust KV Cache Eviction via Jacobian-Based Nonlinear Information Capacity Preservation",
       "venue": "arXiv 2026",
       "topic": "KV cache/long-context / eviction / information geometry / cache compression",
@@ -8525,6 +8610,28 @@
       ]
     },
     {
+      "title": "BinauralVAE: Spatial Audio Reconstruction For World Models",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / multimodal world models",
+      "arxiv": "2609.06837",
+      "doi": "",
+      "official_id": "arXiv:2609.06837",
+      "paper_url": "https://arxiv.org/abs/2609.06837",
+      "code_url": "https://github.com/Luizerko/BinauralVAE",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Open-source binaural representation pipeline couples robot navigation with spatialized acoustic consequences, adding an audio-centric state channel for world models under visual occlusion or poor lighting. Protected Physical-AI world-model lineage; no inference-efficiency metric yet.",
+      "published_at": "2026-09-06T21:20:36Z",
+      "updated_at": "2026-09-06T21:20:36Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Diagnosing and Dynamically Filtering Occupancy World Models for Active Mapping",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / world-model runtime / active mapping / occupancy filtering",
@@ -8841,6 +8948,28 @@
       "is_latest_30d": true,
       "directions": [
         "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "OVMAN: A Task and Benchmark for Open-Vocabulary Motion-Aware Navigation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / persistent scene memory / navigation",
+      "arxiv": "2609.06424",
+      "doi": "",
+      "official_id": "arXiv:2609.06424",
+      "paper_url": "https://arxiv.org/abs/2609.06424",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Two-visit navigation benchmark requires reasoning about moved, removed and former object locations. Existing open-vocabulary systems fail badly on vacated-location queries, directly exposing persistent scene-memory debt relevant to streaming Physical-AI agents.",
+      "published_at": "2026-09-06T06:58:14Z",
+      "updated_at": "2026-09-06T06:58:14Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -19158,6 +19287,28 @@
       ]
     },
     {
+      "title": "BEACON: A Versatile Accelerator for Computational Pathology Applications",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / accelerator architecture / AI+X",
+      "arxiv": "2609.11044",
+      "doi": "",
+      "official_id": "arXiv:2609.11044",
+      "paper_url": "https://arxiv.org/abs/2609.11044",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Extends a baseline systolic AI accelerator with small flexible datapath and operator-support changes. The added logic grows chiplet area by only 1.1x while delivering over an order of magnitude higher throughput than CPU/GPU baselines on the multi-stage workload; retained for reusable accelerator-polymorphism lineage beyond the specific pathology application.",
+      "published_at": "2026-09-10T03:45:07Z",
+      "updated_at": "2026-09-10T03:45:07Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Fengshui: Demystifying Chiplet Ecosystem and Bespoke Neural Network Accelerator Codesign",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI systems / chiplet accelerator codesign",
@@ -23773,6 +23924,27 @@
       ]
     },
     {
+      "title": "Belief-State Engine: Augmenting LLMs for Principled Planning Under Partial Observability",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / state abstraction / planning runtime",
+      "arxiv": "2609.10036",
+      "doi": "",
+      "official_id": "arXiv:2609.10036",
+      "paper_url": "https://arxiv.org/abs/2609.10036",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "External Bayesian belief state replaces exposing the full raw action-observation history to an LLM and improves return, calibration and consistency on POMDP tasks. Retained as compact state-abstraction lineage for long-horizon agents; current abstract does not quantify token or latency savings.",
+      "published_at": "2026-09-09T11:07:47Z",
+      "updated_at": "2026-09-09T11:07:47Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "AXON: A ROS 2 RMW with Shared-Memory/QUIC Transport and QKD/ML-KEM Key Establishment",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / robotics middleware / edge-cloud transport",
@@ -23898,6 +24070,28 @@
       "directions": [
         "LLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Numbat: Building and Verifying a Self-Contained Machine-Learning Stack",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / ML systems stack / deployment",
+      "arxiv": "2609.10632",
+      "doi": "",
+      "official_id": "arXiv:2609.10632",
+      "paper_url": "https://arxiv.org/abs/2609.10632",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Self-contained Zig ML stack with tensor/autodiff, mixed precision, multi-GPU training and a stable C ABI removes Python dependency chains and separate export/runtime toolchains. Full COCO training reaches near-reference accuracy with same-machine single-GPU step-time parity; retained as AI-infra stack/verifiability lineage rather than a speedup result.",
+      "published_at": "2026-09-09T08:36:12Z",
+      "updated_at": "2026-09-09T08:36:12Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Speculative Decoding",
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference"
       ]
     },
     {
@@ -25773,6 +25967,26 @@
       ]
     },
     {
+      "title": "Sparse Data Augmentation for Optimization with Provable Guarantees",
+      "venue": "arXiv 2026",
+      "topic": "efficient training / data augmentation / optimization",
+      "arxiv": "2609.08133",
+      "doi": "",
+      "official_id": "arXiv:2609.08133",
+      "paper_url": "https://arxiv.org/abs/2609.08133",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Shows that a fixed sparse set of transformations can approximate full group augmentation with O((log|G|+log(1/delta))/epsilon^2) transformation queries versus O(1/epsilon^4) for group-SGD, giving a principled training-efficiency route for symmetry-heavy ML.",
+      "published_at": "2026-09-08T02:11:20Z",
+      "updated_at": "2026-09-08T02:11:20Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Sparsity / Pruning"
+      ]
+    },
+    {
       "title": "Jacap: Robust KV Cache Eviction via Jacobian-Based Nonlinear Information Capacity Preservation",
       "venue": "arXiv 2026",
       "topic": "KV cache/long-context / eviction / information geometry / cache compression",
@@ -27252,6 +27466,28 @@
       ]
     },
     {
+      "title": "BinauralVAE: Spatial Audio Reconstruction For World Models",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / multimodal world models",
+      "arxiv": "2609.06837",
+      "doi": "",
+      "official_id": "arXiv:2609.06837",
+      "paper_url": "https://arxiv.org/abs/2609.06837",
+      "code_url": "https://github.com/Luizerko/BinauralVAE",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Open-source binaural representation pipeline couples robot navigation with spatialized acoustic consequences, adding an audio-centric state channel for world models under visual occlusion or poor lighting. Protected Physical-AI world-model lineage; no inference-efficiency metric yet.",
+      "published_at": "2026-09-06T21:20:36Z",
+      "updated_at": "2026-09-06T21:20:36Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Diagnosing and Dynamically Filtering Occupancy World Models for Active Mapping",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / world-model runtime / active mapping / occupancy filtering",
@@ -27568,6 +27804,28 @@
       "is_latest_30d": true,
       "directions": [
         "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "OVMAN: A Task and Benchmark for Open-Vocabulary Motion-Aware Navigation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / persistent scene memory / navigation",
+      "arxiv": "2609.06424",
+      "doi": "",
+      "official_id": "arXiv:2609.06424",
+      "paper_url": "https://arxiv.org/abs/2609.06424",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Two-visit navigation benchmark requires reasoning about moved, removed and former object locations. Existing open-vocabulary systems fail badly on vacated-location queries, directly exposing persistent scene-memory debt relevant to streaming Physical-AI agents.",
+      "published_at": "2026-09-06T06:58:14Z",
+      "updated_at": "2026-09-06T06:58:14Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
