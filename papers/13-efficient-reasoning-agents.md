@@ -1,10 +1,10 @@
 # 13 · Efficient Reasoning / Agents
 
-> **324 canonical papers** mapped here, plus a broader **231-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **324 canonical papers** mapped here, plus a broader **232-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 231 tracked
+## 🆕 Latest 30 Days · 232 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -135,6 +135,7 @@
 | **P1 · Watch** | **Rethinking the Evaluation of Efficiency Methods for Multi-Agent Systems** | arXiv 2026 | efficient reasoning/agent systems / multi-agent efficiency / evaluation methodology | [Link](https://arxiv.org/abs/2609.05933) | — |
 | **P1 · Watch** | **From Narrative to Auditable Forecasts: A Structured Scaffold for Agentic Forecasting** | arXiv 2026 | efficient reasoning/agent systems / adaptive scaffold / cost-aware inference | [Link](https://arxiv.org/abs/2609.05905) | — |
 | **P1 · Watch** | **Learning Counterfactual World Models for Embodied Reasoning under Partial Observability** | arXiv 2026 | VLA/WAM/Physical AI serving / world models / planning | [Link](https://arxiv.org/abs/2609.05834) | — |
+| **P1 · Watch** | **Scaling Optimal Classification Trees via Adaptive Feature and Sample Reduction** | arXiv 2026 | efficient reasoning/algorithm systems | [Link](https://arxiv.org/abs/2609.05826) | — |
 | **P1 · Watch** | **Spillover-Aware Multi-Value Steering for Pluralistic LLM Alignment** | arXiv 2026 | efficient reasoning/agent systems / activation steering / inference-time control | [Link](https://arxiv.org/abs/2609.05800) | — |
 | **P1 · Watch** | **Dynamic Lagging for Simultaneous Translation** | arXiv 2026 | LLM serving / efficient reasoning / latency-controlled generation | [Link](https://arxiv.org/abs/2609.05799) | — |
 | **P1 · Watch** | **Distilling Vision-Language Models for On-Device Fire Understanding** | arXiv 2026 | multimodal/MLLM serving / edge inference / VLM distillation | [Link](https://arxiv.org/abs/2609.05782) | — |

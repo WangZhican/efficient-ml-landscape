@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-12",
   "window_start_beijing": "2026-08-13",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 875,
+  "tracked_total": 879,
   "p0_strong_or_canonical": [
     {
       "title": "AccelForge: Comprehensive Modeling and Co-Design Framework for AI Accelerators",
@@ -4293,6 +4293,27 @@
       ]
     },
     {
+      "title": "World in World: Explore the World with World Models",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / world models",
+      "arxiv": "2609.11548",
+      "doi": "",
+      "official_id": "arXiv:2609.11548",
+      "paper_url": "https://arxiv.org/abs/2609.11548",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "training-free inference-time control interface for frozen causal video world models",
+      "published_at": "2026-09-10T13:42:26Z",
+      "updated_at": "2026-09-10T13:42:26Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "ChurnBench: A Drift-Aware Benchmark Demonstrating That Refresh Scheduling, Not Cache Age, Governs Staleness in Agentic AI",
       "venue": "arXiv 2026",
       "topic": "efficient reasoning/agent systems / cache freshness / retrieval runtime",
@@ -4332,6 +4353,29 @@
       "directions": [
         "Quantization",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "CARLAverse: A Highly Modular, Distributed, and Multimodal Framework for Human-in-the-Loop Simulation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / distributed simulation",
+      "arxiv": "2609.11478",
+      "doi": "",
+      "official_id": "arXiv:2609.11478",
+      "paper_url": "https://arxiv.org/abs/2609.11478",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "distributed physics architecture separating latency-critical local dynamics from central orchestration",
+      "published_at": "2026-09-10T12:44:18Z",
+      "updated_at": "2026-09-10T12:44:18Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -9481,6 +9525,27 @@
       ]
     },
     {
+      "title": "Generator-Independent Runtime Assurance under Partial Observation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / runtime assurance",
+      "arxiv": "2609.06036",
+      "doi": "",
+      "official_id": "arXiv:2609.06036",
+      "paper_url": "https://arxiv.org/abs/2609.06036",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "generator-independent runtime safety gate for learned policies and LM planners",
+      "published_at": "2026-09-05T11:40:42Z",
+      "updated_at": "2026-09-05T11:40:42Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "GLoRI: Closed-Loop Whole-Body Tracking with Global-Local Reference Interaction for Humanoid Loco-Manipulation",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / humanoid control / closed-loop runtime",
@@ -9799,6 +9864,26 @@
         "MoE Systems / Accelerators",
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Scaling Optimal Classification Trees via Adaptive Feature and Sample Reduction",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/algorithm systems",
+      "arxiv": "2609.05826",
+      "doi": "",
+      "official_id": "arXiv:2609.05826",
+      "paper_url": "https://arxiv.org/abs/2609.05826",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "feature/sample reduction for exact-tree optimization; reported up to 121.41x solver speedup",
+      "published_at": "2026-09-05T02:42:53Z",
+      "updated_at": "2026-09-05T02:42:53Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -23149,6 +23234,27 @@
       ]
     },
     {
+      "title": "World in World: Explore the World with World Models",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / world models",
+      "arxiv": "2609.11548",
+      "doi": "",
+      "official_id": "arXiv:2609.11548",
+      "paper_url": "https://arxiv.org/abs/2609.11548",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "training-free inference-time control interface for frozen causal video world models",
+      "published_at": "2026-09-10T13:42:26Z",
+      "updated_at": "2026-09-10T13:42:26Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "ChurnBench: A Drift-Aware Benchmark Demonstrating That Refresh Scheduling, Not Cache Age, Governs Staleness in Agentic AI",
       "venue": "arXiv 2026",
       "topic": "efficient reasoning/agent systems / cache freshness / retrieval runtime",
@@ -23188,6 +23294,29 @@
       "directions": [
         "Quantization",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "CARLAverse: A Highly Modular, Distributed, and Multimodal Framework for Human-in-the-Loop Simulation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / distributed simulation",
+      "arxiv": "2609.11478",
+      "doi": "",
+      "official_id": "arXiv:2609.11478",
+      "paper_url": "https://arxiv.org/abs/2609.11478",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "distributed physics architecture separating latency-critical local dynamics from central orchestration",
+      "published_at": "2026-09-10T12:44:18Z",
+      "updated_at": "2026-09-10T12:44:18Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -28337,6 +28466,27 @@
       ]
     },
     {
+      "title": "Generator-Independent Runtime Assurance under Partial Observation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / runtime assurance",
+      "arxiv": "2609.06036",
+      "doi": "",
+      "official_id": "arXiv:2609.06036",
+      "paper_url": "https://arxiv.org/abs/2609.06036",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "generator-independent runtime safety gate for learned policies and LM planners",
+      "published_at": "2026-09-05T11:40:42Z",
+      "updated_at": "2026-09-05T11:40:42Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "GLoRI: Closed-Loop Whole-Body Tracking with Global-Local Reference Interaction for Humanoid Loco-Manipulation",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / humanoid control / closed-loop runtime",
@@ -28655,6 +28805,26 @@
         "MoE Systems / Accelerators",
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Scaling Optimal Classification Trees via Adaptive Feature and Sample Reduction",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/algorithm systems",
+      "arxiv": "2609.05826",
+      "doi": "",
+      "official_id": "arXiv:2609.05826",
+      "paper_url": "https://arxiv.org/abs/2609.05826",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "feature/sample reduction for exact-tree optimization; reported up to 121.41x solver speedup",
+      "published_at": "2026-09-05T02:42:53Z",
+      "updated_at": "2026-09-05T02:42:53Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
       ]
     },
     {

@@ -1,10 +1,10 @@
 # 01 · LLM Serving
 
-> **789 canonical papers** mapped here, plus a broader **554-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **789 canonical papers** mapped here, plus a broader **557-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 554 tracked
+## 🆕 Latest 30 Days · 557 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -20,8 +20,10 @@
 | **P1 · Watch** | **ZipCodec: Ultra-Low-Frame-Rate Streaming Speech Coding** | arXiv 2026 | multimodal/MLLM serving / streaming speech / token-rate reduction | [Link](https://arxiv.org/abs/2609.11642) | [Repo](https://lucadellalib.github.io/zipcodec-web/) |
 | **P0 · Strong** | **OmniKVQuant: KV Cache Quantization for Omni-LLMs** | arXiv 2026 | KV cache/long-context / quantization / multimodal serving | [Link](https://arxiv.org/abs/2609.11582) | — |
 | **P0 · Strong** | **Memory as Plans: World-Action Modeling with Memory-Grounded Planning** | arXiv 2026 | VLA/WAM/Physical AI serving / memory and long-horizon runtime | [Link](https://arxiv.org/abs/2609.11561) | — |
+| **P1 · Watch** | **World in World: Explore the World with World Models** | arXiv 2026 | VLA/WAM/Physical AI serving / world models | [Link](https://arxiv.org/abs/2609.11548) | — |
 | **P0 · Strong** | **Characterizing Job Power Elasticity for Power-Flexible AI Training** | arXiv 2026 | distributed training/inference / datacenter power scheduling | [Link](https://arxiv.org/abs/2609.11542) | — |
 | **P1 · Watch** | **ChurnBench: A Drift-Aware Benchmark Demonstrating That Refresh Scheduling, Not Cache Age, Governs Staleness in Agentic AI** | arXiv 2026 | efficient reasoning/agent systems / cache freshness / retrieval runtime | [Link](https://arxiv.org/abs/2609.11515) | — |
+| **P1 · Watch** | **CARLAverse: A Highly Modular, Distributed, and Multimodal Framework for Human-in-the-Loop Simulation** | arXiv 2026 | VLA/WAM/Physical AI serving / distributed simulation | [Link](https://arxiv.org/abs/2609.11478) | — |
 | **P1 · Watch** | **FARM: Reading Failure Signals from the Internal Predictive States of a Frozen Robotic World Model** | arXiv 2026 | VLA/WAM/Physical AI serving / world-model monitoring / low-overhead runtime | [Link](https://arxiv.org/abs/2609.11445) | — |
 | **P1 · Watch** | **Safety-aware Skill Adaptation for Reinforcement Learning in Dynamic Environments** | arXiv 2026 | VLA/WAM/Physical AI serving / skill adaptation | [Link](https://arxiv.org/abs/2609.11433) | — |
 | **P0 · Strong** | **PATTON: Enabling Commodity PIM for Production LLM Serving** | arXiv 2026 | LLM serving / KV cache / PIM accelerator runtime | [Link](https://arxiv.org/abs/2609.11392) | — |
@@ -230,6 +232,7 @@
 | **P1 · Watch** | **Beyond Retraining-Free MoE Compression: A Cost-Normalized Study of Post-Compression Adjustment** | arXiv 2026 | MoE systems/accelerators / compression / deployment memory / adjustment cost | [Link](https://arxiv.org/abs/2609.06076) | — |
 | **P1 · Watch** | **NSFlow: End-to-End Differentiable Neuro-Symbolic Optical Flow for Visual Odometry** | arXiv 2026 | VLA/WAM/Physical AI serving / embedded visual odometry / realtime perception / efficient robotics | [Link](https://arxiv.org/abs/2609.06074) | — |
 | **P1 · Watch** | **FALCON-S: Fixed-wing ground-effect Aerodynamics Simulator and Flight Control Learning Suite** | arXiv 2026 | VLA/WAM/Physical AI serving / GPU simulation / robot learning | [Link](https://arxiv.org/abs/2609.06046) | — |
+| **P1 · Watch** | **Generator-Independent Runtime Assurance under Partial Observation** | arXiv 2026 | VLA/WAM/Physical AI serving / runtime assurance | [Link](https://arxiv.org/abs/2609.06036) | — |
 | **P1 · Watch** | **GLoRI: Closed-Loop Whole-Body Tracking with Global-Local Reference Interaction for Humanoid Loco-Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving / humanoid control / closed-loop runtime | [Link](https://arxiv.org/abs/2609.05994) | — |
 | **P1 · Watch** | **A Brain-inspired Hierarchical Framework for Zero-Shot Robot Task Reasoning and Execution** | arXiv 2026 | VLA/WAM/Physical AI serving / hierarchical robot reasoning / closed-loop execution | [Link](https://arxiv.org/abs/2609.05985) | — |
 | **P1 · Watch** | **Efficient and Robust Camera-independent Multiview 3D Geometric Reconstruction from Noisy Monocular Depth Estimation and Multiple Point Matching** | arXiv 2026 | VLA/WAM/Physical AI serving / efficient 3D perception / camera-independent reconstruction | [Link](https://arxiv.org/abs/2609.05972) | — |

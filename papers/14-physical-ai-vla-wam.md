@@ -1,10 +1,10 @@
 # 14 · VLA / WAM / Physical AI
 
-> **142 canonical papers** mapped here, plus a broader **232-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **142 canonical papers** mapped here, plus a broader **235-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 232 tracked
+## 🆕 Latest 30 Days · 235 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -14,6 +14,8 @@
 | **P1 · Watch** | **ORCH: Organizational Principles Enable Collective Intelligence in Embodied AI** | arXiv 2026 | VLA/WAM/Physical AI serving / embodied multi-agent orchestration | [Link](https://arxiv.org/abs/2609.11737) | — |
 | **P1 · Watch** | **ActSafeGuard: Differentiable and Training-Aligned Constraint Enforcement for Flow-Matching Policies** | arXiv 2026 | VLA/WAM/Physical AI serving / flow-policy runtime safety | [Link](https://arxiv.org/abs/2609.11697) | — |
 | **P0 · Strong** | **Memory as Plans: World-Action Modeling with Memory-Grounded Planning** | arXiv 2026 | VLA/WAM/Physical AI serving / memory and long-horizon runtime | [Link](https://arxiv.org/abs/2609.11561) | — |
+| **P1 · Watch** | **World in World: Explore the World with World Models** | arXiv 2026 | VLA/WAM/Physical AI serving / world models | [Link](https://arxiv.org/abs/2609.11548) | — |
+| **P1 · Watch** | **CARLAverse: A Highly Modular, Distributed, and Multimodal Framework for Human-in-the-Loop Simulation** | arXiv 2026 | VLA/WAM/Physical AI serving / distributed simulation | [Link](https://arxiv.org/abs/2609.11478) | — |
 | **P1 · Watch** | **FARM: Reading Failure Signals from the Internal Predictive States of a Frozen Robotic World Model** | arXiv 2026 | VLA/WAM/Physical AI serving / world-model monitoring / low-overhead runtime | [Link](https://arxiv.org/abs/2609.11445) | — |
 | **P1 · Watch** | **Safety-aware Skill Adaptation for Reinforcement Learning in Dynamic Environments** | arXiv 2026 | VLA/WAM/Physical AI serving / skill adaptation | [Link](https://arxiv.org/abs/2609.11433) | — |
 | **P1 · Watch** | **2AM: Grounding Agent-Side Memory as Guidance for Steerable Action Models in Long-Horizon Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving / agent memory / long-horizon manipulation | [Link](https://arxiv.org/abs/2609.11308) | — |
@@ -118,6 +120,7 @@
 | **P1 · Watch** | **LayerRoute: Action-Conditioned Mixture-of-Layers Routing for Vision-Language-Action Policies** | arXiv 2026 | VLA/WAM/Physical AI serving / adaptive layer routing / cached VLM representations | [Link](https://arxiv.org/abs/2609.06079) | — |
 | **P1 · Watch** | **NSFlow: End-to-End Differentiable Neuro-Symbolic Optical Flow for Visual Odometry** | arXiv 2026 | VLA/WAM/Physical AI serving / embedded visual odometry / realtime perception / efficient robotics | [Link](https://arxiv.org/abs/2609.06074) | — |
 | **P1 · Watch** | **FALCON-S: Fixed-wing ground-effect Aerodynamics Simulator and Flight Control Learning Suite** | arXiv 2026 | VLA/WAM/Physical AI serving / GPU simulation / robot learning | [Link](https://arxiv.org/abs/2609.06046) | — |
+| **P1 · Watch** | **Generator-Independent Runtime Assurance under Partial Observation** | arXiv 2026 | VLA/WAM/Physical AI serving / runtime assurance | [Link](https://arxiv.org/abs/2609.06036) | — |
 | **P1 · Watch** | **GLoRI: Closed-Loop Whole-Body Tracking with Global-Local Reference Interaction for Humanoid Loco-Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving / humanoid control / closed-loop runtime | [Link](https://arxiv.org/abs/2609.05994) | — |
 | **P1 · Watch** | **A Brain-inspired Hierarchical Framework for Zero-Shot Robot Task Reasoning and Execution** | arXiv 2026 | VLA/WAM/Physical AI serving / hierarchical robot reasoning / closed-loop execution | [Link](https://arxiv.org/abs/2609.05985) | — |
 | **P1 · Watch** | **Efficient and Robust Camera-independent Multiview 3D Geometric Reconstruction from Noisy Monocular Depth Estimation and Multiple Point Matching** | arXiv 2026 | VLA/WAM/Physical AI serving / efficient 3D perception / camera-independent reconstruction | [Link](https://arxiv.org/abs/2609.05972) | — |

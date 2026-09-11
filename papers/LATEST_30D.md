@@ -1,6 +1,6 @@
 # 🆕 Latest 30 Days
 
-> Rolling 30-day view ending **2026-09-12**: **875 tracked papers = 186 P0 + 570 P1 + 119 P2**. Topical relevance determines visibility; quality determines priority. The classical census remains stricter.
+> Rolling 30-day view ending **2026-09-12**: **879 tracked papers = 186 P0 + 574 P1 + 119 P2**. Topical relevance determines visibility; quality determines priority. The classical census remains stricter.
 
 [← Paper Library](ALL_PAPERS.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/latest_30d.json) · [CSV](../data/latest_30d.csv)
 
@@ -213,8 +213,10 @@
 | **P1 · Watch** | **A Time-Based Readout for Vector-Matrix Multiplication in Fully Analog Memristive SNNs** | arXiv 2026 | edge/cloud/heterogeneous AI systems / analog CIM / SNN accelerator | [Link](https://arxiv.org/abs/2609.11713) | — |
 | **P1 · Watch** | **ActSafeGuard: Differentiable and Training-Aligned Constraint Enforcement for Flow-Matching Policies** | arXiv 2026 | VLA/WAM/Physical AI serving / flow-policy runtime safety | [Link](https://arxiv.org/abs/2609.11697) | — |
 | **P1 · Watch** | **ZipCodec: Ultra-Low-Frame-Rate Streaming Speech Coding** | arXiv 2026 | multimodal/MLLM serving / streaming speech / token-rate reduction | [Link](https://arxiv.org/abs/2609.11642) | [Repo](https://lucadellalib.github.io/zipcodec-web/) |
+| **P1 · Watch** | **World in World: Explore the World with World Models** | arXiv 2026 | VLA/WAM/Physical AI serving / world models | [Link](https://arxiv.org/abs/2609.11548) | — |
 | **P1 · Watch** | **ChurnBench: A Drift-Aware Benchmark Demonstrating That Refresh Scheduling, Not Cache Age, Governs Staleness in Agentic AI** | arXiv 2026 | efficient reasoning/agent systems / cache freshness / retrieval runtime | [Link](https://arxiv.org/abs/2609.11515) | — |
 | **P1 · Watch** | **ActMap: Single-Pass Uncertainty Quantification from Generation-Time Activation Maps** | arXiv 2026 | efficient reasoning/agent systems / single-pass uncertainty / runtime telemetry | [Link](https://arxiv.org/abs/2609.11498) | — |
+| **P1 · Watch** | **CARLAverse: A Highly Modular, Distributed, and Multimodal Framework for Human-in-the-Loop Simulation** | arXiv 2026 | VLA/WAM/Physical AI serving / distributed simulation | [Link](https://arxiv.org/abs/2609.11478) | — |
 | **P1 · Watch** | **FARM: Reading Failure Signals from the Internal Predictive States of a Frozen Robotic World Model** | arXiv 2026 | VLA/WAM/Physical AI serving / world-model monitoring / low-overhead runtime | [Link](https://arxiv.org/abs/2609.11445) | — |
 | **P1 · Watch** | **Safety-aware Skill Adaptation for Reinforcement Learning in Dynamic Environments** | arXiv 2026 | VLA/WAM/Physical AI serving / skill adaptation | [Link](https://arxiv.org/abs/2609.11433) | — |
 | **P1 · Watch** | **Taming Bitwise Behavior in GPU Kernels with Tensor Core: Black-Box Reconstruction, Compiler Enforcement, and Static Verification** | arXiv 2026 | GPU kernel/DSL/compilers / tensor core / deterministic kernels | [Link](https://arxiv.org/abs/2609.11356) | — |
@@ -456,6 +458,7 @@
 | **P1 · Watch** | **DAREBench: Deployment-Aware and Reliable Evaluation of Models as Agents** | arXiv 2026 | efficient reasoning/agent systems / deployment benchmark / cost-aware model selection | [Link](https://arxiv.org/abs/2609.06059) | — |
 | **P1 · Watch** | **SkillSpec: Intent-Masked Specification Reasoning for Agent Skill Correctness** | arXiv 2026 | efficient reasoning/agent systems / reusable skills / agent infrastructure | [Link](https://arxiv.org/abs/2609.06052) | — |
 | **P1 · Watch** | **FALCON-S: Fixed-wing ground-effect Aerodynamics Simulator and Flight Control Learning Suite** | arXiv 2026 | VLA/WAM/Physical AI serving / GPU simulation / robot learning | [Link](https://arxiv.org/abs/2609.06046) | — |
+| **P1 · Watch** | **Generator-Independent Runtime Assurance under Partial Observation** | arXiv 2026 | VLA/WAM/Physical AI serving / runtime assurance | [Link](https://arxiv.org/abs/2609.06036) | — |
 | **P1 · Watch** | **GLoRI: Closed-Loop Whole-Body Tracking with Global-Local Reference Interaction for Humanoid Loco-Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving / humanoid control / closed-loop runtime | [Link](https://arxiv.org/abs/2609.05994) | — |
 | **P1 · Watch** | **MOAE: Multi-Objective Agent Evolution with Pareto-Preserving Search** | arXiv 2026 | efficient reasoning/agent systems / rollout-budget optimization / Pareto search | [Link](https://arxiv.org/abs/2609.05992) | — |
 | **P1 · Watch** | **A Brain-inspired Hierarchical Framework for Zero-Shot Robot Task Reasoning and Execution** | arXiv 2026 | VLA/WAM/Physical AI serving / hierarchical robot reasoning / closed-loop execution | [Link](https://arxiv.org/abs/2609.05985) | — |
@@ -471,6 +474,7 @@
 | **P1 · Watch** | **Map the Possibilities: Spatial Belief Fields for Language-Goal Aerial Navigation** | arXiv 2026 | VLA/WAM/Physical AI serving / closed-loop navigation / spatial memory | [Link](https://arxiv.org/abs/2609.05841) | — |
 | **P1 · Watch** | **Learning Counterfactual World Models for Embodied Reasoning under Partial Observability** | arXiv 2026 | VLA/WAM/Physical AI serving / world models / planning | [Link](https://arxiv.org/abs/2609.05834) | — |
 | **P1 · Watch** | **CR-VLA-Force: Learning Control-aware Compliance VLA Model for Robust Contact-rich Robotic Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving / multimodal MoE / reactive control | [Link](https://arxiv.org/abs/2609.05832) | — |
+| **P1 · Watch** | **Scaling Optimal Classification Trees via Adaptive Feature and Sample Reduction** | arXiv 2026 | efficient reasoning/algorithm systems | [Link](https://arxiv.org/abs/2609.05826) | — |
 | **P1 · Watch** | **Spillover-Aware Multi-Value Steering for Pluralistic LLM Alignment** | arXiv 2026 | efficient reasoning/agent systems / activation steering / inference-time control | [Link](https://arxiv.org/abs/2609.05800) | — |
 | **P1 · Watch** | **Dynamic Lagging for Simultaneous Translation** | arXiv 2026 | LLM serving / efficient reasoning / latency-controlled generation | [Link](https://arxiv.org/abs/2609.05799) | — |
 | **P1 · Watch** | **Closed-Loop Evaluation of Bird's-Eye-View Maps from Cross-View Transformers as Inputs to Behavior-Cloning Policies** | arXiv 2026 | VLA/WAM/Physical AI serving / closed-loop perception-policy interface / autonomous driving | [Link](https://arxiv.org/abs/2609.05783) | — |
