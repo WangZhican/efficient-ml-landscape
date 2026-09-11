@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-11",
   "window_start_beijing": "2026-08-12",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 803,
+  "tracked_total": 807,
   "p0_strong_or_canonical": [
     {
       "title": "HybridFLow: SDN-Orchestrated Client Partitioning for Hybrid Federated Learning",
@@ -4412,6 +4412,27 @@
       ]
     },
     {
+      "title": "$Φ$-Bench: Can Large Language Models Engineer the Infrastructure That Powers Them?",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / LLM infrastructure engineering agents / benchmark",
+      "arxiv": "2609.10226",
+      "doi": "",
+      "official_id": "arXiv:2609.10226",
+      "paper_url": "https://arxiv.org/abs/2609.10226",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Benchmark grounded in real code repositories spans kernel completion through long-horizon end-to-end LLM-system optimization, directly measuring whether frontier LLMs can engineer the infrastructure stack. Important agentic AI-infra benchmark lineage, but not itself an efficiency technique.",
+      "published_at": "2026-09-09T14:23:47Z",
+      "updated_at": "2026-09-09T14:23:47Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "CEDD-optimizer: Enabling Cost-Efficient Dataset Distillation on Geographically Distributed Edge Systems",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI systems / distributed dataset distillation / cost optimization",
@@ -5389,6 +5410,29 @@
       ]
     },
     {
+      "title": "ArmPoser: Real-Time, Calibration-Free Arm Pose Estimation from Smartwatch IMU",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / edge sensing / real-time pose estimation",
+      "arxiv": "2609.08806",
+      "doi": "",
+      "official_id": "arXiv:2609.08806",
+      "paper_url": "https://arxiv.org/abs/2609.08806",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Physical-AI/edge protected item: ArmPoser eliminates coordinate transforms, explicit alignment, and user bone-offset calibration by learning directly in device-native smartwatch coordinates, while matching or exceeding calibrated baselines in real-time deployment studies. Efficiency is workflow/deployment simplification rather than a quantified accelerator result.",
+      "published_at": "2026-09-08T14:33:30Z",
+      "updated_at": "2026-09-08T14:33:30Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Hi-FLoop: Hierarchical State-Feedback Loops for Multi-Timescale World Modeling",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI / world models / multi-timescale closed-loop generation",
@@ -5601,6 +5645,27 @@
       "is_latest_30d": true,
       "directions": [
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "PGMT: Perceptive General Motion Tracking for Humanoid Robots",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / humanoid runtime / selective terrain perception",
+      "arxiv": "2609.08511",
+      "doi": "",
+      "official_id": "arXiv:2609.08511",
+      "paper_url": "https://arxiv.org/abs/2609.08511",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Physical-AI protected item: PGMT uses motion-conditioned terrain glimpses to selectively encode terrain regions relevant to the current motion and demonstrates zero-shot Unitree G1 deployment over complex real terrain. Selective perception is runtime-relevant, though the paper reports robustness rather than compute savings.",
+      "published_at": "2026-09-08T09:57:32Z",
+      "updated_at": "2026-09-09T08:20:27Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -5860,6 +5925,26 @@
         "Quantization",
         "Efficient Reasoning / Agents",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "SE-GoS: Self-Evolving Graph-of-Skills for Skill Library at Scale",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / scalable skill retrieval / token efficiency",
+      "arxiv": "2609.08228",
+      "doi": "",
+      "official_id": "arXiv:2609.08228",
+      "paper_url": "https://arxiv.org/abs/2609.08228",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Training-free evolution of a Graph-of-Skills from execution traces improves retrieval quality while reducing context load. On SkillsBench, a representative round raises reward from 52.4% to 59.4% while reducing input tokens by about one-third relative to full skill loading; directly relevant to scalable agent skill/memory infrastructure.",
+      "published_at": "2026-09-08T04:20:11Z",
+      "updated_at": "2026-09-08T04:20:11Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -21738,6 +21823,27 @@
       ]
     },
     {
+      "title": "$Φ$-Bench: Can Large Language Models Engineer the Infrastructure That Powers Them?",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / LLM infrastructure engineering agents / benchmark",
+      "arxiv": "2609.10226",
+      "doi": "",
+      "official_id": "arXiv:2609.10226",
+      "paper_url": "https://arxiv.org/abs/2609.10226",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Benchmark grounded in real code repositories spans kernel completion through long-horizon end-to-end LLM-system optimization, directly measuring whether frontier LLMs can engineer the infrastructure stack. Important agentic AI-infra benchmark lineage, but not itself an efficiency technique.",
+      "published_at": "2026-09-09T14:23:47Z",
+      "updated_at": "2026-09-09T14:23:47Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "CEDD-optimizer: Enabling Cost-Efficient Dataset Distillation on Geographically Distributed Edge Systems",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI systems / distributed dataset distillation / cost optimization",
@@ -22715,6 +22821,29 @@
       ]
     },
     {
+      "title": "ArmPoser: Real-Time, Calibration-Free Arm Pose Estimation from Smartwatch IMU",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / edge sensing / real-time pose estimation",
+      "arxiv": "2609.08806",
+      "doi": "",
+      "official_id": "arXiv:2609.08806",
+      "paper_url": "https://arxiv.org/abs/2609.08806",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Physical-AI/edge protected item: ArmPoser eliminates coordinate transforms, explicit alignment, and user bone-offset calibration by learning directly in device-native smartwatch coordinates, while matching or exceeding calibrated baselines in real-time deployment studies. Efficiency is workflow/deployment simplification rather than a quantified accelerator result.",
+      "published_at": "2026-09-08T14:33:30Z",
+      "updated_at": "2026-09-08T14:33:30Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Hi-FLoop: Hierarchical State-Feedback Loops for Multi-Timescale World Modeling",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI / world models / multi-timescale closed-loop generation",
@@ -22927,6 +23056,27 @@
       "is_latest_30d": true,
       "directions": [
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "PGMT: Perceptive General Motion Tracking for Humanoid Robots",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / humanoid runtime / selective terrain perception",
+      "arxiv": "2609.08511",
+      "doi": "",
+      "official_id": "arXiv:2609.08511",
+      "paper_url": "https://arxiv.org/abs/2609.08511",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Physical-AI protected item: PGMT uses motion-conditioned terrain glimpses to selectively encode terrain regions relevant to the current motion and demonstrates zero-shot Unitree G1 deployment over complex real terrain. Selective perception is runtime-relevant, though the paper reports robustness rather than compute savings.",
+      "published_at": "2026-09-08T09:57:32Z",
+      "updated_at": "2026-09-09T08:20:27Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -23186,6 +23336,26 @@
         "Quantization",
         "Efficient Reasoning / Agents",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "SE-GoS: Self-Evolving Graph-of-Skills for Skill Library at Scale",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / scalable skill retrieval / token efficiency",
+      "arxiv": "2609.08228",
+      "doi": "",
+      "official_id": "arXiv:2609.08228",
+      "paper_url": "https://arxiv.org/abs/2609.08228",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Training-free evolution of a Graph-of-Skills from execution traces improves retrieval quality while reducing context load. On SkillsBench, a representative round raises reward from 52.4% to 59.4% while reducing input tokens by about one-third relative to full skill loading; directly relevant to scalable agent skill/memory infrastructure.",
+      "published_at": "2026-09-08T04:20:11Z",
+      "updated_at": "2026-09-08T04:20:11Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
       ]
     },
     {
