@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-12",
   "window_start_beijing": "2026-08-13",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 881,
+  "tracked_total": 884,
   "p0_strong_or_canonical": [
     {
       "title": "AccelForge: Comprehensive Modeling and Co-Design Framework for AI Accelerators",
@@ -4465,6 +4465,29 @@
       ]
     },
     {
+      "title": "Routing by Reasoning Need: Trajectory-Aware Decoding Control for Diffusion Vision-Language Models",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / multimodal serving",
+      "arxiv": "2609.11315",
+      "doi": "",
+      "official_id": "arXiv:2609.11315",
+      "paper_url": "https://arxiv.org/abs/2609.11315",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "training-free trajectory-aware routing of diffusion-VLM decoding budget among early commitment, baseline preservation and reasoning-supportive decoding",
+      "published_at": "2026-09-10T09:41:19Z",
+      "updated_at": "2026-09-10T09:41:19Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Diffusion / Flow Acceleration",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "2AM: Grounding Agent-Side Memory as Guidance for Steerable Action Models in Long-Horizon Manipulation",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / agent memory / long-horizon manipulation",
@@ -6343,6 +6366,26 @@
       ]
     },
     {
+      "title": "A Note on Scaling in Randomly Rotated Quantization and Its Connection to the CDEF +1 Pythagorean Relation",
+      "venue": "arXiv 2026",
+      "topic": "quantization",
+      "arxiv": "2609.08759",
+      "doi": "",
+      "official_id": "arXiv:2609.08759",
+      "paper_url": "https://arxiv.org/abs/2609.08759",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "finite-dimensional theory for randomized-rotation quantization; useful lineage for rotation-based low-bit quantization",
+      "published_at": "2026-09-08T13:55:15Z",
+      "updated_at": "2026-09-08T13:55:15Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization"
+      ]
+    },
+    {
       "title": "No Free Checker: A Survey of Verifiers for Robot Policies",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / policy verification / runtime monitors",
@@ -6683,6 +6726,27 @@
       "directions": [
         "LLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "AI-Native Orchestration in the 6G Continuum: Evolving Operator Platforms with Agentic AI",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems",
+      "arxiv": "2609.08441",
+      "doi": "",
+      "official_id": "arXiv:2609.08441",
+      "paper_url": "https://arxiv.org/abs/2609.08441",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "agentic cloud-edge-IoT orchestration with persistent service context, closed-loop resource optimization and cross-domain SLA control",
+      "published_at": "2026-09-08T08:46:03Z",
+      "updated_at": "2026-09-08T08:46:03Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -23448,6 +23512,29 @@
       ]
     },
     {
+      "title": "Routing by Reasoning Need: Trajectory-Aware Decoding Control for Diffusion Vision-Language Models",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / multimodal serving",
+      "arxiv": "2609.11315",
+      "doi": "",
+      "official_id": "arXiv:2609.11315",
+      "paper_url": "https://arxiv.org/abs/2609.11315",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "training-free trajectory-aware routing of diffusion-VLM decoding budget among early commitment, baseline preservation and reasoning-supportive decoding",
+      "published_at": "2026-09-10T09:41:19Z",
+      "updated_at": "2026-09-10T09:41:19Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Diffusion / Flow Acceleration",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "2AM: Grounding Agent-Side Memory as Guidance for Steerable Action Models in Long-Horizon Manipulation",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / agent memory / long-horizon manipulation",
@@ -25326,6 +25413,26 @@
       ]
     },
     {
+      "title": "A Note on Scaling in Randomly Rotated Quantization and Its Connection to the CDEF +1 Pythagorean Relation",
+      "venue": "arXiv 2026",
+      "topic": "quantization",
+      "arxiv": "2609.08759",
+      "doi": "",
+      "official_id": "arXiv:2609.08759",
+      "paper_url": "https://arxiv.org/abs/2609.08759",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "finite-dimensional theory for randomized-rotation quantization; useful lineage for rotation-based low-bit quantization",
+      "published_at": "2026-09-08T13:55:15Z",
+      "updated_at": "2026-09-08T13:55:15Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization"
+      ]
+    },
+    {
       "title": "No Free Checker: A Survey of Verifiers for Robot Policies",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / policy verification / runtime monitors",
@@ -25666,6 +25773,27 @@
       "directions": [
         "LLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "AI-Native Orchestration in the 6G Continuum: Evolving Operator Platforms with Agentic AI",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems",
+      "arxiv": "2609.08441",
+      "doi": "",
+      "official_id": "arXiv:2609.08441",
+      "paper_url": "https://arxiv.org/abs/2609.08441",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "agentic cloud-edge-IoT orchestration with persistent service context, closed-loop resource optimization and cross-domain SLA control",
+      "published_at": "2026-09-08T08:46:03Z",
+      "updated_at": "2026-09-08T08:46:03Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
