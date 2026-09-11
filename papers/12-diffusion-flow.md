@@ -1,10 +1,10 @@
 # 12 · Diffusion / Flow Acceleration
 
-> **207 canonical papers** mapped here, plus a broader **51-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **207 canonical papers** mapped here, plus a broader **53-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 51 tracked
+## 🆕 Latest 30 Days · 53 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -19,7 +19,9 @@
 | **P1 · Watch** | **Mask Forcing: Improving Autoregressive Video Diffusion Distillation via Dual-Noise Masking Rollout** | arXiv 2026 | video/image generation acceleration / diffusion distillation / autoregressive video generation | [Link](https://arxiv.org/abs/2609.09123) | — |
 | **P1 · Watch** | **SAM3-O2D2: Zero-Shot Object Out-of-Distribution Detection by Object Class Prompting of the SAM3-Image Model** | arXiv 2026 | multimodal/MLLM serving / efficient vision inference / OOD detection | [Link](https://arxiv.org/abs/2609.08281) | — |
 | **P1 · Watch** | **Marigold V2: Revisiting Diffusion Transformers for Monocular Depth Estimation** | arXiv 2026 | diffusion/flow acceleration / dense vision / single-step inference | [Link](https://arxiv.org/abs/2609.08084) | [Repo](https://hf.co/spaces/huawei-bayerlab/marigold-v2-web) |
+| **P1 · Watch** | **Flow3D-OPD: Multi-Teacher On-Policy Distillation for 3D Geometry Generation with Flow-Matching Diffusion Transformer** | arXiv 2026 | diffusion/flow acceleration / 3D generation / distillation | [Link](https://arxiv.org/abs/2609.07137) | — |
 | **P0 · Strong** | **RoLA: Rotary-Positioned Low-Rank Linear Attention for Efficient Diffusion Transformers** | arXiv 2026 | video/image generation acceleration / diffusion/flow acceleration / efficient attention | [Link](https://arxiv.org/abs/2609.06712) | — |
+| **P1 · Watch** | **Multi-History-Step SDE Inversion for Image Editing with Superior Regional Awareness** | arXiv 2026 | diffusion/flow acceleration / image editing / low-step sampling | [Link](https://arxiv.org/abs/2609.06602) | — |
 | **P1 · Watch** | **DFlow: Enabling Verifier Information Flow in Block Diffusion Speculative Decoding** | arXiv 2026 | speculative decoding / diffusion language models / verifier reuse | [Link](https://arxiv.org/abs/2609.06498) | — |
 | **P1 · Watch** | **PLSR: Progressive and Localized Super-Resolution of 3D Objects via Localized Latent Voxel Diffusion** | arXiv 2026 | diffusion/flow acceleration / 3D generation / localized denoising / memory efficiency | [Link](https://arxiv.org/abs/2609.06436) | — |
 | **P1 · Watch** | **Object-Aware Background-Controlled Editing via Weighted Velocity Guidance** | arXiv 2026 | diffusion/flow acceleration / training-free image-video editing | [Link](https://arxiv.org/abs/2609.06288) | — |

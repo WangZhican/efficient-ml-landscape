@@ -1,10 +1,10 @@
 # 11 · Video / Image Generation
 
-> **82 canonical papers** mapped here, plus a broader **38-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **82 canonical papers** mapped here, plus a broader **40-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 38 tracked
+## 🆕 Latest 30 Days · 40 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -12,9 +12,11 @@
 | **P1 · Watch** | **Mask Forcing: Improving Autoregressive Video Diffusion Distillation via Dual-Noise Masking Rollout** | arXiv 2026 | video/image generation acceleration / diffusion distillation / autoregressive video generation | [Link](https://arxiv.org/abs/2609.09123) | — |
 | **P1 · Watch** | **Heat Kernel Textures: the Geodesic Gaussians That Do Not Splat** | arXiv 2026 | video/image generation acceleration / 3D representation / memory efficiency | [Link](https://arxiv.org/abs/2609.07557) | — |
 | **P1 · Watch** | **LightSplat: Real-Time High-Fidelity 3D Gaussian SLAM with Loop Closure** | arXiv 2026 | VLA/WAM/Physical AI serving / 3DGS / real-time SLAM | [Link](https://arxiv.org/abs/2609.07274) | — |
+| **P1 · Watch** | **PRG-Fusion: Orchestrating Generative Priors with Reconstruction Evidence for Driving View Synthesis** | arXiv 2026 | VLA/WAM/Physical AI serving / simulation / region-adaptive generation | [Link](https://arxiv.org/abs/2609.06948) | — |
 | **P0 · Strong** | **RoLA: Rotary-Positioned Low-Rank Linear Attention for Efficient Diffusion Transformers** | arXiv 2026 | video/image generation acceleration / diffusion/flow acceleration / efficient attention | [Link](https://arxiv.org/abs/2609.06712) | — |
 | **P1 · Watch** | **From Splats to Silicon: Rethinking Computational Efficiency of 3DGS** | arXiv 2026 | GPU kernel/DSL/compilers / 3DGS acceleration / accelerator architecture | [Link](https://arxiv.org/abs/2609.06157) | — |
 | **P0 · Strong** | **TBDub: Production-Oriented Visual Dubbing** | arXiv 2026 | video/image generation acceleration / diffusion/flow acceleration / few-step distillation | [Link](https://arxiv.org/abs/2609.06144) | [Repo](https://github.com/TaoLiveAIGC/TBDub) |
+| **P1 · Watch** | **AVSplat: Dense-View Feed-Forward 3D Gaussian Splatting with Assist-View Preconditioning** | arXiv 2026 | VLA/WAM/Physical AI serving / 3D perception / feed-forward 3DGS | [Link](https://arxiv.org/abs/2609.05925) | — |
 | **P1 · Watch** | **PAI-Actor: Cinematic Multi-Character Replacement in Dynamic Scenes** | arXiv 2026 | video/image generation acceleration / autoregressive distillation / long-form generation | [Link](https://arxiv.org/abs/2609.05918) | — |
 | **P1 · Watch** | **FreeTransformSR: Efficient Lightweight Image Super-Resolution via Free Low-Rank Learnable Transform** | arXiv 2026 | video/image generation acceleration / lightweight image restoration | [Link](https://arxiv.org/abs/2609.05912) | [Repo](https://github.com/HJiLi/FreeTransformSR) |
 | **P0 · Strong** | **SceneMosaic: Efficient and Diverse Simulation-Ready Scene Generation via Hybrid Agentic Layout Evolution** | arXiv 2026 | VLA/WAM/Physical AI serving / simulation infrastructure / agentic generation | [Link](https://arxiv.org/abs/2609.05594) | [Repo](https://github.com/rxjfighting/SceneMosaic) |

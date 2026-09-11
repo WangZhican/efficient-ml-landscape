@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-11",
   "window_start_beijing": "2026-08-12",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 816,
+  "tracked_total": 827,
   "p0_strong_or_canonical": [
     {
       "title": "HybridFLow: SDN-Orchestrated Client Partitioning for Hybrid Federated Learning",
@@ -1455,6 +1455,27 @@
         "LLM Serving",
         "Multimodal / MLLM Serving",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "EquiGQNet: Fast Grasp Quality Evaluation via Shared Equivariant Point Cloud Encoding",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / grasp planning / shared scene encoding",
+      "arxiv": "2609.07145",
+      "doi": "",
+      "official_id": "arXiv:2609.07145",
+      "paper_url": "https://arxiv.org/abs/2609.07145",
+      "code_url": "https://equigqnet.github.io/",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Encodes the point cloud once with SO(3)-equivariant features instead of rotating and re-encoding the scene for every grasp. CEM planning drops from 3.31 s to 0.48 s (6.9x speedup) while real-world decluttering reaches 95.2% grasp success and 230 picks/hour.",
+      "published_at": "2026-09-07T07:44:58Z",
+      "updated_at": "2026-09-07T07:44:58Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -4773,6 +4794,26 @@
       ]
     },
     {
+      "title": "Introducing Consort: A Spec-First Agent Framework for Enforced, Test-Driven Development on Live Database Branches",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / coding-agent infrastructure / deterministic orchestration",
+      "arxiv": "2609.09671",
+      "doi": "",
+      "official_id": "arXiv:2609.09671",
+      "paper_url": "https://arxiv.org/abs/2609.09671",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Uses a deterministic orchestrator, immutable tests, human-approved gates and live database branches so non-deterministic coding agents cannot bypass engineering controls. Valuable production-agent harness lineage; no measured runtime/token reduction yet.",
+      "published_at": "2026-09-09T03:38:38Z",
+      "updated_at": "2026-09-09T03:38:38Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "PRAGMA: Evaluating Personalized Guidance with Memory Alignment in Lifelong Conversations",
       "venue": "arXiv 2026",
       "topic": "efficient reasoning/agent systems / long-term memory / retrieval benchmark",
@@ -6887,6 +6928,27 @@
       ]
     },
     {
+      "title": "Open-Set Ego-Noise Separation for Legged-Robot Audition via Annotation-Free Adaptation and Pretrained-Model Transfer",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / robot sensing / annotation-efficient adaptation",
+      "arxiv": "2609.07440",
+      "doi": "",
+      "official_id": "arXiv:2609.07440",
+      "paper_url": "https://arxiv.org/abs/2609.07440",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Selects ego-noise-dominant clips from unlabeled robot recordings and adapts a pretrained separator without robot-specific manual labels or separately recorded ego-noise-only data. Protected Physical-AI sensing/adaptation lineage.",
+      "published_at": "2026-09-07T12:49:36Z",
+      "updated_at": "2026-09-07T12:49:36Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Unified Vision-Centric Pedestrian Crossing Action Prediction via Adaptive Patch Projection and Proactive Spatial Rectification",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / multimodal token efficiency / autonomous driving",
@@ -7012,6 +7074,27 @@
         "Sparsity / Pruning",
         "Efficient Attention",
         "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Long-Horizon Language Model Reinforcement Learning via Progressive Point Matching",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / RL post-training / long-horizon credit assignment",
+      "arxiv": "2609.07303",
+      "doi": "",
+      "official_id": "arXiv:2609.07303",
+      "paper_url": "https://arxiv.org/abs/2609.07303",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Segment-level progressive point matching provides an unbiased dense reward and is shown theoretically and empirically to scale exponentially more efficiently than sparse outcome rewards on long-horizon tasks; practical version needs only one reference trajectory per task.",
+      "published_at": "2026-09-07T10:21:41Z",
+      "updated_at": "2026-09-07T10:21:41Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Sparsity / Pruning",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -7232,6 +7315,26 @@
       ]
     },
     {
+      "title": "Flow3D-OPD: Multi-Teacher On-Policy Distillation for 3D Geometry Generation with Flow-Matching Diffusion Transformer",
+      "venue": "arXiv 2026",
+      "topic": "diffusion/flow acceleration / 3D generation / distillation",
+      "arxiv": "2609.07137",
+      "doi": "",
+      "official_id": "arXiv:2609.07137",
+      "paper_url": "https://arxiv.org/abs/2609.07137",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Uses multi-teacher on-policy distillation and hard task routing to consolidate specialized flow-matching 3D teachers into one student while mitigating gradient interference. Relevant flow-distillation lineage; no measured inference acceleration in abstract.",
+      "published_at": "2026-09-07T07:36:52Z",
+      "updated_at": "2026-09-07T07:36:52Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
       "title": "NutriBench-Kitchen: Benchmarking Embodied AI for Nutrition Management",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI / persistent embodied memory / long-horizon kitchen agents",
@@ -7418,6 +7521,29 @@
       "directions": [
         "Sparsity / Pruning",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "PRG-Fusion: Orchestrating Generative Priors with Reconstruction Evidence for Driving View Synthesis",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / simulation / region-adaptive generation",
+      "arxiv": "2609.06948",
+      "doi": "",
+      "official_id": "arXiv:2609.06948",
+      "paper_url": "https://arxiv.org/abs/2609.06948",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Routes regions among 3DGS preservation, LiDAR-guided repair, and video-prior generation according to reconstruction evidence. Protected Physical-AI simulation lineage with explicit region-adaptive compute semantics; current abstract emphasizes quality rather than latency.",
+      "published_at": "2026-09-07T02:34:51Z",
+      "updated_at": "2026-09-07T02:34:51Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Video / Image Generation",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -7613,6 +7739,49 @@
         "LLM Serving",
         "KV Cache / Long Context",
         "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "Multi-History-Step SDE Inversion for Image Editing with Superior Regional Awareness",
+      "venue": "arXiv 2026",
+      "topic": "diffusion/flow acceleration / image editing / low-step sampling",
+      "arxiv": "2609.06602",
+      "doi": "",
+      "official_id": "arXiv:2609.06602",
+      "paper_url": "https://arxiv.org/abs/2609.06602",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Predictor-corrector multi-history-step SDE inversion targets faithful editing with fewer sampling steps and automatic semantic masks without extra user input. Direct diffusion sampling-efficiency mechanism, but abstract does not quantify wall-clock speedup.",
+      "published_at": "2026-09-06T13:37:46Z",
+      "updated_at": "2026-09-06T13:37:46Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "Unifying Physics-Based Humanoid Interaction with a Context-Conditioned Interaction Prior",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / humanoid control / reusable skill prior",
+      "arxiv": "2609.06591",
+      "doi": "",
+      "official_id": "arXiv:2609.06591",
+      "paper_url": "https://arxiv.org/abs/2609.06591",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Distills heterogeneous locomotion/manipulation teachers into a shared context-conditioned interaction prior that is reused and adapted for downstream humanoid tasks. Protected Physical-AI modular-policy lineage; no clean inference-speed claim.",
+      "published_at": "2026-09-06T13:16:48Z",
+      "updated_at": "2026-09-06T13:16:48Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -7992,6 +8161,27 @@
       "updated_at": "2026-09-05T18:39:50Z",
       "is_latest_30d": true,
       "directions": [
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "EgoNeMo: Transferable Map of Pedestrian Dynamics via Egocentric LiDAR Scan",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / navigation / transferable scene dynamics",
+      "arxiv": "2609.06195",
+      "doi": "",
+      "official_id": "arXiv:2609.06195",
+      "paper_url": "https://arxiv.org/abs/2609.06195",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Infers a transferable continuous map of pedestrian dynamics in unseen environments from a single instantaneous egocentric LiDAR scan, avoiding site-specific trajectory accumulation. Protected Physical-AI world-state lineage; efficiency benefit is data/observation reuse rather than measured inference speed.",
+      "published_at": "2026-09-05T17:35:21Z",
+      "updated_at": "2026-09-05T17:35:21Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
         "VLA / WAM / Physical AI"
       ]
     },
@@ -8396,6 +8586,30 @@
       "directions": [
         "Sparsity / Pruning",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "AVSplat: Dense-View Feed-Forward 3D Gaussian Splatting with Assist-View Preconditioning",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / 3D perception / feed-forward 3DGS",
+      "arxiv": "2609.05925",
+      "doi": "",
+      "official_id": "arXiv:2609.05925",
+      "paper_url": "https://arxiv.org/abs/2609.05925",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Uses one lightweight interaction with a small relevance/diversity-selected Assist-View set before global attention, plus occupancy-aware voxel fusion, restoring positive scaling as input views grow. Relevant efficient 3D perception lineage, though abstract lacks wall-clock savings.",
+      "published_at": "2026-09-05T06:33:04Z",
+      "updated_at": "2026-09-05T06:33:04Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler",
+        "Video / Image Generation",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -9846,6 +10060,28 @@
         "KV Cache / Long Context",
         "Quantization",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Where to Look Matters: Learning Influential Views for VLM-based 3D Visual Grounding",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / active vision / view selection",
+      "arxiv": "2609.04741",
+      "doi": "",
+      "official_id": "arXiv:2609.04741",
+      "paper_url": "https://arxiv.org/abs/2609.04741",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Trains a lightweight query-conditioned selector to choose influential camera views before frozen-VLM comparative grounding, replacing fixed visibility heuristics. Relevant adaptive-perception lineage, though accuracy rather than compute is the reported endpoint.",
+      "published_at": "2026-09-04T05:17:38Z",
+      "updated_at": "2026-09-04T05:17:38Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -19061,6 +19297,27 @@
       ]
     },
     {
+      "title": "EquiGQNet: Fast Grasp Quality Evaluation via Shared Equivariant Point Cloud Encoding",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / grasp planning / shared scene encoding",
+      "arxiv": "2609.07145",
+      "doi": "",
+      "official_id": "arXiv:2609.07145",
+      "paper_url": "https://arxiv.org/abs/2609.07145",
+      "code_url": "https://equigqnet.github.io/",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Encodes the point cloud once with SO(3)-equivariant features instead of rotating and re-encoding the scene for every grasp. CEM planning drops from 3.31 s to 0.48 s (6.9x speedup) while real-world decluttering reaches 95.2% grasp success and 230 picks/hour.",
+      "published_at": "2026-09-07T07:44:58Z",
+      "updated_at": "2026-09-07T07:44:58Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Online Draft Co-Training for Speculative Decoding in Large-Scale, Long-Context RL Post-Training",
       "venue": "arXiv 2026",
       "topic": "speculative decoding / RL post-training / context parallelism / pipeline parallelism",
@@ -22374,6 +22631,26 @@
       ]
     },
     {
+      "title": "Introducing Consort: A Spec-First Agent Framework for Enforced, Test-Driven Development on Live Database Branches",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / coding-agent infrastructure / deterministic orchestration",
+      "arxiv": "2609.09671",
+      "doi": "",
+      "official_id": "arXiv:2609.09671",
+      "paper_url": "https://arxiv.org/abs/2609.09671",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Uses a deterministic orchestrator, immutable tests, human-approved gates and live database branches so non-deterministic coding agents cannot bypass engineering controls. Valuable production-agent harness lineage; no measured runtime/token reduction yet.",
+      "published_at": "2026-09-09T03:38:38Z",
+      "updated_at": "2026-09-09T03:38:38Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "PRAGMA: Evaluating Personalized Guidance with Memory Alignment in Lifelong Conversations",
       "venue": "arXiv 2026",
       "topic": "efficient reasoning/agent systems / long-term memory / retrieval benchmark",
@@ -24488,6 +24765,27 @@
       ]
     },
     {
+      "title": "Open-Set Ego-Noise Separation for Legged-Robot Audition via Annotation-Free Adaptation and Pretrained-Model Transfer",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / robot sensing / annotation-efficient adaptation",
+      "arxiv": "2609.07440",
+      "doi": "",
+      "official_id": "arXiv:2609.07440",
+      "paper_url": "https://arxiv.org/abs/2609.07440",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Selects ego-noise-dominant clips from unlabeled robot recordings and adapts a pretrained separator without robot-specific manual labels or separately recorded ego-noise-only data. Protected Physical-AI sensing/adaptation lineage.",
+      "published_at": "2026-09-07T12:49:36Z",
+      "updated_at": "2026-09-07T12:49:36Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Unified Vision-Centric Pedestrian Crossing Action Prediction via Adaptive Patch Projection and Proactive Spatial Rectification",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / multimodal token efficiency / autonomous driving",
@@ -24613,6 +24911,27 @@
         "Sparsity / Pruning",
         "Efficient Attention",
         "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Long-Horizon Language Model Reinforcement Learning via Progressive Point Matching",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / RL post-training / long-horizon credit assignment",
+      "arxiv": "2609.07303",
+      "doi": "",
+      "official_id": "arXiv:2609.07303",
+      "paper_url": "https://arxiv.org/abs/2609.07303",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Segment-level progressive point matching provides an unbiased dense reward and is shown theoretically and empirically to scale exponentially more efficiently than sparse outcome rewards on long-horizon tasks; practical version needs only one reference trajectory per task.",
+      "published_at": "2026-09-07T10:21:41Z",
+      "updated_at": "2026-09-07T10:21:41Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Sparsity / Pruning",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -24833,6 +25152,26 @@
       ]
     },
     {
+      "title": "Flow3D-OPD: Multi-Teacher On-Policy Distillation for 3D Geometry Generation with Flow-Matching Diffusion Transformer",
+      "venue": "arXiv 2026",
+      "topic": "diffusion/flow acceleration / 3D generation / distillation",
+      "arxiv": "2609.07137",
+      "doi": "",
+      "official_id": "arXiv:2609.07137",
+      "paper_url": "https://arxiv.org/abs/2609.07137",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Uses multi-teacher on-policy distillation and hard task routing to consolidate specialized flow-matching 3D teachers into one student while mitigating gradient interference. Relevant flow-distillation lineage; no measured inference acceleration in abstract.",
+      "published_at": "2026-09-07T07:36:52Z",
+      "updated_at": "2026-09-07T07:36:52Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
       "title": "NutriBench-Kitchen: Benchmarking Embodied AI for Nutrition Management",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI / persistent embodied memory / long-horizon kitchen agents",
@@ -25019,6 +25358,29 @@
       "directions": [
         "Sparsity / Pruning",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "PRG-Fusion: Orchestrating Generative Priors with Reconstruction Evidence for Driving View Synthesis",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / simulation / region-adaptive generation",
+      "arxiv": "2609.06948",
+      "doi": "",
+      "official_id": "arXiv:2609.06948",
+      "paper_url": "https://arxiv.org/abs/2609.06948",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Routes regions among 3DGS preservation, LiDAR-guided repair, and video-prior generation according to reconstruction evidence. Protected Physical-AI simulation lineage with explicit region-adaptive compute semantics; current abstract emphasizes quality rather than latency.",
+      "published_at": "2026-09-07T02:34:51Z",
+      "updated_at": "2026-09-07T02:34:51Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Video / Image Generation",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -25214,6 +25576,49 @@
         "LLM Serving",
         "KV Cache / Long Context",
         "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "Multi-History-Step SDE Inversion for Image Editing with Superior Regional Awareness",
+      "venue": "arXiv 2026",
+      "topic": "diffusion/flow acceleration / image editing / low-step sampling",
+      "arxiv": "2609.06602",
+      "doi": "",
+      "official_id": "arXiv:2609.06602",
+      "paper_url": "https://arxiv.org/abs/2609.06602",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Predictor-corrector multi-history-step SDE inversion targets faithful editing with fewer sampling steps and automatic semantic masks without extra user input. Direct diffusion sampling-efficiency mechanism, but abstract does not quantify wall-clock speedup.",
+      "published_at": "2026-09-06T13:37:46Z",
+      "updated_at": "2026-09-06T13:37:46Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "Unifying Physics-Based Humanoid Interaction with a Context-Conditioned Interaction Prior",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / humanoid control / reusable skill prior",
+      "arxiv": "2609.06591",
+      "doi": "",
+      "official_id": "arXiv:2609.06591",
+      "paper_url": "https://arxiv.org/abs/2609.06591",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Distills heterogeneous locomotion/manipulation teachers into a shared context-conditioned interaction prior that is reused and adapted for downstream humanoid tasks. Protected Physical-AI modular-policy lineage; no clean inference-speed claim.",
+      "published_at": "2026-09-06T13:16:48Z",
+      "updated_at": "2026-09-06T13:16:48Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -25593,6 +25998,27 @@
       "updated_at": "2026-09-05T18:39:50Z",
       "is_latest_30d": true,
       "directions": [
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "EgoNeMo: Transferable Map of Pedestrian Dynamics via Egocentric LiDAR Scan",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / navigation / transferable scene dynamics",
+      "arxiv": "2609.06195",
+      "doi": "",
+      "official_id": "arXiv:2609.06195",
+      "paper_url": "https://arxiv.org/abs/2609.06195",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Infers a transferable continuous map of pedestrian dynamics in unseen environments from a single instantaneous egocentric LiDAR scan, avoiding site-specific trajectory accumulation. Protected Physical-AI world-state lineage; efficiency benefit is data/observation reuse rather than measured inference speed.",
+      "published_at": "2026-09-05T17:35:21Z",
+      "updated_at": "2026-09-05T17:35:21Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
         "VLA / WAM / Physical AI"
       ]
     },
@@ -25997,6 +26423,30 @@
       "directions": [
         "Sparsity / Pruning",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "AVSplat: Dense-View Feed-Forward 3D Gaussian Splatting with Assist-View Preconditioning",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / 3D perception / feed-forward 3DGS",
+      "arxiv": "2609.05925",
+      "doi": "",
+      "official_id": "arXiv:2609.05925",
+      "paper_url": "https://arxiv.org/abs/2609.05925",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Uses one lightweight interaction with a small relevance/diversity-selected Assist-View set before global attention, plus occupancy-aware voxel fusion, restoring positive scaling as input views grow. Relevant efficient 3D perception lineage, though abstract lacks wall-clock savings.",
+      "published_at": "2026-09-05T06:33:04Z",
+      "updated_at": "2026-09-05T06:33:04Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler",
+        "Video / Image Generation",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -27447,6 +27897,28 @@
         "KV Cache / Long Context",
         "Quantization",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Where to Look Matters: Learning Influential Views for VLM-based 3D Visual Grounding",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / active vision / view selection",
+      "arxiv": "2609.04741",
+      "doi": "",
+      "official_id": "arXiv:2609.04741",
+      "paper_url": "https://arxiv.org/abs/2609.04741",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Trains a lightweight query-conditioned selector to choose influential camera views before frozen-VLM comparative grounding, replacing fixed visibility heuristics. Relevant adaptive-perception lineage, though accuracy rather than compute is the reported endpoint.",
+      "published_at": "2026-09-04T05:17:38Z",
+      "updated_at": "2026-09-04T05:17:38Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {

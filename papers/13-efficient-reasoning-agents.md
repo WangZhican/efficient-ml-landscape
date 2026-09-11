@@ -1,10 +1,10 @@
 # 13 · Efficient Reasoning / Agents
 
-> **317 canonical papers** mapped here, plus a broader **215-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **317 canonical papers** mapped here, plus a broader **217-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 215 tracked
+## 🆕 Latest 30 Days · 217 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -30,6 +30,7 @@
 | **P1 · Watch** | **Procedural Memory Under Change: Reuse and Interference in Controlled Web Tasks** | arXiv 2026 | efficient reasoning/agent systems / procedural memory / reuse under distribution shift | [Link](https://arxiv.org/abs/2609.09774) | — |
 | **P0 · Strong** | **HiRAD: A Flexible Large-Scale AGV Routing System** | arXiv 2026 | VLA/WAM/Physical AI / real-time multi-agent routing / hierarchical RL / edge control | [Link](https://arxiv.org/abs/2609.09752) | — |
 | **P1 · Watch** | **CT-SAFR: Safe and Interpretable Chain-of-Thought Reasoning for Autonomous Robots: A Multi-Layered Verification Framework for Trustworthy AI-Driven Robotic Decision Making** | arXiv 2026 | VLA/WAM/Physical AI serving / runtime verification / robot reasoning | [Link](https://arxiv.org/abs/2609.09692) | — |
+| **P1 · Watch** | **Introducing Consort: A Spec-First Agent Framework for Enforced, Test-Driven Development on Live Database Branches** | arXiv 2026 | efficient reasoning/agent systems / coding-agent infrastructure / deterministic orchestration | [Link](https://arxiv.org/abs/2609.09671) | — |
 | **P1 · Watch** | **PRAGMA: Evaluating Personalized Guidance with Memory Alignment in Lifelong Conversations** | arXiv 2026 | efficient reasoning/agent systems / long-term memory / retrieval benchmark | [Link](https://arxiv.org/abs/2609.09664) | — |
 | **P0 · Strong** | **UNISON: A Co-Designed Near-Memory Scheduler of Session KV Residency for LLM Agents** | arXiv 2026 | KV cache/long-context / agent serving / near-memory scheduling | [Link](https://arxiv.org/abs/2609.09643) | — |
 | **P1 · Watch** | **Benchmarking Agentic HLS Design Tasks With HLS-Eval** | arXiv 2026 | GPU kernel/DSL/compilers / hardware design automation / agent cost profiling | [Link](https://arxiv.org/abs/2609.09526) | — |
@@ -77,6 +78,7 @@
 | **P1 · Watch** | **Beyond Fluent Generation: A CPU Reliability Benchmark for MCP-Style Tool Calling in Sub-2B Small Language Models for Edge Deployment** | arXiv 2026 | edge/cloud/heterogeneous AI systems / tool-using SLMs / CPU inference / reliability-resource tradeoff | [Link](https://arxiv.org/abs/2609.07370) | — |
 | **P1 · Watch** | **EnvPilot: Systematic Design and Evaluation of an Experience-Augmented Agent for Software Environment Setup** | arXiv 2026 | efficient reasoning/agent systems / software engineering agents / trajectory memory / experience reuse | [Link](https://arxiv.org/abs/2609.07357) | — |
 | **P0 · Strong** | **PV-WM: A Heterogeneous Micro-Macro World Model for Articulated Pedestrian-Vehicle Co-Rollout** | arXiv 2026 | VLA/WAM/Physical AI serving / world model / efficient rollout | [Link](https://arxiv.org/abs/2609.07328) | — |
+| **P1 · Watch** | **Long-Horizon Language Model Reinforcement Learning via Progressive Point Matching** | arXiv 2026 | efficient reasoning/agent systems / RL post-training / long-horizon credit assignment | [Link](https://arxiv.org/abs/2609.07303) | — |
 | **P1 · Watch** | **Phase-and-First-Arrival VLM Feedback for Sparse-Reward Reinforcement Learning in Surgical Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving / robot learning / sparse VLM supervision | [Link](https://arxiv.org/abs/2609.07211) | — |
 | **P0 · Strong** | **Agentic Algorithm Engineering: Improving Shared-Memory Exact Minimum Cuts** | arXiv 2026 | efficient reasoning/agent systems / autonomous algorithm engineering / shared-memory optimization / performance tuning | [Link](https://arxiv.org/abs/2609.07204) | — |
 | **P1 · Watch** | **PhysMAS: Physics-Grounded Multi-Agent Synthesis of Compositional 4D Gaussians** | arXiv 2026 | VLA/WAM/Physical AI serving / 4D Gaussian world modeling / physics agents | [Link](https://arxiv.org/abs/2609.07174) | — |

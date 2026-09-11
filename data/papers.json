@@ -3904,6 +3904,27 @@
     ]
   },
   {
+    "title": "EquiGQNet: Fast Grasp Quality Evaluation via Shared Equivariant Point Cloud Encoding",
+    "venue": "arXiv 2026",
+    "topic": "VLA/WAM/Physical AI serving / grasp planning / shared scene encoding",
+    "arxiv": "2609.07145",
+    "doi": "",
+    "official_id": "arXiv:2609.07145",
+    "paper_url": "https://arxiv.org/abs/2609.07145",
+    "code_url": "https://equigqnet.github.io/",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Encodes the point cloud once with SO(3)-equivariant features instead of rotating and re-encoding the scene for every grasp. CEM planning drops from 3.31 s to 0.48 s (6.9x speedup) while real-world decluttering reaches 95.2% grasp success and 230 picks/hour.",
+    "published_at": "2026-09-07T07:44:58Z",
+    "updated_at": "2026-09-07T07:44:58Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "EStream: Fast and Memory-Efficient MoE Prefill through Expert Virtualization on Mobile NPUs",
     "venue": "arXiv 2026",
     "topic": "edge AI systems / MoE serving / mobile NPU / expert virtualization",
