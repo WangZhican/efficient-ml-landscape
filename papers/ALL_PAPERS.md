@@ -1,16 +1,23 @@
 # 📚 Paper Library
 
-> **1772 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **830 visible papers = 174 P0 + 537 P1 + 119 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1780 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **841 visible papers = 182 P0 + 540 P1 + 119 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
-## 🆕 P0 · Strong / Canonical recent · 174
+## 🆕 P0 · Strong / Canonical recent · 182
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
+| **P0 · Strong** | **AccelForge: Comprehensive Modeling and Co-Design Framework for AI Accelerators** | arXiv 2026 | edge/cloud/heterogeneous AI systems / accelerator modeling and co-design | [Link](https://arxiv.org/abs/2609.11906) | — |
 | **P0 · Strong** | **Building py-kvcache: A Performance Characterization of External KV Caching for vLLM with NVMe SSDs** | arXiv 2026 | LLM serving / KV cache / NVMe offload | [Link](https://arxiv.org/abs/2609.11744) | — |
+| **P0 · Strong** | **Structured Transforms for Low-Overhead Quantization of Language Models** | arXiv 2026 | quantization / low-overhead LLM compression | [Link](https://arxiv.org/abs/2609.11687) | — |
+| **P0 · Strong** | **Ecdysis: Efficient and Effective Training of Runtime Harnesses for LLM Agents** | arXiv 2026 | efficient reasoning/agent systems / agent runtime harness | [Link](https://arxiv.org/abs/2609.11677) | — |
 | **P0 · Strong** | **OmniKVQuant: KV Cache Quantization for Omni-LLMs** | arXiv 2026 | KV cache/long-context / quantization / multimodal serving | [Link](https://arxiv.org/abs/2609.11582) | — |
+| **P0 · Strong** | **Memory as Plans: World-Action Modeling with Memory-Grounded Planning** | arXiv 2026 | VLA/WAM/Physical AI serving / memory and long-horizon runtime | [Link](https://arxiv.org/abs/2609.11561) | — |
+| **P0 · Strong** | **Characterizing Job Power Elasticity for Power-Flexible AI Training** | arXiv 2026 | distributed training/inference / datacenter power scheduling | [Link](https://arxiv.org/abs/2609.11542) | — |
+| **P0 · Strong** | **Calibration-Aware Uncertainty Cascades for Efficient Heterogeneous Model Collaboration** | arXiv 2026 | edge/cloud/heterogeneous AI systems / adaptive model routing | [Link](https://arxiv.org/abs/2609.11446) | — |
 | **P0 · Strong** | **PATTON: Enabling Commodity PIM for Production LLM Serving** | arXiv 2026 | LLM serving / KV cache / PIM accelerator runtime | [Link](https://arxiv.org/abs/2609.11392) | — |
+| **P0 · Strong** | **VikingRAG: Accurate and Token-efficient Retrieval-augmented Generation over Structured Documents** | arXiv 2026 | efficient reasoning/agent systems / token-efficient RAG serving | [Link](https://arxiv.org/abs/2609.11390) | — |
 | **P0 · Strong** | **REVA: Reusable Evidence View Aggregation for Context-Efficient RAG Serving** | arXiv 2026 | LLM serving / RAG / context compression | [Link](https://arxiv.org/abs/2609.11209) | — |
 | **P0 · Strong** | **FlexComp: One Model for Every Ratio in Context Compression** | arXiv 2026 | LLM serving / context compression / adaptive inference | [Link](https://arxiv.org/abs/2609.11192) | — |
 | **P0 · Strong** | **Phase-Decoupled, Model-Calibrated Power Control for Disaggregated LLM Serving** | arXiv 2026 | LLM serving / PD disaggregation / energy efficiency | [Link](https://arxiv.org/abs/2609.11133) | — |
@@ -19,6 +26,7 @@
 | **P0 · Strong** | **Decoupling Readiness from Release for Tail-Aware Scheduling of Agentic LLM Workflows** | arXiv 2026 | efficient reasoning/agent systems / workflow serving scheduler | [Link](https://arxiv.org/abs/2609.10964) | — |
 | **P0 · Strong** | **IMLE-VLA: Fast Single-Step Action Generation for Vision-Language-Action Policies** | arXiv 2026 | VLA/WAM/Physical AI serving / action head / single-step generation | [Link](https://arxiv.org/abs/2609.10915) | — |
 | **P0 · Strong** | **REACH: Controller-Managed Long-Span ECC for HBM AI Inference** | arXiv 2026 | edge/cloud/heterogeneous AI systems / HBM reliability architecture | [Link](https://arxiv.org/abs/2609.10861) | — |
+| **P0 · Strong** | **ExaServe: Large-Scale LLM Serving on Exascale HPC Systems** | arXiv 2026 | LLM serving / distributed inference / HPC systems | [Link](https://arxiv.org/abs/2609.10812) | — |
 | **P0 · Strong** | **Composable CXL Memory as a Kubernetes-Native Shared Memory for LLM Serving** | arXiv 2026 | LLM serving / KV cache / CXL / cloud runtime | [Link](https://arxiv.org/abs/2609.10790) | — |
 | **P0 · Strong** | **HybridFLow: SDN-Orchestrated Client Partitioning for Hybrid Federated Learning** | arXiv 2026 | distributed training / edge-cloud / federated learning / network-aware scheduling | [Link](https://arxiv.org/abs/2609.10404) | — |
 | **P0 · Strong** | **PACE: Perceived-Latency-Aware Cascading Service Routing and Filler Control for QoE-Efficient Retrieval-Augmented Dialogue Serving** | arXiv 2026 | LLM serving / RAG serving / Physical AI cloud-edge runtime / dialogue systems | [Link](https://arxiv.org/abs/2609.10372) | — |
@@ -183,15 +191,18 @@
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 | **P0 · Strong** | **A Thread-Register Decoupled GPU Execution Model for Efficient Tensor Computation** | Fresh / preprint | GPU execution architecture / tensor cores / LLM serving | [Link](https://arxiv.org/abs/2608.19628) | — |
 
-## 🧭 P1 · Watch · 537
+## 🧭 P1 · Watch · 540
 
 > Clearly relevant and promising, but still awaiting stronger novelty, evidence, venue, or adoption validation.
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
+| **P1 · Watch** | **UniMPA: A Unified Memory-Prediction-Action Model via Action-Grounded Transition Modeling** | arXiv 2026 | VLA/WAM/Physical AI serving / memory-prediction-action model | [Link](https://arxiv.org/abs/2609.11875) | [Repo](https://JiuTian-VL.github.io/UniMPA-page/) |
+| **P1 · Watch** | **ActSafeGuard: Differentiable and Training-Aligned Constraint Enforcement for Flow-Matching Policies** | arXiv 2026 | VLA/WAM/Physical AI serving / flow-policy runtime safety | [Link](https://arxiv.org/abs/2609.11697) | — |
 | **P1 · Watch** | **Taming Bitwise Behavior in GPU Kernels with Tensor Core: Black-Box Reconstruction, Compiler Enforcement, and Static Verification** | arXiv 2026 | GPU kernel/DSL/compilers / tensor core / deterministic kernels | [Link](https://arxiv.org/abs/2609.11356) | — |
 | **P1 · Watch** | **2AM: Grounding Agent-Side Memory as Guidance for Steerable Action Models in Long-Horizon Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving / agent memory / long-horizon manipulation | [Link](https://arxiv.org/abs/2609.11308) | — |
 | **P1 · Watch** | **Harness Robotic OS: A Unified Embodied-Agent Runtime for Closed-Loop Quadruped Inspection** | arXiv 2026 | VLA/WAM/Physical AI serving / embodied runtime / agent infrastructure | [Link](https://arxiv.org/abs/2609.11225) | — |
+| **P1 · Watch** | **HuRo: Robotizing Human Videos for Scalable VLA Pretraining** | arXiv 2026 | VLA/WAM/Physical AI serving / scalable VLA data and pretraining | [Link](https://arxiv.org/abs/2609.10706) | [Repo](https://3587jjh.github.io/HuRo) |
 | **P1 · Watch** | **Programmable World Model** | arXiv 2026 | VLA/WAM/Physical AI / world models / persistent state / programmable simulation | [Link](https://arxiv.org/abs/2609.10540) | — |
 | **P1 · Watch** | **Show-Harness: Just a VLM Agent Can Play Robots** | arXiv 2026 | VLA/WAM/Physical AI / VLM agents / robot interface / low-cost deployment | [Link](https://arxiv.org/abs/2609.10522) | [Repo](https://showlab.github.io/Show-Harness/) |
 | **P1 · Watch** | **PASCAL: A Phase-Aware Shared-Cache Model for Parallel Scans** | arXiv 2026 | GPU kernel/DSL/compilers / cache modeling / AI accelerators | [Link](https://arxiv.org/abs/2609.10515) | — |

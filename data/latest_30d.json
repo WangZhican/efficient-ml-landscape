@@ -2,8 +2,28 @@
   "window_end_beijing": "2026-09-11",
   "window_start_beijing": "2026-08-12",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 830,
+  "tracked_total": 841,
   "p0_strong_or_canonical": [
+    {
+      "title": "AccelForge: Comprehensive Modeling and Co-Design Framework for AI Accelerators",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / accelerator modeling and co-design",
+      "arxiv": "2609.11906",
+      "doi": "",
+      "official_id": "arXiv:2609.11906",
+      "paper_url": "https://arxiv.org/abs/2609.11906",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "AccelForge unifies device, circuit, architecture, workload, and mapping models, with composable models and fast mappers that evaluate designs orders of magnitude faster in computer and human time than prior workflows.",
+      "published_at": "2026-09-10T17:56:27Z",
+      "updated_at": "2026-09-10T17:56:27Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
     {
       "title": "Building py-kvcache: A Performance Characterization of External KV Caching for vLLM with NVMe SSDs",
       "venue": "arXiv 2026",
@@ -24,6 +44,46 @@
         "LLM Serving",
         "KV Cache / Long Context",
         "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Structured Transforms for Low-Overhead Quantization of Language Models",
+      "venue": "arXiv 2026",
+      "topic": "quantization / low-overhead LLM compression",
+      "arxiv": "2609.11687",
+      "doi": "",
+      "official_id": "arXiv:2609.11687",
+      "paper_url": "https://arxiv.org/abs/2609.11687",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Replacing dense random orthogonal transforms with sign-randomized DCT reduces each quantization iteration from O(N^2) to O(N log N), removes multi-restart k-means initialization, and shows favorable wall-clock scaling while producing native-2-bit-suited factors.",
+      "published_at": "2026-09-10T15:15:50Z",
+      "updated_at": "2026-09-10T15:15:50Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Quantization"
+      ]
+    },
+    {
+      "title": "Ecdysis: Efficient and Effective Training of Runtime Harnesses for LLM Agents",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / agent runtime harness",
+      "arxiv": "2609.11677",
+      "doi": "",
+      "official_id": "arXiv:2609.11677",
+      "paper_url": "https://arxiv.org/abs/2609.11677",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Cross-instance failure diagnosis accelerates self-evolving runtime-harness training. The paper reports up to 1.84x harness-training speedup while improving resulting reasoning accuracy by 18.56%.",
+      "published_at": "2026-09-10T15:09:08Z",
+      "updated_at": "2026-09-10T15:09:08Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -52,6 +112,69 @@
       ]
     },
     {
+      "title": "Memory as Plans: World-Action Modeling with Memory-Grounded Planning",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / memory and long-horizon runtime",
+      "arxiv": "2609.11561",
+      "doi": "",
+      "official_id": "arXiv:2609.11561",
+      "paper_url": "https://arxiv.org/abs/2609.11561",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "MaP-WAM converts long multimodal episodic memory into compact plans, keeps executor context length fixed, and enables KV caching in planning and execution. It reaches 83.3% RMBench and 78.0% real-robot success while maintaining approximately constant executor inference latency as history grows.",
+      "published_at": "2026-09-10T13:52:51Z",
+      "updated_at": "2026-09-10T13:52:51Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Characterizing Job Power Elasticity for Power-Flexible AI Training",
+      "venue": "arXiv 2026",
+      "topic": "distributed training/inference / datacenter power scheduling",
+      "arxiv": "2609.11542",
+      "doi": "",
+      "official_id": "arXiv:2609.11542",
+      "paper_url": "https://arxiv.org/abs/2609.11542",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "A systematic characterization of LLM-training power elasticity over 131 H200 runs plus validation and H100 matches. PFI-aware allocation under a 30% power reduction recovers about 1.5k tokens/s per job, 63% of the gap between equal allocation and an oracle.",
+      "published_at": "2026-09-10T13:40:13Z",
+      "updated_at": "2026-09-10T13:40:13Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "Calibration-Aware Uncertainty Cascades for Efficient Heterogeneous Model Collaboration",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / adaptive model routing",
+      "arxiv": "2609.11446",
+      "doi": "",
+      "official_id": "arXiv:2609.11446",
+      "paper_url": "https://arxiv.org/abs/2609.11446",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Post-hoc calibrated confidence creates a common reliability scale across heterogeneous models. Across six language benchmarks it avoids about 47% of strong-model calls while improving average accuracy, and reduces measured GFLOPs by up to 57% on image classification.",
+      "published_at": "2026-09-10T12:14:54Z",
+      "updated_at": "2026-09-10T12:14:54Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "PATTON: Enabling Commodity PIM for Production LLM Serving",
       "venue": "arXiv 2026",
       "topic": "LLM serving / KV cache / PIM accelerator runtime",
@@ -70,6 +193,28 @@
       "directions": [
         "LLM Serving",
         "KV Cache / Long Context",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "VikingRAG: Accurate and Token-efficient Retrieval-augmented Generation over Structured Documents",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / token-efficient RAG serving",
+      "arxiv": "2609.11390",
+      "doi": "",
+      "official_id": "arXiv:2609.11390",
+      "paper_url": "https://arxiv.org/abs/2609.11390",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Directory-aware semantic retrieval, trace reuse, and adaptive escalation cut token use to 11.6%-51.9% of prior systems, and to 5.1%-32.5% with experience-edge reuse and escalation, while retaining competitive accuracy.",
+      "published_at": "2026-09-10T11:25:59Z",
+      "updated_at": "2026-09-10T11:25:59Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -241,6 +386,27 @@
       "directions": [
         "LLM Serving",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "ExaServe: Large-Scale LLM Serving on Exascale HPC Systems",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / distributed inference / HPC systems",
+      "arxiv": "2609.10812",
+      "doi": "",
+      "official_id": "arXiv:2609.10812",
+      "paper_url": "https://arxiv.org/abs/2609.10812",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "A pip-installable framework turns a declarative YAML spec into large-scale LLM serving deployments on leadership-class supercomputers. On ALCF Aurora it scales from 1 to 256 nodes (3072 vLLM replicas), reaching 27.1k requests/s and 3.8M tokens/s for non-streaming inference, while exposing centralized streaming-proxy and Ray Serve control-plane bottlenecks.",
+      "published_at": "2026-09-09T20:29:26Z",
+      "updated_at": "2026-09-09T20:29:26Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference"
       ]
     },
     {
@@ -3788,6 +3954,48 @@
   ],
   "p1_watchlist": [
     {
+      "title": "UniMPA: A Unified Memory-Prediction-Action Model via Action-Grounded Transition Modeling",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / memory-prediction-action model",
+      "arxiv": "2609.11875",
+      "doi": "",
+      "official_id": "arXiv:2609.11875",
+      "paper_url": "https://arxiv.org/abs/2609.11875",
+      "code_url": "https://JiuTian-VL.github.io/UniMPA-page/",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "UniMPA uses persistent/selective future prediction plus temporal visual-action and action-visual memory banks to ground predicted transitions in executable experience. It is a protected Physical-AI memory/action-model lineage; current abstract evidence emphasizes capability rather than runtime speed.",
+      "published_at": "2026-09-10T17:45:03Z",
+      "updated_at": "2026-09-10T17:45:03Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "ActSafeGuard: Differentiable and Training-Aligned Constraint Enforcement for Flow-Matching Policies",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / flow-policy runtime safety",
+      "arxiv": "2609.11697",
+      "doi": "",
+      "official_id": "arXiv:2609.11697",
+      "paper_url": "https://arxiv.org/abs/2609.11697",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "A differentiable safeguard layer integrates hard action feasibility into training for flow-matching policies. Across pi_0.5 and Fast-WAM backbones it reports 100% step safety while preserving or improving task success, making it a protected Physical-AI runtime/safety lineage rather than an inference-speed result.",
+      "published_at": "2026-09-10T15:21:47Z",
+      "updated_at": "2026-09-10T15:21:47Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Taming Bitwise Behavior in GPU Kernels with Tensor Core: Black-Box Reconstruction, Compiler Enforcement, and Static Verification",
       "venue": "arXiv 2026",
       "topic": "GPU kernel/DSL/compilers / tensor core / deterministic kernels",
@@ -3850,6 +4058,28 @@
         "LLM Serving",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "HuRo: Robotizing Human Videos for Scalable VLA Pretraining",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / scalable VLA data and pretraining",
+      "arxiv": "2609.10706",
+      "doi": "",
+      "official_id": "arXiv:2609.10706",
+      "paper_url": "https://arxiv.org/abs/2609.10706",
+      "code_url": "https://3587jjh.github.io/HuRo",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "HuRo converts heterogeneous human videos into robot-aligned observations and retargeted actions, yielding about 630K robotized episodes and 142M frames. Scaling robotized pretraining improves real-world completion from 51.5% to 80.3% and OOD completion from 34.9% to 72.2%; retained under the Physical-AI protection rule as scalable VLA-training lineage.",
+      "published_at": "2026-09-09T18:02:05Z",
+      "updated_at": "2026-09-09T18:02:05Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -17912,6 +18142,26 @@
   ],
   "tracking_records": [
     {
+      "title": "AccelForge: Comprehensive Modeling and Co-Design Framework for AI Accelerators",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / accelerator modeling and co-design",
+      "arxiv": "2609.11906",
+      "doi": "",
+      "official_id": "arXiv:2609.11906",
+      "paper_url": "https://arxiv.org/abs/2609.11906",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "AccelForge unifies device, circuit, architecture, workload, and mapping models, with composable models and fast mappers that evaluate designs orders of magnitude faster in computer and human time than prior workflows.",
+      "published_at": "2026-09-10T17:56:27Z",
+      "updated_at": "2026-09-10T17:56:27Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Building py-kvcache: A Performance Characterization of External KV Caching for vLLM with NVMe SSDs",
       "venue": "arXiv 2026",
       "topic": "LLM serving / KV cache / NVMe offload",
@@ -17931,6 +18181,46 @@
         "LLM Serving",
         "KV Cache / Long Context",
         "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Structured Transforms for Low-Overhead Quantization of Language Models",
+      "venue": "arXiv 2026",
+      "topic": "quantization / low-overhead LLM compression",
+      "arxiv": "2609.11687",
+      "doi": "",
+      "official_id": "arXiv:2609.11687",
+      "paper_url": "https://arxiv.org/abs/2609.11687",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Replacing dense random orthogonal transforms with sign-randomized DCT reduces each quantization iteration from O(N^2) to O(N log N), removes multi-restart k-means initialization, and shows favorable wall-clock scaling while producing native-2-bit-suited factors.",
+      "published_at": "2026-09-10T15:15:50Z",
+      "updated_at": "2026-09-10T15:15:50Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Quantization"
+      ]
+    },
+    {
+      "title": "Ecdysis: Efficient and Effective Training of Runtime Harnesses for LLM Agents",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / agent runtime harness",
+      "arxiv": "2609.11677",
+      "doi": "",
+      "official_id": "arXiv:2609.11677",
+      "paper_url": "https://arxiv.org/abs/2609.11677",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Cross-instance failure diagnosis accelerates self-evolving runtime-harness training. The paper reports up to 1.84x harness-training speedup while improving resulting reasoning accuracy by 18.56%.",
+      "published_at": "2026-09-10T15:09:08Z",
+      "updated_at": "2026-09-10T15:09:08Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -17959,6 +18249,69 @@
       ]
     },
     {
+      "title": "Memory as Plans: World-Action Modeling with Memory-Grounded Planning",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / memory and long-horizon runtime",
+      "arxiv": "2609.11561",
+      "doi": "",
+      "official_id": "arXiv:2609.11561",
+      "paper_url": "https://arxiv.org/abs/2609.11561",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "MaP-WAM converts long multimodal episodic memory into compact plans, keeps executor context length fixed, and enables KV caching in planning and execution. It reaches 83.3% RMBench and 78.0% real-robot success while maintaining approximately constant executor inference latency as history grows.",
+      "published_at": "2026-09-10T13:52:51Z",
+      "updated_at": "2026-09-10T13:52:51Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Characterizing Job Power Elasticity for Power-Flexible AI Training",
+      "venue": "arXiv 2026",
+      "topic": "distributed training/inference / datacenter power scheduling",
+      "arxiv": "2609.11542",
+      "doi": "",
+      "official_id": "arXiv:2609.11542",
+      "paper_url": "https://arxiv.org/abs/2609.11542",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "A systematic characterization of LLM-training power elasticity over 131 H200 runs plus validation and H100 matches. PFI-aware allocation under a 30% power reduction recovers about 1.5k tokens/s per job, 63% of the gap between equal allocation and an oracle.",
+      "published_at": "2026-09-10T13:40:13Z",
+      "updated_at": "2026-09-10T13:40:13Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "Calibration-Aware Uncertainty Cascades for Efficient Heterogeneous Model Collaboration",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / adaptive model routing",
+      "arxiv": "2609.11446",
+      "doi": "",
+      "official_id": "arXiv:2609.11446",
+      "paper_url": "https://arxiv.org/abs/2609.11446",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Post-hoc calibrated confidence creates a common reliability scale across heterogeneous models. Across six language benchmarks it avoids about 47% of strong-model calls while improving average accuracy, and reduces measured GFLOPs by up to 57% on image classification.",
+      "published_at": "2026-09-10T12:14:54Z",
+      "updated_at": "2026-09-10T12:14:54Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "PATTON: Enabling Commodity PIM for Production LLM Serving",
       "venue": "arXiv 2026",
       "topic": "LLM serving / KV cache / PIM accelerator runtime",
@@ -17977,6 +18330,28 @@
       "directions": [
         "LLM Serving",
         "KV Cache / Long Context",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "VikingRAG: Accurate and Token-efficient Retrieval-augmented Generation over Structured Documents",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / token-efficient RAG serving",
+      "arxiv": "2609.11390",
+      "doi": "",
+      "official_id": "arXiv:2609.11390",
+      "paper_url": "https://arxiv.org/abs/2609.11390",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Directory-aware semantic retrieval, trace reuse, and adaptive escalation cut token use to 11.6%-51.9% of prior systems, and to 5.1%-32.5% with experience-edge reuse and escalation, while retaining competitive accuracy.",
+      "published_at": "2026-09-10T11:25:59Z",
+      "updated_at": "2026-09-10T11:25:59Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -18148,6 +18523,27 @@
       "directions": [
         "LLM Serving",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "ExaServe: Large-Scale LLM Serving on Exascale HPC Systems",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / distributed inference / HPC systems",
+      "arxiv": "2609.10812",
+      "doi": "",
+      "official_id": "arXiv:2609.10812",
+      "paper_url": "https://arxiv.org/abs/2609.10812",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "A pip-installable framework turns a declarative YAML spec into large-scale LLM serving deployments on leadership-class supercomputers. On ALCF Aurora it scales from 1 to 256 nodes (3072 vLLM replicas), reaching 27.1k requests/s and 3.8M tokens/s for non-streaming inference, while exposing centralized streaming-proxy and Ray Serve control-plane bottlenecks.",
+      "published_at": "2026-09-09T20:29:26Z",
+      "updated_at": "2026-09-09T20:29:26Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference"
       ]
     },
     {
@@ -21693,6 +22089,48 @@
       ]
     },
     {
+      "title": "UniMPA: A Unified Memory-Prediction-Action Model via Action-Grounded Transition Modeling",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / memory-prediction-action model",
+      "arxiv": "2609.11875",
+      "doi": "",
+      "official_id": "arXiv:2609.11875",
+      "paper_url": "https://arxiv.org/abs/2609.11875",
+      "code_url": "https://JiuTian-VL.github.io/UniMPA-page/",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "UniMPA uses persistent/selective future prediction plus temporal visual-action and action-visual memory banks to ground predicted transitions in executable experience. It is a protected Physical-AI memory/action-model lineage; current abstract evidence emphasizes capability rather than runtime speed.",
+      "published_at": "2026-09-10T17:45:03Z",
+      "updated_at": "2026-09-10T17:45:03Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "ActSafeGuard: Differentiable and Training-Aligned Constraint Enforcement for Flow-Matching Policies",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / flow-policy runtime safety",
+      "arxiv": "2609.11697",
+      "doi": "",
+      "official_id": "arXiv:2609.11697",
+      "paper_url": "https://arxiv.org/abs/2609.11697",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "A differentiable safeguard layer integrates hard action feasibility into training for flow-matching policies. Across pi_0.5 and Fast-WAM backbones it reports 100% step safety while preserving or improving task success, making it a protected Physical-AI runtime/safety lineage rather than an inference-speed result.",
+      "published_at": "2026-09-10T15:21:47Z",
+      "updated_at": "2026-09-10T15:21:47Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Taming Bitwise Behavior in GPU Kernels with Tensor Core: Black-Box Reconstruction, Compiler Enforcement, and Static Verification",
       "venue": "arXiv 2026",
       "topic": "GPU kernel/DSL/compilers / tensor core / deterministic kernels",
@@ -21755,6 +22193,28 @@
         "LLM Serving",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "HuRo: Robotizing Human Videos for Scalable VLA Pretraining",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / scalable VLA data and pretraining",
+      "arxiv": "2609.10706",
+      "doi": "",
+      "official_id": "arXiv:2609.10706",
+      "paper_url": "https://arxiv.org/abs/2609.10706",
+      "code_url": "https://3587jjh.github.io/HuRo",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "HuRo converts heterogeneous human videos into robot-aligned observations and retargeted actions, yielding about 630K robotized episodes and 142M frames. Scaling robotized pretraining improves real-world completion from 51.5% to 80.3% and OOD completion from 34.9% to 72.2%; retained under the Physical-AI protection rule as scalable VLA-training lineage.",
+      "published_at": "2026-09-09T18:02:05Z",
+      "updated_at": "2026-09-09T18:02:05Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
