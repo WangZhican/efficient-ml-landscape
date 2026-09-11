@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-12",
   "window_start_beijing": "2026-08-13",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 857,
+  "tracked_total": 862,
   "p0_strong_or_canonical": [
     {
       "title": "AccelForge: Comprehensive Modeling and Co-Design Framework for AI Accelerators",
@@ -4209,6 +4209,26 @@
       ]
     },
     {
+      "title": "A Time-Based Readout for Vector-Matrix Multiplication in Fully Analog Memristive SNNs",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / analog CIM / SNN accelerator",
+      "arxiv": "2609.11713",
+      "doi": "",
+      "official_id": "arXiv:2609.11713",
+      "paper_url": "https://arxiv.org/abs/2609.11713",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Uses voltage-to-time conversion for memristive crossbar VMM readout to avoid current-mode summing/scaling circuitry; post-layout 130 nm simulations plus a trained 64x10 SNN demonstrate feasibility. Retained as low-overhead CIM readout lineage.",
+      "published_at": "2026-09-10T15:30:34Z",
+      "updated_at": "2026-09-10T15:30:34Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "ActSafeGuard: Differentiable and Training-Aligned Constraint Enforcement for Flow-Matching Policies",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / flow-policy runtime safety",
@@ -4268,6 +4288,27 @@
       "is_latest_30d": true,
       "directions": [
         "LLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "ActMap: Single-Pass Uncertainty Quantification from Generation-Time Activation Maps",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / single-pass uncertainty / runtime telemetry",
+      "arxiv": "2609.11498",
+      "doi": "",
+      "official_id": "arXiv:2609.11498",
+      "paper_url": "https://arxiv.org/abs/2609.11498",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Compresses the full generation-time hidden-state trajectory into a fixed 12x32x128 activation map captured in the generation pass with no measurable overhead and 96 KiB storage, enabling per-answer uncertainty estimation without multi-sample generation.",
+      "published_at": "2026-09-10T13:04:24Z",
+      "updated_at": "2026-09-10T13:04:24Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
         "Efficient Reasoning / Agents"
       ]
     },
@@ -4337,6 +4378,27 @@
       ]
     },
     {
+      "title": "Bio-inspired Learning and Decision-Making with Probabilistic In-Memory Computing Hardware: Part 2",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / probabilistic in-memory accelerator",
+      "arxiv": "2609.11288",
+      "doi": "",
+      "official_id": "arXiv:2609.11288",
+      "paper_url": "https://arxiv.org/abs/2609.11288",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Proposes probabilistic in-memory computing hardware for massively parallel energy-based learning/decision workloads whose GPU implementations are latency-limited by HBM serialization. Retained as accelerator lineage; current evidence is primarily architectural rather than a broad end-to-end AI benchmark.",
+      "published_at": "2026-09-10T09:20:36Z",
+      "updated_at": "2026-09-10T09:20:36Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Harness Robotic OS: A Unified Embodied-Agent Runtime for Closed-Loop Quadruped Inspection",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / embodied runtime / agent infrastructure",
@@ -4356,6 +4418,27 @@
         "LLM Serving",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Less can be More: What Aspects of Speech Drive End-of-Turn Detection",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / streaming voice agents / turn-taking runtime",
+      "arxiv": "2609.11066",
+      "doi": "",
+      "official_id": "arXiv:2609.11066",
+      "paper_url": "https://arxiv.org/abs/2609.11066",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "A lightweight streaming classifier shows acoustic+prosodic cues outperform adding text, reaching 0.93 utterance F1 with 7.8% false alarms at 400 ms median latency. Retained as streaming-agent latency lineage rather than general serving acceleration.",
+      "published_at": "2026-09-10T04:12:18Z",
+      "updated_at": "2026-09-10T04:12:18Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -4873,6 +4956,27 @@
       "directions": [
         "LLM Serving",
         "Distributed Training / Inference",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Orukeet: Multilingual ASR with Frozen Gabor Kernels",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / efficient ASR / frozen structured filters",
+      "arxiv": "2609.10054",
+      "doi": "",
+      "official_id": "arXiv:2609.10054",
+      "paper_url": "https://arxiv.org/abs/2609.10054",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Replaces and freezes half of an adapted Parakeet encoder temporal filters with 12,288 fitted Gabor kernels while retaining the same inference operators; pooled FLEURS WER improves 11.01% to 9.85%. Retained as structured/frozen-model efficiency lineage, though the abstract does not establish end-to-end speedup.",
+      "published_at": "2026-09-09T11:30:03Z",
+      "updated_at": "2026-09-09T11:30:03Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -22684,6 +22788,26 @@
       ]
     },
     {
+      "title": "A Time-Based Readout for Vector-Matrix Multiplication in Fully Analog Memristive SNNs",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / analog CIM / SNN accelerator",
+      "arxiv": "2609.11713",
+      "doi": "",
+      "official_id": "arXiv:2609.11713",
+      "paper_url": "https://arxiv.org/abs/2609.11713",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Uses voltage-to-time conversion for memristive crossbar VMM readout to avoid current-mode summing/scaling circuitry; post-layout 130 nm simulations plus a trained 64x10 SNN demonstrate feasibility. Retained as low-overhead CIM readout lineage.",
+      "published_at": "2026-09-10T15:30:34Z",
+      "updated_at": "2026-09-10T15:30:34Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "ActSafeGuard: Differentiable and Training-Aligned Constraint Enforcement for Flow-Matching Policies",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / flow-policy runtime safety",
@@ -22743,6 +22867,27 @@
       "is_latest_30d": true,
       "directions": [
         "LLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "ActMap: Single-Pass Uncertainty Quantification from Generation-Time Activation Maps",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / single-pass uncertainty / runtime telemetry",
+      "arxiv": "2609.11498",
+      "doi": "",
+      "official_id": "arXiv:2609.11498",
+      "paper_url": "https://arxiv.org/abs/2609.11498",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Compresses the full generation-time hidden-state trajectory into a fixed 12x32x128 activation map captured in the generation pass with no measurable overhead and 96 KiB storage, enabling per-answer uncertainty estimation without multi-sample generation.",
+      "published_at": "2026-09-10T13:04:24Z",
+      "updated_at": "2026-09-10T13:04:24Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
         "Efficient Reasoning / Agents"
       ]
     },
@@ -22812,6 +22957,27 @@
       ]
     },
     {
+      "title": "Bio-inspired Learning and Decision-Making with Probabilistic In-Memory Computing Hardware: Part 2",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / probabilistic in-memory accelerator",
+      "arxiv": "2609.11288",
+      "doi": "",
+      "official_id": "arXiv:2609.11288",
+      "paper_url": "https://arxiv.org/abs/2609.11288",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Proposes probabilistic in-memory computing hardware for massively parallel energy-based learning/decision workloads whose GPU implementations are latency-limited by HBM serialization. Retained as accelerator lineage; current evidence is primarily architectural rather than a broad end-to-end AI benchmark.",
+      "published_at": "2026-09-10T09:20:36Z",
+      "updated_at": "2026-09-10T09:20:36Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Harness Robotic OS: A Unified Embodied-Agent Runtime for Closed-Loop Quadruped Inspection",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / embodied runtime / agent infrastructure",
@@ -22831,6 +22997,27 @@
         "LLM Serving",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Less can be More: What Aspects of Speech Drive End-of-Turn Detection",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / streaming voice agents / turn-taking runtime",
+      "arxiv": "2609.11066",
+      "doi": "",
+      "official_id": "arXiv:2609.11066",
+      "paper_url": "https://arxiv.org/abs/2609.11066",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "A lightweight streaming classifier shows acoustic+prosodic cues outperform adding text, reaching 0.93 utterance F1 with 7.8% false alarms at 400 ms median latency. Retained as streaming-agent latency lineage rather than general serving acceleration.",
+      "published_at": "2026-09-10T04:12:18Z",
+      "updated_at": "2026-09-10T04:12:18Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -23348,6 +23535,27 @@
       "directions": [
         "LLM Serving",
         "Distributed Training / Inference",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Orukeet: Multilingual ASR with Frozen Gabor Kernels",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / efficient ASR / frozen structured filters",
+      "arxiv": "2609.10054",
+      "doi": "",
+      "official_id": "arXiv:2609.10054",
+      "paper_url": "https://arxiv.org/abs/2609.10054",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Replaces and freezes half of an adapted Parakeet encoder temporal filters with 12,288 fitted Gabor kernels while retaining the same inference operators; pooled FLEURS WER improves 11.01% to 9.85%. Retained as structured/frozen-model efficiency lineage, though the abstract does not establish end-to-end speedup.",
+      "published_at": "2026-09-09T11:30:03Z",
+      "updated_at": "2026-09-09T11:30:03Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },

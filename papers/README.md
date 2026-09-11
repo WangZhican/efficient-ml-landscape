@@ -4,7 +4,7 @@
 
 <div align="center">
 
-[**🆕 Latest 30 Days · 857 tracked**](LATEST_30D.md) · [**🏛️ Classical · 1602**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
+[**🆕 Latest 30 Days · 862 tracked**](LATEST_30D.md) · [**🏛️ Classical · 1602**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
 
 </div>
 
@@ -12,21 +12,21 @@
 
 | # | Research direction | Canonical | Latest 30d tracked |
 |---:|---|---:|---:|
-| 01 | [**LLM Serving**](01-llm-serving.md) | **788** | **546** |
+| 01 | [**LLM Serving**](01-llm-serving.md) | **788** | **547** |
 | 02 | [**Speculative Decoding**](02-speculative-decoding.md) | **208** | **31** |
 | 03 | [**KV Cache / Long Context**](03-kv-cache-long-context.md) | **435** | **106** |
-| 04 | [**Quantization**](04-quantization.md) | **240** | **115** |
+| 04 | [**Quantization**](04-quantization.md) | **240** | **116** |
 | 05 | [**Sparsity / Pruning**](05-sparsity-pruning.md) | **273** | **123** |
 | 06 | [**Efficient Attention**](06-efficient-attention.md) | **251** | **83** |
 | 07 | [**MoE Systems / Accelerators**](07-moe-systems.md) | **133** | **50** |
-| 08 | [**GPU Kernel / DSL / Compiler**](08-gpu-kernel-compiler.md) | **459** | **158** |
+| 08 | [**GPU Kernel / DSL / Compiler**](08-gpu-kernel-compiler.md) | **459** | **160** |
 | 09 | [**Distributed Training / Inference**](09-distributed-training-inference.md) | **347** | **108** |
 | 10 | [**Multimodal / MLLM Serving**](10-multimodal-mllm-serving.md) | **219** | **143** |
 | 11 | [**Video / Image Generation**](11-video-image-generation.md) | **82** | **41** |
 | 12 | [**Diffusion / Flow Acceleration**](12-diffusion-flow.md) | **207** | **51** |
-| 13 | [**Efficient Reasoning / Agents**](13-efficient-reasoning-agents.md) | **324** | **224** |
+| 13 | [**Efficient Reasoning / Agents**](13-efficient-reasoning-agents.md) | **324** | **226** |
 | 14 | [**VLA / WAM / Physical AI**](14-physical-ai-vla-wam.md) | **142** | **226** |
-| 15 | [**Edge / Cloud / Heterogeneous AI**](15-edge-cloud-heterogeneous.md) | **398** | **237** |
+| 15 | [**Edge / Cloud / Heterogeneous AI**](15-edge-cloud-heterogeneous.md) | **398** | **240** |
 
 > Counts are multi-label and therefore do not sum to the unique-paper total. A canonical paper can intentionally appear in several directions.
 
