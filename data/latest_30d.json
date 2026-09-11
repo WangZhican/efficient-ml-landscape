@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-11",
   "window_start_beijing": "2026-08-12",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 791,
+  "tracked_total": 797,
   "p0_strong_or_canonical": [
     {
       "title": "HybridFLow: SDN-Orchestrated Client Partitioning for Hybrid Federated Learning",
@@ -4817,6 +4817,27 @@
       ]
     },
     {
+      "title": "HLSFactory-Agent: Large-Scale Agentic HLS Dataset Construction from Academic and Open-Source Projects",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / hardware design agents / HLS infrastructure",
+      "arxiv": "2609.09519",
+      "doi": "",
+      "official_id": "arXiv:2609.09519",
+      "paper_url": "https://arxiv.org/abs/2609.09519",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "HLSFactory-Agent runs an open-source coding-agent stack in Docker to extract, build and evaluate standalone HLS designs from larger repositories and pairs this with architecture/EDA/FPGA paper indexing. Useful agentic compiler/hardware infrastructure lineage, though current evidence is dataset-construction automation rather than model inference efficiency.",
+      "published_at": "2026-09-08T23:02:07Z",
+      "updated_at": "2026-09-08T23:02:07Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Agentic AI-enabled Semantic Commissioning of a Cognitive Digital Twin for Reconfigurable Manufacturing",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / industrial agents / runtime orchestration",
@@ -6206,6 +6227,27 @@
       ]
     },
     {
+      "title": "TaskGuard: Task-Conditioned Restoration Utility for Risk-Aware Object Detection",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / adaptive perception / conditional preprocessing",
+      "arxiv": "2609.08011",
+      "doi": "",
+      "official_id": "arXiv:2609.08011",
+      "paper_url": "https://arxiv.org/abs/2609.08011",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "TaskGuard is a post-hoc controller for frozen restoration+detection pipelines that predicts whether a restoration intervention should be used. It reduces harmful restoration interventions by 54.2% macro and 37.0% pooled while retaining 98.8% of Always-Restore AP, providing useful conditional-perception lineage and a path to skip unnecessary preprocessing.",
+      "published_at": "2026-09-07T21:45:55Z",
+      "updated_at": "2026-09-07T21:45:55Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "MetaKV: Adaptive KV Cache Compression for Constrained LLM Inference",
       "venue": "arXiv 2026",
       "topic": "KV cache/long-context / adaptive compression / constrained inference",
@@ -6482,6 +6524,27 @@
       "is_latest_30d": true,
       "directions": [
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "APPSim-Bench: Bridging Real-world Apps and Reproducible Evaluation for Mobile GUI Agents",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / GUI agents / reproducible runtime evaluation",
+      "arxiv": "2609.07712",
+      "doi": "",
+      "official_id": "arXiv:2609.07712",
+      "paper_url": "https://arxiv.org/abs/2609.07712",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "APPSim-Bench provides 557 deterministic tasks across 17 simulated real-world apps and explicitly surfaces inefficient trajectories, high action overhead and budget exhaustion across 19 GUI agents. Useful agent-runtime evaluation infrastructure rather than a direct optimization.",
+      "published_at": "2026-09-07T16:25:13Z",
+      "updated_at": "2026-09-07T16:25:13Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -7511,6 +7574,28 @@
       ]
     },
     {
+      "title": "Geometric Distributional Control: Learning Progress with Partial Structural Knowledge",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / real-time control / partial-model planning",
+      "arxiv": "2609.06331",
+      "doi": "",
+      "official_id": "arXiv:2609.06331",
+      "paper_url": "https://arxiv.org/abs/2609.06331",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "GDC factorizes real-time control into a known feasibility scaffold plus a learned local progress signal, avoiding full global Bellman recursion or a fully specified online planner. Protected Physical-AI control/runtime lineage; experiments show effectiveness but the abstract lacks direct latency or compute savings.",
+      "published_at": "2026-09-06T01:39:05Z",
+      "updated_at": "2026-09-06T01:39:05Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Query-Oblivious Coresets for Softmax Attention: Improved Bounds and Efficient Constructions",
       "venue": "arXiv 2026",
       "topic": "efficient attention / attention coresets / theory",
@@ -7865,6 +7950,27 @@
       "is_latest_30d": true,
       "directions": [
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "SkillSpec: Intent-Masked Specification Reasoning for Agent Skill Correctness",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / reusable skills / agent infrastructure",
+      "arxiv": "2609.06052",
+      "doi": "",
+      "official_id": "arXiv:2609.06052",
+      "paper_url": "https://arxiv.org/abs/2609.06052",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "SkillSpec treats reusable agent skills as specification-bearing artifacts, checks heterogeneous skill repositories under controlled context masks, and validates defects in an isolated sandbox. On 515 real-world skills it finds 763 confirmed defects across 239 skills. Important reusable-skill infrastructure lineage, albeit quality assurance rather than acceleration.",
+      "published_at": "2026-09-05T12:17:02Z",
+      "updated_at": "2026-09-05T12:17:02Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -8513,6 +8619,29 @@
         "LLM Serving",
         "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "RISE: Recursive Improvement via Self-Extrapolating Policy Distillation",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / RLVR post-training / self-distillation",
+      "arxiv": "2609.05295",
+      "doi": "",
+      "official_id": "arXiv:2609.05295",
+      "paper_url": "https://arxiv.org/abs/2609.05295",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "RISE constructs a synthetic teacher directly from the model own RLVR trajectory and refreshes it every iteration, eliminating an external teacher or privileged conditioning while converting sparse outcome rewards into dense token-level targets. Strong reasoning-post-training efficiency lineage, though the abstract does not quantify wall-clock or token-cost savings.",
+      "published_at": "2026-09-04T15:47:51Z",
+      "updated_at": "2026-09-04T15:47:51Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Sparsity / Pruning",
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -21888,6 +22017,27 @@
       ]
     },
     {
+      "title": "HLSFactory-Agent: Large-Scale Agentic HLS Dataset Construction from Academic and Open-Source Projects",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / hardware design agents / HLS infrastructure",
+      "arxiv": "2609.09519",
+      "doi": "",
+      "official_id": "arXiv:2609.09519",
+      "paper_url": "https://arxiv.org/abs/2609.09519",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "HLSFactory-Agent runs an open-source coding-agent stack in Docker to extract, build and evaluate standalone HLS designs from larger repositories and pairs this with architecture/EDA/FPGA paper indexing. Useful agentic compiler/hardware infrastructure lineage, though current evidence is dataset-construction automation rather than model inference efficiency.",
+      "published_at": "2026-09-08T23:02:07Z",
+      "updated_at": "2026-09-08T23:02:07Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Agentic AI-enabled Semantic Commissioning of a Cognitive Digital Twin for Reconfigurable Manufacturing",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / industrial agents / runtime orchestration",
@@ -23277,6 +23427,27 @@
       ]
     },
     {
+      "title": "TaskGuard: Task-Conditioned Restoration Utility for Risk-Aware Object Detection",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / adaptive perception / conditional preprocessing",
+      "arxiv": "2609.08011",
+      "doi": "",
+      "official_id": "arXiv:2609.08011",
+      "paper_url": "https://arxiv.org/abs/2609.08011",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "TaskGuard is a post-hoc controller for frozen restoration+detection pipelines that predicts whether a restoration intervention should be used. It reduces harmful restoration interventions by 54.2% macro and 37.0% pooled while retaining 98.8% of Always-Restore AP, providing useful conditional-perception lineage and a path to skip unnecessary preprocessing.",
+      "published_at": "2026-09-07T21:45:55Z",
+      "updated_at": "2026-09-07T21:45:55Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "MetaKV: Adaptive KV Cache Compression for Constrained LLM Inference",
       "venue": "arXiv 2026",
       "topic": "KV cache/long-context / adaptive compression / constrained inference",
@@ -23553,6 +23724,27 @@
       "is_latest_30d": true,
       "directions": [
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "APPSim-Bench: Bridging Real-world Apps and Reproducible Evaluation for Mobile GUI Agents",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / GUI agents / reproducible runtime evaluation",
+      "arxiv": "2609.07712",
+      "doi": "",
+      "official_id": "arXiv:2609.07712",
+      "paper_url": "https://arxiv.org/abs/2609.07712",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "APPSim-Bench provides 557 deterministic tasks across 17 simulated real-world apps and explicitly surfaces inefficient trajectories, high action overhead and budget exhaustion across 19 GUI agents. Useful agent-runtime evaluation infrastructure rather than a direct optimization.",
+      "published_at": "2026-09-07T16:25:13Z",
+      "updated_at": "2026-09-07T16:25:13Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -24582,6 +24774,28 @@
       ]
     },
     {
+      "title": "Geometric Distributional Control: Learning Progress with Partial Structural Knowledge",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / real-time control / partial-model planning",
+      "arxiv": "2609.06331",
+      "doi": "",
+      "official_id": "arXiv:2609.06331",
+      "paper_url": "https://arxiv.org/abs/2609.06331",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "GDC factorizes real-time control into a known feasibility scaffold plus a learned local progress signal, avoiding full global Bellman recursion or a fully specified online planner. Protected Physical-AI control/runtime lineage; experiments show effectiveness but the abstract lacks direct latency or compute savings.",
+      "published_at": "2026-09-06T01:39:05Z",
+      "updated_at": "2026-09-06T01:39:05Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Query-Oblivious Coresets for Softmax Attention: Improved Bounds and Efficient Constructions",
       "venue": "arXiv 2026",
       "topic": "efficient attention / attention coresets / theory",
@@ -24936,6 +25150,27 @@
       "is_latest_30d": true,
       "directions": [
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "SkillSpec: Intent-Masked Specification Reasoning for Agent Skill Correctness",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / reusable skills / agent infrastructure",
+      "arxiv": "2609.06052",
+      "doi": "",
+      "official_id": "arXiv:2609.06052",
+      "paper_url": "https://arxiv.org/abs/2609.06052",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "SkillSpec treats reusable agent skills as specification-bearing artifacts, checks heterogeneous skill repositories under controlled context masks, and validates defects in an isolated sandbox. On 515 real-world skills it finds 763 confirmed defects across 239 skills. Important reusable-skill infrastructure lineage, albeit quality assurance rather than acceleration.",
+      "published_at": "2026-09-05T12:17:02Z",
+      "updated_at": "2026-09-05T12:17:02Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -25584,6 +25819,29 @@
         "LLM Serving",
         "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "RISE: Recursive Improvement via Self-Extrapolating Policy Distillation",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / RLVR post-training / self-distillation",
+      "arxiv": "2609.05295",
+      "doi": "",
+      "official_id": "arXiv:2609.05295",
+      "paper_url": "https://arxiv.org/abs/2609.05295",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "RISE constructs a synthetic teacher directly from the model own RLVR trajectory and refreshes it every iteration, eliminating an external teacher or privileged conditioning while converting sparse outcome rewards into dense token-level targets. Strong reasoning-post-training efficiency lineage, though the abstract does not quantify wall-clock or token-cost savings.",
+      "published_at": "2026-09-04T15:47:51Z",
+      "updated_at": "2026-09-04T15:47:51Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Sparsity / Pruning",
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
