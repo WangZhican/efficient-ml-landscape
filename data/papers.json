@@ -6959,6 +6959,27 @@
     ]
   },
   {
+    "title": "Scaling E-Commerce Attribute Extraction with Parallel Decoding",
+    "venue": "arXiv 2026",
+    "topic": "LLM serving / parallel decoding / production inference cost",
+    "arxiv": "2609.09716",
+    "doi": "",
+    "official_id": "arXiv:2609.09716",
+    "paper_url": "https://arxiv.org/abs/2609.09716",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "A compact Qwen3-4B extractor with Hyper-Parallel Decoding reaches 85% extraction accuracy, on par with the foundational LLM teacher, while reducing inference cost by 92%. The pipeline is explicitly designed for production-scale catalog extraction, providing direct measured serving-efficiency evidence.",
+    "published_at": "2026-09-09T05:01:28Z",
+    "updated_at": "2026-09-09T05:01:28Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding"
+    ]
+  },
+  {
     "title": "SceneMosaic: Efficient and Diverse Simulation-Ready Scene Generation via Hybrid Agentic Layout Evolution",
     "venue": "arXiv 2026",
     "topic": "VLA/WAM/Physical AI serving / simulation infrastructure / agentic generation",

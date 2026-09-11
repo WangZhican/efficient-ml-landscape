@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-11",
   "window_start_beijing": "2026-08-12",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 777,
+  "tracked_total": 784,
   "p0_strong_or_canonical": [
     {
       "title": "HybridFLow: SDN-Orchestrated Client Partitioning for Hybrid Federated Learning",
@@ -464,6 +464,27 @@
       "directions": [
         "LLM Serving",
         "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "Scaling E-Commerce Attribute Extraction with Parallel Decoding",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / parallel decoding / production inference cost",
+      "arxiv": "2609.09716",
+      "doi": "",
+      "official_id": "arXiv:2609.09716",
+      "paper_url": "https://arxiv.org/abs/2609.09716",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "A compact Qwen3-4B extractor with Hyper-Parallel Decoding reaches 85% extraction accuracy, on par with the foundational LLM teacher, while reducing inference cost by 92%. The pipeline is explicitly designed for production-scale catalog extraction, providing direct measured serving-efficiency evidence.",
+      "published_at": "2026-09-09T05:01:28Z",
+      "updated_at": "2026-09-09T05:01:28Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Speculative Decoding"
       ]
     },
     {
@@ -4541,6 +4562,27 @@
       ]
     },
     {
+      "title": "ViBe: Visual Behavior Adaptation for Perceptive Humanoid Whole-Body Control",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / parameter-efficient robot adaptation / visual control",
+      "arxiv": "2609.09918",
+      "doi": "",
+      "official_id": "arXiv:2609.09918",
+      "paper_url": "https://arxiv.org/abs/2609.09918",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "ViBe adapts pretrained humanoid motion trackers to perceptive control by extracting visual feedback and grafting it through low-rank adapters, enabling parameter-efficient post-training instead of rebuilding the controller. Protected Physical-AI adaptation lineage; abstract lacks a direct runtime or memory ratio.",
+      "published_at": "2026-09-09T09:11:26Z",
+      "updated_at": "2026-09-09T09:11:26Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Can AI Agents Detect and Repair Artifact Drift in Network Experiments?",
       "venue": "arXiv 2026",
       "topic": "efficient reasoning/agent systems / agent runtimes / benchmark",
@@ -5119,6 +5161,27 @@
       ]
     },
     {
+      "title": "Training-Free Task Vectors for LLM Behavioral Control",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / model editing / training-free adaptation",
+      "arxiv": "2609.09054",
+      "doi": "",
+      "official_id": "arXiv:2609.09054",
+      "paper_url": "https://arxiv.org/abs/2609.09054",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Maps activation steering vectors to rank-one weight-space edits using forward-pass statistics only, avoiding fine-tuning to discover task vectors while supporting add/subtract/composition operations. Strong adaptation-efficiency idea, but the abstract does not quantify deployment latency or memory savings.",
+      "published_at": "2026-09-08T17:10:28Z",
+      "updated_at": "2026-09-08T17:10:28Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Omni Interaction Agent Technical Report",
       "venue": "arXiv 2026",
       "topic": "multimodal/MLLM serving / efficient reasoning/agent systems / streaming full-duplex runtime",
@@ -5179,6 +5242,27 @@
       "is_latest_30d": true,
       "directions": [
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "FRAME: Factored Retrieval via Attribute Readouts for Object-Centric Scene Memory",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / scene memory / retrieval",
+      "arxiv": "2609.08886",
+      "doi": "",
+      "official_id": "arXiv:2609.08886",
+      "paper_url": "https://arxiv.org/abs/2609.08886",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "FRAME factors language queries into attribute weights over a fixed object-centric scene memory, targeting persistent robot-memory retrieval without rerunning perception. Protected Physical-AI memory lineage, but the abstract focuses on retrieval quality rather than measured compute savings.",
+      "published_at": "2026-09-08T15:26:00Z",
+      "updated_at": "2026-09-08T15:26:00Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -5714,6 +5798,26 @@
       "directions": [
         "LLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Qiushi Engine on AstaBench E2E-Bench-Hard",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / autonomous research agents / cost evaluation",
+      "arxiv": "2609.08196",
+      "doi": "",
+      "official_id": "arXiv:2609.08196",
+      "paper_url": "https://arxiv.org/abs/2609.08196",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Reports an end-to-end autonomous research-agent evaluation with explicit average benchmark cost of USD 15.209 per task and full execution traces across 40 hard tasks. Useful cost-aware agent-systems evidence, though it is primarily an engine evaluation rather than a new efficiency mechanism.",
+      "published_at": "2026-09-08T03:30:59Z",
+      "updated_at": "2026-09-08T03:30:59Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -6273,6 +6377,26 @@
       "directions": [
         "LLM Serving",
         "Quantization"
+      ]
+    },
+    {
+      "title": "MpSub: A Momentum p-Dimensional Subspace Trust-Region Method for Derivative-Free Fine-Tuning of Large Language Models",
+      "venue": "arXiv 2026",
+      "topic": "LLM training efficiency / memory-efficient fine-tuning / zeroth-order optimization",
+      "arxiv": "2609.07666",
+      "doi": "",
+      "official_id": "arXiv:2609.07666",
+      "paper_url": "https://arxiv.org/abs/2609.07666",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "MpSub targets the activation/gradient memory burden of full-parameter LLM fine-tuning with derivative-free trust-region updates in a low-dimensional subspace and removes per-task learning-rate tuning. Useful training-memory lineage, but the abstract does not provide a clean end-to-end memory or wall-clock ratio.",
+      "published_at": "2026-09-07T15:51:11Z",
+      "updated_at": "2026-09-07T15:51:11Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Distributed Training / Inference"
       ]
     },
     {
@@ -7915,6 +8039,27 @@
         "MoE Systems / Accelerators",
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Spillover-Aware Multi-Value Steering for Pluralistic LLM Alignment",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / activation steering / inference-time control",
+      "arxiv": "2609.05800",
+      "doi": "",
+      "official_id": "arXiv:2609.05800",
+      "paper_url": "https://arxiv.org/abs/2609.05800",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Derives a zero-cost geometric correction that decouples simultaneous activation-steering directions, requiring no fine-tuning, reward model, or manual prompt engineering. Relevant inference-time behavioral-control lineage, though the paper optimizes steering fidelity rather than serving latency.",
+      "published_at": "2026-09-05T01:28:00Z",
+      "updated_at": "2026-09-05T01:28:00Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -17249,6 +17394,27 @@
       ]
     },
     {
+      "title": "Scaling E-Commerce Attribute Extraction with Parallel Decoding",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / parallel decoding / production inference cost",
+      "arxiv": "2609.09716",
+      "doi": "",
+      "official_id": "arXiv:2609.09716",
+      "paper_url": "https://arxiv.org/abs/2609.09716",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "A compact Qwen3-4B extractor with Hyper-Parallel Decoding reaches 85% extraction accuracy, on par with the foundational LLM teacher, while reducing inference cost by 92%. The pipeline is explicitly designed for production-scale catalog extraction, providing direct measured serving-efficiency evidence.",
+      "published_at": "2026-09-09T05:01:28Z",
+      "updated_at": "2026-09-09T05:01:28Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Speculative Decoding"
+      ]
+    },
+    {
       "title": "Muon-C: Operator-Aligned Muon for Convolutional Kernels",
       "venue": "arXiv 2026",
       "topic": "distributed training/inference / optimizer / flow matching efficiency",
@@ -21321,6 +21487,27 @@
       ]
     },
     {
+      "title": "ViBe: Visual Behavior Adaptation for Perceptive Humanoid Whole-Body Control",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / parameter-efficient robot adaptation / visual control",
+      "arxiv": "2609.09918",
+      "doi": "",
+      "official_id": "arXiv:2609.09918",
+      "paper_url": "https://arxiv.org/abs/2609.09918",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "ViBe adapts pretrained humanoid motion trackers to perceptive control by extracting visual feedback and grafting it through low-rank adapters, enabling parameter-efficient post-training instead of rebuilding the controller. Protected Physical-AI adaptation lineage; abstract lacks a direct runtime or memory ratio.",
+      "published_at": "2026-09-09T09:11:26Z",
+      "updated_at": "2026-09-09T09:11:26Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Can AI Agents Detect and Repair Artifact Drift in Network Experiments?",
       "venue": "arXiv 2026",
       "topic": "efficient reasoning/agent systems / agent runtimes / benchmark",
@@ -21899,6 +22086,27 @@
       ]
     },
     {
+      "title": "Training-Free Task Vectors for LLM Behavioral Control",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / model editing / training-free adaptation",
+      "arxiv": "2609.09054",
+      "doi": "",
+      "official_id": "arXiv:2609.09054",
+      "paper_url": "https://arxiv.org/abs/2609.09054",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Maps activation steering vectors to rank-one weight-space edits using forward-pass statistics only, avoiding fine-tuning to discover task vectors while supporting add/subtract/composition operations. Strong adaptation-efficiency idea, but the abstract does not quantify deployment latency or memory savings.",
+      "published_at": "2026-09-08T17:10:28Z",
+      "updated_at": "2026-09-08T17:10:28Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Omni Interaction Agent Technical Report",
       "venue": "arXiv 2026",
       "topic": "multimodal/MLLM serving / efficient reasoning/agent systems / streaming full-duplex runtime",
@@ -21959,6 +22167,27 @@
       "is_latest_30d": true,
       "directions": [
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "FRAME: Factored Retrieval via Attribute Readouts for Object-Centric Scene Memory",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / scene memory / retrieval",
+      "arxiv": "2609.08886",
+      "doi": "",
+      "official_id": "arXiv:2609.08886",
+      "paper_url": "https://arxiv.org/abs/2609.08886",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "FRAME factors language queries into attribute weights over a fixed object-centric scene memory, targeting persistent robot-memory retrieval without rerunning perception. Protected Physical-AI memory lineage, but the abstract focuses on retrieval quality rather than measured compute savings.",
+      "published_at": "2026-09-08T15:26:00Z",
+      "updated_at": "2026-09-08T15:26:00Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -22494,6 +22723,26 @@
       "directions": [
         "LLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Qiushi Engine on AstaBench E2E-Bench-Hard",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / autonomous research agents / cost evaluation",
+      "arxiv": "2609.08196",
+      "doi": "",
+      "official_id": "arXiv:2609.08196",
+      "paper_url": "https://arxiv.org/abs/2609.08196",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Reports an end-to-end autonomous research-agent evaluation with explicit average benchmark cost of USD 15.209 per task and full execution traces across 40 hard tasks. Useful cost-aware agent-systems evidence, though it is primarily an engine evaluation rather than a new efficiency mechanism.",
+      "published_at": "2026-09-08T03:30:59Z",
+      "updated_at": "2026-09-08T03:30:59Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -23053,6 +23302,26 @@
       "directions": [
         "LLM Serving",
         "Quantization"
+      ]
+    },
+    {
+      "title": "MpSub: A Momentum p-Dimensional Subspace Trust-Region Method for Derivative-Free Fine-Tuning of Large Language Models",
+      "venue": "arXiv 2026",
+      "topic": "LLM training efficiency / memory-efficient fine-tuning / zeroth-order optimization",
+      "arxiv": "2609.07666",
+      "doi": "",
+      "official_id": "arXiv:2609.07666",
+      "paper_url": "https://arxiv.org/abs/2609.07666",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "MpSub targets the activation/gradient memory burden of full-parameter LLM fine-tuning with derivative-free trust-region updates in a low-dimensional subspace and removes per-task learning-rate tuning. Useful training-memory lineage, but the abstract does not provide a clean end-to-end memory or wall-clock ratio.",
+      "published_at": "2026-09-07T15:51:11Z",
+      "updated_at": "2026-09-07T15:51:11Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Distributed Training / Inference"
       ]
     },
     {
@@ -24695,6 +24964,27 @@
         "MoE Systems / Accelerators",
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Spillover-Aware Multi-Value Steering for Pluralistic LLM Alignment",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / activation steering / inference-time control",
+      "arxiv": "2609.05800",
+      "doi": "",
+      "official_id": "arXiv:2609.05800",
+      "paper_url": "https://arxiv.org/abs/2609.05800",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Derives a zero-cost geometric correction that decouples simultaneous activation-steering directions, requiring no fine-tuning, reward model, or manual prompt engineering. Relevant inference-time behavioral-control lineage, though the paper optimizes steering fidelity rather than serving latency.",
+      "published_at": "2026-09-05T01:28:00Z",
+      "updated_at": "2026-09-05T01:28:00Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
