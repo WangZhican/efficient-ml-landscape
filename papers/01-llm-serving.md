@@ -1,10 +1,10 @@
 # 01 · LLM Serving
 
-> **777 canonical papers** mapped here, plus a broader **523-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **778 canonical papers** mapped here, plus a broader **524-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 523 tracked
+## 🆕 Latest 30 Days · 524 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -16,6 +16,7 @@
 | **P0 · Strong** | **REVA: Reusable Evidence View Aggregation for Context-Efficient RAG Serving** | arXiv 2026 | LLM serving / RAG / context compression | [Link](https://arxiv.org/abs/2609.11209) | — |
 | **P0 · Strong** | **FlexComp: One Model for Every Ratio in Context Compression** | arXiv 2026 | LLM serving / context compression / adaptive inference | [Link](https://arxiv.org/abs/2609.11192) | — |
 | **P0 · Strong** | **Phase-Decoupled, Model-Calibrated Power Control for Disaggregated LLM Serving** | arXiv 2026 | LLM serving / PD disaggregation / energy efficiency | [Link](https://arxiv.org/abs/2609.11133) | — |
+| **P0 · Strong** | **Fengshui: Demystifying Chiplet Ecosystem and Bespoke Neural Network Accelerator Codesign** | arXiv 2026 | edge/cloud/heterogeneous AI systems / chiplet accelerator codesign | [Link](https://arxiv.org/abs/2609.10970) | — |
 | **P0 · Strong** | **IMLE-VLA: Fast Single-Step Action Generation for Vision-Language-Action Policies** | arXiv 2026 | VLA/WAM/Physical AI serving / action head / single-step generation | [Link](https://arxiv.org/abs/2609.10915) | — |
 | **P0 · Strong** | **Composable CXL Memory as a Kubernetes-Native Shared Memory for LLM Serving** | arXiv 2026 | LLM serving / KV cache / CXL / cloud runtime | [Link](https://arxiv.org/abs/2609.10790) | — |
 | **P1 · Watch** | **Show-Harness: Just a VLM Agent Can Play Robots** | arXiv 2026 | VLA/WAM/Physical AI / VLM agents / robot interface / low-cost deployment | [Link](https://arxiv.org/abs/2609.10522) | [Repo](https://showlab.github.io/Show-Harness/) |

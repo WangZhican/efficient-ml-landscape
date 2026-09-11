@@ -4140,6 +4140,27 @@
     ]
   },
   {
+    "title": "Fengshui: Demystifying Chiplet Ecosystem and Bespoke Neural Network Accelerator Codesign",
+    "venue": "arXiv 2026",
+    "topic": "edge/cloud/heterogeneous AI systems / chiplet accelerator codesign",
+    "arxiv": "2609.10970",
+    "doi": "",
+    "official_id": "arXiv:2609.10970",
+    "paper_url": "https://arxiv.org/abs/2609.10970",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Operator-level disaggregation and chiplet-pool co-design with physical validation. Eight selected chiplets achieve 93.0% EDP and 97.8% EDPC reductions versus homogeneous accelerators; LLM serving sees up to 16.8% prefill-energy and 28.7% energy-cost reductions, while autonomous-vehicle perception also improves under real-time latency constraints.",
+    "published_at": "2026-09-10T01:43:52Z",
+    "updated_at": "2026-09-10T01:43:52Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Fine-Tuning a KV Cache Concatenation-Aware Model or Recomputing KV Caches? Why Not Both?",
     "venue": "arXiv 2026",
     "topic": "KV cache/long-context / RAG serving / prefill acceleration",
