@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-11",
   "window_start_beijing": "2026-08-12",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 725,
+  "tracked_total": 730,
   "p0_strong_or_canonical": [
     {
       "title": "HybridFLow: SDN-Orchestrated Client Partitioning for Hybrid Federated Learning",
@@ -2924,6 +2924,28 @@
       ]
     },
     {
+      "title": "Efficient Semantic Understanding from Digital Foveation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / active vision / adaptive compute",
+      "arxiv": "2609.04088",
+      "doi": "",
+      "official_id": "arXiv:2609.04088",
+      "paper_url": "https://arxiv.org/abs/2609.04088",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Digital foveation allocates high-resolution processing only around selected fixations. A single foveated observation preserves 95.9% of dense-baseline Top-1 and 96.9% Top-3 accuracy at only 4.7% of the computational cost; scene-level accumulation reaches 90.6% object recall at 58.6% compute. This is direct, measured adaptive-perception compute reduction with clear relevance to embodied and edge vision.",
+      "published_at": "2026-09-03T16:56:12Z",
+      "updated_at": "2026-09-03T16:56:12Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Subspace Inference Enables Efficient Active Reward Learning from Preferences",
       "venue": "arXiv 2026",
       "topic": "efficient reasoning/agent systems / RLHF reward learning / subspace Bayesian inference",
@@ -4366,6 +4388,27 @@
       "directions": [
         "LLM Serving",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Beyond Similarity: Foundation Models as an Efficient Backbone for Training-Free Composed Video Retrieval",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / adaptive inference depth / video retrieval",
+      "arxiv": "2609.10008",
+      "doi": "",
+      "official_id": "arXiv:2609.10008",
+      "paper_url": "https://arxiv.org/abs/2609.10008",
+      "code_url": "https://github.com/demidovd98/CoVRAGE",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "The framework uses reusable compact gallery embeddings first, then bounded reranking, candidate expansion, target-description generation and multimodal verification only for increasingly ambiguous cases. This is a useful adaptive-compute serving pattern for video retrieval, but the abstract emphasizes retrieval accuracy rather than measured latency or cost savings.",
+      "published_at": "2026-09-09T10:38:25Z",
+      "updated_at": "2026-09-09T10:38:25Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving"
       ]
     },
     {
@@ -6199,6 +6242,30 @@
       ]
     },
     {
+      "title": "Phase-and-First-Arrival VLM Feedback for Sparse-Reward Reinforcement Learning in Surgical Manipulation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / robot learning / sparse VLM supervision",
+      "arxiv": "2609.07211",
+      "doi": "",
+      "official_id": "arXiv:2609.07211",
+      "paper_url": "https://arxiv.org/abs/2609.07211",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "The method uses one VLM query per recorded robot episode to identify the furthest verified task phase and its first arrival time, reusing partial progress for sparse-reward learning. It is valuable Physical-AI supervision-efficiency evidence, but the paper primarily improves learning signal quality rather than inference runtime.",
+      "published_at": "2026-09-07T08:29:59Z",
+      "updated_at": "2026-09-07T08:29:59Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "PhysMAS: Physics-Grounded Multi-Agent Synthesis of Compositional 4D Gaussians",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / 4D Gaussian world modeling / physics agents",
@@ -7094,6 +7161,27 @@
         "LLM Serving",
         "Video / Image Generation",
         "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "Neuron-Guided Fine-Tuning: Unlocking Efficient Alignment Mechanisms for Large Language Models",
+      "venue": "arXiv 2026",
+      "topic": "quantization/sparsity/pruning / parameter-efficient LLM fine-tuning / activation-guided updates",
+      "arxiv": "2609.05913",
+      "doi": "",
+      "official_id": "arXiv:2609.05913",
+      "paper_url": "https://arxiv.org/abs/2609.05913",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "NGFT uses activation patterns to select task-relevant neurons in one forward pass, select information-dense data, and align activations to pretrained states, explicitly targeting parameter redundancy and fine-tuning efficiency. The abstract claims efficiency gains but gives no concrete compute, memory or wall-clock ratio, so it remains watch.",
+      "published_at": "2026-09-05T06:13:24Z",
+      "updated_at": "2026-09-05T06:13:24Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Sparsity / Pruning"
       ]
     },
     {
@@ -8633,6 +8721,27 @@
         "LLM Serving",
         "Sparsity / Pruning",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Scal3R: Learning Efficient Multi-Relative Pose Query for Scalable Online 3D Reconstruction",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / online 3D reconstruction / lightweight pose queries",
+      "arxiv": "2609.04201",
+      "doi": "",
+      "official_id": "arXiv:2609.04201",
+      "paper_url": "https://arxiv.org/abs/2609.04201",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Scal3R keeps the reconstruction backbone frozen and adds lightweight multi-reference pose-query tokens amounting to about 1% of parameters to stabilize long-video online 3D reconstruction. It is a strong lightweight Physical-AI perception idea, but the abstract does not provide a clean wall-clock or memory reduction ratio.",
+      "published_at": "2026-09-03T17:59:53Z",
+      "updated_at": "2026-09-03T17:59:53Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -18613,6 +18722,28 @@
       ]
     },
     {
+      "title": "Efficient Semantic Understanding from Digital Foveation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / active vision / adaptive compute",
+      "arxiv": "2609.04088",
+      "doi": "",
+      "official_id": "arXiv:2609.04088",
+      "paper_url": "https://arxiv.org/abs/2609.04088",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Digital foveation allocates high-resolution processing only around selected fixations. A single foveated observation preserves 95.9% of dense-baseline Top-1 and 96.9% Top-3 accuracy at only 4.7% of the computational cost; scene-level accumulation reaches 90.6% object recall at 58.6% compute. This is direct, measured adaptive-perception compute reduction with clear relevance to embodied and edge vision.",
+      "published_at": "2026-09-03T16:56:12Z",
+      "updated_at": "2026-09-03T16:56:12Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Subspace Inference Enables Efficient Active Reward Learning from Preferences",
       "venue": "arXiv 2026",
       "topic": "efficient reasoning/agent systems / RLHF reward learning / subspace Bayesian inference",
@@ -20053,6 +20184,27 @@
       "directions": [
         "LLM Serving",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Beyond Similarity: Foundation Models as an Efficient Backbone for Training-Free Composed Video Retrieval",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / adaptive inference depth / video retrieval",
+      "arxiv": "2609.10008",
+      "doi": "",
+      "official_id": "arXiv:2609.10008",
+      "paper_url": "https://arxiv.org/abs/2609.10008",
+      "code_url": "https://github.com/demidovd98/CoVRAGE",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "The framework uses reusable compact gallery embeddings first, then bounded reranking, candidate expansion, target-description generation and multimodal verification only for increasingly ambiguous cases. This is a useful adaptive-compute serving pattern for video retrieval, but the abstract emphasizes retrieval accuracy rather than measured latency or cost savings.",
+      "published_at": "2026-09-09T10:38:25Z",
+      "updated_at": "2026-09-09T10:38:25Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving"
       ]
     },
     {
@@ -21886,6 +22038,30 @@
       ]
     },
     {
+      "title": "Phase-and-First-Arrival VLM Feedback for Sparse-Reward Reinforcement Learning in Surgical Manipulation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / robot learning / sparse VLM supervision",
+      "arxiv": "2609.07211",
+      "doi": "",
+      "official_id": "arXiv:2609.07211",
+      "paper_url": "https://arxiv.org/abs/2609.07211",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "The method uses one VLM query per recorded robot episode to identify the furthest verified task phase and its first arrival time, reusing partial progress for sparse-reward learning. It is valuable Physical-AI supervision-efficiency evidence, but the paper primarily improves learning signal quality rather than inference runtime.",
+      "published_at": "2026-09-07T08:29:59Z",
+      "updated_at": "2026-09-07T08:29:59Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "PhysMAS: Physics-Grounded Multi-Agent Synthesis of Compositional 4D Gaussians",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / 4D Gaussian world modeling / physics agents",
@@ -22781,6 +22957,27 @@
         "LLM Serving",
         "Video / Image Generation",
         "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "Neuron-Guided Fine-Tuning: Unlocking Efficient Alignment Mechanisms for Large Language Models",
+      "venue": "arXiv 2026",
+      "topic": "quantization/sparsity/pruning / parameter-efficient LLM fine-tuning / activation-guided updates",
+      "arxiv": "2609.05913",
+      "doi": "",
+      "official_id": "arXiv:2609.05913",
+      "paper_url": "https://arxiv.org/abs/2609.05913",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "NGFT uses activation patterns to select task-relevant neurons in one forward pass, select information-dense data, and align activations to pretrained states, explicitly targeting parameter redundancy and fine-tuning efficiency. The abstract claims efficiency gains but gives no concrete compute, memory or wall-clock ratio, so it remains watch.",
+      "published_at": "2026-09-05T06:13:24Z",
+      "updated_at": "2026-09-05T06:13:24Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Sparsity / Pruning"
       ]
     },
     {
@@ -24320,6 +24517,27 @@
         "LLM Serving",
         "Sparsity / Pruning",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Scal3R: Learning Efficient Multi-Relative Pose Query for Scalable Online 3D Reconstruction",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / online 3D reconstruction / lightweight pose queries",
+      "arxiv": "2609.04201",
+      "doi": "",
+      "official_id": "arXiv:2609.04201",
+      "paper_url": "https://arxiv.org/abs/2609.04201",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Scal3R keeps the reconstruction backbone frozen and adds lightweight multi-reference pose-query tokens amounting to about 1% of parameters to stabilize long-video online 3D reconstruction. It is a strong lightweight Physical-AI perception idea, but the abstract does not provide a clean wall-clock or memory reduction ratio.",
+      "published_at": "2026-09-03T17:59:53Z",
+      "updated_at": "2026-09-03T17:59:53Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {

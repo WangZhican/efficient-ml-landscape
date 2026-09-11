@@ -3793,6 +3793,28 @@
     ]
   },
   {
+    "title": "Efficient Semantic Understanding from Digital Foveation",
+    "venue": "arXiv 2026",
+    "topic": "VLA/WAM/Physical AI serving / active vision / adaptive compute",
+    "arxiv": "2609.04088",
+    "doi": "",
+    "official_id": "arXiv:2609.04088",
+    "paper_url": "https://arxiv.org/abs/2609.04088",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Digital foveation allocates high-resolution processing only around selected fixations. A single foveated observation preserves 95.9% of dense-baseline Top-1 and 96.9% Top-3 accuracy at only 4.7% of the computational cost; scene-level accumulation reaches 90.6% object recall at 58.6% compute. This is direct, measured adaptive-perception compute reduction with clear relevance to embodied and edge vision.",
+    "published_at": "2026-09-03T16:56:12Z",
+    "updated_at": "2026-09-03T16:56:12Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "EFQ-Softmax: Exp-Free Quantization for Softmax",
     "venue": "arXiv 2026",
     "topic": "quantization / efficient attention / low-bit inference kernels",
