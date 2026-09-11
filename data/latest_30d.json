@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-11",
   "window_start_beijing": "2026-08-12",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 706,
+  "tracked_total": 711,
   "p0_strong_or_canonical": [
     {
       "title": "HybridFLow: SDN-Orchestrated Client Partitioning for Hybrid Federated Learning",
@@ -4949,6 +4949,27 @@
       ]
     },
     {
+      "title": "No Free Checker: A Survey of Verifiers for Robot Policies",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / policy verification / runtime monitors",
+      "arxiv": "2609.09250",
+      "doi": "",
+      "official_id": "arXiv:2609.09250",
+      "paper_url": "https://arxiv.org/abs/2609.09250",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "This survey organizes roughly 150 robot-policy verifiers around availability (cost, latency, density) and credibility, directly exposing the runtime cost-versus-trust tradeoff for VLA policy checking. It is a protected Physical-AI reference rather than an acceleration method.",
+      "published_at": "2026-09-08T13:52:59Z",
+      "updated_at": "2026-09-08T13:52:59Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Tools-CC-Bench: a Benchmark Suite for Collective Communication with Compression in HPC and AI Workloads",
       "venue": "arXiv 2026",
       "topic": "distributed training/inference / collective communication / compression / systems benchmarking",
@@ -5686,6 +5707,27 @@
       ]
     },
     {
+      "title": "Signed Rescue Routing: Harm-Aware Cascades for Efficient LLM Inference",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / model routing / adaptive compute",
+      "arxiv": "2609.07786",
+      "doi": "",
+      "official_id": "arXiv:2609.07786",
+      "paper_url": "https://arxiv.org/abs/2609.07786",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "SRR routes requests between Qwen3-4B and Qwen3-8B by predicting signed incremental gain rather than uncertainty. The method is directly about budgeted efficient inference and uses a lightweight deployment router, but the current abstract still contains TBD quantitative results, so it is retained as high-value watch rather than promoted strong.",
+      "published_at": "2026-09-07T17:31:58Z",
+      "updated_at": "2026-09-07T17:31:58Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization"
+      ]
+    },
+    {
       "title": "Accuracy is Not Enough: A Divergence-Based Approach to Evaluate Fidelity Loss in Quantized LLMs",
       "venue": "arXiv 2026",
       "topic": "quantization / deployment evaluation / distribution fidelity",
@@ -5920,6 +5962,27 @@
       "directions": [
         "KV Cache / Long Context",
         "Efficient Attention"
+      ]
+    },
+    {
+      "title": "Matryoshka Hash Representations for Model-Aware Compact Semantic Retrieval",
+      "venue": "arXiv 2026",
+      "topic": "KV cache/long-context / RAG retrieval / compact index",
+      "arxiv": "2609.07276",
+      "doi": "",
+      "official_id": "arXiv:2609.07276",
+      "paper_url": "https://arxiv.org/abs/2609.07276",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "MHR stores documents at one bit per coordinate while supporting directly searchable prefixes at multiple byte budgets and FAISS FastScan. It directly attacks corpus-scale dense-index storage and preserves strong retrieval quality, but does not report end-to-end RAG serving latency.",
+      "published_at": "2026-09-07T09:38:28Z",
+      "updated_at": "2026-09-07T09:38:28Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context"
       ]
     },
     {
@@ -6801,6 +6864,28 @@
       ]
     },
     {
+      "title": "A Brain-inspired Hierarchical Framework for Zero-Shot Robot Task Reasoning and Execution",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / hierarchical robot reasoning / closed-loop execution",
+      "arxiv": "2609.05985",
+      "doi": "",
+      "official_id": "arXiv:2609.05985",
+      "paper_url": "https://arxiv.org/abs/2609.05985",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "The framework decomposes robot reasoning into perception/state inference, language grounding, reusable atomic actions, cost-based plan selection, and refreshed-observation verification, outperforming ReKep, Dream2Flow and pi0.5 on tested tasks. It is valuable Physical-AI system lineage but provides no measured inference/runtime efficiency.",
+      "published_at": "2026-09-05T08:59:04Z",
+      "updated_at": "2026-09-05T08:59:04Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "LoGIC: Budgeted Context Construction for Node-Level Graph In-Context Learning with Tabular Foundation Models",
       "venue": "arXiv 2026",
       "topic": "LLM serving / efficient attention / context budgeting / graph in-context learning",
@@ -6841,6 +6926,26 @@
       "directions": [
         "Sparsity / Pruning",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "FreeTransformSR: Efficient Lightweight Image Super-Resolution via Free Low-Rank Learnable Transform",
+      "venue": "arXiv 2026",
+      "topic": "video/image generation acceleration / lightweight image restoration",
+      "arxiv": "2609.05912",
+      "doi": "",
+      "official_id": "arXiv:2609.05912",
+      "paper_url": "https://arxiv.org/abs/2609.05912",
+      "code_url": "https://github.com/HJiLi/FreeTransformSR",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "FreeTransformSR reports 595K parameters, significantly fewer FLOPs, and faster inference than competing super-resolution methods while preserving competitive quality. It is useful lightweight vision-generation evidence, but the abstract lacks a clean common-platform speedup ratio.",
+      "published_at": "2026-09-05T06:12:53Z",
+      "updated_at": "2026-09-05T06:12:53Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Video / Image Generation"
       ]
     },
     {
@@ -20228,6 +20333,27 @@
       ]
     },
     {
+      "title": "No Free Checker: A Survey of Verifiers for Robot Policies",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / policy verification / runtime monitors",
+      "arxiv": "2609.09250",
+      "doi": "",
+      "official_id": "arXiv:2609.09250",
+      "paper_url": "https://arxiv.org/abs/2609.09250",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "This survey organizes roughly 150 robot-policy verifiers around availability (cost, latency, density) and credibility, directly exposing the runtime cost-versus-trust tradeoff for VLA policy checking. It is a protected Physical-AI reference rather than an acceleration method.",
+      "published_at": "2026-09-08T13:52:59Z",
+      "updated_at": "2026-09-08T13:52:59Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Tools-CC-Bench: a Benchmark Suite for Collective Communication with Compression in HPC and AI Workloads",
       "venue": "arXiv 2026",
       "topic": "distributed training/inference / collective communication / compression / systems benchmarking",
@@ -20965,6 +21091,27 @@
       ]
     },
     {
+      "title": "Signed Rescue Routing: Harm-Aware Cascades for Efficient LLM Inference",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / model routing / adaptive compute",
+      "arxiv": "2609.07786",
+      "doi": "",
+      "official_id": "arXiv:2609.07786",
+      "paper_url": "https://arxiv.org/abs/2609.07786",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "SRR routes requests between Qwen3-4B and Qwen3-8B by predicting signed incremental gain rather than uncertainty. The method is directly about budgeted efficient inference and uses a lightweight deployment router, but the current abstract still contains TBD quantitative results, so it is retained as high-value watch rather than promoted strong.",
+      "published_at": "2026-09-07T17:31:58Z",
+      "updated_at": "2026-09-07T17:31:58Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization"
+      ]
+    },
+    {
       "title": "Accuracy is Not Enough: A Divergence-Based Approach to Evaluate Fidelity Loss in Quantized LLMs",
       "venue": "arXiv 2026",
       "topic": "quantization / deployment evaluation / distribution fidelity",
@@ -21199,6 +21346,27 @@
       "directions": [
         "KV Cache / Long Context",
         "Efficient Attention"
+      ]
+    },
+    {
+      "title": "Matryoshka Hash Representations for Model-Aware Compact Semantic Retrieval",
+      "venue": "arXiv 2026",
+      "topic": "KV cache/long-context / RAG retrieval / compact index",
+      "arxiv": "2609.07276",
+      "doi": "",
+      "official_id": "arXiv:2609.07276",
+      "paper_url": "https://arxiv.org/abs/2609.07276",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "MHR stores documents at one bit per coordinate while supporting directly searchable prefixes at multiple byte budgets and FAISS FastScan. It directly attacks corpus-scale dense-index storage and preserves strong retrieval quality, but does not report end-to-end RAG serving latency.",
+      "published_at": "2026-09-07T09:38:28Z",
+      "updated_at": "2026-09-07T09:38:28Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context"
       ]
     },
     {
@@ -22080,6 +22248,28 @@
       ]
     },
     {
+      "title": "A Brain-inspired Hierarchical Framework for Zero-Shot Robot Task Reasoning and Execution",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / hierarchical robot reasoning / closed-loop execution",
+      "arxiv": "2609.05985",
+      "doi": "",
+      "official_id": "arXiv:2609.05985",
+      "paper_url": "https://arxiv.org/abs/2609.05985",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "The framework decomposes robot reasoning into perception/state inference, language grounding, reusable atomic actions, cost-based plan selection, and refreshed-observation verification, outperforming ReKep, Dream2Flow and pi0.5 on tested tasks. It is valuable Physical-AI system lineage but provides no measured inference/runtime efficiency.",
+      "published_at": "2026-09-05T08:59:04Z",
+      "updated_at": "2026-09-05T08:59:04Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "LoGIC: Budgeted Context Construction for Node-Level Graph In-Context Learning with Tabular Foundation Models",
       "venue": "arXiv 2026",
       "topic": "LLM serving / efficient attention / context budgeting / graph in-context learning",
@@ -22120,6 +22310,26 @@
       "directions": [
         "Sparsity / Pruning",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "FreeTransformSR: Efficient Lightweight Image Super-Resolution via Free Low-Rank Learnable Transform",
+      "venue": "arXiv 2026",
+      "topic": "video/image generation acceleration / lightweight image restoration",
+      "arxiv": "2609.05912",
+      "doi": "",
+      "official_id": "arXiv:2609.05912",
+      "paper_url": "https://arxiv.org/abs/2609.05912",
+      "code_url": "https://github.com/HJiLi/FreeTransformSR",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "FreeTransformSR reports 595K parameters, significantly fewer FLOPs, and faster inference than competing super-resolution methods while preserving competitive quality. It is useful lightweight vision-generation evidence, but the abstract lacks a clean common-platform speedup ratio.",
+      "published_at": "2026-09-05T06:12:53Z",
+      "updated_at": "2026-09-05T06:12:53Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Video / Image Generation"
       ]
     },
     {

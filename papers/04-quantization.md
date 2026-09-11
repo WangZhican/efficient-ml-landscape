@@ -1,10 +1,10 @@
 # 04 · Quantization
 
-> **238 canonical papers** mapped here, plus a broader **101-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **238 canonical papers** mapped here, plus a broader **102-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 101 tracked
+## 🆕 Latest 30 Days · 102 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -25,6 +25,7 @@
 | **P1 · Watch** | **ReactVAU: A Slow-Fast Decoupled Framework for Streaming Video Anomaly Understanding** | arXiv 2026 | multimodal/MLLM serving / streaming video / conditional MLLM invocation / persistent memory | [Link](https://arxiv.org/abs/2609.07941) | — |
 | **P1 · Watch** | **Interactive Debugger for Performance Portable Python HPC Kernels** | arXiv 2026 | GPU kernel/DSL/compilers / Python HPC / developer tooling | [Link](https://arxiv.org/abs/2609.07912) | — |
 | **P1 · Watch** | **Quantization Amplifies Determinism, Not Bias: Scale-Dependent Behavioral Effects of Serving-Time Weight Compression** | arXiv 2026 | quantization / LLM serving / behavioral fidelity | [Link](https://arxiv.org/abs/2609.07901) | — |
+| **P1 · Watch** | **Signed Rescue Routing: Harm-Aware Cascades for Efficient LLM Inference** | arXiv 2026 | LLM serving / model routing / adaptive compute | [Link](https://arxiv.org/abs/2609.07786) | — |
 | **P1 · Watch** | **Accuracy is Not Enough: A Divergence-Based Approach to Evaluate Fidelity Loss in Quantized LLMs** | arXiv 2026 | quantization / deployment evaluation / distribution fidelity | [Link](https://arxiv.org/abs/2609.07664) | — |
 | **P0 · Strong** | **Analytical Resource Management for Fine-grained MoE Computation-Communication Overlap** | arXiv 2026 | MoE systems/accelerators / distributed inference / compute-communication overlap | [Link](https://arxiv.org/abs/2609.07536) | — |
 | **P1 · Watch** | **EnvPilot: Systematic Design and Evaluation of an Experience-Augmented Agent for Software Environment Setup** | arXiv 2026 | efficient reasoning/agent systems / software engineering agents / trajectory memory / experience reuse | [Link](https://arxiv.org/abs/2609.07357) | — |

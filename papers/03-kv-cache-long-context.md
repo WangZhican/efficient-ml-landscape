@@ -1,10 +1,10 @@
 # 03 · KV Cache / Long Context
 
-> **428 canonical papers** mapped here, plus a broader **102-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **428 canonical papers** mapped here, plus a broader **103-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 102 tracked
+## 🆕 Latest 30 Days · 103 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -27,6 +27,7 @@
 | **P1 · Watch** | **Kalman Delta Networks: Uncertainty-aware Associative Memory** | arXiv 2026 | efficient attention / long-context / constant-memory recurrent inference | [Link](https://arxiv.org/abs/2609.07816) | — |
 | **P0 · Strong** | **Federated Binary Gating with Server-Side Vision-Language Inference for Surveillance Anomaly Classification** | arXiv 2026 | multimodal/MLLM serving / edge-cloud gating / selective VLM inference / federated systems | [Link](https://arxiv.org/abs/2609.07403) | — |
 | **P1 · Watch** | **Separating Stream Stability from Long-Term Recall in Language Models** | arXiv 2026 | KV cache/long-context / streaming LLM / constant-memory evaluation | [Link](https://arxiv.org/abs/2609.07282) | — |
+| **P1 · Watch** | **Matryoshka Hash Representations for Model-Aware Compact Semantic Retrieval** | arXiv 2026 | KV cache/long-context / RAG retrieval / compact index | [Link](https://arxiv.org/abs/2609.07276) | — |
 | **P0 · Strong** | **CEDAR: Error-Bounded Residual Routing for Efficient Long-Context Attention** | arXiv 2026 | efficient attention / long context / sparse routing / kernel acceleration | [Link](https://arxiv.org/abs/2609.07237) | — |
 | **P0 · Strong** | **Enabling High-Bandwidth Flash for Generative Recommendation Serving with Write-Aware KV Cache Policy** | arXiv 2026 | LLM/recommendation serving / KV cache / flash tiering / endurance-aware cache policy | [Link](https://arxiv.org/abs/2609.07175) | — |
 | **P0 · Strong** | **Online Draft Co-Training for Speculative Decoding in Large-Scale, Long-Context RL Post-Training** | arXiv 2026 | speculative decoding / RL post-training / context parallelism / pipeline parallelism | [Link](https://arxiv.org/abs/2609.07108) | [Repo](https://github.com/NVIDIA-NeMo/RL) |

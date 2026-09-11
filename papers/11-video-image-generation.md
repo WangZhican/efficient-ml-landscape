@@ -1,10 +1,10 @@
 # 11 · Video / Image Generation
 
-> **82 canonical papers** mapped here, plus a broader **32-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **82 canonical papers** mapped here, plus a broader **33-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 32 tracked
+## 🆕 Latest 30 Days · 33 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -13,6 +13,7 @@
 | **P0 · Strong** | **RoLA: Rotary-Positioned Low-Rank Linear Attention for Efficient Diffusion Transformers** | arXiv 2026 | video/image generation acceleration / diffusion/flow acceleration / efficient attention | [Link](https://arxiv.org/abs/2609.06712) | — |
 | **P1 · Watch** | **From Splats to Silicon: Rethinking Computational Efficiency of 3DGS** | arXiv 2026 | GPU kernel/DSL/compilers / 3DGS acceleration / accelerator architecture | [Link](https://arxiv.org/abs/2609.06157) | — |
 | **P0 · Strong** | **TBDub: Production-Oriented Visual Dubbing** | arXiv 2026 | video/image generation acceleration / diffusion/flow acceleration / few-step distillation | [Link](https://arxiv.org/abs/2609.06144) | [Repo](https://github.com/TaoLiveAIGC/TBDub) |
+| **P1 · Watch** | **FreeTransformSR: Efficient Lightweight Image Super-Resolution via Free Low-Rank Learnable Transform** | arXiv 2026 | video/image generation acceleration / lightweight image restoration | [Link](https://arxiv.org/abs/2609.05912) | [Repo](https://github.com/HJiLi/FreeTransformSR) |
 | **P0 · Strong** | **SceneMosaic: Efficient and Diverse Simulation-Ready Scene Generation via Hybrid Agentic Layout Evolution** | arXiv 2026 | VLA/WAM/Physical AI serving / simulation infrastructure / agentic generation | [Link](https://arxiv.org/abs/2609.05594) | [Repo](https://github.com/rxjfighting/SceneMosaic) |
 | **P1 · Watch** | **Compact Neural Appearance Models for Efficient Gaussian Splatting** | arXiv 2026 | VLA/WAM/Physical AI / 3DGS / compact appearance representation / CUDA rendering | [Link](https://arxiv.org/abs/2609.05255) | — |
 | **P0 · Strong** | **DSAQuant: Denoising-Stage-Aligned Quantization-Aware Training for Video Generation** | CoRR 2026 | quantization / video generation acceleration / diffusion inference | [Link](https://arxiv.org/abs/2609.04031) | [Repo](https://github.com/robbyant-research/DSAQuant) |

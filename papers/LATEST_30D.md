@@ -1,6 +1,6 @@
 # 🆕 Latest 30 Days
 
-> Rolling 30-day view ending **2026-09-11**: **706 tracked papers = 182 P0 + 405 P1 + 119 P2**. Topical relevance determines visibility; quality determines priority. The classical census remains stricter.
+> Rolling 30-day view ending **2026-09-11**: **711 tracked papers = 182 P0 + 410 P1 + 119 P2**. Topical relevance determines visibility; quality determines priority. The classical census remains stricter.
 
 [← Paper Library](ALL_PAPERS.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/latest_30d.json) · [CSV](../data/latest_30d.csv)
 
@@ -243,6 +243,7 @@
 | **P1 · Watch** | **DiffLUT-Net: Differentiable Training of FPGA LUT Networks with Learnable Connectivity** | arXiv 2026 | edge/cloud/heterogeneous AI / FPGA / hardware-native networks | [Link](https://arxiv.org/abs/2609.09254) | — |
 | **P1 · Watch** | **Closing the Consistency Gap: Self-Evolving Agents That Learn to Stay on Course** | arXiv 2026 | efficient reasoning/agent systems / episodic memory / production consistency | [Link](https://arxiv.org/abs/2609.08832) | — |
 | **P1 · Watch** | **Hi-FLoop: Hierarchical State-Feedback Loops for Multi-Timescale World Modeling** | arXiv 2026 | VLA/WAM/Physical AI / world models / multi-timescale closed-loop generation | [Link](https://arxiv.org/abs/2609.08796) | — |
+| **P1 · Watch** | **No Free Checker: A Survey of Verifiers for Robot Policies** | arXiv 2026 | VLA/WAM/Physical AI serving / policy verification / runtime monitors | [Link](https://arxiv.org/abs/2609.09250) | — |
 | **P1 · Watch** | **Tools-CC-Bench: a Benchmark Suite for Collective Communication with Compression in HPC and AI Workloads** | arXiv 2026 | distributed training/inference / collective communication / compression / systems benchmarking | [Link](https://arxiv.org/abs/2609.08739) | — |
 | **P1 · Watch** | **Hyperparameter Scaling Laws Across MoE Sparsity** | arXiv 2026 | MoE systems/accelerators / sparse training / scaling laws | [Link](https://arxiv.org/abs/2609.08690) | — |
 | **P1 · Watch** | **BIFTA: Brain-Inspired Few-Shot Tactile Adaptation for Unknown Sensors** | arXiv 2026 | VLA/WAM/Physical AI / tactile sensing / few-shot adaptation / heterogeneous sensors | [Link](https://arxiv.org/abs/2609.08673) | — |
@@ -277,6 +278,7 @@
 | **P1 · Watch** | **The OCUDU dApp Platform: An Open Runtime and E3 Interface for Real-Time AI-RAN** | arXiv 2026 | edge/cloud/heterogeneous AI systems / real-time AI-RAN / GPU runtime / edge orchestration | [Link](https://arxiv.org/abs/2609.07843) | — |
 | **P1 · Watch** | **Kalman Delta Networks: Uncertainty-aware Associative Memory** | arXiv 2026 | efficient attention / long-context / constant-memory recurrent inference | [Link](https://arxiv.org/abs/2609.07816) | — |
 | **P1 · Watch** | **Real-Time dApps for AI-RAN: Measured Interface Requirements for Inline PHY and Slot-Level Control** | arXiv 2026 | edge/cloud/heterogeneous AI systems / AI-RAN / low-latency runtime interface | [Link](https://arxiv.org/abs/2609.07805) | — |
+| **P1 · Watch** | **Signed Rescue Routing: Harm-Aware Cascades for Efficient LLM Inference** | arXiv 2026 | LLM serving / model routing / adaptive compute | [Link](https://arxiv.org/abs/2609.07786) | — |
 | **P1 · Watch** | **Accuracy is Not Enough: A Divergence-Based Approach to Evaluate Fidelity Loss in Quantized LLMs** | arXiv 2026 | quantization / deployment evaluation / distribution fidelity | [Link](https://arxiv.org/abs/2609.07664) | — |
 | **P1 · Watch** | **ICI-VLA: In-Context Imitation with Spatiotemporally Aligned Demonstrations for Vision-Language-Action Models** | arXiv 2026 | VLA/WAM/Physical AI serving / test-time adaptation / retrieval-conditioned control | [Link](https://arxiv.org/abs/2609.07581) | — |
 | **P1 · Watch** | **Anti-Gravity Walking by a Flying Humanoid Robot via Thrust-Rate Input Whole-Body Model Predictive Control** | arXiv 2026 | VLA/WAM/Physical AI serving / robot control / real-time MPC / humanoid | [Link](https://arxiv.org/abs/2609.07544) | — |
@@ -288,6 +290,7 @@
 | **P1 · Watch** | **EnvPilot: Systematic Design and Evaluation of an Experience-Augmented Agent for Software Environment Setup** | arXiv 2026 | efficient reasoning/agent systems / software engineering agents / trajectory memory / experience reuse | [Link](https://arxiv.org/abs/2609.07357) | — |
 | **P1 · Watch** | **RouteRelay: Event-Triggered Cross-Layer Route Reuse for Efficient Dynamic Sparse Attention** | arXiv 2026 | efficient attention / sparse attention / route reuse / GPU kernels | [Link](https://arxiv.org/abs/2609.07306) | — |
 | **P1 · Watch** | **Separating Stream Stability from Long-Term Recall in Language Models** | arXiv 2026 | KV cache/long-context / streaming LLM / constant-memory evaluation | [Link](https://arxiv.org/abs/2609.07282) | — |
+| **P1 · Watch** | **Matryoshka Hash Representations for Model-Aware Compact Semantic Retrieval** | arXiv 2026 | KV cache/long-context / RAG retrieval / compact index | [Link](https://arxiv.org/abs/2609.07276) | — |
 | **P1 · Watch** | **Mathematical Modeling of a Cognitive Continuum Digital Shadow for Large-Scale, Cross-Facility Workflows** | arXiv 2026 | edge/cloud/heterogeneous AI systems / cross-facility scheduling / cost-energy optimization | [Link](https://arxiv.org/abs/2609.07275) | — |
 | **P1 · Watch** | **LightSplat: Real-Time High-Fidelity 3D Gaussian SLAM with Loop Closure** | arXiv 2026 | VLA/WAM/Physical AI serving / 3DGS / real-time SLAM | [Link](https://arxiv.org/abs/2609.07274) | — |
 | **P1 · Watch** | **Dense Structural Compression of Transformers via Gauge-Correct Channel Removal** | arXiv 2026 | sparsity/pruning / dense structural compression / efficient inference | [Link](https://arxiv.org/abs/2609.07264) | — |
@@ -329,8 +332,10 @@
 | **P1 · Watch** | **NSFlow: End-to-End Differentiable Neuro-Symbolic Optical Flow for Visual Odometry** | arXiv 2026 | VLA/WAM/Physical AI serving / embedded visual odometry / realtime perception / efficient robotics | [Link](https://arxiv.org/abs/2609.06074) | — |
 | **P1 · Watch** | **DAREBench: Deployment-Aware and Reliable Evaluation of Models as Agents** | arXiv 2026 | efficient reasoning/agent systems / deployment benchmark / cost-aware model selection | [Link](https://arxiv.org/abs/2609.06059) | — |
 | **P1 · Watch** | **FALCON-S: Fixed-wing ground-effect Aerodynamics Simulator and Flight Control Learning Suite** | arXiv 2026 | VLA/WAM/Physical AI serving / GPU simulation / robot learning | [Link](https://arxiv.org/abs/2609.06046) | — |
+| **P1 · Watch** | **A Brain-inspired Hierarchical Framework for Zero-Shot Robot Task Reasoning and Execution** | arXiv 2026 | VLA/WAM/Physical AI serving / hierarchical robot reasoning / closed-loop execution | [Link](https://arxiv.org/abs/2609.05985) | — |
 | **P1 · Watch** | **LoGIC: Budgeted Context Construction for Node-Level Graph In-Context Learning with Tabular Foundation Models** | arXiv 2026 | LLM serving / efficient attention / context budgeting / graph in-context learning | [Link](https://arxiv.org/abs/2609.05955) | — |
 | **P1 · Watch** | **Rethinking the Evaluation of Efficiency Methods for Multi-Agent Systems** | arXiv 2026 | efficient reasoning/agent systems / multi-agent efficiency / evaluation methodology | [Link](https://arxiv.org/abs/2609.05933) | — |
+| **P1 · Watch** | **FreeTransformSR: Efficient Lightweight Image Super-Resolution via Free Low-Rank Learnable Transform** | arXiv 2026 | video/image generation acceleration / lightweight image restoration | [Link](https://arxiv.org/abs/2609.05912) | [Repo](https://github.com/HJiLi/FreeTransformSR) |
 | **P1 · Watch** | **From Narrative to Auditable Forecasts: A Structured Scaffold for Agentic Forecasting** | arXiv 2026 | efficient reasoning/agent systems / adaptive scaffold / cost-aware inference | [Link](https://arxiv.org/abs/2609.05905) | — |
 | **P1 · Watch** | **CR-VLA-Force: Learning Control-aware Compliance VLA Model for Robust Contact-rich Robotic Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving / multimodal MoE / reactive control | [Link](https://arxiv.org/abs/2609.05832) | — |
 | **P1 · Watch** | **Distilling Vision-Language Models for On-Device Fire Understanding** | arXiv 2026 | multimodal/MLLM serving / edge inference / VLM distillation | [Link](https://arxiv.org/abs/2609.05782) | — |
