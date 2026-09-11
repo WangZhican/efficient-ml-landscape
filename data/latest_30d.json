@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-11",
   "window_start_beijing": "2026-08-12",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 711,
+  "tracked_total": 716,
   "p0_strong_or_canonical": [
     {
       "title": "HybridFLow: SDN-Orchestrated Client Partitioning for Hybrid Federated Learning",
@@ -5294,6 +5294,27 @@
       ]
     },
     {
+      "title": "Monkey See, Can Monkey Do? A Benchmark for Evaluating Robot Skill Learning by Observation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / robot learning / data scaling benchmark",
+      "arxiv": "2609.08209",
+      "doi": "",
+      "official_id": "arXiv:2609.08209",
+      "paper_url": "https://arxiv.org/abs/2609.08209",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "RoboReel provides a unified benchmark for learning robot policies from human videos across ten manipulation tasks and seven-plus algorithms including VLA variants. It directly addresses robotics data scaling and long-horizon robustness, but is a benchmark rather than an inference accelerator.",
+      "published_at": "2026-09-08T03:48:44Z",
+      "updated_at": "2026-09-09T03:55:01Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Do Dynamic Routers Need Memory? HeRo: History-Aware Routing for Efficient LLM Inference",
       "venue": "arXiv 2026",
       "topic": "sparsity/pruning / dynamic layer routing / efficient LLM inference / router memory",
@@ -5399,6 +5420,28 @@
         "LLM Serving",
         "KV Cache / Long Context",
         "Efficient Attention"
+      ]
+    },
+    {
+      "title": "Observe Before You Alert: Adaptive Driver Alerting with Vision-Language Models",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / adaptive perception / driver alerting",
+      "arxiv": "2609.08130",
+      "doi": "",
+      "official_id": "arXiv:2609.08130",
+      "paper_url": "https://arxiv.org/abs/2609.08130",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "VLAlert introduces SILENT/OBSERVE/ALERT actions so a VLM can delay uncertain warnings and adapt the next observation window. It is relevant to adaptive Physical-AI perception and runtime control, but reports decision quality rather than inference speed or compute reduction.",
+      "published_at": "2026-09-08T02:08:50Z",
+      "updated_at": "2026-09-08T02:08:50Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -5596,6 +5639,26 @@
       "directions": [
         "LLM Serving",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "JEDI: JEPA-to-Edge Distillation for Efficient Cropland Segmentation from Satellite Imagery",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / distillation / compact vision",
+      "arxiv": "2609.07915",
+      "doi": "",
+      "official_id": "arXiv:2609.07915",
+      "paper_url": "https://arxiv.org/abs/2609.07915",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "JEDI distills a 639M-parameter I-JEPA teacher into compact 4.04M-28M SegFormer students while preserving much of the task quality. The compression ratio is substantial and deployment-motivated, but the application is remote sensing and the abstract lacks direct latency/energy measurements.",
+      "published_at": "2026-09-07T19:29:45Z",
+      "updated_at": "2026-09-07T19:29:45Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -7724,6 +7787,27 @@
       ]
     },
     {
+      "title": "ReCAST: Restoration-aware Cascaded Stage-wise Training for Obfuscated SMS Risk Classification",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / distillation / deployable small models",
+      "arxiv": "2609.04878",
+      "doi": "",
+      "official_id": "arXiv:2609.04878",
+      "paper_url": "https://arxiv.org/abs/2609.04878",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "ReCAST distills a large teacher de-obfuscation capability into a smaller deployable student under production-oriented latency and throughput constraints. It is relevant to compact production inference, but the abstract does not provide concrete speedup, memory, or cost numbers.",
+      "published_at": "2026-09-04T08:36:21Z",
+      "updated_at": "2026-09-04T08:36:21Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Coupled Control and Wireless World Models for Resilient Remote Robotic Control",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / cloud-edge robotics / communication-aware world models",
@@ -8330,6 +8414,30 @@
       "directions": [
         "LLM Serving",
         "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "LLM-Aided Design for Manufacturing: A Multi-Agent System for Intent-Preserving Redesign of CAD for Improved Manufacturability",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / industrial agents / tool-using verification",
+      "arxiv": "2609.05559",
+      "doi": "",
+      "official_id": "arXiv:2609.05559",
+      "paper_url": "https://arxiv.org/abs/2609.05559",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "A multimodal-LLM reviewer and CAD-modifier agent iteratively propose, compile, visually verify and revise manufacturing-oriented CAD edits. It is useful lineage for tool-using industrial Physical-AI agents, but the contribution is task robustness rather than inference efficiency.",
+      "published_at": "2026-09-03T18:19:27Z",
+      "updated_at": "2026-09-03T18:19:27Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Speculative Decoding",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -20678,6 +20786,27 @@
       ]
     },
     {
+      "title": "Monkey See, Can Monkey Do? A Benchmark for Evaluating Robot Skill Learning by Observation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / robot learning / data scaling benchmark",
+      "arxiv": "2609.08209",
+      "doi": "",
+      "official_id": "arXiv:2609.08209",
+      "paper_url": "https://arxiv.org/abs/2609.08209",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "RoboReel provides a unified benchmark for learning robot policies from human videos across ten manipulation tasks and seven-plus algorithms including VLA variants. It directly addresses robotics data scaling and long-horizon robustness, but is a benchmark rather than an inference accelerator.",
+      "published_at": "2026-09-08T03:48:44Z",
+      "updated_at": "2026-09-09T03:55:01Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Do Dynamic Routers Need Memory? HeRo: History-Aware Routing for Efficient LLM Inference",
       "venue": "arXiv 2026",
       "topic": "sparsity/pruning / dynamic layer routing / efficient LLM inference / router memory",
@@ -20783,6 +20912,28 @@
         "LLM Serving",
         "KV Cache / Long Context",
         "Efficient Attention"
+      ]
+    },
+    {
+      "title": "Observe Before You Alert: Adaptive Driver Alerting with Vision-Language Models",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / adaptive perception / driver alerting",
+      "arxiv": "2609.08130",
+      "doi": "",
+      "official_id": "arXiv:2609.08130",
+      "paper_url": "https://arxiv.org/abs/2609.08130",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "VLAlert introduces SILENT/OBSERVE/ALERT actions so a VLM can delay uncertain warnings and adapt the next observation window. It is relevant to adaptive Physical-AI perception and runtime control, but reports decision quality rather than inference speed or compute reduction.",
+      "published_at": "2026-09-08T02:08:50Z",
+      "updated_at": "2026-09-08T02:08:50Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -20980,6 +21131,26 @@
       "directions": [
         "LLM Serving",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "JEDI: JEPA-to-Edge Distillation for Efficient Cropland Segmentation from Satellite Imagery",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / distillation / compact vision",
+      "arxiv": "2609.07915",
+      "doi": "",
+      "official_id": "arXiv:2609.07915",
+      "paper_url": "https://arxiv.org/abs/2609.07915",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "JEDI distills a 639M-parameter I-JEPA teacher into compact 4.04M-28M SegFormer students while preserving much of the task quality. The compression ratio is substantial and deployment-motivated, but the application is remote sensing and the abstract lacks direct latency/energy measurements.",
+      "published_at": "2026-09-07T19:29:45Z",
+      "updated_at": "2026-09-07T19:29:45Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -23108,6 +23279,27 @@
       ]
     },
     {
+      "title": "ReCAST: Restoration-aware Cascaded Stage-wise Training for Obfuscated SMS Risk Classification",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / distillation / deployable small models",
+      "arxiv": "2609.04878",
+      "doi": "",
+      "official_id": "arXiv:2609.04878",
+      "paper_url": "https://arxiv.org/abs/2609.04878",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "ReCAST distills a large teacher de-obfuscation capability into a smaller deployable student under production-oriented latency and throughput constraints. It is relevant to compact production inference, but the abstract does not provide concrete speedup, memory, or cost numbers.",
+      "published_at": "2026-09-04T08:36:21Z",
+      "updated_at": "2026-09-04T08:36:21Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Coupled Control and Wireless World Models for Resilient Remote Robotic Control",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / cloud-edge robotics / communication-aware world models",
@@ -23714,6 +23906,30 @@
       "directions": [
         "LLM Serving",
         "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "LLM-Aided Design for Manufacturing: A Multi-Agent System for Intent-Preserving Redesign of CAD for Improved Manufacturability",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / industrial agents / tool-using verification",
+      "arxiv": "2609.05559",
+      "doi": "",
+      "official_id": "arXiv:2609.05559",
+      "paper_url": "https://arxiv.org/abs/2609.05559",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "A multimodal-LLM reviewer and CAD-modifier agent iteratively propose, compile, visually verify and revise manufacturing-oriented CAD edits. It is useful lineage for tool-using industrial Physical-AI agents, but the contribution is task robustness rather than inference efficiency.",
+      "published_at": "2026-09-03T18:19:27Z",
+      "updated_at": "2026-09-03T18:19:27Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Speculative Decoding",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {

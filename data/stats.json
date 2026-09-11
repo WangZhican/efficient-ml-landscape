@@ -1,8 +1,8 @@
 {
   "unique_papers": 1754,
-  "latest_30d_tracked_total": 711,
+  "latest_30d_tracked_total": 716,
   "latest_30d_quality_gated": 182,
-  "latest_30d_watchlist": 410,
+  "latest_30d_watchlist": 415,
   "latest_30d_relevant_low_priority": 119,
   "classical_papers": 1572,
   "latest_strong": 45,
@@ -33,5 +33,5 @@
   "venue_active_round_checked": 34,
   "venue_active_round_status": "IN_PROGRESS_NONZERO",
   "source_date_beijing": "2026-09-11",
-  "updated_at_beijing": "2026-09-11T08:05:13+08:00"
+  "updated_at_beijing": "2026-09-11T09:04:49+08:00"
 }
