@@ -6282,6 +6282,27 @@
     ]
   },
   {
+    "title": "Positional task conditioning for scalable defect detection across product families in large product catalogs",
+    "venue": "arXiv 2026",
+    "topic": "LLM serving / distillation / production inference cost",
+    "arxiv": "2609.09567",
+    "doi": "",
+    "official_id": "arXiv:2609.09567",
+    "paper_url": "https://arxiv.org/abs/2609.09567",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Decomposes long-context defect detection into focused tasks and distills the capability into one smaller model. PTC stays within 1.79% F1 of the frontier at up to 98% lower cost and is deployed across multiple countries processing more than 10 million product families.",
+    "published_at": "2026-09-09T00:48:18Z",
+    "updated_at": "2026-09-09T00:48:18Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context"
+    ]
+  },
+  {
     "title": "Predict, Don't Iterate: Efficient Adaptive-Length Infilling for Diffusion Language Models",
     "venue": "arXiv 2026",
     "topic": "diffusion language models / inference acceleration / adaptive decoding",

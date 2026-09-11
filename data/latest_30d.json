@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-11",
   "window_start_beijing": "2026-08-12",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 768,
+  "tracked_total": 777,
   "p0_strong_or_canonical": [
     {
       "title": "HybridFLow: SDN-Orchestrated Client Partitioning for Hybrid Federated Learning",
@@ -552,6 +552,27 @@
         "Distributed Training / Inference",
         "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Positional task conditioning for scalable defect detection across product families in large product catalogs",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / distillation / production inference cost",
+      "arxiv": "2609.09567",
+      "doi": "",
+      "official_id": "arXiv:2609.09567",
+      "paper_url": "https://arxiv.org/abs/2609.09567",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Decomposes long-context defect detection into focused tasks and distills the capability into one smaller model. PTC stays within 1.79% F1 of the frontier at up to 98% lower cost and is deployed across multiple countries processing more than 10 million product families.",
+      "published_at": "2026-09-09T00:48:18Z",
+      "updated_at": "2026-09-09T00:48:18Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context"
       ]
     },
     {
@@ -4647,6 +4668,28 @@
       ]
     },
     {
+      "title": "CT-SAFR: Safe and Interpretable Chain-of-Thought Reasoning for Autonomous Robots: A Multi-Layered Verification Framework for Trustworthy AI-Driven Robotic Decision Making",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / runtime verification / robot reasoning",
+      "arxiv": "2609.09692",
+      "doi": "",
+      "official_id": "arXiv:2609.09692",
+      "paper_url": "https://arxiv.org/abs/2609.09692",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "CT-SAFR adds a multi-layer robot-reasoning verifier with 94.2% hallucination detection and sub-500 ms latency in a warehouse-robot case study. This is protected Physical-AI runtime-verification evidence, although the contribution is safety rather than acceleration.",
+      "published_at": "2026-09-09T04:15:20Z",
+      "updated_at": "2026-09-09T04:15:20Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "PRAGMA: Evaluating Personalized Guidance with Memory Alignment in Lifelong Conversations",
       "venue": "arXiv 2026",
       "topic": "efficient reasoning/agent systems / long-term memory / retrieval benchmark",
@@ -5435,6 +5478,27 @@
         "LLM Serving",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Noise Adaptive Streaming Audio-Visual Speech Token Enhancement for Robust Full-Duplex Spoken Dialogue Models",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / streaming speech / modular adaptation",
+      "arxiv": "2609.08390",
+      "doi": "",
+      "official_id": "arXiv:2609.08390",
+      "paper_url": "https://arxiv.org/abs/2609.08390",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "AV-STE is a streaming audio-visual token-restoration front-end that keeps the downstream Moshi speech LLM frozen, avoiding costly multimodal retraining while improving coherence under noise. Useful modular serving lineage, but the abstract gives no end-to-end latency or throughput comparison.",
+      "published_at": "2026-09-08T07:59:13Z",
+      "updated_at": "2026-09-08T07:59:13Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving"
       ]
     },
     {
@@ -7218,6 +7282,26 @@
       ]
     },
     {
+      "title": "Object-Aware Background-Controlled Editing via Weighted Velocity Guidance",
+      "venue": "arXiv 2026",
+      "topic": "diffusion/flow acceleration / training-free image-video editing",
+      "arxiv": "2609.06288",
+      "doi": "",
+      "official_id": "arXiv:2609.06288",
+      "paper_url": "https://arxiv.org/abs/2609.06288",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "OAVC performs object-localized velocity control directly during diffusion/rectified-flow inference with no retraining or base-model modification. It is relevant inference-time flow-control lineage, but the reported improvements are fidelity/stability rather than wall-clock acceleration.",
+      "published_at": "2026-09-05T22:53:58Z",
+      "updated_at": "2026-09-05T22:53:58Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
       "title": "IM-ENGINE: Image Editing for Embodied Data Generation",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / embodied data generation / simulation",
@@ -7900,6 +7984,28 @@
       ]
     },
     {
+      "title": "RAPTOR: Role-Aware Private Training for Mixture-of-Experts",
+      "venue": "arXiv 2026",
+      "topic": "MoE systems/accelerators / distributed training / private fine-tuning",
+      "arxiv": "2609.05770",
+      "doi": "",
+      "official_id": "arXiv:2609.05770",
+      "paper_url": "https://arxiv.org/abs/2609.05770",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "RAPTOR separates shared and expert optimization, uses expert-specific clipping/noise, and exploits parallel privacy composition across routed experts. It gives consistent utility gains on Switch Transformer, OLMoE and DeepSeek-VL2-Tiny under matched privacy budgets, but the abstract does not quantify training-time or memory savings.",
+      "published_at": "2026-09-04T23:16:12Z",
+      "updated_at": "2026-09-04T23:16:12Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "MoE Systems / Accelerators",
+        "Distributed Training / Inference"
+      ]
+    },
+    {
       "title": "RAGMark: A Comprehensive Framework for Benchmarking Retrieval-Augmented Generation Systems",
       "venue": "arXiv 2026",
       "topic": "LLM serving / RAG systems / benchmarking",
@@ -8052,6 +8158,27 @@
         "Efficient Attention",
         "MoE Systems / Accelerators",
         "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "Does Your Agent's Memory Survive a Model Upgrade? A Controlled Study of Memory Portability",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / memory portability / RAG migration",
+      "arxiv": "2609.05339",
+      "doi": "",
+      "official_id": "arXiv:2609.05339",
+      "paper_url": "https://arxiv.org/abs/2609.05339",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Controlled migration study shows fixed-schema KG memory transfers almost unchanged, compressed notes are highly model-coupled, and half-migrated embedding indexes forfeit most of the gain from full re-embedding. Important systems evidence for durable agent-memory formats and migration cost.",
+      "published_at": "2026-09-04T16:44:17Z",
+      "updated_at": "2026-09-04T16:44:17Z",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -8762,6 +8889,26 @@
       ]
     },
     {
+      "title": "From Interaction Traces to Persistent Skills: Online Evolution for Computer-Use Agents",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / procedural memory / skill reuse",
+      "arxiv": "2609.04869",
+      "doi": "",
+      "official_id": "arXiv:2609.04869",
+      "paper_url": "https://arxiv.org/abs/2609.04869",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Converts interaction trajectories and evaluator feedback into a persistent versioned skill library while keeping the action-generation and grounding stack fixed. Across four OSWorld domains the evolving library improves post-warm-up evaluator scores by 5.7-18.6 points, providing useful evidence for reusable procedural memory without model updates.",
+      "published_at": "2026-09-04T08:29:45Z",
+      "updated_at": "2026-09-04T08:29:45Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Coupled Control and Wireless World Models for Resilient Remote Robotic Control",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / cloud-edge robotics / communication-aware world models",
@@ -8962,6 +9109,27 @@
         "KV Cache / Long Context",
         "Quantization",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Aplaud: Adaptive Personalized Low-Rank Decomposition for User-Specific LLM",
+      "venue": "arXiv 2026",
+      "topic": "quantization / parameter-efficient adaptation / personalized LLM serving",
+      "arxiv": "2609.04738",
+      "doi": "",
+      "official_id": "arXiv:2609.04738",
+      "paper_url": "https://arxiv.org/abs/2609.04738",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Aplaud separates a frozen shared low-rank basis from compact per-user corrections and reports better generalization plus inference efficiency than LoRA-style personalized baselines. Relevant scalable personalization lineage, though the abstract omits a concrete memory/latency ratio.",
+      "published_at": "2026-09-04T05:09:17Z",
+      "updated_at": "2026-09-04T05:09:17Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization"
       ]
     },
     {
@@ -9495,6 +9663,28 @@
         "LLM Serving",
         "Sparsity / Pruning",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Temporal Self-Distillation: Learning Visual State Tracking in Videos Without Supervision",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / video understanding / self-distillation",
+      "arxiv": "2609.04203",
+      "doi": "",
+      "official_id": "arXiv:2609.04203",
+      "paper_url": "https://arxiv.org/abs/2609.04203",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "S3T uses denser temporal views as an internal teacher for a sparse-view student with shared weights, requiring no labels, separate teacher, or reward signal and adding no inference cost. It improves LLaVA-OneVision video-state tracking, though the efficiency gain is primarily training/data-side rather than measured serving speedup.",
+      "published_at": "2026-09-03T17:59:55Z",
+      "updated_at": "2026-09-03T17:59:55Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Multimodal / MLLM Serving"
       ]
     },
     {
@@ -17147,6 +17337,27 @@
       ]
     },
     {
+      "title": "Positional task conditioning for scalable defect detection across product families in large product catalogs",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / distillation / production inference cost",
+      "arxiv": "2609.09567",
+      "doi": "",
+      "official_id": "arXiv:2609.09567",
+      "paper_url": "https://arxiv.org/abs/2609.09567",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Decomposes long-context defect detection into focused tasks and distills the capability into one smaller model. PTC stays within 1.79% F1 of the frontier at up to 98% lower cost and is deployed across multiple countries processing more than 10 million product families.",
+      "published_at": "2026-09-09T00:48:18Z",
+      "updated_at": "2026-09-09T00:48:18Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context"
+      ]
+    },
+    {
       "title": "TEFM: Token-Efficient Faithful Modeling for Structured Data",
       "venue": "arXiv 2026",
       "topic": "LLM serving / token compression / structured-data inference",
@@ -21237,6 +21448,28 @@
       ]
     },
     {
+      "title": "CT-SAFR: Safe and Interpretable Chain-of-Thought Reasoning for Autonomous Robots: A Multi-Layered Verification Framework for Trustworthy AI-Driven Robotic Decision Making",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / runtime verification / robot reasoning",
+      "arxiv": "2609.09692",
+      "doi": "",
+      "official_id": "arXiv:2609.09692",
+      "paper_url": "https://arxiv.org/abs/2609.09692",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "CT-SAFR adds a multi-layer robot-reasoning verifier with 94.2% hallucination detection and sub-500 ms latency in a warehouse-robot case study. This is protected Physical-AI runtime-verification evidence, although the contribution is safety rather than acceleration.",
+      "published_at": "2026-09-09T04:15:20Z",
+      "updated_at": "2026-09-09T04:15:20Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "PRAGMA: Evaluating Personalized Guidance with Memory Alignment in Lifelong Conversations",
       "venue": "arXiv 2026",
       "topic": "efficient reasoning/agent systems / long-term memory / retrieval benchmark",
@@ -22025,6 +22258,27 @@
         "LLM Serving",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Noise Adaptive Streaming Audio-Visual Speech Token Enhancement for Robust Full-Duplex Spoken Dialogue Models",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / streaming speech / modular adaptation",
+      "arxiv": "2609.08390",
+      "doi": "",
+      "official_id": "arXiv:2609.08390",
+      "paper_url": "https://arxiv.org/abs/2609.08390",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "AV-STE is a streaming audio-visual token-restoration front-end that keeps the downstream Moshi speech LLM frozen, avoiding costly multimodal retraining while improving coherence under noise. Useful modular serving lineage, but the abstract gives no end-to-end latency or throughput comparison.",
+      "published_at": "2026-09-08T07:59:13Z",
+      "updated_at": "2026-09-08T07:59:13Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving"
       ]
     },
     {
@@ -23808,6 +24062,26 @@
       ]
     },
     {
+      "title": "Object-Aware Background-Controlled Editing via Weighted Velocity Guidance",
+      "venue": "arXiv 2026",
+      "topic": "diffusion/flow acceleration / training-free image-video editing",
+      "arxiv": "2609.06288",
+      "doi": "",
+      "official_id": "arXiv:2609.06288",
+      "paper_url": "https://arxiv.org/abs/2609.06288",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "OAVC performs object-localized velocity control directly during diffusion/rectified-flow inference with no retraining or base-model modification. It is relevant inference-time flow-control lineage, but the reported improvements are fidelity/stability rather than wall-clock acceleration.",
+      "published_at": "2026-09-05T22:53:58Z",
+      "updated_at": "2026-09-05T22:53:58Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
       "title": "IM-ENGINE: Image Editing for Embodied Data Generation",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / embodied data generation / simulation",
@@ -24490,6 +24764,28 @@
       ]
     },
     {
+      "title": "RAPTOR: Role-Aware Private Training for Mixture-of-Experts",
+      "venue": "arXiv 2026",
+      "topic": "MoE systems/accelerators / distributed training / private fine-tuning",
+      "arxiv": "2609.05770",
+      "doi": "",
+      "official_id": "arXiv:2609.05770",
+      "paper_url": "https://arxiv.org/abs/2609.05770",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "RAPTOR separates shared and expert optimization, uses expert-specific clipping/noise, and exploits parallel privacy composition across routed experts. It gives consistent utility gains on Switch Transformer, OLMoE and DeepSeek-VL2-Tiny under matched privacy budgets, but the abstract does not quantify training-time or memory savings.",
+      "published_at": "2026-09-04T23:16:12Z",
+      "updated_at": "2026-09-04T23:16:12Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "MoE Systems / Accelerators",
+        "Distributed Training / Inference"
+      ]
+    },
+    {
       "title": "RAGMark: A Comprehensive Framework for Benchmarking Retrieval-Augmented Generation Systems",
       "venue": "arXiv 2026",
       "topic": "LLM serving / RAG systems / benchmarking",
@@ -24642,6 +24938,27 @@
         "Efficient Attention",
         "MoE Systems / Accelerators",
         "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "Does Your Agent's Memory Survive a Model Upgrade? A Controlled Study of Memory Portability",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / memory portability / RAG migration",
+      "arxiv": "2609.05339",
+      "doi": "",
+      "official_id": "arXiv:2609.05339",
+      "paper_url": "https://arxiv.org/abs/2609.05339",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Controlled migration study shows fixed-schema KG memory transfers almost unchanged, compressed notes are highly model-coupled, and half-migrated embedding indexes forfeit most of the gain from full re-embedding. Important systems evidence for durable agent-memory formats and migration cost.",
+      "published_at": "2026-09-04T16:44:17Z",
+      "updated_at": "2026-09-04T16:44:17Z",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -25352,6 +25669,26 @@
       ]
     },
     {
+      "title": "From Interaction Traces to Persistent Skills: Online Evolution for Computer-Use Agents",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / procedural memory / skill reuse",
+      "arxiv": "2609.04869",
+      "doi": "",
+      "official_id": "arXiv:2609.04869",
+      "paper_url": "https://arxiv.org/abs/2609.04869",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Converts interaction trajectories and evaluator feedback into a persistent versioned skill library while keeping the action-generation and grounding stack fixed. Across four OSWorld domains the evolving library improves post-warm-up evaluator scores by 5.7-18.6 points, providing useful evidence for reusable procedural memory without model updates.",
+      "published_at": "2026-09-04T08:29:45Z",
+      "updated_at": "2026-09-04T08:29:45Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Coupled Control and Wireless World Models for Resilient Remote Robotic Control",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / cloud-edge robotics / communication-aware world models",
@@ -25552,6 +25889,27 @@
         "KV Cache / Long Context",
         "Quantization",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Aplaud: Adaptive Personalized Low-Rank Decomposition for User-Specific LLM",
+      "venue": "arXiv 2026",
+      "topic": "quantization / parameter-efficient adaptation / personalized LLM serving",
+      "arxiv": "2609.04738",
+      "doi": "",
+      "official_id": "arXiv:2609.04738",
+      "paper_url": "https://arxiv.org/abs/2609.04738",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Aplaud separates a frozen shared low-rank basis from compact per-user corrections and reports better generalization plus inference efficiency than LoRA-style personalized baselines. Relevant scalable personalization lineage, though the abstract omits a concrete memory/latency ratio.",
+      "published_at": "2026-09-04T05:09:17Z",
+      "updated_at": "2026-09-04T05:09:17Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization"
       ]
     },
     {
@@ -26085,6 +26443,28 @@
         "LLM Serving",
         "Sparsity / Pruning",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Temporal Self-Distillation: Learning Visual State Tracking in Videos Without Supervision",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / video understanding / self-distillation",
+      "arxiv": "2609.04203",
+      "doi": "",
+      "official_id": "arXiv:2609.04203",
+      "paper_url": "https://arxiv.org/abs/2609.04203",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "S3T uses denser temporal views as an internal teacher for a sparse-view student with shared weights, requiring no labels, separate teacher, or reward signal and adding no inference cost. It improves LLaVA-OneVision video-state tracking, though the efficiency gain is primarily training/data-side rather than measured serving speedup.",
+      "published_at": "2026-09-03T17:59:55Z",
+      "updated_at": "2026-09-03T17:59:55Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Multimodal / MLLM Serving"
       ]
     },
     {
