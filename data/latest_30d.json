@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-11",
   "window_start_beijing": "2026-08-12",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 807,
+  "tracked_total": 810,
   "p0_strong_or_canonical": [
     {
       "title": "HybridFLow: SDN-Orchestrated Client Partitioning for Hybrid Federated Learning",
@@ -8505,6 +8505,27 @@
       ]
     },
     {
+      "title": "Closed-Loop Evaluation of Bird's-Eye-View Maps from Cross-View Transformers as Inputs to Behavior-Cloning Policies",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / closed-loop perception-policy interface / autonomous driving",
+      "arxiv": "2609.05783",
+      "doi": "",
+      "official_id": "arXiv:2609.05783",
+      "paper_url": "https://arxiv.org/abs/2609.05783",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI systems evidence: evaluates predicted BEV representations as direct policy inputs and shows aggregate perception metrics can diverge from closed-loop task success, identifying route-channel quality as the actual policy bottleneck. Valuable representation/runtime evaluation lineage, not an acceleration result.",
+      "published_at": "2026-09-05T00:35:14Z",
+      "updated_at": "2026-09-05T00:35:14Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Distilling Vision-Language Models for On-Device Fire Understanding",
       "venue": "arXiv 2026",
       "topic": "multimodal/MLLM serving / edge inference / VLM distillation",
@@ -10102,6 +10123,27 @@
       ]
     },
     {
+      "title": "STyMo: Fast and Controllable Few-Shot Motion Style Transfer",
+      "venue": "arXiv 2026",
+      "topic": "video/image generation acceleration / motion generation / rapid adaptation",
+      "arxiv": "2609.04500",
+      "doi": "",
+      "official_id": "arXiv:2609.04500",
+      "paper_url": "https://arxiv.org/abs/2609.04500",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Few-shot motion style transfer trains from only seconds of paired data in one to two minutes by decomposing static posture and temporal dynamics, enabling an iterative authoring loop with runtime-controllable style factors. Clear adaptation-time efficiency, though outside core LLM serving.",
+      "published_at": "2026-09-03T21:38:17Z",
+      "updated_at": "2026-09-03T21:38:17Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation"
+      ]
+    },
+    {
       "title": "When Quantization Breaks Memory: Recurrent-State Write-Back in Low-Precision Temporal Inference",
       "venue": "arXiv 2026",
       "topic": "quantization / recurrent-state memory / inference reliability",
@@ -10418,6 +10460,28 @@
       "directions": [
         "LLM Serving",
         "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "Adaptive Vision-Language Grasping via Composable Foundation Priors and Generalizable Grasp Synthesis",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / modular foundation-model priors / grasp runtime",
+      "arxiv": "2609.04096",
+      "doi": "",
+      "official_id": "arXiv:2609.04096",
+      "paper_url": "https://arxiv.org/abs/2609.04096",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "AdaRoboVLG decouples a reusable physically grounded grasp base policy from task-dependent foundation-model priors, allowing new spatial/cognitive/temporal priors to be composed without retraining the underlying grasp policy. Protected Physical-AI modular-runtime lineage; abstract claims efficient learning but lacks measured inference savings.",
+      "published_at": "2026-09-03T17:03:11Z",
+      "updated_at": "2026-09-03T17:03:11Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -25916,6 +25980,27 @@
       ]
     },
     {
+      "title": "Closed-Loop Evaluation of Bird's-Eye-View Maps from Cross-View Transformers as Inputs to Behavior-Cloning Policies",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / closed-loop perception-policy interface / autonomous driving",
+      "arxiv": "2609.05783",
+      "doi": "",
+      "official_id": "arXiv:2609.05783",
+      "paper_url": "https://arxiv.org/abs/2609.05783",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI systems evidence: evaluates predicted BEV representations as direct policy inputs and shows aggregate perception metrics can diverge from closed-loop task success, identifying route-channel quality as the actual policy bottleneck. Valuable representation/runtime evaluation lineage, not an acceleration result.",
+      "published_at": "2026-09-05T00:35:14Z",
+      "updated_at": "2026-09-05T00:35:14Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Distilling Vision-Language Models for On-Device Fire Understanding",
       "venue": "arXiv 2026",
       "topic": "multimodal/MLLM serving / edge inference / VLM distillation",
@@ -27513,6 +27598,27 @@
       ]
     },
     {
+      "title": "STyMo: Fast and Controllable Few-Shot Motion Style Transfer",
+      "venue": "arXiv 2026",
+      "topic": "video/image generation acceleration / motion generation / rapid adaptation",
+      "arxiv": "2609.04500",
+      "doi": "",
+      "official_id": "arXiv:2609.04500",
+      "paper_url": "https://arxiv.org/abs/2609.04500",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Few-shot motion style transfer trains from only seconds of paired data in one to two minutes by decomposing static posture and temporal dynamics, enabling an iterative authoring loop with runtime-controllable style factors. Clear adaptation-time efficiency, though outside core LLM serving.",
+      "published_at": "2026-09-03T21:38:17Z",
+      "updated_at": "2026-09-03T21:38:17Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation"
+      ]
+    },
+    {
       "title": "When Quantization Breaks Memory: Recurrent-State Write-Back in Low-Precision Temporal Inference",
       "venue": "arXiv 2026",
       "topic": "quantization / recurrent-state memory / inference reliability",
@@ -27829,6 +27935,28 @@
       "directions": [
         "LLM Serving",
         "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "Adaptive Vision-Language Grasping via Composable Foundation Priors and Generalizable Grasp Synthesis",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / modular foundation-model priors / grasp runtime",
+      "arxiv": "2609.04096",
+      "doi": "",
+      "official_id": "arXiv:2609.04096",
+      "paper_url": "https://arxiv.org/abs/2609.04096",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "AdaRoboVLG decouples a reusable physically grounded grasp base policy from task-dependent foundation-model priors, allowing new spatial/cognitive/temporal priors to be composed without retraining the underlying grasp policy. Protected Physical-AI modular-runtime lineage; abstract claims efficient learning but lacks measured inference savings.",
+      "published_at": "2026-09-03T17:03:11Z",
+      "updated_at": "2026-09-03T17:03:11Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
