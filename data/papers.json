@@ -3575,6 +3575,27 @@
     ]
   },
   {
+    "title": "Decoupling Readiness from Release for Tail-Aware Scheduling of Agentic LLM Workflows",
+    "venue": "arXiv 2026",
+    "topic": "efficient reasoning/agent systems / workflow serving scheduler",
+    "arxiv": "2609.10964",
+    "doi": "",
+    "official_id": "arXiv:2609.10964",
+    "paper_url": "https://arxiv.org/abs/2609.10964",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Tail-risk-aware release scheduling jointly controls which ready agent turn to submit and how much unfinished work to expose. On real software-engineering agent traces it remains comparable under light load and reduces P95 workflow flow time under contention by up to 3.50x.",
+    "published_at": "2026-09-10T01:35:10Z",
+    "updated_at": "2026-09-10T01:35:10Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "Deformable Object Manipulation under Partial Observability via Real-Time Full-Shape Estimation",
     "venue": "arXiv 2026",
     "topic": "VLA/WAM/Physical AI serving / robot world model / real-time control",
@@ -3898,6 +3919,29 @@
     "tracking_tier": "P0 · Strong",
     "directions": [
       "Sparsity / Pruning",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "EMMI: Edge Multi-Modal Intelligence for Communication-Efficient MLLM Inference via Fused Representation Compression",
+    "venue": "arXiv 2026",
+    "topic": "multimodal/MLLM serving / edge-cloud split inference",
+    "arxiv": "2609.11058",
+    "doi": "",
+    "official_id": "arXiv:2609.11058",
+    "paper_url": "https://arxiv.org/abs/2609.11058",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Representation-centric edge/server MLLM inference compresses fused multimodal state before transmission. The paper reports 32x lower communication payload with comparable downstream accuracy and up to 3.4x lower estimated end-to-end latency under bandwidth-constrained edge conditions.",
+    "published_at": "2026-09-10T04:04:25Z",
+    "updated_at": "2026-09-10T04:04:25Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference",
+      "Multimodal / MLLM Serving",
       "Edge / Cloud / Heterogeneous AI"
     ]
   },
@@ -6694,6 +6738,27 @@
       "KV Cache / Long Context",
       "Efficient Attention",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "REACH: Controller-Managed Long-Span ECC for HBM AI Inference",
+    "venue": "arXiv 2026",
+    "topic": "edge/cloud/heterogeneous AI systems / HBM reliability architecture",
+    "arxiv": "2609.10861",
+    "doi": "",
+    "official_id": "arXiv:2609.10861",
+    "paper_url": "https://arxiv.org/abs/2609.10861",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Controller-managed long-span ECC exploits read-dominated LLM decode and known-erasure repair. At the analytical 2.69 TB/s application target, REACH reports 55.8% less controller area and 57.7% less modeled power than the evaluated mean-work direct-long design while preserving 32 B transactions.",
+    "published_at": "2026-09-09T21:57:33Z",
+    "updated_at": "2026-09-09T21:57:33Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
