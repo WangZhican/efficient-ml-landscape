@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-11",
   "window_start_beijing": "2026-08-12",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 757,
+  "tracked_total": 763,
   "p0_strong_or_canonical": [
     {
       "title": "HybridFLow: SDN-Orchestrated Client Partitioning for Hybrid Federated Learning",
@@ -4802,6 +4802,27 @@
       ]
     },
     {
+      "title": "Efficient Leakage-Free Neural Architecture Search under Leave-One-Subject-Out Evaluation",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / neural architecture search / model compression",
+      "arxiv": "2609.09433",
+      "doi": "",
+      "official_id": "arXiv:2609.09433",
+      "paper_url": "https://arxiv.org/abs/2609.09433",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Block-based leakage-free NAS avoids fully nested O(N^2) search and reduces model parameters by up to 99.2% on BioVid while slightly improving mean accuracy. Good resource-efficiency evidence, but currently narrow in task/domain and lacks standardized GPU-hour reduction.",
+      "published_at": "2026-09-08T20:33:20Z",
+      "updated_at": "2026-09-08T20:33:20Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "QPS-ToR: A Parallel Iterative Switching Algorithm for Reconfigurable Optical Datacenter Switching",
       "venue": "arXiv 2026",
       "topic": "distributed training/inference / datacenter networking / optical switching / low-complexity scheduling",
@@ -5866,6 +5887,27 @@
         "LLM Serving",
         "Quantization",
         "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "ResidualAuth: What Authorization State Must Language Agents Preserve under Revocable Delegation?",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / agent memory / state compression",
+      "arxiv": "2609.08062",
+      "doi": "",
+      "official_id": "arXiv:2609.08062",
+      "paper_url": "https://arxiv.org/abs/2609.08062",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Shows a concrete lower-bound-style failure of overly compressed agent memory: a fixed 256-token summary solves at most 2/16 paired authorization cases, while exact ledger serializations fit held-out states at 768-1024 tokens and support correct decisions. Valuable negative evidence for how far agent runtime state can be compressed.",
+      "published_at": "2026-09-08T00:05:05Z",
+      "updated_at": "2026-09-08T00:05:05Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -7239,6 +7281,26 @@
       ]
     },
     {
+      "title": "Compressed Recurrent Feedback in Tsetlin Machines: A Reproducible Boolean-FSM Study",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / compact recurrent inference",
+      "arxiv": "2609.06133",
+      "doi": "",
+      "official_id": "arXiv:2609.06133",
+      "paper_url": "https://arxiv.org/abs/2609.06133",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Compresses 480 clause activations to 96 recurrent bits while keeping accuracy within about one point of raw feedback; raw feedback increases measured host execution time by 4.38x and 3.71x. The no-feedback control is competitive, so this is useful edge-inference evidence but not a strong canonical result.",
+      "published_at": "2026-09-05T14:58:21Z",
+      "updated_at": "2026-09-05T14:58:21Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Protocol Compression Changes Which Party Pays: Bilateral Cost in Cross-Organization LLM Agent Communication",
       "venue": "arXiv 2026",
       "topic": "efficient reasoning/agent systems / agent communication / protocol compression / token cost",
@@ -7619,6 +7681,27 @@
       "is_latest_30d": true,
       "directions": [
         "Quantization"
+      ]
+    },
+    {
+      "title": "Map the Possibilities: Spatial Belief Fields for Language-Goal Aerial Navigation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / closed-loop navigation / spatial memory",
+      "arxiv": "2609.05841",
+      "doi": "",
+      "official_id": "arXiv:2609.05841",
+      "paper_url": "https://arxiv.org/abs/2609.05841",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Maintains a task-conditioned spatial belief field and updates it online from partial observations rather than collapsing to one waypoint; on unseen CityNav it improves SPL from 19.63% to 30.43%. Protected Physical-AI lineage, but it is an effectiveness result rather than an inference-efficiency paper.",
+      "published_at": "2026-09-05T03:11:01Z",
+      "updated_at": "2026-09-05T03:11:01Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -8102,6 +8185,29 @@
       "directions": [
         "LLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "WeAgent-MMGenEdit: A Full-Stack Recipe for Multimodal Agentic Image Generation and Editing",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / video/image generation acceleration / agent runtime",
+      "arxiv": "2609.05171",
+      "doi": "",
+      "official_id": "arXiv:2609.05171",
+      "paper_url": "https://arxiv.org/abs/2609.05171",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Provides a full multimodal agent runtime with persistent evidence management plus post-training; a 30B-total/3B-active policy approaches a 1T-parameter agent. Relevant active-parameter/runtime lineage, but no direct latency or throughput ratio is given.",
+      "published_at": "2026-09-04T14:12:03Z",
+      "updated_at": "2026-09-04T14:12:03Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -8960,6 +9066,26 @@
       "is_latest_30d": true,
       "directions": [
         "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Optimizer Memory Schedules for Outscaling the Overtraining Axis",
+      "venue": "arXiv 2026",
+      "topic": "distributed training/inference / optimizer efficiency / training compute",
+      "arxiv": "2609.04577",
+      "doi": "",
+      "official_id": "arXiv:2609.04577",
+      "paper_url": "https://arxiv.org/abs/2609.04577",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Systematically studies optimizer memory and training-horizon scaling from 51M to 253M parameters and 1x-256x overtraining. Muon and SOAP retain token-efficiency advantages while ADANA closes the gap at long horizons; useful training-efficiency lineage though the abstract lacks one clean wall-clock speedup.",
+      "published_at": "2026-09-04T00:15:53Z",
+      "updated_at": "2026-09-04T00:15:53Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Distributed Training / Inference"
       ]
     },
     {
@@ -21161,6 +21287,27 @@
       ]
     },
     {
+      "title": "Efficient Leakage-Free Neural Architecture Search under Leave-One-Subject-Out Evaluation",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / neural architecture search / model compression",
+      "arxiv": "2609.09433",
+      "doi": "",
+      "official_id": "arXiv:2609.09433",
+      "paper_url": "https://arxiv.org/abs/2609.09433",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Block-based leakage-free NAS avoids fully nested O(N^2) search and reduces model parameters by up to 99.2% on BioVid while slightly improving mean accuracy. Good resource-efficiency evidence, but currently narrow in task/domain and lacks standardized GPU-hour reduction.",
+      "published_at": "2026-09-08T20:33:20Z",
+      "updated_at": "2026-09-08T20:33:20Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "QPS-ToR: A Parallel Iterative Switching Algorithm for Reconfigurable Optical Datacenter Switching",
       "venue": "arXiv 2026",
       "topic": "distributed training/inference / datacenter networking / optical switching / low-complexity scheduling",
@@ -22225,6 +22372,27 @@
         "LLM Serving",
         "Quantization",
         "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "ResidualAuth: What Authorization State Must Language Agents Preserve under Revocable Delegation?",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / agent memory / state compression",
+      "arxiv": "2609.08062",
+      "doi": "",
+      "official_id": "arXiv:2609.08062",
+      "paper_url": "https://arxiv.org/abs/2609.08062",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Shows a concrete lower-bound-style failure of overly compressed agent memory: a fixed 256-token summary solves at most 2/16 paired authorization cases, while exact ledger serializations fit held-out states at 768-1024 tokens and support correct decisions. Valuable negative evidence for how far agent runtime state can be compressed.",
+      "published_at": "2026-09-08T00:05:05Z",
+      "updated_at": "2026-09-08T00:05:05Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -23598,6 +23766,26 @@
       ]
     },
     {
+      "title": "Compressed Recurrent Feedback in Tsetlin Machines: A Reproducible Boolean-FSM Study",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / compact recurrent inference",
+      "arxiv": "2609.06133",
+      "doi": "",
+      "official_id": "arXiv:2609.06133",
+      "paper_url": "https://arxiv.org/abs/2609.06133",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Compresses 480 clause activations to 96 recurrent bits while keeping accuracy within about one point of raw feedback; raw feedback increases measured host execution time by 4.38x and 3.71x. The no-feedback control is competitive, so this is useful edge-inference evidence but not a strong canonical result.",
+      "published_at": "2026-09-05T14:58:21Z",
+      "updated_at": "2026-09-05T14:58:21Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Protocol Compression Changes Which Party Pays: Bilateral Cost in Cross-Organization LLM Agent Communication",
       "venue": "arXiv 2026",
       "topic": "efficient reasoning/agent systems / agent communication / protocol compression / token cost",
@@ -23978,6 +24166,27 @@
       "is_latest_30d": true,
       "directions": [
         "Quantization"
+      ]
+    },
+    {
+      "title": "Map the Possibilities: Spatial Belief Fields for Language-Goal Aerial Navigation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / closed-loop navigation / spatial memory",
+      "arxiv": "2609.05841",
+      "doi": "",
+      "official_id": "arXiv:2609.05841",
+      "paper_url": "https://arxiv.org/abs/2609.05841",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Maintains a task-conditioned spatial belief field and updates it online from partial observations rather than collapsing to one waypoint; on unseen CityNav it improves SPL from 19.63% to 30.43%. Protected Physical-AI lineage, but it is an effectiveness result rather than an inference-efficiency paper.",
+      "published_at": "2026-09-05T03:11:01Z",
+      "updated_at": "2026-09-05T03:11:01Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -24461,6 +24670,29 @@
       "directions": [
         "LLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "WeAgent-MMGenEdit: A Full-Stack Recipe for Multimodal Agentic Image Generation and Editing",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / video/image generation acceleration / agent runtime",
+      "arxiv": "2609.05171",
+      "doi": "",
+      "official_id": "arXiv:2609.05171",
+      "paper_url": "https://arxiv.org/abs/2609.05171",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Provides a full multimodal agent runtime with persistent evidence management plus post-training; a 30B-total/3B-active policy approaches a 1T-parameter agent. Relevant active-parameter/runtime lineage, but no direct latency or throughput ratio is given.",
+      "published_at": "2026-09-04T14:12:03Z",
+      "updated_at": "2026-09-04T14:12:03Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -25319,6 +25551,26 @@
       "is_latest_30d": true,
       "directions": [
         "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Optimizer Memory Schedules for Outscaling the Overtraining Axis",
+      "venue": "arXiv 2026",
+      "topic": "distributed training/inference / optimizer efficiency / training compute",
+      "arxiv": "2609.04577",
+      "doi": "",
+      "official_id": "arXiv:2609.04577",
+      "paper_url": "https://arxiv.org/abs/2609.04577",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Systematically studies optimizer memory and training-horizon scaling from 51M to 253M parameters and 1x-256x overtraining. Muon and SOAP retain token-efficiency advantages while ADANA closes the gap at long horizons; useful training-efficiency lineage though the abstract lacks one clean wall-clock speedup.",
+      "published_at": "2026-09-04T00:15:53Z",
+      "updated_at": "2026-09-04T00:15:53Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Distributed Training / Inference"
       ]
     },
     {
