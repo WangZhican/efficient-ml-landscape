@@ -1,10 +1,10 @@
 # 10 · Multimodal / MLLM Serving
 
-> **215 canonical papers** mapped here, plus a broader **123-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **215 canonical papers** mapped here, plus a broader **124-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 123 tracked
+## 🆕 Latest 30 Days · 124 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -12,6 +12,7 @@
 | **P1 · Watch** | **Frequency-Conditioned Flow Matching for Vision-Language-Action Models** | arXiv 2026 | VLA/WAM/Physical AI / flow matching / action generation | [Link](https://arxiv.org/abs/2609.10405) | — |
 | **P1 · Watch** | **Why Is Video Still So Expensive? A Survey of Inference-Efficiency Mechanisms in Video and Audiovisual LLMs** | arXiv 2026 | multimodal/MLLM serving / video inference / efficiency survey / canonical lineage | [Link](https://arxiv.org/abs/2609.10355) | — |
 | **P1 · Watch** | **Beyond One-Size-Fits-All: Sample-Adaptive Strategy Routing for Vision Token Pruning in MLLMs** | arXiv 2026 | multimodal/MLLM serving / vision token pruning / adaptive routing | [Link](https://arxiv.org/abs/2609.10346) | — |
+| **P1 · Watch** | **On-Policy Distillation for Vision-Language Model Adaptation, an Effective Paradigm on Low-Quality Multimodal Data** | arXiv 2026 | multimodal/MLLM serving / distillation / parameter-efficient adaptation | [Link](https://arxiv.org/abs/2609.10321) | — |
 | **P1 · Watch** | **TRACE: Trajectory-robust Admission with Evidence Ordering for Efficient GUI Agents** | arXiv 2026 | efficient reasoning/agent systems / multimodal serving / KV cache / token pruning | [Link](https://arxiv.org/abs/2609.10297) | — |
 | **P1 · Watch** | **Beyond Similarity: Foundation Models as an Efficient Backbone for Training-Free Composed Video Retrieval** | arXiv 2026 | multimodal/MLLM serving / adaptive inference depth / video retrieval | [Link](https://arxiv.org/abs/2609.10008) | [Repo](https://github.com/demidovd98/CoVRAGE) |
 | **P1 · Watch** | **VLX-VR: An Agentic-Aware Video Reasoning Model** | arXiv 2026 | multimodal/MLLM serving / adaptive evidence acquisition / agent memory | [Link](https://arxiv.org/abs/2609.09985) | — |

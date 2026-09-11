@@ -5868,6 +5868,28 @@
     ]
   },
   {
+    "title": "Muon-C: Operator-Aligned Muon for Convolutional Kernels",
+    "venue": "arXiv 2026",
+    "topic": "distributed training/inference / optimizer / flow matching efficiency",
+    "arxiv": "2609.09676",
+    "doi": "",
+    "official_id": "arXiv:2609.09676",
+    "paper_url": "https://arxiv.org/abs/2609.09676",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Operator-aligned Muon for convolutional kernels reaches the final quality of unfolded Muon and Adam using 0.62x and 0.64x their model FLOPs on matched CIFAR-10 flow-matching experiments, with gains persisting across data scales and classification transfer.",
+    "published_at": "2026-09-09T03:45:44Z",
+    "updated_at": "2026-09-09T03:45:44Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "Native LLM and MLLM Inference at Scale on Apple Silicon",
     "venue": "arXiv 2026",
     "topic": "edge/on-device LLM and MLLM serving; Apple Silicon; MLX; continuous batching; prefix caching",

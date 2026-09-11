@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-11",
   "window_start_beijing": "2026-08-12",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 736,
+  "tracked_total": 752,
   "p0_strong_or_canonical": [
     {
       "title": "HybridFLow: SDN-Orchestrated Client Partitioning for Hybrid Federated Learning",
@@ -464,6 +464,28 @@
       "directions": [
         "LLM Serving",
         "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "Muon-C: Operator-Aligned Muon for Convolutional Kernels",
+      "venue": "arXiv 2026",
+      "topic": "distributed training/inference / optimizer / flow matching efficiency",
+      "arxiv": "2609.09676",
+      "doi": "",
+      "official_id": "arXiv:2609.09676",
+      "paper_url": "https://arxiv.org/abs/2609.09676",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Operator-aligned Muon for convolutional kernels reaches the final quality of unfolded Muon and Adam using 0.62x and 0.64x their model FLOPs on matched CIFAR-10 flow-matching experiments, with gains persisting across data scales and classification transfer.",
+      "published_at": "2026-09-09T03:45:44Z",
+      "updated_at": "2026-09-09T03:45:44Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference",
+        "Diffusion / Flow Acceleration"
       ]
     },
     {
@@ -4217,6 +4239,28 @@
       ]
     },
     {
+      "title": "On-Policy Distillation for Vision-Language Model Adaptation, an Effective Paradigm on Low-Quality Multimodal Data",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / distillation / parameter-efficient adaptation",
+      "arxiv": "2609.10321",
+      "doi": "",
+      "official_id": "arXiv:2609.10321",
+      "paper_url": "https://arxiv.org/abs/2609.10321",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Learns sample-wise distillation targets with a lightweight controller used only during training, preserving the compact student inference architecture and test-time cost while improving base-to-novel and cross-dataset transfer.",
+      "published_at": "2026-09-09T15:26:28Z",
+      "updated_at": "2026-09-09T15:26:28Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "RiLM: Parameter-Efficient Language Modeling via Geodesic Decoding",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI systems / compact language models / parameter efficiency",
@@ -4926,6 +4970,27 @@
       ]
     },
     {
+      "title": "Rethinking Learned Occupancy in Autonomous Active Mapping with Observation-Gated Filtering",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / world models / active mapping",
+      "arxiv": "2609.09069",
+      "doi": "",
+      "official_id": "arXiv:2609.09069",
+      "paper_url": "https://arxiv.org/abs/2609.09069",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Shows that more accurate learned occupancy can still hurt closed-loop mapping, then adds an observation-gated planner-facing filter without retraining. This is protected Physical-AI evidence about online world-model correction, not direct inference acceleration.",
+      "published_at": "2026-09-08T17:23:37Z",
+      "updated_at": "2026-09-08T17:23:37Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "PlayTrain: An Efficient Reinforcement Learning Framework for LLM-Generated Adaptable JavaScript Games",
       "venue": "arXiv 2026",
       "topic": "efficient reasoning/agent systems / RL infrastructure / simulation throughput",
@@ -5029,6 +5094,26 @@
       "directions": [
         "LLM Serving",
         "Sparsity / Pruning",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Exploring the Genesis Platform Capabilities to Accelerate Scientific Discovery in OPAL",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / cross-facility orchestration / managed AI services",
+      "arxiv": "2609.08844",
+      "doi": "",
+      "official_id": "arXiv:2609.08844",
+      "paper_url": "https://arxiv.org/abs/2609.08844",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "DOE Genesis provides reusable managed execution, model distribution, governed LLM access, shared data and provenance across facilities; in a 40-day campaign it replaced roughly twelve hours of manual analysis with interactive queries returning in seconds to minutes.",
+      "published_at": "2026-09-08T14:59:24Z",
+      "updated_at": "2026-09-08T14:59:24Z",
+      "is_latest_30d": true,
+      "directions": [
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -5290,6 +5375,28 @@
       ]
     },
     {
+      "title": "Miles v0.1: Production-Level Post-Training",
+      "venue": "arXiv 2026",
+      "topic": "distributed training/inference / RL post-training / serving-training integration",
+      "arxiv": "2609.08368",
+      "doi": "",
+      "official_id": "arXiv:2609.08368",
+      "paper_url": "https://arxiv.org/abs/2609.08368",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Full-stack post-training system built around SGLang rollouts, Megatron/FSDP training and multiple weight-sync transports, with asynchronous agentic RL demonstrated on GLM-5.2 744B-A40B over 64 GB300 GPUs. Important open AI-infra evidence, though the abstract lacks a clean baseline speedup.",
+      "published_at": "2026-09-08T07:35:47Z",
+      "updated_at": "2026-09-08T07:35:47Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "RoboCousin: Build Your Own Simulation Playground for Robust Bimanual Robotic Manipulation",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / synthetic data systems / bimanual manipulation",
@@ -5373,6 +5480,48 @@
       "is_latest_30d": true,
       "directions": [
         "Quantization"
+      ]
+    },
+    {
+      "title": "What Eviction Destroys: A Restore-Counterfactual Audit of Forgetting in Agent Memory",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / memory eviction / evaluation",
+      "arxiv": "2609.08279",
+      "doi": "",
+      "official_id": "arXiv:2609.08279",
+      "paper_url": "https://arxiv.org/abs/2609.08279",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Introduces a per-question restore counterfactual that separates irreversible eviction loss from recoverable retrieval failure under token budgets. It is a useful diagnostic for agent-memory compression policies, though it is an audit methodology rather than an optimizer.",
+      "published_at": "2026-09-08T05:48:10Z",
+      "updated_at": "2026-09-08T05:48:10Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "CALIPER: Clean Scenes Cannot Rank Physical Inference in Pretrained Visual Representations",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / representation evaluation / world models",
+      "arxiv": "2609.08250",
+      "doi": "",
+      "official_id": "arXiv:2609.08250",
+      "paper_url": "https://arxiv.org/abs/2609.08250",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "CALIPER shows clean fixed-camera probes can falsely make random and pretrained encoders look equally physical, while randomized scenes expose a large spread in actionable prediction. Useful protected Physical-AI evaluation debt for choosing perception backbones.",
+      "published_at": "2026-09-08T04:49:42Z",
+      "updated_at": "2026-09-08T04:49:42Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -5460,6 +5609,26 @@
         "LLM Serving",
         "Sparsity / Pruning",
         "Efficient Attention"
+      ]
+    },
+    {
+      "title": "Less Is Personal: Learning Minimal Sufficient User Profiles for Personalized Language Models",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / context compression / personalization",
+      "arxiv": "2609.08180",
+      "doi": "",
+      "official_id": "arXiv:2609.08180",
+      "paper_url": "https://arxiv.org/abs/2609.08180",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "ENOUGH learns when to STOP adding retrieved user history, jointly optimizing utility, specificity and token cost, then invokes the frozen generator once. Across six personalization tasks it preserves utility while reducing unnecessary context, but the abstract does not state a single comparable token-reduction ratio.",
+      "published_at": "2026-09-08T03:09:19Z",
+      "updated_at": "2026-09-08T03:09:19Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -6070,6 +6239,26 @@
       ]
     },
     {
+      "title": "Think Wider: Mitigating Latent Rank Collapse in Implicit Chain-of-Thought Reasoning",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / implicit CoT / latent reasoning",
+      "arxiv": "2609.07406",
+      "doi": "",
+      "official_id": "arXiv:2609.07406",
+      "paper_url": "https://arxiv.org/abs/2609.07406",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "WIDER is a training-time spectral regularizer for implicit CoT that leaves inference decoding unchanged while improving implicit-reasoning baselines and reducing latent redundancy. It targets reasoning efficiency without adding runtime machinery, but the abstract lacks direct latency/token savings.",
+      "published_at": "2026-09-07T12:18:51Z",
+      "updated_at": "2026-09-07T12:18:51Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / WAM infrastructure / deployment stack",
@@ -6327,6 +6516,26 @@
         "LLM Serving",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Mind the Approximation: Fisher-Weighted SVD Compression for ViTs",
+      "venue": "arXiv 2026",
+      "topic": "sparsity/pruning / model compression / vision transformers",
+      "arxiv": "2609.07155",
+      "doi": "",
+      "official_id": "arXiv:2609.07155",
+      "paper_url": "https://arxiv.org/abs/2609.07155",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "FACTS plus constrained rank search improves ViT accuracy-efficiency under fixed FLOP budgets without finetuning, beating the strongest SVD baseline by up to 5.8 Top-1 points on Swin-B.",
+      "published_at": "2026-09-07T07:50:50Z",
+      "updated_at": "2026-09-07T07:50:50Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Sparsity / Pruning"
       ]
     },
     {
@@ -6989,6 +7198,26 @@
       ]
     },
     {
+      "title": "FANS: Federated Adaptive Network Search Learning for Heterogeneous Devices",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / federated learning / elastic models",
+      "arxiv": "2609.06106",
+      "doi": "",
+      "official_id": "arXiv:2609.06106",
+      "paper_url": "https://arxiv.org/abs/2609.06106",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Learns a shared architecture space for heterogeneous clients rather than a tiny fixed model menu, expanding feasible subnetworks by orders of magnitude and improving accuracy-efficiency trade-offs across vision and BERT workloads.",
+      "published_at": "2026-09-05T13:57:56Z",
+      "updated_at": "2026-09-05T13:57:56Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "LayerRoute: Action-Conditioned Mixture-of-Layers Routing for Vision-Language-Action Policies",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / adaptive layer routing / cached VLM representations",
@@ -7095,6 +7324,27 @@
         "LLM Serving",
         "GPU Kernel / DSL / Compiler",
         "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "GLoRI: Closed-Loop Whole-Body Tracking with Global-Local Reference Interaction for Humanoid Loco-Manipulation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / humanoid control / closed-loop runtime",
+      "arxiv": "2609.05994",
+      "doi": "",
+      "official_id": "arXiv:2609.05994",
+      "paper_url": "https://arxiv.org/abs/2609.05994",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Closed-loop global-local controller reaches 100% held-out HuMoTo completion and transfers Isaac Gym to MuJoCo without fine-tuning, then runs a single real Unitree G1 policy over unseen objects. Protected Physical-AI runtime lineage without explicit inference-cost gains.",
+      "published_at": "2026-09-05T09:38:28Z",
+      "updated_at": "2026-09-05T09:38:28Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
         "VLA / WAM / Physical AI"
       ]
     },
@@ -7265,6 +7515,48 @@
       "directions": [
         "Quantization",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Broken on Arrival: Silently Defective LLM Artifacts in Public Model Registries and How to Catch Them",
+      "venue": "arXiv 2026",
+      "topic": "quantization / deployment reliability / model registry QA",
+      "arxiv": "2609.05881",
+      "doi": "",
+      "official_id": "arXiv:2609.05881",
+      "paper_url": "https://arxiv.org/abs/2609.05881",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Execution-based auditing of 327 quantized GGUF artifacts finds silently defective official and community conversions that surface heuristics miss, and releases a quantized-model acceptance-testing tool. This is deployment QA rather than acceleration but is important low-bit infra lineage.",
+      "published_at": "2026-09-05T05:05:51Z",
+      "updated_at": "2026-09-05T05:05:51Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization"
+      ]
+    },
+    {
+      "title": "Learning Counterfactual World Models for Embodied Reasoning under Partial Observability",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / world models / planning",
+      "arxiv": "2609.05834",
+      "doi": "",
+      "official_id": "arXiv:2609.05834",
+      "paper_url": "https://arxiv.org/abs/2609.05834",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Counterfactual Latent World Models explicitly separate intervention outcomes under partial observability, improving planning success and reducing exploitative planning failures; the counterfactual-separability metric strongly tracks planning success. Protected world-model lineage, but not a compute optimization.",
+      "published_at": "2026-09-05T02:56:47Z",
+      "updated_at": "2026-09-05T02:56:47Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -8398,6 +8690,26 @@
       ]
     },
     {
+      "title": "PLUME: Parameter-Efficient Personalization of Large Language Models via Low-Rank User Modulation in Shared Subspaces",
+      "venue": "arXiv 2026",
+      "topic": "quantization / parameter-efficient adaptation / personalization",
+      "arxiv": "2609.04715",
+      "doi": "",
+      "official_id": "arXiv:2609.04715",
+      "paper_url": "https://arxiv.org/abs/2609.04715",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Uses a shared task subspace plus tiny per-user modulation matrices and rank-1 residuals, reducing per-user parameters by over 95% while matching or improving personalization baselines.",
+      "published_at": "2026-09-04T04:38:50Z",
+      "updated_at": "2026-09-04T04:38:50Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization"
+      ]
+    },
+    {
       "title": "Sustainable Edge Vision via Empirically Calibrated DVFS: Eliminating Thermal Throttling on Passively Cooled Hardware",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI systems / DVFS / thermal-aware inference",
@@ -8438,6 +8750,27 @@
         "LLM Serving",
         "Sparsity / Pruning",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Choosing the Right Language Mode at Inference Time for Multilingual Reliability",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / adaptive inference / compute routing",
+      "arxiv": "2609.04653",
+      "doi": "",
+      "official_id": "arXiv:2609.04653",
+      "paper_url": "https://arxiv.org/abs/2609.04653",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "RAAI performs calibration-aware routing and uses a mid-layer risk index to gate sequential reasoning, allocating extra compute only when likely to help. It improves low-resource-language accuracy and calibration, but the abstract does not quantify compute saved.",
+      "published_at": "2026-09-04T02:36:26Z",
+      "updated_at": "2026-09-04T02:36:26Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -16391,6 +16724,28 @@
       ]
     },
     {
+      "title": "Muon-C: Operator-Aligned Muon for Convolutional Kernels",
+      "venue": "arXiv 2026",
+      "topic": "distributed training/inference / optimizer / flow matching efficiency",
+      "arxiv": "2609.09676",
+      "doi": "",
+      "official_id": "arXiv:2609.09676",
+      "paper_url": "https://arxiv.org/abs/2609.09676",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Operator-aligned Muon for convolutional kernels reaches the final quality of unfolded Muon and Adam using 0.62x and 0.64x their model FLOPs on matched CIFAR-10 flow-matching experiments, with gains persisting across data scales and classification transfer.",
+      "published_at": "2026-09-09T03:45:44Z",
+      "updated_at": "2026-09-09T03:45:44Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference",
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
       "title": "PELM: Power Efficient On-Device LLM Inference with Speculative Decoding and Dynamic Voltage Frequency Scaling",
       "venue": "arXiv 2026",
       "topic": "LLM serving / speculative decoding / edge inference / energy-aware runtime",
@@ -20139,6 +20494,28 @@
       ]
     },
     {
+      "title": "On-Policy Distillation for Vision-Language Model Adaptation, an Effective Paradigm on Low-Quality Multimodal Data",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / distillation / parameter-efficient adaptation",
+      "arxiv": "2609.10321",
+      "doi": "",
+      "official_id": "arXiv:2609.10321",
+      "paper_url": "https://arxiv.org/abs/2609.10321",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Learns sample-wise distillation targets with a lightweight controller used only during training, preserving the compact student inference architecture and test-time cost while improving base-to-novel and cross-dataset transfer.",
+      "published_at": "2026-09-09T15:26:28Z",
+      "updated_at": "2026-09-09T15:26:28Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "RiLM: Parameter-Efficient Language Modeling via Geodesic Decoding",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI systems / compact language models / parameter efficiency",
@@ -20848,6 +21225,27 @@
       ]
     },
     {
+      "title": "Rethinking Learned Occupancy in Autonomous Active Mapping with Observation-Gated Filtering",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / world models / active mapping",
+      "arxiv": "2609.09069",
+      "doi": "",
+      "official_id": "arXiv:2609.09069",
+      "paper_url": "https://arxiv.org/abs/2609.09069",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Shows that more accurate learned occupancy can still hurt closed-loop mapping, then adds an observation-gated planner-facing filter without retraining. This is protected Physical-AI evidence about online world-model correction, not direct inference acceleration.",
+      "published_at": "2026-09-08T17:23:37Z",
+      "updated_at": "2026-09-08T17:23:37Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "PlayTrain: An Efficient Reinforcement Learning Framework for LLM-Generated Adaptable JavaScript Games",
       "venue": "arXiv 2026",
       "topic": "efficient reasoning/agent systems / RL infrastructure / simulation throughput",
@@ -20951,6 +21349,26 @@
       "directions": [
         "LLM Serving",
         "Sparsity / Pruning",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Exploring the Genesis Platform Capabilities to Accelerate Scientific Discovery in OPAL",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / cross-facility orchestration / managed AI services",
+      "arxiv": "2609.08844",
+      "doi": "",
+      "official_id": "arXiv:2609.08844",
+      "paper_url": "https://arxiv.org/abs/2609.08844",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "DOE Genesis provides reusable managed execution, model distribution, governed LLM access, shared data and provenance across facilities; in a 40-day campaign it replaced roughly twelve hours of manual analysis with interactive queries returning in seconds to minutes.",
+      "published_at": "2026-09-08T14:59:24Z",
+      "updated_at": "2026-09-08T14:59:24Z",
+      "is_latest_30d": true,
+      "directions": [
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -21212,6 +21630,28 @@
       ]
     },
     {
+      "title": "Miles v0.1: Production-Level Post-Training",
+      "venue": "arXiv 2026",
+      "topic": "distributed training/inference / RL post-training / serving-training integration",
+      "arxiv": "2609.08368",
+      "doi": "",
+      "official_id": "arXiv:2609.08368",
+      "paper_url": "https://arxiv.org/abs/2609.08368",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Full-stack post-training system built around SGLang rollouts, Megatron/FSDP training and multiple weight-sync transports, with asynchronous agentic RL demonstrated on GLM-5.2 744B-A40B over 64 GB300 GPUs. Important open AI-infra evidence, though the abstract lacks a clean baseline speedup.",
+      "published_at": "2026-09-08T07:35:47Z",
+      "updated_at": "2026-09-08T07:35:47Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "RoboCousin: Build Your Own Simulation Playground for Robust Bimanual Robotic Manipulation",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / synthetic data systems / bimanual manipulation",
@@ -21295,6 +21735,48 @@
       "is_latest_30d": true,
       "directions": [
         "Quantization"
+      ]
+    },
+    {
+      "title": "What Eviction Destroys: A Restore-Counterfactual Audit of Forgetting in Agent Memory",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / memory eviction / evaluation",
+      "arxiv": "2609.08279",
+      "doi": "",
+      "official_id": "arXiv:2609.08279",
+      "paper_url": "https://arxiv.org/abs/2609.08279",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Introduces a per-question restore counterfactual that separates irreversible eviction loss from recoverable retrieval failure under token budgets. It is a useful diagnostic for agent-memory compression policies, though it is an audit methodology rather than an optimizer.",
+      "published_at": "2026-09-08T05:48:10Z",
+      "updated_at": "2026-09-08T05:48:10Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "CALIPER: Clean Scenes Cannot Rank Physical Inference in Pretrained Visual Representations",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / representation evaluation / world models",
+      "arxiv": "2609.08250",
+      "doi": "",
+      "official_id": "arXiv:2609.08250",
+      "paper_url": "https://arxiv.org/abs/2609.08250",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "CALIPER shows clean fixed-camera probes can falsely make random and pretrained encoders look equally physical, while randomized scenes expose a large spread in actionable prediction. Useful protected Physical-AI evaluation debt for choosing perception backbones.",
+      "published_at": "2026-09-08T04:49:42Z",
+      "updated_at": "2026-09-08T04:49:42Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -21382,6 +21864,26 @@
         "LLM Serving",
         "Sparsity / Pruning",
         "Efficient Attention"
+      ]
+    },
+    {
+      "title": "Less Is Personal: Learning Minimal Sufficient User Profiles for Personalized Language Models",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / context compression / personalization",
+      "arxiv": "2609.08180",
+      "doi": "",
+      "official_id": "arXiv:2609.08180",
+      "paper_url": "https://arxiv.org/abs/2609.08180",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "ENOUGH learns when to STOP adding retrieved user history, jointly optimizing utility, specificity and token cost, then invokes the frozen generator once. Across six personalization tasks it preserves utility while reducing unnecessary context, but the abstract does not state a single comparable token-reduction ratio.",
+      "published_at": "2026-09-08T03:09:19Z",
+      "updated_at": "2026-09-08T03:09:19Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -21992,6 +22494,26 @@
       ]
     },
     {
+      "title": "Think Wider: Mitigating Latent Rank Collapse in Implicit Chain-of-Thought Reasoning",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / implicit CoT / latent reasoning",
+      "arxiv": "2609.07406",
+      "doi": "",
+      "official_id": "arXiv:2609.07406",
+      "paper_url": "https://arxiv.org/abs/2609.07406",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "WIDER is a training-time spectral regularizer for implicit CoT that leaves inference decoding unchanged while improving implicit-reasoning baselines and reducing latent redundancy. It targets reasoning efficiency without adding runtime machinery, but the abstract lacks direct latency/token savings.",
+      "published_at": "2026-09-07T12:18:51Z",
+      "updated_at": "2026-09-07T12:18:51Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / WAM infrastructure / deployment stack",
@@ -22249,6 +22771,26 @@
         "LLM Serving",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Mind the Approximation: Fisher-Weighted SVD Compression for ViTs",
+      "venue": "arXiv 2026",
+      "topic": "sparsity/pruning / model compression / vision transformers",
+      "arxiv": "2609.07155",
+      "doi": "",
+      "official_id": "arXiv:2609.07155",
+      "paper_url": "https://arxiv.org/abs/2609.07155",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "FACTS plus constrained rank search improves ViT accuracy-efficiency under fixed FLOP budgets without finetuning, beating the strongest SVD baseline by up to 5.8 Top-1 points on Swin-B.",
+      "published_at": "2026-09-07T07:50:50Z",
+      "updated_at": "2026-09-07T07:50:50Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Sparsity / Pruning"
       ]
     },
     {
@@ -22911,6 +23453,26 @@
       ]
     },
     {
+      "title": "FANS: Federated Adaptive Network Search Learning for Heterogeneous Devices",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / federated learning / elastic models",
+      "arxiv": "2609.06106",
+      "doi": "",
+      "official_id": "arXiv:2609.06106",
+      "paper_url": "https://arxiv.org/abs/2609.06106",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Learns a shared architecture space for heterogeneous clients rather than a tiny fixed model menu, expanding feasible subnetworks by orders of magnitude and improving accuracy-efficiency trade-offs across vision and BERT workloads.",
+      "published_at": "2026-09-05T13:57:56Z",
+      "updated_at": "2026-09-05T13:57:56Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "LayerRoute: Action-Conditioned Mixture-of-Layers Routing for Vision-Language-Action Policies",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / adaptive layer routing / cached VLM representations",
@@ -23017,6 +23579,27 @@
         "LLM Serving",
         "GPU Kernel / DSL / Compiler",
         "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "GLoRI: Closed-Loop Whole-Body Tracking with Global-Local Reference Interaction for Humanoid Loco-Manipulation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / humanoid control / closed-loop runtime",
+      "arxiv": "2609.05994",
+      "doi": "",
+      "official_id": "arXiv:2609.05994",
+      "paper_url": "https://arxiv.org/abs/2609.05994",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Closed-loop global-local controller reaches 100% held-out HuMoTo completion and transfers Isaac Gym to MuJoCo without fine-tuning, then runs a single real Unitree G1 policy over unseen objects. Protected Physical-AI runtime lineage without explicit inference-cost gains.",
+      "published_at": "2026-09-05T09:38:28Z",
+      "updated_at": "2026-09-05T09:38:28Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
         "VLA / WAM / Physical AI"
       ]
     },
@@ -23187,6 +23770,48 @@
       "directions": [
         "Quantization",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Broken on Arrival: Silently Defective LLM Artifacts in Public Model Registries and How to Catch Them",
+      "venue": "arXiv 2026",
+      "topic": "quantization / deployment reliability / model registry QA",
+      "arxiv": "2609.05881",
+      "doi": "",
+      "official_id": "arXiv:2609.05881",
+      "paper_url": "https://arxiv.org/abs/2609.05881",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Execution-based auditing of 327 quantized GGUF artifacts finds silently defective official and community conversions that surface heuristics miss, and releases a quantized-model acceptance-testing tool. This is deployment QA rather than acceleration but is important low-bit infra lineage.",
+      "published_at": "2026-09-05T05:05:51Z",
+      "updated_at": "2026-09-05T05:05:51Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization"
+      ]
+    },
+    {
+      "title": "Learning Counterfactual World Models for Embodied Reasoning under Partial Observability",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / world models / planning",
+      "arxiv": "2609.05834",
+      "doi": "",
+      "official_id": "arXiv:2609.05834",
+      "paper_url": "https://arxiv.org/abs/2609.05834",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Counterfactual Latent World Models explicitly separate intervention outcomes under partial observability, improving planning success and reducing exploitative planning failures; the counterfactual-separability metric strongly tracks planning success. Protected world-model lineage, but not a compute optimization.",
+      "published_at": "2026-09-05T02:56:47Z",
+      "updated_at": "2026-09-05T02:56:47Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -24320,6 +24945,26 @@
       ]
     },
     {
+      "title": "PLUME: Parameter-Efficient Personalization of Large Language Models via Low-Rank User Modulation in Shared Subspaces",
+      "venue": "arXiv 2026",
+      "topic": "quantization / parameter-efficient adaptation / personalization",
+      "arxiv": "2609.04715",
+      "doi": "",
+      "official_id": "arXiv:2609.04715",
+      "paper_url": "https://arxiv.org/abs/2609.04715",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Uses a shared task subspace plus tiny per-user modulation matrices and rank-1 residuals, reducing per-user parameters by over 95% while matching or improving personalization baselines.",
+      "published_at": "2026-09-04T04:38:50Z",
+      "updated_at": "2026-09-04T04:38:50Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization"
+      ]
+    },
+    {
       "title": "Sustainable Edge Vision via Empirically Calibrated DVFS: Eliminating Thermal Throttling on Passively Cooled Hardware",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI systems / DVFS / thermal-aware inference",
@@ -24360,6 +25005,27 @@
         "LLM Serving",
         "Sparsity / Pruning",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Choosing the Right Language Mode at Inference Time for Multilingual Reliability",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / adaptive inference / compute routing",
+      "arxiv": "2609.04653",
+      "doi": "",
+      "official_id": "arXiv:2609.04653",
+      "paper_url": "https://arxiv.org/abs/2609.04653",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "RAAI performs calibration-aware routing and uses a mid-layer risk index to gate sequential reasoning, allocating extra compute only when likely to help. It improves low-resource-language accuracy and calibration, but the abstract does not quantify compute saved.",
+      "published_at": "2026-09-04T02:36:26Z",
+      "updated_at": "2026-09-04T02:36:26Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
