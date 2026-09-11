@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-12",
   "window_start_beijing": "2026-08-13",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 851,
+  "tracked_total": 857,
   "p0_strong_or_canonical": [
     {
       "title": "AccelForge: Comprehensive Modeling and Co-Design Framework for AI Accelerators",
@@ -133,6 +133,27 @@
       ]
     },
     {
+      "title": "Entwine: Coordinating Tiled Computation and Fine-Grained Communication across GPUs",
+      "venue": "arXiv 2026",
+      "topic": "distributed training/inference / GPU communication overlap / tensor parallelism",
+      "arxiv": "2609.11562",
+      "doi": "",
+      "official_id": "arXiv:2609.11562",
+      "paper_url": "https://arxiv.org/abs/2609.11562",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Coordinates tile computation order, fine-grained SM communication, and SM allocation. Across tensor-parallel LLM workloads it achieves 1.232x geomean speedup, up to 1.433x, over cuBLAS+NCCL and beats state-of-the-art overlap baselines by 3.1-9.8% geomean.",
+      "published_at": "2026-09-10T13:53:39Z",
+      "updated_at": "2026-09-10T13:53:39Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference"
+      ]
+    },
+    {
       "title": "Memory as Plans: World-Action Modeling with Memory-Grounded Planning",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / memory and long-horizon runtime",
@@ -240,6 +261,27 @@
       ]
     },
     {
+      "title": "Memory Compression for High-Fanout Agent Sandboxes",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / sandbox memory / runtime compression",
+      "arxiv": "2609.11294",
+      "doi": "",
+      "official_id": "arXiv:2609.11294",
+      "paper_url": "https://arxiv.org/abs/2609.11294",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "AgentZip exploits template-relative and cross-sandbox redundancy and aligns compression with LLM waiting periods. It cuts sandbox-owned memory by up to 8.7x versus 2.1x for Linux; restore prefetching and execution-aware scheduling reduce aggressive-compression slowdown from as high as 3.1x to 1.40x while retaining nearly all memory savings.",
+      "published_at": "2026-09-10T09:25:43Z",
+      "updated_at": "2026-09-10T09:25:43Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "A Voice-Interactive Multi-Agent System for Smart Operating Rooms: Architecture Design and Key Technologies",
       "venue": "arXiv 2026",
       "topic": "LLM serving / agent systems / KV cache / streaming execution",
@@ -341,6 +383,26 @@
       "tracking_tier": "P0 · Strong",
       "directions": [
         "LLM Serving"
+      ]
+    },
+    {
+      "title": "Grounding Agent Memory: Environment-Probing Curation for Enterprise Agents",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / persistent memory / production harness",
+      "arxiv": "2609.11060",
+      "doi": "",
+      "official_id": "arXiv:2609.11060",
+      "paper_url": "https://arxiv.org/abs/2609.11060",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Environment-probing memory curation needs no retraining and leaves the task agent/retriever/memory format unchanged. In a GitHub Copilot SDK harness, CLBench pass rate rises 39%->73%, queries fall 8.8->4.7, and task-agent cost falls $3.38->$1.68; APEX tool calls fall 16-75%.",
+      "published_at": "2026-09-10T04:06:16Z",
+      "updated_at": "2026-09-10T04:06:16Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -492,6 +554,27 @@
         "LLM Serving",
         "KV Cache / Long Context",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "NCP-ArchPreview Technical Report: Moving towards Latent Space Language Models through Next Concept Prediction",
+      "venue": "arXiv 2026",
+      "topic": "LLM training efficiency / latent-space language modeling / speculative decoding",
+      "arxiv": "2609.10715",
+      "doi": "",
+      "official_id": "arXiv:2609.10715",
+      "paper_url": "https://arxiv.org/abs/2609.10715",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "8.9B NCP-ArchPreview reaches OLMo-3-7B final pretraining loss after only 51.3% of its total training tokens and approaches a parameter-aligned baseline using 85% standard compute. A 17M VQ module enables lightweight domain adaptation, and concept injection improves DFlash2 accepted length 4.17% with negligible overhead.",
+      "published_at": "2026-09-09T18:12:43Z",
+      "updated_at": "2026-09-09T18:12:43Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Speculative Decoding",
+        "Distributed Training / Inference"
       ]
     },
     {
@@ -4082,6 +4165,30 @@
       ]
     },
     {
+      "title": "ORCH: Organizational Principles Enable Collective Intelligence in Embodied AI",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / embodied multi-agent orchestration",
+      "arxiv": "2609.11737",
+      "doi": "",
+      "official_id": "arXiv:2609.11737",
+      "paper_url": "https://arxiv.org/abs/2609.11737",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Task-specific hierarchical organizations for up to 50 heterogeneous embodied agents improve execution efficiency by 74.29% for human-designed ORCH and 52.53% for LLM-generated organizations versus four prior frameworks. Protected Physical-AI orchestration lineage; gains are mission-level rather than model-inference speedup.",
+      "published_at": "2026-09-10T15:52:35Z",
+      "updated_at": "2026-09-10T15:52:35Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Why Does Post-Training Quantization Work?",
       "venue": "arXiv 2026",
       "topic": "quantization / LLM PTQ / error propagation",
@@ -4249,6 +4356,26 @@
         "LLM Serving",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Engineering Reliable Commit Gates for Agentic AI: Cost-Aware Verification Portfolios under Common-Mode Data Failures",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / verification runtime / cost-aware routing",
+      "arxiv": "2609.10969",
+      "doi": "",
+      "official_id": "arXiv:2609.10969",
+      "paper_url": "https://arxiv.org/abs/2609.10969",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Cost-aware verification portfolios use deployment-observable metadata to select checks; matched-budget portfolios beat fixed verification policies. The main contribution is runtime assurance rather than acceleration, so retained as agent-infrastructure watch.",
+      "published_at": "2026-09-10T01:42:40Z",
+      "updated_at": "2026-09-10T01:42:40Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -18483,6 +18610,27 @@
       ]
     },
     {
+      "title": "Entwine: Coordinating Tiled Computation and Fine-Grained Communication across GPUs",
+      "venue": "arXiv 2026",
+      "topic": "distributed training/inference / GPU communication overlap / tensor parallelism",
+      "arxiv": "2609.11562",
+      "doi": "",
+      "official_id": "arXiv:2609.11562",
+      "paper_url": "https://arxiv.org/abs/2609.11562",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Coordinates tile computation order, fine-grained SM communication, and SM allocation. Across tensor-parallel LLM workloads it achieves 1.232x geomean speedup, up to 1.433x, over cuBLAS+NCCL and beats state-of-the-art overlap baselines by 3.1-9.8% geomean.",
+      "published_at": "2026-09-10T13:53:39Z",
+      "updated_at": "2026-09-10T13:53:39Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference"
+      ]
+    },
+    {
       "title": "Memory as Plans: World-Action Modeling with Memory-Grounded Planning",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / memory and long-horizon runtime",
@@ -18590,6 +18738,27 @@
       ]
     },
     {
+      "title": "Memory Compression for High-Fanout Agent Sandboxes",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / sandbox memory / runtime compression",
+      "arxiv": "2609.11294",
+      "doi": "",
+      "official_id": "arXiv:2609.11294",
+      "paper_url": "https://arxiv.org/abs/2609.11294",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "AgentZip exploits template-relative and cross-sandbox redundancy and aligns compression with LLM waiting periods. It cuts sandbox-owned memory by up to 8.7x versus 2.1x for Linux; restore prefetching and execution-aware scheduling reduce aggressive-compression slowdown from as high as 3.1x to 1.40x while retaining nearly all memory savings.",
+      "published_at": "2026-09-10T09:25:43Z",
+      "updated_at": "2026-09-10T09:25:43Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "A Voice-Interactive Multi-Agent System for Smart Operating Rooms: Architecture Design and Key Technologies",
       "venue": "arXiv 2026",
       "topic": "LLM serving / agent systems / KV cache / streaming execution",
@@ -18691,6 +18860,26 @@
       "tracking_tier": "P0 · Strong",
       "directions": [
         "LLM Serving"
+      ]
+    },
+    {
+      "title": "Grounding Agent Memory: Environment-Probing Curation for Enterprise Agents",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / persistent memory / production harness",
+      "arxiv": "2609.11060",
+      "doi": "",
+      "official_id": "arXiv:2609.11060",
+      "paper_url": "https://arxiv.org/abs/2609.11060",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Environment-probing memory curation needs no retraining and leaves the task agent/retriever/memory format unchanged. In a GitHub Copilot SDK harness, CLBench pass rate rises 39%->73%, queries fall 8.8->4.7, and task-agent cost falls $3.38->$1.68; APEX tool calls fall 16-75%.",
+      "published_at": "2026-09-10T04:06:16Z",
+      "updated_at": "2026-09-10T04:06:16Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -18842,6 +19031,27 @@
         "LLM Serving",
         "KV Cache / Long Context",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "NCP-ArchPreview Technical Report: Moving towards Latent Space Language Models through Next Concept Prediction",
+      "venue": "arXiv 2026",
+      "topic": "LLM training efficiency / latent-space language modeling / speculative decoding",
+      "arxiv": "2609.10715",
+      "doi": "",
+      "official_id": "arXiv:2609.10715",
+      "paper_url": "https://arxiv.org/abs/2609.10715",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "8.9B NCP-ArchPreview reaches OLMo-3-7B final pretraining loss after only 51.3% of its total training tokens and approaches a parameter-aligned baseline using 85% standard compute. A 17M VQ module enables lightweight domain adaptation, and concept injection improves DFlash2 accepted length 4.17% with negligible overhead.",
+      "published_at": "2026-09-09T18:12:43Z",
+      "updated_at": "2026-09-09T18:12:43Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Speculative Decoding",
+        "Distributed Training / Inference"
       ]
     },
     {
@@ -22430,6 +22640,30 @@
       ]
     },
     {
+      "title": "ORCH: Organizational Principles Enable Collective Intelligence in Embodied AI",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / embodied multi-agent orchestration",
+      "arxiv": "2609.11737",
+      "doi": "",
+      "official_id": "arXiv:2609.11737",
+      "paper_url": "https://arxiv.org/abs/2609.11737",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Task-specific hierarchical organizations for up to 50 heterogeneous embodied agents improve execution efficiency by 74.29% for human-designed ORCH and 52.53% for LLM-generated organizations versus four prior frameworks. Protected Physical-AI orchestration lineage; gains are mission-level rather than model-inference speedup.",
+      "published_at": "2026-09-10T15:52:35Z",
+      "updated_at": "2026-09-10T15:52:35Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Why Does Post-Training Quantization Work?",
       "venue": "arXiv 2026",
       "topic": "quantization / LLM PTQ / error propagation",
@@ -22597,6 +22831,26 @@
         "LLM Serving",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Engineering Reliable Commit Gates for Agentic AI: Cost-Aware Verification Portfolios under Common-Mode Data Failures",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / verification runtime / cost-aware routing",
+      "arxiv": "2609.10969",
+      "doi": "",
+      "official_id": "arXiv:2609.10969",
+      "paper_url": "https://arxiv.org/abs/2609.10969",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Cost-aware verification portfolios use deployment-observable metadata to select checks; matched-budget portfolios beat fixed verification policies. The main contribution is runtime assurance rather than acceleration, so retained as agent-infrastructure watch.",
+      "published_at": "2026-09-10T01:42:40Z",
+      "updated_at": "2026-09-10T01:42:40Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
       ]
     },
     {
