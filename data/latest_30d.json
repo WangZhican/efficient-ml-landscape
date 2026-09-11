@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-11",
   "window_start_beijing": "2026-08-12",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 800,
+  "tracked_total": 803,
   "p0_strong_or_canonical": [
     {
       "title": "HybridFLow: SDN-Orchestrated Client Partitioning for Hybrid Federated Learning",
@@ -7209,6 +7209,27 @@
       ]
     },
     {
+      "title": "WM-Craftnet: World Synesthesia Model for Generalizable and Robust Dexterous In-Hand Manipulation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / recurrent world state / dexterous manipulation",
+      "arxiv": "2609.07002",
+      "doi": "",
+      "official_id": "arXiv:2609.07002",
+      "paper_url": "https://arxiv.org/abs/2609.07002",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Uses a Dreamer-style recurrent world-synesthesia state as a deployable visuotactile estimator for closed-loop dexterous control. Real-robot evidence shows substantial robustness/generalization gains and reusable latent physical structure; protected Physical-AI/world-model lineage, not a direct inference-acceleration result.",
+      "published_at": "2026-09-07T03:48:06Z",
+      "updated_at": "2026-09-07T03:48:06Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Train Overcomplete, Deploy Compact: Scaling Recovery Capacity for Structured LLM Pruning",
       "venue": "arXiv 2026",
       "topic": "sparsity/pruning / structured LLM pruning / recovery",
@@ -7422,6 +7443,27 @@
         "LLM Serving",
         "KV Cache / Long Context",
         "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "Learning to Use Imagination: Progress-Conditioned Future Utilization for World Action Models",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / world action models / adaptive imagination",
+      "arxiv": "2609.06578",
+      "doi": "",
+      "official_id": "arXiv:2609.06578",
+      "paper_url": "https://arxiv.org/abs/2609.06578",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "ProWAM explicitly models execution progress and uses hierarchical progress-conditioned modulation to vary how imagined future latents are consumed across stages and within a stage. This is directly relevant to adaptive WAM runtime design and avoids treating every imagined future as equally useful, although the abstract reports quality rather than compute savings.",
+      "published_at": "2026-09-06T12:46:20Z",
+      "updated_at": "2026-09-06T12:46:20Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -9348,6 +9390,27 @@
       "directions": [
         "LLM Serving",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "AutoLR: Automating the Path from Research to Launch Review in Industrial Recommender Systems",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / autonomous ML engineering / production experimentation",
+      "arxiv": "2609.04871",
+      "doi": "",
+      "official_id": "arXiv:2609.04871",
+      "paper_url": "https://arxiv.org/abs/2609.04871",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "NetEase production agent harness coordinates multi-day research-to-launch cycles with deterministic controllers retaining authority over execution, metric extraction, guardrails and persistent state. Important long-running agent/ML-infra lineage, though the abstract does not quantify wall-clock savings.",
+      "published_at": "2026-09-04T08:30:36Z",
+      "updated_at": "2026-09-04T08:30:36Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -24472,6 +24535,27 @@
       ]
     },
     {
+      "title": "WM-Craftnet: World Synesthesia Model for Generalizable and Robust Dexterous In-Hand Manipulation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / recurrent world state / dexterous manipulation",
+      "arxiv": "2609.07002",
+      "doi": "",
+      "official_id": "arXiv:2609.07002",
+      "paper_url": "https://arxiv.org/abs/2609.07002",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Uses a Dreamer-style recurrent world-synesthesia state as a deployable visuotactile estimator for closed-loop dexterous control. Real-robot evidence shows substantial robustness/generalization gains and reusable latent physical structure; protected Physical-AI/world-model lineage, not a direct inference-acceleration result.",
+      "published_at": "2026-09-07T03:48:06Z",
+      "updated_at": "2026-09-07T03:48:06Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Train Overcomplete, Deploy Compact: Scaling Recovery Capacity for Structured LLM Pruning",
       "venue": "arXiv 2026",
       "topic": "sparsity/pruning / structured LLM pruning / recovery",
@@ -24685,6 +24769,27 @@
         "LLM Serving",
         "KV Cache / Long Context",
         "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "Learning to Use Imagination: Progress-Conditioned Future Utilization for World Action Models",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / world action models / adaptive imagination",
+      "arxiv": "2609.06578",
+      "doi": "",
+      "official_id": "arXiv:2609.06578",
+      "paper_url": "https://arxiv.org/abs/2609.06578",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "ProWAM explicitly models execution progress and uses hierarchical progress-conditioned modulation to vary how imagined future latents are consumed across stages and within a stage. This is directly relevant to adaptive WAM runtime design and avoids treating every imagined future as equally useful, although the abstract reports quality rather than compute savings.",
+      "published_at": "2026-09-06T12:46:20Z",
+      "updated_at": "2026-09-06T12:46:20Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -26611,6 +26716,27 @@
       "directions": [
         "LLM Serving",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "AutoLR: Automating the Path from Research to Launch Review in Industrial Recommender Systems",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / autonomous ML engineering / production experimentation",
+      "arxiv": "2609.04871",
+      "doi": "",
+      "official_id": "arXiv:2609.04871",
+      "paper_url": "https://arxiv.org/abs/2609.04871",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "NetEase production agent harness coordinates multi-day research-to-launch cycles with deterministic controllers retaining authority over execution, metric extraction, guardrails and persistent state. Important long-running agent/ML-infra lineage, though the abstract does not quantify wall-clock savings.",
+      "published_at": "2026-09-04T08:30:36Z",
+      "updated_at": "2026-09-04T08:30:36Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Efficient Reasoning / Agents"
       ]
     },
     {

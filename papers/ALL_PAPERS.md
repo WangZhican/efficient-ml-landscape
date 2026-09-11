@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **1758 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **800 visible papers = 186 P0 + 495 P1 + 119 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1758 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **803 visible papers = 186 P0 + 498 P1 + 119 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -195,7 +195,7 @@
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 | **P0 · Strong** | **A Thread-Register Decoupled GPU Execution Model for Efficient Tensor Computation** | Fresh / preprint | GPU execution architecture / tensor cores / LLM serving | [Link](https://arxiv.org/abs/2608.19628) | — |
 
-## 🧭 P1 · Watch · 495
+## 🧭 P1 · Watch · 498
 
 > Clearly relevant and promising, but still awaiting stronger novelty, evidence, venue, or adoption validation.
 
@@ -349,6 +349,7 @@
 | **P1 · Watch** | **NOVA-CIM: Noise- and Correlation-Tolerant Stochastic Interfaces for Analog Compute-in-Memory** | arXiv 2026 | edge/cloud/heterogeneous AI systems / compute-in-memory / accelerator interfaces | [Link](https://arxiv.org/abs/2609.07059) | — |
 | **P1 · Watch** | **MEMOBench: A Process Level Memory Benchmark for Robotic Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving / robot memory / benchmark | [Link](https://arxiv.org/abs/2609.07047) | [Repo](https://github.com/Collab-Gen/MEMOBench) |
 | **P1 · Watch** | **GIFT: Goal-Injected Fine-Tuning for Efficient Manipulation Policy Adaptation** | arXiv 2026 | VLA/WAM/Physical AI serving / lightweight adaptation / goal-conditioned manipulation | [Link](https://arxiv.org/abs/2609.07006) | — |
+| **P1 · Watch** | **WM-Craftnet: World Synesthesia Model for Generalizable and Robust Dexterous In-Hand Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving / recurrent world state / dexterous manipulation | [Link](https://arxiv.org/abs/2609.07002) | — |
 | **P1 · Watch** | **Train Overcomplete, Deploy Compact: Scaling Recovery Capacity for Structured LLM Pruning** | arXiv 2026 | sparsity/pruning / structured LLM pruning / recovery | [Link](https://arxiv.org/abs/2609.06974) | [Repo](https://github.com/mmai-laboratory/OverRep) |
 | **P1 · Watch** | **Unified AI Gateway: A Framework for Joint Model Routing and KV Cache Management** | arXiv 2026 | LLM serving / model routing / KV cache management / edge-cloud placement | [Link](https://arxiv.org/abs/2609.06940) | — |
 | **P1 · Watch** | **Distributed Dexterous Manipulation with Spatially Conditioned Multi-Agent Transformers** | arXiv 2026 | VLA/WAM/Physical AI serving / multi-agent transformer / dexterous manipulation | [Link](https://arxiv.org/abs/2609.06930) | — |
@@ -359,6 +360,7 @@
 | **P1 · Watch** | **Companion-style QA Assistance in Ego-Vision** | arXiv 2026 | VLA/WAM/Physical AI serving / streaming video memory / egocentric agents | [Link](https://arxiv.org/abs/2609.06721) | — |
 | **P1 · Watch** | **Data Efficient Sample Selection for In-Context Learning** | arXiv 2026 | efficient reasoning/agent systems / in-context learning / sample selection | [Link](https://arxiv.org/abs/2609.06670) | — |
 | **P1 · Watch** | **ECOKV: Geometry-Aware KV Cache Eviction via Complementary Diversity Metrics** | arXiv 2026 | KV cache/long-context / multimodal MLLM serving / cache eviction | [Link](https://arxiv.org/abs/2609.06663) | — |
+| **P1 · Watch** | **Learning to Use Imagination: Progress-Conditioned Future Utilization for World Action Models** | arXiv 2026 | VLA/WAM/Physical AI serving / world action models / adaptive imagination | [Link](https://arxiv.org/abs/2609.06578) | — |
 | **P1 · Watch** | **VLA-Corrector: Stage-Aware Observable State Understanding for Prompt-Based Closed-Loop Recovery of Vision-Language-Action Policies** | arXiv 2026 | VLA/WAM/Physical AI serving / closed-loop recovery / runtime verifier | [Link](https://arxiv.org/abs/2609.06508) | — |
 | **P1 · Watch** | **DFlow: Enabling Verifier Information Flow in Block Diffusion Speculative Decoding** | arXiv 2026 | speculative decoding / diffusion language models / verifier reuse | [Link](https://arxiv.org/abs/2609.06498) | — |
 | **P1 · Watch** | **One MLLM, One Call: Efficient Zero-Shot Vision-and-Language Navigation via Spatial-Aware Waypoints** | arXiv 2026 | VLA/WAM/Physical AI serving / VLN / sparse MLLM invocation / robot navigation | [Link](https://arxiv.org/abs/2609.06476) | — |
@@ -449,6 +451,7 @@
 | **P1 · Watch** | **Reasoning Without Inference Cost: Latent Semantic Scaffolding for Robot VLA Policies** | arXiv 2026 | VLA/WAM/Physical AI serving / zero-overhead reasoning / deployment efficiency | [Link](https://arxiv.org/abs/2609.04893) | — |
 | **P1 · Watch** | **From Deep to Shallow: Unconstrained and Efficient Layer Merging Strategy** | arXiv 2026 | edge/cloud/heterogeneous AI systems / model compression / embedded inference | [Link](https://arxiv.org/abs/2609.04881) | [Repo](https://github.com/ShulzhenkoPetr/deep-to-shallow) |
 | **P1 · Watch** | **ReCAST: Restoration-aware Cascaded Stage-wise Training for Obfuscated SMS Risk Classification** | arXiv 2026 | edge/cloud/heterogeneous AI systems / distillation / deployable small models | [Link](https://arxiv.org/abs/2609.04878) | — |
+| **P1 · Watch** | **AutoLR: Automating the Path from Research to Launch Review in Industrial Recommender Systems** | arXiv 2026 | efficient reasoning/agent systems / autonomous ML engineering / production experimentation | [Link](https://arxiv.org/abs/2609.04871) | — |
 | **P1 · Watch** | **From Interaction Traces to Persistent Skills: Online Evolution for Computer-Use Agents** | arXiv 2026 | efficient reasoning/agent systems / procedural memory / skill reuse | [Link](https://arxiv.org/abs/2609.04869) | — |
 | **P1 · Watch** | **Coupled Control and Wireless World Models for Resilient Remote Robotic Control** | arXiv 2026 | VLA/WAM/Physical AI serving / cloud-edge robotics / communication-aware world models | [Link](https://arxiv.org/abs/2609.04851) | — |
 | **P1 · Watch** | **Communication-Efficient Personalized Federated Learning via Layer-Wise Multi-Threshold Random Sketching** | arXiv 2026 | edge/cloud/heterogeneous AI systems / federated learning / communication compression / low-bit sketching | [Link](https://arxiv.org/abs/2609.04830) | — |
