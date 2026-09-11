@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **1769 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **826 visible papers = 171 P0 + 536 P1 + 119 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1769 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **827 visible papers = 171 P0 + 537 P1 + 119 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -180,12 +180,13 @@
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 | **P0 · Strong** | **A Thread-Register Decoupled GPU Execution Model for Efficient Tensor Computation** | Fresh / preprint | GPU execution architecture / tensor cores / LLM serving | [Link](https://arxiv.org/abs/2608.19628) | — |
 
-## 🧭 P1 · Watch · 536
+## 🧭 P1 · Watch · 537
 
 > Clearly relevant and promising, but still awaiting stronger novelty, evidence, venue, or adoption validation.
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
+| **P1 · Watch** | **Taming Bitwise Behavior in GPU Kernels with Tensor Core: Black-Box Reconstruction, Compiler Enforcement, and Static Verification** | arXiv 2026 | GPU kernel/DSL/compilers / tensor core / deterministic kernels | [Link](https://arxiv.org/abs/2609.11356) | — |
 | **P1 · Watch** | **2AM: Grounding Agent-Side Memory as Guidance for Steerable Action Models in Long-Horizon Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving / agent memory / long-horizon manipulation | [Link](https://arxiv.org/abs/2609.11308) | — |
 | **P1 · Watch** | **Harness Robotic OS: A Unified Embodied-Agent Runtime for Closed-Loop Quadruped Inspection** | arXiv 2026 | VLA/WAM/Physical AI serving / embodied runtime / agent infrastructure | [Link](https://arxiv.org/abs/2609.11225) | — |
 | **P1 · Watch** | **Programmable World Model** | arXiv 2026 | VLA/WAM/Physical AI / world models / persistent state / programmable simulation | [Link](https://arxiv.org/abs/2609.10540) | — |

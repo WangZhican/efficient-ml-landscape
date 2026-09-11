@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-11",
   "window_start_beijing": "2026-08-12",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 826,
+  "tracked_total": 827,
   "p0_strong_or_canonical": [
     {
       "title": "Building py-kvcache: A Performance Characterization of External KV Caching for vLLM with NVMe SSDs",
@@ -3722,6 +3722,26 @@
     }
   ],
   "p1_watchlist": [
+    {
+      "title": "Taming Bitwise Behavior in GPU Kernels with Tensor Core: Black-Box Reconstruction, Compiler Enforcement, and Static Verification",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / tensor core / deterministic kernels",
+      "arxiv": "2609.11356",
+      "doi": "",
+      "official_id": "arXiv:2609.11356",
+      "paper_url": "https://arxiv.org/abs/2609.11356",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Reconstructs GEMM reduction order for closed-source libraries, enforces balanced-tree reduction in Triton, and adds static bit-equivalence checking across PTX and GCN. For realistic LLM fused-epilogue shapes it matches or exceeds torch.compile, while 19 of 27 deterministic kernels stay within 10% of free-order performance.",
+      "published_at": "2026-09-10T10:39:21Z",
+      "updated_at": "2026-09-10T10:39:21Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
     {
       "title": "2AM: Grounding Agent-Side Memory as Guidance for Steerable Action Models in Long-Horizon Manipulation",
       "venue": "arXiv 2026",
@@ -21539,6 +21559,26 @@
       "tracking_tier": "P0 · Strong",
       "directions": [
         "LLM Serving",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Taming Bitwise Behavior in GPU Kernels with Tensor Core: Black-Box Reconstruction, Compiler Enforcement, and Static Verification",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / tensor core / deterministic kernels",
+      "arxiv": "2609.11356",
+      "doi": "",
+      "official_id": "arXiv:2609.11356",
+      "paper_url": "https://arxiv.org/abs/2609.11356",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Reconstructs GEMM reduction order for closed-source libraries, enforces balanced-tree reduction in Triton, and adds static bit-equivalence checking across PTX and GCN. For realistic LLM fused-epilogue shapes it matches or exceeds torch.compile, while 19 of 27 deterministic kernels stay within 10% of free-order performance.",
+      "published_at": "2026-09-10T10:39:21Z",
+      "updated_at": "2026-09-10T10:39:21Z",
+      "is_latest_30d": true,
+      "directions": [
         "GPU Kernel / DSL / Compiler"
       ]
     },

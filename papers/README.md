@@ -4,7 +4,7 @@
 
 <div align="center">
 
-[**🆕 Latest 30 Days · 826 tracked**](LATEST_30D.md) · [**🏛️ Classical · 1598**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
+[**🆕 Latest 30 Days · 827 tracked**](LATEST_30D.md) · [**🏛️ Classical · 1598**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
 
 </div>
 
@@ -19,7 +19,7 @@
 | 05 | [**Sparsity / Pruning**](05-sparsity-pruning.md) | **272** | **123** |
 | 06 | [**Efficient Attention**](06-efficient-attention.md) | **251** | **83** |
 | 07 | [**MoE Systems / Accelerators**](07-moe-systems.md) | **133** | **49** |
-| 08 | [**GPU Kernel / DSL / Compiler**](08-gpu-kernel-compiler.md) | **458** | **156** |
+| 08 | [**GPU Kernel / DSL / Compiler**](08-gpu-kernel-compiler.md) | **458** | **157** |
 | 09 | [**Distributed Training / Inference**](09-distributed-training-inference.md) | **342** | **103** |
 | 10 | [**Multimodal / MLLM Serving**](10-multimodal-mllm-serving.md) | **217** | **138** |
 | 11 | [**Video / Image Generation**](11-video-image-generation.md) | **82** | **41** |
