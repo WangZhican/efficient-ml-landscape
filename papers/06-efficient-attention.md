@@ -1,10 +1,10 @@
 # 06 · Efficient Attention
 
-> **250 canonical papers** mapped here, plus a broader **81-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **250 canonical papers** mapped here, plus a broader **82-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 81 tracked
+## 🆕 Latest 30 Days · 82 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -36,6 +36,7 @@
 | **P0 · Strong** | **STAR-Pro: Stage-Wise Token Adaptive Reduction with Progressive Refinement for Efficient Large Vision-Language Models** | arXiv 2026 | multimodal/MLLM serving / visual token pruning / adaptive compute | [Link](https://arxiv.org/abs/2609.05916) | [Repo](https://github.com/EasonAI-5589/starpro) |
 | **P0 · Strong** | **Intra-Prompt Parallel Decoding for Common-Context Question Answering** | arXiv 2026 | LLM serving / parallel decoding / shared-context inference | [Link](https://arxiv.org/abs/2609.05707) | — |
 | **P1 · Watch** | **What Matters, When? Diagnosing and Improving Conditional Visual Grounding in Visuomotor Imitation Policies** | arXiv 2026 | VLA/WAM/Physical AI serving / visuomotor grounding / robustness | [Link](https://arxiv.org/abs/2609.05376) | — |
+| **P1 · Watch** | **MEOX: Compact Multimodal Mixture-of-Experts for Earth Observation** | arXiv 2026 | MoE systems/accelerators / compact multimodal MoE / parameter efficiency | [Link](https://arxiv.org/abs/2609.05351) | — |
 | **P1 · Watch** | **Fast Gauss Sums via Flash Attention** | arXiv 2026 | GPU kernel/DSL/compilers / efficient attention reuse | [Link](https://arxiv.org/abs/2609.04910) | — |
 | **P0 · Strong** | **KVMem: Virtualizing Million-Token Agent Workspaces on a Consumer GPU** | arXiv 2026 | KV cache/long-context / efficient reasoning/agent systems / memory virtualization | [Link](https://arxiv.org/abs/2609.04852) | — |
 | **P1 · Watch** | **GRACE: Graph-Grounded Reflective Agent Copilot Engine for Expert-in-the-Loop Knowledge Expansion** | arXiv 2026 | efficient reasoning/agent systems / cost-aware verification / RAG agents | [Link](https://arxiv.org/abs/2609.04442) | — |

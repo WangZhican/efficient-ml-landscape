@@ -1,10 +1,10 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **388 canonical papers** mapped here, plus a broader **209-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **388 canonical papers** mapped here, plus a broader **210-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 209 tracked
+## 🆕 Latest 30 Days · 210 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -85,6 +85,7 @@
 | **P1 · Watch** | **Large Language Models with At Most One Spike per Neuron** | arXiv 2026 | edge/cloud/heterogeneous AI systems / energy-efficient LLM / spiking inference | [Link](https://arxiv.org/abs/2609.05151) | — |
 | **P1 · Watch** | **MomentQuant: an even more minimalist interval method with linear time complexity for time series classification** | arXiv 2026 | edge/cloud/heterogeneous AI systems / efficient inference / linear-time algorithms | [Link](https://arxiv.org/abs/2609.05136) | — |
 | **P1 · Watch** | **Deep Microcompression: Structured Pruning and Bit-packed Quantization for Microcontrollers** | arXiv 2026 | edge/cloud/heterogeneous AI systems / microcontroller inference / pruning / quantization | [Link](https://arxiv.org/abs/2609.05081) | — |
+| **P1 · Watch** | **ARC-Loc: Leveraging Azimuthal Ray Convergence as a Geometric Cue for Direct Cross-View Localization** | arXiv 2026 | VLA/WAM/Physical AI serving / geometric localization / lightweight perception | [Link](https://arxiv.org/abs/2609.04965) | — |
 | **P1 · Watch** | **GreenPipe: Power Modeling for Containerized DNN Inference on Kubernetes Edge Nodes** | arXiv 2026 | edge/cloud heterogeneous AI systems / Kubernetes inference / online power modeling / energy-aware serving | [Link](https://arxiv.org/abs/2609.04952) | — |
 | **P1 · Watch** | **From Deep to Shallow: Unconstrained and Efficient Layer Merging Strategy** | arXiv 2026 | edge/cloud/heterogeneous AI systems / model compression / embedded inference | [Link](https://arxiv.org/abs/2609.04881) | [Repo](https://github.com/ShulzhenkoPetr/deep-to-shallow) |
 | **P1 · Watch** | **ReCAST: Restoration-aware Cascaded Stage-wise Training for Obfuscated SMS Risk Classification** | arXiv 2026 | edge/cloud/heterogeneous AI systems / distillation / deployable small models | [Link](https://arxiv.org/abs/2609.04878) | — |

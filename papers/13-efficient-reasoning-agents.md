@@ -1,10 +1,10 @@
 # 13 · Efficient Reasoning / Agents
 
-> **317 canonical papers** mapped here, plus a broader **175-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **317 canonical papers** mapped here, plus a broader **177-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 175 tracked
+## 🆕 Latest 30 Days · 177 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -19,6 +19,7 @@
 | **P0 · Strong** | **LiteRAG: Cost-Efficient Graph-Based Retrieval-Augmented Generation** | arXiv 2026 | LLM serving / RAG / retrieval efficiency / context reduction | [Link](https://arxiv.org/abs/2609.10239) | — |
 | **P0 · Strong** | **Kernel-Managed Shared Memory for System-Wide Personalization** | arXiv 2026 | efficient reasoning/agent systems / memory / agent runtime / context management | [Link](https://arxiv.org/abs/2609.10144) | — |
 | **P0 · Strong** | **GraphDroid: Asynchronous LLM-Based Mobile App GUI Testing via History-Aware Exploration and Hybrid Intent Fulfillment** | arXiv 2026 | efficient reasoning/agent systems / asynchronous LLM agents / GUI testing / cost-aware tool use | [Link](https://arxiv.org/abs/2609.10031) | — |
+| **P1 · Watch** | **MetroLLM-Bench: Evaluating Language Models as Transit Kiosk Runtimes** | arXiv 2026 | efficient reasoning/agent systems / compact agent runtime / PEFT | [Link](https://arxiv.org/abs/2609.10016) | — |
 | **P1 · Watch** | **VLX-VR: An Agentic-Aware Video Reasoning Model** | arXiv 2026 | multimodal/MLLM serving / adaptive evidence acquisition / agent memory | [Link](https://arxiv.org/abs/2609.09985) | — |
 | **P0 · Strong** | **InstantMimic: A High Performance System for Learning Physics-based Skills in Seconds** | arXiv 2026 | VLA/WAM/Physical AI / GPU systems / robotics training | [Link](https://arxiv.org/abs/2609.09821) | [Repo](https://scripter36.github.io/InstantMimic/) |
 | **P1 · Watch** | **UnitBoost: Managing Compound LLM Systems with a Merge Operator, Not a Model** | arXiv 2026 | efficient reasoning/agent systems / compound LLM systems / non-generative orchestration | [Link](https://arxiv.org/abs/2609.09815) | — |
@@ -116,6 +117,7 @@
 | **P1 · Watch** | **ICM-Bench: Person-Level Identity Reasoning in Multimodal Agents with Long-Term Memory** | arXiv 2026 | multimodal/MLLM serving / long-term memory / benchmark | [Link](https://arxiv.org/abs/2609.04438) | — |
 | **P0 · Strong** | **VLA-Precision: Asymmetric Co-Bootstrapping for Efficient Real-World Online RL of Vision-Language-Action Models** | arXiv 2026 | VLA / Physical AI / real-world online RL / streaming runtime | [Link](https://arxiv.org/abs/2609.04355) | [Repo](https://vla-precision.github.io/) |
 | **P1 · Watch** | **LLM-Aided Design for Manufacturing: A Multi-Agent System for Intent-Preserving Redesign of CAD for Improved Manufacturability** | arXiv 2026 | VLA/WAM/Physical AI serving / industrial agents / tool-using verification | [Link](https://arxiv.org/abs/2609.05559) | — |
+| **P1 · Watch** | **SharedSAE: One Feature Dictionary Across Language Models** | arXiv 2026 | efficient reasoning/agent systems / interpretability infrastructure / shared representation | [Link](https://arxiv.org/abs/2609.04344) | — |
 | **P1 · Watch** | **Compile by Training: Turning Natural-Language Specifications into Local Neural Functions** | arXiv 2026 | efficient reasoning/agent systems / local inference / distillation | [Link](https://arxiv.org/abs/2609.04199) | — |
 | **P0 · Strong** | **SENTINEL-RL: Offloading Topological Reasoning from LLM Agents in the Security Operations Center** | arXiv 2026 | efficient reasoning/agent systems / reasoning offload / graph runtime / enterprise agents | [Link](https://arxiv.org/abs/2609.04159) | — |
 | **P0 · Strong** | **Subspace Inference Enables Efficient Active Reward Learning from Preferences** | arXiv 2026 | efficient reasoning/agent systems / RLHF reward learning / subspace Bayesian inference | [Link](https://arxiv.org/abs/2609.04066) | [Repo](https://github.com/yutaizhou/bnn_pref) |

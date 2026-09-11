@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **1754 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **720 visible papers = 182 P0 + 419 P1 + 119 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **1754 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **725 visible papers = 182 P0 + 424 P1 + 119 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -191,7 +191,7 @@
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 | **P0 · Strong** | **A Thread-Register Decoupled GPU Execution Model for Efficient Tensor Computation** | Fresh / preprint | GPU execution architecture / tensor cores / LLM serving | [Link](https://arxiv.org/abs/2608.19628) | — |
 
-## 🧭 P1 · Watch · 419
+## 🧭 P1 · Watch · 424
 
 > Clearly relevant and promising, but still awaiting stronger novelty, evidence, venue, or adoption validation.
 
@@ -215,7 +215,9 @@
 | **P1 · Watch** | **CEDD-optimizer: Enabling Cost-Efficient Dataset Distillation on Geographically Distributed Edge Systems** | arXiv 2026 | edge/cloud/heterogeneous AI systems / distributed dataset distillation / cost optimization | [Link](https://arxiv.org/abs/2609.10151) | — |
 | **P1 · Watch** | **Storage-Scalable Progressive Semantic Communication via Knowledge-Base Reuse** | arXiv 2026 | edge/cloud/heterogeneous AI systems / semantic communication / storage efficiency | [Link](https://arxiv.org/abs/2609.10112) | — |
 | **P1 · Watch** | **RoboDrop: Curating VLA Post-Training Data via Local Gradient Compatibility** | arXiv 2026 | VLA/WAM/Physical AI serving / post-training data efficiency / data curation | [Link](https://arxiv.org/abs/2609.10021) | — |
+| **P1 · Watch** | **MetroLLM-Bench: Evaluating Language Models as Transit Kiosk Runtimes** | arXiv 2026 | efficient reasoning/agent systems / compact agent runtime / PEFT | [Link](https://arxiv.org/abs/2609.10016) | — |
 | **P1 · Watch** | **VLX-VR: An Agentic-Aware Video Reasoning Model** | arXiv 2026 | multimodal/MLLM serving / adaptive evidence acquisition / agent memory | [Link](https://arxiv.org/abs/2609.09985) | — |
+| **P1 · Watch** | **RealSimLoop: Online Real-to-Sim Adaptation via Differentiable Reduced-Order Simulation with Vision Feedback** | arXiv 2026 | VLA/WAM/Physical AI serving / differentiable simulation / online adaptation | [Link](https://arxiv.org/abs/2609.09828) | — |
 | **P1 · Watch** | **UnitBoost: Managing Compound LLM Systems with a Merge Operator, Not a Model** | arXiv 2026 | efficient reasoning/agent systems / compound LLM systems / non-generative orchestration | [Link](https://arxiv.org/abs/2609.09815) | — |
 | **P1 · Watch** | **GTA-2: A Multi-VLM Framework for Synthesizing Robot Manipulation Skills via Grounded Task Axes** | arXiv 2026 | VLA/WAM/Physical AI / multi-VLM skill synthesis / zero-shot manipulation / modular control | [Link](https://arxiv.org/abs/2609.09808) | [Repo](https://gta2-project.github.io/) |
 | **P1 · Watch** | **Privacy-Preserving Split Learning for Federated LLM Fine-Tuning** | arXiv 2026 | distributed training/inference / federated LLM fine-tuning / split learning privacy | [Link](https://arxiv.org/abs/2609.09794) | — |
@@ -351,6 +353,7 @@
 | **P1 · Watch** | **Beyond Scalar Flexibility: From Eligible AI Workloads to Dependable Load Relief** | arXiv 2026 | edge/cloud/heterogeneous AI systems / datacenter power / workload flexibility | [Link](https://arxiv.org/abs/2609.05406) | — |
 | **P1 · Watch** | **What Matters, When? Diagnosing and Improving Conditional Visual Grounding in Visuomotor Imitation Policies** | arXiv 2026 | VLA/WAM/Physical AI serving / visuomotor grounding / robustness | [Link](https://arxiv.org/abs/2609.05376) | — |
 | **P1 · Watch** | **Towards Neuro-Symbolic Procedural Reasoning for Long-Horizon Vision-Language-Action Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving / long-horizon VLA / procedural memory | [Link](https://arxiv.org/abs/2609.05369) | — |
+| **P1 · Watch** | **MEOX: Compact Multimodal Mixture-of-Experts for Earth Observation** | arXiv 2026 | MoE systems/accelerators / compact multimodal MoE / parameter efficiency | [Link](https://arxiv.org/abs/2609.05351) | — |
 | **P1 · Watch** | **RoboSPA: Can VLA Models Go Beyond Simple Scenes and Short-Horizon Tasks?** | arXiv 2026 | VLA/WAM/Physical AI serving / benchmark / long-horizon embodied reasoning | [Link](https://arxiv.org/abs/2609.05324) | [Repo](https://github.com/fanzhenxuan/RoboSPA) |
 | **P1 · Watch** | **Adaptive Gated Deepfake Detection for Low-Resolution and Resource-Constrained Environments** | arXiv 2026 | edge/cloud/heterogeneous AI systems / adaptive inference / early exit | [Link](https://arxiv.org/abs/2609.05320) | — |
 | **P1 · Watch** | **Human-Human & Human-Robot Interaction Transformer (H2INT) for Robot Navigation in Dense and Uncertain Crowds** | arXiv 2026 | VLA/WAM/Physical AI serving / robot navigation / interaction modeling | [Link](https://arxiv.org/abs/2609.05300) | — |
@@ -369,6 +372,7 @@
 | **P1 · Watch** | **Compact Bellman-Grounded Cognitive Maps for Cost-Aware Navigation** | arXiv 2026 | VLA/WAM/Physical AI / navigation memory / compact world representation / cost-aware planning | [Link](https://arxiv.org/abs/2609.05104) | — |
 | **P1 · Watch** | **Deep Microcompression: Structured Pruning and Bit-packed Quantization for Microcontrollers** | arXiv 2026 | edge/cloud/heterogeneous AI systems / microcontroller inference / pruning / quantization | [Link](https://arxiv.org/abs/2609.05081) | — |
 | **P1 · Watch** | **Efficient Multi-Timescale Event Representations for Feed-Forward Object Detection** | arXiv 2026 | VLA/WAM/Physical AI / event perception / feed-forward detection / neuromorphic efficiency | [Link](https://arxiv.org/abs/2609.05049) | — |
+| **P1 · Watch** | **ARC-Loc: Leveraging Azimuthal Ray Convergence as a Geometric Cue for Direct Cross-View Localization** | arXiv 2026 | VLA/WAM/Physical AI serving / geometric localization / lightweight perception | [Link](https://arxiv.org/abs/2609.04965) | — |
 | **P1 · Watch** | **EnvCraft: Synthesizing Executable Environments in Agentic RL for Claw-like Agent** | arXiv 2026 | efficient reasoning/agent systems / agentic RL / executable environments / training infrastructure | [Link](https://arxiv.org/abs/2609.05576) | — |
 | **P1 · Watch** | **GreenPipe: Power Modeling for Containerized DNN Inference on Kubernetes Edge Nodes** | arXiv 2026 | edge/cloud heterogeneous AI systems / Kubernetes inference / online power modeling / energy-aware serving | [Link](https://arxiv.org/abs/2609.04952) | — |
 | **P1 · Watch** | **MCPO: Modality-Contrastive Preference Optimization for Multimodal Chain-of-Thought Compression** | arXiv 2026 | efficient reasoning/agent systems / multimodal reasoning / CoT compression / KV pressure | [Link](https://arxiv.org/abs/2609.04947) | — |
@@ -409,6 +413,7 @@
 | **P1 · Watch** | **Accelerating Atom Simulations with Variable-Block Sparse Matrix Library** | arXiv 2026 | GPU kernel/DSL/compilers / distributed sparse linear algebra / scientific AI infrastructure | [Link](https://arxiv.org/abs/2609.04397) | — |
 | **P1 · Watch** | **FAVE: Foveated Adaptive Visual Encoding for Efficient Fine-Grained Visual Understanding** | arXiv 2026 | multimodal/MLLM serving / visual-token efficiency / adaptive encoding | [Link](https://arxiv.org/abs/2609.04392) | — |
 | **P1 · Watch** | **LLM-Aided Design for Manufacturing: A Multi-Agent System for Intent-Preserving Redesign of CAD for Improved Manufacturability** | arXiv 2026 | VLA/WAM/Physical AI serving / industrial agents / tool-using verification | [Link](https://arxiv.org/abs/2609.05559) | — |
+| **P1 · Watch** | **SharedSAE: One Feature Dictionary Across Language Models** | arXiv 2026 | efficient reasoning/agent systems / interpretability infrastructure / shared representation | [Link](https://arxiv.org/abs/2609.04344) | — |
 | **P1 · Watch** | **Compile by Training: Turning Natural-Language Specifications into Local Neural Functions** | arXiv 2026 | efficient reasoning/agent systems / local inference / distillation | [Link](https://arxiv.org/abs/2609.04199) | — |
 | **P1 · Watch** | **GIFT: Guided Intermediate Feature Training via Action-Oriented Structural Supervision for Robotic Manipulation** | arXiv 2026 | VLA/WAM/Physical AI / representation learning / action-oriented structure | [Link](https://arxiv.org/abs/2609.04193) | [Repo](https://openphoenix-team.github.io/GIFT/) |
 | **P1 · Watch** | **Beyond Retrieval: Progressive Latent Memory Evolution for Streaming Video Understanding** | arXiv 2026 | multimodal/MLLM serving / streaming video / bounded latent memory | [Link](https://arxiv.org/abs/2609.04131) | — |

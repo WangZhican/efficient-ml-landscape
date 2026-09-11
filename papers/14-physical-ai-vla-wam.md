@@ -1,10 +1,10 @@
 # 14 · VLA / WAM / Physical AI
 
-> **138 canonical papers** mapped here, plus a broader **175-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **138 canonical papers** mapped here, plus a broader **177-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 175 tracked
+## 🆕 Latest 30 Days · 177 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -16,6 +16,7 @@
 | **P1 · Watch** | **FolDeX: A Physical-World Benchmark for Long-Horizon Robotic Manipulation of Deformable Objects** | arXiv 2026 | VLA/WAM/Physical AI / long-horizon manipulation / deformable objects / real-robot benchmark | [Link](https://arxiv.org/abs/2609.10243) | [Repo](https://ai.midea.com) |
 | **P1 · Watch** | **RoboDrop: Curating VLA Post-Training Data via Local Gradient Compatibility** | arXiv 2026 | VLA/WAM/Physical AI serving / post-training data efficiency / data curation | [Link](https://arxiv.org/abs/2609.10021) | — |
 | **P0 · Strong** | **CLFTv2: Efficient Camera-LiDAR Fusion for Semantic Segmentation via Hierarchical Feature Pyramids** | arXiv 2026 | VLA/WAM/Physical AI / multimodal perception / efficient attention / edge inference | [Link](https://arxiv.org/abs/2609.09881) | — |
+| **P1 · Watch** | **RealSimLoop: Online Real-to-Sim Adaptation via Differentiable Reduced-Order Simulation with Vision Feedback** | arXiv 2026 | VLA/WAM/Physical AI serving / differentiable simulation / online adaptation | [Link](https://arxiv.org/abs/2609.09828) | — |
 | **P0 · Strong** | **InstantMimic: A High Performance System for Learning Physics-based Skills in Seconds** | arXiv 2026 | VLA/WAM/Physical AI / GPU systems / robotics training | [Link](https://arxiv.org/abs/2609.09821) | [Repo](https://scripter36.github.io/InstantMimic/) |
 | **P1 · Watch** | **GTA-2: A Multi-VLM Framework for Synthesizing Robot Manipulation Skills via Grounded Task Axes** | arXiv 2026 | VLA/WAM/Physical AI / multi-VLM skill synthesis / zero-shot manipulation / modular control | [Link](https://arxiv.org/abs/2609.09808) | [Repo](https://gta2-project.github.io/) |
 | **P0 · Strong** | **HiRAD: A Flexible Large-Scale AGV Routing System** | arXiv 2026 | VLA/WAM/Physical AI / real-time multi-agent routing / hierarchical RL / edge control | [Link](https://arxiv.org/abs/2609.09752) | — |
@@ -85,6 +86,7 @@
 | **P1 · Watch** | **A Schema Bounded Language Model for Refining Robot Policies Without Destabilizing Local Learning** | arXiv 2026 | VLA/WAM/Physical AI serving / hierarchical agent runtime / decentralized robot control | [Link](https://arxiv.org/abs/2609.05133) | — |
 | **P1 · Watch** | **Compact Bellman-Grounded Cognitive Maps for Cost-Aware Navigation** | arXiv 2026 | VLA/WAM/Physical AI / navigation memory / compact world representation / cost-aware planning | [Link](https://arxiv.org/abs/2609.05104) | — |
 | **P1 · Watch** | **Efficient Multi-Timescale Event Representations for Feed-Forward Object Detection** | arXiv 2026 | VLA/WAM/Physical AI / event perception / feed-forward detection / neuromorphic efficiency | [Link](https://arxiv.org/abs/2609.05049) | — |
+| **P1 · Watch** | **ARC-Loc: Leveraging Azimuthal Ray Convergence as a Geometric Cue for Direct Cross-View Localization** | arXiv 2026 | VLA/WAM/Physical AI serving / geometric localization / lightweight perception | [Link](https://arxiv.org/abs/2609.04965) | — |
 | **P0 · Strong** | **MINT: A Unified Model for World-Space Camera and Hand Motion Estimation from Scalable Egocentric Pipeline Supervision** | arXiv 2026 | VLA/WAM/Physical AI serving / egocentric perception / unified inference | [Link](https://arxiv.org/abs/2609.04958) | — |
 | **P1 · Watch** | **One Diffusion Model, Two Roles: Guided Trajectory Planning and Safety-Critical Scenario Generation in Closed-Loop Simulation** | arXiv 2026 | VLA/WAM/Physical AI / autonomous driving / diffusion planning / closed-loop simulation | [Link](https://arxiv.org/abs/2609.04921) | — |
 | **P1 · Watch** | **TourPhysics: Bringing Physics to World Models for Exploration and Manipulation from a Single Image** | arXiv 2026 | VLA/WAM/Physical AI serving / world models / physics-grounded generation | [Link](https://arxiv.org/abs/2609.04911) | — |

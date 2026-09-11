@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-11",
   "window_start_beijing": "2026-08-12",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 720,
+  "tracked_total": 725,
   "p0_strong_or_canonical": [
     {
       "title": "HybridFLow: SDN-Orchestrated Client Partitioning for Hybrid Federated Learning",
@@ -4348,6 +4348,27 @@
       ]
     },
     {
+      "title": "MetroLLM-Bench: Evaluating Language Models as Transit Kiosk Runtimes",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / compact agent runtime / PEFT",
+      "arxiv": "2609.10016",
+      "doi": "",
+      "official_id": "arXiv:2609.10016",
+      "paper_url": "https://arxiv.org/abs/2609.10016",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "MetroLLM-Bench shows a PEFT-trained Qwen 3.5 4B student with a 2.6 GB Q4_K_M footprint matching or exceeding much larger frontier models on deterministic kiosk-policy scoring, while larger 9B/27B students bring no Tier-1 gain. It is strong compact-agent deployment evidence, but the paper is primarily a benchmark and does not report end-to-end serving latency or cost.",
+      "published_at": "2026-09-09T10:46:56Z",
+      "updated_at": "2026-09-09T10:46:56Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "VLX-VR: An Agentic-Aware Video Reasoning Model",
       "venue": "arXiv 2026",
       "topic": "multimodal/MLLM serving / adaptive evidence acquisition / agent memory",
@@ -4367,6 +4388,27 @@
         "LLM Serving",
         "Multimodal / MLLM Serving",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "RealSimLoop: Online Real-to-Sim Adaptation via Differentiable Reduced-Order Simulation with Vision Feedback",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / differentiable simulation / online adaptation",
+      "arxiv": "2609.09828",
+      "doi": "",
+      "official_id": "arXiv:2609.09828",
+      "paper_url": "https://arxiv.org/abs/2609.09828",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "RealSimLoop runs differentiable simulation in a reduced-order neural subspace and couples it with differentiable rendering for online vision-feedback parameter adaptation, reporting quasi-real-time operation and downstream force/stress estimation. This is directly relevant to efficient Physical-AI world-model/runtime loops, but the abstract lacks a clean speedup ratio or latency number.",
+      "published_at": "2026-09-09T07:33:40Z",
+      "updated_at": "2026-09-09T07:33:40Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -7274,6 +7316,30 @@
       ]
     },
     {
+      "title": "MEOX: Compact Multimodal Mixture-of-Experts for Earth Observation",
+      "venue": "arXiv 2026",
+      "topic": "MoE systems/accelerators / compact multimodal MoE / parameter efficiency",
+      "arxiv": "2609.05351",
+      "doi": "",
+      "official_id": "arXiv:2609.05351",
+      "paper_url": "https://arxiv.org/abs/2609.05351",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "MEOX combines modality adapters, validity signals, sparse experts, low-rank residuals, and rotary attention in a 2.939M-parameter encoder while achieving strong frozen-transfer results. The workload is Earth observation, but the architecture is a useful compact multimodal-MoE efficiency datapoint; no direct serving latency or energy result is given.",
+      "published_at": "2026-09-04T16:59:36Z",
+      "updated_at": "2026-09-04T16:59:36Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Efficient Attention",
+        "MoE Systems / Accelerators",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
       "title": "RoboSPA: Can VLA Models Go Beyond Simple Scenes and Short-Horizon Tasks?",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / benchmark / long-horizon embodied reasoning",
@@ -7657,6 +7723,28 @@
         "LLM Serving",
         "Quantization",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "ARC-Loc: Leveraging Azimuthal Ray Convergence as a Geometric Cue for Direct Cross-View Localization",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / geometric localization / lightweight perception",
+      "arxiv": "2609.04965",
+      "doi": "",
+      "official_id": "arXiv:2609.04965",
+      "paper_url": "https://arxiv.org/abs/2609.04965",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "ARC-Loc removes computationally heavy BEV transforms and external depth-foundation-model dependencies by direct ground-to-satellite geometric matching, reporting faster and more memory-efficient inference while keeping competitive localization accuracy. It is relevant to edge Physical-AI perception, but the abstract omits concrete latency/memory ratios.",
+      "published_at": "2026-09-04T10:19:37Z",
+      "updated_at": "2026-09-04T10:19:37Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -8523,6 +8611,28 @@
         "Multimodal / MLLM Serving",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "SharedSAE: One Feature Dictionary Across Language Models",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / interpretability infrastructure / shared representation",
+      "arxiv": "2609.04344",
+      "doi": "",
+      "official_id": "arXiv:2609.04344",
+      "paper_url": "https://arxiv.org/abs/2609.04344",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "SharedSAE replaces separate per-model sparse-autoencoder dictionaries with one shared dictionary plus model-specific encoder-decoder pairs; it retains 96.6% of dedicated-SAE explained variance and allows efficient adaptation of new models while reusing labels. This materially reduces duplicated interpretability infrastructure, though it is not inference-serving acceleration.",
+      "published_at": "2026-09-03T18:09:41Z",
+      "updated_at": "2026-09-03T18:09:41Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -19925,6 +20035,27 @@
       ]
     },
     {
+      "title": "MetroLLM-Bench: Evaluating Language Models as Transit Kiosk Runtimes",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / compact agent runtime / PEFT",
+      "arxiv": "2609.10016",
+      "doi": "",
+      "official_id": "arXiv:2609.10016",
+      "paper_url": "https://arxiv.org/abs/2609.10016",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "MetroLLM-Bench shows a PEFT-trained Qwen 3.5 4B student with a 2.6 GB Q4_K_M footprint matching or exceeding much larger frontier models on deterministic kiosk-policy scoring, while larger 9B/27B students bring no Tier-1 gain. It is strong compact-agent deployment evidence, but the paper is primarily a benchmark and does not report end-to-end serving latency or cost.",
+      "published_at": "2026-09-09T10:46:56Z",
+      "updated_at": "2026-09-09T10:46:56Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "VLX-VR: An Agentic-Aware Video Reasoning Model",
       "venue": "arXiv 2026",
       "topic": "multimodal/MLLM serving / adaptive evidence acquisition / agent memory",
@@ -19944,6 +20075,27 @@
         "LLM Serving",
         "Multimodal / MLLM Serving",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "RealSimLoop: Online Real-to-Sim Adaptation via Differentiable Reduced-Order Simulation with Vision Feedback",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / differentiable simulation / online adaptation",
+      "arxiv": "2609.09828",
+      "doi": "",
+      "official_id": "arXiv:2609.09828",
+      "paper_url": "https://arxiv.org/abs/2609.09828",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "RealSimLoop runs differentiable simulation in a reduced-order neural subspace and couples it with differentiable rendering for online vision-feedback parameter adaptation, reporting quasi-real-time operation and downstream force/stress estimation. This is directly relevant to efficient Physical-AI world-model/runtime loops, but the abstract lacks a clean speedup ratio or latency number.",
+      "published_at": "2026-09-09T07:33:40Z",
+      "updated_at": "2026-09-09T07:33:40Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -22851,6 +23003,30 @@
       ]
     },
     {
+      "title": "MEOX: Compact Multimodal Mixture-of-Experts for Earth Observation",
+      "venue": "arXiv 2026",
+      "topic": "MoE systems/accelerators / compact multimodal MoE / parameter efficiency",
+      "arxiv": "2609.05351",
+      "doi": "",
+      "official_id": "arXiv:2609.05351",
+      "paper_url": "https://arxiv.org/abs/2609.05351",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "MEOX combines modality adapters, validity signals, sparse experts, low-rank residuals, and rotary attention in a 2.939M-parameter encoder while achieving strong frozen-transfer results. The workload is Earth observation, but the architecture is a useful compact multimodal-MoE efficiency datapoint; no direct serving latency or energy result is given.",
+      "published_at": "2026-09-04T16:59:36Z",
+      "updated_at": "2026-09-04T16:59:36Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Efficient Attention",
+        "MoE Systems / Accelerators",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
       "title": "RoboSPA: Can VLA Models Go Beyond Simple Scenes and Short-Horizon Tasks?",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / benchmark / long-horizon embodied reasoning",
@@ -23234,6 +23410,28 @@
         "LLM Serving",
         "Quantization",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "ARC-Loc: Leveraging Azimuthal Ray Convergence as a Geometric Cue for Direct Cross-View Localization",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / geometric localization / lightweight perception",
+      "arxiv": "2609.04965",
+      "doi": "",
+      "official_id": "arXiv:2609.04965",
+      "paper_url": "https://arxiv.org/abs/2609.04965",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "ARC-Loc removes computationally heavy BEV transforms and external depth-foundation-model dependencies by direct ground-to-satellite geometric matching, reporting faster and more memory-efficient inference while keeping competitive localization accuracy. It is relevant to edge Physical-AI perception, but the abstract omits concrete latency/memory ratios.",
+      "published_at": "2026-09-04T10:19:37Z",
+      "updated_at": "2026-09-04T10:19:37Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -24100,6 +24298,28 @@
         "Multimodal / MLLM Serving",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "SharedSAE: One Feature Dictionary Across Language Models",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / interpretability infrastructure / shared representation",
+      "arxiv": "2609.04344",
+      "doi": "",
+      "official_id": "arXiv:2609.04344",
+      "paper_url": "https://arxiv.org/abs/2609.04344",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "SharedSAE replaces separate per-model sparse-autoencoder dictionaries with one shared dictionary plus model-specific encoder-decoder pairs; it retains 96.6% of dedicated-SAE explained variance and allows efficient adaptation of new models while reusing labels. This materially reduces duplicated interpretability infrastructure, though it is not inference-serving acceleration.",
+      "published_at": "2026-09-03T18:09:41Z",
+      "updated_at": "2026-09-03T18:09:41Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
