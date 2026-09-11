@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-11",
   "window_start_beijing": "2026-08-12",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 716,
+  "tracked_total": 720,
   "p0_strong_or_canonical": [
     {
       "title": "HybridFLow: SDN-Orchestrated Client Partitioning for Hybrid Federated Learning",
@@ -4652,6 +4652,27 @@
       ]
     },
     {
+      "title": "Improving 5G AI-RAN MCS Selection by Predicting Retransmissions",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / AI-RAN / low-latency inference",
+      "arxiv": "2609.09324",
+      "doi": "",
+      "official_id": "arXiv:2609.09324",
+      "paper_url": "https://arxiv.org/abs/2609.09324",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "NOSTRAdAMUS deploys a predictive link-adaptation dApp with 5.5 microsecond inference latency and reports up to 71.5% goodput improvement and 71.8% retransmission reduction on real and hardware-in-the-loop 5G setups. It is strong edge-runtime evidence, though the workload is network control rather than AI-model serving itself.",
+      "published_at": "2026-09-08T18:10:30Z",
+      "updated_at": "2026-09-08T18:10:30Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Procedural Graphs: Self-Evolving Execution Structures for LLM Agents",
       "venue": "arXiv 2026",
       "topic": "efficient reasoning/agent systems / procedural memory / long-horizon tool use",
@@ -6927,6 +6948,26 @@
       ]
     },
     {
+      "title": "MOAE: Multi-Objective Agent Evolution with Pareto-Preserving Search",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / rollout-budget optimization / Pareto search",
+      "arxiv": "2609.05992",
+      "doi": "",
+      "official_id": "arXiv:2609.05992",
+      "paper_url": "https://arxiv.org/abs/2609.05992",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "MOAE performs parameter-free in-context agent evolution while preserving non-dominated rollouts under a limited rollout budget, explicitly including efficiency among deployment objectives. It is relevant to cost-aware agent construction, but the abstract lacks direct token/API/latency savings.",
+      "published_at": "2026-09-05T09:31:34Z",
+      "updated_at": "2026-09-05T09:31:34Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "A Brain-inspired Hierarchical Framework for Zero-Shot Robot Task Reasoning and Execution",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / hierarchical robot reasoning / closed-loop execution",
@@ -6989,6 +7030,28 @@
       "directions": [
         "Sparsity / Pruning",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "PAI-Actor: Cinematic Multi-Character Replacement in Dynamic Scenes",
+      "venue": "arXiv 2026",
+      "topic": "video/image generation acceleration / autoregressive distillation / long-form generation",
+      "arxiv": "2609.05918",
+      "doi": "",
+      "official_id": "arXiv:2609.05918",
+      "paper_url": "https://arxiv.org/abs/2609.05918",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "PAI-Actor distills a high-quality bidirectional diffusion transformer into an autoregressive video-to-video model for more efficient long-form 1080P generation. The systems direction is directly relevant, but the abstract does not provide concrete latency, throughput, or FLOP reductions.",
+      "published_at": "2026-09-05T06:27:27Z",
+      "updated_at": "2026-09-05T06:27:27Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation",
+        "Diffusion / Flow Acceleration"
       ]
     },
     {
@@ -7163,6 +7226,28 @@
       "is_latest_30d": true,
       "directions": [
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "What Matters, When? Diagnosing and Improving Conditional Visual Grounding in Visuomotor Imitation Policies",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / visuomotor grounding / robustness",
+      "arxiv": "2609.05376",
+      "doi": "",
+      "official_id": "arXiv:2609.05376",
+      "paper_url": "https://arxiv.org/abs/2609.05376",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Systematically localizes distractor failures to phase-conditional target selection in ACT and a pretrained VLA policy, then tests augmentation, attention regularization and visual prompting on simulation and a physical UR3e. It is useful Physical-AI runtime/robustness lineage, but does not report inference speed or compute reduction.",
+      "published_at": "2026-09-04T17:27:35Z",
+      "updated_at": "2026-09-04T17:27:35Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Attention",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -20144,6 +20229,27 @@
       ]
     },
     {
+      "title": "Improving 5G AI-RAN MCS Selection by Predicting Retransmissions",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / AI-RAN / low-latency inference",
+      "arxiv": "2609.09324",
+      "doi": "",
+      "official_id": "arXiv:2609.09324",
+      "paper_url": "https://arxiv.org/abs/2609.09324",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "NOSTRAdAMUS deploys a predictive link-adaptation dApp with 5.5 microsecond inference latency and reports up to 71.5% goodput improvement and 71.8% retransmission reduction on real and hardware-in-the-loop 5G setups. It is strong edge-runtime evidence, though the workload is network control rather than AI-model serving itself.",
+      "published_at": "2026-09-08T18:10:30Z",
+      "updated_at": "2026-09-08T18:10:30Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Procedural Graphs: Self-Evolving Execution Structures for LLM Agents",
       "venue": "arXiv 2026",
       "topic": "efficient reasoning/agent systems / procedural memory / long-horizon tool use",
@@ -22419,6 +22525,26 @@
       ]
     },
     {
+      "title": "MOAE: Multi-Objective Agent Evolution with Pareto-Preserving Search",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / rollout-budget optimization / Pareto search",
+      "arxiv": "2609.05992",
+      "doi": "",
+      "official_id": "arXiv:2609.05992",
+      "paper_url": "https://arxiv.org/abs/2609.05992",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "MOAE performs parameter-free in-context agent evolution while preserving non-dominated rollouts under a limited rollout budget, explicitly including efficiency among deployment objectives. It is relevant to cost-aware agent construction, but the abstract lacks direct token/API/latency savings.",
+      "published_at": "2026-09-05T09:31:34Z",
+      "updated_at": "2026-09-05T09:31:34Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "A Brain-inspired Hierarchical Framework for Zero-Shot Robot Task Reasoning and Execution",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / hierarchical robot reasoning / closed-loop execution",
@@ -22481,6 +22607,28 @@
       "directions": [
         "Sparsity / Pruning",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "PAI-Actor: Cinematic Multi-Character Replacement in Dynamic Scenes",
+      "venue": "arXiv 2026",
+      "topic": "video/image generation acceleration / autoregressive distillation / long-form generation",
+      "arxiv": "2609.05918",
+      "doi": "",
+      "official_id": "arXiv:2609.05918",
+      "paper_url": "https://arxiv.org/abs/2609.05918",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "PAI-Actor distills a high-quality bidirectional diffusion transformer into an autoregressive video-to-video model for more efficient long-form 1080P generation. The systems direction is directly relevant, but the abstract does not provide concrete latency, throughput, or FLOP reductions.",
+      "published_at": "2026-09-05T06:27:27Z",
+      "updated_at": "2026-09-05T06:27:27Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation",
+        "Diffusion / Flow Acceleration"
       ]
     },
     {
@@ -22655,6 +22803,28 @@
       "is_latest_30d": true,
       "directions": [
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "What Matters, When? Diagnosing and Improving Conditional Visual Grounding in Visuomotor Imitation Policies",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / visuomotor grounding / robustness",
+      "arxiv": "2609.05376",
+      "doi": "",
+      "official_id": "arXiv:2609.05376",
+      "paper_url": "https://arxiv.org/abs/2609.05376",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Systematically localizes distractor failures to phase-conditional target selection in ACT and a pretrained VLA policy, then tests augmentation, attention regularization and visual prompting on simulation and a physical UR3e. It is useful Physical-AI runtime/robustness lineage, but does not report inference speed or compute reduction.",
+      "published_at": "2026-09-04T17:27:35Z",
+      "updated_at": "2026-09-04T17:27:35Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Attention",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
