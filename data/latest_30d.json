@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-11",
   "window_start_beijing": "2026-08-12",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 752,
+  "tracked_total": 757,
   "p0_strong_or_canonical": [
     {
       "title": "HybridFLow: SDN-Orchestrated Client Partitioning for Hybrid Federated Learning",
@@ -4413,6 +4413,28 @@
       ]
     },
     {
+      "title": "AXON: A ROS 2 RMW with Shared-Memory/QUIC Transport and QKD/ML-KEM Key Establishment",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / robotics middleware / edge-cloud transport",
+      "arxiv": "2609.10024",
+      "doi": "",
+      "official_id": "arXiv:2609.10024",
+      "paper_url": "https://arxiv.org/abs/2609.10024",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "AXON replaces DDS-backed ROS 2 middleware with scope-aware transports: POSIX shared-memory rings on-host and QUIC remotely, plus explicit key-establishment modes. This is protected Physical-AI runtime/infra evidence; the current paper deliberately limits claims and does not yet provide comparative performance numbers.",
+      "published_at": "2026-09-09T10:57:13Z",
+      "updated_at": "2026-09-09T10:57:13Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "RoboDrop: Curating VLA Post-Training Data via Local Gradient Compatibility",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / post-training data efficiency / data curation",
@@ -4494,6 +4516,26 @@
       "directions": [
         "LLM Serving",
         "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Can AI Agents Detect and Repair Artifact Drift in Network Experiments?",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / agent runtimes / benchmark",
+      "arxiv": "2609.09849",
+      "doi": "",
+      "official_id": "arXiv:2609.09849",
+      "paper_url": "https://arxiv.org/abs/2609.09849",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "NetArtifactBench evaluates 23 agent configurations across three general-purpose AI-agent runtimes with deterministic scoring over 5,980 outputs. It is not an acceleration paper, but it is a useful systems benchmark for comparing runtime behavior and failure modes in multi-artifact workflows.",
+      "published_at": "2026-09-09T07:58:24Z",
+      "updated_at": "2026-09-09T07:58:24Z",
+      "is_latest_30d": true,
+      "directions": [
         "Efficient Reasoning / Agents"
       ]
     },
@@ -6152,6 +6194,27 @@
       ]
     },
     {
+      "title": "Heat Kernel Textures: the Geodesic Gaussians That Do Not Splat",
+      "venue": "arXiv 2026",
+      "topic": "video/image generation acceleration / 3D representation / memory efficiency",
+      "arxiv": "2609.07557",
+      "doi": "",
+      "official_id": "arXiv:2609.07557",
+      "paper_url": "https://arxiv.org/abs/2609.07557",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Heat Kernel Textures replace UV texture maps with intrinsic anisotropic heat kernels on mesh surfaces, explicitly targeting substantially lower texture-memory footprint while removing UV seams, distortion and wasted space. This is useful representation-efficiency lineage adjacent to Gaussian/3D rendering, but the abstract does not provide a single end-to-end rendering speedup.",
+      "published_at": "2026-09-07T14:39:55Z",
+      "updated_at": "2026-09-07T14:39:55Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Video / Image Generation"
+      ]
+    },
+    {
       "title": "Anti-Gravity Walking by a Flying Humanoid Robot via Thrust-Rate Input Whole-Body Model Predictive Control",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / robot control / real-time MPC / humanoid",
@@ -6813,6 +6876,27 @@
       "is_latest_30d": true,
       "directions": [
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Data Efficient Sample Selection for In-Context Learning",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / in-context learning / sample selection",
+      "arxiv": "2609.06670",
+      "doi": "",
+      "official_id": "arXiv:2609.06670",
+      "paper_url": "https://arxiv.org/abs/2609.06670",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "DearICL models demonstration selection as subset ranking and reports 8.08-15.9% accuracy gains over linear-bandit baselines with low sample complexity. It is relevant to efficient prompt/demo selection, although the abstract does not quantify prompt-token or wall-clock savings.",
+      "published_at": "2026-09-06T15:23:37Z",
+      "updated_at": "2026-09-06T15:23:37Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -9241,6 +9325,26 @@
       "is_latest_30d": true,
       "directions": [
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Iris: Climbing to the Search Frontier",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / search agents / context management",
+      "arxiv": "2609.04304",
+      "doi": "",
+      "official_id": "arXiv:2609.04304",
+      "paper_url": "https://arxiv.org/abs/2609.04304",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Iris trains search agents with SFT-RL climbing and explicitly returns the hardest solved and most efficient rollouts to the next supervised stage. The evaluation isolates inference-time context management because it matters more than many reported system differences, making this strong agent-runtime lineage even though the abstract does not give a clean latency or token-reduction ratio.",
+      "published_at": "2026-09-03T17:51:01Z",
+      "updated_at": "2026-09-03T17:51:01Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -20668,6 +20772,28 @@
       ]
     },
     {
+      "title": "AXON: A ROS 2 RMW with Shared-Memory/QUIC Transport and QKD/ML-KEM Key Establishment",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / robotics middleware / edge-cloud transport",
+      "arxiv": "2609.10024",
+      "doi": "",
+      "official_id": "arXiv:2609.10024",
+      "paper_url": "https://arxiv.org/abs/2609.10024",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "AXON replaces DDS-backed ROS 2 middleware with scope-aware transports: POSIX shared-memory rings on-host and QUIC remotely, plus explicit key-establishment modes. This is protected Physical-AI runtime/infra evidence; the current paper deliberately limits claims and does not yet provide comparative performance numbers.",
+      "published_at": "2026-09-09T10:57:13Z",
+      "updated_at": "2026-09-09T10:57:13Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "RoboDrop: Curating VLA Post-Training Data via Local Gradient Compatibility",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / post-training data efficiency / data curation",
@@ -20749,6 +20875,26 @@
       "directions": [
         "LLM Serving",
         "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Can AI Agents Detect and Repair Artifact Drift in Network Experiments?",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / agent runtimes / benchmark",
+      "arxiv": "2609.09849",
+      "doi": "",
+      "official_id": "arXiv:2609.09849",
+      "paper_url": "https://arxiv.org/abs/2609.09849",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "NetArtifactBench evaluates 23 agent configurations across three general-purpose AI-agent runtimes with deterministic scoring over 5,980 outputs. It is not an acceleration paper, but it is a useful systems benchmark for comparing runtime behavior and failure modes in multi-artifact workflows.",
+      "published_at": "2026-09-09T07:58:24Z",
+      "updated_at": "2026-09-09T07:58:24Z",
+      "is_latest_30d": true,
+      "directions": [
         "Efficient Reasoning / Agents"
       ]
     },
@@ -22407,6 +22553,27 @@
       ]
     },
     {
+      "title": "Heat Kernel Textures: the Geodesic Gaussians That Do Not Splat",
+      "venue": "arXiv 2026",
+      "topic": "video/image generation acceleration / 3D representation / memory efficiency",
+      "arxiv": "2609.07557",
+      "doi": "",
+      "official_id": "arXiv:2609.07557",
+      "paper_url": "https://arxiv.org/abs/2609.07557",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Heat Kernel Textures replace UV texture maps with intrinsic anisotropic heat kernels on mesh surfaces, explicitly targeting substantially lower texture-memory footprint while removing UV seams, distortion and wasted space. This is useful representation-efficiency lineage adjacent to Gaussian/3D rendering, but the abstract does not provide a single end-to-end rendering speedup.",
+      "published_at": "2026-09-07T14:39:55Z",
+      "updated_at": "2026-09-07T14:39:55Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Video / Image Generation"
+      ]
+    },
+    {
       "title": "Anti-Gravity Walking by a Flying Humanoid Robot via Thrust-Rate Input Whole-Body Model Predictive Control",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / robot control / real-time MPC / humanoid",
@@ -23068,6 +23235,27 @@
       "is_latest_30d": true,
       "directions": [
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Data Efficient Sample Selection for In-Context Learning",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / in-context learning / sample selection",
+      "arxiv": "2609.06670",
+      "doi": "",
+      "official_id": "arXiv:2609.06670",
+      "paper_url": "https://arxiv.org/abs/2609.06670",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "DearICL models demonstration selection as subset ranking and reports 8.08-15.9% accuracy gains over linear-bandit baselines with low sample complexity. It is relevant to efficient prompt/demo selection, although the abstract does not quantify prompt-token or wall-clock savings.",
+      "published_at": "2026-09-06T15:23:37Z",
+      "updated_at": "2026-09-06T15:23:37Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -25496,6 +25684,26 @@
       "is_latest_30d": true,
       "directions": [
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Iris: Climbing to the Search Frontier",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / search agents / context management",
+      "arxiv": "2609.04304",
+      "doi": "",
+      "official_id": "arXiv:2609.04304",
+      "paper_url": "https://arxiv.org/abs/2609.04304",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Iris trains search agents with SFT-RL climbing and explicitly returns the hardest solved and most efficient rollouts to the next supervised stage. The evaluation isolates inference-time context management because it matters more than many reported system differences, making this strong agent-runtime lineage even though the abstract does not give a clean latency or token-reduction ratio.",
+      "published_at": "2026-09-03T17:51:01Z",
+      "updated_at": "2026-09-03T17:51:01Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
       ]
     },
     {
