@@ -1,6 +1,6 @@
 # 🆕 Latest 30 Days
 
-> Rolling 30-day view ending **2026-09-11**: **797 tracked papers = 186 P0 + 492 P1 + 119 P2**. Topical relevance determines visibility; quality determines priority. The classical census remains stricter.
+> Rolling 30-day view ending **2026-09-11**: **800 tracked papers = 186 P0 + 495 P1 + 119 P2**. Topical relevance determines visibility; quality determines priority. The classical census remains stricter.
 
 [← Paper Library](ALL_PAPERS.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/latest_30d.json) · [CSV](../data/latest_30d.csv)
 
@@ -239,6 +239,7 @@
 | **P1 · Watch** | **Benchmarking Agentic HLS Design Tasks With HLS-Eval** | arXiv 2026 | GPU kernel/DSL/compilers / hardware design automation / agent cost profiling | [Link](https://arxiv.org/abs/2609.09526) | — |
 | **P1 · Watch** | **HLSFactory-Agent: Large-Scale Agentic HLS Dataset Construction from Academic and Open-Source Projects** | arXiv 2026 | GPU kernel/DSL/compilers / hardware design agents / HLS infrastructure | [Link](https://arxiv.org/abs/2609.09519) | — |
 | **P1 · Watch** | **Agentic AI-enabled Semantic Commissioning of a Cognitive Digital Twin for Reconfigurable Manufacturing** | arXiv 2026 | VLA/WAM/Physical AI serving / industrial agents / runtime orchestration | [Link](https://arxiv.org/abs/2609.09503) | — |
+| **P1 · Watch** | **Efficient Fairness Auditing Across Guidance Scales in Text-to-Image Diffusion Models via Causal Abstraction** | arXiv 2026 | diffusion/flow acceleration / amortized evaluation / text-to-image | [Link](https://arxiv.org/abs/2609.09486) | — |
 | **P1 · Watch** | **From Fixed Keys to Readable Schemas: Small Language Models for Vehicle Agent Function Calls** | arXiv 2026 | VLA/WAM/Physical AI / edge agents / on-device SLM / function calling | [Link](https://arxiv.org/abs/2609.09476) | — |
 | **P1 · Watch** | **OmniEye: Efficient Multimodal Forensic Video Intelligence for Law-Enforcement Body-Worn Cameras** | arXiv 2026 | multimodal/MLLM serving / edge deployment / quantization | [Link](https://arxiv.org/abs/2609.09460) | — |
 | **P1 · Watch** | **Do Agents Know When They Succeed? Calibrating Agent Confidence from Internal Representations** | arXiv 2026 | efficient reasoning/agent systems / runtime reliability / confidence monitoring | [Link](https://arxiv.org/abs/2609.09448) | — |
@@ -331,6 +332,7 @@
 | **P1 · Watch** | **Beyond Fluent Generation: A CPU Reliability Benchmark for MCP-Style Tool Calling in Sub-2B Small Language Models for Edge Deployment** | arXiv 2026 | edge/cloud/heterogeneous AI systems / tool-using SLMs / CPU inference / reliability-resource tradeoff | [Link](https://arxiv.org/abs/2609.07370) | — |
 | **P1 · Watch** | **EnvPilot: Systematic Design and Evaluation of an Experience-Augmented Agent for Software Environment Setup** | arXiv 2026 | efficient reasoning/agent systems / software engineering agents / trajectory memory / experience reuse | [Link](https://arxiv.org/abs/2609.07357) | — |
 | **P1 · Watch** | **RouteRelay: Event-Triggered Cross-Layer Route Reuse for Efficient Dynamic Sparse Attention** | arXiv 2026 | efficient attention / sparse attention / route reuse / GPU kernels | [Link](https://arxiv.org/abs/2609.07306) | — |
+| **P1 · Watch** | **World Models Under Asynchronous Sensor Observations** | arXiv 2026 | VLA/WAM/Physical AI serving / world models / asynchronous sensing | [Link](https://arxiv.org/abs/2609.07299) | — |
 | **P1 · Watch** | **Separating Stream Stability from Long-Term Recall in Language Models** | arXiv 2026 | KV cache/long-context / streaming LLM / constant-memory evaluation | [Link](https://arxiv.org/abs/2609.07282) | — |
 | **P1 · Watch** | **Matryoshka Hash Representations for Model-Aware Compact Semantic Retrieval** | arXiv 2026 | KV cache/long-context / RAG retrieval / compact index | [Link](https://arxiv.org/abs/2609.07276) | — |
 | **P1 · Watch** | **Mathematical Modeling of a Cognitive Continuum Digital Shadow for Large-Scale, Cross-Facility Workflows** | arXiv 2026 | edge/cloud/heterogeneous AI systems / cross-facility scheduling / cost-energy optimization | [Link](https://arxiv.org/abs/2609.07275) | — |
@@ -389,6 +391,7 @@
 | **P1 · Watch** | **GLoRI: Closed-Loop Whole-Body Tracking with Global-Local Reference Interaction for Humanoid Loco-Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving / humanoid control / closed-loop runtime | [Link](https://arxiv.org/abs/2609.05994) | — |
 | **P1 · Watch** | **MOAE: Multi-Objective Agent Evolution with Pareto-Preserving Search** | arXiv 2026 | efficient reasoning/agent systems / rollout-budget optimization / Pareto search | [Link](https://arxiv.org/abs/2609.05992) | — |
 | **P1 · Watch** | **A Brain-inspired Hierarchical Framework for Zero-Shot Robot Task Reasoning and Execution** | arXiv 2026 | VLA/WAM/Physical AI serving / hierarchical robot reasoning / closed-loop execution | [Link](https://arxiv.org/abs/2609.05985) | — |
+| **P1 · Watch** | **Efficient and Robust Camera-independent Multiview 3D Geometric Reconstruction from Noisy Monocular Depth Estimation and Multiple Point Matching** | arXiv 2026 | VLA/WAM/Physical AI serving / efficient 3D perception / camera-independent reconstruction | [Link](https://arxiv.org/abs/2609.05972) | — |
 | **P1 · Watch** | **LoGIC: Budgeted Context Construction for Node-Level Graph In-Context Learning with Tabular Foundation Models** | arXiv 2026 | LLM serving / efficient attention / context budgeting / graph in-context learning | [Link](https://arxiv.org/abs/2609.05955) | — |
 | **P1 · Watch** | **Rethinking the Evaluation of Efficiency Methods for Multi-Agent Systems** | arXiv 2026 | efficient reasoning/agent systems / multi-agent efficiency / evaluation methodology | [Link](https://arxiv.org/abs/2609.05933) | — |
 | **P1 · Watch** | **PAI-Actor: Cinematic Multi-Character Replacement in Dynamic Scenes** | arXiv 2026 | video/image generation acceleration / autoregressive distillation / long-form generation | [Link](https://arxiv.org/abs/2609.05918) | — |

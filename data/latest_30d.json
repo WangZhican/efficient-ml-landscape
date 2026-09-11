@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-11",
   "window_start_beijing": "2026-08-12",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 797,
+  "tracked_total": 800,
   "p0_strong_or_canonical": [
     {
       "title": "HybridFLow: SDN-Orchestrated Client Partitioning for Hybrid Federated Learning",
@@ -4860,6 +4860,26 @@
       ]
     },
     {
+      "title": "Efficient Fairness Auditing Across Guidance Scales in Text-to-Image Diffusion Models via Causal Abstraction",
+      "venue": "arXiv 2026",
+      "topic": "diffusion/flow acceleration / amortized evaluation / text-to-image",
+      "arxiv": "2609.09486",
+      "doi": "",
+      "official_id": "arXiv:2609.09486",
+      "paper_url": "https://arxiv.org/abs/2609.09486",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Replaces repeated exhaustive generation across classifier-free-guidance settings with a causal abstraction and probabilistic-transformer predictor over abstract denoising states. The paper explicitly evaluates computational efficiency, making it relevant as amortized diffusion-evaluation lineage, but the abstract reports no numerical speedup.",
+      "published_at": "2026-09-08T22:05:06Z",
+      "updated_at": "2026-09-08T22:05:06Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
       "title": "From Fixed Keys to Readable Schemas: Small Language Models for Vehicle Agent Function Calls",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI / edge agents / on-device SLM / function calling",
@@ -6825,6 +6845,28 @@
       ]
     },
     {
+      "title": "World Models Under Asynchronous Sensor Observations",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / world models / asynchronous sensing",
+      "arxiv": "2609.07299",
+      "doi": "",
+      "official_id": "arXiv:2609.07299",
+      "paper_url": "https://arxiv.org/abs/2609.07299",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Directly studies transformer world models when physical sensor channels arrive at heterogeneous rates. Staleness and time-to-refresh features avoid fabricating interpolated observations or discarding faster sensors, with evaluation in locomotion, MPC and a latched-actuator system. Protected Physical-AI/world-model systems lineage; no direct compute-speedup claim.",
+      "published_at": "2026-09-07T10:17:17Z",
+      "updated_at": "2026-09-07T10:17:17Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Separating Stream Stability from Long-Term Recall in Language Models",
       "venue": "arXiv 2026",
       "topic": "KV cache/long-context / streaming LLM / constant-memory evaluation",
@@ -8056,6 +8098,27 @@
       "directions": [
         "LLM Serving",
         "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Efficient and Robust Camera-independent Multiview 3D Geometric Reconstruction from Noisy Monocular Depth Estimation and Multiple Point Matching",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / efficient 3D perception / camera-independent reconstruction",
+      "arxiv": "2609.05972",
+      "doi": "",
+      "official_id": "arXiv:2609.05972",
+      "paper_url": "https://arxiv.org/abs/2609.05972",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Uses a camera-independent linear geometric autoregression matrix learned from multi-frame point correspondences; can exploit fast-but-noisy monocular depth and avoids camera-pose recovery. Useful lightweight 3D-perception lineage, but the abstract gives no end-to-end latency or FLOP reduction.",
+      "published_at": "2026-09-05T08:20:53Z",
+      "updated_at": "2026-09-05T08:20:53Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
         "VLA / WAM / Physical AI"
       ]
     },
@@ -22060,6 +22123,26 @@
       ]
     },
     {
+      "title": "Efficient Fairness Auditing Across Guidance Scales in Text-to-Image Diffusion Models via Causal Abstraction",
+      "venue": "arXiv 2026",
+      "topic": "diffusion/flow acceleration / amortized evaluation / text-to-image",
+      "arxiv": "2609.09486",
+      "doi": "",
+      "official_id": "arXiv:2609.09486",
+      "paper_url": "https://arxiv.org/abs/2609.09486",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Replaces repeated exhaustive generation across classifier-free-guidance settings with a causal abstraction and probabilistic-transformer predictor over abstract denoising states. The paper explicitly evaluates computational efficiency, making it relevant as amortized diffusion-evaluation lineage, but the abstract reports no numerical speedup.",
+      "published_at": "2026-09-08T22:05:06Z",
+      "updated_at": "2026-09-08T22:05:06Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
       "title": "From Fixed Keys to Readable Schemas: Small Language Models for Vehicle Agent Function Calls",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI / edge agents / on-device SLM / function calling",
@@ -24025,6 +24108,28 @@
       ]
     },
     {
+      "title": "World Models Under Asynchronous Sensor Observations",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / world models / asynchronous sensing",
+      "arxiv": "2609.07299",
+      "doi": "",
+      "official_id": "arXiv:2609.07299",
+      "paper_url": "https://arxiv.org/abs/2609.07299",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Directly studies transformer world models when physical sensor channels arrive at heterogeneous rates. Staleness and time-to-refresh features avoid fabricating interpolated observations or discarding faster sensors, with evaluation in locomotion, MPC and a latched-actuator system. Protected Physical-AI/world-model systems lineage; no direct compute-speedup claim.",
+      "published_at": "2026-09-07T10:17:17Z",
+      "updated_at": "2026-09-07T10:17:17Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Separating Stream Stability from Long-Term Recall in Language Models",
       "venue": "arXiv 2026",
       "topic": "KV cache/long-context / streaming LLM / constant-memory evaluation",
@@ -25256,6 +25361,27 @@
       "directions": [
         "LLM Serving",
         "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Efficient and Robust Camera-independent Multiview 3D Geometric Reconstruction from Noisy Monocular Depth Estimation and Multiple Point Matching",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / efficient 3D perception / camera-independent reconstruction",
+      "arxiv": "2609.05972",
+      "doi": "",
+      "official_id": "arXiv:2609.05972",
+      "paper_url": "https://arxiv.org/abs/2609.05972",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Uses a camera-independent linear geometric autoregression matrix learned from multi-frame point correspondences; can exploit fast-but-noisy monocular depth and avoids camera-pose recovery. Useful lightweight 3D-perception lineage, but the abstract gives no end-to-end latency or FLOP reduction.",
+      "published_at": "2026-09-05T08:20:53Z",
+      "updated_at": "2026-09-05T08:20:53Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
         "VLA / WAM / Physical AI"
       ]
     },
