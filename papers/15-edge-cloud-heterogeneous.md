@@ -1,10 +1,10 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **389 canonical papers** mapped here, plus a broader **225-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **389 canonical papers** mapped here, plus a broader **226-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 225 tracked
+## 🆕 Latest 30 Days · 226 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -35,6 +35,7 @@
 | **P1 · Watch** | **Encrypt What Matters: When Selective Homomorphic Inference Is Efficient** | arXiv 2026 | edge/cloud/heterogeneous AI systems / privacy-preserving inference / selective FHE | [Link](https://arxiv.org/abs/2609.09357) | — |
 | **P1 · Watch** | **Improving 5G AI-RAN MCS Selection by Predicting Retransmissions** | arXiv 2026 | edge/cloud/heterogeneous AI systems / AI-RAN / low-latency inference | [Link](https://arxiv.org/abs/2609.09324) | — |
 | **P1 · Watch** | **Procedural Graphs: Self-Evolving Execution Structures for LLM Agents** | arXiv 2026 | efficient reasoning/agent systems / procedural memory / long-horizon tool use | [Link](https://arxiv.org/abs/2609.09153) | — |
+| **P1 · Watch** | **OTTER - Two Transistor - One RRAM Architecture for Reliable In-Memory-Computing in 28 nm CMOS Technology** | arXiv 2026 | edge/cloud/heterogeneous AI systems / compute-in-memory / RRAM accelerator | [Link](https://arxiv.org/abs/2609.08898) | — |
 | **P1 · Watch** | **DiffLUT-Net: Differentiable Training of FPGA LUT Networks with Learnable Connectivity** | arXiv 2026 | edge/cloud/heterogeneous AI / FPGA / hardware-native networks | [Link](https://arxiv.org/abs/2609.09254) | — |
 | **P1 · Watch** | **Exploring the Genesis Platform Capabilities to Accelerate Scientific Discovery in OPAL** | arXiv 2026 | edge/cloud/heterogeneous AI systems / cross-facility orchestration / managed AI services | [Link](https://arxiv.org/abs/2609.08844) | — |
 | **P1 · Watch** | **ArmPoser: Real-Time, Calibration-Free Arm Pose Estimation from Smartwatch IMU** | arXiv 2026 | VLA/WAM/Physical AI serving / edge sensing / real-time pose estimation | [Link](https://arxiv.org/abs/2609.08806) | — |

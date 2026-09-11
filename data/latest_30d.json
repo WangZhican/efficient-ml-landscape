@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-11",
   "window_start_beijing": "2026-08-12",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 810,
+  "tracked_total": 816,
   "p0_strong_or_canonical": [
     {
       "title": "HybridFLow: SDN-Orchestrated Client Partitioning for Hybrid Federated Learning",
@@ -4881,6 +4881,27 @@
       ]
     },
     {
+      "title": "Actuator Dynamics Curricula for Narrow-Viability Tasks in Legged Robot Learning",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / robot policy training / curriculum efficiency",
+      "arxiv": "2609.09492",
+      "doi": "",
+      "official_id": "arXiv:2609.09492",
+      "paper_url": "https://arxiv.org/abs/2609.09492",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI training lineage: actuator-dynamics curriculum expands the viable exploration region so a quadruped handstand task that fails under fixed identified stiffness becomes trainable and transfers to Boston Dynamics Spot hardware. It improves training feasibility rather than inference speed.",
+      "published_at": "2026-09-08T22:14:27Z",
+      "updated_at": "2026-09-08T22:14:27Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Efficient Fairness Auditing Across Guidance Scales in Text-to-Image Diffusion Models via Causal Abstraction",
       "venue": "arXiv 2026",
       "topic": "diffusion/flow acceleration / amortized evaluation / text-to-image",
@@ -5116,6 +5137,28 @@
       ]
     },
     {
+      "title": "Mask Forcing: Improving Autoregressive Video Diffusion Distillation via Dual-Noise Masking Rollout",
+      "venue": "arXiv 2026",
+      "topic": "video/image generation acceleration / diffusion distillation / autoregressive video generation",
+      "arxiv": "2609.09123",
+      "doi": "",
+      "official_id": "arXiv:2609.09123",
+      "paper_url": "https://arxiv.org/abs/2609.09123",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Improves causal autoregressive video diffusion students distilled from bidirectional teachers using dual-noise spatial-temporal masking during self-rollout. Directly relevant to real-time video diffusion distillation; current abstract emphasizes efficient quality gains but gives no clean latency/speedup number.",
+      "published_at": "2026-09-08T17:50:05Z",
+      "updated_at": "2026-09-08T17:50:05Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Video / Image Generation",
+        "Diffusion / Flow Acceleration",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "DeCAL: Towards Physically-Grounded Dexterous Vision-Language-Action Models via Contact-Aware Latent Co-Imagination",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / dexterous manipulation / tactile fusion / world modeling",
@@ -5324,6 +5367,26 @@
       "is_latest_30d": true,
       "directions": [
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "OTTER - Two Transistor - One RRAM Architecture for Reliable In-Memory-Computing in 28 nm CMOS Technology",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / compute-in-memory / RRAM accelerator",
+      "arxiv": "2609.08898",
+      "doi": "",
+      "official_id": "arXiv:2609.08898",
+      "paper_url": "https://arxiv.org/abs/2609.08898",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "28 nm CMOS plus TaOx RRAM 2T1R platform demonstrates six-level analog conductance and hardware CIM MACs on a 15x15 crossbar. Relevant accelerator/CIM lineage; abstract emphasizes reliability and circuit operation rather than end-to-end AI speedup.",
+      "published_at": "2026-09-08T15:37:22Z",
+      "updated_at": "2026-09-08T15:37:22Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -5665,6 +5728,28 @@
       "is_latest_30d": true,
       "directions": [
         "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "AURORA: Active Uncertainty-Driven Re-Orientation for In-Hand Reconstruction",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / active perception / adaptive 3D reconstruction",
+      "arxiv": "2609.08493",
+      "doi": "",
+      "official_id": "arXiv:2609.08493",
+      "paper_url": "https://arxiv.org/abs/2609.08493",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI runtime: uncertainty-novelty next-best-view planning actively acquires only informative observations and uses lightweight geometric fusion. The project reports a reference reconstruction latency of 71.82 s versus 417.13 s for Neural Feels (about 5.8x lower), while explicitly noting hardware/task differences.",
+      "published_at": "2026-09-08T09:35:01Z",
+      "updated_at": "2026-09-08T09:35:01Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
         "VLA / WAM / Physical AI"
       ]
     },
@@ -7549,6 +7634,27 @@
       "directions": [
         "LLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "3DHarnessBench: Probing Agentic 3D-to-Code Capabilities of Frontier Vision-Language Models",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / agentic 3D tool use / benchmark",
+      "arxiv": "2609.06535",
+      "doi": "",
+      "official_id": "arXiv:2609.06535",
+      "paper_url": "https://arxiv.org/abs/2609.06535",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Benchmarks frontier VLM agents from passive views through active visual exploration to full Blender function-call interaction, exposing model-dependent gains from richer tool access. Useful agent-harness/tool-use evaluation lineage, though it does not report systems-efficiency savings.",
+      "published_at": "2026-09-06T10:59:15Z",
+      "updated_at": "2026-09-06T10:59:15Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -10460,6 +10566,26 @@
       "directions": [
         "LLM Serving",
         "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "Environment Evolution for Terminal Agents",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / terminal agents / RL environment infrastructure",
+      "arxiv": "2609.04128",
+      "doi": "",
+      "official_id": "arXiv:2609.04128",
+      "paper_url": "https://arxiv.org/abs/2609.04128",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Off-policy environment evolution incrementally raises difficulty and schedules evolved tasks generation by generation, avoiding sole reliance on on-policy rollout synthesis. Long-horizon RL improves Qwen3.6-27B and 35B-A3B by 14.4 and 18.0 points on Terminal-Bench 2.1; relevant agent-training infrastructure, though not an inference-efficiency result.",
+      "published_at": "2026-09-03T17:26:33Z",
+      "updated_at": "2026-09-03T17:26:33Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -22356,6 +22482,27 @@
       ]
     },
     {
+      "title": "Actuator Dynamics Curricula for Narrow-Viability Tasks in Legged Robot Learning",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / robot policy training / curriculum efficiency",
+      "arxiv": "2609.09492",
+      "doi": "",
+      "official_id": "arXiv:2609.09492",
+      "paper_url": "https://arxiv.org/abs/2609.09492",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI training lineage: actuator-dynamics curriculum expands the viable exploration region so a quadruped handstand task that fails under fixed identified stiffness becomes trainable and transfers to Boston Dynamics Spot hardware. It improves training feasibility rather than inference speed.",
+      "published_at": "2026-09-08T22:14:27Z",
+      "updated_at": "2026-09-08T22:14:27Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Efficient Fairness Auditing Across Guidance Scales in Text-to-Image Diffusion Models via Causal Abstraction",
       "venue": "arXiv 2026",
       "topic": "diffusion/flow acceleration / amortized evaluation / text-to-image",
@@ -22591,6 +22738,28 @@
       ]
     },
     {
+      "title": "Mask Forcing: Improving Autoregressive Video Diffusion Distillation via Dual-Noise Masking Rollout",
+      "venue": "arXiv 2026",
+      "topic": "video/image generation acceleration / diffusion distillation / autoregressive video generation",
+      "arxiv": "2609.09123",
+      "doi": "",
+      "official_id": "arXiv:2609.09123",
+      "paper_url": "https://arxiv.org/abs/2609.09123",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Improves causal autoregressive video diffusion students distilled from bidirectional teachers using dual-noise spatial-temporal masking during self-rollout. Directly relevant to real-time video diffusion distillation; current abstract emphasizes efficient quality gains but gives no clean latency/speedup number.",
+      "published_at": "2026-09-08T17:50:05Z",
+      "updated_at": "2026-09-08T17:50:05Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Video / Image Generation",
+        "Diffusion / Flow Acceleration",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "DeCAL: Towards Physically-Grounded Dexterous Vision-Language-Action Models via Contact-Aware Latent Co-Imagination",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / dexterous manipulation / tactile fusion / world modeling",
@@ -22799,6 +22968,26 @@
       "is_latest_30d": true,
       "directions": [
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "OTTER - Two Transistor - One RRAM Architecture for Reliable In-Memory-Computing in 28 nm CMOS Technology",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / compute-in-memory / RRAM accelerator",
+      "arxiv": "2609.08898",
+      "doi": "",
+      "official_id": "arXiv:2609.08898",
+      "paper_url": "https://arxiv.org/abs/2609.08898",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "28 nm CMOS plus TaOx RRAM 2T1R platform demonstrates six-level analog conductance and hardware CIM MACs on a 15x15 crossbar. Relevant accelerator/CIM lineage; abstract emphasizes reliability and circuit operation rather than end-to-end AI speedup.",
+      "published_at": "2026-09-08T15:37:22Z",
+      "updated_at": "2026-09-08T15:37:22Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -23140,6 +23329,28 @@
       "is_latest_30d": true,
       "directions": [
         "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "AURORA: Active Uncertainty-Driven Re-Orientation for In-Hand Reconstruction",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / active perception / adaptive 3D reconstruction",
+      "arxiv": "2609.08493",
+      "doi": "",
+      "official_id": "arXiv:2609.08493",
+      "paper_url": "https://arxiv.org/abs/2609.08493",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI runtime: uncertainty-novelty next-best-view planning actively acquires only informative observations and uses lightweight geometric fusion. The project reports a reference reconstruction latency of 71.82 s versus 417.13 s for Neural Feels (about 5.8x lower), while explicitly noting hardware/task differences.",
+      "published_at": "2026-09-08T09:35:01Z",
+      "updated_at": "2026-09-08T09:35:01Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
         "VLA / WAM / Physical AI"
       ]
     },
@@ -25024,6 +25235,27 @@
       "directions": [
         "LLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "3DHarnessBench: Probing Agentic 3D-to-Code Capabilities of Frontier Vision-Language Models",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / agentic 3D tool use / benchmark",
+      "arxiv": "2609.06535",
+      "doi": "",
+      "official_id": "arXiv:2609.06535",
+      "paper_url": "https://arxiv.org/abs/2609.06535",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Benchmarks frontier VLM agents from passive views through active visual exploration to full Blender function-call interaction, exposing model-dependent gains from richer tool access. Useful agent-harness/tool-use evaluation lineage, though it does not report systems-efficiency savings.",
+      "published_at": "2026-09-06T10:59:15Z",
+      "updated_at": "2026-09-06T10:59:15Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -27935,6 +28167,26 @@
       "directions": [
         "LLM Serving",
         "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "Environment Evolution for Terminal Agents",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / terminal agents / RL environment infrastructure",
+      "arxiv": "2609.04128",
+      "doi": "",
+      "official_id": "arXiv:2609.04128",
+      "paper_url": "https://arxiv.org/abs/2609.04128",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Off-policy environment evolution incrementally raises difficulty and schedules evolved tasks generation by generation, avoiding sole reliance on on-policy rollout synthesis. Long-horizon RL improves Qwen3.6-27B and 35B-A3B by 14.4 and 18.0 points on Terminal-Bench 2.1; relevant agent-training infrastructure, though not an inference-efficiency result.",
+      "published_at": "2026-09-03T17:26:33Z",
+      "updated_at": "2026-09-03T17:26:33Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
       ]
     },
     {
