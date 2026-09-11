@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-11",
   "window_start_beijing": "2026-08-12",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 784,
+  "tracked_total": 791,
   "p0_strong_or_canonical": [
     {
       "title": "HybridFLow: SDN-Orchestrated Client Partitioning for Hybrid Federated Learning",
@@ -4688,6 +4688,26 @@
       ]
     },
     {
+      "title": "Procedural Memory Under Change: Reuse and Interference in Controlled Web Tasks",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / procedural memory / reuse under distribution shift",
+      "arxiv": "2609.09774",
+      "doi": "",
+      "official_id": "arXiv:2609.09774",
+      "paper_url": "https://arxiv.org/abs/2609.09774",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Controlled web-task experiments study when reusable procedural memory remains applicable after interface or task changes and when memory interferes. This is valuable negative systems evidence for agent skill reuse and memory portability, though no direct compute saving is claimed.",
+      "published_at": "2026-09-09T06:22:42Z",
+      "updated_at": "2026-09-09T06:22:42Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "SymbolicLight V2: Hybrid Neuromorphic Architecture and Sparse Execution for Low-Energy Language Inference",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI / sparse inference / FPGA",
@@ -5565,6 +5585,27 @@
       ]
     },
     {
+      "title": "AirAnchor: Bridging Local and Global Spatial Information for Zero-Shot Aerial Vision-and-Language Navigation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / local-global memory / aerial VLN",
+      "arxiv": "2609.08442",
+      "doi": "",
+      "official_id": "arXiv:2609.08442",
+      "paper_url": "https://arxiv.org/abs/2609.08442",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "AirAnchor bridges online local representations and offline global memories using spatial anchors for zero-shot aerial VLN. It is protected Physical-AI memory/orchestration lineage, but the abstract focuses on navigation quality rather than measured inference efficiency.",
+      "published_at": "2026-09-08T08:47:54Z",
+      "updated_at": "2026-09-08T08:47:54Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Noise Adaptive Streaming Audio-Visual Speech Token Enhancement for Robust Full-Duplex Spoken Dialogue Models",
       "venue": "arXiv 2026",
       "topic": "multimodal/MLLM serving / streaming speech / modular adaptation",
@@ -5691,6 +5732,28 @@
       "is_latest_30d": true,
       "directions": [
         "Quantization"
+      ]
+    },
+    {
+      "title": "SAM3-O2D2: Zero-Shot Object Out-of-Distribution Detection by Object Class Prompting of the SAM3-Image Model",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / efficient vision inference / OOD detection",
+      "arxiv": "2609.08281",
+      "doi": "",
+      "official_id": "arXiv:2609.08281",
+      "paper_url": "https://arxiv.org/abs/2609.08281",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "The method explicitly replaces a prior zero-shot OOD pipeline whose inference requires computationally costly diffusion with a SAM3-image prompting route. This is relevant foundation-model inference-efficiency lineage, but the abstract does not provide a clean wall-clock speedup or energy ratio.",
+      "published_at": "2026-09-08T05:51:04Z",
+      "updated_at": "2026-09-08T05:51:04Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Diffusion / Flow Acceleration"
       ]
     },
     {
@@ -5860,6 +5923,28 @@
       "is_latest_30d": true,
       "directions": [
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Dual-Layer Semantic-Spatial Belief Mapping for Aerial Object Goal Navigation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / persistent spatial memory / VLM navigation",
+      "arxiv": "2609.08164",
+      "doi": "",
+      "official_id": "arXiv:2609.08164",
+      "paper_url": "https://arxiv.org/abs/2609.08164",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "AeroBelief converts noisy frame-level VLM outputs into persistent semantic-spatial belief maps with separate intuition and evidence layers for aerial ObjectNav. Protected Physical-AI memory/runtime lineage; efficiency is architectural rather than measured as latency or FLOPs.",
+      "published_at": "2026-09-08T02:47:49Z",
+      "updated_at": "2026-09-08T02:47:49Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -6380,6 +6465,26 @@
       ]
     },
     {
+      "title": "What Does an LLM-Agent Leaderboard Rank Actually Compare?",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / evaluation / cost-aware benchmarking",
+      "arxiv": "2609.07785",
+      "doi": "",
+      "official_id": "arXiv:2609.07785",
+      "paper_url": "https://arxiv.org/abs/2609.07785",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Shows that agent leaderboard conclusions can change with task mixture, measurement source and utility/cost rules, and proposes an estimand-aware pairwise procedure with uncertainty and practical margins. Useful for cost-aware agent-systems evaluation even though it is not itself a runtime optimization.",
+      "published_at": "2026-09-07T17:31:22Z",
+      "updated_at": "2026-09-07T17:31:22Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "MpSub: A Momentum p-Dimensional Subspace Trust-Region Method for Derivative-Free Fine-Tuning of Large Language Models",
       "venue": "arXiv 2026",
       "topic": "LLM training efficiency / memory-efficient fine-tuning / zeroth-order optimization",
@@ -6871,6 +6976,26 @@
         "LLM Serving",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Ollama in the Wild: A Longitudinal Measurement of Exposed Ollama LLM Endpoints at Internet Scale",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / deployment infrastructure / open-source ecosystem",
+      "arxiv": "2609.07115",
+      "doi": "",
+      "official_id": "arXiv:2609.07115",
+      "paper_url": "https://arxiv.org/abs/2609.07115",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "A 365-day active measurement of self-hosted Ollama endpoints characterizes persistence, upgrade behavior, geography and hosting concentration across roughly 4.8M IP-day observations. It is not an acceleration method, but it is unusually direct systems evidence about real-world open LLM-serving deployment and upgrade behavior.",
+      "published_at": "2026-09-07T06:57:33Z",
+      "updated_at": "2026-09-07T06:57:33Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving"
       ]
     },
     {
@@ -9808,6 +9933,27 @@
         "LLM Serving",
         "Sparsity / Pruning",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "TokenMatch: 3D Mesh Correspondence Transformer with Curvature-Guided Tokenisation",
+      "venue": "arXiv 2026",
+      "topic": "efficient attention / 3D tokenization / feed-forward inference",
+      "arxiv": "2609.04202",
+      "doi": "",
+      "official_id": "arXiv:2609.04202",
+      "paper_url": "https://arxiv.org/abs/2609.04202",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "TokenMatch replaces costly generative functional-map inference with a feed-forward transformer using curvature-guided tokenization and cross-attention, motivated explicitly by inference cost and generalization. Relevant token-efficiency lineage, but the abstract lacks a quantified speedup.",
+      "published_at": "2026-09-03T17:59:55Z",
+      "updated_at": "2026-09-03T17:59:55Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Efficient Attention"
       ]
     },
     {
@@ -21613,6 +21759,26 @@
       ]
     },
     {
+      "title": "Procedural Memory Under Change: Reuse and Interference in Controlled Web Tasks",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / procedural memory / reuse under distribution shift",
+      "arxiv": "2609.09774",
+      "doi": "",
+      "official_id": "arXiv:2609.09774",
+      "paper_url": "https://arxiv.org/abs/2609.09774",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Controlled web-task experiments study when reusable procedural memory remains applicable after interface or task changes and when memory interferes. This is valuable negative systems evidence for agent skill reuse and memory portability, though no direct compute saving is claimed.",
+      "published_at": "2026-09-09T06:22:42Z",
+      "updated_at": "2026-09-09T06:22:42Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "SymbolicLight V2: Hybrid Neuromorphic Architecture and Sparse Execution for Low-Energy Language Inference",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI / sparse inference / FPGA",
@@ -22490,6 +22656,27 @@
       ]
     },
     {
+      "title": "AirAnchor: Bridging Local and Global Spatial Information for Zero-Shot Aerial Vision-and-Language Navigation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / local-global memory / aerial VLN",
+      "arxiv": "2609.08442",
+      "doi": "",
+      "official_id": "arXiv:2609.08442",
+      "paper_url": "https://arxiv.org/abs/2609.08442",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "AirAnchor bridges online local representations and offline global memories using spatial anchors for zero-shot aerial VLN. It is protected Physical-AI memory/orchestration lineage, but the abstract focuses on navigation quality rather than measured inference efficiency.",
+      "published_at": "2026-09-08T08:47:54Z",
+      "updated_at": "2026-09-08T08:47:54Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Noise Adaptive Streaming Audio-Visual Speech Token Enhancement for Robust Full-Duplex Spoken Dialogue Models",
       "venue": "arXiv 2026",
       "topic": "multimodal/MLLM serving / streaming speech / modular adaptation",
@@ -22616,6 +22803,28 @@
       "is_latest_30d": true,
       "directions": [
         "Quantization"
+      ]
+    },
+    {
+      "title": "SAM3-O2D2: Zero-Shot Object Out-of-Distribution Detection by Object Class Prompting of the SAM3-Image Model",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / efficient vision inference / OOD detection",
+      "arxiv": "2609.08281",
+      "doi": "",
+      "official_id": "arXiv:2609.08281",
+      "paper_url": "https://arxiv.org/abs/2609.08281",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "The method explicitly replaces a prior zero-shot OOD pipeline whose inference requires computationally costly diffusion with a SAM3-image prompting route. This is relevant foundation-model inference-efficiency lineage, but the abstract does not provide a clean wall-clock speedup or energy ratio.",
+      "published_at": "2026-09-08T05:51:04Z",
+      "updated_at": "2026-09-08T05:51:04Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Diffusion / Flow Acceleration"
       ]
     },
     {
@@ -22785,6 +22994,28 @@
       "is_latest_30d": true,
       "directions": [
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Dual-Layer Semantic-Spatial Belief Mapping for Aerial Object Goal Navigation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / persistent spatial memory / VLM navigation",
+      "arxiv": "2609.08164",
+      "doi": "",
+      "official_id": "arXiv:2609.08164",
+      "paper_url": "https://arxiv.org/abs/2609.08164",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "AeroBelief converts noisy frame-level VLM outputs into persistent semantic-spatial belief maps with separate intuition and evidence layers for aerial ObjectNav. Protected Physical-AI memory/runtime lineage; efficiency is architectural rather than measured as latency or FLOPs.",
+      "published_at": "2026-09-08T02:47:49Z",
+      "updated_at": "2026-09-08T02:47:49Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -23305,6 +23536,26 @@
       ]
     },
     {
+      "title": "What Does an LLM-Agent Leaderboard Rank Actually Compare?",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / evaluation / cost-aware benchmarking",
+      "arxiv": "2609.07785",
+      "doi": "",
+      "official_id": "arXiv:2609.07785",
+      "paper_url": "https://arxiv.org/abs/2609.07785",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Shows that agent leaderboard conclusions can change with task mixture, measurement source and utility/cost rules, and proposes an estimand-aware pairwise procedure with uncertainty and practical margins. Useful for cost-aware agent-systems evaluation even though it is not itself a runtime optimization.",
+      "published_at": "2026-09-07T17:31:22Z",
+      "updated_at": "2026-09-07T17:31:22Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "MpSub: A Momentum p-Dimensional Subspace Trust-Region Method for Derivative-Free Fine-Tuning of Large Language Models",
       "venue": "arXiv 2026",
       "topic": "LLM training efficiency / memory-efficient fine-tuning / zeroth-order optimization",
@@ -23796,6 +24047,26 @@
         "LLM Serving",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Ollama in the Wild: A Longitudinal Measurement of Exposed Ollama LLM Endpoints at Internet Scale",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / deployment infrastructure / open-source ecosystem",
+      "arxiv": "2609.07115",
+      "doi": "",
+      "official_id": "arXiv:2609.07115",
+      "paper_url": "https://arxiv.org/abs/2609.07115",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "A 365-day active measurement of self-hosted Ollama endpoints characterizes persistence, upgrade behavior, geography and hosting concentration across roughly 4.8M IP-day observations. It is not an acceleration method, but it is unusually direct systems evidence about real-world open LLM-serving deployment and upgrade behavior.",
+      "published_at": "2026-09-07T06:57:33Z",
+      "updated_at": "2026-09-07T06:57:33Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving"
       ]
     },
     {
@@ -26733,6 +27004,27 @@
         "LLM Serving",
         "Sparsity / Pruning",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "TokenMatch: 3D Mesh Correspondence Transformer with Curvature-Guided Tokenisation",
+      "venue": "arXiv 2026",
+      "topic": "efficient attention / 3D tokenization / feed-forward inference",
+      "arxiv": "2609.04202",
+      "doi": "",
+      "official_id": "arXiv:2609.04202",
+      "paper_url": "https://arxiv.org/abs/2609.04202",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "TokenMatch replaces costly generative functional-map inference with a feed-forward transformer using curvature-guided tokenization and cross-attention, motivated explicitly by inference cost and generalization. Relevant token-efficiency lineage, but the abstract lacks a quantified speedup.",
+      "published_at": "2026-09-03T17:59:55Z",
+      "updated_at": "2026-09-03T17:59:55Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Efficient Attention"
       ]
     },
     {
