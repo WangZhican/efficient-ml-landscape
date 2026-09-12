@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-12",
   "window_start_beijing": "2026-08-13",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 1374,
+  "tracked_total": 1399,
   "p0_strong_or_canonical": [
     {
       "title": "VikingRAG: Accurate and Token-efficient Retrieval-augmented Generation over Structured Documents",
@@ -5282,6 +5282,50 @@
       ]
     },
     {
+      "title": "Variance-Adaptive Muon: Pre-Orthogonalization Variance Modulation for Efficient Language Model Pretraining",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / video/image generation acceleration",
+      "arxiv": "2601.14603",
+      "doi": "",
+      "official_id": "arXiv:2601.14603",
+      "paper_url": "https://arxiv.org/abs/2601.14603",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Variance-adaptive Muon improves language-model pretraining convergence and reports 1.33x step-to-target speedup at 1.2B scale with minimal additional optimizer state; strong training-efficiency evidence.",
+      "published_at": "2026-09-01",
+      "updated_at": "2026-09-02",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference",
+        "Video / Image Generation"
+      ]
+    },
+    {
+      "title": "TopoCompress: Long Context Compression via Graph-Wired Semantic Trajectories",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / KV cache/long-context / video/image generation acceleration",
+      "arxiv": "2608.30811",
+      "doi": "",
+      "official_id": "arXiv:2608.30811",
+      "paper_url": "https://arxiv.org/abs/2608.30811",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "TopoCompress is a training-free, model-agnostic long-context compressor that preserves coherent semantic spans and reports comparable quality at 4x smaller context budget plus lower compression time; direct long-context inference-cost evidence.",
+      "published_at": "2026-09-01",
+      "updated_at": "2026-09-02",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Video / Image Generation"
+      ]
+    },
+    {
       "title": "The Structure of Quantization Damage in LLMs: Why the Next Bit Should Be Spent Globally",
       "venue": "Fresh / preprint",
       "topic": "LLM serving / quantization / video/image generation acceleration",
@@ -5461,6 +5505,28 @@
       ]
     },
     {
+      "title": "MIDR: Enrichment-Augmented Indexing for Multimodal Document Retrieval",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving",
+      "arxiv": "2609.01316",
+      "doi": "",
+      "official_id": "arXiv:2609.01316",
+      "paper_url": "https://arxiv.org/abs/2609.01316",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "MIDR moves multimodal reasoning from query time to index time, yielding roughly 9x smaller index memory and 2x lower query latency than visual late-interaction retrieval while retaining competitive quality.",
+      "published_at": "2026-09-01",
+      "updated_at": "2026-09-02",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "LLM Inference on IMC-NoC Architecture with Balanced Dataflow and Fine-Grained Parallelism",
       "venue": "Extended LEAP / ICCAD 2025",
       "topic": "LLM serving / accelerator architecture / IMC-NoC / prefill-decode disaggregation",
@@ -5526,6 +5592,28 @@
       ]
     },
     {
+      "title": "Instella-MoE Technical Report",
+      "venue": "Fresh / preprint",
+      "topic": "KV cache/long-context / MoE systems/accelerators",
+      "arxiv": "2609.00791",
+      "doi": "",
+      "official_id": "arXiv:2609.00791",
+      "paper_url": "https://arxiv.org/abs/2609.00791",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Instella-MoE combines sparse MoE with Gated MLA and system-level connectivity innovations, is trained on MI300X/MI325X, and releases the full model/training stack; strong open MoE systems lineage.",
+      "published_at": "2026-09-01",
+      "updated_at": "2026-09-02",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "KV Cache / Long Context",
+        "Sparsity / Pruning",
+        "MoE Systems / Accelerators"
+      ]
+    },
+    {
       "title": "Hardware Acceleration of Block-Diffusion LLM for Edge Devices",
       "venue": "CoRR 2026",
       "topic": "edge/cloud/heterogeneous AI systems / diffusion LLM / KV compression / hardware acceleration",
@@ -5566,6 +5654,30 @@
         "LLM Serving",
         "Sparsity / Pruning",
         "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "Compressing AI Traffic: Standardized Neural Network Coding of Visual-Token Representations in Split Vision-Language Inference",
+      "venue": "Fresh / preprint",
+      "topic": "quantization / multimodal/MLLM serving",
+      "arxiv": "2609.01200",
+      "doi": "",
+      "official_id": "arXiv:2609.01200",
+      "paper_url": "https://arxiv.org/abs/2609.01200",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Standardized NNC coding compresses split-VLM visual-token traffic by up to 98% while preserving downstream VQA quality over a wide operating region; direct cloud-edge multimodal communication-efficiency evidence.",
+      "published_at": "2026-09-01",
+      "updated_at": "2026-09-02",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Distributed Training / Inference",
+        "Multimodal / MLLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -6060,6 +6172,28 @@
       ]
     },
     {
+      "title": "Identity-Conditioned Latent Consistency Distillation for Face Synthesis",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / video/image generation acceleration",
+      "arxiv": "2608.31053",
+      "doi": "",
+      "official_id": "arXiv:2608.31053",
+      "paper_url": "https://arxiv.org/abs/2608.31053",
+      "code_url": "https://github.com/UFPR-IPASP-PR/FaceRec-IdentityConsistency",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Identity-conditioned latent consistency distillation reduces face-diffusion sampling time from 2.102s to 0.482s, a 4.36x speedup with competitive generation quality; direct diffusion acceleration evidence.",
+      "published_at": "2026-08-31",
+      "updated_at": "2026-09-01",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation",
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
       "title": "HBQ: Hierarchical Scaling Block Quantization with Hardware-Efficiency-Aware Design for Accurate LLM Inference",
       "venue": "MICRO 2026",
       "topic": "quantization / hardware accelerator / KV cache",
@@ -6169,6 +6303,27 @@
       "directions": [
         "Sparsity / Pruning",
         "MoE Systems / Accelerators"
+      ]
+    },
+    {
+      "title": "ExecRubrics: Executable Tool-Augmented Rubrics for Verifiable and Efficient Long-Form Evaluation",
+      "venue": "Fresh / preprint",
+      "topic": "video/image generation acceleration / efficient reasoning/agent systems",
+      "arxiv": "2608.22559",
+      "doi": "",
+      "official_id": "arXiv:2608.22559",
+      "paper_url": "https://arxiv.org/abs/2608.22559",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "ExecRubrics compiles long-form evaluation criteria into executable programs, eliminating an LLM judge at evaluation time and reporting about 192x average speedup with competitive preference accuracy; strong agent/evaluation infrastructure efficiency evidence.",
+      "published_at": "2026-08-31",
+      "updated_at": "2026-09-01",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -6416,6 +6571,28 @@
       ]
     },
     {
+      "title": "View-oriented Conversation Compiler for Agent Trace Analysis",
+      "venue": "Fresh / preprint",
+      "topic": "GPU kernel/DSL/compilers / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2603.29678",
+      "doi": "",
+      "official_id": "arXiv:2603.29678",
+      "paper_url": "https://arxiv.org/abs/2603.29678",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "VCC compiles long agent traces into lossless/UI/adaptive views, reducing reflector token consumption by one-half to two-thirds while improving AppWorld task success; direct context-engineering infrastructure contribution.",
+      "published_at": "2026-08-30",
+      "updated_at": "2026-09-01",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "SmoothRL: Online Reinforcement Learning During Asynchronous Execution",
       "venue": "Fresh / preprint",
       "topic": "LLM serving / VLA/WAM/Physical AI serving",
@@ -6527,6 +6704,29 @@
       ]
     },
     {
+      "title": "LoGo: Token-Level Dynamic Local-Global Attention",
+      "venue": "Fresh / preprint",
+      "topic": "KV cache/long-context / GPU kernel/DSL/compilers",
+      "arxiv": "2608.29539",
+      "doi": "",
+      "official_id": "arXiv:2608.29539",
+      "paper_url": "https://arxiv.org/abs/2608.29539",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "LoGo learns token-level local/global attention budgets and implements query-sparse Triton kernels, directly translating dynamic span allocation into practical long-context speedups.",
+      "published_at": "2026-08-30",
+      "updated_at": "2026-09-01",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "KV Cache / Long Context",
+        "Sparsity / Pruning",
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
       "title": "From Isolation to Alignment: Unified LoRA for Efficient Multi-Task Learning",
       "venue": "Fresh / preprint",
       "topic": "LLM serving",
@@ -6544,6 +6744,27 @@
       "tracking_tier": "P0 · Strong",
       "directions": [
         "LLM Serving"
+      ]
+    },
+    {
+      "title": "Entropy-Aware Token Rejection for Improving Speculative Decoding",
+      "venue": "Fresh / preprint",
+      "topic": "speculative decoding",
+      "arxiv": "2512.23765",
+      "doi": "",
+      "official_id": "arXiv:2512.23765",
+      "paper_url": "https://arxiv.org/abs/2512.23765",
+      "code_url": "https://github.com/ECNU-Text-Computing/EASD",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Entropy-Aware Speculative Decoding is a lightweight training-free SD extension that improves reasoning quality while maintaining comparable acceleration, making it canonical speculative-decoding evidence.",
+      "published_at": "2026-08-30",
+      "updated_at": "2026-09-01",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Speculative Decoding",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -6837,6 +7058,27 @@
       ]
     },
     {
+      "title": "NanoVDR: Distilling a 2B Vision-Language Retriever into a 70M Text-Only Encoder for Visual Document Retrieval",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / multimodal/MLLM serving",
+      "arxiv": "2603.12824",
+      "doi": "",
+      "official_id": "arXiv:2603.12824",
+      "paper_url": "https://arxiv.org/abs/2603.12824",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "NanoVDR distills the query path of a 2B visual retriever into a 69M text encoder, retaining 95.1% teacher quality with 32x fewer query-side parameters and 50x lower CPU query latency.",
+      "published_at": "2026-08-29",
+      "updated_at": "2026-09-01",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
       "title": "Masked Distillation: Internalizing the Chain-of-Thought in Language Models",
       "venue": "Fresh / preprint",
       "topic": "LLM serving / video/image generation acceleration",
@@ -7051,6 +7293,26 @@
         "LLM Serving",
         "Sparsity / Pruning",
         "MoE Systems / Accelerators"
+      ]
+    },
+    {
+      "title": "Trust the Mass: Forced Weights in KV-Cache Eviction",
+      "venue": "Fresh / preprint",
+      "topic": "Efficient ML / AI Infra",
+      "arxiv": "2608.25230",
+      "doi": "",
+      "official_id": "arXiv:2608.25230",
+      "paper_url": "https://arxiv.org/abs/2608.25230",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Trust the Mass rigorously audits KV-eviction byte accounting, exposes false memory savings from mask-based implementations, and proposes a byte-budgeted allocator with strong empirical comparisons; canonical KV-cache systems evidence.",
+      "published_at": "2026-08-28",
+      "updated_at": "2026-08-31",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "KV Cache / Long Context"
       ]
     },
     {
@@ -7314,6 +7576,29 @@
       ]
     },
     {
+      "title": "LayerRecall: A State-Conditioned Memory Router for Long-Horizon Consistency in Video Generation",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / KV cache/long-context / video/image generation acceleration",
+      "arxiv": "2608.28460",
+      "doi": "",
+      "official_id": "arXiv:2608.28460",
+      "paper_url": "https://arxiv.org/abs/2608.28460",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "LayerRecall retrieves historical video K/V states only for memory-sensitive DiT layers, improving long-range consistency with negligible inference overhead; strong long-video cache/runtime evidence.",
+      "published_at": "2026-08-28",
+      "updated_at": "2026-08-31",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Video / Image Generation",
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
       "title": "HyQuant: Hybrid-Precision Quantization for LLM Attention",
       "venue": "arXiv 2026",
       "topic": "quantization / KV cache / efficient attention",
@@ -7465,6 +7750,27 @@
       ]
     },
     {
+      "title": "A Probabilistic Interpretation of KV Cache Eviction",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / KV cache/long-context",
+      "arxiv": "2608.28293",
+      "doi": "",
+      "official_id": "arXiv:2608.28293",
+      "paper_url": "https://arxiv.org/abs/2608.28293",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "A Probabilistic Interpretation of KV Cache Eviction formalizes eviction, derives sampling-based estimators and decode-time correction, and improves robustness at matched compression budgets; canonical KV-cache methodology.",
+      "published_at": "2026-08-28",
+      "updated_at": "2026-08-31",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context"
+      ]
+    },
+    {
       "title": "When Does Latent Communication Pay? A Causal Audit of Relayed KV Caches in Multi-Agent LLMs",
       "venue": "Fresh / preprint",
       "topic": "KV cache/long-context / video/image generation acceleration",
@@ -7507,6 +7813,51 @@
         "LLM Serving",
         "KV Cache / Long Context",
         "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "Unified Condition-Action Modeling for Accurate One-Step Action Generation",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / video/image generation acceleration",
+      "arxiv": "2608.16153",
+      "doi": "",
+      "official_id": "arXiv:2608.16153",
+      "paper_url": "https://arxiv.org/abs/2608.16153",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "UCA-Flow performs one-step action generation with a compact unified condition-action transformer and reports 45.6x/33.4x speedups over diffusion-policy baselines and 4.3x/2.3x over one-step flow baselines; strong protected Physical-AI efficiency evidence.",
+      "published_at": "2026-08-27",
+      "updated_at": "2026-08-28",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation",
+        "Diffusion / Flow Acceleration",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "TRACES: Tagging Reasoning Steps for Adaptive Cost-Efficient Early-Stopping",
+      "venue": "Fresh / preprint",
+      "topic": "sparsity/pruning / video/image generation acceleration",
+      "arxiv": "2604.21057",
+      "doi": "",
+      "official_id": "arXiv:2604.21057",
+      "paper_url": "https://arxiv.org/abs/2604.21057",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "TRACES tags reasoning steps online and adaptively early-stops generation, reducing reasoning tokens by 20-50% while maintaining comparable accuracy on multiple benchmarks.",
+      "published_at": "2026-08-27",
+      "updated_at": "2026-08-28",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Sparsity / Pruning",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -7747,6 +8098,26 @@
         "Multimodal / MLLM Serving",
         "Video / Image Generation",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Dependency-Aware Revocable Decoding for Efficient Diffusion Large Language Model Inference",
+      "venue": "Fresh / preprint",
+      "topic": "Efficient ML / AI Infra",
+      "arxiv": "2608.26574",
+      "doi": "",
+      "official_id": "arXiv:2608.26574",
+      "paper_url": "https://arxiv.org/abs/2608.26574",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "DARD improves the speed-quality Pareto frontier of diffusion-language-model decoding with dependency-aware revocable verification and reports up to 2.71x speedup with quality gains.",
+      "published_at": "2026-08-27",
+      "updated_at": "2026-08-28",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Diffusion / Flow Acceleration"
       ]
     },
     {
@@ -19582,6 +19953,29 @@
       ]
     },
     {
+      "title": "Facet-0: A Robotic Foundation Model for Contact-Rich Precise Manipulation",
+      "venue": "",
+      "topic": "LLM serving / multimodal/MLLM serving / video/image generation acceleration",
+      "arxiv": "2609.01596",
+      "doi": "",
+      "official_id": "arXiv:2609.01596",
+      "paper_url": "https://arxiv.org/abs/2609.01596",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI lineage: Facet-0 couples action and predicted wrench in a flow-matching policy and achieves 50 ms command latency on contact-rich manipulation; serving mechanism is secondary but deployment evidence is valuable.",
+      "published_at": "2026-09-01",
+      "updated_at": "2026-09-02",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Video / Image Generation",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "EmbodiedSkills: A Unified Framework for Orchestrating, Training, and Deploying VLA Agents",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / embodied agent runtime / skill orchestration",
@@ -19782,6 +20176,30 @@
         "LLM Serving",
         "Efficient Reasoning / Agents",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Global Attention with Linear Complexity for Exascale Generative Data Assimilation in Earth System Prediction",
+      "venue": "",
+      "topic": "LLM serving / KV cache/long-context",
+      "arxiv": "2604.16590",
+      "doi": "",
+      "official_id": "arXiv:2604.16590",
+      "paper_url": "https://arxiv.org/abs/2604.16590",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "STORM combines diffusion data assimilation with linear-complexity global attention and demonstrates exceptional scaling to 74,400 GPUs; domain-specific Earth-system workload, but useful distributed-attention systems lineage.",
+      "published_at": "2026-08-31",
+      "updated_at": "2026-09-02",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Efficient Attention",
+        "Distributed Training / Inference",
+        "Diffusion / Flow Acceleration"
       ]
     },
     {
@@ -20328,6 +20746,27 @@
       ]
     },
     {
+      "title": "UniComp: A Unified Evaluation of Large Language Model Compression via Pruning, Quantization, and Distillation",
+      "venue": "",
+      "topic": "quantization / sparsity/pruning",
+      "arxiv": "2602.09130",
+      "doi": "",
+      "official_id": "arXiv:2602.09130",
+      "paper_url": "https://arxiv.org/abs/2602.09130",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "UniComp jointly evaluates pruning, quantization and distillation with hardware-aware efficiency across 40+ datasets; valuable canonical compression evaluation rather than a new acceleration mechanism.",
+      "published_at": "2026-08-28",
+      "updated_at": "2026-08-31",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Sparsity / Pruning"
+      ]
+    },
+    {
       "title": "Transformer-Based Autonomous Driving Models and Deployment-Oriented Compression: A Survey",
       "venue": "",
       "topic": "LLM serving / quantization / sparsity/pruning / efficient attention",
@@ -20393,6 +20832,28 @@
       ]
     },
     {
+      "title": "SpikeOPD: Stable On-Policy Distillation for Autoregressive Spiking Language Models",
+      "venue": "",
+      "topic": "LLM serving / video/image generation acceleration",
+      "arxiv": "2608.27857",
+      "doi": "",
+      "official_id": "arXiv:2608.27857",
+      "paper_url": "https://arxiv.org/abs/2608.27857",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "SpikeOPD stabilizes ANN-to-SNN on-policy distillation while preserving sparse-compute profiles across language-model scales; useful low-energy model lineage, though direct serving speedups are not reported.",
+      "published_at": "2026-08-28",
+      "updated_at": "2026-08-31",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Video / Image Generation"
+      ]
+    },
+    {
       "title": "Speculative Probing: LLM Monitoring at Speculative-Decoding Cost",
       "venue": "",
       "topic": "KV cache/long-context",
@@ -20435,6 +20896,32 @@
       ]
     },
     {
+      "title": "LUCID: An Agentic AI Framework on Digital-Twin in the Loop for QoS-Guaranteeing Robotic Control",
+      "venue": "",
+      "topic": "LLM serving / video/image generation acceleration / efficient reasoning/agent systems",
+      "arxiv": "2608.28437",
+      "doi": "",
+      "official_id": "arXiv:2608.28437",
+      "paper_url": "https://arxiv.org/abs/2608.28437",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected cloud-robotics lineage: LUCID dynamically orchestrates TP/RRM schemas and adds a multimodal surrogate to reduce digital-twin planning latency; relevant cloud-edge agent systems evidence though communications optimization dominates.",
+      "published_at": "2026-08-28",
+      "updated_at": "2026-08-31",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference",
+        "Multimodal / MLLM Serving",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Launch-Bound and Substitutable: Why Three Inference Optimizations Fail to Pay Off in Mixture-of-Experts Models",
       "venue": "",
       "topic": "MoE systems / inference optimization analysis",
@@ -20474,6 +20961,27 @@
         "LLM Serving",
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Gen-TAS: A Generative AI-Aided Hardware-Software Task Allocation Framework for FPGA-GPP Heterogeneous Systems",
+      "venue": "",
+      "topic": "LLM serving / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2608.28160",
+      "doi": "",
+      "official_id": "arXiv:2608.28160",
+      "paper_url": "https://arxiv.org/abs/2608.28160",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Gen-TAS uses a knowledge-grounded LLM to allocate tasks across FPGA-GPP systems and demonstrates large hardware/software speedups; retain as heterogeneous edge co-design watchlist evidence.",
+      "published_at": "2026-08-28",
+      "updated_at": "2026-08-31",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -20673,6 +21181,52 @@
         "LLM Serving",
         "Video / Image Generation",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Unified Prediction and Planning via Conflict-Aware Disjoint Parameter Training",
+      "venue": "",
+      "topic": "LLM serving / video/image generation acceleration",
+      "arxiv": "2607.19971",
+      "doi": "",
+      "official_id": "arXiv:2607.19971",
+      "paper_url": "https://arxiv.org/abs/2607.19971",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected edge-robotics lineage: DPT merges prediction and planning into compact shared models for resource-constrained deployment and uses sparse parameter merging to reduce task conflict; retain as heterogeneous Physical-AI design evidence.",
+      "published_at": "2026-08-27",
+      "updated_at": "2026-08-28",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Video / Image Generation",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "TouchThinker: Scaling Tactile Commonsense Reasoning to the Open World with Large-scale Data and Action-aware Representation",
+      "venue": "",
+      "topic": "VLA/WAM/Physical AI serving",
+      "arxiv": "2606.11637",
+      "doi": "",
+      "official_id": "arXiv:2606.11637",
+      "paper_url": "https://arxiv.org/abs/2606.11637",
+      "code_url": "https://github.com/lvkailin0118/TouchThinker",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI representation lineage: TouchThinker explicitly targets redundant/action-specific tactile signals with action-aware representation learning; efficiency evidence is qualitative rather than a measured runtime gain.",
+      "published_at": "2026-08-27",
+      "updated_at": "2026-08-28",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -35166,6 +35720,50 @@
       ]
     },
     {
+      "title": "Variance-Adaptive Muon: Pre-Orthogonalization Variance Modulation for Efficient Language Model Pretraining",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / video/image generation acceleration",
+      "arxiv": "2601.14603",
+      "doi": "",
+      "official_id": "arXiv:2601.14603",
+      "paper_url": "https://arxiv.org/abs/2601.14603",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Variance-adaptive Muon improves language-model pretraining convergence and reports 1.33x step-to-target speedup at 1.2B scale with minimal additional optimizer state; strong training-efficiency evidence.",
+      "published_at": "2026-09-01",
+      "updated_at": "2026-09-02",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference",
+        "Video / Image Generation"
+      ]
+    },
+    {
+      "title": "TopoCompress: Long Context Compression via Graph-Wired Semantic Trajectories",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / KV cache/long-context / video/image generation acceleration",
+      "arxiv": "2608.30811",
+      "doi": "",
+      "official_id": "arXiv:2608.30811",
+      "paper_url": "https://arxiv.org/abs/2608.30811",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "TopoCompress is a training-free, model-agnostic long-context compressor that preserves coherent semantic spans and reports comparable quality at 4x smaller context budget plus lower compression time; direct long-context inference-cost evidence.",
+      "published_at": "2026-09-01",
+      "updated_at": "2026-09-02",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Video / Image Generation"
+      ]
+    },
+    {
       "title": "The Structure of Quantization Damage in LLMs: Why the Next Bit Should Be Spent Globally",
       "venue": "Fresh / preprint",
       "topic": "LLM serving / quantization / video/image generation acceleration",
@@ -35345,6 +35943,28 @@
       ]
     },
     {
+      "title": "MIDR: Enrichment-Augmented Indexing for Multimodal Document Retrieval",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving",
+      "arxiv": "2609.01316",
+      "doi": "",
+      "official_id": "arXiv:2609.01316",
+      "paper_url": "https://arxiv.org/abs/2609.01316",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "MIDR moves multimodal reasoning from query time to index time, yielding roughly 9x smaller index memory and 2x lower query latency than visual late-interaction retrieval while retaining competitive quality.",
+      "published_at": "2026-09-01",
+      "updated_at": "2026-09-02",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "LLM Inference on IMC-NoC Architecture with Balanced Dataflow and Fine-Grained Parallelism",
       "venue": "Extended LEAP / ICCAD 2025",
       "topic": "LLM serving / accelerator architecture / IMC-NoC / prefill-decode disaggregation",
@@ -35410,6 +36030,28 @@
       ]
     },
     {
+      "title": "Instella-MoE Technical Report",
+      "venue": "Fresh / preprint",
+      "topic": "KV cache/long-context / MoE systems/accelerators",
+      "arxiv": "2609.00791",
+      "doi": "",
+      "official_id": "arXiv:2609.00791",
+      "paper_url": "https://arxiv.org/abs/2609.00791",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Instella-MoE combines sparse MoE with Gated MLA and system-level connectivity innovations, is trained on MI300X/MI325X, and releases the full model/training stack; strong open MoE systems lineage.",
+      "published_at": "2026-09-01",
+      "updated_at": "2026-09-02",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "KV Cache / Long Context",
+        "Sparsity / Pruning",
+        "MoE Systems / Accelerators"
+      ]
+    },
+    {
       "title": "Hardware Acceleration of Block-Diffusion LLM for Edge Devices",
       "venue": "CoRR 2026",
       "topic": "edge/cloud/heterogeneous AI systems / diffusion LLM / KV compression / hardware acceleration",
@@ -35450,6 +36092,30 @@
         "LLM Serving",
         "Sparsity / Pruning",
         "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "Compressing AI Traffic: Standardized Neural Network Coding of Visual-Token Representations in Split Vision-Language Inference",
+      "venue": "Fresh / preprint",
+      "topic": "quantization / multimodal/MLLM serving",
+      "arxiv": "2609.01200",
+      "doi": "",
+      "official_id": "arXiv:2609.01200",
+      "paper_url": "https://arxiv.org/abs/2609.01200",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Standardized NNC coding compresses split-VLM visual-token traffic by up to 98% while preserving downstream VQA quality over a wide operating region; direct cloud-edge multimodal communication-efficiency evidence.",
+      "published_at": "2026-09-01",
+      "updated_at": "2026-09-02",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Distributed Training / Inference",
+        "Multimodal / MLLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -35944,6 +36610,28 @@
       ]
     },
     {
+      "title": "Identity-Conditioned Latent Consistency Distillation for Face Synthesis",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / video/image generation acceleration",
+      "arxiv": "2608.31053",
+      "doi": "",
+      "official_id": "arXiv:2608.31053",
+      "paper_url": "https://arxiv.org/abs/2608.31053",
+      "code_url": "https://github.com/UFPR-IPASP-PR/FaceRec-IdentityConsistency",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Identity-conditioned latent consistency distillation reduces face-diffusion sampling time from 2.102s to 0.482s, a 4.36x speedup with competitive generation quality; direct diffusion acceleration evidence.",
+      "published_at": "2026-08-31",
+      "updated_at": "2026-09-01",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation",
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
       "title": "HBQ: Hierarchical Scaling Block Quantization with Hardware-Efficiency-Aware Design for Accurate LLM Inference",
       "venue": "MICRO 2026",
       "topic": "quantization / hardware accelerator / KV cache",
@@ -36053,6 +36741,27 @@
       "directions": [
         "Sparsity / Pruning",
         "MoE Systems / Accelerators"
+      ]
+    },
+    {
+      "title": "ExecRubrics: Executable Tool-Augmented Rubrics for Verifiable and Efficient Long-Form Evaluation",
+      "venue": "Fresh / preprint",
+      "topic": "video/image generation acceleration / efficient reasoning/agent systems",
+      "arxiv": "2608.22559",
+      "doi": "",
+      "official_id": "arXiv:2608.22559",
+      "paper_url": "https://arxiv.org/abs/2608.22559",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "ExecRubrics compiles long-form evaluation criteria into executable programs, eliminating an LLM judge at evaluation time and reporting about 192x average speedup with competitive preference accuracy; strong agent/evaluation infrastructure efficiency evidence.",
+      "published_at": "2026-08-31",
+      "updated_at": "2026-09-01",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -36300,6 +37009,28 @@
       ]
     },
     {
+      "title": "View-oriented Conversation Compiler for Agent Trace Analysis",
+      "venue": "Fresh / preprint",
+      "topic": "GPU kernel/DSL/compilers / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2603.29678",
+      "doi": "",
+      "official_id": "arXiv:2603.29678",
+      "paper_url": "https://arxiv.org/abs/2603.29678",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "VCC compiles long agent traces into lossless/UI/adaptive views, reducing reflector token consumption by one-half to two-thirds while improving AppWorld task success; direct context-engineering infrastructure contribution.",
+      "published_at": "2026-08-30",
+      "updated_at": "2026-09-01",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "SmoothRL: Online Reinforcement Learning During Asynchronous Execution",
       "venue": "Fresh / preprint",
       "topic": "LLM serving / VLA/WAM/Physical AI serving",
@@ -36411,6 +37142,29 @@
       ]
     },
     {
+      "title": "LoGo: Token-Level Dynamic Local-Global Attention",
+      "venue": "Fresh / preprint",
+      "topic": "KV cache/long-context / GPU kernel/DSL/compilers",
+      "arxiv": "2608.29539",
+      "doi": "",
+      "official_id": "arXiv:2608.29539",
+      "paper_url": "https://arxiv.org/abs/2608.29539",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "LoGo learns token-level local/global attention budgets and implements query-sparse Triton kernels, directly translating dynamic span allocation into practical long-context speedups.",
+      "published_at": "2026-08-30",
+      "updated_at": "2026-09-01",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "KV Cache / Long Context",
+        "Sparsity / Pruning",
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
       "title": "From Isolation to Alignment: Unified LoRA for Efficient Multi-Task Learning",
       "venue": "Fresh / preprint",
       "topic": "LLM serving",
@@ -36428,6 +37182,27 @@
       "tracking_tier": "P0 · Strong",
       "directions": [
         "LLM Serving"
+      ]
+    },
+    {
+      "title": "Entropy-Aware Token Rejection for Improving Speculative Decoding",
+      "venue": "Fresh / preprint",
+      "topic": "speculative decoding",
+      "arxiv": "2512.23765",
+      "doi": "",
+      "official_id": "arXiv:2512.23765",
+      "paper_url": "https://arxiv.org/abs/2512.23765",
+      "code_url": "https://github.com/ECNU-Text-Computing/EASD",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Entropy-Aware Speculative Decoding is a lightweight training-free SD extension that improves reasoning quality while maintaining comparable acceleration, making it canonical speculative-decoding evidence.",
+      "published_at": "2026-08-30",
+      "updated_at": "2026-09-01",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Speculative Decoding",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -36721,6 +37496,27 @@
       ]
     },
     {
+      "title": "NanoVDR: Distilling a 2B Vision-Language Retriever into a 70M Text-Only Encoder for Visual Document Retrieval",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / multimodal/MLLM serving",
+      "arxiv": "2603.12824",
+      "doi": "",
+      "official_id": "arXiv:2603.12824",
+      "paper_url": "https://arxiv.org/abs/2603.12824",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "NanoVDR distills the query path of a 2B visual retriever into a 69M text encoder, retaining 95.1% teacher quality with 32x fewer query-side parameters and 50x lower CPU query latency.",
+      "published_at": "2026-08-29",
+      "updated_at": "2026-09-01",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
       "title": "Masked Distillation: Internalizing the Chain-of-Thought in Language Models",
       "venue": "Fresh / preprint",
       "topic": "LLM serving / video/image generation acceleration",
@@ -36935,6 +37731,26 @@
         "LLM Serving",
         "Sparsity / Pruning",
         "MoE Systems / Accelerators"
+      ]
+    },
+    {
+      "title": "Trust the Mass: Forced Weights in KV-Cache Eviction",
+      "venue": "Fresh / preprint",
+      "topic": "Efficient ML / AI Infra",
+      "arxiv": "2608.25230",
+      "doi": "",
+      "official_id": "arXiv:2608.25230",
+      "paper_url": "https://arxiv.org/abs/2608.25230",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Trust the Mass rigorously audits KV-eviction byte accounting, exposes false memory savings from mask-based implementations, and proposes a byte-budgeted allocator with strong empirical comparisons; canonical KV-cache systems evidence.",
+      "published_at": "2026-08-28",
+      "updated_at": "2026-08-31",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "KV Cache / Long Context"
       ]
     },
     {
@@ -37198,6 +38014,29 @@
       ]
     },
     {
+      "title": "LayerRecall: A State-Conditioned Memory Router for Long-Horizon Consistency in Video Generation",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / KV cache/long-context / video/image generation acceleration",
+      "arxiv": "2608.28460",
+      "doi": "",
+      "official_id": "arXiv:2608.28460",
+      "paper_url": "https://arxiv.org/abs/2608.28460",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "LayerRecall retrieves historical video K/V states only for memory-sensitive DiT layers, improving long-range consistency with negligible inference overhead; strong long-video cache/runtime evidence.",
+      "published_at": "2026-08-28",
+      "updated_at": "2026-08-31",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Video / Image Generation",
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
       "title": "HyQuant: Hybrid-Precision Quantization for LLM Attention",
       "venue": "arXiv 2026",
       "topic": "quantization / KV cache / efficient attention",
@@ -37349,6 +38188,27 @@
       ]
     },
     {
+      "title": "A Probabilistic Interpretation of KV Cache Eviction",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / KV cache/long-context",
+      "arxiv": "2608.28293",
+      "doi": "",
+      "official_id": "arXiv:2608.28293",
+      "paper_url": "https://arxiv.org/abs/2608.28293",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "A Probabilistic Interpretation of KV Cache Eviction formalizes eviction, derives sampling-based estimators and decode-time correction, and improves robustness at matched compression budgets; canonical KV-cache methodology.",
+      "published_at": "2026-08-28",
+      "updated_at": "2026-08-31",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context"
+      ]
+    },
+    {
       "title": "When Does Latent Communication Pay? A Causal Audit of Relayed KV Caches in Multi-Agent LLMs",
       "venue": "Fresh / preprint",
       "topic": "KV cache/long-context / video/image generation acceleration",
@@ -37391,6 +38251,51 @@
         "LLM Serving",
         "KV Cache / Long Context",
         "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "Unified Condition-Action Modeling for Accurate One-Step Action Generation",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / video/image generation acceleration",
+      "arxiv": "2608.16153",
+      "doi": "",
+      "official_id": "arXiv:2608.16153",
+      "paper_url": "https://arxiv.org/abs/2608.16153",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "UCA-Flow performs one-step action generation with a compact unified condition-action transformer and reports 45.6x/33.4x speedups over diffusion-policy baselines and 4.3x/2.3x over one-step flow baselines; strong protected Physical-AI efficiency evidence.",
+      "published_at": "2026-08-27",
+      "updated_at": "2026-08-28",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation",
+        "Diffusion / Flow Acceleration",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "TRACES: Tagging Reasoning Steps for Adaptive Cost-Efficient Early-Stopping",
+      "venue": "Fresh / preprint",
+      "topic": "sparsity/pruning / video/image generation acceleration",
+      "arxiv": "2604.21057",
+      "doi": "",
+      "official_id": "arXiv:2604.21057",
+      "paper_url": "https://arxiv.org/abs/2604.21057",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "TRACES tags reasoning steps online and adaptively early-stops generation, reducing reasoning tokens by 20-50% while maintaining comparable accuracy on multiple benchmarks.",
+      "published_at": "2026-08-27",
+      "updated_at": "2026-08-28",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Sparsity / Pruning",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -37631,6 +38536,26 @@
         "Multimodal / MLLM Serving",
         "Video / Image Generation",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Dependency-Aware Revocable Decoding for Efficient Diffusion Large Language Model Inference",
+      "venue": "Fresh / preprint",
+      "topic": "Efficient ML / AI Infra",
+      "arxiv": "2608.26574",
+      "doi": "",
+      "official_id": "arXiv:2608.26574",
+      "paper_url": "https://arxiv.org/abs/2608.26574",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "DARD improves the speed-quality Pareto frontier of diffusion-language-model decoding with dependency-aware revocable verification and reports up to 2.71x speedup with quality gains.",
+      "published_at": "2026-08-27",
+      "updated_at": "2026-08-28",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Diffusion / Flow Acceleration"
       ]
     },
     {
@@ -49464,6 +50389,29 @@
       ]
     },
     {
+      "title": "Facet-0: A Robotic Foundation Model for Contact-Rich Precise Manipulation",
+      "venue": "",
+      "topic": "LLM serving / multimodal/MLLM serving / video/image generation acceleration",
+      "arxiv": "2609.01596",
+      "doi": "",
+      "official_id": "arXiv:2609.01596",
+      "paper_url": "https://arxiv.org/abs/2609.01596",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI lineage: Facet-0 couples action and predicted wrench in a flow-matching policy and achieves 50 ms command latency on contact-rich manipulation; serving mechanism is secondary but deployment evidence is valuable.",
+      "published_at": "2026-09-01",
+      "updated_at": "2026-09-02",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Video / Image Generation",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "EmbodiedSkills: A Unified Framework for Orchestrating, Training, and Deploying VLA Agents",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / embodied agent runtime / skill orchestration",
@@ -49664,6 +50612,30 @@
         "LLM Serving",
         "Efficient Reasoning / Agents",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Global Attention with Linear Complexity for Exascale Generative Data Assimilation in Earth System Prediction",
+      "venue": "",
+      "topic": "LLM serving / KV cache/long-context",
+      "arxiv": "2604.16590",
+      "doi": "",
+      "official_id": "arXiv:2604.16590",
+      "paper_url": "https://arxiv.org/abs/2604.16590",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "STORM combines diffusion data assimilation with linear-complexity global attention and demonstrates exceptional scaling to 74,400 GPUs; domain-specific Earth-system workload, but useful distributed-attention systems lineage.",
+      "published_at": "2026-08-31",
+      "updated_at": "2026-09-02",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Efficient Attention",
+        "Distributed Training / Inference",
+        "Diffusion / Flow Acceleration"
       ]
     },
     {
@@ -50210,6 +51182,27 @@
       ]
     },
     {
+      "title": "UniComp: A Unified Evaluation of Large Language Model Compression via Pruning, Quantization, and Distillation",
+      "venue": "",
+      "topic": "quantization / sparsity/pruning",
+      "arxiv": "2602.09130",
+      "doi": "",
+      "official_id": "arXiv:2602.09130",
+      "paper_url": "https://arxiv.org/abs/2602.09130",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "UniComp jointly evaluates pruning, quantization and distillation with hardware-aware efficiency across 40+ datasets; valuable canonical compression evaluation rather than a new acceleration mechanism.",
+      "published_at": "2026-08-28",
+      "updated_at": "2026-08-31",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Sparsity / Pruning"
+      ]
+    },
+    {
       "title": "Transformer-Based Autonomous Driving Models and Deployment-Oriented Compression: A Survey",
       "venue": "",
       "topic": "LLM serving / quantization / sparsity/pruning / efficient attention",
@@ -50275,6 +51268,28 @@
       ]
     },
     {
+      "title": "SpikeOPD: Stable On-Policy Distillation for Autoregressive Spiking Language Models",
+      "venue": "",
+      "topic": "LLM serving / video/image generation acceleration",
+      "arxiv": "2608.27857",
+      "doi": "",
+      "official_id": "arXiv:2608.27857",
+      "paper_url": "https://arxiv.org/abs/2608.27857",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "SpikeOPD stabilizes ANN-to-SNN on-policy distillation while preserving sparse-compute profiles across language-model scales; useful low-energy model lineage, though direct serving speedups are not reported.",
+      "published_at": "2026-08-28",
+      "updated_at": "2026-08-31",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Video / Image Generation"
+      ]
+    },
+    {
       "title": "Speculative Probing: LLM Monitoring at Speculative-Decoding Cost",
       "venue": "",
       "topic": "KV cache/long-context",
@@ -50317,6 +51332,32 @@
       ]
     },
     {
+      "title": "LUCID: An Agentic AI Framework on Digital-Twin in the Loop for QoS-Guaranteeing Robotic Control",
+      "venue": "",
+      "topic": "LLM serving / video/image generation acceleration / efficient reasoning/agent systems",
+      "arxiv": "2608.28437",
+      "doi": "",
+      "official_id": "arXiv:2608.28437",
+      "paper_url": "https://arxiv.org/abs/2608.28437",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected cloud-robotics lineage: LUCID dynamically orchestrates TP/RRM schemas and adds a multimodal surrogate to reduce digital-twin planning latency; relevant cloud-edge agent systems evidence though communications optimization dominates.",
+      "published_at": "2026-08-28",
+      "updated_at": "2026-08-31",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference",
+        "Multimodal / MLLM Serving",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Launch-Bound and Substitutable: Why Three Inference Optimizations Fail to Pay Off in Mixture-of-Experts Models",
       "venue": "",
       "topic": "MoE systems / inference optimization analysis",
@@ -50356,6 +51397,27 @@
         "LLM Serving",
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Gen-TAS: A Generative AI-Aided Hardware-Software Task Allocation Framework for FPGA-GPP Heterogeneous Systems",
+      "venue": "",
+      "topic": "LLM serving / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2608.28160",
+      "doi": "",
+      "official_id": "arXiv:2608.28160",
+      "paper_url": "https://arxiv.org/abs/2608.28160",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Gen-TAS uses a knowledge-grounded LLM to allocate tasks across FPGA-GPP systems and demonstrates large hardware/software speedups; retain as heterogeneous edge co-design watchlist evidence.",
+      "published_at": "2026-08-28",
+      "updated_at": "2026-08-31",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -50555,6 +51617,52 @@
         "LLM Serving",
         "Video / Image Generation",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Unified Prediction and Planning via Conflict-Aware Disjoint Parameter Training",
+      "venue": "",
+      "topic": "LLM serving / video/image generation acceleration",
+      "arxiv": "2607.19971",
+      "doi": "",
+      "official_id": "arXiv:2607.19971",
+      "paper_url": "https://arxiv.org/abs/2607.19971",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected edge-robotics lineage: DPT merges prediction and planning into compact shared models for resource-constrained deployment and uses sparse parameter merging to reduce task conflict; retain as heterogeneous Physical-AI design evidence.",
+      "published_at": "2026-08-27",
+      "updated_at": "2026-08-28",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Video / Image Generation",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "TouchThinker: Scaling Tactile Commonsense Reasoning to the Open World with Large-scale Data and Action-aware Representation",
+      "venue": "",
+      "topic": "VLA/WAM/Physical AI serving",
+      "arxiv": "2606.11637",
+      "doi": "",
+      "official_id": "arXiv:2606.11637",
+      "paper_url": "https://arxiv.org/abs/2606.11637",
+      "code_url": "https://github.com/lvkailin0118/TouchThinker",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI representation lineage: TouchThinker explicitly targets redundant/action-specific tactile signals with action-aware representation learning; efficiency evidence is qualitative rather than a measured runtime gain.",
+      "published_at": "2026-08-27",
+      "updated_at": "2026-08-28",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {

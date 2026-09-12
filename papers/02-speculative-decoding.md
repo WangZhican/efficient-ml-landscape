@@ -1,10 +1,10 @@
 # 02 · Speculative Decoding
 
-> **222 canonical papers** mapped here, plus a broader **69-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **223 canonical papers** mapped here, plus a broader **70-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 69 tracked
+## 🆕 Latest 30 Days · 70 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -34,6 +34,7 @@
 | **P0 · Strong** | **Correctness Forensics for Batch Speculative Decoding: Diagnosing the Ragged Tensor Problem** | Fresh / preprint | LLM serving / speculative decoding | [Link](https://arxiv.org/abs/2510.22876) | [Repo](https://github.com/eBay/spec_dec) |
 | **P1 · Watch** | **Ceiling-Clipped Acceptance Histograms Indicate Stranded Speed-up in Block-Diffusion Speculative Decoding** | Fresh / preprint | LLM serving / speculative decoding | [Link](https://arxiv.org/abs/2608.30427) | — |
 | **P0 · Strong** | **Beyond Tokens: Semantic-Aware Speculative Decoding for Efficient Inference by Probing Internal States** | Fresh / preprint | LLM serving / speculative decoding | [Link](https://arxiv.org/abs/2602.03708) | — |
+| **P0 · Strong** | **Entropy-Aware Token Rejection for Improving Speculative Decoding** | Fresh / preprint | speculative decoding | [Link](https://arxiv.org/abs/2512.23765) | [Repo](https://github.com/ECNU-Text-Computing/EASD) |
 | **P0 · Strong** | **Approximate Speculative Decoding** | Fresh / preprint | LLM serving / speculative decoding / quantization / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.03447) | [Repo](https://github.com/Kissmetothemoon/ASD) |
 | **P0 · Strong** | **SpecPV: Improving Self-Speculative Decoding for Long-Context Generation via Partial Verification** | Fresh / preprint | KV cache/long-context / speculative decoding | [Link](https://arxiv.org/abs/2512.02337) | — |
 | **P0 · Strong** | **TreeGraft: Adaptive Multi-Drafter Grafting for Tree-Based Speculative Decoding** | Fresh / preprint | speculative decoding / LLM inference | [Link](https://arxiv.org/abs/2608.26112) | — |

@@ -1,10 +1,10 @@
 # 04 · Quantization
 
-> **268 canonical papers** mapped here, plus a broader **191-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **269 canonical papers** mapped here, plus a broader **193-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 191 tracked
+## 🆕 Latest 30 Days · 193 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -85,6 +85,7 @@
 | **P1 · Watch** | **CUSUM-Shaped Inference-Time Monitoring and Targeted Re-Decoding for Quantized Small Language Model Reasoning** | Fresh / preprint | LLM serving / quantization / video/image generation acceleration | [Link](https://arxiv.org/abs/2607.20129) | — |
 | **P1 · Watch** | **Triple-Bottom-Line Sustainability of Language Models for Edge AI: A Comparison Between SLMs and Quantized LLMs** | Fresh / preprint | LLM serving / quantization | [Link](https://arxiv.org/abs/2609.00665) | — |
 | **P0 · Strong** | **The Structure of Quantization Damage in LLMs: Why the Next Bit Should Be Spent Globally** | Fresh / preprint | LLM serving / quantization / video/image generation acceleration | [Link](https://arxiv.org/abs/2609.01587) | — |
+| **P0 · Strong** | **Compressing AI Traffic: Standardized Neural Network Coding of Visual-Token Representations in Split Vision-Language Inference** | Fresh / preprint | quantization / multimodal/MLLM serving | [Link](https://arxiv.org/abs/2609.01200) | — |
 | **P0 · Strong** | **Automatic Model-Hardware Co-Adaptation for Heterogeneous AI Accelerators** | Fresh / preprint | LLM serving / quantization / GPU kernel/DSL/compilers / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2607.12875) | — |
 | **P1 · Watch** | **A Closed-Loop Evaluation of Capability Loss and Recovery in Compressed Driving Policies** | Fresh / preprint | quantization / sparsity/pruning | [Link](https://arxiv.org/abs/2609.00718) | — |
 | **P0 · Strong** | **Verification-Aware Training for Speculative Decoding** | Fresh / preprint | speculative decoding / quantization | [Link](https://arxiv.org/abs/2608.30135) | [Repo](https://github.com/naver-ai/vat) |
@@ -102,6 +103,7 @@
 | **P0 · Strong** | **OCGQuant: Outlier-Companion Grouping for NVFP4 Quantization** | arXiv 2026 | quantization / NVFP4 / LLM inference / activation outliers | [Link](https://arxiv.org/abs/2609.00066) | [Repo](https://github.com/Eshamont/OCGQuant) |
 | **P0 · Strong** | **Approximate Speculative Decoding** | Fresh / preprint | LLM serving / speculative decoding / quantization / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.03447) | [Repo](https://github.com/Kissmetothemoon/ASD) |
 | **P0 · Strong** | **Hydra: A Navigation World Action Model with Discrete Latent Planning and Continuous Flow-Matching Execution** | Fresh / preprint | quantization / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.28995) | — |
+| **P1 · Watch** | **UniComp: A Unified Evaluation of Large Language Model Compression via Pruning, Quantization, and Distillation** | Fresh / preprint | quantization / sparsity/pruning | [Link](https://arxiv.org/abs/2602.09130) | — |
 | **P1 · Watch** | **Transformer-Based Autonomous Driving Models and Deployment-Oriented Compression: A Survey** | Fresh / preprint | LLM serving / quantization / sparsity/pruning / efficient attention | [Link](https://arxiv.org/abs/2304.10891) | — |
 | **P0 · Strong** | **SemKV: Semantic Mixed-Precision KV Cache Quantization Guided by the Quality Cliff for Long-Context LLM Inference** | arXiv 2026 | KV cache/long-context / quantization | [Link](https://arxiv.org/abs/2608.28911) | — |
 | **P0 · Strong** | **HyQuant: Hybrid-Precision Quantization for LLM Attention** | arXiv 2026 | quantization / KV cache / efficient attention | [Link](https://arxiv.org/abs/2608.27875) | [Repo](https://github.com/jerrysfls/HyQuant) |

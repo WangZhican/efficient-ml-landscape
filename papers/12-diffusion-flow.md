@@ -1,10 +1,10 @@
 # 12 · Diffusion / Flow Acceleration
 
-> **234 canonical papers** mapped here, plus a broader **110-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **238 canonical papers** mapped here, plus a broader **115-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 110 tracked
+## 🆕 Latest 30 Days · 115 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -53,6 +53,8 @@
 | **P0 · Strong** | **Stream-DiffVSR: Low-Latency Streamable Video Super-Resolution via Auto-Regressive Diffusion** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2512.23709) | — |
 | **P0 · Strong** | **Rolling Sink: Bridging Limited-Horizon Training and Open-Ended Testing in Autoregressive Video Diffusion** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2602.07775) | — |
 | **P0 · Strong** | **PixelIR: Fidelity-Perception Decoupling via Pixel-Space Image-Residual Flow Matching for Efficient One-Step Real-World Super-Resolution** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.30782) | — |
+| **P0 · Strong** | **Identity-Conditioned Latent Consistency Distillation for Face Synthesis** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.31053) | [Repo](https://github.com/UFPR-IPASP-PR/FaceRec-IdentityConsistency) |
+| **P1 · Watch** | **Global Attention with Linear Complexity for Exascale Generative Data Assimilation in Earth System Prediction** | Fresh / preprint | LLM serving / KV cache/long-context | [Link](https://arxiv.org/abs/2604.16590) | — |
 | **P0 · Strong** | **Efficient and High-Quality Depth Estimation via Pixel-Space Diffusion with Linear Attention** | Fresh / preprint | LLM serving / efficient attention | [Link](https://arxiv.org/abs/2608.30129) | — |
 | **P1 · Watch** | **DreamX-Creator: Democratizing Native Audio-Video Generation at 2K Resolution** | Fresh / preprint | video/image generation acceleration / diffusion distillation | [Link](https://arxiv.org/abs/2608.31106) | [Repo](https://github.com/AMAP-ML/DreamX-Creator) |
 | **P1 · Watch** | **Ceiling-Clipped Acceptance Histograms Indicate Stranded Speed-up in Block-Diffusion Speculative Decoding** | Fresh / preprint | LLM serving / speculative decoding | [Link](https://arxiv.org/abs/2608.30427) | — |
@@ -68,8 +70,11 @@
 | **P1 · Watch** | **Survival-Guided Length Control for Efficient Diffusion Language Models** | Fresh / preprint | diffusion LLM inference / efficient decoding | [Link](https://arxiv.org/abs/2608.26374) | — |
 | **P0 · Strong** | **Relax Forcing: Relaxed KV-Memory for Consistent Long Video Generation** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2603.21366) | — |
 | **P0 · Strong** | **LiveVVT: High-Fidelity Video Virtual Try-On in Real Time** | arXiv 2026 | video generation acceleration / streaming diffusion / rolling recurrent generation / few-step distillation | [Link](https://arxiv.org/abs/2608.26714) | — |
+| **P0 · Strong** | **LayerRecall: A State-Conditioned Memory Router for Long-Horizon Consistency in Video Generation** | Fresh / preprint | LLM serving / KV cache/long-context / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.28460) | — |
 | **P0 · Strong** | **DensityKV: Density-Guided KV Cache Compression for Long Video Generation** | arXiv 2026 | KV cache / video generation acceleration / efficient attention | [Link](https://arxiv.org/abs/2608.27922) | [Repo](https://github.com/ZhaoWQQ/DensityKV) |
 | **P0 · Strong** | **BRACE: Taming Sharp Irregularities via Barycentric Rational Forecasting for Fast Diffusion Transformers Inference** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2608.07572) | — |
+| **P0 · Strong** | **Unified Condition-Action Modeling for Accurate One-Step Action Generation** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.16153) | — |
+| **P0 · Strong** | **Dependency-Aware Revocable Decoding for Efficient Diffusion Large Language Model Inference** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.26574) | — |
 | **P1 · Watch** | **V-Link: Recovering Lost Visual Representations in Action DiT for Vision-Language-Action Models** | Fresh / preprint | LLM serving / multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.25308) | — |
 | **P0 · Strong** | **SANTS: A State-Adaptive Scheduler for World Action Models** | Fresh / preprint | LLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2605.27947) | — |
 | **P1 · Watch** | **Fast Generative Grasping via Lie Group-Constrained MeanFlow** | Fresh / preprint | Physical AI / flow acceleration / robotic grasping | [Link](https://arxiv.org/abs/2608.26076) | — |

@@ -1,10 +1,10 @@
 # 05 · Sparsity / Pruning
 
-> **311 canonical papers** mapped here, plus a broader **193-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **314 canonical papers** mapped here, plus a broader **199-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 193 tracked
+## 🆕 Latest 30 Days · 199 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -85,6 +85,7 @@
 | **P0 · Strong** | **S$^2$Prune: Spatially Structured Visual Token Pruning for Multimodal Large Language Models** | Fresh / preprint | sparsity/pruning / multimodal/MLLM serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.01224) | [Repo](https://github.com/yuanyuanjia71-spec/S2Prune) |
 | **P0 · Strong** | **PCoMoE: Shifting MoE Inference from Monolithic Expert Selection to Fine-Grained Path Composition** | CoRR 2026 | MoE systems/accelerators / fine-grained path composition / inference engine | [Link](https://arxiv.org/abs/2609.01024) | [Repo](https://github.com/gzyyy0/PCoMoE) |
 | **P0 · Strong** | **Multi-Image Visual Token Pruning in Large Visual Language Models** | Fresh / preprint | sparsity/pruning / efficient attention / multimodal/MLLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.26806) | [Repo](https://github.com/zry13/AVTP) |
+| **P0 · Strong** | **Instella-MoE Technical Report** | Fresh / preprint | KV cache/long-context / MoE systems/accelerators | [Link](https://arxiv.org/abs/2609.00791) | — |
 | **P0 · Strong** | **From Saliency to Discriminability: Rank-Preserving Visual Token Pruning for VLM Rerankers** | Fresh / preprint | LLM serving / sparsity/pruning / multimodal/MLLM serving | [Link](https://arxiv.org/abs/2609.00667) | — |
 | **P1 · Watch** | **Drift-Aware LLM Routing with Sparse Contexts and Shared Budgets** | arXiv 2026 | LLM serving / multi-model routing / nonstationary workloads / resource budgets | [Link](https://arxiv.org/abs/2609.00662) | — |
 | **P1 · Watch** | **A Closed-Loop Evaluation of Capability Loss and Recovery in Compressed Driving Policies** | Fresh / preprint | quantization / sparsity/pruning | [Link](https://arxiv.org/abs/2609.00718) | — |
@@ -97,13 +98,18 @@
 | **P1 · Watch** | **A.X K2 Technical Report** | Fresh / preprint | LLM serving / KV cache/long-context / quantization / sparsity/pruning / MoE systems/accelerators / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.30181) | — |
 | **P0 · Strong** | **WiSP: A Working-Set View of Mixture-of-Experts Serving on Extremely Low-Resource Hardware** | Fresh / preprint | LLM serving / KV cache/long-context / sparsity/pruning / MoE systems/accelerators / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2606.21868) | — |
 | **P1 · Watch** | **MotionSync: Non-Causal Refinement of Causal Tracker for Label-Efficient 3D Perception** | Fresh / preprint | sparsity/pruning | [Link](https://arxiv.org/abs/2608.29567) | — |
+| **P0 · Strong** | **LoGo: Token-Level Dynamic Local-Global Attention** | Fresh / preprint | KV cache/long-context / GPU kernel/DSL/compilers | [Link](https://arxiv.org/abs/2608.29539) | — |
 | **P0 · Strong** | **RouteSparse: Input-Conditional Pattern Routing for Budgeted Long-Context Prefilling** | CoRR 2026 | efficient attention / sparse prefilling / long-context LLM inference | [Link](https://arxiv.org/abs/2608.29058) | — |
 | **P0 · Strong** | **Prefilling-dLLM: Predictive Prefilling for Long-Context Inference in Diffusion Language Models** | Fresh / preprint | LLM serving / KV cache/long-context / sparsity/pruning / efficient attention | [Link](https://arxiv.org/abs/2606.10537) | [Repo](https://github.com/menik1126/Prefilling-dLLM) |
 | **P0 · Strong** | **A Deterministic Constant-Competitive Algorithm for Dynamic Mixture-of-Experts Serving** | Fresh / preprint | LLM serving / sparsity/pruning / MoE systems/accelerators | [Link](https://arxiv.org/abs/2608.16947) | — |
+| **P1 · Watch** | **UniComp: A Unified Evaluation of Large Language Model Compression via Pruning, Quantization, and Distillation** | Fresh / preprint | quantization / sparsity/pruning | [Link](https://arxiv.org/abs/2602.09130) | — |
 | **P1 · Watch** | **Transformer-Based Autonomous Driving Models and Deployment-Oriented Compression: A Survey** | Fresh / preprint | LLM serving / quantization / sparsity/pruning / efficient attention | [Link](https://arxiv.org/abs/2304.10891) | — |
 | **P0 · Strong** | **TokenPilot: Cache-Efficient Context Management for LLM Agents** | Fresh / preprint | sparsity/pruning | [Link](https://arxiv.org/abs/2606.17016) | [Repo](https://github.com/zjunlp/RSI) |
+| **P1 · Watch** | **SpikeOPD: Stable On-Policy Distillation for Autoregressive Spiking Language Models** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.27857) | — |
 | **P1 · Watch** | **ClusterAttention: A training-free speedup of bidirectional attention** | Fresh / preprint | efficient attention / sparse attention / video generation | [Link](https://arxiv.org/abs/2608.26965) | — |
 | **P0 · Strong** | **BRACE: Taming Sharp Irregularities via Barycentric Rational Forecasting for Fast Diffusion Transformers Inference** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2608.07572) | — |
+| **P1 · Watch** | **Unified Prediction and Planning via Conflict-Aware Disjoint Parameter Training** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2607.19971) | — |
+| **P0 · Strong** | **TRACES: Tagging Reasoning Steps for Adaptive Cost-Efficient Early-Stopping** | Fresh / preprint | sparsity/pruning / video/image generation acceleration | [Link](https://arxiv.org/abs/2604.21057) | — |
 | **P0 · Strong** | **Frequency Matters: Fast Model-Agnostic Data Curation for Pruning and Quantization** | Fresh / preprint | LLM serving / quantization / sparsity/pruning | [Link](https://arxiv.org/abs/2603.16105) | [Repo](https://github.com/FrancescoMonaco/ZipCal) |
 | **P0 · Strong** | **ET-Prune: Evidence-Aware Dynamic Budgeting for Visual Token Pruning in Text-Rich MLLMs** | Fresh / preprint | sparsity/pruning / multimodal/MLLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.01979) | — |
 | **P1 · Watch** | **Beyond FLOPs: Benchmarking Real Inference Acceleration of LLM Pruning under a GEMM-Centric Taxonomy** | Fresh / preprint | sparsity/pruning | [Link](https://arxiv.org/abs/2606.09080) | [Repo](https://github.com/EIT-NLP/LLM-Pruning/tree/main/PruningInferSim) |
