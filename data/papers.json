@@ -16676,6 +16676,28 @@
     ]
   },
   {
+    "title": "Do Visual Grounding Decoders Need Feed-Forward Networks? A Controlled Study over Frozen Vision-Language Features",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / multimodal/MLLM serving",
+    "arxiv": "2608.15061",
+    "doi": "",
+    "official_id": "arXiv:2608.15061",
+    "paper_url": "https://arxiv.org/abs/2608.15061",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "A controlled visual-grounding study removes decoder FFNs: the attention-only decoder cuts trainable decoder parameters by 44.4% and cached-decoder latency by 10.1% while maintaining comparable grounding quality; direct multimodal inference-efficiency evidence.",
+    "published_at": "2026-08-15T06:21:16Z",
+    "updated_at": "2026-08-15T06:21:16Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Efficient Attention",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
     "title": "DTX: A Throughput-First Training Accelerator for Diffusion and Transformer Models",
     "venue": "Fresh / preprint",
     "topic": "LLM serving / quantization / edge/cloud/heterogeneous AI systems",
@@ -16721,6 +16743,28 @@
     ]
   },
   {
+    "title": "Dynamic Multi-Byte Prediction With Hierarchical Language Models",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / video/image generation acceleration",
+    "arxiv": "2608.15454",
+    "doi": "",
+    "official_id": "arXiv:2608.15454",
+    "paper_url": "https://arxiv.org/abs/2608.15454",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Dynamic Multi-Byte Prediction generates multiple bytes in parallel in hierarchical language models with no additional parameters and reports a Pareto speed-quality trade-off; direct decoding-throughput acceleration lineage closely related to multi-token/speculative decoding.",
+    "published_at": "2026-08-16T00:11:11Z",
+    "updated_at": "2026-08-21T23:00:48Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "Video / Image Generation"
+    ]
+  },
+  {
     "title": "EasySteer: A Unified Framework for High-Performance and Extensible LLM Steering",
     "venue": "Fresh / preprint",
     "topic": "LLM serving",
@@ -16761,6 +16805,27 @@
       "Multimodal / MLLM Serving",
       "Video / Image Generation",
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "EditStream: A Unified Autoregressive Framework for Interactive Video Generation and Editing",
+    "venue": "Fresh / preprint",
+    "topic": "video/image generation acceleration",
+    "arxiv": "2608.21424",
+    "doi": "",
+    "official_id": "arXiv:2608.21424",
+    "paper_url": "https://arxiv.org/abs/2608.21424",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "EditStream distills a unified video DiT into a fast few-step autoregressive streaming generator through VMM plus autoregressive unrolling, explicitly targeting practical interactive video-generation latency.",
+    "published_at": "2026-08-16T07:27:18Z",
+    "updated_at": "2026-08-16T07:27:18Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
@@ -18178,6 +18243,28 @@
     ]
   },
   {
+    "title": "Kozuchi Agent: A Language-Agnostic Open-Weight Agent for Software Repair",
+    "venue": "Fresh / preprint",
+    "topic": "video/image generation acceleration / edge/cloud/heterogeneous AI systems",
+    "arxiv": "2608.15579",
+    "doi": "",
+    "official_id": "arXiv:2608.15579",
+    "paper_url": "https://arxiv.org/abs/2608.15579",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Kozuchi Agent combines persistent state, deterministic tools, a model-independent action interface and cross-agent test-time selection in a CI-operated repair pipeline, providing concrete open-weight agent-runtime engineering and benchmark evidence.",
+    "published_at": "2026-08-16T07:06:37Z",
+    "updated_at": "2026-08-16T07:06:37Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Video / Image Generation",
+      "Efficient Reasoning / Agents",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "KV Admission: Learning What to Write for Efficient Long-Context LLM Inference",
     "venue": "Fresh / preprint",
     "topic": "KV cache/long-context",
@@ -18195,6 +18282,27 @@
     "tracking_tier": "Canonical",
     "directions": [
       "KV Cache / Long Context"
+    ]
+  },
+  {
+    "title": "KV-Rescue: Recovering Reasoning Language Model KV Eviction Loss via Stepwise Interleaving",
+    "venue": "Fresh / preprint",
+    "topic": "Efficient ML / AI Infra",
+    "arxiv": "2608.15797",
+    "doi": "",
+    "official_id": "arXiv:2608.15797",
+    "paper_url": "https://arxiv.org/abs/2608.15797",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "KV-Rescue targets aggressive long-reasoning KV eviction with a lightweight full-context helper and stepwise interleaving, directly addressing the accuracy/degeneration cost of bounded KV-cache inference; strong KV-cache efficiency lineage.",
+    "published_at": "2026-08-16T15:23:25Z",
+    "updated_at": "2026-08-16T15:23:25Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "KV Cache / Long Context",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -19208,6 +19316,27 @@
     "tracking_tier": "P0 · Strong",
     "directions": [
       "Video / Image Generation",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "Ontology-Grounded Project Memory for Coding Agents",
+    "venue": "Fresh / preprint",
+    "topic": "Efficient ML / AI Infra",
+    "arxiv": "2608.13662",
+    "doi": "",
+    "official_id": "arXiv:2608.13662",
+    "paper_url": "https://arxiv.org/abs/2608.13662",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "MOOSEDev provides coding agents with persistent ontology-grounded project memory through MCP and compares it against vector-memory and long-context alternatives in matched system-level evaluation; strong agent-memory/runtime systems lineage.",
+    "published_at": "2026-08-13T18:03:00Z",
+    "updated_at": "2026-08-13T18:03:00Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "KV Cache / Long Context",
       "Efficient Reasoning / Agents"
     ]
   },
@@ -21984,6 +22113,28 @@
       "LLM Serving",
       "Video / Image Generation",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "When Denoising Hurts: Rethinking the Terminal Step of Diffusion Time Series Forecasters -- Extended Version",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / video/image generation acceleration",
+    "arxiv": "2608.14067",
+    "doi": "",
+    "official_id": "arXiv:2608.14067",
+    "paper_url": "https://arxiv.org/abs/2608.14067",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "This diffusion forecasting work identifies harmful late denoising and introduces a label-free global stopping criterion that terminates reverse diffusion early, explicitly speeding inference while improving forecast quality; direct diffusion-step reduction evidence.",
+    "published_at": "2026-08-14T08:25:01Z",
+    "updated_at": "2026-08-14T08:25:01Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
