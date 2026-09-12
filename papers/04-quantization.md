@@ -1,10 +1,10 @@
 # 04 · Quantization
 
-> **247 canonical papers** mapped here, plus a broader **153-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **247 canonical papers** mapped here, plus a broader **154-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 153 tracked
+## 🆕 Latest 30 Days · 154 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -95,6 +95,7 @@
 | **P1 · Watch** | **Transforms for LLM Quantization: The Great Inversion and Format Co-Design** | arXiv 2026 | quantization / number-format co-design / transform methods | [Link](https://arxiv.org/abs/2608.25188) | — |
 | **P0 · Strong** | **Maia 200: A Software Defined Dataflow System for Large-scale AI Acceleration** | Fresh / preprint | edge/cloud/heterogeneous AI systems / production inference accelerator / dataflow architecture | [Link](https://arxiv.org/abs/2608.24664) | — |
 | **P1 · Watch** | **Hydra: Phase-Aware Workload Characterization of LLM Inference across Edge SoC Generations, Backends, and Quantization Levels** | Fresh / preprint | edge AI / LLM inference / quantization characterization | [Link](https://arxiv.org/abs/2608.25053) | — |
+| **P1 · Watch** | **Compression Trinity: Exploring Sparsity, Quantization, and Low-Rank Approximations for LLM Compression** | Fresh / preprint | quantization / sparsity/pruning / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.24070) | — |
 | **P1 · Watch** | **PuzzleKV: Page-Wise Low-Rank Decomposition for KV Cache Compression** | Fresh / preprint | KV cache / low-rank compression / autoregressive decode | [Link](https://arxiv.org/abs/2608.23843) | — |
 | **P1 · Watch** | **Beyond Dense Adam States: Adaptive Log-Space Quantization for Memory-Efficient Optimizers** | Fresh / preprint | memory-efficient training / optimizer-state quantization / low-precision optimizer | [Link](https://arxiv.org/abs/2608.22322) | — |
 | **P1 · Watch** | **A JoLT for the KV cache: Near-lossless KV cache compression via joint Lagrangian allocation of Tucker ranks and a rotated residual for llms** | Fresh / preprint | LLM serving / KV cache/long-context / quantization | [Link](https://arxiv.org/abs/2607.12550) | — |

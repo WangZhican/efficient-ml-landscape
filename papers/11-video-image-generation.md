@@ -1,15 +1,16 @@
 # 11 · Video / Image Generation
 
-> **92 canonical papers** mapped here, plus a broader **73-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **93 canonical papers** mapped here, plus a broader **76-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 73 tracked
+## 🆕 Latest 30 Days · 76 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **P1 · Watch** | **Uncertainty DMD: Restoring Diversity in Few-Step Autoregressive Video Distillation** | arXiv 2026 | video/image generation acceleration | [Link](https://arxiv.org/abs/2609.11265) | — |
 | **P1 · Watch** | **Streaming4D: Accelerate 4D World Models via Block-wise Video Generation and Incremental Reconstruction** | arXiv 2026 | VLA/WAM/Physical AI serving / world-model acceleration / streaming 4D reconstruction | [Link](https://arxiv.org/abs/2609.00610) | — |
+| **P1 · Watch** | **SpecGuard: Inference-Time Backdoor Detection For Free** | Fresh / preprint | LLM serving / speculative decoding / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.11799) | — |
 | **P1 · Watch** | **FreeTransformSR: Efficient Lightweight Image Super-Resolution via Free Low-Rank Learnable Transform** | arXiv 2026 | video/image generation acceleration / lightweight image restoration | [Link](https://arxiv.org/abs/2609.05912) | [Repo](https://github.com/HJiLi/FreeTransformSR) |
 | **P1 · Watch** | **TurboT2VA: Fast Large-Scale Text-to-Video-Audio Generation via Score-Regularized Consistency Distillation** | Fresh / preprint | video/image generation acceleration / multimodal diffusion / quantization / sparse attention | [Link](https://arxiv.org/abs/2608.24674) | — |
 | **P0 · Strong** | **RoLA: Rotary-Positioned Low-Rank Linear Attention for Efficient Diffusion Transformers** | arXiv 2026 | video/image generation acceleration / diffusion/flow acceleration / efficient attention | [Link](https://arxiv.org/abs/2609.06712) | — |
@@ -50,11 +51,13 @@
 | **P1 · Watch** | **ClusterAttention: A training-free speedup of bidirectional attention** | Fresh / preprint | efficient attention / sparse attention / video generation | [Link](https://arxiv.org/abs/2608.26965) | — |
 | **P1 · Watch** | **Activation Outliers Matter: Robust Recovery for Quantized Multimodal LLMs** | Fresh / preprint | quantization / multimodal / video generation | [Link](https://arxiv.org/abs/2608.26581) | — |
 | **P1 · Watch** | **A Method for Layer Bit-Width Allocation in LLM Quantization via Performance Maximization Under a Quality-Degradation Constraint** | Fresh / preprint | LLM serving / KV cache/long-context / quantization / efficient attention / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.28003) | — |
+| **P0 · Strong** | **TemporalFlow-VLA: Learning Physically Grounded Execution History for Long-Horizon Robot Manipulation** | Fresh / preprint | LLM serving / multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.26821) | — |
 | **P1 · Watch** | **Characterizing CPU-Induced Slowdowns in Multi-GPU LLM Inference** | Fresh / preprint | LLM serving / KV cache/long-context / video/image generation acceleration / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2603.22774) | — |
 | **P0 · Strong** | **Scorpio: Serving Right Requests at the Right Time for Heterogeneous SLOs in LLM Inference** | Fresh / preprint | LLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2505.23022) | — |
 | **P1 · Watch** | **Efficient Training with Foresight: Multi-Token Auxiliary Supervision for Autoregressive Image Generation** | Fresh / preprint | LLM serving / sparsity/pruning / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.25386) | — |
 | **P1 · Watch** | **PonderPounce: A Pretrained MLLM as an Episode Context Engine for Robot Control** | Fresh / preprint | LLM serving / multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.24115) | — |
 | **P1 · Watch** | **Latent Action as Intention Enables Efficient Future Imagination for World Action Models** | Fresh / preprint | Physical AI / WAM / latent action / inference latency | [Link](https://arxiv.org/abs/2608.24882) | — |
+| **P1 · Watch** | **Compression Trinity: Exploring Sparsity, Quantization, and Low-Rank Approximations for LLM Compression** | Fresh / preprint | quantization / sparsity/pruning / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.24070) | — |
 | **P1 · Watch** | **E2LLM: Towards Efficient LLM Serving in Heterogeneous Edge/Fog Environments** | Fresh / preprint | LLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2606.03770) | — |
 | **P2 · Relevant** | **GS-VLA: Plug-and-Play Viewpoint Canonicalization for Frozen VLA Policies via Gaussian Splatting** | Fresh / preprint | Physical AI / VLA robustness / lightweight runtime module | [Link](https://arxiv.org/abs/2608.19066) | — |
 | **P1 · Watch** | **Partition the Support, Reconstruct the Residual: Training-Free Sparse Attention for Video Generation and World Models** | Fresh / preprint | efficient attention / video generation / world models | [Link](https://arxiv.org/abs/2608.18484) | — |

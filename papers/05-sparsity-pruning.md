@@ -1,10 +1,10 @@
 # 05 · Sparsity / Pruning
 
-> **282 canonical papers** mapped here, plus a broader **150-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **282 canonical papers** mapped here, plus a broader **151-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 150 tracked
+## 🆕 Latest 30 Days · 151 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -93,6 +93,7 @@
 | **P0 · Strong** | **APT: Accelerating Diffusion Transformers via Attention Probability-Guided Pruning and Quantization** | Fresh / preprint | diffusion acceleration / sparse attention / quantization / accelerator | [Link](https://arxiv.org/abs/2608.25380) | — |
 | **P0 · Strong** | **VisCache: Visual KV Cache Pruning for Efficient Vision Large Language Model Inference** | EMNLP 2026 Main Conference | multimodal/MLLM serving / KV cache / pruning / video inference | [Link](https://arxiv.org/abs/2608.24063) | [Repo](https://github.com/Wlklk/VisCache) |
 | **P1 · Watch** | **VisCache: Visual KV Cache Pruning for Efficient Vision Large Language Model Inference** | Fresh / preprint | multimodal serving / visual KV cache / pruning | [Link](https://arxiv.org/abs/2608.24063) | — |
+| **P1 · Watch** | **Compression Trinity: Exploring Sparsity, Quantization, and Low-Rank Approximations for LLM Compression** | Fresh / preprint | quantization / sparsity/pruning / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.24070) | — |
 | **P1 · Watch** | **E2S-Pruner: Progressive Two-Stage Evidence Fusion for Visual Token Pruning in Vision-Language Models** | Fresh / preprint | visual token pruning / MLLM inference / throughput acceleration | [Link](https://arxiv.org/abs/2608.23253) | — |
 | **P1 · Watch** | **NeuroPrefetcher: Storage-Aware Sparse LLM Inference via Delta Prefetching** | Fresh / preprint | edge LLM serving / storage-backed sparse inference / predictive delta prefetching | [Link](https://arxiv.org/abs/2608.22643) | — |
 | **P1 · Watch** | **Read Less, Solve More: Token-Efficient Sparse Reading for AI Agents** | Fresh / preprint | efficient reasoning / agent systems / context admission / latency | [Link](https://arxiv.org/abs/2608.22237) | — |

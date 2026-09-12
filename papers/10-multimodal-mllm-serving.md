@@ -1,10 +1,10 @@
 # 10 · Multimodal / MLLM Serving
 
-> **228 canonical papers** mapped here, plus a broader **175-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **229 canonical papers** mapped here, plus a broader **178-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 175 tracked
+## 🆕 Latest 30 Days · 178 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -103,12 +103,15 @@
 | **P0 · Strong** | **AdaVLA: Adaptive Step Flow Matching for Training-free Acceleration of Vision-Language-Action Models** | Fresh / preprint | VLA/WAM/Physical AI serving / flow acceleration | [Link](https://arxiv.org/abs/2608.29208) | — |
 | **P0 · Strong** | **SCALE: Self-uncertainty Conditioned Adaptive Looking and Execution for Vision-Language-Action Models** | ICML 2026 | Physical AI / VLA inference / test-time scaling / single-pass adaptive execution | [Link](https://arxiv.org/abs/2602.04208) | [Repo](https://github.com/snumprlab/scale) |
 | **P0 · Strong** | **Pro-Router: Token-Aware Progressive Model Routing with Adaptive Edge-Cloud Collaboration for Efficient Multimodal LLM Inference** | CoRR 2026 | multimodal/MLLM serving / edge-cloud routing / adaptive inference | [Link](https://arxiv.org/abs/2608.28726) | [Repo](https://github.com/xinyuangui2/pro-router) |
+| **P1 · Watch** | **GRAFT: Grounded and Efficient Online Reinforcement Adaptation for Fine-Grained Robot Manipulation** | Fresh / preprint | multimodal/MLLM serving / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.27079) | — |
 | **P1 · Watch** | **Activation Outliers Matter: Robust Recovery for Quantized Multimodal LLMs** | Fresh / preprint | quantization / multimodal / video generation | [Link](https://arxiv.org/abs/2608.26581) | — |
+| **P0 · Strong** | **TemporalFlow-VLA: Learning Physically Grounded Execution History for Long-Horizon Robot Manipulation** | Fresh / preprint | LLM serving / multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.26821) | — |
 | **P0 · Strong** | **PACE: A Unified Condense-and-Extract Paradigm for Fast VLM Inference** | arXiv 2026 | multimodal/MLLM serving / visual token efficiency | [Link](https://arxiv.org/abs/2608.27206) | [Repo](https://github.com/jjL357/PACE) |
 | **P1 · Watch** | **VoiceMem: Streaming Dual-Brain Memory for Real-Time Interaction** | Fresh / preprint | agent systems / streaming memory / real-time multimodal | [Link](https://arxiv.org/abs/2608.26005) | — |
 | **P0 · Strong** | **Training-Free Interaction-Aligned Visual Token Pruning for Efficient Embodied Manipulation** | Fresh / preprint | sparsity/pruning / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2603.22991) | — |
 | **P2 · Relevant** | **StreamPI: Streaming Multimodal Temporal Modeling for Vision-Language-Action Models** | Fresh / preprint | Physical AI / VLA streaming | [Link](https://arxiv.org/abs/2608.26067) | — |
 | **P0 · Strong** | **ST-Lite: Training-Free KV Cache Compression with Spatio-Trajectory Guidance for Long-Horizon GUI Agents** | Fresh / preprint | LLM serving / KV cache/long-context / sparsity/pruning / multimodal/MLLM serving | [Link](https://arxiv.org/abs/2603.00188) | [Repo](https://github.com/94wen94/ST-Lite) |
+| **P1 · Watch** | **RA-VLA: Retrieval-Augmented VLA for Test-Time Adaptation** | Fresh / preprint | LLM serving / multimodal/MLLM serving / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.25585) | — |
 | **P0 · Strong** | **Learning to Accelerate Vision-Language-Action Models through Adaptive Visual Token Caching** | Fresh / preprint | sparsity/pruning / multimodal/MLLM serving / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2602.00686) | — |
 | **P0 · Strong** | **VisCache: Visual KV Cache Pruning for Efficient Vision Large Language Model Inference** | EMNLP 2026 Main Conference | multimodal/MLLM serving / KV cache / pruning / video inference | [Link](https://arxiv.org/abs/2608.24063) | [Repo](https://github.com/Wlklk/VisCache) |
 | **P1 · Watch** | **VisCache: Visual KV Cache Pruning for Efficient Vision Large Language Model Inference** | Fresh / preprint | multimodal serving / visual KV cache / pruning | [Link](https://arxiv.org/abs/2608.24063) | — |

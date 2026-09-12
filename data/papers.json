@@ -16266,6 +16266,29 @@
     ]
   },
   {
+    "title": "TemporalFlow-VLA: Learning Physically Grounded Execution History for Long-Horizon Robot Manipulation",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving",
+    "arxiv": "2608.26821",
+    "doi": "",
+    "official_id": "arXiv:2608.26821",
+    "paper_url": "https://arxiv.org/abs/2608.26821",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Protected Physical-AI: asynchronous feature caching preserves single-frame server-side sampling latency for long-horizon VLA temporal conditioning.",
+    "published_at": "2026-08-27",
+    "updated_at": "2026-08-28",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
+      "Video / Image Generation",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "TokenPilot: Cache-Efficient Context Management for LLM Agents",
     "venue": "Fresh / preprint",
     "topic": "sparsity/pruning",

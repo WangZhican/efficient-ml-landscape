@@ -1,14 +1,15 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **408 canonical papers** mapped here, plus a broader **284-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **408 canonical papers** mapped here, plus a broader **285-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 284 tracked
+## 🆕 Latest 30 Days · 285 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **P0 · Strong** | **VikingRAG: Accurate and Token-efficient Retrieval-augmented Generation over Structured Documents** | arXiv 2026 | efficient reasoning/agent systems / token-efficient RAG serving | [Link](https://arxiv.org/abs/2609.11390) | — |
+| **P1 · Watch** | **SpecGuard: Inference-Time Backdoor Detection For Free** | Fresh / preprint | LLM serving / speculative decoding / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.11799) | — |
 | **P0 · Strong** | **PATTON: Enabling Commodity PIM for Production LLM Serving** | arXiv 2026 | LLM serving / KV cache / PIM accelerator runtime | [Link](https://arxiv.org/abs/2609.11392) | — |
 | **P0 · Strong** | **PACE: Perceived-Latency-Aware Cascading Service Routing and Filler Control for QoE-Efficient Retrieval-Augmented Dialogue Serving** | arXiv 2026 | LLM serving / RAG serving / Physical AI cloud-edge runtime / dialogue systems | [Link](https://arxiv.org/abs/2609.10372) | — |
 | **P1 · Watch** | **ORCH: Organizational Principles Enable Collective Intelligence in Embodied AI** | arXiv 2026 | VLA/WAM/Physical AI serving / embodied multi-agent orchestration | [Link](https://arxiv.org/abs/2609.11737) | — |

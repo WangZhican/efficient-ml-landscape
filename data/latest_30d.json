@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-12",
   "window_start_beijing": "2026-08-13",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 1066,
+  "tracked_total": 1071,
   "p0_strong_or_canonical": [
     {
       "title": "VikingRAG: Accurate and Token-efficient Retrieval-augmented Generation over Structured Documents",
@@ -5584,6 +5584,29 @@
       ]
     },
     {
+      "title": "TemporalFlow-VLA: Learning Physically Grounded Execution History for Long-Horizon Robot Manipulation",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving",
+      "arxiv": "2608.26821",
+      "doi": "",
+      "official_id": "arXiv:2608.26821",
+      "paper_url": "https://arxiv.org/abs/2608.26821",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Protected Physical-AI: asynchronous feature caching preserves single-frame server-side sampling latency for long-horizon VLA temporal conditioning.",
+      "published_at": "2026-08-27",
+      "updated_at": "2026-08-28",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Video / Image Generation",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Pushing the Envelope of LLM Inference with Ultra-Low-Bit Quantized Models",
       "venue": "Fresh / preprint",
       "topic": "LLM serving / quantization / GPU kernel/DSL/compilers",
@@ -7519,6 +7542,29 @@
         "LLM Serving",
         "Video / Image Generation",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "SpecGuard: Inference-Time Backdoor Detection For Free",
+      "venue": "",
+      "topic": "LLM serving / speculative decoding / video/image generation acceleration / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2609.11799",
+      "doi": "",
+      "official_id": "arXiv:2609.11799",
+      "paper_url": "https://arxiv.org/abs/2609.11799",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Speculative-decoding acceptance signals reused as zero-extra-model-compute runtime monitoring; security-led but directly relevant speculative-serving instrumentation.",
+      "published_at": "2026-09-10",
+      "updated_at": "2026-09-11",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Speculative Decoding",
+        "Video / Image Generation",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -15244,6 +15290,28 @@
       ]
     },
     {
+      "title": "GRAFT: Grounded and Efficient Online Reinforcement Adaptation for Fine-Grained Robot Manipulation",
+      "venue": "",
+      "topic": "multimodal/MLLM serving / VLA/WAM/Physical AI serving",
+      "arxiv": "2608.27079",
+      "doi": "",
+      "official_id": "arXiv:2608.27079",
+      "paper_url": "https://arxiv.org/abs/2608.27079",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI correction: online VLA adaptation explicitly reuses cached visual-language prefixes to reduce inference/replay update overhead.",
+      "published_at": "2026-08-28",
+      "updated_at": "2026-08-31",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "ClusterAttention: A training-free speedup of bidirectional attention",
       "venue": "",
       "topic": "efficient attention / sparse attention / video generation",
@@ -15461,6 +15529,29 @@
       "directions": [
         "LLM Serving",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "RA-VLA: Retrieval-Augmented VLA for Test-Time Adaptation",
+      "venue": "",
+      "topic": "LLM serving / multimodal/MLLM serving / VLA/WAM/Physical AI serving",
+      "arxiv": "2608.25585",
+      "doi": "",
+      "official_id": "arXiv:2608.25585",
+      "paper_url": "https://arxiv.org/abs/2608.25585",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI: retrieval-augmented VLA test-time adaptation claims preserved inference efficiency across simulation and real-robot settings.",
+      "published_at": "2026-08-26",
+      "updated_at": "2026-08-27",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -15756,6 +15847,28 @@
       "directions": [
         "Quantization",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Compression Trinity: Exploring Sparsity, Quantization, and Low-Rank Approximations for LLM Compression",
+      "venue": "",
+      "topic": "quantization / sparsity/pruning / video/image generation acceleration",
+      "arxiv": "2608.24070",
+      "doi": "",
+      "official_id": "arXiv:2608.24070",
+      "paper_url": "https://arxiv.org/abs/2608.24070",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Unified sparsity/quantization/low-rank compression lineage with measured training and inference speedups across several component methods.",
+      "published_at": "2026-08-25",
+      "updated_at": "2026-08-26",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Sparsity / Pruning",
+        "Video / Image Generation"
       ]
     },
     {
@@ -28638,6 +28751,29 @@
       ]
     },
     {
+      "title": "TemporalFlow-VLA: Learning Physically Grounded Execution History for Long-Horizon Robot Manipulation",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving",
+      "arxiv": "2608.26821",
+      "doi": "",
+      "official_id": "arXiv:2608.26821",
+      "paper_url": "https://arxiv.org/abs/2608.26821",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Protected Physical-AI: asynchronous feature caching preserves single-frame server-side sampling latency for long-horizon VLA temporal conditioning.",
+      "published_at": "2026-08-27",
+      "updated_at": "2026-08-28",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Video / Image Generation",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Pushing the Envelope of LLM Inference with Ultra-Low-Bit Quantized Models",
       "venue": "Fresh / preprint",
       "topic": "LLM serving / quantization / GPU kernel/DSL/compilers",
@@ -30571,6 +30707,29 @@
         "LLM Serving",
         "Video / Image Generation",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "SpecGuard: Inference-Time Backdoor Detection For Free",
+      "venue": "",
+      "topic": "LLM serving / speculative decoding / video/image generation acceleration / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2609.11799",
+      "doi": "",
+      "official_id": "arXiv:2609.11799",
+      "paper_url": "https://arxiv.org/abs/2609.11799",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Speculative-decoding acceptance signals reused as zero-extra-model-compute runtime monitoring; security-led but directly relevant speculative-serving instrumentation.",
+      "published_at": "2026-09-10",
+      "updated_at": "2026-09-11",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Speculative Decoding",
+        "Video / Image Generation",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -38296,6 +38455,28 @@
       ]
     },
     {
+      "title": "GRAFT: Grounded and Efficient Online Reinforcement Adaptation for Fine-Grained Robot Manipulation",
+      "venue": "",
+      "topic": "multimodal/MLLM serving / VLA/WAM/Physical AI serving",
+      "arxiv": "2608.27079",
+      "doi": "",
+      "official_id": "arXiv:2608.27079",
+      "paper_url": "https://arxiv.org/abs/2608.27079",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI correction: online VLA adaptation explicitly reuses cached visual-language prefixes to reduce inference/replay update overhead.",
+      "published_at": "2026-08-28",
+      "updated_at": "2026-08-31",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "ClusterAttention: A training-free speedup of bidirectional attention",
       "venue": "",
       "topic": "efficient attention / sparse attention / video generation",
@@ -38513,6 +38694,29 @@
       "directions": [
         "LLM Serving",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "RA-VLA: Retrieval-Augmented VLA for Test-Time Adaptation",
+      "venue": "",
+      "topic": "LLM serving / multimodal/MLLM serving / VLA/WAM/Physical AI serving",
+      "arxiv": "2608.25585",
+      "doi": "",
+      "official_id": "arXiv:2608.25585",
+      "paper_url": "https://arxiv.org/abs/2608.25585",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI: retrieval-augmented VLA test-time adaptation claims preserved inference efficiency across simulation and real-robot settings.",
+      "published_at": "2026-08-26",
+      "updated_at": "2026-08-27",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -38808,6 +39012,28 @@
       "directions": [
         "Quantization",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Compression Trinity: Exploring Sparsity, Quantization, and Low-Rank Approximations for LLM Compression",
+      "venue": "",
+      "topic": "quantization / sparsity/pruning / video/image generation acceleration",
+      "arxiv": "2608.24070",
+      "doi": "",
+      "official_id": "arXiv:2608.24070",
+      "paper_url": "https://arxiv.org/abs/2608.24070",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Unified sparsity/quantization/low-rank compression lineage with measured training and inference speedups across several component methods.",
+      "published_at": "2026-08-25",
+      "updated_at": "2026-08-26",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Sparsity / Pruning",
+        "Video / Image Generation"
       ]
     },
     {
