@@ -15873,6 +15873,30 @@
     ]
   },
   {
+    "title": "Buried in Textual Debt: Context Pruning with Visual Evidence Preservation for MLLM Agents",
+    "venue": "Fresh / preprint",
+    "topic": "sparsity/pruning / multimodal/MLLM serving / video/image generation acceleration",
+    "arxiv": "2608.22963",
+    "doi": "",
+    "official_id": "arXiv:2608.22963",
+    "paper_url": "https://arxiv.org/abs/2608.22963",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "SPARE uses KL-guided self-distillation to prune accumulated reasoning in multimodal tool-use agents while preserving visual evidence, removing 37.89-64.58% of reasoning tokens with strong accuracy-context trade-offs; direct agent-context efficiency evidence.",
+    "published_at": "2026-08-24T08:29:17Z",
+    "updated_at": "2026-08-27T11:42:10Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Multimodal / MLLM Serving",
+      "Video / Image Generation",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "CacheRoute: Planned Prefix-Affinity Routing for Large-Scale LLM Serving",
     "venue": "Fresh / preprint",
     "topic": "LLM serving",
@@ -16108,6 +16132,28 @@
     "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving",
+      "Video / Image Generation",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "ContextPipe: Database-Inspired Context Assembly for Long-Horizon Agents",
+    "venue": "Fresh / preprint",
+    "topic": "KV cache/long-context / video/image generation acceleration / efficient reasoning/agent systems",
+    "arxiv": "2609.00749",
+    "doi": "",
+    "official_id": "arXiv:2609.00749",
+    "paper_url": "https://arxiv.org/abs/2609.00749",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "ContextPipe treats long-horizon agent context assembly as a database-style Plan/Bind/Optimize/Execute/Feedback pipeline; preliminary SWE-bench evaluation cuts token volume 31%, LLM calls 23%, and response time 9%.",
+    "published_at": "2026-09-01T05:27:38Z",
+    "updated_at": "2026-09-01T05:27:38Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "KV Cache / Long Context",
       "Video / Image Generation",
       "Efficient Reasoning / Agents"
     ]
@@ -16892,6 +16938,27 @@
     ]
   },
   {
+    "title": "FORGE: Forward-Only Test-Time Adaptation for Integer-Only Vision Models on Microcontrollers",
+    "venue": "Fresh / preprint",
+    "topic": "quantization",
+    "arxiv": "2609.01683",
+    "doi": "",
+    "official_id": "arXiv:2609.01683",
+    "paper_url": "https://arxiv.org/abs/2609.01683",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "FORGE enables forward-only test-time adaptation directly on BN-folded integer-only MCU vision models and validates bit-exact int8 deployment, recovering most gradient-based adaptation benefit without backprop machinery.",
+    "published_at": "2026-09-01T13:59:28Z",
+    "updated_at": "2026-09-01T13:59:28Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Quantization",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "ForgeWM: Progressive Causal Training for Few-Step Action-Conditioned Video World Models",
     "venue": "Fresh / preprint",
     "topic": "LLM serving / video/image generation acceleration",
@@ -17632,6 +17699,29 @@
     ]
   },
   {
+    "title": "Invalidation Contracts for Cross-Episode Agent Memory",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems",
+    "arxiv": "2609.00243",
+    "doi": "",
+    "official_id": "arXiv:2609.00243",
+    "paper_url": "https://arxiv.org/abs/2609.00243",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Invalidation contracts add versioned cacheability semantics to cross-episode agent recovery memory, recovering 29-33% of baseline token cost on multiple models while preventing stale cached fixes after data drift.",
+    "published_at": "2026-08-31T18:45:07Z",
+    "updated_at": "2026-08-31T18:45:07Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Video / Image Generation",
+      "Efficient Reasoning / Agents",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Kascade: A Practical Sparse Attention Method for Long-Context LLM Inference",
     "venue": "Fresh / preprint",
     "topic": "LLM serving / KV cache/long-context / sparsity/pruning / efficient attention",
@@ -18236,6 +18326,27 @@
     ]
   },
   {
+    "title": "MemoryWalker: Stop Training Agents on Contexts They Never Saw",
+    "venue": "Fresh / preprint",
+    "topic": "video/image generation acceleration",
+    "arxiv": "2609.00865",
+    "doi": "",
+    "official_id": "arXiv:2609.00865",
+    "paper_url": "https://arxiv.org/abs/2609.00865",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "MemoryWalker addresses train-deployment mismatch created by context compression in production agent harnesses, providing exact gradient-equivalent tree corrections and a one-backward-pass self-distillation relaxation.",
+    "published_at": "2026-09-01T08:01:27Z",
+    "updated_at": "2026-09-01T08:01:27Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Video / Image Generation",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "MeshReduce-U: Compiler-Guided Communication Reduction for Irregular Neural Reductions on Mesh NoCs",
     "venue": "Fresh / preprint",
     "topic": "LLM serving / GPU kernel/DSL/compilers",
@@ -18650,6 +18761,28 @@
     "directions": [
       "LLM Serving",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "Parser States Already Know: Structure-Conditioned KV Persistence for Structured Generation",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / video/image generation acceleration",
+    "arxiv": "2608.28276",
+    "doi": "",
+    "official_id": "arXiv:2608.28276",
+    "paper_url": "https://arxiv.org/abs/2608.28276",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "PASK turns parser-state structure into task-risk-aware KV persistence for JSON/SQL/function-call generation, reporting up to 2.2x throughput, 3.3x lower TPOT and 0.53x peak GPU memory at compressed budgets.",
+    "published_at": "2026-08-28T12:38:56Z",
+    "updated_at": "2026-08-28T12:38:56Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Video / Image Generation"
     ]
   },
   {
@@ -20373,6 +20506,28 @@
     "directions": [
       "LLM Serving",
       "Quantization"
+    ]
+  },
+  {
+    "title": "The Retriever Should Remember: Experience-Amortized Reranking for Long-Term Agent Memory",
+    "venue": "Fresh / preprint",
+    "topic": "video/image generation acceleration",
+    "arxiv": "2608.22767",
+    "doi": "",
+    "official_id": "arXiv:2608.22767",
+    "paper_url": "https://arxiv.org/abs/2608.22767",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "EARM amortizes expensive LLM reranking across an agent lifetime by reusing sparse query-memory relevance scores via causal matrix completion, retaining utility with only 17.5% of candidates directly rescored.",
+    "published_at": "2026-08-24T03:42:03Z",
+    "updated_at": "2026-08-24T03:42:03Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Sparsity / Pruning",
+      "Video / Image Generation",
+      "Efficient Reasoning / Agents"
     ]
   },
   {

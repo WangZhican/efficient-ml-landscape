@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-13",
   "window_start_beijing": "2026-08-14",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 1340,
+  "tracked_total": 1359,
   "p0_strong_or_canonical": [
     {
       "title": "AccelForge: Comprehensive Modeling and Co-Design Framework for AI Accelerators",
@@ -5157,6 +5157,27 @@
       ]
     },
     {
+      "title": "FORGE: Forward-Only Test-Time Adaptation for Integer-Only Vision Models on Microcontrollers",
+      "venue": "Fresh / preprint",
+      "topic": "quantization",
+      "arxiv": "2609.01683",
+      "doi": "",
+      "official_id": "arXiv:2609.01683",
+      "paper_url": "https://arxiv.org/abs/2609.01683",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "FORGE enables forward-only test-time adaptation directly on BN-folded integer-only MCU vision models and validates bit-exact int8 deployment, recovering most gradient-based adaptation benefit without backprop machinery.",
+      "published_at": "2026-09-01T13:59:28Z",
+      "updated_at": "2026-09-01T13:59:28Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Quantization",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "S$^2$Prune: Spatially Structured Visual Token Pruning for Multimodal Large Language Models",
       "venue": "Fresh / preprint",
       "topic": "sparsity/pruning / multimodal/MLLM serving / edge/cloud/heterogeneous AI systems",
@@ -5358,6 +5379,27 @@
       ]
     },
     {
+      "title": "MemoryWalker: Stop Training Agents on Contexts They Never Saw",
+      "venue": "Fresh / preprint",
+      "topic": "video/image generation acceleration",
+      "arxiv": "2609.00865",
+      "doi": "",
+      "official_id": "arXiv:2609.00865",
+      "paper_url": "https://arxiv.org/abs/2609.00865",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "MemoryWalker addresses train-deployment mismatch created by context compression in production agent harnesses, providing exact gradient-equivalent tree corrections and a one-backward-pass self-distillation relaxation.",
+      "published_at": "2026-09-01T08:01:27Z",
+      "updated_at": "2026-09-01T08:01:27Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "LLM Inference on IMC-NoC Architecture with Balanced Dataflow and Fine-Grained Parallelism",
       "venue": "Extended LEAP / ICCAD 2025",
       "topic": "LLM serving / accelerator architecture / IMC-NoC / prefill-decode disaggregation",
@@ -5419,6 +5461,28 @@
         "KV Cache / Long Context",
         "Sparsity / Pruning",
         "MoE Systems / Accelerators"
+      ]
+    },
+    {
+      "title": "ContextPipe: Database-Inspired Context Assembly for Long-Horizon Agents",
+      "venue": "Fresh / preprint",
+      "topic": "KV cache/long-context / video/image generation acceleration / efficient reasoning/agent systems",
+      "arxiv": "2609.00749",
+      "doi": "",
+      "official_id": "arXiv:2609.00749",
+      "paper_url": "https://arxiv.org/abs/2609.00749",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "ContextPipe treats long-horizon agent context assembly as a database-style Plan/Bind/Optimize/Execute/Feedback pipeline; preliminary SWE-bench evaluation cuts token volume 31%, LLM calls 23%, and response time 9%.",
+      "published_at": "2026-09-01T05:27:38Z",
+      "updated_at": "2026-09-01T05:27:38Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "KV Cache / Long Context",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -5575,6 +5639,29 @@
         "Multimodal / MLLM Serving",
         "Video / Image Generation",
         "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "Invalidation Contracts for Cross-Episode Agent Memory",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2609.00243",
+      "doi": "",
+      "official_id": "arXiv:2609.00243",
+      "paper_url": "https://arxiv.org/abs/2609.00243",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Invalidation contracts add versioned cacheability semantics to cross-episode agent recovery memory, recovering 29-33% of baseline token cost on multiple models while preventing stale cached fixes after data drift.",
+      "published_at": "2026-08-31T18:45:07Z",
+      "updated_at": "2026-08-31T18:45:07Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -6527,6 +6614,28 @@
       "directions": [
         "LLM Serving",
         "KV Cache / Long Context"
+      ]
+    },
+    {
+      "title": "Parser States Already Know: Structure-Conditioned KV Persistence for Structured Generation",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / video/image generation acceleration",
+      "arxiv": "2608.28276",
+      "doi": "",
+      "official_id": "arXiv:2608.28276",
+      "paper_url": "https://arxiv.org/abs/2608.28276",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "PASK turns parser-state structure into task-risk-aware KV persistence for JSON/SQL/function-call generation, reporting up to 2.2x throughput, 3.3x lower TPOT and 0.53x peak GPU memory at compressed budgets.",
+      "published_at": "2026-08-28T12:38:56Z",
+      "updated_at": "2026-08-28T12:38:56Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Video / Image Generation"
       ]
     },
     {
@@ -7639,6 +7748,52 @@
         "LLM Serving",
         "MoE Systems / Accelerators",
         "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Buried in Textual Debt: Context Pruning with Visual Evidence Preservation for MLLM Agents",
+      "venue": "Fresh / preprint",
+      "topic": "sparsity/pruning / multimodal/MLLM serving / video/image generation acceleration",
+      "arxiv": "2608.22963",
+      "doi": "",
+      "official_id": "arXiv:2608.22963",
+      "paper_url": "https://arxiv.org/abs/2608.22963",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "SPARE uses KL-guided self-distillation to prune accumulated reasoning in multimodal tool-use agents while preserving visual evidence, removing 37.89-64.58% of reasoning tokens with strong accuracy-context trade-offs; direct agent-context efficiency evidence.",
+      "published_at": "2026-08-24T08:29:17Z",
+      "updated_at": "2026-08-27T11:42:10Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Multimodal / MLLM Serving",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "The Retriever Should Remember: Experience-Amortized Reranking for Long-Term Agent Memory",
+      "venue": "Fresh / preprint",
+      "topic": "video/image generation acceleration",
+      "arxiv": "2608.22767",
+      "doi": "",
+      "official_id": "arXiv:2608.22767",
+      "paper_url": "https://arxiv.org/abs/2608.22767",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "EARM amortizes expensive LLM reranking across an agent lifetime by reusing sparse query-memory relevance scores via causal matrix completion, retaining utility with only 17.5% of candidates directly rescored.",
+      "published_at": "2026-08-24T03:42:03Z",
+      "updated_at": "2026-08-24T03:42:03Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Sparsity / Pruning",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -9780,6 +9935,27 @@
     }
   ],
   "p1_watchlist": [
+    {
+      "title": "GPU-CFR: 80x Faster Counterfactual Regret Minimization by Compiling the Game to Static Dataflow and CUDA Graph Replay",
+      "venue": "",
+      "topic": "GPU kernel/DSL/compilers",
+      "arxiv": "2609.11923",
+      "doi": "",
+      "official_id": "arXiv:2609.11923",
+      "paper_url": "https://arxiv.org/abs/2609.11923",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "GPU-CFR compiles a fixed iterative workload into static dataflow plus CUDA Graph Replay and reports 29.8-80.4x over prior GPU implementations; strong compiler/runtime technique but outside core ML-model serving, so retained as kernel-systems watch.",
+      "published_at": "2026-09-10T17:58:14Z",
+      "updated_at": "2026-09-10T17:58:14Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
     {
       "title": "EVPeriscope: Extended Perception across Aerial and Ground Vehicles with Event-based Propeller Tracking",
       "venue": "arXiv 2026",
@@ -18645,6 +18821,28 @@
       ]
     },
     {
+      "title": "Evidence for Shared Routing Geometry and Dynamics in Sparse Mixture-of-Experts",
+      "venue": "",
+      "topic": "MoE systems/accelerators",
+      "arxiv": "2609.02404",
+      "doi": "",
+      "official_id": "arXiv:2609.02404",
+      "paper_url": "https://arxiv.org/abs/2609.02404",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Shared MoE routing geometry shows much of layer-to-layer routing-state evolution is predictable in a common subspace; potentially valuable for expert prediction/prefetch, but no serving acceleration is demonstrated yet.",
+      "published_at": "2026-09-02T10:17:12Z",
+      "updated_at": "2026-09-02T10:17:12Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "MoE Systems / Accelerators"
+      ]
+    },
+    {
       "title": "LookStep: Efficient Vision-Language Navigation with Linguistic Foresight and Event Driven Memory",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / embodied navigation / bounded memory",
@@ -18969,6 +19167,29 @@
       ]
     },
     {
+      "title": "The Price of Remembering: A Calibrated Energy Law for Computation",
+      "venue": "",
+      "topic": "LLM serving / KV cache/long-context / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2609.00744",
+      "doi": "",
+      "official_id": "arXiv:2609.00744",
+      "paper_url": "https://arxiv.org/abs/2609.00744",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "A calibrated energy law explicitly prices operations, live-state rent and data-movement fare and derives long-context attention versus recurrent-state energy scaling; valuable theory for memory-energy co-design, not a deployed system.",
+      "published_at": "2026-09-01T05:24:12Z",
+      "updated_at": "2026-09-02T05:27:29Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Efficient Attention",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Escaping Redundant Reasoning: Structure-Aware Search for Inference-Time LLMs",
       "venue": "",
       "topic": "LLM serving / video/image generation acceleration",
@@ -19185,6 +19406,29 @@
         "Video / Image Generation",
         "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Can Video World Models Track Unobserved World States?",
+      "venue": "",
+      "topic": "KV cache/long-context / efficient attention / video/image generation acceleration",
+      "arxiv": "2608.30692",
+      "doi": "",
+      "official_id": "arXiv:2608.30692",
+      "paper_url": "https://arxiv.org/abs/2608.30692",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI/WAM: the study shows visually plausible video world models can fail hidden-state tracking and identifies recurrent in-place state updates as the mechanism that extrapolates, relevant to stateful WAM architecture/runtime design.",
+      "published_at": "2026-08-31T12:29:24Z",
+      "updated_at": "2026-08-31T12:29:24Z",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context",
+        "Efficient Attention",
+        "Video / Image Generation",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -20061,6 +20305,27 @@
       ]
     },
     {
+      "title": "Understanding Evolution Strategies for LLM Reasoning: Broader Reasoning Coverage than GRPO",
+      "venue": "",
+      "topic": "sparsity/pruning",
+      "arxiv": "2608.27351",
+      "doi": "",
+      "official_id": "arXiv:2608.27351",
+      "paper_url": "https://arxiv.org/abs/2608.27351",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Evolution Strategies are analyzed as a memory-efficient LLM reasoning post-training paradigm and combined with GRPO; retain as efficient reasoning-training lineage, though systems timing evidence is secondary.",
+      "published_at": "2026-08-27T16:48:39Z",
+      "updated_at": "2026-08-28T12:17:58Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Sparsity / Pruning",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "GRAFT: Grounded and Efficient Online Reinforcement Adaptation for Fine-Grained Robot Manipulation",
       "venue": "",
       "topic": "multimodal/MLLM serving / VLA/WAM/Physical AI serving",
@@ -20294,6 +20559,28 @@
         "Video / Image Generation",
         "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Reconstructing the Right Episode: Evaluating Interleaved Conversational Memory Beyond Long Context",
+      "venue": "",
+      "topic": "KV cache/long-context / video/image generation acceleration",
+      "arxiv": "2608.25655",
+      "doi": "",
+      "official_id": "arXiv:2608.25655",
+      "paper_url": "https://arxiv.org/abs/2608.25655",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "SCALE-QA/TSIM studies flat mixed-topic long-term assistant memory and hierarchical episode reconstruction up to 1M context; useful agent-memory systems evidence rather than direct acceleration.",
+      "published_at": "2026-08-26T11:37:03Z",
+      "updated_at": "2026-08-26T11:37:03Z",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -20689,6 +20976,26 @@
         "LLM Serving",
         "MoE Systems / Accelerators",
         "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "Low-Rank Ternary Adaptation for Fine-Tuning Transformers",
+      "venue": "",
+      "topic": "quantization",
+      "arxiv": "2608.24469",
+      "doi": "",
+      "official_id": "arXiv:2608.24469",
+      "paper_url": "https://arxiv.org/abs/2608.24469",
+      "code_url": "https://github.com/alexmanoo/ternary_adaptation",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Low-rank ternary adaptation preserves fully ternary weights and merges updates without dequantization, useful ultra-low-bit training/deployment lineage though direct end-to-end inference speed is not measured.",
+      "published_at": "2026-08-25T12:15:56Z",
+      "updated_at": "2026-08-25T12:15:56Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization"
       ]
     },
     {
@@ -21309,6 +21616,28 @@
       ]
     },
     {
+      "title": "Budget-Constrained Embodied Perception: Four Resource Walls and a Pre-Registered Evaluation of Access-Structured Perception on Open Models at less than 31B",
+      "venue": "",
+      "topic": "video/image generation acceleration / VLA/WAM/Physical AI serving",
+      "arxiv": "2608.22975",
+      "doi": "",
+      "official_id": "arXiv:2608.22975",
+      "paper_url": "https://arxiv.org/abs/2608.22975",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI: ASP formalizes four resource walls for embodied perception under fixed decision-token budgets and evaluates structured episodic access; retain despite mixed ablations because it directly studies bounded embodied context.",
+      "published_at": "2026-08-24T08:34:57Z",
+      "updated_at": "2026-08-24T08:34:57Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "FOVEA: Focused On-Demand Visual Evidence Adaptation for Cache-Friendly Multimodal Speculative Decoding",
       "venue": "",
       "topic": "multimodal speculative decoding / visual evidence retrieval / cache-friendly inference",
@@ -21539,6 +21868,27 @@
       ]
     },
     {
+      "title": "SANE: State Anomaly Neutralization for Stable Extreme-Context Delta-Rule Models",
+      "venue": "",
+      "topic": "LLM serving",
+      "arxiv": "2608.22354",
+      "doi": "",
+      "official_id": "arXiv:2608.22354",
+      "paper_url": "https://arxiv.org/abs/2608.22354",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "SANE stabilizes fixed-state delta-rule models to 100M-token extrapolation with chunk-boundary adaptive compression; relevant recurrent-state/long-context robustness evidence, but not primarily a latency improvement.",
+      "published_at": "2026-08-23T10:41:07Z",
+      "updated_at": "2026-08-25T03:15:23Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context"
+      ]
+    },
+    {
       "title": "Beyond Dense Adam States: Adaptive Log-Space Quantization for Memory-Efficient Optimizers",
       "venue": "",
       "topic": "memory-efficient training / optimizer-state quantization / low-precision optimizer",
@@ -21685,6 +22035,26 @@
       "directions": [
         "GPU Kernel / DSL / Compiler",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "DefaultShift: Auditing Semantic Default Shift in Accelerated Text-to-Image Models",
+      "venue": "",
+      "topic": "video/image generation acceleration",
+      "arxiv": "2608.21784",
+      "doi": "",
+      "official_id": "arXiv:2608.21784",
+      "paper_url": "https://arxiv.org/abs/2608.21784",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "DefaultShift audits semantic distribution shift introduced by few-step text-to-image acceleration and calibrates replacements to reduce measured shift; useful generation-acceleration quality-audit lineage rather than a speed method itself.",
+      "published_at": "2026-08-22T05:35:09Z",
+      "updated_at": "2026-08-22T05:35:09Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Video / Image Generation"
       ]
     },
     {
@@ -23432,6 +23802,28 @@
       ]
     },
     {
+      "title": "StructRL: Structured Action-Space Exploration for Flow-Based VLAs",
+      "venue": "",
+      "topic": "multimodal/MLLM serving / VLA/WAM/Physical AI serving",
+      "arxiv": "2608.15139",
+      "doi": "",
+      "official_id": "arXiv:2608.15139",
+      "paper_url": "https://arxiv.org/abs/2608.15139",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI: StructRL restructures stochastic exploration for flow-based VLAs with deterministic ODE decoding and action-space noise; retain as action-head/flow training lineage, though its gain is exploration quality rather than inference speed.",
+      "published_at": "2026-08-15T09:31:29Z",
+      "updated_at": "2026-08-15T09:31:29Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Collective Communication for Distributed LLM Systems: Planning, Runtime Adaptation, and Computation Coordination",
       "venue": "arXiv 2026",
       "topic": "distributed training/inference / collective communication / runtime adaptation",
@@ -23584,6 +23976,30 @@
         "KV Cache / Long Context",
         "Sparsity / Pruning",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "NPU Offloading of a Frozen Visual Encoder for Robot Policy Training",
+      "venue": "",
+      "topic": "video/image generation acceleration / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2608.15002",
+      "doi": "",
+      "official_id": "arXiv:2608.15002",
+      "paper_url": "https://arxiv.org/abs/2608.15002",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI: asynchronous NPU offload of a frozen robot-policy visual encoder reduces training energy per sample up to 27.9% and GPU memory about 20%, useful heterogeneous embodied-training evidence despite longer wall time.",
+      "published_at": "2026-08-15T03:19:09Z",
+      "updated_at": "2026-08-15T03:19:09Z",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context",
+        "GPU Kernel / DSL / Compiler",
+        "Video / Image Generation",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -34263,6 +34679,27 @@
       ]
     },
     {
+      "title": "FORGE: Forward-Only Test-Time Adaptation for Integer-Only Vision Models on Microcontrollers",
+      "venue": "Fresh / preprint",
+      "topic": "quantization",
+      "arxiv": "2609.01683",
+      "doi": "",
+      "official_id": "arXiv:2609.01683",
+      "paper_url": "https://arxiv.org/abs/2609.01683",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "FORGE enables forward-only test-time adaptation directly on BN-folded integer-only MCU vision models and validates bit-exact int8 deployment, recovering most gradient-based adaptation benefit without backprop machinery.",
+      "published_at": "2026-09-01T13:59:28Z",
+      "updated_at": "2026-09-01T13:59:28Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Quantization",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "S$^2$Prune: Spatially Structured Visual Token Pruning for Multimodal Large Language Models",
       "venue": "Fresh / preprint",
       "topic": "sparsity/pruning / multimodal/MLLM serving / edge/cloud/heterogeneous AI systems",
@@ -34464,6 +34901,27 @@
       ]
     },
     {
+      "title": "MemoryWalker: Stop Training Agents on Contexts They Never Saw",
+      "venue": "Fresh / preprint",
+      "topic": "video/image generation acceleration",
+      "arxiv": "2609.00865",
+      "doi": "",
+      "official_id": "arXiv:2609.00865",
+      "paper_url": "https://arxiv.org/abs/2609.00865",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "MemoryWalker addresses train-deployment mismatch created by context compression in production agent harnesses, providing exact gradient-equivalent tree corrections and a one-backward-pass self-distillation relaxation.",
+      "published_at": "2026-09-01T08:01:27Z",
+      "updated_at": "2026-09-01T08:01:27Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "LLM Inference on IMC-NoC Architecture with Balanced Dataflow and Fine-Grained Parallelism",
       "venue": "Extended LEAP / ICCAD 2025",
       "topic": "LLM serving / accelerator architecture / IMC-NoC / prefill-decode disaggregation",
@@ -34525,6 +34983,28 @@
         "KV Cache / Long Context",
         "Sparsity / Pruning",
         "MoE Systems / Accelerators"
+      ]
+    },
+    {
+      "title": "ContextPipe: Database-Inspired Context Assembly for Long-Horizon Agents",
+      "venue": "Fresh / preprint",
+      "topic": "KV cache/long-context / video/image generation acceleration / efficient reasoning/agent systems",
+      "arxiv": "2609.00749",
+      "doi": "",
+      "official_id": "arXiv:2609.00749",
+      "paper_url": "https://arxiv.org/abs/2609.00749",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "ContextPipe treats long-horizon agent context assembly as a database-style Plan/Bind/Optimize/Execute/Feedback pipeline; preliminary SWE-bench evaluation cuts token volume 31%, LLM calls 23%, and response time 9%.",
+      "published_at": "2026-09-01T05:27:38Z",
+      "updated_at": "2026-09-01T05:27:38Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "KV Cache / Long Context",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -34681,6 +35161,29 @@
         "Multimodal / MLLM Serving",
         "Video / Image Generation",
         "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "Invalidation Contracts for Cross-Episode Agent Memory",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2609.00243",
+      "doi": "",
+      "official_id": "arXiv:2609.00243",
+      "paper_url": "https://arxiv.org/abs/2609.00243",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Invalidation contracts add versioned cacheability semantics to cross-episode agent recovery memory, recovering 29-33% of baseline token cost on multiple models while preventing stale cached fixes after data drift.",
+      "published_at": "2026-08-31T18:45:07Z",
+      "updated_at": "2026-08-31T18:45:07Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -35633,6 +36136,28 @@
       "directions": [
         "LLM Serving",
         "KV Cache / Long Context"
+      ]
+    },
+    {
+      "title": "Parser States Already Know: Structure-Conditioned KV Persistence for Structured Generation",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / video/image generation acceleration",
+      "arxiv": "2608.28276",
+      "doi": "",
+      "official_id": "arXiv:2608.28276",
+      "paper_url": "https://arxiv.org/abs/2608.28276",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "PASK turns parser-state structure into task-risk-aware KV persistence for JSON/SQL/function-call generation, reporting up to 2.2x throughput, 3.3x lower TPOT and 0.53x peak GPU memory at compressed budgets.",
+      "published_at": "2026-08-28T12:38:56Z",
+      "updated_at": "2026-08-28T12:38:56Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Video / Image Generation"
       ]
     },
     {
@@ -36745,6 +37270,52 @@
         "LLM Serving",
         "MoE Systems / Accelerators",
         "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Buried in Textual Debt: Context Pruning with Visual Evidence Preservation for MLLM Agents",
+      "venue": "Fresh / preprint",
+      "topic": "sparsity/pruning / multimodal/MLLM serving / video/image generation acceleration",
+      "arxiv": "2608.22963",
+      "doi": "",
+      "official_id": "arXiv:2608.22963",
+      "paper_url": "https://arxiv.org/abs/2608.22963",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "SPARE uses KL-guided self-distillation to prune accumulated reasoning in multimodal tool-use agents while preserving visual evidence, removing 37.89-64.58% of reasoning tokens with strong accuracy-context trade-offs; direct agent-context efficiency evidence.",
+      "published_at": "2026-08-24T08:29:17Z",
+      "updated_at": "2026-08-27T11:42:10Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Multimodal / MLLM Serving",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "The Retriever Should Remember: Experience-Amortized Reranking for Long-Term Agent Memory",
+      "venue": "Fresh / preprint",
+      "topic": "video/image generation acceleration",
+      "arxiv": "2608.22767",
+      "doi": "",
+      "official_id": "arXiv:2608.22767",
+      "paper_url": "https://arxiv.org/abs/2608.22767",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "EARM amortizes expensive LLM reranking across an agent lifetime by reusing sparse query-memory relevance scores via causal matrix completion, retaining utility with only 17.5% of candidates directly rescored.",
+      "published_at": "2026-08-24T03:42:03Z",
+      "updated_at": "2026-08-24T03:42:03Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Sparsity / Pruning",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -38882,6 +39453,27 @@
       "directions": [
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "GPU-CFR: 80x Faster Counterfactual Regret Minimization by Compiling the Game to Static Dataflow and CUDA Graph Replay",
+      "venue": "",
+      "topic": "GPU kernel/DSL/compilers",
+      "arxiv": "2609.11923",
+      "doi": "",
+      "official_id": "arXiv:2609.11923",
+      "paper_url": "https://arxiv.org/abs/2609.11923",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "GPU-CFR compiles a fixed iterative workload into static dataflow plus CUDA Graph Replay and reports 29.8-80.4x over prior GPU implementations; strong compiler/runtime technique but outside core ML-model serving, so retained as kernel-systems watch.",
+      "published_at": "2026-09-10T17:58:14Z",
+      "updated_at": "2026-09-10T17:58:14Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler"
       ]
     },
     {
@@ -47749,6 +48341,28 @@
       ]
     },
     {
+      "title": "Evidence for Shared Routing Geometry and Dynamics in Sparse Mixture-of-Experts",
+      "venue": "",
+      "topic": "MoE systems/accelerators",
+      "arxiv": "2609.02404",
+      "doi": "",
+      "official_id": "arXiv:2609.02404",
+      "paper_url": "https://arxiv.org/abs/2609.02404",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Shared MoE routing geometry shows much of layer-to-layer routing-state evolution is predictable in a common subspace; potentially valuable for expert prediction/prefetch, but no serving acceleration is demonstrated yet.",
+      "published_at": "2026-09-02T10:17:12Z",
+      "updated_at": "2026-09-02T10:17:12Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "MoE Systems / Accelerators"
+      ]
+    },
+    {
       "title": "LookStep: Efficient Vision-Language Navigation with Linguistic Foresight and Event Driven Memory",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / embodied navigation / bounded memory",
@@ -48073,6 +48687,29 @@
       ]
     },
     {
+      "title": "The Price of Remembering: A Calibrated Energy Law for Computation",
+      "venue": "",
+      "topic": "LLM serving / KV cache/long-context / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2609.00744",
+      "doi": "",
+      "official_id": "arXiv:2609.00744",
+      "paper_url": "https://arxiv.org/abs/2609.00744",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "A calibrated energy law explicitly prices operations, live-state rent and data-movement fare and derives long-context attention versus recurrent-state energy scaling; valuable theory for memory-energy co-design, not a deployed system.",
+      "published_at": "2026-09-01T05:24:12Z",
+      "updated_at": "2026-09-02T05:27:29Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Efficient Attention",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Escaping Redundant Reasoning: Structure-Aware Search for Inference-Time LLMs",
       "venue": "",
       "topic": "LLM serving / video/image generation acceleration",
@@ -48289,6 +48926,29 @@
         "Video / Image Generation",
         "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Can Video World Models Track Unobserved World States?",
+      "venue": "",
+      "topic": "KV cache/long-context / efficient attention / video/image generation acceleration",
+      "arxiv": "2608.30692",
+      "doi": "",
+      "official_id": "arXiv:2608.30692",
+      "paper_url": "https://arxiv.org/abs/2608.30692",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI/WAM: the study shows visually plausible video world models can fail hidden-state tracking and identifies recurrent in-place state updates as the mechanism that extrapolates, relevant to stateful WAM architecture/runtime design.",
+      "published_at": "2026-08-31T12:29:24Z",
+      "updated_at": "2026-08-31T12:29:24Z",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context",
+        "Efficient Attention",
+        "Video / Image Generation",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -49165,6 +49825,27 @@
       ]
     },
     {
+      "title": "Understanding Evolution Strategies for LLM Reasoning: Broader Reasoning Coverage than GRPO",
+      "venue": "",
+      "topic": "sparsity/pruning",
+      "arxiv": "2608.27351",
+      "doi": "",
+      "official_id": "arXiv:2608.27351",
+      "paper_url": "https://arxiv.org/abs/2608.27351",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Evolution Strategies are analyzed as a memory-efficient LLM reasoning post-training paradigm and combined with GRPO; retain as efficient reasoning-training lineage, though systems timing evidence is secondary.",
+      "published_at": "2026-08-27T16:48:39Z",
+      "updated_at": "2026-08-28T12:17:58Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Sparsity / Pruning",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "GRAFT: Grounded and Efficient Online Reinforcement Adaptation for Fine-Grained Robot Manipulation",
       "venue": "",
       "topic": "multimodal/MLLM serving / VLA/WAM/Physical AI serving",
@@ -49398,6 +50079,28 @@
         "Video / Image Generation",
         "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Reconstructing the Right Episode: Evaluating Interleaved Conversational Memory Beyond Long Context",
+      "venue": "",
+      "topic": "KV cache/long-context / video/image generation acceleration",
+      "arxiv": "2608.25655",
+      "doi": "",
+      "official_id": "arXiv:2608.25655",
+      "paper_url": "https://arxiv.org/abs/2608.25655",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "SCALE-QA/TSIM studies flat mixed-topic long-term assistant memory and hierarchical episode reconstruction up to 1M context; useful agent-memory systems evidence rather than direct acceleration.",
+      "published_at": "2026-08-26T11:37:03Z",
+      "updated_at": "2026-08-26T11:37:03Z",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -49793,6 +50496,26 @@
         "LLM Serving",
         "MoE Systems / Accelerators",
         "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "Low-Rank Ternary Adaptation for Fine-Tuning Transformers",
+      "venue": "",
+      "topic": "quantization",
+      "arxiv": "2608.24469",
+      "doi": "",
+      "official_id": "arXiv:2608.24469",
+      "paper_url": "https://arxiv.org/abs/2608.24469",
+      "code_url": "https://github.com/alexmanoo/ternary_adaptation",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Low-rank ternary adaptation preserves fully ternary weights and merges updates without dequantization, useful ultra-low-bit training/deployment lineage though direct end-to-end inference speed is not measured.",
+      "published_at": "2026-08-25T12:15:56Z",
+      "updated_at": "2026-08-25T12:15:56Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization"
       ]
     },
     {
@@ -50413,6 +51136,28 @@
       ]
     },
     {
+      "title": "Budget-Constrained Embodied Perception: Four Resource Walls and a Pre-Registered Evaluation of Access-Structured Perception on Open Models at less than 31B",
+      "venue": "",
+      "topic": "video/image generation acceleration / VLA/WAM/Physical AI serving",
+      "arxiv": "2608.22975",
+      "doi": "",
+      "official_id": "arXiv:2608.22975",
+      "paper_url": "https://arxiv.org/abs/2608.22975",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI: ASP formalizes four resource walls for embodied perception under fixed decision-token budgets and evaluates structured episodic access; retain despite mixed ablations because it directly studies bounded embodied context.",
+      "published_at": "2026-08-24T08:34:57Z",
+      "updated_at": "2026-08-24T08:34:57Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "FOVEA: Focused On-Demand Visual Evidence Adaptation for Cache-Friendly Multimodal Speculative Decoding",
       "venue": "",
       "topic": "multimodal speculative decoding / visual evidence retrieval / cache-friendly inference",
@@ -50643,6 +51388,27 @@
       ]
     },
     {
+      "title": "SANE: State Anomaly Neutralization for Stable Extreme-Context Delta-Rule Models",
+      "venue": "",
+      "topic": "LLM serving",
+      "arxiv": "2608.22354",
+      "doi": "",
+      "official_id": "arXiv:2608.22354",
+      "paper_url": "https://arxiv.org/abs/2608.22354",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "SANE stabilizes fixed-state delta-rule models to 100M-token extrapolation with chunk-boundary adaptive compression; relevant recurrent-state/long-context robustness evidence, but not primarily a latency improvement.",
+      "published_at": "2026-08-23T10:41:07Z",
+      "updated_at": "2026-08-25T03:15:23Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context"
+      ]
+    },
+    {
       "title": "Beyond Dense Adam States: Adaptive Log-Space Quantization for Memory-Efficient Optimizers",
       "venue": "",
       "topic": "memory-efficient training / optimizer-state quantization / low-precision optimizer",
@@ -50789,6 +51555,26 @@
       "directions": [
         "GPU Kernel / DSL / Compiler",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "DefaultShift: Auditing Semantic Default Shift in Accelerated Text-to-Image Models",
+      "venue": "",
+      "topic": "video/image generation acceleration",
+      "arxiv": "2608.21784",
+      "doi": "",
+      "official_id": "arXiv:2608.21784",
+      "paper_url": "https://arxiv.org/abs/2608.21784",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "DefaultShift audits semantic distribution shift introduced by few-step text-to-image acceleration and calibrates replacements to reduce measured shift; useful generation-acceleration quality-audit lineage rather than a speed method itself.",
+      "published_at": "2026-08-22T05:35:09Z",
+      "updated_at": "2026-08-22T05:35:09Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Video / Image Generation"
       ]
     },
     {
@@ -52536,6 +53322,28 @@
       ]
     },
     {
+      "title": "StructRL: Structured Action-Space Exploration for Flow-Based VLAs",
+      "venue": "",
+      "topic": "multimodal/MLLM serving / VLA/WAM/Physical AI serving",
+      "arxiv": "2608.15139",
+      "doi": "",
+      "official_id": "arXiv:2608.15139",
+      "paper_url": "https://arxiv.org/abs/2608.15139",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI: StructRL restructures stochastic exploration for flow-based VLAs with deterministic ODE decoding and action-space noise; retain as action-head/flow training lineage, though its gain is exploration quality rather than inference speed.",
+      "published_at": "2026-08-15T09:31:29Z",
+      "updated_at": "2026-08-15T09:31:29Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Collective Communication for Distributed LLM Systems: Planning, Runtime Adaptation, and Computation Coordination",
       "venue": "arXiv 2026",
       "topic": "distributed training/inference / collective communication / runtime adaptation",
@@ -52688,6 +53496,30 @@
         "KV Cache / Long Context",
         "Sparsity / Pruning",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "NPU Offloading of a Frozen Visual Encoder for Robot Policy Training",
+      "venue": "",
+      "topic": "video/image generation acceleration / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2608.15002",
+      "doi": "",
+      "official_id": "arXiv:2608.15002",
+      "paper_url": "https://arxiv.org/abs/2608.15002",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI: asynchronous NPU offload of a frozen robot-policy visual encoder reduces training energy per sample up to 27.9% and GPU memory about 20%, useful heterogeneous embodied-training evidence despite longer wall time.",
+      "published_at": "2026-08-15T03:19:09Z",
+      "updated_at": "2026-08-15T03:19:09Z",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context",
+        "GPU Kernel / DSL / Compiler",
+        "Video / Image Generation",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
