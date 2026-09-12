@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-12",
   "window_start_beijing": "2026-08-13",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 1071,
+  "tracked_total": 1089,
   "p0_strong_or_canonical": [
     {
       "title": "VikingRAG: Accurate and Token-efficient Retrieval-augmented Generation over Structured Documents",
@@ -1733,6 +1733,28 @@
         "Multimodal / MLLM Serving",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Less is MoE: Trimming Experts in Domain-Specialist Language Models",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / MoE systems/accelerators / video/image generation acceleration",
+      "arxiv": "2606.05538",
+      "doi": "",
+      "official_id": "arXiv:2606.05538",
+      "paper_url": "https://arxiv.org/abs/2606.05538",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "MoE intermediate-dimension compression reducing weight memory about 45% while improving inference throughput by 21%.",
+      "published_at": "2026-09-08",
+      "updated_at": "2026-09-10",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "MoE Systems / Accelerators",
+        "Video / Image Generation"
       ]
     },
     {
@@ -4966,6 +4988,27 @@
       ]
     },
     {
+      "title": "Beyond Tokens: Semantic-Aware Speculative Decoding for Efficient Inference by Probing Internal States",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / speculative decoding",
+      "arxiv": "2602.03708",
+      "doi": "",
+      "official_id": "arXiv:2602.03708",
+      "paper_url": "https://arxiv.org/abs/2602.03708",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Semantic-aware speculative decoding with hidden-state semantic probability estimates and up to 2.7x measured speedup.",
+      "published_at": "2026-08-31",
+      "updated_at": "2026-09-02",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Speculative Decoding"
+      ]
+    },
+    {
       "title": "A Universal Context-Reuse Layer for Cross-Model KV Sharing",
       "venue": "arXiv 2026",
       "topic": "KV cache / LLM serving / cross-model context reuse / multi-agent inference",
@@ -5786,6 +5829,29 @@
       ]
     },
     {
+      "title": "SANTS: A State-Adaptive Scheduler for World Action Models",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving",
+      "arxiv": "2605.27947",
+      "doi": "",
+      "official_id": "arXiv:2605.27947",
+      "paper_url": "https://arxiv.org/abs/2605.27947",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Protected Physical-AI: state-adaptive WAM denoising scheduler explicitly penalizing redundant video-state updates for faster action generation.",
+      "published_at": "2026-08-26",
+      "updated_at": "2026-08-27",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation",
+        "Diffusion / Flow Acceleration",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Rethinking Agentic Kernel Generation for Emerging Accelerators",
       "venue": "Fresh / preprint",
       "topic": "GPU kernel/DSL/compilers / efficient reasoning/agent systems",
@@ -5849,6 +5915,28 @@
         "Sparsity / Pruning",
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Goodput Maximization for Large Language Model Edge Inference: A Two-Phase Maskable PPO Approach",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2608.25543",
+      "doi": "",
+      "official_id": "arXiv:2608.25543",
+      "paper_url": "https://arxiv.org/abs/2608.25543",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "LLM edge-serving goodput optimization under strict SLO constraints with joint offload and bandwidth allocation.",
+      "published_at": "2026-08-26",
+      "updated_at": "2026-08-27",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -6031,6 +6119,27 @@
       ]
     },
     {
+      "title": "LOCKS: Page-Local Compact Key Summaries for Efficient Long-Context Decoding",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / KV cache/long-context",
+      "arxiv": "2607.24555",
+      "doi": "",
+      "official_id": "arXiv:2607.24555",
+      "paper_url": "https://arxiv.org/abs/2607.24555",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Page-local compact KV key summaries for long-context decoding that select pages without reading candidate K/V tensors.",
+      "published_at": "2026-08-24",
+      "updated_at": "2026-08-26",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context"
+      ]
+    },
+    {
       "title": "ExFold: Unified Expert Folding for Training-Free MoE Prefill-Decode Acceleration",
       "venue": "Fresh / preprint",
       "topic": "MoE systems / LLM serving / CUDA kernel",
@@ -6073,6 +6182,32 @@
       ]
     },
     {
+      "title": "Spatio-Temporal Parallelism for Diffusion Model Inference on Heterogeneous Multi-GPU Systems",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / sparsity/pruning / video/image generation acceleration / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2509.04719",
+      "doi": "",
+      "official_id": "arXiv:2509.04719",
+      "paper_url": "https://arxiv.org/abs/2509.04719",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Heterogeneous multi-GPU diffusion inference with spatio-temporal parallelism and load-adaptive denoising/patch allocation.",
+      "published_at": "2026-08-23",
+      "updated_at": "2026-08-25",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference",
+        "Video / Image Generation",
+        "Diffusion / Flow Acceleration",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "NOVA: Technology-Architecture Co-Design of Near-Memory Processing for Attention-SSM-MoE Hybrid LLM Inference",
       "venue": "MICRO 2026",
       "topic": "LLM inference / MoE / SSM / near-memory processing / architecture co-design",
@@ -6093,6 +6228,30 @@
         "Efficient Attention",
         "MoE Systems / Accelerators",
         "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Last But Not Least: Boundary Attention CalibratiON for Multimodal KV Cache Compression",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / KV cache/long-context / multimodal/MLLM serving / video/image generation acceleration",
+      "arxiv": "2606.14782",
+      "doi": "",
+      "official_id": "arXiv:2606.14782",
+      "paper_url": "https://arxiv.org/abs/2606.14782",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Plug-and-play multimodal KV-cache compression using boundary attention calibration under aggressive budgets.",
+      "published_at": "2026-08-23",
+      "updated_at": "2026-08-25",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Efficient Attention",
+        "Multimodal / MLLM Serving",
+        "Video / Image Generation"
       ]
     },
     {
@@ -6577,6 +6736,28 @@
       ]
     },
     {
+      "title": "Belayer: Efficient Fault Tolerance for LLM Agentic RL Training",
+      "venue": "Fresh / preprint",
+      "topic": "video/image generation acceleration / efficient reasoning/agent systems",
+      "arxiv": "2608.14635",
+      "doi": "",
+      "official_id": "arXiv:2608.14635",
+      "paper_url": "https://arxiv.org/abs/2608.14635",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Fault-tolerant LLM agentic-RL training system covering rollout engines and stateful environment execution with low-overhead recovery.",
+      "published_at": "2026-08-18",
+      "updated_at": "2026-08-19",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Distributed Training / Inference",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "AViTS: Adaptive Spatiotemporal Token Selection for Efficient Dynamic-Resolution Generation",
       "venue": "",
       "topic": "diffusion/image generation acceleration / adaptive token selection",
@@ -6596,6 +6777,27 @@
         "Sparsity / Pruning",
         "Video / Image Generation",
         "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "Automatically Generating ML Compiler Backends from Tensor Accelerator ISA Descriptions",
+      "venue": "Fresh / preprint",
+      "topic": "GPU kernel/DSL/compilers / video/image generation acceleration",
+      "arxiv": "2510.09932",
+      "doi": "",
+      "official_id": "arXiv:2510.09932",
+      "paper_url": "https://arxiv.org/abs/2510.09932",
+      "code_url": "https://github.com/act-compiler/act)",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Automatically generated XLA compiler backends from tensor-accelerator ISA descriptions for rapidly changing accelerator designs.",
+      "published_at": "2026-08-18",
+      "updated_at": "2026-08-19",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Video / Image Generation"
       ]
     },
     {
@@ -6746,6 +6948,26 @@
       "directions": [
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Multi-Bin Batching for Increasing LLM Inference Throughput",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving",
+      "arxiv": "2412.04504",
+      "doi": "",
+      "official_id": "arXiv:2412.04504",
+      "paper_url": "https://arxiv.org/abs/2412.04504",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "LLM inference batching policy with throughput-optimal static batching analysis and real-system evaluation against continuous batching.",
+      "published_at": "2026-08-17",
+      "updated_at": "2026-08-18",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving"
       ]
     },
     {
@@ -7016,6 +7238,52 @@
       ]
     },
     {
+      "title": "RAPID-LLM: Resilience-Aware Performance analysis of Infrastructure for Distributed LLM Training and Inference",
+      "venue": "Fresh / preprint",
+      "topic": "MoE systems/accelerators",
+      "arxiv": "2512.19606",
+      "doi": "",
+      "official_id": "arXiv:2512.19606",
+      "paper_url": "https://arxiv.org/abs/2512.19606",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Hardware/network-aware performance modeling for distributed LLM training/inference across hybrid parallelism, congestion, and failures.",
+      "published_at": "2026-08-15",
+      "updated_at": "2026-08-18",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "MoE Systems / Accelerators",
+        "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "LOCAL: Enabling Learning On-device Contiguously for Agent LLMs",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2608.15241",
+      "doi": "",
+      "official_id": "arXiv:2608.15241",
+      "paper_url": "https://arxiv.org/abs/2608.15241",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Single-GPU on-device agent-LLM runtime jointly coordinating scheduler, adapter versions, training, and version-aware KV-cache validity.",
+      "published_at": "2026-08-15",
+      "updated_at": "2026-08-18",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "GPU Kernel / DSL / Compiler",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "From LLM Inference to Agentic Workloads: Characterization and Implications for Serving Systems",
       "venue": "",
       "topic": "agentic serving characterization / systems benchmark",
@@ -7268,6 +7536,28 @@
       ]
     },
     {
+      "title": "Analytical Provisioning for Attention-FFN Disaggregated LLM Serving under Stochastic Workloads",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / KV cache/long-context",
+      "arxiv": "2601.21351",
+      "doi": "",
+      "official_id": "arXiv:2601.21351",
+      "paper_url": "https://arxiv.org/abs/2601.21351",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Analytical provisioning for attention-FFN disaggregated LLM serving under stochastic workloads and synchronized barriers.",
+      "published_at": "2026-08-14",
+      "updated_at": "2026-08-18",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Efficient Attention"
+      ]
+    },
+    {
       "title": "SCOPE: Subspace Clustering with Online Per-Head Top-K Estimation for Sparse Video Attention",
       "venue": "",
       "topic": "sparse video attention / DiT inference",
@@ -7288,6 +7578,29 @@
         "Efficient Attention",
         "Distributed Training / Inference",
         "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "Keep the Future, Drop the Rollout: RIFT for World Action Models",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving",
+      "arxiv": "2608.11521",
+      "doi": "",
+      "official_id": "arXiv:2608.11521",
+      "paper_url": "https://arxiv.org/abs/2608.11521",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Protected Physical-AI: rollout-free WAM future-KV construction reducing action-chunk latency by 68.2-89.1% while preserving success.",
+      "published_at": "2026-08-13",
+      "updated_at": "2026-08-14",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -8853,6 +9166,27 @@
       "directions": [
         "LLM Serving",
         "KV Cache / Long Context",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "KernelGenBench: Can LLMs and Agents Write Efficient Kernels Across Operator Sources and Hardware Platforms?",
+      "venue": "",
+      "topic": "GPU kernel/DSL/compilers / efficient reasoning/agent systems",
+      "arxiv": "2607.27231",
+      "doi": "",
+      "official_id": "arXiv:2607.27231",
+      "paper_url": "https://arxiv.org/abs/2607.27231",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Cross-source/cross-chip benchmark infrastructure for LLM- and agent-generated Triton kernels across six hardware platforms.",
+      "published_at": "2026-09-09",
+      "updated_at": "2026-09-10",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
         "Efficient Reasoning / Agents"
       ]
     },
@@ -14986,6 +15320,29 @@
       ]
     },
     {
+      "title": "CUSUM-Shaped Inference-Time Monitoring and Targeted Re-Decoding for Quantized Small Language Model Reasoning",
+      "venue": "",
+      "topic": "LLM serving / quantization / video/image generation acceleration",
+      "arxiv": "2607.20129",
+      "doi": "",
+      "official_id": "arXiv:2607.20129",
+      "paper_url": "https://arxiv.org/abs/2607.20129",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Inference-time monitoring and targeted KV-state rollback/re-decoding for quantized reasoning models; useful adaptive-decoding systems lineage.",
+      "published_at": "2026-09-02",
+      "updated_at": "2026-09-03",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Compute-in-Memory Attention: A Time-Domain Analog Softmax Circuit with RC-Tunable Temperature",
       "venue": "arXiv 2026",
       "topic": "efficient attention / AI accelerator / compute-in-memory / analog softmax",
@@ -15136,6 +15493,29 @@
         "LLM Serving",
         "Efficient Reasoning / Agents",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Faithfulness Is Not Free: Auditing Offline KV-Cache Quantization in Retrieval-Augmented Generation",
+      "venue": "",
+      "topic": "KV cache/long-context / quantization / video/image generation acceleration",
+      "arxiv": "2608.30996",
+      "doi": "",
+      "official_id": "arXiv:2608.30996",
+      "paper_url": "https://arxiv.org/abs/2608.30996",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Offline KV-cache quantization audit showing accuracy can hide substantial faithfulness regressions in RAG serving.",
+      "published_at": "2026-08-31",
+      "updated_at": "2026-09-01",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Quantization",
+        "Video / Image Generation"
       ]
     },
     {
@@ -16184,6 +16564,29 @@
       "is_latest_30d": true,
       "directions": [
         "LLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Giga-Embeddings: Mixture-of-Experts Encoders for High-Throughput Text Embeddings",
+      "venue": "",
+      "topic": "LLM serving / MoE systems/accelerators / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2608.23806",
+      "doi": "",
+      "official_id": "arXiv:2608.23806",
+      "paper_url": "https://arxiv.org/abs/2608.23806",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Sparse MoE text-embedding model with explicit vLLM serving benchmark and 25% throughput gain over dense 3B in the reported setup.",
+      "published_at": "2026-08-24",
+      "updated_at": "2026-08-26",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "MoE Systems / Accelerators",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -24903,6 +25306,28 @@
       ]
     },
     {
+      "title": "Less is MoE: Trimming Experts in Domain-Specialist Language Models",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / MoE systems/accelerators / video/image generation acceleration",
+      "arxiv": "2606.05538",
+      "doi": "",
+      "official_id": "arXiv:2606.05538",
+      "paper_url": "https://arxiv.org/abs/2606.05538",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "MoE intermediate-dimension compression reducing weight memory about 45% while improving inference throughput by 21%.",
+      "published_at": "2026-09-08",
+      "updated_at": "2026-09-10",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "MoE Systems / Accelerators",
+        "Video / Image Generation"
+      ]
+    },
+    {
       "title": "HDA-MoE: Hybrid Parallelism and Dynamic, Adaptive Scheduling for Mixture-of-Experts with 3D Near-Memory Processing",
       "venue": "arXiv 2026",
       "topic": "MoE systems/accelerators / 3D near-memory processing / hybrid parallelism / runtime scheduling",
@@ -28133,6 +28558,27 @@
       ]
     },
     {
+      "title": "Beyond Tokens: Semantic-Aware Speculative Decoding for Efficient Inference by Probing Internal States",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / speculative decoding",
+      "arxiv": "2602.03708",
+      "doi": "",
+      "official_id": "arXiv:2602.03708",
+      "paper_url": "https://arxiv.org/abs/2602.03708",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Semantic-aware speculative decoding with hidden-state semantic probability estimates and up to 2.7x measured speedup.",
+      "published_at": "2026-08-31",
+      "updated_at": "2026-09-02",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Speculative Decoding"
+      ]
+    },
+    {
       "title": "A Universal Context-Reuse Layer for Cross-Model KV Sharing",
       "venue": "arXiv 2026",
       "topic": "KV cache / LLM serving / cross-model context reuse / multi-agent inference",
@@ -28953,6 +29399,29 @@
       ]
     },
     {
+      "title": "SANTS: A State-Adaptive Scheduler for World Action Models",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving",
+      "arxiv": "2605.27947",
+      "doi": "",
+      "official_id": "arXiv:2605.27947",
+      "paper_url": "https://arxiv.org/abs/2605.27947",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Protected Physical-AI: state-adaptive WAM denoising scheduler explicitly penalizing redundant video-state updates for faster action generation.",
+      "published_at": "2026-08-26",
+      "updated_at": "2026-08-27",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation",
+        "Diffusion / Flow Acceleration",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Rethinking Agentic Kernel Generation for Emerging Accelerators",
       "venue": "Fresh / preprint",
       "topic": "GPU kernel/DSL/compilers / efficient reasoning/agent systems",
@@ -29016,6 +29485,28 @@
         "Sparsity / Pruning",
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Goodput Maximization for Large Language Model Edge Inference: A Two-Phase Maskable PPO Approach",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2608.25543",
+      "doi": "",
+      "official_id": "arXiv:2608.25543",
+      "paper_url": "https://arxiv.org/abs/2608.25543",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "LLM edge-serving goodput optimization under strict SLO constraints with joint offload and bandwidth allocation.",
+      "published_at": "2026-08-26",
+      "updated_at": "2026-08-27",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -29198,6 +29689,27 @@
       ]
     },
     {
+      "title": "LOCKS: Page-Local Compact Key Summaries for Efficient Long-Context Decoding",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / KV cache/long-context",
+      "arxiv": "2607.24555",
+      "doi": "",
+      "official_id": "arXiv:2607.24555",
+      "paper_url": "https://arxiv.org/abs/2607.24555",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Page-local compact KV key summaries for long-context decoding that select pages without reading candidate K/V tensors.",
+      "published_at": "2026-08-24",
+      "updated_at": "2026-08-26",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context"
+      ]
+    },
+    {
       "title": "ExFold: Unified Expert Folding for Training-Free MoE Prefill-Decode Acceleration",
       "venue": "Fresh / preprint",
       "topic": "MoE systems / LLM serving / CUDA kernel",
@@ -29240,6 +29752,32 @@
       ]
     },
     {
+      "title": "Spatio-Temporal Parallelism for Diffusion Model Inference on Heterogeneous Multi-GPU Systems",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / sparsity/pruning / video/image generation acceleration / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2509.04719",
+      "doi": "",
+      "official_id": "arXiv:2509.04719",
+      "paper_url": "https://arxiv.org/abs/2509.04719",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Heterogeneous multi-GPU diffusion inference with spatio-temporal parallelism and load-adaptive denoising/patch allocation.",
+      "published_at": "2026-08-23",
+      "updated_at": "2026-08-25",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference",
+        "Video / Image Generation",
+        "Diffusion / Flow Acceleration",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "NOVA: Technology-Architecture Co-Design of Near-Memory Processing for Attention-SSM-MoE Hybrid LLM Inference",
       "venue": "MICRO 2026",
       "topic": "LLM inference / MoE / SSM / near-memory processing / architecture co-design",
@@ -29260,6 +29798,30 @@
         "Efficient Attention",
         "MoE Systems / Accelerators",
         "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Last But Not Least: Boundary Attention CalibratiON for Multimodal KV Cache Compression",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / KV cache/long-context / multimodal/MLLM serving / video/image generation acceleration",
+      "arxiv": "2606.14782",
+      "doi": "",
+      "official_id": "arXiv:2606.14782",
+      "paper_url": "https://arxiv.org/abs/2606.14782",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Plug-and-play multimodal KV-cache compression using boundary attention calibration under aggressive budgets.",
+      "published_at": "2026-08-23",
+      "updated_at": "2026-08-25",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Efficient Attention",
+        "Multimodal / MLLM Serving",
+        "Video / Image Generation"
       ]
     },
     {
@@ -29744,6 +30306,28 @@
       ]
     },
     {
+      "title": "Belayer: Efficient Fault Tolerance for LLM Agentic RL Training",
+      "venue": "Fresh / preprint",
+      "topic": "video/image generation acceleration / efficient reasoning/agent systems",
+      "arxiv": "2608.14635",
+      "doi": "",
+      "official_id": "arXiv:2608.14635",
+      "paper_url": "https://arxiv.org/abs/2608.14635",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Fault-tolerant LLM agentic-RL training system covering rollout engines and stateful environment execution with low-overhead recovery.",
+      "published_at": "2026-08-18",
+      "updated_at": "2026-08-19",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Distributed Training / Inference",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "AViTS: Adaptive Spatiotemporal Token Selection for Efficient Dynamic-Resolution Generation",
       "venue": "",
       "topic": "diffusion/image generation acceleration / adaptive token selection",
@@ -29763,6 +30347,27 @@
         "Sparsity / Pruning",
         "Video / Image Generation",
         "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "Automatically Generating ML Compiler Backends from Tensor Accelerator ISA Descriptions",
+      "venue": "Fresh / preprint",
+      "topic": "GPU kernel/DSL/compilers / video/image generation acceleration",
+      "arxiv": "2510.09932",
+      "doi": "",
+      "official_id": "arXiv:2510.09932",
+      "paper_url": "https://arxiv.org/abs/2510.09932",
+      "code_url": "https://github.com/act-compiler/act)",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Automatically generated XLA compiler backends from tensor-accelerator ISA descriptions for rapidly changing accelerator designs.",
+      "published_at": "2026-08-18",
+      "updated_at": "2026-08-19",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Video / Image Generation"
       ]
     },
     {
@@ -29913,6 +30518,26 @@
       "directions": [
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Multi-Bin Batching for Increasing LLM Inference Throughput",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving",
+      "arxiv": "2412.04504",
+      "doi": "",
+      "official_id": "arXiv:2412.04504",
+      "paper_url": "https://arxiv.org/abs/2412.04504",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "LLM inference batching policy with throughput-optimal static batching analysis and real-system evaluation against continuous batching.",
+      "published_at": "2026-08-17",
+      "updated_at": "2026-08-18",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving"
       ]
     },
     {
@@ -30183,6 +30808,52 @@
       ]
     },
     {
+      "title": "RAPID-LLM: Resilience-Aware Performance analysis of Infrastructure for Distributed LLM Training and Inference",
+      "venue": "Fresh / preprint",
+      "topic": "MoE systems/accelerators",
+      "arxiv": "2512.19606",
+      "doi": "",
+      "official_id": "arXiv:2512.19606",
+      "paper_url": "https://arxiv.org/abs/2512.19606",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Hardware/network-aware performance modeling for distributed LLM training/inference across hybrid parallelism, congestion, and failures.",
+      "published_at": "2026-08-15",
+      "updated_at": "2026-08-18",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "MoE Systems / Accelerators",
+        "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "LOCAL: Enabling Learning On-device Contiguously for Agent LLMs",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2608.15241",
+      "doi": "",
+      "official_id": "arXiv:2608.15241",
+      "paper_url": "https://arxiv.org/abs/2608.15241",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Single-GPU on-device agent-LLM runtime jointly coordinating scheduler, adapter versions, training, and version-aware KV-cache validity.",
+      "published_at": "2026-08-15",
+      "updated_at": "2026-08-18",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "GPU Kernel / DSL / Compiler",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "From LLM Inference to Agentic Workloads: Characterization and Implications for Serving Systems",
       "venue": "",
       "topic": "agentic serving characterization / systems benchmark",
@@ -30435,6 +31106,28 @@
       ]
     },
     {
+      "title": "Analytical Provisioning for Attention-FFN Disaggregated LLM Serving under Stochastic Workloads",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / KV cache/long-context",
+      "arxiv": "2601.21351",
+      "doi": "",
+      "official_id": "arXiv:2601.21351",
+      "paper_url": "https://arxiv.org/abs/2601.21351",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Analytical provisioning for attention-FFN disaggregated LLM serving under stochastic workloads and synchronized barriers.",
+      "published_at": "2026-08-14",
+      "updated_at": "2026-08-18",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Efficient Attention"
+      ]
+    },
+    {
       "title": "SCOPE: Subspace Clustering with Online Per-Head Top-K Estimation for Sparse Video Attention",
       "venue": "",
       "topic": "sparse video attention / DiT inference",
@@ -30455,6 +31148,29 @@
         "Efficient Attention",
         "Distributed Training / Inference",
         "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "Keep the Future, Drop the Rollout: RIFT for World Action Models",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving",
+      "arxiv": "2608.11521",
+      "doi": "",
+      "official_id": "arXiv:2608.11521",
+      "paper_url": "https://arxiv.org/abs/2608.11521",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Protected Physical-AI: rollout-free WAM future-KV construction reducing action-chunk latency by 68.2-89.1% while preserving success.",
+      "published_at": "2026-08-13",
+      "updated_at": "2026-08-14",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -32018,6 +32734,27 @@
       "directions": [
         "LLM Serving",
         "KV Cache / Long Context",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "KernelGenBench: Can LLMs and Agents Write Efficient Kernels Across Operator Sources and Hardware Platforms?",
+      "venue": "",
+      "topic": "GPU kernel/DSL/compilers / efficient reasoning/agent systems",
+      "arxiv": "2607.27231",
+      "doi": "",
+      "official_id": "arXiv:2607.27231",
+      "paper_url": "https://arxiv.org/abs/2607.27231",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Cross-source/cross-chip benchmark infrastructure for LLM- and agent-generated Triton kernels across six hardware platforms.",
+      "published_at": "2026-09-09",
+      "updated_at": "2026-09-10",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
         "Efficient Reasoning / Agents"
       ]
     },
@@ -38151,6 +38888,29 @@
       ]
     },
     {
+      "title": "CUSUM-Shaped Inference-Time Monitoring and Targeted Re-Decoding for Quantized Small Language Model Reasoning",
+      "venue": "",
+      "topic": "LLM serving / quantization / video/image generation acceleration",
+      "arxiv": "2607.20129",
+      "doi": "",
+      "official_id": "arXiv:2607.20129",
+      "paper_url": "https://arxiv.org/abs/2607.20129",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Inference-time monitoring and targeted KV-state rollback/re-decoding for quantized reasoning models; useful adaptive-decoding systems lineage.",
+      "published_at": "2026-09-02",
+      "updated_at": "2026-09-03",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Compute-in-Memory Attention: A Time-Domain Analog Softmax Circuit with RC-Tunable Temperature",
       "venue": "arXiv 2026",
       "topic": "efficient attention / AI accelerator / compute-in-memory / analog softmax",
@@ -38301,6 +39061,29 @@
         "LLM Serving",
         "Efficient Reasoning / Agents",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Faithfulness Is Not Free: Auditing Offline KV-Cache Quantization in Retrieval-Augmented Generation",
+      "venue": "",
+      "topic": "KV cache/long-context / quantization / video/image generation acceleration",
+      "arxiv": "2608.30996",
+      "doi": "",
+      "official_id": "arXiv:2608.30996",
+      "paper_url": "https://arxiv.org/abs/2608.30996",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Offline KV-cache quantization audit showing accuracy can hide substantial faithfulness regressions in RAG serving.",
+      "published_at": "2026-08-31",
+      "updated_at": "2026-09-01",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Quantization",
+        "Video / Image Generation"
       ]
     },
     {
@@ -39349,6 +40132,29 @@
       "is_latest_30d": true,
       "directions": [
         "LLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Giga-Embeddings: Mixture-of-Experts Encoders for High-Throughput Text Embeddings",
+      "venue": "",
+      "topic": "LLM serving / MoE systems/accelerators / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2608.23806",
+      "doi": "",
+      "official_id": "arXiv:2608.23806",
+      "paper_url": "https://arxiv.org/abs/2608.23806",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Sparse MoE text-embedding model with explicit vLLM serving benchmark and 25% throughput gain over dense 3B in the reported setup.",
+      "published_at": "2026-08-24",
+      "updated_at": "2026-08-26",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "MoE Systems / Accelerators",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
