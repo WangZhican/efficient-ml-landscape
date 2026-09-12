@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-12",
   "window_start_beijing": "2026-08-13",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 1089,
+  "tracked_total": 1108,
   "p0_strong_or_canonical": [
     {
       "title": "VikingRAG: Accurate and Token-efficient Retrieval-augmented Generation over Structured Documents",
@@ -3052,6 +3052,30 @@
       ]
     },
     {
+      "title": "Vitality-Aware Compression for Efficient Image-to-Shape Diffusion Transformers",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / quantization / sparsity/pruning / video/image generation acceleration",
+      "arxiv": "2607.00382",
+      "doi": "",
+      "official_id": "arXiv:2607.00382",
+      "paper_url": "https://arxiv.org/abs/2607.00382",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Compression method specialized for image-to-shape Diffusion Transformers, directly reducing generative-model size/compute while preserving geometry.",
+      "published_at": "2026-09-03",
+      "updated_at": "2026-09-04",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Sparsity / Pruning",
+        "Video / Image Generation",
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
       "title": "ViSAR: Training-Free Adaptive-k Retrieval for Visual Document Question Answering",
       "venue": "CoRR 2026",
       "topic": "multimodal/MLLM serving / visual RAG / adaptive retrieval",
@@ -3305,6 +3329,27 @@
       ]
     },
     {
+      "title": "Robust and Efficient Guardrails with Latent Reasoning",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving",
+      "arxiv": "2605.29068",
+      "doi": "",
+      "official_id": "arXiv:2605.29068",
+      "paper_url": "https://arxiv.org/abs/2605.29068",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Latent-reasoning guardrail inference removes explicit rationale generation, reporting 12.9x speedup and 22.4x token reduction for deployable moderation.",
+      "published_at": "2026-09-03",
+      "updated_at": "2026-09-07",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "RASER: Resilient Agent Scheduling and Execution Runtime for HPC Clusters",
       "venue": "CoRR 2026",
       "topic": "efficient reasoning/agent systems / HPC scheduling / resilient runtime",
@@ -3347,6 +3392,29 @@
         "KV Cache / Long Context",
         "Efficient Attention",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "ProAct: Harnessing Streaming Motion Generation and Agentic Reasoning for Real-Time Embodied Social Interaction",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / video/image generation acceleration / efficient reasoning/agent systems / VLA/WAM/Physical AI serving",
+      "arxiv": "2602.14048",
+      "doi": "",
+      "official_id": "arXiv:2602.14048",
+      "paper_url": "https://arxiv.org/abs/2602.14048",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Protected Physical-AI: real-time embodied interaction system explicitly couples streaming motion generation with asynchronous/agentic reasoning under latency constraints.",
+      "published_at": "2026-09-03",
+      "updated_at": "2026-09-04",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -3736,6 +3804,28 @@
       "directions": [
         "LLM Serving",
         "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Efficient Clustering with Quality Guardrails for LLM-based Recommender Systems at Industry Scale",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2607.19704",
+      "doi": "",
+      "official_id": "arXiv:2607.19704",
+      "paper_url": "https://arxiv.org/abs/2607.19704",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Industrial-scale LLM invocation reduction via guarded clustering; deployed over 38M users with about 50x downstream LLM cost/runtime reduction.",
+      "published_at": "2026-09-03",
+      "updated_at": "2026-09-07",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -4304,6 +4394,30 @@
       ]
     },
     {
+      "title": "Harness VLA: Steering Frozen VLAs into Reliable Manipulation Primitives via Memory-Guided Agents",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / multimodal/MLLM serving / video/image generation acceleration / efficient reasoning/agent systems / VLA/WAM/Physical AI serving",
+      "arxiv": "2607.08448",
+      "doi": "",
+      "official_id": "arXiv:2607.08448",
+      "paper_url": "https://arxiv.org/abs/2607.08448",
+      "code_url": "https://github.com/RLinf/RPent",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "AUDIT_CORRECTION protected Physical-AI: memory-guided agent runtime composes a frozen VLA as retryable contact-rich primitive without finetuning and materially improves deployment robustness.",
+      "published_at": "2026-09-02",
+      "updated_at": "2026-09-03",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Hardware-Accelerated Instance Segmentation for Resource-Constrained Space Robotics with Criticality Analysis",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / edge accelerator / quantization / reliable robotics inference",
@@ -4692,6 +4806,28 @@
       "directions": [
         "Diffusion / Flow Acceleration",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "From Saliency to Discriminability: Rank-Preserving Visual Token Pruning for VLM Rerankers",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / sparsity/pruning / multimodal/MLLM serving",
+      "arxiv": "2609.00667",
+      "doi": "",
+      "official_id": "arXiv:2609.00667",
+      "paper_url": "https://arxiv.org/abs/2609.00667",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Rank-preserving visual-token pruning for VLM rerankers directly targets practical multimodal inference cost with many candidate images per query.",
+      "published_at": "2026-09-01",
+      "updated_at": "2026-09-02",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Multimodal / MLLM Serving"
       ]
     },
     {
@@ -5096,6 +5232,30 @@
       "directions": [
         "Video / Image Generation",
         "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "PredVLA: Predictive Sensorimotor Modeling for Sub-Million-Parameter Robot Manipulation",
+      "venue": "Fresh / preprint",
+      "topic": "multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2608.26673",
+      "doi": "",
+      "official_id": "arXiv:2608.26673",
+      "paper_url": "https://arxiv.org/abs/2608.26673",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Protected Physical-AI: predictive sensorimotor manipulation model targets sub-million-parameter execution, directly relevant to efficient edge/robot deployment.",
+      "published_at": "2026-08-30",
+      "updated_at": "2026-09-01",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Video / Image Generation",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -5710,6 +5870,30 @@
       "tracking_tier": "P0 · Strong",
       "directions": [
         "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Decoupling Planning and Control for Instructable Agents",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving",
+      "arxiv": "2608.26788",
+      "doi": "",
+      "official_id": "arXiv:2608.26788",
+      "paper_url": "https://arxiv.org/abs/2608.26788",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Protected Physical-AI: system-level decoupling of high-level VLM planning from reliable low-latency action control for instructable agents.",
+      "published_at": "2026-08-27",
+      "updated_at": "2026-08-28",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
       ]
     },
@@ -15384,6 +15568,48 @@
       ]
     },
     {
+      "title": "Recent Developments in Transformer Inference Deployment on FPGA Platforms: A Survey",
+      "venue": "",
+      "topic": "LLM serving",
+      "arxiv": "2609.01212",
+      "doi": "",
+      "official_id": "arXiv:2609.01212",
+      "paper_url": "https://arxiv.org/abs/2609.01212",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Systematic survey of Transformer inference deployment on FPGA platforms with latency/throughput/energy emphasis.",
+      "published_at": "2026-09-01",
+      "updated_at": "2026-09-02",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving"
+      ]
+    },
+    {
+      "title": "KV Cache Offloading for Context-Intensive Tasks",
+      "venue": "",
+      "topic": "LLM serving / KV cache/long-context / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2604.08426",
+      "doi": "",
+      "official_id": "arXiv:2604.08426",
+      "paper_url": "https://arxiv.org/abs/2604.08426",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "AUDIT_CORRECTION: KV-cache offloading evaluation on context-intensive tasks exposes accuracy failure modes and proposes a stronger alternative strategy.",
+      "published_at": "2026-09-01",
+      "updated_at": "2026-09-02",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "EmbodiedSkills: A Unified Framework for Orchestrating, Training, and Deploying VLA Agents",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / embodied agent runtime / skill orchestration",
@@ -15606,6 +15832,74 @@
       ]
     },
     {
+      "title": "Beacon: LLM Multi-Agent Driven Hardware Design Space Exploration for Heterogeneous Multi-Chiplet Deep Learning Accelerators",
+      "venue": "",
+      "topic": "LLM serving / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2608.30932",
+      "doi": "",
+      "official_id": "arXiv:2608.30932",
+      "paper_url": "https://arxiv.org/abs/2608.30932",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "LLM multi-agent hardware design-space exploration for heterogeneous multi-chiplet accelerators; relevant accelerator co-design lineage, though not an inference runtime itself.",
+      "published_at": "2026-08-31",
+      "updated_at": "2026-09-01",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "VLA-Trace: Diagnosing Vision-Language-Action Models through Representation and Behavior Tracing",
+      "venue": "",
+      "topic": "LLM serving / multimodal/MLLM serving / VLA/WAM/Physical AI serving",
+      "arxiv": "2605.30117",
+      "doi": "",
+      "official_id": "arXiv:2605.30117",
+      "paper_url": "https://arxiv.org/abs/2605.30117",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "VLA diagnostic framework tracing representations, causal control paths and rollout behavior; useful Physical-AI model-understanding lineage but not primarily efficiency.",
+      "published_at": "2026-08-30",
+      "updated_at": "2026-09-01",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Training-Free Action Correction for VLA Model Failures via Language Feedback",
+      "venue": "",
+      "topic": "multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving",
+      "arxiv": "2608.29967",
+      "doi": "",
+      "official_id": "arXiv:2608.29967",
+      "paper_url": "https://arxiv.org/abs/2608.29967",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI: inference-time, training-free VLA action correction under deployment shift; runtime adaptation lineage.",
+      "published_at": "2026-08-30",
+      "updated_at": "2026-09-01",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Video / Image Generation",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "AGM: Achievement-Grounded Memory for Closed-Loop Agents with Frozen VLA Policies",
       "venue": "",
       "topic": "multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving",
@@ -15626,6 +15920,53 @@
         "Multimodal / MLLM Serving",
         "Video / Image Generation",
         "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Large VLM-based Vision-Language-Action Models for Robotic Manipulation: A Survey",
+      "venue": "",
+      "topic": "LLM serving / multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving",
+      "arxiv": "2508.13073",
+      "doi": "",
+      "official_id": "arXiv:2508.13073",
+      "paper_url": "https://arxiv.org/abs/2508.13073",
+      "code_url": "https://github.com/JiuTian-VL/Large-VLM-based-VLA-for-Robotic-Manipulation",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Comprehensive VLA manipulation survey including efficient adaptation, memory and world-model integration; protected Physical-AI reference lineage.",
+      "published_at": "2026-08-29",
+      "updated_at": "2026-09-01",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Video / Image Generation",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Transformer-Based Autonomous Driving Models and Deployment-Oriented Compression: A Survey",
+      "venue": "",
+      "topic": "LLM serving / quantization / sparsity/pruning / efficient attention",
+      "arxiv": "2304.10891",
+      "doi": "",
+      "official_id": "arXiv:2304.10891",
+      "paper_url": "https://arxiv.org/abs/2304.10891",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Deployment-oriented survey of Transformer autonomous-driving compression and acceleration; useful protected Physical-AI lineage rather than a new system contribution.",
+      "published_at": "2026-08-28",
+      "updated_at": "2026-08-31",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Sparsity / Pruning",
+        "Efficient Attention",
         "VLA / WAM / Physical AI"
       ]
     },
@@ -15692,6 +16033,27 @@
       ]
     },
     {
+      "title": "FlowCorrect: Efficient Interactive Correction of Generative Flow Policies for Robotic Manipulation",
+      "venue": "",
+      "topic": "LLM serving / VLA/WAM/Physical AI serving",
+      "arxiv": "2602.22056",
+      "doi": "",
+      "official_id": "arXiv:2602.22056",
+      "paper_url": "https://arxiv.org/abs/2602.22056",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI: deployment-time correction of flow-matching manipulation policies without backbone retraining.",
+      "published_at": "2026-08-28",
+      "updated_at": "2026-08-31",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "ClusterAttention: A training-free speedup of bidirectional attention",
       "venue": "",
       "topic": "efficient attention / sparse attention / video generation",
@@ -15712,6 +16074,28 @@
         "Efficient Attention",
         "Distributed Training / Inference",
         "Video / Image Generation"
+      ]
+    },
+    {
+      "title": "AI Hardware Accelerators for Large Language Models: Architectures and the Memory Wall",
+      "venue": "",
+      "topic": "KV cache/long-context / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2608.28048",
+      "doi": "",
+      "official_id": "arXiv:2608.28048",
+      "paper_url": "https://arxiv.org/abs/2608.28048",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "LLM accelerator/memory-wall survey spanning GPU/ASIC/FPGA/PIM/photonic and KV-cache/memory-system bottlenecks.",
+      "published_at": "2026-08-28",
+      "updated_at": "2026-08-31",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context",
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -16739,6 +17123,29 @@
       ]
     },
     {
+      "title": "Guided Action Flow: Q-Guided Inference for Flow-Matching Vision-Language-Action Policies",
+      "venue": "",
+      "topic": "multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving",
+      "arxiv": "2607.02092",
+      "doi": "",
+      "official_id": "arXiv:2607.02092",
+      "paper_url": "https://arxiv.org/abs/2607.02092",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Inference-time adaptation for flow-matching VLA policies without full finetuning; protected Physical-AI runtime-adaptation lineage.",
+      "published_at": "2026-08-23",
+      "updated_at": "2026-08-25",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Video / Image Generation",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "E2LLM: Towards Efficient LLM Serving in Heterogeneous Edge/Fog Environments",
       "venue": "",
       "topic": "LLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems",
@@ -17523,6 +17930,29 @@
       "is_latest_30d": true,
       "directions": [
         "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "KAN We Flow? Advancing Robotic Manipulation with 3D Flow Matching via KAN & RWKV",
+      "venue": "",
+      "topic": "video/image generation acceleration / VLA/WAM/Physical AI serving",
+      "arxiv": "2602.01115",
+      "doi": "",
+      "official_id": "arXiv:2602.01115",
+      "paper_url": "https://arxiv.org/abs/2602.01115",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Flow-matching robot policy motivated by diffusion inference inefficiency and resource-constrained deployment; useful efficient-action-generation lineage.",
+      "published_at": "2026-08-18",
+      "updated_at": "2026-08-19",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation",
+        "Diffusion / Flow Acceleration",
         "VLA / WAM / Physical AI"
       ]
     },
@@ -26622,6 +27052,30 @@
       ]
     },
     {
+      "title": "Vitality-Aware Compression for Efficient Image-to-Shape Diffusion Transformers",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / quantization / sparsity/pruning / video/image generation acceleration",
+      "arxiv": "2607.00382",
+      "doi": "",
+      "official_id": "arXiv:2607.00382",
+      "paper_url": "https://arxiv.org/abs/2607.00382",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Compression method specialized for image-to-shape Diffusion Transformers, directly reducing generative-model size/compute while preserving geometry.",
+      "published_at": "2026-09-03",
+      "updated_at": "2026-09-04",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Sparsity / Pruning",
+        "Video / Image Generation",
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
       "title": "ViSAR: Training-Free Adaptive-k Retrieval for Visual Document Question Answering",
       "venue": "CoRR 2026",
       "topic": "multimodal/MLLM serving / visual RAG / adaptive retrieval",
@@ -26875,6 +27329,27 @@
       ]
     },
     {
+      "title": "Robust and Efficient Guardrails with Latent Reasoning",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving",
+      "arxiv": "2605.29068",
+      "doi": "",
+      "official_id": "arXiv:2605.29068",
+      "paper_url": "https://arxiv.org/abs/2605.29068",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Latent-reasoning guardrail inference removes explicit rationale generation, reporting 12.9x speedup and 22.4x token reduction for deployable moderation.",
+      "published_at": "2026-09-03",
+      "updated_at": "2026-09-07",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "RASER: Resilient Agent Scheduling and Execution Runtime for HPC Clusters",
       "venue": "CoRR 2026",
       "topic": "efficient reasoning/agent systems / HPC scheduling / resilient runtime",
@@ -26917,6 +27392,29 @@
         "KV Cache / Long Context",
         "Efficient Attention",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "ProAct: Harnessing Streaming Motion Generation and Agentic Reasoning for Real-Time Embodied Social Interaction",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / video/image generation acceleration / efficient reasoning/agent systems / VLA/WAM/Physical AI serving",
+      "arxiv": "2602.14048",
+      "doi": "",
+      "official_id": "arXiv:2602.14048",
+      "paper_url": "https://arxiv.org/abs/2602.14048",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Protected Physical-AI: real-time embodied interaction system explicitly couples streaming motion generation with asynchronous/agentic reasoning under latency constraints.",
+      "published_at": "2026-09-03",
+      "updated_at": "2026-09-04",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -27306,6 +27804,28 @@
       "directions": [
         "LLM Serving",
         "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Efficient Clustering with Quality Guardrails for LLM-based Recommender Systems at Industry Scale",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2607.19704",
+      "doi": "",
+      "official_id": "arXiv:2607.19704",
+      "paper_url": "https://arxiv.org/abs/2607.19704",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Industrial-scale LLM invocation reduction via guarded clustering; deployed over 38M users with about 50x downstream LLM cost/runtime reduction.",
+      "published_at": "2026-09-03",
+      "updated_at": "2026-09-07",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -27874,6 +28394,30 @@
       ]
     },
     {
+      "title": "Harness VLA: Steering Frozen VLAs into Reliable Manipulation Primitives via Memory-Guided Agents",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / multimodal/MLLM serving / video/image generation acceleration / efficient reasoning/agent systems / VLA/WAM/Physical AI serving",
+      "arxiv": "2607.08448",
+      "doi": "",
+      "official_id": "arXiv:2607.08448",
+      "paper_url": "https://arxiv.org/abs/2607.08448",
+      "code_url": "https://github.com/RLinf/RPent",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "AUDIT_CORRECTION protected Physical-AI: memory-guided agent runtime composes a frozen VLA as retryable contact-rich primitive without finetuning and materially improves deployment robustness.",
+      "published_at": "2026-09-02",
+      "updated_at": "2026-09-03",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Hardware-Accelerated Instance Segmentation for Resource-Constrained Space Robotics with Criticality Analysis",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / edge accelerator / quantization / reliable robotics inference",
@@ -28262,6 +28806,28 @@
       "directions": [
         "Diffusion / Flow Acceleration",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "From Saliency to Discriminability: Rank-Preserving Visual Token Pruning for VLM Rerankers",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / sparsity/pruning / multimodal/MLLM serving",
+      "arxiv": "2609.00667",
+      "doi": "",
+      "official_id": "arXiv:2609.00667",
+      "paper_url": "https://arxiv.org/abs/2609.00667",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Rank-preserving visual-token pruning for VLM rerankers directly targets practical multimodal inference cost with many candidate images per query.",
+      "published_at": "2026-09-01",
+      "updated_at": "2026-09-02",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Multimodal / MLLM Serving"
       ]
     },
     {
@@ -28666,6 +29232,30 @@
       "directions": [
         "Video / Image Generation",
         "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "PredVLA: Predictive Sensorimotor Modeling for Sub-Million-Parameter Robot Manipulation",
+      "venue": "Fresh / preprint",
+      "topic": "multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2608.26673",
+      "doi": "",
+      "official_id": "arXiv:2608.26673",
+      "paper_url": "https://arxiv.org/abs/2608.26673",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Protected Physical-AI: predictive sensorimotor manipulation model targets sub-million-parameter execution, directly relevant to efficient edge/robot deployment.",
+      "published_at": "2026-08-30",
+      "updated_at": "2026-09-01",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Video / Image Generation",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -29280,6 +29870,30 @@
       "tracking_tier": "P0 · Strong",
       "directions": [
         "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Decoupling Planning and Control for Instructable Agents",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving",
+      "arxiv": "2608.26788",
+      "doi": "",
+      "official_id": "arXiv:2608.26788",
+      "paper_url": "https://arxiv.org/abs/2608.26788",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Protected Physical-AI: system-level decoupling of high-level VLM planning from reliable low-latency action control for instructable agents.",
+      "published_at": "2026-08-27",
+      "updated_at": "2026-08-28",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
       ]
     },
@@ -38952,6 +39566,48 @@
       ]
     },
     {
+      "title": "Recent Developments in Transformer Inference Deployment on FPGA Platforms: A Survey",
+      "venue": "",
+      "topic": "LLM serving",
+      "arxiv": "2609.01212",
+      "doi": "",
+      "official_id": "arXiv:2609.01212",
+      "paper_url": "https://arxiv.org/abs/2609.01212",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Systematic survey of Transformer inference deployment on FPGA platforms with latency/throughput/energy emphasis.",
+      "published_at": "2026-09-01",
+      "updated_at": "2026-09-02",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving"
+      ]
+    },
+    {
+      "title": "KV Cache Offloading for Context-Intensive Tasks",
+      "venue": "",
+      "topic": "LLM serving / KV cache/long-context / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2604.08426",
+      "doi": "",
+      "official_id": "arXiv:2604.08426",
+      "paper_url": "https://arxiv.org/abs/2604.08426",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "AUDIT_CORRECTION: KV-cache offloading evaluation on context-intensive tasks exposes accuracy failure modes and proposes a stronger alternative strategy.",
+      "published_at": "2026-09-01",
+      "updated_at": "2026-09-02",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "EmbodiedSkills: A Unified Framework for Orchestrating, Training, and Deploying VLA Agents",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / embodied agent runtime / skill orchestration",
@@ -39174,6 +39830,74 @@
       ]
     },
     {
+      "title": "Beacon: LLM Multi-Agent Driven Hardware Design Space Exploration for Heterogeneous Multi-Chiplet Deep Learning Accelerators",
+      "venue": "",
+      "topic": "LLM serving / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2608.30932",
+      "doi": "",
+      "official_id": "arXiv:2608.30932",
+      "paper_url": "https://arxiv.org/abs/2608.30932",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "LLM multi-agent hardware design-space exploration for heterogeneous multi-chiplet accelerators; relevant accelerator co-design lineage, though not an inference runtime itself.",
+      "published_at": "2026-08-31",
+      "updated_at": "2026-09-01",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "VLA-Trace: Diagnosing Vision-Language-Action Models through Representation and Behavior Tracing",
+      "venue": "",
+      "topic": "LLM serving / multimodal/MLLM serving / VLA/WAM/Physical AI serving",
+      "arxiv": "2605.30117",
+      "doi": "",
+      "official_id": "arXiv:2605.30117",
+      "paper_url": "https://arxiv.org/abs/2605.30117",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "VLA diagnostic framework tracing representations, causal control paths and rollout behavior; useful Physical-AI model-understanding lineage but not primarily efficiency.",
+      "published_at": "2026-08-30",
+      "updated_at": "2026-09-01",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Training-Free Action Correction for VLA Model Failures via Language Feedback",
+      "venue": "",
+      "topic": "multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving",
+      "arxiv": "2608.29967",
+      "doi": "",
+      "official_id": "arXiv:2608.29967",
+      "paper_url": "https://arxiv.org/abs/2608.29967",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI: inference-time, training-free VLA action correction under deployment shift; runtime adaptation lineage.",
+      "published_at": "2026-08-30",
+      "updated_at": "2026-09-01",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Video / Image Generation",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "AGM: Achievement-Grounded Memory for Closed-Loop Agents with Frozen VLA Policies",
       "venue": "",
       "topic": "multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving",
@@ -39194,6 +39918,53 @@
         "Multimodal / MLLM Serving",
         "Video / Image Generation",
         "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Large VLM-based Vision-Language-Action Models for Robotic Manipulation: A Survey",
+      "venue": "",
+      "topic": "LLM serving / multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving",
+      "arxiv": "2508.13073",
+      "doi": "",
+      "official_id": "arXiv:2508.13073",
+      "paper_url": "https://arxiv.org/abs/2508.13073",
+      "code_url": "https://github.com/JiuTian-VL/Large-VLM-based-VLA-for-Robotic-Manipulation",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Comprehensive VLA manipulation survey including efficient adaptation, memory and world-model integration; protected Physical-AI reference lineage.",
+      "published_at": "2026-08-29",
+      "updated_at": "2026-09-01",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Video / Image Generation",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Transformer-Based Autonomous Driving Models and Deployment-Oriented Compression: A Survey",
+      "venue": "",
+      "topic": "LLM serving / quantization / sparsity/pruning / efficient attention",
+      "arxiv": "2304.10891",
+      "doi": "",
+      "official_id": "arXiv:2304.10891",
+      "paper_url": "https://arxiv.org/abs/2304.10891",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Deployment-oriented survey of Transformer autonomous-driving compression and acceleration; useful protected Physical-AI lineage rather than a new system contribution.",
+      "published_at": "2026-08-28",
+      "updated_at": "2026-08-31",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Sparsity / Pruning",
+        "Efficient Attention",
         "VLA / WAM / Physical AI"
       ]
     },
@@ -39260,6 +40031,27 @@
       ]
     },
     {
+      "title": "FlowCorrect: Efficient Interactive Correction of Generative Flow Policies for Robotic Manipulation",
+      "venue": "",
+      "topic": "LLM serving / VLA/WAM/Physical AI serving",
+      "arxiv": "2602.22056",
+      "doi": "",
+      "official_id": "arXiv:2602.22056",
+      "paper_url": "https://arxiv.org/abs/2602.22056",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI: deployment-time correction of flow-matching manipulation policies without backbone retraining.",
+      "published_at": "2026-08-28",
+      "updated_at": "2026-08-31",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "ClusterAttention: A training-free speedup of bidirectional attention",
       "venue": "",
       "topic": "efficient attention / sparse attention / video generation",
@@ -39280,6 +40072,28 @@
         "Efficient Attention",
         "Distributed Training / Inference",
         "Video / Image Generation"
+      ]
+    },
+    {
+      "title": "AI Hardware Accelerators for Large Language Models: Architectures and the Memory Wall",
+      "venue": "",
+      "topic": "KV cache/long-context / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2608.28048",
+      "doi": "",
+      "official_id": "arXiv:2608.28048",
+      "paper_url": "https://arxiv.org/abs/2608.28048",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "LLM accelerator/memory-wall survey spanning GPU/ASIC/FPGA/PIM/photonic and KV-cache/memory-system bottlenecks.",
+      "published_at": "2026-08-28",
+      "updated_at": "2026-08-31",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context",
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -40307,6 +41121,29 @@
       ]
     },
     {
+      "title": "Guided Action Flow: Q-Guided Inference for Flow-Matching Vision-Language-Action Policies",
+      "venue": "",
+      "topic": "multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving",
+      "arxiv": "2607.02092",
+      "doi": "",
+      "official_id": "arXiv:2607.02092",
+      "paper_url": "https://arxiv.org/abs/2607.02092",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Inference-time adaptation for flow-matching VLA policies without full finetuning; protected Physical-AI runtime-adaptation lineage.",
+      "published_at": "2026-08-23",
+      "updated_at": "2026-08-25",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Video / Image Generation",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "E2LLM: Towards Efficient LLM Serving in Heterogeneous Edge/Fog Environments",
       "venue": "",
       "topic": "LLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems",
@@ -41091,6 +41928,29 @@
       "is_latest_30d": true,
       "directions": [
         "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "KAN We Flow? Advancing Robotic Manipulation with 3D Flow Matching via KAN & RWKV",
+      "venue": "",
+      "topic": "video/image generation acceleration / VLA/WAM/Physical AI serving",
+      "arxiv": "2602.01115",
+      "doi": "",
+      "official_id": "arXiv:2602.01115",
+      "paper_url": "https://arxiv.org/abs/2602.01115",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Flow-matching robot policy motivated by diffusion inference inefficiency and resource-constrained deployment; useful efficient-action-generation lineage.",
+      "published_at": "2026-08-18",
+      "updated_at": "2026-08-19",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation",
+        "Diffusion / Flow Acceleration",
         "VLA / WAM / Physical AI"
       ]
     },

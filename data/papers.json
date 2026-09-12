@@ -15507,6 +15507,30 @@
     ]
   },
   {
+    "title": "Decoupling Planning and Control for Instructable Agents",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving",
+    "arxiv": "2608.26788",
+    "doi": "",
+    "official_id": "arXiv:2608.26788",
+    "paper_url": "https://arxiv.org/abs/2608.26788",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Protected Physical-AI: system-level decoupling of high-level VLM planning from reliable low-latency action control for instructable agents.",
+    "published_at": "2026-08-27",
+    "updated_at": "2026-08-28",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
+      "Video / Image Generation",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Depth-adaptive Inference of Looped Language Models via Continuous Depth Batching",
     "venue": "Fresh / preprint",
     "topic": "LLM serving / adaptive inference / scheduling",
@@ -15525,6 +15549,28 @@
     "directions": [
       "LLM Serving",
       "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "Efficient Clustering with Quality Guardrails for LLM-based Recommender Systems at Industry Scale",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / edge/cloud/heterogeneous AI systems",
+    "arxiv": "2607.19704",
+    "doi": "",
+    "official_id": "arXiv:2607.19704",
+    "paper_url": "https://arxiv.org/abs/2607.19704",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Industrial-scale LLM invocation reduction via guarded clustering; deployed over 38M users with about 50x downstream LLM cost/runtime reduction.",
+    "published_at": "2026-09-03",
+    "updated_at": "2026-09-07",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -15681,6 +15727,28 @@
     ]
   },
   {
+    "title": "From Saliency to Discriminability: Rank-Preserving Visual Token Pruning for VLM Rerankers",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / sparsity/pruning / multimodal/MLLM serving",
+    "arxiv": "2609.00667",
+    "doi": "",
+    "official_id": "arXiv:2609.00667",
+    "paper_url": "https://arxiv.org/abs/2609.00667",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Rank-preserving visual-token pruning for VLM rerankers directly targets practical multimodal inference cost with many candidate images per query.",
+    "published_at": "2026-09-01",
+    "updated_at": "2026-09-02",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
     "title": "Goodput Maximization for Large Language Model Edge Inference: A Two-Phase Maskable PPO Approach",
     "venue": "Fresh / preprint",
     "topic": "LLM serving / edge/cloud/heterogeneous AI systems",
@@ -15700,6 +15768,30 @@
       "LLM Serving",
       "KV Cache / Long Context",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Harness VLA: Steering Frozen VLAs into Reliable Manipulation Primitives via Memory-Guided Agents",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / multimodal/MLLM serving / video/image generation acceleration / efficient reasoning/agent systems / VLA/WAM/Physical AI serving",
+    "arxiv": "2607.08448",
+    "doi": "",
+    "official_id": "arXiv:2607.08448",
+    "paper_url": "https://arxiv.org/abs/2607.08448",
+    "code_url": "https://github.com/RLinf/RPent",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "AUDIT_CORRECTION protected Physical-AI: memory-guided agent runtime composes a frozen VLA as retryable contact-rich primitive without finetuning and materially improves deployment robustness.",
+    "published_at": "2026-09-02",
+    "updated_at": "2026-09-03",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
+      "Video / Image Generation",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
     ]
   },
   {
@@ -16172,6 +16264,30 @@
     ]
   },
   {
+    "title": "PredVLA: Predictive Sensorimotor Modeling for Sub-Million-Parameter Robot Manipulation",
+    "venue": "Fresh / preprint",
+    "topic": "multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving / edge/cloud/heterogeneous AI systems",
+    "arxiv": "2608.26673",
+    "doi": "",
+    "official_id": "arXiv:2608.26673",
+    "paper_url": "https://arxiv.org/abs/2608.26673",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Protected Physical-AI: predictive sensorimotor manipulation model targets sub-million-parameter execution, directly relevant to efficient edge/robot deployment.",
+    "published_at": "2026-08-30",
+    "updated_at": "2026-09-01",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
+      "Video / Image Generation",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Prefilling-dLLM: Predictive Prefilling for Long-Context Inference in Diffusion Language Models",
     "venue": "Fresh / preprint",
     "topic": "LLM serving / KV cache/long-context / sparsity/pruning / efficient attention",
@@ -16194,6 +16310,29 @@
       "Efficient Attention",
       "GPU Kernel / DSL / Compiler",
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "ProAct: Harnessing Streaming Motion Generation and Agentic Reasoning for Real-Time Embodied Social Interaction",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / video/image generation acceleration / efficient reasoning/agent systems / VLA/WAM/Physical AI serving",
+    "arxiv": "2602.14048",
+    "doi": "",
+    "official_id": "arXiv:2602.14048",
+    "paper_url": "https://arxiv.org/abs/2602.14048",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Protected Physical-AI: real-time embodied interaction system explicitly couples streaming motion generation with asynchronous/agentic reasoning under latency constraints.",
+    "published_at": "2026-09-03",
+    "updated_at": "2026-09-04",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Video / Image Generation",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
     ]
   },
   {
@@ -16392,6 +16531,27 @@
       "Video / Image Generation",
       "Efficient Reasoning / Agents",
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Robust and Efficient Guardrails with Latent Reasoning",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving",
+    "arxiv": "2605.29068",
+    "doi": "",
+    "official_id": "arXiv:2605.29068",
+    "paper_url": "https://arxiv.org/abs/2605.29068",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Latent-reasoning guardrail inference removes explicit rationale generation, reporting 12.9x speedup and 22.4x token reduction for deployable moderation.",
+    "published_at": "2026-09-03",
+    "updated_at": "2026-09-07",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -16687,6 +16847,30 @@
       "LLM Serving",
       "MoE Systems / Accelerators",
       "Video / Image Generation"
+    ]
+  },
+  {
+    "title": "Vitality-Aware Compression for Efficient Image-to-Shape Diffusion Transformers",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / quantization / sparsity/pruning / video/image generation acceleration",
+    "arxiv": "2607.00382",
+    "doi": "",
+    "official_id": "arXiv:2607.00382",
+    "paper_url": "https://arxiv.org/abs/2607.00382",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Compression method specialized for image-to-shape Diffusion Transformers, directly reducing generative-model size/compute while preserving geometry.",
+    "published_at": "2026-09-03",
+    "updated_at": "2026-09-04",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "Sparsity / Pruning",
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
