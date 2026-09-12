@@ -1,10 +1,10 @@
 # 05 · Sparsity / Pruning
 
-> **326 canonical papers** mapped here, plus a broader **201-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **330 canonical papers** mapped here, plus a broader **206-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 201 tracked
+## 🆕 Latest 30 Days · 206 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -111,10 +111,14 @@
 | **P1 · Watch** | **ClusterAttention: A training-free speedup of bidirectional attention** | Fresh / preprint | efficient attention / sparse attention / video generation | [Link](https://arxiv.org/abs/2608.26965) | — |
 | **P1 · Watch** | **Understanding Evolution Strategies for LLM Reasoning: Broader Reasoning Coverage than GRPO** | Fresh / preprint | sparsity/pruning | [Link](https://arxiv.org/abs/2608.27351) | — |
 | **P0 · Strong** | **Multi-Image Visual Token Pruning in Large Visual Language Models** | Fresh / preprint | sparsity/pruning / efficient attention / multimodal/MLLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.26806) | [Repo](https://github.com/zry13/AVTP) |
+| **P0 · Strong** | **Pruning Binarized Neural Networks: A Dedicated Framework and Globally Weighted Algorithms** | Fresh / preprint | sparsity/pruning / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.26233) | — |
 | **P1 · Watch** | **Efficient Training with Foresight: Multi-Token Auxiliary Supervision for Autoregressive Image Generation** | Fresh / preprint | LLM serving / sparsity/pruning / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.25386) | — |
 | **P0 · Strong** | **APT: Accelerating Diffusion Transformers via Attention Probability-Guided Pruning and Quantization** | Fresh / preprint | diffusion acceleration / sparse attention / quantization / accelerator | [Link](https://arxiv.org/abs/2608.25380) | — |
 | **P0 · Strong** | **Not All Attention Heads Contribute to Critical Visual Token Selection: Head-Aware Pruning Matters More** | Fresh / preprint | LLM serving / sparsity/pruning / multimodal/MLLM serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.25332) | — |
+| **P0 · Strong** | **SHIFT-LLM: Distribution Shift Correction in Depth-Pruned LLMs** | Fresh / preprint | sparsity/pruning / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.25068) | — |
+| **P0 · Strong** | **Structurally-bounded Agentic Graph Exploration for Evidence-Grounded Scholarly DeepSearch** | Fresh / preprint | video/image generation acceleration / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.24809) | — |
 | **P1 · Watch** | **TurboT2VA: Fast Large-Scale Text-to-Video-Audio Generation via Score-Regularized Consistency Distillation** | Fresh / preprint | video/image generation acceleration / multimodal diffusion / quantization / sparse attention | [Link](https://arxiv.org/abs/2608.24674) | — |
+| **P1 · Watch** | **ACE: A Self-Correcting Agentic Canvas Editor for Multi-Slide Presentation Automation** | Fresh / preprint | sparsity/pruning / video/image generation acceleration / efficient reasoning/agent systems / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.24103) | — |
 | **P1 · Watch** | **Compression Trinity: Exploring Sparsity, Quantization, and Low-Rank Approximations for LLM Compression** | Fresh / preprint | quantization / sparsity/pruning / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.24070) | — |
 | **P0 · Strong** | **VisCache: Visual KV Cache Pruning for Efficient Vision Large Language Model Inference** | EMNLP 2026 Main Conference | multimodal/MLLM serving / KV cache / pruning / video inference | [Link](https://arxiv.org/abs/2608.24063) | [Repo](https://github.com/Wlklk/VisCache) |
 | **P1 · Watch** | **VisCache: Visual KV Cache Pruning for Efficient Vision Large Language Model Inference** | Fresh / preprint | multimodal serving / visual KV cache / pruning | [Link](https://arxiv.org/abs/2608.24063) | — |
@@ -135,6 +139,7 @@
 | **P1 · Watch** | **Just Noticeable Difference Modeling for Token Compression in Vision-Language-Action Models** | Fresh / preprint | llm_serving / kv / sparse / multimodal / gen / physical | [Link](https://arxiv.org/abs/2608.21247) | — |
 | **P1 · Watch** | **Anchoring Instruction Outside Mask: Exact Reference Caching for Efficient In-Context Diffusion Transformers** | Fresh / preprint | sparse / gen | [Link](https://arxiv.org/abs/2608.21229) | — |
 | **P0 · Strong** | **GrAND: GPU-based Dynamic Graph Indexes for Approximate Nearest Neighbour Search** | Fresh / preprint | LLM serving / sparsity/pruning / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.21163) | — |
+| **P0 · Strong** | **COEC: Calibrated Orthogonal-Equivalence Compensation for Structured Pruning of Large Language Models** | Fresh / preprint | sparsity/pruning / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.21142) | — |
 | **P1 · Watch** | **Sparse Token Routing in Efficient Transformers** | Fresh / preprint | sparsity/pruning | [Link](https://arxiv.org/abs/2608.20632) | — |
 | **P0 · Strong** | **Annotations as Rollouts: Efficient and Scalable Reinforcement Learning for Video MLLMs** | Fresh / preprint | sparsity/pruning / multimodal/MLLM serving | [Link](https://arxiv.org/abs/2608.20492) | — |
 | **P1 · Watch** | **Swift-Image: Exploring the Performance Frontier of Compact Unified Image Generation Models** | Fresh / preprint | image generation efficiency / pruning / few-step distillation | [Link](https://arxiv.org/abs/2608.20334) | — |

@@ -1,10 +1,10 @@
 # 12 · Diffusion / Flow Acceleration
 
-> **245 canonical papers** mapped here, plus a broader **105-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **246 canonical papers** mapped here, plus a broader **107-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 105 tracked
+## 🆕 Latest 30 Days · 107 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -64,6 +64,7 @@
 | **P0 · Strong** | **DensityKV: Density-Guided KV Cache Compression for Long Video Generation** | arXiv 2026 | KV cache / video generation acceleration / efficient attention | [Link](https://arxiv.org/abs/2608.27922) | [Repo](https://github.com/ZhaoWQQ/DensityKV) |
 | **P1 · Watch** | **Survival-Guided Length Control for Efficient Diffusion Language Models** | Fresh / preprint | diffusion LLM inference / efficient decoding | [Link](https://arxiv.org/abs/2608.26374) | — |
 | **P0 · Strong** | **Trajectory-Level Speculative Decoding for Diffusion Language Models** | Fresh / preprint | LLM serving / speculative decoding | [Link](https://arxiv.org/abs/2608.27514) | — |
+| **P0 · Strong** | **Ring Forcing: Towards Precise Long-Term Memory for Autoregressive Video Diffusion** | Fresh / preprint | KV cache/long-context / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.26794) | — |
 | **P0 · Strong** | **LiveVVT: High-Fidelity Video Virtual Try-On in Real Time** | arXiv 2026 | video generation acceleration / streaming diffusion / rolling recurrent generation / few-step distillation | [Link](https://arxiv.org/abs/2608.26714) | — |
 | **P0 · Strong** | **Simple Actors and Deep Critics for Scalable Reinforcement Learning** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2608.26659) | — |
 | **P0 · Strong** | **Dependency-Aware Revocable Decoding for Efficient Diffusion Large Language Model Inference** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.26574) | — |
@@ -78,6 +79,7 @@
 | **P1 · Watch** | **ChebBooster: A Training-Free Approach for Efficient Diffusion Transformer Inference via Chebyshev-Inspired Extrapolation** | Fresh / preprint | diffusion/flow acceleration / training-free DiT extrapolation / cache-style compute skipping | [Link](https://arxiv.org/abs/2608.23429) | — |
 | **P1 · Watch** | **Accelerating Diffusion Language Models via Structured Suffix Modeling** | Fresh / preprint | diffusion language model inference / structured suffix / parallel decoding acceleration | [Link](https://arxiv.org/abs/2608.23167) | — |
 | **P0 · Strong** | **CAI-DLLM: Convergence Aware Inference for Diffusion Language Models** | Fresh / preprint | KV cache/long-context | [Link](https://arxiv.org/abs/2608.22646) | — |
+| **P1 · Watch** | **Difficulty-Calibrated Interpolation Paths for Conditional Flow Matching** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2608.21286) | — |
 | **P1 · Watch** | **Anchoring Instruction Outside Mask: Exact Reference Caching for Efficient In-Context Diffusion Transformers** | Fresh / preprint | sparse / gen | [Link](https://arxiv.org/abs/2608.21229) | — |
 | **P2 · Relevant** | **Is Multimodal Speculative Decoding Ready for Diffusion-Based Parallel Drafting? A Survey and Empirical Diagnosis** | Fresh / preprint | spec / multimodal / physical / edge | [Link](https://arxiv.org/abs/2608.20743) | — |
 | **P1 · Watch** | **DiffVC-ONE: Diffusion-based Generative Video Compression with One-Step Video Diffusion Transformer** | Fresh / preprint | quantization / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.20515) | — |

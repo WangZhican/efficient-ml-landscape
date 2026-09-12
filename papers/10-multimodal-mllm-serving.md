@@ -1,10 +1,10 @@
 # 10 · Multimodal / MLLM Serving
 
-> **270 canonical papers** mapped here, plus a broader **249-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **271 canonical papers** mapped here, plus a broader **252-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 249 tracked
+## 🆕 Latest 30 Days · 252 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -147,6 +147,7 @@
 | **P0 · Strong** | **PredVLA: Predictive Sensorimotor Modeling for Sub-Million-Parameter Robot Manipulation** | Fresh / preprint | multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.26673) | — |
 | **P1 · Watch** | **Finding the Right Evidence: Factor-Guided Coarse-to-Fine Reasoning for Long Videos** | Fresh / preprint | LLM serving / multimodal/MLLM serving / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.26355) | [Repo](https://github.com/HKUST-KnowComp/PACE) |
 | **P1 · Watch** | **One Policy, Many Embodiments: Unified Camera-Centric Action Geometry Pre-training for Heterogeneous Embodied Manipulation** | Fresh / preprint | multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.26058) | — |
+| **P1 · Watch** | **VISA: Agentic Self-Evolving Data Synthesis for Multimodal Instruction Following** | Fresh / preprint | LLM serving / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.26013) | — |
 | **P1 · Watch** | **RA-VLA: Retrieval-Augmented VLA for Test-Time Adaptation** | Fresh / preprint | LLM serving / multimodal/MLLM serving / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.25585) | — |
 | **P0 · Strong** | **Not All Attention Heads Contribute to Critical Visual Token Selection: Head-Aware Pruning Matters More** | Fresh / preprint | LLM serving / sparsity/pruning / multimodal/MLLM serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.25332) | — |
 | **P1 · Watch** | **V-Link: Recovering Lost Visual Representations in Action DiT for Vision-Language-Action Models** | Fresh / preprint | LLM serving / multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.25308) | — |
@@ -161,6 +162,7 @@
 | **P2 · Relevant** | **Act with Intent: Distilling Behavior Intent for Vision-Language-Action Models** | Fresh / preprint | Physical AI / VLA / action decoder | [Link](https://arxiv.org/abs/2608.23478) | — |
 | **P1 · Watch** | **Dual-Grained Agent Memory and Shapley Context Attribution for Multimodal Agentic Learner** | Fresh / preprint | multimodal/MLLM serving / efficient reasoning/agent systems / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.23268) | — |
 | **P1 · Watch** | **E2S-Pruner: Progressive Two-Stage Evidence Fusion for Visual Token Pruning in Vision-Language Models** | Fresh / preprint | visual token pruning / MLLM inference / throughput acceleration | [Link](https://arxiv.org/abs/2608.23253) | — |
+| **P1 · Watch** | **EchoWM: Open and Enterable Omnimodal World Models** | Fresh / preprint | LLM serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.23189) | — |
 | **P1 · Watch** | **Pointing-VLA: Typed Spatial Grounding Interfaces for Vision-Language-Action Manipulation** | Fresh / preprint | Physical AI / VLA / typed spatial readout / action decoding acceleration | [Link](https://arxiv.org/abs/2608.23138) | — |
 | **P0 · Strong** | **Buried in Textual Debt: Context Pruning with Visual Evidence Preservation for MLLM Agents** | Fresh / preprint | sparsity/pruning / multimodal/MLLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.22963) | — |
 | **P1 · Watch** | **FOVEA: Focused On-Demand Visual Evidence Adaptation for Cache-Friendly Multimodal Speculative Decoding** | Fresh / preprint | multimodal speculative decoding / visual evidence retrieval / cache-friendly inference | [Link](https://arxiv.org/abs/2608.22883) | — |
@@ -171,6 +173,7 @@
 | **P1 · Watch** | **Llama-Mobile: Efficient 2.7-Bit Quantization of VLMs** | Fresh / preprint | llm_serving / quant / multimodal | [Link](https://arxiv.org/abs/2608.21134) | — |
 | **P1 · Watch** | **PhysCaP: Grounding Code-as-Policy Agent with Physics-Informed Exploration** | Fresh / preprint | multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.21031) | — |
 | **P2 · Relevant** | **A Collaborative Multi-Modality Interaction for VLA-based End-to-End Autonomous Driving** | Fresh / preprint | multimodal / gen / physical / edge | [Link](https://arxiv.org/abs/2608.20890) | — |
+| **P0 · Strong** | **Identify, Locate, Link: End-to-End Key-Value Extraction from Document Images** | Fresh / preprint | multimodal/MLLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.20868) | — |
 | **P1 · Watch** | **Enhancing Localized Reasoning for Long Video Understanding via Efficient Segment-to-Video Supervision** | Fresh / preprint | LLM serving / multimodal/MLLM serving | [Link](https://arxiv.org/abs/2608.20814) | — |
 | **P2 · Relevant** | **Is Multimodal Speculative Decoding Ready for Diffusion-Based Parallel Drafting? A Survey and Empirical Diagnosis** | Fresh / preprint | spec / multimodal / physical / edge | [Link](https://arxiv.org/abs/2608.20743) | — |
 | **P2 · Relevant** | **ForeTime-VLA: Causal Future-Token Distillation from a World Action Model for Conveyor-Belt Manipulation** | Fresh / preprint | llm_serving / multimodal / gen / physical | [Link](https://arxiv.org/abs/2608.20735) | — |

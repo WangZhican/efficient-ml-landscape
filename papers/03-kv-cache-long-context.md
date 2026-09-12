@@ -1,10 +1,10 @@
 # 03 · KV Cache / Long Context
 
-> **488 canonical papers** mapped here, plus a broader **204-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **489 canonical papers** mapped here, plus a broader **205-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 204 tracked
+## 🆕 Latest 30 Days · 205 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -114,6 +114,7 @@
 | **P0 · Strong** | **HyQuant: Hybrid-Precision Quantization for LLM Attention** | arXiv 2026 | quantization / KV cache / efficient attention | [Link](https://arxiv.org/abs/2608.27875) | [Repo](https://github.com/jerrysfls/HyQuant) |
 | **P1 · Watch** | **Accelerating Data Preprocessing for Efficient Vision Model Inference on Jetson Edge Device** | Fresh / preprint | LLM serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.27655) | — |
 | **P0 · Strong** | **TwinKV: A Composable Repair Pass for KV Cache Eviction via Pairwise Key Redundancy** | arXiv 2026 | KV cache / long-context inference / training-free eviction repair | [Link](https://arxiv.org/abs/2608.27128) | — |
+| **P0 · Strong** | **Ring Forcing: Towards Precise Long-Term Memory for Autoregressive Video Diffusion** | Fresh / preprint | KV cache/long-context / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.26794) | — |
 | **P0 · Strong** | **RECAP-Forcing: Retaining Content Appearances for Long Video Generation** | Fresh / preprint | LLM serving / KV cache/long-context / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.26671) | — |
 | **P0 · Strong** | **VPP: Virtual Pipeline Parallelism for Efficient Chunked Prefill in Long-Context LLM Inference** | arXiv 2026 | LLM serving / long-context / distributed inference | [Link](https://arxiv.org/abs/2608.26523) | — |
 | **P1 · Watch** | **Reconstructing the Right Episode: Evaluating Interleaved Conversational Memory Beyond Long Context** | Fresh / preprint | KV cache/long-context / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.25655) | — |

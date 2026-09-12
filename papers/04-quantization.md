@@ -1,10 +1,10 @@
 # 04 · Quantization
 
-> **276 canonical papers** mapped here, plus a broader **204-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **276 canonical papers** mapped here, plus a broader **207-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 204 tracked
+## 🆕 Latest 30 Days · 207 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -129,8 +129,10 @@
 | **P0 · Strong** | **Maia 200: A Software Defined Dataflow System for Large-scale AI Acceleration** | Fresh / preprint | edge/cloud/heterogeneous AI systems / production inference accelerator / dataflow architecture | [Link](https://arxiv.org/abs/2608.24664) | — |
 | **P0 · Strong** | **Simthesizer: An Agent-Driven Simulation Framework for LLM Serving Systems** | arXiv 2026 | LLM serving / serving simulator / agentic workloads / disaggregated serving / speculative decoding / KV cache | [Link](https://arxiv.org/abs/2608.24650) | [Repo](https://github.com/casys-kaist/Simthesizer) |
 | **P1 · Watch** | **Low-Rank Ternary Adaptation for Fine-Tuning Transformers** | Fresh / preprint | quantization | [Link](https://arxiv.org/abs/2608.24469) | [Repo](https://github.com/alexmanoo/ternary_adaptation) |
+| **P1 · Watch** | **Tlow: Flow-based Item Tokenizer for Recommendation** | Fresh / preprint | quantization / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.24176) | [Repo](https://github.com/wjjln/Tlow) |
 | **P0 · Strong** | **SandwichQuant: Which Parameters Matter Before and After Quantization?** | Fresh / preprint | quantization | [Link](https://arxiv.org/abs/2608.24173) | — |
 | **P1 · Watch** | **Compression Trinity: Exploring Sparsity, Quantization, and Low-Rank Approximations for LLM Compression** | Fresh / preprint | quantization / sparsity/pruning / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.24070) | — |
+| **P1 · Watch** | **Memory Is Not Always Needed: Characterizing Conditional Memory in Scientific Reasoning** | Fresh / preprint | video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.23982) | — |
 | **P1 · Watch** | **PuzzleKV: Page-Wise Low-Rank Decomposition for KV Cache Compression** | Fresh / preprint | KV cache / low-rank compression / autoregressive decode | [Link](https://arxiv.org/abs/2608.23843) | — |
 | **P0 · Strong** | **AQLoRA: A Zero-Search Recipe for Fast Quantized LoRA Fine-Tuning** | Fresh / preprint | quantization | [Link](https://arxiv.org/abs/2608.23816) | — |
 | **P1 · Watch** | **FAMPWQ: Fisher Information-based Adaptive Mixed Precision Weight Quantization for Effective LLM Inference** | Fresh / preprint | quantization / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.24945) | — |
@@ -141,6 +143,7 @@
 | **P1 · Watch** | **What actually runs: a measurement study of language model placement and decode speed on the Apple Neural Engine** | Fresh / preprint | edge LLM inference / Apple Neural Engine / quantization / deployment measurement | [Link](https://arxiv.org/abs/2608.22110) | — |
 | **P1 · Watch** | **SSDi8: Accurate and Efficient 8-bit Quantization for State Space Duality** | Fresh / preprint | quantization / SSD-Mamba / INT8 inference / edge deployment | [Link](https://arxiv.org/abs/2608.21952) | — |
 | **P1 · Watch** | **Benchmarking Composable Compression Techniques in Mixture-of-Experts LLMs** | Fresh / preprint | MoE compression benchmark / expert pruning / quantization / KV cache / deployment efficiency | [Link](https://arxiv.org/abs/2608.21693) | — |
+| **P1 · Watch** | **Power-Performance Characterization of TinyML Systems** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.21646) | — |
 | **P1 · Watch** | **Llama-Mobile: Efficient 2.7-Bit Quantization of VLMs** | Fresh / preprint | llm_serving / quant / multimodal | [Link](https://arxiv.org/abs/2608.21134) | — |
 | **P2 · Relevant** | **Target-Aware Calibration Data Selection for Preserving Uncertainty in Quantized Language Models** | Fresh / preprint | llm_serving / quant / edge | [Link](https://arxiv.org/abs/2608.21019) | — |
 | **P1 · Watch** | **Jacobian-guided Noise Injection for Quantization Robustness in Large Language Models** | Fresh / preprint | quantization | [Link](https://arxiv.org/abs/2608.20988) | — |
