@@ -15764,6 +15764,27 @@
     ]
   },
   {
+    "title": "Beyond LLM-Based Reasoning: Lightweight GNNs for Agent Failure Attribution",
+    "venue": "Fresh / preprint",
+    "topic": "KV cache/long-context / efficient reasoning/agent systems",
+    "arxiv": "2608.18575",
+    "doi": "",
+    "official_id": "arXiv:2608.18575",
+    "paper_url": "https://arxiv.org/abs/2608.18575",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "This work replaces expensive long-context LLM-based multi-agent failure attribution with lightweight GNNs, directly targeting the substantial compute overhead of generative attribution pipelines; strong efficient-agent analysis/runtime evidence.",
+    "published_at": "2026-08-19T06:16:09Z",
+    "updated_at": "2026-08-19T06:16:09Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "KV Cache / Long Context",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "Beyond Scaling: Self-Evolving LLM Agents for Hardware Kernel Optimization via an Experience-Driven Workflow and Experience Graph Memory",
     "venue": "Fresh / preprint",
     "topic": "Efficient ML / AI Infra",
@@ -16044,6 +16065,27 @@
     "directions": [
       "KV Cache / Long Context",
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "Can a Lightweight Multimodal Model Estimate LLM Reasoning Performance? A Study for Compute-Optimal Document Inference",
+    "venue": "Fresh / preprint",
+    "topic": "Efficient ML / AI Infra",
+    "arxiv": "2608.18591",
+    "doi": "",
+    "official_id": "arXiv:2608.18591",
+    "paper_url": "https://arxiv.org/abs/2608.18591",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "BudgetDoc trains a roughly 1B pre-flight estimator to allocate model/reasoning budgets per document; dynamic allocation matches or improves always-maximum-budget F1 in most tested settings while drastically reducing inference cost.",
+    "published_at": "2026-08-19T06:33:33Z",
+    "updated_at": "2026-08-19T06:33:33Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -16374,6 +16416,27 @@
     ]
   },
   {
+    "title": "Cost Scales with Change, Not Corpus Size: Incrementally Maintaining an Evolving Semantic Substrate",
+    "venue": "Fresh / preprint",
+    "topic": "GPU kernel/DSL/compilers / efficient reasoning/agent systems",
+    "arxiv": "2608.16621",
+    "doi": "",
+    "official_id": "arXiv:2608.16621",
+    "paper_url": "https://arxiv.org/abs/2608.16621",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "This RAG/agent system compiles corpus meaning once at ingest time and incrementally maintains a compact semantic substrate as data changes, arguing and empirically showing that maintenance cost scales with change rather than total corpus size; strong reusable-context infrastructure evidence.",
+    "published_at": "2026-08-17T14:21:15Z",
+    "updated_at": "2026-08-17T14:21:15Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "CoverPrune: Coverage-Driven Token Pruning for 3D VLMs via Optimal Transport",
     "venue": "Fresh / preprint",
     "topic": "LLM serving / sparsity/pruning / multimodal/MLLM serving",
@@ -16629,6 +16692,28 @@
     "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "Differentiable Voronoi Ray Tracing Beyond Rasterization Speeds",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / sparsity/pruning",
+    "arxiv": "2608.17682",
+    "doi": "",
+    "official_id": "arXiv:2608.17682",
+    "paper_url": "https://arxiv.org/abs/2608.17682",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "VoroTracing co-designs scene representation and GPU execution for differentiable ray tracing, reducing traversal work and memory traffic with early termination to reach competitive real-time rendering throughput; strong neural-rendering/GPU efficiency evidence.",
+    "published_at": "2026-08-18T11:55:58Z",
+    "updated_at": "2026-08-18T11:55:58Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
       "GPU Kernel / DSL / Compiler"
     ]
   },
@@ -17042,6 +17127,28 @@
       "Sparsity / Pruning",
       "Multimodal / MLLM Serving",
       "Video / Image Generation",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Eureka: Task-Conditioned Meta-Agent Orchestration for Scientific Discovery",
+    "venue": "Fresh / preprint",
+    "topic": "video/image generation acceleration / edge/cloud/heterogeneous AI systems",
+    "arxiv": "2608.19047",
+    "doi": "",
+    "official_id": "arXiv:2608.19047",
+    "paper_url": "https://arxiv.org/abs/2608.19047",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Eureka uses dynamic obligation graphs, minimal-sufficient compilation and cost-gated evolution for long-horizon agents; active context drops median input from 9,490 to 4,005 tokens and incremental processing avoids 65.38% recomputation across 12,000 tasks.",
+    "published_at": "2026-08-19T15:40:21Z",
+    "updated_at": "2026-08-19T15:40:21Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Video / Image Generation",
+      "Efficient Reasoning / Agents",
       "Edge / Cloud / Heterogeneous AI"
     ]
   },
@@ -19562,6 +19669,27 @@
     ]
   },
   {
+    "title": "Predict Before Replay: Joint FEC and Flight Control for Reliable Scale-Up Links",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving",
+    "arxiv": "2608.17503",
+    "doi": "",
+    "official_id": "arXiv:2608.17503",
+    "paper_url": "https://arxiv.org/abs/2608.17503",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "PREFACE co-designs pre-FEC prediction, FEC strength and outstanding-flit control for accelerator scale-up links, improving goodput by 10.52%, reducing P99 latency by 50.75% and replay by 47.52%, with modeled ring-AllReduce gains; strong distributed-AI interconnect evidence.",
+    "published_at": "2026-08-18T08:28:05Z",
+    "updated_at": "2026-08-18T08:28:05Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "PredVLA: Predictive Sensorimotor Modeling for Sub-Million-Parameter Robot Manipulation",
     "venue": "Fresh / preprint",
     "topic": "multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving / edge/cloud/heterogeneous AI systems",
@@ -19675,6 +19803,29 @@
       "Video / Image Generation",
       "Efficient Reasoning / Agents",
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Proteus: Incremental Memory Activation for Long-Context Sequence Modeling",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / KV cache/long-context / video/image generation acceleration",
+    "arxiv": "2608.16844",
+    "doi": "",
+    "official_id": "arXiv:2608.16844",
+    "paper_url": "https://arxiv.org/abs/2608.16844",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Proteus introduces incremental memory activation for long-context sequence modeling so early tokens are forced through a compact state while capacity expands with context length, directly targeting quadratic-attention memory pressure and long-context retention.",
+    "published_at": "2026-08-17T17:30:43Z",
+    "updated_at": "2026-08-17T17:30:43Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Attention",
+      "Video / Image Generation"
     ]
   },
   {
@@ -19955,6 +20106,28 @@
       "KV Cache / Long Context",
       "Video / Image Generation",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "rEDMRec: Distilling Large Language Model Reasoning into an Editable Experience Memory for Recommendation",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / video/image generation acceleration",
+    "arxiv": "2608.18952",
+    "doi": "",
+    "official_id": "arXiv:2608.18952",
+    "paper_url": "https://arxiv.org/abs/2608.18952",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "rEDMRec compresses expensive teacher-LLM recommendation reasoning once into reusable typed experience memory consumed by a lightweight model, explicitly avoiding regeneration of the same reasoning on every ranking request.",
+    "published_at": "2026-08-19T14:17:34Z",
+    "updated_at": "2026-08-19T14:17:34Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Video / Image Generation",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
