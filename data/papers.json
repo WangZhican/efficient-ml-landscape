@@ -16110,6 +16110,26 @@
     ]
   },
   {
+    "title": "Cascaded Batch Prompting",
+    "venue": "Fresh / preprint",
+    "topic": "Efficient ML / AI Infra",
+    "arxiv": "2608.27038",
+    "doi": "",
+    "official_id": "arXiv:2608.27038",
+    "paper_url": "https://arxiv.org/abs/2608.27038",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Cascaded Batch Prompting separates complex reasoning from symbol grounding and reports speedup proportional to batch size while outperforming single prompting, direct LLM inference-efficiency evidence.",
+    "published_at": "2026-08-27T12:24:59Z",
+    "updated_at": "2026-08-27T12:24:59Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "CAT-Flow: Curvature-Adaptive sTeps for Flow Matching",
     "venue": "Fresh / preprint",
     "topic": "video/image generation acceleration",
@@ -16150,6 +16170,28 @@
       "LLM Serving",
       "Video / Image Generation",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "Centering before Pruning: Lightweight Geometry Correction for Diversity-Based Visual Token Pruning in LVLMs",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / sparsity/pruning / multimodal/MLLM serving",
+    "arxiv": "2608.30263",
+    "doi": "",
+    "official_id": "arXiv:2608.30263",
+    "paper_url": "https://arxiv.org/abs/2608.30263",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "This LVLM method corrects visual-token geometry before diversity pruning to improve token selection under highly redundant visual sequences, directly targeting multimodal inference cost.",
+    "published_at": "2026-08-31T05:13:29Z",
+    "updated_at": "2026-08-31T05:13:29Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Multimodal / MLLM Serving"
     ]
   },
   {
@@ -16302,6 +16344,27 @@
     "tracking_tier": "Canonical",
     "directions": [
       "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "Compositional Online Learning for Semantic Data Processing Systems",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / video/image generation acceleration",
+    "arxiv": "2608.27244",
+    "doi": "",
+    "official_id": "arXiv:2608.27244",
+    "paper_url": "https://arxiv.org/abs/2608.27244",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Compositional Online Learning targets semantic data systems where LLM calls dominate 80-90% of query cost and exploits call latency to hide CPU-side online updates, a direct AI data-system/serving co-design contribution.",
+    "published_at": "2026-08-27T15:25:05Z",
+    "updated_at": "2026-08-27T15:25:05Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Video / Image Generation"
     ]
   },
   {
@@ -16782,6 +16845,26 @@
     ]
   },
   {
+    "title": "Diffusion Distillation for Efficient Weather Ensembles",
+    "venue": "Fresh / preprint",
+    "topic": "Efficient ML / AI Infra",
+    "arxiv": "2608.27728",
+    "doi": "",
+    "official_id": "arXiv:2608.27728",
+    "paper_url": "https://arxiv.org/abs/2608.27728",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Diffusion Distillation for Efficient Weather Ensembles compresses a multi-step diffusion teacher into a single-step student, matching or surpassing teacher skill with one neural function evaluation per autoregressive step.",
+    "published_at": "2026-08-27T21:39:50Z",
+    "updated_at": "2026-08-27T21:39:50Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "DIP: Dynamic In-Context Planner For Diffusion Language Models",
     "venue": "Fresh / preprint",
     "topic": "LLM serving / video/image generation acceleration",
@@ -17064,6 +17147,26 @@
     ]
   },
   {
+    "title": "Efficiently Estimating Optimal Hyperparameter Scaling Laws through Power-Law Entropy Search",
+    "venue": "Fresh / preprint",
+    "topic": "Efficient ML / AI Infra",
+    "arxiv": "2609.01431",
+    "doi": "",
+    "official_id": "arXiv:2609.01431",
+    "paper_url": "https://arxiv.org/abs/2609.01431",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "PLES replaces exhaustive scaling-law hyperparameter grids with cost-aware multi-fidelity Bayesian optimization that explicitly reduces scaling-law uncertainty, directly targeting large-model tuning compute.",
+    "published_at": "2026-09-01T15:41:59Z",
+    "updated_at": "2026-09-03T15:16:24Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "EM^2Mem: Event-Centric Multimodal Memory for Large Language Models",
     "venue": "Fresh / preprint",
     "topic": "LLM serving / edge/cloud/heterogeneous AI systems",
@@ -17082,6 +17185,26 @@
     "directions": [
       "LLM Serving",
       "Multimodal / MLLM Serving",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Emergence of Fibrations, Compression, and Symmetry Breaking in Artificial Neural Networks",
+    "venue": "Fresh / preprint",
+    "topic": "Efficient ML / AI Infra",
+    "arxiv": "2609.01768",
+    "doi": "",
+    "official_id": "arXiv:2609.01768",
+    "paper_url": "https://arxiv.org/abs/2609.01768",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "This work exploits learned covering symmetries to compress neural networks to 17% of original size without performance loss, providing unusually strong general model-compression evidence.",
+    "published_at": "2026-09-01T18:39:03Z",
+    "updated_at": "2026-09-01T18:39:03Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
       "Edge / Cloud / Heterogeneous AI"
     ]
   },
@@ -17168,6 +17291,26 @@
     "directions": [
       "Video / Image Generation",
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "ERR+: Sequential Entropy Resolution for Efficient and Decisive LLM Reasoning",
+    "venue": "Fresh / preprint",
+    "topic": "Efficient ML / AI Infra",
+    "arxiv": "2608.28771",
+    "doi": "",
+    "official_id": "arXiv:2608.28771",
+    "paper_url": "https://arxiv.org/abs/2608.28771",
+    "code_url": "https://github.com/XrkArul/err_response",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "ERR+ explicitly optimizes reasoning efficiency with entropy-relief rewards and length normalization, targeting shorter, more decisive chain-of-thought under RLVR rather than correctness alone.",
+    "published_at": "2026-08-28T18:28:50Z",
+    "updated_at": "2026-08-28T18:28:50Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -18718,6 +18861,26 @@
     ]
   },
   {
+    "title": "Learning-Theoretic Foundation for General Coded Computing: The Straggler Setting",
+    "venue": "Fresh / preprint",
+    "topic": "Efficient ML / AI Infra",
+    "arxiv": "2608.28910",
+    "doi": "",
+    "official_id": "arXiv:2608.28910",
+    "paper_url": "https://arxiv.org/abs/2608.28910",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "General Coded Computing reframes coded computing for approximate modern ML/DNN workloads and straggler mitigation beyond exact algebraic recovery, providing distributed-compute systems lineage relevant to resilient AI execution.",
+    "published_at": "2026-08-28T22:18:22Z",
+    "updated_at": "2026-08-28T22:18:22Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "Less can be More: Relieving RAG Bottlenecks via Evidence Frontloading and Pressure-Adaptive Budgeting",
     "venue": "Fresh / preprint",
     "topic": "LLM serving",
@@ -18780,6 +18943,26 @@
     ]
   },
   {
+    "title": "LeVJEPA: Efficient & Scalable Video Pretraining without the Heuristics",
+    "venue": "Fresh / preprint",
+    "topic": "Efficient ML / AI Infra",
+    "arxiv": "2608.27395",
+    "doi": "",
+    "official_id": "arXiv:2608.27395",
+    "paper_url": "https://arxiv.org/abs/2608.27395",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "LeVJEPA removes EMA target encoders, stop-gradient asymmetry and predictor heuristics from video pretraining, simplifying the architecture and making pretraining cost directly governed by processed views; strong efficient-video-pretraining evidence.",
+    "published_at": "2026-08-27T17:26:24Z",
+    "updated_at": "2026-08-27T17:26:24Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Lightweight Machine Learning-Driven Monocular Sidewalk Path Extraction for Embedded Micromobility Navigation",
     "venue": "Fresh / preprint",
     "topic": "Efficient ML / AI Infra",
@@ -18797,6 +18980,49 @@
     "tracking_tier": "P0 · Strong",
     "directions": [
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Linear Fusion MultiDiffusion for Fast Training-Free Spherical Panorama Generation",
+    "venue": "Fresh / preprint",
+    "topic": "Efficient ML / AI Infra",
+    "arxiv": "2609.01997",
+    "doi": "",
+    "official_id": "arXiv:2609.01997",
+    "paper_url": "https://arxiv.org/abs/2609.01997",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "LF-MultiDiffusion reduces generator evaluations with a linear-projection least-squares formulation and reports 15.36x inference speedup over the strongest training-free panorama baseline.",
+    "published_at": "2026-09-02T02:13:26Z",
+    "updated_at": "2026-09-02T02:13:26Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "LiteSearch-VL: Small Multimodal Search Agents via Trajectory Distillation and Synthetic Step-DPO",
+    "venue": "Fresh / preprint",
+    "topic": "multimodal/MLLM serving / efficient reasoning/agent systems",
+    "arxiv": "2608.29357",
+    "doi": "",
+    "official_id": "arXiv:2608.29357",
+    "paper_url": "https://arxiv.org/abs/2608.29357",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "LiteSearch-VL distills multimodal search-agent trajectories into 2B/4B backbones using LoRA and synthetic step-DPO under a single-node budget, directly targeting low-compute agent deployment.",
+    "published_at": "2026-08-29T16:33:22Z",
+    "updated_at": "2026-08-29T16:33:22Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -18818,6 +19044,29 @@
     "directions": [
       "LLM Serving",
       "GPU Kernel / DSL / Compiler",
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "LLaDA-Image: Building Strong Image Generators with Fully Open Training Recipes",
+    "venue": "Fresh / preprint",
+    "topic": "multimodal/MLLM serving / video/image generation acceleration",
+    "arxiv": "2609.03796",
+    "doi": "",
+    "official_id": "arXiv:2609.03796",
+    "paper_url": "https://arxiv.org/abs/2609.03796",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "LLaDA-Image-Turbo distills a 6B diffusion image generator to 2-4 sampling steps, providing direct few-step image-generation acceleration alongside an open training recipe.",
+    "published_at": "2026-09-03T13:02:40Z",
+    "updated_at": "2026-09-03T13:02:40Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
       "Video / Image Generation",
       "Diffusion / Flow Acceleration"
     ]
@@ -19591,6 +19840,27 @@
     ]
   },
   {
+    "title": "Off-Manifold Refinement: Guiding Video Generators with a Frozen World Model",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / video/image generation acceleration",
+    "arxiv": "2608.29904",
+    "doi": "",
+    "official_id": "arXiv:2608.29904",
+    "paper_url": "https://arxiv.org/abs/2608.29904",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Off-Manifold Refinement injects frozen-world-model feedback into a single video-generation sampling trajectory, avoiding candidate resampling, repeated decode/re-encode guidance and retraining; direct generation-efficiency motivation.",
+    "published_at": "2026-08-30T17:00:09Z",
+    "updated_at": "2026-08-30T17:00:09Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Video / Image Generation"
+    ]
+  },
+  {
     "title": "On the Design of Qwen3.8-Next Architecture: Evaluation, Efficiency, and Training Stability",
     "venue": "Fresh / preprint",
     "topic": "sparsity/pruning / MoE systems/accelerators / video/image generation acceleration",
@@ -20055,6 +20325,27 @@
       "KV Cache / Long Context",
       "Efficient Attention",
       "Video / Image Generation"
+    ]
+  },
+  {
+    "title": "Provably Efficient Federated Reinforcement Learning with Linear Function Approximation and Logarithmic Communication Cost",
+    "venue": "Fresh / preprint",
+    "topic": "Efficient ML / AI Infra",
+    "arxiv": "2609.00193",
+    "doi": "",
+    "official_id": "arXiv:2609.00193",
+    "paper_url": "https://arxiv.org/abs/2609.00193",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Fed-LSVI uses event-triggered synchronization and compressed sufficient statistics to obtain logarithmic communication cost in federated RL, directly relevant to communication-efficient distributed learning.",
+    "published_at": "2026-08-31T18:11:54Z",
+    "updated_at": "2026-08-31T18:11:54Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Distributed Training / Inference",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -21344,6 +21635,27 @@
     ]
   },
   {
+    "title": "Single-Query Black-Box Calibration Auditing via Logit Bias",
+    "venue": "Fresh / preprint",
+    "topic": "quantization / video/image generation acceleration",
+    "arxiv": "2609.05125",
+    "doi": "",
+    "official_id": "arXiv:2609.05125",
+    "paper_url": "https://arxiv.org/abs/2609.05125",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Single-Query Black-Box Calibration Auditing recovers exact probability-threshold tests through logit bias using strictly one API query per sample, a concrete evaluation-compute reduction.",
+    "published_at": "2026-09-04T13:24:52Z",
+    "updated_at": "2026-09-04T13:24:52Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Quantization",
+      "Video / Image Generation"
+    ]
+  },
+  {
     "title": "SinkPruner: Sink-Free Visual Token Pruning for Multimodal Large Language Models",
     "venue": "Fresh / preprint",
     "topic": "sparsity/pruning / multimodal/MLLM serving",
@@ -21547,6 +21859,27 @@
     ]
   },
   {
+    "title": "SMELT: Scaling Laws for Compute-Matched MoE Looped Transformers",
+    "venue": "Fresh / preprint",
+    "topic": "KV cache/long-context / MoE systems/accelerators",
+    "arxiv": "2609.01343",
+    "doi": "",
+    "official_id": "arXiv:2609.01343",
+    "paper_url": "https://arxiv.org/abs/2609.01343",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "SMELT compares MoE looped Transformers under matched FLOPs, parameters and KV cache and reports 6.8-18.0% training-FLOP savings on the compute-optimal frontier; strong architecture-efficiency evidence.",
+    "published_at": "2026-09-01T14:52:57Z",
+    "updated_at": "2026-09-07T14:35:48Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "KV Cache / Long Context",
+      "MoE Systems / Accelerators"
+    ]
+  },
+  {
     "title": "SmoothRL: Online Reinforcement Learning During Asynchronous Execution",
     "venue": "Fresh / preprint",
     "topic": "LLM serving / VLA/WAM/Physical AI serving",
@@ -21639,6 +21972,26 @@
     ]
   },
   {
+    "title": "SPD: Single Pass Decoding for Generative Reranking",
+    "venue": "Fresh / preprint",
+    "topic": "Efficient ML / AI Infra",
+    "arxiv": "2609.01807",
+    "doi": "",
+    "official_id": "arXiv:2609.01807",
+    "paper_url": "https://arxiv.org/abs/2609.01807",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "SPD converts generative reranking from one sequential forward pass per output token to O(1) forward passes using prefill-state scoring plus assignment, a direct decoding-latency contribution.",
+    "published_at": "2026-09-01T19:30:04Z",
+    "updated_at": "2026-09-04T17:18:00Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving"
+    ]
+  },
+  {
     "title": "SpecPV: Improving Self-Speculative Decoding for Long-Context Generation via Partial Verification",
     "venue": "Fresh / preprint",
     "topic": "KV cache/long-context / speculative decoding",
@@ -21722,6 +22075,27 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Quantization"
+    ]
+  },
+  {
+    "title": "SSAKG 2.0: An Open-Source Package for Structural Associative Sequence Memory and Context-Based Retrieval",
+    "venue": "Fresh / preprint",
+    "topic": "Efficient ML / AI Infra",
+    "arxiv": "2609.01849",
+    "doi": "",
+    "official_id": "arXiv:2609.01849",
+    "paper_url": "https://arxiv.org/abs/2609.01849",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "SSAKG 2.0 uses bit-level sparse graph operations with C kernels behind Python to lower memory and compute overhead for associative sequence memory and retrieval.",
+    "published_at": "2026-09-01T20:31:56Z",
+    "updated_at": "2026-09-01T20:31:56Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Sparsity / Pruning",
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {
@@ -21811,6 +22185,26 @@
       "LLM Serving",
       "Video / Image Generation",
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "StreamScout: Learning When to Look Deeper for Streaming Video Understanding",
+    "venue": "Fresh / preprint",
+    "topic": "Efficient ML / AI Infra",
+    "arxiv": "2609.00291",
+    "doi": "",
+    "official_id": "arXiv:2609.00291",
+    "paper_url": "https://arxiv.org/abs/2609.00291",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "StreamScout adaptively decides how deeply to access streaming-video memory per query, progressively escalating from recent frames to look-back and salient retrieval instead of paying fixed visual-access cost.",
+    "published_at": "2026-08-31T19:35:25Z",
+    "updated_at": "2026-08-31T19:35:25Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -22006,6 +22400,48 @@
       "Distributed Training / Inference",
       "Efficient Reasoning / Agents",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "TerraceMoE: A Cost Model for Hierarchical MoE All-to-All Communication",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / MoE systems/accelerators",
+    "arxiv": "2608.27874",
+    "doi": "",
+    "official_id": "arXiv:2608.27874",
+    "paper_url": "https://arxiv.org/abs/2608.27874",
+    "code_url": "https://github.com/weich97/TerraceMoE-simulator",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "TerraceMoE develops and validates a communication-call-level cost model for hierarchical MoE all-to-all, explicitly identifying breakeven regimes and arrival-chain overhead for expert-parallel training.",
+    "published_at": "2026-08-28T03:27:27Z",
+    "updated_at": "2026-08-28T03:27:27Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "MoE Systems / Accelerators",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "The Differential Reasoning Router: Operationalizing Cost-Aware LLM Annotation in E-commerce",
+    "venue": "Fresh / preprint",
+    "topic": "efficient reasoning/agent systems",
+    "arxiv": "2608.30224",
+    "doi": "",
+    "official_id": "arXiv:2608.30224",
+    "paper_url": "https://arxiv.org/abs/2608.30224",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "DRR jointly selects direct versus reasoning models and human escalation using cost-aware success estimates, directly targeting cold-start LLM annotation cost.",
+    "published_at": "2026-08-31T04:11:39Z",
+    "updated_at": "2026-08-31T04:11:39Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -22227,6 +22663,26 @@
       "Sparsity / Pruning",
       "Multimodal / MLLM Serving",
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "TrainSDC: Characterizing and Mitigating Silent Data Corruption in Large Language Model Training",
+    "venue": "Fresh / preprint",
+    "topic": "Efficient ML / AI Infra",
+    "arxiv": "2608.30769",
+    "doi": "",
+    "official_id": "arXiv:2608.30769",
+    "paper_url": "https://arxiv.org/abs/2608.30769",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "TrainSDC characterizes silent-data-corruption vulnerability in LLM training and uses selective Q/K recomputation, monitoring and exponent-aware scaling rather than uniform redundancy; strong efficient-reliability systems evidence.",
+    "published_at": "2026-08-31T13:33:26Z",
+    "updated_at": "2026-08-31T13:33:26Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -22576,6 +23032,27 @@
       "LLM Serving",
       "GPU Kernel / DSL / Compiler",
       "Video / Image Generation"
+    ]
+  },
+  {
+    "title": "VisLens: Single-Pass Interpretable Visual Search for Multimodal LLMs",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / multimodal/MLLM serving",
+    "arxiv": "2608.30705",
+    "doi": "",
+    "official_id": "arXiv:2608.30705",
+    "paper_url": "https://arxiv.org/abs/2608.30705",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "VisLens replaces multi-query visual-search inference with a single-pass logit-lens/tuned-lens mechanism, directly addressing the latency of training-free MLLM visual search.",
+    "published_at": "2026-08-31T12:43:42Z",
+    "updated_at": "2026-08-31T12:43:42Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving"
     ]
   },
   {
