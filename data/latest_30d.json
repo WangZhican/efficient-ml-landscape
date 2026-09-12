@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-12",
   "window_start_beijing": "2026-08-13",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 1118,
+  "tracked_total": 1119,
   "p0_strong_or_canonical": [
     {
       "title": "VikingRAG: Accurate and Token-efficient Retrieval-augmented Generation over Structured Documents",
@@ -15698,6 +15698,28 @@
       "is_latest_30d": true,
       "directions": [
         "LLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Triple-Bottom-Line Sustainability of Language Models for Edge AI: A Comparison Between SLMs and Quantized LLMs",
+      "venue": "",
+      "topic": "LLM serving / quantization",
+      "arxiv": "2609.00665",
+      "doi": "",
+      "official_id": "arXiv:2609.00665",
+      "paper_url": "https://arxiv.org/abs/2609.00665",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Measured comparison of BF16 SLMs and quantized LLMs across latency, throughput, peak VRAM and energy for edge deployment; useful deployment/quantization systems evidence rather than a new acceleration mechanism.",
+      "published_at": "2026-09-01",
+      "updated_at": "2026-09-02",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -39918,6 +39940,28 @@
       "is_latest_30d": true,
       "directions": [
         "LLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Triple-Bottom-Line Sustainability of Language Models for Edge AI: A Comparison Between SLMs and Quantized LLMs",
+      "venue": "",
+      "topic": "LLM serving / quantization",
+      "arxiv": "2609.00665",
+      "doi": "",
+      "official_id": "arXiv:2609.00665",
+      "paper_url": "https://arxiv.org/abs/2609.00665",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Measured comparison of BF16 SLMs and quantized LLMs across latency, throughput, peak VRAM and energy for edge deployment; useful deployment/quantization systems evidence rather than a new acceleration mechanism.",
+      "published_at": "2026-09-01",
+      "updated_at": "2026-09-02",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
