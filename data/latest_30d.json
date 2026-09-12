@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-12",
   "window_start_beijing": "2026-08-13",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 1119,
+  "tracked_total": 1138,
   "p0_strong_or_canonical": [
     {
       "title": "VikingRAG: Accurate and Token-efficient Retrieval-augmented Generation over Structured Documents",
@@ -2095,6 +2095,27 @@
         "KV Cache / Long Context",
         "MoE Systems / Accelerators",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Scaling Audio Models Efficiently: A Joint Study of Compute Constraints and Optimization Behavior",
+      "venue": "Fresh / preprint",
+      "topic": "quantization / sparsity/pruning",
+      "arxiv": "2606.22790",
+      "doi": "",
+      "official_id": "arXiv:2606.22790",
+      "paper_url": "https://arxiv.org/abs/2606.22790",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Joint six-axis compression/deployment study for Whisper spanning size, temporal/token reduction, LoRA, precision and sparsity, with measured quantized memory/accuracy/compute trade-offs and deployment lookup configurations.",
+      "published_at": "2026-09-07",
+      "updated_at": "2026-09-09",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Quantization",
+        "Sparsity / Pruning"
       ]
     },
     {
@@ -4923,6 +4944,26 @@
       ]
     },
     {
+      "title": "VARA: A Voltage-Aware ReRAM-Based Accelerator for Energy-Efficient Computing",
+      "venue": "Fresh / preprint",
+      "topic": "sparsity/pruning",
+      "arxiv": "2609.00421",
+      "doi": "",
+      "official_id": "arXiv:2609.00421",
+      "paper_url": "https://arxiv.org/abs/2609.00421",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "ReRAM accelerator co-design combines activation-sparsity training, co-zero reordering and crossbar-level skipping, reporting 60.12% system-energy reduction and 2.68x energy-efficiency gain.",
+      "published_at": "2026-08-31",
+      "updated_at": "2026-09-02",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Sparsity / Pruning"
+      ]
+    },
+    {
       "title": "TwinKV: A Composable Repair Pass for KV Cache Eviction via Pairwise Key Redundancy",
       "venue": "arXiv 2026",
       "topic": "KV cache / long-context inference / training-free eviction repair",
@@ -5833,6 +5874,28 @@
       ]
     },
     {
+      "title": "SimWAM: A Simple World Action Model for End-to-End Autonomous Driving",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving",
+      "arxiv": "2608.07468",
+      "doi": "",
+      "official_id": "arXiv:2608.07468",
+      "paper_url": "https://arxiv.org/abs/2608.07468",
+      "code_url": "https://github.com/H-EmbodVis/SimWAM/",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Protected Physical-AI/WAM: training-time video world supervision with no future-frame generation at inference, substantially lowering planning latency while retaining WAM benefits.",
+      "published_at": "2026-08-27",
+      "updated_at": "2026-08-28",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Pushing the Envelope of LLM Inference with Ultra-Low-Bit Quantized Models",
       "venue": "Fresh / preprint",
       "topic": "LLM serving / quantization / GPU kernel/DSL/compilers",
@@ -6488,6 +6551,28 @@
       ]
     },
     {
+      "title": "RoMAN-Flow: Taming Autoregressive Normalizing Flows for Offline Reinforcement Learning in Robotic Manipulation",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / VLA/WAM/Physical AI serving",
+      "arxiv": "2608.20208",
+      "doi": "",
+      "official_id": "arXiv:2608.20208",
+      "paper_url": "https://arxiv.org/abs/2608.20208",
+      "code_url": "https://github.com/konnyaku28/RoMAN-Flow",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Protected Physical-AI: distills an autoregressive normalizing-flow robot policy into a one-step action generator for deployment, directly addressing sequential sampling overhead and substantially reducing action inference latency.",
+      "published_at": "2026-08-20",
+      "updated_at": "2026-08-21",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "ReCache: Efficient KV Cache Reuse and Compression for Tool-Augmented LLM Agents",
       "venue": "",
       "topic": "agent serving / KV cache reuse / compression",
@@ -7008,6 +7093,26 @@
       ]
     },
     {
+      "title": "3D Gaussian Accelerated Ray Tracing: Fast training through particle-based backward propagation",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving",
+      "arxiv": "2608.17298",
+      "doi": "",
+      "official_id": "arXiv:2608.17298",
+      "paper_url": "https://arxiv.org/abs/2608.17298",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "3D Gaussian ray-tracing system reorganizes backward propagation from contention-heavy pixel scatter to primitive-centric gather-like execution, reporting 3-4x training speedup with practical ray-traced Gaussian training.",
+      "published_at": "2026-08-18",
+      "updated_at": "2026-08-19",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving"
+      ]
+    },
+    {
       "title": "Zetta: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence",
       "venue": "",
       "topic": "Physical AI / embodied runtime",
@@ -7046,6 +7151,28 @@
       "directions": [
         "Efficient Attention",
         "Video / Image Generation"
+      ]
+    },
+    {
+      "title": "Spectral Progressive Diffusion for Efficient Image and Video Generation",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / video/image generation acceleration",
+      "arxiv": "2605.18736",
+      "doi": "",
+      "official_id": "arXiv:2605.18736",
+      "paper_url": "https://arxiv.org/abs/2605.18736",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Training-free and finetuned spectral progressive diffusion reduces redundant high-resolution denoising computation and reports significant acceleration on pretrained image/video generators.",
+      "published_at": "2026-08-17",
+      "updated_at": "2026-08-18",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation",
+        "Diffusion / Flow Acceleration"
       ]
     },
     {
@@ -7327,6 +7454,28 @@
       "tracking_tier": "P0 · Strong",
       "directions": [
         "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "Decode-Branch Transformers: Decoupling the Primary Prefill Path from Additional Decode Computation",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / KV cache/long-context / video/image generation acceleration",
+      "arxiv": "2608.12385",
+      "doi": "",
+      "official_id": "arXiv:2608.12385",
+      "paper_url": "https://arxiv.org/abs/2608.12385",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Decode-Branch Transformer decouples prefill from extra decode computation while reusing the primary KV cache/weight tiles, exposing a systems-level prompt-cost/decode-cost/quality design point.",
+      "published_at": "2026-08-17",
+      "updated_at": "2026-08-18",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Video / Image Generation"
       ]
     },
     {
@@ -7674,6 +7823,28 @@
       ]
     },
     {
+      "title": "Post-training Quantization for Hybrid Iterative Generative Models",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / quantization",
+      "arxiv": "2608.13932",
+      "doi": "",
+      "official_id": "arXiv:2608.13932",
+      "paper_url": "https://arxiv.org/abs/2608.13932",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "PTQ for hybrid iterative generative models tackles activation outliers and iterative error amplification, enabling robust W8A8 quantization of hybrid autoregressive/diffusion generators.",
+      "published_at": "2026-08-14",
+      "updated_at": "2026-08-17",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
       "title": "DeaMoE: Efficient MoE Structure for Fast Small-Batch Decoding",
       "venue": "",
       "topic": "MoE architecture / small-batch decoding",
@@ -7764,6 +7935,28 @@
       ]
     },
     {
+      "title": "Batch-wise Adaptive Pruning: Periodic Neuron Activation-Aware Weight Pruning for Language Reasoning Model",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / sparsity/pruning",
+      "arxiv": "2608.14003",
+      "doi": "",
+      "official_id": "arXiv:2608.14003",
+      "paper_url": "https://arxiv.org/abs/2608.14003",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Training-free batch-aware LRM pruning uses periodic top-k masks plus activation memory and reports 1.40x dense-inference speedup at 50% actual sparsity while fixing batched-inference accuracy collapse.",
+      "published_at": "2026-08-14",
+      "updated_at": "2026-08-17",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "AtomBridge: Agentic VLA Inference Plugin for Long-Horizon Tasks in Scientific Experiments",
       "venue": "Fresh / preprint",
       "topic": "multimodal/MLLM serving / video/image generation acceleration / efficient reasoning/agent systems / VLA/WAM/Physical AI serving",
@@ -7807,6 +8000,27 @@
         "LLM Serving",
         "KV Cache / Long Context",
         "Efficient Attention"
+      ]
+    },
+    {
+      "title": "XYZFlow:Scaling Multi dimensional Shortcut Flows for Efficient Generative Modeling",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / video/image generation acceleration",
+      "arxiv": "2608.12276",
+      "doi": "",
+      "official_id": "arXiv:2608.12276",
+      "paper_url": "https://arxiv.org/abs/2608.12276",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Few-step efficient image generation via multidimensional shortcut-flow scaling reports 7.2-8.5x teacher speedups with strong quality-latency trade-offs.",
+      "published_at": "2026-08-13",
+      "updated_at": "2026-08-14",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation"
       ]
     },
     {
@@ -7919,6 +8133,26 @@
       "directions": [
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Fast and Memory-Efficient Wavelet Convolutions via I/O-Aware Reformulation",
+      "venue": "Fresh / preprint",
+      "topic": "Efficient ML / AI Infra",
+      "arxiv": "2608.10805",
+      "doi": "",
+      "official_id": "arXiv:2608.10805",
+      "paper_url": "https://arxiv.org/abs/2608.10805",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "I/O-aware algebraic reformulation and fusion for wavelet convolution cuts modeled HBM traffic about 2.55x, yields up to 4.35x training speedup, and roughly halves peak memory.",
+      "published_at": "2026-08-13",
+      "updated_at": "2026-08-14",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
       ]
     },
     {
@@ -8641,6 +8875,28 @@
       "is_latest_30d": true,
       "directions": [
         "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "BiHDTrans: binary hyperdimensional transformer for efficient multivariate time series classification",
+      "venue": "",
+      "topic": "LLM serving / quantization",
+      "arxiv": "2509.24425",
+      "doi": "",
+      "official_id": "arXiv:2509.24425",
+      "paper_url": "https://arxiv.org/abs/2509.24425",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Binary hyperdimensional Transformer with FPGA acceleration reports 39.4x lower inference latency than binary-Transformer baselines; useful edge/binary accelerator lineage.",
+      "published_at": "2026-09-10",
+      "updated_at": "2026-09-11",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -16010,6 +16266,32 @@
       ]
     },
     {
+      "title": "A.X K2 Technical Report",
+      "venue": "",
+      "topic": "LLM serving / KV cache/long-context / quantization / sparsity/pruning / MoE systems/accelerators / efficient reasoning/agent systems",
+      "arxiv": "2608.30181",
+      "doi": "",
+      "official_id": "arXiv:2608.30181",
+      "paper_url": "https://arxiv.org/abs/2608.30181",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Large MoE technical report with native sparse attention for long context and NVFP4 serving behavior; useful sparse-attention/MoE/low-precision systems lineage.",
+      "published_at": "2026-08-31",
+      "updated_at": "2026-09-01",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Quantization",
+        "Sparsity / Pruning",
+        "Efficient Attention",
+        "MoE Systems / Accelerators",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "VLA-Trace: Diagnosing Vision-Language-Action Models through Representation and Behavior Tracing",
       "venue": "",
       "topic": "LLM serving / multimodal/MLLM serving / VLA/WAM/Physical AI serving",
@@ -16207,6 +16489,27 @@
       "directions": [
         "LLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "FFSlim: An Efficient and Lightweight Format for Multi-modal Data Storage and Retrieval",
+      "venue": "",
+      "topic": "LLM serving",
+      "arxiv": "2608.27865",
+      "doi": "",
+      "official_id": "arXiv:2608.27865",
+      "paper_url": "https://arxiv.org/abs/2608.27865",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Multimodal dataset storage/retrieval format improves I/O throughput and reduces end-to-end multimodal training time; useful data-pipeline efficiency lineage.",
+      "published_at": "2026-08-28",
+      "updated_at": "2026-08-31",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving"
       ]
     },
     {
@@ -16683,6 +16986,28 @@
       "is_latest_30d": true,
       "directions": [
         "Quantization"
+      ]
+    },
+    {
+      "title": "TorchMorph: CUDA-accelerated Morphological Transforms",
+      "venue": "",
+      "topic": "LLM serving / quantization / GPU kernel/DSL/compilers",
+      "arxiv": "2608.24738",
+      "doi": "",
+      "official_id": "arXiv:2608.24738",
+      "paper_url": "https://arxiv.org/abs/2608.24738",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Open-source fused CUDA-kernel library for morphology/distance transforms with direct PyTorch tensor execution and large measured throughput gains; relevant GPU-kernel implementation lineage.",
+      "published_at": "2026-08-25",
+      "updated_at": "2026-08-26",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "GPU Kernel / DSL / Compiler"
       ]
     },
     {
@@ -18291,6 +18616,30 @@
       ]
     },
     {
+      "title": "Alaya-EVOKE: From Linear-Scaling Supervision to Endless World",
+      "venue": "",
+      "topic": "LLM serving / KV cache/long-context / sparsity/pruning / video/image generation acceleration",
+      "arxiv": "2608.13546",
+      "doi": "",
+      "official_id": "arXiv:2608.13546",
+      "paper_url": "https://arxiv.org/abs/2608.13546",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Interactive world-model system externalizes persistent state, bounds denoiser context, uses sparse/linear attention, and serves a three-step student at measured H200 chunk latency.",
+      "published_at": "2026-08-18",
+      "updated_at": "2026-08-19",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Sparsity / Pruning",
+        "Efficient Attention",
+        "Video / Image Generation"
+      ]
+    },
+    {
       "title": "UniTAC: Universal Task-Aware Compression via Weighted Distortion Measures",
       "venue": "",
       "topic": "Physical AI / task-aware sensory compression / edge communication",
@@ -18683,6 +19032,31 @@
       ]
     },
     {
+      "title": "FloodReasonBench: Benchmarking VLM Reasoning Segmentation for Embodied Flood Response at the Edge",
+      "venue": "",
+      "topic": "LLM serving / multimodal/MLLM serving / VLA/WAM/Physical AI serving",
+      "arxiv": "2608.15410",
+      "doi": "",
+      "official_id": "arXiv:2608.15410",
+      "paper_url": "https://arxiv.org/abs/2608.15410",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI edge benchmark characterizes VLM reasoning-segmentation split inference on Jetson across latency, energy, communication footprint and accuracy.",
+      "published_at": "2026-08-15",
+      "updated_at": "2026-08-18",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Collective Communication for Distributed LLM Systems: Planning, Runtime Adaptation, and Computation Coordination",
       "venue": "arXiv 2026",
       "topic": "distributed training/inference / collective communication / runtime adaptation",
@@ -18955,6 +19329,49 @@
       "is_latest_30d": true,
       "directions": [
         "LLM Serving"
+      ]
+    },
+    {
+      "title": "NAS-Driven Hardware Accelerator Exploration for Edge AI and Quantization Effects on the Pareto Space",
+      "venue": "",
+      "topic": "quantization",
+      "arxiv": "2608.13293",
+      "doi": "",
+      "official_id": "arXiv:2608.13293",
+      "paper_url": "https://arxiv.org/abs/2608.13293",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Hardware-aware NAS plus INT4 PTQ and CGRA design-space exploration; useful algorithm-hardware quantization/Pareto co-design lineage.",
+      "published_at": "2026-08-13",
+      "updated_at": "2026-08-14",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "DreamX-Phi 1.0: Action-Conditioned Video World Model for Robotic Manipulation",
+      "venue": "",
+      "topic": "LLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving",
+      "arxiv": "2608.13489",
+      "doi": "",
+      "official_id": "arXiv:2608.13489",
+      "paper_url": "https://arxiv.org/abs/2608.13489",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI/world-model lineage: action-conditioned robotic video world model distills a multi-step generator to a few-step student for efficient deployment.",
+      "published_at": "2026-08-13",
+      "updated_at": "2026-08-14",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -26342,6 +26759,27 @@
       ]
     },
     {
+      "title": "Scaling Audio Models Efficiently: A Joint Study of Compute Constraints and Optimization Behavior",
+      "venue": "Fresh / preprint",
+      "topic": "quantization / sparsity/pruning",
+      "arxiv": "2606.22790",
+      "doi": "",
+      "official_id": "arXiv:2606.22790",
+      "paper_url": "https://arxiv.org/abs/2606.22790",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Joint six-axis compression/deployment study for Whisper spanning size, temporal/token reduction, LoRA, precision and sparsity, with measured quantized memory/accuracy/compute trade-offs and deployment lookup configurations.",
+      "published_at": "2026-09-07",
+      "updated_at": "2026-09-09",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Quantization",
+        "Sparsity / Pruning"
+      ]
+    },
+    {
       "title": "Scalability Analysis of Distributed Kolmogorov-Arnold Network Training on High-Performance Computing Systems",
       "venue": "arXiv 2026",
       "topic": "distributed training/inference / multi-GPU scaling / HPC / DDP",
@@ -29167,6 +29605,26 @@
       ]
     },
     {
+      "title": "VARA: A Voltage-Aware ReRAM-Based Accelerator for Energy-Efficient Computing",
+      "venue": "Fresh / preprint",
+      "topic": "sparsity/pruning",
+      "arxiv": "2609.00421",
+      "doi": "",
+      "official_id": "arXiv:2609.00421",
+      "paper_url": "https://arxiv.org/abs/2609.00421",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "ReRAM accelerator co-design combines activation-sparsity training, co-zero reordering and crossbar-level skipping, reporting 60.12% system-energy reduction and 2.68x energy-efficiency gain.",
+      "published_at": "2026-08-31",
+      "updated_at": "2026-09-02",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Sparsity / Pruning"
+      ]
+    },
+    {
       "title": "TwinKV: A Composable Repair Pass for KV Cache Eviction via Pairwise Key Redundancy",
       "venue": "arXiv 2026",
       "topic": "KV cache / long-context inference / training-free eviction repair",
@@ -30077,6 +30535,28 @@
       ]
     },
     {
+      "title": "SimWAM: A Simple World Action Model for End-to-End Autonomous Driving",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving",
+      "arxiv": "2608.07468",
+      "doi": "",
+      "official_id": "arXiv:2608.07468",
+      "paper_url": "https://arxiv.org/abs/2608.07468",
+      "code_url": "https://github.com/H-EmbodVis/SimWAM/",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Protected Physical-AI/WAM: training-time video world supervision with no future-frame generation at inference, substantially lowering planning latency while retaining WAM benefits.",
+      "published_at": "2026-08-27",
+      "updated_at": "2026-08-28",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Pushing the Envelope of LLM Inference with Ultra-Low-Bit Quantized Models",
       "venue": "Fresh / preprint",
       "topic": "LLM serving / quantization / GPU kernel/DSL/compilers",
@@ -30732,6 +31212,28 @@
       ]
     },
     {
+      "title": "RoMAN-Flow: Taming Autoregressive Normalizing Flows for Offline Reinforcement Learning in Robotic Manipulation",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / VLA/WAM/Physical AI serving",
+      "arxiv": "2608.20208",
+      "doi": "",
+      "official_id": "arXiv:2608.20208",
+      "paper_url": "https://arxiv.org/abs/2608.20208",
+      "code_url": "https://github.com/konnyaku28/RoMAN-Flow",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Protected Physical-AI: distills an autoregressive normalizing-flow robot policy into a one-step action generator for deployment, directly addressing sequential sampling overhead and substantially reducing action inference latency.",
+      "published_at": "2026-08-20",
+      "updated_at": "2026-08-21",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "ReCache: Efficient KV Cache Reuse and Compression for Tool-Augmented LLM Agents",
       "venue": "",
       "topic": "agent serving / KV cache reuse / compression",
@@ -31252,6 +31754,26 @@
       ]
     },
     {
+      "title": "3D Gaussian Accelerated Ray Tracing: Fast training through particle-based backward propagation",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving",
+      "arxiv": "2608.17298",
+      "doi": "",
+      "official_id": "arXiv:2608.17298",
+      "paper_url": "https://arxiv.org/abs/2608.17298",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "3D Gaussian ray-tracing system reorganizes backward propagation from contention-heavy pixel scatter to primitive-centric gather-like execution, reporting 3-4x training speedup with practical ray-traced Gaussian training.",
+      "published_at": "2026-08-18",
+      "updated_at": "2026-08-19",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving"
+      ]
+    },
+    {
       "title": "Zetta: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence",
       "venue": "",
       "topic": "Physical AI / embodied runtime",
@@ -31290,6 +31812,28 @@
       "directions": [
         "Efficient Attention",
         "Video / Image Generation"
+      ]
+    },
+    {
+      "title": "Spectral Progressive Diffusion for Efficient Image and Video Generation",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / video/image generation acceleration",
+      "arxiv": "2605.18736",
+      "doi": "",
+      "official_id": "arXiv:2605.18736",
+      "paper_url": "https://arxiv.org/abs/2605.18736",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Training-free and finetuned spectral progressive diffusion reduces redundant high-resolution denoising computation and reports significant acceleration on pretrained image/video generators.",
+      "published_at": "2026-08-17",
+      "updated_at": "2026-08-18",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation",
+        "Diffusion / Flow Acceleration"
       ]
     },
     {
@@ -31571,6 +32115,28 @@
       "tracking_tier": "P0 · Strong",
       "directions": [
         "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "Decode-Branch Transformers: Decoupling the Primary Prefill Path from Additional Decode Computation",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / KV cache/long-context / video/image generation acceleration",
+      "arxiv": "2608.12385",
+      "doi": "",
+      "official_id": "arXiv:2608.12385",
+      "paper_url": "https://arxiv.org/abs/2608.12385",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Decode-Branch Transformer decouples prefill from extra decode computation while reusing the primary KV cache/weight tiles, exposing a systems-level prompt-cost/decode-cost/quality design point.",
+      "published_at": "2026-08-17",
+      "updated_at": "2026-08-18",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Video / Image Generation"
       ]
     },
     {
@@ -31918,6 +32484,28 @@
       ]
     },
     {
+      "title": "Post-training Quantization for Hybrid Iterative Generative Models",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / quantization",
+      "arxiv": "2608.13932",
+      "doi": "",
+      "official_id": "arXiv:2608.13932",
+      "paper_url": "https://arxiv.org/abs/2608.13932",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "PTQ for hybrid iterative generative models tackles activation outliers and iterative error amplification, enabling robust W8A8 quantization of hybrid autoregressive/diffusion generators.",
+      "published_at": "2026-08-14",
+      "updated_at": "2026-08-17",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
       "title": "DeaMoE: Efficient MoE Structure for Fast Small-Batch Decoding",
       "venue": "",
       "topic": "MoE architecture / small-batch decoding",
@@ -32008,6 +32596,28 @@
       ]
     },
     {
+      "title": "Batch-wise Adaptive Pruning: Periodic Neuron Activation-Aware Weight Pruning for Language Reasoning Model",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / sparsity/pruning",
+      "arxiv": "2608.14003",
+      "doi": "",
+      "official_id": "arXiv:2608.14003",
+      "paper_url": "https://arxiv.org/abs/2608.14003",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Training-free batch-aware LRM pruning uses periodic top-k masks plus activation memory and reports 1.40x dense-inference speedup at 50% actual sparsity while fixing batched-inference accuracy collapse.",
+      "published_at": "2026-08-14",
+      "updated_at": "2026-08-17",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "AtomBridge: Agentic VLA Inference Plugin for Long-Horizon Tasks in Scientific Experiments",
       "venue": "Fresh / preprint",
       "topic": "multimodal/MLLM serving / video/image generation acceleration / efficient reasoning/agent systems / VLA/WAM/Physical AI serving",
@@ -32051,6 +32661,27 @@
         "LLM Serving",
         "KV Cache / Long Context",
         "Efficient Attention"
+      ]
+    },
+    {
+      "title": "XYZFlow:Scaling Multi dimensional Shortcut Flows for Efficient Generative Modeling",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / video/image generation acceleration",
+      "arxiv": "2608.12276",
+      "doi": "",
+      "official_id": "arXiv:2608.12276",
+      "paper_url": "https://arxiv.org/abs/2608.12276",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Few-step efficient image generation via multidimensional shortcut-flow scaling reports 7.2-8.5x teacher speedups with strong quality-latency trade-offs.",
+      "published_at": "2026-08-13",
+      "updated_at": "2026-08-14",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation"
       ]
     },
     {
@@ -32163,6 +32794,26 @@
       "directions": [
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Fast and Memory-Efficient Wavelet Convolutions via I/O-Aware Reformulation",
+      "venue": "Fresh / preprint",
+      "topic": "Efficient ML / AI Infra",
+      "arxiv": "2608.10805",
+      "doi": "",
+      "official_id": "arXiv:2608.10805",
+      "paper_url": "https://arxiv.org/abs/2608.10805",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "I/O-aware algebraic reformulation and fusion for wavelet convolution cuts modeled HBM traffic about 2.55x, yields up to 4.35x training speedup, and roughly halves peak memory.",
+      "published_at": "2026-08-13",
+      "updated_at": "2026-08-14",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
       ]
     },
     {
@@ -32883,6 +33534,28 @@
       "is_latest_30d": true,
       "directions": [
         "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "BiHDTrans: binary hyperdimensional transformer for efficient multivariate time series classification",
+      "venue": "",
+      "topic": "LLM serving / quantization",
+      "arxiv": "2509.24425",
+      "doi": "",
+      "official_id": "arXiv:2509.24425",
+      "paper_url": "https://arxiv.org/abs/2509.24425",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Binary hyperdimensional Transformer with FPGA acceleration reports 39.4x lower inference latency than binary-Transformer baselines; useful edge/binary accelerator lineage.",
+      "published_at": "2026-09-10",
+      "updated_at": "2026-09-11",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -40252,6 +40925,32 @@
       ]
     },
     {
+      "title": "A.X K2 Technical Report",
+      "venue": "",
+      "topic": "LLM serving / KV cache/long-context / quantization / sparsity/pruning / MoE systems/accelerators / efficient reasoning/agent systems",
+      "arxiv": "2608.30181",
+      "doi": "",
+      "official_id": "arXiv:2608.30181",
+      "paper_url": "https://arxiv.org/abs/2608.30181",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Large MoE technical report with native sparse attention for long context and NVFP4 serving behavior; useful sparse-attention/MoE/low-precision systems lineage.",
+      "published_at": "2026-08-31",
+      "updated_at": "2026-09-01",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Quantization",
+        "Sparsity / Pruning",
+        "Efficient Attention",
+        "MoE Systems / Accelerators",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "VLA-Trace: Diagnosing Vision-Language-Action Models through Representation and Behavior Tracing",
       "venue": "",
       "topic": "LLM serving / multimodal/MLLM serving / VLA/WAM/Physical AI serving",
@@ -40449,6 +41148,27 @@
       "directions": [
         "LLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "FFSlim: An Efficient and Lightweight Format for Multi-modal Data Storage and Retrieval",
+      "venue": "",
+      "topic": "LLM serving",
+      "arxiv": "2608.27865",
+      "doi": "",
+      "official_id": "arXiv:2608.27865",
+      "paper_url": "https://arxiv.org/abs/2608.27865",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Multimodal dataset storage/retrieval format improves I/O throughput and reduces end-to-end multimodal training time; useful data-pipeline efficiency lineage.",
+      "published_at": "2026-08-28",
+      "updated_at": "2026-08-31",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving"
       ]
     },
     {
@@ -40925,6 +41645,28 @@
       "is_latest_30d": true,
       "directions": [
         "Quantization"
+      ]
+    },
+    {
+      "title": "TorchMorph: CUDA-accelerated Morphological Transforms",
+      "venue": "",
+      "topic": "LLM serving / quantization / GPU kernel/DSL/compilers",
+      "arxiv": "2608.24738",
+      "doi": "",
+      "official_id": "arXiv:2608.24738",
+      "paper_url": "https://arxiv.org/abs/2608.24738",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Open-source fused CUDA-kernel library for morphology/distance transforms with direct PyTorch tensor execution and large measured throughput gains; relevant GPU-kernel implementation lineage.",
+      "published_at": "2026-08-25",
+      "updated_at": "2026-08-26",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "GPU Kernel / DSL / Compiler"
       ]
     },
     {
@@ -42533,6 +43275,30 @@
       ]
     },
     {
+      "title": "Alaya-EVOKE: From Linear-Scaling Supervision to Endless World",
+      "venue": "",
+      "topic": "LLM serving / KV cache/long-context / sparsity/pruning / video/image generation acceleration",
+      "arxiv": "2608.13546",
+      "doi": "",
+      "official_id": "arXiv:2608.13546",
+      "paper_url": "https://arxiv.org/abs/2608.13546",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Interactive world-model system externalizes persistent state, bounds denoiser context, uses sparse/linear attention, and serves a three-step student at measured H200 chunk latency.",
+      "published_at": "2026-08-18",
+      "updated_at": "2026-08-19",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Sparsity / Pruning",
+        "Efficient Attention",
+        "Video / Image Generation"
+      ]
+    },
+    {
       "title": "UniTAC: Universal Task-Aware Compression via Weighted Distortion Measures",
       "venue": "",
       "topic": "Physical AI / task-aware sensory compression / edge communication",
@@ -42925,6 +43691,31 @@
       ]
     },
     {
+      "title": "FloodReasonBench: Benchmarking VLM Reasoning Segmentation for Embodied Flood Response at the Edge",
+      "venue": "",
+      "topic": "LLM serving / multimodal/MLLM serving / VLA/WAM/Physical AI serving",
+      "arxiv": "2608.15410",
+      "doi": "",
+      "official_id": "arXiv:2608.15410",
+      "paper_url": "https://arxiv.org/abs/2608.15410",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI edge benchmark characterizes VLM reasoning-segmentation split inference on Jetson across latency, energy, communication footprint and accuracy.",
+      "published_at": "2026-08-15",
+      "updated_at": "2026-08-18",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Collective Communication for Distributed LLM Systems: Planning, Runtime Adaptation, and Computation Coordination",
       "venue": "arXiv 2026",
       "topic": "distributed training/inference / collective communication / runtime adaptation",
@@ -43197,6 +43988,49 @@
       "is_latest_30d": true,
       "directions": [
         "LLM Serving"
+      ]
+    },
+    {
+      "title": "NAS-Driven Hardware Accelerator Exploration for Edge AI and Quantization Effects on the Pareto Space",
+      "venue": "",
+      "topic": "quantization",
+      "arxiv": "2608.13293",
+      "doi": "",
+      "official_id": "arXiv:2608.13293",
+      "paper_url": "https://arxiv.org/abs/2608.13293",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Hardware-aware NAS plus INT4 PTQ and CGRA design-space exploration; useful algorithm-hardware quantization/Pareto co-design lineage.",
+      "published_at": "2026-08-13",
+      "updated_at": "2026-08-14",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "DreamX-Phi 1.0: Action-Conditioned Video World Model for Robotic Manipulation",
+      "venue": "",
+      "topic": "LLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving",
+      "arxiv": "2608.13489",
+      "doi": "",
+      "official_id": "arXiv:2608.13489",
+      "paper_url": "https://arxiv.org/abs/2608.13489",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI/world-model lineage: action-conditioned robotic video world model distills a multi-step generator to a few-step student for efficient deployment.",
+      "published_at": "2026-08-13",
+      "updated_at": "2026-08-14",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
