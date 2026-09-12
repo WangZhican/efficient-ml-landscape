@@ -1,10 +1,10 @@
 # 13 · Efficient Reasoning / Agents
 
-> **339 canonical papers** mapped here, plus a broader **296-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **340 canonical papers** mapped here, plus a broader **297-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 296 tracked
+## 🆕 Latest 30 Days · 297 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -46,6 +46,7 @@
 | **P1 · Watch** | **On-Policy Distillation for Vision-Language Model Adaptation, an Effective Paradigm on Low-Quality Multimodal Data** | arXiv 2026 | multimodal/MLLM serving / distillation / parameter-efficient adaptation | [Link](https://arxiv.org/abs/2609.10321) | — |
 | **P1 · Watch** | **Omni Interaction Agent Technical Report** | arXiv 2026 | multimodal/MLLM serving / efficient reasoning/agent systems / streaming full-duplex runtime | [Link](https://arxiv.org/abs/2609.08977) | — |
 | **P1 · Watch** | **MetroLLM-Bench: Evaluating Language Models as Transit Kiosk Runtimes** | arXiv 2026 | efficient reasoning/agent systems / compact agent runtime / PEFT | [Link](https://arxiv.org/abs/2609.10016) | — |
+| **P0 · Strong** | **MAVEN-T: Reinforced Heterogeneous Distillation for Real-Time Multi-Agent Trajectory Prediction** | Fresh / preprint | LLM serving / MoE systems/accelerators / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2604.10169) | — |
 | **P0 · Strong** | **LiteRAG: Cost-Efficient Graph-Based Retrieval-Augmented Generation** | arXiv 2026 | LLM serving / RAG / retrieval efficiency / context reduction | [Link](https://arxiv.org/abs/2609.10239) | — |
 | **P1 · Watch** | **KVShareArena: KV-Cache Reuse Across Contexts and Model Checkpoints** | arXiv 2026 | KV cache/long-context / LLM serving / benchmark and cost accounting | [Link](https://arxiv.org/abs/2609.10266) | — |
 | **P1 · Watch** | **KernelGenBench: Can LLMs and Agents Write Efficient Kernels Across Operator Sources and Hardware Platforms?** | Fresh / preprint | GPU kernel/DSL/compilers / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2607.27231) | — |

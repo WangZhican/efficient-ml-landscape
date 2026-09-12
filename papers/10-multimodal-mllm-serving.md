@@ -1,10 +1,10 @@
 # 10 · Multimodal / MLLM Serving
 
-> **234 canonical papers** mapped here, plus a broader **187-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **235 canonical papers** mapped here, plus a broader **189-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 187 tracked
+## 🆕 Latest 30 Days · 189 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -30,6 +30,7 @@
 | **P1 · Watch** | **Omni Interaction Agent Technical Report** | arXiv 2026 | multimodal/MLLM serving / efficient reasoning/agent systems / streaming full-duplex runtime | [Link](https://arxiv.org/abs/2609.08977) | — |
 | **P1 · Watch** | **GTA-2: A Multi-VLM Framework for Synthesizing Robot Manipulation Skills via Grounded Task Axes** | arXiv 2026 | VLA/WAM/Physical AI / multi-VLM skill synthesis / zero-shot manipulation / modular control | [Link](https://arxiv.org/abs/2609.09808) | [Repo](https://gta2-project.github.io/) |
 | **P1 · Watch** | **Frequency-Conditioned Flow Matching for Vision-Language-Action Models** | arXiv 2026 | VLA/WAM/Physical AI / flow matching / action generation | [Link](https://arxiv.org/abs/2609.10405) | — |
+| **P1 · Watch** | **FiberTune: Preserving Action-Fiber Visual Residuals in Vision-Language-Action Fine-Tuning** | Fresh / preprint | LLM serving / multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2606.08653) | — |
 | **P0 · Strong** | **CLFTv2: Efficient Camera-LiDAR Fusion for Semantic Segmentation via Hierarchical Feature Pyramids** | arXiv 2026 | VLA/WAM/Physical AI / multimodal perception / efficient attention / edge inference | [Link](https://arxiv.org/abs/2609.09881) | — |
 | **P1 · Watch** | **Beyond Surface Imitation: Contrastive Modeling for Reasoning Path Alignment in Multimodal In-Context Learning** | arXiv 2026 | multimodal/MLLM serving / adaptive reasoning / early exit | [Link](https://arxiv.org/abs/2609.10177) | — |
 | **P1 · Watch** | **Beyond Similarity: Foundation Models as an Efficient Backbone for Training-Free Composed Video Retrieval** | arXiv 2026 | multimodal/MLLM serving / adaptive inference depth / video retrieval | [Link](https://arxiv.org/abs/2609.10008) | [Repo](https://github.com/demidovd98/CoVRAGE) |
@@ -154,6 +155,7 @@
 | **P0 · Strong** | **EcoVLA: Energy-Efficient Device-Edge Co-Inference for Vision-Language-Action Models under Real-Time Constraints** | Fresh / preprint | VLA device-edge co-inference / energy-aware runtime | [Link](https://arxiv.org/abs/2608.15502) | — |
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 | **P1 · Watch** | **MM-BEV: Enhancing Timeliness by Computing Where and When it Matters** | Fresh / preprint | Physical AI / edge runtime / sparse multimodal perception | [Link](https://arxiv.org/abs/2608.15437) | — |
+| **P0 · Strong** | **SA-GEM: Scale-Adaptive and Geospatial Evidence-Modulated Token Pruning for Efficient Remote Sensing Large Vision-Language Models** | Fresh / preprint | sparsity/pruning / multimodal/MLLM serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.15075) | — |
 | **P1 · Watch** | **Risk-Adaptive Edge--Cloud Visual Reasoning for Communication-Efficient Autonomous Driving** | arXiv 2026 | Physical AI / edge-cloud inference / autonomous driving / selective VLM offload | [Link](https://arxiv.org/abs/2608.14991) | — |
 | **P0 · Strong** | **Rollplex: Cross-Phase GPU Spatial Sharing for Vision Language Model Post-Training** | Fresh / preprint | VLM post-training / GPU spatial sharing / RL runtime | [Link](https://arxiv.org/abs/2608.14498) | — |
 | **P0 · Strong** | **Reflex: Enabling Fast and Predictive Vision-Language-Action Models for Reaction-Critical Manipulation** | Fresh / preprint | fast VLA runtime / reaction-critical manipulation | [Link](https://arxiv.org/abs/2608.14379) | — |

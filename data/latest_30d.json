@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-12",
   "window_start_beijing": "2026-08-13",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 1108,
+  "tracked_total": 1115,
   "p0_strong_or_canonical": [
     {
       "title": "VikingRAG: Accurate and Token-efficient Retrieval-augmented Generation over Structured Documents",
@@ -1024,6 +1024,29 @@
       "directions": [
         "LLM Serving",
         "KV Cache / Long Context",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "MAVEN-T: Reinforced Heterogeneous Distillation for Real-Time Multi-Agent Trajectory Prediction",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / MoE systems/accelerators / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2604.10169",
+      "doi": "",
+      "official_id": "arXiv:2604.10169",
+      "paper_url": "https://arxiv.org/abs/2604.10169",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Protected Physical-AI: heterogeneous teacher-student trajectory prediction compresses parameters and delivers 3.7x inference acceleration with 14.6 ms Jetson AGX Orin latency.",
+      "published_at": "2026-09-09",
+      "updated_at": "2026-09-10",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "MoE Systems / Accelerators",
+        "Efficient Reasoning / Agents",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -7422,6 +7445,29 @@
       ]
     },
     {
+      "title": "SA-GEM: Scale-Adaptive and Geospatial Evidence-Modulated Token Pruning for Efficient Remote Sensing Large Vision-Language Models",
+      "venue": "Fresh / preprint",
+      "topic": "sparsity/pruning / multimodal/MLLM serving / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2608.15075",
+      "doi": "",
+      "official_id": "arXiv:2608.15075",
+      "paper_url": "https://arxiv.org/abs/2608.15075",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Query-adaptive resolution routing plus token-importance pruning for large vision-language models, reporting 2.4x total inference speedup while preserving task quality.",
+      "published_at": "2026-08-15",
+      "updated_at": "2026-08-18",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Multimodal / MLLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "RAPID-LLM: Resilience-Aware Performance analysis of Infrastructure for Distributed LLM Training and Inference",
       "venue": "Fresh / preprint",
       "topic": "MoE systems/accelerators",
@@ -7762,6 +7808,29 @@
         "Efficient Attention",
         "Distributed Training / Inference",
         "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "SAF3R: Dynamic Sparse Attention for Feed-Forward 3D Reconstruction Transformers",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / sparsity/pruning / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2607.03612",
+      "doi": "",
+      "official_id": "arXiv:2607.03612",
+      "paper_url": "https://arxiv.org/abs/2607.03612",
+      "code_url": "https://github.com/jndeng/SAF3R",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Training-free dynamic sparse attention for feed-forward 3D reconstruction transformers, with offline head profiling plus online adaptation and measured end-to-end acceleration.",
+      "published_at": "2026-08-13",
+      "updated_at": "2026-08-14",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Efficient Attention",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -9605,6 +9674,29 @@
       "updated_at": "2026-09-10",
       "is_latest_30d": true,
       "directions": [
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "FiberTune: Preserving Action-Fiber Visual Residuals in Vision-Language-Action Fine-Tuning",
+      "venue": "",
+      "topic": "LLM serving / multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving",
+      "arxiv": "2606.08653",
+      "doi": "",
+      "official_id": "arXiv:2606.08653",
+      "paper_url": "https://arxiv.org/abs/2606.08653",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI: VLA fine-tuning preserves visual residual structure with no added inference-time overhead; useful deployment-quality lineage though not primarily an acceleration system.",
+      "published_at": "2026-09-09",
+      "updated_at": "2026-09-10",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Video / Image Generation",
         "VLA / WAM / Physical AI"
       ]
     },
@@ -16360,6 +16452,28 @@
       ]
     },
     {
+      "title": "Low-Latency Event-Based Object Detection with Spatially-Sparse Linear Attention",
+      "venue": "",
+      "topic": "LLM serving / sparsity/pruning / efficient attention",
+      "arxiv": "2603.06228",
+      "doi": "",
+      "official_id": "arXiv:2603.06228",
+      "paper_url": "https://arxiv.org/abs/2603.06228",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Spatially sparse linear attention enables recurrent low-latency inference and parallel training for event vision, with over 20x per-event compute reduction; useful efficient-attention lineage.",
+      "published_at": "2026-08-26",
+      "updated_at": "2026-08-27",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Efficient Attention"
+      ]
+    },
+    {
       "title": "Learning to Act While Waiting: RL Finetuning of Generalist Robot Policies Under Inference Latency",
       "venue": "",
       "topic": "Physical AI / VLA / asynchronous inference / latency-aware RL",
@@ -18525,6 +18639,28 @@
       ]
     },
     {
+      "title": "Potential Applications of HBF in LLM Serving Systems",
+      "venue": "",
+      "topic": "LLM serving / KV cache/long-context / MoE systems/accelerators",
+      "arxiv": "2608.13127",
+      "doi": "",
+      "official_id": "arXiv:2608.13127",
+      "paper_url": "https://arxiv.org/abs/2608.13127",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "High-Bandwidth Flash serving study focused on weight residency, MoE expert replication and multi-model serving; useful memory-hierarchy lineage complementary to the deeper HBF analysis already tracked.",
+      "published_at": "2026-08-14",
+      "updated_at": "2026-08-17",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "MoE Systems / Accelerators"
+      ]
+    },
+    {
       "title": "Parameter- and Bandwidth-Efficient Edge--cloud Many-to-Many Speech-to-Text Translation",
       "venue": "",
       "topic": "multimodal/MLLM serving / edge/cloud/heterogeneous AI systems",
@@ -18651,6 +18787,26 @@
         "LLM Serving",
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Bayesian Optimization of Crossbar-Based Compute-In-Memory System Design for Efficient DNN Inference",
+      "venue": "",
+      "topic": "LLM serving",
+      "arxiv": "2605.08461",
+      "doi": "",
+      "official_id": "arXiv:2605.08461",
+      "paper_url": "https://arxiv.org/abs/2605.08461",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Crossbar-CIM hardware/software design-space co-optimization for efficient DNN inference; relevant accelerator co-design lineage, though evaluated on conventional CNN workloads.",
+      "published_at": "2026-08-14",
+      "updated_at": "2026-08-17",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving"
       ]
     },
     {
@@ -25028,6 +25184,29 @@
       ]
     },
     {
+      "title": "MAVEN-T: Reinforced Heterogeneous Distillation for Real-Time Multi-Agent Trajectory Prediction",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / MoE systems/accelerators / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2604.10169",
+      "doi": "",
+      "official_id": "arXiv:2604.10169",
+      "paper_url": "https://arxiv.org/abs/2604.10169",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Protected Physical-AI: heterogeneous teacher-student trajectory prediction compresses parameters and delivers 3.7x inference acceleration with 14.6 ms Jetson AGX Orin latency.",
+      "published_at": "2026-09-09",
+      "updated_at": "2026-09-10",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "MoE Systems / Accelerators",
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "LiteRAG: Cost-Efficient Graph-Based Retrieval-Augmented Generation",
       "venue": "arXiv 2026",
       "topic": "LLM serving / RAG / retrieval efficiency / context reduction",
@@ -31422,6 +31601,29 @@
       ]
     },
     {
+      "title": "SA-GEM: Scale-Adaptive and Geospatial Evidence-Modulated Token Pruning for Efficient Remote Sensing Large Vision-Language Models",
+      "venue": "Fresh / preprint",
+      "topic": "sparsity/pruning / multimodal/MLLM serving / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2608.15075",
+      "doi": "",
+      "official_id": "arXiv:2608.15075",
+      "paper_url": "https://arxiv.org/abs/2608.15075",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Query-adaptive resolution routing plus token-importance pruning for large vision-language models, reporting 2.4x total inference speedup while preserving task quality.",
+      "published_at": "2026-08-15",
+      "updated_at": "2026-08-18",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Multimodal / MLLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "RAPID-LLM: Resilience-Aware Performance analysis of Infrastructure for Distributed LLM Training and Inference",
       "venue": "Fresh / preprint",
       "topic": "MoE systems/accelerators",
@@ -31762,6 +31964,29 @@
         "Efficient Attention",
         "Distributed Training / Inference",
         "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "SAF3R: Dynamic Sparse Attention for Feed-Forward 3D Reconstruction Transformers",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / sparsity/pruning / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2607.03612",
+      "doi": "",
+      "official_id": "arXiv:2607.03612",
+      "paper_url": "https://arxiv.org/abs/2607.03612",
+      "code_url": "https://github.com/jndeng/SAF3R",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Training-free dynamic sparse attention for feed-forward 3D reconstruction transformers, with offline head profiling plus online adaptation and measured end-to-end acceleration.",
+      "published_at": "2026-08-13",
+      "updated_at": "2026-08-14",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Efficient Attention",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -33603,6 +33828,29 @@
       "updated_at": "2026-09-10",
       "is_latest_30d": true,
       "directions": [
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "FiberTune: Preserving Action-Fiber Visual Residuals in Vision-Language-Action Fine-Tuning",
+      "venue": "",
+      "topic": "LLM serving / multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving",
+      "arxiv": "2606.08653",
+      "doi": "",
+      "official_id": "arXiv:2606.08653",
+      "paper_url": "https://arxiv.org/abs/2606.08653",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI: VLA fine-tuning preserves visual residual structure with no added inference-time overhead; useful deployment-quality lineage though not primarily an acceleration system.",
+      "published_at": "2026-09-09",
+      "updated_at": "2026-09-10",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Video / Image Generation",
         "VLA / WAM / Physical AI"
       ]
     },
@@ -40358,6 +40606,28 @@
       ]
     },
     {
+      "title": "Low-Latency Event-Based Object Detection with Spatially-Sparse Linear Attention",
+      "venue": "",
+      "topic": "LLM serving / sparsity/pruning / efficient attention",
+      "arxiv": "2603.06228",
+      "doi": "",
+      "official_id": "arXiv:2603.06228",
+      "paper_url": "https://arxiv.org/abs/2603.06228",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Spatially sparse linear attention enables recurrent low-latency inference and parallel training for event vision, with over 20x per-event compute reduction; useful efficient-attention lineage.",
+      "published_at": "2026-08-26",
+      "updated_at": "2026-08-27",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Efficient Attention"
+      ]
+    },
+    {
       "title": "Learning to Act While Waiting: RL Finetuning of Generalist Robot Policies Under Inference Latency",
       "venue": "",
       "topic": "Physical AI / VLA / asynchronous inference / latency-aware RL",
@@ -42523,6 +42793,28 @@
       ]
     },
     {
+      "title": "Potential Applications of HBF in LLM Serving Systems",
+      "venue": "",
+      "topic": "LLM serving / KV cache/long-context / MoE systems/accelerators",
+      "arxiv": "2608.13127",
+      "doi": "",
+      "official_id": "arXiv:2608.13127",
+      "paper_url": "https://arxiv.org/abs/2608.13127",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "High-Bandwidth Flash serving study focused on weight residency, MoE expert replication and multi-model serving; useful memory-hierarchy lineage complementary to the deeper HBF analysis already tracked.",
+      "published_at": "2026-08-14",
+      "updated_at": "2026-08-17",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "MoE Systems / Accelerators"
+      ]
+    },
+    {
       "title": "Parameter- and Bandwidth-Efficient Edge--cloud Many-to-Many Speech-to-Text Translation",
       "venue": "",
       "topic": "multimodal/MLLM serving / edge/cloud/heterogeneous AI systems",
@@ -42649,6 +42941,26 @@
         "LLM Serving",
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Bayesian Optimization of Crossbar-Based Compute-In-Memory System Design for Efficient DNN Inference",
+      "venue": "",
+      "topic": "LLM serving",
+      "arxiv": "2605.08461",
+      "doi": "",
+      "official_id": "arXiv:2605.08461",
+      "paper_url": "https://arxiv.org/abs/2605.08461",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Crossbar-CIM hardware/software design-space co-optimization for efficient DNN inference; relevant accelerator co-design lineage, though evaluated on conventional CNN workloads.",
+      "published_at": "2026-08-14",
+      "updated_at": "2026-08-17",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving"
       ]
     },
     {

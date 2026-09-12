@@ -1,10 +1,10 @@
 # 06 · Efficient Attention
 
-> **256 canonical papers** mapped here, plus a broader **107-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **257 canonical papers** mapped here, plus a broader **109-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 107 tracked
+## 🆕 Latest 30 Days · 109 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -64,6 +64,7 @@
 | **P0 · Strong** | **DensityKV: Density-Guided KV Cache Compression for Long Video Generation** | arXiv 2026 | KV cache / video generation acceleration / efficient attention | [Link](https://arxiv.org/abs/2608.27922) | [Repo](https://github.com/ZhaoWQQ/DensityKV) |
 | **P1 · Watch** | **ClusterAttention: A training-free speedup of bidirectional attention** | Fresh / preprint | efficient attention / sparse attention / video generation | [Link](https://arxiv.org/abs/2608.26965) | — |
 | **P1 · Watch** | **A Method for Layer Bit-Width Allocation in LLM Quantization via Performance Maximization Under a Quality-Degradation Constraint** | Fresh / preprint | LLM serving / KV cache/long-context / quantization / efficient attention / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.28003) | — |
+| **P1 · Watch** | **Low-Latency Event-Based Object Detection with Spatially-Sparse Linear Attention** | Fresh / preprint | LLM serving / sparsity/pruning / efficient attention | [Link](https://arxiv.org/abs/2603.06228) | — |
 | **P0 · Strong** | **APT: Accelerating Diffusion Transformers via Attention Probability-Guided Pruning and Quantization** | Fresh / preprint | diffusion acceleration / sparse attention / quantization / accelerator | [Link](https://arxiv.org/abs/2608.25380) | — |
 | **P1 · Watch** | **Understanding the Energy Scaling of Large Language Model Inference Across Context Lengths and Attention Architectures** | Fresh / preprint | LLM serving / energy / attention architecture | [Link](https://arxiv.org/abs/2608.25096) | — |
 | **P1 · Watch** | **PuzzleKV: Page-Wise Low-Rank Decomposition for KV Cache Compression** | Fresh / preprint | KV cache / low-rank compression / autoregressive decode | [Link](https://arxiv.org/abs/2608.23843) | — |
@@ -92,6 +93,7 @@
 | **P0 · Strong** | **DeaMoE: Efficient MoE Structure for Fast Small-Batch Decoding** | Fresh / preprint | MoE architecture / small-batch decoding | [Link](https://arxiv.org/abs/2608.14385) | — |
 | **P0 · Strong** | **Analytical Provisioning for Attention-FFN Disaggregated LLM Serving under Stochastic Workloads** | Fresh / preprint | LLM serving / KV cache/long-context | [Link](https://arxiv.org/abs/2601.21351) | — |
 | **P0 · Strong** | **SCOPE: Subspace Clustering with Online Per-Head Top-K Estimation for Sparse Video Attention** | Fresh / preprint | sparse video attention / DiT inference | [Link](https://arxiv.org/abs/2608.12780) | — |
+| **P0 · Strong** | **SAF3R: Dynamic Sparse Attention for Feed-Forward 3D Reconstruction Transformers** | Fresh / preprint | LLM serving / sparsity/pruning / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2607.03612) | [Repo](https://github.com/jndeng/SAF3R) |
 | **P2 · Relevant** | **OasisKV: Scaling In-Decode KV Cache Beyond HBM with Lookahead Sparse Prefetching** | Fresh / preprint | LLM serving; KV cache / long context; speculative decoding; sparsity / pruning; efficient attention | [Link](https://arxiv.org/abs/2608.08097) | — |
 | **P1 · Watch** | **RotaryQuant: Fitting 120B MoE Models on Consumer Hardware via Fused Compressed-Space Attention** | Fresh / preprint | kv / quant / moe | [Link](https://arxiv.org/abs/2608.08081) | — |
 | **P2 · Relevant** | **HiSparse: Scaling Sparse-Attention Decoding with Hierarchical KV Cache Management** | Fresh / preprint | LLM serving; KV cache / long context; sparsity / pruning; GPU kernel / compiler | [Link](https://arxiv.org/abs/2608.07009) | — |

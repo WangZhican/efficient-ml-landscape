@@ -1,10 +1,10 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **413 canonical papers** mapped here, plus a broader **294-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **416 canonical papers** mapped here, plus a broader **297-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 294 tracked
+## 🆕 Latest 30 Days · 297 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -35,6 +35,7 @@
 | **P1 · Watch** | **NOVA-CIM: Noise- and Correlation-Tolerant Stochastic Interfaces for Analog Compute-in-Memory** | arXiv 2026 | edge/cloud/heterogeneous AI systems / compute-in-memory / accelerator interfaces | [Link](https://arxiv.org/abs/2609.07059) | — |
 | **P0 · Strong** | **Modality-Decoupled Federated Learning for Privacy-Preserving Embodied Intelligence in 6G** | arXiv 2026 | VLA/WAM/Physical AI / distributed training / edge-cloud / communication compression | [Link](https://arxiv.org/abs/2609.09591) | — |
 | **P0 · Strong** | **Maverick: Private and Verifiable LLM Inference Made Practical via Matrix-Vector Multiplication Delegation** | arXiv 2026 | LLM serving / private inference / verifiable delegation / heterogeneous offload | [Link](https://arxiv.org/abs/2609.10264) | — |
+| **P0 · Strong** | **MAVEN-T: Reinforced Heterogeneous Distillation for Real-Time Multi-Agent Trajectory Prediction** | Fresh / preprint | LLM serving / MoE systems/accelerators / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2604.10169) | — |
 | **P1 · Watch** | **JarvisGUI: Towards Cross-Device GUI Agents with Dynamic Task Composition** | arXiv 2026 | efficient reasoning/agent systems / GUI agents / heterogeneous devices / state transfer | [Link](https://arxiv.org/abs/2609.10451) | — |
 | **P0 · Strong** | **HybridFLow: SDN-Orchestrated Client Partitioning for Hybrid Federated Learning** | arXiv 2026 | distributed training / edge-cloud / federated learning / network-aware scheduling | [Link](https://arxiv.org/abs/2609.10404) | — |
 | **P1 · Watch** | **HuRo: Robotizing Human Videos for Scalable VLA Pretraining** | arXiv 2026 | VLA/WAM/Physical AI serving / scalable VLA data and pretraining | [Link](https://arxiv.org/abs/2609.10706) | [Repo](https://3587jjh.github.io/HuRo) |
@@ -225,6 +226,7 @@
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 | **P1 · Watch** | **MM-BEV: Enhancing Timeliness by Computing Where and When it Matters** | Fresh / preprint | Physical AI / edge runtime / sparse multimodal perception | [Link](https://arxiv.org/abs/2608.15437) | — |
 | **P2 · Relevant** | **MAPLE: MoE Adaptive Plug-and-play Layer-wise Expert allocation** | Fresh / preprint | llm_serving / sparse / moe / edge | [Link](https://arxiv.org/abs/2608.15299) | — |
+| **P0 · Strong** | **SA-GEM: Scale-Adaptive and Geospatial Evidence-Modulated Token Pruning for Efficient Remote Sensing Large Vision-Language Models** | Fresh / preprint | sparsity/pruning / multimodal/MLLM serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.15075) | — |
 | **P1 · Watch** | **Risk-Adaptive Edge--Cloud Visual Reasoning for Communication-Efficient Autonomous Driving** | arXiv 2026 | Physical AI / edge-cloud inference / autonomous driving / selective VLM offload | [Link](https://arxiv.org/abs/2608.14991) | — |
 | **P0 · Strong** | **LOCAL: Enabling Learning On-device Contiguously for Agent LLMs** | Fresh / preprint | LLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.15241) | — |
 | **P0 · Strong** | **From LLM Inference to Agentic Workloads: Characterization and Implications for Serving Systems** | Fresh / preprint | agentic serving characterization / systems benchmark | [Link](https://arxiv.org/abs/2608.15127) | — |
@@ -233,6 +235,7 @@
 | **P1 · Watch** | **Joint Optimization of Memory and Computing Frequency for Energy-Efficient DNN Inference** | Fresh / preprint | LLM serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.13863) | — |
 | **P1 · Watch** | **Exploring High-Bandwidth Flash for Modern LLM Inference: Opportunities and Challenges** | IEEE Computer Architecture Letters 2026 | LLM inference; flash storage; memory hierarchy; data movement | [Link](https://arxiv.org/abs/2608.13868) | — |
 | **P1 · Watch** | **LipCache: A Local Inference Proxy with Certified Caching for Edge Image Classification Service** | Fresh / preprint | edge inference / certified semantic caching / latency acceleration | [Link](https://arxiv.org/abs/2608.13144) | — |
+| **P0 · Strong** | **SAF3R: Dynamic Sparse Attention for Feed-Forward 3D Reconstruction Transformers** | Fresh / preprint | LLM serving / sparsity/pruning / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2607.03612) | [Repo](https://github.com/jndeng/SAF3R) |
 | **P2 · Relevant** | **APEX: Adaptive Expert Prefetching for Memory-Efficient Edge MoE Inference** | Fresh / preprint | llm_serving / moe / gen | [Link](https://arxiv.org/abs/2608.11688) | — |
 | **P2 · Relevant** | **Entropy-Constrained Adaptive Stochastic Quantization** | Fresh / preprint | llm_serving / kv / quant / edge | [Link](https://arxiv.org/abs/2608.18147) | — |
 | **P2 · Relevant** | **UnionSparse: An Index-Efficient Sparsity Framework for Low-Bit Sparse LLM Inference on Edge** | Fresh / preprint | llm_serving / quant / sparse | [Link](https://arxiv.org/abs/2608.09291) | — |

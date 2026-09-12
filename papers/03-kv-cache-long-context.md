@@ -1,10 +1,10 @@
 # 03 · KV Cache / Long Context
 
-> **449 canonical papers** mapped here, plus a broader **166-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **449 canonical papers** mapped here, plus a broader **167-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 166 tracked
+## 🆕 Latest 30 Days · 167 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -141,6 +141,7 @@
 | **P1 · Watch** | **P-PAS: Prefill-Pressure Adaptive Scheduling for Long-Context LLM Serving** | Fresh / preprint | LLM serving / long-context scheduling | [Link](https://arxiv.org/abs/2608.15171) | [Repo](https://github.com/TimoSaemann/ppas-vllm) |
 | **P0 · Strong** | **LOCAL: Enabling Learning On-device Contiguously for Agent LLMs** | Fresh / preprint | LLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.15241) | — |
 | **P0 · Strong** | **From LLM Inference to Agentic Workloads: Characterization and Implications for Serving Systems** | Fresh / preprint | agentic serving characterization / systems benchmark | [Link](https://arxiv.org/abs/2608.15127) | — |
+| **P1 · Watch** | **Potential Applications of HBF in LLM Serving Systems** | Fresh / preprint | LLM serving / KV cache/long-context / MoE systems/accelerators | [Link](https://arxiv.org/abs/2608.13127) | — |
 | **P1 · Watch** | **MegaParts: Scaling Part-Aware 3D Object Generation to 300 Parts via Token-Efficient Autoregressive Modeling** | Fresh / preprint | LLM serving / KV cache/long-context / quantization / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.14783) | — |
 | **P1 · Watch** | **KV Cache Compression Through the Lens of Transform Coding** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.14191) | — |
 | **P0 · Strong** | **Beyond Capacity: Scalable MoE LLM Inference via High-Bandwidth Flash with Direct GPU and HBM Paths** | Fresh / preprint | MoE serving / high-bandwidth flash architecture | [Link](https://arxiv.org/abs/2608.14333) | — |

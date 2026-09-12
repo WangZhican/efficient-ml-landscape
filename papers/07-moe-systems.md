@@ -1,16 +1,17 @@
 # 07 · MoE Systems / Accelerators
 
-> **140 canonical papers** mapped here, plus a broader **67-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **141 canonical papers** mapped here, plus a broader **69-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 67 tracked
+## 🆕 Latest 30 Days · 69 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **P0 · Strong** | **FluxMoE: Decoupling Expert Residency for High-Performance MoE Serving** | Fresh / preprint | LLM serving / KV cache/long-context / MoE systems/accelerators | [Link](https://arxiv.org/abs/2604.02715) | — |
 | **P1 · Watch** | **Data Scarcity and Model Sparsity: Mixtures-of-Experts Overfit More to Repeated Data** | arXiv 2026 | MoE systems/accelerators / sparsity / training efficiency | [Link](https://arxiv.org/abs/2609.11917) | — |
 | **P1 · Watch** | **Cache-Aware Joint Router Adaptation for Memory-Efficient MoE Inference** | arXiv 2026 | MoE systems/accelerators / expert cache / router adaptation | [Link](https://arxiv.org/abs/2609.04895) | — |
+| **P0 · Strong** | **MAVEN-T: Reinforced Heterogeneous Distillation for Real-Time Multi-Agent Trajectory Prediction** | Fresh / preprint | LLM serving / MoE systems/accelerators / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2604.10169) | — |
 | **P0 · Strong** | **Epoch: Compiling Diffusion Blocks for Sparse MoE Serving** | arXiv 2026 | MoE systems/accelerators / diffusion language model serving / compiler-runtime | [Link](https://arxiv.org/abs/2609.09748) | — |
 | **P0 · Strong** | **UniMoMo: Expert Merging-Based MoE Acceleration for Large Recommendation Models** | Fresh / preprint | LLM serving / MoE systems/accelerators / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.08627) | — |
 | **P0 · Strong** | **SliceMoE: Bit-Sliced Expert Caching under Miss-Rate Constraints for Efficient MoE Inference** | Fresh / preprint | LLM serving / quantization / MoE systems/accelerators / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2512.12990) | — |
@@ -56,6 +57,7 @@
 | **P0 · Strong** | **Every Expert Counts: ExactMoE for Memory-Efficient W4A16 Inference** | Fresh / preprint | MoE memory-efficient W4A16 inference / GPU slot cache | [Link](https://arxiv.org/abs/2608.15383) | — |
 | **P2 · Relevant** | **MoE Expert Execution in Disaggregated LLM Serving with a High-Bandwidth ReRAM Near-Memory Architecture** | Fresh / preprint | llm_serving / moe | [Link](https://arxiv.org/abs/2608.13962) | — |
 | **P0 · Strong** | **TEMPO: Makespan-Aware Expert-Parallel Load Balancing Across Memory- and Compute-Bound Regimes** | Fresh / preprint | MoE expert-parallel load balancing / serving | [Link](https://arxiv.org/abs/2608.13057) | — |
+| **P1 · Watch** | **Potential Applications of HBF in LLM Serving Systems** | Fresh / preprint | LLM serving / KV cache/long-context / MoE systems/accelerators | [Link](https://arxiv.org/abs/2608.13127) | — |
 | **P0 · Strong** | **DeaMoE: Efficient MoE Structure for Fast Small-Batch Decoding** | Fresh / preprint | MoE architecture / small-batch decoding | [Link](https://arxiv.org/abs/2608.14385) | — |
 | **P0 · Strong** | **CodeQuant: Unified Clustering and Quantization for Enhanced Outlier Smoothing in Low-Precision Mixture-of-Experts** | Fresh / preprint | LLM serving / quantization / MoE systems/accelerators | [Link](https://arxiv.org/abs/2604.10496) | [Repo](https://github.com/SAI-Lab-NYU/CodeQuant) |
 | **P0 · Strong** | **Beyond Capacity: Scalable MoE LLM Inference via High-Bandwidth Flash with Direct GPU and HBM Paths** | Fresh / preprint | MoE serving / high-bandwidth flash architecture | [Link](https://arxiv.org/abs/2608.14333) | — |

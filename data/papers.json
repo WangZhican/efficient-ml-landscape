@@ -16155,6 +16155,29 @@
     ]
   },
   {
+    "title": "MAVEN-T: Reinforced Heterogeneous Distillation for Real-Time Multi-Agent Trajectory Prediction",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / MoE systems/accelerators / edge/cloud/heterogeneous AI systems",
+    "arxiv": "2604.10169",
+    "doi": "",
+    "official_id": "arXiv:2604.10169",
+    "paper_url": "https://arxiv.org/abs/2604.10169",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Protected Physical-AI: heterogeneous teacher-student trajectory prediction compresses parameters and delivers 3.7x inference acceleration with 14.6 ms Jetson AGX Orin latency.",
+    "published_at": "2026-09-09",
+    "updated_at": "2026-09-10",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "MoE Systems / Accelerators",
+      "Efficient Reasoning / Agents",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Memory Efficient Audio Synthesis with Decoupled Temporal Depth Diffusion Transformers",
     "venue": "Fresh / preprint",
     "topic": "quantization / video/image generation acceleration / edge/cloud/heterogeneous AI systems",
@@ -16552,6 +16575,52 @@
     "directions": [
       "LLM Serving",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "SA-GEM: Scale-Adaptive and Geospatial Evidence-Modulated Token Pruning for Efficient Remote Sensing Large Vision-Language Models",
+    "venue": "Fresh / preprint",
+    "topic": "sparsity/pruning / multimodal/MLLM serving / edge/cloud/heterogeneous AI systems",
+    "arxiv": "2608.15075",
+    "doi": "",
+    "official_id": "arXiv:2608.15075",
+    "paper_url": "https://arxiv.org/abs/2608.15075",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Query-adaptive resolution routing plus token-importance pruning for large vision-language models, reporting 2.4x total inference speedup while preserving task quality.",
+    "published_at": "2026-08-15",
+    "updated_at": "2026-08-18",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Multimodal / MLLM Serving",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "SAF3R: Dynamic Sparse Attention for Feed-Forward 3D Reconstruction Transformers",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / sparsity/pruning / edge/cloud/heterogeneous AI systems",
+    "arxiv": "2607.03612",
+    "doi": "",
+    "official_id": "arXiv:2607.03612",
+    "paper_url": "https://arxiv.org/abs/2607.03612",
+    "code_url": "https://github.com/jndeng/SAF3R",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Training-free dynamic sparse attention for feed-forward 3D reconstruction transformers, with offline head profiling plus online adaptation and measured end-to-end acceleration.",
+    "published_at": "2026-08-13",
+    "updated_at": "2026-08-14",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {

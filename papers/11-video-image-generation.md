@@ -1,10 +1,10 @@
 # 11 · Video / Image Generation
 
-> **106 canonical papers** mapped here, plus a broader **95-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **106 canonical papers** mapped here, plus a broader **96-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 95 tracked
+## 🆕 Latest 30 Days · 96 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -14,6 +14,7 @@
 | **P1 · Watch** | **FreeTransformSR: Efficient Lightweight Image Super-Resolution via Free Low-Rank Learnable Transform** | arXiv 2026 | video/image generation acceleration / lightweight image restoration | [Link](https://arxiv.org/abs/2609.05912) | [Repo](https://github.com/HJiLi/FreeTransformSR) |
 | **P1 · Watch** | **TurboT2VA: Fast Large-Scale Text-to-Video-Audio Generation via Score-Regularized Consistency Distillation** | Fresh / preprint | video/image generation acceleration / multimodal diffusion / quantization / sparse attention | [Link](https://arxiv.org/abs/2608.24674) | — |
 | **P0 · Strong** | **RoLA: Rotary-Positioned Low-Rank Linear Attention for Efficient Diffusion Transformers** | arXiv 2026 | video/image generation acceleration / diffusion/flow acceleration / efficient attention | [Link](https://arxiv.org/abs/2609.06712) | — |
+| **P1 · Watch** | **FiberTune: Preserving Action-Fiber Visual Residuals in Vision-Language-Action Fine-Tuning** | Fresh / preprint | LLM serving / multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2606.08653) | — |
 | **P0 · Strong** | **Decoupled Self-Forcing Distillation for Streaming Talking Head Generation** | arXiv 2026 | video/image generation acceleration / streaming diffusion / causal distillation | [Link](https://arxiv.org/abs/2609.10317) | — |
 | **P0 · Strong** | **UniMoMo: Expert Merging-Based MoE Acceleration for Large Recommendation Models** | Fresh / preprint | LLM serving / MoE systems/accelerators / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.08627) | — |
 | **P1 · Watch** | **Temporal State Transport in Video Generation: Diagnosing and Correcting Spectral Imbalance** | arXiv 2026 | video/image generation acceleration / training-free video control | [Link](https://arxiv.org/abs/2609.08505) | — |

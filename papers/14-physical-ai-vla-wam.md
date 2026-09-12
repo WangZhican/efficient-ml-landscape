@@ -1,10 +1,10 @@
 # 14 · VLA / WAM / Physical AI
 
-> **158 canonical papers** mapped here, plus a broader **284-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **158 canonical papers** mapped here, plus a broader **285-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 284 tracked
+## 🆕 Latest 30 Days · 285 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -45,6 +45,7 @@
 | **P1 · Watch** | **GTA-2: A Multi-VLM Framework for Synthesizing Robot Manipulation Skills via Grounded Task Axes** | arXiv 2026 | VLA/WAM/Physical AI / multi-VLM skill synthesis / zero-shot manipulation / modular control | [Link](https://arxiv.org/abs/2609.09808) | [Repo](https://gta2-project.github.io/) |
 | **P1 · Watch** | **Frequency-Conditioned Flow Matching for Vision-Language-Action Models** | arXiv 2026 | VLA/WAM/Physical AI / flow matching / action generation | [Link](https://arxiv.org/abs/2609.10405) | — |
 | **P1 · Watch** | **FolDeX: A Physical-World Benchmark for Long-Horizon Robotic Manipulation of Deformable Objects** | arXiv 2026 | VLA/WAM/Physical AI / long-horizon manipulation / deformable objects / real-robot benchmark | [Link](https://arxiv.org/abs/2609.10243) | [Repo](https://ai.midea.com) |
+| **P1 · Watch** | **FiberTune: Preserving Action-Fiber Visual Residuals in Vision-Language-Action Fine-Tuning** | Fresh / preprint | LLM serving / multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2606.08653) | — |
 | **P0 · Strong** | **Deformable Object Manipulation under Partial Observability via Real-Time Full-Shape Estimation** | arXiv 2026 | VLA/WAM/Physical AI serving / robot world model / real-time control | [Link](https://arxiv.org/abs/2609.10308) | — |
 | **P1 · Watch** | **CT-SAFR: Safe and Interpretable Chain-of-Thought Reasoning for Autonomous Robots: A Multi-Layered Verification Framework for Trustworthy AI-Driven Robotic Decision Making** | arXiv 2026 | VLA/WAM/Physical AI serving / runtime verification / robot reasoning | [Link](https://arxiv.org/abs/2609.09692) | — |
 | **P0 · Strong** | **CLFTv2: Efficient Camera-LiDAR Fusion for Semantic Segmentation via Hierarchical Feature Pyramids** | arXiv 2026 | VLA/WAM/Physical AI / multimodal perception / efficient attention / edge inference | [Link](https://arxiv.org/abs/2609.09881) | — |

@@ -1,10 +1,10 @@
 # 05 · Sparsity / Pruning
 
-> **285 canonical papers** mapped here, plus a broader **156-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **287 canonical papers** mapped here, plus a broader **159-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 156 tracked
+## 🆕 Latest 30 Days · 159 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -91,6 +91,7 @@
 | **P1 · Watch** | **Beyond FLOPs: Benchmarking Real Inference Acceleration of LLM Pruning under a GEMM-Centric Taxonomy** | Fresh / preprint | sparsity/pruning | [Link](https://arxiv.org/abs/2606.09080) | [Repo](https://github.com/EIT-NLP/LLM-Pruning/tree/main/PruningInferSim) |
 | **P0 · Strong** | **Training-Free Interaction-Aligned Visual Token Pruning for Efficient Embodied Manipulation** | Fresh / preprint | sparsity/pruning / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2603.22991) | — |
 | **P0 · Strong** | **ST-Lite: Training-Free KV Cache Compression with Spatio-Trajectory Guidance for Long-Horizon GUI Agents** | Fresh / preprint | LLM serving / KV cache/long-context / sparsity/pruning / multimodal/MLLM serving | [Link](https://arxiv.org/abs/2603.00188) | [Repo](https://github.com/94wen94/ST-Lite) |
+| **P1 · Watch** | **Low-Latency Event-Based Object Detection with Spatially-Sparse Linear Attention** | Fresh / preprint | LLM serving / sparsity/pruning / efficient attention | [Link](https://arxiv.org/abs/2603.06228) | — |
 | **P0 · Strong** | **Learning to Accelerate Vision-Language-Action Models through Adaptive Visual Token Caching** | Fresh / preprint | sparsity/pruning / multimodal/MLLM serving / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2602.00686) | — |
 | **P1 · Watch** | **Efficient Training with Foresight: Multi-Token Auxiliary Supervision for Autoregressive Image Generation** | Fresh / preprint | LLM serving / sparsity/pruning / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.25386) | — |
 | **P0 · Strong** | **APT: Accelerating Diffusion Transformers via Attention Probability-Guided Pruning and Quantization** | Fresh / preprint | diffusion acceleration / sparse attention / quantization / accelerator | [Link](https://arxiv.org/abs/2608.25380) | — |
@@ -127,8 +128,10 @@
 | **P1 · Watch** | **FlashQuant: Sparse-Dense Fusion for Memory-Efficient Outlier-Aware LLM Inference** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.15531) | — |
 | **P1 · Watch** | **MM-BEV: Enhancing Timeliness by Computing Where and When it Matters** | Fresh / preprint | Physical AI / edge runtime / sparse multimodal perception | [Link](https://arxiv.org/abs/2608.15437) | — |
 | **P2 · Relevant** | **MAPLE: MoE Adaptive Plug-and-play Layer-wise Expert allocation** | Fresh / preprint | llm_serving / sparse / moe / edge | [Link](https://arxiv.org/abs/2608.15299) | — |
+| **P0 · Strong** | **SA-GEM: Scale-Adaptive and Geospatial Evidence-Modulated Token Pruning for Efficient Remote Sensing Large Vision-Language Models** | Fresh / preprint | sparsity/pruning / multimodal/MLLM serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.15075) | — |
 | **P0 · Strong** | **Every Expert Counts: ExactMoE for Memory-Efficient W4A16 Inference** | Fresh / preprint | MoE memory-efficient W4A16 inference / GPU slot cache | [Link](https://arxiv.org/abs/2608.15383) | — |
 | **P0 · Strong** | **SCOPE: Subspace Clustering with Online Per-Head Top-K Estimation for Sparse Video Attention** | Fresh / preprint | sparse video attention / DiT inference | [Link](https://arxiv.org/abs/2608.12780) | — |
+| **P0 · Strong** | **SAF3R: Dynamic Sparse Attention for Feed-Forward 3D Reconstruction Transformers** | Fresh / preprint | LLM serving / sparsity/pruning / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2607.03612) | [Repo](https://github.com/jndeng/SAF3R) |
 | **P2 · Relevant** | **UnionSparse: An Index-Efficient Sparsity Framework for Low-Bit Sparse LLM Inference on Edge** | Fresh / preprint | llm_serving / quant / sparse | [Link](https://arxiv.org/abs/2608.09291) | — |
 | **P2 · Relevant** | **OasisKV: Scaling In-Decode KV Cache Beyond HBM with Lookahead Sparse Prefetching** | Fresh / preprint | LLM serving; KV cache / long context; speculative decoding; sparsity / pruning; efficient attention | [Link](https://arxiv.org/abs/2608.08097) | — |
 | **P2 · Relevant** | **HiSparse: Scaling Sparse-Attention Decoding with Hierarchical KV Cache Management** | Fresh / preprint | LLM serving; KV cache / long context; sparsity / pruning; GPU kernel / compiler | [Link](https://arxiv.org/abs/2608.07009) | — |
