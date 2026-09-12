@@ -1,10 +1,10 @@
 # 03 · KV Cache / Long Context
 
-> **481 canonical papers** mapped here, plus a broader **186-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **481 canonical papers** mapped here, plus a broader **188-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 186 tracked
+## 🆕 Latest 30 Days · 188 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -135,6 +135,7 @@
 | **P0 · Strong** | **Beyond Sparse Weights: When Is Attention Compressible?** | Fresh / preprint | LLM serving / KV cache/long-context | [Link](https://arxiv.org/abs/2608.21541) | — |
 | **P0 · Strong** | **Rethinking Expressivity and Efficiency in Test-Time Training** | Fresh / preprint | LLM serving / KV cache/long-context | [Link](https://arxiv.org/abs/2608.21308) | [Repo](https://github.com/zeyun-zhong/E2-TTT) |
 | **P0 · Strong** | **SPICE: Speculative Prefetching with Low-Rank Expert Surrogates and Heterogeneous Orchestration for MoE Inference Acceleration** | Fresh / preprint | MoE systems / expert offload / heterogeneous inference | [Link](https://arxiv.org/abs/2608.21240) | — |
+| **P1 · Watch** | **MentorPulse: Refreshing Cross-Model Latent Guidance for Long-Form Generation** | Fresh / preprint | KV cache/long-context / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.20927) | — |
 | **P1 · Watch** | **Dual-Cache Latent Space Communication between Heterogeneous Language Models** | Fresh / preprint | edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.20617) | — |
 | **P1 · Watch** | **Which Eviction Policy Should an LLM Cache Use? A Systematic Study Across Workloads, Capacities, and Encoders** | Fresh / preprint | LLM semantic cache / eviction policy / serving benchmark | [Link](https://arxiv.org/abs/2608.20280) | — |
 | **P1 · Watch** | **Learning how to Forget: Fine-tuning for Long-Context Sparse Attention** | Fresh / preprint | long-context / sparse attention / KV cache policy | [Link](https://arxiv.org/abs/2608.19920) | [Repo](https://github.com/awslabs/keys_values) |
@@ -156,6 +157,7 @@
 | **P1 · Watch** | **P-PAS: Prefill-Pressure Adaptive Scheduling for Long-Context LLM Serving** | Fresh / preprint | LLM serving / long-context scheduling | [Link](https://arxiv.org/abs/2608.15171) | [Repo](https://github.com/TimoSaemann/ppas-vllm) |
 | **P0 · Strong** | **From LLM Inference to Agentic Workloads: Characterization and Implications for Serving Systems** | Fresh / preprint | agentic serving characterization / systems benchmark | [Link](https://arxiv.org/abs/2608.15127) | — |
 | **P1 · Watch** | **GraphLoom: Reliability-Calibrated Graph Evidence Routing for Multimodal KG-RAG** | Fresh / preprint | LLM serving / KV cache/long-context / multimodal/MLLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.15056) | — |
+| **P1 · Watch** | **Harness the Memory: A Holistic Evaluation of Memory Substrates in Memory Agents** | Fresh / preprint | KV cache/long-context | [Link](https://arxiv.org/abs/2608.15008) | — |
 | **P1 · Watch** | **Risk-Adaptive Edge--Cloud Visual Reasoning for Communication-Efficient Autonomous Driving** | arXiv 2026 | Physical AI / edge-cloud inference / autonomous driving / selective VLM offload | [Link](https://arxiv.org/abs/2608.14991) | — |
 | **P1 · Watch** | **MegaParts: Scaling Part-Aware 3D Object Generation to 300 Parts via Token-Efficient Autoregressive Modeling** | Fresh / preprint | LLM serving / KV cache/long-context / quantization / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.14783) | — |
 | **P0 · Strong** | **Beyond Capacity: Scalable MoE LLM Inference via High-Bandwidth Flash with Direct GPU and HBM Paths** | Fresh / preprint | MoE serving / high-bandwidth flash architecture | [Link](https://arxiv.org/abs/2608.14333) | — |

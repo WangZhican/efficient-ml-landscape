@@ -1,10 +1,10 @@
 # 04 · Quantization
 
-> **274 canonical papers** mapped here, plus a broader **191-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **274 canonical papers** mapped here, plus a broader **193-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 191 tracked
+## 🆕 Latest 30 Days · 193 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -134,6 +134,7 @@
 | **P1 · Watch** | **Llama-Mobile: Efficient 2.7-Bit Quantization of VLMs** | Fresh / preprint | llm_serving / quant / multimodal | [Link](https://arxiv.org/abs/2608.21134) | — |
 | **P2 · Relevant** | **Target-Aware Calibration Data Selection for Preserving Uncertainty in Quantized Language Models** | Fresh / preprint | llm_serving / quant / edge | [Link](https://arxiv.org/abs/2608.21019) | — |
 | **P1 · Watch** | **Quantization-Aware Healing: A Practical Recipe for Recovering Compressed, 4-Bit LLMs** | Fresh / preprint | llm_serving / kv / quant | [Link](https://arxiv.org/abs/2608.20953) | — |
+| **P1 · Watch** | **DiffVC-ONE: Diffusion-based Generative Video Compression with One-Step Video Diffusion Transformer** | Fresh / preprint | quantization / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.20515) | — |
 | **P1 · Watch** | **Energy-Efficient Visual Inspection with FFT-Based CNNs and Adaptive Floating-Point Quantization** | Fresh / preprint | quantization | [Link](https://arxiv.org/abs/2608.19837) | — |
 | **P0 · Strong** | **MonoMoE: An Efficient Fused Mega-kernel for Quantized MoE Decoding** | arXiv 2026 / FlashInfer | MoE systems/accelerators / GPU kernel / quantized LLM serving | [Link](https://arxiv.org/abs/2609.04244) | [Repo](https://github.com/flashinfer-ai/flashinfer/tree/main/csrc/fused_moe/monomoe) |
 | **P0 · Strong** | **The Lazy Pod That Lies: Deferred Cost and Failure Semantics of Lazy Container Image Pulling for Model Serving on Kubernetes** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2608.19412) | — |
@@ -156,6 +157,7 @@
 | **P0 · Strong** | **FluxBin: Flexible LUT-based Ultra-low-bit LLM Inference by Algorithm-Kernel Synergy** | Fresh / preprint | LLM quantization / CUDA kernel co-design | [Link](https://arxiv.org/abs/2608.15602) | — |
 | **P0 · Strong** | **SchurQuant: Groupwise Discrete Optimization for Layer-Wise LLM Quantization** | Fresh / preprint | quantization | [Link](https://arxiv.org/abs/2608.15567) | — |
 | **P1 · Watch** | **FlashQuant: Sparse-Dense Fusion for Memory-Efficient Outlier-Aware LLM Inference** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.15531) | — |
+| **P1 · Watch** | **NeuRoute: Logit-Guided Neural Routing for Billion-Scale Vector Search with Sub-Hour Index Construction** | Fresh / preprint | LLM serving / quantization | [Link](https://arxiv.org/abs/2608.15438) | [Repo](https://github.com/XingqiaoWang/NeuRoute) |
 | **P0 · Strong** | **Every Expert Counts: ExactMoE for Memory-Efficient W4A16 Inference** | Fresh / preprint | MoE memory-efficient W4A16 inference / GPU slot cache | [Link](https://arxiv.org/abs/2608.15383) | — |
 | **P1 · Watch** | **Anatomy of a Quantized Agent: VRAM Stability and Forecasting in Code-Synthesis Agentic Workloads** | Fresh / preprint | quantization / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.15117) | — |
 | **P1 · Watch** | **MegaParts: Scaling Part-Aware 3D Object Generation to 300 Parts via Token-Efficient Autoregressive Modeling** | Fresh / preprint | LLM serving / KV cache/long-context / quantization / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.14783) | — |

@@ -1,10 +1,10 @@
 # 11 · Video / Image Generation
 
-> **188 canonical papers** mapped here, plus a broader **186-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **191 canonical papers** mapped here, plus a broader **193-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 186 tracked
+## 🆕 Latest 30 Days · 193 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -40,6 +40,7 @@
 | **P0 · Strong** | **Parsing the Stream: A Live Trace Model for Long-Horizon Agents and Their Observers** | Fresh / preprint | LLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.01466) | — |
 | **P0 · Strong** | **CERF: Communication-Efficient and Retraining-Free Collaborative Perception** | Fresh / preprint | distributed training/inference / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.00951) | [Repo](https://github.com/uestchjw/CERF) |
 | **P1 · Watch** | **Staged Linguistic Seeding: Grounded Query Expansion for Verified-Unit QA in AI Contact Centers** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2609.00844) | — |
+| **P1 · Watch** | **Escaping Redundant Reasoning: Structure-Aware Search for Inference-Time LLMs** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2609.00738) | [Repo](https://github.com/GitHubLuCheng/basin) |
 | **P0 · Strong** | **REVISE: Validity-Guided Recovery for Online Revisions in Agent Workflows** | Fresh / preprint | LLM serving / GPU kernel/DSL/compilers / video/image generation acceleration | [Link](https://arxiv.org/abs/2609.00643) | — |
 | **P1 · Watch** | **Streaming4D: Accelerate 4D World Models via Block-wise Video Generation and Incremental Reconstruction** | arXiv 2026 | VLA/WAM/Physical AI serving / world-model acceleration / streaming 4D reconstruction | [Link](https://arxiv.org/abs/2609.00610) | — |
 | **P1 · Watch** | **Enoki: Efficient Multi-Level Hallucination Detection** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2609.00581) | — |
@@ -114,8 +115,11 @@
 | **P1 · Watch** | **Portable to Efficient: Auto-Tuning Hardware-Agnostic GPU Kernels in Julia** | Fresh / preprint | GPU kernel/DSL/compilers / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.21227) | — |
 | **P0 · Strong** | **HIERA: Workload-Aware Planning Across Implementation Spaces for GPU Kernel Optimization** | Fresh / preprint | GPU kernel/DSL/compilers / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.21157) | — |
 | **P1 · Watch** | **PhysCaP: Grounding Code-as-Policy Agent with Physics-Informed Exploration** | Fresh / preprint | multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.21031) | — |
+| **P1 · Watch** | **MentorPulse: Refreshing Cross-Model Latent Guidance for Long-Form Generation** | Fresh / preprint | KV cache/long-context / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.20927) | — |
+| **P1 · Watch** | **DiffVC-ONE: Diffusion-based Generative Video Compression with One-Step Video Diffusion Transformer** | Fresh / preprint | quantization / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.20515) | — |
 | **P1 · Watch** | **Swift-Image: Exploring the Performance Frontier of Compact Unified Image Generation Models** | Fresh / preprint | image generation efficiency / pruning / few-step distillation | [Link](https://arxiv.org/abs/2608.20334) | — |
 | **P1 · Watch** | **When Do LLM Agents Help? Deadline-Aware Mixed-Criticality Task Scheduling at the Autonomous-Vehicle Edge** | Fresh / preprint | LLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.19557) | — |
+| **P0 · Strong** | **RISE: Adaptive Imagination for World Action Models** | Fresh / preprint | video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.20430) | — |
 | **P1 · Watch** | **Fine-Tuning VLAs with Self-Demonstrated Generative Control for Multi-Task Manipulation** | Fresh / preprint | multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.19490) | — |
 | **P2 · Relevant** | **GS-VLA: Plug-and-Play Viewpoint Canonicalization for Frozen VLA Policies via Gaussian Splatting** | Fresh / preprint | Physical AI / VLA robustness / lightweight runtime module | [Link](https://arxiv.org/abs/2608.19066) | — |
 | **P0 · Strong** | **GEAR: Generative Expansion and Real Anchoring for Two-Stage Distillation of Tabular Foundation Models** | Fresh / preprint | LLM serving / quantization / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.18849) | — |
@@ -130,6 +134,8 @@
 | **P1 · Watch** | **Calibrated Predictive Safety for Heterogeneous Robots: An Action-Conditioned JEPA Framework with Model-Based Safety Shields** | Fresh / preprint | multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.17496) | — |
 | **P1 · Watch** | **Reuse Before You Retrieve: Diagnosing Headroom and Complementarity for Test-Time Augmentation of Embodied Multimodal Policies** | Fresh / preprint | multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.17484) | — |
 | **P0 · Strong** | **EATR-Stereo: Embodiment-Aware Token Routing of Paired Stereo Evidence for Humanoid Vision-Language-Action Control** | Fresh / preprint | LLM serving / multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.17453) | — |
+| **P0 · Strong** | **Agentic ESOpt: Fine-Tuning Long-Horizon LLM Agents with Minimal GPU Requirements** | Fresh / preprint | video/image generation acceleration / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.17310) | — |
+| **P1 · Watch** | **Token Optimization and Context Window Management in Multi-Agent AI Workflows** | Fresh / preprint | LLM serving / sparsity/pruning / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.17188) | — |
 | **P0 · Strong** | **An Empirical Study of Training Pixel-Space Text-to-Image Diffusion Models** | Fresh / preprint | image generation acceleration | [Link](https://arxiv.org/abs/2608.16887) | — |
 | **P0 · Strong** | **GenRouter: Unified Workflow Routing for Agentic Image Generation** | Fresh / preprint | agentic image generation / workflow routing / inference efficiency | [Link](https://arxiv.org/abs/2608.16721) | — |
 | **P0 · Strong** | **SQuad: Sub-Quadratic Attention Distillation for Efficient Video Generation** | Fresh / preprint | video generation acceleration / efficient attention | [Link](https://arxiv.org/abs/2608.16585) | — |
@@ -144,6 +150,7 @@
 | **P1 · Watch** | **PhaseLoRA: Control-Regime-Conditioned Low-Rank Adaptation for Continuous-Action Vision-Language-Action Policies** | Fresh / preprint | multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.15285) | — |
 | **P0 · Strong** | **LOCAL: Enabling Learning On-device Contiguously for Agent LLMs** | Fresh / preprint | LLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.15241) | — |
 | **P0 · Strong** | **Funnel of Thoughts: Efficient Test-Time Scaling via Early Voting and Rollout Pruning** | Fresh / preprint | sparsity/pruning / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.15065) | — |
+| **P0 · Strong** | **Gated Recurrent Transformers: Expressive Depth through Recurrent Modulation** | Fresh / preprint | LLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.15062) | — |
 | **P1 · Watch** | **GraphLoom: Reliability-Calibrated Graph Evidence Routing for Multimodal KG-RAG** | Fresh / preprint | LLM serving / KV cache/long-context / multimodal/MLLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.15056) | — |
 | **P1 · Watch** | **SCOPE: Score-Isolated Agentic Optimization for Video World Models** | Fresh / preprint | video/image generation acceleration / efficient reasoning/agent systems / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.15043) | [Repo](https://github.com/YuhuaJiang2002/SCOPE) |
 | **P0 · Strong** | **From Positionwise Confidence to Prefix Scheduling: Verifier Skipping in Speculative Decoding** | Fresh / preprint | LLM serving / speculative decoding / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.14787) | — |

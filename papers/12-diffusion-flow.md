@@ -1,10 +1,10 @@
 # 12 · Diffusion / Flow Acceleration
 
-> **241 canonical papers** mapped here, plus a broader **99-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **241 canonical papers** mapped here, plus a broader **100-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 99 tracked
+## 🆕 Latest 30 Days · 100 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -77,6 +77,7 @@
 | **P0 · Strong** | **CAI-DLLM: Convergence Aware Inference for Diffusion Language Models** | Fresh / preprint | KV cache/long-context | [Link](https://arxiv.org/abs/2608.22646) | — |
 | **P1 · Watch** | **Anchoring Instruction Outside Mask: Exact Reference Caching for Efficient In-Context Diffusion Transformers** | Fresh / preprint | sparse / gen | [Link](https://arxiv.org/abs/2608.21229) | — |
 | **P2 · Relevant** | **Is Multimodal Speculative Decoding Ready for Diffusion-Based Parallel Drafting? A Survey and Empirical Diagnosis** | Fresh / preprint | spec / multimodal / physical / edge | [Link](https://arxiv.org/abs/2608.20743) | — |
+| **P1 · Watch** | **DiffVC-ONE: Diffusion-based Generative Video Compression with One-Step Video Diffusion Transformer** | Fresh / preprint | quantization / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.20515) | — |
 | **P0 · Strong** | **Block3D: Efficient Text-to-3D Generation via Block-Wise Diffusion** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.19567) | — |
 | **P1 · Watch** | **Clustering and Token Denoising for Faster and More Robust VLMs** | Fresh / preprint | sparsity/pruning / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.19285) | — |
 | **P1 · Watch** | **EDITBRIDGE: Towards Faithful and Efficient Ultra-High-Resolution Image Editing** | Fresh / preprint | image editing / diffusion / block-wise sparse attention | [Link](https://arxiv.org/abs/2608.18063) | — |

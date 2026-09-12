@@ -15367,6 +15367,28 @@
     ]
   },
   {
+    "title": "Agentic ESOpt: Fine-Tuning Long-Horizon LLM Agents with Minimal GPU Requirements",
+    "venue": "Fresh / preprint",
+    "topic": "video/image generation acceleration / efficient reasoning/agent systems",
+    "arxiv": "2608.17310",
+    "doi": "",
+    "official_id": "arXiv:2608.17310",
+    "paper_url": "https://arxiv.org/abs/2608.17310",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Agentic ESOpt replaces heavyweight backprop-based agentic RL with evolution-strategy updates that operate near inference-level GPU memory, enabling full-parameter long-horizon agent fine-tuning of 27B-scale models with minimal GPU requirements.",
+    "published_at": "2026-08-18T03:03:53Z",
+    "updated_at": "2026-08-21T05:30:17Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Video / Image Generation",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "AgenticCANN: Automated Ascend C Operator Generation via Knowledge-Augmented Agentic Evolution",
     "venue": "Fresh / preprint",
     "topic": "GPU kernel/DSL/compilers / efficient reasoning/agent systems / edge/cloud/heterogeneous AI systems",
@@ -16328,6 +16350,28 @@
     ]
   },
   {
+    "title": "DepTGL: A Parallel Framework for Memory-based TGNN Training with Adaptive Temporal Data Dependency Management",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / sparsity/pruning / distributed training/inference",
+    "arxiv": "2608.16305",
+    "doi": "",
+    "official_id": "arXiv:2608.16305",
+    "paper_url": "https://arxiv.org/abs/2608.16305",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "DepTGL restructures temporal-dependency handling for distributed memory-based TGNN training using caching, selective synchronization and load-aware pruning, delivering 4.99x average speedup over prior frameworks at comparable accuracy.",
+    "published_at": "2026-08-17T09:16:00Z",
+    "updated_at": "2026-08-17T09:16:00Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "Depth-adaptive Inference of Looped Language Models via Continuous Depth Batching",
     "venue": "Fresh / preprint",
     "topic": "LLM serving / adaptive inference / scheduling",
@@ -17023,6 +17067,28 @@
       "Efficient Attention",
       "Video / Image Generation",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "Gated Recurrent Transformers: Expressive Depth through Recurrent Modulation",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems",
+    "arxiv": "2608.15062",
+    "doi": "",
+    "official_id": "arXiv:2608.15062",
+    "paper_url": "https://arxiv.org/abs/2608.15062",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Gated Recurrent Transformer trades unique depth for gated recurrent reuse; under matched budgets it approaches dense quality while reporting 63% fewer parameters and 59% lower peak decoding memory, making it strong architecture/memory-efficiency evidence.",
+    "published_at": "2026-08-15T06:22:00Z",
+    "updated_at": "2026-08-26T08:35:48Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Video / Image Generation",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -19376,6 +19442,29 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Speculative Decoding"
+    ]
+  },
+  {
+    "title": "RISE: Adaptive Imagination for World Action Models",
+    "venue": "Fresh / preprint",
+    "topic": "video/image generation acceleration / VLA/WAM/Physical AI serving",
+    "arxiv": "2608.20430",
+    "doi": "",
+    "official_id": "arXiv:2608.20430",
+    "paper_url": "https://arxiv.org/abs/2608.20430",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Protected Physical-AI: RISE adds an adaptive Roll/Stop gate to World Action Models so imagination continues only when expected planning benefit exceeds additional compute cost, reducing unnecessary rollout while improving planning on NAVSIM and nuScenes.",
+    "published_at": "2026-08-20T01:50:15Z",
+    "updated_at": "2026-08-20T01:50:15Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Video / Image Generation",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
     ]
   },
   {

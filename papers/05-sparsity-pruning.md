@@ -1,10 +1,10 @@
 # 05 · Sparsity / Pruning
 
-> **316 canonical papers** mapped here, plus a broader **183-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **317 canonical papers** mapped here, plus a broader **186-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 183 tracked
+## 🆕 Latest 30 Days · 186 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -138,10 +138,12 @@
 | **P1 · Watch** | **Partition the Support, Reconstruct the Residual: Training-Free Sparse Attention for Video Generation and World Models** | Fresh / preprint | efficient attention / video generation / world models | [Link](https://arxiv.org/abs/2608.18484) | — |
 | **P1 · Watch** | **EDITBRIDGE: Towards Faithful and Efficient Ultra-High-Resolution Image Editing** | Fresh / preprint | image editing / diffusion / block-wise sparse attention | [Link](https://arxiv.org/abs/2608.18063) | — |
 | **P0 · Strong** | **AViTS: Adaptive Spatiotemporal Token Selection for Efficient Dynamic-Resolution Generation** | Fresh / preprint | diffusion/image generation acceleration / adaptive token selection | [Link](https://arxiv.org/abs/2608.17995) | — |
+| **P1 · Watch** | **Token Optimization and Context Window Management in Multi-Agent AI Workflows** | Fresh / preprint | LLM serving / sparsity/pruning / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.17188) | — |
 | **P1 · Watch** | **FLEET: Token-Based Feature Extraction for Event Camera-based Reinforcement Learning** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.16523) | — |
 | **P1 · Watch** | **GRNEdit: Efficient General Video Editing from a New Binary-Evidence Perspective in Generative Refinement Networks** | Fresh / preprint | LLM serving / quantization / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.16328) | — |
 | **P2 · Relevant** | **Static Pruning Across Sparse Retrieval Regimes: What Transfers, What Breaks, and What Still Helps** | Fresh / preprint | sparse retrieval systems / pruning | [Link](https://arxiv.org/abs/2608.16309) | — |
 | **P2 · Relevant** | **DB-SpMSpV: Dual-View Blocked Sparse Matrix-Sparse Vector Multiplication for Dynamic GPU Workloads** | Fresh / preprint | llm_serving / sparse / edge | [Link](https://arxiv.org/abs/2608.16308) | — |
+| **P0 · Strong** | **DepTGL: A Parallel Framework for Memory-based TGNN Training with Adaptive Temporal Data Dependency Management** | Fresh / preprint | LLM serving / sparsity/pruning / distributed training/inference | [Link](https://arxiv.org/abs/2608.16305) | — |
 | **P1 · Watch** | **SparkVLA: Stop-Aware Hierarchical VLA with Adaptive Action Chunking for Long-Horizon Manipulation** | Fresh / preprint | Physical AI / VLA / adaptive action chunking / token pruning | [Link](https://arxiv.org/abs/2608.16172) | — |
 | **P2 · Relevant** | **Nexus: Structured Synergy for Efficient Text-to-Image Generation using Rectified Flow Model** | Fresh / preprint | image generation / sparse architecture / low-bit / flow matching | [Link](https://arxiv.org/abs/2608.16104) | — |
 | **P1 · Watch** | **Large Models for Small Devices: Recent Advances and Empirical Analysis of Edge AI Deployment** | Fresh / preprint | LLM serving / quantization / sparsity/pruning | [Link](https://arxiv.org/abs/2608.15693) | [Repo](https://github.com/Arnavvvkumar/deployment) |
@@ -153,6 +155,7 @@
 | **P0 · Strong** | **SA-GEM: Scale-Adaptive and Geospatial Evidence-Modulated Token Pruning for Efficient Remote Sensing Large Vision-Language Models** | Fresh / preprint | sparsity/pruning / multimodal/MLLM serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.15075) | — |
 | **P0 · Strong** | **Funnel of Thoughts: Efficient Test-Time Scaling via Early Voting and Rollout Pruning** | Fresh / preprint | sparsity/pruning / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.15065) | — |
 | **P0 · Strong** | **A Deterministic Constant-Competitive Algorithm for Dynamic Mixture-of-Experts Serving** | Fresh / preprint | LLM serving / sparsity/pruning / MoE systems/accelerators | [Link](https://arxiv.org/abs/2608.16947) | — |
+| **P1 · Watch** | **Harness the Memory: A Holistic Evaluation of Memory Substrates in Memory Agents** | Fresh / preprint | KV cache/long-context | [Link](https://arxiv.org/abs/2608.15008) | — |
 | **P0 · Strong** | **Batch-wise Adaptive Pruning: Periodic Neuron Activation-Aware Weight Pruning for Language Reasoning Model** | Fresh / preprint | LLM serving / sparsity/pruning | [Link](https://arxiv.org/abs/2608.14003) | — |
 | **P1 · Watch** | **Alaya-EVOKE: From Linear-Scaling Supervision to Endless World** | Fresh / preprint | LLM serving / KV cache/long-context / sparsity/pruning / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.13546) | — |
 | **P2 · Relevant** | **UnionSparse: An Index-Efficient Sparsity Framework for Low-Bit Sparse LLM Inference on Edge** | Fresh / preprint | llm_serving / quant / sparse | [Link](https://arxiv.org/abs/2608.09291) | — |

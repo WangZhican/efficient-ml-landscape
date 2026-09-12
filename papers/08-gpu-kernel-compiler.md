@@ -1,10 +1,10 @@
 # 08 · GPU Kernel / DSL / Compiler
 
-> **496 canonical papers** mapped here, plus a broader **230-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **497 canonical papers** mapped here, plus a broader **231-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 230 tracked
+## 🆕 Latest 30 Days · 231 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -180,6 +180,7 @@
 | **P1 · Watch** | **MoE-ViE: Mixture of Experts Vision Encoder for Efficient Image and Video Understanding** | Fresh / preprint | multimodal vision encoder / MoE / Triton kernel | [Link](https://arxiv.org/abs/2608.17402) | [Repo](https://github.com/facebookresearch/moe_vie) |
 | **P0 · Strong** | **PTXBench: Benchmark and Adapt LLMs for GPU Kernel Optimization with Architecture-specific PTX** | Fresh / preprint | GPU kernel / LLM code generation / benchmark | [Link](https://arxiv.org/abs/2608.17379) | — |
 | **P0 · Strong** | **TileMix: Tile-Centric Mixed-Precision Attention for LLM Inference Acceleration** | Fresh / preprint | mixed-precision attention kernel / long-context inference | [Link](https://arxiv.org/abs/2608.17336) | — |
+| **P0 · Strong** | **Agentic ESOpt: Fine-Tuning Long-Horizon LLM Agents with Minimal GPU Requirements** | Fresh / preprint | video/image generation acceleration / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.17310) | — |
 | **P1 · Watch** | **KernelArc: A Multi-Agent Framework for GPU Kernel Optimization** | Fresh / preprint | GPU kernel / agentic optimization / H100-B200 | [Link](https://arxiv.org/abs/2608.17071) | — |
 | **P2 · Relevant** | **DB-SpMSpV: Dual-View Blocked Sparse Matrix-Sparse Vector Multiplication for Dynamic GPU Workloads** | Fresh / preprint | llm_serving / sparse / edge | [Link](https://arxiv.org/abs/2608.16308) | — |
 | **P1 · Watch** | **A Scalable Pipeline for LLM-Teacher Distillation Labeling: Work-Stealing Job Scheduling and Memory-Aware GPU Concurrency** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.15975) | — |

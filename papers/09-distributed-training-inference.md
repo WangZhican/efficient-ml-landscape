@@ -1,10 +1,10 @@
 # 09 · Distributed Training / Inference
 
-> **371 canonical papers** mapped here, plus a broader **156-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **372 canonical papers** mapped here, plus a broader **159-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 156 tracked
+## 🆕 Latest 30 Days · 159 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -131,10 +131,13 @@
 | **P1 · Watch** | **Dual-Cache Latent Space Communication between Heterogeneous Language Models** | Fresh / preprint | edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.20617) | — |
 | **P0 · Strong** | **Pre-Compiled Pipeline Shards for Distributed LLM Inference on Intel AI PC Fleets** | Fresh / preprint | distributed LLM inference / edge AI PC fleet / speculative decoding | [Link](https://arxiv.org/abs/2608.19147) | [Repo](https://github.com/labscommunity/pipeline-sharded-inference-paper) |
 | **P1 · Watch** | **Clustering and Token Denoising for Faster and More Robust VLMs** | Fresh / preprint | sparsity/pruning / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.19285) | — |
+| **P1 · Watch** | **Efficient Resource Optimization for Split Federated Learning** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2608.17849) | — |
 | **P1 · Watch** | **Accelerating Visual On-Policy Distillation with Batched Speculative Jacobi Rollouts** | Fresh / preprint | visual generation training systems / speculative rollout | [Link](https://arxiv.org/abs/2608.18183) | — |
+| **P1 · Watch** | **Token Optimization and Context Window Management in Multi-Agent AI Workflows** | Fresh / preprint | LLM serving / sparsity/pruning / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.17188) | — |
 | **P0 · Strong** | **ClawGym II: Exploring Black-Box RL on Agent Harness** | Fresh / preprint | agent training systems | [Link](https://arxiv.org/abs/2608.16798) | — |
 | **P1 · Watch** | **Le Critique: Privileged Value Functions for LLM Reinforcement Learning** | Fresh / preprint | LLM RL training efficiency / rollout stragglers | [Link](https://arxiv.org/abs/2608.16739) | — |
 | **P1 · Watch** | **UniTAC: Universal Task-Aware Compression via Weighted Distortion Measures** | Fresh / preprint | Physical AI / task-aware sensory compression / edge communication | [Link](https://arxiv.org/abs/2608.16696) | — |
+| **P0 · Strong** | **DepTGL: A Parallel Framework for Memory-based TGNN Training with Adaptive Temporal Data Dependency Management** | Fresh / preprint | LLM serving / sparsity/pruning / distributed training/inference | [Link](https://arxiv.org/abs/2608.16305) | — |
 | **P1 · Watch** | **KV-Pipe: On the Relation Between KV Sharing and Pipeline Parallel Efficiency in LLMs** | Fresh / preprint | KV cache / distributed training-inference | [Link](https://arxiv.org/abs/2608.15943) | — |
 | **P1 · Watch** | **Noesis: Bidirectional Graph-RAG with Adaptive Parallelism and Cross-Knowledge-Base Semantic Discovery** | Fresh / preprint | quantization | [Link](https://arxiv.org/abs/2608.15919) | — |
 | **P0 · Strong** | **Global Simulation-Guided Dynamic Operator Scheduling for Efficient Multi-Tenant Model Serving** | Fresh / preprint | multi-tenant model serving / operator-level scheduling | [Link](https://arxiv.org/abs/2608.15762) | — |

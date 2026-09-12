@@ -1,10 +1,10 @@
 # 14 · VLA / WAM / Physical AI
 
-> **180 canonical papers** mapped here, plus a broader **336-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **181 canonical papers** mapped here, plus a broader **337-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 336 tracked
+## 🆕 Latest 30 Days · 337 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -250,6 +250,7 @@
 | **P0 · Strong** | **RoMAN-Flow: Taming Autoregressive Normalizing Flows for Offline Reinforcement Learning in Robotic Manipulation** | Fresh / preprint | LLM serving / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.20208) | [Repo](https://github.com/konnyaku28/RoMAN-Flow) |
 | **P2 · Relevant** | **EXIMO: VLM Guided Exploration of VLA Policies** | Fresh / preprint | multimodal / gen / physical | [Link](https://arxiv.org/abs/2608.19891) | — |
 | **P2 · Relevant** | **OrthoSkillVLA: Continual Skill Learning via Gradient-Informed Skill Subspace Adaptation** | Fresh / preprint | llm_serving / multimodal / physical | [Link](https://arxiv.org/abs/2608.19589) | — |
+| **P0 · Strong** | **RISE: Adaptive Imagination for World Action Models** | Fresh / preprint | video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.20430) | — |
 | **P1 · Watch** | **Fine-Tuning VLAs with Self-Demonstrated Generative Control for Multi-Task Manipulation** | Fresh / preprint | multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.19490) | — |
 | **P2 · Relevant** | **GS-VLA: Plug-and-Play Viewpoint Canonicalization for Frozen VLA Policies via Gaussian Splatting** | Fresh / preprint | Physical AI / VLA robustness / lightweight runtime module | [Link](https://arxiv.org/abs/2608.19066) | — |
 | **P1 · Watch** | **The Embodiment Gap in Robot Foundation Models** | Fresh / preprint | multimodal/MLLM serving / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.18433) | — |

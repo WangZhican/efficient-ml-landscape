@@ -1,10 +1,10 @@
 # 02 · Speculative Decoding
 
-> **225 canonical papers** mapped here, plus a broader **61-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **225 canonical papers** mapped here, plus a broader **62-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 61 tracked
+## 🆕 Latest 30 Days · 62 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -56,6 +56,7 @@
 | **P1 · Watch** | **S2-MoE: Enabling Efficient Self-Speculative Decoding for Mixture-of-Experts on Edge Devices** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.15018) | — |
 | **P0 · Strong** | **From Positionwise Confidence to Prefix Scheduling: Verifier Skipping in Speculative Decoding** | Fresh / preprint | LLM serving / speculative decoding / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.14787) | — |
 | **P0 · Strong** | **DARTree: Speculative Diffusion Decoding with Autoregressive Draft Trees** | arXiv 2026 | speculative decoding / diffusion language model acceleration | [Link](https://arxiv.org/abs/2608.13524) | — |
+| **P1 · Watch** | **Intern-S2-Preview: Scientific Agentic Foundation Model** | Fresh / preprint | speculative decoding / efficient reasoning/agent systems / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.13505) | — |
 | **P2 · Relevant** | **OasisKV: Scaling In-Decode KV Cache Beyond HBM with Lookahead Sparse Prefetching** | Fresh / preprint | LLM serving; KV cache / long context; speculative decoding; sparsity / pruning; efficient attention | [Link](https://arxiv.org/abs/2608.08097) | — |
 | **P2 · Relevant** | **BALANCE: Hybrid Autoregressive-Speculative LLM Inference in Wireless Edge Networks** | Fresh / preprint | llm_serving / spec / edge | [Link](https://arxiv.org/abs/2608.05926) | — |
 | **P2 · Relevant** | **EdgeXpert: An Edge Device for Memory-Efficient LLM Inference with Mixture-of-Experts and Speculative Decoding** | Fresh / preprint | LLM serving; speculative decoding; MoE systems; generation acceleration; edge / heterogeneous AI | [Link](https://arxiv.org/abs/2608.05303) | — |
