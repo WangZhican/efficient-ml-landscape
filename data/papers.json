@@ -15346,6 +15346,27 @@
     ]
   },
   {
+    "title": "Agent Zero Memory: Provenance-Aware Long-Term Memory for LLM Agents",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / efficient reasoning/agent systems",
+    "arxiv": "2608.29606",
+    "doi": "",
+    "official_id": "arXiv:2608.29606",
+    "paper_url": "https://arxiv.org/abs/2608.29606",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Agent Zero Memory is a provenance-aware long-term agent-memory serving stack with intent gating, source routing and concurrent retrieval; its controlled study explicitly characterizes an accuracy-cost-latency frontier across eight backbone LLMs, making it strong agent-memory infrastructure evidence.",
+    "published_at": "2026-08-30T06:55:59Z",
+    "updated_at": "2026-08-30T06:55:59Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "Agentic Chain-of-Thought Steering for Efficient and Controllable LLM Reasoning",
     "venue": "Fresh / preprint",
     "topic": "LLM serving / video/image generation acceleration / efficient reasoning/agent systems",
@@ -16004,6 +16025,27 @@
     ]
   },
   {
+    "title": "CAT-Flow: Curvature-Adaptive sTeps for Flow Matching",
+    "venue": "Fresh / preprint",
+    "topic": "video/image generation acceleration",
+    "arxiv": "2609.01746",
+    "doi": "",
+    "official_id": "arXiv:2609.01746",
+    "paper_url": "https://arxiv.org/abs/2609.01746",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "CAT-Flow adapts flow-matching ODE step sizes without extra neural evaluations and reduces generation steps needed for comparable image quality by up to 40%; direct diffusion/flow inference acceleration.",
+    "published_at": "2026-09-01T18:14:18Z",
+    "updated_at": "2026-09-01T18:14:18Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "CausalCache: Conditional High-Fidelity Restoration for Long-Horizon GUI Agents",
     "venue": "Fresh / preprint",
     "topic": "LLM serving / video/image generation acceleration",
@@ -16658,6 +16700,28 @@
     ]
   },
   {
+    "title": "EM^2Mem: Event-Centric Multimodal Memory for Large Language Models",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / edge/cloud/heterogeneous AI systems",
+    "arxiv": "2609.00551",
+    "doi": "",
+    "official_id": "arXiv:2609.00551",
+    "paper_url": "https://arxiv.org/abs/2609.00551",
+    "code_url": "https://github.com/zjunlp/LightMem",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "EM2Mem builds generation-ready event-centric multimodal memory and reports 4.67x lower per-query latency and 63.66% fewer inference tokens while improving long-video QA accuracy; strong multimodal memory/serving evidence.",
+    "published_at": "2026-09-01T01:38:41Z",
+    "updated_at": "2026-09-01T01:38:41Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Enabling Memory-efficient Im2win Convolution with Multi-precision Support on GPU CUDA and Tensor Cores",
     "venue": "Fresh / preprint",
     "topic": "Efficient ML / AI Infra",
@@ -16937,6 +17001,28 @@
     "directions": [
       "LLM Serving",
       "MoE Systems / Accelerators"
+    ]
+  },
+  {
+    "title": "Fleets Need a Context Plane: Rethinking Cooperative Perception for Autonomous Drones",
+    "venue": "Fresh / preprint",
+    "topic": "Efficient ML / AI Infra",
+    "arxiv": "2609.00659",
+    "doi": "",
+    "official_id": "arXiv:2609.00659",
+    "paper_url": "https://arxiv.org/abs/2609.00659",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Protected Physical-AI/edge systems: a context plane for cooperative drone perception matches full-sharing accuracy using only 5-10% of bytes, with a Jetson ROS2 prototype adding about 0.10 ms policy-decision overhead; strong cloud-edge embodied serving evidence.",
+    "published_at": "2026-09-01T03:38:18Z",
+    "updated_at": "2026-09-01T03:38:18Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -19598,6 +19684,27 @@
     ]
   },
   {
+    "title": "Residual Sparsification via Output Importance for Compressing Mixture-of-Experts LLMs",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / MoE systems/accelerators",
+    "arxiv": "2609.00575",
+    "doi": "",
+    "official_id": "arXiv:2609.00575",
+    "paper_url": "https://arxiv.org/abs/2609.00575",
+    "code_url": "https://github.com/OSSS-KU/PARSER",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "PARSER compresses MoE experts by residual sparsification guided by expert-output importance, improving accuracy retention at the same peak-memory reduction; strong MoE compression lineage with released code.",
+    "published_at": "2026-09-01T02:11:40Z",
+    "updated_at": "2026-09-02T04:21:16Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "MoE Systems / Accelerators"
+    ]
+  },
+  {
     "title": "ResiSpec: Enhancing Multi-Candidate Speculative Sampling via Residual Distribution Shaping",
     "venue": "Fresh / preprint",
     "topic": "LLM serving / speculative decoding",
@@ -20254,6 +20361,95 @@
       "LLM Serving",
       "Video / Image Generation",
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "SinkPruner: Sink-Free Visual Token Pruning for Multimodal Large Language Models",
+    "venue": "Fresh / preprint",
+    "topic": "sparsity/pruning / multimodal/MLLM serving",
+    "arxiv": "2609.01004",
+    "doi": "",
+    "official_id": "arXiv:2609.01004",
+    "paper_url": "https://arxiv.org/abs/2609.01004",
+    "code_url": "https://github.com/LaVi-Lab/SinkPruner",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "SinkPruner is a training-free visual-token pruning method for MLLM inference, retaining 96.5%/91.8% baseline performance under 89% token reduction across image and video benchmarks; direct multimodal inference-efficiency evidence.",
+    "published_at": "2026-09-01T09:52:10Z",
+    "updated_at": "2026-09-01T09:52:10Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
+    "title": "Skill Blocks: How Should an Agent Load Its Skill? A Caching-Correct Comparison of Pre-load, On-Demand Tool-Loading, Progressive Disclosure, and Hybrid",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems",
+    "arxiv": "2608.14943",
+    "doi": "",
+    "official_id": "arXiv:2608.14943",
+    "paper_url": "https://arxiv.org/abs/2608.14943",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Skill Blocks provides a caching-correct comparison of conditional agent-skill loading and cuts effective input tokens by 27-73% on several workloads without detected quality differences; direct agent-context serving evidence.",
+    "published_at": "2026-08-14T23:48:09Z",
+    "updated_at": "2026-08-14T23:48:09Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Video / Image Generation",
+      "Efficient Reasoning / Agents",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "SkillGLoW: Procedural-Family Skill Consolidation for Self-Improving Agents on Long-Horizon Task Streams",
+    "venue": "Fresh / preprint",
+    "topic": "VLA/WAM/Physical AI serving",
+    "arxiv": "2609.02217",
+    "doi": "",
+    "official_id": "arXiv:2609.02217",
+    "paper_url": "https://arxiv.org/abs/2609.02217",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "SkillGLoW consolidates per-task agent skills into procedural families and keeps the deployed library 3.6x more compact while improving long-horizon task success, including embodied control; strong efficient agent-memory/runtime lineage.",
+    "published_at": "2026-09-02T07:31:18Z",
+    "updated_at": "2026-09-02T07:31:18Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "SkillZip Pro: Execution-Aware Dynamic Compression of Progressively Loaded Skills for Self-Evolving Agents",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / video/image generation acceleration",
+    "arxiv": "2608.30785",
+    "doi": "",
+    "official_id": "arXiv:2608.30785",
+    "paper_url": "https://arxiv.org/abs/2608.30785",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "SkillZip Pro compresses complete progressively loaded agent skill bundles without changing the harness, removing 38% of bundle tokens and 10.4% of end-to-end per-run tokens at no measured quality loss; direct agent-context serving efficiency.",
+    "published_at": "2026-08-31T13:41:16Z",
+    "updated_at": "2026-08-31T13:41:16Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Video / Image Generation",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
