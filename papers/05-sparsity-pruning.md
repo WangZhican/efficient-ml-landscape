@@ -1,10 +1,10 @@
 # 05 · Sparsity / Pruning
 
-> **287 canonical papers** mapped here, plus a broader **159-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **288 canonical papers** mapped here, plus a broader **160-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 159 tracked
+## 🆕 Latest 30 Days · 160 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -125,6 +125,7 @@
 | **P0 · Strong** | **RT-Lynx: Putting the GEMM Sparsity In a Right Way for Diffusion Models** | ICML 2026 | diffusion acceleration / activation sparsity / CUDA kernels | [Link](https://arxiv.org/abs/2605.26632) | — |
 | **P0 · Strong** | **REFINE: Super-efficient 3D Gaussian Splatting Pruning via Rendering-Free Primitive Importance** | Fresh / preprint | LLM serving / sparsity/pruning | [Link](https://arxiv.org/abs/2606.09074) | — |
 | **P0 · Strong** | **HieraSparse: Hierarchical Semi-Structured Sparse KV Attention** | Fresh / preprint | KV cache/long-context / sparsity/pruning | [Link](https://arxiv.org/abs/2604.16864) | [Repo](https://github.com/psl-ntu/HieraSparse) |
+| **P0 · Strong** | **HiAP: A Multi-Granular Stochastic Auto-Pruning Framework for Vision Transformers** | Fresh / preprint | LLM serving / sparsity/pruning | [Link](https://arxiv.org/abs/2603.12222) | — |
 | **P1 · Watch** | **FlashQuant: Sparse-Dense Fusion for Memory-Efficient Outlier-Aware LLM Inference** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.15531) | — |
 | **P1 · Watch** | **MM-BEV: Enhancing Timeliness by Computing Where and When it Matters** | Fresh / preprint | Physical AI / edge runtime / sparse multimodal perception | [Link](https://arxiv.org/abs/2608.15437) | — |
 | **P2 · Relevant** | **MAPLE: MoE Adaptive Plug-and-play Layer-wise Expert allocation** | Fresh / preprint | llm_serving / sparse / moe / edge | [Link](https://arxiv.org/abs/2608.15299) | — |

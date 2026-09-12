@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-12",
   "window_start_beijing": "2026-08-13",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 1115,
+  "tracked_total": 1118,
   "p0_strong_or_canonical": [
     {
       "title": "VikingRAG: Accurate and Token-efficient Retrieval-augmented Generation over Structured Documents",
@@ -7225,6 +7225,28 @@
       ]
     },
     {
+      "title": "HiAP: A Multi-Granular Stochastic Auto-Pruning Framework for Vision Transformers",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / sparsity/pruning",
+      "arxiv": "2603.12222",
+      "doi": "",
+      "official_id": "arXiv:2603.12222",
+      "paper_url": "https://arxiv.org/abs/2603.12222",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Structured ViT pruning jointly allocates sparsity across heads/FFN/dimensions and realizes over 90% of theoretical MAC reduction as measured A100 throughput on stock kernels.",
+      "published_at": "2026-08-17",
+      "updated_at": "2026-08-18",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
       "title": "HAF: Adapting Generalist VLAs to Humanoid Whole-Body Loco-manipulation via Hierarchical Action Flow and Spectral Latent RL",
       "venue": "",
       "topic": "VLA / humanoid efficient adaptation",
@@ -8238,6 +8260,26 @@
       "directions": [
         "LLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Quit While You're Ahead: Quit for Efficient Candidate Generation in Machine Translation Reranking",
+      "venue": "",
+      "topic": "LLM serving",
+      "arxiv": "2609.00588",
+      "doi": "",
+      "official_id": "arXiv:2609.00588",
+      "paper_url": "https://arxiv.org/abs/2609.00588",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "End-to-end early termination for candidate generation plus reranking reports 1.47-4.12x decoding-pipeline speedups; application-specific but relevant adaptive inference-budget lineage.",
+      "published_at": "2026-09-10",
+      "updated_at": "2026-09-11",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving"
       ]
     },
     {
@@ -16639,6 +16681,30 @@
       "is_latest_30d": true,
       "directions": [
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "SiftMoE: Similarity-Aware Energy-Efficient Expert Selection for Wireless Distributed MoE Inference",
+      "venue": "",
+      "topic": "LLM serving / MoE systems/accelerators / video/image generation acceleration",
+      "arxiv": "2603.23888",
+      "doi": "",
+      "official_id": "arXiv:2603.23888",
+      "paper_url": "https://arxiv.org/abs/2603.23888",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Distributed MoE inference across edge nodes with expert replacement/skipping under communication, energy, latency and accuracy constraints; useful heterogeneous MoE-serving lineage despite wireless framing.",
+      "published_at": "2026-08-25",
+      "updated_at": "2026-08-26",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "MoE Systems / Accelerators",
+        "Distributed Training / Inference",
+        "Video / Image Generation",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -31381,6 +31447,28 @@
       ]
     },
     {
+      "title": "HiAP: A Multi-Granular Stochastic Auto-Pruning Framework for Vision Transformers",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / sparsity/pruning",
+      "arxiv": "2603.12222",
+      "doi": "",
+      "official_id": "arXiv:2603.12222",
+      "paper_url": "https://arxiv.org/abs/2603.12222",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Structured ViT pruning jointly allocates sparsity across heads/FFN/dimensions and realizes over 90% of theoretical MAC reduction as measured A100 throughput on stock kernels.",
+      "published_at": "2026-08-17",
+      "updated_at": "2026-08-18",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
       "title": "HAF: Adapting Generalist VLAs to Humanoid Whole-Body Loco-manipulation via Hierarchical Action Flow and Spectral Latent RL",
       "venue": "",
       "topic": "VLA / humanoid efficient adaptation",
@@ -32392,6 +32480,26 @@
       "directions": [
         "LLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Quit While You're Ahead: Quit for Efficient Candidate Generation in Machine Translation Reranking",
+      "venue": "",
+      "topic": "LLM serving",
+      "arxiv": "2609.00588",
+      "doi": "",
+      "official_id": "arXiv:2609.00588",
+      "paper_url": "https://arxiv.org/abs/2609.00588",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "End-to-end early termination for candidate generation plus reranking reports 1.47-4.12x decoding-pipeline speedups; application-specific but relevant adaptive inference-budget lineage.",
+      "published_at": "2026-09-10",
+      "updated_at": "2026-09-11",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving"
       ]
     },
     {
@@ -40793,6 +40901,30 @@
       "is_latest_30d": true,
       "directions": [
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "SiftMoE: Similarity-Aware Energy-Efficient Expert Selection for Wireless Distributed MoE Inference",
+      "venue": "",
+      "topic": "LLM serving / MoE systems/accelerators / video/image generation acceleration",
+      "arxiv": "2603.23888",
+      "doi": "",
+      "official_id": "arXiv:2603.23888",
+      "paper_url": "https://arxiv.org/abs/2603.23888",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Distributed MoE inference across edge nodes with expert replacement/skipping under communication, energy, latency and accuracy constraints; useful heterogeneous MoE-serving lineage despite wireless framing.",
+      "published_at": "2026-08-25",
+      "updated_at": "2026-08-26",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "MoE Systems / Accelerators",
+        "Distributed Training / Inference",
+        "Video / Image Generation",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {

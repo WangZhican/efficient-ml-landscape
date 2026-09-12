@@ -1,6 +1,6 @@
 # 🆕 Latest 30 Days
 
-> Rolling 30-day view ending **2026-09-12**: **1115 tracked papers = 363 P0 + 633 P1 + 119 P2**. Topical relevance determines visibility; quality determines priority. The classical census remains stricter.
+> Rolling 30-day view ending **2026-09-12**: **1118 tracked papers = 364 P0 + 635 P1 + 119 P2**. Topical relevance determines visibility; quality determines priority. The classical census remains stricter.
 
 [← Paper Library](ALL_PAPERS.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/latest_30d.json) · [CSV](../data/latest_30d.csv)
 
@@ -339,6 +339,7 @@
 | **P0 · Strong** | **Multi-Bin Batching for Increasing LLM Inference Throughput** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2412.04504) | — |
 | **P0 · Strong** | **Memory Efficient Audio Synthesis with Decoupled Temporal Depth Diffusion Transformers** | Fresh / preprint | quantization / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2607.23811) | — |
 | **P0 · Strong** | **HieraSparse: Hierarchical Semi-Structured Sparse KV Attention** | Fresh / preprint | KV cache/long-context / sparsity/pruning | [Link](https://arxiv.org/abs/2604.16864) | [Repo](https://github.com/psl-ntu/HieraSparse) |
+| **P0 · Strong** | **HiAP: A Multi-Granular Stochastic Auto-Pruning Framework for Vision Transformers** | Fresh / preprint | LLM serving / sparsity/pruning | [Link](https://arxiv.org/abs/2603.12222) | — |
 | **P0 · Strong** | **HAF: Adapting Generalist VLAs to Humanoid Whole-Body Loco-manipulation via Hierarchical Action Flow and Spectral Latent RL** | Fresh / preprint | VLA / humanoid efficient adaptation | [Link](https://arxiv.org/abs/2608.16837) | — |
 | **P0 · Strong** | **GenRouter: Unified Workflow Routing for Agentic Image Generation** | Fresh / preprint | agentic image generation / workflow routing / inference efficiency | [Link](https://arxiv.org/abs/2608.16721) | — |
 | **P0 · Strong** | **FreeToken: Efficient Edge-Native MoE Serving with Bandwidth-Adaptive Execution** | Fresh / preprint | edge MoE serving | [Link](https://arxiv.org/abs/2608.16157) | — |
@@ -392,6 +393,7 @@
 | **P1 · Watch** | **Routing by Reasoning Need: Trajectory-Aware Decoding Control for Diffusion Vision-Language Models** | arXiv 2026 | efficient reasoning/agent systems / multimodal serving | [Link](https://arxiv.org/abs/2609.11315) | — |
 | **P1 · Watch** | **RetroThinker: Enabling Retrospective Thinking in Speech LLMs** | arXiv 2026 | efficient reasoning/agent systems / streaming speech LLM / latency-quality tradeoff | [Link](https://arxiv.org/abs/2609.11864) | — |
 | **P1 · Watch** | **Rapid Learning of Dexterous In-Hand Pen Writing through Real-Time Jacobian Estimation** | arXiv 2026 | VLA/WAM/Physical AI serving / dexterous control / low-compute adaptation | [Link](https://arxiv.org/abs/2609.11775) | — |
+| **P1 · Watch** | **Quit While You're Ahead: Quit for Efficient Candidate Generation in Machine Translation Reranking** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2609.00588) | — |
 | **P1 · Watch** | **ORCH: Organizational Principles Enable Collective Intelligence in Embodied AI** | arXiv 2026 | VLA/WAM/Physical AI serving / embodied multi-agent orchestration | [Link](https://arxiv.org/abs/2609.11737) | — |
 | **P1 · Watch** | **Musec: MomentUm SpEctral Clipping for Stable Muon-type Training** | arXiv 2026 | distributed training/inference | [Link](https://arxiv.org/abs/2609.11655) | — |
 | **P1 · Watch** | **Model-Aware Schedules Improve Generation via Fiberwise Optimal Transport** | arXiv 2026 | diffusion/flow acceleration / schedule optimization | [Link](https://arxiv.org/abs/2609.11842) | — |
@@ -783,6 +785,7 @@
 | **P1 · Watch** | **Understanding the Energy Scaling of Large Language Model Inference Across Context Lengths and Attention Architectures** | Fresh / preprint | LLM serving / energy / attention architecture | [Link](https://arxiv.org/abs/2608.25096) | — |
 | **P1 · Watch** | **Transforms for LLM Quantization: The Great Inversion and Format Co-Design** | arXiv 2026 | quantization / number-format co-design / transform methods | [Link](https://arxiv.org/abs/2608.25188) | — |
 | **P1 · Watch** | **SPO++: Stream-Aligned Policy Optimization for Asynchronous Agentic RL** | Fresh / preprint | agent systems / asynchronous RL / rollout efficiency | [Link](https://arxiv.org/abs/2608.24870) | — |
+| **P1 · Watch** | **SiftMoE: Similarity-Aware Energy-Efficient Expert Selection for Wireless Distributed MoE Inference** | Fresh / preprint | LLM serving / MoE systems/accelerators / video/image generation acceleration | [Link](https://arxiv.org/abs/2603.23888) | — |
 | **P1 · Watch** | **PonderPounce: A Pretrained MLLM as an Episode Context Engine for Robot Control** | Fresh / preprint | LLM serving / multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.24115) | — |
 | **P1 · Watch** | **More GPUs or a Smaller Cache? Tensor Parallelism versus KV Compression for Memory-Bound LLM Serving** | Fresh / preprint | LLM serving / KV cache / tensor parallelism / cost-performance | [Link](https://arxiv.org/abs/2608.23962) | — |
 | **P1 · Watch** | **Latent Action as Intention Enables Efficient Future Imagination for World Action Models** | Fresh / preprint | Physical AI / WAM / latent action / inference latency | [Link](https://arxiv.org/abs/2608.24882) | — |

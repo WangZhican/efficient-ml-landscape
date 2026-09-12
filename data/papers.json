@@ -15818,6 +15818,28 @@
     ]
   },
   {
+    "title": "HiAP: A Multi-Granular Stochastic Auto-Pruning Framework for Vision Transformers",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / sparsity/pruning",
+    "arxiv": "2603.12222",
+    "doi": "",
+    "official_id": "arXiv:2603.12222",
+    "paper_url": "https://arxiv.org/abs/2603.12222",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Structured ViT pruning jointly allocates sparsity across heads/FFN/dimensions and realizes over 90% of theoretical MAC reduction as measured A100 throughput on stock kernels.",
+    "published_at": "2026-08-17",
+    "updated_at": "2026-08-18",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "HieraSparse: Hierarchical Semi-Structured Sparse KV Attention",
     "venue": "Fresh / preprint",
     "topic": "KV cache/long-context / sparsity/pruning",

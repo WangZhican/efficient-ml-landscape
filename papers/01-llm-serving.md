@@ -1,10 +1,10 @@
 # 01 · LLM Serving
 
-> **843 canonical papers** mapped here, plus a broader **725-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **844 canonical papers** mapped here, plus a broader **728-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 725 tracked
+## 🆕 Latest 30 Days · 728 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -20,6 +20,7 @@
 | **P0 · Strong** | **REVA: Reusable Evidence View Aggregation for Context-Efficient RAG Serving** | arXiv 2026 | LLM serving / RAG / context compression | [Link](https://arxiv.org/abs/2609.11209) | — |
 | **P1 · Watch** | **RetroThinker: Enabling Retrospective Thinking in Speech LLMs** | arXiv 2026 | efficient reasoning/agent systems / streaming speech LLM / latency-quality tradeoff | [Link](https://arxiv.org/abs/2609.11864) | — |
 | **P1 · Watch** | **Rapid Learning of Dexterous In-Hand Pen Writing through Real-Time Jacobian Estimation** | arXiv 2026 | VLA/WAM/Physical AI serving / dexterous control / low-compute adaptation | [Link](https://arxiv.org/abs/2609.11775) | — |
+| **P1 · Watch** | **Quit While You're Ahead: Quit for Efficient Candidate Generation in Machine Translation Reranking** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2609.00588) | — |
 | **P0 · Strong** | **Positional task conditioning for scalable defect detection across product families in large product catalogs** | arXiv 2026 | LLM serving / distillation / production inference cost | [Link](https://arxiv.org/abs/2609.09567) | — |
 | **P0 · Strong** | **Phase-Decoupled, Model-Calibrated Power Control for Disaggregated LLM Serving** | arXiv 2026 | LLM serving / PD disaggregation / energy efficiency | [Link](https://arxiv.org/abs/2609.11133) | — |
 | **P0 · Strong** | **PATTON: Enabling Commodity PIM for Production LLM Serving** | arXiv 2026 | LLM serving / KV cache / PIM accelerator runtime | [Link](https://arxiv.org/abs/2609.11392) | — |
@@ -437,6 +438,7 @@
 | **P0 · Strong** | **VisCache: Visual KV Cache Pruning for Efficient Vision Large Language Model Inference** | EMNLP 2026 Main Conference | multimodal/MLLM serving / KV cache / pruning / video inference | [Link](https://arxiv.org/abs/2608.24063) | [Repo](https://github.com/Wlklk/VisCache) |
 | **P1 · Watch** | **VisCache: Visual KV Cache Pruning for Efficient Vision Large Language Model Inference** | Fresh / preprint | multimodal serving / visual KV cache / pruning | [Link](https://arxiv.org/abs/2608.24063) | — |
 | **P1 · Watch** | **Understanding the Energy Scaling of Large Language Model Inference Across Context Lengths and Attention Architectures** | Fresh / preprint | LLM serving / energy / attention architecture | [Link](https://arxiv.org/abs/2608.25096) | — |
+| **P1 · Watch** | **SiftMoE: Similarity-Aware Energy-Efficient Expert Selection for Wireless Distributed MoE Inference** | Fresh / preprint | LLM serving / MoE systems/accelerators / video/image generation acceleration | [Link](https://arxiv.org/abs/2603.23888) | — |
 | **P1 · Watch** | **PonderPounce: A Pretrained MLLM as an Episode Context Engine for Robot Control** | Fresh / preprint | LLM serving / multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.24115) | — |
 | **P1 · Watch** | **More GPUs or a Smaller Cache? Tensor Parallelism versus KV Compression for Memory-Bound LLM Serving** | Fresh / preprint | LLM serving / KV cache / tensor parallelism / cost-performance | [Link](https://arxiv.org/abs/2608.23962) | — |
 | **P1 · Watch** | **Hydra: Phase-Aware Workload Characterization of LLM Inference across Edge SoC Generations, Backends, and Quantization Levels** | Fresh / preprint | edge AI / LLM inference / quantization characterization | [Link](https://arxiv.org/abs/2608.25053) | — |
@@ -530,6 +532,7 @@
 | **P0 · Strong** | **Pallas: A Proactive KV Cache Migration Framework for LLM Inference in AI-RAN** | Fresh / preprint | LLM serving / KV cache / edge | [Link](https://arxiv.org/abs/2608.16477) | — |
 | **P0 · Strong** | **Multi-Bin Batching for Increasing LLM Inference Throughput** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2412.04504) | — |
 | **P0 · Strong** | **HieraSparse: Hierarchical Semi-Structured Sparse KV Attention** | Fresh / preprint | KV cache/long-context / sparsity/pruning | [Link](https://arxiv.org/abs/2604.16864) | [Repo](https://github.com/psl-ntu/HieraSparse) |
+| **P0 · Strong** | **HiAP: A Multi-Granular Stochastic Auto-Pruning Framework for Vision Transformers** | Fresh / preprint | LLM serving / sparsity/pruning | [Link](https://arxiv.org/abs/2603.12222) | — |
 | **P0 · Strong** | **FreeToken: Efficient Edge-Native MoE Serving with Bandwidth-Adaptive Execution** | Fresh / preprint | edge MoE serving | [Link](https://arxiv.org/abs/2608.16157) | — |
 | **P1 · Watch** | **Beyond Binary Priorities: Multi-Tier SLA Scheduling for Large Language Model Serving** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.16336) | — |
 | **P1 · Watch** | **A Scalable Pipeline for LLM-Teacher Distillation Labeling: Work-Stealing Job Scheduling and Memory-Aware GPU Concurrency** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.15975) | — |
