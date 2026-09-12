@@ -1,10 +1,10 @@
 # 11 · Video / Image Generation
 
-> **187 canonical papers** mapped here, plus a broader **184-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **188 canonical papers** mapped here, plus a broader **186-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 184 tracked
+## 🆕 Latest 30 Days · 186 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -53,6 +53,7 @@
 | **P0 · Strong** | **NeoMME: A Single-Tower Multimodal-Native Multilingual Foundation Encoder for Efficient Fine-Tuning and Inference** | Fresh / preprint | LLM serving / quantization / multimodal/MLLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.01657) | — |
 | **P1 · Watch** | **What It Costs to Compose, Rebuild, and Correct Precomputed Memory** | Fresh / preprint | LLM serving / KV cache/long-context / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.30647) | — |
 | **P0 · Strong** | **Q-Strata: Hierarchical Bit Allocation for Mixed-Precision Quantization of Mixture-of-Experts LLMs** | Fresh / preprint | quantization / MoE systems/accelerators / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.30564) | [Repo](https://github.com/snu-mllab/Q-Strata/tree/main) |
+| **P0 · Strong** | **Reasoning-Aware Compression: Identifying and Protecting Vulnerable Reasoning Circuits for Energy-Efficient LLM Deployment** | Fresh / preprint | quantization / video/image generation acceleration | [Link](https://arxiv.org/abs/2609.05512) | — |
 | **P0 · Strong** | **On the Design of Qwen3.8-Next Architecture: Evaluation, Efficiency, and Training Stability** | Fresh / preprint | sparsity/pruning / MoE systems/accelerators / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.30320) | — |
 | **P1 · Watch** | **Motus2: A Self-Evolving General World Model for Dexterous Manipulation** | Fresh / preprint | video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.30237) | — |
 | **P1 · Watch** | **DreamX-Creator: Democratizing Native Audio-Video Generation at 2K Resolution** | Fresh / preprint | video/image generation acceleration / diffusion distillation | [Link](https://arxiv.org/abs/2608.31106) | [Repo](https://github.com/AMAP-ML/DreamX-Creator) |
@@ -105,6 +106,7 @@
 | **P1 · Watch** | **Learning to Grade Efficiently: A Bandit-Driven Prompt-Selection Framework for Low-Cost LLM Essay Scoring** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.23814) | — |
 | **P1 · Watch** | **FAMPWQ: Fisher Information-based Adaptive Mixed Precision Weight Quantization for Effective LLM Inference** | Fresh / preprint | quantization / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.24945) | — |
 | **P1 · Watch** | **From Natural Language Policies to Executable Obligations: A Verification Harness for Dependable In-Car LLM Agents** | Fresh / preprint | GPU kernel/DSL/compilers / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.23282) | — |
+| **P1 · Watch** | **Thinking at the Right Size: Amortized Distillation Across Post-Trained LLMs** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.22854) | — |
 | **P0 · Strong** | **CausalCache: Conditional High-Fidelity Restoration for Long-Horizon GUI Agents** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.22577) | — |
 | **P0 · Strong** | **ExecRubrics: Executable Tool-Augmented Rubrics for Verifiable and Efficient Long-Form Evaluation** | Fresh / preprint | video/image generation acceleration / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.22559) | — |
 | **P0 · Strong** | **Meta-Ctrl: Guaranteed Plan Generation by Decoupling Syntactic and Semantic Constraints** | Fresh / preprint | LLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.22149) | — |

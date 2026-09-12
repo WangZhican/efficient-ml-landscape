@@ -15480,6 +15480,26 @@
     ]
   },
   {
+    "title": "AQLoRA: A Zero-Search Recipe for Fast Quantized LoRA Fine-Tuning",
+    "venue": "Fresh / preprint",
+    "topic": "quantization",
+    "arxiv": "2608.23816",
+    "doi": "",
+    "official_id": "arXiv:2608.23816",
+    "paper_url": "https://arxiv.org/abs/2608.23816",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "AQLoRA removes allocation search/calibration and selectively keeps high-error layers in FP16; measured independent sessions show 11.1% faster training than tuned QLoRA in the speed setting and 4.8% faster in the quality setting.",
+    "published_at": "2026-08-24T20:47:40Z",
+    "updated_at": "2026-08-24T20:47:40Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Quantization"
+    ]
+  },
+  {
     "title": "ATFlash: Per-RoPE-Wavelength Attention Windows for Compute/Memory-Efficient LLM Inference",
     "venue": "Fresh / preprint",
     "topic": "efficient attention / long-context / FlashAttention",
@@ -15634,6 +15654,27 @@
     ]
   },
   {
+    "title": "Beyond Scaling: Self-Evolving LLM Agents for Hardware Kernel Optimization via an Experience-Driven Workflow and Experience Graph Memory",
+    "venue": "Fresh / preprint",
+    "topic": "Efficient ML / AI Infra",
+    "arxiv": "2608.25570",
+    "doi": "",
+    "official_id": "arXiv:2608.25570",
+    "paper_url": "https://arxiv.org/abs/2608.25570",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "KOPE gives kernel-optimization agents persistent execution-feedback memory plus bounded active context injection, improving per-operator speedups/pass rate while cutting optimization token consumption from 15.9B to 1.113B; strong compiler-agent infrastructure efficiency evidence.",
+    "published_at": "2026-08-26T09:27:39Z",
+    "updated_at": "2026-08-26T09:27:39Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "Beyond Sparse Weights: When Is Attention Compressible?",
     "venue": "Fresh / preprint",
     "topic": "LLM serving / KV cache/long-context",
@@ -15698,6 +15739,26 @@
       "Multimodal / MLLM Serving",
       "Efficient Reasoning / Agents",
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Block3D: Efficient Text-to-3D Generation via Block-Wise Diffusion",
+    "venue": "Fresh / preprint",
+    "topic": "Efficient ML / AI Infra",
+    "arxiv": "2608.19567",
+    "doi": "",
+    "official_id": "arXiv:2608.19567",
+    "paper_url": "https://arxiv.org/abs/2608.19567",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Block3D combines autoregressive block progression with intra-block diffusion and confidence-guided correction, cutting text-to-3D end-to-end generation from 25.71s to 4.99s (5.15x) without sacrificing geometry fidelity.",
+    "published_at": "2026-08-20T02:12:30Z",
+    "updated_at": "2026-08-25T05:57:37Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
@@ -16310,6 +16371,29 @@
     ]
   },
   {
+    "title": "DTX: A Throughput-First Training Accelerator for Diffusion and Transformer Models",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / quantization / edge/cloud/heterogeneous AI systems",
+    "arxiv": "2608.16953",
+    "doi": "",
+    "official_id": "arXiv:2608.16953",
+    "paper_url": "https://arxiv.org/abs/2608.16953",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "DTX is a throughput-first diffusion/Transformer training accelerator with pipelined reductions, systolic/vector/AdamW units and DMA overlap; it reports a DRC-clean sky130 implementation and 1.9x same-node throughput over an optimized loop-carried MAC baseline.",
+    "published_at": "2026-08-16T08:33:37Z",
+    "updated_at": "2026-08-16T08:33:37Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "Diffusion / Flow Acceleration",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "EasySteer: A Unified Framework for High-Performance and Extensible LLM Steering",
     "venue": "Fresh / preprint",
     "topic": "LLM serving",
@@ -16410,6 +16494,27 @@
     "why": "Production GPU semantic retrieval aligns first-stage scoring with LinkedIn serving policy and targets large-scale high-recall retrieval efficiency.",
     "published_at": "2026-08-29T00:38:27Z",
     "updated_at": "2026-08-29T00:38:27Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "Enabling Memory-efficient Im2win Convolution with Multi-precision Support on GPU CUDA and Tensor Cores",
+    "venue": "Fresh / preprint",
+    "topic": "Efficient ML / AI Infra",
+    "arxiv": "2608.20725",
+    "doi": "",
+    "official_id": "arXiv:2608.20725",
+    "paper_url": "https://arxiv.org/abs/2608.20725",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Im2win redesigns GPU convolution for CUDA and Tensor Cores with contiguous access, zig-zag scheduling and async movement, reaching up to 1.4x cuDNN throughput and substantially lower memory across CNN benchmarks.",
+    "published_at": "2026-08-21T04:09:32Z",
+    "updated_at": "2026-08-21T04:09:32Z",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -17392,6 +17497,28 @@
       "Quantization",
       "Video / Image Generation",
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "HyperCut: Fast Inter-Layer Scheduling via Directed Hypergraph and Early Filtering",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / sparsity/pruning / GPU kernel/DSL/compilers",
+    "arxiv": "2608.19296",
+    "doi": "",
+    "official_id": "arXiv:2608.19296",
+    "paper_url": "https://arxiv.org/abs/2608.19296",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "HyperCut couples DNN inter-layer partitioning and mapping with early cost bounds, reducing the design space and achieving 2.0x performance plus 80.47% exploration-time reduction over SET; strong compiler/accelerator scheduling evidence.",
+    "published_at": "2026-08-19T16:14:00Z",
+    "updated_at": "2026-08-19T16:14:00Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {
@@ -18881,6 +19008,29 @@
     ]
   },
   {
+    "title": "Reasoning-Aware Compression: Identifying and Protecting Vulnerable Reasoning Circuits for Energy-Efficient LLM Deployment",
+    "venue": "Fresh / preprint",
+    "topic": "quantization / video/image generation acceleration",
+    "arxiv": "2609.05512",
+    "doi": "",
+    "official_id": "arXiv:2609.05512",
+    "paper_url": "https://arxiv.org/abs/2609.05512",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Reasoning-aware selective quantization measures GPU energy and shows that uniform INT4 can increase total energy via longer reasoning; restoring vulnerable circuits finds Pareto points such as +12 pp accuracy versus FP16 with 9.7% lower energy, making this strong quantized-reasoning deployment evidence.",
+    "published_at": "2026-08-31T08:36:36Z",
+    "updated_at": "2026-08-31T08:36:36Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Quantization",
+      "GPU Kernel / DSL / Compiler",
+      "Video / Image Generation",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "RECAP-Forcing: Retaining Content Appearances for Long Video Generation",
     "venue": "Fresh / preprint",
     "topic": "LLM serving / KV cache/long-context / video/image generation acceleration",
@@ -19562,6 +19712,27 @@
     ]
   },
   {
+    "title": "Selective Regenerative Decoding: Trajectory-Level Intervention for Inference-Time Reasoning",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / efficient reasoning/agent systems",
+    "arxiv": "2608.24338",
+    "doi": "",
+    "official_id": "arXiv:2608.24338",
+    "paper_url": "https://arxiv.org/abs/2608.24338",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Selective Regenerative Decoding preserves good trajectory prefixes and regenerates only degraded suffixes, matching Best-of-N with substantially fewer generated tokens and improving low-compute reasoning efficiency.",
+    "published_at": "2026-08-25T10:01:56Z",
+    "updated_at": "2026-08-25T10:01:56Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "SGEMM-cube: Precision-Recovery FP32 GEMM Approximation on Ascend NPUs with FP16 Matrix Engines",
     "venue": "Fresh / preprint",
     "topic": "LLM serving / edge/cloud/heterogeneous AI systems",
@@ -19873,6 +20044,29 @@
       "LLM Serving",
       "Video / Image Generation",
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "SplitLite: Low-Rank Residual Compression for Split Learning",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / quantization / distributed training/inference / edge/cloud/heterogeneous AI systems",
+    "arxiv": "2608.23018",
+    "doi": "",
+    "official_id": "arXiv:2608.23018",
+    "paper_url": "https://arxiv.org/abs/2608.23018",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "SplitLite exploits low-rank inter-epoch activation/gradient residuals for split federated LoRA, reducing activation uplink traffic by up to 93.5% and total communication by 83.7% without performance degradation.",
+    "published_at": "2026-08-24T09:20:04Z",
+    "updated_at": "2026-09-05T13:12:30Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "Distributed Training / Inference",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {

@@ -1,10 +1,10 @@
 # 12 · Diffusion / Flow Acceleration
 
-> **239 canonical papers** mapped here, plus a broader **97-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **241 canonical papers** mapped here, plus a broader **99-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 97 tracked
+## 🆕 Latest 30 Days · 99 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -77,6 +77,7 @@
 | **P0 · Strong** | **CAI-DLLM: Convergence Aware Inference for Diffusion Language Models** | Fresh / preprint | KV cache/long-context | [Link](https://arxiv.org/abs/2608.22646) | — |
 | **P1 · Watch** | **Anchoring Instruction Outside Mask: Exact Reference Caching for Efficient In-Context Diffusion Transformers** | Fresh / preprint | sparse / gen | [Link](https://arxiv.org/abs/2608.21229) | — |
 | **P2 · Relevant** | **Is Multimodal Speculative Decoding Ready for Diffusion-Based Parallel Drafting? A Survey and Empirical Diagnosis** | Fresh / preprint | spec / multimodal / physical / edge | [Link](https://arxiv.org/abs/2608.20743) | — |
+| **P0 · Strong** | **Block3D: Efficient Text-to-3D Generation via Block-Wise Diffusion** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.19567) | — |
 | **P1 · Watch** | **Clustering and Token Denoising for Faster and More Robust VLMs** | Fresh / preprint | sparsity/pruning / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.19285) | — |
 | **P1 · Watch** | **EDITBRIDGE: Towards Faithful and Efficient Ultra-High-Resolution Image Editing** | Fresh / preprint | image editing / diffusion / block-wise sparse attention | [Link](https://arxiv.org/abs/2608.18063) | — |
 | **P0 · Strong** | **Optimize Your Sampling: Tuned Diffusion Sampling with Bayesian Optimization** | Fresh / preprint | diffusion sampling acceleration | [Link](https://arxiv.org/abs/2608.18040) | — |
@@ -87,6 +88,7 @@
 | **P0 · Strong** | **DriveCache: Action-Aware Caching for Driving World Model Inference** | Fresh / preprint | world-model / diffusion caching | [Link](https://arxiv.org/abs/2608.16354) | — |
 | **P0 · Strong** | **Unified Condition-Action Modeling for Accurate One-Step Action Generation** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.16153) | — |
 | **P2 · Relevant** | **Nexus: Structured Synergy for Efficient Text-to-Image Generation using Rectified Flow Model** | Fresh / preprint | image generation / sparse architecture / low-bit / flow matching | [Link](https://arxiv.org/abs/2608.16104) | — |
+| **P0 · Strong** | **DTX: A Throughput-First Training Accelerator for Diffusion and Transformer Models** | Fresh / preprint | LLM serving / quantization / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.16953) | — |
 | **P0 · Strong** | **From Positionwise Confidence to Prefix Scheduling: Verifier Skipping in Speculative Decoding** | Fresh / preprint | LLM serving / speculative decoding / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.14787) | — |
 | **P0 · Strong** | **ForgeWM: Progressive Causal Training for Few-Step Action-Conditioned Video World Models** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.14022) | — |
 | **P0 · Strong** | **Post-training Quantization for Hybrid Iterative Generative Models** | Fresh / preprint | LLM serving / quantization | [Link](https://arxiv.org/abs/2608.13932) | — |
