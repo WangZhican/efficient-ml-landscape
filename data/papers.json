@@ -15325,6 +15325,27 @@
     ]
   },
   {
+    "title": "Agentic Context Cracking: Token-Efficient Data Reasoning Agents via Adaptive Structuring of Unstructured Data",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / efficient reasoning/agent systems",
+    "arxiv": "2608.31082",
+    "doi": "",
+    "official_id": "arXiv:2608.31082",
+    "paper_url": "https://arxiv.org/abs/2608.31082",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Agentic Context Cracking adaptively materializes reusable structure from already-paid document context and cuts agent reasoning cost by 53%, directly targeting persistent agent-data infrastructure.",
+    "published_at": "2026-09-04",
+    "updated_at": "2026-09-07",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "AgenticCANN: Automated Ascend C Operator Generation via Knowledge-Augmented Agentic Evolution",
     "venue": "Fresh / preprint",
     "topic": "GPU kernel/DSL/compilers / efficient reasoning/agent systems / edge/cloud/heterogeneous AI systems",
@@ -16069,6 +16090,27 @@
     ]
   },
   {
+    "title": "DE-Venus: A Data-Efficient RLVR Framework for Large Language Models",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / distributed training/inference",
+    "arxiv": "2609.03324",
+    "doi": "",
+    "official_id": "arXiv:2609.03324",
+    "paper_url": "https://arxiv.org/abs/2609.03324",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "DE-Venus preserves verl distributed execution while reducing RLVR labels/data and convergence steps, a concrete data-efficient distributed post-training infrastructure contribution.",
+    "published_at": "2026-09-03",
+    "updated_at": "2026-09-04",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "Decode-Branch Transformers: Decoupling the Primary Prefill Path from Additional Decode Computation",
     "venue": "Fresh / preprint",
     "topic": "LLM serving / KV cache/long-context / video/image generation acceleration",
@@ -16547,6 +16589,27 @@
       "LLM Serving",
       "KV Cache / Long Context",
       "MoE Systems / Accelerators"
+    ]
+  },
+  {
+    "title": "Follow the Latent Roadmap: Navigating Revocable Decoding for Diffusion LLMs with Anchor Tokens",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving",
+    "arxiv": "2606.16847",
+    "doi": "",
+    "official_id": "arXiv:2606.16847",
+    "paper_url": "https://arxiv.org/abs/2606.16847",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "ASRD adds anchor-guided generation and verification to diffusion-LLM decoding and reports up to 7.2x inference-throughput acceleration with accuracy gains.",
+    "published_at": "2026-09-02",
+    "updated_at": "2026-09-03",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
@@ -17204,6 +17267,27 @@
     ]
   },
   {
+    "title": "KDFlow: A User-Friendly and Efficient Knowledge Distillation Framework for Large Language Models",
+    "venue": "Fresh / preprint",
+    "topic": "Efficient ML / AI Infra",
+    "arxiv": "2603.01875",
+    "doi": "",
+    "official_id": "arXiv:2603.01875",
+    "paper_url": "https://arxiv.org/abs/2603.01875",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "KDFlow decouples SGLang teacher inference from FSDP2 student optimization and scales to 64 GPUs, reporting 1.4-6.4x distillation speedups; direct distributed training/inference infrastructure contribution.",
+    "published_at": "2026-09-07",
+    "updated_at": "2026-09-09",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Distributed Training / Inference",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Keep the Future, Drop the Rollout: RIFT for World Action Models",
     "venue": "Fresh / preprint",
     "topic": "LLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving",
@@ -17267,6 +17351,28 @@
       "KV Cache / Long Context",
       "Efficient Attention",
       "Multimodal / MLLM Serving",
+      "Video / Image Generation"
+    ]
+  },
+  {
+    "title": "Latent Recurrent Transformer: Architecture Exploration, Training Strategies, and Scaling Behavior",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / video/image generation acceleration",
+    "arxiv": "2605.26797",
+    "doi": "",
+    "official_id": "arXiv:2605.26797",
+    "paper_url": "https://arxiv.org/abs/2605.26797",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Latent Recurrent Transformer preserves the standard KV-cache interface and one-forward-per-token decoding while adding recurrent memory at only 9% latency overhead, providing directly deployable architecture-efficiency evidence.",
+    "published_at": "2026-09-01",
+    "updated_at": "2026-09-02",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
       "Video / Image Generation"
     ]
   },
@@ -17806,6 +17912,26 @@
     ]
   },
   {
+    "title": "More Bang for the Buck: Improving the Inference of Large Language Models at a Fixed Budget using Reset and Discard (ReD)",
+    "venue": "Fresh / preprint",
+    "topic": "Efficient ML / AI Infra",
+    "arxiv": "2601.21522",
+    "doi": "",
+    "official_id": "arXiv:2601.21522",
+    "paper_url": "https://arxiv.org/abs/2601.21522",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Reset-and-Discard explicitly optimizes coverage per inference cost and reduces attempts, generated tokens and dollar cost under fixed budgets, making it strong efficient-reasoning evidence.",
+    "published_at": "2026-09-08",
+    "updated_at": "2026-09-09",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "Multi-Bin Batching for Increasing LLM Inference Throughput",
     "venue": "Fresh / preprint",
     "topic": "LLM serving",
@@ -18116,6 +18242,27 @@
     ]
   },
   {
+    "title": "PMCTS: Principled Parallelized Inference Time Scaling with Particle Monte Carlo Tree Search",
+    "venue": "Fresh / preprint",
+    "topic": "Efficient ML / AI Infra",
+    "arxiv": "2605.08982",
+    "doi": "",
+    "official_id": "arXiv:2605.08982",
+    "paper_url": "https://arxiv.org/abs/2605.08982",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Particle MCTS turns sequential test-time search into GPU-batched parallel inference with policy-improvement guarantees; directly relevant efficient reasoning/test-time compute scaling.",
+    "published_at": "2026-09-07",
+    "updated_at": "2026-09-09",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "Post-training Quantization for Hybrid Iterative Generative Models",
     "venue": "Fresh / preprint",
     "topic": "LLM serving / quantization",
@@ -18159,6 +18306,27 @@
       "Video / Image Generation",
       "VLA / WAM / Physical AI",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Preference Shapes Relevance: Cross-component Hierarchical Semantic Alignment for Personalized Generative Retrieval",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / quantization",
+    "arxiv": "2608.30553",
+    "doi": "",
+    "official_id": "arXiv:2608.30553",
+    "paper_url": "https://arxiv.org/abs/2608.30553",
+    "code_url": "https://github.com/zzzgm/CHAP",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "CHAP collapses costly autoregressive generative-retrieval decoding to a single residual-cascading pass and validates throughput gains including industrial/online settings.",
+    "published_at": "2026-08-31",
+    "updated_at": "2026-09-01",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Quantization"
     ]
   },
   {
@@ -18711,6 +18879,26 @@
     ]
   },
   {
+    "title": "Revisiting Lossy Verification in Speculative Decoding: Mechanisms, Trade-offs, and Failure Modes",
+    "venue": "Fresh / preprint",
+    "topic": "speculative decoding",
+    "arxiv": "2607.26627",
+    "doi": "",
+    "official_id": "arXiv:2607.26627",
+    "paper_url": "https://arxiv.org/abs/2607.26627",
+    "code_url": "https://github.com/ZhouYuxuanYX/Fast-HSD",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Systematic analysis of lossy speculative verification identifies mechanism-level quality/acceleration trade-offs and failure modes; canonical speculative-decoding methodology and verification evidence.",
+    "published_at": "2026-09-04",
+    "updated_at": "2026-09-07",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Speculative Decoding"
+    ]
+  },
+  {
     "title": "RL-VLA$^3$: A Flexible and Asynchronous Reinforcement Learning Framework for VLA Training",
     "venue": "Fresh / preprint",
     "topic": "LLM serving / multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving",
@@ -18799,6 +18987,28 @@
       "LLM Serving",
       "Efficient Reasoning / Agents",
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "RW-TTT: Batched Serving for Request-Owned Test-Time Training State",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / KV cache/long-context",
+    "arxiv": "2605.28053",
+    "doi": "",
+    "official_id": "arXiv:2605.28053",
+    "paper_url": "https://arxiv.org/abs/2605.28053",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "RW-TTT formalizes batched serving for request-owned mutable test-time-training state and achieves 9.31x aggregate throughput over sequential execution under the same memory budget.",
+    "published_at": "2026-09-03",
+    "updated_at": "2026-09-04",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -18932,6 +19142,29 @@
     "directions": [
       "Quantization",
       "Sparsity / Pruning"
+    ]
+  },
+  {
+    "title": "Scaling Automatic Research Agents via World Models",
+    "venue": "Fresh / preprint",
+    "topic": "video/image generation acceleration / VLA/WAM/Physical AI serving",
+    "arxiv": "2608.12564",
+    "doi": "",
+    "official_id": "arXiv:2608.12564",
+    "paper_url": "https://arxiv.org/abs/2608.12564",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "World-model RL replaces expensive environment execution in automatic-research agents, reports 3-4x training acceleration, and transfers to embodied VLA post-training; strong efficient-agent/Physical-AI systems evidence.",
+    "published_at": "2026-09-10",
+    "updated_at": "2026-09-11",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Video / Image Generation",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
     ]
   },
   {
@@ -19616,6 +19849,28 @@
       "Sparsity / Pruning",
       "Multimodal / MLLM Serving",
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Unified Long Video Inpainting and Outpainting via Overlapping High-Order Co-Denoising",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / video/image generation acceleration",
+    "arxiv": "2511.03272",
+    "doi": "",
+    "official_id": "arXiv:2511.03272",
+    "paper_url": "https://arxiv.org/abs/2511.03272",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Long-video diffusion editing uses overlapping window co-denoising with memory bounded by the chosen window and demonstrates scaling to 800 frames, providing concrete generation-memory/runtime evidence.",
+    "published_at": "2026-09-08",
+    "updated_at": "2026-09-09",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
