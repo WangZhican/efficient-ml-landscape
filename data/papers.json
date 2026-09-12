@@ -15588,6 +15588,28 @@
     ]
   },
   {
+    "title": "AstronOS: A Unified Execution Model and Runtime for Long-Horizon Agentic Systems",
+    "venue": "Fresh / preprint",
+    "topic": "video/image generation acceleration / efficient reasoning/agent systems / edge/cloud/heterogeneous AI systems",
+    "arxiv": "2608.16381",
+    "doi": "",
+    "official_id": "arXiv:2608.16381",
+    "paper_url": "https://arxiv.org/abs/2608.16381",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "AstronOS provides a unified persistent-state execution runtime for long-horizon agents and controlled handoff experiments show much higher multi-stage completion than rereading/history replay while lowering attempt-accounted model-token cost; strong agent-runtime evidence.",
+    "published_at": "2026-08-17T10:33:28Z",
+    "updated_at": "2026-08-17T10:33:28Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Video / Image Generation",
+      "Efficient Reasoning / Agents",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "ATFlash: Per-RoPE-Wavelength Attention Windows for Compute/Memory-Efficient LLM Inference",
     "venue": "Fresh / preprint",
     "topic": "efficient attention / long-context / FlashAttention",
@@ -16134,6 +16156,26 @@
     ]
   },
   {
+    "title": "Coarse Indexing, Fine Evidence: Decoupling Temporal Granularity in Long-Video RAG",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving",
+    "arxiv": "2608.23011",
+    "doi": "",
+    "official_id": "arXiv:2608.23011",
+    "paper_url": "https://arxiv.org/abs/2608.23011",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "DAGC decouples coarse long-video RAG indexing from fine evidence, keeps only about 40-50% of graph nodes and delivers 1.3-1.7x end-to-end wall-clock speedup while preserving about 99% QA performance.",
+    "published_at": "2026-08-24T09:12:06Z",
+    "updated_at": "2026-08-24T09:12:06Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving"
+    ]
+  },
+  {
     "title": "CodeQuant: Unified Clustering and Quantization for Enhanced Outlier Smoothing in Low-Precision Mixture-of-Experts",
     "venue": "Fresh / preprint",
     "topic": "LLM serving / quantization / MoE systems/accelerators",
@@ -16199,6 +16241,27 @@
       "Distributed Training / Inference",
       "Multimodal / MLLM Serving",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Context as an Environment: Programmatic Context Management for Long-Horizon Agents",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving",
+    "arxiv": "2608.21690",
+    "doi": "",
+    "official_id": "arXiv:2608.21690",
+    "paper_url": "https://arxiv.org/abs/2608.21690",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Scroll treats long-horizon agent context as an executable persistent environment backed by an append-only event log and Python state, keeping large tool/history objects out of prompts until explicitly projected; strong programmatic context-management/runtime lineage.",
+    "published_at": "2026-08-21T23:39:19Z",
+    "updated_at": "2026-08-21T23:39:19Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -16916,6 +16979,27 @@
     ]
   },
   {
+    "title": "Fast and Compact 3D Gaussian Splatting with Polarized Opacity Prior",
+    "venue": "Fresh / preprint",
+    "topic": "sparsity/pruning",
+    "arxiv": "2608.22344",
+    "doi": "",
+    "official_id": "arXiv:2608.22344",
+    "paper_url": "https://arxiv.org/abs/2608.22344",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "A polarized-opacity 3DGS training framework avoids densify-then-prune bloat, accelerates training and rendering while using significantly fewer Gaussians at comparable reconstruction quality; direct 3DGS efficiency evidence.",
+    "published_at": "2026-08-23T10:21:30Z",
+    "updated_at": "2026-08-23T10:21:30Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Sparsity / Pruning",
+      "Video / Image Generation"
+    ]
+  },
+  {
     "title": "Fast and Memory-Efficient Wavelet Convolutions via I/O-Aware Reformulation",
     "venue": "Fresh / preprint",
     "topic": "Efficient ML / AI Infra",
@@ -17445,6 +17529,29 @@
     ]
   },
   {
+    "title": "GrAND: GPU-based Dynamic Graph Indexes for Approximate Nearest Neighbour Search",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / sparsity/pruning / video/image generation acceleration",
+    "arxiv": "2608.21163",
+    "doi": "",
+    "official_id": "arXiv:2608.21163",
+    "paper_url": "https://arxiv.org/abs/2608.21163",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "GrAND is a GPU-native dynamic graph-index system for ANN search with batched graph repair, lock-free parallel updates and on-demand reverse graphs, directly targeting high-throughput mutable retrieval infrastructure.",
+    "published_at": "2026-08-21T14:34:58Z",
+    "updated_at": "2026-08-21T14:34:58Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "GPU Kernel / DSL / Compiler",
+      "Video / Image Generation"
+    ]
+  },
+  {
     "title": "GRIP: Granular Reward-Guided Parameter Interpolation for Efficient Reasoning",
     "venue": "Fresh / preprint",
     "topic": "LLM serving",
@@ -17850,6 +17957,28 @@
     ]
   },
   {
+    "title": "Improving Few-Step Language Flows with Untied Self-Conditioning",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems",
+    "arxiv": "2608.22244",
+    "doi": "",
+    "official_id": "arXiv:2608.22244",
+    "paper_url": "https://arxiv.org/abs/2608.22244",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Untied Self-Conditioning improves few-step language-flow generation with no retraining and one model evaluation per sampling step, directly targeting latency-quality degradation at low step counts.",
+    "published_at": "2026-08-23T06:46:17Z",
+    "updated_at": "2026-08-23T06:46:17Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Video / Image Generation",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Instella-MoE Technical Report",
     "venue": "Fresh / preprint",
     "topic": "KV cache/long-context / MoE systems/accelerators",
@@ -17890,6 +18019,27 @@
     "directions": [
       "LLM Serving",
       "Video / Image Generation",
+      "Efficient Reasoning / Agents",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Is Discrete Difficulty Sufficient? Leveraging Continuous Difficulty for Efficient Self-Consistency in LLMs",
+    "venue": "Fresh / preprint",
+    "topic": "edge/cloud/heterogeneous AI systems",
+    "arxiv": "2608.24590",
+    "doi": "",
+    "official_id": "arXiv:2608.24590",
+    "paper_url": "https://arxiv.org/abs/2608.24590",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Flexible Self-Consistency continuously predicts reasoning difficulty and adapts the number of reasoning paths, maintaining comparable accuracy while saving up to 76% of tokens; direct efficient-reasoning inference evidence.",
+    "published_at": "2026-08-25T14:17:30Z",
+    "updated_at": "2026-08-25T14:17:30Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
       "Efficient Reasoning / Agents",
       "Edge / Cloud / Heterogeneous AI"
     ]
@@ -18158,6 +18308,26 @@
       "LLM Serving",
       "MoE Systems / Accelerators",
       "Video / Image Generation"
+    ]
+  },
+  {
+    "title": "Let's Scale Step by Step: Compute-Efficient Hyperparameter Transfer for Large-Scale Mixture-of-Experts",
+    "venue": "Fresh / preprint",
+    "topic": "MoE systems/accelerators",
+    "arxiv": "2608.20061",
+    "doi": "",
+    "official_id": "arXiv:2608.20061",
+    "paper_url": "https://arxiv.org/abs/2608.20061",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "This MoE training work transfers optimal learning rates across width and token-budget scales using proxy models and scaling laws, avoiding otherwise prohibitive large-scale hyperparameter sweeps; strong compute-efficient MoE training evidence.",
+    "published_at": "2026-08-20T13:57:43Z",
+    "updated_at": "2026-08-20T13:57:43Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "MoE Systems / Accelerators"
     ]
   },
   {
@@ -18843,6 +19013,28 @@
     "directions": [
       "LLM Serving",
       "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "NVIDIA Cosmos-H-Dreams: Real-Time Generative Physics Simulation for Surgical Robotics",
+    "venue": "Fresh / preprint",
+    "topic": "video/image generation acceleration",
+    "arxiv": "2608.24199",
+    "doi": "",
+    "official_id": "arXiv:2608.24199",
+    "paper_url": "https://arxiv.org/abs/2608.24199",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Protected Physical-AI/WAM: NVIDIA Cosmos-H-Dreams distills an action-conditioned surgical world model into a causal few-step student and streams generative physics simulation at about 160 FPS on one RTX PRO 6000 Blackwell GPU.",
+    "published_at": "2026-08-25T08:09:40Z",
+    "updated_at": "2026-08-27T12:43:06Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Video / Image Generation",
+      "VLA / WAM / Physical AI"
     ]
   },
   {
@@ -20409,6 +20601,28 @@
     ]
   },
   {
+    "title": "SkillEffect: Checked Lowering for Memory-Bounded Agent Tools",
+    "venue": "Fresh / preprint",
+    "topic": "video/image generation acceleration / edge/cloud/heterogeneous AI systems",
+    "arxiv": "2608.17007",
+    "doi": "",
+    "official_id": "arXiv:2608.17007",
+    "paper_url": "https://arxiv.org/abs/2608.17007",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "SkillEffect is a checked-lowering runtime for memory-bounded agent tools with bounded VM execution and atomic capacity leasing; across six operator families it substantially reduces peak memory and improves completion under fixed caps.",
+    "published_at": "2026-08-17T18:03:56Z",
+    "updated_at": "2026-08-22T00:15:59Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Video / Image Generation",
+      "Efficient Reasoning / Agents",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "SkillGLoW: Procedural-Family Skill Consolidation for Self-Improving Agents on Long-Horizon Task Streams",
     "venue": "Fresh / preprint",
     "topic": "VLA/WAM/Physical AI serving",
@@ -20853,6 +21067,26 @@
       "Multimodal / MLLM Serving",
       "Video / Image Generation",
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Tensor Seeks Layout: Formalizing Layout Selection for ML Compilers",
+    "venue": "Fresh / preprint",
+    "topic": "GPU kernel/DSL/compilers",
+    "arxiv": "2608.21555",
+    "doi": "",
+    "official_id": "arXiv:2608.21555",
+    "paper_url": "https://arxiv.org/abs/2608.21555",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Tensor Seeks Layout formalizes global tensor-layout selection for ML compilers and implements optimization over operator plus conversion costs, directly addressing a core compiler/runtime performance problem.",
+    "published_at": "2026-08-21T18:44:48Z",
+    "updated_at": "2026-08-21T18:44:48Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {
@@ -21734,6 +21968,27 @@
     "directions": [
       "LLM Serving",
       "Video / Image Generation"
+    ]
+  },
+  {
+    "title": "X2Streaming-TTS: Causal Token-Level Text-to-Speech from Streaming Text with Speech-State Inheritance",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / edge/cloud/heterogeneous AI systems",
+    "arxiv": "2608.18661",
+    "doi": "",
+    "official_id": "arXiv:2608.18661",
+    "paper_url": "https://arxiv.org/abs/2608.18661",
+    "code_url": "https://github.com/X-Square-Robot/X2Streaming-TTS",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "X2Streaming-TTS performs truly causal token-level speech synthesis from asynchronously arriving text with bounded acoustic context and inherited speech state, directly targeting low-latency streaming dialogue serving.",
+    "published_at": "2026-08-19T08:05:45Z",
+    "updated_at": "2026-08-19T08:05:45Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {

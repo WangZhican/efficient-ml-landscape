@@ -1,10 +1,10 @@
 # 14 · VLA / WAM / Physical AI
 
-> **184 canonical papers** mapped here, plus a broader **347-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **185 canonical papers** mapped here, plus a broader **348-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 347 tracked
+## 🆕 Latest 30 Days · 348 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -231,6 +231,7 @@
 | **P1 · Watch** | **Fast Generative Grasping via Lie Group-Constrained MeanFlow** | Fresh / preprint | Physical AI / flow acceleration / robotic grasping | [Link](https://arxiv.org/abs/2608.26076) | — |
 | **P1 · Watch** | **GameWAM: A World Action Model for Video Games** | Fresh / preprint | video/image generation acceleration / VLA/WAM/Physical AI serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.26200) | — |
 | **P1 · Watch** | **GaussianWAM: Distilling Geometry and Semantics from 3D Gaussian Fields into World-Action Models** | Fresh / preprint | LLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.24714) | — |
+| **P0 · Strong** | **NVIDIA Cosmos-H-Dreams: Real-Time Generative Physics Simulation for Surgical Robotics** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2608.24199) | — |
 | **P1 · Watch** | **PonderPounce: A Pretrained MLLM as an Episode Context Engine for Robot Control** | Fresh / preprint | LLM serving / multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.24115) | — |
 | **P0 · Strong** | **GlanceWAM: Sparse Test-Time Imagination for World-Action Models** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.23927) | [Repo](https://github.com/linhanwang/GlanceWAM) |
 | **P1 · Watch** | **Latent Action as Intention Enables Efficient Future Imagination for World Action Models** | Fresh / preprint | Physical AI / WAM / latent action / inference latency | [Link](https://arxiv.org/abs/2608.24882) | — |
