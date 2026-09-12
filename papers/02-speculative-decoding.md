@@ -1,10 +1,10 @@
 # 02 · Speculative Decoding
 
-> **225 canonical papers** mapped here, plus a broader **62-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **226 canonical papers** mapped here, plus a broader **63-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 62 tracked
+## 🆕 Latest 30 Days · 63 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -35,6 +35,7 @@
 | **P0 · Strong** | **ReTrace: Rejected-Trajectory Conditioning for Speculative Decoding** | Fresh / preprint | speculative decoding / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.29748) | — |
 | **P1 · Watch** | **A rigor-matched audit of periodic-step layer skipping for efficient llm inference: conflayers versus swift, with a supplemental analysis of trained routing alternatives** | Fresh / preprint | speculative decoding / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.28846) | — |
 | **P1 · Watch** | **Speculative Probing: LLM Monitoring at Speculative-Decoding Cost** | Fresh / preprint | KV cache/long-context | [Link](https://arxiv.org/abs/2608.28099) | — |
+| **P0 · Strong** | **Verify Smarter, Evolve Further: Efficient Harness Evolution through Behavior-Aware Verification** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.27311) | [Repo](https://github.com/jhxu5214/HarnessLens) |
 | **P0 · Strong** | **Trajectory-Level Speculative Decoding for Diffusion Language Models** | Fresh / preprint | LLM serving / speculative decoding | [Link](https://arxiv.org/abs/2608.27514) | — |
 | **P1 · Watch** | **AsymSpec: Context-Asymmetric Speculative Decoding for Agentic LLMs** | Fresh / preprint | LLM serving / speculative decoding / agent systems | [Link](https://arxiv.org/abs/2608.26004) | — |
 | **P0 · Strong** | **Simthesizer: An Agent-Driven Simulation Framework for LLM Serving Systems** | arXiv 2026 | LLM serving / serving simulator / agentic workloads / disaggregated serving / speculative decoding / KV cache | [Link](https://arxiv.org/abs/2608.24650) | [Repo](https://github.com/casys-kaist/Simthesizer) |
