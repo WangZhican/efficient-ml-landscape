@@ -1,14 +1,15 @@
 # 06 · Efficient Attention
 
-> **257 canonical papers** mapped here, plus a broader **111-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **260 canonical papers** mapped here, plus a broader **114-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 111 tracked
+## 🆕 Latest 30 Days · 114 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **P0 · Strong** | **REVA: Reusable Evidence View Aggregation for Context-Efficient RAG Serving** | arXiv 2026 | LLM serving / RAG / context compression | [Link](https://arxiv.org/abs/2609.11209) | — |
+| **P0 · Strong** | **HISA: Efficient Hierarchical Indexing for Fine-Grained Sparse Attention** | Fresh / preprint | sparsity/pruning / video/image generation acceleration | [Link](https://arxiv.org/abs/2603.28458) | — |
 | **P0 · Strong** | **VestigeKV: The NoPE-MLA KV Cache Carries Its Own Eviction Signal in a Vestigial Branch** | CoRR 2026 | KV cache / long-context / MLA / cache eviction | [Link](https://arxiv.org/abs/2609.03949) | — |
 | **P1 · Watch** | **TurboT2VA: Fast Large-Scale Text-to-Video-Audio Generation via Score-Regularized Consistency Distillation** | Fresh / preprint | video/image generation acceleration / multimodal diffusion / quantization / sparse attention | [Link](https://arxiv.org/abs/2608.24674) | — |
 | **P0 · Strong** | **RoLA: Rotary-Positioned Low-Rank Linear Attention for Efficient Diffusion Transformers** | arXiv 2026 | video/image generation acceleration / diffusion/flow acceleration / efficient attention | [Link](https://arxiv.org/abs/2609.06712) | — |
@@ -52,6 +53,7 @@
 | **P0 · Strong** | **TwinKV: A Composable Repair Pass for KV Cache Eviction via Pairwise Key Redundancy** | arXiv 2026 | KV cache / long-context inference / training-free eviction repair | [Link](https://arxiv.org/abs/2608.27128) | — |
 | **P1 · Watch** | **TuringLLM: Efficiently Scaling Foundation Models Toward Physical AI** | arXiv 2026 | Physical AI / efficient foundation model / MoE routing / hybrid attention / long-context inference | [Link](https://arxiv.org/abs/2608.30567) | — |
 | **P0 · Strong** | **Kascade: A Practical Sparse Attention Method for Long-Context LLM Inference** | Fresh / preprint | LLM serving / KV cache/long-context / sparsity/pruning / efficient attention | [Link](https://arxiv.org/abs/2512.16391) | — |
+| **P0 · Strong** | **GRKV: Global Regression for Training-Free KV Cache Compression in Long-Context LLMs** | Fresh / preprint | LLM serving / KV cache/long-context | [Link](https://arxiv.org/abs/2605.31105) | [Repo](https://github.com/pjunjie/GRKV) |
 | **P0 · Strong** | **Faster Than Flash: Exploiting Attention Sparsity for Efficient Long-Context Decoding** | ICML 2026 | long-context LLM decoding / sparse attention / fused Triton kernel | [Link](https://arxiv.org/abs/2609.00097) | [Repo](https://github.com/qluoluo/faster-flash-decoding) |
 | **P1 · Watch** | **Event-Driven Language Models with Sparse Neural Activity for Neuromorphic Hardware** | arXiv 2026 | sparsity / quantization / linear attention / neuromorphic edge inference | [Link](https://arxiv.org/abs/2608.30439) | — |
 | **P0 · Strong** | **DASC: Decay-Aware State Compression for Hybrid Linear-Attention Serving** | Fresh / preprint | LLM serving / state cache / hybrid linear attention | [Link](https://arxiv.org/abs/2608.30386) | — |
@@ -65,6 +67,7 @@
 | **P0 · Strong** | **DensityKV: Density-Guided KV Cache Compression for Long Video Generation** | arXiv 2026 | KV cache / video generation acceleration / efficient attention | [Link](https://arxiv.org/abs/2608.27922) | [Repo](https://github.com/ZhaoWQQ/DensityKV) |
 | **P1 · Watch** | **ClusterAttention: A training-free speedup of bidirectional attention** | Fresh / preprint | efficient attention / sparse attention / video generation | [Link](https://arxiv.org/abs/2608.26965) | — |
 | **P1 · Watch** | **A Method for Layer Bit-Width Allocation in LLM Quantization via Performance Maximization Under a Quality-Degradation Constraint** | Fresh / preprint | LLM serving / KV cache/long-context / quantization / efficient attention / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.28003) | — |
+| **P0 · Strong** | **Not All Attention Heads Contribute to Critical Visual Token Selection: Head-Aware Pruning Matters More** | Fresh / preprint | LLM serving / sparsity/pruning / multimodal/MLLM serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.25332) | — |
 | **P1 · Watch** | **Low-Latency Event-Based Object Detection with Spatially-Sparse Linear Attention** | Fresh / preprint | LLM serving / sparsity/pruning / efficient attention | [Link](https://arxiv.org/abs/2603.06228) | — |
 | **P0 · Strong** | **APT: Accelerating Diffusion Transformers via Attention Probability-Guided Pruning and Quantization** | Fresh / preprint | diffusion acceleration / sparse attention / quantization / accelerator | [Link](https://arxiv.org/abs/2608.25380) | — |
 | **P1 · Watch** | **Understanding the Energy Scaling of Large Language Model Inference Across Context Lengths and Attention Architectures** | Fresh / preprint | LLM serving / energy / attention architecture | [Link](https://arxiv.org/abs/2608.25096) | — |

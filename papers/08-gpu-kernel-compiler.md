@@ -1,10 +1,10 @@
 # 08 · GPU Kernel / DSL / Compiler
 
-> **473 canonical papers** mapped here, plus a broader **204-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **474 canonical papers** mapped here, plus a broader **205-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 204 tracked
+## 🆕 Latest 30 Days · 205 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -173,6 +173,7 @@
 | **P0 · Strong** | **CodeQuant: Unified Clustering and Quantization for Enhanced Outlier Smoothing in Low-Precision Mixture-of-Experts** | Fresh / preprint | LLM serving / quantization / MoE systems/accelerators | [Link](https://arxiv.org/abs/2604.10496) | [Repo](https://github.com/SAI-Lab-NYU/CodeQuant) |
 | **P0 · Strong** | **Beyond Capacity: Scalable MoE LLM Inference via High-Bandwidth Flash with Direct GPU and HBM Paths** | Fresh / preprint | MoE serving / high-bandwidth flash architecture | [Link](https://arxiv.org/abs/2608.14333) | — |
 | **P2 · Relevant** | **A Barrier-Free Synchronization Algorithm for Multi-Engine AI Accelerators** | Fresh / preprint | llm_serving / kernel | [Link](https://arxiv.org/abs/2608.13757) | — |
+| **P0 · Strong** | **LiveAnimate: Stable Long-Form Streaming Human Animation in Real-Time** | Fresh / preprint | LLM serving / GPU kernel/DSL/compilers / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.11745) | — |
 | **P0 · Strong** | **Fast and Memory-Efficient Wavelet Convolutions via I/O-Aware Reformulation** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.10805) | — |
 | **P2 · Relevant** | **Spec Sheets Are Not Kernels: An ISA- and Source-Level Audit of INT8 Availability on NVIDIA Blackwell Ultra** | Fresh / preprint | llm_serving / quant / kernel / gen | [Link](https://arxiv.org/abs/2608.11693) | — |
 | **P2 · Relevant** | **Hand-Written PTX Tensor-Core GEMM Kernels: A Multi-Precision Study on NVIDIA L4** | Fresh / preprint | llm_serving / quant / gen | [Link](https://arxiv.org/abs/2608.10103) | — |

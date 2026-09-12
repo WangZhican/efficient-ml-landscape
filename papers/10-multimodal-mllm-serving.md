@@ -1,10 +1,10 @@
 # 10 · Multimodal / MLLM Serving
 
-> **235 canonical papers** mapped here, plus a broader **191-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **236 canonical papers** mapped here, plus a broader **193-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 191 tracked
+## 🆕 Latest 30 Days · 193 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -121,6 +121,7 @@
 | **P2 · Relevant** | **StreamPI: Streaming Multimodal Temporal Modeling for Vision-Language-Action Models** | Fresh / preprint | Physical AI / VLA streaming | [Link](https://arxiv.org/abs/2608.26067) | — |
 | **P0 · Strong** | **ST-Lite: Training-Free KV Cache Compression with Spatio-Trajectory Guidance for Long-Horizon GUI Agents** | Fresh / preprint | LLM serving / KV cache/long-context / sparsity/pruning / multimodal/MLLM serving | [Link](https://arxiv.org/abs/2603.00188) | [Repo](https://github.com/94wen94/ST-Lite) |
 | **P1 · Watch** | **RA-VLA: Retrieval-Augmented VLA for Test-Time Adaptation** | Fresh / preprint | LLM serving / multimodal/MLLM serving / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.25585) | — |
+| **P0 · Strong** | **Not All Attention Heads Contribute to Critical Visual Token Selection: Head-Aware Pruning Matters More** | Fresh / preprint | LLM serving / sparsity/pruning / multimodal/MLLM serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.25332) | — |
 | **P0 · Strong** | **Learning to Accelerate Vision-Language-Action Models through Adaptive Visual Token Caching** | Fresh / preprint | sparsity/pruning / multimodal/MLLM serving / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2602.00686) | — |
 | **P0 · Strong** | **VisCache: Visual KV Cache Pruning for Efficient Vision Large Language Model Inference** | EMNLP 2026 Main Conference | multimodal/MLLM serving / KV cache / pruning / video inference | [Link](https://arxiv.org/abs/2608.24063) | [Repo](https://github.com/Wlklk/VisCache) |
 | **P1 · Watch** | **VisCache: Visual KV Cache Pruning for Efficient Vision Large Language Model Inference** | Fresh / preprint | multimodal serving / visual KV cache / pruning | [Link](https://arxiv.org/abs/2608.24063) | — |
@@ -141,6 +142,7 @@
 | **P2 · Relevant** | **Logic-VLA: A Temporal Logic Conditioned Vision-Language-Action Model** | Fresh / preprint | llm_serving / multimodal / gen / physical | [Link](https://arxiv.org/abs/2608.20556) | — |
 | **P2 · Relevant** | **EXIMO: VLM Guided Exploration of VLA Policies** | Fresh / preprint | multimodal / gen / physical | [Link](https://arxiv.org/abs/2608.19891) | — |
 | **P2 · Relevant** | **OrthoSkillVLA: Continual Skill Learning via Gradient-Informed Skill Subspace Adaptation** | Fresh / preprint | llm_serving / multimodal / physical | [Link](https://arxiv.org/abs/2608.19589) | — |
+| **P1 · Watch** | **MPCoT: Reward-Guided Multi-Path Latent Reasoning for Test-Time Scalable Vision-Language-Action** | Fresh / preprint | LLM serving / multimodal/MLLM serving / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2606.06245) | — |
 | **P0 · Strong** | **HBVLA: Pushing 1-Bit Post-Training Quantization for Vision-Language-Action Models** | Fresh / preprint | quantization / multimodal/MLLM serving / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2602.13710) | — |
 | **P0 · Strong** | **Role-Conditioned Sub-Token Routing for Efficient Vision-Language-Action Policies** | Fresh / preprint | VLA efficiency / KV compression / sub-token routing | [Link](https://arxiv.org/abs/2608.18410) | — |
 | **P1 · Watch** | **Seeing is Free, Speaking is Not: Uncovering the True Energy Bottleneck in Edge VLM Inference** | Fresh / preprint | LLM serving / sparsity/pruning / multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2607.09520) | [Repo](https://github.com/Junfei-Z/seeing-is-free) |

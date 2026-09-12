@@ -1,10 +1,10 @@
 # 09 · Distributed Training / Inference
 
-> **356 canonical papers** mapped here, plus a broader **140-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **358 canonical papers** mapped here, plus a broader **142-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 140 tracked
+## 🆕 Latest 30 Days · 142 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -90,6 +90,7 @@
 | **P0 · Strong** | **AInfer-PD: Communication-Safe In-Place Prefill-Decode Multiplexing for Distributed MoE Rollouts** | arXiv 2026 | LLM serving / agentic RL rollout / prefill-decode multiplexing / distributed MoE / communication | [Link](https://arxiv.org/abs/2609.00993) | — |
 | **P0 · Strong** | **RLinf-USER: A Unified and Extensible System for Real-World Online Policy Learning in Embodied AI** | RSS 2026 | Physical AI systems / multi-robot online learning / edge-cloud scheduling | [Link](https://arxiv.org/abs/2602.07837) | [Repo](https://github.com/RLinf/RLinf) |
 | **P0 · Strong** | **DRLM: Deep Reinforcement Learning-Based LLM Query Orchestration in Edge Environments** | arXiv 2026 | edge/cloud heterogeneous AI systems / LLM serving / query orchestration / model-device-quantization routing | [Link](https://arxiv.org/abs/2609.00442) | — |
+| **P0 · Strong** | **Prefix-Adaptive Block Diffusion for Efficient Document Recognition** | Fresh / preprint | LLM serving / KV cache/long-context | [Link](https://arxiv.org/abs/2605.16861) | — |
 | **P0 · Strong** | **Training Communication-Efficient Mixture-of-Experts Language Models with Layer Re-Configuration** | arXiv 2026 | MoE systems / distributed training / communication efficiency | [Link](https://arxiv.org/abs/2608.28511) | — |
 | **P1 · Watch** | **ClusterAttention: A training-free speedup of bidirectional attention** | Fresh / preprint | efficient attention / sparse attention / video generation | [Link](https://arxiv.org/abs/2608.26965) | — |
 | **P0 · Strong** | **VPP: Virtual Pipeline Parallelism for Efficient Chunked Prefill in Long-Context LLM Inference** | arXiv 2026 | LLM serving / long-context / distributed inference | [Link](https://arxiv.org/abs/2608.26523) | — |
@@ -126,6 +127,7 @@
 | **P0 · Strong** | **Rollplex: Cross-Phase GPU Spatial Sharing for Vision Language Model Post-Training** | Fresh / preprint | VLM post-training / GPU spatial sharing / RL runtime | [Link](https://arxiv.org/abs/2608.14498) | — |
 | **P0 · Strong** | **DeaMoE: Efficient MoE Structure for Fast Small-Batch Decoding** | Fresh / preprint | MoE architecture / small-batch decoding | [Link](https://arxiv.org/abs/2608.14385) | — |
 | **P0 · Strong** | **CodeQuant: Unified Clustering and Quantization for Enhanced Outlier Smoothing in Low-Precision Mixture-of-Experts** | Fresh / preprint | LLM serving / quantization / MoE systems/accelerators | [Link](https://arxiv.org/abs/2604.10496) | [Repo](https://github.com/SAI-Lab-NYU/CodeQuant) |
+| **P0 · Strong** | **SPADE: Speculative Decoding for Precise and Low Cost Distributed Edge Cloud Inference** | Fresh / preprint | speculative decoding / distributed training/inference | [Link](https://arxiv.org/abs/2608.13076) | — |
 | **P0 · Strong** | **SCOPE: Subspace Clustering with Online Per-Head Top-K Estimation for Sparse Video Attention** | Fresh / preprint | sparse video attention / DiT inference | [Link](https://arxiv.org/abs/2608.12780) | — |
 | **P2 · Relevant** | **User-Assisted Collaborative Distributed Inference for Efficient QoS-Aware Autoscaling** | Fresh / preprint | llm_serving / dist | [Link](https://arxiv.org/abs/2608.11840) | — |
 | **P1 · Watch** | **A Two-Tier Perspective on Inference-Time Parallelism in Multi-Agent LLM Systems** | ICML 2026 | efficient agent systems / multi-agent inference / parallel execution / latency-cost tradeoff | [Link](https://arxiv.org/abs/2608.05791) | — |

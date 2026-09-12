@@ -1,10 +1,10 @@
 # 14 · VLA / WAM / Physical AI
 
-> **160 canonical papers** mapped here, plus a broader **289-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **161 canonical papers** mapped here, plus a broader **291-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 289 tracked
+## 🆕 Latest 30 Days · 291 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -211,6 +211,7 @@
 | **P2 · Relevant** | **EXIMO: VLM Guided Exploration of VLA Policies** | Fresh / preprint | multimodal / gen / physical | [Link](https://arxiv.org/abs/2608.19891) | — |
 | **P2 · Relevant** | **OrthoSkillVLA: Continual Skill Learning via Gradient-Informed Skill Subspace Adaptation** | Fresh / preprint | llm_serving / multimodal / physical | [Link](https://arxiv.org/abs/2608.19589) | — |
 | **P0 · Strong** | **RoMAN-Flow: Taming Autoregressive Normalizing Flows for Offline Reinforcement Learning in Robotic Manipulation** | Fresh / preprint | LLM serving / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.20208) | [Repo](https://github.com/konnyaku28/RoMAN-Flow) |
+| **P1 · Watch** | **MPCoT: Reward-Guided Multi-Path Latent Reasoning for Test-Time Scalable Vision-Language-Action** | Fresh / preprint | LLM serving / multimodal/MLLM serving / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2606.06245) | — |
 | **P0 · Strong** | **HBVLA: Pushing 1-Bit Post-Training Quantization for Vision-Language-Action Models** | Fresh / preprint | quantization / multimodal/MLLM serving / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2602.13710) | — |
 | **P2 · Relevant** | **GS-VLA: Plug-and-Play Viewpoint Canonicalization for Frozen VLA Policies via Gaussian Splatting** | Fresh / preprint | Physical AI / VLA robustness / lightweight runtime module | [Link](https://arxiv.org/abs/2608.19066) | — |
 | **P0 · Strong** | **Role-Conditioned Sub-Token Routing for Efficient Vision-Language-Action Policies** | Fresh / preprint | VLA efficiency / KV compression / sub-token routing | [Link](https://arxiv.org/abs/2608.18410) | — |
@@ -221,6 +222,7 @@
 | **P1 · Watch** | **SAFE-Pruner: Semantic Attention-Guided Future-Aware Token Pruning for Efficient Vision-Language-Action Manipulation** | Fresh / preprint | sparsity/pruning / multimodal/MLLM serving / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2605.29662) | — |
 | **P1 · Watch** | **Prism-GRPO: Faster VLA Policy Optimization via Splitting Same-outcome Groups** | Fresh / preprint | Physical AI / VLA RL rollout efficiency | [Link](https://arxiv.org/abs/2608.17423) | — |
 | **P1 · Watch** | **Memory Tree Guided Key Frame Querying for Efficient 3D Question Answering** | Fresh / preprint | Physical AI / embodied VLM inference / key-frame retrieval | [Link](https://arxiv.org/abs/2608.18009) | — |
+| **P0 · Strong** | **ManiCM: Real-time 3D Diffusion Policy via Consistency Model for Robotic Manipulation** | Fresh / preprint | video/image generation acceleration / VLA/WAM/Physical AI serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2406.01586) | — |
 | **P0 · Strong** | **LoopVLA: Learning Sufficiency in Recurrent Refinement for Vision-Language-Action Models** | Fresh / preprint | LLM serving / multimodal/MLLM serving / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2605.09948) | — |
 | **P1 · Watch** | **KAN We Flow? Advancing Robotic Manipulation with 3D Flow Matching via KAN & RWKV** | Fresh / preprint | video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2602.01115) | — |
 | **P1 · Watch** | **CompCPZ: Preserving Multi-Modal Intent in Language-Guided Robot Manipulation** | Fresh / preprint | Physical AI runtime / compositional grounding | [Link](https://arxiv.org/abs/2608.17717) | — |

@@ -1,14 +1,15 @@
 # 05 · Sparsity / Pruning
 
-> **291 canonical papers** mapped here, plus a broader **165-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **294 canonical papers** mapped here, plus a broader **169-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 165 tracked
+## 🆕 Latest 30 Days · 169 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **P0 · Strong** | **LILA: Calibration-Free Structured Pruning of Large Language Models via Latent Spectral Geometry** | arXiv 2026 | sparsity/pruning / LLM compression / calibration-free structured pruning | [Link](https://arxiv.org/abs/2609.11163) | — |
+| **P0 · Strong** | **HISA: Efficient Hierarchical Indexing for Fine-Grained Sparse Attention** | Fresh / preprint | sparsity/pruning / video/image generation acceleration | [Link](https://arxiv.org/abs/2603.28458) | — |
 | **P1 · Watch** | **Data Scarcity and Model Sparsity: Mixtures-of-Experts Overfit More to Repeated Data** | arXiv 2026 | MoE systems/accelerators / sparsity / training efficiency | [Link](https://arxiv.org/abs/2609.11917) | — |
 | **P1 · Watch** | **Why Is Video Still So Expensive? A Survey of Inference-Efficiency Mechanisms in Video and Audiovisual LLMs** | arXiv 2026 | multimodal/MLLM serving / video inference / efficiency survey / canonical lineage | [Link](https://arxiv.org/abs/2609.10355) | — |
 | **P1 · Watch** | **TurboT2VA: Fast Large-Scale Text-to-Video-Audio Generation via Score-Regularized Consistency Distillation** | Fresh / preprint | video/image generation acceleration / multimodal diffusion / quantization / sparse attention | [Link](https://arxiv.org/abs/2608.24674) | — |
@@ -91,9 +92,11 @@
 | **P1 · Watch** | **Transformer-Based Autonomous Driving Models and Deployment-Oriented Compression: A Survey** | Fresh / preprint | LLM serving / quantization / sparsity/pruning / efficient attention | [Link](https://arxiv.org/abs/2304.10891) | — |
 | **P0 · Strong** | **TokenPilot: Cache-Efficient Context Management for LLM Agents** | Fresh / preprint | sparsity/pruning | [Link](https://arxiv.org/abs/2606.17016) | [Repo](https://github.com/zjunlp/RSI) |
 | **P1 · Watch** | **ClusterAttention: A training-free speedup of bidirectional attention** | Fresh / preprint | efficient attention / sparse attention / video generation | [Link](https://arxiv.org/abs/2608.26965) | — |
+| **P0 · Strong** | **BRACE: Taming Sharp Irregularities via Barycentric Rational Forecasting for Fast Diffusion Transformers Inference** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2608.07572) | — |
 | **P1 · Watch** | **Beyond FLOPs: Benchmarking Real Inference Acceleration of LLM Pruning under a GEMM-Centric Taxonomy** | Fresh / preprint | sparsity/pruning | [Link](https://arxiv.org/abs/2606.09080) | [Repo](https://github.com/EIT-NLP/LLM-Pruning/tree/main/PruningInferSim) |
 | **P0 · Strong** | **Training-Free Interaction-Aligned Visual Token Pruning for Efficient Embodied Manipulation** | Fresh / preprint | sparsity/pruning / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2603.22991) | — |
 | **P0 · Strong** | **ST-Lite: Training-Free KV Cache Compression with Spatio-Trajectory Guidance for Long-Horizon GUI Agents** | Fresh / preprint | LLM serving / KV cache/long-context / sparsity/pruning / multimodal/MLLM serving | [Link](https://arxiv.org/abs/2603.00188) | [Repo](https://github.com/94wen94/ST-Lite) |
+| **P0 · Strong** | **Not All Attention Heads Contribute to Critical Visual Token Selection: Head-Aware Pruning Matters More** | Fresh / preprint | LLM serving / sparsity/pruning / multimodal/MLLM serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.25332) | — |
 | **P1 · Watch** | **Low-Latency Event-Based Object Detection with Spatially-Sparse Linear Attention** | Fresh / preprint | LLM serving / sparsity/pruning / efficient attention | [Link](https://arxiv.org/abs/2603.06228) | — |
 | **P0 · Strong** | **Learning to Accelerate Vision-Language-Action Models through Adaptive Visual Token Caching** | Fresh / preprint | sparsity/pruning / multimodal/MLLM serving / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2602.00686) | — |
 | **P1 · Watch** | **Efficient Training with Foresight: Multi-Token Auxiliary Supervision for Autoregressive Image Generation** | Fresh / preprint | LLM serving / sparsity/pruning / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.25386) | — |
@@ -102,6 +105,7 @@
 | **P1 · Watch** | **VisCache: Visual KV Cache Pruning for Efficient Vision Large Language Model Inference** | Fresh / preprint | multimodal serving / visual KV cache / pruning | [Link](https://arxiv.org/abs/2608.24063) | — |
 | **P1 · Watch** | **Compression Trinity: Exploring Sparsity, Quantization, and Low-Rank Approximations for LLM Compression** | Fresh / preprint | quantization / sparsity/pruning / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.24070) | — |
 | **P1 · Watch** | **E2S-Pruner: Progressive Two-Stage Evidence Fusion for Visual Token Pruning in Vision-Language Models** | Fresh / preprint | visual token pruning / MLLM inference / throughput acceleration | [Link](https://arxiv.org/abs/2608.23253) | — |
+| **P1 · Watch** | **Reservoir of Importance: Learning Semi-Structured Sparsity with Differentiable Subset Sampling** | Fresh / preprint | sparsity/pruning | [Link](https://arxiv.org/abs/2608.23048) | — |
 | **P1 · Watch** | **Giga-Embeddings: Mixture-of-Experts Encoders for High-Throughput Text Embeddings** | Fresh / preprint | LLM serving / MoE systems/accelerators / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.23806) | — |
 | **P1 · Watch** | **NeuroPrefetcher: Storage-Aware Sparse LLM Inference via Delta Prefetching** | Fresh / preprint | edge LLM serving / storage-backed sparse inference / predictive delta prefetching | [Link](https://arxiv.org/abs/2608.22643) | — |
 | **P0 · Strong** | **Spatio-Temporal Parallelism for Diffusion Model Inference on Heterogeneous Multi-GPU Systems** | Fresh / preprint | LLM serving / sparsity/pruning / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2509.04719) | — |

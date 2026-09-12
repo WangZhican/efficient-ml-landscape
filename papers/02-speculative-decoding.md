@@ -1,10 +1,10 @@
 # 02 · Speculative Decoding
 
-> **210 canonical papers** mapped here, plus a broader **53-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **213 canonical papers** mapped here, plus a broader **57-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 53 tracked
+## 🆕 Latest 30 Days · 57 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -28,8 +28,11 @@
 | **P0 · Strong** | **AceSpec: An Asymmetric Edge-Cloud Collaborative Framework for Communication-Efficient LLM Inference** | CoRR 2026 | speculative decoding / edge-cloud LLM inference / distributed inference / communication efficiency | [Link](https://arxiv.org/abs/2609.02514) | — |
 | **P0 · Strong** | **MineDraft: A Framework for Batch Parallel Speculative Decoding** | Fresh / preprint | LLM serving / speculative decoding | [Link](https://arxiv.org/abs/2603.18016) | — |
 | **P0 · Strong** | **Strong Drafts Need Compact Memories: Long-Context Speculative Decoding with Compressed KV Cache** | Fresh / preprint | speculative decoding / KV cache / long-context serving | [Link](https://arxiv.org/abs/2608.30252) | — |
+| **P0 · Strong** | **Correctness Forensics for Batch Speculative Decoding: Diagnosing the Ragged Tensor Problem** | Fresh / preprint | LLM serving / speculative decoding | [Link](https://arxiv.org/abs/2510.22876) | [Repo](https://github.com/eBay/spec_dec) |
 | **P0 · Strong** | **Beyond Tokens: Semantic-Aware Speculative Decoding for Efficient Inference by Probing Internal States** | Fresh / preprint | LLM serving / speculative decoding | [Link](https://arxiv.org/abs/2602.03708) | — |
+| **P0 · Strong** | **Approximate Speculative Decoding** | Fresh / preprint | LLM serving / speculative decoding / quantization / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.03447) | [Repo](https://github.com/Kissmetothemoon/ASD) |
 | **P0 · Strong** | **TreeGraft: Adaptive Multi-Drafter Grafting for Tree-Based Speculative Decoding** | Fresh / preprint | speculative decoding / LLM inference | [Link](https://arxiv.org/abs/2608.26112) | — |
+| **P1 · Watch** | **A rigor-matched audit of periodic-step layer skipping for efficient llm inference: conflayers versus swift, with a supplemental analysis of trained routing alternatives** | Fresh / preprint | speculative decoding / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.28846) | — |
 | **P0 · Strong** | **Simthesizer: An Agent-Driven Simulation Framework for LLM Serving Systems** | arXiv 2026 | LLM serving / serving simulator / agentic workloads / disaggregated serving / speculative decoding / KV cache | [Link](https://arxiv.org/abs/2608.24650) | [Repo](https://github.com/casys-kaist/Simthesizer) |
 | **P1 · Watch** | **AsymSpec: Context-Asymmetric Speculative Decoding for Agentic LLMs** | Fresh / preprint | LLM serving / speculative decoding / agent systems | [Link](https://arxiv.org/abs/2608.26004) | — |
 | **P0 · Strong** | **AgentSpec: Speculative Decoding for Batch Inference of LLM Agents** | EMNLP 2026 | speculative decoding / efficient reasoning-agent systems / LLM serving | [Link](https://arxiv.org/abs/2608.24004) | — |
@@ -48,6 +51,7 @@
 | **P1 · Watch** | **DominoTree: Conditional Tree-Structured Drafting with Domino for Speculative Decoding** | Fresh / preprint | LLM serving / KV cache/long-context / speculative decoding / video/image generation acceleration | [Link](https://arxiv.org/abs/2607.08642) | — |
 | **P1 · Watch** | **An Empirical Study of Speculative Decoding on Software Engineering Tasks** | Fresh / preprint | LLM serving / KV cache/long-context / speculative decoding / video/image generation acceleration / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2604.26469) | — |
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
+| **P0 · Strong** | **SPADE: Speculative Decoding for Precise and Low Cost Distributed Edge Cloud Inference** | Fresh / preprint | speculative decoding / distributed training/inference | [Link](https://arxiv.org/abs/2608.13076) | — |
 | **P0 · Strong** | **DARTree: Speculative Diffusion Decoding with Autoregressive Draft Trees** | arXiv 2026 | speculative decoding / diffusion language model acceleration | [Link](https://arxiv.org/abs/2608.13524) | — |
 | **P2 · Relevant** | **OasisKV: Scaling In-Decode KV Cache Beyond HBM with Lookahead Sparse Prefetching** | Fresh / preprint | LLM serving; KV cache / long context; speculative decoding; sparsity / pruning; efficient attention | [Link](https://arxiv.org/abs/2608.08097) | — |
 | **P2 · Relevant** | **BALANCE: Hybrid Autoregressive-Speculative LLM Inference in Wireless Edge Networks** | Fresh / preprint | llm_serving / spec / edge | [Link](https://arxiv.org/abs/2608.05926) | — |
