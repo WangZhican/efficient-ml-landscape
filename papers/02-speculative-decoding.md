@@ -1,6 +1,6 @@
 # 02 · Speculative Decoding
 
-> **229 canonical papers** mapped here, plus a broader **66-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **230 canonical papers** mapped here, plus a broader **66-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -75,7 +75,7 @@
 | **P1 · Watch** | **DominoTree: Conditional Tree-Structured Drafting with Domino for Speculative Decoding** | Fresh / preprint | LLM serving / KV cache/long-context / speculative decoding / video/image generation acceleration | [Link](https://arxiv.org/abs/2607.08642) | — |
 | **P1 · Watch** | **An Empirical Study of Speculative Decoding on Software Engineering Tasks** | Fresh / preprint | LLM serving / KV cache/long-context / speculative decoding / video/image generation acceleration / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2604.26469) | — |
 
-## 🏛️ Classical / Historical · 197 canonical
+## 🏛️ Classical / Historical · 198 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -172,6 +172,7 @@
 | **Canonical** | **RPU - A Reasoning Processing Unit** | HPCA 2026 | efficient VLM + PIM inference + reasoning accelerator + speculative decoding | [Link](https://arxiv.org/abs/2602.18568) | — |
 | **Canonical** | **Growing a Twig to Accelerate Large Vision-Language Models** | ICCV 2025 | VLM acceleration / token pruning + self-speculative decoding | [Link](https://openaccess.thecvf.com/content/ICCV2025/html/Shao_Growing_a_Twig_to_Accelerate_Large_Vision-Language_Models_ICCV_2025_paper.html) | [Repo](https://github.com/MILVLG/twigvlm) |
 | **Canonical** | **Autoregressive Image Generation with Randomized Parallel Decoding** | ICLR 2026 | autoregressive image generation / parallel decoding | [Link](https://openreview.net/pdf?id=rJdGst0W8s) | — |
+| **Canonical** | **Bridging Draft Policy Misalignment: Group Tree Optimization for Speculative Decoding** | ICLR 2026 | speculative decoding / draft-model training / inference acceleration | [Link](https://arxiv.org/abs/2509.22134) | [Repo](https://github.com/hsj576/GTO) |
 | **Canonical** | **Draft-based Approximate Inference for LLMs** | ICLR 2026 | KV cache compression / sparse attention / prompt compression | [Link](https://proceedings.iclr.cc/paper_files/paper/2026/hash/28b3dc0970fa4624a63278a4268de997-Abstract-Conference.html) | [Repo](https://github.com/furiosa-ai/draft-based-approx-llm) |
 | **Canonical** | **Fast-dLLM: Training-free Acceleration of Diffusion LLM by Enabling KV Cache and Parallel Decoding** | ICLR 2026 | diffusion LLM inference / KV cache / parallel decoding | [Link](https://arxiv.org/abs/2505.22618) | [Repo](https://github.com/NVlabs/Fast-dLLM) |
 | **Canonical** | **FreeKV: Boosting KV Cache Retrieval for Efficient LLM Inference** | ICLR 2026 | KV cache retrieval / CPU-GPU hybrid memory / long-context inference | [Link](https://arxiv.org/abs/2505.13109) | — |

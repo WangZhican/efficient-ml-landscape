@@ -27344,6 +27344,26 @@
     ]
   },
   {
+    "title": "Bridging Draft Policy Misalignment: Group Tree Optimization for Speculative Decoding",
+    "venue": "ICLR 2026",
+    "topic": "speculative decoding / draft-model training / inference acceleration",
+    "arxiv": "2509.22134",
+    "doi": "",
+    "official_id": "arXiv:2509.22134",
+    "paper_url": "https://arxiv.org/abs/2509.22134",
+    "code_url": "https://github.com/hsj576/GTO",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "ICLR 2026 speculative-decoding paper aligning draft-model training with decoding-time tree policy. Group Tree Optimization increases acceptance length by 7.4% and reports an additional 7.7% speedup over EAGLE-3 across dialogue/code/math and multiple model families; direct Efficient-ML inference contribution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Speculative Decoding"
+    ]
+  },
+  {
     "title": "Capacity-Aware Inference: Mitigating the Straggler Effect in Mixture of Experts",
     "venue": "ICLR 2026",
     "topic": "MoE systems / expert parallelism / straggler mitigation",
