@@ -1,10 +1,10 @@
 # 04 · Quantization
 
-> **283 canonical papers** mapped here, plus a broader **218-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **283 canonical papers** mapped here, plus a broader **220-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 218 tracked
+## 🆕 Latest 30 Days · 220 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -184,9 +184,11 @@
 | **P1 · Watch** | **FlashQuant: Sparse-Dense Fusion for Memory-Efficient Outlier-Aware LLM Inference** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.15531) | — |
 | **P1 · Watch** | **NeuRoute: Logit-Guided Neural Routing for Billion-Scale Vector Search with Sub-Hour Index Construction** | Fresh / preprint | LLM serving / quantization | [Link](https://arxiv.org/abs/2608.15438) | [Repo](https://github.com/XingqiaoWang/NeuRoute) |
 | **P0 · Strong** | **Every Expert Counts: ExactMoE for Memory-Efficient W4A16 Inference** | Fresh / preprint | MoE memory-efficient W4A16 inference / GPU slot cache | [Link](https://arxiv.org/abs/2608.15383) | — |
+| **P1 · Watch** | **MoE Router-Guided Clustering for Heterogeneous Federated Instruction Tuning** | Fresh / preprint | MoE systems/accelerators / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.15311) | — |
 | **P1 · Watch** | **Anatomy of a Quantized Agent: VRAM Stability and Forecasting in Code-Synthesis Agentic Workloads** | Fresh / preprint | quantization / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.15117) | — |
 | **P1 · Watch** | **MegaParts: Scaling Part-Aware 3D Object Generation to 300 Parts via Token-Efficient Autoregressive Modeling** | Fresh / preprint | LLM serving / KV cache/long-context / quantization / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.14783) | — |
 | **P1 · Watch** | **QuaSAR: Quantization Compensation via Stable Activation-Aware Rank Truncation** | Fresh / preprint | quantization / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.14149) | — |
+| **P1 · Watch** | **Owner3D: Ownership-Guided Style Writing for Training-Free Localized 3D Stylization** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.14078) | — |
 | **P1 · Watch** | **Content Based Video Narration of Gameplay with Vision Language Models** | Fresh / preprint | quantization / multimodal/MLLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.14016) | — |
 | **P0 · Strong** | **QUASAR: Lowering the Loss Floor of Quantization-Aware Training with Loss-Aware Reconstruction** | arXiv 2026 | quantization / quantization-aware training / low-bit LLM deployment / NVFP4 | [Link](https://arxiv.org/abs/2608.13966) | [Repo](https://vincentcounathe.github.io/) |
 | **P0 · Strong** | **Post-training Quantization for Hybrid Iterative Generative Models** | Fresh / preprint | LLM serving / quantization | [Link](https://arxiv.org/abs/2608.13932) | — |

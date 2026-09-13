@@ -15518,6 +15518,28 @@
     ]
   },
   {
+    "title": "AI Research Preference Models",
+    "venue": "Fresh / preprint",
+    "topic": "video/image generation acceleration / efficient reasoning/agent systems",
+    "arxiv": "2608.13940",
+    "doi": "",
+    "official_id": "arXiv:2608.13940",
+    "paper_url": "https://arxiv.org/abs/2608.13940",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "AI Research Preference Models allocate a fixed execution budget across many expensive agent-generated ML candidates and predict which experiments are worth running before paying days of GPU evaluation cost; direct agentic research-compute allocation.",
+    "published_at": "2026-08-14T04:20:37Z",
+    "updated_at": "2026-08-25T21:13:29Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Video / Image Generation",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "Alignment-Free Text-Audiobox for Voice Dubbing and Full-Duplex Dialogue Synthesis",
     "venue": "Fresh / preprint",
     "topic": "video/image generation acceleration",
@@ -17520,6 +17542,26 @@
     "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "ENAF: A Multi-Exit Network with an Adaptive Patch Fusion for Large Image Super Resolution",
+    "venue": "Fresh / preprint",
+    "topic": "Efficient ML / AI Infra",
+    "arxiv": "2608.15349",
+    "doi": "",
+    "official_id": "arXiv:2608.15349",
+    "paper_url": "https://arxiv.org/abs/2608.15349",
+    "code_url": "https://github.com/nmduonggg/ENAF",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "ENAF accelerates 2K-8K super-resolution with multiple early exits and patch-level compute assignment, directly routing easy patches to cheaper exits while preserving quality.",
+    "published_at": "2026-08-15T18:06:28Z",
+    "updated_at": "2026-08-15T18:06:28Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
       "GPU Kernel / DSL / Compiler"
     ]
   },
@@ -21456,6 +21498,26 @@
     ]
   },
   {
+    "title": "Reference-Based Bias Detection in LLMs via Relative Representations of Hidden States",
+    "venue": "Fresh / preprint",
+    "topic": "video/image generation acceleration",
+    "arxiv": "2609.10060",
+    "doi": "",
+    "official_id": "arXiv:2609.10060",
+    "paper_url": "https://arxiv.org/abs/2609.10060",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Reference-based hidden-state bias auditing avoids expensive output benchmarks/judge generation and audits a model in about three minutes using 3-50x less compute, a direct model-evaluation efficiency contribution.",
+    "published_at": "2026-09-09T11:33:35Z",
+    "updated_at": "2026-09-09T11:33:35Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Video / Image Generation"
+    ]
+  },
+  {
     "title": "REFINE: Super-efficient 3D Gaussian Splatting Pruning via Rendering-Free Primitive Importance",
     "venue": "Fresh / preprint",
     "topic": "LLM serving / sparsity/pruning",
@@ -22635,6 +22697,26 @@
     ]
   },
   {
+    "title": "Skynet: Workflow-Level Anomaly Detection for Agentic AI via Semantic and Structural Modeling",
+    "venue": "Fresh / preprint",
+    "topic": "efficient reasoning/agent systems",
+    "arxiv": "2609.06835",
+    "doi": "",
+    "official_id": "arXiv:2609.06835",
+    "paper_url": "https://arxiv.org/abs/2609.06835",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Skynet performs workflow-level anomaly detection for agentic AI runtimes while reporting per-workflow and per-step latency low enough for online monitoring; useful agent-runtime systems contribution.",
+    "published_at": "2026-09-06T21:16:42Z",
+    "updated_at": "2026-09-06T21:16:42Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "SLAI T-Rex: Full-Parameter Post-training of the DeepSeek-V4 Family on Ascend SuperPOD",
     "venue": "Fresh / preprint",
     "topic": "distributed training/inference / edge/cloud/heterogeneous AI systems",
@@ -23401,6 +23483,29 @@
     ]
   },
   {
+    "title": "Through the Looking Glass: Directly Reading and Writing Transformers",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems",
+    "arxiv": "2609.10210",
+    "doi": "",
+    "official_id": "arXiv:2609.10210",
+    "paper_url": "https://arxiv.org/abs/2609.10210",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Direct transformer read/write analysis finds sparse sufficient component sets and demonstrates an installed association at roughly one-fortieth the held-out-loss cost of a rank-one update; strong sparse model-editing/interpretability efficiency evidence.",
+    "published_at": "2026-09-09T14:12:02Z",
+    "updated_at": "2026-09-09T14:12:02Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Video / Image Generation",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Time Without Timesteps: Simulating Coupled Dynamical Systems via Self-Consistency",
     "venue": "Fresh / preprint",
     "topic": "video/image generation acceleration",
@@ -23701,6 +23806,26 @@
     "tracking_tier": "P0 · Strong",
     "directions": [
       "KV Cache / Long Context"
+    ]
+  },
+  {
+    "title": "UAV Video Deblurring via Motion-Aware Diffusion: A Path to Robust Target Detection",
+    "venue": "Fresh / preprint",
+    "topic": "Efficient ML / AI Infra",
+    "arxiv": "2608.15259",
+    "doi": "",
+    "official_id": "arXiv:2608.15259",
+    "paper_url": "https://arxiv.org/abs/2608.15259",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "UAV video deblurring uses an adaptive latent-scale selector driven by motion intensity to trade detail against inference cost, explicitly targeting computationally efficient aerial vision inference.",
+    "published_at": "2026-08-15T14:31:16Z",
+    "updated_at": "2026-08-15T14:31:16Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
@@ -24139,6 +24264,28 @@
     "directions": [
       "LLM Serving",
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Water-network decisions share one hydraulic gradient, and it can now be computed exactly",
+    "venue": "Fresh / preprint",
+    "topic": "video/image generation acceleration",
+    "arxiv": "2609.06323",
+    "doi": "",
+    "official_id": "arXiv:2609.06323",
+    "paper_url": "https://arxiv.org/abs/2609.06323",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Differentiable hydraulic simulation reuses the forward sparse factorization so one GPU adjoint solve returns all parameter gradients; on L-TOWN one adjoint replaces 906 finite-difference simulations and a training loop is reported 191x faster than the prior pipeline.",
+    "published_at": "2026-09-06T00:51:49Z",
+    "updated_at": "2026-09-06T00:51:49Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Sparsity / Pruning",
+      "GPU Kernel / DSL / Compiler",
+      "Video / Image Generation"
     ]
   },
   {

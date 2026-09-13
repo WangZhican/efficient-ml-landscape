@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-13",
   "window_start_beijing": "2026-08-14",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 1691,
+  "tracked_total": 1713,
   "p0_strong_or_canonical": [
     {
       "title": "AccelForge: Comprehensive Modeling and Co-Design Framework for AI Accelerators",
@@ -792,6 +792,29 @@
       ]
     },
     {
+      "title": "Through the Looking Glass: Directly Reading and Writing Transformers",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2609.10210",
+      "doi": "",
+      "official_id": "arXiv:2609.10210",
+      "paper_url": "https://arxiv.org/abs/2609.10210",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Direct transformer read/write analysis finds sparse sufficient component sets and demonstrates an installed association at roughly one-fortieth the held-out-loss cost of a rank-one update; strong sparse model-editing/interpretability efficiency evidence.",
+      "published_at": "2026-09-09T14:12:02Z",
+      "updated_at": "2026-09-09T14:12:02Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Video / Image Generation",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Kernel-Managed Shared Memory for System-Wide Personalization",
       "venue": "arXiv 2026",
       "topic": "efficient reasoning/agent systems / memory / agent runtime / context management",
@@ -831,6 +854,26 @@
       "directions": [
         "Quantization",
         "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "Reference-Based Bias Detection in LLMs via Relative Representations of Hidden States",
+      "venue": "Fresh / preprint",
+      "topic": "video/image generation acceleration",
+      "arxiv": "2609.10060",
+      "doi": "",
+      "official_id": "arXiv:2609.10060",
+      "paper_url": "https://arxiv.org/abs/2609.10060",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Reference-based hidden-state bias auditing avoids expensive output benchmarks/judge generation and audits a model in about three minutes using 3-50x less compute, a direct model-evaluation efficiency contribution.",
+      "published_at": "2026-09-09T11:33:35Z",
+      "updated_at": "2026-09-09T11:33:35Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Video / Image Generation"
       ]
     },
     {
@@ -2225,6 +2268,26 @@
       ]
     },
     {
+      "title": "Skynet: Workflow-Level Anomaly Detection for Agentic AI via Semantic and Structural Modeling",
+      "venue": "Fresh / preprint",
+      "topic": "efficient reasoning/agent systems",
+      "arxiv": "2609.06835",
+      "doi": "",
+      "official_id": "arXiv:2609.06835",
+      "paper_url": "https://arxiv.org/abs/2609.06835",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Skynet performs workflow-level anomaly detection for agentic AI runtimes while reporting per-workflow and per-step latency low enough for online monitoring; useful agent-runtime systems contribution.",
+      "published_at": "2026-09-06T21:16:42Z",
+      "updated_at": "2026-09-06T21:16:42Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "OCTN: Neural OCT Representations for Robot-Guided Precision Intervention",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / edge/GPU runtime / robot-guided intervention",
@@ -2502,6 +2565,28 @@
       "tracking_tier": "P0 · Strong",
       "directions": [
         "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "Water-network decisions share one hydraulic gradient, and it can now be computed exactly",
+      "venue": "Fresh / preprint",
+      "topic": "video/image generation acceleration",
+      "arxiv": "2609.06323",
+      "doi": "",
+      "official_id": "arXiv:2609.06323",
+      "paper_url": "https://arxiv.org/abs/2609.06323",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Differentiable hydraulic simulation reuses the forward sparse factorization so one GPU adjoint solve returns all parameter gradients; on L-TOWN one adjoint replaces 906 finite-difference simulations and a training loop is reported 191x faster than the prior pipeline.",
+      "published_at": "2026-09-06T00:51:49Z",
+      "updated_at": "2026-09-06T00:51:49Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Sparsity / Pruning",
+        "GPU Kernel / DSL / Compiler",
+        "Video / Image Generation"
       ]
     },
     {
@@ -12429,6 +12514,26 @@
       ]
     },
     {
+      "title": "ENAF: A Multi-Exit Network with an Adaptive Patch Fusion for Large Image Super Resolution",
+      "venue": "Fresh / preprint",
+      "topic": "Efficient ML / AI Infra",
+      "arxiv": "2608.15349",
+      "doi": "",
+      "official_id": "arXiv:2608.15349",
+      "paper_url": "https://arxiv.org/abs/2608.15349",
+      "code_url": "https://github.com/nmduonggg/ENAF",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "ENAF accelerates 2K-8K super-resolution with multiple early exits and patch-level compute assignment, directly routing easy patches to cheaper exits while preserving quality.",
+      "published_at": "2026-08-15T18:06:28Z",
+      "updated_at": "2026-08-15T18:06:28Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
       "title": "Remember Smarter: Visual History Compressor and Hyperbolic Experience Space for Robotic Memory",
       "venue": "Fresh / preprint",
       "topic": "multimodal/MLLM serving / VLA/WAM/Physical AI serving",
@@ -12448,6 +12553,26 @@
         "LLM Serving",
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "UAV Video Deblurring via Motion-Aware Diffusion: A Path to Robust Target Detection",
+      "venue": "Fresh / preprint",
+      "topic": "Efficient ML / AI Infra",
+      "arxiv": "2608.15259",
+      "doi": "",
+      "official_id": "arXiv:2608.15259",
+      "paper_url": "https://arxiv.org/abs/2608.15259",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "UAV video deblurring uses an adaptive latent-scale selector driven by motion intensity to trade detail against inference cost, explicitly targeting computationally efficient aerial vision inference.",
+      "published_at": "2026-08-15T14:31:16Z",
+      "updated_at": "2026-08-15T14:31:16Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Diffusion / Flow Acceleration"
       ]
     },
     {
@@ -13052,6 +13177,28 @@
       "tracking_tier": "P0 · Strong",
       "directions": [
         "Quantization"
+      ]
+    },
+    {
+      "title": "AI Research Preference Models",
+      "venue": "Fresh / preprint",
+      "topic": "video/image generation acceleration / efficient reasoning/agent systems",
+      "arxiv": "2608.13940",
+      "doi": "",
+      "official_id": "arXiv:2608.13940",
+      "paper_url": "https://arxiv.org/abs/2608.13940",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "AI Research Preference Models allocate a fixed execution budget across many expensive agent-generated ML candidates and predict which experiments are worth running before paying days of GPU evaluation cost; direct agentic research-compute allocation.",
+      "published_at": "2026-08-14T04:20:37Z",
+      "updated_at": "2026-08-25T21:13:29Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -13979,6 +14126,26 @@
       "directions": [
         "LLM Serving",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Demystifying the Privacy-Utility Trade-off in LLM Interactions",
+      "venue": "",
+      "topic": "LLM serving",
+      "arxiv": "2609.10992",
+      "doi": "",
+      "official_id": "arXiv:2609.10992",
+      "paper_url": "https://arxiv.org/abs/2609.10992",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "A distilled 4B model drives a dynamic local extraction-sanitization-restoration pipeline for LLM interactions; useful compact local-serving lineage, though privacy rather than efficiency is the primary goal.",
+      "published_at": "2026-09-10T02:12:51Z",
+      "updated_at": "2026-09-10T02:12:51Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving"
       ]
     },
     {
@@ -16331,6 +16498,27 @@
       ]
     },
     {
+      "title": "Seeing is Not Believing: Breaking the Physical-to-Digital Trust Boundary in Robotics",
+      "venue": "",
+      "topic": "LLM serving",
+      "arxiv": "2609.08280",
+      "doi": "",
+      "official_id": "arXiv:2609.08280",
+      "paper_url": "https://arxiv.org/abs/2609.08280",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI: ROS 2 telemetry/control interception is demonstrated on a physical Franka arm with ~3 ms jitter; relevant embodied-runtime infrastructure/security evidence, not an acceleration contribution.",
+      "published_at": "2026-09-08T05:50:58Z",
+      "updated_at": "2026-09-08T05:50:58Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "What Eviction Destroys: A Restore-Counterfactual Audit of Forgetting in Agent Memory",
       "venue": "arXiv 2026",
       "topic": "efficient reasoning/agent systems / memory eviction / evaluation",
@@ -16348,6 +16536,27 @@
       "is_latest_30d": true,
       "directions": [
         "Distributed Training / Inference",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Revoked but Still Authoritative: An Empirical Study of Revocation Enforcement in Agent-Memory Systems",
+      "venue": "",
+      "topic": "video/image generation acceleration",
+      "arxiv": "2609.08258",
+      "doi": "",
+      "official_id": "arXiv:2609.08258",
+      "paper_url": "https://arxiv.org/abs/2609.08258",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Agent-memory revocation study identifies a retrieval-time failure across persistent-memory systems and adds a backend-agnostic guard; useful agent memory/runtime systems lineage, but compute efficiency is secondary.",
+      "published_at": "2026-09-08T05:03:09Z",
+      "updated_at": "2026-09-08T05:03:09Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Video / Image Generation",
         "Efficient Reasoning / Agents"
       ]
     },
@@ -17246,6 +17455,27 @@
       ]
     },
     {
+      "title": "Same Problem, Different Field: Cross-Domain Solution Import via Domain-Stripped Computational Fingerprints",
+      "venue": "",
+      "topic": "video/image generation acceleration",
+      "arxiv": "2609.07595",
+      "doi": "",
+      "official_id": "arXiv:2609.07595",
+      "paper_url": "https://arxiv.org/abs/2609.07595",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Computational fingerprints require one cached LLM distillation call per paper followed by a cheap embedder for cross-domain solution retrieval; useful efficient research-agent/retrieval pipeline lineage.",
+      "published_at": "2026-09-07T15:06:22Z",
+      "updated_at": "2026-09-07T15:06:22Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "ICI-VLA: In-Context Imitation with Spatiotemporally Aligned Demonstrations for Vision-Language-Action Models",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / test-time adaptation / retrieval-conditioned control",
@@ -17412,6 +17642,27 @@
       "is_latest_30d": true,
       "directions": [
         "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Compute-Bounded Security Assurance - Coverage, Verification, and Response under Resource Constraints",
+      "venue": "",
+      "topic": "video/image generation acceleration",
+      "arxiv": "2609.09229",
+      "doi": "",
+      "official_id": "arXiv:2609.09229",
+      "paper_url": "https://arxiv.org/abs/2609.09229",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Compute-bounded security assurance formalizes coverage and verification under finite inference budgets and separates repeated attempts from unique coverage; useful compute-budget theory for reasoning/evaluation despite no hardware benchmark.",
+      "published_at": "2026-09-07T13:07:55Z",
+      "updated_at": "2026-09-07T13:07:55Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Video / Image Generation",
         "Efficient Reasoning / Agents"
       ]
     },
@@ -17972,6 +18223,28 @@
       ]
     },
     {
+      "title": "TrojanWorld: Backdooring World-Model Agents via Imagination Steering",
+      "venue": "",
+      "topic": "video/image generation acceleration",
+      "arxiv": "2609.07051",
+      "doi": "",
+      "official_id": "arXiv:2609.07051",
+      "paper_url": "https://arxiv.org/abs/2609.07051",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI/WAM: TrojanWorld studies supply-chain attacks on deployed world-model agents across TD-MPC2, DreamerV3 and R2-Dreamer; important WAM deployment/runtime lineage, though not an efficiency mechanism.",
+      "published_at": "2026-09-07T05:14:10Z",
+      "updated_at": "2026-09-07T05:14:10Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Large Discrete Policy: Advancing Explicit Behavior Modeling with Stochastic Iterative Scoring",
       "venue": "",
       "topic": "LLM serving / multimodal/MLLM serving / VLA/WAM/Physical AI serving",
@@ -18056,6 +18329,27 @@
       "directions": [
         "LLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Continual Learning Mechanisms Compose for Long-Horizon Memorization",
+      "venue": "",
+      "topic": "video/image generation acceleration",
+      "arxiv": "2609.06986",
+      "doi": "",
+      "official_id": "arXiv:2609.06986",
+      "paper_url": "https://arxiv.org/abs/2609.06986",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Long-horizon memorization combines data/function/weight anchors with merged LoRA, making continual adaptation parameter-efficient; relevant PEFT/memory lineage despite emphasis on retention rather than systems throughput.",
+      "published_at": "2026-09-07T03:21:23Z",
+      "updated_at": "2026-09-07T03:21:23Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation"
       ]
     },
     {
@@ -18295,6 +18589,30 @@
       "is_latest_30d": true,
       "directions": [
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Reason Through the Latent! Making Latent Visual Reasoning Necessary",
+      "venue": "",
+      "topic": "KV cache/long-context / multimodal/MLLM serving / video/image generation acceleration",
+      "arxiv": "2609.06746",
+      "doi": "",
+      "official_id": "arXiv:2609.06746",
+      "paper_url": "https://arxiv.org/abs/2609.06746",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "CVRR removes visual states and the original multimodal KV cache before decoding so the final recurrent state alone carries image-conditioned information; useful multimodal/KV-interface lineage, but no explicit latency or memory benchmark is reported.",
+      "published_at": "2026-09-06T17:39:32Z",
+      "updated_at": "2026-09-10T16:07:45Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Multimodal / MLLM Serving",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -18659,6 +18977,27 @@
         "LLM Serving",
         "MoE Systems / Accelerators",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Beyond Worst-Case Coreset Bounds for $k$-Clustering via Determinantal Sampling",
+      "venue": "",
+      "topic": "LLM serving",
+      "arxiv": "2609.06394",
+      "doi": "",
+      "official_id": "arXiv:2609.06394",
+      "paper_url": "https://arxiv.org/abs/2609.06394",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Determinantal sampling constructs smaller clustering coresets under natural data assumptions, providing principled memory/compute reduction lineage even though it is not specific to modern foundation-model systems.",
+      "published_at": "2026-09-06T05:08:57Z",
+      "updated_at": "2026-09-06T05:08:57Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference"
       ]
     },
     {
@@ -19080,6 +19419,28 @@
       "is_latest_30d": true,
       "directions": [
         "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "SCoCaT: Success Conditioned Constrained Reinforcement Learning for Spacecraft Docking",
+      "venue": "",
+      "topic": "video/image generation acceleration",
+      "arxiv": "2609.06061",
+      "doi": "",
+      "official_id": "arXiv:2609.06061",
+      "paper_url": "https://arxiv.org/abs/2609.06061",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI: termination-based constrained RL avoids online optimization at inference and is validated on spacecraft and sim-to-real robotic platforms; useful low-overhead control-inference lineage though the paper is primarily safety/control.",
+      "published_at": "2026-09-05T12:43:41Z",
+      "updated_at": "2026-09-05T12:43:41Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
       ]
     },
@@ -30374,6 +30735,26 @@
       ]
     },
     {
+      "title": "Not All History Helps: Velocity-Aware Selective Memory for Long-Horizon End-to-End Autonomous Driving",
+      "venue": "",
+      "topic": "Efficient ML / AI Infra",
+      "arxiv": "2608.15573",
+      "doi": "",
+      "official_id": "arXiv:2608.15573",
+      "paper_url": "https://arxiv.org/abs/2608.15573",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI: StableDrive uses selective state-space memory to control which prior planning state influences the current autonomous-driving cycle, directly relevant to bounded temporal-memory design.",
+      "published_at": "2026-08-16T06:41:56Z",
+      "updated_at": "2026-08-16T06:41:56Z",
+      "is_latest_30d": true,
+      "directions": [
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "DeltaLog: Deferred Materialization of Recurrent States for Linear Attention Decoding",
       "venue": "",
       "topic": "linear attention serving / recurrent-state memory traffic",
@@ -30552,6 +30933,50 @@
       ]
     },
     {
+      "title": "Implementation of a Metacognition Framework for Self-Awareness and Self-Regulation in Ensembles of LLMs",
+      "venue": "",
+      "topic": "Efficient ML / AI Infra",
+      "arxiv": "2608.15400",
+      "doi": "",
+      "official_id": "arXiv:2608.15400",
+      "paper_url": "https://arxiv.org/abs/2608.15400",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Metacognitive routing dynamically switches between fast System-1 and deliberative multi-node System-2 processing according to inferred query state; useful adaptive-compute agent orchestration lineage pending hard cost numbers.",
+      "published_at": "2026-08-15T20:10:06Z",
+      "updated_at": "2026-08-15T20:10:06Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "MoE Router-Guided Clustering for Heterogeneous Federated Instruction Tuning",
+      "venue": "",
+      "topic": "MoE systems/accelerators / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2608.15311",
+      "doi": "",
+      "official_id": "arXiv:2608.15311",
+      "paper_url": "https://arxiv.org/abs/2608.15311",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "ClientMorpher exploits sparse MoE routing signatures for heterogeneous federated instruction tuning; relevant distributed/MoE compute-communication lineage, although systems speedups are not quantified.",
+      "published_at": "2026-08-15T16:35:12Z",
+      "updated_at": "2026-08-15T16:35:12Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Sparsity / Pruning",
+        "MoE Systems / Accelerators",
+        "Distributed Training / Inference",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "PhaseLoRA: Control-Regime-Conditioned Low-Rank Adaptation for Continuous-Action Vision-Language-Action Policies",
       "venue": "",
       "topic": "multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving",
@@ -30700,6 +31125,27 @@
       "directions": [
         "LLM Serving",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Evo-Harness: Context-to-Harness Skill Compilation for Self-Evolving Agents",
+      "venue": "",
+      "topic": "Efficient ML / AI Infra",
+      "arxiv": "2608.15071",
+      "doi": "",
+      "official_id": "arXiv:2608.15071",
+      "paper_url": "https://arxiv.org/abs/2608.15071",
+      "code_url": "https://github.com/A-EVO-Lab/a-evolve/tree/release/evo-harness",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Evo-Harness studies continual structured harness learning for frozen agents and isolates reusable self-improvement mechanisms; relevant agent-runtime/context lineage without explicit serving-cost measurements.",
+      "published_at": "2026-08-15T06:43:56Z",
+      "updated_at": "2026-08-30T19:47:36Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -31081,6 +31527,28 @@
         "Quantization",
         "Video / Image Generation",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Owner3D: Ownership-Guided Style Writing for Training-Free Localized 3D Stylization",
+      "venue": "",
+      "topic": "LLM serving / video/image generation acceleration",
+      "arxiv": "2608.14078",
+      "doi": "",
+      "official_id": "arXiv:2608.14078",
+      "paper_url": "https://arxiv.org/abs/2608.14078",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Owner3D performs localized 3D stylization without additional training by ownership-guided style writing inside an LRM; useful training-free 3D generation lineage though end-to-end speed is not quantified.",
+      "published_at": "2026-08-14T08:41:13Z",
+      "updated_at": "2026-08-14T08:41:13Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Video / Image Generation"
       ]
     },
     {
@@ -37367,6 +37835,29 @@
       ]
     },
     {
+      "title": "Through the Looking Glass: Directly Reading and Writing Transformers",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2609.10210",
+      "doi": "",
+      "official_id": "arXiv:2609.10210",
+      "paper_url": "https://arxiv.org/abs/2609.10210",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Direct transformer read/write analysis finds sparse sufficient component sets and demonstrates an installed association at roughly one-fortieth the held-out-loss cost of a rank-one update; strong sparse model-editing/interpretability efficiency evidence.",
+      "published_at": "2026-09-09T14:12:02Z",
+      "updated_at": "2026-09-09T14:12:02Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Video / Image Generation",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Kernel-Managed Shared Memory for System-Wide Personalization",
       "venue": "arXiv 2026",
       "topic": "efficient reasoning/agent systems / memory / agent runtime / context management",
@@ -37406,6 +37897,26 @@
       "directions": [
         "Quantization",
         "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "Reference-Based Bias Detection in LLMs via Relative Representations of Hidden States",
+      "venue": "Fresh / preprint",
+      "topic": "video/image generation acceleration",
+      "arxiv": "2609.10060",
+      "doi": "",
+      "official_id": "arXiv:2609.10060",
+      "paper_url": "https://arxiv.org/abs/2609.10060",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Reference-based hidden-state bias auditing avoids expensive output benchmarks/judge generation and audits a model in about three minutes using 3-50x less compute, a direct model-evaluation efficiency contribution.",
+      "published_at": "2026-09-09T11:33:35Z",
+      "updated_at": "2026-09-09T11:33:35Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Video / Image Generation"
       ]
     },
     {
@@ -38800,6 +39311,26 @@
       ]
     },
     {
+      "title": "Skynet: Workflow-Level Anomaly Detection for Agentic AI via Semantic and Structural Modeling",
+      "venue": "Fresh / preprint",
+      "topic": "efficient reasoning/agent systems",
+      "arxiv": "2609.06835",
+      "doi": "",
+      "official_id": "arXiv:2609.06835",
+      "paper_url": "https://arxiv.org/abs/2609.06835",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Skynet performs workflow-level anomaly detection for agentic AI runtimes while reporting per-workflow and per-step latency low enough for online monitoring; useful agent-runtime systems contribution.",
+      "published_at": "2026-09-06T21:16:42Z",
+      "updated_at": "2026-09-06T21:16:42Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "OCTN: Neural OCT Representations for Robot-Guided Precision Intervention",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / edge/GPU runtime / robot-guided intervention",
@@ -39077,6 +39608,28 @@
       "tracking_tier": "P0 · Strong",
       "directions": [
         "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "Water-network decisions share one hydraulic gradient, and it can now be computed exactly",
+      "venue": "Fresh / preprint",
+      "topic": "video/image generation acceleration",
+      "arxiv": "2609.06323",
+      "doi": "",
+      "official_id": "arXiv:2609.06323",
+      "paper_url": "https://arxiv.org/abs/2609.06323",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Differentiable hydraulic simulation reuses the forward sparse factorization so one GPU adjoint solve returns all parameter gradients; on L-TOWN one adjoint replaces 906 finite-difference simulations and a training loop is reported 191x faster than the prior pipeline.",
+      "published_at": "2026-09-06T00:51:49Z",
+      "updated_at": "2026-09-06T00:51:49Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Sparsity / Pruning",
+        "GPU Kernel / DSL / Compiler",
+        "Video / Image Generation"
       ]
     },
     {
@@ -49004,6 +49557,26 @@
       ]
     },
     {
+      "title": "ENAF: A Multi-Exit Network with an Adaptive Patch Fusion for Large Image Super Resolution",
+      "venue": "Fresh / preprint",
+      "topic": "Efficient ML / AI Infra",
+      "arxiv": "2608.15349",
+      "doi": "",
+      "official_id": "arXiv:2608.15349",
+      "paper_url": "https://arxiv.org/abs/2608.15349",
+      "code_url": "https://github.com/nmduonggg/ENAF",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "ENAF accelerates 2K-8K super-resolution with multiple early exits and patch-level compute assignment, directly routing easy patches to cheaper exits while preserving quality.",
+      "published_at": "2026-08-15T18:06:28Z",
+      "updated_at": "2026-08-15T18:06:28Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
       "title": "Remember Smarter: Visual History Compressor and Hyperbolic Experience Space for Robotic Memory",
       "venue": "Fresh / preprint",
       "topic": "multimodal/MLLM serving / VLA/WAM/Physical AI serving",
@@ -49023,6 +49596,26 @@
         "LLM Serving",
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "UAV Video Deblurring via Motion-Aware Diffusion: A Path to Robust Target Detection",
+      "venue": "Fresh / preprint",
+      "topic": "Efficient ML / AI Infra",
+      "arxiv": "2608.15259",
+      "doi": "",
+      "official_id": "arXiv:2608.15259",
+      "paper_url": "https://arxiv.org/abs/2608.15259",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "UAV video deblurring uses an adaptive latent-scale selector driven by motion intensity to trade detail against inference cost, explicitly targeting computationally efficient aerial vision inference.",
+      "published_at": "2026-08-15T14:31:16Z",
+      "updated_at": "2026-08-15T14:31:16Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Diffusion / Flow Acceleration"
       ]
     },
     {
@@ -49627,6 +50220,28 @@
       "tracking_tier": "P0 · Strong",
       "directions": [
         "Quantization"
+      ]
+    },
+    {
+      "title": "AI Research Preference Models",
+      "venue": "Fresh / preprint",
+      "topic": "video/image generation acceleration / efficient reasoning/agent systems",
+      "arxiv": "2608.13940",
+      "doi": "",
+      "official_id": "arXiv:2608.13940",
+      "paper_url": "https://arxiv.org/abs/2608.13940",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "AI Research Preference Models allocate a fixed execution budget across many expensive agent-generated ML candidates and predict which experiments are worth running before paying days of GPU evaluation cost; direct agentic research-compute allocation.",
+      "published_at": "2026-08-14T04:20:37Z",
+      "updated_at": "2026-08-25T21:13:29Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -50552,6 +51167,26 @@
       "directions": [
         "LLM Serving",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Demystifying the Privacy-Utility Trade-off in LLM Interactions",
+      "venue": "",
+      "topic": "LLM serving",
+      "arxiv": "2609.10992",
+      "doi": "",
+      "official_id": "arXiv:2609.10992",
+      "paper_url": "https://arxiv.org/abs/2609.10992",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "A distilled 4B model drives a dynamic local extraction-sanitization-restoration pipeline for LLM interactions; useful compact local-serving lineage, though privacy rather than efficiency is the primary goal.",
+      "published_at": "2026-09-10T02:12:51Z",
+      "updated_at": "2026-09-10T02:12:51Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving"
       ]
     },
     {
@@ -52904,6 +53539,27 @@
       ]
     },
     {
+      "title": "Seeing is Not Believing: Breaking the Physical-to-Digital Trust Boundary in Robotics",
+      "venue": "",
+      "topic": "LLM serving",
+      "arxiv": "2609.08280",
+      "doi": "",
+      "official_id": "arXiv:2609.08280",
+      "paper_url": "https://arxiv.org/abs/2609.08280",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI: ROS 2 telemetry/control interception is demonstrated on a physical Franka arm with ~3 ms jitter; relevant embodied-runtime infrastructure/security evidence, not an acceleration contribution.",
+      "published_at": "2026-09-08T05:50:58Z",
+      "updated_at": "2026-09-08T05:50:58Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "What Eviction Destroys: A Restore-Counterfactual Audit of Forgetting in Agent Memory",
       "venue": "arXiv 2026",
       "topic": "efficient reasoning/agent systems / memory eviction / evaluation",
@@ -52921,6 +53577,27 @@
       "is_latest_30d": true,
       "directions": [
         "Distributed Training / Inference",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Revoked but Still Authoritative: An Empirical Study of Revocation Enforcement in Agent-Memory Systems",
+      "venue": "",
+      "topic": "video/image generation acceleration",
+      "arxiv": "2609.08258",
+      "doi": "",
+      "official_id": "arXiv:2609.08258",
+      "paper_url": "https://arxiv.org/abs/2609.08258",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Agent-memory revocation study identifies a retrieval-time failure across persistent-memory systems and adds a backend-agnostic guard; useful agent memory/runtime systems lineage, but compute efficiency is secondary.",
+      "published_at": "2026-09-08T05:03:09Z",
+      "updated_at": "2026-09-08T05:03:09Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Video / Image Generation",
         "Efficient Reasoning / Agents"
       ]
     },
@@ -53819,6 +54496,27 @@
       ]
     },
     {
+      "title": "Same Problem, Different Field: Cross-Domain Solution Import via Domain-Stripped Computational Fingerprints",
+      "venue": "",
+      "topic": "video/image generation acceleration",
+      "arxiv": "2609.07595",
+      "doi": "",
+      "official_id": "arXiv:2609.07595",
+      "paper_url": "https://arxiv.org/abs/2609.07595",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Computational fingerprints require one cached LLM distillation call per paper followed by a cheap embedder for cross-domain solution retrieval; useful efficient research-agent/retrieval pipeline lineage.",
+      "published_at": "2026-09-07T15:06:22Z",
+      "updated_at": "2026-09-07T15:06:22Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "ICI-VLA: In-Context Imitation with Spatiotemporally Aligned Demonstrations for Vision-Language-Action Models",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / test-time adaptation / retrieval-conditioned control",
@@ -53985,6 +54683,27 @@
       "is_latest_30d": true,
       "directions": [
         "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Compute-Bounded Security Assurance - Coverage, Verification, and Response under Resource Constraints",
+      "venue": "",
+      "topic": "video/image generation acceleration",
+      "arxiv": "2609.09229",
+      "doi": "",
+      "official_id": "arXiv:2609.09229",
+      "paper_url": "https://arxiv.org/abs/2609.09229",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Compute-bounded security assurance formalizes coverage and verification under finite inference budgets and separates repeated attempts from unique coverage; useful compute-budget theory for reasoning/evaluation despite no hardware benchmark.",
+      "published_at": "2026-09-07T13:07:55Z",
+      "updated_at": "2026-09-07T13:07:55Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Video / Image Generation",
         "Efficient Reasoning / Agents"
       ]
     },
@@ -54545,6 +55264,28 @@
       ]
     },
     {
+      "title": "TrojanWorld: Backdooring World-Model Agents via Imagination Steering",
+      "venue": "",
+      "topic": "video/image generation acceleration",
+      "arxiv": "2609.07051",
+      "doi": "",
+      "official_id": "arXiv:2609.07051",
+      "paper_url": "https://arxiv.org/abs/2609.07051",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI/WAM: TrojanWorld studies supply-chain attacks on deployed world-model agents across TD-MPC2, DreamerV3 and R2-Dreamer; important WAM deployment/runtime lineage, though not an efficiency mechanism.",
+      "published_at": "2026-09-07T05:14:10Z",
+      "updated_at": "2026-09-07T05:14:10Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Large Discrete Policy: Advancing Explicit Behavior Modeling with Stochastic Iterative Scoring",
       "venue": "",
       "topic": "LLM serving / multimodal/MLLM serving / VLA/WAM/Physical AI serving",
@@ -54629,6 +55370,27 @@
       "directions": [
         "LLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Continual Learning Mechanisms Compose for Long-Horizon Memorization",
+      "venue": "",
+      "topic": "video/image generation acceleration",
+      "arxiv": "2609.06986",
+      "doi": "",
+      "official_id": "arXiv:2609.06986",
+      "paper_url": "https://arxiv.org/abs/2609.06986",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Long-horizon memorization combines data/function/weight anchors with merged LoRA, making continual adaptation parameter-efficient; relevant PEFT/memory lineage despite emphasis on retention rather than systems throughput.",
+      "published_at": "2026-09-07T03:21:23Z",
+      "updated_at": "2026-09-07T03:21:23Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation"
       ]
     },
     {
@@ -54868,6 +55630,30 @@
       "is_latest_30d": true,
       "directions": [
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Reason Through the Latent! Making Latent Visual Reasoning Necessary",
+      "venue": "",
+      "topic": "KV cache/long-context / multimodal/MLLM serving / video/image generation acceleration",
+      "arxiv": "2609.06746",
+      "doi": "",
+      "official_id": "arXiv:2609.06746",
+      "paper_url": "https://arxiv.org/abs/2609.06746",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "CVRR removes visual states and the original multimodal KV cache before decoding so the final recurrent state alone carries image-conditioned information; useful multimodal/KV-interface lineage, but no explicit latency or memory benchmark is reported.",
+      "published_at": "2026-09-06T17:39:32Z",
+      "updated_at": "2026-09-10T16:07:45Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Multimodal / MLLM Serving",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -55232,6 +56018,27 @@
         "LLM Serving",
         "MoE Systems / Accelerators",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Beyond Worst-Case Coreset Bounds for $k$-Clustering via Determinantal Sampling",
+      "venue": "",
+      "topic": "LLM serving",
+      "arxiv": "2609.06394",
+      "doi": "",
+      "official_id": "arXiv:2609.06394",
+      "paper_url": "https://arxiv.org/abs/2609.06394",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Determinantal sampling constructs smaller clustering coresets under natural data assumptions, providing principled memory/compute reduction lineage even though it is not specific to modern foundation-model systems.",
+      "published_at": "2026-09-06T05:08:57Z",
+      "updated_at": "2026-09-06T05:08:57Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference"
       ]
     },
     {
@@ -55653,6 +56460,28 @@
       "is_latest_30d": true,
       "directions": [
         "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "SCoCaT: Success Conditioned Constrained Reinforcement Learning for Spacecraft Docking",
+      "venue": "",
+      "topic": "video/image generation acceleration",
+      "arxiv": "2609.06061",
+      "doi": "",
+      "official_id": "arXiv:2609.06061",
+      "paper_url": "https://arxiv.org/abs/2609.06061",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI: termination-based constrained RL avoids online optimization at inference and is validated on spacecraft and sim-to-real robotic platforms; useful low-overhead control-inference lineage though the paper is primarily safety/control.",
+      "published_at": "2026-09-05T12:43:41Z",
+      "updated_at": "2026-09-05T12:43:41Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
       ]
     },
@@ -66947,6 +67776,26 @@
       ]
     },
     {
+      "title": "Not All History Helps: Velocity-Aware Selective Memory for Long-Horizon End-to-End Autonomous Driving",
+      "venue": "",
+      "topic": "Efficient ML / AI Infra",
+      "arxiv": "2608.15573",
+      "doi": "",
+      "official_id": "arXiv:2608.15573",
+      "paper_url": "https://arxiv.org/abs/2608.15573",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI: StableDrive uses selective state-space memory to control which prior planning state influences the current autonomous-driving cycle, directly relevant to bounded temporal-memory design.",
+      "published_at": "2026-08-16T06:41:56Z",
+      "updated_at": "2026-08-16T06:41:56Z",
+      "is_latest_30d": true,
+      "directions": [
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "DeltaLog: Deferred Materialization of Recurrent States for Linear Attention Decoding",
       "venue": "",
       "topic": "linear attention serving / recurrent-state memory traffic",
@@ -67125,6 +67974,50 @@
       ]
     },
     {
+      "title": "Implementation of a Metacognition Framework for Self-Awareness and Self-Regulation in Ensembles of LLMs",
+      "venue": "",
+      "topic": "Efficient ML / AI Infra",
+      "arxiv": "2608.15400",
+      "doi": "",
+      "official_id": "arXiv:2608.15400",
+      "paper_url": "https://arxiv.org/abs/2608.15400",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Metacognitive routing dynamically switches between fast System-1 and deliberative multi-node System-2 processing according to inferred query state; useful adaptive-compute agent orchestration lineage pending hard cost numbers.",
+      "published_at": "2026-08-15T20:10:06Z",
+      "updated_at": "2026-08-15T20:10:06Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "MoE Router-Guided Clustering for Heterogeneous Federated Instruction Tuning",
+      "venue": "",
+      "topic": "MoE systems/accelerators / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2608.15311",
+      "doi": "",
+      "official_id": "arXiv:2608.15311",
+      "paper_url": "https://arxiv.org/abs/2608.15311",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "ClientMorpher exploits sparse MoE routing signatures for heterogeneous federated instruction tuning; relevant distributed/MoE compute-communication lineage, although systems speedups are not quantified.",
+      "published_at": "2026-08-15T16:35:12Z",
+      "updated_at": "2026-08-15T16:35:12Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Sparsity / Pruning",
+        "MoE Systems / Accelerators",
+        "Distributed Training / Inference",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "PhaseLoRA: Control-Regime-Conditioned Low-Rank Adaptation for Continuous-Action Vision-Language-Action Policies",
       "venue": "",
       "topic": "multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving",
@@ -67273,6 +68166,27 @@
       "directions": [
         "LLM Serving",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Evo-Harness: Context-to-Harness Skill Compilation for Self-Evolving Agents",
+      "venue": "",
+      "topic": "Efficient ML / AI Infra",
+      "arxiv": "2608.15071",
+      "doi": "",
+      "official_id": "arXiv:2608.15071",
+      "paper_url": "https://arxiv.org/abs/2608.15071",
+      "code_url": "https://github.com/A-EVO-Lab/a-evolve/tree/release/evo-harness",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Evo-Harness studies continual structured harness learning for frozen agents and isolates reusable self-improvement mechanisms; relevant agent-runtime/context lineage without explicit serving-cost measurements.",
+      "published_at": "2026-08-15T06:43:56Z",
+      "updated_at": "2026-08-30T19:47:36Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -67654,6 +68568,28 @@
         "Quantization",
         "Video / Image Generation",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Owner3D: Ownership-Guided Style Writing for Training-Free Localized 3D Stylization",
+      "venue": "",
+      "topic": "LLM serving / video/image generation acceleration",
+      "arxiv": "2608.14078",
+      "doi": "",
+      "official_id": "arXiv:2608.14078",
+      "paper_url": "https://arxiv.org/abs/2608.14078",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Owner3D performs localized 3D stylization without additional training by ownership-guided style writing inside an LRM; useful training-free 3D generation lineage though end-to-end speed is not quantified.",
+      "published_at": "2026-08-14T08:41:13Z",
+      "updated_at": "2026-08-14T08:41:13Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Video / Image Generation"
       ]
     },
     {

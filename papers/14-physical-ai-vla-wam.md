@@ -1,10 +1,10 @@
 # 14 · VLA / WAM / Physical AI
 
-> **188 canonical papers** mapped here, plus a broader **379-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **188 canonical papers** mapped here, plus a broader **383-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 379 tracked
+## 🆕 Latest 30 Days · 383 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -65,6 +65,7 @@
 | **P1 · Watch** | **AirAnchor: Bridging Local and Global Spatial Information for Zero-Shot Aerial Vision-and-Language Navigation** | arXiv 2026 | VLA/WAM/Physical AI serving / local-global memory / aerial VLN | [Link](https://arxiv.org/abs/2609.08442) | — |
 | **P1 · Watch** | **RoboCousin: Build Your Own Simulation Playground for Robust Bimanual Robotic Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving / synthetic data systems / bimanual manipulation | [Link](https://arxiv.org/abs/2609.08339) | — |
 | **P1 · Watch** | **EdMCGS: Event-Driven Markov Chain Gaussian Splatting for Extreme-Low-Frame-Rate Dynamic Scene Reconstruction** | arXiv 2026 | VLA/WAM/Physical AI serving / 3DGS / real-time dynamic reconstruction | [Link](https://arxiv.org/abs/2609.08332) | — |
+| **P1 · Watch** | **Seeing is Not Believing: Breaking the Physical-to-Digital Trust Boundary in Robotics** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2609.08280) | — |
 | **P0 · Strong** | **MemForest: Efficient Agent Memory Management via EventTree Partitioning and Progressive Merging** | arXiv 2026 | efficient reasoning/agent systems / memory compression / retrieval | [Link](https://arxiv.org/abs/2609.08273) | [Repo](https://github.com/Celina-love-sweet/MemForest) |
 | **P1 · Watch** | **CALIPER: Clean Scenes Cannot Rank Physical Inference in Pretrained Visual Representations** | arXiv 2026 | VLA/WAM/Physical AI serving / representation evaluation / world models | [Link](https://arxiv.org/abs/2609.08250) | — |
 | **P0 · Strong** | **ActionSplice: In-Flight Action Editing for Interactive World Models** | arXiv 2026 | VLA/WAM/Physical AI serving / interactive world models / inference runtime | [Link](https://arxiv.org/abs/2609.08230) | — |
@@ -96,6 +97,7 @@
 | **P0 · Strong** | **EquiGQNet: Fast Grasp Quality Evaluation via Shared Equivariant Point Cloud Encoding** | arXiv 2026 | VLA/WAM/Physical AI serving / grasp planning / shared scene encoding | [Link](https://arxiv.org/abs/2609.07145) | [Repo](https://equigqnet.github.io/) |
 | **P1 · Watch** | **NutriBench-Kitchen: Benchmarking Embodied AI for Nutrition Management** | arXiv 2026 | VLA/WAM/Physical AI / persistent embodied memory / long-horizon kitchen agents | [Link](https://arxiv.org/abs/2609.07135) | — |
 | **P1 · Watch** | **RoboDreamer: Anticipatory Humanoid Locomotion with Predictive State-Space Models** | arXiv 2026 | VLA/WAM/Physical AI serving / humanoid control / action chunking | [Link](https://arxiv.org/abs/2609.07096) | — |
+| **P1 · Watch** | **TrojanWorld: Backdooring World-Model Agents via Imagination Steering** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2609.07051) | — |
 | **P1 · Watch** | **Large Discrete Policy: Advancing Explicit Behavior Modeling with Stochastic Iterative Scoring** | Fresh / preprint | LLM serving / multimodal/MLLM serving / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2609.07049) | — |
 | **P1 · Watch** | **MEMOBench: A Process Level Memory Benchmark for Robotic Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving / robot memory / benchmark | [Link](https://arxiv.org/abs/2609.07047) | [Repo](https://github.com/Collab-Gen/MEMOBench) |
 | **P1 · Watch** | **GIFT: Goal-Injected Fine-Tuning for Efficient Manipulation Policy Adaptation** | arXiv 2026 | VLA/WAM/Physical AI serving / lightweight adaptation / goal-conditioned manipulation | [Link](https://arxiv.org/abs/2609.07006) | — |
@@ -122,6 +124,7 @@
 | **P1 · Watch** | **Where Success Breaks: Failure-Boundary Learning for Robust Vision-Language-Action Models** | arXiv 2026 | VLA/WAM/Physical AI / robust adaptation / failure recovery | [Link](https://arxiv.org/abs/2609.06114) | — |
 | **P1 · Watch** | **LayerRoute: Action-Conditioned Mixture-of-Layers Routing for Vision-Language-Action Policies** | arXiv 2026 | VLA/WAM/Physical AI serving / adaptive layer routing / cached VLM representations | [Link](https://arxiv.org/abs/2609.06079) | — |
 | **P1 · Watch** | **NSFlow: End-to-End Differentiable Neuro-Symbolic Optical Flow for Visual Odometry** | arXiv 2026 | VLA/WAM/Physical AI serving / embedded visual odometry / realtime perception / efficient robotics | [Link](https://arxiv.org/abs/2609.06074) | — |
+| **P1 · Watch** | **SCoCaT: Success Conditioned Constrained Reinforcement Learning for Spacecraft Docking** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2609.06061) | — |
 | **P1 · Watch** | **FALCON-S: Fixed-wing ground-effect Aerodynamics Simulator and Flight Control Learning Suite** | arXiv 2026 | VLA/WAM/Physical AI serving / GPU simulation / robot learning | [Link](https://arxiv.org/abs/2609.06046) | — |
 | **P1 · Watch** | **Generator-Independent Runtime Assurance under Partial Observation** | arXiv 2026 | VLA/WAM/Physical AI serving / runtime assurance | [Link](https://arxiv.org/abs/2609.06036) | — |
 | **P1 · Watch** | **GLoRI: Closed-Loop Whole-Body Tracking with Global-Local Reference Interaction for Humanoid Loco-Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving / humanoid control / closed-loop runtime | [Link](https://arxiv.org/abs/2609.05994) | — |
@@ -318,6 +321,7 @@
 | **P1 · Watch** | **MITE-Net: SWaP-Optimized 4K Video Tiny Target Perception for Embodied Edge SAR** | Fresh / preprint | LLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.15830) | — |
 | **P2 · Relevant** | **ViTaR: Visuo-Tactile Residual Adaptation for Foundation VLA Manipulation** | Fresh / preprint | llm_serving / multimodal / gen / physical / edge | [Link](https://arxiv.org/abs/2608.15816) | — |
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
+| **P1 · Watch** | **Not All History Helps: Velocity-Aware Selective Memory for Long-Horizon End-to-End Autonomous Driving** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.15573) | — |
 | **P0 · Strong** | **EcoVLA: Energy-Efficient Device-Edge Co-Inference for Vision-Language-Action Models under Real-Time Constraints** | Fresh / preprint | VLA device-edge co-inference / energy-aware runtime | [Link](https://arxiv.org/abs/2608.15502) | — |
 | **P1 · Watch** | **MM-BEV: Enhancing Timeliness by Computing Where and When it Matters** | Fresh / preprint | Physical AI / edge runtime / sparse multimodal perception | [Link](https://arxiv.org/abs/2608.15437) | — |
 | **P1 · Watch** | **FloodReasonBench: Benchmarking VLM Reasoning Segmentation for Embodied Flood Response at the Edge** | Fresh / preprint | LLM serving / multimodal/MLLM serving / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.15410) | — |

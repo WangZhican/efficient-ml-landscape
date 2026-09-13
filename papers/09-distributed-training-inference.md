@@ -1,10 +1,10 @@
 # 09 · Distributed Training / Inference
 
-> **381 canonical papers** mapped here, plus a broader **184-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **381 canonical papers** mapped here, plus a broader **186-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 184 tracked
+## 🆕 Latest 30 Days · 186 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -57,6 +57,7 @@
 | **P1 · Watch** | **Assessing Fixed-Batch Reporting for Deadline-constrained Inference in Intermittently Powered IoT** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2609.06585) | — |
 | **P0 · Strong** | **Sharing a Fabric with Collective Communication: Two Storage Penalties in Deep Learning Training** | arXiv 2026 | distributed training/inference / storage / collective communication | [Link](https://arxiv.org/abs/2609.06506) | [Repo](https://github.com/flux-framework/dyad) |
 | **P1 · Watch** | **PACO: A Fully Cache-Oblivious Parallel FFT with One Global Redistribution** | arXiv 2026 | distributed training/inference / parallel FFT / communication-efficient HPC | [Link](https://arxiv.org/abs/2609.06449) | — |
+| **P1 · Watch** | **Beyond Worst-Case Coreset Bounds for $k$-Clustering via Determinantal Sampling** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2609.06394) | — |
 | **P0 · Strong** | **Diamond Agent: Agentic Control of Federated HPC Resources as a Service** | arXiv 2026 | efficient reasoning/agent systems / distributed training/inference / heterogeneous HPC orchestration | [Link](https://arxiv.org/abs/2609.06181) | — |
 | **P1 · Watch** | **Rethinking One-Shot Federated Graph Learning: Training-Free Statistical Estimation** | arXiv 2026 | distributed training/inference / training-free learning / communication efficiency | [Link](https://arxiv.org/abs/2609.06154) | — |
 | **P1 · Watch** | **Protocol Compression Changes Which Party Pays: Bilateral Cost in Cross-Organization LLM Agent Communication** | arXiv 2026 | efficient reasoning/agent systems / agent communication / protocol compression / token cost | [Link](https://arxiv.org/abs/2609.06129) | — |
@@ -165,6 +166,7 @@
 | **P1 · Watch** | **UniFed-VLM: Federated Instruction Tuning for Vision-Language Models with Multiple Heterogeneity** | Fresh / preprint | MoE systems/accelerators / multimodal/MLLM serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.15516) | [Repo](https://github.com/wangpengyu2004/UniFed-VLM) |
 | **P0 · Strong** | **EcoVLA: Energy-Efficient Device-Edge Co-Inference for Vision-Language-Action Models under Real-Time Constraints** | Fresh / preprint | VLA device-edge co-inference / energy-aware runtime | [Link](https://arxiv.org/abs/2608.15502) | — |
 | **P1 · Watch** | **FloodReasonBench: Benchmarking VLM Reasoning Segmentation for Embodied Flood Response at the Edge** | Fresh / preprint | LLM serving / multimodal/MLLM serving / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.15410) | — |
+| **P1 · Watch** | **MoE Router-Guided Clustering for Heterogeneous Federated Instruction Tuning** | Fresh / preprint | MoE systems/accelerators / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.15311) | — |
 | **P0 · Strong** | **TERRA: A Hierarchical Parallel Training and Memory Orchestration Framework for High-Resolution AI-based Earth Modeling** | Fresh / preprint | distributed training/inference / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.15211) | — |
 | **P0 · Strong** | **From LLM Inference to Agentic Workloads: Characterization and Implications for Serving Systems** | Fresh / preprint | agentic serving characterization / systems benchmark | [Link](https://arxiv.org/abs/2608.15127) | — |
 | **P1 · Watch** | **Collective Communication for Distributed LLM Systems: Planning, Runtime Adaptation, and Computation Coordination** | arXiv 2026 | distributed training/inference / collective communication / runtime adaptation | [Link](https://arxiv.org/abs/2608.15118) | — |

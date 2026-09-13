@@ -1,10 +1,10 @@
 # 03 · KV Cache / Long Context
 
-> **493 canonical papers** mapped here, plus a broader **212-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **493 canonical papers** mapped here, plus a broader **213-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 212 tracked
+## 🆕 Latest 30 Days · 213 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -43,6 +43,7 @@
 | **P0 · Strong** | **RedKnot-MLA: Multi-Head Offline-Online Reuse for DeepSeek-V4 Long-Context Serving** | arXiv 2026 | LLM serving / KV cache reuse / MLA / long context | [Link](https://arxiv.org/abs/2609.07008) | — |
 | **P1 · Watch** | **Unified AI Gateway: A Framework for Joint Model Routing and KV Cache Management** | arXiv 2026 | LLM serving / model routing / KV cache management / edge-cloud placement | [Link](https://arxiv.org/abs/2609.06940) | — |
 | **P1 · Watch** | **Characterizing Contention-Induced Reliability Collapse in KV-Cache Timing Side Channels for Multi-Tenant LLM Serving** | arXiv 2026 | KV cache/long-context / LLM serving / multi-tenant security characterization | [Link](https://arxiv.org/abs/2609.06853) | — |
+| **P1 · Watch** | **Reason Through the Latent! Making Latent Visual Reasoning Necessary** | Fresh / preprint | KV cache/long-context / multimodal/MLLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2609.06746) | — |
 | **P0 · Strong** | **PARSER: Read in Parallel, Reason in Depth for Long-Context LLM Agents** | arXiv 2026 | efficient reasoning/agent systems / long-context / parallel inference | [Link](https://arxiv.org/abs/2609.06702) | — |
 | **P1 · Watch** | **ECOKV: Geometry-Aware KV Cache Eviction via Complementary Diversity Metrics** | arXiv 2026 | KV cache/long-context / multimodal MLLM serving / cache eviction | [Link](https://arxiv.org/abs/2609.06663) | — |
 | **P1 · Watch** | **Linear Algebra Foundations of Efficient Attention: A Phase Reversal in Rank Collapse Under SVD Compression** | arXiv 2026 | efficient attention / low-rank compression / KV-cache lineage | [Link](https://arxiv.org/abs/2609.06341) | — |

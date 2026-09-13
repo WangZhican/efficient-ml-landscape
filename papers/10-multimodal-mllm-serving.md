@@ -1,10 +1,10 @@
 # 10 · Multimodal / MLLM Serving
 
-> **285 canonical papers** mapped here, plus a broader **272-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **285 canonical papers** mapped here, plus a broader **273-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 272 tracked
+## 🆕 Latest 30 Days · 273 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -61,6 +61,7 @@
 | **P1 · Watch** | **BEFORE THE FLIP: Measuring Hidden Score Shifts In Quantized Vision Language Models Before The Answer Changes for Visual Question Answering** | arXiv 2026 | quantization / multimodal VLM / evaluation methodology | [Link](https://arxiv.org/abs/2609.06922) | — |
 | **P1 · Watch** | **Contextual Observer Grounding: Evaluating Situated Spatial Reasoning in Vision-Language Models** | Fresh / preprint | multimodal/MLLM serving / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2609.06880) | — |
 | **P1 · Watch** | **BinauralVAE: Spatial Audio Reconstruction For World Models** | arXiv 2026 | VLA/WAM/Physical AI serving / multimodal world models | [Link](https://arxiv.org/abs/2609.06837) | [Repo](https://github.com/Luizerko/BinauralVAE) |
+| **P1 · Watch** | **Reason Through the Latent! Making Latent Visual Reasoning Necessary** | Fresh / preprint | KV cache/long-context / multimodal/MLLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2609.06746) | — |
 | **P1 · Watch** | **Companion-style QA Assistance in Ego-Vision** | arXiv 2026 | VLA/WAM/Physical AI serving / streaming video memory / egocentric agents | [Link](https://arxiv.org/abs/2609.06721) | — |
 | **P1 · Watch** | **ECOKV: Geometry-Aware KV Cache Eviction via Complementary Diversity Metrics** | arXiv 2026 | KV cache/long-context / multimodal MLLM serving / cache eviction | [Link](https://arxiv.org/abs/2609.06663) | — |
 | **P0 · Strong** | **Layer-Wise Gate-Controlled Prompt Truncation in a Multimodal Chest X-Ray Classifier** | Fresh / preprint | quantization / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.06590) | [Repo](https://github.com/jingtaolei/mope-dynamic-prompt-truncation) |

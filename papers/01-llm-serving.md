@@ -1,10 +1,10 @@
 # 01 · LLM Serving
 
-> **1051 canonical papers** mapped here, plus a broader **1040-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **1052 canonical papers** mapped here, plus a broader **1048-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 1040 tracked
+## 🆕 Latest 30 Days · 1048 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -43,6 +43,7 @@
 | **P1 · Watch** | **Less can be More: What Aspects of Speech Drive End-of-Turn Detection** | arXiv 2026 | efficient reasoning/agent systems / streaming voice agents / turn-taking runtime | [Link](https://arxiv.org/abs/2609.11066) | — |
 | **P0 · Strong** | **EMMI: Edge Multi-Modal Intelligence for Communication-Efficient MLLM Inference via Fused Representation Compression** | arXiv 2026 | multimodal/MLLM serving / edge-cloud split inference | [Link](https://arxiv.org/abs/2609.11058) | — |
 | **P0 · Strong** | **BEACON: A Versatile Accelerator for Computational Pathology Applications** | arXiv 2026 | edge/cloud/heterogeneous AI systems / accelerator architecture / AI+X | [Link](https://arxiv.org/abs/2609.11044) | — |
+| **P1 · Watch** | **Demystifying the Privacy-Utility Trade-off in LLM Interactions** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2609.10992) | — |
 | **P0 · Strong** | **Fengshui: Demystifying Chiplet Ecosystem and Bespoke Neural Network Accelerator Codesign** | arXiv 2026 | edge/cloud/heterogeneous AI systems / chiplet accelerator codesign | [Link](https://arxiv.org/abs/2609.10970) | — |
 | **P0 · Strong** | **Decoupling Readiness from Release for Tail-Aware Scheduling of Agentic LLM Workflows** | arXiv 2026 | efficient reasoning/agent systems / workflow serving scheduler | [Link](https://arxiv.org/abs/2609.10964) | — |
 | **P0 · Strong** | **IMLE-VLA: Fast Single-Step Action Generation for Vision-Language-Action Policies** | arXiv 2026 | VLA/WAM/Physical AI serving / action head / single-step generation | [Link](https://arxiv.org/abs/2609.10915) | — |
@@ -68,6 +69,7 @@
 | **P0 · Strong** | **Maverick: Private and Verifiable LLM Inference Made Practical via Matrix-Vector Multiplication Delegation** | arXiv 2026 | LLM serving / private inference / verifiable delegation / heterogeneous offload | [Link](https://arxiv.org/abs/2609.10264) | — |
 | **P1 · Watch** | **What Should an Agent Forget? Separating What Is Stored from What Is Used** | arXiv 2026 | efficient reasoning/agent systems / long-term memory / context compression | [Link](https://arxiv.org/abs/2609.10263) | — |
 | **P0 · Strong** | **LiteRAG: Cost-Efficient Graph-Based Retrieval-Augmented Generation** | arXiv 2026 | LLM serving / RAG / retrieval efficiency / context reduction | [Link](https://arxiv.org/abs/2609.10239) | — |
+| **P0 · Strong** | **Through the Looking Glass: Directly Reading and Writing Transformers** | Fresh / preprint | LLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.10210) | — |
 | **P1 · Watch** | **Beyond Surface Imitation: Contrastive Modeling for Reasoning Path Alignment in Multimodal In-Context Learning** | arXiv 2026 | multimodal/MLLM serving / adaptive reasoning / early exit | [Link](https://arxiv.org/abs/2609.10177) | — |
 | **P1 · Watch** | **Storage-Scalable Progressive Semantic Communication via Knowledge-Base Reuse** | arXiv 2026 | edge/cloud/heterogeneous AI systems / semantic communication / storage efficiency | [Link](https://arxiv.org/abs/2609.10112) | — |
 | **P1 · Watch** | **AXON: A ROS 2 RMW with Shared-Memory/QUIC Transport and QKD/ML-KEM Key Establishment** | arXiv 2026 | VLA/WAM/Physical AI serving / robotics middleware / edge-cloud transport | [Link](https://arxiv.org/abs/2609.10024) | — |
@@ -137,6 +139,7 @@
 | **P0 · Strong** | **HoneyRoute: Honeypot-Model Routing for Adversarial LLM Serving** | arXiv 2026 | LLM serving / routing / security-aware inference | [Link](https://arxiv.org/abs/2609.08306) | — |
 | **P1 · Watch** | **Distribution-Consistent Inference for Dynamic Sparse Mixture-of-Experts** | arXiv 2026 | MoE systems/accelerators / dynamic routing / sparse inference | [Link](https://arxiv.org/abs/2609.09241) | — |
 | **P1 · Watch** | **SAM3-O2D2: Zero-Shot Object Out-of-Distribution Detection by Object Class Prompting of the SAM3-Image Model** | arXiv 2026 | multimodal/MLLM serving / efficient vision inference / OOD detection | [Link](https://arxiv.org/abs/2609.08281) | — |
+| **P1 · Watch** | **Seeing is Not Believing: Breaking the Physical-to-Digital Trust Boundary in Robotics** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2609.08280) | — |
 | **P1 · Watch** | **CALIPER: Clean Scenes Cannot Rank Physical Inference in Pretrained Visual Representations** | arXiv 2026 | VLA/WAM/Physical AI serving / representation evaluation / world models | [Link](https://arxiv.org/abs/2609.08250) | — |
 | **P1 · Watch** | **Agentic ML Exploration (A-MLE) for Ads Ranking** | arXiv 2026 | efficient reasoning/agent systems / ML infrastructure / autonomous experimentation / industrial ranking | [Link](https://arxiv.org/abs/2609.08248) | — |
 | **P0 · Strong** | **SemBridge: Compiling Consumer Observations into Cross-Stack Communication Plans** | arXiv 2026 | distributed training/inference / compiler / heterogeneous communication | [Link](https://arxiv.org/abs/2609.08231) | — |
@@ -202,6 +205,7 @@
 | **P0 · Strong** | **RedKnot-MLA: Multi-Head Offline-Online Reuse for DeepSeek-V4 Long-Context Serving** | arXiv 2026 | LLM serving / KV cache reuse / MLA / long context | [Link](https://arxiv.org/abs/2609.07008) | — |
 | **P1 · Watch** | **GIFT: Goal-Injected Fine-Tuning for Efficient Manipulation Policy Adaptation** | arXiv 2026 | VLA/WAM/Physical AI serving / lightweight adaptation / goal-conditioned manipulation | [Link](https://arxiv.org/abs/2609.07006) | — |
 | **P1 · Watch** | **WM-Craftnet: World Synesthesia Model for Generalizable and Robust Dexterous In-Hand Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving / recurrent world state / dexterous manipulation | [Link](https://arxiv.org/abs/2609.07002) | — |
+| **P1 · Watch** | **Continual Learning Mechanisms Compose for Long-Horizon Memorization** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2609.06986) | — |
 | **P1 · Watch** | **PRG-Fusion: Orchestrating Generative Priors with Reconstruction Evidence for Driving View Synthesis** | arXiv 2026 | VLA/WAM/Physical AI serving / simulation / region-adaptive generation | [Link](https://arxiv.org/abs/2609.06948) | — |
 | **P1 · Watch** | **Unified AI Gateway: A Framework for Joint Model Routing and KV Cache Management** | arXiv 2026 | LLM serving / model routing / KV cache management / edge-cloud placement | [Link](https://arxiv.org/abs/2609.06940) | — |
 | **P1 · Watch** | **Distributed Dexterous Manipulation with Spatially Conditioned Multi-Agent Transformers** | arXiv 2026 | VLA/WAM/Physical AI serving / multi-agent transformer / dexterous manipulation | [Link](https://arxiv.org/abs/2609.06930) | — |
@@ -211,6 +215,7 @@
 | **P1 · Watch** | **BinauralVAE: Spatial Audio Reconstruction For World Models** | arXiv 2026 | VLA/WAM/Physical AI serving / multimodal world models | [Link](https://arxiv.org/abs/2609.06837) | [Repo](https://github.com/Luizerko/BinauralVAE) |
 | **P1 · Watch** | **Diagnosing and Dynamically Filtering Occupancy World Models for Active Mapping** | arXiv 2026 | VLA/WAM/Physical AI serving / world-model runtime / active mapping / occupancy filtering | [Link](https://arxiv.org/abs/2609.06820) | — |
 | **P0 · Strong** | **OCTN: Neural OCT Representations for Robot-Guided Precision Intervention** | arXiv 2026 | VLA/WAM/Physical AI serving / edge/GPU runtime / robot-guided intervention | [Link](https://arxiv.org/abs/2609.06810) | [Repo](https://raprakashvi.github.io/octn) |
+| **P1 · Watch** | **Reason Through the Latent! Making Latent Visual Reasoning Necessary** | Fresh / preprint | KV cache/long-context / multimodal/MLLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2609.06746) | — |
 | **P1 · Watch** | **Companion-style QA Assistance in Ego-Vision** | arXiv 2026 | VLA/WAM/Physical AI serving / streaming video memory / egocentric agents | [Link](https://arxiv.org/abs/2609.06721) | — |
 | **P0 · Strong** | **A HIP-Compatible Accelerator Backend for Fourier-Bessel Particle-in-Cell Simulations on CPU/DCU Heterogeneous Clusters** | arXiv 2026 | GPU kernel/DSL/compilers / heterogeneous accelerators / HIP portability / distributed runtime | [Link](https://arxiv.org/abs/2609.06680) | — |
 | **P1 · Watch** | **ECOKV: Geometry-Aware KV Cache Eviction via Complementary Diversity Metrics** | arXiv 2026 | KV cache/long-context / multimodal MLLM serving / cache eviction | [Link](https://arxiv.org/abs/2609.06663) | — |
@@ -225,6 +230,7 @@
 | **P1 · Watch** | **One MLLM, One Call: Efficient Zero-Shot Vision-and-Language Navigation via Spatial-Aware Waypoints** | arXiv 2026 | VLA/WAM/Physical AI serving / VLN / sparse MLLM invocation / robot navigation | [Link](https://arxiv.org/abs/2609.06476) | — |
 | **P1 · Watch** | **OVMAN: A Task and Benchmark for Open-Vocabulary Motion-Aware Navigation** | arXiv 2026 | VLA/WAM/Physical AI serving / persistent scene memory / navigation | [Link](https://arxiv.org/abs/2609.06424) | — |
 | **P1 · Watch** | **From Concentration to Differentiation and Back: Routing Effective Rank in MoE Reasoning Cohorts** | arXiv 2026 | MoE systems/accelerators / efficient reasoning / routing characterization | [Link](https://arxiv.org/abs/2609.06403) | — |
+| **P1 · Watch** | **Beyond Worst-Case Coreset Bounds for $k$-Clustering via Determinantal Sampling** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2609.06394) | — |
 | **P1 · Watch** | **Linear Algebra Foundations of Efficient Attention: A Phase Reversal in Rank Collapse Under SVD Compression** | arXiv 2026 | efficient attention / low-rank compression / KV-cache lineage | [Link](https://arxiv.org/abs/2609.06341) | — |
 | **P1 · Watch** | **One Shared LoRA Weight for MRI Reconstruction across Acceleration Factors** | arXiv 2026 | efficient training/inference / parameter-efficient adaptation / shared LoRA | [Link](https://arxiv.org/abs/2609.06338) | — |
 | **P1 · Watch** | **Geometric Distributional Control: Learning Progress with Partial Structural Knowledge** | arXiv 2026 | VLA/WAM/Physical AI serving / real-time control / partial-model planning | [Link](https://arxiv.org/abs/2609.06331) | — |
@@ -837,6 +843,7 @@
 | **P0 · Strong** | **StateM: Reaching 95.3% Raw Accuracy, or a \$15 Frontier Run, on Terminal-Bench 2.1 via Harness Scaling** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.15089) | — |
 | **P0 · Strong** | **A Pilot Study of Autocompleting Tokenizers** | Fresh / preprint | LLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.15080) | — |
 | **P0 · Strong** | **SA-GEM: Scale-Adaptive and Geospatial Evidence-Modulated Token Pruning for Efficient Remote Sensing Large Vision-Language Models** | Fresh / preprint | sparsity/pruning / multimodal/MLLM serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.15075) | — |
+| **P1 · Watch** | **Evo-Harness: Context-to-Harness Skill Compilation for Self-Evolving Agents** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.15071) | [Repo](https://github.com/A-EVO-Lab/a-evolve/tree/release/evo-harness) |
 | **P0 · Strong** | **Gated Recurrent Transformers: Expressive Depth through Recurrent Modulation** | Fresh / preprint | LLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.15062) | — |
 | **P0 · Strong** | **Do Visual Grounding Decoders Need Feed-Forward Networks? A Controlled Study over Frozen Vision-Language Features** | Fresh / preprint | LLM serving / multimodal/MLLM serving | [Link](https://arxiv.org/abs/2608.15061) | — |
 | **P0 · Strong** | **MEDR: Query-Independent Frame Selection via Multi-Signal Event Modeling and Dynamic Rescoring** | Fresh / preprint | LLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.15058) | — |
@@ -855,6 +862,7 @@
 | **P0 · Strong** | **Beyond Capacity: Scalable MoE LLM Inference via High-Bandwidth Flash with Direct GPU and HBM Paths** | Fresh / preprint | MoE serving / high-bandwidth flash architecture | [Link](https://arxiv.org/abs/2608.14333) | — |
 | **P0 · Strong** | **FreeBalance: Pre-Routing Online Moe Load Balancing via Residual Workload Prediction** | Fresh / preprint | LLM serving / MoE systems/accelerators / distributed training/inference | [Link](https://arxiv.org/abs/2608.14205) | — |
 | **P1 · Watch** | **QuaSAR: Quantization Compensation via Stable Activation-Aware Rank Truncation** | Fresh / preprint | quantization / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.14149) | — |
+| **P1 · Watch** | **Owner3D: Ownership-Guided Style Writing for Training-Free Localized 3D Stylization** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.14078) | — |
 | **P0 · Strong** | **When Denoising Hurts: Rethinking the Terminal Step of Diffusion Time Series Forecasters -- Extended Version** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.14067) | — |
 | **P1 · Watch** | **AdvDex: Learning Dexterous Manipulation from Human Demonstrations via Joint-Aligned Actions and Adversarial Learning** | Fresh / preprint | multimodal/MLLM serving / VLA/WAM/Physical AI serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.14028) | — |
 | **P1 · Watch** | **SSP: An Event-Matched Syn2Sim2Phy Cross-Domain Evaluation Framework for Autonomous Driving VLA Models** | Fresh / preprint | multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.14024) | — |

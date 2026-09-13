@@ -1,26 +1,36 @@
 # 11 · Video / Image Generation
 
-> **263 canonical papers** mapped here, plus a broader **337-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **267 canonical papers** mapped here, plus a broader **349-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 337 tracked
+## 🆕 Latest 30 Days · 349 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **P1 · Watch** | **SpecGuard: Inference-Time Backdoor Detection For Free** | Fresh / preprint | LLM serving / speculative decoding / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.11799) | — |
 | **P1 · Watch** | **Uncertainty DMD: Restoring Diversity in Few-Step Autoregressive Video Distillation** | arXiv 2026 | video/image generation acceleration | [Link](https://arxiv.org/abs/2609.11265) | — |
 | **P0 · Strong** | **Decoupled Self-Forcing Distillation for Streaming Talking Head Generation** | arXiv 2026 | video/image generation acceleration / streaming diffusion / causal distillation | [Link](https://arxiv.org/abs/2609.10317) | — |
+| **P0 · Strong** | **Through the Looking Glass: Directly Reading and Writing Transformers** | Fresh / preprint | LLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.10210) | — |
+| **P0 · Strong** | **Reference-Based Bias Detection in LLMs via Relative Representations of Hidden States** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2609.10060) | — |
 | **P1 · Watch** | **Mask Forcing: Improving Autoregressive Video Diffusion Distillation via Dual-Noise Masking Rollout** | arXiv 2026 | video/image generation acceleration / diffusion distillation / autoregressive video generation | [Link](https://arxiv.org/abs/2609.09123) | — |
 | **P0 · Strong** | **TBR: Transport-Based Rendering with Deposition Strokes for Inverse Graphics** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2609.08722) | — |
 | **P1 · Watch** | **Temporal State Transport in Video Generation: Diagnosing and Correcting Spectral Imbalance** | arXiv 2026 | video/image generation acceleration / training-free video control | [Link](https://arxiv.org/abs/2609.08505) | — |
 | **P1 · Watch** | **EdMCGS: Event-Driven Markov Chain Gaussian Splatting for Extreme-Low-Frame-Rate Dynamic Scene Reconstruction** | arXiv 2026 | VLA/WAM/Physical AI serving / 3DGS / real-time dynamic reconstruction | [Link](https://arxiv.org/abs/2609.08332) | — |
+| **P1 · Watch** | **Revoked but Still Authoritative: An Empirical Study of Revocation Enforcement in Agent-Memory Systems** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2609.08258) | — |
+| **P1 · Watch** | **Same Problem, Different Field: Cross-Domain Solution Import via Domain-Stripped Computational Fingerprints** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2609.07595) | — |
 | **P1 · Watch** | **Heat Kernel Textures: the Geodesic Gaussians That Do Not Splat** | arXiv 2026 | video/image generation acceleration / 3D representation / memory efficiency | [Link](https://arxiv.org/abs/2609.07557) | — |
+| **P1 · Watch** | **Compute-Bounded Security Assurance - Coverage, Verification, and Response under Resource Constraints** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2609.09229) | — |
 | **P1 · Watch** | **LightSplat: Real-Time High-Fidelity 3D Gaussian SLAM with Loop Closure** | arXiv 2026 | VLA/WAM/Physical AI serving / 3DGS / real-time SLAM | [Link](https://arxiv.org/abs/2609.07274) | — |
+| **P1 · Watch** | **TrojanWorld: Backdooring World-Model Agents via Imagination Steering** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2609.07051) | — |
+| **P1 · Watch** | **Continual Learning Mechanisms Compose for Long-Horizon Memorization** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2609.06986) | — |
 | **P1 · Watch** | **PRG-Fusion: Orchestrating Generative Priors with Reconstruction Evidence for Driving View Synthesis** | arXiv 2026 | VLA/WAM/Physical AI serving / simulation / region-adaptive generation | [Link](https://arxiv.org/abs/2609.06948) | — |
+| **P1 · Watch** | **Reason Through the Latent! Making Latent Visual Reasoning Necessary** | Fresh / preprint | KV cache/long-context / multimodal/MLLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2609.06746) | — |
 | **P0 · Strong** | **RoLA: Rotary-Positioned Low-Rank Linear Attention for Efficient Diffusion Transformers** | arXiv 2026 | video/image generation acceleration / diffusion/flow acceleration / efficient attention | [Link](https://arxiv.org/abs/2609.06712) | — |
+| **P0 · Strong** | **Water-network decisions share one hydraulic gradient, and it can now be computed exactly** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2609.06323) | — |
 | **P1 · Watch** | **From Splats to Silicon: Rethinking Computational Efficiency of 3DGS** | arXiv 2026 | GPU kernel/DSL/compilers / 3DGS acceleration / accelerator architecture | [Link](https://arxiv.org/abs/2609.06157) | — |
 | **P0 · Strong** | **TBDub: Production-Oriented Visual Dubbing** | arXiv 2026 | video/image generation acceleration / diffusion/flow acceleration / few-step distillation | [Link](https://arxiv.org/abs/2609.06144) | [Repo](https://github.com/TaoLiveAIGC/TBDub) |
+| **P1 · Watch** | **SCoCaT: Success Conditioned Constrained Reinforcement Learning for Spacecraft Docking** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2609.06061) | — |
 | **P1 · Watch** | **AVSplat: Dense-View Feed-Forward 3D Gaussian Splatting with Assist-View Preconditioning** | arXiv 2026 | VLA/WAM/Physical AI serving / 3D perception / feed-forward 3DGS | [Link](https://arxiv.org/abs/2609.05925) | — |
 | **P1 · Watch** | **PAI-Actor: Cinematic Multi-Character Replacement in Dynamic Scenes** | arXiv 2026 | video/image generation acceleration / autoregressive distillation / long-form generation | [Link](https://arxiv.org/abs/2609.05918) | — |
 | **P1 · Watch** | **FreeTransformSR: Efficient Lightweight Image Super-Resolution via Free Low-Rank Learnable Transform** | arXiv 2026 | video/image generation acceleration / lightweight image restoration | [Link](https://arxiv.org/abs/2609.05912) | [Repo](https://github.com/HJiLi/FreeTransformSR) |
@@ -296,11 +306,13 @@
 | **P1 · Watch** | **Handover of In-Context Learning State Across Session Boundaries** | Fresh / preprint | video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.14528) | — |
 | **P1 · Watch** | **Designing Sustainable Federated Learning as a Service using Neural Architecture Search** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.14359) | — |
 | **P1 · Watch** | **QuaSAR: Quantization Compensation via Stable Activation-Aware Rank Truncation** | Fresh / preprint | quantization / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.14149) | — |
+| **P1 · Watch** | **Owner3D: Ownership-Guided Style Writing for Training-Free Localized 3D Stylization** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.14078) | — |
 | **P0 · Strong** | **When Denoising Hurts: Rethinking the Terminal Step of Diffusion Time Series Forecasters -- Extended Version** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.14067) | — |
 | **P1 · Watch** | **SSP: An Event-Matched Syn2Sim2Phy Cross-Domain Evaluation Framework for Autonomous Driving VLA Models** | Fresh / preprint | multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.14024) | — |
 | **P0 · Strong** | **ForgeWM: Progressive Causal Training for Few-Step Action-Conditioned Video World Models** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.14022) | — |
 | **P1 · Watch** | **Content Based Video Narration of Gameplay with Vision Language Models** | Fresh / preprint | quantization / multimodal/MLLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.14016) | — |
 | **P1 · Watch** | **Nanbeige4.2-3B on Apple Silicon: Fixing Deployment Bugs and Decreasing Looped Transformer Memory Overhead** | Fresh / preprint | video/image generation acceleration / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.13987) | [Repo](https://github.com/johnhalloran321/Nanbeige4.2-3B-mps-fix) |
+| **P0 · Strong** | **AI Research Preference Models** | Fresh / preprint | video/image generation acceleration / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.13940) | — |
 | **P0 · Strong** | **CForce: Boosting Parallel Decoding for dLLMs via Consistency Forcing** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2608.13925) | [Repo](https://github.com/inclusionAI/dFactory) |
 | **P1 · Watch** | **Engineering Reliable Coding Agents: Evaluating and Operating the System Around the Model** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2608.13867) | — |
 | **P1 · Watch** | **hint$^2$: Hierarchical World Models for Inference-Time Temporal Logic Guidance** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2608.13678) | — |

@@ -1,10 +1,10 @@
 # 12 · Diffusion / Flow Acceleration
 
-> **253 canonical papers** mapped here, plus a broader **114-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **254 canonical papers** mapped here, plus a broader **115-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 114 tracked
+## 🆕 Latest 30 Days · 115 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -102,6 +102,7 @@
 | **P2 · Relevant** | **Nexus: Structured Synergy for Efficient Text-to-Image Generation using Rectified Flow Model** | Fresh / preprint | image generation / sparse architecture / low-bit / flow matching | [Link](https://arxiv.org/abs/2608.16104) | — |
 | **P0 · Strong** | **DTX: A Throughput-First Training Accelerator for Diffusion and Transformer Models** | Fresh / preprint | LLM serving / quantization / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.16953) | — |
 | **P0 · Strong** | **EditStream: A Unified Autoregressive Framework for Interactive Video Generation and Editing** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2608.21424) | — |
+| **P0 · Strong** | **UAV Video Deblurring via Motion-Aware Diffusion: A Path to Robust Target Detection** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.15259) | — |
 | **P0 · Strong** | **From Positionwise Confidence to Prefix Scheduling: Verifier Skipping in Speculative Decoding** | Fresh / preprint | LLM serving / speculative decoding / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.14787) | — |
 | **P0 · Strong** | **When Denoising Hurts: Rethinking the Terminal Step of Diffusion Time Series Forecasters -- Extended Version** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.14067) | — |
 | **P0 · Strong** | **ForgeWM: Progressive Causal Training for Few-Step Action-Conditioned Video World Models** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.14022) | — |
