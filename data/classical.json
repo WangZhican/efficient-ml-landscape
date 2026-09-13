@@ -7265,6 +7265,28 @@
     ]
   },
   {
+    "title": "XShift: FPGA-efficient Binarized LLM with Joint Quantization and Sparsification",
+    "venue": "DAC 2025",
+    "topic": "LLM accelerator / FPGA / quantization / sparsity",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "10.1109/DAC63849.2025.11133363",
+    "paper_url": "https://doi.org/10.1109/DAC63849.2025.11133363",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "DAC 2025 direct Efficient-ML hardware paper: joint binarization/quantization+sparsification with FPGA-oriented inference architecture; belongs in accelerator/edge canonical coverage rather than venue-signal-only state.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "Sparsity / Pruning",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "FSGen: Agile Fused and Sparse Accelerator Generator with Accurate Power Model for LLM Applications",
     "venue": "DAC 2026",
     "topic": "LLM inference accelerator / fused-operator dataflow / sparsity / hardware generator / RTL / PPA-aware design-space exploration / edge and heterogeneous AI systems",
@@ -24308,6 +24330,26 @@
     ]
   },
   {
+    "title": "RT-HCP: Dealing with Inference Delays and Sample Efficiency to Learn Directly on Robotic Platforms",
+    "venue": "IROS 2025",
+    "topic": "Physical-AI runtime / inference-delay-aware robot learning / action chunking",
+    "arxiv": "2509.06714",
+    "doi": "",
+    "official_id": "10.1109/IROS60139.2025.11247277",
+    "paper_url": "https://arxiv.org/abs/2509.06714",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Protected Physical-AI runtime paper explicitly addresses slow policy inference versus high-frequency robot control by generating action sequences that bridge inference gaps while retaining model-based-RL sample efficiency.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Task-Oriented Token Pruning for Efficient Object Detection and Segmentation",
     "venue": "IROS 2025",
     "topic": "robot perception / task-aware token pruning / Physical AI",
@@ -24325,6 +24367,26 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Sparsity / Pruning",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "ToSA: Token Merging with Spatial Awareness",
+    "venue": "IROS 2025",
+    "topic": "efficient vision transformer / token merging / embodied AI",
+    "arxiv": "2506.20066",
+    "doi": "",
+    "official_id": "10.1109/IROS60139.2025.11245824",
+    "paper_url": "https://arxiv.org/abs/2506.20066",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Protected Physical-AI efficiency paper: spatial/depth-aware token merging reduces ViT runtime while preserving scene structure across visual and embodied question answering.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
       "VLA / WAM / Physical AI"
     ]
   },

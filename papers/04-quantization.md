@@ -1,6 +1,6 @@
 # 04 · Quantization
 
-> **288 canonical papers** mapped here, plus a broader **232-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **289 canonical papers** mapped here, plus a broader **232-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -241,7 +241,7 @@
 | **P1 · Watch** | **BiHDTrans: binary hyperdimensional transformer for efficient multivariate time series classification** | Fresh / preprint | LLM serving / quantization | [Link](https://arxiv.org/abs/2509.24425) | — |
 | **P1 · Watch** | **A JoLT for the KV cache: Near-lossless KV cache compression via joint Lagrangian allocation of Tucker ranks and a rotated residual for llms** | Fresh / preprint | LLM serving / KV cache/long-context / quantization | [Link](https://arxiv.org/abs/2607.12550) | — |
 
-## 🏛️ Classical / Historical · 217 canonical
+## 🏛️ Classical / Historical · 218 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -292,6 +292,7 @@
 | **Canonical** | **MILLION: Mastering Long-Context LLM Inference Via Outlier-Immunized KV Product Quantization** | DAC 2025 | KV cache quantization / long-context LLM inference / GPU attention kernel | [Link](https://arxiv.org/abs/2504.03661) | [Repo](https://github.com/ZongwuWang/MILLION) |
 | **Canonical** | **Precon: A Precision-Convertible Architecture for Accelerating Quantized Deep Learning Models across Various Domains Including LLMs** | DAC 2025 | quantization / accelerator / mixed precision | [Link](https://doi.org/10.1109/DAC63849.2025.11133184) | — |
 | **Canonical** | **SQ-DM: Accelerating Diffusion Models with Aggressive Quantization and Temporal Sparsity** | DAC 2025 | diffusion acceleration / low-bit quantization / temporal activation sparsity / accelerator co-design | [Link](https://arxiv.org/abs/2501.15448) | — |
+| **Canonical** | **XShift: FPGA-efficient Binarized LLM with Joint Quantization and Sparsification** | DAC 2025 | LLM accelerator / FPGA / quantization / sparsity | [Link](https://doi.org/10.1109/DAC63849.2025.11133363) | — |
 | **Canonical** | **T-SAR: A Full-Stack Co-design for CPU-Only Ternary LLM Inference via In-Place SIMD ALU Reorganization** | DATE 2026 | edge/cloud/heterogeneous AI systems / LLM inference accelerator / ternary quantization / CPU SIMD | [Link](https://arxiv.org/abs/2511.13676) | — |
 | **Canonical** | **Memory-Efficient Fine-Tuning for Quantized Diffusion Model** | ECCV 2024 | diffusion quantization / memory-efficient fine-tuning | [Link](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/2494_ECCV_2024_paper.php) | [Repo](https://github.com/ugonfor/TuneQDM) |
 | **Canonical** | **MixDQ: Memory-Efficient Few-Step Text-to-Image Diffusion Models with Metric-Decoupled Mixed Precision Quantization** | ECCV 2024 | diffusion quantization | [Link](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/2212_ECCV_2024_paper.php) | — |

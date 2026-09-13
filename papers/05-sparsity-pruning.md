@@ -1,6 +1,6 @@
 # 05 · Sparsity / Pruning
 
-> **343 canonical papers** mapped here, plus a broader **231-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **344 canonical papers** mapped here, plus a broader **231-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -240,7 +240,7 @@
 | **P1 · Watch** | **Low-Latency Event-Based Object Detection with Spatially-Sparse Linear Attention** | Fresh / preprint | LLM serving / sparsity/pruning / efficient attention | [Link](https://arxiv.org/abs/2603.06228) | — |
 | **P1 · Watch** | **Beyond FLOPs: Benchmarking Real Inference Acceleration of LLM Pruning under a GEMM-Centric Taxonomy** | Fresh / preprint | sparsity/pruning | [Link](https://arxiv.org/abs/2606.09080) | [Repo](https://github.com/EIT-NLP/LLM-Pruning/tree/main/PruningInferSim) |
 
-## 🏛️ Classical / Historical · 259 canonical
+## 🏛️ Classical / Historical · 260 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -303,6 +303,7 @@
 | **Canonical** | **PacTrain: Pruning and Adaptive Sparse Gradient Compression for Efficient Collective Communication in Distributed Deep Learning** | DAC 2025 | distributed training / sparse gradient compression / collective communication | [Link](https://arxiv.org/abs/2505.18563) | — |
 | **Canonical** | **SpecASR: Accelerating LLM-based Automatic Speech Recognition via Speculative Decoding** | DAC 2025 | speculative decoding / audio-language inference / real-time ASR | [Link](https://arxiv.org/abs/2507.18181) | — |
 | **Canonical** | **SQ-DM: Accelerating Diffusion Models with Aggressive Quantization and Temporal Sparsity** | DAC 2025 | diffusion acceleration / low-bit quantization / temporal activation sparsity / accelerator co-design | [Link](https://arxiv.org/abs/2501.15448) | — |
+| **Canonical** | **XShift: FPGA-efficient Binarized LLM with Joint Quantization and Sparsification** | DAC 2025 | LLM accelerator / FPGA / quantization / sparsity | [Link](https://doi.org/10.1109/DAC63849.2025.11133363) | — |
 | **Canonical** | **FSGen: Agile Fused and Sparse Accelerator Generator with Accurate Power Model for LLM Applications** | DAC 2026 | LLM inference accelerator / fused-operator dataflow / sparsity / hardware generator / RTL / PPA-aware design-space exploration / edge and heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.09252) | [Repo](https://github.com/hkust-zhiyao/FSGen) |
 | **Canonical** | **An Image is Worth 1/2 Tokens After Layer 2: Plug-and-Play Inference Acceleration for Large Vision-Language Models** | ECCV 2024 | VLM visual-token pruning | [Link](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/10478_ECCV_2024_paper.php) | — |
 | **Canonical** | **BK-SDM: A Lightweight, Fast, and Cheap Version of Stable Diffusion** | ECCV 2024 | diffusion pruning / compact model | [Link](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/7138_ECCV_2024_paper.php) | — |

@@ -1,6 +1,6 @@
 # 14 · VLA / WAM / Physical AI
 
-> **191 canonical papers** mapped here, plus a broader **406-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **193 canonical papers** mapped here, plus a broader **406-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -415,7 +415,7 @@
 | **P1 · Watch** | **CoWorld-VLA: Thinking in a Multi-Expert World Model for Autonomous Driving** | Fresh / preprint | multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2605.10426) | [Repo](https://github.com/AFARI-Research/CoWorld-VLA) |
 | **P1 · Watch** | **CF-VLA: Efficient Coarse-to-Fine Action Generation for Vision-Language-Action Policies** | Fresh / preprint | LLM serving / multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2604.24622) | [Repo](https://github.com/EmbodiedAI-RoboTron/CF-VLA) |
 
-## 🏛️ Classical / Historical · 114 canonical
+## 🏛️ Classical / Historical · 116 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -504,7 +504,9 @@
 | **Canonical** | **LightPlanner: Unleashing the Reasoning Capabilities of Lightweight Large Language Models in Task Planning** | IROS 2025 | edge-efficient embodied task planning / lightweight LLM / long-horizon memory | [Link](https://arxiv.org/abs/2503.08508) | [Repo](https://github.com/jetteezhou/LightPlanner) |
 | **Canonical** | **PD-VLA: Accelerating Vision-Language-Action Model Integrated with Action Chunking via Parallel Decoding** | IROS 2025 | VLA / Physical AI serving / action decoding acceleration | [Link](https://arxiv.org/abs/2503.02310) | — |
 | **Canonical** | **Real-Time Iteration Scheme for Diffusion Policy** | IROS 2025 | Physical AI / diffusion-policy inference acceleration / training-free temporal reuse | [Link](https://arxiv.org/abs/2508.05396) | [Repo](https://github.com/RTI-DP/rti-dp) |
+| **Canonical** | **RT-HCP: Dealing with Inference Delays and Sample Efficiency to Learn Directly on Robotic Platforms** | IROS 2025 | Physical-AI runtime / inference-delay-aware robot learning / action chunking | [Link](https://arxiv.org/abs/2509.06714) | — |
 | **Canonical** | **Task-Oriented Token Pruning for Efficient Object Detection and Segmentation** | IROS 2025 | robot perception / task-aware token pruning / Physical AI | [Link](https://doi.org/10.1109/IROS60139.2025.11246298) | — |
+| **Canonical** | **ToSA: Token Merging with Spatial Awareness** | IROS 2025 | efficient vision transformer / token merging / embodied AI | [Link](https://arxiv.org/abs/2506.20066) | — |
 | **Canonical** | **DiTPA: A DiT-based Action Planner Accelerator Exploiting Action-Denoising-Multimodality Redundancy for Embodied Artificial Intelligence** | ISCA 2026 | Physical AI / embodied action planner / DiT accelerator | [Link](https://www.iscaconf.org/isca2026/program/) | — |
 | **Canonical** | **A 71.3mJ/Frame End-to-End Driving Processor with Flexible Heterogeneous Core Orchestration via Sparsity Reasoning** | ISSCC 2026 | VLA/WAM/Physical AI serving / edge AI accelerator / sparsity / heterogeneous runtime | [Link](https://www.isl-yonsei.ac/news-posts/congratulations-jueun-and-sanghos-paper-is-accepted-to-ieee-international-solid-state-circuits-conference-isscc/) | — |
 | **Canonical** | **AgenticCache: Cache-Driven Asynchronous Planning for Embodied AI Agents** | MLSys 2026 | Physical AI / embodied-agent planning cache / latency reduction | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/file/c66a9db149261435664284a20b6f1d42-Paper-Conference.pdf) | — |

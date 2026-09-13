@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **2253 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **1833 visible papers = 663 P0 + 1051 P1 + 119 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **2256 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **1833 visible papers = 663 P0 + 1051 P1 + 119 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -1856,7 +1856,7 @@
 | **P2 · Relevant** | **RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention** | Fresh / preprint | llm_serving / kv / sparse / gen | [Link](https://arxiv.org/abs/2607.21927) | — |
 | **P2 · Relevant** | **SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation** | Fresh / preprint | llm_serving / sparse / attn / kernel / gen | [Link](https://arxiv.org/abs/2607.21553) | — |
 
-## 🏛️ Classical / Historical · 1590
+## 🏛️ Classical / Historical · 1593
 
 ### ICML 2026 · 375
 
@@ -3282,6 +3282,30 @@
 | **Canonical** | **VibeServe: Can AI Agents Build Bespoke LLM Serving Systems?** | CoRR 2026 | LLM serving / efficient agent systems / automated systems optimization / specialized serving stacks | [Link](https://arxiv.org/abs/2605.06068) | [Repo](https://github.com/uw-syfi/vibe-serve) |
 | **Canonical** | **When to Trust Imagination: Adaptive Action Execution for World Action Models** | CoRR 2026 | VLA/WAM/Physical AI serving / adaptive action execution / dynamic action chunking / future-reality verification | [Link](https://arxiv.org/abs/2605.06222) | — |
 
+### DAC 2025 · 19
+
+| Priority | Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|---|
+| **Canonical** | **3D-CIMlet: A Chiplet Co-Design Framework for Heterogeneous In-Memory Acceleration of Edge LLM Inference and Continual Learning** | DAC 2025 | edge/cloud/heterogeneous AI systems / LLM accelerator / chiplet / compute-in-memory | [Link](https://doi.org/10.1109/DAC63849.2025.11133077) | [Repo](https://github.com/NanoX-Lab/3D-CIMlet) |
+| **Canonical** | **3D-TokSIM: Stacking 3D Memory with Token-Stationary Compute-in-Memory for Speculative LLM Inference** | DAC 2025 | speculative decoding / 3D memory / compute-in-memory accelerator | [Link](https://doi.org/10.1109/DAC63849.2025.11132883) | — |
+| **Canonical** | **A Memory-Efficient LLM Accelerator with Q-K Correlation Prediction using Cluster-Based Associative Array for Selective KV Accessing** | DAC 2025 | KV cache / selective attention / LLM accelerator | [Link](https://62dac.conference-program.com/presentation/?id=RESEARCH1279&sess=sess111) | — |
+| **Canonical** | **AASD: Accelerate Inference by Aligning Speculative Decoding in Multimodal Large Language Models** | DAC 2025 | multimodal LLM inference / speculative decoding / alignment-aware acceleration | [Link](https://doi.org/10.1109/DAC63849.2025.11132960) | — |
+| **Canonical** | **AttenPIM: Accelerating LLM Attention with Dual-mode GEMV in Processing-in-Memory** | DAC 2025 | LLM attention acceleration / processing-in-memory / dual-mode GEMV | [Link](https://doi.org/10.1109/DAC63849.2025.11133230) | — |
+| **Canonical** | **BBAL: A Bidirectional Block Floating Point-Based Quantisation Accelerator for Large Language Models** | DAC 2025 | quantization / LLM accelerator / edge inference | [Link](https://arxiv.org/abs/2504.15721) | — |
+| **Canonical** | **ClusterKV: Manipulating LLM KV Cache in Semantic Space for Recallable Compression** | DAC 2025 | KV cache / long-context inference / recallable semantic-cluster compression | [Link](https://arxiv.org/abs/2412.03213) | [Repo](https://github.com/sjtu-zhao-lab/ClusterKV) |
+| **Canonical** | **HybriMoE: Hybrid CPU-GPU Scheduling and Cache Management for Efficient MoE Inference** | DAC 2025 | MoE inference / hybrid CPU-GPU scheduling / expert prefetch and cache management | [Link](https://arxiv.org/abs/2504.05897) | [Repo](https://github.com/PKU-SEC-Lab/HybriMoE) |
+| **Canonical** | **KVO-LLM: Boosting Long-Context Generation Throughput for Batched LLM Inference** | DAC 2025 | long-context LLM serving / batched inference / KV optimization | [Link](https://doi.org/10.1109/DAC63849.2025.11132542) | — |
+| **Canonical** | **LLMShare: Optimizing LLM Inference Serving with Hardware Architecture Exploration** | DAC 2025 | LLM serving / prefill-decode hardware specialization / design-space exploration | [Link](https://doi.org/10.1109/DAC63849.2025.11132534) | — |
+| **Canonical** | **MILLION: Mastering Long-Context LLM Inference Via Outlier-Immunized KV Product Quantization** | DAC 2025 | KV cache quantization / long-context LLM inference / GPU attention kernel | [Link](https://arxiv.org/abs/2504.03661) | [Repo](https://github.com/ZongwuWang/MILLION) |
+| **Canonical** | **PacTrain: Pruning and Adaptive Sparse Gradient Compression for Efficient Collective Communication in Distributed Deep Learning** | DAC 2025 | distributed training / sparse gradient compression / collective communication | [Link](https://arxiv.org/abs/2505.18563) | — |
+| **Canonical** | **PIMPAL: Accelerating LLM Inference on Edge Devices via In-DRAM Arithmetic Lookup** | DAC 2025 | edge LLM inference / processing-in-memory / GEMV accelerator | [Link](https://doi.org/10.1109/DAC63849.2025.11133391) | — |
+| **Canonical** | **Precon: A Precision-Convertible Architecture for Accelerating Quantized Deep Learning Models across Various Domains Including LLMs** | DAC 2025 | quantization / accelerator / mixed precision | [Link](https://doi.org/10.1109/DAC63849.2025.11133184) | — |
+| **Canonical** | **RADiT: Redundancy-Aware Diffusion Transformer Acceleration Leveraging Timestep Similarity** | DAC 2025 | diffusion / DiT acceleration / hardware-software co-design | [Link](https://doi.org/10.1109/DAC63849.2025.11133190) | — |
+| **Canonical** | **ReaLM: Reliable and Efficient Large Language Model Inference with Statistical Algorithm-Based Fault Tolerance** | DAC 2025 | reliable and energy-efficient LLM inference / statistical ABFT / algorithm-circuit co-design | [Link](https://arxiv.org/abs/2503.24053) | [Repo](https://github.com/PKU-SEC-Lab/ReaLM_DAC25) |
+| **Canonical** | **SpecASR: Accelerating LLM-based Automatic Speech Recognition via Speculative Decoding** | DAC 2025 | speculative decoding / audio-language inference / real-time ASR | [Link](https://arxiv.org/abs/2507.18181) | — |
+| **Canonical** | **SQ-DM: Accelerating Diffusion Models with Aggressive Quantization and Temporal Sparsity** | DAC 2025 | diffusion acceleration / low-bit quantization / temporal activation sparsity / accelerator co-design | [Link](https://arxiv.org/abs/2501.15448) | — |
+| **Canonical** | **XShift: FPGA-efficient Binarized LLM with Joint Quantization and Sparsification** | DAC 2025 | LLM accelerator / FPGA / quantization / sparsity | [Link](https://doi.org/10.1109/DAC63849.2025.11133363) | — |
+
 ### SOSP 2025 · 19
 
 | Priority | Paper | Venue | Topic | Paper | Code |
@@ -3305,29 +3329,6 @@
 | **Canonical** | **Sailor: Automating Distributed Training over Dynamic, Heterogeneous, and Geo-distributed Clusters** | SOSP 2025 | distributed training / heterogeneous clusters / geo-distributed systems | [Link](https://arxiv.org/abs/2504.17096) | [Repo](https://github.com/eth-easl/sailor) |
 | **Canonical** | **Tempo: Compiled Dynamic Deep Learning with Symbolic Dependence Graphs** | SOSP 2025 | ML compiler / dynamic deep learning | [Link](https://doi.org/10.1145/3731569.3764840) | — |
 | **Canonical** | **TrainVerify: Equivalence-Based Verification for Distributed LLM Training** | SOSP 2025 | distributed LLM training / verification / reliability | [Link](https://arxiv.org/abs/2506.15961) | [Repo](https://github.com/microsoft/TrainVerify) |
-
-### DAC 2025 · 18
-
-| Priority | Paper | Venue | Topic | Paper | Code |
-|---|---|---|---|---|---|
-| **Canonical** | **3D-CIMlet: A Chiplet Co-Design Framework for Heterogeneous In-Memory Acceleration of Edge LLM Inference and Continual Learning** | DAC 2025 | edge/cloud/heterogeneous AI systems / LLM accelerator / chiplet / compute-in-memory | [Link](https://doi.org/10.1109/DAC63849.2025.11133077) | [Repo](https://github.com/NanoX-Lab/3D-CIMlet) |
-| **Canonical** | **3D-TokSIM: Stacking 3D Memory with Token-Stationary Compute-in-Memory for Speculative LLM Inference** | DAC 2025 | speculative decoding / 3D memory / compute-in-memory accelerator | [Link](https://doi.org/10.1109/DAC63849.2025.11132883) | — |
-| **Canonical** | **A Memory-Efficient LLM Accelerator with Q-K Correlation Prediction using Cluster-Based Associative Array for Selective KV Accessing** | DAC 2025 | KV cache / selective attention / LLM accelerator | [Link](https://62dac.conference-program.com/presentation/?id=RESEARCH1279&sess=sess111) | — |
-| **Canonical** | **AASD: Accelerate Inference by Aligning Speculative Decoding in Multimodal Large Language Models** | DAC 2025 | multimodal LLM inference / speculative decoding / alignment-aware acceleration | [Link](https://doi.org/10.1109/DAC63849.2025.11132960) | — |
-| **Canonical** | **AttenPIM: Accelerating LLM Attention with Dual-mode GEMV in Processing-in-Memory** | DAC 2025 | LLM attention acceleration / processing-in-memory / dual-mode GEMV | [Link](https://doi.org/10.1109/DAC63849.2025.11133230) | — |
-| **Canonical** | **BBAL: A Bidirectional Block Floating Point-Based Quantisation Accelerator for Large Language Models** | DAC 2025 | quantization / LLM accelerator / edge inference | [Link](https://arxiv.org/abs/2504.15721) | — |
-| **Canonical** | **ClusterKV: Manipulating LLM KV Cache in Semantic Space for Recallable Compression** | DAC 2025 | KV cache / long-context inference / recallable semantic-cluster compression | [Link](https://arxiv.org/abs/2412.03213) | [Repo](https://github.com/sjtu-zhao-lab/ClusterKV) |
-| **Canonical** | **HybriMoE: Hybrid CPU-GPU Scheduling and Cache Management for Efficient MoE Inference** | DAC 2025 | MoE inference / hybrid CPU-GPU scheduling / expert prefetch and cache management | [Link](https://arxiv.org/abs/2504.05897) | [Repo](https://github.com/PKU-SEC-Lab/HybriMoE) |
-| **Canonical** | **KVO-LLM: Boosting Long-Context Generation Throughput for Batched LLM Inference** | DAC 2025 | long-context LLM serving / batched inference / KV optimization | [Link](https://doi.org/10.1109/DAC63849.2025.11132542) | — |
-| **Canonical** | **LLMShare: Optimizing LLM Inference Serving with Hardware Architecture Exploration** | DAC 2025 | LLM serving / prefill-decode hardware specialization / design-space exploration | [Link](https://doi.org/10.1109/DAC63849.2025.11132534) | — |
-| **Canonical** | **MILLION: Mastering Long-Context LLM Inference Via Outlier-Immunized KV Product Quantization** | DAC 2025 | KV cache quantization / long-context LLM inference / GPU attention kernel | [Link](https://arxiv.org/abs/2504.03661) | [Repo](https://github.com/ZongwuWang/MILLION) |
-| **Canonical** | **PacTrain: Pruning and Adaptive Sparse Gradient Compression for Efficient Collective Communication in Distributed Deep Learning** | DAC 2025 | distributed training / sparse gradient compression / collective communication | [Link](https://arxiv.org/abs/2505.18563) | — |
-| **Canonical** | **PIMPAL: Accelerating LLM Inference on Edge Devices via In-DRAM Arithmetic Lookup** | DAC 2025 | edge LLM inference / processing-in-memory / GEMV accelerator | [Link](https://doi.org/10.1109/DAC63849.2025.11133391) | — |
-| **Canonical** | **Precon: A Precision-Convertible Architecture for Accelerating Quantized Deep Learning Models across Various Domains Including LLMs** | DAC 2025 | quantization / accelerator / mixed precision | [Link](https://doi.org/10.1109/DAC63849.2025.11133184) | — |
-| **Canonical** | **RADiT: Redundancy-Aware Diffusion Transformer Acceleration Leveraging Timestep Similarity** | DAC 2025 | diffusion / DiT acceleration / hardware-software co-design | [Link](https://doi.org/10.1109/DAC63849.2025.11133190) | — |
-| **Canonical** | **ReaLM: Reliable and Efficient Large Language Model Inference with Statistical Algorithm-Based Fault Tolerance** | DAC 2025 | reliable and energy-efficient LLM inference / statistical ABFT / algorithm-circuit co-design | [Link](https://arxiv.org/abs/2503.24053) | [Repo](https://github.com/PKU-SEC-Lab/ReaLM_DAC25) |
-| **Canonical** | **SpecASR: Accelerating LLM-based Automatic Speech Recognition via Speculative Decoding** | DAC 2025 | speculative decoding / audio-language inference / real-time ASR | [Link](https://arxiv.org/abs/2507.18181) | — |
-| **Canonical** | **SQ-DM: Accelerating Diffusion Models with Aggressive Quantization and Temporal Sparsity** | DAC 2025 | diffusion acceleration / low-bit quantization / temporal activation sparsity / accelerator co-design | [Link](https://arxiv.org/abs/2501.15448) | — |
 
 ### ECCV 2024 · 17
 
@@ -3544,6 +3545,19 @@
 | **Canonical** | **SwiftCache: Efficient LLM Serving for Multi-turn Conversations with Heterogeneous KV Cache Sharing** | Fresh / preprint | LLM serving / KV cache / multi-turn agents / NVLink memory sharing | [Link](https://arxiv.org/abs/2606.16135) | — |
 | **Canonical** | **TreeGraft: Adaptive Multi-Drafter Grafting for Tree-Based Speculative Decoding** | Fresh / preprint | speculative decoding / LLM inference | [Link](https://arxiv.org/abs/2608.26112) | — |
 
+### IROS 2025 · 8
+
+| Priority | Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|---|
+| **Canonical** | **AdaToken-3D: Dynamic Spatial Gating for Efficient 3D Large Multimodal-Models Reasoning** | IROS 2025 | 3D multimodal inference / token pruning / Physical AI | [Link](https://arxiv.org/abs/2505.12782) | — |
+| **Canonical** | **Computationally Efficient FPGA-based Large Language Model Inference for Real-Time Decision-Making in Robotic Systems** | IROS 2025 | Physical AI / edge LLM inference / FPGA accelerator / real-time robotics | [Link](https://doi.org/10.1109/IROS60139.2025.11247019) | — |
+| **Canonical** | **LightPlanner: Unleashing the Reasoning Capabilities of Lightweight Large Language Models in Task Planning** | IROS 2025 | edge-efficient embodied task planning / lightweight LLM / long-horizon memory | [Link](https://arxiv.org/abs/2503.08508) | [Repo](https://github.com/jetteezhou/LightPlanner) |
+| **Canonical** | **PD-VLA: Accelerating Vision-Language-Action Model Integrated with Action Chunking via Parallel Decoding** | IROS 2025 | VLA / Physical AI serving / action decoding acceleration | [Link](https://arxiv.org/abs/2503.02310) | — |
+| **Canonical** | **Real-Time Iteration Scheme for Diffusion Policy** | IROS 2025 | Physical AI / diffusion-policy inference acceleration / training-free temporal reuse | [Link](https://arxiv.org/abs/2508.05396) | [Repo](https://github.com/RTI-DP/rti-dp) |
+| **Canonical** | **RT-HCP: Dealing with Inference Delays and Sample Efficiency to Learn Directly on Robotic Platforms** | IROS 2025 | Physical-AI runtime / inference-delay-aware robot learning / action chunking | [Link](https://arxiv.org/abs/2509.06714) | — |
+| **Canonical** | **Task-Oriented Token Pruning for Efficient Object Detection and Segmentation** | IROS 2025 | robot perception / task-aware token pruning / Physical AI | [Link](https://doi.org/10.1109/IROS60139.2025.11246298) | — |
+| **Canonical** | **ToSA: Token Merging with Spatial Awareness** | IROS 2025 | efficient vision transformer / token merging / embodied AI | [Link](https://arxiv.org/abs/2506.20066) | — |
+
 ### KDD 2025 · 8
 
 | Priority | Paper | Venue | Topic | Paper | Code |
@@ -3616,17 +3630,6 @@
 | **Canonical** | **RetoVLA** | ICRA 2026 | lightweight VLA + compressed action representation/video-pretrained VLA | [Link](https://arxiv.org/abs/2509.21243) | — |
 | **Canonical** | **RynnVLA-001** | ICRA 2026 | lightweight VLA + compressed action representation/video-pretrained VLA | [Link](https://arxiv.org/abs/2509.15212) | — |
 | **Canonical** | **The Better You Learn, The Smarter You Prune: Towards Efficient Vision-language-action Models via Differentiable Token Pruning** | ICRA 2026 | Physical AI / VLA / adaptive visual-token pruning / inference acceleration | [Link](https://arxiv.org/abs/2509.12594) | [Repo](https://github.com/LiAutoAD/LightVLA) |
-
-### IROS 2025 · 6
-
-| Priority | Paper | Venue | Topic | Paper | Code |
-|---|---|---|---|---|---|
-| **Canonical** | **AdaToken-3D: Dynamic Spatial Gating for Efficient 3D Large Multimodal-Models Reasoning** | IROS 2025 | 3D multimodal inference / token pruning / Physical AI | [Link](https://arxiv.org/abs/2505.12782) | — |
-| **Canonical** | **Computationally Efficient FPGA-based Large Language Model Inference for Real-Time Decision-Making in Robotic Systems** | IROS 2025 | Physical AI / edge LLM inference / FPGA accelerator / real-time robotics | [Link](https://doi.org/10.1109/IROS60139.2025.11247019) | — |
-| **Canonical** | **LightPlanner: Unleashing the Reasoning Capabilities of Lightweight Large Language Models in Task Planning** | IROS 2025 | edge-efficient embodied task planning / lightweight LLM / long-horizon memory | [Link](https://arxiv.org/abs/2503.08508) | [Repo](https://github.com/jetteezhou/LightPlanner) |
-| **Canonical** | **PD-VLA: Accelerating Vision-Language-Action Model Integrated with Action Chunking via Parallel Decoding** | IROS 2025 | VLA / Physical AI serving / action decoding acceleration | [Link](https://arxiv.org/abs/2503.02310) | — |
-| **Canonical** | **Real-Time Iteration Scheme for Diffusion Policy** | IROS 2025 | Physical AI / diffusion-policy inference acceleration / training-free temporal reuse | [Link](https://arxiv.org/abs/2508.05396) | [Repo](https://github.com/RTI-DP/rti-dp) |
-| **Canonical** | **Task-Oriented Token Pruning for Efficient Object Detection and Segmentation** | IROS 2025 | robot perception / task-aware token pruning / Physical AI | [Link](https://doi.org/10.1109/IROS60139.2025.11246298) | — |
 
 ### VLSI Symposium 2026 · 5
 

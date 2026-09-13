@@ -1,6 +1,6 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **514 canonical papers** mapped here, plus a broader **511-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **515 canonical papers** mapped here, plus a broader **511-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -520,7 +520,7 @@
 | **P1 · Watch** | **Bernini: Latent Semantic Planning for Video Diffusion** | Fresh / preprint | LLM serving / multimodal/MLLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2605.22344) | — |
 | **P1 · Watch** | **A methodology for accurate benchmarking of neural network accelerators using a high-level synthesis-based hardware generator** | Philosophical Transactions A 2026 | AI accelerator benchmarking; HLS; hardware design-space evaluation | [Link](https://doi.org/10.1098/rsta.2024.0514) | — |
 
-## 🏛️ Classical / Historical · 339 canonical
+## 🏛️ Classical / Historical · 340 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -593,6 +593,7 @@
 | **Canonical** | **LLMShare: Optimizing LLM Inference Serving with Hardware Architecture Exploration** | DAC 2025 | LLM serving / prefill-decode hardware specialization / design-space exploration | [Link](https://doi.org/10.1109/DAC63849.2025.11132534) | — |
 | **Canonical** | **PIMPAL: Accelerating LLM Inference on Edge Devices via In-DRAM Arithmetic Lookup** | DAC 2025 | edge LLM inference / processing-in-memory / GEMV accelerator | [Link](https://doi.org/10.1109/DAC63849.2025.11133391) | — |
 | **Canonical** | **ReaLM: Reliable and Efficient Large Language Model Inference with Statistical Algorithm-Based Fault Tolerance** | DAC 2025 | reliable and energy-efficient LLM inference / statistical ABFT / algorithm-circuit co-design | [Link](https://arxiv.org/abs/2503.24053) | [Repo](https://github.com/PKU-SEC-Lab/ReaLM_DAC25) |
+| **Canonical** | **XShift: FPGA-efficient Binarized LLM with Joint Quantization and Sparsification** | DAC 2025 | LLM accelerator / FPGA / quantization / sparsity | [Link](https://doi.org/10.1109/DAC63849.2025.11133363) | — |
 | **Canonical** | **FSGen: Agile Fused and Sparse Accelerator Generator with Accurate Power Model for LLM Applications** | DAC 2026 | LLM inference accelerator / fused-operator dataflow / sparsity / hardware generator / RTL / PPA-aware design-space exploration / edge and heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.09252) | [Repo](https://github.com/hkust-zhiyao/FSGen) |
 | **Canonical** | **T-SAR: A Full-Stack Co-design for CPU-Only Ternary LLM Inference via In-Place SIMD ALU Reorganization** | DATE 2026 | edge/cloud/heterogeneous AI systems / LLM inference accelerator / ternary quantization / CPU SIMD | [Link](https://arxiv.org/abs/2511.13676) | — |
 | **Canonical** | **BK-SDM: A Lightweight, Fast, and Cheap Version of Stable Diffusion** | ECCV 2024 | diffusion pruning / compact model | [Link](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/7138_ECCV_2024_paper.php) | — |
