@@ -2239,6 +2239,30 @@
     ]
   },
   {
+    "title": "SparDA: Sparse Decoupled Attention for Efficient Long-Context LLM Inference",
+    "venue": "arXiv / major-group reverse census true miss",
+    "topic": "long-context LLM inference / sparse attention / KV offload / GPU runtime",
+    "arxiv": "2606.04511",
+    "doi": "",
+    "official_id": "arXiv:2606.04511",
+    "paper_url": "https://arxiv.org/abs/2606.04511",
+    "code_url": "https://github.com/NVlabs/SparDA",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Major-group reverse census true miss from MIT Han Lab/NVIDIA lineage. SparDA decouples sparse selection from attention with Forecast projections, overlaps CPU-to-GPU KV prefetch with current-layer execution, adds <0.5% parameters, and reports up to 1.25x prefill speedup, 1.7x decode speedup, and 5.3x higher decode throughput than the non-offload sparse baseline by enabling larger feasible batch sizes. Direct systems-efficiency contribution with official NVIDIA repository.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "ETS: Efficient Tree Search for Inference-Time Scaling",
     "venue": "arXiv 2025",
     "topic": "efficient reasoning / inference-time scaling / KV-cache sharing / tree search",

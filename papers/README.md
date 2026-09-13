@@ -1,10 +1,10 @@
 # 🧭 Research Map
 
-> **2260 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
+> **2261 quality-gated papers · 15 research directions · primary paper links · official code links when verified**
 
 <div align="center">
 
-[**🆕 Latest 30 Days · 1831 tracked**](LATEST_30D.md) · [**🏛️ Classical · 1597**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
+[**🆕 Latest 30 Days · 1831 tracked**](LATEST_30D.md) · [**🏛️ Classical · 1598**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
 
 </div>
 
@@ -12,14 +12,14 @@
 
 | # | Research direction | Canonical | Latest 30d tracked |
 |---:|---|---:|---:|
-| 01 | [**LLM Serving**](01-llm-serving.md) | **1071** | **1083** |
+| 01 | [**LLM Serving**](01-llm-serving.md) | **1072** | **1083** |
 | 02 | [**Speculative Decoding**](02-speculative-decoding.md) | **231** | **65** |
-| 03 | [**KV Cache / Long Context**](03-kv-cache-long-context.md) | **493** | **214** |
+| 03 | [**KV Cache / Long Context**](03-kv-cache-long-context.md) | **494** | **214** |
 | 04 | [**Quantization**](04-quantization.md) | **290** | **231** |
-| 05 | [**Sparsity / Pruning**](05-sparsity-pruning.md) | **344** | **231** |
-| 06 | [**Efficient Attention**](06-efficient-attention.md) | **280** | **135** |
+| 05 | [**Sparsity / Pruning**](05-sparsity-pruning.md) | **345** | **231** |
+| 06 | [**Efficient Attention**](06-efficient-attention.md) | **281** | **135** |
 | 07 | [**MoE Systems / Accelerators**](07-moe-systems.md) | **157** | **89** |
-| 08 | [**GPU Kernel / DSL / Compiler**](08-gpu-kernel-compiler.md) | **520** | **265** |
+| 08 | [**GPU Kernel / DSL / Compiler**](08-gpu-kernel-compiler.md) | **521** | **265** |
 | 09 | [**Distributed Training / Inference**](09-distributed-training-inference.md) | **388** | **198** |
 | 10 | [**Multimodal / MLLM Serving**](10-multimodal-mllm-serving.md) | **291** | **288** |
 | 11 | [**Video / Image Generation**](11-video-image-generation.md) | **282** | **398** |
