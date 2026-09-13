@@ -42419,6 +42419,28 @@
     ]
   },
   {
+    "title": "BURST: Seeking High-performance, Interoperability and Scalability in Soft-RDMA",
+    "venue": "NSDI 2026",
+    "topic": "distributed inference / RDMA / heterogeneous AI infrastructure / communication",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX-NSDI26-316708",
+    "paper_url": "https://www.usenix.org/conference/nsdi26/presentation/shen",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "NSDI 2026 production AI-infrastructure paper: high-performance user-space Soft-RDMA for heterogeneous non-RNIC-to-RNIC datacenter communication, motivated by disaggregated LLM inference and KV transfer. Reports 98.7% line-rate on 400G, 3.2-6.3x throughput over RXE, and production LLM inference latency at 25.2% of TCP.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Checkmate: Zero Performance Overhead Model Checkpointing via Network Gradient Replication",
     "venue": "NSDI 2026",
     "topic": "distributed training / checkpointing",
