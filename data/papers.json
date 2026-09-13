@@ -18274,6 +18274,28 @@
     ]
   },
   {
+    "title": "HAP: Head-Adaptive Visual Token Pruning via Cross-Modal Alignment",
+    "venue": "Fresh / preprint",
+    "topic": "sparsity/pruning / multimodal/MLLM serving",
+    "arxiv": "2608.23921",
+    "doi": "",
+    "official_id": "arXiv:2608.23921",
+    "paper_url": "https://arxiv.org/abs/2608.23921",
+    "code_url": "https://github.com/baokou-fw2/HAP",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "HAP directly targets prohibitive VLM visual-token prefill cost with head-adaptive pruning under an explicit target-FLOPs budget; strong multimodal serving efficiency contribution.",
+    "published_at": "2026-08-24T23:55:36Z",
+    "updated_at": "2026-08-24T23:55:36Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
     "title": "HaReCAP: Habitual-action Grounding for Recursive Large Language Model Agents",
     "venue": "Fresh / preprint",
     "topic": "LLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving",
@@ -18429,6 +18451,27 @@
       "Sparsity / Pruning",
       "Efficient Attention",
       "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "Hindsight Memory-PRM: Supervising Memory Management with Auditable Hindsight Credit",
+    "venue": "Fresh / preprint",
+    "topic": "video/image generation acceleration",
+    "arxiv": "2608.29605",
+    "doi": "",
+    "official_id": "arXiv:2608.29605",
+    "paper_url": "https://arxiv.org/abs/2608.29605",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Hindsight Memory-PRM trains and supervises long-horizon agent memory using auditable retrieval/citation evidence and reports strong results at one eighth the context of Mem0 official operating point; direct agent-memory context-efficiency evidence.",
+    "published_at": "2026-08-30T06:53:13Z",
+    "updated_at": "2026-08-30T06:53:13Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Video / Image Generation",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -18832,6 +18875,27 @@
     ]
   },
   {
+    "title": "KISS-GS: 3D Gaussian Splatting Compression Kept Simple",
+    "venue": "Fresh / preprint",
+    "topic": "sparsity/pruning",
+    "arxiv": "2608.26948",
+    "doi": "",
+    "official_id": "arXiv:2608.26948",
+    "paper_url": "https://arxiv.org/abs/2608.26948",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "KISS-GS is a training-decoupled 3DGS compression pipeline reporting 15.7x compaction before simple image-based encoding, directly addressing deployment storage/decoding cost.",
+    "published_at": "2026-08-27T10:49:42Z",
+    "updated_at": "2026-08-27T10:49:42Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Sparsity / Pruning",
+      "Video / Image Generation"
+    ]
+  },
+  {
     "title": "Knowing When Not to Reuse: Conditional Experience Transfer in Autonomous LLM Post-Training",
     "venue": "Fresh / preprint",
     "topic": "video/image generation acceleration / edge/cloud/heterogeneous AI systems",
@@ -19003,6 +19067,27 @@
       "LLM Serving",
       "KV Cache / Long Context",
       "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "Learning Late, Guiding Early: Timestep-Decoupled Semantic Guidance for Fair Face Generation",
+    "venue": "Fresh / preprint",
+    "topic": "quantization",
+    "arxiv": "2608.25862",
+    "doi": "",
+    "official_id": "arXiv:2608.25862",
+    "paper_url": "https://arxiv.org/abs/2608.25862",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Semantic Boundary Predictor replaces repeated diffusion guidance with a one-shot inference-time intervention, directly reducing guidance work during reverse denoising without retraining; strong diffusion inference-efficiency lineage.",
+    "published_at": "2026-08-26T14:36:45Z",
+    "updated_at": "2026-08-27T09:01:59Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Quantization",
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -20023,6 +20108,26 @@
     "directions": [
       "LLM Serving",
       "Multimodal / MLLM Serving"
+    ]
+  },
+  {
+    "title": "NBS: No Bias Stereo",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving",
+    "arxiv": "2608.28933",
+    "doi": "",
+    "official_id": "arXiv:2608.28933",
+    "paper_url": "https://arxiv.org/abs/2608.28933",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "NBS reports state-of-the-art stereo accuracy together with superior runtime efficiency using a simple end-to-end ViT without task-specific architectural bias; useful efficient-vision architecture result.",
+    "published_at": "2026-08-28T23:06:28Z",
+    "updated_at": "2026-09-05T06:19:50Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving"
     ]
   },
   {
@@ -21605,6 +21710,27 @@
     ]
   },
   {
+    "title": "SABER: Stability-Aware Early Exit for LLM Reasoning via Adversarial Branch Probing",
+    "venue": "Fresh / preprint",
+    "topic": "video/image generation acceleration",
+    "arxiv": "2608.27963",
+    "doi": "",
+    "official_id": "arXiv:2608.27963",
+    "paper_url": "https://arxiv.org/abs/2608.27963",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "SABER is a training-free early-exit method for long reasoning that probes intermediate states with lightweight adversarial branches instead of full rollouts, targeting substantial inference cost after reasoning stabilizes.",
+    "published_at": "2026-08-28T06:13:23Z",
+    "updated_at": "2026-08-28T06:13:23Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Video / Image Generation",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "SAF3R: Dynamic Sparse Attention for Feed-Forward 3D Reconstruction Transformers",
     "venue": "Fresh / preprint",
     "topic": "LLM serving / sparsity/pruning / edge/cloud/heterogeneous AI systems",
@@ -22082,6 +22208,27 @@
     ]
   },
   {
+    "title": "SKILL.state: Scalable Long-Horizon Agent Skills",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving",
+    "arxiv": "2608.26263",
+    "doi": "",
+    "official_id": "arXiv:2608.26263",
+    "paper_url": "https://arxiv.org/abs/2608.26263",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "SKILL.state replaces ever-growing append-only agent histories with compact mutable execution state and discards intermediate reasoning after validated state updates, directly preventing prompt growth and long-horizon latency degradation.",
+    "published_at": "2026-08-26T18:00:06Z",
+    "updated_at": "2026-09-02T02:32:58Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "SkillEffect: Checked Lowering for Memory-Bounded Agent Tools",
     "venue": "Fresh / preprint",
     "topic": "video/image generation acceleration / edge/cloud/heterogeneous AI systems",
@@ -22522,6 +22669,29 @@
       "Sparsity / Pruning",
       "Multimodal / MLLM Serving",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "State-Conditioned Visual Evidence Retrieval for Fine-Grained Perception in Document Vision-Language Models",
+    "venue": "Fresh / preprint",
+    "topic": "multimodal/MLLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems",
+    "arxiv": "2608.28698",
+    "doi": "",
+    "official_id": "arXiv:2608.28698",
+    "paper_url": "https://arxiv.org/abs/2608.28698",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "SCVER avoids repeatedly accessing globally compressed high-resolution document visual tokens by retrieving only a small state-conditioned set of relevant regions during autoregressive decoding; direct MLLM compute-efficiency contribution.",
+    "published_at": "2026-08-27T12:56:45Z",
+    "updated_at": "2026-08-27T12:56:45Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
+      "Video / Image Generation",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -23830,6 +24000,29 @@
     ]
   },
   {
+    "title": "Where to Look Matters: On-Policy Self-Distillation for Long-Video Understanding",
+    "venue": "Fresh / preprint",
+    "topic": "multimodal/MLLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems",
+    "arxiv": "2608.25356",
+    "doi": "",
+    "official_id": "arXiv:2608.25356",
+    "paper_url": "https://arxiv.org/abs/2608.25356",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Clue-OPSD shows question-relevant clue intervals can improve long-video VLM accuracy while using fewer input frames and distills this behavior into the full-video student; direct multimodal token/input efficiency evidence.",
+    "published_at": "2026-08-26T04:23:21Z",
+    "updated_at": "2026-09-09T17:14:26Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
+      "Video / Image Generation",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "WhiteMatter: All-to-All Cross-Layer Connections via KV Mixing",
     "venue": "Fresh / preprint",
     "topic": "KV cache/long-context",
@@ -23847,6 +24040,30 @@
     "tracking_tier": "P0 · Strong",
     "directions": [
       "KV Cache / Long Context"
+    ]
+  },
+  {
+    "title": "WiCi: Wireless GPU Computing Infrastructure",
+    "venue": "Fresh / preprint",
+    "topic": "efficient reasoning/agent systems",
+    "arxiv": "2608.24204",
+    "doi": "",
+    "official_id": "arXiv:2608.24204",
+    "paper_url": "https://arxiv.org/abs/2608.24204",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "WiCi is an LLM inference infrastructure that transparently offloads GPU computation from mobile clients to nearby server-grade GPUs over WiFi, targeting cloud-cost and edge-mobility constraints; direct cloud-edge serving systems work.",
+    "published_at": "2026-08-25T08:14:44Z",
+    "updated_at": "2026-08-25T08:14:44Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "GPU Kernel / DSL / Compiler",
+      "Efficient Reasoning / Agents",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
