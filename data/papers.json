@@ -15300,6 +15300,28 @@
     ]
   },
   {
+    "title": "AdaVDR: Adaptive Tool Use and Reflection for Video Deep Research",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / video/image generation acceleration",
+    "arxiv": "2608.25559",
+    "doi": "",
+    "official_id": "arXiv:2608.25559",
+    "paper_url": "https://arxiv.org/abs/2608.25559",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "AdaVDR adaptively invokes video-grounding/web tools and backtracks only on unreliable intermediate results, explicitly avoiding unnecessary interactions that add latency and errors; direct efficient video-agent runtime contribution.",
+    "published_at": "2026-08-26T09:07:51Z",
+    "updated_at": "2026-08-26T09:07:51Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Video / Image Generation",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "AdaVLA: Adaptive Step Flow Matching for Training-free Acceleration of Vision-Language-Action Models",
     "venue": "Fresh / preprint",
     "topic": "VLA/WAM/Physical AI serving / flow acceleration",
@@ -16712,6 +16734,26 @@
     ]
   },
   {
+    "title": "Constraint-Aware Physics-Informed Neural Networks for Static Shape Estimation of Co-Manipulative Continuum Robots",
+    "venue": "Fresh / preprint",
+    "topic": "Efficient ML / AI Infra",
+    "arxiv": "2608.26273",
+    "doi": "",
+    "official_id": "arXiv:2608.26273",
+    "paper_url": "https://arxiv.org/abs/2608.26273",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Protected Physical-AI: constraint-aware PINN estimates continuum-robot shape at 0.1773 ms inference versus 17.97 s for an iterative nonlinear solver while retaining sub-percent configuration error, an unusually strong surrogate-compute speedup.",
+    "published_at": "2026-08-26T18:00:39Z",
+    "updated_at": "2026-08-26T18:00:39Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Context as an Environment: Programmatic Context Management for Long-Horizon Agents",
     "venue": "Fresh / preprint",
     "topic": "LLM serving",
@@ -16924,6 +16966,26 @@
     "tracking_tier": "P0 · Strong",
     "directions": [
       "Efficient Reasoning / Agents",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "CrossMambaTuning: Synergistic Spatial and Cross-Layer Adaptation for Machine Vision Compression",
+    "venue": "Fresh / preprint",
+    "topic": "Efficient ML / AI Infra",
+    "arxiv": "2608.25568",
+    "doi": "",
+    "official_id": "arXiv:2608.25568",
+    "paper_url": "https://arxiv.org/abs/2608.25568",
+    "code_url": "https://github.com/rsr1123/CrossMambaTuning",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "CrossMambaTuning adapts pretrained learned-compression backbones using parameter-sharing Mamba/cross-layer adapters and reports 72% lower parameter overhead than prior SOTA methods; direct parameter-efficient adaptation evidence.",
+    "published_at": "2026-08-26T09:20:57Z",
+    "updated_at": "2026-08-26T09:20:57Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
       "Edge / Cloud / Heterogeneous AI"
     ]
   },
@@ -17247,6 +17309,28 @@
       "LLM Serving",
       "Video / Image Generation",
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "Distributed Semantic Segmentation With Improved Rate-Distortion Trade-Off",
+    "venue": "Fresh / preprint",
+    "topic": "quantization",
+    "arxiv": "2608.28684",
+    "doi": "",
+    "official_id": "arXiv:2608.28684",
+    "paper_url": "https://arxiv.org/abs/2608.28684",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Distributed semantic-segmentation source codecs target edge-cloud split inference and achieve SOTA rate-distortion below 0.2/0.03 bits-per-pixel, providing direct communication-efficient distributed perception evidence.",
+    "published_at": "2026-08-26T10:14:04Z",
+    "updated_at": "2026-08-26T10:14:04Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Quantization",
+      "Distributed Training / Inference",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -17673,6 +17757,26 @@
       "LLM Serving",
       "Multimodal / MLLM Serving",
       "Video / Image Generation"
+    ]
+  },
+  {
+    "title": "Enrich-Retrieve-Rank: Scaling Capability Discovery Beyond In-Context Routing",
+    "venue": "Fresh / preprint",
+    "topic": "Efficient ML / AI Infra",
+    "arxiv": "2608.22695",
+    "doi": "",
+    "official_id": "arXiv:2608.22695",
+    "paper_url": "https://arxiv.org/abs/2608.22695",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Enrich-Retrieve-Rank replaces registry-in-context routing for thousands of agent capabilities with offline enriched search plus retrieve-rank; at N=7,278 in-context Match@1 collapses to 0.12 while retrieval-ranking retains 0.39, directly addressing context scaling.",
+    "published_at": "2026-08-24T01:21:05Z",
+    "updated_at": "2026-08-24T01:21:05Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -19906,6 +20010,29 @@
     ]
   },
   {
+    "title": "LongVU-TTT: Causal Test-Time Training for Visual Resampling in Long Video Understanding",
+    "venue": "Fresh / preprint",
+    "topic": "multimodal/MLLM serving / video/image generation acceleration",
+    "arxiv": "2608.25729",
+    "doi": "",
+    "official_id": "arXiv:2608.25729",
+    "paper_url": "https://arxiv.org/abs/2608.25729",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "LongVU-TTT processes as many as 512 video frames then compresses them to 128 LLM frames with causal fast-weight resampling and explicit evidence retention; strong multimodal visual-token-budget/runtime lineage.",
+    "published_at": "2026-08-26T12:43:43Z",
+    "updated_at": "2026-08-26T12:43:43Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
+      "Video / Image Generation",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "LoopVLA: Learning Sufficiency in Recurrent Refinement for Vision-Language-Action Models",
     "venue": "Fresh / preprint",
     "topic": "LLM serving / multimodal/MLLM serving / VLA/WAM/Physical AI serving",
@@ -21099,6 +21226,26 @@
     ]
   },
   {
+    "title": "POOL: Propagated Uncertainty Over Lookalikes",
+    "venue": "Fresh / preprint",
+    "topic": "Efficient ML / AI Infra",
+    "arxiv": "2608.23086",
+    "doi": "",
+    "official_id": "arXiv:2608.23086",
+    "paper_url": "https://arxiv.org/abs/2608.23086",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "POOL reduces black-box LLM confidence-estimation cost by evaluating representative medoids, propagating scores and selectively sampling disagreements, explicitly attacking the linear-cost multi-sample uncertainty tradeoff.",
+    "published_at": "2026-08-24T10:51:44Z",
+    "updated_at": "2026-08-24T10:51:44Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Post-training Quantization for Hybrid Iterative Generative Models",
     "venue": "Fresh / preprint",
     "topic": "LLM serving / quantization",
@@ -21118,6 +21265,28 @@
       "LLM Serving",
       "Quantization",
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "Pre-Decoding Acoustic Triage for Budgeted Vision-Language Captioning of Untrimmed Egocentric Video",
+    "venue": "Fresh / preprint",
+    "topic": "quantization / multimodal/MLLM serving",
+    "arxiv": "2608.22359",
+    "doi": "",
+    "official_id": "arXiv:2608.22359",
+    "paper_url": "https://arxiv.org/abs/2608.22359",
+    "code_url": "https://github.com/masjalayer/PreDecoding-AcousticTriage",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Audio-first triage scores untrimmed egocentric windows before any video decoding and selectively invokes the VLM, explicitly reducing expensive model calls and composing with token compression/quantization; action coverage improves 4.0-10.8 points at matched call budgets.",
+    "published_at": "2026-08-23T10:51:00Z",
+    "updated_at": "2026-08-23T10:51:00Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "Multimodal / MLLM Serving"
     ]
   },
   {
@@ -22475,6 +22644,28 @@
     ]
   },
   {
+    "title": "Scaling Curriculum Learning For Autonomous Driving",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / video/image generation acceleration",
+    "arxiv": "2608.22549",
+    "doi": "",
+    "official_id": "arXiv:2608.22549",
+    "paper_url": "https://arxiv.org/abs/2608.22549",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Protected Physical-AI: CL4AD integrates curriculum selection into batched autonomous-driving simulation and reaches 99% success one billion interactions earlier than domain randomization, reducing wall-clock training time by 77%.",
+    "published_at": "2026-08-23T18:51:05Z",
+    "updated_at": "2026-08-23T18:51:05Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Video / Image Generation",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "SchurQuant: Groupwise Discrete Optimization for Layer-Wise LLM Quantization",
     "venue": "Fresh / preprint",
     "topic": "quantization",
@@ -23241,6 +23432,28 @@
     ]
   },
   {
+    "title": "SRPO: Self-Reflective Policy Optimization for Long-Horizon Reasoning",
+    "venue": "Fresh / preprint",
+    "topic": "video/image generation acceleration / efficient reasoning/agent systems",
+    "arxiv": "2608.23493",
+    "doi": "",
+    "official_id": "arXiv:2608.23493",
+    "paper_url": "https://arxiv.org/abs/2608.23493",
+    "code_url": "https://github.com/Galleons2029/SRPO",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "SRPO converts trajectory reflection into dense on-policy supervision and reaches 73.3% AIME24 using only 8% of the training FLOPs required by scaled SFT while also improving long-horizon agent benchmarks; strong reasoning-training efficiency evidence.",
+    "published_at": "2026-08-24T16:55:09Z",
+    "updated_at": "2026-08-24T16:55:09Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Distributed Training / Inference",
+      "Video / Image Generation",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "SSAKG 2.0: An Open-Source Package for Structural Associative Sequence Memory and Context-Based Retrieval",
     "venue": "Fresh / preprint",
     "topic": "Efficient ML / AI Infra",
@@ -23649,6 +23862,28 @@
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "The Handoff Tax: Continuing Non-Native Trajectories in LLM Agents",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / video/image generation acceleration",
+    "arxiv": "2608.24358",
+    "doi": "",
+    "official_id": "arXiv:2608.24358",
+    "paper_url": "https://arxiv.org/abs/2608.24358",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "The Handoff Tax measures quality/cost when long-running coding agents switch models and shows escalation often recovers less than half the quality gap despite a substantial cost premium, while downshift yields a favorable cost-quality point; direct agent serving/routing evidence.",
+    "published_at": "2026-08-25T10:14:30Z",
+    "updated_at": "2026-08-25T10:14:30Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Video / Image Generation",
       "Efficient Reasoning / Agents"
     ]
   },
@@ -24083,6 +24318,27 @@
     "tracking_tier": "P0 · Strong",
     "directions": [
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "Understanding the Synchronization Tax in GPU Scale-Up Domains",
+    "venue": "Fresh / preprint",
+    "topic": "Efficient ML / AI Infra",
+    "arxiv": "2608.22503",
+    "doi": "",
+    "official_id": "arXiv:2608.22503",
+    "paper_url": "https://arxiv.org/abs/2608.22503",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Large-scale trace study across four LMs and three GPU architectures finds the GPU scale-up synchronization tax can exceed 50% of collective time and attributes 78% of it to cross-rank GEMM runtime variation; direct distributed AI-infrastructure bottleneck characterization.",
+    "published_at": "2026-08-23T16:45:58Z",
+    "updated_at": "2026-08-23T16:45:58Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
     ]
   },
   {
