@@ -1,14 +1,15 @@
 # 05 · Sparsity / Pruning
 
-> **332 canonical papers** mapped here, plus a broader **213-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **333 canonical papers** mapped here, plus a broader **214-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 213 tracked
+## 🆕 Latest 30 Days · 214 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **P1 · Watch** | **Data Scarcity and Model Sparsity: Mixtures-of-Experts Overfit More to Repeated Data** | arXiv 2026 | MoE systems/accelerators / sparsity / training efficiency | [Link](https://arxiv.org/abs/2609.11917) | — |
+| **P0 · Strong** | **A Training-Free, Alignment-Free Approach to Corporate Intelligence: Application to SEC Filings** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2609.11620) | — |
 | **P0 · Strong** | **LILA: Calibration-Free Structured Pruning of Large Language Models via Latent Spectral Geometry** | arXiv 2026 | sparsity/pruning / LLM compression / calibration-free structured pruning | [Link](https://arxiv.org/abs/2609.11163) | — |
 | **P1 · Watch** | **Why Is Video Still So Expensive? A Survey of Inference-Efficiency Mechanisms in Video and Audiovisual LLMs** | arXiv 2026 | multimodal/MLLM serving / video inference / efficiency survey / canonical lineage | [Link](https://arxiv.org/abs/2609.10355) | — |
 | **P1 · Watch** | **Beyond One-Size-Fits-All: Sample-Adaptive Strategy Routing for Vision Token Pruning in MLLMs** | arXiv 2026 | multimodal/MLLM serving / vision token pruning / adaptive routing | [Link](https://arxiv.org/abs/2609.10346) | — |

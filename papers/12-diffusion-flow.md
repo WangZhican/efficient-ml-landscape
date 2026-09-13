@@ -1,10 +1,10 @@
 # 12 · Diffusion / Flow Acceleration
 
-> **249 canonical papers** mapped here, plus a broader **110-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **250 canonical papers** mapped here, plus a broader **111-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 110 tracked
+## 🆕 Latest 30 Days · 111 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -103,6 +103,7 @@
 | **P0 · Strong** | **When Denoising Hurts: Rethinking the Terminal Step of Diffusion Time Series Forecasters -- Extended Version** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.14067) | — |
 | **P0 · Strong** | **ForgeWM: Progressive Causal Training for Few-Step Action-Conditioned Video World Models** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.14022) | — |
 | **P0 · Strong** | **Post-training Quantization for Hybrid Iterative Generative Models** | Fresh / preprint | LLM serving / quantization | [Link](https://arxiv.org/abs/2608.13932) | — |
+| **P0 · Strong** | **CForce: Boosting Parallel Decoding for dLLMs via Consistency Forcing** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2608.13925) | [Repo](https://github.com/inclusionAI/dFactory) |
 | **P0 · Strong** | **DARTree: Speculative Diffusion Decoding with Autoregressive Draft Trees** | arXiv 2026 | speculative decoding / diffusion language model acceleration | [Link](https://arxiv.org/abs/2608.13524) | — |
 | **P2 · Relevant** | **Vid2WAM: Distilling Video Diffusion Priors into World Action Models** | Fresh / preprint | llm_serving / gen / physical | [Link](https://arxiv.org/abs/2608.08558) | — |
 | **P2 · Relevant** | **SPADE: An Input-Adaptive Sparse Attention Engine for Fast Video Diffusion Models Inference** | Fresh / preprint | LLM serving; sparsity / pruning; generation acceleration; edge / heterogeneous AI | [Link](https://arxiv.org/abs/2608.03335) | — |

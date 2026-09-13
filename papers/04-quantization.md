@@ -1,10 +1,10 @@
 # 04 · Quantization
 
-> **277 canonical papers** mapped here, plus a broader **210-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **279 canonical papers** mapped here, plus a broader **212-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 210 tracked
+## 🆕 Latest 30 Days · 212 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -44,6 +44,7 @@
 | **P1 · Watch** | **BEFORE THE FLIP: Measuring Hidden Score Shifts In Quantized Vision Language Models Before The Answer Changes for Visual Question Answering** | arXiv 2026 | quantization / multimodal VLM / evaluation methodology | [Link](https://arxiv.org/abs/2609.06922) | — |
 | **P1 · Watch** | **Data Efficient Sample Selection for In-Context Learning** | arXiv 2026 | efficient reasoning/agent systems / in-context learning / sample selection | [Link](https://arxiv.org/abs/2609.06670) | — |
 | **P1 · Watch** | **Multi-History-Step SDE Inversion for Image Editing with Superior Regional Awareness** | arXiv 2026 | diffusion/flow acceleration / image editing / low-step sampling | [Link](https://arxiv.org/abs/2609.06602) | — |
+| **P0 · Strong** | **Layer-Wise Gate-Controlled Prompt Truncation in a Multimodal Chest X-Ray Classifier** | Fresh / preprint | quantization / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.06590) | [Repo](https://github.com/jingtaolei/mope-dynamic-prompt-truncation) |
 | **P1 · Watch** | **Steering Under Compression: Dose-Response, Capability Cost, and Failure Asymmetry in Quantized LLMs** | arXiv 2026 | quantization / LLM deployment / activation steering / capability-cost characterization | [Link](https://arxiv.org/abs/2609.06473) | — |
 | **P1 · Watch** | **Stability and Generalization of Straight-Through Estimators for Training Two-Layer Quantized Neural Networks** | arXiv 2026 | quantization | [Link](https://arxiv.org/abs/2609.06430) | — |
 | **P1 · Watch** | **SIDE: Sensor Impersonation Detection at the Edge via Sequence Prediction** | arXiv 2026 | edge/cloud/heterogeneous AI systems / edge inference / quantization / tiny ML | [Link](https://arxiv.org/abs/2609.06271) | — |
@@ -164,6 +165,7 @@
 | **P1 · Watch** | **Cacheable by Design? Training Mixture-of-Experts Routers for Locality Against the Edge Memory-Bandwidth Wall: A Pre-Registered Negative Result with a Systems Measurement Study** | Fresh / preprint | edge MoE serving / expert caching / memory bandwidth | [Link](https://arxiv.org/abs/2608.18261) | — |
 | **P0 · Strong** | **Efficient INT8 Inference of Small NLP Models on Server CPUs with PyTorch Native Stack** | Fresh / preprint | CPU INT8 inference / PyTorch-TorchAO / TorchInductor | [Link](https://arxiv.org/abs/2608.18182) | — |
 | **P0 · Strong** | **TileMix: Tile-Centric Mixed-Precision Attention for LLM Inference Acceleration** | Fresh / preprint | mixed-precision attention kernel / long-context inference | [Link](https://arxiv.org/abs/2608.17336) | — |
+| **P0 · Strong** | **Hypergraph-based Multimodal Retrieval-Augmented Generation with Incremental Refinement** | Fresh / preprint | quantization / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.16628) | [Repo](https://github.com/ShenAoChen2001/MMHRAG) |
 | **P1 · Watch** | **GRNEdit: Efficient General Video Editing from a New Binary-Evidence Perspective in Generative Refinement Networks** | Fresh / preprint | LLM serving / quantization / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.16328) | — |
 | **P2 · Relevant** | **Nexus: Structured Synergy for Efficient Text-to-Image Generation using Rectified Flow Model** | Fresh / preprint | image generation / sparse architecture / low-bit / flow matching | [Link](https://arxiv.org/abs/2608.16104) | — |
 | **P1 · Watch** | **Noesis: Bidirectional Graph-RAG with Adaptive Parallelism and Cross-Knowledge-Base Semantic Discovery** | Fresh / preprint | quantization | [Link](https://arxiv.org/abs/2608.15919) | — |
