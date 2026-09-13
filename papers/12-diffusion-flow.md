@@ -1,10 +1,10 @@
 # 12 · Diffusion / Flow Acceleration
 
-> **255 canonical papers** mapped here, plus a broader **116-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **256 canonical papers** mapped here, plus a broader **118-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 116 tracked
+## 🆕 Latest 30 Days · 118 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -64,6 +64,8 @@
 | **P0 · Strong** | **EpaCache: Error-Propagation-Aware Caching for Accelerating Diffusion-Based Visual Generation** | Fresh / preprint | video/image generation acceleration / diffusion cache | [Link](https://arxiv.org/abs/2608.29264) | — |
 | **P1 · Watch** | **A-MADiff: Attention-Guided Multi-Agent DRL with Diffusion Policies for Memory-Aware Task Orchestration in Mobile AIGC Networks** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2608.29255) | — |
 | **P0 · Strong** | **AdaVLA: Adaptive Step Flow Matching for Training-free Acceleration of Vision-Language-Action Models** | Fresh / preprint | VLA/WAM/Physical AI serving / flow acceleration | [Link](https://arxiv.org/abs/2608.29208) | — |
+| **P1 · Watch** | **Foundational feature fusion for conditional flow matching in 6D pose estimation** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2608.29183) | — |
+| **P0 · Strong** | **Algorithmic Simplification for Million-Vertex Diffusion History Reconstruction** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.28955) | — |
 | **P0 · Strong** | **LayerRecall: A State-Conditioned Memory Router for Long-Horizon Consistency in Video Generation** | Fresh / preprint | LLM serving / KV cache/long-context / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.28460) | — |
 | **P0 · Strong** | **DensityKV: Density-Guided KV Cache Compression for Long Video Generation** | arXiv 2026 | KV cache / video generation acceleration / efficient attention | [Link](https://arxiv.org/abs/2608.27922) | [Repo](https://github.com/ZhaoWQQ/DensityKV) |
 | **P1 · Watch** | **Survival-Guided Length Control for Efficient Diffusion Language Models** | Fresh / preprint | diffusion LLM inference / efficient decoding | [Link](https://arxiv.org/abs/2608.26374) | — |

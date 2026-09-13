@@ -1,10 +1,10 @@
 # 08 · GPU Kernel / DSL / Compiler
 
-> **515 canonical papers** mapped here, plus a broader **262-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **518 canonical papers** mapped here, plus a broader **266-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 262 tracked
+## 🆕 Latest 30 Days · 266 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -123,6 +123,7 @@
 | **P0 · Strong** | **Linear Fusion MultiDiffusion for Fast Training-Free Spherical Panorama Generation** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2609.01997) | — |
 | **P0 · Strong** | **RT-HiSS: Ray Tracing Accelerated High Dimensional Vector Similarity Searches** | arXiv 2026 | GPU kernel/accelerators / vector search / heterogeneous GPU cores | [Link](https://arxiv.org/abs/2609.01975) | — |
 | **P1 · Watch** | **Post-Training Ternarization of Qwen3-4B Capability, Effective Bit Budget, Storage Compression, and Deployment** | arXiv 2026 | quantization / LLM deployment / edge systems | [Link](https://arxiv.org/abs/2609.01962) | — |
+| **P0 · Strong** | **InKAN: B-Spline KANs via Truncated Power Form** | Fresh / preprint | LLM serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.01956) | — |
 | **P0 · Strong** | **CREDIT: Cost-guided Reduction-reuse with Efficient DSMEM Inter-CTA Tiling** | arXiv 2026 | GPU kernel/DSL/compilers / NVIDIA DSMEM / inter-CTA tiling | [Link](https://arxiv.org/abs/2609.01864) | [Repo](https://github.com/zhengxiongli08/CREDIT) |
 | **P0 · Strong** | **SSAKG 2.0: An Open-Source Package for Structural Associative Sequence Memory and Context-Based Retrieval** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2609.01849) | — |
 | **P0 · Strong** | **CacheBridge: Efficient Cross-Model KV Cache Transfer** | arXiv 2026 | KV cache / multi-model serving / GPU kernel | [Link](https://arxiv.org/abs/2609.00891) | — |
@@ -136,8 +137,11 @@
 | **P0 · Strong** | **Budget-Aware Compression Pipeline for Single-GPU LLM Inference: Methods, Trade-offs, and Coupling Effects** | GroundLM 2026 (EMNLP 2026 Workshop) | LLM serving / quantization / pruning / KV cache / single-GPU inference | [Link](https://arxiv.org/abs/2608.30076) | — |
 | **P1 · Watch** | **CUDA-Harness: Harnessing Agentic CUDA Kernel Generation and Optimization from Natural Language** | Fresh / preprint | GPU kernel/DSL/compilers / video/image generation acceleration / efficient reasoning/agent systems / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.00058) | — |
 | **P0 · Strong** | **LoGo: Token-Level Dynamic Local-Global Attention** | Fresh / preprint | KV cache/long-context / GPU kernel/DSL/compilers | [Link](https://arxiv.org/abs/2608.29539) | — |
+| **P0 · Strong** | **FuncRoom-Agent: Sequential Feed-Forward 3D Functional Indoor Scene Generation** | Fresh / preprint | GPU kernel/DSL/compilers / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.29519) | — |
 | **P1 · Watch** | **A-MADiff: Attention-Guided Multi-Agent DRL with Diffusion Policies for Memory-Aware Task Orchestration in Mobile AIGC Networks** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2608.29255) | — |
+| **P1 · Watch** | **Foundational feature fusion for conditional flow matching in 6D pose estimation** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2608.29183) | — |
 | **P0 · Strong** | **Efficient GPU Retrieval for Semantic Search** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2608.28968) | — |
+| **P0 · Strong** | **Algorithmic Simplification for Million-Vertex Diffusion History Reconstruction** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.28955) | — |
 | **P0 · Strong** | **Training Communication-Efficient Mixture-of-Experts Language Models with Layer Re-Configuration** | arXiv 2026 | MoE systems / distributed training / communication efficiency | [Link](https://arxiv.org/abs/2608.28511) | — |
 | **P0 · Strong** | **Parser States Already Know: Structure-Conditioned KV Persistence for Structured Generation** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.28276) | — |
 | **P1 · Watch** | **AI Hardware Accelerators for Large Language Models: Architectures and the Memory Wall** | Fresh / preprint | KV cache/long-context / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.28048) | — |

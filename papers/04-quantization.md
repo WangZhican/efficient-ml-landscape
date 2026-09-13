@@ -1,10 +1,10 @@
 # 04 · Quantization
 
-> **287 canonical papers** mapped here, plus a broader **227-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **288 canonical papers** mapped here, plus a broader **232-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 227 tracked
+## 🆕 Latest 30 Days · 232 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -40,6 +40,7 @@
 | **P0 · Strong** | **Analytical Resource Management for Fine-grained MoE Computation-Communication Overlap** | arXiv 2026 | MoE systems/accelerators / distributed inference / compute-communication overlap | [Link](https://arxiv.org/abs/2609.07536) | — |
 | **P1 · Watch** | **Parser-Free VLM Verification for Federated Weakly Supervised Video Anomaly Detection** | arXiv 2026 | multimodal/MLLM serving / selective inference / federated edge AI | [Link](https://arxiv.org/abs/2609.07455) | — |
 | **P1 · Watch** | **EnvPilot: Systematic Design and Evaluation of an Experience-Augmented Agent for Software Environment Setup** | arXiv 2026 | efficient reasoning/agent systems / software engineering agents / trajectory memory / experience reuse | [Link](https://arxiv.org/abs/2609.07357) | — |
+| **P1 · Watch** | **How Long Until Your Robot Ignores You? A Safety Benchmark for LLM Orchestrators in Human-Humanoid Collaboration** | Fresh / preprint | quantization / video/image generation acceleration | [Link](https://arxiv.org/abs/2609.07288) | — |
 | **P1 · Watch** | **RoboDreamer: Anticipatory Humanoid Locomotion with Predictive State-Space Models** | arXiv 2026 | VLA/WAM/Physical AI serving / humanoid control / action chunking | [Link](https://arxiv.org/abs/2609.07096) | — |
 | **P1 · Watch** | **BEFORE THE FLIP: Measuring Hidden Score Shifts In Quantized Vision Language Models Before The Answer Changes for Visual Question Answering** | arXiv 2026 | quantization / multimodal VLM / evaluation methodology | [Link](https://arxiv.org/abs/2609.06922) | — |
 | **P1 · Watch** | **Data Efficient Sample Selection for In-Context Learning** | arXiv 2026 | efficient reasoning/agent systems / in-context learning / sample selection | [Link](https://arxiv.org/abs/2609.06670) | — |
@@ -51,6 +52,7 @@
 | **P0 · Strong** | **Shift-Accumulate Attention: Multiplier-Free Query--Key Products for Transformer Decoding** | arXiv 2026 | quantization / efficient attention / KV cache / GPU kernels | [Link](https://arxiv.org/abs/2609.09208) | — |
 | **P0 · Strong** | **All for 1-Bit: Towards Genuine 1-Bit Post-Training Quantization for LLMs** | arXiv 2026 | quantization / LLM inference / genuine 1-bit PTQ | [Link](https://arxiv.org/abs/2609.06161) | — |
 | **P1 · Watch** | **Neuron-Guided Fine-Tuning: Unlocking Efficient Alignment Mechanisms for Large Language Models** | arXiv 2026 | quantization/sparsity/pruning / parameter-efficient LLM fine-tuning / activation-guided updates | [Link](https://arxiv.org/abs/2609.05913) | — |
+| **P1 · Watch** | **UniRRM: Unified Reasoning Reward Models Across Languages and Evaluation Paradigms** | Fresh / preprint | video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.05910) | — |
 | **P1 · Watch** | **From Narrative to Auditable Forecasts: A Structured Scaffold for Agentic Forecasting** | arXiv 2026 | efficient reasoning/agent systems / adaptive scaffold / cost-aware inference | [Link](https://arxiv.org/abs/2609.05905) | — |
 | **P1 · Watch** | **Broken on Arrival: Silently Defective LLM Artifacts in Public Model Registries and How to Catch Them** | arXiv 2026 | quantization / deployment reliability / model registry QA | [Link](https://arxiv.org/abs/2609.05881) | — |
 | **P1 · Watch** | **RAPTOR: Role-Aware Private Training for Mixture-of-Experts** | arXiv 2026 | MoE systems/accelerators / distributed training / private fine-tuning | [Link](https://arxiv.org/abs/2609.05770) | — |
@@ -89,6 +91,7 @@
 | **P1 · Watch** | **Towards Behavior Tree-Guided Vulnerability Detection with Lightweight LLMs** | Fresh / preprint | quantization / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.01758) | — |
 | **P1 · Watch** | **SCULPT: Training Edge Vision Models for Post-Training Quantization Readiness** | arXiv 2026 | quantization / edge AI / deployment | [Link](https://arxiv.org/abs/2609.01743) | — |
 | **P0 · Strong** | **The Structure of Quantization Damage in LLMs: Why the Next Bit Should Be Spent Globally** | Fresh / preprint | LLM serving / quantization / video/image generation acceleration | [Link](https://arxiv.org/abs/2609.01587) | — |
+| **P0 · Strong** | **Cheap Verifiers, Large Blind Spots: Measuring the Reliability Cost of Cost-Saving Cascades** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2609.01345) | — |
 | **P0 · Strong** | **FORGE: Forward-Only Test-Time Adaptation for Integer-Only Vision Models on Microcontrollers** | Fresh / preprint | quantization | [Link](https://arxiv.org/abs/2609.01683) | — |
 | **P0 · Strong** | **Compressing AI Traffic: Standardized Neural Network Coding of Visual-Token Representations in Split Vision-Language Inference** | Fresh / preprint | quantization / multimodal/MLLM serving | [Link](https://arxiv.org/abs/2609.01200) | — |
 | **P1 · Watch** | **HiveTraceGuard-Pro: A Compact Generative Guardrail for Prompt Injection, Jailbreaks, and Adversarial Obfuscation** | Fresh / preprint | LLM serving / quantization / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.01046) | — |
@@ -110,6 +113,7 @@
 | **P1 · Watch** | **A.X K2 Technical Report** | Fresh / preprint | LLM serving / KV cache/long-context / quantization / sparsity/pruning / MoE systems/accelerators / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.30181) | — |
 | **P0 · Strong** | **Verification-Aware Training for Speculative Decoding** | Fresh / preprint | speculative decoding / quantization | [Link](https://arxiv.org/abs/2608.30135) | [Repo](https://github.com/naver-ai/vat) |
 | **P0 · Strong** | **Budget-Aware Compression Pipeline for Single-GPU LLM Inference: Methods, Trade-offs, and Coupling Effects** | GroundLM 2026 (EMNLP 2026 Workshop) | LLM serving / quantization / pruning / KV cache / single-GPU inference | [Link](https://arxiv.org/abs/2608.30076) | — |
+| **P1 · Watch** | **Influence Is Not Authority: When Causal Guardrail Signals Make Legitimate Tool Use Look Like an Attack in Tool-Using LLM Agents** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.29942) | — |
 | **P0 · Strong** | **OCGQuant: Outlier-Companion Grouping for NVFP4 Quantization** | arXiv 2026 | quantization / NVFP4 / LLM inference / activation outliers | [Link](https://arxiv.org/abs/2609.00066) | [Repo](https://github.com/Eshamont/OCGQuant) |
 | **P0 · Strong** | **REAL-Q: E2E LLM Quantization via Dynamic Gradient Descent** | Fresh / preprint | quantization | [Link](https://arxiv.org/abs/2609.00049) | — |
 | **P0 · Strong** | **Hydra: A Navigation World Action Model with Discrete Latent Planning and Continuous Flow-Matching Execution** | Fresh / preprint | quantization / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.28995) | — |
@@ -122,6 +126,7 @@
 | **P0 · Strong** | **HyQuant: Hybrid-Precision Quantization for LLM Attention** | arXiv 2026 | quantization / KV cache / efficient attention | [Link](https://arxiv.org/abs/2608.27875) | [Repo](https://github.com/jerrysfls/HyQuant) |
 | **P1 · Watch** | **Activation Outliers Matter: Robust Recovery for Quantized Multimodal LLMs** | Fresh / preprint | quantization / multimodal / video generation | [Link](https://arxiv.org/abs/2608.26581) | — |
 | **P1 · Watch** | **Vision-centric generative AI models: A software-hardware perspective** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.27199) | — |
+| **P1 · Watch** | **Video-OPSD: Exploiting Privileged Visual Evidence for On-Policy Self-Distillation in Video Large Language Models** | Fresh / preprint | video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.27065) | — |
 | **P1 · Watch** | **A Layer Importance Metric for Quantization Accounting for the Speed-Quality Trade-off in Autoregressive Models** | Fresh / preprint | quantization / edge inference / hardware-aware metric | [Link](https://arxiv.org/abs/2608.26926) | — |
 | **P0 · Strong** | **DAMP: Decay-Aware Mixed-Precision Recurrent-State Quantization** | arXiv 2026 | quantization / recurrent-state memory / LLM inference | [Link](https://arxiv.org/abs/2608.27513) | — |
 | **P1 · Watch** | **A Statistical Audit of Physical AI Benchmark Redundancy** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2608.25940) | — |

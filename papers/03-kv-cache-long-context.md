@@ -1,10 +1,10 @@
 # 03 · KV Cache / Long Context
 
-> **493 canonical papers** mapped here, plus a broader **214-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **493 canonical papers** mapped here, plus a broader **215-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 214 tracked
+## 🆕 Latest 30 Days · 215 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -95,6 +95,7 @@
 | **P0 · Strong** | **A Universal Context-Reuse Layer for Cross-Model KV Sharing** | arXiv 2026 | KV cache / LLM serving / cross-model context reuse / multi-agent inference | [Link](https://arxiv.org/abs/2608.30963) | — |
 | **P0 · Strong** | **Faster Than Flash: Exploiting Attention Sparsity for Efficient Long-Context Decoding** | ICML 2026 | long-context LLM decoding / sparse attention / fused Triton kernel | [Link](https://arxiv.org/abs/2609.00097) | [Repo](https://github.com/qluoluo/faster-flash-decoding) |
 | **P0 · Strong** | **TopoCompress: Long Context Compression via Graph-Wired Semantic Trajectories** | Fresh / preprint | LLM serving / KV cache/long-context / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.30811) | — |
+| **P1 · Watch** | **Safin-1: Safety from Within through Memory-Native State Evolution** | Fresh / preprint | KV cache/long-context / video/image generation acceleration | [Link](https://arxiv.org/abs/2609.00092) | — |
 | **P1 · Watch** | **Can Video World Models Track Unobserved World States?** | Fresh / preprint | KV cache/long-context / efficient attention / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.30692) | — |
 | **P1 · Watch** | **What It Costs to Compose, Rebuild, and Correct Precomputed Memory** | Fresh / preprint | LLM serving / KV cache/long-context / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.30647) | — |
 | **P1 · Watch** | **TuringLLM: Efficiently Scaling Foundation Models Toward Physical AI** | arXiv 2026 | Physical AI / efficient foundation model / MoE routing / hybrid attention / long-context inference | [Link](https://arxiv.org/abs/2608.30567) | — |

@@ -1,10 +1,10 @@
 # 09 · Distributed Training / Inference
 
-> **386 canonical papers** mapped here, plus a broader **193-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **387 canonical papers** mapped here, plus a broader **198-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 193 tracked
+## 🆕 Latest 30 Days · 198 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -46,12 +46,14 @@
 | **P0 · Strong** | **Scalability Analysis of Distributed Kolmogorov-Arnold Network Training on High-Performance Computing Systems** | arXiv 2026 | distributed training/inference / multi-GPU scaling / HPC / DDP | [Link](https://arxiv.org/abs/2609.07740) | — |
 | **P1 · Watch** | **MpSub: A Momentum p-Dimensional Subspace Trust-Region Method for Derivative-Free Fine-Tuning of Large Language Models** | arXiv 2026 | LLM training efficiency / memory-efficient fine-tuning / zeroth-order optimization | [Link](https://arxiv.org/abs/2609.07666) | — |
 | **P0 · Strong** | **GPU-Accelerated Hypergraph Partitioning and Placement to Map SNNs on Neuromorphic Hardware** | arXiv 2026 | edge/cloud/heterogeneous AI systems / neuromorphic accelerator / GPU compiler-mapping | [Link](https://arxiv.org/abs/2609.07577) | — |
+| **P1 · Watch** | **SeisBench DAS: A machine learning framework for Distributed Acoustic Sensing** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2609.07558) | — |
 | **P0 · Strong** | **Analytical Resource Management for Fine-grained MoE Computation-Communication Overlap** | arXiv 2026 | MoE systems/accelerators / distributed inference / compute-communication overlap | [Link](https://arxiv.org/abs/2609.07536) | — |
 | **P0 · Strong** | **Parallelism Strategy Chaining for Fast Training Convergence** | arXiv 2026 | distributed training/inference / parallelism / online adaptation | [Link](https://arxiv.org/abs/2609.07236) | — |
 | **P1 · Watch** | **FedRAW: Preserving Rare-Label Influence in Asynchronous Federated Learning** | arXiv 2026 | distributed training/inference / edge AI | [Link](https://arxiv.org/abs/2609.07192) | — |
 | **P0 · Strong** | **Online Draft Co-Training for Speculative Decoding in Large-Scale, Long-Context RL Post-Training** | arXiv 2026 | speculative decoding / RL post-training / context parallelism / pipeline parallelism | [Link](https://arxiv.org/abs/2609.07108) | [Repo](https://github.com/NVIDIA-NeMo/RL) |
 | **P0 · Strong** | **TreeRedux: Separating Concerns in Spark's Distributed Tree Aggregation** | arXiv 2026 | distributed training/inference / data systems / runtime memory scalability | [Link](https://arxiv.org/abs/2609.06982) | — |
 | **P1 · Watch** | **Distributed Dexterous Manipulation with Spatially Conditioned Multi-Agent Transformers** | arXiv 2026 | VLA/WAM/Physical AI serving / multi-agent transformer / dexterous manipulation | [Link](https://arxiv.org/abs/2609.06930) | — |
+| **P1 · Watch** | **Constrained Bayesian Optimization for Hierarchical Federated Learning in IoT Networks for Plant Disease Classification** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2609.06830) | — |
 | **P0 · Strong** | **A HIP-Compatible Accelerator Backend for Fourier-Bessel Particle-in-Cell Simulations on CPU/DCU Heterogeneous Clusters** | arXiv 2026 | GPU kernel/DSL/compilers / heterogeneous accelerators / HIP portability / distributed runtime | [Link](https://arxiv.org/abs/2609.06680) | — |
 | **P0 · Strong** | **RGB Input Pipelines: Throughput, GPU Memory, and Transformation Coverage** | arXiv 2026 | GPU kernel/DSL/compilers / data pipeline / training systems / input preprocessing | [Link](https://arxiv.org/abs/2609.06635) | — |
 | **P1 · Watch** | **Assessing Fixed-Batch Reporting for Deadline-constrained Inference in Intermittently Powered IoT** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2609.06585) | — |
@@ -109,7 +111,9 @@
 | **P0 · Strong** | **Codebook Agent: Amortized Topology Design for LLM Multi-Agent Systems** | arXiv 2026 | efficient reasoning/agent systems / multi-agent topology / inference cost | [Link](https://arxiv.org/abs/2609.02264) | — |
 | **P1 · Watch** | **Compositional Spectral Prompts for LLM-based Online Time Series Forecasting** | Fresh / preprint | edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.02093) | [Repo](https://github.com/seungyoon-Choi/CoSPOT) |
 | **P0 · Strong** | **Scaling Inference Prefill with High-Radix Photonic Interconnects** | CoRR 2026 | distributed inference / LLM prefill / photonic interconnect / scale-up systems | [Link](https://arxiv.org/abs/2609.01821) | — |
+| **P1 · Watch** | **D-FROST: Decentralized Federated pRompt-tuning via Optimal tranSporT for Non-IID and Imbalanced Data** | Fresh / preprint | video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.01802) | — |
 | **P0 · Strong** | **Just Talk Once: Communication-Efficient Split Federated LLM Fine-Tuning on Edge Devices** | CoRR 2026 | distributed training / edge-cloud AI / split federated LLM fine-tuning | [Link](https://arxiv.org/abs/2609.01457) | — |
+| **P0 · Strong** | **Contribution-Aware Bandwidth Allocation for Multimodal Split Learning** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2609.01406) | — |
 | **P0 · Strong** | **Compressing AI Traffic: Standardized Neural Network Coding of Visual-Token Representations in Split Vision-Language Inference** | Fresh / preprint | quantization / multimodal/MLLM serving | [Link](https://arxiv.org/abs/2609.01200) | — |
 | **P0 · Strong** | **Update for Decisions, Not Freshness: Goal-Oriented Status Updating and Selective Offloading at the Network Edge** | Fresh / preprint | edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.01082) | — |
 | **P0 · Strong** | **AInfer-PD: Communication-Safe In-Place Prefill-Decode Multiplexing for Distributed MoE Rollouts** | arXiv 2026 | LLM serving / agentic RL rollout / prefill-decode multiplexing / distributed MoE / communication | [Link](https://arxiv.org/abs/2609.00993) | — |
@@ -120,6 +124,7 @@
 | **P1 · Watch** | **Breaking the Structural Identity: Personalized Federated LoRA Fine-tuning under Rank Heterogeneity** | Fresh / preprint | edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.00632) | — |
 | **P0 · Strong** | **DRLM: Deep Reinforcement Learning-Based LLM Query Orchestration in Edge Environments** | arXiv 2026 | edge/cloud heterogeneous AI systems / LLM serving / query orchestration / model-device-quantization routing | [Link](https://arxiv.org/abs/2609.00442) | — |
 | **P0 · Strong** | **Provably Efficient Federated Reinforcement Learning with Linear Function Approximation and Logarithmic Communication Cost** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2609.00193) | — |
+| **P1 · Watch** | **Does On-Policy Distillation Really Distill? From Noisy Teacher to Self-Improvement** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.31046) | — |
 | **P0 · Strong** | **Learning-Theoretic Foundation for General Coded Computing: The Straggler Setting** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.28910) | — |
 | **P0 · Strong** | **Training Communication-Efficient Mixture-of-Experts Language Models with Layer Re-Configuration** | arXiv 2026 | MoE systems / distributed training / communication efficiency | [Link](https://arxiv.org/abs/2608.28511) | — |
 | **P1 · Watch** | **LUCID: An Agentic AI Framework on Digital-Twin in the Loop for QoS-Guaranteeing Robotic Control** | Fresh / preprint | LLM serving / video/image generation acceleration / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.28437) | — |

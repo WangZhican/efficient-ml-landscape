@@ -15172,6 +15172,26 @@
     ]
   },
   {
+    "title": "A Mathematical Theory of Reusable Neural Bases for Network Compression",
+    "venue": "Fresh / preprint",
+    "topic": "Efficient ML / AI Infra",
+    "arxiv": "2609.01550",
+    "doi": "",
+    "official_id": "arXiv:2609.01550",
+    "paper_url": "https://arxiv.org/abs/2609.01550",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "LRNBA represents network blocks as combinations of shared reusable neural bases to directly reduce parameter and memory cost while allowing wider/deeper models under the same parameter budget; direct model-memory efficiency architecture.",
+    "published_at": "2026-09-01T17:16:21Z",
+    "updated_at": "2026-09-02T18:46:53Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "A Pilot Study of Autocompleting Tokenizers",
     "venue": "Fresh / preprint",
     "topic": "LLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems",
@@ -15562,6 +15582,27 @@
     ]
   },
   {
+    "title": "Algorithmic Simplification for Million-Vertex Diffusion History Reconstruction",
+    "venue": "Fresh / preprint",
+    "topic": "Efficient ML / AI Infra",
+    "arxiv": "2608.28955",
+    "doi": "",
+    "official_id": "arXiv:2608.28955",
+    "paper_url": "https://arxiv.org/abs/2608.28955",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Battus-Z removes learned proposal, MCMC, and parameter fitting from million-vertex diffusion-history reconstruction while matching published quality; its CUDA implementation cuts geometric-mean algorithm interval by 5.1x for SI and 20.3x for SIR.",
+    "published_at": "2026-08-28T23:56:26Z",
+    "updated_at": "2026-08-28T23:56:26Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "Alignment-Free Text-Audiobox for Voice Dubbing and Full-Duplex Dialogue Synthesis",
     "venue": "Fresh / preprint",
     "topic": "video/image generation acceleration",
@@ -15621,6 +15662,26 @@
     "directions": [
       "LLM Serving",
       "Sparsity / Pruning"
+    ]
+  },
+  {
+    "title": "An Emerging NVM-Based On-Chip Training Architecture with Non-Ideality Mitigation Through Bipolar Weight Distributions",
+    "venue": "Fresh / preprint",
+    "topic": "Efficient ML / AI Infra",
+    "arxiv": "2609.01948",
+    "doi": "",
+    "official_id": "arXiv:2609.01948",
+    "paper_url": "https://arxiv.org/abs/2609.01948",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "NOVA is an eNVM in-memory-computing architecture for on-chip neural-network training with device-calibrated non-ideality mitigation; direct accelerator/energy-efficiency architecture contribution.",
+    "published_at": "2026-09-01T23:42:09Z",
+    "updated_at": "2026-09-01T23:42:09Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -15755,6 +15816,26 @@
     "tracking_tier": "P0 · Strong",
     "directions": [
       "Quantization"
+    ]
+  },
+  {
+    "title": "ASIL: Replacing Screenshot-and-Click with Structured State and Semantic Actions",
+    "venue": "Fresh / preprint",
+    "topic": "Efficient ML / AI Infra",
+    "arxiv": "2608.26991",
+    "doi": "",
+    "official_id": "arXiv:2608.26991",
+    "paper_url": "https://arxiv.org/abs/2608.26991",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "ASIL replaces screenshot-and-click with structured JSON state and semantic executable actions across 15 applications; it executes fewer than five actions per task and delivers large strict-success gains over screenshot control, making this direct agent-runtime/interface efficiency evidence.",
+    "published_at": "2026-08-27T11:38:19Z",
+    "updated_at": "2026-08-27T11:38:19Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -16560,6 +16641,27 @@
     ]
   },
   {
+    "title": "Cheap Verifiers, Large Blind Spots: Measuring the Reliability Cost of Cost-Saving Cascades",
+    "venue": "Fresh / preprint",
+    "topic": "Efficient ML / AI Infra",
+    "arxiv": "2609.01345",
+    "doi": "",
+    "official_id": "arXiv:2609.01345",
+    "paper_url": "https://arxiv.org/abs/2609.01345",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Cost-saving LLM cascade study quantifies verifier blind spots, escalation rate and the point where stronger verification erases savings; high-value negative serving evidence directly about cascade cost/reliability trade-offs.",
+    "published_at": "2026-09-01T14:53:41Z",
+    "updated_at": "2026-09-04T13:32:03Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Quantization"
+    ]
+  },
+  {
     "title": "Closing Cost-Quality Gap in Document VLMs: Difficulty-Aware Data Curation and Quality-Adjusted Deployment Economics",
     "venue": "Fresh / preprint",
     "topic": "LLM serving / MoE systems/accelerators / edge/cloud/heterogeneous AI systems",
@@ -16858,6 +16960,28 @@
     "directions": [
       "Video / Image Generation",
       "Diffusion / Flow Acceleration",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Contribution-Aware Bandwidth Allocation for Multimodal Split Learning",
+    "venue": "Fresh / preprint",
+    "topic": "Efficient ML / AI Infra",
+    "arxiv": "2609.01406",
+    "doi": "",
+    "official_id": "arXiv:2609.01406",
+    "paper_url": "https://arxiv.org/abs/2609.01406",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "ModalShare allocates a fixed split-learning uplink budget across modalities using server-side Shapley contribution scores, adding no client computation or uplink traffic; direct edge multimodal communication-efficiency contribution.",
+    "published_at": "2026-09-01T15:28:16Z",
+    "updated_at": "2026-09-01T15:28:16Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Distributed Training / Inference",
+      "Multimodal / MLLM Serving",
       "Edge / Cloud / Heterogeneous AI"
     ]
   },
@@ -17863,6 +17987,26 @@
     ]
   },
   {
+    "title": "Error Detection for PET/CT Radiology Reports: Domain-Specific vs Large Language Models",
+    "venue": "Fresh / preprint",
+    "topic": "Efficient ML / AI Infra",
+    "arxiv": "2608.30021",
+    "doi": "",
+    "official_id": "arXiv:2608.30021",
+    "paper_url": "https://arxiv.org/abs/2608.30021",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "A compact 15M-parameter domain model reaches 94.4% balanced accuracy on PET/CT report error detection, outperforming much larger prompted LLMs and matching adapted Llama-3.3-70B with far lower computational requirements; useful small-model deployment evidence.",
+    "published_at": "2026-08-30T20:23:01Z",
+    "updated_at": "2026-09-07T18:00:26Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "ET-Prune: Evidence-Aware Dynamic Budgeting for Visual Token Pruning in Text-Rich MLLMs",
     "venue": "Fresh / preprint",
     "topic": "sparsity/pruning / multimodal/MLLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems",
@@ -18406,6 +18550,28 @@
     ]
   },
   {
+    "title": "FuncRoom-Agent: Sequential Feed-Forward 3D Functional Indoor Scene Generation",
+    "venue": "Fresh / preprint",
+    "topic": "GPU kernel/DSL/compilers / efficient reasoning/agent systems",
+    "arxiv": "2608.29519",
+    "doi": "",
+    "official_id": "arXiv:2608.29519",
+    "paper_url": "https://arxiv.org/abs/2608.29519",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "FuncRoom-Agent distills costly generate-evaluate-revise 3D scene construction into a sequential feed-forward executable-DSL expert, eliminating teacher agents, online critics and iterative repair at inference; direct agent/generation runtime simplification.",
+    "published_at": "2026-08-30T02:48:11Z",
+    "updated_at": "2026-08-30T02:48:11Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Video / Image Generation",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "Funnel of Thoughts: Efficient Test-Time Scaling via Early Voting and Rollout Pruning",
     "venue": "Fresh / preprint",
     "topic": "sparsity/pruning / video/image generation acceleration",
@@ -18515,6 +18681,27 @@
     "directions": [
       "Video / Image Generation",
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "Git4Data: Database-Native Version Control for AI Agents",
+    "venue": "Fresh / preprint",
+    "topic": "video/image generation acceleration / efficient reasoning/agent systems",
+    "arxiv": "2609.02106",
+    "doi": "",
+    "official_id": "arXiv:2609.02106",
+    "paper_url": "https://arxiv.org/abs/2609.02106",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Git4Data provides database-native snapshot/branch/diff/merge for parallel agent data states with cost proportional to changed data via immutable storage and MVCC; on agentic BranchBench it beats DoltDB by up to an order of magnitude.",
+    "published_at": "2026-09-02T04:50:09Z",
+    "updated_at": "2026-09-02T04:50:09Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Video / Image Generation",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -18873,6 +19060,28 @@
     ]
   },
   {
+    "title": "Hidden relationships in a document-derived property graph: top-k chunk embeddings and inverse-distance weighting over a dynamically evolving ontology",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / video/image generation acceleration",
+    "arxiv": "2609.00387",
+    "doi": "",
+    "official_id": "arXiv:2609.00387",
+    "paper_url": "https://arxiv.org/abs/2609.00387",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Engine-neutral property-graph retrieval uses compressed chunk embeddings and an incremental top-k formulation; 768D/240D retain 92%/72% edge fidelity versus 3072D and the top-k formulation is 25x faster, direct RAG/retrieval-infra evidence.",
+    "published_at": "2026-08-31T21:18:14Z",
+    "updated_at": "2026-08-31T21:18:14Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Video / Image Generation",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "HIERA: Workload-Aware Planning Across Implementation Spaces for GPU Kernel Optimization",
     "venue": "Fresh / preprint",
     "topic": "GPU kernel/DSL/compilers / video/image generation acceleration",
@@ -19005,6 +19214,26 @@
       "GPU Kernel / DSL / Compiler",
       "Multimodal / MLLM Serving",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "HSRM: Hidden-State Reward Models for Test-Time Verification",
+    "venue": "Fresh / preprint",
+    "topic": "Efficient ML / AI Infra",
+    "arxiv": "2608.30841",
+    "doi": "",
+    "official_id": "arXiv:2608.30841",
+    "paper_url": "https://arxiv.org/abs/2608.30841",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "HSRM verifies reasoning candidates directly from the generator hidden states using a small Transformer instead of re-reading every solution with a text verifier, directly targeting test-time verification cost while matching or beating a 55M text verifier.",
+    "published_at": "2026-08-31T14:12:19Z",
+    "updated_at": "2026-08-31T14:12:19Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -19227,6 +19456,28 @@
     ]
   },
   {
+    "title": "InKAN: B-Spline KANs via Truncated Power Form",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / edge/cloud/heterogeneous AI systems",
+    "arxiv": "2609.01956",
+    "doi": "",
+    "official_id": "arXiv:2609.01956",
+    "paper_url": "https://arxiv.org/abs/2609.01956",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "InKAN replaces sequential Cox-de Boor B-spline recursion, which consumes over 90% of KAN forward time, with an exact truncated-power implementation designed for torch.compile fusion and achieves 2.8-3.5x lower forward latency.",
+    "published_at": "2026-09-02T00:17:13Z",
+    "updated_at": "2026-09-05T17:54:21Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Instella-MoE Technical Report",
     "venue": "Fresh / preprint",
     "topic": "KV cache/long-context / MoE systems/accelerators",
@@ -19290,6 +19541,46 @@
     "directions": [
       "Efficient Reasoning / Agents",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Joint Spatiotemporal Spectral Neural Operators for Learning PDEs on Irregular Domains",
+    "venue": "Fresh / preprint",
+    "topic": "Efficient ML / AI Infra",
+    "arxiv": "2608.29892",
+    "doi": "",
+    "official_id": "arXiv:2608.29892",
+    "paper_url": "https://arxiv.org/abs/2608.29892",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "GSNO replaces costly geometric embeddings and autoregressive rollouts with a joint graph/Fourier spectral operator on irregular domains, reporting reduced runtime and parameter count with zero-shot mesh/domain generalization.",
+    "published_at": "2026-08-30T16:41:10Z",
+    "updated_at": "2026-08-30T16:41:10Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "JudgePanel: A Compact Judge with Panel Deliberation via Adaptive Multi-Reward Reinforcement Learning",
+    "venue": "Fresh / preprint",
+    "topic": "Efficient ML / AI Infra",
+    "arxiv": "2608.29168",
+    "doi": "",
+    "official_id": "arXiv:2608.29168",
+    "paper_url": "https://arxiv.org/abs/2608.29168",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "JudgePanel distills multi-agent panel deliberation into a compact single judge and explicitly targets panel-quality evaluation at single-model inference cost, directly reducing multi-agent judging overhead.",
+    "published_at": "2026-08-29T09:33:49Z",
+    "updated_at": "2026-08-29T09:33:49Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -20704,6 +20995,27 @@
       "Multimodal / MLLM Serving",
       "Video / Image Generation",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Nested Byte-Level Vocabularies Are Cheap to Deploy and Expensive to Share: A Pre-Registered Negative Result",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / video/image generation acceleration",
+    "arxiv": "2608.28151",
+    "doi": "",
+    "official_id": "arXiv:2608.28151",
+    "paper_url": "https://arxiv.org/abs/2608.28151",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Nested byte-level vocabularies support exact deployment by slicing embedding/output heads; the paper verifies bit-exact logits and removes 66% of deployed weights at the restricted vocabulary size without changing latency, a direct deployment-footprint result.",
+    "published_at": "2026-08-28T10:13:32Z",
+    "updated_at": "2026-08-28T10:13:32Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Video / Image Generation"
     ]
   },
   {
@@ -22202,6 +22514,29 @@
     ]
   },
   {
+    "title": "Riemann-1.0: An Embodied World Action Model for Physical AI",
+    "venue": "Fresh / preprint",
+    "topic": "video/image generation acceleration / VLA/WAM/Physical AI serving / edge/cloud/heterogeneous AI systems",
+    "arxiv": "2608.27033",
+    "doi": "",
+    "official_id": "arXiv:2608.27033",
+    "paper_url": "https://arxiv.org/abs/2608.27033",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Protected Physical-AI canonical: Riemann-1.0 is a fully causal autoregressive World Action Model that unifies online robot policy execution and action-conditioned world simulation in one model, trained from 200K+ hours of heterogeneous embodied interaction; high-value WAM/serving lineage.",
+    "published_at": "2026-08-27T12:21:26Z",
+    "updated_at": "2026-08-27T12:21:26Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Video / Image Generation",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Ring Forcing: Towards Precise Long-Term Memory for Autoregressive Video Diffusion",
     "venue": "Fresh / preprint",
     "topic": "KV cache/long-context / video/image generation acceleration",
@@ -23607,6 +23942,28 @@
     ]
   },
   {
+    "title": "Stride-k Subsampling: Train-Free Audio Token Reduction for Whisper",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / sparsity/pruning",
+    "arxiv": "2608.30927",
+    "doi": "",
+    "official_id": "arXiv:2608.30927",
+    "paper_url": "https://arxiv.org/abs/2608.30927",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Train-free stride-k subsampling removes 75% of Whisper audio tokens, cuts total GFLOPs by 52-58%, and reduces end-to-end SpeechLM latency by 19.6-27.4% without auxiliary computation; direct multimodal serving acceleration.",
+    "published_at": "2026-08-31T15:04:29Z",
+    "updated_at": "2026-08-31T15:04:29Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
     "title": "Strong Drafts Need Compact Memories: Long-Context Speculative Decoding with Compressed KV Cache",
     "venue": "Fresh / preprint",
     "topic": "speculative decoding / KV cache / long-context serving",
@@ -24861,6 +25218,26 @@
     "directions": [
       "LLM Serving",
       "Video / Image Generation",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "When and What to Teach: Budget-Aware Online Adaptation for Web Agents",
+    "venue": "Fresh / preprint",
+    "topic": "Efficient ML / AI Infra",
+    "arxiv": "2609.05513",
+    "doi": "",
+    "official_id": "arXiv:2609.05513",
+    "paper_url": "https://arxiv.org/abs/2609.05513",
+    "code_url": "https://github.com/zjw131f1fc/budgeted-online-teaching",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Budget-aware online teaching for web agents gates teacher queries by solvability and trims low-value trajectory turns, reducing teacher calls by 22.6% while maintaining comparable first-pass success; direct agent-training cost control.",
+    "published_at": "2026-08-31T08:40:34Z",
+    "updated_at": "2026-08-31T08:40:34Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
       "Efficient Reasoning / Agents"
     ]
   },

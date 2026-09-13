@@ -1,10 +1,10 @@
 # 07 · MoE Systems / Accelerators
 
-> **157 canonical papers** mapped here, plus a broader **88-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **157 canonical papers** mapped here, plus a broader **89-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 88 tracked
+## 🆕 Latest 30 Days · 89 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -45,6 +45,7 @@
 | **P0 · Strong** | **On the Design of Qwen3.8-Next Architecture: Evaluation, Efficiency, and Training Stability** | Fresh / preprint | sparsity/pruning / MoE systems/accelerators / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.30320) | — |
 | **P1 · Watch** | **A.X K2 Technical Report** | Fresh / preprint | LLM serving / KV cache/long-context / quantization / sparsity/pruning / MoE systems/accelerators / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.30181) | — |
 | **P1 · Watch** | **Structure Aware Neural Architecture Search for Mixture of Experts** | Fresh / preprint | LLM serving / MoE systems/accelerators / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.29817) | — |
+| **P1 · Watch** | **Revolutionizing Turn-by-Turn Navigation with Cloud-Edge Deep Learning** | Fresh / preprint | MoE systems/accelerators / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.29073) | — |
 | **P0 · Strong** | **Training Communication-Efficient Mixture-of-Experts Language Models with Layer Re-Configuration** | arXiv 2026 | MoE systems / distributed training / communication efficiency | [Link](https://arxiv.org/abs/2608.28511) | — |
 | **P1 · Watch** | **Characterization of Request and Token Energy Costs for LLM Inference Workloads on GPU Platforms** | Fresh / preprint | LLM serving / MoE systems/accelerators | [Link](https://arxiv.org/abs/2608.28044) | — |
 | **P0 · Strong** | **TerraceMoE: A Cost Model for Hierarchical MoE All-to-All Communication** | Fresh / preprint | LLM serving / MoE systems/accelerators | [Link](https://arxiv.org/abs/2608.27874) | [Repo](https://github.com/weich97/TerraceMoE-simulator) |
