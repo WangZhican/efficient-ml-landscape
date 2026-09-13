@@ -15869,6 +15869,27 @@
     ]
   },
   {
+    "title": "Beyond Imitation: Self-Improving Robot Policies via Off-Policy Q-Planning",
+    "venue": "Fresh / preprint",
+    "topic": "video/image generation acceleration",
+    "arxiv": "2608.21204",
+    "doi": "",
+    "official_id": "arXiv:2608.21204",
+    "paper_url": "https://arxiv.org/abs/2608.21204",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Protected Physical-AI: Q-Planning adds a small off-policy Q-function to a large visuomotor policy and performs value-guided action selection with a single-step Q-weighted average over policy draws, enabling self-improvement without scaling RL updates to the full robot foundation model.",
+    "published_at": "2026-08-21T15:18:37Z",
+    "updated_at": "2026-08-21T15:18:37Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Video / Image Generation",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Beyond LLM-Based Reasoning: Lightweight GNNs for Agent Failure Attribution",
     "venue": "Fresh / preprint",
     "topic": "KV cache/long-context / efficient reasoning/agent systems",
@@ -16321,6 +16342,28 @@
       "Speculative Decoding",
       "Video / Image Generation",
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "ChainPrune: Evaluating and Reducing Redundancy in Long Chain-of-Thought Reasoning",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving",
+    "arxiv": "2608.21860",
+    "doi": "",
+    "official_id": "arXiv:2608.21860",
+    "paper_url": "https://arxiv.org/abs/2608.21860",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "ChainPrune explicitly targets redundant long-CoT structure rather than token count alone and synthesizes structurally pruned reasoning traces to reduce overthinking and inference overhead; direct efficient-reasoning lineage.",
+    "published_at": "2026-08-22T09:09:05Z",
+    "updated_at": "2026-08-22T09:09:05Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -19554,6 +19597,27 @@
     ]
   },
   {
+    "title": "MCP-Universe RL: A Framework for Training MCP Tool-Use Agents via Reinforcement Learning",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving",
+    "arxiv": "2608.22167",
+    "doi": "",
+    "official_id": "arXiv:2608.22167",
+    "paper_url": "https://arxiv.org/abs/2608.22167",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "MCP-Universe RL is an AI-infrastructure framework that provisions isolated tool environments for hundreds of concurrent trajectories and schedules long multi-turn rollouts around slow tool calls to keep training GPUs busy; direct agent-RL systems utilization contribution.",
+    "published_at": "2026-08-23T01:49:04Z",
+    "updated_at": "2026-08-23T01:49:04Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "MEDR: Query-Independent Frame Selection via Multi-Signal Event Modeling and Dynamic Rescoring",
     "venue": "Fresh / preprint",
     "topic": "LLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems",
@@ -19832,6 +19896,26 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "More Context, Same Budget: Dual-Bounded Relational Recall Beyond Top-K Retrieval",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving",
+    "arxiv": "2608.18448",
+    "doi": "",
+    "official_id": "arXiv:2608.18448",
+    "paper_url": "https://arxiv.org/abs/2608.18448",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "DBRR increases complete multi-hop evidence recovery under the same fixed retrieval-unit and token ceiling by reallocating budget to bounded graph-adjacent context; direct retrieval-efficiency evidence at equal serving budget.",
+    "published_at": "2026-08-19T02:23:50Z",
+    "updated_at": "2026-08-19T02:23:50Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving"
     ]
   },
   {
@@ -20535,6 +20619,27 @@
       "KV Cache / Long Context",
       "Distributed Training / Inference",
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "PRICE: Pricing-based Resource Incentives for Quality-of-Result-aware Computing at the Edge",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving",
+    "arxiv": "2608.20819",
+    "doi": "",
+    "official_id": "arXiv:2608.20819",
+    "paper_url": "https://arxiv.org/abs/2608.20819",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "PRICE couples utilization-dependent pricing with per-request quality selection so overloaded edge nodes shift toward lighter execution and serve significantly more requests while staying near capacity; direct edge throughput/resource-efficiency evidence on real hardware.",
+    "published_at": "2026-08-21T07:40:31Z",
+    "updated_at": "2026-08-21T07:40:31Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -22919,6 +23024,28 @@
     ]
   },
   {
+    "title": "Towards a Densing Law for User Representation Learning at Billion-Scale Capacity",
+    "venue": "Fresh / preprint",
+    "topic": "edge/cloud/heterogeneous AI systems",
+    "arxiv": "2608.23392",
+    "doi": "",
+    "official_id": "arXiv:2608.23392",
+    "paper_url": "https://arxiv.org/abs/2608.23392",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "The User Behavioral Densing Law studies billion-scale representation capacity and shows tokenization can overcome raw-input scaling bottlenecks while deriving a quantitative minimum-sufficient tokenization-capacity law; strong large-scale representation/serving-efficiency evidence.",
+    "published_at": "2026-08-24T15:38:07Z",
+    "updated_at": "2026-08-24T15:38:07Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "TRACES: Tagging Reasoning Steps for Adaptive Cost-Efficient Early-Stopping",
     "venue": "Fresh / preprint",
     "topic": "sparsity/pruning / video/image generation acceleration",
@@ -23136,6 +23263,27 @@
     ]
   },
   {
+    "title": "UniQuery4R: Unified 4D Scene Reconstruction from a Single Query",
+    "venue": "Fresh / preprint",
+    "topic": "video/image generation acceleration",
+    "arxiv": "2608.17283",
+    "doi": "",
+    "official_id": "arXiv:2608.17283",
+    "paper_url": "https://arxiv.org/abs/2608.17283",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "UniQuery4R encodes a multi-frame clip once and reuses the encoded representation across arbitrary source-target queries, explicitly avoiding dense task-specific computation for sparse queries; direct feature-reuse and sparse-inference efficiency evidence.",
+    "published_at": "2026-08-18T02:26:38Z",
+    "updated_at": "2026-08-18T02:26:38Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Sparsity / Pruning",
+      "Video / Image Generation"
+    ]
+  },
+  {
     "title": "Unveiling the Depth-Performance Dilemma in Split-Federated Fine-tuning of LLMs",
     "venue": "Fresh / preprint",
     "topic": "LLM serving / video/image generation acceleration",
@@ -23305,6 +23453,28 @@
       "GPU Kernel / DSL / Compiler",
       "Efficient Reasoning / Agents",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "VIG: Visual Information Gain as a Reward Signal for Multimodal Chain-of-Thought Compression",
+    "venue": "Fresh / preprint",
+    "topic": "video/image generation acceleration",
+    "arxiv": "2608.21883",
+    "doi": "",
+    "official_id": "arXiv:2608.21883",
+    "paper_url": "https://arxiv.org/abs/2608.21883",
+    "code_url": "https://github.com/chaser682/vig",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "VIG optimizes multimodal CoT compression using a visual-information-gain reward so visually disengaged filler can be removed; directly targets reasoning-token and multimodal inference cost across multiple model sizes.",
+    "published_at": "2026-08-22T09:52:08Z",
+    "updated_at": "2026-08-27T14:17:29Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Multimodal / MLLM Serving",
+      "Video / Image Generation",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -23657,6 +23827,26 @@
     "directions": [
       "MoE Systems / Accelerators",
       "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "WhiteMatter: All-to-All Cross-Layer Connections via KV Mixing",
+    "venue": "Fresh / preprint",
+    "topic": "KV cache/long-context",
+    "arxiv": "2608.18486",
+    "doi": "",
+    "official_id": "arXiv:2608.18486",
+    "paper_url": "https://arxiv.org/abs/2608.18486",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "WhiteMatter mixes all layer states into k cached KV channels and allows k<L specifically to reduce KV-cache memory footprint while retaining adaptive cross-layer access; direct long-context/KV systems contribution.",
+    "published_at": "2026-08-19T03:24:51Z",
+    "updated_at": "2026-08-19T03:24:51Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "KV Cache / Long Context"
     ]
   },
   {

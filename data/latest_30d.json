@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-13",
   "window_start_beijing": "2026-08-14",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 1604,
+  "tracked_total": 1626,
   "p0_strong_or_canonical": [
     {
       "title": "AccelForge: Comprehensive Modeling and Co-Design Framework for AI Accelerators",
@@ -9039,6 +9039,28 @@
       ]
     },
     {
+      "title": "Towards a Densing Law for User Representation Learning at Billion-Scale Capacity",
+      "venue": "Fresh / preprint",
+      "topic": "edge/cloud/heterogeneous AI systems",
+      "arxiv": "2608.23392",
+      "doi": "",
+      "official_id": "arXiv:2608.23392",
+      "paper_url": "https://arxiv.org/abs/2608.23392",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "The User Behavioral Densing Law studies billion-scale representation capacity and shows tokenization can overcome raw-input scaling bottlenecks while deriving a quantitative minimum-sufficient tokenization-capacity law; strong large-scale representation/serving-efficiency evidence.",
+      "published_at": "2026-08-24T15:38:07Z",
+      "updated_at": "2026-08-24T15:38:07Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Sigmoid Attention as a Better Substrate for Learned KV Cache Eviction",
       "venue": "Fresh / preprint",
       "topic": "KV cache/long-context",
@@ -9409,6 +9431,27 @@
       ]
     },
     {
+      "title": "MCP-Universe RL: A Framework for Training MCP Tool-Use Agents via Reinforcement Learning",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving",
+      "arxiv": "2608.22167",
+      "doi": "",
+      "official_id": "arXiv:2608.22167",
+      "paper_url": "https://arxiv.org/abs/2608.22167",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "MCP-Universe RL is an AI-infrastructure framework that provisions isolated tool environments for hundreds of concurrent trajectories and schedules long multi-turn rollouts around slow tool calls to keep training GPUs busy; direct agent-RL systems utilization contribution.",
+      "published_at": "2026-08-23T01:49:04Z",
+      "updated_at": "2026-08-23T01:49:04Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Meta-Ctrl: Guaranteed Plan Generation by Decoupling Syntactic and Semantic Constraints",
       "venue": "Fresh / preprint",
       "topic": "LLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving",
@@ -9470,6 +9513,50 @@
         "LLM Serving",
         "Video / Image Generation",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "VIG: Visual Information Gain as a Reward Signal for Multimodal Chain-of-Thought Compression",
+      "venue": "Fresh / preprint",
+      "topic": "video/image generation acceleration",
+      "arxiv": "2608.21883",
+      "doi": "",
+      "official_id": "arXiv:2608.21883",
+      "paper_url": "https://arxiv.org/abs/2608.21883",
+      "code_url": "https://github.com/chaser682/vig",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "VIG optimizes multimodal CoT compression using a visual-information-gain reward so visually disengaged filler can be removed; directly targets reasoning-token and multimodal inference cost across multiple model sizes.",
+      "published_at": "2026-08-22T09:52:08Z",
+      "updated_at": "2026-08-27T14:17:29Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Multimodal / MLLM Serving",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "ChainPrune: Evaluating and Reducing Redundancy in Long Chain-of-Thought Reasoning",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving",
+      "arxiv": "2608.21860",
+      "doi": "",
+      "official_id": "arXiv:2608.21860",
+      "paper_url": "https://arxiv.org/abs/2608.21860",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "ChainPrune explicitly targets redundant long-CoT structure rather than token count alone and synthesizes structurally pruned reasoning traces to reduce overthinking and inference overhead; direct efficient-reasoning lineage.",
+      "published_at": "2026-08-22T09:09:05Z",
+      "updated_at": "2026-08-22T09:09:05Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -9624,6 +9711,27 @@
       ]
     },
     {
+      "title": "Beyond Imitation: Self-Improving Robot Policies via Off-Policy Q-Planning",
+      "venue": "Fresh / preprint",
+      "topic": "video/image generation acceleration",
+      "arxiv": "2608.21204",
+      "doi": "",
+      "official_id": "arXiv:2608.21204",
+      "paper_url": "https://arxiv.org/abs/2608.21204",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Protected Physical-AI: Q-Planning adds a small off-policy Q-function to a large visuomotor policy and performs value-guided action selection with a single-step Q-weighted average over policy draws, enabling self-improvement without scaling RL updates to the full robot foundation model.",
+      "published_at": "2026-08-21T15:18:37Z",
+      "updated_at": "2026-08-21T15:18:37Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Video / Image Generation",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "GrAND: GPU-based Dynamic Graph Indexes for Approximate Nearest Neighbour Search",
       "venue": "Fresh / preprint",
       "topic": "LLM serving / sparsity/pruning / video/image generation acceleration",
@@ -9728,6 +9836,27 @@
       "is_latest_30d": true,
       "tracking_tier": "P0 · Strong",
       "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "PRICE: Pricing-based Resource Incentives for Quality-of-Result-aware Computing at the Edge",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving",
+      "arxiv": "2608.20819",
+      "doi": "",
+      "official_id": "arXiv:2608.20819",
+      "paper_url": "https://arxiv.org/abs/2608.20819",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "PRICE couples utilization-dependent pricing with per-request quality selection so overloaded edge nodes shift toward lighter execution and serve significantly more requests while staying near capacity; direct edge throughput/resource-efficiency evidence on real hardware.",
+      "published_at": "2026-08-21T07:40:31Z",
+      "updated_at": "2026-08-21T07:40:31Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -10362,6 +10491,46 @@
       ]
     },
     {
+      "title": "WhiteMatter: All-to-All Cross-Layer Connections via KV Mixing",
+      "venue": "Fresh / preprint",
+      "topic": "KV cache/long-context",
+      "arxiv": "2608.18486",
+      "doi": "",
+      "official_id": "arXiv:2608.18486",
+      "paper_url": "https://arxiv.org/abs/2608.18486",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "WhiteMatter mixes all layer states into k cached KV channels and allows k<L specifically to reduce KV-cache memory footprint while retaining adaptive cross-layer access; direct long-context/KV systems contribution.",
+      "published_at": "2026-08-19T03:24:51Z",
+      "updated_at": "2026-08-19T03:24:51Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "KV Cache / Long Context"
+      ]
+    },
+    {
+      "title": "More Context, Same Budget: Dual-Bounded Relational Recall Beyond Top-K Retrieval",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving",
+      "arxiv": "2608.18448",
+      "doi": "",
+      "official_id": "arXiv:2608.18448",
+      "paper_url": "https://arxiv.org/abs/2608.18448",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "DBRR increases complete multi-hop evidence recovery under the same fixed retrieval-unit and token ceiling by reallocating budget to bounded graph-adjacent context; direct retrieval-efficiency evidence at equal serving budget.",
+      "published_at": "2026-08-19T02:23:50Z",
+      "updated_at": "2026-08-19T02:23:50Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving"
+      ]
+    },
+    {
       "title": "Role-Conditioned Sub-Token Routing for Efficient Vision-Language-Action Policies",
       "venue": "",
       "topic": "VLA efficiency / KV compression / sub-token routing",
@@ -10785,6 +10954,27 @@
       "tracking_tier": "P0 · Strong",
       "directions": [
         "LLM Serving"
+      ]
+    },
+    {
+      "title": "UniQuery4R: Unified 4D Scene Reconstruction from a Single Query",
+      "venue": "Fresh / preprint",
+      "topic": "video/image generation acceleration",
+      "arxiv": "2608.17283",
+      "doi": "",
+      "official_id": "arXiv:2608.17283",
+      "paper_url": "https://arxiv.org/abs/2608.17283",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "UniQuery4R encodes a multi-frame clip once and reuses the encoded representation across arbitrary source-target queries, explicitly avoiding dense task-specific computation for sparse queries; direct feature-reuse and sparse-inference efficiency evidence.",
+      "published_at": "2026-08-18T02:26:38Z",
+      "updated_at": "2026-08-18T02:26:38Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Sparsity / Pruning",
+        "Video / Image Generation"
       ]
     },
     {
@@ -25393,6 +25583,27 @@
       ]
     },
     {
+      "title": "Reward-Free Continual Adaptation for Resilient Space Robots",
+      "venue": "",
+      "topic": "video/image generation acceleration",
+      "arxiv": "2608.23452",
+      "doi": "",
+      "official_id": "arXiv:2608.23452",
+      "paper_url": "https://arxiv.org/abs/2608.23452",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI/WAM: reward-free continual robot adaptation freezes observation/reward components and updates only world-model transitions under hardware degradation, giving useful selective-update and latent-world-model runtime lineage.",
+      "published_at": "2026-08-24T16:23:36Z",
+      "updated_at": "2026-08-24T16:23:36Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Video / Image Generation",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "ChebBooster: A Training-Free Approach for Efficient Diffusion Transformer Inference via Chebyshev-Inspired Extrapolation",
       "venue": "",
       "topic": "diffusion/flow acceleration / training-free DiT extrapolation / cache-style compute skipping",
@@ -25410,6 +25621,27 @@
       "is_latest_30d": true,
       "directions": [
         "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "MomADv2: Reliable Temporal Memory for End-to-End Autonomous Driving",
+      "venue": "",
+      "topic": "LLM serving",
+      "arxiv": "2608.23405",
+      "doi": "",
+      "official_id": "arXiv:2608.23405",
+      "paper_url": "https://arxiv.org/abs/2608.23405",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI: MomADv2 uses selective state-space planning memory to retain only command-consistent driving history and suppress invalid temporal memory; useful embodied temporal-memory/runtime lineage.",
+      "published_at": "2026-08-24T15:51:07Z",
+      "updated_at": "2026-08-24T15:51:07Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -25926,6 +26158,29 @@
       ]
     },
     {
+      "title": "Beyond Factual Knowledge: Benchmarking and Learning Step-Level Procedural Rule Reasoning in Large Language Models",
+      "venue": "",
+      "topic": "KV cache/long-context",
+      "arxiv": "2608.22753",
+      "doi": "",
+      "official_id": "arXiv:2608.22753",
+      "paper_url": "https://arxiv.org/abs/2608.22753",
+      "code_url": "https://github.com/SharkSpicy-NLP/Beyond-Factual-Knowledge",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "DynaRule injects reusable procedural rules into KV cache and performs learnable step-wise re-attention with a search token, turning external rule retrieval into internal cached inference; useful KV/reasoning-memory lineage.",
+      "published_at": "2026-08-24T03:22:45Z",
+      "updated_at": "2026-08-24T03:22:45Z",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context",
+        "Efficient Attention",
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "TEE-X: TEE-aware Acceleration Framework for Large Vision Models at the Edge",
       "venue": "",
       "topic": "edge vision inference / TEE-aware acceleration / secure deployment",
@@ -26095,6 +26350,27 @@
       ]
     },
     {
+      "title": "When Not to Imitate: Boundary-Aware Skill Memory for Reliable Tool-Use LLM Agents",
+      "venue": "",
+      "topic": "video/image generation acceleration",
+      "arxiv": "2608.22339",
+      "doi": "",
+      "official_id": "arXiv:2608.22339",
+      "paper_url": "https://arxiv.org/abs/2608.22339",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Boundary-Aware Skill Memory addresses the failure mode where retrieving more skills can increase wrong-tool confidence, adding applicability/risk boundaries to reusable skills; useful agent-memory retrieval-efficiency/reliability lineage.",
+      "published_at": "2026-08-23T10:16:06Z",
+      "updated_at": "2026-08-23T10:16:06Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Beyond Dense Adam States: Adaptive Log-Space Quantization for Memory-Efficient Optimizers",
       "venue": "",
       "topic": "memory-efficient training / optimizer-state quantization / low-precision optimizer",
@@ -26243,6 +26519,47 @@
       "directions": [
         "LLM Serving",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Spine-Branch Coordination for Multi-agent Computer Use",
+      "venue": "",
+      "topic": "LLM serving",
+      "arxiv": "2608.22077",
+      "doi": "",
+      "official_id": "arXiv:2608.22077",
+      "paper_url": "https://arxiv.org/abs/2608.22077",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Spine-Branch Coordination treats non-mergeable VM state as a first-class multi-agent systems constraint and parallelizes branch tasks while preserving one continuous spine VM; useful computer-use-agent runtime/orchestration lineage.",
+      "published_at": "2026-08-22T18:48:37Z",
+      "updated_at": "2026-08-22T18:48:37Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Multi-Agent Discovery and Resource-Aware Autonomous Exploration of Scientific Datasets",
+      "venue": "",
+      "topic": "efficient reasoning/agent systems",
+      "arxiv": "2608.22045",
+      "doi": "",
+      "official_id": "arXiv:2608.22045",
+      "paper_url": "https://arxiv.org/abs/2608.22045",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "WebVisus performs resource-aware autonomous exploration of remote multiresolution datasets, adapting resolution and retrieval quality to client memory/compute and avoiding full dataset downloads; useful agent/resource-aware systems lineage.",
+      "published_at": "2026-08-22T17:16:29Z",
+      "updated_at": "2026-08-22T17:16:29Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -26830,6 +27147,28 @@
       ]
     },
     {
+      "title": "Consilience: Conformally Calibrated Communication Control for Hidden-Profile Multi-Agent Reasoning",
+      "venue": "",
+      "topic": "video/image generation acceleration",
+      "arxiv": "2608.20564",
+      "doi": "",
+      "official_id": "arXiv:2608.20564",
+      "paper_url": "https://arxiv.org/abs/2608.20564",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Consilience selects both speaker and intervention from a compact uncertainty/disagreement/evidence/redundancy state, directly targeting unnecessary multi-agent communication at inference; useful orchestration-efficiency lineage pending stronger cost numbers.",
+      "published_at": "2026-08-20T20:57:25Z",
+      "updated_at": "2026-08-20T20:57:25Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Distributed Training / Inference",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "LiLiCorr: Lightweight Likelihood Correlation of Parallel Drafts for Speculative Decoding",
       "venue": "",
       "topic": "llm_serving / spec / edge",
@@ -26980,6 +27319,26 @@
       ]
     },
     {
+      "title": "Formal Performance and Compile Time Guarantees for Compiler Optimization Heuristics",
+      "venue": "",
+      "topic": "GPU kernel/DSL/compilers",
+      "arxiv": "2608.20137",
+      "doi": "",
+      "official_id": "arXiv:2608.20137",
+      "paper_url": "https://arxiv.org/abs/2608.20137",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Compiler-optimization work formally verifies monotone performance improvement, convergence-time bounds, and compile-time/performance guarantees for heuristic inlining; useful compiler-efficiency lineage despite not being ML-specific.",
+      "published_at": "2026-08-20T15:02:11Z",
+      "updated_at": "2026-08-20T15:02:11Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
       "title": "DECOWAM: Decoupled Whole-Body World-Action Model for Legged Mobile Manipulation",
       "venue": "",
       "topic": "LLM serving / video/image generation acceleration",
@@ -26999,6 +27358,28 @@
         "LLM Serving",
         "Video / Image Generation",
         "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "HandMvNet: Real-Time 3D Hand Pose Estimation Using Multi-View Cross-Attention Fusion",
+      "venue": "",
+      "topic": "edge/cloud/heterogeneous AI systems",
+      "arxiv": "2608.20093",
+      "doi": "",
+      "official_id": "arXiv:2608.20093",
+      "paper_url": "https://arxiv.org/abs/2608.20093",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "HandMvNet reports substantially reduced inference time while retaining competitive multi-view 3D hand-pose accuracy and is explicitly designed for real-time use; useful lightweight vision/edge inference evidence though exact systems attribution is limited in the abstract.",
+      "published_at": "2026-08-20T14:24:35Z",
+      "updated_at": "2026-08-26T14:49:48Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -27352,6 +27733,27 @@
       ]
     },
     {
+      "title": "Decision-Metric Alignment in Latent World Models: Diagnostics and Action-Conditioned Objectives for MPC Planning",
+      "venue": "",
+      "topic": "video/image generation acceleration",
+      "arxiv": "2608.18746",
+      "doi": "",
+      "official_id": "arXiv:2608.18746",
+      "paper_url": "https://arxiv.org/abs/2608.18746",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI/WAM: decision-metric alignment diagnostics test whether latent world-model distances actually rank MPC actions by real progress, and DA-LeWM adds action-aware objectives to improve planning reliability; important WAM planning lineage rather than acceleration itself.",
+      "published_at": "2026-08-19T09:56:39Z",
+      "updated_at": "2026-08-19T09:56:39Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Video / Image Generation",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Flama: a Python framework for development and deployment of production-ready APIs, machine learning, and LLM services",
       "venue": "",
       "topic": "LLM serving / quantization",
@@ -27395,6 +27797,28 @@
       ]
     },
     {
+      "title": "StateTrace: An Object-Centric Framework for Hidden-State Spatiotemporal Reasoning in Long Videos",
+      "venue": "",
+      "topic": "LLM serving",
+      "arxiv": "2608.18532",
+      "doi": "",
+      "official_id": "arXiv:2608.18532",
+      "paper_url": "https://arxiv.org/abs/2608.18532",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "StateTrace builds reusable object-centric long-video state memory and retrieves compact question-relevant state-evolution cues rather than repeatedly reasoning over the full video; useful long-video MLLM memory/runtime lineage.",
+      "published_at": "2026-08-19T04:31:56Z",
+      "updated_at": "2026-08-19T04:31:56Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Pairwise Ranking Outperforms Single-Action RL for Offline Explanation Selection: A Practical Lesson",
       "venue": "",
       "topic": "LLM serving / video/image generation acceleration",
@@ -27413,6 +27837,27 @@
       "directions": [
         "LLM Serving",
         "Video / Image Generation"
+      ]
+    },
+    {
+      "title": "LLM-Powered Predictive Decision-Making for Sustainable Data Center Operations",
+      "venue": "",
+      "topic": "LLM serving",
+      "arxiv": "2608.18503",
+      "doi": "",
+      "official_id": "arXiv:2608.18503",
+      "paper_url": "https://arxiv.org/abs/2608.18503",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "LLM-based data-center scheduler predicts execution time and energy and uses them for real-time GPU allocation to jointly improve queueing and sustainability; relevant AI-infrastructure scheduling lineage pending clearer end-to-end gains.",
+      "published_at": "2026-08-19T03:50:32Z",
+      "updated_at": "2026-08-19T03:50:32Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler"
       ]
     },
     {
@@ -27500,6 +27945,27 @@
       "directions": [
         "Video / Image Generation",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Model Card for OpenAI Privacy Filter",
+      "venue": "",
+      "topic": "edge/cloud/heterogeneous AI systems",
+      "arxiv": "2608.18274",
+      "doi": "",
+      "official_id": "arXiv:2608.18274",
+      "paper_url": "https://arxiv.org/abs/2608.18274",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "OpenAI Privacy Filter is a compact locally deployable privacy classifier with 1.5B total but only 50M active parameters per token, banded attention, a single forward pass, and 128k context; useful efficient on-device/local-inference lineage.",
+      "published_at": "2026-08-18T19:48:48Z",
+      "updated_at": "2026-08-18T19:48:48Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Attention",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -43772,6 +44238,28 @@
       ]
     },
     {
+      "title": "Towards a Densing Law for User Representation Learning at Billion-Scale Capacity",
+      "venue": "Fresh / preprint",
+      "topic": "edge/cloud/heterogeneous AI systems",
+      "arxiv": "2608.23392",
+      "doi": "",
+      "official_id": "arXiv:2608.23392",
+      "paper_url": "https://arxiv.org/abs/2608.23392",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "The User Behavioral Densing Law studies billion-scale representation capacity and shows tokenization can overcome raw-input scaling bottlenecks while deriving a quantitative minimum-sufficient tokenization-capacity law; strong large-scale representation/serving-efficiency evidence.",
+      "published_at": "2026-08-24T15:38:07Z",
+      "updated_at": "2026-08-24T15:38:07Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Sigmoid Attention as a Better Substrate for Learned KV Cache Eviction",
       "venue": "Fresh / preprint",
       "topic": "KV cache/long-context",
@@ -44142,6 +44630,27 @@
       ]
     },
     {
+      "title": "MCP-Universe RL: A Framework for Training MCP Tool-Use Agents via Reinforcement Learning",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving",
+      "arxiv": "2608.22167",
+      "doi": "",
+      "official_id": "arXiv:2608.22167",
+      "paper_url": "https://arxiv.org/abs/2608.22167",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "MCP-Universe RL is an AI-infrastructure framework that provisions isolated tool environments for hundreds of concurrent trajectories and schedules long multi-turn rollouts around slow tool calls to keep training GPUs busy; direct agent-RL systems utilization contribution.",
+      "published_at": "2026-08-23T01:49:04Z",
+      "updated_at": "2026-08-23T01:49:04Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Meta-Ctrl: Guaranteed Plan Generation by Decoupling Syntactic and Semantic Constraints",
       "venue": "Fresh / preprint",
       "topic": "LLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving",
@@ -44203,6 +44712,50 @@
         "LLM Serving",
         "Video / Image Generation",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "VIG: Visual Information Gain as a Reward Signal for Multimodal Chain-of-Thought Compression",
+      "venue": "Fresh / preprint",
+      "topic": "video/image generation acceleration",
+      "arxiv": "2608.21883",
+      "doi": "",
+      "official_id": "arXiv:2608.21883",
+      "paper_url": "https://arxiv.org/abs/2608.21883",
+      "code_url": "https://github.com/chaser682/vig",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "VIG optimizes multimodal CoT compression using a visual-information-gain reward so visually disengaged filler can be removed; directly targets reasoning-token and multimodal inference cost across multiple model sizes.",
+      "published_at": "2026-08-22T09:52:08Z",
+      "updated_at": "2026-08-27T14:17:29Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Multimodal / MLLM Serving",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "ChainPrune: Evaluating and Reducing Redundancy in Long Chain-of-Thought Reasoning",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving",
+      "arxiv": "2608.21860",
+      "doi": "",
+      "official_id": "arXiv:2608.21860",
+      "paper_url": "https://arxiv.org/abs/2608.21860",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "ChainPrune explicitly targets redundant long-CoT structure rather than token count alone and synthesizes structurally pruned reasoning traces to reduce overthinking and inference overhead; direct efficient-reasoning lineage.",
+      "published_at": "2026-08-22T09:09:05Z",
+      "updated_at": "2026-08-22T09:09:05Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -44357,6 +44910,27 @@
       ]
     },
     {
+      "title": "Beyond Imitation: Self-Improving Robot Policies via Off-Policy Q-Planning",
+      "venue": "Fresh / preprint",
+      "topic": "video/image generation acceleration",
+      "arxiv": "2608.21204",
+      "doi": "",
+      "official_id": "arXiv:2608.21204",
+      "paper_url": "https://arxiv.org/abs/2608.21204",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Protected Physical-AI: Q-Planning adds a small off-policy Q-function to a large visuomotor policy and performs value-guided action selection with a single-step Q-weighted average over policy draws, enabling self-improvement without scaling RL updates to the full robot foundation model.",
+      "published_at": "2026-08-21T15:18:37Z",
+      "updated_at": "2026-08-21T15:18:37Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Video / Image Generation",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "GrAND: GPU-based Dynamic Graph Indexes for Approximate Nearest Neighbour Search",
       "venue": "Fresh / preprint",
       "topic": "LLM serving / sparsity/pruning / video/image generation acceleration",
@@ -44461,6 +45035,27 @@
       "is_latest_30d": true,
       "tracking_tier": "P0 · Strong",
       "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "PRICE: Pricing-based Resource Incentives for Quality-of-Result-aware Computing at the Edge",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving",
+      "arxiv": "2608.20819",
+      "doi": "",
+      "official_id": "arXiv:2608.20819",
+      "paper_url": "https://arxiv.org/abs/2608.20819",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "PRICE couples utilization-dependent pricing with per-request quality selection so overloaded edge nodes shift toward lighter execution and serve significantly more requests while staying near capacity; direct edge throughput/resource-efficiency evidence on real hardware.",
+      "published_at": "2026-08-21T07:40:31Z",
+      "updated_at": "2026-08-21T07:40:31Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -45095,6 +45690,46 @@
       ]
     },
     {
+      "title": "WhiteMatter: All-to-All Cross-Layer Connections via KV Mixing",
+      "venue": "Fresh / preprint",
+      "topic": "KV cache/long-context",
+      "arxiv": "2608.18486",
+      "doi": "",
+      "official_id": "arXiv:2608.18486",
+      "paper_url": "https://arxiv.org/abs/2608.18486",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "WhiteMatter mixes all layer states into k cached KV channels and allows k<L specifically to reduce KV-cache memory footprint while retaining adaptive cross-layer access; direct long-context/KV systems contribution.",
+      "published_at": "2026-08-19T03:24:51Z",
+      "updated_at": "2026-08-19T03:24:51Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "KV Cache / Long Context"
+      ]
+    },
+    {
+      "title": "More Context, Same Budget: Dual-Bounded Relational Recall Beyond Top-K Retrieval",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving",
+      "arxiv": "2608.18448",
+      "doi": "",
+      "official_id": "arXiv:2608.18448",
+      "paper_url": "https://arxiv.org/abs/2608.18448",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "DBRR increases complete multi-hop evidence recovery under the same fixed retrieval-unit and token ceiling by reallocating budget to bounded graph-adjacent context; direct retrieval-efficiency evidence at equal serving budget.",
+      "published_at": "2026-08-19T02:23:50Z",
+      "updated_at": "2026-08-19T02:23:50Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving"
+      ]
+    },
+    {
       "title": "Role-Conditioned Sub-Token Routing for Efficient Vision-Language-Action Policies",
       "venue": "",
       "topic": "VLA efficiency / KV compression / sub-token routing",
@@ -45518,6 +46153,27 @@
       "tracking_tier": "P0 · Strong",
       "directions": [
         "LLM Serving"
+      ]
+    },
+    {
+      "title": "UniQuery4R: Unified 4D Scene Reconstruction from a Single Query",
+      "venue": "Fresh / preprint",
+      "topic": "video/image generation acceleration",
+      "arxiv": "2608.17283",
+      "doi": "",
+      "official_id": "arXiv:2608.17283",
+      "paper_url": "https://arxiv.org/abs/2608.17283",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "UniQuery4R encodes a multi-frame clip once and reuses the encoded representation across arbitrary source-target queries, explicitly avoiding dense task-specific computation for sparse queries; direct feature-reuse and sparse-inference efficiency evidence.",
+      "published_at": "2026-08-18T02:26:38Z",
+      "updated_at": "2026-08-18T02:26:38Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Sparsity / Pruning",
+        "Video / Image Generation"
       ]
     },
     {
@@ -60124,6 +60780,27 @@
       ]
     },
     {
+      "title": "Reward-Free Continual Adaptation for Resilient Space Robots",
+      "venue": "",
+      "topic": "video/image generation acceleration",
+      "arxiv": "2608.23452",
+      "doi": "",
+      "official_id": "arXiv:2608.23452",
+      "paper_url": "https://arxiv.org/abs/2608.23452",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI/WAM: reward-free continual robot adaptation freezes observation/reward components and updates only world-model transitions under hardware degradation, giving useful selective-update and latent-world-model runtime lineage.",
+      "published_at": "2026-08-24T16:23:36Z",
+      "updated_at": "2026-08-24T16:23:36Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Video / Image Generation",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "ChebBooster: A Training-Free Approach for Efficient Diffusion Transformer Inference via Chebyshev-Inspired Extrapolation",
       "venue": "",
       "topic": "diffusion/flow acceleration / training-free DiT extrapolation / cache-style compute skipping",
@@ -60141,6 +60818,27 @@
       "is_latest_30d": true,
       "directions": [
         "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "MomADv2: Reliable Temporal Memory for End-to-End Autonomous Driving",
+      "venue": "",
+      "topic": "LLM serving",
+      "arxiv": "2608.23405",
+      "doi": "",
+      "official_id": "arXiv:2608.23405",
+      "paper_url": "https://arxiv.org/abs/2608.23405",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI: MomADv2 uses selective state-space planning memory to retain only command-consistent driving history and suppress invalid temporal memory; useful embodied temporal-memory/runtime lineage.",
+      "published_at": "2026-08-24T15:51:07Z",
+      "updated_at": "2026-08-24T15:51:07Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -60657,6 +61355,29 @@
       ]
     },
     {
+      "title": "Beyond Factual Knowledge: Benchmarking and Learning Step-Level Procedural Rule Reasoning in Large Language Models",
+      "venue": "",
+      "topic": "KV cache/long-context",
+      "arxiv": "2608.22753",
+      "doi": "",
+      "official_id": "arXiv:2608.22753",
+      "paper_url": "https://arxiv.org/abs/2608.22753",
+      "code_url": "https://github.com/SharkSpicy-NLP/Beyond-Factual-Knowledge",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "DynaRule injects reusable procedural rules into KV cache and performs learnable step-wise re-attention with a search token, turning external rule retrieval into internal cached inference; useful KV/reasoning-memory lineage.",
+      "published_at": "2026-08-24T03:22:45Z",
+      "updated_at": "2026-08-24T03:22:45Z",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context",
+        "Efficient Attention",
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "TEE-X: TEE-aware Acceleration Framework for Large Vision Models at the Edge",
       "venue": "",
       "topic": "edge vision inference / TEE-aware acceleration / secure deployment",
@@ -60826,6 +61547,27 @@
       ]
     },
     {
+      "title": "When Not to Imitate: Boundary-Aware Skill Memory for Reliable Tool-Use LLM Agents",
+      "venue": "",
+      "topic": "video/image generation acceleration",
+      "arxiv": "2608.22339",
+      "doi": "",
+      "official_id": "arXiv:2608.22339",
+      "paper_url": "https://arxiv.org/abs/2608.22339",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Boundary-Aware Skill Memory addresses the failure mode where retrieving more skills can increase wrong-tool confidence, adding applicability/risk boundaries to reusable skills; useful agent-memory retrieval-efficiency/reliability lineage.",
+      "published_at": "2026-08-23T10:16:06Z",
+      "updated_at": "2026-08-23T10:16:06Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Beyond Dense Adam States: Adaptive Log-Space Quantization for Memory-Efficient Optimizers",
       "venue": "",
       "topic": "memory-efficient training / optimizer-state quantization / low-precision optimizer",
@@ -60974,6 +61716,47 @@
       "directions": [
         "LLM Serving",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Spine-Branch Coordination for Multi-agent Computer Use",
+      "venue": "",
+      "topic": "LLM serving",
+      "arxiv": "2608.22077",
+      "doi": "",
+      "official_id": "arXiv:2608.22077",
+      "paper_url": "https://arxiv.org/abs/2608.22077",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Spine-Branch Coordination treats non-mergeable VM state as a first-class multi-agent systems constraint and parallelizes branch tasks while preserving one continuous spine VM; useful computer-use-agent runtime/orchestration lineage.",
+      "published_at": "2026-08-22T18:48:37Z",
+      "updated_at": "2026-08-22T18:48:37Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Multi-Agent Discovery and Resource-Aware Autonomous Exploration of Scientific Datasets",
+      "venue": "",
+      "topic": "efficient reasoning/agent systems",
+      "arxiv": "2608.22045",
+      "doi": "",
+      "official_id": "arXiv:2608.22045",
+      "paper_url": "https://arxiv.org/abs/2608.22045",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "WebVisus performs resource-aware autonomous exploration of remote multiresolution datasets, adapting resolution and retrieval quality to client memory/compute and avoiding full dataset downloads; useful agent/resource-aware systems lineage.",
+      "published_at": "2026-08-22T17:16:29Z",
+      "updated_at": "2026-08-22T17:16:29Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -61561,6 +62344,28 @@
       ]
     },
     {
+      "title": "Consilience: Conformally Calibrated Communication Control for Hidden-Profile Multi-Agent Reasoning",
+      "venue": "",
+      "topic": "video/image generation acceleration",
+      "arxiv": "2608.20564",
+      "doi": "",
+      "official_id": "arXiv:2608.20564",
+      "paper_url": "https://arxiv.org/abs/2608.20564",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Consilience selects both speaker and intervention from a compact uncertainty/disagreement/evidence/redundancy state, directly targeting unnecessary multi-agent communication at inference; useful orchestration-efficiency lineage pending stronger cost numbers.",
+      "published_at": "2026-08-20T20:57:25Z",
+      "updated_at": "2026-08-20T20:57:25Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Distributed Training / Inference",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "LiLiCorr: Lightweight Likelihood Correlation of Parallel Drafts for Speculative Decoding",
       "venue": "",
       "topic": "llm_serving / spec / edge",
@@ -61711,6 +62516,26 @@
       ]
     },
     {
+      "title": "Formal Performance and Compile Time Guarantees for Compiler Optimization Heuristics",
+      "venue": "",
+      "topic": "GPU kernel/DSL/compilers",
+      "arxiv": "2608.20137",
+      "doi": "",
+      "official_id": "arXiv:2608.20137",
+      "paper_url": "https://arxiv.org/abs/2608.20137",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Compiler-optimization work formally verifies monotone performance improvement, convergence-time bounds, and compile-time/performance guarantees for heuristic inlining; useful compiler-efficiency lineage despite not being ML-specific.",
+      "published_at": "2026-08-20T15:02:11Z",
+      "updated_at": "2026-08-20T15:02:11Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
       "title": "DECOWAM: Decoupled Whole-Body World-Action Model for Legged Mobile Manipulation",
       "venue": "",
       "topic": "LLM serving / video/image generation acceleration",
@@ -61730,6 +62555,28 @@
         "LLM Serving",
         "Video / Image Generation",
         "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "HandMvNet: Real-Time 3D Hand Pose Estimation Using Multi-View Cross-Attention Fusion",
+      "venue": "",
+      "topic": "edge/cloud/heterogeneous AI systems",
+      "arxiv": "2608.20093",
+      "doi": "",
+      "official_id": "arXiv:2608.20093",
+      "paper_url": "https://arxiv.org/abs/2608.20093",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "HandMvNet reports substantially reduced inference time while retaining competitive multi-view 3D hand-pose accuracy and is explicitly designed for real-time use; useful lightweight vision/edge inference evidence though exact systems attribution is limited in the abstract.",
+      "published_at": "2026-08-20T14:24:35Z",
+      "updated_at": "2026-08-26T14:49:48Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -62083,6 +62930,27 @@
       ]
     },
     {
+      "title": "Decision-Metric Alignment in Latent World Models: Diagnostics and Action-Conditioned Objectives for MPC Planning",
+      "venue": "",
+      "topic": "video/image generation acceleration",
+      "arxiv": "2608.18746",
+      "doi": "",
+      "official_id": "arXiv:2608.18746",
+      "paper_url": "https://arxiv.org/abs/2608.18746",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI/WAM: decision-metric alignment diagnostics test whether latent world-model distances actually rank MPC actions by real progress, and DA-LeWM adds action-aware objectives to improve planning reliability; important WAM planning lineage rather than acceleration itself.",
+      "published_at": "2026-08-19T09:56:39Z",
+      "updated_at": "2026-08-19T09:56:39Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Video / Image Generation",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Flama: a Python framework for development and deployment of production-ready APIs, machine learning, and LLM services",
       "venue": "",
       "topic": "LLM serving / quantization",
@@ -62126,6 +62994,28 @@
       ]
     },
     {
+      "title": "StateTrace: An Object-Centric Framework for Hidden-State Spatiotemporal Reasoning in Long Videos",
+      "venue": "",
+      "topic": "LLM serving",
+      "arxiv": "2608.18532",
+      "doi": "",
+      "official_id": "arXiv:2608.18532",
+      "paper_url": "https://arxiv.org/abs/2608.18532",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "StateTrace builds reusable object-centric long-video state memory and retrieves compact question-relevant state-evolution cues rather than repeatedly reasoning over the full video; useful long-video MLLM memory/runtime lineage.",
+      "published_at": "2026-08-19T04:31:56Z",
+      "updated_at": "2026-08-19T04:31:56Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Pairwise Ranking Outperforms Single-Action RL for Offline Explanation Selection: A Practical Lesson",
       "venue": "",
       "topic": "LLM serving / video/image generation acceleration",
@@ -62144,6 +63034,27 @@
       "directions": [
         "LLM Serving",
         "Video / Image Generation"
+      ]
+    },
+    {
+      "title": "LLM-Powered Predictive Decision-Making for Sustainable Data Center Operations",
+      "venue": "",
+      "topic": "LLM serving",
+      "arxiv": "2608.18503",
+      "doi": "",
+      "official_id": "arXiv:2608.18503",
+      "paper_url": "https://arxiv.org/abs/2608.18503",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "LLM-based data-center scheduler predicts execution time and energy and uses them for real-time GPU allocation to jointly improve queueing and sustainability; relevant AI-infrastructure scheduling lineage pending clearer end-to-end gains.",
+      "published_at": "2026-08-19T03:50:32Z",
+      "updated_at": "2026-08-19T03:50:32Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler"
       ]
     },
     {
@@ -62231,6 +63142,27 @@
       "directions": [
         "Video / Image Generation",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Model Card for OpenAI Privacy Filter",
+      "venue": "",
+      "topic": "edge/cloud/heterogeneous AI systems",
+      "arxiv": "2608.18274",
+      "doi": "",
+      "official_id": "arXiv:2608.18274",
+      "paper_url": "https://arxiv.org/abs/2608.18274",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "OpenAI Privacy Filter is a compact locally deployable privacy classifier with 1.5B total but only 50M active parameters per token, banded attention, a single forward pass, and 128k context; useful efficient on-device/local-inference lineage.",
+      "published_at": "2026-08-18T19:48:48Z",
+      "updated_at": "2026-08-18T19:48:48Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Attention",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {

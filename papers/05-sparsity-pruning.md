@@ -1,10 +1,10 @@
 # 05 · Sparsity / Pruning
 
-> **333 canonical papers** mapped here, plus a broader **214-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **335 canonical papers** mapped here, plus a broader **216-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 214 tracked
+## 🆕 Latest 30 Days · 216 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -140,6 +140,7 @@
 | **P1 · Watch** | **NeuroPrefetcher: Storage-Aware Sparse LLM Inference via Delta Prefetching** | Fresh / preprint | edge LLM serving / storage-backed sparse inference / predictive delta prefetching | [Link](https://arxiv.org/abs/2608.22643) | — |
 | **P0 · Strong** | **Fast and Compact 3D Gaussian Splatting with Polarized Opacity Prior** | Fresh / preprint | sparsity/pruning | [Link](https://arxiv.org/abs/2608.22344) | — |
 | **P1 · Watch** | **Read Less, Solve More: Token-Efficient Sparse Reading for AI Agents** | Fresh / preprint | efficient reasoning / agent systems / context admission / latency | [Link](https://arxiv.org/abs/2608.22237) | — |
+| **P0 · Strong** | **ChainPrune: Evaluating and Reducing Redundancy in Long Chain-of-Thought Reasoning** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2608.21860) | — |
 | **P1 · Watch** | **Benchmarking Composable Compression Techniques in Mixture-of-Experts LLMs** | Fresh / preprint | MoE compression benchmark / expert pruning / quantization / KV cache / deployment efficiency | [Link](https://arxiv.org/abs/2608.21693) | — |
 | **P2 · Relevant** | **Model Compression and Hardware-Aware Acceleration for Deep Learning on FPGAs: A Co-Design Taxonomy and Comparative Analysis** | Fresh / preprint | llm_serving / sparse | [Link](https://arxiv.org/abs/2608.21657) | — |
 | **P0 · Strong** | **Beyond Sparse Weights: When Is Attention Compressible?** | Fresh / preprint | LLM serving / KV cache/long-context | [Link](https://arxiv.org/abs/2608.21541) | — |
@@ -165,6 +166,7 @@
 | **P1 · Watch** | **EDITBRIDGE: Towards Faithful and Efficient Ultra-High-Resolution Image Editing** | Fresh / preprint | image editing / diffusion / block-wise sparse attention | [Link](https://arxiv.org/abs/2608.18063) | — |
 | **P0 · Strong** | **AViTS: Adaptive Spatiotemporal Token Selection for Efficient Dynamic-Resolution Generation** | Fresh / preprint | diffusion/image generation acceleration / adaptive token selection | [Link](https://arxiv.org/abs/2608.17995) | — |
 | **P0 · Strong** | **Differentiable Voronoi Ray Tracing Beyond Rasterization Speeds** | Fresh / preprint | LLM serving / sparsity/pruning | [Link](https://arxiv.org/abs/2608.17682) | — |
+| **P0 · Strong** | **UniQuery4R: Unified 4D Scene Reconstruction from a Single Query** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2608.17283) | — |
 | **P1 · Watch** | **Token Optimization and Context Window Management in Multi-Agent AI Workflows** | Fresh / preprint | LLM serving / sparsity/pruning / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.17188) | — |
 | **P1 · Watch** | **FLEET: Token-Based Feature Extraction for Event Camera-based Reinforcement Learning** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.16523) | — |
 | **P1 · Watch** | **D2-ScaleAgent: Dual-Dimensional Scaling for Long Document Understanding** | Fresh / preprint | sparsity/pruning / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.16417) | — |
