@@ -2194,6 +2194,51 @@
     ]
   },
   {
+    "title": "A Motion-Aware Vector Quantization Framework with Centroid Reuse for Efficient VLA Inference",
+    "venue": "arXiv / 90d targeted recall backfill",
+    "topic": "VLA / Physical AI / quantization / accelerator co-design",
+    "arxiv": "2607.24148",
+    "doi": "",
+    "official_id": "arXiv:2607.24148",
+    "paper_url": "https://arxiv.org/abs/2607.24148",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Protected Physical-AI deeper review upgrade: MotionVQ dynamically selects precision from robot execution state and merged-centroid vectorized GEMM reuses centroid computation. Reported 6.5x vs A100, 2.8x vs Dadu-Corki, 1.9x vs LUT-DLA, 3.3x vs CodeGEMM and 4.3x vs ShiftAddLLM with negligible accuracy degradation.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "GPU Kernel / DSL / Compiler",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Bole: Efficient Tree Speculation for Hybrid-Attention Language Models",
+    "venue": "arXiv / 90d targeted recall backfill",
+    "topic": "LLM serving / speculative decoding / hybrid attention / GPU kernel-runtime co-design",
+    "arxiv": "2608.01651",
+    "doi": "",
+    "official_id": "arXiv:2608.01651",
+    "paper_url": "https://arxiv.org/abs/2608.01651",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "BACKFILL_HIGH",
+    "why": "Deeper quality review of a retained P2 found a direct systems contribution: tree-structured closed-form verification for hybrid-attention recurrent state, 3.4-7.7x linear-attention tree verification speedup, 82-99x lower transient speculative-state memory, SGLang integration, up to 4.72x offline decode throughput vs autoregressive decoding and up to 2.03x vs the strongest tree-speculative baseline; online TTFT/TPOT reductions up to 67.6%/49.9%.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "ETS: Efficient Tree Search for Inference-Time Scaling",
     "venue": "arXiv 2025",
     "topic": "efficient reasoning / inference-time scaling / KV-cache sharing / tree search",

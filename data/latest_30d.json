@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-13",
   "window_start_beijing": "2026-08-14",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 1833,
+  "tracked_total": 1831,
   "p0_strong_or_canonical": [
     {
       "title": "AccelForge: Comprehensive Modeling and Co-Design Framework for AI Accelerators",
@@ -38535,30 +38535,6 @@
       ]
     },
     {
-      "title": "Bole: Efficient Tree Speculation for Hybrid-Attention Language Models",
-      "venue": "",
-      "topic": "LLM serving; KV cache / long context; speculative decoding; efficient attention; GPU kernel / compiler",
-      "arxiv": "2608.01651",
-      "doi": "",
-      "official_id": "",
-      "paper_url": "https://arxiv.org/abs/2608.01651",
-      "code_url": "",
-      "formal_class": "RELEVANT_LOW_PRIORITY",
-      "decision": "P2_RELEVANT_LOW_PRIORITY",
-      "tracking_tier": "P2 · Relevant",
-      "why": "Directly relevant to the Efficient ML / AI Infra tracking scope, but retained below Strong/Watch pending deeper quality, novelty, evidence, venue, or adoption review.",
-      "published_at": "2026-08-03T03:43:14Z",
-      "updated_at": "2026-08-03T03:43:14Z",
-      "is_latest_30d": true,
-      "directions": [
-        "LLM Serving",
-        "Speculative Decoding",
-        "KV Cache / Long Context",
-        "Efficient Attention",
-        "GPU Kernel / DSL / Compiler"
-      ]
-    },
-    {
       "title": "Meganeura: Portable GPU Training and Inference through Vulkan and Metal",
       "venue": "",
       "topic": "llm_serving / quant / kernel",
@@ -39296,29 +39272,6 @@
         "LLM Serving",
         "GPU Kernel / DSL / Compiler",
         "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "A Motion-Aware Vector Quantization Framework with Centroid Reuse for Efficient VLA Inference",
-      "venue": "",
-      "topic": "llm_serving / quant / multimodal / physical",
-      "arxiv": "2607.24148",
-      "doi": "",
-      "official_id": "",
-      "paper_url": "https://arxiv.org/abs/2607.24148",
-      "code_url": "",
-      "formal_class": "RELEVANT_LOW_PRIORITY",
-      "decision": "P2_RELEVANT_LOW_PRIORITY",
-      "tracking_tier": "P2 · Relevant",
-      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
-      "published_at": "2026-07-27T08:29:05Z",
-      "updated_at": "2026-07-27T08:29:05Z",
-      "is_latest_30d": true,
-      "directions": [
-        "LLM Serving",
-        "Quantization",
-        "Multimodal / MLLM Serving",
-        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -78119,30 +78072,6 @@
       ]
     },
     {
-      "title": "Bole: Efficient Tree Speculation for Hybrid-Attention Language Models",
-      "venue": "",
-      "topic": "LLM serving; KV cache / long context; speculative decoding; efficient attention; GPU kernel / compiler",
-      "arxiv": "2608.01651",
-      "doi": "",
-      "official_id": "",
-      "paper_url": "https://arxiv.org/abs/2608.01651",
-      "code_url": "",
-      "formal_class": "RELEVANT_LOW_PRIORITY",
-      "decision": "P2_RELEVANT_LOW_PRIORITY",
-      "tracking_tier": "P2 · Relevant",
-      "why": "Directly relevant to the Efficient ML / AI Infra tracking scope, but retained below Strong/Watch pending deeper quality, novelty, evidence, venue, or adoption review.",
-      "published_at": "2026-08-03T03:43:14Z",
-      "updated_at": "2026-08-03T03:43:14Z",
-      "is_latest_30d": true,
-      "directions": [
-        "LLM Serving",
-        "Speculative Decoding",
-        "KV Cache / Long Context",
-        "Efficient Attention",
-        "GPU Kernel / DSL / Compiler"
-      ]
-    },
-    {
       "title": "Meganeura: Portable GPU Training and Inference through Vulkan and Metal",
       "venue": "",
       "topic": "llm_serving / quant / kernel",
@@ -78880,29 +78809,6 @@
         "LLM Serving",
         "GPU Kernel / DSL / Compiler",
         "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "A Motion-Aware Vector Quantization Framework with Centroid Reuse for Efficient VLA Inference",
-      "venue": "",
-      "topic": "llm_serving / quant / multimodal / physical",
-      "arxiv": "2607.24148",
-      "doi": "",
-      "official_id": "",
-      "paper_url": "https://arxiv.org/abs/2607.24148",
-      "code_url": "",
-      "formal_class": "RELEVANT_LOW_PRIORITY",
-      "decision": "P2_RELEVANT_LOW_PRIORITY",
-      "tracking_tier": "P2 · Relevant",
-      "why": "Directly matches the rolling 30-day Efficient ML / AI Infra scope by title/abstract; retained as P2 for recall while novelty, systems evidence, venue, code, and adoption are still pending deeper review.",
-      "published_at": "2026-07-27T08:29:05Z",
-      "updated_at": "2026-07-27T08:29:05Z",
-      "is_latest_30d": true,
-      "directions": [
-        "LLM Serving",
-        "Quantization",
-        "Multimodal / MLLM Serving",
-        "VLA / WAM / Physical AI"
       ]
     },
     {
