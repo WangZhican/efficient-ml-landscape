@@ -15518,6 +15518,26 @@
     ]
   },
   {
+    "title": "Alignment-Free Text-Audiobox for Voice Dubbing and Full-Duplex Dialogue Synthesis",
+    "venue": "Fresh / preprint",
+    "topic": "video/image generation acceleration",
+    "arxiv": "2609.03992",
+    "doi": "",
+    "official_id": "arXiv:2609.03992",
+    "paper_url": "https://arxiv.org/abs/2609.03992",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Text-Audiobox moves to 25 Hz DAC-VAE latents with over 10x higher representation compression than prior EnCodec features while improving resynthesis quality; direct generative-audio sequence/compute efficiency.",
+    "published_at": "2026-09-03T15:30:22Z",
+    "updated_at": "2026-09-03T15:30:22Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Video / Image Generation"
+    ]
+  },
+  {
     "title": "ALPHABET: A Laplace-Pole History Aggregator with Banked Exponential Transport",
     "venue": "Fresh / preprint",
     "topic": "LLM serving / video/image generation acceleration",
@@ -15536,6 +15556,27 @@
     "directions": [
       "LLM Serving",
       "Video / Image Generation"
+    ]
+  },
+  {
+    "title": "Amortized Anchor Refinement for Deployable Continuous-Time 4D Gaussian Reconstruction",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving",
+    "arxiv": "2608.30218",
+    "doi": "",
+    "official_id": "arXiv:2608.30218",
+    "paper_url": "https://arxiv.org/abs/2608.30218",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Amortized Anchor Refinement combines feed-forward initialization with a short fixed-budget refinement and topology-aware pruning to make continuous-time 4D Gaussian reconstruction deployable on standalone XR hardware.",
+    "published_at": "2026-08-31T04:04:04Z",
+    "updated_at": "2026-08-31T04:04:04Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning"
     ]
   },
   {
@@ -15782,6 +15823,28 @@
     "directions": [
       "GPU Kernel / DSL / Compiler",
       "Video / Image Generation"
+    ]
+  },
+  {
+    "title": "Balancing Frequencies and Pixels in Flow Matching",
+    "venue": "Fresh / preprint",
+    "topic": "video/image generation acceleration",
+    "arxiv": "2609.02748",
+    "doi": "",
+    "official_id": "arXiv:2609.02748",
+    "paper_url": "https://arxiv.org/abs/2609.02748",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Focal log-frequency loss identifies low-frequency-dominated optimization as a training inefficiency in pixel-space flow models and rebalances supervision to accelerate learning of fine details; direct flow-training efficiency contribution.",
+    "published_at": "2026-09-02T15:49:24Z",
+    "updated_at": "2026-09-02T15:49:24Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Distributed Training / Inference",
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
@@ -16105,6 +16168,26 @@
       "LLM Serving",
       "Video / Image Generation",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "Building and Evaluating Fixed-Voice Thai TTS from Synthetic Speech",
+    "venue": "Fresh / preprint",
+    "topic": "edge/cloud/heterogeneous AI systems",
+    "arxiv": "2609.03502",
+    "doi": "",
+    "official_id": "arXiv:2609.03502",
+    "paper_url": "https://arxiv.org/abs/2609.03502",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Thai fixed-voice TTS distills a large voice-cloning teacher into a compact deployable student trained from synthetic speech, directly targeting low-resource inference cost while retaining voice quality.",
+    "published_at": "2026-09-03T08:03:58Z",
+    "updated_at": "2026-09-03T08:03:58Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -16994,6 +17077,27 @@
     ]
   },
   {
+    "title": "DiffSAC: Diffusion-guided Sampling for Consensus-based Robust Estimation",
+    "venue": "Fresh / preprint",
+    "topic": "video/image generation acceleration",
+    "arxiv": "2608.30603",
+    "doi": "",
+    "official_id": "arXiv:2608.30603",
+    "paper_url": "https://arxiv.org/abs/2608.30603",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "DiffSAC learns to sample a small number of high-quality minimal sets rather than evaluating many bad hypotheses, directly reducing robust-estimation sampling and hypothesis-evaluation work.",
+    "published_at": "2026-08-31T11:15:11Z",
+    "updated_at": "2026-08-31T11:15:11Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "Diffusion Distillation for Efficient Weather Ensembles",
     "venue": "Fresh / preprint",
     "topic": "Efficient ML / AI Infra",
@@ -17079,6 +17183,27 @@
     ]
   },
   {
+    "title": "Doc-REFRAG: Rethinking Multimodal Document Retrieval-Augmented Generation",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving",
+    "arxiv": "2608.30163",
+    "doi": "",
+    "official_id": "arXiv:2608.30163",
+    "paper_url": "https://arxiv.org/abs/2608.30163",
+    "code_url": "https://github.com/Collab-Gen/Doc-REFRAG",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Doc-REFRAG compresses retrieved-document visual tokens into coarse chunks and selectively expands question-relevant chunks with a lightweight selector, directly attacking multimodal RAG visual-token compute overhead.",
+    "published_at": "2026-08-31T02:30:11Z",
+    "updated_at": "2026-08-31T02:30:11Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
     "title": "DTX: A Throughput-First Training Accelerator for Diffusion and Transformer Models",
     "venue": "Fresh / preprint",
     "topic": "LLM serving / quantization / edge/cloud/heterogeneous AI systems",
@@ -17142,6 +17267,26 @@
       "LLM Serving",
       "Multimodal / MLLM Serving",
       "Video / Image Generation"
+    ]
+  },
+  {
+    "title": "Dynamic Hub-and-Spoke Memory for Streaming Video Understanding",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving",
+    "arxiv": "2608.30294",
+    "doi": "",
+    "official_id": "arXiv:2608.30294",
+    "paper_url": "https://arxiv.org/abs/2608.30294",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Dynamic Hub-and-Spoke Memory converts distant streaming-video history into structured textual memory and retrieves only compact question-aware subsets while retaining a small recent visual window; direct long-video memory/token efficiency.",
+    "published_at": "2026-08-31T06:02:28Z",
+    "updated_at": "2026-08-31T06:02:28Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving"
     ]
   },
   {
@@ -17591,6 +17736,27 @@
     "directions": [
       "Sparsity / Pruning",
       "MoE Systems / Accelerators"
+    ]
+  },
+  {
+    "title": "FALCON: Fault-Tolerant Magnetic Tunnel Junction-Based In-Memory Stochastic Architecture for Reliability-Critical Edge AI Applications",
+    "venue": "Fresh / preprint",
+    "topic": "quantization",
+    "arxiv": "2609.00701",
+    "doi": "",
+    "official_id": "arXiv:2609.00701",
+    "paper_url": "https://arxiv.org/abs/2609.00701",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "FALCON is an MTJ in-memory stochastic-computing architecture explicitly designed to reduce data-movement energy while retaining fault tolerance for edge-AI workloads; direct hardware-efficiency contribution.",
+    "published_at": "2026-09-01T04:22:25Z",
+    "updated_at": "2026-09-01T04:22:25Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Quantization",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -18187,6 +18353,28 @@
     ]
   },
   {
+    "title": "GraphNOSE: A Graph Transformer in Olfaction",
+    "venue": "Fresh / preprint",
+    "topic": "quantization / video/image generation acceleration / edge/cloud/heterogeneous AI systems",
+    "arxiv": "2609.05694",
+    "doi": "",
+    "official_id": "arXiv:2609.05694",
+    "paper_url": "https://arxiv.org/abs/2609.05694",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "GraphNOSE achieves stronger olfactory prediction with a graph Transformer using six times fewer parameters than the standard GNN baseline, giving clear compact-model efficiency evidence.",
+    "published_at": "2026-09-04T20:02:48Z",
+    "updated_at": "2026-09-04T20:02:48Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Quantization",
+      "Video / Image Generation",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "GRIP: Granular Reward-Guided Parameter Interpolation for Efficient Reasoning",
     "venue": "Fresh / preprint",
     "topic": "LLM serving",
@@ -18271,6 +18459,27 @@
     "tracking_tier": "P0 · Strong",
     "directions": [
       "Quantization"
+    ]
+  },
+  {
+    "title": "H3-World: Turning Language Understanding into World Control",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving",
+    "arxiv": "2609.01560",
+    "doi": "",
+    "official_id": "arXiv:2609.01560",
+    "paper_url": "https://arxiv.org/abs/2609.01560",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Protected Physical-AI/WAM: H3-World turns a 33B video generator into an interactive world model without dedicated action modules and uses temporally routed language control, providing a parameter-efficient control interface for world-model deployment.",
+    "published_at": "2026-09-01T17:21:40Z",
+    "updated_at": "2026-09-01T17:21:40Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "VLA / WAM / Physical AI"
     ]
   },
   {
@@ -19303,6 +19512,27 @@
     ]
   },
   {
+    "title": "Liquid Gated Attention",
+    "venue": "Fresh / preprint",
+    "topic": "edge/cloud/heterogeneous AI systems",
+    "arxiv": "2608.30695",
+    "doi": "",
+    "official_id": "arXiv:2608.30695",
+    "paper_url": "https://arxiv.org/abs/2608.30695",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Liquid Gated Attention is a solver-free continuous-time operator that avoids sequential integration and enables parallel temporal computation, providing a direct efficient-attention/sequence-processing mechanism.",
+    "published_at": "2026-08-31T12:30:09Z",
+    "updated_at": "2026-08-31T12:30:09Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Efficient Attention",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "LiteSearch-VL: Small Multimodal Search Agents via Trajectory Distillation and Synthetic Step-DPO",
     "venue": "Fresh / preprint",
     "topic": "multimodal/MLLM serving / efficient reasoning/agent systems",
@@ -19699,6 +19929,29 @@
     "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "MedProb: Probing Internal Representations of Vision-Language Models for Medical Question Answering",
+    "venue": "Fresh / preprint",
+    "topic": "multimodal/MLLM serving / video/image generation acceleration / efficient reasoning/agent systems",
+    "arxiv": "2609.04336",
+    "doi": "",
+    "official_id": "arXiv:2609.04336",
+    "paper_url": "https://arxiv.org/abs/2609.04336",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "MedProb predicts Med-VQA answers from frozen VLM representations without free-text generation and shows small frozen models retain substantial answer signal, directly supporting cheaper multimodal inference.",
+    "published_at": "2026-09-03T18:04:36Z",
+    "updated_at": "2026-09-03T18:04:36Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
+      "Video / Image Generation",
       "Efficient Reasoning / Agents"
     ]
   },
@@ -20325,6 +20578,48 @@
       "Sparsity / Pruning",
       "Efficient Attention",
       "MoE Systems / Accelerators",
+      "Video / Image Generation"
+    ]
+  },
+  {
+    "title": "On-the-Fly3R: Towards Robust Online 3D Reconstruction with Feed-Forward 3R Models for Large-Scale UAV Scenarios",
+    "venue": "Fresh / preprint",
+    "topic": "edge/cloud/heterogeneous AI systems",
+    "arxiv": "2609.00923",
+    "doi": "",
+    "official_id": "arXiv:2609.00923",
+    "paper_url": "https://arxiv.org/abs/2609.00923",
+    "code_url": "https://github.com/Sh1nZzz/On_the_Fly3R",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "On-the-Fly3R addresses prohibitive Transformer-attention memory in large-scale UAV reconstruction using retrieval-guided dynamic subsets and progressive online integration; direct scalable edge/vision memory-efficiency contribution.",
+    "published_at": "2026-09-01T08:47:58Z",
+    "updated_at": "2026-09-01T08:47:58Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Efficient Attention",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "One Editor, Many Edits: A Unified Training-Free Framework for Diverse Video Editing",
+    "venue": "Fresh / preprint",
+    "topic": "video/image generation acceleration",
+    "arxiv": "2609.04190",
+    "doi": "",
+    "official_id": "arXiv:2609.04190",
+    "paper_url": "https://arxiv.org/abs/2609.04190",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "EditVid is a training-free unified video-editing framework using sparse causal memory, correspondence-based token injection, and soft latent blending, avoiding task-specific retraining while maintaining long-range identity and locality.",
+    "published_at": "2026-09-03T17:59:01Z",
+    "updated_at": "2026-09-03T17:59:01Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Sparsity / Pruning",
       "Video / Image Generation"
     ]
   },
@@ -21754,6 +22049,29 @@
     ]
   },
   {
+    "title": "SAGE: State-Grounded, Abstention-Aware Evaluation of Task-Oriented Dialogue Agents",
+    "venue": "Fresh / preprint",
+    "topic": "GPU kernel/DSL/compilers / video/image generation acceleration / edge/cloud/heterogeneous AI systems",
+    "arxiv": "2609.00434",
+    "doi": "",
+    "official_id": "arXiv:2609.00434",
+    "paper_url": "https://arxiv.org/abs/2609.00434",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "SAGE routes schema-grounded criteria through symbolic and encoder/NLI verifiers, deciding 81-91% of criteria at its recommended operating point with zero paid LLM calls; strong agent-evaluation cost reduction.",
+    "published_at": "2026-08-31T22:14:52Z",
+    "updated_at": "2026-08-31T22:14:52Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Video / Image Generation",
+      "Efficient Reasoning / Agents",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "SandwichQuant: Which Parameters Matter Before and After Quantization?",
     "venue": "Fresh / preprint",
     "topic": "quantization",
@@ -23083,6 +23401,26 @@
     ]
   },
   {
+    "title": "Time Without Timesteps: Simulating Coupled Dynamical Systems via Self-Consistency",
+    "venue": "Fresh / preprint",
+    "topic": "video/image generation acceleration",
+    "arxiv": "2609.03358",
+    "doi": "",
+    "official_id": "arXiv:2609.03358",
+    "paper_url": "https://arxiv.org/abs/2609.03358",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Time Without Timesteps replaces long sequential simulation with full-trajectory fixed-point solving, requiring only 4-10 Newton iterations versus about 1500 reference integration steps and giving gradients with memory independent of solver depth.",
+    "published_at": "2026-09-03T04:32:23Z",
+    "updated_at": "2026-09-03T04:32:23Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Video / Image Generation"
+    ]
+  },
+  {
     "title": "Token-Budget Distillation: Transferring Full-Token Semantics to Compressed Video Vision-Language Models",
     "venue": "Fresh / preprint",
     "topic": "sparsity/pruning / multimodal/MLLM serving / edge/cloud/heterogeneous AI systems",
@@ -23476,6 +23814,28 @@
     ]
   },
   {
+    "title": "Update for Decisions, Not Freshness: Goal-Oriented Status Updating and Selective Offloading at the Network Edge",
+    "venue": "Fresh / preprint",
+    "topic": "edge/cloud/heterogeneous AI systems",
+    "arxiv": "2609.01082",
+    "doi": "",
+    "official_id": "arXiv:2609.01082",
+    "paper_url": "https://arxiv.org/abs/2609.01082",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "CoSMO jointly learns decision-relevant remote-state refreshing and selective edge/cloud offloading instead of freshness-only updates, directly optimizing asynchronous edge-cloud task utility and communication/computation use.",
+    "published_at": "2026-09-01T11:13:50Z",
+    "updated_at": "2026-09-01T11:13:50Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "KV Cache / Long Context",
+      "Distributed Training / Inference",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "UT-ACA: Uncertainty-Triggered Adaptive Context Allocation for Long-Context Inference",
     "venue": "Fresh / preprint",
     "topic": "LLM serving / KV cache/long-context / video/image generation acceleration",
@@ -23799,6 +24159,27 @@
     "tracking_tier": "P0 · Strong",
     "directions": [
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "What Do CAE Simulation Agents Really Need Beyond a Generic Harness?",
+    "venue": "Fresh / preprint",
+    "topic": "edge/cloud/heterogeneous AI systems",
+    "arxiv": "2609.03718",
+    "doi": "",
+    "official_id": "arXiv:2609.03718",
+    "paper_url": "https://arxiv.org/abs/2609.03718",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "CAE-agent ablations show a generic single-agent execution-feedback harness can match or beat specialized multi-agent systems (96.4% vs 88.2% on FoamBench), strong evidence that orchestration complexity and extra agent calls can be removed.",
+    "published_at": "2026-09-03T11:53:17Z",
+    "updated_at": "2026-09-03T11:53:17Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Efficient Reasoning / Agents",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -24261,6 +24642,27 @@
     "directions": [
       "LLM Serving",
       "Video / Image Generation"
+    ]
+  },
+  {
+    "title": "YesTrack: Referring Multi-Object Tracking via MLLM-based Yes/No Verification",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / multimodal/MLLM serving",
+    "arxiv": "2609.02318",
+    "doi": "",
+    "official_id": "arXiv:2609.02318",
+    "paper_url": "https://arxiv.org/abs/2609.02318",
+    "code_url": "https://github.com/ggbondrighthere24/YesTrack",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "YesTrack removes caption-generation and external decision modules by using direct MLLM yes/no verification plus lightweight temporal constraints, explicitly reducing latency in referring multi-object tracking.",
+    "published_at": "2026-09-02T09:04:43Z",
+    "updated_at": "2026-09-02T09:04:43Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving"
     ]
   },
   {

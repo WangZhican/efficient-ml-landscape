@@ -1,10 +1,10 @@
 # 05 · Sparsity / Pruning
 
-> **337 canonical papers** mapped here, plus a broader **218-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **339 canonical papers** mapped here, plus a broader **223-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 218 tracked
+## 🆕 Latest 30 Days · 223 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -66,6 +66,7 @@
 | **P1 · Watch** | **Accelerating Atom Simulations with Variable-Block Sparse Matrix Library** | arXiv 2026 | GPU kernel/DSL/compilers / distributed sparse linear algebra / scientific AI infrastructure | [Link](https://arxiv.org/abs/2609.04397) | — |
 | **P1 · Watch** | **SharedSAE: One Feature Dictionary Across Language Models** | arXiv 2026 | efficient reasoning/agent systems / interpretability infrastructure / shared representation | [Link](https://arxiv.org/abs/2609.04344) | — |
 | **P1 · Watch** | **Temporal Self-Distillation: Learning Visual State Tracking in Videos Without Supervision** | arXiv 2026 | multimodal/MLLM serving / video understanding / self-distillation | [Link](https://arxiv.org/abs/2609.04203) | — |
+| **P0 · Strong** | **One Editor, Many Edits: A Unified Training-Free Framework for Diverse Video Editing** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2609.04190) | — |
 | **P1 · Watch** | **TAP-Path: Task-Adaptive Structural and Token Pruning for Efficient and Trustworthy Pathology Foundation Models** | arXiv 2026 | sparsity/pruning / multimodal models / efficient inference | [Link](https://arxiv.org/abs/2609.04071) | — |
 | **P1 · Watch** | **Sparse auto-regressive modeling for scene generation from multi-view images** | arXiv 2026 | video/image generation acceleration / sparse 3D generation / 3D Gaussian Splatting | [Link](https://arxiv.org/abs/2609.03931) | — |
 | **P1 · Watch** | **OctWorld: Long-Range World-Consistent Video Generation with Octree-Based 3D Mapping** | arXiv 2026 | video/image generation acceleration / world models / sparse 3D memory | [Link](https://arxiv.org/abs/2609.03919) | — |
@@ -84,6 +85,7 @@
 | **P1 · Watch** | **Scalable Kronecker-Fisher Approximation: Efficient Hessian Analysis for Billion-Parameter Language Models Compression** | arXiv 2026 | quantization / sparsity / compression / Hessian-Fisher analysis | [Link](https://arxiv.org/abs/2609.02451) | — |
 | **P1 · Watch** | **Evidence for Shared Routing Geometry and Dynamics in Sparse Mixture-of-Experts** | Fresh / preprint | MoE systems/accelerators | [Link](https://arxiv.org/abs/2609.02404) | — |
 | **P1 · Watch** | **GeoSPRINT: Geometric Redundancy-Aware Step Pruning for Inference in Diffusion Trajectories** | arXiv 2026 | diffusion/flow acceleration / inference-step pruning | [Link](https://arxiv.org/abs/2609.02160) | — |
+| **P1 · Watch** | **MASkills: Continual Skills Optimization for Multi-Agent LLM Systems** | Fresh / preprint | sparsity/pruning / video/image generation acceleration / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2609.02094) | [Repo](https://github.com/DaRL-GenAI/MASkills) |
 | **P1 · Watch** | **XMerge: Cross-Axis Selection and Reconstructive Layer Merging for LLM Depth Compression** | arXiv 2026 | sparsity/pruning / LLM compression / serving | [Link](https://arxiv.org/abs/2609.02083) | — |
 | **P1 · Watch** | **Modeling What Changes: Sparse, Residual World Models for Object-Centric Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving / sparse world models / object-centric prediction | [Link](https://arxiv.org/abs/2609.02046) | — |
 | **P0 · Strong** | **CRISP: Cliff-awaRe Input-adaptive Sparse Prefilling with Structural-Mass-Motivated Routing** | CoRR 2026 | efficient attention / sparse prefilling / long-context LLM inference / routing | [Link](https://arxiv.org/abs/2609.01925) | — |
@@ -100,12 +102,15 @@
 | **P0 · Strong** | **VARA: A Voltage-Aware ReRAM-Based Accelerator for Energy-Efficient Computing** | Fresh / preprint | sparsity/pruning | [Link](https://arxiv.org/abs/2609.00421) | — |
 | **P0 · Strong** | **QTEA: Ternary LLMs with Sparse Residual Salient Weight and By-Column Optimization** | Fresh / preprint | quantization / sparse residual / GPU inference | [Link](https://arxiv.org/abs/2609.00224) | [Repo](https://github.com/Intelligent-Microsystems-Lab/QTEA) |
 | **P0 · Strong** | **Faster Than Flash: Exploiting Attention Sparsity for Efficient Long-Context Decoding** | ICML 2026 | long-context LLM decoding / sparse attention / fused Triton kernel | [Link](https://arxiv.org/abs/2609.00097) | [Repo](https://github.com/qluoluo/faster-flash-decoding) |
+| **P1 · Watch** | **Functional Degeneracy in Neural Networks: Measurement and Pruning** | Fresh / preprint | sparsity/pruning | [Link](https://arxiv.org/abs/2608.30741) | — |
 | **P1 · Watch** | **Event-Driven Language Models with Sparse Neural Activity for Neuromorphic Hardware** | arXiv 2026 | sparsity / quantization / linear attention / neuromorphic edge inference | [Link](https://arxiv.org/abs/2608.30439) | — |
 | **P0 · Strong** | **On the Design of Qwen3.8-Next Architecture: Evaluation, Efficiency, and Training Stability** | Fresh / preprint | sparsity/pruning / MoE systems/accelerators / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.30320) | — |
 | **P0 · Strong** | **Centering before Pruning: Lightweight Geometry Correction for Diversity-Based Visual Token Pruning in LVLMs** | Fresh / preprint | LLM serving / sparsity/pruning / multimodal/MLLM serving | [Link](https://arxiv.org/abs/2608.30263) | — |
+| **P0 · Strong** | **Amortized Anchor Refinement for Deployable Continuous-Time 4D Gaussian Reconstruction** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2608.30218) | — |
 | **P1 · Watch** | **A.X K2 Technical Report** | Fresh / preprint | LLM serving / KV cache/long-context / quantization / sparsity/pruning / MoE systems/accelerators / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.30181) | — |
 | **P1 · Watch** | **CAST: Critique-Aware Supervision for Training Reliable Long-Horizon Tool-Calling Agents** | Fresh / preprint | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.30147) | — |
 | **P0 · Strong** | **Budget-Aware Compression Pipeline for Single-GPU LLM Inference: Methods, Trade-offs, and Coupling Effects** | GroundLM 2026 (EMNLP 2026 Workshop) | LLM serving / quantization / pruning / KV cache / single-GPU inference | [Link](https://arxiv.org/abs/2608.30076) | — |
+| **P1 · Watch** | **Towards an Expressivity-Normalized Energy-Demand Comparison of ANNs and SNNs** | Fresh / preprint | sparsity/pruning | [Link](https://arxiv.org/abs/2608.29869) | — |
 | **P1 · Watch** | **MotionSync: Non-Causal Refinement of Causal Tracker for Label-Efficient 3D Perception** | Fresh / preprint | sparsity/pruning | [Link](https://arxiv.org/abs/2608.29567) | — |
 | **P0 · Strong** | **LoGo: Token-Level Dynamic Local-Global Attention** | Fresh / preprint | KV cache/long-context / GPU kernel/DSL/compilers | [Link](https://arxiv.org/abs/2608.29539) | — |
 | **P1 · Watch** | **Does Latent Planning Survive Point Clouds? Action-Conditioned JEPA World Models for Geometric Observations** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2608.29434) | — |

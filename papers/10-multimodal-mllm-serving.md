@@ -1,10 +1,10 @@
 # 10 · Multimodal / MLLM Serving
 
-> **282 canonical papers** mapped here, plus a broader **269-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **285 canonical papers** mapped here, plus a broader **272-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 269 tracked
+## 🆕 Latest 30 Days · 272 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -89,6 +89,7 @@
 | **P1 · Watch** | **FAVE: Foveated Adaptive Visual Encoding for Efficient Fine-Grained Visual Understanding** | arXiv 2026 | multimodal/MLLM serving / visual-token efficiency / adaptive encoding | [Link](https://arxiv.org/abs/2609.04392) | — |
 | **P0 · Strong** | **VLA-Precision: Asymmetric Co-Bootstrapping for Efficient Real-World Online RL of Vision-Language-Action Models** | arXiv 2026 | VLA / Physical AI / real-world online RL / streaming runtime | [Link](https://arxiv.org/abs/2609.04355) | [Repo](https://vla-precision.github.io/) |
 | **P1 · Watch** | **LLM-Aided Design for Manufacturing: A Multi-Agent System for Intent-Preserving Redesign of CAD for Improved Manufacturability** | arXiv 2026 | VLA/WAM/Physical AI serving / industrial agents / tool-using verification | [Link](https://arxiv.org/abs/2609.05559) | — |
+| **P0 · Strong** | **MedProb: Probing Internal Representations of Vision-Language Models for Medical Question Answering** | Fresh / preprint | multimodal/MLLM serving / video/image generation acceleration / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2609.04336) | — |
 | **P1 · Watch** | **Temporal Self-Distillation: Learning Visual State Tracking in Videos Without Supervision** | arXiv 2026 | multimodal/MLLM serving / video understanding / self-distillation | [Link](https://arxiv.org/abs/2609.04203) | — |
 | **P1 · Watch** | **Beyond Retrieval: Progressive Latent Memory Evolution for Streaming Video Understanding** | arXiv 2026 | multimodal/MLLM serving / streaming video / bounded latent memory | [Link](https://arxiv.org/abs/2609.04131) | — |
 | **P1 · Watch** | **Adaptive Vision-Language Grasping via Composable Foundation Priors and Generalizable Grasp Synthesis** | arXiv 2026 | VLA/WAM/Physical AI serving / modular foundation-model priors / grasp runtime | [Link](https://arxiv.org/abs/2609.04096) | — |
@@ -111,6 +112,7 @@
 | **P1 · Watch** | **Dual-Latent Memory Routing for Vision-Language Reasoning** | Fresh / preprint | LLM serving / multimodal/MLLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2609.05539) | [Repo](https://github.com/Hunter-Wrynn/DLMR) |
 | **P0 · Strong** | **The Diagnosis a Reporter Leaves Unspoken: Surfacing Frozen Tumor Features for Brain-Tumor MRI Reporting** | arXiv 2026 | efficient reasoning/agent systems / multimodal inference / single-pass decoding / healthcare AI | [Link](https://arxiv.org/abs/2609.02411) | — |
 | **P1 · Watch** | **LookStep: Efficient Vision-Language Navigation with Linguistic Foresight and Event Driven Memory** | arXiv 2026 | VLA/WAM/Physical AI serving / embodied navigation / bounded memory | [Link](https://arxiv.org/abs/2609.02350) | [Repo](https://github.com/kunyang-YU/LookStep) |
+| **P0 · Strong** | **YesTrack: Referring Multi-Object Tracking via MLLM-based Yes/No Verification** | Fresh / preprint | LLM serving / multimodal/MLLM serving | [Link](https://arxiv.org/abs/2609.02318) | [Repo](https://github.com/ggbondrighthere24/YesTrack) |
 | **P0 · Strong** | **SimpleMemVLA: A Simple but Effective Native-Video Memory for Vision-Language-Action Models** | Fresh / preprint | LLM serving / multimodal/MLLM serving / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2609.05533) | [Repo](https://github.com/wadeKeith/SimpleMemVLA) |
 | **P1 · Watch** | **Facet-0: A Robotic Foundation Model for Contact-Rich Precise Manipulation** | Fresh / preprint | LLM serving / multimodal/MLLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2609.01596) | — |
 | **P0 · Strong** | **Closing Cost-Quality Gap in Document VLMs: Difficulty-Aware Data Curation and Quality-Adjusted Deployment Economics** | Fresh / preprint | LLM serving / MoE systems/accelerators / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.01575) | — |
@@ -127,6 +129,7 @@
 | **P1 · Watch** | **Scaffolding Foundation Models into Physical-World Agents Pushes the Frontier of Long-Horizon Navigation** | Fresh / preprint | multimodal/MLLM serving / efficient reasoning/agent systems / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.30396) | — |
 | **P1 · Watch** | **ScenePilot: Grow-and-Repair Policy for Text-Driven 3D Indoor Scene Generation** | Fresh / preprint | LLM serving / multimodal/MLLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.30307) | — |
 | **P0 · Strong** | **Centering before Pruning: Lightweight Geometry Correction for Diversity-Based Visual Token Pruning in LVLMs** | Fresh / preprint | LLM serving / sparsity/pruning / multimodal/MLLM serving | [Link](https://arxiv.org/abs/2608.30263) | — |
+| **P0 · Strong** | **Doc-REFRAG: Rethinking Multimodal Document Retrieval-Augmented Generation** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2608.30163) | [Repo](https://github.com/Collab-Gen/Doc-REFRAG) |
 | **P1 · Watch** | **Context-Aware Interleaved Batching for WhisperX** | Fresh / preprint | edge/cloud/heterogeneous AI systems / inference batching | [Link](https://arxiv.org/abs/2608.31170) | — |
 | **P1 · Watch** | **Training-Free Action Correction for VLA Model Failures via Language Feedback** | Fresh / preprint | multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.29967) | — |
 | **P0 · Strong** | **When History Is Multimodal: Rethinking Context Management for Long-Horizon Agents** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2608.29897) | — |
