@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-15",
   "window_start_beijing": "2026-08-16",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 1978,
+  "tracked_total": 1994,
   "p0_strong_or_canonical": [
     {
       "title": "SAS: Simple Attention Sparsification via End-to-End Optimization of Context Ranking",
@@ -12530,6 +12530,27 @@
       ]
     },
     {
+      "title": "ERASE: EaRly bAckpropagation SchEdule for Faster Training of Modern Recommendation Systems",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving",
+      "arxiv": "2608.18469",
+      "doi": "",
+      "official_id": "arXiv:2608.18469",
+      "paper_url": "https://arxiv.org/abs/2608.18469",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "ERASE overlaps detached backward subgraphs with subsequent forward work on separate CUDA streams to recover underutilized accelerator capacity; direct training-systems scheduling contribution.",
+      "published_at": "2026-08-19T02:51:08Z",
+      "updated_at": "2026-08-19T02:51:08Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
       "title": "More Context, Same Budget: Dual-Bounded Relational Recall Beyond Top-K Retrieval",
       "venue": "Fresh / preprint",
       "topic": "LLM serving",
@@ -12864,6 +12885,28 @@
         "LLM Serving",
         "Video / Image Generation",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Completion-Path Credits: Multi-Resource Control for Scale-Up Fabrics",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / video/image generation acceleration",
+      "arxiv": "2608.17523",
+      "doi": "",
+      "official_id": "arXiv:2608.17523",
+      "paper_url": "https://arxiv.org/abs/2608.17523",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "SemaCredit introduces multi-resource completion-path credits for GPU/AI-accelerator scale-up fabrics and materially reduces tail latency under atomic/response contention; direct AI-infrastructure interconnect contribution.",
+      "published_at": "2026-08-18T08:46:09Z",
+      "updated_at": "2026-08-18T08:46:09Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Video / Image Generation"
       ]
     },
     {
@@ -13336,6 +13379,27 @@
         "Video / Image Generation",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Localized TabICLv2: Scaling Tabular In-Context Learning through k-NN",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / video/image generation acceleration",
+      "arxiv": "2608.16429",
+      "doi": "",
+      "official_id": "arXiv:2608.16429",
+      "paper_url": "https://arxiv.org/abs/2608.16429",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Localized TabICLv2 directly reduces full-context tabular in-context inference cost by k-NN retrieval in learned row-representation space; direct inference-efficiency contribution.",
+      "published_at": "2026-08-17T11:30:56Z",
+      "updated_at": "2026-08-17T11:30:56Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation"
       ]
     },
     {
@@ -15793,6 +15857,28 @@
       "directions": [
         "LLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Lightweight LiDAR-Based Cone Detection Framework Using Random Forest for Formula Student Driverless",
+      "venue": "",
+      "topic": "LLM serving / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2609.11527",
+      "doi": "",
+      "official_id": "arXiv:2609.11527",
+      "paper_url": "https://arxiv.org/abs/2609.11527",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "CPU-only LiDAR perception pipeline achieves millisecond-scale end-to-end latency without GPU acceleration; protected edge/Physical-AI deployment evidence.",
+      "published_at": "2026-09-10T13:28:53Z",
+      "updated_at": "2026-09-10T13:28:53Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -24974,6 +25060,28 @@
       ]
     },
     {
+      "title": "CORAL: An LLM-Native Harness for Production Recommender Systems",
+      "venue": "",
+      "topic": "LLM serving / video/image generation acceleration / efficient reasoning/agent systems",
+      "arxiv": "2609.02730",
+      "doi": "",
+      "official_id": "arXiv:2609.02730",
+      "paper_url": "https://arxiv.org/abs/2609.02730",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "CORAL places an LLM agent in a continual production recommender optimization loop with measured operating signals and memory; useful production agent-runtime lineage.",
+      "published_at": "2026-09-02T15:40:36Z",
+      "updated_at": "2026-09-02T15:40:36Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Momentum in large-batch training: Polyak enlarges the critical batch size, Nesterov improves data efficiency",
       "venue": "",
       "topic": "LLM serving",
@@ -26141,6 +26249,28 @@
       ]
     },
     {
+      "title": "HitMem: Hierarchical Temporal 3D Memory with Multi-Modal Context-Aware Retrieval for Dynamic Environments",
+      "venue": "",
+      "topic": "video/image generation acceleration / VLA/WAM/Physical AI serving",
+      "arxiv": "2609.00950",
+      "doi": "",
+      "official_id": "arXiv:2609.00950",
+      "paper_url": "https://arxiv.org/abs/2609.00950",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "HitMem maintains a lightweight temporal 3D memory with context-aware retrieval for dynamic embodied environments; protected Physical-AI memory/runtime lineage.",
+      "published_at": "2026-09-01T09:09:21Z",
+      "updated_at": "2026-09-01T09:09:21Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Staged Linguistic Seeding: Grounded Query Expansion for Verified-Unit QA in AI Contact Centers",
       "venue": "",
       "topic": "LLM serving / video/image generation acceleration",
@@ -26503,6 +26633,30 @@
         "LLM Serving",
         "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "IMPACT: Attention Is the Interaction Map for Scalable Interaction-Aware World Model Training",
+      "venue": "",
+      "topic": "video/image generation acceleration / VLA/WAM/Physical AI serving",
+      "arxiv": "2609.00161",
+      "doi": "",
+      "official_id": "arXiv:2609.00161",
+      "paper_url": "https://arxiv.org/abs/2609.00161",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "IMPACT reallocates world-model training supervision toward sparse interaction regions without auxiliary dense estimators; protected Physical-AI world-model efficiency lineage.",
+      "published_at": "2026-08-31T18:00:36Z",
+      "updated_at": "2026-08-31T18:00:36Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Efficient Attention",
+        "Video / Image Generation",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -27758,6 +27912,27 @@
       "is_latest_30d": true,
       "directions": [
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Cloud and On-Premises Deployment of Uzbek Legal RAG via Targeted Retriever Fine-Tuning",
+      "venue": "",
+      "topic": "LLM serving / KV cache/long-context",
+      "arxiv": "2608.29284",
+      "doi": "",
+      "official_id": "arXiv:2608.29284",
+      "paper_url": "https://arxiv.org/abs/2608.29284",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Cloud/on-prem legal RAG deployment study explicitly evaluates local-hardware latency and managed-cloud operating constraints; useful serving deployment evidence.",
+      "published_at": "2026-08-29T14:07:39Z",
+      "updated_at": "2026-08-29T14:07:39Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context"
       ]
     },
     {
@@ -29220,6 +29395,27 @@
       ]
     },
     {
+      "title": "SILK: Closing the Time-of-Check-to-Time-of-Use Gap in RoT-Protected AI Systems",
+      "venue": "",
+      "topic": "quantization / sparsity/pruning",
+      "arxiv": "2608.26402",
+      "doi": "",
+      "official_id": "arXiv:2608.26402",
+      "paper_url": "https://arxiv.org/abs/2608.26402",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "SILK performs inline pre-compute integrity checking for streamed quantized DNN weights with lightweight commit gating; useful accelerator reliability/security lineage.",
+      "published_at": "2026-08-26T21:06:34Z",
+      "updated_at": "2026-09-01T16:43:49Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Sparsity / Pruning"
+      ]
+    },
+    {
       "title": "LowRankArena: A Standardized Evaluation Platform for SVD-Based LLM Compression",
       "venue": "arXiv 2026",
       "topic": "LLM compression / low-rank SVD / standardized evaluation / inference benchmarking",
@@ -30610,6 +30806,29 @@
         "Video / Image Generation",
         "Efficient Reasoning / Agents",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "TrAct: Bridging Robot Control and Visual Prediction with Visual Tracks",
+      "venue": "",
+      "topic": "multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving",
+      "arxiv": "2608.24101",
+      "doi": "",
+      "official_id": "arXiv:2608.24101",
+      "paper_url": "https://arxiv.org/abs/2608.24101",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "TrAct uses visual tracks as an interface between robot control and a track-conditioned world model; protected Physical-AI world-model/action interface lineage.",
+      "published_at": "2026-08-25T06:00:01Z",
+      "updated_at": "2026-09-01T23:59:10Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Video / Image Generation",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -32638,6 +32857,29 @@
       ]
     },
     {
+      "title": "ECHO: A Cognitively Inspired, Auditable Memory Plane for Long-Horizon Agents",
+      "venue": "",
+      "topic": "video/image generation acceleration / VLA/WAM/Physical AI serving",
+      "arxiv": "2608.21755",
+      "doi": "",
+      "official_id": "arXiv:2608.21755",
+      "paper_url": "https://arxiv.org/abs/2608.21755",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "ECHO is an auditable long-horizon agent memory plane with retrieval, consolidation and provenance mechanisms; useful agent-memory runtime lineage.",
+      "published_at": "2026-08-22T03:33:24Z",
+      "updated_at": "2026-08-22T03:33:24Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "CounterAlign: Counterfactual Supervision for Vision-Language-Action Models",
       "venue": "",
       "topic": "multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving",
@@ -32918,6 +33160,26 @@
         "GPU Kernel / DSL / Compiler",
         "Video / Image Generation",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Integrating a Python Dynamical core into ICON",
+      "venue": "",
+      "topic": "GPU kernel/DSL/compilers",
+      "arxiv": "2608.21150",
+      "doi": "",
+      "official_id": "arXiv:2608.21150",
+      "paper_url": "https://arxiv.org/abs/2608.21150",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "GT4Py/DaCe integration into production ICON demonstrates high-level DSL/data-centric compilation without performance loss and 20-30% core speedup; useful compiler/HPC systems lineage.",
+      "published_at": "2026-08-21T14:25:14Z",
+      "updated_at": "2026-08-21T14:25:14Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
       ]
     },
     {
@@ -33682,6 +33944,26 @@
         "Video / Image Generation",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Heteroscedastic Neural Surrogate Modeling for Robust and Rapid Bayesian Inference in Fusion Plasma Diagnostics",
+      "venue": "",
+      "topic": "Efficient ML / AI Infra",
+      "arxiv": "2608.19377",
+      "doi": "",
+      "official_id": "arXiv:2608.19377",
+      "paper_url": "https://arxiv.org/abs/2608.19377",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Neural probabilistic surrogate reports >1500x acceleration for Bayesian fusion-plasma inference while modeling measurement noise; useful surrogate-acceleration evidence.",
+      "published_at": "2026-08-19T18:45:56Z",
+      "updated_at": "2026-08-19T18:45:56Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
       ]
     },
     {
@@ -34481,6 +34763,51 @@
       ]
     },
     {
+      "title": "HODAgent: Towards On-Demand, Responsive Humanoids for Physical World Human Interaction",
+      "venue": "",
+      "topic": "VLA/WAM/Physical AI serving",
+      "arxiv": "2608.17584",
+      "doi": "",
+      "official_id": "arXiv:2608.17584",
+      "paper_url": "https://arxiv.org/abs/2608.17584",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "HODAgent uses a semi-duplex embodied-agent architecture that accepts task revisions during motion while maintaining execution state; protected Physical-AI runtime lineage.",
+      "published_at": "2026-08-18T09:49:16Z",
+      "updated_at": "2026-08-20T04:11:45Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "ArborMem: Navigating Interaction States with Memory Forests",
+      "venue": "",
+      "topic": "LLM serving / KV cache/long-context / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2608.17534",
+      "doi": "",
+      "official_id": "arXiv:2608.17534",
+      "paper_url": "https://arxiv.org/abs/2608.17534",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "ArborMem organizes persistent conversational memory as navigable interaction-state forests; useful long-horizon agent-memory runtime lineage.",
+      "published_at": "2026-08-18T08:54:55Z",
+      "updated_at": "2026-08-18T08:54:55Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Beyond FLOPs: Energy-Aware Knowledge Distillation for Sustainable LLMs on Code-Related Task",
       "venue": "",
       "topic": "Efficient ML / AI Infra",
@@ -34768,6 +35095,27 @@
         "Distributed Training / Inference",
         "Video / Image Generation",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Cross-Model Memory Transfer via Target-Side Reader Adaptation",
+      "venue": "",
+      "topic": "LLM serving / video/image generation acceleration",
+      "arxiv": "2608.17050",
+      "doi": "",
+      "official_id": "arXiv:2608.17050",
+      "paper_url": "https://arxiv.org/abs/2608.17050",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Cross-model frozen-memory transfer studies target-side reader adaptation to reuse external learned memory without full model adaptation; useful model-memory serving lineage.",
+      "published_at": "2026-08-17T18:54:42Z",
+      "updated_at": "2026-08-19T07:30:09Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation"
       ]
     },
     {
@@ -55242,6 +55590,27 @@
       ]
     },
     {
+      "title": "ERASE: EaRly bAckpropagation SchEdule for Faster Training of Modern Recommendation Systems",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving",
+      "arxiv": "2608.18469",
+      "doi": "",
+      "official_id": "arXiv:2608.18469",
+      "paper_url": "https://arxiv.org/abs/2608.18469",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "ERASE overlaps detached backward subgraphs with subsequent forward work on separate CUDA streams to recover underutilized accelerator capacity; direct training-systems scheduling contribution.",
+      "published_at": "2026-08-19T02:51:08Z",
+      "updated_at": "2026-08-19T02:51:08Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
       "title": "More Context, Same Budget: Dual-Bounded Relational Recall Beyond Top-K Retrieval",
       "venue": "Fresh / preprint",
       "topic": "LLM serving",
@@ -55576,6 +55945,28 @@
         "LLM Serving",
         "Video / Image Generation",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Completion-Path Credits: Multi-Resource Control for Scale-Up Fabrics",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / video/image generation acceleration",
+      "arxiv": "2608.17523",
+      "doi": "",
+      "official_id": "arXiv:2608.17523",
+      "paper_url": "https://arxiv.org/abs/2608.17523",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "SemaCredit introduces multi-resource completion-path credits for GPU/AI-accelerator scale-up fabrics and materially reduces tail latency under atomic/response contention; direct AI-infrastructure interconnect contribution.",
+      "published_at": "2026-08-18T08:46:09Z",
+      "updated_at": "2026-08-18T08:46:09Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Video / Image Generation"
       ]
     },
     {
@@ -56048,6 +56439,27 @@
         "Video / Image Generation",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Localized TabICLv2: Scaling Tabular In-Context Learning through k-NN",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / video/image generation acceleration",
+      "arxiv": "2608.16429",
+      "doi": "",
+      "official_id": "arXiv:2608.16429",
+      "paper_url": "https://arxiv.org/abs/2608.16429",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Localized TabICLv2 directly reduces full-context tabular in-context inference cost by k-NN retrieval in learned row-representation space; direct inference-efficiency contribution.",
+      "published_at": "2026-08-17T11:30:56Z",
+      "updated_at": "2026-08-17T11:30:56Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation"
       ]
     },
     {
@@ -58503,6 +58915,28 @@
       "directions": [
         "LLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Lightweight LiDAR-Based Cone Detection Framework Using Random Forest for Formula Student Driverless",
+      "venue": "",
+      "topic": "LLM serving / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2609.11527",
+      "doi": "",
+      "official_id": "arXiv:2609.11527",
+      "paper_url": "https://arxiv.org/abs/2609.11527",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "CPU-only LiDAR perception pipeline achieves millisecond-scale end-to-end latency without GPU acceleration; protected edge/Physical-AI deployment evidence.",
+      "published_at": "2026-09-10T13:28:53Z",
+      "updated_at": "2026-09-10T13:28:53Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -67684,6 +68118,28 @@
       ]
     },
     {
+      "title": "CORAL: An LLM-Native Harness for Production Recommender Systems",
+      "venue": "",
+      "topic": "LLM serving / video/image generation acceleration / efficient reasoning/agent systems",
+      "arxiv": "2609.02730",
+      "doi": "",
+      "official_id": "arXiv:2609.02730",
+      "paper_url": "https://arxiv.org/abs/2609.02730",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "CORAL places an LLM agent in a continual production recommender optimization loop with measured operating signals and memory; useful production agent-runtime lineage.",
+      "published_at": "2026-09-02T15:40:36Z",
+      "updated_at": "2026-09-02T15:40:36Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Momentum in large-batch training: Polyak enlarges the critical batch size, Nesterov improves data efficiency",
       "venue": "",
       "topic": "LLM serving",
@@ -68851,6 +69307,28 @@
       ]
     },
     {
+      "title": "HitMem: Hierarchical Temporal 3D Memory with Multi-Modal Context-Aware Retrieval for Dynamic Environments",
+      "venue": "",
+      "topic": "video/image generation acceleration / VLA/WAM/Physical AI serving",
+      "arxiv": "2609.00950",
+      "doi": "",
+      "official_id": "arXiv:2609.00950",
+      "paper_url": "https://arxiv.org/abs/2609.00950",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "HitMem maintains a lightweight temporal 3D memory with context-aware retrieval for dynamic embodied environments; protected Physical-AI memory/runtime lineage.",
+      "published_at": "2026-09-01T09:09:21Z",
+      "updated_at": "2026-09-01T09:09:21Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Staged Linguistic Seeding: Grounded Query Expansion for Verified-Unit QA in AI Contact Centers",
       "venue": "",
       "topic": "LLM serving / video/image generation acceleration",
@@ -69213,6 +69691,30 @@
         "LLM Serving",
         "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "IMPACT: Attention Is the Interaction Map for Scalable Interaction-Aware World Model Training",
+      "venue": "",
+      "topic": "video/image generation acceleration / VLA/WAM/Physical AI serving",
+      "arxiv": "2609.00161",
+      "doi": "",
+      "official_id": "arXiv:2609.00161",
+      "paper_url": "https://arxiv.org/abs/2609.00161",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "IMPACT reallocates world-model training supervision toward sparse interaction regions without auxiliary dense estimators; protected Physical-AI world-model efficiency lineage.",
+      "published_at": "2026-08-31T18:00:36Z",
+      "updated_at": "2026-08-31T18:00:36Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Efficient Attention",
+        "Video / Image Generation",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -70468,6 +70970,27 @@
       "is_latest_30d": true,
       "directions": [
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Cloud and On-Premises Deployment of Uzbek Legal RAG via Targeted Retriever Fine-Tuning",
+      "venue": "",
+      "topic": "LLM serving / KV cache/long-context",
+      "arxiv": "2608.29284",
+      "doi": "",
+      "official_id": "arXiv:2608.29284",
+      "paper_url": "https://arxiv.org/abs/2608.29284",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Cloud/on-prem legal RAG deployment study explicitly evaluates local-hardware latency and managed-cloud operating constraints; useful serving deployment evidence.",
+      "published_at": "2026-08-29T14:07:39Z",
+      "updated_at": "2026-08-29T14:07:39Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context"
       ]
     },
     {
@@ -71930,6 +72453,27 @@
       ]
     },
     {
+      "title": "SILK: Closing the Time-of-Check-to-Time-of-Use Gap in RoT-Protected AI Systems",
+      "venue": "",
+      "topic": "quantization / sparsity/pruning",
+      "arxiv": "2608.26402",
+      "doi": "",
+      "official_id": "arXiv:2608.26402",
+      "paper_url": "https://arxiv.org/abs/2608.26402",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "SILK performs inline pre-compute integrity checking for streamed quantized DNN weights with lightweight commit gating; useful accelerator reliability/security lineage.",
+      "published_at": "2026-08-26T21:06:34Z",
+      "updated_at": "2026-09-01T16:43:49Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Sparsity / Pruning"
+      ]
+    },
+    {
       "title": "LowRankArena: A Standardized Evaluation Platform for SVD-Based LLM Compression",
       "venue": "arXiv 2026",
       "topic": "LLM compression / low-rank SVD / standardized evaluation / inference benchmarking",
@@ -73320,6 +73864,29 @@
         "Video / Image Generation",
         "Efficient Reasoning / Agents",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "TrAct: Bridging Robot Control and Visual Prediction with Visual Tracks",
+      "venue": "",
+      "topic": "multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving",
+      "arxiv": "2608.24101",
+      "doi": "",
+      "official_id": "arXiv:2608.24101",
+      "paper_url": "https://arxiv.org/abs/2608.24101",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "TrAct uses visual tracks as an interface between robot control and a track-conditioned world model; protected Physical-AI world-model/action interface lineage.",
+      "published_at": "2026-08-25T06:00:01Z",
+      "updated_at": "2026-09-01T23:59:10Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Video / Image Generation",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -75348,6 +75915,29 @@
       ]
     },
     {
+      "title": "ECHO: A Cognitively Inspired, Auditable Memory Plane for Long-Horizon Agents",
+      "venue": "",
+      "topic": "video/image generation acceleration / VLA/WAM/Physical AI serving",
+      "arxiv": "2608.21755",
+      "doi": "",
+      "official_id": "arXiv:2608.21755",
+      "paper_url": "https://arxiv.org/abs/2608.21755",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "ECHO is an auditable long-horizon agent memory plane with retrieval, consolidation and provenance mechanisms; useful agent-memory runtime lineage.",
+      "published_at": "2026-08-22T03:33:24Z",
+      "updated_at": "2026-08-22T03:33:24Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "CounterAlign: Counterfactual Supervision for Vision-Language-Action Models",
       "venue": "",
       "topic": "multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving",
@@ -75628,6 +76218,26 @@
         "GPU Kernel / DSL / Compiler",
         "Video / Image Generation",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Integrating a Python Dynamical core into ICON",
+      "venue": "",
+      "topic": "GPU kernel/DSL/compilers",
+      "arxiv": "2608.21150",
+      "doi": "",
+      "official_id": "arXiv:2608.21150",
+      "paper_url": "https://arxiv.org/abs/2608.21150",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "GT4Py/DaCe integration into production ICON demonstrates high-level DSL/data-centric compilation without performance loss and 20-30% core speedup; useful compiler/HPC systems lineage.",
+      "published_at": "2026-08-21T14:25:14Z",
+      "updated_at": "2026-08-21T14:25:14Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
       ]
     },
     {
@@ -76392,6 +77002,26 @@
         "Video / Image Generation",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Heteroscedastic Neural Surrogate Modeling for Robust and Rapid Bayesian Inference in Fusion Plasma Diagnostics",
+      "venue": "",
+      "topic": "Efficient ML / AI Infra",
+      "arxiv": "2608.19377",
+      "doi": "",
+      "official_id": "arXiv:2608.19377",
+      "paper_url": "https://arxiv.org/abs/2608.19377",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Neural probabilistic surrogate reports >1500x acceleration for Bayesian fusion-plasma inference while modeling measurement noise; useful surrogate-acceleration evidence.",
+      "published_at": "2026-08-19T18:45:56Z",
+      "updated_at": "2026-08-19T18:45:56Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
       ]
     },
     {
@@ -77191,6 +77821,51 @@
       ]
     },
     {
+      "title": "HODAgent: Towards On-Demand, Responsive Humanoids for Physical World Human Interaction",
+      "venue": "",
+      "topic": "VLA/WAM/Physical AI serving",
+      "arxiv": "2608.17584",
+      "doi": "",
+      "official_id": "arXiv:2608.17584",
+      "paper_url": "https://arxiv.org/abs/2608.17584",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "HODAgent uses a semi-duplex embodied-agent architecture that accepts task revisions during motion while maintaining execution state; protected Physical-AI runtime lineage.",
+      "published_at": "2026-08-18T09:49:16Z",
+      "updated_at": "2026-08-20T04:11:45Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "ArborMem: Navigating Interaction States with Memory Forests",
+      "venue": "",
+      "topic": "LLM serving / KV cache/long-context / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2608.17534",
+      "doi": "",
+      "official_id": "arXiv:2608.17534",
+      "paper_url": "https://arxiv.org/abs/2608.17534",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "ArborMem organizes persistent conversational memory as navigable interaction-state forests; useful long-horizon agent-memory runtime lineage.",
+      "published_at": "2026-08-18T08:54:55Z",
+      "updated_at": "2026-08-18T08:54:55Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Beyond FLOPs: Energy-Aware Knowledge Distillation for Sustainable LLMs on Code-Related Task",
       "venue": "",
       "topic": "Efficient ML / AI Infra",
@@ -77478,6 +78153,27 @@
         "Distributed Training / Inference",
         "Video / Image Generation",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Cross-Model Memory Transfer via Target-Side Reader Adaptation",
+      "venue": "",
+      "topic": "LLM serving / video/image generation acceleration",
+      "arxiv": "2608.17050",
+      "doi": "",
+      "official_id": "arXiv:2608.17050",
+      "paper_url": "https://arxiv.org/abs/2608.17050",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Cross-model frozen-memory transfer studies target-side reader adaptation to reuse external learned memory without full model adaptation; useful model-memory serving lineage.",
+      "published_at": "2026-08-17T18:54:42Z",
+      "updated_at": "2026-08-19T07:30:09Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation"
       ]
     },
     {

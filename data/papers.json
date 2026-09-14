@@ -17646,6 +17646,28 @@
     ]
   },
   {
+    "title": "Completion-Path Credits: Multi-Resource Control for Scale-Up Fabrics",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / video/image generation acceleration",
+    "arxiv": "2608.17523",
+    "doi": "",
+    "official_id": "arXiv:2608.17523",
+    "paper_url": "https://arxiv.org/abs/2608.17523",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "SemaCredit introduces multi-resource completion-path credits for GPU/AI-accelerator scale-up fabrics and materially reduces tail latency under atomic/response contention; direct AI-infrastructure interconnect contribution.",
+    "published_at": "2026-08-18T08:46:09Z",
+    "updated_at": "2026-08-18T08:46:09Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Video / Image Generation"
+    ]
+  },
+  {
     "title": "Compositional Online Learning for Semantic Data Processing Systems",
     "venue": "Fresh / preprint",
     "topic": "LLM serving / video/image generation acceleration",
@@ -18821,6 +18843,27 @@
     "directions": [
       "Video / Image Generation",
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "ERASE: EaRly bAckpropagation SchEdule for Faster Training of Modern Recommendation Systems",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving",
+    "arxiv": "2608.18469",
+    "doi": "",
+    "official_id": "arXiv:2608.18469",
+    "paper_url": "https://arxiv.org/abs/2608.18469",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "ERASE overlaps detached backward subgraphs with subsequent forward work on separate CUDA streams to recover underutilized accelerator capacity; direct training-systems scheduling contribution.",
+    "published_at": "2026-08-19T02:51:08Z",
+    "updated_at": "2026-08-19T02:51:08Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {
@@ -21089,6 +21132,27 @@
       "Video / Image Generation",
       "Efficient Reasoning / Agents",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Localized TabICLv2: Scaling Tabular In-Context Learning through k-NN",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / video/image generation acceleration",
+    "arxiv": "2608.16429",
+    "doi": "",
+    "official_id": "arXiv:2608.16429",
+    "paper_url": "https://arxiv.org/abs/2608.16429",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Localized TabICLv2 directly reduces full-context tabular in-context inference cost by k-NN retrieval in learned row-representation space; direct inference-efficiency contribution.",
+    "published_at": "2026-08-17T11:30:56Z",
+    "updated_at": "2026-08-17T11:30:56Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Video / Image Generation"
     ]
   },
   {
