@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-15",
   "window_start_beijing": "2026-08-16",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 1947,
+  "tracked_total": 1969,
   "p0_strong_or_canonical": [
     {
       "title": "SAS: Simple Attention Sparsification via End-to-End Optimization of Context Ranking",
@@ -5551,6 +5551,27 @@
       ]
     },
     {
+      "title": "CC-4DGS: Computational Deformation and Point-Cloud Compression for Storage-Efficient Dynamic Gaussian Splatting",
+      "venue": "Fresh / preprint",
+      "topic": "quantization / video/image generation acceleration",
+      "arxiv": "2609.02184",
+      "doi": "",
+      "official_id": "arXiv:2609.02184",
+      "paper_url": "https://arxiv.org/abs/2609.02184",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "CC-4DGS directly targets storage and execution efficiency of dynamic 4D Gaussian Splatting, replacing large learned hash tables with compact computational deformation and compressed canonical attributes; canonical 3DGS compression/acceleration lineage.",
+      "published_at": "2026-09-02T06:47:19Z",
+      "updated_at": "2026-09-02T06:47:19Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Quantization",
+        "Video / Image Generation"
+      ]
+    },
+    {
       "title": "MeanField Surrogate Modeling for Scalable Runtime Scheduling of Concurrent Heterogeneous AI Inference on Shared GPUs",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI systems / GPU scheduling / concurrent inference",
@@ -6618,6 +6639,26 @@
       "directions": [
         "Video / Image Generation",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "SFAD: Speculative Factuality-Aware Decoding",
+      "venue": "Fresh / preprint",
+      "topic": "speculative decoding",
+      "arxiv": "2609.00796",
+      "doi": "",
+      "official_id": "arXiv:2609.00796",
+      "paper_url": "https://arxiv.org/abs/2609.00796",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "SFAD is a speculative decoding framework explicitly designed to improve contextual faithfulness without the doubled inference cost of contrastive decoding; direct speculative-decoding efficiency contribution with a trained draft model and selective verification path.",
+      "published_at": "2026-09-01T06:46:54Z",
+      "updated_at": "2026-09-03T03:00:30Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Speculative Decoding"
       ]
     },
     {
@@ -25465,6 +25506,27 @@
       ]
     },
     {
+      "title": "SchedBlame: Who Ran While You Waited? Culprit-Attributed CPU Contention for Containers on Stock Kernels",
+      "venue": "",
+      "topic": "LLM serving",
+      "arxiv": "2609.02052",
+      "doi": "",
+      "official_id": "arXiv:2609.02052",
+      "paper_url": "https://arxiv.org/abs/2609.02052",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "SchedBlame uses continuous eBPF tracing on stock kernels to attribute CPU contention to culprit cgroups rather than only victims; useful observability/runtime lineage for colocated AI serving although the mechanism is container-generic.",
+      "published_at": "2026-09-02T03:29:25Z",
+      "updated_at": "2026-09-02T03:29:25Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
       "title": "Modeling What Changes: Sparse, Residual World Models for Object-Centric Manipulation",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / sparse world models / object-centric prediction",
@@ -26401,6 +26463,73 @@
       ]
     },
     {
+      "title": "BlockMGARD: Accelerating Adaptive Scientific Data Reduction with Region-of-Interest Error Control on GPUs",
+      "venue": "",
+      "topic": "LLM serving",
+      "arxiv": "2609.00205",
+      "doi": "",
+      "official_id": "arXiv:2609.00205",
+      "paper_url": "https://arxiv.org/abs/2609.00205",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "BlockMGARD redesigns multilevel scientific compression for GPU on-chip memory and reports large compression/decompression throughput gains; useful GPU data-movement/compression lineage.",
+      "published_at": "2026-08-31T18:17:42Z",
+      "updated_at": "2026-08-31T18:17:42Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "ZimaBlue: Evolving Generalizable World Action Models through Scalable Video Pre-training",
+      "venue": "",
+      "topic": "VLA/WAM/Physical AI serving / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2609.00188",
+      "doi": "",
+      "official_id": "arXiv:2609.00188",
+      "paper_url": "https://arxiv.org/abs/2609.00188",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "ZimaBlue scales World Action Models through video pretraining and robot grounding; retain as protected WAM lineage even though the main contribution is training/data scaling rather than serving runtime.",
+      "published_at": "2026-08-31T18:09:52Z",
+      "updated_at": "2026-08-31T18:09:52Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Stress-Testing Efficient Responsible-AI Evaluation: When Compute Savings Change Benchmark Conclusions",
+      "venue": "",
+      "topic": "quantization / MoE systems/accelerators / video/image generation acceleration",
+      "arxiv": "2608.31108",
+      "doi": "",
+      "official_id": "arXiv:2608.31108",
+      "paper_url": "https://arxiv.org/abs/2608.31108",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "This study stress-tests batching, INT8 quantization and benchmark reduction against accuracy, subgroup behavior, runtime and GPU energy; useful evidence on whether evaluation-time compute savings preserve conclusions.",
+      "published_at": "2026-08-31T17:13:15Z",
+      "updated_at": "2026-09-04T13:10:28Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "MoE Systems / Accelerators",
+        "GPU Kernel / DSL / Compiler",
+        "Video / Image Generation"
+      ]
+    },
+    {
       "title": "Measure Before You Manage: Evaluating Agent Working Memory in Coding Agents",
       "venue": "",
       "topic": "LLM serving / edge/cloud/heterogeneous AI systems",
@@ -26464,6 +26593,30 @@
         "KV Cache / Long Context",
         "Quantization",
         "Video / Image Generation"
+      ]
+    },
+    {
+      "title": "LightNav-0: Eliciting VLM Spatial Intelligence for Generalist Embodied Navigation",
+      "venue": "",
+      "topic": "quantization / multimodal/MLLM serving / VLA/WAM/Physical AI serving / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2608.30935",
+      "doi": "",
+      "official_id": "arXiv:2608.30935",
+      "paper_url": "https://arxiv.org/abs/2608.30935",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "LightNav-0 is a compact generalist VLM-based embodied navigation policy with a unified token interface; retain as protected Physical-AI compact-policy lineage.",
+      "published_at": "2026-08-31T15:08:53Z",
+      "updated_at": "2026-09-09T04:40:36Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -26905,6 +27058,27 @@
       ]
     },
     {
+      "title": "RSLM: Training-Free Vector Quantization for Approximate Nearest Neighbor Search",
+      "venue": "",
+      "topic": "quantization",
+      "arxiv": "2608.30384",
+      "doi": "",
+      "official_id": "arXiv:2608.30384",
+      "paper_url": "https://arxiv.org/abs/2608.30384",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "RSLM provides training-free 1-4 bit vector quantization for ANN search, directly reducing retrieval memory footprint and bandwidth; useful vector-database/RAG serving quantization evidence.",
+      "published_at": "2026-08-31T07:40:57Z",
+      "updated_at": "2026-08-31T07:40:57Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization"
+      ]
+    },
+    {
       "title": "ScenePilot: Grow-and-Repair Policy for Text-Driven 3D Indoor Scene Generation",
       "venue": "",
       "topic": "LLM serving / multimodal/MLLM serving / video/image generation acceleration",
@@ -27077,6 +27251,27 @@
       "directions": [
         "LLM Serving",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Selection, Representation, and Execution in Sparse Fourier Neural Operators",
+      "venue": "",
+      "topic": "LLM serving / sparsity/pruning",
+      "arxiv": "2608.30070",
+      "doi": "",
+      "official_id": "arXiv:2608.30070",
+      "paper_url": "https://arxiv.org/abs/2608.30070",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Sparse-FNO study explicitly separates parameter sparsity, theoretical FLOPs and measured runtime, showing large parameter reductions need not improve latency; useful negative systems evidence for sparsity evaluation.",
+      "published_at": "2026-08-30T22:26:59Z",
+      "updated_at": "2026-08-30T22:26:59Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning"
       ]
     },
     {
@@ -27452,6 +27647,28 @@
       "directions": [
         "Video / Image Generation",
         "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "When to Adapt: Conditional Memory Adapters for Retention-Preserving Domain Specialization",
+      "venue": "",
+      "topic": "LLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2608.29327",
+      "doi": "",
+      "official_id": "arXiv:2608.29327",
+      "paper_url": "https://arxiv.org/abs/2608.29327",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Engram Adapter conditionally activates domain memory and suppresses OOD injection, providing selective inference-time adaptation rather than always-on PEFT; useful conditional-compute/memory lineage.",
+      "published_at": "2026-08-29T15:13:57Z",
+      "updated_at": "2026-08-29T15:13:57Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -28470,6 +28687,52 @@
       ]
     },
     {
+      "title": "Quanta Perception as Probabilistic Events",
+      "venue": "",
+      "topic": "LLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2608.27584",
+      "doi": "",
+      "official_id": "arXiv:2608.27584",
+      "paper_url": "https://arxiv.org/abs/2608.27584",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Probabilistic events compress photon streams into recursive belief states to fit real-time compute/latency budgets; useful edge Physical-AI perception-compute lineage.",
+      "published_at": "2026-08-27T18:10:04Z",
+      "updated_at": "2026-08-27T18:10:04Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Video / Image Generation",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Beyond Data Scaling: Representation-Centric Continued Pre-training for Vision-Language-Action Models",
+      "venue": "",
+      "topic": "LLM serving / multimodal/MLLM serving / VLA/WAM/Physical AI serving / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2608.27550",
+      "doi": "",
+      "official_id": "arXiv:2608.27550",
+      "paper_url": "https://arxiv.org/abs/2608.27550",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "VLAct studies representation-centric continued pretraining under fixed robot-data budgets across embodiments; retain as protected Physical-AI data-efficiency lineage rather than serving-runtime evidence.",
+      "published_at": "2026-08-27T17:59:40Z",
+      "updated_at": "2026-08-27T17:59:40Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "CLAP: Cross-Embodiment Video World Models are Zero-Shot Physical Simulators",
       "venue": "",
       "topic": "video/image generation acceleration / edge/cloud/heterogeneous AI systems",
@@ -29450,6 +29713,26 @@
       ]
     },
     {
+      "title": "Hierarchical Shared Memory-Aware Optimization for TRSM on GPU Platforms",
+      "venue": "",
+      "topic": "Efficient ML / AI Infra",
+      "arxiv": "2608.25469",
+      "doi": "",
+      "official_id": "arXiv:2608.25469",
+      "paper_url": "https://arxiv.org/abs/2608.25469",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "HSMA-TRSM is a shared-memory-aware GPU BLAS optimization across A100/H800/DCU; useful GPU-kernel/dataflow evidence although not ML-specific.",
+      "published_at": "2026-08-26T07:37:09Z",
+      "updated_at": "2026-08-26T07:37:09Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
       "title": "Can your AI agent be cheaper? Investigating the effects of task specifications on token spend in agentic coding tasks",
       "venue": "",
       "topic": "efficient reasoning/agent systems",
@@ -30091,6 +30374,28 @@
       ]
     },
     {
+      "title": "Resource-Efficient Pruning for Transformer via Low-Rank Importance Estimation",
+      "venue": "",
+      "topic": "LLM serving / sparsity/pruning / video/image generation acceleration",
+      "arxiv": "2608.24973",
+      "doi": "",
+      "official_id": "arXiv:2608.24973",
+      "paper_url": "https://arxiv.org/abs/2608.24973",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "REP-LIE estimates pruning importance from LoRA gradients instead of full gradients, explicitly reducing pruning/fine-tuning resource cost; useful structured pruning lineage.",
+      "published_at": "2026-08-25T11:36:01Z",
+      "updated_at": "2026-08-25T11:36:01Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Video / Image Generation"
+      ]
+    },
+    {
       "title": "VideoHarness-RSI: Recursive Harness Self-Improvement for Long-Video Understanding with Frozen Vision-Language Models",
       "venue": "",
       "topic": "multimodal/MLLM serving / video/image generation acceleration / efficient reasoning/agent systems",
@@ -30239,6 +30544,27 @@
         "Sparsity / Pruning",
         "Video / Image Generation",
         "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "ORBITALIF: An Efficient Spiking Federated Learning Framework for Onboard Cloud Removal",
+      "venue": "",
+      "topic": "LLM serving",
+      "arxiv": "2608.24073",
+      "doi": "",
+      "official_id": "arXiv:2608.24073",
+      "paper_url": "https://arxiv.org/abs/2608.24073",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "OrbitALIF performs compact onboard SNN inference/training with decentralized learning for LEO cloud removal; useful edge/heterogeneous AI evidence.",
+      "published_at": "2026-08-25T05:11:19Z",
+      "updated_at": "2026-08-25T05:11:19Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -30416,6 +30742,26 @@
         "Video / Image Generation",
         "Efficient Reasoning / Agents",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "ROI-Gated SAHI: Content-Adaptive Slicing-Based Inference for Efficient Object Detection",
+      "venue": "",
+      "topic": "LLM serving",
+      "arxiv": "2608.23923",
+      "doi": "",
+      "official_id": "arXiv:2608.23923",
+      "paper_url": "https://arxiv.org/abs/2608.23923",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "ROI-Gated SAHI is an inference-time adaptive routing scheme that avoids background tiles; mixed average results but demonstrates workload-dependent latency gains up to 6.9x, useful conditional-compute evidence.",
+      "published_at": "2026-08-25T00:02:26Z",
+      "updated_at": "2026-08-25T00:02:26Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving"
       ]
     },
     {
@@ -30693,6 +31039,29 @@
       ]
     },
     {
+      "title": "Mixture of Channel Experts: Static Sparse Supports with Input-Adaptive Mixing for Pointwise Projections",
+      "venue": "",
+      "topic": "LLM serving / MoE systems/accelerators / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2608.23794",
+      "doi": "",
+      "official_id": "arXiv:2608.23794",
+      "paper_url": "https://arxiv.org/abs/2608.23794",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "MoCE replaces duplicated convolutional experts with sparse channel supports and input-adaptive mixing; useful sparse-MoE/edge operator lineage outside LLM serving.",
+      "published_at": "2026-08-24T19:55:39Z",
+      "updated_at": "2026-08-24T19:55:39Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "MoE Systems / Accelerators",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Inter-dimension Dependence for Multi-Dimensional Evaluation of Open-Ended Text",
       "venue": "",
       "topic": "Efficient ML / AI Infra",
@@ -30710,6 +31079,27 @@
       "is_latest_30d": true,
       "directions": [
         "LLM Serving"
+      ]
+    },
+    {
+      "title": "Calibration-Preserving Pruning: Compression as a Reliability Contract",
+      "venue": "",
+      "topic": "LLM serving / sparsity/pruning",
+      "arxiv": "2608.23744",
+      "doi": "",
+      "official_id": "arXiv:2608.23744",
+      "paper_url": "https://arxiv.org/abs/2608.23744",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Calibration-Preserving Pruning studies 50% sparse Qwen2.5-1.5B while preserving conformal reliability; useful pruning/reliability tradeoff evidence.",
+      "published_at": "2026-08-24T18:31:01Z",
+      "updated_at": "2026-08-24T18:31:01Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning"
       ]
     },
     {
@@ -31566,6 +31956,29 @@
       ]
     },
     {
+      "title": "Kernel Token Contradiction: a Fast and Principled Approach for LLM Claim Uncertainty Quantification",
+      "venue": "",
+      "topic": "video/image generation acceleration",
+      "arxiv": "2608.22506",
+      "doi": "",
+      "official_id": "arXiv:2608.22506",
+      "paper_url": "https://arxiv.org/abs/2608.22506",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "KTC is a lightweight claim-level uncertainty method reporting 8.2x speedup over GPU cross-encoder baselines and 65x over comparable CPU methods; useful efficient reasoning/UQ evidence.",
+      "published_at": "2026-08-23T16:55:02Z",
+      "updated_at": "2026-08-23T16:55:02Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "GPU Kernel / DSL / Compiler",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "M$^3$ISR: A Multi-Modal Multi-View Benchmark for 3D/4D Gaussian Splatting and Feedforward Compression",
       "venue": "",
       "topic": "Efficient ML / AI Infra",
@@ -31884,6 +32297,29 @@
       "directions": [
         "LLM Serving",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "More Accurate or More Efficient? Evaluating Locally Deployed Compact Open-Weight Language Models for Mathematical Reasoning",
+      "venue": "",
+      "topic": "video/image generation acceleration",
+      "arxiv": "2608.22048",
+      "doi": "",
+      "official_id": "arXiv:2608.22048",
+      "paper_url": "https://arxiv.org/abs/2608.22048",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Controlled local deployment study measures accuracy, runtime and energy for compact open-weight LMs on local hardware; useful edge/local-serving evaluation evidence.",
+      "published_at": "2026-08-22T17:24:28Z",
+      "updated_at": "2026-08-22T17:24:28Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -32486,6 +32922,28 @@
       "directions": [
         "LLM Serving",
         "Quantization"
+      ]
+    },
+    {
+      "title": "Neural-Primitive: An Efficient End-to-end Local Planner with Primitive-based Imitation Learning for Autonomous Flight",
+      "venue": "",
+      "topic": "LLM serving / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2608.20948",
+      "doi": "",
+      "official_id": "arXiv:2608.20948",
+      "paper_url": "https://arxiv.org/abs/2608.20948",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Neural-Primitive reports sub-millisecond desktop and 3.68 ms onboard trajectory generation with less than 1.5 MiB memory; strong protected Physical-AI edge-efficiency evidence, but outside VLA/WAM serving.",
+      "published_at": "2026-08-21T10:13:44Z",
+      "updated_at": "2026-09-01T07:01:25Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -33612,6 +34070,28 @@
       "directions": [
         "Video / Image Generation",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Low-Power, Neuromorphic, Acoustic Anomaly Detection for Persistent Machine Monitoring",
+      "venue": "",
+      "topic": "LLM serving / video/image generation acceleration",
+      "arxiv": "2608.18341",
+      "doi": "",
+      "official_id": "arXiv:2608.18341",
+      "paper_url": "https://arxiv.org/abs/2608.18341",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Loihi-2 acoustic anomaly detection provides measured always-on energy and real-time throughput; retain as neuromorphic edge-inference evidence.",
+      "published_at": "2026-08-18T21:46:11Z",
+      "updated_at": "2026-08-18T21:46:11Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -47590,6 +48070,27 @@
       ]
     },
     {
+      "title": "CC-4DGS: Computational Deformation and Point-Cloud Compression for Storage-Efficient Dynamic Gaussian Splatting",
+      "venue": "Fresh / preprint",
+      "topic": "quantization / video/image generation acceleration",
+      "arxiv": "2609.02184",
+      "doi": "",
+      "official_id": "arXiv:2609.02184",
+      "paper_url": "https://arxiv.org/abs/2609.02184",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "CC-4DGS directly targets storage and execution efficiency of dynamic 4D Gaussian Splatting, replacing large learned hash tables with compact computational deformation and compressed canonical attributes; canonical 3DGS compression/acceleration lineage.",
+      "published_at": "2026-09-02T06:47:19Z",
+      "updated_at": "2026-09-02T06:47:19Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Quantization",
+        "Video / Image Generation"
+      ]
+    },
+    {
       "title": "MeanField Surrogate Modeling for Scalable Runtime Scheduling of Concurrent Heterogeneous AI Inference on Shared GPUs",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI systems / GPU scheduling / concurrent inference",
@@ -48657,6 +49158,26 @@
       "directions": [
         "Video / Image Generation",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "SFAD: Speculative Factuality-Aware Decoding",
+      "venue": "Fresh / preprint",
+      "topic": "speculative decoding",
+      "arxiv": "2609.00796",
+      "doi": "",
+      "official_id": "arXiv:2609.00796",
+      "paper_url": "https://arxiv.org/abs/2609.00796",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "SFAD is a speculative decoding framework explicitly designed to improve contextual faithfulness without the doubled inference cost of contrastive decoding; direct speculative-decoding efficiency contribution with a trained draft model and selective verification path.",
+      "published_at": "2026-09-01T06:46:54Z",
+      "updated_at": "2026-09-03T03:00:30Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Speculative Decoding"
       ]
     },
     {
@@ -67502,6 +68023,27 @@
       ]
     },
     {
+      "title": "SchedBlame: Who Ran While You Waited? Culprit-Attributed CPU Contention for Containers on Stock Kernels",
+      "venue": "",
+      "topic": "LLM serving",
+      "arxiv": "2609.02052",
+      "doi": "",
+      "official_id": "arXiv:2609.02052",
+      "paper_url": "https://arxiv.org/abs/2609.02052",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "SchedBlame uses continuous eBPF tracing on stock kernels to attribute CPU contention to culprit cgroups rather than only victims; useful observability/runtime lineage for colocated AI serving although the mechanism is container-generic.",
+      "published_at": "2026-09-02T03:29:25Z",
+      "updated_at": "2026-09-02T03:29:25Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
       "title": "Modeling What Changes: Sparse, Residual World Models for Object-Centric Manipulation",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / sparse world models / object-centric prediction",
@@ -68438,6 +68980,73 @@
       ]
     },
     {
+      "title": "BlockMGARD: Accelerating Adaptive Scientific Data Reduction with Region-of-Interest Error Control on GPUs",
+      "venue": "",
+      "topic": "LLM serving",
+      "arxiv": "2609.00205",
+      "doi": "",
+      "official_id": "arXiv:2609.00205",
+      "paper_url": "https://arxiv.org/abs/2609.00205",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "BlockMGARD redesigns multilevel scientific compression for GPU on-chip memory and reports large compression/decompression throughput gains; useful GPU data-movement/compression lineage.",
+      "published_at": "2026-08-31T18:17:42Z",
+      "updated_at": "2026-08-31T18:17:42Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "ZimaBlue: Evolving Generalizable World Action Models through Scalable Video Pre-training",
+      "venue": "",
+      "topic": "VLA/WAM/Physical AI serving / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2609.00188",
+      "doi": "",
+      "official_id": "arXiv:2609.00188",
+      "paper_url": "https://arxiv.org/abs/2609.00188",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "ZimaBlue scales World Action Models through video pretraining and robot grounding; retain as protected WAM lineage even though the main contribution is training/data scaling rather than serving runtime.",
+      "published_at": "2026-08-31T18:09:52Z",
+      "updated_at": "2026-08-31T18:09:52Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Stress-Testing Efficient Responsible-AI Evaluation: When Compute Savings Change Benchmark Conclusions",
+      "venue": "",
+      "topic": "quantization / MoE systems/accelerators / video/image generation acceleration",
+      "arxiv": "2608.31108",
+      "doi": "",
+      "official_id": "arXiv:2608.31108",
+      "paper_url": "https://arxiv.org/abs/2608.31108",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "This study stress-tests batching, INT8 quantization and benchmark reduction against accuracy, subgroup behavior, runtime and GPU energy; useful evidence on whether evaluation-time compute savings preserve conclusions.",
+      "published_at": "2026-08-31T17:13:15Z",
+      "updated_at": "2026-09-04T13:10:28Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "MoE Systems / Accelerators",
+        "GPU Kernel / DSL / Compiler",
+        "Video / Image Generation"
+      ]
+    },
+    {
       "title": "Measure Before You Manage: Evaluating Agent Working Memory in Coding Agents",
       "venue": "",
       "topic": "LLM serving / edge/cloud/heterogeneous AI systems",
@@ -68501,6 +69110,30 @@
         "KV Cache / Long Context",
         "Quantization",
         "Video / Image Generation"
+      ]
+    },
+    {
+      "title": "LightNav-0: Eliciting VLM Spatial Intelligence for Generalist Embodied Navigation",
+      "venue": "",
+      "topic": "quantization / multimodal/MLLM serving / VLA/WAM/Physical AI serving / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2608.30935",
+      "doi": "",
+      "official_id": "arXiv:2608.30935",
+      "paper_url": "https://arxiv.org/abs/2608.30935",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "LightNav-0 is a compact generalist VLM-based embodied navigation policy with a unified token interface; retain as protected Physical-AI compact-policy lineage.",
+      "published_at": "2026-08-31T15:08:53Z",
+      "updated_at": "2026-09-09T04:40:36Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -68942,6 +69575,27 @@
       ]
     },
     {
+      "title": "RSLM: Training-Free Vector Quantization for Approximate Nearest Neighbor Search",
+      "venue": "",
+      "topic": "quantization",
+      "arxiv": "2608.30384",
+      "doi": "",
+      "official_id": "arXiv:2608.30384",
+      "paper_url": "https://arxiv.org/abs/2608.30384",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "RSLM provides training-free 1-4 bit vector quantization for ANN search, directly reducing retrieval memory footprint and bandwidth; useful vector-database/RAG serving quantization evidence.",
+      "published_at": "2026-08-31T07:40:57Z",
+      "updated_at": "2026-08-31T07:40:57Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization"
+      ]
+    },
+    {
       "title": "ScenePilot: Grow-and-Repair Policy for Text-Driven 3D Indoor Scene Generation",
       "venue": "",
       "topic": "LLM serving / multimodal/MLLM serving / video/image generation acceleration",
@@ -69114,6 +69768,27 @@
       "directions": [
         "LLM Serving",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Selection, Representation, and Execution in Sparse Fourier Neural Operators",
+      "venue": "",
+      "topic": "LLM serving / sparsity/pruning",
+      "arxiv": "2608.30070",
+      "doi": "",
+      "official_id": "arXiv:2608.30070",
+      "paper_url": "https://arxiv.org/abs/2608.30070",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Sparse-FNO study explicitly separates parameter sparsity, theoretical FLOPs and measured runtime, showing large parameter reductions need not improve latency; useful negative systems evidence for sparsity evaluation.",
+      "published_at": "2026-08-30T22:26:59Z",
+      "updated_at": "2026-08-30T22:26:59Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning"
       ]
     },
     {
@@ -69489,6 +70164,28 @@
       "directions": [
         "Video / Image Generation",
         "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "When to Adapt: Conditional Memory Adapters for Retention-Preserving Domain Specialization",
+      "venue": "",
+      "topic": "LLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2608.29327",
+      "doi": "",
+      "official_id": "arXiv:2608.29327",
+      "paper_url": "https://arxiv.org/abs/2608.29327",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Engram Adapter conditionally activates domain memory and suppresses OOD injection, providing selective inference-time adaptation rather than always-on PEFT; useful conditional-compute/memory lineage.",
+      "published_at": "2026-08-29T15:13:57Z",
+      "updated_at": "2026-08-29T15:13:57Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -70507,6 +71204,52 @@
       ]
     },
     {
+      "title": "Quanta Perception as Probabilistic Events",
+      "venue": "",
+      "topic": "LLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2608.27584",
+      "doi": "",
+      "official_id": "arXiv:2608.27584",
+      "paper_url": "https://arxiv.org/abs/2608.27584",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Probabilistic events compress photon streams into recursive belief states to fit real-time compute/latency budgets; useful edge Physical-AI perception-compute lineage.",
+      "published_at": "2026-08-27T18:10:04Z",
+      "updated_at": "2026-08-27T18:10:04Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Video / Image Generation",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Beyond Data Scaling: Representation-Centric Continued Pre-training for Vision-Language-Action Models",
+      "venue": "",
+      "topic": "LLM serving / multimodal/MLLM serving / VLA/WAM/Physical AI serving / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2608.27550",
+      "doi": "",
+      "official_id": "arXiv:2608.27550",
+      "paper_url": "https://arxiv.org/abs/2608.27550",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "VLAct studies representation-centric continued pretraining under fixed robot-data budgets across embodiments; retain as protected Physical-AI data-efficiency lineage rather than serving-runtime evidence.",
+      "published_at": "2026-08-27T17:59:40Z",
+      "updated_at": "2026-08-27T17:59:40Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "CLAP: Cross-Embodiment Video World Models are Zero-Shot Physical Simulators",
       "venue": "",
       "topic": "video/image generation acceleration / edge/cloud/heterogeneous AI systems",
@@ -71487,6 +72230,26 @@
       ]
     },
     {
+      "title": "Hierarchical Shared Memory-Aware Optimization for TRSM on GPU Platforms",
+      "venue": "",
+      "topic": "Efficient ML / AI Infra",
+      "arxiv": "2608.25469",
+      "doi": "",
+      "official_id": "arXiv:2608.25469",
+      "paper_url": "https://arxiv.org/abs/2608.25469",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "HSMA-TRSM is a shared-memory-aware GPU BLAS optimization across A100/H800/DCU; useful GPU-kernel/dataflow evidence although not ML-specific.",
+      "published_at": "2026-08-26T07:37:09Z",
+      "updated_at": "2026-08-26T07:37:09Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
       "title": "Can your AI agent be cheaper? Investigating the effects of task specifications on token spend in agentic coding tasks",
       "venue": "",
       "topic": "efficient reasoning/agent systems",
@@ -72128,6 +72891,28 @@
       ]
     },
     {
+      "title": "Resource-Efficient Pruning for Transformer via Low-Rank Importance Estimation",
+      "venue": "",
+      "topic": "LLM serving / sparsity/pruning / video/image generation acceleration",
+      "arxiv": "2608.24973",
+      "doi": "",
+      "official_id": "arXiv:2608.24973",
+      "paper_url": "https://arxiv.org/abs/2608.24973",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "REP-LIE estimates pruning importance from LoRA gradients instead of full gradients, explicitly reducing pruning/fine-tuning resource cost; useful structured pruning lineage.",
+      "published_at": "2026-08-25T11:36:01Z",
+      "updated_at": "2026-08-25T11:36:01Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Video / Image Generation"
+      ]
+    },
+    {
       "title": "VideoHarness-RSI: Recursive Harness Self-Improvement for Long-Video Understanding with Frozen Vision-Language Models",
       "venue": "",
       "topic": "multimodal/MLLM serving / video/image generation acceleration / efficient reasoning/agent systems",
@@ -72276,6 +73061,27 @@
         "Sparsity / Pruning",
         "Video / Image Generation",
         "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "ORBITALIF: An Efficient Spiking Federated Learning Framework for Onboard Cloud Removal",
+      "venue": "",
+      "topic": "LLM serving",
+      "arxiv": "2608.24073",
+      "doi": "",
+      "official_id": "arXiv:2608.24073",
+      "paper_url": "https://arxiv.org/abs/2608.24073",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "OrbitALIF performs compact onboard SNN inference/training with decentralized learning for LEO cloud removal; useful edge/heterogeneous AI evidence.",
+      "published_at": "2026-08-25T05:11:19Z",
+      "updated_at": "2026-08-25T05:11:19Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -72453,6 +73259,26 @@
         "Video / Image Generation",
         "Efficient Reasoning / Agents",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "ROI-Gated SAHI: Content-Adaptive Slicing-Based Inference for Efficient Object Detection",
+      "venue": "",
+      "topic": "LLM serving",
+      "arxiv": "2608.23923",
+      "doi": "",
+      "official_id": "arXiv:2608.23923",
+      "paper_url": "https://arxiv.org/abs/2608.23923",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "ROI-Gated SAHI is an inference-time adaptive routing scheme that avoids background tiles; mixed average results but demonstrates workload-dependent latency gains up to 6.9x, useful conditional-compute evidence.",
+      "published_at": "2026-08-25T00:02:26Z",
+      "updated_at": "2026-08-25T00:02:26Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving"
       ]
     },
     {
@@ -72730,6 +73556,29 @@
       ]
     },
     {
+      "title": "Mixture of Channel Experts: Static Sparse Supports with Input-Adaptive Mixing for Pointwise Projections",
+      "venue": "",
+      "topic": "LLM serving / MoE systems/accelerators / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2608.23794",
+      "doi": "",
+      "official_id": "arXiv:2608.23794",
+      "paper_url": "https://arxiv.org/abs/2608.23794",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "MoCE replaces duplicated convolutional experts with sparse channel supports and input-adaptive mixing; useful sparse-MoE/edge operator lineage outside LLM serving.",
+      "published_at": "2026-08-24T19:55:39Z",
+      "updated_at": "2026-08-24T19:55:39Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "MoE Systems / Accelerators",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Inter-dimension Dependence for Multi-Dimensional Evaluation of Open-Ended Text",
       "venue": "",
       "topic": "Efficient ML / AI Infra",
@@ -72747,6 +73596,27 @@
       "is_latest_30d": true,
       "directions": [
         "LLM Serving"
+      ]
+    },
+    {
+      "title": "Calibration-Preserving Pruning: Compression as a Reliability Contract",
+      "venue": "",
+      "topic": "LLM serving / sparsity/pruning",
+      "arxiv": "2608.23744",
+      "doi": "",
+      "official_id": "arXiv:2608.23744",
+      "paper_url": "https://arxiv.org/abs/2608.23744",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Calibration-Preserving Pruning studies 50% sparse Qwen2.5-1.5B while preserving conformal reliability; useful pruning/reliability tradeoff evidence.",
+      "published_at": "2026-08-24T18:31:01Z",
+      "updated_at": "2026-08-24T18:31:01Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning"
       ]
     },
     {
@@ -73603,6 +74473,29 @@
       ]
     },
     {
+      "title": "Kernel Token Contradiction: a Fast and Principled Approach for LLM Claim Uncertainty Quantification",
+      "venue": "",
+      "topic": "video/image generation acceleration",
+      "arxiv": "2608.22506",
+      "doi": "",
+      "official_id": "arXiv:2608.22506",
+      "paper_url": "https://arxiv.org/abs/2608.22506",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "KTC is a lightweight claim-level uncertainty method reporting 8.2x speedup over GPU cross-encoder baselines and 65x over comparable CPU methods; useful efficient reasoning/UQ evidence.",
+      "published_at": "2026-08-23T16:55:02Z",
+      "updated_at": "2026-08-23T16:55:02Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "GPU Kernel / DSL / Compiler",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "M$^3$ISR: A Multi-Modal Multi-View Benchmark for 3D/4D Gaussian Splatting and Feedforward Compression",
       "venue": "",
       "topic": "Efficient ML / AI Infra",
@@ -73921,6 +74814,29 @@
       "directions": [
         "LLM Serving",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "More Accurate or More Efficient? Evaluating Locally Deployed Compact Open-Weight Language Models for Mathematical Reasoning",
+      "venue": "",
+      "topic": "video/image generation acceleration",
+      "arxiv": "2608.22048",
+      "doi": "",
+      "official_id": "arXiv:2608.22048",
+      "paper_url": "https://arxiv.org/abs/2608.22048",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Controlled local deployment study measures accuracy, runtime and energy for compact open-weight LMs on local hardware; useful edge/local-serving evaluation evidence.",
+      "published_at": "2026-08-22T17:24:28Z",
+      "updated_at": "2026-08-22T17:24:28Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -74523,6 +75439,28 @@
       "directions": [
         "LLM Serving",
         "Quantization"
+      ]
+    },
+    {
+      "title": "Neural-Primitive: An Efficient End-to-end Local Planner with Primitive-based Imitation Learning for Autonomous Flight",
+      "venue": "",
+      "topic": "LLM serving / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2608.20948",
+      "doi": "",
+      "official_id": "arXiv:2608.20948",
+      "paper_url": "https://arxiv.org/abs/2608.20948",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Neural-Primitive reports sub-millisecond desktop and 3.68 ms onboard trajectory generation with less than 1.5 MiB memory; strong protected Physical-AI edge-efficiency evidence, but outside VLA/WAM serving.",
+      "published_at": "2026-08-21T10:13:44Z",
+      "updated_at": "2026-09-01T07:01:25Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -75649,6 +76587,28 @@
       "directions": [
         "Video / Image Generation",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Low-Power, Neuromorphic, Acoustic Anomaly Detection for Persistent Machine Monitoring",
+      "venue": "",
+      "topic": "LLM serving / video/image generation acceleration",
+      "arxiv": "2608.18341",
+      "doi": "",
+      "official_id": "arXiv:2608.18341",
+      "paper_url": "https://arxiv.org/abs/2608.18341",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Loihi-2 acoustic anomaly detection provides measured always-on energy and real-time throughput; retain as neuromorphic edge-inference evidence.",
+      "published_at": "2026-08-18T21:46:11Z",
+      "updated_at": "2026-08-18T21:46:11Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {

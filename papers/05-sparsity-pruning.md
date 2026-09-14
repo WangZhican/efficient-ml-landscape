@@ -1,10 +1,10 @@
 # 05 · Sparsity / Pruning
 
-> **347 canonical papers** mapped here, plus a broader **239-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **347 canonical papers** mapped here, plus a broader **243-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 239 tracked
+## 🆕 Latest 30 Days · 243 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -120,6 +120,7 @@
 | **P1 · Watch** | **A.X K2 Technical Report** | Fresh / preprint | LLM serving / KV cache/long-context / quantization / sparsity/pruning / MoE systems/accelerators / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.30181) | — |
 | **P1 · Watch** | **CAST: Critique-Aware Supervision for Training Reliable Long-Horizon Tool-Calling Agents** | Fresh / preprint | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.30147) | — |
 | **P0 · Strong** | **Budget-Aware Compression Pipeline for Single-GPU LLM Inference: Methods, Trade-offs, and Coupling Effects** | GroundLM 2026 (EMNLP 2026 Workshop) | LLM serving / quantization / pruning / KV cache / single-GPU inference | [Link](https://arxiv.org/abs/2608.30076) | — |
+| **P1 · Watch** | **Selection, Representation, and Execution in Sparse Fourier Neural Operators** | Fresh / preprint | LLM serving / sparsity/pruning | [Link](https://arxiv.org/abs/2608.30070) | — |
 | **P1 · Watch** | **Towards an Expressivity-Normalized Energy-Demand Comparison of ANNs and SNNs** | Fresh / preprint | sparsity/pruning | [Link](https://arxiv.org/abs/2608.29869) | — |
 | **P1 · Watch** | **MotionSync: Non-Causal Refinement of Causal Tracker for Label-Efficient 3D Perception** | Fresh / preprint | sparsity/pruning | [Link](https://arxiv.org/abs/2608.29567) | — |
 | **P0 · Strong** | **LoGo: Token-Level Dynamic Local-Global Attention** | Fresh / preprint | KV cache/long-context / GPU kernel/DSL/compilers | [Link](https://arxiv.org/abs/2608.29539) | — |
@@ -144,6 +145,7 @@
 | **P0 · Strong** | **SHIFT-LLM: Distribution Shift Correction in Depth-Pruned LLMs** | Fresh / preprint | sparsity/pruning / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.25068) | — |
 | **P0 · Strong** | **Structurally-bounded Agentic Graph Exploration for Evidence-Grounded Scholarly DeepSearch** | Fresh / preprint | video/image generation acceleration / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.24809) | — |
 | **P1 · Watch** | **TurboT2VA: Fast Large-Scale Text-to-Video-Audio Generation via Score-Regularized Consistency Distillation** | Fresh / preprint | video/image generation acceleration / multimodal diffusion / quantization / sparse attention | [Link](https://arxiv.org/abs/2608.24674) | — |
+| **P1 · Watch** | **Resource-Efficient Pruning for Transformer via Low-Rank Importance Estimation** | Fresh / preprint | LLM serving / sparsity/pruning / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.24973) | — |
 | **P1 · Watch** | **ACE: A Self-Correcting Agentic Canvas Editor for Multi-Slide Presentation Automation** | Fresh / preprint | sparsity/pruning / video/image generation acceleration / efficient reasoning/agent systems / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.24103) | — |
 | **P1 · Watch** | **Compression Trinity: Exploring Sparsity, Quantization, and Low-Rank Approximations for LLM Compression** | Fresh / preprint | quantization / sparsity/pruning / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.24070) | — |
 | **P0 · Strong** | **VisCache: Visual KV Cache Pruning for Efficient Vision Large Language Model Inference** | EMNLP 2026 Main Conference | multimodal/MLLM serving / KV cache / pruning / video inference | [Link](https://arxiv.org/abs/2608.24063) | [Repo](https://github.com/Wlklk/VisCache) |
@@ -152,6 +154,8 @@
 | **P0 · Strong** | **GlanceWAM: Sparse Test-Time Imagination for World-Action Models** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.23927) | [Repo](https://github.com/linhanwang/GlanceWAM) |
 | **P0 · Strong** | **HAP: Head-Adaptive Visual Token Pruning via Cross-Modal Alignment** | Fresh / preprint | sparsity/pruning / multimodal/MLLM serving | [Link](https://arxiv.org/abs/2608.23921) | [Repo](https://github.com/baokou-fw2/HAP) |
 | **P1 · Watch** | **Giga-Embeddings: Mixture-of-Experts Encoders for High-Throughput Text Embeddings** | Fresh / preprint | LLM serving / MoE systems/accelerators / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.23806) | — |
+| **P1 · Watch** | **Mixture of Channel Experts: Static Sparse Supports with Input-Adaptive Mixing for Pointwise Projections** | Fresh / preprint | LLM serving / MoE systems/accelerators / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.23794) | — |
+| **P1 · Watch** | **Calibration-Preserving Pruning: Compression as a Reliability Contract** | Fresh / preprint | LLM serving / sparsity/pruning | [Link](https://arxiv.org/abs/2608.23744) | — |
 | **P1 · Watch** | **E2S-Pruner: Progressive Two-Stage Evidence Fusion for Visual Token Pruning in Vision-Language Models** | Fresh / preprint | visual token pruning / MLLM inference / throughput acceleration | [Link](https://arxiv.org/abs/2608.23253) | — |
 | **P1 · Watch** | **Reservoir of Importance: Learning Semi-Structured Sparsity with Differentiable Subset Sampling** | Fresh / preprint | sparsity/pruning | [Link](https://arxiv.org/abs/2608.23048) | — |
 | **P1 · Watch** | **SA-RSQ: A Versatile Sparse Representation Framework for Multi-modal Recommender Systems** | Fresh / preprint | LLM serving / quantization | [Link](https://arxiv.org/abs/2608.22979) | — |

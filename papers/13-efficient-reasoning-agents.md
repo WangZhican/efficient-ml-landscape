@@ -1,10 +1,10 @@
 # 13 · Efficient Reasoning / Agents
 
-> **477 canonical papers** mapped here, plus a broader **601-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **477 canonical papers** mapped here, plus a broader **603-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 601 tracked
+## 🆕 Latest 30 Days · 603 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -446,6 +446,7 @@
 | **P1 · Watch** | **Physical Agentic AI: An Architecture for Orchestrating a Robot Crew with LLMs** | Fresh / preprint | video/image generation acceleration / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.22657) | — |
 | **P0 · Strong** | **CausalCache: Conditional High-Fidelity Restoration for Long-Horizon GUI Agents** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.22577) | — |
 | **P0 · Strong** | **ExecRubrics: Executable Tool-Augmented Rubrics for Verifiable and Efficient Long-Form Evaluation** | Fresh / preprint | video/image generation acceleration / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.22559) | — |
+| **P1 · Watch** | **Kernel Token Contradiction: a Fast and Principled Approach for LLM Claim Uncertainty Quantification** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2608.22506) | — |
 | **P1 · Watch** | **Where World Models Break: Natural-Input Failure Discovery** | Fresh / preprint | video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.22421) | — |
 | **P1 · Watch** | **When Not to Imitate: Boundary-Aware Skill Memory for Reliable Tool-Use LLM Agents** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2608.22339) | — |
 | **P1 · Watch** | **Read Less, Solve More: Token-Efficient Sparse Reading for AI Agents** | Fresh / preprint | efficient reasoning / agent systems / context admission / latency | [Link](https://arxiv.org/abs/2608.22237) | — |
@@ -453,6 +454,7 @@
 | **P0 · Strong** | **MCP-Universe RL: A Framework for Training MCP Tool-Use Agents via Reinforcement Learning** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2608.22167) | — |
 | **P1 · Watch** | **Beyond Fresh Starts: Stateful Inference for Streaming ASR in Conversational Voice Agents** | Fresh / preprint | LLM serving / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.22101) | — |
 | **P1 · Watch** | **Spine-Branch Coordination for Multi-agent Computer Use** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2608.22077) | — |
+| **P1 · Watch** | **More Accurate or More Efficient? Evaluating Locally Deployed Compact Open-Weight Language Models for Mathematical Reasoning** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2608.22048) | — |
 | **P1 · Watch** | **Multi-Agent Discovery and Resource-Aware Autonomous Exploration of Scientific Datasets** | Fresh / preprint | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.22045) | — |
 | **P0 · Strong** | **VIG: Visual Information Gain as a Reward Signal for Multimodal Chain-of-Thought Compression** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2608.21883) | [Repo](https://github.com/chaser682/vig) |
 | **P1 · Watch** | **MemGuard: Persisting Verifier Signals for LLM-Agent Memory Governance** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.21867) | [Repo](https://github.com/whyyyyy123/MemGuard) |

@@ -17386,6 +17386,27 @@
     ]
   },
   {
+    "title": "CC-4DGS: Computational Deformation and Point-Cloud Compression for Storage-Efficient Dynamic Gaussian Splatting",
+    "venue": "Fresh / preprint",
+    "topic": "quantization / video/image generation acceleration",
+    "arxiv": "2609.02184",
+    "doi": "",
+    "official_id": "arXiv:2609.02184",
+    "paper_url": "https://arxiv.org/abs/2609.02184",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "CC-4DGS directly targets storage and execution efficiency of dynamic 4D Gaussian Splatting, replacing large learned hash tables with compact computational deformation and compressed canonical attributes; canonical 3DGS compression/acceleration lineage.",
+    "published_at": "2026-09-02T06:47:19Z",
+    "updated_at": "2026-09-02T06:47:19Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Quantization",
+      "Video / Image Generation"
+    ]
+  },
+  {
     "title": "Centering before Pruning: Lightweight Geometry Correction for Diversity-Based Visual Token Pruning in LVLMs",
     "venue": "Fresh / preprint",
     "topic": "LLM serving / sparsity/pruning / multimodal/MLLM serving",
@@ -23962,6 +23983,26 @@
     "directions": [
       "LLM Serving",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "SFAD: Speculative Factuality-Aware Decoding",
+    "venue": "Fresh / preprint",
+    "topic": "speculative decoding",
+    "arxiv": "2609.00796",
+    "doi": "",
+    "official_id": "arXiv:2609.00796",
+    "paper_url": "https://arxiv.org/abs/2609.00796",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "SFAD is a speculative decoding framework explicitly designed to improve contextual faithfulness without the doubled inference cost of contrastive decoding; direct speculative-decoding efficiency contribution with a trained draft model and selective verification path.",
+    "published_at": "2026-09-01T06:46:54Z",
+    "updated_at": "2026-09-03T03:00:30Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Speculative Decoding"
     ]
   },
   {
