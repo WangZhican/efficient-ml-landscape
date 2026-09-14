@@ -3790,6 +3790,28 @@
     ]
   },
   {
+    "title": "DeepStack: Facilitating Co-Design Exploration of 3D DRAM-Stacked Accelerators for Distributed LLM Inference",
+    "venue": "arXiv 2026",
+    "topic": "distributed training/inference / edge-cloud heterogeneous AI systems / 3D memory / accelerator co-design",
+    "arxiv": "2604.04750",
+    "doi": "",
+    "official_id": "arXiv:2604.04750",
+    "paper_url": "https://arxiv.org/abs/2604.04750",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Cross-stack performance model and DSE framework for distributed 3D DRAM-stacked LLM inference, modeling memory, interconnect, parallelization, scheduling, thermal and power effects. It reports up to 100000x faster evaluation than detailed simulators at comparable accuracy and explores ~2.5e14 design points; MICRO version with artifact badges.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Deformable Object Manipulation under Partial Observability via Real-Time Full-Shape Estimation",
     "venue": "arXiv 2026",
     "topic": "VLA/WAM/Physical AI serving / robot world model / real-time control",
@@ -8781,6 +8803,31 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "UltraQuant: 4-bit KV Caching for Context-Heavy Agents",
+    "venue": "arXiv 2026",
+    "topic": "KV cache/long-context / quantization / efficient reasoning-agent systems / serving",
+    "arxiv": "2606.20474",
+    "doi": "",
+    "official_id": "arXiv:2606.20474",
+    "paper_url": "https://arxiv.org/abs/2606.20474",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "4-bit KV-cache serving path targeted at long-prefix multi-turn agents, combining robust K/V quantization choices with optimized AMD decode-attention kernels and an FP4 path using native scaled-MFMA. Reported cache-pressured P50 TTFT improves 3.47x (2.3x overall) and output throughput 1.63x over FP8 KV baseline.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Quantization",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler",
+      "Efficient Reasoning / Agents"
     ]
   },
   {

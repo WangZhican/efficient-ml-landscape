@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-14",
   "window_start_beijing": "2026-08-15",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 1221,
+  "tracked_total": 1223,
   "p0_strong_or_canonical": [
     {
       "title": "Zetta: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence",
@@ -5912,6 +5912,29 @@
       ]
     },
     {
+      "title": "STAR: Sparse Tactile Representation Learning in Vision-Tactile-Language-Action Models for Dexterous Manipulation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / sparse multimodal representation / tactile tokens",
+      "arxiv": "2609.12549",
+      "doi": "",
+      "official_id": "arXiv:2609.12549",
+      "paper_url": "https://arxiv.org/abs/2609.12549",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "VTLA work with sparse-global tactile token representation and sparse future tactile prediction over a 200-hour dexterous dataset. Important protected Physical-AI evidence, but the contribution is primarily representation/training rather than demonstrated runtime acceleration.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "STAIR (STructure Aware Information Retriever): A novel dataset and LLM based retriever for document structure augmentation",
       "venue": "",
       "topic": "KV cache/long-context",
@@ -8814,6 +8837,28 @@
       "directions": [
         "LLM Serving",
         "Quantization"
+      ]
+    },
+    {
+      "title": "Quality-Constrained Routing over a Fixed Pool of Quantized Mixture-of-Experts Instances",
+      "venue": "arXiv 2026",
+      "topic": "MoE systems/accelerators / quantization / LLM serving / routing",
+      "arxiv": "2609.12550",
+      "doi": "",
+      "official_id": "arXiv:2609.12550",
+      "paper_url": "https://arxiv.org/abs/2609.12550",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Formulates request routing across a fixed resident pool of differently quantized MoE instances under quality constraints, using request-specific fragility prediction and LP routing. The reported gain over request-agnostic mixing is modest (~2.5% relative), but the fixed-pool quality-aware serving formulation is directly relevant.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "MoE Systems / Accelerators"
       ]
     },
     {
@@ -32288,6 +32333,29 @@
       ]
     },
     {
+      "title": "STAR: Sparse Tactile Representation Learning in Vision-Tactile-Language-Action Models for Dexterous Manipulation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / sparse multimodal representation / tactile tokens",
+      "arxiv": "2609.12549",
+      "doi": "",
+      "official_id": "arXiv:2609.12549",
+      "paper_url": "https://arxiv.org/abs/2609.12549",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "VTLA work with sparse-global tactile token representation and sparse future tactile prediction over a 200-hour dexterous dataset. Important protected Physical-AI evidence, but the contribution is primarily representation/training rather than demonstrated runtime acceleration.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "STAIR (STructure Aware Information Retriever): A novel dataset and LLM based retriever for document structure augmentation",
       "venue": "",
       "topic": "KV cache/long-context",
@@ -35190,6 +35258,28 @@
       "directions": [
         "LLM Serving",
         "Quantization"
+      ]
+    },
+    {
+      "title": "Quality-Constrained Routing over a Fixed Pool of Quantized Mixture-of-Experts Instances",
+      "venue": "arXiv 2026",
+      "topic": "MoE systems/accelerators / quantization / LLM serving / routing",
+      "arxiv": "2609.12550",
+      "doi": "",
+      "official_id": "arXiv:2609.12550",
+      "paper_url": "https://arxiv.org/abs/2609.12550",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Formulates request routing across a fixed resident pool of differently quantized MoE instances under quality constraints, using request-specific fragility prediction and LP routing. The reported gain over request-agnostic mixing is modest (~2.5% relative), but the fixed-pool quality-aware serving formulation is directly relevant.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "MoE Systems / Accelerators"
       ]
     },
     {
