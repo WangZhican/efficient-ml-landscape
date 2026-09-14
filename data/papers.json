@@ -2386,8 +2386,8 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "PROMOTE_STRONG",
     "why": "BEAST introduces orthogonal 4D parallelization with domain-tensor parallelism and uncertainty parallelism; reports 3.96 EFLOP/s on 20,480 NVIDIA GH200 GPUs for a 2.4B-parameter configuration.",
-    "published_at": "2026-09-11T13:08:17Z",
-    "updated_at": "2026-09-11T13:08:17Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -3018,8 +3018,8 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "PROMOTE_STRONG",
     "why": "Region-centric measurement planner/runtime joining compiler, hardware and system evidence; improves persistent-kernel optimization and multi-GPU PGO.",
-    "published_at": "2026-09-11T00:07:04Z",
-    "updated_at": "2026-09-11T00:07:04Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -3152,8 +3152,8 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "PROMOTE_STRONG",
     "why": "FP8 Q/K/V attention quantization with explicit FP8 matmul and Triton kernel; up to 1.7x speedup without relevant accuracy loss on evaluated tabular foundation models.",
-    "published_at": "2026-09-11T16:31:29Z",
-    "updated_at": "2026-09-11T16:31:29Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -4150,8 +4150,8 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "PROMOTE_STRONG",
     "why": "Unified diffusion VLA/WAM with goal/action/future-state composition; optimized block-parallel action decoding reports up to 29.2x model-side speedup.",
-    "published_at": "2026-09-11T16:49:26Z",
-    "updated_at": "2026-09-11T16:49:26Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -4258,8 +4258,8 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "PROMOTE_STRONG",
     "why": "Robion is a direct VLA serving and management system for multi-robot, multi-model requests on multi-GPU edge servers. It co-schedules VLM and action-diffusion stages with GPU stream/SM controls, placement and SLO-aware batching; the paper reports 6.7x higher supported robot load than vLLM-Omni for individual models at 98% SLO attainment and up to 64 robots for eight models on four GPUs.",
-    "published_at": "2026-09-10T18:04:22Z",
-    "updated_at": "2026-09-10T18:04:22Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -4803,8 +4803,8 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "PROMOTE_STRONG",
     "why": "ForgeMegakernel uses coding agents plus a mid-state correctness oracle to generate per-model decode megakernels with fine-grained per-SM instruction streams, dependency counters and shared-memory buffer pooling. Across 14 decoding operations and eight model families it reports 1.21x geometric-mean speedup over SGLang 0.5.18 and 1.54x over a megakernel compiler, with all tested kernels faster inside SGLang at comparable accuracy.",
-    "published_at": "2026-09-11T02:52:02Z",
-    "updated_at": "2026-09-11T02:52:02Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -5379,8 +5379,8 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "PROMOTE_STRONG",
     "why": "HeatCache integrates thermal state into LLM scheduling for liquid-cooled edge-server rooms and is evaluated in a vLLM-based serving stack. It reports up to 18.0% lower compute energy, 81.7% lower thermal-throttle exposure and sub-0.9% SLO violations at elevated coolant temperatures.",
-    "published_at": "2026-09-11T05:14:57Z",
-    "updated_at": "2026-09-11T05:14:57Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -5483,8 +5483,8 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "PROMOTE_STRONG",
     "why": "Open-source cross-platform deployment toolkit jointly measuring accuracy, latency and energy across devices, modalities, inference engines and quantization levels.",
-    "published_at": "2026-09-11T04:03:20Z",
-    "updated_at": "2026-09-11T04:03:20Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -6900,8 +6900,8 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "PROMOTE_STRONG",
     "why": "Linear-attention serving framework for large-beam decoding that shares prompt-derived recurrent state, stores compact append-only divergent transitions and uses a fused GPU kernel; reports 1.54-2.46x end-to-end decode speedups.",
-    "published_at": "2026-09-11T03:41:06Z",
-    "updated_at": "2026-09-11T03:41:06Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -7594,8 +7594,8 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "PROMOTE_STRONG",
     "why": "SQD revisits heterogeneous disaggregation specifically for subquadratic-attention LLMs, mapping attention/state-heavy and dense compute phases to heterogeneous resources rather than assuming standard quadratic-attention serving. It reports substantial tokens-per-joule gains across modern hybrid/subquadratic models and tighter latency plus higher throughput in projected Rubin+LPX systems.",
-    "published_at": "2026-09-11T17:55:45Z",
-    "updated_at": "2026-09-11T17:55:45Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -7744,8 +7744,8 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "PROMOTE_STRONG",
     "why": "RoofLang is a DSL and optimization framework for representing and searching LLM inference-system architectures, turning serving design into an executable architecture search problem. The paper reports large decode-throughput opportunity for DeepSeek V4-series designs and persistent optimizer agents finding B300 architectures with sizeable throughput/interactivity improvements.",
-    "published_at": "2026-09-11T07:57:28Z",
-    "updated_at": "2026-09-11T07:57:28Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -7945,8 +7945,8 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "PROMOTE_STRONG",
     "why": "SAS learns context ranking end-to-end under a fixed sparse-attention budget instead of distilling dense attention scores, and includes a memory-efficient Triton kernel integrated into FlashAttention-style computation for long-sequence training. It outperforms trainable sparse-attention baselines across reasoning, long-context and agentic tasks, especially at tight budgets.",
-    "published_at": "2026-09-11T17:58:06Z",
-    "updated_at": "2026-09-11T17:58:06Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -8189,8 +8189,8 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "PROMOTE_STRONG",
     "why": "Predictive sequence-model expert activation, deadline-aware prefetch, forecast-driven cache and graph-compatible runtime; 45% residency reaches 80.22% of full-load performance.",
-    "published_at": "2026-09-11T15:43:52Z",
-    "updated_at": "2026-09-11T15:43:52Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -8329,6 +8329,28 @@
       "KV Cache / Long Context",
       "Quantization",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "Slot2Text: Object-Centric Visual Tokenization for Efficient and Spatially Traceable Surgical MLLMs",
+    "venue": "arXiv 2026",
+    "topic": "multimodal/MLLM serving / visual token reduction",
+    "arxiv": "2608.01473",
+    "doi": "",
+    "official_id": "arXiv:2608.01473",
+    "paper_url": "https://arxiv.org/abs/2608.01473",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Object-centric slot tokenization replaces dense visual prefixes; reports 91.8% lower total token consumption, 1295-to-47 visual-prefix reduction, lower peak GPU memory and higher throughput while retaining competitive quality.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Multimodal / MLLM Serving"
     ]
   },
   {
@@ -9145,8 +9167,8 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "PROMOTE_STRONG",
     "why": "EqiForge unifies high-level tensor expressions and tiled computations in one IR and uses equality saturation plus early compaction to search fused implementations, including FlashAttention-style kernels.",
-    "published_at": "2026-09-11T01:26:07Z",
-    "updated_at": "2026-09-11T01:26:07Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
@@ -9257,8 +9279,8 @@
     "formal_class": "CANONICAL_HIGH_VALUE",
     "decision": "PROMOTE_STRONG",
     "why": "Vortex co-designs extreme vector quantization and contextual sparsity with an accelerator architecture that remains compatible with systolic-array execution. The paper reports 8.03-23.7x speedup and 5.68-12.5x energy reduction over compared state-of-the-art accelerators, making it a direct algorithm-architecture Efficient ML contribution.",
-    "published_at": "2026-09-10T21:04:15Z",
-    "updated_at": "2026-09-10T21:04:15Z",
+    "published_at": "",
+    "updated_at": "",
     "is_latest_30d": true,
     "tracking_tier": "P0 · Strong",
     "directions": [
