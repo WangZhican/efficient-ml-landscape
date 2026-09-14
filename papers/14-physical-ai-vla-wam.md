@@ -1,10 +1,10 @@
 # 14 · VLA / WAM / Physical AI
 
-> **199 canonical papers** mapped here, plus a broader **454-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **199 canonical papers** mapped here, plus a broader **458-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 454 tracked
+## 🆕 Latest 30 Days · 458 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -244,6 +244,7 @@
 | **P0 · Strong** | **SmoothRL: Online Reinforcement Learning During Asynchronous Execution** | Fresh / preprint | LLM serving / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.29768) | — |
 | **P0 · Strong** | **DriftingVLA: Native One-Step Vision-Language-Action Generation via Per-Dimension Temporal Drifting** | arXiv 2026 | VLA/WAM/Physical AI serving / action-head acceleration | [Link](https://arxiv.org/abs/2608.29749) | — |
 | **P1 · Watch** | **$\mathcal{N}_0$-Foundation: Towards the Age of Tactile Intelligence** | Fresh / preprint | VLA/WAM/Physical AI serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.29601) | — |
+| **P1 · Watch** | **Towards a Systems Foundation for Agentic Skills: Architecture, Lifecycle, and Security** | Fresh / preprint | efficient reasoning/agent systems / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.29596) | — |
 | **P1 · Watch** | **Drive the Thoughts: Runtime Monitoring of VLA Reasoning-Trajectory Consistency** | Fresh / preprint | multimodal/MLLM serving / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.29583) | — |
 | **P1 · Watch** | **AGM: Achievement-Grounded Memory for Closed-Loop Agents with Frozen VLA Policies** | Fresh / preprint | multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.29537) | — |
 | **P1 · Watch** | **Does Latent Planning Survive Point Clouds? Action-Conditioned JEPA World Models for Geometric Observations** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2608.29434) | — |
@@ -309,6 +310,7 @@
 | **P1 · Watch** | **Physical Agentic AI: An Architecture for Orchestrating a Robot Crew with LLMs** | Fresh / preprint | video/image generation acceleration / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.22657) | — |
 | **P0 · Strong** | **Scaling Curriculum Learning For Autonomous Driving** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.22549) | — |
 | **P1 · Watch** | **Where World Models Break: Natural-Input Failure Discovery** | Fresh / preprint | video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.22421) | — |
+| **P1 · Watch** | **Robust Bimanual Vision-Language-Action Models via Embarrassingly Simple Modality Masking** | Fresh / preprint | LLM serving / multimodal/MLLM serving / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.22419) | — |
 | **P0 · Strong** | **WAM-OPD: On-Policy Distillation for World Action Models** | Fresh / preprint | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.22364) | — |
 | **P1 · Watch** | **DreamMimic: Learning Visuomotor Whole-Body Loco-Manipulation via World Model** | Fresh / preprint | video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.22278) | [Repo](https://github.com/DreamMimic/DreamMimic) |
 | **P1 · Watch** | **On the Capability Separation Between World-Model Policy Learning and Imitated World-Action Models** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.22197) | — |
@@ -355,6 +357,7 @@
 | **P1 · Watch** | **FabriMAE I Trust Myself? Self-Evaluating VLA Action Generation with Markov Attention Entropy** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.16697) | — |
 | **P1 · Watch** | **UniTAC: Universal Task-Aware Compression via Weighted Distortion Measures** | Fresh / preprint | Physical AI / task-aware sensory compression / edge communication | [Link](https://arxiv.org/abs/2608.16696) | — |
 | **P0 · Strong** | **Zetta: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence** | Fresh / preprint | Physical AI / embodied runtime | [Link](https://arxiv.org/abs/2608.16590) | — |
+| **P1 · Watch** | **DeepInsight II: One Trace from Benchmark to Robot** | Fresh / preprint | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.16556) | — |
 | **P1 · Watch** | **FLEET: Token-Based Feature Extraction for Event Camera-based Reinforcement Learning** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.16523) | — |
 | **P0 · Strong** | **NebulaVLA: A Dual-Frequency Vision-Language-Action Model With Guide Action for Robotic Manipulation** | Fresh / preprint | VLA efficient inference | [Link](https://arxiv.org/abs/2608.16503) | — |
 | **P0 · Strong** | **HaReCAP: Habitual-action Grounding for Recursive Large Language Model Agents** | Fresh / preprint | LLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.16447) | — |
@@ -369,6 +372,7 @@
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 | **P1 · Watch** | **Not All History Helps: Velocity-Aware Selective Memory for Long-Horizon End-to-End Autonomous Driving** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.15573) | — |
 | **P0 · Strong** | **EcoVLA: Energy-Efficient Device-Edge Co-Inference for Vision-Language-Action Models under Real-Time Constraints** | Fresh / preprint | VLA device-edge co-inference / energy-aware runtime | [Link](https://arxiv.org/abs/2608.15502) | — |
+| **P1 · Watch** | **Bit-Flip Attacks on Vision-Language-Action Models: Action-Decoding Architecture Shapes the Vulnerability** | Fresh / preprint | quantization / multimodal/MLLM serving / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.15475) | — |
 | **P1 · Watch** | **MM-BEV: Enhancing Timeliness by Computing Where and When it Matters** | Fresh / preprint | Physical AI / edge runtime / sparse multimodal perception | [Link](https://arxiv.org/abs/2608.15437) | — |
 | **P1 · Watch** | **FloodReasonBench: Benchmarking VLM Reasoning Segmentation for Embodied Flood Response at the Edge** | Fresh / preprint | LLM serving / multimodal/MLLM serving / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.15410) | — |
 | **P2 · Relevant** | **DriveVLA-M0: Failure-Aware Memory Augmentation for Autonomous Driving** | Fresh / preprint | llm_serving / multimodal / gen / physical | [Link](https://arxiv.org/abs/2608.10413) | — |

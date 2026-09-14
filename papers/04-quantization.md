@@ -1,10 +1,10 @@
 # 04 · Quantization
 
-> **297 canonical papers** mapped here, plus a broader **253-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **297 canonical papers** mapped here, plus a broader **255-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 253 tracked
+## 🆕 Latest 30 Days · 255 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -126,6 +126,7 @@
 | **P0 · Strong** | **Budget-Aware Compression Pipeline for Single-GPU LLM Inference: Methods, Trade-offs, and Coupling Effects** | GroundLM 2026 (EMNLP 2026 Workshop) | LLM serving / quantization / pruning / KV cache / single-GPU inference | [Link](https://arxiv.org/abs/2608.30076) | — |
 | **P1 · Watch** | **Influence Is Not Authority: When Causal Guardrail Signals Make Legitimate Tool Use Look Like an Attack in Tool-Using LLM Agents** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.29942) | — |
 | **P0 · Strong** | **OCGQuant: Outlier-Companion Grouping for NVFP4 Quantization** | arXiv 2026 | quantization / NVFP4 / LLM inference / activation outliers | [Link](https://arxiv.org/abs/2609.00066) | [Repo](https://github.com/Eshamont/OCGQuant) |
+| **P1 · Watch** | **AgentProv: Auditing Agentic LLM API Providers via Tool-use Policy Probes** | Fresh / preprint | LLM serving / quantization / video/image generation acceleration / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2609.00052) | — |
 | **P0 · Strong** | **REAL-Q: E2E LLM Quantization via Dynamic Gradient Descent** | Fresh / preprint | quantization | [Link](https://arxiv.org/abs/2609.00049) | — |
 | **P0 · Strong** | **Hydra: A Navigation World Action Model with Discrete Latent Planning and Continuous Flow-Matching Execution** | Fresh / preprint | quantization / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.28995) | — |
 | **P0 · Strong** | **SemKV: Semantic Mixed-Precision KV Cache Quantization Guided by the Quality Cliff for Long-Context LLM Inference** | arXiv 2026 | KV cache/long-context / quantization | [Link](https://arxiv.org/abs/2608.28911) | — |
@@ -212,6 +213,7 @@
 | **P0 · Strong** | **FluxBin: Flexible LUT-based Ultra-low-bit LLM Inference by Algorithm-Kernel Synergy** | Fresh / preprint | LLM quantization / CUDA kernel co-design | [Link](https://arxiv.org/abs/2608.15602) | — |
 | **P0 · Strong** | **SchurQuant: Groupwise Discrete Optimization for Layer-Wise LLM Quantization** | Fresh / preprint | quantization | [Link](https://arxiv.org/abs/2608.15567) | — |
 | **P1 · Watch** | **FlashQuant: Sparse-Dense Fusion for Memory-Efficient Outlier-Aware LLM Inference** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.15531) | — |
+| **P1 · Watch** | **Bit-Flip Attacks on Vision-Language-Action Models: Action-Decoding Architecture Shapes the Vulnerability** | Fresh / preprint | quantization / multimodal/MLLM serving / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.15475) | — |
 | **P1 · Watch** | **NeuRoute: Logit-Guided Neural Routing for Billion-Scale Vector Search with Sub-Hour Index Construction** | Fresh / preprint | LLM serving / quantization | [Link](https://arxiv.org/abs/2608.15438) | [Repo](https://github.com/XingqiaoWang/NeuRoute) |
 | **P0 · Strong** | **Every Expert Counts: ExactMoE for Memory-Efficient W4A16 Inference** | Fresh / preprint | MoE memory-efficient W4A16 inference / GPU slot cache | [Link](https://arxiv.org/abs/2608.15383) | — |
 | **P2 · Relevant** | **Spec Sheets Are Not Kernels: An ISA- and Source-Level Audit of INT8 Availability on NVIDIA Blackwell Ultra** | Fresh / preprint | llm_serving / quant / kernel / gen | [Link](https://arxiv.org/abs/2608.11693) | — |

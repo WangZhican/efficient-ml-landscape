@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-15",
   "window_start_beijing": "2026-08-16",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 1969,
+  "tracked_total": 1978,
   "p0_strong_or_canonical": [
     {
       "title": "SAS: Simple Attention Sparsification via End-to-End Optimization of Context Ranking",
@@ -27495,6 +27495,29 @@
       ]
     },
     {
+      "title": "AgentProv: Auditing Agentic LLM API Providers via Tool-use Policy Probes",
+      "venue": "",
+      "topic": "LLM serving / quantization / video/image generation acceleration / efficient reasoning/agent systems",
+      "arxiv": "2609.00052",
+      "doi": "",
+      "official_id": "arXiv:2609.00052",
+      "paper_url": "https://arxiv.org/abs/2609.00052",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "AgentProv audits commercial agentic LLM API backbones for substitution/quantization via tool-use policy probes; useful serving audit lineage.",
+      "published_at": "2026-08-30T08:22:12Z",
+      "updated_at": "2026-08-30T08:22:12Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "$\\mathcal{N}_0$-Foundation: Towards the Age of Tactile Intelligence",
       "venue": "",
       "topic": "VLA/WAM/Physical AI serving / edge/cloud/heterogeneous AI systems",
@@ -27514,6 +27537,28 @@
         "LLM Serving",
         "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Towards a Systems Foundation for Agentic Skills: Architecture, Lifecycle, and Security",
+      "venue": "",
+      "topic": "efficient reasoning/agent systems / VLA/WAM/Physical AI serving",
+      "arxiv": "2608.29596",
+      "doi": "",
+      "official_id": "arXiv:2608.29596",
+      "paper_url": "https://arxiv.org/abs/2608.29596",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Systems-oriented architecture/lifecycle/security foundation for agentic skills, motivated by reliability, context consumption and execution stability; useful agent-runtime lineage.",
+      "published_at": "2026-08-30T06:36:42Z",
+      "updated_at": "2026-08-30T06:36:42Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -29130,6 +29175,26 @@
       "is_latest_30d": true,
       "directions": [
         "MoE Systems / Accelerators"
+      ]
+    },
+    {
+      "title": "Benchmarking Confidential Computing Performance on NVIDIA Blackwell GPUs",
+      "venue": "",
+      "topic": "LLM serving",
+      "arxiv": "2608.26575",
+      "doi": "",
+      "official_id": "arXiv:2608.26575",
+      "paper_url": "https://arxiv.org/abs/2608.26575",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Measured confidential-computing overhead for LLM inference/training on NVIDIA B200 with TDX/CC; useful production accelerator deployment evidence.",
+      "published_at": "2026-08-27T03:37:35Z",
+      "updated_at": "2026-09-01T01:17:55Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving"
       ]
     },
     {
@@ -31508,6 +31573,26 @@
       ]
     },
     {
+      "title": "When a neural surrogate cannot accelerate a solver: runtime share, closed-loop drift, and the economics of uncertainty gating in a stiff coupled simulation",
+      "venue": "",
+      "topic": "Efficient ML / AI Infra",
+      "arxiv": "2608.23075",
+      "doi": "",
+      "official_id": "arXiv:2608.23075",
+      "paper_url": "https://arxiv.org/abs/2608.23075",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "End-to-end negative result on when neural surrogates fail to accelerate solvers, separating runtime share, drift and uncertainty-gating economics; useful efficiency evaluation evidence.",
+      "published_at": "2026-08-24T10:29:59Z",
+      "updated_at": "2026-08-24T10:29:59Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "From Generation to Simulation: How Far Are World Models from Being True Simulators?",
       "venue": "",
       "topic": "video/image generation acceleration",
@@ -32019,6 +32104,28 @@
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Robust Bimanual Vision-Language-Action Models via Embarrassingly Simple Modality Masking",
+      "venue": "",
+      "topic": "LLM serving / multimodal/MLLM serving / VLA/WAM/Physical AI serving",
+      "arxiv": "2608.22419",
+      "doi": "",
+      "official_id": "arXiv:2608.22419",
+      "paper_url": "https://arxiv.org/abs/2608.22419",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Low-latency query-based bimanual VLA robustness study; retain under protected Physical-AI deployment lineage.",
+      "published_at": "2026-08-23T13:48:57Z",
+      "updated_at": "2026-08-23T13:48:57Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -34309,6 +34416,28 @@
       ]
     },
     {
+      "title": "D$^2$ACCI: A Dual-Loop Diagnostic Protocol for Evidence-Preserving Agent Memory",
+      "venue": "",
+      "topic": "LLM serving / video/image generation acceleration",
+      "arxiv": "2608.17756",
+      "doi": "",
+      "official_id": "arXiv:2608.17756",
+      "paper_url": "https://arxiv.org/abs/2608.17756",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Diagnostic protocol for persistent agent-memory pipelines; useful agent-memory observability lineage.",
+      "published_at": "2026-08-18T13:18:38Z",
+      "updated_at": "2026-08-19T02:59:03Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "CompCPZ: Preserving Multi-Modal Intent in Language-Guided Robot Manipulation",
       "venue": "",
       "topic": "Physical AI runtime / compositional grounding",
@@ -34766,6 +34895,27 @@
         "Distributed Training / Inference",
         "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "DeepInsight II: One Trace from Benchmark to Robot",
+      "venue": "",
+      "topic": "VLA/WAM/Physical AI serving",
+      "arxiv": "2608.16556",
+      "doi": "",
+      "official_id": "arXiv:2608.16556",
+      "paper_url": "https://arxiv.org/abs/2608.16556",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "DeepInsight II proposes a benchmark-to-robot trace/evaluation harness across the Physical-AI stack; useful runtime/evaluation infrastructure lineage.",
+      "published_at": "2026-08-17T13:25:24Z",
+      "updated_at": "2026-08-17T13:25:24Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -35382,6 +35532,29 @@
       ]
     },
     {
+      "title": "Bit-Flip Attacks on Vision-Language-Action Models: Action-Decoding Architecture Shapes the Vulnerability",
+      "venue": "",
+      "topic": "quantization / multimodal/MLLM serving / VLA/WAM/Physical AI serving",
+      "arxiv": "2608.15475",
+      "doi": "",
+      "official_id": "arXiv:2608.15475",
+      "paper_url": "https://arxiv.org/abs/2608.15475",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Bit-flip attack study on quantized VLA action decoders; useful Physical-AI quantization/reliability deployment evidence.",
+      "published_at": "2026-08-16T01:44:09Z",
+      "updated_at": "2026-09-09T16:14:24Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "NeuRoute: Logit-Guided Neural Routing for Billion-Scale Vector Search with Sub-Hour Index Construction",
       "venue": "",
       "topic": "LLM serving / quantization",
@@ -35489,6 +35662,26 @@
       "is_latest_30d": true,
       "directions": [
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Adaptive Bridge: A Proxy-Based Decoupling Layer for Mitigating DDS Backpressure in ROS 2",
+      "venue": "",
+      "topic": "LLM serving",
+      "arxiv": "2608.15380",
+      "doi": "",
+      "official_id": "arXiv:2608.15380",
+      "paper_url": "https://arxiv.org/abs/2608.15380",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "ROS 2/DDS proxy layer mitigating subscriber backpressure and protecting throughput/latency; useful Physical-AI runtime infrastructure evidence.",
+      "published_at": "2026-08-15T19:19:11Z",
+      "updated_at": "2026-09-06T18:40:29Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving"
       ]
     },
     {
@@ -70012,6 +70205,29 @@
       ]
     },
     {
+      "title": "AgentProv: Auditing Agentic LLM API Providers via Tool-use Policy Probes",
+      "venue": "",
+      "topic": "LLM serving / quantization / video/image generation acceleration / efficient reasoning/agent systems",
+      "arxiv": "2609.00052",
+      "doi": "",
+      "official_id": "arXiv:2609.00052",
+      "paper_url": "https://arxiv.org/abs/2609.00052",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "AgentProv audits commercial agentic LLM API backbones for substitution/quantization via tool-use policy probes; useful serving audit lineage.",
+      "published_at": "2026-08-30T08:22:12Z",
+      "updated_at": "2026-08-30T08:22:12Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "$\\mathcal{N}_0$-Foundation: Towards the Age of Tactile Intelligence",
       "venue": "",
       "topic": "VLA/WAM/Physical AI serving / edge/cloud/heterogeneous AI systems",
@@ -70031,6 +70247,28 @@
         "LLM Serving",
         "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Towards a Systems Foundation for Agentic Skills: Architecture, Lifecycle, and Security",
+      "venue": "",
+      "topic": "efficient reasoning/agent systems / VLA/WAM/Physical AI serving",
+      "arxiv": "2608.29596",
+      "doi": "",
+      "official_id": "arXiv:2608.29596",
+      "paper_url": "https://arxiv.org/abs/2608.29596",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Systems-oriented architecture/lifecycle/security foundation for agentic skills, motivated by reliability, context consumption and execution stability; useful agent-runtime lineage.",
+      "published_at": "2026-08-30T06:36:42Z",
+      "updated_at": "2026-08-30T06:36:42Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -71647,6 +71885,26 @@
       "is_latest_30d": true,
       "directions": [
         "MoE Systems / Accelerators"
+      ]
+    },
+    {
+      "title": "Benchmarking Confidential Computing Performance on NVIDIA Blackwell GPUs",
+      "venue": "",
+      "topic": "LLM serving",
+      "arxiv": "2608.26575",
+      "doi": "",
+      "official_id": "arXiv:2608.26575",
+      "paper_url": "https://arxiv.org/abs/2608.26575",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Measured confidential-computing overhead for LLM inference/training on NVIDIA B200 with TDX/CC; useful production accelerator deployment evidence.",
+      "published_at": "2026-08-27T03:37:35Z",
+      "updated_at": "2026-09-01T01:17:55Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving"
       ]
     },
     {
@@ -74025,6 +74283,26 @@
       ]
     },
     {
+      "title": "When a neural surrogate cannot accelerate a solver: runtime share, closed-loop drift, and the economics of uncertainty gating in a stiff coupled simulation",
+      "venue": "",
+      "topic": "Efficient ML / AI Infra",
+      "arxiv": "2608.23075",
+      "doi": "",
+      "official_id": "arXiv:2608.23075",
+      "paper_url": "https://arxiv.org/abs/2608.23075",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "End-to-end negative result on when neural surrogates fail to accelerate solvers, separating runtime share, drift and uncertainty-gating economics; useful efficiency evaluation evidence.",
+      "published_at": "2026-08-24T10:29:59Z",
+      "updated_at": "2026-08-24T10:29:59Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "From Generation to Simulation: How Far Are World Models from Being True Simulators?",
       "venue": "",
       "topic": "video/image generation acceleration",
@@ -74536,6 +74814,28 @@
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Robust Bimanual Vision-Language-Action Models via Embarrassingly Simple Modality Masking",
+      "venue": "",
+      "topic": "LLM serving / multimodal/MLLM serving / VLA/WAM/Physical AI serving",
+      "arxiv": "2608.22419",
+      "doi": "",
+      "official_id": "arXiv:2608.22419",
+      "paper_url": "https://arxiv.org/abs/2608.22419",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Low-latency query-based bimanual VLA robustness study; retain under protected Physical-AI deployment lineage.",
+      "published_at": "2026-08-23T13:48:57Z",
+      "updated_at": "2026-08-23T13:48:57Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -76826,6 +77126,28 @@
       ]
     },
     {
+      "title": "D$^2$ACCI: A Dual-Loop Diagnostic Protocol for Evidence-Preserving Agent Memory",
+      "venue": "",
+      "topic": "LLM serving / video/image generation acceleration",
+      "arxiv": "2608.17756",
+      "doi": "",
+      "official_id": "arXiv:2608.17756",
+      "paper_url": "https://arxiv.org/abs/2608.17756",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Diagnostic protocol for persistent agent-memory pipelines; useful agent-memory observability lineage.",
+      "published_at": "2026-08-18T13:18:38Z",
+      "updated_at": "2026-08-19T02:59:03Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "CompCPZ: Preserving Multi-Modal Intent in Language-Guided Robot Manipulation",
       "venue": "",
       "topic": "Physical AI runtime / compositional grounding",
@@ -77283,6 +77605,27 @@
         "Distributed Training / Inference",
         "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "DeepInsight II: One Trace from Benchmark to Robot",
+      "venue": "",
+      "topic": "VLA/WAM/Physical AI serving",
+      "arxiv": "2608.16556",
+      "doi": "",
+      "official_id": "arXiv:2608.16556",
+      "paper_url": "https://arxiv.org/abs/2608.16556",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "DeepInsight II proposes a benchmark-to-robot trace/evaluation harness across the Physical-AI stack; useful runtime/evaluation infrastructure lineage.",
+      "published_at": "2026-08-17T13:25:24Z",
+      "updated_at": "2026-08-17T13:25:24Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -77899,6 +78242,29 @@
       ]
     },
     {
+      "title": "Bit-Flip Attacks on Vision-Language-Action Models: Action-Decoding Architecture Shapes the Vulnerability",
+      "venue": "",
+      "topic": "quantization / multimodal/MLLM serving / VLA/WAM/Physical AI serving",
+      "arxiv": "2608.15475",
+      "doi": "",
+      "official_id": "arXiv:2608.15475",
+      "paper_url": "https://arxiv.org/abs/2608.15475",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Bit-flip attack study on quantized VLA action decoders; useful Physical-AI quantization/reliability deployment evidence.",
+      "published_at": "2026-08-16T01:44:09Z",
+      "updated_at": "2026-09-09T16:14:24Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "NeuRoute: Logit-Guided Neural Routing for Billion-Scale Vector Search with Sub-Hour Index Construction",
       "venue": "",
       "topic": "LLM serving / quantization",
@@ -78006,6 +78372,26 @@
       "is_latest_30d": true,
       "directions": [
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Adaptive Bridge: A Proxy-Based Decoupling Layer for Mitigating DDS Backpressure in ROS 2",
+      "venue": "",
+      "topic": "LLM serving",
+      "arxiv": "2608.15380",
+      "doi": "",
+      "official_id": "arXiv:2608.15380",
+      "paper_url": "https://arxiv.org/abs/2608.15380",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "ROS 2/DDS proxy layer mitigating subscriber backpressure and protecting throughput/latency; useful Physical-AI runtime infrastructure evidence.",
+      "published_at": "2026-08-15T19:19:11Z",
+      "updated_at": "2026-09-06T18:40:29Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving"
       ]
     },
     {

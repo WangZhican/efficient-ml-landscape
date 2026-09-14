@@ -1,10 +1,10 @@
 # 10 · Multimodal / MLLM Serving
 
-> **296 canonical papers** mapped here, plus a broader **307-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **296 canonical papers** mapped here, plus a broader **309-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 307 tracked
+## 🆕 Latest 30 Days · 309 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -212,6 +212,7 @@
 | **P0 · Strong** | **Buried in Textual Debt: Context Pruning with Visual Evidence Preservation for MLLM Agents** | Fresh / preprint | sparsity/pruning / multimodal/MLLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.22963) | — |
 | **P1 · Watch** | **FOVEA: Focused On-Demand Visual Evidence Adaptation for Cache-Friendly Multimodal Speculative Decoding** | Fresh / preprint | multimodal speculative decoding / visual evidence retrieval / cache-friendly inference | [Link](https://arxiv.org/abs/2608.22883) | — |
 | **P1 · Watch** | **UniMem: Unifying Multimodal Memory and Control for Vision-Language-Action Models** | Fresh / preprint | Physical AI / VLA / multimodal memory / keyframe caching / faster inference | [Link](https://arxiv.org/abs/2608.22869) | — |
+| **P1 · Watch** | **Robust Bimanual Vision-Language-Action Models via Embarrassingly Simple Modality Masking** | Fresh / preprint | LLM serving / multimodal/MLLM serving / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.22419) | — |
 | **P0 · Strong** | **Pre-Decoding Acoustic Triage for Budgeted Vision-Language Captioning of Untrimmed Egocentric Video** | Fresh / preprint | quantization / multimodal/MLLM serving | [Link](https://arxiv.org/abs/2608.22359) | [Repo](https://github.com/masjalayer/PreDecoding-AcousticTriage) |
 | **P1 · Watch** | **CST: Collaborative Selective Transmission for Communication-Efficient Multimodal Edge Inference** | Fresh / preprint | multimodal edge inference / selective transmission / communication efficiency | [Link](https://arxiv.org/abs/2608.22115) | — |
 | **P0 · Strong** | **VIG: Visual Information Gain as a Reward Signal for Multimodal Chain-of-Thought Compression** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2608.21883) | [Repo](https://github.com/chaser682/vig) |
@@ -254,6 +255,7 @@
 | **P1 · Watch** | **EgoGazeLite: On-Device Egocentric Gaze Prediction for Token-Efficient Multimodal LLM Video Input** | Fresh / preprint | multimodal serving / visual token reduction / on-device | [Link](https://arxiv.org/abs/2608.15614) | — |
 | **P1 · Watch** | **UniFed-VLM: Federated Instruction Tuning for Vision-Language Models with Multiple Heterogeneity** | Fresh / preprint | MoE systems/accelerators / multimodal/MLLM serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.15516) | [Repo](https://github.com/wangpengyu2004/UniFed-VLM) |
 | **P0 · Strong** | **EcoVLA: Energy-Efficient Device-Edge Co-Inference for Vision-Language-Action Models under Real-Time Constraints** | Fresh / preprint | VLA device-edge co-inference / energy-aware runtime | [Link](https://arxiv.org/abs/2608.15502) | — |
+| **P1 · Watch** | **Bit-Flip Attacks on Vision-Language-Action Models: Action-Decoding Architecture Shapes the Vulnerability** | Fresh / preprint | quantization / multimodal/MLLM serving / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.15475) | — |
 | **P1 · Watch** | **MM-BEV: Enhancing Timeliness by Computing Where and When it Matters** | Fresh / preprint | Physical AI / edge runtime / sparse multimodal perception | [Link](https://arxiv.org/abs/2608.15437) | — |
 | **P1 · Watch** | **FloodReasonBench: Benchmarking VLM Reasoning Segmentation for Embodied Flood Response at the Edge** | Fresh / preprint | LLM serving / multimodal/MLLM serving / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.15410) | — |
 | **P2 · Relevant** | **DriveVLA-M0: Failure-Aware Memory Augmentation for Autonomous Driving** | Fresh / preprint | llm_serving / multimodal / gen / physical | [Link](https://arxiv.org/abs/2608.10413) | — |

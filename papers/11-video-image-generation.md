@@ -1,10 +1,10 @@
 # 11 · Video / Image Generation
 
-> **286 canonical papers** mapped here, plus a broader **404-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **286 canonical papers** mapped here, plus a broader **406-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 404 tracked
+## 🆕 Latest 30 Days · 406 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -132,6 +132,7 @@
 | **P0 · Strong** | **RegionCache: Semantic-Aware Region Reuse for Efficient Multi-Turn Image Generation** | Fresh / preprint | video/image generation acceleration / diffusion cache | [Link](https://arxiv.org/abs/2608.29809) | [Repo](https://github.com/hebutBryant/RegionCache) |
 | **P1 · Watch** | **CUDA-Harness: Harnessing Agentic CUDA Kernel Generation and Optimization from Natural Language** | Fresh / preprint | GPU kernel/DSL/compilers / video/image generation acceleration / efficient reasoning/agent systems / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.00058) | — |
 | **P0 · Strong** | **ReTrace: Rejected-Trajectory Conditioning for Speculative Decoding** | Fresh / preprint | speculative decoding / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.29748) | — |
+| **P1 · Watch** | **AgentProv: Auditing Agentic LLM API Providers via Tool-use Policy Probes** | Fresh / preprint | LLM serving / quantization / video/image generation acceleration / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2609.00052) | — |
 | **P0 · Strong** | **Hindsight Memory-PRM: Supervising Memory Management with Auditable Hindsight Credit** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2608.29605) | — |
 | **P0 · Strong** | **Bridging Agent Semantics with Spot Capacity: An Elastic and Recoverable Service Model** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.29581) | — |
 | **P1 · Watch** | **AGM: Achievement-Grounded Memory for Closed-Loop Agents with Frozen VLA Policies** | Fresh / preprint | multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.29537) | — |
@@ -315,6 +316,7 @@
 | **P0 · Strong** | **LinCa: Accelerating Diffusion Models via Learnable Decomposed Feature Caching** | Fresh / preprint | diffusion/video generation acceleration / feature caching | [Link](https://arxiv.org/abs/2608.17973) | — |
 | **P0 · Strong** | **SIGMA: SHAP-Guided Implicit-Trajectory Generation for Metadata-Free LLM-Based AutoFE** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.17948) | — |
 | **P1 · Watch** | **Dynamic Compression in Recurrent Networks** | Fresh / preprint | KV cache/long-context / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.17896) | — |
+| **P1 · Watch** | **D$^2$ACCI: A Dual-Loop Diagnostic Protocol for Evidence-Preserving Agent Memory** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.17756) | — |
 | **P0 · Strong** | **Magnitude-Direction Decoupling for Fast Video Generation with Flow Matching Models** | Fresh / preprint | video generation acceleration / flow matching | [Link](https://arxiv.org/abs/2608.17695) | — |
 | **P1 · Watch** | **Beyond the Trace: Coupling an Interpretable Reasoning-State Readout to Native MoE Routing** | Fresh / preprint | MoE systems/accelerators / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.17638) | — |
 | **P0 · Strong** | **Agent Lightning v1.0: Towards Harnessed Agentic RL** | Fresh / preprint | LLM serving / video/image generation acceleration / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.17528) | — |

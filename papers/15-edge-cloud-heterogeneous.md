@@ -1,10 +1,10 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **527 canonical papers** mapped here, plus a broader **552-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **527 canonical papers** mapped here, plus a broader **553-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 552 tracked
+## 🆕 Latest 30 Days · 553 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -348,6 +348,7 @@
 | **P1 · Watch** | **EchoWM: Open and Enterable Omnimodal World Models** | Fresh / preprint | LLM serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.23189) | — |
 | **P0 · Strong** | **POOL: Propagated Uncertainty Over Lookalikes** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.23086) | — |
 | **P1 · Watch** | **AgentWeave: Routing Before Reasoning for Efficient Function Calling in Tool-Rich Language Models** | Fresh / preprint | LLM serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.23078) | — |
+| **P1 · Watch** | **When a neural surrogate cannot accelerate a solver: runtime share, closed-loop drift, and the economics of uncertainty gating in a stiff coupled simulation** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.23075) | — |
 | **P0 · Strong** | **SplitLite: Low-Rank Residual Compression for Split Learning** | Fresh / preprint | LLM serving / quantization / distributed training/inference / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.23018) | — |
 | **P1 · Watch** | **Beyond Factual Knowledge: Benchmarking and Learning Step-Level Procedural Rule Reasoning in Large Language Models** | Fresh / preprint | KV cache/long-context | [Link](https://arxiv.org/abs/2608.22753) | [Repo](https://github.com/SharkSpicy-NLP/Beyond-Factual-Knowledge) |
 | **P1 · Watch** | **TEE-X: TEE-aware Acceleration Framework for Large Vision Models at the Edge** | Fresh / preprint | edge vision inference / TEE-aware acceleration / secure deployment | [Link](https://arxiv.org/abs/2608.22716) | — |

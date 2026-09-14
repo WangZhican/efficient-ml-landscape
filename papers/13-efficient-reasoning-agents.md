@@ -1,10 +1,10 @@
 # 13 · Efficient Reasoning / Agents
 
-> **477 canonical papers** mapped here, plus a broader **603-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **477 canonical papers** mapped here, plus a broader **606-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 603 tracked
+## 🆕 Latest 30 Days · 606 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -327,8 +327,10 @@
 | **P1 · Watch** | **CUDA-Harness: Harnessing Agentic CUDA Kernel Generation and Optimization from Natural Language** | Fresh / preprint | GPU kernel/DSL/compilers / video/image generation acceleration / efficient reasoning/agent systems / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.00058) | — |
 | **P0 · Strong** | **SmoothRL: Online Reinforcement Learning During Asynchronous Execution** | Fresh / preprint | LLM serving / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.29768) | — |
 | **P1 · Watch** | **Last Step Matters: Early Uncertainty Cannot Predict Failure in Long-Horizon Agents** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.29685) | — |
+| **P1 · Watch** | **AgentProv: Auditing Agentic LLM API Providers via Tool-use Policy Probes** | Fresh / preprint | LLM serving / quantization / video/image generation acceleration / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2609.00052) | — |
 | **P0 · Strong** | **Agent Zero Memory: Provenance-Aware Long-Term Memory for LLM Agents** | Fresh / preprint | LLM serving / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.29606) | — |
 | **P0 · Strong** | **Hindsight Memory-PRM: Supervising Memory Management with Auditable Hindsight Credit** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2608.29605) | — |
+| **P1 · Watch** | **Towards a Systems Foundation for Agentic Skills: Architecture, Lifecycle, and Security** | Fresh / preprint | efficient reasoning/agent systems / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.29596) | — |
 | **P1 · Watch** | **Drive the Thoughts: Runtime Monitoring of VLA Reasoning-Trajectory Consistency** | Fresh / preprint | multimodal/MLLM serving / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.29583) | — |
 | **P0 · Strong** | **Bridging Agent Semantics with Spot Capacity: An Elastic and Recoverable Service Model** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.29581) | — |
 | **P1 · Watch** | **AGM: Achievement-Grounded Memory for Closed-Loop Agents with Frozen VLA Policies** | Fresh / preprint | multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.29537) | — |
@@ -500,6 +502,7 @@
 | **P1 · Watch** | **One Gate Is Not Enough: Composing Stateful Pre-Action Controls for Agentic AI** | Fresh / preprint | video/image generation acceleration / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.18360) | — |
 | **P0 · Strong** | **SIGMA: SHAP-Guided Implicit-Trajectory Generation for Metadata-Free LLM-Based AutoFE** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.17948) | — |
 | **P1 · Watch** | **Efficient RLVR Scheduling via Graph-Structured Online Difficulty Estimation** | Fresh / preprint | LLM RL / rollout scheduling efficiency | [Link](https://arxiv.org/abs/2608.17941) | — |
+| **P1 · Watch** | **D$^2$ACCI: A Dual-Loop Diagnostic Protocol for Evidence-Preserving Agent Memory** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.17756) | — |
 | **P0 · Strong** | **rl-triton: High-Performance Triton GPU Kernels for Reinforcement Learning Credit Assignment** | Fresh / preprint | GPU kernel / Triton / RL infrastructure | [Link](https://arxiv.org/abs/2608.17641) | — |
 | **P1 · Watch** | **Beyond the Trace: Coupling an Interpretable Reasoning-State Readout to Native MoE Routing** | Fresh / preprint | MoE systems/accelerators / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.17638) | — |
 | **P0 · Strong** | **Agent Lightning v1.0: Towards Harnessed Agentic RL** | Fresh / preprint | LLM serving / video/image generation acceleration / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.17528) | — |
