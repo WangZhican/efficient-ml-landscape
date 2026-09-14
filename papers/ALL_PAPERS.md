@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **2283 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **1251 visible papers = 60 P0 + 1074 P1 + 117 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **2283 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **1258 visible papers = 60 P0 + 1081 P1 + 117 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -69,14 +69,16 @@
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 | **P0 · Strong** | **A Thread-Register Decoupled GPU Execution Model for Efficient Tensor Computation** | Fresh / preprint | GPU execution architecture / tensor cores / LLM serving | [Link](https://arxiv.org/abs/2608.19628) | — |
 
-## 🧭 P1 · Watch · 1074
+## 🧭 P1 · Watch · 1081
 
 > Clearly relevant and promising, but still awaiting stronger novelty, evidence, venue, or adoption validation.
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
+| **P1 · Watch** | **Embodied-BenchForge: A Closed-Loop Agentic Workflow for Embodied Benchmark Construction** | arXiv 2026 | VLA/WAM/Physical AI serving / agent systems | [Link](https://arxiv.org/abs/2609.13082) | — |
 | **P1 · Watch** | **Dissecting GPU Utilization for LLM Inference on Nvidia Hopper** | arXiv 2026 | LLM serving / GPU performance characterization / Hopper / vLLM | [Link](https://arxiv.org/abs/2609.12923) | — |
 | **P1 · Watch** | **Input Resolution Matters: Real-Time Object Detection Latency** | arXiv 2026 | edge/cloud/heterogeneous AI systems / inference latency / performance modeling | [Link](https://arxiv.org/abs/2609.12920) | — |
+| **P1 · Watch** | **Parameter-Efficient Retrievers for Polish and European Languages** | arXiv 2026 | LLM serving / efficient retrieval | [Link](https://arxiv.org/abs/2609.12913) | — |
 | **P1 · Watch** | **Behavior Quotient Learning for Low-Rank Adaptation of LLM Agents** | arXiv 2026 | efficient reasoning/agent systems / parameter-efficient adaptation | [Link](https://arxiv.org/abs/2609.12896) | — |
 | **P1 · Watch** | **RunningTensor: Generalizing Linear Attention to Higher-Order Recurrent States** | arXiv 2026 | efficient attention / linear attention / recurrent state / long context | [Link](https://arxiv.org/abs/2609.12814) | — |
 | **P1 · Watch** | **Residual Vector-based Reconstruction as Long-Context Recall Regardless of Context Window Size** | arXiv 2026 | KV cache/long-context / efficient reasoning | [Link](https://arxiv.org/abs/2609.12686) | — |
@@ -86,7 +88,12 @@
 | **P1 · Watch** | **STAR: Sparse Tactile Representation Learning in Vision-Tactile-Language-Action Models for Dexterous Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving / sparse multimodal representation / tactile tokens | [Link](https://arxiv.org/abs/2609.12549) | — |
 | **P1 · Watch** | **Agent as Policy for Robotic Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving / streaming agent | [Link](https://arxiv.org/abs/2609.12541) | — |
 | **P1 · Watch** | **AMDKernelVault: Large-Scale Datasets and Agentic Training for AMD GPU Kernel Optimization** | arXiv 2026 | GPU kernel/DSL/compilers / AMD ROCm / agentic kernel optimization | [Link](https://arxiv.org/abs/2609.12471) | — |
+| **P1 · Watch** | **BlueLM-GUI Technical Report: A Real-Device-Centric Flywheel for Self-Improving Mobile GUI Agents** | arXiv 2026 | efficient reasoning/agent systems / edge deployment | [Link](https://arxiv.org/abs/2609.12394) | — |
+| **P1 · Watch** | **CueMem: Cue-Guided Context Reconstruction for Long-Term Conversational Memory** | arXiv 2026 | KV cache/long-context / efficient reasoning agents | [Link](https://arxiv.org/abs/2609.12354) | — |
+| **P1 · Watch** | **A Deployable Architecture for Robot-Mediated Tasks (DART): Evaluation in Socially Assistive Robot-Guided Cognitive Behavioral Therapy Exercises** | arXiv 2026 | VLA/WAM/Physical AI serving / edge-cloud systems | [Link](https://arxiv.org/abs/2609.12349) | — |
+| **P1 · Watch** | **Affective Agent: On-Device Personalized Intervention Reasoning for Wearable Systems** | arXiv 2026 | edge/cloud/heterogeneous AI systems / efficient reasoning agents | [Link](https://arxiv.org/abs/2609.12322) | — |
 | **P1 · Watch** | **ESTS at WMT26: Routing-Informed Expert Pruning for Model Compression** | arXiv 2026 | MoE systems/accelerators / quantization / pruning | [Link](https://arxiv.org/abs/2609.12310) | — |
+| **P1 · Watch** | **AnchorVLN: Geometry-Anchored Vision-Language Grounding Reasoning for Open-Vocabulary Navigation** | arXiv 2026 | VLA/WAM/Physical AI serving / embodied navigation | [Link](https://arxiv.org/abs/2609.12285) | — |
 | **P1 · Watch** | **DIA: Denoising Intermediate Advantage for Diffusion Policy Optimization** | arXiv 2026 | VLA/WAM/Physical AI serving / action-head / diffusion | [Link](https://arxiv.org/abs/2609.12245) | — |
 | **P1 · Watch** | **MoPA: Coordinated Mobile Manipulation via Subsystem-Specific Perception Alignment** | arXiv 2026 | VLA/WAM/Physical AI serving / multimodal policy | [Link](https://arxiv.org/abs/2609.12081) | — |
 | **P1 · Watch** | **GPU-CFR: 80x Faster Counterfactual Regret Minimization by Compiling the Game to Static Dataflow and CUDA Graph Replay** | Fresh / preprint | GPU kernel/DSL/compilers | [Link](https://arxiv.org/abs/2609.11923) | — |

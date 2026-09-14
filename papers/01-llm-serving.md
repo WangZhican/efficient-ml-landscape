@@ -1,18 +1,20 @@
 # 01 · LLM Serving
 
-> **1085 canonical papers** mapped here, plus a broader **764-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **1085 canonical papers** mapped here, plus a broader **769-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 764 tracked
+## 🆕 Latest 30 Days · 769 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **P0 · Strong** | **Rethinking Heterogeneous System Disaggregation for Subquadratic Attention** | arXiv 2026 | LLM serving / efficient attention / heterogeneous disaggregation / energy-efficient inference | [Link](https://arxiv.org/abs/2609.13134) | — |
+| **P1 · Watch** | **Embodied-BenchForge: A Closed-Loop Agentic Workflow for Embodied Benchmark Construction** | arXiv 2026 | VLA/WAM/Physical AI serving / agent systems | [Link](https://arxiv.org/abs/2609.13082) | — |
 | **P0 · Strong** | **Dynin-Robotics: Omnimodal Unified Diffusion Vision-Language-Action Model** | arXiv 2026 | VLA/WAM/Physical AI serving / diffusion / action decoding | [Link](https://arxiv.org/abs/2609.13053) | — |
 | **P0 · Strong** | **SeqMoE: Toward Full-Load Performance via Predictive and Graph-Compatible MoE Offloading** | arXiv 2026 | MoE systems/accelerators / LLM serving / offloading | [Link](https://arxiv.org/abs/2609.12978) | — |
 | **P1 · Watch** | **Dissecting GPU Utilization for LLM Inference on Nvidia Hopper** | arXiv 2026 | LLM serving / GPU performance characterization / Hopper / vLLM | [Link](https://arxiv.org/abs/2609.12923) | — |
 | **P1 · Watch** | **Input Resolution Matters: Real-Time Object Detection Latency** | arXiv 2026 | edge/cloud/heterogeneous AI systems / inference latency / performance modeling | [Link](https://arxiv.org/abs/2609.12920) | — |
+| **P1 · Watch** | **Parameter-Efficient Retrievers for Polish and European Languages** | arXiv 2026 | LLM serving / efficient retrieval | [Link](https://arxiv.org/abs/2609.12913) | — |
 | **P1 · Watch** | **Breaking the Vision-Action Shortcut: Latent Interface Training for Generalizable Robotics Foundation Models** | arXiv 2026 | VLA/WAM/Physical AI serving / action head / latent interface | [Link](https://arxiv.org/abs/2609.12641) | — |
 | **P1 · Watch** | **TokenMapper: A Step Toward Interoperable Speech Token Translation** | arXiv 2026 | multimodal/MLLM serving / edge-cloud systems | [Link](https://arxiv.org/abs/2609.12563) | — |
 | **P0 · Strong** | **RoofLang: Enabling AI-Driven Architecting of LLM Inference Systems** | arXiv 2026 | LLM serving / system architecture DSL / AI-driven design-space exploration | [Link](https://arxiv.org/abs/2609.12551) | — |
@@ -21,8 +23,11 @@
 | **P1 · Watch** | **Agent as Policy for Robotic Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving / streaming agent | [Link](https://arxiv.org/abs/2609.12541) | — |
 | **P0 · Strong** | **HeatCache: Thermal-aware Energy-efficient LLM Inference Scheduling for Chassis-level Liquid Cooling in Sustainable Edge Server Rooms** | arXiv 2026 | LLM serving / edge inference / thermal-aware scheduling / energy efficiency | [Link](https://arxiv.org/abs/2609.12449) | — |
 | **P0 · Strong** | **OneLA: Scaling Linear-Attention Decoding to Large Beams in Generative Recommendation** | arXiv 2026 | LLM serving / efficient attention / GPU kernels / generative recommendation | [Link](https://arxiv.org/abs/2609.12399) | — |
+| **P1 · Watch** | **BlueLM-GUI Technical Report: A Real-Device-Centric Flywheel for Self-Improving Mobile GUI Agents** | arXiv 2026 | efficient reasoning/agent systems / edge deployment | [Link](https://arxiv.org/abs/2609.12394) | — |
 | **P0 · Strong** | **ForgeMegakernel: A General Framework for Efficient Auto-Regressive Model Decode Megakernels** | arXiv 2026 | GPU kernel/DSL/compilers / LLM serving / decode megakernel generation | [Link](https://arxiv.org/abs/2609.12379) | — |
+| **P1 · Watch** | **A Deployable Architecture for Robot-Mediated Tasks (DART): Evaluation in Socially Assistive Robot-Guided Cognitive Behavioral Therapy Exercises** | arXiv 2026 | VLA/WAM/Physical AI serving / edge-cloud systems | [Link](https://arxiv.org/abs/2609.12349) | — |
 | **P1 · Watch** | **ESTS at WMT26: Routing-Informed Expert Pruning for Model Compression** | arXiv 2026 | MoE systems/accelerators / quantization / pruning | [Link](https://arxiv.org/abs/2609.12310) | — |
+| **P1 · Watch** | **AnchorVLN: Geometry-Anchored Vision-Language Grounding Reasoning for Open-Vocabulary Navigation** | arXiv 2026 | VLA/WAM/Physical AI serving / embodied navigation | [Link](https://arxiv.org/abs/2609.12285) | — |
 | **P1 · Watch** | **DIA: Denoising Intermediate Advantage for Diffusion Policy Optimization** | arXiv 2026 | VLA/WAM/Physical AI serving / action-head / diffusion | [Link](https://arxiv.org/abs/2609.12245) | — |
 | **P1 · Watch** | **MoPA: Coordinated Mobile Manipulation via Subsystem-Specific Perception Alignment** | arXiv 2026 | VLA/WAM/Physical AI serving / multimodal policy | [Link](https://arxiv.org/abs/2609.12081) | — |
 | **P0 · Strong** | **Efficient Vision-Language-Action Management and Serving for Robot Factories** | arXiv 2026 | VLA/WAM/Physical AI serving / multi-robot multi-model edge serving / SLO-aware multi-GPU runtime | [Link](https://arxiv.org/abs/2609.12075) | — |

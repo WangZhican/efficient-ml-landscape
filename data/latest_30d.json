@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-14",
   "window_start_beijing": "2026-08-15",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 1251,
+  "tracked_total": 1258,
   "p0_strong_or_canonical": [
     {
       "title": "SAS: Simple Attention Sparsification via End-to-End Optimization of Context Ranking",
@@ -1329,6 +1329,28 @@
   ],
   "p1_watchlist": [
     {
+      "title": "Embodied-BenchForge: A Closed-Loop Agentic Workflow for Embodied Benchmark Construction",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / agent systems",
+      "arxiv": "2609.13082",
+      "doi": "",
+      "official_id": "arXiv:2609.13082",
+      "paper_url": "https://arxiv.org/abs/2609.13082",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Closed-loop agentic synthesis and verification of embodied benchmarks; retained for Physical-AI agent/runtime ecosystem coverage, not promoted as systems strong.",
+      "published_at": "2026-09-11T17:16:01Z",
+      "updated_at": "2026-09-11T17:16:01Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Dissecting GPU Utilization for LLM Inference on Nvidia Hopper",
       "venue": "arXiv 2026",
       "topic": "LLM serving / GPU performance characterization / Hopper / vLLM",
@@ -1369,6 +1391,26 @@
       "directions": [
         "LLM Serving",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Parameter-Efficient Retrievers for Polish and European Languages",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / efficient retrieval",
+      "arxiv": "2609.12913",
+      "doi": "",
+      "official_id": "arXiv:2609.12913",
+      "paper_url": "https://arxiv.org/abs/2609.12913",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Compact retrievers target the memory, indexing, corpus-update, and low-latency serving cost of multi-billion-parameter retrieval models; retained as an efficiency watch rather than core inference-systems strong.",
+      "published_at": "2026-09-11T14:41:26Z",
+      "updated_at": "2026-09-11T14:41:26Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving"
       ]
     },
     {
@@ -1568,6 +1610,93 @@
       ]
     },
     {
+      "title": "BlueLM-GUI Technical Report: A Real-Device-Centric Flywheel for Self-Improving Mobile GUI Agents",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / edge deployment",
+      "arxiv": "2609.12394",
+      "doi": "",
+      "official_id": "arXiv:2609.12394",
+      "paper_url": "https://arxiv.org/abs/2609.12394",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Real-device-centric mobile GUI agent training/deployment flywheel designed around production distribution shift and reuse of expensive device failures; high-value deployment watch, but not a core serving acceleration paper.",
+      "published_at": "2026-09-11T03:36:35Z",
+      "updated_at": "2026-09-11T03:36:35Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "CueMem: Cue-Guided Context Reconstruction for Long-Term Conversational Memory",
+      "venue": "arXiv 2026",
+      "topic": "KV cache/long-context / efficient reasoning agents",
+      "arxiv": "2609.12354",
+      "doi": "",
+      "official_id": "arXiv:2609.12354",
+      "paper_url": "https://arxiv.org/abs/2609.12354",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Treats compact memory records as retrieval cues and reconstructs only query-relevant source turns, directly targeting the cost and reliability limits of full-history prompting.",
+      "published_at": "2026-09-11T02:27:22Z",
+      "updated_at": "2026-09-11T02:27:22Z",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "A Deployable Architecture for Robot-Mediated Tasks (DART): Evaluation in Socially Assistive Robot-Guided Cognitive Behavioral Therapy Exercises",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / edge-cloud systems",
+      "arxiv": "2609.12349",
+      "doi": "",
+      "official_id": "arXiv:2609.12349",
+      "paper_url": "https://arxiv.org/abs/2609.12349",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Full-stack robot-plus-web-plus-cloud architecture enabling remote compute, persistent storage and multimodal interaction on constrained socially assistive robots; protected cloud-edge Physical-AI deployment watch.",
+      "published_at": "2026-09-11T02:14:28Z",
+      "updated_at": "2026-09-11T02:14:28Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Affective Agent: On-Device Personalized Intervention Reasoning for Wearable Systems",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / efficient reasoning agents",
+      "arxiv": "2609.12322",
+      "doi": "",
+      "official_id": "arXiv:2609.12322",
+      "paper_url": "https://arxiv.org/abs/2609.12322",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Three-layer on-device reasoning architecture using a compact sub-billion-parameter LM, structured memory and physiological context without cloud dependency or per-user retraining; relevant edge-agent deployment signal.",
+      "published_at": "2026-09-11T01:01:44Z",
+      "updated_at": "2026-09-11T01:01:44Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "ESTS at WMT26: Routing-Informed Expert Pruning for Model Compression",
       "venue": "arXiv 2026",
       "topic": "MoE systems/accelerators / quantization / pruning",
@@ -1588,6 +1717,29 @@
         "Quantization",
         "Sparsity / Pruning",
         "MoE Systems / Accelerators"
+      ]
+    },
+    {
+      "title": "AnchorVLN: Geometry-Anchored Vision-Language Grounding Reasoning for Open-Vocabulary Navigation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / embodied navigation",
+      "arxiv": "2609.12285",
+      "doi": "",
+      "official_id": "arXiv:2609.12285",
+      "paper_url": "https://arxiv.org/abs/2609.12285",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Geometry-anchored VLM reasoning for open-vocabulary robot navigation; important protected Physical-AI lineage, but the contribution is mainly grounding/control rather than inference runtime.",
+      "published_at": "2026-09-10T23:32:22Z",
+      "updated_at": "2026-09-10T23:32:22Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -28364,6 +28516,28 @@
       ]
     },
     {
+      "title": "Embodied-BenchForge: A Closed-Loop Agentic Workflow for Embodied Benchmark Construction",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / agent systems",
+      "arxiv": "2609.13082",
+      "doi": "",
+      "official_id": "arXiv:2609.13082",
+      "paper_url": "https://arxiv.org/abs/2609.13082",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Closed-loop agentic synthesis and verification of embodied benchmarks; retained for Physical-AI agent/runtime ecosystem coverage, not promoted as systems strong.",
+      "published_at": "2026-09-11T17:16:01Z",
+      "updated_at": "2026-09-11T17:16:01Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Dissecting GPU Utilization for LLM Inference on Nvidia Hopper",
       "venue": "arXiv 2026",
       "topic": "LLM serving / GPU performance characterization / Hopper / vLLM",
@@ -28404,6 +28578,26 @@
       "directions": [
         "LLM Serving",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Parameter-Efficient Retrievers for Polish and European Languages",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / efficient retrieval",
+      "arxiv": "2609.12913",
+      "doi": "",
+      "official_id": "arXiv:2609.12913",
+      "paper_url": "https://arxiv.org/abs/2609.12913",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Compact retrievers target the memory, indexing, corpus-update, and low-latency serving cost of multi-billion-parameter retrieval models; retained as an efficiency watch rather than core inference-systems strong.",
+      "published_at": "2026-09-11T14:41:26Z",
+      "updated_at": "2026-09-11T14:41:26Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving"
       ]
     },
     {
@@ -28603,6 +28797,93 @@
       ]
     },
     {
+      "title": "BlueLM-GUI Technical Report: A Real-Device-Centric Flywheel for Self-Improving Mobile GUI Agents",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / edge deployment",
+      "arxiv": "2609.12394",
+      "doi": "",
+      "official_id": "arXiv:2609.12394",
+      "paper_url": "https://arxiv.org/abs/2609.12394",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Real-device-centric mobile GUI agent training/deployment flywheel designed around production distribution shift and reuse of expensive device failures; high-value deployment watch, but not a core serving acceleration paper.",
+      "published_at": "2026-09-11T03:36:35Z",
+      "updated_at": "2026-09-11T03:36:35Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "CueMem: Cue-Guided Context Reconstruction for Long-Term Conversational Memory",
+      "venue": "arXiv 2026",
+      "topic": "KV cache/long-context / efficient reasoning agents",
+      "arxiv": "2609.12354",
+      "doi": "",
+      "official_id": "arXiv:2609.12354",
+      "paper_url": "https://arxiv.org/abs/2609.12354",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Treats compact memory records as retrieval cues and reconstructs only query-relevant source turns, directly targeting the cost and reliability limits of full-history prompting.",
+      "published_at": "2026-09-11T02:27:22Z",
+      "updated_at": "2026-09-11T02:27:22Z",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "A Deployable Architecture for Robot-Mediated Tasks (DART): Evaluation in Socially Assistive Robot-Guided Cognitive Behavioral Therapy Exercises",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / edge-cloud systems",
+      "arxiv": "2609.12349",
+      "doi": "",
+      "official_id": "arXiv:2609.12349",
+      "paper_url": "https://arxiv.org/abs/2609.12349",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Full-stack robot-plus-web-plus-cloud architecture enabling remote compute, persistent storage and multimodal interaction on constrained socially assistive robots; protected cloud-edge Physical-AI deployment watch.",
+      "published_at": "2026-09-11T02:14:28Z",
+      "updated_at": "2026-09-11T02:14:28Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Affective Agent: On-Device Personalized Intervention Reasoning for Wearable Systems",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / efficient reasoning agents",
+      "arxiv": "2609.12322",
+      "doi": "",
+      "official_id": "arXiv:2609.12322",
+      "paper_url": "https://arxiv.org/abs/2609.12322",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Three-layer on-device reasoning architecture using a compact sub-billion-parameter LM, structured memory and physiological context without cloud dependency or per-user retraining; relevant edge-agent deployment signal.",
+      "published_at": "2026-09-11T01:01:44Z",
+      "updated_at": "2026-09-11T01:01:44Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "ESTS at WMT26: Routing-Informed Expert Pruning for Model Compression",
       "venue": "arXiv 2026",
       "topic": "MoE systems/accelerators / quantization / pruning",
@@ -28623,6 +28904,29 @@
         "Quantization",
         "Sparsity / Pruning",
         "MoE Systems / Accelerators"
+      ]
+    },
+    {
+      "title": "AnchorVLN: Geometry-Anchored Vision-Language Grounding Reasoning for Open-Vocabulary Navigation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / embodied navigation",
+      "arxiv": "2609.12285",
+      "doi": "",
+      "official_id": "arXiv:2609.12285",
+      "paper_url": "https://arxiv.org/abs/2609.12285",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Geometry-anchored VLM reasoning for open-vocabulary robot navigation; important protected Physical-AI lineage, but the contribution is mainly grounding/control rather than inference runtime.",
+      "published_at": "2026-09-10T23:32:22Z",
+      "updated_at": "2026-09-10T23:32:22Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
