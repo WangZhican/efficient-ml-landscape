@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-14",
   "window_start_beijing": "2026-08-15",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 1266,
+  "tracked_total": 1271,
   "p0_strong_or_canonical": [
     {
       "title": "SAS: Simple Attention Sparsification via End-to-End Optimization of Context Ranking",
@@ -1351,6 +1351,27 @@
       ]
     },
     {
+      "title": "Expert-Space Exploration in MoE Reinforcement Learning",
+      "venue": "arXiv 2026",
+      "topic": "MoE systems/accelerators / efficient reasoning",
+      "arxiv": "2609.13058",
+      "doi": "",
+      "official_id": "arXiv:2609.13058",
+      "paper_url": "https://arxiv.org/abs/2609.13058",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Architecture-aware routing-space exploration improves MoE RL post-training without additional sampling or computational cost and replays rollout expert paths during optimization; retained as an efficiency-relevant MoE training watch.",
+      "published_at": "2026-09-11T16:58:41Z",
+      "updated_at": "2026-09-11T16:58:41Z",
+      "is_latest_30d": true,
+      "directions": [
+        "MoE Systems / Accelerators",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Kraken: LLM-based Speech-to-Speech Translation via Low-bitrate VQ and Dual-path Source Conditioning",
       "venue": "arXiv 2026",
       "topic": "multimodal/MLLM serving / quantization",
@@ -1521,6 +1542,27 @@
       ]
     },
     {
+      "title": "LifeMem: Enabling Lifelong Experience Reuse for LLM Agents",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems",
+      "arxiv": "2609.12655",
+      "doi": "",
+      "official_id": "arXiv:2609.12655",
+      "paper_url": "https://arxiv.org/abs/2609.12655",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Clusters accumulated trajectories into reusable skills and recalls relevant skills/trajectories at inference, reducing redundant relearning across environments; retained for agent-memory efficiency lineage.",
+      "published_at": "2026-09-11T10:00:43Z",
+      "updated_at": "2026-09-11T10:00:43Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Breaking the Vision-Action Shortcut: Latent Interface Training for Generalizable Robotics Foundation Models",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / action head / latent interface",
@@ -1559,6 +1601,27 @@
       "is_latest_30d": true,
       "directions": [
         "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "NovaFabric: Tamper-Evident, Replayable Evidence for Autonomous AI Agent Runs",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / edge-cloud runtime",
+      "arxiv": "2609.12582",
+      "doi": "",
+      "official_id": "arXiv:2609.12582",
+      "paper_url": "https://arxiv.org/abs/2609.12582",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Provider-neutral replayable execution evidence for autonomous-agent runs with measured ingest/query scaling; retained as agent-runtime infrastructure, though not a model acceleration paper.",
+      "published_at": "2026-09-11T08:35:43Z",
+      "updated_at": "2026-09-11T08:35:43Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -1669,6 +1732,27 @@
       "is_latest_30d": true,
       "directions": [
         "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "VRL-Bench: Benchmarking agents on computer control tasks under finite trial budgets",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems",
+      "arxiv": "2609.12404",
+      "doi": "",
+      "official_id": "arXiv:2609.12404",
+      "paper_url": "https://arxiv.org/abs/2609.12404",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Explicitly studies agent learning under finite trial budgets and introduces an exploration-exploitation scheduler for allocating remaining trials, directly relevant to test-time/interaction efficiency.",
+      "published_at": "2026-09-11T03:54:02Z",
+      "updated_at": "2026-09-11T03:54:02Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
         "Efficient Reasoning / Agents"
       ]
     },
@@ -1799,6 +1883,28 @@
       "directions": [
         "Efficient Reasoning / Agents",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "DATAFARM: Distribution-Aligned Task and Motion Planning for Fine-Tuning Vision-Language-Action Models",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving",
+      "arxiv": "2609.12316",
+      "doi": "",
+      "official_id": "arXiv:2609.12316",
+      "paper_url": "https://arxiv.org/abs/2609.12316",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Distribution-aligned planner-generated demonstrations make TAMP data useful for VLA fine-tuning; protected Physical-AI lineage, though the main contribution is data/training rather than serving runtime.",
+      "published_at": "2026-09-11T00:45:02Z",
+      "updated_at": "2026-09-11T00:45:02Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -28708,6 +28814,27 @@
       ]
     },
     {
+      "title": "Expert-Space Exploration in MoE Reinforcement Learning",
+      "venue": "arXiv 2026",
+      "topic": "MoE systems/accelerators / efficient reasoning",
+      "arxiv": "2609.13058",
+      "doi": "",
+      "official_id": "arXiv:2609.13058",
+      "paper_url": "https://arxiv.org/abs/2609.13058",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Architecture-aware routing-space exploration improves MoE RL post-training without additional sampling or computational cost and replays rollout expert paths during optimization; retained as an efficiency-relevant MoE training watch.",
+      "published_at": "2026-09-11T16:58:41Z",
+      "updated_at": "2026-09-11T16:58:41Z",
+      "is_latest_30d": true,
+      "directions": [
+        "MoE Systems / Accelerators",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Kraken: LLM-based Speech-to-Speech Translation via Low-bitrate VQ and Dual-path Source Conditioning",
       "venue": "arXiv 2026",
       "topic": "multimodal/MLLM serving / quantization",
@@ -28878,6 +29005,27 @@
       ]
     },
     {
+      "title": "LifeMem: Enabling Lifelong Experience Reuse for LLM Agents",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems",
+      "arxiv": "2609.12655",
+      "doi": "",
+      "official_id": "arXiv:2609.12655",
+      "paper_url": "https://arxiv.org/abs/2609.12655",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Clusters accumulated trajectories into reusable skills and recalls relevant skills/trajectories at inference, reducing redundant relearning across environments; retained for agent-memory efficiency lineage.",
+      "published_at": "2026-09-11T10:00:43Z",
+      "updated_at": "2026-09-11T10:00:43Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Breaking the Vision-Action Shortcut: Latent Interface Training for Generalizable Robotics Foundation Models",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / action head / latent interface",
@@ -28916,6 +29064,27 @@
       "is_latest_30d": true,
       "directions": [
         "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "NovaFabric: Tamper-Evident, Replayable Evidence for Autonomous AI Agent Runs",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / edge-cloud runtime",
+      "arxiv": "2609.12582",
+      "doi": "",
+      "official_id": "arXiv:2609.12582",
+      "paper_url": "https://arxiv.org/abs/2609.12582",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Provider-neutral replayable execution evidence for autonomous-agent runs with measured ingest/query scaling; retained as agent-runtime infrastructure, though not a model acceleration paper.",
+      "published_at": "2026-09-11T08:35:43Z",
+      "updated_at": "2026-09-11T08:35:43Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -29026,6 +29195,27 @@
       "is_latest_30d": true,
       "directions": [
         "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "VRL-Bench: Benchmarking agents on computer control tasks under finite trial budgets",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems",
+      "arxiv": "2609.12404",
+      "doi": "",
+      "official_id": "arXiv:2609.12404",
+      "paper_url": "https://arxiv.org/abs/2609.12404",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Explicitly studies agent learning under finite trial budgets and introduces an exploration-exploitation scheduler for allocating remaining trials, directly relevant to test-time/interaction efficiency.",
+      "published_at": "2026-09-11T03:54:02Z",
+      "updated_at": "2026-09-11T03:54:02Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
         "Efficient Reasoning / Agents"
       ]
     },
@@ -29156,6 +29346,28 @@
       "directions": [
         "Efficient Reasoning / Agents",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "DATAFARM: Distribution-Aligned Task and Motion Planning for Fine-Tuning Vision-Language-Action Models",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving",
+      "arxiv": "2609.12316",
+      "doi": "",
+      "official_id": "arXiv:2609.12316",
+      "paper_url": "https://arxiv.org/abs/2609.12316",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Distribution-aligned planner-generated demonstrations make TAMP data useful for VLA fine-tuning; protected Physical-AI lineage, though the main contribution is data/training rather than serving runtime.",
+      "published_at": "2026-09-11T00:45:02Z",
+      "updated_at": "2026-09-11T00:45:02Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
