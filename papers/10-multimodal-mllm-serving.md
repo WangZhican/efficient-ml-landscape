@@ -1,10 +1,10 @@
 # 10 · Multimodal / MLLM Serving
 
-> **294 canonical papers** mapped here, plus a broader **248-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **294 canonical papers** mapped here, plus a broader **249-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 248 tracked
+## 🆕 Latest 30 Days · 249 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -136,6 +136,7 @@
 | **P1 · Watch** | **Parser-Free VLM Verification for Federated Weakly Supervised Video Anomaly Detection** | arXiv 2026 | multimodal/MLLM serving / selective inference / federated edge AI | [Link](https://arxiv.org/abs/2609.07455) | — |
 | **P1 · Watch** | **Parameter- and Bandwidth-Efficient Edge--cloud Many-to-Many Speech-to-Text Translation** | Fresh / preprint | multimodal/MLLM serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2605.28642) | — |
 | **P1 · Watch** | **Open-Set 3D Scene Graphs for Field Robotics: An Outdoor Case Study** | arXiv 2026 | VLA/WAM/Physical AI / scene graph memory / field robotics / open-set VLM mapping | [Link](https://arxiv.org/abs/2609.04607) | — |
+| **P1 · Watch** | **Online Video Agent Harness for Long Video Understanding** | arXiv 2026 | efficient reasoning/agent systems / multimodal serving | [Link](https://arxiv.org/abs/2609.12818) | — |
 | **P1 · Watch** | **One Policy, Many Embodiments: Unified Camera-Centric Action Geometry Pre-training for Heterogeneous Embodied Manipulation** | Fresh / preprint | multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.26058) | — |
 | **P1 · Watch** | **One MLLM, One Call: Efficient Zero-Shot Vision-and-Language Navigation via Spatial-Aware Waypoints** | arXiv 2026 | VLA/WAM/Physical AI serving / VLN / sparse MLLM invocation / robot navigation | [Link](https://arxiv.org/abs/2609.06476) | — |
 | **P1 · Watch** | **On-Policy Distillation for Vision-Language Model Adaptation, an Effective Paradigm on Low-Quality Multimodal Data** | arXiv 2026 | multimodal/MLLM serving / distillation / parameter-efficient adaptation | [Link](https://arxiv.org/abs/2609.10321) | — |

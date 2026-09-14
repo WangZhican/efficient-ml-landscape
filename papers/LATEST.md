@@ -1,6 +1,6 @@
 # 🆕 Latest 30 Days
 
-> Rolling 30-day view ending **2026-09-15**: **1558 tracked papers = 325 P0 + 1116 P1 + 117 P2**. Topical relevance determines visibility; quality determines priority. The classical census remains stricter.
+> Rolling 30-day view ending **2026-09-15**: **1564 tracked papers = 328 P0 + 1119 P1 + 117 P2**. Topical relevance determines visibility; quality determines priority. The classical census remains stricter.
 
 [← Paper Library](ALL_PAPERS.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/latest_30d.json) · [CSV](../data/latest_30d.csv)
 
@@ -185,6 +185,7 @@
 | **P0 · Strong** | **HBQ: Hierarchical Scaling Block Quantization with Hardware-Efficiency-Aware Design for Accurate LLM Inference** | MICRO 2026 | quantization / hardware accelerator / KV cache | [Link](https://arxiv.org/abs/2609.00450) | — |
 | **P0 · Strong** | **HBFSim: Fast and Faithful Simulation of High-Bandwidth Flash Under Real GPU Execution** | arXiv 2026 | LLM serving / GPU memory hierarchy / simulation / HBF | [Link](https://arxiv.org/abs/2609.09800) | — |
 | **P0 · Strong** | **Hardware-Aware FP4 FlashAttention-4** | CoRR 2026 | efficient attention / quantization / GPU kernel / Blackwell FP4 | [Link](https://arxiv.org/abs/2609.04105) | [Repo](https://github.com/MrHuff/fp4-fa4) |
+| **P0 · Strong** | **Hardware-Attributed Operator Profiling for PyTorch** | arXiv 2026 | GPU kernel/DSL/compilers / profiling | [Link](https://arxiv.org/abs/2609.11938) | — |
 | **P0 · Strong** | **Hardware-Accelerated Instance Segmentation for Resource-Constrained Space Robotics with Criticality Analysis** | arXiv 2026 | VLA/WAM/Physical AI serving / edge accelerator / quantization / reliable robotics inference | [Link](https://arxiv.org/abs/2609.02219) | — |
 | **P0 · Strong** | **Hardware Acceleration of Block-Diffusion LLM for Edge Devices** | CoRR 2026 | edge/cloud/heterogeneous AI systems / diffusion LLM / KV compression / hardware acceleration | [Link](https://arxiv.org/abs/2609.01084) | — |
 | **P0 · Strong** | **HAF: Adapting Generalist VLAs to Humanoid Whole-Body Loco-manipulation via Hierarchical Action Flow and Spectral Latent RL** | Fresh / preprint | VLA / humanoid efficient adaptation | [Link](https://arxiv.org/abs/2608.16837) | — |
@@ -305,6 +306,7 @@
 | **P0 · Strong** | **ASTRA: Low-Overhead Runtime Architecture for STReam Adaptation in Video Analytics** | arXiv 2026 | edge/cloud/heterogeneous AI systems / multimodal serving / runtime adaptation | [Link](https://arxiv.org/abs/2609.07020) | — |
 | **P0 · Strong** | **Argus: Orchestrating Cross-Layer GPU Performance Measurements around Semantic Regions** | arXiv 2026 | GPU kernel/DSL/compilers / AI infra / performance tooling | [Link](https://arxiv.org/abs/2609.12299) | — |
 | **P0 · Strong** | **Analytical Resource Management for Fine-grained MoE Computation-Communication Overlap** | arXiv 2026 | MoE systems/accelerators / distributed inference / compute-communication overlap | [Link](https://arxiv.org/abs/2609.07536) | — |
+| **P0 · Strong** | **An Open-Source End-to-End FHE Implementation for Privacy-Preserving Llama 3 8B Inference** | arXiv 2026 | LLM serving / privacy-preserving inference / GPU | [Link](https://arxiv.org/abs/2609.12378) | — |
 | **P0 · Strong** | **An Empirical Study of Training Pixel-Space Text-to-Image Diffusion Models** | Fresh / preprint | image generation acceleration | [Link](https://arxiv.org/abs/2608.16887) | — |
 | **P0 · Strong** | **An Efficient Out-of-Core Tomographic Imaging Framework for Edge Devices** | arXiv 2026 | edge/cloud/heterogeneous AI systems / GPU kernel / mixed precision / out-of-core | [Link](https://arxiv.org/abs/2609.07249) | — |
 | **P0 · Strong** | **AMEND: Audited Margins Enable Nonblocking Drops in GPU-PIM LLM Decoding** | arXiv 2026 | KV cache/long-context / sparse attention / GPU-PIM / LLM decoding | [Link](https://arxiv.org/abs/2609.09823) | — |
@@ -312,6 +314,7 @@
 | **P0 · Strong** | **Almost Free State Prediction Separation** | arXiv 2026 | efficient reasoning/agent systems / LLM inference / KV-cache-neutral extra compute | [Link](https://arxiv.org/abs/2609.03807) | — |
 | **P0 · Strong** | **All for 1-Bit: Towards Genuine 1-Bit Post-Training Quantization for LLMs** | arXiv 2026 | quantization / LLM inference / genuine 1-bit PTQ | [Link](https://arxiv.org/abs/2609.06161) | — |
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
+| **P0 · Strong** | **AKTS: Sub-Microsecond Kernel Policy Switching for Language-Model Agents** | arXiv 2026 | LLM serving / agent systems / kernel runtime | [Link](https://arxiv.org/abs/2609.12276) | — |
 | **P0 · Strong** | **AInfer-PD: Communication-Safe In-Place Prefill-Decode Multiplexing for Distributed MoE Rollouts** | arXiv 2026 | LLM serving / agentic RL rollout / prefill-decode multiplexing / distributed MoE / communication | [Link](https://arxiv.org/abs/2609.00993) | — |
 | **P0 · Strong** | **AgentSpec: Speculative Decoding for Batch Inference of LLM Agents** | EMNLP 2026 | speculative decoding / efficient reasoning-agent systems / LLM serving | [Link](https://arxiv.org/abs/2608.24004) | — |
 | **P0 · Strong** | **Agentic Algorithm Engineering: Improving Shared-Memory Exact Minimum Cuts** | arXiv 2026 | efficient reasoning/agent systems / autonomous algorithm engineering / shared-memory optimization / performance tuning | [Link](https://arxiv.org/abs/2609.07204) | — |
@@ -790,6 +793,7 @@
 | **P1 · Watch** | **openJiuwen: Beyond Static Harnesses for Long-Horizon Coding Agents** | Fresh / preprint | edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.27969) | — |
 | **P1 · Watch** | **Open-Set Ego-Noise Separation for Legged-Robot Audition via Annotation-Free Adaptation and Pretrained-Model Transfer** | arXiv 2026 | VLA/WAM/Physical AI serving / robot sensing / annotation-efficient adaptation | [Link](https://arxiv.org/abs/2609.07440) | — |
 | **P1 · Watch** | **Open-Set 3D Scene Graphs for Field Robotics: An Outdoor Case Study** | arXiv 2026 | VLA/WAM/Physical AI / scene graph memory / field robotics / open-set VLM mapping | [Link](https://arxiv.org/abs/2609.04607) | — |
+| **P1 · Watch** | **Online Video Agent Harness for Long Video Understanding** | arXiv 2026 | efficient reasoning/agent systems / multimodal serving | [Link](https://arxiv.org/abs/2609.12818) | — |
 | **P1 · Watch** | **Online Material Estimation for Conditioned Diffusion Policy in Shaping Deformable Linear Objects** | arXiv 2026 | VLA/WAM/Physical AI serving / diffusion policy | [Link](https://arxiv.org/abs/2609.12634) | — |
 | **P1 · Watch** | **One Word, Different Action: A Real-Robot Benchmark for Language-Conditioned Embodied Reasoning** | arXiv 2026 | VLA/WAM/Physical AI serving / real-robot benchmark / language-conditioned action reasoning | [Link](https://arxiv.org/abs/2609.05260) | — |
 | **P1 · Watch** | **One Simple Trick for Improving the Performance of Energy-Limited Local Inference and Training** | arXiv 2026 | edge/cloud/heterogeneous AI systems / GPU power throttling / workload chunking | [Link](https://arxiv.org/abs/2609.11936) | — |
@@ -810,6 +814,7 @@
 | **P1 · Watch** | **Ollama in the Wild: A Longitudinal Measurement of Exposed Ollama LLM Endpoints at Internet Scale** | arXiv 2026 | LLM serving / deployment infrastructure / open-source ecosystem | [Link](https://arxiv.org/abs/2609.07115) | — |
 | **P1 · Watch** | **Odometer-Agnostic Drift Correction Using OpenStreetMap Lane Geometry** | arXiv 2026 | VLA/WAM/Physical AI serving / localization / lightweight runtime | [Link](https://arxiv.org/abs/2609.10336) | — |
 | **P1 · Watch** | **OctWorld: Long-Range World-Consistent Video Generation with Octree-Based 3D Mapping** | arXiv 2026 | video/image generation acceleration / world models / sparse 3D memory | [Link](https://arxiv.org/abs/2609.03919) | — |
+| **P1 · Watch** | **Occamy-1.0: Open Pareto-frontier 35B Intelligence for Co-work** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2609.11977) | — |
 | **P1 · Watch** | **OccamView: Object-Conditioned View Selection for Frame-Budgeted Active 3D Gaussian Reconstruction** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.16499) | — |
 | **P1 · Watch** | **Observe Before You Alert: Adaptive Driver Alerting with Vision-Language Models** | arXiv 2026 | VLA/WAM/Physical AI serving / adaptive perception / driver alerting | [Link](https://arxiv.org/abs/2609.08130) | — |
 | **P1 · Watch** | **Object-Aware Background-Controlled Editing via Weighted Velocity Guidance** | arXiv 2026 | diffusion/flow acceleration / training-free image-video editing | [Link](https://arxiv.org/abs/2609.06288) | — |
@@ -1197,6 +1202,7 @@
 | **P1 · Watch** | **DISEIL: Demonstration Distillation for Sample-Efficient Imitation Learning** | arXiv 2026 | VLA/WAM/Physical AI serving / imitation learning / data efficiency | [Link](https://arxiv.org/abs/2609.08123) | — |
 | **P1 · Watch** | **DiffVC-ONE: Diffusion-based Generative Video Compression with One-Step Video Diffusion Transformer** | Fresh / preprint | quantization / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.20515) | — |
 | **P1 · Watch** | **Diffusion Language Models for Mobile Edge Agentic AI: Foundations, Applications, and Challenges** | arXiv 2026 | efficient reasoning/agent systems / diffusion language models / edge-cloud serving / mobile edge AI | [Link](https://arxiv.org/abs/2609.04778) | — |
+| **P1 · Watch** | **DiffSynth-Music: Audio-Conditioned KV-Cache Adapters for Controllable Music Generation** | arXiv 2026 | KV cache/long-context / diffusion/flow acceleration | [Link](https://arxiv.org/abs/2609.12774) | — |
 | **P1 · Watch** | **DiffLUT-Net: Differentiable Training of FPGA LUT Networks with Learnable Connectivity** | arXiv 2026 | edge/cloud/heterogeneous AI / FPGA / hardware-native networks | [Link](https://arxiv.org/abs/2609.09254) | — |
 | **P1 · Watch** | **Difficulty-Calibrated Interpolation Paths for Conditional Flow Matching** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2608.21286) | — |
 | **P1 · Watch** | **Difficulty-Adaptive Tree-Structured Policy Optimization for Expanding Reasoning Coverage in RLVR** | arXiv 2026 | efficient reasoning/agent systems / RLVR / adaptive rollouts | [Link](https://arxiv.org/abs/2609.08650) | — |

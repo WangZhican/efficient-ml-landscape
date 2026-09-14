@@ -1,10 +1,10 @@
 # 08 · GPU Kernel / DSL / Compiler
 
-> **532 canonical papers** mapped here, plus a broader **242-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **535 canonical papers** mapped here, plus a broader **245-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 242 tracked
+## 🆕 Latest 30 Days · 245 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -145,6 +145,7 @@
 | **P1 · Watch** | **Heat Kernel Textures: the Geodesic Gaussians That Do Not Splat** | arXiv 2026 | video/image generation acceleration / 3D representation / memory efficiency | [Link](https://arxiv.org/abs/2609.07557) | — |
 | **P0 · Strong** | **HBFSim: Fast and Faithful Simulation of High-Bandwidth Flash Under Real GPU Execution** | arXiv 2026 | LLM serving / GPU memory hierarchy / simulation / HBF | [Link](https://arxiv.org/abs/2609.09800) | — |
 | **P0 · Strong** | **Hardware-Aware FP4 FlashAttention-4** | CoRR 2026 | efficient attention / quantization / GPU kernel / Blackwell FP4 | [Link](https://arxiv.org/abs/2609.04105) | [Repo](https://github.com/MrHuff/fp4-fa4) |
+| **P0 · Strong** | **Hardware-Attributed Operator Profiling for PyTorch** | arXiv 2026 | GPU kernel/DSL/compilers / profiling | [Link](https://arxiv.org/abs/2609.11938) | — |
 | **P1 · Watch** | **HandMvNet: Real-Time 3D Hand Pose Estimation Using Multi-View Cross-Attention Fusion** | Fresh / preprint | edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.20093) | — |
 | **P0 · Strong** | **H3DNAS: Hardware-Aware ONNX-Native 3D Point Cloud Model Compression** | arXiv 2026 | edge/cloud/heterogeneous AI systems / sparsity-pruning / deployment compiler | [Link](https://arxiv.org/abs/2609.02684) | [Repo](https://github.com/ClarityLab-Org/h3dnas) |
 | **P0 · Strong** | **GraniKV: Asymmetric Granularity KV-Cache Paging for Multi-Agent Systems with Long Shared Prefix** | Fresh / preprint | KV-cache paging / multi-agent serving | [Link](https://arxiv.org/abs/2608.15584) | — |
@@ -233,11 +234,13 @@
 | **P0 · Strong** | **Argus: Orchestrating Cross-Layer GPU Performance Measurements around Semantic Regions** | arXiv 2026 | GPU kernel/DSL/compilers / AI infra / performance tooling | [Link](https://arxiv.org/abs/2609.12299) | — |
 | **P1 · Watch** | **Architecting the Next Generation of Asynchronous, Distributed GPUs for the AI Era** | Fresh / preprint | GPU architecture / distributed accelerators / simulation | [Link](https://arxiv.org/abs/2608.22602) | — |
 | **P0 · Strong** | **Analytical Resource Management for Fine-grained MoE Computation-Communication Overlap** | arXiv 2026 | MoE systems/accelerators / distributed inference / compute-communication overlap | [Link](https://arxiv.org/abs/2609.07536) | — |
+| **P0 · Strong** | **An Open-Source End-to-End FHE Implementation for Privacy-Preserving Llama 3 8B Inference** | arXiv 2026 | LLM serving / privacy-preserving inference / GPU | [Link](https://arxiv.org/abs/2609.12378) | — |
 | **P0 · Strong** | **An Efficient Out-of-Core Tomographic Imaging Framework for Edge Devices** | arXiv 2026 | edge/cloud/heterogeneous AI systems / GPU kernel / mixed precision / out-of-core | [Link](https://arxiv.org/abs/2609.07249) | — |
 | **P0 · Strong** | **AMEND: Audited Margins Enable Nonblocking Drops in GPU-PIM LLM Decoding** | arXiv 2026 | KV cache/long-context / sparse attention / GPU-PIM / LLM decoding | [Link](https://arxiv.org/abs/2609.09823) | — |
 | **P1 · Watch** | **AMDKernelVault: Large-Scale Datasets and Agentic Training for AMD GPU Kernel Optimization** | arXiv 2026 | GPU kernel/DSL/compilers / AMD ROCm / agentic kernel optimization | [Link](https://arxiv.org/abs/2609.12471) | — |
 | **P0 · Strong** | **All for 1-Bit: Towards Genuine 1-Bit Post-Training Quantization for LLMs** | arXiv 2026 | quantization / LLM inference / genuine 1-bit PTQ | [Link](https://arxiv.org/abs/2609.06161) | — |
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
+| **P0 · Strong** | **AKTS: Sub-Microsecond Kernel Policy Switching for Language-Model Agents** | arXiv 2026 | LLM serving / agent systems / kernel runtime | [Link](https://arxiv.org/abs/2609.12276) | — |
 | **P1 · Watch** | **AI Hardware Accelerators for Large Language Models: Architectures and the Memory Wall** | Fresh / preprint | KV cache/long-context / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.28048) | — |
 | **P0 · Strong** | **ACE: Adapter Consolidation across Experts for Parameter-Efficient Fine-Tuning of MoE LLMs** | arXiv 2026 | MoE systems/accelerators / distributed training / PEFT | [Link](https://arxiv.org/abs/2609.06072) | [Repo](https://github.com/UbiquitousAILab/ACE) |
 | **P1 · Watch** | **Accelerating Data Preprocessing for Efficient Vision Model Inference on Jetson Edge Device** | Fresh / preprint | LLM serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.27655) | — |

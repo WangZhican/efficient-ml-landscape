@@ -1,10 +1,10 @@
 # 01 · LLM Serving
 
-> **1087 canonical papers** mapped here, plus a broader **939-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **1089 canonical papers** mapped here, plus a broader **942-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 939 tracked
+## 🆕 Latest 30 Days · 942 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -460,6 +460,7 @@
 | **P1 · Watch** | **OpScale: Operator-level Provisioning and Autoscaling for LLM Serving** | Fresh / preprint |  | [Link](https://arxiv.org/abs/2608.13499) | — |
 | **P1 · Watch** | **OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining** | arXiv 2026 | VLA/WAM/Physical AI serving / WAM infrastructure / deployment stack | [Link](https://arxiv.org/abs/2609.07398) | [Repo](https://github.com/OpenWAM-Official/OpenWAM) |
 | **P1 · Watch** | **Open-Set Ego-Noise Separation for Legged-Robot Audition via Annotation-Free Adaptation and Pretrained-Model Transfer** | arXiv 2026 | VLA/WAM/Physical AI serving / robot sensing / annotation-efficient adaptation | [Link](https://arxiv.org/abs/2609.07440) | — |
+| **P1 · Watch** | **Online Video Agent Harness for Long Video Understanding** | arXiv 2026 | efficient reasoning/agent systems / multimodal serving | [Link](https://arxiv.org/abs/2609.12818) | — |
 | **P1 · Watch** | **Online Material Estimation for Conditioned Diffusion Policy in Shaping Deformable Linear Objects** | arXiv 2026 | VLA/WAM/Physical AI serving / diffusion policy | [Link](https://arxiv.org/abs/2609.12634) | — |
 | **P0 · Strong** | **OneLA: Scaling Linear-Attention Decoding to Large Beams in Generative Recommendation** | arXiv 2026 | LLM serving / efficient attention / GPU kernels / generative recommendation | [Link](https://arxiv.org/abs/2609.12399) | — |
 | **P1 · Watch** | **One Word, Different Action: A Real-Robot Benchmark for Language-Conditioned Embodied Reasoning** | arXiv 2026 | VLA/WAM/Physical AI serving / real-robot benchmark / language-conditioned action reasoning | [Link](https://arxiv.org/abs/2609.05260) | — |
@@ -896,6 +897,7 @@
 | **P1 · Watch** | **AnchorVLN: Geometry-Anchored Vision-Language Grounding Reasoning for Open-Vocabulary Navigation** | arXiv 2026 | VLA/WAM/Physical AI serving / embodied navigation | [Link](https://arxiv.org/abs/2609.12285) | — |
 | **P0 · Strong** | **Analytical Resource Management for Fine-grained MoE Computation-Communication Overlap** | arXiv 2026 | MoE systems/accelerators / distributed inference / compute-communication overlap | [Link](https://arxiv.org/abs/2609.07536) | — |
 | **P1 · Watch** | **An Oversubscription and Service Pricing Exploitation-Based Profit Maximization Framework for Industry Cloud Resource Management** | Fresh / preprint | edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.25712) | — |
+| **P0 · Strong** | **An Open-Source End-to-End FHE Implementation for Privacy-Preserving Llama 3 8B Inference** | arXiv 2026 | LLM serving / privacy-preserving inference / GPU | [Link](https://arxiv.org/abs/2609.12378) | — |
 | **P1 · Watch** | **An Internet for the KV Cache: Rethinking Classical Infrastructure Boundaries in the LLM Inference Age** | Fresh / preprint | KV cache / distributed serving / cloud-network-storage systems | [Link](https://arxiv.org/abs/2608.01526) | — |
 | **P1 · Watch** | **An Empirical Study of Speculative Decoding on Software Engineering Tasks** | Fresh / preprint | LLM serving / KV cache/long-context / speculative decoding / video/image generation acceleration / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2604.26469) | — |
 | **P0 · Strong** | **AMEND: Audited Margins Enable Nonblocking Drops in GPU-PIM LLM Decoding** | arXiv 2026 | KV cache/long-context / sparse attention / GPU-PIM / LLM decoding | [Link](https://arxiv.org/abs/2609.09823) | — |
@@ -904,6 +906,7 @@
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 | **P1 · Watch** | **AlayaWorld: Interactive Long-Horizon World Modeling - Full Technical Report (v1.1)** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2608.13492) | — |
 | **P1 · Watch** | **Alaya-EVOKE: From Linear-Scaling Supervision to Endless World** | Fresh / preprint | LLM serving / KV cache/long-context / sparsity/pruning / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.13546) | — |
+| **P0 · Strong** | **AKTS: Sub-Microsecond Kernel Policy Switching for Language-Model Agents** | arXiv 2026 | LLM serving / agent systems / kernel runtime | [Link](https://arxiv.org/abs/2609.12276) | — |
 | **P1 · Watch** | **AirAnchor: Bridging Local and Global Spatial Information for Zero-Shot Aerial Vision-and-Language Navigation** | arXiv 2026 | VLA/WAM/Physical AI serving / local-global memory / aerial VLN | [Link](https://arxiv.org/abs/2609.08442) | — |
 | **P0 · Strong** | **AInfer-PD: Communication-Safe In-Place Prefill-Decode Multiplexing for Distributed MoE Rollouts** | arXiv 2026 | LLM serving / agentic RL rollout / prefill-decode multiplexing / distributed MoE / communication | [Link](https://arxiv.org/abs/2609.00993) | — |
 | **P1 · Watch** | **AGM: Achievement-Grounded Memory for Closed-Loop Agents with Frozen VLA Policies** | Fresh / preprint | multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.29537) | — |

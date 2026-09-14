@@ -2809,6 +2809,28 @@
     ]
   },
   {
+    "title": "AKTS: Sub-Microsecond Kernel Policy Switching for Language-Model Agents",
+    "venue": "arXiv 2026",
+    "topic": "LLM serving / agent systems / kernel runtime",
+    "arxiv": "2609.12276",
+    "doi": "",
+    "official_id": "arXiv:2609.12276",
+    "paper_url": "https://arxiv.org/abs/2609.12276",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Recovered by official OAI-PMH reconciliation after /new HTML fallback; direct/high-value Efficient ML or AI Infra signal.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "All for 1-Bit: Towards Genuine 1-Bit Post-Training Quantization for LLMs",
     "venue": "arXiv 2026",
     "topic": "quantization / LLM inference / genuine 1-bit PTQ",
@@ -2916,6 +2938,27 @@
     "directions": [
       "GPU Kernel / DSL / Compiler",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "An Open-Source End-to-End FHE Implementation for Privacy-Preserving Llama 3 8B Inference",
+    "venue": "arXiv 2026",
+    "topic": "LLM serving / privacy-preserving inference / GPU",
+    "arxiv": "2609.12378",
+    "doi": "",
+    "official_id": "arXiv:2609.12378",
+    "paper_url": "https://arxiv.org/abs/2609.12378",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Recovered by official OAI-PMH reconciliation after /new HTML fallback; direct/high-value Efficient ML or AI Infra signal.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {
@@ -5278,6 +5321,26 @@
       "Quantization",
       "VLA / WAM / Physical AI",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Hardware-Attributed Operator Profiling for PyTorch",
+    "venue": "arXiv 2026",
+    "topic": "GPU kernel/DSL/compilers / profiling",
+    "arxiv": "2609.11938",
+    "doi": "",
+    "official_id": "arXiv:2609.11938",
+    "paper_url": "https://arxiv.org/abs/2609.11938",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Recovered by official OAI-PMH reconciliation after /new HTML fallback; direct/high-value Efficient ML or AI Infra signal.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {

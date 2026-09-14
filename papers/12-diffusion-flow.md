@@ -1,10 +1,10 @@
 # 12 · Diffusion / Flow Acceleration
 
-> **259 canonical papers** mapped here, plus a broader **92-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **259 canonical papers** mapped here, plus a broader **93-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 92 tracked
+## 🆕 Latest 30 Days · 93 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -82,6 +82,7 @@
 | **P0 · Strong** | **Distilled Continuous Diffusion Language Models Can Write Code in Few Steps---or One** | arXiv 2026 | diffusion/flow acceleration / diffusion language models / efficient reasoning | [Link](https://arxiv.org/abs/2609.04531) | — |
 | **P1 · Watch** | **DiffVC-ONE: Diffusion-based Generative Video Compression with One-Step Video Diffusion Transformer** | Fresh / preprint | quantization / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.20515) | — |
 | **P1 · Watch** | **Diffusion Language Models for Mobile Edge Agentic AI: Foundations, Applications, and Challenges** | arXiv 2026 | efficient reasoning/agent systems / diffusion language models / edge-cloud serving / mobile edge AI | [Link](https://arxiv.org/abs/2609.04778) | — |
+| **P1 · Watch** | **DiffSynth-Music: Audio-Conditioned KV-Cache Adapters for Controllable Music Generation** | arXiv 2026 | KV cache/long-context / diffusion/flow acceleration | [Link](https://arxiv.org/abs/2609.12774) | — |
 | **P1 · Watch** | **Difficulty-Calibrated Interpolation Paths for Conditional Flow Matching** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2608.21286) | — |
 | **P1 · Watch** | **DIA: Denoising Intermediate Advantage for Diffusion Policy Optimization** | arXiv 2026 | VLA/WAM/Physical AI serving / action-head / diffusion | [Link](https://arxiv.org/abs/2609.12245) | — |
 | **P1 · Watch** | **DFlow: Enabling Verifier Information Flow in Block Diffusion Speculative Decoding** | arXiv 2026 | speculative decoding / diffusion language models / verifier reuse | [Link](https://arxiv.org/abs/2609.06498) | — |

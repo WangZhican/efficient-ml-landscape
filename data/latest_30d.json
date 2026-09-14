@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-15",
   "window_start_beijing": "2026-08-16",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 1558,
+  "tracked_total": 1564,
   "p0_strong_or_canonical": [
     {
       "title": "Zetta: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence",
@@ -3836,6 +3836,26 @@
       ]
     },
     {
+      "title": "Hardware-Attributed Operator Profiling for PyTorch",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / profiling",
+      "arxiv": "2609.11938",
+      "doi": "",
+      "official_id": "arXiv:2609.11938",
+      "paper_url": "https://arxiv.org/abs/2609.11938",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Recovered by official OAI-PMH reconciliation after /new HTML fallback; direct/high-value Efficient ML or AI Infra signal.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
       "title": "Hardware-Accelerated Instance Segmentation for Resource-Constrained Space Robotics with Criticality Analysis",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / edge accelerator / quantization / reliable robotics inference",
@@ -6441,6 +6461,27 @@
       ]
     },
     {
+      "title": "An Open-Source End-to-End FHE Implementation for Privacy-Preserving Llama 3 8B Inference",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / privacy-preserving inference / GPU",
+      "arxiv": "2609.12378",
+      "doi": "",
+      "official_id": "arXiv:2609.12378",
+      "paper_url": "https://arxiv.org/abs/2609.12378",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Recovered by official OAI-PMH reconciliation after /new HTML fallback; direct/high-value Efficient ML or AI Infra signal.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
       "title": "An Empirical Study of Training Pixel-Space Text-to-Image Diffusion Models",
       "venue": "",
       "topic": "image generation acceleration",
@@ -6595,6 +6636,28 @@
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "AKTS: Sub-Microsecond Kernel Policy Switching for Language-Model Agents",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / agent systems / kernel runtime",
+      "arxiv": "2609.12276",
+      "doi": "",
+      "official_id": "arXiv:2609.12276",
+      "paper_url": "https://arxiv.org/abs/2609.12276",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Recovered by official OAI-PMH reconciliation after /new HTML fallback; direct/high-value Efficient ML or AI Infra signal.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -16747,6 +16810,28 @@
       ]
     },
     {
+      "title": "Online Video Agent Harness for Long Video Understanding",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / multimodal serving",
+      "arxiv": "2609.12818",
+      "doi": "",
+      "official_id": "arXiv:2609.12818",
+      "paper_url": "https://arxiv.org/abs/2609.12818",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Recovered by official OAI-PMH reconciliation after /new HTML fallback; direct/high-value Efficient ML or AI Infra signal.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Online Material Estimation for Conditioned Diffusion Policy in Shaping Deformable Linear Objects",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / diffusion policy",
@@ -17180,6 +17265,26 @@
         "Sparsity / Pruning",
         "GPU Kernel / DSL / Compiler",
         "Video / Image Generation"
+      ]
+    },
+    {
+      "title": "Occamy-1.0: Open Pareto-frontier 35B Intelligence for Co-work",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems",
+      "arxiv": "2609.11977",
+      "doi": "",
+      "official_id": "arXiv:2609.11977",
+      "paper_url": "https://arxiv.org/abs/2609.11977",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Recovered by official OAI-PMH reconciliation after /new HTML fallback; direct/high-value Efficient ML or AI Infra signal.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -25514,6 +25619,27 @@
         "Diffusion / Flow Acceleration",
         "Efficient Reasoning / Agents",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "DiffSynth-Music: Audio-Conditioned KV-Cache Adapters for Controllable Music Generation",
+      "venue": "arXiv 2026",
+      "topic": "KV cache/long-context / diffusion/flow acceleration",
+      "arxiv": "2609.12774",
+      "doi": "",
+      "official_id": "arXiv:2609.12774",
+      "paper_url": "https://arxiv.org/abs/2609.12774",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Recovered by official OAI-PMH reconciliation after /new HTML fallback; direct/high-value Efficient ML or AI Infra signal.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context",
+        "Diffusion / Flow Acceleration"
       ]
     },
     {
@@ -37496,6 +37622,26 @@
       ]
     },
     {
+      "title": "Hardware-Attributed Operator Profiling for PyTorch",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / profiling",
+      "arxiv": "2609.11938",
+      "doi": "",
+      "official_id": "arXiv:2609.11938",
+      "paper_url": "https://arxiv.org/abs/2609.11938",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Recovered by official OAI-PMH reconciliation after /new HTML fallback; direct/high-value Efficient ML or AI Infra signal.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
       "title": "Hardware-Accelerated Instance Segmentation for Resource-Constrained Space Robotics with Criticality Analysis",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / edge accelerator / quantization / reliable robotics inference",
@@ -40101,6 +40247,27 @@
       ]
     },
     {
+      "title": "An Open-Source End-to-End FHE Implementation for Privacy-Preserving Llama 3 8B Inference",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / privacy-preserving inference / GPU",
+      "arxiv": "2609.12378",
+      "doi": "",
+      "official_id": "arXiv:2609.12378",
+      "paper_url": "https://arxiv.org/abs/2609.12378",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Recovered by official OAI-PMH reconciliation after /new HTML fallback; direct/high-value Efficient ML or AI Infra signal.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
       "title": "An Empirical Study of Training Pixel-Space Text-to-Image Diffusion Models",
       "venue": "",
       "topic": "image generation acceleration",
@@ -40255,6 +40422,28 @@
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "AKTS: Sub-Microsecond Kernel Policy Switching for Language-Model Agents",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / agent systems / kernel runtime",
+      "arxiv": "2609.12276",
+      "doi": "",
+      "official_id": "arXiv:2609.12276",
+      "paper_url": "https://arxiv.org/abs/2609.12276",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Recovered by official OAI-PMH reconciliation after /new HTML fallback; direct/high-value Efficient ML or AI Infra signal.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -50405,6 +50594,28 @@
       ]
     },
     {
+      "title": "Online Video Agent Harness for Long Video Understanding",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / multimodal serving",
+      "arxiv": "2609.12818",
+      "doi": "",
+      "official_id": "arXiv:2609.12818",
+      "paper_url": "https://arxiv.org/abs/2609.12818",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Recovered by official OAI-PMH reconciliation after /new HTML fallback; direct/high-value Efficient ML or AI Infra signal.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Online Material Estimation for Conditioned Diffusion Policy in Shaping Deformable Linear Objects",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / diffusion policy",
@@ -50838,6 +51049,26 @@
         "Sparsity / Pruning",
         "GPU Kernel / DSL / Compiler",
         "Video / Image Generation"
+      ]
+    },
+    {
+      "title": "Occamy-1.0: Open Pareto-frontier 35B Intelligence for Co-work",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems",
+      "arxiv": "2609.11977",
+      "doi": "",
+      "official_id": "arXiv:2609.11977",
+      "paper_url": "https://arxiv.org/abs/2609.11977",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Recovered by official OAI-PMH reconciliation after /new HTML fallback; direct/high-value Efficient ML or AI Infra signal.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -59172,6 +59403,27 @@
         "Diffusion / Flow Acceleration",
         "Efficient Reasoning / Agents",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "DiffSynth-Music: Audio-Conditioned KV-Cache Adapters for Controllable Music Generation",
+      "venue": "arXiv 2026",
+      "topic": "KV cache/long-context / diffusion/flow acceleration",
+      "arxiv": "2609.12774",
+      "doi": "",
+      "official_id": "arXiv:2609.12774",
+      "paper_url": "https://arxiv.org/abs/2609.12774",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Recovered by official OAI-PMH reconciliation after /new HTML fallback; direct/high-value Efficient ML or AI Infra signal.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context",
+        "Diffusion / Flow Acceleration"
       ]
     },
     {

@@ -1,10 +1,10 @@
 # 13 · Efficient Reasoning / Agents
 
-> **473 canonical papers** mapped here, plus a broader **477-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **474 canonical papers** mapped here, plus a broader **480-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 477 tracked
+## 🆕 Latest 30 Days · 480 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -192,6 +192,7 @@
 | **P1 · Watch** | **ORDDAR: Observation-Driven Reasoning for Distortion-Resilient Decision, Action, and Cognitive Recovery** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.28704) | — |
 | **P1 · Watch** | **ORCH: Organizational Principles Enable Collective Intelligence in Embodied AI** | arXiv 2026 | VLA/WAM/Physical AI serving / embodied multi-agent orchestration | [Link](https://arxiv.org/abs/2609.11737) | — |
 | **P1 · Watch** | **openJiuwen: Beyond Static Harnesses for Long-Horizon Coding Agents** | Fresh / preprint | edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.27969) | — |
+| **P1 · Watch** | **Online Video Agent Harness for Long Video Understanding** | arXiv 2026 | efficient reasoning/agent systems / multimodal serving | [Link](https://arxiv.org/abs/2609.12818) | — |
 | **P0 · Strong** | **Online Draft Co-Training for Speculative Decoding in Large-Scale, Long-Context RL Post-Training** | arXiv 2026 | speculative decoding / RL post-training / context parallelism / pipeline parallelism | [Link](https://arxiv.org/abs/2609.07108) | [Repo](https://github.com/NVIDIA-NeMo/RL) |
 | **P1 · Watch** | **One Word, Different Action: A Real-Robot Benchmark for Language-Conditioned Embodied Reasoning** | arXiv 2026 | VLA/WAM/Physical AI serving / real-robot benchmark / language-conditioned action reasoning | [Link](https://arxiv.org/abs/2609.05260) | — |
 | **P1 · Watch** | **One Gate Is Not Enough: Composing Stateful Pre-Action Controls for Agentic AI** | Fresh / preprint | video/image generation acceleration / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.18360) | — |
@@ -199,6 +200,7 @@
 | **P1 · Watch** | **Omni Interaction Agent Technical Report** | arXiv 2026 | multimodal/MLLM serving / efficient reasoning/agent systems / streaming full-duplex runtime | [Link](https://arxiv.org/abs/2609.08977) | — |
 | **P1 · Watch** | **OmegaUse-SOP: SOP Engineering for Professional Computer Use from Human Demonstrations** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2609.02149) | — |
 | **P0 · Strong** | **OCTN: Neural OCT Representations for Robot-Guided Precision Intervention** | arXiv 2026 | VLA/WAM/Physical AI serving / edge/GPU runtime / robot-guided intervention | [Link](https://arxiv.org/abs/2609.06810) | [Repo](https://raprakashvi.github.io/octn) |
+| **P1 · Watch** | **Occamy-1.0: Open Pareto-frontier 35B Intelligence for Co-work** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2609.11977) | — |
 | **P1 · Watch** | **NutriBench-Kitchen: Benchmarking Embodied AI for Nutrition Management** | arXiv 2026 | VLA/WAM/Physical AI / persistent embodied memory / long-horizon kitchen agents | [Link](https://arxiv.org/abs/2609.07135) | — |
 | **P1 · Watch** | **NovaFabric: Tamper-Evident, Replayable Evidence for Autonomous AI Agent Runs** | arXiv 2026 | efficient reasoning/agent systems / edge-cloud runtime | [Link](https://arxiv.org/abs/2609.12582) | — |
 | **P1 · Watch** | **Noesis: Bidirectional Graph-RAG with Adaptive Parallelism and Cross-Knowledge-Base Semantic Discovery** | Fresh / preprint | quantization | [Link](https://arxiv.org/abs/2608.15919) | — |
@@ -453,6 +455,7 @@
 | **P1 · Watch** | **AMDKernelVault: Large-Scale Datasets and Agentic Training for AMD GPU Kernel Optimization** | arXiv 2026 | GPU kernel/DSL/compilers / AMD ROCm / agentic kernel optimization | [Link](https://arxiv.org/abs/2609.12471) | — |
 | **P0 · Strong** | **Ambient @ EgoLongQA 2026: Distilling Long-Video perception into a Sub-2B Model** | arXiv 2026 | multimodal/MLLM serving / model compression / video reasoning | [Link](https://arxiv.org/abs/2609.07154) | — |
 | **P0 · Strong** | **Almost Free State Prediction Separation** | arXiv 2026 | efficient reasoning/agent systems / LLM inference / KV-cache-neutral extra compute | [Link](https://arxiv.org/abs/2609.03807) | — |
+| **P0 · Strong** | **AKTS: Sub-Microsecond Kernel Policy Switching for Language-Model Agents** | arXiv 2026 | LLM serving / agent systems / kernel runtime | [Link](https://arxiv.org/abs/2609.12276) | — |
 | **P0 · Strong** | **AInfer-PD: Communication-Safe In-Place Prefill-Decode Multiplexing for Distributed MoE Rollouts** | arXiv 2026 | LLM serving / agentic RL rollout / prefill-decode multiplexing / distributed MoE / communication | [Link](https://arxiv.org/abs/2609.00993) | — |
 | **P1 · Watch** | **AIM: A Privacy-Aware Interoperable Memory Framework for Multi-Agent Multi-User LLM Systems** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2609.12320) | — |
 | **P1 · Watch** | **AI-Native Orchestration in the 6G Continuum: Evolving Operator Platforms with Agentic AI** | arXiv 2026 | edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.08441) | — |
