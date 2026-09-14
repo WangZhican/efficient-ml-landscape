@@ -1,15 +1,16 @@
 # 14 · VLA / WAM / Physical AI
 
-> **196 canonical papers** mapped here, plus a broader **391-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **196 canonical papers** mapped here, plus a broader **392-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 391 tracked
+## 🆕 Latest 30 Days · 392 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **P1 · Watch** | **Embodied-BenchForge: A Closed-Loop Agentic Workflow for Embodied Benchmark Construction** | arXiv 2026 | VLA/WAM/Physical AI serving / agent systems | [Link](https://arxiv.org/abs/2609.13082) | — |
 | **P0 · Strong** | **Dynin-Robotics: Omnimodal Unified Diffusion Vision-Language-Action Model** | arXiv 2026 | VLA/WAM/Physical AI serving / diffusion / action decoding | [Link](https://arxiv.org/abs/2609.13053) | — |
+| **P1 · Watch** | **Tuning ROS 2 for Energy-Efficient Navigation: Empirical Insights from Costmap 2D Configurations** | arXiv 2026 | VLA/WAM/Physical AI serving / robot runtime / edge efficiency | [Link](https://arxiv.org/abs/2609.12971) | — |
 | **P1 · Watch** | **Breaking the Vision-Action Shortcut: Latent Interface Training for Generalizable Robotics Foundation Models** | arXiv 2026 | VLA/WAM/Physical AI serving / action head / latent interface | [Link](https://arxiv.org/abs/2609.12641) | — |
 | **P1 · Watch** | **STAR: Sparse Tactile Representation Learning in Vision-Tactile-Language-Action Models for Dexterous Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving / sparse multimodal representation / tactile tokens | [Link](https://arxiv.org/abs/2609.12549) | — |
 | **P1 · Watch** | **Agent as Policy for Robotic Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving / streaming agent | [Link](https://arxiv.org/abs/2609.12541) | — |

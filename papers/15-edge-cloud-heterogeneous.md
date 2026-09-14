@@ -1,15 +1,16 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **525 canonical papers** mapped here, plus a broader **450-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **525 canonical papers** mapped here, plus a broader **453-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 450 tracked
+## 🆕 Latest 30 Days · 453 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **P0 · Strong** | **Rethinking Heterogeneous System Disaggregation for Subquadratic Attention** | arXiv 2026 | LLM serving / efficient attention / heterogeneous disaggregation / energy-efficient inference | [Link](https://arxiv.org/abs/2609.13134) | — |
 | **P1 · Watch** | **A Dynamic Vertical Scaling Strategy for Distributed Stream Processing Applications in Edge Computing** | arXiv 2026 | edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.12975) | — |
+| **P1 · Watch** | **Tuning ROS 2 for Energy-Efficient Navigation: Empirical Insights from Costmap 2D Configurations** | arXiv 2026 | VLA/WAM/Physical AI serving / robot runtime / edge efficiency | [Link](https://arxiv.org/abs/2609.12971) | — |
 | **P1 · Watch** | **Input Resolution Matters: Real-Time Object Detection Latency** | arXiv 2026 | edge/cloud/heterogeneous AI systems / inference latency / performance modeling | [Link](https://arxiv.org/abs/2609.12920) | — |
 | **P1 · Watch** | **Behavior Quotient Learning for Low-Rank Adaptation of LLM Agents** | arXiv 2026 | efficient reasoning/agent systems / parameter-efficient adaptation | [Link](https://arxiv.org/abs/2609.12896) | — |
 | **P0 · Strong** | **4D Parallelism Unlocks Exascale Bayesian Neural Networks for High-Fidelity Atmospheric Modeling** | arXiv 2026 | distributed training/inference / heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.12815) | — |
@@ -134,6 +135,7 @@
 | **P1 · Watch** | **The Hyperscale Lottery: How State-Space Models Have Sacrificed Edge Efficiency** | arXiv 2026 | edge AI; state-space models; efficiency characterization; cloud-edge tradeoff | [Link](https://arxiv.org/abs/2604.07935) | — |
 | **P1 · Watch** | **The Battery Price of edge AI: A study of the Environmental Impact of LLM Inference on Mobile Devices** | arXiv 2026 | edge/cloud/heterogeneous AI systems / on-device LLM / energy measurement / quantization | [Link](https://arxiv.org/abs/2609.11940) | — |
 | **P1 · Watch** | **The 1/W Law: An Analytical Study of Context-Length Routing Topology and GPU Generation Gains for LLM Inference Energy Efficiency** | arXiv 2026 | LLM serving / context-length routing / inference energy efficiency / heterogeneous GPU fleet | [Link](https://arxiv.org/abs/2603.17280) | — |
+| **P1 · Watch** | **Tensor-Accelerated Eager Multi-Resolution Grids for Evolving Large-Scale Substrates** | arXiv 2026 | GPU kernel/DSL/compilers / tensorization | [Link](https://arxiv.org/abs/2608.27612) | — |
 | **P0 · Strong** | **TASTE: Throughput-Aware Batch Size Tuning for On-Device Edge Learning** | arXiv 2026 | edge/cloud/heterogeneous AI systems / on-device learning / throughput tuning | [Link](https://arxiv.org/abs/2609.07444) | — |
 | **P1 · Watch** | **SymbolicLight V2: Hybrid Neuromorphic Architecture and Sparse Execution for Low-Energy Language Inference** | arXiv 2026 | edge/cloud/heterogeneous AI / sparse inference / FPGA | [Link](https://arxiv.org/abs/2609.09772) | — |
 | **P1 · Watch** | **Sustainable Edge Vision via Empirically Calibrated DVFS: Eliminating Thermal Throttling on Passively Cooled Hardware** | arXiv 2026 | edge/cloud/heterogeneous AI systems / DVFS / thermal-aware inference | [Link](https://arxiv.org/abs/2609.04705) | — |
@@ -208,6 +210,7 @@
 | **P1 · Watch** | **openJiuwen: Beyond Static Harnesses for Long-Horizon Coding Agents** | Fresh / preprint | edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.27969) | — |
 | **P1 · Watch** | **One Simple Trick for Improving the Performance of Energy-Limited Local Inference and Training** | arXiv 2026 | edge/cloud/heterogeneous AI systems / GPU power throttling / workload chunking | [Link](https://arxiv.org/abs/2609.11936) | — |
 | **P1 · Watch** | **One Policy, Many Embodiments: Unified Camera-Centric Action Geometry Pre-training for Heterogeneous Embodied Manipulation** | Fresh / preprint | multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.26058) | — |
+| **P1 · Watch** | **On-Device Language Models for Privacy-Preserving Stress Prediction: A Multimodal Evaluation on Mobile Health** | arXiv 2026 | edge/cloud/heterogeneous AI systems / on-device inference | [Link](https://arxiv.org/abs/2609.11961) | — |
 | **P1 · Watch** | **On the Limitations of Non-GPU AI Accelerators for Large-Model Inference: A Field Study of MoE and Multimodal Serving on Huawei Ascend** | arXiv 2026 | heterogeneous AI systems; Huawei Ascend/CANN; vLLM-Ascend; MoE/MLLM serving field study | [Link](https://arxiv.org/abs/2607.08215) | — |
 | **P1 · Watch** | **On the Instance Hardness as a Decision Criterion in TinyML Systems** | Fresh / preprint | edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.29913) | — |
 | **P0 · Strong** | **OmniKVQuant: KV Cache Quantization for Omni-LLMs** | arXiv 2026 | KV cache/long-context / quantization / multimodal serving | [Link](https://arxiv.org/abs/2609.11582) | — |

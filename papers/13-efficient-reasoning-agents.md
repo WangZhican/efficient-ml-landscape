@@ -1,10 +1,10 @@
 # 13 · Efficient Reasoning / Agents
 
-> **473 canonical papers** mapped here, plus a broader **476-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **473 canonical papers** mapped here, plus a broader **477-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 476 tracked
+## 🆕 Latest 30 Days · 477 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -135,6 +135,7 @@
 | **P1 · Watch** | **Single-agent or Multi-agent Systems? Why Not Both?** | arXiv 2025 | efficient reasoning / agent systems / hybrid SAS-MAS routing and cascading | [Link](https://arxiv.org/abs/2505.18286) | — |
 | **P1 · Watch** | **Simthesizer: An Agent-Driven Simulation Framework for LLM Serving Systems** | Fresh / preprint | LLM serving / systems simulation / agentic infrastructure | [Link](https://arxiv.org/abs/2608.24650) | — |
 | **P1 · Watch** | **SimSkill: A Lifelong Learning AI Agent for Autonomous Mastery of Traffic Simulation** | arXiv 2026 | efficient reasoning/agent systems / agent memory / reusable skills | [Link](https://arxiv.org/abs/2609.03753) | [Repo](https://github.com/qiliuchn/SimSkill-V1) |
+| **P1 · Watch** | **SiLR: Structure-Preserving Admission and Process Reward for LLM Tool Agents** | arXiv 2026 | efficient reasoning/agent systems / runtime safety | [Link](https://arxiv.org/abs/2609.04629) | — |
 | **P1 · Watch** | **Show-Harness: Just a VLM Agent Can Play Robots** | arXiv 2026 | VLA/WAM/Physical AI / VLM agents / robot interface / low-cost deployment | [Link](https://arxiv.org/abs/2609.10522) | [Repo](https://showlab.github.io/Show-Harness/) |
 | **P1 · Watch** | **SharedSAE: One Feature Dictionary Across Language Models** | arXiv 2026 | efficient reasoning/agent systems / interpretability infrastructure / shared representation | [Link](https://arxiv.org/abs/2609.04344) | — |
 | **P0 · Strong** | **SENTINEL-RL: Offloading Topological Reasoning from LLM Agents in the Security Operations Center** | arXiv 2026 | efficient reasoning/agent systems / reasoning offload / graph runtime / enterprise agents | [Link](https://arxiv.org/abs/2609.04159) | — |

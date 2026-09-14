@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-14",
   "window_start_beijing": "2026-08-15",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 1550,
+  "tracked_total": 1554,
   "p0_strong_or_canonical": [
     {
       "title": "SAS: Simple Attention Sparsification via End-to-End Optimization of Context Ranking",
@@ -7118,6 +7118,28 @@
       ]
     },
     {
+      "title": "Tuning ROS 2 for Energy-Efficient Navigation: Empirical Insights from Costmap 2D Configurations",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / robot runtime / edge efficiency",
+      "arxiv": "2609.12971",
+      "doi": "",
+      "official_id": "arXiv:2609.12971",
+      "paper_url": "https://arxiv.org/abs/2609.12971",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Controlled ROS 2/Nav2 study measuring energy, power, CPU, memory and navigation performance across Costmap configurations; useful Physical-AI runtime/configuration evidence, though not a VLA inference paper.",
+      "published_at": "2026-09-11T15:34:01Z",
+      "updated_at": "2026-09-11T15:34:01Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Fast and Faithful: Principled Conditional Flow Matching for Inverse Problems",
       "venue": "arXiv 2026",
       "topic": "diffusion/flow acceleration",
@@ -12250,6 +12272,27 @@
       ]
     },
     {
+      "title": "Tensor-Accelerated Eager Multi-Resolution Grids for Evolving Large-Scale Substrates",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / tensorization",
+      "arxiv": "2608.27612",
+      "doi": "",
+      "official_id": "arXiv:2608.27612",
+      "paper_url": "https://arxiv.org/abs/2608.27612",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Reformulates recursive adaptive multi-resolution evaluation into eager tensorized JAX execution; reports 12-34x on-device GPU speedups, a useful tensorization pattern despite the neuroevolution application.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Tensor Field Models",
       "venue": "",
       "topic": "video/image generation acceleration",
@@ -13505,6 +13548,27 @@
       "updated_at": "",
       "is_latest_30d": true,
       "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "SiLR: Structure-Preserving Admission and Process Reward for LLM Tool Agents",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / runtime safety",
+      "arxiv": "2609.04629",
+      "doi": "",
+      "official_id": "arXiv:2609.04629",
+      "paper_url": "https://arxiv.org/abs/2609.04629",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Runtime search/admission operator for ReAct tool agents using deterministic shadow execution and structured constraint state; strong systems/agent-runtime evidence, but not primarily an inference-throughput paper.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
         "Efficient Reasoning / Agents"
       ]
     },
@@ -17518,6 +17582,28 @@
         "LLM Serving",
         "Multimodal / MLLM Serving",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "On-Device Language Models for Privacy-Preserving Stress Prediction: A Multimodal Evaluation on Mobile Health",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / on-device inference",
+      "arxiv": "2609.11961",
+      "doi": "",
+      "official_id": "arXiv:2609.11961",
+      "paper_url": "https://arxiv.org/abs/2609.11961",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Empirical on-device language-model feasibility study reporting latency and throughput under mobile resource constraints; useful edge-inference deployment evidence, though application-specific and not a new runtime.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -40605,6 +40691,28 @@
       ]
     },
     {
+      "title": "Tuning ROS 2 for Energy-Efficient Navigation: Empirical Insights from Costmap 2D Configurations",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / robot runtime / edge efficiency",
+      "arxiv": "2609.12971",
+      "doi": "",
+      "official_id": "arXiv:2609.12971",
+      "paper_url": "https://arxiv.org/abs/2609.12971",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Controlled ROS 2/Nav2 study measuring energy, power, CPU, memory and navigation performance across Costmap configurations; useful Physical-AI runtime/configuration evidence, though not a VLA inference paper.",
+      "published_at": "2026-09-11T15:34:01Z",
+      "updated_at": "2026-09-11T15:34:01Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Fast and Faithful: Principled Conditional Flow Matching for Inverse Problems",
       "venue": "arXiv 2026",
       "topic": "diffusion/flow acceleration",
@@ -45737,6 +45845,27 @@
       ]
     },
     {
+      "title": "Tensor-Accelerated Eager Multi-Resolution Grids for Evolving Large-Scale Substrates",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / tensorization",
+      "arxiv": "2608.27612",
+      "doi": "",
+      "official_id": "arXiv:2608.27612",
+      "paper_url": "https://arxiv.org/abs/2608.27612",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Reformulates recursive adaptive multi-resolution evaluation into eager tensorized JAX execution; reports 12-34x on-device GPU speedups, a useful tensorization pattern despite the neuroevolution application.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Tensor Field Models",
       "venue": "",
       "topic": "video/image generation acceleration",
@@ -46992,6 +47121,27 @@
       "updated_at": "",
       "is_latest_30d": true,
       "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "SiLR: Structure-Preserving Admission and Process Reward for LLM Tool Agents",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / runtime safety",
+      "arxiv": "2609.04629",
+      "doi": "",
+      "official_id": "arXiv:2609.04629",
+      "paper_url": "https://arxiv.org/abs/2609.04629",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Runtime search/admission operator for ReAct tool agents using deterministic shadow execution and structured constraint state; strong systems/agent-runtime evidence, but not primarily an inference-throughput paper.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
         "Efficient Reasoning / Agents"
       ]
     },
@@ -51005,6 +51155,28 @@
         "LLM Serving",
         "Multimodal / MLLM Serving",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "On-Device Language Models for Privacy-Preserving Stress Prediction: A Multimodal Evaluation on Mobile Health",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / on-device inference",
+      "arxiv": "2609.11961",
+      "doi": "",
+      "official_id": "arXiv:2609.11961",
+      "paper_url": "https://arxiv.org/abs/2609.11961",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Empirical on-device language-model feasibility study reporting latency and throughput under mobile resource constraints; useful edge-inference deployment evidence, though application-specific and not a new runtime.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {

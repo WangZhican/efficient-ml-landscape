@@ -1,6 +1,6 @@
 # 📚 Paper Library
 
-> **2285 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **1550 visible papers = 324 P0 + 1109 P1 + 117 P2**. Recent topical relevance determines visibility; quality determines tier.
+> **2285 quality-gated papers** form the canonical library. The rolling latest-30-day tracker is broader: **1554 visible papers = 324 P0 + 1113 P1 + 117 P2**. Recent topical relevance determines visibility; quality determines tier.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/papers.json) · [CSV](../data/papers.csv)
 
@@ -333,7 +333,7 @@
 | **P0 · Strong** | **A single-precision floating-point systolic Givens-QRD Triangular Solver for MVDR Beamforming** | arXiv 2026 | edge/cloud/heterogeneous AI systems / FPGA accelerator / systolic linear algebra | [Link](https://arxiv.org/abs/2609.03137) | — |
 | **P0 · Strong** | **A HIP-Compatible Accelerator Backend for Fourier-Bessel Particle-in-Cell Simulations on CPU/DCU Heterogeneous Clusters** | arXiv 2026 | GPU kernel/DSL/compilers / heterogeneous accelerators / HIP portability / distributed runtime | [Link](https://arxiv.org/abs/2609.06680) | — |
 
-## 🧭 P1 · Watch · 1109
+## 🧭 P1 · Watch · 1113
 
 > Clearly relevant and promising, but still awaiting stronger novelty, evidence, venue, or adoption validation.
 
@@ -343,6 +343,7 @@
 | **P1 · Watch** | **Expert-Space Exploration in MoE Reinforcement Learning** | arXiv 2026 | MoE systems/accelerators / efficient reasoning | [Link](https://arxiv.org/abs/2609.13058) | — |
 | **P1 · Watch** | **Kraken: LLM-based Speech-to-Speech Translation via Low-bitrate VQ and Dual-path Source Conditioning** | arXiv 2026 | multimodal/MLLM serving / quantization | [Link](https://arxiv.org/abs/2609.13045) | — |
 | **P1 · Watch** | **A Dynamic Vertical Scaling Strategy for Distributed Stream Processing Applications in Edge Computing** | arXiv 2026 | edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.12975) | — |
+| **P1 · Watch** | **Tuning ROS 2 for Energy-Efficient Navigation: Empirical Insights from Costmap 2D Configurations** | arXiv 2026 | VLA/WAM/Physical AI serving / robot runtime / edge efficiency | [Link](https://arxiv.org/abs/2609.12971) | — |
 | **P1 · Watch** | **Fast and Faithful: Principled Conditional Flow Matching for Inverse Problems** | arXiv 2026 | diffusion/flow acceleration | [Link](https://arxiv.org/abs/2609.12953) | — |
 | **P1 · Watch** | **Dissecting GPU Utilization for LLM Inference on Nvidia Hopper** | arXiv 2026 | LLM serving / GPU performance characterization / Hopper / vLLM | [Link](https://arxiv.org/abs/2609.12923) | — |
 | **P1 · Watch** | **Input Resolution Matters: Real-Time Object Detection Latency** | arXiv 2026 | edge/cloud/heterogeneous AI systems / inference latency / performance modeling | [Link](https://arxiv.org/abs/2609.12920) | — |
@@ -581,6 +582,7 @@
 | **P1 · Watch** | **Test-Time Scaling for Scientific Equation Discovery** | Fresh / preprint | video/image generation acceleration / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.28660) | — |
 | **P1 · Watch** | **Test-Time Adaptation via Cache Personalization for Facial Expression Recognition in Videos** | Fresh / preprint | multimodal/MLLM serving | [Link](https://arxiv.org/abs/2603.21309) | [Repo](https://github.com/MasoumehSharafi/TTA-CaP) |
 | **P1 · Watch** | **Terminal Agents: A Survey of AI Agents in Command-Line Environments** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2608.20485) | — |
+| **P1 · Watch** | **Tensor-Accelerated Eager Multi-Resolution Grids for Evolving Large-Scale Substrates** | arXiv 2026 | GPU kernel/DSL/compilers / tensorization | [Link](https://arxiv.org/abs/2608.27612) | — |
 | **P1 · Watch** | **Tensor Field Models** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2608.18808) | — |
 | **P1 · Watch** | **Temporal Tactile Encoding and Compliance for Intent-Aware Robot-to-Human Bimanual Handover** | arXiv 2026 | VLA/WAM/Physical AI serving / multimodal VLA / tactile control | [Link](https://arxiv.org/abs/2609.05282) | — |
 | **P1 · Watch** | **Temporal State Transport in Video Generation: Diagnosing and Correcting Spectral Imbalance** | arXiv 2026 | video/image generation acceleration / training-free video control | [Link](https://arxiv.org/abs/2609.08505) | — |
@@ -640,6 +642,7 @@
 | **P1 · Watch** | **Single-agent or Multi-agent Systems? Why Not Both?** | arXiv 2025 | efficient reasoning / agent systems / hybrid SAS-MAS routing and cascading | [Link](https://arxiv.org/abs/2505.18286) | — |
 | **P1 · Watch** | **Simthesizer: An Agent-Driven Simulation Framework for LLM Serving Systems** | Fresh / preprint | LLM serving / systems simulation / agentic infrastructure | [Link](https://arxiv.org/abs/2608.24650) | — |
 | **P1 · Watch** | **SimSkill: A Lifelong Learning AI Agent for Autonomous Mastery of Traffic Simulation** | arXiv 2026 | efficient reasoning/agent systems / agent memory / reusable skills | [Link](https://arxiv.org/abs/2609.03753) | [Repo](https://github.com/qiliuchn/SimSkill-V1) |
+| **P1 · Watch** | **SiLR: Structure-Preserving Admission and Process Reward for LLM Tool Agents** | arXiv 2026 | efficient reasoning/agent systems / runtime safety | [Link](https://arxiv.org/abs/2609.04629) | — |
 | **P1 · Watch** | **Signed Rescue Routing: Harm-Aware Cascades for Efficient LLM Inference** | arXiv 2026 | LLM serving / model routing / adaptive compute | [Link](https://arxiv.org/abs/2609.07786) | — |
 | **P1 · Watch** | **SiftMoE: Similarity-Aware Energy-Efficient Expert Selection for Wireless Distributed MoE Inference** | Fresh / preprint | LLM serving / MoE systems/accelerators / video/image generation acceleration | [Link](https://arxiv.org/abs/2603.23888) | — |
 | **P1 · Watch** | **SIDE: Sensor Impersonation Detection at the Edge via Sequence Prediction** | arXiv 2026 | edge/cloud/heterogeneous AI systems / edge inference / quantization / tiny ML | [Link](https://arxiv.org/abs/2609.06271) | — |
@@ -826,6 +829,7 @@
 | **P1 · Watch** | **One Gate Is Not Enough: Composing Stateful Pre-Action Controls for Agentic AI** | Fresh / preprint | video/image generation acceleration / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.18360) | — |
 | **P1 · Watch** | **One Diffusion Model, Two Roles: Guided Trajectory Planning and Safety-Critical Scenario Generation in Closed-Loop Simulation** | arXiv 2026 | VLA/WAM/Physical AI / autonomous driving / diffusion planning / closed-loop simulation | [Link](https://arxiv.org/abs/2609.04921) | — |
 | **P1 · Watch** | **On-Policy Distillation for Vision-Language Model Adaptation, an Effective Paradigm on Low-Quality Multimodal Data** | arXiv 2026 | multimodal/MLLM serving / distillation / parameter-efficient adaptation | [Link](https://arxiv.org/abs/2609.10321) | — |
+| **P1 · Watch** | **On-Device Language Models for Privacy-Preserving Stress Prediction: A Multimodal Evaluation on Mobile Health** | arXiv 2026 | edge/cloud/heterogeneous AI systems / on-device inference | [Link](https://arxiv.org/abs/2609.11961) | — |
 | **P1 · Watch** | **On the Limitations of Non-GPU AI Accelerators for Large-Model Inference: A Field Study of MoE and Multimodal Serving on Huawei Ascend** | arXiv 2026 | heterogeneous AI systems; Huawei Ascend/CANN; vLLM-Ascend; MoE/MLLM serving field study | [Link](https://arxiv.org/abs/2607.08215) | — |
 | **P1 · Watch** | **On the Instance Hardness as a Decision Criterion in TinyML Systems** | Fresh / preprint | edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.29913) | — |
 | **P1 · Watch** | **On the Capability Separation Between World-Model Policy Learning and Imitated World-Action Models** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.22197) | — |

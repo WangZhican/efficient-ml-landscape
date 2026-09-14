@@ -1,10 +1,10 @@
 # 01 · LLM Serving
 
-> **1086 canonical papers** mapped here, plus a broader **934-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **1086 canonical papers** mapped here, plus a broader **937-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 934 tracked
+## 🆕 Latest 30 Days · 937 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -13,6 +13,7 @@
 | **P0 · Strong** | **Dynin-Robotics: Omnimodal Unified Diffusion Vision-Language-Action Model** | arXiv 2026 | VLA/WAM/Physical AI serving / diffusion / action decoding | [Link](https://arxiv.org/abs/2609.13053) | — |
 | **P1 · Watch** | **Kraken: LLM-based Speech-to-Speech Translation via Low-bitrate VQ and Dual-path Source Conditioning** | arXiv 2026 | multimodal/MLLM serving / quantization | [Link](https://arxiv.org/abs/2609.13045) | — |
 | **P0 · Strong** | **SeqMoE: Toward Full-Load Performance via Predictive and Graph-Compatible MoE Offloading** | arXiv 2026 | MoE systems/accelerators / LLM serving / offloading | [Link](https://arxiv.org/abs/2609.12978) | — |
+| **P1 · Watch** | **Tuning ROS 2 for Energy-Efficient Navigation: Empirical Insights from Costmap 2D Configurations** | arXiv 2026 | VLA/WAM/Physical AI serving / robot runtime / edge efficiency | [Link](https://arxiv.org/abs/2609.12971) | — |
 | **P1 · Watch** | **Dissecting GPU Utilization for LLM Inference on Nvidia Hopper** | arXiv 2026 | LLM serving / GPU performance characterization / Hopper / vLLM | [Link](https://arxiv.org/abs/2609.12923) | — |
 | **P1 · Watch** | **Input Resolution Matters: Real-Time Object Detection Latency** | arXiv 2026 | edge/cloud/heterogeneous AI systems / inference latency / performance modeling | [Link](https://arxiv.org/abs/2609.12920) | — |
 | **P1 · Watch** | **Parameter-Efficient Retrievers for Polish and European Languages** | arXiv 2026 | LLM serving / efficient retrieval | [Link](https://arxiv.org/abs/2609.12913) | — |
@@ -340,6 +341,7 @@
 | **P1 · Watch** | **SLIM-0.5B: Learning Action-Grounded Predictive Latents for Robot Manipulation** | arXiv 2026 | Physical AI / compact robot policy / predictive latent world model / lower inference latency and GPU memory | [Link](https://arxiv.org/abs/2608.09771) | — |
 | **P1 · Watch** | **Single-agent or Multi-agent Systems? Why Not Both?** | arXiv 2025 | efficient reasoning / agent systems / hybrid SAS-MAS routing and cascading | [Link](https://arxiv.org/abs/2505.18286) | — |
 | **P1 · Watch** | **Simthesizer: An Agent-Driven Simulation Framework for LLM Serving Systems** | Fresh / preprint | LLM serving / systems simulation / agentic infrastructure | [Link](https://arxiv.org/abs/2608.24650) | — |
+| **P1 · Watch** | **SiLR: Structure-Preserving Admission and Process Reward for LLM Tool Agents** | arXiv 2026 | efficient reasoning/agent systems / runtime safety | [Link](https://arxiv.org/abs/2609.04629) | — |
 | **P1 · Watch** | **Signed Rescue Routing: Harm-Aware Cascades for Efficient LLM Inference** | arXiv 2026 | LLM serving / model routing / adaptive compute | [Link](https://arxiv.org/abs/2609.07786) | — |
 | **P1 · Watch** | **SiftMoE: Similarity-Aware Energy-Efficient Expert Selection for Wireless Distributed MoE Inference** | Fresh / preprint | LLM serving / MoE systems/accelerators / video/image generation acceleration | [Link](https://arxiv.org/abs/2603.23888) | — |
 | **P1 · Watch** | **SHSP: Structure-Aware Hierarchical Solution Prediction for Mixed-Integer Linear Programming** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.25282) | — |
@@ -486,6 +488,7 @@
 | **P1 · Watch** | **One Policy, Many Embodiments: Unified Camera-Centric Action Geometry Pre-training for Heterogeneous Embodied Manipulation** | Fresh / preprint | multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.26058) | — |
 | **P1 · Watch** | **One MLLM, One Call: Efficient Zero-Shot Vision-and-Language Navigation via Spatial-Aware Waypoints** | arXiv 2026 | VLA/WAM/Physical AI serving / VLN / sparse MLLM invocation / robot navigation | [Link](https://arxiv.org/abs/2609.06476) | — |
 | **P1 · Watch** | **On-Policy Distillation for Vision-Language Model Adaptation, an Effective Paradigm on Low-Quality Multimodal Data** | arXiv 2026 | multimodal/MLLM serving / distillation / parameter-efficient adaptation | [Link](https://arxiv.org/abs/2609.10321) | — |
+| **P1 · Watch** | **On-Device Language Models for Privacy-Preserving Stress Prediction: A Multimodal Evaluation on Mobile Health** | arXiv 2026 | edge/cloud/heterogeneous AI systems / on-device inference | [Link](https://arxiv.org/abs/2609.11961) | — |
 | **P1 · Watch** | **On the Limitations of Non-GPU AI Accelerators for Large-Model Inference: A Field Study of MoE and Multimodal Serving on Huawei Ascend** | arXiv 2026 | heterogeneous AI systems; Huawei Ascend/CANN; vLLM-Ascend; MoE/MLLM serving field study | [Link](https://arxiv.org/abs/2607.08215) | — |
 | **P1 · Watch** | **On the Capability Separation Between World-Model Policy Learning and Imitated World-Action Models** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.22197) | — |
 | **P0 · Strong** | **OmniKVQuant: KV Cache Quantization for Omni-LLMs** | arXiv 2026 | KV cache/long-context / quantization / multimodal serving | [Link](https://arxiv.org/abs/2609.11582) | — |

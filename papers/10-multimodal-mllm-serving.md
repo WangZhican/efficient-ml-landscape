@@ -1,10 +1,10 @@
 # 10 · Multimodal / MLLM Serving
 
-> **293 canonical papers** mapped here, plus a broader **245-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **293 canonical papers** mapped here, plus a broader **246-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 245 tracked
+## 🆕 Latest 30 Days · 246 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -145,6 +145,7 @@
 | **P1 · Watch** | **One Policy, Many Embodiments: Unified Camera-Centric Action Geometry Pre-training for Heterogeneous Embodied Manipulation** | Fresh / preprint | multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.26058) | — |
 | **P1 · Watch** | **One MLLM, One Call: Efficient Zero-Shot Vision-and-Language Navigation via Spatial-Aware Waypoints** | arXiv 2026 | VLA/WAM/Physical AI serving / VLN / sparse MLLM invocation / robot navigation | [Link](https://arxiv.org/abs/2609.06476) | — |
 | **P1 · Watch** | **On-Policy Distillation for Vision-Language Model Adaptation, an Effective Paradigm on Low-Quality Multimodal Data** | arXiv 2026 | multimodal/MLLM serving / distillation / parameter-efficient adaptation | [Link](https://arxiv.org/abs/2609.10321) | — |
+| **P1 · Watch** | **On-Device Language Models for Privacy-Preserving Stress Prediction: A Multimodal Evaluation on Mobile Health** | arXiv 2026 | edge/cloud/heterogeneous AI systems / on-device inference | [Link](https://arxiv.org/abs/2609.11961) | — |
 | **P1 · Watch** | **On the Limitations of Non-GPU AI Accelerators for Large-Model Inference: A Field Study of MoE and Multimodal Serving on Huawei Ascend** | arXiv 2026 | heterogeneous AI systems; Huawei Ascend/CANN; vLLM-Ascend; MoE/MLLM serving field study | [Link](https://arxiv.org/abs/2607.08215) | — |
 | **P1 · Watch** | **OmniNav: Robust Long-Horizon Target Navigation in Dynamic Environments** | arXiv 2026 | VLA/WAM/Physical AI / long-horizon navigation / persistent scene memory / closed-loop recovery | [Link](https://arxiv.org/abs/2609.08159) | [Repo](https://omni-nav.github.io/) |
 | **P0 · Strong** | **OmniKVQuant: KV Cache Quantization for Omni-LLMs** | arXiv 2026 | KV cache/long-context / quantization / multimodal serving | [Link](https://arxiv.org/abs/2609.11582) | — |

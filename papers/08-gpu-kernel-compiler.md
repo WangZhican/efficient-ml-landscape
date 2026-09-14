@@ -1,10 +1,10 @@
 # 08 · GPU Kernel / DSL / Compiler
 
-> **531 canonical papers** mapped here, plus a broader **240-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **531 canonical papers** mapped here, plus a broader **241-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 240 tracked
+## 🆕 Latest 30 Days · 241 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -67,6 +67,7 @@
 | **P1 · Watch** | **The Integer Alibi: Localizing Cross-Kernel Divergence in INT8-Quantized LLM Inference** | Fresh / preprint | LLM serving / quantization / GPU kernel/DSL/compilers | [Link](https://arxiv.org/abs/2608.13756) | — |
 | **P1 · Watch** | **The 1/W Law: An Analytical Study of Context-Length Routing Topology and GPU Generation Gains for LLM Inference Energy Efficiency** | arXiv 2026 | LLM serving / context-length routing / inference energy efficiency / heterogeneous GPU fleet | [Link](https://arxiv.org/abs/2603.17280) | — |
 | **P1 · Watch** | **TFP: Temporally Conditioned Memory-Fusion Policies for Visuomotor Learning** | Fresh / preprint | LLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2607.08283) | — |
+| **P1 · Watch** | **Tensor-Accelerated Eager Multi-Resolution Grids for Evolving Large-Scale Substrates** | arXiv 2026 | GPU kernel/DSL/compilers / tensorization | [Link](https://arxiv.org/abs/2608.27612) | — |
 | **P0 · Strong** | **TEMPO: Makespan-Aware Expert-Parallel Load Balancing Across Memory- and Compute-Bound Regimes** | Fresh / preprint | MoE expert-parallel load balancing / serving | [Link](https://arxiv.org/abs/2608.13057) | — |
 | **P1 · Watch** | **Taming Bitwise Behavior in GPU Kernels with Tensor Core: Black-Box Reconstruction, Compiler Enforcement, and Static Verification** | arXiv 2026 | GPU kernel/DSL/compilers / tensor core / deterministic kernels | [Link](https://arxiv.org/abs/2609.11356) | — |
 | **P1 · Watch** | **T-LLM Compiler: Trusted LLM-based Code Optimization and Verification Framework** | Fresh / preprint | GPU kernel/DSL/compilers / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.14953) | — |
