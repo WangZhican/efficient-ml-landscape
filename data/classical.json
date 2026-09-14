@@ -4009,6 +4009,28 @@
     ]
   },
   {
+    "title": "Dynamic Expert Quantization for Scalable Mixture-of-Experts Inference",
+    "venue": "arXiv 2026",
+    "topic": "MoE systems/accelerators / quantization / LLM serving / runtime",
+    "arxiv": "2511.15015",
+    "doi": "",
+    "official_id": "arXiv:2511.15015",
+    "paper_url": "https://arxiv.org/abs/2511.15015",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "DynaExq is a runtime system that dynamically manages expert precision based on activation hotness, overlaps precision changes asynchronously with MoE computation, and uses fragmentation-free hybrid-precision memory pools. It targets memory-constrained MoE serving on consumer GPUs and reports up to 4.03 accuracy-point gains over static low-precision baselines.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "MoE Systems / Accelerators"
+    ]
+  },
+  {
     "title": "DynaNDE: Dynamic Near-Data Expert Scheduling for Batched MoE Inference",
     "venue": "arXiv 2026",
     "topic": "MoE systems / accelerators / heterogeneous inference",
