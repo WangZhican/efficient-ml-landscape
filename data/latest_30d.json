@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-14",
   "window_start_beijing": "2026-08-15",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 1258,
+  "tracked_total": 1266,
   "p0_strong_or_canonical": [
     {
       "title": "SAS: Simple Attention Sparsification via End-to-End Optimization of Context Ranking",
@@ -1351,6 +1351,49 @@
       ]
     },
     {
+      "title": "Kraken: LLM-based Speech-to-Speech Translation via Low-bitrate VQ and Dual-path Source Conditioning",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / quantization",
+      "arxiv": "2609.13045",
+      "doi": "",
+      "official_id": "arXiv:2609.13045",
+      "paper_url": "https://arxiv.org/abs/2609.13045",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Uses low-bitrate single-layer vector quantization for speech tokens to reduce token-rate burden in speech LLMs, with a separately conditioned waveform decoder; retained for multimodal efficiency lineage.",
+      "published_at": "2026-09-11T16:41:22Z",
+      "updated_at": "2026-09-11T16:41:22Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "A Dynamic Vertical Scaling Strategy for Distributed Stream Processing Applications in Edge Computing",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems",
+      "arxiv": "2609.12975",
+      "doi": "",
+      "official_id": "arXiv:2609.12975",
+      "paper_url": "https://arxiv.org/abs/2609.12975",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "PPO-based runtime vertical scaling for distributed edge stream processing under p95 latency SLOs; retained as an edge runtime/resource-management watch.",
+      "published_at": "2026-09-11T15:38:35Z",
+      "updated_at": "2026-09-11T15:38:35Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Distributed Training / Inference",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Dissecting GPU Utilization for LLM Inference on Nvidia Hopper",
       "venue": "arXiv 2026",
       "topic": "LLM serving / GPU performance characterization / Hopper / vLLM",
@@ -1496,6 +1539,26 @@
       "directions": [
         "LLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Clustering-Based Balanced Sampling and Allocation with Data Parallelism for High-Performance Fine-Tuning",
+      "venue": "arXiv 2026",
+      "topic": "distributed training/inference",
+      "arxiv": "2609.12584",
+      "doi": "",
+      "official_id": "arXiv:2609.12584",
+      "paper_url": "https://arxiv.org/abs/2609.12584",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Gradient-space clustering plus DP-aware balanced allocation reduces redundant instruction-tuning work while preserving cluster/worker coverage; retained as a high-value efficient-training systems watch.",
+      "published_at": "2026-09-11T08:36:57Z",
+      "updated_at": "2026-09-11T08:36:57Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Distributed Training / Inference"
       ]
     },
     {
@@ -1676,6 +1739,48 @@
       ]
     },
     {
+      "title": "DWMP: Leveraging Dual World Models for Humanoid Obstacle Traversal",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving",
+      "arxiv": "2609.12347",
+      "doi": "",
+      "official_id": "arXiv:2609.12347",
+      "paper_url": "https://arxiv.org/abs/2609.12347",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Separates proprioceptive dynamics and visual world-model representations for humanoid traversal; protected Physical-AI lineage, though the contribution is mainly control/world modeling rather than inference runtime.",
+      "published_at": "2026-09-11T02:13:19Z",
+      "updated_at": "2026-09-11T02:13:19Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "VS-Splat: Voxel-Selective feed-forward Gaussian Splatting for end-to-end 3D object reconstruction from sparse-views",
+      "venue": "arXiv 2026",
+      "topic": "video/image generation acceleration",
+      "arxiv": "2609.12343",
+      "doi": "",
+      "official_id": "arXiv:2609.12343",
+      "paper_url": "https://arxiv.org/abs/2609.12343",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Selects likely object voxels before predicting Gaussian primitives, avoiding uniform primitive prediction in empty 3D regions; retained as an efficiency-relevant 3DGS watch.",
+      "published_at": "2026-09-11T02:08:55Z",
+      "updated_at": "2026-09-11T02:08:55Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Sparsity / Pruning",
+        "Video / Image Generation"
+      ]
+    },
+    {
       "title": "Affective Agent: On-Device Personalized Intervention Reasoning for Wearable Systems",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI systems / efficient reasoning agents",
@@ -1765,6 +1870,49 @@
       ]
     },
     {
+      "title": "Retrieval-Augmented Generation for Scientific Code Understanding",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / edge deployment",
+      "arxiv": "2609.12190",
+      "doi": "",
+      "official_id": "arXiv:2609.12190",
+      "paper_url": "https://arxiv.org/abs/2609.12190",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Separates expensive offline code ingestion from lightweight local online answering around small open models, directly relevant to local-agent compute shifting and privacy-aware deployment.",
+      "published_at": "2026-09-10T20:28:38Z",
+      "updated_at": "2026-09-10T20:28:38Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "USPLIT-VQA: U-Shaped Split Learning for Visual Question Answering with Contribution-Aware Weighted Aggregation",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / multimodal serving",
+      "arxiv": "2609.12168",
+      "doi": "",
+      "official_id": "arXiv:2609.12168",
+      "paper_url": "https://arxiv.org/abs/2609.12168",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "U-shaped split learning keeps client inputs/labels local while placing heavy intermediate VQA layers on the server; directly relevant to edge-cloud multimodal deployment.",
+      "published_at": "2026-09-10T19:56:27Z",
+      "updated_at": "2026-09-10T19:56:27Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "MoPA: Coordinated Mobile Manipulation via Subsystem-Specific Perception Alignment",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / multimodal policy",
@@ -1785,6 +1933,28 @@
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "SenseNova-U1.5: Towards Native Unified Visual Intelligence",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / image generation",
+      "arxiv": "2609.11929",
+      "doi": "",
+      "official_id": "arXiv:2609.11929",
+      "paper_url": "https://arxiv.org/abs/2609.11929",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "8B-MoT unified visual model with encoder-free and VAE-free design plus multi-expert consolidation; architecture is relevant to unified multimodal serving, but acceleration evidence is not the primary contribution.",
+      "published_at": "2026-09-10T17:59:55Z",
+      "updated_at": "2026-09-10T17:59:55Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Video / Image Generation"
       ]
     },
     {
@@ -28538,6 +28708,49 @@
       ]
     },
     {
+      "title": "Kraken: LLM-based Speech-to-Speech Translation via Low-bitrate VQ and Dual-path Source Conditioning",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / quantization",
+      "arxiv": "2609.13045",
+      "doi": "",
+      "official_id": "arXiv:2609.13045",
+      "paper_url": "https://arxiv.org/abs/2609.13045",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Uses low-bitrate single-layer vector quantization for speech tokens to reduce token-rate burden in speech LLMs, with a separately conditioned waveform decoder; retained for multimodal efficiency lineage.",
+      "published_at": "2026-09-11T16:41:22Z",
+      "updated_at": "2026-09-11T16:41:22Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "A Dynamic Vertical Scaling Strategy for Distributed Stream Processing Applications in Edge Computing",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems",
+      "arxiv": "2609.12975",
+      "doi": "",
+      "official_id": "arXiv:2609.12975",
+      "paper_url": "https://arxiv.org/abs/2609.12975",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "PPO-based runtime vertical scaling for distributed edge stream processing under p95 latency SLOs; retained as an edge runtime/resource-management watch.",
+      "published_at": "2026-09-11T15:38:35Z",
+      "updated_at": "2026-09-11T15:38:35Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Distributed Training / Inference",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Dissecting GPU Utilization for LLM Inference on Nvidia Hopper",
       "venue": "arXiv 2026",
       "topic": "LLM serving / GPU performance characterization / Hopper / vLLM",
@@ -28683,6 +28896,26 @@
       "directions": [
         "LLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Clustering-Based Balanced Sampling and Allocation with Data Parallelism for High-Performance Fine-Tuning",
+      "venue": "arXiv 2026",
+      "topic": "distributed training/inference",
+      "arxiv": "2609.12584",
+      "doi": "",
+      "official_id": "arXiv:2609.12584",
+      "paper_url": "https://arxiv.org/abs/2609.12584",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Gradient-space clustering plus DP-aware balanced allocation reduces redundant instruction-tuning work while preserving cluster/worker coverage; retained as a high-value efficient-training systems watch.",
+      "published_at": "2026-09-11T08:36:57Z",
+      "updated_at": "2026-09-11T08:36:57Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Distributed Training / Inference"
       ]
     },
     {
@@ -28863,6 +29096,48 @@
       ]
     },
     {
+      "title": "DWMP: Leveraging Dual World Models for Humanoid Obstacle Traversal",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving",
+      "arxiv": "2609.12347",
+      "doi": "",
+      "official_id": "arXiv:2609.12347",
+      "paper_url": "https://arxiv.org/abs/2609.12347",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Separates proprioceptive dynamics and visual world-model representations for humanoid traversal; protected Physical-AI lineage, though the contribution is mainly control/world modeling rather than inference runtime.",
+      "published_at": "2026-09-11T02:13:19Z",
+      "updated_at": "2026-09-11T02:13:19Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "VS-Splat: Voxel-Selective feed-forward Gaussian Splatting for end-to-end 3D object reconstruction from sparse-views",
+      "venue": "arXiv 2026",
+      "topic": "video/image generation acceleration",
+      "arxiv": "2609.12343",
+      "doi": "",
+      "official_id": "arXiv:2609.12343",
+      "paper_url": "https://arxiv.org/abs/2609.12343",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Selects likely object voxels before predicting Gaussian primitives, avoiding uniform primitive prediction in empty 3D regions; retained as an efficiency-relevant 3DGS watch.",
+      "published_at": "2026-09-11T02:08:55Z",
+      "updated_at": "2026-09-11T02:08:55Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Sparsity / Pruning",
+        "Video / Image Generation"
+      ]
+    },
+    {
       "title": "Affective Agent: On-Device Personalized Intervention Reasoning for Wearable Systems",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI systems / efficient reasoning agents",
@@ -28952,6 +29227,49 @@
       ]
     },
     {
+      "title": "Retrieval-Augmented Generation for Scientific Code Understanding",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / edge deployment",
+      "arxiv": "2609.12190",
+      "doi": "",
+      "official_id": "arXiv:2609.12190",
+      "paper_url": "https://arxiv.org/abs/2609.12190",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Separates expensive offline code ingestion from lightweight local online answering around small open models, directly relevant to local-agent compute shifting and privacy-aware deployment.",
+      "published_at": "2026-09-10T20:28:38Z",
+      "updated_at": "2026-09-10T20:28:38Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "USPLIT-VQA: U-Shaped Split Learning for Visual Question Answering with Contribution-Aware Weighted Aggregation",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / multimodal serving",
+      "arxiv": "2609.12168",
+      "doi": "",
+      "official_id": "arXiv:2609.12168",
+      "paper_url": "https://arxiv.org/abs/2609.12168",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "U-shaped split learning keeps client inputs/labels local while placing heavy intermediate VQA layers on the server; directly relevant to edge-cloud multimodal deployment.",
+      "published_at": "2026-09-10T19:56:27Z",
+      "updated_at": "2026-09-10T19:56:27Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "MoPA: Coordinated Mobile Manipulation via Subsystem-Specific Perception Alignment",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / multimodal policy",
@@ -28972,6 +29290,28 @@
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "SenseNova-U1.5: Towards Native Unified Visual Intelligence",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / image generation",
+      "arxiv": "2609.11929",
+      "doi": "",
+      "official_id": "arXiv:2609.11929",
+      "paper_url": "https://arxiv.org/abs/2609.11929",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "8B-MoT unified visual model with encoder-free and VAE-free design plus multi-expert consolidation; architecture is relevant to unified multimodal serving, but acceleration evidence is not the primary contribution.",
+      "published_at": "2026-09-10T17:59:55Z",
+      "updated_at": "2026-09-10T17:59:55Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Video / Image Generation"
       ]
     },
     {

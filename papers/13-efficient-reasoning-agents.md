@@ -1,10 +1,10 @@
 # 13 · Efficient Reasoning / Agents
 
-> **473 canonical papers** mapped here, plus a broader **404-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **473 canonical papers** mapped here, plus a broader **405-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 404 tracked
+## 🆕 Latest 30 Days · 405 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -21,6 +21,7 @@
 | **P1 · Watch** | **CueMem: Cue-Guided Context Reconstruction for Long-Term Conversational Memory** | arXiv 2026 | KV cache/long-context / efficient reasoning agents | [Link](https://arxiv.org/abs/2609.12354) | — |
 | **P1 · Watch** | **Affective Agent: On-Device Personalized Intervention Reasoning for Wearable Systems** | arXiv 2026 | edge/cloud/heterogeneous AI systems / efficient reasoning agents | [Link](https://arxiv.org/abs/2609.12322) | — |
 | **P1 · Watch** | **AnchorVLN: Geometry-Anchored Vision-Language Grounding Reasoning for Open-Vocabulary Navigation** | arXiv 2026 | VLA/WAM/Physical AI serving / embodied navigation | [Link](https://arxiv.org/abs/2609.12285) | — |
+| **P1 · Watch** | **Retrieval-Augmented Generation for Scientific Code Understanding** | arXiv 2026 | efficient reasoning/agent systems / edge deployment | [Link](https://arxiv.org/abs/2609.12190) | — |
 | **P2 · Relevant** | **AdaThinking-E: One-Token Entropy Regulation for Adaptive Thinking** | Fresh / preprint | efficient reasoning / adaptive test-time compute | [Link](https://arxiv.org/abs/2608.26141) | — |
 | **P1 · Watch** | **VoiceMem: Streaming Dual-Brain Memory for Real-Time Interaction** | Fresh / preprint | agent systems / streaming memory / real-time multimodal | [Link](https://arxiv.org/abs/2608.26005) | — |
 | **P1 · Watch** | **Prefix Sliding for efficient test-time scaling** | Fresh / preprint | efficient reasoning / KV cache / long-context | [Link](https://arxiv.org/abs/2608.26070) | — |

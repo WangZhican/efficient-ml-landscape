@@ -1,13 +1,14 @@
 # 04 · Quantization
 
-> **295 canonical papers** mapped here, plus a broader **173-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **295 canonical papers** mapped here, plus a broader **174-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 173 tracked
+## 🆕 Latest 30 Days · 174 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
+| **P1 · Watch** | **Kraken: LLM-based Speech-to-Speech Translation via Low-bitrate VQ and Dual-path Source Conditioning** | arXiv 2026 | multimodal/MLLM serving / quantization | [Link](https://arxiv.org/abs/2609.13045) | — |
 | **P0 · Strong** | **Attention Quantization for Tabular Foundation Models** | arXiv 2026 | quantization / efficient attention / GPU kernels | [Link](https://arxiv.org/abs/2609.13031) | — |
 | **P1 · Watch** | **Quality-Constrained Routing over a Fixed Pool of Quantized Mixture-of-Experts Instances** | arXiv 2026 | MoE systems/accelerators / quantization / LLM serving / routing | [Link](https://arxiv.org/abs/2609.12550) | — |
 | **P0 · Strong** | **HoliBench: A Cross-Platform Benchmarking and Deployment Toolkit for Foundation Models in CPS-IoT Applications** | arXiv 2026 | edge/cloud/heterogeneous AI systems / benchmarking / deployment | [Link](https://arxiv.org/abs/2609.12412) | — |
