@@ -127,6 +127,12 @@ def load_recent_arxiv_index(source):
 def is_latest_30d(raw_record, recent_arxiv, source_date):
     if raw_record.get("formal_class") == "STRONG_CURRENT":
         return True
+    # Current-day 24h/7d recovery records may come from the official arXiv HTML
+    # fallback while the Atom index is degraded. Their window is authoritative
+    # for freshness even when ARXIV_7D_SCAN.json cannot provide published metadata.
+    window = str(raw_record.get("window") or "")
+    if window.startswith("24h") or window.startswith("7d"):
+        return True
     arxiv = (raw_record.get("arxiv") or "").strip()
     meta = recent_arxiv.get(arxiv, {})
     published = parse_iso(meta.get("published"))

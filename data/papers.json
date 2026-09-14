@@ -2409,8 +2409,8 @@
     "why": "7d systematic replay recovered a concrete heterogeneous accelerator backend that replaces a CUDA-only execution path with HIP-compatible support while preserving the Python workflow. It reports 1.32-1.54x speedup over the original FBPIC implementation on V100, enables DCU execution, and reaches 1.88x strong-scaling speedup on four accelerators plus 2.72x aggregate throughput at about 68% weak-scaling efficiency.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "GPU Kernel / DSL / Compiler",
@@ -2432,8 +2432,8 @@
     "why": "This Zynq UltraScale+ implementation uses three parallel single-precision systolic Givens-QRD kernels for latency-critical MVDR weight computation. Primary measurements report 31,123 weight vectors/s at 90.9% parallel efficiency and 12,698 vectors/s/W on programmable logic, giving 2.3x the power-normalized throughput of a matched 24-core Xeon comparison while retaining numerically validated float32 accuracy. The direct hardware throughput/energy measurements justify canonical-high retention.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "GPU Kernel / DSL / Compiler",
@@ -2454,8 +2454,8 @@
     "why": "Hardware-software co-design for renewable-aware multi-region load shifting of low-latency workloads. Implemented with OpenStack and CPU idle states on a real testbed using Azure VM arrival traces; results report 80% less offloading of low-latency VMs and 43.81% lower coefficient of variation of p90 end-user latency, with 11.97% worst-case latency compromise from SMT. This is direct measured systems evidence.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context",
@@ -2476,8 +2476,8 @@
     "why": "A time-encoded analog photonic interposer transports analog vision signals between chiplets without a conventional high-precision ADC/DAC pipeline. The primary abstract reports a 2.04x energy-delay-product improvement over an 8-bit digital electrical baseline on Visual Wake Words while keeping accuracy close to the digital baseline.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Edge / Cloud / Heterogeneous AI"
     ]
@@ -2496,8 +2496,8 @@
     "why": "Introduces cross-model KV sharing across different model scales, architectures, attention configurations, tokenizers and families. Reports up to 67.05% target-side prefill reduction at 4K context and a Llama3.1-70B to Qwen2.5-7B handoff reducing measured latency from 899 ms to 138 ms with near-native accuracy.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context",
@@ -2519,8 +2519,8 @@
     "why": "Implements Qwen3-27B with llama.cpp/SGLang and combines byte-level KV-prefix warming, streaming partial-JSON parsing with early parallel execution, and progressive skill-prompt disclosure. Prefix reuse reduces recomputation from about 500 ms to tens of milliseconds and streaming execution cuts end-to-end latency by about 30%. Domain deployment is surgical, but the runtime techniques are directly reusable LLM-serving mechanisms.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context",
@@ -2541,8 +2541,8 @@
     "why": "Interleaves explicit text with pooled continuous latent tokens using geometric trajectory alignment. Across Qwen3.5-9B and Qwen3.6-27B it improves average accuracy by up to 2.6% while cutting response length by up to half, raising Accuracy per Computation Unit by 2.29x, and reducing preprocessing/training time by 94.6%/up to 80.3%.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Efficient Reasoning / Agents"
     ]
@@ -2584,8 +2584,8 @@
     "why": "ECCV 2026 plug-and-play GP-Refiner corrects prediction-based feature caches with Gaussian-process uncertainty and adaptively triggers full-compute calibration. Combined with TaylorSeer it reduces computational load by 19.3% while improving PSNR by 0.9 dB and reducing LPIPS from 0.46 to 0.29, giving a direct quality-efficiency improvement.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Diffusion / Flow Acceleration"
     ]
@@ -2604,8 +2604,8 @@
     "why": "AccelForge unifies device, circuit, architecture, workload, and mapping models, with composable models and fast mappers that evaluate designs orders of magnitude faster in computer and human time than prior workflows.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Edge / Cloud / Heterogeneous AI"
     ]
@@ -2624,8 +2624,8 @@
     "why": "Protected Physical-AI hardware-system co-design spanning MPC solver algorithm, numerical representation, FPGA mapping and physical integration on a 35g Crazyflie. Hardware experiments demonstrate 1 kHz onboard constrained MPC with dynamic obstacles, up to 15.6x faster solve times and 195.4x better energy-delay product than state-of-the-art embedded microcontroller solvers, scaling beyond 20,000 variables and constraints; PCB, firmware and FPGA code are open source.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "VLA / WAM / Physical AI",
@@ -2646,8 +2646,8 @@
     "why": "ACE consolidates redundant expert-specific LoRA adapters into group-shared higher-rank adapters and executes them as fewer larger GEMMs. Across four MoE backbones it provides 1.31-1.48x wall-clock training speedup over expert-wise LoRA without increasing peak memory.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "MoE Systems / Accelerators",
       "GPU Kernel / DSL / Compiler",
@@ -2692,8 +2692,8 @@
     "why": "ActionSplice transports the interrupted backbone-native state to the revised-action state without rolling back completed solver evaluations. Across minWM-Wan Action2V and HY-WM1.5, temporal splicing provides 2.73x and 1.69x pixel-ready speedups over waiting while substantially reducing rollback-relative perceptual error.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "VLA / WAM / Physical AI"
@@ -2713,8 +2713,8 @@
     "why": "This work deploys dynamic multi-exit CNN inference on the ultra-low-power GAP9 SoC, reducing average compute by 41%, latency by 29% and energy by 24% at about 1% accuracy loss, while more than doubling computational efficiency versus a compared adaptive CNN. It is a direct edge-system efficiency result with real hardware measurements.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Edge / Cloud / Heterogeneous AI"
     ]
@@ -2779,8 +2779,8 @@
     "why": "Autonomous LLM agents repeatedly profile, modify and benchmark an already heavily hand-tuned shared-memory exact minimum-cut implementation. The resulting changes yield 1.28x sequential and 1.63x 32-thread speedups on real-world k-cores, and 6.26x/127x on DIMACS core instances, providing direct measured evidence that agentic systems can improve low-level algorithm/runtime efficiency rather than only generate code.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Efficient Reasoning / Agents"
     ]
@@ -2799,8 +2799,8 @@
     "why": "Extends in-place P/D multiplexing to distributed MoE rollout inference with coordinated collective ordering and independent DeepEP communication state. Reports 7.1-22.5% lower fixed-workload completion time than the same AInfer engine without multiplexing and 24.8-32.9% versus SGLang on single-node workloads; two-node reductions are 18.0-35.3% and 18.3-31.8%.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "MoE Systems / Accelerators",
@@ -2822,8 +2822,8 @@
     "why": "AF1 targets a strict 1.0-BPW post-training quantization budget rather than nominal binary weights with hidden overhead. On LLaMA/Qwen/Gemma it reports better quality than prior binarization PTQ, average 2.5x inference speedup versus BF16 and over 90% memory reduction, with reproducible code.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Quantization",
       "GPU Kernel / DSL / Compiler"
@@ -2843,8 +2843,8 @@
     "why": "Microsoft/Cornell free-pause-token method improves next-token prediction by 2-3 centinats on a 1B model while adding no context length, no KV cache, and essentially no inference latency; training overhead is reduced to about 1.14x. This is directly relevant to inference-efficient extra-compute/reasoning design.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "KV Cache / Long Context",
       "Efficient Reasoning / Agents"
@@ -2864,8 +2864,8 @@
     "why": "A sub-2B VLM distills the perception component of a larger tool-using long-video agent into one greedy forward pass. It retains 89% of the large agent pipeline accuracy while using only 1.1% of its parameters, providing unusually strong model-size and deployment-efficiency evidence for long-video reasoning.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Multimodal / MLLM Serving",
@@ -2886,8 +2886,8 @@
     "why": "Predicts block-sparse attention decisions from audited prior-step margins so the GPU fetches only predicted survivors while near-bank PIM concurrently checks omitted blocks, avoiding a serial selector on the token critical path. Across LongBench/RULER simulation at batch 8 it preserves near-baseline quality and reports 1.40-3.63x end-to-end decode speedup with 28-66% lower dynamic decode energy over 8K-64K contexts.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context",
@@ -2911,8 +2911,8 @@
     "why": "edgeFBP is an end-to-end out-of-core CT reconstruction runtime for Nvidia Jetson SoCs using mixed precision and Tensor Cores for the bottleneck back-projection kernel. It reports 1.83x speedup over RTK on Jetson Nano, 2.56x on Jetson AGX, and up to 5-48x higher energy efficiency than DGX A100 under a 25W budget, giving direct measured edge-system evidence.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "GPU Kernel / DSL / Compiler",
       "Edge / Cloud / Heterogeneous AI"
@@ -2932,8 +2932,8 @@
     "why": "A wave-quantized analytical model selects communication CTA count and SM-resource partition before launch for dependency-coupled MoE overlap. Integrated into COMET/FLUX on four A100 GPUs, it reports 2.528x geometric-mean speedup at GEMM2+GatherRS, 1.771x at the post-router MoE layer, and 1.185x complete-model prefill versus COMET, with 0.157 us mean solver overhead.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Quantization",
@@ -3041,8 +3041,8 @@
     "why": "ASTRA is a low-overhead runtime for online resolution/frame-rate adaptation in live edge video analytics, deployed on the NSF COSMOS testbed and evaluated with up to eight cameras under real network conditions. It maintains over 90% probability of meeting accuracy/latency requirements, stays within 10% of offline-optimal performance, and adds about 2% average GPU-utilization overhead per camera.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "GPU Kernel / DSL / Compiler",
@@ -3087,8 +3087,8 @@
     "why": "Asynchronous streaming RL system for LLM post-training with unified distributed data management, automated pipeline overlap and dynamic load balancing; reports 1.59x average throughput over prior baselines.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Distributed Training / Inference",
@@ -3109,8 +3109,8 @@
     "why": "Direct algorithm-hardware/runtime co-design for memory-constrained on-device 3DGS. Hierarchical offloading, temporal-aware LoD search and stereo rasterization yield 18.5x speedup over GPU baseline, 3.9x over prior 3DGS accelerators and 92.4% energy savings.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "KV Cache / Long Context",
       "GPU Kernel / DSL / Compiler",
@@ -3176,8 +3176,8 @@
     "why": "ISSTA 2026 dynamic trajectory compression uses structure-aware segmentation, proxy-attention relevance, and a rolling recall window. On SWE-Bench-Verified and Multi-SWE-Bench it reaches 53.17% pass rate while cutting token consumption by 21.6% and total cost by 33.6%, a measured agent-serving efficiency gain without sacrificing task quality.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Efficient Attention",
@@ -3198,8 +3198,8 @@
     "why": "Distills a rectified-flow speech generation/editing foundation model with consistency initialization and task-routed Decoupled DMD. AuK-Flash performs 4-step inference without classifier-free guidance and reports 4.5x wall-clock speedup over the full model under matched conditions, while retaining leading/competitive generation and editing quality.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Multimodal / MLLM Serving"
     ]
@@ -3218,8 +3218,8 @@
     "why": "Framework-aware transparent UVM prefetching exposes tensor-level access information and dynamically adapts to memory pressure. Across ten LLMs it reports 3.1x average speedup over baseline UVM, 1.9x over the best prior UVM prefetcher, and up to 4.7x over object-level prefetchers while reducing page faults.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Edge / Cloud / Heterogeneous AI"
@@ -3286,8 +3286,8 @@
     "why": "Direct distributed-training systems technique: batch-aware GPU grouping reduces all-to-all group size for sequence parallelism. A100-cluster experiments report 1.17-1.31x end-to-end training-time improvement for Llama/Qwen while preserving accuracy and memory usage.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "KV Cache / Long Context",
       "GPU Kernel / DSL / Compiler",
@@ -3308,8 +3308,8 @@
     "why": "Extends a baseline systolic AI accelerator with small flexible datapath and operator-support changes. The added logic grows chiplet area by only 1.1x while delivering over an order of magnitude higher throughput than CPU/GPU baselines on the multi-stage workload; retained for reusable accelerator-polymorphism lineage beyond the specific pathology application.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "GPU Kernel / DSL / Compiler",
@@ -3330,8 +3330,8 @@
     "why": "7d replay recovered a systems method that uses BF16 AMX component products to emulate higher-precision FP32/FP64 GEMM. The implementation uses packed BF16 components, VNNI-packed panels and tile-resident operand reuse; tested configurations can exceed oneMKL SGEMM and, at sufficiently large orders and low product counts, oneMKL DGEMM. This is directly relevant to low-precision matrix-engine utilization for higher-precision workloads.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "GPU Kernel / DSL / Compiler"
     ]
@@ -3371,8 +3371,8 @@
     "why": "Scheduler-aware asynchronous NVMe KV preloading overlaps disk reads with waiting/compute. At 80k tokens disk loading is 2.0x faster than LMCache; with GPU/CPU/disk tiers enabled it is 1.23x faster and within about 4% of native vLLM KV Offload.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context",
@@ -3393,8 +3393,8 @@
     "why": "Cross-model KV transfer with matched-head affine mapping, attention-aware calibration and fused GPU sufficient-statistics kernel; reports 8x lower mapper storage, up to 3.0x application speedup and 10.7x faster mapper construction while retaining target quality.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context",
@@ -3462,8 +3462,8 @@
     "why": "Post-hoc calibrated confidence creates a common reliability scale across heterogeneous models. Across six language benchmarks it avoids about 47% of strong-model calls while improving average accuracy, and reduces measured GFLOPs by up to 57% on image classification.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Edge / Cloud / Heterogeneous AI"
     ]
@@ -3482,8 +3482,8 @@
     "why": "CEDAR combines chunk summaries with error-aware exact refinement instead of hard-dropping omitted chunks, preserving global coverage with a variable refinement budget. The primary abstract reports over 98% reconstruction-error reduction versus hard dropping at equal exact-chunk budgets and approximately 3x kernel speedup at 128K context.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "KV Cache / Long Context",
       "Sparsity / Pruning",
@@ -3505,8 +3505,8 @@
     "why": "A systematic characterization of LLM-training power elasticity over 131 H200 runs plus validation and H100 matches. PFI-aware allocation under a 30% power reduction recovers about 1.5k tokens/s per job, 63% of the gap between equal allocation and an oracle.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Distributed Training / Inference"
@@ -3526,8 +3526,8 @@
     "why": "Direct system-aware MoE communication method. Caches stable exponents across iterations, transmits sign+mantissa when safe, overlaps compression with Allgather/computation, preserves bitwise-exact reconstruction, and reports 3.70x speedup at 16 GPUs with 4.28x projected at 128 GPUs.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "MoE Systems / Accelerators",
       "Distributed Training / Inference"
@@ -3547,8 +3547,8 @@
     "why": "Replaces global ViT/query-matching fusion with hierarchical shifted-window attention and a lightweight FPN-style decoder. Against a Swin-based Mask2Former adaptation it uses 1.4x fewer GFLOPs and delivers 2.2x higher throughput with comparable overall accuracy while improving vulnerable-road-user recall, giving direct on-vehicle perception efficiency evidence.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Efficient Attention",
@@ -3572,8 +3572,8 @@
     "why": "7d systematic replay recovered an integrated reconfigurable-accelerator framework with co-designed memory-aware compiler and design-space exploration. Post-DSE CMD CGRAs report 1.39x average speedup over a conventional CGRA while reducing total area to 0.912x on average, providing measured architecture/compiler efficiency evidence.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference"
@@ -3593,8 +3593,8 @@
     "why": "Codebook Agent amortizes per-query multi-agent communication-topology search into a compact learned codebook and batched MLP reranker. Across six benchmarks it emits a topology in 2.4 ms, improves average accuracy over prior designers, and uses 21.9-33.2% fewer LLM tokens, providing direct systems evidence for cheaper agent orchestration.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Distributed Training / Inference",
       "Efficient Reasoning / Agents"
@@ -3614,8 +3614,8 @@
     "why": "Moves coarse evidence filtering before the expensive vision encoder, then performs query-specific refinement at LLM prefill. Reports up to 80% evidence-frame filtering and up to 2.54x lower end-to-end inference latency while improving benchmark accuracy. Canonical multimodal serving contribution.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Sparsity / Pruning",
@@ -3657,8 +3657,8 @@
     "why": "A Kubernetes DRA driver exposes composable CXL as cross-node shared KV-cache memory for vLLM/llm-d. Cross-node prefix reuse reduces TTFT by 5.5x-36.6x at 95.4-99.5% external hit rates, with only 1-4% sharing gap versus same-node reuse.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context",
@@ -3679,8 +3679,8 @@
     "why": "CONDUIT is a training-free query-conditioned visual-token refresh policy for stale VLM KV reuse. At a 10% refresh budget it preserves 97.0-99.5% of full-prefill five-dataset average across three VLM backbones; on MMLongBench-Doc it uses 13.5% of full-prefill FLOPs and reports 2.99x TTFT speedup.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context",
@@ -3701,8 +3701,8 @@
     "why": "Tencent proactive context-management framework for long-horizon agents; planning, long-term memory and soft context offloading reduce working-context growth while improving long-context QA/deep-search performance. Official Tencent code/models are released.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "KV Cache / Long Context",
       "Efficient Reasoning / Agents"
@@ -3722,8 +3722,8 @@
     "why": "Uses confidence- and disagreement-aware hierarchical routing so cheap static analysis handles easy cases while dynamic, memory, and local-LLM verification are invoked selectively. It reports 43.97% lower average analysis cost than exhaustive analysis while retaining 96.57% binary accuracy and substantially reducing average latency except when the LLM fallback is used, providing measured agent-system efficiency evidence.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Multimodal / MLLM Serving",
       "Efficient Reasoning / Agents"
@@ -3743,8 +3743,8 @@
     "why": "Direct GPU-kernel systems contribution accepted by HPEC 2026. Cost-guided DSMEM profitability model plus reduction-reuse transformation; beats torch.compile, Triton and optimized CUDA baselines on six workloads, with 1.466x geometric-mean speedup on RTX 5090 and 1.318x on H100; official source code is available.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "GPU Kernel / DSL / Compiler"
     ]
@@ -3763,8 +3763,8 @@
     "why": "Builds a scalable environment-to-data pipeline for hybrid GUI+CLI computer-use agents and explicitly trains agents toward efficient hybrid paths. Its 9B model improves CUA-Verse by +39.3 score points while reducing steps 37% and tokens 60%; on OSWorld it improves success rate by 16.8 points while reducing steps 57% and tokens 44%. This is direct measured agent-runtime efficiency evidence rather than only an accuracy gain.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Efficient Reasoning / Agents"
     ]
@@ -3783,8 +3783,8 @@
     "why": "Direct inference-memory quantization for recurrent-state sequence models. Decay-aware mixed precision keeps sensitive channels high precision and reports 69.1% recurrent-state storage reduction, up to 2.01x recurrent-state update kernel speedup and up to 10.9% lower full-model TPOT.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Quantization",
       "GPU Kernel / DSL / Compiler"
@@ -3825,8 +3825,8 @@
     "why": "SLOWeave chooses the largest prefill chunk predicted to complete before the earliest active decode deadline. GPU-runtime evaluation reports 39% and 38% goodput gains over the strongest fixed-chunk baseline on mixed and long-context workloads at 25 ms TPOT, rising to 3.3x and 2.4x under a 10 ms objective.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context",
@@ -3847,8 +3847,8 @@
     "why": "Decouples low-dimensional causal motion generation from a distilled causal diffusion renderer and runs both as parallel streams. Reports 15.4 FPS at 1.3 s latency with no quality degradation, directly addressing streaming generative inference efficiency.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Video / Image Generation",
       "Diffusion / Flow Acceleration"
@@ -3868,8 +3868,8 @@
     "why": "Tail-risk-aware release scheduling jointly controls which ready agent turn to submit and how much unfinished work to expose. On real software-engineering agent traces it remains comparable under light load and reduces P95 workflow flow time under contention by up to 3.50x.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Efficient Reasoning / Agents"
@@ -3889,8 +3889,8 @@
     "why": "Cross-stack performance model and DSE framework for distributed 3D DRAM-stacked LLM inference, modeling memory, interconnect, parallelization, scheduling, thermal and power effects. It reports up to 100000x faster evaluation than detailed simulators at comparable accuracy and explores ~2.5e14 design points; MICRO version with artifact badges.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Distributed Training / Inference",
@@ -3911,8 +3911,8 @@
     "why": "cRVAE replaces expensive online physics identification with a lightweight learned forward model from partial corner observations. It runs about 350x faster than XPBD on rope and over 1500x faster on fabric per forward pass, keeping receding-horizon planning within a 100 ms control budget and demonstrating hardware deployment on Unitree Go2.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "VLA / WAM / Physical AI"
@@ -3932,8 +3932,8 @@
     "why": "DejaVu removes redundant CPU-GPU copies on unified-memory edge SoCs using a compile-time LLVM proof path and a profile-guided binary path for closed-source applications. Across seven benchmarks and three NVIDIA Jetson platforms, copy-dominated workloads speed up by up to 6.9x and closed-source end-to-end applications by 1.10-1.14x, reaching at least 99% of manual optimization performance.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "GPU Kernel / DSL / Compiler",
       "Edge / Cloud / Heterogeneous AI"
@@ -3953,8 +3953,8 @@
     "why": "Training-free bounded historical KV-bank management for autoregressive video diffusion. Directly limits persistent historical KV growth while improving long-horizon consistency/stability at a fixed KV-capacity bound across three backbones.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "KV Cache / Long Context",
       "Efficient Attention",
@@ -3976,8 +3976,8 @@
     "why": "Agentic federated-HPC runtime with typed skills, cross-site resource discovery, Globus data movement, live queue-aware placement, and event-driven continuation. Across 27 hours of telemetry and 19 matched multi-site rounds (83 jobs) on four production supercomputers, it reduces median additional completion time relative to the fastest observed placement from 42 s to 4 s, a 10.5x reduction versus fixed-site placement.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Distributed Training / Inference",
       "Efficient Reasoning / Agents",
@@ -3998,8 +3998,8 @@
     "why": "Distills LLM reasoning into a 15.5M non-generative student that uses only two precomputed embeddings at inference. On a 100K-pair proxy catalog, the student on one eight-GPU machine is approximately 5,000x faster and 10,000x lower in estimated cost than direct LLM inference while retaining strong AUC, with lightweight product-type test-time adapters further improving AUC from 0.924 to 0.941.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "GPU Kernel / DSL / Compiler",
       "Efficient Reasoning / Agents"
@@ -4019,8 +4019,8 @@
     "why": "PlaidQ distills a continuous diffusion language model for code from hundreds of denoising steps to 16, a few, or even one step, shifting the quality-compute frontier; training/inference code and checkpoints are released by the authors.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Diffusion / Flow Acceleration",
       "Efficient Reasoning / Agents"
@@ -4040,8 +4040,8 @@
     "why": "24h primary scan recovered SHARDLP, a genuinely distributed GPU solver that keeps matrix and primal-dual state sharded end to end. Eight H200 GPUs solve a 1.185B-variable/6.338B-nonzero LP in 9.9 minutes; support-aware communication cuts modelled communication by 92.97% and improves solver time by 1.27x-1.52x. This is direct measured multi-GPU systems evidence.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Sparsity / Pruning",
       "GPU Kernel / DSL / Compiler",
@@ -4108,8 +4108,8 @@
     "why": "DynaExq is a runtime system that dynamically manages expert precision based on activation hotness, overlaps precision changes asynchronously with MoE computation, and uses fragmentation-free hybrid-precision memory pools. It targets memory-constrained MoE serving on consumer GPUs and reports up to 4.03 accuracy-point gains over static low-precision baselines.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Quantization",
@@ -4130,8 +4130,8 @@
     "why": "Dynamic NPU-NDP expert scheduling for batched MoE inference with hardware-heterogeneity and reuse-aware runtime; reports average 2.6x prefill and 2.2x decode speedup over prior NPU-NDP MoE serving.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "MoE Systems / Accelerators",
@@ -4175,8 +4175,8 @@
     "why": "Cross-instance failure diagnosis accelerates self-evolving runtime-harness training. The paper reports up to 1.84x harness-training speedup while improving resulting reasoning accuracy by 18.56%.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Efficient Reasoning / Agents"
     ]
@@ -4195,8 +4195,8 @@
     "why": "7d lower-rank systematic replay recovered a GPU-resident optimization system absent from authority. The batched Levenberg-Marquardt solver uses a fixed number of population-wide CUDA launches per iteration and reverse-mode AD; on A100 it sustains up to 5.1e5 trees/s and at saturation delivers about 9.9x Operon throughput on a 64-core EPYC while matching fp64-reference quality.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "GPU Kernel / DSL / Compiler"
@@ -4238,8 +4238,8 @@
     "why": "Digital foveation allocates high-resolution processing only around selected fixations. A single foveated observation preserves 95.9% of dense-baseline Top-1 and 96.9% Top-3 accuracy at only 4.7% of the computational cost; scene-level accumulation reaches 90.6% object recall at 58.6% compute. This is direct, measured adaptive-perception compute reduction with clear relevance to embodied and edge vision.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "VLA / WAM / Physical AI",
@@ -4286,8 +4286,8 @@
     "why": "EFQ-Softmax directly generates block-scaled E2M1 probability operands from shifted attention scores, removing the high-precision exp-then-quantize path while keeping FlashAttention-style normalization and accumulation. Evaluated on Qwen3-8B, Qwen3-VL-8B-Instruct and WAN2.2-TI2V-5B, it preserves or improves quality and reduces fused probability-generation vector-stage latency by 40.33% on average for 16K-128K sequence lengths on the A5 vector unit.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Quantization",
       "Efficient Attention",
@@ -4308,8 +4308,8 @@
     "why": "SEC 2025 framework converts pretrained ViTs and CNNs into a single elastic family that switches operating modes at runtime rather than maintaining independent models. Experiments report up to 85% FLOP reduction, 50% latency reduction, and 76% memory-overhead reduction; official author repository is public.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Sparsity / Pruning",
       "Edge / Cloud / Heterogeneous AI"
@@ -4329,8 +4329,8 @@
     "why": "Representation-centric edge/server MLLM inference compresses fused multimodal state before transmission. The paper reports 32x lower communication payload with comparable downstream accuracy and up to 3.4x lower estimated end-to-end latency under bandwidth-constrained edge conditions.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Distributed Training / Inference",
@@ -4352,8 +4352,8 @@
     "why": "The work studies HBF-backed user-level KV reuse for generative recommendation and introduces admission-controlled write-aware LRU-K. Primary results report 3.8-4.7x throughput over HBM-only systems while extending modeled HBF lifetime from about one year to over six years at K=10 with comparable throughput.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context"
@@ -4373,8 +4373,8 @@
     "why": "Coordinates tile computation order, fine-grained SM communication, and SM allocation. Across tensor-parallel LLM workloads it achieves 1.232x geomean speedup, up to 1.433x, over cuBLAS+NCCL and beats state-of-the-art overlap baselines by 3.1-9.8% geomean.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference"
@@ -4394,8 +4394,8 @@
     "why": "Epoch treats a diffusion-language-model block as a compilation unit, compiling active expert support and routing only live/new/refresh-required positions through fresh expert computation and expert-parallel communication. On 8 H100 GPUs across LLaDA-MoE variants from 7B to 100B, it improves end-to-end execution time by up to 2.7x over the strongest surviving baseline and remains feasible at batch sizes where baselines OOM while preserving quality.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Sparsity / Pruning",
@@ -4419,8 +4419,8 @@
     "why": "Encodes the point cloud once with SO(3)-equivariant features instead of rotating and re-encoding the scene for every grasp. CEM planning drops from 3.31 s to 0.48 s (6.9x speedup) while real-world decluttering reaches 95.2% grasp success and 230 picks/hour.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "VLA / WAM / Physical AI"
@@ -4440,8 +4440,8 @@
     "why": "EStream runs dynamic MoE prefill entirely on a mobile NPU via one reusable expert graph and virtualizes expert weights from UFS through a bounded NPU-addressable arena. On a commercial Snapdragon smartphone across 18 settings it reports 2.25-27.57x pure-prefill TTFT speedup and 1.19-12.29x peak-memory reduction, scaling to 46.7B-parameter MoEs.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "MoE Systems / Accelerators",
@@ -4462,8 +4462,8 @@
     "why": "Automatically decomposes PyTorch-like AI computations across multi-GPU servers using join-aggregation specs and synthesized topology-aware exchange programs rather than canned collectives. On LLaMA blocks across eight A100 GPUs reports 8.97 ms geometric-mean runtime versus 13.80 ms hand-tuned PyTorch and 15.90 ms vLLM. Canonical systems/compiler work.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference"
@@ -4483,8 +4483,8 @@
     "why": "A pip-installable framework turns a declarative YAML spec into large-scale LLM serving deployments on leadership-class supercomputers. On ALCF Aurora it scales from 1 to 256 nodes (3072 vLLM replicas), reaching 27.1k requests/s and 3.8M tokens/s for non-streaming inference, while exposing centralized streaming-proxy and Ray Serve control-plane bottlenecks.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Distributed Training / Inference"
@@ -4504,8 +4504,8 @@
     "why": "On-policy distillation experiments across Qwen3 and Llama configurations show that supervising only one or two generated tokens per reasoning trajectory, about 0.05% of all tokens, can match or surpass full-token supervision on reasoning while excluding the overwhelming majority of generated tokens from the training objective. The effect is reproduced across nine teacher-student configurations and GRPO/RLVR settings, making this unusually strong evidence for reasoning post-training efficiency.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Sparsity / Pruning",
       "Distributed Training / Inference",
@@ -4526,8 +4526,8 @@
     "why": "Extends coordinate-descent circuit simulation from ideal diodes to realistic monotone nonlinear devices. Across deep resistive networks it matches SPICE steady states with very low error while reaching speedups up to 1.7e3x; MNIST training on a 1568x100x20 double-Shockley network cuts per-epoch time by roughly 4.4e2x.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Edge / Cloud / Heterogeneous AI"
     ]
@@ -4569,8 +4569,8 @@
     "why": "Training-free readout-triggered prefix compression for Qwen3-Embedding and Qwen3-VL-Embedding. On NarrativeQA with Qwen3-Embedding-0.6B it cuts decoder-backbone FLOPs by 40.11% while retaining 99.53% of full-forward nDCG@10, with configurable quality-efficiency trade-offs across text and cross-modal retrieval tasks.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving"
     ]
@@ -4589,8 +4589,8 @@
     "why": "Uses a lightweight federated local video gate so only flagged clips invoke server-side Qwen3-VL-8B. In a real three-node heterogeneous deployment, fixed-threshold routing preserves nearly the same macro-F1 as centralized CNN+VLM while transmitting only 51.4% of videos, providing measured selective-offload and server-VLM utilization reduction.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context",
@@ -4612,8 +4612,8 @@
     "why": "Optimizes compact coefficient matrices inside shared structured subspaces so clients avoid transmitting full layer-sized Muon updates. Across matched communication budgets FedSubMuon performs best; on Dolly-15K the closest communication baseline requires 5.5x and 1.4x more total communication for Llama-1B and Qwen-4B. This is direct measured LLM communication-efficiency evidence.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Distributed Training / Inference"
     ]
@@ -4632,8 +4632,8 @@
     "why": "Operator-level disaggregation and chiplet-pool co-design with physical validation. Eight selected chiplets achieve 93.0% EDP and 97.8% EDPC reductions versus homogeneous accelerators; LLM serving sees up to 16.8% prefill-energy and 28.7% energy-cost reductions, while autonomous-vehicle perception also improves under real-time latency constraints.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Edge / Cloud / Heterogeneous AI"
@@ -4653,8 +4653,8 @@
     "why": "Combines KV-concatenation-aware fine-tuning with selective KV recomputation for long-context RAG. On RULER at 124k tokens it improves score by 9.7 points over recompute-only while reducing TTFT by 80% versus full attention, directly addressing the quality-efficiency tradeoff in reusable KV caches.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context",
@@ -4675,8 +4675,8 @@
     "why": "This work replaces O(L) attention block caches in block-diffusion language models with an exact constant-size state-space cache under a block-causal training objective. At 256k context it reports 4.3x lower step latency, 11x less memory and 2.6x higher single-stream throughput than attention caching, reaching 14x aggregate throughput under batching.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context",
@@ -4720,8 +4720,8 @@
     "why": "Any-ratio context compressor chooses memory budget per input via cascade routing or a lightweight predictor. Preserves over 98% mild-ratio accuracy at up to 266x average compression; at serving batch sizes it cuts context KV cache by 50% and improves decoding throughput by 47%.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context"
@@ -4741,8 +4741,8 @@
     "why": "FlexSpIM is a fabricated 40-nm digital compute-in-memory SNN accelerator with bitwise operand-resolution reconfiguration and hybrid layer-wise stationarity. Prototype/system evaluation reports up to 45% energy and 52% latency reduction versus fixed-stationarity approaches while retaining 95.8% DVS gesture accuracy.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Edge / Cloud / Heterogeneous AI"
     ]
@@ -4782,8 +4782,8 @@
     "why": "CP-Cert exploits indirect linear algebra, sparsity and parallelism to certify degenerate pose-registration relaxations efficiently. It reaches runtimes up to three orders of magnitude faster than state-of-the-art direct solvers and is integrated into an outlier-robust real-world pose-estimation pipeline.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Sparsity / Pruning",
@@ -4827,8 +4827,8 @@
     "why": "ForgeStencil uses code-synthesis agents to generate per-case CUDA kernels and end-to-end application rewrites, with a measurement-integrity harness rejecting invalid gains. Same-precision f32 kernels reach 2.35x geometric-mean speedup over per-case SOTA baselines on A100, and end-to-end application median speedup is 1.41x across 100 real codes.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "GPU Kernel / DSL / Compiler",
       "Efficient Reasoning / Agents"
@@ -4891,8 +4891,8 @@
     "why": "Co-designs a memory-efficient KLSS datapath with a runtime selector between HKS and KLSS and eliminates off-chip ciphertext transfers. On Alveo U280 it achieves 1.84-3.31x bootstrapping speedup and 1.66-2.52x secure image-classification speedup over state-of-the-art FPGA accelerators, providing strong measured accelerator evidence.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Edge / Cloud / Heterogeneous AI"
     ]
@@ -4911,8 +4911,8 @@
     "why": "Introduces section-level expected-value-of-computation gating so long-form research generation can stop targeted computation when predicted quality gains are small. In simulation it outperforms random allocation by up to 4x under low budgets and smoothly recovers full-pipeline quality as budget increases, providing direct adaptive-compute evidence for agentic/deep-research workloads.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Efficient Reasoning / Agents"
@@ -4932,8 +4932,8 @@
     "why": "This work symmetrically tunes both SparseBin and cuSPARSE baselines for SOM best-matching-unit search, using tiling, membership clustering, neuron-axis chunking and vectorized loads. The tuned kernel reaches 5.6-10.1x per-epoch improvement over the prior configuration and about 385x over the earlier CUDA implementation while reaching 77% of peak L2 bandwidth, making it a direct measured GPU-kernel optimization result.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Sparsity / Pruning",
       "GPU Kernel / DSL / Compiler",
@@ -4954,8 +4954,8 @@
     "why": "7d low-rank replay recovered a production-scale agent-serving system absent from authority. The migration replaces a monolithic 235B blended responder with a bounded ReAct orchestrator plus smaller generator; serving optimizations reduce orchestrator P90 latency from 3.87 s to 2.24 s, reduce GPU footprint by roughly one-third, and cut estimated annual serving cost by more than an order of magnitude. Accepted to EMNLP 2026 Industry Track.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context",
@@ -4977,8 +4977,8 @@
     "why": "GaLe enables pretrained hybrid CNN-transformer inference on constrained devices without retraining by combining local exact and global approximate features; on Cortex-M33 it reports up to 65% speedup and 90% RAM reduction versus patch-based inference while matching exact-inference performance.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Edge / Cloud / Heterogeneous AI"
     ]
@@ -5019,8 +5019,8 @@
     "why": "GloVLA separates global geometric transport from short-horizon local VLA interaction. On physical UR10e tasks it raises success from 35.6% to 90.0% while more than halving mean VLA inference time, directly reducing expensive VLA invocation along the trajectory.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "VLA / WAM / Physical AI"
@@ -5040,8 +5040,8 @@
     "why": "First GPU-accelerated gate-level time-based power analysis framework, combining state-dependent power retrieval, event-density-aware GPU thread partitioning, and fused power-computation kernels. The primary abstract reports up to 37.63x end-to-end speedup over multi-threaded Synopsys PrimeTime PX while maintaining high accuracy.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "GPU Kernel / DSL / Compiler"
     ]
@@ -5060,8 +5060,8 @@
     "why": "This work builds a GPU-accelerated hypergraph partitioning and placement pipeline for mapping million-neuron SNNs to neuromorphic cores. The mapper is 18-280x faster on average than sequential tools while model-based evaluation reports up to 16% lower communication latency and 42% lower spike-movement energy.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference",
@@ -5082,8 +5082,8 @@
     "why": "rlaopt is an Apache-licensed PyTorch package that exposes GPU-enabled randomized-linear-algebra solvers for positive-definite systems and constrained convex empirical-risk problems, including NystromPCG, NysADMM and SAPPHIRE. The primary abstract reports substantial GPU-execution speedups across ridge regression, bounded multinomial logistic regression and bounded elastic net, while also supporting differentiation through solver iterations, making this a practical reusable GPU systems/runtime contribution.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "GPU Kernel / DSL / Compiler"
     ]
@@ -5102,8 +5102,8 @@
     "why": "GRADSOLVE is an open-source JAX GPU runtime for exact discrete-adjoint gradients of low-dimensional ODE ensembles. The primary abstract reports a 2.8x forward-solver speedup over DiffEqGPU.jl and 5.6-14.1x faster gradient computation than Diffrax checkpointed adjoints at matched forward-state accuracy across three GPU generations, providing direct measured GPU-kernel/runtime evidence.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "GPU Kernel / DSL / Compiler"
     ]
@@ -5122,8 +5122,8 @@
     "why": "Uses history-aware cluster memory, asynchronous intent generation, and hybrid fulfillment that reserves the LLM for complex intents while routing simple intents to a lightweight heuristic. Across 41 Android apps it achieves up to 36.4% higher code coverage while costing less than one eighth of the best pure-LLM baseline, directly addressing LLM-agent latency and cost.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Distributed Training / Inference",
       "Efficient Reasoning / Agents",
@@ -5164,8 +5164,8 @@
     "why": "Environment-probing memory curation needs no retraining and leaves the task agent/retriever/memory format unchanged. In a GitHub Copilot SDK harness, CLBench pass rate rises 39%->73%, queries fall 8.8->4.7, and task-agent cost falls $3.38->$1.68; APEX tool calls fall 16-75%.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Efficient Reasoning / Agents"
     ]
@@ -5184,8 +5184,8 @@
     "why": "Treats KV capacity itself as a runtime resource and acquires physical pages on demand from evolving attention working sets while preserving PagedAttention continuous batching and prefix caching; reports superior performance-throughput trade-off across reasoning workloads. Canonical systems contribution.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context",
@@ -5229,8 +5229,8 @@
     "why": "7d full-PASS lower-rank replay recovered a direct systems paper on mutable latency-critical cloud services. Gutenberg jointly controls page placement, replication, CPU/NDP execution and routing, using delta-buffered writable replication and CPU helpers; on TailBench with ZSim/Ramulator-calibrated timing it reports average and p99 latency reductions up to 80.4% and 85.8% versus prior systems while improving isolation and fairness.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Edge / Cloud / Heterogeneous AI"
     ]
@@ -5249,8 +5249,8 @@
     "why": "H3DNAS performs hardware-aware compression directly on ONNX graphs without original source or gradients, using a channel dependency graph, hierarchical search and graph surgery. On Jetson Orin Nano-class deployment targets it reduces parameters by 43.2-65.5% and achieves 1.29-1.99x inference speedups with negligible accuracy loss.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Sparsity / Pruning",
       "GPU Kernel / DSL / Compiler",
@@ -5271,8 +5271,8 @@
     "why": "Deployment-oriented Physical-AI systems paper combining quantization calibration, DPU architectural adaptation to reduce CPU fallback, bounded-latency execution, and radiation criticality analysis on a lunar micro-rover. Reports 309 ms inference at 5.7 W, recovers 69.8% of quantization-induced accuracy loss, and targeted mitigation lowers global criticality by 31.7%.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Quantization",
@@ -5317,8 +5317,8 @@
     "why": "First evaluation platform applying High-Bandwidth-Flash timing, capacity, and thermal effects while a real LLM workload executes on real GPU kernels, using PTX rewriting and launch gating. It preserves unmodified vLLM/Qwen3-30B-A3B token outputs, matches all six device calibration breakpoints, and its device fast path runs the evaluated case in 2s versus 44s for the detailed reference path (20.8x), enabling practical pre-silicon memory-tier studies.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "GPU Kernel / DSL / Compiler",
@@ -5339,8 +5339,8 @@
     "why": "HDA-MoE co-designs offline hybrid TP/EP mapping and online adaptive scheduling for MoE inference on 3D near-memory processing. The primary arXiv abstract reports 1.1-3.4x speedup over TP, 1.1-1.5x over EP, 1.1-3.7x over a hybrid compute-balanced baseline, and 1.1-1.3x over HD-MoE, with source code released.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "MoE Systems / Accelerators",
@@ -5361,8 +5361,8 @@
     "why": "HEAT makes per-nonlinearity approximation iteration counts learnable and co-adapts them with model weights. On encrypted GPT-2 decoding it reports 3.1x fewer iterations, 1.6x fewer bootstraps and 1.4x lower end-to-end latency while improving decode agreement.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving"
     ]
@@ -5423,8 +5423,8 @@
     "why": "7d full-PASS lower-rank replay recovered a directly measured extreme-sparsity LLM inference result. Progressive second-order sparsification plus continued training preserves useful quality to 95-99% sparsity; on LLaMA-2-7B the paper reports 3.23x decoding speedup and 6.21x memory savings at 95% sparsity, making it directly relevant to efficient inference rather than only model compression.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Sparsity / Pruning"
     ]
@@ -5463,8 +5463,8 @@
     "why": "Uses hierarchical heading/velocity control and an asynchronous event-driven decision pipeline to reduce inference complexity from O(n^2) to O(n). It cuts per-step decision latency by up to 71% and reduces makespan by 45-63% on large AGV routing workloads, directly satisfying real-time Physical-AI runtime efficiency criteria.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Efficient Reasoning / Agents",
       "VLA / WAM / Physical AI",
@@ -5506,8 +5506,8 @@
     "why": "HoneyRoute adds a lightweight serving router that diverts malicious requests to a honeypot model. It achieves F1=.911 with 38 ms median added latency, approximately 1/385 the latency of a two-tier guard-LLM cascade, while reducing production-model token consumption by 97.8% under adversarial flooding.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving"
     ]
@@ -5526,8 +5526,8 @@
     "why": "Uses a small open-weight draft model to score already-generated black-box agent trajectories in one forward pass and gate risky actions before execution. On Qwen3-Coder-480B and Claude 3.5 Sonnet software agents it reduces execution error by 6-8 percentage points and deployment token cost by 14-19%, including out-of-distribution transfer without retraining.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Speculative Decoding",
       "Efficient Reasoning / Agents"
@@ -5547,8 +5547,8 @@
     "why": "Closed-loop SDN orchestration estimates per-client communication time and partitions synchronous versus asynchronous FL clients using network-wide bottleneck visibility. Across multiple topologies it reaches 80% target accuracy 33-40% faster than SmartFLow and cuts average round duration by 30-40 seconds.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Distributed Training / Inference",
@@ -5569,8 +5569,8 @@
     "why": "Hybrid packet/flow-granularity DCN simulator specialized for LLM training, switching granularity by network phase and reporting up to 15.4x acceleration while retaining fidelity.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Distributed Training / Inference"
     ]
@@ -5612,8 +5612,8 @@
     "why": "Replaces the 10-step flow-matching action head in pi0.5 with a single-step cIMLE generator. Inference frequency rises 15 to 55 Hz (3.67x), action throughput up to 11x, LIBERO average success reaches 98%, and real-robot per-episode VLA inference is 3.9-6.6x faster.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Multimodal / MLLM Serving",
@@ -5634,8 +5634,8 @@
     "why": "SIGGRAPH Asia 2026 system that removes fragmented-kernel and CPU-memory bottlenecks by making simulation, environment computation, policy inference, and policy updates one GPU-native execution flow. The resulting end-to-end pipeline trains diverse physics-based imitation skills in seconds and makes LLM-agent hyperparameter search practical; directly relevant to efficient Physical-AI training/runtime systems.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "GPU Kernel / DSL / Compiler",
       "Efficient Reasoning / Agents",
@@ -5656,8 +5656,8 @@
     "why": "This work co-designs 4-bit KV quantization with dense on-chip NVM and fixed-range converters rather than assuming GPU-style metadata. Across 3B-14B models and contexts to 32K, it maintains accuracy under modeled device noise while reporting 3.1-3.6x lower KV read energy than KIVI/KVQuant mapped to the same NVM and about 8x lower metadata overhead than KIVI.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "KV Cache / Long Context",
       "Quantization",
@@ -5679,8 +5679,8 @@
     "why": "IPPD answers multiple questions sharing one context inside a single prompt using virtual position IDs and attention-mask manipulation, requiring no fine-tuning or architecture change. It reports up to 7x effective throughput over standard decoding without quality degradation and outperforms prefix caching with PagedAttention in most settings; accepted to EMNLP 2026 main.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Speculative Decoding",
@@ -5746,8 +5746,8 @@
     "why": "Deployment-oriented multimodal model explicitly built for low-budget GPUs. FastMTP recursively reuses one draft block for K=3 speculative steps with lossless greedy verification; on NVIDIA L4 it doubles decode speed and reaches 2.57 pages/s. Official model is public.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Speculative Decoding",
@@ -5790,8 +5790,8 @@
     "why": "AIOS kernel-managed shared memory centralizes retrieval, privacy enforcement, and prompt injection across agents. Across GPT-4o, Llama-3.1-8B, and Qwen2.5-7B in 1,800 trials, it approaches full-context personalization while using much shorter prompts and reduces end-to-end latency by 15-61%, with corresponding token and inference-cost reductions.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "GPU Kernel / DSL / Compiler",
       "Efficient Reasoning / Agents"
@@ -5811,8 +5811,8 @@
     "why": "Training-free adaptive VLA action-chunk truncation using already-computed cross-attention entropy; directly targets the inference-frequency versus open-loop accuracy tradeoff with negligible additional overhead on pi0.5 and X-VLA across simulation and real manipulation.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Efficient Attention",
@@ -5833,8 +5833,8 @@
     "why": "Direct KV-context virtualization system spanning GPU, host memory and NVMe with attention-space indexing. Demonstrates 1M-token agent workspaces on a 24GB RTX 5090 Laptop GPU, roughly 50 tokens/s local generation, and improved task success over compaction-only baselines.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "KV Cache / Long Context",
       "Efficient Attention",
@@ -5856,8 +5856,8 @@
     "why": "Introduces Declarative Attention: the model declares global/focus/local attention spans and the inference engine skips irrelevant KV-cache reads. Across 15 long-context tasks it reduces attended decode tokens by 52.0% and 31.1% on two off-the-shelf models; includes a vLLM-compatible block-masking runtime path.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context",
@@ -5878,8 +5878,8 @@
     "why": "Deterministic concurrency control without prior read-write sets. Lantern uses DAG back-propagation to identify additional committable transactions and conflict-free batch selection for read-modify-write workloads. Integrated into ChainMaker and evaluated on YCSB and SmallBank, it reaches up to 4.2x throughput over Aria and at least 2.2x execution-layer throughput improvement, providing direct measured systems evidence.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Distributed Training / Inference"
@@ -5899,8 +5899,8 @@
     "why": "Frequency-staged 3DGS training archives lower-frequency Gaussian fields so later stages optimize residuals with fewer active primitives. The primary abstract reports average training speedups of 1.73x/1.21x at 1K and 1.74x/1.33x at 4K when combined with Taming-3DGS/FastGS, with competitive reconstruction quality.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Video / Image Generation"
     ]
@@ -5919,8 +5919,8 @@
     "why": "Prediction-guided runtime constructs physical execution graphs for concurrent multi-agent workflows on heterogeneous GPU pools, jointly optimizing model lifecycle, fusion, placement and execution order; reports up to 36.8% makespan and 25.9% p95 completion-latency reduction. Canonical agent-serving systems work.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "GPU Kernel / DSL / Compiler",
@@ -5942,8 +5942,8 @@
     "why": "LatentPress compresses long conversational/document context into continuous memory tokens read directly by a frozen decoder. It reports 4-16x compression, about 43 ms write latency, and 5-9x faster compressed-prefix reading than raw context or cached OCR while matching or exceeding raw-context QA in several regimes.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context"
@@ -5963,8 +5963,8 @@
     "why": "Eliminates mathematically redundant selected-timestep recomputation in diffusion RL through retain/reweight recompute-free schedules, preserving the original objective and reporting up to 1.83x end-to-end speedup on FLUX.1-dev and Wan. Canonical efficient post-training contribution.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Diffusion / Flow Acceleration",
       "Efficient Reasoning / Agents"
@@ -6006,8 +6006,8 @@
     "why": "Unified H-BAC pruning, quantization and distillation pipeline for on-device ViT deployment. Primary results retain 95.13% baseline accuracy while reducing model size by 74-98%; the fully integrated configuration compresses 327.42 MB to 6.01 MB, a 54.5x size reduction, with 95.13 +/- 2.32% accuracy. The paper also fairly reports that a directly trained same-size student can be competitive, making the deployment trade-off especially useful.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Quantization",
       "Sparsity / Pruning",
@@ -6028,8 +6028,8 @@
     "why": "Closed-form spectral neuron scoring requires no calibration data, gradients, training, or auxiliary policy network at pruning time. At 25% sparsity LILA beats PruneNet by 1.57 pp zero-shot accuracy and calibrated SliceGPT by up to 6.0 pp; NTK analysis reports 22x lower functional distortion than random pruning.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Sparsity / Pruning"
     ]
@@ -6048,8 +6048,8 @@
     "why": "Replaces retrieval-time LLM control with query-conditioned graph exploration and reasoning-chain context construction. On DistComp it cuts per-query latency by over 100x and cost by over 99% versus GraphRAG Global and DRIFT while achieving the best reported overall quality; on UltraDomain it matches LinearRAG quality with about 14x fewer tokens. This is direct measured RAG serving efficiency evidence.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Efficient Reasoning / Agents"
@@ -6113,8 +6113,8 @@
     "why": "Selects a task-aware low-rank post-training subspace that minimizes output-token cost under a utility constraint while updating only 0.24-0.28% of parameters. Continuation length falls by up to 39.84% on Pythia-2.8B and 14.87-17.58% on Qwen2.5-3B without material change in the internal preference diagnostic.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Efficient Reasoning / Agents"
@@ -6134,8 +6134,8 @@
     "why": "Loom replaces deep monolithic RCA agents with deterministic embedding-space consensus plus one lightweight LLM synthesis call. On OpenRCA it occupies the accuracy-efficiency Pareto frontier while running about 26x faster than a state-of-the-art autonomous agent, or about 33x with an 8B synthesizer.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Efficient Reasoning / Agents"
     ]
@@ -6202,8 +6202,8 @@
     "why": "LUMIN targets both memory-bank construction and inference. PSP makes sampling 341x faster than FPS, while parallel similarity computation reduces inference memory and latency by over 95% and stratified evaluation reduces computation time by 20x with negligible metric loss.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Edge / Cloud / Heterogeneous AI"
     ]
@@ -6313,8 +6313,8 @@
     "why": "End-to-end Qwen3-4B prototype delegates dominant matrix-vector products while preserving input privacy and verifiability with virtually no server verification overhead. With one client thread, throughput improves up to 17x with online privacy masks, 45x with precomputed masks, and 44x for verification-only; client-side microbenchmarks with simulated network delay reach 12-157x depending on mode.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context",
@@ -6335,8 +6335,8 @@
     "why": "Direct kernel/infra contribution. Multi-agent TPU kernel engineering system with compiler feedback, testing, profiling and autotuning; evaluated on 50 JaxBench tasks plus real open-source workloads, matching expert hand-tuned baselines, with official open-source implementation.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "GPU Kernel / DSL / Compiler",
       "Efficient Reasoning / Agents"
@@ -6356,11 +6356,34 @@
     "why": "Direct runtime-scheduling systems paper, accepted by IEEE Embedded Systems Letters. MeanField surrogate models concurrent LLM+vision inference with approximately linear profiling growth; scheduler handles 78,732 feasible N=5 configurations, stays within 0.10% of exhaustive search with zero SLA violations, and makes decisions at 26 ms median, about 5x faster than exhaustive surrogate search.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Measurement-Driven Diagnosis and Mitigation of Host-CPU Co-location Interference in Single-GPU LLM Serving on a Multi-GPU Server",
+    "venue": "arXiv 2026",
+    "topic": "LLM serving / CPU-GPU systems / SLO protection",
+    "arxiv": "2609.05425",
+    "doi": "",
+    "official_id": "arXiv:2609.05425",
+    "paper_url": "https://arxiv.org/abs/2609.05425",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "CoTail diagnoses CPU-side serving-path tail amplification under host CPU co-location; reports up to 4.4x co-tenant throughput recovery and 4.5x TPOT reduction while validating decode SLOs.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference",
       "Edge / Cloud / Heterogeneous AI"
     ]
   },
@@ -6378,8 +6401,8 @@
     "why": "Deployment-centered edge AI contribution that selects a structurally compressed sub-network per device using measured on-device throughput, judged RAG quality, a general-capability floor, and memory budget. A weight-shared supernetwork makes selection practical; case study spans three heterogeneous edge tiers at 1.3-5 W standby.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Efficient Reasoning / Agents",
@@ -6400,8 +6423,8 @@
     "why": "7d replay recovered a flow-matching generation system with direct measured sampling efficiency. Across four medical time-series datasets it reports 3.8x higher sampling throughput while also improving downstream utility and Context-FID, making it relevant to diffusion/flow inference efficiency despite the application domain.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Diffusion / Flow Acceleration"
@@ -6421,8 +6444,8 @@
     "why": "MemForest compresses continuously accumulated agent memory with event-centric partitioning, EventTree progressive merging, and anchor-guided retrieval. At 50% compression it retains 97.1% of Mem0 performance with 1.89x retrieval speedup, and 99.7% of M3-Agent performance with 2.24x retrieval speedup across robot/web multimodal benchmarks.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Multimodal / MLLM Serving",
       "Efficient Reasoning / Agents",
@@ -6443,8 +6466,8 @@
     "why": "MaP-WAM converts long multimodal episodic memory into compact plans, keeps executor context length fixed, and enables KV caching in planning and execution. It reaches 83.3% RMBench and 78.0% real-robot success while maintaining approximately constant executor inference latency as history grows.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Multimodal / MLLM Serving",
@@ -6465,8 +6488,8 @@
     "why": "AgentZip exploits template-relative and cross-sandbox redundancy and aligns compression with LLM waiting periods. It cuts sandbox-owned memory by up to 8.7x versus 2.1x for Linux; restore prefetching and execution-aware scheduling reduce aggressive-compression slowdown from as high as 3.1x to 1.40x while retaining nearly all memory savings.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Efficient Reasoning / Agents"
@@ -6486,8 +6509,8 @@
     "why": "Lifecycle-aware sparse merge/supersession/contradiction memory for long-term LLM agents. On BEAM it reports 66.6% lower end-to-end runtime than Hindsight while improving same-backbone quality, making it a direct agent-memory runtime result rather than only a memory-quality method.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Sparsity / Pruning",
       "Efficient Reasoning / Agents"
@@ -6507,8 +6530,8 @@
     "why": "Empirically estimates LIBERO task-capacity floor: a 0.54M-parameter policy reaches 95.1% average success over 2,000 rollouts, runs 5-9 ms per action chunk on laptop CPU, and exposes weak robustness/task-ID memorization in standard LIBERO. Strong deployment-efficiency and benchmark-diagnostic result; protected Physical-AI canonical-high.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Efficient Reasoning / Agents",
       "VLA / WAM / Physical AI"
@@ -6528,8 +6551,8 @@
     "why": "MINT replaces a multi-stage camera/depth/hand trajectory pipeline with one shared spatiotemporal model and explicit coordinate transforms. It approaches state of the art on public benchmarks while achieving a 3.67x end-to-end speedup over the labeling pipeline that supervises it.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "VLA / WAM / Physical AI"
@@ -6571,8 +6594,8 @@
     "why": "mjorbit extends MuJoCo with spacecraft dynamics, actuators and sensors and exposes both low-latency C++ CPU and high-throughput GPU backends for contact-rich space robotics. It demonstrates realistic on-orbit MPC and RL case studies and provides open-source code, making it a concrete Physical-AI runtime/simulation infrastructure contribution.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "GPU Kernel / DSL / Compiler",
@@ -6593,8 +6616,8 @@
     "why": "IEEE Wireless Communications accepted FedMVLA decouples vision, language, and action updates for federated embodied intelligence. A 3GPP-based robotic-manipulation case study reaches 84.8% success, +22.2 points over FedAvg, scales to 128 clients across eight cells, and cuts schedule-averaged per-client uplink model-update payload by 95.6% while keeping p95 round-critical uplink completion near 1.5 s.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Distributed Training / Inference",
       "VLA / WAM / Physical AI",
@@ -6637,8 +6660,8 @@
     "why": "7d lower-rank replay recovered a deployment-oriented vision inference system whose bottleneck is explicitly throughput. MolParser-Mobile uses an AutoML-optimized lightweight end-to-end OCSR architecture with 9.98M parameters and reports 1,520 molecules/s on a single RTX 4090D while maintaining competitive recognition accuracy, making the measured inference-efficiency contribution strong enough for canonical retention.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Edge / Cloud / Heterogeneous AI"
@@ -6658,8 +6681,8 @@
     "why": "Direct LLM-serving/KV systems contribution. Derives a mean-field closed-form limit and practical LRU KV-cache hit-ratio estimator for growing multi-turn prefixes, then validates the estimator with real Qwen3-8B serving experiments on Ascend NPUs; useful for HBM capacity provisioning rather than a purely abstract cache model.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context"
@@ -6679,8 +6702,8 @@
     "why": "7d lower-rank systematic replay recovered a serving-security paper with unusually direct measured system impact. JPPO jointly optimizes image and visible prompt inputs; on open-source VLMs it reports over 4.6x latency and 5.3x energy amplification on Qwen2.5-VL-7B and over 36.6x latency with 32.7x energy amplification on BLIP-2, exposing a concrete multimodal-serving availability failure mode.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Multimodal / MLLM Serving"
@@ -6700,8 +6723,8 @@
     "why": "Operator-aligned Muon for convolutional kernels reaches the final quality of unfolded Muon and Adam using 0.62x and 0.64x their model FLOPs on matched CIFAR-10 flow-matching experiments, with gains persisting across data scales and classification transfer.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference",
@@ -6744,8 +6767,8 @@
     "why": "8.9B NCP-ArchPreview reaches OLMo-3-7B final pretraining loss after only 51.3% of its total training tokens and approaches a parameter-aligned baseline using 85% standard compute. A 17M VQ module enables lightweight domain adaptation, and concept injection improves DFlash2 accepted length 4.17% with negligible overhead.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Speculative Decoding",
       "Distributed Training / Inference"
@@ -6787,8 +6810,8 @@
     "why": "NVFP4-specific PTQ method that reduces collateral block quantization error by pairing outlier channels with low-magnitude companions. On Llama3/Qwen3 it reports the best evaluated perplexity/downstream accuracy while keeping prefill speedup close to RTN and matching RTN peak decoding memory.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Quantization"
@@ -6808,8 +6831,8 @@
     "why": "OCTN stores a continuous OCT tissue representation natively on GPU for fast geometric reasoning and robot integration. It reports up to 43x faster intensity-based spatial queries than conventional CPU processing, 4x lower acquisition time from sparse B-scans, sub-10s training, and demonstrates OCT-guided robotic laser surgery, making it strong protected Physical-AI runtime evidence.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Sparsity / Pruning",
@@ -6833,8 +6856,8 @@
     "why": "Training-free modality-aware KV quantization handles temporal key drift and heterogeneous value geometry in audio-video-text caches. Enables 2-bit KV caches on Qwen2.5-Omni/Qwen3-Omni and provides a fused Triton decode kernel that never materializes dense FP16 KV.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context",
@@ -6858,8 +6881,8 @@
     "why": "Integrates iterative magnitude pruning into the retraining loop already required by pool-based active learning, producing sparse deployable models at practically no additional pruning cost. Winning tickets match dense accuracy up to 95% sparsity and can reduce both retraining and acquisition-scoring cost.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Sparsity / Pruning",
       "Distributed Training / Inference"
@@ -6901,8 +6924,8 @@
     "why": "The system co-trains speculative drafts during large-scale RL rollout generation, extending packed zigzag-ring context parallelism with branch attention and adding TapChannel to move target features across pipeline stages without disturbing the pipeline schedule. It reports substantial rollout and end-to-end speedups up to 122B models, strong scaling to 256K context, memory savings, and modest PP transport overhead.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Speculative Decoding",
       "KV Cache / Long Context",
@@ -6968,8 +6991,8 @@
     "why": "Osprey pretrains a reusable target-agnostic shallow drafter backbone and adapts it to each target with lightweight vocabulary/QKV alignment and distillation. It improves mean acceptance length by 16.1% on Qwen3-8B, 21.2% on Llama-3.3-70B-Instruct and 22.7% on MiniMax-M2.5, with 17.5% higher tokens/s on the 229B MiniMax target; accepted at EMNLP 2026 with code released.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Speculative Decoding"
     ]
@@ -6988,8 +7011,8 @@
     "why": "Ostrich is a GPU-accelerated rigid-body differentiable simulator for stiff contact that uses large timesteps, implicit differentiation and Schur-complement reuse. It reports 211x faster warm iterations than MJX, 4.7x faster than Newton Semi-Implicit, 29x checkpointed-MJX optimization throughput, and 8,192 parallel worlds on one 24GB GPU, making it strong Physical-AI simulation infrastructure.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "GPU Kernel / DSL / Compiler",
@@ -7010,8 +7033,8 @@
     "why": "Repurposes latent representations already produced by speculative decoding draft backbones as a trajectory-aware output-length predictor. Under saturated disaggregated serving, its predictions improve standard scheduling and reduce short-request P99 latency by 34.8% while adding only a lightweight regression head when the draft backbone is already in use.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Speculative Decoding"
@@ -7052,8 +7075,8 @@
     "why": "PACE jointly controls response-source routing, filler content and volatility-aware cache admission and is deployed on a humanoid-robot sales service. On 75k CarQA requests it halves pure-LLM P95 perceived time-to-first-response (0.29 vs 0.53s at c16), reaches 0.41s P95 and 2.4x lower latency than RAG at high load with equal quality, cuts filler calls by 94%, and eliminates stale answers in the reported setup.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "VLA / WAM / Physical AI",
@@ -7096,8 +7119,8 @@
     "why": "CONA observes that the best data/tensor/pipeline strategy changes during training and switches strategies online using a throughput-and-gradient surrogate. Across GPT-3 1.3B, BERT-Large and Llama-3.2-1B it reaches target perplexity 1.4-9.6x faster than prior strategy-selection methods.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Distributed Training / Inference"
@@ -7117,8 +7140,8 @@
     "why": "PARSER decouples document reading from reasoning using frozen chunk-local subagents and iterative scatter-gather lead-agent reasoning. On 7K-896K-token multi-hop QA it improves quality while reducing inference latency by up to 11x versus sequential memory agents, making it a strong efficient-agent inference result.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "KV Cache / Long Context",
       "Efficient Reasoning / Agents"
@@ -7138,8 +7161,8 @@
     "why": "Integrates production KV lifecycle management with commodity PIM using hierarchical granule allocation and a Commit Zone for efficient Value writes. Reports 1.95x average speedup and 4.83x energy efficiency over evaluated baselines without PIM processing-unit changes.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context",
@@ -7160,8 +7183,8 @@
     "why": "PELM jointly controls DVFS, speculative decoding and variable verification depth for thermally constrained on-device LLM inference. Across hardware platforms and datasets it reports up to 23.1% speedup and 52.4% energy reduction over prior power-governing methods at comparable task quality; accepted to SenSys 2026 with an official open-source artifact.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Speculative Decoding",
@@ -7182,8 +7205,8 @@
     "why": "Exact norm-of-difference processing element uses the law of cosines to replace conventional multiply-accumulate datapaths without approximation. Reported PE-array reductions are 11-36% area, 5-48% energy, and 11-19% clock period.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Edge / Cloud / Heterogeneous AI"
     ]
@@ -7202,8 +7225,8 @@
     "why": "Phase-specific power control calibrates prefill and decode independently under latency/SLO guards. On 8x B200 with Qwen3-Coder-480B it improves tokens/J by 20.4% at only 3.5% mean end-to-end latency cost and a three-day run saves 32.3% electricity for a lane pair.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving"
     ]
@@ -7222,8 +7245,8 @@
     "why": "Poseidon builds an explicit DAG training-time model and prunes the parallelism search space with stage-level early stopping and layer-to-stage mapping. On heterogeneous accelerator clusters it improves LLM training throughput by up to 2.76x over state-of-the-art systems.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Sparsity / Pruning",
@@ -7245,8 +7268,8 @@
     "why": "Decomposes long-context defect detection into focused tasks and distills the capability into one smaller model. PTC stays within 1.79% F1 of the frontier at up to 98% lower cost and is deployed across multiple countries processing more than 10 million product families.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context"
@@ -7266,8 +7289,8 @@
     "why": "PILL removes preset-length search and avoids repeated multi-step denoising confidence probes for DLM infilling; across five DLMs and eight benchmarks it improves quality while running 1.82x faster than the strongest dynamic-length baseline.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Diffusion / Flow Acceleration"
     ]
@@ -7286,8 +7309,8 @@
     "why": "PV-WM jointly rolls out articulated pedestrians and vehicles with a single recurrent model. Relative to a modular specialist it uses 57.1% fewer parameters, 96.5% lower average FLOPs per local scene and 25.5% lower measured p95 latency while improving forecast errors, giving direct efficient world-model evidence.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Efficient Reasoning / Agents",
@@ -7375,8 +7398,8 @@
     "why": "Replaces interaction-heavy bidirectional multimodal fusion with one-directional residual attention. Reports >60% fewer trainable parameters, 79.60 it/s inference, and strong BACC on IEMOCAP/ESD; direct measured accuracy-efficiency evidence.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Efficient Attention",
@@ -7420,8 +7443,8 @@
     "why": "Training-free random per-head KV eviction that preserves prompts and exploits redundancy in reasoning traces; across four models and six reasoning tasks it matches the strongest prior evictor while serving 32-43% higher throughput in vLLM. Direct systems evidence and official SalesforceAIResearch code make this canonical-high.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context",
@@ -7443,8 +7466,8 @@
     "why": "Controller-managed long-span ECC exploits read-dominated LLM decode and known-erasure repair. At the analytical 2.69 TB/s application target, REACH reports 55.8% less controller area and 57.7% less modeled power than the evaluated mean-work direct-long design while preserving 32 B transactions.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Edge / Cloud / Heterogeneous AI"
@@ -7488,8 +7511,8 @@
     "why": "Adaptive latent-depth reasoning adds loop-time memory and a learned halting head. On MathQA it reaches 56.9% accuracy with 2.0 average loops, beating the best fixed-depth result by 2.2 points at matched compute; CALM needs 5.6 loops for 54.1%, while stronger adaptive baselines use 2.1-3.2 loops for lower accuracy. It also improves same-budget generation across 0.6B-8B models, directly supporting adaptive-compute efficiency.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Efficient Reasoning / Agents"
     ]
@@ -7508,8 +7531,8 @@
     "why": "RedKnot-MLA adapts head-aware offline-online reuse to packed MLA without splitting the latent KV stream. Frozen operating points report 2.02-3.84x hot-artifact TTFT speedups and about 2.0x preliminary 256K QPS, with 78.7-79.5% analytic major-operator arithmetic saving at 256K.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context"
@@ -7616,8 +7639,8 @@
     "why": "Mines historical generator attention into reusable document-keyed evidence views instead of running an online compressor per query. Cuts compression overhead by 5.3-15.6x, adds under 40 ms latency, and improves generation quality by 1.0-5.8 points.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Efficient Attention"
@@ -7658,8 +7681,8 @@
     "why": "7d replay recovered a focused systems benchmark of seven RGB input paths from five libraries, measuring synchronized CUDA float16 batch throughput and peak GPU memory over 759 measurements on an NVIDIA L4. DALI and AlbumentationsX reach median 5,029 and 4,679 images/s on shared recipes; DALI is 1.18x median faster on 22 shared recipes. The work provides actionable coverage/performance evidence and benchmark code for a frequently overlooked training/inference input bottleneck.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "GPU Kernel / DSL / Compiler",
@@ -7700,8 +7723,8 @@
     "why": "RoLA places RoPE outside a nonlinear low-rank feature map so the global branch keeps a reusable linear summary while preserving relative rotary geometry. On Wan2.1-14B video generation at 720p/81 frames on H100, the sparse-low-rank module remains competitive at 90% sparsity and achieves 2.63x measured end-to-end inference speedup.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Sparsity / Pruning",
       "Efficient Attention",
@@ -7746,8 +7769,8 @@
     "why": "Direct heterogeneous-GPU acceleration contribution that repurposes RT cores for exact high-dimensional similarity search with CUDA refinement, batching, shared-memory tiling and compressed result masks; reports up to 8.37x over competitive GPU algorithms and up to 2368.26x over brute force across six real-world datasets.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "GPU Kernel / DSL / Compiler",
@@ -7838,8 +7861,8 @@
     "why": "Semantic-aware replay architecture distinguishes catastrophic from quantization-like numerical faults and adapts replay restart geography. gem5 Garnet plus ASAP7 evaluation reports 30.1% lower quality-normalized terminal latency than fixed 34-hop recovery, including 28.0% lower mean latency, bounded queues under higher-BER stress, and lower DeiT-S mean/p99.5 latency.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Quantization",
       "Distributed Training / Inference"
@@ -7880,8 +7903,8 @@
     "why": "HPC-Ops Top-K uses fixed-stride sampling only to propose a coarse boundary while a mandatory full-row pass certifies correctness, then performs exact FP32 refinement with graph-capturable ragged dispatch. On Hy4-Preview indexer scores it beats the fastest verified exact baseline by 1.29-1.75x across 20 operator configurations (1.55x geometric mean) and gives 1.36x/1.48x on framework traces.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "KV Cache / Long Context",
       "Sparsity / Pruning",
@@ -7948,8 +7971,8 @@
     "why": "7d lower-rank replay recovered a direct empirical multi-node multi-GPU scaling study. KAN data-parallel training reaches 5.97x speedup and 74.7% parallel efficiency at 8 NVIDIA A100 GPUs across 4 nodes, with communication overhead characterized at 1.3%-6.1%. This is concrete distributed-training systems evidence rather than only an algorithmic KAN paper.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference"
@@ -7969,8 +7992,8 @@
     "why": "Direct serving middleware for bounded voice-specific context and runtime directives. Real-world evaluation reports 79.2% lower model usage cost and up to 24.9x lower per-turn cost in long sessions while retaining up to 98.7% baseline answer quality.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Multimodal / MLLM Serving"
@@ -7990,8 +8013,8 @@
     "why": "Conductor moves multi-vehicle world-model fusion and trajectory prediction to the edge, combines an occlusion-aware input selector with a runtime controller, and dynamically adapts both AV input count and prediction work to stay inside a strict Age-of-Information budget. Primary-source evaluation reports the AoI safety bound is met across scenarios with up to 31 CAVs while preserving fusion fidelity close to an Oracle and substantially above random selection under the same deadline, providing direct systems evidence for protected Physical-AI cloud-edge runtime design.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "GPU Kernel / DSL / Compiler",
@@ -8033,8 +8056,8 @@
     "why": "A compact Qwen3-4B extractor with Hyper-Parallel Decoding reaches 85% extraction accuracy, on par with the foundational LLM teacher, while reducing inference cost by 92%. The pipeline is explicitly designed for production-scale catalog extraction, providing direct measured serving-efficiency evidence.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Speculative Decoding"
@@ -8054,8 +8077,8 @@
     "why": "SceneMosaic combines an image-based prior with local VLM-agent evolution and Cartesian composition. On SceneEval-100 it matches the strongest agentic baseline in semantic layout quality with a 24x speedup while reducing physical violations, making it strong embodied-simulation generation infrastructure.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Multimodal / MLLM Serving",
@@ -8101,8 +8124,8 @@
     "why": "SemBridge compiles consumer-visible distributed-tensor obligations into backend-neutral communication plans across CUDA/NCCL and CANN/HCCL. On a measured two-host 1-GbE deployment, source projection cuts result traffic by >99.97% and improves throughput by 8.92-80.20% across Dense, MoE and MiniMax workloads, providing direct systems evidence.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "MoE Systems / Accelerators",
@@ -8146,8 +8169,8 @@
     "why": "Decouples graph-topology reasoning from LLM semantic reasoning using a graph encoder plus constrained RL policy. The implementation loads a 24M-edge authentication subgraph in 14.2 minutes, roughly 24x faster than the canonical MERGE pipeline; alerts trigger within <=2.5 s and the integrated containment loop has 6.3 s median completion.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "KV Cache / Long Context",
       "Efficient Reasoning / Agents",
@@ -8190,8 +8213,8 @@
     "why": "SequenceO1 is deployed at full traffic on Douyin for histories up to 100K interactions. Its compress-then-reason design combines target-agnostic sketches, target-conditioned cross attention, low-rank user-representation caching, multi-request batching, pipeline lift, and a fused FlashSA kernel to amortize storage, communication, and compute across online requests.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Efficient Attention",
@@ -8213,8 +8236,8 @@
     "why": "Streaming MLLM system that uses shallow-layer KV as an always-on retrieval index and invokes deeper computation only for selected evidence; reports up to 52.1x lower per-frame prefill latency and 11.9x lower 10-second end-to-end latency while matching strong streaming baselines.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Multimodal / MLLM Serving"
@@ -8234,8 +8257,8 @@
     "why": "This work isolates DataLoader stalls and collective contention when storage I/O shares the training fabric with NCCL/RCCL. Node-local NVMe staging via DYAD removes both effects, yielding a 7.4x epoch speedup over direct Lustre reads and 1.31x over VAST after cache warmup.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Distributed Training / Inference"
     ]
@@ -8254,8 +8277,8 @@
     "why": "Signed power-of-two KV coding turns QK products into sign/shift/integer accumulation and also uses shift-exact online softmax and log-quantized AV. Fused RTX 4090 kernels report 4.60x speedup over FP16 SDPA at B=8,T=32k with 2.5x smaller KV cache; an iso-storage control isolates 2.02x arithmetic benefit, while the paper explicitly notes matched INT8 MAC can be faster on current GPU hardware.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "KV Cache / Long Context",
       "Quantization",
@@ -8277,8 +8300,8 @@
     "why": "SHIFT reduces redundant online TSDF/ESDF updates by compressing flat regions into super-rays, freezing converged gradients and using a compact ESDF layout. Across RGB-D and LiDAR sequences it cuts TSDF cost by 1.42-4.07x while preserving millimeter-scale mesh error and lowers ESDF memory by up to 28%, directly targeting real-time robotic mapping.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "VLA / WAM / Physical AI"
@@ -8344,8 +8367,8 @@
     "why": "7d systematic replay recovered an execution-level adaptive framework that preserves mature transform workflows while selectively activating spectral blocks. Across materials, biology and optical-communications workloads it reports up to 28.1x transform-update speedup and up to 8.4x overall acceleration, with strong/weak scaling demonstrated on up to eight GPUs inside distributed FFT workflows.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference"
@@ -8412,8 +8435,8 @@
     "why": "Direct RAG-serving systems contribution. Co-designs compact binary retrieval representations with two-server MPC; across 383K-5.42M document corpora, full scans are 4.8-6.7x faster than closest measured prior work, private pruning is 13.1-22.9x faster while retaining 93.9-97.3% full-float NDCG, and largest-corpus sustained throughput improves 31.5x at 1 Gbps.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Sparsity / Pruning"
@@ -8455,8 +8478,8 @@
     "why": "STAR-Pro is a training-free two-stage visual-token reduction method that preserves broad feature coverage before fusion and progressively refines survivors as text-to-visual attention evolves. Across seven LVLMs and 18 image/video benchmarks, LLaVA-Video-7B reduces visual tokens by 90.5%, retains 92.7% of baseline performance, and achieves a measured 2.24x inference speedup.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Sparsity / Pruning",
@@ -8500,8 +8523,8 @@
     "why": "Applies AI tensor-compiler abstractions from TinyTC and Triton to an 8th-order 25-point stencil across Intel, NVIDIA and AMD GPUs. On Intel B580, TinyTC reaches 15.6 Gpts/s versus 13.5 Gpts/s for PyTorch/Triton under random initialization, with zero-initialized runs reaching 35.8 Gpts/s through hardware memory compression; the study also exposes bandwidth and cache-management effects. This is direct measured compiler/runtime throughput evidence.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "GPU Kernel / DSL / Compiler",
@@ -8522,8 +8545,8 @@
     "why": "Replaces offline text-aligned speech tokenization with online RNN-T plus ASR-guided alignment and proactive word-boundary prediction. The reported tokenization latency falls from 560 ms to 270 ms while preserving recognition quality and improving downstream spoken-language modeling.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Multimodal / MLLM Serving"
@@ -8567,8 +8590,8 @@
     "why": "Replacing dense random orthogonal transforms with sign-randomized DCT reduces each quantization iteration from O(N^2) to O(N log N), removes multi-restart k-means initialization, and shows favorable wall-clock scaling while producing native-2-bit-suited factors.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Quantization"
     ]
@@ -8587,8 +8610,8 @@
     "why": "PreferenceEKF moves sequential Bayesian uncertainty inference into a low-dimensional parameter subspace instead of the full neural-network space. The primary paper reports better runtime/scalability/sample efficiency than Bayesian deep-learning baselines; paper results show up to about 40x runtime improvement over Last-Layer MCMC while maintaining competitive reward-model and downstream policy quality.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Efficient Reasoning / Agents"
     ]
@@ -8607,8 +8630,8 @@
     "why": "7d replay recovered a controlled agent-efficiency study showing that explicitly exposing memory and wall-time contracts changes generated program structure. Across three frontier-model cohorts, contract disclosure reduced measured peak memory in 13/14 aligned comparisons and mean wall time in all cohorts, with executions up to 3.1x faster; under a tighter budget, cohort mean MaxRSS and wall time fell 49-74% and 35-64%. This is direct evidence for substrate-aware agent planning as an efficiency mechanism.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Efficient Reasoning / Agents"
     ]
@@ -8627,8 +8650,8 @@
     "why": "7d replay recovered a production LLM-agent execution platform motivated by Amazon Rufus at millions-of-users scale. A typed workflow graph is compiled without workflow-code changes to in-process streaming, durable AWS SWF asynchronous execution, or distributed Apache Flink batch execution; dozens of production agent configurations preserve output quality across bindings, while batch execution reduces per-query inference cost in line with published batch-API discounts.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Distributed Training / Inference",
@@ -8649,8 +8672,8 @@
     "why": "Uses future-video prediction as training-only dense supervision for a six-camera WAM and discards the video branch at deployment via an action-centered causal mask, enabling action-only planning with low inference latency and strong closed-loop/open-loop results. Protected Physical-AI canonical-high.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "VLA / WAM / Physical AI"
     ]
@@ -8669,8 +8692,8 @@
     "why": "Bayesian-optimization-based batch-size tuning for on-device training explicitly targets hardware throughput ceilings across edge devices. With gradient accumulation and linear learning-rate scaling, the paper reports up to 2x training-throughput improvement on Raspberry Pi 4 versus maximum-batch-size settings without accuracy loss.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Edge / Cloud / Heterogeneous AI"
@@ -8690,8 +8713,8 @@
     "why": "TBDub combines production-domain post-training with task-aware DMD/DMD2 distillation, compressing a 30-step video-DiT teacher to a two-step student. On a single H20 at 512x512 it reaches 7.13 effective FPS, reduces total end-to-end latency by 13.93x, and accelerates the DiT stage by 42.49x while largely retaining teacher quality.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Video / Image Generation",
       "Diffusion / Flow Acceleration"
@@ -8711,8 +8734,8 @@
     "why": "TEFM compresses structured observations into compact Behavioral Code tokens and reports roughly 1% token retention in clinical tasks and 2% in security tasks while maintaining competitive classification accuracy. The 98-99% prompt-token reduction is a direct, architecture-agnostic serving-efficiency signal despite the application domains.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving"
     ]
@@ -8731,8 +8754,8 @@
     "why": "TFTrack removes redundant template-search pair processing and complex motion modeling from 3D single-object tracking. On KITTI and nuScenes it remains competitive while reducing FLOPs by about 50% and running at about 120 FPS, directly supporting real-time robotic perception.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "VLA / WAM / Physical AI"
@@ -8752,8 +8775,8 @@
     "why": "7d replay recovered a direct inference-efficiency result: NeuroFusion replaces a multi-chain CoT reporting path with a fast single-pass draft-then-review decoder informed by frozen discriminative features, restoring diagnosis quality while reducing per-case latency by about 5-6x (about 80 s versus 457 s). The contribution includes a clear conditional-computation/inference simplification signal despite the medical application domain.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Speculative Decoding",
@@ -8797,8 +8820,8 @@
     "why": "7d low-rank measured-efficiency replay recovered a direct streaming-generation systems paper absent from authority. TontaubeV1 uses hierarchical codec prediction plus bounded context to stream from a single consumer GPU; on RTX 5090 it reports about 200 ms time-to-first-audio, end-to-end RTF 0.08 for one input and aggregate RTF 0.02 across eight concurrent inputs, while releasing model weights.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "GPU Kernel / DSL / Compiler",
@@ -8819,8 +8842,8 @@
     "why": "Hardware/software co-design for in-memory distance-based addressing performs approximate data-parallel brute-force similarity computation before post-processing pruning. The primary abstract reports near-perfect recall on representative million/billion-scale workloads with orders-of-magnitude performance and energy improvement over state-of-the-art algorithmic approaches.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Sparsity / Pruning",
       "Edge / Cloud / Heterogeneous AI"
@@ -8840,8 +8863,8 @@
     "why": "7d lower-rank replay recovered a learned granular-dynamics simulator with direct solver-relative runtime evidence. TRACE preserves contact history on graph edges and reports 12.2x and 8.9x speedups over the MPM reference solver in 2D and 3D while also reducing long-rollout position and final-deposit errors. This is strong Physical-AI simulation/runtime evidence rather than only a modeling paper.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Efficient Reasoning / Agents",
@@ -8863,8 +8886,8 @@
     "why": "NVIDIA work targeting expert-parallel all-to-all cost via heterogeneous layer re-configuration. At 31.5B scale reports 33.3% fewer GPU-hours while matching/improving downstream quality and improving inference throughput.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "MoE Systems / Accelerators",
@@ -8887,8 +8910,8 @@
     "why": "7d replay recovered a fast-and-slow multimodal diagnostic architecture that avoids executing the full diagnosis path for every monitored window. The fast path reduces latency by 41.1% while maintaining at least 93.5% binary balanced accuracy, making conditional agent/model execution a directly measured efficiency contribution.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Distributed Training / Inference",
@@ -8910,8 +8933,8 @@
     "why": "Minimal Spark tree-aggregation extension that executes a terminal finalize step on an executor so compact result V rather than large intermediate U is materialized on the driver. Default GK Select OOMs at 2.5B elements and executor-side final aggregation at about 16-18B, while Redux Select completes through 28B; Space-Saving supports up to 32x larger sketch capacity. Strong measured distributed-runtime scalability evidence.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Distributed Training / Inference"
     ]
@@ -8930,8 +8953,8 @@
     "why": "REACT is a deployable NCCL shim that detects congestion from runtime flow statistics and retunes collective patterns without switch or global scheduler support. Shared-cluster evaluation improves collective algorithm bandwidth by 13-38%, with simulations showing up to 75%.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Distributed Training / Inference"
@@ -8994,8 +9017,8 @@
     "why": "FP4 pretraining recipe pairing E2M1 payloads with unsigned E5M3 block scales, simplifying scaling and removing RHT/BF16 exemptions in an ablation; 8B/190B-token study reports lower loss and a native execution ablation with 21.2% higher measured model-body token throughput.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Quantization"
@@ -9015,8 +9038,8 @@
     "why": "MeanFlow crystal generator completes samples in one to five network evaluations. It reports 5-58x faster inference; one step matches CrystalFlow with 100x fewer evaluations and about 10x lower wall-clock time, while five steps outperform major diffusion/flow baselines at far fewer evaluations.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Diffusion / Flow Acceleration"
     ]
@@ -9035,8 +9058,8 @@
     "why": "4-bit KV-cache serving path targeted at long-prefix multi-turn agents, combining robust K/V quantization choices with optimized AMD decode-attention kernels and an FP4 path using native scaled-MFMA. Reported cache-pressured P50 TTFT improves 3.47x (2.3x overall) and output throughput 1.63x over FP8 KV baseline.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context",
@@ -9082,8 +9105,8 @@
     "why": "Targets deployment efficiency directly: the ultra-lightweight 3D segmentation model reduces parameters by 97.56%, FLOPs by 73.03%, and inference memory footprint by 81.58% while retaining or improving segmentation fidelity on BraTS2023-GLI and MSD-BTS. These are explicit multi-axis inference-efficiency gains, so it clears the strong quality gate despite the medical application domain.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Edge / Cloud / Heterogeneous AI"
     ]
@@ -9102,8 +9125,8 @@
     "why": "Co-designs session-level KV eviction and tiering for tool-using agent loops via a near-memory scheduler. Across 1,415 sessions and 33,596 turns, the joint policy is best non-oracle on every trace, improves hit rate by 0.3-23.1%, lowers AMAT by 22-51%, and reduces TTFT by 58-89%; the 28-nm controller is 0.169 mm^2 at 13.6 mW.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context",
@@ -9145,8 +9168,8 @@
     "why": "Directory-aware semantic retrieval, trace reuse, and adaptive escalation cut token use to 11.6%-51.9% of prior systems, and to 5.1%-32.5% with experience-edge reuse and escalation, while retaining competitive accuracy.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Efficient Reasoning / Agents",
@@ -9215,8 +9238,8 @@
     "why": "VoRTeC turns a Wan2.1 foundation flow model into a one-step generative video compressor using compact latent encoding, flow-position prediction, tail-frame reuse and prior caching. It reports 3-197x faster decoding than prior diffusion-based methods, reaching 13 FPS at 720p and 32 FPS at 480p.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Video / Image Generation",
       "Diffusion / Flow Acceleration"
@@ -9304,8 +9327,8 @@
     "why": "Direct serving-system contribution for long-context chunked prefill. V-shaped virtual stages plus asynchronous communication/pipelined packing reduce pipeline imbalance; reports up to 13.1% throughput gain over DCPP and pipeline bubble ratio 6.4%->0.1% on 512K DeepSeek-V3.1 prefill.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context",
@@ -9349,8 +9372,8 @@
     "why": "WaferTrans removes the centralized CPU-IOMMU from remote virtual-address translation on wafer-scale GPUs via PTE Presence Consistency, distributed PTE-presence mapping and cooperative lookup. The primary abstract reports 2.5x average performance over the SOTA Trans-FW design, providing direct measured architecture/runtime evidence.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference"
@@ -9391,8 +9414,8 @@
     "why": "Schedules when and how world-model imagination is used for VLA refinement, with bounded multi-view rollouts and outcome-based supervision. On pi0 and pi0.5 it reports consistent manipulation gains while reducing GPU computation time by about 80% versus full imagination. Protected Physical-AI canonical-high.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "GPU Kernel / DSL / Compiler",
@@ -9468,6 +9491,28 @@
     ]
   },
   {
+    "title": "X-CoSD: Communication-Efficient Cross-Vocabulary Collaborative Speculative Decoding",
+    "venue": "arXiv 2026",
+    "topic": "speculative decoding / distributed inference / edge-cloud",
+    "arxiv": "2609.09166",
+    "doi": "",
+    "official_id": "arXiv:2609.09166",
+    "paper_url": "https://arxiv.org/abs/2609.09166",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Lossless collaborative speculative decoding across heterogeneous device/server vocabularies; hybrid/server resampling reduces communication while preserving the server-model distribution and improving token generation speed.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Speculative Decoding",
+      "Distributed Training / Inference",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "X2Streaming-ASR: wait when uncertain, emit when ready for streaming ASR",
     "venue": "arXiv 2026",
     "topic": "multimodal/MLLM serving / streaming ASR / realtime voice agents / low-latency inference",
@@ -9481,8 +9526,8 @@
     "why": "7d lower-rank systematic replay recovered a direct realtime multimodal-serving paper absent from authority. X2Streaming-ASR learns when and what to commit under a single-pass hard-commit constraint; across AISHELL-1/2/3 and WenetSpeech it reports mean character-level commit latency of 27-84 ms versus 409-585 ms for evaluated streaming baselines while achieving the best streaming CER on AISHELL-1 and AISHELL-3.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Multimodal / MLLM Serving",
@@ -9569,8 +9614,8 @@
     "why": "Uses B-spline coefficient action representation to smooth action chunks and enable longer fixed execution horizons without changing the VLA backbone. Reports 1.1x speedup on LIBERO with SMILE-Evo1 and 1.5x on CALVIN with SMILE-VPP while improving task quality; directly addresses amortized VLA inference efficiency and action execution stability.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "VLA / WAM / Physical AI"
@@ -11457,8 +11502,8 @@
     "why": "Direct edge-cloud speculative-inference systems contribution. Probabilistic state cache and asymmetric communication avoid WAN rollback stalls; reports up to 3.52x throughput and near-peak performance under 50 Kbps WAN.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Speculative Decoding",
@@ -11502,8 +11547,8 @@
     "why": "Large-scale systems characterization across up to 2400 GPUs and multiple supercomputers, comparing five parallelization strategies and studying realistic multi-tenant interference and network congestion. Directly relevant to distributed AI infrastructure capacity planning.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Distributed Training / Inference"
     ]
@@ -11522,8 +11567,8 @@
     "why": "Direct long-context inference acceleration. Structural proxy removes JSD routing overhead and sink-aware threshold avoids long-context background-noise accumulation; reports up to 5.30x attention speedup at 512K tokens while matching or exceeding dense attention on retrieval-heavy benchmarks.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context",
@@ -11566,8 +11611,8 @@
     "why": "Aggressive W4A4/W3A3 video-diffusion quantization with stage-aligned QAT and inference guidance; reports up to +6.60 VBench under W3A3 while preserving text-video alignment, with official project/code released.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Quantization",
       "Video / Image Generation",
@@ -11700,8 +11745,8 @@
     "why": "Direct algorithm-architecture co-design for batch-one edge diffusion-LLM inference. WIFiV-LPDDR, BRQ-KV and DAT-FFN jointly target weight/KV traffic; modeled 1.5B/7B systems report 2.88x/4.44x mean latency speedups and 3.79x/3.96x energy reductions with <1 absolute point benchmark loss.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Diffusion / Flow Acceleration",
       "Edge / Cloud / Heterogeneous AI"
@@ -11721,8 +11766,8 @@
     "why": "Direct hardware-aware attention-kernel work for Blackwell. Direct-P maps softmax probabilities directly into FP4 representation and reports up to 2.13x BF16 forward throughput on GB200; the retained causal training path reports up to about 1.14x complete 8B update speedup while explicitly documenting FP4 training-stability limits.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Quantization",
@@ -11744,8 +11789,8 @@
     "why": "Content-aware hierarchical inference scheduler jointly planning visual-token compression and layer offloading under time-varying contact/battery constraints. NVIDIA Jetson AGX Orin hardware-in-the-loop plus constellation-scale replay reports 53.0% lower mean latency and 70.8% lower battery draw while meeting quality targets at 5 tasks/s.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context",
@@ -11766,8 +11811,8 @@
     "why": "System-level split federated LLM fine-tuning that removes bidirectional per-step communication and supports one-shot client upload followed by offline server optimization; evaluated on heterogeneous smartphones and NVIDIA edge boards with substantially reduced communication and client-online time.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Distributed Training / Inference",
       "Edge / Cloud / Heterogeneous AI"
@@ -11902,8 +11947,8 @@
     "why": "Direct MoE inference execution work. Replaces whole-expert execution with path-level composition, compatibility-aware pruning, and a hardware-friendly engine; reports up to 1.31x end-to-end inference speedup while improving model accuracy by 10%.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Sparsity / Pruning",
       "MoE Systems / Accelerators"
@@ -11923,8 +11968,8 @@
     "why": "Direct MLLM serving/runtime work. Token-aware progressive routing plus service-rate-adaptive edge-cloud pipeline; reports >10x routing speed and >75% higher end-to-end throughput than prior routing pipeline.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Multimodal / MLLM Serving",
@@ -11967,8 +12012,8 @@
     "why": "Direct agent-infrastructure runtime that adapts production HPC/Slurm execution to long-horizon agent workflows with unpredictable durations, external API calls and fault-tolerance requirements. Fits protected efficient-agent systems infrastructure scope.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Distributed Training / Inference",
@@ -12011,8 +12056,8 @@
     "why": "Input-conditional sparse-pattern routing with latency-aware budgets and selective dense fallback; on Llama 3.1-8B-Instruct at 128K, reports 6.5x dense-prefill speed with only 0.2-point RULER drop, materially improving the quality-latency tradeoff over fixed per-head routing.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context",
@@ -12034,8 +12079,8 @@
     "why": "Direct AI-infrastructure scaling study for MoE inference prefill. Evaluates 1K-1M context regimes and reports 2.1x-3.2x latency improvements in stressed high-batch regimes, 2.8x-5.8x in communication-limited configurations, and 2.2x-4.5x speedups when electrical systems hit scale-up-pod limits.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "MoE Systems / Accelerators",
@@ -12078,8 +12123,8 @@
     "why": "Direct diffusion inference acceleration. Self-recovering progressive-resolution transition reduces end-to-end latency by 41.5% on FLUX.2-Klein and 44.1% on Z-Image-Turbo; combined with timestep distillation reports 29.61x/19.21x speedups over corresponding 50-step models while preserving competitive quality.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Diffusion / Flow Acceleration"
     ]
@@ -12119,8 +12164,8 @@
     "why": "Introduces diffusion-augmented LLMs and Psi-Spec samplers that preserve the underlying autoregressive model distribution while drawing multiple tokens in parallel, making it a direct lossless decoding-acceleration contribution rather than a quality-speed heuristic.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Speculative Decoding",
       "Diffusion / Flow Acceleration",
@@ -12141,8 +12186,8 @@
     "why": "Direct long-context KV-cache systems contribution for NoPE-MLA. Uses a query-independent signal already present in the cache to partition attended and archived tiers, targeting the failure of observed-attention eviction before future queries exist.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "KV Cache / Long Context",
       "Efficient Attention"
@@ -12184,8 +12229,8 @@
     "why": "Training-free query-adaptive page retrieval for visual RAG that reduces downstream LVLM context and reports up to 58.7% RAG latency reduction while maintaining or improving answer accuracy across multiple visual encoders and LVLMs.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Multimodal / MLLM Serving"
@@ -12205,8 +12250,8 @@
     "why": "Systematic decode-time KV eviction study introducing InertiaKV/InertiaKV-Lazy; periodic refresh yields 1.34-1.46x decode throughput versus full-refresh InertiaKV across six open-weight backbones and LongBench/LongBench-v2/RULER, while isolating temporal aggregation as a key design factor.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context"
@@ -12247,8 +12292,8 @@
     "why": "Mechanistic and deployable W4A4 study of the recurrent half of a 27B hybrid LLM. Quantizes all 496 linear layers including Gated DeltaNet, studies recurrence error propagation and fused-kernel scale mismatch, and supplies calibrated KV-cache scales/checkpoint evidence.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "KV Cache / Long Context",
       "Quantization",
@@ -14587,8 +14632,8 @@
     "why": "AgentSpec targets the large-batch failure mode of speculative decoding for LLM-agent serving. It uses structure-isolated drafting plus redundancy-aware dynamic token-budget allocation, is implemented in vLLM, and evaluates five agent workloads across four model families; the paper reports up to 2.02x speedup over autoregressive decoding while remaining effective at larger batch sizes.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Speculative Decoding",
@@ -15334,8 +15379,8 @@
     "why": "Hardware-software co-design spanning IMC/NMC/in-network compute plus mapping/scheduling and prefill-decode disaggregation; reports >=1.52x throughput and 24.91x energy-efficiency improvement versus commercial GPU platforms.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "GPU Kernel / DSL / Compiler",
@@ -15845,8 +15890,8 @@
     "why": "Direct multimodal inference acceleration. CE-Router plus unified scheduling coordinates layer skipping, FFN pruning, diffusion-head cache reuse, and denoising early exit across understanding and generation.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context",
@@ -15932,8 +15977,8 @@
     "why": "Protected Physical-AI direct acceleration work: training-free adaptive-step flow matching explicitly reduces VLA action-generation inference cost. Fresh 2026-09-01 primary arXiv identity.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Multimodal / MLLM Serving",
@@ -17704,8 +17749,8 @@
     "why": "Direct serving systems work for hybrid linear-attention models. Compresses recurrent state checkpoints by 2.63x; under fixed memory budgets reports 42.6% lower mean TTFT and 68.4% higher input throughput.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Efficient Attention"
@@ -18515,8 +18560,8 @@
     "why": "Direct training-free diffusion caching acceleration. Reports 2.63x speedup on HunyuanVideo and improves quality versus prior caching at matched latency.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Video / Image Generation",
       "Diffusion / Flow Acceleration"
@@ -22502,8 +22547,8 @@
     "why": "Sub-2-bit weight-only PTQ with semi-structured 1:4 salient residuals, GPTQ-style column refinement, and a lookup-table GPU kernel; reports effective 1.7 bits/weight on Qwen3-14B, strong accuracy/perplexity gains, and 7.2x faster per-token generation than FP16. Directly relevant to efficient LLM inference and hardware-friendly quantization.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Quantization",
       "Sparsity / Pruning",
@@ -22845,8 +22890,8 @@
     "why": "Semantic-aware regional diffusion-state reuse for multi-turn DiT image editing; avoids recomputing unchanged regions and reports 1.43x-2.55x end-to-end speedup with comparable quality. Direct systems/algorithm acceleration contribution with public author code.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Video / Image Generation",
       "Diffusion / Flow Acceleration"
@@ -24554,8 +24599,8 @@
     "why": "Direct long-context speculative-decoding systems work combining a stronger draft with compressed draft-side KV memory to preserve acceptance while controlling long-prefix draft latency.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Speculative Decoding",
@@ -26313,8 +26358,8 @@
     "why": "Joint single-GPU 70B deployment study spanning pruning, weight quantization and KV-cache compression under explicit memory/throughput/integration budgets; reports about 33 GB footprint and about 57 tok/s on 10k-token prompts on one A40 while keeping absolute accuracy within 5%.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context",
@@ -27047,8 +27092,8 @@
     "why": "Flow-aware GPU execution framework for Tensor-Train embedding that exposes prefix-shared irregular computation, fuses TT contractions with on-chip retention, and uses persistent-thread scheduling; reports up to 42.2% inference and 49.2% training latency reduction versus EcoRec.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "GPU Kernel / DSL / Compiler"
@@ -37590,8 +37635,8 @@
     "why": "ComVLA adapts the transmitted visual-token budget to wireless channel capacity for cloud-offloaded VLA inference. On LIBERO, sending 32 instead of 512 tokens cuts inference compute by 74% and inference latency by 22% versus OpenVLA-OFT, with 95.4% versus 96.9% average task success, and the paper is accepted to IEEE GLOBECOM 2026.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context",
@@ -37657,8 +37702,8 @@
     "why": "Hierarchical mapping framework combining intra/inter-stage operator parallelism with pipelining across heterogeneous SoCs; reports Pareto throughput-latency mappings and average energy-efficiency gains of 11.0% over pure pipelining and 23.3% over non-pipelined parallel execution on Amlogic SoC.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Distributed Training / Inference",
@@ -40422,8 +40467,8 @@
     "why": "MICRO 2026 algorithm-hardware co-design: Posit quantization plus sensitivity-guided mixed precision and precision-tunable bit-serial systolic array; reports up to 1.8x throughput and 2.0x energy gains versus compared quantized accelerators.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Quantization"
@@ -40443,8 +40488,8 @@
     "why": "MICRO 2026 hardware-aware hierarchical block quantization across weights, activations, KV cache and partial sums; 28nm ASIC evaluation reports 2.3x/4.6x area/energy efficiency over WoQ at matched accuracy and 1.5-3.0x speedup over prior BQ.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "KV Cache / Long Context",
       "Quantization"
@@ -42041,8 +42086,8 @@
     "why": "Accepted MobiCom 2026 systems work. Speculate-and-refine streaming overlaps GPU execution with storage I/O and reports 4.8x-7.5x lower memory use at prior-work best throughput plus 1.6x-2.1x higher token throughput.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context",
@@ -42065,8 +42110,8 @@
     "why": "ACM MobiCom 2026 on-device LLM memory manager for unified-memory mobile SoCs under multitasking. Fine-grained shared buffers, hybrid swap and backward-out eviction enable concurrent restoration; Android/llama.cpp prototype reports 2.1-5.5x TTFT reduction.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context",
@@ -48100,8 +48145,8 @@
     "why": "Cloud-edge speculative serving system with asymmetric verification protocol and confirmed-prefix cross-request pipeline; reports 2.82–28.03x output-token throughput over strongest baseline across three network profiles.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving",
       "Speculative Decoding",
@@ -48167,8 +48212,8 @@
     "why": "Direct diffusion inference acceleration. Chebyshev-inspired stable extrapolation skips expensive DiT block executions; reports up to 3.68x latency speedup and 5.12x FLOPs reduction across DiT-XL/2, PixArt-Sigma and FLUX.1-dev.",
     "published_at": "",
     "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
     "directions": [
       "Diffusion / Flow Acceleration"
     ]
