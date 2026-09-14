@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-14",
   "window_start_beijing": "2026-08-15",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 1242,
+  "tracked_total": 1251,
   "p0_strong_or_canonical": [
     {
       "title": "SAS: Simple Attention Sparsification via End-to-End Optimization of Context Ranking",
@@ -118,6 +118,27 @@
       ]
     },
     {
+      "title": "4D Parallelism Unlocks Exascale Bayesian Neural Networks for High-Fidelity Atmospheric Modeling",
+      "venue": "arXiv 2026",
+      "topic": "distributed training/inference / heterogeneous AI systems",
+      "arxiv": "2609.12815",
+      "doi": "",
+      "official_id": "arXiv:2609.12815",
+      "paper_url": "https://arxiv.org/abs/2609.12815",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "BEAST introduces orthogonal 4D parallelization with domain-tensor parallelism and uncertainty parallelism; reports 3.96 EFLOP/s on 20,480 NVIDIA GH200 GPUs for a 2.4B-parameter configuration.",
+      "published_at": "2026-09-11T13:08:17Z",
+      "updated_at": "2026-09-11T13:08:17Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Distributed Training / Inference",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "RoofLang: Enabling AI-Driven Architecting of LLM Inference Systems",
       "venue": "arXiv 2026",
       "topic": "LLM serving / system architecture DSL / AI-driven design-space exploration",
@@ -224,6 +245,27 @@
         "LLM Serving",
         "GPU Kernel / DSL / Compiler",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Unleashing the Power of Equality Saturation for Tensor Program Superoptimization",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / efficient attention",
+      "arxiv": "2609.12330",
+      "doi": "",
+      "official_id": "arXiv:2609.12330",
+      "paper_url": "https://arxiv.org/abs/2609.12330",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "EqiForge unifies high-level tensor expressions and tiled computations in one IR and uses equality saturation plus early compaction to search fused implementations, including FlashAttention-style kernels.",
+      "published_at": "2026-09-11T01:26:07Z",
+      "updated_at": "2026-09-11T01:26:07Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler"
       ]
     },
     {
@@ -1330,6 +1372,27 @@
       ]
     },
     {
+      "title": "Behavior Quotient Learning for Low-Rank Adaptation of LLM Agents",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / parameter-efficient adaptation",
+      "arxiv": "2609.12896",
+      "doi": "",
+      "official_id": "arXiv:2609.12896",
+      "paper_url": "https://arxiv.org/abs/2609.12896",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Targets multi-adapter storage and inference routing overhead by consolidating heterogeneous agent behaviors under a fixed-rank LoRA budget; retained as agent-efficiency watch.",
+      "published_at": "2026-09-11T14:23:43Z",
+      "updated_at": "2026-09-11T14:23:43Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "RunningTensor: Generalizing Linear Attention to Higher-Order Recurrent States",
       "venue": "arXiv 2026",
       "topic": "efficient attention / linear attention / recurrent state / long context",
@@ -1351,6 +1414,28 @@
       ]
     },
     {
+      "title": "Residual Vector-based Reconstruction as Long-Context Recall Regardless of Context Window Size",
+      "venue": "arXiv 2026",
+      "topic": "KV cache/long-context / efficient reasoning",
+      "arxiv": "2609.12686",
+      "doi": "",
+      "official_id": "arXiv:2609.12686",
+      "paper_url": "https://arxiv.org/abs/2609.12686",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Training-free long-context recall reconstructs source facts via residual vectors in FFN activations and targets near-constant GPU memory as context grows; high-value memory-efficiency signal pending broader systems validation.",
+      "published_at": "2026-09-11T10:31:46Z",
+      "updated_at": "2026-09-11T10:31:46Z",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context",
+        "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Breaking the Vision-Action Shortcut: Latent Interface Training for Generalizable Robotics Foundation Models",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / action head / latent interface",
@@ -1369,6 +1454,29 @@
       "directions": [
         "LLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "TokenMapper: A Step Toward Interoperable Speech Token Translation",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / edge-cloud systems",
+      "arxiv": "2609.12563",
+      "doi": "",
+      "official_id": "arXiv:2609.12563",
+      "paper_url": "https://arxiv.org/abs/2609.12563",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct token-to-token translation across heterogeneous speech codecs avoids waveform decode/re-encode, targeting lower latency and less information loss for conversational voice agents and speech-to-speech systems.",
+      "published_at": "2026-09-11T08:04:09Z",
+      "updated_at": "2026-09-11T08:04:09Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -1417,6 +1525,28 @@
       ]
     },
     {
+      "title": "Agent as Policy for Robotic Manipulation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / streaming agent",
+      "arxiv": "2609.12541",
+      "doi": "",
+      "official_id": "arXiv:2609.12541",
+      "paper_url": "https://arxiv.org/abs/2609.12541",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "General-purpose agent directly controls a physical robot through iterative visual evidence, executable programs and motion commands without task- or environment-specific training; protected Physical-AI lineage though not primarily an inference-system paper.",
+      "published_at": "2026-09-11T07:51:39Z",
+      "updated_at": "2026-09-11T07:51:39Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "AMDKernelVault: Large-Scale Datasets and Agentic Training for AMD GPU Kernel Optimization",
       "venue": "arXiv 2026",
       "topic": "GPU kernel/DSL/compilers / AMD ROCm / agentic kernel optimization",
@@ -1435,6 +1565,74 @@
       "directions": [
         "GPU Kernel / DSL / Compiler",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "ESTS at WMT26: Routing-Informed Expert Pruning for Model Compression",
+      "venue": "arXiv 2026",
+      "topic": "MoE systems/accelerators / quantization / pruning",
+      "arxiv": "2609.12310",
+      "doi": "",
+      "official_id": "arXiv:2609.12310",
+      "paper_url": "https://arxiv.org/abs/2609.12310",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Task-specific MoE compression ranks experts by routing mass and cross-lingual divergence, physically prunes experts, applies MXFP4 to retained projections, and includes a robust inference system; valuable systems-compression signal but task-specific.",
+      "published_at": "2026-09-11T00:30:43Z",
+      "updated_at": "2026-09-11T00:30:43Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Sparsity / Pruning",
+        "MoE Systems / Accelerators"
+      ]
+    },
+    {
+      "title": "DIA: Denoising Intermediate Advantage for Diffusion Policy Optimization",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / action-head / diffusion",
+      "arxiv": "2609.12245",
+      "doi": "",
+      "official_id": "arXiv:2609.12245",
+      "paper_url": "https://arxiv.org/abs/2609.12245",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Addresses credit assignment across inner denoising steps used to construct action chunks in diffusion robot policies; retained under the protected diffusion/action-head Physical-AI neighborhood.",
+      "published_at": "2026-09-10T22:02:28Z",
+      "updated_at": "2026-09-10T22:02:28Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Diffusion / Flow Acceleration",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "MoPA: Coordinated Mobile Manipulation via Subsystem-Specific Perception Alignment",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / multimodal policy",
+      "arxiv": "2609.12081",
+      "doi": "",
+      "official_id": "arXiv:2609.12081",
+      "paper_url": "https://arxiv.org/abs/2609.12081",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Separates subsystem-specific perceptual streams for mobility and manipulation while preserving coordinated action generation; protected Physical-AI watch rather than systems strong.",
+      "published_at": "2026-09-10T18:08:41Z",
+      "updated_at": "2026-09-10T18:08:41Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -26957,6 +27155,27 @@
       ]
     },
     {
+      "title": "4D Parallelism Unlocks Exascale Bayesian Neural Networks for High-Fidelity Atmospheric Modeling",
+      "venue": "arXiv 2026",
+      "topic": "distributed training/inference / heterogeneous AI systems",
+      "arxiv": "2609.12815",
+      "doi": "",
+      "official_id": "arXiv:2609.12815",
+      "paper_url": "https://arxiv.org/abs/2609.12815",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "BEAST introduces orthogonal 4D parallelization with domain-tensor parallelism and uncertainty parallelism; reports 3.96 EFLOP/s on 20,480 NVIDIA GH200 GPUs for a 2.4B-parameter configuration.",
+      "published_at": "2026-09-11T13:08:17Z",
+      "updated_at": "2026-09-11T13:08:17Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Distributed Training / Inference",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "RoofLang: Enabling AI-Driven Architecting of LLM Inference Systems",
       "venue": "arXiv 2026",
       "topic": "LLM serving / system architecture DSL / AI-driven design-space exploration",
@@ -27063,6 +27282,27 @@
         "LLM Serving",
         "GPU Kernel / DSL / Compiler",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Unleashing the Power of Equality Saturation for Tensor Program Superoptimization",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / efficient attention",
+      "arxiv": "2609.12330",
+      "doi": "",
+      "official_id": "arXiv:2609.12330",
+      "paper_url": "https://arxiv.org/abs/2609.12330",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "EqiForge unifies high-level tensor expressions and tiled computations in one IR and uses equality saturation plus early compaction to search fused implementations, including FlashAttention-style kernels.",
+      "published_at": "2026-09-11T01:26:07Z",
+      "updated_at": "2026-09-11T01:26:07Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler"
       ]
     },
     {
@@ -28167,6 +28407,27 @@
       ]
     },
     {
+      "title": "Behavior Quotient Learning for Low-Rank Adaptation of LLM Agents",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / parameter-efficient adaptation",
+      "arxiv": "2609.12896",
+      "doi": "",
+      "official_id": "arXiv:2609.12896",
+      "paper_url": "https://arxiv.org/abs/2609.12896",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Targets multi-adapter storage and inference routing overhead by consolidating heterogeneous agent behaviors under a fixed-rank LoRA budget; retained as agent-efficiency watch.",
+      "published_at": "2026-09-11T14:23:43Z",
+      "updated_at": "2026-09-11T14:23:43Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "RunningTensor: Generalizing Linear Attention to Higher-Order Recurrent States",
       "venue": "arXiv 2026",
       "topic": "efficient attention / linear attention / recurrent state / long context",
@@ -28188,6 +28449,28 @@
       ]
     },
     {
+      "title": "Residual Vector-based Reconstruction as Long-Context Recall Regardless of Context Window Size",
+      "venue": "arXiv 2026",
+      "topic": "KV cache/long-context / efficient reasoning",
+      "arxiv": "2609.12686",
+      "doi": "",
+      "official_id": "arXiv:2609.12686",
+      "paper_url": "https://arxiv.org/abs/2609.12686",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Training-free long-context recall reconstructs source facts via residual vectors in FFN activations and targets near-constant GPU memory as context grows; high-value memory-efficiency signal pending broader systems validation.",
+      "published_at": "2026-09-11T10:31:46Z",
+      "updated_at": "2026-09-11T10:31:46Z",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context",
+        "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Breaking the Vision-Action Shortcut: Latent Interface Training for Generalizable Robotics Foundation Models",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / action head / latent interface",
@@ -28206,6 +28489,29 @@
       "directions": [
         "LLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "TokenMapper: A Step Toward Interoperable Speech Token Translation",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / edge-cloud systems",
+      "arxiv": "2609.12563",
+      "doi": "",
+      "official_id": "arXiv:2609.12563",
+      "paper_url": "https://arxiv.org/abs/2609.12563",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct token-to-token translation across heterogeneous speech codecs avoids waveform decode/re-encode, targeting lower latency and less information loss for conversational voice agents and speech-to-speech systems.",
+      "published_at": "2026-09-11T08:04:09Z",
+      "updated_at": "2026-09-11T08:04:09Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -28254,6 +28560,28 @@
       ]
     },
     {
+      "title": "Agent as Policy for Robotic Manipulation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / streaming agent",
+      "arxiv": "2609.12541",
+      "doi": "",
+      "official_id": "arXiv:2609.12541",
+      "paper_url": "https://arxiv.org/abs/2609.12541",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "General-purpose agent directly controls a physical robot through iterative visual evidence, executable programs and motion commands without task- or environment-specific training; protected Physical-AI lineage though not primarily an inference-system paper.",
+      "published_at": "2026-09-11T07:51:39Z",
+      "updated_at": "2026-09-11T07:51:39Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "AMDKernelVault: Large-Scale Datasets and Agentic Training for AMD GPU Kernel Optimization",
       "venue": "arXiv 2026",
       "topic": "GPU kernel/DSL/compilers / AMD ROCm / agentic kernel optimization",
@@ -28272,6 +28600,74 @@
       "directions": [
         "GPU Kernel / DSL / Compiler",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "ESTS at WMT26: Routing-Informed Expert Pruning for Model Compression",
+      "venue": "arXiv 2026",
+      "topic": "MoE systems/accelerators / quantization / pruning",
+      "arxiv": "2609.12310",
+      "doi": "",
+      "official_id": "arXiv:2609.12310",
+      "paper_url": "https://arxiv.org/abs/2609.12310",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Task-specific MoE compression ranks experts by routing mass and cross-lingual divergence, physically prunes experts, applies MXFP4 to retained projections, and includes a robust inference system; valuable systems-compression signal but task-specific.",
+      "published_at": "2026-09-11T00:30:43Z",
+      "updated_at": "2026-09-11T00:30:43Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Sparsity / Pruning",
+        "MoE Systems / Accelerators"
+      ]
+    },
+    {
+      "title": "DIA: Denoising Intermediate Advantage for Diffusion Policy Optimization",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / action-head / diffusion",
+      "arxiv": "2609.12245",
+      "doi": "",
+      "official_id": "arXiv:2609.12245",
+      "paper_url": "https://arxiv.org/abs/2609.12245",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Addresses credit assignment across inner denoising steps used to construct action chunks in diffusion robot policies; retained under the protected diffusion/action-head Physical-AI neighborhood.",
+      "published_at": "2026-09-10T22:02:28Z",
+      "updated_at": "2026-09-10T22:02:28Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Diffusion / Flow Acceleration",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "MoPA: Coordinated Mobile Manipulation via Subsystem-Specific Perception Alignment",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / multimodal policy",
+      "arxiv": "2609.12081",
+      "doi": "",
+      "official_id": "arXiv:2609.12081",
+      "paper_url": "https://arxiv.org/abs/2609.12081",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Separates subsystem-specific perceptual streams for mobility and manipulation while preserving coordinated action generation; protected Physical-AI watch rather than systems strong.",
+      "published_at": "2026-09-10T18:08:41Z",
+      "updated_at": "2026-09-10T18:08:41Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {

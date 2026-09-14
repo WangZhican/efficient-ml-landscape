@@ -2375,6 +2375,27 @@
     ]
   },
   {
+    "title": "4D Parallelism Unlocks Exascale Bayesian Neural Networks for High-Fidelity Atmospheric Modeling",
+    "venue": "arXiv 2026",
+    "topic": "distributed training/inference / heterogeneous AI systems",
+    "arxiv": "2609.12815",
+    "doi": "",
+    "official_id": "arXiv:2609.12815",
+    "paper_url": "https://arxiv.org/abs/2609.12815",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "BEAST introduces orthogonal 4D parallelization with domain-tensor parallelism and uncertainty parallelism; reports 3.96 EFLOP/s on 20,480 NVIDIA GH200 GPUs for a 2.4B-parameter configuration.",
+    "published_at": "2026-09-11T13:08:17Z",
+    "updated_at": "2026-09-11T13:08:17Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Distributed Training / Inference",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "A HIP-Compatible Accelerator Backend for Fourier-Bessel Particle-in-Cell Simulations on CPU/DCU Heterogeneous Clusters",
     "venue": "arXiv 2026",
     "topic": "GPU kernel/DSL/compilers / heterogeneous accelerators / HIP portability / distributed runtime",
@@ -9087,6 +9108,27 @@
       "LLM Serving",
       "KV Cache / Long Context",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "Unleashing the Power of Equality Saturation for Tensor Program Superoptimization",
+    "venue": "arXiv 2026",
+    "topic": "GPU kernel/DSL/compilers / efficient attention",
+    "arxiv": "2609.12330",
+    "doi": "",
+    "official_id": "arXiv:2609.12330",
+    "paper_url": "https://arxiv.org/abs/2609.12330",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "EqiForge unifies high-level tensor expressions and tiled computations in one IR and uses equality saturation plus early compaction to search fused implementations, including FlashAttention-style kernels.",
+    "published_at": "2026-09-11T01:26:07Z",
+    "updated_at": "2026-09-11T01:26:07Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {
