@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-14",
   "window_start_beijing": "2026-08-15",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 1217,
+  "tracked_total": 1221,
   "p0_strong_or_canonical": [
     {
       "title": "Zetta: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence",
@@ -5095,6 +5095,27 @@
       ]
     },
     {
+      "title": "The Battery Price of edge AI: A study of the Environmental Impact of LLM Inference on Mobile Devices",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / on-device LLM / energy measurement / quantization",
+      "arxiv": "2609.11940",
+      "doi": "",
+      "official_id": "arXiv:2609.11940",
+      "paper_url": "https://arxiv.org/abs/2609.11940",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Systematic measurements of 18 LLM configurations on two smartphones and a server quantify energy/token, latency, quantization effects and battery-cycle impact. It is valuable deployment evidence, including non-monotonic bit-width/energy behavior, but primarily characterization rather than a new acceleration technique.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "The 1/W Law: An Analytical Study of Context-Length Routing Topology and GPU Generation Gains for LLM Inference Energy Efficiency",
       "venue": "arXiv 2026",
       "topic": "LLM serving / context-length routing / inference energy efficiency / heterogeneous GPU fleet",
@@ -7402,6 +7423,27 @@
       ]
     },
     {
+      "title": "RunningTensor: Generalizing Linear Attention to Higher-Order Recurrent States",
+      "venue": "arXiv 2026",
+      "topic": "efficient attention / linear attention / recurrent state / long context",
+      "arxiv": "2609.12814",
+      "doi": "",
+      "official_id": "arXiv:2609.12814",
+      "paper_url": "https://arxiv.org/abs/2609.12814",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "RunningTensor generalizes matrix-valued linear-attention recurrent memory to higher-order tensor state while retaining linear sequence complexity. It improves associative recall and downstream retrieval in the reported experiments, but currently reads more as a modeling primitive than a demonstrated systems acceleration, so it remains watchlist.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context",
+        "Efficient Attention"
+      ]
+    },
+    {
       "title": "RTPO: Reverse-Turn Policy Optimization for Stabilizing Agentic RL Training",
       "venue": "",
       "topic": "video/image generation acceleration / efficient reasoning/agent systems",
@@ -9504,6 +9546,29 @@
       ]
     },
     {
+      "title": "Pixel Decodability Is Not a Compression Signal: Causally Evaluating Importance Proxies for Visual KV-Cache Eviction",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / KV cache / cache eviction / compression signal",
+      "arxiv": "2609.13012",
+      "doi": "",
+      "official_id": "arXiv:2609.13012",
+      "paper_url": "https://arxiv.org/abs/2609.13012",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "A controlled negative result for visual KV-cache compression: pixel reconstructability does not track causal task use and ranks eviction no better than random at super-patch granularity, while attention magnitude is stronger. This is useful evidence for avoiding a misleading MLLM cache-compression heuristic, but not a new acceleration mechanism.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Efficient Attention",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
       "title": "Pipeline-Native Transformers: Co-Designing Model Architecture and CPU Inference for Bandwidth-Efficient Autoregressive Decode",
       "venue": "",
       "topic": "LLM serving / CPU inference / architecture-runtime co-design / MoE",
@@ -10232,6 +10297,27 @@
         "LLM Serving",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "One Simple Trick for Improving the Performance of Energy-Limited Local Inference and Training",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / GPU power throttling / workload chunking",
+      "arxiv": "2609.11936",
+      "doi": "",
+      "official_id": "arXiv:2609.11936",
+      "paper_url": "https://arxiv.org/abs/2609.11936",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Shows that finer alternation of compute- and memory-bound work can smooth power/temperature spikes and reduce throttling on DGX Spark, with up to about 2% performance and energy improvement. The mechanism is directly systems-relevant but the effect size and short-workshop scope warrant watchlist status.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -31385,6 +31471,27 @@
       ]
     },
     {
+      "title": "The Battery Price of edge AI: A study of the Environmental Impact of LLM Inference on Mobile Devices",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / on-device LLM / energy measurement / quantization",
+      "arxiv": "2609.11940",
+      "doi": "",
+      "official_id": "arXiv:2609.11940",
+      "paper_url": "https://arxiv.org/abs/2609.11940",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Systematic measurements of 18 LLM configurations on two smartphones and a server quantify energy/token, latency, quantization effects and battery-cycle impact. It is valuable deployment evidence, including non-monotonic bit-width/energy behavior, but primarily characterization rather than a new acceleration technique.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "The 1/W Law: An Analytical Study of Context-Length Routing Topology and GPU Generation Gains for LLM Inference Energy Efficiency",
       "venue": "arXiv 2026",
       "topic": "LLM serving / context-length routing / inference energy efficiency / heterogeneous GPU fleet",
@@ -33692,6 +33799,27 @@
       ]
     },
     {
+      "title": "RunningTensor: Generalizing Linear Attention to Higher-Order Recurrent States",
+      "venue": "arXiv 2026",
+      "topic": "efficient attention / linear attention / recurrent state / long context",
+      "arxiv": "2609.12814",
+      "doi": "",
+      "official_id": "arXiv:2609.12814",
+      "paper_url": "https://arxiv.org/abs/2609.12814",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "RunningTensor generalizes matrix-valued linear-attention recurrent memory to higher-order tensor state while retaining linear sequence complexity. It improves associative recall and downstream retrieval in the reported experiments, but currently reads more as a modeling primitive than a demonstrated systems acceleration, so it remains watchlist.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context",
+        "Efficient Attention"
+      ]
+    },
+    {
       "title": "RTPO: Reverse-Turn Policy Optimization for Stabilizing Agentic RL Training",
       "venue": "",
       "topic": "video/image generation acceleration / efficient reasoning/agent systems",
@@ -35794,6 +35922,29 @@
       ]
     },
     {
+      "title": "Pixel Decodability Is Not a Compression Signal: Causally Evaluating Importance Proxies for Visual KV-Cache Eviction",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving / KV cache / cache eviction / compression signal",
+      "arxiv": "2609.13012",
+      "doi": "",
+      "official_id": "arXiv:2609.13012",
+      "paper_url": "https://arxiv.org/abs/2609.13012",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "A controlled negative result for visual KV-cache compression: pixel reconstructability does not track causal task use and ranks eviction no better than random at super-patch granularity, while attention magnitude is stronger. This is useful evidence for avoiding a misleading MLLM cache-compression heuristic, but not a new acceleration mechanism.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Efficient Attention",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
       "title": "Pipeline-Native Transformers: Co-Designing Model Architecture and CPU Inference for Bandwidth-Efficient Autoregressive Decode",
       "venue": "",
       "topic": "LLM serving / CPU inference / architecture-runtime co-design / MoE",
@@ -36522,6 +36673,27 @@
         "LLM Serving",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "One Simple Trick for Improving the Performance of Energy-Limited Local Inference and Training",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / GPU power throttling / workload chunking",
+      "arxiv": "2609.11936",
+      "doi": "",
+      "official_id": "arXiv:2609.11936",
+      "paper_url": "https://arxiv.org/abs/2609.11936",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Shows that finer alternation of compute- and memory-bound work can smooth power/temperature spikes and reduce throttling on DGX Spark, with up to about 2% performance and energy improvement. The mechanism is directly systems-relevant but the effect size and short-workshop scope warrant watchlist status.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {

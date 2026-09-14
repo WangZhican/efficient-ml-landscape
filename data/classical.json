@@ -2679,6 +2679,26 @@
     ]
   },
   {
+    "title": "Adaptive AI: Energy Efficient Multi-exit TinyML on Intelligent Vision Systems at the Edge",
+    "venue": "arXiv 2026",
+    "topic": "edge/cloud/heterogeneous AI systems / TinyML / dynamic early exit / low-power SoC",
+    "arxiv": "2609.11939",
+    "doi": "",
+    "official_id": "arXiv:2609.11939",
+    "paper_url": "https://arxiv.org/abs/2609.11939",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "This work deploys dynamic multi-exit CNN inference on the ultra-low-power GAP9 SoC, reducing average compute by 41%, latency by 29% and energy by 24% at about 1% accuracy loss, while more than doubling computational efficiency versus a compared adaptive CNN. It is a direct edge-system efficiency result with real hardware measurements.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Adaptive Context Parallelism for Production LLM Serving",
     "venue": "arXiv 2026",
     "topic": "LLM serving / context parallelism / adaptive placement / prefix cache / cluster reconfiguration",
@@ -7672,6 +7692,30 @@
     "directions": [
       "LLM Serving",
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "SAS: Simple Attention Sparsification via End-to-End Optimization of Context Ranking",
+    "venue": "arXiv 2026",
+    "topic": "sparsity/pruning / efficient attention / long-context / Triton kernel",
+    "arxiv": "2609.13141",
+    "doi": "",
+    "official_id": "arXiv:2609.13141",
+    "paper_url": "https://arxiv.org/abs/2609.13141",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "SAS learns context ranking end-to-end under a fixed sparse-attention budget instead of distilling dense attention scores, and includes a memory-efficient Triton kernel integrated into FlashAttention-style computation for long-sequence training. It outperforms trainable sparse-attention baselines across reasoning, long-context and agentic tasks, especially at tight budgets.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
