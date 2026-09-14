@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-14",
   "window_start_beijing": "2026-08-15",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 1271,
+  "tracked_total": 1277,
   "p0_strong_or_canonical": [
     {
       "title": "SAS: Simple Attention Sparsification via End-to-End Optimization of Context Ranking",
@@ -1415,6 +1415,26 @@
       ]
     },
     {
+      "title": "Fast and Faithful: Principled Conditional Flow Matching for Inverse Problems",
+      "venue": "arXiv 2026",
+      "topic": "diffusion/flow acceleration",
+      "arxiv": "2609.12953",
+      "doi": "",
+      "official_id": "arXiv:2609.12953",
+      "paper_url": "https://arxiv.org/abs/2609.12953",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Conditional flow-matching parameterization reports state-of-the-art PSNR with 50x fewer function evaluations than the strongest flow baseline, making it directly relevant to flow inference efficiency.",
+      "published_at": "2026-09-11T15:12:11Z",
+      "updated_at": "2026-09-11T15:12:11Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
       "title": "Dissecting GPU Utilization for LLM Inference on Nvidia Hopper",
       "venue": "arXiv 2026",
       "topic": "LLM serving / GPU performance characterization / Hopper / vLLM",
@@ -1520,6 +1540,27 @@
       ]
     },
     {
+      "title": "GraphAHA: Graph-Based Adaptive Search with Heterogeneous Actions for Test-Time Code Generation",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems",
+      "arxiv": "2609.12757",
+      "doi": "",
+      "official_id": "arXiv:2609.12757",
+      "paper_url": "https://arxiv.org/abs/2609.12757",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Graph search merges equivalent programs and adaptively allocates a finite inference budget among sampling, reasoning, implementation and repair actions; retained as explicit test-time compute-allocation work.",
+      "published_at": "2026-09-11T12:08:55Z",
+      "updated_at": "2026-09-11T12:08:55Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Residual Vector-based Reconstruction as Long-Context Recall Regardless of Context Window Size",
       "venue": "arXiv 2026",
       "topic": "KV cache/long-context / efficient reasoning",
@@ -1581,6 +1622,27 @@
       "directions": [
         "LLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "GreenDirector: carbon- and water-aware workload placement for sustainable computing",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems",
+      "arxiv": "2609.12602",
+      "doi": "",
+      "official_id": "arXiv:2609.12602",
+      "paper_url": "https://arxiv.org/abs/2609.12602",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Production federated-infrastructure workload placement incorporates carbon, water scarcity, power and hardware efficiency; retained as sustainable AI-infrastructure scheduling lineage, though not model-specific acceleration.",
+      "published_at": "2026-09-11T08:55:29Z",
+      "updated_at": "2026-09-11T08:55:29Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -1886,6 +1948,26 @@
       ]
     },
     {
+      "title": "AIM: A Privacy-Aware Interoperable Memory Framework for Multi-Agent Multi-User LLM Systems",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems",
+      "arxiv": "2609.12320",
+      "doi": "",
+      "official_id": "arXiv:2609.12320",
+      "paper_url": "https://arxiv.org/abs/2609.12320",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Persistent private/shared memory with index-level access control and multi-user memory operations; retained for agent-memory/runtime lineage although acceleration evidence is limited.",
+      "published_at": "2026-09-11T01:00:09Z",
+      "updated_at": "2026-09-11T01:00:09Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "DATAFARM: Distribution-Aligned Task and Motion Planning for Fine-Tuning Vision-Language-Action Models",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving",
@@ -1973,6 +2055,48 @@
         "LLM Serving",
         "Diffusion / Flow Acceleration",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Chopthin-Consensus Power Sampling: A Diversity-Preserving Approach to LLM Decoding",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems",
+      "arxiv": "2609.12243",
+      "doi": "",
+      "official_id": "arXiv:2609.12243",
+      "paper_url": "https://arxiv.org/abs/2609.12243",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Inference-time SMC decoding preserves trajectory diversity and improves reasoning under a fixed particle population; retained as test-time decoding/search efficiency lineage rather than serving-runtime work.",
+      "published_at": "2026-09-10T22:02:07Z",
+      "updated_at": "2026-09-10T22:02:07Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "BRIDGE-EEG: Bridging Self-Supervised Pretraining and Efficient Deployment for Cross-Dataset EEG Classification",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems",
+      "arxiv": "2609.12218",
+      "doi": "",
+      "official_id": "arXiv:2609.12218",
+      "paper_url": "https://arxiv.org/abs/2609.12218",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Compresses a pretrained EEG teacher into compact students and profiles server GPU, CPU and Jetson Orin Nano, reporting up to 3.0x lower edge energy per inference; retained as concrete edge deployment efficiency evidence.",
+      "published_at": "2026-09-10T21:27:10Z",
+      "updated_at": "2026-09-10T21:27:10Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -28878,6 +29002,26 @@
       ]
     },
     {
+      "title": "Fast and Faithful: Principled Conditional Flow Matching for Inverse Problems",
+      "venue": "arXiv 2026",
+      "topic": "diffusion/flow acceleration",
+      "arxiv": "2609.12953",
+      "doi": "",
+      "official_id": "arXiv:2609.12953",
+      "paper_url": "https://arxiv.org/abs/2609.12953",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Conditional flow-matching parameterization reports state-of-the-art PSNR with 50x fewer function evaluations than the strongest flow baseline, making it directly relevant to flow inference efficiency.",
+      "published_at": "2026-09-11T15:12:11Z",
+      "updated_at": "2026-09-11T15:12:11Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
       "title": "Dissecting GPU Utilization for LLM Inference on Nvidia Hopper",
       "venue": "arXiv 2026",
       "topic": "LLM serving / GPU performance characterization / Hopper / vLLM",
@@ -28983,6 +29127,27 @@
       ]
     },
     {
+      "title": "GraphAHA: Graph-Based Adaptive Search with Heterogeneous Actions for Test-Time Code Generation",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems",
+      "arxiv": "2609.12757",
+      "doi": "",
+      "official_id": "arXiv:2609.12757",
+      "paper_url": "https://arxiv.org/abs/2609.12757",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Graph search merges equivalent programs and adaptively allocates a finite inference budget among sampling, reasoning, implementation and repair actions; retained as explicit test-time compute-allocation work.",
+      "published_at": "2026-09-11T12:08:55Z",
+      "updated_at": "2026-09-11T12:08:55Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Residual Vector-based Reconstruction as Long-Context Recall Regardless of Context Window Size",
       "venue": "arXiv 2026",
       "topic": "KV cache/long-context / efficient reasoning",
@@ -29044,6 +29209,27 @@
       "directions": [
         "LLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "GreenDirector: carbon- and water-aware workload placement for sustainable computing",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems",
+      "arxiv": "2609.12602",
+      "doi": "",
+      "official_id": "arXiv:2609.12602",
+      "paper_url": "https://arxiv.org/abs/2609.12602",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Production federated-infrastructure workload placement incorporates carbon, water scarcity, power and hardware efficiency; retained as sustainable AI-infrastructure scheduling lineage, though not model-specific acceleration.",
+      "published_at": "2026-09-11T08:55:29Z",
+      "updated_at": "2026-09-11T08:55:29Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -29349,6 +29535,26 @@
       ]
     },
     {
+      "title": "AIM: A Privacy-Aware Interoperable Memory Framework for Multi-Agent Multi-User LLM Systems",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems",
+      "arxiv": "2609.12320",
+      "doi": "",
+      "official_id": "arXiv:2609.12320",
+      "paper_url": "https://arxiv.org/abs/2609.12320",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Persistent private/shared memory with index-level access control and multi-user memory operations; retained for agent-memory/runtime lineage although acceleration evidence is limited.",
+      "published_at": "2026-09-11T01:00:09Z",
+      "updated_at": "2026-09-11T01:00:09Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "DATAFARM: Distribution-Aligned Task and Motion Planning for Fine-Tuning Vision-Language-Action Models",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving",
@@ -29436,6 +29642,48 @@
         "LLM Serving",
         "Diffusion / Flow Acceleration",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Chopthin-Consensus Power Sampling: A Diversity-Preserving Approach to LLM Decoding",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems",
+      "arxiv": "2609.12243",
+      "doi": "",
+      "official_id": "arXiv:2609.12243",
+      "paper_url": "https://arxiv.org/abs/2609.12243",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Inference-time SMC decoding preserves trajectory diversity and improves reasoning under a fixed particle population; retained as test-time decoding/search efficiency lineage rather than serving-runtime work.",
+      "published_at": "2026-09-10T22:02:07Z",
+      "updated_at": "2026-09-10T22:02:07Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "BRIDGE-EEG: Bridging Self-Supervised Pretraining and Efficient Deployment for Cross-Dataset EEG Classification",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems",
+      "arxiv": "2609.12218",
+      "doi": "",
+      "official_id": "arXiv:2609.12218",
+      "paper_url": "https://arxiv.org/abs/2609.12218",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Compresses a pretrained EEG teacher into compact students and profiles server GPU, CPU and Jetson Orin Nano, reporting up to 3.0x lower edge energy per inference; retained as concrete edge deployment efficiency evidence.",
+      "published_at": "2026-09-10T21:27:10Z",
+      "updated_at": "2026-09-10T21:27:10Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {

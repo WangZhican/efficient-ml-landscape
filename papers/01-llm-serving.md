@@ -1,10 +1,10 @@
 # 01 · LLM Serving
 
-> **1085 canonical papers** mapped here, plus a broader **775-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **1085 canonical papers** mapped here, plus a broader **777-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 775 tracked
+## 🆕 Latest 30 Days · 777 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -17,6 +17,7 @@
 | **P1 · Watch** | **Input Resolution Matters: Real-Time Object Detection Latency** | arXiv 2026 | edge/cloud/heterogeneous AI systems / inference latency / performance modeling | [Link](https://arxiv.org/abs/2609.12920) | — |
 | **P1 · Watch** | **Parameter-Efficient Retrievers for Polish and European Languages** | arXiv 2026 | LLM serving / efficient retrieval | [Link](https://arxiv.org/abs/2609.12913) | — |
 | **P1 · Watch** | **Breaking the Vision-Action Shortcut: Latent Interface Training for Generalizable Robotics Foundation Models** | arXiv 2026 | VLA/WAM/Physical AI serving / action head / latent interface | [Link](https://arxiv.org/abs/2609.12641) | — |
+| **P1 · Watch** | **GreenDirector: carbon- and water-aware workload placement for sustainable computing** | arXiv 2026 | edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.12602) | — |
 | **P1 · Watch** | **TokenMapper: A Step Toward Interoperable Speech Token Translation** | arXiv 2026 | multimodal/MLLM serving / edge-cloud systems | [Link](https://arxiv.org/abs/2609.12563) | — |
 | **P0 · Strong** | **RoofLang: Enabling AI-Driven Architecting of LLM Inference Systems** | arXiv 2026 | LLM serving / system architecture DSL / AI-driven design-space exploration | [Link](https://arxiv.org/abs/2609.12551) | — |
 | **P1 · Watch** | **Quality-Constrained Routing over a Fixed Pool of Quantized Mixture-of-Experts Instances** | arXiv 2026 | MoE systems/accelerators / quantization / LLM serving / routing | [Link](https://arxiv.org/abs/2609.12550) | — |
@@ -33,6 +34,7 @@
 | **P1 · Watch** | **ESTS at WMT26: Routing-Informed Expert Pruning for Model Compression** | arXiv 2026 | MoE systems/accelerators / quantization / pruning | [Link](https://arxiv.org/abs/2609.12310) | — |
 | **P1 · Watch** | **AnchorVLN: Geometry-Anchored Vision-Language Grounding Reasoning for Open-Vocabulary Navigation** | arXiv 2026 | VLA/WAM/Physical AI serving / embodied navigation | [Link](https://arxiv.org/abs/2609.12285) | — |
 | **P1 · Watch** | **DIA: Denoising Intermediate Advantage for Diffusion Policy Optimization** | arXiv 2026 | VLA/WAM/Physical AI serving / action-head / diffusion | [Link](https://arxiv.org/abs/2609.12245) | — |
+| **P1 · Watch** | **Chopthin-Consensus Power Sampling: A Diversity-Preserving Approach to LLM Decoding** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2609.12243) | — |
 | **P1 · Watch** | **USPLIT-VQA: U-Shaped Split Learning for Visual Question Answering with Contribution-Aware Weighted Aggregation** | arXiv 2026 | edge/cloud/heterogeneous AI systems / multimodal serving | [Link](https://arxiv.org/abs/2609.12168) | — |
 | **P1 · Watch** | **MoPA: Coordinated Mobile Manipulation via Subsystem-Specific Perception Alignment** | arXiv 2026 | VLA/WAM/Physical AI serving / multimodal policy | [Link](https://arxiv.org/abs/2609.12081) | — |
 | **P0 · Strong** | **Efficient Vision-Language-Action Management and Serving for Robot Factories** | arXiv 2026 | VLA/WAM/Physical AI serving / multi-robot multi-model edge serving / SLO-aware multi-GPU runtime | [Link](https://arxiv.org/abs/2609.12075) | — |

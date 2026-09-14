@@ -1,10 +1,10 @@
 # 08 · GPU Kernel / DSL / Compiler
 
-> **530 canonical papers** mapped here, plus a broader **163-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **530 canonical papers** mapped here, plus a broader **164-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 163 tracked
+## 🆕 Latest 30 Days · 164 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -18,6 +18,7 @@
 | **P0 · Strong** | **ForgeMegakernel: A General Framework for Efficient Auto-Regressive Model Decode Megakernels** | arXiv 2026 | GPU kernel/DSL/compilers / LLM serving / decode megakernel generation | [Link](https://arxiv.org/abs/2609.12379) | — |
 | **P0 · Strong** | **Unleashing the Power of Equality Saturation for Tensor Program Superoptimization** | arXiv 2026 | GPU kernel/DSL/compilers / efficient attention | [Link](https://arxiv.org/abs/2609.12330) | — |
 | **P0 · Strong** | **Argus: Orchestrating Cross-Layer GPU Performance Measurements around Semantic Regions** | arXiv 2026 | GPU kernel/DSL/compilers / AI infra / performance tooling | [Link](https://arxiv.org/abs/2609.12299) | — |
+| **P1 · Watch** | **BRIDGE-EEG: Bridging Self-Supervised Pretraining and Efficient Deployment for Cross-Dataset EEG Classification** | arXiv 2026 | edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.12218) | — |
 | **P0 · Strong** | **Efficient Vision-Language-Action Management and Serving for Robot Factories** | arXiv 2026 | VLA/WAM/Physical AI serving / multi-robot multi-model edge serving / SLO-aware multi-GPU runtime | [Link](https://arxiv.org/abs/2609.12075) | — |
 | **P1 · Watch** | **GPU-CFR: 80x Faster Counterfactual Regret Minimization by Compiling the Game to Static Dataflow and CUDA Graph Replay** | Fresh / preprint | GPU kernel/DSL/compilers | [Link](https://arxiv.org/abs/2609.11923) | — |
 | **P1 · Watch** | **E2S-Pruner: Progressive Two-Stage Evidence Fusion for Visual Token Pruning in Vision-Language Models** | Fresh / preprint | visual token pruning / MLLM inference / throughput acceleration | [Link](https://arxiv.org/abs/2608.23253) | — |
