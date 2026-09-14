@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-15",
   "window_start_beijing": "2026-08-16",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 1565,
+  "tracked_total": 1596,
   "p0_strong_or_canonical": [
     {
       "title": "Zetta: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence",
@@ -995,6 +995,28 @@
       "directions": [
         "LLM Serving",
         "Sparsity / Pruning"
+      ]
+    },
+    {
+      "title": "Speculation at a Distance: Where Edge-Cloud Speculative Decoding Actually Pays Off",
+      "venue": "arXiv updated in 7d",
+      "topic": "speculative decoding / edge-cloud inference",
+      "arxiv": "2606.25091",
+      "doi": "",
+      "official_id": "arXiv:2606.25091",
+      "paper_url": "https://arxiv.org/abs/2606.25091",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Systems analysis derives when edge-cloud distributed speculative decoding can and cannot beat co-located SD, showing WAN latency usually prevents single-request wins and identifying multi-tenant server capacity as its strongest deployment case.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Speculative Decoding",
+        "Distributed Training / Inference",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -2849,6 +2871,26 @@
       ]
     },
     {
+      "title": "MemForest: An Efficient Agent Memory System with Hierarchical Temporal Indexing",
+      "venue": "arXiv updated in 7d",
+      "topic": "efficient reasoning/agent systems / memory infrastructure",
+      "arxiv": "2605.23986",
+      "doi": "",
+      "official_id": "arXiv:2605.23986",
+      "paper_url": "https://arxiv.org/abs/2605.23986",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Production-oriented agent-memory system removes sequential write bottlenecks via parallel extraction and a hierarchical temporal MemTree; reaches 81.8% LongMemEval-S with Qwen3-30B while delivering 6.0x EverMemOS build rate and 9.5x on a matched LoCoMo conversation.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "MedFlow: Class-Aware Multi-Scale Generation for Medical Time-Series Synthesis",
       "venue": "arXiv 2026",
       "topic": "diffusion/flow acceleration / generative inference / sampling throughput / time-series",
@@ -2977,6 +3019,28 @@
         "LLM Serving",
         "KV Cache / Long Context",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Making Every Verified Token Count: Adaptive Verification for MoE Speculative Decoding",
+      "venue": "arXiv updated in 7d",
+      "topic": "speculative decoding / MoE serving",
+      "arxiv": "2605.00342",
+      "doi": "",
+      "official_id": "arXiv:2605.00342",
+      "paper_url": "https://arxiv.org/abs/2605.00342",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "EVICT is a training-free, hyperparameter-free, lossless adaptive verification method for MoE speculative decoding that truncates draft trees using benefit and profiled verification cost; SGLang-compatible and reports up to 2.35x over autoregressive decoding and 1.21x average over EAGLE-3.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Speculative Decoding",
+        "MoE Systems / Accelerators"
       ]
     },
     {
@@ -5828,6 +5892,26 @@
       ]
     },
     {
+      "title": "Compass: Dissecting Communication and Computation Operators for Efficient LLM Training",
+      "venue": "arXiv 2026",
+      "topic": "distributed training/inference / communication-computation overlap",
+      "arxiv": "2609.10549",
+      "doi": "",
+      "official_id": "arXiv:2609.10549",
+      "paper_url": "https://arxiv.org/abs/2609.10549",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Systematically optimizes communication-computation overlap for LLM training: double-ring IntraFusion improves hybrid NVLink-PCIe bandwidth utilization by 1.5-2.5x, an analytical InterDecom model improves up to 1.3x, and the unified selector reaches up to 1.42x end-to-end speedup over Megatron-LM across extensive configurations.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Distributed Training / Inference"
+      ]
+    },
+    {
       "title": "CoFiE: Coarse-to-Fine Evidence Selection for Efficient Streaming Video Understanding",
       "venue": "arXiv 2026",
       "topic": "multimodal/MLLM serving / sparsity / streaming video",
@@ -6766,6 +6850,27 @@
       "tracking_tier": "P0 · Strong",
       "directions": [
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "AdaExplore: Failure-Driven Adaptation and Diversity-Preserving Search for Efficient Kernel Generation",
+      "venue": "arXiv updated in 7d",
+      "topic": "GPU kernel/DSL/compilers / LLM kernel generation",
+      "arxiv": "2604.16625",
+      "doi": "",
+      "official_id": "arXiv:2604.16625",
+      "paper_url": "https://arxiv.org/abs/2604.16625",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Execution-feedback agent for Triton kernel generation combines reusable failure memory with diversity-preserving search; reports 3.11x and 1.62x speedups on KernelBench Level-2/3 within 100 steps without additional fine-tuning.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -8658,6 +8763,27 @@
       ]
     },
     {
+      "title": "ZETA: A Controlled Study of Zero-Shot Cross-Embodiment VLA Transfer for Tabletop Manipulation",
+      "venue": "arXiv updated in 7d",
+      "topic": "VLA/WAM/Physical AI serving / cross-embodiment VLA",
+      "arxiv": "2609.02546",
+      "doi": "",
+      "official_id": "arXiv:2609.02546",
+      "paper_url": "https://arxiv.org/abs/2609.02546",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected VLA study across 14 held-out embodiments isolates representation, embodiment diversity, auxiliary co-training and target exposure effects, providing deployment-relevant cross-robot transfer evidence.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "XMerge: Cross-Axis Selection and Reconstructive Layer Merging for LLM Depth Compression",
       "venue": "arXiv 2026",
       "topic": "sparsity/pruning / LLM compression / serving",
@@ -9197,6 +9323,28 @@
       ]
     },
     {
+      "title": "What Matters in Orchestrating Robot Policies: A Systematic Study of Hierarchical VLA Agents",
+      "venue": "arXiv updated in 7d",
+      "topic": "VLA/WAM/Physical AI serving / hierarchical VLA systems",
+      "arxiv": "2606.10267",
+      "doi": "",
+      "official_id": "arXiv:2606.10267",
+      "paper_url": "https://arxiv.org/abs/2606.10267",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI systems study: unifies hierarchical VLA agents under an options-style framework and systematically studies planner/controller/interface/memory design across simulation and real ALOHA deployment.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "What It Costs to Compose, Rebuild, and Correct Precomputed Memory",
       "venue": "",
       "topic": "LLM serving / KV cache/long-context / video/image generation acceleration",
@@ -9515,6 +9663,27 @@
       "is_latest_30d": true,
       "directions": [
         "Quantization"
+      ]
+    },
+    {
+      "title": "VIScore: Diagnosing Planning-Relevant Quality in Latent World Models",
+      "venue": "arXiv updated in 7d",
+      "topic": "VLA/WAM/Physical AI serving / world-model evaluation",
+      "arxiv": "2608.11174",
+      "doi": "",
+      "official_id": "arXiv:2608.11174",
+      "paper_url": "https://arxiv.org/abs/2608.11174",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI diagnostic: measures encoder, predictor and planner quality in latent world models and is designed to correlate with downstream planning success across seen and unseen tasks.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -11777,6 +11946,29 @@
       ]
     },
     {
+      "title": "TacVLA: Contact-Aware Tactile Fusion for Robust Vision-Language-Action Manipulation",
+      "venue": "arXiv updated in 7d",
+      "topic": "VLA/WAM/Physical AI serving / multimodal VLA",
+      "arxiv": "2603.12665",
+      "doi": "",
+      "official_id": "arXiv:2603.12665",
+      "paper_url": "https://arxiv.org/abs/2603.12665",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected VLA item: contact-aware gating activates tactile tokens only on contact, improving fine manipulation and occlusion robustness while avoiding irrelevant tactile-token interference.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "TAAL: Mitigating Early Beam Pruning in Generative Recommendation via Temporal Autoregressive Alignment",
       "venue": "",
       "topic": "LLM serving / sparsity/pruning",
@@ -11924,6 +12116,27 @@
       "directions": [
         "LLM Serving",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Successive Capacity Growth: Task-Complexity-Driven Width and Depth Expansion for Vision Transformer Encoders in JEPA World Models",
+      "venue": "arXiv updated in 7d",
+      "topic": "VLA/WAM/Physical AI serving / adaptive world-model compute",
+      "arxiv": "2608.27367",
+      "doi": "",
+      "official_id": "arXiv:2608.27367",
+      "paper_url": "https://arxiv.org/abs/2608.27367",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected efficiency item: starts JEPA encoders small and expands width/depth only when task complexity requires it; reports improved prediction with much higher parameter efficiency than fixed large encoders.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -12482,6 +12695,27 @@
       "directions": [
         "Speculative Decoding",
         "KV Cache / Long Context"
+      ]
+    },
+    {
+      "title": "Spectral-Target Physical Latent Structuring for JEPA-Style World Models",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / world models",
+      "arxiv": "2609.04264",
+      "doi": "",
+      "official_id": "arXiv:2609.04264",
+      "paper_url": "https://arxiv.org/abs/2609.04264",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI world-model item: a lightweight Fourier auxiliary head enforces physical latent structure with no extra inference-time cost and improves planning success/data efficiency in dynamic environments.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -16367,6 +16601,26 @@
       ]
     },
     {
+      "title": "ParaRecover: A Process-Level Benchmark for Error Localization and Recovery in Parallel Tool-Use Agents",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / tool-use reliability",
+      "arxiv": "2609.12345",
+      "doi": "",
+      "official_id": "arXiv:2609.12345",
+      "paper_url": "https://arxiv.org/abs/2609.12345",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Process-level benchmark with 10,626 instances and 14 error types evaluates localization and recovery in multi-turn parallel tool-use agents, exposing cascading-failure and replanning weaknesses relevant to robust agent runtime design.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Parameter-Efficient Retrievers for Polish and European Languages",
       "venue": "arXiv 2026",
       "topic": "LLM serving / efficient retrieval",
@@ -16406,6 +16660,28 @@
         "LLM Serving",
         "Multimodal / MLLM Serving",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "PAN: A World Model for General, Interactable, and Long-Horizon World Simulation",
+      "venue": "arXiv updated in 7d",
+      "topic": "VLA/WAM/Physical AI serving / world model",
+      "arxiv": "2511.09057",
+      "doi": "",
+      "official_id": "arXiv:2511.09057",
+      "paper_url": "https://arxiv.org/abs/2511.09057",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected world-model lineage: general action-conditioned long-horizon simulation combines autoregressive latent dynamics with a video diffusion decoder for interactive future-state prediction.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Diffusion / Flow Acceleration",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -17309,6 +17585,28 @@
       ]
     },
     {
+      "title": "ObstaDiff: Generalizable Diffusion Policy Learning via Obstacle-aware Representations",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / diffusion policy",
+      "arxiv": "2609.10918",
+      "doi": "",
+      "official_id": "arXiv:2609.10918",
+      "paper_url": "https://arxiv.org/abs/2609.10918",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI diffusion-policy item: lightweight obstacle-aware visual encoding structures target/obstacle/background information for collision-aware manipulation; validated in 366 real-robot executions.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Diffusion / Flow Acceleration",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Observe Before You Alert: Adaptive Driver Alerting with Vision-Language Models",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / adaptive perception / driver alerting",
@@ -17392,6 +17690,28 @@
         "LLM Serving",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Numerical Kernels on a Spatial Accelerator: A Study of Tenstorrent Wormhole",
+      "venue": "arXiv updated in 7d",
+      "topic": "edge/cloud/heterogeneous AI systems / accelerator mapping",
+      "arxiv": "2603.23343",
+      "doi": "",
+      "official_id": "arXiv:2603.23343",
+      "paper_url": "https://arxiv.org/abs/2603.23343",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Architecture study of Tenstorrent Wormhole implements and optimizes sparse numerical kernels plus conjugate gradient, comparing against Nvidia GPUs and exposing spatial-accelerator programming/performance tradeoffs.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Sparsity / Pruning",
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -18661,6 +18981,26 @@
       "directions": [
         "Distributed Training / Inference",
         "Video / Image Generation",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Memory as Infrastructure: Reliability Engineering for Persistent Agent Memory in Months-Long LLM-Assisted Development",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / memory infrastructure",
+      "arxiv": "2609.05510",
+      "doi": "",
+      "official_id": "arXiv:2609.05510",
+      "paper_url": "https://arxiv.org/abs/2609.05510",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Treats long-horizon agent memory as production infrastructure with local hybrid retrieval, precision-gated injection, health gates and heartbeat telemetry; reports 78,933 hook invocations and no silent failures in an instrumented months-scale deployment.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
         "Efficient Reasoning / Agents"
       ]
     },
@@ -20644,6 +20984,26 @@
       ]
     },
     {
+      "title": "JetFormer: A Scalable and Efficient Transformer for Jet Tagging from Offline Analysis to FPGA Triggers",
+      "venue": "arXiv updated in 7d",
+      "topic": "edge/cloud/heterogeneous AI systems / FPGA inference",
+      "arxiv": "2601.17215",
+      "doi": "",
+      "official_id": "arXiv:2601.17215",
+      "paper_url": "https://arxiv.org/abs/2601.17215",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Efficient Transformer explicitly spans offline analysis and FPGA trigger deployment, making it useful hardware-aware model-to-FPGA lineage despite its domain-specific HEP workload.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "JEPA Policy: Diffusion-Free Imitation Learning via Paired Action and Future Representation Prediction",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI / diffusion-free action policy / low-latency visuomotor imitation",
@@ -21109,6 +21469,27 @@
       ]
     },
     {
+      "title": "Identifying Habit, Physics, and Nuisance in Robot World Models",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / robot world models",
+      "arxiv": "2609.09210",
+      "doi": "",
+      "official_id": "arXiv:2609.09210",
+      "paper_url": "https://arxiv.org/abs/2609.09210",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected robot-world-model item: separates operator habit, shared physics and observation nuisance, then freezes shared physics while adapting a thin interface; improves low-shot transfer on StackCube, DROID and RH20T.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "ICM-Bench: Person-Level Identity Reasoning in Multimodal Agents with Long-Term Memory",
       "venue": "arXiv 2026",
       "topic": "multimodal/MLLM serving / long-term memory / benchmark",
@@ -21279,6 +21660,27 @@
         "LLM Serving",
         "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "How to Learn from What a Human Would Avoid? Intervention-Aware World Models with Real-World RL for Dexterous Manipulation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / world-model RL safety",
+      "arxiv": "2609.06009",
+      "doi": "",
+      "official_id": "arXiv:2609.06009",
+      "paper_url": "https://arxiv.org/abs/2609.06009",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI item: intervention-aware latent world model predicts human takeover risk for dexterous RL; reports 96.7% complex-grasp success and up to 84% lower intervention burden, with real hardware relevance.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -21558,6 +21960,28 @@
         "LLM Serving",
         "KV Cache / Long Context",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "HaWMPO: Hallucination-Aware World Model-based Policy Optimization for Generalist Robot Policy",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / VLA world-model post-training",
+      "arxiv": "2609.09941",
+      "doi": "",
+      "official_id": "arXiv:2609.09941",
+      "paper_url": "https://arxiv.org/abs/2609.09941",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected VLA item: hallucination-aware world-model rollouts weight action chunks during policy optimization; reports +15.0% over base on LIBERO and 67.5% to 80.0% success on two G1 real-world tasks.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -23804,6 +24228,27 @@
       ]
     },
     {
+      "title": "Exact Record Omission in Delta Attention: A Transport Criterion, Its Cost, and a Replay Certificate",
+      "venue": "arXiv 2026",
+      "topic": "KV cache/long-context / stateful model memory",
+      "arxiv": "2609.06872",
+      "doi": "",
+      "official_id": "arXiv:2609.06872",
+      "paper_url": "https://arxiv.org/abs/2609.06872",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Analyzes exact deletion from recurrent/linear-attention model state on Kimi Linear, Mamba-2, Falcon-H1 and RWKV-7; shows fixed-size transported receipts fail in tested delta-rule states while checkpoint replay gives exact omission, with concrete storage/replay cost implications.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context",
+        "Efficient Attention"
+      ]
+    },
+    {
       "title": "EVPeriscope: Extended Perception across Aerial and Ground Vehicles with Event-based Propeller Tracking",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / edge perception / heterogeneous robots",
@@ -24272,6 +24717,26 @@
       "directions": [
         "Quantization",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "EndPrompt: Efficient Long-Context Extension via Terminal Anchoring",
+      "venue": "arXiv updated in 7d",
+      "topic": "KV cache/long-context / efficient training",
+      "arxiv": "2605.14589",
+      "doi": "",
+      "official_id": "arXiv:2605.14589",
+      "paper_url": "https://arxiv.org/abs/2605.14589",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Extends LLaMA-family context from 8K to 64K using short physical training sequences plus terminal positional anchoring, outperforming full-length fine-tuning on reported long-context benchmarks with substantially lower training computation.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context"
       ]
     },
     {
@@ -25026,6 +25491,27 @@
       ]
     },
     {
+      "title": "DUET-DINO: Simultaneous Cross-View World Modeling for Latent Planning in Robot Manipulation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / latent planning",
+      "arxiv": "2609.10506",
+      "doi": "",
+      "official_id": "arXiv:2609.10506",
+      "paper_url": "https://arxiv.org/abs/2609.10506",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI world-model item: cross-view action-conditioned latent prediction supports full 7-DoF planning and improves manipulation success under visual distribution shifts.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Dual-Layer Semantic-Spatial Belief Mapping for Aerial Object Goal Navigation",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / persistent spatial memory / VLM navigation",
@@ -25177,6 +25663,28 @@
         "LLM Serving",
         "Sparsity / Pruning",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Dressing in Motion: A Human Motion-Aware Diffusion Policy for Robot-Assisted Dressing",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / diffusion policy",
+      "arxiv": "2609.04759",
+      "doi": "",
+      "official_id": "arXiv:2609.04759",
+      "paper_url": "https://arxiv.org/abs/2609.04759",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI diffusion-policy item: object-centric motion representation and reactive trajectory adaptation enable robot-assisted dressing under human motion, validated in simulation and a nine-participant real-world study.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Diffusion / Flow Acceleration",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -25396,6 +25904,27 @@
       "directions": [
         "LLM Serving",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Do New Attention Mechanisms Actually Fix Attention Sinks at Million-Token Context?",
+      "venue": "arXiv 2026",
+      "topic": "KV cache/long-context / efficient attention",
+      "arxiv": "2609.08574",
+      "doi": "",
+      "official_id": "arXiv:2609.08574",
+      "paper_url": "https://arxiv.org/abs/2609.08574",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "SinkProbe evaluates attention sinks, massive activations, position recall and recency at million-token scale; finds sink behavior depends strongly on training objective and that gating does not reproduce prior benefits at the tested scale, making it useful long-context diagnostic lineage.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context",
+        "Efficient Attention"
       ]
     },
     {
@@ -27256,6 +27785,27 @@
       ]
     },
     {
+      "title": "Compact Visuotactile World Models for Lifting: Prediction, Reward Alignment, and Force Constraints",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / compact world models",
+      "arxiv": "2609.09597",
+      "doi": "",
+      "official_id": "arXiv:2609.09597",
+      "paper_url": "https://arxiv.org/abs/2609.09597",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI item: compact visuotactile world model studies sensing, reward alignment and force-constrained control with trajectory-level uncertainty calibration and imagination-based actor-critic learning.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Compact Neural Appearance Models for Efficient Gaussian Splatting",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI / 3DGS / compact appearance representation / CUDA rendering",
@@ -28162,6 +28712,27 @@
       ]
     },
     {
+      "title": "CaliBench: Are the Stochastic Dynamics of Video World Models Physically Calibrated?",
+      "venue": "arXiv updated in 7d",
+      "topic": "VLA/WAM/Physical AI serving / world-model calibration",
+      "arxiv": "2608.16829",
+      "doi": "",
+      "official_id": "arXiv:2608.16829",
+      "paper_url": "https://arxiv.org/abs/2608.16829",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected world-model benchmark: evaluates whether stochastic video world models are physically calibrated across scenes and identifies broad miscalibration, providing a metric for uncertainty-aware physical simulation.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "CAITLYN: Can LLM Agents Autonomously Synthesize Defenses against Emerging Injection Attacks?",
       "venue": "",
       "topic": "LLM serving",
@@ -28757,6 +29328,27 @@
         "MoE Systems / Accelerators",
         "Video / Image Generation",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Beyond Task Success: Stage-Wise Reliability of World Model Planning under Sensing Degradation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / world-model reliability",
+      "arxiv": "2609.07126",
+      "doi": "",
+      "official_id": "arXiv:2609.07126",
+      "paper_url": "https://arxiv.org/abs/2609.07126",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI audit: traces sensing degradation through representation, prediction, planner preference and physical outcome, showing final success alone can hide where disturbances persist or attenuate.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -29510,6 +30102,28 @@
       ]
     },
     {
+      "title": "AtomicVLA: Unlocking the Potential of Atomic Skill Learning in Robots",
+      "venue": "arXiv updated in 7d",
+      "topic": "VLA/WAM/Physical AI serving / VLA MoE",
+      "arxiv": "2603.07648",
+      "doi": "",
+      "official_id": "arXiv:2603.07648",
+      "paper_url": "https://arxiv.org/abs/2603.07648",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected VLA item: planning-and-execution framework uses a Skill-Guided MoE atomic-skill library and dynamic expert routing for long-horizon continual robot learning.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "MoE Systems / Accelerators",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Assessing Fixed-Batch Reporting for Deadline-constrained Inference in Intermittently Powered IoT",
       "venue": "",
       "topic": "Efficient ML / AI Infra",
@@ -29658,6 +30272,27 @@
         "LLM Serving",
         "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "ARC-Bench: Closed-Loop Replanning Masks Broken Action Ranking in Frozen JEPA World Models",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / world-model planning audit",
+      "arxiv": "2609.05461",
+      "doi": "",
+      "official_id": "arXiv:2609.05461",
+      "paper_url": "https://arxiv.org/abs/2609.05461",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI audit: fixed-candidate evaluation exposes severe action-ranking failures in frozen JEPA world models and shows frequent closed-loop replanning can mask them, directly informing world-model planning/runtime evaluation.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -30658,6 +31293,27 @@
       "is_latest_30d": true,
       "directions": [
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "A Three-Layer Caching Architecture for Low-Latency LLM Web Search on Commodity CPU Hardware",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / agent systems / caching",
+      "arxiv": "2609.05463",
+      "doi": "",
+      "official_id": "arXiv:2609.05463",
+      "paper_url": "https://arxiv.org/abs/2609.05463",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Three-layer session, semantic-query and URL-embedding caching reduces redundant LLM/search work on commodity CPU hardware; reports 89.3% aggregate Redis hit rate, 0.1 ms reads and 1.38 MB memory overhead.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -34805,6 +35461,28 @@
       ]
     },
     {
+      "title": "Speculation at a Distance: Where Edge-Cloud Speculative Decoding Actually Pays Off",
+      "venue": "arXiv updated in 7d",
+      "topic": "speculative decoding / edge-cloud inference",
+      "arxiv": "2606.25091",
+      "doi": "",
+      "official_id": "arXiv:2606.25091",
+      "paper_url": "https://arxiv.org/abs/2606.25091",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Systems analysis derives when edge-cloud distributed speculative decoding can and cannot beat co-located SD, showing WAN latency usually prevents single-request wins and identifying multi-tenant server capacity as its strongest deployment case.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Speculative Decoding",
+        "Distributed Training / Inference",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "sp-DBA: a general framework for adaptive transform-domain computation",
       "venue": "arXiv 2026",
       "topic": "GPU kernel/DSL/compilers / distributed GPU runtime / adaptive FFT computation / scientific AI infrastructure",
@@ -36656,6 +37334,26 @@
       ]
     },
     {
+      "title": "MemForest: An Efficient Agent Memory System with Hierarchical Temporal Indexing",
+      "venue": "arXiv updated in 7d",
+      "topic": "efficient reasoning/agent systems / memory infrastructure",
+      "arxiv": "2605.23986",
+      "doi": "",
+      "official_id": "arXiv:2605.23986",
+      "paper_url": "https://arxiv.org/abs/2605.23986",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Production-oriented agent-memory system removes sequential write bottlenecks via parallel extraction and a hierarchical temporal MemTree; reaches 81.8% LongMemEval-S with Qwen3-30B while delivering 6.0x EverMemOS build rate and 9.5x on a matched LoCoMo conversation.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "MedFlow: Class-Aware Multi-Scale Generation for Medical Time-Series Synthesis",
       "venue": "arXiv 2026",
       "topic": "diffusion/flow acceleration / generative inference / sampling throughput / time-series",
@@ -36784,6 +37482,28 @@
         "LLM Serving",
         "KV Cache / Long Context",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Making Every Verified Token Count: Adaptive Verification for MoE Speculative Decoding",
+      "venue": "arXiv updated in 7d",
+      "topic": "speculative decoding / MoE serving",
+      "arxiv": "2605.00342",
+      "doi": "",
+      "official_id": "arXiv:2605.00342",
+      "paper_url": "https://arxiv.org/abs/2605.00342",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "EVICT is a training-free, hyperparameter-free, lossless adaptive verification method for MoE speculative decoding that truncates draft trees using benefit and profiled verification cost; SGLang-compatible and reports up to 2.35x over autoregressive decoding and 1.21x average over EAGLE-3.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Speculative Decoding",
+        "MoE Systems / Accelerators"
       ]
     },
     {
@@ -39635,6 +40355,26 @@
       ]
     },
     {
+      "title": "Compass: Dissecting Communication and Computation Operators for Efficient LLM Training",
+      "venue": "arXiv 2026",
+      "topic": "distributed training/inference / communication-computation overlap",
+      "arxiv": "2609.10549",
+      "doi": "",
+      "official_id": "arXiv:2609.10549",
+      "paper_url": "https://arxiv.org/abs/2609.10549",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Systematically optimizes communication-computation overlap for LLM training: double-ring IntraFusion improves hybrid NVLink-PCIe bandwidth utilization by 1.5-2.5x, an analytical InterDecom model improves up to 1.3x, and the unified selector reaches up to 1.42x end-to-end speedup over Megatron-LM across extensive configurations.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Distributed Training / Inference"
+      ]
+    },
+    {
       "title": "CoFiE: Coarse-to-Fine Evidence Selection for Efficient Streaming Video Understanding",
       "venue": "arXiv 2026",
       "topic": "multimodal/MLLM serving / sparsity / streaming video",
@@ -40573,6 +41313,27 @@
       "tracking_tier": "P0 · Strong",
       "directions": [
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "AdaExplore: Failure-Driven Adaptation and Diversity-Preserving Search for Efficient Kernel Generation",
+      "venue": "arXiv updated in 7d",
+      "topic": "GPU kernel/DSL/compilers / LLM kernel generation",
+      "arxiv": "2604.16625",
+      "doi": "",
+      "official_id": "arXiv:2604.16625",
+      "paper_url": "https://arxiv.org/abs/2604.16625",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Execution-feedback agent for Triton kernel generation combines reusable failure memory with diversity-preserving search; reports 3.11x and 1.62x speedups on KernelBench Level-2/3 within 100 steps without additional fine-tuning.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -42463,6 +43224,27 @@
       ]
     },
     {
+      "title": "ZETA: A Controlled Study of Zero-Shot Cross-Embodiment VLA Transfer for Tabletop Manipulation",
+      "venue": "arXiv updated in 7d",
+      "topic": "VLA/WAM/Physical AI serving / cross-embodiment VLA",
+      "arxiv": "2609.02546",
+      "doi": "",
+      "official_id": "arXiv:2609.02546",
+      "paper_url": "https://arxiv.org/abs/2609.02546",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected VLA study across 14 held-out embodiments isolates representation, embodiment diversity, auxiliary co-training and target exposure effects, providing deployment-relevant cross-robot transfer evidence.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "XMerge: Cross-Axis Selection and Reconstructive Layer Merging for LLM Depth Compression",
       "venue": "arXiv 2026",
       "topic": "sparsity/pruning / LLM compression / serving",
@@ -43002,6 +43784,28 @@
       ]
     },
     {
+      "title": "What Matters in Orchestrating Robot Policies: A Systematic Study of Hierarchical VLA Agents",
+      "venue": "arXiv updated in 7d",
+      "topic": "VLA/WAM/Physical AI serving / hierarchical VLA systems",
+      "arxiv": "2606.10267",
+      "doi": "",
+      "official_id": "arXiv:2606.10267",
+      "paper_url": "https://arxiv.org/abs/2606.10267",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI systems study: unifies hierarchical VLA agents under an options-style framework and systematically studies planner/controller/interface/memory design across simulation and real ALOHA deployment.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "What It Costs to Compose, Rebuild, and Correct Precomputed Memory",
       "venue": "",
       "topic": "LLM serving / KV cache/long-context / video/image generation acceleration",
@@ -43320,6 +44124,27 @@
       "is_latest_30d": true,
       "directions": [
         "Quantization"
+      ]
+    },
+    {
+      "title": "VIScore: Diagnosing Planning-Relevant Quality in Latent World Models",
+      "venue": "arXiv updated in 7d",
+      "topic": "VLA/WAM/Physical AI serving / world-model evaluation",
+      "arxiv": "2608.11174",
+      "doi": "",
+      "official_id": "arXiv:2608.11174",
+      "paper_url": "https://arxiv.org/abs/2608.11174",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI diagnostic: measures encoder, predictor and planner quality in latent world models and is designed to correlate with downstream planning success across seen and unseen tasks.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -45582,6 +46407,29 @@
       ]
     },
     {
+      "title": "TacVLA: Contact-Aware Tactile Fusion for Robust Vision-Language-Action Manipulation",
+      "venue": "arXiv updated in 7d",
+      "topic": "VLA/WAM/Physical AI serving / multimodal VLA",
+      "arxiv": "2603.12665",
+      "doi": "",
+      "official_id": "arXiv:2603.12665",
+      "paper_url": "https://arxiv.org/abs/2603.12665",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected VLA item: contact-aware gating activates tactile tokens only on contact, improving fine manipulation and occlusion robustness while avoiding irrelevant tactile-token interference.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "TAAL: Mitigating Early Beam Pruning in Generative Recommendation via Temporal Autoregressive Alignment",
       "venue": "",
       "topic": "LLM serving / sparsity/pruning",
@@ -45729,6 +46577,27 @@
       "directions": [
         "LLM Serving",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Successive Capacity Growth: Task-Complexity-Driven Width and Depth Expansion for Vision Transformer Encoders in JEPA World Models",
+      "venue": "arXiv updated in 7d",
+      "topic": "VLA/WAM/Physical AI serving / adaptive world-model compute",
+      "arxiv": "2608.27367",
+      "doi": "",
+      "official_id": "arXiv:2608.27367",
+      "paper_url": "https://arxiv.org/abs/2608.27367",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected efficiency item: starts JEPA encoders small and expands width/depth only when task complexity requires it; reports improved prediction with much higher parameter efficiency than fixed large encoders.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -46287,6 +47156,27 @@
       "directions": [
         "Speculative Decoding",
         "KV Cache / Long Context"
+      ]
+    },
+    {
+      "title": "Spectral-Target Physical Latent Structuring for JEPA-Style World Models",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / world models",
+      "arxiv": "2609.04264",
+      "doi": "",
+      "official_id": "arXiv:2609.04264",
+      "paper_url": "https://arxiv.org/abs/2609.04264",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI world-model item: a lightweight Fourier auxiliary head enforces physical latent structure with no extra inference-time cost and improves planning success/data efficiency in dynamic environments.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -50172,6 +51062,26 @@
       ]
     },
     {
+      "title": "ParaRecover: A Process-Level Benchmark for Error Localization and Recovery in Parallel Tool-Use Agents",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / tool-use reliability",
+      "arxiv": "2609.12345",
+      "doi": "",
+      "official_id": "arXiv:2609.12345",
+      "paper_url": "https://arxiv.org/abs/2609.12345",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Process-level benchmark with 10,626 instances and 14 error types evaluates localization and recovery in multi-turn parallel tool-use agents, exposing cascading-failure and replanning weaknesses relevant to robust agent runtime design.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Parameter-Efficient Retrievers for Polish and European Languages",
       "venue": "arXiv 2026",
       "topic": "LLM serving / efficient retrieval",
@@ -50211,6 +51121,28 @@
         "LLM Serving",
         "Multimodal / MLLM Serving",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "PAN: A World Model for General, Interactable, and Long-Horizon World Simulation",
+      "venue": "arXiv updated in 7d",
+      "topic": "VLA/WAM/Physical AI serving / world model",
+      "arxiv": "2511.09057",
+      "doi": "",
+      "official_id": "arXiv:2511.09057",
+      "paper_url": "https://arxiv.org/abs/2511.09057",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected world-model lineage: general action-conditioned long-horizon simulation combines autoregressive latent dynamics with a video diffusion decoder for interactive future-state prediction.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Diffusion / Flow Acceleration",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -51114,6 +52046,28 @@
       ]
     },
     {
+      "title": "ObstaDiff: Generalizable Diffusion Policy Learning via Obstacle-aware Representations",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / diffusion policy",
+      "arxiv": "2609.10918",
+      "doi": "",
+      "official_id": "arXiv:2609.10918",
+      "paper_url": "https://arxiv.org/abs/2609.10918",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI diffusion-policy item: lightweight obstacle-aware visual encoding structures target/obstacle/background information for collision-aware manipulation; validated in 366 real-robot executions.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Diffusion / Flow Acceleration",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Observe Before You Alert: Adaptive Driver Alerting with Vision-Language Models",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / adaptive perception / driver alerting",
@@ -51197,6 +52151,28 @@
         "LLM Serving",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Numerical Kernels on a Spatial Accelerator: A Study of Tenstorrent Wormhole",
+      "venue": "arXiv updated in 7d",
+      "topic": "edge/cloud/heterogeneous AI systems / accelerator mapping",
+      "arxiv": "2603.23343",
+      "doi": "",
+      "official_id": "arXiv:2603.23343",
+      "paper_url": "https://arxiv.org/abs/2603.23343",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Architecture study of Tenstorrent Wormhole implements and optimizes sparse numerical kernels plus conjugate gradient, comparing against Nvidia GPUs and exposing spatial-accelerator programming/performance tradeoffs.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Sparsity / Pruning",
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -52466,6 +53442,26 @@
       "directions": [
         "Distributed Training / Inference",
         "Video / Image Generation",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Memory as Infrastructure: Reliability Engineering for Persistent Agent Memory in Months-Long LLM-Assisted Development",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems / memory infrastructure",
+      "arxiv": "2609.05510",
+      "doi": "",
+      "official_id": "arXiv:2609.05510",
+      "paper_url": "https://arxiv.org/abs/2609.05510",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Treats long-horizon agent memory as production infrastructure with local hybrid retrieval, precision-gated injection, health gates and heartbeat telemetry; reports 78,933 hook invocations and no silent failures in an instrumented months-scale deployment.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
         "Efficient Reasoning / Agents"
       ]
     },
@@ -54449,6 +55445,26 @@
       ]
     },
     {
+      "title": "JetFormer: A Scalable and Efficient Transformer for Jet Tagging from Offline Analysis to FPGA Triggers",
+      "venue": "arXiv updated in 7d",
+      "topic": "edge/cloud/heterogeneous AI systems / FPGA inference",
+      "arxiv": "2601.17215",
+      "doi": "",
+      "official_id": "arXiv:2601.17215",
+      "paper_url": "https://arxiv.org/abs/2601.17215",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Efficient Transformer explicitly spans offline analysis and FPGA trigger deployment, making it useful hardware-aware model-to-FPGA lineage despite its domain-specific HEP workload.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "JEPA Policy: Diffusion-Free Imitation Learning via Paired Action and Future Representation Prediction",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI / diffusion-free action policy / low-latency visuomotor imitation",
@@ -54914,6 +55930,27 @@
       ]
     },
     {
+      "title": "Identifying Habit, Physics, and Nuisance in Robot World Models",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / robot world models",
+      "arxiv": "2609.09210",
+      "doi": "",
+      "official_id": "arXiv:2609.09210",
+      "paper_url": "https://arxiv.org/abs/2609.09210",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected robot-world-model item: separates operator habit, shared physics and observation nuisance, then freezes shared physics while adapting a thin interface; improves low-shot transfer on StackCube, DROID and RH20T.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "ICM-Bench: Person-Level Identity Reasoning in Multimodal Agents with Long-Term Memory",
       "venue": "arXiv 2026",
       "topic": "multimodal/MLLM serving / long-term memory / benchmark",
@@ -55084,6 +56121,27 @@
         "LLM Serving",
         "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "How to Learn from What a Human Would Avoid? Intervention-Aware World Models with Real-World RL for Dexterous Manipulation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / world-model RL safety",
+      "arxiv": "2609.06009",
+      "doi": "",
+      "official_id": "arXiv:2609.06009",
+      "paper_url": "https://arxiv.org/abs/2609.06009",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI item: intervention-aware latent world model predicts human takeover risk for dexterous RL; reports 96.7% complex-grasp success and up to 84% lower intervention burden, with real hardware relevance.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -55363,6 +56421,28 @@
         "LLM Serving",
         "KV Cache / Long Context",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "HaWMPO: Hallucination-Aware World Model-based Policy Optimization for Generalist Robot Policy",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / VLA world-model post-training",
+      "arxiv": "2609.09941",
+      "doi": "",
+      "official_id": "arXiv:2609.09941",
+      "paper_url": "https://arxiv.org/abs/2609.09941",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected VLA item: hallucination-aware world-model rollouts weight action chunks during policy optimization; reports +15.0% over base on LIBERO and 67.5% to 80.0% success on two G1 real-world tasks.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -57609,6 +58689,27 @@
       ]
     },
     {
+      "title": "Exact Record Omission in Delta Attention: A Transport Criterion, Its Cost, and a Replay Certificate",
+      "venue": "arXiv 2026",
+      "topic": "KV cache/long-context / stateful model memory",
+      "arxiv": "2609.06872",
+      "doi": "",
+      "official_id": "arXiv:2609.06872",
+      "paper_url": "https://arxiv.org/abs/2609.06872",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Analyzes exact deletion from recurrent/linear-attention model state on Kimi Linear, Mamba-2, Falcon-H1 and RWKV-7; shows fixed-size transported receipts fail in tested delta-rule states while checkpoint replay gives exact omission, with concrete storage/replay cost implications.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context",
+        "Efficient Attention"
+      ]
+    },
+    {
       "title": "EVPeriscope: Extended Perception across Aerial and Ground Vehicles with Event-based Propeller Tracking",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / edge perception / heterogeneous robots",
@@ -58077,6 +59178,26 @@
       "directions": [
         "Quantization",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "EndPrompt: Efficient Long-Context Extension via Terminal Anchoring",
+      "venue": "arXiv updated in 7d",
+      "topic": "KV cache/long-context / efficient training",
+      "arxiv": "2605.14589",
+      "doi": "",
+      "official_id": "arXiv:2605.14589",
+      "paper_url": "https://arxiv.org/abs/2605.14589",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Extends LLaMA-family context from 8K to 64K using short physical training sequences plus terminal positional anchoring, outperforming full-length fine-tuning on reported long-context benchmarks with substantially lower training computation.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context"
       ]
     },
     {
@@ -58831,6 +59952,27 @@
       ]
     },
     {
+      "title": "DUET-DINO: Simultaneous Cross-View World Modeling for Latent Planning in Robot Manipulation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / latent planning",
+      "arxiv": "2609.10506",
+      "doi": "",
+      "official_id": "arXiv:2609.10506",
+      "paper_url": "https://arxiv.org/abs/2609.10506",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI world-model item: cross-view action-conditioned latent prediction supports full 7-DoF planning and improves manipulation success under visual distribution shifts.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Dual-Layer Semantic-Spatial Belief Mapping for Aerial Object Goal Navigation",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / persistent spatial memory / VLM navigation",
@@ -58982,6 +60124,28 @@
         "LLM Serving",
         "Sparsity / Pruning",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Dressing in Motion: A Human Motion-Aware Diffusion Policy for Robot-Assisted Dressing",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / diffusion policy",
+      "arxiv": "2609.04759",
+      "doi": "",
+      "official_id": "arXiv:2609.04759",
+      "paper_url": "https://arxiv.org/abs/2609.04759",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI diffusion-policy item: object-centric motion representation and reactive trajectory adaptation enable robot-assisted dressing under human motion, validated in simulation and a nine-participant real-world study.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Diffusion / Flow Acceleration",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -59201,6 +60365,27 @@
       "directions": [
         "LLM Serving",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Do New Attention Mechanisms Actually Fix Attention Sinks at Million-Token Context?",
+      "venue": "arXiv 2026",
+      "topic": "KV cache/long-context / efficient attention",
+      "arxiv": "2609.08574",
+      "doi": "",
+      "official_id": "arXiv:2609.08574",
+      "paper_url": "https://arxiv.org/abs/2609.08574",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "SinkProbe evaluates attention sinks, massive activations, position recall and recency at million-token scale; finds sink behavior depends strongly on training objective and that gating does not reproduce prior benefits at the tested scale, making it useful long-context diagnostic lineage.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context",
+        "Efficient Attention"
       ]
     },
     {
@@ -61061,6 +62246,27 @@
       ]
     },
     {
+      "title": "Compact Visuotactile World Models for Lifting: Prediction, Reward Alignment, and Force Constraints",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / compact world models",
+      "arxiv": "2609.09597",
+      "doi": "",
+      "official_id": "arXiv:2609.09597",
+      "paper_url": "https://arxiv.org/abs/2609.09597",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI item: compact visuotactile world model studies sensing, reward alignment and force-constrained control with trajectory-level uncertainty calibration and imagination-based actor-critic learning.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Compact Neural Appearance Models for Efficient Gaussian Splatting",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI / 3DGS / compact appearance representation / CUDA rendering",
@@ -61967,6 +63173,27 @@
       ]
     },
     {
+      "title": "CaliBench: Are the Stochastic Dynamics of Video World Models Physically Calibrated?",
+      "venue": "arXiv updated in 7d",
+      "topic": "VLA/WAM/Physical AI serving / world-model calibration",
+      "arxiv": "2608.16829",
+      "doi": "",
+      "official_id": "arXiv:2608.16829",
+      "paper_url": "https://arxiv.org/abs/2608.16829",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected world-model benchmark: evaluates whether stochastic video world models are physically calibrated across scenes and identifies broad miscalibration, providing a metric for uncertainty-aware physical simulation.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "CAITLYN: Can LLM Agents Autonomously Synthesize Defenses against Emerging Injection Attacks?",
       "venue": "",
       "topic": "LLM serving",
@@ -62562,6 +63789,27 @@
         "MoE Systems / Accelerators",
         "Video / Image Generation",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Beyond Task Success: Stage-Wise Reliability of World Model Planning under Sensing Degradation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / world-model reliability",
+      "arxiv": "2609.07126",
+      "doi": "",
+      "official_id": "arXiv:2609.07126",
+      "paper_url": "https://arxiv.org/abs/2609.07126",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI audit: traces sensing degradation through representation, prediction, planner preference and physical outcome, showing final success alone can hide where disturbances persist or attenuate.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -63315,6 +64563,28 @@
       ]
     },
     {
+      "title": "AtomicVLA: Unlocking the Potential of Atomic Skill Learning in Robots",
+      "venue": "arXiv updated in 7d",
+      "topic": "VLA/WAM/Physical AI serving / VLA MoE",
+      "arxiv": "2603.07648",
+      "doi": "",
+      "official_id": "arXiv:2603.07648",
+      "paper_url": "https://arxiv.org/abs/2603.07648",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected VLA item: planning-and-execution framework uses a Skill-Guided MoE atomic-skill library and dynamic expert routing for long-horizon continual robot learning.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "MoE Systems / Accelerators",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Assessing Fixed-Batch Reporting for Deadline-constrained Inference in Intermittently Powered IoT",
       "venue": "",
       "topic": "Efficient ML / AI Infra",
@@ -63463,6 +64733,27 @@
         "LLM Serving",
         "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "ARC-Bench: Closed-Loop Replanning Masks Broken Action Ranking in Frozen JEPA World Models",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / world-model planning audit",
+      "arxiv": "2609.05461",
+      "doi": "",
+      "official_id": "arXiv:2609.05461",
+      "paper_url": "https://arxiv.org/abs/2609.05461",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI audit: fixed-candidate evaluation exposes severe action-ranking failures in frozen JEPA world models and shows frequent closed-loop replanning can mask them, directly informing world-model planning/runtime evaluation.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -64463,6 +65754,27 @@
       "is_latest_30d": true,
       "directions": [
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "A Three-Layer Caching Architecture for Low-Latency LLM Web Search on Commodity CPU Hardware",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / agent systems / caching",
+      "arxiv": "2609.05463",
+      "doi": "",
+      "official_id": "arXiv:2609.05463",
+      "paper_url": "https://arxiv.org/abs/2609.05463",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Three-layer session, semantic-query and URL-embedding caching reduces redundant LLM/search work on commodity CPU hardware; reports 89.3% aggregate Redis hit rate, 0.1 ms reads and 1.38 MB memory overhead.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents"
       ]
     },
     {

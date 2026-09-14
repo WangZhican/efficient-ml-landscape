@@ -1,10 +1,10 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **525 canonical papers** mapped here, plus a broader **454-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **526 canonical papers** mapped here, plus a broader **457-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 454 tracked
+## 🆕 Latest 30 Days · 457 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -129,6 +129,7 @@
 | **P1 · Watch** | **Steering Recurrent Reasoners at Inference Time with Readout Feedback** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.24136) | — |
 | **P1 · Watch** | **STATrack: A Target-Aware Fully Spiking Neural Network for Efficient UAV Tracking** | Fresh / preprint | LLM serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2603.27493) | — |
 | **P1 · Watch** | **SSP: An Event-Matched Syn2Sim2Phy Cross-Domain Evaluation Framework for Autonomous Driving VLA Models** | Fresh / preprint | multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.14024) | — |
+| **P0 · Strong** | **Speculation at a Distance: Where Edge-Cloud Speculative Decoding Actually Pays Off** | arXiv updated in 7d | speculative decoding / edge-cloud inference | [Link](https://arxiv.org/abs/2606.25091) | — |
 | **P1 · Watch** | **SpecGuard: Inference-Time Backdoor Detection For Free** | Fresh / preprint | LLM serving / speculative decoding / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.11799) | — |
 | **P1 · Watch** | **SocioGesture: Real-Time and Adaptive Social Gesture Perception for Human-Robot Interaction** | arXiv 2026 | VLA/WAM/Physical AI serving / edge perception / human-robot interaction | [Link](https://arxiv.org/abs/2609.04545) | — |
 | **P1 · Watch** | **SNAP-KG: Streaming Node Assignment via Projection for Knowledge Graph Entity Integration** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.25149) | — |
@@ -200,6 +201,7 @@
 | **P0 · Strong** | **OmniKVQuant: KV Cache Quantization for Omni-LLMs** | arXiv 2026 | KV cache/long-context / quantization / multimodal serving | [Link](https://arxiv.org/abs/2609.11582) | — |
 | **P1 · Watch** | **OmniEye: Efficient Multimodal Forensic Video Intelligence for Law-Enforcement Body-Worn Cameras** | arXiv 2026 | multimodal/MLLM serving / edge deployment / quantization | [Link](https://arxiv.org/abs/2609.09460) | — |
 | **P0 · Strong** | **OCTN: Neural OCT Representations for Robot-Guided Precision Intervention** | arXiv 2026 | VLA/WAM/Physical AI serving / edge/GPU runtime / robot-guided intervention | [Link](https://arxiv.org/abs/2609.06810) | [Repo](https://raprakashvi.github.io/octn) |
+| **P1 · Watch** | **Numerical Kernels on a Spatial Accelerator: A Study of Tenstorrent Wormhole** | arXiv updated in 7d | edge/cloud/heterogeneous AI systems / accelerator mapping | [Link](https://arxiv.org/abs/2603.23343) | — |
 | **P1 · Watch** | **NPU Offloading of a Frozen Visual Encoder for Robot Policy Training** | Fresh / preprint | video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.15002) | — |
 | **P1 · Watch** | **NovaFabric: Tamper-Evident, Replayable Evidence for Autonomous AI Agent Runs** | arXiv 2026 | efficient reasoning/agent systems / edge-cloud runtime | [Link](https://arxiv.org/abs/2609.12582) | — |
 | **P1 · Watch** | **NOVA-CIM: Noise- and Correlation-Tolerant Stochastic Interfaces for Analog Compute-in-Memory** | arXiv 2026 | edge/cloud/heterogeneous AI systems / compute-in-memory / accelerator interfaces | [Link](https://arxiv.org/abs/2609.07059) | — |
@@ -249,6 +251,7 @@
 | **P0 · Strong** | **Just Talk Once: Communication-Efficient Split Federated LLM Fine-Tuning on Edge Devices** | CoRR 2026 | distributed training / edge-cloud AI / split federated LLM fine-tuning | [Link](https://arxiv.org/abs/2609.01457) | — |
 | **P1 · Watch** | **Joint Optimization of Memory and Computing Frequency for Energy-Efficient DNN Inference** | Fresh / preprint | LLM serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.13863) | — |
 | **P1 · Watch** | **Jetson-ORB-SLAM3: Accuracy-Preserving GPU Implementation for Edge Computing Devices** | Fresh / preprint | edge vision runtime / GPU offload | [Link](https://arxiv.org/abs/2608.17874) | — |
+| **P1 · Watch** | **JetFormer: A Scalable and Efficient Transformer for Jet Tagging from Offline Analysis to FPGA Triggers** | arXiv updated in 7d | edge/cloud/heterogeneous AI systems / FPGA inference | [Link](https://arxiv.org/abs/2601.17215) | — |
 | **P1 · Watch** | **JEDI: JEPA-to-Edge Distillation for Efficient Cropland Segmentation from Satellite Imagery** | arXiv 2026 | edge/cloud/heterogeneous AI systems / distillation / compact vision | [Link](https://arxiv.org/abs/2609.07915) | — |
 | **P1 · Watch** | **JarvisGUI: Towards Cross-Device GUI Agents with Dynamic Task Composition** | arXiv 2026 | efficient reasoning/agent systems / GUI agents / heterogeneous devices / state transfer | [Link](https://arxiv.org/abs/2609.10451) | — |
 | **P1 · Watch** | **Intern-S2-Preview: Scientific Agentic Foundation Model** | Fresh / preprint | speculative decoding / efficient reasoning/agent systems / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.13505) | — |

@@ -1,10 +1,10 @@
 # 13 · Efficient Reasoning / Agents
 
-> **474 canonical papers** mapped here, plus a broader **480-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **476 canonical papers** mapped here, plus a broader **487-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 480 tracked
+## 🆕 Latest 30 Days · 487 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -47,6 +47,7 @@
 | **P1 · Watch** | **When Not to Imitate: Boundary-Aware Skill Memory for Reliable Tool-Use LLM Agents** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2608.22339) | — |
 | **P1 · Watch** | **When Do LLM Agents Help? Deadline-Aware Mixed-Criticality Task Scheduling at the Autonomous-Vehicle Edge** | Fresh / preprint | LLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.19557) | — |
 | **P1 · Watch** | **What Should an Agent Forget? Separating What Is Stored from What Is Used** | arXiv 2026 | efficient reasoning/agent systems / long-term memory / context compression | [Link](https://arxiv.org/abs/2609.10263) | — |
+| **P1 · Watch** | **What Matters in Orchestrating Robot Policies: A Systematic Study of Hierarchical VLA Agents** | arXiv updated in 7d | VLA/WAM/Physical AI serving / hierarchical VLA systems | [Link](https://arxiv.org/abs/2606.10267) | — |
 | **P1 · Watch** | **What Eviction Destroys: A Restore-Counterfactual Audit of Forgetting in Agent Memory** | arXiv 2026 | efficient reasoning/agent systems / memory eviction / evaluation | [Link](https://arxiv.org/abs/2609.08279) | — |
 | **P1 · Watch** | **What Does an LLM-Agent Leaderboard Rank Actually Compare?** | arXiv 2026 | efficient reasoning/agent systems / evaluation / cost-aware benchmarking | [Link](https://arxiv.org/abs/2609.07785) | — |
 | **P1 · Watch** | **WeAgent-MMSearch: Native Text-Vision Interaction for Multimodal Search Agents** | Fresh / preprint | multimodal/MLLM serving / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.28062) | — |
@@ -188,6 +189,7 @@
 | **P1 · Watch** | **Pelican-Sim 1.0: A General World Model Simulator for Embodied Intelligence** | arXiv 2026 | VLA/WAM/Physical AI / world-model simulation / sparse MoE / efficient rollout | [Link](https://arxiv.org/abs/2609.12036) | — |
 | **P1 · Watch** | **PAVXploreRL: Physical-Action-Visual World Model Reinforcement Learning with Action Exploration** | arXiv 2026 | VLA/WAM/Physical AI serving / world models / policy evaluation | [Link](https://arxiv.org/abs/2607.16602) | — |
 | **P0 · Strong** | **PARSER: Read in Parallel, Reason in Depth for Long-Context LLM Agents** | arXiv 2026 | efficient reasoning/agent systems / long-context / parallel inference | [Link](https://arxiv.org/abs/2609.06702) | — |
+| **P1 · Watch** | **ParaRecover: A Process-Level Benchmark for Error Localization and Recovery in Parallel Tool-Use Agents** | arXiv 2026 | efficient reasoning/agent systems / tool-use reliability | [Link](https://arxiv.org/abs/2609.12345) | — |
 | **P1 · Watch** | **OVMAN: A Task and Benchmark for Open-Vocabulary Motion-Aware Navigation** | arXiv 2026 | VLA/WAM/Physical AI serving / persistent scene memory / navigation | [Link](https://arxiv.org/abs/2609.06424) | — |
 | **P1 · Watch** | **ORDDAR: Observation-Driven Reasoning for Distortion-Resilient Decision, Action, and Cognitive Recovery** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.28704) | — |
 | **P1 · Watch** | **ORCH: Organizational Principles Enable Collective Intelligence in Embodied AI** | arXiv 2026 | VLA/WAM/Physical AI serving / embodied multi-agent orchestration | [Link](https://arxiv.org/abs/2609.11737) | — |
@@ -224,10 +226,12 @@
 | **P1 · Watch** | **Memory Is Not Always Needed: Characterizing Conditional Memory in Scientific Reasoning** | Fresh / preprint | video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.23982) | — |
 | **P1 · Watch** | **Memory Is Communication: The Frontier Between Remembering and Signaling** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2608.17053) | — |
 | **P0 · Strong** | **Memory Compression for High-Fanout Agent Sandboxes** | arXiv 2026 | efficient reasoning/agent systems / sandbox memory / runtime compression | [Link](https://arxiv.org/abs/2609.11294) | — |
+| **P1 · Watch** | **Memory as Infrastructure: Reliability Engineering for Persistent Agent Memory in Months-Long LLM-Assisted Development** | arXiv 2026 | efficient reasoning/agent systems / memory infrastructure | [Link](https://arxiv.org/abs/2609.05510) | — |
 | **P1 · Watch** | **MEMO: Multimodal Evidence Memory Organization for Long-Horizon LLM Agents** | arXiv 2026 | efficient reasoning/agent systems / long-horizon memory / multimodal evidence budgeting | [Link](https://arxiv.org/abs/2609.07471) | — |
 | **P1 · Watch** | **MemGuard: Persisting Verifier Signals for LLM-Agent Memory Governance** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.21867) | [Repo](https://github.com/whyyyyy123/MemGuard) |
 | **P1 · Watch** | **MemFuse: Multi-Source Memory Fusion from Fragmented Observations** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2608.18704) | — |
 | **P0 · Strong** | **MemForest: Efficient Agent Memory Management via EventTree Partitioning and Progressive Merging** | arXiv 2026 | efficient reasoning/agent systems / memory compression / retrieval | [Link](https://arxiv.org/abs/2609.08273) | [Repo](https://github.com/Celina-love-sweet/MemForest) |
+| **P0 · Strong** | **MemForest: An Efficient Agent Memory System with Hierarchical Temporal Indexing** | arXiv updated in 7d | efficient reasoning/agent systems / memory infrastructure | [Link](https://arxiv.org/abs/2605.23986) | — |
 | **P1 · Watch** | **MeClear: Cooperative Game-Theoretic Attribution and Risk-Aware Memory Clearance for Long-Horizon LLM Agents** | arXiv 2026 | efficient reasoning/agent systems / agent memory / context management | [Link](https://arxiv.org/abs/2609.09115) | — |
 | **P0 · Strong** | **Measurement-Driven Sub-Network Selection for On-Premise Retrieval-Augmented Factory Agents** | arXiv 2026 | edge/cloud/heterogeneous AI systems / RAG agents / model compression / deployment selection | [Link](https://arxiv.org/abs/2609.02760) | — |
 | **P1 · Watch** | **Measure Before You Manage: Evaluating Agent Working Memory in Coding Agents** | Fresh / preprint | LLM serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.31057) | — |
@@ -287,6 +291,7 @@
 | **P1 · Watch** | **HLSFactory-Agent: Large-Scale Agentic HLS Dataset Construction from Academic and Open-Source Projects** | arXiv 2026 | GPU kernel/DSL/compilers / hardware design agents / HLS infrastructure | [Link](https://arxiv.org/abs/2609.09519) | — |
 | **P0 · Strong** | **HiRAD: A Flexible Large-Scale AGV Routing System** | arXiv 2026 | VLA/WAM/Physical AI / real-time multi-agent routing / hierarchical RL / edge control | [Link](https://arxiv.org/abs/2609.09752) | — |
 | **P1 · Watch** | **HINT: Human-Intent Inception for Long-Horizon Robot Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving / sparse semantic reasoning / low-latency control | [Link](https://arxiv.org/abs/2609.02653) | [Repo](https://robot-hint.github.io/) |
+| **P1 · Watch** | **HaWMPO: Hallucination-Aware World Model-based Policy Optimization for Generalist Robot Policy** | arXiv 2026 | VLA/WAM/Physical AI serving / VLA world-model post-training | [Link](https://arxiv.org/abs/2609.09941) | — |
 | **P1 · Watch** | **HarnessDev: Can LLMs Create and Evolve Their Own Agent Harness?** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2609.01437) | — |
 | **P1 · Watch** | **Harness-of-Harness: Multi-Day Autonomous Software Development with Continual Improvement** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2609.01481) | [Repo](https://github.com/Flesymeb/HarnessOfHarness) |
 | **P1 · Watch** | **Harness the Memory: A Holistic Evaluation of Memory Substrates in Memory Agents** | Fresh / preprint | KV cache/long-context | [Link](https://arxiv.org/abs/2608.15008) | — |
@@ -471,6 +476,7 @@
 | **P1 · Watch** | **Agent as Policy for Robotic Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving / streaming agent | [Link](https://arxiv.org/abs/2609.12541) | — |
 | **P1 · Watch** | **Affective Agent: On-Device Personalized Intervention Reasoning for Wearable Systems** | arXiv 2026 | edge/cloud/heterogeneous AI systems / efficient reasoning agents | [Link](https://arxiv.org/abs/2609.12322) | — |
 | **P1 · Watch** | **ADEPT: Accelerating Dexterity via Pre-Training and Post-Training using Reinforcement Learning** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.19182) | — |
+| **P0 · Strong** | **AdaExplore: Failure-Driven Adaptation and Diversity-Preserving Search for Efficient Kernel Generation** | arXiv updated in 7d | GPU kernel/DSL/compilers / LLM kernel generation | [Link](https://arxiv.org/abs/2604.16625) | — |
 | **P1 · Watch** | **ActMap: Single-Pass Uncertainty Quantification from Generation-Time Activation Maps** | arXiv 2026 | efficient reasoning/agent systems / single-pass uncertainty / runtime telemetry | [Link](https://arxiv.org/abs/2609.11498) | — |
 | **P1 · Watch** | **ACE: A Self-Correcting Agentic Canvas Editor for Multi-Slide Presentation Automation** | Fresh / preprint | sparsity/pruning / video/image generation acceleration / efficient reasoning/agent systems / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.24103) | — |
 | **P1 · Watch** | **Accuracy is Not Enough: A Divergence-Based Approach to Evaluate Fidelity Loss in Quantized LLMs** | arXiv 2026 | quantization / deployment evaluation / distribution fidelity | [Link](https://arxiv.org/abs/2609.07664) | — |
@@ -480,6 +486,7 @@
 | **P0 · Strong** | **A*-Thought-V2: Efficient Latent Reasoning via Geometric Dynamics of LLM** | arXiv 2026 | efficient reasoning/agent systems / latent reasoning / token compression / efficient training | [Link](https://arxiv.org/abs/2609.07821) | — |
 | **P0 · Strong** | **A Voice-Interactive Multi-Agent System for Smart Operating Rooms: Architecture Design and Key Technologies** | arXiv 2026 | LLM serving / agent systems / KV cache / streaming execution | [Link](https://arxiv.org/abs/2609.11231) | — |
 | **P0 · Strong** | **A Universal Context-Reuse Layer for Cross-Model KV Sharing** | arXiv 2026 | KV cache / LLM serving / cross-model context reuse / multi-agent inference | [Link](https://arxiv.org/abs/2608.30963) | — |
+| **P1 · Watch** | **A Three-Layer Caching Architecture for Low-Latency LLM Web Search on Commodity CPU Hardware** | arXiv 2026 | LLM serving / agent systems / caching | [Link](https://arxiv.org/abs/2609.05463) | — |
 | **P1 · Watch** | **A Storage-Retrieval Gap in Parametric Knowledge Graph Memory** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2608.25489) | — |
 | **P1 · Watch** | **A Schema Bounded Language Model for Refining Robot Policies Without Destabilizing Local Learning** | arXiv 2026 | VLA/WAM/Physical AI serving / hierarchical agent runtime / decentralized robot control | [Link](https://arxiv.org/abs/2609.05133) | — |
 | **P1 · Watch** | **A Brain-inspired Hierarchical Framework for Zero-Shot Robot Task Reasoning and Execution** | arXiv 2026 | VLA/WAM/Physical AI serving / hierarchical robot reasoning / closed-loop execution | [Link](https://arxiv.org/abs/2609.05985) | — |

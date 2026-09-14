@@ -1,10 +1,10 @@
 # 05 · Sparsity / Pruning
 
-> **347 canonical papers** mapped here, plus a broader **187-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **347 canonical papers** mapped here, plus a broader **188-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 187 tracked
+## 🆕 Latest 30 Days · 188 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -113,6 +113,7 @@
 | **P1 · Watch** | **OctWorld: Long-Range World-Consistent Video Generation with Octree-Based 3D Mapping** | arXiv 2026 | video/image generation acceleration / world models / sparse 3D memory | [Link](https://arxiv.org/abs/2609.03919) | — |
 | **P0 · Strong** | **OCTN: Neural OCT Representations for Robot-Guided Precision Intervention** | arXiv 2026 | VLA/WAM/Physical AI serving / edge/GPU runtime / robot-guided intervention | [Link](https://arxiv.org/abs/2609.06810) | [Repo](https://raprakashvi.github.io/octn) |
 | **P1 · Watch** | **Nyström Attention Matches Full Attention for Cross-Sectional Stock Prediction** | arXiv 2026 | efficient attention / low-rank attention / linear-complexity approximation | [Link](https://arxiv.org/abs/2609.08106) | — |
+| **P1 · Watch** | **Numerical Kernels on a Spatial Accelerator: A Study of Tenstorrent Wormhole** | arXiv updated in 7d | edge/cloud/heterogeneous AI systems / accelerator mapping | [Link](https://arxiv.org/abs/2603.23343) | — |
 | **P1 · Watch** | **Neuron-Guided Fine-Tuning: Unlocking Efficient Alignment Mechanisms for Large Language Models** | arXiv 2026 | quantization/sparsity/pruning / parameter-efficient LLM fine-tuning / activation-guided updates | [Link](https://arxiv.org/abs/2609.05913) | — |
 | **P1 · Watch** | **MotionSync: Non-Causal Refinement of Causal Tracker for Label-Efficient 3D Perception** | Fresh / preprint | sparsity/pruning | [Link](https://arxiv.org/abs/2608.29567) | — |
 | **P1 · Watch** | **MoE Router-Guided Clustering for Heterogeneous Federated Instruction Tuning** | Fresh / preprint | MoE systems/accelerators / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.15311) | — |

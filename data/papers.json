@@ -3666,6 +3666,26 @@
     ]
   },
   {
+    "title": "Compass: Dissecting Communication and Computation Operators for Efficient LLM Training",
+    "venue": "arXiv 2026",
+    "topic": "distributed training/inference / communication-computation overlap",
+    "arxiv": "2609.10549",
+    "doi": "",
+    "official_id": "arXiv:2609.10549",
+    "paper_url": "https://arxiv.org/abs/2609.10549",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Systematically optimizes communication-computation overlap for LLM training: double-ring IntraFusion improves hybrid NVLink-PCIe bandwidth utilization by 1.5-2.5x, an analytical InterDecom model improves up to 1.3x, and the unified selector reaches up to 1.42x end-to-end speedup over Megatron-LM across extensive configurations.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "Compiler-Grounded Hierarchical Diagnosis for LLM-Based Triton Kernel Optimization",
     "venue": "arXiv 2026",
     "topic": "GPU kernel/DSL/compilers / NPU kernel optimization",
@@ -9726,6 +9746,91 @@
       "LLM Serving",
       "Speculative Decoding",
       "KV Cache / Long Context"
+    ]
+  },
+  {
+    "title": "AdaExplore: Failure-Driven Adaptation and Diversity-Preserving Search for Efficient Kernel Generation",
+    "venue": "arXiv updated in 7d",
+    "topic": "GPU kernel/DSL/compilers / LLM kernel generation",
+    "arxiv": "2604.16625",
+    "doi": "",
+    "official_id": "arXiv:2604.16625",
+    "paper_url": "https://arxiv.org/abs/2604.16625",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Execution-feedback agent for Triton kernel generation combines reusable failure memory with diversity-preserving search; reports 3.11x and 1.62x speedups on KernelBench Level-2/3 within 100 steps without additional fine-tuning.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "Making Every Verified Token Count: Adaptive Verification for MoE Speculative Decoding",
+    "venue": "arXiv updated in 7d",
+    "topic": "speculative decoding / MoE serving",
+    "arxiv": "2605.00342",
+    "doi": "",
+    "official_id": "arXiv:2605.00342",
+    "paper_url": "https://arxiv.org/abs/2605.00342",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "EVICT is a training-free, hyperparameter-free, lossless adaptive verification method for MoE speculative decoding that truncates draft trees using benefit and profiled verification cost; SGLang-compatible and reports up to 2.35x over autoregressive decoding and 1.21x average over EAGLE-3.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "MoE Systems / Accelerators"
+    ]
+  },
+  {
+    "title": "MemForest: An Efficient Agent Memory System with Hierarchical Temporal Indexing",
+    "venue": "arXiv updated in 7d",
+    "topic": "efficient reasoning/agent systems / memory infrastructure",
+    "arxiv": "2605.23986",
+    "doi": "",
+    "official_id": "arXiv:2605.23986",
+    "paper_url": "https://arxiv.org/abs/2605.23986",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Production-oriented agent-memory system removes sequential write bottlenecks via parallel extraction and a hierarchical temporal MemTree; reaches 81.8% LongMemEval-S with Qwen3-30B while delivering 6.0x EverMemOS build rate and 9.5x on a matched LoCoMo conversation.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "Speculation at a Distance: Where Edge-Cloud Speculative Decoding Actually Pays Off",
+    "venue": "arXiv updated in 7d",
+    "topic": "speculative decoding / edge-cloud inference",
+    "arxiv": "2606.25091",
+    "doi": "",
+    "official_id": "arXiv:2606.25091",
+    "paper_url": "https://arxiv.org/abs/2606.25091",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Systems analysis derives when edge-cloud distributed speculative decoding can and cannot beat co-located SD, showing WAN latency usually prevents single-request wins and identifying multi-tenant server capacity as its strongest deployment case.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Speculative Decoding",
+      "Distributed Training / Inference",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
