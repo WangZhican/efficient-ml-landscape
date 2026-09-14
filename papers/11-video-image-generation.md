@@ -1,10 +1,10 @@
 # 11 · Video / Image Generation
 
-> **282 canonical papers** mapped here, plus a broader **247-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **282 canonical papers** mapped here, plus a broader **248-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 247 tracked
+## 🆕 Latest 30 Days · 248 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -58,6 +58,7 @@
 | **P1 · Watch** | **Temporal GRPO: Beyond Trajectory-Level Credit in Vision-Language-Action Reinforcement Learning** | Fresh / preprint | multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.13026) | — |
 | **P1 · Watch** | **T-LLM Compiler: Trusted LLM-based Code Optimization and Verification Framework** | Fresh / preprint | GPU kernel/DSL/compilers / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.14953) | — |
 | **P1 · Watch** | **Swift-Image: Exploring the Performance Frontier of Compact Unified Image Generation Models** | Fresh / preprint | image generation efficiency / pruning / few-step distillation | [Link](https://arxiv.org/abs/2608.20334) | — |
+| **P1 · Watch** | **SUCCESS-GS: Survey of Compactness and Compression for Efficient Static and Dynamic Gaussian Splatting** | arXiv 2026 | 3DGS / compression / efficient rendering / survey | [Link](https://arxiv.org/abs/2512.07197) | — |
 | **P1 · Watch** | **STyMo: Fast and Controllable Few-Shot Motion Style Transfer** | arXiv 2026 | video/image generation acceleration / motion generation / rapid adaptation | [Link](https://arxiv.org/abs/2609.04500) | — |
 | **P1 · Watch** | **Streaming4D: Accelerate 4D World Models via Block-wise Video Generation and Incremental Reconstruction** | arXiv 2026 | VLA/WAM/Physical AI serving / world-model acceleration / streaming 4D reconstruction | [Link](https://arxiv.org/abs/2609.00610) | — |
 | **P1 · Watch** | **StreamEMS: Streaming Video Understanding with Self-Evolving Memory Scheme for Vision-Language Models** | Fresh / preprint | multimodal/MLLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.27881) | — |

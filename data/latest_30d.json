@@ -2,8 +2,298 @@
   "window_end_beijing": "2026-09-14",
   "window_start_beijing": "2026-08-15",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 1223,
+  "tracked_total": 1242,
   "p0_strong_or_canonical": [
+    {
+      "title": "SAS: Simple Attention Sparsification via End-to-End Optimization of Context Ranking",
+      "venue": "arXiv 2026",
+      "topic": "sparsity/pruning / efficient attention / long-context / Triton kernel",
+      "arxiv": "2609.13141",
+      "doi": "",
+      "official_id": "arXiv:2609.13141",
+      "paper_url": "https://arxiv.org/abs/2609.13141",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "SAS learns context ranking end-to-end under a fixed sparse-attention budget instead of distilling dense attention scores, and includes a memory-efficient Triton kernel integrated into FlashAttention-style computation for long-sequence training. It outperforms trainable sparse-attention baselines across reasoning, long-context and agentic tasks, especially at tight budgets.",
+      "published_at": "2026-09-11T17:58:06Z",
+      "updated_at": "2026-09-11T17:58:06Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "KV Cache / Long Context",
+        "Sparsity / Pruning",
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Rethinking Heterogeneous System Disaggregation for Subquadratic Attention",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / efficient attention / heterogeneous disaggregation / energy-efficient inference",
+      "arxiv": "2609.13134",
+      "doi": "",
+      "official_id": "arXiv:2609.13134",
+      "paper_url": "https://arxiv.org/abs/2609.13134",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "SQD revisits heterogeneous disaggregation specifically for subquadratic-attention LLMs, mapping attention/state-heavy and dense compute phases to heterogeneous resources rather than assuming standard quadratic-attention serving. It reports substantial tokens-per-joule gains across modern hybrid/subquadratic models and tighter latency plus higher throughput in projected Rubin+LPX systems.",
+      "published_at": "2026-09-11T17:55:45Z",
+      "updated_at": "2026-09-11T17:55:45Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Efficient Attention",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Dynin-Robotics: Omnimodal Unified Diffusion Vision-Language-Action Model",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / diffusion / action decoding",
+      "arxiv": "2609.13053",
+      "doi": "",
+      "official_id": "arXiv:2609.13053",
+      "paper_url": "https://arxiv.org/abs/2609.13053",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Unified diffusion VLA/WAM with goal/action/future-state composition; optimized block-parallel action decoding reports up to 29.2x model-side speedup.",
+      "published_at": "2026-09-11T16:49:26Z",
+      "updated_at": "2026-09-11T16:49:26Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Diffusion / Flow Acceleration",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Attention Quantization for Tabular Foundation Models",
+      "venue": "arXiv 2026",
+      "topic": "quantization / efficient attention / GPU kernels",
+      "arxiv": "2609.13031",
+      "doi": "",
+      "official_id": "arXiv:2609.13031",
+      "paper_url": "https://arxiv.org/abs/2609.13031",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "FP8 Q/K/V attention quantization with explicit FP8 matmul and Triton kernel; up to 1.7x speedup without relevant accuracy loss on evaluated tabular foundation models.",
+      "published_at": "2026-09-11T16:31:29Z",
+      "updated_at": "2026-09-11T16:31:29Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Quantization",
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "SeqMoE: Toward Full-Load Performance via Predictive and Graph-Compatible MoE Offloading",
+      "venue": "arXiv 2026",
+      "topic": "MoE systems/accelerators / LLM serving / offloading",
+      "arxiv": "2609.12978",
+      "doi": "",
+      "official_id": "arXiv:2609.12978",
+      "paper_url": "https://arxiv.org/abs/2609.12978",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Predictive sequence-model expert activation, deadline-aware prefetch, forecast-driven cache and graph-compatible runtime; 45% residency reaches 80.22% of full-load performance.",
+      "published_at": "2026-09-11T15:43:52Z",
+      "updated_at": "2026-09-11T15:43:52Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "MoE Systems / Accelerators"
+      ]
+    },
+    {
+      "title": "RoofLang: Enabling AI-Driven Architecting of LLM Inference Systems",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / system architecture DSL / AI-driven design-space exploration",
+      "arxiv": "2609.12551",
+      "doi": "",
+      "official_id": "arXiv:2609.12551",
+      "paper_url": "https://arxiv.org/abs/2609.12551",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "RoofLang is a DSL and optimization framework for representing and searching LLM inference-system architectures, turning serving design into an executable architecture search problem. The paper reports large decode-throughput opportunity for DeepSeek V4-series designs and persistent optimizer agents finding B300 architectures with sizeable throughput/interactivity improvements.",
+      "published_at": "2026-09-11T07:57:28Z",
+      "updated_at": "2026-09-11T07:57:28Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "HeatCache: Thermal-aware Energy-efficient LLM Inference Scheduling for Chassis-level Liquid Cooling in Sustainable Edge Server Rooms",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / edge inference / thermal-aware scheduling / energy efficiency",
+      "arxiv": "2609.12449",
+      "doi": "",
+      "official_id": "arXiv:2609.12449",
+      "paper_url": "https://arxiv.org/abs/2609.12449",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "HeatCache integrates thermal state into LLM scheduling for liquid-cooled edge-server rooms and is evaluated in a vLLM-based serving stack. It reports up to 18.0% lower compute energy, 81.7% lower thermal-throttle exposure and sub-0.9% SLO violations at elevated coolant temperatures.",
+      "published_at": "2026-09-11T05:14:57Z",
+      "updated_at": "2026-09-11T05:14:57Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "HoliBench: A Cross-Platform Benchmarking and Deployment Toolkit for Foundation Models in CPS-IoT Applications",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / benchmarking / deployment",
+      "arxiv": "2609.12412",
+      "doi": "",
+      "official_id": "arXiv:2609.12412",
+      "paper_url": "https://arxiv.org/abs/2609.12412",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Open-source cross-platform deployment toolkit jointly measuring accuracy, latency and energy across devices, modalities, inference engines and quantization levels.",
+      "published_at": "2026-09-11T04:03:20Z",
+      "updated_at": "2026-09-11T04:03:20Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Quantization",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "OneLA: Scaling Linear-Attention Decoding to Large Beams in Generative Recommendation",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / efficient attention / GPU kernels / generative recommendation",
+      "arxiv": "2609.12399",
+      "doi": "",
+      "official_id": "arXiv:2609.12399",
+      "paper_url": "https://arxiv.org/abs/2609.12399",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Linear-attention serving framework for large-beam decoding that shares prompt-derived recurrent state, stores compact append-only divergent transitions and uses a fused GPU kernel; reports 1.54-2.46x end-to-end decode speedups.",
+      "published_at": "2026-09-11T03:41:06Z",
+      "updated_at": "2026-09-11T03:41:06Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "ForgeMegakernel: A General Framework for Efficient Auto-Regressive Model Decode Megakernels",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / LLM serving / decode megakernel generation",
+      "arxiv": "2609.12379",
+      "doi": "",
+      "official_id": "arXiv:2609.12379",
+      "paper_url": "https://arxiv.org/abs/2609.12379",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "ForgeMegakernel uses coding agents plus a mid-state correctness oracle to generate per-model decode megakernels with fine-grained per-SM instruction streams, dependency counters and shared-memory buffer pooling. Across 14 decoding operations and eight model families it reports 1.21x geometric-mean speedup over SGLang 0.5.18 and 1.54x over a megakernel compiler, with all tested kernels faster inside SGLang at comparable accuracy.",
+      "published_at": "2026-09-11T02:52:02Z",
+      "updated_at": "2026-09-11T02:52:02Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Argus: Orchestrating Cross-Layer GPU Performance Measurements around Semantic Regions",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / AI infra / performance tooling",
+      "arxiv": "2609.12299",
+      "doi": "",
+      "official_id": "arXiv:2609.12299",
+      "paper_url": "https://arxiv.org/abs/2609.12299",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Region-centric measurement planner/runtime joining compiler, hardware and system evidence; improves persistent-kernel optimization and multi-GPU PGO.",
+      "published_at": "2026-09-11T00:07:04Z",
+      "updated_at": "2026-09-11T00:07:04Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "Vortex: Bridging Extreme Compression and Efficient LLM Inference",
+      "venue": "arXiv 2026",
+      "topic": "quantization / sparsity / LLM accelerator / compressed inference",
+      "arxiv": "2609.12208",
+      "doi": "",
+      "official_id": "arXiv:2609.12208",
+      "paper_url": "https://arxiv.org/abs/2609.12208",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Vortex co-designs extreme vector quantization and contextual sparsity with an accelerator architecture that remains compatible with systolic-array execution. The paper reports 8.03-23.7x speedup and 5.68-12.5x energy reduction over compared state-of-the-art accelerators, making it a direct algorithm-architecture Efficient ML contribution.",
+      "published_at": "2026-09-10T21:04:15Z",
+      "updated_at": "2026-09-10T21:04:15Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Quantization",
+        "Sparsity / Pruning"
+      ]
+    },
+    {
+      "title": "Efficient Vision-Language-Action Management and Serving for Robot Factories",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / multi-robot multi-model edge serving / SLO-aware multi-GPU runtime",
+      "arxiv": "2609.12075",
+      "doi": "",
+      "official_id": "arXiv:2609.12075",
+      "paper_url": "https://arxiv.org/abs/2609.12075",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Robion is a direct VLA serving and management system for multi-robot, multi-model requests on multi-GPU edge servers. It co-schedules VLM and action-diffusion stages with GPU stream/SM controls, placement and SLO-aware batching; the paper reports 6.7x higher supported robot load than vLLM-Omni for individual models at 98% SLO attainment and up to 64 robots for eight models on four GPUs.",
+      "published_at": "2026-09-10T18:04:22Z",
+      "updated_at": "2026-09-10T18:04:22Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference",
+        "Multimodal / MLLM Serving",
+        "Diffusion / Flow Acceleration",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
     {
       "title": "Zetta: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence",
       "venue": "",
@@ -996,6 +1286,200 @@
     }
   ],
   "p1_watchlist": [
+    {
+      "title": "Dissecting GPU Utilization for LLM Inference on Nvidia Hopper",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / GPU performance characterization / Hopper / vLLM",
+      "arxiv": "2609.12923",
+      "doi": "",
+      "official_id": "arXiv:2609.12923",
+      "paper_url": "https://arxiv.org/abs/2609.12923",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Production-stack characterization of vLLM, FlashAttention-3 and cuBLASLt on H100 NVL introduces counter-validated utilization views for explaining decode inefficiency. It is highly useful systems evidence and diagnostic methodology but primarily characterization rather than a new acceleration mechanism.",
+      "published_at": "2026-09-11T14:49:05Z",
+      "updated_at": "2026-09-11T14:49:05Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Input Resolution Matters: Real-Time Object Detection Latency",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / inference latency / performance modeling",
+      "arxiv": "2609.12920",
+      "doi": "",
+      "official_id": "arXiv:2609.12920",
+      "paper_url": "https://arxiv.org/abs/2609.12920",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "MASCOTS performance study modeling end-to-end detector latency distributions as a function of input resolution and validating on Jetson Orin NX; useful edge-inference latency modeling reference, but narrower than canonical AI-serving systems.",
+      "published_at": "2026-09-11T14:45:12Z",
+      "updated_at": "2026-09-11T14:45:12Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "RunningTensor: Generalizing Linear Attention to Higher-Order Recurrent States",
+      "venue": "arXiv 2026",
+      "topic": "efficient attention / linear attention / recurrent state / long context",
+      "arxiv": "2609.12814",
+      "doi": "",
+      "official_id": "arXiv:2609.12814",
+      "paper_url": "https://arxiv.org/abs/2609.12814",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "RunningTensor generalizes matrix-valued linear-attention recurrent memory to higher-order tensor state while retaining linear sequence complexity. It improves associative recall and downstream retrieval in the reported experiments, but currently reads more as a modeling primitive than a demonstrated systems acceleration, so it remains watchlist.",
+      "published_at": "2026-09-11T13:07:29Z",
+      "updated_at": "2026-09-11T13:07:29Z",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context",
+        "Efficient Attention"
+      ]
+    },
+    {
+      "title": "Breaking the Vision-Action Shortcut: Latent Interface Training for Generalizable Robotics Foundation Models",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / action head / latent interface",
+      "arxiv": "2609.12641",
+      "doi": "",
+      "official_id": "arXiv:2609.12641",
+      "paper_url": "https://arxiv.org/abs/2609.12641",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Framework-agnostic latent interface across Pi0.5, MolmoAct2, FAST-WAM and ImageWAM improves distribution-shift robustness; protected Physical-AI lineage, though contribution is training/generalization rather than serving.",
+      "published_at": "2026-09-11T09:42:44Z",
+      "updated_at": "2026-09-11T09:42:44Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Quality-Constrained Routing over a Fixed Pool of Quantized Mixture-of-Experts Instances",
+      "venue": "arXiv 2026",
+      "topic": "MoE systems/accelerators / quantization / LLM serving / routing",
+      "arxiv": "2609.12550",
+      "doi": "",
+      "official_id": "arXiv:2609.12550",
+      "paper_url": "https://arxiv.org/abs/2609.12550",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Formulates request routing across a fixed resident pool of differently quantized MoE instances under quality constraints, using request-specific fragility prediction and LP routing. The reported gain over request-agnostic mixing is modest (~2.5% relative), but the fixed-pool quality-aware serving formulation is directly relevant.",
+      "published_at": "2026-09-11T07:57:25Z",
+      "updated_at": "2026-09-11T07:57:25Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "MoE Systems / Accelerators"
+      ]
+    },
+    {
+      "title": "STAR: Sparse Tactile Representation Learning in Vision-Tactile-Language-Action Models for Dexterous Manipulation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / sparse multimodal representation / tactile tokens",
+      "arxiv": "2609.12549",
+      "doi": "",
+      "official_id": "arXiv:2609.12549",
+      "paper_url": "https://arxiv.org/abs/2609.12549",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "VTLA work with sparse-global tactile token representation and sparse future tactile prediction over a 200-hour dexterous dataset. Important protected Physical-AI evidence, but the contribution is primarily representation/training rather than demonstrated runtime acceleration.",
+      "published_at": "2026-09-11T07:57:24Z",
+      "updated_at": "2026-09-11T07:57:24Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "AMDKernelVault: Large-Scale Datasets and Agentic Training for AMD GPU Kernel Optimization",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / AMD ROCm / agentic kernel optimization",
+      "arxiv": "2609.12471",
+      "doi": "",
+      "official_id": "arXiv:2609.12471",
+      "paper_url": "https://arxiv.org/abs/2609.12471",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "AMDKernelVault provides an unusually large execution-verified HIP/Triton corpus and agent-driven ROCm kernel generation/training framework, including 62k HIP and nearly 40k Triton kernels. It materially expands kernel-agent infrastructure beyond CUDA, but the trained model does not uniformly lead compilation or speed metrics, so it is retained as high-value watch rather than canonical strong.",
+      "published_at": "2026-09-11T06:14:05Z",
+      "updated_at": "2026-09-11T06:14:05Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "GPU-CFR: 80x Faster Counterfactual Regret Minimization by Compiling the Game to Static Dataflow and CUDA Graph Replay",
+      "venue": "",
+      "topic": "GPU kernel/DSL/compilers",
+      "arxiv": "2609.11923",
+      "doi": "",
+      "official_id": "arXiv:2609.11923",
+      "paper_url": "https://arxiv.org/abs/2609.11923",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "GPU-CFR compiles a fixed iterative workload into static dataflow plus CUDA Graph Replay and reports 29.8-80.4x over prior GPU implementations; strong compiler/runtime technique but outside core ML-model serving, so retained as kernel-systems watch.",
+      "published_at": "2026-09-10T17:58:14Z",
+      "updated_at": "2026-09-10T17:58:14Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "EVPeriscope: Extended Perception across Aerial and Ground Vehicles with Event-based Propeller Tracking",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / edge perception / heterogeneous robots",
+      "arxiv": "2609.11920",
+      "doi": "",
+      "official_id": "arXiv:2609.11920",
+      "paper_url": "https://arxiv.org/abs/2609.11920",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Event-based ground-aerial perception runs closed-loop quadrotor control at 200 Hz entirely with onboard sensing and computation, including challenging field conditions. Protected edge Physical-AI runtime evidence; not a foundation-model acceleration method.",
+      "published_at": "2026-09-10T17:58:03Z",
+      "updated_at": "2026-09-10T17:58:03Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
     {
       "title": "DreamX-Creator: Democratizing Native Audio-Video Generation at 2K Resolution",
       "venue": "",
@@ -5633,6 +6117,26 @@
       ]
     },
     {
+      "title": "SUCCESS-GS: Survey of Compactness and Compression for Efficient Static and Dynamic Gaussian Splatting",
+      "venue": "arXiv 2026",
+      "topic": "3DGS / compression / efficient rendering / survey",
+      "arxiv": "2512.07197",
+      "doi": "",
+      "official_id": "arXiv:2512.07197",
+      "paper_url": "https://arxiv.org/abs/2512.07197",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Updated survey synthesizing compactness and compression methods for static and dynamic Gaussian Splatting, useful as a canonical neighborhood map for efficient 3D/4D representation and rendering.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Video / Image Generation"
+      ]
+    },
+    {
       "title": "STyMo: Fast and Controllable Few-Shot Motion Style Transfer",
       "venue": "arXiv 2026",
       "topic": "video/image generation acceleration / motion generation / rapid adaptation",
@@ -5909,29 +6413,6 @@
         "LLM Serving",
         "Multimodal / MLLM Serving",
         "Efficient Reasoning / Agents"
-      ]
-    },
-    {
-      "title": "STAR: Sparse Tactile Representation Learning in Vision-Tactile-Language-Action Models for Dexterous Manipulation",
-      "venue": "arXiv 2026",
-      "topic": "VLA/WAM/Physical AI serving / sparse multimodal representation / tactile tokens",
-      "arxiv": "2609.12549",
-      "doi": "",
-      "official_id": "arXiv:2609.12549",
-      "paper_url": "https://arxiv.org/abs/2609.12549",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "VTLA work with sparse-global tactile token representation and sparse future tactile prediction over a 200-hour dexterous dataset. Important protected Physical-AI evidence, but the contribution is primarily representation/training rather than demonstrated runtime acceleration.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "directions": [
-        "LLM Serving",
-        "Sparsity / Pruning",
-        "Multimodal / MLLM Serving",
-        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -7446,27 +7927,6 @@
       ]
     },
     {
-      "title": "RunningTensor: Generalizing Linear Attention to Higher-Order Recurrent States",
-      "venue": "arXiv 2026",
-      "topic": "efficient attention / linear attention / recurrent state / long context",
-      "arxiv": "2609.12814",
-      "doi": "",
-      "official_id": "arXiv:2609.12814",
-      "paper_url": "https://arxiv.org/abs/2609.12814",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "RunningTensor generalizes matrix-valued linear-attention recurrent memory to higher-order tensor state while retaining linear sequence complexity. It improves associative recall and downstream retrieval in the reported experiments, but currently reads more as a modeling primitive than a demonstrated systems acceleration, so it remains watchlist.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "directions": [
-        "KV Cache / Long Context",
-        "Efficient Attention"
-      ]
-    },
-    {
       "title": "RTPO: Reverse-Turn Policy Optimization for Stabilizing Agentic RL Training",
       "venue": "",
       "topic": "video/image generation acceleration / efficient reasoning/agent systems",
@@ -8840,28 +9300,6 @@
       ]
     },
     {
-      "title": "Quality-Constrained Routing over a Fixed Pool of Quantized Mixture-of-Experts Instances",
-      "venue": "arXiv 2026",
-      "topic": "MoE systems/accelerators / quantization / LLM serving / routing",
-      "arxiv": "2609.12550",
-      "doi": "",
-      "official_id": "arXiv:2609.12550",
-      "paper_url": "https://arxiv.org/abs/2609.12550",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "Formulates request routing across a fixed resident pool of differently quantized MoE instances under quality constraints, using request-specific fragility prediction and LP routing. The reported gain over request-agnostic mixing is modest (~2.5% relative), but the fixed-pool quality-aware serving formulation is directly relevant.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "directions": [
-        "LLM Serving",
-        "Quantization",
-        "MoE Systems / Accelerators"
-      ]
-    },
-    {
       "title": "Quality Recovery for Quantized KV Caches via Low-Rank Attention Adaptation",
       "venue": "arXiv 2026",
       "topic": "KV cache / quantization / long-context inference / low-rank adaptation",
@@ -9873,6 +10311,28 @@
         "LLM Serving",
         "Sparsity / Pruning",
         "MoE Systems / Accelerators",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "PAVXploreRL: Physical-Action-Visual World Model Reinforcement Learning with Action Exploration",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / world models / policy evaluation",
+      "arxiv": "2607.16602",
+      "doi": "",
+      "official_id": "arXiv:2607.16602",
+      "paper_url": "https://arxiv.org/abs/2607.16602",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI world-model update that explicitly optimizes physical plausibility, action adherence and visual fidelity and uses OOD action exploration; valuable WAM/policy-evaluator lineage but not primarily inference infrastructure.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
       ]
@@ -15359,27 +15819,6 @@
       ]
     },
     {
-      "title": "GPU-CFR: 80x Faster Counterfactual Regret Minimization by Compiling the Game to Static Dataflow and CUDA Graph Replay",
-      "venue": "",
-      "topic": "GPU kernel/DSL/compilers",
-      "arxiv": "2609.11923",
-      "doi": "",
-      "official_id": "arXiv:2609.11923",
-      "paper_url": "https://arxiv.org/abs/2609.11923",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "GPU-CFR compiles a fixed iterative workload into static dataflow plus CUDA Graph Replay and reports 29.8-80.4x over prior GPU implementations; strong compiler/runtime technique but outside core ML-model serving, so retained as kernel-systems watch.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "directions": [
-        "LLM Serving",
-        "GPU Kernel / DSL / Compiler"
-      ]
-    },
-    {
       "title": "GPU-Accelerated Astrodynamics World Models for Spacecraft Rendezvous and Proximity Operations",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / world models / GPU simulation",
@@ -15444,6 +15883,27 @@
         "Efficient Attention",
         "Distributed Training / Inference",
         "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "GigaBrain-WBC-0.5: A Behavior World Model for Robust Whole-Body Control with Environment Interaction",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / world models / humanoid control",
+      "arxiv": "2608.18234",
+      "doi": "",
+      "official_id": "arXiv:2608.18234",
+      "paper_url": "https://arxiv.org/abs/2608.18234",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI behavior world model jointly predicting action, state and next latent behavior command for environment-interactive humanoid control; relevant to runtime/world-model coupling despite not focusing on compute efficiency.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -16954,28 +17414,6 @@
       ]
     },
     {
-      "title": "EVPeriscope: Extended Perception across Aerial and Ground Vehicles with Event-based Propeller Tracking",
-      "venue": "arXiv 2026",
-      "topic": "VLA/WAM/Physical AI serving / edge perception / heterogeneous robots",
-      "arxiv": "2609.11920",
-      "doi": "",
-      "official_id": "arXiv:2609.11920",
-      "paper_url": "https://arxiv.org/abs/2609.11920",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "Event-based ground-aerial perception runs closed-loop quadrotor control at 200 Hz entirely with onboard sensing and computation, including challenging field conditions. Protected edge Physical-AI runtime evidence; not a foundation-model acceleration method.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "directions": [
-        "LLM Serving",
-        "VLA / WAM / Physical AI",
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
       "title": "EvoWiki: Incremental State Overwriting and Traceable Question Answering for Cross-Meeting Knowledge Evolution",
       "venue": "",
       "topic": "LLM serving / KV cache/long-context",
@@ -17571,6 +18009,27 @@
         "LLM Serving",
         "Multimodal / MLLM Serving",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Ego-Dynamics-Augmented World Model for Autonomous Driving with Zero-Shot Cross-Chassis Adaptation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / world models / autonomous driving",
+      "arxiv": "2607.13410",
+      "doi": "",
+      "official_id": "arXiv:2607.13410",
+      "paper_url": "https://arxiv.org/abs/2607.13410",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI world-model update: dynamics-augmented causal Transformer world model reduces scene-modeling burden and supports zero-shot cross-chassis adaptation; relevant to WAM state abstraction and deployment lineage though not primarily a serving-system paper.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -18590,28 +19049,6 @@
       "is_latest_30d": true,
       "directions": [
         "Efficient Reasoning / Agents"
-      ]
-    },
-    {
-      "title": "Dissecting GPU Utilization for LLM Inference on Nvidia Hopper",
-      "venue": "arXiv 2026",
-      "topic": "LLM serving / GPU performance characterization / Hopper / vLLM",
-      "arxiv": "2609.12923",
-      "doi": "",
-      "official_id": "arXiv:2609.12923",
-      "paper_url": "https://arxiv.org/abs/2609.12923",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "Production-stack characterization of vLLM, FlashAttention-3 and cuBLASLt on H100 NVL introduces counter-validated utilization views for explaining decode inefficiency. It is highly useful systems evidence and diagnostic methodology but primarily characterization rather than a new acceleration mechanism.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "directions": [
-        "LLM Serving",
-        "Efficient Attention",
-        "GPU Kernel / DSL / Compiler"
       ]
     },
     {
@@ -22640,27 +23077,6 @@
         "Speculative Decoding",
         "KV Cache / Long Context",
         "Video / Image Generation",
-        "Efficient Reasoning / Agents"
-      ]
-    },
-    {
-      "title": "AMDKernelVault: Large-Scale Datasets and Agentic Training for AMD GPU Kernel Optimization",
-      "venue": "arXiv 2026",
-      "topic": "GPU kernel/DSL/compilers / AMD ROCm / agentic kernel optimization",
-      "arxiv": "2609.12471",
-      "doi": "",
-      "official_id": "arXiv:2609.12471",
-      "paper_url": "https://arxiv.org/abs/2609.12471",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "AMDKernelVault provides an unusually large execution-verified HIP/Triton corpus and agent-driven ROCm kernel generation/training framework, including 62k HIP and nearly 40k Triton kernels. It materially expands kernel-agent infrastructure beyond CUDA, but the trained model does not uniformly lead compilation or speed metrics, so it is retained as high-value watch rather than canonical strong.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "directions": [
-        "GPU Kernel / DSL / Compiler",
         "Efficient Reasoning / Agents"
       ]
     },
@@ -26428,6 +26844,296 @@
   ],
   "tracking_records": [
     {
+      "title": "SAS: Simple Attention Sparsification via End-to-End Optimization of Context Ranking",
+      "venue": "arXiv 2026",
+      "topic": "sparsity/pruning / efficient attention / long-context / Triton kernel",
+      "arxiv": "2609.13141",
+      "doi": "",
+      "official_id": "arXiv:2609.13141",
+      "paper_url": "https://arxiv.org/abs/2609.13141",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "SAS learns context ranking end-to-end under a fixed sparse-attention budget instead of distilling dense attention scores, and includes a memory-efficient Triton kernel integrated into FlashAttention-style computation for long-sequence training. It outperforms trainable sparse-attention baselines across reasoning, long-context and agentic tasks, especially at tight budgets.",
+      "published_at": "2026-09-11T17:58:06Z",
+      "updated_at": "2026-09-11T17:58:06Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "KV Cache / Long Context",
+        "Sparsity / Pruning",
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Rethinking Heterogeneous System Disaggregation for Subquadratic Attention",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / efficient attention / heterogeneous disaggregation / energy-efficient inference",
+      "arxiv": "2609.13134",
+      "doi": "",
+      "official_id": "arXiv:2609.13134",
+      "paper_url": "https://arxiv.org/abs/2609.13134",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "SQD revisits heterogeneous disaggregation specifically for subquadratic-attention LLMs, mapping attention/state-heavy and dense compute phases to heterogeneous resources rather than assuming standard quadratic-attention serving. It reports substantial tokens-per-joule gains across modern hybrid/subquadratic models and tighter latency plus higher throughput in projected Rubin+LPX systems.",
+      "published_at": "2026-09-11T17:55:45Z",
+      "updated_at": "2026-09-11T17:55:45Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Efficient Attention",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Dynin-Robotics: Omnimodal Unified Diffusion Vision-Language-Action Model",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / diffusion / action decoding",
+      "arxiv": "2609.13053",
+      "doi": "",
+      "official_id": "arXiv:2609.13053",
+      "paper_url": "https://arxiv.org/abs/2609.13053",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Unified diffusion VLA/WAM with goal/action/future-state composition; optimized block-parallel action decoding reports up to 29.2x model-side speedup.",
+      "published_at": "2026-09-11T16:49:26Z",
+      "updated_at": "2026-09-11T16:49:26Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Diffusion / Flow Acceleration",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Attention Quantization for Tabular Foundation Models",
+      "venue": "arXiv 2026",
+      "topic": "quantization / efficient attention / GPU kernels",
+      "arxiv": "2609.13031",
+      "doi": "",
+      "official_id": "arXiv:2609.13031",
+      "paper_url": "https://arxiv.org/abs/2609.13031",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "FP8 Q/K/V attention quantization with explicit FP8 matmul and Triton kernel; up to 1.7x speedup without relevant accuracy loss on evaluated tabular foundation models.",
+      "published_at": "2026-09-11T16:31:29Z",
+      "updated_at": "2026-09-11T16:31:29Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Quantization",
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "SeqMoE: Toward Full-Load Performance via Predictive and Graph-Compatible MoE Offloading",
+      "venue": "arXiv 2026",
+      "topic": "MoE systems/accelerators / LLM serving / offloading",
+      "arxiv": "2609.12978",
+      "doi": "",
+      "official_id": "arXiv:2609.12978",
+      "paper_url": "https://arxiv.org/abs/2609.12978",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Predictive sequence-model expert activation, deadline-aware prefetch, forecast-driven cache and graph-compatible runtime; 45% residency reaches 80.22% of full-load performance.",
+      "published_at": "2026-09-11T15:43:52Z",
+      "updated_at": "2026-09-11T15:43:52Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "MoE Systems / Accelerators"
+      ]
+    },
+    {
+      "title": "RoofLang: Enabling AI-Driven Architecting of LLM Inference Systems",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / system architecture DSL / AI-driven design-space exploration",
+      "arxiv": "2609.12551",
+      "doi": "",
+      "official_id": "arXiv:2609.12551",
+      "paper_url": "https://arxiv.org/abs/2609.12551",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "RoofLang is a DSL and optimization framework for representing and searching LLM inference-system architectures, turning serving design into an executable architecture search problem. The paper reports large decode-throughput opportunity for DeepSeek V4-series designs and persistent optimizer agents finding B300 architectures with sizeable throughput/interactivity improvements.",
+      "published_at": "2026-09-11T07:57:28Z",
+      "updated_at": "2026-09-11T07:57:28Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "HeatCache: Thermal-aware Energy-efficient LLM Inference Scheduling for Chassis-level Liquid Cooling in Sustainable Edge Server Rooms",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / edge inference / thermal-aware scheduling / energy efficiency",
+      "arxiv": "2609.12449",
+      "doi": "",
+      "official_id": "arXiv:2609.12449",
+      "paper_url": "https://arxiv.org/abs/2609.12449",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "HeatCache integrates thermal state into LLM scheduling for liquid-cooled edge-server rooms and is evaluated in a vLLM-based serving stack. It reports up to 18.0% lower compute energy, 81.7% lower thermal-throttle exposure and sub-0.9% SLO violations at elevated coolant temperatures.",
+      "published_at": "2026-09-11T05:14:57Z",
+      "updated_at": "2026-09-11T05:14:57Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "HoliBench: A Cross-Platform Benchmarking and Deployment Toolkit for Foundation Models in CPS-IoT Applications",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / benchmarking / deployment",
+      "arxiv": "2609.12412",
+      "doi": "",
+      "official_id": "arXiv:2609.12412",
+      "paper_url": "https://arxiv.org/abs/2609.12412",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Open-source cross-platform deployment toolkit jointly measuring accuracy, latency and energy across devices, modalities, inference engines and quantization levels.",
+      "published_at": "2026-09-11T04:03:20Z",
+      "updated_at": "2026-09-11T04:03:20Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Quantization",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "OneLA: Scaling Linear-Attention Decoding to Large Beams in Generative Recommendation",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / efficient attention / GPU kernels / generative recommendation",
+      "arxiv": "2609.12399",
+      "doi": "",
+      "official_id": "arXiv:2609.12399",
+      "paper_url": "https://arxiv.org/abs/2609.12399",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Linear-attention serving framework for large-beam decoding that shares prompt-derived recurrent state, stores compact append-only divergent transitions and uses a fused GPU kernel; reports 1.54-2.46x end-to-end decode speedups.",
+      "published_at": "2026-09-11T03:41:06Z",
+      "updated_at": "2026-09-11T03:41:06Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "ForgeMegakernel: A General Framework for Efficient Auto-Regressive Model Decode Megakernels",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / LLM serving / decode megakernel generation",
+      "arxiv": "2609.12379",
+      "doi": "",
+      "official_id": "arXiv:2609.12379",
+      "paper_url": "https://arxiv.org/abs/2609.12379",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "ForgeMegakernel uses coding agents plus a mid-state correctness oracle to generate per-model decode megakernels with fine-grained per-SM instruction streams, dependency counters and shared-memory buffer pooling. Across 14 decoding operations and eight model families it reports 1.21x geometric-mean speedup over SGLang 0.5.18 and 1.54x over a megakernel compiler, with all tested kernels faster inside SGLang at comparable accuracy.",
+      "published_at": "2026-09-11T02:52:02Z",
+      "updated_at": "2026-09-11T02:52:02Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Argus: Orchestrating Cross-Layer GPU Performance Measurements around Semantic Regions",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / AI infra / performance tooling",
+      "arxiv": "2609.12299",
+      "doi": "",
+      "official_id": "arXiv:2609.12299",
+      "paper_url": "https://arxiv.org/abs/2609.12299",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Region-centric measurement planner/runtime joining compiler, hardware and system evidence; improves persistent-kernel optimization and multi-GPU PGO.",
+      "published_at": "2026-09-11T00:07:04Z",
+      "updated_at": "2026-09-11T00:07:04Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "Vortex: Bridging Extreme Compression and Efficient LLM Inference",
+      "venue": "arXiv 2026",
+      "topic": "quantization / sparsity / LLM accelerator / compressed inference",
+      "arxiv": "2609.12208",
+      "doi": "",
+      "official_id": "arXiv:2609.12208",
+      "paper_url": "https://arxiv.org/abs/2609.12208",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Vortex co-designs extreme vector quantization and contextual sparsity with an accelerator architecture that remains compatible with systolic-array execution. The paper reports 8.03-23.7x speedup and 5.68-12.5x energy reduction over compared state-of-the-art accelerators, making it a direct algorithm-architecture Efficient ML contribution.",
+      "published_at": "2026-09-10T21:04:15Z",
+      "updated_at": "2026-09-10T21:04:15Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Quantization",
+        "Sparsity / Pruning"
+      ]
+    },
+    {
+      "title": "Efficient Vision-Language-Action Management and Serving for Robot Factories",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / multi-robot multi-model edge serving / SLO-aware multi-GPU runtime",
+      "arxiv": "2609.12075",
+      "doi": "",
+      "official_id": "arXiv:2609.12075",
+      "paper_url": "https://arxiv.org/abs/2609.12075",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Robion is a direct VLA serving and management system for multi-robot, multi-model requests on multi-GPU edge servers. It co-schedules VLM and action-diffusion stages with GPU stream/SM controls, placement and SLO-aware batching; the paper reports 6.7x higher supported robot load than vLLM-Omni for individual models at 98% SLO attainment and up to 64 robots for eight models on four GPUs.",
+      "published_at": "2026-09-10T18:04:22Z",
+      "updated_at": "2026-09-10T18:04:22Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference",
+        "Multimodal / MLLM Serving",
+        "Diffusion / Flow Acceleration",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Zetta: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence",
       "venue": "",
       "topic": "Physical AI / embodied runtime",
@@ -27415,6 +28121,200 @@
       "directions": [
         "LLM Serving",
         "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Dissecting GPU Utilization for LLM Inference on Nvidia Hopper",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / GPU performance characterization / Hopper / vLLM",
+      "arxiv": "2609.12923",
+      "doi": "",
+      "official_id": "arXiv:2609.12923",
+      "paper_url": "https://arxiv.org/abs/2609.12923",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Production-stack characterization of vLLM, FlashAttention-3 and cuBLASLt on H100 NVL introduces counter-validated utilization views for explaining decode inefficiency. It is highly useful systems evidence and diagnostic methodology but primarily characterization rather than a new acceleration mechanism.",
+      "published_at": "2026-09-11T14:49:05Z",
+      "updated_at": "2026-09-11T14:49:05Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Input Resolution Matters: Real-Time Object Detection Latency",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / inference latency / performance modeling",
+      "arxiv": "2609.12920",
+      "doi": "",
+      "official_id": "arXiv:2609.12920",
+      "paper_url": "https://arxiv.org/abs/2609.12920",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "MASCOTS performance study modeling end-to-end detector latency distributions as a function of input resolution and validating on Jetson Orin NX; useful edge-inference latency modeling reference, but narrower than canonical AI-serving systems.",
+      "published_at": "2026-09-11T14:45:12Z",
+      "updated_at": "2026-09-11T14:45:12Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "RunningTensor: Generalizing Linear Attention to Higher-Order Recurrent States",
+      "venue": "arXiv 2026",
+      "topic": "efficient attention / linear attention / recurrent state / long context",
+      "arxiv": "2609.12814",
+      "doi": "",
+      "official_id": "arXiv:2609.12814",
+      "paper_url": "https://arxiv.org/abs/2609.12814",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "RunningTensor generalizes matrix-valued linear-attention recurrent memory to higher-order tensor state while retaining linear sequence complexity. It improves associative recall and downstream retrieval in the reported experiments, but currently reads more as a modeling primitive than a demonstrated systems acceleration, so it remains watchlist.",
+      "published_at": "2026-09-11T13:07:29Z",
+      "updated_at": "2026-09-11T13:07:29Z",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context",
+        "Efficient Attention"
+      ]
+    },
+    {
+      "title": "Breaking the Vision-Action Shortcut: Latent Interface Training for Generalizable Robotics Foundation Models",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / action head / latent interface",
+      "arxiv": "2609.12641",
+      "doi": "",
+      "official_id": "arXiv:2609.12641",
+      "paper_url": "https://arxiv.org/abs/2609.12641",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Framework-agnostic latent interface across Pi0.5, MolmoAct2, FAST-WAM and ImageWAM improves distribution-shift robustness; protected Physical-AI lineage, though contribution is training/generalization rather than serving.",
+      "published_at": "2026-09-11T09:42:44Z",
+      "updated_at": "2026-09-11T09:42:44Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Quality-Constrained Routing over a Fixed Pool of Quantized Mixture-of-Experts Instances",
+      "venue": "arXiv 2026",
+      "topic": "MoE systems/accelerators / quantization / LLM serving / routing",
+      "arxiv": "2609.12550",
+      "doi": "",
+      "official_id": "arXiv:2609.12550",
+      "paper_url": "https://arxiv.org/abs/2609.12550",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Formulates request routing across a fixed resident pool of differently quantized MoE instances under quality constraints, using request-specific fragility prediction and LP routing. The reported gain over request-agnostic mixing is modest (~2.5% relative), but the fixed-pool quality-aware serving formulation is directly relevant.",
+      "published_at": "2026-09-11T07:57:25Z",
+      "updated_at": "2026-09-11T07:57:25Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "MoE Systems / Accelerators"
+      ]
+    },
+    {
+      "title": "STAR: Sparse Tactile Representation Learning in Vision-Tactile-Language-Action Models for Dexterous Manipulation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / sparse multimodal representation / tactile tokens",
+      "arxiv": "2609.12549",
+      "doi": "",
+      "official_id": "arXiv:2609.12549",
+      "paper_url": "https://arxiv.org/abs/2609.12549",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "VTLA work with sparse-global tactile token representation and sparse future tactile prediction over a 200-hour dexterous dataset. Important protected Physical-AI evidence, but the contribution is primarily representation/training rather than demonstrated runtime acceleration.",
+      "published_at": "2026-09-11T07:57:24Z",
+      "updated_at": "2026-09-11T07:57:24Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "AMDKernelVault: Large-Scale Datasets and Agentic Training for AMD GPU Kernel Optimization",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / AMD ROCm / agentic kernel optimization",
+      "arxiv": "2609.12471",
+      "doi": "",
+      "official_id": "arXiv:2609.12471",
+      "paper_url": "https://arxiv.org/abs/2609.12471",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "AMDKernelVault provides an unusually large execution-verified HIP/Triton corpus and agent-driven ROCm kernel generation/training framework, including 62k HIP and nearly 40k Triton kernels. It materially expands kernel-agent infrastructure beyond CUDA, but the trained model does not uniformly lead compilation or speed metrics, so it is retained as high-value watch rather than canonical strong.",
+      "published_at": "2026-09-11T06:14:05Z",
+      "updated_at": "2026-09-11T06:14:05Z",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "GPU-CFR: 80x Faster Counterfactual Regret Minimization by Compiling the Game to Static Dataflow and CUDA Graph Replay",
+      "venue": "",
+      "topic": "GPU kernel/DSL/compilers",
+      "arxiv": "2609.11923",
+      "doi": "",
+      "official_id": "arXiv:2609.11923",
+      "paper_url": "https://arxiv.org/abs/2609.11923",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "GPU-CFR compiles a fixed iterative workload into static dataflow plus CUDA Graph Replay and reports 29.8-80.4x over prior GPU implementations; strong compiler/runtime technique but outside core ML-model serving, so retained as kernel-systems watch.",
+      "published_at": "2026-09-10T17:58:14Z",
+      "updated_at": "2026-09-10T17:58:14Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "EVPeriscope: Extended Perception across Aerial and Ground Vehicles with Event-based Propeller Tracking",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / edge perception / heterogeneous robots",
+      "arxiv": "2609.11920",
+      "doi": "",
+      "official_id": "arXiv:2609.11920",
+      "paper_url": "https://arxiv.org/abs/2609.11920",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Event-based ground-aerial perception runs closed-loop quadrotor control at 200 Hz entirely with onboard sensing and computation, including challenging field conditions. Protected edge Physical-AI runtime evidence; not a foundation-model acceleration method.",
+      "published_at": "2026-09-10T17:58:03Z",
+      "updated_at": "2026-09-10T17:58:03Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -32054,6 +32954,26 @@
       ]
     },
     {
+      "title": "SUCCESS-GS: Survey of Compactness and Compression for Efficient Static and Dynamic Gaussian Splatting",
+      "venue": "arXiv 2026",
+      "topic": "3DGS / compression / efficient rendering / survey",
+      "arxiv": "2512.07197",
+      "doi": "",
+      "official_id": "arXiv:2512.07197",
+      "paper_url": "https://arxiv.org/abs/2512.07197",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Updated survey synthesizing compactness and compression methods for static and dynamic Gaussian Splatting, useful as a canonical neighborhood map for efficient 3D/4D representation and rendering.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Video / Image Generation"
+      ]
+    },
+    {
       "title": "STyMo: Fast and Controllable Few-Shot Motion Style Transfer",
       "venue": "arXiv 2026",
       "topic": "video/image generation acceleration / motion generation / rapid adaptation",
@@ -32330,29 +33250,6 @@
         "LLM Serving",
         "Multimodal / MLLM Serving",
         "Efficient Reasoning / Agents"
-      ]
-    },
-    {
-      "title": "STAR: Sparse Tactile Representation Learning in Vision-Tactile-Language-Action Models for Dexterous Manipulation",
-      "venue": "arXiv 2026",
-      "topic": "VLA/WAM/Physical AI serving / sparse multimodal representation / tactile tokens",
-      "arxiv": "2609.12549",
-      "doi": "",
-      "official_id": "arXiv:2609.12549",
-      "paper_url": "https://arxiv.org/abs/2609.12549",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "VTLA work with sparse-global tactile token representation and sparse future tactile prediction over a 200-hour dexterous dataset. Important protected Physical-AI evidence, but the contribution is primarily representation/training rather than demonstrated runtime acceleration.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "directions": [
-        "LLM Serving",
-        "Sparsity / Pruning",
-        "Multimodal / MLLM Serving",
-        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -33867,27 +34764,6 @@
       ]
     },
     {
-      "title": "RunningTensor: Generalizing Linear Attention to Higher-Order Recurrent States",
-      "venue": "arXiv 2026",
-      "topic": "efficient attention / linear attention / recurrent state / long context",
-      "arxiv": "2609.12814",
-      "doi": "",
-      "official_id": "arXiv:2609.12814",
-      "paper_url": "https://arxiv.org/abs/2609.12814",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "RunningTensor generalizes matrix-valued linear-attention recurrent memory to higher-order tensor state while retaining linear sequence complexity. It improves associative recall and downstream retrieval in the reported experiments, but currently reads more as a modeling primitive than a demonstrated systems acceleration, so it remains watchlist.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "directions": [
-        "KV Cache / Long Context",
-        "Efficient Attention"
-      ]
-    },
-    {
       "title": "RTPO: Reverse-Turn Policy Optimization for Stabilizing Agentic RL Training",
       "venue": "",
       "topic": "video/image generation acceleration / efficient reasoning/agent systems",
@@ -35261,28 +36137,6 @@
       ]
     },
     {
-      "title": "Quality-Constrained Routing over a Fixed Pool of Quantized Mixture-of-Experts Instances",
-      "venue": "arXiv 2026",
-      "topic": "MoE systems/accelerators / quantization / LLM serving / routing",
-      "arxiv": "2609.12550",
-      "doi": "",
-      "official_id": "arXiv:2609.12550",
-      "paper_url": "https://arxiv.org/abs/2609.12550",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "Formulates request routing across a fixed resident pool of differently quantized MoE instances under quality constraints, using request-specific fragility prediction and LP routing. The reported gain over request-agnostic mixing is modest (~2.5% relative), but the fixed-pool quality-aware serving formulation is directly relevant.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "directions": [
-        "LLM Serving",
-        "Quantization",
-        "MoE Systems / Accelerators"
-      ]
-    },
-    {
       "title": "Quality Recovery for Quantized KV Caches via Low-Rank Attention Adaptation",
       "venue": "arXiv 2026",
       "topic": "KV cache / quantization / long-context inference / low-rank adaptation",
@@ -36294,6 +37148,28 @@
         "LLM Serving",
         "Sparsity / Pruning",
         "MoE Systems / Accelerators",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "PAVXploreRL: Physical-Action-Visual World Model Reinforcement Learning with Action Exploration",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / world models / policy evaluation",
+      "arxiv": "2607.16602",
+      "doi": "",
+      "official_id": "arXiv:2607.16602",
+      "paper_url": "https://arxiv.org/abs/2607.16602",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI world-model update that explicitly optimizes physical plausibility, action adherence and visual fidelity and uses OOD action exploration; valuable WAM/policy-evaluator lineage but not primarily inference infrastructure.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
       ]
@@ -41780,27 +42656,6 @@
       ]
     },
     {
-      "title": "GPU-CFR: 80x Faster Counterfactual Regret Minimization by Compiling the Game to Static Dataflow and CUDA Graph Replay",
-      "venue": "",
-      "topic": "GPU kernel/DSL/compilers",
-      "arxiv": "2609.11923",
-      "doi": "",
-      "official_id": "arXiv:2609.11923",
-      "paper_url": "https://arxiv.org/abs/2609.11923",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "GPU-CFR compiles a fixed iterative workload into static dataflow plus CUDA Graph Replay and reports 29.8-80.4x over prior GPU implementations; strong compiler/runtime technique but outside core ML-model serving, so retained as kernel-systems watch.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "directions": [
-        "LLM Serving",
-        "GPU Kernel / DSL / Compiler"
-      ]
-    },
-    {
       "title": "GPU-Accelerated Astrodynamics World Models for Spacecraft Rendezvous and Proximity Operations",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / world models / GPU simulation",
@@ -41865,6 +42720,27 @@
         "Efficient Attention",
         "Distributed Training / Inference",
         "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "GigaBrain-WBC-0.5: A Behavior World Model for Robust Whole-Body Control with Environment Interaction",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / world models / humanoid control",
+      "arxiv": "2608.18234",
+      "doi": "",
+      "official_id": "arXiv:2608.18234",
+      "paper_url": "https://arxiv.org/abs/2608.18234",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI behavior world model jointly predicting action, state and next latent behavior command for environment-interactive humanoid control; relevant to runtime/world-model coupling despite not focusing on compute efficiency.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -43375,28 +44251,6 @@
       ]
     },
     {
-      "title": "EVPeriscope: Extended Perception across Aerial and Ground Vehicles with Event-based Propeller Tracking",
-      "venue": "arXiv 2026",
-      "topic": "VLA/WAM/Physical AI serving / edge perception / heterogeneous robots",
-      "arxiv": "2609.11920",
-      "doi": "",
-      "official_id": "arXiv:2609.11920",
-      "paper_url": "https://arxiv.org/abs/2609.11920",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "Event-based ground-aerial perception runs closed-loop quadrotor control at 200 Hz entirely with onboard sensing and computation, including challenging field conditions. Protected edge Physical-AI runtime evidence; not a foundation-model acceleration method.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "directions": [
-        "LLM Serving",
-        "VLA / WAM / Physical AI",
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
       "title": "EvoWiki: Incremental State Overwriting and Traceable Question Answering for Cross-Meeting Knowledge Evolution",
       "venue": "",
       "topic": "LLM serving / KV cache/long-context",
@@ -43992,6 +44846,27 @@
         "LLM Serving",
         "Multimodal / MLLM Serving",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Ego-Dynamics-Augmented World Model for Autonomous Driving with Zero-Shot Cross-Chassis Adaptation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / world models / autonomous driving",
+      "arxiv": "2607.13410",
+      "doi": "",
+      "official_id": "arXiv:2607.13410",
+      "paper_url": "https://arxiv.org/abs/2607.13410",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI world-model update: dynamics-augmented causal Transformer world model reduces scene-modeling burden and supports zero-shot cross-chassis adaptation; relevant to WAM state abstraction and deployment lineage though not primarily a serving-system paper.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -45011,28 +45886,6 @@
       "is_latest_30d": true,
       "directions": [
         "Efficient Reasoning / Agents"
-      ]
-    },
-    {
-      "title": "Dissecting GPU Utilization for LLM Inference on Nvidia Hopper",
-      "venue": "arXiv 2026",
-      "topic": "LLM serving / GPU performance characterization / Hopper / vLLM",
-      "arxiv": "2609.12923",
-      "doi": "",
-      "official_id": "arXiv:2609.12923",
-      "paper_url": "https://arxiv.org/abs/2609.12923",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "Production-stack characterization of vLLM, FlashAttention-3 and cuBLASLt on H100 NVL introduces counter-validated utilization views for explaining decode inefficiency. It is highly useful systems evidence and diagnostic methodology but primarily characterization rather than a new acceleration mechanism.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "directions": [
-        "LLM Serving",
-        "Efficient Attention",
-        "GPU Kernel / DSL / Compiler"
       ]
     },
     {
@@ -49061,27 +49914,6 @@
         "Speculative Decoding",
         "KV Cache / Long Context",
         "Video / Image Generation",
-        "Efficient Reasoning / Agents"
-      ]
-    },
-    {
-      "title": "AMDKernelVault: Large-Scale Datasets and Agentic Training for AMD GPU Kernel Optimization",
-      "venue": "arXiv 2026",
-      "topic": "GPU kernel/DSL/compilers / AMD ROCm / agentic kernel optimization",
-      "arxiv": "2609.12471",
-      "doi": "",
-      "official_id": "arXiv:2609.12471",
-      "paper_url": "https://arxiv.org/abs/2609.12471",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "AMDKernelVault provides an unusually large execution-verified HIP/Triton corpus and agent-driven ROCm kernel generation/training framework, including 62k HIP and nearly 40k Triton kernels. It materially expands kernel-agent infrastructure beyond CUDA, but the trained model does not uniformly lead compilation or speed metrics, so it is retained as high-value watch rather than canonical strong.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": true,
-      "directions": [
-        "GPU Kernel / DSL / Compiler",
         "Efficient Reasoning / Agents"
       ]
     },
