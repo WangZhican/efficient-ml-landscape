@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-15",
   "window_start_beijing": "2026-08-16",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 1564,
+  "tracked_total": 1565,
   "p0_strong_or_canonical": [
     {
       "title": "Zetta: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence",
@@ -21749,6 +21749,27 @@
         "LLM Serving",
         "Video / Image Generation",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Hardware-conscious Software Training for Deep Neural Network Inference Accelerator Chips to Recover Accuracy Degradation due to Hardware Variabilities",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / accelerator reliability co-design",
+      "arxiv": "2609.04259",
+      "doi": "",
+      "official_id": "arXiv:2609.04259",
+      "paper_url": "https://arxiv.org/abs/2609.04259",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Hardware-conscious training explicitly targets DNN inference accelerator chips and compensates accuracy degradation caused by hardware variability; useful algorithm-hardware co-design evidence, though not a general-purpose serving/runtime system.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -55533,6 +55554,27 @@
         "LLM Serving",
         "Video / Image Generation",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Hardware-conscious Software Training for Deep Neural Network Inference Accelerator Chips to Recover Accuracy Degradation due to Hardware Variabilities",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems / accelerator reliability co-design",
+      "arxiv": "2609.04259",
+      "doi": "",
+      "official_id": "arXiv:2609.04259",
+      "paper_url": "https://arxiv.org/abs/2609.04259",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Hardware-conscious training explicitly targets DNN inference accelerator chips and compensates accuracy degradation caused by hardware variability; useful algorithm-hardware co-design evidence, though not a general-purpose serving/runtime system.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
