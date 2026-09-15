@@ -1,10 +1,10 @@
 # 04 · Quantization
 
-> **297 canonical papers** mapped here, plus a broader **256-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **300 canonical papers** mapped here, plus a broader **259-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 256 tracked
+## 🆕 Latest 30 Days · 259 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -119,6 +119,7 @@
 | **P0 · Strong** | **Preference Shapes Relevance: Cross-component Hierarchical Semantic Alignment for Personalized Generative Retrieval** | Fresh / preprint | LLM serving / quantization | [Link](https://arxiv.org/abs/2608.30553) | [Repo](https://github.com/zzzgm/CHAP) |
 | **P0 · Strong** | **Reasoning-Aware Compression: Identifying and Protecting Vulnerable Reasoning Circuits for Energy-Efficient LLM Deployment** | Fresh / preprint | quantization / video/image generation acceleration | [Link](https://arxiv.org/abs/2609.05512) | — |
 | **P1 · Watch** | **Event-Driven Language Models with Sparse Neural Activity for Neuromorphic Hardware** | arXiv 2026 | sparsity / quantization / linear attention / neuromorphic edge inference | [Link](https://arxiv.org/abs/2608.30439) | — |
+| **P0 · Strong** | **TopGQ: Fast GNN Post-Training Quantization Leveraging Topology Information** | Fresh / preprint | LLM serving / quantization | [Link](https://arxiv.org/abs/2608.30394) | — |
 | **P1 · Watch** | **RSLM: Training-Free Vector Quantization for Approximate Nearest Neighbor Search** | Fresh / preprint | quantization | [Link](https://arxiv.org/abs/2608.30384) | — |
 | **P1 · Watch** | **ScenePilot: Grow-and-Repair Policy for Text-Driven 3D Indoor Scene Generation** | Fresh / preprint | LLM serving / multimodal/MLLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.30307) | — |
 | **P1 · Watch** | **A.X K2 Technical Report** | Fresh / preprint | LLM serving / KV cache/long-context / quantization / sparsity/pruning / MoE systems/accelerators / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.30181) | — |
@@ -138,6 +139,7 @@
 | **P0 · Strong** | **HyQuant: Hybrid-Precision Quantization for LLM Attention** | arXiv 2026 | quantization / KV cache / efficient attention | [Link](https://arxiv.org/abs/2608.27875) | [Repo](https://github.com/jerrysfls/HyQuant) |
 | **P1 · Watch** | **Activation Outliers Matter: Robust Recovery for Quantized Multimodal LLMs** | Fresh / preprint | quantization / multimodal / video generation | [Link](https://arxiv.org/abs/2608.26581) | — |
 | **P1 · Watch** | **Quanta Perception as Probabilistic Events** | Fresh / preprint | LLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.27584) | — |
+| **P0 · Strong** | **Scaling Graph Neural Networks for Friend Recommendation: Multi-Hash User Embeddings and Temporal Neighbor Sampling** | Fresh / preprint | LLM serving / quantization / distributed training/inference / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.27413) | — |
 | **P1 · Watch** | **Vision-centric generative AI models: A software-hardware perspective** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.27199) | — |
 | **P1 · Watch** | **Video-OPSD: Exploiting Privileged Visual Evidence for On-Policy Self-Distillation in Video Large Language Models** | Fresh / preprint | video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.27065) | — |
 | **P1 · Watch** | **A Layer Importance Metric for Quantization Accounting for the Speed-Quality Trade-off in Autoregressive Models** | Fresh / preprint | quantization / edge inference / hardware-aware metric | [Link](https://arxiv.org/abs/2608.26926) | — |
@@ -182,6 +184,7 @@
 | **P1 · Watch** | **Power-Performance Characterization of TinyML Systems** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.21646) | — |
 | **P1 · Watch** | **Llama-Mobile: Efficient 2.7-Bit Quantization of VLMs** | Fresh / preprint | llm_serving / quant / multimodal | [Link](https://arxiv.org/abs/2608.21134) | — |
 | **P2 · Relevant** | **Target-Aware Calibration Data Selection for Preserving Uncertainty in Quantized Language Models** | Fresh / preprint | llm_serving / quant / edge | [Link](https://arxiv.org/abs/2608.21019) | — |
+| **P0 · Strong** | **From a Static Multi-Level Small Semantic Codebook to a Dynamic Single-Level Large Semantic Codebook for Generative Recommendation** | Fresh / preprint | LLM serving / quantization | [Link](https://arxiv.org/abs/2608.21012) | — |
 | **P1 · Watch** | **Jacobian-guided Noise Injection for Quantization Robustness in Large Language Models** | Fresh / preprint | quantization | [Link](https://arxiv.org/abs/2608.20988) | — |
 | **P1 · Watch** | **Quantization-Aware Healing: A Practical Recipe for Recovering Compressed, 4-Bit LLMs** | Fresh / preprint | llm_serving / kv / quant | [Link](https://arxiv.org/abs/2608.20953) | — |
 | **P0 · Strong** | **In-Cell Learning: Language Models That Update Their Own Weights in Sequence Without Changing the File They Ship** | Fresh / preprint | quantization | [Link](https://arxiv.org/abs/2608.20873) | — |

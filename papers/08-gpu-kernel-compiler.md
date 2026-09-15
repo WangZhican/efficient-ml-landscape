@@ -1,10 +1,10 @@
 # 08 · GPU Kernel / DSL / Compiler
 
-> **539 canonical papers** mapped here, plus a broader **300-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **539 canonical papers** mapped here, plus a broader **303-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 300 tracked
+## 🆕 Latest 30 Days · 303 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -140,6 +140,7 @@
 | **P0 · Strong** | **InKAN: B-Spline KANs via Truncated Power Form** | Fresh / preprint | LLM serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.01956) | — |
 | **P0 · Strong** | **CREDIT: Cost-guided Reduction-reuse with Efficient DSMEM Inter-CTA Tiling** | arXiv 2026 | GPU kernel/DSL/compilers / NVIDIA DSMEM / inter-CTA tiling | [Link](https://arxiv.org/abs/2609.01864) | [Repo](https://github.com/zhengxiongli08/CREDIT) |
 | **P0 · Strong** | **SSAKG 2.0: An Open-Source Package for Structural Associative Sequence Memory and Context-Based Retrieval** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2609.01849) | — |
+| **P1 · Watch** | **MeshSplatBench: A Unified Benchmark for Triangle-Based Neural Rendering** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2609.01306) | — |
 | **P0 · Strong** | **CacheBridge: Efficient Cross-Model KV Cache Transfer** | arXiv 2026 | KV cache / multi-model serving / GPU kernel | [Link](https://arxiv.org/abs/2609.00891) | — |
 | **P0 · Strong** | **LLM Inference on IMC-NoC Architecture with Balanced Dataflow and Fine-Grained Parallelism** | Extended LEAP / ICCAD 2025 | LLM serving / accelerator architecture / IMC-NoC / prefill-decode disaggregation | [Link](https://arxiv.org/abs/2609.00857) | — |
 | **P0 · Strong** | **REVISE: Validity-Guided Recovery for Online Revisions in Agent Workflows** | Fresh / preprint | LLM serving / GPU kernel/DSL/compilers / video/image generation acceleration | [Link](https://arxiv.org/abs/2609.00643) | — |
@@ -173,6 +174,7 @@
 | **P0 · Strong** | **MeshReduce-U: Compiler-Guided Communication Reduction for Irregular Neural Reductions on Mesh NoCs** | Fresh / preprint | LLM serving / GPU kernel/DSL/compilers | [Link](https://arxiv.org/abs/2608.26220) | — |
 | **P1 · Watch** | **PRISM: Projection-Integrated Sampling-Based MPC with Bayesian Cost Tuning for Bimanual Manipulation** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2608.25666) | — |
 | **P0 · Strong** | **Beyond Scaling: Self-Evolving LLM Agents for Hardware Kernel Optimization via an Experience-Driven Workflow and Experience Graph Memory** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.25570) | — |
+| **P1 · Watch** | **Agentic Game Development as a Verifiable Trajectory Data Engine for Scaling World Models** | Fresh / preprint | GPU kernel/DSL/compilers / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.25518) | — |
 | **P1 · Watch** | **Hierarchical Shared Memory-Aware Optimization for TRSM on GPU Platforms** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.25469) | — |
 | **P0 · Strong** | **Ankhdjet: An Open-Source Compiler for Mask-Programmed Ternary Compute-in-ROM on an Open PDK** | Fresh / preprint | LLM serving / quantization / GPU kernel/DSL/compilers / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.26206) | — |
 | **P1 · Watch** | **DataKernelBench: Can LLMs Optimize Database Queries on GPUs?** | Fresh / preprint | GPU kernel / compiler / benchmark | [Link](https://arxiv.org/abs/2608.25061) | — |
@@ -203,6 +205,7 @@
 | **P0 · Strong** | **GrAND: GPU-based Dynamic Graph Indexes for Approximate Nearest Neighbour Search** | Fresh / preprint | LLM serving / sparsity/pruning / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.21163) | — |
 | **P0 · Strong** | **HIERA: Workload-Aware Planning Across Implementation Spaces for GPU Kernel Optimization** | Fresh / preprint | GPU kernel/DSL/compilers / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.21157) | — |
 | **P1 · Watch** | **Integrating a Python Dynamical core into ICON** | Fresh / preprint | GPU kernel/DSL/compilers | [Link](https://arxiv.org/abs/2608.21150) | — |
+| **P1 · Watch** | **Stream3Dv2: Geometric-Semantic Fusion Enhanced Streaming Zero-Shot 3D Scene Understanding** | Fresh / preprint | LLM serving / VLA/WAM/Physical AI serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.21136) | — |
 | **P1 · Watch** | **Jacobian-guided Noise Injection for Quantization Robustness in Large Language Models** | Fresh / preprint | quantization | [Link](https://arxiv.org/abs/2608.20988) | — |
 | **P0 · Strong** | **Enabling Memory-efficient Im2win Convolution with Multi-precision Support on GPU CUDA and Tensor Cores** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.20725) | — |
 | **P1 · Watch** | **AsmEvo: Agentic Assembly-Level Optimization of AMD GPU Kernels with Functional Equivalence Verification** | Fresh / preprint | GPU kernels / AMDGPU assembly optimization / agentic compiler / vLLM-SGLang deployment | [Link](https://arxiv.org/abs/2608.20711) | — |

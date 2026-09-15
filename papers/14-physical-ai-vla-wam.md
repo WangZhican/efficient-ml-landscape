@@ -1,10 +1,10 @@
 # 14 · VLA / WAM / Physical AI
 
-> **199 canonical papers** mapped here, plus a broader **463-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **199 canonical papers** mapped here, plus a broader **470-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 463 tracked
+## 🆕 Latest 30 Days · 470 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -229,6 +229,7 @@
 | **P1 · Watch** | **Exploring Collaboration between a language and a non-language agent** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2609.00474) | — |
 | **P1 · Watch** | **ZimaBlue: Evolving Generalizable World Action Models through Scalable Video Pre-training** | Fresh / preprint | VLA/WAM/Physical AI serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.00188) | — |
 | **P1 · Watch** | **IMPACT: Attention Is the Interaction Map for Scalable Interaction-Aware World Model Training** | Fresh / preprint | video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2609.00161) | — |
+| **P1 · Watch** | **Autonomously Acquiring Robot Manipulation Skills with Language-Driven Quality-Diversity** | Fresh / preprint | video/image generation acceleration / VLA/WAM/Physical AI serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.30983) | — |
 | **P1 · Watch** | **LightNav-0: Eliciting VLM Spatial Intelligence for Generalist Embodied Navigation** | Fresh / preprint | quantization / multimodal/MLLM serving / VLA/WAM/Physical AI serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.30935) | — |
 | **P1 · Watch** | **CAER: Causal Action Effect Reweighting for World Model Training** | Fresh / preprint | video/image generation acceleration / VLA/WAM/Physical AI serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.30897) | — |
 | **P1 · Watch** | **Geometric Attractor Monitoring: A Robust and Frugal Framework for Multi-modal Industrial Robotic Cycles** | Fresh / preprint | LLM serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.30804) | — |
@@ -263,6 +264,7 @@
 | **P0 · Strong** | **Making Latent Evolution Explicit: Operator-Structured Transitions for World Action Models** | Fresh / preprint | LLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.27259) | — |
 | **P1 · Watch** | **GRAFT: Grounded and Efficient Online Reinforcement Adaptation for Fine-Grained Robot Manipulation** | Fresh / preprint | multimodal/MLLM serving / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.27079) | — |
 | **P0 · Strong** | **Riemann-1.0: An Embodied World Action Model for Physical AI** | Fresh / preprint | video/image generation acceleration / VLA/WAM/Physical AI serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.27033) | — |
+| **P1 · Watch** | **4DSynth: Controllable Procedural World Synthesis for Dynamic Embodied Simulation** | Fresh / preprint | multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.26947) | — |
 | **P0 · Strong** | **TemporalFlow-VLA: Learning Physically Grounded Execution History for Long-Horizon Robot Manipulation** | Fresh / preprint | LLM serving / multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.26821) | — |
 | **P1 · Watch** | **Rapid On-Robot Learning for Dynamic Manipulation Skills: Robot Juggling** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.26800) | — |
 | **P0 · Strong** | **Decoupling Planning and Control for Instructable Agents** | Fresh / preprint | LLM serving / multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.26788) | — |
@@ -279,6 +281,7 @@
 | **P1 · Watch** | **PRISM: Projection-Integrated Sampling-Based MPC with Bayesian Cost Tuning for Bimanual Manipulation** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2608.25666) | — |
 | **P0 · Strong** | **GaussianDream++: Efficient 3D Gaussian World Modeling for Robotic Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving / efficient 3D world modeling | [Link](https://arxiv.org/abs/2608.25659) | — |
 | **P1 · Watch** | **RA-VLA: Retrieval-Augmented VLA for Test-Time Adaptation** | Fresh / preprint | LLM serving / multimodal/MLLM serving / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.25585) | — |
+| **P1 · Watch** | **Agentic Game Development as a Verifiable Trajectory Data Engine for Scaling World Models** | Fresh / preprint | GPU kernel/DSL/compilers / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.25518) | — |
 | **P0 · Strong** | **4DStreamCtrl: Interactive Video Generation with Online 4D Control** | Fresh / preprint | video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.25479) | — |
 | **P1 · Watch** | **V-Link: Recovering Lost Visual Representations in Action DiT for Vision-Language-Action Models** | Fresh / preprint | LLM serving / multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.25308) | — |
 | **P2 · Relevant** | **StreamPI: Streaming Multimodal Temporal Modeling for Vision-Language-Action Models** | Fresh / preprint | Physical AI / VLA streaming | [Link](https://arxiv.org/abs/2608.26067) | — |
@@ -301,12 +304,14 @@
 | **P2 · Relevant** | **Act with Intent: Distilling Behavior Intent for Vision-Language-Action Models** | Fresh / preprint | Physical AI / VLA / action decoder | [Link](https://arxiv.org/abs/2608.23478) | — |
 | **P1 · Watch** | **Reward-Free Continual Adaptation for Resilient Space Robots** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2608.23452) | — |
 | **P1 · Watch** | **MomADv2: Reliable Temporal Memory for End-to-End Autonomous Driving** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2608.23405) | — |
+| **P1 · Watch** | **Long-Horizon Audio-Visual Generation for Persistent Stories and Interactive Worlds** | Fresh / preprint | video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.23383) | — |
 | **P0 · Strong** | **ROS2SmolVLA: Enabling Small Vision-Language-Action Models for Integration into Industrial-Grade Lightweight Robots** | Fresh / preprint | multimodal/MLLM serving / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.23320) | — |
 | **P0 · Strong** | **Think Only When Needed: Prompt-Authority Control for Selective Slow-Path Intervention in Vision-Language-Action Manipulation** | Fresh / preprint | multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.23224) | — |
 | **P1 · Watch** | **EchoWM: Open and Enterable Omnimodal World Models** | Fresh / preprint | LLM serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.23189) | — |
 | **P1 · Watch** | **Pointing-VLA: Typed Spatial Grounding Interfaces for Vision-Language-Action Manipulation** | Fresh / preprint | Physical AI / VLA / typed spatial readout / action decoding acceleration | [Link](https://arxiv.org/abs/2608.23138) | — |
 | **P1 · Watch** | **From Generation to Simulation: How Far Are World Models from Being True Simulators?** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2608.23070) | [Repo](https://github.com/AtongWang/world-model-simulators) |
 | **P1 · Watch** | **Budget-Constrained Embodied Perception: Four Resource Walls and a Pre-Registered Evaluation of Access-Structured Perception on Open Models at less than 31B** | Fresh / preprint | video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.22975) | — |
+| **P1 · Watch** | **ParallelWorld: Test-Time Scaling for Embodied Reasoning** | Fresh / preprint | LLM serving / sparsity/pruning / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.22971) | — |
 | **P1 · Watch** | **UniMem: Unifying Multimodal Memory and Control for Vision-Language-Action Models** | Fresh / preprint | Physical AI / VLA / multimodal memory / keyframe caching / faster inference | [Link](https://arxiv.org/abs/2608.22869) | — |
 | **P1 · Watch** | **LpWM: A Case for Sparse Representations in World Models** | Fresh / preprint | sparsity/pruning / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.22764) | — |
 | **P1 · Watch** | **Physics Filtering Favors the Generalization of Robot Learning** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.22701) | — |
@@ -321,9 +326,11 @@
 | **P0 · Strong** | **DELE-w0.5: Inferring Action from Future Latent State for Robotic Manipulation** | Fresh / preprint | LLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.22067) | — |
 | **P1 · Watch** | **ECHO: A Cognitively Inspired, Auditable Memory Plane for Long-Horizon Agents** | Fresh / preprint | video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.21755) | — |
 | **P1 · Watch** | **CounterAlign: Counterfactual Supervision for Vision-Language-Action Models** | Fresh / preprint | multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.21740) | — |
+| **P1 · Watch** | **GOLEM: Modular Humanoid Autonomy Towards Electric Vehicle Battery Disassembly** | Fresh / preprint | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.21550) | — |
 | **P0 · Strong** | **Just Noticeable Difference Modeling for Token Compression in Vision-Language-Action Models** | Fresh / preprint | Physical AI / VLA token compression / KV reuse / pruning | [Link](https://arxiv.org/abs/2608.21247) | — |
 | **P1 · Watch** | **Just Noticeable Difference Modeling for Token Compression in Vision-Language-Action Models** | Fresh / preprint | llm_serving / kv / sparse / multimodal / gen / physical | [Link](https://arxiv.org/abs/2608.21247) | — |
 | **P0 · Strong** | **Beyond Imitation: Self-Improving Robot Policies via Off-Policy Q-Planning** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2608.21204) | — |
+| **P1 · Watch** | **Stream3Dv2: Geometric-Semantic Fusion Enhanced Streaming Zero-Shot 3D Scene Understanding** | Fresh / preprint | LLM serving / VLA/WAM/Physical AI serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.21136) | — |
 | **P1 · Watch** | **PhysCaP: Grounding Code-as-Policy Agent with Physics-Informed Exploration** | Fresh / preprint | multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.21031) | — |
 | **P1 · Watch** | **Neural-Primitive: An Efficient End-to-end Local Planner with Primitive-based Imitation Learning for Autonomous Flight** | Fresh / preprint | LLM serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.20948) | — |
 | **P2 · Relevant** | **A Collaborative Multi-Modality Interaction for VLA-based End-to-End Autonomous Driving** | Fresh / preprint | multimodal / gen / physical / edge | [Link](https://arxiv.org/abs/2608.20890) | — |

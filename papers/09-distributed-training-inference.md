@@ -1,10 +1,10 @@
 # 09 · Distributed Training / Inference
 
-> **399 canonical papers** mapped here, plus a broader **211-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **400 canonical papers** mapped here, plus a broader **214-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 211 tracked
+## 🆕 Latest 30 Days · 214 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -138,17 +138,20 @@
 | **P1 · Watch** | **Efficient Online Continual Foundation Model Fine-Tuning for Predictive Process Monitoring** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.28237) | — |
 | **P0 · Strong** | **TerraceMoE: A Cost Model for Hierarchical MoE All-to-All Communication** | Fresh / preprint | LLM serving / MoE systems/accelerators | [Link](https://arxiv.org/abs/2608.27874) | [Repo](https://github.com/weich97/TerraceMoE-simulator) |
 | **P1 · Watch** | **ClusterAttention: A training-free speedup of bidirectional attention** | Fresh / preprint | efficient attention / sparse attention / video generation | [Link](https://arxiv.org/abs/2608.26965) | — |
+| **P0 · Strong** | **Scaling Graph Neural Networks for Friend Recommendation: Multi-Hash User Embeddings and Temporal Neighbor Sampling** | Fresh / preprint | LLM serving / quantization / distributed training/inference / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.27413) | — |
 | **P1 · Watch** | **Performance Foundations of Parallel & Distributed Reasoning Language Models** | arXiv 2026 | distributed training / efficient reasoning / RL-for-LLM systems / parallelism | [Link](https://arxiv.org/abs/2608.27046) | — |
 | **P0 · Strong** | **VPP: Virtual Pipeline Parallelism for Efficient Chunked Prefill in Long-Context LLM Inference** | arXiv 2026 | LLM serving / long-context / distributed inference | [Link](https://arxiv.org/abs/2608.26523) | — |
 | **P0 · Strong** | **Distributed Training using an Intelligent Network** | Fresh / preprint | LLM serving / distributed training/inference | [Link](https://arxiv.org/abs/2608.26453) | — |
 | **P0 · Strong** | **MeshReduce-U: Compiler-Guided Communication Reduction for Irregular Neural Reductions on Mesh NoCs** | Fresh / preprint | LLM serving / GPU kernel/DSL/compilers | [Link](https://arxiv.org/abs/2608.26220) | — |
 | **P0 · Strong** | **psRL: Efficient Training for Agentic AI via Training-Time Prefix Sharing** | Fresh / preprint | agent RL systems / distributed training / KV prefix sharing | [Link](https://arxiv.org/abs/2608.25683) | — |
+| **P1 · Watch** | **Stochastic End-to-End Latency Modeling of the IoT-Edge-Cloud Continuum: Impact of Jitter and Traffic Variability on Deterministic Service Provisioning** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.25658) | — |
 | **P0 · Strong** | **Distributed Semantic Segmentation With Improved Rate-Distortion Trade-Off** | Fresh / preprint | quantization | [Link](https://arxiv.org/abs/2608.28684) | — |
 | **P1 · Watch** | **ROS2 Connect: A new ROS2 over WAN Solution** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2608.25102) | — |
 | **P1 · Watch** | **DataKernelBench: Can LLMs Optimize Database Queries on GPUs?** | Fresh / preprint | GPU kernel / compiler / benchmark | [Link](https://arxiv.org/abs/2608.25061) | — |
 | **P0 · Strong** | **Parason: Revealing Subtask and Trial Parallelism in LLM Reasoning** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2608.24658) | — |
 | **P1 · Watch** | **Thermal Tuning Overhead in Wafer-Scale Optical Interconnects for LLM MoE Training: A Cross-Layer Analysis and Ferroelectric-Based Mitigation** | Fresh / preprint | LLM serving / MoE systems/accelerators | [Link](https://arxiv.org/abs/2608.24637) | — |
 | **P1 · Watch** | **Mahalanobis-Based Multi-Head Attention for Complex State Propagation** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2608.24462) | — |
+| **P1 · Watch** | **Small-World Communication Fabrics for Neuromorphic Multicore-SoCs** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2608.24351) | — |
 | **P1 · Watch** | **More GPUs or a Smaller Cache? Tensor Parallelism versus KV Compression for Memory-Bound LLM Serving** | Fresh / preprint | LLM serving / KV cache / tensor parallelism / cost-performance | [Link](https://arxiv.org/abs/2608.23962) | — |
 | **P1 · Watch** | **ShardMeter: Sharded and Geo-Distributed Training Without the Guesswork** | arXiv 2026 | distributed training/inference / geo-distributed systems / performance modeling / configuration planning | [Link](https://arxiv.org/abs/2608.23840) | — |
 | **P0 · Strong** | **SRPO: Self-Reflective Policy Optimization for Long-Horizon Reasoning** | Fresh / preprint | video/image generation acceleration / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.23493) | [Repo](https://github.com/Galleons2029/SRPO) |

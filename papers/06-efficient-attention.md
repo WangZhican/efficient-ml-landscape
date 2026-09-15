@@ -1,10 +1,10 @@
 # 06 · Efficient Attention
 
-> **288 canonical papers** mapped here, plus a broader **150-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **289 canonical papers** mapped here, plus a broader **151-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 150 tracked
+## 🆕 Latest 30 Days · 151 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -103,6 +103,7 @@
 | **P1 · Watch** | **Beyond Factual Knowledge: Benchmarking and Learning Step-Level Procedural Rule Reasoning in Large Language Models** | Fresh / preprint | KV cache/long-context | [Link](https://arxiv.org/abs/2608.22753) | [Repo](https://github.com/SharkSpicy-NLP/Beyond-Factual-Knowledge) |
 | **P0 · Strong** | **NOVA: Technology-Architecture Co-Design of Near-Memory Processing for Attention-SSM-MoE Hybrid LLM Inference** | MICRO 2026 | LLM inference / MoE / SSM / near-memory processing / architecture co-design | [Link](https://arxiv.org/abs/2608.22613) | — |
 | **P1 · Watch** | **NOVA: Technology-Architecture Co-Design of Near-Memory Processing for Attention-SSM-MoE Hybrid LLM Inference** | Fresh / preprint | hybrid LLM inference / near-memory processing / Attention-SSM-MoE architecture | [Link](https://arxiv.org/abs/2608.22613) | — |
+| **P0 · Strong** | **DiD It in 87 Minutes: A Label-Free Softmax-to-Linear Adaptation of Vision Transformers for Object Detection** | Fresh / preprint | LLM serving / efficient attention | [Link](https://arxiv.org/abs/2608.22368) | — |
 | **P1 · Watch** | **TherMapNet Attention-Guided Runtime Full-Chip Thermal Map Prediction from Performance Metrics** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.21887) | — |
 | **P0 · Strong** | **Beyond Sparse Weights: When Is Attention Compressible?** | Fresh / preprint | LLM serving / KV cache/long-context | [Link](https://arxiv.org/abs/2608.21541) | — |
 | **P1 · Watch** | **Jacobian-guided Noise Injection for Quantization Robustness in Large Language Models** | Fresh / preprint | quantization | [Link](https://arxiv.org/abs/2608.20988) | — |

@@ -16264,6 +16264,28 @@
     ]
   },
   {
+    "title": "AERA: Adaptive Evidence Residual Allocation for Efficient Test-Time Reasoning",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / video/image generation acceleration",
+    "arxiv": "2608.27964",
+    "doi": "",
+    "official_id": "arXiv:2608.27964",
+    "paper_url": "https://arxiv.org/abs/2608.27964",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "AERA learns whether additional test-time reasoning compute has future value and reports 95.99% fewer completion tokens at nearly unchanged GSM8K accuracy; direct adaptive reasoning-efficiency contribution.",
+    "published_at": "2026-08-28T06:21:07Z",
+    "updated_at": "2026-08-28T06:21:07Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Video / Image Generation",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "Agent Lightning v1.0: Towards Harnessed Agentic RL",
     "venue": "Fresh / preprint",
     "topic": "LLM serving / video/image generation acceleration / efficient reasoning/agent systems",
@@ -17991,6 +18013,27 @@
     ]
   },
   {
+    "title": "D$^3$-MOPD: Adaptive Dynamic Domain ScheDuling for Efficient Multi-Teacher Distillation",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving",
+    "arxiv": "2608.24987",
+    "doi": "",
+    "official_id": "arXiv:2608.24987",
+    "paper_url": "https://arxiv.org/abs/2608.24987",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "D3-MOPD asynchronously reallocates multi-teacher distillation domains from already-produced KL signals and reaches peak performance with about 3x fewer rollout steps; direct training-compute scheduling contribution.",
+    "published_at": "2026-08-25T17:57:11Z",
+    "updated_at": "2026-08-25T17:57:11Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "DASC: Decay-Aware State Compression for Hybrid Linear-Attention Serving",
     "venue": "Fresh / preprint",
     "topic": "LLM serving / state cache / hybrid linear attention",
@@ -18248,6 +18291,27 @@
     "directions": [
       "LLM Serving",
       "Video / Image Generation"
+    ]
+  },
+  {
+    "title": "DiD It in 87 Minutes: A Label-Free Softmax-to-Linear Adaptation of Vision Transformers for Object Detection",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / efficient attention",
+    "arxiv": "2608.22368",
+    "doi": "",
+    "official_id": "arXiv:2608.22368",
+    "paper_url": "https://arxiv.org/abs/2608.22368",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Detector-Interface Distillation converts trained Softmax ViTs to linear attention without labels, cutting detector-backbone inference latency by about 62% and peak memory by about 49%; direct attention/inference-efficiency contribution.",
+    "published_at": "2026-08-23T11:21:16Z",
+    "updated_at": "2026-08-23T11:21:16Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Efficient Attention"
     ]
   },
   {
@@ -18974,6 +19038,27 @@
     ]
   },
   {
+    "title": "Event-triggered Implicit Perturbation for Zeroth-Order Fine-Tuning of Spiking Transformers",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / sparsity/pruning",
+    "arxiv": "2608.21223",
+    "doi": "",
+    "official_id": "arXiv:2608.21223",
+    "paper_url": "https://arxiv.org/abs/2608.21223",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "IPZO co-designs zeroth-order fine-tuning with in-memory-computing accelerators, eliminating perturbation-induced RMW traffic and exploiting spike sparsity while reporting silicon area/energy tradeoffs; direct algorithm-hardware co-optimization contribution.",
+    "published_at": "2026-08-21T15:32:56Z",
+    "updated_at": "2026-08-21T15:32:56Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning"
+    ]
+  },
+  {
     "title": "ExecRubrics: Executable Tool-Augmented Rubrics for Verifiable and Efficient Long-Form Evaluation",
     "venue": "Fresh / preprint",
     "topic": "video/image generation acceleration / efficient reasoning/agent systems",
@@ -19361,6 +19446,27 @@
       "LLM Serving",
       "Quantization",
       "Sparsity / Pruning"
+    ]
+  },
+  {
+    "title": "From a Static Multi-Level Small Semantic Codebook to a Dynamic Single-Level Large Semantic Codebook for Generative Recommendation",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / quantization",
+    "arxiv": "2608.21012",
+    "doi": "",
+    "official_id": "arXiv:2608.21012",
+    "paper_url": "https://arxiv.org/abs/2608.21012",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Production generative recommendation replaces multi-level residual SIDs with a shorter single-level semantic code, cutting estimated autoregressive decoding FLOPs by about 48% and increasing single-card QPS by 28.6-47%; direct serving-efficiency evidence.",
+    "published_at": "2026-08-21T11:58:44Z",
+    "updated_at": "2026-08-21T11:58:44Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Quantization"
     ]
   },
   {
@@ -20330,6 +20436,26 @@
     "directions": [
       "LLM Serving",
       "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "Improved denoising diffusion probabilistic models with efficient non-diagonal covariance modeling",
+    "venue": "Fresh / preprint",
+    "topic": "Efficient ML / AI Infra",
+    "arxiv": "2608.21972",
+    "doi": "",
+    "official_id": "arXiv:2608.21972",
+    "paper_url": "https://arxiv.org/abs/2608.21972",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "K-DCT models non-diagonal DDPM posterior covariance with log-linear DCT structure, enabling fewer/larger sampling steps at negligible per-step compute and memory overhead; direct diffusion sampling acceleration.",
+    "published_at": "2026-08-22T14:21:55Z",
+    "updated_at": "2026-08-22T14:21:55Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
       "Diffusion / Flow Acceleration"
     ]
   },
@@ -23965,6 +24091,30 @@
     ]
   },
   {
+    "title": "Scaling Graph Neural Networks for Friend Recommendation: Multi-Hash User Embeddings and Temporal Neighbor Sampling",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / quantization / distributed training/inference / video/image generation acceleration",
+    "arxiv": "2608.27413",
+    "doi": "",
+    "official_id": "arXiv:2608.27413",
+    "paper_url": "https://arxiv.org/abs/2608.27413",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Production-scale GNN serving/training system reduces ID-embedding storage by >98%, uses logarithmic temporal-neighbor indexing, and demonstrates impact on a 194M-user/28B-edge graph; strong real-world AI-infrastructure evidence.",
+    "published_at": "2026-08-27T17:41:33Z",
+    "updated_at": "2026-08-27T17:41:33Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "Distributed Training / Inference",
+      "Video / Image Generation",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "SchurQuant: Groupwise Discrete Optimization for Layer-Wise LLM Quantization",
     "venue": "Fresh / preprint",
     "topic": "quantization",
@@ -25470,6 +25620,27 @@
       "LLM Serving",
       "KV Cache / Long Context",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "TopGQ: Fast GNN Post-Training Quantization Leveraging Topology Information",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / quantization",
+    "arxiv": "2608.30394",
+    "doi": "",
+    "official_id": "arXiv:2608.30394",
+    "paper_url": "https://arxiv.org/abs/2608.30394",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "TopGQ is a topology-aware GNN post-training quantization framework that reduces quantization time by an order of magnitude while preserving accuracy; direct quantization-efficiency contribution.",
+    "published_at": "2026-08-31T07:49:03Z",
+    "updated_at": "2026-08-31T07:49:03Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Quantization"
     ]
   },
   {

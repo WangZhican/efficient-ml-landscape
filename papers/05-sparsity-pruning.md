@@ -1,10 +1,10 @@
 # 05 · Sparsity / Pruning
 
-> **347 canonical papers** mapped here, plus a broader **245-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **348 canonical papers** mapped here, plus a broader **248-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 245 tracked
+## 🆕 Latest 30 Days · 248 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -127,6 +127,7 @@
 | **P0 · Strong** | **LoGo: Token-Level Dynamic Local-Global Attention** | Fresh / preprint | KV cache/long-context / GPU kernel/DSL/compilers | [Link](https://arxiv.org/abs/2608.29539) | — |
 | **P1 · Watch** | **Does Latent Planning Survive Point Clouds? Action-Conditioned JEPA World Models for Geometric Observations** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2608.29434) | — |
 | **P0 · Strong** | **Accelerating Unified Multimodal Models with Core-Expansion Routing and Unified Computation Scheduling** | Fresh / preprint | multimodal/MLLM serving / sparsity / scheduling / cache reuse | [Link](https://arxiv.org/abs/2608.29291) | — |
+| **P1 · Watch** | **OPUS-V2: Bridging the Gap between Sparse Points and Dense Voxels** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.29187) | — |
 | **P1 · Watch** | **TAAL: Mitigating Early Beam Pruning in Generative Recommendation via Temporal Autoregressive Alignment** | Fresh / preprint | LLM serving / sparsity/pruning | [Link](https://arxiv.org/abs/2608.29179) | — |
 | **P0 · Strong** | **RouteSparse: Input-Conditional Pattern Routing for Budgeted Long-Context Prefilling** | CoRR 2026 | efficient attention / sparse prefilling / long-context LLM inference | [Link](https://arxiv.org/abs/2608.29058) | — |
 | **P1 · Watch** | **Cut-ViT: Task-Specific Model Pruning via Gram Anchoring Subspace Consistency** | Fresh / preprint | sparsity/pruning | [Link](https://arxiv.org/abs/2608.28205) | — |
@@ -161,6 +162,7 @@
 | **P1 · Watch** | **E2S-Pruner: Progressive Two-Stage Evidence Fusion for Visual Token Pruning in Vision-Language Models** | Fresh / preprint | visual token pruning / MLLM inference / throughput acceleration | [Link](https://arxiv.org/abs/2608.23253) | — |
 | **P1 · Watch** | **Reservoir of Importance: Learning Semi-Structured Sparsity with Differentiable Subset Sampling** | Fresh / preprint | sparsity/pruning | [Link](https://arxiv.org/abs/2608.23048) | — |
 | **P1 · Watch** | **SA-RSQ: A Versatile Sparse Representation Framework for Multi-modal Recommender Systems** | Fresh / preprint | LLM serving / quantization | [Link](https://arxiv.org/abs/2608.22979) | — |
+| **P1 · Watch** | **ParallelWorld: Test-Time Scaling for Embodied Reasoning** | Fresh / preprint | LLM serving / sparsity/pruning / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.22971) | — |
 | **P0 · Strong** | **Buried in Textual Debt: Context Pruning with Visual Evidence Preservation for MLLM Agents** | Fresh / preprint | sparsity/pruning / multimodal/MLLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.22963) | — |
 | **P0 · Strong** | **The Retriever Should Remember: Experience-Amortized Reranking for Long-Term Agent Memory** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2608.22767) | — |
 | **P1 · Watch** | **LpWM: A Case for Sparse Representations in World Models** | Fresh / preprint | sparsity/pruning / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.22764) | — |
@@ -176,6 +178,7 @@
 | **P0 · Strong** | **Just Noticeable Difference Modeling for Token Compression in Vision-Language-Action Models** | Fresh / preprint | Physical AI / VLA token compression / KV reuse / pruning | [Link](https://arxiv.org/abs/2608.21247) | — |
 | **P1 · Watch** | **Just Noticeable Difference Modeling for Token Compression in Vision-Language-Action Models** | Fresh / preprint | llm_serving / kv / sparse / multimodal / gen / physical | [Link](https://arxiv.org/abs/2608.21247) | — |
 | **P1 · Watch** | **Anchoring Instruction Outside Mask: Exact Reference Caching for Efficient In-Context Diffusion Transformers** | Fresh / preprint | sparse / gen | [Link](https://arxiv.org/abs/2608.21229) | — |
+| **P0 · Strong** | **Event-triggered Implicit Perturbation for Zeroth-Order Fine-Tuning of Spiking Transformers** | Fresh / preprint | LLM serving / sparsity/pruning | [Link](https://arxiv.org/abs/2608.21223) | — |
 | **P0 · Strong** | **Thermo-FL: Thermal-Aware Robust Federated Fine-Tuning of Large Language Models for Edge AI** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.21172) | — |
 | **P0 · Strong** | **GrAND: GPU-based Dynamic Graph Indexes for Approximate Nearest Neighbour Search** | Fresh / preprint | LLM serving / sparsity/pruning / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.21163) | — |
 | **P0 · Strong** | **COEC: Calibrated Orthogonal-Equivalence Compensation for Structured Pruning of Large Language Models** | Fresh / preprint | sparsity/pruning / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.21142) | — |

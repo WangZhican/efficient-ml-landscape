@@ -1,10 +1,10 @@
 # 10 · Multimodal / MLLM Serving
 
-> **296 canonical papers** mapped here, plus a broader **310-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **296 canonical papers** mapped here, plus a broader **312-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 310 tracked
+## 🆕 Latest 30 Days · 312 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -177,6 +177,7 @@
 | **P1 · Watch** | **GRAFT: Grounded and Efficient Online Reinforcement Adaptation for Fine-Grained Robot Manipulation** | Fresh / preprint | multimodal/MLLM serving / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.27079) | — |
 | **P0 · Strong** | **State-Conditioned Visual Evidence Retrieval for Fine-Grained Perception in Document Vision-Language Models** | Fresh / preprint | multimodal/MLLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.28698) | — |
 | **P1 · Watch** | **Video-OPSD: Exploiting Privileged Visual Evidence for On-Policy Self-Distillation in Video Large Language Models** | Fresh / preprint | video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.27065) | — |
+| **P1 · Watch** | **4DSynth: Controllable Procedural World Synthesis for Dynamic Embodied Simulation** | Fresh / preprint | multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.26947) | — |
 | **P0 · Strong** | **TemporalFlow-VLA: Learning Physically Grounded Execution History for Long-Horizon Robot Manipulation** | Fresh / preprint | LLM serving / multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.26821) | — |
 | **P1 · Watch** | **LLaVAFlow: Preserving Latent Alignment Flow for Parameter-Efficient Multimodal Fine-Tuning** | Fresh / preprint | LLM serving / multimodal/MLLM serving | [Link](https://arxiv.org/abs/2608.26820) | — |
 | **P0 · Strong** | **Multi-Image Visual Token Pruning in Large Visual Language Models** | Fresh / preprint | sparsity/pruning / efficient attention / multimodal/MLLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.26806) | [Repo](https://github.com/zry13/AVTP) |
@@ -200,6 +201,7 @@
 | **P0 · Strong** | **VisCache: Visual KV Cache Pruning for Efficient Vision Large Language Model Inference** | EMNLP 2026 Main Conference | multimodal/MLLM serving / KV cache / pruning / video inference | [Link](https://arxiv.org/abs/2608.24063) | [Repo](https://github.com/Wlklk/VisCache) |
 | **P1 · Watch** | **VisCache: Visual KV Cache Pruning for Efficient Vision Large Language Model Inference** | Fresh / preprint | multimodal serving / visual KV cache / pruning | [Link](https://arxiv.org/abs/2608.24063) | — |
 | **P0 · Strong** | **PinSieve: Production Selective VLM Serving and a Governed Memory Flywheel for Enterprise Content-Quality Triage** | Fresh / preprint | LLM serving / multimodal/MLLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.24040) | — |
+| **P1 · Watch** | **Giraffe: A Mapping Architecture from Hidden Text Representations to Visual Embeddings for Efficient Graphic Design** | Fresh / preprint | multimodal/MLLM serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.23970) | — |
 | **P0 · Strong** | **HAP: Head-Adaptive Visual Token Pruning via Cross-Modal Alignment** | Fresh / preprint | sparsity/pruning / multimodal/MLLM serving | [Link](https://arxiv.org/abs/2608.23921) | [Repo](https://github.com/baokou-fw2/HAP) |
 | **P1 · Watch** | **Wontopos Tablet 2: Measuring Multilingual and Multimodal Memory Retrieval Without Lexical Matching** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.23920) | — |
 | **P2 · Relevant** | **Act with Intent: Distilling Behavior Intent for Vision-Language-Action Models** | Fresh / preprint | Physical AI / VLA / action decoder | [Link](https://arxiv.org/abs/2608.23478) | — |
