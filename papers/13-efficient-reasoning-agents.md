@@ -1,10 +1,10 @@
 # 13 · Efficient Reasoning / Agents
 
-> **479 canonical papers** mapped here, plus a broader **623-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **479 canonical papers** mapped here, plus a broader **624-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 623 tracked
+## 🆕 Latest 30 Days · 624 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -361,6 +361,7 @@
 | **P1 · Watch** | **VICT: Verifier-Instrumented Credit Tracing for Long-Horizon LLM Agent Reinforcement Learning** | Fresh / preprint | sparsity/pruning / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.28128) | — |
 | **P1 · Watch** | **WeAgent-MMSearch: Native Text-Vision Interaction for Multimodal Search Agents** | Fresh / preprint | multimodal/MLLM serving / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.28062) | — |
 | **P1 · Watch** | **String: An Agentic OS Where Every App Is a Markdown File** | Fresh / preprint | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.28027) | — |
+| **P1 · Watch** | **GOD: Govern, Observe, and Direct - A Real-Time Control Room for Agent Societies** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.27992) | — |
 | **P1 · Watch** | **CAITLYN: Can LLM Agents Autonomously Synthesize Defenses against Emerging Injection Attacks?** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2608.27990) | — |
 | **P1 · Watch** | **openJiuwen: Beyond Static Harnesses for Long-Horizon Coding Agents** | Fresh / preprint | edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.27969) | — |
 | **P0 · Strong** | **AERA: Adaptive Evidence Residual Allocation for Efficient Test-Time Reasoning** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.27964) | — |

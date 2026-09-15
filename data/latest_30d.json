@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-15",
   "window_start_beijing": "2026-08-16",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 2033,
+  "tracked_total": 2044,
   "p0_strong_or_canonical": [
     {
       "title": "SAS: Simple Attention Sparsification via End-to-End Optimization of Context Ranking",
@@ -8398,6 +8398,27 @@
       ]
     },
     {
+      "title": "Training-Free Hidden-State Refinement for Flow-Matching Image Generators",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / video/image generation acceleration",
+      "arxiv": "2608.29160",
+      "doi": "",
+      "official_id": "arXiv:2608.29160",
+      "paper_url": "https://arxiv.org/abs/2608.29160",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Training-free hidden-state refinement improves flow-matching image generation without model retraining; direct inference-time generation efficiency lineage.",
+      "published_at": "2026-08-29T09:17:02Z",
+      "updated_at": "2026-08-29T09:17:02Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation"
+      ]
+    },
+    {
       "title": "RouteSparse: Input-Conditional Pattern Routing for Budgeted Long-Context Prefilling",
       "venue": "CoRR 2026",
       "topic": "efficient attention / sparse prefilling / long-context LLM inference",
@@ -10454,6 +10475,26 @@
       ]
     },
     {
+      "title": "Scalable datacenter replication with mostly-synchronous consensus on hardware",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving",
+      "arxiv": "2608.24622",
+      "doi": "",
+      "official_id": "arXiv:2608.24622",
+      "paper_url": "https://arxiv.org/abs/2608.24622",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Studies scalable datacenter replication with mostly-synchronous consensus and hardware support; direct datacenter systems contribution.",
+      "published_at": "2026-08-25T14:39:16Z",
+      "updated_at": "2026-08-25T14:39:16Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving"
+      ]
+    },
+    {
       "title": "Is Discrete Difficulty Sufficient? Leveraging Continuous Difficulty for Efficient Self-Consistency in LLMs",
       "venue": "Fresh / preprint",
       "topic": "edge/cloud/heterogeneous AI systems",
@@ -11083,6 +11124,28 @@
         "Multimodal / MLLM Serving",
         "Video / Image Generation",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "VersaDB: A High-Performance AI Storage Database for Unifying Mutimodal Datasets",
+      "venue": "Fresh / preprint",
+      "topic": "video/image generation acceleration / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2608.22795",
+      "doi": "",
+      "official_id": "arXiv:2608.22795",
+      "paper_url": "https://arxiv.org/abs/2608.22795",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "VersaDB is a high-performance AI storage database unifying multimodal datasets; direct AI data/storage infrastructure contribution.",
+      "published_at": "2026-08-24T04:37:26Z",
+      "updated_at": "2026-08-24T04:37:26Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Multimodal / MLLM Serving",
+        "Video / Image Generation",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -27707,6 +27770,28 @@
       ]
     },
     {
+      "title": "CometVLA: Co-Training on an Embodied Data Pyramid towards Physical Understanding",
+      "venue": "",
+      "topic": "multimodal/MLLM serving / VLA/WAM/Physical AI serving",
+      "arxiv": "2608.30289",
+      "doi": "",
+      "official_id": "arXiv:2608.30289",
+      "paper_url": "https://arxiv.org/abs/2608.30289",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "CometVLA co-trains on an embodied data pyramid for physical understanding; protected VLA/Physical-AI lineage.",
+      "published_at": "2026-08-31T05:55:34Z",
+      "updated_at": "2026-08-31T05:55:34Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Motus2: A Self-Evolving General World Model for Dexterous Manipulation",
       "venue": "",
       "topic": "video/image generation acceleration / VLA/WAM/Physical AI serving",
@@ -28949,6 +29034,26 @@
       ]
     },
     {
+      "title": "Plan Along the Way: Event-Triggered Foundation-Model Planning for TAMP Execution in Partially Observable Manipulation",
+      "venue": "",
+      "topic": "Efficient ML / AI Infra",
+      "arxiv": "2608.28075",
+      "doi": "",
+      "official_id": "arXiv:2608.28075",
+      "paper_url": "https://arxiv.org/abs/2608.28075",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Event-triggered foundation-model planning for partially observable manipulation reduces unnecessary replanning; protected Physical-AI runtime lineage.",
+      "published_at": "2026-08-28T08:44:47Z",
+      "updated_at": "2026-08-28T08:44:47Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "VersaGauss: A Versatile Framework for Generating Multiphase Dynamics with 3D Gaussians",
       "venue": "",
       "topic": "sparsity/pruning / video/image generation acceleration / edge/cloud/heterogeneous AI systems",
@@ -29080,6 +29185,26 @@
         "Quantization",
         "Efficient Attention",
         "Video / Image Generation"
+      ]
+    },
+    {
+      "title": "GOD: Govern, Observe, and Direct - A Real-Time Control Room for Agent Societies",
+      "venue": "",
+      "topic": "Efficient ML / AI Infra",
+      "arxiv": "2608.27992",
+      "doi": "",
+      "official_id": "arXiv:2608.27992",
+      "paper_url": "https://arxiv.org/abs/2608.27992",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "GOD provides a real-time governance/observability/control room for agent societies; useful multi-agent runtime observability lineage.",
+      "published_at": "2026-08-28T06:59:28Z",
+      "updated_at": "2026-08-28T06:59:28Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -29573,6 +29698,26 @@
       "directions": [
         "Sparsity / Pruning",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Revisiting Local Context for Long-Horizon Streaming 3D Reconstruction",
+      "venue": "",
+      "topic": "Efficient ML / AI Infra",
+      "arxiv": "2608.27529",
+      "doi": "",
+      "official_id": "arXiv:2608.27529",
+      "paper_url": "https://arxiv.org/abs/2608.27529",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Long-horizon streaming 3D reconstruction revisits bounded local context; useful streaming perception/memory efficiency lineage.",
+      "published_at": "2026-08-27T15:07:38Z",
+      "updated_at": "2026-08-27T15:07:38Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -30259,6 +30404,28 @@
       ]
     },
     {
+      "title": "FLM: Frequency-Aware Language Models for Generative Image Compression",
+      "venue": "",
+      "topic": "quantization / video/image generation acceleration / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2608.28687",
+      "doi": "",
+      "official_id": "arXiv:2608.28687",
+      "paper_url": "https://arxiv.org/abs/2608.28687",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "SNF-Bench isolates static drift from natural flow in long-horizon fixed-camera video generation; useful long-horizon generation systems/evaluation lineage.",
+      "published_at": "2026-08-26T14:04:15Z",
+      "updated_at": "2026-08-26T14:04:15Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Video / Image Generation",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Update Disturbance-Resilient Analog ReRAM Crossbar Arrays for In-Memory Deep Learning Accelerators",
       "venue": "",
       "topic": "edge/cloud/heterogeneous AI systems",
@@ -30296,6 +30463,28 @@
       "is_latest_30d": true,
       "directions": [
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "InteractGesture: Progressive Chunk Guidance for Continuous Streaming Co-Speech Gesture Control",
+      "venue": "",
+      "topic": "LLM serving / video/image generation acceleration",
+      "arxiv": "2608.25734",
+      "doi": "",
+      "official_id": "arXiv:2608.25734",
+      "paper_url": "https://arxiv.org/abs/2608.25734",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "InteractGesture uses progressive chunk guidance for continuous streaming gesture control; protected streaming embodied-generation/runtime lineage.",
+      "published_at": "2026-08-26T12:46:26Z",
+      "updated_at": "2026-08-26T12:46:26Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -31455,6 +31644,29 @@
       ]
     },
     {
+      "title": "From Gradient-Boosted Trees to Deep Recommenders: Practical Lessons from Migrating a Production Customer Support Recommender",
+      "venue": "",
+      "topic": "quantization / video/image generation acceleration",
+      "arxiv": "2608.24132",
+      "doi": "",
+      "official_id": "arXiv:2608.24132",
+      "paper_url": "https://arxiv.org/abs/2608.24132",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Production migration from gradient-boosted trees to deep recommenders with practical serving lessons; useful production AI-systems lineage.",
+      "published_at": "2026-08-25T06:50:39Z",
+      "updated_at": "2026-08-25T06:50:39Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Quantization",
+        "Video / Image Generation"
+      ]
+    },
+    {
       "title": "Cost-Utility Alignment in LLM Agent Trajectories:Profiling,Attribution,Diagnosis,Adaptation,and Evaluation",
       "venue": "",
       "topic": "LLM serving / video/image generation acceleration",
@@ -31496,6 +31708,27 @@
         "LLM Serving",
         "Multimodal / MLLM Serving",
         "Video / Image Generation",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Trajectory-Level Continuous Action Representation for Robotic Manipulation",
+      "venue": "",
+      "topic": "VLA/WAM/Physical AI serving",
+      "arxiv": "2608.24111",
+      "doi": "",
+      "official_id": "arXiv:2608.24111",
+      "paper_url": "https://arxiv.org/abs/2608.24111",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Trajectory-level continuous action representation for robotic manipulation; protected Physical-AI action-representation lineage.",
+      "published_at": "2026-08-25T06:19:00Z",
+      "updated_at": "2026-08-26T04:22:25Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
         "VLA / WAM / Physical AI"
       ]
     },
@@ -52305,6 +52538,27 @@
       ]
     },
     {
+      "title": "Training-Free Hidden-State Refinement for Flow-Matching Image Generators",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / video/image generation acceleration",
+      "arxiv": "2608.29160",
+      "doi": "",
+      "official_id": "arXiv:2608.29160",
+      "paper_url": "https://arxiv.org/abs/2608.29160",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Training-free hidden-state refinement improves flow-matching image generation without model retraining; direct inference-time generation efficiency lineage.",
+      "published_at": "2026-08-29T09:17:02Z",
+      "updated_at": "2026-08-29T09:17:02Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation"
+      ]
+    },
+    {
       "title": "RouteSparse: Input-Conditional Pattern Routing for Budgeted Long-Context Prefilling",
       "venue": "CoRR 2026",
       "topic": "efficient attention / sparse prefilling / long-context LLM inference",
@@ -54361,6 +54615,26 @@
       ]
     },
     {
+      "title": "Scalable datacenter replication with mostly-synchronous consensus on hardware",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving",
+      "arxiv": "2608.24622",
+      "doi": "",
+      "official_id": "arXiv:2608.24622",
+      "paper_url": "https://arxiv.org/abs/2608.24622",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Studies scalable datacenter replication with mostly-synchronous consensus and hardware support; direct datacenter systems contribution.",
+      "published_at": "2026-08-25T14:39:16Z",
+      "updated_at": "2026-08-25T14:39:16Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving"
+      ]
+    },
+    {
       "title": "Is Discrete Difficulty Sufficient? Leveraging Continuous Difficulty for Efficient Self-Consistency in LLMs",
       "venue": "Fresh / preprint",
       "topic": "edge/cloud/heterogeneous AI systems",
@@ -54990,6 +55264,28 @@
         "Multimodal / MLLM Serving",
         "Video / Image Generation",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "VersaDB: A High-Performance AI Storage Database for Unifying Mutimodal Datasets",
+      "venue": "Fresh / preprint",
+      "topic": "video/image generation acceleration / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2608.22795",
+      "doi": "",
+      "official_id": "arXiv:2608.22795",
+      "paper_url": "https://arxiv.org/abs/2608.22795",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "VersaDB is a high-performance AI storage database unifying multimodal datasets; direct AI data/storage infrastructure contribution.",
+      "published_at": "2026-08-24T04:37:26Z",
+      "updated_at": "2026-08-24T04:37:26Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Multimodal / MLLM Serving",
+        "Video / Image Generation",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -71612,6 +71908,28 @@
       ]
     },
     {
+      "title": "CometVLA: Co-Training on an Embodied Data Pyramid towards Physical Understanding",
+      "venue": "",
+      "topic": "multimodal/MLLM serving / VLA/WAM/Physical AI serving",
+      "arxiv": "2608.30289",
+      "doi": "",
+      "official_id": "arXiv:2608.30289",
+      "paper_url": "https://arxiv.org/abs/2608.30289",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "CometVLA co-trains on an embodied data pyramid for physical understanding; protected VLA/Physical-AI lineage.",
+      "published_at": "2026-08-31T05:55:34Z",
+      "updated_at": "2026-08-31T05:55:34Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Motus2: A Self-Evolving General World Model for Dexterous Manipulation",
       "venue": "",
       "topic": "video/image generation acceleration / VLA/WAM/Physical AI serving",
@@ -72854,6 +73172,26 @@
       ]
     },
     {
+      "title": "Plan Along the Way: Event-Triggered Foundation-Model Planning for TAMP Execution in Partially Observable Manipulation",
+      "venue": "",
+      "topic": "Efficient ML / AI Infra",
+      "arxiv": "2608.28075",
+      "doi": "",
+      "official_id": "arXiv:2608.28075",
+      "paper_url": "https://arxiv.org/abs/2608.28075",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Event-triggered foundation-model planning for partially observable manipulation reduces unnecessary replanning; protected Physical-AI runtime lineage.",
+      "published_at": "2026-08-28T08:44:47Z",
+      "updated_at": "2026-08-28T08:44:47Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "VersaGauss: A Versatile Framework for Generating Multiphase Dynamics with 3D Gaussians",
       "venue": "",
       "topic": "sparsity/pruning / video/image generation acceleration / edge/cloud/heterogeneous AI systems",
@@ -72985,6 +73323,26 @@
         "Quantization",
         "Efficient Attention",
         "Video / Image Generation"
+      ]
+    },
+    {
+      "title": "GOD: Govern, Observe, and Direct - A Real-Time Control Room for Agent Societies",
+      "venue": "",
+      "topic": "Efficient ML / AI Infra",
+      "arxiv": "2608.27992",
+      "doi": "",
+      "official_id": "arXiv:2608.27992",
+      "paper_url": "https://arxiv.org/abs/2608.27992",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "GOD provides a real-time governance/observability/control room for agent societies; useful multi-agent runtime observability lineage.",
+      "published_at": "2026-08-28T06:59:28Z",
+      "updated_at": "2026-08-28T06:59:28Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -73478,6 +73836,26 @@
       "directions": [
         "Sparsity / Pruning",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Revisiting Local Context for Long-Horizon Streaming 3D Reconstruction",
+      "venue": "",
+      "topic": "Efficient ML / AI Infra",
+      "arxiv": "2608.27529",
+      "doi": "",
+      "official_id": "arXiv:2608.27529",
+      "paper_url": "https://arxiv.org/abs/2608.27529",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Long-horizon streaming 3D reconstruction revisits bounded local context; useful streaming perception/memory efficiency lineage.",
+      "published_at": "2026-08-27T15:07:38Z",
+      "updated_at": "2026-08-27T15:07:38Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -74164,6 +74542,28 @@
       ]
     },
     {
+      "title": "FLM: Frequency-Aware Language Models for Generative Image Compression",
+      "venue": "",
+      "topic": "quantization / video/image generation acceleration / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2608.28687",
+      "doi": "",
+      "official_id": "arXiv:2608.28687",
+      "paper_url": "https://arxiv.org/abs/2608.28687",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "SNF-Bench isolates static drift from natural flow in long-horizon fixed-camera video generation; useful long-horizon generation systems/evaluation lineage.",
+      "published_at": "2026-08-26T14:04:15Z",
+      "updated_at": "2026-08-26T14:04:15Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Video / Image Generation",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Update Disturbance-Resilient Analog ReRAM Crossbar Arrays for In-Memory Deep Learning Accelerators",
       "venue": "",
       "topic": "edge/cloud/heterogeneous AI systems",
@@ -74201,6 +74601,28 @@
       "is_latest_30d": true,
       "directions": [
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "InteractGesture: Progressive Chunk Guidance for Continuous Streaming Co-Speech Gesture Control",
+      "venue": "",
+      "topic": "LLM serving / video/image generation acceleration",
+      "arxiv": "2608.25734",
+      "doi": "",
+      "official_id": "arXiv:2608.25734",
+      "paper_url": "https://arxiv.org/abs/2608.25734",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "InteractGesture uses progressive chunk guidance for continuous streaming gesture control; protected streaming embodied-generation/runtime lineage.",
+      "published_at": "2026-08-26T12:46:26Z",
+      "updated_at": "2026-08-26T12:46:26Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -75360,6 +75782,29 @@
       ]
     },
     {
+      "title": "From Gradient-Boosted Trees to Deep Recommenders: Practical Lessons from Migrating a Production Customer Support Recommender",
+      "venue": "",
+      "topic": "quantization / video/image generation acceleration",
+      "arxiv": "2608.24132",
+      "doi": "",
+      "official_id": "arXiv:2608.24132",
+      "paper_url": "https://arxiv.org/abs/2608.24132",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Production migration from gradient-boosted trees to deep recommenders with practical serving lessons; useful production AI-systems lineage.",
+      "published_at": "2026-08-25T06:50:39Z",
+      "updated_at": "2026-08-25T06:50:39Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Quantization",
+        "Video / Image Generation"
+      ]
+    },
+    {
       "title": "Cost-Utility Alignment in LLM Agent Trajectories:Profiling,Attribution,Diagnosis,Adaptation,and Evaluation",
       "venue": "",
       "topic": "LLM serving / video/image generation acceleration",
@@ -75401,6 +75846,27 @@
         "LLM Serving",
         "Multimodal / MLLM Serving",
         "Video / Image Generation",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Trajectory-Level Continuous Action Representation for Robotic Manipulation",
+      "venue": "",
+      "topic": "VLA/WAM/Physical AI serving",
+      "arxiv": "2608.24111",
+      "doi": "",
+      "official_id": "arXiv:2608.24111",
+      "paper_url": "https://arxiv.org/abs/2608.24111",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Trajectory-level continuous action representation for robotic manipulation; protected Physical-AI action-representation lineage.",
+      "published_at": "2026-08-25T06:19:00Z",
+      "updated_at": "2026-08-26T04:22:25Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
         "VLA / WAM / Physical AI"
       ]
     },

@@ -1,10 +1,10 @@
 # 04 · Quantization
 
-> **300 canonical papers** mapped here, plus a broader **259-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **300 canonical papers** mapped here, plus a broader **261-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 259 tracked
+## 🆕 Latest 30 Days · 261 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -147,6 +147,7 @@
 | **P1 · Watch** | **SILK: Closing the Time-of-Check-to-Time-of-Use Gap in RoT-Protected AI Systems** | Fresh / preprint | quantization / sparsity/pruning | [Link](https://arxiv.org/abs/2608.26402) | — |
 | **P1 · Watch** | **A Statistical Audit of Physical AI Benchmark Redundancy** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2608.25940) | — |
 | **P0 · Strong** | **Learning Late, Guiding Early: Timestep-Decoupled Semantic Guidance for Fair Face Generation** | Fresh / preprint | quantization | [Link](https://arxiv.org/abs/2608.25862) | — |
+| **P1 · Watch** | **FLM: Frequency-Aware Language Models for Generative Image Compression** | Fresh / preprint | quantization / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.28687) | — |
 | **P0 · Strong** | **Distributed Semantic Segmentation With Improved Rate-Distortion Trade-Off** | Fresh / preprint | quantization | [Link](https://arxiv.org/abs/2608.28684) | — |
 | **P1 · Watch** | **PolyMemDB: A Polyglot Database System for AI Memory Management** | Fresh / preprint | LLM serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.25577) | — |
 | **P1 · Watch** | **Can your AI agent be cheaper? Investigating the effects of task specifications on token spend in agentic coding tasks** | Fresh / preprint | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.25399) | — |
@@ -162,6 +163,7 @@
 | **P1 · Watch** | **Low-Rank Ternary Adaptation for Fine-Tuning Transformers** | Fresh / preprint | quantization | [Link](https://arxiv.org/abs/2608.24469) | [Repo](https://github.com/alexmanoo/ternary_adaptation) |
 | **P1 · Watch** | **Tlow: Flow-based Item Tokenizer for Recommendation** | Fresh / preprint | quantization / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.24176) | [Repo](https://github.com/wjjln/Tlow) |
 | **P0 · Strong** | **SandwichQuant: Which Parameters Matter Before and After Quantization?** | Fresh / preprint | quantization | [Link](https://arxiv.org/abs/2608.24173) | — |
+| **P1 · Watch** | **From Gradient-Boosted Trees to Deep Recommenders: Practical Lessons from Migrating a Production Customer Support Recommender** | Fresh / preprint | quantization / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.24132) | — |
 | **P1 · Watch** | **Compression Trinity: Exploring Sparsity, Quantization, and Low-Rank Approximations for LLM Compression** | Fresh / preprint | quantization / sparsity/pruning / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.24070) | — |
 | **P0 · Strong** | **Deterministic LLM Inference Across GPU Kernels: Power-of-Two INT8 Quantization Scales and the Limits of Tolerance-Based Conformance** | Fresh / preprint | quantization / GPU kernel/DSL/compilers / video/image generation acceleration | [Link](https://arxiv.org/abs/2609.00363) | — |
 | **P1 · Watch** | **Memory Is Not Always Needed: Characterizing Conditional Memory in Scientific Reasoning** | Fresh / preprint | video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.23982) | — |

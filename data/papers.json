@@ -24091,6 +24091,26 @@
     ]
   },
   {
+    "title": "Scalable datacenter replication with mostly-synchronous consensus on hardware",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving",
+    "arxiv": "2608.24622",
+    "doi": "",
+    "official_id": "arXiv:2608.24622",
+    "paper_url": "https://arxiv.org/abs/2608.24622",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Studies scalable datacenter replication with mostly-synchronous consensus and hardware support; direct datacenter systems contribution.",
+    "published_at": "2026-08-25T14:39:16Z",
+    "updated_at": "2026-08-25T14:39:16Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving"
+    ]
+  },
+  {
     "title": "Scale-Aware Pretraining of Time Series Foundation Models via Multi-Patch Token Alignment and Hybrid Masking",
     "venue": "Fresh / preprint",
     "topic": "LLM serving / edge/cloud/heterogeneous AI systems",
@@ -25797,6 +25817,27 @@
     ]
   },
   {
+    "title": "Training-Free Hidden-State Refinement for Flow-Matching Image Generators",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / video/image generation acceleration",
+    "arxiv": "2608.29160",
+    "doi": "",
+    "official_id": "arXiv:2608.29160",
+    "paper_url": "https://arxiv.org/abs/2608.29160",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Training-free hidden-state refinement improves flow-matching image generation without model retraining; direct inference-time generation efficiency lineage.",
+    "published_at": "2026-08-29T09:17:02Z",
+    "updated_at": "2026-08-29T09:17:02Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Video / Image Generation"
+    ]
+  },
+  {
     "title": "Training-Free Interaction-Aligned Visual Token Pruning for Efficient Embodied Manipulation",
     "venue": "Fresh / preprint",
     "topic": "sparsity/pruning / VLA/WAM/Physical AI serving",
@@ -26201,6 +26242,28 @@
     "directions": [
       "Speculative Decoding",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "VersaDB: A High-Performance AI Storage Database for Unifying Mutimodal Datasets",
+    "venue": "Fresh / preprint",
+    "topic": "video/image generation acceleration / edge/cloud/heterogeneous AI systems",
+    "arxiv": "2608.22795",
+    "doi": "",
+    "official_id": "arXiv:2608.22795",
+    "paper_url": "https://arxiv.org/abs/2608.22795",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "VersaDB is a high-performance AI storage database unifying multimodal datasets; direct AI data/storage infrastructure contribution.",
+    "published_at": "2026-08-24T04:37:26Z",
+    "updated_at": "2026-08-24T04:37:26Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Multimodal / MLLM Serving",
+      "Video / Image Generation",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {

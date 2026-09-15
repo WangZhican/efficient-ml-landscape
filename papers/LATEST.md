@@ -1,6 +1,6 @@
 # 🆕 Latest 30 Days
 
-> Rolling 30-day view ending **2026-09-15**: **2033 tracked papers = 686 P0 + 1230 P1 + 117 P2**. Topical relevance determines visibility; quality determines priority. The classical census remains stricter.
+> Rolling 30-day view ending **2026-09-15**: **2044 tracked papers = 689 P0 + 1238 P1 + 117 P2**. Topical relevance determines visibility; quality determines priority. The classical census remains stricter.
 
 [← Paper Library](ALL_PAPERS.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/latest_30d.json) · [CSV](../data/latest_30d.csv)
 
@@ -397,6 +397,7 @@
 | **P0 · Strong** | **EpaCache: Error-Propagation-Aware Caching for Accelerating Diffusion-Based Visual Generation** | Fresh / preprint | video/image generation acceleration / diffusion cache | [Link](https://arxiv.org/abs/2608.29264) | — |
 | **P0 · Strong** | **AdaVLA: Adaptive Step Flow Matching for Training-free Acceleration of Vision-Language-Action Models** | Fresh / preprint | VLA/WAM/Physical AI serving / flow acceleration | [Link](https://arxiv.org/abs/2608.29208) | — |
 | **P0 · Strong** | **JudgePanel: A Compact Judge with Panel Deliberation via Adaptive Multi-Reward Reinforcement Learning** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.29168) | — |
+| **P0 · Strong** | **Training-Free Hidden-State Refinement for Flow-Matching Image Generators** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.29160) | — |
 | **P0 · Strong** | **RouteSparse: Input-Conditional Pattern Routing for Budgeted Long-Context Prefilling** | CoRR 2026 | efficient attention / sparse prefilling / long-context LLM inference | [Link](https://arxiv.org/abs/2608.29058) | — |
 | **P0 · Strong** | **Hydra: A Navigation World Action Model with Discrete Latent Planning and Continuous Flow-Matching Execution** | Fresh / preprint | quantization / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.28995) | — |
 | **P0 · Strong** | **Efficient GPU Retrieval for Semantic Search** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2608.28968) | — |
@@ -492,6 +493,7 @@
 | **P0 · Strong** | **Maia 200: A Software Defined Dataflow System for Large-scale AI Acceleration** | Fresh / preprint | edge/cloud/heterogeneous AI systems / production inference accelerator / dataflow architecture | [Link](https://arxiv.org/abs/2608.24664) | — |
 | **P0 · Strong** | **Parason: Revealing Subtask and Trial Parallelism in LLM Reasoning** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2608.24658) | — |
 | **P0 · Strong** | **Simthesizer: An Agent-Driven Simulation Framework for LLM Serving Systems** | arXiv 2026 | LLM serving / serving simulator / agentic workloads / disaggregated serving / speculative decoding / KV cache | [Link](https://arxiv.org/abs/2608.24650) | [Repo](https://github.com/casys-kaist/Simthesizer) |
+| **P0 · Strong** | **Scalable datacenter replication with mostly-synchronous consensus on hardware** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2608.24622) | — |
 | **P0 · Strong** | **Is Discrete Difficulty Sufficient? Leveraging Continuous Difficulty for Efficient Self-Consistency in LLMs** | Fresh / preprint | edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.24590) | — |
 | **P0 · Strong** | **PeakBench: Benchmarking Resource-Aware Tool Invocation in LLM Agents** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2608.24509) | [Repo](https://github.com/Czzzk/Staggering-the-Peaks) |
 | **P0 · Strong** | **ResiSpec: Enhancing Multi-Candidate Speculative Sampling via Residual Distribution Shaping** | Fresh / preprint | LLM serving / speculative decoding | [Link](https://arxiv.org/abs/2608.24411) | [Repo](https://github.com/Czzzk/Resispec) |
@@ -521,6 +523,7 @@
 | **P0 · Strong** | **Coarse Indexing, Fine Evidence: Decoupling Temporal Granularity in Long-Video RAG** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2608.23011) | — |
 | **P0 · Strong** | **ExFold: Unified Expert Folding for Training-Free MoE Prefill-Decode Acceleration** | Fresh / preprint | MoE systems / LLM serving / CUDA kernel | [Link](https://arxiv.org/abs/2608.24938) | — |
 | **P0 · Strong** | **Buried in Textual Debt: Context Pruning with Visual Evidence Preservation for MLLM Agents** | Fresh / preprint | sparsity/pruning / multimodal/MLLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.22963) | — |
+| **P0 · Strong** | **VersaDB: A High-Performance AI Storage Database for Unifying Mutimodal Datasets** | Fresh / preprint | video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.22795) | — |
 | **P0 · Strong** | **The Retriever Should Remember: Experience-Amortized Reranking for Long-Term Agent Memory** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2608.22767) | — |
 | **P0 · Strong** | **DiaRelay: Relaying Dialogue Context with a Constant-Size Memory for Emotion Recognition in Conversation** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.22745) | — |
 | **P0 · Strong** | **WnW: Waxing-and-Waning KV Cache for Long-Form Speech LLMs** | Fresh / preprint | KV cache/long-context / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.22704) | — |
@@ -1302,6 +1305,7 @@
 | **P1 · Watch** | **Scaffolding Foundation Models into Physical-World Agents Pushes the Frontier of Long-Horizon Navigation** | Fresh / preprint | multimodal/MLLM serving / efficient reasoning/agent systems / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.30396) | — |
 | **P1 · Watch** | **RSLM: Training-Free Vector Quantization for Approximate Nearest Neighbor Search** | Fresh / preprint | quantization | [Link](https://arxiv.org/abs/2608.30384) | — |
 | **P1 · Watch** | **ScenePilot: Grow-and-Repair Policy for Text-Driven 3D Indoor Scene Generation** | Fresh / preprint | LLM serving / multimodal/MLLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.30307) | — |
+| **P1 · Watch** | **CometVLA: Co-Training on an Embodied Data Pyramid towards Physical Understanding** | Fresh / preprint | multimodal/MLLM serving / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.30289) | — |
 | **P1 · Watch** | **Motus2: A Self-Evolving General World Model for Dexterous Manipulation** | Fresh / preprint | video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.30237) | — |
 | **P1 · Watch** | **Memory as Infrastructure: Reliability Engineering for Persistent Agent Memory in Months-Long LLM-Assisted Development** | arXiv 2026 | efficient reasoning/agent systems / memory infrastructure | [Link](https://arxiv.org/abs/2609.05510) | — |
 | **P1 · Watch** | **A.X K2 Technical Report** | Fresh / preprint | LLM serving / KV cache/long-context / quantization / sparsity/pruning / MoE systems/accelerators / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.30181) | — |
@@ -1359,12 +1363,14 @@
 | **P1 · Watch** | **VICT: Verifier-Instrumented Credit Tracing for Long-Horizon LLM Agent Reinforcement Learning** | Fresh / preprint | sparsity/pruning / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.28128) | — |
 | **P1 · Watch** | **DeicticVLA: Unifying Instruction Modes Based on Language and Deictic Gestures in a Single VLA** | Fresh / preprint | multimodal/MLLM serving / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.28108) | — |
 | **P1 · Watch** | **Speculative Probing: LLM Monitoring at Speculative-Decoding Cost** | Fresh / preprint | KV cache/long-context | [Link](https://arxiv.org/abs/2608.28099) | — |
+| **P1 · Watch** | **Plan Along the Way: Event-Triggered Foundation-Model Planning for TAMP Execution in Partially Observable Manipulation** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.28075) | — |
 | **P1 · Watch** | **VersaGauss: A Versatile Framework for Generating Multiphase Dynamics with 3D Gaussians** | Fresh / preprint | sparsity/pruning / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.28069) | [Repo](https://github.com/Elowen-surj/VersaGauss) |
 | **P1 · Watch** | **WeAgent-MMSearch: Native Text-Vision Interaction for Multimodal Search Agents** | Fresh / preprint | multimodal/MLLM serving / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.28062) | — |
 | **P1 · Watch** | **AI Hardware Accelerators for Large Language Models: Architectures and the Memory Wall** | Fresh / preprint | KV cache/long-context / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.28048) | — |
 | **P1 · Watch** | **Characterization of Request and Token Energy Costs for LLM Inference Workloads on GPU Platforms** | Fresh / preprint | LLM serving / MoE systems/accelerators | [Link](https://arxiv.org/abs/2608.28044) | — |
 | **P1 · Watch** | **String: An Agentic OS Where Every App Is a Markdown File** | Fresh / preprint | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.28027) | — |
 | **P1 · Watch** | **A Method for Layer Bit-Width Allocation in LLM Quantization via Performance Maximization Under a Quality-Degradation Constraint** | Fresh / preprint | LLM serving / KV cache/long-context / quantization / efficient attention / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.28003) | — |
+| **P1 · Watch** | **GOD: Govern, Observe, and Direct - A Real-Time Control Room for Agent Societies** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.27992) | — |
 | **P1 · Watch** | **CAITLYN: Can LLM Agents Autonomously Synthesize Defenses against Emerging Injection Attacks?** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2608.27990) | — |
 | **P1 · Watch** | **Learning-Augmented Heuristics: Simple, yet Smart, Robust and Interpretable Cache Eviction** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.27975) | — |
 | **P1 · Watch** | **openJiuwen: Beyond Static Harnesses for Long-Horizon Coding Agents** | Fresh / preprint | edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.27969) | — |
@@ -1388,6 +1394,7 @@
 | **P1 · Watch** | **CLAP: Cross-Embodiment Video World Models are Zero-Shot Physical Simulators** | Fresh / preprint | video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.27406) | — |
 | **P1 · Watch** | **ORDDAR: Observation-Driven Reasoning for Distortion-Resilient Decision, Action, and Cognitive Recovery** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.28704) | — |
 | **P1 · Watch** | **Understanding Evolution Strategies for LLM Reasoning: Broader Reasoning Coverage than GRPO** | Fresh / preprint | sparsity/pruning | [Link](https://arxiv.org/abs/2608.27351) | — |
+| **P1 · Watch** | **Revisiting Local Context for Long-Horizon Streaming 3D Reconstruction** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.27529) | — |
 | **P1 · Watch** | **Vision-centric generative AI models: A software-hardware perspective** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.27199) | — |
 | **P1 · Watch** | **Magpie: Real-Time World Renderer for Interactive Games** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.27168) | — |
 | **P1 · Watch** | **GRAIN: Bridging Name and Narrative Shifts in Real-World Graph Reasoning through Invariance-Rewarded Agentic RL** | Fresh / preprint | LLM serving / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.27142) | — |
@@ -1420,8 +1427,10 @@
 | **P1 · Watch** | **Agent Mesh: Reliability Primitives for Non-Idempotent Agent Delegation - Identity Adequacy and Evidence Adequacy** | Fresh / preprint | video/image generation acceleration / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.26225) | — |
 | **P1 · Watch** | **Code World Model: Coding Agent as World Brain** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.25927) | — |
 | **P1 · Watch** | **Low-Resolution Perception for Robotic Packing** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2608.25874) | — |
+| **P1 · Watch** | **FLM: Frequency-Aware Language Models for Generative Image Compression** | Fresh / preprint | quantization / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.28687) | — |
 | **P1 · Watch** | **Update Disturbance-Resilient Analog ReRAM Crossbar Arrays for In-Memory Deep Learning Accelerators** | Fresh / preprint | edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.25781) | — |
 | **P1 · Watch** | **Beam Search, Self-Consistency, and the Limits of Inference-Time Scaling for Grammar-Constrained Text-to-SQL in Small Language Models** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.25761) | — |
+| **P1 · Watch** | **InteractGesture: Progressive Chunk Guidance for Continuous Streaming Co-Speech Gesture Control** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.25734) | — |
 | **P1 · Watch** | **An Oversubscription and Service Pricing Exploitation-Based Profit Maximization Framework for Industry Cloud Resource Management** | Fresh / preprint | edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.25712) | — |
 | **P1 · Watch** | **PRISM: Projection-Integrated Sampling-Based MPC with Bayesian Cost Tuning for Bimanual Manipulation** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2608.25666) | — |
 | **P1 · Watch** | **From General Agents to RCA Experts: A Self-Evolving Harness for Root Cause Analysis** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.25661) | — |
@@ -1476,8 +1485,10 @@
 | **P1 · Watch** | **Harness Engineering for Predictable Agentic Systems: An Empirical Study of Deterministic Execution Constraints** | Fresh / preprint | LLM serving / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.26197) | — |
 | **P1 · Watch** | **Tlow: Flow-based Item Tokenizer for Recommendation** | Fresh / preprint | quantization / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.24176) | [Repo](https://github.com/wjjln/Tlow) |
 | **P1 · Watch** | **Steering Recurrent Reasoners at Inference Time with Readout Feedback** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.24136) | — |
+| **P1 · Watch** | **From Gradient-Boosted Trees to Deep Recommenders: Practical Lessons from Migrating a Production Customer Support Recommender** | Fresh / preprint | quantization / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.24132) | — |
 | **P1 · Watch** | **Cost-Utility Alignment in LLM Agent Trajectories:Profiling,Attribution,Diagnosis,Adaptation,and Evaluation** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.26195) | — |
 | **P1 · Watch** | **PonderPounce: A Pretrained MLLM as an Episode Context Engine for Robot Control** | Fresh / preprint | LLM serving / multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.24115) | — |
+| **P1 · Watch** | **Trajectory-Level Continuous Action Representation for Robotic Manipulation** | Fresh / preprint | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.24111) | — |
 | **P1 · Watch** | **ACE: A Self-Correcting Agentic Canvas Editor for Multi-Slide Presentation Automation** | Fresh / preprint | sparsity/pruning / video/image generation acceleration / efficient reasoning/agent systems / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.24103) | — |
 | **P1 · Watch** | **TrAct: Bridging Robot Control and Visual Prediction with Visual Tracks** | Fresh / preprint | multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.24101) | — |
 | **P1 · Watch** | **ORBITALIF: An Efficient Spiking Federated Learning Framework for Onboard Cloud Removal** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2608.24073) | — |
