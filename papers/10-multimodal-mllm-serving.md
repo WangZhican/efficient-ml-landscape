@@ -1,10 +1,10 @@
 # 10 · Multimodal / MLLM Serving
 
-> **296 canonical papers** mapped here, plus a broader **312-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **298 canonical papers** mapped here, plus a broader **316-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 312 tracked
+## 🆕 Latest 30 Days · 316 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -134,6 +134,7 @@
 | **P1 · Watch** | **Selective Agent Guidance via Entropy: Learning Autonomous Policies from Imperfect VLM Teachers** | arXiv 2026 | efficient reasoning/agent systems / VLA/WAM/Physical AI serving / distillation | [Link](https://arxiv.org/abs/2609.01567) | — |
 | **P0 · Strong** | **Contribution-Aware Bandwidth Allocation for Multimodal Split Learning** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2609.01406) | — |
 | **P0 · Strong** | **MIDR: Enrichment-Augmented Indexing for Multimodal Document Retrieval** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2609.01316) | — |
+| **P0 · Strong** | **A Composable Evaluation System for Reproducible Omni-Modal Foundation Model Evaluation** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2609.01315) | — |
 | **P0 · Strong** | **S$^2$Prune: Spatially Structured Visual Token Pruning for Multimodal Large Language Models** | Fresh / preprint | sparsity/pruning / multimodal/MLLM serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.01224) | [Repo](https://github.com/yuanyuanjia71-spec/S2Prune) |
 | **P0 · Strong** | **Compressing AI Traffic: Standardized Neural Network Coding of Visual-Token Representations in Split Vision-Language Inference** | Fresh / preprint | quantization / multimodal/MLLM serving | [Link](https://arxiv.org/abs/2609.01200) | — |
 | **P0 · Strong** | **SinkPruner: Sink-Free Visual Token Pruning for Multimodal Large Language Models** | Fresh / preprint | sparsity/pruning / multimodal/MLLM serving | [Link](https://arxiv.org/abs/2609.01004) | [Repo](https://github.com/LaVi-Lab/SinkPruner) |
@@ -166,18 +167,21 @@
 | **P1 · Watch** | **LUCID: An Agentic AI Framework on Digital-Twin in the Loop for QoS-Guaranteeing Robotic Control** | Fresh / preprint | LLM serving / video/image generation acceleration / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.28437) | — |
 | **P0 · Strong** | **Dual-Stream Semantic Guidance with Prototype Anchor Calibration for Source-Fully-Free Adaptation of Vision-Language Models** | Fresh / preprint | LLM serving / multimodal/MLLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.28145) | [Repo](https://github.com/mrmenand/DSSG) |
 | **P0 · Strong** | **Token-Budget Distillation: Transferring Full-Token Semantics to Compressed Video Vision-Language Models** | Fresh / preprint | sparsity/pruning / multimodal/MLLM serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.28138) | — |
+| **P1 · Watch** | **RoboPhys-3D: A Comprehensive Embodied World Model Evaluation via 3D Reconstruction** | Fresh / preprint | multimodal/MLLM serving / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.28718) | — |
 | **P1 · Watch** | **DeicticVLA: Unifying Instruction Modes Based on Language and Deictic Gestures in a Single VLA** | Fresh / preprint | multimodal/MLLM serving / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.28108) | — |
 | **P1 · Watch** | **WeAgent-MMSearch: Native Text-Vision Interaction for Multimodal Search Agents** | Fresh / preprint | multimodal/MLLM serving / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.28062) | — |
 | **P1 · Watch** | **StreamEMS: Streaming Video Understanding with Self-Evolving Memory Scheme for Vision-Language Models** | Fresh / preprint | multimodal/MLLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.27881) | — |
 | **P0 · Strong** | **CoRe-MoE: Compact Reusable MoE for Continual Multimodal Instruction Tuning** | Fresh / preprint | LLM serving / multimodal/MLLM serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.27867) | [Repo](https://github.com/runzezz/CoRe-MoE) |
 | **P1 · Watch** | **FFSlim: An Efficient and Lightweight Format for Multi-modal Data Storage and Retrieval** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2608.27865) | — |
 | **P1 · Watch** | **Activation Outliers Matter: Robust Recovery for Quantized Multimodal LLMs** | Fresh / preprint | quantization / multimodal / video generation | [Link](https://arxiv.org/abs/2608.26581) | — |
+| **P1 · Watch** | **PHR-VLA: Planning Horizon Reasoning for Vision-Language-Action Models** | Fresh / preprint | multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.27609) | — |
 | **P1 · Watch** | **Beyond Data Scaling: Representation-Centric Continued Pre-training for Vision-Language-Action Models** | Fresh / preprint | LLM serving / multimodal/MLLM serving / VLA/WAM/Physical AI serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.27550) | — |
 | **P0 · Strong** | **PACE: A Unified Condense-and-Extract Paradigm for Fast VLM Inference** | arXiv 2026 | multimodal/MLLM serving / visual token efficiency | [Link](https://arxiv.org/abs/2608.27206) | [Repo](https://github.com/jjL357/PACE) |
 | **P1 · Watch** | **GRAFT: Grounded and Efficient Online Reinforcement Adaptation for Fine-Grained Robot Manipulation** | Fresh / preprint | multimodal/MLLM serving / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.27079) | — |
 | **P0 · Strong** | **State-Conditioned Visual Evidence Retrieval for Fine-Grained Perception in Document Vision-Language Models** | Fresh / preprint | multimodal/MLLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.28698) | — |
 | **P1 · Watch** | **Video-OPSD: Exploiting Privileged Visual Evidence for On-Policy Self-Distillation in Video Large Language Models** | Fresh / preprint | video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.27065) | — |
 | **P1 · Watch** | **4DSynth: Controllable Procedural World Synthesis for Dynamic Embodied Simulation** | Fresh / preprint | multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.26947) | — |
+| **P0 · Strong** | **Instruction Distillation: Text Instructions as Visual Examples** | Fresh / preprint | LLM serving / multimodal/MLLM serving | [Link](https://arxiv.org/abs/2608.28696) | — |
 | **P0 · Strong** | **TemporalFlow-VLA: Learning Physically Grounded Execution History for Long-Horizon Robot Manipulation** | Fresh / preprint | LLM serving / multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.26821) | — |
 | **P1 · Watch** | **LLaVAFlow: Preserving Latent Alignment Flow for Parameter-Efficient Multimodal Fine-Tuning** | Fresh / preprint | LLM serving / multimodal/MLLM serving | [Link](https://arxiv.org/abs/2608.26820) | — |
 | **P0 · Strong** | **Multi-Image Visual Token Pruning in Large Visual Language Models** | Fresh / preprint | sparsity/pruning / efficient attention / multimodal/MLLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.26806) | [Repo](https://github.com/zry13/AVTP) |

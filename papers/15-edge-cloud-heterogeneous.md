@@ -1,10 +1,10 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **528 canonical papers** mapped here, plus a broader **561-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **530 canonical papers** mapped here, plus a broader **564-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 561 tracked
+## 🆕 Latest 30 Days · 564 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -224,6 +224,7 @@
 | **P0 · Strong** | **Efficiently Estimating Optimal Hyperparameter Scaling Laws through Power-Law Entropy Search** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2609.01431) | — |
 | **P0 · Strong** | **Contribution-Aware Bandwidth Allocation for Multimodal Split Learning** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2609.01406) | — |
 | **P0 · Strong** | **mzCache: On-Device LLM Memory Management under Multitasking** | MobiCom 2026 | edge/cloud/heterogeneous AI / KV cache / on-device LLM serving | [Link](https://arxiv.org/abs/2609.01338) | — |
+| **P0 · Strong** | **A Composable Evaluation System for Reproducible Omni-Modal Foundation Model Evaluation** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2609.01315) | — |
 | **P0 · Strong** | **S$^2$Prune: Spatially Structured Visual Token Pruning for Multimodal Large Language Models** | Fresh / preprint | sparsity/pruning / multimodal/MLLM serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.01224) | [Repo](https://github.com/yuanyuanjia71-spec/S2Prune) |
 | **P0 · Strong** | **Compressing AI Traffic: Standardized Neural Network Coding of Visual-Token Representations in Split Vision-Language Inference** | Fresh / preprint | quantization / multimodal/MLLM serving | [Link](https://arxiv.org/abs/2609.01200) | — |
 | **P1 · Watch** | **When Does Online Adaptation Pay on the Edge? A Leakage-Free Evaluation of Warmup, Learning-Rate Selection, and Resource Trade-offs for Time-Series Forecasting** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2609.01126) | [Repo](https://github.com/keiotakmin/tsf-edge-adaptation) |
@@ -232,6 +233,7 @@
 | **P1 · Watch** | **HiveTraceGuard-Pro: A Compact Generative Guardrail for Prompt Injection, Jailbreaks, and Adversarial Obfuscation** | Fresh / preprint | LLM serving / quantization / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.01046) | — |
 | **P0 · Strong** | **CERF: Communication-Efficient and Retraining-Free Collaborative Perception** | Fresh / preprint | distributed training/inference / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.00951) | [Repo](https://github.com/uestchjw/CERF) |
 | **P0 · Strong** | **On-the-Fly3R: Towards Robust Online 3D Reconstruction with Feed-Forward 3R Models for Large-Scale UAV Scenarios** | Fresh / preprint | edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.00923) | [Repo](https://github.com/Sh1nZzz/On_the_Fly3R) |
+| **P0 · Strong** | **Prediction-Robust Service Deployment with Capacity-Aware Edge Admission** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2609.00877) | — |
 | **P1 · Watch** | **Replacing Training with Memory: Listwise Selection for Text-to-SQL** | Fresh / preprint | edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.00834) | — |
 | **P1 · Watch** | **The Price of Remembering: A Calibrated Energy Law for Computation** | Fresh / preprint | LLM serving / KV cache/long-context / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.00744) | — |
 | **P0 · Strong** | **FALCON: Fault-Tolerant Magnetic Tunnel Junction-Based In-Memory Stochastic Architecture for Reliability-Critical Edge AI Applications** | Fresh / preprint | quantization | [Link](https://arxiv.org/abs/2609.00701) | — |
@@ -269,6 +271,7 @@
 | **P0 · Strong** | **Error Detection for PET/CT Radiology Reports: Domain-Specific vs Large Language Models** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.30021) | — |
 | **P1 · Watch** | **Compression-Aware Abstention: Teaching LLMs to Refuse When KV-Compression Masks Remove Answer Evidence** | Fresh / preprint | LLM serving / KV cache/long-context / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.29934) | — |
 | **P1 · Watch** | **On the Instance Hardness as a Decision Criterion in TinyML Systems** | Fresh / preprint | edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.29913) | — |
+| **P1 · Watch** | **REIGN: Refurbished Embeddings with Integrated Guidance Networks for Efficient Context-Length Scaling** | Fresh / preprint | KV cache/long-context / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.29899) | — |
 | **P1 · Watch** | **EMERGE-Policy: A Robot Mind Emerges Beyond a Single Policy** | Fresh / preprint | LLM serving / video/image generation acceleration / efficient reasoning/agent systems / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.29896) | — |
 | **P1 · Watch** | **Structure Aware Neural Architecture Search for Mixture of Experts** | Fresh / preprint | LLM serving / MoE systems/accelerators / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.29817) | — |
 | **P1 · Watch** | **CUDA-Harness: Harnessing Agentic CUDA Kernel Generation and Optimization from Natural Language** | Fresh / preprint | GPU kernel/DSL/compilers / video/image generation acceleration / efficient reasoning/agent systems / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.00058) | — |

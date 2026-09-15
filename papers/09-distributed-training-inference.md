@@ -1,10 +1,10 @@
 # 09 · Distributed Training / Inference
 
-> **400 canonical papers** mapped here, plus a broader **214-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **400 canonical papers** mapped here, plus a broader **216-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 214 tracked
+## 🆕 Latest 30 Days · 216 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -116,6 +116,7 @@
 | **P0 · Strong** | **TrajMind: Chaining Role-Specialized LoRAs for Fast-and-Slow Collective Trajectory Anomaly Diagnosis** | arXiv 2026 | efficient reasoning/agent systems / multimodal serving / conditional execution / LoRA routing | [Link](https://arxiv.org/abs/2609.02540) | — |
 | **P0 · Strong** | **AceSpec: An Asymmetric Edge-Cloud Collaborative Framework for Communication-Efficient LLM Inference** | CoRR 2026 | speculative decoding / edge-cloud LLM inference / distributed inference / communication efficiency | [Link](https://arxiv.org/abs/2609.02514) | — |
 | **P0 · Strong** | **Codebook Agent: Amortized Topology Design for LLM Multi-Agent Systems** | arXiv 2026 | efficient reasoning/agent systems / multi-agent topology / inference cost | [Link](https://arxiv.org/abs/2609.02264) | — |
+| **P1 · Watch** | **Privacy-Preserving Topology-Guided Safety for LLM-Based Multi-Agent Systems via Federated Graph Learning** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2609.02967) | — |
 | **P1 · Watch** | **Compositional Spectral Prompts for LLM-based Online Time Series Forecasting** | Fresh / preprint | edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.02093) | [Repo](https://github.com/seungyoon-Choi/CoSPOT) |
 | **P0 · Strong** | **Scaling Inference Prefill with High-Radix Photonic Interconnects** | CoRR 2026 | distributed inference / LLM prefill / photonic interconnect / scale-up systems | [Link](https://arxiv.org/abs/2609.01821) | — |
 | **P1 · Watch** | **D-FROST: Decentralized Federated pRompt-tuning via Optimal tranSporT for Non-IID and Imbalanced Data** | Fresh / preprint | video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.01802) | — |
@@ -130,6 +131,7 @@
 | **P1 · Watch** | **A Closed-Loop Evaluation of Capability Loss and Recovery in Compressed Driving Policies** | Fresh / preprint | quantization / sparsity/pruning | [Link](https://arxiv.org/abs/2609.00718) | — |
 | **P1 · Watch** | **Breaking the Structural Identity: Personalized Federated LoRA Fine-tuning under Rank Heterogeneity** | Fresh / preprint | edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.00632) | — |
 | **P0 · Strong** | **DRLM: Deep Reinforcement Learning-Based LLM Query Orchestration in Edge Environments** | arXiv 2026 | edge/cloud heterogeneous AI systems / LLM serving / query orchestration / model-device-quantization routing | [Link](https://arxiv.org/abs/2609.00442) | — |
+| **P1 · Watch** | **Adapting Without Gradients: Affine Statistics Transport and What Its Certificate Can Tell You** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2609.00374) | — |
 | **P0 · Strong** | **Provably Efficient Federated Reinforcement Learning with Linear Function Approximation and Logarithmic Communication Cost** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2609.00193) | — |
 | **P1 · Watch** | **Does On-Policy Distillation Really Distill? From Noisy Teacher to Self-Improvement** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.31046) | — |
 | **P0 · Strong** | **Learning-Theoretic Foundation for General Coded Computing: The Straggler Setting** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.28910) | — |

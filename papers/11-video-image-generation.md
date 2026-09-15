@@ -1,10 +1,10 @@
 # 11 · Video / Image Generation
 
-> **290 canonical papers** mapped here, plus a broader **424-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **291 canonical papers** mapped here, plus a broader **430-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 424 tracked
+## 🆕 Latest 30 Days · 430 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -93,12 +93,14 @@
 | **P0 · Strong** | **ContextPipe: Database-Inspired Context Assembly for Long-Horizon Agents** | Fresh / preprint | KV cache/long-context / video/image generation acceleration / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2609.00749) | — |
 | **P1 · Watch** | **Escaping Redundant Reasoning: Structure-Aware Search for Inference-Time LLMs** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2609.00738) | [Repo](https://github.com/GitHubLuCheng/basin) |
 | **P0 · Strong** | **REVISE: Validity-Guided Recovery for Online Revisions in Agent Workflows** | Fresh / preprint | LLM serving / GPU kernel/DSL/compilers / video/image generation acceleration | [Link](https://arxiv.org/abs/2609.00643) | — |
+| **P1 · Watch** | **Trust Your Guide Only When Certain: Uncertainty-Aware Sparse Alignment at Inference Time** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2609.00624) | — |
 | **P1 · Watch** | **Streaming4D: Accelerate 4D World Models via Block-wise Video Generation and Incremental Reconstruction** | arXiv 2026 | VLA/WAM/Physical AI serving / world-model acceleration / streaming 4D reconstruction | [Link](https://arxiv.org/abs/2609.00610) | — |
 | **P1 · Watch** | **Enoki: Efficient Multi-Level Hallucination Detection** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2609.00581) | — |
 | **P1 · Watch** | **Are We There Yet? Assessing Computer-Use Agents for Blind Users' Accessible Interaction with Desktop Applications** | Fresh / preprint | video/image generation acceleration / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2609.00524) | — |
 | **P1 · Watch** | **mimeo: Compiling Public Expert Corpora into Agent Skills and Testing What Transfers** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2609.00453) | [Repo](https://github.com/K-Dense-AI/mimeo) |
 | **P0 · Strong** | **SAGE: State-Grounded, Abstention-Aware Evaluation of Task-Oriented Dialogue Agents** | Fresh / preprint | GPU kernel/DSL/compilers / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.00434) | — |
 | **P0 · Strong** | **Hidden relationships in a document-derived property graph: top-k chunk embeddings and inverse-distance weighting over a dynamically evolving ontology** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2609.00387) | — |
+| **P1 · Watch** | **Adapting Without Gradients: Affine Statistics Transport and What Its Certificate Can Tell You** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2609.00374) | — |
 | **P0 · Strong** | **Vision Is Not Overhead: One-Pass Block Drafting for Lossless Speculative Decoding in Vision-Language Models** | Fresh / preprint | speculative decoding / multimodal/MLLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2609.00355) | [Repo](https://github.com/js-lee-AI/GLANCE) |
 | **P0 · Strong** | **Invalidation Contracts for Cross-Episode Agent Memory** | Fresh / preprint | LLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.00243) | — |
 | **P0 · Strong** | **Learning What to Retain: Gated-Memory Routing for Efficient Collaboration in Multi-Agent LLM Systems** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2609.00237) | [Repo](https://github.com/rajibrhasan/gated-memory-routing) |
@@ -115,6 +117,7 @@
 | **P0 · Strong** | **PixelIR: Fidelity-Perception Decoupling via Pixel-Space Image-Residual Flow Matching for Efficient One-Step Real-World Super-Resolution** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.30782) | — |
 | **P1 · Watch** | **PRACTICE: From Experience to Expertise in Self-Evolving Embodied Agents** | Fresh / preprint | multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.30760) | — |
 | **P0 · Strong** | **NeoMME: A Single-Tower Multimodal-Native Multilingual Foundation Encoder for Efficient Fine-Tuning and Inference** | Fresh / preprint | LLM serving / quantization / multimodal/MLLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.01657) | — |
+| **P1 · Watch** | **SingProbe Technical Report** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2608.30703) | — |
 | **P1 · Watch** | **Can Video World Models Track Unobserved World States?** | Fresh / preprint | KV cache/long-context / efficient attention / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.30692) | — |
 | **P1 · Watch** | **What It Costs to Compose, Rebuild, and Correct Precomputed Memory** | Fresh / preprint | LLM serving / KV cache/long-context / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.30647) | — |
 | **P0 · Strong** | **DiffSAC: Diffusion-guided Sampling for Consensus-based Robust Estimation** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2608.30603) | — |
@@ -176,11 +179,13 @@
 | **P1 · Watch** | **SpikeOPD: Stable On-Policy Distillation for Autoregressive Spiking Language Models** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.27857) | — |
 | **P1 · Watch** | **ClusterAttention: A training-free speedup of bidirectional attention** | Fresh / preprint | efficient attention / sparse attention / video generation | [Link](https://arxiv.org/abs/2608.26965) | — |
 | **P1 · Watch** | **Activation Outliers Matter: Robust Recovery for Quantized Multimodal LLMs** | Fresh / preprint | quantization / multimodal / video generation | [Link](https://arxiv.org/abs/2608.26581) | — |
+| **P1 · Watch** | **PHR-VLA: Planning Horizon Reasoning for Vision-Language-Action Models** | Fresh / preprint | multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.27609) | — |
 | **P1 · Watch** | **Quanta Perception as Probabilistic Events** | Fresh / preprint | LLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.27584) | — |
 | **P0 · Strong** | **Scaling Graph Neural Networks for Friend Recommendation: Multi-Hash User Embeddings and Temporal Neighbor Sampling** | Fresh / preprint | LLM serving / quantization / distributed training/inference / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.27413) | — |
 | **P1 · Watch** | **CLAP: Cross-Embodiment Video World Models are Zero-Shot Physical Simulators** | Fresh / preprint | video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.27406) | — |
 | **P0 · Strong** | **Making Latent Evolution Explicit: Operator-Structured Transitions for World Action Models** | Fresh / preprint | LLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.27259) | — |
 | **P0 · Strong** | **Compositional Online Learning for Semantic Data Processing Systems** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.27244) | — |
+| **P0 · Strong** | **EditaLive! Unified Character Video Editing for Live Streaming** | Fresh / preprint | LLM serving / sparsity/pruning / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.27123) | — |
 | **P0 · Strong** | **State-Conditioned Visual Evidence Retrieval for Fine-Grained Perception in Document Vision-Language Models** | Fresh / preprint | multimodal/MLLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.28698) | — |
 | **P1 · Watch** | **Video-OPSD: Exploiting Privileged Visual Evidence for On-Policy Self-Distillation in Video Large Language Models** | Fresh / preprint | video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.27065) | — |
 | **P0 · Strong** | **Riemann-1.0: An Embodied World Action Model for Physical AI** | Fresh / preprint | video/image generation acceleration / VLA/WAM/Physical AI serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.27033) | — |
@@ -210,6 +215,7 @@
 | **P1 · Watch** | **PRISM: Projection-Integrated Sampling-Based MPC with Bayesian Cost Tuning for Bimanual Manipulation** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2608.25666) | — |
 | **P1 · Watch** | **Stochastic End-to-End Latency Modeling of the IoT-Edge-Cloud Continuum: Impact of Jitter and Traffic Variability on Deterministic Service Provisioning** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.25658) | — |
 | **P1 · Watch** | **Reconstructing the Right Episode: Evaluating Interleaved Conversational Memory Beyond Long Context** | Fresh / preprint | KV cache/long-context / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.25655) | — |
+| **P1 · Watch** | **ConfAL-WM: Confidence-Guided Active Learning for Action-Conditioned World Models** | Fresh / preprint | video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.25572) | — |
 | **P0 · Strong** | **AdaVDR: Adaptive Tool Use and Reflection for Video Deep Research** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.25559) | — |
 | **P1 · Watch** | **CaSKG: Counterfactual-Causal Skill Graphs for Scalable Agent Skill Retrieval** | Fresh / preprint | video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.25500) | [Repo](https://github.com/ZhiyuanLi218/Caskg) |
 | **P1 · Watch** | **A Storage-Retrieval Gap in Parametric Knowledge Graph Memory** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2608.25489) | — |

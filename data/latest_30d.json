@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-15",
   "window_start_beijing": "2026-08-16",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 2019,
+  "tracked_total": 2033,
   "p0_strong_or_canonical": [
     {
       "title": "SAS: Simple Attention Sparsification via End-to-End Optimization of Context Ranking",
@@ -6271,6 +6271,29 @@
       ]
     },
     {
+      "title": "A Composable Evaluation System for Reproducible Omni-Modal Foundation Model Evaluation",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving",
+      "arxiv": "2609.01315",
+      "doi": "",
+      "official_id": "arXiv:2609.01315",
+      "paper_url": "https://arxiv.org/abs/2609.01315",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "OmniEvaluator unifies heterogeneous multimodal inference backends and evaluation frameworks with reproducible artifacts and federated GPU inference; direct AI-infrastructure/evaluation serving contribution.",
+      "published_at": "2026-09-01T14:37:57Z",
+      "updated_at": "2026-09-09T00:44:03Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Multimodal / MLLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "FORGE: Forward-Only Test-Time Adaptation for Integer-Only Vision Models on Microcontrollers",
       "venue": "Fresh / preprint",
       "topic": "quantization",
@@ -6555,6 +6578,27 @@
         "KV Cache / Long Context",
         "Efficient Attention",
         "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Prediction-Robust Service Deployment with Capacity-Aware Edge Admission",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving",
+      "arxiv": "2609.00877",
+      "doi": "",
+      "official_id": "arXiv:2609.00877",
+      "paper_url": "https://arxiv.org/abs/2609.00877",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "CAPSUM studies prediction-robust, capacity-aware edge service deployment with formal consistency/robustness guarantees; direct edge serving and admission-control contribution.",
+      "published_at": "2026-09-01T08:09:53Z",
+      "updated_at": "2026-09-01T08:09:53Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -9174,6 +9218,28 @@
       ]
     },
     {
+      "title": "EditaLive! Unified Character Video Editing for Live Streaming",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / sparsity/pruning / video/image generation acceleration",
+      "arxiv": "2608.27123",
+      "doi": "",
+      "official_id": "arXiv:2608.27123",
+      "paper_url": "https://arxiv.org/abs/2608.27123",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "EditaLive converts an offline bidirectional video editor into causal streaming generation for real-time live character editing; direct streaming generation/runtime contribution.",
+      "published_at": "2026-08-27T13:37:45Z",
+      "updated_at": "2026-08-27T13:37:45Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Video / Image Generation"
+      ]
+    },
+    {
       "title": "State-Conditioned Visual Evidence Retrieval for Fine-Grained Perception in Document Vision-Language Models",
       "venue": "Fresh / preprint",
       "topic": "multimodal/MLLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems",
@@ -9321,6 +9387,27 @@
         "LLM Serving",
         "Speculative Decoding",
         "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "Instruction Distillation: Text Instructions as Visual Examples",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / multimodal/MLLM serving",
+      "arxiv": "2608.28696",
+      "doi": "",
+      "official_id": "arXiv:2608.28696",
+      "paper_url": "https://arxiv.org/abs/2608.28696",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Instruction Distillation replaces token-heavy visual ICL examples with offline-generated textual identification instructions, directly targeting multimodal context-token and inference cost.",
+      "published_at": "2026-08-27T09:24:15Z",
+      "updated_at": "2026-08-27T09:24:15Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving"
       ]
     },
     {
@@ -25575,6 +25662,28 @@
       ]
     },
     {
+      "title": "Privacy-Preserving Topology-Guided Safety for LLM-Based Multi-Agent Systems via Federated Graph Learning",
+      "venue": "",
+      "topic": "LLM serving",
+      "arxiv": "2609.02967",
+      "doi": "",
+      "official_id": "arXiv:2609.02967",
+      "paper_url": "https://arxiv.org/abs/2609.02967",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "FGLGuard federates graph-based safeguards for multi-agent systems without pooling private traces; useful distributed agent-runtime safety lineage.",
+      "published_at": "2026-09-02T07:57:12Z",
+      "updated_at": "2026-09-02T07:57:12Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "LLM-as-a-Judge Is Not an Oracle: Why Self-Improving Agents Need Deterministic Guardrails",
       "venue": "",
       "topic": "edge/cloud/heterogeneous AI systems",
@@ -26680,6 +26789,27 @@
       ]
     },
     {
+      "title": "Trust Your Guide Only When Certain: Uncertainty-Aware Sparse Alignment at Inference Time",
+      "venue": "",
+      "topic": "video/image generation acceleration",
+      "arxiv": "2609.00624",
+      "doi": "",
+      "official_id": "arXiv:2609.00624",
+      "paper_url": "https://arxiv.org/abs/2609.00624",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "TUSA sparsifies inference-time alignment interventions using supervisor uncertainty and token salience; useful selective-compute decoding lineage.",
+      "published_at": "2026-09-01T03:05:49Z",
+      "updated_at": "2026-09-01T03:05:49Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Sparsity / Pruning",
+        "Video / Image Generation"
+      ]
+    },
+    {
       "title": "Streaming4D: Accelerate 4D World Models via Block-wise Video Generation and Incremental Reconstruction",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / world-model acceleration / streaming 4D reconstruction",
@@ -26807,6 +26937,28 @@
       ]
     },
     {
+      "title": "Adapting Without Gradients: Affine Statistics Transport and What Its Certificate Can Tell You",
+      "venue": "",
+      "topic": "video/image generation acceleration",
+      "arxiv": "2609.00374",
+      "doi": "",
+      "official_id": "arXiv:2609.00374",
+      "paper_url": "https://arxiv.org/abs/2609.00374",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "CASTER performs gradient-free test-time adaptation with frozen models and no backward pass or optimizer state, relevant to inference-only accelerators and constrained deployment.",
+      "published_at": "2026-08-31T21:07:36Z",
+      "updated_at": "2026-08-31T21:07:36Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Distributed Training / Inference",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "The Irreversibility Budget: Fleet-Level Risk Accounting and Admission Control for Agent Operating Systems",
       "venue": "",
       "topic": "edge/cloud/heterogeneous AI systems",
@@ -26892,6 +27044,26 @@
         "Efficient Attention",
         "Video / Image Generation",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Deploying and Evaluating a Smart-Agriculture Agentic Engine for Full-Season Soybean Farm Operations",
+      "venue": "",
+      "topic": "efficient reasoning/agent systems",
+      "arxiv": "2609.00106",
+      "doi": "",
+      "official_id": "arXiv:2609.00106",
+      "paper_url": "https://arxiv.org/abs/2609.00106",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "FAIRY is a deployed full-stack smart-agriculture agent system spanning sensing, machinery and full-season workflows; protected Physical-AI runtime/integration lineage.",
+      "published_at": "2026-08-31T17:53:17Z",
+      "updated_at": "2026-08-31T17:53:17Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -27244,6 +27416,27 @@
       "is_latest_30d": true,
       "directions": [
         "LLM Serving"
+      ]
+    },
+    {
+      "title": "SingProbe Technical Report",
+      "venue": "",
+      "topic": "video/image generation acceleration",
+      "arxiv": "2608.30703",
+      "doi": "",
+      "official_id": "arXiv:2608.30703",
+      "paper_url": "https://arxiv.org/abs/2608.30703",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "SingProbe reuses LLM hidden states for token-level runtime safety/hallucination monitoring with negligible additional guardrail inference overhead; useful serving observability lineage.",
+      "published_at": "2026-08-31T12:42:11Z",
+      "updated_at": "2026-08-31T12:42:11Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation"
       ]
     },
     {
@@ -27794,6 +27987,27 @@
       "updated_at": "2026-08-30T17:18:20Z",
       "is_latest_30d": true,
       "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "REIGN: Refurbished Embeddings with Integrated Guidance Networks for Efficient Context-Length Scaling",
+      "venue": "",
+      "topic": "KV cache/long-context / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2608.29899",
+      "doi": "",
+      "official_id": "arXiv:2608.29899",
+      "paper_url": "https://arxiv.org/abs/2608.29899",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "REIGN caches frozen guidance-network chunk embeddings and reports roughly four orders lower per-document training cost than chunked Transformer fine-tuning; useful long-context efficiency lineage.",
+      "published_at": "2026-08-30T16:50:38Z",
+      "updated_at": "2026-09-01T07:07:54Z",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -28648,6 +28862,28 @@
       ]
     },
     {
+      "title": "RoboPhys-3D: A Comprehensive Embodied World Model Evaluation via 3D Reconstruction",
+      "venue": "",
+      "topic": "multimodal/MLLM serving / VLA/WAM/Physical AI serving",
+      "arxiv": "2608.28718",
+      "doi": "",
+      "official_id": "arXiv:2608.28718",
+      "paper_url": "https://arxiv.org/abs/2608.28718",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "RoboPhys-3D provides a 3D-grounded embodied world-model evaluation pipeline with shared reconstruction processing; useful WAM infrastructure lineage.",
+      "published_at": "2026-08-28T09:44:13Z",
+      "updated_at": "2026-08-28T09:44:13Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "VICT: Verifier-Instrumented Credit Tracing for Long-Horizon LLM Agent Reinforcement Learning",
       "venue": "",
       "topic": "sparsity/pruning / video/image generation acceleration",
@@ -29204,6 +29440,30 @@
       "directions": [
         "GPU Kernel / DSL / Compiler",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "PHR-VLA: Planning Horizon Reasoning for Vision-Language-Action Models",
+      "venue": "",
+      "topic": "multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving",
+      "arxiv": "2608.27609",
+      "doi": "",
+      "official_id": "arXiv:2608.27609",
+      "paper_url": "https://arxiv.org/abs/2608.27609",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "PHR-VLA adds a lightweight future-dynamics head to VLA training for planning-horizon reasoning; protected VLA action-head lineage.",
+      "published_at": "2026-08-27T18:42:35Z",
+      "updated_at": "2026-08-27T18:42:35Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -30231,6 +30491,28 @@
         "Quantization",
         "Efficient Reasoning / Agents",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "ConfAL-WM: Confidence-Guided Active Learning for Action-Conditioned World Models",
+      "venue": "",
+      "topic": "video/image generation acceleration / VLA/WAM/Physical AI serving",
+      "arxiv": "2608.25572",
+      "doi": "",
+      "official_id": "arXiv:2608.25572",
+      "paper_url": "https://arxiv.org/abs/2608.25572",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "ConfAL-WM uses a lightweight confidence probe for active selection and localized post-training of action-conditioned world models; protected WAM efficiency lineage.",
+      "published_at": "2026-08-26T09:29:08Z",
+      "updated_at": "2026-08-26T09:29:08Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -32499,6 +32781,27 @@
       "is_latest_30d": true,
       "directions": [
         "LLM Serving"
+      ]
+    },
+    {
+      "title": "Triplet2Track: A Hierarchical System with Object-Centric Representations for Reliable Long-Horizon Manipulation",
+      "venue": "",
+      "topic": "VLA/WAM/Physical AI serving",
+      "arxiv": "2608.22800",
+      "doi": "",
+      "official_id": "arXiv:2608.22800",
+      "paper_url": "https://arxiv.org/abs/2608.22800",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Triplet2Track is a closed-loop long-horizon manipulation system with online monitoring/replanning; protected Physical-AI runtime lineage.",
+      "published_at": "2026-08-24T04:46:25Z",
+      "updated_at": "2026-08-24T04:46:25Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -49875,6 +50178,29 @@
       ]
     },
     {
+      "title": "A Composable Evaluation System for Reproducible Omni-Modal Foundation Model Evaluation",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving",
+      "arxiv": "2609.01315",
+      "doi": "",
+      "official_id": "arXiv:2609.01315",
+      "paper_url": "https://arxiv.org/abs/2609.01315",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "OmniEvaluator unifies heterogeneous multimodal inference backends and evaluation frameworks with reproducible artifacts and federated GPU inference; direct AI-infrastructure/evaluation serving contribution.",
+      "published_at": "2026-09-01T14:37:57Z",
+      "updated_at": "2026-09-09T00:44:03Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Multimodal / MLLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "FORGE: Forward-Only Test-Time Adaptation for Integer-Only Vision Models on Microcontrollers",
       "venue": "Fresh / preprint",
       "topic": "quantization",
@@ -50159,6 +50485,27 @@
         "KV Cache / Long Context",
         "Efficient Attention",
         "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Prediction-Robust Service Deployment with Capacity-Aware Edge Admission",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving",
+      "arxiv": "2609.00877",
+      "doi": "",
+      "official_id": "arXiv:2609.00877",
+      "paper_url": "https://arxiv.org/abs/2609.00877",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "CAPSUM studies prediction-robust, capacity-aware edge service deployment with formal consistency/robustness guarantees; direct edge serving and admission-control contribution.",
+      "published_at": "2026-09-01T08:09:53Z",
+      "updated_at": "2026-09-01T08:09:53Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -52778,6 +53125,28 @@
       ]
     },
     {
+      "title": "EditaLive! Unified Character Video Editing for Live Streaming",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / sparsity/pruning / video/image generation acceleration",
+      "arxiv": "2608.27123",
+      "doi": "",
+      "official_id": "arXiv:2608.27123",
+      "paper_url": "https://arxiv.org/abs/2608.27123",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "EditaLive converts an offline bidirectional video editor into causal streaming generation for real-time live character editing; direct streaming generation/runtime contribution.",
+      "published_at": "2026-08-27T13:37:45Z",
+      "updated_at": "2026-08-27T13:37:45Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning",
+        "Video / Image Generation"
+      ]
+    },
+    {
       "title": "State-Conditioned Visual Evidence Retrieval for Fine-Grained Perception in Document Vision-Language Models",
       "venue": "Fresh / preprint",
       "topic": "multimodal/MLLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems",
@@ -52925,6 +53294,27 @@
         "LLM Serving",
         "Speculative Decoding",
         "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "Instruction Distillation: Text Instructions as Visual Examples",
+      "venue": "Fresh / preprint",
+      "topic": "LLM serving / multimodal/MLLM serving",
+      "arxiv": "2608.28696",
+      "doi": "",
+      "official_id": "arXiv:2608.28696",
+      "paper_url": "https://arxiv.org/abs/2608.28696",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Instruction Distillation replaces token-heavy visual ICL examples with offline-generated textual identification instructions, directly targeting multimodal context-token and inference cost.",
+      "published_at": "2026-08-27T09:24:15Z",
+      "updated_at": "2026-08-27T09:24:15Z",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving"
       ]
     },
     {
@@ -69177,6 +69567,28 @@
       ]
     },
     {
+      "title": "Privacy-Preserving Topology-Guided Safety for LLM-Based Multi-Agent Systems via Federated Graph Learning",
+      "venue": "",
+      "topic": "LLM serving",
+      "arxiv": "2609.02967",
+      "doi": "",
+      "official_id": "arXiv:2609.02967",
+      "paper_url": "https://arxiv.org/abs/2609.02967",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "FGLGuard federates graph-based safeguards for multi-agent systems without pooling private traces; useful distributed agent-runtime safety lineage.",
+      "published_at": "2026-09-02T07:57:12Z",
+      "updated_at": "2026-09-02T07:57:12Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "LLM-as-a-Judge Is Not an Oracle: Why Self-Improving Agents Need Deterministic Guardrails",
       "venue": "",
       "topic": "edge/cloud/heterogeneous AI systems",
@@ -70282,6 +70694,27 @@
       ]
     },
     {
+      "title": "Trust Your Guide Only When Certain: Uncertainty-Aware Sparse Alignment at Inference Time",
+      "venue": "",
+      "topic": "video/image generation acceleration",
+      "arxiv": "2609.00624",
+      "doi": "",
+      "official_id": "arXiv:2609.00624",
+      "paper_url": "https://arxiv.org/abs/2609.00624",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "TUSA sparsifies inference-time alignment interventions using supervisor uncertainty and token salience; useful selective-compute decoding lineage.",
+      "published_at": "2026-09-01T03:05:49Z",
+      "updated_at": "2026-09-01T03:05:49Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Sparsity / Pruning",
+        "Video / Image Generation"
+      ]
+    },
+    {
       "title": "Streaming4D: Accelerate 4D World Models via Block-wise Video Generation and Incremental Reconstruction",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / world-model acceleration / streaming 4D reconstruction",
@@ -70409,6 +70842,28 @@
       ]
     },
     {
+      "title": "Adapting Without Gradients: Affine Statistics Transport and What Its Certificate Can Tell You",
+      "venue": "",
+      "topic": "video/image generation acceleration",
+      "arxiv": "2609.00374",
+      "doi": "",
+      "official_id": "arXiv:2609.00374",
+      "paper_url": "https://arxiv.org/abs/2609.00374",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "CASTER performs gradient-free test-time adaptation with frozen models and no backward pass or optimizer state, relevant to inference-only accelerators and constrained deployment.",
+      "published_at": "2026-08-31T21:07:36Z",
+      "updated_at": "2026-08-31T21:07:36Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Distributed Training / Inference",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "The Irreversibility Budget: Fleet-Level Risk Accounting and Admission Control for Agent Operating Systems",
       "venue": "",
       "topic": "edge/cloud/heterogeneous AI systems",
@@ -70494,6 +70949,26 @@
         "Efficient Attention",
         "Video / Image Generation",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Deploying and Evaluating a Smart-Agriculture Agentic Engine for Full-Season Soybean Farm Operations",
+      "venue": "",
+      "topic": "efficient reasoning/agent systems",
+      "arxiv": "2609.00106",
+      "doi": "",
+      "official_id": "arXiv:2609.00106",
+      "paper_url": "https://arxiv.org/abs/2609.00106",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "FAIRY is a deployed full-stack smart-agriculture agent system spanning sensing, machinery and full-season workflows; protected Physical-AI runtime/integration lineage.",
+      "published_at": "2026-08-31T17:53:17Z",
+      "updated_at": "2026-08-31T17:53:17Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -70846,6 +71321,27 @@
       "is_latest_30d": true,
       "directions": [
         "LLM Serving"
+      ]
+    },
+    {
+      "title": "SingProbe Technical Report",
+      "venue": "",
+      "topic": "video/image generation acceleration",
+      "arxiv": "2608.30703",
+      "doi": "",
+      "official_id": "arXiv:2608.30703",
+      "paper_url": "https://arxiv.org/abs/2608.30703",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "SingProbe reuses LLM hidden states for token-level runtime safety/hallucination monitoring with negligible additional guardrail inference overhead; useful serving observability lineage.",
+      "published_at": "2026-08-31T12:42:11Z",
+      "updated_at": "2026-08-31T12:42:11Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation"
       ]
     },
     {
@@ -71396,6 +71892,27 @@
       "updated_at": "2026-08-30T17:18:20Z",
       "is_latest_30d": true,
       "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "REIGN: Refurbished Embeddings with Integrated Guidance Networks for Efficient Context-Length Scaling",
+      "venue": "",
+      "topic": "KV cache/long-context / edge/cloud/heterogeneous AI systems",
+      "arxiv": "2608.29899",
+      "doi": "",
+      "official_id": "arXiv:2608.29899",
+      "paper_url": "https://arxiv.org/abs/2608.29899",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "REIGN caches frozen guidance-network chunk embeddings and reports roughly four orders lower per-document training cost than chunked Transformer fine-tuning; useful long-context efficiency lineage.",
+      "published_at": "2026-08-30T16:50:38Z",
+      "updated_at": "2026-09-01T07:07:54Z",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -72250,6 +72767,28 @@
       ]
     },
     {
+      "title": "RoboPhys-3D: A Comprehensive Embodied World Model Evaluation via 3D Reconstruction",
+      "venue": "",
+      "topic": "multimodal/MLLM serving / VLA/WAM/Physical AI serving",
+      "arxiv": "2608.28718",
+      "doi": "",
+      "official_id": "arXiv:2608.28718",
+      "paper_url": "https://arxiv.org/abs/2608.28718",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "RoboPhys-3D provides a 3D-grounded embodied world-model evaluation pipeline with shared reconstruction processing; useful WAM infrastructure lineage.",
+      "published_at": "2026-08-28T09:44:13Z",
+      "updated_at": "2026-08-28T09:44:13Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "VICT: Verifier-Instrumented Credit Tracing for Long-Horizon LLM Agent Reinforcement Learning",
       "venue": "",
       "topic": "sparsity/pruning / video/image generation acceleration",
@@ -72806,6 +73345,30 @@
       "directions": [
         "GPU Kernel / DSL / Compiler",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "PHR-VLA: Planning Horizon Reasoning for Vision-Language-Action Models",
+      "venue": "",
+      "topic": "multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving",
+      "arxiv": "2608.27609",
+      "doi": "",
+      "official_id": "arXiv:2608.27609",
+      "paper_url": "https://arxiv.org/abs/2608.27609",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "PHR-VLA adds a lightweight future-dynamics head to VLA training for planning-horizon reasoning; protected VLA action-head lineage.",
+      "published_at": "2026-08-27T18:42:35Z",
+      "updated_at": "2026-08-27T18:42:35Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -73833,6 +74396,28 @@
         "Quantization",
         "Efficient Reasoning / Agents",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "ConfAL-WM: Confidence-Guided Active Learning for Action-Conditioned World Models",
+      "venue": "",
+      "topic": "video/image generation acceleration / VLA/WAM/Physical AI serving",
+      "arxiv": "2608.25572",
+      "doi": "",
+      "official_id": "arXiv:2608.25572",
+      "paper_url": "https://arxiv.org/abs/2608.25572",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "ConfAL-WM uses a lightweight confidence probe for active selection and localized post-training of action-conditioned world models; protected WAM efficiency lineage.",
+      "published_at": "2026-08-26T09:29:08Z",
+      "updated_at": "2026-08-26T09:29:08Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -76101,6 +76686,27 @@
       "is_latest_30d": true,
       "directions": [
         "LLM Serving"
+      ]
+    },
+    {
+      "title": "Triplet2Track: A Hierarchical System with Object-Centric Representations for Reliable Long-Horizon Manipulation",
+      "venue": "",
+      "topic": "VLA/WAM/Physical AI serving",
+      "arxiv": "2608.22800",
+      "doi": "",
+      "official_id": "arXiv:2608.22800",
+      "paper_url": "https://arxiv.org/abs/2608.22800",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Triplet2Track is a closed-loop long-horizon manipulation system with online monitoring/replanning; protected Physical-AI runtime lineage.",
+      "published_at": "2026-08-24T04:46:25Z",
+      "updated_at": "2026-08-24T04:46:25Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {

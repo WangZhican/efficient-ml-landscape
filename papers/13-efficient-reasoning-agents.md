@@ -1,10 +1,10 @@
 # 13 · Efficient Reasoning / Agents
 
-> **479 canonical papers** mapped here, plus a broader **619-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **479 canonical papers** mapped here, plus a broader **623-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 619 tracked
+## 🆕 Latest 30 Days · 623 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -260,6 +260,7 @@
 | **P0 · Strong** | **The Diagnosis a Reporter Leaves Unspoken: Surfacing Frozen Tumor Features for Brain-Tumor MRI Reporting** | arXiv 2026 | efficient reasoning/agent systems / multimodal inference / single-pass decoding / healthcare AI | [Link](https://arxiv.org/abs/2609.02411) | — |
 | **P1 · Watch** | **Efficient GUI Agents: A Systems Survey of Observation, Memory, Action, and Runtime Optimization** | arXiv 2026 / EMNLP 2026 workshop | efficient reasoning/agent systems / GUI agents / runtime optimization | [Link](https://arxiv.org/abs/2609.02309) | — |
 | **P0 · Strong** | **Codebook Agent: Amortized Topology Design for LLM Multi-Agent Systems** | arXiv 2026 | efficient reasoning/agent systems / multi-agent topology / inference cost | [Link](https://arxiv.org/abs/2609.02264) | — |
+| **P1 · Watch** | **Privacy-Preserving Topology-Guided Safety for LLM-Based Multi-Agent Systems via Federated Graph Learning** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2609.02967) | — |
 | **P1 · Watch** | **LLM-as-a-Judge Is Not an Oracle: Why Self-Improving Agents Need Deterministic Guardrails** | Fresh / preprint | edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.02246) | — |
 | **P0 · Strong** | **SkillGLoW: Procedural-Family Skill Consolidation for Self-Improving Agents on Long-Horizon Task Streams** | Fresh / preprint | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2609.02217) | — |
 | **P1 · Watch** | **OmegaUse-SOP: SOP Engineering for Professional Computer Use from Human Demonstrations** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2609.02149) | — |
@@ -299,10 +300,12 @@
 | **P1 · Watch** | **mimeo: Compiling Public Expert Corpora into Agent Skills and Testing What Transfers** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2609.00453) | [Repo](https://github.com/K-Dense-AI/mimeo) |
 | **P0 · Strong** | **DRLM: Deep Reinforcement Learning-Based LLM Query Orchestration in Edge Environments** | arXiv 2026 | edge/cloud heterogeneous AI systems / LLM serving / query orchestration / model-device-quantization routing | [Link](https://arxiv.org/abs/2609.00442) | — |
 | **P0 · Strong** | **SAGE: State-Grounded, Abstention-Aware Evaluation of Task-Oriented Dialogue Agents** | Fresh / preprint | GPU kernel/DSL/compilers / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.00434) | — |
+| **P1 · Watch** | **Adapting Without Gradients: Affine Statistics Transport and What Its Certificate Can Tell You** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2609.00374) | — |
 | **P1 · Watch** | **The Irreversibility Budget: Fleet-Level Risk Accounting and Admission Control for Agent Operating Systems** | Fresh / preprint | edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.00275) | — |
 | **P0 · Strong** | **Invalidation Contracts for Cross-Episode Agent Memory** | Fresh / preprint | LLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.00243) | — |
 | **P0 · Strong** | **Learning What to Retain: Gated-Memory Routing for Efficient Collaboration in Multi-Agent LLM Systems** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2609.00237) | [Repo](https://github.com/rajibrhasan/gated-memory-routing) |
 | **P0 · Strong** | **Provably Efficient Federated Reinforcement Learning with Linear Function Approximation and Logarithmic Communication Cost** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2609.00193) | — |
+| **P1 · Watch** | **Deploying and Evaluating a Smart-Agriculture Agentic Engine for Full-Season Soybean Farm Operations** | Fresh / preprint | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2609.00106) | — |
 | **P0 · Strong** | **Agentic Context Cracking: Token-Efficient Data Reasoning Agents via Adaptive Structuring of Unstructured Data** | Fresh / preprint | LLM serving / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.31082) | — |
 | **P1 · Watch** | **Measure Before You Manage: Evaluating Agent Working Memory in Coding Agents** | Fresh / preprint | LLM serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.31057) | — |
 | **P1 · Watch** | **Does On-Policy Distillation Really Distill? From Noisy Teacher to Self-Improvement** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.31046) | — |
@@ -365,6 +368,7 @@
 | **P1 · Watch** | **Resource Constraints and Performance in Agentic AI Systems** | Fresh / preprint | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.27886) | — |
 | **P1 · Watch** | **Credo: Reusable Declarative Primitives for Agentic Workflows** | Fresh / preprint | GPU kernel/DSL/compilers / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.27790) | — |
 | **P2 · Relevant** | **AdaThinking-E: One-Token Entropy Regulation for Adaptive Thinking** | Fresh / preprint | efficient reasoning / adaptive test-time compute | [Link](https://arxiv.org/abs/2608.26141) | — |
+| **P1 · Watch** | **PHR-VLA: Planning Horizon Reasoning for Vision-Language-Action Models** | Fresh / preprint | multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.27609) | — |
 | **P0 · Strong** | **CritICL: Inference-Time Weak-to-Strong Generalization from Small Language Model Failure Modes** | Fresh / preprint | edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.27455) | [Repo](https://github.com/umwyf/CRITICL) |
 | **P1 · Watch** | **ORDDAR: Observation-Driven Reasoning for Distortion-Resilient Decision, Action, and Cognitive Recovery** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.28704) | — |
 | **P1 · Watch** | **Understanding Evolution Strategies for LLM Reasoning: Broader Reasoning Coverage than GRPO** | Fresh / preprint | sparsity/pruning | [Link](https://arxiv.org/abs/2608.27351) | — |

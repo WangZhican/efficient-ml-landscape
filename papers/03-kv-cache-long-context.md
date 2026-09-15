@@ -1,10 +1,10 @@
 # 03 · KV Cache / Long Context
 
-> **498 canonical papers** mapped here, plus a broader **225-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **498 canonical papers** mapped here, plus a broader **226-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 225 tracked
+## 🆕 Latest 30 Days · 226 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -111,6 +111,7 @@
 | **P1 · Watch** | **A.X K2 Technical Report** | Fresh / preprint | LLM serving / KV cache/long-context / quantization / sparsity/pruning / MoE systems/accelerators / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.30181) | — |
 | **P0 · Strong** | **Budget-Aware Compression Pipeline for Single-GPU LLM Inference: Methods, Trade-offs, and Coupling Effects** | GroundLM 2026 (EMNLP 2026 Workshop) | LLM serving / quantization / pruning / KV cache / single-GPU inference | [Link](https://arxiv.org/abs/2608.30076) | — |
 | **P1 · Watch** | **Compression-Aware Abstention: Teaching LLMs to Refuse When KV-Compression Masks Remove Answer Evidence** | Fresh / preprint | LLM serving / KV cache/long-context / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.29934) | — |
+| **P1 · Watch** | **REIGN: Refurbished Embeddings with Integrated Guidance Networks for Efficient Context-Length Scaling** | Fresh / preprint | KV cache/long-context / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.29899) | — |
 | **P0 · Strong** | **LoGo: Token-Level Dynamic Local-Global Attention** | Fresh / preprint | KV cache/long-context / GPU kernel/DSL/compilers | [Link](https://arxiv.org/abs/2608.29539) | — |
 | **P1 · Watch** | **MedCache: Efficient and Temporally Valid Memory for Longitudinal Clinical Agents** | Fresh / preprint | KV cache/long-context / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.29528) | — |
 | **P0 · Strong** | **Accelerating Unified Multimodal Models with Core-Expansion Routing and Unified Computation Scheduling** | Fresh / preprint | multimodal/MLLM serving / sparsity / scheduling / cache reuse | [Link](https://arxiv.org/abs/2608.29291) | — |

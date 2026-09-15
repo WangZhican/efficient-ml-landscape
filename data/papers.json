@@ -15984,6 +15984,29 @@
     ]
   },
   {
+    "title": "A Composable Evaluation System for Reproducible Omni-Modal Foundation Model Evaluation",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving",
+    "arxiv": "2609.01315",
+    "doi": "",
+    "official_id": "arXiv:2609.01315",
+    "paper_url": "https://arxiv.org/abs/2609.01315",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "OmniEvaluator unifies heterogeneous multimodal inference backends and evaluation frameworks with reproducible artifacts and federated GPU inference; direct AI-infrastructure/evaluation serving contribution.",
+    "published_at": "2026-09-01T14:37:57Z",
+    "updated_at": "2026-09-09T00:44:03Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Multimodal / MLLM Serving",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "A Deterministic Constant-Competitive Algorithm for Dynamic Mixture-of-Experts Serving",
     "venue": "Fresh / preprint",
     "topic": "LLM serving / sparsity/pruning / MoE systems/accelerators",
@@ -18637,6 +18660,28 @@
     ]
   },
   {
+    "title": "EditaLive! Unified Character Video Editing for Live Streaming",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / sparsity/pruning / video/image generation acceleration",
+    "arxiv": "2608.27123",
+    "doi": "",
+    "official_id": "arXiv:2608.27123",
+    "paper_url": "https://arxiv.org/abs/2608.27123",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "EditaLive converts an offline bidirectional video editor into causal streaming generation for real-time live character editing; direct streaming generation/runtime contribution.",
+    "published_at": "2026-08-27T13:37:45Z",
+    "updated_at": "2026-08-27T13:37:45Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Video / Image Generation"
+    ]
+  },
+  {
     "title": "EditStream: A Unified Autoregressive Framework for Interactive Video Generation and Editing",
     "venue": "Fresh / preprint",
     "topic": "video/image generation acceleration",
@@ -20544,6 +20589,27 @@
       "KV Cache / Long Context",
       "Sparsity / Pruning",
       "MoE Systems / Accelerators"
+    ]
+  },
+  {
+    "title": "Instruction Distillation: Text Instructions as Visual Examples",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving / multimodal/MLLM serving",
+    "arxiv": "2608.28696",
+    "doi": "",
+    "official_id": "arXiv:2608.28696",
+    "paper_url": "https://arxiv.org/abs/2608.28696",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Instruction Distillation replaces token-heavy visual ICL examples with offline-generated textual identification instructions, directly targeting multimodal context-token and inference cost.",
+    "published_at": "2026-08-27T09:24:15Z",
+    "updated_at": "2026-08-27T09:24:15Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving"
     ]
   },
   {
@@ -22688,6 +22754,27 @@
     "directions": [
       "LLM Serving",
       "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "Prediction-Robust Service Deployment with Capacity-Aware Edge Admission",
+    "venue": "Fresh / preprint",
+    "topic": "LLM serving",
+    "arxiv": "2609.00877",
+    "doi": "",
+    "official_id": "arXiv:2609.00877",
+    "paper_url": "https://arxiv.org/abs/2609.00877",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "CAPSUM studies prediction-robust, capacity-aware edge service deployment with formal consistency/robustness guarantees; direct edge serving and admission-control contribution.",
+    "published_at": "2026-09-01T08:09:53Z",
+    "updated_at": "2026-09-01T08:09:53Z",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {

@@ -1,10 +1,10 @@
 # 08 · GPU Kernel / DSL / Compiler
 
-> **539 canonical papers** mapped here, plus a broader **303-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **540 canonical papers** mapped here, plus a broader **304-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 303 tracked
+## 🆕 Latest 30 Days · 304 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -140,6 +140,7 @@
 | **P0 · Strong** | **InKAN: B-Spline KANs via Truncated Power Form** | Fresh / preprint | LLM serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.01956) | — |
 | **P0 · Strong** | **CREDIT: Cost-guided Reduction-reuse with Efficient DSMEM Inter-CTA Tiling** | arXiv 2026 | GPU kernel/DSL/compilers / NVIDIA DSMEM / inter-CTA tiling | [Link](https://arxiv.org/abs/2609.01864) | [Repo](https://github.com/zhengxiongli08/CREDIT) |
 | **P0 · Strong** | **SSAKG 2.0: An Open-Source Package for Structural Associative Sequence Memory and Context-Based Retrieval** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2609.01849) | — |
+| **P0 · Strong** | **A Composable Evaluation System for Reproducible Omni-Modal Foundation Model Evaluation** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2609.01315) | — |
 | **P1 · Watch** | **MeshSplatBench: A Unified Benchmark for Triangle-Based Neural Rendering** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2609.01306) | — |
 | **P0 · Strong** | **CacheBridge: Efficient Cross-Model KV Cache Transfer** | arXiv 2026 | KV cache / multi-model serving / GPU kernel | [Link](https://arxiv.org/abs/2609.00891) | — |
 | **P0 · Strong** | **LLM Inference on IMC-NoC Architecture with Balanced Dataflow and Fine-Grained Parallelism** | Extended LEAP / ICCAD 2025 | LLM serving / accelerator architecture / IMC-NoC / prefill-decode disaggregation | [Link](https://arxiv.org/abs/2609.00857) | — |

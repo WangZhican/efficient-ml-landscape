@@ -1,10 +1,10 @@
 # 14 · VLA / WAM / Physical AI
 
-> **199 canonical papers** mapped here, plus a broader **470-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **199 canonical papers** mapped here, plus a broader **474-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 470 tracked
+## 🆕 Latest 30 Days · 474 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -257,7 +257,9 @@
 | **P1 · Watch** | **DREAM: Deployment-Time Demonstration Generation via Real-to-Sim for Scalable Policy Adaptation** | Fresh / preprint | multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.29078) | — |
 | **P0 · Strong** | **Hydra: A Navigation World Action Model with Discrete Latent Planning and Continuous Flow-Matching Execution** | Fresh / preprint | quantization / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.28995) | — |
 | **P1 · Watch** | **LUCID: An Agentic AI Framework on Digital-Twin in the Loop for QoS-Guaranteeing Robotic Control** | Fresh / preprint | LLM serving / video/image generation acceleration / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.28437) | — |
+| **P1 · Watch** | **RoboPhys-3D: A Comprehensive Embodied World Model Evaluation via 3D Reconstruction** | Fresh / preprint | multimodal/MLLM serving / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.28718) | — |
 | **P1 · Watch** | **DeicticVLA: Unifying Instruction Modes Based on Language and Deictic Gestures in a Single VLA** | Fresh / preprint | multimodal/MLLM serving / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.28108) | — |
+| **P1 · Watch** | **PHR-VLA: Planning Horizon Reasoning for Vision-Language-Action Models** | Fresh / preprint | multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.27609) | — |
 | **P1 · Watch** | **Beyond Data Scaling: Representation-Centric Continued Pre-training for Vision-Language-Action Models** | Fresh / preprint | LLM serving / multimodal/MLLM serving / VLA/WAM/Physical AI serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.27550) | — |
 | **P1 · Watch** | **CLAP: Cross-Embodiment Video World Models are Zero-Shot Physical Simulators** | Fresh / preprint | video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.27406) | — |
 | **P0 · Strong** | **FlashVLA: Streaming Action Decoding for Fast and Asynchronous VLA Inference** | Fresh / preprint | Physical AI / VLA serving / streaming action decoding | [Link](https://arxiv.org/abs/2608.27384) | — |
@@ -281,6 +283,7 @@
 | **P1 · Watch** | **PRISM: Projection-Integrated Sampling-Based MPC with Bayesian Cost Tuning for Bimanual Manipulation** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2608.25666) | — |
 | **P0 · Strong** | **GaussianDream++: Efficient 3D Gaussian World Modeling for Robotic Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving / efficient 3D world modeling | [Link](https://arxiv.org/abs/2608.25659) | — |
 | **P1 · Watch** | **RA-VLA: Retrieval-Augmented VLA for Test-Time Adaptation** | Fresh / preprint | LLM serving / multimodal/MLLM serving / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.25585) | — |
+| **P1 · Watch** | **ConfAL-WM: Confidence-Guided Active Learning for Action-Conditioned World Models** | Fresh / preprint | video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.25572) | — |
 | **P1 · Watch** | **Agentic Game Development as a Verifiable Trajectory Data Engine for Scaling World Models** | Fresh / preprint | GPU kernel/DSL/compilers / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.25518) | — |
 | **P0 · Strong** | **4DStreamCtrl: Interactive Video Generation with Online 4D Control** | Fresh / preprint | video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.25479) | — |
 | **P1 · Watch** | **V-Link: Recovering Lost Visual Representations in Action DiT for Vision-Language-Action Models** | Fresh / preprint | LLM serving / multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.25308) | — |
@@ -313,6 +316,7 @@
 | **P1 · Watch** | **Budget-Constrained Embodied Perception: Four Resource Walls and a Pre-Registered Evaluation of Access-Structured Perception on Open Models at less than 31B** | Fresh / preprint | video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.22975) | — |
 | **P1 · Watch** | **ParallelWorld: Test-Time Scaling for Embodied Reasoning** | Fresh / preprint | LLM serving / sparsity/pruning / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.22971) | — |
 | **P1 · Watch** | **UniMem: Unifying Multimodal Memory and Control for Vision-Language-Action Models** | Fresh / preprint | Physical AI / VLA / multimodal memory / keyframe caching / faster inference | [Link](https://arxiv.org/abs/2608.22869) | — |
+| **P1 · Watch** | **Triplet2Track: A Hierarchical System with Object-Centric Representations for Reliable Long-Horizon Manipulation** | Fresh / preprint | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.22800) | — |
 | **P1 · Watch** | **LpWM: A Case for Sparse Representations in World Models** | Fresh / preprint | sparsity/pruning / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.22764) | — |
 | **P1 · Watch** | **Physics Filtering Favors the Generalization of Robot Learning** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.22701) | — |
 | **P1 · Watch** | **Physical Agentic AI: An Architecture for Orchestrating a Robot Crew with LLMs** | Fresh / preprint | video/image generation acceleration / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.22657) | — |
