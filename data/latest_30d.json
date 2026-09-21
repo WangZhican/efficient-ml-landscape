@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-21",
   "window_start_beijing": "2026-08-22",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 1694,
+  "tracked_total": 1702,
   "p0_strong_or_canonical": [
     {
       "title": "Zetta: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence",
@@ -1873,6 +1873,29 @@
       "directions": [
         "LLM Serving",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models",
+      "venue": "arXiv 2026",
+      "topic": "efficient attention / KV cache/long-context",
+      "arxiv": "2609.20971",
+      "doi": "",
+      "official_id": "arXiv:2609.20971",
+      "paper_url": "https://arxiv.org/abs/2609.20971",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Training-free sparse-prefill selector preserves block-sparse FlashAttention execution; reports 20.65x standalone attention, 11.92x vLLM attention, and 5.97x end-to-end TTFT speedup at 128K on H100.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Sparsity / Pruning",
+        "Efficient Attention"
       ]
     },
     {
@@ -6944,6 +6967,28 @@
       ]
     },
     {
+      "title": "Adaptive Rollout Truncation Based on Epistemic Uncertainty for Efficient Offline World Model Training",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / world-model efficiency",
+      "arxiv": "2609.21482",
+      "doi": "",
+      "official_id": "arXiv:2609.21482",
+      "paper_url": "https://arxiv.org/abs/2609.21482",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Uncertainty-driven adaptive rollout truncation reduces unnecessary autoregressive world-model training work; reports roughly 72% less rollout computation on ANYmal-D at comparable final performance.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Adaptive AI: Energy Efficient Multi-exit TinyML on Intelligent Vision Systems at the Edge",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI systems / TinyML / dynamic early exit / low-power SoC",
@@ -7284,6 +7329,28 @@
         "LLM Serving",
         "GPU Kernel / DSL / Compiler",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "A Multi-Engine Dataflow for MoE Decoding on Scratchpad-Based Tensor Accelerators",
+      "venue": "arXiv 2026",
+      "topic": "MoE systems/accelerators / hardware architecture",
+      "arxiv": "2609.21137",
+      "doi": "",
+      "official_id": "arXiv:2609.21137",
+      "paper_url": "https://arxiv.org/abs/2609.21137",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "CARDAN co-designs vector-quantized/shared-basis expert representation with multi-engine decoding on AWS Trainium3; reports 1.15-1.31x batch-one and up to 1.7x batch-16 decoding speedup over dense MoE megakernels.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Quantization",
+        "MoE Systems / Accelerators",
+        "GPU Kernel / DSL / Compiler"
       ]
     },
     {
@@ -9788,6 +9855,29 @@
       "decision": "WATCH",
       "tracking_tier": "P1 · Watch",
       "why": "VLA diagnostic framework tracing representations, causal control paths and rollout behavior; useful Physical-AI model-understanding lineage but not primarily efficiency.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "VLA-Scope: Shift-Aware Failure Prediction for Vision-Language-Action Models",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving",
+      "arxiv": "2609.21246",
+      "doi": "",
+      "official_id": "arXiv:2609.21246",
+      "paper_url": "https://arxiv.org/abs/2609.21246",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected VLA runtime/reliability work: combines input-shift detection with action-prefix and execution-progress features to update failure risk during rollouts; useful for adaptive runtime policies.",
       "published_at": "",
       "updated_at": "",
       "is_latest_30d": true,
@@ -22910,6 +23000,26 @@
       ]
     },
     {
+      "title": "How Much of a Real Workload Can LLM-Generated GPU Kernels Actually Reach?",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers",
+      "arxiv": "2609.21058",
+      "doi": "",
+      "official_id": "arXiv:2609.21058",
+      "paper_url": "https://arxiv.org/abs/2609.21058",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Careful workload-level study of LLM-generated GPU kernels: measures addressable runtime fractions, exposes KernelBench correctness pitfalls, and releases DLRM-Bench; valuable systems evidence although primarily characterization rather than a new accelerator.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
       "title": "How Long Until Your Robot Ignores You? A Safety Benchmark for LLM Orchestrators in Human-Humanoid Collaboration",
       "venue": "",
       "topic": "quantization / video/image generation acceleration",
@@ -24925,6 +25035,28 @@
       "updated_at": "",
       "is_latest_30d": true,
       "directions": [
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "FOCAL-VLA: Subtask-Guided Geometry Distillation and Implicit World Modeling for Vision-Language-Action Models",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving",
+      "arxiv": "2609.21228",
+      "doi": "",
+      "official_id": "arXiv:2609.21228",
+      "paper_url": "https://arxiv.org/abs/2609.21228",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected VLA lineage: geometry distillation plus implicit world modeling guides action generation without running the teacher geometry/world-model modules at inference time; relevant to representation reuse and VLA runtime design.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI"
       ]
     },
@@ -33251,6 +33383,26 @@
       ]
     },
     {
+      "title": "Accelerating Dense LLMs via L0-regularized Mixture-of-Experts",
+      "venue": "arXiv 2026",
+      "topic": "MoE systems/accelerators / model acceleration",
+      "arxiv": "2609.21672",
+      "doi": "",
+      "official_id": "arXiv:2609.21672",
+      "paper_url": "https://arxiv.org/abs/2609.21672",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Converts dense LLM computation toward a lightweight L0-regularized MoE formulation and reports up to 2.5x speedup; retained as high-value watch pending stronger systems-level evaluation.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "MoE Systems / Accelerators"
+      ]
+    },
+    {
       "title": "Accelerating Data Preprocessing for Efficient Vision Model Inference on Jetson Edge Device",
       "venue": "",
       "topic": "LLM serving / edge/cloud/heterogeneous AI systems",
@@ -33470,6 +33622,27 @@
       "directions": [
         "Quantization",
         "Video / Image Generation",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "A Sim-to-Real Integration Pipeline for Training and Deployment of Chunk-Based VLA Manipulation Policies",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / deployment",
+      "arxiv": "2609.21817",
+      "doi": "",
+      "official_id": "arXiv:2609.21817",
+      "paper_url": "https://arxiv.org/abs/2609.21817",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Open-source sim-to-real protocol and deployment stack for chunk-based VLA policies; retained as protected Physical-AI infrastructure/deployment evidence rather than an inference acceleration contribution.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
         "VLA / WAM / Physical AI"
       ]
     },
@@ -38478,6 +38651,29 @@
       ]
     },
     {
+      "title": "RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models",
+      "venue": "arXiv 2026",
+      "topic": "efficient attention / KV cache/long-context",
+      "arxiv": "2609.20971",
+      "doi": "",
+      "official_id": "arXiv:2609.20971",
+      "paper_url": "https://arxiv.org/abs/2609.20971",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Training-free sparse-prefill selector preserves block-sparse FlashAttention execution; reports 20.65x standalone attention, 11.92x vLLM attention, and 5.97x end-to-end TTFT speedup at 128K on H100.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Sparsity / Pruning",
+        "Efficient Attention"
+      ]
+    },
+    {
       "title": "RASER: Resilient Agent Scheduling and Execution Runtime for HPC Clusters",
       "venue": "CoRR 2026",
       "topic": "efficient reasoning/agent systems / HPC scheduling / resilient runtime",
@@ -43546,6 +43742,28 @@
       ]
     },
     {
+      "title": "Adaptive Rollout Truncation Based on Epistemic Uncertainty for Efficient Offline World Model Training",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / world-model efficiency",
+      "arxiv": "2609.21482",
+      "doi": "",
+      "official_id": "arXiv:2609.21482",
+      "paper_url": "https://arxiv.org/abs/2609.21482",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Uncertainty-driven adaptive rollout truncation reduces unnecessary autoregressive world-model training work; reports roughly 72% less rollout computation on ANYmal-D at comparable final performance.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Adaptive AI: Energy Efficient Multi-exit TinyML on Intelligent Vision Systems at the Edge",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI systems / TinyML / dynamic early exit / low-power SoC",
@@ -43886,6 +44104,28 @@
         "LLM Serving",
         "GPU Kernel / DSL / Compiler",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "A Multi-Engine Dataflow for MoE Decoding on Scratchpad-Based Tensor Accelerators",
+      "venue": "arXiv 2026",
+      "topic": "MoE systems/accelerators / hardware architecture",
+      "arxiv": "2609.21137",
+      "doi": "",
+      "official_id": "arXiv:2609.21137",
+      "paper_url": "https://arxiv.org/abs/2609.21137",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "CARDAN co-designs vector-quantized/shared-basis expert representation with multi-engine decoding on AWS Trainium3; reports 1.15-1.31x batch-one and up to 1.7x batch-16 decoding speedup over dense MoE megakernels.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Quantization",
+        "MoE Systems / Accelerators",
+        "GPU Kernel / DSL / Compiler"
       ]
     },
     {
@@ -46388,6 +46628,29 @@
       "decision": "WATCH",
       "tracking_tier": "P1 · Watch",
       "why": "VLA diagnostic framework tracing representations, causal control paths and rollout behavior; useful Physical-AI model-understanding lineage but not primarily efficiency.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "VLA-Scope: Shift-Aware Failure Prediction for Vision-Language-Action Models",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving",
+      "arxiv": "2609.21246",
+      "doi": "",
+      "official_id": "arXiv:2609.21246",
+      "paper_url": "https://arxiv.org/abs/2609.21246",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected VLA runtime/reliability work: combines input-shift detection with action-prefix and execution-progress features to update failure risk during rollouts; useful for adaptive runtime policies.",
       "published_at": "",
       "updated_at": "",
       "is_latest_30d": true,
@@ -59510,6 +59773,26 @@
       ]
     },
     {
+      "title": "How Much of a Real Workload Can LLM-Generated GPU Kernels Actually Reach?",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers",
+      "arxiv": "2609.21058",
+      "doi": "",
+      "official_id": "arXiv:2609.21058",
+      "paper_url": "https://arxiv.org/abs/2609.21058",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Careful workload-level study of LLM-generated GPU kernels: measures addressable runtime fractions, exposes KernelBench correctness pitfalls, and releases DLRM-Bench; valuable systems evidence although primarily characterization rather than a new accelerator.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
       "title": "How Long Until Your Robot Ignores You? A Safety Benchmark for LLM Orchestrators in Human-Humanoid Collaboration",
       "venue": "",
       "topic": "quantization / video/image generation acceleration",
@@ -61525,6 +61808,28 @@
       "updated_at": "",
       "is_latest_30d": true,
       "directions": [
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "FOCAL-VLA: Subtask-Guided Geometry Distillation and Implicit World Modeling for Vision-Language-Action Models",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving",
+      "arxiv": "2609.21228",
+      "doi": "",
+      "official_id": "arXiv:2609.21228",
+      "paper_url": "https://arxiv.org/abs/2609.21228",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected VLA lineage: geometry distillation plus implicit world modeling guides action generation without running the teacher geometry/world-model modules at inference time; relevant to representation reuse and VLA runtime design.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI"
       ]
     },
@@ -69851,6 +70156,26 @@
       ]
     },
     {
+      "title": "Accelerating Dense LLMs via L0-regularized Mixture-of-Experts",
+      "venue": "arXiv 2026",
+      "topic": "MoE systems/accelerators / model acceleration",
+      "arxiv": "2609.21672",
+      "doi": "",
+      "official_id": "arXiv:2609.21672",
+      "paper_url": "https://arxiv.org/abs/2609.21672",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Converts dense LLM computation toward a lightweight L0-regularized MoE formulation and reports up to 2.5x speedup; retained as high-value watch pending stronger systems-level evaluation.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "MoE Systems / Accelerators"
+      ]
+    },
+    {
       "title": "Accelerating Data Preprocessing for Efficient Vision Model Inference on Jetson Edge Device",
       "venue": "",
       "topic": "LLM serving / edge/cloud/heterogeneous AI systems",
@@ -70070,6 +70395,27 @@
       "directions": [
         "Quantization",
         "Video / Image Generation",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "A Sim-to-Real Integration Pipeline for Training and Deployment of Chunk-Based VLA Manipulation Policies",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / deployment",
+      "arxiv": "2609.21817",
+      "doi": "",
+      "official_id": "arXiv:2609.21817",
+      "paper_url": "https://arxiv.org/abs/2609.21817",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Open-source sim-to-real protocol and deployment stack for chunk-based VLA policies; retained as protected Physical-AI infrastructure/deployment evidence rather than an inference acceleration contribution.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
         "VLA / WAM / Physical AI"
       ]
     },

@@ -2419,6 +2419,28 @@
     ]
   },
   {
+    "title": "A Multi-Engine Dataflow for MoE Decoding on Scratchpad-Based Tensor Accelerators",
+    "venue": "arXiv 2026",
+    "topic": "MoE systems/accelerators / hardware architecture",
+    "arxiv": "2609.21137",
+    "doi": "",
+    "official_id": "arXiv:2609.21137",
+    "paper_url": "https://arxiv.org/abs/2609.21137",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "CARDAN co-designs vector-quantized/shared-basis expert representation with multi-engine decoding on AWS Trainium3; reports 1.15-1.31x batch-one and up to 1.7x batch-16 decoding speedup over dense MoE megakernels.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Quantization",
+      "MoE Systems / Accelerators",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "A single-precision floating-point systolic Givens-QRD Triangular Solver for MVDR Beamforming",
     "venue": "arXiv 2026",
     "topic": "edge/cloud/heterogeneous AI systems / FPGA accelerator / systolic linear algebra",
@@ -2740,6 +2762,28 @@
       "KV Cache / Long Context",
       "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "Adaptive Rollout Truncation Based on Epistemic Uncertainty for Efficient Offline World Model Training",
+    "venue": "arXiv 2026",
+    "topic": "VLA/WAM/Physical AI serving / world-model efficiency",
+    "arxiv": "2609.21482",
+    "doi": "",
+    "official_id": "arXiv:2609.21482",
+    "paper_url": "https://arxiv.org/abs/2609.21482",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Uncertainty-driven adaptive rollout truncation reduces unnecessary autoregressive world-model training work; reports roughly 72% less rollout computation on ANYmal-D at comparable final performance.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
     ]
   },
   {
@@ -7621,6 +7665,29 @@
       "KV Cache / Long Context",
       "Efficient Attention",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models",
+    "venue": "arXiv 2026",
+    "topic": "efficient attention / KV cache/long-context",
+    "arxiv": "2609.20971",
+    "doi": "",
+    "official_id": "arXiv:2609.20971",
+    "paper_url": "https://arxiv.org/abs/2609.20971",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Training-free sparse-prefill selector preserves block-sparse FlashAttention execution; reports 20.65x standalone attention, 11.92x vLLM attention, and 5.97x end-to-end TTFT speedup at 128K on H100.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Efficient Attention"
     ]
   },
   {
