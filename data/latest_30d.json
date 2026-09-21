@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-09-21",
   "window_start_beijing": "2026-08-22",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 1717,
+  "tracked_total": 1718,
   "p0_strong_or_canonical": [
     {
       "title": "ZYT-World: A Real-Time Controllable World Model for Closed-Loop Autonomous-Driving Simulation",
@@ -9885,6 +9885,26 @@
         "Multimodal / MLLM Serving",
         "Video / Image Generation",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Watermarkable Multi-Draft Speculative Sampling via Poisson Processes",
+      "venue": "arXiv 2026",
+      "topic": "speculative decoding",
+      "arxiv": "2609.21858",
+      "doi": "",
+      "official_id": "arXiv:2609.21858",
+      "paper_url": "https://arxiv.org/abs/2609.21858",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Exact multi-draft speculative sampling based on Poisson-process coupling jointly targets inference efficiency and unbiased watermarking while preserving speculative acceptance; useful systems-adjacent algorithmic reference for multi-draft decoding.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Speculative Decoding"
       ]
     },
     {
@@ -46982,6 +47002,26 @@
         "Multimodal / MLLM Serving",
         "Video / Image Generation",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Watermarkable Multi-Draft Speculative Sampling via Poisson Processes",
+      "venue": "arXiv 2026",
+      "topic": "speculative decoding",
+      "arxiv": "2609.21858",
+      "doi": "",
+      "official_id": "arXiv:2609.21858",
+      "paper_url": "https://arxiv.org/abs/2609.21858",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Exact multi-draft speculative sampling based on Poisson-process coupling jointly targets inference efficiency and unbiased watermarking while preserving speculative acceptance; useful systems-adjacent algorithmic reference for multi-draft decoding.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Speculative Decoding"
       ]
     },
     {

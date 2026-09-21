@@ -4,7 +4,7 @@
 
 <div align="center">
 
-[**🆕 Latest 30 Days · 1717 tracked**](LATEST_30D.md) · [**🏛️ Classical · 1985**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
+[**🆕 Latest 30 Days · 1718 tracked**](LATEST_30D.md) · [**🏛️ Classical · 1985**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
 
 </div>
 
@@ -13,7 +13,7 @@
 | # | Research direction | Canonical | Latest 30d tracked |
 |---:|---|---:|---:|
 | 01 | [**LLM Serving**](01-llm-serving.md) | **1120** | **1054** |
-| 02 | [**Speculative Decoding**](02-speculative-decoding.md) | **236** | **55** |
+| 02 | [**Speculative Decoding**](02-speculative-decoding.md) | **236** | **56** |
 | 03 | [**KV Cache / Long Context**](03-kv-cache-long-context.md) | **500** | **190** |
 | 04 | [**Quantization**](04-quantization.md) | **303** | **220** |
 | 05 | [**Sparsity / Pruning**](05-sparsity-pruning.md) | **352** | **205** |
