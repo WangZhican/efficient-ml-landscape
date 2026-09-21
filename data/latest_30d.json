@@ -2,8 +2,30 @@
   "window_end_beijing": "2026-09-21",
   "window_start_beijing": "2026-08-22",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 1702,
+  "tracked_total": 1717,
   "p0_strong_or_canonical": [
+    {
+      "title": "ZYT-World: A Real-Time Controllable World Model for Closed-Loop Autonomous-Driving Simulation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving",
+      "arxiv": "2609.21712",
+      "doi": "",
+      "official_id": "arXiv:2609.21712",
+      "paper_url": "https://arxiv.org/abs/2609.21712",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Production-oriented closed-loop driving world model distills a 40-step bidirectional teacher into a one-step streaming generator and combines TinyVAE, W8A8 quantization, and a dedicated inference engine; reports 107.7x generator speedup over the teacher.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "VLA / WAM / Physical AI"
+      ]
+    },
     {
       "title": "Zetta: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence",
       "venue": "",
@@ -1107,6 +1129,27 @@
       ]
     },
     {
+      "title": "SkipVLA: Skipping VLA Steps with Classical Planning for Fast Robot Manipulation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving",
+      "arxiv": "2609.20648",
+      "doi": "",
+      "official_id": "arXiv:2609.20648",
+      "paper_url": "https://arxiv.org/abs/2609.20648",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Hybrid VLA + classical motion planning skips expensive VLA queries during free-space motion; reports up to 2.5x faster task completion with lower energy at matched task success.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "SHIFT: Surface-aware High-speed Integration For TSDFs",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / robotic mapping / memory-efficient runtime",
@@ -1681,6 +1724,27 @@
       ]
     },
     {
+      "title": "RheoSampling: Resolving the One-Hot Dilemma in Stochastic Dynamic-Tree Speculative Decoding",
+      "venue": "arXiv 2026",
+      "topic": "speculative decoding",
+      "arxiv": "2609.21827",
+      "doi": "",
+      "official_id": "arXiv:2609.21827",
+      "paper_url": "https://arxiv.org/abs/2609.21827",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Decouples tree-construction proxy probabilities from verification probabilities to preserve lossless stochastic sampling in dynamic-tree speculative decoding; adds OT verification and sparse drafting for practical speedup.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Speculative Decoding",
+        "Sparsity / Pruning"
+      ]
+    },
+    {
       "title": "RGB Input Pipelines: Throughput, GPU Memory, and Transformation Coverage",
       "venue": "arXiv 2026",
       "topic": "GPU kernel/DSL/compilers / data pipeline / training systems / input preprocessing",
@@ -1964,6 +2028,27 @@
         "Efficient Attention",
         "GPU Kernel / DSL / Compiler",
         "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "Quantization-Aware Kalman Estimation for Diffusion Sampling",
+      "venue": "arXiv 2026",
+      "topic": "diffusion/flow acceleration / quantization",
+      "arxiv": "2609.21407",
+      "doi": "",
+      "official_id": "arXiv:2609.21407",
+      "paper_url": "https://arxiv.org/abs/2609.21407",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "QuAKE treats quantized-denoiser sampling as online estimation and recursively corrects W4A4 diffusion outputs using trajectory history; plug-and-play and compatible with high-order multistep ODE samplers.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Quantization",
+        "Diffusion / Flow Acceleration"
       ]
     },
     {
@@ -5746,6 +5831,27 @@
       ]
     },
     {
+      "title": "Decomposing Predictive Kubernetes Autoscaling for Large Language Model Serving Under Long Startup Delays",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / edge-cloud systems",
+      "arxiv": "2609.20874",
+      "doi": "",
+      "official_id": "arXiv:2609.20874",
+      "paper_url": "https://arxiv.org/abs/2609.20874",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Decomposes predictive LLM autoscaling under multi-minute startup delay; delay-aware lookahead plus uncertainty margin sharply reduces TTFT SLO violations and is validated on a real Kubernetes A100/vLLM deployment.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "DeaMoE: Efficient MoE Structure for Fast Small-Batch Decoding",
       "venue": "",
       "topic": "MoE architecture / small-batch decoding",
@@ -6261,6 +6367,29 @@
       ]
     },
     {
+      "title": "Catch Me If You Can: Real-Time Feedback Denoising for Responsive VLAs",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving",
+      "arxiv": "2609.21022",
+      "doi": "",
+      "official_id": "arXiv:2609.21022",
+      "paper_url": "https://arxiv.org/abs/2609.21022",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Two-timescale VLA keeps the final diffusion denoising step as a lightweight high-frequency feedback interface, avoiding rerunning the full VLM/diffusion planner for every correction.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Diffusion / Flow Acceleration",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Calibration-Aware Uncertainty Cascades for Efficient Heterogeneous Model Collaboration",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI systems / adaptive model routing",
@@ -6738,6 +6867,27 @@
       "tracking_tier": "P0 · Strong",
       "directions": [
         "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "An Approximate Queueing Model of LLM Inference Serving for SLO-Driven Autoscaling",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / edge-cloud systems",
+      "arxiv": "2609.20957",
+      "doi": "",
+      "official_id": "arXiv:2609.20957",
+      "paper_url": "https://arxiv.org/abs/2609.20957",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Queueing model predicts TTFT/ITL from compute and KV-access costs and drives SLO-aware replica autoscaling; validated on H100/OpenShift with low median prediction error under a fourfold load ramp.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -9112,6 +9262,27 @@
       ]
     },
     {
+      "title": "WM-VS: Progress-Aligned World Models for Closed-Loop Visual Servoing",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving",
+      "arxiv": "2609.20892",
+      "doi": "",
+      "official_id": "arXiv:2609.20892",
+      "paper_url": "https://arxiv.org/abs/2609.20892",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Progress-aligned world model supports reactive RGB-only closed-loop visual servoing without online trajectory optimization; useful protected-direction evidence for lightweight world-model control deployment.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "WM-Craftnet: World Synesthesia Model for Generalizable and Robust Dexterous In-Hand Manipulation",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / recurrent world state / dexterous manipulation",
@@ -10653,6 +10824,26 @@
       "directions": [
         "LLM Serving",
         "Efficient Attention"
+      ]
+    },
+    {
+      "title": "Understanding LLM Quantization through Activation-Guided Compensation and Orthogonal Residuals",
+      "venue": "arXiv 2026",
+      "topic": "quantization",
+      "arxiv": "2609.21450",
+      "doi": "",
+      "official_id": "arXiv:2609.21450",
+      "paper_url": "https://arxiv.org/abs/2609.21450",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Exact W4A4 error decomposition connects activation-guided compensation, rotations and scaling; derives practical Hadamard/sign/scaling guidance and reports backprop-free configurations competitive with SpinQuant.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization"
       ]
     },
     {
@@ -14426,6 +14617,28 @@
       ]
     },
     {
+      "title": "Sandwich-Residuals: Parameter-Efficient Test-time Adaptation of World Models",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / world-model adaptation",
+      "arxiv": "2609.21740",
+      "doi": "",
+      "official_id": "arXiv:2609.21740",
+      "paper_url": "https://arxiv.org/abs/2609.21740",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Frozen world-model test-time adaptation with small residual modules; reports 97-99% fewer adapted parameters while retaining 95% of the strongest AdaJEPA variant and also evaluates DINO-WM manipulation.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Same Request, Different Answer: Quantization Amplifies Cache-Induced Divergence in LLM Serving",
       "venue": "arXiv 2026",
       "topic": "LLM serving / prefix cache / quantization / reproducibility",
@@ -16302,6 +16515,29 @@
       ]
     },
     {
+      "title": "Quantifying the Effect of HCLs on a Fixed-Microarchitecture MXFP4 Accelerator",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / edge Physical AI hardware",
+      "arxiv": "2609.18792",
+      "doi": "",
+      "official_id": "arXiv:2609.18792",
+      "paper_url": "https://arxiv.org/abs/2609.18792",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Controlled comparison of SystemVerilog, Chisel, SpinalHDL, Amaranth, Clash, Bluespec and HLS on the same MXFP4 block-dot-product microarchitecture; useful evidence for programmable low-precision edge accelerators.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "GPU Kernel / DSL / Compiler",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Quanta Perception as Probabilistic Events",
       "venue": "",
       "topic": "LLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems",
@@ -16724,6 +16960,28 @@
       "updated_at": "",
       "is_latest_30d": true,
       "directions": [
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "PRIME: Perception Feedback with Situational Memory Embeddings in VLA Models",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / memory",
+      "arxiv": "2609.22040",
+      "doi": "",
+      "official_id": "arXiv:2609.22040",
+      "paper_url": "https://arxiv.org/abs/2609.22040",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Situational Memory feeds prior perception, reasoning, navigation and behavior state back into VLA perceptual queries with only 0.41% parameter overhead; protected runtime-memory lineage for autonomous driving.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
       ]
@@ -25019,6 +25277,28 @@
       ]
     },
     {
+      "title": "ForeTac-VLA: A Forecasting-Based Tactile-Vision-Language-Action Model for Contact-Rich Robotic Manipulation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving",
+      "arxiv": "2609.20980",
+      "doi": "",
+      "official_id": "arXiv:2609.20980",
+      "paper_url": "https://arxiv.org/abs/2609.20980",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Forecasts multi-step tactile states and fuses them with vision-language context to condition VLA action generation; protected Physical-AI multimodal/action-head lineage with real-world manipulation evaluation.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "FolDeX: A Physical-World Benchmark for Long-Horizon Robotic Manipulation of Deformable Objects",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI / long-horizon manipulation / deformable objects / real-robot benchmark",
@@ -29770,6 +30050,27 @@
       ]
     },
     {
+      "title": "CommitFlow: Semantic Commitment Verification and Local Correction for Long-Horizon Robot Manipulation VLA Execution",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving",
+      "arxiv": "2609.21908",
+      "doi": "",
+      "official_id": "arXiv:2609.21908",
+      "paper_url": "https://arxiv.org/abs/2609.21908",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Frozen-base-policy execution framework gates dependent actions and applies local correction instead of wholesale replanning, relevant to efficient reliable long-horizon VLA runtime orchestration.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "CometVLA: Co-Training on an Embodied Data Pyramid towards Physical Understanding",
       "venue": "",
       "topic": "multimodal/MLLM serving / VLA/WAM/Physical AI serving",
@@ -33316,6 +33617,29 @@
       "is_latest_30d": true,
       "directions": [
         "Quantization"
+      ]
+    },
+    {
+      "title": "AcousticDiffusion: Semantically Conditioned Audio-Guided Diffusion Policy for Search-and-Rescue Assistance",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving",
+      "arxiv": "2609.21792",
+      "doi": "",
+      "official_id": "arXiv:2609.21792",
+      "paper_url": "https://arxiv.org/abs/2609.21792",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Real-robot diffusion policy combines semantic audio belief with robot state and generates waypoint trajectories; planner compute is reported at 6.07 ms, making it relevant to efficient multimodal Physical-AI deployment.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Diffusion / Flow Acceleration",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -36780,6 +37104,28 @@
   ],
   "tracking_records": [
     {
+      "title": "ZYT-World: A Real-Time Controllable World Model for Closed-Loop Autonomous-Driving Simulation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving",
+      "arxiv": "2609.21712",
+      "doi": "",
+      "official_id": "arXiv:2609.21712",
+      "paper_url": "https://arxiv.org/abs/2609.21712",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Production-oriented closed-loop driving world model distills a 40-step bidirectional teacher into a one-step streaming generator and combines TinyVAE, W8A8 quantization, and a dedicated inference engine; reports 107.7x generator speedup over the teacher.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Zetta: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence",
       "venue": "",
       "topic": "Physical AI / embodied runtime",
@@ -37882,6 +38228,27 @@
       ]
     },
     {
+      "title": "SkipVLA: Skipping VLA Steps with Classical Planning for Fast Robot Manipulation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving",
+      "arxiv": "2609.20648",
+      "doi": "",
+      "official_id": "arXiv:2609.20648",
+      "paper_url": "https://arxiv.org/abs/2609.20648",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Hybrid VLA + classical motion planning skips expensive VLA queries during free-space motion; reports up to 2.5x faster task completion with lower energy at matched task success.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "SHIFT: Surface-aware High-speed Integration For TSDFs",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / robotic mapping / memory-efficient runtime",
@@ -38456,6 +38823,27 @@
       ]
     },
     {
+      "title": "RheoSampling: Resolving the One-Hot Dilemma in Stochastic Dynamic-Tree Speculative Decoding",
+      "venue": "arXiv 2026",
+      "topic": "speculative decoding",
+      "arxiv": "2609.21827",
+      "doi": "",
+      "official_id": "arXiv:2609.21827",
+      "paper_url": "https://arxiv.org/abs/2609.21827",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Decouples tree-construction proxy probabilities from verification probabilities to preserve lossless stochastic sampling in dynamic-tree speculative decoding; adds OT verification and sparse drafting for practical speedup.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Speculative Decoding",
+        "Sparsity / Pruning"
+      ]
+    },
+    {
       "title": "RGB Input Pipelines: Throughput, GPU Memory, and Transformation Coverage",
       "venue": "arXiv 2026",
       "topic": "GPU kernel/DSL/compilers / data pipeline / training systems / input preprocessing",
@@ -38739,6 +39127,27 @@
         "Efficient Attention",
         "GPU Kernel / DSL / Compiler",
         "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "Quantization-Aware Kalman Estimation for Diffusion Sampling",
+      "venue": "arXiv 2026",
+      "topic": "diffusion/flow acceleration / quantization",
+      "arxiv": "2609.21407",
+      "doi": "",
+      "official_id": "arXiv:2609.21407",
+      "paper_url": "https://arxiv.org/abs/2609.21407",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "QuAKE treats quantized-denoiser sampling as online estimation and recursively corrects W4A4 diffusion outputs using trajectory history; plug-and-play and compatible with high-order multistep ODE samplers.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Quantization",
+        "Diffusion / Flow Acceleration"
       ]
     },
     {
@@ -42521,6 +42930,27 @@
       ]
     },
     {
+      "title": "Decomposing Predictive Kubernetes Autoscaling for Large Language Model Serving Under Long Startup Delays",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / edge-cloud systems",
+      "arxiv": "2609.20874",
+      "doi": "",
+      "official_id": "arXiv:2609.20874",
+      "paper_url": "https://arxiv.org/abs/2609.20874",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Decomposes predictive LLM autoscaling under multi-minute startup delay; delay-aware lookahead plus uncertainty margin sharply reduces TTFT SLO violations and is validated on a real Kubernetes A100/vLLM deployment.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "DeaMoE: Efficient MoE Structure for Fast Small-Batch Decoding",
       "venue": "",
       "topic": "MoE architecture / small-batch decoding",
@@ -43036,6 +43466,29 @@
       ]
     },
     {
+      "title": "Catch Me If You Can: Real-Time Feedback Denoising for Responsive VLAs",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving",
+      "arxiv": "2609.21022",
+      "doi": "",
+      "official_id": "arXiv:2609.21022",
+      "paper_url": "https://arxiv.org/abs/2609.21022",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Two-timescale VLA keeps the final diffusion denoising step as a lightweight high-frequency feedback interface, avoiding rerunning the full VLM/diffusion planner for every correction.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Diffusion / Flow Acceleration",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Calibration-Aware Uncertainty Cascades for Efficient Heterogeneous Model Collaboration",
       "venue": "arXiv 2026",
       "topic": "edge/cloud/heterogeneous AI systems / adaptive model routing",
@@ -43513,6 +43966,27 @@
       "tracking_tier": "P0 · Strong",
       "directions": [
         "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "An Approximate Queueing Model of LLM Inference Serving for SLO-Driven Autoscaling",
+      "venue": "arXiv 2026",
+      "topic": "LLM serving / edge-cloud systems",
+      "arxiv": "2609.20957",
+      "doi": "",
+      "official_id": "arXiv:2609.20957",
+      "paper_url": "https://arxiv.org/abs/2609.20957",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "decision": "PROMOTE_STRONG",
+      "why": "Queueing model predicts TTFT/ITL from compute and KV-access costs and drives SLO-aware replica autoscaling; validated on H100/OpenShift with low median prediction error under a fourfold load ramp.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -45885,6 +46359,27 @@
       ]
     },
     {
+      "title": "WM-VS: Progress-Aligned World Models for Closed-Loop Visual Servoing",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving",
+      "arxiv": "2609.20892",
+      "doi": "",
+      "official_id": "arXiv:2609.20892",
+      "paper_url": "https://arxiv.org/abs/2609.20892",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Progress-aligned world model supports reactive RGB-only closed-loop visual servoing without online trajectory optimization; useful protected-direction evidence for lightweight world-model control deployment.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "WM-Craftnet: World Synesthesia Model for Generalizable and Robust Dexterous In-Hand Manipulation",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving / recurrent world state / dexterous manipulation",
@@ -47426,6 +47921,26 @@
       "directions": [
         "LLM Serving",
         "Efficient Attention"
+      ]
+    },
+    {
+      "title": "Understanding LLM Quantization through Activation-Guided Compensation and Orthogonal Residuals",
+      "venue": "arXiv 2026",
+      "topic": "quantization",
+      "arxiv": "2609.21450",
+      "doi": "",
+      "official_id": "arXiv:2609.21450",
+      "paper_url": "https://arxiv.org/abs/2609.21450",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Exact W4A4 error decomposition connects activation-guided compensation, rotations and scaling; derives practical Hadamard/sign/scaling guidance and reports backprop-free configurations competitive with SpinQuant.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization"
       ]
     },
     {
@@ -51199,6 +51714,28 @@
       ]
     },
     {
+      "title": "Sandwich-Residuals: Parameter-Efficient Test-time Adaptation of World Models",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / world-model adaptation",
+      "arxiv": "2609.21740",
+      "doi": "",
+      "official_id": "arXiv:2609.21740",
+      "paper_url": "https://arxiv.org/abs/2609.21740",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Frozen world-model test-time adaptation with small residual modules; reports 97-99% fewer adapted parameters while retaining 95% of the strongest AdaJEPA variant and also evaluates DINO-WM manipulation.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Same Request, Different Answer: Quantization Amplifies Cache-Induced Divergence in LLM Serving",
       "venue": "arXiv 2026",
       "topic": "LLM serving / prefix cache / quantization / reproducibility",
@@ -53075,6 +53612,29 @@
       ]
     },
     {
+      "title": "Quantifying the Effect of HCLs on a Fixed-Microarchitecture MXFP4 Accelerator",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers / edge Physical AI hardware",
+      "arxiv": "2609.18792",
+      "doi": "",
+      "official_id": "arXiv:2609.18792",
+      "paper_url": "https://arxiv.org/abs/2609.18792",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Controlled comparison of SystemVerilog, Chisel, SpinalHDL, Amaranth, Clash, Bluespec and HLS on the same MXFP4 block-dot-product microarchitecture; useful evidence for programmable low-precision edge accelerators.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "GPU Kernel / DSL / Compiler",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Quanta Perception as Probabilistic Events",
       "venue": "",
       "topic": "LLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems",
@@ -53497,6 +54057,28 @@
       "updated_at": "",
       "is_latest_30d": true,
       "directions": [
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "PRIME: Perception Feedback with Situational Memory Embeddings in VLA Models",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving / memory",
+      "arxiv": "2609.22040",
+      "doi": "",
+      "official_id": "arXiv:2609.22040",
+      "paper_url": "https://arxiv.org/abs/2609.22040",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Situational Memory feeds prior perception, reasoning, navigation and behavior state back into VLA perceptual queries with only 0.41% parameter overhead; protected runtime-memory lineage for autonomous driving.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
       ]
@@ -61792,6 +62374,28 @@
       ]
     },
     {
+      "title": "ForeTac-VLA: A Forecasting-Based Tactile-Vision-Language-Action Model for Contact-Rich Robotic Manipulation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving",
+      "arxiv": "2609.20980",
+      "doi": "",
+      "official_id": "arXiv:2609.20980",
+      "paper_url": "https://arxiv.org/abs/2609.20980",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Forecasts multi-step tactile states and fuses them with vision-language context to condition VLA action generation; protected Physical-AI multimodal/action-head lineage with real-world manipulation evaluation.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "FolDeX: A Physical-World Benchmark for Long-Horizon Robotic Manipulation of Deformable Objects",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI / long-horizon manipulation / deformable objects / real-robot benchmark",
@@ -66543,6 +67147,27 @@
       ]
     },
     {
+      "title": "CommitFlow: Semantic Commitment Verification and Local Correction for Long-Horizon Robot Manipulation VLA Execution",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving",
+      "arxiv": "2609.21908",
+      "doi": "",
+      "official_id": "arXiv:2609.21908",
+      "paper_url": "https://arxiv.org/abs/2609.21908",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Frozen-base-policy execution framework gates dependent actions and applies local correction instead of wholesale replanning, relevant to efficient reliable long-horizon VLA runtime orchestration.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "CometVLA: Co-Training on an Embodied Data Pyramid towards Physical Understanding",
       "venue": "",
       "topic": "multimodal/MLLM serving / VLA/WAM/Physical AI serving",
@@ -70089,6 +70714,29 @@
       "is_latest_30d": true,
       "directions": [
         "Quantization"
+      ]
+    },
+    {
+      "title": "AcousticDiffusion: Semantically Conditioned Audio-Guided Diffusion Policy for Search-and-Rescue Assistance",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving",
+      "arxiv": "2609.21792",
+      "doi": "",
+      "official_id": "arXiv:2609.21792",
+      "paper_url": "https://arxiv.org/abs/2609.21792",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Real-robot diffusion policy combines semantic audio belief with robot state and generates waypoint trajectories; planner compute is reported at 6.07 ms, making it relevant to efficient multimodal Physical-AI deployment.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Diffusion / Flow Acceleration",
+        "VLA / WAM / Physical AI"
       ]
     },
     {

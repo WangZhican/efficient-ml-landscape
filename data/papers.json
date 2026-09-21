@@ -2964,6 +2964,27 @@
     ]
   },
   {
+    "title": "An Approximate Queueing Model of LLM Inference Serving for SLO-Driven Autoscaling",
+    "venue": "arXiv 2026",
+    "topic": "LLM serving / edge-cloud systems",
+    "arxiv": "2609.20957",
+    "doi": "",
+    "official_id": "arXiv:2609.20957",
+    "paper_url": "https://arxiv.org/abs/2609.20957",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Queueing model predicts TTFT/ITL from compute and KV-access costs and drives SLO-aware replica autoscaling; validated on H100/OpenShift with low median prediction error under a fourfold load ramp.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "An Efficient Out-of-Core Tomographic Imaging Framework for Edge Devices",
     "venue": "arXiv 2026",
     "topic": "edge/cloud/heterogeneous AI systems / GPU kernel / mixed precision / out-of-core",
@@ -3556,6 +3577,29 @@
     ]
   },
   {
+    "title": "Catch Me If You Can: Real-Time Feedback Denoising for Responsive VLAs",
+    "venue": "arXiv 2026",
+    "topic": "VLA/WAM/Physical AI serving",
+    "arxiv": "2609.21022",
+    "doi": "",
+    "official_id": "arXiv:2609.21022",
+    "paper_url": "https://arxiv.org/abs/2609.21022",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Two-timescale VLA keeps the final diffusion denoising step as a lightweight high-frequency feedback interface, avoiding rerunning the full VLM/diffusion planner for every correction.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
+      "Diffusion / Flow Acceleration",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "CEDAR: Error-Bounded Residual Routing for Efficient Long-Context Attention",
     "venue": "arXiv 2026",
     "topic": "efficient attention / long context / sparse routing / kernel acceleration",
@@ -3938,6 +3982,27 @@
       "LLM Serving",
       "KV Cache / Long Context",
       "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "Decomposing Predictive Kubernetes Autoscaling for Large Language Model Serving Under Long Startup Delays",
+    "venue": "arXiv 2026",
+    "topic": "LLM serving / edge-cloud systems",
+    "arxiv": "2609.20874",
+    "doi": "",
+    "official_id": "arXiv:2609.20874",
+    "paper_url": "https://arxiv.org/abs/2609.20874",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Decomposes predictive LLM autoscaling under multi-minute startup delay; delay-aware lookahead plus uncertainty margin sharply reduces TTFT SLO violations and is validated on a real Kubernetes A100/vLLM deployment.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -7558,6 +7623,27 @@
     ]
   },
   {
+    "title": "Quantization-Aware Kalman Estimation for Diffusion Sampling",
+    "venue": "arXiv 2026",
+    "topic": "diffusion/flow acceleration / quantization",
+    "arxiv": "2609.21407",
+    "doi": "",
+    "official_id": "arXiv:2609.21407",
+    "paper_url": "https://arxiv.org/abs/2609.21407",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "QuAKE treats quantized-denoiser sampling as online estimation and recursively corrects W4A4 diffusion outputs using trajectory history; plug-and-play and compatible with high-order multistep ODE samplers.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Quantization",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "QUASAR: Lowering the Loss Floor of Quantization-Aware Training with Loss-Aware Reconstruction",
     "venue": "arXiv 2026",
     "topic": "quantization / quantization-aware training / low-bit LLM deployment / NVFP4",
@@ -7925,6 +8011,27 @@
       "LLM Serving",
       "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "RheoSampling: Resolving the One-Hot Dilemma in Stochastic Dynamic-Tree Speculative Decoding",
+    "venue": "arXiv 2026",
+    "topic": "speculative decoding",
+    "arxiv": "2609.21827",
+    "doi": "",
+    "official_id": "arXiv:2609.21827",
+    "paper_url": "https://arxiv.org/abs/2609.21827",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Decouples tree-construction proxy probabilities from verification probabilities to preserve lossless stochastic sampling in dynamic-tree speculative decoding; adds OT verification and sparse drafting for practical speedup.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Speculative Decoding",
+      "Sparsity / Pruning"
     ]
   },
   {
@@ -8567,6 +8674,27 @@
       "KV Cache / Long Context",
       "Quantization",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "SkipVLA: Skipping VLA Steps with Classical Planning for Fast Robot Manipulation",
+    "venue": "arXiv 2026",
+    "topic": "VLA/WAM/Physical AI serving",
+    "arxiv": "2609.20648",
+    "doi": "",
+    "official_id": "arXiv:2609.20648",
+    "paper_url": "https://arxiv.org/abs/2609.20648",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Hybrid VLA + classical motion planning skips expensive VLA queries during free-space motion; reports up to 2.5x faster task completion with lower energy at matched task success.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "VLA / WAM / Physical AI"
     ]
   },
   {
@@ -9815,6 +9943,28 @@
       "LLM Serving",
       "Multimodal / MLLM Serving",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "ZYT-World: A Real-Time Controllable World Model for Closed-Loop Autonomous-Driving Simulation",
+    "venue": "arXiv 2026",
+    "topic": "VLA/WAM/Physical AI serving",
+    "arxiv": "2609.21712",
+    "doi": "",
+    "official_id": "arXiv:2609.21712",
+    "paper_url": "https://arxiv.org/abs/2609.21712",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "decision": "PROMOTE_STRONG",
+    "why": "Production-oriented closed-loop driving world model distills a 40-step bidirectional teacher into a one-step streaming generator and combines TinyVAE, W8A8 quantization, and a dedicated inference engine; reports 107.7x generator speedup over the teacher.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "VLA / WAM / Physical AI"
     ]
   },
   {
