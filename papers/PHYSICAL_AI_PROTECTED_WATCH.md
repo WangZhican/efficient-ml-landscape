@@ -1,6 +1,6 @@
 # 🛡️ Physical AI · Protected Historical Watch
 
-> **985 older P1 papers** retained beyond the rolling 30-day window. This is a watchlist, not an expanded canonical/P0 claim.
+> **987 older P1 papers** retained beyond the rolling 30-day window. This is a watchlist, not an expanded canonical/P0 claim.
 
 [← Physical AI direction](14-physical-ai-vla-wam.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/physical_ai_protected_watch_archive.json)
 
@@ -467,6 +467,7 @@
 | **P1 · Watch** | **MEMOBench: A Process Level Memory Benchmark for Robotic Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving / robot memory / benchmark | [Link](https://arxiv.org/abs/2609.07047) | [Repo](https://github.com/Collab-Gen/MEMOBench) |
 | **P1 · Watch** | **MemCorr-DP: Counterfactual Correspondence Conditioning for a Diffusion Policy Guided by a Reference** | arXiv 2026 | VLA/WAM/Physical AI serving / diffusion policy | [Link](https://arxiv.org/abs/2609.06615) | — |
 | **P1 · Watch** | **MEM: Multi-Scale Embodied Memory for Vision Language Action Models** | arXiv 26 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2603.03596) | — |
+| **P1 · Watch** | **Mem3R: Streaming 3D Reconstruction with Hybrid Memory** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2604.07279) | — |
 | **P1 · Watch** | **Mem-World: Memory-Augmented Action-Conditioned World Models for Persistent Robot Manipulation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2606.18960) | — |
 | **P1 · Watch** | **MedPCFM-TED: One-Step Point Cloud Flow Matching for Implant Generation via Teacher-Guided Endpoint Distillation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.16934) | — |
 | **P1 · Watch** | **Measuring Language Transfer in Robot Policies: Adding Greek to a Cosmos3 Vision-Language-Action Policy** | Fresh / preprint | multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2609.07470) | — |
@@ -802,6 +803,7 @@
 | **P1 · Watch** | **CrossScope: A Role-Asymmetric World Model for Joint Dual-Scope Surgical Video Prediction** | arXiv 26 | streaming_world | [Link](https://arxiv.org/abs/2608.03211) | — |
 | **P1 · Watch** | **CrossBFM: Distilling a Shared Latent Behavior Space Across Humanoid Embodiments** | arXiv 26 | VLA/WAM/Physical AI serving; edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.38087) | — |
 | **P1 · Watch** | **Cross-Domain Tracker Adaptation Without Target-Domain Labels via Vision-Language Agents** | arXiv 2026 | VLA/WAM/Physical AI serving / vision-language agents / online perception adaptation | [Link](https://arxiv.org/abs/2609.05239) | — |
+| **P1 · Watch** | **Crazyflow: An Accurate, GPU-Accelerated, Differentiable Drone Simulator in JAX** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2606.01478) | — |
 | **P1 · Watch** | **CR-VLA-Force: Learning Control-aware Compliance VLA Model for Robust Contact-rich Robotic Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving / multimodal MoE / reactive control | [Link](https://arxiv.org/abs/2609.05832) | — |
 | **P1 · Watch** | **CP$^2$N$^2$: A Control Plane for Heterogeneous Physical Neural Networks** | Fresh / preprint | efficient reasoning/agent systems / VLA/WAM/Physical AI serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2605.04256) | — |
 | **P1 · Watch** | **CoWorld-VLA: Thinking in a Multi-Expert World Model for Autonomous Driving** | Fresh / preprint | multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2605.10426) | [Repo](https://github.com/AFARI-Research/CoWorld-VLA) |

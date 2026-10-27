@@ -1,10 +1,10 @@
 # 09 · Distributed Training / Inference
 
-> **720 canonical papers** mapped here, plus a broader **343-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **720 canonical papers** mapped here, plus a broader **349-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 343 tracked
+## 🆕 Latest 30 Days · 349 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -285,6 +285,7 @@
 | **P0 · Strong** | **DISCO: Distributed Long Context Scaling with Grounding-Reasoning Disaggregation** | arXiv 2026 | llm_serving,long_context,distributed | [Link](https://arxiv.org/abs/2609.33485) | — |
 | **P1 · Watch** | **When Does Backpropagating Through Policy Memory Matter? Physical Credit, Optimizer Updates, and Observability** | arXiv 2026 | physical,robotics,memory | [Link](https://arxiv.org/abs/2609.33169) | — |
 | **P0 · Strong** | **Splitting Prompt Prefill from Response Replay for Context-Parallel Long-Context LLM Post-Training** | arXiv 2026 | distributed training/inference | [Link](https://arxiv.org/abs/2609.33133) | — |
+| **P2 · Relevant** | **XL MIMO Extreme Learning Machines: Wave-Domain Inference with Stacked Metasurfaces** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.35469) | — |
 | **P0 · Strong** | **WorldCast: Distributed Multiplayer World Models** | arXiv 2026 | gen,physical,edge | [Link](https://arxiv.org/abs/2610.12412) | — |
 | **P2 · Relevant** | **Which Geometry on Which Layer? Measured Sign-Spectral Assignment in Mixed-Optimizer Training** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17285) | — |
 | **P2 · Relevant** | **Understanding Trajectory Heterogeneity in Federated World Model Learning** | arXiv 2026 | distributed_training | [Link](https://arxiv.org/abs/2610.02957) | — |
@@ -297,6 +298,7 @@
 | **P2 · Relevant** | **Shared and structured inputs undermine collective random choice by reasoning AI agents** | arXiv 2026 | gen,edge | [Link](https://arxiv.org/abs/2610.09667) | — |
 | **P2 · Relevant** | **Share the Symbol, Not the Vector: Training-Free Fact Communication Across Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19696) | — |
 | **P0 · Strong** | **SCOPE: Subspace Clustering with Online Per-Head Top-K Estimation for Sparse Video Attention** | Fresh / preprint | sparse video attention / DiT inference | [Link](https://arxiv.org/abs/2608.12780) | — |
+| **P2 · Relevant** | **Satellite Intelligence: Distributed Training, Collaborative Inference,and LLM Adaptation in LEO Constellation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.35282) | — |
 | **P1 · Watch** | **Router Drift Control: Mitigating Off-Policy Degradation in Mixture-of-Experts Reinforcement Learning** | arXiv 2026 | llm_serving,moe | [Link](https://arxiv.org/abs/2610.21682) | — |
 | **P0 · Strong** | **Rollplex: Cross-Phase GPU Spatial Sharing for Vision Language Model Post-Training** | Fresh / preprint | VLM post-training / GPU spatial sharing / RL runtime | [Link](https://arxiv.org/abs/2608.14498) | — |
 | **P2 · Relevant** | **RoboSpan: Learning Modular Coordination Policies for High-DoF Whole-Body Mobile Manipulation with Teleoperation** | arXiv 26 | cloud_edge | [Link](https://arxiv.org/abs/2610.19594) | — |
@@ -321,6 +323,7 @@
 | **P0 · Strong** | **Implementation of Zero-shot Semantic Communication on Software Defined Radio** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2610.05764) | — |
 | **P0 · Strong** | **GraniKV: Asymmetric Granularity KV-Cache Paging for Multi-Agent Systems with Long Shared Prefix** | Fresh / preprint | KV-cache paging / multi-agent serving | [Link](https://arxiv.org/abs/2608.15584) | — |
 | **P0 · Strong** | **Global Simulation-Guided Dynamic Operator Scheduling for Efficient Multi-Tenant Model Serving** | Fresh / preprint | multi-tenant model serving / operator-level scheduling | [Link](https://arxiv.org/abs/2608.15762) | — |
+| **P2 · Relevant** | **GEAR: Feature-Based Configuration and Code Generation for Agentic Systems** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.35592) | — |
 | **P2 · Relevant** | **FUSE: Fairness-aware Update Screening against Byzantine Exploitation in $q$-Fair Federated Learning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20264) | — |
 | **P2 · Relevant** | **From Mixing to Tearing: Graph Decomposition in Decentralized Optimization via Message Passing** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.03709) | — |
 | **P0 · Strong** | **From LLM Inference to Agentic Workloads: Characterization and Implications for Serving Systems** | Fresh / preprint | agentic serving characterization / systems benchmark | [Link](https://arxiv.org/abs/2608.15127) | — |
@@ -331,6 +334,7 @@
 | **P1 · Watch** | **Failure-Resilient and Verifiable Distributed Approximate Nearest-Neighbor Retrieval** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.34608) | — |
 | **P0 · Strong** | **Event-Driven ML Pipeline Orchestration for Manufacturing: An AWS Industry Experience** | arXiv 2026 | distributed training/inference | [Link](https://arxiv.org/abs/2610.06890) | — |
 | **P1 · Watch** | **Entropy-Gated Belief Coordination for Decentralized Multi-Agent Search Under Intermittent Communication** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.07432) | — |
+| **P2 · Relevant** | **Efficient Exact Unlearning for Federated Zeroth-Order Optimization** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.35211) | — |
 | **P0 · Strong** | **EcoVLA: Energy-Efficient Device-Edge Co-Inference for Vision-Language-Action Models under Real-Time Constraints** | Fresh / preprint | VLA device-edge co-inference / energy-aware runtime | [Link](https://arxiv.org/abs/2608.15502) | — |
 | **P2 · Relevant** | **Does Muon Need Fine-Grained Spectral Shaping?** | arXiv 2026 | Efficient ML / Physical AI | [Link](https://arxiv.org/abs/2610.07497) | — |
 | **P2 · Relevant** | **DNPush: Distributed Nonparallel Pushing Force Control of Multi-Robot Systems for Object Transportation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04764) | — |
@@ -338,8 +342,10 @@
 | **P0 · Strong** | **DeaMoE: Efficient MoE Structure for Fast Small-Batch Decoding** | Fresh / preprint | MoE architecture / small-batch decoding | [Link](https://arxiv.org/abs/2608.14385) | — |
 | **P1 · Watch** | **Cross-Modal Data Co-Locality for Heterogeneous Storage Systems** | arXiv 2026 | llm_serving,edge | [Link](https://arxiv.org/abs/2610.34595) | — |
 | **P2 · Relevant** | **Coupling Perception and Reasoning in Federated Multimodal Graph Foundation Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.00277) | — |
+| **P1 · Watch** | **Context Is Not Free: Carbon-Aware LLM Routing for Multi-Turn LLM Web Services across Geo-Distributed Data Centers** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.35230) | — |
 | **P2 · Relevant** | **Conditional Transfer from Controlled Pretraining Mixtures to Code** | arXiv 2026 | distributed training/inference | [Link](https://arxiv.org/abs/2610.11548) | — |
 | **P2 · Relevant** | **Collective Bias Mitigation via Model Routing and Collaboration** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.03240) | — |
+| **P2 · Relevant** | **CLOSURE: Cross-Channel Closure for Multivariate Time Series Anomaly Detection** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.35753) | — |
 | **P0 · Strong** | **ClawGym II: Exploring Black-Box RL on Agent Harness** | Fresh / preprint | agent training systems | [Link](https://arxiv.org/abs/2608.16798) | — |
 | **P2 · Relevant** | **CAST: Credit Alignment for Cross-Tokenizer On-Policy Distillation** | arXiv 2026 | quantization | [Link](https://arxiv.org/abs/2610.13257) | — |
 | **P2 · Relevant** | **Beyond Token Accuracy: Prioritizing What Matters for Visual Reconstruction** | arXiv 2026 | edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2610.03822) | — |

@@ -1,10 +1,10 @@
 # 01 · LLM Serving
 
-> **2012 canonical papers** mapped here, plus a broader **1614-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **2016 canonical papers** mapped here, plus a broader **1619-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 1614 tracked
+## 🆕 Latest 30 Days · 1619 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -1315,6 +1315,7 @@
 | **P0 · Strong** | **TRIAGE: Efficient Vision-Language-Action Inference Needs Both Reuse and Pruning** | arXiv 2026 | llm_serving,sparse,multimodal,physical | [Link](https://arxiv.org/abs/2610.34519) | — |
 | **P2 · Relevant** | **Transporting Quantiles to Codebook: Scalable Vector Quantization without Codebook Collapse** | arXiv 2026 | quant,gen | [Link](https://arxiv.org/abs/2610.34828) | — |
 | **P2 · Relevant** | **Training-Free Multi-Agent Cooperative Embodied Search from Uncertain Vision-Language Priors** | arXiv 26 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.15038) | — |
+| **P0 · Strong** | **TP-JSCC: Efficient Token Pruning and Joint Source-Channel Coding for LVLMs-based 3D-VQA in Cloud-Edge Collaboration** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.35489) | — |
 | **P2 · Relevant** | **Towards Subject Consistency over Dynamic Subject Sets in Video Generation** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.01052) | — |
 | **P2 · Relevant** | **Towards Reliable Vision-Language Models for Autonomous Driving** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.01531) | — |
 | **P0 · Strong** | **Towards Looped Models Done Right, Part II: Rethinking at Fixed Points** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2610.06833) | — |
@@ -1365,6 +1366,7 @@
 | **P2 · Relevant** | **Sim-to-Real Transfer of Vision-Language Navigation in Continuous Environments Using an Ackermann-Steered Mobile Robot** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.07192) | — |
 | **P1 · Watch** | **Silent and Costly: Characterizing and Detecting Prompt-Caching Mis-Integration in LLM Agents** | arXiv 2026 | llm_serving,edge | [Link](https://arxiv.org/abs/2610.34817) | — |
 | **P2 · Relevant** | **Shared-Roadmap Generation and Evaluator for Multi-Agent Path Planning Using Heterogeneous Graph Neural Network** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.09034) | — |
+| **P0 · Strong** | **Shared Context, Separate Engines: Streaming Vision--Language Inference on Edge SoCs** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.35309) | — |
 | **P2 · Relevant** | **Sensitivity or Criterion? Measuring and Moving When Language Models Act** | arXiv 26 | physical_ai_action_decision_evaluation | [Link](https://arxiv.org/abs/2610.15415) | — |
 | **P2 · Relevant** | **Secure-CUA: Controlling Untrusted Influence in Computer-Use Agents** | arXiv 2026 | llm_serving,gen | [Link](https://arxiv.org/abs/2610.09469) | — |
 | **P2 · Relevant** | **Second Thoughts: Exploring and Planning through Comparative Imagination in World Models** | arXiv 2026 | Physical AI world models | [Link](https://arxiv.org/abs/2610.28779) | — |
@@ -1428,6 +1430,7 @@
 | **P2 · Relevant** | **One-shot Human Video-Guided Adaptation for Vision-Language-Action Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19746) | — |
 | **P2 · Relevant** | **One Token Can Be Enough: Bridging Prompting and Activation Steering with Prefix Steering** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.04967) | — |
 | **P2 · Relevant** | **One Task, Many Interfaces: Simple Cross-Interface Consistency Training Improves LLM Agent Robustness** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20576) | — |
+| **P0 · Strong** | **One Megakernel is Not Enough: Predicting Where to Cut for Streaming Inference** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.35336) | — |
 | **P2 · Relevant** | **Octrees as an Explicit 3D Language** | arXiv 2026 | multimodal/MLLM serving | [Link](https://arxiv.org/abs/2610.02388) | — |
 | **P1 · Watch** | **NovaFabric: A Black-Box Recorder for AI Agents with Sealed, Replayable, Diffable and Auditable Runs** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.34594) | — |
 | **P2 · Relevant** | **Nous: Learning and Certifying Memory Decisions Before Source Calibration** | arXiv 2026 | agent_memory | [Link](https://arxiv.org/abs/2610.00094) | — |
@@ -1464,6 +1467,7 @@
 | **P1 · Watch** | **Length Generalization Needs Proper Regularization** | arXiv 2026 | KV cache/long-context | [Link](https://arxiv.org/abs/2610.04518) | — |
 | **P2 · Relevant** | **LEGO: A Lifting-Free Approach for Exocentric-to-Egocentric Video Generation** | arXiv 2026 | llm_serving,gen | [Link](https://arxiv.org/abs/2610.12442) | — |
 | **P1 · Watch** | **LeCuration: A Tiny World Model as a Data Curation Multi-Tool** | arXiv 2026 | gen,physical | [Link](https://arxiv.org/abs/2610.09285) | — |
+| **P0 · Strong** | **Learning When to Commit: Schedule Distillation for Fast Diffusion Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.35804) | — |
 | **P2 · Relevant** | **Learning Temporal Evidence Selection for Video Anomaly Understanding** | arXiv 2026 | systems-adjacent / low-priority | [Link](https://arxiv.org/abs/2610.16299) | — |
 | **P2 · Relevant** | **Learning Reflexive Behavior for Contact-Rich Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.02811) | — |
 | **P2 · Relevant** | **Learning Intrinsic Dynamics in Latent World Models** | arXiv 2026 | llm_serving,physical | [Link](https://arxiv.org/abs/2610.21612) | — |
@@ -1513,6 +1517,7 @@
 | **P1 · Watch** | **Failure-Resilient and Verifiable Distributed Approximate Nearest-Neighbor Retrieval** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.34608) | — |
 | **P2 · Relevant** | **Exploring Temporal Context-Aware Physical Grounding in Latent World Models** | arXiv 2026 | physical_ai_world_model | [Link](https://arxiv.org/abs/2610.28483) | — |
 | **P2 · Relevant** | **Exploiting Hierarchical Controller Structure in Contextual Parameter Learning for Humanoid Loco-Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.04609) | — |
+| **P1 · Watch** | **EvoRouter: Cost-Efficient Multi-Agent Routing via Insight-Guided On-Policy Distillation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.35690) | — |
 | **P2 · Relevant** | **EvolveMAS: A Unified Self-Evolution Framework for Decentralized Multi-Agent Systems** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.34450) | — |
 | **P2 · Relevant** | **EVEWorld: Physical Evolution Supervision for Embodied World Models** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.03374) | — |
 | **P0 · Strong** | **Every Expert Counts: ExactMoE for Memory-Efficient W4A16 Inference** | Fresh / preprint | MoE memory-efficient W4A16 inference / GPU slot cache | [Link](https://arxiv.org/abs/2608.15383) | — |

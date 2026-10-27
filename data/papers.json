@@ -28012,6 +28012,28 @@
     ]
   },
   {
+    "title": "Learning When to Commit: Schedule Distillation for Fast Diffusion Language Models",
+    "venue": "arXiv 2026",
+    "topic": "",
+    "arxiv": "2610.35804",
+    "doi": "",
+    "official_id": "arXiv:2610.35804",
+    "paper_url": "https://arxiv.org/abs/2610.35804",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party abstract proposes schedule distillation for fast diffusion language-model decoding, reducing generation rounds by learning commit timing; code linked by authors, full throughput/quality verification pending.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "LearnPruner: Rethinking Attention-based Token Pruning in Vision Language Models",
     "venue": "arXiv 2026",
     "topic": "sparse,multimodal,edge",
@@ -33734,6 +33756,28 @@
     ]
   },
   {
+    "title": "One Megakernel is Not Enough: Predicting Where to Cut for Streaming Inference",
+    "venue": "arXiv 2026",
+    "topic": "",
+    "arxiv": "2610.35336",
+    "doi": "",
+    "official_id": "arXiv:2610.35336",
+    "paper_url": "https://arxiv.org/abs/2610.35336",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party abstract studies learned fusion-cut placement for streaming inference rather than blanket megakernels; reports 4.05x lower engine-level mean batch TTFA p95 and 19.7% throughput increase.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "One Patch, Three Roles: What Is Actually Coupled in Autoregressive Time-Series Forecasting?",
     "venue": "arXiv 2026",
     "topic": "",
@@ -34285,6 +34329,27 @@
     "directions": [
       "LLM Serving",
       "GPU Kernel / DSL / Compiler",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "OSWAM: An Effective World Action Model with One-Step Action Generation",
+    "venue": "arXiv 2026",
+    "topic": "",
+    "arxiv": "2610.35850",
+    "doi": "",
+    "official_id": "arXiv:2610.35850",
+    "paper_url": "https://arxiv.org/abs/2610.35850",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": true,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party abstract proposes one-step action generation for World Action Models, directly reducing iterative action inference in autonomous driving/embodied control; prioritize full-paper validation of runtime and control quality.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
       "VLA / WAM / Physical AI"
     ]
   },
@@ -42812,6 +42877,30 @@
     ]
   },
   {
+    "title": "Shared Context, Separate Engines: Streaming Vision--Language Inference on Edge SoCs",
+    "venue": "arXiv 2026",
+    "topic": "",
+    "arxiv": "2610.35309",
+    "doi": "",
+    "official_id": "arXiv:2610.35309",
+    "paper_url": "https://arxiv.org/abs/2610.35309",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party abstract describes state-versioned KV reuse/import and concurrent CPU/GPU/NPU scheduling for streaming VLM inference on edge SoCs; reports up to 2.48x throughput versus serial and 4.6x lower first-token latency with KV import.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Multimodal / MLLM Serving",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Shared Global KV with Layer-Specific Local History",
     "venue": "arXiv 2026",
     "topic": "",
@@ -48707,6 +48796,31 @@
     ]
   },
   {
+    "title": "TP-JSCC: Efficient Token Pruning and Joint Source-Channel Coding for LVLMs-based 3D-VQA in Cloud-Edge Collaboration",
+    "venue": "arXiv 2026",
+    "topic": "",
+    "arxiv": "2610.35489",
+    "doi": "",
+    "official_id": "arXiv:2610.35489",
+    "paper_url": "https://arxiv.org/abs/2610.35489",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": true,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party abstract describes foreground/background semantic token pruning plus SNR-adaptive JSCC for cloud-edge 3D-VQA; reports 90% visual-token pruning with under 1% CIDEr loss, 18x further token compression and 180x total transmitted-data reduction. Strong direct relevance to multimodal/Physical-AI serving.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Multimodal / MLLM Serving",
+      "Edge / Cloud / Heterogeneous AI",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "TRACE: Rollout-Guided Quantization-Aware Training for FP4 Reinforcement Learning of MoE Language Models",
     "venue": "arXiv 2026",
     "topic": "quantization; MoE systems/accelerators; efficient reasoning",
@@ -49268,6 +49382,28 @@
       "Sparsity / Pruning",
       "Multimodal / MLLM Serving",
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Triage: Skip, Skim, or Refine Attention Tiles in Video Diffusion Transformers",
+    "venue": "arXiv 2026",
+    "topic": "",
+    "arxiv": "2610.35706",
+    "doi": "",
+    "official_id": "arXiv:2610.35706",
+    "paper_url": "https://arxiv.org/abs/2610.35706",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party abstract proposes tile-level skip/skim/refine mixed-precision attention for video diffusion transformers; reports higher PSNR than competing attention acceleration baselines.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Efficient Attention",
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
@@ -53103,6 +53239,27 @@
       "Distributed Training / Inference",
       "Edge / Cloud / Heterogeneous AI",
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "WorldPager: Zero-Stall Tiered Memory for Long-Horizon World Models on a Single Consumer GPU",
+    "venue": "arXiv 2026",
+    "topic": "",
+    "arxiv": "2610.35529",
+    "doi": "",
+    "official_id": "arXiv:2610.35529",
+    "paper_url": "https://arxiv.org/abs/2610.35529",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party abstract proposes tiered KV memory paging for long-horizon interactive world models on RTX 4090 with host RAM and NVMe; explicitly targets stalls, session length and visual consistency.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {

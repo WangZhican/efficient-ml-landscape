@@ -10365,6 +10365,27 @@
     ]
   },
   {
+    "title": "Mem3R: Streaming 3D Reconstruction with Hybrid Memory",
+    "venue": "arXiv 2026",
+    "topic": "",
+    "arxiv": "2604.07279",
+    "doi": "",
+    "official_id": "arXiv:2604.07279",
+    "paper_url": "https://arxiv.org/abs/2604.07279",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "First-party abstract identifies an ML systems/runtime/compression contribution requiring full-paper assessment: Streaming 3D perception is well suited to robotics and augmented reality, where long visual streams must be processed efficiently and consistently. Recent recurrent models offer a promising solution by maintaining fixed-size…",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Mem-World: Memory-Augmented Action-Conditioned World Models for Persistent Robot Manipulation",
     "venue": "arXiv 2026",
     "topic": "",
@@ -17932,6 +17953,28 @@
       "LLM Serving",
       "Multimodal / MLLM Serving",
       "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Crazyflow: An Accurate, GPU-Accelerated, Differentiable Drone Simulator in JAX",
+    "venue": "arXiv 2026",
+    "topic": "",
+    "arxiv": "2606.01478",
+    "doi": "",
+    "official_id": "arXiv:2606.01478",
+    "paper_url": "https://arxiv.org/abs/2606.01478",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "First-party abstract identifies an ML systems/runtime/compression contribution requiring full-paper assessment: High-quality, large-scale synthetic data from simulations is becoming a cornerstone for pushing robots' capabilities. While aerial robotics simulators have evolved to support specialized needs such as fidelity, differentiability,…",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
       "VLA / WAM / Physical AI"
     ]
   },
