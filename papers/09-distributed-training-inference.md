@@ -1,10 +1,10 @@
 # 09 · Distributed Training / Inference
 
-> **720 canonical papers** mapped here, plus a broader **342-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **720 canonical papers** mapped here, plus a broader **341-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 342 tracked
+## 🆕 Latest 30 Days · 341 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -287,8 +287,6 @@
 | **P2 · Relevant** | **RAGWarrant: Evidence-Preserving Governance for RAG Policy Promotion Under Quality, Cost, Latency, and Risk Constraints** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2609.34179) | — |
 | **P2 · Relevant** | **A Weak Notion of Symmetry for Control Systems** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34173) | — |
 | **P2 · Relevant** | **Schedule Repair for DAG Workflows under Link Disruptions** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34048) | — |
-| **P1 · Watch** | **Validating Memory-Optimal Transformer Kernels on Real Hardware: From Formal Derivation to Measured Performance Across Two HPC Clusters** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33916) | — |
-| **P2 · Relevant** | **Prospective Interpretation Risk: Principled Communication Control Between LLMs** | arXiv 2026 | efficient_reasoning_agent | [Link](https://arxiv.org/abs/2609.33885) | — |
 | **P0 · Strong** | **WorldCast: Distributed Multiplayer World Models** | arXiv 2026 | gen,physical,edge | [Link](https://arxiv.org/abs/2610.12412) | — |
 | **P2 · Relevant** | **Which Geometry on Which Layer? Measured Sign-Spectral Assignment in Mixed-Optimizer Training** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17285) | — |
 | **P2 · Relevant** | **Understanding Trajectory Heterogeneity in Federated World Model Learning** | arXiv 2026 | distributed_training | [Link](https://arxiv.org/abs/2610.02957) | — |
@@ -318,6 +316,7 @@
 | **P1 · Watch** | **Multi-Stream Attention Residuals** | arXiv 2026 | moe_systems_accelerators | [Link](https://arxiv.org/abs/2610.13630) | — |
 | **P2 · Relevant** | **MetaRubric: Learning to Reward for Rubric-Based Reinforcement Learning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.02824) | — |
 | **P2 · Relevant** | **Logit-Aware MIMO AirComp for Distributed Mixture-of-Experts LLM Inference over Wireless Edge Networks** | arXiv 2026 | edge_moe_network | [Link](https://arxiv.org/abs/2610.03741) | — |
+| **P2 · Relevant** | **Lightweight Change Detection for Adaptive Collective Perception in Dynamic Environments** | arXiv 2026 | resource-constrained swarm robotics; online perception | [Link](https://arxiv.org/abs/2610.34059) | — |
 | **P2 · Relevant** | **Learning without Overwriting: A Theory of Self-Distillation and Supervised Fine-Tuning in Continual Reasoning** | arXiv 2026 | distributed training/inference | [Link](https://arxiv.org/abs/2610.05200) | — |
 | **P0 · Strong** | **Implementation of Zero-shot Semantic Communication on Software Defined Radio** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2610.05764) | — |
 | **P0 · Strong** | **GraniKV: Asymmetric Granularity KV-Cache Paging for Multi-Agent Systems with Long Shared Prefix** | Fresh / preprint | KV-cache paging / multi-agent serving | [Link](https://arxiv.org/abs/2608.15584) | — |

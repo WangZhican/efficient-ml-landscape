@@ -1,10 +1,10 @@
 # 06 · Efficient Attention
 
-> **603 canonical papers** mapped here, plus a broader **256-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **603 canonical papers** mapped here, plus a broader **255-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 256 tracked
+## 🆕 Latest 30 Days · 255 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -216,7 +216,6 @@
 | **P2 · Relevant** | **CASS: Contribution-Aware Structured Sparsity for Model Merging** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34184) | — |
 | **P1 · Watch** | **Counterexamples to Local Reconstruction Gain as a Proxy for Final Fidelity in Residual Completion** | arXiv 2026 | efficient attention | [Link](https://arxiv.org/abs/2609.34063) | — |
 | **P0 · Strong** | **ADPTNet: Adaptive with Prescriptive Timescales Non-Linear SSM for Sequence Modelling** | arXiv 2026 | efficient_attention | [Link](https://arxiv.org/abs/2609.34034) | — |
-| **P1 · Watch** | **PQ-HSA: Reusing Product-Quantized Scores for Hybrid Sparse-Approximate Attention** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33746) | — |
 | **P2 · Relevant** | **Understanding Unified VLMs: From Attention Probing to Guidance Tuning for Multimodal Generation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15227) | — |
 | **P0 · Strong** | **TileMix: Tile-Centric Mixed-Precision Attention for LLM Inference Acceleration** | Fresh / preprint | mixed-precision attention kernel / long-context inference | [Link](https://arxiv.org/abs/2608.17336) | — |
 | **P2 · Relevant** | **Thinking Inertia: LLMs Keep Thinking When Told Not To** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.11765) | — |

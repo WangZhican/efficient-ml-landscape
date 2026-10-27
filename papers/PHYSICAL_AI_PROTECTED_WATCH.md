@@ -1,6 +1,6 @@
 # 🛡️ Physical AI · Protected Historical Watch
 
-> **996 older P1 papers** retained beyond the rolling 30-day window. This is a watchlist, not an expanded canonical/P0 claim.
+> **998 older P1 papers** retained beyond the rolling 30-day window. This is a watchlist, not an expanded canonical/P0 claim.
 
 [← Physical AI direction](14-physical-ai-vla-wam.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/physical_ai_protected_watch_archive.json)
 
@@ -278,6 +278,7 @@
 | **P1 · Watch** | **RoboTTT: Context Scaling for Robot Policies** | arXiv 26 | vla_wam | [Link](https://arxiv.org/abs/2607.15275) | — |
 | **P1 · Watch** | **RoboTok: An Internet-Scale Data Engine for Human Demonstration Retrieval and Dexterous Manipulation Learning** | arXiv 2026 | VLA/WAM/Physical AI serving / data engine / scalable demonstration retrieval | [Link](https://arxiv.org/abs/2609.03199) | — |
 | **P1 · Watch** | **Robotic Long-Horizon Manipulation with Bayesian Non-parametric Skill Priors** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2503.21975) | — |
+| **P1 · Watch** | **Robot-GST: geometry-aware spatial-temporal robot policy representation and evaluation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33872) | — |
 | **P1 · Watch** | **Robostral Navigate** | arXiv 2026 | Physical AI / embodied navigation / training-time prefix caching | [Link](https://arxiv.org/abs/2607.20785) | — |
 | **P1 · Watch** | **RoboSTAR: Next-Scale Autoregressive Sign Language Translation for Humanoid Robots** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.32250) | — |
 | **P1 · Watch** | **RoboSPA: Can VLA Models Go Beyond Simple Scenes and Short-Horizon Tasks?** | arXiv 2026 | VLA/WAM/Physical AI serving / benchmark / long-horizon embodied reasoning | [Link](https://arxiv.org/abs/2609.05324) | [Repo](https://github.com/fanzhenxuan/RoboSPA) |
@@ -349,6 +350,7 @@
 | **P1 · Watch** | **PRISM: Projection-Integrated Sampling-Based MPC with Bayesian Cost Tuning for Bimanual Manipulation** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2608.25666) | — |
 | **P1 · Watch** | **Prism-GRPO: Faster VLA Policy Optimization via Splitting Same-outcome Groups** | Fresh / preprint | Physical AI / VLA RL rollout efficiency | [Link](https://arxiv.org/abs/2608.17423) | — |
 | **P1 · Watch** | **Prioritized Rollouts for Efficient World Model-based Vision-Language-Action Policy Optimization** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.22879) | — |
+| **P1 · Watch** | **Principal Steering Subspaces for Online Adaptation of Frozen Generative Robot Policies** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33765) | — |
 | **P1 · Watch** | **PRIME: Perception Feedback with Situational Memory Embeddings in VLA Models** | arXiv 2026 | VLA/WAM/Physical AI serving / memory | [Link](https://arxiv.org/abs/2609.22040) | — |
 | **P1 · Watch** | **PRICE the Action Chunks: Physical Relational Credit Assignment for Embodied Reinforcement Learning** | arXiv 26 | vla_wam | [Link](https://arxiv.org/abs/2609.38890) | — |
 | **P1 · Watch** | **PRI-Net: A Lightweight Multimodal Framework for 3D UAV Localization** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.14469) | — |

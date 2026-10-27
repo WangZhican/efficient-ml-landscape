@@ -1,10 +1,10 @@
 # 02 · Speculative Decoding
 
-> **387 canonical papers** mapped here, plus a broader **128-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **387 canonical papers** mapped here, plus a broader **127-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 128 tracked
+## 🆕 Latest 30 Days · 127 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -127,7 +127,6 @@
 | **P2 · Relevant** | **Cheap to Hypothesize, Costly to Verify: The Defense Surface of Agentic Vulnerability Discovery** | arXiv 2026 | llm_serving,agent | [Link](https://arxiv.org/abs/2609.35909) | — |
 | **P0 · Strong** | **Reciprocal Guidance: Orchestrating Draft and Verify Budgets for Advancing the Diffusion-AR Self-Speculation Frontier** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34388) | — |
 | **P0 · Strong** | **Spexis: Speculative Lookahead Scheduling for LLM Inference** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34370) | — |
-| **P0 · Strong** | **Faster Block-Diffusion Serving with Distribution-Free Risk Guarantees** | arXiv 2026 | diffusion language model serving | [Link](https://arxiv.org/abs/2609.33887) | — |
 | **P2 · Relevant** | **Verify Claims, Not Scores: Evidence-Based Verification of Modular Agents** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.01348) | — |
 | **P1 · Watch** | **Route-Verify-Vote: Procedure-Conditioned Self-Consistency for Mixed-Domain Reasoning** | arXiv 2026 | efficient reasoning / long memory | [Link](https://arxiv.org/abs/2610.08814) | — |
 | **P0 · Strong** | **Pre-Compiled Pipeline Shards for Distributed LLM Inference on Intel AI PC Fleets** | Fresh / preprint | distributed LLM inference / edge AI PC fleet / speculative decoding | [Link](https://arxiv.org/abs/2608.19147) | [Repo](https://github.com/labscommunity/pipeline-sharded-inference-paper) |
@@ -137,7 +136,7 @@
 | **P2 · Relevant** | **Breaking Diffusion: Parallel Reasoning with Draft Refinement** | arXiv 2026 | physical_ai,agent_systems | [Link](https://arxiv.org/abs/2610.26542) | — |
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
 
-## 🏛️ Classical / Historical · 313 canonical
+## 🏛️ Classical / Historical · 314 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -179,6 +178,7 @@
 | **Canonical** | **DynBranch: Speculative Subgraph Reuse for Dynamic Agentic LLM Serving** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.31047) | — |
 | **Canonical** | **ECHO: Early-layer Collaborative Hierarchical Orchestration with Bonus Logits in Speculative Decoding** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.17241) | — |
 | **Canonical** | **Efficient On-Device Diffusion LLM Inference with Mobile NPU** | arXiv 2026 | edge AI / diffusion LLM inference / mobile NPU / speculative decoding / KV reuse | [Link](https://arxiv.org/abs/2606.13740) | — |
+| **Canonical** | **Faster Block-Diffusion Serving with Distribution-Free Risk Guarantees** | arXiv 2026 | diffusion language model serving | [Link](https://arxiv.org/abs/2609.33887) | — |
 | **Canonical** | **Flash-dLLM: IO-Aware KV Caching and Parallel Decoding for Fast, Memory-Efficient Diffusion LLMs** | arXiv 2026 | diffusion LLM acceleration; KV cache | [Link](https://arxiv.org/abs/2609.26796) | — |
 | **Canonical** | **FlexEE: Self-Speculative and KV-Compatible Early Exiting for Offloading-Aware LLM Inference** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.17008) | — |
 | **Canonical** | **GDN Tree-Scan: Served Tree Verification for Recurrent-Hybrid Language Models** | arXiv 2026 | speculative/parallel decoding | [Link](https://arxiv.org/abs/2609.23900) | — |

@@ -36131,6 +36131,29 @@
       ]
     },
     {
+      "title": "PQ-HSA: Reusing Product-Quantized Scores for Hybrid Sparse-Approximate Attention",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.33746",
+      "doi": "",
+      "official_id": "arXiv:2609.33746",
+      "paper_url": "https://arxiv.org/abs/2609.33746",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Reusing product-quantized scores for hybrid sparse-approximate attention is a promising attention-efficiency mechanism.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Quantization",
+        "Sparsity / Pruning",
+        "Efficient Attention"
+      ]
+    },
+    {
       "title": "VUDA: Enabling Controlled Spatial Sharing of Graphics and Compute on NVIDIA GPUs",
       "venue": "arXiv 2026",
       "topic": "",
@@ -36391,6 +36414,49 @@
       ]
     },
     {
+      "title": "Principal Steering Subspaces for Online Adaptation of Frozen Generative Robot Policies",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.33765",
+      "doi": "",
+      "official_id": "arXiv:2609.33765",
+      "paper_url": "https://arxiv.org/abs/2609.33765",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Validating Memory-Optimal Transformer Kernels on Real Hardware: From Formal Derivation to Measured Performance Across Two HPC Clusters",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.33916",
+      "doi": "",
+      "official_id": "arXiv:2609.33916",
+      "paper_url": "https://arxiv.org/abs/2609.33916",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference"
+      ]
+    },
+    {
       "title": "Spatial Memory Agent: Experience-Grounded Procedure Memory for Spatial Intelligence",
       "venue": "arXiv 2026",
       "topic": "",
@@ -36546,6 +36612,27 @@
       "doi": "",
       "official_id": "arXiv:2609.33030",
       "paper_url": "https://arxiv.org/abs/2609.33030",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Transformer-based Neural Beamforming for Real-Time Speech Enhancement on Smart Low-Power Hearable Devices",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.33755",
+      "doi": "",
+      "official_id": "arXiv:2609.33755",
+      "paper_url": "https://arxiv.org/abs/2609.33755",
       "code_url": "",
       "formal_class": "WATCH",
       "physical_ai": false,
@@ -37027,6 +37114,27 @@
       ]
     },
     {
+      "title": "Positions Are Not Facts: The Mismatch Between KV Caches and Memory",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.33759",
+      "doi": "",
+      "official_id": "arXiv:2609.33759",
+      "paper_url": "https://arxiv.org/abs/2609.33759",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "KV Cache / Long Context"
+      ]
+    },
+    {
       "title": "RoXDrive: Closed-Loop Reinforcement Learning for End-to-End Autonomous Driving via Action-Faithful Rollouts",
       "venue": "arXiv 2026",
       "topic": "",
@@ -37195,6 +37303,49 @@
       "is_latest_30d": false,
       "directions": [
         "Speculative Decoding"
+      ]
+    },
+    {
+      "title": "Green AI: Cost of LLM-Based Code Completion",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.33918",
+      "doi": "",
+      "official_id": "arXiv:2609.33918",
+      "paper_url": "https://arxiv.org/abs/2609.33918",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Gaussian Splatting-based Volumetric Video Compression with Sparse 4D Anchors",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.33969",
+      "doi": "",
+      "official_id": "arXiv:2609.33969",
+      "paper_url": "https://arxiv.org/abs/2609.33969",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Sparsity / Pruning",
+        "Video / Image Generation"
       ]
     },
     {
@@ -38625,6 +38776,27 @@
       ]
     },
     {
+      "title": "Robot-GST: geometry-aware spatial-temporal robot policy representation and evaluation",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.33872",
+      "doi": "",
+      "official_id": "arXiv:2609.33872",
+      "paper_url": "https://arxiv.org/abs/2609.33872",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": true,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Official arXiv abstract presents a real-to-sim verification runtime for robot policies using Gaussian-SAM simulation before execution; protected Physical-AI runtime scope.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "DynamicVLA: A Vision-Language-Action Model for Dynamic Object Manipulation",
       "venue": "arXiv 2026",
       "topic": "physical_ai",
@@ -39664,6 +39836,27 @@
       "directions": [
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "HTN Planning as a Coordination Layer for Multi-Server MCP Tool Orchestration",
+      "venue": "arXiv 2026",
+      "topic": "efficient_reasoning_agent",
+      "arxiv": "2609.33731",
+      "doi": "",
+      "official_id": "arXiv:2609.33731",
+      "paper_url": "https://arxiv.org/abs/2609.33731",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -46746,6 +46939,28 @@
       ]
     },
     {
+      "title": "Annealed Sinkhorn with Momentum: Certified Unregularized Optimal Transport in Linear Memory",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers",
+      "arxiv": "2609.33814",
+      "doi": "",
+      "official_id": "arXiv:2609.33814",
+      "paper_url": "https://arxiv.org/abs/2609.33814",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "最优传输算法消除显式二次存储，线性内存并在 L40S 大图颜色迁移报告 9× 加速；邻接 GPU 数值计算，非核心 LLM serving。",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
       "title": "Test-Time Spatial Reasoning for Robot Manipulation Using Generative Real-to-Sim",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving",
@@ -48304,6 +48519,49 @@
       "directions": [
         "Distributed Training / Inference",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "dOPT: Differentiating Conic Optimization via Geometric Reduction",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.33828",
+      "doi": "",
+      "official_id": "arXiv:2609.33828",
+      "paper_url": "https://arxiv.org/abs/2609.33828",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Conic optimization layer reduces backward differentiation to one symmetric linear solve, with improved scalability.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "GroupMask: Layer-Adaptive Group-wise Sparsity for Semi-Structured LLM Pruning",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.33977",
+      "doi": "",
+      "official_id": "arXiv:2609.33977",
+      "paper_url": "https://arxiv.org/abs/2609.33977",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Learned layer-adaptive group sparsity improves LLM quality at 50% structured sparsity, but no throughput data.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving",
+        "Sparsity / Pruning"
       ]
     },
     {
@@ -89890,6 +90148,27 @@
       ]
     },
     {
+      "title": "ReDrive: Shaping Representations with World Modeling for End-to-End Driving",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.33854",
+      "doi": "",
+      "official_id": "arXiv:2609.33854",
+      "paper_url": "https://arxiv.org/abs/2609.33854",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Generalizable VLA Finetuning via Representation Anchoring and Language-Action Alignment",
       "venue": "arXiv 2026",
       "topic": "",
@@ -90953,6 +91232,27 @@
       ]
     },
     {
+      "title": "JET: Justification Evaluation in Transformer",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.33874",
+      "doi": "",
+      "official_id": "arXiv:2609.33874",
+      "paper_url": "https://arxiv.org/abs/2609.33874",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Mitigating Multimodal LLMs Hallucinations via Relevance Propagation at Inference Time",
       "venue": "arXiv 2026",
       "topic": "",
@@ -91160,6 +91460,27 @@
       "is_latest_30d": false,
       "directions": [
         "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Greenpixie's AI Token Methodology: Assessing the Energy, Water and CO2-eq Impact of AI Tokens for Open and Closed Weight Models",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.33965",
+      "doi": "",
+      "official_id": "arXiv:2609.33965",
+      "paper_url": "https://arxiv.org/abs/2609.33965",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -92237,6 +92558,28 @@
       ]
     },
     {
+      "title": "A Statistical Perspective on Knowledge Distillation: Foundations, Classical Methods, and Large Language Model Extensions",
+      "venue": "arXiv 2026",
+      "topic": "distillation,quantization",
+      "arxiv": "2609.33727",
+      "doi": "",
+      "official_id": "arXiv:2609.33727",
+      "paper_url": "https://arxiv.org/abs/2609.33727",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Relevant to a maintained Efficient-ML neighborhood, but current first-party metadata does not justify high-value promotion.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Quantization",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "AQuA: Recursively Self-Improving Quantitative Trading Research Agents",
       "venue": "arXiv 2026",
       "topic": "agent_systems",
@@ -92992,6 +93335,27 @@
       "doi": "",
       "official_id": "arXiv:2609.33312",
       "paper_url": "https://arxiv.org/abs/2609.33312",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Performance vs Portability in Heterogeneous HPC Environments: Why Pre-execution Benchmarking is Required",
+      "venue": "arXiv 2026",
+      "topic": "edge_cloud",
+      "arxiv": "2609.33847",
+      "doi": "",
+      "official_id": "arXiv:2609.33847",
+      "paper_url": "https://arxiv.org/abs/2609.33847",
       "code_url": "",
       "formal_class": "RELEVANT_LOW_PRIORITY",
       "physical_ai": false,
@@ -93938,6 +94302,28 @@
       ]
     },
     {
+      "title": "Prospective Interpretation Risk: Principled Communication Control Between LLMs",
+      "venue": "arXiv 2026",
+      "topic": "efficient_reasoning_agent",
+      "arxiv": "2609.33885",
+      "doi": "",
+      "official_id": "arXiv:2609.33885",
+      "paper_url": "https://arxiv.org/abs/2609.33885",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Claw-SWE-Bench: A Benchmark for Evaluating OpenClaw-style Agent Harnesses on Coding Tasks",
       "venue": "arXiv 2026",
       "topic": "efficient_reasoning_agent",
@@ -94531,6 +94917,48 @@
       "directions": [
         "LLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Reliable Replay through Spatial Coherence in Online Continual Learning",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.33725",
+      "doi": "",
+      "official_id": "arXiv:2609.33725",
+      "paper_url": "https://arxiv.org/abs/2609.33725",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Replay allocation operates under limited memory/compute and spans LM tuning/RL, but systems efficiency is secondary.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Collaborative Synthetic Data for Privacy-Preserving Financial Fraud Detection Across Organizational Silos",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.33754",
+      "doi": "",
+      "official_id": "arXiv:2609.33754",
+      "paper_url": "https://arxiv.org/abs/2609.33754",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Collaborative diffusion avoids some organization-side training burden, but main contribution is privacy-preserving fraud data generation.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Diffusion / Flow Acceleration"
       ]
     },
     {
@@ -95594,6 +96022,28 @@
       "is_latest_30d": false,
       "directions": [
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "EpiTransfer: Sparse, Training-Free Long-Range Depth Estimation from Temporal Monocular Aerial Frames",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.33939",
+      "doi": "",
+      "official_id": "arXiv:2609.33939",
+      "paper_url": "https://arxiv.org/abs/2609.33939",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Protected aerial-robot perception: sparse training-free temporal depth estimation avoids model training and works at long range, but primary contribution is geometric robustness rather than foundation-model efficiency.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Sparsity / Pruning",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -97081,6 +97531,27 @@
       "is_latest_30d": false,
       "directions": [
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Optimizing the Phi-2 Small Language Model for Real-time Chatbot Applications Using Parameter-Efficient Fine-Tuning (PEFT) with QLoRA Quantization",
+      "venue": "arXiv 2026",
+      "topic": "Efficient ML / systems",
+      "arxiv": "2609.33927",
+      "doi": "",
+      "official_id": "arXiv:2609.33927",
+      "paper_url": "https://arxiv.org/abs/2609.33927",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Phi-2 QLoRA PEFT chatbot deployment study but lacks rigorous latency/memory comparison.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Quantization"
       ]
     },
     {
@@ -108009,6 +108480,27 @@
       ]
     },
     {
+      "title": "Self-Designed Evaluators and Warm Memory for Long-Horizon Agents",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems",
+      "arxiv": "2609.33717",
+      "doi": "",
+      "official_id": "arXiv:2609.33717",
+      "paper_url": "https://arxiv.org/abs/2609.33717",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "SelfSuite 使用评估器与 warm memory 改善长期 agent 任务，未报告计算效率或 token 节约。",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Do We Really Need KL Divergence for On-Policy Distillation of Large Language Models?",
       "venue": "arXiv 2026",
       "topic": "distributed training/inference",
@@ -108027,6 +108519,50 @@
       "is_latest_30d": false,
       "directions": [
         "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "DCEmbed: Scalable Optimization over Neural Surrogates",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems",
+      "arxiv": "2609.33879",
+      "doi": "",
+      "official_id": "arXiv:2609.33879",
+      "paper_url": "https://arxiv.org/abs/2609.33879",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "DCEmbed 神经 surrogate 嵌入优化避免激活二元变量、提升求解效率，属相邻优化应用。",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "DexTaG: Tactile-as-Guidance in Reinforcement Learning for Dexterous Manipulation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving",
+      "arxiv": "2609.33882",
+      "doi": "",
+      "official_id": "arXiv:2609.33882",
+      "paper_url": "https://arxiv.org/abs/2609.33882",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "DexTaG 灵巧手触觉指导强化学习，属于 Physical AI 动作策略训练邻接方向，未提供 serving 加速。",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -113155,6 +113691,49 @@
       "decision": "P2_RELEVANT_LOW_PRIORITY",
       "tracking_tier": "P2 · Relevant",
       "why": "Reachability is not enough: Diagnosing long-range behavior in GNNs has algorithmic or systems adjacency to the tracked Efficient ML/Physical AI landscape, but the abstract lacks convincing measured resource gains.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Revisiting Diffusion Fine-Tuning for Unsupervised Domain Adaptation",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.33716",
+      "doi": "",
+      "official_id": "arXiv:2609.33716",
+      "paper_url": "https://arxiv.org/abs/2609.33716",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Revisiting Diffusion Fine-Tuning for Unsupervised Domain Adaptation has algorithmic or systems adjacency to the tracked Efficient ML/Physical AI landscape, but the abstract lacks convincing measured resource gains.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Diffusion / Flow Acceleration",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Task-Aware Discretization of Differentiable Logic Gate Networks",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.33747",
+      "doi": "",
+      "official_id": "arXiv:2609.33747",
+      "paper_url": "https://arxiv.org/abs/2609.33747",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Task-Aware Discretization of Differentiable Logic Gate Networks has algorithmic or systems adjacency to the tracked Efficient ML/Physical AI landscape, but the abstract lacks convincing measured resource gains.",
       "published_at": "",
       "updated_at": "",
       "is_latest_30d": false,
@@ -125408,6 +125987,27 @@
       ]
     },
     {
+      "title": "Achieve What You Imagined: Learning to Align Actions with Visual Plans",
+      "venue": "arXiv 26",
+      "topic": "vla_wam,action_flow",
+      "arxiv": "2609.33832",
+      "doi": "",
+      "official_id": "arXiv:2609.33832",
+      "paper_url": "https://arxiv.org/abs/2609.33832",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Official arXiv abstract and systems evidence reviewed for targeted Physical-AI recall. on (FPO) to optimize the action head of the WAM. This framework avoids online robot interaction and additional training of task-specific reward models. Across four real-world UR5 manipulation tasks, our method increases the mean success rate from 43.4% to 75.1%, compared with 61.4% for $π_{0.5}$. These results show that cross-model prediction discrepancy can provide useful feedback for improving robot policies under the evaluated manipulation tasks. Website: https://imagine-to-achieve.github.io/",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Where Do Embodied Decisions Come From? Rethinking Latent and Explicit Reasoning",
       "venue": "arXiv 26",
       "topic": "vla_wam",
@@ -126840,6 +127440,27 @@
       "directions": [
         "LLM Serving",
         "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "Oracle-Efficient Online Classification with Stochastic Inputs and Adversarial Outputs",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.33760",
+      "doi": "",
+      "official_id": "arXiv:2609.33760",
+      "paper_url": "https://arxiv.org/abs/2609.33760",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Oracle-efficient online learning theory, not model serving.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving"
       ]
     },
     {

@@ -1,10 +1,10 @@
 # 08 · GPU Kernel / DSL / Compiler
 
-> **1023 canonical papers** mapped here, plus a broader **425-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **1023 canonical papers** mapped here, plus a broader **424-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 425 tracked
+## 🆕 Latest 30 Days · 424 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -381,8 +381,6 @@
 | **P2 · Relevant** | **Faultless: A Program Equivalence Technique for Validating and Evaluating Neural Decompilers** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34089) | — |
 | **P1 · Watch** | **FLARE: Flow Matching with Local Axis-Angle Representations for Stochastic Micromagnetic Evolution** | arXiv 2026 | flow acceleration / efficient multimodal reasoning | [Link](https://arxiv.org/abs/2609.34070) | — |
 | **P1 · Watch** | **ICMAPE: In-Context Multiagent Pure Exploration** | arXiv 2026 | Efficient ML / Physical AI | [Link](https://arxiv.org/abs/2609.33986) | — |
-| **P1 · Watch** | **Validating Memory-Optimal Transformer Kernels on Real Hardware: From Formal Derivation to Measured Performance Across Two HPC Clusters** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33916) | — |
-| **P1 · Watch** | **Annealed Sinkhorn with Momentum: Certified Unregularized Optimal Transport in Linear Memory** | arXiv 2026 | GPU kernel/DSL/compilers | [Link](https://arxiv.org/abs/2609.33814) | — |
 | **P1 · Watch** | **Web Scale on a Budget: Tail-Aware Retrieval Evaluation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17986) | — |
 | **P1 · Watch** | **Weave Mamba Fusion: Global Cross-Scale Interaction for Lightweight Face Detection** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.05865) | — |
 | **P2 · Relevant** | **Transferable Adversarial Robustness for Speech Foundation Models via Hierarchical Stabilization** | arXiv 2026 | edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2610.05310) | — |
@@ -403,6 +401,7 @@
 | **P2 · Relevant** | **Multi-Scale Latent Temporal Compression Attention and Video-Text Cross Attention Fusion for Video Action Detection** | arXiv |  | [Link](https://arxiv.org/abs/2610.29176) | — |
 | **P1 · Watch** | **MMVistaReason: Toward Open-Data and Post-Training Recipes for Multimodal Reasoning** | arXiv 2026 | multimodal/MLLM serving | [Link](https://arxiv.org/abs/2610.01352) | — |
 | **P2 · Relevant** | **Making Task Abstractions Executable: Control-Aware Layout Repair for a Fixed Controller** | arXiv 2026 | llm_serving,kernel,gen | [Link](https://arxiv.org/abs/2610.10281) | — |
+| **P2 · Relevant** | **Lightweight Change Detection for Adaptive Collective Perception in Dynamic Environments** | arXiv 2026 | resource-constrained swarm robotics; online perception | [Link](https://arxiv.org/abs/2610.34059) | — |
 | **P2 · Relevant** | **Latent-MOPD: Latent Multi-Teacher On-Policy Distillation** | Fresh / preprint | Efficient Reasoning / Agents | [Link](https://arxiv.org/abs/2610.02381) | — |
 | **P2 · Relevant** | **Knowing When to Trust a Prior: Reliability-Gated Cue Fusion for Video Gaze Prediction** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.08663) | — |
 | **P0 · Strong** | **GraniKV: Asymmetric Granularity KV-Cache Paging for Multi-Agent Systems with Long Shared Prefix** | Fresh / preprint | KV-cache paging / multi-agent serving | [Link](https://arxiv.org/abs/2608.15584) | — |

@@ -1,10 +1,10 @@
 # 11 · Video / Image Generation
 
-> **435 canonical papers** mapped here, plus a broader **212-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **435 canonical papers** mapped here, plus a broader **211-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 212 tracked
+## 🆕 Latest 30 Days · 211 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -169,7 +169,6 @@
 | **P1 · Watch** | **Geometry as Address: Routing Attention to Visual Memory for Long-Horizon Camera-Controlled Video Generation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34722) | — |
 | **P1 · Watch** | **Rate-Distortion Adaptive Primitive Selection for Omnidirectional Gaussian Splatting** | arXiv 2026 | video/image generation acceleration | [Link](https://arxiv.org/abs/2609.34367) | — |
 | **P1 · Watch** | **AGILE-GS: Anchor-Guided Fast Next-Best-View Selection for Active 3D Gaussian Splatting** | arXiv 2026 | physical_ai | [Link](https://arxiv.org/abs/2609.34176) | — |
-| **P1 · Watch** | **Gaussian Splatting-based Volumetric Video Compression with Sparse 4D Anchors** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33969) | — |
 | **P2 · Relevant** | **YUBI-Real2Sim: 3DGS Scene Verification for Reliable Policy Evaluation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17521) | — |
 | **P2 · Relevant** | **VINCIE-NExT: Unlocking Video Editing from Images via In-Context Modeling** | arXiv 2026 | video/image generation acceleration | [Link](https://arxiv.org/abs/2610.12104) | — |
 | **P2 · Relevant** | **VIEScore2: Unified Image Evaluation with Spatially Grounded Explanations** | arXiv 2026 | video/image generation acceleration | [Link](https://arxiv.org/abs/2610.00994) | — |

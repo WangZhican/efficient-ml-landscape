@@ -1,10 +1,10 @@
 # 14 · VLA / WAM / Physical AI
 
-> **639 canonical papers** mapped here, plus a broader **1901-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **639 canonical papers** mapped here, plus a broader **1893-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 1901 tracked
+## 🆕 Latest 30 Days · 1893 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -1511,15 +1511,6 @@
 | **P0 · Strong** | **Quantile Head for Vision-Language-Action Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34061) | — |
 | **P1 · Watch** | **3D Point Tracking with State Space Models** | arXiv 2026 | physical_ai | [Link](https://arxiv.org/abs/2609.34035) | — |
 | **P1 · Watch** | **ICMAPE: In-Context Multiagent Pure Exploration** | arXiv 2026 | Efficient ML / Physical AI | [Link](https://arxiv.org/abs/2609.33986) | — |
-| **P0 · Strong** | **ReSync: Re-Aligning the Two Clocks of Asynchronous World-Action Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33944) | — |
-| **P2 · Relevant** | **EpiTransfer: Sparse, Training-Free Long-Range Depth Estimation from Temporal Monocular Aerial Frames** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33939) | — |
-| **P2 · Relevant** | **DexTaG: Tactile-as-Guidance in Reinforcement Learning for Dexterous Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2609.33882) | — |
-| **P1 · Watch** | **Robot-GST: geometry-aware spatial-temporal robot policy representation and evaluation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33872) | — |
-| **P2 · Relevant** | **Achieve What You Imagined: Learning to Align Actions with Visual Plans** | arXiv 26 | vla_wam,action_flow | [Link](https://arxiv.org/abs/2609.33832) | — |
-| **P1 · Watch** | **Principal Steering Subspaces for Online Adaptation of Frozen Generative Robot Policies** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33765) | — |
-| **P0 · Strong** | **AnyStep-WAM: Budget-Aligned Distillation and Adaptive Inference for World Action Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33748) | — |
-| **P2 · Relevant** | **Task-Aware Discretization of Differentiable Logic Gate Networks** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33747) | — |
-| **P2 · Relevant** | **Revisiting Diffusion Fine-Tuning for Unsupervised Domain Adaptation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33716) | — |
 | **P0 · Strong** | **Zetta: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence** | Fresh / preprint | Physical AI / embodied runtime | [Link](https://arxiv.org/abs/2608.16590) | — |
 | **P2 · Relevant** | **YUBI-Real2Sim: 3DGS Scene Verification for Reliable Policy Evaluation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17521) | — |
 | **P2 · Relevant** | **XAI-Guided Fourier Domain Generalisation for Pure-Simulation Sim-to-Real Deep Reinforcement Learning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16478) | — |
@@ -1703,6 +1694,7 @@
 | **P2 · Relevant** | **LLM2R: From Large Language Models to 3D Reassemblers** | arXiv 26 | 3D embodied reasoning adjacent | [Link](https://arxiv.org/abs/2610.18604) | — |
 | **P2 · Relevant** | **LLM-Based Exogenous World Modeling for Dynamic Scheduling** | arXiv 2026 | llm_serving,physical | [Link](https://arxiv.org/abs/2610.29308) | — |
 | **P2 · Relevant** | **LiLib: Lifelong Air-to-Ground Path-Loss Prediction on UAVs via a Drift-Triggered Model Library** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.07111) | — |
+| **P2 · Relevant** | **Lightweight Change Detection for Adaptive Collective Perception in Dynamic Environments** | arXiv 2026 | resource-constrained swarm robotics; online perception | [Link](https://arxiv.org/abs/2610.34059) | — |
 | **P2 · Relevant** | **LiDAR Resolution Recovery via Foundation-Model-Guided Diffusion** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.08620) | — |
 | **P0 · Strong** | **LeWAM: End-to-End World and Action Modeling with JEPAs** | arXiv 2026 | vla_physical_ai_serving | [Link](https://arxiv.org/abs/2610.12818) | — |
 | **P2 · Relevant** | **Let the Mind Conceive, Let the Hand Achieve: Following Multimodal Instructions for Long-Horizon Robotic Manipulation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18352) | — |
@@ -1910,7 +1902,7 @@
 | **P2 · Relevant** | **$λ_0$: Scaling Open-World Egocentric Human Data for Humanoid Loco-Manipulation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18950) | — |
 | **P1 · Watch** | **$\Psi$-0.6: Adaptive Streams of Thought in a Unified Vision-Language World Model** | arXiv 2026 | physical_ai | [Link](https://arxiv.org/abs/2610.32177) | — |
 
-## 🏛️ Classical / Historical · 435 canonical
+## 🏛️ Classical / Historical · 437 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -1933,6 +1925,7 @@
 | **Canonical** | **Aim Short to Reach Far: Your Frozen World Model Can Plan Better Than You Think** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.30036) | — |
 | **Canonical** | **Anatomy of a Closed-Loop Collapse: A Causal Case Study of a Compressed VLA Policy** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2609.23048) | — |
 | **Canonical** | **Anchor3R: Streaming 3D Reconstruction with Transient Anchors for Long-Horizon Visual Mapping** | arXiv 2026 | physical_ai | [Link](https://arxiv.org/abs/2606.05035) | [Repo](https://github.com/polar-explorer/Anchor3R) |
+| **Canonical** | **AnyStep-WAM: Budget-Aligned Distillation and Adaptive Inference for World Action Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33748) | — |
 | **Canonical** | **AquaWAM: A Dynamics-aware World Action Model for Underwater Embodied Agents** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33299) | — |
 | **Canonical** | **ArborSplat: Online Semantic Gaussian Splatting SLAM for Orchards** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.26315) | — |
 | **Canonical** | **Artic-O: End-to-End Articulated Object Reconstruction via Latent Geometry Learning** | arXiv 2026 | physical_ai | [Link](https://arxiv.org/abs/2606.21938) | — |
@@ -2068,6 +2061,7 @@
 | **Canonical** | **Reinforcement Learning for Real-Time Vision-Language-Action Policies** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.18207) | — |
 | **Canonical** | **RelateAnything: Real-Time Open-Vocabulary Relation Prediction From Any Inputs** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.12552) | — |
 | **Canonical** | **Resolving State-Representation Mismatch: State-Space Visual Reasoning for Open-Loop VLA Planning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33412) | — |
+| **Canonical** | **ReSync: Re-Aligning the Two Clocks of Asynchronous World-Action Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33944) | — |
 | **Canonical** | **Rethinking the State Update Gate for Long-Sequence Recurrent 3D Reconstruction** | arXiv 2026 | physical_ai | [Link](https://arxiv.org/abs/2605.16981) | — |
 | **Canonical** | **Retriever: Composing the Perception-Reasoning-Action Loop for Long-Horizon Manipulation** | arXiv 2026 | physical_ai | [Link](https://arxiv.org/abs/2607.17213) | — |
 | **Canonical** | **rMuscle: Robotic Muscle Memory for Efficient Vision-Language-Action Model Inference** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.19104) | — |
@@ -2350,7 +2344,7 @@
 | **Canonical** | **FlashVLA: Streaming Action Decoding for Fast and Asynchronous VLA Inference** | Fresh / preprint | Physical AI / VLA serving / streaming action decoding | [Link](https://arxiv.org/abs/2608.27384) | — |
 | **Canonical** | **Just Noticeable Difference Modeling for Token Compression in Vision-Language-Action Models** | Fresh / preprint | Physical AI / VLA token compression / KV reuse / pruning | [Link](https://arxiv.org/abs/2608.21247) | — |
 
-## 🛡️ Protected historical P1 watch · 996
+## 🛡️ Protected historical P1 watch · 998
 
 [Browse the permanent Physical AI watch archive](PHYSICAL_AI_PROTECTED_WATCH.md) · [JSON](../data/physical_ai_protected_watch_archive.json)
 

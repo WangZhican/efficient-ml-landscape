@@ -1,10 +1,10 @@
 # 05 · Sparsity / Pruning
 
-> **674 canonical papers** mapped here, plus a broader **418-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **674 canonical papers** mapped here, plus a broader **413-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 418 tracked
+## 🆕 Latest 30 Days · 413 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -394,11 +394,6 @@
 | **P1 · Watch** | **Learning Perturbation Robust Policies for LLM Agents with Stable Optimization** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34064) | — |
 | **P1 · Watch** | **Counterexamples to Local Reconstruction Gain as a Proxy for Final Fidelity in Residual Completion** | arXiv 2026 | efficient attention | [Link](https://arxiv.org/abs/2609.34063) | — |
 | **P0 · Strong** | **SCOPD: Sparse-Context On-Policy Self-Distillation for Efficient Vision-Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34044) | — |
-| **P1 · Watch** | **GroupMask: Layer-Adaptive Group-wise Sparsity for Semi-Structured LLM Pruning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33977) | — |
-| **P1 · Watch** | **Gaussian Splatting-based Volumetric Video Compression with Sparse 4D Anchors** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33969) | — |
-| **P2 · Relevant** | **EpiTransfer: Sparse, Training-Free Long-Range Depth Estimation from Temporal Monocular Aerial Frames** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33939) | — |
-| **P0 · Strong** | **Where Activation Sparsity and KV-Cache Sparsity Cross in LLM Decoding** | arXiv 2026 | LLM sparsity / KV cache | [Link](https://arxiv.org/abs/2609.33889) | — |
-| **P1 · Watch** | **PQ-HSA: Reusing Product-Quantized Scores for Hybrid Sparse-Approximate Attention** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33746) | — |
 | **P2 · Relevant** | **TRIM-ReID: Duplication-Aware Token Reduction and Modality-Aligned Interaction for Multi-Modal Object Re-Identification** | arXiv 2026 | multimodal/MLLM serving | [Link](https://arxiv.org/abs/2610.04361) | — |
 | **P2 · Relevant** | **Train An Imaginative Agent** | arXiv 2026 | agent,physical | [Link](https://arxiv.org/abs/2610.26845) | — |
 | **P2 · Relevant** | **Towards Automatically Pruning Logging Code with Coding Agents: How Far Are We?** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04716) | — |
@@ -427,7 +422,7 @@
 | **P0 · Strong** | **AViTS: Adaptive Spatiotemporal Token Selection for Efficient Dynamic-Resolution Generation** | Fresh / preprint | diffusion/image generation acceleration / adaptive token selection | [Link](https://arxiv.org/abs/2608.17995) | — |
 | **P0 · Strong** | **AutoPruner: Agentic Depth Pruning for Vision-Language-Action Models** | arXiv 2026 | VLA model pruning | [Link](https://arxiv.org/abs/2610.23880) | — |
 
-## 🏛️ Classical / Historical · 539 canonical
+## 🏛️ Classical / Historical · 540 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -579,6 +574,7 @@
 | **Canonical** | **Vortex: Bridging Extreme Compression and Efficient LLM Inference** | arXiv 2026 | quantization / sparsity / LLM accelerator / compressed inference | [Link](https://arxiv.org/abs/2609.12208) | — |
 | **Canonical** | **Vortex: Efficient and Programmable Sparse Attention Serving for AI Agents** | arXiv 2026 | efficient attention / sparse attention serving / LLM serving / agent systems / GPU kernels | [Link](https://arxiv.org/abs/2606.06453) | [Repo](https://github.com/Infini-AI-Lab/vortex_torch) |
 | **Canonical** | **When Load-Balancing Goes Too Far: Expert Pruning in Over-Dispersed Mixture-of-Experts Models** | arXiv 2026 | MoE systems / expert pruning / inference memory reduction / routing dispersion | [Link](https://arxiv.org/abs/2609.04453) | — |
+| **Canonical** | **Where Activation Sparsity and KV-Cache Sparsity Cross in LLM Decoding** | arXiv 2026 | LLM sparsity / KV cache | [Link](https://arxiv.org/abs/2609.33889) | — |
 | **Canonical** | **Window-Diffusion: Accelerating Diffusion Language Model Inference with Windowed Token Pruning and Caching** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2601.20332) | — |
 | **Canonical** | **You Only Need 2/3 of the Chosen Experts: An Empirical Study of Dynamic Expert Pruning in Fine-Grained MoE LLMs** | arXiv 2026 | MoE systems/accelerators | [Link](https://arxiv.org/abs/2609.25809) | — |
 | **Canonical** | **PointAcc: Efficient Point Cloud Accelerator** | arXiv 21 | hardware accelerators,Physical AI serving,edge AI | [Link](https://arxiv.org/abs/2110.07600) | [Repo](https://hanlab.mit.edu/projects/pointacc) |

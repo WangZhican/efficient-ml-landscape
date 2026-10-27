@@ -6101,6 +6101,27 @@
     ]
   },
   {
+    "title": "Robot-GST: geometry-aware spatial-temporal robot policy representation and evaluation",
+    "venue": "arXiv 2026",
+    "topic": "",
+    "arxiv": "2609.33872",
+    "doi": "",
+    "official_id": "arXiv:2609.33872",
+    "paper_url": "https://arxiv.org/abs/2609.33872",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "Official arXiv abstract presents a real-to-sim verification runtime for robot policies using Gaussian-SAM simulation before execution; protected Physical-AI runtime scope.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Robostral Navigate",
     "venue": "arXiv 2026",
     "topic": "Physical AI / embodied navigation / training-time prefix caching",
@@ -7687,6 +7708,27 @@
       "Distributed Training / Inference",
       "Multimodal / MLLM Serving",
       "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Principal Steering Subspaces for Online Adaptation of Frozen Generative Robot Policies",
+    "venue": "arXiv 2026",
+    "topic": "",
+    "arxiv": "2609.33765",
+    "doi": "",
+    "official_id": "arXiv:2609.33765",
+    "paper_url": "https://arxiv.org/abs/2609.33765",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
       "VLA / WAM / Physical AI"
     ]
   },

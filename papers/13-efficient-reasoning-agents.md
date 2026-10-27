@@ -1,10 +1,10 @@
 # 13 · Efficient Reasoning / Agents
 
-> **1016 canonical papers** mapped here, plus a broader **1812-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **1016 canonical papers** mapped here, plus a broader **1804-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 1812 tracked
+## 🆕 Latest 30 Days · 1804 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -1458,14 +1458,6 @@
 | **P2 · Relevant** | **Maat: Independent Deterministic Contract-Based Governance for Multi-Agent LLM Workflows** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2609.34017) | — |
 | **P1 · Watch** | **ICMAPE: In-Context Multiagent Pure Exploration** | arXiv 2026 | Efficient ML / Physical AI | [Link](https://arxiv.org/abs/2609.33986) | — |
 | **P2 · Relevant** | **DynGraphAgentBench: A Benchmark for Agentic Lifecycle Control in Dynamic Graph Anomaly Detection** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33980) | — |
-| **P0 · Strong** | **On the Token Value Inequality in Efficient Reasoning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33970) | — |
-| **P2 · Relevant** | **Prospective Interpretation Risk: Principled Communication Control Between LLMs** | arXiv 2026 | efficient_reasoning_agent | [Link](https://arxiv.org/abs/2609.33885) | — |
-| **P2 · Relevant** | **DexTaG: Tactile-as-Guidance in Reinforcement Learning for Dexterous Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2609.33882) | — |
-| **P0 · Strong** | **Evidence-Inference Reconstruction: When The Evidence Is Recalled But The Reasoning Goes Wrong** | arXiv 2026 | efficient_reasoning_agent | [Link](https://arxiv.org/abs/2609.33778) | — |
-| **P0 · Strong** | **DEALS: Decentralized Expertise-Aware Load Serving for Multi-Agent LLM Systems** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33768) | — |
-| **P0 · Strong** | **EfficientAgent: What Makes KV Cache Offloading Work for Concurrent Agents?** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33762) | — |
-| **P1 · Watch** | **HTN Planning as a Coordination Layer for Multi-Server MCP Tool Orchestration** | arXiv 2026 | efficient_reasoning_agent | [Link](https://arxiv.org/abs/2609.33731) | — |
-| **P2 · Relevant** | **Self-Designed Evaluators and Warm Memory for Long-Horizon Agents** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2609.33717) | — |
 | **P2 · Relevant** | **Zero-Shot Visualization: Exploring Text Corpora with User-Prompted Axes** | arXiv 2026 | efficient_reasoning_agent_systems | [Link](https://arxiv.org/abs/2610.06889) | — |
 | **P2 · Relevant** | **XAI-Guided Fourier Domain Generalisation for Pure-Simulation Sim-to-Real Deep Reinforcement Learning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16478) | — |
 | **P1 · Watch** | **WOVEN: Weaving Visual World Modeling into Multimodal LLMs** | arXiv 2026 | multimodal,physical | [Link](https://arxiv.org/abs/2610.12417) | — |
@@ -1821,7 +1813,7 @@
 | **P2 · Relevant** | **A Privileged Teacher That Only Scores Cannot Search: Critique-Conditioned On-Policy Self-Distillation for Reasoning** | arXiv 2026 | efficient_reasoning_agents | [Link](https://arxiv.org/abs/2610.13744) | — |
 | **P2 · Relevant** | **A Local Agentic AI Framework to Generate Edge Case Scenarios for Safety Assurance** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.13479) | — |
 
-## 🏛️ Classical / Historical · 769 canonical
+## 🏛️ Classical / Historical · 773 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -1911,6 +1903,7 @@
 | **Canonical** | **CUA-Sandbox: Efficient Environments for Computer-Use Agent Reinforcement Learning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.32750) | — |
 | **Canonical** | **CUA-Universe: A Scalable and Dynamic Environment for Hybrid GUI+CLI Agents** | arXiv 2026 | efficient reasoning/agent systems / computer-use agents / GUI+CLI runtime / trajectory efficiency | [Link](https://arxiv.org/abs/2609.05374) | — |
 | **Canonical** | **DAGent: Evaluate-then-Grow Planning for Deep Research Agents** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.39154) | — |
+| **Canonical** | **DEALS: Decentralized Expertise-Aware Load Serving for Multi-Agent LLM Systems** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33768) | — |
 | **Canonical** | **Deconstructing Off-Policy Ratios: Entropy-Normalized Trust Regions for Asynchronous Reinforcement Learning** | arXiv 2026 | agent | [Link](https://arxiv.org/abs/2607.22186) | — |
 | **Canonical** | **Decoupling Readiness from Release for Tail-Aware Scheduling of Agentic LLM Workflows** | arXiv 2026 | efficient reasoning/agent systems / workflow serving scheduler | [Link](https://arxiv.org/abs/2609.10964) | — |
 | **Canonical** | **DeepSeek Elastic Compute (DSec): A Sandbox Infrastructure for Effective Agentic Training at Scale** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.22978) | — |
@@ -1937,10 +1930,12 @@
 | **Canonical** | **Efficient On-Device Agents via Adaptive Context Management** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2511.03728) | — |
 | **Canonical** | **Efficient Reasoning Distillation: Small Video-Language Models via Synthetic CoT and Difficulty-Aware Fine-Tuning** | arXiv 2026 | multimodal,distillation,edge_ai | [Link](https://arxiv.org/abs/2609.16255) | — |
 | **Canonical** | **Efficient Reasoning Exploration via State-Conditioned Latent Steering with Progress Guidance** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.24066) | — |
+| **Canonical** | **EfficientAgent: What Makes KV Cache Offloading Work for Concurrent Agents?** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33762) | — |
 | **Canonical** | **Efficiently Linking Unstructured Data for Multi-step Reasoning** | arXiv 2026 | agent_retrieval_engine | [Link](https://arxiv.org/abs/2609.19491) | — |
 | **Canonical** | **Entropy Can Flow, or It Can Guide. Be Entropy. LEDFlow: Introducing Entropy-guided Generation Order into Uniform Discrete Flow** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.25131) | — |
 | **Canonical** | **EpiKV: Epiphany-Aware KV Cache Eviction Without the Attention Matrix** | arXiv 2026 | KV cache / long-context | [Link](https://arxiv.org/abs/2606.26472) | — |
 | **Canonical** | **Even Small Reasoners Should Quote Their Sources: Introducing the Pleias-RAG Model Family** | arXiv 2026 | LLM serving | [Link](https://arxiv.org/abs/2504.18225) | — |
+| **Canonical** | **Evidence-Inference Reconstruction: When The Evidence Is Recalled But The Reasoning Goes Wrong** | arXiv 2026 | efficient_reasoning_agent | [Link](https://arxiv.org/abs/2609.33778) | — |
 | **Canonical** | **EviRCA: Decoupling Evidence Extraction from Reasoning for Microservice Root-Cause Analysis** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.19825) | — |
 | **Canonical** | **ExpBoN: Exponential-Noise Best-of-$n$ for Efficient Test-Time LLM Alignment** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.21899) | — |
 | **Canonical** | **Extending FunctionGemma for Practical On-Device Mobile Function Calling** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.25373) | — |
@@ -2042,6 +2037,7 @@
 | **Canonical** | **OCTN: Neural OCT Representations for Robot-Guided Precision Intervention** | arXiv 2026 | VLA/WAM/Physical AI serving / edge/GPU runtime / robot-guided intervention | [Link](https://arxiv.org/abs/2609.06810) | [Repo](https://raprakashvi.github.io/octn) |
 | **Canonical** | **OctoNest: Adaptive Cross-Device Execution through Stateful Control** | arXiv 2026 | edge_cloud | [Link](https://arxiv.org/abs/2606.20487) | — |
 | **Canonical** | **Octopus v2: On-device language model for super agent** | arXiv 2026 | edge_cloud | [Link](https://arxiv.org/abs/2404.01744) | — |
+| **Canonical** | **On the Token Value Inequality in Efficient Reasoning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33970) | — |
 | **Canonical** | **OneFixer: High-Quality and Consistent One-Step Autoregressive 3DGS Refinement for Driving Scenes** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2609.32175) | — |
 | **Canonical** | **Online Draft Co-Training for Speculative Decoding in Large-Scale, Long-Context RL Post-Training** | arXiv 2026 | speculative decoding / RL post-training / context parallelism / pipeline parallelism | [Link](https://arxiv.org/abs/2609.07108) | [Repo](https://github.com/NVIDIA-NeMo/RL) |
 | **Canonical** | **OpenPhone: Mobile Agentic Foundation Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2510.22009) | — |

@@ -1,10 +1,10 @@
 # 04 · Quantization
 
-> **621 canonical papers** mapped here, plus a broader **617-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **621 canonical papers** mapped here, plus a broader **612-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 617 tracked
+## 🆕 Latest 30 Days · 612 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -538,11 +538,6 @@
 | **P2 · Relevant** | **Quantitative Measurement of Language Distance among Closely Related Indo-European Languages Using Pretrained Language Models: A Case Study on the North Germanic Branch** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34152) | — |
 | **P1 · Watch** | **Learning Perturbation Robust Policies for LLM Agents with Stable Optimization** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34064) | — |
 | **P0 · Strong** | **Quantile Head for Vision-Language-Action Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34061) | — |
-| **P2 · Relevant** | **Optimizing the Phi-2 Small Language Model for Real-time Chatbot Applications Using Parameter-Efficient Fine-Tuning (PEFT) with QLoRA Quantization** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2609.33927) | — |
-| **P0 · Strong** | **Quantization Error Is Spectrally Flat: A Single Random Probe Is a Calibrated, Data-Free Sensitivity Estimator, with Application to Budget-Targeted Mixed-Precision Quantization** | arXiv 2026 | quantization,mixed_precision | [Link](https://arxiv.org/abs/2609.33923) | — |
-| **P0 · Strong** | **Faster Block-Diffusion Serving with Distribution-Free Risk Guarantees** | arXiv 2026 | diffusion language model serving | [Link](https://arxiv.org/abs/2609.33887) | — |
-| **P1 · Watch** | **PQ-HSA: Reusing Product-Quantized Scores for Hybrid Sparse-Approximate Attention** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33746) | — |
-| **P2 · Relevant** | **A Statistical Perspective on Knowledge Distillation: Foundations, Classical Methods, and Large Language Model Extensions** | arXiv 2026 | distillation,quantization | [Link](https://arxiv.org/abs/2609.33727) | — |
 | **P1 · Watch** | **YOCO: You Only Calibrate Once! Fast Mocap Calibration for Dexterous Teleoperation** | arXiv 2026 | llm_serving,gen,edge | [Link](https://arxiv.org/abs/2610.11657) | — |
 | **P1 · Watch** | **Where Do the Tokens Go? Understanding and Reducing Costs in LLM Agents for Vulnerability Discovery** | arXiv 2026 | llm_serving,gen,edge | [Link](https://arxiv.org/abs/2610.11602) | — |
 | **P1 · Watch** | **Universal Byte-Level Encoding: UTF-8/UTF-16 Routing to Reduce Cross-Script Token-Budget Disparities** | arXiv 2026 | LLM serving | [Link](https://arxiv.org/abs/2610.01984) | — |
@@ -626,7 +621,7 @@
 | **P1 · Watch** | **A Geometric Decision Procedure for STL Feasibility and Repair** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.00199) | — |
 | **P2 · Relevant** | **A Fine-Grained Analysis of the LoRA Fine-Tuning Landscape with Implications for Data Selection** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2610.06542) | — |
 
-## 🏛️ Classical / Historical · 461 canonical
+## 🏛️ Classical / Historical · 463 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -683,6 +678,7 @@
 | **Canonical** | **EviRCA: Decoupling Evidence Extraction from Reasoning for Microservice Root-Cause Analysis** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.19825) | — |
 | **Canonical** | **Exact Quantile Balancing and Load-Error Injection for Mixture-of-Experts** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.28053) | — |
 | **Canonical** | **FAME: An FPGA-Based Platform for Approximate Multipliers Evaluation with Pattern-Guided DNN Retraining** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.17730) | — |
+| **Canonical** | **Faster Block-Diffusion Serving with Distribution-Free Risk Guarantees** | arXiv 2026 | diffusion language model serving | [Link](https://arxiv.org/abs/2609.33887) | — |
 | **Canonical** | **FastKron: Efficient Quantization with Kronecker-Factored Hessians** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2608.06291) | — |
 | **Canonical** | **FoldQuantVLA: Native Low-Bit Quantization of Vision-Language-Action Models via Consistent Folding** | arXiv 2026 | VLA quantization/Physical AI | [Link](https://arxiv.org/abs/2609.24433) | — |
 | **Canonical** | **From Mono to Stereo: Accelerating Binocular Gaussian Splatting via Reprojection and Selective Patching** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.30741) | — |
@@ -731,6 +727,7 @@
 | **Canonical** | **Q-ARVD: Quantizing Autoregressive Video Diffusion Models** | arXiv 2026 | video generation acceleration; autoregressive video diffusion; quantization; Triton kernels | [Link](https://arxiv.org/abs/2605.21072) | [Repo](https://github.com/tsa18/Q-ARVD) |
 | **Canonical** | **Q-Drift: Quantization-Aware Drift Correction for Diffusion Model Sampling** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2603.18095) | — |
 | **Canonical** | **Q-WAM: 4-Bit Quantization of World Action Models with Action-Subspace Protection** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33269) | — |
+| **Canonical** | **Quantization Error Is Spectrally Flat: A Single Random Probe Is a Calibrated, Data-Free Sensitivity Estimator, with Application to Budget-Targeted Mixed-Precision Quantization** | arXiv 2026 | quantization,mixed_precision | [Link](https://arxiv.org/abs/2609.33923) | — |
 | **Canonical** | **Quantization-Aware Kalman Estimation for Diffusion Sampling** | arXiv 2026 | diffusion/flow acceleration / quantization | [Link](https://arxiv.org/abs/2609.21407) | — |
 | **Canonical** | **Quantization-Aware Pre-Training with Constrained Empirical Weight Distribution** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.32659) | — |
 | **Canonical** | **Quantizing Looped Transformers: Feedback Exposure and Calibration Blindness** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.30820) | — |

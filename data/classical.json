@@ -4857,6 +4857,27 @@
     ]
   },
   {
+    "title": "AnyStep-WAM: Budget-Aligned Distillation and Adaptive Inference for World Action Models",
+    "venue": "arXiv 2026",
+    "topic": "",
+    "arxiv": "2609.33748",
+    "doi": "",
+    "official_id": "arXiv:2609.33748",
+    "paper_url": "https://arxiv.org/abs/2609.33748",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Apple Neural Engine: Architecture, Programming, and Performance",
     "venue": "arXiv 2026",
     "topic": "llm_serving,kernel,edge",
@@ -8309,6 +8330,28 @@
     ]
   },
   {
+    "title": "DEALS: Decentralized Expertise-Aware Load Serving for Multi-Agent LLM Systems",
+    "venue": "arXiv 2026",
+    "topic": "",
+    "arxiv": "2609.33768",
+    "doi": "",
+    "official_id": "arXiv:2609.33768",
+    "paper_url": "https://arxiv.org/abs/2609.33768",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "Decoder-Agnostic Token Merging for Vision Transformers: A Systematic Study of G2TM",
     "venue": "arXiv 2026",
     "topic": "",
@@ -10553,6 +10596,29 @@
     ]
   },
   {
+    "title": "EfficientAgent: What Makes KV Cache Offloading Work for Concurrent Agents?",
+    "venue": "arXiv 2026",
+    "topic": "",
+    "arxiv": "2609.33762",
+    "doi": "",
+    "official_id": "arXiv:2609.33762",
+    "paper_url": "https://arxiv.org/abs/2609.33762",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Studies the conditions under which KV-cache offloading works for concurrent agents; direct agent-serving systems contribution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "Efficiently Distributed Federated Learning",
     "venue": "arXiv 2026",
     "topic": "",
@@ -11197,6 +11263,27 @@
     ]
   },
   {
+    "title": "Evidence-Inference Reconstruction: When The Evidence Is Recalled But The Reasoning Goes Wrong",
+    "venue": "arXiv 2026",
+    "topic": "efficient_reasoning_agent",
+    "arxiv": "2609.33778",
+    "doi": "",
+    "official_id": "arXiv:2609.33778",
+    "paper_url": "https://arxiv.org/abs/2609.33778",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "EviRCA: Decoupling Evidence Extraction from Reasoning for Microservice Root-Cause Analysis",
     "venue": "arXiv 2026",
     "topic": "",
@@ -11663,6 +11750,30 @@
     "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving"
+    ]
+  },
+  {
+    "title": "Faster Block-Diffusion Serving with Distribution-Free Risk Guarantees",
+    "venue": "arXiv 2026",
+    "topic": "diffusion language model serving",
+    "arxiv": "2609.33887",
+    "doi": "",
+    "official_id": "arXiv:2609.33887",
+    "paper_url": "https://arxiv.org/abs/2609.33887",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Official arXiv abstract: risk-calibrated operating-point selection for faster block-diffusion serving; also applies to speculative decoding and weight quantization.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "Quantization",
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
@@ -13376,6 +13487,28 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "GeoShrink: Accelerating Diffusion Transformers with Two Lines of Code",
+    "venue": "arXiv 2026",
+    "topic": "diffusion,video_generation,acceleration",
+    "arxiv": "2609.33723",
+    "doi": "",
+    "official_id": "arXiv:2609.33723",
+    "paper_url": "https://arxiv.org/abs/2609.33723",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Directly advances a core Efficient-ML/serving/Physical-AI efficiency route with a concrete mechanism and strong system or deployment signal in first-party metadata.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
@@ -20010,6 +20143,27 @@
     ]
   },
   {
+    "title": "On the Token Value Inequality in Efficient Reasoning",
+    "venue": "arXiv 2026",
+    "topic": "",
+    "arxiv": "2609.33970",
+    "doi": "",
+    "official_id": "arXiv:2609.33970",
+    "paper_url": "https://arxiv.org/abs/2609.33970",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Direct efficient-reasoning contribution: token-level value proxy and selective compression preserve reasoning quality while reducing token usage by 76% of baseline.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "On-Demand Attention: Language Models Know When to Recall",
     "venue": "arXiv 2026",
     "topic": "",
@@ -22333,6 +22487,28 @@
     ]
   },
   {
+    "title": "Quantization Error Is Spectrally Flat: A Single Random Probe Is a Calibrated, Data-Free Sensitivity Estimator, with Application to Budget-Targeted Mixed-Precision Quantization",
+    "venue": "arXiv 2026",
+    "topic": "quantization,mixed_precision",
+    "arxiv": "2609.33923",
+    "doi": "",
+    "official_id": "arXiv:2609.33923",
+    "paper_url": "https://arxiv.org/abs/2609.33923",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Directly advances a core Efficient-ML/serving/Physical-AI efficiency route with a concrete mechanism and strong system or deployment signal in first-party metadata.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Quantization"
+    ]
+  },
+  {
     "title": "Quantization-Aware Kalman Estimation for Diffusion Sampling",
     "venue": "arXiv 2026",
     "topic": "diffusion/flow acceleration / quantization",
@@ -23458,6 +23634,28 @@
       "LLM Serving",
       "Speculative Decoding",
       "KV Cache / Long Context"
+    ]
+  },
+  {
+    "title": "ReSync: Re-Aligning the Two Clocks of Asynchronous World-Action Models",
+    "venue": "arXiv 2026",
+    "topic": "",
+    "arxiv": "2609.33944",
+    "doi": "",
+    "official_id": "arXiv:2609.33944",
+    "paper_url": "https://arxiv.org/abs/2609.33944",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "High-value protected WAM inference work: training-free schedule-aware compute allocation re-aligns asynchronous world/action denoising, improving RoboCasa success by 4.48 points while an equal-compute waiting control gives no gain.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Diffusion / Flow Acceleration",
+      "VLA / WAM / Physical AI"
     ]
   },
   {
@@ -30106,6 +30304,28 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "Where Activation Sparsity and KV-Cache Sparsity Cross in LLM Decoding",
+    "venue": "arXiv 2026",
+    "topic": "LLM sparsity / KV cache",
+    "arxiv": "2609.33889",
+    "doi": "",
+    "official_id": "arXiv:2609.33889",
+    "paper_url": "https://arxiv.org/abs/2609.33889",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Official arXiv abstract: jointly characterizes activation sparsity and KV-cache sparsity crossover and composition from 2K to 128K contexts on GPUs.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Sparsity / Pruning"
     ]
   },
   {

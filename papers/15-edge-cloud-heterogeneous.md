@@ -1,10 +1,10 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **1060 canonical papers** mapped here, plus a broader **1403-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **1060 canonical papers** mapped here, plus a broader **1394-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 1403 tracked
+## 🆕 Latest 30 Days · 1394 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -1152,16 +1152,6 @@
 | **P2 · Relevant** | **A packet-level digital hardware twin for commissioning megahertz diagnostic edge AI and plasma control system integration in tokamaks** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33994) | — |
 | **P2 · Relevant** | **A Multi-Dataset Benchmark of YOLO-Based Weed Detection in Precision Agriculture** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33991) | — |
 | **P2 · Relevant** | **Adapting neural operators for mechanics decisions under changing operating conditions** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33978) | — |
-| **P2 · Relevant** | **Greenpixie's AI Token Methodology: Assessing the Energy, Water and CO2-eq Impact of AI Tokens for Open and Closed Weight Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33965) | — |
-| **P1 · Watch** | **Green AI: Cost of LLM-Based Code Completion** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33918) | — |
-| **P2 · Relevant** | **DCEmbed: Scalable Optimization over Neural Surrogates** | arXiv 2026 | edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.33879) | — |
-| **P2 · Relevant** | **JET: Justification Evaluation in Transformer** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33874) | — |
-| **P2 · Relevant** | **ReDrive: Shaping Representations with World Modeling for End-to-End Driving** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33854) | — |
-| **P2 · Relevant** | **Performance vs Portability in Heterogeneous HPC Environments: Why Pre-execution Benchmarking is Required** | arXiv 2026 | edge_cloud | [Link](https://arxiv.org/abs/2609.33847) | — |
-| **P1 · Watch** | **dOPT: Differentiating Conic Optimization via Geometric Reduction** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33828) | — |
-| **P1 · Watch** | **Transformer-based Neural Beamforming for Real-Time Speech Enhancement on Smart Low-Power Hearable Devices** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33755) | — |
-| **P2 · Relevant** | **A Statistical Perspective on Knowledge Distillation: Foundations, Classical Methods, and Large Language Model Extensions** | arXiv 2026 | distillation,quantization | [Link](https://arxiv.org/abs/2609.33727) | — |
-| **P2 · Relevant** | **Reliable Replay through Spatial Coherence in Online Continual Learning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33725) | — |
 | **P2 · Relevant** | **ZeroMAG: Zero-Shot Multimodal Adapter Generation for Plug-and-Play EEG Foundation Models** | arXiv 2026 | edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2610.03546) | — |
 | **P2 · Relevant** | **Zatom-2: Multitask Pretraining on Atomistic Data for Generative Modeling across Domains** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.11454) | — |
 | **P2 · Relevant** | **You May Be Running the Wrong Inception Crop** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04147) | — |
@@ -1289,6 +1279,7 @@
 | **P2 · Relevant** | **LoRA Adaptation Strength in Aurora-WRF: Trade-offs in Regional Heavy-Rainfall Forecasting** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.03747) | — |
 | **P2 · Relevant** | **Logit-Aware MIMO AirComp for Distributed Mixture-of-Experts LLM Inference over Wireless Edge Networks** | arXiv 2026 | edge_moe_network | [Link](https://arxiv.org/abs/2610.03741) | — |
 | **P0 · Strong** | **Linear-Time Non-Local Codec Placement for Machine Learning Model Compression** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.14703) | — |
+| **P2 · Relevant** | **Lightweight Change Detection for Adaptive Collective Perception in Dynamic Environments** | arXiv 2026 | resource-constrained swarm robotics; online perception | [Link](https://arxiv.org/abs/2610.34059) | — |
 | **P2 · Relevant** | **Lens3D: Target-Conditioned Visual Foveation for Fine-Grained 3D Understanding** | arXiv 2026 | multimodal/MLLM serving | [Link](https://arxiv.org/abs/2610.06611) | — |
 | **P2 · Relevant** | **LeHami: Symplectic Latent Dynamics for World Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15267) | — |
 | **P2 · Relevant** | **Learning When to Trust Medical Knowledge: Regression-Safe Routing for Clinical Reasoning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19663) | — |

@@ -6722,10 +6722,10 @@
     "physical_ai": false,
     "decision": "PROMOTE_STRONG",
     "why": "",
-    "published_at": "2026-09-27T16:49:05Z",
-    "updated_at": "2026-09-30T10:25:36Z",
-    "is_latest_30d": true,
-    "tracking_tier": "P0 · Strong",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
     "directions": [
       "VLA / WAM / Physical AI"
     ]
@@ -13145,10 +13145,10 @@
     "physical_ai": false,
     "decision": "PROMOTE_STRONG",
     "why": "",
-    "published_at": "2026-09-27T17:09:42Z",
-    "updated_at": "2026-09-27T17:09:42Z",
-    "is_latest_30d": true,
-    "tracking_tier": "P0 · Strong",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving",
       "Efficient Reasoning / Agents"
@@ -17085,10 +17085,10 @@
     "physical_ai": false,
     "decision": "PROMOTE_STRONG",
     "why": "Studies the conditions under which KV-cache offloading works for concurrent agents; direct agent-serving systems contribution.",
-    "published_at": "2026-09-27T17:01:29Z",
-    "updated_at": "2026-09-27T17:01:29Z",
-    "is_latest_30d": true,
-    "tracking_tier": "P0 · Strong",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context",
@@ -18126,10 +18126,10 @@
     "physical_ai": false,
     "decision": "PROMOTE_STRONG",
     "why": "",
-    "published_at": "2026-09-27T17:20:41Z",
-    "updated_at": "2026-09-27T17:20:41Z",
-    "is_latest_30d": true,
-    "tracking_tier": "P0 · Strong",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
     "directions": [
       "Efficient Reasoning / Agents"
     ]
@@ -18859,10 +18859,10 @@
     "physical_ai": false,
     "decision": "PROMOTE_STRONG",
     "why": "Official arXiv abstract: risk-calibrated operating-point selection for faster block-diffusion serving; also applies to speculative decoding and weight quantization.",
-    "published_at": "2026-09-27T20:05:07Z",
-    "updated_at": "2026-09-27T20:05:07Z",
-    "is_latest_30d": true,
-    "tracking_tier": "P0 · Strong",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving",
       "Speculative Decoding",
@@ -21932,10 +21932,10 @@
     "physical_ai": false,
     "decision": "PROMOTE_STRONG",
     "why": "Directly advances a core Efficient-ML/serving/Physical-AI efficiency route with a concrete mechanism and strong system or deployment signal in first-party metadata.",
-    "published_at": "2026-09-27T16:25:30Z",
-    "updated_at": "2026-09-27T16:25:30Z",
-    "is_latest_30d": true,
-    "tracking_tier": "P0 · Strong",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving",
       "Diffusion / Flow Acceleration"
@@ -33575,10 +33575,10 @@
     "physical_ai": false,
     "decision": "PROMOTE_STRONG",
     "why": "Direct efficient-reasoning contribution: token-level value proxy and selective compression preserve reasoning quality while reducing token usage by 76% of baseline.",
-    "published_at": "2026-09-27T22:15:38Z",
-    "updated_at": "2026-09-27T22:15:38Z",
-    "is_latest_30d": true,
-    "tracking_tier": "P0 · Strong",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
     "directions": [
       "Efficient Reasoning / Agents"
     ]
@@ -37724,10 +37724,10 @@
     "physical_ai": false,
     "decision": "PROMOTE_STRONG",
     "why": "Directly advances a core Efficient-ML/serving/Physical-AI efficiency route with a concrete mechanism and strong system or deployment signal in first-party metadata.",
-    "published_at": "2026-09-27T21:03:53Z",
-    "updated_at": "2026-09-29T04:20:41Z",
-    "is_latest_30d": true,
-    "tracking_tier": "P0 · Strong",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving",
       "Quantization"
@@ -39942,10 +39942,10 @@
     "physical_ai": false,
     "decision": "PROMOTE_STRONG",
     "why": "High-value protected WAM inference work: training-free schedule-aware compute allocation re-aligns asynchronous world/action denoising, improving RoboCasa success by 4.48 points while an equal-compute waiting control gives no gain.",
-    "published_at": "2026-09-27T21:38:44Z",
-    "updated_at": "2026-09-27T21:38:44Z",
-    "is_latest_30d": true,
-    "tracking_tier": "P0 · Strong",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
     "directions": [
       "Diffusion / Flow Acceleration",
       "VLA / WAM / Physical AI"
@@ -52672,10 +52672,10 @@
     "physical_ai": false,
     "decision": "PROMOTE_STRONG",
     "why": "Official arXiv abstract: jointly characterizes activation sparsity and KV-cache sparsity crossover and composition from 2K to 128K contexts on GPUs.",
-    "published_at": "2026-09-27T20:11:05Z",
-    "updated_at": "2026-09-27T20:11:05Z",
-    "is_latest_30d": true,
-    "tracking_tier": "P0 · Strong",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
     "directions": [
       "KV Cache / Long Context",
       "Sparsity / Pruning"
