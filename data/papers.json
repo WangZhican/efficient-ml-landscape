@@ -6832,10 +6832,10 @@
     "physical_ai": false,
     "decision": "PROMOTE_STRONG",
     "why": "",
-    "published_at": "2026-09-27T14:03:42Z",
-    "updated_at": "2026-09-27T14:03:42Z",
-    "is_latest_30d": true,
-    "tracking_tier": "P0 · Strong",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
     "directions": [
       "GPU Kernel / DSL / Compiler"
     ]
@@ -11086,10 +11086,10 @@
     "physical_ai": false,
     "decision": "PROMOTE_STRONG",
     "why": "Explicit heterogeneous CPU-NPU confidence cascade optimized under latency and false-positive constraints; strong edge/heterogeneous AI systems fit.",
-    "published_at": "2026-09-27T15:32:15Z",
-    "updated_at": "2026-09-27T15:32:15Z",
-    "is_latest_30d": true,
-    "tracking_tier": "P0 · Strong",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
     "directions": [
       "Edge / Cloud / Heterogeneous AI"
     ]
@@ -14454,10 +14454,10 @@
     "physical_ai": false,
     "decision": "PROMOTE_STRONG",
     "why": "Directly advances a core Efficient-ML/serving/Physical-AI efficiency route with a concrete mechanism and strong system or deployment signal in first-party metadata.",
-    "published_at": "2026-09-27T11:52:58Z",
-    "updated_at": "2026-09-27T11:52:58Z",
-    "is_latest_30d": true,
-    "tracking_tier": "P0 · Strong",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context",
@@ -14941,10 +14941,10 @@
     "physical_ai": false,
     "decision": "PROMOTE_STRONG",
     "why": "",
-    "published_at": "2026-09-27T13:03:38Z",
-    "updated_at": "2026-09-27T13:03:38Z",
-    "is_latest_30d": true,
-    "tracking_tier": "P0 · Strong",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving"
     ]
@@ -16295,10 +16295,10 @@
     "physical_ai": false,
     "decision": "PROMOTE_STRONG",
     "why": "Directly advances a core Efficient-ML/serving/Physical-AI efficiency route with a concrete mechanism and strong system or deployment signal in first-party metadata.",
-    "published_at": "2026-09-27T14:28:53Z",
-    "updated_at": "2026-09-27T14:28:53Z",
-    "is_latest_30d": true,
-    "tracking_tier": "P0 · Strong",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving",
       "Sparsity / Pruning",
@@ -23861,10 +23861,10 @@
     "physical_ai": false,
     "decision": "PROMOTE_STRONG",
     "why": "",
-    "published_at": "2026-09-27T13:47:15Z",
-    "updated_at": "2026-09-27T13:47:15Z",
-    "is_latest_30d": true,
-    "tracking_tier": "P0 · Strong",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
     "directions": [
       "Edge / Cloud / Heterogeneous AI"
     ]
@@ -25789,10 +25789,10 @@
     "physical_ai": false,
     "decision": "PROMOTE_STRONG",
     "why": "Hybrid-LLM prefix caching via bounded suffix replay; SGLang integration reports 15-70% lower median TTFT and 2.3-4.3x throughput beyond HBM working-set capacity.",
-    "published_at": "2026-09-27T11:43:56Z",
-    "updated_at": "2026-09-27T11:43:56Z",
-    "is_latest_30d": true,
-    "tracking_tier": "P0 · Strong",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context"
@@ -25938,10 +25938,10 @@
     "physical_ai": false,
     "decision": "PROMOTE_STRONG",
     "why": "",
-    "published_at": "2026-09-27T14:17:24Z",
-    "updated_at": "2026-09-27T14:17:24Z",
-    "is_latest_30d": true,
-    "tracking_tier": "P0 · Strong",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
     "directions": [
       "Quantization"
     ]
@@ -29620,10 +29620,10 @@
     "physical_ai": false,
     "decision": "PROMOTE_STRONG",
     "why": "Directly decomposes multimodal inference latency and replaces autoregressive decoding with direct decision heads, cutting latency 2.60x-7.27x on Ascend 910C while retaining strong accuracy/calibration.",
-    "published_at": "2026-09-27T15:45:14Z",
-    "updated_at": "2026-09-27T15:45:14Z",
-    "is_latest_30d": true,
-    "tracking_tier": "P0 · Strong",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
     "directions": [
       "Multimodal / MLLM Serving"
     ]
@@ -33745,10 +33745,10 @@
     "physical_ai": false,
     "decision": "PROMOTE_STRONG",
     "why": "Directly advances a core Efficient-ML/serving/Physical-AI efficiency route with a concrete mechanism and strong system or deployment signal in first-party metadata.",
-    "published_at": "2026-09-27T16:00:45Z",
-    "updated_at": "2026-09-27T16:00:45Z",
-    "is_latest_30d": true,
-    "tracking_tier": "P0 · Strong",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving",
       "Diffusion / Flow Acceleration"
@@ -34077,10 +34077,10 @@
     "physical_ai": false,
     "decision": "PROMOTE_STRONG",
     "why": "",
-    "published_at": "2026-09-27T13:36:15Z",
-    "updated_at": "2026-09-27T13:36:15Z",
-    "is_latest_30d": true,
-    "tracking_tier": "P0 · Strong",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
     "directions": [
       "Diffusion / Flow Acceleration"
     ]
@@ -36716,10 +36716,10 @@
     "physical_ai": false,
     "decision": "PROMOTE_STRONG",
     "why": "Official arXiv abstract studies quantized softmax during Transformer pretraining and low-precision attention design with controlled validation-loss gaps.",
-    "published_at": "2026-09-27T14:09:52Z",
-    "updated_at": "2026-10-16T05:42:16Z",
-    "is_latest_30d": true,
-    "tracking_tier": "P0 · Strong",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
     "directions": [
       "Quantization",
       "Efficient Attention"
@@ -39475,10 +39475,10 @@
     "physical_ai": false,
     "decision": "PROMOTE_STRONG",
     "why": "",
-    "published_at": "2026-09-27T12:12:00Z",
-    "updated_at": "2026-09-27T12:12:00Z",
-    "is_latest_30d": true,
-    "tracking_tier": "P0 · Strong",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
     "directions": [
       "KV Cache / Long Context",
       "Sparsity / Pruning",
@@ -43632,10 +43632,10 @@
     "physical_ai": false,
     "decision": "PROMOTE_STRONG",
     "why": "",
-    "published_at": "2026-09-27T13:53:29Z",
-    "updated_at": "2026-09-27T13:53:29Z",
-    "is_latest_30d": true,
-    "tracking_tier": "P0 · Strong",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
     "directions": [
       "Multimodal / MLLM Serving",
       "VLA / WAM / Physical AI"
@@ -47029,10 +47029,10 @@
     "physical_ai": false,
     "decision": "PROMOTE_STRONG",
     "why": "Official arXiv abstract targets RLVR exploration efficiency and reports equivalent accuracy up to 36% faster without expanding rollout budget.",
-    "published_at": "2026-09-27T14:06:26Z",
-    "updated_at": "2026-09-27T14:06:26Z",
-    "is_latest_30d": true,
-    "tracking_tier": "P0 · Strong",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
     "directions": [
       "Efficient Reasoning / Agents"
     ]
@@ -49573,10 +49573,10 @@
     "physical_ai": false,
     "decision": "PROMOTE_STRONG",
     "why": "Official arXiv abstract introduces lossless two-pass tree replay for diffusion-based speculative decoding and improves acceptance length and throughput.",
-    "published_at": "2026-09-27T15:18:32Z",
-    "updated_at": "2026-09-27T15:18:32Z",
-    "is_latest_30d": true,
-    "tracking_tier": "P0 · Strong",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving",
       "Speculative Decoding",
@@ -49596,10 +49596,10 @@
     "physical_ai": false,
     "decision": "PROMOTE_STRONG",
     "why": "TT-VidT explicitly targets efficient video pretraining: its decoupled per-frame spatial path plus compact Temporal Transfer Layer achieves leading motion-sensitive transfer while using 48% fewer encoder FLOPs than DisMo and 55% fewer than VideoMAE/V-JEPA2; direct video-model compute-efficiency contribution.",
-    "published_at": "2026-09-27T10:09:23Z",
-    "updated_at": "2026-09-29T05:59:33Z",
-    "is_latest_30d": true,
-    "tracking_tier": "P0 · Strong",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
     "directions": [
       "Edge / Cloud / Heterogeneous AI"
     ]

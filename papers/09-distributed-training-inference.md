@@ -1,10 +1,10 @@
 # 09 · Distributed Training / Inference
 
-> **720 canonical papers** mapped here, plus a broader **347-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **720 canonical papers** mapped here, plus a broader **342-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 347 tracked
+## 🆕 Latest 30 Days · 342 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -289,11 +289,6 @@
 | **P2 · Relevant** | **Schedule Repair for DAG Workflows under Link Disruptions** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34048) | — |
 | **P1 · Watch** | **Validating Memory-Optimal Transformer Kernels on Real Hardware: From Formal Derivation to Measured Performance Across Two HPC Clusters** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33916) | — |
 | **P2 · Relevant** | **Prospective Interpretation Risk: Principled Communication Control Between LLMs** | arXiv 2026 | efficient_reasoning_agent | [Link](https://arxiv.org/abs/2609.33885) | — |
-| **P1 · Watch** | **lapanda: A Matrix-Free Differentiable Solver for Nonconvex Constrained Optimization Layers** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33630) | — |
-| **P2 · Relevant** | **Waggle-Dance-Inspired Multi-UAV Recruitment with RGB and Synthetic Event Vision** | arXiv 2026 | agent / Physical AI / state-space | [Link](https://arxiv.org/abs/2609.37464) | — |
-| **P1 · Watch** | **Adaptive Client Clustering and Coordination for Federated Learning Workflow Management in Edge Networks** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33544) | — |
-| **P2 · Relevant** | **Engineering Efficient Self-Play Chess: Search, Replay, and Throughput Under Limited Compute** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2609.37447) | — |
-| **P0 · Strong** | **DISCO: Distributed Long Context Scaling with Grounding-Reasoning Disaggregation** | arXiv 2026 | llm_serving,long_context,distributed | [Link](https://arxiv.org/abs/2609.33485) | — |
 | **P0 · Strong** | **WorldCast: Distributed Multiplayer World Models** | arXiv 2026 | gen,physical,edge | [Link](https://arxiv.org/abs/2610.12412) | — |
 | **P2 · Relevant** | **Which Geometry on Which Layer? Measured Sign-Spectral Assignment in Mixed-Optimizer Training** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17285) | — |
 | **P2 · Relevant** | **Understanding Trajectory Heterogeneity in Federated World Model Learning** | arXiv 2026 | distributed_training | [Link](https://arxiv.org/abs/2610.02957) | — |
@@ -356,7 +351,7 @@
 | **P2 · Relevant** | **A Kafka-Centric Communication Fabric for Near-Real-Time, Cloud-Replicated Closed-Loop Manufacturing Process Control** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.00258) | — |
 | **P0 · Strong** | **A Distributed View from a Single GPU: RankLens for Distributed Training** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18009) | — |
 
-## 🏛️ Classical / Historical · 617 canonical
+## 🏛️ Classical / Historical · 618 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -416,6 +411,7 @@
 | **Canonical** | **DeepShare: Assurance-Driven Deep Learning Job Scheduling for Multi-Tenant Clusters** | arXiv 2026 | distributed_training,gpu_scheduling | [Link](https://arxiv.org/abs/2609.16682) | — |
 | **Canonical** | **DeepStack: Facilitating Co-Design Exploration of 3D DRAM-Stacked Accelerators for Distributed LLM Inference** | arXiv 2026 | distributed training/inference / edge-cloud heterogeneous AI systems / 3D memory / accelerator co-design | [Link](https://arxiv.org/abs/2604.04750) | — |
 | **Canonical** | **Diamond Agent: Agentic Control of Federated HPC Resources as a Service** | arXiv 2026 | efficient reasoning/agent systems / distributed training/inference / heterogeneous HPC orchestration | [Link](https://arxiv.org/abs/2609.06181) | — |
+| **Canonical** | **DISCO: Distributed Long Context Scaling with Grounding-Reasoning Disaggregation** | arXiv 2026 | llm_serving,long_context,distributed | [Link](https://arxiv.org/abs/2609.33485) | — |
 | **Canonical** | **Distributed Linear Programming on GPU Clusters at Extreme Scale** | arXiv 2026 | distributed training/inference / GPU clusters / sparse optimization / communication | [Link](https://arxiv.org/abs/2609.09108) | — |
 | **Canonical** | **Distributed Model-Based Diffusion For Scalable Multi-Robot Trajectory Optimization** | arXiv 2026 | physical_ai | [Link](https://arxiv.org/abs/2607.20992) | — |
 | **Canonical** | **Distributed Stochastic Momentum Tracking with Local Updates: Achieving Optimal Communication Complexities** | arXiv 2026 | distributed | [Link](https://arxiv.org/abs/2510.24155) | — |

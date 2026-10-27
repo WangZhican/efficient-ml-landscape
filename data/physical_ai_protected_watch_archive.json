@@ -4111,6 +4111,28 @@
     ]
   },
   {
+    "title": "Steer2Grasp: Inference-Time Embodiment-Aware Steering for Diverse Physically Feasible Grasp Diffusion",
+    "venue": "arXiv 2026",
+    "topic": "physical_ai",
+    "arxiv": "2609.33546",
+    "doi": "",
+    "official_id": "arXiv:2609.33546",
+    "paper_url": "https://arxiv.org/abs/2609.33546",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Diffusion / Flow Acceleration",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "STATrack: A Target-Aware Fully Spiking Neural Network for Efficient UAV Tracking",
     "venue": "",
     "topic": "LLM serving / edge/cloud/heterogeneous AI systems",
@@ -12164,6 +12186,28 @@
     ]
   },
   {
+    "title": "lapanda: A Matrix-Free Differentiable Solver for Nonconvex Constrained Optimization Layers",
+    "venue": "arXiv 2026",
+    "topic": "",
+    "arxiv": "2609.33630",
+    "doi": "",
+    "official_id": "arXiv:2609.33630",
+    "paper_url": "https://arxiv.org/abs/2609.33630",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "Matrix-free differentiable constrained optimizer reports computation/memory reductions on robotic control problems.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Distributed Training / Inference",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "LangMap: A Human-Verified Benchmark for Hierarchical Open-Vocabulary Goal Navigation",
     "venue": "arXiv 2026",
     "topic": "physical_ai",
@@ -12453,6 +12497,28 @@
     "directions": [
       "LLM Serving",
       "Video / Image Generation",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "InfraVLA: Extending Vision-Language-Action Navigation with Infrastructure Cameras",
+    "venue": "arXiv 2026",
+    "topic": "physical_ai",
+    "arxiv": "2609.33647",
+    "doi": "",
+    "official_id": "arXiv:2609.33647",
+    "paper_url": "https://arxiv.org/abs/2609.33647",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Multimodal / MLLM Serving",
       "VLA / WAM / Physical AI"
     ]
   },

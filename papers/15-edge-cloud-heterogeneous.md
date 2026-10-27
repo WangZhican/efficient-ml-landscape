@@ -1,10 +1,10 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **1060 canonical papers** mapped here, plus a broader **1419-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **1060 canonical papers** mapped here, plus a broader **1403-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 1419 tracked
+## 🆕 Latest 30 Days · 1403 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -1162,22 +1162,6 @@
 | **P1 · Watch** | **Transformer-based Neural Beamforming for Real-Time Speech Enhancement on Smart Low-Power Hearable Devices** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33755) | — |
 | **P2 · Relevant** | **A Statistical Perspective on Knowledge Distillation: Foundations, Classical Methods, and Large Language Model Extensions** | arXiv 2026 | distillation,quantization | [Link](https://arxiv.org/abs/2609.33727) | — |
 | **P2 · Relevant** | **Reliable Replay through Spatial Coherence in Online Continual Learning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33725) | — |
-| **P2 · Relevant** | **Does Adversarial Training Improve Generalization in Multi-View VLAs? Revealing and Mitigating View Collapse** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33707) | — |
-| **P2 · Relevant** | **Resource-Aware Parameter-Efficient Model Adaptation for Onboard High-Dimensional Data** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33687) | — |
-| **P2 · Relevant** | **SWE-Game: Can Coding Agents Build the Games We Want?** | arXiv 2026 | multimodal,edge | [Link](https://arxiv.org/abs/2609.33678) | — |
-| **P0 · Strong** | **COGNIT-Guard: Calibrated Standalone Direct-Decision Guardrails with Heterogeneous CPU-NPU Confidence Cascading under Explicit Latency and False-Positive Constraints** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33671) | — |
-| **P2 · Relevant** | **Waggle-Dance-Inspired Multi-UAV Recruitment with RGB and Synthetic Event Vision** | arXiv 2026 | agent / Physical AI / state-space | [Link](https://arxiv.org/abs/2609.37464) | — |
-| **P2 · Relevant** | **S-ALSA: Co-Design of Adiabatic Logic-based Sensing and Balanced Bit-Cells for Secure and Energy-Efficient MRAM** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33619) | — |
-| **P2 · Relevant** | **Hierarchical Response Preservation for Continual Adaptation of Zero-Shot Graph-Text Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33607) | — |
-| **P1 · Watch** | **LoopLUT: 3D Lookup Tables with Progressive Region Refinement for Real-Time 4K Image Enhancement** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33593) | — |
-| **P2 · Relevant** | **Compressing Value Predictions for Learning-Augmented Metrical Task Systems** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33580) | — |
-| **P0 · Strong** | **HiLoRe: What to Store, Compress, or Recompute for Efficient GRPO Training** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33570) | — |
-| **P1 · Watch** | **TerMeZO: Ternary Sparse Zeroth-Order Optimization for Fine-tuning BitNet Models at the Edge** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33548) | — |
-| **P2 · Relevant** | **Neuro-Symbolic Indirect-Call Analysis under Opaque Pointers** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33547) | — |
-| **P1 · Watch** | **Adaptive Client Clustering and Coordination for Federated Learning Workflow Management in Edge Networks** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33544) | — |
-| **P1 · Watch** | **GSM: Efficient Language Modeling with Shared Global State** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33465) | — |
-| **P2 · Relevant** | **SMAT: Simple and Efficient Merge-Aware Training** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33437) | — |
-| **P0 · Strong** | **TT-VidT: Decoupling the Temporal Axis for Efficient Motion-Centric Video Pretraining** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33419) | — |
 | **P2 · Relevant** | **ZeroMAG: Zero-Shot Multimodal Adapter Generation for Plug-and-Play EEG Foundation Models** | arXiv 2026 | edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2610.03546) | — |
 | **P2 · Relevant** | **Zatom-2: Multitask Pretraining on Atomistic Data for Generative Modeling across Domains** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.11454) | — |
 | **P2 · Relevant** | **You May Be Running the Wrong Inception Crop** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04147) | — |
@@ -1428,7 +1412,7 @@
 | **P2 · Relevant** | **A Local Agentic AI Framework to Generate Edge Case Scenarios for Safety Assurance** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.13479) | — |
 | **P1 · Watch** | **A Compression Tree Generation Method for High Performance VLSI Datapaths** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2610.02228) | — |
 
-## 🏛️ Classical / Historical · 856 canonical
+## 🏛️ Classical / Historical · 859 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -1501,6 +1485,7 @@
 | **Canonical** | **CoAdapt: An LLM-based Framework for Adaptive Collaborative Perception in IIoT Robotic Swarms** | arXiv 2026 | physical_ai,edge_cloud,distributed_inference | [Link](https://arxiv.org/abs/2609.16852) | — |
 | **Canonical** | **Cocoon: A System Architecture for Differentially Private Training with Correlated Noises** | arXiv 2026 | edge_cloud | [Link](https://arxiv.org/abs/2510.07304) | — |
 | **Canonical** | **Codifying the Judge: Scalable Evaluation via Program Distillation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2607.22561) | — |
+| **Canonical** | **COGNIT-Guard: Calibrated Standalone Direct-Decision Guardrails with Heterogeneous CPU-NPU Confidence Cascading under Explicit Latency and False-Positive Constraints** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33671) | — |
 | **Canonical** | **CoMIC: Collaborative Memory and Insights Circulation for Long-Horizon LLM Agents in Web Cloud-Edge Systems** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2606.00756) | — |
 | **Canonical** | **COMPASS: Steering Distributed Vector Search with Scientific Knowledge Graphs** | arXiv 2026 | core Efficient-ML acceleration | [Link](https://arxiv.org/abs/2609.13452) | — |
 | **Canonical** | **Compiler-Grounded Hierarchical Diagnosis for LLM-Based Triton Kernel Optimization** | arXiv 2026 | GPU kernel/DSL/compilers / NPU kernel optimization | [Link](https://arxiv.org/abs/2607.23089) | — |
@@ -1583,6 +1568,7 @@
 | **Canonical** | **Heterogeneous Memory Design Exploration for AI Accelerators with a Gain Cell Memory Compiler** | arXiv 2026 | edge/cloud/heterogeneous AI systems; AI accelerator memory; SRAM/GCRAM; compiler; hardware design-space exploration | [Link](https://arxiv.org/abs/2602.21278) | — |
 | **Canonical** | **HeteroReason: Heterogeneous FPGA-GPU Acceleration for Disaggregated Speculative Reasoning** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2609.28717) | — |
 | **Canonical** | **HiFloat4 Format for Language Model Pre-training on Ascend NPUs** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2604.08826) | — |
+| **Canonical** | **HiLoRe: What to Store, Compress, or Recompute for Efficient GRPO Training** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33570) | — |
 | **Canonical** | **HiRAD: A Flexible Large-Scale AGV Routing System** | arXiv 2026 | VLA/WAM/Physical AI / real-time multi-agent routing / hierarchical RL / edge control | [Link](https://arxiv.org/abs/2609.09752) | — |
 | **Canonical** | **HO-SFL: Hybrid-Order Split Federated Learning with Backprop-Free Clients and Dimension-Free Aggregation** | arXiv 2026 | distributed | [Link](https://arxiv.org/abs/2603.14773) | — |
 | **Canonical** | **HoliBench: A Cross-Platform Benchmarking and Deployment Toolkit for Foundation Models in CPS-IoT Applications** | arXiv 2026 | edge/cloud/heterogeneous AI systems / benchmarking / deployment | [Link](https://arxiv.org/abs/2609.12412) | — |
@@ -1734,6 +1720,7 @@
 | **Canonical** | **TrafficFab: An Autonomic Edge-Cloud Testbed Fabric forAI-Driven Traffic Management** | arXiv 2026 | edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.29223) | — |
 | **Canonical** | **Training Communication-Efficient Mixture-of-Experts Language Models with Layer Re-Configuration** | arXiv 2026 | MoE systems / distributed training / communication efficiency | [Link](https://arxiv.org/abs/2608.28511) | — |
 | **Canonical** | **Trust the Critic More** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.39247) | — |
+| **Canonical** | **TT-VidT: Decoupling the Temporal Axis for Efficient Motion-Centric Video Pretraining** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33419) | — |
 | **Canonical** | **Uni-Light: An Ultra-Lightweight Framework via Uncertainty-Aware Knowledge Distillation for Brain Tumour Segmentation** | arXiv 2026 | edge/cloud/heterogeneous AI systems / lightweight neural networks / knowledge distillation / memory-FLOP efficiency | [Link](https://arxiv.org/abs/2609.06729) | — |
 | **Canonical** | **VikingRAG: Accurate and Token-efficient Retrieval-augmented Generation over Structured Documents** | arXiv 2026 | efficient reasoning/agent systems / token-efficient RAG serving | [Link](https://arxiv.org/abs/2609.11390) | — |
 | **Canonical** | **Vision Wormhole: Latent-Space Communication in Heterogeneous Multi-Agent Systems** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2602.15382) | — |
