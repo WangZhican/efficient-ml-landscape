@@ -4,7 +4,7 @@
 
 <div align="center">
 
-[**🆕 Latest 30 Days · 5907 tracked**](LATEST_30D.md) · [**🏛️ Classical · 3838**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
+[**🆕 Latest 30 Days · 5909 tracked**](LATEST_30D.md) · [**🏛️ Classical · 3838**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
 
 </div>
 
@@ -12,14 +12,14 @@
 
 | # | Research direction | Canonical | Latest 30d tracked |
 |---:|---|---:|---:|
-| 01 | [**LLM Serving**](01-llm-serving.md) | **2016** | **1619** |
+| 01 | [**LLM Serving**](01-llm-serving.md) | **2016** | **1620** |
 | 02 | [**Speculative Decoding**](02-speculative-decoding.md) | **387** | **132** |
 | 03 | [**KV Cache / Long Context**](03-kv-cache-long-context.md) | **821** | **239** |
 | 04 | [**Quantization**](04-quantization.md) | **621** | **623** |
 | 05 | [**Sparsity / Pruning**](05-sparsity-pruning.md) | **674** | **423** |
-| 06 | [**Efficient Attention**](06-efficient-attention.md) | **603** | **257** |
+| 06 | [**Efficient Attention**](06-efficient-attention.md) | **603** | **259** |
 | 07 | [**MoE Systems / Accelerators**](07-moe-systems.md) | **266** | **134** |
-| 08 | [**GPU Kernel / DSL / Compiler**](08-gpu-kernel-compiler.md) | **1023** | **431** |
+| 08 | [**GPU Kernel / DSL / Compiler**](08-gpu-kernel-compiler.md) | **1023** | **432** |
 | 09 | [**Distributed Training / Inference**](09-distributed-training-inference.md) | **720** | **349** |
 | 10 | [**Multimodal / MLLM Serving**](10-multimodal-mllm-serving.md) | **573** | **662** |
 | 11 | [**Video / Image Generation**](11-video-image-generation.md) | **435** | **215** |

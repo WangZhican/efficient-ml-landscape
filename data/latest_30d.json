@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-10-27",
   "window_start_beijing": "2026-09-27",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 5907,
+  "tracked_total": 5909,
   "p0_strong_or_canonical": [
     {
       "title": "Where Rounding Happens Matters: Rounding-Location Alignment Stabilizes LLM Reinforcement Learning",
@@ -125464,6 +125464,28 @@
       ]
     },
     {
+      "title": "Continuum Attention",
+      "venue": "arXiv 2026",
+      "topic": "efficient attention / alternative attention operators",
+      "arxiv": "2610.20586",
+      "doi": "",
+      "official_id": "arXiv:2610.20586",
+      "paper_url": "https://arxiv.org/abs/2610.20586",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "First-party abstract introduces closed-form continuous causal attention, potentially relevant to future efficient attention operators, but reports predictive quality rather than latency, FLOPs, memory, or kernel speedups; metadata-only P2.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
       "title": "Continual Graph Multi-Agent Reinforcement Learning",
       "venue": "arXiv 2026",
       "topic": "llm_serving,gen",
@@ -128477,6 +128499,28 @@
       "is_latest_30d": true,
       "directions": [
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "ACSAN: All-Convolutional Self-Attention Network Integrating Convolutional Operations with Vision Transformer",
+      "venue": "arXiv 2026",
+      "topic": "efficient attention / compact vision architectures",
+      "arxiv": "2610.35375",
+      "doi": "",
+      "official_id": "arXiv:2610.35375",
+      "paper_url": "https://arxiv.org/abs/2610.35375",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "First-party abstract replaces ViT attention and MLP matrices with convolutional blocks and reports comparable or fewer parameters; potentially relevant to compact attention architectures but lacks deployed inference throughput/energy evidence; metadata-only P2.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Attention"
       ]
     },
     {
@@ -254351,6 +254395,28 @@
       ]
     },
     {
+      "title": "Continuum Attention",
+      "venue": "arXiv 2026",
+      "topic": "efficient attention / alternative attention operators",
+      "arxiv": "2610.20586",
+      "doi": "",
+      "official_id": "arXiv:2610.20586",
+      "paper_url": "https://arxiv.org/abs/2610.20586",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "First-party abstract introduces closed-form continuous causal attention, potentially relevant to future efficient attention operators, but reports predictive quality rather than latency, FLOPs, memory, or kernel speedups; metadata-only P2.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
       "title": "Continual Graph Multi-Agent Reinforcement Learning",
       "venue": "arXiv 2026",
       "topic": "llm_serving,gen",
@@ -257364,6 +257430,28 @@
       "is_latest_30d": true,
       "directions": [
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "ACSAN: All-Convolutional Self-Attention Network Integrating Convolutional Operations with Vision Transformer",
+      "venue": "arXiv 2026",
+      "topic": "efficient attention / compact vision architectures",
+      "arxiv": "2610.35375",
+      "doi": "",
+      "official_id": "arXiv:2610.35375",
+      "paper_url": "https://arxiv.org/abs/2610.35375",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "First-party abstract replaces ViT attention and MLP matrices with convolutional blocks and reports comparable or fewer parameters; potentially relevant to compact attention architectures but lacks deployed inference throughput/energy evidence; metadata-only P2.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Attention"
       ]
     },
     {
