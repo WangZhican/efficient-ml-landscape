@@ -981,6 +981,28 @@
     ]
   },
   {
+    "title": "When Does Backpropagating Through Policy Memory Matter? Physical Credit, Optimizer Updates, and Observability",
+    "venue": "arXiv 2026",
+    "topic": "physical,robotics,memory",
+    "arxiv": "2609.33169",
+    "doi": "",
+    "official_id": "arXiv:2609.33169",
+    "paper_url": "https://arxiv.org/abs/2609.33169",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "High-value adjacent or protected-route work with meaningful efficiency/system implications; retain for deeper reading.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Distributed Training / Inference",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "When Digital Twins Meet Large Language Models: Realistic, Interactive, and Editable Simulation for Autonomous Driving",
     "venue": "arXiv 2026",
     "topic": "physical_ai",
@@ -3103,6 +3125,27 @@
     ]
   },
   {
+    "title": "TimelyDAgger: Timing-Aware Expert Querying for VLA Policy Improvement",
+    "venue": "arXiv 2026",
+    "topic": "",
+    "arxiv": "2609.33157",
+    "doi": "",
+    "official_id": "arXiv:2609.33157",
+    "paper_url": "https://arxiv.org/abs/2609.33157",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "Protected Physical-AI/VLA work; improves expert-query timing under matched expert-action budgets, relevant to efficient VLA policy improvement.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Time-Frequency Geometric Cross-Attention for Chunked Vision-Language-Action Models",
     "venue": "arXiv 2026",
     "topic": "VLA/WAM/Physical AI serving / action head / efficient attention",
@@ -4607,6 +4650,27 @@
       "LLM Serving",
       "VLA / WAM / Physical AI",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "SocialHumanoid: Towards Expressive Humanoid Behavior via One-Step Co-Speech Motion Generation",
+    "venue": "arXiv 2026",
+    "topic": "",
+    "arxiv": "2609.33311",
+    "doi": "",
+    "official_id": "arXiv:2609.33311",
+    "paper_url": "https://arxiv.org/abs/2609.33311",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "VLA / WAM / Physical AI"
     ]
   },
   {
@@ -8996,6 +9060,29 @@
     ]
   },
   {
+    "title": "On Device Agentic Operation Caches -- Classifier-Centric NL-to-Action Generation",
+    "venue": "arXiv 2026",
+    "topic": "",
+    "arxiv": "2609.33141",
+    "doi": "",
+    "official_id": "arXiv:2609.33141",
+    "paper_url": "https://arxiv.org/abs/2609.33141",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "OmniSpace: Efficient Geometry Awareness for Autonomous Vehicles MLLMs",
     "venue": "arXiv 2026",
     "topic": "physical_ai,multimodal_serving,autonomous_driving",
@@ -12366,6 +12453,28 @@
     "directions": [
       "LLM Serving",
       "Video / Image Generation",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Informative Viewpoint Selection for Episodic-Memory Embodied Question Answering using Omnidirectional Images",
+    "venue": "arXiv 2026",
+    "topic": "physical,embodied,memory",
+    "arxiv": "2609.33288",
+    "doi": "",
+    "official_id": "arXiv:2609.33288",
+    "paper_url": "https://arxiv.org/abs/2609.33288",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "High-value adjacent or protected-route work with meaningful efficiency/system implications; retain for deeper reading.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Multimodal / MLLM Serving",
       "VLA / WAM / Physical AI"
     ]
   },
@@ -16525,6 +16634,28 @@
     "directions": [
       "Distributed Training / Inference",
       "Diffusion / Flow Acceleration",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Dynamic Manipulation with World-Action Models via Counterfactual Planning",
+    "venue": "arXiv 26",
+    "topic": "vla_wam",
+    "arxiv": "2609.33172",
+    "doi": "",
+    "official_id": "arXiv:2609.33172",
+    "paper_url": "https://arxiv.org/abs/2609.33172",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "Official arXiv abstract and systems evidence reviewed for targeted Physical-AI recall.  robot-target configuration. The resulting plan is connected to the robot's actual state during execution. DPP enables real-time dynamic manipulation on a single consumer GPU without additional training on dynamic data. Experiments in simulation and on a real robot demonstrate consistent improvements across diverse target motions, with simulation performance surpassing all evaluated baselines, including methods additionally trained on dynamic data. Project page: https://methoder00.github.io/DPP/",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
       "VLA / WAM / Physical AI"
     ]
   },
