@@ -1,6 +1,6 @@
 # 🛡️ Physical AI · Protected Historical Watch
 
-> **984 older P1 papers** retained beyond the rolling 30-day window. This is a watchlist, not an expanded canonical/P0 claim.
+> **985 older P1 papers** retained beyond the rolling 30-day window. This is a watchlist, not an expanded canonical/P0 claim.
 
 [← Physical AI direction](14-physical-ai-vla-wam.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/physical_ai_protected_watch_archive.json)
 
@@ -969,6 +969,7 @@
 | **P1 · Watch** | **ActSafeGuard: Differentiable and Training-Aligned Constraint Enforcement for Flow-Matching Policies** | arXiv 2026 | VLA/WAM/Physical AI serving / flow-policy runtime safety | [Link](https://arxiv.org/abs/2609.11697) | — |
 | **P1 · Watch** | **Active Spatial Inspection for Effective and Efficient Embodied Exploration** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2609.22385) | — |
 | **P1 · Watch** | **Action Map Policy: Learning 3D Closed-loop Manipulation via Pixel Classification** | arXiv 26 | action_flow | [Link](https://arxiv.org/abs/2607.10706) | — |
+| **P1 · Watch** | **ActECC: Action Chunk Temporal Harnessing for Edge-Cloud Collaborative VLA Inference System** | arXiv 2026 | llm_serving,physical | [Link](https://arxiv.org/abs/2603.07949) | — |
 | **P1 · Watch** | **AcousticDiffusion: Semantically Conditioned Audio-Guided Diffusion Policy for Search-and-Rescue Assistance** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2609.21792) | — |
 | **P1 · Watch** | **ACID: Action Consistency via Inverse Dynamics for Planning with World Models** | arXiv 2026 | gen,physical | [Link](https://arxiv.org/abs/2607.02403) | — |
 | **P1 · Watch** | **Accurate and Efficient Object Pose Estimation via the Aggregation of Diffusion Features** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2403.18791) | — |

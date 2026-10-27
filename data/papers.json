@@ -30114,6 +30114,29 @@
     ]
   },
   {
+    "title": "MCF: A Memory- and Communication-Aware Co-Designed Framework for Long-Context LLM Inference",
+    "venue": "arXiv 2026",
+    "topic": "llm_serving,kv,dist",
+    "arxiv": "2610.34731",
+    "doi": "",
+    "official_id": "arXiv:2610.34731",
+    "paper_url": "https://arxiv.org/abs/2610.34731",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "MCF co-designs dynamic KV replication/sharding and query-centric decoding with FPGA compute-NIC routing for long-context inference. Direct distributed inference communication architecture; official abstract reports TTFT/throughput evaluation.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "ME-Brain-1.0: Memory, Cognition and Action for Evolving Embodied Intelligence",
     "venue": "arXiv 2026",
     "topic": "VLA/WAM/Physical AI serving",
@@ -36344,6 +36367,29 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Prefetch-Steered Routing: Deterministic Cache-Aware Expert Selection for Offloaded Mixture-of-Experts Decoding",
+    "venue": "arXiv 2026",
+    "topic": "llm_serving,spec,moe",
+    "arxiv": "2610.34721",
+    "doi": "",
+    "official_id": "arXiv:2610.34721",
+    "paper_url": "https://arxiv.org/abs/2610.34721",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Prefetch-steered deterministic cache-aware MoE routing separates logical routing from asynchronous physical copies; official abstract reports 2.2–2.3x batch-1 decode speedup versus exact LRU on OLMoE, with quality caveats and other-model results.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "MoE Systems / Accelerators"
     ]
   },
   {
@@ -44434,6 +44480,32 @@
     ]
   },
   {
+    "title": "SPARTA: A Sparse Ternary LLM Accelerator with Adaptive Attention and Unified Datapath for Long-Context Edge Inference",
+    "venue": "arXiv 2026",
+    "topic": "llm_serving,kv,quant,sparse,edge",
+    "arxiv": "2610.34824",
+    "doi": "",
+    "official_id": "arXiv:2610.34824",
+    "paper_url": "https://arxiv.org/abs/2610.34824",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "SPARTA combines ternary sparse dataflow, shared bit-serial attention datapath and two-stage Top-k/Top-p KV reduction; official abstract reports 3.9x Jetson throughput and 8.3x energy efficiency with quality-dependent loss. Strong hardware/system contribution; validate benchmark settings in full paper.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Quantization",
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "SpCCL: A Sparsity-Aware Collective Communication Library for GPU Platforms",
     "venue": "arXiv 2026",
     "topic": "",
@@ -49175,6 +49247,30 @@
     ]
   },
   {
+    "title": "TRIAGE: Efficient Vision-Language-Action Inference Needs Both Reuse and Pruning",
+    "venue": "arXiv 2026",
+    "topic": "llm_serving,sparse,multimodal,physical",
+    "arxiv": "2610.34519",
+    "doi": "",
+    "official_id": "arXiv:2610.34519",
+    "paper_url": "https://arxiv.org/abs/2610.34519",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": true,
+    "decision": "PROMOTE_STRONG",
+    "why": "TRIAGE jointly selects visual-token KV reuse versus pruning using shallow-layer drift and cache age, addressing embedded VLA prefill latency. Direct Physical-AI serving/visual-token acceleration contribution; inspect action fidelity and deployment measurements.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Trident: Unifying Guarded Dispatch and Host Execution for PyTorch Triton Workloads",
     "venue": "arXiv 2026",
     "topic": "",
@@ -50997,6 +51093,31 @@
     ]
   },
   {
+    "title": "VLA-HWBench: Where the Time Goes When VLA Models Run on Edge Hardware",
+    "venue": "arXiv 2026",
+    "topic": "llm_serving,quant,kernel,physical",
+    "arxiv": "2610.34717",
+    "doi": "",
+    "official_id": "arXiv:2610.34717",
+    "paper_url": "https://arxiv.org/abs/2610.34717",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": true,
+    "decision": "PROMOTE_STRONG",
+    "why": "VLA-HWBench benchmarks 18 VLA models and seven-stage latency on Jetson AGX Thor and AMD Ryzen AI Max+; reports 82x/157x configuration variance and 2.6–2.9x gains from 4-bit fused kernels. Important first-party hardware characterization for Physical-AI serving.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "GPU Kernel / DSL / Compiler",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "VLA-Precision: Asymmetric Co-Bootstrapping for Efficient Real-World Online RL of Vision-Language-Action Models",
     "venue": "arXiv 2026",
     "topic": "VLA / Physical AI / real-world online RL / streaming runtime",
@@ -51911,6 +52032,29 @@
       "Sparsity / Pruning",
       "Multimodal / MLLM Serving",
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "When and Why to Use TMA: A Workload-Grounded Characterization of Tensor Memory Acceleration on NVIDIA Hopper GPUs",
+    "venue": "arXiv 2026",
+    "topic": "llm_serving,attn,kernel",
+    "arxiv": "2610.34907",
+    "doi": "",
+    "official_id": "arXiv:2610.34907",
+    "paper_url": "https://arxiv.org/abs/2610.34907",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party H100 characterization of TMA versus cp.async/DSM in FlashAttention-3 and FlashInfer workloads; studies transfer-size crossover, multicast and paged KV dispatch. Concrete GPU kernel/DSL design guidance.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Efficient Attention",
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {

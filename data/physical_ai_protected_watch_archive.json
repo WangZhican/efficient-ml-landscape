@@ -21710,6 +21710,30 @@
     ]
   },
   {
+    "title": "ActECC: Action Chunk Temporal Harnessing for Edge-Cloud Collaborative VLA Inference System",
+    "venue": "arXiv 2026",
+    "topic": "llm_serving,physical",
+    "arxiv": "2603.07949",
+    "doi": "",
+    "official_id": "arXiv:2603.07949",
+    "paper_url": "https://arxiv.org/abs/2603.07949",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "Relevant efficiency/serving/hardware mechanism; experimental quality and generalization require deeper review. Abstract evidence: VLA models have emerged as the mainstream for embodied intelligence, which decouples reasoning and execution via action chunks. To enable real-time deployment of VLA models, existi",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "AcousticDiffusion: Semantically Conditioned Audio-Guided Diffusion Policy for Search-and-Rescue Assistance",
     "venue": "arXiv 2026",
     "topic": "VLA/WAM/Physical AI serving",
