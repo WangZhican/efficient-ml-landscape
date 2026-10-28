@@ -12589,6 +12589,31 @@
     ]
   },
   {
+    "title": "CRISP: Co-designing Pruning and Scheduling for Efficient MoE Inference on Edge Servers",
+    "venue": "arXiv 2026",
+    "topic": "llm_serving,sparse,moe,edge",
+    "arxiv": "2610.37442",
+    "doi": "",
+    "official_id": "arXiv:2610.37442",
+    "paper_url": "https://arxiv.org/abs/2610.37442",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party arXiv abstract confirms an explicit efficient-ML mechanism and quantitative/technical contribution; curated as route-defining Strong. Evidence: Mixture-of-Experts (MoE) inference on memory-constrained edge platforms is often dominated by expert-weight movement rather than computation. Although each token activates only a small subset of experts, routing is input-dependent, so all experts must remain a",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "Sparsity / Pruning",
+      "MoE Systems / Accelerators",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Cross-Model Autoscaling for Shared LLM Serving",
     "venue": "arXiv 2026",
     "topic": "LLM serving",
@@ -17837,6 +17862,30 @@
     "directions": [
       "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "EnvSched: Environment-Aware Scheduling for Rollout-Efficient Agent Reinforcement Learning",
+    "venue": "arXiv 2026",
+    "topic": "llm_serving,agent",
+    "arxiv": "2610.37609",
+    "doi": "",
+    "official_id": "arXiv:2610.37609",
+    "paper_url": "https://arxiv.org/abs/2610.37609",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party arXiv abstract confirms an explicit efficient-ML mechanism and quantitative/technical contribution; curated as route-defining Strong. Evidence: As executable environments for language agents scale, generating and verifying their rollouts becomes increasingly expensive. Under finite rollout budgets, this raises an important question: can data management at the environment level make agentic reinforceme",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Speculative Decoding",
+      "Quantization",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -24363,6 +24412,28 @@
     ]
   },
   {
+    "title": "Honeycomb-Surfels: Compact Hexagonal Primitives for Efficient Scene Rendering and Reconstruction",
+    "venue": "arXiv 2026",
+    "topic": "3dgs_rendering_acceleration",
+    "arxiv": "2610.37668",
+    "doi": "",
+    "official_id": "arXiv:2610.37668",
+    "paper_url": "https://arxiv.org/abs/2610.37668",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": true,
+    "decision": "PROMOTE_STRONG",
+    "why": "Official arXiv abstract: compact hexagonal surfels improve memory-constrained 3D rendering/reconstruction; reports 2.31x higher FPS per primitive and lower training VRAM than 2DGS, with multi-scene evaluations.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Video / Image Generation",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Honeycomb: Constant-Size Scene Memory Representation for Video World Models",
     "venue": "arXiv 2026",
     "topic": "",
@@ -26435,6 +26506,30 @@
       "GPU Kernel / DSL / Compiler",
       "Multimodal / MLLM Serving",
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Kernel Performance Engineering under Physical Non-Idealities",
+    "venue": "arXiv 2026",
+    "topic": "llm_serving,attn",
+    "arxiv": "2610.37466",
+    "doi": "",
+    "official_id": "arXiv:2610.37466",
+    "paper_url": "https://arxiv.org/abs/2610.37466",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party arXiv abstract confirms an explicit efficient-ML mechanism and quantitative/technical contribution; curated as route-defining Strong. Evidence: Physical non-idealities in integrated circuit (IC) design and fabrication are concealed by conventional hardware abstractions, yet they can limit kernel performance and obscure optimization opportunities. Using distributed shared memory (DSMEM) on NVIDIA H100 ",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
     ]
   },
   {
@@ -31444,6 +31539,29 @@
     ]
   },
   {
+    "title": "Metacognitive Decoding: Efficient Inference for Diffusion Language Agents",
+    "venue": "arXiv 2026",
+    "topic": "",
+    "arxiv": "2610.37642",
+    "doi": "",
+    "official_id": "arXiv:2610.37642",
+    "paper_url": "https://arxiv.org/abs/2610.37642",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party arXiv abstract confirms an explicit efficient-ML mechanism and quantitative/technical contribution; curated as route-defining Strong. Evidence: Diffusion language models offer a promising path to efficient agents through parallel token generation. However, efficient interaction requires adapting both where computation is spent and how much text is generated. We introduce a metacognitive controller tha",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Quantization",
+      "Diffusion / Flow Acceleration",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "Metacognitive Selective Ensemble for Mobile Systems",
     "venue": "arXiv 2026",
     "topic": "edge/cloud/heterogeneous AI systems",
@@ -32852,6 +32970,28 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Quantization"
+    ]
+  },
+  {
+    "title": "Multi-State Linear Attention with Generalized Second-Order Routing",
+    "venue": "arXiv 2026",
+    "topic": "efficient_attention_long_context",
+    "arxiv": "2610.37645",
+    "doi": "",
+    "official_id": "arXiv:2610.37645",
+    "paper_url": "https://arxiv.org/abs/2610.37645",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Official arXiv abstract: MERLIN multi-state linear attention routes segment memory using first and second key moments; improves long-context benchmarks and beats baselines using 4x more memory.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "KV Cache / Long Context",
+      "Efficient Attention"
     ]
   },
   {
@@ -40295,6 +40435,29 @@
     ]
   },
   {
+    "title": "Request-Adaptive Execution for Efficient Hybrid LLM Inference",
+    "venue": "arXiv 2026",
+    "topic": "llm_serving",
+    "arxiv": "2610.37432",
+    "doi": "",
+    "official_id": "arXiv:2610.37432",
+    "paper_url": "https://arxiv.org/abs/2610.37432",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party arXiv abstract confirms an explicit efficient-ML mechanism and quantitative/technical contribution; curated as route-defining Strong. Evidence: Hybrid large language models (LLMs) have emerged as a promising way to combine the modeling capability of the Attention mechanism with the efficiency of state space models (SSMs). However, most existing hybrid LLMs still inherit a static design philosophy: onc",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "Efficient Attention"
+    ]
+  },
+  {
     "title": "Requests of a Feather Must Flock Together: Batch Size vs. Prefix Homogeneity in LLM Inference",
     "venue": "arXiv 2026",
     "topic": "",
@@ -44206,6 +44369,29 @@
       "LLM Serving",
       "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "SLICE-CiM: Selective Layer-wise Inference Control Engine with Confidence-Based Early Exit for SRAM based Digital Compute-in-Memory",
+    "venue": "arXiv 2026",
+    "topic": "sparse,edge",
+    "arxiv": "2610.37601",
+    "doi": "",
+    "official_id": "arXiv:2610.37601",
+    "paper_url": "https://arxiv.org/abs/2610.37601",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party arXiv abstract confirms an explicit efficient-ML mechanism and quantitative/technical contribution; curated as route-defining Strong. Evidence: Digital SRAM compute-in-memory (CIM) macros enable energy-efficient CNN inference by eliminating off-chip weight transfers; however, peripheral control logic introduces three inefficiencies: bit- slice over-activation at reduced precision (L1), unnecessary acc",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Quantization",
+      "Sparsity / Pruning",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {

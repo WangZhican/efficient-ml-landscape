@@ -70042,6 +70042,74 @@
         "Efficient Reasoning / Agents",
         "Edge / Cloud / Heterogeneous AI"
       ]
+    },
+    {
+      "title": "Scaling Reasoning Efficiently via Relaxed On-Policy Distillation",
+      "venue": "arXiv 2026",
+      "topic": "edge",
+      "arxiv": "2603.11137",
+      "doi": "",
+      "official_id": "arXiv:2603.11137",
+      "paper_url": "https://arxiv.org/abs/2603.11137",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "First-party arXiv abstract confirms an explicit efficient-ML mechanism and quantitative/technical contribution; curated as high-value reading Watch. Evidence: On-policy distillation (OPD) is a promising approach for transferring reasoning capabilities to capacity-constrained models, yet sampled-token OPD often suffers from entropy collapse and negative transfer. We identify uniform credit allocation as a key bottlen",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Quantization",
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Memorize When Needed: Decoupled Memory Control for Spatially Consistent Long-Horizon Video Generation",
+      "venue": "arXiv 2026",
+      "topic": "gen",
+      "arxiv": "2604.18215",
+      "doi": "",
+      "official_id": "arXiv:2604.18215",
+      "paper_url": "https://arxiv.org/abs/2604.18215",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "First-party arXiv abstract confirms an explicit efficient-ML mechanism and quantitative/technical contribution; curated as high-value reading Watch. Evidence: Spatially consistent long-horizon video generation aims to maintain temporal and spatial consistency along predefined camera trajectories. Existing methods mostly entangle memory modeling with video generation, leading to inconsistent content during scene revi",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Quantization",
+        "Video / Image Generation"
+      ]
+    },
+    {
+      "title": "DRIFT: A Residual Flow Adapter for Decoding Continuous Outputs in Vision-Language Models",
+      "venue": "arXiv 2026",
+      "topic": "multimodal,gen,physical",
+      "arxiv": "2606.05758",
+      "doi": "",
+      "official_id": "arXiv:2606.05758",
+      "paper_url": "https://arxiv.org/abs/2606.05758",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": true,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "First-party arXiv abstract confirms an explicit efficient-ML mechanism and quantitative/technical contribution; curated as high-value reading Watch. Evidence: Many modern vision-language models (VLMs) build on autoregressive decoding of discrete tokens. While text-based output interfaces enable scalable pretraining and strong zero-shot generalization across diverse tasks, they are poorly suited for problems that req",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Quantization",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
     }
   ],
   "historical_p2": [
@@ -166612,6 +166680,51 @@
       "is_latest_30d": false,
       "directions": [
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Sparse Attention as Compact Kernel Regression",
+      "venue": "arXiv 2026",
+      "topic": "sparse",
+      "arxiv": "2601.22766",
+      "doi": "",
+      "official_id": "arXiv:2601.22766",
+      "paper_url": "https://arxiv.org/abs/2601.22766",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Official arXiv metadata/abstract places this in an efficient-ML or protected Physical-AI technical neighborhood, but does not yet warrant P0/P1. Evidence: Recent work has revealed a link between self-attention mechanisms in transformers and test-time kernel regression via the Nadaraya-Watson estimator, with standard softmax attention corresponding to a Gaussian kernel. How",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Sparsity / Pruning",
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Re4: Scientific Computing Agent with Rewriting, Resolution, Review and Revision",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2508.20729",
+      "doi": "",
+      "official_id": "arXiv:2508.20729",
+      "paper_url": "https://arxiv.org/abs/2508.20729",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Official arXiv metadata/abstract places this in an efficient-ML or protected Physical-AI technical neighborhood, but does not yet warrant P0/P1. Evidence: Large language models (LLMs) have demonstrated abilities to perform complex tasks in multiple domains, including mathematical and scientific reasoning. In this work, we construct a novel agent framework for solving repre",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Efficient Reasoning / Agents"
       ]
     }
   ]

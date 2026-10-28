@@ -1,10 +1,10 @@
 # 12 · Diffusion / Flow Acceleration
 
-> **632 canonical papers** mapped here, plus a broader **437-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **633 canonical papers** mapped here, plus a broader **438-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 437 tracked
+## 🆕 Latest 30 Days · 438 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -386,6 +386,7 @@
 | **P2 · Relevant** | **NEUROTOKEN: Joint Source and Directional AAD with Envelope Decoding via Conditional Flow Matching** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.00397) | — |
 | **P2 · Relevant** | **MIRRA: Fast, High-Fidelity Molecular Generation with Chemistry-Informed Discrete Flow Matching** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17244) | — |
 | **P2 · Relevant** | **MintFlow: Minimal Trajectory Intervention for Constrained Flow Matching** | arXiv 2026 | diffusion/flow acceleration | [Link](https://arxiv.org/abs/2610.02260) | — |
+| **P0 · Strong** | **Metacognitive Decoding: Efficient Inference for Diffusion Language Agents** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.37642) | — |
 | **P2 · Relevant** | **Match the Canvas, Not Just the Answer: Predictability-Aware SFT for Diffusion Language Models** | arXiv 2026 | diffusion language model / predictability-aware SFT | [Link](https://arxiv.org/abs/2610.18001) | — |
 | **P2 · Relevant** | **MAST: Motif-Augmented Diffusion with Search Tree for Spectroscopic Molecular Structure Elucidation** | arXiv 2026 | llm_serving,gen | [Link](https://arxiv.org/abs/2610.12067) | — |
 | **P0 · Strong** | **Magnitude-Direction Decoupling for Fast Video Generation with Flow Matching Models** | Fresh / preprint | video generation acceleration / flow matching | [Link](https://arxiv.org/abs/2608.17695) | — |

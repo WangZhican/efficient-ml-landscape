@@ -17175,6 +17175,29 @@
     ]
   },
   {
+    "title": "DRIFT: A Residual Flow Adapter for Decoding Continuous Outputs in Vision-Language Models",
+    "venue": "arXiv 2026",
+    "topic": "multimodal,gen,physical",
+    "arxiv": "2606.05758",
+    "doi": "",
+    "official_id": "arXiv:2606.05758",
+    "paper_url": "https://arxiv.org/abs/2606.05758",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "First-party arXiv abstract confirms an explicit efficient-ML mechanism and quantitative/technical contribution; curated as high-value reading Watch. Evidence: Many modern vision-language models (VLMs) build on autoregressive decoding of discrete tokens. While text-based output interfaces enable scalable pretraining and strong zero-shot generalization across diverse tasks, they are poorly suited for problems that req",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Quantization",
+      "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Dressing in Motion: A Human Motion-Aware Diffusion Policy for Robot-Assisted Dressing",
     "venue": "arXiv 2026",
     "topic": "VLA/WAM/Physical AI serving / diffusion policy",
