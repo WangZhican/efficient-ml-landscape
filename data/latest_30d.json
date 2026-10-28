@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-10-28",
   "window_start_beijing": "2026-09-28",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 5876,
+  "tracked_total": 5879,
   "p0_strong_or_canonical": [
     {
       "title": "DCKV: Learned Transform Coding of the Prompt KV Cache in Hybrid Language Models",
@@ -23332,6 +23332,29 @@
         "LLM Serving",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Layerwise Repacking: Variable-Length Hybrid-Attention Training without an Extra Redistribution Pass",
+      "venue": "arXiv",
+      "topic": "distributed training/hybrid attention",
+      "arxiv": "2610.35989",
+      "doi": "",
+      "official_id": "arXiv:2610.35989",
+      "paper_url": "https://arxiv.org/abs/2610.35989",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "physical_ai": false,
+      "decision": "PROMOTE_STRONG",
+      "why": "Hybrid full/sparse-attention training runtime repacks sequence-parallel groups within existing Ulysses collectives; first-party abstract reports 7.61% lower end-to-end step time and 4.83 percentage-point higher MFU.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Sparsity / Pruning",
+        "Efficient Attention",
+        "Distributed Training / Inference"
       ]
     },
     {
@@ -121290,6 +121313,29 @@
       ]
     },
     {
+      "title": "HIDRA: Hierarchical Dual-Routing Attention for Replay-Free Lifelong Imitation Learning",
+      "venue": "arXiv",
+      "topic": "Physical AI lifelong imitation learning",
+      "arxiv": "2610.36374",
+      "doi": "",
+      "official_id": "arXiv:2610.36374",
+      "paper_url": "https://arxiv.org/abs/2610.36374",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Robot lifelong imitation learning with hierarchical attention routing and representation-drift regularization; relevant Physical AI algorithm, but no efficient VLA serving or hardware claims.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Attention",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "HeiCo-FOCUS: A Clinically Grounded Dataset for Long-Context Video Understanding",
       "venue": "arXiv 2026",
       "topic": "kv,multimodal",
@@ -125925,6 +125971,28 @@
       "directions": [
         "Sparsity / Pruning",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Calibrated for Which Policy? Conformal Uncertainty for Fixed World Models Under Intervention",
+      "venue": "arXiv",
+      "topic": "Physical AI world model uncertainty",
+      "arxiv": "2610.35877",
+      "doi": "",
+      "official_id": "arXiv:2610.35877",
+      "paper_url": "https://arxiv.org/abs/2610.35877",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Policy-shift uncertainty calibration for fixed world models is relevant to embodied world-model reliability, but has no serving or accelerator result; retain low-priority Physical AI metadata.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -151643,6 +151711,29 @@
         "LLM Serving",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Layerwise Repacking: Variable-Length Hybrid-Attention Training without an Extra Redistribution Pass",
+      "venue": "arXiv",
+      "topic": "distributed training/hybrid attention",
+      "arxiv": "2610.35989",
+      "doi": "",
+      "official_id": "arXiv:2610.35989",
+      "paper_url": "https://arxiv.org/abs/2610.35989",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "physical_ai": false,
+      "decision": "PROMOTE_STRONG",
+      "why": "Hybrid full/sparse-attention training runtime repacks sequence-parallel groups within existing Ulysses collectives; first-party abstract reports 7.61% lower end-to-end step time and 4.83 percentage-point higher MFU.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Sparsity / Pruning",
+        "Efficient Attention",
+        "Distributed Training / Inference"
       ]
     },
     {
@@ -249597,6 +249688,29 @@
       ]
     },
     {
+      "title": "HIDRA: Hierarchical Dual-Routing Attention for Replay-Free Lifelong Imitation Learning",
+      "venue": "arXiv",
+      "topic": "Physical AI lifelong imitation learning",
+      "arxiv": "2610.36374",
+      "doi": "",
+      "official_id": "arXiv:2610.36374",
+      "paper_url": "https://arxiv.org/abs/2610.36374",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Robot lifelong imitation learning with hierarchical attention routing and representation-drift regularization; relevant Physical AI algorithm, but no efficient VLA serving or hardware claims.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Attention",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "HeiCo-FOCUS: A Clinically Grounded Dataset for Long-Context Video Understanding",
       "venue": "arXiv 2026",
       "topic": "kv,multimodal",
@@ -254232,6 +254346,28 @@
       "directions": [
         "Sparsity / Pruning",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Calibrated for Which Policy? Conformal Uncertainty for Fixed World Models Under Intervention",
+      "venue": "arXiv",
+      "topic": "Physical AI world model uncertainty",
+      "arxiv": "2610.35877",
+      "doi": "",
+      "official_id": "arXiv:2610.35877",
+      "paper_url": "https://arxiv.org/abs/2610.35877",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Policy-shift uncertainty calibration for fixed world models is relevant to embodied world-model reliability, but has no serving or accelerator result; retain low-priority Physical AI metadata.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {

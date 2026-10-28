@@ -2579,6 +2579,29 @@
     ]
   },
   {
+    "title": "Layerwise Repacking: Variable-Length Hybrid-Attention Training without an Extra Redistribution Pass",
+    "venue": "arXiv",
+    "topic": "distributed training/hybrid attention",
+    "arxiv": "2610.35989",
+    "doi": "",
+    "official_id": "arXiv:2610.35989",
+    "paper_url": "https://arxiv.org/abs/2610.35989",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Hybrid full/sparse-attention training runtime repacks sequence-parallel groups within existing Ulysses collectives; first-party abstract reports 7.61% lower end-to-end step time and 4.83 percentage-point higher MFU.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "MambaAct: Efficient Mamba Action Experts for Flow-Matching Vision-Language-Action Models",
     "venue": "arXiv",
     "topic": "multimodal,physical",
