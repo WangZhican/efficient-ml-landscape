@@ -167963,6 +167963,144 @@
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI"
       ]
+    },
+    {
+      "title": "GraphRouter: A Graph-based Router for LLM Selections",
+      "venue": "arXiv 2024",
+      "topic": "LLM serving energy and GPU measurement",
+      "arxiv": "2410.03834",
+      "doi": "",
+      "official_id": "arXiv:2410.03834",
+      "paper_url": "https://arxiv.org/abs/2410.03834",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Official arXiv abstract: graph-based query-to-LLM routing optimizes quality versus computational cost and generalizes to unseen models. Relevant to efficient LLM model selection, but not a core inference runtime/kernel/architecture acceleration result.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "RadialRouter: Structured Representation for Efficient and Robust Large Language Models Routing",
+      "venue": "arXiv 2025",
+      "topic": "LLM serving energy and GPU measurement",
+      "arxiv": "2506.03880",
+      "doi": "",
+      "official_id": "arXiv:2506.03880",
+      "paper_url": "https://arxiv.org/abs/2506.03880",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Official arXiv abstract: lightweight RadialFormer router trades LLM selection quality against inference cost on RouterBench. Relevant to serving-level model routing, but no direct system throughput/latency or hardware speedup evidence.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "GPT-OSS-20B: A Comprehensive Deployment-Centric Analysis of OpenAI's Open-Weight Mixture of Experts Model",
+      "venue": "arXiv 2025",
+      "topic": "LLM serving energy and GPU measurement",
+      "arxiv": "2508.16700",
+      "doi": "",
+      "official_id": "arXiv:2508.16700",
+      "paper_url": "https://arxiv.org/abs/2508.16700",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Official arXiv abstract: H100 deployment measurement of GPT-OSS-20B MoE versus dense baselines (TTFT, TPOT, VRAM, energy), useful efficiency benchmark evidence but no new serving optimization mechanism.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving",
+        "MoE Systems / Accelerators",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "On The Computational Complexity of Self-Attention",
+      "venue": "arXiv 2022",
+      "topic": "LLM serving energy and GPU measurement",
+      "arxiv": "2209.04881",
+      "doi": "",
+      "official_id": "arXiv:2209.04881",
+      "paper_url": "https://arxiv.org/abs/2209.04881",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Official arXiv abstract: conditional quadratic lower bounds and approximation tradeoffs for self-attention, relevant foundational efficient-attention theory but not an implementable acceleration system or benchmarked kernel.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving",
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Finetuning Pretrained Transformers into RNNs",
+      "venue": "arXiv 2021",
+      "topic": "LLM serving energy and GPU measurement",
+      "arxiv": "2103.13076",
+      "doi": "",
+      "official_id": "arXiv:2103.13076",
+      "paper_url": "https://arxiv.org/abs/2103.13076",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Official arXiv abstract: converts pretrained Transformers to linear-complexity recurrent attention by swap-then-finetune, preserving accuracy while lowering generation cost; historical algorithmic background, not recent serving or accelerator work.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving",
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Linearizing Large Language Models",
+      "venue": "arXiv 2024",
+      "topic": "LLM serving energy and GPU measurement",
+      "arxiv": "2405.06640",
+      "doi": "",
+      "official_id": "arXiv:2405.06640",
+      "paper_url": "https://arxiv.org/abs/2405.06640",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Official arXiv abstract: SUPRA uptrains pretrained LLMs into recurrent linear-attention models using approximately 5% of pretraining compute, with acknowledged long-context deficits; relevant efficient-model background, not a core deployment-system paper.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Efficient Attention",
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
     }
   ]
 }
