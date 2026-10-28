@@ -25103,6 +25103,28 @@
     ]
   },
   {
+    "title": "Seeing is believing: The case for hardware-centric inefficiency detection and remediation",
+    "venue": "arXiv 2026",
+    "topic": "LLM serving;distributed inference;cloud runtime",
+    "arxiv": "2510.26008",
+    "doi": "",
+    "official_id": "arXiv:2510.26008",
+    "paper_url": "https://arxiv.org/abs/2510.26008",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Unveil detects and remediates silent inefficiency using host-visible telemetry without guest instrumentation; evaluated on distributed ML/LLM serving with <2% monitoring overhead and up to 43.48% inference-latency reduction; strong production systems relevance.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "Self-Indexing Attention for Compression-Compatible Sparse Long-Context LLM Inference",
     "venue": "arXiv 2026",
     "topic": "kv,quant",

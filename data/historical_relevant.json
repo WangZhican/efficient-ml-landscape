@@ -69452,6 +69452,28 @@
         "Efficient Attention",
         "Edge / Cloud / Heterogeneous AI"
       ]
+    },
+    {
+      "title": "Characterizing WebGPU Dispatch Overhead for LLM Inference Across Four GPU Vendors, Three Backends, and Three Browsers",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers",
+      "arxiv": "2604.02344",
+      "doi": "",
+      "official_id": "arXiv:2604.02344",
+      "paper_url": "https://arxiv.org/abs/2604.02344",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Official arXiv abstract provides four-vendor WebGPU LLM dispatch characterization, ~20x naive benchmark bias, and 53% fusion throughput gain; valuable deployment/dispatch systems evidence, but WebGPU backend currently only 11-12% of CUDA and merits deeper baseline review.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler"
+      ]
     }
   ],
   "historical_p2": [
@@ -165636,6 +165658,28 @@
       "is_latest_30d": false,
       "directions": [
         "Efficient Attention"
+      ]
+    },
+    {
+      "title": "OneFlowSBI: One Model, Many Queries for Simulation-Based Inference",
+      "venue": "arXiv 2026",
+      "topic": "diffusion/flow acceleration",
+      "arxiv": "2601.22951",
+      "doi": "",
+      "official_id": "arXiv:2601.22951",
+      "paper_url": "https://arxiv.org/abs/2601.22951",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "OneFlowSBI uses masked flow matching to amortize many simulation-based inference queries and reports faster sampling than a tokenized transformer generalist; domain-specific algorithmic efficiency without general ML serving evidence.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving",
+        "Diffusion / Flow Acceleration"
       ]
     }
   ]

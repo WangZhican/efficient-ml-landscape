@@ -28149,6 +28149,29 @@
     ]
   },
   {
+    "title": "Let the Gate Decide: Per-Lookup Precision for Quantized Conditional Memory in LLMs",
+    "venue": "arXiv 2026",
+    "topic": "quantization;LLM serving;KV/conditional memory",
+    "arxiv": "2610.35985",
+    "doi": "",
+    "official_id": "arXiv:2610.35985",
+    "paper_url": "https://arxiv.org/abs/2610.35985",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "GateRQ uses gate-ranked 1-bit residual-code precision for conditional-memory rows, reports 7.8x GPU table-memory reduction and 11-31% vLLM throughput improvement at limited PopQA loss; directly strong memory/serving co-optimization.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "Leto: Fast In-Place Recovery for LLM Training on Surviving Hardware",
     "venue": "arXiv 2026",
     "topic": "",
@@ -42473,6 +42496,28 @@
     "directions": [
       "LLM Serving",
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Seeing is believing: The case for hardware-centric inefficiency detection and remediation",
+    "venue": "arXiv 2026",
+    "topic": "LLM serving;distributed inference;cloud runtime",
+    "arxiv": "2510.26008",
+    "doi": "",
+    "official_id": "arXiv:2510.26008",
+    "paper_url": "https://arxiv.org/abs/2510.26008",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Unveil detects and remediates silent inefficiency using host-visible telemetry without guest instrumentation; evaluated on distributed ML/LLM serving with <2% monitoring overhead and up to 43.48% inference-latency reduction; strong production systems relevance.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference"
     ]
   },
   {

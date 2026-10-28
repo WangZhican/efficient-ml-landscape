@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-10-28",
   "window_start_beijing": "2026-09-28",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 5754,
+  "tracked_total": 5760,
   "p0_strong_or_canonical": [
     {
       "title": "OSWAM: An Effective World Action Model with One-Step Action Generation",
@@ -22881,6 +22881,29 @@
         "LLM Serving",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Let the Gate Decide: Per-Lookup Precision for Quantized Conditional Memory in LLMs",
+      "venue": "arXiv 2026",
+      "topic": "quantization;LLM serving;KV/conditional memory",
+      "arxiv": "2610.35985",
+      "doi": "",
+      "official_id": "arXiv:2610.35985",
+      "paper_url": "https://arxiv.org/abs/2610.35985",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "physical_ai": false,
+      "decision": "PROMOTE_STRONG",
+      "why": "GateRQ uses gate-ranked 1-bit residual-code precision for conditional-memory rows, reports 7.8x GPU table-memory reduction and 11-31% vLLM throughput improvement at limited PopQA loss; directly strong memory/serving co-optimization.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "GPU Kernel / DSL / Compiler"
       ]
     },
     {
@@ -53986,6 +54009,28 @@
       ]
     },
     {
+      "title": "ResCom: Activation Residual Compensation for Large Language Model Quantization",
+      "venue": "arXiv 2026",
+      "topic": "quantization",
+      "arxiv": "2610.35955",
+      "doi": "",
+      "official_id": "arXiv:2610.35955",
+      "paper_url": "https://arxiv.org/abs/2610.35955",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "ResCom closed-form low-rank activation-rounding residual compensation improves Llama-3-8B W4A4 perplexity, MMLU and GSM8K with 2.25% prefill overhead; strong algorithmic promise, but deployment implementation and hardware cost need review.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization"
+      ]
+    },
+    {
       "title": "REMORY: Learning Residual Memory for Context Compaction",
       "venue": "arXiv 2026",
       "topic": "gen,edge",
@@ -55043,6 +55088,28 @@
       ]
     },
     {
+      "title": "h1: A Taste of the Bitter Lesson in Automated Theorem Proving",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems",
+      "arxiv": "2610.35962",
+      "doi": "",
+      "official_id": "arXiv:2610.35962",
+      "paper_url": "https://arxiv.org/abs/2610.35962",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "h1 studies a lean verifier-feedback agent loop and efficient Lean 4 interface for theorem proving; potentially useful test-time compute and agent systems design, but abstract does not quantify cost/latency tradeoffs enough for strong tier.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "GTDD: Generative Test-Driven Development for AI Coding Agents with Adversarial Testing",
       "venue": "arXiv 2026",
       "topic": "",
@@ -55611,6 +55678,30 @@
       "directions": [
         "KV Cache / Long Context",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Distributed LLM Inference via Communication-Efficient Speculative Decoding",
+      "venue": "arXiv 2026",
+      "topic": "speculative decoding;distributed inference",
+      "arxiv": "2610.35957",
+      "doi": "",
+      "official_id": "arXiv:2610.35957",
+      "paper_url": "https://arxiv.org/abs/2610.35957",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "DISCO replicates draft SLM server-side to avoid vocabulary-scale device-server distributions while preserving exact target distribution; relevant communication-efficient speculative decoding with multi-dataset speedup, but quantitative baseline details require full-text verification.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Speculative Decoding",
+        "Quantization",
+        "Distributed Training / Inference",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -56195,6 +56286,27 @@
       "decision": "WATCH",
       "tracking_tier": "P1 · Watch",
       "why": "Agent-system evaluation isolates configuration/time budget and cost, with 18k trajectories and 54% outcome variance from reruns.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "AgentBaton: Efficient Model Collaboration in Agentic Tasks",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems",
+      "arxiv": "2610.35959",
+      "doi": "",
+      "official_id": "arXiv:2610.35959",
+      "paper_url": "https://arxiv.org/abs/2610.35959",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "AgentBaton learns a capable-to-efficient model handoff for long-horizon agent tasks and reports 65.9% average API-cost reduction across 11 model pairs; directly relevant efficient agent execution, pending full-text accuracy/cost tradeoff check.",
       "published_at": "",
       "updated_at": "",
       "is_latest_30d": true,
@@ -120786,6 +120898,28 @@
       ]
     },
     {
+      "title": "EMMA: Structured Episodic Memory for Multi-Agent Workflow Synthesis",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems",
+      "arxiv": "2610.35966",
+      "doi": "",
+      "official_id": "arXiv:2610.35966",
+      "paper_url": "https://arxiv.org/abs/2610.35966",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "EMMA bounds multi-agent workflow configuration updates via structured episodic memory and evaluates five backbones; relevant agent orchestration, but abstract primarily addresses quality/robustness rather than verified serving cost or latency.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "EmbPASS: Towards Cross-Embodiment Open Panoramic Segmentation",
       "venue": "arXiv 2026",
       "topic": "Physical AI / embodied perception",
@@ -148474,6 +148608,29 @@
         "LLM Serving",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Let the Gate Decide: Per-Lookup Precision for Quantized Conditional Memory in LLMs",
+      "venue": "arXiv 2026",
+      "topic": "quantization;LLM serving;KV/conditional memory",
+      "arxiv": "2610.35985",
+      "doi": "",
+      "official_id": "arXiv:2610.35985",
+      "paper_url": "https://arxiv.org/abs/2610.35985",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "physical_ai": false,
+      "decision": "PROMOTE_STRONG",
+      "why": "GateRQ uses gate-ranked 1-bit residual-code precision for conditional-memory rows, reports 7.8x GPU table-memory reduction and 11-31% vLLM throughput improvement at limited PopQA loss; directly strong memory/serving co-optimization.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "GPU Kernel / DSL / Compiler"
       ]
     },
     {
@@ -179577,6 +179734,28 @@
       ]
     },
     {
+      "title": "ResCom: Activation Residual Compensation for Large Language Model Quantization",
+      "venue": "arXiv 2026",
+      "topic": "quantization",
+      "arxiv": "2610.35955",
+      "doi": "",
+      "official_id": "arXiv:2610.35955",
+      "paper_url": "https://arxiv.org/abs/2610.35955",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "ResCom closed-form low-rank activation-rounding residual compensation improves Llama-3-8B W4A4 perplexity, MMLU and GSM8K with 2.25% prefill overhead; strong algorithmic promise, but deployment implementation and hardware cost need review.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization"
+      ]
+    },
+    {
       "title": "REMORY: Learning Residual Memory for Context Compaction",
       "venue": "arXiv 2026",
       "topic": "gen,edge",
@@ -180634,6 +180813,28 @@
       ]
     },
     {
+      "title": "h1: A Taste of the Bitter Lesson in Automated Theorem Proving",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems",
+      "arxiv": "2610.35962",
+      "doi": "",
+      "official_id": "arXiv:2610.35962",
+      "paper_url": "https://arxiv.org/abs/2610.35962",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "h1 studies a lean verifier-feedback agent loop and efficient Lean 4 interface for theorem proving; potentially useful test-time compute and agent systems design, but abstract does not quantify cost/latency tradeoffs enough for strong tier.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "GTDD: Generative Test-Driven Development for AI Coding Agents with Adversarial Testing",
       "venue": "arXiv 2026",
       "topic": "",
@@ -181202,6 +181403,30 @@
       "directions": [
         "KV Cache / Long Context",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Distributed LLM Inference via Communication-Efficient Speculative Decoding",
+      "venue": "arXiv 2026",
+      "topic": "speculative decoding;distributed inference",
+      "arxiv": "2610.35957",
+      "doi": "",
+      "official_id": "arXiv:2610.35957",
+      "paper_url": "https://arxiv.org/abs/2610.35957",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "DISCO replicates draft SLM server-side to avoid vocabulary-scale device-server distributions while preserving exact target distribution; relevant communication-efficient speculative decoding with multi-dataset speedup, but quantitative baseline details require full-text verification.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Speculative Decoding",
+        "Quantization",
+        "Distributed Training / Inference",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -181786,6 +182011,27 @@
       "decision": "WATCH",
       "tracking_tier": "P1 · Watch",
       "why": "Agent-system evaluation isolates configuration/time budget and cost, with 18k trajectories and 54% outcome variance from reruns.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "AgentBaton: Efficient Model Collaboration in Agentic Tasks",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems",
+      "arxiv": "2610.35959",
+      "doi": "",
+      "official_id": "arXiv:2610.35959",
+      "paper_url": "https://arxiv.org/abs/2610.35959",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "AgentBaton learns a capable-to-efficient model handoff for long-horizon agent tasks and reports 65.9% average API-cost reduction across 11 model pairs; directly relevant efficient agent execution, pending full-text accuracy/cost tradeoff check.",
       "published_at": "",
       "updated_at": "",
       "is_latest_30d": true,
@@ -246372,6 +246618,28 @@
       "is_latest_30d": true,
       "directions": [
         "Efficient Attention"
+      ]
+    },
+    {
+      "title": "EMMA: Structured Episodic Memory for Multi-Agent Workflow Synthesis",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems",
+      "arxiv": "2610.35966",
+      "doi": "",
+      "official_id": "arXiv:2610.35966",
+      "paper_url": "https://arxiv.org/abs/2610.35966",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "EMMA bounds multi-agent workflow configuration updates via structured episodic memory and evaluates five backbones; relevant agent orchestration, but abstract primarily addresses quality/robustness rather than verified serving cost or latency.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
