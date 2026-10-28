@@ -4,7 +4,7 @@
 
 <div align="center">
 
-[**🆕 Latest 30 Days · 5824 tracked**](LATEST_30D.md) · [**🏛️ Classical · 3941**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
+[**🆕 Latest 30 Days · 5825 tracked**](LATEST_30D.md) · [**🏛️ Classical · 3941**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
 
 </div>
 
@@ -12,7 +12,7 @@
 
 | # | Research direction | Canonical | Latest 30d tracked |
 |---:|---|---:|---:|
-| 01 | [**LLM Serving**](01-llm-serving.md) | **2043** | **1626** |
+| 01 | [**LLM Serving**](01-llm-serving.md) | **2043** | **1627** |
 | 02 | [**Speculative Decoding**](02-speculative-decoding.md) | **389** | **127** |
 | 03 | [**KV Cache / Long Context**](03-kv-cache-long-context.md) | **827** | **229** |
 | 04 | [**Quantization**](04-quantization.md) | **645** | **666** |
@@ -21,7 +21,7 @@
 | 07 | [**MoE Systems / Accelerators**](07-moe-systems.md) | **272** | **133** |
 | 08 | [**GPU Kernel / DSL / Compiler**](08-gpu-kernel-compiler.md) | **1034** | **435** |
 | 09 | [**Distributed Training / Inference**](09-distributed-training-inference.md) | **730** | **345** |
-| 10 | [**Multimodal / MLLM Serving**](10-multimodal-mllm-serving.md) | **574** | **660** |
+| 10 | [**Multimodal / MLLM Serving**](10-multimodal-mllm-serving.md) | **574** | **661** |
 | 11 | [**Video / Image Generation**](11-video-image-generation.md) | **439** | **217** |
 | 12 | [**Diffusion / Flow Acceleration**](12-diffusion-flow.md) | **633** | **438** |
 | 13 | [**Efficient Reasoning / Agents**](13-efficient-reasoning-agents.md) | **1022** | **1816** |

@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-10-28",
   "window_start_beijing": "2026-09-28",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 5824,
+  "tracked_total": 5825,
   "p0_strong_or_canonical": [
     {
       "title": "Honeycomb-Surfels: Compact Hexagonal Primitives for Efficient Scene Rendering and Reconstruction",
@@ -57927,6 +57927,28 @@
       "directions": [
         "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Efficient Remote Sensing Image-Text Retrieval via Interaction-Free Recall and Text-Guided Reranking",
+      "venue": "arXiv",
+      "topic": "multimodal_retrieval",
+      "arxiv": "2610.36756",
+      "doi": "",
+      "official_id": "arXiv:2610.36756",
+      "paper_url": "https://arxiv.org/abs/2610.36756",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Official abstract describes interaction-free precomputed image embeddings and top-K cross-modal reranking to reduce retrieval work. Relevant adjacent efficient multimodal retrieval, but remote-sensing-specific with no LLM/MLLM serving or accelerator evaluation; retain as P2 metadata.",
+      "published_at": "2026-10-27T07:12:20Z",
+      "updated_at": "2026-10-27T07:12:20Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving"
       ]
     },
     {
@@ -185127,6 +185149,28 @@
       "directions": [
         "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Efficient Remote Sensing Image-Text Retrieval via Interaction-Free Recall and Text-Guided Reranking",
+      "venue": "arXiv",
+      "topic": "multimodal_retrieval",
+      "arxiv": "2610.36756",
+      "doi": "",
+      "official_id": "arXiv:2610.36756",
+      "paper_url": "https://arxiv.org/abs/2610.36756",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Official abstract describes interaction-free precomputed image embeddings and top-K cross-modal reranking to reduce retrieval work. Relevant adjacent efficient multimodal retrieval, but remote-sensing-specific with no LLM/MLLM serving or accelerator evaluation; retain as P2 metadata.",
+      "published_at": "2026-10-27T07:12:20Z",
+      "updated_at": "2026-10-27T07:12:20Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving"
       ]
     },
     {
