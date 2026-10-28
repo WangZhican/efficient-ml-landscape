@@ -36541,6 +36541,48 @@
       ]
     },
     {
+      "title": "QuantaSpike: Short-Window Spike-Driven Quantization for Large Language Models",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.34259",
+      "doi": "",
+      "official_id": "arXiv:2609.34259",
+      "paper_url": "https://arxiv.org/abs/2609.34259",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Quantization"
+      ]
+    },
+    {
+      "title": "Just-In-Time Agent Memory with Runtime Agentic Research",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.34385",
+      "doi": "",
+      "official_id": "arXiv:2609.34385",
+      "paper_url": "https://arxiv.org/abs/2609.34385",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Federated 3D Gaussian Splatting for Large-Scale Scene Reconstruction at Wireless Edge",
       "venue": "arXiv 2026",
       "topic": "",
@@ -36665,6 +36707,69 @@
       "is_latest_30d": false,
       "directions": [
         "Quantization",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "SemRD-V2X: Closure-Guided Communication with Bounded Inference for Cooperative Perception",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.34353",
+      "doi": "",
+      "official_id": "arXiv:2609.34353",
+      "paper_url": "https://arxiv.org/abs/2609.34353",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "FutureDuet: Decoupling Observation Access from Future Supervision in World Action Models",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.34362",
+      "doi": "",
+      "official_id": "arXiv:2609.34362",
+      "paper_url": "https://arxiv.org/abs/2609.34362",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "LRC-JEPA: Disentangling Dynamics and Residual Context for Efficient World Models",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.34375",
+      "doi": "",
+      "official_id": "arXiv:2609.34375",
+      "paper_url": "https://arxiv.org/abs/2609.34375",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -37388,6 +37493,134 @@
       "directions": [
         "Sparsity / Pruning",
         "Video / Image Generation"
+      ]
+    },
+    {
+      "title": "Analytical and Convolutional Neural Network-Based Motion-Vector Propagation for Efficient Video Object Detection",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.34142",
+      "doi": "",
+      "official_id": "arXiv:2609.34142",
+      "paper_url": "https://arxiv.org/abs/2609.34142",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Reliability-Aware Sparse Route Memory for Round-Trip Vision-Language Navigation",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.34163",
+      "doi": "",
+      "official_id": "arXiv:2609.34163",
+      "paper_url": "https://arxiv.org/abs/2609.34163",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Sparsity / Pruning",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "FailPatch: Failure Residual Patching for Vision-Language-Action Models",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.34175",
+      "doi": "",
+      "official_id": "arXiv:2609.34175",
+      "paper_url": "https://arxiv.org/abs/2609.34175",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "RoboICL: Embodied In-Context Learning with GPT-6 Astra",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.34261",
+      "doi": "",
+      "official_id": "arXiv:2609.34261",
+      "paper_url": "https://arxiv.org/abs/2609.34261",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "SAGE: Symbolic Action-Gating and Editing for LLM Task Planners",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.34268",
+      "doi": "",
+      "official_id": "arXiv:2609.34268",
+      "paper_url": "https://arxiv.org/abs/2609.34268",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "NavHarness: Towards Lifelong Embodied Navigation",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.34276",
+      "doi": "",
+      "official_id": "arXiv:2609.34276",
+      "paper_url": "https://arxiv.org/abs/2609.34276",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -38339,6 +38572,27 @@
       ]
     },
     {
+      "title": "SAGE: Structured Strategic Reasoning for Efficient LLM Game Playing",
+      "venue": "arXiv 2026",
+      "topic": "efficient_reasoning,agent_systems",
+      "arxiv": "2609.34342",
+      "doi": "",
+      "official_id": "arXiv:2609.34342",
+      "paper_url": "https://arxiv.org/abs/2609.34342",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "High-value adjacent or protected-route work with meaningful efficiency/system implications; retain for deeper reading.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "FacePlex: Toward Natural Full-Duplex Conversational Avatars",
       "venue": "arXiv 2026",
       "topic": "multimodal_serving,streaming",
@@ -39266,6 +39520,28 @@
       ]
     },
     {
+      "title": "AGILE-GS: Anchor-Guided Fast Next-Best-View Selection for Active 3D Gaussian Splatting",
+      "venue": "arXiv 2026",
+      "topic": "physical_ai",
+      "arxiv": "2609.34176",
+      "doi": "",
+      "official_id": "arXiv:2609.34176",
+      "paper_url": "https://arxiv.org/abs/2609.34176",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": true,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Video / Image Generation",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "UniBYD: A Unified Framework for Learning Robotic Manipulation Across Embodiments Beyond Imitation of Human Demonstrations",
       "venue": "arXiv 2026",
       "topic": "physical_ai",
@@ -39473,6 +39749,28 @@
       "is_latest_30d": false,
       "directions": [
         "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "WB-WAM: Heterogeneous Body-Hand Pre-training for Humanoid Loco-Manipulation",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.34199",
+      "doi": "",
+      "official_id": "arXiv:2609.34199",
+      "paper_url": "https://arxiv.org/abs/2609.34199",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -40501,6 +40799,48 @@
       ]
     },
     {
+      "title": "GAE: General Action Expert for Real-Time Humanoid Teleoperation",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.34233",
+      "doi": "",
+      "official_id": "arXiv:2609.34233",
+      "paper_url": "https://arxiv.org/abs/2609.34233",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected Physical-AI work with explicit low-latency humanoid teleoperation and latency-conditioned anticipation, validated on real Unitree G1 and Westlake O1 robots.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "E-WAVE: Event-based Continuous Optical Flow via Warping-Aligned Visual Encoding",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.34346",
+      "doi": "",
+      "official_id": "arXiv:2609.34346",
+      "paper_url": "https://arxiv.org/abs/2609.34346",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Correlation-free event optical flow removes expensive all-pairs correlation volumes and supports arbitrary-time querying without repeated inference; relevant edge/perception efficiency.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "HumanHalo: Safe and Efficient 3D Navigation Among Humans via Minimally Conservative MPC",
       "venue": "arXiv 2026",
       "topic": "",
@@ -40560,6 +40900,28 @@
       "updated_at": "",
       "is_latest_30d": false,
       "directions": [
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "CAR-VLA: Complexity-Aware and Risk-Adaptive Reasoning for Autonomous Driving",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.34387",
+      "doi": "",
+      "official_id": "arXiv:2609.34387",
+      "paper_url": "https://arxiv.org/abs/2609.34387",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Protected VLA work explicitly adapts reasoning depth/mode to scene complexity and dynamic risk, relevant to adaptive test-time compute in autonomous driving.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
       ]
     },
@@ -41144,6 +41506,27 @@
       ]
     },
     {
+      "title": "StateGuard: Analytical-State Management with Validity-Aware Intervention for Long-Horizon Data Agents",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.34134",
+      "doi": "",
+      "official_id": "arXiv:2609.34134",
+      "paper_url": "https://arxiv.org/abs/2609.34134",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Long-horizon data-agent state management externalizes versioned analytical state and validity repair, relevant to agent memory/runtime orchestration, though efficiency savings are not the primary measured contribution.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "Adaptive Fused Prior Transfer for Controllable Generative Image Compression",
       "venue": "arXiv 2026",
       "topic": "",
@@ -41185,6 +41568,29 @@
       "directions": [
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Before Agents Act: Assurance-Aware Semantic Scheduling for Evidence Acquisition in Distributed Systems",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.34376",
+      "doi": "",
+      "official_id": "arXiv:2609.34376",
+      "paper_url": "https://arxiv.org/abs/2609.34376",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Agent systems/runtime scheduling jointly optimizes evidence acquisition under freshness, deadline, resource, and cost constraints with receipt reuse; relevant to efficient agent orchestration though evaluated only in controlled infrastructure simulations.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -47136,6 +47542,73 @@
       ]
     },
     {
+      "title": "GradLev: Token-Parallel Test-Time Training Via Costate Prediction",
+      "venue": "arXiv 2026",
+      "topic": "KV cache/long-context",
+      "arxiv": "2609.34174",
+      "doi": "",
+      "official_id": "arXiv:2609.34174",
+      "paper_url": "https://arxiv.org/abs/2609.34174",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "GradLev 用 costate prediction 与 associative scans 并行化 test-time training 的前反向计算；理论与机制值得跟踪，摘要缺可核验速度结果。",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "KV Cache / Long Context",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "SALMONN-duo: Adaptive Dual-System Coordination for Full-Duplex Voice Agents",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving",
+      "arxiv": "2609.34247",
+      "doi": "",
+      "official_id": "arXiv:2609.34247",
+      "paper_url": "https://arxiv.org/abs/2609.34247",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "SALMONN-duo 实时 full-duplex S1 与异步推理 S2 分离并用 cost-aware RL 控制委托，语音 Agent serving 价值高，摘要缺可核验端到端延迟。",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Rate-Distortion Adaptive Primitive Selection for Omnidirectional Gaussian Splatting",
+      "venue": "arXiv 2026",
+      "topic": "video/image generation acceleration",
+      "arxiv": "2609.34367",
+      "doi": "",
+      "official_id": "arXiv:2609.34367",
+      "paper_url": "https://arxiv.org/abs/2609.34367",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "OIC-GS 以层级 HEALPix Gaussian 与 rate-distortion 原语裁剪支持 viewport 解码，首 viewport 解码 52% 比特流即可 1270 FPS 渲染；3DGS 轻量部署邻接。",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Multimodal / MLLM Serving",
+        "Video / Image Generation"
+      ]
+    },
+    {
       "title": "Unlocking Few-Step Diffusion for Faithful Previews",
       "venue": "arXiv 2026",
       "topic": "diffusion/flow acceleration",
@@ -48738,6 +49211,27 @@
       ]
     },
     {
+      "title": "Evo2Team: When Do Evolved Skills Transfer? From Selection to Deployment",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.34135",
+      "doi": "",
+      "official_id": "arXiv:2609.34135",
+      "paper_url": "https://arxiv.org/abs/2609.34135",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Agent skill transfer reduces deployment cost 6.1–14.6% on successful transfer settings.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "CasEm: A Cascade Architecture for Long-Horizon Neural Emulation",
       "venue": "arXiv 2026",
       "topic": "",
@@ -48756,6 +49250,27 @@
       "is_latest_30d": false,
       "directions": [
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "One Rollout Is All You Get: Fully Test-Time Adaptation for GUI Agents",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.34321",
+      "doi": "",
+      "official_id": "arXiv:2609.34321",
+      "paper_url": "https://arxiv.org/abs/2609.34321",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Fully test-time GUI agent adaptation from one deployment attempt per task, no compute-cost comparison.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -90337,6 +90852,27 @@
       ]
     },
     {
+      "title": "mmHRI: Towards Privacy-Preserving Human-Robot Interaction with Millimeter-Wave Radar",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.34220",
+      "doi": "",
+      "official_id": "arXiv:2609.34220",
+      "paper_url": "https://arxiv.org/abs/2609.34220",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Train Together or Merge Later? Unifying VLA Experts via a Shared Action Interface",
       "venue": "arXiv 2026",
       "topic": "",
@@ -90422,6 +90958,28 @@
       ]
     },
     {
+      "title": "WorldGuide: Learning Success-Failure Boundaries in Latent World Models for Vision-Language-Action Policies",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.34206",
+      "doi": "",
+      "official_id": "arXiv:2609.34206",
+      "paper_url": "https://arxiv.org/abs/2609.34206",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Are Vision-Language-Action Models Robust to One-Step Observation Perturbations?",
       "venue": "arXiv 2026",
       "topic": "",
@@ -90472,6 +91030,27 @@
       "doi": "",
       "official_id": "arXiv:2609.33687",
       "paper_url": "https://arxiv.org/abs/2609.33687",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "When World Models Lie: Adaptive Safety Analysis Under Wrong Imaginations",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.34300",
+      "doi": "",
+      "official_id": "arXiv:2609.34300",
+      "paper_url": "https://arxiv.org/abs/2609.34300",
       "code_url": "",
       "formal_class": "RELEVANT_LOW_PRIORITY",
       "physical_ai": false,
@@ -90674,6 +91253,49 @@
       "is_latest_30d": false,
       "directions": [
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "UMR: Universal Manipulation Representation",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.34256",
+      "doi": "",
+      "official_id": "arXiv:2609.34256",
+      "paper_url": "https://arxiv.org/abs/2609.34256",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "RoboIRGBench: Benchmarking Implicit Referential Grounding in Vision-Language-Action Models",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.34384",
+      "doi": "",
+      "official_id": "arXiv:2609.34384",
+      "paper_url": "https://arxiv.org/abs/2609.34384",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -92139,6 +92761,28 @@
       "is_latest_30d": false,
       "directions": [
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "TableSeek: Structure-Preserving Agentic Evidence Seeking over Heterogeneous Table Corpora",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.34157",
+      "doi": "",
+      "official_id": "arXiv:2609.34157",
+      "paper_url": "https://arxiv.org/abs/2609.34157",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -94112,6 +94756,48 @@
       ]
     },
     {
+      "title": "Training and Inference Dynamics of PLDR-LLMs: Row-Map Collapse, Renormalization, and Predictive Reduction",
+      "venue": "arXiv 2026",
+      "topic": "efficient_ml",
+      "arxiv": "2609.34130",
+      "doi": "",
+      "official_id": "arXiv:2609.34130",
+      "paper_url": "https://arxiv.org/abs/2609.34130",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Agentic High-Dimensional Bayesian Optimization with Hypothesis- and Evidence-Guided Search",
+      "venue": "arXiv 2026",
+      "topic": "efficient_reasoning_agent",
+      "arxiv": "2609.34281",
+      "doi": "",
+      "official_id": "arXiv:2609.34281",
+      "paper_url": "https://arxiv.org/abs/2609.34281",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "OmniVR: Audio-Video Conditional Generation for Archival Footage Restoration",
       "venue": "arXiv 2026",
       "topic": "video_image_generation",
@@ -95045,6 +95731,49 @@
       ]
     },
     {
+      "title": "MAS-OPD: On-Policy Distillation for Multi-agent Systems",
+      "venue": "arXiv 2026",
+      "topic": "efficient_reasoning_agent",
+      "arxiv": "2609.34234",
+      "doi": "",
+      "official_id": "arXiv:2609.34234",
+      "paper_url": "https://arxiv.org/abs/2609.34234",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "SAIL: Spatial Audio Intelligence with Large Language Models via Disentangled Acoustic-Spatial Encoding and Dual-Stream Q-Former",
+      "venue": "arXiv 2026",
+      "topic": "multimodal_serving",
+      "arxiv": "2609.34347",
+      "doi": "",
+      "official_id": "arXiv:2609.34347",
+      "paper_url": "https://arxiv.org/abs/2609.34347",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
       "title": "Claw-SWE-Bench: A Benchmark for Evaluating OpenClaw-style Agent Harnesses on Coding Tasks",
       "venue": "arXiv 2026",
       "topic": "efficient_reasoning_agent",
@@ -95787,6 +96516,50 @@
       "directions": [
         "Quantization",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "A Weak Notion of Symmetry for Control Systems",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.34173",
+      "doi": "",
+      "official_id": "arXiv:2609.34173",
+      "paper_url": "https://arxiv.org/abs/2609.34173",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Protected robotics/control adjacency with dimensionality reduction from weak symmetry, but not an ML inference or training efficiency paper.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Distributed Training / Inference",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "CASS: Contribution-Aware Structured Sparsity for Model Merging",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.34184",
+      "doi": "",
+      "official_id": "arXiv:2609.34184",
+      "paper_url": "https://arxiv.org/abs/2609.34184",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Structured sparsity over attention heads and FFN neurons is relevant to sparsity, though used mainly to reduce model-merging interference rather than runtime cost.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Sparsity / Pruning",
+        "Efficient Attention"
       ]
     },
     {
@@ -98121,6 +98894,28 @@
       "is_latest_30d": false,
       "directions": [
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "RAGWarrant: Evidence-Preserving Governance for RAG Policy Promotion Under Quality, Cost, Latency, and Risk Constraints",
+      "venue": "arXiv 2026",
+      "topic": "Efficient ML / systems",
+      "arxiv": "2609.34179",
+      "doi": "",
+      "official_id": "arXiv:2609.34179",
+      "paper_url": "https://arxiv.org/abs/2609.34179",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "RAG policy promotion governance jointly considers cost, latency and risk, but not a demonstrated serving optimizer.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference"
       ]
     },
     {
@@ -103648,6 +104443,29 @@
       ]
     },
     {
+      "title": "Faultless: A Program Equivalence Technique for Validating and Evaluating Neural Decompilers",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.34089",
+      "doi": "",
+      "official_id": "arXiv:2609.34089",
+      "paper_url": "https://arxiv.org/abs/2609.34089",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Official arXiv primary abstract: Neural decompilers are machine learning models which perform the process of decompilation, lifting code from a lower-level language to a higher one. Neural decompilers offer substantial util. Related application or protected embodied/agent research without strong general acceleration evidence.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "SkNeXt enables topology-guided neuronal reconstruction from petabyte-scale microscopy data",
       "venue": "arXiv 2026",
       "topic": "sparsity/pruning",
@@ -106115,6 +106933,27 @@
         "Multimodal / MLLM Serving",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Improving Large Language Models for Code through Runtime Program-State Reasoning",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.34359",
+      "doi": "",
+      "official_id": "arXiv:2609.34359",
+      "paper_url": "https://arxiv.org/abs/2609.34359",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Comet-9B program-state reasoning improves coding-agent correctness, without evidence of reduced tokens, latency or RL training cost.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -109436,6 +110275,49 @@
       ]
     },
     {
+      "title": "Waggle: Learning One Anonymous Local Law for Self-Organizing LLM Swarms",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems",
+      "arxiv": "2609.34136",
+      "doi": "",
+      "official_id": "arXiv:2609.34136",
+      "paper_url": "https://arxiv.org/abs/2609.34136",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Waggle 共享局部策略替代显式 Agent 角色与拓扑，在线组织有潜在协调效率价值，但无成本指标。",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Unified Visual-Tactile-Action Modeling from Human Demonstrations for Dexterous Manipulation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving",
+      "arxiv": "2609.34182",
+      "doi": "",
+      "official_id": "arXiv:2609.34182",
+      "paper_url": "https://arxiv.org/abs/2609.34182",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "人类示范视觉触觉动作联合建模，Physical AI policy 数据效率邻接方向，未提供 serving 系统加速。",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Predictive Semantic Safety: From Visual Physical Reasoning to Safety-Critical Control",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving",
@@ -109457,6 +110339,29 @@
         "Multimodal / MLLM Serving",
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Emergence, Not Bandwidth: Physical Coupling and the Limits of Learned Multi-Agent Communication",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems",
+      "arxiv": "2609.34373",
+      "doi": "",
+      "official_id": "arXiv:2609.34373",
+      "paper_url": "https://arxiv.org/abs/2609.34373",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "限带宽多智能体通信的理论压缩边界，相关但未体现 ML inference 部署。",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -114655,6 +115560,49 @@
       ]
     },
     {
+      "title": "K-OPSD: Verifiable On-Policy Self-Distillation for Post-Training Vision-Language Models on AEC Drawings",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.34082",
+      "doi": "",
+      "official_id": "arXiv:2609.34082",
+      "paper_url": "https://arxiv.org/abs/2609.34082",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "K-OPSD: Verifiable On-Policy Self-Distillation for Post-Training Vision-Language Models on AEC Drawings has algorithmic or systems adjacency to the tracked Efficient ML/Physical AI landscape, but the abstract lacks convincing measured resource gains.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "When Is an SAE Feature Interpretable? A Validation Ladder for EEG Foundation Models",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.34091",
+      "doi": "",
+      "official_id": "arXiv:2609.34091",
+      "paper_url": "https://arxiv.org/abs/2609.34091",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "When Is an SAE Feature Interpretable? A Validation Ladder for EEG Foundation Models has algorithmic or systems adjacency to the tracked Efficient ML/Physical AI landscape, but the abstract lacks convincing measured resource gains.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "What Does a Stream Model Buy You in Flow Matching?",
       "venue": "arXiv 2026",
       "topic": "",
@@ -114695,6 +115643,29 @@
       "is_latest_30d": false,
       "directions": [
         "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Geometric Encoding for Spatial Reasoning in Vision-Language Models",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.34148",
+      "doi": "",
+      "official_id": "arXiv:2609.34148",
+      "paper_url": "https://arxiv.org/abs/2609.34148",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Geometric Encoding for Spatial Reasoning in Vision-Language Models has algorithmic or systems adjacency to the tracked Efficient ML/Physical AI landscape, but the abstract lacks convincing measured resource gains.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
       ]
     },
@@ -114761,6 +115732,27 @@
       "is_latest_30d": false,
       "directions": [
         "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Improving Indirect Branch Prediction in Interpreters via Hardware/Software Co-Design",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.34263",
+      "doi": "",
+      "official_id": "arXiv:2609.34263",
+      "paper_url": "https://arxiv.org/abs/2609.34263",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Improving Indirect Branch Prediction in Interpreters via Hardware/Software Co-Design has algorithmic or systems adjacency to the tracked Efficient ML/Physical AI landscape, but the abstract lacks convincing measured resource gains.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
         "VLA / WAM / Physical AI"
       ]
     },
@@ -122924,6 +123916,27 @@
       "is_latest_30d": false,
       "directions": [
         "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "WAM-OPD: Sharpening World Action Models via On-Policy Distillation",
+      "venue": "arXiv 26",
+      "topic": "vla_wam",
+      "arxiv": "2609.34250",
+      "doi": "",
+      "official_id": "arXiv:2609.34250",
+      "paper_url": "https://arxiv.org/abs/2609.34250",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Official arXiv abstract and systems evidence reviewed for targeted Physical-AI recall. WTR therefore reweights per-decision distillation losses using proxy importance weights derived from path scores accumulated over the trajectory prefix preceding each decision to mitigate the resulting shift in the history distribution. Simulated and real-world experiments demonstrate task adaptation without additional environment interaction during distillation. In both settings, WAM-OPD improves target-task performance while retaining near-initial performance on tasks excluded from adaptation.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
         "VLA / WAM / Physical AI"
       ]
     },
@@ -162463,6 +163476,52 @@
       ]
     },
     {
+      "title": "You Can't Have It Both Ways: Concept Entanglement Limits Diffusion Model Unlearning",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.34137",
+      "doi": "",
+      "official_id": "arXiv:2609.34137",
+      "paper_url": "https://arxiv.org/abs/2609.34137",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Official arXiv abstract reviewed; relevant to neighboring ML/agent/physical-AI topics but insufficient primary efficient-serving evidence. Concept unlearning in text-to-image diffusion models aims to suppress a target concept (e.g., \\texttt{horse}) while preserving related but distinct content (e.g., \\texttt{donkey}),",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving",
+        "Diffusion / Flow Acceleration",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Quantitative Measurement of Language Distance among Closely Related Indo-European Languages Using Pretrained Language Models: A Case Study on the North Germanic Branch",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.34152",
+      "doi": "",
+      "official_id": "arXiv:2609.34152",
+      "paper_url": "https://arxiv.org/abs/2609.34152",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Official arXiv abstract reviewed; relevant to neighboring ML/agent/physical-AI topics but insufficient primary efficient-serving evidence. Among closely related North Germanic languages, the quantification of language distance has traditionally relied on qualitative methods, lacking a unified multi-dimensional computa",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "MemPoison: Bypassing Selective Memory Mechanisms to Plant Backdoors in LLM Agents",
       "venue": "arXiv 2026",
       "topic": "",
@@ -166725,6 +167784,184 @@
       "is_latest_30d": false,
       "directions": [
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "The Missing Touch: Spatially Distributed Tactile Feedback Brings Teleoperation Closer to Human Dexterity",
+      "venue": "arXiv 26",
+      "topic": "robot_cache",
+      "arxiv": "2608.19372",
+      "doi": "",
+      "official_id": "arXiv:2608.19372",
+      "paper_url": "https://arxiv.org/abs/2608.19372",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Official arXiv abstract and systems evidence reviewed for targeted Physical-AI recall. ion of the tactile feedback$\\unicode{x2014}$by refining how finely the measured displacements were quantized for reproduction$\\unicode{x2014}$compressed the state-space distribution of teleoperated motions, which has been associated with improved training outcomes for autonomous robot policies. Together, these results suggest that spatially distributed tactile feedback is essential for closing the gap between human and teleoperated dexterity and training the next generation of autonomous robots.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Quantization",
+        "Distributed Training / Inference",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Dissecting Motion-Prior Regularization for Data-Scarce Robotic Insertion",
+      "venue": "arXiv 26",
+      "topic": "action_flow",
+      "arxiv": "2609.17484",
+      "doi": "",
+      "official_id": "arXiv:2609.17484",
+      "paper_url": "https://arxiv.org/abs/2609.17484",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Official arXiv abstract and systems evidence reviewed for targeted Physical-AI recall. 0 (86.3%) for speed-curvature only, 66/80 (82.5%) for neither prior, and 67/80 (83.8%) for generic smoothness. Success rates and Wilson 95% confidence intervals are visualized for direct comparison. Joint regularization exceeded neither by 5.0 percentage points but provided no observed gain over minimum jerk alone. The results motivate minimum jerk as the simpler candidate for replication, without establishing synergy, biomechanical specificity, improved safety, or distribution-shift robustness.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Deferred Exposure of Future Trajectories for Verifiable Reasoning in Autonomous Driving VLMs",
+      "venue": "arXiv 26",
+      "topic": "vla_wam",
+      "arxiv": "2608.01755",
+      "doi": "",
+      "official_id": "arXiv:2608.01755",
+      "paper_url": "https://arxiv.org/abs/2608.01755",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Official arXiv abstract and systems evidence reviewed for targeted Physical-AI recall. her, we propose Deferred Exposure of Future Trajectories for RLVR (DEFT-RLVR) to transform future trajectories from pre-decision anchors into post-decision verification targets. Experimental results show that DEFT-RLVR improves AD reasoning while preserving or even enhancing general visual capabilities. With VLM-only inference and controllable difficulty through candidate construction, AD-MCQ provides a flexible, scalable, and extensible foundation for future research on verifiable AD reasoning.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "RoboSynChallenge: Mastering Real-World Dexterity via Generalizing Synthesized Manipulation Skills",
+      "venue": "arXiv 26",
+      "topic": "vla_wam",
+      "arxiv": "2608.12416",
+      "doi": "",
+      "official_id": "arXiv:2608.12416",
+      "paper_url": "https://arxiv.org/abs/2608.12416",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Official arXiv abstract and systems evidence reviewed for targeted Physical-AI recall. on unseen real-world manipulation environments. Baseline implementations, including Transformer-, Diffusion-, Vision-Language-Action, and World-Action-Model-based policies, are provided to ensure reproducibility and comparability. By coupling scalable simulation-based training with rigorous real-world validation, RoboSynChallenge aims to foster the development of broadly capable, data-efficient, and adaptable manipulation systems, thereby paving the way toward truly general robotic intelligence.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Multimodal / MLLM Serving",
+        "Diffusion / Flow Acceleration",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "InstructMove: A Text-Indispensable Benchmark for Instruction-Following Manipulation",
+      "venue": "arXiv 26",
+      "topic": "vla_wam",
+      "arxiv": "2608.22990",
+      "doi": "",
+      "official_id": "arXiv:2608.22990",
+      "paper_url": "https://arxiv.org/abs/2608.22990",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Official arXiv abstract and systems evidence reviewed for targeted Physical-AI recall.  reasoning, and compositional pick-and-place. InstructMove supports a train-eval protocol with InstructMove training data and held-out evaluation tasks, with additional diagnostics for language dependence. Experiments with representative VLA policies show that InstructMove provides a controlled testbed for diagnosing visual shortcuts and that InstructMove simulation data can improve real-world instruction-following manipulation performance. Code: https://github.com/HorizonRobotics/RoboOrchardSim",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "PAWBench: How Far Are We from Probabilistically Aligned World Modeling?",
+      "venue": "arXiv 26",
+      "topic": "streaming_world",
+      "arxiv": "2608.27345",
+      "doi": "",
+      "official_id": "arXiv:2608.27345",
+      "paper_url": "https://arxiv.org/abs/2608.27345",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Official arXiv abstract and systems evidence reviewed for targeted Physical-AI recall. ollouts into empirical distributions over possible physical behaviors. Across 50 scenarios and eleven current systems, no model consistently matches the reference probabilities while recovering the range of valid behaviors. Having established this gap, we test whether language prompts, initial noise sampling, or model training can reshape the model's predictive distribution. We believe our work can serve as a foundation for future efforts to move towards probabilistically aligned world modeling.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "EgoPathBench: Evaluating Zero-Shot Egocentric Waypoint Decision-Making in Vision-Language Models",
+      "venue": "arXiv 26",
+      "topic": "cloud_edge",
+      "arxiv": "2609.16610",
+      "doi": "",
+      "official_id": "arXiv:2609.16610",
+      "paper_url": "https://arxiv.org/abs/2609.16610",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Official arXiv abstract and systems evidence reviewed for targeted Physical-AI recall.  success on Point Path, but only 2.9% and 4.0% on Embodied Path and Intent Path, respectively, showing that current models remain limited in forming complete, goal-consistent routes under embodiment constraints. Beyond the evaluation data, we release the corresponding training resource. Fine-tuning Qwen 3.5 4B on the released training split raises its EgoPath Score from 3.9 to 38.9 and improves all four reported evaluations across three external spatial benchmarks, with gains of 1.4--9.6 points.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "VABench: Measuring Embodied Spatial Intelligence through Visual Demonstrations, Active Perception, and Metric Control",
+      "venue": "arXiv 26",
+      "topic": "action_flow",
+      "arxiv": "2609.19554",
+      "doi": "",
+      "official_id": "arXiv:2609.19554",
+      "paper_url": "https://arxiv.org/abs/2609.19554",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Official arXiv abstract and systems evidence reviewed for targeted Physical-AI recall. 93+/-3.17%. Second, active camera control significantly improves task success over passive multi-view observation. In one matched comparison, success rises from 27.86% to 57.50%. Third, held-out geometric transfer can reduce task success by over 30 percentage points. No model completes a strict long-horizon episode, despite substantial partial progress. VA-Bench thus tests whether general-purpose MLLMs can turn visual demonstrations and actively acquired evidence into successful embodied action.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     }
   ]

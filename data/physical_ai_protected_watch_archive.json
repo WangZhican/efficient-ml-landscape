@@ -1204,6 +1204,28 @@
     ]
   },
   {
+    "title": "WB-WAM: Heterogeneous Body-Hand Pre-training for Humanoid Loco-Manipulation",
+    "venue": "arXiv 2026",
+    "topic": "",
+    "arxiv": "2609.34199",
+    "doi": "",
+    "official_id": "arXiv:2609.34199",
+    "paper_url": "https://arxiv.org/abs/2609.34199",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "WAM4D: Fast 4D World Action Model via Spatial Register Tokens",
     "venue": "arXiv 2026",
     "topic": "VLA/WAM/Physical AI / training-time geometry / lightweight action inference",
@@ -6257,6 +6279,27 @@
     ]
   },
   {
+    "title": "RoboICL: Embodied In-Context Learning with GPT-6 Astra",
+    "venue": "arXiv 2026",
+    "topic": "",
+    "arxiv": "2609.34261",
+    "doi": "",
+    "official_id": "arXiv:2609.34261",
+    "paper_url": "https://arxiv.org/abs/2609.34261",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "RoboHarness: Memory-Driven Orchestration of Heterogeneous Robot Policies for Long-Horizon Planning",
     "venue": "arXiv 2026",
     "topic": "physical,vla,wam,agent_systems",
@@ -9724,6 +9767,27 @@
     "directions": [
       "LLM Serving",
       "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "NavHarness: Towards Lifelong Embodied Navigation",
+    "venue": "arXiv 2026",
+    "topic": "",
+    "arxiv": "2609.34276",
+    "doi": "",
+    "official_id": "arXiv:2609.34276",
+    "paper_url": "https://arxiv.org/abs/2609.34276",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
       "VLA / WAM / Physical AI"
     ]
   },
@@ -14605,6 +14669,27 @@
     ]
   },
   {
+    "title": "GAE: General Action Expert for Real-Time Humanoid Teleoperation",
+    "venue": "arXiv 2026",
+    "topic": "",
+    "arxiv": "2609.34233",
+    "doi": "",
+    "official_id": "arXiv:2609.34233",
+    "paper_url": "https://arxiv.org/abs/2609.34233",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "Protected Physical-AI work with explicit low-latency humanoid teleoperation and latency-conditioned anticipation, validated on real Unitree G1 and Westlake O1 robots.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "G3AR: Graph-Guided Neural Visual Geometry for Scalable Multi-Sequence Aerial Registration",
     "venue": "arXiv 2026",
     "topic": "",
@@ -14689,6 +14774,27 @@
     "is_latest_30d": false,
     "directions": [
       "LLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "FutureDuet: Decoupling Observation Access from Future Supervision in World Action Models",
+    "venue": "arXiv 2026",
+    "topic": "",
+    "arxiv": "2609.34362",
+    "doi": "",
+    "official_id": "arXiv:2609.34362",
+    "paper_url": "https://arxiv.org/abs/2609.34362",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
       "VLA / WAM / Physical AI"
     ]
   },
@@ -15757,6 +15863,28 @@
     "directions": [
       "LLM Serving",
       "Sparsity / Pruning",
+      "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "FailPatch: Failure Residual Patching for Vision-Language-Action Models",
+    "venue": "arXiv 2026",
+    "topic": "",
+    "arxiv": "2609.34175",
+    "doi": "",
+    "official_id": "arXiv:2609.34175",
+    "paper_url": "https://arxiv.org/abs/2609.34175",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
       "Multimodal / MLLM Serving",
       "VLA / WAM / Physical AI"
     ]
@@ -19738,6 +19866,28 @@
     ]
   },
   {
+    "title": "CAR-VLA: Complexity-Aware and Risk-Adaptive Reasoning for Autonomous Driving",
+    "venue": "arXiv 2026",
+    "topic": "",
+    "arxiv": "2609.34387",
+    "doi": "",
+    "official_id": "arXiv:2609.34387",
+    "paper_url": "https://arxiv.org/abs/2609.34387",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "Protected VLA work explicitly adapts reasoning depth/mode to scene complexity and dynamic risk, relevant to adaptive test-time compute in autonomous driving.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "CapsuleMotion: A Lightweight Real-Time Visual Motion Predictor for Capsule Endoscopy",
     "venue": "arXiv 2026",
     "topic": "",
@@ -21658,6 +21808,28 @@
       "Multimodal / MLLM Serving",
       "Video / Image Generation",
       "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "AGILE-GS: Anchor-Guided Fast Next-Best-View Selection for Active 3D Gaussian Splatting",
+    "venue": "arXiv 2026",
+    "topic": "physical_ai",
+    "arxiv": "2609.34176",
+    "doi": "",
+    "official_id": "arXiv:2609.34176",
+    "paper_url": "https://arxiv.org/abs/2609.34176",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Video / Image Generation",
       "VLA / WAM / Physical AI"
     ]
   },

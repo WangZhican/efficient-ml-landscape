@@ -1,10 +1,10 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **3913 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **3941 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
-## arXiv 2026 · 1285
+## arXiv 2026 · 1313
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -45,6 +45,7 @@
 | **Canonical** | **ActionSplice: In-Flight Action Editing for Interactive World Models** | arXiv 2026 | VLA/WAM/Physical AI serving / interactive world models / inference runtime | [Link](https://arxiv.org/abs/2609.08230) | — |
 | **Canonical** | **Activation-Informed Pareto-Guided Low-Rank Compression for Efficient LLM/VLM** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2510.05544) | — |
 | **Canonical** | **ActKV: Efficient LLM Agents through Action-Guided KV Cache Management** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.31395) | — |
+| **Canonical** | **AD-E2E-JEPA: A Joint-Embedding Predictive Architecture For End-to-End Autonomous Driving** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34085) | — |
 | **Canonical** | **Ada3Drift: Adaptive Training-Time Drifting for One-Step 3D Visuomotor Robotic Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2603.11984) | — |
 | **Canonical** | **AdaFlash: Adaptive Speculative Decoding via On-Policy Distilled Diffusion Drafters** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2607.19223) | — |
 | **Canonical** | **AdaptInfer: Adaptive Token Pruning for Vision-Language Model Inference via Dynamical Text Guidance** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2508.06084) | — |
@@ -155,6 +156,7 @@
 | **Canonical** | **Breaking the 1.58-bit Barrier for Ternary LLMs** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2609.16338) | — |
 | **Canonical** | **Breaking the Duplex Barrier: Lane-Granularity OCS Scheduling for LLM Training** | arXiv 2026 | distributed_llm_training | [Link](https://arxiv.org/abs/2609.14253) | — |
 | **Canonical** | **Bridging LLM Serving and CXL-SSDs with Chunk-Aware KV Cache Management** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.26828) | — |
+| **Canonical** | **Broken Symmetry in BF16 Attention: Why FlashAttention Gradients Blow Up Late in Training** | arXiv 2026 | efficient attention | [Link](https://arxiv.org/abs/2609.34272) | — |
 | **Canonical** | **Budget-Aware LLM Discovery via Cost-Calibrated Frontier Utility** | arXiv 2026 | reasoning_agent | [Link](https://arxiv.org/abs/2607.26828) | — |
 | **Canonical** | **Building py-kvcache: A Performance Characterization of External KV Caching for vLLM with NVMe SSDs** | arXiv 2026 | LLM serving / KV cache / NVMe offload | [Link](https://arxiv.org/abs/2609.11744) | — |
 | **Canonical** | **Cache-Aware Conv3D Lowering Across Embedded World-Model Decoders** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.31938) | — |
@@ -173,6 +175,7 @@
 | **Canonical** | **Carryover Drafting: Recycling Rejected States for Speculative Decoding** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.14717) | — |
 | **Canonical** | **Cartograph: Federated Tool Discovery with Operator-Attested Retrieval for AI Agents** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.30293) | — |
 | **Canonical** | **CascadeEP: Asynchronous Expert Execution for MoE Prefill under Attention Imbalance** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33252) | — |
+| **Canonical** | **CAST: Reconstruction-Coupled Acceleration of Interactive World Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34144) | — |
 | **Canonical** | **Catch Me If You Can: Real-Time Feedback Denoising for Responsive VLAs** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2609.21022) | — |
 | **Canonical** | **CATS: A Carbon-Aware Task Simulator for Reducing AI Data Center Emissions** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2609.14775) | — |
 | **Canonical** | **Causal Forcing++: Scalable Few-Step Autoregressive Diffusion Distillation for Real-Time Interactive Video Generation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2605.15141) | — |
@@ -197,6 +200,7 @@
 | **Canonical** | **CodeNib: A Multi-View Data System for Serving Repository Context to Coding Agents** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2607.25431) | — |
 | **Canonical** | **CodeScaler: Scaling Code LLM Training and Test-Time Inference via Reward Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2602.17684) | — |
 | **Canonical** | **Codifying the Judge: Scalable Evaluation via Program Distillation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2607.22561) | — |
+| **Canonical** | **CoeF-SFL: Preserving Collaborative Server-Client Learning with Enhanced Communication Efficiency** | arXiv 2026 | distributed_training,communication_efficiency | [Link](https://arxiv.org/abs/2609.34360) | — |
 | **Canonical** | **CoFiE: Coarse-to-Fine Evidence Selection for Efficient Streaming Video Understanding** | arXiv 2026 | multimodal/MLLM serving / sparsity / streaming video | [Link](https://arxiv.org/abs/2609.03675) | — |
 | **Canonical** | **CoFlow: Coordinated Few-Step Flow for Offline Multi-Agent Decision Making** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2605.01457) | — |
 | **Canonical** | **COGNIT-Guard: Calibrated Standalone Direct-Decision Guardrails with Heterogeneous CPU-NPU Confidence Cascading under Explicit Latency and False-Positive Constraints** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33671) | — |
@@ -206,6 +210,7 @@
 | **Canonical** | **Commit Locally, Exit Globally: Coordinating Adaptive Sampling and Early Exit in Diffusion Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2607.28166) | — |
 | **Canonical** | **Communication-Aware Model Distributed Inference via Latent Representation Compression** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.30413) | — |
 | **Canonical** | **Communication-Efficient LLM Adaptation over Decentralized GPU Meshes** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2609.14339) | — |
+| **Canonical** | **Commutator Memory: Sparse, Path-Local Reading and Steering in Language Models** | arXiv 2026 | kv_long_context | [Link](https://arxiv.org/abs/2609.34348) | — |
 | **Canonical** | **Compact Feed-Forward 3D Gaussians via Saliency-Guided Primitive Merging** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2608.10712) | — |
 | **Canonical** | **CompactAttention: Accelerating Chunked Prefill with Block-Union KV Selection** | arXiv 2026 | llm_serving,kv,sparse,attn | [Link](https://arxiv.org/abs/2605.16839) | — |
 | **Canonical** | **COMPASS-ABS: Reducing Fragmentation in Shared GPU Clusters for Deep Learning Training Workloads** | arXiv 2026 | distributed training/inference | [Link](https://arxiv.org/abs/2609.18519) | — |
@@ -308,6 +313,8 @@
 | **Canonical** | **Does Transolver really need a Transformer?** | arXiv 2026 | GPU kernel/DSL/compilers | [Link](https://arxiv.org/abs/2609.32525) | — |
 | **Canonical** | **Don't let your Memory defy you: Fragmentation-Aware Serverless Allocation with Elastic Memory Locality** | arXiv 2026 | LLM serving; memory/runtime systems | [Link](https://arxiv.org/abs/2609.26476) | — |
 | **Canonical** | **Dooly: Configuration-Agnostic, Redundancy-Aware Profiling for LLM Inference Simulation** | arXiv 2026 | LLM serving profiling/simulation | [Link](https://arxiv.org/abs/2605.07985) | — |
+| **Canonical** | **DORA: Dynamic Online Reinforcement Agent for Token Pruning in Vision Transformers** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34325) | — |
+| **Canonical** | **DPS: Dual-Mode Precision LLM Serving with Semi-Unified Memory** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34380) | — |
 | **Canonical** | **DR-MPC: Fast and Feasible Dynamics-Relaxed Model-Predictive Control for Legged Locomotion** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.20035) | — |
 | **Canonical** | **Dr. MAS: Stable Reinforcement Learning for Multi-Agent LLM Systems** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2602.08847) | — |
 | **Canonical** | **Draft-OPD: On-Policy Distillation for Speculative Draft Models** | arXiv 2026 | speculative_decoding | [Link](https://arxiv.org/abs/2605.29343) | — |
@@ -349,6 +356,7 @@
 | **Canonical** | **Efficient Pre-Training of LLMs through Truncated SVD Representations** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2605.28573) | — |
 | **Canonical** | **Efficient Reasoning Distillation: Small Video-Language Models via Synthetic CoT and Difficulty-Aware Fine-Tuning** | arXiv 2026 | multimodal,distillation,edge_ai | [Link](https://arxiv.org/abs/2609.16255) | — |
 | **Canonical** | **Efficient Reasoning Exploration via State-Conditioned Latent Steering with Progress Guidance** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.24066) | — |
+| **Canonical** | **Efficient Reasoning via Constrained Optimization in Latent Space** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34181) | — |
 | **Canonical** | **Efficient Semantic Understanding from Digital Foveation** | arXiv 2026 | VLA/WAM/Physical AI serving / active vision / adaptive compute | [Link](https://arxiv.org/abs/2609.04088) | — |
 | **Canonical** | **Efficient Training on Multiple Consumer GPUs with RoundPipe** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2604.27085) | — |
 | **Canonical** | **Efficient Vision-Language-Action Management and Serving for Robot Factories** | arXiv 2026 | VLA/WAM/Physical AI serving / multi-robot multi-model edge serving / SLO-aware multi-GPU runtime | [Link](https://arxiv.org/abs/2609.12075) | — |
@@ -368,6 +376,7 @@
 | **Canonical** | **Energy-Aware Scheduling for Serverless LLM Serving on Shared GPUs** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2606.30391) | — |
 | **Canonical** | **Energy-efficient operation of neural operators for virtual sensing** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.30580) | — |
 | **Canonical** | **EntmaxKV: Support-Aware Decoding for Entmax Attention** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2605.21649) | — |
+| **Canonical** | **EntroPack: Fast and Accurate Entropy-Coded Weight Compression at Arbitrary Bitrates** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34185) | — |
 | **Canonical** | **Entropy Can Flow, or It Can Guide. Be Entropy. LEDFlow: Introducing Entropy-guided Generation Order into Uniform Discrete Flow** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.25131) | — |
 | **Canonical** | **Entwine: Coordinating Tiled Computation and Fine-Grained Communication across GPUs** | arXiv 2026 | distributed training/inference / GPU communication overlap / tensor parallelism | [Link](https://arxiv.org/abs/2609.11562) | — |
 | **Canonical** | **EPIC: Efficient and Parallel Inference under CFG Constraints for Diffusion Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2606.00722) | — |
@@ -453,6 +462,7 @@
 | **Canonical** | **FoldAttention: Declared-Reference Softmax for Fast Decode and Deterministic Backward** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33410) | — |
 | **Canonical** | **FoldQuantVLA: Native Low-Bit Quantization of Vision-Language-Action Models via Consistent Folding** | arXiv 2026 | VLA quantization/Physical AI | [Link](https://arxiv.org/abs/2609.24433) | — |
 | **Canonical** | **Following a Unique Path: A Fast Certifier Applied to Outlier-Robust Pose Registration** | arXiv 2026 | VLA/WAM/Physical AI serving / robotic perception / optimization runtime | [Link](https://arxiv.org/abs/2609.03222) | — |
+| **Canonical** | **FORGE: Form-Optimal Routing of Grounded Evidence for Frozen LLM Agents** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34358) | — |
 | **Canonical** | **ForgeMegakernel: A General Framework for Efficient Auto-Regressive Model Decode Megakernels** | arXiv 2026 | GPU kernel/DSL/compilers / LLM serving / decode megakernel generation | [Link](https://arxiv.org/abs/2609.12379) | — |
 | **Canonical** | **ForgeStencil: Automating Per-Case Stencil Specialization from Kernels to 100+ Real Applications** | arXiv 2026 | GPU kernel/DSL/compilers / code-generation agents / CUDA specialization | [Link](https://arxiv.org/abs/2609.06694) | — |
 | **Canonical** | **ForgeTrain: Forging Production-Grade Training Frameworks via Harness-Driven AI Development** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.13645) | — |
@@ -470,6 +480,7 @@
 | **Canonical** | **From Monolithic Blending to Agentic Orchestration: Dynamic Response for Conversational Assistants at Scale** | arXiv 2026 | efficient reasoning/agent systems / production conversational serving / orchestration / GPU footprint | [Link](https://arxiv.org/abs/2609.05758) | — |
 | **Canonical** | **From Position Risks to Block Survival: Faster Generation for Diffusion Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33390) | — |
 | **Canonical** | **From Prediction to Decision: World-Model-Guided Action Selection for Continuous Pile Excavation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.15382) | — |
+| **Canonical** | **From Static to Dynamic: On-Policy Distillation from Image to Video Diffusion Models** | arXiv 2026 | video_generation,diffusion,distillation | [Link](https://arxiv.org/abs/2609.34371) | — |
 | **Canonical** | **From Token Importance to Conditional Removability: Rethinking Visual Token Pruning in Multimodal Large Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.26484) | — |
 | **Canonical** | **G$^2$PTQ: Improving LLM Post-Training Quantization with Generalized Gradient Compensation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.31009) | — |
 | **Canonical** | **G$^2$TR: Generation-Guided Visual Token Reduction for Separate-Encoder Unified Multimodal Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2605.12309) | — |
@@ -525,6 +536,7 @@
 | **Canonical** | **HDA-MoE: Hybrid Parallelism and Dynamic, Adaptive Scheduling for Mixture-of-Experts with 3D Near-Memory Processing** | arXiv 2026 | MoE systems/accelerators / 3D near-memory processing / hybrid parallelism / runtime scheduling | [Link](https://arxiv.org/abs/2609.08682) | — |
 | **Canonical** | **HEAT: Faster Fully Homomorphic Inference via Approximations-Weights Co-Adaptation** | arXiv 2026 | LLM serving / privacy-preserving inference / FHE acceleration | [Link](https://arxiv.org/abs/2609.01730) | — |
 | **Canonical** | **HeatCache: Thermal-aware Energy-efficient LLM Inference Scheduling for Chassis-level Liquid Cooling in Sustainable Edge Server Rooms** | arXiv 2026 | LLM serving / edge inference / thermal-aware scheduling / energy efficiency | [Link](https://arxiv.org/abs/2609.12449) | — |
+| **Canonical** | **Heddle: Learning Structural Templates for Parallelism Planning on Heterogeneous GPU Clusters** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34244) | — |
 | **Canonical** | **Heterogeneous Memory Design Exploration for AI Accelerators with a Gain Cell Memory Compiler** | arXiv 2026 | edge/cloud/heterogeneous AI systems; AI accelerator memory; SRAM/GCRAM; compiler; hardware design-space exploration | [Link](https://arxiv.org/abs/2602.21278) | — |
 | **Canonical** | **HeteroReason: Heterogeneous FPGA-GPU Acceleration for Disaggregated Speculative Reasoning** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2609.28717) | — |
 | **Canonical** | **HEXIS: Compiling Skills into Extended Finite State Machines** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.30123) | — |
@@ -542,6 +554,7 @@
 | **Canonical** | **History-Conditioned Spatio-Temporal Visual Token Pruning for Efficient Vision-Language Navigation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2603.06480) | — |
 | **Canonical** | **HLSmith: An Expert-Guided Agentic Framework for C/C++-to-HLS Translation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2608.06791) | — |
 | **Canonical** | **HO-SFL: Hybrid-Order Split Federated Learning with Backprop-Free Clients and Dimension-Free Aggregation** | arXiv 2026 | distributed | [Link](https://arxiv.org/abs/2603.14773) | — |
+| **Canonical** | **HOCCL: Offloading Collective Communication from GPU Cores to Accelerate Distributed Training** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34334) | — |
 | **Canonical** | **HoliBench: A Cross-Platform Benchmarking and Deployment Toolkit for Foundation Models in CPS-IoT Applications** | arXiv 2026 | edge/cloud/heterogeneous AI systems / benchmarking / deployment | [Link](https://arxiv.org/abs/2609.12412) | — |
 | **Canonical** | **Honeycomb: Constant-Size Scene Memory Representation for Video World Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.37690) | — |
 | **Canonical** | **HoneyRoute: Honeypot-Model Routing for Adversarial LLM Serving** | arXiv 2026 | LLM serving / routing / security-aware inference | [Link](https://arxiv.org/abs/2609.08306) | — |
@@ -552,6 +565,7 @@
 | **Canonical** | **Hybrid GPU-CPU Retrieval for Personalized Search at Ultra-Large Scale** | arXiv 2026 | edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.21281) | — |
 | **Canonical** | **HybridFlow: A 2-NFE Generative Policy for Real-Time Robotic Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2602.13718) | — |
 | **Canonical** | **HybridFLow: SDN-Orchestrated Client Partitioning for Hybrid Federated Learning** | arXiv 2026 | distributed training / edge-cloud / federated learning / network-aware scheduling | [Link](https://arxiv.org/abs/2609.10404) | — |
+| **Canonical** | **HyDra: Demystifying and Taming Dynamic Context Parallelism at Production Scale** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34318) | — |
 | **Canonical** | **HyGra: Accelerating Network-State Simulation for LLM Training in DCNs via Adaptive Packet-Flow Granularity** | arXiv 2026 | distributed training/inference / network simulation / AI infrastructure | [Link](https://arxiv.org/abs/2603.12671) | — |
 | **Canonical** | **HyperMCTS: Hypergraph-Augmented MCTS for Long-Horizon LLM Agents** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33920) | — |
 | **Canonical** | **HyperParallel-FSDP: Topology-Aware Fully Sharded Training with Layout-Driven Muon on Ascend SuperPods** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.21594) | — |
@@ -670,6 +684,7 @@
 | **Canonical** | **LOCUS: Task-Aware Low-Rank Post-Training for Token-Efficient Language Generation** | arXiv 2026 | LLM serving / efficient reasoning / output-token reduction | [Link](https://arxiv.org/abs/2609.11739) | — |
 | **Canonical** | **LOIP:Collaborative Lossless LLM Inference Serving with Offloading-based Pipeline Parallelism on Edge Devices** | arXiv 2026 | edge/cloud heterogeneous AI systems; LLM serving | [Link](https://arxiv.org/abs/2512.21835) | — |
 | **Canonical** | **Long-Context Demonstration Selection Using State Space Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.17888) | — |
+| **Canonical** | **Look Before You Select: Rethinking Vocabulary Sparsification in On-Policy Distillation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34386) | — |
 | **Canonical** | **Loom: Weaving Diagnostic Strands into Free-Text Consensus via Embedding-Space Reweighting** | arXiv 2026 | efficient reasoning/agent systems / inference latency / consensus | [Link](https://arxiv.org/abs/2609.02649) | — |
 | **Canonical** | **Loop-Free Inverse Reinforcement Learning via Sequential Value Recovery with Q-Score Matching** | arXiv 2026 | physical_ai | [Link](https://arxiv.org/abs/2609.38955) | — |
 | **Canonical** | **LoopSpec: Pipelined Self-Speculative Decoding for Looped Transformers** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2609.17184) | — |
@@ -718,6 +733,7 @@
 | **Canonical** | **Metacognitive Selective Ensemble for Mobile Systems** | arXiv 2026 | edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.31031) | — |
 | **Canonical** | **MetaSampling: Making Frame Samplers Efficient for Long-Video Question Answering** | arXiv 2026 | multimodal,long_context,serving | [Link](https://arxiv.org/abs/2609.33998) | — |
 | **Canonical** | **Metro-WM: Long-Horizon Latent Planning with Realisable Sub-Goals** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2609.31868) | — |
+| **Canonical** | **MiCo: Mutual Information Coverage Optimization through Semantic Erasure Modeling for Efficient MLLM Inference** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34330) | — |
 | **Canonical** | **MILO: Efficient Many-shot In-Context Learning with Block-wise Low-rank Compression** | arXiv 2026 | KV cache/long-context | [Link](https://arxiv.org/abs/2609.29913) | — |
 | **Canonical** | **Min-Cost Flow Routing for Evidence Assembly in Long Multimodal Documents** | arXiv 2026 | multimodal/MLLM serving | [Link](https://arxiv.org/abs/2606.07235) | — |
 | **Canonical** | **Mind the Delay: Latency-aware Query Routing for Heterogeneous LLM pools** | arXiv 2026 | llm_serving,edge | [Link](https://arxiv.org/abs/2607.18253) | — |
@@ -851,6 +867,7 @@
 | **Canonical** | **Planner-as-Router: Joint Plan-Time Model Routing for Cost-Efficient Multi-Agent Workflows** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.32917) | — |
 | **Canonical** | **Point-MF: Stabilizing One-Step Mean Flows for Single-Image Point Cloud Reconstruction** | arXiv 2026 | diffusion/flow acceleration | [Link](https://arxiv.org/abs/2604.24586) | — |
 | **Canonical** | **Policy as Code: A Coroutine-Bridge Harness for Fast-Reasoning Reliability on CAR-bench** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.29251) | — |
+| **Canonical** | **PolyCIM: Improving Data Reuse in Digital CIM Accelerators with Polyhedral-Based Compilation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34351) | — |
 | **Canonical** | **Poodle: Seamlessly Scaling Down Large Language Models with Just-in-Time Model Replacement** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2512.05525) | — |
 | **Canonical** | **PopPy: Opportunistically Exploiting Parallelism in Python Agentic Workflows** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2605.18697) | — |
 | **Canonical** | **PORTER: Edge-Cloud Residency for Persistent 3D Scene Graph Memory** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33258) | — |
@@ -916,6 +933,7 @@
 | **Canonical** | **RAM-Net: Linear-Time Sequence Modeling with Sparsely Addressable State** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2602.11958) | — |
 | **Canonical** | **Random Attention: Rethinking KV Cache Eviction for Efficient Reasoning** | arXiv 2026 | KV cache/long-context / efficient reasoning / LLM serving | [Link](https://arxiv.org/abs/2609.03430) | [Repo](https://github.com/SalesforceAIResearch/Random-Attention) |
 | **Canonical** | **RankGround: Efficient High-Resolution GUI Grounding via Lightweight Reranker-Guided Crop Selection** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.18690) | — |
+| **Canonical** | **RAVEL: Asynchronous Rolling Inference for Flow-Based Vision-Language-Action Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34170) | — |
 | **Canonical** | **RayOrch: Programming and Executing Lineage-Controlled Multi-Grain Dataflows for Foundation-Model Data Preparation** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2609.18703) | — |
 | **Canonical** | **RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models** | arXiv 2026 | efficient attention / KV cache/long-context | [Link](https://arxiv.org/abs/2609.20971) | — |
 | **Canonical** | **REACH: Controller-Managed Long-Span ECC for HBM AI Inference** | arXiv 2026 | edge/cloud/heterogeneous AI systems / HBM reliability architecture | [Link](https://arxiv.org/abs/2609.10861) | — |
@@ -927,6 +945,7 @@
 | **Canonical** | **Reason What Matters: Retrieval-Grounded Reasoning for Universal Multimodal Embeddings** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.15296) | — |
 | **Canonical** | **Receiver-Conditioned Latent Communication gives 94% CacheBack** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.32046) | — |
 | **Canonical** | **Recency Forcing: Bridging the Long-Horizon Gap in Autoregressive Video Generation** | arXiv 2026 | video_generation_kv | [Link](https://arxiv.org/abs/2609.19729) | — |
+| **Canonical** | **Reciprocal Guidance: Orchestrating Draft and Verify Budgets for Advancing the Diffusion-AR Self-Speculation Frontier** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34388) | — |
 | **Canonical** | **Recovering Aggressively Pruned Vision-Language-Action Models with Offline Hidden-State Distillation** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2609.19579) | — |
 | **Canonical** | **Recursive Agent Optimization** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2605.06639) | — |
 | **Canonical** | **Recursive Block-Diagonal Coupling for Resource-Efficient Training of Vision Models** | arXiv 2026 | distributed | [Link](https://arxiv.org/abs/2605.23656) | — |
@@ -980,6 +999,7 @@
 | **Canonical** | **RoPE at the End of Its Rope? Theory, Diagnosis, and Mitigation of Long-Context Failures** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.39929) | — |
 | **Canonical** | **ROSS: Relearning from Self-Generated Rollouts through Selective Supervision** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.35954) | — |
 | **Canonical** | **RoutePack: Replay-Guided Expert Placement and Rollout Trajectory Scheduling for MoE Reinforcement Learning** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2608.12146) | — |
+| **Canonical** | **Routing Without Embeddings: Fast And Interpretable Routing With Regular Expressions** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34326) | — |
 | **Canonical** | **RR-Evict: Fine-Grained Prefix Cache Eviction beyond LRU for Agentic LLM Serving** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.32278) | — |
 | **Canonical** | **RT-HiSS: Ray Tracing Accelerated High Dimensional Vector Similarity Searches** | arXiv 2026 | GPU kernel/accelerators / vector search / heterogeneous GPU cores | [Link](https://arxiv.org/abs/2609.01975) | — |
 | **Canonical** | **RTP-LLM: High-Performance Alibaba LLM Inference Engine** | arXiv 2026 | LLM serving / KV cache / speculative decoding / quantization / multimodal serving | [Link](https://arxiv.org/abs/2605.29639) | [Repo](https://github.com/alibaba/rtp-llm) |
@@ -1052,6 +1072,8 @@
 | **Canonical** | **SkyEgg: Heterogeneity-Aware Hardware Synthesis via Equality Saturation** | arXiv 2026 | gpu_kernel | [Link](https://arxiv.org/abs/2511.15323) | — |
 | **Canonical** | **SlackDrive: Reclaiming Runtime Slack for Adaptive Driving Inference** | arXiv 2026 | WAM/Physical AI serving | [Link](https://arxiv.org/abs/2609.28064) | — |
 | **Canonical** | **SLICEChat: Progressive In-Encoder Token Pruning for Whole-Slide Pathology Language Models** | arXiv 2026 | Efficient ML | [Link](https://arxiv.org/abs/2609.24894) | — |
+| **Canonical** | **SlideDP: Scaling Host-Resident LLM Fine-Tuning Across Multiple GPUs** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34162) | — |
+| **Canonical** | **SlimWise: Decoupling Expert Pruning Across Prefill and Decode for Efficient MoE Serving** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34117) | — |
 | **Canonical** | **SLIP-VLA: Single-Step Latent Imagination for Policy Learning in Vision-Language-Action Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33575) | — |
 | **Canonical** | **SlipSense: Multimodal Tactile Learning for Low-Latency and Generalized Slip Detection** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.15910) | — |
 | **Canonical** | **Slot2Text: Object-Centric Visual Tokenization for Efficient and Spatially Traceable Surgical MLLMs** | arXiv 2026 | multimodal/MLLM serving / visual token reduction | [Link](https://arxiv.org/abs/2608.01473) | — |
@@ -1078,6 +1100,7 @@
 | **Canonical** | **Specter: Fast MoE Inference via Quantization-Enabled Multi-Step Speculative Offloading** | arXiv 2026 | llm_serving,spec,quant,moe,edge | [Link](https://arxiv.org/abs/2511.14102) | — |
 | **Canonical** | **SPECTRA: Adaptive Execution of Speculative Decoding on a Runtime-Reconfigurable Tiled Architecture** | arXiv 2026 | speculative decoding accelerator | [Link](https://arxiv.org/abs/2609.24847) | — |
 | **Canonical** | **Speculative Interaction Agents: Building Real-Time Agents with Asynchronous I/O and Speculative Tool Calling** | arXiv 2026 | efficient reasoning/agent systems / asynchronous I/O / speculative tool calling / low-latency interactive agents | [Link](https://arxiv.org/abs/2605.13360) | — |
+| **Canonical** | **Spexis: Speculative Lookahead Scheduling for LLM Inference** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34370) | — |
 | **Canonical** | **Sphinx: Efficiently Serving Novel View Synthesis using Regression-Guided Selective Refinement** | arXiv 2026 | video/image generation serving | [Link](https://arxiv.org/abs/2511.18672) | — |
 | **Canonical** | **SPID: Distilled Protein Backbone Generation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2510.03095) | — |
 | **Canonical** | **SPLASH: Co-Designing Sparse Attention with High-Bandwidth Flash for Efficient Long-Context Inference** | arXiv 2026 | KV cache/long-context; sparse attention | [Link](https://arxiv.org/abs/2609.23816) | — |
@@ -1090,6 +1113,7 @@
 | **Canonical** | **Stage-adaptive Token Selection for Efficient Omni-modal LLMs** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2605.20035) | — |
 | **Canonical** | **Stage-Aware Communication Scheduling for Disaggregated LLM Serving** | arXiv 2026 | LLM serving | [Link](https://arxiv.org/abs/2603.17456) | — |
 | **Canonical** | **STAR-Pro: Stage-Wise Token Adaptive Reduction with Progressive Refinement for Efficient Large Vision-Language Models** | arXiv 2026 | multimodal/MLLM serving / visual token pruning / adaptive compute | [Link](https://arxiv.org/abs/2609.05916) | [Repo](https://github.com/EasonAI-5589/starpro) |
+| **Canonical** | **Stashbird: Efficient Speaker-Indexed Memory for Conversational Agents** | arXiv 2026 | agent_systems,memory,serving | [Link](https://arxiv.org/abs/2609.34242) | — |
 | **Canonical** | **State of Thought Enables Endogenous Reasoning** | arXiv 2026 | efficient_reasoning | [Link](https://arxiv.org/abs/2609.16055) | — |
 | **Canonical** | **StateMem: Single-State Residual Memory with Adaptive Inference for Vision-Language-Action Policies** | arXiv 2026 | VLA/Physical AI serving; cache reuse | [Link](https://arxiv.org/abs/2609.22684) | — |
 | **Canonical** | **Statistically-Lossless Quantization of Large Language Models** | arXiv 2026 | LLM quantization; statistically-lossless compression; low-bit inference; optimized kernels | [Link](https://arxiv.org/abs/2605.02404) | [Repo](https://github.com/IST-DASLab/SLQ) |
@@ -1127,6 +1151,7 @@
 | **Canonical** | **Tessera: Demand-Driven KV Cache Management for Retrieval-Augmented LLM Serving** | arXiv 2026 | KV cache/long-context; LLM serving; agent systems | [Link](https://arxiv.org/abs/2609.32999) | — |
 | **Canonical** | **Tessera: Unlocking Heterogeneous GPUs through Kernel-Granularity Disaggregation** | arXiv 2026 | heterogeneous GPU inference | [Link](https://arxiv.org/abs/2604.10180) | — |
 | **Canonical** | **Tetris: Circuit Scheduling for Rearrangeably Non-Blocking Photonic Interconnects** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.25434) | — |
+| **Canonical** | **Text-Vision Synergistic Token Caching: A Training-Free Framework for Efficient Vision-Language-Action Inference** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34319) | — |
 | **Canonical** | **TFTrack: A Template-Free Framework for Efficient 3D Point Cloud Tracking** | arXiv 2026 | VLA/WAM/Physical AI serving / efficient perception / 3D tracking | [Link](https://arxiv.org/abs/2609.07738) | — |
 | **Canonical** | **TGRL: Temperature-Grouped Reinforcement Learning for Efficient Exploration in LLMs** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33589) | — |
 | **Canonical** | **The Canonical Parallel Form as a Substrate for Parallelizing Compilers and Agentic Optimizers** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.28724) | — |
@@ -1210,6 +1235,7 @@
 | **Canonical** | **UnStep: Training-Free Acceleration of Causal Video Diffusion with Fewer Steps Than Distillation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.32518) | — |
 | **Canonical** | **Up and Down the Abstraction Ladder: Code-Based Skills for Language Agents** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2609.31076) | — |
 | **Canonical** | **ValueDiff: Value-Geometric KV Cache Eviction for Sink-Suppressed LLMs** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.23314) | — |
+| **Canonical** | **VarioPath: Workload-Aware All-to-All Communication for PCIe GPU Clusters** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34340) | — |
 | **Canonical** | **Vault: One-Step Latent Generation with Positive-Anchored Rewards for Autonomous Driving** | arXiv 2026 | physical_ai | [Link](https://arxiv.org/abs/2606.06219) | — |
 | **Canonical** | **VC-Attention: Value Smoothing and Softmax Casting for Low-bit Attention** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2609.15810) | — |
 | **Canonical** | **Vectorizing the Trie: Efficient Constrained Decoding for LLM-based Generative Retrieval on Accelerators** | arXiv 2026 | llm_serving,quant,gen | [Link](https://arxiv.org/abs/2602.22647) | — |
@@ -1249,6 +1275,7 @@
 | **Canonical** | **What Should a Streaming Video Model Remember?** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2606.16353) | — |
 | **Canonical** | **What Survives When You Compress a Recursive Reasoner for the Edge?** | arXiv 2026 | edge_cloud_heterogeneous | [Link](https://arxiv.org/abs/2606.26488) | — |
 | **Canonical** | **When Can Agents Forget Their Reasoning? ICLR for Long-Horizon Agent Context Compression** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.29875) | — |
+| **Canonical** | **When Does Selection Replace Extraction? A Pre-Registered Test of Agent Memory with a Typed Decision Model** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34227) | — |
 | **Canonical** | **When Fancy Eviction Fails: Rethinking Cache Replacement For LLM Prefix Reuse** | arXiv 2026 | Efficient ML | [Link](https://arxiv.org/abs/2609.28870) | — |
 | **Canonical** | **When Less Compute Is More: Adaptive Early Exit Improves Pretrained Outlier Detection** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.32898) | — |
 | **Canonical** | **When Load-Balancing Goes Too Far: Expert Pruning in Over-Dispersed Mixture-of-Experts Models** | arXiv 2026 | MoE systems / expert pruning / inference memory reduction / routing dispersion | [Link](https://arxiv.org/abs/2609.04453) | — |
@@ -1276,6 +1303,7 @@
 | **Canonical** | **WTF?! Simulation-Free Reinforcement Learning with Wasserstein-Tilted Flow Maps** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.27033) | — |
 | **Canonical** | **WWW.Serve: Interconnecting Global LLM Services through Decentralization** | arXiv 2026 | LLM serving / decentralized inference / heterogeneous GPU resources / request dispatch | [Link](https://arxiv.org/abs/2603.20661) | — |
 | **Canonical** | **X-CoSD: Communication-Efficient Cross-Vocabulary Collaborative Speculative Decoding** | arXiv 2026 | speculative decoding / distributed inference / edge-cloud | [Link](https://arxiv.org/abs/2609.09166) | — |
+| **Canonical** | **X-MoD: Practical Scaling Laws for Sparse-Depth Routing Beyond Mixture-of-Depths** | arXiv 2026 | sparsity_pruning | [Link](https://arxiv.org/abs/2609.34212) | — |
 | **Canonical** | **X-Stage: Modeling Post-Issue Backpressure in GPU Communication--Computation Fusion** | arXiv 2026 | distributed | [Link](https://arxiv.org/abs/2607.23264) | — |
 | **Canonical** | **X-Tree: Tokenizing Reusable Experience for Efficient Agent Generalization** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.32993) | — |
 | **Canonical** | **X2Streaming-ASR: wait when uncertain, emit when ready for streaming ASR** | arXiv 2026 | multimodal/MLLM serving / streaming ASR / realtime voice agents / low-latency inference | [Link](https://arxiv.org/abs/2609.08672) | — |
