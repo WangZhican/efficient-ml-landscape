@@ -105434,6 +105434,49 @@
     ]
   },
   {
+    "title": "Disentangling Graph Dependencies for Efficient Billion-Scale GPU Vector Search",
+    "venue": "OSDI 2026",
+    "topic": "efficient ML systems / GPU vector search and RAG retrieval",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX:OSDI26:zhao",
+    "paper_url": "https://www.usenix.org/conference/osdi26/presentation/zhao",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Official first-party abstract: FlowANN disentangles graph-search dependencies and overlaps CPU edge fetching with GPU compute to support billion-scale ANNS on one GPU; reports 4.08×–45.7× average and up to 172.6× speedups without accuracy loss. Direct fit for efficient vector search/RAG systems.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Drs.NAS: Ultra-Efficient Neural Architecture Search for Recommendation Systems",
+    "venue": "OSDI 2026",
+    "topic": "efficient ML systems / efficient recommender architecture search",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX:OSDI26:wang-ruixuan",
+    "paper_url": "https://www.usenix.org/conference/osdi26/presentation/wang-ruixuan",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Official first-party abstract: NAS completes in under two minutes on commodity CPU vs 5–18 GPU-hours; discovered models are 108.3×/34.9× smaller and use 88.8×/14.7× fewer FLOPs than handcrafted/SOTA NAS while preserving predictive quality. Direct fit for efficient recommender models.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "DynaRL: Flexible and Dynamic Scheduling of Large-Scale Reinforcement Learning Training",
     "venue": "OSDI 2026",
     "topic": "efficient reasoning / RL scheduling",
@@ -105503,6 +105546,27 @@
     ]
   },
   {
+    "title": "GraCE: Unlocking CUDA Graphs with Compiler Support for ML Workloads",
+    "venue": "OSDI 2026",
+    "topic": "efficient ML systems / GPU kernels and CUDA Graph compiler optimization",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX:OSDI26:ghosh",
+    "paper_url": "https://www.usenix.org/conference/osdi26/presentation/ghosh",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Official first-party abstract: compiler transformations, parameter-copy elimination and cost-benefit graph selection expand CUDA Graph coverage for 25 ML workloads and more than double benefit vs PyTorch2. Direct fit for GPU kernel/DSL/compiler efficiency.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "Heterogeneity at Hyperscale: Characterization and Scheduling of Large Production AI Clusters at Alibaba (Operational Systems)",
     "venue": "OSDI 2026",
     "topic": "distributed training/inference / AI cluster scheduling",
@@ -105521,6 +105585,28 @@
     "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving",
+      "Distributed Training / Inference",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Hetu v2: A General and Scalable Deep Learning System with Hierarchical and Heterogeneous Single Program Multiple Data Annotations",
+    "venue": "OSDI 2026",
+    "topic": "efficient ML systems / distributed deep learning training / heterogeneous hardware",
+    "arxiv": "2504.20490",
+    "doi": "",
+    "official_id": "arXiv:2504.20490",
+    "paper_url": "https://arxiv.org/abs/2504.20490",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Official first-party abstract: HSPMD extends distributed DL training to asymmetric sharding, hierarchical communication, device-specific graph specialization and dynamic graph switching for heterogeneous hardware/data. Direct fit for distributed training and heterogeneous AI systems.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
       "Distributed Training / Inference",
       "Edge / Cloud / Heterogeneous AI"
     ]
@@ -105634,6 +105720,30 @@
     "tracking_tier": "Canonical",
     "directions": [
       "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "Murakkab: Resource-Efficient Agentic Workflow Orchestration in Cloud Platforms",
+    "venue": "OSDI 2026",
+    "topic": "efficient ML systems / agentic workflow serving and cloud orchestration",
+    "arxiv": "2508.18298",
+    "doi": "",
+    "official_id": "arXiv:2508.18298",
+    "paper_url": "https://arxiv.org/abs/2508.18298",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Official first-party abstract: declarative agent workflow specification, profile-guided optimizer and adaptive runtime jointly map models/tools/hardware and reconfigure to SLOs; reports 2.8× lower GPU use, 3.7× energy and 4.3× cost. Direct fit for efficient agentic serving.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -106072,6 +106182,30 @@
       "MoE Systems / Accelerators",
       "Distributed Training / Inference",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "The Clustering Strikes Back: Building Cost-Effective and High-Performance ANNS at Scale with Helmsman (Operational Systems)",
+    "venue": "OSDI 2026",
+    "topic": "efficient ML systems / ANN vector search / learned pruning / GPU index construction",
+    "arxiv": "2606.13145",
+    "doi": "",
+    "official_id": "arXiv:2606.13145",
+    "paper_url": "https://arxiv.org/abs/2606.13145",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Official first-party abstract: production ANNS uses learned pruning, userspace storage and GPU-accelerated index construction; saves >90% hardware costs and rebuilds billion-scale indexes within hours. Direct fit for efficient vector retrieval serving.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
     ]
   },
   {

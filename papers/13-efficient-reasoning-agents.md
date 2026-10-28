@@ -1,6 +1,6 @@
 # 13 · Efficient Reasoning / Agents
 
-> **1023 canonical papers** mapped here, plus a broader **1732-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **1024 canonical papers** mapped here, plus a broader **1732-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -1741,7 +1741,7 @@
 | **P2 · Relevant** | **A Privileged Teacher That Only Scores Cannot Search: Critique-Conditioned On-Policy Self-Distillation for Reasoning** | arXiv 2026 | efficient_reasoning_agents | [Link](https://arxiv.org/abs/2610.13744) | — |
 | **P2 · Relevant** | **A Local Agentic AI Framework to Generate Edge Case Scenarios for Safety Assurance** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.13479) | — |
 
-## 🏛️ Classical / Historical · 794 canonical
+## 🏛️ Classical / Historical · 795 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -2519,6 +2519,7 @@
 | **Canonical** | **ServeGen: Workload Characterization and Generation of Large Language Model Serving in Production** | NSDI 2026 | LLM serving / production workload characterization / benchmark generation | [Link](https://www.usenix.org/conference/nsdi26/presentation/xiang-servegen) | [Repo](https://github.com/alibaba/ServeGen) |
 | **Canonical** | **Breaking the Reward Barrier: Accelerating Tree-of-Thought Reasoning via Speculative Exploration** | OSDI 2026 | efficient reasoning / speculative execution | [Link](https://www.usenix.org/conference/osdi26/presentation/zhong) | — |
 | **Canonical** | **DynaRL: Flexible and Dynamic Scheduling of Large-Scale Reinforcement Learning Training** | OSDI 2026 | efficient reasoning / RL scheduling | [Link](https://www.usenix.org/conference/osdi26/presentation/wang-yuanqing) | — |
+| **Canonical** | **Murakkab: Resource-Efficient Agentic Workflow Orchestration in Cloud Platforms** | OSDI 2026 | efficient ML systems / agentic workflow serving and cloud orchestration | [Link](https://arxiv.org/abs/2508.18298) | — |
 | **Canonical** | **RLinf: Flexible and Efficient Large-Scale Reinforcement Learning via Macro-to-Micro Flow Transformation** | OSDI 2026 | efficient reasoning / large-scale RL systems | [Link](https://www.usenix.org/conference/osdi26/presentation/yu-chao) | — |
 | **Canonical** | **RobustRL: Role-Based Fault Tolerance System for RL Post-Training** | OSDI 2026 | efficient reasoning / RL post-training reliability | [Link](https://www.usenix.org/conference/osdi26/presentation/chen-zhenqian) | — |
 | **Canonical** | **RollArt: Disaggregated Multi-Task Agentic RL Training at Scale** | OSDI 2026 | efficient reasoning / agentic RL systems | [Link](https://www.usenix.org/conference/osdi26/presentation/gao) | — |

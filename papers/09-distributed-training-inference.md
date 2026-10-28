@@ -1,6 +1,6 @@
 # 09 · Distributed Training / Inference
 
-> **730 canonical papers** mapped here, plus a broader **333-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **733 canonical papers** mapped here, plus a broader **333-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -342,7 +342,7 @@
 | **P2 · Relevant** | **A Kafka-Centric Communication Fabric for Near-Real-Time, Cloud-Replicated Closed-Loop Manufacturing Process Control** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.00258) | — |
 | **P0 · Strong** | **A Distributed View from a Single GPU: RankLens for Distributed Training** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18009) | — |
 
-## 🏛️ Classical / Historical · 632 canonical
+## 🏛️ Classical / Historical · 635 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -907,7 +907,9 @@
 | **Canonical** | **BatchGen: An Architecture for Scalable and Efficient Batch Inference** | OSDI 2026 | LLM batch inference / MoE serving / distributed inference | [Link](https://arxiv.org/abs/2606.21712) | [Repo](https://github.com/batchgen-project/batchgen) |
 | **Canonical** | **Efficient LLM Serving on Commodity GPU Clusters with Data-Reduced Cross-Instance Orchestration** | OSDI 2026 | commodity-GPU LLM serving | [Link](https://www.usenix.org/system/files/osdi26-du.pdf) | — |
 | **Canonical** | **Heterogeneity at Hyperscale: Characterization and Scheduling of Large Production AI Clusters at Alibaba (Operational Systems)** | OSDI 2026 | distributed training/inference / AI cluster scheduling | [Link](https://www.usenix.org/conference/osdi26/presentation/li-suyi) | — |
+| **Canonical** | **Hetu v2: A General and Scalable Deep Learning System with Hierarchical and Heterogeneous Single Program Multiple Data Annotations** | OSDI 2026 | efficient ML systems / distributed deep learning training / heterogeneous hardware | [Link](https://arxiv.org/abs/2504.20490) | — |
 | **Canonical** | **Kareus: Joint Reduction of Dynamic and Static Energy in Large Model Training** | OSDI 2026 | distributed training / energy efficiency | [Link](https://www.usenix.org/conference/osdi26/presentation/wu-ruofan) | — |
+| **Canonical** | **Murakkab: Resource-Efficient Agentic Workflow Orchestration in Cloud Platforms** | OSDI 2026 | efficient ML systems / agentic workflow serving and cloud orchestration | [Link](https://arxiv.org/abs/2508.18298) | — |
 | **Canonical** | **OpenTela: Unifying Decentralized Computing Resources for Heterogeneous LLM Serving (Operational Systems)** | OSDI 2026 | LLM serving / heterogeneous clusters / decentralized orchestration / operational systems | [Link](https://www.usenix.org/conference/osdi26/presentation/yao) | [Repo](https://github.com/eth-easl/opentela) |
 | **Canonical** | **OpGuard: Bitwise Alignment for Precise and General Debugging of Production LLM Training** | OSDI 2026 | distributed LLM training / debugging / reliability | [Link](https://www.usenix.org/conference/osdi26/presentation/zhou-ziming) | — |
 | **Canonical** | **Quota Marketplace: Dynamic Pricing for Efficient Allocation of ML Training Resources** | OSDI 2026 | distributed training / cluster scheduling / resource allocation | [Link](https://www.usenix.org/conference/osdi26/presentation/sivan) | — |
@@ -917,6 +919,7 @@
 | **Canonical** | **SDCs in the Wild: Characterizing and Diagnosing SDC-Defective GPUs in Production LLM Training (Operational Systems)** | OSDI 2026 | distributed LLM training / GPU reliability | [Link](https://www.usenix.org/conference/osdi26/presentation/zheng) | — |
 | **Canonical** | **Syncopate: Efficient Multi-GPU AI Kernels via Automatic Chunk-Centric Compute-Communication Overlap** | OSDI 2026 | GPU kernels / distributed training / compiler-runtime | [Link](https://www.usenix.org/conference/osdi26/presentation/qiang) | — |
 | **Canonical** | **Tessera: A Holistic Pipeline Parallelism Framework for Trillion-Parameter Heterogeneous MoE Training (Operational Systems)** | OSDI 2026 | distributed training / MoE / pipeline parallelism | [Link](https://www.usenix.org/conference/osdi26/presentation/hu-weifang) | — |
+| **Canonical** | **The Clustering Strikes Back: Building Cost-Effective and High-Performance ANNS at Scale with Helmsman (Operational Systems)** | OSDI 2026 | efficient ML systems / ANN vector search / learned pruning / GPU index construction | [Link](https://arxiv.org/abs/2606.13145) | — |
 | **Canonical** | **TrainMover: An Interruption-Resilient Runtime for ML Training** | OSDI 2026 | distributed training / runtime / fault tolerance | [Link](https://www.usenix.org/conference/osdi26/presentation/lao) | — |
 | **Canonical** | **UCCL-Tran: An Extensible Software Transport Layer for GPU Networking** | OSDI 2026 | distributed training/inference / GPU networking | [Link](https://arxiv.org/abs/2504.17307) | [Repo](https://uccl-project.github.io/posts/about-uccl/) |
 | **Canonical** | **UEP: Portable Expert-Parallel Communication** | OSDI 2026 | MoE systems / expert-parallel communication | [Link](https://www.usenix.org/conference/osdi26/presentation/mao-ziming-uep) | — |

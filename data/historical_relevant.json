@@ -173759,6 +173759,185 @@
         "Distributed Training / Inference",
         "Efficient Reasoning / Agents"
       ]
+    },
+    {
+      "title": "Diagnosing Performance Issues in Application-Defined Resources",
+      "venue": "OSDI 2026",
+      "topic": "ML systems / efficient reasoning / AI infrastructure",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "USENIX:OSDI26:hu-yigong",
+      "paper_url": "https://www.usenix.org/conference/osdi26/presentation/hu-yigong",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "LLM semantic inference combined with static analysis for performance profiling; relevant to LLM-assisted systems tooling, but not direct model inference/training efficiency, so P2.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "DPA-Store: An Ordered Network Data Path Key-Value Store",
+      "venue": "OSDI 2026",
+      "topic": "ML systems / efficient reasoning / AI infrastructure",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "USENIX:OSDI26:schimmelpfennig",
+      "paper_url": "https://www.usenix.org/conference/osdi26/presentation/schimmelpfennig",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "SmartNIC data-plane ordered KV store uses a learned index tree; adjacent to learned inference/data-plane systems, but the main contribution is a KV store, so P2.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "DVLA: Dynamic VM Lifetime Aware Scheduling for Drifting Lifetime Distributions and Long-Lived VM Placement Debt (Operational Systems)",
+      "venue": "OSDI 2026",
+      "topic": "ML systems / efficient reasoning / AI infrastructure",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "USENIX:OSDI26:zhang-zhengtong",
+      "paper_url": "https://www.usenix.org/conference/osdi26/presentation/zhang-zhengtong",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Production VM placement system includes hierarchical lifetime prediction; relevant to learned resource scheduling for AI/cloud infrastructure, but not ML serving, so P2.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "ECO: An AI-Driven Code Efficiency Optimizer for Warehouse Scale Computers (Operational Systems)",
+      "venue": "OSDI 2026",
+      "topic": "ML systems / efficient reasoning / AI infrastructure",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "USENIX:OSDI26:lin-hannah",
+      "paper_url": "https://www.usenix.org/conference/osdi26/presentation/lin-hannah",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "AI-driven source-code efficiency optimizer with fleet-wide profiling and embedding-guided search; relevant to AI-assisted compiler/code optimization, but not a model accelerator, so P2.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Mimesys: Generating Realistic Executable Testing Environments from Resource Usage Traces",
+      "venue": "OSDI 2026",
+      "topic": "ML systems / efficient reasoning / AI infrastructure",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "USENIX:OSDI26:kim-donghyun",
+      "paper_url": "https://www.usenix.org/conference/osdi26/presentation/kim-donghyun",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Diffusion-based generative model synthesizes executable resource-contention workloads; relevant to generative ML applications, but not model efficiency or serving, so P2.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving",
+        "Diffusion / Flow Acceleration",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Neuro-Symbolic Proof Generation for Scaling Systems Software Verification",
+      "venue": "OSDI 2026",
+      "topic": "ML systems / efficient reasoning / AI infrastructure",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "USENIX:OSDI26:he-baoding",
+      "paper_url": "https://www.usenix.org/conference/osdi26/presentation/he-baoding",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "LLM-based neuro-symbolic proof generation targets scalable systems verification; relevant to efficient reasoning/tooling, but no inference/training efficiency result, so P2.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "SMARTTalk: Teaching SMART Logs to Talk to LLMs",
+      "venue": "OSDI 2026",
+      "topic": "ML systems / efficient reasoning / AI infrastructure",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "USENIX:OSDI26:akewar",
+      "paper_url": "https://www.usenix.org/conference/osdi26/presentation/akewar",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "LLM-facing SSD telemetry interpretation replaces heavy feature engineering/retraining pipelines; relevant to LLM-enabled system diagnostics, but not model-serving efficiency, so P2.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "SPADE: Signal-Aware DAG Scheduling and Dynamic Provisioning for Data Processing Clusters",
+      "venue": "OSDI 2026",
+      "topic": "ML systems / efficient reasoning / AI infrastructure",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "USENIX:OSDI26:lechowicz",
+      "paper_url": "https://www.usenix.org/conference/osdi26/presentation/lechowicz",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "AI-driven workload demand and resource scheduling for data-processing clusters; adjacent to AI infrastructure/heterogeneous scheduling, but no direct ML model serving or training result, so P2.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
     }
   ]
 }

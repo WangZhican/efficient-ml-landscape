@@ -1,6 +1,6 @@
 # 01 · LLM Serving
 
-> **2045 canonical papers** mapped here, plus a broader **1552-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **2047 canonical papers** mapped here, plus a broader **1552-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -1561,7 +1561,7 @@
 | **P2 · Relevant** | **A Drosophila Whole-Connectome Network Can Learn Human-Designed Cognitive Tasks** | arXiv 2026 | llm_serving,gen | [Link](https://arxiv.org/abs/2610.10014) | — |
 | **P2 · Relevant** | **A differentiable Lagrangian-coupled 3D Gaussian Splatting-SPH model for forward simulation and inverse analysis in solid mechanics** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.04336) | — |
 
-## 🏛️ Classical / Historical · 1646 canonical
+## 🏛️ Classical / Historical · 1648 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -3098,6 +3098,7 @@
 | **Canonical** | **Heterogeneity at Hyperscale: Characterization and Scheduling of Large Production AI Clusters at Alibaba (Operational Systems)** | OSDI 2026 | distributed training/inference / AI cluster scheduling | [Link](https://www.usenix.org/conference/osdi26/presentation/li-suyi) | — |
 | **Canonical** | **Inference in the Shadows: Taming Memory Bandwidth Contention in Mobile LLM Inference with Sereno** | OSDI 2026 | mobile LLM inference / edge serving / memory bandwidth contention / speculative decoding | [Link](https://www.usenix.org/conference/osdi26/presentation/xin) | — |
 | **Canonical** | **Kairox: Adaptive GPU-CPU Hybrid LLM Inference via Online Neuron Balancing** | OSDI 2026 | LLM inference / GPU-CPU hybrid execution / activation sparsity / edge inference | [Link](https://www.usenix.org/conference/osdi26/presentation/jiang-yapeng) | — |
+| **Canonical** | **Murakkab: Resource-Efficient Agentic Workflow Orchestration in Cloud Platforms** | OSDI 2026 | efficient ML systems / agentic workflow serving and cloud orchestration | [Link](https://arxiv.org/abs/2508.18298) | — |
 | **Canonical** | **No Buffer, No Bottleneck: Efficient Zero-Copy KV Cache Offloading for Long-Context LLMs** | OSDI 2026 | LLM serving / KV cache offloading / heterogeneous CPU-GPU memory | [Link](https://www.usenix.org/conference/osdi26/presentation/luo) | — |
 | **Canonical** | **OpenTela: Unifying Decentralized Computing Resources for Heterogeneous LLM Serving (Operational Systems)** | OSDI 2026 | LLM serving / heterogeneous clusters / decentralized orchestration / operational systems | [Link](https://www.usenix.org/conference/osdi26/presentation/yao) | [Repo](https://github.com/eth-easl/opentela) |
 | **Canonical** | **Prism: Cost-Efficient Multi-LLM Serving via GPU Memory Ballooning** | OSDI 2026 | LLM serving / multi-model serving / GPU memory ballooning / production deployment | [Link](https://www.usenix.org/conference/osdi26/presentation/yu-shan) | [Repo](https://github.com/ovg-project/kvcached) |
@@ -3106,6 +3107,7 @@
 | **Canonical** | **Simple Is Better: Multiplication May Be All You Need for LLM Request Scheduling** | OSDI 2026 | LLM serving / request scheduling | [Link](https://www.usenix.org/conference/osdi26/presentation/zhang-dingyan) | — |
 | **Canonical** | **Strata: Hierarchical Context Caching for Long Context Language Model Serving** | OSDI 2026 | long-context KV-cache serving | [Link](https://www.usenix.org/system/files/osdi26-xie-zhiqiang.pdf) | — |
 | **Canonical** | **StriaTrace: Efficient Tracing and Diagnosis for Online LLM Inference (Operational Systems)** | OSDI 2026 | LLM serving observability / tracing / production AI infrastructure | [Link](https://www.usenix.org/conference/osdi26/presentation/wu-haonan) | — |
+| **Canonical** | **The Clustering Strikes Back: Building Cost-Effective and High-Performance ANNS at Scale with Helmsman (Operational Systems)** | OSDI 2026 | efficient ML systems / ANN vector search / learned pruning / GPU index construction | [Link](https://arxiv.org/abs/2606.13145) | — |
 | **Canonical** | **Unleash All Cores: Asymmetry-Aware Scalable DNN Inference on Mobile CPUs** | OSDI 2026 | edge AI / DNN inference / mobile CPU | [Link](https://www.usenix.org/conference/osdi26/presentation/sang) | — |
 | **Canonical** | **Weave: Efficient Co-Scheduling for Disaggregated RL Post-Training** | OSDI 2026 | efficient reasoning / RL post-training systems | [Link](https://www.usenix.org/conference/osdi26/presentation/wu-tianyuan) | — |
 | **Canonical** | **EcoServe: Enabling Cost-effective LLM Serving with Proactive Intra- and Inter-Instance Orchestration** | OSDI 2026 / arXiv | LLM serving; prefill-decode disaggregation; scheduling; commodity interconnect; cost-efficient inference | [Link](https://arxiv.org/abs/2504.18154) | — |

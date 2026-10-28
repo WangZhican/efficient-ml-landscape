@@ -1,6 +1,6 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **1071 canonical papers** mapped here, plus a broader **1348-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **1073 canonical papers** mapped here, plus a broader **1348-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -1357,7 +1357,7 @@
 | **P2 · Relevant** | **A Local Agentic AI Framework to Generate Edge Case Scenarios for Safety Assurance** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.13479) | — |
 | **P1 · Watch** | **A Compression Tree Generation Method for High Performance VLSI Datapaths** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2610.02228) | — |
 
-## 🏛️ Classical / Historical · 886 canonical
+## 🏛️ Classical / Historical · 888 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -2180,7 +2180,9 @@
 | **Canonical** | **ZipLLM: Efficient LLM Storage via Model-Aware Synergistic Data Deduplication and Compression** | NSDI 2026 | LLM storage / model deduplication / compression | [Link](https://www.usenix.org/system/files/nsdi26-wang-zirui.pdf) | — |
 | **Canonical** | **Achieving Cloud-Grade SLOs for Local Mixture-of-Experts Inference through CPU–GPU Hybrid Design** | OSDI 2026 | MoE systems / edge-local inference / heterogeneous CPU-GPU | [Link](https://www.usenix.org/conference/osdi26/presentation/wang-wenxin) | — |
 | **Canonical** | **CoPilotIO: CPU as a Co-Pilot for GPU I/O to Free GPU Compute** | OSDI 2026 | GPU I/O / heterogeneous AI systems / MoE inference infrastructure | [Link](https://www.usenix.org/conference/osdi26/presentation/chen-guanyi) | [Repo](https://github.com/ScaleXLab/OSDI26-CoPilotIO) |
+| **Canonical** | **Disentangling Graph Dependencies for Efficient Billion-Scale GPU Vector Search** | OSDI 2026 | efficient ML systems / GPU vector search and RAG retrieval | [Link](https://www.usenix.org/conference/osdi26/presentation/zhao) | — |
 | **Canonical** | **Heterogeneity at Hyperscale: Characterization and Scheduling of Large Production AI Clusters at Alibaba (Operational Systems)** | OSDI 2026 | distributed training/inference / AI cluster scheduling | [Link](https://www.usenix.org/conference/osdi26/presentation/li-suyi) | — |
+| **Canonical** | **Hetu v2: A General and Scalable Deep Learning System with Hierarchical and Heterogeneous Single Program Multiple Data Annotations** | OSDI 2026 | efficient ML systems / distributed deep learning training / heterogeneous hardware | [Link](https://arxiv.org/abs/2504.20490) | — |
 | **Canonical** | **Inference in the Shadows: Taming Memory Bandwidth Contention in Mobile LLM Inference with Sereno** | OSDI 2026 | mobile LLM inference / edge serving / memory bandwidth contention / speculative decoding | [Link](https://www.usenix.org/conference/osdi26/presentation/xin) | — |
 | **Canonical** | **Kairox: Adaptive GPU-CPU Hybrid LLM Inference via Online Neuron Balancing** | OSDI 2026 | LLM inference / GPU-CPU hybrid execution / activation sparsity / edge inference | [Link](https://www.usenix.org/conference/osdi26/presentation/jiang-yapeng) | — |
 | **Canonical** | **MoonBright: A GPU Memory Allocator with Device-Side Page Table Materialization and Deferred TLB Coherence** | OSDI 2026 | GPU runtime / memory management | [Link](https://www.usenix.org/conference/osdi26/presentation/zhang-yangyu) | — |
