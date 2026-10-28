@@ -30,9 +30,9 @@
   "major_group_universe": 201,
   "major_group_status": "SECOND_PASS_NONZERO_UNIVERSE_EXPANDED_TO_201",
   "venue_mandatory_universe": 43,
-  "venue_active_round": 11,
-  "venue_active_round_checked": 43,
-  "venue_active_round_status": "COMPLETE_NONZERO",
+  "venue_active_round": 13,
+  "venue_active_round_checked": 0,
+  "venue_active_round_status": "IN_PROGRESS_NONZERO",
   "source_date_beijing": "2026-10-29",
-  "updated_at_beijing": "2026-10-29T05:38:31+08:00"
+  "updated_at_beijing": "2026-10-29T07:22:44+08:00"
 }
