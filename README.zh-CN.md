@@ -23,8 +23,8 @@
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/Papers-4984-7c3aed?style=for-the-badge" alt="4984 papers" />
-  <img src="https://img.shields.io/badge/Primary%20Links-4970-059669?style=for-the-badge" alt="4970 primary links" />
+  <img src="https://img.shields.io/badge/Papers-5009-7c3aed?style=for-the-badge" alt="5009 papers" />
+  <img src="https://img.shields.io/badge/Primary%20Links-4995-059669?style=for-the-badge" alt="4995 primary links" />
   <img src="https://img.shields.io/badge/Research%20Tracks-15-2563eb?style=for-the-badge" alt="15 research tracks" />
   <img src="https://img.shields.io/badge/Physical%20AI-Protected-f59e0b?style=for-the-badge" alt="Physical AI protected" />
 </p>
@@ -53,13 +53,13 @@
 
 | 指标 | 当前公开版本 |
 |---|---:|
-| **质量门控后的唯一论文** | **4984** |
-| **最近 30 天追踪总数** | **5775** |
-| **最近 30 天质量门控论文** | **1087** |
-| **最近 30 天 Watchlist** | **1487** |
-| **最近 30 天低优先级相关论文** | **3201** |
-| **经典 / 历史论文** | **3897** |
-| **已有可信一手论文链接** | **4970** |
+| **质量门控后的唯一论文** | **5009** |
+| **最近 30 天追踪总数** | **5823** |
+| **最近 30 天质量门控论文** | **1097** |
+| **最近 30 天 Watchlist** | **1514** |
+| **最近 30 天低优先级相关论文** | **3212** |
+| **经典 / 历史论文** | **3912** |
+| **已有可信一手论文链接** | **4995** |
 | **最新 Strong 论文** | **45** |
 | **研究方向** | **15** |
 | **已出现的 Venue/Source 标签** | **46** |

@@ -1091,6 +1091,28 @@
     ]
   },
   {
+    "title": "What Makes Video World Model Latents Action-Relevant: Prediction over Reconstruction",
+    "venue": "arXiv 2026",
+    "topic": "physical",
+    "arxiv": "2606.07687",
+    "doi": "",
+    "official_id": "arXiv:2606.07687",
+    "paper_url": "https://arxiv.org/abs/2606.07687",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "First-party arXiv abstract confirms an explicit efficient-ML mechanism and quantitative/technical contribution; curated as high-value reading Watch. Evidence: Video world models are increasingly used to provide predictive visual representations, yet it remains unclear which pretraining signals induce action-relevant structure in their latent spaces. We study this question through a unified probe-based evaluation acr",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Quantization",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "What Makes an Efficient VLA? Navigating Action-Head Design, Scaling, and Latency",
     "venue": "arXiv 2026",
     "topic": "llm_serving,multimodal,gen,physical,edge",
@@ -10404,6 +10426,29 @@
     ]
   },
   {
+    "title": "MemPrism: Task-Conditioned Relational Memory Views for Long-Horizon Agents",
+    "venue": "arXiv 2026",
+    "topic": "physical",
+    "arxiv": "2608.06745",
+    "doi": "",
+    "official_id": "arXiv:2608.06745",
+    "paper_url": "https://arxiv.org/abs/2608.06745",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "First-party arXiv abstract confirms an explicit efficient-ML mechanism and quantitative/technical contribution; curated as high-value reading Watch. Evidence: Long-horizon agents performing multi-step Web tasks must reuse earlier page observations and interactions to support subsequent actions. However, preserving relevant history does not ensure that it exposes the relations needed for the current decision. We call",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Quantization",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Memory Tree Guided Key Frame Querying for Efficient 3D Question Answering",
     "venue": "",
     "topic": "Physical AI / embodied VLM inference / key-frame retrieval",
@@ -11695,6 +11740,31 @@
     ]
   },
   {
+    "title": "Learning to Feel the Future: DreamTacVLA for Contact-Rich Manipulation",
+    "venue": "arXiv 2026",
+    "topic": "multimodal,physical",
+    "arxiv": "2512.23864",
+    "doi": "",
+    "official_id": "arXiv:2512.23864",
+    "paper_url": "https://arxiv.org/abs/2512.23864",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "First-party arXiv abstract confirms an explicit efficient-ML mechanism and quantitative/technical contribution; curated as high-value reading Watch. Evidence: Vision-Language-Action (VLA) models have shown remarkable generalization by mapping web-scale knowledge to robotic control, yet they remain blind to physical contact. Consequently, they struggle with contact-rich manipulation tasks that require reasoning about",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Quantization",
+      "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Learning to Act While Waiting: RL Finetuning of Generalist Robot Policies Under Inference Latency",
     "venue": "",
     "topic": "Physical AI / VLA / asynchronous inference / latency-aware RL",
@@ -12771,6 +12841,29 @@
     ]
   },
   {
+    "title": "ICMAPE: In-Context Multiagent Pure Exploration",
+    "venue": "arXiv 2026",
+    "topic": "Efficient ML / Physical AI",
+    "arxiv": "2609.33986",
+    "doi": "",
+    "official_id": "arXiv:2609.33986",
+    "paper_url": "https://arxiv.org/abs/2609.33986",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "ICMAPE multiagent exploration learns stopping under confidence constraints and reaches target accuracy in fewer steps; limited synthetic/monitoring tasks, no GPU efficiency metrics.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "ICI-VLA: In-Context Imitation with Spatiotemporally Aligned Demonstrations for Vision-Language-Action Models",
     "venue": "arXiv 2026",
     "topic": "VLA/WAM/Physical AI serving / test-time adaptation / retrieval-conditioned control",
@@ -13745,6 +13838,28 @@
     ]
   },
   {
+    "title": "Grasp-Then-Plan with Failure Attribution: A Closed Two-Stage Framework for Precise and Generalizable Robotic Manipulation",
+    "venue": "arXiv 2026",
+    "topic": "physical",
+    "arxiv": "2606.03385",
+    "doi": "",
+    "official_id": "arXiv:2606.03385",
+    "paper_url": "https://arxiv.org/abs/2606.03385",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "First-party arXiv abstract confirms an explicit efficient-ML mechanism and quantitative/technical contribution; curated as high-value reading Watch. Evidence: In robotic manipulation, the tight coupling between grasping and motion planning often obscures the true source of failure, leading to inefficient trial-and-error. To enable efficient long-horizon manipulation, we propose GTP-FA (Grasp-Then-Plan with Failure A",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Quantization",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Graph World Models for Constrained Epidemic Policy Planning",
     "venue": "arXiv 2026",
     "topic": "gen,physical",
@@ -13853,6 +13968,29 @@
     "is_latest_30d": false,
     "directions": [
       "LLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Goal2Pixel: Grounding Goals to Pixels for Vision-Language Navigation",
+    "venue": "arXiv 2026",
+    "topic": "multimodal",
+    "arxiv": "2606.01621",
+    "doi": "",
+    "official_id": "arXiv:2606.01621",
+    "paper_url": "https://arxiv.org/abs/2606.01621",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "First-party arXiv abstract confirms an explicit efficient-ML mechanism and quantitative/technical contribution; curated as high-value reading Watch. Evidence: Vision-language models (VLMs) have become a common foundation for vision-and-language navigation in continuous environments (VLN-CE). Yet most VLM-based methods cast navigation as low-level action prediction, an interface that is ambiguous, tied to short-horiz",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Quantization",
+      "Multimodal / MLLM Serving",
       "VLA / WAM / Physical AI"
     ]
   },
@@ -15278,6 +15416,31 @@
     ]
   },
   {
+    "title": "FLARE: Flow Matching with Local Axis-Angle Representations for Stochastic Micromagnetic Evolution",
+    "venue": "arXiv 2026",
+    "topic": "flow acceleration / efficient multimodal reasoning",
+    "arxiv": "2609.34070",
+    "doi": "",
+    "official_id": "arXiv:2609.34070",
+    "paper_url": "https://arxiv.org/abs/2609.34070",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "Direct-horizon flow-matching stochastic simulator avoids stepwise micromagnetic integration and reports 3062x best-batch speedup versus GPU MuMax3; Physical Simulator acceleration with baseline comparability caveats.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Multimodal / MLLM Serving",
+      "Diffusion / Flow Acceleration",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "FLARE: A Failure-Aware Framework for Autonomous Correction and Recovery in Visual-Language Robotic Manipulation",
     "venue": "arXiv 26",
     "topic": "vla_wam",
@@ -15458,6 +15621,29 @@
     "updated_at": "",
     "is_latest_30d": false,
     "directions": [
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "FAWAM: Force-Aware World Action Models for Closed-Loop Contact-Rich Manipulation",
+    "venue": "arXiv 2026",
+    "topic": "llm_serving,physical",
+    "arxiv": "2606.08555",
+    "doi": "",
+    "official_id": "arXiv:2606.08555",
+    "paper_url": "https://arxiv.org/abs/2606.08555",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "First-party arXiv abstract confirms an explicit efficient-ML mechanism and quantitative/technical contribution; curated as high-value reading Watch. Evidence: Force signals provide critical interaction cues for contact-rich robotic manipulation. However, existing methods mostly use force as an additional observation modality, without fully exploiting its role in modeling future interaction dynamics or guiding execut",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "Quantization",
       "VLA / WAM / Physical AI"
     ]
   },
@@ -20542,6 +20728,30 @@
     ]
   },
   {
+    "title": "AWARE: Action-Entropy-Weighted and Attention-Guided Retrieval of Observation Evidence for Vision-Language-Action Models",
+    "venue": "arXiv 2026",
+    "topic": "multimodal,physical",
+    "arxiv": "2602.18020",
+    "doi": "",
+    "official_id": "arXiv:2602.18020",
+    "paper_url": "https://arxiv.org/abs/2602.18020",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "First-party arXiv abstract confirms an explicit efficient-ML mechanism and quantitative/technical contribution; curated as high-value reading Watch. Evidence: Vision-Language-Action (VLA) models combine multimodal perception with robotic control, demonstrating remarkable potential for generalizable manipulation. Yet, enhancing their execution typically relies on auxiliary sensory inputs (e.g., depth, 3D point clouds",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Quantization",
+      "Efficient Attention",
+      "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "AVT-Fabric: Active Visuo-Tactile Perception via Adaptive Evidence Selection for Efficient Robotic Fabric Comparison",
     "venue": "arXiv 2026",
     "topic": "",
@@ -22398,6 +22608,27 @@
     "is_latest_30d": false,
     "directions": [
       "LLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "3D Point Tracking with State Space Models",
+    "venue": "arXiv 2026",
+    "topic": "physical_ai",
+    "arxiv": "2609.34035",
+    "doi": "",
+    "official_id": "arXiv:2609.34035",
+    "paper_url": "https://arxiv.org/abs/2609.34035",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
       "VLA / WAM / Physical AI"
     ]
   },
