@@ -37508,6 +37508,28 @@
       ]
     },
     {
+      "title": "GEM-KMeans: Memory-Efficient and Accurate Clustering on Massive Scale with GPU Optimization",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.36074",
+      "doi": "",
+      "official_id": "arXiv:2609.36074",
+      "paper_url": "https://arxiv.org/abs/2609.36074",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference"
+      ]
+    },
+    {
       "title": "Accelerating Video Inverse Problem Solvers with Autoregressive Diffusion Models",
       "venue": "arXiv 2026",
       "topic": "",
@@ -37822,6 +37844,27 @@
       "is_latest_30d": false,
       "directions": [
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Koa-action: Fast and Consistent Structured Decision Making with Generative LLMs",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.36115",
+      "doi": "",
+      "official_id": "arXiv:2609.36115",
+      "paper_url": "https://arxiv.org/abs/2609.36115",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -38207,6 +38250,27 @@
       "directions": [
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Hardware-Aware Functional Kolmogorov-Arnold Networks for Efficient Medical Image Enhancement and Segmentation",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.36134",
+      "doi": "",
+      "official_id": "arXiv:2609.36134",
+      "paper_url": "https://arxiv.org/abs/2609.36134",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -39327,6 +39391,28 @@
       "is_latest_30d": false,
       "directions": [
         "Quantization"
+      ]
+    },
+    {
+      "title": "GeoWind2Plan: Mission-Time 3D Urban Wind Prediction for Energy-Efficient UAV Planning",
+      "venue": "arXiv 2026",
+      "topic": "physical,edge,planning",
+      "arxiv": "2609.36056",
+      "doi": "",
+      "official_id": "arXiv:2609.36056",
+      "paper_url": "https://arxiv.org/abs/2609.36056",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": true,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "High-value adjacent or protected-route work with meaningful efficiency/system implications; retain for deeper reading.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -41259,6 +41345,28 @@
       ]
     },
     {
+      "title": "KPI: A Promptable Kernel for Physical Interaction on Humanoids",
+      "venue": "arXiv 2026",
+      "topic": "physical_ai",
+      "arxiv": "2609.36151",
+      "doi": "",
+      "official_id": "arXiv:2609.36151",
+      "paper_url": "https://arxiv.org/abs/2609.36151",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": true,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "DynamicHOI: Coupled Dynamics for Physics-aware HOI Reconstruction",
       "venue": "arXiv 2026",
       "topic": "physical_ai",
@@ -42802,6 +42910,28 @@
         "Quantization",
         "Efficient Attention",
         "Video / Image Generation"
+      ]
+    },
+    {
+      "title": "Scouting the Dynamics Gap: Test-Time Policy Adaptation via Action-Outcome Feedback",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.36107",
+      "doi": "",
+      "official_id": "arXiv:2609.36107",
+      "paper_url": "https://arxiv.org/abs/2609.36107",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "SCOUT is a Physical-AI test-time adaptation mechanism using action-outcome dynamics feedback and a shared belief latent, explicitly reporting faster online adaptation and robust sim-to-real transfer; protected robotics/VLA-adjacent efficiency value, though the abstract lacks deployment compute/latency numbers.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -51324,6 +51454,27 @@
       "directions": [
         "LLM Serving",
         "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Reasoning with Neural Cellular Automata",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.36126",
+      "doi": "",
+      "official_id": "arXiv:2609.36126",
+      "paper_url": "https://arxiv.org/abs/2609.36126",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "First-party abstract reviewed: relevant efficiency mechanism or protected systems adjacency; insufficient evidence for higher tier.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
         "Efficient Reasoning / Agents"
       ]
     },
@@ -96851,6 +97002,48 @@
       ]
     },
     {
+      "title": "FLOORA: A Human-Aligned Domain-Specific Language Model for Architectural Design",
+      "venue": "arXiv 2026",
+      "topic": "domain_specific_model",
+      "arxiv": "2609.36064",
+      "doi": "",
+      "official_id": "arXiv:2609.36064",
+      "paper_url": "https://arxiv.org/abs/2609.36064",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Relevant to a maintained Efficient-ML neighborhood, but current first-party metadata does not justify high-value promotion.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Privacy-Friendly Cohort Determination: Sealed, CSP-Independent In-Browser ML Inference of Professional Segments for Identity-Less Advertising",
+      "venue": "arXiv 2026",
+      "topic": "edge,on_device,privacy",
+      "arxiv": "2609.36153",
+      "doi": "",
+      "official_id": "arXiv:2609.36153",
+      "paper_url": "https://arxiv.org/abs/2609.36153",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Relevant to a maintained Efficient-ML neighborhood, but current first-party metadata does not justify high-value promotion.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Trustworthiness Costs of Domain Adaptation in Small Language Models:A Cross-Architecture Empirical Study",
       "venue": "arXiv 2026",
       "topic": "small_language_models",
@@ -98815,6 +99008,27 @@
       "doi": "",
       "official_id": "arXiv:2604.15490",
       "paper_url": "https://arxiv.org/abs/2604.15490",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "From Dead Code and Static Requirements to Working Engines: Software Revival with Coding Agents",
+      "venue": "arXiv 2026",
+      "topic": "efficient_reasoning_agent",
+      "arxiv": "2609.36161",
+      "doi": "",
+      "official_id": "arXiv:2609.36161",
+      "paper_url": "https://arxiv.org/abs/2609.36161",
       "code_url": "",
       "formal_class": "RELEVANT_LOW_PRIORITY",
       "physical_ai": false,
@@ -114002,6 +114216,28 @@
       ]
     },
     {
+      "title": "PowerZooJax: A JAX-based Power System Benchmark for Reinforcement Learning",
+      "venue": "arXiv 2026",
+      "topic": "GPU kernel/DSL/compilers",
+      "arxiv": "2609.36052",
+      "doi": "",
+      "official_id": "arXiv:2609.36052",
+      "paper_url": "https://arxiv.org/abs/2609.36052",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "PowerZooJax 将电网 RL 仿真计算图搬到 GPU，报告较 CPU 加速但摘要无量化倍数，属异构 RL simulation 邻接。",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "OTRetarget: Joint Robot and Object Motion Retargeting via Optimal Transport",
       "venue": "arXiv 2026",
       "topic": "VLA/WAM/Physical AI serving",
@@ -119992,6 +120228,48 @@
       "directions": [
         "LLM Serving",
         "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "Principled Thoughts for Latent Recursive LLM Systems",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.36159",
+      "doi": "",
+      "official_id": "arXiv:2609.36159",
+      "paper_url": "https://arxiv.org/abs/2609.36159",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Latent recursive LLM reasoning improves convergence/accuracy but lacks measured compute cost.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Boosting Metric Depth Completion via Training-Free Adaptive Response Geometry",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.36168",
+      "doi": "",
+      "official_id": "arXiv:2609.36168",
+      "paper_url": "https://arxiv.org/abs/2609.36168",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Training-free depth completion improves accuracy; Physical AI perception relevance without runtime evidence.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -151376,6 +151654,27 @@
       ]
     },
     {
+      "title": "Live Architecture Models for Cloud-Native Architecture-as-Code: Early Results from Kubernetes Conformance Checking",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.36148",
+      "doi": "",
+      "official_id": "arXiv:2609.36148",
+      "paper_url": "https://arxiv.org/abs/2609.36148",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Kubernetes live architecture conformance is adjacent AI service deployment observability, not model serving optimization.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving"
+      ]
+    },
+    {
       "title": "TTM-Bench: A Framework for Text-to-Music System Performance Benchmarking",
       "venue": "arXiv 2026",
       "topic": "generative_media_serving_benchmark",
@@ -172343,6 +172642,72 @@
       "directions": [
         "LLM Serving",
         "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Qwen3 Technical Report",
+      "venue": "arXiv 2025",
+      "topic": "LLM serving energy and GPU measurement",
+      "arxiv": "2505.09388",
+      "doi": "",
+      "official_id": "arXiv:2505.09388",
+      "paper_url": "https://arxiv.org/abs/2505.09388",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Qwen3 Technical Report: adaptive thinking-budget inference and smaller-scale model efficiency; relevant to efficient reasoning/model serving but not a dedicated runtime or accelerator paper. Keep metadata only at P2.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "EMODY Flow: Emotion-Aware Audio-Driven Full-Body Motion Generation",
+      "venue": "arXiv 2026",
+      "topic": "multimodal flow generation",
+      "arxiv": "2609.16011",
+      "doi": "",
+      "official_id": "arXiv:2609.16011",
+      "paper_url": "https://arxiv.org/abs/2609.16011",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Compact 35M-parameter flow-matching motion generator attached to frozen Qwen3 Omni, relevant to multimodal/embodied generation; no latency, throughput, energy, or accelerator comparison, so P2 only.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Future Querying: Can LLMs Serve as Implicit Medical World Models?",
+      "venue": "arXiv 2026",
+      "topic": "small-model local inference",
+      "arxiv": "2608.23248",
+      "doi": "",
+      "official_id": "arXiv:2608.23248",
+      "paper_url": "https://arxiv.org/abs/2608.23248",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Small locally fine-tuned open-weight LLMs approach larger proprietary systems for future-querying/on-prem deployment, relevant to local inference efficiency; no hardware/latency/throughput benchmarks, so P2 only.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
       ]
     }
   ]

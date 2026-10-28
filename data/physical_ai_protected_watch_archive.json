@@ -5464,6 +5464,28 @@
     ]
   },
   {
+    "title": "Scouting the Dynamics Gap: Test-Time Policy Adaptation via Action-Outcome Feedback",
+    "venue": "arXiv 2026",
+    "topic": "",
+    "arxiv": "2609.36107",
+    "doi": "",
+    "official_id": "arXiv:2609.36107",
+    "paper_url": "https://arxiv.org/abs/2609.36107",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "SCOUT is a Physical-AI test-time adaptation mechanism using action-outcome dynamics feedback and a shared belief latent, explicitly reporting faster online adaptation and robust sim-to-real transfer; protected robotics/VLA-adjacent efficiency value, though the abstract lacks deployment compute/latency numbers.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "ScopeMamba-YOLO: Widening the Perceptual Scope Inward and Outward for Small Object Detection in Remote Sensing Imagery",
     "venue": "arXiv 2026",
     "topic": "",
@@ -12690,6 +12712,28 @@
     ]
   },
   {
+    "title": "KPI: A Promptable Kernel for Physical Interaction on Humanoids",
+    "venue": "arXiv 2026",
+    "topic": "physical_ai",
+    "arxiv": "2609.36151",
+    "doi": "",
+    "official_id": "arXiv:2609.36151",
+    "paper_url": "https://arxiv.org/abs/2609.36151",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Koopman-Accelerated Model-Based Diffusion for Real-Time Robot Control",
     "venue": "arXiv 2026",
     "topic": "",
@@ -14495,6 +14539,28 @@
     "is_latest_30d": false,
     "directions": [
       "LLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "GeoWind2Plan: Mission-Time 3D Urban Wind Prediction for Energy-Efficient UAV Planning",
+    "venue": "arXiv 2026",
+    "topic": "physical,edge,planning",
+    "arxiv": "2609.36056",
+    "doi": "",
+    "official_id": "arXiv:2609.36056",
+    "paper_url": "https://arxiv.org/abs/2609.36056",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "High-value adjacent or protected-route work with meaningful efficiency/system implications; retain for deeper reading.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI",
       "VLA / WAM / Physical AI"
     ]
   },

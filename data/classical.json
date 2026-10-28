@@ -8591,6 +8591,27 @@
     ]
   },
   {
+    "title": "Data Unlearning via Inverse Distillation",
+    "venue": "arXiv 2026",
+    "topic": "diffusion_flow_acceleration",
+    "arxiv": "2609.36099",
+    "doi": "",
+    "official_id": "arXiv:2609.36099",
+    "paper_url": "https://arxiv.org/abs/2609.36099",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "Data-Free Pruning of Self-Attention Layers in LLMs",
     "venue": "arXiv 2026",
     "topic": "sparsity_pruning",
@@ -10046,6 +10067,27 @@
     "directions": [
       "LLM Serving",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "Draft in Parallel, Condition Through Depth: Adjacent Causal Injection for Speculative Decoding",
+    "venue": "arXiv 2026",
+    "topic": "",
+    "arxiv": "2609.36173",
+    "doi": "",
+    "official_id": "arXiv:2609.36173",
+    "paper_url": "https://arxiv.org/abs/2609.36173",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Speculative Decoding"
     ]
   },
   {
@@ -12363,6 +12405,27 @@
     "directions": [
       "LLM Serving",
       "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "FastGuide: Accelerating Reward Guidance for Diffusion Large Language Models",
+    "venue": "arXiv 2026",
+    "topic": "",
+    "arxiv": "2609.36202",
+    "doi": "",
+    "official_id": "arXiv:2609.36202",
+    "paper_url": "https://arxiv.org/abs/2609.36202",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
@@ -19913,6 +19976,28 @@
     ]
   },
   {
+    "title": "Mixture-of-Kittens: MoE Megakernel for NVL72s",
+    "venue": "arXiv 2026",
+    "topic": "",
+    "arxiv": "2609.36070",
+    "doi": "",
+    "official_id": "arXiv:2609.36070",
+    "paper_url": "https://arxiv.org/abs/2609.36070",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "MoE Systems / Accelerators",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "mjorbit: A Simulation Framework for Space Robotics",
     "venue": "arXiv 2026",
     "topic": "VLA/WAM/Physical AI serving / robotics runtime / GPU simulation",
@@ -19978,6 +20063,27 @@
     "directions": [
       "Multimodal / MLLM Serving",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "Mnemon: Raw Records, Fast Judgments, Slow Thoughts",
+    "venue": "arXiv 2026",
+    "topic": "",
+    "arxiv": "2609.36059",
+    "doi": "",
+    "official_id": "arXiv:2609.36059",
+    "paper_url": "https://arxiv.org/abs/2609.36059",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Mnemon raw-record memory uses fast independent decisions; 3-11x faster than LLM alternatives and cost grows only 1.11x from 100K to 10M history tokens.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -27670,6 +27776,29 @@
     ]
   },
   {
+    "title": "SMat-Attention: Structured Long-Context Sequence Modeling",
+    "venue": "arXiv 2026",
+    "topic": "",
+    "arxiv": "2609.36062",
+    "doi": "",
+    "official_id": "arXiv:2609.36062",
+    "paper_url": "https://arxiv.org/abs/2609.36062",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "SMat-Attention directly exposes a tunable long-context efficiency tradeoff: subquadratic prefill O(T^{2-3/d}+T), constant-time fixed-horizon streaming decode with O(T^{1-1/d}) cached states, plus chunkwise hardware-oriented forward/backward algorithms; strongly relevant to efficient attention and KV/long-context serving.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Attention"
+    ]
+  },
+  {
     "title": "SMetric: Rethink LLM Scheduling for Serving Agents with Balanced Session-centric Scheduling",
     "venue": "arXiv 2026",
     "topic": "",
@@ -29639,6 +29768,27 @@
     ]
   },
   {
+    "title": "The Layer Mystery of VLA: An Information-Theoretical Analysis of VLA Latent Interface",
+    "venue": "arXiv 2026",
+    "topic": "physical_ai",
+    "arxiv": "2609.36118",
+    "doi": "",
+    "official_id": "arXiv:2609.36118",
+    "paper_url": "https://arxiv.org/abs/2609.36118",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": true,
+    "decision": "PROMOTE_STRONG",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "The Output-Space Hypothesis: Enumerative Equivalence Checking for Tensor Programs",
     "venue": "arXiv 2026",
     "topic": "gpu_kernel_compiler_verification",
@@ -29787,6 +29937,28 @@
     "directions": [
       "Efficient Reasoning / Agents",
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "ThinQuant: Scalable Rotation Learning for Weight and Activation Quantization of LLMs",
+    "venue": "arXiv 2026",
+    "topic": "quantization,rotation,calibration",
+    "arxiv": "2609.36120",
+    "doi": "",
+    "official_id": "arXiv:2609.36120",
+    "paper_url": "https://arxiv.org/abs/2609.36120",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Directly advances a core Efficient-ML/serving/Physical-AI efficiency route with a concrete mechanism and strong system or deployment signal in first-party metadata.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Quantization"
     ]
   },
   {

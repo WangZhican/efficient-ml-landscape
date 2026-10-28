@@ -1,6 +1,6 @@
 # 🛡️ Physical AI · Protected Historical Watch
 
-> **1036 older P1 papers** retained beyond the rolling 30-day window. This is a watchlist, not an expanded canonical/P0 claim.
+> **1039 older P1 papers** retained beyond the rolling 30-day window. This is a watchlist, not an expanded canonical/P0 claim.
 
 [← Physical AI direction](14-physical-ai-vla-wam.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/physical_ai_protected_watch_archive.json)
 
@@ -250,6 +250,7 @@
 | **P1 · Watch** | **Seed2Scale: A Self-Evolving Data Engine with Parallel Worlds Expansion for Scalable Robot Learning** | arXiv 2026 | multimodal,physical,edge | [Link](https://arxiv.org/abs/2603.08260) | — |
 | **P1 · Watch** | **See like a Robot: Robot-Centric Pointmaps for VLA Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2607.11498) | — |
 | **P1 · Watch** | **SEDualVLN: A Spatially-Enhanced Dual-System Framework for Vision-Language Navigation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2605.17249) | — |
+| **P1 · Watch** | **Scouting the Dynamics Gap: Test-Time Policy Adaptation via Action-Outcome Feedback** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.36107) | — |
 | **P1 · Watch** | **ScopeMamba-YOLO: Widening the Perceptual Scope Inward and Outward for Small Object Detection in Remote Sensing Imagery** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.10156) | — |
 | **P1 · Watch** | **SCOPE: Score-Isolated Agentic Optimization for Video World Models** | Fresh / preprint | video/image generation acceleration / efficient reasoning/agent systems / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.15043) | [Repo](https://github.com/YuhuaJiang2002/SCOPE) |
 | **P1 · Watch** | **SCoCaT: Success Conditioned Constrained Reinforcement Learning for Spacecraft Docking** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2609.06061) | — |
@@ -571,6 +572,7 @@
 | **P1 · Watch** | **LangMap: A Human-Verified Benchmark for Hierarchical Open-Vocabulary Goal Navigation** | arXiv 2026 | physical_ai | [Link](https://arxiv.org/abs/2602.02220) | — |
 | **P1 · Watch** | **LaGSplat: Inferring Physics-Governed Interactive Simulation from Monocular Video Using Latent Lagrangian Gaussian Splatting** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2608.16324) | — |
 | **P1 · Watch** | **La Agente Óptima: Towards Agentic Self-Driving Laboratories** | arXiv 2026 | VLA/WAM/Physical AI serving / autonomous experimentation / conditional agent invocation | [Link](https://arxiv.org/abs/2609.04564) | — |
+| **P1 · Watch** | **KPI: A Promptable Kernel for Physical Interaction on Humanoids** | arXiv 2026 | physical_ai | [Link](https://arxiv.org/abs/2609.36151) | — |
 | **P1 · Watch** | **Koopman-Accelerated Model-Based Diffusion for Real-Time Robot Control** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.28920) | — |
 | **P1 · Watch** | **KAN We Flow? Advancing Robotic Manipulation with 3D Flow Matching via KAN & RWKV** | Fresh / preprint | video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2602.01115) | — |
 | **P1 · Watch** | **JEPA Policy: Diffusion-Free Imitation Learning via Paired Action and Future Representation Prediction** | arXiv 2026 | VLA/WAM/Physical AI / diffusion-free action policy / low-latency visuomotor imitation | [Link](https://arxiv.org/abs/2609.09630) | — |
@@ -651,6 +653,7 @@
 | **P1 · Watch** | **GigaBrain-0.7: Scaling Embodied Foundation Models to Emergent Capabilities with a Three-System Architecture** | Fresh / preprint | multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.15875) | — |
 | **P1 · Watch** | **GIFT: Guided Intermediate Feature Training via Action-Oriented Structural Supervision for Robotic Manipulation** | arXiv 2026 | VLA/WAM/Physical AI / representation learning / action-oriented structure | [Link](https://arxiv.org/abs/2609.04193) | [Repo](https://openphoenix-team.github.io/GIFT/) |
 | **P1 · Watch** | **GIFT: Goal-Injected Fine-Tuning for Efficient Manipulation Policy Adaptation** | arXiv 2026 | VLA/WAM/Physical AI serving / lightweight adaptation / goal-conditioned manipulation | [Link](https://arxiv.org/abs/2609.07006) | — |
+| **P1 · Watch** | **GeoWind2Plan: Mission-Time 3D Urban Wind Prediction for Energy-Efficient UAV Planning** | arXiv 2026 | physical,edge,planning | [Link](https://arxiv.org/abs/2609.36056) | — |
 | **P1 · Watch** | **Geometry-Centered 3D Latent World Models for Growing Surfaces** | arXiv 2026 | gen,physical,edge | [Link](https://arxiv.org/abs/2506.03173) | — |
 | **P1 · Watch** | **Geometry Guided Self-Consistency for Physical AI** | arXiv 26 | vla_wam_inference | [Link](https://arxiv.org/abs/2605.08638) | — |
 | **P1 · Watch** | **Geometric Distributional Control: Learning Progress with Partial Structural Knowledge** | arXiv 2026 | VLA/WAM/Physical AI serving / real-time control / partial-model planning | [Link](https://arxiv.org/abs/2609.06331) | — |
