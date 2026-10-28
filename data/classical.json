@@ -17293,6 +17293,31 @@
     ]
   },
   {
+    "title": "LISA: Linear-Indexed Sparse Attention for Efficient Long-Context Reasoning",
+    "venue": "arXiv 2026",
+    "topic": "other",
+    "arxiv": "2607.19358",
+    "doi": "",
+    "official_id": "arXiv:2607.19358",
+    "paper_url": "https://arxiv.org/abs/2607.19358",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party arXiv abstract confirms a direct reusable high-value AI acceleration or serving mechanism: Long chain-of-thought (CoT) reasoning models such as DeepSeek-R1 keep lengthening their inference chains under test-time scaling, yet standard self-attention incurs quadratic cost in context length, making long-CoT deplo",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "LiteEvo: Automated, Cost-Efficient Harness Evolution for Generalization to Unseen Tasks",
     "venue": "arXiv 2026",
     "topic": "",

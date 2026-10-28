@@ -70019,6 +70019,29 @@
       "directions": [
         "Diffusion / Flow Acceleration"
       ]
+    },
+    {
+      "title": "From Legacy Fortran to Portable Kokkos: An Autonomous Agentic AI Workflow",
+      "venue": "arXiv 2026",
+      "topic": "other",
+      "arxiv": "2509.12443",
+      "doi": "",
+      "official_id": "arXiv:2509.12443",
+      "paper_url": "https://arxiv.org/abs/2509.12443",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "First-party arXiv abstract describes a valuable efficient-ML or protected Physical-AI mechanism requiring deeper evaluation: Scientific applications continue to rely on legacy Fortran codebases originally developed for homogeneous, CPU-based systems. As High-Performance Computing (HPC) shifts toward heterogeneous GPU-accelerated architectures,",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
     }
   ],
   "historical_p2": [
@@ -166568,6 +166591,27 @@
       "is_latest_30d": false,
       "directions": [
         "Video / Image Generation"
+      ]
+    },
+    {
+      "title": "Is BatchEnsemble a Single Model? On Calibration and Diversity of Efficient Ensembles",
+      "venue": "arXiv 2026",
+      "topic": "other",
+      "arxiv": "2601.16936",
+      "doi": "",
+      "official_id": "arXiv:2601.16936",
+      "paper_url": "https://arxiv.org/abs/2601.16936",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "First-party arXiv abstract is relevant to an adjacent efficient-ML or Physical-AI topic but not core systems acceleration: In resource-constrained and low-latency settings, uncertainty estimates must be efficiently obtained. Deep Ensembles provide robust epistemic uncertainty (EU) but require training multiple full-size models. BatchEnsemble",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
       ]
     }
   ]

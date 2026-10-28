@@ -10417,6 +10417,28 @@
     ]
   },
   {
+    "title": "Channel Selection for Mixture-of-Experts Decoding Needs No Calibration Data",
+    "venue": "arXiv 2026",
+    "topic": "other",
+    "arxiv": "2610.37386",
+    "doi": "",
+    "official_id": "arXiv:2610.37386",
+    "paper_url": "https://arxiv.org/abs/2610.37386",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party arXiv abstract confirms a direct reusable high-value AI acceleration or serving mechanism: Mixture-of-Experts (MoE) models are bottlenecked by loading routed-expert weights from memory during interactive decoding at small batch sizes. Because most intermediate channels in a routed expert contribute little to a",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "MoE Systems / Accelerators"
+    ]
+  },
+  {
     "title": "Channel-Wise and Token-Aware Post-Training Quantization for Visual State Space Duality",
     "venue": "arXiv 2026",
     "topic": "Efficient ML / systems",
@@ -12387,6 +12409,28 @@
     "tracking_tier": "P0 · Strong",
     "directions": [
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "CoS-VQ: Coordinated Shared-Scale Vector Quantization for Large Language Models",
+    "venue": "arXiv 2026",
+    "topic": "other",
+    "arxiv": "2610.37336",
+    "doi": "",
+    "official_id": "arXiv:2610.37336",
+    "paper_url": "https://arxiv.org/abs/2610.37336",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party arXiv abstract confirms a direct reusable high-value AI acceleration or serving mechanism: Large language models (LLMs) require substantial memory, motivating low-bit weight quantization for efficient deployment. Existing vector quantization (VQ) methods often improve accuracy by increasing the effective codin",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Quantization"
     ]
   },
   {
@@ -16687,6 +16731,28 @@
     ]
   },
   {
+    "title": "EdgePace: Deadline- and Freshness-Aware LLM Scheduling on Unified-Memory Platforms",
+    "venue": "arXiv 2026",
+    "topic": "other",
+    "arxiv": "2610.37307",
+    "doi": "",
+    "official_id": "arXiv:2610.37307",
+    "paper_url": "https://arxiv.org/abs/2610.37307",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party arXiv abstract confirms a direct reusable high-value AI acceleration or serving mechanism: Large language models (LLMs) increasingly run on edge devices alongside tasks that continuously process sensor data. In many applications, these foreground tasks prepare observations as inputs to the LLM, whose outputs g",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "EdgeVLN: Runtime-Aware Deployment Ready Quantized Vision Language Navigation Model",
     "venue": "arXiv 2026",
     "topic": "llm_serving,quant,sparse,multimodal,gen",
@@ -18913,6 +18979,29 @@
       "LLM Serving",
       "Video / Image Generation",
       "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "FastBEVFusion: Simple Multi-Modal Fusion for 3D Object Detection at 50 FPS",
+    "venue": "arXiv 2026",
+    "topic": "other",
+    "arxiv": "2610.37153",
+    "doi": "",
+    "official_id": "arXiv:2610.37153",
+    "paper_url": "https://arxiv.org/abs/2610.37153",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party arXiv abstract confirms a direct reusable high-value AI acceleration or serving mechanism: Reliable real-time 3D object detection based on LiDAR and camera data is critical for safety in autonomous driving, where systems must accurately perceive their surroundings with minimal latency. Many state-of-the-art sy",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
       "VLA / WAM / Physical AI"
     ]
   },
@@ -28881,6 +28970,31 @@
     ]
   },
   {
+    "title": "LISA: Linear-Indexed Sparse Attention for Efficient Long-Context Reasoning",
+    "venue": "arXiv 2026",
+    "topic": "other",
+    "arxiv": "2607.19358",
+    "doi": "",
+    "official_id": "arXiv:2607.19358",
+    "paper_url": "https://arxiv.org/abs/2607.19358",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party arXiv abstract confirms a direct reusable high-value AI acceleration or serving mechanism: Long chain-of-thought (CoT) reasoning models such as DeepSeek-R1 keep lengthening their inference chains under test-time scaling, yet standard self-attention incurs quadratic cost in context length, making long-CoT deplo",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "LiteEvo: Automated, Cost-Efficient Harness Evolution for Generalization to Unseen Tasks",
     "venue": "arXiv 2026",
     "topic": "",
@@ -36145,6 +36259,29 @@
     "directions": [
       "Speculative Decoding",
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "PipeLink: Contract-Guided Linking of GPU Kernel Components",
+    "venue": "arXiv 2026",
+    "topic": "other",
+    "arxiv": "2610.37200",
+    "doi": "",
+    "official_id": "arXiv:2610.37200",
+    "paper_url": "https://arxiv.org/abs/2610.37200",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party arXiv abstract confirms a direct reusable high-value AI acceleration or serving mechanism: The fastest machine-learning kernels are compositions of components, such as loaders, matrix-multiply mainloops, epilogues and communication stages, that run concurrently on one GPU streaming multiprocessor and share its",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference"
     ]
   },
   {
@@ -43766,6 +43903,27 @@
     ]
   },
   {
+    "title": "SimplexLoRA: Dynamic Rank Updating via Alternating Minimization with Simplex Projection",
+    "venue": "arXiv 2026",
+    "topic": "other",
+    "arxiv": "2610.37206",
+    "doi": "",
+    "official_id": "arXiv:2610.37206",
+    "paper_url": "https://arxiv.org/abs/2610.37206",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party arXiv abstract confirms a direct reusable high-value AI acceleration or serving mechanism: The success of large language models in real-world applications relies on parameter-efficient fine-tuning methods such as Low-Rank Adaptation (LoRA), which inserts compact, trainable adapters into selected layers. In thi",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving"
+    ]
+  },
+  {
     "title": "Simthesizer: An Agent-Driven Simulation Framework for LLM Serving Systems",
     "venue": "arXiv 2026",
     "topic": "LLM serving / serving simulator / agentic workloads / disaggregated serving / speculative decoding / KV cache",
@@ -45527,6 +45685,28 @@
     ]
   },
   {
+    "title": "Spine: Compiling Subtask Trees into Structured Context for Long-Horizon Coding Agents",
+    "venue": "arXiv 2026",
+    "topic": "other",
+    "arxiv": "2610.37224",
+    "doi": "",
+    "official_id": "arXiv:2610.37224",
+    "paper_url": "https://arxiv.org/abs/2610.37224",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party arXiv abstract confirms a direct reusable high-value AI acceleration or serving mechanism: Long-horizon coding tasks contain nested subtasks. Typically, agents record interactions sequentially into a growing history, causing context inflation and performance degradation. Compressing or trimming the history wit",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "SPLASH: Co-Designing Sparse Attention with High-Bandwidth Flash for Efficient Long-Context Inference",
     "venue": "arXiv 2026",
     "topic": "KV cache/long-context; sparse attention",
@@ -47023,6 +47203,29 @@
       "Efficient Attention",
       "Efficient Reasoning / Agents",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "TAO: Tool-Aware Joint Scheduling for LLM-Based Agentic Serving",
+    "venue": "arXiv 2026",
+    "topic": "other",
+    "arxiv": "2610.37230",
+    "doi": "",
+    "official_id": "arXiv:2610.37230",
+    "paper_url": "https://arxiv.org/abs/2610.37230",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party arXiv abstract confirms a direct reusable high-value AI acceleration or serving mechanism: Agentic services alternate between model inference on clustered GPUs and external tools on distributed CPUs. In this scenario, existing systems (1) overlook tool-return readiness in service evaluation, wasting limited re",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
