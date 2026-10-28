@@ -1,6 +1,6 @@
 # 03 · KV Cache / Long Context
 
-> **827 canonical papers** mapped here, plus a broader **221-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **829 canonical papers** mapped here, plus a broader **221-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -230,7 +230,7 @@
 | **P1 · Watch** | **Budgeted Cache Repair for Cross-Context KV-Cache Reuse** | arXiv 2026 | KV cache / LLM serving | [Link](https://arxiv.org/abs/2610.02233) | — |
 | **P0 · Strong** | **Beyond Capacity: Scalable MoE LLM Inference via High-Bandwidth Flash with Direct GPU and HBM Paths** | Fresh / preprint | MoE serving / high-bandwidth flash architecture | [Link](https://arxiv.org/abs/2608.14333) | — |
 
-## 🏛️ Classical / Historical · 699 canonical
+## 🏛️ Classical / Historical · 701 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -879,6 +879,8 @@
 | **Canonical** | **Spotlight Attention: Towards Efficient LLM Generation via Non-linear Hashing-based KV Cache Retrieval** | NeurIPS 2025 | sparse attention / KV retrieval / CUDA kernel | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/7c799b09cc40973ceaa47da50131dc63-Abstract-Conference.html) | — |
 | **Canonical** | **Value-Guided KV Compression for LLMs via Approximated CUR Decomposition** | NeurIPS 2025 | KV cache/long-context / efficient LLM inference | [Link](https://arxiv.org/abs/2509.15038) | — |
 | **Canonical** | **Attack of the Bubbles: Straggler-Resilient Pipeline Parallelism for Large Model Training** | NSDI 2026 | distributed training / pipeline parallelism | [Link](https://www.usenix.org/conference/nsdi26/presentation/wu-tianyuan) | — |
+| **Canonical** | **AVA: Towards Agentic Video Analytics with Vision Language Models** | NSDI 2026 | efficient ML systems / multimodal VLM and long-video agent serving | [Link](https://arxiv.org/abs/2505.00254) | — |
+| **Canonical** | **DistVS: Large-scale Vector Search with Compute-Memory Disaggregation** | NSDI 2026 | efficient ML systems / RAG vector search / compute-memory disaggregation | [Link](https://www.usenix.org/conference/nsdi26/presentation/yin) | — |
 | **Canonical** | **DroidSpeak: KV Cache Sharing Across Fine-tuned Model Variants** | NSDI 2026 | KV cache / multi-model serving | [Link](https://www.usenix.org/system/files/nsdi26-liu-yuhan.pdf) | — |
 | **Canonical** | **SwiftEP: Accelerating MoE Inference with Buffer Fusion and TMA Offloading** | NSDI 2026 | MoE communication / inference runtime | [Link](https://www.usenix.org/system/files/nsdi26-li-xingyi.pdf) | — |
 | **Canonical** | **SYMPHONY: Enabling Compute-Memory Disaggregation in LLM Serving Systems** | NSDI 2026 | KV-cache / disaggregated memory serving | [Link](https://www.usenix.org/system/files/nsdi26-agarwal.pdf) | — |

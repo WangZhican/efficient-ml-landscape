@@ -1,6 +1,6 @@
 # 10 · Multimodal / MLLM Serving
 
-> **574 canonical papers** mapped here, plus a broader **632-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **576 canonical papers** mapped here, plus a broader **632-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -641,7 +641,7 @@
 | **P2 · Relevant** | **A Safe Action Is Not Enough: Feasible-Future Decoding for Vision-Language-Action Policies** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.05166) | — |
 | **P1 · Watch** | **$\Psi$-0.6: Adaptive Streams of Thought in a Unified Vision-Language World Model** | arXiv 2026 | physical_ai | [Link](https://arxiv.org/abs/2610.32177) | — |
 
-## 🏛️ Classical / Historical · 456 canonical
+## 🏛️ Classical / Historical · 458 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -1083,6 +1083,8 @@
 | **Canonical** | **Efficient, VRAM-Constrained xLM Inference on Clients** | MLSys 2026 | client LLM/VLM inference / CPU-GPU hybrid runtime / Physical AI | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/file/7cd265ae802235b8d5778a4a96ff22dd-Paper-Conference.pdf) | — |
 | **Canonical** | **TriInfer: Hybrid EPD Disaggregation for Efficient Multimodal Large Language Model Inference** | MLSys 2026 | multimodal serving / encode-prefill-decode disaggregation / heterogeneous inference | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/f068c65585985c25c17f221390774ec7-Abstract-Conference.html) | [Repo](https://github.com/dongxianzhe/triinfer) |
 | **Canonical** | **Modality Plug-and-Play: Runtime Modality Adaptation in LLM-Driven Autonomous Mobile Systems** | MobiCom 2025 | Physical AI / multimodal edge runtime / efficient modality adaptation | [Link](https://pittisl.github.io/publication/2023-mpnp-llm/) | [Repo](https://github.com/pittisl/mPnP-LLM) |
+| **Canonical** | **AVA: Towards Agentic Video Analytics with Vision Language Models** | NSDI 2026 | efficient ML systems / multimodal VLM and long-video agent serving | [Link](https://arxiv.org/abs/2505.00254) | — |
+| **Canonical** | **DistVS: Large-scale Vector Search with Compute-Memory Disaggregation** | NSDI 2026 | efficient ML systems / RAG vector search / compute-memory disaggregation | [Link](https://www.usenix.org/conference/nsdi26/presentation/yin) | — |
 | **Canonical** | **ServeGen: Workload Characterization and Generation of Large Language Model Serving in Production** | NSDI 2026 | LLM serving / production workload characterization / benchmark generation | [Link](https://www.usenix.org/conference/nsdi26/presentation/xiang-servegen) | [Repo](https://github.com/alibaba/ServeGen) |
 | **Canonical** | **DreamActVLA: Temporally Aligned Asynchronous Inference for Vision-Language-Action Models** | Project/primary artifact 2026 | VLA/WAM/Physical AI serving / temporally aligned asynchronous inference / latent world model | [Link](https://dream-act-vla.github.io/) | [Repo](https://github.com/Somdit/DreamActVLA) |
 | **Canonical** | **FAST: Efficient Action Tokenization for Vision-Language-Action Models** | RSS 2025 | Physical AI / VLA action tokenization / efficient training and inference | [Link](https://arxiv.org/abs/2501.09747) | — |

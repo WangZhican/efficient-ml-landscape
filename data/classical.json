@@ -40112,28 +40112,6 @@
     ]
   },
   {
-    "title": "Legilimens: Performant Video Analytics on the System-on-Chip Edge",
-    "venue": "arXiv 25",
-    "topic": "edge_video_ai_systems",
-    "arxiv": "2504.21136",
-    "doi": "",
-    "official_id": "arXiv:2504.21136",
-    "paper_url": "https://arxiv.org/abs/2504.21136",
-    "code_url": "",
-    "formal_class": "CANONICAL_HIGH_VALUE",
-    "physical_ai": false,
-    "decision": "PROMOTE_STRONG",
-    "why": "Mobile SoC GPU continuous adaptation co-schedules retraining and live inference, reducing retraining costs 2.8-10x.",
-    "published_at": "",
-    "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
-    "directions": [
-      "GPU Kernel / DSL / Compiler",
-      "Edge / Cloud / Heterogeneous AI"
-    ]
-  },
-  {
     "title": "LEGO: Spatial Accelerator Generation and Optimization for Tensor Applications",
     "venue": "arXiv 25",
     "topic": "AI accelerator / architecture generator",
@@ -83022,6 +83000,31 @@
     ]
   },
   {
+    "title": "AVA: Towards Agentic Video Analytics with Vision Language Models",
+    "venue": "NSDI 2026",
+    "topic": "efficient ML systems / multimodal VLM and long-video agent serving",
+    "arxiv": "2505.00254",
+    "doi": "",
+    "official_id": "arXiv:2505.00254",
+    "paper_url": "https://arxiv.org/abs/2505.00254",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Official first-party abstract: VLM-powered open-ended video analytics addresses ultra-long video context via near-real-time Event Knowledge Graph indexing and agentic retrieval-generation; provides LVBench/VideoMME-Long/AVA-100 results. Directly fits multimodal/MLLM serving and efficient long-context/agent systems.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "BURST: Seeking High-performance, Interoperability and Scalability in Soft-RDMA",
     "venue": "NSDI 2026",
     "topic": "distributed inference / RDMA / heterogeneous AI infrastructure / communication",
@@ -83131,6 +83134,30 @@
     "directions": [
       "LLM Serving",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "DistVS: Large-scale Vector Search with Compute-Memory Disaggregation",
+    "venue": "NSDI 2026",
+    "topic": "efficient ML systems / RAG vector search / compute-memory disaggregation",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "USENIX:NSDI26:yin",
+    "paper_url": "https://www.usenix.org/conference/nsdi26/presentation/yin",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Official first-party abstract: RAG/recommender vector search uses tiered low/high/full precision compressed vectors, progressive pruning, disaggregated memory, async/RDMA batching and decoupled reranking; reports >40% query-throughput gains. Directly fits KV/long-context retrieval and efficient MLLM serving.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Multimodal / MLLM Serving"
     ]
   },
   {
@@ -83353,6 +83380,27 @@
     ]
   },
   {
+    "title": "Geminet: Learning the Duality-based Topology-Agnostic Update Operator for Lightweight Traffic Engineering in Changing Topologies",
+    "venue": "NSDI 2026",
+    "topic": "efficient ML systems / ML-for-systems model size and memory efficiency",
+    "arxiv": "2506.23640",
+    "doi": "",
+    "official_id": "arXiv:2506.23640",
+    "paper_url": "https://arxiv.org/abs/2506.23640",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Official first-party abstract: ML-based TE model is topology-agnostic, reduces model size to 0.04%–7% of baselines and memory from >80 GiB to <10 GiB, with 18× faster convergence. Directly studies model scalability/memory/compute efficiency; retain as high-value ML-for-systems record.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "HeteCCL: Synthesizing Near-Optimal Collective Communication Schedules for Heterogeneous GPU Clusters",
     "venue": "NSDI 2026",
     "topic": "distributed training / heterogeneous collectives",
@@ -83528,6 +83576,28 @@
     ]
   },
   {
+    "title": "Remembrall: Leaning into Memory for Accurate Video Analytics on System-on-Chip GPUs",
+    "venue": "NSDI 2026",
+    "topic": "edge_video_ai_systems",
+    "arxiv": "2504.21136",
+    "doi": "",
+    "official_id": "arXiv:2504.21136",
+    "paper_url": "https://arxiv.org/abs/2504.21136",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Mobile SoC GPU continuous adaptation co-schedules retraining and live inference, reducing retraining costs 2.8-10x.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "RLBoost: Harvesting Preemptible Cloud Resources for Cost-Efficient Reinforcement Learning on LLMs",
     "venue": "NSDI 2026",
     "topic": "efficient reasoning / RL training infrastructure",
@@ -83617,6 +83687,27 @@
       "Sparsity / Pruning",
       "MoE Systems / Accelerators",
       "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "SPLIDT: Partitioned Decision Trees for Scalable Stateful Inference at Line Rate",
+    "venue": "NSDI 2026",
+    "topic": "efficient ML systems / in-network ML inference / data-plane architecture",
+    "arxiv": "2509.00397",
+    "doi": "",
+    "official_id": "arXiv:2509.00397",
+    "paper_url": "https://arxiv.org/abs/2509.00397",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Official first-party abstract: custom data-plane decision-tree inference and training/DSE framework scales stateful features up to 5× while maintaining low detection latency with minimal recirculation. Directly fits ML accelerator/data-plane inference architecture.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {

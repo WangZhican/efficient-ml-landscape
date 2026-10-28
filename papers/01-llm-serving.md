@@ -1,6 +1,6 @@
 # 01 · LLM Serving
 
-> **2043 canonical papers** mapped here, plus a broader **1552-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **2045 canonical papers** mapped here, plus a broader **1552-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -1561,7 +1561,7 @@
 | **P2 · Relevant** | **A Drosophila Whole-Connectome Network Can Learn Human-Designed Cognitive Tasks** | arXiv 2026 | llm_serving,gen | [Link](https://arxiv.org/abs/2610.10014) | — |
 | **P2 · Relevant** | **A differentiable Lagrangian-coupled 3D Gaussian Splatting-SPH model for forward simulation and inverse analysis in solid mechanics** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.04336) | — |
 
-## 🏛️ Classical / Historical · 1644 canonical
+## 🏛️ Classical / Historical · 1646 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -3070,10 +3070,12 @@
 | **Canonical** | **Zebra-Llama: Towards Extremely Efficient Hybrid Models** | NeurIPS 2025 | efficient hybrid LLM architecture / KV reduction | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/7089237e828d55febd85a8d07f89e102-Abstract-Conference.html) | [Repo](https://github.com/AMD-AGI/AMD-Hybrid-Models) |
 | **Canonical** | **TrunkFish: Making Model Width Incrementally Refinable** | NeurIPS 2026 | LLM serving; efficient reasoning/agent systems | [Link](https://neurips.cc/virtual/2026/poster/148418) | — |
 | **Canonical** | **Agentix: An Efficient Serving Engine for LLM Agents as General Programs** | NSDI 2026 | agentic LLM serving | [Link](https://www.usenix.org/system/files/nsdi26-luo.pdf) | — |
+| **Canonical** | **AVA: Towards Agentic Video Analytics with Vision Language Models** | NSDI 2026 | efficient ML systems / multimodal VLM and long-video agent serving | [Link](https://arxiv.org/abs/2505.00254) | — |
 | **Canonical** | **BURST: Seeking High-performance, Interoperability and Scalability in Soft-RDMA** | NSDI 2026 | distributed inference / RDMA / heterogeneous AI infrastructure / communication | [Link](https://www.usenix.org/conference/nsdi26/presentation/shen) | — |
 | **Canonical** | **Checkmate: Zero Performance Overhead Model Checkpointing via Network Gradient Replication** | NSDI 2026 | distributed training / checkpointing | [Link](https://www.usenix.org/conference/nsdi26/presentation/bhardwaj) | — |
 | **Canonical** | **Cortex: Achieving Low-Latency, Cost-Efficient Remote Data Access For LLM via Semantic-Aware Knowledge Caching** | NSDI 2026 | agent systems / semantic knowledge caching | [Link](https://www.usenix.org/system/files/nsdi26-ruan-cortex.pdf) | — |
 | **Canonical** | **DistRS: Disaggregated Reward Service for RLVR with Batch-Level Constraint** | NSDI 2026 | efficient reasoning / RL post-training infra | [Link](https://www.usenix.org/conference/nsdi26/presentation/zhu-ruidong) | — |
+| **Canonical** | **DistVS: Large-scale Vector Search with Compute-Memory Disaggregation** | NSDI 2026 | efficient ML systems / RAG vector search / compute-memory disaggregation | [Link](https://www.usenix.org/conference/nsdi26/presentation/yin) | — |
 | **Canonical** | **DroidSpeak: KV Cache Sharing Across Fine-tuned Model Variants** | NSDI 2026 | KV cache / multi-model serving | [Link](https://www.usenix.org/system/files/nsdi26-liu-yuhan.pdf) | — |
 | **Canonical** | **FAST: An Efficient Scheduler for All-to-All GPU Communication** | NSDI 2026 | distributed training / collective communication | [Link](https://www.usenix.org/conference/nsdi26/presentation/lei-yiran) | — |
 | **Canonical** | **FastServe: Iteration-Level Preemptive Scheduling for Large Language Model Inference** | NSDI 2026 | LLM serving / preemptive scheduling / GPU memory management | [Link](https://www.usenix.org/conference/nsdi26/presentation/wu-bingyang) | — |

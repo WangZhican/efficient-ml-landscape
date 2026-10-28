@@ -1,6 +1,6 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **1068 canonical papers** mapped here, plus a broader **1348-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **1071 canonical papers** mapped here, plus a broader **1348-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -1357,7 +1357,7 @@
 | **P2 · Relevant** | **A Local Agentic AI Framework to Generate Edge Case Scenarios for Safety Assurance** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.13479) | — |
 | **P1 · Watch** | **A Compression Tree Generation Method for High Performance VLSI Datapaths** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2610.02228) | — |
 
-## 🏛️ Classical / Historical · 883 canonical
+## 🏛️ Classical / Historical · 886 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -1765,7 +1765,6 @@
 | **Canonical** | **HeterMoE: Efficient Training of Mixture-of-Experts Models on Heterogeneous GPUs** | arXiv 25 | efficient_ml_systems | [Link](https://arxiv.org/abs/2504.03871) | — |
 | **Canonical** | **HipKittens: Fast and Furious AMD Kernels** | arXiv 25 | GPU kernel DSL / heterogeneous hardware | [Link](https://arxiv.org/abs/2511.08083) | — |
 | **Canonical** | **Ladder-Residual: Parallelism-Aware Architecture for Accelerating Large Model Inference with Communication Overlapping** | arXiv 25 | distributed training/inference / tensor parallelism / communication overlap / architecture co-design | [Link](https://arxiv.org/abs/2501.06589) | — |
-| **Canonical** | **Legilimens: Performant Video Analytics on the System-on-Chip Edge** | arXiv 25 | edge_video_ai_systems | [Link](https://arxiv.org/abs/2504.21136) | — |
 | **Canonical** | **Lifetime-Aware Design for Item-Level Intelligence at the Extreme Edge** | arXiv 25 | extreme_edge_ai_hardware | [Link](https://arxiv.org/abs/2509.08193) | — |
 | **Canonical** | **Llamba: Scaling Distilled Recurrent Models for Efficient Language Processing** | arXiv 25 | edge/cloud/heterogeneous AI systems / efficient LLM inference / recurrent models / distillation | [Link](https://arxiv.org/abs/2502.14458) | — |
 | **Canonical** | **Minions: Cost-efficient Collaboration Between On-device and Cloud Language Models** | arXiv 25 | edge-cloud inference / efficient reasoning / long-context agent serving | [Link](https://arxiv.org/abs/2502.15964) | — |
@@ -2167,13 +2166,17 @@
 | **Canonical** | **Homogeneous Keys, Heterogeneous Values: Exploiting Local KV Cache Asymmetry for Long-Context LLMs** | NeurIPS 2025 | KV cache compression / long-context inference / key-value asymmetry | [Link](https://doi.org/10.52202/085713-2726) | [Repo](https://github.com/the-scale-lab/Asymkv) |
 | **Canonical** | **Knowing When to Stop: Efficient Context Processing via Latent Sufficiency Signals** | NeurIPS 2025 | efficient context processing / adaptive cutoff | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/3afa7f9b7ac8da474b3d915570d58291-Abstract-Conference.html) | — |
 | **Canonical** | **SpecEdge: Scalable Edge-Assisted Serving Framework for Interactive LLMs** | NeurIPS 2025 | edge-cloud LLM serving / speculative decoding | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/8587069d00a69d0ea498d547fffad6dd-Abstract-Conference.html) | — |
+| **Canonical** | **AVA: Towards Agentic Video Analytics with Vision Language Models** | NSDI 2026 | efficient ML systems / multimodal VLM and long-video agent serving | [Link](https://arxiv.org/abs/2505.00254) | — |
 | **Canonical** | **BURST: Seeking High-performance, Interoperability and Scalability in Soft-RDMA** | NSDI 2026 | distributed inference / RDMA / heterogeneous AI infrastructure / communication | [Link](https://www.usenix.org/conference/nsdi26/presentation/shen) | — |
 | **Canonical** | **Cortex: Achieving Low-Latency, Cost-Efficient Remote Data Access For LLM via Semantic-Aware Knowledge Caching** | NSDI 2026 | agent systems / semantic knowledge caching | [Link](https://www.usenix.org/system/files/nsdi26-ruan-cortex.pdf) | — |
 | **Canonical** | **Di-PS: System-Algorithm Co-Design for Asynchronous and Heterogeneous Cross-cluster LLM Training at Scale** | NSDI 2026 | distributed training / heterogeneous clusters | [Link](https://www.usenix.org/conference/nsdi26/presentation/li-shengwei) | — |
 | **Canonical** | **FENIX: Enabling In-Network DNN Inference with FPGA-Enhanced Programmable Switches** | NSDI 2026 | edge / heterogeneous AI inference | [Link](https://www.usenix.org/conference/nsdi26/presentation/gao) | — |
 | **Canonical** | **ForestColl: Throughput-Optimal Collective Communications on Heterogeneous Network Fabrics** | NSDI 2026 | distributed training / collective communication | [Link](https://www.usenix.org/conference/nsdi26/presentation/zhao-liangyu) | — |
+| **Canonical** | **Geminet: Learning the Duality-based Topology-Agnostic Update Operator for Lightweight Traffic Engineering in Changing Topologies** | NSDI 2026 | efficient ML systems / ML-for-systems model size and memory efficiency | [Link](https://arxiv.org/abs/2506.23640) | — |
 | **Canonical** | **HeteCCL: Synthesizing Near-Optimal Collective Communication Schedules for Heterogeneous GPU Clusters** | NSDI 2026 | distributed training / heterogeneous collectives | [Link](https://www.usenix.org/conference/nsdi26/presentation/hei) | — |
 | **Canonical** | **PlanetServe: A Decentralized, Scalable, and Privacy-Preserving Overlay for Democratizing Large Language Model Serving** | NSDI 2026 | LLM serving / distributed inference / edge-cloud heterogeneous AI systems | [Link](https://arxiv.org/abs/2504.20101) | [Repo](https://github.com/fffeifang/PlanetServe) |
+| **Canonical** | **Remembrall: Leaning into Memory for Accurate Video Analytics on System-on-Chip GPUs** | NSDI 2026 | edge_video_ai_systems | [Link](https://arxiv.org/abs/2504.21136) | — |
+| **Canonical** | **SPLIDT: Partitioned Decision Trees for Scalable Stateful Inference at Line Rate** | NSDI 2026 | efficient ML systems / in-network ML inference / data-plane architecture | [Link](https://arxiv.org/abs/2509.00397) | — |
 | **Canonical** | **ZipLLM: Efficient LLM Storage via Model-Aware Synergistic Data Deduplication and Compression** | NSDI 2026 | LLM storage / model deduplication / compression | [Link](https://www.usenix.org/system/files/nsdi26-wang-zirui.pdf) | — |
 | **Canonical** | **Achieving Cloud-Grade SLOs for Local Mixture-of-Experts Inference through CPU–GPU Hybrid Design** | OSDI 2026 | MoE systems / edge-local inference / heterogeneous CPU-GPU | [Link](https://www.usenix.org/conference/osdi26/presentation/wang-wenxin) | — |
 | **Canonical** | **CoPilotIO: CPU as a Co-Pilot for GPU I/O to Free GPU Compute** | OSDI 2026 | GPU I/O / heterogeneous AI systems / MoE inference infrastructure | [Link](https://www.usenix.org/conference/osdi26/presentation/chen-guanyi) | [Repo](https://github.com/ScaleXLab/OSDI26-CoPilotIO) |

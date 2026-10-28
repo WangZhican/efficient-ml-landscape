@@ -1,6 +1,6 @@
 # 13 · Efficient Reasoning / Agents
 
-> **1022 canonical papers** mapped here, plus a broader **1732-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **1023 canonical papers** mapped here, plus a broader **1732-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -1741,7 +1741,7 @@
 | **P2 · Relevant** | **A Privileged Teacher That Only Scores Cannot Search: Critique-Conditioned On-Policy Self-Distillation for Reasoning** | arXiv 2026 | efficient_reasoning_agents | [Link](https://arxiv.org/abs/2610.13744) | — |
 | **P2 · Relevant** | **A Local Agentic AI Framework to Generate Edge Case Scenarios for Safety Assurance** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.13479) | — |
 
-## 🏛️ Classical / Historical · 793 canonical
+## 🏛️ Classical / Historical · 794 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -2511,6 +2511,7 @@
 | **Canonical** | **Self Forcing: Bridging the Train-Test Gap in Autoregressive Video Diffusion** | NeurIPS 2025 | autoregressive video diffusion / streaming generation | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/f4823f831af67a3ef15e41a85434422a-Abstract-Conference.html) | — |
 | **Canonical** | **TrunkFish: Making Model Width Incrementally Refinable** | NeurIPS 2026 | LLM serving; efficient reasoning/agent systems | [Link](https://neurips.cc/virtual/2026/poster/148418) | — |
 | **Canonical** | **Agentix: An Efficient Serving Engine for LLM Agents as General Programs** | NSDI 2026 | agentic LLM serving | [Link](https://www.usenix.org/system/files/nsdi26-luo.pdf) | — |
+| **Canonical** | **AVA: Towards Agentic Video Analytics with Vision Language Models** | NSDI 2026 | efficient ML systems / multimodal VLM and long-video agent serving | [Link](https://arxiv.org/abs/2505.00254) | — |
 | **Canonical** | **Cortex: Achieving Low-Latency, Cost-Efficient Remote Data Access For LLM via Semantic-Aware Knowledge Caching** | NSDI 2026 | agent systems / semantic knowledge caching | [Link](https://www.usenix.org/system/files/nsdi26-ruan-cortex.pdf) | — |
 | **Canonical** | **DistRS: Disaggregated Reward Service for RLVR with Batch-Level Constraint** | NSDI 2026 | efficient reasoning / RL post-training infra | [Link](https://www.usenix.org/conference/nsdi26/presentation/zhu-ruidong) | — |
 | **Canonical** | **RLBoost: Harvesting Preemptible Cloud Resources for Cost-Efficient Reinforcement Learning on LLMs** | NSDI 2026 | efficient reasoning / RL training infrastructure | [Link](https://www.usenix.org/system/files/nsdi26-wu-yongji.pdf) | — |

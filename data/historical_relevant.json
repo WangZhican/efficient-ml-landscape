@@ -173435,6 +173435,330 @@
       "directions": [
         "LLM Serving"
       ]
+    },
+    {
+      "title": "CascadeNet: Generating Network Traffic with High-Fidelity Temporal Patterns",
+      "venue": "NSDI 2026",
+      "topic": "ML systems / efficient generative models / ML-for-systems",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "USENIX:NSDI26:lu-runwei",
+      "paper_url": "https://www.usenix.org/conference/nsdi26/presentation/lu-runwei",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Generative network-trace model with reported 7.3×–25× training-time reduction; relevant to generative ML efficiency but specialized to traffic synthesis, so P2.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Defeating Slow-and-Low Threats via Diffusion Model-based Generative Inference",
+      "venue": "NSDI 2026",
+      "topic": "ML systems / efficient generative models / ML-for-systems",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "USENIX:NSDI26:mirnajafizadeh",
+      "paper_url": "https://www.usenix.org/conference/nsdi26/presentation/mirnajafizadeh",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Diffusion-based generative inference for resource-constrained CDN-edge security; relevant to efficient generative inference, but specialized to detection rather than general ML serving, so P2.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving",
+        "Diffusion / Flow Acceleration",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Express Lane to Efficiency and Reliability: Multi-Dimensional Control in Meta’s Express Backbone Network",
+      "venue": "NSDI 2026",
+      "topic": "ML systems / efficient generative models / ML-for-systems",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "USENIX:NSDI26:iqbal",
+      "paper_url": "https://www.usenix.org/conference/nsdi26/presentation/iqbal",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Official abstract explicitly targets AI-era network utilization and recovery for global data-center workloads; relevant to distributed AI infrastructure, but not a model/accelerator contribution, so P2.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "From Bits to Tokens: Knowledge-Driven Generative Communication of Multimodal Data",
+      "venue": "NSDI 2026",
+      "topic": "ML systems / efficient generative models / ML-for-systems",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "USENIX:NSDI26:chen-xingyu",
+      "paper_url": "https://www.usenix.org/conference/nsdi26/presentation/chen-xingyu",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Multimodal foundation-model semantic communication with task-relevant token/embedding transfer and reduced data volume; relevant to multimodal/MLLM efficiency, but not an inference accelerator, so P2.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Distributed Training / Inference",
+        "Multimodal / MLLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Making Logic a First-Class Citizen in Generative ML for Networking",
+      "venue": "NSDI 2026",
+      "topic": "ML systems / efficient generative models / ML-for-systems",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "USENIX:NSDI26:he",
+      "paper_url": "https://www.usenix.org/conference/nsdi26/presentation/he",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Integrates learned rules and generative ML for network tasks; relevant to efficient reasoning/ML-for-systems research, but not an ML serving/acceleration result, so P2.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "MoCE: A Mixture-of-Context Aware Experts Framework for Troubleshooting Internet-scale Services",
+      "venue": "NSDI 2026",
+      "topic": "ML systems / efficient generative models / ML-for-systems",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "USENIX:NSDI26:harsh",
+      "paper_url": "https://www.usenix.org/conference/nsdi26/presentation/harsh",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Context-aware expert hypotheses with reusable dataflow DAGs and lazy execution for scalable troubleshooting; adjacent to efficient expert/agent reasoning systems, but not a learned model, so P2.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Morphe: High-Fidelity Generative Video Streaming with Vision Foundation Model",
+      "venue": "NSDI 2026",
+      "topic": "ML systems / efficient generative models / ML-for-systems",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "USENIX:NSDI26:gong",
+      "paper_url": "https://www.usenix.org/conference/nsdi26/presentation/gong",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "VFM-enabled generative video streaming with 62.5% bandwidth savings and real-time loss-resilient delivery; relevant to video-generation systems efficiency, but specialized to transmission, so P2.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "PolicyCache: Intra-flow Learning in Congestion Control",
+      "venue": "NSDI 2026",
+      "topic": "ML systems / efficient generative models / ML-for-systems",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "USENIX:NSDI26:tian",
+      "paper_url": "https://www.usenix.org/conference/nsdi26/presentation/tian",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Lightweight tree-based online learning confined to a flow, explicitly targeting low computational overhead and fast adaptation; relevant to efficient ML-for-systems, but domain-specific, so P2.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Predict, Prune, Play: Efficient Video Playback Optimization Under Device Diversity and Drift",
+      "venue": "NSDI 2026",
+      "topic": "ML systems / efficient generative models / ML-for-systems",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "USENIX:NSDI26:sharma",
+      "paper_url": "https://www.usenix.org/conference/nsdi26/presentation/sharma",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Few-shot ML recommendation reduces configuration exploration cost 5.8×–13.6× for video playback; relevant to efficient model-driven optimization, but not model inference/training acceleration, so P2.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Sparsity / Pruning",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "PrvTel: Lightweight Models for Private and Accurate Telemetry Data Retention",
+      "venue": "NSDI 2026",
+      "topic": "ML systems / efficient generative models / ML-for-systems",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "USENIX:NSDI26:zhou-yajie",
+      "paper_url": "https://www.usenix.org/conference/nsdi26/presentation/zhou-yajie",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "VAE-based compact generative telemetry retention with up to 50× lower ownership cost; relevant to generative model compression/efficient storage, but specialized to telemetry, so P2.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Syntra: Synthesizing Cross-Layer Controllers for Low-Latency Video Streaming",
+      "venue": "NSDI 2026",
+      "topic": "ML systems / efficient generative models / ML-for-systems",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "USENIX:NSDI26:pan",
+      "paper_url": "https://www.usenix.org/conference/nsdi26/presentation/pan",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Controller synthesis with imitation-learning distillation for cross-layer video streaming; relevant to efficient learned control, but no general model-serving result, so P2.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving"
+      ]
+    },
+    {
+      "title": "The GOODPUT System: A Machine Learning-Driven Optimization Framework for Dynamic Spectrum Control in Heterogeneous WLANs",
+      "venue": "NSDI 2026",
+      "topic": "ML systems / efficient generative models / ML-for-systems",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "USENIX:NSDI26:wang-yu",
+      "paper_url": "https://www.usenix.org/conference/nsdi26/presentation/wang-yu",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "ML-driven goodput prediction and efficient optimization for WLAN channel/resource control; relevant to ML-for-systems, but not ML inference/training/serving, so P2.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Towards Performance Robustness for Microservices",
+      "venue": "NSDI 2026",
+      "topic": "ML systems / efficient generative models / ML-for-systems",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "USENIX:NSDI26:saxena",
+      "paper_url": "https://www.usenix.org/conference/nsdi26/presentation/saxena",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Learned controllers guided by runtime robustness certificates for SLO control; relevant to learned systems/agent control, but not efficient ML serving, so P2.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "TurboTest: Learning When Less is Enough through Early Termination of Internet Speed Tests",
+      "venue": "NSDI 2026",
+      "topic": "ML systems / efficient generative models / ML-for-systems",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "USENIX:NSDI26:manda",
+      "paper_url": "https://www.usenix.org/conference/nsdi26/presentation/manda",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "ML prediction and termination reduces speed-test data by 1.8×–4.4× while maintaining accuracy; relevant to adaptive ML efficiency, but specialized to network measurement, so P2.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "UNUM: A New Framework for Network Control",
+      "venue": "NSDI 2026",
+      "topic": "ML systems / efficient generative models / ML-for-systems",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "USENIX:NSDI26:chen-jiayi",
+      "paper_url": "https://www.usenix.org/conference/nsdi26/presentation/chen-jiayi",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Transformer-based network-state embeddings augment learned controllers across network tasks; relevant to efficient reasoning/ML-for-systems, but no direct inference/training efficiency result, so P2.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents"
+      ]
     }
   ]
 }
