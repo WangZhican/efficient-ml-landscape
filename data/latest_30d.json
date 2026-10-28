@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-10-28",
   "window_start_beijing": "2026-09-28",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 5760,
+  "tracked_total": 5775,
   "p0_strong_or_canonical": [
     {
       "title": "OSWAM: An Effective World Action Model with One-Step Action Generation",
@@ -23590,6 +23590,28 @@
       ]
     },
     {
+      "title": "DuplexTune: Coupled-State Replay for Memory-Efficient Mixture-of-Experts Adaptation",
+      "venue": "arXiv 2026",
+      "topic": "MoE systems;memory-efficient training",
+      "arxiv": "2610.36009",
+      "doi": "",
+      "official_id": "arXiv:2610.36009",
+      "paper_url": "https://arxiv.org/abs/2610.36009",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "physical_ai": false,
+      "decision": "PROMOTE_STRONG",
+      "why": "DuplexTune replays coupled hidden states for MoE adaptation; official abstract reports 38.8GB versus 64.8GB peak H800 memory and 25.1 versus 19.9 samples/s compared with checkpointed SFT, with explicit quality tradeoffs.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "MoE Systems / Accelerators",
+        "Distributed Training / Inference"
+      ]
+    },
+    {
       "title": "DriveCache: Action-Aware Caching for Driving World Model Inference",
       "venue": "",
       "topic": "world-model / diffusion caching",
@@ -23803,6 +23825,28 @@
       "tracking_tier": "P0 · Strong",
       "directions": [
         "LLM Serving",
+        "Video / Image Generation",
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "Beyond the Estimate: Wiener-Informed Decoding for Easier Training of Pixel-Space Flow Models",
+      "venue": "arXiv 2026",
+      "topic": "diffusion/flow acceleration;video/image generation",
+      "arxiv": "2610.36192",
+      "doi": "",
+      "official_id": "arXiv:2610.36192",
+      "paper_url": "https://arxiv.org/abs/2610.36192",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "physical_ai": false,
+      "decision": "PROMOTE_STRONG",
+      "why": "Wiener-informed Decoding speeds pixel-space flow-model training; official abstract reports PixelDiT-XL comparable ImageNet-256 quality with 37.5% fewer epochs and modest parameter overhead, directly relevant generative-model training acceleration.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
         "Video / Image Generation",
         "Diffusion / Flow Acceleration"
       ]
@@ -53599,6 +53643,28 @@
       ]
     },
     {
+      "title": "Stratum: Repository Memory for Coding Agents Beyond the Context Window",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems;KV cache/long-context",
+      "arxiv": "2610.36153",
+      "doi": "",
+      "official_id": "arXiv:2610.36153",
+      "paper_url": "https://arxiv.org/abs/2610.36153",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Stratum proposes persistent indexed repository memory for coding agents; official abstract reports 1.7ms median million-node retrieval, 4.5x lower median token cost and 21/24 vs 6/24 root-file success, but small multi-session evaluation merits follow-up.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "State World Models: Execute the Rules, Generate the Pixels",
       "venue": "arXiv 2026",
       "topic": "physical",
@@ -53899,6 +53965,30 @@
       "is_latest_30d": true,
       "directions": [
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Rollback: Experience Backtracking in World Models for Policy Improvement",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving;distributed training",
+      "arxiv": "2610.36068",
+      "doi": "",
+      "official_id": "arXiv:2610.36068",
+      "paper_url": "https://arxiv.org/abs/2610.36068",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": true,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Rollback couples distributed world-model search and asynchronous real-robot execution for counterfactual policy improvement; meaningful scalable embodied training architecture and real-robot gains, but inference compute savings unquantified.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Distributed Training / Inference",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -54493,6 +54583,31 @@
       "is_latest_30d": true,
       "directions": [
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "OmniBrain-0: A Unified Agentic Model for Embodied Intelligence",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving;efficient agents",
+      "arxiv": "2610.36013",
+      "doi": "",
+      "official_id": "arXiv:2610.36013",
+      "paper_url": "https://arxiv.org/abs/2610.36013",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": true,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "OmniBrain-0 distills multiple embodied teachers into a compact unified manipulation/navigation agent and reports lower inference/execution overhead; protected Physical AI, pending quantitative cost and hardware comparisons.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -55416,6 +55531,28 @@
       ]
     },
     {
+      "title": "Exploratory creative pre-ranking: Hierarchical empirical-Bayes Thompson sampling for real-time creative optimization",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems",
+      "arxiv": "2610.36020",
+      "doi": "",
+      "official_id": "arXiv:2610.36020",
+      "paper_url": "https://arxiv.org/abs/2610.36020",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Production Roblox creative pre-ranking uses hierarchical Bayesian Thompson sampling, forwards over 40% fewer creatives with only 0.2% added serving time; relevant production AI serving, but domain-specific rather than foundational LLM infrastructure.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Entropy-Gated Belief Coordination for Decentralized Multi-Agent Search Under Intermittent Communication",
       "venue": "arXiv 2026",
       "topic": "",
@@ -55835,6 +55972,31 @@
       ]
     },
     {
+      "title": "cuArms: GPU-Accelerated Conflict-Based Planning for Multi-Arm Manipulation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving;GPU kernel",
+      "arxiv": "2610.36250",
+      "doi": "",
+      "official_id": "arXiv:2610.36250",
+      "paper_url": "https://arxiv.org/abs/2610.36250",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": true,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "cuArms co-designs conflict-based multi-arm manipulation planning with GPU parallelism and reusable roadmaps, reporting real-time initial plans on simulated and real tasks; relevant physical AI compute, pending quantified speedup/baseline verification.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "CrossGMN: Graph Metanetworks for Cross-Architecture Weight-Space Transformations",
       "venue": "arXiv 2026",
       "topic": "",
@@ -55940,6 +56102,27 @@
       "is_latest_30d": true,
       "directions": [
         "KV Cache / Long Context"
+      ]
+    },
+    {
+      "title": "CohortFlow: A Steerable Clinical Cohort Curation Agent with Localized Semantic Correction",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems",
+      "arxiv": "2610.36100",
+      "doi": "",
+      "official_id": "arXiv:2610.36100",
+      "paper_url": "https://arxiv.org/abs/2610.36100",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "CohortFlow selectively invalidates affected agent execution-graph computations after semantic corrections, reporting 64.8% lower correction latency at similar F1; transferable incremental agent workflow reuse, though clinical-domain evaluation.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -56157,6 +56340,29 @@
       "is_latest_30d": true,
       "directions": [
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "ASPEN: Adaptive Semantic Reasoning via Command Persistence Prediction for Efficient Navigation VLAs",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving",
+      "arxiv": "2610.36285",
+      "doi": "",
+      "official_id": "arXiv:2610.36285",
+      "paper_url": "https://arxiv.org/abs/2610.36285",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": true,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "ASPEN uses command-persistence prediction to skip repeated NaVILA semantic reasoning, reporting 9.5% fewer VLA calls and 8.1% estimated inference-time reduction with comparable navigation; direct protected VLA-serving relevance, pending measured end-to-end latency.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -111925,6 +112131,28 @@
       ]
     },
     {
+      "title": "SpatialPC: Deep Computation with Sublinear Local Credit Propagation",
+      "venue": "arXiv 2026",
+      "topic": "distributed training/inference",
+      "arxiv": "2610.36139",
+      "doi": "",
+      "official_id": "arXiv:2610.36139",
+      "paper_url": "https://arxiv.org/abs/2610.36139",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "SpatialPC establishes sublinear local credit-propagation rounds by graph geometry and tests predictive coding; theoretical training-communication efficiency without hardware throughput measurements.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference"
+      ]
+    },
+    {
       "title": "SpaceCast-Bench: Evaluating Predictive Spatial Reasoning in Vision-Language Models",
       "venue": "arXiv 2026",
       "topic": "multimodal,edge",
@@ -116575,6 +116803,27 @@
       ]
     },
     {
+      "title": "MedJev: Evaluating Zero-Shot System-One Decision Making in Medicine",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems",
+      "arxiv": "2610.36006",
+      "doi": "",
+      "official_id": "arXiv:2610.36006",
+      "paper_url": "https://arxiv.org/abs/2610.36006",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "MedJev uses single-forward-pass small System-One model locally for clinical decision support; lightweight inference idea but abstract lacks comparable latency, memory or energy figures.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Measurement-First Auditing of Agentic Leaderboards: Contamination Susceptibility, Matched-Control Re-evaluation, and Scorer Validation",
       "venue": "arXiv 2026",
       "topic": "efficient_reasoning_agents",
@@ -121091,6 +121340,28 @@
       ]
     },
     {
+      "title": "E0.5: From Reconstructive to Future-Predictive 3D Foundations for Robotic World-Action Modeling",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving",
+      "arxiv": "2610.36011",
+      "doi": "",
+      "official_id": "arXiv:2610.36011",
+      "paper_url": "https://arxiv.org/abs/2610.36011",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "E0.5 builds geometry-native 3D world-action modeling with future-state prediction and real-robot transfer; protected WAM relevance, but no runtime/serving efficiency result.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Dynamical low-rank equilibrium computation for stochastic games between advanced persistent threats and moving target defense",
       "venue": "arXiv 2026",
       "topic": "",
@@ -121636,6 +121907,29 @@
       ]
     },
     {
+      "title": "Dirichlet Process Mixtures within Semiparametric Bayesian Networks: A Novel Conditional Density Estimation Approach",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems",
+      "arxiv": "2610.36110",
+      "doi": "",
+      "official_id": "arXiv:2610.36110",
+      "paper_url": "https://arxiv.org/abs/2610.36110",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Dirichlet-process mixtures replace per-observation kernel density components in Bayesian networks and report lower inference cost; narrow statistical-model optimization without general neural-serving results.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "DirectSpeech2LLM: A Simple End-to-End Framework to Mitigate Prompt Overfitting in Speech-LLMs",
       "venue": "arXiv 2026",
       "topic": "",
@@ -121785,6 +122079,29 @@
       "is_latest_30d": true,
       "directions": [
         "LLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Diagnosing and Correcting Bias in MLLM for Long Video Understanding",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving",
+      "arxiv": "2610.36210",
+      "doi": "",
+      "official_id": "arXiv:2610.36210",
+      "paper_url": "https://arxiv.org/abs/2610.36210",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "CLEAR is a training-free intervention for long-video MLLM reasoning under frame-sampling limits; relevant long-video inference context, but main reported gains are robustness/accuracy rather than serving efficiency.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
         "Efficient Reasoning / Agents"
       ]
     },
@@ -124529,6 +124846,28 @@
       "directions": [
         "Diffusion / Flow Acceleration",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "ASTROLABE: A 3D Particle-Level Surrogate for Cosmology Simulation with Physical Flow Matching",
+      "venue": "arXiv 2026",
+      "topic": "diffusion/flow acceleration",
+      "arxiv": "2610.27068",
+      "doi": "",
+      "official_id": "arXiv:2610.27068",
+      "paper_url": "https://arxiv.org/abs/2610.27068",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "ASTROLABE's field-particle hybrid transformer has linear particle count compute/memory and accelerates domain-specific cosmology simulation with physical flow matching; limited general serving transfer.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Diffusion / Flow Acceleration"
       ]
     },
     {
@@ -149317,6 +149656,28 @@
       ]
     },
     {
+      "title": "DuplexTune: Coupled-State Replay for Memory-Efficient Mixture-of-Experts Adaptation",
+      "venue": "arXiv 2026",
+      "topic": "MoE systems;memory-efficient training",
+      "arxiv": "2610.36009",
+      "doi": "",
+      "official_id": "arXiv:2610.36009",
+      "paper_url": "https://arxiv.org/abs/2610.36009",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "physical_ai": false,
+      "decision": "PROMOTE_STRONG",
+      "why": "DuplexTune replays coupled hidden states for MoE adaptation; official abstract reports 38.8GB versus 64.8GB peak H800 memory and 25.1 versus 19.9 samples/s compared with checkpointed SFT, with explicit quality tradeoffs.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "MoE Systems / Accelerators",
+        "Distributed Training / Inference"
+      ]
+    },
+    {
       "title": "DriveCache: Action-Aware Caching for Driving World Model Inference",
       "venue": "",
       "topic": "world-model / diffusion caching",
@@ -149530,6 +149891,28 @@
       "tracking_tier": "P0 · Strong",
       "directions": [
         "LLM Serving",
+        "Video / Image Generation",
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "Beyond the Estimate: Wiener-Informed Decoding for Easier Training of Pixel-Space Flow Models",
+      "venue": "arXiv 2026",
+      "topic": "diffusion/flow acceleration;video/image generation",
+      "arxiv": "2610.36192",
+      "doi": "",
+      "official_id": "arXiv:2610.36192",
+      "paper_url": "https://arxiv.org/abs/2610.36192",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "physical_ai": false,
+      "decision": "PROMOTE_STRONG",
+      "why": "Wiener-informed Decoding speeds pixel-space flow-model training; official abstract reports PixelDiT-XL comparable ImageNet-256 quality with 37.5% fewer epochs and modest parameter overhead, directly relevant generative-model training acceleration.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
         "Video / Image Generation",
         "Diffusion / Flow Acceleration"
       ]
@@ -179324,6 +179707,28 @@
       ]
     },
     {
+      "title": "Stratum: Repository Memory for Coding Agents Beyond the Context Window",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems;KV cache/long-context",
+      "arxiv": "2610.36153",
+      "doi": "",
+      "official_id": "arXiv:2610.36153",
+      "paper_url": "https://arxiv.org/abs/2610.36153",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Stratum proposes persistent indexed repository memory for coding agents; official abstract reports 1.7ms median million-node retrieval, 4.5x lower median token cost and 21/24 vs 6/24 root-file success, but small multi-session evaluation merits follow-up.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "KV Cache / Long Context",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "State World Models: Execute the Rules, Generate the Pixels",
       "venue": "arXiv 2026",
       "topic": "physical",
@@ -179624,6 +180029,30 @@
       "is_latest_30d": true,
       "directions": [
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Rollback: Experience Backtracking in World Models for Policy Improvement",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving;distributed training",
+      "arxiv": "2610.36068",
+      "doi": "",
+      "official_id": "arXiv:2610.36068",
+      "paper_url": "https://arxiv.org/abs/2610.36068",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": true,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Rollback couples distributed world-model search and asynchronous real-robot execution for counterfactual policy improvement; meaningful scalable embodied training architecture and real-robot gains, but inference compute savings unquantified.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Distributed Training / Inference",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -180218,6 +180647,31 @@
       "is_latest_30d": true,
       "directions": [
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "OmniBrain-0: A Unified Agentic Model for Embodied Intelligence",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving;efficient agents",
+      "arxiv": "2610.36013",
+      "doi": "",
+      "official_id": "arXiv:2610.36013",
+      "paper_url": "https://arxiv.org/abs/2610.36013",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": true,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "OmniBrain-0 distills multiple embodied teachers into a compact unified manipulation/navigation agent and reports lower inference/execution overhead; protected Physical AI, pending quantitative cost and hardware comparisons.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -181141,6 +181595,28 @@
       ]
     },
     {
+      "title": "Exploratory creative pre-ranking: Hierarchical empirical-Bayes Thompson sampling for real-time creative optimization",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems",
+      "arxiv": "2610.36020",
+      "doi": "",
+      "official_id": "arXiv:2610.36020",
+      "paper_url": "https://arxiv.org/abs/2610.36020",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Production Roblox creative pre-ranking uses hierarchical Bayesian Thompson sampling, forwards over 40% fewer creatives with only 0.2% added serving time; relevant production AI serving, but domain-specific rather than foundational LLM infrastructure.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Entropy-Gated Belief Coordination for Decentralized Multi-Agent Search Under Intermittent Communication",
       "venue": "arXiv 2026",
       "topic": "",
@@ -181560,6 +182036,31 @@
       ]
     },
     {
+      "title": "cuArms: GPU-Accelerated Conflict-Based Planning for Multi-Arm Manipulation",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving;GPU kernel",
+      "arxiv": "2610.36250",
+      "doi": "",
+      "official_id": "arXiv:2610.36250",
+      "paper_url": "https://arxiv.org/abs/2610.36250",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": true,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "cuArms co-designs conflict-based multi-arm manipulation planning with GPU parallelism and reusable roadmaps, reporting real-time initial plans on simulated and real tasks; relevant physical AI compute, pending quantified speedup/baseline verification.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization",
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "CrossGMN: Graph Metanetworks for Cross-Architecture Weight-Space Transformations",
       "venue": "arXiv 2026",
       "topic": "",
@@ -181665,6 +182166,27 @@
       "is_latest_30d": true,
       "directions": [
         "KV Cache / Long Context"
+      ]
+    },
+    {
+      "title": "CohortFlow: A Steerable Clinical Cohort Curation Agent with Localized Semantic Correction",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems",
+      "arxiv": "2610.36100",
+      "doi": "",
+      "official_id": "arXiv:2610.36100",
+      "paper_url": "https://arxiv.org/abs/2610.36100",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "CohortFlow selectively invalidates affected agent execution-graph computations after semantic corrections, reporting 64.8% lower correction latency at similar F1; transferable incremental agent workflow reuse, though clinical-domain evaluation.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -181882,6 +182404,29 @@
       "is_latest_30d": true,
       "directions": [
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "ASPEN: Adaptive Semantic Reasoning via Command Persistence Prediction for Efficient Navigation VLAs",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving",
+      "arxiv": "2610.36285",
+      "doi": "",
+      "official_id": "arXiv:2610.36285",
+      "paper_url": "https://arxiv.org/abs/2610.36285",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": true,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "ASPEN uses command-persistence prediction to skip repeated NaVILA semantic reasoning, reporting 9.5% fewer VLA calls and 8.1% estimated inference-time reduction with comparable navigation; direct protected VLA-serving relevance, pending measured end-to-end latency.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -237648,6 +238193,28 @@
       ]
     },
     {
+      "title": "SpatialPC: Deep Computation with Sublinear Local Credit Propagation",
+      "venue": "arXiv 2026",
+      "topic": "distributed training/inference",
+      "arxiv": "2610.36139",
+      "doi": "",
+      "official_id": "arXiv:2610.36139",
+      "paper_url": "https://arxiv.org/abs/2610.36139",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "SpatialPC establishes sublinear local credit-propagation rounds by graph geometry and tests predictive coding; theoretical training-communication efficiency without hardware throughput measurements.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference"
+      ]
+    },
+    {
       "title": "SpaceCast-Bench: Evaluating Predictive Spatial Reasoning in Vision-Language Models",
       "venue": "arXiv 2026",
       "topic": "multimodal,edge",
@@ -242298,6 +242865,27 @@
       ]
     },
     {
+      "title": "MedJev: Evaluating Zero-Shot System-One Decision Making in Medicine",
+      "venue": "arXiv 2026",
+      "topic": "edge/cloud/heterogeneous AI systems",
+      "arxiv": "2610.36006",
+      "doi": "",
+      "official_id": "arXiv:2610.36006",
+      "paper_url": "https://arxiv.org/abs/2610.36006",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "MedJev uses single-forward-pass small System-One model locally for clinical decision support; lightweight inference idea but abstract lacks comparable latency, memory or energy figures.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Measurement-First Auditing of Agentic Leaderboards: Contamination Susceptibility, Matched-Control Re-evaluation, and Scorer Validation",
       "venue": "arXiv 2026",
       "topic": "efficient_reasoning_agents",
@@ -246814,6 +247402,28 @@
       ]
     },
     {
+      "title": "E0.5: From Reconstructive to Future-Predictive 3D Foundations for Robotic World-Action Modeling",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving",
+      "arxiv": "2610.36011",
+      "doi": "",
+      "official_id": "arXiv:2610.36011",
+      "paper_url": "https://arxiv.org/abs/2610.36011",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "E0.5 builds geometry-native 3D world-action modeling with future-state prediction and real-robot transfer; protected WAM relevance, but no runtime/serving efficiency result.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Dynamical low-rank equilibrium computation for stochastic games between advanced persistent threats and moving target defense",
       "venue": "arXiv 2026",
       "topic": "",
@@ -247359,6 +247969,29 @@
       ]
     },
     {
+      "title": "Dirichlet Process Mixtures within Semiparametric Bayesian Networks: A Novel Conditional Density Estimation Approach",
+      "venue": "arXiv 2026",
+      "topic": "efficient reasoning/agent systems",
+      "arxiv": "2610.36110",
+      "doi": "",
+      "official_id": "arXiv:2610.36110",
+      "paper_url": "https://arxiv.org/abs/2610.36110",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Dirichlet-process mixtures replace per-observation kernel density components in Bayesian networks and report lower inference cost; narrow statistical-model optimization without general neural-serving results.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "DirectSpeech2LLM: A Simple End-to-End Framework to Mitigate Prompt Overfitting in Speech-LLMs",
       "venue": "arXiv 2026",
       "topic": "",
@@ -247508,6 +248141,29 @@
       "is_latest_30d": true,
       "directions": [
         "LLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Diagnosing and Correcting Bias in MLLM for Long Video Understanding",
+      "venue": "arXiv 2026",
+      "topic": "multimodal/MLLM serving",
+      "arxiv": "2610.36210",
+      "doi": "",
+      "official_id": "arXiv:2610.36210",
+      "paper_url": "https://arxiv.org/abs/2610.36210",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "CLEAR is a training-free intervention for long-video MLLM reasoning under frame-sampling limits; relevant long-video inference context, but main reported gains are robustness/accuracy rather than serving efficiency.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
         "Efficient Reasoning / Agents"
       ]
     },
@@ -250252,6 +250908,28 @@
       "directions": [
         "Diffusion / Flow Acceleration",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "ASTROLABE: A 3D Particle-Level Surrogate for Cosmology Simulation with Physical Flow Matching",
+      "venue": "arXiv 2026",
+      "topic": "diffusion/flow acceleration",
+      "arxiv": "2610.27068",
+      "doi": "",
+      "official_id": "arXiv:2610.27068",
+      "paper_url": "https://arxiv.org/abs/2610.27068",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "ASTROLABE's field-particle hybrid transformer has linear particle count compute/memory and accelerates domain-specific cosmology simulation with physical flow matching; limited general serving transfer.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Diffusion / Flow Acceleration"
       ]
     },
     {

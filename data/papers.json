@@ -8518,6 +8518,28 @@
     ]
   },
   {
+    "title": "Beyond the Estimate: Wiener-Informed Decoding for Easier Training of Pixel-Space Flow Models",
+    "venue": "arXiv 2026",
+    "topic": "diffusion/flow acceleration;video/image generation",
+    "arxiv": "2610.36192",
+    "doi": "",
+    "official_id": "arXiv:2610.36192",
+    "paper_url": "https://arxiv.org/abs/2610.36192",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Wiener-informed Decoding speeds pixel-space flow-model training; official abstract reports PixelDiT-XL comparable ImageNet-256 quality with 37.5% fewer epochs and modest parameter overhead, directly relevant generative-model training acceleration.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "Beyond the Trial-and-Error Loop: Hybrid Projection and Automated Tuning for Distributed Training",
     "venue": "arXiv 2026",
     "topic": "",
@@ -15722,6 +15744,28 @@
     "tracking_tier": "P0 · Strong",
     "directions": [
       "LLM Serving"
+    ]
+  },
+  {
+    "title": "DuplexTune: Coupled-State Replay for Memory-Efficient Mixture-of-Experts Adaptation",
+    "venue": "arXiv 2026",
+    "topic": "MoE systems;memory-efficient training",
+    "arxiv": "2610.36009",
+    "doi": "",
+    "official_id": "arXiv:2610.36009",
+    "paper_url": "https://arxiv.org/abs/2610.36009",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "DuplexTune replays coupled hidden states for MoE adaptation; official abstract reports 38.8GB versus 64.8GB peak H800 memory and 25.1 versus 19.9 samples/s compared with checkpointed SFT, with explicit quality tradeoffs.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "MoE Systems / Accelerators",
+      "Distributed Training / Inference"
     ]
   },
   {

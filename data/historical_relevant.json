@@ -69474,6 +69474,29 @@
         "LLM Serving",
         "GPU Kernel / DSL / Compiler"
       ]
+    },
+    {
+      "title": "Reinforced Fast Weights via Next-Sequence Prediction",
+      "venue": "arXiv 2026",
+      "topic": "KV cache/long-context;efficient reasoning",
+      "arxiv": "2602.16704",
+      "doi": "",
+      "official_id": "arXiv:2602.16704",
+      "paper_url": "https://arxiv.org/abs/2602.16704",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "ReFINE trains recurrent fixed-size fast-weight memory as an alternative to transformer KV cache using next-sequence rewards; strong long-context architectural relevance, but abstract emphasizes quality and lacks direct memory/throughput benchmarks.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving",
+        "KV Cache / Long Context",
+        "Efficient Reasoning / Agents"
+      ]
     }
   ],
   "historical_p2": [
@@ -165680,6 +165703,51 @@
       "directions": [
         "LLM Serving",
         "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "RePO-VLA: Recovery-Driven Policy Optimization for Vision-Language-Action Models",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving",
+      "arxiv": "2605.09410",
+      "doi": "",
+      "official_id": "arXiv:2605.09410",
+      "paper_url": "https://arxiv.org/abs/2605.09410",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "RePO-VLA reuses recovery and failure trajectories for long-horizon VLA policy optimization; valuable protected robot-policy training signal but abstract lacks inference/runtime efficiency results.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Semantic World Models",
+      "venue": "arXiv 2026",
+      "topic": "VLA/WAM/Physical AI serving",
+      "arxiv": "2510.19818",
+      "doi": "",
+      "official_id": "arXiv:2510.19818",
+      "paper_url": "https://arxiv.org/abs/2510.19818",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Semantic World Models replace future-pixel prediction with task-relevant visual-question-answer semantics for robot planning; protected world-model representation idea, but no measured compute/memory saving.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     }
   ]
