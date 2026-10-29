@@ -72635,6 +72635,135 @@
       "directions": [
         "GPU Kernel / DSL / Compiler"
       ]
+    },
+    {
+      "title": "FastGNAS: Accelerating and Scaling Graph Neural Architecture Search on Multi-GPUs via Ring-Based Model Migration",
+      "venue": "SIGMOD 2026",
+      "topic": "multi-GPU training/GNN architecture search",
+      "arxiv": "",
+      "doi": "10.1145/3802059",
+      "official_id": "doi:10.1145/3802059",
+      "paper_url": "https://dl.acm.org/doi/10.1145/3802059",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "The first-party SIGMOD accepted-paper title directly identifies multi-GPU acceleration and scaling of GNN architecture search; retained as high-value pending full first-party abstract/source reconciliation.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "KV Cache / Long Context",
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "EncoderForge: Generating Efficient SQL for Encoders in Machine Learning Inference Pipelines",
+      "venue": "SIGMOD 2026",
+      "topic": "ML inference pipelines/query compilers",
+      "arxiv": "",
+      "doi": "10.1145/3802050",
+      "official_id": "doi:10.1145/3802050",
+      "paper_url": "https://dl.acm.org/doi/10.1145/3802050",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "The first-party SIGMOD accepted-paper title explicitly targets efficient SQL generation for ML encoders in inference pipelines; retained pending full first-party abstract reconciliation.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Skyline Retrieval meets Set-Cover Chunk Merging: A Cost-Effective RAG-Sketch for Long-Context LLM QA",
+      "venue": "SIGMOD 2026",
+      "topic": "long-context LLM reasoning/RAG cost",
+      "arxiv": "",
+      "doi": "10.1145/3802111",
+      "official_id": "doi:10.1145/3802111",
+      "paper_url": "https://dl.acm.org/doi/10.1145/3802111",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "The first-party SIGMOD accepted-paper title directly addresses cost-effective long-context LLM QA through retrieval and chunk merging; retained pending full first-party abstract reconciliation.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "KV Cache / Long Context",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "L3: A GPU-Native Co-Designed Data Format for Learned Lossless Lightweight Compression",
+      "venue": "SIGMOD 2026",
+      "topic": "GPU data format/compression/accelerator systems",
+      "arxiv": "",
+      "doi": "10.1145/3802078",
+      "official_id": "doi:10.1145/3802078",
+      "paper_url": "https://dl.acm.org/doi/10.1145/3802078",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "The first-party SIGMOD accepted-paper title identifies GPU-native co-design and learned lossless compression; relevant to GPU data movement/codec efficiency, but full abstract and applicability to ML workloads remain to be reconciled.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "TensorSocket: Shared Data Loading for Deep Learning Training",
+      "venue": "SIGMOD 2026",
+      "topic": "deep-learning training/data-loading systems",
+      "arxiv": "",
+      "doi": "10.1145/3749185",
+      "official_id": "doi:10.1145/3749185",
+      "paper_url": "https://dl.acm.org/doi/10.1145/3749185",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "First-party SIGMOD detailed-program title and author list directly identify a shared data-loading system for deep-learning training; retain as a high-value systems lead pending abstract review.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "NeurStore: Efficient In-database Deep Learning Model Management System",
+      "venue": "SIGMOD 2026",
+      "topic": "deep-learning model management/inference systems",
+      "arxiv": "2509.03228",
+      "doi": "",
+      "official_id": "arXiv:2509.03228",
+      "paper_url": "https://arxiv.org/abs/2509.03228",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "First-party abstract and SIGMOD Systems-for-ML session establish a direct efficient ML systems contribution around in-database model management and inference integration.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving"
+      ]
     }
   ],
   "historical_p2": [
@@ -176206,6 +176335,71 @@
       "is_latest_30d": false,
       "directions": [
         "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "SPALM: A Sparsity-Pattern-Adaptive Library for Matrices",
+      "venue": "SIGMOD 2026",
+      "topic": "sparse matrix computation",
+      "arxiv": "",
+      "doi": "10.1145/3802113",
+      "official_id": "doi:10.1145/3802113",
+      "paper_url": "https://dl.acm.org/doi/10.1145/3802113",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Title-level first-party evidence suggests adaptive sparse matrix kernels, but it is a database matrix library rather than a direct ML model accelerator; retain metadata only pending abstract-level scope check.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Sparsity / Pruning",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "AgenticScholar: Agentic Data Management with Pipeline Orchestration for Scholarly Corpora",
+      "venue": "SIGMOD 2026",
+      "topic": "efficient reasoning/agentic data systems",
+      "arxiv": "2603.13774",
+      "doi": "10.1145/3802008",
+      "official_id": "arXiv:2603.13774",
+      "paper_url": "https://arxiv.org/abs/2603.13774",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "First-party abstract confirms an agentic planning/execution system, but the application is scholarly-corpus data management and does not establish a general efficient-agent serving contribution; retain metadata only.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Cut Costs, Not Accuracy: LLM-Powered Data Processing with Guarantees",
+      "venue": "SIGMOD 2026",
+      "topic": "LLM-powered data processing/cost-aware reasoning",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "SIGMOD2026_PROGRAM_TITLE_CUT_COSTS_NOT_ACCURACY",
+      "paper_url": "https://2026.sigmod.org/sigmod_program_detailed.shtml",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "First-party program title indicates LLM data processing with cost/accuracy guarantees, but full abstract and a paper-specific primary identifier were not recovered in this partial source pass; retain metadata only.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Efficient Reasoning / Agents"
       ]
     }
   ]

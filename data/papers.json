@@ -109694,6 +109694,49 @@
     ]
   },
   {
+    "title": "Mixtera: A Data Plane for Foundation Model Training",
+    "venue": "SIGMOD 2026",
+    "topic": "distributed training/data plane/foundation models",
+    "arxiv": "2502.19790",
+    "doi": "10.1145/3786668",
+    "official_id": "arXiv:2502.19790",
+    "paper_url": "https://arxiv.org/abs/2502.19790",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party abstract establishes a systems contribution directly supporting large-scale foundation-model training, dynamic data-mixture control and scaling without a training bottleneck.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "OctoSelector: Efficient and Effective Batch-Aware Model Selection for Large Language Models",
+    "venue": "SIGMOD 2026",
+    "topic": "LLM serving/model selection/cost-aware inference",
+    "arxiv": "",
+    "doi": "10.1145/3802095",
+    "official_id": "doi:10.1145/3802095",
+    "paper_url": "https://dl.acm.org/doi/10.1145/3802095",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party ACM abstract explicitly describes batch-aware LLM selection under accuracy/latency/cost constraints and reports a substantial cost reduction; direct fit to efficient reasoning/LLM serving.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "Serving Hybrid LLM Loads with SLO Guarantees Using CPU-GPU Attention Piggybacking",
     "venue": "SIGMOD 2026",
     "topic": "LLM serving / heterogeneous CPU-GPU / SLO scheduling",
