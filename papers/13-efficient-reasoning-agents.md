@@ -1,10 +1,10 @@
 # 13 · Efficient Reasoning / Agents
 
-> **1044 canonical papers** mapped here, plus a broader **1839-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **1044 canonical papers** mapped here, plus a broader **1706-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 1839 tracked
+## 🆕 Latest 30 Days · 1706 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -23,6 +23,7 @@
 | **P0 · Strong** | **TAO: Tool-Aware Joint Scheduling for LLM-Based Agentic Serving** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.37230) | — |
 | **P0 · Strong** | **Spine: Compiling Subtask Trees into Structured Context for Long-Horizon Coding Agents** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.37224) | — |
 | **P2 · Relevant** | **Retrieve to Act: Motion Primitive Graph Retrieval for Robust VLA Execution** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.37215) | — |
+| **P1 · Watch** | **How Much Can Best-of-N Help a World Action Model? Measuring Selectable Headroom and Realizing It in Closed Loop** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.37196) | — |
 | **P2 · Relevant** | **Prospector: learning a compact graph traversal policy for scientific reasoning** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.37121) | — |
 | **P2 · Relevant** | **Learning to Code the World: Harness Evolution for Compositional 3D Reconstruction** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.37046) | — |
 | **P2 · Relevant** | **Gaussian Process Bandits for Constraint Black Box Lever Optimization** | arXiv 2026 | production-bandit-efficiency | [Link](https://arxiv.org/abs/2610.36935) | — |
@@ -94,6 +95,7 @@
 | **P2 · Relevant** | **Reinforcement Learning Done Right for Explicit Confidence Targets** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.35059) | — |
 | **P2 · Relevant** | **From Questions to Queries to Insights: A Schema-Grounded Agentic Workflow for Natural-Language Crash Data Analysis** | arXiv 2026 | local-agent-workflow | [Link](https://arxiv.org/abs/2610.35054) | — |
 | **P2 · Relevant** | **VISTA: Active Exploration for Self-Improvement in Embodied Agents** | arXiv 2026 | agent,physical | [Link](https://arxiv.org/abs/2610.35051) | — |
+| **P2 · Relevant** | **DriveUniTok: A Unified Multimodal Tokenizer for Driving World-Action Models** | arXiv 2026 | physical | [Link](https://arxiv.org/abs/2610.35044) | — |
 | **P2 · Relevant** | **SimPOTrans: Self-Adaptation for Offline-to-Simultaneous Speech Translation via Reinforcement Learning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.35042) | — |
 | **P1 · Watch** | **BellowsKV: One Latent for Many Layers, Expanded on Demand** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.35023) | — |
 | **P2 · Relevant** | **DUET4D: Self-Corrective Coupled Guidance for Sparse-View 4D Reconstruction** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.35002) | — |
@@ -152,355 +154,407 @@
 | **P2 · Relevant** | **DRILS: Dependency-based Requirement Change Impact Analysis Using LLMs** | arXiv 2026 | agent | [Link](https://arxiv.org/abs/2610.33920) | — |
 | **P2 · Relevant** | **Securing Edge & Physical AI: Post-Quantum IoT Blockchain for Mission-Critical Cyber-Physical Agents** | arXiv 2026 | edge-physical-ai-runtime-security | [Link](https://arxiv.org/abs/2610.33862) | — |
 | **P0 · Strong** | **Build, Don't Play: Self-Improving LLM Research Agents Develop a Hearthstone Battlegrounds AI That Rivals Top Players** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.33845) | — |
-| **P1 · Watch** | **When Should LLMs Reason? Adaptive Inference Routing via Entropy Dynamics** | arXiv 2026 | abstract_only_screen | [Link](https://arxiv.org/abs/2605.22873) | — |
-| **P2 · Relevant** | **What Makes a Good Unmasking Policy? A Controlled Study of Learned Unmasking in Diffusion Language Models** | arXiv 2026 | diffusion/flow acceleration,efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.31576) | — |
-| **P0 · Strong** | **TRCA: Transition-wise Rubric Credit Assignment for Long-horizon LLM Agents** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2608.16156) | — |
-| **P1 · Watch** | **TabAgent: Distilling LLM Agent Components into Cheap Classifiers** | arXiv 2026 | llm_serving,agent | [Link](https://arxiv.org/abs/2602.16429) | — |
-| **P2 · Relevant** | **Survival is the Only Reward: Sustainable Self-Training Through Environment-Mediated Selection** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2601.12310) | — |
-| **P1 · Watch** | **Semantics Delivery Network: Rethinking Web Retrieval Infrastructure for LLM Agents** | arXiv 2026 | Efficient ML systems / cross-domain | [Link](https://arxiv.org/abs/2609.22486) | — |
-| **P2 · Relevant** | **RIPPLE: Recovery Internalization through Process-Level Policy Learning and Effect-Aware Credit for Long-Horizon Agentic Coding** | arXiv 2026 | agent | [Link](https://arxiv.org/abs/2610.31276) | — |
-| **P0 · Strong** | **Rethinking Sequence Compression with Test-time Regression** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2610.31574) | — |
-| **P1 · Watch** | **Realtime-Bench: Can Frontier Models Solve Real-time Interactive Problems?** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.22155) | — |
-| **P2 · Relevant** | **RangeNav: Task-Aligned LiDAR Range-Image Pretraining for Robot Navigation** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.29845) | — |
-| **P2 · Relevant** | **Probabilistic Energy Modeling Unifies Versatile Swarm Control** | arXiv 2026 | physical_ai_swarm | [Link](https://arxiv.org/abs/2610.31371) | — |
-| **P2 · Relevant** | **PROACT-Agent: Progressive Runtime Oversight and Active Circuit-breaking for Real-Time Safety** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2609.34415) | — |
-| **P1 · Watch** | **OneLatent: Latent Reasoning for Efficient Foundation Recommendation Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2607.26621) | — |
-| **P2 · Relevant** | **OASIS: Online Anchor-centric Scene Inference System for Open-Vocabulary Retrieval and Navigation in Dynamic Environments** | arXiv 2026 | physical_ai,agent_systems | [Link](https://arxiv.org/abs/2610.30589) | — |
-| **P2 · Relevant** | **NavBind: Diagnosing Instruction-Action Binding at Route Forks in Navigation VLAs** | arXiv 26 | vla_wam | [Link](https://arxiv.org/abs/2610.29203) | — |
-| **P0 · Strong** | **Muffin - A Shared Memory Buffer for Asynchronous AI Agents** | arXiv 2026 | agent | [Link](https://arxiv.org/abs/2610.31355) | — |
-| **P0 · Strong** | **MLEvolve: A Self-Evolving Framework for Automated Machine Learning Algorithm Discovery** | arXiv 2026 | efficient-agentic-algorithm-discovery | [Link](https://arxiv.org/abs/2606.06473) | — |
+| **P2 · Relevant** | **The Hitchhiker's Guide to System 1 Models: Fast Decision-Making Beyond LLMS** | arXiv 2026 | Efficient agents | [Link](https://arxiv.org/abs/2610.33775) | — |
+| **P1 · Watch** | **Strategic Calibration in LLM Multi-Agent Systems: Audited Pivot Scoring for Truthful Elicitation** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.33728) | — |
+| **P2 · Relevant** | **Seeing the Options: Typed Decisions over Visual Candidates with Reusable Option Memory** | arXiv 2026 | Efficient agents | [Link](https://arxiv.org/abs/2610.33702) | — |
+| **P2 · Relevant** | **Build or Adopt? Custom-Built vs. General-Purpose LLM Agent Harnesses for Automotive GUI Testing** | arXiv 2026 | agent_harness_systems | [Link](https://arxiv.org/abs/2610.33636) | — |
+| **P2 · Relevant** | **PASS Is a Claim, Not an Observation: Mechanical Re-verification of 10 Self-Asserted Fix Claims in a Live Multi-Agent Audit Layer** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.35950) | — |
+| **P2 · Relevant** | **Learning When to Collaborate: Selective Multi-Agent Medical Reasoning via Uncertainty-Aware Routing** | arXiv 2026 | Efficient agents | [Link](https://arxiv.org/abs/2610.33544) | — |
+| **P2 · Relevant** | **CoEvolve: Counterfactual-Guided Co-Evolution of Memory and Collaboration in Multi-Agent Systems** | arXiv 2026 | Efficient agents | [Link](https://arxiv.org/abs/2610.33539) | — |
+| **P2 · Relevant** | **SkillShift-Bench: Benchmarking Skill Learning under Environment Evolution for Web Agents** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.33528) | — |
+| **P2 · Relevant** | **Collective Collaboration of Recursive Autonomous Agents** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.33515) | — |
+| **P2 · Relevant** | **Novel or Not? PatEx-Gym: Agentic Prior-Art Search for Novelty Assessment in Patent Examination** | arXiv 2026 | agent | [Link](https://arxiv.org/abs/2610.33503) | — |
+| **P2 · Relevant** | **ReSight: Task-Driven Self-Improving Memory for Embodied Agents** | arXiv 2026 | Physical AI | [Link](https://arxiv.org/abs/2610.33487) | — |
+| **P2 · Relevant** | **MOTIO: Agentic Skill Engineering for Reality-Grounded Humanoid Loco-Manipulation** | arXiv 2026 | Physical AI | [Link](https://arxiv.org/abs/2610.33446) | — |
+| **P2 · Relevant** | **ConMem: Counterfactual Multi-Scenario Probing for Resolving LLM Memory Misalignment** | arXiv 2026 | Efficient agents | [Link](https://arxiv.org/abs/2610.33432) | — |
+| **P2 · Relevant** | **Fast Instinct, Slow Reason: A Dual-Speed Agentic Framework for Self-Configuring Multi-Object Tracking in Satellite Video** | arXiv 2026 | Efficient agents | [Link](https://arxiv.org/abs/2610.33396) | — |
+| **P1 · Watch** | **AgentOrch: How Close Can Global Orchestration Come to Step-by-Step Interaction?** | arXiv 2026 | Efficient agents | [Link](https://arxiv.org/abs/2610.33375) | — |
+| **P1 · Watch** | **Multiple Importance Sampling for Guided Speculative Inference** | arXiv 2026 | Speculative decoding | [Link](https://arxiv.org/abs/2610.33368) | — |
+| **P2 · Relevant** | **Contract-Based Agentic Systems Engineering: Delegation as Quotient for Assured System Design** | arXiv 2026 | agent | [Link](https://arxiv.org/abs/2610.33349) | — |
+| **P2 · Relevant** | **A Deterministic Security Runtime for LLM Agents on MPI and Batch-Scheduled HPC Systems: Consensus-Governed, Hardware-Rooted Supervision of Every Rank** | arXiv 2026 | Efficient agents | [Link](https://arxiv.org/abs/2610.33318) | — |
+| **P2 · Relevant** | **Responsibility Boundaries for Agentic Systems: A Comparative Evaluation of Probabilistic Agentic Programming** | arXiv 2026 | agent-runtime-governance | [Link](https://arxiv.org/abs/2610.33312) | — |
+| **P2 · Relevant** | **Two Uncertainties Are Not One: Disagreement versus Decision-Risk in Cheap Structured Content Moderation** | arXiv 2026 | Efficient agents | [Link](https://arxiv.org/abs/2610.33258) | — |
+| **P2 · Relevant** | **Reinforcement Learning for Controller Parameters in the Auto-Bidding System at Pinterest** | arXiv 2026 | edge | [Link](https://arxiv.org/abs/2610.33248) | — |
+| **P2 · Relevant** | **Position, Role or Label? A Controlled Study of Instruction Conflicts in LLM Agents** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.33201) | — |
+| **P2 · Relevant** | **AOS-Bench: Can LLM Agents Manage Dynamic Workloads?** | arXiv 2026 | Efficient agents | [Link](https://arxiv.org/abs/2610.33178) | — |
+| **P2 · Relevant** | **SceneBloom: Agentic Indoor Environment Generation with Realistic and Diverse Layouts for Embodied Learning** | arXiv 2026 | physical_ai | [Link](https://arxiv.org/abs/2610.32978) | — |
+| **P2 · Relevant** | **RobustRLlib: A Unified Library and Benchmark for Robust Reinforcement Learning Algorithms** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.32971) | — |
+| **P2 · Relevant** | **ViT-H: Generative Video-To-Humanoid Control with Motion Tracking Feedback** | arXiv 2026 | physical_ai | [Link](https://arxiv.org/abs/2610.32966) | — |
+| **P0 · Strong** | **Where Rounding Happens Matters: Rounding-Location Alignment Stabilizes LLM Reinforcement Learning** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.32951) | — |
+| **P0 · Strong** | **NgramRL: Accelerating RL Post-Training for Structured Generation via Rollout-Aware N-gram Speculative Decoding** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.32881) | — |
+| **P2 · Relevant** | **Reimagining Enterprise RAG for Multi-Agent Systems: A Knowledge Layer That Organizes Before It Retrieves** | arXiv 2026 | llm_systems | [Link](https://arxiv.org/abs/2610.32851) | — |
+| **P2 · Relevant** | **Predictive Long-Horizon Progress Modeling with Action-Aware Quantification** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.32776) | — |
+| **P1 · Watch** | **OpenDraco: A Platform for Engineering and Experimenting with Configurable Multi-Agent Architectures for Software Engineering** | arXiv 2026 | llm_systems | [Link](https://arxiv.org/abs/2610.32686) | — |
+| **P1 · Watch** | **StateMirror: Pre-Execution Detection of Hallucinated Tool Calls in Coding Agents** | arXiv 2026 | llm_systems | [Link](https://arxiv.org/abs/2610.32648) | — |
+| **P2 · Relevant** | **Speculative Forking: Turning Idle Wait into Parallel Exploration for Repository Environment Setup** | arXiv 2026 | Efficient agents | [Link](https://arxiv.org/abs/2610.33129) | — |
+| **P1 · Watch** | **Lessons Outlive Their Failures: A Case Study of Rules for AI Coding Agents** | arXiv 2026 | llm_systems | [Link](https://arxiv.org/abs/2610.32578) | — |
+| **P1 · Watch** | **UAV-SwarmAgent: Scalable Multi-UAV Reconnaissance and Task Allocation via Code Generation and Vision-Language Reasoning** | arXiv 2026 | llm_systems | [Link](https://arxiv.org/abs/2610.32559) | — |
+| **P2 · Relevant** | **HGWM: Hierarchical Graph-Guided World Model for Zero-Shot Object Navigation via Graph Matching** | arXiv 2026 | physical_ai | [Link](https://arxiv.org/abs/2610.32554) | — |
+| **P1 · Watch** | **Efficient Zero-Shot Video Anomaly Detection via Signal-Aware Adaptive Fusion (SAAF)** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.32486) | — |
+| **P1 · Watch** | **When Agents Fail: Model or Harness--Who's to Blame?** | arXiv 2026 | llm_systems | [Link](https://arxiv.org/abs/2610.32483) | — |
+| **P1 · Watch** | **WaitLens: Temporal VLM-Based Adaptive Waiting for Industrial GUI Testing Agents** | arXiv 2026 | llm_systems | [Link](https://arxiv.org/abs/2610.32482) | — |
+| **P2 · Relevant** | **CASE: Confusion-Aware Skill Evolution for Frozen Multimodal Emotion Models** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.32481) | — |
+| **P2 · Relevant** | **Beyond Post-Hoc Rewards: Privileged Reasoning Exploration for Multimodal Embeddings** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.32474) | — |
+| **P2 · Relevant** | **Profile-Driven User Simulation via Reinforcement Learning with Hierarchical Rewards for Task-Oriented Dialogues** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.32435) | — |
+| **P1 · Watch** | **When to Stop Penalizing Actions? Martingale GRPO for VLA Reinforcement Learning** | arXiv 2026 | physical_ai | [Link](https://arxiv.org/abs/2610.32431) | — |
+| **P1 · Watch** | **Measuring the Energy Cost of Completing Tasks with Quantized Language-Model Agents** | arXiv 2026 | llm_systems | [Link](https://arxiv.org/abs/2610.32417) | — |
+| **P0 · Strong** | **LeafSkill: Efficient Leaf-Level Action Grounding for Recursive LLM Agents** | arXiv 2026 | llm_systems | [Link](https://arxiv.org/abs/2610.32412) | — |
+| **P0 · Strong** | **KnitTrans: Coordinated Trajectory Transfer for Effective and Efficient LLM Reinforcement Learning** | arXiv 2026 | llm_systems | [Link](https://arxiv.org/abs/2610.32389) | — |
+| **P2 · Relevant** | **Adaptive Control of Scientific Instruments with Nonstationary Responses through Multimodal Agents** | arXiv 2026 | llm_systems | [Link](https://arxiv.org/abs/2610.32370) | — |
+| **P2 · Relevant** | **Beyond Final Outcomes: Quantifying Claim-Level Information Dynamics in Multi-Agent LLM Interaction** | arXiv 2026 | llm_systems | [Link](https://arxiv.org/abs/2610.32333) | — |
+| **P1 · Watch** | **4DMemory: Benchmarking Long-Horizon Spatiotemporal Memory with Harness-Augmented Agents** | arXiv 2026 | llm_systems | [Link](https://arxiv.org/abs/2610.32332) | — |
+| **P1 · Watch** | **Lifelong Context Adaptation through Bidirectional Memory-Skill Learning** | arXiv 2026 | hardware_systems | [Link](https://arxiv.org/abs/2610.32295) | — |
+| **P2 · Relevant** | **MS-TTRL: Breaking the Frequency Conflict in Multiple-Solution Test-Time Reinforcement Learning** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.32234) | — |
+| **P2 · Relevant** | **Correct Answers, Closed Gates: SolveBind for GUI Agents at the Verification Barrier** | arXiv 2026 | agent-runtime-recovery | [Link](https://arxiv.org/abs/2610.32223) | — |
+| **P1 · Watch** | **SWE-Shift: Evaluating Coding Agents in Evolving Workspaces** | arXiv 2026 | llm_systems | [Link](https://arxiv.org/abs/2610.32196) | — |
+| **P2 · Relevant** | **The LLENS Platform for On-Premises Large Language Model Agents in a Japanese University Hospital: Development and Evaluation Study** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.32151) | — |
+| **P1 · Watch** | **Pairing Matters: Performance, Failures, and Efficiency in Lightweight Coding Agents** | arXiv 2026 | llm_systems | [Link](https://arxiv.org/abs/2610.32131) | — |
+| **P1 · Watch** | **ImageRSI: Verification-Driven Recursive Self-Improvement for Agentic Image Generation** | arXiv 2026 | llm_systems | [Link](https://arxiv.org/abs/2610.32120) | — |
+| **P1 · Watch** | **TTT in VLA Models: Exploring Training with Human Demonstrations** | arXiv 2026 | physical_ai | [Link](https://arxiv.org/abs/2610.32094) | — |
+| **P2 · Relevant** | **Understanding Communication Failures in Multi-Agent LLM Systems** | arXiv 2026 | llm_systems | [Link](https://arxiv.org/abs/2610.32060) | — |
+| **P1 · Watch** | **Can Test-Time Memory Evolution Outperform Test-Time Training for Scientific Discovery?** | arXiv 2026 | hardware_systems | [Link](https://arxiv.org/abs/2610.32046) | — |
+| **P2 · Relevant** | **Do AI-for-Science Agents Preserve Model Safety?** | arXiv 2026 | llm_systems | [Link](https://arxiv.org/abs/2610.32045) | — |
+| **P1 · Watch** | **MAGIC: Margin-gated Contrastive Debiasing with Evidence Restoration for VLM Test-time Robustness Scaling** | arXiv 2026 | Multimodal efficient inference | [Link](https://arxiv.org/abs/2610.32013) | — |
+| **P2 · Relevant** | **CRM-Agent-Bench: Benchmarking Tool-Using Agents in Stateful Enterprise Environments** | arXiv 2026 | Agent systems benchmarking | [Link](https://arxiv.org/abs/2610.32004) | — |
+| **P0 · Strong** | **SPECMEM: Accelerating Agentic Tool Calling via Live Memory Management** | arXiv 2026 | Speculative decoding/agent serving | [Link](https://arxiv.org/abs/2610.31840) | — |
+| **P2 · Relevant** | **SEVI: Safe Evidential Real-World Reinforcement Learning** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.31829) | — |
+| **P2 · Relevant** | **ToolContractGate: Versioned Trusted Contracts for Drift-Safe Agent Tool Invocation** | arXiv 2026 | agent-tool-runtime | [Link](https://arxiv.org/abs/2610.33108) | — |
+| **P1 · Watch** | **Phronix: The Capability-Centric Learning Paradigm for Agents** | arXiv 2026 | Agent systems/performance engineering | [Link](https://arxiv.org/abs/2610.31789) | — |
+| **P2 · Relevant** | **Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success** | arXiv 2026 | multimodal,physical | [Link](https://arxiv.org/abs/2610.31670) | — |
 | **P0 · Strong** | **METTA: Memory-Enhanced Test-Time Adaptation for Meta-Reinforcement Learning** | arXiv 2026 | efficient-long-context-meta-rl | [Link](https://arxiv.org/abs/2610.31656) | — |
-| **P2 · Relevant** | **Measuring the Reasoning-Action Coupling in Driving Vision-Language-Action Models through Counterfactuals** | arXiv 2026 | multimodal,physical | [Link](https://arxiv.org/abs/2610.30953) | — |
-| **P0 · Strong** | **Know When to Escalate: Critic-Guided Adaptive Execution for Cloud-Local Embodied Agents** | arXiv 2026 | physical_ai_cloud_edge_serving | [Link](https://arxiv.org/abs/2610.30587) | — |
-| **P2 · Relevant** | **Joules-to-GDP: How Much Economic Value Do AI Systems Produce per Unit of Energy?** | arXiv 26 | edge/cloud/heterogeneous AI systems,efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.30858) | — |
-| **P2 · Relevant** | **Is Complex Agentic Memory Always Needed? Naive RAG Is Stronger Than We Thought** | arXiv 2026 | agent | [Link](https://arxiv.org/abs/2610.30755) | — |
-| **P2 · Relevant** | **Improving Environment-Agnostic Coding Agents: The Role of Scaffolding** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.22289) | — |
-| **P2 · Relevant** | **HiSTEVE 1.0: Harnessing Human-Interface VLA Agents for Open-World Games** | arXiv 2026 | physical,edge | [Link](https://arxiv.org/abs/2610.31162) | — |
-| **P0 · Strong** | **Hard and Soft Real-Time DNN Inference Scheduling on Heterogeneous Multi-Accelerator Systems via Reinforcement Learning** | arXiv 2026 | llm_serving,edge | [Link](https://arxiv.org/abs/2610.29503) | — |
-| **P2 · Relevant** | **GFlowPO: Generative Flow Network as a Language Model Prompt Optimizer** | arXiv 2026 | efficient_agent_optimization | [Link](https://arxiv.org/abs/2602.03358) | — |
-| **P2 · Relevant** | **FiRe: Fine-grained Multimodal Reasoning for Enhanced Image Generation** | arXiv 2026 | multimodal,gen | [Link](https://arxiv.org/abs/2604.13491) | — |
-| **P0 · Strong** | **FastHarness: Experience-Driven Review Scheduling for Vision-Language-Action Policies** | arXiv 2026 | llm_serving,multimodal,agent,physical | [Link](https://arxiv.org/abs/2610.31427) | — |
-| **P0 · Strong** | **Extending FunctionGemma for Practical On-Device Mobile Function Calling** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.25373) | — |
-| **P1 · Watch** | **Conservative Meta-Agent Search: Architecture Adaptation under Non-Stationarity** | arXiv 2026 | agent | [Link](https://arxiv.org/abs/2610.31436) | — |
-| **P2 · Relevant** | **Compositional Safety Failures in Harness Evolution: Identification and Runtime Monitoring** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2609.33123) | — |
-| **P1 · Watch** | **Certified Execution Harness for Agentic AI: Safe and Least-Intrusive Petri-Net Supervisory Control Between Reasoning and Action** | arXiv 2026 | agent | [Link](https://arxiv.org/abs/2610.31376) | — |
-| **P0 · Strong** | **CANNBot-CAKE: Collaborative Agentic Kernel Evolution for Ascend NPU** | arXiv 2026 | kernel,agent,edge | [Link](https://arxiv.org/abs/2610.31034) | — |
-| **P2 · Relevant** | **Beyond Imitation: Reinforcement Learning-Based Sim-Real Co-Training for VLA Models** | arXiv | physical | [Link](https://arxiv.org/abs/2602.12628) | — |
-| **P2 · Relevant** | **Better Reasoning, Not Just Bigger Models: A Structure-Grounded Framework for Efficient and Reliable Inference** | arXiv 2026 | sparse,agent | [Link](https://arxiv.org/abs/2610.30611) | — |
-| **P2 · Relevant** | **Asking Less, Adapting Better: Feedback-Efficient Test-Time Adaptation for Vision-and-Language Navigation** | arXiv 2026 | physical_ai,agent_systems | [Link](https://arxiv.org/abs/2610.30643) | — |
-| **P1 · Watch** | **AgentDP: Towards Automated Model Deployment for Heterogeneous Embedded AI Applications** | arXiv 2026 | llm_serving,edge | [Link](https://arxiv.org/abs/2610.30760) | — |
-| **P1 · Watch** | **Adaptive Skill Granularity for Coding Agents: Runtime Routing and Macro-to-Micro Recovery** | arXiv 2026 | abstract_only_screen | [Link](https://arxiv.org/abs/2610.31461) | — |
 | **P2 · Relevant** | **Action Learning for Scientific Simulations** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.31585) | — |
+| **P2 · Relevant** | **What Makes a Good Unmasking Policy? A Controlled Study of Learned Unmasking in Diffusion Language Models** | arXiv 2026 | diffusion/flow acceleration,efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.31576) | — |
+| **P0 · Strong** | **Rethinking Sequence Compression with Test-time Regression** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2610.31574) | — |
+| **P1 · Watch** | **Adaptive Skill Granularity for Coding Agents: Runtime Routing and Macro-to-Micro Recovery** | arXiv 2026 | abstract_only_screen | [Link](https://arxiv.org/abs/2610.31461) | — |
+| **P1 · Watch** | **Conservative Meta-Agent Search: Architecture Adaptation under Non-Stationarity** | arXiv 2026 | agent | [Link](https://arxiv.org/abs/2610.31436) | — |
 | **P1 · Watch** | **A Sparse Topometric Graph for Scalable Cross-Session Indoor Navigation** | arXiv 2026 | physical | [Link](https://arxiv.org/abs/2610.31432) | — |
-| **P1 · Watch** | **World of SWECraft: Agent Collaboration at Scale via Simulated Software Worlds** | arXiv 2026 | agent collaboration compute scaling | [Link](https://arxiv.org/abs/2610.24061) | — |
-| **P1 · Watch** | **Uni-Mem: Learning a Long-Horizon Agentic Memory Manager with Unified Online Policy Optimization** | arXiv 2026 | agent | [Link](https://arxiv.org/abs/2610.29671) | — |
-| **P0 · Strong** | **TrainBridge: Agentic NPU Training Optimization Guided by GPU Compilation Evidence** | arXiv 2026 | kernel,multimodal,agent,edge | [Link](https://arxiv.org/abs/2610.29171) | — |
-| **P1 · Watch** | **TARSphere: A Robot-Oriented Full-Stack Framework for Long-Horizon Embodied Agents in Evolving Physical and Social Environments** | arXiv 2026 | physical,agent,edge | [Link](https://arxiv.org/abs/2610.30043) | — |
-| **P2 · Relevant** | **Tactile-Based Robotic Manipulation: From Mechanics-Driven to Data-Driven Perspectives** | arXiv 26 | vla_wam | [Link](https://arxiv.org/abs/2610.30438) | — |
-| **P1 · Watch** | **SWE-VERIFIER: Selective Verification for Cost-Efficient Coding Agents** | arXiv 2026 | efficient_agent_or_kv_serving | [Link](https://arxiv.org/abs/2610.30284) | — |
-| **P2 · Relevant** | **State-Dependent Objective Coordination for End-to-End Balance and Navigation** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.29142) | — |
-| **P2 · Relevant** | **SplatLab: Autonomous Scientific Discovery for 3DGS Research** | arXiv 2026 | efficient_agent_systems_adjacent | [Link](https://arxiv.org/abs/2610.30468) | — |
-| **P1 · Watch** | **SimPT: An Automated Simulation Framework for Intervention-Based VLA Post-Training** | arXiv 2026 | multimodal,physical | [Link](https://arxiv.org/abs/2610.29161) | — |
-| **P1 · Watch** | **Signals and Queries: Token-Efficient Agentic Context Discovery** | arXiv 2026 | agent | [Link](https://arxiv.org/abs/2610.29326) | — |
-| **P2 · Relevant** | **Self-Assessment Reinforcement Learning for Search-State Awareness in Retrieval-Augmented Large Language Models** | arXiv 2026 | efficient_reasoning_agents | [Link](https://arxiv.org/abs/2610.30435) | — |
-| **P2 · Relevant** | **SafeDojo: Safe Reinforcement Learning for VLA via Interactive World Model** | arXiv 2026 | multimodal,physical | [Link](https://arxiv.org/abs/2606.20698) | — |
-| **P1 · Watch** | **Right On Q: Recovering Reasoning under Quantization via Self-Generated Trajectories** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2610.29378) | — |
-| **P2 · Relevant** | **Remembering Through Change: Provenance-Preserving Hypergraph Memory for Multimodal Agents** | arXiv 2026 | agent,multimodal | [Link](https://arxiv.org/abs/2610.29995) | — |
-| **P1 · Watch** | **Remembering Has a Price: Learning Memory Worth under Resource Constraints** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.26453) | — |
-| **P2 · Relevant** | **RelAgent: LLM Agents as Data Scientists for Relational Learning** | arXiv 2026 | agent,llm_serving | [Link](https://arxiv.org/abs/2605.07840) | — |
-| **P2 · Relevant** | **Recursive Code Evolution for Task-Oriented Semantic Communications** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.29641) | — |
-| **P2 · Relevant** | **Reasoning-Search-Augmented LLMs: An Operational Taxonomy, Benchmark Analysis and Controlled Evidence Synthesis** | arXiv 2026 | agent,edge | [Link](https://arxiv.org/abs/2610.29189) | — |
-| **P2 · Relevant** | **Real PMIDs, Wrong Papers: Harness Design for Biomedical Claim-Verification Agents** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.29812) | — |
-| **P2 · Relevant** | **ProPerAgent: Toward Memory-Driven Proactive Assistance** | arXiv 2026 | agent memory runtime | [Link](https://arxiv.org/abs/2610.22671) | — |
-| **P1 · Watch** | **PreCoMem: Predictive Cognitive Memory for Self-Evolving Long-Term Dialogue Agents** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.29467) | — |
-| **P1 · Watch** | **Plan First, Act Later: Streaming Reasoning for Executable Memory in Robot Control** | arXiv 2026 | multimodal,physical | [Link](https://arxiv.org/abs/2610.29329) | — |
-| **P2 · Relevant** | **OmniSimulator: Aligning Small Language Models for Authentic Heterogeneous Behavior Modeling** | arXiv 2026 | edge | [Link](https://arxiv.org/abs/2610.29472) | — |
-| **P2 · Relevant** | **NormTune: Norm-Guided Parameter-Efficient Fine-Tuning for Reasoning-Intensive Tasks** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.29134) | — |
-| **P1 · Watch** | **MoEZip: Routing-Aware KV Cache Compression for Sparse Mixture-of-Experts LLMs** | arXiv 2026 | efficient_agent_or_kv_serving | [Link](https://arxiv.org/abs/2610.30206) | — |
-| **P2 · Relevant** | **MemPlan: Memory-Conditioned PDDL Planning for Partially Observable Text Environments** | arXiv 2026 | efficient_reasoning_agents | [Link](https://arxiv.org/abs/2610.30379) | — |
-| **P1 · Watch** | **MemoryTax: The Bitter Lesson of Agent Memory** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.29823) | — |
-| **P2 · Relevant** | **Memory-Centric Continual Learning for AI Agents** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.29357) | — |
-| **P2 · Relevant** | **Long-horizon autoformalization of a core theorem underlying MIP* = RE** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.19814) | — |
-| **P1 · Watch** | **LiveAct: Towards Real-Time Multi-Agent World Models with Heterogeneous Action Interfaces** | arXiv 2026 | llm_serving,quant,physical,edge | [Link](https://arxiv.org/abs/2610.29408) | — |
-| **P2 · Relevant** | **Learning When to Automate: Queue Control in Human-AI Service Systems** | arXiv 2026 | edge | [Link](https://arxiv.org/abs/2607.06017) | — |
-| **P0 · Strong** | **Kernel-Managed Shared Memory for System-Wide Personalization** | arXiv 2026 | efficient reasoning/agent systems / memory / agent runtime / context management | [Link](https://arxiv.org/abs/2609.10144) | — |
-| **P1 · Watch** | **HarnessPAI: An Evolving Harness for Physical AI** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.29166) | — |
-| **P2 · Relevant** | **Graph Topology Meets Energy-Driven Pathfinding: Preserving Contextual Consistency in Retrieval-Augmented Generation** | arXiv 2026 | agent,kv | [Link](https://arxiv.org/abs/2610.29933) | — |
-| **P1 · Watch** | **From VLM Planners to Robotic Agents: Self-Evolving Harnesses for History-Dependent Manipulation** | arXiv 2026 | multimodal,agent,physical | [Link](https://arxiv.org/abs/2610.29560) | — |
-| **P2 · Relevant** | **Externalise the Memory: A Pre-Registered Study of Where an Embodied Agent's Experience Should Live** | arXiv 2026 | physical_ai,agent_systems | [Link](https://arxiv.org/abs/2610.30478) | — |
-| **P2 · Relevant** | **Efficient Best-Of-N with Radial Consensus Score** | arXiv 2026 | efficient_reasoning_agents | [Link](https://arxiv.org/abs/2604.12196) | — |
-| **P2 · Relevant** | **Do Coding Agents Understand Why Systems Crash---and Why They Don't?** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.29332) | — |
-| **P2 · Relevant** | **DewHand: Direct Metric World-Space Hand Motion Reconstruction from Egocentric Videos** | arXiv 2026 | physical,multimodal | [Link](https://arxiv.org/abs/2610.29936) | — |
-| **P1 · Watch** | **DeepLook: Uncertainty-Guided Branching with Lookahead Confidence for Efficient Reasoning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2607.22602) | — |
-| **P1 · Watch** | **Credit Where Credit Is Due: Contrastive Attribution Topology Search for Multi-Agent Systems** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2610.29292) | — |
+| **P0 · Strong** | **FastHarness: Experience-Driven Review Scheduling for Vision-Language-Action Policies** | arXiv 2026 | llm_serving,multimodal,agent,physical | [Link](https://arxiv.org/abs/2610.31427) | — |
+| **P1 · Watch** | **Certified Execution Harness for Agentic AI: Safe and Least-Intrusive Petri-Net Supervisory Control Between Reasoning and Action** | arXiv 2026 | agent | [Link](https://arxiv.org/abs/2610.31376) | — |
+| **P2 · Relevant** | **Probabilistic Energy Modeling Unifies Versatile Swarm Control** | arXiv 2026 | physical_ai_swarm | [Link](https://arxiv.org/abs/2610.31371) | — |
+| **P0 · Strong** | **Muffin - A Shared Memory Buffer for Asynchronous AI Agents** | arXiv 2026 | agent | [Link](https://arxiv.org/abs/2610.31355) | — |
+| **P2 · Relevant** | **RIPPLE: Recovery Internalization through Process-Level Policy Learning and Effect-Aware Credit for Long-Horizon Agentic Coding** | arXiv 2026 | agent | [Link](https://arxiv.org/abs/2610.31276) | — |
+| **P2 · Relevant** | **HiSTEVE 1.0: Harnessing Human-Interface VLA Agents for Open-World Games** | arXiv 2026 | physical,edge | [Link](https://arxiv.org/abs/2610.31162) | — |
+| **P0 · Strong** | **CANNBot-CAKE: Collaborative Agentic Kernel Evolution for Ascend NPU** | arXiv 2026 | kernel,agent,edge | [Link](https://arxiv.org/abs/2610.31034) | — |
+| **P2 · Relevant** | **Measuring the Reasoning-Action Coupling in Driving Vision-Language-Action Models through Counterfactuals** | arXiv 2026 | multimodal,physical | [Link](https://arxiv.org/abs/2610.30953) | — |
+| **P2 · Relevant** | **Joules-to-GDP: How Much Economic Value Do AI Systems Produce per Unit of Energy?** | arXiv 26 | edge/cloud/heterogeneous AI systems,efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.30858) | — |
+| **P2 · Relevant** | **Lean Finder V2: Semantic Search for Mathlib That Disambiguates User Queries** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.30843) | — |
+| **P1 · Watch** | **AgentDP: Towards Automated Model Deployment for Heterogeneous Embedded AI Applications** | arXiv 2026 | llm_serving,edge | [Link](https://arxiv.org/abs/2610.30760) | — |
+| **P2 · Relevant** | **Is Complex Agentic Memory Always Needed? Naive RAG Is Stronger Than We Thought** | arXiv 2026 | agent | [Link](https://arxiv.org/abs/2610.30755) | — |
+| **P1 · Watch** | **Reuse, Rewrite, or Reject: Evidence-Constrained Trace Reuse for Repeated Mobile GUI Control** | arXiv 2026 | Agent serving/cache/reuse | [Link](https://arxiv.org/abs/2610.31712) | — |
+| **P2 · Relevant** | **Asking Less, Adapting Better: Feedback-Efficient Test-Time Adaptation for Vision-and-Language Navigation** | arXiv 2026 | physical_ai,agent_systems | [Link](https://arxiv.org/abs/2610.30643) | — |
+| **P2 · Relevant** | **Better Reasoning, Not Just Bigger Models: A Structure-Grounded Framework for Efficient and Reliable Inference** | arXiv 2026 | sparse,agent | [Link](https://arxiv.org/abs/2610.30611) | — |
+| **P2 · Relevant** | **OASIS: Online Anchor-centric Scene Inference System for Open-Vocabulary Retrieval and Navigation in Dynamic Environments** | arXiv 2026 | physical_ai,agent_systems | [Link](https://arxiv.org/abs/2610.30589) | — |
+| **P0 · Strong** | **Know When to Escalate: Critic-Guided Adaptive Execution for Cloud-Local Embodied Agents** | arXiv 2026 | physical_ai_cloud_edge_serving | [Link](https://arxiv.org/abs/2610.30587) | — |
+| **P2 · Relevant** | **Mining the Design Space of Multi-Agent Workflows** | arXiv 2026 | Agent orchestration | [Link](https://arxiv.org/abs/2610.31709) | — |
 | **P2 · Relevant** | **Can LLMs Improve Their Own Harness? A Controlled Study on ARC-AGI-3** | arXiv 2026 | efficient_reasoning_agents | [Link](https://arxiv.org/abs/2610.30499) | — |
-| **P1 · Watch** | **Benchmarking Coding Agents for System-Level Performance Optimization** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.29695) | — |
-| **P2 · Relevant** | **AtomicRL: Atomic Reinforcement Learning for Long-Horizon Robotic Manipulation** | arXiv 2026 | physical | [Link](https://arxiv.org/abs/2610.30097) | — |
-| **P1 · Watch** | **AgenticRoboRL: Bringing Coding-Agent Post-Training to Agentic Robotics** | arXiv 2026 | agent,physical | [Link](https://arxiv.org/abs/2610.28589) | — |
-| **P1 · Watch** | **Agentic Video Understanding: A Survey** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.31713) | — |
-| **P2 · Relevant** | **Accept or Repair: Preserving Passage-Supported Answers in Contrastive Decoding** | arXiv 2026 | llm_serving,agent | [Link](https://arxiv.org/abs/2610.29727) | — |
+| **P2 · Relevant** | **Externalise the Memory: A Pre-Registered Study of Where an Embodied Agent's Experience Should Live** | arXiv 2026 | physical_ai,agent_systems | [Link](https://arxiv.org/abs/2610.30478) | — |
+| **P2 · Relevant** | **SplatLab: Autonomous Scientific Discovery for 3DGS Research** | arXiv 2026 | efficient_agent_systems_adjacent | [Link](https://arxiv.org/abs/2610.30468) | — |
+| **P2 · Relevant** | **Tactile-Based Robotic Manipulation: From Mechanics-Driven to Data-Driven Perspectives** | arXiv 26 | vla_wam | [Link](https://arxiv.org/abs/2610.30438) | — |
+| **P2 · Relevant** | **Self-Assessment Reinforcement Learning for Search-State Awareness in Retrieval-Augmented Large Language Models** | arXiv 2026 | efficient_reasoning_agents | [Link](https://arxiv.org/abs/2610.30435) | — |
 | **P2 · Relevant** | **A Transformer-based Approach for Real-time Multi-agent Path Planning with Varying Initial/Final Conditions** | arXiv 2026 | physical_ai_runtime_adjacent | [Link](https://arxiv.org/abs/2610.30388) | — |
-| **P2 · Relevant** | **ZeroDex: Zero-Shot Long-Horizon Dexterous Manipulation via Multi-View 3D-Grounded VLM Reasoning** | arXiv 2026 | multimodal | [Link](https://arxiv.org/abs/2606.19340) | — |
-| **P1 · Watch** | **WorldScape Policy 2.0: Empowering Steerable World Action Modeling with Reasoning-Augmented Memory and In-Context Learning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2607.18840) | — |
-| **P2 · Relevant** | **Where Should a Stuck Agent Spend Its Next Tokens? Causal Attribution of Inference-Time Resources** | arXiv 2026 | efficient agent reasoning | [Link](https://arxiv.org/abs/2610.28834) | — |
-| **P2 · Relevant** | **When Does Experience Memory Help Closed-Loop LLM Driving Agents? A Controlled Evaluation with Resampled Warmup Pools, Token-Matched Fillers, and Audited Baselines** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.27714) | — |
-| **P1 · Watch** | **VibeTraining-Bench: Data-Trainer-Harness Co-Design for Iterative System Improvement** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.26342) | — |
-| **P1 · Watch** | **Transformers as Generic Deep Neural Networks: Exact Compilation, the Cost of Removing Activation-Activation Products, and Multi-Agent Attention Clustering** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2610.28958) | — |
-| **P1 · Watch** | **TraceLite: Efficient Trace Reduction for SWE Agents via Optical Compression and Redundancy Removal** | arXiv 2026 | llm_serving,edge | [Link](https://arxiv.org/abs/2610.28612) | — |
-| **P2 · Relevant** | **Toward Safe LLM Agents: A Survey of Specification, Verification, and Enforcement** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2608.14590) | — |
-| **P2 · Relevant** | **Toward Agentic AI for the 6G Physical Layer: From Algorithm Discovery to Verified Baseband Silicon** | arXiv 2026 | agent | [Link](https://arxiv.org/abs/2610.27797) | — |
-| **P2 · Relevant** | **SpecEvo: Speculative Evolution with Large Language Models for Cost-Efficient Scientific Discovery** | arXiv 2026 | efficient reasoning/agents | [Link](https://arxiv.org/abs/2610.28706) | — |
-| **P1 · Watch** | **SkillEval: Learning Interpretable Ability Profiles of LLMs via Cognitive Diagnosis Models** | arXiv 2026 | efficient LLM routing | [Link](https://arxiv.org/abs/2610.28767) | — |
-| **P2 · Relevant** | **Self-Improving Agents with World Model Predictive Paths** | arXiv 2026 | physical | [Link](https://arxiv.org/abs/2610.28945) | — |
-| **P1 · Watch** | **Self-Decomposing Diffusion for Code Generation** | arXiv 2026 | diffusion/flow acceleration; efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.27600) | — |
-| **P2 · Relevant** | **Sage-A1.5: From Long-Horizon Execution to Scientific Exploration with Capability Composition** | arXiv 2026 | agent_orchestration | [Link](https://arxiv.org/abs/2610.28578) | — |
-| **P2 · Relevant** | **SAFE-Mem: Secure Agentic Memory with Fine-Grained Authority and Governance-Aware Retrieval** | arXiv 2026 | agent memory infrastructure | [Link](https://arxiv.org/abs/2610.22959) | — |
-| **P2 · Relevant** | **Rethinking How to Remember: Beyond Atomic Facts in Lifelong LLM Agent Memory** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2605.19952) | — |
-| **P2 · Relevant** | **Reinforcement learning for hardware acceleration and system-level optimization on FPGA and integrated-circuit platforms: A survey** | arXiv 2026 | edge/heterogeneous AI accelerators | [Link](https://arxiv.org/abs/2610.28699) | — |
-| **P2 · Relevant** | **ReAPO: Retry-Aware Policy Optimization for Efficient Exploration in LLM Reasoning** | arXiv 2026 | efficient reasoning training | [Link](https://arxiv.org/abs/2610.28770) | — |
-| **P2 · Relevant** | **Policy Search in Code Space for Multi-Agent Pathfinding** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.25946) | — |
-| **P2 · Relevant** | **Perceives but Doesn't Brake: A Perception-Action Binding Gap in Reasoning Driving VLAs** | arXiv 2026 | multimodal,physical | [Link](https://arxiv.org/abs/2610.28184) | — |
-| **P1 · Watch** | **PCLA-Bridge: A Framework for Cross-Domain Deployment of CARLA Agents** | arXiv 2026 | Physical AI runtime/infra | [Link](https://arxiv.org/abs/2610.28696) | — |
-| **P1 · Watch** | **OverSeer: Multi-Agent World Models Beyond What Agents See** | arXiv 2026 | physical | [Link](https://arxiv.org/abs/2610.28554) | — |
-| **P2 · Relevant** | **OPRD: On-Policy Reminder Distillation for Long-Horizon Coding Agents** | arXiv 2026 | gen | [Link](https://arxiv.org/abs/2610.21496) | — |
-| **P1 · Watch** | **Multi-agent LLMs on the Cloud-Edge-IoT Continuum: A Systematic Mapping Study on Architectures, Deployment, and Evaluation** | arXiv 2026 | agent systems; cloud-edge serving | [Link](https://arxiv.org/abs/2610.28702) | — |
-| **P1 · Watch** | **MemT-1.0: Towards Memory-Native Evolution** | arXiv 2026 | kv,agent | [Link](https://arxiv.org/abs/2610.26825) | — |
-| **P1 · Watch** | **Memory as Code: Declarative Retrieval over Codified Long-Term Memory** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.27700) | — |
-| **P2 · Relevant** | **MemDev-Bench: Does Memory Help Code Agents?Benchmarking Memory Systems over Real Repository Histories** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.27524) | — |
-| **P2 · Relevant** | **MAS-Guard: Unified Guardrails from Individual Agents to Multi-Agent LLM Systems** | arXiv 2026 | agent,edge | [Link](https://arxiv.org/abs/2610.28397) | — |
-| **P1 · Watch** | **LatBridge: Efficient and Stable Model Replacement in Latent-Communication Multi-Agent Systems** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.27813) | — |
-| **P2 · Relevant** | **InterWebCoder: Learning Interactive Webpage Generation from Executable Tests via Reinforcement Learning** | arXiv 2026 | efficient_agent_training | [Link](https://arxiv.org/abs/2610.28610) | — |
-| **P2 · Relevant** | **InteractAgent: Agentic Human Motion Interaction with Memory-Augmented Reflection** | arXiv 2026 | Physical AI motion agent | [Link](https://arxiv.org/abs/2610.25649) | — |
-| **P2 · Relevant** | **HSPR: Recovering Software-Agent Benchmark Scores via Hierarchical Posterior Inference** | arXiv 2026 | agent evaluation cost | [Link](https://arxiv.org/abs/2610.24611) | — |
-| **P2 · Relevant** | **HexaShell: A Thin Harness for Exploring the Limits of VLM Agents as Robot Coding Agents** | arXiv 2026 | Physical AI agent harness | [Link](https://arxiv.org/abs/2610.23479) | — |
-| **P2 · Relevant** | **HABIT-Bench: Evaluating Habit Induction from Longitudinal Weak Evidence in Agent Memory** | arXiv 2026 | agent memory evaluation | [Link](https://arxiv.org/abs/2610.24520) | — |
+| **P2 · Relevant** | **MemPlan: Memory-Conditioned PDDL Planning for Partially Observable Text Environments** | arXiv 2026 | efficient_reasoning_agents | [Link](https://arxiv.org/abs/2610.30379) | — |
+| **P1 · Watch** | **SWE-VERIFIER: Selective Verification for Cost-Efficient Coding Agents** | arXiv 2026 | efficient_agent_or_kv_serving | [Link](https://arxiv.org/abs/2610.30284) | — |
+| **P1 · Watch** | **Agentic World Action Models** | arXiv 2026 | physical,agent,multimodal | [Link](https://arxiv.org/abs/2610.30136) | — |
+| **P2 · Relevant** | **AtomicRL: Atomic Reinforcement Learning for Long-Horizon Robotic Manipulation** | arXiv 2026 | physical | [Link](https://arxiv.org/abs/2610.30097) | — |
+| **P2 · Relevant** | **VX-One: Typed, Calibrated Decision Heads for Real-Time Perimeter Triage** | arXiv 2026 | Efficient agents | [Link](https://arxiv.org/abs/2610.30090) | — |
+| **P2 · Relevant** | **ProactEgoMem: Benchmarking Proactive Memory in Streaming Egocentric Video** | arXiv 2026 | physical,agent,multimodal | [Link](https://arxiv.org/abs/2610.30089) | — |
+| **P1 · Watch** | **TARSphere: A Robot-Oriented Full-Stack Framework for Long-Horizon Embodied Agents in Evolving Physical and Social Environments** | arXiv 2026 | physical,agent,edge | [Link](https://arxiv.org/abs/2610.30043) | — |
+| **P2 · Relevant** | **Remembering Through Change: Provenance-Preserving Hypergraph Memory for Multimodal Agents** | arXiv 2026 | agent,multimodal | [Link](https://arxiv.org/abs/2610.29995) | — |
+| **P2 · Relevant** | **DewHand: Direct Metric World-Space Hand Motion Reconstruction from Egocentric Videos** | arXiv 2026 | physical,multimodal | [Link](https://arxiv.org/abs/2610.29936) | — |
+| **P2 · Relevant** | **Graph Topology Meets Energy-Driven Pathfinding: Preserving Contextual Consistency in Retrieval-Augmented Generation** | arXiv 2026 | agent,kv | [Link](https://arxiv.org/abs/2610.29933) | — |
+| **P2 · Relevant** | **RangeNav: Task-Aligned LiDAR Range-Image Pretraining for Robot Navigation** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.29845) | — |
+| **P1 · Watch** | **MemoryTax: The Bitter Lesson of Agent Memory** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.29823) | — |
+| **P2 · Relevant** | **Real PMIDs, Wrong Papers: Harness Design for Biomedical Claim-Verification Agents** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.29812) | — |
+| **P2 · Relevant** | **Accept or Repair: Preserving Passage-Supported Answers in Contrastive Decoding** | arXiv 2026 | llm_serving,agent | [Link](https://arxiv.org/abs/2610.29727) | — |
+| **P2 · Relevant** | **Understanding Tool-Mediated Interaction Failures in Agentic GUI Software: An Empirical Study** | arXiv 2026 | Agent runtime reliability | [Link](https://arxiv.org/abs/2610.31698) | — |
+| **P1 · Watch** | **Benchmarking Coding Agents for System-Level Performance Optimization** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.29695) | — |
+| **P1 · Watch** | **MoEZip: Routing-Aware KV Cache Compression for Sparse Mixture-of-Experts LLMs** | arXiv 2026 | efficient_agent_or_kv_serving | [Link](https://arxiv.org/abs/2610.30206) | — |
+| **P1 · Watch** | **Uni-Mem: Learning a Long-Horizon Agentic Memory Manager with Unified Online Policy Optimization** | arXiv 2026 | agent | [Link](https://arxiv.org/abs/2610.29671) | — |
+| **P2 · Relevant** | **Recursive Code Evolution for Task-Oriented Semantic Communications** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.29641) | — |
+| **P1 · Watch** | **From VLM Planners to Robotic Agents: Self-Evolving Harnesses for History-Dependent Manipulation** | arXiv 2026 | multimodal,agent,physical | [Link](https://arxiv.org/abs/2610.29560) | — |
+| **P0 · Strong** | **Hard and Soft Real-Time DNN Inference Scheduling on Heterogeneous Multi-Accelerator Systems via Reinforcement Learning** | arXiv 2026 | llm_serving,edge | [Link](https://arxiv.org/abs/2610.29503) | — |
+| **P2 · Relevant** | **OmniSimulator: Aligning Small Language Models for Authentic Heterogeneous Behavior Modeling** | arXiv 2026 | edge | [Link](https://arxiv.org/abs/2610.29472) | — |
+| **P1 · Watch** | **PreCoMem: Predictive Cognitive Memory for Self-Evolving Long-Term Dialogue Agents** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.29467) | — |
+| **P1 · Watch** | **LiveAct: Towards Real-Time Multi-Agent World Models with Heterogeneous Action Interfaces** | arXiv 2026 | llm_serving,quant,physical,edge | [Link](https://arxiv.org/abs/2610.29408) | — |
+| **P1 · Watch** | **Right On Q: Recovering Reasoning under Quantization via Self-Generated Trajectories** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2610.29378) | — |
+| **P2 · Relevant** | **Memory-Centric Continual Learning for AI Agents** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.29357) | — |
+| **P2 · Relevant** | **Do Coding Agents Understand Why Systems Crash---and Why They Don't?** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.29332) | — |
+| **P1 · Watch** | **Plan First, Act Later: Streaming Reasoning for Executable Memory in Robot Control** | arXiv 2026 | multimodal,physical | [Link](https://arxiv.org/abs/2610.29329) | — |
+| **P2 · Relevant** | **OACap: Caption-Guided Active Observation for Detailed Video Captioning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.29327) | — |
+| **P1 · Watch** | **Signals and Queries: Token-Efficient Agentic Context Discovery** | arXiv 2026 | agent | [Link](https://arxiv.org/abs/2610.29326) | — |
+| **P1 · Watch** | **Credit Where Credit Is Due: Contrastive Attribution Topology Search for Multi-Agent Systems** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2610.29292) | — |
+| **P2 · Relevant** | **Training in Deployment: Human-in-the-loop Online Post-Training for Robot Manipulation** | arXiv 2026 | quant,physical | [Link](https://arxiv.org/abs/2610.29264) | — |
+| **P2 · Relevant** | **DisasterRoute: Evidence-Guided Dual-System Routing for Visual Disaster Question Answering** | arXiv 2026 | llm_serving,multimodal | [Link](https://arxiv.org/abs/2610.29231) | — |
+| **P2 · Relevant** | **NavBind: Diagnosing Instruction-Action Binding at Route Forks in Navigation VLAs** | arXiv 26 | vla_wam | [Link](https://arxiv.org/abs/2610.29203) | — |
+| **P2 · Relevant** | **Reasoning-Search-Augmented LLMs: An Operational Taxonomy, Benchmark Analysis and Controlled Evidence Synthesis** | arXiv 2026 | agent,edge | [Link](https://arxiv.org/abs/2610.29189) | — |
+| **P0 · Strong** | **TrainBridge: Agentic NPU Training Optimization Guided by GPU Compilation Evidence** | arXiv 2026 | kernel,multimodal,agent,edge | [Link](https://arxiv.org/abs/2610.29171) | — |
+| **P1 · Watch** | **SimPT: An Automated Simulation Framework for Intervention-Based VLA Post-Training** | arXiv 2026 | multimodal,physical | [Link](https://arxiv.org/abs/2610.29161) | — |
+| **P2 · Relevant** | **5uGUE: Agentic Hardware-in-the-Loop Fuzzing for 5G Devices and beyond** | arXiv 2026 | agentic-hardware-runtime | [Link](https://arxiv.org/abs/2610.29155) | — |
+| **P2 · Relevant** | **State-Dependent Objective Coordination for End-to-End Balance and Navigation** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.29142) | — |
+| **P2 · Relevant** | **NormTune: Norm-Guided Parameter-Efficient Fine-Tuning for Reasoning-Intensive Tasks** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.29134) | — |
+| **P2 · Relevant** | **GenXR-Bench: Benchmarking Coding Agents for Interactive XR Development** | arXiv 2026 | physical | [Link](https://arxiv.org/abs/2610.29014) | — |
 | **P0 · Strong** | **FlashNext-RL: A System Optimization Study for Long-Horizon Agentic RL of Qwen3.8-Flash-Next** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.28998) | — |
-| **P2 · Relevant** | **FIT-MAC: A Closed-Loop Multi-Agent Framework for Robust Vision-Language-Action Models** | arXiv 2026 | multimodal,physical | [Link](https://arxiv.org/abs/2610.28109) | — |
-| **P2 · Relevant** | **Embodied Task Agents Can Perform Fine Manipulation through Tactile In-Context Learning** | arXiv 2026 | physical | [Link](https://arxiv.org/abs/2610.27613) | — |
-| **P1 · Watch** | **ECHO: A Cognitively Inspired, Auditable Memory Plane for Long-Horizon Agents** | Fresh / preprint | video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.21755) | — |
-| **P2 · Relevant** | **DuplexLedger: Benchmarking Transactional Memory in Full-Duplex Speech Agents** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.27581) | — |
-| **P1 · Watch** | **Does Multi-Agent Collaboration Pay When Agents Serve Users? Testing Agent Scaling in Dual-Control Settings** | arXiv 2026 | agent | [Link](https://arxiv.org/abs/2610.27655) | — |
-| **P2 · Relevant** | **Diffusion Subgoal Planning for Long-Horizon Offline Goal-Conditioned Reinforcement Learning** | arXiv 2026 | Physical AI / agent infrastructure | [Link](https://arxiv.org/abs/2609.34575) | — |
+| **P1 · Watch** | **Transformers as Generic Deep Neural Networks: Exact Compilation, the Cost of Removing Activation-Activation Products, and Multi-Agent Attention Clustering** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2610.28958) | — |
+| **P2 · Relevant** | **Self-Improving Agents with World Model Predictive Paths** | arXiv 2026 | physical | [Link](https://arxiv.org/abs/2610.28945) | — |
 | **P1 · Watch** | **D-Skill: Distilling Teacher Knowledge through Agent Skills** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.28914) | — |
-| **P1 · Watch** | **CovNav: Conformal Prediction-Guided Adaptive Inference for Object Goal Navigation** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.27677) | — |
-| **P2 · Relevant** | **Constrained Federated Reinforcement Learning for Secure Offloading in Vehicular Edge Computing** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.27651) | — |
+| **P2 · Relevant** | **Fig: Automated Multiagent Behavior Elicitor** | arXiv 2026 | agent | [Link](https://arxiv.org/abs/2610.28891) | — |
+| **P2 · Relevant** | **Where Should a Stuck Agent Spend Its Next Tokens? Causal Attribution of Inference-Time Resources** | arXiv 2026 | efficient agent reasoning | [Link](https://arxiv.org/abs/2610.28834) | — |
 | **P2 · Relevant** | **Complexity-Aware Surgical Video Reasoning Segmentation with Digital Twin and Context Memory** | arXiv 2026 | multimodal efficient reasoning | [Link](https://arxiv.org/abs/2610.28776) | — |
+| **P2 · Relevant** | **ReAPO: Retry-Aware Policy Optimization for Efficient Exploration in LLM Reasoning** | arXiv 2026 | efficient reasoning training | [Link](https://arxiv.org/abs/2610.28770) | — |
+| **P1 · Watch** | **SkillEval: Learning Interpretable Ability Profiles of LLMs via Cognitive Diagnosis Models** | arXiv 2026 | efficient LLM routing | [Link](https://arxiv.org/abs/2610.28767) | — |
+| **P1 · Watch** | **TraceLite: Efficient Trace Reduction for SWE Agents via Optical Compression and Redundancy Removal** | arXiv 2026 | llm_serving,edge | [Link](https://arxiv.org/abs/2610.28612) | — |
+| **P2 · Relevant** | **InterWebCoder: Learning Interactive Webpage Generation from Executable Tests via Reinforcement Learning** | arXiv 2026 | efficient_agent_training | [Link](https://arxiv.org/abs/2610.28610) | — |
+| **P1 · Watch** | **AgenticRoboRL: Bringing Coding-Agent Post-Training to Agentic Robotics** | arXiv 2026 | agent,physical | [Link](https://arxiv.org/abs/2610.28589) | — |
+| **P1 · Watch** | **Beyond the Sequentiality Bottleneck: A Hybrid Diffusion-Autoregressive Framework for Efficient Multimodal Reasoning** | arXiv 2026 | multimodal | [Link](https://arxiv.org/abs/2610.28584) | — |
+| **P2 · Relevant** | **Sage-A1.5: From Long-Horizon Execution to Scientific Exploration with Capability Composition** | arXiv 2026 | agent_orchestration | [Link](https://arxiv.org/abs/2610.28578) | — |
+| **P0 · Strong** | **Cache Engineering for Agents** | arXiv 2026 | llm_serving,kv | [Link](https://arxiv.org/abs/2610.28577) | — |
+| **P1 · Watch** | **OverSeer: Multi-Agent World Models Beyond What Agents See** | arXiv 2026 | physical | [Link](https://arxiv.org/abs/2610.28554) | — |
 | **P2 · Relevant** | **CoGaussian: Open-Vocabulary Gaussian-based Collaborative 3D Scene Understanding** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.28530) | — |
 | **P2 · Relevant** | **CLOSER: Evidence-Aware Active Visual Verification for Embodied Object-Goal Navigation** | arXiv 2026 | multimodal,physical | [Link](https://arxiv.org/abs/2610.28476) | — |
-| **P2 · Relevant** | **ChartEvo: Self-Evolving Agent Harnesses for Long-Tail Chart Reasoning** | arXiv 2026 | multimodal,edge | [Link](https://arxiv.org/abs/2610.28282) | — |
-| **P0 · Strong** | **Cache Engineering for Agents** | arXiv 2026 | llm_serving,kv | [Link](https://arxiv.org/abs/2610.28577) | — |
-| **P1 · Watch** | **Beyond the Sequentiality Bottleneck: A Hybrid Diffusion-Autoregressive Framework for Efficient Multimodal Reasoning** | arXiv 2026 | multimodal | [Link](https://arxiv.org/abs/2610.28584) | — |
-| **P0 · Strong** | **Beyond Experience: Knowledge-Guided Evolution for NPU Kernel Generation** | arXiv 2026 | edge | [Link](https://arxiv.org/abs/2610.27588) | — |
-| **P1 · Watch** | **ASPIRE: Agentic /Skills Discovery for Robotics** | arXiv 2026 | Physical AI streaming agent/runtime | [Link](https://arxiv.org/abs/2607.00272) | — |
-| **P2 · Relevant** | **ASH: Agents that Self-Hone in Long-Horizon Worlds** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2605.14211) | — |
+| **P2 · Relevant** | **MAS-Guard: Unified Guardrails from Individual Agents to Multi-Agent LLM Systems** | arXiv 2026 | agent,edge | [Link](https://arxiv.org/abs/2610.28397) | — |
+| **P2 · Relevant** | **SpecEvo: Speculative Evolution with Large Language Models for Cost-Efficient Scientific Discovery** | arXiv 2026 | efficient reasoning/agents | [Link](https://arxiv.org/abs/2610.28706) | — |
 | **P1 · Watch** | **Adaptive Replay Refinement: Allocating Test-Time Compute Between Revision and Resampling** | arXiv 2026 | agent | [Link](https://arxiv.org/abs/2610.28294) | — |
-| **P0 · Strong** | **$S^3$: Spectral Null-Space Swap Makes Reasoning Models Efficient** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.37976) | — |
-| **P1 · Watch** | **Which Model for Which Role? Cost-Efficient Pareto Recommendation for LLM Agentic Workflows** | arXiv 2026 | llm_serving,agent | [Link](https://arxiv.org/abs/2610.26676) | — |
-| **P1 · Watch** | **When the harness decides success: state that cannot be re-observed** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.26632) | — |
-| **P2 · Relevant** | **VISAGENT: An Agent-Based End-to-End Voice Interaction System** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.26168) | — |
-| **P0 · Strong** | **UnO-NeSy: Optimizing Neuro-Symbolic Computing with Unified FeFET Based In-Memory System** | arXiv 2026 | quant,edge | [Link](https://arxiv.org/abs/2610.26530) | — |
-| **P2 · Relevant** | **Understanding When Reflective Prompt and Skill Optimization Helps on Locally Served Reasoning Models: A Two-Model Study of GEPA and SkillOpt** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.26020) | — |
-| **P0 · Strong** | **TriTD: Tri-Partite Trajectory-Distribution Distillation for Real-Time Autoregressive Video Generation** | arXiv 2026 | llm_serving,gen | [Link](https://arxiv.org/abs/2610.26165) | — |
-| **P2 · Relevant** | **TimesJev: Thinking Fast on Time Series with System 1 Sufficiency** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.26002) | — |
-| **P1 · Watch** | **Test-Time Augmentation for LLMs: Where to Inject Diversity at Inference Time** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2608.09351) | — |
-| **P0 · Strong** | **TempoMoE: Identifying and Steering Fast-Slow Thinking Experts for Efficient Multimodal Reasoning** | arXiv 2026 | llm_serving,sparse,moe | [Link](https://arxiv.org/abs/2610.25999) | — |
-| **P0 · Strong** | **Tandem: Serving Hybrid Linear-Attention GUI Agents on Mobile NPUs** | arXiv 2026 | llm_serving,spec,attn,edge | [Link](https://arxiv.org/abs/2610.26660) | — |
-| **P2 · Relevant** | **SWAP: Test-Time Steerable Humanoid Whole-Body Collision Avoidance** | arXiv 2026 | Physical AI / humanoid control | [Link](https://arxiv.org/abs/2610.25711) | — |
-| **P2 · Relevant** | **SteerAct: Unlocking Action Models through Few-Shot Temporal Steering** | arXiv 2026 | VLA/WAM test-time adaptation | [Link](https://arxiv.org/abs/2610.25632) | — |
-| **P1 · Watch** | **SPEM: Structure-Aware Procedural Memory for Efficient Skill Use in LLM Agents** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.26995) | — |
-| **P2 · Relevant** | **Sparse RL Relaxation for LLM Reasoning** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2610.27220) | — |
-| **P2 · Relevant** | **Simulation Priors for Rapid Adaptation in Model-Based RL for Autonomous Racing** | arXiv 2026 | physical,edge | [Link](https://arxiv.org/abs/2610.26757) | — |
-| **P2 · Relevant** | **Selecting and Composing Agent Design Patterns: Industrial Case Evidence and Controlled Reference-System Experiments** | arXiv 2026 | agent systems design | [Link](https://arxiv.org/abs/2610.25629) | — |
-| **P1 · Watch** | **ScopeMem: Latent Memory That Learns Where to Revise Frozen GUI Agents** | arXiv 2026 | llm_serving,multimodal | [Link](https://arxiv.org/abs/2610.26503) | — |
-| **P0 · Strong** | **RouterWorld: Scaling Conversational AI with Latency-Aware LLM Routing** | arXiv 2026 | llm_serving,agent,edge | [Link](https://arxiv.org/abs/2610.26511) | — |
-| **P1 · Watch** | **Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience** | arXiv 2026 | physical,edge | [Link](https://arxiv.org/abs/2610.26855) | — |
-| **P2 · Relevant** | **Robotic Photography System based on Vision-Language-Action Model** | arXiv 2026 | multimodal,physical | [Link](https://arxiv.org/abs/2610.26287) | — |
-| **P2 · Relevant** | **Remember Less, Adapt Longer: Bounded-State In-Context Reinforcement Learning with Recurrent Summary Memory** | arXiv 2026 | Agent systems / bounded memory | [Link](https://arxiv.org/abs/2610.25758) | — |
+| **P2 · Relevant** | **ChartEvo: Self-Evolving Agent Harnesses for Long-Tail Chart Reasoning** | arXiv 2026 | multimodal,edge | [Link](https://arxiv.org/abs/2610.28282) | — |
+| **P2 · Relevant** | **Perceives but Doesn't Brake: A Perception-Action Binding Gap in Reasoning Driving VLAs** | arXiv 2026 | multimodal,physical | [Link](https://arxiv.org/abs/2610.28184) | — |
+| **P2 · Relevant** | **Reasoning as a Distribution: Generative Plan Latents for Vision-Language-Action Models** | arXiv 2026 | multimodal,physical | [Link](https://arxiv.org/abs/2610.28166) | — |
+| **P2 · Relevant** | **From Code Generator to Engineering Companion: A Plant-aware Agent for PLC Programming** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.28160) | — |
+| **P2 · Relevant** | **FIT-MAC: A Closed-Loop Multi-Agent Framework for Robust Vision-Language-Action Models** | arXiv 2026 | multimodal,physical | [Link](https://arxiv.org/abs/2610.28109) | — |
+| **P1 · Watch** | **Multi-agent LLMs on the Cloud-Edge-IoT Continuum: A Systematic Mapping Study on Architectures, Deployment, and Evaluation** | arXiv 2026 | agent systems; cloud-edge serving | [Link](https://arxiv.org/abs/2610.28702) | — |
+| **P2 · Relevant** | **Reinforcement learning for hardware acceleration and system-level optimization on FPGA and integrated-circuit platforms: A survey** | arXiv 2026 | edge/heterogeneous AI accelerators | [Link](https://arxiv.org/abs/2610.28699) | — |
+| **P1 · Watch** | **PCLA-Bridge: A Framework for Cross-Domain Deployment of CARLA Agents** | arXiv 2026 | Physical AI runtime/infra | [Link](https://arxiv.org/abs/2610.28696) | — |
+| **P1 · Watch** | **LatBridge: Efficient and Stable Model Replacement in Latent-Communication Multi-Agent Systems** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.27813) | — |
+| **P2 · Relevant** | **Toward Agentic AI for the 6G Physical Layer: From Algorithm Discovery to Verified Baseband Silicon** | arXiv 2026 | agent | [Link](https://arxiv.org/abs/2610.27797) | — |
+| **P2 · Relevant** | **When Does Experience Memory Help Closed-Loop LLM Driving Agents? A Controlled Evaluation with Resampled Warmup Pools, Token-Matched Fillers, and Audited Baselines** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.27714) | — |
+| **P1 · Watch** | **Memory as Code: Declarative Retrieval over Codified Long-Term Memory** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.27700) | — |
+| **P1 · Watch** | **CovNav: Conformal Prediction-Guided Adaptive Inference for Object Goal Navigation** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.27677) | — |
+| **P1 · Watch** | **Does Multi-Agent Collaboration Pay When Agents Serve Users? Testing Agent Scaling in Dual-Control Settings** | arXiv 2026 | agent | [Link](https://arxiv.org/abs/2610.27655) | — |
+| **P2 · Relevant** | **Constrained Federated Reinforcement Learning for Secure Offloading in Vehicular Edge Computing** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.27651) | — |
+| **P2 · Relevant** | **Embodied Task Agents Can Perform Fine Manipulation through Tactile In-Context Learning** | arXiv 2026 | physical | [Link](https://arxiv.org/abs/2610.27613) | — |
+| **P1 · Watch** | **Self-Decomposing Diffusion for Code Generation** | arXiv 2026 | diffusion/flow acceleration; efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.27600) | — |
+| **P0 · Strong** | **Beyond Experience: Knowledge-Guided Evolution for NPU Kernel Generation** | arXiv 2026 | edge | [Link](https://arxiv.org/abs/2610.27588) | — |
+| **P2 · Relevant** | **DuplexLedger: Benchmarking Transactional Memory in Full-Duplex Speech Agents** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.27581) | — |
+| **P2 · Relevant** | **MemDev-Bench: Does Memory Help Code Agents?Benchmarking Memory Systems over Real Repository Histories** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.27524) | — |
 | **P1 · Watch** | **REM: What to Store, When to Recall, What to Forget in Experience Memory for Coding Agents** | arXiv 2026 | agent | [Link](https://arxiv.org/abs/2610.27377) | — |
-| **P0 · Strong** | **REFLEX: Reflective Evolution from LLM Experience** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2606.16496) | — |
-| **P0 · Strong** | **RecurTrace: Adaptive Latent Reasoning with Loop-Time Memory** | arXiv 2026 | efficient reasoning/agent systems / adaptive compute / latent recurrence | [Link](https://arxiv.org/abs/2609.03379) | — |
-| **P2 · Relevant** | **PVBench: Quantifying Physical Plausibility in Video Generation with Object-Level Physical Measurements** | arXiv 2026 | video_generation_evaluation | [Link](https://arxiv.org/abs/2610.26711) | — |
-| **P2 · Relevant** | **Productive State-Space Exploration for Multi-turn RL in LLM Agents** | arXiv 2026 | agent RL efficiency | [Link](https://arxiv.org/abs/2610.25957) | — |
-| **P1 · Watch** | **PORA: Learning When More Reasoning Pays Off for LLM Agents** | arXiv 2026 | agent | [Link](https://arxiv.org/abs/2610.27119) | — |
-| **P1 · Watch** | **OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory** | arXiv 2026 | multimodal,agent,edge | [Link](https://arxiv.org/abs/2610.26860) | — |
-| **P2 · Relevant** | **Multi-Agent Agentic Graph Learning via Structural Signatures** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.09565) | — |
-| **P2 · Relevant** | **Mobile Embodied Agent Network (MEAN): Integrated Framework, Enabling Technologies, and Task-Driven Deployment** | arXiv 2026 | physical | [Link](https://arxiv.org/abs/2610.26297) | — |
-| **P2 · Relevant** | **MASIF: Implicit Failures for Process Observability in Multi-Agent Systems** | arXiv 2026 | Agent systems / observability | [Link](https://arxiv.org/abs/2610.25852) | — |
-| **P2 · Relevant** | **Magnolia: A Persistent-Memory Agent Framework for Computational Chemistry** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.27230) | — |
-| **P1 · Watch** | **M-Plan: Comprehensive Planning For LLM Agents with Memory Arrangement** | arXiv 2026 | kv | [Link](https://arxiv.org/abs/2610.27032) | — |
-| **P1 · Watch** | **LVMem: Image-Augmented Memory for Long-Horizon Question Answering** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2610.27104) | — |
-| **P1 · Watch** | **LOOP: Recovery-Aligned Iterative Layer Pruning via On-Policy Distillation** | arXiv 2026 | LLM pruning / deployment | [Link](https://arxiv.org/abs/2610.25679) | — |
 | **P1 · Watch** | **Look Before You Reason: Implicit Visual Thinking for Efficient Multimodal Reasoning** | arXiv 2026 | multimodal | [Link](https://arxiv.org/abs/2610.27341) | — |
-| **P2 · Relevant** | **Let the Batch Decide, On- or Off-Policy: Effective Sample Size for RL Post-Training** | arXiv 2026 | agent | [Link](https://arxiv.org/abs/2605.12380) | — |
-| **P1 · Watch** | **Learning to Reason Efficiently with Interventional Step Credit** | arXiv 2026 | Efficient reasoning / token reduction | [Link](https://arxiv.org/abs/2610.25876) | — |
-| **P2 · Relevant** | **Learning Self-Orchestration in Decentralized Agent Swarms** | arXiv 2026 | gen,physical | [Link](https://arxiv.org/abs/2610.22322) | — |
-| **P2 · Relevant** | **Keep the Lineages Alive: Diversity-Preserving SMC for Diffusion LLM Decoding** | arXiv 2026 | diffusion decoding algorithm | [Link](https://arxiv.org/abs/2610.25932) | — |
-| **P2 · Relevant** | **Iterate Until Retrieved: Factual Nugget Optimization for Discoverable Continual Corrections in Agentic RAG** | arXiv 2026 | agent | [Link](https://arxiv.org/abs/2605.25641) | — |
-| **P0 · Strong** | **Heartbeat Thinking: Speculative Reasoning and Tool Execution While Listening in Realtime Voice Agents** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.26233) | — |
-| **P1 · Watch** | **HAF-VLA: Hierarchical Action Flow Framework for Humanoid Vision-Language-Action Control** | arXiv 2026 | kv,multimodal,physical | [Link](https://arxiv.org/abs/2610.26584) | — |
-| **P0 · Strong** | **GLOBE: Geometry-Led Online Behavioral Early Exit via Unit-Sphere Trajectories** | arXiv 2026 | reasoning early-exit serving | [Link](https://arxiv.org/abs/2610.25970) | — |
-| **P1 · Watch** | **FrontierRefactor: Benchmarking Multi-Scale Performance-Oriented Codebase Refactoring** | arXiv 2026 | Agent / performance engineering | [Link](https://arxiv.org/abs/2610.25834) | — |
-| **P2 · Relevant** | **FR-VLA: Implicit Force Reasoning VLA for Contact-Rich Manipulation** | arXiv 2026 | Physical AI / force-aware VLA manipulation | [Link](https://arxiv.org/abs/2610.25981) | — |
-| **P2 · Relevant** | **ForagerSim: Evaluating Embodied Map-Based Reasoning in Large-Scale Dynamic Worlds** | arXiv 2026 | physical | [Link](https://arxiv.org/abs/2610.26395) | — |
-| **P0 · Strong** | **Does On-Policy Distillation Need to Complete Every Rollout?** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.21337) | — |
-| **P2 · Relevant** | **DeltaTrace: Efficient Signed Attribution for Reasoning Language Models** | arXiv 2026 | Efficient reasoning / interpretability | [Link](https://arxiv.org/abs/2610.25877) | — |
-| **P2 · Relevant** | **Decision4Rec: A Jev-Inspired Framework of Decision Models on Knowledge and Active Graphs for Multi-Agent Recommender Systems** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.26035) | — |
-| **P1 · Watch** | **Coordinated Networking for On-Device Agent-Augmented Real-Time Communication** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2607.22854) | — |
-| **P2 · Relevant** | **Connection Escrow: Holding AI-Agent Pod Egress in the Kernel Until an Isolated Verifier Rules** | arXiv 2026 | adjacent_systems | [Link](https://arxiv.org/abs/2610.26501) | — |
-| **P2 · Relevant** | **Computation, Not Memory: Chain-of-Thought and State Tracking in LLM Agents** | arXiv 2026 | agent reasoning analysis | [Link](https://arxiv.org/abs/2610.25760) | — |
-| **P2 · Relevant** | **CoMem: Learning to Anticipate Failures from Retrieved Experience** | arXiv 2026 | Agent systems / memory retrieval | [Link](https://arxiv.org/abs/2610.25790) | — |
-| **P2 · Relevant** | **CoEvolve: Self-Evolving Code Policies from Skills to Strategies for Humanoid Robots** | arXiv 2026 | Physical AI / multi-robot agent runtime | [Link](https://arxiv.org/abs/2610.23288) | — |
-| **P2 · Relevant** | **CodeSkill: Latent Skill Abstraction for Long-Horizon Code Agents** | arXiv 2026 | efficient_reasoning_agent | [Link](https://arxiv.org/abs/2609.33243) | — |
-| **P2 · Relevant** | **CheckDistill: Adaptive Checklist Distillation for Efficient Distributional Reward Modeling in Image Editing** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.26740) | — |
-| **P2 · Relevant** | **Cascade Failure Attribution for Multi-Agent Systems** | arXiv 2026 | Multi-agent systems / reliability | [Link](https://arxiv.org/abs/2608.29646) | — |
-| **P2 · Relevant** | **BR-MoE: Budgeted Semantic Release for Privacy-Preserving Traffic Analytics** | arXiv 2026 | moe | [Link](https://arxiv.org/abs/2610.27026) | — |
-| **P2 · Relevant** | **BioProVLA-Agent: An Affordable, Protocol-Driven, Vision-Enhanced VLA-Enabled Embodied Multi-Agent System with Closed-Loop-Capable Reasoning for Biological Laboratory Manipulation** | arXiv 2026 | multimodal,physical | [Link](https://arxiv.org/abs/2605.07306) | — |
-| **P2 · Relevant** | **Beyond Omni: A Unified MLLM for Embodied Sensory Understanding** | arXiv 2026 | multimodal,physical,edge | [Link](https://arxiv.org/abs/2610.26751) | — |
-| **P1 · Watch** | **BetaMem: Learning to Remember a Changing World for Embodied Agents** | arXiv 2026 | physical | [Link](https://arxiv.org/abs/2610.26554) | — |
-| **P2 · Relevant** | **Benchmarking the Limits of In-Context Reinforcement Learning for Ad-Hoc Teamwork** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2605.24423) | — |
-| **P1 · Watch** | **Balance-Aware Pivot Selection for Parallel Diffusion LLM Decoding** | arXiv 2026 | diffusion language model parallel decoding / inference acceleration | [Link](https://arxiv.org/abs/2610.26040) | — |
-| **P0 · Strong** | **Asynchronous On-Policy Self-Distillation** | arXiv 2026 | Distributed training / asynchronous RL distillation | [Link](https://arxiv.org/abs/2610.25880) | — |
-| **P1 · Watch** | **Adaptive Decoding Methods for Token-Efficient Reinforcement Learning** | arXiv 2026 | Efficient reasoning training / RLVR | [Link](https://arxiv.org/abs/2610.25860) | — |
-| **P1 · Watch** | **ActiveMem: Dynamic Latent Memory Trees for Long-Horizon Agents** | arXiv 2026 | agent_systems,memory | [Link](https://arxiv.org/abs/2609.33244) | — |
-| **P1 · Watch** | **ABACUS: Program-Guided Multistep Reasoning over Frozen Judgment Models** | arXiv 2026 | efficient_reasoning | [Link](https://arxiv.org/abs/2610.25963) | — |
+| **P2 · Relevant** | **Magnolia: A Persistent-Memory Agent Framework for Computational Chemistry** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.27230) | — |
+| **P2 · Relevant** | **Sparse RL Relaxation for LLM Reasoning** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2610.27220) | — |
+| **P1 · Watch** | **PORA: Learning When More Reasoning Pays Off for LLM Agents** | arXiv 2026 | agent | [Link](https://arxiv.org/abs/2610.27119) | — |
+| **P1 · Watch** | **LVMem: Image-Augmented Memory for Long-Horizon Question Answering** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2610.27104) | — |
 | **P2 · Relevant** | **A general-purpose System One decision model for clinical records** | arXiv 2026 | agent | [Link](https://arxiv.org/abs/2610.27099) | — |
-| **P2 · Relevant** | **A Decision-Theoretic View of Test-Time Training: When, How Far, and Which Directions to Adapt** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2606.15569) | — |
-| **P1 · Watch** | **When Should Agents Check External State? Budgeting Observations for Stored Intentions** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.37125) | — |
-| **P2 · Relevant** | **When Is Language-Model Advice Worth Buying? A Matched-Budget Study of Predictive Gating in Reinforcement Learning** | arXiv 2026 | kv | [Link](https://arxiv.org/abs/2609.29548) | — |
-| **P2 · Relevant** | **VLA-Fabric: Learning Interaction for Composable Multi-Arm VLA Agents** | arXiv | physical | [Link](https://arxiv.org/abs/2610.23018) | — |
-| **P0 · Strong** | **Understanding KV Residency in Production-Scale Agentic LLM Workloads** | arXiv 2026 | Agentic LLM KV residency | [Link](https://arxiv.org/abs/2610.22863) | — |
-| **P1 · Watch** | **Towards Agentic Cloud Engineering: Graph and Loop Engineering with a Zero-Trust Agent Harness** | arXiv 2026 | agent | [Link](https://arxiv.org/abs/2609.00050) | — |
-| **P1 · Watch** | **Test-Time Scaling with Diffusion Language Models via Reward-Guided Stitching** | arXiv 2026 | llm_serving,gen | [Link](https://arxiv.org/abs/2602.22871) | — |
-| **P2 · Relevant** | **SkyAgent: Revisable Target Memory for Continuous Aerial Search** | arXiv 2026 | aerial agent memory | [Link](https://arxiv.org/abs/2610.23293) | — |
+| **P1 · Watch** | **OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory** | arXiv 2026 | multimodal,agent,edge | [Link](https://arxiv.org/abs/2610.26860) | — |
+| **P1 · Watch** | **Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience** | arXiv 2026 | physical,edge | [Link](https://arxiv.org/abs/2610.26855) | — |
+| **P1 · Watch** | **MemT-1.0: Towards Memory-Native Evolution** | arXiv 2026 | kv,agent | [Link](https://arxiv.org/abs/2610.26825) | — |
+| **P2 · Relevant** | **Simulation Priors for Rapid Adaptation in Model-Based RL for Autonomous Racing** | arXiv 2026 | physical,edge | [Link](https://arxiv.org/abs/2610.26757) | — |
+| **P2 · Relevant** | **Beyond Omni: A Unified MLLM for Embodied Sensory Understanding** | arXiv 2026 | multimodal,physical,edge | [Link](https://arxiv.org/abs/2610.26751) | — |
+| **P2 · Relevant** | **CheckDistill: Adaptive Checklist Distillation for Efficient Distributional Reward Modeling in Image Editing** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.26740) | — |
+| **P2 · Relevant** | **PVBench: Quantifying Physical Plausibility in Video Generation with Object-Level Physical Measurements** | arXiv 2026 | video_generation_evaluation | [Link](https://arxiv.org/abs/2610.26711) | — |
+| **P1 · Watch** | **M-Plan: Comprehensive Planning For LLM Agents with Memory Arrangement** | arXiv 2026 | kv | [Link](https://arxiv.org/abs/2610.27032) | — |
+| **P1 · Watch** | **Which Model for Which Role? Cost-Efficient Pareto Recommendation for LLM Agentic Workflows** | arXiv 2026 | llm_serving,agent | [Link](https://arxiv.org/abs/2610.26676) | — |
+| **P0 · Strong** | **Tandem: Serving Hybrid Linear-Attention GUI Agents on Mobile NPUs** | arXiv 2026 | llm_serving,spec,attn,edge | [Link](https://arxiv.org/abs/2610.26660) | — |
+| **P1 · Watch** | **When the harness decides success: state that cannot be re-observed** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.26632) | — |
+| **P1 · Watch** | **HAF-VLA: Hierarchical Action Flow Framework for Humanoid Vision-Language-Action Control** | arXiv 2026 | kv,multimodal,physical | [Link](https://arxiv.org/abs/2610.26584) | — |
+| **P1 · Watch** | **BetaMem: Learning to Remember a Changing World for Embodied Agents** | arXiv 2026 | physical | [Link](https://arxiv.org/abs/2610.26554) | — |
+| **P2 · Relevant** | **BR-MoE: Budgeted Semantic Release for Privacy-Preserving Traffic Analytics** | arXiv 2026 | moe | [Link](https://arxiv.org/abs/2610.27026) | — |
+| **P0 · Strong** | **UnO-NeSy: Optimizing Neuro-Symbolic Computing with Unified FeFET Based In-Memory System** | arXiv 2026 | quant,edge | [Link](https://arxiv.org/abs/2610.26530) | — |
+| **P0 · Strong** | **RouterWorld: Scaling Conversational AI with Latency-Aware LLM Routing** | arXiv 2026 | llm_serving,agent,edge | [Link](https://arxiv.org/abs/2610.26511) | — |
+| **P1 · Watch** | **ScopeMem: Latent Memory That Learns Where to Revise Frozen GUI Agents** | arXiv 2026 | llm_serving,multimodal | [Link](https://arxiv.org/abs/2610.26503) | — |
+| **P2 · Relevant** | **Connection Escrow: Holding AI-Agent Pod Egress in the Kernel Until an Isolated Verifier Rules** | arXiv 2026 | adjacent_systems | [Link](https://arxiv.org/abs/2610.26501) | — |
+| **P1 · Watch** | **Remembering Has a Price: Learning Memory Worth under Resource Constraints** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.26453) | — |
+| **P1 · Watch** | **The Geometry of Agent Memory: Forecasting Retrieval-Bound Memory Failures, and Characterizing Its Limits** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.26433) | — |
+| **P2 · Relevant** | **ForagerSim: Evaluating Embodied Map-Based Reasoning in Large-Scale Dynamic Worlds** | arXiv 2026 | physical | [Link](https://arxiv.org/abs/2610.26395) | — |
+| **P1 · Watch** | **VibeTraining-Bench: Data-Trainer-Harness Co-Design for Iterative System Improvement** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.26342) | — |
+| **P2 · Relevant** | **Mobile Embodied Agent Network (MEAN): Integrated Framework, Enabling Technologies, and Task-Driven Deployment** | arXiv 2026 | physical | [Link](https://arxiv.org/abs/2610.26297) | — |
+| **P2 · Relevant** | **Robotic Photography System based on Vision-Language-Action Model** | arXiv 2026 | multimodal,physical | [Link](https://arxiv.org/abs/2610.26287) | — |
+| **P0 · Strong** | **Heartbeat Thinking: Speculative Reasoning and Tool Execution While Listening in Realtime Voice Agents** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.26233) | — |
+| **P2 · Relevant** | **VISAGENT: An Agent-Based End-to-End Voice Interaction System** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.26168) | — |
+| **P0 · Strong** | **TriTD: Tri-Partite Trajectory-Distribution Distillation for Real-Time Autoregressive Video Generation** | arXiv 2026 | llm_serving,gen | [Link](https://arxiv.org/abs/2610.26165) | — |
+| **P1 · Watch** | **Balance-Aware Pivot Selection for Parallel Diffusion LLM Decoding** | arXiv 2026 | diffusion language model parallel decoding / inference acceleration | [Link](https://arxiv.org/abs/2610.26040) | — |
+| **P2 · Relevant** | **Decision4Rec: A Jev-Inspired Framework of Decision Models on Knowledge and Active Graphs for Multi-Agent Recommender Systems** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.26035) | — |
+| **P1 · Watch** | **SPEM: Structure-Aware Procedural Memory for Efficient Skill Use in LLM Agents** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.26995) | — |
+| **P2 · Relevant** | **Understanding When Reflective Prompt and Skill Optimization Helps on Locally Served Reasoning Models: A Two-Model Study of GEPA and SkillOpt** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.26020) | — |
+| **P2 · Relevant** | **TimesJev: Thinking Fast on Time Series with System 1 Sufficiency** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.26002) | — |
+| **P0 · Strong** | **TempoMoE: Identifying and Steering Fast-Slow Thinking Experts for Efficient Multimodal Reasoning** | arXiv 2026 | llm_serving,sparse,moe | [Link](https://arxiv.org/abs/2610.25999) | — |
+| **P2 · Relevant** | **FR-VLA: Implicit Force Reasoning VLA for Contact-Rich Manipulation** | arXiv 2026 | Physical AI / force-aware VLA manipulation | [Link](https://arxiv.org/abs/2610.25981) | — |
+| **P0 · Strong** | **GLOBE: Geometry-Led Online Behavioral Early Exit via Unit-Sphere Trajectories** | arXiv 2026 | reasoning early-exit serving | [Link](https://arxiv.org/abs/2610.25970) | — |
+| **P1 · Watch** | **ABACUS: Program-Guided Multistep Reasoning over Frozen Judgment Models** | arXiv 2026 | efficient_reasoning | [Link](https://arxiv.org/abs/2610.25963) | — |
+| **P2 · Relevant** | **Productive State-Space Exploration for Multi-turn RL in LLM Agents** | arXiv 2026 | agent RL efficiency | [Link](https://arxiv.org/abs/2610.25957) | — |
+| **P2 · Relevant** | **Policy Search in Code Space for Multi-Agent Pathfinding** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.25946) | — |
+| **P2 · Relevant** | **Keep the Lineages Alive: Diversity-Preserving SMC for Diffusion LLM Decoding** | arXiv 2026 | diffusion decoding algorithm | [Link](https://arxiv.org/abs/2610.25932) | — |
+| **P0 · Strong** | **Asynchronous On-Policy Self-Distillation** | arXiv 2026 | Distributed training / asynchronous RL distillation | [Link](https://arxiv.org/abs/2610.25880) | — |
+| **P2 · Relevant** | **DeltaTrace: Efficient Signed Attribution for Reasoning Language Models** | arXiv 2026 | Efficient reasoning / interpretability | [Link](https://arxiv.org/abs/2610.25877) | — |
+| **P1 · Watch** | **Learning to Reason Efficiently with Interventional Step Credit** | arXiv 2026 | Efficient reasoning / token reduction | [Link](https://arxiv.org/abs/2610.25876) | — |
+| **P1 · Watch** | **Adaptive Decoding Methods for Token-Efficient Reinforcement Learning** | arXiv 2026 | Efficient reasoning training / RLVR | [Link](https://arxiv.org/abs/2610.25860) | — |
+| **P2 · Relevant** | **MASIF: Implicit Failures for Process Observability in Multi-Agent Systems** | arXiv 2026 | Agent systems / observability | [Link](https://arxiv.org/abs/2610.25852) | — |
+| **P1 · Watch** | **FrontierRefactor: Benchmarking Multi-Scale Performance-Oriented Codebase Refactoring** | arXiv 2026 | Agent / performance engineering | [Link](https://arxiv.org/abs/2610.25834) | — |
+| **P2 · Relevant** | **CoMem: Learning to Anticipate Failures from Retrieved Experience** | arXiv 2026 | Agent systems / memory retrieval | [Link](https://arxiv.org/abs/2610.25790) | — |
+| **P2 · Relevant** | **Computation, Not Memory: Chain-of-Thought and State Tracking in LLM Agents** | arXiv 2026 | agent reasoning analysis | [Link](https://arxiv.org/abs/2610.25760) | — |
+| **P2 · Relevant** | **Remember Less, Adapt Longer: Bounded-State In-Context Reinforcement Learning with Recurrent Summary Memory** | arXiv 2026 | Agent systems / bounded memory | [Link](https://arxiv.org/abs/2610.25758) | — |
+| **P2 · Relevant** | **SWAP: Test-Time Steerable Humanoid Whole-Body Collision Avoidance** | arXiv 2026 | Physical AI / humanoid control | [Link](https://arxiv.org/abs/2610.25711) | — |
+| **P1 · Watch** | **LOOP: Recovery-Aligned Iterative Layer Pruning via On-Policy Distillation** | arXiv 2026 | LLM pruning / deployment | [Link](https://arxiv.org/abs/2610.25679) | — |
+| **P2 · Relevant** | **InteractAgent: Agentic Human Motion Interaction with Memory-Augmented Reflection** | arXiv 2026 | Physical AI motion agent | [Link](https://arxiv.org/abs/2610.25649) | — |
+| **P2 · Relevant** | **SteerAct: Unlocking Action Models through Few-Shot Temporal Steering** | arXiv 2026 | VLA/WAM test-time adaptation | [Link](https://arxiv.org/abs/2610.25632) | — |
+| **P2 · Relevant** | **Selecting and Composing Agent Design Patterns: Industrial Case Evidence and Controlled Reference-System Experiments** | arXiv 2026 | agent systems design | [Link](https://arxiv.org/abs/2610.25629) | — |
+| **P2 · Relevant** | **Design and Cross-Domain Evaluation of an Agent Execution Harness** | arXiv 2026 | agent runtime evaluation | [Link](https://arxiv.org/abs/2610.25568) | — |
+| **P0 · Strong** | **ATEST: Adaptive Resource-Aware Test-Time Scaling for LLM Inference** | arXiv 2026 | Efficient reasoning / resource-aware test-time scaling | [Link](https://arxiv.org/abs/2610.25519) | — |
+| **P1 · Watch** | **Bud ContextCompact 2.0: Context Compaction for Agent Success and Accuracy with Small Language Models and Constrained Context Windows** | arXiv 2026 | agent runtime context management | [Link](https://arxiv.org/abs/2610.25516) | — |
+| **P1 · Watch** | **Self-Crystallizing Behavior Trees: Amortizing Foundation-Model Reasoning into Deterministic Control for Autonomous Drones** | arXiv 2026 | Physical AI / amortized reasoning | [Link](https://arxiv.org/abs/2610.25455) | — |
+| **P1 · Watch** | **Stepwise Reasoning Verification: Don't Generate, Classify!** | arXiv 2026 | efficient reasoning verification | [Link](https://arxiv.org/abs/2610.25441) | — |
+| **P2 · Relevant** | **MemDerive: A Diagnostic Benchmark for Agent Memory over Evolving Data** | arXiv 2026 | agent memory evaluation | [Link](https://arxiv.org/abs/2610.25373) | — |
+| **P1 · Watch** | **Where Groups Split: A Probe Prior for Nonzero Within-Group Variance in RL Post-Training** | arXiv 2026 | efficient reasoning RL sampling | [Link](https://arxiv.org/abs/2610.25325) | — |
+| **P2 · Relevant** | **SENRI: Understanding the Space-Event Nexus in Real-Life Videos** | arXiv 2026 | multimodal agent memory | [Link](https://arxiv.org/abs/2610.25309) | — |
+| **P1 · Watch** | **BatchParScale: Sparse Batch-Mixing for Sequence Models** | arXiv 2026 | Sparse batch mixing for test-time scaling | [Link](https://arxiv.org/abs/2610.25254) | — |
+| **P2 · Relevant** | **Memory, Know Your PLACE: Governing Lifecycle State and Query-Time Eligibility in Persistent-Memory Agents** | arXiv 2026 | agent memory governance | [Link](https://arxiv.org/abs/2610.25179) | — |
+| **P2 · Relevant** | **Memory as Belief: Bayesian Evolution of Memory for Self-Evolving LLM Agents** | arXiv 2026 | agent memory retrieval | [Link](https://arxiv.org/abs/2610.25119) | — |
+| **P2 · Relevant** | **Pre-Query Retention with Bounded Bit and Word Retrieval** | arXiv 2026 | agent memory theory | [Link](https://arxiv.org/abs/2610.25098) | — |
+| **P0 · Strong** | **P2N: Reusing Deep Representations for Greater Effective Depth** | arXiv 2026 | LLM architecture efficiency | [Link](https://arxiv.org/abs/2610.25076) | — |
+| **P2 · Relevant** | **Beyond the Teacher: Understanding and Preserving Distillation Overshoot in Agentic On-Policy Distillation** | arXiv 2026 | agent distillation | [Link](https://arxiv.org/abs/2610.25034) | — |
+| **P0 · Strong** | **Conjugate Compilation: Self-Improving Agentic Co-Compilation for Speculative Decoding** | arXiv 2026 | Speculative decoding / compiler | [Link](https://arxiv.org/abs/2610.25012) | — |
+| **P2 · Relevant** | **Industrial Agentic AI: LLM-Driven New-Generation Agents for Smart Manufacturing** | arXiv 2026 | agent | [Link](https://arxiv.org/abs/2610.26941) | — |
+| **P0 · Strong** | **Arctic-SWE: Revisiting the Long Horizon Agent Training by Modeling-System Co-Design** | arXiv 2026 | agent training systems | [Link](https://arxiv.org/abs/2610.24914) | — |
+| **P1 · Watch** | **Learning to Program Retrievals: Composing Search Primitives via Reinforcement Learning** | arXiv 2026 | agent retrieval efficiency | [Link](https://arxiv.org/abs/2610.24854) | — |
+| **P2 · Relevant** | **Pattern-Driven Evaluation of LLM Code Optimization: Isolating Compiler-Transcendent Semantic Reasoning** | arXiv 2026 | compiler optimization benchmark | [Link](https://arxiv.org/abs/2610.24835) | — |
+| **P2 · Relevant** | **Aptamers as a sandbox for lab-in-the-loop agentic molecular discovery** | arXiv 2026 | agent | [Link](https://arxiv.org/abs/2610.24806) | — |
+| **P2 · Relevant** | **Where Natural Language Ends in Agents: Executable Skill Composition with MetaSkill** | arXiv 2026 | agent orchestration | [Link](https://arxiv.org/abs/2610.24723) | — |
+| **P1 · Watch** | **Neuro-Inspired Inhibitory Message Passing for Accurate and Token-Efficient Multi-Agent Reasoning** | arXiv 2026 | Token-efficient multi-agent reasoning | [Link](https://arxiv.org/abs/2610.24718) | — |
+| **P1 · Watch** | **Do Conversational Agents Need Explicit Memory? A Controlled Comparison with Raw-History Retrieval** | arXiv 2026 | agent memory cost evaluation | [Link](https://arxiv.org/abs/2610.24671) | — |
+| **P1 · Watch** | **Muse Glimmer 30B: An On-Device Agentic Model** | arXiv 2026 | Edge LLM / agent deployment | [Link](https://arxiv.org/abs/2610.24628) | — |
+| **P2 · Relevant** | **HSPR: Recovering Software-Agent Benchmark Scores via Hierarchical Posterior Inference** | arXiv 2026 | agent evaluation cost | [Link](https://arxiv.org/abs/2610.24611) | — |
+| **P2 · Relevant** | **Refuse the Harm, Complete the Task via Graph-of-Rules Planning for LLM-Enabled Robots** | arXiv 2026 | Physical AI / agent safety | [Link](https://arxiv.org/abs/2610.24603) | — |
+| **P1 · Watch** | **SocialCoAct: Enabling and Benchmarking Egocentric Social Co-Action for VLM-Based Humanoid Robots** | arXiv 2026 | Physical AI VLM reasoning/latency | [Link](https://arxiv.org/abs/2610.24559) | — |
+| **P2 · Relevant** | **When Code Becomes an LLM Call: An Empirical Study of Call-Site Contracts in Agentic Systems** | arXiv 2026 | agent infrastructure reliability | [Link](https://arxiv.org/abs/2610.24545) | — |
+| **P0 · Strong** | **Write Once, Query Many: Evolving Compact Reusable Memory for Long Videos** | arXiv 2026 | Long-video memory / multimodal serving | [Link](https://arxiv.org/abs/2610.24537) | — |
+| **P2 · Relevant** | **HABIT-Bench: Evaluating Habit Induction from Longitudinal Weak Evidence in Agent Memory** | arXiv 2026 | agent memory evaluation | [Link](https://arxiv.org/abs/2610.24520) | — |
+| **P0 · Strong** | **ProbePO: Sparse Probes, Redistributed Credit for Critic-Free LLM Reinforcement Learning** | arXiv 2026 | efficient RLVR rollout probing | [Link](https://arxiv.org/abs/2610.24515) | — |
+| **P2 · Relevant** | **MedPAO-Assist: Edge-Deployable, Modality-Aware Agentic AI for Radiology Report Structuring** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.26913) | — |
+| **P2 · Relevant** | **Parametric Session States Recover Retrieval Intent without Replaying History** | arXiv 2026 | Agent memory / long context | [Link](https://arxiv.org/abs/2610.33047) | — |
+| **P1 · Watch** | **Memory Internalization via Test-Time Training for Long-Video Understanding** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.26910) | — |
+| **P2 · Relevant** | **Ask Less, Ask Better: Allocating User Attention in Proactive LLM Agents with Interruption Budgets** | arXiv 2026 | agent interaction budgeting | [Link](https://arxiv.org/abs/2610.24411) | — |
+| **P1 · Watch** | **PACE-Mem: Prefix-Aware Complementary Evidence for Multimodal Agents** | arXiv 2026 | multimodal agent memory | [Link](https://arxiv.org/abs/2610.24378) | — |
+| **P2 · Relevant** | **Preserving Reasoning Diversity in Reinforcement Learning with Verifiable Rewards via Adaptive Replay** | arXiv 2026 | reasoning RL algorithm | [Link](https://arxiv.org/abs/2610.24236) | — |
+| **P1 · Watch** | **LoopHIL: Looping Hardware into LLM-assisted Agents for Wireless Embedded Systems** | arXiv 2026 | edge agent hardware-in-loop | [Link](https://arxiv.org/abs/2610.24231) | — |
+| **P0 · Strong** | **Training-Free Prompt Selection for Efficient Reinforcement Learning With Partial Rollouts** | arXiv 2026 | efficient RLVR data selection | [Link](https://arxiv.org/abs/2610.24229) | — |
+| **P2 · Relevant** | **SWE-Bench Pro V2: A Cleaner, Harder-to-Game Coding Benchmark** | arXiv 2026 | agent benchmark infrastructure | [Link](https://arxiv.org/abs/2610.24206) | — |
+| **P2 · Relevant** | **Joint, Decoupled, or Agent: When Each Multimodal Alignment Paradigm Wins** | arXiv 2026 | multimodal | [Link](https://arxiv.org/abs/2610.24108) | — |
+| **P1 · Watch** | **World of SWECraft: Agent Collaboration at Scale via Simulated Software Worlds** | arXiv 2026 | agent collaboration compute scaling | [Link](https://arxiv.org/abs/2610.24061) | — |
 | **P2 · Relevant** | **Self-Building Labs** | arXiv 2026 | embodied scientific agents | [Link](https://arxiv.org/abs/2610.23826) | — |
-| **P2 · Relevant** | **Sample-Efficient Reinforcement Learning for Policy Improvement via Flow-Reversed Action Anchors** | arXiv |  | [Link](https://arxiv.org/abs/2610.22852) | — |
-| **P1 · Watch** | **Sample, Mix, or Verify? Allocating Test-Time Compute under Imperfect Verifiers** | arXiv 2026 | Efficient reasoning / test-time compute | [Link](https://arxiv.org/abs/2610.23255) | — |
-| **P1 · Watch** | **RubricEM: Meta-RL with Rubric-guided Policy Decomposition beyond Verifiable Rewards** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2605.10899) | — |
-| **P2 · Relevant** | **Robust Function Calling for LLM Agents Under Interface Drift** | arXiv 2026 | agent serving robustness | [Link](https://arxiv.org/abs/2610.23342) | — |
-| **P1 · Watch** | **RoboHarness: A Simple Harness Outperforms VLA and World Actions Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.14018) | — |
-| **P2 · Relevant** | **RL-Guided Temporal Localization for Dual-Channel Retrieval in Long-Horizon Agent Memory** | arXiv 2026 | agent retrieval | [Link](https://arxiv.org/abs/2610.23598) | — |
-| **P2 · Relevant** | **Reinforcement Learning in MDPs with Information-Ordered Policies** | arXiv 2026 | information-ordered-rl | [Link](https://arxiv.org/abs/2508.03904) | — |
-| **P2 · Relevant** | **Reinforcement Learning Based Multi-Terrain Adaptive Whole-Body Control for a Quadruped Manipulator** | arXiv 2026 | robot control | [Link](https://arxiv.org/abs/2610.23548) | — |
-| **P2 · Relevant** | **Process Reward Modeling with Reliability- and Conservatism-Aware Bayesian Belief** | arXiv 2026 | reasoning reward modeling | [Link](https://arxiv.org/abs/2610.23223) | — |
-| **P2 · Relevant** | **PersonaCUABench: Benchmarking Computer-Use Agents Serving Diverse Personas** | arXiv | llm_serving | [Link](https://arxiv.org/abs/2610.22990) | — |
-| **P1 · Watch** | **OSCC: Certified Observation-Safe Coupling Optimization for Gradient-Noise Control in Imperfect-Information Learning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33543) | — |
-| **P2 · Relevant** | **Online Inference for Quantile Distributional Reinforcement Learning** | arXiv 2026 | quantile-distributional-rl | [Link](https://arxiv.org/abs/2608.12973) | — |
-| **P2 · Relevant** | **MuninAI: A Self-Hosted Agentic Framework for Independent Research Groups** | arXiv 2026 | agent self-hosting | [Link](https://arxiv.org/abs/2610.23480) | — |
-| **P1 · Watch** | **MS-Eval: Benchmarking Sub-Agent Delegation and Orchestration in MCP-Intensive Working Scenarios** | arXiv 2026 | agent orchestration efficiency | [Link](https://arxiv.org/abs/2610.22869) | — |
-| **P1 · Watch** | **MLOps-Bench: Benchmarking AI Agents on Production ML Engineering in Real Repositories** | arXiv 2026 | Production ML engineering agent benchmark | [Link](https://arxiv.org/abs/2610.23506) | — |
-| **P1 · Watch** | **ME-VLM: A Unified VLM for Embodied Cognition and Agent Coordination** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.24526) | — |
-| **P0 · Strong** | **MARS: Memory-Aware Routing for Session-Level LLM Assistants** | arXiv 2026 | agent memory/model routing | [Link](https://arxiv.org/abs/2610.23583) | — |
-| **P0 · Strong** | **Learning Robot Metareasoning: Adaptive Computation Budgets for Real-Time Control** | arXiv 2026 | Physical AI adaptive runtime budgeting | [Link](https://arxiv.org/abs/2610.23662) | — |
-| **P2 · Relevant** | **LangNCO: Compiling Natural-Language Constraints into Inference-Time Interventions for Neural Combinatorial Optimization** | arXiv 2026 | Agent / combinatorial optimization | [Link](https://arxiv.org/abs/2610.23190) | — |
-| **P1 · Watch** | **KaLM-Reranker-V1: Fast but Not Late Interaction for Compressed Document Reranking** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2606.22807) | — |
-| **P1 · Watch** | **Jev-LiteMAS: Separating Decisions from Generation in Multi-Agent Workflows** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.21411) | — |
-| **P1 · Watch** | **InstAgent: A Recursively Self-Improving Agent Operating System for Heterogeneous Robot Collaboration** | arXiv 2026 | Physical AI / heterogeneous robot agent operating system | [Link](https://arxiv.org/abs/2610.23098) | — |
-| **P2 · Relevant** | **HydroShear: Hydroelastic Shear Simulation for Tactile Sim-to-Real Reinforcement Learning** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2603.00446) | — |
-| **P2 · Relevant** | **GatewayBench: Unified Capability and Security Evaluation Platform for MCP Gateways** | arXiv 2026 | Agent gateway evaluation and security | [Link](https://arxiv.org/abs/2610.23449) | — |
-| **P1 · Watch** | **From Memory Hits to Answerable Evidence: Query-Conditioned Memory Compilation for Long-Term Agent Memory** | arXiv 2026 | agent memory serving | [Link](https://arxiv.org/abs/2610.23313) | — |
 | **P0 · Strong** | **DLite: History-free Speculative Decoding for Agentic AI** | arXiv | spec,agent | [Link](https://arxiv.org/abs/2610.23787) | — |
-| **P0 · Strong** | **DiffusionRVGE: Reinforcement Learning via Regression-Based Value Gradient Estimation** | arXiv 2026 | diffusion training acceleration | [Link](https://arxiv.org/abs/2610.22973) | — |
-| **P2 · Relevant** | **Demystifying When and Why VLAs Fail in Contact-Rich Tasks and How to Fix Them** | arXiv 26 | vla_wam | [Link](https://arxiv.org/abs/2608.01402) | — |
-| **P2 · Relevant** | **Darwin-Claw: Environment-Adaptive Experience Consolidation for Recursively Self-Evolving Agents** | arXiv 2026 | agent memory management | [Link](https://arxiv.org/abs/2610.23574) | — |
-| **P1 · Watch** | **Cross-Dialect Generalization Without Retraining: Benchmarks and Evaluation of Schema-Derived Constrained Decoding for MLIR** | arXiv 2026 | kernel | [Link](https://arxiv.org/abs/2607.18254) | — |
-| **P2 · Relevant** | **Code Skill Server: A Large-Scale Search Engine for Code Generation Skills** | arXiv 2026 | Agent skill search infrastructure | [Link](https://arxiv.org/abs/2610.23186) | — |
-| **P1 · Watch** | **Beyond Marginal Influence: Interaction-Aware Memory Selection for LLM Agents** | arXiv 2026 | agent memory compression | [Link](https://arxiv.org/abs/2610.23266) | — |
-| **P1 · Watch** | **AOI: Turning Failed Trajectories into Training Signals for Autonomous Cloud Diagnosis** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2603.03378) | — |
-| **P2 · Relevant** | **All-in-One Memory: Process-Rewarded Reinforcement Learning for Memory Agents** | arXiv 2026 | kv,gen,edge | [Link](https://arxiv.org/abs/2610.21147) | — |
-| **P1 · Watch** | **AgentOdyssey: Open-Ended Long-Horizon Text Game Generation for Test-Time Continual Learning Agents** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2606.24893) | — |
-| **P2 · Relevant** | **Agentic Physics-Grounded Video Generation via Memory-Augmented In-Context Reasoning** | arXiv | gen,agent | [Link](https://arxiv.org/abs/2610.23677) | — |
+| **P1 · Watch** | **Alliance of Stochastic Routing and Reinforcement Fusion for Multi-Model Reasoning** | arXiv 2026 | Multi-model serving / routing | [Link](https://arxiv.org/abs/2610.24054) | — |
 | **P0 · Strong** | **Agentic AI for Heterogeneous System Design Across Chip, Scale-Up, and Scale-Out Domains** | arXiv | agent,edge | [Link](https://arxiv.org/abs/2610.23724) | — |
-| **P1 · Watch** | **ADEPT: Accelerating Dexterity via Pre-Training and Post-Training using Reinforcement Learning** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.19182) | — |
+| **P2 · Relevant** | **Agentic Physics-Grounded Video Generation via Memory-Augmented In-Context Reasoning** | arXiv | gen,agent | [Link](https://arxiv.org/abs/2610.23677) | — |
+| **P0 · Strong** | **Learning Robot Metareasoning: Adaptive Computation Budgets for Real-Time Control** | arXiv 2026 | Physical AI adaptive runtime budgeting | [Link](https://arxiv.org/abs/2610.23662) | — |
+| **P2 · Relevant** | **LUMINR: Intensity-conditioned Meta-learned INRs for Accelerated Medical Image Registration** | arXiv 2026 | adjacent_efficient_ml | [Link](https://arxiv.org/abs/2610.24046) | — |
+| **P2 · Relevant** | **RL-Guided Temporal Localization for Dual-Channel Retrieval in Long-Horizon Agent Memory** | arXiv 2026 | agent retrieval | [Link](https://arxiv.org/abs/2610.23598) | — |
+| **P0 · Strong** | **MARS: Memory-Aware Routing for Session-Level LLM Assistants** | arXiv 2026 | agent memory/model routing | [Link](https://arxiv.org/abs/2610.23583) | — |
+| **P2 · Relevant** | **Darwin-Claw: Environment-Adaptive Experience Consolidation for Recursively Self-Evolving Agents** | arXiv 2026 | agent memory management | [Link](https://arxiv.org/abs/2610.23574) | — |
+| **P2 · Relevant** | **Reinforcement Learning Based Multi-Terrain Adaptive Whole-Body Control for a Quadruped Manipulator** | arXiv 2026 | robot control | [Link](https://arxiv.org/abs/2610.23548) | — |
+| **P1 · Watch** | **MLOps-Bench: Benchmarking AI Agents on Production ML Engineering in Real Repositories** | arXiv 2026 | Production ML engineering agent benchmark | [Link](https://arxiv.org/abs/2610.23506) | — |
+| **P2 · Relevant** | **MuninAI: A Self-Hosted Agentic Framework for Independent Research Groups** | arXiv 2026 | agent self-hosting | [Link](https://arxiv.org/abs/2610.23480) | — |
+| **P2 · Relevant** | **HexaShell: A Thin Harness for Exploring the Limits of VLM Agents as Robot Coding Agents** | arXiv 2026 | Physical AI agent harness | [Link](https://arxiv.org/abs/2610.23479) | — |
+| **P2 · Relevant** | **GatewayBench: Unified Capability and Security Evaluation Platform for MCP Gateways** | arXiv 2026 | Agent gateway evaluation and security | [Link](https://arxiv.org/abs/2610.23449) | — |
+| **P2 · Relevant** | **Robust Function Calling for LLM Agents Under Interface Drift** | arXiv 2026 | agent serving robustness | [Link](https://arxiv.org/abs/2610.23342) | — |
+| **P2 · Relevant** | **LAW: Unifying Language, Action, and World Modeling for Agentic Physical Intelligence** | arXiv | agent,physical | [Link](https://arxiv.org/abs/2610.23334) | — |
+| **P1 · Watch** | **From Memory Hits to Answerable Evidence: Query-Conditioned Memory Compilation for Long-Term Agent Memory** | arXiv 2026 | agent memory serving | [Link](https://arxiv.org/abs/2610.23313) | — |
+| **P2 · Relevant** | **SkyAgent: Revisable Target Memory for Continuous Aerial Search** | arXiv 2026 | aerial agent memory | [Link](https://arxiv.org/abs/2610.23293) | — |
+| **P2 · Relevant** | **CoEvolve: Self-Evolving Code Policies from Skills to Strategies for Humanoid Robots** | arXiv 2026 | Physical AI / multi-robot agent runtime | [Link](https://arxiv.org/abs/2610.23288) | — |
+| **P1 · Watch** | **Beyond Marginal Influence: Interaction-Aware Memory Selection for LLM Agents** | arXiv 2026 | agent memory compression | [Link](https://arxiv.org/abs/2610.23266) | — |
+| **P1 · Watch** | **Sample, Mix, or Verify? Allocating Test-Time Compute under Imperfect Verifiers** | arXiv 2026 | Efficient reasoning / test-time compute | [Link](https://arxiv.org/abs/2610.23255) | — |
+| **P2 · Relevant** | **Process Reward Modeling with Reliability- and Conservatism-Aware Bayesian Belief** | arXiv 2026 | reasoning reward modeling | [Link](https://arxiv.org/abs/2610.23223) | — |
+| **P2 · Relevant** | **Visual Causal-chain Bookmarking: Retrieval-Weighted Credit Assignment for Reinforcement Learning from Delayed Reward** | arXiv 2026 | efficient agent RL | [Link](https://arxiv.org/abs/2610.24032) | — |
+| **P2 · Relevant** | **LangNCO: Compiling Natural-Language Constraints into Inference-Time Interventions for Neural Combinatorial Optimization** | arXiv 2026 | Agent / combinatorial optimization | [Link](https://arxiv.org/abs/2610.23190) | — |
+| **P2 · Relevant** | **Code Skill Server: A Large-Scale Search Engine for Code Generation Skills** | arXiv 2026 | Agent skill search infrastructure | [Link](https://arxiv.org/abs/2610.23186) | — |
+| **P1 · Watch** | **InstAgent: A Recursively Self-Improving Agent Operating System for Heterogeneous Robot Collaboration** | arXiv 2026 | Physical AI / heterogeneous robot agent operating system | [Link](https://arxiv.org/abs/2610.23098) | — |
+| **P2 · Relevant** | **VLA-Fabric: Learning Interaction for Composable Multi-Arm VLA Agents** | arXiv | physical | [Link](https://arxiv.org/abs/2610.23018) | — |
+| **P2 · Relevant** | **PersonaCUABench: Benchmarking Computer-Use Agents Serving Diverse Personas** | arXiv | llm_serving | [Link](https://arxiv.org/abs/2610.22990) | — |
+| **P0 · Strong** | **DiffusionRVGE: Reinforcement Learning via Regression-Based Value Gradient Estimation** | arXiv 2026 | diffusion training acceleration | [Link](https://arxiv.org/abs/2610.22973) | — |
+| **P2 · Relevant** | **SAFE-Mem: Secure Agentic Memory with Fine-Grained Authority and Governance-Aware Retrieval** | arXiv 2026 | agent memory infrastructure | [Link](https://arxiv.org/abs/2610.22959) | — |
+| **P1 · Watch** | **MS-Eval: Benchmarking Sub-Agent Delegation and Orchestration in MCP-Intensive Working Scenarios** | arXiv 2026 | agent orchestration efficiency | [Link](https://arxiv.org/abs/2610.22869) | — |
+| **P0 · Strong** | **Understanding KV Residency in Production-Scale Agentic LLM Workloads** | arXiv 2026 | Agentic LLM KV residency | [Link](https://arxiv.org/abs/2610.22863) | — |
+| **P2 · Relevant** | **Sample-Efficient Reinforcement Learning for Policy Improvement via Flow-Reversed Action Anchors** | arXiv |  | [Link](https://arxiv.org/abs/2610.22852) | — |
+| **P2 · Relevant** | **Thinking from Above: Efficient Spatial Reasoning with Bird's-Eye-View Visual Tokens** | arXiv |  | [Link](https://arxiv.org/abs/2610.22700) | — |
+| **P1 · Watch** | **Multimodal Filesystem Memory For Long-Horizon Embodied Agents** | arXiv | physical | [Link](https://arxiv.org/abs/2610.22686) | — |
+| **P2 · Relevant** | **EgoP$^{2}$C: Internalizing Plan-Perceive-Compose for Spatial Reasoning in Egocentric Video** | arXiv 2026 | Multimodal video reasoning | [Link](https://arxiv.org/abs/2610.22681) | — |
+| **P2 · Relevant** | **ProPerAgent: Toward Memory-Driven Proactive Assistance** | arXiv 2026 | agent memory runtime | [Link](https://arxiv.org/abs/2610.22671) | — |
+| **P2 · Relevant** | **Don't Retrain, Remix: Adaptation of Web Agents using Mixture Hypernetworks** | arXiv 2026 | agent adaptation | [Link](https://arxiv.org/abs/2610.22539) | — |
+| **P1 · Watch** | **AuditKIT: A Unified Evaluation Spine for Benchmarking, Judging, and Comparing Large Language Models and Agentic Systems** | arXiv 2026 | LLM and agent benchmarking with runtime performance metrics | [Link](https://arxiv.org/abs/2610.22511) | — |
+| **P0 · Strong** | **JAVIS: Joint Audio-Visual Interaction and Streaming for Real-Time Conversational Agents** | arXiv 2026 | multimodal real-time serving | [Link](https://arxiv.org/abs/2610.22499) | — |
+| **P2 · Relevant** | **Scaling Online Exploration for Robot Agents** | arXiv 2026 | robot agent platform | [Link](https://arxiv.org/abs/2610.22496) | — |
+| **P2 · Relevant** | **FDE-Gym: The Last Mile of AI Delivery** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.22350) | — |
+| **P2 · Relevant** | **MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.22344) | — |
+| **P2 · Relevant** | **Sim-to-Real Reinforcement Learning for Path-Safe Target Reaching in Robotic Harvesting of Hydroponic Lettuce** | arXiv 2026 | gen,physical | [Link](https://arxiv.org/abs/2610.22337) | — |
+| **P1 · Watch** | **Mem4Act: Learning Effective Latent Memory for Long-Horizon Robotic Manipulation** | arXiv 2026 | llm_serving,physical | [Link](https://arxiv.org/abs/2610.22323) | — |
+| **P2 · Relevant** | **Learning Self-Orchestration in Decentralized Agent Swarms** | arXiv 2026 | gen,physical | [Link](https://arxiv.org/abs/2610.22322) | — |
+| **P2 · Relevant** | **A team of Gemini 4 Argon agents beats Minecraft** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.22319) | — |
+| **P0 · Strong** | **Velox: Spatial Memory Makes World Models Efficient** | arXiv 2026 | kv,attn,physical | [Link](https://arxiv.org/abs/2610.22311) | — |
+| **P2 · Relevant** | **Improving Environment-Agnostic Coding Agents: The Role of Scaffolding** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.22289) | — |
+| **P2 · Relevant** | **LEASH: Uncertainty-Aware Weak-to-Strong Escalation and Oversight for Computer-Use Agents** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.22280) | — |
+| **P1 · Watch** | **Harness-Delta Attribution: Dissecting Gains From Harness Evolution** | arXiv 2026 | agent inference cost attribution | [Link](https://arxiv.org/abs/2610.22466) | — |
+| **P1 · Watch** | **MJev-Spatial: System One Spatial Intelligence via Native Attention Matching** | arXiv 2026 | llm_serving,multimodal,edge | [Link](https://arxiv.org/abs/2610.22276) | — |
+| **P1 · Watch** | **Librarian Agents: Training LLMs to Curate Long-Context Workspaces that Anticipate Future Queries** | arXiv 2026 | kv,agent | [Link](https://arxiv.org/abs/2610.22273) | — |
 | **P2 · Relevant** | **X-RIC: An Agentic RAN-Intelligent Controller Benchmark for Enhancing Reinforcement Learning** | arXiv 2026 | llm_serving,agent | [Link](https://arxiv.org/abs/2610.22269) | — |
+| **P2 · Relevant** | **SCOPE: Semantic Bounded Credit Optimization for Prompt Engineering in Text-to-image Generation** | arXiv 2026 | gen | [Link](https://arxiv.org/abs/2610.22264) | — |
+| **P1 · Watch** | **Disagreement-Guided Weak-to-Strong Routing** | arXiv 2026 | llm_serving,agent | [Link](https://arxiv.org/abs/2610.22245) | — |
+| **P2 · Relevant** | **OS-Helix: Unifying GUI Interaction and Code Execution in Native Computer-Using Agents** | arXiv 2026 | edge | [Link](https://arxiv.org/abs/2610.22234) | — |
+| **P0 · Strong** | **Architecting for Hardware Diversity: Meta's End-to-End Co-Design for High-Performance AI Training on AMD GPUs** | arXiv 2026 | llm_serving,kernel,agent,edge | [Link](https://arxiv.org/abs/2610.22230) | — |
+| **P2 · Relevant** | **Skill-Decoupled On-Policy Expert Distillation for Unified Vision-Language Models** | arXiv 2026 | multimodal,edge | [Link](https://arxiv.org/abs/2610.22217) | — |
+| **P2 · Relevant** | **Beyond Downstream QA: Rethinking How We Evaluate Agent Memory** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.22209) | — |
+| **P1 · Watch** | **Hy-Memory-30B-A3B: Attributed Reinforcement Learning for Long-Term Memory Writing** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.22196) | — |
+| **P2 · Relevant** | **AutoSFT: An Agentic System for Automated Data Research in Supervised Fine-Tuning** | arXiv 2026 | agent | [Link](https://arxiv.org/abs/2610.22194) | — |
+| **P1 · Watch** | **Realtime-Bench: Can Frontier Models Solve Real-time Interactive Problems?** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.22155) | — |
+| **P1 · Watch** | **Intern-Decision: Efficient Multimodal Decision Making with Autoregressive Masked Language Modeling** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.22131) | — |
+| **P1 · Watch** | **Onboard Lightweight LLM Reasoning for Human-Aware Safe UAV Navigation** | arXiv 2026 | gen,edge | [Link](https://arxiv.org/abs/2610.22092) | — |
+| **P2 · Relevant** | **Lean4AgenticRL: Advancing Agentic RL with Verifiable Multi-level Process Rewards** | arXiv 2026 | agent RL training | [Link](https://arxiv.org/abs/2610.22448) | — |
+| **P1 · Watch** | **FAOPs: Normal Forms and an Algebra for AI Agent Workflows** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.22061) | — |
+| **P2 · Relevant** | **GraphACM: Graph-based Action Consistency Measurement for Uncertainty Quantification in LLM Agents** | arXiv 2026 | gen | [Link](https://arxiv.org/abs/2610.22031) | — |
+| **P1 · Watch** | **Augment the Cache, Replace the Activation: A 2x2 Study of Internal-State Sharing** | arXiv 2026 | kv | [Link](https://arxiv.org/abs/2610.22026) | — |
+| **P1 · Watch** | **Close Enough is Nowhere Near: Fidelity-Consumability Decoupling in KV Caches** | arXiv 2026 | kv,gen | [Link](https://arxiv.org/abs/2610.22016) | — |
 | **P2 · Relevant** | **VP-EVT: Active Visibility Preservation for Embodied Visual Tracking** | arXiv 2026 | physical | [Link](https://arxiv.org/abs/2610.21999) | — |
 | **P1 · Watch** | **VeriVLA: Adaptive Test-Time Verification for Flow-Based VLAs with Latent World Models** | arXiv 2026 | multimodal,gen,physical | [Link](https://arxiv.org/abs/2610.21985) | — |
-| **P2 · Relevant** | **Veri-Sure: Multi-Agent RTL Code Generation with Temporal Tracing, Slicing and Formal Verification** | arXiv 2026 | agent | [Link](https://arxiv.org/abs/2601.19747) | — |
-| **P0 · Strong** | **Velox: Spatial Memory Makes World Models Efficient** | arXiv 2026 | kv,attn,physical | [Link](https://arxiv.org/abs/2610.22311) | — |
-| **P0 · Strong** | **Trajectory-Level Speculation with Semantic Verification for Tool-Using Agents** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.21463) | — |
-| **P2 · Relevant** | **Thinking-Free Policy Initialization Makes Distilled Reasoning Models More Effective and Efficient Reasoners** | arXiv 2026 | llm_serving,kv,edge | [Link](https://arxiv.org/abs/2509.26226) | — |
-| **P2 · Relevant** | **Thinking from Above: Efficient Spatial Reasoning with Bird's-Eye-View Visual Tokens** | arXiv |  | [Link](https://arxiv.org/abs/2610.22700) | — |
-| **P2 · Relevant** | **The Density of Thought: Predicting and Steering Reasoning in Large Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.21286) | — |
-| **P1 · Watch** | **System1-Arena: Which Decisions Can Be Left to System 1?** | arXiv 2026 | llm_serving,agent | [Link](https://arxiv.org/abs/2610.21244) | — |
-| **P2 · Relevant** | **SWE-Prometheus: Measuring Engineering Governance Improvements in Real-World Repositories** | arXiv 2026 | Physical AI / agent systems | [Link](https://arxiv.org/abs/2609.29465) | — |
-| **P2 · Relevant** | **Stronger Judges Do Not See More: Deployment-Integrity Blindness in LLM Evaluation** | arXiv 2026 | gen | [Link](https://arxiv.org/abs/2610.21135) | — |
-| **P2 · Relevant** | **SSR: Structural Signal Retriever for Scalable Agent Discovery in LLM-Orchestrated Multi-Agent Systems** | arXiv 2026 | llm_serving,gen,edge | [Link](https://arxiv.org/abs/2610.21113) | — |
-| **P2 · Relevant** | **Skill-Decoupled On-Policy Expert Distillation for Unified Vision-Language Models** | arXiv 2026 | multimodal,edge | [Link](https://arxiv.org/abs/2610.22217) | — |
-| **P2 · Relevant** | **Sim-to-Real Reinforcement Learning for Path-Safe Target Reaching in Robotic Harvesting of Hydroponic Lettuce** | arXiv 2026 | gen,physical | [Link](https://arxiv.org/abs/2610.22337) | — |
-| **P2 · Relevant** | **Self-Refining Vision Language Model for Robotic Failure Detection and Reasoning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2602.12405) | — |
-| **P2 · Relevant** | **SecureClaw: Clawing Back Control of LLM Agents** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2606.09549) | — |
-| **P2 · Relevant** | **SCOPE: Semantic Bounded Credit Optimization for Prompt Engineering in Text-to-image Generation** | arXiv 2026 | gen | [Link](https://arxiv.org/abs/2610.22264) | — |
-| **P2 · Relevant** | **Scaling Online Exploration for Robot Agents** | arXiv 2026 | robot agent platform | [Link](https://arxiv.org/abs/2610.22496) | — |
-| **P0 · Strong** | **RoutePack: Replay-Guided Expert Placement and Rollout Trajectory Scheduling for MoE Reinforcement Learning** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2608.12146) | — |
-| **P2 · Relevant** | **RMBench: Memory-Dependent Robotic Manipulation Benchmark with Insights into Policy Design** | arXiv 2026 | physical | [Link](https://arxiv.org/abs/2603.01229) | — |
-| **P2 · Relevant** | **Revisiting Embodied Chain-of-Thought for Generalizable Robot Manipulation** | arXiv 2026 | multimodal,physical | [Link](https://arxiv.org/abs/2606.03784) | — |
-| **P0 · Strong** | **Rethinking Agentic Kernel Generation for Emerging Accelerators** | Fresh / preprint | GPU kernel/DSL/compilers / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.00894) | — |
+| **P2 · Relevant** | **OntoAct: Hypothesis-Based Neuro-Symbolic Agents through Ontological Abstraction** | arXiv 2026 | agent memory | [Link](https://arxiv.org/abs/2610.21983) | — |
+| **P2 · Relevant** | **CodeHealth Predicts the Token Cost of Agentic Code Review: A Pre-Registered Study of 465 Agent-Authored Pull Requests** | arXiv 2026 | agent | [Link](https://arxiv.org/abs/2610.21914) | — |
+| **P1 · Watch** | **CoWorld Reasoner: Agentic Multimodal Reasoning with the Evolving Video World Model-Driven Harness** | arXiv 2026 | multimodal,gen,agent,physical,edge | [Link](https://arxiv.org/abs/2610.21910) | — |
 | **P2 · Relevant** | **Reliable Knowledge Acquisition for Continual Learning Agents** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.21739) | — |
 | **P0 · Strong** | **ReFlow: Replay-Driven Decoupling for Efficient RL Post-Training** | arXiv 2026 | llm_serving,agent | [Link](https://arxiv.org/abs/2610.21640) | — |
-| **P2 · Relevant** | **Ranking and Partitioning of Attention Heads for Sparse and Continual Reinforcement Learning Fine-tuning** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.21336) | — |
-| **P1 · Watch** | **PriorityFEC: Deadline-Aware Streaming FEC for KV-Cache Handoff in Edge Multi-Agent Systems** | arXiv 2026 | llm_serving,kv | [Link](https://arxiv.org/abs/2610.21390) | — |
-| **P0 · Strong** | **PrefixFlow: Training-Time KV Caching for Schedule-Level Prefix Reuse in LLM RL Training** | arXiv 2026 | kv,moe,dist | [Link](https://arxiv.org/abs/2606.01143) | — |
-| **P2 · Relevant** | **PocketTSLM: Deploying an On-Device Soft-Prompt Time-Series Language Model for Privacy-Preserving Smartphone Reasoning** | arXiv 2026 | llm_serving,edge | [Link](https://arxiv.org/abs/2610.21308) | — |
-| **P2 · Relevant** | **Plan Before You Trade: Inference-Time Optimization for RL Trading Agents** | arXiv 2026 | gen | [Link](https://arxiv.org/abs/2605.12653) | — |
-| **P2 · Relevant** | **OS-Helix: Unifying GUI Interaction and Code Execution in Native Computer-Using Agents** | arXiv 2026 | edge | [Link](https://arxiv.org/abs/2610.22234) | — |
-| **P2 · Relevant** | **ORACLE-SWE: Quantifying the Contribution of Critical Information Signals on SWE Agents** | arXiv 2026 | gen,agent | [Link](https://arxiv.org/abs/2604.07789) | — |
-| **P2 · Relevant** | **OntoAct: Hypothesis-Based Neuro-Symbolic Agents through Ontological Abstraction** | arXiv 2026 | agent memory | [Link](https://arxiv.org/abs/2610.21983) | — |
-| **P1 · Watch** | **Onboard Lightweight LLM Reasoning for Human-Aware Safe UAV Navigation** | arXiv 2026 | gen,edge | [Link](https://arxiv.org/abs/2610.22092) | — |
-| **P1 · Watch** | **Multimodal Filesystem Memory For Long-Horizon Embodied Agents** | arXiv | physical | [Link](https://arxiv.org/abs/2610.22686) | — |
-| **P2 · Relevant** | **Multi-LLM Orchestration for High-Quality Code Generation: Exploiting Complementary Model Strengths** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2510.01379) | — |
-| **P2 · Relevant** | **Multi-Agent Transactive Memory** | arXiv 2026 | edge | [Link](https://arxiv.org/abs/2606.19911) | — |
-| **P2 · Relevant** | **MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.22344) | — |
-| **P2 · Relevant** | **MemSyco-Bench: Benchmarking Sycophancy in Agent Memory** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2607.01071) | — |
-| **P2 · Relevant** | **MemScope: Evolving Agent Memory Architectures through Localized Code Repair** | arXiv 2026 | gen | [Link](https://arxiv.org/abs/2610.21170) | — |
-| **P2 · Relevant** | **MemCut: Every Secret Leaves a Trail in the Long-Term Memory of LLM Agents** | arXiv 2026 | gen | [Link](https://arxiv.org/abs/2610.21405) | — |
-| **P1 · Watch** | **Mem4Act: Learning Effective Latent Memory for Long-Horizon Robotic Manipulation** | arXiv 2026 | llm_serving,physical | [Link](https://arxiv.org/abs/2610.22323) | — |
-| **P2 · Relevant** | **MasDrift: Benchmarking Authorization Preservation Across Multi-Agent Architectures** | arXiv 2026 | gen,edge | [Link](https://arxiv.org/abs/2608.07556) | — |
-| **P2 · Relevant** | **Mallea: Building, Steering, and Memorizing Worlds with Coding Agent** | arXiv 2026 | gen,physical | [Link](https://arxiv.org/abs/2610.21283) | — |
-| **P1 · Watch** | **Librarian Agents: Training LLMs to Curate Long-Context Workspaces that Anticipate Future Queries** | arXiv 2026 | kv,agent | [Link](https://arxiv.org/abs/2610.22273) | — |
-| **P2 · Relevant** | **LEASH: Uncertainty-Aware Weak-to-Strong Escalation and Oversight for Computer-Use Agents** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.22280) | — |
-| **P1 · Watch** | **Learning When to Think: Utility-Guided Adaptive Reasoning for Efficient Text Retrieval** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.21030) | — |
-| **P2 · Relevant** | **Learning from Interaction Experience via Localized Context Distillation** | arXiv 2026 | efficient agent distillation | [Link](https://arxiv.org/abs/2610.21427) | — |
-| **P1 · Watch** | **LeanTTA: A Backpropagation-Free and Stateless Approach to Quantized Test-Time Adaptation on Edge Devices** | arXiv | quant | [Link](https://arxiv.org/abs/2503.15889) | — |
-| **P2 · Relevant** | **Lean4AgenticRL: Advancing Agentic RL with Verifiable Multi-level Process Rewards** | arXiv 2026 | agent RL training | [Link](https://arxiv.org/abs/2610.22448) | — |
-| **P0 · Strong** | **KV-streams for Efficient Compaction in Agentic Reinforcement Learning** | arXiv 2026 | llm_serving,kv,gen,agent | [Link](https://arxiv.org/abs/2609.35750) | — |
-| **P1 · Watch** | **KACE: Knowledge-Adaptive Context Engineering for Mathematical Reasoning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2606.00532) | — |
-| **P0 · Strong** | **JAVIS: Joint Audio-Visual Interaction and Streaming for Real-Time Conversational Agents** | arXiv 2026 | multimodal real-time serving | [Link](https://arxiv.org/abs/2610.22499) | — |
-| **P1 · Watch** | **Intern-Decision: Efficient Multimodal Decision Making with Autoregressive Masked Language Modeling** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.22131) | — |
-| **P1 · Watch** | **Hy-Memory-30B-A3B: Attributed Reinforcement Learning for Long-Term Memory Writing** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.22196) | — |
-| **P1 · Watch** | **Harness-Delta Attribution: Dissecting Gains From Harness Evolution** | arXiv 2026 | agent inference cost attribution | [Link](https://arxiv.org/abs/2610.22466) | — |
-| **P1 · Watch** | **Harness-Bench: Evaluating Agent Harnesses across Models and Realistic Workflows** | arXiv 2026 | llm_serving,gen | [Link](https://arxiv.org/abs/2605.27922) | — |
-| **P2 · Relevant** | **GraphACM: Graph-based Action Consistency Measurement for Uncertainty Quantification in LLM Agents** | arXiv 2026 | gen | [Link](https://arxiv.org/abs/2610.22031) | — |
-| **P2 · Relevant** | **GRADS: Graph-Regulated Agentic Data Synthesis with Controllable Difficulty** | arXiv 2026 | agent training data generation | [Link](https://arxiv.org/abs/2610.21167) | — |
-| **P2 · Relevant** | **Generative Recursive Reasoning** | arXiv 2026 | gen,edge | [Link](https://arxiv.org/abs/2605.19376) | — |
-| **P2 · Relevant** | **From Migration to Calibration: Preserving Agent Capabilities across Models, Jurisdictions, and Scale** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.35149) | — |
-| **P1 · Watch** | **From Long Context to Selective Memory:A Survey of Memory-Centric Compression for Large Language Models** | arXiv 2026 | llm_serving,kv | [Link](https://arxiv.org/abs/2610.21165) | — |
-| **P2 · Relevant** | **From Agent Traces to Trust: A Survey of Evidence Tracing and Execution Provenance in LLM Agents** | arXiv 2026 | reasoning_agent | [Link](https://arxiv.org/abs/2606.04990) | — |
-| **P2 · Relevant** | **FDE-Gym: The Last Mile of AI Delivery** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.22350) | — |
-| **P1 · Watch** | **FAOPs: Normal Forms and an Algebra for AI Agent Workflows** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.22061) | — |
-| **P2 · Relevant** | **Evaluating Multimodal LLMs as Generalist Vision-Language-Action Agents for Drone Control: Commanding, Approaching, Tracking and Searching** | arXiv 26 | vla_wam,cloud_edge | [Link](https://arxiv.org/abs/2609.01404) | — |
-| **P2 · Relevant** | **EgoP$^{2}$C: Internalizing Plan-Perceive-Compose for Spatial Reasoning in Egocentric Video** | arXiv 2026 | Multimodal video reasoning | [Link](https://arxiv.org/abs/2610.22681) | — |
-| **P2 · Relevant** | **Don't Retrain, Remix: Adaptation of Web Agents using Mixture Hypernetworks** | arXiv 2026 | agent adaptation | [Link](https://arxiv.org/abs/2610.22539) | — |
-| **P1 · Watch** | **Don't Regenerate, Debug: A Domain-Specific Agent for Repairing Near-Miss Accelerator Kernels** | arXiv 2026 | agent,edge | [Link](https://arxiv.org/abs/2608.02712) | — |
-| **P2 · Relevant** | **Does Peer Observation Help? Vision-Sharing Collaboration for Vision-Language Navigation** | arXiv 2026 | multimodal,gen,physical | [Link](https://arxiv.org/abs/2603.20804) | — |
-| **P2 · Relevant** | **DocPilot: Interactive Agent Orchestration and Training for Long Visual Document Understanding** | arXiv 2026 | multimodal,agent,edge | [Link](https://arxiv.org/abs/2610.21327) | — |
-| **P1 · Watch** | **Disagreement-Guided Weak-to-Strong Routing** | arXiv 2026 | llm_serving,agent | [Link](https://arxiv.org/abs/2610.22245) | — |
-| **P1 · Watch** | **CoWorld Reasoner: Agentic Multimodal Reasoning with the Evolving Video World Model-Driven Harness** | arXiv 2026 | multimodal,gen,agent,physical,edge | [Link](https://arxiv.org/abs/2610.21910) | — |
-| **P2 · Relevant** | **CodeHealth Predicts the Token Cost of Agentic Code Review: A Pre-Registered Study of 465 Agent-Authored Pull Requests** | arXiv 2026 | agent | [Link](https://arxiv.org/abs/2610.21914) | — |
-| **P1 · Watch** | **Close Enough is Nowhere Near: Fidelity-Consumability Decoupling in KV Caches** | arXiv 2026 | kv,gen | [Link](https://arxiv.org/abs/2610.22016) | — |
+| **P2 · Relevant** | **Reinforcement Learning-driven Diffusion Models: Language, Vision, and Beyond** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.21539) | — |
+| **P2 · Relevant** | **OPRD: On-Policy Reminder Distillation for Long-Horizon Coding Agents** | arXiv 2026 | gen | [Link](https://arxiv.org/abs/2610.21496) | — |
+| **P0 · Strong** | **Trajectory-Level Speculation with Semantic Verification for Tool-Using Agents** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.21463) | — |
 | **P1 · Watch** | **CarryOn: A Dual-Loop Harness for Personalized and Reliable Robot Assistance** | arXiv 2026 | multimodal,physical | [Link](https://arxiv.org/abs/2610.21453) | — |
-| **P1 · Watch** | **Beyond Semantic Organization: Memory as Execution State Management for Long-Horizon Agents** | arXiv 2026 | efficient reasoning/agent systems / long-horizon memory / context compression | [Link](https://arxiv.org/abs/2606.06090) | — |
-| **P2 · Relevant** | **Beyond Downstream QA: Rethinking How We Evaluate Agent Memory** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.22209) | — |
-| **P2 · Relevant** | **Bellman-Consistent Trajectory RL for LLM Arithmetic Reasoning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.21060) | — |
-| **P2 · Relevant** | **AutoSFT: An Agentic System for Automated Data Research in Supervised Fine-Tuning** | arXiv 2026 | agent | [Link](https://arxiv.org/abs/2610.22194) | — |
-| **P2 · Relevant** | **AutoPrunedRetriever: Persistent Reasoning Graphs for Efficient and Extensible Retrieval-Augmented Generation** | arXiv |  | [Link](https://arxiv.org/abs/2602.04926) | — |
-| **P1 · Watch** | **Augment the Cache, Replace the Activation: A 2x2 Study of Internal-State Sharing** | arXiv 2026 | kv | [Link](https://arxiv.org/abs/2610.22026) | — |
-| **P1 · Watch** | **AuditKIT: A Unified Evaluation Spine for Benchmarking, Judging, and Comparing Large Language Models and Agentic Systems** | arXiv 2026 | LLM and agent benchmarking with runtime performance metrics | [Link](https://arxiv.org/abs/2610.22511) | — |
-| **P1 · Watch** | **Athanor: An Agent-Native System for Autonomous Post-Training Research** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.21055) | — |
+| **P2 · Relevant** | **Learning from Interaction Experience via Localized Context Distillation** | arXiv 2026 | efficient agent distillation | [Link](https://arxiv.org/abs/2610.21427) | — |
+| **P1 · Watch** | **Jev-LiteMAS: Separating Decisions from Generation in Multi-Agent Workflows** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.21411) | — |
+| **P2 · Relevant** | **MemCut: Every Secret Leaves a Trail in the Long-Term Memory of LLM Agents** | arXiv 2026 | gen | [Link](https://arxiv.org/abs/2610.21405) | — |
+| **P1 · Watch** | **PriorityFEC: Deadline-Aware Streaming FEC for KV-Cache Handoff in Edge Multi-Agent Systems** | arXiv 2026 | llm_serving,kv | [Link](https://arxiv.org/abs/2610.21390) | — |
+| **P2 · Relevant** | **Memorilla: Latent Semantic Memory for LLMs** | arXiv 2026 | kv,agent,edge | [Link](https://arxiv.org/abs/2610.21375) | — |
 | **P2 · Relevant** | **ARGUS: An Agenda-Driven Framework for Reliable User Simulation** | arXiv 2026 | agent evaluation | [Link](https://arxiv.org/abs/2610.21346) | — |
-| **P0 · Strong** | **Architecting for Hardware Diversity: Meta's End-to-End Co-Design for High-Performance AI Training on AMD GPUs** | arXiv 2026 | llm_serving,kernel,agent,edge | [Link](https://arxiv.org/abs/2610.22230) | — |
+| **P0 · Strong** | **Does On-Policy Distillation Need to Complete Every Rollout?** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.21337) | — |
+| **P2 · Relevant** | **Ranking and Partitioning of Attention Heads for Sparse and Continual Reinforcement Learning Fine-tuning** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.21336) | — |
+| **P2 · Relevant** | **DocPilot: Interactive Agent Orchestration and Training for Long Visual Document Understanding** | arXiv 2026 | multimodal,agent,edge | [Link](https://arxiv.org/abs/2610.21327) | — |
+| **P0 · Strong** | **CertEx: Exact Visual Retrieval at Scale by Certified Exclusion** | arXiv 2026 | llm_serving,quant | [Link](https://arxiv.org/abs/2610.21325) | — |
+| **P2 · Relevant** | **PocketTSLM: Deploying an On-Device Soft-Prompt Time-Series Language Model for Privacy-Preserving Smartphone Reasoning** | arXiv 2026 | llm_serving,edge | [Link](https://arxiv.org/abs/2610.21308) | — |
+| **P2 · Relevant** | **The Density of Thought: Predicting and Steering Reasoning in Large Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.21286) | — |
+| **P2 · Relevant** | **Mallea: Building, Steering, and Memorizing Worlds with Coding Agent** | arXiv 2026 | gen,physical | [Link](https://arxiv.org/abs/2610.21283) | — |
+| **P1 · Watch** | **System1-Arena: Which Decisions Can Be Left to System 1?** | arXiv 2026 | llm_serving,agent | [Link](https://arxiv.org/abs/2610.21244) | — |
 | **P2 · Relevant** | **An Agentic Framework for Proactive Robots with Procedural Assistance Memory** | arXiv 2026 | llm_serving,agent,physical | [Link](https://arxiv.org/abs/2610.21211) | — |
-| **P2 · Relevant** | **Agent Skill Framework: Perspectives on the Potential of Small to Medium Language Models in Industrial Environments** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2602.16653) | — |
-| **P2 · Relevant** | **A team of Gemini 4 Argon agents beats Minecraft** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.22319) | — |
-| **P1 · Watch** | **$Φ$-Bench: Can Large Language Models Engineer the Infrastructure That Powers Them?** | arXiv 2026 | GPU kernel/DSL/compilers / LLM infrastructure engineering agents / benchmark | [Link](https://arxiv.org/abs/2609.10226) | — |
+| **P2 · Relevant** | **MemScope: Evolving Agent Memory Architectures through Localized Code Repair** | arXiv 2026 | gen | [Link](https://arxiv.org/abs/2610.21170) | — |
+| **P2 · Relevant** | **GRADS: Graph-Regulated Agentic Data Synthesis with Controllable Difficulty** | arXiv 2026 | agent training data generation | [Link](https://arxiv.org/abs/2610.21167) | — |
+| **P1 · Watch** | **From Long Context to Selective Memory:A Survey of Memory-Centric Compression for Large Language Models** | arXiv 2026 | llm_serving,kv | [Link](https://arxiv.org/abs/2610.21165) | — |
+| **P2 · Relevant** | **All-in-One Memory: Process-Rewarded Reinforcement Learning for Memory Agents** | arXiv 2026 | kv,gen,edge | [Link](https://arxiv.org/abs/2610.21147) | — |
+| **P2 · Relevant** | **Stronger Judges Do Not See More: Deployment-Integrity Blindness in LLM Evaluation** | arXiv 2026 | gen | [Link](https://arxiv.org/abs/2610.21135) | — |
+| **P2 · Relevant** | **SSR: Structural Signal Retriever for Scalable Agent Discovery in LLM-Orchestrated Multi-Agent Systems** | arXiv 2026 | llm_serving,gen,edge | [Link](https://arxiv.org/abs/2610.21113) | — |
+| **P2 · Relevant** | **Planning Commitment of LLM under Partial Observability** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.21108) | — |
+| **P2 · Relevant** | **Bellman-Consistent Trajectory RL for LLM Arithmetic Reasoning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.21060) | — |
+| **P1 · Watch** | **Athanor: An Agent-Native System for Autonomous Post-Training Research** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.21055) | — |
+| **P1 · Watch** | **Learning When to Think: Utility-Guided Adaptive Reasoning for Efficient Text Retrieval** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.21030) | — |
+| **P2 · Relevant** | **Failure Is the Mother of Success: Recovering Supervision with Grounding Hindsight** | arXiv 2026 | reasoning RL training | [Link](https://arxiv.org/abs/2610.21018) | — |
+| **P2 · Relevant** | **Deep Reinforcement Learning for HPC Job Scheduling: A Statistical Evaluation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.21008) | — |
+| **P2 · Relevant** | **Same Context, Different Agents: A Behavioral Study of Semantic Layers, Multi-Agent Orchestration and Memory Compaction in Data Agents** | arXiv 2026 | Agent context/compaction | [Link](https://arxiv.org/abs/2610.20959) | — |
+| **P1 · Watch** | **Confidence-Calibrated Inference Expansion for Evaluator-Guided Test-Time Reasoning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20836) | — |
+| **P1 · Watch** | **CoTranslator: Reverse to Forward Chain-of-Thought Translator for Reasoning Distillation** | arXiv 2026 | efficient reasoning distillation | [Link](https://arxiv.org/abs/2610.20828) | — |
+| **P2 · Relevant** | **EvolvingBrain: An Adaptive Skill System for Multi-modal Agents Self-Evolution in Open Worlds** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20786) | — |
+| **P1 · Watch** | **ARIA: Runtime Inspection and Amendment for Multi-Agent Systems** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20780) | — |
+| **P2 · Relevant** | **Price of Anarchy of First-Price Auctions in Agentic Markets** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20587) | — |
+| **P0 · Strong** | **Latent Compaction with Test-Time Training** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20582) | — |
+| **P2 · Relevant** | **Any Time, Any Space: A World-State-Centric Framework for Agentic Video Generation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20571) | — |
+| **P2 · Relevant** | **PhySGA: A Physics-Space Grounded Agentic Framework for Generalizable and Interactive 3D Composition** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20560) | — |
+| **P2 · Relevant** | **The Wealth of Agents: Scaling Agentic AI Across Developers** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20518) | — |
 | **P2 · Relevant** | **AdaRSI: On-Demand Recursive Self-Improvement for Embodied Agents** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20474) | — |
 | **P2 · Relevant** | **Towards Agentic Robots: Model, Data, Environment, and Harness** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20442) | — |
 | **P2 · Relevant** | **From Training to Escalation: Forensic Analysis and Local Recreation of RL/RLHF-Induced Privilege Escalation in AI Agents (CVE-2026-65616)** | arXiv 2026 | agent infrastructure security | [Link](https://arxiv.org/abs/2610.20437) | — |
@@ -517,6 +571,7 @@
 | **P2 · Relevant** | **Value-Guided Repulsion for Offline Reinforcement Learning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20190) | — |
 | **P0 · Strong** | **HPCAgent-Bench: A Framework for Sound Benchmarking of Code-Optimizing Agents, Harnesses, and Skills** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20673) | — |
 | **P2 · Relevant** | **MultiPartyTurnBench: Benchmarking Floor Control in Multi-Party Spoken Dialogue** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20172) | — |
+| **P2 · Relevant** | **Atomic-WAM: Execution-Grounded Atomic-Motion Reasoning for World Action Models** | arXiv 26 | vla_wam | [Link](https://arxiv.org/abs/2610.20157) | — |
 | **P0 · Strong** | **Why Generate a Click? Plug-in Decision Heads for Web Agents** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20107) | — |
 | **P2 · Relevant** | **Designing Textual Interfaces To Enhance Llm Reasoning On Audio-Visual Question Answering** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20085) | — |
 | **P2 · Relevant** | **Memorizing Who, Knowing How: Benchmarking Personal and Procedural Memory for Persistent Assistants** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20022) | — |
@@ -548,40 +603,6 @@
 | **P1 · Watch** | **ixi-sLM: On-Device sLM for AI Call Agent Service** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19382) | — |
 | **P2 · Relevant** | **OS-Bench: Evaluating SWE Agents on Cross-OS Code Migration** | arXiv 2026 | agent systems evaluation | [Link](https://arxiv.org/abs/2610.19368) | — |
 | **P2 · Relevant** | **Seeing, Maintaining, and Learning: The Evolution of Multimodal Agent Memory** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19366) | — |
-| **P2 · Relevant** | **When Privileged Guidance Misaligns: State-Matched Routing and Contextualized Self-Distillation for Multi-Turn Agents** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2608.05219) | — |
-| **P2 · Relevant** | **The Wealth of Agents: Scaling Agentic AI Across Developers** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20518) | — |
-| **P2 · Relevant** | **T2J-BENCH: Benchmarking Coding Agents on Execution-Grounded PyTorch-to-JAX Repository Migration** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2605.29054) | — |
-| **P1 · Watch** | **T-LoopFormer: Token-Level Elastic-Depth Looped Transformers for Latent Reasoning with Dynamic Routing** | arXiv 2026 | high-value efficiency watch | [Link](https://arxiv.org/abs/2609.15160) | — |
-| **P1 · Watch** | **SPARK: Learning from Verification in Speculative GRPO Rollouts** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2608.04962) | — |
-| **P1 · Watch** | **SAGE: Structured Strategic Reasoning for Efficient LLM Game Playing** | arXiv 2026 | efficient_reasoning,agent_systems | [Link](https://arxiv.org/abs/2609.34342) | — |
-| **P2 · Relevant** | **Price of Anarchy of First-Price Auctions in Agentic Markets** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20587) | — |
-| **P1 · Watch** | **PREPING: Zero-Task Agent Memory Construction via Self-Practice** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2605.13880) | — |
-| **P2 · Relevant** | **Position: Hippocampal Explicit Memory Is the Cornerstone for AGI** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2606.11245) | — |
-| **P2 · Relevant** | **PhySGA: A Physics-Space Grounded Agentic Framework for Generalizable and Interactive 3D Composition** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20560) | — |
-| **P2 · Relevant** | **NeuronSifter: An Agent-in-Twin for Prioritizing Central Nervous System Interventions with World Action Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.35445) | — |
-| **P2 · Relevant** | **NeuronDiscover: Agent-in-Twin for Mechanistic Discovery in Neuronal Microenvironments with World Action Models** | arXiv 2026 | physical_ai | [Link](https://arxiv.org/abs/2609.35338) | — |
-| **P1 · Watch** | **NeoHorse-1: Towards Recursive Self-Improvement via Agentic Post-Training with Routing Harness** | arXiv 2026 | efficient reasoning/agent systems / routing harness / post-training infrastructure | [Link](https://arxiv.org/abs/2609.08183) | — |
-| **P2 · Relevant** | **Multimodal Latent Reasoning via Hierarchical Visual Cues Injection** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2602.05359) | — |
-| **P1 · Watch** | **MemoryAthena: Adaptive Routing over Latent and Generated Memories** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.25853) | — |
-| **P1 · Watch** | **LycheeMemory V2: Efficient Long-Term Memory for LLM Agents via Semantic Segment-Level Consolidation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2608.12990) | — |
-| **P2 · Relevant** | **Learning From a Steady Hand: A Weakly Supervised Agent for Robot Assistance under Microscopy** | arXiv 2026 | physical-ai-robot-assistance | [Link](https://arxiv.org/abs/2601.20776) | — |
-| **P0 · Strong** | **Latent Compaction with Test-Time Training** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20582) | — |
-| **P2 · Relevant** | **Flow Matching with Uncertainty Quantification and Guidance** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2602.10326) | — |
-| **P2 · Relevant** | **Failure Is the Mother of Success: Recovering Supervision with Grounding Hindsight** | arXiv 2026 | reasoning RL training | [Link](https://arxiv.org/abs/2610.21018) | — |
-| **P2 · Relevant** | **EvolvingBrain: An Adaptive Skill System for Multi-modal Agents Self-Evolution in Open Worlds** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20786) | — |
-| **P2 · Relevant** | **EvoFlux: Inference-Time Evolution of Executable Tool Workflows for Compact Agents** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2606.12674) | — |
-| **P1 · Watch** | **Draft-Thinking: Learning Efficient Reasoning in Long Chain-of-Thought LLMs** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2603.00578) | — |
-| **P2 · Relevant** | **Diffusion as a Training Curriculum for Timestep-Free Iterative Reasoning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.01449) | — |
-| **P1 · Watch** | **DEEPRUBRIC: Evidence-Tree Rubric Supervision for Efficient Reinforcement Learning of Deep Research Agents** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2606.17029) | — |
-| **P2 · Relevant** | **Deep Reinforcement Learning for HPC Job Scheduling: A Statistical Evaluation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.21008) | — |
-| **P1 · Watch** | **DAREBench: Deployment-Aware and Reliable Evaluation of Models as Agents** | arXiv 2026 | efficient reasoning/agent systems / deployment benchmark / cost-aware model selection | [Link](https://arxiv.org/abs/2609.06059) | — |
-| **P1 · Watch** | **CoTranslator: Reverse to Forward Chain-of-Thought Translator for Reasoning Distillation** | arXiv 2026 | efficient reasoning distillation | [Link](https://arxiv.org/abs/2610.20828) | — |
-| **P1 · Watch** | **ContextWeaver: Selective and Dependency-Structured Memory Construction for LLM Agents** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2604.23069) | — |
-| **P1 · Watch** | **Confidence-Calibrated Inference Expansion for Evaluator-Guided Test-Time Reasoning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20836) | — |
-| **P1 · Watch** | **ARIA: Runtime Inspection and Amendment for Multi-Agent Systems** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20780) | — |
-| **P2 · Relevant** | **Any Time, Any Space: A World-State-Centric Framework for Agentic Video Generation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20571) | — |
-| **P2 · Relevant** | **AgentWorld: A Data Factory for Training LLM Agents from Multi-Turn Interactions** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2606.09138) | — |
-| **P2 · Relevant** | **Agent Gym: A Framework for Continuous Evaluation and Evolution of LLM Agents Through Human-in-the-Loop Feedback** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2608.15591) | — |
 | **P2 · Relevant** | **Verifier-Grounded Agentic RL for Provably Correct Code** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19298) | — |
 | **P0 · Strong** | **Whose turn is it? Context-guided model routing for stateful agents** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19292) | — |
 | **P2 · Relevant** | **Can LLM Agents Efficiently Identify Appliance Faults? Insights From Diagnosing a Simulated Appliance** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19291) | — |
@@ -672,6 +693,7 @@
 | **P1 · Watch** | **RAR: Rate-Adaptive Rollout for Time-Consistent Interactive World Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16302) | — |
 | **P1 · Watch** | **REVEAL: Reverse Engineering Agentic Latents from Frontier-Model Traces** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16288) | — |
 | **P2 · Relevant** | **A Survey of Flow Matching in Reinforcement Learning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16275) | — |
+| **P2 · Relevant** | **Same Goal, Different Words: Spatial Instruction Sensitivity in World-Action Models** | arXiv 26 | vla_wam | [Link](https://arxiv.org/abs/2610.16242) | — |
 | **P2 · Relevant** | **EgoAlign: Situated 3D Understanding without Situation Descriptions** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16176) | — |
 | **P1 · Watch** | **Think Before You Speak: Enabling Training-Free Latent Communication Between Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16165) | — |
 | **P1 · Watch** | **Scaling Multi-Agent Intelligence with Substrate-Centric Coordination** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16120) | — |
@@ -895,6 +917,7 @@
 | **P1 · Watch** | **Embedded Evaluation of Task Admission Coalescing in Decentralized Multi-Robot Systems** | arXiv 2026 | Efficient ML systems | [Link](https://arxiv.org/abs/2610.09187) | — |
 | **P2 · Relevant** | **The Dichotomy Between Pattern Recognition and Step-by-Step Reasoning** | arXiv 2026 | efficient_attention_reasoning | [Link](https://arxiv.org/abs/2610.09186) | — |
 | **P0 · Strong** | **Q-PACE: Dynamic Precision Allocation for Quantization-Aware Training** | arXiv 2026 | Efficient ML systems | [Link](https://arxiv.org/abs/2610.09183) | — |
+| **P2 · Relevant** | **Beyond Reconstruction: What Matters in Action Tokenization for Robot Policies?** | arXiv 26 | vla_wam | [Link](https://arxiv.org/abs/2610.09170) | — |
 | **P2 · Relevant** | **Frozen Models, Evolving Expertise: Model-Agnostic Learning from Deployment Experience for Multimodal Medical AI** | arXiv 2026 | Efficient ML systems | [Link](https://arxiv.org/abs/2610.09146) | — |
 | **P0 · Strong** | **Breaking the Space Barrier and its Application to Language Model Inference** | arXiv 2026 | Efficient ML systems | [Link](https://arxiv.org/abs/2610.09139) | — |
 | **P2 · Relevant** | **CADFather: Autonomous CAD Reconstruction through Coordinated Tool Use** | arXiv 2026 | Efficient ML systems | [Link](https://arxiv.org/abs/2610.09127) | — |
@@ -1229,6 +1252,7 @@
 | **P1 · Watch** | **TOAST: Stochastic Robot Action Tokenization for Autoregressive Vision-Language-Action Models** | arXiv 2026 | physical_ai | [Link](https://arxiv.org/abs/2610.00899) | — |
 | **P1 · Watch** | **HakiCC: LLM-Driven Multi-Agent Design and Optimization of Concurrency Control Protocols** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.00889) | — |
 | **P1 · Watch** | **MemFit: Efficient Long-Term Agentic Memory** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.00872) | — |
+| **P2 · Relevant** | **CtrlWAM: Controllable World Action Models with Aligned Intent and Foresight** | arXiv 26 | vla_wam | [Link](https://arxiv.org/abs/2610.00859) | — |
 | **P1 · Watch** | **SemanTok: Predictable Semantic Tokens for Efficient Autoregressive Video Generation** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.00686) | — |
 | **P1 · Watch** | **LabBook: Harnessing Experimental History for Efficient LLM-Driven Discovery** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.00675) | — |
 | **P0 · Strong** | **Closing the Loop: Practical Training Recipes for Looped Language Models** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.00673) | — |
@@ -1314,33 +1338,8 @@
 | **P1 · Watch** | **Component-Aware Feedback for Self-Evolving Programs** | arXiv 2026 | efficient_reasoning,agent_systems | [Link](https://arxiv.org/abs/2609.38639) | — |
 | **P2 · Relevant** | **Fault-Tolerant Budget Conservation in Distributed Multi-Agent Delegation** | arXiv 2026 | efficient_reasoning_agent | [Link](https://arxiv.org/abs/2610.00349) | — |
 | **P2 · Relevant** | **Prompt2Skill: Unsupervised Skill Optimization From Natural Language Instructions** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2609.38593) | — |
-| **P2 · Relevant** | **ThinkV2V: Unleashing the Reasoning Capability of MLLMs for Instruction-Guided Video Editing** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.38541) | — |
-| **P2 · Relevant** | **Systematically Exploring the Capabilities of GPT-6 Astra as Embodied Policies** | arXiv 2026 | physical,vla,agent_systems | [Link](https://arxiv.org/abs/2609.38537) | — |
-| **P1 · Watch** | **Does This Action Still Explain the Task? Reverse Scoring for Diffusion Language Model Agents** | arXiv 2026 | agent_systems,diffusion,reasoning | [Link](https://arxiv.org/abs/2609.38536) | — |
-| **P1 · Watch** | **From Solo to Social Learning: Characterizing Recursive Social Improvement in LLMs** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.38516) | — |
-| **P0 · Strong** | **LVMH: A Meta-Optimization Harness for Long-Video Agent Memory** | arXiv 2026 | multimodal agent memory serving | [Link](https://arxiv.org/abs/2610.23904) | — |
-| **P0 · Strong** | **PANDA: A Decentralized Architecture with Flexible Orchestration for Scalable, Fault-Tolerant Multi-Agent Systems** | arXiv 2026 | efficient reasoning/agent systems / multi-agent serving / orchestration | [Link](https://arxiv.org/abs/2609.38482) | — |
-| **P2 · Relevant** | **Authorization for Self-Modifying AI Agent Populations: Conserving Authority across Replacement, Forking, and Rollback** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.00347) | — |
-| **P2 · Relevant** | **Benchmarking System One decision models against trained classifiers and language models for automated decision gates** | arXiv 2026 | efficient_reasoning_agent_systems | [Link](https://arxiv.org/abs/2610.00346) | — |
-| **P2 · Relevant** | **PrivMeSA: Privacy-Aware Self-Evolving Multi-Agent System for Medicine via Local-Remote LLM Collaboration** | arXiv 2026 | edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.38458) | — |
-| **P0 · Strong** | **AIM: Agentic Idea Management for Automated Research** | arXiv 2026 | efficient reasoning/agent systems / automated research / resource allocation | [Link](https://arxiv.org/abs/2609.38445) | — |
-| **P0 · Strong** | **VidHarness: Evolving Agent Harnesses for Cost-Efficient Long Video Understanding** | arXiv 2026 | multimodal_serving,video_agent,frame_selection | [Link](https://arxiv.org/abs/2609.38413) | — |
-| **P0 · Strong** | **Acceleration of Diffusion Language Model through Discrete Average Generator** | arXiv 2026 | diffusion,efficient_reasoning | [Link](https://arxiv.org/abs/2609.38364) | — |
-| **P2 · Relevant** | **TAGGRAPH: Tag-Augmented Graphs for Graph Retrieval of Agent Persistent Histories** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2609.38353) | — |
-| **P0 · Strong** | **MILO: Automated Harness Discovery via Orchestrated Multi-Agent Evolution** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2609.38349) | — |
-| **P1 · Watch** | **OpenCollab: A Multi-Agent Coding Framework with Programmable Collaboration and Controllable Runtime** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.38345) | — |
-| **P2 · Relevant** | **Thinking Before Thinking: Scaling Agentic Inference Through Meta-Reasoning** | arXiv 2026 | agent | [Link](https://arxiv.org/abs/2609.38147) | — |
-| **P2 · Relevant** | **NeuronEye: Query-Guided Visual Concept Activation for Vision-Language Reasoning** | arXiv 2026 | llm_serving,multimodal | [Link](https://arxiv.org/abs/2609.38098) | — |
-| **P2 · Relevant** | **MoFlow: Multi-Objective Agentic Workflow Generation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.38294) | — |
-| **P2 · Relevant** | **MotorMind: Scaffolding General Vision Language Models for Zero-Shot Robot Manipulation** | arXiv 2026 | multimodal,gen,agent,physical | [Link](https://arxiv.org/abs/2609.38078) | — |
-| **P2 · Relevant** | **Probability is Not Enough: Exploring and Counting Divergent Tokens for Reasoning Uncertainty Quantification in LLMs** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2609.38070) | — |
-| **P1 · Watch** | **HARDE: Optimizing Agent Harnesses for Runtime Risk Detection and Execution Control** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.38291) | — |
-| **P2 · Relevant** | **PRISM: PRIvileged Sibling-guided Multi-Agent Topology Design** | arXiv 2026 | efficient_agent_systems | [Link](https://arxiv.org/abs/2610.20628) | — |
-| **P0 · Strong** | **Prompts Live on an Arc: Gaussian Curricula in Fisher--Rao Coordinates for Rollout-Efficient GRPO** | arXiv 2026 | efficient_reasoning_agent | [Link](https://arxiv.org/abs/2609.38018) | — |
-| **P2 · Relevant** | **HybridCUA: Learning to Orchestrate GUI and CLI for Computer-Use Agents** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.38008) | — |
 | **P2 · Relevant** | **Zero-Shot Visualization: Exploring Text Corpora with User-Prompted Axes** | arXiv 2026 | efficient_reasoning_agent_systems | [Link](https://arxiv.org/abs/2610.06889) | — |
 | **P2 · Relevant** | **XAI-Guided Fourier Domain Generalisation for Pure-Simulation Sim-to-Real Deep Reinforcement Learning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16478) | — |
-| **P0 · Strong** | **Write Once, Query Many: Evolving Compact Reusable Memory for Long Videos** | arXiv 2026 | Long-video memory / multimodal serving | [Link](https://arxiv.org/abs/2610.24537) | — |
 | **P1 · Watch** | **WOVEN: Weaving Visual World Modeling into Multimodal LLMs** | arXiv 2026 | multimodal,physical | [Link](https://arxiv.org/abs/2610.12417) | — |
 | **P1 · Watch** | **World-T3: Test-Time Training as Persistent Memory for Real-Time Video World Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17434) | — |
 | **P2 · Relevant** | **World-in-Context: Interactive Video World Modeling with In-Context Conditioning** | arXiv | physical | [Link](https://arxiv.org/abs/2610.33169) | — |
@@ -1348,27 +1347,17 @@
 | **P2 · Relevant** | **Why Static Skill Inconsistencies Do Not Equate to Runtime Risks: A Behavioral Analysis of LLM Agent Execution** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18927) | — |
 | **P2 · Relevant** | **Which LLM to pick? Online Active Model Selection for Large Language Models** | arXiv 26 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.01592) | — |
 | **P2 · Relevant** | **Which Buildings Are Artificial Intelligence-Ready? A Measurement-Based Assessment Framework for AI Question Answering and Actuation** | arXiv 2026 | edge / agent coordination low-priority | [Link](https://arxiv.org/abs/2610.09119) | — |
-| **P0 · Strong** | **Where Rounding Happens Matters: Rounding-Location Alignment Stabilizes LLM Reinforcement Learning** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.32951) | — |
-| **P2 · Relevant** | **Where Natural Language Ends in Agents: Executable Skill Composition with MetaSkill** | arXiv 2026 | agent orchestration | [Link](https://arxiv.org/abs/2610.24723) | — |
-| **P1 · Watch** | **Where Groups Split: A Probe Prior for Nonzero Within-Group Variance in RL Post-Training** | arXiv 2026 | efficient reasoning RL sampling | [Link](https://arxiv.org/abs/2610.25325) | — |
 | **P1 · Watch** | **Where Do the Tokens Go? Understanding and Reducing Costs in LLM Agents for Vulnerability Discovery** | arXiv 2026 | llm_serving,gen,edge | [Link](https://arxiv.org/abs/2610.11602) | — |
 | **P2 · Relevant** | **Where Can a Decision Model Diagnose HVAC Faults? Reasoning Demand, Physical Representation, and Robustness Under Shift** | arXiv 2026 | gen,edge | [Link](https://arxiv.org/abs/2610.09937) | — |
-| **P1 · Watch** | **When to Stop Penalizing Actions? Martingale GRPO for VLA Reinforcement Learning** | arXiv 2026 | physical_ai | [Link](https://arxiv.org/abs/2610.32431) | — |
 | **P2 · Relevant** | **When Sub-Agents Work in Parallel: The Promises and Pitfalls of Dynamic Concurrency in Long-Horizon Coding Tasks** | arXiv 2026 | llm_serving,gen | [Link](https://arxiv.org/abs/2610.10263) | — |
 | **P2 · Relevant** | **When Does Retrieval Help? A Study of In-Context Adaptation in Vision-Language-Action Models** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.05492) | — |
-| **P2 · Relevant** | **When Code Becomes an LLM Call: An Empirical Study of Call-Site Contracts in Agentic Systems** | arXiv 2026 | agent infrastructure reliability | [Link](https://arxiv.org/abs/2610.24545) | — |
-| **P1 · Watch** | **When Agents Fail: Model or Harness--Who's to Blame?** | arXiv 2026 | llm_systems | [Link](https://arxiv.org/abs/2610.32483) | — |
 | **P2 · Relevant** | **What Would Removing This Corruption Change? Failure Attribution for Vision-Language-Action Models** | arXiv 26 | vla_wam | [Link](https://arxiv.org/abs/2610.27277) | — |
 | **P1 · Watch** | **What Does a Harness Repair? A Preregistered Study of Visibility, Baseline Adequacy and Evaluation Defects** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.05533) | — |
 | **P2 · Relevant** | **What 30,000 Hours of Ego-centric Video Does Not Teach** | arXiv 2026 | gen,physical | [Link](https://arxiv.org/abs/2610.12464) | — |
 | **P2 · Relevant** | **WEAVE: Weaving Real-World Code Evolution into Dependency-Structured Tasks for Benchmarking and Training Code Agents** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.22039) | — |
-| **P1 · Watch** | **WaitLens: Temporal VLM-Based Adaptive Waiting for Industrial GUI Testing Agents** | arXiv 2026 | llm_systems | [Link](https://arxiv.org/abs/2610.32482) | — |
-| **P2 · Relevant** | **VX-One: Typed, Calibrated Decision Heads for Real-Time Perimeter Triage** | arXiv 2026 | Efficient agents | [Link](https://arxiv.org/abs/2610.30090) | — |
 | **P2 · Relevant** | **VPFlow: Value-Predictive Planning with Imperfect World Models for Offline Goal Reaching** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.27280) | — |
-| **P2 · Relevant** | **ViT-H: Generative Video-To-Humanoid Control with Motion Tracking Feedback** | arXiv 2026 | physical_ai | [Link](https://arxiv.org/abs/2610.32966) | — |
 | **P2 · Relevant** | **Visualizing the World Model in an Agent's Value Function** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.14186) | — |
 | **P0 · Strong** | **Visual Orchestration Tax in Agentic VLM Pipelines: Auditing and Certifying Visual Evidence Reuse** | arXiv 2026 | Efficient ML / Physical AI | [Link](https://arxiv.org/abs/2610.08170) | — |
-| **P2 · Relevant** | **Visual Causal-chain Bookmarking: Retrieval-Weighted Credit Assignment for Reinforcement Learning from Delayed Reward** | arXiv 2026 | efficient agent RL | [Link](https://arxiv.org/abs/2610.24032) | — |
 | **P2 · Relevant** | **VISTA: A Visual Harness for Reasoning in an Interactive World** | arXiv 2026 | gen,edge | [Link](https://arxiv.org/abs/2610.02200) | — |
 | **P1 · Watch** | **Vision-Language Agents Can Learn in Their Own Latent Worlds** | arXiv 2026 | multimodal,physical | [Link](https://arxiv.org/abs/2610.36925) | — |
 | **P2 · Relevant** | **VIGOR: Verifiable Industrial Geometry Optimization and Repair in Scene Programs** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.13145) | — |
@@ -1377,23 +1366,15 @@
 | **P2 · Relevant** | **Verification and Self-Improvement in Agentic AI: Foundations and Limits** | arXiv 2026 | efficient_reasoning_agents | [Link](https://arxiv.org/abs/2610.10611) | — |
 | **P2 · Relevant** | **VC-OPD: Visual Counterfactual On-Policy Distillation for Grounded Vision-Language Reasoning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.14939) | — |
 | **P2 · Relevant** | **VaDar: Implicit Goal Conditioning via Value Disaggregation** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.26629) | — |
-| **P2 · Relevant** | **Understanding Tool-Mediated Interaction Failures in Agentic GUI Software: An Empirical Study** | arXiv 2026 | Agent runtime reliability | [Link](https://arxiv.org/abs/2610.31698) | — |
 | **P2 · Relevant** | **Understanding the limits of latent world models** | arXiv 2026 | physical | [Link](https://arxiv.org/abs/2610.37588) | — |
 | **P2 · Relevant** | **Understanding the Hierarchical Structure and Functional Landscape of the Model Context Protocol Ecosystem** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.05319) | — |
 | **P2 · Relevant** | **Understanding Enrichment in Reinforcement Learning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.02846) | — |
-| **P2 · Relevant** | **Understanding Communication Failures in Multi-Agent LLM Systems** | arXiv 2026 | llm_systems | [Link](https://arxiv.org/abs/2610.32060) | — |
-| **P1 · Watch** | **UAV-SwarmAgent: Scalable Multi-UAV Reconnaissance and Task Allocation via Code Generation and Vision-Language Reasoning** | arXiv 2026 | llm_systems | [Link](https://arxiv.org/abs/2610.32559) | — |
-| **P2 · Relevant** | **Two Uncertainties Are Not One: Disagreement versus Decision-Risk in Cheap Structured Content Moderation** | arXiv 2026 | Efficient agents | [Link](https://arxiv.org/abs/2610.33258) | — |
-| **P1 · Watch** | **TTT in VLA Models: Exploring Training with Human Demonstrations** | arXiv 2026 | physical_ai | [Link](https://arxiv.org/abs/2610.32094) | — |
 | **P0 · Strong** | **Truthful and Expected-Payment-Optimal Model Routing in Graph-Based Agentic Workflows** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19316) | — |
-| **P0 · Strong** | **Training-Free Prompt Selection for Efficient Reinforcement Learning With Partial Rollouts** | arXiv 2026 | efficient RLVR data selection | [Link](https://arxiv.org/abs/2610.24229) | — |
 | **P2 · Relevant** | **Training-Free Multi-Agent Cooperative Embodied Search from Uncertain Vision-Language Priors** | arXiv 26 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.15038) | — |
 | **P2 · Relevant** | **Training LLMs for Multi-Agent Collaboration with Verifiable Information Rewards** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17893) | — |
-| **P2 · Relevant** | **Training in Deployment: Human-in-the-loop Online Post-Training for Robot Manipulation** | arXiv 2026 | quant,physical | [Link](https://arxiv.org/abs/2610.29264) | — |
 | **P2 · Relevant** | **Train An Imaginative Agent** | arXiv 2026 | agent,physical | [Link](https://arxiv.org/abs/2610.26845) | — |
 | **P0 · Strong** | **Towards Looped Models Done Right, Part II: Rethinking at Fixed Points** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2610.06833) | — |
 | **P2 · Relevant** | **Towards Automatically Pruning Logging Code with Coding Agents: How Far Are We?** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04716) | — |
-| **P2 · Relevant** | **ToolContractGate: Versioned Trusted Contracts for Drift-Safe Agent Tool Invocation** | arXiv 2026 | agent-tool-runtime | [Link](https://arxiv.org/abs/2610.33108) | — |
 | **P2 · Relevant** | **Token-Level Video Reinforcement Learning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.01973) | — |
 | **P0 · Strong** | **TideRL: Boosting Agentic RL Goodput with Readiness-Aware Scheduling** | Fresh / preprint | agentic RL infrastructure | [Link](https://arxiv.org/abs/2608.10402) | — |
 | **P2 · Relevant** | **Thinking Inertia: LLMs Keep Thinking When Told Not To** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.11765) | — |
@@ -1401,9 +1382,6 @@
 | **P2 · Relevant** | **The Trinity:Capability-Driven Recursive Self-Improvement for Multimodal Agents** | arXiv 26 | cloud_edge | [Link](https://arxiv.org/abs/2610.36077) | — |
 | **P2 · Relevant** | **The Tokens Strike Back: Safety-Aware Denoising with Directional Embedding-based Revision** | arXiv 2026 | diffusion language model generation / efficient reasoning | [Link](https://arxiv.org/abs/2610.17636) | — |
 | **P2 · Relevant** | **The Optimal Decoder is Tilted Temperature** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15058) | — |
-| **P2 · Relevant** | **The LLENS Platform for On-Premises Large Language Model Agents in a Japanese University Hospital: Development and Evaluation Study** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.32151) | — |
-| **P2 · Relevant** | **The Hitchhiker's Guide to System 1 Models: Fast Decision-Making Beyond LLMS** | arXiv 2026 | Efficient agents | [Link](https://arxiv.org/abs/2610.33775) | — |
-| **P1 · Watch** | **The Geometry of Agent Memory: Forecasting Retrieval-Bound Memory Failures, and Characterizing Its Limits** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.26433) | — |
 | **P1 · Watch** | **The Cost of Long Memory: State, Context, and Stability Complexity in Sequence Models** | arXiv 2026 | efficient reasoning / long memory | [Link](https://arxiv.org/abs/2610.08816) | — |
 | **P2 · Relevant** | **The AI Evaluation Ecosystem** | arXiv 2026 | gen,agent | [Link](https://arxiv.org/abs/2610.09296) | — |
 | **P2 · Relevant** | **TextualRL: Textual Reinforcement Learning for Context Management** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18216) | — |
@@ -1412,26 +1390,17 @@
 | **P2 · Relevant** | **TEM: Temporal State Tracking Memory for Large Language Model Agents** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.21900) | — |
 | **P0 · Strong** | **Task-Oriented Key-Layer KV Communication for Efficient Latent Multi-Agent Collaboration** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.08820) | — |
 | **P1 · Watch** | **T2-z: Test-Time Optimization of Environment Latents for Robotic World Models** | arXiv 2026 | llm_serving,gen,physical | [Link](https://arxiv.org/abs/2610.22364) | — |
-| **P1 · Watch** | **SWE-Shift: Evaluating Coding Agents in Evolving Workspaces** | arXiv 2026 | llm_systems | [Link](https://arxiv.org/abs/2610.32196) | — |
-| **P2 · Relevant** | **SWE-Bench Pro V2: A Cleaner, Harder-to-Game Coding Benchmark** | arXiv 2026 | agent benchmark infrastructure | [Link](https://arxiv.org/abs/2610.24206) | — |
 | **P1 · Watch** | **SurgStreamer: proactive, request-driven monitoring of surgical video streams with structured state and a reusable reasoning layer** | arXiv 2026 | multimodal,gen | [Link](https://arxiv.org/abs/2610.21895) | — |
 | **P2 · Relevant** | **SurgiCLAW: An Interpretable Atomic-Skill Agent for Precision Robotic Micromanipulation** | arXiv 26 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.15766) | — |
 | **P2 · Relevant** | **SuperMimic: Scaling Humanoid Whole-Body Control with One Differentiable World Model** | arXiv 2026 | physical | [Link](https://arxiv.org/abs/2610.28480) | — |
-| **P1 · Watch** | **Strategic Calibration in LLM Multi-Agent Systems: Audited Pivot Scoring for Truthful Elicitation** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.33728) | — |
-| **P1 · Watch** | **Stepwise Reasoning Verification: Don't Generate, Classify!** | arXiv 2026 | efficient reasoning verification | [Link](https://arxiv.org/abs/2610.25441) | — |
 | **P2 · Relevant** | **Steering Black-Box Large Language Model Agents with Pitfall Anticipation World Model** | arXiv 2026 | agent,physical | [Link](https://arxiv.org/abs/2610.29139) | — |
-| **P1 · Watch** | **StateMirror: Pre-Execution Detection of Hallucinated Tool Calls in Coding Agents** | arXiv 2026 | llm_systems | [Link](https://arxiv.org/abs/2610.32648) | — |
 | **P2 · Relevant** | **StateCraft: Augmenting Video World Models with Abstract-State Reasoning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19795) | — |
 | **P2 · Relevant** | **Stable and Counterfactually Robust Physical World Models from Imposed Structure and Learned Physics** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.00280) | — |
 | **P2 · Relevant** | **SSCBench: Evaluating the Evidential Validity of Fault-Injection Tests for Tool-Using LLM Agents** | arXiv 2026 | efficient_reasoning_agents | [Link](https://arxiv.org/abs/2610.11514) | — |
-| **P2 · Relevant** | **Speculative Forking: Turning Idle Wait into Parallel Exploration for Repository Environment Setup** | arXiv 2026 | Efficient agents | [Link](https://arxiv.org/abs/2610.33129) | — |
-| **P0 · Strong** | **SPECMEM: Accelerating Agentic Tool Calling via Live Memory Management** | arXiv 2026 | Speculative decoding/agent serving | [Link](https://arxiv.org/abs/2610.31840) | — |
 | **P2 · Relevant** | **SpaceCast-Bench: Evaluating Predictive Spatial Reasoning in Vision-Language Models** | arXiv 2026 | multimodal,edge | [Link](https://arxiv.org/abs/2610.12402) | — |
 | **P1 · Watch** | **SoK: Semantic Decision Engines in Network Control Loops** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2610.06425) | — |
-| **P1 · Watch** | **SocialCoAct: Enabling and Benchmarking Egocentric Social Co-Action for VLM-Based Humanoid Robots** | arXiv 2026 | Physical AI VLM reasoning/latency | [Link](https://arxiv.org/abs/2610.24559) | — |
 | **P2 · Relevant** | **SLDBench v2: Active Scaling Law Discovery** | arXiv 2026 | systems-adjacent / low-priority | [Link](https://arxiv.org/abs/2610.16297) | — |
 | **P2 · Relevant** | **SkillSpec: Consensus-Gated Agent Skill Evolution via Representation Specialization** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.00704) | — |
-| **P2 · Relevant** | **SkillShift-Bench: Benchmarking Skill Learning under Environment Evolution for Web Agents** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.33528) | — |
 | **P2 · Relevant** | **SkillScaffold: Scaffolding Agentic Reinforcement Learning with Policy-Adaptive Skill Credit Assignment and Selective Injection** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18807) | — |
 | **P2 · Relevant** | **SkillForge: Co-Evolving Skills and Agents via Dynamic Skill Lifecycles** | arXiv 2026 | gen,agent | [Link](https://arxiv.org/abs/2610.09832) | — |
 | **P2 · Relevant** | **SkillCycle: Co-Evolving Agent Policies and Skill Banks** | arXiv 2026 | gen,edge | [Link](https://arxiv.org/abs/2610.09430) | — |
@@ -1440,28 +1409,20 @@
 | **P2 · Relevant** | **Shared and structured inputs undermine collective random choice by reasoning AI agents** | arXiv 2026 | gen,edge | [Link](https://arxiv.org/abs/2610.09667) | — |
 | **P2 · Relevant** | **Share the Symbol, Not the Vector: Training-Free Fact Communication Across Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19696) | — |
 | **P2 · Relevant** | **Shape irregularity of Life-Like Network Automaton rules as an indicator of classification performance** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.10867) | — |
-| **P2 · Relevant** | **SEVI: Safe Evidential Real-World Reinforcement Learning** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.31829) | — |
 | **P1 · Watch** | **SetCommit: Coordinated Token Commitments for Few-Step Diffusion Language Model Decoding** | arXiv 2026 | diffusion language model generation / efficient reasoning | [Link](https://arxiv.org/abs/2610.31120) | [Repo](https://github.com/Kissmetothemoon/SetCommit) |
 | **P2 · Relevant** | **SERO: Learning from Executable Oracle Continuations for Long-Horizon Agentic Reinforcement Learning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19397) | — |
 | **P1 · Watch** | **Sentry: Learning to Recover from LLM Agent Failures at Test Time** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.02994) | — |
-| **P2 · Relevant** | **Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success** | arXiv 2026 | multimodal,physical | [Link](https://arxiv.org/abs/2610.31670) | — |
 | **P2 · Relevant** | **Sensitivity or Criterion? Measuring and Moving When Language Models Act** | arXiv 26 | physical_ai_action_decision_evaluation | [Link](https://arxiv.org/abs/2610.15415) | — |
-| **P2 · Relevant** | **SENRI: Understanding the Space-Event Nexus in Real-Life Videos** | arXiv 2026 | multimodal agent memory | [Link](https://arxiv.org/abs/2610.25309) | — |
 | **P2 · Relevant** | **Self-Supervised Scaling of Terminal Environments for Scientific Domains** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.02710) | — |
 | **P2 · Relevant** | **Self-Reflection Fine-Tuning: Enhancing Agent Security against Prompt Injection Attacks from Failure Experience** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.04269) | — |
-| **P1 · Watch** | **Self-Crystallizing Behavior Trees: Amortizing Foundation-Model Reasoning into Deterministic Control for Autonomous Drones** | arXiv 2026 | Physical AI / amortized reasoning | [Link](https://arxiv.org/abs/2610.25455) | — |
 | **P2 · Relevant** | **Seek-and-View Reasoning for Multi-View Spatial Understanding** | arXiv 2026 | multimodal,edge | [Link](https://arxiv.org/abs/2610.11810) | — |
-| **P2 · Relevant** | **Seeing the Options: Typed Decisions over Visual Candidates with Reusable Option Memory** | arXiv 2026 | Efficient agents | [Link](https://arxiv.org/abs/2610.33702) | — |
 | **P0 · Strong** | **SEEDS: Preview-Guided Evidence Admission for Search Agents** | arXiv 2026 | efficient_reasoning_agents | [Link](https://arxiv.org/abs/2610.12932) | — |
 | **P2 · Relevant** | **Secure-CUA: Controlling Untrusted Influence in Computer-Use Agents** | arXiv 2026 | llm_serving,gen | [Link](https://arxiv.org/abs/2610.09469) | — |
 | **P1 · Watch** | **Second-Order Problem Solving for Recursive Self-Improvement in Formal Verification** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.05701) | — |
 | **P0 · Strong** | **Score-Calibrated Flow for Sampling from Unnormalized Densities with Applications to Generative Online Reinforcement Learning** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2610.04696) | — |
-| **P2 · Relevant** | **SceneBloom: Agentic Indoor Environment Generation with Realistic and Diverse Layouts for Embodied Learning** | arXiv 2026 | physical_ai | [Link](https://arxiv.org/abs/2610.32978) | — |
 | **P1 · Watch** | **Scaling to Tens of Thousands of Test-Time Iterations with Loop-Native Attention Residuals** | arXiv |  | [Link](https://arxiv.org/abs/2610.11570) | — |
 | **P2 · Relevant** | **Scaling Discovery Requires Forgetting** | arXiv 26 | agent_reasoning_rag_neighborhood | [Link](https://arxiv.org/abs/2610.20563) | — |
 | **P2 · Relevant** | **Scalable Minimal-Change Learning for Controllable Image Editing** | arXiv 2026 | Efficient ML systems | [Link](https://arxiv.org/abs/2610.06021) | — |
-| **P2 · Relevant** | **Same Goal, Different Words: Spatial Instruction Sensitivity in World-Action Models** | arXiv 26 | vla_wam | [Link](https://arxiv.org/abs/2610.16242) | — |
-| **P2 · Relevant** | **Same Context, Different Agents: A Behavioral Study of Semantic Layers, Multi-Agent Orchestration and Memory Compaction in Data Agents** | arXiv 2026 | Agent context/compaction | [Link](https://arxiv.org/abs/2610.20959) | — |
 | **P2 · Relevant** | **Same Action, Different Outcome: Variability in Dynamic Cloth Manipulation** | arXiv 2026 | agent workflows / Physical AI characterization low priority | [Link](https://arxiv.org/abs/2610.10801) | — |
 | **P2 · Relevant** | **Safety Must Survive Self-Improvement: Why Failures Persist and How Agents Recover** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.01073) | — |
 | **P2 · Relevant** | **Safe Context Switching for Agents in the Wild: Mitigating Subspace Interference via Orthogonal Adaptation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.05219) | — |
@@ -1472,11 +1433,11 @@
 | **P2 · Relevant** | **Rotated, but How Far? Diagnosing and Improving Object-Rotation Reasoning in VLMs** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.05715) | — |
 | **P2 · Relevant** | **RoTA-Bench: Evaluating 3D Spatial Reasoning through Interactive Projection Alignment** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17665) | — |
 | **P2 · Relevant** | **RocketAgent: A Long-Horizon Engineering Agent for Multidisciplinary Design of Liquid-Rocket Thrust Chambers** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.06044) | — |
-| **P2 · Relevant** | **RobustRLlib: A Unified Library and Benchmark for Robust Reinforcement Learning Algorithms** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.32971) | — |
 | **P1 · Watch** | **RoboSimStudio: An Interactive Toolkit for Human and Agent Rapid Real2Sim of Robot Manipulation Tasks** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18835) | — |
 | **P2 · Relevant** | **RoboRender: Robot-Oriented Video Generation for Visual Sim-to-Real Transfer** | arXiv 2026 | Efficient ML systems | [Link](https://arxiv.org/abs/2610.09254) | — |
 | **P2 · Relevant** | **RoboQuest: Generalist Physical Agents that Search, Inspect and Test** | arXiv 2026 | physical_ai,agent_benchmark | [Link](https://arxiv.org/abs/2610.10388) | — |
 | **P2 · Relevant** | **RoboJudge: Multimodal Language Models as Judges for Embodied Video Generation** | arXiv 2026 | multimodal | [Link](https://arxiv.org/abs/2610.27782) | — |
+| **P1 · Watch** | **RoboHarness: A Simple Harness Outperforms VLA and World Actions Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.14018) | — |
 | **P2 · Relevant** | **RoboFQE: Rollout-Free Evaluation of Visual Robot Policies from Offline Trajectories** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18699) | — |
 | **P2 · Relevant** | **ROAR: Unifying Runs across Heterogeneous AI-Driven Research Systems** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.03966) | — |
 | **P0 · Strong** | **rl-triton: High-Performance Triton GPU Kernels for Reinforcement Learning Credit Assignment** | Fresh / preprint | GPU kernel / Triton / RL infrastructure | [Link](https://arxiv.org/abs/2608.17641) | — |
@@ -1485,24 +1446,17 @@
 | **P2 · Relevant** | **RFChipAgent: Multi-Agentic AI Flow for Analog/RF Chip Design** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.10858) | — |
 | **P2 · Relevant** | **Revocation Is Not Complete at Receipt: An Executable Outcome Contract for Distributed Agent-Tool Gateways** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15991) | — |
 | **P2 · Relevant** | **Revisiting Temporal Regularization for Smooth Control in Deep Reinforcement Learning** | arXiv 2026 | physical_ai,robot_policy | [Link](https://arxiv.org/abs/2610.07910) | — |
-| **P1 · Watch** | **Reuse, Rewrite, or Reject: Evidence-Constrained Trace Reuse for Repeated Mobile GUI Control** | arXiv 2026 | Agent serving/cache/reuse | [Link](https://arxiv.org/abs/2610.31712) | — |
 | **P2 · Relevant** | **Retrieve What Helps, Only When It Helps: Agentic Reinforcement Learning for Selective Retrieval-Augmented Machine Translation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19528) | — |
 | **P0 · Strong** | **Rethinking Video Autoencoders for Interactive World Models** | arXiv 2026 | physical,gen,multimodal | [Link](https://arxiv.org/abs/2610.30129) | — |
 | **P0 · Strong** | **Rethinking Tool Design for Agentic RCA: A Controlled Empirical Study** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2610.05009) | — |
 | **P1 · Watch** | **Rethinking Probability-Based Reinforcement Learning From Posterior Concentration** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.01458) | — |
-| **P2 · Relevant** | **Responsibility Boundaries for Agentic Systems: A Comparative Evaluation of Probabilistic Agentic Programming** | arXiv 2026 | agent-runtime-governance | [Link](https://arxiv.org/abs/2610.33312) | — |
-| **P2 · Relevant** | **ReSight: Task-Driven Self-Improving Memory for Embodied Agents** | arXiv 2026 | Physical AI | [Link](https://arxiv.org/abs/2610.33487) | — |
 | **P1 · Watch** | **REMORY: Learning Residual Memory for Context Compaction** | arXiv 2026 | gen,edge | [Link](https://arxiv.org/abs/2610.11287) | — |
 | **P0 · Strong** | **ReMAP: Restoring the Perceptual Cycle with Reasoning-Time Latent Visual Memory** | arXiv 2026 | multimodal/MLLM serving | [Link](https://arxiv.org/abs/2610.05097) | — |
 | **P2 · Relevant** | **Relational Spatial Alignment for Vision-Language-Action Models** | arXiv 26 | vla_wam | [Link](https://arxiv.org/abs/2610.24705) | — |
 | **P2 · Relevant** | **Relational Abstractions for Spatial Reasoning with Diffusion Models** | arXiv 2026 | gen | [Link](https://arxiv.org/abs/2610.09780) | — |
-| **P2 · Relevant** | **Reinforcement Learning-driven Diffusion Models: Language, Vision, and Beyond** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.21539) | — |
 | **P2 · Relevant** | **Reinforcement Learning with Conformal Action Sets: An Application to Sequential Recommendation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.08743) | — |
 | **P2 · Relevant** | **Reinforcement Learning via Fixed-point Flow Matching** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.12848) | — |
 | **P2 · Relevant** | **Reinforcement Learning for Large-Scale Lifelong Multi-Agent Path Finding with Shared Spatial Fields** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18186) | — |
-| **P2 · Relevant** | **Reinforcement Learning for Controller Parameters in the Auto-Bidding System at Pinterest** | arXiv 2026 | edge | [Link](https://arxiv.org/abs/2610.33248) | — |
-| **P2 · Relevant** | **Reimagining Enterprise RAG for Multi-Agent Systems: A Knowledge Layer That Organizes Before It Retrieves** | arXiv 2026 | llm_systems | [Link](https://arxiv.org/abs/2610.32851) | — |
-| **P2 · Relevant** | **Refuse the Harm, Complete the Task via Graph-of-Rules Planning for LLM-Enabled Robots** | arXiv 2026 | Physical AI / agent safety | [Link](https://arxiv.org/abs/2610.24603) | — |
 | **P2 · Relevant** | **ReFract: Benchmarking Perspective Awareness in Language Model Agents with Text World Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.03356) | — |
 | **P0 · Strong** | **Reflex: Enabling Fast and Predictive Vision-Language-Action Models for Reaction-Critical Manipulation** | Fresh / preprint | fast VLA runtime / reaction-critical manipulation | [Link](https://arxiv.org/abs/2608.14379) | — |
 | **P1 · Watch** | **Recursive Self-Improvement through Multi-Agent Self-Supervision** | arXiv 26 | efficient_agent_training_or_physical_runtime | [Link](https://arxiv.org/abs/2610.12176) | — |
@@ -1511,46 +1465,30 @@
 | **P2 · Relevant** | **ReCal: Calibrating Structured Pruning for On-Policy Distillation Recovery** | arXiv 2026 | llm_serving,sparse | [Link](https://arxiv.org/abs/2610.11332) | — |
 | **P0 · Strong** | **ReCache: Efficient KV Cache Reuse and Compression for Tool-Augmented LLM Agents** | Fresh / preprint | agent serving / KV cache reuse / compression | [Link](https://arxiv.org/abs/2608.19662) | [Repo](https://github.com/EIT-NLP/ReCache) |
 | **P2 · Relevant** | **Reasoning-Informed Visual Editing** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.12343) | — |
-| **P2 · Relevant** | **Reasoning as a Distribution: Generative Plan Latents for Vision-Language-Action Models** | arXiv 2026 | multimodal,physical | [Link](https://arxiv.org/abs/2610.28166) | — |
 | **P2 · Relevant** | **RAISED: Self-Distillation for Robustness to Prompt Injection in LLM Agents** | arXiv 2026 | llm_serving,agent | [Link](https://arxiv.org/abs/2610.06401) | — |
 | **P2 · Relevant** | **RadOnc-Agent: An LLM-Orchestrated Framework for AI Workflows Across the Radiotherapy Care Pathway** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.06923) | — |
 | **P2 · Relevant** | **Q-Shaped Options for Hierarchical Reinforcement Learning** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.12135) | — |
 | **P2 · Relevant** | **PWM: Personalized World Models with Online Reinforcement Learning** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.04920) | — |
 | **P2 · Relevant** | **PrT-Flow: Probability-Tractable Flow Matching for Reinforcement Learning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17667) | — |
 | **P2 · Relevant** | **Prospective Hindsight: Self-Calibrating Reinforcement Learning via Prediction-Reality Gaps** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.02740) | — |
-| **P2 · Relevant** | **Profile-Driven User Simulation via Reinforcement Learning with Hierarchical Rewards for Task-Oriented Dialogues** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.32435) | — |
-| **P0 · Strong** | **ProbePO: Sparse Probes, Redistributed Credit for Critic-Free LLM Reinforcement Learning** | arXiv 2026 | efficient RLVR rollout probing | [Link](https://arxiv.org/abs/2610.24515) | — |
 | **P2 · Relevant** | **PROBE: Learning to Audit Policy Compliance in Tool-Using LLM Agents** | arXiv 2026 | gen,agent | [Link](https://arxiv.org/abs/2610.22124) | — |
-| **P2 · Relevant** | **ProactEgoMem: Benchmarking Proactive Memory in Streaming Egocentric Video** | arXiv 2026 | physical,agent,multimodal | [Link](https://arxiv.org/abs/2610.30089) | — |
 | **P2 · Relevant** | **PrivacyGuard: Source-Linked Sanitization and Locally Resolvable PII References for Cloud GUI Agents** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16778) | — |
-| **P2 · Relevant** | **Preserving Reasoning Diversity in Reinforcement Learning with Verifiable Rewards via Adaptive Replay** | arXiv 2026 | reasoning RL algorithm | [Link](https://arxiv.org/abs/2610.24236) | — |
-| **P2 · Relevant** | **Predictive Long-Horizon Progress Modeling with Action-Aware Quantification** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.32776) | — |
-| **P2 · Relevant** | **Pre-Query Retention with Bounded Bit and Word Retrieval** | arXiv 2026 | agent memory theory | [Link](https://arxiv.org/abs/2610.25098) | — |
-| **P2 · Relevant** | **Position, Role or Label? A Controlled Study of Instruction Conflicts in LLM Agents** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.33201) | — |
-| **P2 · Relevant** | **Planning Commitment of LLM under Partial Observability** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.21108) | — |
-| **P1 · Watch** | **Phronix: The Capability-Centric Learning Paradigm for Agents** | arXiv 2026 | Agent systems/performance engineering | [Link](https://arxiv.org/abs/2610.31789) | — |
+| **P2 · Relevant** | **PRISM: PRIvileged Sibling-guided Multi-Agent Topology Design** | arXiv 2026 | efficient_agent_systems | [Link](https://arxiv.org/abs/2610.20628) | — |
 | **P2 · Relevant** | **PFedMA: Who Should Join Next as Federated Multi-Agent Orchestration Evolves?** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19458) | — |
 | **P2 · Relevant** | **Performative Prediction with Selective Labels** | arXiv 2026 | efficient_reasoning_agent_systems | [Link](https://arxiv.org/abs/2610.08272) | — |
 | **P2 · Relevant** | **PAWA: Panoramic Action-conditioned World Modeling for Multiple Agents** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20240) | — |
-| **P2 · Relevant** | **Pattern-Driven Evaluation of LLM Code Optimization: Isolating Compiler-Transcendent Semantic Reasoning** | arXiv 2026 | compiler optimization benchmark | [Link](https://arxiv.org/abs/2610.24835) | — |
 | **P2 · Relevant** | **PathPilot: An Adaptive Question-Conditioned Multi-Magnification Navigation Agent for Whole-Slide Image Analysis** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16734) | — |
 | **P2 · Relevant** | **PathLift: Depth-Conditioned Metric Lifting for Visual-Navigation Priors** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16103) | — |
 | **P1 · Watch** | **Past as State, Present as Attention: Persistent-State Blockwise Flow Matching for Long-Horizon Co-Speech Motion Generation** | arXiv | video/image generation acceleration | [Link](https://arxiv.org/abs/2610.32373) | — |
-| **P2 · Relevant** | **PASS Is a Claim, Not an Observation: Mechanical Re-verification of 10 Self-Asserted Fix Claims in a Live Multi-Agent Audit Layer** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.35950) | — |
 | **P2 · Relevant** | **ParanoiaEval: Benchmarking Unnecessary Defensive Work in Agentic Coding** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.08662) | — |
-| **P2 · Relevant** | **Parametric Session States Recover Retrieval Intent without Replaying History** | arXiv 2026 | Agent memory / long context | [Link](https://arxiv.org/abs/2610.33047) | — |
 | **P2 · Relevant** | **Parallelizable Probabilistic Latent Reasoning for Diverse Reasoning Trajectories** | arXiv 2026 | adjacent_efficiency_or_physical_ai | [Link](https://arxiv.org/abs/2610.29385) | — |
 | **P2 · Relevant** | **Parallelism or Concession? Concurrency-Aware Procurement Negotiation for Agentic Commerce** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.06017) | — |
 | **P1 · Watch** | **Parallel AI Agent Collaboration as Graph-Structured Distributed Block Optimization** | arXiv 2026 | efficient_agent_or_kv_serving | [Link](https://arxiv.org/abs/2610.30074) | — |
-| **P1 · Watch** | **Pairing Matters: Performance, Failures, and Efficiency in Lightweight Coding Agents** | arXiv 2026 | llm_systems | [Link](https://arxiv.org/abs/2610.32131) | — |
-| **P1 · Watch** | **PACE-Mem: Prefix-Aware Complementary Evidence for Multimodal Agents** | arXiv 2026 | multimodal agent memory | [Link](https://arxiv.org/abs/2610.24378) | — |
-| **P0 · Strong** | **P2N: Reusing Deep Representations for Greater Effective Depth** | arXiv 2026 | LLM architecture efficiency | [Link](https://arxiv.org/abs/2610.25076) | — |
 | **P2 · Relevant** | **OverAct: Measuring and Mitigating Proactive Over-Authorization in LLM Tool-Calling Agents** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.01508) | — |
 | **P2 · Relevant** | **Organize Primitives into Semantic Parts: Reinforcement Reasoning for 3D Segmentation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04602) | — |
 | **P2 · Relevant** | **OpenRUA: Robot-Use Agents Are Zero-Shot Visuomotor Policies** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.02459) | — |
 | **P1 · Watch** | **OpenMobile-2: Building Versatile Mobile Agents with Scalable Environments and App-Native Tools** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.14157) | — |
 | **P2 · Relevant** | **OpenGameEval: Benchmarking Agentic Programming and Exploration in a Stateful Game Engine** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.02563) | — |
-| **P1 · Watch** | **OpenDraco: A Platform for Engineering and Experimenting with Configurable Multi-Agent Architectures for Software Engineering** | arXiv 2026 | llm_systems | [Link](https://arxiv.org/abs/2610.32686) | — |
 | **P2 · Relevant** | **OpenDGO: Benchmarking Multi-Agent Organizations Across Diverse Application Domains** | arXiv 2026 | systems-adjacent / low-priority | [Link](https://arxiv.org/abs/2610.17143) | — |
 | **P2 · Relevant** | **Open-o3-Video-v2: Seek, Ground, and Reason with Verifiable Spatio-Temporal Evidence** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17656) | — |
 | **P1 · Watch** | **OOPMAS: Object-Oriented Multi-Agent Systems for Query-Level Workflow Generation** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2610.07787) | — |
@@ -1560,42 +1498,25 @@
 | **P2 · Relevant** | **One Task, Many Interfaces: Simple Cross-Interface Consistency Training Improves LLM Agent Robustness** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20576) | — |
 | **P1 · Watch** | **On the Clock: Towards Punctual and Productive Time-Budgeted AI Agents** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.10833) | — |
 | **P2 · Relevant** | **OmniAct3D: Leveraging Foundation Geometry and Evidence-Grounded Reasoning for Panoramic 3D Detection** | arXiv 2026 | Efficient ML / Physical AI | [Link](https://arxiv.org/abs/2610.03015) | — |
-| **P2 · Relevant** | **OACap: Caption-Guided Active Observation for Detailed Video Captioning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.29327) | — |
-| **P2 · Relevant** | **Novel or Not? PatEx-Gym: Agentic Prior-Art Search for Novelty Assessment in Patent Examination** | arXiv 2026 | agent | [Link](https://arxiv.org/abs/2610.33503) | — |
 | **P2 · Relevant** | **Nous: Learning and Certifying Memory Decisions Before Source Calibration** | arXiv 2026 | agent_memory | [Link](https://arxiv.org/abs/2610.00094) | — |
 | **P1 · Watch** | **NOMOS: Compiling Written Policies into Statically Verified Tool-Call Gates for LLM Agents** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.11030) | — |
-| **P0 · Strong** | **NgramRL: Accelerating RL Post-Training for Structured Generation via Rollout-Aware N-gram Speculative Decoding** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.32881) | — |
-| **P1 · Watch** | **Neuro-Inspired Inhibitory Message Passing for Accurate and Token-Efficient Multi-Agent Reasoning** | arXiv 2026 | Token-efficient multi-agent reasoning | [Link](https://arxiv.org/abs/2610.24718) | — |
 | **P1 · Watch** | **NeuralBES: A Differentiable, Control-Aware Emulator for Scalable Building Energy Modeling** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.10459) | — |
 | **P2 · Relevant** | **Neos: Learning to Interleave Search and Visual Reasoning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17043) | — |
 | **P2 · Relevant** | **Narrow and Deep: An Ontology Tower as the Knowledge of an LLM Agent for an Industrial Equipment System** | arXiv 2026 | gen | [Link](https://arxiv.org/abs/2610.11768) | — |
 | **P2 · Relevant** | **My FAULT: Self-Diagnosis as Credit Assignment in Self-Evolving Agentic Reinforcement Learning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.01161) | — |
-| **P1 · Watch** | **Muse Glimmer 30B: An On-Device Agentic Model** | arXiv 2026 | Edge LLM / agent deployment | [Link](https://arxiv.org/abs/2610.24628) | — |
-| **P1 · Watch** | **Multiple Importance Sampling for Guided Speculative Inference** | arXiv 2026 | Speculative decoding | [Link](https://arxiv.org/abs/2610.33368) | — |
 | **P2 · Relevant** | **Multi-View Latent Action Pretraining for Cross-Embodiment Robot Learning from Videos** | arXiv 26 | action_flow | [Link](https://arxiv.org/abs/2610.27794) | — |
-| **P2 · Relevant** | **MS-TTRL: Breaking the Frequency Conflict in Multiple-Solution Test-Time Reinforcement Learning** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.32234) | — |
-| **P2 · Relevant** | **MOTIO: Agentic Skill Engineering for Reality-Grounded Humanoid Loco-Manipulation** | arXiv 2026 | Physical AI | [Link](https://arxiv.org/abs/2610.33446) | — |
 | **P2 · Relevant** | **Model What Matters: Decision-Guided Selective World Modeling for Language Agents** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19642) | — |
 | **P1 · Watch** | **MMVistaReason: Toward Open-Data and Post-Training Recipes for Multimodal Reasoning** | arXiv 2026 | multimodal/MLLM serving | [Link](https://arxiv.org/abs/2610.01352) | — |
 | **P1 · Watch** | **MLE-World: Predicting Machine Learning Experiment Outcomes with a Learned World Model** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.37175) | — |
-| **P1 · Watch** | **MJev-Spatial: System One Spatial Intelligence via Native Attention Matching** | arXiv 2026 | llm_serving,multimodal,edge | [Link](https://arxiv.org/abs/2610.22276) | — |
 | **P2 · Relevant** | **Mixture of Layers: Dynamic Layer Routing for Visual Reasoning** | arXiv 2026 | multimodal,gen,edge | [Link](https://arxiv.org/abs/2610.09440) | — |
-| **P2 · Relevant** | **Mining the Design Space of Multi-Agent Workflows** | arXiv 2026 | Agent orchestration | [Link](https://arxiv.org/abs/2610.31709) | — |
 | **P2 · Relevant** | **Mimir: Physics-Grounded LLM Agents for Long-Horizon Irrigation Control** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.02038) | — |
 | **P2 · Relevant** | **MetaRubric: Learning to Reward for Rubric-Based Reinforcement Learning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.02824) | — |
 | **P1 · Watch** | **MeshQuery: Agentic Seam Planning for UV Parametrization** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.02507) | — |
 | **P2 · Relevant** | **MERIT: Multimodal Evidence Reasoning over Image Tables** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17937) | — |
-| **P2 · Relevant** | **Memory, Know Your PLACE: Governing Lifecycle State and Query-Time Eligibility in Persistent-Memory Agents** | arXiv 2026 | agent memory governance | [Link](https://arxiv.org/abs/2610.25179) | — |
 | **P2 · Relevant** | **Memory Type Varies: Empowering LLM Agents for Long-Term Memory with Diverse Strategies** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.11573) | — |
-| **P1 · Watch** | **Memory Internalization via Test-Time Training for Long-Video Understanding** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.26910) | — |
-| **P2 · Relevant** | **Memory as Belief: Bayesian Evolution of Memory for Self-Evolving LLM Agents** | arXiv 2026 | agent memory retrieval | [Link](https://arxiv.org/abs/2610.25119) | — |
-| **P2 · Relevant** | **Memorilla: Latent Semantic Memory for LLMs** | arXiv 2026 | kv,agent,edge | [Link](https://arxiv.org/abs/2610.21375) | — |
 | **P2 · Relevant** | **Memento 3: Model-Based Recursive Self-Improvement through Reflective Rulebooks** | arXiv 2026 | physical | [Link](https://arxiv.org/abs/2610.11794) | — |
-| **P2 · Relevant** | **MemDerive: A Diagnostic Benchmark for Agent Memory over Evolving Data** | arXiv 2026 | agent memory evaluation | [Link](https://arxiv.org/abs/2610.25373) | — |
 | **P1 · Watch** | **MemCo: Memory-Centric Collaboration for Generalizing LLM Agents to Unseen Environments** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.07376) | — |
 | **P2 · Relevant** | **Memadapter: Counterfactual Adaptation Against Memory-induced Sycophancy** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.05162) | — |
-| **P2 · Relevant** | **MedPAO-Assist: Edge-Deployable, Modality-Aware Agentic AI for Radiology Report Structuring** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.26913) | — |
-| **P1 · Watch** | **Measuring the Energy Cost of Completing Tasks with Quantized Language-Model Agents** | arXiv 2026 | llm_systems | [Link](https://arxiv.org/abs/2610.32417) | — |
 | **P2 · Relevant** | **Measurement-First Auditing of Agentic Leaderboards: Contamination Susceptibility, Matched-Control Re-evaluation, and Scorer Validation** | arXiv 2026 | efficient_reasoning_agents | [Link](https://arxiv.org/abs/2610.05830) | — |
 | **P1 · Watch** | **MCPDisCo: Seesaw-Mitigated Tuning for MCP-Native Agents** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.14956) | — |
 | **P2 · Relevant** | **Matoi: Selective Revalidation of Consequence Evidence for Agent Authorization** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.21394) | — |
@@ -1605,10 +1526,8 @@
 | **P2 · Relevant** | **MAPS: Macro-Adaptive Parallel Reasoning for Regulating Search Momentum in Retrieval-Augmented Generation** | arXiv 2026 | adjacent_efficiency_or_physical_ai | [Link](https://arxiv.org/abs/2610.29792) | — |
 | **P2 · Relevant** | **MAMHOI: Factorizing Scene-Aware Human-Object Interaction through Affordances** | arXiv 2026 | llm_serving,gen | [Link](https://arxiv.org/abs/2610.12416) | — |
 | **P2 · Relevant** | **MAGMA-Bench: Evaluating Long-Horizon Embodied Agents under Dynamic Tasks and Execution Failures** | arXiv 26 | cloud_edge | [Link](https://arxiv.org/abs/2610.13534) | — |
-| **P1 · Watch** | **MAGIC: Margin-gated Contrastive Debiasing with Evidence Restoration for VLM Test-time Robustness Scaling** | arXiv 2026 | Multimodal efficient inference | [Link](https://arxiv.org/abs/2610.32013) | — |
-| **P2 · Relevant** | **LUMINR: Intensity-conditioned Meta-learned INRs for Accelerated Medical Image Registration** | arXiv 2026 | adjacent_efficient_ml | [Link](https://arxiv.org/abs/2610.24046) | — |
+| **P0 · Strong** | **LVMH: A Meta-Optimization Harness for Long-Video Agent Memory** | arXiv 2026 | multimodal agent memory serving | [Link](https://arxiv.org/abs/2610.23904) | — |
 | **P2 · Relevant** | **LTBD: Learnable Trust-Boundary Delimiters for Prompt Injection Defense** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.11634) | — |
-| **P1 · Watch** | **LoopHIL: Looping Hardware into LLM-assisted Agents for Wireless Embedded Systems** | arXiv 2026 | edge agent hardware-in-loop | [Link](https://arxiv.org/abs/2610.24231) | — |
 | **P1 · Watch** | **Looped Uniform Diffusion Language Models** | arXiv 2026 | diffusion language model generation / efficient reasoning | [Link](https://arxiv.org/abs/2610.30066) | — |
 | **P2 · Relevant** | **LongForcing: Scaling Temporal Manifold Matching for Long-Horizon World Rollout** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18289) | — |
 | **P2 · Relevant** | **Long-Horizon-Terminal-Bench 2.0: Automating Diverse Task Construction and Measuring Sustained Agent Progress** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.14146) | — |
@@ -1616,48 +1535,35 @@
 | **P2 · Relevant** | **LLM2R: From Large Language Models to 3D Reassemblers** | arXiv 26 | 3D embodied reasoning adjacent | [Link](https://arxiv.org/abs/2610.18604) | — |
 | **P2 · Relevant** | **LLM Value Functions for Credit Assignment in Agentic RL** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15840) | — |
 | **P2 · Relevant** | **LLM Agents for Automated Post-Training via Structured Recipe Optimization** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18572) | — |
-| **P1 · Watch** | **Lifelong Context Adaptation through Bidirectional Memory-Skill Learning** | arXiv 2026 | hardware_systems | [Link](https://arxiv.org/abs/2610.32295) | — |
 | **P1 · Watch** | **LexiHorizon: Stabilizing Reinforcement Learning for Long-Horizon Deep Search** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.05119) | — |
 | **P0 · Strong** | **LeWAM: End-to-End World and Action Modeling with JEPAs** | arXiv 2026 | vla_physical_ai_serving | [Link](https://arxiv.org/abs/2610.12818) | — |
-| **P1 · Watch** | **Lessons Outlive Their Failures: A Case Study of Rules for AI Coding Agents** | arXiv 2026 | llm_systems | [Link](https://arxiv.org/abs/2610.32578) | — |
 | **P2 · Relevant** | **Learning without Overwriting: A Theory of Self-Distillation and Supervised Fine-Tuning in Continual Reasoning** | arXiv 2026 | distributed training/inference | [Link](https://arxiv.org/abs/2610.05200) | — |
 | **P2 · Relevant** | **Learning When to Trust Medical Knowledge: Regression-Safe Routing for Clinical Reasoning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19663) | — |
-| **P2 · Relevant** | **Learning When to Collaborate: Selective Multi-Agent Medical Reasoning via Uncertainty-Aware Routing** | arXiv 2026 | Efficient agents | [Link](https://arxiv.org/abs/2610.33544) | — |
 | **P2 · Relevant** | **Learning What to Imitate: Entropy-Aware Distribution Mixing** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.06671) | — |
 | **P2 · Relevant** | **Learning to Retrieve via Reinforcement Learning in Embedding Space** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.07731) | — |
-| **P1 · Watch** | **Learning to Program Retrievals: Composing Search Primitives via Reinforcement Learning** | arXiv 2026 | agent retrieval efficiency | [Link](https://arxiv.org/abs/2610.24854) | — |
 | **P2 · Relevant** | **Learning to Predict Distributions over Weight Updates for Test-Time Adaptation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.01934) | — |
 | **P2 · Relevant** | **Learning How to Remember: Memory Modality Selection for GUI Agents** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17928) | — |
 | **P2 · Relevant** | **Learning Force-Reactive Humanoid Loco-Manipulation** | arXiv 26 | action_flow | [Link](https://arxiv.org/abs/2610.35862) | — |
-| **P2 · Relevant** | **Lean Finder V2: Semantic Search for Mathlib That Disambiguates User Queries** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.30843) | — |
-| **P0 · Strong** | **LeafSkill: Efficient Leaf-Level Action Grounding for Recursive LLM Agents** | arXiv 2026 | llm_systems | [Link](https://arxiv.org/abs/2610.32412) | — |
-| **P2 · Relevant** | **LAW: Unifying Language, Action, and World Modeling for Agentic Physical Intelligence** | arXiv | agent,physical | [Link](https://arxiv.org/abs/2610.23334) | — |
 | **P2 · Relevant** | **Latent-MOPD: Latent Multi-Teacher On-Policy Distillation** | Fresh / preprint | Efficient Reasoning / Agents | [Link](https://arxiv.org/abs/2610.02381) | — |
 | **P2 · Relevant** | **Latent Projection for Latent Planning** | arXiv 26 | streaming_world | [Link](https://arxiv.org/abs/2610.26979) | — |
 | **P1 · Watch** | **Latent Multimodal Memory Reasoning** | arXiv 2026 | multimodal agent memory | [Link](https://arxiv.org/abs/2610.23890) | — |
 | **P2 · Relevant** | **Language Models as AI Research World Models** | arXiv 2026 | physical | [Link](https://arxiv.org/abs/2610.12235) | — |
 | **P2 · Relevant** | **Knowledge or Calculator? Decomposing the Skill Premium in Verifiable Financial Agent Workflows** | arXiv 2026 | agent workflows / Physical AI characterization low priority | [Link](https://arxiv.org/abs/2610.03564) | — |
 | **P2 · Relevant** | **KnowGPO: Knowledge-Grouped Policy Optimization for Search Agents** | arXiv 2026 | gen,edge | [Link](https://arxiv.org/abs/2610.22331) | — |
-| **P0 · Strong** | **KnitTrans: Coordinated Trajectory Transfer for Effective and Efficient LLM Reinforcement Learning** | arXiv 2026 | llm_systems | [Link](https://arxiv.org/abs/2610.32389) | — |
 | **P2 · Relevant** | **KedgeFlow: A Programmable Control Plane for Enterprise AI Agents** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.14810) | — |
-| **P2 · Relevant** | **Joint, Decoupled, or Agent: When Each Multimodal Alignment Paradigm Wins** | arXiv 2026 | multimodal | [Link](https://arxiv.org/abs/2610.24108) | — |
 | **P1 · Watch** | **JEPA-TTT: Persistent Test-Time Training of Latent World Models for Planning under Dynamics Shifts** | arXiv 2026 | physical_ai | [Link](https://arxiv.org/abs/2610.00722) | — |
 | **P1 · Watch** | **IQS-BO: In-Context Query Selection for Bayesian Optimisation** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.01269) | — |
 | **P2 · Relevant** | **Interactive Navigation Beyond Reachability: Benchmark and Agentic Framework** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17089) | — |
 | **P2 · Relevant** | **Inside-JEPA: From Prediction to Relational Grounding in Latent World Models** | arXiv 2026 | physical_ai,agent_systems | [Link](https://arxiv.org/abs/2610.31194) | — |
 | **P0 · Strong** | **Inherit-MAS: Test-Time Evolution of Multi-Agent Systems through Workflow and Execution Inheritance** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.02396) | — |
-| **P2 · Relevant** | **Industrial Agentic AI: LLM-Driven New-Generation Agents for Smart Manufacturing** | arXiv 2026 | agent | [Link](https://arxiv.org/abs/2610.26941) | — |
 | **P2 · Relevant** | **Independent Multi-Agent Reinforcement Learning with Counterfactual Semantic-Social World Models** | arXiv 2026 | physical_ai | [Link](https://arxiv.org/abs/2610.07704) | — |
 | **P1 · Watch** | **In-Distribution Forcing for Long Video Generation at Test Time** | arXiv 2026 | video/image generation acceleration | [Link](https://arxiv.org/abs/2610.03120) | — |
 | **P2 · Relevant** | **Imagine to Act: High-Fidelity Data Synthesis via Image Editing World Model for Scalable GUI Agent Training** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.05861) | — |
-| **P1 · Watch** | **ImageRSI: Verification-Driven Recursive Self-Improvement for Agentic Image Generation** | arXiv 2026 | llm_systems | [Link](https://arxiv.org/abs/2610.32120) | — |
 | **P2 · Relevant** | **I2O2I-Nav: A Benchmark with a Modular Agent for Long-Horizon Indoor-to-Outdoor-to-Indoor Navigation** | arXiv 26 | cloud_edge | [Link](https://arxiv.org/abs/2610.18307) | — |
 | **P0 · Strong** | **HumanoidTTT: Test-Time Capability Reuse for Efficient Humanoid Control** | arXiv 2026 | physical_ai_motion_cache | [Link](https://arxiv.org/abs/2610.00198) | — |
 | **P2 · Relevant** | **How Much Evidence Should a Coding Agent's Self-Correction Carry? Adaptive Dirichlet Evidence for Self-Distillation** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2610.08514) | — |
 | **P0 · Strong** | **How Much Can Language Models Gain from Test-Time Computation?** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.01110) | — |
-| **P1 · Watch** | **How Much Can Best-of-N Help a World Action Model? Measuring Selectable Headroom and Realizing It in Closed Loop** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.37196) | — |
 | **P2 · Relevant** | **How Does Geometry Enter Generated Motion?** | arXiv 2026 | Efficient ML systems | [Link](https://arxiv.org/abs/2610.05135) | — |
-| **P2 · Relevant** | **HGWM: Hierarchical Graph-Guided World Model for Zero-Shot Object Navigation via Graph Matching** | arXiv 2026 | physical_ai | [Link](https://arxiv.org/abs/2610.32554) | — |
 | **P2 · Relevant** | **Heads of Security: Learned Attention Gates Improve Prompt Injection Robustness** | arXiv | llm-architecture-security | [Link](https://arxiv.org/abs/2610.37657) | — |
 | **P2 · Relevant** | **Have You Seen It Clearly? Uncertainty-Guided Belief Refinement for Zero-Shot Object Navigation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15375) | — |
 | **P1 · Watch** | **HarnessSecurity-Bench: Do Security Mechanisms Really Protect Coding Agent Harnesses?** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.07639) | — |
@@ -1673,7 +1579,6 @@
 | **P2 · Relevant** | **Glasseek: A Transparent Recipe for Training and Trustworthy Evaluation of DeepSearch Agents** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16998) | — |
 | **P2 · Relevant** | **GeoReader: Learning Latent Geometry for Spatial Reasoning in Vision-Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18694) | — |
 | **P1 · Watch** | **GeoNatureAgent (GNA): A Framework and Benchmark for Pre-Production Evaluation of Tool-Using Agents on Geospatial and Environmental Tasks** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.09112) | — |
-| **P2 · Relevant** | **GenXR-Bench: Benchmarking Coding Agents for Interactive XR Development** | arXiv 2026 | physical | [Link](https://arxiv.org/abs/2610.29014) | — |
 | **P0 · Strong** | **GenRouter: Unified Workflow Routing for Agentic Image Generation** | Fresh / preprint | agentic image generation / workflow routing / inference efficiency | [Link](https://arxiv.org/abs/2608.16721) | — |
 | **P2 · Relevant** | **GATOR: Generative and Agentic 3D Object Reconstruction From Casual Images** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.11215) | — |
 | **P1 · Watch** | **GameVerse: A Minute-Scale Gameplay Dataset for Long-Horizon Interactive World Modeling** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.37257) | — |
@@ -1685,15 +1590,12 @@
 | **P0 · Strong** | **From LLM Inference to Agentic Workloads: Characterization and Implications for Serving Systems** | Fresh / preprint | agentic serving characterization / systems benchmark | [Link](https://arxiv.org/abs/2608.15127) | — |
 | **P2 · Relevant** | **From Hitter to Player: Separating Motor Execution and Strategy in Competitive Humanoid Table Tennis** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.14067) | — |
 | **P0 · Strong** | **From Discovery to Decision: Finite-Budget Recoverability in LLM Voting** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.01014) | — |
-| **P2 · Relevant** | **From Code Generator to Engineering Companion: A Plant-aware Agent for PLC Programming** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.28160) | — |
 | **P2 · Relevant** | **From Candidate Tokens to Final Outcomes: Decoding Relative Long-Horizon Candidate Value from Reasoning Model Representations** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15412) | — |
 | **P2 · Relevant** | **FlowHMR: Physically Plausible Motion Capture from Video** | arXiv 2026 | Efficient ML systems | [Link](https://arxiv.org/abs/2610.03691) | — |
 | **P2 · Relevant** | **Fix What's Wrong, Keep What's Right: Hallucination Repair for LLM-Based Optimization Modeling** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.12529) | — |
 | **P2 · Relevant** | **FireNav: Decision-Oriented Reconstruction Evidence Routing for Vision-Language Navigation in Indoor Fire Environments** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15595) | — |
 | **P2 · Relevant** | **Finding Blind Spots in AppWorld and WorkArena Task Verifiers** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.09142) | — |
-| **P2 · Relevant** | **Fig: Automated Multiagent Behavior Elicitor** | arXiv 2026 | agent | [Link](https://arxiv.org/abs/2610.28891) | — |
 | **P0 · Strong** | **Fewer Tokens, Better Action: GPT-6 Astra Robot Agents with 14% Higher Success Rate but 65% Fewer Tokens** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.01939) | — |
-| **P2 · Relevant** | **Fast Instinct, Slow Reason: A Dual-Speed Agentic Framework for Self-Configuring Multi-Object Tracking in Satellite Video** | arXiv 2026 | Efficient agents | [Link](https://arxiv.org/abs/2610.33396) | — |
 | **P2 · Relevant** | **Failure Recovery via Belief Updates and World Modeling for Long-Horizon Agents** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18082) | — |
 | **P2 · Relevant** | **Exact Fast Batch Simulation for Tabular Reinforcement Learning** | arXiv 2026 | Efficient ML / Physical AI | [Link](https://arxiv.org/abs/2610.04746) | — |
 | **P2 · Relevant** | **EvoWeave: Composing Reusable Agent Experience through Operation Level Graphs** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19381) | — |
@@ -1710,29 +1612,23 @@
 | **P2 · Relevant** | **Embodiment-Aware Planning for Heterogeneous Bimanual Manipulation** | arXiv 26 | cloud_edge | [Link](https://arxiv.org/abs/2610.23551) | — |
 | **P1 · Watch** | **EmbodiedWorld-200K: Toward Embodied World Agents via Embodied-Planning Dataset and Interactive World Models** | arXiv 2026 | physical | [Link](https://arxiv.org/abs/2610.25959) | — |
 | **P2 · Relevant** | **ElasticFit: Fit-Aware 3D Object Insertion via VLM Reasoning and Generative Adaptation** | arXiv 2026 | llm_serving,multimodal,gen | [Link](https://arxiv.org/abs/2610.07460) | — |
-| **P1 · Watch** | **Efficient Zero-Shot Video Anomaly Detection via Signal-Aware Adaptive Fusion (SAAF)** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.32486) | — |
 | **P0 · Strong** | **EdgeWise: Bringing Long-Horizon Agents to the Edge via Selective Cloud Delegation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17560) | — |
 | **P2 · Relevant** | **DyadMem: A Long-Term Memory Benchmark of How Agents Work with Users** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.03020) | — |
 | **P2 · Relevant** | **DuplexSpeechBench-Document Grounding: Benchmarking Document Grounding and Hallucinations in Voice Agents** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.00316) | — |
 | **P1 · Watch** | **DuplexAgent-RSI: Recursive Harness Improvement for Full-Duplex Voice Agent Collaboration** | arXiv 2026 | gen,agent | [Link](https://arxiv.org/abs/2610.11299) | — |
 | **P2 · Relevant** | **Dual Exam: Controlled Evaluation of Multimodal Agents and World Models** | arXiv 2026 | physical_ai,agent_systems | [Link](https://arxiv.org/abs/2610.31066) | — |
 | **P2 · Relevant** | **DT-JEPA: Learning to Predict Future Representations for Decision-Making** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.32657) | — |
-| **P2 · Relevant** | **DriveUniTok: A Unified Multimodal Tokenizer for Driving World-Action Models** | arXiv 2026 | physical | [Link](https://arxiv.org/abs/2610.35044) | — |
 | **P2 · Relevant** | **DRILL: Training World Models to Improve Policies, Not Predict Pixels** | arXiv 2026 | multimodal,physical | [Link](https://arxiv.org/abs/2610.30814) | — |
 | **P1 · Watch** | **DREAM: Dynamic Resolution Assignment For Multimodal Multi-agent Debate** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2610.05615) | — |
 | **P1 · Watch** | **Double-Take: Improving Capacity, Binding, and Selectivity In Long-Context Within Bidirectional Memory** | arXiv 2026 | kv_cache_long_context | [Link](https://arxiv.org/abs/2610.13073) | — |
 | **P0 · Strong** | **Does Scaling Reinforcement Learning Really Require More Training?** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.01133) | — |
-| **P1 · Watch** | **Do Conversational Agents Need Explicit Memory? A Controlled Comparison with Raw-History Retrieval** | arXiv 2026 | agent memory cost evaluation | [Link](https://arxiv.org/abs/2610.24671) | — |
-| **P2 · Relevant** | **Do AI-for-Science Agents Preserve Model Safety?** | arXiv 2026 | llm_systems | [Link](https://arxiv.org/abs/2610.32045) | — |
 | **P2 · Relevant** | **DK-VLM: Geometry as Position for Spatial Reasoning in Vision-Language Models** | arXiv 2026 | multimodal,edge | [Link](https://arxiv.org/abs/2610.22356) | — |
-| **P2 · Relevant** | **DisasterRoute: Evidence-Guided Dual-System Routing for Visual Disaster Question Answering** | arXiv 2026 | llm_serving,multimodal | [Link](https://arxiv.org/abs/2610.29231) | — |
 | **P2 · Relevant** | **Directional Pullback Regularization for Long-Horizon Rollout of Latent World Models in Autonomous Driving** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16139) | — |
 | **P1 · Watch** | **Diffusion Meta-Prompting and Steering for Generalizable Foundation Model Adaptation** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.11067) | — |
 | **P2 · Relevant** | **Differentiable Ternary Temporal Logic Semantics with Polynomial Surrogate Networks** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04662) | — |
 | **P2 · Relevant** | **DiffDreamer: Coupling World Models with Differentiable Simulation for Agile Quadrotor Control** | arXiv 2026 | physical | [Link](https://arxiv.org/abs/2610.31617) | — |
 | **P2 · Relevant** | **DICE: Decoupling Capability from Intervention Necessity in LLM Tutoring** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04825) | — |
 | **P1 · Watch** | **Dex-One2Many: Learning Dexterous Manipulation from a Single Human Demonstration** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.12470) | — |
-| **P2 · Relevant** | **Design and Cross-Domain Evaluation of an Agent Execution Harness** | arXiv 2026 | agent runtime evaluation | [Link](https://arxiv.org/abs/2610.25568) | — |
 | **P1 · Watch** | **Dependency-Aware Reward Shaping for Agentic Reinforcement Learning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.01207) | — |
 | **P1 · Watch** | **DeltaTTG: Training Multi-Turn Agents with a Token-to-Go Progress Meter** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17666) | — |
 | **P2 · Relevant** | **Degrees of Freedom in Multi-Agent Coordination: Between Centralized and Decentralized Regimes** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17751) | — |
@@ -1741,10 +1637,8 @@
 | **P2 · Relevant** | **Davinci-Tool: Scaling Agentic Tool-Use Supervision with Verifiable Executable Environments** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16867) | — |
 | **P2 · Relevant** | **DataVista: Diagnosing Multimodal LLMs on Data Video Understanding** | arXiv 2026 | multimodal / Physical AI / agent infrastructure low-priority | [Link](https://arxiv.org/abs/2610.11993) | — |
 | **P2 · Relevant** | **Data World: Scaling Data Environments from Scratch** | arXiv 2026 | gen,edge | [Link](https://arxiv.org/abs/2610.21656) | — |
-| **P2 · Relevant** | **CtrlWAM: Controllable World Action Models with Aligned Intent and Foresight** | arXiv 26 | vla_wam | [Link](https://arxiv.org/abs/2610.00859) | — |
 | **P2 · Relevant** | **Cross-Provider Review as a Runtime Contract for Coding Agents: A Controlled Pilot and Fault-Injection Study** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.10961) | — |
 | **P2 · Relevant** | **CroissantMiner: Automated Extraction and Validation of Croissant Metadata for ML Datasets** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.07132) | — |
-| **P2 · Relevant** | **CRM-Agent-Bench: Benchmarking Tool-Using Agents in Stateful Enterprise Environments** | arXiv 2026 | Agent systems benchmarking | [Link](https://arxiv.org/abs/2610.32004) | — |
 | **P2 · Relevant** | **CRAFT: An Agentic Spreadsheet Form Filling System with Template Awareness** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04437) | — |
 | **P2 · Relevant** | **Coupling Perception and Reasoning in Federated Multimodal Graph Foundation Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.00277) | — |
 | **P1 · Watch** | **Coupled but Late: Turn-Taking Between Full-Duplex Speech Models in Unscripted Dialogue** | arXiv 26 | real_time_speech_agent_characterization | [Link](https://arxiv.org/abs/2610.08683) | — |
@@ -1752,13 +1646,7 @@
 | **P2 · Relevant** | **CoTS: Competitive Token Selection for Latent Reasoning in Large Language Models** | arXiv 2026 | efficient_reasoning | [Link](https://arxiv.org/abs/2610.20642) | — |
 | **P2 · Relevant** | **CoTrace: Data Recipes for Training Terminal Agents with Harness-Model Co-Evolution** | arXiv 2026 | agent_systems,training_efficiency | [Link](https://arxiv.org/abs/2610.10426) | — |
 | **P2 · Relevant** | **Correct Answers, Unsupported Findings: Evidence Binding in Forensic Reconstruction of LLM Agent Logs** | arXiv 2026 | llm_serving,gen | [Link](https://arxiv.org/abs/2610.09581) | — |
-| **P2 · Relevant** | **Correct Answers, Closed Gates: SolveBind for GUI Agents at the Verification Barrier** | arXiv 2026 | agent-runtime-recovery | [Link](https://arxiv.org/abs/2610.32223) | — |
-| **P2 · Relevant** | **Contract-Based Agentic Systems Engineering: Delegation as Quotient for Assured System Design** | arXiv 2026 | agent | [Link](https://arxiv.org/abs/2610.33349) | — |
 | **P2 · Relevant** | **Continual Graph Multi-Agent Reinforcement Learning** | arXiv 2026 | llm_serving,gen | [Link](https://arxiv.org/abs/2610.10302) | — |
-| **P2 · Relevant** | **ConMem: Counterfactual Multi-Scenario Probing for Resolving LLM Memory Misalignment** | arXiv 2026 | Efficient agents | [Link](https://arxiv.org/abs/2610.33432) | — |
-| **P0 · Strong** | **Conjugate Compilation: Self-Improving Agentic Co-Compilation for Speculative Decoding** | arXiv 2026 | Speculative decoding / compiler | [Link](https://arxiv.org/abs/2610.25012) | — |
-| **P2 · Relevant** | **Collective Collaboration of Recursive Autonomous Agents** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.33515) | — |
-| **P2 · Relevant** | **CoEvolve: Counterfactual-Guided Co-Evolution of Memory and Collaboration in Multi-Agent Systems** | arXiv 2026 | Efficient agents | [Link](https://arxiv.org/abs/2610.33539) | — |
 | **P2 · Relevant** | **CoEvoke: Evoking Multi-Agent Collaboration for Trajectory Collection** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.14021) | — |
 | **P2 · Relevant** | **Co-Evolving Acting and Forecasting for Language Agents** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20597) | — |
 | **P2 · Relevant** | **CLIS-MPPI: Closed-Loop Model Predictive Path Integral Control With Initial-State Sampling Under Execution Delay** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.21239) | — |
@@ -1766,71 +1654,53 @@
 | **P2 · Relevant** | **CIRSeg: Coarse-to-Fine Intensity-Robust Liver Segmentation with Source-Free Continual Test-Time Adaptation** | arXiv 2026 | edge | [Link](https://arxiv.org/abs/2610.09784) | — |
 | **P2 · Relevant** | **CIRRA: Dual-Level Continual Instruction Reconciliation with Ongoing Execution for Embodied Robot Agents in Interactive Household Tasks** | arXiv 2026 | Efficient ML systems | [Link](https://arxiv.org/abs/2610.08862) | — |
 | **P2 · Relevant** | **CircuitATLAS: Agentic reasoning over a systems neuroscience knowledge graph for target discovery in circuitopathies** | arXiv 2026 | gen,agent | [Link](https://arxiv.org/abs/2610.09643) | — |
-| **P0 · Strong** | **CertEx: Exact Visual Retrieval at Scale by Certified Exclusion** | arXiv 2026 | llm_serving,quant | [Link](https://arxiv.org/abs/2610.21325) | — |
 | **P1 · Watch** | **Certainty Is Not Just Correctness: Rethinking Token-Level Certainty in LLM Reasoning** | arXiv 2026 | efficient_reasoning | [Link](https://arxiv.org/abs/2610.00296) | — |
 | **P2 · Relevant** | **CAVE-Mem: Boundary-Aware Experience Validation for Memory Search** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.00238) | — |
 | **P1 · Watch** | **CausalDreamer: Learning Predictive World Models with Latent Disentanglement** | arXiv 2026 | gen,physical | [Link](https://arxiv.org/abs/2610.12016) | — |
 | **P2 · Relevant** | **CASI: Credit Assignment via Set Intervention for Agentic Retrieval** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20293) | — |
-| **P2 · Relevant** | **CASE: Confusion-Aware Skill Evolution for Frozen Multimodal Emotion Models** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.32481) | — |
 | **P1 · Watch** | **Capability-Driven Self-Evolution of Agent Memory** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.06361) | — |
-| **P1 · Watch** | **Can Test-Time Memory Evolution Outperform Test-Time Training for Scientific Discovery?** | arXiv 2026 | hardware_systems | [Link](https://arxiv.org/abs/2610.32046) | — |
 | **P2 · Relevant** | **CADForge: Agentic Single-View CAD Reconstruction with Explicit Geometry Reasoning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04262) | — |
 | **P2 · Relevant** | **Building AI Research Teams for Autonomous Discovery of Linear Attention Architectures** | arXiv | attn | [Link](https://arxiv.org/abs/2610.28887) | — |
-| **P2 · Relevant** | **Build or Adopt? Custom-Built vs. General-Purpose LLM Agent Harnesses for Automotive GUI Testing** | arXiv 2026 | agent_harness_systems | [Link](https://arxiv.org/abs/2610.33636) | — |
-| **P1 · Watch** | **Bud ContextCompact 2.0: Context Compaction for Agent Success and Accuracy with Small Language Models and Constrained Context Windows** | arXiv 2026 | agent runtime context management | [Link](https://arxiv.org/abs/2610.25516) | — |
 | **P2 · Relevant** | **Breaking Diffusion: Parallel Reasoning with Draft Refinement** | arXiv 2026 | physical_ai,agent_systems | [Link](https://arxiv.org/abs/2610.26542) | — |
 | **P2 · Relevant** | **Boundary-aware Reinforcement Learning for Hypercube State Spaces via Deterministic Policy Gradient** | arXiv 2026 | gen | [Link](https://arxiv.org/abs/2610.09712) | — |
 | **P2 · Relevant** | **BluePixel: Toward Native 4K Agentic Image Editing** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19882) | — |
 | **P2 · Relevant** | **BiGym 2.0: Benchmarking Learned and Agent-Developed Policies for Humanoid Household Manipulation** | arXiv 26 | vla_wam | [Link](https://arxiv.org/abs/2610.07594) | — |
-| **P2 · Relevant** | **Beyond the Teacher: Understanding and Preserving Distillation Overshoot in Agentic On-Policy Distillation** | arXiv 2026 | agent distillation | [Link](https://arxiv.org/abs/2610.25034) | — |
 | **P2 · Relevant** | **Beyond Temporal Proximity: Explanatory World Models for Credit Assignment in Reinforcement Learning** | arXiv 2026 | efficient_reasoning_agents | [Link](https://arxiv.org/abs/2610.13504) | — |
 | **P2 · Relevant** | **Beyond Single Videos: Benchmarking and Active Evidence Seeking for E-Commerce Cross-Video Reasoning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.03099) | — |
 | **P2 · Relevant** | **Beyond Safe Execution: Safe Online Reinforcement Learning for Autonomous Driving with Value Calibration and Adaptive Guidance** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17799) | — |
-| **P2 · Relevant** | **Beyond Reconstruction: What Matters in Action Tokenization for Robot Policies?** | arXiv 26 | vla_wam | [Link](https://arxiv.org/abs/2610.09170) | — |
-| **P2 · Relevant** | **Beyond Post-Hoc Rewards: Privileged Reasoning Exploration for Multimodal Embeddings** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.32474) | — |
 | **P2 · Relevant** | **Beyond Policy Rollouts: Embedding-Space Directional Exploration with Anchored Noise for LLM RLVR** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16105) | — |
 | **P2 · Relevant** | **Beyond Outcome Rewards: Constructing and Assigning Retrieval Credit for Search Agents** | arXiv 2026 | gen | [Link](https://arxiv.org/abs/2610.10179) | — |
-| **P2 · Relevant** | **Beyond Final Outcomes: Quantifying Claim-Level Information Dynamics in Multi-Agent LLM Interaction** | arXiv 2026 | llm_systems | [Link](https://arxiv.org/abs/2610.32333) | — |
 | **P2 · Relevant** | **Beyond Final Accuracy: Auditing Communication in LLM Multi-Agent Systems** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.01042) | — |
 | **P2 · Relevant** | **Beyond Equation Search: Conjecture-Guided Discovery with SCOPE and ClosureBench** | arXiv 26 | Scientific multi-agent experimentation adjacent | [Link](https://arxiv.org/abs/2610.18938) | — |
 | **P2 · Relevant** | **Beyond Correctness: Compute-Responsive Data Selection for Reasoning Model Post-Training** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20057) | — |
 | **P2 · Relevant** | **Beyond Binary Verifiable Rewards: Behavioral Self-Rewarding for SWE Agents** | arXiv 2026 | efficient_reasoning_agents | [Link](https://arxiv.org/abs/2610.12598) | — |
 | **P2 · Relevant** | **Beyond a Better Score: Long-Horizon Agentic ML Development and Evaluation Protocol for Physics Time Series** | arXiv 2026 | efficient agent workflows / adjacent | [Link](https://arxiv.org/abs/2610.14024) | — |
 | **P2 · Relevant** | **Best of Both Worlds in Federated LSA: Speedup When Possible, Personalization Always** | arXiv 2026 | gen,edge | [Link](https://arxiv.org/abs/2610.11555) | — |
+| **P2 · Relevant** | **Benchmarking System One decision models against trained classifiers and language models for automated decision gates** | arXiv 2026 | efficient_reasoning_agent_systems | [Link](https://arxiv.org/abs/2610.00346) | — |
 | **P2 · Relevant** | **BenchmarkAnything: Agent-Driven Construction of Simulator-Ready Microarchitecture Benchmarks** | arXiv 2026 | quant,gen | [Link](https://arxiv.org/abs/2610.09447) | — |
 | **P1 · Watch** | **Bayes-Sufficient Compression Is Not Enough: How Does Communication Help Multi-Agent Systems?** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.03769) | — |
-| **P1 · Watch** | **BatchParScale: Sparse Batch-Mixing for Sequence Models** | arXiv 2026 | Sparse batch mixing for test-time scaling | [Link](https://arxiv.org/abs/2610.25254) | — |
 | **P0 · Strong** | **AutoPruner: Agentic Depth Pruning for Vision-Language-Action Models** | arXiv 2026 | VLA model pruning | [Link](https://arxiv.org/abs/2610.23880) | — |
 | **P2 · Relevant** | **Automated Assembly Instruction Generation from CAD Models Using Grounded Large Language Models: A Human-in-the-Loop Framework** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.11896) | — |
+| **P2 · Relevant** | **Authorization for Self-Modifying AI Agent Populations: Conserving Authority across Replacement, Forking, and Rollback** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.00347) | — |
 | **P2 · Relevant** | **Auditable and Deployable Multi-Agent Motion Planning via Posetal Games from Legal Guidelines** | arXiv 2026 | llm_serving,gen | [Link](https://arxiv.org/abs/2610.22277) | — |
 | **P2 · Relevant** | **Attention-Graph Curvature for the Verification of Mathematical Reasoning** | arXiv | reasoning-verification | [Link](https://arxiv.org/abs/2610.16709) | — |
 | **P1 · Watch** | **Attention Tax, Handoff Tax: A Stylised Model of When Multi-Agent LLM Systems Help** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2610.06069) | — |
-| **P2 · Relevant** | **Atomic-WAM: Execution-Grounded Atomic-Motion Reasoning for World Action Models** | arXiv 26 | vla_wam | [Link](https://arxiv.org/abs/2610.20157) | — |
 | **P0 · Strong** | **ATLAS: Attention-Guided Test-Time Latent Selection for Compositional Visual Autoregressive Generation** | arXiv 2026 | video_image_generation_acceleration | [Link](https://arxiv.org/abs/2610.25390) | — |
-| **P0 · Strong** | **ATEST: Adaptive Resource-Aware Test-Time Scaling for LLM Inference** | arXiv 2026 | Efficient reasoning / resource-aware test-time scaling | [Link](https://arxiv.org/abs/2610.25519) | — |
 | **P1 · Watch** | **Asynchrony Is Nearly Free for Evolution Strategies on Long-Horizon LLM Agentic Tasks** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04196) | — |
 | **P2 · Relevant** | **ASSET: Adaptive Speech Segmentation via Reinforcement Learning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.14309) | — |
-| **P2 · Relevant** | **Ask Less, Ask Better: Allocating User Attention in Proactive LLM Agents with Interruption Budgets** | arXiv 2026 | agent interaction budgeting | [Link](https://arxiv.org/abs/2610.24411) | — |
 | **P2 · Relevant** | **Artemis: Geometry-Grounded Multi-Agent Driving World Models with Shared 3D State and Progressive Memory Update** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.07031) | — |
-| **P0 · Strong** | **Arctic-SWE: Revisiting the Long Horizon Agent Training by Modeling-System Co-Design** | arXiv 2026 | agent training systems | [Link](https://arxiv.org/abs/2610.24914) | — |
-| **P2 · Relevant** | **Aptamers as a sandbox for lab-in-the-loop agentic molecular discovery** | arXiv 2026 | agent | [Link](https://arxiv.org/abs/2610.24806) | — |
 | **P1 · Watch** | **APEX: Active Protection at Execution Boundaries for LLM Agents** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.06966) | — |
-| **P2 · Relevant** | **AOS-Bench: Can LLM Agents Manage Dynamic Workloads?** | arXiv 2026 | Efficient agents | [Link](https://arxiv.org/abs/2610.33178) | — |
 | **P1 · Watch** | **AnyGoal: On World Model Generalization Beyond Expert Rollouts** | arXiv 2026 | physical | [Link](https://arxiv.org/abs/2610.26844) | — |
 | **P2 · Relevant** | **An Introduction to World Models for Generalist Agents** | arXiv 2026 | physical | [Link](https://arxiv.org/abs/2610.30789) | — |
 | **P2 · Relevant** | **An Empirical Study of Agent Skills' Downstream Utility** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.08875) | — |
-| **P1 · Watch** | **Alliance of Stochastic Routing and Reinforcement Fusion for Multi-Model Reasoning** | arXiv 2026 | Multi-model serving / routing | [Link](https://arxiv.org/abs/2610.24054) | — |
 | **P2 · Relevant** | **Algorithmic Scratchpads and Curriculum Staging for Arithmetic Reasoning in Tiny Transformers** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.09003) | — |
 | **P1 · Watch** | **Agents Are Systems, Not Models: Rethinking Agentic Evaluation** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.01618) | — |
-| **P1 · Watch** | **AgentOrch: How Close Can Global Orchestration Come to Step-by-Step Interaction?** | arXiv 2026 | Efficient agents | [Link](https://arxiv.org/abs/2610.33375) | — |
-| **P1 · Watch** | **Agentic World Action Models** | arXiv 2026 | physical,agent,multimodal | [Link](https://arxiv.org/abs/2610.30136) | — |
 | **P2 · Relevant** | **Agentic schema-guided extraction of materials process knowledge from scientific literature** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.06322) | — |
 | **P2 · Relevant** | **Agentic Evolution of SQL Test Generators** | arXiv 2026 | efficient agent workflows / adjacent | [Link](https://arxiv.org/abs/2610.14161) | — |
 | **P2 · Relevant** | **Agentic AI with Structured CoT for Enhancing AI's Spatial Intelligence: Visualization and Reasoning of Rotation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04188) | — |
 | **P2 · Relevant** | **Agent World Model in the Wild: Computer-Use Agent Environment Synthesis** | arXiv 2026 | physical,edge | [Link](https://arxiv.org/abs/2610.26828) | — |
 | **P1 · Watch** | **AEGIS: Differentiable Mars Climate Model with Neural Closures** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04081) | — |
 | **P2 · Relevant** | **AdvSim2Real : Training Web Agents Against Adaptive Prompt Injection in a Web World Model** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.08773) | — |
-| **P2 · Relevant** | **Adaptive Control of Scientific Instruments with Nonstationary Responses through Multimodal Agents** | arXiv 2026 | llm_systems | [Link](https://arxiv.org/abs/2610.32370) | — |
 | **P2 · Relevant** | **Adapting Vision-Language-Action Models to Unknown Visual Disruptions During Execution** | arXiv 2026 | Efficient ML / Physical AI | [Link](https://arxiv.org/abs/2610.07946) | — |
 | **P2 · Relevant** | **Adapt for Planning, Not just Prediction: Optimistic Test-Time World Model Adaptation** | arXiv | physical | [Link](https://arxiv.org/abs/2610.35636) | — |
 | **P1 · Watch** | **ActiveEvidence: Decision-Focused Evidence Graphs with Verifiable Acquisition Gaps** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20532) | — |
@@ -1844,11 +1714,8 @@
 | **P2 · Relevant** | **A Reinforcement Learning Framework for Safety-Aware Haptic Shared Control in Surgical Robotics** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15422) | — |
 | **P2 · Relevant** | **A Privileged Teacher That Only Scores Cannot Search: Critique-Conditioned On-Policy Self-Distillation for Reasoning** | arXiv 2026 | efficient_reasoning_agents | [Link](https://arxiv.org/abs/2610.13744) | — |
 | **P2 · Relevant** | **A Local Agentic AI Framework to Generate Edge Case Scenarios for Safety Assurance** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.13479) | — |
-| **P2 · Relevant** | **A Deterministic Security Runtime for LLM Agents on MPI and Batch-Scheduled HPC Systems: Consensus-Governed, Hardware-Rooted Supervision of Every Rank** | arXiv 2026 | Efficient agents | [Link](https://arxiv.org/abs/2610.33318) | — |
-| **P2 · Relevant** | **5uGUE: Agentic Hardware-in-the-Loop Fuzzing for 5G Devices and beyond** | arXiv 2026 | agentic-hardware-runtime | [Link](https://arxiv.org/abs/2610.29155) | — |
-| **P1 · Watch** | **4DMemory: Benchmarking Long-Horizon Spatiotemporal Memory with Harness-Augmented Agents** | arXiv 2026 | llm_systems | [Link](https://arxiv.org/abs/2610.32332) | — |
 
-## 🏛️ Classical / Historical · 811 canonical
+## 🏛️ Classical / Historical · 828 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -1867,12 +1734,14 @@
 | **Canonical** | **ETS: Efficient Tree Search for Inference-Time Scaling** | arXiv 2025 | efficient reasoning / inference-time scaling / KV-cache sharing / tree search | [Link](https://arxiv.org/abs/2502.13575) | [Repo](https://github.com/SqueezeAILab/ETS) |
 | **Canonical** | **Kinetics: Rethinking Test-Time Scaling Laws** | arXiv 2025 | efficient reasoning / test-time scaling / sparse attention / inference cost modeling | [Link](https://arxiv.org/abs/2506.05333) | [Repo](https://github.com/Infini-AI-Lab/Kinetics) |
 | **Canonical** | **Continuum: Efficient and Robust Multi-Turn LLM Agent Scheduling with KV Cache Time-to-Live** | arXiv 2025 / Berkeley EECS TR 2026 | agentic LLM serving; KV cache management; multi-turn scheduling; tool-aware serving | [Link](https://arxiv.org/abs/2511.02230) | [Repo](https://github.com/Hanchenli/vllm-continuum) |
+| **Canonical** | **$S^3$: Spectral Null-Space Swap Makes Reasoning Models Efficient** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.37976) | — |
 | **Canonical** | **$T^5$: Twin-Critic Training for Token-Level Thoughts in Reinforcement Mid-Training** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2609.32791) | — |
 | **Canonical** | **3D-MoE: Towards Spatial Intelligence with Mixture-of-Experts for 3D Reasoning and Action Generation** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2501.16698) | — |
 | **Canonical** | **A Data-Driven Distributed Control Scheme: Learning Multi-Objective Agent-Based MPC for Path-Tracking** | arXiv 2026 | vla_wam_physical_ai_serving | [Link](https://arxiv.org/abs/2609.12142) | — |
 | **Canonical** | **A Universal Context-Reuse Layer for Cross-Model KV Sharing** | arXiv 2026 | KV cache / LLM serving / cross-model context reuse / multi-agent inference | [Link](https://arxiv.org/abs/2608.30963) | — |
 | **Canonical** | **A Voice-Interactive Multi-Agent System for Smart Operating Rooms: Architecture Design and Key Technologies** | arXiv 2026 | LLM serving / agent systems / KV cache / streaming execution | [Link](https://arxiv.org/abs/2609.11231) | — |
 | **Canonical** | **A*-Thought-V2: Efficient Latent Reasoning via Geometric Dynamics of LLM** | arXiv 2026 | efficient reasoning/agent systems / latent reasoning / token compression / efficient training | [Link](https://arxiv.org/abs/2609.07821) | — |
+| **Canonical** | **Acceleration of Diffusion Language Model through Discrete Average Generator** | arXiv 2026 | diffusion,efficient_reasoning | [Link](https://arxiv.org/abs/2609.38364) | — |
 | **Canonical** | **Act First, Reason Later: Accelerating On-Policy Distillation for Multi-Turn Agents via Reference-Conditioned Inverse Dynamics** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.36608) | — |
 | **Canonical** | **ActKV: Efficient LLM Agents through Action-Guided KV Cache Management** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.31395) | — |
 | **Canonical** | **Adaptive Activation Steering for Efficient LLM Reasoning via Closed-Loop PID Control** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2506.18831) | — |
@@ -1886,6 +1755,7 @@
 | **Canonical** | **AgentLoop: Runtime Control of Slot-closed Execution Loops for Tool-augmented LLM Agents** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2609.33315) | — |
 | **Canonical** | **AgentRouter: Heterogeneous Model Routing for Cost-Optimal Multi-Step Agentic Workflows** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.22951) | — |
 | **Canonical** | **AgileLog: A Forkable Shared Log for Agents on Data Streams** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2604.14590) | — |
+| **Canonical** | **AIM: Agentic Idea Management for Automated Research** | arXiv 2026 | efficient reasoning/agent systems / automated research / resource allocation | [Link](https://arxiv.org/abs/2609.38445) | — |
 | **Canonical** | **AInfer-PD: Communication-Safe In-Place Prefill-Decode Multiplexing for Distributed MoE Rollouts** | arXiv 2026 | LLM serving / agentic RL rollout / prefill-decode multiplexing / distributed MoE / communication | [Link](https://arxiv.org/abs/2609.00993) | — |
 | **Canonical** | **AKTS: Sub-Microsecond Kernel Policy Switching for Language-Model Agents** | arXiv 2026 | LLM serving / agent systems / kernel runtime | [Link](https://arxiv.org/abs/2609.12276) | — |
 | **Canonical** | **AlgoEvo: Self-Evolving Agentic Search for Automated Algorithm Discovery** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.15820) | — |
@@ -1980,6 +1850,7 @@
 | **Canonical** | **Evidence-Inference Reconstruction: When The Evidence Is Recalled But The Reasoning Goes Wrong** | arXiv 2026 | efficient_reasoning_agent | [Link](https://arxiv.org/abs/2609.33778) | — |
 | **Canonical** | **EviRCA: Decoupling Evidence Extraction from Reasoning for Microservice Root-Cause Analysis** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.19825) | — |
 | **Canonical** | **ExpBoN: Exponential-Noise Best-of-$n$ for Efficient Test-Time LLM Alignment** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.21899) | — |
+| **Canonical** | **Extending FunctionGemma for Practical On-Device Mobile Function Calling** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.25373) | — |
 | **Canonical** | **Extremely Sparse Supervision Incentivizes Reasoning Ability** | arXiv 2026 | efficient reasoning/agent systems / post-training efficiency / sparse supervision | [Link](https://arxiv.org/abs/2609.04565) | — |
 | **Canonical** | **Fast-WAM: Do World Action Models Need Test-time Future Imagination?** | arXiv 2026 | VLA/WAM/Physical AI serving / world-action model inference / test-time video elimination | [Link](https://arxiv.org/abs/2603.16666) | [Repo](https://yuantianyuan01.github.io/FastWAM/) |
 | **Canonical** | **Fathom: Per-Query Read Depth for Sparse Decoding over Offloaded KV Caches** | arXiv 2026 | KV cache/long-context / sparse decoding / offload | [Link](https://arxiv.org/abs/2609.17652) | — |
@@ -2027,12 +1898,14 @@
 | **Canonical** | **Jev-Mobile: Jev as an Executor for Mobile GUI Agents** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.30186) | — |
 | **Canonical** | **Just-In-Time Reinforcement Learning: Continual Learning in LLM Agents Without Gradient Updates** | arXiv 2026 | reasoning_agent | [Link](https://arxiv.org/abs/2601.18510) | — |
 | **Canonical** | **KAIROS: Stateful, Context-Aware Power-Efficient Agentic Inference Serving** | arXiv 2026 | agentic LLM serving; power efficiency; context-aware GPU DVFS; memory-aware scheduling; multi-instance routing | [Link](https://arxiv.org/abs/2604.16682) | — |
+| **Canonical** | **Kernel-Managed Shared Memory for System-Wide Personalization** | arXiv 2026 | efficient reasoning/agent systems / memory / agent runtime / context management | [Link](https://arxiv.org/abs/2609.10144) | — |
 | **Canonical** | **KernelClaw: A Multi-Agent Framework for GPU Kernel Optimization with Dual-Memory Mechanisms** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2603.10085) | — |
 | **Canonical** | **KernelOPT: Dispatch-Aware Agentic Search for GPU Kernel Optimization** | arXiv 2026 | GPU kernel/DSL/compilers | [Link](https://arxiv.org/abs/2609.30059) | — |
 | **Canonical** | **Know When to Stop, Where to Restart: Accelerating Multi-Turn Agentic On-Policy Distillation** | arXiv 2026 | efficient_agent_training | [Link](https://arxiv.org/abs/2609.14636) | — |
 | **Canonical** | **Knowing When Thinking Is Not Enough: Teaching Small Reasoning Models to Reason Beyond Their Parametric Knowledge** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34327) | — |
 | **Canonical** | **Knowledge-Based Zero-Replay Debugging of Multi-Agent LLM Traces** | arXiv 2026 | efficient_reasoning_agent | [Link](https://arxiv.org/abs/2606.14805) | — |
 | **Canonical** | **KREX: Concurrent Kernel Benchmarking on Shared GPUs via Region-Granular Exclusivity** | arXiv 2026 | GPU kernel/DSL/compilers | [Link](https://arxiv.org/abs/2609.30057) | — |
+| **Canonical** | **KV-streams for Efficient Compaction in Agentic Reinforcement Learning** | arXiv 2026 | llm_serving,kv,gen,agent | [Link](https://arxiv.org/abs/2609.35750) | — |
 | **Canonical** | **KVCMAS: Efficient KV cache Correction for Shared Context in Multi-Agent Systems** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34060) | — |
 | **Canonical** | **KVMem: Virtualizing Million-Token Agent Workspaces on a Consumer GPU** | arXiv 2026 | KV cache/long-context / efficient reasoning/agent systems / memory virtualization | [Link](https://arxiv.org/abs/2609.04852) | — |
 | **Canonical** | **LADDER: Graph-Guided Diffusion Language Models for Efficient Multi-Hop Reasoning** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2609.24346) | — |
@@ -2073,10 +1946,12 @@
 | **Canonical** | **Memory Compression for High-Fanout Agent Sandboxes** | arXiv 2026 | efficient reasoning/agent systems / sandbox memory / runtime compression | [Link](https://arxiv.org/abs/2609.11294) | — |
 | **Canonical** | **MemoryLACE: Memory Lifecycle-Aware Consolidation and Evidence Retrieval** | arXiv 2026 | efficient reasoning/agent systems / long-term agent memory / runtime efficiency | [Link](https://arxiv.org/abs/2609.03201) | — |
 | **Canonical** | **Message Passing Enables Efficient Reasoning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2607.01077) | — |
+| **Canonical** | **MILO: Automated Harness Discovery via Orchestrated Multi-Agent Evolution** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2609.38349) | — |
 | **Canonical** | **MINERVA: How Small Can a Manipulation Policy Be and Still Solve LIBERO?** | arXiv 2026 | VLA/WAM/Physical AI / compact policy / deployment efficiency | [Link](https://arxiv.org/abs/2609.03715) | — |
 | **Canonical** | **Missing Old Logits in Asynchronous Agentic RL: Semantic Mismatch and Repair Methods for Off-Policy Correction** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2605.12070) | — |
 | **Canonical** | **Mitigating the Length-Scaling Tax with Online Distillation** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2609.38854) | — |
 | **Canonical** | **Mix-Quant: Quantized Prefilling, Precise Decoding for Agentic LLMs** | arXiv 2026 | agentic LLM inference; quantized prefill; NVFP4; prefill-decode disaggregation | [Link](https://arxiv.org/abs/2605.20315) | [Repo](https://github.com/haiquanlu/Mix-Quant) |
+| **Canonical** | **MLEvolve: A Self-Evolving Framework for Automated Machine Learning Algorithm Discovery** | arXiv 2026 | efficient-agentic-algorithm-discovery | [Link](https://arxiv.org/abs/2606.06473) | — |
 | **Canonical** | **MM-ContextFold: Context Folding for Multimodal Agentic Retrieval** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.23121) | — |
 | **Canonical** | **Molt: A Scalable PyTorch-Native Training Framework for Agentic Reinforcement Learning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2607.21653) | — |
 | **Canonical** | **MOSAIC: More LLMs, Less Cost through Collaborative Reasoning for Compiler Optimizations** | arXiv 2026 | kernel | [Link](https://arxiv.org/abs/2602.01935) | — |
@@ -2093,6 +1968,7 @@
 | **Canonical** | **Orla: A Library for Serving LLM-Based Multi-Agent Systems** | arXiv 2026 | efficient reasoning/agent systems; LLM serving; multi-agent runtime; workflow scheduling; KV cache management | [Link](https://arxiv.org/abs/2603.13605) | [Repo](https://orlaserver.github.io/) |
 | **Canonical** | **PACE: Policy-Native Adaptive Decision Timing for Long-Horizon Reasoning** | arXiv 2026 | reasoning_agent | [Link](https://arxiv.org/abs/2605.09860) | — |
 | **Canonical** | **PackServe: SLO-Aware Request Scheduling for Agentic LLM Serving at Scale** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33224) | — |
+| **Canonical** | **PANDA: A Decentralized Architecture with Flexible Orchestration for Scalable, Fault-Tolerant Multi-Agent Systems** | arXiv 2026 | efficient reasoning/agent systems / multi-agent serving / orchestration | [Link](https://arxiv.org/abs/2609.38482) | — |
 | **Canonical** | **PARSER: Read in Parallel, Reason in Depth for Long-Context LLM Agents** | arXiv 2026 | efficient reasoning/agent systems / long-context / parallel inference | [Link](https://arxiv.org/abs/2609.06702) | — |
 | **Canonical** | **PastForward: Faster On-Device GUI Agents via Computational Experience Reuse** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.32166) | — |
 | **Canonical** | **Pay for Hints, Not Answers: LLM Shepherding for Cost-Efficient Inference** | arXiv 2026 | llm_serving,efficient_reasoning | [Link](https://arxiv.org/abs/2601.22132) | — |
@@ -2107,6 +1983,8 @@
 | **Canonical** | **PowerMarketJax: A JAX Benchmark Suite for Multi-Agent Reinforcement Learning in Power Markets** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.37321) | — |
 | **Canonical** | **PReCache: Efficient KV Cache Sharing for Multi-LoRA Agents via Low-Rank Precomputation and Neutral Reconstruction** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34054) | — |
 | **Canonical** | **Prefill-Free Cross-Family KV Cache Transfer for Heterogeneous Multi-Agent LLMs** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.32259) | — |
+| **Canonical** | **PrefixFlow: Training-Time KV Caching for Schedule-Level Prefix Reuse in LLM RL Training** | arXiv 2026 | kv,moe,dist | [Link](https://arxiv.org/abs/2606.01143) | — |
+| **Canonical** | **Prompts Live on an Arc: Gaussian Curricula in Fisher--Rao Coordinates for Rollout-Efficient GRPO** | arXiv 2026 | efficient_reasoning_agent | [Link](https://arxiv.org/abs/2609.38018) | — |
 | **Canonical** | **Protocol-Preserving Context Trimming for Agentic Workflows: Benefits, Failure Regimes, and Budget Guardrails** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2609.16461) | — |
 | **Canonical** | **PuzzleJAX: A Benchmark for Reasoning and Learning** | arXiv 2026 | GPU kernel/DSL/compilers | [Link](https://arxiv.org/abs/2508.16821) | — |
 | **Canonical** | **PV-WM: A Heterogeneous Micro-Macro World Model for Articulated Pedestrian-Vehicle Co-Rollout** | arXiv 2026 | VLA/WAM/Physical AI serving / world model / efficient rollout | [Link](https://arxiv.org/abs/2609.07328) | — |
@@ -2115,7 +1993,9 @@
 | **Canonical** | **RankGround: Efficient High-Resolution GUI Grounding via Lightweight Reranker-Guided Crop Selection** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.18690) | — |
 | **Canonical** | **Reason What Matters: Retrieval-Grounded Reasoning for Universal Multimodal Embeddings** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.15296) | — |
 | **Canonical** | **Recursive Agent Optimization** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2605.06639) | — |
+| **Canonical** | **RecurTrace: Adaptive Latent Reasoning with Loop-Time Memory** | arXiv 2026 | efficient reasoning/agent systems / adaptive compute / latent recurrence | [Link](https://arxiv.org/abs/2609.03379) | — |
 | **Canonical** | **ReDiF: Resource-Efficient Few-Step Diffusion Distillation via Reinforcement Learning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2512.22802) | — |
+| **Canonical** | **REFLEX: Reflective Evolution from LLM Experience** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2606.16496) | — |
 | **Canonical** | **REGEN: Replay-recycling for Expert-to-Generalist distillation with Offline Reinforcement Learning** | arXiv 2026 | reasoning_agent | [Link](https://arxiv.org/abs/2607.19450) | [Repo](https://github.com/yunjie-sysu/REGEN) |
 | **Canonical** | **Reinforcement Learning for Code Optimization** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2607.25970) | — |
 | **Canonical** | **Reinforcement Learning for Real-Time Vision-Language-Action Policies** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.18207) | — |
@@ -2128,6 +2008,7 @@
 | **Canonical** | **Reward-rate Policy Gradient for Efficient Machine Learning Engineering Agents** | arXiv 2026 | efficient_reasoning,agent_systems,rl | [Link](https://arxiv.org/abs/2609.36393) | — |
 | **Canonical** | **RoofLang: Enabling AI-Driven Architecting of LLM Inference Systems** | arXiv 2026 | LLM serving / system architecture DSL / AI-driven design-space exploration | [Link](https://arxiv.org/abs/2609.12551) | — |
 | **Canonical** | **ROSS: Relearning from Self-Generated Rollouts through Selective Supervision** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.35954) | — |
+| **Canonical** | **RoutePack: Replay-Guided Expert Placement and Rollout Trajectory Scheduling for MoE Reinforcement Learning** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2608.12146) | — |
 | **Canonical** | **RR-Evict: Fine-Grained Prefix Cache Eviction beyond LRU for Agentic LLM Serving** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.32278) | — |
 | **Canonical** | **RSI-Router: Evolving Subtask-Level LLM Routing and Skills for Cost-Efficient Agents** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34712) | — |
 | **Canonical** | **SAKI: Maximal-Coupling-Routed Teacher Supervision for On-Policy Distillation** | arXiv 2026 | speculative decoding | [Link](https://arxiv.org/abs/2609.36601) | — |
@@ -2193,6 +2074,7 @@
 | **Canonical** | **VERA: Reinforcement Learning for Dynamic Memory Scaling of HPC Workloads in Kubernetes** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.19936) | — |
 | **Canonical** | **Verti-WM: A Physics-Aided Exteroceptive World Model for Off-Road Reinforcement Learning** | arXiv 2026 | physical_ai | [Link](https://arxiv.org/abs/2609.23118) | — |
 | **Canonical** | **VideoMM: Adaptive Macro-Micro Inference for Efficient Video MLLMs** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2609.16722) | — |
+| **Canonical** | **VidHarness: Evolving Agent Harnesses for Cost-Efficient Long Video Understanding** | arXiv 2026 | multimodal_serving,video_agent,frame_selection | [Link](https://arxiv.org/abs/2609.38413) | — |
 | **Canonical** | **VikingRAG: Accurate and Token-efficient Retrieval-augmented Generation over Structured Documents** | arXiv 2026 | efficient reasoning/agent systems / token-efficient RAG serving | [Link](https://arxiv.org/abs/2609.11390) | — |
 | **Canonical** | **Vision Wormhole: Latent-Space Communication in Heterogeneous Multi-Agent Systems** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2602.15382) | — |
 | **Canonical** | **VLA-Precision: Asymmetric Co-Bootstrapping for Efficient Real-World Online RL of Vision-Language-Action Models** | arXiv 2026 | VLA / Physical AI / real-world online RL / streaming runtime | [Link](https://arxiv.org/abs/2609.04355) | [Repo](https://vla-precision.github.io/) |
@@ -2405,6 +2287,7 @@
 | **Canonical** | **ReflCtrl: Controlling LLM Reflection Efficiently via Representation Engineering** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2512.13979) | — |
 | **Canonical** | **Reflection Steering: Disentangling Reflection from Reasoning in Activation Space for Token-Efficient Inference** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2608.25542) | — |
 | **Canonical** | **Reinforced Planning with Latent World Models** | Fresh / preprint | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.18669) | — |
+| **Canonical** | **Rethinking Agentic Kernel Generation for Emerging Accelerators** | Fresh / preprint | GPU kernel/DSL/compilers / efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2608.00894) | — |
 | **Canonical** | **Rethinking Expressivity and Efficiency in Test-Time Training** | Fresh / preprint | LLM serving / KV cache/long-context | [Link](https://arxiv.org/abs/2608.21308) | [Repo](https://github.com/zeyun-zhong/E2-TTT) |
 | **Canonical** | **REVISE: Validity-Guided Recovery for Online Revisions in Agent Workflows** | Fresh / preprint | LLM serving / GPU kernel/DSL/compilers / video/image generation acceleration | [Link](https://arxiv.org/abs/2609.00643) | — |
 | **Canonical** | **RISE: Adaptive Imagination for World Action Models** | Fresh / preprint | video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.20430) | — |
@@ -2444,6 +2327,7 @@
 | **Canonical** | **Tool-Making and Self-Evolving LLM Agents in Low-Latency Systems** | Fresh / preprint | LLM serving / video/image generation acceleration / efficient reasoning/agent systems / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2607.08010) | — |
 | **Canonical** | **TOPAS: Workflow-Aware Prefix-State Scheduling for Multi-Agent LLM Serving** | Fresh / preprint | agent serving / prefix cache / scheduling | [Link](https://arxiv.org/abs/2608.25523) | — |
 | **Canonical** | **TRACES: Tagging Reasoning Steps for Adaptive Cost-Efficient Early-Stopping** | Fresh / preprint | sparsity/pruning / video/image generation acceleration | [Link](https://arxiv.org/abs/2604.21057) | — |
+| **Canonical** | **TRCA: Transition-wise Rubric Credit Assignment for Long-horizon LLM Agents** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2608.16156) | — |
 | **Canonical** | **TRIAGE: Three-level Routing and Intelligent Agent Guidance for Efficient Execution** | Fresh / preprint | sparsity/pruning | [Link](https://arxiv.org/abs/2609.01428) | — |
 | **Canonical** | **Verify Smarter, Evolve Further: Efficient Harness Evolution through Behavior-Aware Verification** | Fresh / preprint | Efficient ML / AI Infra | [Link](https://arxiv.org/abs/2608.27311) | [Repo](https://github.com/jhxu5214/HarnessLens) |
 | **Canonical** | **View-oriented Conversation Compiler for Agent Trace Analysis** | Fresh / preprint | GPU kernel/DSL/compilers / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2603.29678) | — |
