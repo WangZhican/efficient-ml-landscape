@@ -1,6 +1,6 @@
 # 01 · LLM Serving
 
-> **2070 canonical papers** mapped here, plus a broader **1552-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **2071 canonical papers** mapped here, plus a broader **1552-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -1561,7 +1561,7 @@
 | **P2 · Relevant** | **A Drosophila Whole-Connectome Network Can Learn Human-Designed Cognitive Tasks** | arXiv 2026 | llm_serving,gen | [Link](https://arxiv.org/abs/2610.10014) | — |
 | **P2 · Relevant** | **A differentiable Lagrangian-coupled 3D Gaussian Splatting-SPH model for forward simulation and inverse analysis in solid mechanics** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.04336) | — |
 
-## 🏛️ Classical / Historical · 1673 canonical
+## 🏛️ Classical / Historical · 1674 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -3136,6 +3136,7 @@
 | **Canonical** | **Unleash All Cores: Asymmetry-Aware Scalable DNN Inference on Mobile CPUs** | OSDI 2026 | edge AI / DNN inference / mobile CPU | [Link](https://www.usenix.org/conference/osdi26/presentation/sang) | — |
 | **Canonical** | **Weave: Efficient Co-Scheduling for Disaggregated RL Post-Training** | OSDI 2026 | efficient reasoning / RL post-training systems | [Link](https://www.usenix.org/conference/osdi26/presentation/wu-tianyuan) | — |
 | **Canonical** | **EcoServe: Enabling Cost-effective LLM Serving with Proactive Intra- and Inter-Instance Orchestration** | OSDI 2026 / arXiv | LLM serving; prefill-decode disaggregation; scheduling; commodity interconnect; cost-efficient inference | [Link](https://arxiv.org/abs/2504.18154) | — |
+| **Canonical** | **An Efficient Algorithm for Streaming BPE Tokenization** | PLDI 2026 | LLM serving/tokenization | [Link](https://pldi26.sigplan.org/details/pldi-2026-papers/87/An-Efficient-Algorithm-for-Streaming-BPE-Tokenization) | — |
 | **Canonical** | **ChituDiffusion: A Data-Characteristic-Aware Serving System for Diffusion Models** | PPoPP 2026 | diffusion serving / compile-runtime co-optimization | [Link](https://doi.org/10.1145/3774934.3786424) | — |
 | **Canonical** | **ElasGNN: An Elastic Training Framework for Distributed GNN Training** | PPoPP 2026 | distributed GNN training / elastic scheduling | [Link](https://ppopp26.sigplan.org/details/PPoPP-2026-papers/30/ElasGNN-An-Elastic-Training-Framework-for-Distributed-GNN-Training) | — |
 | **Canonical** | **High-Throughput Non-uniformly Quantized 3-bit LLM Inference** | PPoPP 2026 | 3-bit LLM quantization / GPU kernels | [Link](https://doi.org/10.1145/3774934.3786423) | — |

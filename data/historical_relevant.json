@@ -72614,6 +72614,27 @@
         "GPU Kernel / DSL / Compiler",
         "Edge / Cloud / Heterogeneous AI"
       ]
+    },
+    {
+      "title": "Modular GPU Programming with Typed Perspectives Distinguished Paper",
+      "venue": "PLDI 2026",
+      "topic": "GPU DSL/compiler",
+      "arxiv": "2511.11939",
+      "doi": "10.1145/3808290",
+      "official_id": "doi:10.1145/3808290",
+      "paper_url": "https://arxiv.org/abs/2511.11939",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "The official abstract describes Prism, a low-level GPU language with typed execution perspectives, Tensor Core and asynchronous movement support, and performance comparable to hand-optimized kernels. High-value GPU DSL work, but not exclusively ML workloads.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
+      ]
     }
   ],
   "historical_p2": [
@@ -176015,6 +176036,176 @@
       "is_latest_30d": false,
       "directions": [
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "A Mechanized Algebra of Verified Data Structures for Optimizing Sparse Tensor Programs",
+      "venue": "PLDI 2026",
+      "topic": "Sparse tensor compiler",
+      "arxiv": "",
+      "doi": "10.1145/3808261",
+      "official_id": "doi:10.1145/3808261",
+      "paper_url": "https://pldi26.sigplan.org/details/pldi-2026-papers/18/A-Mechanized-Algebra-of-Verified-Data-Structures-for-Optimizing-Sparse-Tensor-Program",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Formal sparse tensor data structures and compiler optimization are adjacent to sparsity and ML kernel compilation; retain metadata for later review.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Sparsity / Pruning",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Compiling to Recurrent Neurons",
+      "venue": "PLDI 2026",
+      "topic": "Differentiable programming",
+      "arxiv": "2511.14953",
+      "doi": "10.1145/3808345",
+      "official_id": "doi:10.1145/3808345",
+      "paper_url": "https://arxiv.org/abs/2511.14953",
+      "code_url": "https://github.com/joeyginorio/compiling-to-recurrent-neurons",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "The official PLDI and arXiv abstracts describe compiling iteration into recurrent neurons and improving data efficiency on a small image-task evaluation; retain as an algorithmic-efficiency reference, not a serving speedup.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving"
+      ]
+    },
+    {
+      "title": "GradInf: Gradient Estimation as Probabilistic Inference",
+      "venue": "PLDI 2026",
+      "topic": "ML training algorithms",
+      "arxiv": "",
+      "doi": "10.1145/3808321",
+      "official_id": "doi:10.1145/3808321",
+      "paper_url": "https://pldi26.sigplan.org/details/pldi-2026-papers/78/GradInf-Gradient-Estimation-as-Probabilistic-Inference",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Gradient estimation through probabilistic inference is relevant to algorithmic training efficiency, but not a direct serving/accelerator result.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "Incremental Computation for Efficient Programmable Inference in Probabilistic Programs",
+      "venue": "PLDI 2026",
+      "topic": "Efficient inference",
+      "arxiv": "",
+      "doi": "10.1145/3808316",
+      "official_id": "doi:10.1145/3808316",
+      "paper_url": "https://pldi26.sigplan.org/details/pldi-2026-papers/73/Incremental-Density-Calculation-for-Efficient-Programmable-Inference-in-Probabilistic",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Incremental probabilistic-program inference is adjacent to efficient reasoning and agent systems; retain as a low-priority algorithmic reference.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Kuiper: Correct and Efficient GPU Programming with Dependent Types and Separation Logic",
+      "venue": "PLDI 2026",
+      "topic": "GPU DSL/compiler",
+      "arxiv": "",
+      "doi": "10.1145/3808280",
+      "official_id": "doi:10.1145/3808280",
+      "paper_url": "https://pldi26.sigplan.org/details/pldi-2026-papers/37/Kuiper-Correct-and-Efficient-GPU-Programming-with-Dependent-Types-and-Separation-Log",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "A correctness-oriented GPU programming language with efficient kernels; relevant to GPU DSL/runtime infrastructure, but not directly ML-specific.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "SIMT-Step Execution: A Flexible Operational Semantics For GPU Subgroup Behavior",
+      "venue": "PLDI 2026",
+      "topic": "GPU kernel/runtime",
+      "arxiv": "",
+      "doi": "10.1145/3808297",
+      "official_id": "doi:10.1145/3808297",
+      "paper_url": "https://pldi26.sigplan.org/details/pldi-2026-papers/54/SIMT-Step-Execution-A-Flexible-Operational-Semantics-For-GPU-Subgroup-Behavior",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "GPU subgroup semantics are useful for kernel and DSL/compiler correctness; low priority for performance-focused ML.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "SuperCollider: Scalable and Effective Data Race Detection for CUDA",
+      "venue": "PLDI 2026",
+      "topic": "GPU runtime tooling",
+      "arxiv": "",
+      "doi": "10.1145/3808339",
+      "official_id": "doi:10.1145/3808339",
+      "paper_url": "https://pldi26.sigplan.org/details/pldi-2026-papers/96/SuperCollider-Scalable-and-Effective-Data-Race-Detection-for-CUDA",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "CUDA data-race detection is useful infrastructure for GPU kernels, but the paper is a debugging tool rather than an ML acceleration method.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Uniformity Analysis in the WebGPU Shading Language",
+      "venue": "PLDI 2026",
+      "topic": "GPU compiler analysis",
+      "arxiv": "",
+      "doi": "10.1145/3808331",
+      "official_id": "doi:10.1145/3808331",
+      "paper_url": "https://pldi26.sigplan.org/details/pldi-2026-papers/88/Uniformity-Analysis-in-the-WebGPU-Shading-Language",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "WebGPU uniformity analysis is adjacent to GPU compiler correctness and runtime safety; low priority for efficient ML.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
       ]
     }
   ]

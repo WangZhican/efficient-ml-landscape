@@ -1,6 +1,6 @@
 # 08 · GPU Kernel / DSL / Compiler
 
-> **1061 canonical papers** mapped here, plus a broader **412-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **1062 canonical papers** mapped here, plus a broader **412-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -421,7 +421,7 @@
 | **P0 · Strong** | **A Thread-Register Decoupled GPU Execution Model for Efficient Tensor Computation** | Fresh / preprint | GPU execution architecture / tensor cores / LLM serving | [Link](https://arxiv.org/abs/2608.19628) | — |
 | **P0 · Strong** | **A Distributed View from a Single GPU: RankLens for Distributed Training** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18009) | — |
 
-## 🏛️ Classical / Historical · 885 canonical
+## 🏛️ Classical / Historical · 886 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -1232,6 +1232,7 @@
 | **Canonical** | **Compiling Strassen-like Matrix Multiplication Algorithms to Fast CUDA Kernels** | PLDI 2026 | GPU compiler / matrix multiplication / LLM inference kernel | [Link](https://pldi26.sigplan.org/details/pldi-2026-papers/24/Compiling-Strassen-like-Matrix-Multiplication-Algorithms-to-Fast-CUDA-Kernels) | [Repo](https://github.com/microsoft/subcuber) |
 | **Canonical** | **Modular GPU Programming with Typed Perspectives** | PLDI 2026 | GPU kernel DSL / compiler / Tensor Core programming | [Link](https://arxiv.org/abs/2511.11939) | — |
 | **Canonical** | **Neptune: Advanced ML Operator Fusion for Locality and Parallelism on GPUs** | PLDI 2026 | ML compiler / attention operator fusion | [Link](https://arxiv.org/abs/2510.08726) | [Repo](https://github.com/uiuc-arc/neptune) |
+| **Canonical** | **SparseZETA: Intelligent Auto-tuner for Designing High-Performance SpMV Programs** | PLDI 2026 | Sparse ML kernels | [Link](https://pldi26.sigplan.org/details/pldi-2026-papers/70/SparseZETA-Intelligent-Auto-tuner-for-Designing-High-Performance-SpMV-Programs) | — |
 | **Canonical** | **Accelerating Sparse Transformer Inference on GPU** | PPoPP 2026 | sparse transformer inference + mixed-precision quantization | [Link](https://arxiv.org/abs/2506.06095) | — |
 | **Canonical** | **BEEMS: Boosting Machine Vision Efficiency via Computation Graph-Based Memory Smoothing** | PPoPP 2026 | vision foundation model inference / memory-aware compiler | [Link](https://doi.org/10.1145/3774934.3786430) | — |
 | **Canonical** | **CCL-D: A High-Precision Diagnostic System for Slow and Hang Anomalies in Large-Scale Model Training** | PPoPP 2026 | distributed training infrastructure / diagnosis | [Link](https://doi.org/10.1145/3774934.3786429) | — |

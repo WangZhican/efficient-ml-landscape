@@ -107773,6 +107773,27 @@
     ]
   },
   {
+    "title": "An Efficient Algorithm for Streaming BPE Tokenization",
+    "venue": "PLDI 2026",
+    "topic": "LLM serving/tokenization",
+    "arxiv": "",
+    "doi": "10.1145/3808330",
+    "official_id": "doi:10.1145/3808330",
+    "paper_url": "https://pldi26.sigplan.org/details/pldi-2026-papers/87/An-Efficient-Algorithm-for-Streaming-BPE-Tokenization",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official PLDI abstract reports a linear-time, low-memory streaming BPE algorithm. This directly targets tokenizer throughput and memory in LLM serving/data pipelines.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving"
+    ]
+  },
+  {
     "title": "Compiling Strassen-like Matrix Multiplication Algorithms to Fast CUDA Kernels",
     "venue": "PLDI 2026",
     "topic": "GPU compiler / matrix multiplication / LLM inference kernel",
@@ -107836,6 +107857,28 @@
       "Efficient Attention",
       "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "SparseZETA: Intelligent Auto-tuner for Designing High-Performance SpMV Programs",
+    "venue": "PLDI 2026",
+    "topic": "Sparse ML kernels",
+    "arxiv": "",
+    "doi": "10.1145/3808313",
+    "official_id": "doi:10.1145/3808313",
+    "paper_url": "https://pldi26.sigplan.org/details/pldi-2026-papers/70/SparseZETA-Intelligent-Auto-tuner-for-Designing-High-Performance-SpMV-Programs",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official PLDI abstract describes behavior-cloning plus self-training for single-pass high-performance SpMV auto-tuning, with 1.27–15.66x speedups over state-of-the-art auto-tuners. Directly relevant to sparse ML inference and kernel autotuning.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {

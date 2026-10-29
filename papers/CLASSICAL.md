@@ -1,6 +1,6 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **4094 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **4096 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
@@ -4287,6 +4287,16 @@
 | **Canonical** | **Hyena Hierarchy: Towards Larger Convolutional Language Models** | ICML 2023 | efficient attention; KV cache/long-context | [Link](https://proceedings.mlr.press/v202/poli23a.html) | — |
 | **Canonical** | **Simple Hardware-Efficient Long Convolutions for Sequence Modeling** | ICML 2023 | GPU kernel/DSL/compilers; efficient attention | [Link](https://proceedings.mlr.press/v202/fu23a.html) | — |
 
+## PLDI 2026 · 5
+
+| Priority | Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|---|
+| **Canonical** | **An Efficient Algorithm for Streaming BPE Tokenization** | PLDI 2026 | LLM serving/tokenization | [Link](https://pldi26.sigplan.org/details/pldi-2026-papers/87/An-Efficient-Algorithm-for-Streaming-BPE-Tokenization) | — |
+| **Canonical** | **Compiling Strassen-like Matrix Multiplication Algorithms to Fast CUDA Kernels** | PLDI 2026 | GPU compiler / matrix multiplication / LLM inference kernel | [Link](https://pldi26.sigplan.org/details/pldi-2026-papers/24/Compiling-Strassen-like-Matrix-Multiplication-Algorithms-to-Fast-CUDA-Kernels) | [Repo](https://github.com/microsoft/subcuber) |
+| **Canonical** | **Modular GPU Programming with Typed Perspectives** | PLDI 2026 | GPU kernel DSL / compiler / Tensor Core programming | [Link](https://arxiv.org/abs/2511.11939) | — |
+| **Canonical** | **Neptune: Advanced ML Operator Fusion for Locality and Parallelism on GPUs** | PLDI 2026 | ML compiler / attention operator fusion | [Link](https://arxiv.org/abs/2510.08726) | [Repo](https://github.com/uiuc-arc/neptune) |
+| **Canonical** | **SparseZETA: Intelligent Auto-tuner for Designing High-Performance SpMV Programs** | PLDI 2026 | Sparse ML kernels | [Link](https://pldi26.sigplan.org/details/pldi-2026-papers/70/SparseZETA-Intelligent-Auto-tuner-for-Designing-High-Performance-SpMV-Programs) | — |
+
 ## VLSI Symposium 2026 · 5
 
 | Priority | Paper | Venue | Topic | Paper | Code |
@@ -4348,14 +4358,6 @@
 | **Canonical** | **Eliminating Redundancy: Ultra-compact Code Generation for Programmable Dataflow Accelerators** | CGO 2026 | AI accelerator compiler; dataflow accelerator; compact code generation; loop optimization; heterogeneous AI systems | [Link](https://2026.cgo.org/details/cgo-2026-papers/18/Eliminating-Redundancy-Ultra-compact-Code-Generation-for-Programmable-Dataflow-Accel) | — |
 | **Canonical** | **Enabling Spill-Free Compilation via Affine-Based Live Range Reduction Optimization** | CGO 2026 | AI accelerator compiler; dataflow accelerator; register pressure; spill-free compilation; heterogeneous AI systems | [Link](https://2026.cgo.org/details/cgo-2026-papers/2/Enabling-Spill-Free-Compilation-via-Affine-Based-Live-Range-Reduction-Optimization) | — |
 | **Canonical** | **Hexcute: A Compiler Framework for Automating Layout Synthesis in GPU Programs** | CGO 2026 | GPU kernel/DSL/compilers / mixed-precision operators / layout synthesis / vLLM | [Link](https://arxiv.org/abs/2504.16214) | — |
-
-## PLDI 2026 · 3
-
-| Priority | Paper | Venue | Topic | Paper | Code |
-|---|---|---|---|---|---|
-| **Canonical** | **Compiling Strassen-like Matrix Multiplication Algorithms to Fast CUDA Kernels** | PLDI 2026 | GPU compiler / matrix multiplication / LLM inference kernel | [Link](https://pldi26.sigplan.org/details/pldi-2026-papers/24/Compiling-Strassen-like-Matrix-Multiplication-Algorithms-to-Fast-CUDA-Kernels) | [Repo](https://github.com/microsoft/subcuber) |
-| **Canonical** | **Modular GPU Programming with Typed Perspectives** | PLDI 2026 | GPU kernel DSL / compiler / Tensor Core programming | [Link](https://arxiv.org/abs/2511.11939) | — |
-| **Canonical** | **Neptune: Advanced ML Operator Fusion for Locality and Parallelism on GPUs** | PLDI 2026 | ML compiler / attention operator fusion | [Link](https://arxiv.org/abs/2510.08726) | [Repo](https://github.com/uiuc-arc/neptune) |
 
 ## arXiv · 2
 
