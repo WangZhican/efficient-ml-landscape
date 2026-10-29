@@ -2768,6 +2768,27 @@
     ]
   },
   {
+    "title": "Kaleidoscope: An Efficient, Learnable Representation For All Structured Linear Maps",
+    "venue": "arXiv 20",
+    "topic": "structured linear maps; model inference acceleration",
+    "arxiv": "2012.14966",
+    "doi": "",
+    "official_id": "arXiv:2012.14966",
+    "paper_url": "https://arxiv.org/abs/2012.14966",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Kaleidoscope matrices provide near-optimal parameter/time complexity for structured maps and the paper reports 36% faster end-to-end Transformer inference in a language-translation task.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "MCUNet: Tiny Deep Learning on IoT Devices",
     "venue": "arXiv 20",
     "topic": "edge/cloud/heterogeneous AI systems; efficient neural architecture; on-device inference",
@@ -35904,6 +35925,48 @@
     ]
   },
   {
+    "title": "Video Instance Segmentation using Inter-Frame Communication Transformers",
+    "venue": "arXiv 21",
+    "topic": "video transformers; efficient inter-frame communication",
+    "arxiv": "2106.03299",
+    "doi": "",
+    "official_id": "arXiv:2106.03299",
+    "paper_url": "https://arxiv.org/abs/2106.03299",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "IFC uses concise memory tokens to reduce frame-to-frame communication overhead and reports 89.4 FPS, making it a high-value efficient video-transformer design.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "VISOLO: Grid-Based Space-Time Aggregation for Efficient Online Video Instance Segmentation",
+    "venue": "arXiv 21",
+    "topic": "real-time video perception; online VIS",
+    "arxiv": "2112.04177",
+    "doi": "",
+    "official_id": "arXiv:2112.04177",
+    "paper_url": "https://arxiv.org/abs/2112.04177",
+    "code_url": "https://github.com/SuHoHan95/VISOLO",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "VISOLO is a single-stage grid-based online VIS model that shares/reuses features and reports 40 FPS with competitive accuracy; direct real-time efficiency contribution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Decentralized Training of Foundation Models in Heterogeneous Environments",
     "venue": "arXiv 22",
     "topic": "distributed training; heterogeneous GPU scheduling",
@@ -36021,6 +36084,27 @@
     ]
   },
   {
+    "title": "Learning to Optimize Quasi-Newton Methods",
+    "venue": "arXiv 22",
+    "topic": "efficient training; learned optimizers",
+    "arxiv": "2210.06171",
+    "doi": "",
+    "official_id": "arXiv:2210.06171",
+    "paper_url": "https://arxiv.org/abs/2210.06171",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "LODO learns quasi-Newton preconditioners online without meta-training and trains a 95k-parameter neural network at speeds comparable to standard optimizers; direct optimization-efficiency contribution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "Lite Pose: Efficient Architecture Design for 2D Human Pose Estimation",
     "venue": "arXiv 22",
     "topic": "edge AI,efficient vision,Physical AI perception",
@@ -36062,6 +36146,27 @@
     "directions": [
       "Distributed Training / Inference",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Pretraining Without Attention",
+    "venue": "arXiv 22",
+    "topic": "attention-free pretraining; SSM language models",
+    "arxiv": "2212.10544",
+    "doi": "",
+    "official_id": "arXiv:2212.10544",
+    "paper_url": "https://arxiv.org/abs/2212.10544",
+    "code_url": "https://github.com/jxiw/BiGS",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "BiGS matches BERT pretraining accuracy on GLUE and extends to 4096-token long-form pretraining without approximation, making it a high-value attention-free sequence-model alternative.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Attention"
     ]
   },
   {
@@ -36109,6 +36214,27 @@
       "Sparsity / Pruning",
       "GPU Kernel / DSL / Compiler",
       "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Augmenting conformers with structured state-space sequence models for online speech recognition",
+    "venue": "arXiv 23",
+    "topic": "online ASR; state-space sequence models",
+    "arxiv": "2309.08551",
+    "doi": "",
+    "official_id": "arXiv:2309.08551",
+    "paper_url": "https://arxiv.org/abs/2309.08551",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "S4 supplies parameter-efficient arbitrarily long left context for online ASR; the best S4+local-convolution design beats a heavily tuned Conformer on LibriSpeech WER.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
       "Edge / Cloud / Heterogeneous AI"
     ]
   },
@@ -36339,6 +36465,28 @@
       "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Resurrecting Recurrent Neural Networks for Long Sequences",
+    "venue": "arXiv 23",
+    "topic": "long-context sequence models; recurrent inference",
+    "arxiv": "2303.06349",
+    "doi": "",
+    "official_id": "arXiv:2303.06349",
+    "paper_url": "https://arxiv.org/abs/2303.06349",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The Linear Recurrent Unit recovers deep-SSM performance and matches training speed on long-range reasoning benchmarks while retaining fast recurrent inference.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -38024,6 +38172,27 @@
       "LLM Serving",
       "KV Cache / Long Context",
       "Efficient Attention"
+    ]
+  },
+  {
+    "title": "Inference Optimal VLMs Need Fewer Visual Tokens and More Parameters",
+    "venue": "arXiv 24",
+    "topic": "multimodal inference; visual-token compression",
+    "arxiv": "2411.03312",
+    "doi": "",
+    "official_id": "arXiv:2411.03312",
+    "paper_url": "https://arxiv.org/abs/2411.03312",
+    "code_url": "https://github.com/locuslab/llava-token-compression",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "ICLR 2025 workshop paper characterizes the compute-optimal LLM-size/visual-token tradeoff and develops query-guided extreme token compression; directly relevant to VLM inference efficiency.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Multimodal / MLLM Serving"
     ]
   },
   {
@@ -46823,6 +46992,28 @@
       "Efficient Attention",
       "Video / Image Generation",
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "Multi-Mixer Models: Flexible Sequence Modeling with Shared Representations",
+    "venue": "arXiv 26",
+    "topic": "hybrid sequence models; long-context inference",
+    "arxiv": "2605.28769",
+    "doi": "",
+    "official_id": "arXiv:2605.28769",
+    "paper_url": "https://arxiv.org/abs/2605.28769",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Oryx switches across attention and linear recurrence along the sequence, shares at least 90% of parameters, and preserves retrieval while using attention on less than 10% of tokens; directly addresses long-context compute/memory tradeoffs.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Efficient Attention"
     ]
   },
   {
@@ -90254,16 +90445,16 @@
   {
     "title": "100x Cost & Latency Reduction: Performance Analysis of AI Query Approximation using Lightweight Proxy Models",
     "venue": "SIGMOD 2026",
-    "topic": "AI query systems / LLM cost and latency reduction / proxy-model acceleration",
+    "topic": "LLM inference cost; proxy models; AI query approximation; database ML systems",
     "arxiv": "2603.15970",
-    "doi": "10.1145/3802002",
-    "official_id": "10.1145/3802002",
+    "doi": "",
+    "official_id": "arXiv:2603.15970",
     "paper_url": "https://arxiv.org/abs/2603.15970",
     "code_url": "",
     "formal_class": "CANONICAL_HIGH_VALUE",
     "physical_ai": false,
-    "decision": "BACKFILL_HIGH",
-    "why": "SIGMOD 2026 evaluates lightweight embedding proxy models for LLM-backed AI.IF/AI.RANK operators and reports over 100x cost and latency reduction while preserving accuracy on large analytics workloads.",
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party SIGMOD title/author record and official arXiv abstract establish lightweight embedding-based proxy models for AI query filtering/ranking; reports over 100x cost and latency reduction with accuracy preservation on datasets including 10M-row Amazon reviews.",
     "published_at": "",
     "updated_at": "",
     "is_latest_30d": false,
@@ -90275,37 +90466,16 @@
   {
     "title": "AlignedServe: Orchestrating Prefix-aware Batching to Build a High-throughput and Computing-efficient LLM Serving System",
     "venue": "SIGMOD 2026",
-    "topic": "LLM serving / prefix-aware batching / KV scheduling",
+    "topic": "LLM serving; prefix-aware batching; KV cache; throughput and latency",
     "arxiv": "2605.23389",
-    "doi": "10.1145/3802009",
-    "official_id": "",
+    "doi": "",
+    "official_id": "arXiv:2605.23389",
     "paper_url": "https://arxiv.org/abs/2605.23389",
     "code_url": "",
     "formal_class": "CANONICAL_HIGH_VALUE",
     "physical_ai": false,
-    "decision": "BACKFILL_HIGH",
-    "why": "",
-    "published_at": "",
-    "updated_at": "",
-    "is_latest_30d": false,
-    "tracking_tier": "Canonical",
-    "directions": [
-      "LLM Serving"
-    ]
-  },
-  {
-    "title": "Beluga: A CXL-Based Memory Architecture for Scalable and Efficient LLM KVCache Management",
-    "venue": "SIGMOD 2026",
-    "topic": "CXL memory / KV-cache serving",
-    "arxiv": "2511.20172",
-    "doi": "10.1145/3786627",
-    "official_id": "",
-    "paper_url": "https://arxiv.org/abs/2511.20172",
-    "code_url": "",
-    "formal_class": "CANONICAL_HIGH_VALUE",
-    "physical_ai": false,
-    "decision": "BACKFILL_HIGH",
-    "why": "",
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party SIGMOD title/author record and official arXiv abstract establish prefix-aware request batching, KV-cache-aware scheduling and GPU-to-GPU prefetch; reports up to 1.98x decoding throughput and 7.4x latency reduction.",
     "published_at": "",
     "updated_at": "",
     "is_latest_30d": false,
@@ -90313,6 +90483,30 @@
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "Beluga: A CXL-Based Memory Architecture for Scalable and Efficient LLM KVCache Management",
+    "venue": "SIGMOD 2026",
+    "topic": "LLM serving; CXL; disaggregated memory; KV cache",
+    "arxiv": "2511.20172",
+    "doi": "",
+    "official_id": "arXiv:2511.20172",
+    "paper_url": "https://arxiv.org/abs/2511.20172",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party SIGMOD title/author record and official arXiv abstract establish CXL-based shared memory for GPU KV-cache management; reports 89.6% lower TTFT and 7.35x vLLM throughput versus RDMA-based solutions.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "GPU Kernel / DSL / Compiler",
       "Edge / Cloud / Heterogeneous AI"
     ]
   },
@@ -90340,23 +90534,22 @@
   {
     "title": "CoDec: Prefix-Shared Decoding Kernel for LLMs",
     "venue": "SIGMOD 2026",
-    "topic": "LLM decoding kernel / shared-prefix attention / KV-cache memory access",
+    "topic": "GPU kernels; LLM inference; prefix sharing; attention",
     "arxiv": "2505.17694",
-    "doi": "10.1145/3802028",
-    "official_id": "10.1145/3802028",
+    "doi": "",
+    "official_id": "arXiv:2505.17694",
     "paper_url": "https://arxiv.org/abs/2505.17694",
     "code_url": "https://github.com/wzbxpy/codec",
     "formal_class": "CANONICAL_HIGH_VALUE",
     "physical_ai": false,
-    "decision": "BACKFILL_HIGH",
-    "why": "SIGMOD 2026 direct LLM inference-kernel paper. Coalesces computation across shared prefixes to reduce memory-intensive decode attention; official implementation supports CUDA and Ascend.",
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party SIGMOD title/author record and official arXiv abstract establish a dedicated prefix-shared decode attention kernel with workload balancing; reports 1.9x attention speedup, 120.9x fewer memory accesses, and up to 3.8x end-to-end time-per-output-token speedup versus vLLM.",
     "published_at": "",
     "updated_at": "",
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving",
-      "KV Cache / Long Context",
       "Efficient Attention",
       "GPU Kernel / DSL / Compiler"
     ]
@@ -90428,16 +90621,16 @@
   {
     "title": "DepCache: A KV Cache Management Framework for GraphRAG with Dependency Attention",
     "venue": "SIGMOD 2026",
-    "topic": "GraphRAG dependency attention / KV-cache management",
+    "topic": "GraphRAG; KV cache; dependency attention; inference reuse",
     "arxiv": "",
     "doi": "10.1145/3769778",
-    "official_id": "DOI_10.1145_3769778",
-    "paper_url": "https://doi.org/10.1145/3769778",
+    "official_id": "doi:10.1145/3769778",
+    "paper_url": "https://dl.acm.org/doi/10.1145/3769778",
     "code_url": "https://github.com/Sanzo00/DepCache",
-    "formal_class": "CANONICAL_HIGH_VALUE",
+    "formal_class": "WATCHLIST_HIGH_VALUE",
     "physical_ai": false,
-    "decision": "BACKFILL_HIGH",
-    "why": "",
+    "decision": "P2_RELEVANT_LOW_PRIORITY",
+    "why": "First-party SIGMOD accepted-paper title/author/DOI identity directly covers KV-cache management for GraphRAG; metadata-retain pending first-party abstract verification.",
     "published_at": "",
     "updated_at": "",
     "is_latest_30d": false,
@@ -90450,21 +90643,22 @@
   {
     "title": "DFLOP: A Data-driven Framework for Multimodal LLM Training Pipeline Optimization",
     "venue": "SIGMOD 2026",
-    "topic": "distributed training / multimodal MLLM systems / pipeline parallelism",
+    "topic": "Multimodal LLM training; distributed training; pipeline scheduling",
     "arxiv": "2603.25120",
     "doi": "",
-    "official_id": "10.1145/3802037",
+    "official_id": "arXiv:2603.25120",
     "paper_url": "https://arxiv.org/abs/2603.25120",
     "code_url": "https://github.com/BDAI-Research/DFLOP",
     "formal_class": "CANONICAL_HIGH_VALUE",
     "physical_ai": false,
-    "decision": "BACKFILL_HIGH",
-    "why": "SIGMOD 2026 direct AI-infrastructure paper. DFLOP profiles model/data heterogeneity, chooses data-aware 3D parallel configurations, and dynamically schedules microbatches to reduce pipeline imbalance; reports up to 3.6x faster MLLM training and about 82-84% lower GPU idle time versus PyTorch/Megatron-LM baselines.",
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party SIGMOD title/author record and official arXiv abstract establish data-aware predictive scheduling to reduce multimodal pipeline skew and improve GPU utilization; reports up to 3.6x faster training than distributed training frameworks.",
     "published_at": "",
     "updated_at": "",
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
+      "LLM Serving",
       "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference",
       "Multimodal / MLLM Serving"
@@ -90536,16 +90730,16 @@
   {
     "title": "Efficient LLM Serving for Agentic Workflows: A Data Systems Perspective",
     "venue": "SIGMOD 2026",
-    "topic": "agentic LLM serving / workflow-aware caching / cache-aware scheduling",
+    "topic": "Efficient reasoning and agent systems; LLM serving; cross-call caching",
     "arxiv": "2603.16104",
-    "doi": "10.1145/3802046",
-    "official_id": "10.1145/3802046",
+    "doi": "",
+    "official_id": "arXiv:2603.16104",
     "paper_url": "https://arxiv.org/abs/2603.16104",
     "code_url": "https://github.com/MachineLearningSystem/26SIGMOD-helium_demo",
     "formal_class": "CANONICAL_HIGH_VALUE",
     "physical_ai": false,
-    "decision": "BACKFILL_HIGH",
-    "why": "SIGMOD 2026 Helium models agentic workflows as query plans and performs proactive cross-call caching plus cache-aware scheduling; the primary paper reports up to 1.56x speedup over prior agent-serving systems.",
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party SIGMOD title/author record and official arXiv abstract establish workflow-aware serving with query-plan modeling, proactive caching and cache-aware scheduling; reports up to 1.56x speedup over agent-serving systems.",
     "published_at": "",
     "updated_at": "",
     "is_latest_30d": false,
@@ -90579,44 +90773,45 @@
   {
     "title": "FlashANNS: GPU-Driven Asynchronous I/O Pipelining for Eliminating Storage-Compute Bottlenecks in Billion-Scale Similarity Search",
     "venue": "SIGMOD 2026",
-    "topic": "GPU vector search / RAG retrieval infrastructure / SSD-compute overlap",
+    "topic": "GPU vector search; asynchronous I/O; storage-compute pipelining",
     "arxiv": "2507.10070",
     "doi": "10.1145/3786652",
-    "official_id": "10.1145/3786652",
+    "official_id": "doi:10.1145/3786652",
     "paper_url": "https://arxiv.org/abs/2507.10070",
     "code_url": "",
     "formal_class": "CANONICAL_HIGH_VALUE",
     "physical_ai": false,
-    "decision": "BACKFILL_HIGH",
-    "why": "SIGMOD 2026 GPU out-of-core ANNS system directly relevant to RAG/retrieval infrastructure; asynchronous SSD-GPU pipelining reports 2.7-5.9x throughput on single SSD and 3.9-12.2x on multi-SSD at >=95% recall@10.",
+    "decision": "PROMOTE_STRONG",
+    "why": "The first-party arXiv abstract identifies a GPU-driven asynchronous I/O framework for billion-scale ANNS, directly targeting the storage-compute bottleneck in large-scale similarity search. Retain as a high-value systems/architecture contribution.",
     "published_at": "",
     "updated_at": "",
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
-      "LLM Serving",
       "GPU Kernel / DSL / Compiler"
     ]
   },
   {
     "title": "From Prefix Cache to Fusion RAG Cache: Accelerating LLM Inference in Retrieval-Augmented Generation",
     "venue": "SIGMOD 2026",
-    "topic": "RAG KV-cache reuse / TTFT acceleration",
+    "topic": "LLM serving; RAG; KV cache reuse; long-context inference",
     "arxiv": "2601.12904",
-    "doi": "10.1145/3786655",
-    "official_id": "",
+    "doi": "",
+    "official_id": "arXiv:2601.12904",
     "paper_url": "https://arxiv.org/abs/2601.12904",
     "code_url": "",
     "formal_class": "CANONICAL_HIGH_VALUE",
     "physical_ai": false,
-    "decision": "BACKFILL_HIGH",
-    "why": "",
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party SIGMOD title/author record and official arXiv abstract establish a fusion-aware KV-cache reuse framework that balances generation quality and recomputation; reports 2.66x-9.39x lower TTFT than full attention.",
     "published_at": "",
     "updated_at": "",
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
+      "LLM Serving",
       "KV Cache / Long Context",
+      "Efficient Attention",
       "GPU Kernel / DSL / Compiler"
     ]
   },
@@ -90665,6 +90860,28 @@
     ]
   },
   {
+    "title": "High-Throughput, Cost-Effective Billion-Scale Vector Search with a Single GPU",
+    "venue": "SIGMOD 2026",
+    "topic": "GPU vector search; billion-scale ANN; PCIe and SSD data movement",
+    "arxiv": "",
+    "doi": "10.1145/3769799",
+    "official_id": "doi:10.1145/3769799",
+    "paper_url": "https://dl.acm.org/doi/10.1145/3769799",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The first-party SIGMOD accepted-paper identity and author-hosted full-paper abstract establish GustANN, a GPU-centric CPU-assisted on-SSD ANNS system with memory-efficient GPU graph-search kernels, CPU-assisted PCIe transfers, and pivot search for SSD load balancing. It reports at least 2.50x higher throughput than prior ANNS systems and 2.62x better cost-effectiveness ($/QPS).",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "HotPrefix: Hotness-Aware KV Cache Scheduling for Efficient Prefix Sharing in LLM Inference Systems",
     "venue": "SIGMOD 2026",
     "topic": "prefix KV-cache scheduling / LLM serving",
@@ -90689,16 +90906,16 @@
   {
     "title": "Hydraulis: Balancing Large Transformer Model Training via Co-designing Parallel Strategies and Data Assignment",
     "venue": "SIGMOD 2026",
-    "topic": "distributed training / dynamic heterogeneous parallelism / data assignment",
+    "topic": "distributed training; transformer training; heterogeneous parallelism; data assignment",
     "arxiv": "2412.07894",
-    "doi": "",
-    "official_id": "DOI:10.1145/3769802",
+    "doi": "10.1145/3769802",
+    "official_id": "doi:10.1145/3769802",
     "paper_url": "https://arxiv.org/abs/2412.07894",
     "code_url": "https://github.com/PKU-DAIR/Hetu",
     "formal_class": "CANONICAL_HIGH_VALUE",
     "physical_ai": false,
-    "decision": "BACKFILL_HIGH",
-    "why": "SIGMOD 2026 large-Transformer training system jointly optimizing dynamic heterogeneous parallel strategies and data assignment under variable sequence lengths; reports 1.32x-2.66x performance improvement.",
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party SIGMOD title/author record and official arXiv abstract establish joint dynamic heterogeneous parallel-strategy and two-stage data-assignment optimization for sequence-length and packing imbalance; reports 1.32x–2.66x improvement over existing systems.",
     "published_at": "",
     "updated_at": "",
     "is_latest_30d": false,
@@ -90732,16 +90949,16 @@
   {
     "title": "KVDrive: A Holistic Multi-Tier KV Cache Management System for Long-Context LLM Inference",
     "venue": "SIGMOD 2026",
-    "topic": "KV cache / long-context LLM serving / multi-tier memory offload",
+    "topic": "LLM serving; long-context; KV cache; heterogeneous memory; runtime scheduling",
     "arxiv": "2605.18071",
-    "doi": "10.1145/3802077",
-    "official_id": "SIGMOD2026_KVDrive",
+    "doi": "",
+    "official_id": "arXiv:2605.18071",
     "paper_url": "https://arxiv.org/abs/2605.18071",
     "code_url": "",
     "formal_class": "CANONICAL_HIGH_VALUE",
     "physical_ai": false,
-    "decision": "BACKFILL_HIGH",
-    "why": "SIGMOD 2026 systems paper jointly orchestrating KV-cache placement, pipeline scheduling, and GPU/host-DRAM/SSD coordination for long-context LLM inference; primary paper reports up to 1.74x higher throughput while preserving accuracy.",
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party SIGMOD title/author record and official arXiv abstract establish a GPU-DRAM-SSD KV-cache hierarchy with cache placement and overlapped selection/fetch/compute; reports up to 1.74x throughput over prior systems while preserving accuracy.",
     "published_at": "",
     "updated_at": "",
     "is_latest_30d": false,
@@ -90749,7 +90966,8 @@
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context",
-      "GPU Kernel / DSL / Compiler"
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -90792,6 +91010,28 @@
     "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving"
+    ]
+  },
+  {
+    "title": "NeurStore: Efficient In-database Deep Learning Model Management System",
+    "venue": "SIGMOD 2026",
+    "topic": "model storage; tensor deduplication; delta quantization; efficient model loading",
+    "arxiv": "2509.03228",
+    "doi": "10.1145/3769809",
+    "official_id": "doi:10.1145/3769809",
+    "paper_url": "https://arxiv.org/abs/2509.03228",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party SIGMOD title/author record and official arXiv abstract establish tensor-level model storage, HNSW-based deduplication, delta quantization, and compute-aware loading; directly targets storage overhead and model-utilization throughput.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Quantization"
     ]
   },
   {
@@ -90990,16 +91230,16 @@
   {
     "title": "Serving Hybrid LLM Loads with SLO Guarantees Using CPU-GPU Attention Piggybacking",
     "venue": "SIGMOD 2026",
-    "topic": "LLM serving / heterogeneous CPU-GPU / SLO scheduling",
+    "topic": "LLM serving; SLO-aware scheduling; CPU-GPU heterogeneous execution",
     "arxiv": "2603.12831",
-    "doi": "10.1145/3802107",
-    "official_id": "",
+    "doi": "",
+    "official_id": "arXiv:2603.12831",
     "paper_url": "https://arxiv.org/abs/2603.12831",
     "code_url": "",
     "formal_class": "CANONICAL_HIGH_VALUE",
     "physical_ai": false,
-    "decision": "BACKFILL_HIGH",
-    "why": "",
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party SIGMOD title/author record and official arXiv abstract establish CPU attention piggybacking and dynamic batching for colocated latency-sensitive and best-effort LLM workloads; reports up to 1.48x higher SLO attainment and 9.85x best-effort throughput.",
     "published_at": "",
     "updated_at": "",
     "is_latest_30d": false,
@@ -91014,16 +91254,16 @@
   {
     "title": "SG-Serve: Efficient Model Serving for Subgraph-based Graph Representation Learning",
     "venue": "SIGMOD 2026",
-    "topic": "graph model serving / tail-latency optimization / workload-aware GPU batching",
+    "topic": "GNN serving; subgraph extraction; GPU batching; tail-latency optimization",
     "arxiv": "",
     "doi": "10.1145/3786697",
-    "official_id": "10.1145/3786697",
+    "official_id": "doi:10.1145/3786697",
     "paper_url": "https://dl.acm.org/doi/10.1145/3786697",
     "code_url": "",
-    "formal_class": "CANONICAL_HIGH_VALUE",
+    "formal_class": "WATCHLIST_HIGH_VALUE",
     "physical_ai": false,
-    "decision": "BACKFILL_HIGH",
-    "why": "SIGMOD 2026 serving system for highly skewed subgraph-based graph-representation workloads; it targets heavy-request head-of-line blocking with parallel extraction, work stealing, and workload-aware GPU batching.",
+    "decision": "P2_RELEVANT_LOW_PRIORITY",
+    "why": "First-party SIGMOD accepted-paper title/author/DOI identity directly covers efficient serving for subgraph-based graph representation learning; metadata-retain until a first-party abstract is attached.",
     "published_at": "",
     "updated_at": "",
     "is_latest_30d": false,
@@ -91100,24 +91340,23 @@
   {
     "title": "TranSQL+: Serving Large Language Models with SQL on Low-Resource Hardware",
     "venue": "SIGMOD 2026",
-    "topic": "LLM serving / edge low-resource inference / compiler-runtime",
+    "topic": "LLM inference; low-resource hardware; SQL runtime; KV cache",
     "arxiv": "2502.02818",
     "doi": "",
-    "official_id": "10.1145/3769836",
+    "official_id": "arXiv:2502.02818",
     "paper_url": "https://arxiv.org/abs/2502.02818",
     "code_url": "",
     "formal_class": "CANONICAL_HIGH_VALUE",
     "physical_ai": false,
-    "decision": "BACKFILL_HIGH",
-    "why": "SIGMOD 2026 direct Efficient-ML/AI-infrastructure paper. TranSQL+ compiles LLM computation graphs into pure SQL so relational databases can serve LLMs on CPU/low-memory hardware; reports up to 20x lower prefill latency and 4x higher decoding speed than DeepSpeed Inference and llama.cpp in the evaluated constrained configurations.",
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party SIGMOD accepted-paper title/author record reconciles with the official arXiv version; the abstract establishes SQL compilation of transformer operators and KV caching, reporting up to 30x token-generation speedup in memory-constrained scenarios.",
     "published_at": "",
     "updated_at": "",
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving",
-      "GPU Kernel / DSL / Compiler",
-      "Edge / Cloud / Heterogeneous AI"
+      "KV Cache / Long Context"
     ]
   },
   {

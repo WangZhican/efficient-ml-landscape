@@ -74308,27 +74308,6 @@
       ]
     },
     {
-      "title": "NeurStore: Efficient In-database Deep Learning Model Management System",
-      "venue": "SIGMOD 2026",
-      "topic": "deep-learning model management/inference systems",
-      "arxiv": "2509.03228",
-      "doi": "",
-      "official_id": "arXiv:2509.03228",
-      "paper_url": "https://arxiv.org/abs/2509.03228",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "physical_ai": false,
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "First-party abstract and SIGMOD Systems-for-ML session establish a direct efficient ML systems contribution around in-database model management and inference integration.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": false,
-      "directions": [
-        "LLM Serving"
-      ]
-    },
-    {
       "title": "PathSeer: Adaptive Neighbor Handling for Efficient Filtered ANN Search",
       "venue": "SIGMOD 2026",
       "topic": "filtered ANN; RAG retrieval; query planning",
@@ -74711,6 +74690,111 @@
       "decision": "WATCH",
       "tracking_tier": "P1 · Watch",
       "why": "First-party SIGMOD accepted-paper title/author/DOI identity directly targets redundant feature tests during tree-ensemble inference embedded in SQL predicates. Retain for detailed inference-efficiency reading; first-party abstract remains unverified.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Modelling Long Range Dependencies in $N$D: From Task-Specific to a General Purpose CNN",
+      "venue": "arXiv 23",
+      "topic": "general-purpose CNNs; long-range dependencies",
+      "arxiv": "2301.10540",
+      "doi": "",
+      "official_id": "arXiv:2301.10540",
+      "paper_url": "https://arxiv.org/abs/2301.10540",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Continuous convolution supports arbitrary resolution, dimensionality and length without task-specific downsampling/depth; relevant architecture efficiency, though the abstract lacks direct runtime measurements.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Towards a General Purpose CNN for Long Range Dependencies in $N$D",
+      "venue": "arXiv 22",
+      "topic": "general-purpose CNNs; long-range dependencies",
+      "arxiv": "2206.03398",
+      "doi": "",
+      "official_id": "arXiv:2206.03398",
+      "paper_url": "https://arxiv.org/abs/2206.03398",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Continuous kernels remove task-specific downsampling and support multiple input dimensions; relevant architecture work, but older and without explicit efficiency measurements in the abstract.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Sharpened Lazy Incremental Quasi-Newton Method",
+      "venue": "arXiv 23",
+      "topic": "training optimization; incremental quasi-Newton",
+      "arxiv": "2305.17283",
+      "doi": "",
+      "official_id": "arXiv:2305.17283",
+      "paper_url": "https://arxiv.org/abs/2305.17283",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "SLIQN achieves explicit superlinear convergence with O(d^2) per-iteration cost, avoiding an O(d^3) alternative; high-value optimizer-efficiency work.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "VITA: Video Instance Segmentation via Object Token Association",
+      "venue": "arXiv 22",
+      "topic": "video perception; object-token association",
+      "arxiv": "2206.04403",
+      "doi": "",
+      "official_id": "arXiv:2206.04403",
+      "paper_url": "https://arxiv.org/abs/2206.04403",
+      "code_url": "https://github.com/sukjunhwang/VITA",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "VITA uses compact object tokens without spatiotemporal backbone features and supports long/high-resolution videos on a common GPU; practical high-value efficiency angle.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Cut Costs, Not Accuracy: LLM-Powered Data Processing with Guarantees",
+      "venue": "SIGMOD 2026",
+      "topic": "Cost-aware LLM data processing; model cascades; statistical quality guarantees",
+      "arxiv": "2509.02896",
+      "doi": "",
+      "official_id": "arXiv:2509.02896",
+      "paper_url": "https://arxiv.org/abs/2509.02896",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "First-party arXiv abstract and SIGMOD accepted-paper identity establish adaptive sampling and statistical estimation for cheaper-model cascades with accuracy/precision/recall guarantees; reports up to 86% additional average cost reduction. Retain for detailed efficiency review.",
       "published_at": "",
       "updated_at": "",
       "is_latest_30d": false,
@@ -181271,27 +181355,6 @@
       ]
     },
     {
-      "title": "Cut Costs, Not Accuracy: LLM-Powered Data Processing with Guarantees",
-      "venue": "SIGMOD 2026",
-      "topic": "LLM-powered data processing/cost-aware reasoning",
-      "arxiv": "",
-      "doi": "",
-      "official_id": "SIGMOD2026_PROGRAM_TITLE_CUT_COSTS_NOT_ACCURACY",
-      "paper_url": "https://2026.sigmod.org/sigmod_program_detailed.shtml",
-      "code_url": "",
-      "formal_class": "RELEVANT_LOW_PRIORITY",
-      "physical_ai": false,
-      "decision": "P2_RELEVANT_LOW_PRIORITY",
-      "tracking_tier": "P2 · Relevant",
-      "why": "First-party program title indicates LLM data processing with cost/accuracy guarantees, but full abstract and a paper-specific primary identifier were not recovered in this partial source pass; retain metadata only.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": false,
-      "directions": [
-        "Efficient Reasoning / Agents"
-      ]
-    },
-    {
       "title": "Reward-SQL: Boosting Text-to-SQL via Stepwise Execution-Aware Reasoning and Process-Supervised Rewards",
       "venue": "SIGMOD 2026",
       "topic": "efficient reasoning; Text-to-SQL; process rewards",
@@ -184447,28 +184510,6 @@
       ]
     },
     {
-      "title": "High-Throughput, Cost-Effective Billion-Scale Vector Search with a Single GPU",
-      "venue": "SIGMOD 2026",
-      "topic": "GPU vector search; billion-scale ANN; PCIe and SSD data movement",
-      "arxiv": "",
-      "doi": "10.1145/3769799",
-      "official_id": "doi:10.1145/3769799",
-      "paper_url": "https://dl.acm.org/doi/10.1145/3769799",
-      "code_url": "",
-      "formal_class": "RELEVANT_LOW_PRIORITY",
-      "physical_ai": false,
-      "decision": "P2_RELEVANT_LOW_PRIORITY",
-      "tracking_tier": "P2 · Relevant",
-      "why": "First-party SIGMOD accepted-paper title/author/DOI identity directly covers cost-effective single-GPU billion-scale vector search; metadata-retain pending first-party abstract verification.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": false,
-      "directions": [
-        "LLM Serving",
-        "GPU Kernel / DSL / Compiler"
-      ]
-    },
-    {
       "title": "Accelerating High-Dimensional ANN Search via Skipping Redundant Distance Computations",
       "venue": "SIGMOD 2026",
       "topic": "ANN search; SIMD; distance-computation pruning",
@@ -184832,6 +184873,111 @@
       "decision": "P2_RELEVANT_LOW_PRIORITY",
       "tracking_tier": "P2 · Relevant",
       "why": "The first-party accepted-paper identity suggests LLM-based approximation for LIKE predicates and potential query-efficiency gains, but the abstract and measured cost/latency evidence remain unverified; metadata-only P2.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Sparse Recovery for Orthogonal Polynomial Transforms",
+      "venue": "arXiv 19",
+      "topic": "sublinear sparse recovery; structured transforms",
+      "arxiv": "1907.08362",
+      "doi": "",
+      "official_id": "arXiv:1907.08362",
+      "paper_url": "https://arxiv.org/abs/1907.08362",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "The paper gives sublinear-time sparse recovery algorithms for orthogonal-polynomial transforms; adjacent to efficient numerical algorithms, but not a direct modern ML system/model contribution.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Sparsity / Pruning"
+      ]
+    },
+    {
+      "title": "A Two Pronged Progress in Structured Dense Matrix Multiplication",
+      "venue": "arXiv 16",
+      "topic": "structured dense matrix multiplication",
+      "arxiv": "1611.01569",
+      "doi": "",
+      "official_id": "arXiv:1611.01569",
+      "paper_url": "https://arxiv.org/abs/1611.01569",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Near-linear algorithms for structured matrix-vector multiplication are foundational algorithmic-efficiency work, but old and not directly tied to ML model/system deployment.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Role of Locality and Weight Sharing in Image-Based Tasks: A Sample Complexity Separation between CNNs, LCNs, and FCNs",
+      "venue": "arXiv 24",
+      "topic": "architecture inductive bias; weight sharing",
+      "arxiv": "2403.15707",
+      "doi": "",
+      "official_id": "arXiv:2403.15707",
+      "paper_url": "https://arxiv.org/abs/2403.15707",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "The paper formalizes sample-complexity benefits of locality and weight sharing; relevant to architecture design, but it does not optimize runtime or compute directly.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "A Generalized Framework for Video Instance Segmentation",
+      "venue": "arXiv 22",
+      "topic": "video perception; memory-based VIS",
+      "arxiv": "2211.08834",
+      "doi": "",
+      "official_id": "arXiv:2211.08834",
+      "paper_url": "https://arxiv.org/abs/2211.08834",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "GenVIS adds memory and supports online/semi-online execution for long video; adjacent video-perception work, but the abstract does not establish a compute-efficiency gain.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Single-shot Path Integrated Panoptic Segmentation",
+      "venue": "arXiv 20",
+      "topic": "single-shot panoptic segmentation",
+      "arxiv": "2012.01632",
+      "doi": "",
+      "official_id": "arXiv:2012.01632",
+      "paper_url": "https://arxiv.org/abs/2012.01632",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "SPINet integrates multiple segmentation pathways into a single-shot flow for efficient vision inference; older work with limited runtime detail in the abstract.",
       "published_at": "",
       "updated_at": "",
       "is_latest_30d": false,

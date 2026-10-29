@@ -1,6 +1,6 @@
 # 09 · Distributed Training / Inference
 
-> **760 canonical papers** mapped here, plus a broader **329-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **762 canonical papers** mapped here, plus a broader **329-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -338,7 +338,7 @@
 | **P2 · Relevant** | **A Kafka-Centric Communication Fabric for Near-Real-Time, Cloud-Replicated Closed-Loop Manufacturing Process Control** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.00258) | — |
 | **P0 · Strong** | **A Distributed View from a Single GPU: RankLens for Distributed Training** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18009) | — |
 
-## 🏛️ Classical / Historical · 666 canonical
+## 🏛️ Classical / Historical · 668 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -556,8 +556,10 @@
 | **Canonical** | **X-Stage: Modeling Post-Issue Backpressure in GPU Communication--Computation Fusion** | arXiv 2026 | distributed | [Link](https://arxiv.org/abs/2607.23264) | — |
 | **Canonical** | **XBridge: Entity-Grounded Latent Bridge for Heterogeneous LLM Communication** | arXiv 2026 | efficient_reasoning_agent | [Link](https://arxiv.org/abs/2608.11676) | — |
 | **Canonical** | **Zero-I/O Fault Recovery for Sharded Deep Learning via Dynamic Framework Dependency Rebinding** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2609.18178) | — |
+| **Canonical** | **Video Instance Segmentation using Inter-Frame Communication Transformers** | arXiv 21 | video transformers; efficient inter-frame communication | [Link](https://arxiv.org/abs/2106.03299) | — |
 | **Canonical** | **Decentralized Training of Foundation Models in Heterogeneous Environments** | arXiv 22 | distributed training; heterogeneous GPU scheduling | [Link](https://arxiv.org/abs/2206.01288) | — |
 | **Canonical** | **Fine-tuning Language Models over Slow Networks using Activation Compression with Guarantees** | arXiv 22 | distributed training; activation compression; communication efficiency | [Link](https://arxiv.org/abs/2206.01299) | — |
+| **Canonical** | **Learning to Optimize Quasi-Newton Methods** | arXiv 22 | efficient training; learned optimizers | [Link](https://arxiv.org/abs/2210.06171) | — |
 | **Canonical** | **On-Device Training Under 256KB Memory** | arXiv 22 | edge AI,heterogeneous systems,memory-efficient training | [Link](https://arxiv.org/abs/2206.15472) | [Repo](https://hanlab.mit.edu/projects/mcunetv3) |
 | **Canonical** | **FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning** | arXiv 23 | GPU kernel / efficient attention | [Link](https://arxiv.org/abs/2307.08691) | — |
 | **Canonical** | **PockEngine: Sparse and Efficient Fine-tuning in a Pocket** | arXiv 23 | edge AI,distributed training,compilers,sparsity | [Link](https://arxiv.org/abs/2310.17752) | [Repo](https://hanlab.mit.edu/projects/pockengine) |
@@ -975,8 +977,8 @@
 | **Canonical** | **SyCCL: Exploiting Symmetry for Efficient Collective Communication Scheduling** | SIGCOMM 2025 | distributed ML training / collective communication schedule synthesis | [Link](https://doi.org/10.1145/3718958.3750499) | [Repo](https://github.com/aliyun/syccl) |
 | **Canonical** | **CoTra: Towards Efficient and Scalable Distributed Vector Search with RDMA** | SIGMOD 2026 | distributed vector search; RDMA; asynchronous systems; algorithm-system co-design | [Link](https://arxiv.org/abs/2507.06653) | — |
 | **Canonical** | **Curator: Efficient Vector Search with Low-Selectivity Filters** | SIGMOD 2026 | filtered ANN; vector retrieval; dual-index architecture | [Link](https://arxiv.org/abs/2601.01291) | — |
-| **Canonical** | **DFLOP: A Data-driven Framework for Multimodal LLM Training Pipeline Optimization** | SIGMOD 2026 | distributed training / multimodal MLLM systems / pipeline parallelism | [Link](https://arxiv.org/abs/2603.25120) | [Repo](https://github.com/BDAI-Research/DFLOP) |
-| **Canonical** | **Hydraulis: Balancing Large Transformer Model Training via Co-designing Parallel Strategies and Data Assignment** | SIGMOD 2026 | distributed training / dynamic heterogeneous parallelism / data assignment | [Link](https://arxiv.org/abs/2412.07894) | [Repo](https://github.com/PKU-DAIR/Hetu) |
+| **Canonical** | **DFLOP: A Data-driven Framework for Multimodal LLM Training Pipeline Optimization** | SIGMOD 2026 | Multimodal LLM training; distributed training; pipeline scheduling | [Link](https://arxiv.org/abs/2603.25120) | [Repo](https://github.com/BDAI-Research/DFLOP) |
+| **Canonical** | **Hydraulis: Balancing Large Transformer Model Training via Co-designing Parallel Strategies and Data Assignment** | SIGMOD 2026 | distributed training; transformer training; heterogeneous parallelism; data assignment | [Link](https://arxiv.org/abs/2412.07894) | [Repo](https://github.com/PKU-DAIR/Hetu) |
 | **Canonical** | **Mixtera: A Data Plane for Foundation Model Training** | SIGMOD 2026 | distributed training/data plane/foundation models | [Link](https://arxiv.org/abs/2502.19790) | — |
 | **Canonical** | **Scalable Graph Indexing using GPUs for Approximate Nearest Neighbor Search** | SIGMOD 2026 | GPU graph indexing; ANN search; heterogeneous out-of-core execution | [Link](https://arxiv.org/abs/2508.08744) | — |
 | **Canonical** | **SWIFT: Enabling Large-Scale Temporal Graph Learning on a Single Machine** | SIGMOD 2026 | Temporal GNN training; out-of-core learning; GPU-main-secondary memory pipeline | [Link](https://dl.acm.org/doi/10.1145/3749184) | — |

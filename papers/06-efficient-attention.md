@@ -1,6 +1,6 @@
 # 06 · Efficient Attention
 
-> **616 canonical papers** mapped here, plus a broader **243-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **619 canonical papers** mapped here, plus a broader **243-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -252,7 +252,7 @@
 | **P2 · Relevant** | **ACSAN: All-Convolutional Self-Attention Network Integrating Convolutional Operations with Vision Transformer** | arXiv 2026 | efficient attention / compact vision architectures | [Link](https://arxiv.org/abs/2610.35375) | — |
 | **P2 · Relevant** | **A Lightweight Attention-Based CNN with Saliency-Map Interpretability for Skin Cancer Detection** | arXiv | model-compression-efficiency | [Link](https://arxiv.org/abs/2610.37314) | — |
 
-## 🏛️ Classical / Historical · 502 canonical
+## 🏛️ Classical / Historical · 505 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -430,6 +430,7 @@
 | **Canonical** | **Scatterbrain: Unifying Sparse and Low-rank Attention Approximation** | arXiv 21 | efficient attention; sparsity; long-context | [Link](https://arxiv.org/abs/2110.15343) | — |
 | **Canonical** | **EfficientViT: Multi-Scale Linear Attention for High-Resolution Dense Prediction** | arXiv 22 | edge/cloud heterogeneous AI systems; efficient attention; multimodal vision inference | [Link](https://arxiv.org/abs/2205.14756) | [Repo](https://hanlab.mit.edu/projects/efficientvit) |
 | **Canonical** | **FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness** | arXiv 22 | efficient attention; GPU kernel; IO-aware tiling | [Link](https://arxiv.org/abs/2205.14135) | — |
+| **Canonical** | **Pretraining Without Attention** | arXiv 22 | attention-free pretraining; SSM language models | [Link](https://arxiv.org/abs/2212.10544) | [Repo](https://github.com/jxiw/BiGS) |
 | **Canonical** | **Efficient Streaming Language Models with Attention Sinks** | arXiv 23 | KV cache / streaming LLM | [Link](https://arxiv.org/abs/2309.17453) | — |
 | **Canonical** | **FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning** | arXiv 23 | GPU kernel / efficient attention | [Link](https://arxiv.org/abs/2307.08691) | — |
 | **Canonical** | **FlatFormer: Flattened Window Attention for Efficient Point Cloud Transformer** | arXiv 23 | efficient attention,Physical AI serving,edge AI | [Link](https://arxiv.org/abs/2301.08739) | [Repo](https://hanlab.mit.edu/projects/flatformer) |
@@ -512,6 +513,7 @@
 | **Canonical** | **JetViT: Efficient High-Resolution Vision Transformer with Post-Training Attention Search** | arXiv 26 | efficient attention | [Link](https://arxiv.org/abs/2605.26636) | — |
 | **Canonical** | **Light Interaction: Training-Free Inference Acceleration for Interactive Video World Models** | arXiv 26 | interactive world-model serving / diffusion cache / sparse attention / Triton | [Link](https://arxiv.org/abs/2605.31158) | — |
 | **Canonical** | **MonarchRT: Efficient Attention for Real-Time Video Generation** | arXiv 26 | video generation acceleration | [Link](https://arxiv.org/abs/2602.12271) | — |
+| **Canonical** | **Multi-Mixer Models: Flexible Sequence Modeling with Shared Representations** | arXiv 26 | hybrid sequence models; long-context inference | [Link](https://arxiv.org/abs/2605.28769) | — |
 | **Canonical** | **NLL-Guided Full-Attention Layer Selection for Training-Free Sliding-Window Adaptation** | arXiv 26 | long_context_attention_efficiency | [Link](https://arxiv.org/abs/2606.27791) | — |
 | **Canonical** | **Optimus: Elastic Decoding for Efficient Diffusion LLM Serving** | arXiv 26 | diffusion_llm_serving | [Link](https://arxiv.org/abs/2605.24832) | — |
 | **Canonical** | **PackInfer: Compute- and I/O-Efficient Attention for Batched LLM Inference** | arXiv 26 | efficient attention | [Link](https://arxiv.org/abs/2602.06072) | — |
@@ -738,9 +740,10 @@
 | **Canonical** | **Hetis: Serving LLMs in Heterogeneous GPU Clusters with Fine-grained and Dynamic Parallelism** | SC 2025 | LLM serving / heterogeneous GPU / dynamic parallelism | [Link](https://arxiv.org/abs/2509.08309) | — |
 | **Canonical** | **HydraCache: LLM Inference Prefill Parallelization Through Distributed Cache Blending** | SC 2025 | LLM serving / distributed prefill / KV cache blending | [Link](https://sc25.supercomputing.org/proceedings/posters/poster_files/post304s2-file2.pdf) | — |
 | **Canonical** | **MegaScale-Infer: Efficient Mixture-of-Experts Model Serving with Disaggregated Expert Parallelism** | SIGCOMM 2025 | MoE serving / disaggregated expert parallelism / networking | [Link](https://arxiv.org/abs/2504.02263) | — |
-| **Canonical** | **CoDec: Prefix-Shared Decoding Kernel for LLMs** | SIGMOD 2026 | LLM decoding kernel / shared-prefix attention / KV-cache memory access | [Link](https://arxiv.org/abs/2505.17694) | [Repo](https://github.com/wzbxpy/codec) |
-| **Canonical** | **DepCache: A KV Cache Management Framework for GraphRAG with Dependency Attention** | SIGMOD 2026 | GraphRAG dependency attention / KV-cache management | [Link](https://doi.org/10.1145/3769778) | [Repo](https://github.com/Sanzo00/DepCache) |
-| **Canonical** | **Serving Hybrid LLM Loads with SLO Guarantees Using CPU-GPU Attention Piggybacking** | SIGMOD 2026 | LLM serving / heterogeneous CPU-GPU / SLO scheduling | [Link](https://arxiv.org/abs/2603.12831) | — |
+| **Canonical** | **CoDec: Prefix-Shared Decoding Kernel for LLMs** | SIGMOD 2026 | GPU kernels; LLM inference; prefix sharing; attention | [Link](https://arxiv.org/abs/2505.17694) | [Repo](https://github.com/wzbxpy/codec) |
+| **Canonical** | **DepCache: A KV Cache Management Framework for GraphRAG with Dependency Attention** | SIGMOD 2026 | GraphRAG; KV cache; dependency attention; inference reuse | [Link](https://dl.acm.org/doi/10.1145/3769778) | [Repo](https://github.com/Sanzo00/DepCache) |
+| **Canonical** | **From Prefix Cache to Fusion RAG Cache: Accelerating LLM Inference in Retrieval-Augmented Generation** | SIGMOD 2026 | LLM serving; RAG; KV cache reuse; long-context inference | [Link](https://arxiv.org/abs/2601.12904) | — |
+| **Canonical** | **Serving Hybrid LLM Loads with SLO Guarantees Using CPU-GPU Attention Piggybacking** | SIGMOD 2026 | LLM serving; SLO-aware scheduling; CPU-GPU heterogeneous execution | [Link](https://arxiv.org/abs/2603.12831) | — |
 | **Canonical** | **BanaServe: Unified KV Cache and Dynamic Module Migration for Balancing Disaggregated LLM Serving in AI Infrastructure** | Software: Practice and Experience 2026 / arXiv 2025 | LLM serving / disaggregated inference / KV cache / dynamic module migration / AI infrastructure | [Link](https://arxiv.org/abs/2510.13223) | — |
 | **Canonical** | **DCP: Addressing Input Dynamism In Long-Context Training via Dynamic Context Parallelism** | SOSP 2025 | long-context LLM training / dynamic context parallelism | [Link](https://arxiv.org/abs/2510.10620) | [Repo](https://github.com/chenyu-jiang/dcp) |
 | **Canonical** | **Weaver: Efficient Multi-LLM Serving with Attention Offloading** | USENIX ATC 2025 | multi-LLM serving / attention offloading | [Link](https://www.usenix.org/conference/atc25/presentation/gao) | — |

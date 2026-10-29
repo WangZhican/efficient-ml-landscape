@@ -1,6 +1,6 @@
 # 03 · KV Cache / Long Context
 
-> **837 canonical papers** mapped here, plus a broader **215-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **840 canonical papers** mapped here, plus a broader **215-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -224,7 +224,7 @@
 | **P1 · Watch** | **Budgeted Cache Repair for Cross-Context KV-Cache Reuse** | arXiv 2026 | KV cache / LLM serving | [Link](https://arxiv.org/abs/2610.02233) | — |
 | **P0 · Strong** | **Beyond Capacity: Scalable MoE LLM Inference via High-Bandwidth Flash with Direct GPU and HBM Paths** | Fresh / preprint | MoE serving / high-bandwidth flash architecture | [Link](https://arxiv.org/abs/2608.14333) | — |
 
-## 🏛️ Classical / Historical · 713 canonical
+## 🏛️ Classical / Historical · 716 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -469,6 +469,7 @@
 | **Canonical** | **Efficient Streaming Language Models with Attention Sinks** | arXiv 23 | KV cache / streaming LLM | [Link](https://arxiv.org/abs/2309.17453) | — |
 | **Canonical** | **H2O: Heavy-Hitter Oracle for Efficient Generative Inference of Large Language Models** | arXiv 23 | KV cache/long-context; LLM serving | [Link](https://arxiv.org/abs/2306.14048) | — |
 | **Canonical** | **LongLoRA: Efficient Fine-tuning of Long-Context Large Language Models** | arXiv 23 | efficient training / long context | [Link](https://arxiv.org/abs/2309.12307) | — |
+| **Canonical** | **Resurrecting Recurrent Neural Networks for Long Sequences** | arXiv 23 | long-context sequence models; recurrent inference | [Link](https://arxiv.org/abs/2303.06349) | — |
 | **Canonical** | **Zoology: Measuring and Improving Recall in Efficient Language Models** | arXiv 23 | efficient attention / long context | [Link](https://arxiv.org/abs/2312.04927) | — |
 | **Canonical** | **AutoChunk: Automated Activation Chunk for Memory-Efficient Long Sequence Inference** | arXiv 24 | KV cache/long-context | [Link](https://arxiv.org/abs/2401.10652) | — |
 | **Canonical** | **Benchmarking and Building Long-Context Retrieval Models with LoCo and M2-BERT** | arXiv 24 | KV cache/long-context retrieval | [Link](https://arxiv.org/abs/2402.07440) | — |
@@ -541,6 +542,7 @@
 | **Canonical** | **HERALD: High-Throughput Block Diffusion LLM Serving via CPU-GPU Cooperative KV Cache Retrieval** | arXiv 26 | efficient_llm_serving_and_systems | [Link](https://arxiv.org/abs/2606.21633) | — |
 | **Canonical** | **Idleness is Relative: Exploiting Tool-Call Idle Windows for Offloading in Agentic Systems with MORI** | arXiv 26 | efficient_llm_serving_and_systems | [Link](https://arxiv.org/abs/2606.00866) | — |
 | **Canonical** | **LongLive-2.0: An NVFP4 Parallel Infrastructure for Long Video Generation** | arXiv 26 | video generation acceleration; quantization; distributed training/inference; GPU systems | [Link](https://arxiv.org/abs/2605.18739) | [Repo](https://github.com/NVlabs/LongLive) |
+| **Canonical** | **Multi-Mixer Models: Flexible Sequence Modeling with Shared Representations** | arXiv 26 | hybrid sequence models; long-context inference | [Link](https://arxiv.org/abs/2605.28769) | — |
 | **Canonical** | **Neural Introspection Gating for Adaptive KV-Cache Reuse in Vision-Language-Action Models** | arXiv 26 | vla_wam | [Link](https://arxiv.org/abs/2608.10824) | — |
 | **Canonical** | **NLL-Guided Full-Attention Layer Selection for Training-Free Sliding-Window Adaptation** | arXiv 26 | long_context_attention_efficiency | [Link](https://arxiv.org/abs/2606.27791) | — |
 | **Canonical** | **Retrieval-Aware Distillation for Transformer-SSM Hybrids** | arXiv 26 | KV cache/long-context / efficient attention / SSM-Transformer hybrids / memory compression | [Link](https://arxiv.org/abs/2602.11374) | — |
@@ -907,12 +909,13 @@
 | **Canonical** | **Pegasus: A Universal Framework for Scalable Deep Learning Inference on the Dataplane** | SIGCOMM 2025 | KV encoding + MoE training fabric + long-context training + AI networking/inference | [Link](https://arxiv.org/abs/2506.05779) | — |
 | **Canonical** | **SCX** | SIGCOMM 2025 | KV encoding + MoE training fabric + long-context training + AI networking/inference | — | — |
 | **Canonical** | **SGLB: Scalable and Robust Global Load Balancing in Commodity AI Clusters** | SIGCOMM 2025 | KV encoding + MoE training fabric + long-context training + AI networking/inference | [Link](https://doi.org/10.1145/3718958.3750527) | — |
-| **Canonical** | **Beluga: A CXL-Based Memory Architecture for Scalable and Efficient LLM KVCache Management** | SIGMOD 2026 | CXL memory / KV-cache serving | [Link](https://arxiv.org/abs/2511.20172) | — |
-| **Canonical** | **CoDec: Prefix-Shared Decoding Kernel for LLMs** | SIGMOD 2026 | LLM decoding kernel / shared-prefix attention / KV-cache memory access | [Link](https://arxiv.org/abs/2505.17694) | [Repo](https://github.com/wzbxpy/codec) |
-| **Canonical** | **DepCache: A KV Cache Management Framework for GraphRAG with Dependency Attention** | SIGMOD 2026 | GraphRAG dependency attention / KV-cache management | [Link](https://doi.org/10.1145/3769778) | [Repo](https://github.com/Sanzo00/DepCache) |
-| **Canonical** | **From Prefix Cache to Fusion RAG Cache: Accelerating LLM Inference in Retrieval-Augmented Generation** | SIGMOD 2026 | RAG KV-cache reuse / TTFT acceleration | [Link](https://arxiv.org/abs/2601.12904) | — |
+| **Canonical** | **AlignedServe: Orchestrating Prefix-aware Batching to Build a High-throughput and Computing-efficient LLM Serving System** | SIGMOD 2026 | LLM serving; prefix-aware batching; KV cache; throughput and latency | [Link](https://arxiv.org/abs/2605.23389) | — |
+| **Canonical** | **Beluga: A CXL-Based Memory Architecture for Scalable and Efficient LLM KVCache Management** | SIGMOD 2026 | LLM serving; CXL; disaggregated memory; KV cache | [Link](https://arxiv.org/abs/2511.20172) | — |
+| **Canonical** | **DepCache: A KV Cache Management Framework for GraphRAG with Dependency Attention** | SIGMOD 2026 | GraphRAG; KV cache; dependency attention; inference reuse | [Link](https://dl.acm.org/doi/10.1145/3769778) | [Repo](https://github.com/Sanzo00/DepCache) |
+| **Canonical** | **From Prefix Cache to Fusion RAG Cache: Accelerating LLM Inference in Retrieval-Augmented Generation** | SIGMOD 2026 | LLM serving; RAG; KV cache reuse; long-context inference | [Link](https://arxiv.org/abs/2601.12904) | — |
 | **Canonical** | **HotPrefix: Hotness-Aware KV Cache Scheduling for Efficient Prefix Sharing in LLM Inference Systems** | SIGMOD 2026 | prefix KV-cache scheduling / LLM serving | [Link](https://doi.org/10.1145/3749168) | — |
-| **Canonical** | **KVDrive: A Holistic Multi-Tier KV Cache Management System for Long-Context LLM Inference** | SIGMOD 2026 | KV cache / long-context LLM serving / multi-tier memory offload | [Link](https://arxiv.org/abs/2605.18071) | — |
+| **Canonical** | **KVDrive: A Holistic Multi-Tier KV Cache Management System for Long-Context LLM Inference** | SIGMOD 2026 | LLM serving; long-context; KV cache; heterogeneous memory; runtime scheduling | [Link](https://arxiv.org/abs/2605.18071) | — |
+| **Canonical** | **TranSQL+: Serving Large Language Models with SQL on Low-Resource Hardware** | SIGMOD 2026 | LLM inference; low-resource hardware; SQL runtime; KV cache | [Link](https://arxiv.org/abs/2502.02818) | — |
 | **Canonical** | **Medha** | SoCC 2026 | KV virtualization + long-context serving + GPU colocation + on-device adaptation | — | — |
 | **Canonical** | **Memory-Decoupled Layer-Wise Fine-Tuning** | SoCC 2026 | KV virtualization + long-context serving + GPU colocation + on-device adaptation | — | — |
 | **Canonical** | **MosaicKV: SLO-Aware KV-Cache Virtualization for Multi-Tenant LLM Serving in the Cloud** | SoCC 2026 | KV virtualization + long-context serving + GPU colocation + on-device adaptation | — | — |

@@ -1,6 +1,6 @@
 # 01 · LLM Serving
 
-> **2084 canonical papers** mapped here, plus a broader **1567-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **2087 canonical papers** mapped here, plus a broader **1567-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -1576,7 +1576,7 @@
 | **P2 · Relevant** | **A Drosophila Whole-Connectome Network Can Learn Human-Designed Cognitive Tasks** | arXiv 2026 | llm_serving,gen | [Link](https://arxiv.org/abs/2610.10014) | — |
 | **P2 · Relevant** | **A differentiable Lagrangian-coupled 3D Gaussian Splatting-SPH model for forward simulation and inverse analysis in solid mechanics** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.04336) | — |
 
-## 🏛️ Classical / Historical · 1706 canonical
+## 🏛️ Classical / Historical · 1709 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -3209,21 +3209,24 @@
 | **Canonical** | **MegaScale-Infer: Efficient Mixture-of-Experts Model Serving with Disaggregated Expert Parallelism** | SIGCOMM 2025 | MoE serving / disaggregated expert parallelism / networking | [Link](https://arxiv.org/abs/2504.02263) | — |
 | **Canonical** | **ResCCL: Resource-Efficient Scheduling for Collective Communication** | SIGCOMM 2025 | distributed training / collective communication / GPU resource scheduling | [Link](https://doi.org/10.1145/3718958.3750514) | — |
 | **Canonical** | **SyCCL: Exploiting Symmetry for Efficient Collective Communication Scheduling** | SIGCOMM 2025 | distributed ML training / collective communication schedule synthesis | [Link](https://doi.org/10.1145/3718958.3750499) | [Repo](https://github.com/aliyun/syccl) |
-| **Canonical** | **AlignedServe: Orchestrating Prefix-aware Batching to Build a High-throughput and Computing-efficient LLM Serving System** | SIGMOD 2026 | LLM serving / prefix-aware batching / KV scheduling | [Link](https://arxiv.org/abs/2605.23389) | — |
-| **Canonical** | **Beluga: A CXL-Based Memory Architecture for Scalable and Efficient LLM KVCache Management** | SIGMOD 2026 | CXL memory / KV-cache serving | [Link](https://arxiv.org/abs/2511.20172) | — |
-| **Canonical** | **CoDec: Prefix-Shared Decoding Kernel for LLMs** | SIGMOD 2026 | LLM decoding kernel / shared-prefix attention / KV-cache memory access | [Link](https://arxiv.org/abs/2505.17694) | [Repo](https://github.com/wzbxpy/codec) |
+| **Canonical** | **AlignedServe: Orchestrating Prefix-aware Batching to Build a High-throughput and Computing-efficient LLM Serving System** | SIGMOD 2026 | LLM serving; prefix-aware batching; KV cache; throughput and latency | [Link](https://arxiv.org/abs/2605.23389) | — |
+| **Canonical** | **Beluga: A CXL-Based Memory Architecture for Scalable and Efficient LLM KVCache Management** | SIGMOD 2026 | LLM serving; CXL; disaggregated memory; KV cache | [Link](https://arxiv.org/abs/2511.20172) | — |
+| **Canonical** | **CoDec: Prefix-Shared Decoding Kernel for LLMs** | SIGMOD 2026 | GPU kernels; LLM inference; prefix sharing; attention | [Link](https://arxiv.org/abs/2505.17694) | [Repo](https://github.com/wzbxpy/codec) |
 | **Canonical** | **CoTra: Towards Efficient and Scalable Distributed Vector Search with RDMA** | SIGMOD 2026 | distributed vector search; RDMA; asynchronous systems; algorithm-system co-design | [Link](https://arxiv.org/abs/2507.06653) | — |
-| **Canonical** | **Efficient LLM Serving for Agentic Workflows: A Data Systems Perspective** | SIGMOD 2026 | agentic LLM serving / workflow-aware caching / cache-aware scheduling | [Link](https://arxiv.org/abs/2603.16104) | [Repo](https://github.com/MachineLearningSystem/26SIGMOD-helium_demo) |
-| **Canonical** | **FlashANNS: GPU-Driven Asynchronous I/O Pipelining for Eliminating Storage-Compute Bottlenecks in Billion-Scale Similarity Search** | SIGMOD 2026 | GPU vector search / RAG retrieval infrastructure / SSD-compute overlap | [Link](https://arxiv.org/abs/2507.10070) | — |
+| **Canonical** | **DFLOP: A Data-driven Framework for Multimodal LLM Training Pipeline Optimization** | SIGMOD 2026 | Multimodal LLM training; distributed training; pipeline scheduling | [Link](https://arxiv.org/abs/2603.25120) | [Repo](https://github.com/BDAI-Research/DFLOP) |
+| **Canonical** | **Efficient LLM Serving for Agentic Workflows: A Data Systems Perspective** | SIGMOD 2026 | Efficient reasoning and agent systems; LLM serving; cross-call caching | [Link](https://arxiv.org/abs/2603.16104) | [Repo](https://github.com/MachineLearningSystem/26SIGMOD-helium_demo) |
+| **Canonical** | **From Prefix Cache to Fusion RAG Cache: Accelerating LLM Inference in Retrieval-Augmented Generation** | SIGMOD 2026 | LLM serving; RAG; KV cache reuse; long-context inference | [Link](https://arxiv.org/abs/2601.12904) | — |
+| **Canonical** | **High-Throughput, Cost-Effective Billion-Scale Vector Search with a Single GPU** | SIGMOD 2026 | GPU vector search; billion-scale ANN; PCIe and SSD data movement | [Link](https://dl.acm.org/doi/10.1145/3769799) | — |
 | **Canonical** | **HotPrefix: Hotness-Aware KV Cache Scheduling for Efficient Prefix Sharing in LLM Inference Systems** | SIGMOD 2026 | prefix KV-cache scheduling / LLM serving | [Link](https://doi.org/10.1145/3749168) | — |
-| **Canonical** | **KVDrive: A Holistic Multi-Tier KV Cache Management System for Long-Context LLM Inference** | SIGMOD 2026 | KV cache / long-context LLM serving / multi-tier memory offload | [Link](https://arxiv.org/abs/2605.18071) | — |
+| **Canonical** | **KVDrive: A Holistic Multi-Tier KV Cache Management System for Long-Context LLM Inference** | SIGMOD 2026 | LLM serving; long-context; KV cache; heterogeneous memory; runtime scheduling | [Link](https://arxiv.org/abs/2605.18071) | — |
 | **Canonical** | **MorphingDB: A Task-Centric AI-Native DBMS for Model Management and Inference** | SIGMOD 2026 | AI-native DBMS; model management; inference throughput; resource efficiency | [Link](https://arxiv.org/abs/2511.21160) | — |
+| **Canonical** | **NeurStore: Efficient In-database Deep Learning Model Management System** | SIGMOD 2026 | model storage; tensor deduplication; delta quantization; efficient model loading | [Link](https://arxiv.org/abs/2509.03228) | — |
 | **Canonical** | **OctoSelector: Efficient and Effective Batch-Aware Model Selection for Large Language Models** | SIGMOD 2026 | LLM serving/model selection/cost-aware inference | [Link](https://dl.acm.org/doi/10.1145/3802095) | — |
 | **Canonical** | **P-MOSS: Scheduling Main-Memory Indexes Over NUMA Servers Using Next Token Prediction** | SIGMOD 2026 | learned scheduling; NUMA; Decision Transformer; hardware-software co-design | [Link](https://arxiv.org/abs/2411.02933) | — |
 | **Canonical** | **ScaleDoc: Scaling LLM-based Predicates over Large Document Collections** | SIGMOD 2026 | LLM serving; proxy filtering; inference cost | [Link](https://arxiv.org/abs/2509.12610) | — |
-| **Canonical** | **Serving Hybrid LLM Loads with SLO Guarantees Using CPU-GPU Attention Piggybacking** | SIGMOD 2026 | LLM serving / heterogeneous CPU-GPU / SLO scheduling | [Link](https://arxiv.org/abs/2603.12831) | — |
-| **Canonical** | **SG-Serve: Efficient Model Serving for Subgraph-based Graph Representation Learning** | SIGMOD 2026 | graph model serving / tail-latency optimization / workload-aware GPU batching | [Link](https://dl.acm.org/doi/10.1145/3786697) | — |
-| **Canonical** | **TranSQL+: Serving Large Language Models with SQL on Low-Resource Hardware** | SIGMOD 2026 | LLM serving / edge low-resource inference / compiler-runtime | [Link](https://arxiv.org/abs/2502.02818) | — |
+| **Canonical** | **Serving Hybrid LLM Loads with SLO Guarantees Using CPU-GPU Attention Piggybacking** | SIGMOD 2026 | LLM serving; SLO-aware scheduling; CPU-GPU heterogeneous execution | [Link](https://arxiv.org/abs/2603.12831) | — |
+| **Canonical** | **SG-Serve: Efficient Model Serving for Subgraph-based Graph Representation Learning** | SIGMOD 2026 | GNN serving; subgraph extraction; GPU batching; tail-latency optimization | [Link](https://dl.acm.org/doi/10.1145/3786697) | — |
+| **Canonical** | **TranSQL+: Serving Large Language Models with SQL on Low-Resource Hardware** | SIGMOD 2026 | LLM inference; low-resource hardware; SQL runtime; KV cache | [Link](https://arxiv.org/abs/2502.02818) | — |
 | **Canonical** | **VecFlow: A High-Performance Vector Data Management System for Filtered-Search on GPUs** | SIGMOD 2026 | GPU vector search; filtered ANNS; data management; high-throughput retrieval | [Link](https://arxiv.org/abs/2506.00812) | — |
 | **Canonical** | **Cadence: Taming Coupled Contention in Disaggregated Agent Clouds** | SoCC 2026 | agent systems infrastructure / disaggregated clouds / coupled contention | [Link](https://acmsocc.org/2026/accepted-papers.html) | — |
 | **Canonical** | **Medha** | SoCC 2026 | KV virtualization + long-context serving + GPU colocation + on-device adaptation | — | — |

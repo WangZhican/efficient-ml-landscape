@@ -1,6 +1,6 @@
 # 13 · Efficient Reasoning / Agents
 
-> **1044 canonical papers** mapped here, plus a broader **1706-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **1045 canonical papers** mapped here, plus a broader **1706-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -1715,7 +1715,7 @@
 | **P2 · Relevant** | **A Privileged Teacher That Only Scores Cannot Search: Critique-Conditioned On-Policy Self-Distillation for Reasoning** | arXiv 2026 | efficient_reasoning_agents | [Link](https://arxiv.org/abs/2610.13744) | — |
 | **P2 · Relevant** | **A Local Agentic AI Framework to Generate Edge Case Scenarios for Safety Assurance** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.13479) | — |
 
-## 🏛️ Classical / Historical · 828 canonical
+## 🏛️ Classical / Historical · 829 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -2098,6 +2098,7 @@
 | **Canonical** | **XBridge: Entity-Grounded Latent Bridge for Heterogeneous LLM Communication** | arXiv 2026 | efficient_reasoning_agent | [Link](https://arxiv.org/abs/2608.11676) | — |
 | **Canonical** | **ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.13356) | — |
 | **Canonical** | **EfficientRollout: System-Aware Self-Speculative Decoding for RL Rollouts** | arXiv 2026 / ICML 2026 AdaptFM Workshop | efficient reasoning / RL rollout systems / speculative decoding | [Link](https://arxiv.org/abs/2606.18967) | [Repo](https://github.com/furiosa-ai/EfficientRollout) |
+| **Canonical** | **Resurrecting Recurrent Neural Networks for Long Sequences** | arXiv 23 | long-context sequence models; recurrent inference | [Link](https://arxiv.org/abs/2303.06349) | — |
 | **Canonical** | **AI Metropolis: Scaling Large Language Model-based Multi-Agent Simulation with Out-of-order Execution** | arXiv 24 | agent_simulation_runtime | [Link](https://arxiv.org/abs/2411.03519) | — |
 | **Canonical** | **Buffer of Thoughts: Thought-Augmented Reasoning with Large Language Models** | arXiv 24 | efficient_reasoning | [Link](https://arxiv.org/abs/2406.04271) | — |
 | **Canonical** | **SuffixDecoding: Extreme Speculative Decoding for Emerging AI Applications** | arXiv 24 |  | [Link](https://arxiv.org/abs/2411.04975) | — |
@@ -2532,7 +2533,7 @@
 | **Canonical** | **Weave: Efficient Co-Scheduling for Disaggregated RL Post-Training** | OSDI 2026 | efficient reasoning / RL post-training systems | [Link](https://www.usenix.org/conference/osdi26/presentation/wu-tianyuan) | — |
 | **Canonical** | **SmoothAgent: Efficient Long-Horizon LLM-Based Agent Serving with Lookahead Context Engineering** | PVLDB 2027 forthcoming / arXiv 2026 | agent systems / LLM serving / context engineering / KV cache / lookahead scheduling | [Link](https://arxiv.org/abs/2607.00151) | [Repo](https://github.com/PanZaifeng/SmoothAgent) |
 | **Canonical** | **RLux-VLA: A Unified and Efficient Framework for Reinforcement Learning of Vision-Language-Action Models** | RSS 2026 | Physical AI / VLA RL systems / scalable training | [Link](https://arxiv.org/abs/2510.06710) | — |
-| **Canonical** | **Efficient LLM Serving for Agentic Workflows: A Data Systems Perspective** | SIGMOD 2026 | agentic LLM serving / workflow-aware caching / cache-aware scheduling | [Link](https://arxiv.org/abs/2603.16104) | [Repo](https://github.com/MachineLearningSystem/26SIGMOD-helium_demo) |
+| **Canonical** | **Efficient LLM Serving for Agentic Workflows: A Data Systems Perspective** | SIGMOD 2026 | Efficient reasoning and agent systems; LLM serving; cross-call caching | [Link](https://arxiv.org/abs/2603.16104) | [Repo](https://github.com/MachineLearningSystem/26SIGMOD-helium_demo) |
 | **Canonical** | **OctoSelector: Efficient and Effective Batch-Aware Model Selection for Large Language Models** | SIGMOD 2026 | LLM serving/model selection/cost-aware inference | [Link](https://dl.acm.org/doi/10.1145/3802095) | — |
 | **Canonical** | **Task Cascades for Efficient Unstructured Data Processing** | SIGMOD 2026 | LLM inference cost; model/task cascades; efficient reasoning | [Link](https://arxiv.org/abs/2601.05536) | — |
 | **Canonical** | **Cadence: Taming Coupled Contention in Disaggregated Agent Clouds** | SoCC 2026 | agent systems infrastructure / disaggregated clouds / coupled contention | [Link](https://acmsocc.org/2026/accepted-papers.html) | — |
