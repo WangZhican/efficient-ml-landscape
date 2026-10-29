@@ -1,6 +1,6 @@
 # 04 · Quantization
 
-> **649 canonical papers** mapped here, plus a broader **643-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **650 canonical papers** mapped here, plus a broader **643-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -652,7 +652,7 @@
 | **P1 · Watch** | **A Geometric Decision Procedure for STL Feasibility and Repair** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.00199) | — |
 | **P2 · Relevant** | **A Fine-Grained Analysis of the LoRA Fine-Tuning Landscape with Implications for Data Selection** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2610.06542) | — |
 
-## 🏛️ Classical / Historical · 482 canonical
+## 🏛️ Classical / Historical · 483 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -1118,6 +1118,7 @@
 | **Canonical** | **RoMeo** | PPoPP 2026 | sparse transformer inference + mixed-precision quantization | [Link](https://arxiv.org/abs/2506.06095) | — |
 | **Canonical** | **HACK: Homomorphic Acceleration via Compression of the Key-Value Cache for Disaggregated LLM Inference** | SIGCOMM 2025 | KV cache / disaggregated LLM serving / quantization | [Link](https://arxiv.org/abs/2502.03589) | — |
 | **Canonical** | **GEM: A Native Graph-based Index for Multi-Vector Retrieval** | SIGMOD 2026 | multimodal retrieval; multi-vector ANN; quantized search | [Link](https://arxiv.org/abs/2603.20336) | — |
+| **Canonical** | **SAQ: Pushing the Limits of Vector Quantization through Code Adjustment and Dimension Segmentation** | SIGMOD 2026 | Vector quantization; ANN search; efficient encoding and compression | [Link](https://arxiv.org/abs/2509.12086) | — |
 | **Canonical** | **EdgeGen: Efficient LLM-Empowered Model Generation with Quantization-Aware NAS** | The Web Conference 2026 | edge AI / quantization-aware NAS / LLM-guided model generation | [Link](https://doi.org/10.1145/3774904.3792394) | — |
 | **Canonical** | **Energy-Efficient and Dequantization-Free Quantization of LLMs: A Spiking Neural Network Approach to Salient Value Mitigation** | The Web Conference 2026 | LLM quantization / edge energy efficiency / SNN | [Link](https://arxiv.org/abs/2510.19498) | — |
 | **Canonical** | **Katz** | USENIX ATC 2025 | production KV-cache + quantized-kernel compiler + diffusion workflow serving | [Link](https://www.usenix.org/system/files/atc25-li-suyi-katz.pdf) | — |

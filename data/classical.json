@@ -88466,6 +88466,49 @@
     ]
   },
   {
+    "title": "CoTra: Towards Efficient and Scalable Distributed Vector Search with RDMA",
+    "venue": "SIGMOD 2026",
+    "topic": "distributed vector search; RDMA; asynchronous systems; algorithm-system co-design",
+    "arxiv": "2507.06653",
+    "doi": "10.1145/3786634",
+    "official_id": "doi:10.1145/3786634",
+    "paper_url": "https://arxiv.org/abs/2507.06653",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The first-party arXiv abstract establishes a distributed approximate-vector-search system using clustering-based partitioning, asynchronous execution, task push, scheduling and communication batching; at 16 machines it reports 9.8–13.4x throughput scaling over one machine and 2.12–3.58x over the best baseline at recall@10=0.95.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "Curator: Efficient Vector Search with Low-Selectivity Filters",
+    "venue": "SIGMOD 2026",
+    "topic": "filtered ANN; vector retrieval; dual-index architecture",
+    "arxiv": "2601.01291",
+    "doi": "10.1145/3786635",
+    "official_id": "doi:10.1145/3786635",
+    "paper_url": "https://arxiv.org/abs/2601.01291",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The first-party arXiv abstract describes a partition-based dual-index system for low-selectivity filtered ANN, with label-specialized indexes, shared clustering structure and temporary indexes for complex predicates; it reports up to 20.9x lower query latency than pre-filtering fallback with 5.5% construction-time and 4.3% memory overhead.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "DepCache: A KV Cache Management Framework for GraphRAG with Dependency Attention",
     "venue": "SIGMOD 2026",
     "topic": "GraphRAG dependency attention / KV-cache management",
@@ -88551,6 +88594,27 @@
     "directions": [
       "LLM Serving",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "FGIM: a Fast Graph-based Indexes Merging Framework for Approximate Nearest Neighbor Search",
+    "venue": "SIGMOD 2026",
+    "topic": "ANN graph index merging; index update efficiency",
+    "arxiv": "2603.21710",
+    "doi": "10.1145/3786651",
+    "official_id": "doi:10.1145/3786651",
+    "paper_url": "https://arxiv.org/abs/2603.21710",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The first-party arXiv abstract identifies a fast framework for merging graph-based ANN indexes, directly addressing index maintenance/merge cost for large vector retrieval. Retain as a high-value vector-search systems contribution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -88665,6 +88729,27 @@
     ]
   },
   {
+    "title": "InferF: Declarative Factorization of AI/ML Inferences over Joins",
+    "venue": "SIGMOD 2026",
+    "topic": "AI/ML inference; factorized execution; query/dataflow optimization",
+    "arxiv": "2511.20489",
+    "doi": "",
+    "official_id": "arXiv:2511.20489",
+    "paper_url": "https://arxiv.org/abs/2511.20489",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party SIGMOD title/author record and official arXiv abstract establish cost-aware pushdown of factorized inference subcomputations into multi-way join trees, with greedy and genetic plan search; the Velox implementation reports up to 11.3x speedup on real datasets.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "KVDrive: A Holistic Multi-Tier KV Cache Management System for Long-Context LLM Inference",
     "venue": "SIGMOD 2026",
     "topic": "KV cache / long-context LLM serving / multi-tier memory offload",
@@ -88709,6 +88794,27 @@
     ]
   },
   {
+    "title": "MorphingDB: A Task-Centric AI-Native DBMS for Model Management and Inference",
+    "venue": "SIGMOD 2026",
+    "topic": "AI-native DBMS; model management; inference throughput; resource efficiency",
+    "arxiv": "2511.21160",
+    "doi": "",
+    "official_id": "arXiv:2511.21160",
+    "paper_url": "https://arxiv.org/abs/2511.21160",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party SIGMOD title/author record and official arXiv abstract establish task-centric model storage/selection, pre-embedding with vector sharing to eliminate redundant computations, and DAG batch pipelines with cost-aware scheduling; the paper evaluates throughput, resource use, and time cost across nine public datasets.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving"
+    ]
+  },
+  {
     "title": "OctoSelector: Efficient and Effective Batch-Aware Model Selection for Large Language Models",
     "venue": "SIGMOD 2026",
     "topic": "LLM serving/model selection/cost-aware inference",
@@ -88728,6 +88834,72 @@
     "directions": [
       "LLM Serving",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "RAIRS: Optimizing Redundant Assignment and List Layout for IVF-Based ANN Search",
+    "venue": "SIGMOD 2026",
+    "topic": "ANN search; IVF; list layout; redundant distance computation",
+    "arxiv": "2601.07183",
+    "doi": "10.1145/3786687",
+    "official_id": "doi:10.1145/3786687",
+    "paper_url": "https://arxiv.org/abs/2601.07183",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The first-party arXiv abstract introduces an AIR metric for Euclidean-space redundant assignment and a shared-cell list layout to reduce repeated distance computations; it reports up to 1.33x improvement over the best-performing IVF method, IVF-PQ Fast Scan with refinement.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "SAQ: Pushing the Limits of Vector Quantization through Code Adjustment and Dimension Segmentation",
+    "venue": "SIGMOD 2026",
+    "topic": "Vector quantization; ANN search; efficient encoding and compression",
+    "arxiv": "2509.12086",
+    "doi": "",
+    "official_id": "arXiv:2509.12086",
+    "paper_url": "https://arxiv.org/abs/2509.12086",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party SIGMOD title/author record and official arXiv abstract establish PCA dimension segmentation with dynamic-programming bit allocation and coordinate-descent-like code adjustment; reports up to 80% lower quantization error and over 80x faster encoding than Extended RabitQ.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization"
+    ]
+  },
+  {
+    "title": "Scalable Graph Indexing using GPUs for Approximate Nearest Neighbor Search",
+    "venue": "SIGMOD 2026",
+    "topic": "GPU graph indexing; ANN search; heterogeneous out-of-core execution",
+    "arxiv": "2508.08744",
+    "doi": "",
+    "official_id": "arXiv:2508.08744",
+    "paper_url": "https://arxiv.org/abs/2508.08744",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party SIGMOD title/author record and official arXiv abstract establish GPU-specific GNN-Descent, generalized graph-pruning kernels, and asynchronous GPU-CPU-disk indexing with cluster-aware caching; reports 1.32x-112.79x speedup while maintaining index quality.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "GPU Kernel / DSL / Compiler",
+      "Distributed Training / Inference",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -88839,6 +89011,27 @@
       "LLM Serving",
       "GPU Kernel / DSL / Compiler",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "WaveStitch: Flexible and Fast Conditional Time Series Generation With Diffusion Models",
+    "venue": "SIGMOD 2026",
+    "topic": "Diffusion generation; conditional time-series synthesis; parallel generation",
+    "arxiv": "2503.06231",
+    "doi": "",
+    "official_id": "arXiv:2503.06231",
+    "paper_url": "https://arxiv.org/abs/2503.06231",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party SIGMOD title/author record and official arXiv abstract establish a stitching mechanism for parallel diffusion synthesis of sequential segments and compact categorical encoding; the abstract reports generation up to 460x faster than autoregressive methods at comparable accuracy.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Diffusion / Flow Acceleration"
     ]
   },
   {

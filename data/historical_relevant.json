@@ -72922,6 +72922,90 @@
         "Multimodal / MLLM Serving",
         "Efficient Reasoning / Agents"
       ]
+    },
+    {
+      "title": "CMANNS: GPU-Accelerated Graph Index Construction for ANNS via Compute–Memory Disaggregation",
+      "venue": "SIGMOD 2026",
+      "topic": "GPU ANN index construction; compute-memory disaggregation",
+      "arxiv": "",
+      "doi": "10.1145/3802027",
+      "official_id": "doi:10.1145/3802027",
+      "paper_url": "https://dl.acm.org/doi/10.1145/3802027",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "The first-party SIGMOD accepted-paper title identifies GPU-accelerated graph-index construction for ANNS under compute-memory disaggregation. Retain as a high-value systems lead; abstract verification remains pending and the publisher PDF will be attempted.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Efficient Vector Index Merging in Vector Databases",
+      "venue": "SIGMOD 2026",
+      "topic": "vector index merging; index maintenance efficiency",
+      "arxiv": "",
+      "doi": "10.1145/3786645",
+      "official_id": "doi:10.1145/3786645",
+      "paper_url": "https://dl.acm.org/doi/10.1145/3786645",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "The first-party SIGMOD accepted-paper title identifies an efficiency-oriented vector-index merge method. Retain as a high-value vector database lead; abstract verification remains pending and the publisher PDF will be attempted.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Fast-Convergent Proximity Graphs for Approximate Nearest Neighbor Search",
+      "venue": "SIGMOD 2026",
+      "topic": "approximate nearest neighbor search; proximity graph",
+      "arxiv": "",
+      "doi": "10.1145/3786650",
+      "official_id": "doi:10.1145/3786650",
+      "paper_url": "https://dl.acm.org/doi/10.1145/3786650",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "The first-party SIGMOD accepted-paper title identifies a proximity-graph method for ANN search. Retain as a high-value vector retrieval lead; abstract verification remains pending and the publisher PDF will be attempted.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "VecFlow-Chamfer: A GPU-based Data Management System for High-Performance Multi-Vector Search on Superchips",
+      "venue": "SIGMOD 2026",
+      "topic": "GPU multi-vector search; superchip architecture",
+      "arxiv": "",
+      "doi": "10.1145/3786706",
+      "official_id": "doi:10.1145/3786706",
+      "paper_url": "https://dl.acm.org/doi/10.1145/3786706",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "The first-party SIGMOD accepted-paper title identifies a GPU-based multi-vector data-management system targeting high-performance search on superchips. Retain as a high-value GPU/ML retrieval lead; abstract verification remains pending and the publisher PDF will be attempted.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
+      ]
     }
   ],
   "historical_p2": [
