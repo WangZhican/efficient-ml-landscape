@@ -423,28 +423,6 @@
     ]
   },
   {
-    "title": "WorldScape Policy 2.0: Empowering Steerable World Action Modeling with Reasoning-Augmented Memory and In-Context Learning",
-    "venue": "arXiv 2026",
-    "topic": "",
-    "arxiv": "2607.18840",
-    "doi": "",
-    "official_id": "arXiv:2607.18840",
-    "paper_url": "https://arxiv.org/abs/2607.18840",
-    "code_url": "",
-    "formal_class": "WATCH",
-    "physical_ai": true,
-    "decision": "WATCH",
-    "tracking_tier": "P1 · Watch",
-    "why": "Steerable world-action modeling with reasoning-augmented memory and in-context adaptation is highly relevant to WAM/Physical-AI runtime design, though primary claims center capability.",
-    "published_at": "",
-    "updated_at": "",
-    "is_latest_30d": false,
-    "directions": [
-      "Efficient Reasoning / Agents",
-      "VLA / WAM / Physical AI"
-    ]
-  },
-  {
     "title": "WorldRoamBench: An Open-World Benchmark for Long-Horizon Stability of Interactive World Models",
     "venue": "arXiv 2026",
     "topic": "VLA/WAM/Physical AI serving",
@@ -645,29 +623,6 @@
     ]
   },
   {
-    "title": "World Models Under Asynchronous Sensor Observations",
-    "venue": "arXiv 2026",
-    "topic": "VLA/WAM/Physical AI serving / world models / asynchronous sensing",
-    "arxiv": "2609.07299",
-    "doi": "",
-    "official_id": "arXiv:2609.07299",
-    "paper_url": "https://arxiv.org/abs/2609.07299",
-    "code_url": "",
-    "formal_class": "WATCH",
-    "physical_ai": true,
-    "decision": "WATCH",
-    "tracking_tier": "P1 · Watch",
-    "why": "Directly studies transformer world models when physical sensor channels arrive at heterogeneous rates. Staleness and time-to-refresh features avoid fabricating interpolated observations or discarding faster sensors, with evaluation in locomotion, MPC and a latched-actuator system. Protected Physical-AI/world-model systems lineage; no direct compute-speedup claim.",
-    "published_at": "",
-    "updated_at": "",
-    "is_latest_30d": false,
-    "directions": [
-      "LLM Serving",
-      "VLA / WAM / Physical AI",
-      "Edge / Cloud / Heterogeneous AI"
-    ]
-  },
-  {
     "title": "World In Your Hands: A Large-Scale and Open-Source Ecosystem for Learning Human-Centric Manipulation in the Wild",
     "venue": "arXiv 2026",
     "topic": "",
@@ -821,30 +776,6 @@
     ]
   },
   {
-    "title": "WHTMix: Efficient Stereo Depth Estimation via Walsh-Hadamard Token Mixing",
-    "venue": "arXiv 2026",
-    "topic": "llm_serving,gen",
-    "arxiv": "2607.25234",
-    "doi": "",
-    "official_id": "arXiv:2607.25234",
-    "paper_url": "https://arxiv.org/abs/2607.25234",
-    "code_url": "",
-    "formal_class": "WATCH",
-    "physical_ai": true,
-    "decision": "WATCH",
-    "tracking_tier": "P1 · Watch",
-    "why": "First-party arXiv abstract confirms an explicit efficient-ML mechanism and quantitative/technical contribution; curated as high-value reading Watch. Evidence: Stereo depth estimation for driving, robotics and augmented reality must run at high resolution under tight latency budgets, yet in transformer-based matchers the global self-attention that aggregates scene context grows quadratically with the number of pixels",
-    "published_at": "",
-    "updated_at": "",
-    "is_latest_30d": false,
-    "directions": [
-      "LLM Serving",
-      "Quantization",
-      "Efficient Attention",
-      "VLA / WAM / Physical AI"
-    ]
-  },
-  {
     "title": "WholeBodyWAM: Generalizing Pre-trained World-Action Priors to Humanoid Loco-Manipulation via WBC-Grounded Coordination",
     "venue": "arXiv 26",
     "topic": "vla_wam",
@@ -935,25 +866,23 @@
     ]
   },
   {
-    "title": "Where Success Breaks: Failure-Boundary Learning for Robust Vision-Language-Action Models",
+    "title": "Where Predictive Supervision Goes Shapes What VLA Policies Learn",
     "venue": "arXiv 2026",
-    "topic": "VLA/WAM/Physical AI / robust adaptation / failure recovery",
-    "arxiv": "2609.06114",
+    "topic": "",
+    "arxiv": "2609.36645",
     "doi": "",
-    "official_id": "arXiv:2609.06114",
-    "paper_url": "https://arxiv.org/abs/2609.06114",
+    "official_id": "arXiv:2609.36645",
+    "paper_url": "https://arxiv.org/abs/2609.36645",
     "code_url": "",
     "formal_class": "WATCH",
-    "physical_ai": true,
+    "physical_ai": false,
     "decision": "WATCH",
     "tracking_tier": "P1 · Watch",
-    "why": "Frames robust VLA adaptation as discovering, localizing, and shaping failure boundaries rather than only fitting successful demonstrations. DLS uses real-grounded priors plus simulated co-training to expose recovery boundaries; retained as a protected deployment-robustness watch item because the main contribution is reliability rather than measured serving efficiency.",
+    "why": "",
     "published_at": "",
     "updated_at": "",
     "is_latest_30d": false,
     "directions": [
-      "LLM Serving",
-      "Multimodal / MLLM Serving",
       "VLA / WAM / Physical AI"
     ]
   },
@@ -1400,29 +1329,6 @@
     ]
   },
   {
-    "title": "VQActFlow: Vector-Quantized Action Mode Steering for Multi-Task Robot Manipulation",
-    "venue": "arXiv 2026",
-    "topic": "quant,gen",
-    "arxiv": "2606.21600",
-    "doi": "",
-    "official_id": "arXiv:2606.21600",
-    "paper_url": "https://arxiv.org/abs/2606.21600",
-    "code_url": "",
-    "formal_class": "WATCH",
-    "physical_ai": true,
-    "decision": "WATCH",
-    "tracking_tier": "P1 · Watch",
-    "why": "Relevant and technically promising efficient-ML or protected Physical-AI research; hold for deeper evidence review. First-party abstract evidence: Multi-task robot manipulation policies are challenging to learn from demonstration because traditionally a single network must select among qualitatively different action modes from a multimodal demonstration distribution, conditioned on language and visual context. A wrong mode selection means executing the wrong task or an action infeasible in the scene. Tokenizing continuous actions into a learned discrete codebook separates these modes at the representation level, offering structural advanta",
-    "published_at": "",
-    "updated_at": "",
-    "is_latest_30d": false,
-    "directions": [
-      "Quantization",
-      "Multimodal / MLLM Serving",
-      "VLA / WAM / Physical AI"
-    ]
-  },
-  {
     "title": "VORL-EXPLORE: A Hybrid Learning Planning Approach to Multi-Robot Exploration in Dynamic Environments",
     "venue": "arXiv 2026",
     "topic": "physical_ai",
@@ -1600,28 +1506,6 @@
       "LLM Serving",
       "Multimodal / MLLM Serving",
       "Efficient Reasoning / Agents",
-      "VLA / WAM / Physical AI"
-    ]
-  },
-  {
-    "title": "VLA-Pro: Cross-Task Procedural Memory Transfer for Vision-Language-Action Models",
-    "venue": "arXiv 2026",
-    "topic": "multimodal,physical",
-    "arxiv": "2605.29562",
-    "doi": "",
-    "official_id": "arXiv:2605.29562",
-    "paper_url": "https://arxiv.org/abs/2605.29562",
-    "code_url": "",
-    "formal_class": "WATCH",
-    "physical_ai": true,
-    "decision": "WATCH",
-    "tracking_tier": "P1 · Watch",
-    "why": "Relevant and technically promising efficient-ML or protected Physical-AI research; hold for deeper evidence review. First-party abstract evidence: Vision-Language-Action (VLA) models have shown strong potential for general-purpose robotic manipulation, yet they still struggle to generalize to unseen tasks that necessitate transferring relevant experience across objects, scenes, and action patterns. This paper proposes VLA-Pro, a plug-and-play framework designed to enhance cross-task generalization by storing task-relevant procedural memories at training time and transferring these memories during inference. Specifically, VLA-Pro stores tas",
-    "published_at": "",
-    "updated_at": "",
-    "is_latest_30d": false,
-    "directions": [
-      "Multimodal / MLLM Serving",
       "VLA / WAM / Physical AI"
     ]
   },
@@ -1889,6 +1773,27 @@
     ]
   },
   {
+    "title": "VidAct: Learning Manipulation from In-the-Wild Videos with Object-Centric 3D Awareness",
+    "venue": "arXiv 2026",
+    "topic": "",
+    "arxiv": "2609.36870",
+    "doi": "",
+    "official_id": "arXiv:2609.36870",
+    "paper_url": "https://arxiv.org/abs/2609.36870",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "Protected Physical-AI work: efficient single-video-to-robot learning with RGB-only zero-shot deployment and object-centric 3D supervision.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "ViBe: Visual Behavior Adaptation for Perceptive Humanoid Whole-Body Control",
     "venue": "arXiv 2026",
     "topic": "VLA/WAM/Physical AI serving / parameter-efficient robot adaptation / visual control",
@@ -2134,6 +2039,27 @@
     ]
   },
   {
+    "title": "V2X-WAM: A Cooperative World Action Model for End-to-End Autonomous Driving",
+    "venue": "arXiv 2026",
+    "topic": "",
+    "arxiv": "2609.37098",
+    "doi": "",
+    "official_id": "arXiv:2609.37098",
+    "paper_url": "https://arxiv.org/abs/2609.37098",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "V-Link: Recovering Lost Visual Representations in Action DiT for Vision-Language-Action Models",
     "venue": "",
     "topic": "LLM serving / multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving",
@@ -2156,6 +2082,28 @@
       "Video / Image Generation",
       "Diffusion / Flow Acceleration",
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "V-JEPA Policy: Building Effective World-Action Models on Predictive Visual Latents",
+    "venue": "arXiv 26",
+    "topic": "vla_wam",
+    "arxiv": "2609.37250",
+    "doi": "",
+    "official_id": "arXiv:2609.37250",
+    "paper_url": "https://arxiv.org/abs/2609.37250",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "Official arXiv abstract and systems evidence reviewed for targeted Physical-AI recall. arning, pretraining the predictor on DROID video--instruction pairs without action labels and adapting it into a WAM yields substantial gains in downstream control and out-of-distribution generalization. Together, these findings establish predictive visual latents as a foundation for effective WAM learning from task-specific demonstrations and for transferring future-modeling knowledge acquired from broader in-the-wild videos. Our code is available at https://github.com/breez3young/VJEPA-Policy.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -3706,6 +3654,27 @@
     ]
   },
   {
+    "title": "TaRL: Learning General and Physical Rewards from Tactile Demonstrations",
+    "venue": "arXiv 2026",
+    "topic": "physical_ai,reward_model,robot_learning",
+    "arxiv": "2609.36785",
+    "doi": "",
+    "official_id": "arXiv:2609.36785",
+    "paper_url": "https://arxiv.org/abs/2609.36785",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "High-value adjacent or protected-route work with meaningful efficiency/system implications; retain for deeper reading.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Targeting World Models to Compromise Robot Learning Pipelines",
     "venue": "arXiv 2026",
     "topic": "gen,physical,edge",
@@ -3769,6 +3738,27 @@
     "is_latest_30d": false,
     "directions": [
       "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Taming VLAs under Robot Execution Errors: Self-Compensation and Stress Testing",
+    "venue": "arXiv 2026",
+    "topic": "",
+    "arxiv": "2609.37334",
+    "doi": "",
+    "official_id": "arXiv:2609.37334",
+    "paper_url": "https://arxiv.org/abs/2609.37334",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
       "VLA / WAM / Physical AI"
     ]
   },
@@ -3881,6 +3871,28 @@
     "updated_at": "",
     "is_latest_30d": false,
     "directions": [
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "T$^2$Mem: Learning Test-Time Memory for Robotics",
+    "venue": "arXiv 2026",
+    "topic": "",
+    "arxiv": "2609.36720",
+    "doi": "",
+    "official_id": "arXiv:2609.36720",
+    "paper_url": "https://arxiv.org/abs/2609.36720",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Efficient Reasoning / Agents",
       "VLA / WAM / Physical AI"
     ]
   },
@@ -4532,6 +4544,27 @@
     "is_latest_30d": false,
     "directions": [
       "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Speed in the Blind Spot: An Interpretability Analysis of Dynamic Perception in VLMs for Autonomous Driving",
+    "venue": "arXiv 2026",
+    "topic": "physical_ai,vla,driving",
+    "arxiv": "2609.37046",
+    "doi": "",
+    "official_id": "arXiv:2609.37046",
+    "paper_url": "https://arxiv.org/abs/2609.37046",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "High-value adjacent or protected-route work with meaningful efficiency/system implications; retain for deeper reading.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
       "VLA / WAM / Physical AI"
     ]
   },
@@ -5800,6 +5833,28 @@
       "LLM Serving",
       "Quantization",
       "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "SafeVantage: Vantage-Aware Memory for Reliable Embodied Decisions",
+    "venue": "arXiv 2026",
+    "topic": "physical_ai,memory,embodied_agent",
+    "arxiv": "2609.36906",
+    "doi": "",
+    "official_id": "arXiv:2609.36906",
+    "paper_url": "https://arxiv.org/abs/2609.36906",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "High-value adjacent or protected-route work with meaningful efficiency/system implications; retain for deeper reading.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Efficient Reasoning / Agents",
       "VLA / WAM / Physical AI"
     ]
   },
@@ -7256,6 +7311,27 @@
     ]
   },
   {
+    "title": "Recovering the View: Benchmarking Physical Active Vision for Occlusion Recovery in Robotic Manipulation",
+    "venue": "arXiv 2026",
+    "topic": "",
+    "arxiv": "2609.37292",
+    "doi": "",
+    "official_id": "arXiv:2609.37292",
+    "paper_url": "https://arxiv.org/abs/2609.37292",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "ReCAT: Remember, Count, and Time: Structured Recurrent Memory for Robot Manipulation",
     "venue": "arXiv 2026",
     "topic": "VLA/WAM/Physical AI serving",
@@ -7475,6 +7551,27 @@
     "is_latest_30d": false,
     "directions": [
       "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "RawVLA: Embodied Neural Image Signal Processor For Robotic Manipulation",
+    "venue": "arXiv 2026",
+    "topic": "",
+    "arxiv": "2609.37530",
+    "doi": "",
+    "official_id": "arXiv:2609.37530",
+    "paper_url": "https://arxiv.org/abs/2609.37530",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
       "VLA / WAM / Physical AI"
     ]
   },
@@ -8355,6 +8452,27 @@
     "is_latest_30d": false,
     "directions": [
       "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "PhysWAM: Physically Consistent World Action Model for Autonomous Driving",
+    "venue": "arXiv 2026",
+    "topic": "physical_ai",
+    "arxiv": "2609.37970",
+    "doi": "",
+    "official_id": "arXiv:2609.37970",
+    "paper_url": "https://arxiv.org/abs/2609.37970",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
       "VLA / WAM / Physical AI"
     ]
   },
@@ -10416,28 +10534,6 @@
     ]
   },
   {
-    "title": "Monkey See, Can Monkey Do? A Benchmark for Evaluating Robot Skill Learning by Observation",
-    "venue": "arXiv 2026",
-    "topic": "VLA/WAM/Physical AI serving / robot learning / data scaling benchmark",
-    "arxiv": "2609.08209",
-    "doi": "",
-    "official_id": "arXiv:2609.08209",
-    "paper_url": "https://arxiv.org/abs/2609.08209",
-    "code_url": "",
-    "formal_class": "WATCH",
-    "physical_ai": true,
-    "decision": "WATCH",
-    "tracking_tier": "P1 · Watch",
-    "why": "RoboReel provides a unified benchmark for learning robot policies from human videos across ten manipulation tasks and seven-plus algorithms including VLA variants. It directly addresses robotics data scaling and long-horizon robustness, but is a benchmark rather than an inference accelerator.",
-    "published_at": "",
-    "updated_at": "",
-    "is_latest_30d": false,
-    "directions": [
-      "LLM Serving",
-      "VLA / WAM / Physical AI"
-    ]
-  },
-  {
     "title": "MomWorld: Momentum-Aware Latent World Model for Long-Horizon Autonomous Driving",
     "venue": "arXiv 2026",
     "topic": "VLA/WAM/Physical AI serving / world models",
@@ -11040,32 +11136,6 @@
       "Multimodal / MLLM Serving",
       "Video / Image Generation",
       "VLA / WAM / Physical AI"
-    ]
-  },
-  {
-    "title": "ME-VLM: A Unified VLM for Embodied Cognition and Agent Coordination",
-    "venue": "arXiv 2026",
-    "topic": "",
-    "arxiv": "2609.24526",
-    "doi": "",
-    "official_id": "arXiv:2609.24526",
-    "paper_url": "https://arxiv.org/abs/2609.24526",
-    "code_url": "",
-    "formal_class": "WATCH",
-    "physical_ai": false,
-    "decision": "WATCH",
-    "tracking_tier": "P1 · Watch",
-    "why": "Physical-AI edge deployment combines visual-token compression, W4A8 quantization and HW/SW co-optimization, cutting prefill latency 400 to 188 ms.",
-    "published_at": "",
-    "updated_at": "",
-    "is_latest_30d": false,
-    "directions": [
-      "LLM Serving",
-      "Quantization",
-      "Multimodal / MLLM Serving",
-      "Efficient Reasoning / Agents",
-      "VLA / WAM / Physical AI",
-      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -11884,27 +11954,6 @@
     ]
   },
   {
-    "title": "LiFR v2: Completion-Augmented Event Propagation for High-Rate Dense Prediction",
-    "venue": "arXiv 2026",
-    "topic": "",
-    "arxiv": "2609.25803",
-    "doi": "",
-    "official_id": "arXiv:2609.25803",
-    "paper_url": "https://arxiv.org/abs/2609.25803",
-    "code_url": "",
-    "formal_class": "WATCH",
-    "physical_ai": true,
-    "decision": "WATCH",
-    "tracking_tier": "P1 · Watch",
-    "why": "Causal anytime streaming dense prediction combines propagation, completion and memory for high-rate perception.",
-    "published_at": "",
-    "updated_at": "",
-    "is_latest_30d": false,
-    "directions": [
-      "VLA / WAM / Physical AI"
-    ]
-  },
-  {
     "title": "LIFD: Anchored Diffusion for 3D-Aware Scene Memory in Robotic Manipulation",
     "venue": "arXiv 2026",
     "topic": "VLA/WAM/Physical AI serving",
@@ -12418,30 +12467,6 @@
     ]
   },
   {
-    "title": "LayerRoute: Action-Conditioned Mixture-of-Layers Routing for Vision-Language-Action Policies",
-    "venue": "arXiv 2026",
-    "topic": "VLA/WAM/Physical AI serving / adaptive layer routing / cached VLM representations",
-    "arxiv": "2609.06079",
-    "doi": "",
-    "official_id": "arXiv:2609.06079",
-    "paper_url": "https://arxiv.org/abs/2609.06079",
-    "code_url": "",
-    "formal_class": "WATCH",
-    "physical_ai": true,
-    "decision": "WATCH",
-    "tracking_tier": "P1 · Watch",
-    "why": "LayerRoute dynamically mixes cached VLM-layer representations and rereads prior action states for VLA control, improving StarVLA-pi and pi0.5 across simulation and real-world benchmarks with only 0.31%/3.87% added parameters. It is highly relevant to adaptive representation access and cache reuse, but the current evidence emphasizes task quality rather than measured inference speedup, so retain as protected high-value watch.",
-    "published_at": "",
-    "updated_at": "",
-    "is_latest_30d": false,
-    "directions": [
-      "LLM Serving",
-      "KV Cache / Long Context",
-      "Multimodal / MLLM Serving",
-      "VLA / WAM / Physical AI"
-    ]
-  },
-  {
     "title": "Layered Architecture for Mobile Intelligence",
     "venue": "arXiv 26",
     "topic": "cloud_edge",
@@ -12937,6 +12962,28 @@
     ]
   },
   {
+    "title": "IronLLM: Forging Compact Edge-Native Language Models for Real-Time Embodied Intelligence",
+    "venue": "arXiv 2026",
+    "topic": "",
+    "arxiv": "2609.36860",
+    "doi": "",
+    "official_id": "arXiv:2609.36860",
+    "paper_url": "https://arxiv.org/abs/2609.36860",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "IoT-MCP: Bridging LLMs and IoT Systems Through Model Context Protocol",
     "venue": "arXiv 25",
     "topic": "physical_ai_edge_agent_runtime",
@@ -13023,6 +13070,29 @@
     "directions": [
       "LLM Serving",
       "Video / Image Generation",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "InsightMap: Structured Spatial Modeling for Embodied Multimodal Reasoning",
+    "venue": "arXiv 2026",
+    "topic": "",
+    "arxiv": "2609.37187",
+    "doi": "",
+    "official_id": "arXiv:2609.37187",
+    "paper_url": "https://arxiv.org/abs/2609.37187",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents",
       "VLA / WAM / Physical AI"
     ]
   },
@@ -13319,27 +13389,6 @@
       "LLM Serving",
       "Multimodal / MLLM Serving",
       "Efficient Reasoning / Agents",
-      "VLA / WAM / Physical AI"
-    ]
-  },
-  {
-    "title": "HyVGGT-VO: Hybrid Dense Visual Odometry With Classical VO and Feed-Forward Model",
-    "venue": "arXiv 2026",
-    "topic": "other",
-    "arxiv": "2604.02107",
-    "doi": "",
-    "official_id": "arXiv:2604.02107",
-    "paper_url": "https://arxiv.org/abs/2604.02107",
-    "code_url": "",
-    "formal_class": "WATCH",
-    "physical_ai": false,
-    "decision": "WATCH",
-    "tracking_tier": "P1 · Watch",
-    "why": "Official abstract: Dense visual odometry (VO), which provides pose estimation and dense 3D reconstruction, serves as the cornerstone for applications ranging from robotics to augmented reality. Recently, feed-forward models have demonstrated remarkable capabilities in dense mapp",
-    "published_at": "",
-    "updated_at": "",
-    "is_latest_30d": false,
-    "directions": [
       "VLA / WAM / Physical AI"
     ]
   },
@@ -13858,28 +13907,6 @@
     "decision": "WATCH",
     "tracking_tier": "P1 · Watch",
     "why": "",
-    "published_at": "",
-    "updated_at": "",
-    "is_latest_30d": false,
-    "directions": [
-      "Efficient Reasoning / Agents",
-      "VLA / WAM / Physical AI"
-    ]
-  },
-  {
-    "title": "HarnessPAI: An Evolving Harness for Physical AI",
-    "venue": "arXiv 2026",
-    "topic": "",
-    "arxiv": "2609.29166",
-    "doi": "",
-    "official_id": "arXiv:2609.29166",
-    "paper_url": "https://arxiv.org/abs/2609.29166",
-    "code_url": "",
-    "formal_class": "WATCH",
-    "physical_ai": true,
-    "decision": "WATCH",
-    "tracking_tier": "P1 · Watch",
-    "why": "HarnessPAI is model/embodiment-agnostic Physical-AI scaffolding for preserving perception/reasoning and long-horizon robustness; high-value protected evidence.",
     "published_at": "",
     "updated_at": "",
     "is_latest_30d": false,
@@ -14837,28 +14864,6 @@
     ]
   },
   {
-    "title": "Generative Actor-Critic with Soft Bridge Policies",
-    "venue": "arXiv 2026",
-    "topic": "",
-    "arxiv": "2605.08733",
-    "doi": "",
-    "official_id": "arXiv:2605.08733",
-    "paper_url": "https://arxiv.org/abs/2605.08733",
-    "code_url": "",
-    "formal_class": "WATCH",
-    "physical_ai": true,
-    "decision": "WATCH",
-    "tracking_tier": "P1 · Watch",
-    "why": "One-forward-pass stochastic action policy replaces iterative diffusion/flow action sampling, reducing policy inference compute; high-value protected Physical-AI action-head direction.",
-    "published_at": "",
-    "updated_at": "",
-    "is_latest_30d": false,
-    "directions": [
-      "Diffusion / Flow Acceleration",
-      "VLA / WAM / Physical AI"
-    ]
-  },
-  {
     "title": "Generate, Track, Improve: Perceptive Multi-Skill Humanoid Locomotion with RL-Fine-Tuned Motion Generators",
     "venue": "arXiv 2026",
     "topic": "VLA/WAM/Physical AI serving",
@@ -15773,30 +15778,6 @@
     ]
   },
   {
-    "title": "FluxVLA Engine: A One-Stop VLA Engineering Platform for Embodied Intelligence",
-    "venue": "arXiv 2026",
-    "topic": "",
-    "arxiv": "2609.17210",
-    "doi": "",
-    "official_id": "arXiv:2609.17210",
-    "paper_url": "https://arxiv.org/abs/2609.17210",
-    "code_url": "",
-    "formal_class": "WATCH",
-    "physical_ai": false,
-    "decision": "WATCH",
-    "tracking_tier": "P1 · Watch",
-    "why": "FluxVLA is an open VLA/WAM engineering platform spanning data, distributed training, optimized inference, remote GPU serving, RTC, simulation, and real-robot deployment; protected Physical-AI runtime/infra.",
-    "published_at": "",
-    "updated_at": "",
-    "is_latest_30d": false,
-    "directions": [
-      "LLM Serving",
-      "GPU Kernel / DSL / Compiler",
-      "Distributed Training / Inference",
-      "VLA / WAM / Physical AI"
-    ]
-  },
-  {
     "title": "FlowWAM: Optical Flow as a Unified Action Representation for World Action Models",
     "venue": "arXiv 26",
     "topic": "vla_wam,streaming_world",
@@ -15860,29 +15841,6 @@
     "is_latest_30d": false,
     "directions": [
       "LLM Serving",
-      "VLA / WAM / Physical AI"
-    ]
-  },
-  {
-    "title": "Flow Control: Steering Vision-Language-Action Models with Simple Real-Time Inputs",
-    "venue": "arXiv 2026",
-    "topic": "physical_ai",
-    "arxiv": "2606.10180",
-    "doi": "",
-    "official_id": "arXiv:2606.10180",
-    "paper_url": "https://arxiv.org/abs/2606.10180",
-    "code_url": "",
-    "formal_class": "WATCH",
-    "physical_ai": true,
-    "decision": "WATCH",
-    "tracking_tier": "P1 · Watch",
-    "why": "Flow Control steers VLA flow-matching action experts in real time without retraining, relevant to protected action-head/streaming interaction despite no serving speedup.",
-    "published_at": "",
-    "updated_at": "",
-    "is_latest_30d": false,
-    "directions": [
-      "LLM Serving",
-      "Multimodal / MLLM Serving",
       "VLA / WAM / Physical AI"
     ]
   },
@@ -16281,6 +16239,28 @@
     ]
   },
   {
+    "title": "Faster and Better? Benchmark Bugs and Design Limitations Distort the Evaluation of Vision-Language-Action Acceleration",
+    "venue": "arXiv 2026",
+    "topic": "",
+    "arxiv": "2609.37771",
+    "doi": "",
+    "official_id": "arXiv:2609.37771",
+    "paper_url": "https://arxiv.org/abs/2609.37771",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "FARM: Reading Failure Signals from the Internal Predictive States of a Frozen Robotic World Model",
     "venue": "arXiv 2026",
     "topic": "VLA/WAM/Physical AI serving / world-model monitoring / low-overhead runtime",
@@ -16420,28 +16400,6 @@
     ]
   },
   {
-    "title": "ExtremControl: Low-Latency Humanoid Teleoperation with Scaled Velocity Feedforward",
-    "venue": "arXiv 2026",
-    "topic": "llm_serving",
-    "arxiv": "2602.11321",
-    "doi": "",
-    "official_id": "arXiv:2602.11321",
-    "paper_url": "https://arxiv.org/abs/2602.11321",
-    "code_url": "",
-    "formal_class": "WATCH",
-    "physical_ai": false,
-    "decision": "WATCH",
-    "tracking_tier": "P1 · Watch",
-    "why": "Relevant and technically promising efficient-ML or protected Physical-AI research; hold for deeper evidence review. First-party abstract evidence: Building a low-latency humanoid teleoperation system is essential for collecting diverse reactive and dynamic demonstrations. However, end-to-end latencies in existing approaches consistently hover around 200ms, roughly equal to human reaction time, that severely limits responsiveness and prevents tasks requiring rapid feedback. We identify position-only PD control as the root cause of this latency floor and propose ExtremControl, a low-latency whole-body control framework that: (1) incorporates",
-    "published_at": "",
-    "updated_at": "",
-    "is_latest_30d": false,
-    "directions": [
-      "LLM Serving",
-      "VLA / WAM / Physical AI"
-    ]
-  },
-  {
     "title": "ExToken: Structured Exploration for Efficient Vision-Language-Action Reinforcement Fine-tuning",
     "venue": "arXiv 26",
     "topic": "vla_wam",
@@ -16482,6 +16440,28 @@
     "is_latest_30d": false,
     "directions": [
       "Sparsity / Pruning",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Explore, Execute, Evolve: A Skill Acquisition and Reuse Loop for Embodied Agents",
+    "venue": "arXiv 2026",
+    "topic": "physical_ai,embodied_agent,skill_reuse",
+    "arxiv": "2609.37810",
+    "doi": "",
+    "official_id": "arXiv:2609.37810",
+    "paper_url": "https://arxiv.org/abs/2609.37810",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "High-value adjacent or protected-route work with meaningful efficiency/system implications; retain for deeper reading.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
       "Efficient Reasoning / Agents",
       "VLA / WAM / Physical AI"
     ]
@@ -17247,6 +17227,27 @@
     ]
   },
   {
+    "title": "Ego4WAM: What Matters When Scaling Egocentric Human Data for Robot Learning?",
+    "venue": "arXiv 26",
+    "topic": "vla_wam",
+    "arxiv": "2609.40341",
+    "doi": "",
+    "official_id": "arXiv:2609.40341",
+    "paper_url": "https://arxiv.org/abs/2609.40341",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "Official arXiv abstract and systems evidence reviewed for targeted Physical-AI recall. sity affect downstream capabilities differently; and video-only supervision remains effective without action labels, providing a strong foundation for subsequent video-action training. We validate these findings through closed-loop policy evaluation on both real robots and RoboDojo. Rather than treating data duration as the sole scaling axis, Ego4WAM shows how alignment, task diversity, available supervision, and usage strategy jointly shape the value of egocentric human data for robot learning.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Ego-Dynamics-Augmented World Model for Autonomous Driving with Zero-Shot Cross-Chassis Adaptation",
     "venue": "arXiv 2026",
     "topic": "VLA/WAM/Physical AI serving / world models / autonomous driving",
@@ -17426,30 +17427,6 @@
       "Multimodal / MLLM Serving",
       "VLA / WAM / Physical AI",
       "Edge / Cloud / Heterogeneous AI"
-    ]
-  },
-  {
-    "title": "ECHO: A Cognitively Inspired, Auditable Memory Plane for Long-Horizon Agents",
-    "venue": "",
-    "topic": "video/image generation acceleration / VLA/WAM/Physical AI serving",
-    "arxiv": "2608.21755",
-    "doi": "",
-    "official_id": "arXiv:2608.21755",
-    "paper_url": "https://arxiv.org/abs/2608.21755",
-    "code_url": "",
-    "formal_class": "WATCH",
-    "physical_ai": false,
-    "decision": "WATCH",
-    "tracking_tier": "P1 · Watch",
-    "why": "ECHO is an auditable long-horizon agent memory plane with retrieval, consolidation and provenance mechanisms; useful agent-memory runtime lineage.",
-    "published_at": "",
-    "updated_at": "",
-    "is_latest_30d": false,
-    "directions": [
-      "LLM Serving",
-      "Video / Image Generation",
-      "Efficient Reasoning / Agents",
-      "VLA / WAM / Physical AI"
     ]
   },
   {
@@ -17971,29 +17948,6 @@
     ]
   },
   {
-    "title": "Don't Run with Scissors: Pruning Breaks VLA Models but They Can Be Recovered",
-    "venue": "arXiv 2026",
-    "topic": "",
-    "arxiv": "2510.08464",
-    "doi": "",
-    "official_id": "arXiv:2510.08464",
-    "paper_url": "https://arxiv.org/abs/2510.08464",
-    "code_url": "",
-    "formal_class": "WATCH",
-    "physical_ai": false,
-    "decision": "WATCH",
-    "tracking_tier": "P1 · Watch",
-    "why": "Studies pruning failures and recovery for VLA deployment under edge resource constraints; efficiency relevant, system impact needs full-text validation.",
-    "published_at": "",
-    "updated_at": "",
-    "is_latest_30d": false,
-    "directions": [
-      "Sparsity / Pruning",
-      "VLA / WAM / Physical AI",
-      "Edge / Cloud / Heterogeneous AI"
-    ]
-  },
-  {
     "title": "Don't Drop the BATON: Long-Horizon Robot Manipulation via Agentic Subtask Exploration and Transition-aware Memory",
     "venue": "",
     "topic": "Physical AI / agentic test-time exploration efficiency",
@@ -18012,6 +17966,28 @@
     "is_latest_30d": false,
     "directions": [
       "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Does Local Video Understanding Transfer Across Encounters? The EgoGears Benchmark",
+    "venue": "arXiv 2026",
+    "topic": "multimodal,streaming_video",
+    "arxiv": "2609.37938",
+    "doi": "",
+    "official_id": "arXiv:2609.37938",
+    "paper_url": "https://arxiv.org/abs/2609.37938",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "High-value adjacent or protected-route work with meaningful efficiency/system implications; retain for deeper reading.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Multimodal / MLLM Serving",
       "VLA / WAM / Physical AI"
     ]
   },
@@ -19295,6 +19271,27 @@
     ]
   },
   {
+    "title": "CoRe-VLA: Preserving Cross-View Coordination in VLAs under Camera Shifts",
+    "venue": "arXiv 2026",
+    "topic": "",
+    "arxiv": "2609.37150",
+    "doi": "",
+    "official_id": "arXiv:2609.37150",
+    "paper_url": "https://arxiv.org/abs/2609.37150",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Copper-Policy: Focus on the Representation for Robust Robot Manipulation",
     "venue": "arXiv 2026",
     "topic": "",
@@ -19828,6 +19825,27 @@
     "directions": [
       "LLM Serving",
       "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "CogWAM: Aligning Semantic Cognition with World Action Modeling via Event-Driven Interfaces",
+    "venue": "arXiv 2026",
+    "topic": "",
+    "arxiv": "2609.37721",
+    "doi": "",
+    "official_id": "arXiv:2609.37721",
+    "paper_url": "https://arxiv.org/abs/2609.37721",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
       "VLA / WAM / Physical AI"
     ]
   },
@@ -20589,6 +20607,27 @@
     "decision": "WATCH",
     "tracking_tier": "P1 · Watch",
     "why": "CableVLA combines topology and tactile representations with an 8-action residual head over a frozen policy, directly relevant to contact-rich VLA deployment.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "ByteTraX: Enhancing the ByteTrack Architecture with Optimised Thresholding",
+    "venue": "arXiv 2026",
+    "topic": "",
+    "arxiv": "2609.37801",
+    "doi": "",
+    "official_id": "arXiv:2609.37801",
+    "paper_url": "https://arxiv.org/abs/2609.37801",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "Real-time multi-object tracking threshold optimization improves FPS by >10%, with narrower domain transfer.",
     "published_at": "",
     "updated_at": "",
     "is_latest_30d": false,
@@ -21794,28 +21833,6 @@
     ]
   },
   {
-    "title": "ASPIRE: Agentic /Skills Discovery for Robotics",
-    "venue": "arXiv 2026",
-    "topic": "Physical AI streaming agent/runtime",
-    "arxiv": "2607.00272",
-    "doi": "",
-    "official_id": "arXiv:2607.00272",
-    "paper_url": "https://arxiv.org/abs/2607.00272",
-    "code_url": "",
-    "formal_class": "WATCH",
-    "physical_ai": true,
-    "decision": "WATCH",
-    "tracking_tier": "P1 · Watch",
-    "why": "Robot execution engine and reusable skill library with iterative runtime repair; protected Physical AI agent runtime.",
-    "published_at": "",
-    "updated_at": "",
-    "is_latest_30d": false,
-    "directions": [
-      "Efficient Reasoning / Agents",
-      "VLA / WAM / Physical AI"
-    ]
-  },
-  {
     "title": "ARS: Agentic Reward System for Robot Learning",
     "venue": "arXiv 2026",
     "topic": "",
@@ -21948,6 +21965,29 @@
     "is_latest_30d": false,
     "directions": [
       "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "APM-Bench: Benchmarking Cross-session Persistent Memory for Egocentric Streaming Video Assistants",
+    "venue": "arXiv 2026",
+    "topic": "multimodal_serving,streaming,memory",
+    "arxiv": "2609.37559",
+    "doi": "",
+    "official_id": "arXiv:2609.37559",
+    "paper_url": "https://arxiv.org/abs/2609.37559",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "High-value adjacent or protected-route work with meaningful efficiency/system implications; retain for deeper reading.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
       "VLA / WAM / Physical AI"
     ]
   },
@@ -22544,28 +22584,6 @@
     ]
   },
   {
-    "title": "AFFORD2ACT: How Far Can Sparse Keypoints Go for Robot Manipulation?",
-    "venue": "arXiv 2026",
-    "topic": "other",
-    "arxiv": "2510.01433",
-    "doi": "",
-    "official_id": "arXiv:2510.01433",
-    "paper_url": "https://arxiv.org/abs/2510.01433",
-    "code_url": "",
-    "formal_class": "WATCH",
-    "physical_ai": false,
-    "decision": "WATCH",
-    "tracking_tier": "P1 · Watch",
-    "why": "Official abstract: Vision-based manipulation policies are commonly learned from rich visual observations, typically using dense visual features extracted from full resolution images. It remains unclear how much of this visual information is really needed for effective policy lea",
-    "published_at": "",
-    "updated_at": "",
-    "is_latest_30d": false,
-    "directions": [
-      "Sparsity / Pruning",
-      "VLA / WAM / Physical AI"
-    ]
-  },
-  {
     "title": "AeroAct: Action-Centered World-Action Models for Language-Conditioned Quadrotor Flight",
     "venue": "arXiv 26",
     "topic": "vla_wam",
@@ -22699,28 +22717,6 @@
     "updated_at": "",
     "is_latest_30d": false,
     "directions": [
-      "VLA / WAM / Physical AI"
-    ]
-  },
-  {
-    "title": "ADEPT: Accelerating Dexterity via Pre-Training and Post-Training using Reinforcement Learning",
-    "venue": "",
-    "topic": "Efficient ML / AI Infra",
-    "arxiv": "2608.19182",
-    "doi": "",
-    "official_id": "arXiv:2608.19182",
-    "paper_url": "https://arxiv.org/abs/2608.19182",
-    "code_url": "",
-    "formal_class": "WATCH",
-    "physical_ai": false,
-    "decision": "WATCH",
-    "tracking_tier": "P1 · Watch",
-    "why": "Protected Physical-AI: ADEPT reuses a pretrained dexterity policy as a prior so downstream robot skills need not be rediscovered from scratch; useful training-efficiency lineage without a clean compute-speed metric in the available evidence.",
-    "published_at": "",
-    "updated_at": "",
-    "is_latest_30d": false,
-    "directions": [
-      "Efficient Reasoning / Agents",
       "VLA / WAM / Physical AI"
     ]
   },

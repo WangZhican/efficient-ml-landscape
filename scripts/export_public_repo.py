@@ -75,6 +75,11 @@ def classify(r):
     for slug, name, kws in DIRECTIONS:
         if any(_kw_match(blob, k) for k in kws):
             hits.append((slug, name))
+    # A first-party verified Physical-AI tag is stronger than a keyword heuristic.
+    # Preserve this protected direction even when titles say "world model"
+    # or "interactive video" without explicitly spelling "robot" or "VLA".
+    if r.get("physical_ai") is True and not any(slug == "14-physical-ai-vla-wam" for slug, _ in hits):
+        hits.append(("14-physical-ai-vla-wam", "VLA / WAM / Physical AI"))
     if not hits:
         # Keep every paper visible even when taxonomy metadata is still coarse.
         hits = [("15-edge-cloud-heterogeneous", "Edge / Cloud / Heterogeneous AI")]
@@ -110,37 +115,68 @@ def load_recent_arxiv_index(source):
     # still pending/timeout, fall back to the current 7-day primary index so
     # newly discovered papers are never misclassified as classical merely
     # because the broader refresh has not completed yet.
-    for name in ("ARXIV_30D_SCAN.json", "ARXIV_7D_SCAN.json"):
-        scan = source.parent / name
-        if not scan.exists():
-            continue
-        try:
-            d = json.loads(scan.read_text())
-        except (OSError, json.JSONDecodeError):
-            continue
-        rows = {r.get("arxiv", ""): r for r in d.get("candidates", []) if r.get("arxiv")}
-        if rows:
-            return rows
+    folders = [source.parent]
+    # A cross-day bootstrap intentionally resets current-day 7d/30d coverage.
+    # Until those scans are complete, use yesterday's last-good *metadata*
+    # only for public first-publication dating. Never copy its coverage state.
+    try:
+        day = datetime.strptime(source.parent.parent.name, "%Y-%m-%d").date()
+        folders.append(source.parent.parent.parent / str(day - timedelta(days=1)) / "_manager")
+    except ValueError:
+        pass
+    for folder in folders:
+        for name in ("ARXIV_30D_SCAN.json", "ARXIV_30D_SCAN_LAST_GOOD.json",
+                     "ARXIV_7D_SCAN.json", "ARXIV_7D_SCAN_LAST_GOOD.json"):
+            scan = folder / name
+            if not scan.exists():
+                continue
+            try:
+                d = json.loads(scan.read_text())
+            except (OSError, json.JSONDecodeError):
+                continue
+            rows = {r.get("arxiv", ""): r for r in d.get("candidates", []) if r.get("arxiv")}
+            if rows:
+                return rows
     return {}
 
 
 def is_latest_30d(raw_record, recent_arxiv, source_date):
+    """Use first-publication evidence, never historical discovery/triage time.
+
+    arXiv YYMM is only a month-level fallback: papers in the cutoff month
+    require a first-party publication timestamp to avoid false freshness.
+    """
     if raw_record.get("formal_class") == "STRONG_CURRENT":
-        return True
-    # Current-day 24h/7d recovery records may come from the official arXiv HTML
-    # fallback while the Atom index is degraded. Their window is authoritative
-    # for freshness even when ARXIV_7D_SCAN.json cannot provide published metadata.
-    window = str(raw_record.get("window") or "")
-    if window.startswith("24h") or window.startswith("7d"):
         return True
     arxiv = (raw_record.get("arxiv") or "").strip()
     meta = recent_arxiv.get(arxiv, {})
-    published = parse_iso(meta.get("published"))
+    published = (parse_iso(raw_record.get("published_utc"))
+                 or parse_iso(raw_record.get("published_at"))
+                 or parse_iso(meta.get("published")))
+    cutoff = datetime.combine(source_date, datetime.min.time(),
+                              tzinfo=timezone(timedelta(hours=8))) - timedelta(days=30)
+    end = datetime.combine(source_date + timedelta(days=1), datetime.min.time(),
+                           tzinfo=timezone(timedelta(hours=8)))
     if published:
-        cutoff = datetime.combine(source_date, datetime.min.time(), tzinfo=timezone(timedelta(hours=8))) - timedelta(days=30)
-        return published.astimezone(cutoff.tzinfo) >= cutoff
-    if source_date.year == 2026 and source_date.month == 8 and arxiv.startswith("2608."):
-        return True
+        if published.tzinfo is None:
+            published = published.replace(tzinfo=timezone.utc)
+        return cutoff <= published.astimezone(cutoff.tzinfo) < end
+    m = re.fullmatch(r"(\d{2})(\d{2})\.\d{4,5}", arxiv)
+    if m:
+        year, month = 2000 + int(m.group(1)), int(m.group(2))
+        if not 1 <= month <= 12:
+            return False
+        first = datetime(year, month, 1, tzinfo=cutoff.tzinfo)
+        if first >= end:
+            return False
+        # All dates in a month strictly after the cutoff month are recent.
+        if (year, month) > (cutoff.year, cutoff.month):
+            return True
+        if (year, month) < (cutoff.year, cutoff.month):
+            return False
+        # Cutoff-month records need an exact publication timestamp.
+        return False
+    # Unknown first-publication dates are not proof of 30-day membership.
     return False
 
 
@@ -155,6 +191,7 @@ def public_watch_record(r):
         "paper_url": link_for(r),
         "code_url": code_for(r),
         "formal_class": "WATCH",
+        "physical_ai": bool(r.get("physical_ai", False)),
         "decision": "WATCH",
         "tracking_tier": "P1 · Watch",
         "why": r.get("why", r.get("reason", "")),
@@ -177,6 +214,7 @@ def public_low_priority_record(r):
         "paper_url": link_for(r),
         "code_url": code_for(r),
         "formal_class": "RELEVANT_LOW_PRIORITY",
+        "physical_ai": bool(r.get("physical_ai", False)),
         "decision": "P2_RELEVANT_LOW_PRIORITY",
         "tracking_tier": "P2 · Relevant",
         "why": r.get("why", r.get("reason", "")),
@@ -293,6 +331,7 @@ def main():
             "paper_url": link_for(r),
             "code_url": code_for(r),
             "formal_class": r.get("formal_class", ""),
+            "physical_ai": bool(r.get("physical_ai", False)),
             "decision": r.get("decision", r.get("priority", "")),
             "why": r.get("why", r.get("reason", "")),
         }
@@ -312,6 +351,7 @@ def main():
     )
     classical = [r for r in records if not r.get("is_latest_30d")]
     watch = []
+    historical_watch = []
     watch_seen = set()
     # Durable discovery uses both legacy `watchlist` and the newer
     # append-only `watchlist_records`. Export their monotonic union so a
@@ -326,9 +366,11 @@ def main():
         meta = recent_arxiv.get((r.get("arxiv") or "").strip(), {})
         x["published_at"] = x.get("published_at") or meta.get("published", "")
         x["updated_at"] = x.get("updated_at") or meta.get("updated", "")
-        watch.append(x)
+        x["is_latest_30d"] = is_latest_30d(r, recent_arxiv, source_date)
+        (watch if x["is_latest_30d"] else historical_watch).append(x)
 
     low_priority = []
+    historical_low_priority = []
     low_seen = set()
     blocked = seen | watch_seen
     for r in d.get("recent_relevant_low_priority", []):
@@ -340,7 +382,8 @@ def main():
         meta = recent_arxiv.get((r.get("arxiv") or "").strip(), {})
         x["published_at"] = x.get("published_at") or meta.get("published", "")
         x["updated_at"] = x.get("updated_at") or meta.get("updated", "")
-        low_priority.append(x)
+        x["is_latest_30d"] = is_latest_30d(r, recent_arxiv, source_date)
+        (low_priority if x["is_latest_30d"] else historical_low_priority).append(x)
 
     watch.sort(key=lambda r: (r.get("published_at") or "", r["title"].lower()), reverse=True)
     low_priority.sort(key=lambda r: (r.get("published_at") or "", r["title"].lower()), reverse=True)
@@ -364,6 +407,30 @@ def main():
         "tracking_records": latest_tracking,
     }, ensure_ascii=False, indent=2) + "\n")
     (ROOT / "data" / "classical.json").write_text(json.dumps(classical, ensure_ascii=False, indent=2) + "\n")
+    (ROOT / "data" / "historical_relevant.json").write_text(json.dumps({"historical_watchlist": historical_watch, "historical_p2": historical_low_priority}, ensure_ascii=False, indent=2) + "\n")
+
+    # Physical AI protection is persistent, not restricted to the rolling 30d
+    # window. Preserve older P1 papers in a discoverable public reading archive.
+    # The archive is not counted as canonical and does not inflate P0 totals.
+    protected_physical_archive = sorted(
+        [r for r in historical_watch if r.get("physical_ai") or
+         "VLA / WAM / Physical AI" in r.get("directions", [])],
+        key=lambda r: (r.get("published_at") or "", r["title"].lower()),
+        reverse=True,
+    )
+    (ROOT / "data" / "physical_ai_protected_watch_archive.json").write_text(
+        json.dumps(protected_physical_archive, ensure_ascii=False, indent=2) + "\n"
+    )
+    (ROOT / "papers" / "PHYSICAL_AI_PROTECTED_WATCH.md").write_text("\n".join([
+        "# 🛡️ Physical AI · Protected Historical Watch",
+        "",
+        f"> **{len(protected_physical_archive)} older P1 papers** retained beyond the rolling 30-day window. This is a watchlist, not an expanded canonical/P0 claim.",
+        "",
+        "[← Physical AI direction](14-physical-ai-vla-wam.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/physical_ai_protected_watch_archive.json)",
+        "",
+        markdown_table(protected_physical_archive),
+        "",
+    ]))
 
     venue_groups = defaultdict(list)
     for r in classical:
@@ -442,7 +509,7 @@ def main():
     bydir_classical = defaultdict(list)
     for r in records:
         rr = dict(r)
-        source_stub = {"title": r["title"], "topic": r["topic"], "venue": r["venue"], "why": r.get("why", "")}
+        source_stub = {"title": r["title"], "topic": r["topic"], "venue": r["venue"], "why": r.get("why", ""), "physical_ai": r.get("physical_ai", False)}
         for slug, name in classify(source_stub):
             bydir[slug].append(rr)
             if r.get("is_latest_30d"):
@@ -451,7 +518,7 @@ def main():
                 bydir_classical[slug].append(rr)
     for r in watch + low_priority:
         rr = dict(r)
-        source_stub = {"title": r["title"], "topic": r["topic"], "venue": r.get("venue", ""), "why": r.get("why", "")}
+        source_stub = {"title": r["title"], "topic": r["topic"], "venue": r.get("venue", ""), "why": r.get("why", ""), "physical_ai": r.get("physical_ai", False)}
         for slug, name in classify(source_stub):
             bydir_latest[slug].append(rr)
 
@@ -476,6 +543,15 @@ def main():
             markdown_table(rs_classical),
             "",
         ]
+        if slug == "14-physical-ai-vla-wam":
+            md += [
+                f"## 🛡️ Protected historical P1 watch · {len(protected_physical_archive)}",
+                "",
+                "[Browse the permanent Physical AI watch archive](PHYSICAL_AI_PROTECTED_WATCH.md) · [JSON](../data/physical_ai_protected_watch_archive.json)",
+                "",
+                "> Older protected P1 papers remain discoverable beyond the rolling 30-day window; they do not inflate the canonical/P0 count.",
+                "",
+            ]
         (ROOT / "papers" / f"{slug}.md").write_text("\n".join(md))
         nav_rows.append((idx, slug, name, canonical_total, len(rs_latest)))
 
@@ -519,6 +595,7 @@ def main():
         "latest_30d_tracked_total": len(latest_tracking),
         "latest_30d_quality_gated": len(latest30),
         "latest_30d_watchlist": len(watch),
+        "physical_ai_protected_historical_watch": len(protected_physical_archive),
         "latest_30d_relevant_low_priority": len(low_priority),
         "classical_papers": len(classical),
         "latest_strong": sum(r.get("formal_class") == "STRONG_CURRENT" for r in latest30),
