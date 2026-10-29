@@ -73006,6 +73006,27 @@
       "directions": [
         "GPU Kernel / DSL / Compiler"
       ]
+    },
+    {
+      "title": "SEFRQO: A Self-Evolving Fine-Tuned RAG-Based Query Optimizer",
+      "venue": "SIGMOD 2026",
+      "topic": "LLM query optimization; self-evolving RAG; execution-feedback tuning",
+      "arxiv": "2508.17556",
+      "doi": "",
+      "official_id": "arXiv:2508.17556",
+      "paper_url": "https://arxiv.org/abs/2508.17556",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "First-party arXiv abstract and SIGMOD accepted-paper identity establish feedback-driven RAG/SFT/RFT query-hint optimization; reports up to 65.05% and 93.57% latency reductions on CEB and Stack workloads versus PostgreSQL. Retain for detailed systems review.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Distributed Training / Inference"
+      ]
     }
   ],
   "historical_p2": [
@@ -177648,6 +177669,113 @@
       "is_latest_30d": false,
       "directions": [
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "MCTuner: Spatial Decomposition-Enhanced Database Tuning via LLM-Guided Exploration",
+      "venue": "SIGMOD 2026",
+      "topic": "LLM-guided database tuning; MoE; Bayesian optimization; efficient search",
+      "arxiv": "2509.06298",
+      "doi": "",
+      "official_id": "arXiv:2509.06298",
+      "paper_url": "https://arxiv.org/abs/2509.06298",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "First-party arXiv abstract and SIGMOD accepted-paper identity establish specialized LLM experts and hierarchical spatial decomposition to reduce ineffective knob-space exploration; reports up to 1.4x faster configuration discovery per iteration. Metadata-retain as adjacent efficient reasoning/tuning work.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "MoE Systems / Accelerators",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "ST-Raptor: LLM-Powered Semi-Structured Table Question Answering",
+      "venue": "SIGMOD 2026",
+      "topic": "LLM reasoning; semi-structured table QA; tree-guided execution",
+      "arxiv": "2508.18190",
+      "doi": "",
+      "official_id": "arXiv:2508.18190",
+      "paper_url": "https://arxiv.org/abs/2508.18190",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "First-party arXiv abstract and SIGMOD accepted-paper identity establish HO-Tree representation, operation-pipeline generation, and two-stage verification; reports up to 20% answer-accuracy gains. Retain as adjacent efficient reasoning/agent-system metadata.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "A Comprehensive Benchmark on Spectral GNNs: The Impact on Efficiency, Memory, and Effectiveness: [Experiments & Analysis]",
+      "venue": "SIGMOD 2026",
+      "topic": "GNN efficiency; memory; spectral filters; large-scale graph learning",
+      "arxiv": "2406.09675",
+      "doi": "10.1145/3749156",
+      "official_id": "doi:10.1145/3749156",
+      "paper_url": "https://arxiv.org/abs/2406.09675",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "First-party ACM abstract and SIGMOD accepted-paper identity establish a unified benchmark of 35 spectral GNNs/27 filters and efficient deployment over million-scale graphs; retain as an efficiency/memory benchmark.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "AgentTune: An Agent-Based Large Language Model Framework for Database Knob Tuning",
+      "venue": "SIGMOD 2026",
+      "topic": "LLM agents; database knob tuning; efficient configuration search",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "SIGMOD2026_ACCEPTED_TITLE_AgentTune_An_Agent_Based_Large_Language_Model_Framework_for_Database_Knob_Tuning",
+      "paper_url": "https://2026.sigmod.org/sigmod_papers.shtml",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "First-party SIGMOD accepted-paper title and author identity directly indicate an agent-based LLM tuning framework; no paper-specific first-party abstract or identifier was recovered in this pass, so retain metadata only.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "NeutronHeter: Optimizing Distributed Graph Neural Network Training for Heterogeneous Clusters",
+      "venue": "SIGMOD 2026",
+      "topic": "Distributed GNN training; heterogeneous clusters; communication and runtime efficiency",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "SIGMOD2026_ACCEPTED_TITLE_NeutronHeter_Optimizing_Distributed_Graph_Neural_Network_Training_for_Heterogeneous_Cluste",
+      "paper_url": "https://2026.sigmod.org/sigmod_papers.shtml",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "First-party SIGMOD accepted-paper title and author identity directly indicate distributed heterogeneous-cluster GNN training optimization; no paper-specific first-party abstract or identifier was recovered in this pass, so retain metadata only.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Distributed Training / Inference",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     }
   ]

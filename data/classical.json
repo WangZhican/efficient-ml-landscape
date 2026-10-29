@@ -88509,6 +88509,27 @@
     ]
   },
   {
+    "title": "DARTH: Declarative Recall Through Early Termination for Approximate Nearest Neighbor Search",
+    "venue": "SIGMOD 2026",
+    "topic": "ANN search; recall-targeted early termination; efficient retrieval",
+    "arxiv": "2505.19001",
+    "doi": "10.1145/3749160",
+    "official_id": "doi:10.1145/3749160",
+    "paper_url": "https://arxiv.org/abs/2505.19001",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party arXiv abstract and SIGMOD accepted-paper identity establish user-declared recall targets with adaptive early termination; reports up to 14.6x HNSW and 41.8x IVF speedups while meeting recall targets.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "DepCache: A KV Cache Management Framework for GraphRAG with Dependency Attention",
     "venue": "SIGMOD 2026",
     "topic": "GraphRAG dependency attention / KV-cache management",
@@ -88551,6 +88572,27 @@
       "GPU Kernel / DSL / Compiler",
       "Distributed Training / Inference",
       "Multimodal / MLLM Serving"
+    ]
+  },
+  {
+    "title": "DiskJoin: Large-scale Vector Similarity Join with SSD",
+    "venue": "SIGMOD 2026",
+    "topic": "Vector similarity join; SSD-backed data-intensive ML; single-machine scale",
+    "arxiv": "2508.18494",
+    "doi": "",
+    "official_id": "arXiv:2508.18494",
+    "paper_url": "https://arxiv.org/abs/2508.18494",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party arXiv abstract and SIGMOD accepted-paper identity establish a disk-based billion-scale vector similarity join using access-pattern-aware I/O, caching, and probabilistic pruning; reports 50x-1000x speedups over alternatives.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning"
     ]
   },
   {
@@ -88834,6 +88876,27 @@
     "directions": [
       "LLM Serving",
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "PGTuner: An Efficient Framework for Automatic and Transferable Configuration Tuning of Proximity Graphs",
+    "venue": "SIGMOD 2026",
+    "topic": "ANN graph configuration tuning; learned performance prediction; transfer; DRL",
+    "arxiv": "2508.17886",
+    "doi": "",
+    "official_id": "arXiv:2508.17886",
+    "paper_url": "https://arxiv.org/abs/2508.17886",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party arXiv abstract and SIGMOD accepted-paper identity establish pretrained query-performance prediction and DRL-based configuration recommendation without rebuilding many graph indexes; reports up to 14.69x tuning-efficiency and 14.64x dynamic-scenario gains.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {

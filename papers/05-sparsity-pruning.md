@@ -1,6 +1,6 @@
 # 05 · Sparsity / Pruning
 
-> **696 canonical papers** mapped here, plus a broader **393-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **697 canonical papers** mapped here, plus a broader **393-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -402,7 +402,7 @@
 | **P0 · Strong** | **AViTS: Adaptive Spatiotemporal Token Selection for Efficient Dynamic-Resolution Generation** | Fresh / preprint | diffusion/image generation acceleration / adaptive token selection | [Link](https://arxiv.org/abs/2608.17995) | — |
 | **P0 · Strong** | **AutoPruner: Agentic Depth Pruning for Vision-Language-Action Models** | arXiv 2026 | VLA model pruning | [Link](https://arxiv.org/abs/2610.23880) | — |
 
-## 🏛️ Classical / Historical · 571 canonical
+## 🏛️ Classical / Historical · 572 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -958,6 +958,7 @@
 | **Canonical** | **Accelerating Sparse Transformer Inference on GPU** | PPoPP 2026 | sparse transformer inference + mixed-precision quantization | [Link](https://arxiv.org/abs/2506.06095) | — |
 | **Canonical** | **RoMeo** | PPoPP 2026 | sparse transformer inference + mixed-precision quantization | [Link](https://arxiv.org/abs/2506.06095) | — |
 | **Canonical** | **TAC: Cache-Based System for Accelerating Billion-Scale GNN Training on Multi-GPU Platform** | PPoPP 2026 | GNN training systems / multi-GPU cache / sparse Tensor Core | [Link](https://ppopp26.sigplan.org/details/PPoPP-2026-papers/50/TAC-Cache-Based-System-for-Accelerating-Billion-Scale-GNN-Training-on-Multi-GPU-Plat) | — |
+| **Canonical** | **DiskJoin: Large-scale Vector Similarity Join with SSD** | SIGMOD 2026 | Vector similarity join; SSD-backed data-intensive ML; single-machine scale | [Link](https://arxiv.org/abs/2508.18494) | — |
 | **Canonical** | **GEM: A Native Graph-based Index for Multi-Vector Retrieval** | SIGMOD 2026 | multimodal retrieval; multi-vector ANN; quantized search | [Link](https://arxiv.org/abs/2603.20336) | — |
 | **Canonical** | **Scalable Graph Indexing using GPUs for Approximate Nearest Neighbor Search** | SIGMOD 2026 | GPU graph indexing; ANN search; heterogeneous out-of-core execution | [Link](https://arxiv.org/abs/2508.08744) | — |
 | **Canonical** | **DCP: Addressing Input Dynamism In Long-Context Training via Dynamic Context Parallelism** | SOSP 2025 | long-context LLM training / dynamic context parallelism | [Link](https://arxiv.org/abs/2510.10620) | [Repo](https://github.com/chenyu-jiang/dcp) |
