@@ -1,6 +1,6 @@
 # 05 · Sparsity / Pruning
 
-> **693 canonical papers** mapped here, plus a broader **393-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **694 canonical papers** mapped here, plus a broader **393-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -402,7 +402,7 @@
 | **P0 · Strong** | **AViTS: Adaptive Spatiotemporal Token Selection for Efficient Dynamic-Resolution Generation** | Fresh / preprint | diffusion/image generation acceleration / adaptive token selection | [Link](https://arxiv.org/abs/2608.17995) | — |
 | **P0 · Strong** | **AutoPruner: Agentic Depth Pruning for Vision-Language-Action Models** | arXiv 2026 | VLA model pruning | [Link](https://arxiv.org/abs/2610.23880) | — |
 
-## 🏛️ Classical / Historical · 568 canonical
+## 🏛️ Classical / Historical · 569 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -957,6 +957,7 @@
 | **Canonical** | **Accelerating Sparse Transformer Inference on GPU** | PPoPP 2026 | sparse transformer inference + mixed-precision quantization | [Link](https://arxiv.org/abs/2506.06095) | — |
 | **Canonical** | **RoMeo** | PPoPP 2026 | sparse transformer inference + mixed-precision quantization | [Link](https://arxiv.org/abs/2506.06095) | — |
 | **Canonical** | **TAC: Cache-Based System for Accelerating Billion-Scale GNN Training on Multi-GPU Platform** | PPoPP 2026 | GNN training systems / multi-GPU cache / sparse Tensor Core | [Link](https://ppopp26.sigplan.org/details/PPoPP-2026-papers/50/TAC-Cache-Based-System-for-Accelerating-Billion-Scale-GNN-Training-on-Multi-GPU-Plat) | — |
+| **Canonical** | **GEM: A Native Graph-based Index for Multi-Vector Retrieval** | SIGMOD 2026 | multimodal retrieval; multi-vector ANN; quantized search | [Link](https://arxiv.org/abs/2603.20336) | — |
 | **Canonical** | **DCP: Addressing Input Dynamism In Long-Context Training via Dynamic Context Parallelism** | SOSP 2025 | long-context LLM training / dynamic context parallelism | [Link](https://arxiv.org/abs/2510.10620) | [Repo](https://github.com/chenyu-jiang/dcp) |
 | **Canonical** | **Probe-and-Fetch: Dynamic KV Cache Pruning for Accelerated Long-Context Inference in Web-Scale AI Search** | The Web Conference 2026 | KV cache pruning / long-context inference | [Link](https://doi.org/10.1145/3774904.3792794) | — |
 | **Canonical** | **ToMoE: Converting Dense Large Language Models to Mixture-of-Experts through Dynamic Structural Pruning** | TMLR 2026 (presented at ICML 2026) | MoE / dynamic structural pruning / dense-to-MoE conversion / efficient LLM inference | [Link](https://arxiv.org/abs/2501.15316) | [Repo](https://github.com/gaosh/ToMoE) |

@@ -1,31 +1,31 @@
 {
-  "unique_papers": 5105,
+  "unique_papers": 5109,
   "latest_30d_tracked_total": 5532,
   "latest_30d_quality_gated": 1007,
   "latest_30d_watchlist": 1427,
   "physical_ai_protected_historical_watch": 1041,
   "latest_30d_relevant_low_priority": 3098,
-  "classical_papers": 4098,
+  "classical_papers": 4102,
   "latest_strong": 45,
-  "papers_with_primary_link": 5091,
+  "papers_with_primary_link": 5095,
   "papers_with_verified_code_link": 634,
   "venues": 121,
   "direction_counts": {
-    "LLM Serving": 2072,
+    "LLM Serving": 2073,
     "Speculative Decoding": 389,
     "KV Cache / Long Context": 835,
-    "Quantization": 647,
-    "Sparsity / Pruning": 693,
+    "Quantization": 648,
+    "Sparsity / Pruning": 694,
     "Efficient Attention": 615,
     "MoE Systems / Accelerators": 276,
     "GPU Kernel / DSL / Compiler": 1062,
     "Distributed Training / Inference": 751,
-    "Multimodal / MLLM Serving": 576,
+    "Multimodal / MLLM Serving": 577,
     "Video / Image Generation": 444,
     "Diffusion / Flow Acceleration": 635,
-    "Efficient Reasoning / Agents": 1032,
+    "Efficient Reasoning / Agents": 1033,
     "VLA / WAM / Physical AI": 642,
-    "Edge / Cloud / Heterogeneous AI": 1083
+    "Edge / Cloud / Heterogeneous AI": 1084
   },
   "major_group_universe": 201,
   "major_group_status": "SECOND_PASS_NONZERO_UNIVERSE_EXPANDED_TO_201",
@@ -34,5 +34,5 @@
   "venue_active_round_checked": 7,
   "venue_active_round_status": "IN_PROGRESS_NONZERO_TRUE_MISS",
   "source_date_beijing": "2026-10-29",
-  "updated_at_beijing": "2026-10-29T16:17:33+08:00"
+  "updated_at_beijing": "2026-10-29T16:41:08+08:00"
 }

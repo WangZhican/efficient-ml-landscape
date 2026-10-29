@@ -72764,6 +72764,48 @@
       "directions": [
         "LLM Serving"
       ]
+    },
+    {
+      "title": "PathSeer: Adaptive Neighbor Handling for Efficient Filtered ANN Search",
+      "venue": "SIGMOD 2026",
+      "topic": "filtered ANN; RAG retrieval; query planning",
+      "arxiv": "",
+      "doi": "10.1145/3802098",
+      "official_id": "doi:10.1145/3802098",
+      "paper_url": "https://dl.acm.org/doi/10.1145/3802098",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Official SIGMOD Round 4 title/author record directly identifies efficient filtered ANN search relevant to recommendation and RAG retrieval. Retain and attempt publisher PDF; full first-party abstract remains to be reconciled.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "HAMMER: An Automatic RAG Tuning System via Hierarchical Memory-Guided Monte Carlo Tree Search",
+      "venue": "SIGMOD 2026",
+      "topic": "RAG tuning; efficient reasoning/agent systems",
+      "arxiv": "",
+      "doi": "10.1145/3802071",
+      "official_id": "doi:10.1145/3802071",
+      "paper_url": "https://dl.acm.org/doi/10.1145/3802071",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Official SIGMOD Round 4 title/author record directly matches efficient RAG/agent-system tuning. Retain and attempt publisher PDF; first-party abstract verification is still pending.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
     }
   ],
   "historical_p2": [
@@ -176400,6 +176442,69 @@
       "is_latest_30d": false,
       "directions": [
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Reward-SQL: Boosting Text-to-SQL via Stepwise Execution-Aware Reasoning and Process-Supervised Rewards",
+      "venue": "SIGMOD 2026",
+      "topic": "efficient reasoning; Text-to-SQL; process rewards",
+      "arxiv": "2505.04671",
+      "doi": "10.1145/3802105",
+      "official_id": "doi:10.1145/3802105",
+      "paper_url": "https://arxiv.org/abs/2505.04671",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Official SIGMOD Round 4 title/author record and arXiv version identify execution-aware LLM reasoning and process rewards. It improves reasoning quality, but the evidence does not establish an inference-efficiency gain; retain metadata only.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Kangaroo: Efficient Lossless Floating-Point Compression via Dynamic Reference Selection",
+      "venue": "SIGMOD 2026",
+      "topic": "data compression; efficient data movement",
+      "arxiv": "",
+      "doi": "10.1145/3802076",
+      "official_id": "doi:10.1145/3802076",
+      "paper_url": "https://dl.acm.org/doi/10.1145/3802076",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Official SIGMOD Round 4 title/author record indicates streaming floating-point compression and efficiency, but ML training/inference applicability is not established. Metadata only.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "GoodTP: An Effective Data Selection Framework for Enhancing Trajectory Similarity Learning via Monte Carlo Tree Search",
+      "venue": "SIGMOD 2026",
+      "topic": "training data selection; trajectory learning",
+      "arxiv": "",
+      "doi": "10.1145/3802067",
+      "official_id": "doi:10.1145/3802067",
+      "paper_url": "https://dl.acm.org/doi/10.1145/3802067",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Official SIGMOD Round 4 title/author record indicates data selection for learned trajectory similarity. Keep as a low-priority training/data-efficiency lead until the abstract and ML-training savings are verified.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
       ]
     }
   ]

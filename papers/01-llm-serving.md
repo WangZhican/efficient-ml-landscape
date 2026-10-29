@@ -1,6 +1,6 @@
 # 01 · LLM Serving
 
-> **2072 canonical papers** mapped here, plus a broader **1552-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **2073 canonical papers** mapped here, plus a broader **1552-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -1561,7 +1561,7 @@
 | **P2 · Relevant** | **A Drosophila Whole-Connectome Network Can Learn Human-Designed Cognitive Tasks** | arXiv 2026 | llm_serving,gen | [Link](https://arxiv.org/abs/2610.10014) | — |
 | **P2 · Relevant** | **A differentiable Lagrangian-coupled 3D Gaussian Splatting-SPH model for forward simulation and inverse analysis in solid mechanics** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.04336) | — |
 
-## 🏛️ Classical / Historical · 1675 canonical
+## 🏛️ Classical / Historical · 1676 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -3176,6 +3176,7 @@
 | **Canonical** | **HotPrefix: Hotness-Aware KV Cache Scheduling for Efficient Prefix Sharing in LLM Inference Systems** | SIGMOD 2026 | prefix KV-cache scheduling / LLM serving | [Link](https://doi.org/10.1145/3749168) | — |
 | **Canonical** | **KVDrive: A Holistic Multi-Tier KV Cache Management System for Long-Context LLM Inference** | SIGMOD 2026 | KV cache / long-context LLM serving / multi-tier memory offload | [Link](https://arxiv.org/abs/2605.18071) | — |
 | **Canonical** | **OctoSelector: Efficient and Effective Batch-Aware Model Selection for Large Language Models** | SIGMOD 2026 | LLM serving/model selection/cost-aware inference | [Link](https://dl.acm.org/doi/10.1145/3802095) | — |
+| **Canonical** | **ScaleDoc: Scaling LLM-based Predicates over Large Document Collections** | SIGMOD 2026 | LLM serving; proxy filtering; inference cost | [Link](https://arxiv.org/abs/2509.12610) | — |
 | **Canonical** | **Serving Hybrid LLM Loads with SLO Guarantees Using CPU-GPU Attention Piggybacking** | SIGMOD 2026 | LLM serving / heterogeneous CPU-GPU / SLO scheduling | [Link](https://arxiv.org/abs/2603.12831) | — |
 | **Canonical** | **SG-Serve: Efficient Model Serving for Subgraph-based Graph Representation Learning** | SIGMOD 2026 | graph model serving / tail-latency optimization / workload-aware GPU batching | [Link](https://dl.acm.org/doi/10.1145/3786697) | — |
 | **Canonical** | **TranSQL+: Serving Large Language Models with SQL on Low-Resource Hardware** | SIGMOD 2026 | LLM serving / edge low-resource inference / compiler-runtime | [Link](https://arxiv.org/abs/2502.02818) | — |

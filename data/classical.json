@@ -88214,6 +88214,27 @@
     ]
   },
   {
+    "title": "Efficient Index Layout and Search Strategy for Large-scale High-dimensional Vector Similarity Search",
+    "venue": "SIGMOD 2026",
+    "topic": "vector retrieval; ANN; SIMD; on-disk search",
+    "arxiv": "2602.23342",
+    "doi": "",
+    "official_id": "arXiv:2602.23342",
+    "paper_url": "https://arxiv.org/abs/2602.23342",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Official SIGMOD Round 4 accepted-paper title/authors reconcile with first-party arXiv record AlayaLaser (arXiv:2602.23342). The paper co-designs an on-disk ANN layout for SIMD and reduces compute overhead; it reports matching or exceeding in-memory systems.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Efficient LLM Serving for Agentic Workflows: A Data Systems Perspective",
     "venue": "SIGMOD 2026",
     "topic": "agentic LLM serving / workflow-aware caching / cache-aware scheduling",
@@ -88277,6 +88298,29 @@
     "directions": [
       "KV Cache / Long Context",
       "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "GEM: A Native Graph-based Index for Multi-Vector Retrieval",
+    "venue": "SIGMOD 2026",
+    "topic": "multimodal retrieval; multi-vector ANN; quantized search",
+    "arxiv": "2603.20336",
+    "doi": "10.1145/3802065",
+    "official_id": "doi:10.1145/3802065",
+    "paper_url": "https://arxiv.org/abs/2603.20336",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Official SIGMOD Round 4 title/author record plus first-party arXiv abstract. Native multi-vector graph indexing, early pruning and quantized distance estimation report up to 16x speedup while matching or improving accuracy.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "Sparsity / Pruning",
+      "Multimodal / MLLM Serving"
     ]
   },
   {
@@ -88390,6 +88434,27 @@
     ]
   },
   {
+    "title": "ScaleDoc: Scaling LLM-based Predicates over Large Document Collections",
+    "venue": "SIGMOD 2026",
+    "topic": "LLM serving; proxy filtering; inference cost",
+    "arxiv": "2509.12610",
+    "doi": "10.1145/3802106",
+    "official_id": "doi:10.1145/3802106",
+    "paper_url": "https://arxiv.org/abs/2509.12610",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Official SIGMOD Round 4 title/author record plus first-party arXiv abstract. It decouples LLM predicates into offline representations and lightweight online filtering, reporting over 2x end-to-end speedup and up to 85% fewer expensive LLM calls.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving"
+    ]
+  },
+  {
     "title": "Serving Hybrid LLM Loads with SLO Guarantees Using CPU-GPU Attention Piggybacking",
     "venue": "SIGMOD 2026",
     "topic": "LLM serving / heterogeneous CPU-GPU / SLO scheduling",
@@ -88433,6 +88498,27 @@
     "directions": [
       "LLM Serving",
       "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "Task Cascades for Efficient Unstructured Data Processing",
+    "venue": "SIGMOD 2026",
+    "topic": "LLM inference cost; model/task cascades; efficient reasoning",
+    "arxiv": "2601.05536",
+    "doi": "10.1145/3786702",
+    "official_id": "doi:10.1145/3786702",
+    "paper_url": "https://arxiv.org/abs/2601.05536",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Official SIGMOD Round 3 title/author record plus first-party arXiv abstract. Directly optimizes LLM-powered document processing by varying model, document span, and operation; reports 36% lower end-to-end cost than model cascades at a 90% target accuracy.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Reasoning / Agents"
     ]
   },
   {

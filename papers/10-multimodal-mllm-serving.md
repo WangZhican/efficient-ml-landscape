@@ -1,6 +1,6 @@
 # 10 · Multimodal / MLLM Serving
 
-> **576 canonical papers** mapped here, plus a broader **631-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **577 canonical papers** mapped here, plus a broader **631-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -640,7 +640,7 @@
 | **P2 · Relevant** | **A Safe Action Is Not Enough: Feasible-Future Decoding for Vision-Language-Action Policies** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.05166) | — |
 | **P1 · Watch** | **$\Psi$-0.6: Adaptive Streams of Thought in a Unified Vision-Language World Model** | arXiv 2026 | physical_ai | [Link](https://arxiv.org/abs/2610.32177) | — |
 
-## 🏛️ Classical / Historical · 459 canonical
+## 🏛️ Classical / Historical · 460 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -1095,6 +1095,7 @@
 | **Canonical** | **RLux-VLA: A Unified and Efficient Framework for Reinforcement Learning of Vision-Language-Action Models** | RSS 2026 | Physical AI / VLA RL systems / scalable training | [Link](https://arxiv.org/abs/2510.06710) | — |
 | **Canonical** | **DistTrain: Addressing Model and Data Heterogeneity with Disaggregated Training for Multimodal Large Language Models** | SIGCOMM 2025 | multimodal training systems / disaggregated training | [Link](https://arxiv.org/abs/2408.04275) | — |
 | **Canonical** | **DFLOP: A Data-driven Framework for Multimodal LLM Training Pipeline Optimization** | SIGMOD 2026 | distributed training / multimodal MLLM systems / pipeline parallelism | [Link](https://arxiv.org/abs/2603.25120) | [Repo](https://github.com/BDAI-Research/DFLOP) |
+| **Canonical** | **GEM: A Native Graph-based Index for Multi-Vector Retrieval** | SIGMOD 2026 | multimodal retrieval; multi-vector ANN; quantized search | [Link](https://arxiv.org/abs/2603.20336) | — |
 | **Canonical** | **Task-Aware Cloud-End Offloading for Vision-Language Model Serving via Dynamic Modality-Specific Adapter Scheduling** | The Web Conference 2026 | multimodal/VLM serving / cloud-edge offloading | [Link](https://www2026.thewebconf.org/accepted/research-tracks.html) | — |
 | **Canonical** | **Optimus: Accelerating Large-Scale Multi-Modal LLM Training by Bubble Exploitation** | USENIX ATC 2025 | multimodal LLM training / distributed training / pipeline bubble exploitation | [Link](https://arxiv.org/abs/2408.03505) | — |
 | **Canonical** | **BigVectorBench: Heterogeneous Data Embedding and Compound Queries are Essential in Evaluating Vector Databases** | VLDB/PVLDB Volume 18 | vector database benchmark / RAG infrastructure / heterogeneous embeddings | [Link](https://www.vldb.org/pvldb/vol18/p1536-zhan.pdf) | [Repo](https://github.com/BenchCouncil/BigVectorBench) |

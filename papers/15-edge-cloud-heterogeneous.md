@@ -1,6 +1,6 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **1083 canonical papers** mapped here, plus a broader **1345-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **1084 canonical papers** mapped here, plus a broader **1345-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -1354,7 +1354,7 @@
 | **P2 · Relevant** | **A Local Agentic AI Framework to Generate Edge Case Scenarios for Safety Assurance** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.13479) | — |
 | **P1 · Watch** | **A Compression Tree Generation Method for High Performance VLSI Datapaths** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2610.02228) | — |
 
-## 🏛️ Classical / Historical · 899 canonical
+## 🏛️ Classical / Historical · 900 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -2211,6 +2211,7 @@
 | **Canonical** | **Astral: A Datacenter Infrastructure for Large Language Model Training at Scale** | SIGCOMM 2025 | large-scale LLM training infrastructure / datacenter network / monitoring / performance forecasting | [Link](https://doi.org/10.1145/3718958.3750521) | — |
 | **Canonical** | **100x Cost & Latency Reduction: Performance Analysis of AI Query Approximation using Lightweight Proxy Models** | SIGMOD 2026 | AI query systems / LLM cost and latency reduction / proxy-model acceleration | [Link](https://arxiv.org/abs/2603.15970) | — |
 | **Canonical** | **Beluga: A CXL-Based Memory Architecture for Scalable and Efficient LLM KVCache Management** | SIGMOD 2026 | CXL memory / KV-cache serving | [Link](https://arxiv.org/abs/2511.20172) | — |
+| **Canonical** | **Efficient Index Layout and Search Strategy for Large-scale High-dimensional Vector Similarity Search** | SIGMOD 2026 | vector retrieval; ANN; SIMD; on-disk search | [Link](https://arxiv.org/abs/2602.23342) | — |
 | **Canonical** | **Hydraulis: Balancing Large Transformer Model Training via Co-designing Parallel Strategies and Data Assignment** | SIGMOD 2026 | distributed training / dynamic heterogeneous parallelism / data assignment | [Link](https://arxiv.org/abs/2412.07894) | [Repo](https://github.com/PKU-DAIR/Hetu) |
 | **Canonical** | **Serving Hybrid LLM Loads with SLO Guarantees Using CPU-GPU Attention Piggybacking** | SIGMOD 2026 | LLM serving / heterogeneous CPU-GPU / SLO scheduling | [Link](https://arxiv.org/abs/2603.12831) | — |
 | **Canonical** | **TranSQL+: Serving Large Language Models with SQL on Low-Resource Hardware** | SIGMOD 2026 | LLM serving / edge low-resource inference / compiler-runtime | [Link](https://arxiv.org/abs/2502.02818) | — |
