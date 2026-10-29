@@ -1,10 +1,10 @@
 # 03 · KV Cache / Long Context
 
-> **829 canonical papers** mapped here, plus a broader **221-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **835 canonical papers** mapped here, plus a broader **220-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 221 tracked
+## 🆕 Latest 30 Days · 220 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -201,7 +201,6 @@
 | **P0 · Strong** | **ATTUNER: Recomputation-Free KV Cache Reuse via Query-Side Adaptation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.36722) | — |
 | **P0 · Strong** | **Triadic Linear Attention: Three-Dimensional Recurrent States for Long-Context Sequence Modeling** | arXiv 2026 | efficient_attention | [Link](https://arxiv.org/abs/2609.36529) | — |
 | **P0 · Strong** | **MemFold: Learning Compact Soft Memory for Long-Context Personalization via On-Policy Optimization** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.36435) | — |
-| **P0 · Strong** | **Periodic Weak Spots: Phase Sensitivity from Chunked KV-Cache Compression** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.36322) | — |
 | **P0 · Strong** | **To Keep or Not to Keep: Learning KV Cache Retention in Disaggregated LLM Serving Systems** | arXiv | llm_serving,kv | [Link](https://arxiv.org/abs/2610.28637) | — |
 | **P0 · Strong** | **TileMix: Tile-Centric Mixed-Precision Attention for LLM Inference Acceleration** | Fresh / preprint | mixed-precision attention kernel / long-context inference | [Link](https://arxiv.org/abs/2608.17336) | — |
 | **P1 · Watch** | **The Cost of Long Memory: State, Context, and Stability Complexity in Sequence Models** | arXiv 2026 | efficient reasoning / long memory | [Link](https://arxiv.org/abs/2610.08816) | — |
@@ -230,7 +229,7 @@
 | **P1 · Watch** | **Budgeted Cache Repair for Cross-Context KV-Cache Reuse** | arXiv 2026 | KV cache / LLM serving | [Link](https://arxiv.org/abs/2610.02233) | — |
 | **P0 · Strong** | **Beyond Capacity: Scalable MoE LLM Inference via High-Bandwidth Flash with Direct GPU and HBM Paths** | Fresh / preprint | MoE serving / high-bandwidth flash architecture | [Link](https://arxiv.org/abs/2608.14333) | — |
 
-## 🏛️ Classical / Historical · 701 canonical
+## 🏛️ Classical / Historical · 708 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -391,6 +390,7 @@
 | **Canonical** | **PARSER: Read in Parallel, Reason in Depth for Long-Context LLM Agents** | arXiv 2026 | efficient reasoning/agent systems / long-context / parallel inference | [Link](https://arxiv.org/abs/2609.06702) | — |
 | **Canonical** | **PATTON: Enabling Commodity PIM for Production LLM Serving** | arXiv 2026 | LLM serving / KV cache / PIM accelerator runtime | [Link](https://arxiv.org/abs/2609.11392) | — |
 | **Canonical** | **PEEK: Predictive Queue-Informed KV Cache Management for LLM Serving** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2607.02525) | — |
+| **Canonical** | **Periodic Weak Spots: Phase Sensitivity from Chunked KV-Cache Compression** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.36322) | — |
 | **Canonical** | **Physically Partitioned KVCache Format for CPU--GPU Load Balancing in MoE Inference** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.14507) | — |
 | **Canonical** | **PORTER: Edge-Cloud Residency for Persistent 3D Scene Graph Memory** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33258) | — |
 | **Canonical** | **Positional task conditioning for scalable defect detection across product families in large product catalogs** | arXiv 2026 | LLM serving / distillation / production inference cost | [Link](https://arxiv.org/abs/2609.09567) | — |
@@ -549,6 +549,8 @@
 | **Canonical** | **TriAttention: Efficient Long Reasoning with Trigonometric KV Compression** | arXiv 26 | KV cache/long-context; efficient attention; efficient reasoning | [Link](https://arxiv.org/abs/2604.04921) | [Repo](https://proceedings.mlr.press/v306/mao26e.html) |
 | **Canonical** | **A Cost-Effective Near-Storage Processing Solution for Offline Inference of Long-Context LLMs** | ASPLOS 2026 | LLM serving / long context / near-storage processing | [Link](https://arxiv.org/abs/2502.09921) | [Repo](https://github.com/hongsunjang/HILOS) |
 | **Canonical** | **BAT: Efficient Generative Recommender Serving with Bipartite Attention** | ASPLOS 2026 | generative recommender serving / KV prefix cache | [Link](https://doi.org/10.1145/3779212.3790131) | — |
+| **Canonical** | **CLM: Removing the GPU Memory Barrier for 3D Gaussian Splatting** | ASPLOS 2026 | 3DGS training; CPU/GPU memory offloading | [Link](https://arxiv.org/abs/2511.04951) | — |
+| **Canonical** | **GS-Scale: Unlocking Large-Scale 3D Gaussian Splatting Training via Host Offloading** | ASPLOS 2026 | 3DGS training; GPU memory offloading | [Link](https://arxiv.org/abs/2509.15645) | — |
 | **Canonical** | **MoE-APEX: An Efficient MoE Inference System with Adaptive Precision Expert Offloading** | ASPLOS 2026 | edge MoE inference / expert offloading / mixed precision | [Link](https://doi.org/10.1145/3779212.3790187) | — |
 | **Canonical** | **REPA: Reconfigurable PIM for the Joint Acceleration of KV Cache Offloading and Processing** | ASPLOS 2026 | KV cache / PIM acceleration | [Link](https://doi.org/10.1145/3779212.3790212) | — |
 | **Canonical** | **SpeContext: Enabling Efficient Long-context Reasoning with Speculative Context Sparsity in LLMs** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://arxiv.org/abs/2512.00722) | — |
@@ -843,14 +845,18 @@
 | **Canonical** | **fabric-lib: RDMA Point-to-Point Communication for LLM Systems** | MLSys 2026 | distributed inference; LLM serving; RDMA; KV-cache transfer; MoE communication; RL systems | [Link](https://arxiv.org/abs/2510.27656) | [Repo](https://github.com/perplexityai/pplx-garden) |
 | **Canonical** | **FlexiCache: Leveraging Temporal Stability of Attention Heads for Efficient KV Cache Management** | MLSys 2026 | KV cache / long-context LLM serving / hierarchical memory | [Link](https://arxiv.org/abs/2511.00868) | — |
 | **Canonical** | **GhostServe: A Lightweight Checkpointing System in the Shadow for Fault-Tolerant LLM Serving** | MLSys 2026 | LLM serving reliability / KV-cache fault tolerance / distributed inference | [Link](https://arxiv.org/abs/2605.00831) | — |
+| **Canonical** | **GriNNder: Breaking the Memory Capacity Wall in Full-Graph GNN Training with Storage Offloading** | MLSys 2026 | GNN training; memory/offloading | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/215597a92341c78cc3e7fe628be4a195-Abstract-Conference.html) | — |
 | **Canonical** | **Kitty: Accurate and Efficient 2-bit KV Cache Quantization with Dynamic Channel-wise Precision Boost** | MLSys 2026 | KV cache quantization / low-bit inference | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/file/e4d8d1b5120be349d3fff8878650cf45-Paper-Conference.pdf) | — |
 | **Canonical** | **Locality-Aware Beam Scheduling for Efficient Test-Time Compute with a Consumer-grade GPU** | MLSys 2026 | efficient reasoning / test-time compute / KV offload scheduling | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/file/c74b624843218d9b6713fcf299d6d5e4-Paper-Conference.pdf) | — |
 | **Canonical** | **MAC-Attention: a Match--Amend--Complete scheme for fast and accurate attention computation** | MLSys 2026 | efficient attention / long-context inference / KV reuse | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/7398289396de403d7d0505ed791e704a-Abstract-Conference.html) | — |
 | **Canonical** | **MorphServe: Efficient and Workload-Aware LLM Serving via Runtime Quantized Layer Swapping and KV Cache Resizing** | MLSys 2026 | LLM serving / dynamic quantization / KV resizing | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/file/8144a9d62e506af0fcdeac0e456b2710-Paper-Conference.pdf) | — |
 | **Canonical** | **MTraining: Distributed Dynamic Sparse Attention for Efficient Ultra-Long Context Training** | MLSys 2026 | distributed training / sparse attention / long context | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/7fafdf453029d7b8674b6f3dd18112bf-Abstract-Conference.html) | [Repo](https://github.com/microsoft/MInference/tree/main/mtraining) |
+| **Canonical** | **OPKV: A High-Throughput Plugin-Driven Framework for Recallable Sparsity in Paged KV Cache Systems** | MLSys 2026 | LLM serving; KV-cache sparsity | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/71381211d0abef73ed1887b83c4547b1-Abstract-Conference.html) | — |
 | **Canonical** | **ProfInfer: An eBPF-based Fine-Grained LLM Inference Profiler** | MLSys 2026 | LLM inference profiling / edge runtime observability | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/file/03dbc11a22e79cd38bea53cf518c2371-Paper-Conference.pdf) | — |
 | **Canonical** | **RaidServe: High-performance Resilient Serving** | MLSys 2026 | LLM serving reliability / tensor parallelism / KV-cache recovery | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/507b4aacefe5325908e24f042617b741-Abstract-Conference.html) | — |
+| **Canonical** | **SkipKV: Selective Skipping of KV Generation and Storage for Efficient Inference with Large Reasoning Models** | MLSys 2026 | LLM inference; KV-cache generation/storage | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/45c1f6a8cbf2da59ebf2c802b4f742cd-Abstract-Conference.html) | [Repo](https://github.com/TTTTTTris/SkipKV) |
 | **Canonical** | **SuperInfer: SLO-Aware Rotary Scheduling and Memory Management for LLM Inference on Superchips** | MLSys 2026 | LLM serving / KV-cache offload / heterogeneous GPU-CPU superchips | [Link](https://arxiv.org/abs/2601.20309) | [Repo](https://github.com/Supercomputing-System-AI-Lab/SuperInfer) |
+| **Canonical** | **Using Span Queries to Optimize Cache and Attention Locality** | MLSys 2026 | LLM serving; KV-cache/attention locality | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/f5d77f1e501e0496377d8b68c8e81a48-Abstract-Conference.html) | — |
 | **Canonical** | **LeanStream: A Speculate-and-Refine Streaming Framework for Efficient on-Device LLM Inference** | MobiCom 2026 | edge/cloud/heterogeneous AI systems / on-device LLM inference / storage offload / sparse execution | [Link](https://arxiv.org/abs/2609.03079) | — |
 | **Canonical** | **mzCache: On-Device LLM Memory Management under Multitasking** | MobiCom 2026 | edge/cloud/heterogeneous AI / KV cache / on-device LLM serving | [Link](https://arxiv.org/abs/2609.01338) | — |
 | **Canonical** | **Accurate KV Cache Eviction via Anchor Direction Projection for Efficient LLM Inference** | NeurIPS 2025 | KV cache eviction | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/0f29157c7613e137834a607075c55e17-Abstract-Conference.html) | — |

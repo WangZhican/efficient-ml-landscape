@@ -1,10 +1,10 @@
 # 12 · Diffusion / Flow Acceleration
 
-> **633 canonical papers** mapped here, plus a broader **421-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **635 canonical papers** mapped here, plus a broader **420-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 421 tracked
+## 🆕 Latest 30 Days · 420 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -26,6 +26,7 @@
 | **P2 · Relevant** | **Concept Acupuncturist: An Efficient and Precise Concept Erasure Method for Diffusion Models via Sparse Autoencoders** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.32059) | — |
 | **P2 · Relevant** | **PixGR: Pixel-Space Generative Decoding for Fast Feed-Forward 3D Reconstruction** | arXiv 2026 | Generative 3D reconstruction acceleration | [Link](https://arxiv.org/abs/2610.31908) | — |
 | **P1 · Watch** | **Speculative Diffusion is a Tale of Two Tradeoffs** | arXiv 2026 | Speculative decoding/diffusion LLM | [Link](https://arxiv.org/abs/2610.31819) | — |
+| **P1 · Watch** | **F2G-Pose: Geometry-Aware Foundation Feature Lifting for Direct RGB-D Category-Level Object Pose Estimation** | arXiv 2026 | physical_ai_pose_inference | [Link](https://arxiv.org/abs/2610.31623) | — |
 | **P2 · Relevant** | **What Makes a Good Unmasking Policy? A Controlled Study of Learned Unmasking in Diffusion Language Models** | arXiv 2026 | diffusion/flow acceleration,efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.31576) | — |
 | **P1 · Watch** | **GLOW-FM: Efficient Generative Low-Light Image Enhancement with One-Step Latent Flow Matching** | arXiv 2026 | gen | [Link](https://arxiv.org/abs/2610.31222) | — |
 | **P0 · Strong** | **Different Tasks, Different Timesteps: Temporal Task-Aware Quantization for Diffusion Language Models** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2610.31198) | — |
@@ -330,9 +331,6 @@
 | **P0 · Strong** | **PE-OPSD: Internalizing Prompt Enhancement into Flow-matching Models via On-Policy Self-Distillation** | arXiv 2026 | diffusion_flow_acceleration | [Link](https://arxiv.org/abs/2609.36638) | — |
 | **P0 · Strong** | **ParaAnya: Accelerating Parallel Diffusion Sampling with Plug-and-Play Output Caching** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.36522) | — |
 | **P1 · Watch** | **Reliable Parallel Decoding in Masked Diffusion Language Models** | arXiv 2026 | diffusion/flow acceleration | [Link](https://arxiv.org/abs/2609.36452) | — |
-| **P2 · Relevant** | **Where Should Physics Enter a Molecular Crystal Generator?** | arXiv 2026 | diffusion/flow acceleration | [Link](https://arxiv.org/abs/2609.36398) | — |
-| **P0 · Strong** | **EdgeDAE: Acceleration of Diffusion Action Experts for Real-Time Physical AI with Tiny VLAs on Edge FPGA-GPU Systems** | arXiv 2026 | physical_ai | [Link](https://arxiv.org/abs/2610.00311) | — |
-| **P1 · Watch** | **HyperZip: Efficient Data Compression through Personalized Diffusion LLMs with Hypernetworks** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.36357) | — |
 | **P1 · Watch** | **Xaurora: Generative Weather Forecasting with Denoising Stochastic Interpolants from a Foundation Model Prior** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.06509) | — |
 | **P1 · Watch** | **VideoAWR: Reinforcing Video Flow Models with Decoupled-Timestep Advantage-Weighted Rectification** | arXiv 2026 | diffusion_flow_acceleration | [Link](https://arxiv.org/abs/2610.13338) | — |
 | **P1 · Watch** | **VDOT++: Unified Few-Step Video Generation via Unbalanced Optimal Transport Distillation** | arXiv 2026 | video/image generation acceleration | [Link](https://arxiv.org/abs/2610.03221) | — |
@@ -408,6 +406,7 @@
 | **P2 · Relevant** | **ENCORE: Exact Non-equilibrium COntrol with Replica Exchange for Diffusion Generation** | arXiv 2026 | diffusion/flow acceleration | [Link](https://arxiv.org/abs/2610.02538) | — |
 | **P2 · Relevant** | **Enabling Preference-driven Unlearning in Few-step Distilled Text-to-Image Diffusion Models** | arXiv 2026 | diffusion/flow acceleration | [Link](https://arxiv.org/abs/2610.10859) | — |
 | **P2 · Relevant** | **EigDiff: Eigensample Diffusion - or how to significantly reduce training dataset size with marginal performance variation?** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20999) | — |
+| **P0 · Strong** | **EdgeDAE: Acceleration of Diffusion Action Experts for Real-Time Physical AI with Tiny VLAs on Edge FPGA-GPU Systems** | arXiv 2026 | physical_ai | [Link](https://arxiv.org/abs/2610.00311) | — |
 | **P2 · Relevant** | **Echo: Coupled Action and Task Status Signal Denoising for Vision Language Action Models** | arXiv 26 | vla_wam | [Link](https://arxiv.org/abs/2610.31569) | — |
 | **P2 · Relevant** | **Dynamic Time Step Prediction in Inverse Heat Dissipation for Blur-Like Image Restoration Tasks** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2610.03942) | — |
 | **P0 · Strong** | **DriveCache: Action-Aware Caching for Driving World Model Inference** | Fresh / preprint | world-model / diffusion caching | [Link](https://arxiv.org/abs/2608.16354) | — |
@@ -430,7 +429,7 @@
 | **P0 · Strong** | **An Empirical Study of Training Pixel-Space Text-to-Image Diffusion Models** | Fresh / preprint | image generation acceleration | [Link](https://arxiv.org/abs/2608.16887) | — |
 | **P2 · Relevant** | **ALIVE: Interaction-Aligned Object Insertion for First-Frame-Guided Video Editing** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.08779) | — |
 
-## 🏛️ Classical / Historical · 490 canonical
+## 🏛️ Classical / Historical · 492 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -695,6 +694,7 @@
 | **Canonical** | **WorldDynCache: Risk-Controlled Latent Dynamics Approximation for Diffusion World Model** | arXiv 26 | streaming_world | [Link](https://arxiv.org/abs/2608.01845) | — |
 | **Canonical** | **ZEUS: Accelerating Diffusion Models with Only Second-Order Predictor** | arXiv 26 | diffusion_flow_acceleration | [Link](https://arxiv.org/abs/2604.01552) | — |
 | **Canonical** | **DSV: Exploiting Dynamic Sparsity to Accelerate Large-Scale Video DiT Training** | ASPLOS 2026 | video diffusion training / sparse attention / distributed training | [Link](https://arxiv.org/abs/2502.07590) | — |
+| **Canonical** | **Dynamic Sparsity in Large-Scale Video DiT Training** | ASPLOS 2026 | video diffusion; dynamic attention sparsity; distributed training | [Link](https://doi.org/10.1145/3760250.3762216) | — |
 | **Canonical** | **MoDM: Efficient Serving for Image Generation via Mixture-of-Diffusion Models** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://arxiv.org/abs/2503.11972) | — |
 | **Canonical** | **TetriServe: Efficiently Serving Mixed DiT Workloads** | ASPLOS 2026 | diffusion/DiT serving / scheduling | [Link](https://arxiv.org/abs/2510.01565) | — |
 | **Canonical** | **DiffusionSeeder: Seeding Motion Optimization with Diffusion for Rapid Motion Planning** | CoRL 2024 | VLA/WAM/Physical AI efficiency | [Link](https://proceedings.mlr.press/v270/huang25f.html) | — |
@@ -897,6 +897,7 @@
 | **Canonical** | **Kaleido: Algorithm-Hardware Co-Design for Video Diffusion Transformers by Exploiting Latent Space Correlations** | MICRO 2026 | video/image generation acceleration; diffusion/flow acceleration; efficient attention; edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2607.13770) | — |
 | **Canonical** | **db-SP: Accelerating Sparse Attention for Visual Generative Models with Dual-Balanced Sequence Parallelism** | MLSys 2026 | video/image generation acceleration / sparse attention / sequence parallelism | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/db988b089d8d97d0f159c15ed0be6a71-Abstract-Conference.html) | — |
 | **Canonical** | **SpecDiff-2: Scaling Diffusion Drafter Alignment For Faster Speculative Decoding** | MLSys 2026 | speculative decoding / diffusion drafter / efficient reasoning | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/041dad5ed2191b44ba3ed0e00cdc3187-Abstract-Conference.html) | — |
+| **Canonical** | **TiDAR: Think in Diffusion, Talk in Autoregression** | MLSys 2026 | efficient reasoning; diffusion/autoregressive LLMs | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/1367d856028f65a9555b0274db09e608-Abstract-Conference.html) | — |
 | **Canonical** | **Self Forcing: Bridging the Train-Test Gap in Autoregressive Video Diffusion** | NeurIPS 2025 | autoregressive video diffusion / streaming generation | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/f4823f831af67a3ef15e41a85434422a-Abstract-Conference.html) | — |
 | **Canonical** | **VORTA: Efficient Video Diffusion via Routing Sparse Attention** | NeurIPS 2025 | video/image generation acceleration / efficient attention / diffusion | [Link](https://arxiv.org/abs/2505.18809) | [Repo](https://github.com/wenhao728/VORTA) |
 | **Canonical** | **ChituDiffusion: A Data-Characteristic-Aware Serving System for Diffusion Models** | PPoPP 2026 | diffusion serving / compile-runtime co-optimization | [Link](https://doi.org/10.1145/3774934.3786424) | — |

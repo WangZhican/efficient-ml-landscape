@@ -1,6 +1,6 @@
 # 🛡️ Physical AI · Protected Historical Watch
 
-> **1039 older P1 papers** retained beyond the rolling 30-day window. This is a watchlist, not an expanded canonical/P0 claim.
+> **1041 older P1 papers** retained beyond the rolling 30-day window. This is a watchlist, not an expanded canonical/P0 claim.
 
 [← Physical AI direction](14-physical-ai-vla-wam.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/physical_ai_protected_watch_archive.json)
 
@@ -189,6 +189,7 @@
 | **P1 · Watch** | **SURE-Map: Self-Correcting Streaming Geometric Foundation Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.15795) | — |
 | **P1 · Watch** | **Successive Capacity Growth: Task-Complexity-Driven Width and Depth Expansion for Vision Transformer Encoders in JEPA World Models** | arXiv updated in 7d | VLA/WAM/Physical AI serving / adaptive world-model compute | [Link](https://arxiv.org/abs/2608.27367) | — |
 | **P1 · Watch** | **StructRL: Structured Action-Space Exploration for Flow-Based VLAs** | Fresh / preprint | multimodal/MLLM serving / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.15139) | — |
+| **P1 · Watch** | **StructRL: Online Structured Reinforcement Learning for Long-Horizon Vision-Language-Action Tasks** | arXiv 2026 | physical,vla,reinforcement_learning | [Link](https://arxiv.org/abs/2609.36352) | — |
 | **P1 · Watch** | **StrucPhysVideo: Learning Physical Dynamics from Structured Captions and Robot Actions** | arXiv 2026 | physical_ai_world_model | [Link](https://arxiv.org/abs/2609.18430) | — |
 | **P1 · Watch** | **Streaming4D: Accelerate 4D World Models via Block-wise Video Generation and Incremental Reconstruction** | arXiv 2026 | VLA/WAM/Physical AI serving / world-model acceleration / streaming 4D reconstruction | [Link](https://arxiv.org/abs/2609.00610) | — |
 | **P1 · Watch** | **Streaming Multi-Agent Autoregressive Diffusion Model with World State Registers** | arXiv 26 | streaming_world | [Link](https://arxiv.org/abs/2607.21594) | — |
@@ -423,6 +424,7 @@
 | **P1 · Watch** | **One Word, Different Action: A Real-Robot Benchmark for Language-Conditioned Embodied Reasoning** | arXiv 2026 | VLA/WAM/Physical AI serving / real-robot benchmark / language-conditioned action reasoning | [Link](https://arxiv.org/abs/2609.05260) | — |
 | **P1 · Watch** | **One Policy, Many Embodiments: Unified Camera-Centric Action Geometry Pre-training for Heterogeneous Embodied Manipulation** | Fresh / preprint | multimodal/MLLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.26058) | — |
 | **P1 · Watch** | **One MLLM, One Call: Efficient Zero-Shot Vision-and-Language Navigation via Spatial-Aware Waypoints** | arXiv 2026 | VLA/WAM/Physical AI serving / VLN / sparse MLLM invocation / robot navigation | [Link](https://arxiv.org/abs/2609.06476) | — |
+| **P1 · Watch** | **One from Infinity: Actualizing Futures from Pretrained World Models into Robot Actions** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.36413) | — |
 | **P1 · Watch** | **One Diffusion Model, Two Roles: Guided Trajectory Planning and Safety-Critical Scenario Generation in Closed-Loop Simulation** | arXiv 2026 | VLA/WAM/Physical AI / autonomous driving / diffusion planning / closed-loop simulation | [Link](https://arxiv.org/abs/2609.04921) | — |
 | **P1 · Watch** | **On the Capability Separation Between World-Model Policy Learning and Imitated World-Action Models** | Fresh / preprint | LLM serving / video/image generation acceleration | [Link](https://arxiv.org/abs/2608.22197) | — |
 | **P1 · Watch** | **On Device Agentic Operation Caches -- Classifier-Centric NL-to-Action Generation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33141) | — |

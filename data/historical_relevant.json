@@ -37381,6 +37381,27 @@
       ]
     },
     {
+      "title": "One from Infinity: Actualizing Futures from Pretrained World Models into Robot Actions",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.36413",
+      "doi": "",
+      "official_id": "arXiv:2609.36413",
+      "paper_url": "https://arxiv.org/abs/2609.36413",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Adaptive Mass-Segmented KV Compression for Long-Context Reasoning",
       "venue": "arXiv 2026",
       "topic": "",
@@ -37527,6 +37548,27 @@
       "directions": [
         "GPU Kernel / DSL / Compiler",
         "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "Bilinear World Models: Learning Representations with Structured Dynamics for Efficient Control",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.36305",
+      "doi": "",
+      "official_id": "arXiv:2609.36305",
+      "paper_url": "https://arxiv.org/abs/2609.36305",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -38271,6 +38313,27 @@
       "is_latest_30d": false,
       "directions": [
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "HyperZip: Efficient Data Compression through Personalized Diffusion LLMs with Hypernetworks",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.36357",
+      "doi": "",
+      "official_id": "arXiv:2609.36357",
+      "paper_url": "https://arxiv.org/abs/2609.36357",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Diffusion / Flow Acceleration"
       ]
     },
     {
@@ -39413,6 +39476,71 @@
       "directions": [
         "Edge / Cloud / Heterogeneous AI",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "StructRL: Online Structured Reinforcement Learning for Long-Horizon Vision-Language-Action Tasks",
+      "venue": "arXiv 2026",
+      "topic": "physical,vla,reinforcement_learning",
+      "arxiv": "2609.36352",
+      "doi": "",
+      "official_id": "arXiv:2609.36352",
+      "paper_url": "https://arxiv.org/abs/2609.36352",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": true,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "High-value adjacent or protected-route work with meaningful efficiency/system implications; retain for deeper reading.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Better Nearest Neighbor Graph Indices via (Efficient) LLM-Guided Pruning",
+      "venue": "arXiv 2026",
+      "topic": "retrieval,efficient_search",
+      "arxiv": "2609.36359",
+      "doi": "",
+      "official_id": "arXiv:2609.36359",
+      "paper_url": "https://arxiv.org/abs/2609.36359",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "High-value adjacent or protected-route work with meaningful efficiency/system implications; retain for deeper reading.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Sparsity / Pruning"
+      ]
+    },
+    {
+      "title": "Strategies for Deploying AI Agents in Production at Scientific User Facilities",
+      "venue": "arXiv 2026",
+      "topic": "agent_systems,production_infra",
+      "arxiv": "2609.36362",
+      "doi": "",
+      "official_id": "arXiv:2609.36362",
+      "paper_url": "https://arxiv.org/abs/2609.36362",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "High-value adjacent or protected-route work with meaningful efficiency/system implications; retain for deeper reading.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -42005,6 +42133,48 @@
       ]
     },
     {
+      "title": "How Much Prompt Is Enough? A Blackbox Minimization of Few-Shots in LLMs",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.36289",
+      "doi": "",
+      "official_id": "arXiv:2609.36289",
+      "paper_url": "https://arxiv.org/abs/2609.36289",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Prompt compression framework removes a mean 65.3% of few-shot prompt characters while preserving propositional fidelity; useful context/token-efficiency evidence.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Fractional State Space Transition for Long Sequence Modeling",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.36314",
+      "doi": "",
+      "official_id": "arXiv:2609.36314",
+      "paper_url": "https://arxiv.org/abs/2609.36314",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Long-sequence state-space modeling is efficiency-adjacent; retain for recurrent/linear-time sequence architecture tracking.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Manifold-Constrained MPPI: Real-Time Sampling-Based Control for Nonlinear Equality-Constrained Robotic Systems",
       "venue": "arXiv 2026",
       "topic": "",
@@ -42932,6 +43102,27 @@
       "directions": [
         "Efficient Reasoning / Agents",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Compress to Remember: Learning Compact Memory via On-Policy Distillation for Long Video Generation",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.36364",
+      "doi": "",
+      "official_id": "arXiv:2609.36364",
+      "paper_url": "https://arxiv.org/abs/2609.36364",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "PACC learns compact reusable memory tokens for long-video generation by distilling full-history conditioning into compressed history while keeping the generator frozen; directly relevant to video-generation context/memory efficiency, but the abstract reports memory-quality gains rather than explicit latency/FLOP/memory-reduction numbers.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Video / Image Generation"
       ]
     },
     {
@@ -72274,6 +72465,155 @@
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI"
       ]
+    },
+    {
+      "title": "DriftBench: Measuring and Predicting Infrastructure Drift in LLM Serving Systems",
+      "venue": "MLSys 2026",
+      "topic": "LLM serving; reliability/consistency benchmark",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "MLSYS2026_ea0b5818ae9255ee1fb1e3b4442d2ffe",
+      "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/ea0b5818ae9255ee1fb1e3b4442d2ffe-Abstract-Conference.html",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "High-value production-serving measurement/prediction resource; relevant to runtime operations, but not itself a core efficiency mechanism.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving"
+      ]
+    },
+    {
+      "title": "Hippocampus: An Efficient and Scalable Memory Module for Agentic AI",
+      "venue": "MLSys 2026",
+      "topic": "agent systems; persistent memory/retrieval",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "MLSYS2026_a1d04870cf83a0f29819d66f1dfdbfcb",
+      "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/a1d04870cf83a0f29819d66f1dfdbfcb-Abstract-Conference.html",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Potentially valuable agent memory architecture with efficiency/scalability focus; retain for follow-up, but it is not a core serving/accelerator result.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Ontology-Guided Long-Term Agent Memory for Conversational RAG",
+      "venue": "MLSys 2026",
+      "topic": "agent systems; RAG memory/retrieval",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "MLSYS2026_2fb4be70fc9668e9ec2c71b34fb127d4",
+      "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/2fb4be70fc9668e9ec2c71b34fb127d4-Abstract-Conference.html",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Relevant persistent-memory/retrieval architecture for agent systems; retain as a high-value watchlist item, though efficiency is not the primary contribution.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "OSWorld-Human: Benchmarking the Efficiency of Computer-Use Agents",
+      "venue": "MLSys 2026",
+      "topic": "agent systems; efficiency benchmark",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "MLSYS2026_5edb57c05c81d04beb716ef1d542fe9e",
+      "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/5edb57c05c81d04beb716ef1d542fe9e-Abstract-Conference.html",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Useful benchmark focused on computer-use-agent efficiency; retain for agent-runtime research without treating it as a core optimization method.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "SAKURAONE: An Open Ethernet–Based AI HPC System and Its Observed Workload Dynamics in a Single-Tenant LLM Development Environment",
+      "venue": "MLSys 2026",
+      "topic": "AI infrastructure; LLM workload characterization",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "MLSYS2026_40b8fb4f90004405e14b1ede6ab42373",
+      "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/40b8fb4f90004405e14b1ede6ab42373-Abstract-Conference.html",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "High-value infrastructure/workload evidence for large-scale LLM systems; retain for follow-up, but not a core algorithm/accelerator optimization.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Fine-grained and Non-intrusive LLM Training Monitoring via Microsecond-level Traffic Measurement",
+      "venue": "ASPLOS 2026",
+      "topic": "LLM training infrastructure; observability",
+      "arxiv": "",
+      "doi": "10.1145/3779212.3790163",
+      "official_id": "ASPLOS2026_3779212.3790163",
+      "paper_url": "https://doi.org/10.1145/3779212.3790163",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "High-value training-infrastructure monitoring to diagnose stragglers and wasted GPU time; retain for follow-up, but it is an observability system rather than a core optimization.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Triton-Sanitizer: A Fast and Device-Agnostic Memory Sanitizer for Triton with Rich Diagnostic Context",
+      "venue": "ASPLOS 2026",
+      "topic": "GPU kernel DSL; Triton debugging",
+      "arxiv": "",
+      "doi": "10.1145/3779212.3790241",
+      "official_id": "ASPLOS2026_3779212.3790241",
+      "paper_url": "https://doi.org/10.1145/3779212.3790241",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Useful device-agnostic Triton memory-safety tooling for kernel development; retain for follow-up but do not treat as an optimization paper.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
     }
   ],
   "historical_p2": [
@@ -95011,6 +95351,27 @@
       ]
     },
     {
+      "title": "One-Step Next-Latent Prediction Is Not a World Model",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.36227",
+      "doi": "",
+      "official_id": "arXiv:2609.36227",
+      "paper_url": "https://arxiv.org/abs/2609.36227",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "CipherGenome: Homomorphic Inference for Genomic Mixture-of-Experts",
       "venue": "arXiv 2026",
       "topic": "",
@@ -95018,6 +95379,27 @@
       "doi": "",
       "official_id": "arXiv:2609.35883",
       "paper_url": "https://arxiv.org/abs/2609.35883",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Towards an AI Software Factory for Data Systems",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.36323",
+      "doi": "",
+      "official_id": "arXiv:2609.36323",
+      "paper_url": "https://arxiv.org/abs/2609.36323",
       "code_url": "",
       "formal_class": "RELEVANT_LOW_PRIORITY",
       "physical_ai": false,
@@ -95559,6 +95941,48 @@
       "is_latest_30d": false,
       "directions": [
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "PILLAR: Private Inverted-Index Lexical Lookup for Augmented Retrieval",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.36326",
+      "doi": "",
+      "official_id": "arXiv:2609.36326",
+      "paper_url": "https://arxiv.org/abs/2609.36326",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Quantization Enables Private Dense Retrieval against Malicious Service Providers",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.36376",
+      "doi": "",
+      "official_id": "arXiv:2609.36376",
+      "paper_url": "https://arxiv.org/abs/2609.36376",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Quantization"
       ]
     },
     {
@@ -96396,6 +96820,28 @@
       "directions": [
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Characterizing the eBPF-Based Data Plane for Multi-ClusterKubernetes: A Systematic Evaluation of Cilium Cluster Meshand KVStoreMesh",
+      "venue": "arXiv 2026",
+      "topic": "edge,distributed",
+      "arxiv": "2609.38235",
+      "doi": "",
+      "official_id": "arXiv:2609.38235",
+      "paper_url": "https://arxiv.org/abs/2609.38235",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Relevant to a maintained Efficient-ML neighborhood, but current first-party metadata does not justify high-value promotion.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Distributed Training / Inference",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -102086,6 +102532,28 @@
       "directions": [
         "Quantization",
         "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "AdaKerNet: Neural Kernel Decoding for Task-Adaptive Prediction with Multimodal Large Models",
+      "venue": "arXiv 2026",
+      "topic": "multimodal model adaptation",
+      "arxiv": "2609.36368",
+      "doi": "",
+      "official_id": "arXiv:2609.36368",
+      "paper_url": "https://arxiv.org/abs/2609.36368",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Multimodal / MLLM Serving"
       ]
     },
     {
@@ -109060,6 +109528,27 @@
       "directions": [
         "LLM Serving",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Where Should Physics Enter a Molecular Crystal Generator?",
+      "venue": "arXiv 2026",
+      "topic": "diffusion/flow acceleration",
+      "arxiv": "2609.36398",
+      "doi": "",
+      "official_id": "arXiv:2609.36398",
+      "paper_url": "https://arxiv.org/abs/2609.36398",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Crystal flow generator learns physical alignment in post-training, avoiding 6-26x slower per-sample physical relaxation; domain-specific but useful inference-time cost trade-off.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Diffusion / Flow Acceleration"
       ]
     },
     {
@@ -151675,6 +152164,27 @@
       ]
     },
     {
+      "title": "Calibrating One-Round Membership Inference with Neighbors",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2609.36331",
+      "doi": "",
+      "official_id": "arXiv:2609.36331",
+      "paper_url": "https://arxiv.org/abs/2609.36331",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Neighbor-calibrated membership inference reduces auxiliary reference-model burden, adjacent evaluation efficiency and privacy.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "TTM-Bench: A Framework for Text-to-Music System Performance Benchmarking",
       "venue": "arXiv 2026",
       "topic": "generative_media_serving_benchmark",
@@ -173936,6 +174446,1574 @@
         "LLM Serving",
         "Distributed Training / Inference",
         "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "HEX: Humanoid-Aligned Experts for Cross-Embodiment Whole-Body Manipulation",
+      "venue": "arXiv 2026",
+      "topic": "physical_ai_vla",
+      "arxiv": "2604.07993",
+      "doi": "",
+      "official_id": "arXiv:2604.07993",
+      "paper_url": "https://arxiv.org/abs/2604.07993",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Cross-embodiment humanoid VLA/MoE manipulation with flow action head; protected Physical-AI model, but no serving/runtime acceleration evidence.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving",
+        "MoE Systems / Accelerators",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Haptic Sorter: A Unified Planning Framework for Online Shape Estimation and Real-Time Pose Inference",
+      "venue": "arXiv 2026",
+      "topic": "physical_ai_pose_inference",
+      "arxiv": "2605.31352",
+      "doi": "",
+      "official_id": "arXiv:2605.31352",
+      "paper_url": "https://arxiv.org/abs/2605.31352",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Online shape/pose estimation for robotic manipulation with real-time inference; relevant Physical-AI adjacency, limited explicit model-serving optimization.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "LUMA: Benchmarking Segmentation via a Lightweight Universal Mask Adapter",
+      "venue": "arXiv 2026",
+      "topic": "lightweight_vision_model",
+      "arxiv": "2607.00687",
+      "doi": "",
+      "official_id": "arXiv:2607.00687",
+      "paper_url": "https://arxiv.org/abs/2607.00687",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Lightweight universal mask adapter targets segmentation benchmarking; relevant lightweight architecture, but no serving/runtime evidence.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving"
+      ]
+    },
+    {
+      "title": "GFlowPO: Generative Flow Network as a Language Model Prompt Optimizer",
+      "venue": "arXiv 2026",
+      "topic": "efficient_agent_optimization",
+      "arxiv": "2602.03358",
+      "doi": "",
+      "official_id": "arXiv:2602.03358",
+      "paper_url": "https://arxiv.org/abs/2602.03358",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "GFlowNet prompt optimizer addresses expensive target-model evaluations; adjacent to efficient reasoning/agent optimization, with no serving-system claim.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Counting Clues: A Lightweight Probabilistic Baseline Can Match an LLM",
+      "venue": "arXiv 2026",
+      "topic": "efficient_inference_baseline",
+      "arxiv": "2512.12868",
+      "doi": "",
+      "official_id": "arXiv:2512.12868",
+      "paper_url": "https://arxiv.org/abs/2512.12868",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Lightweight probabilistic baseline matches LLM diagnosis performance on a narrow benchmark; efficient-inference alternative, domain-specific and low priority.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "DisAgg: Distributed Aggregators for Efficient Secure Aggregation",
+      "venue": "MLSys 2026",
+      "topic": "federated learning; privacy systems",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "MLSYS2026_5c40a52354e95a6fc701a84cdcd97bc8",
+      "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/5c40a52354e95a6fc701a84cdcd97bc8-Abstract-Conference.html",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Relevant distributed-learning systems work, but its primary scope is secure aggregation rather than core efficient ML methods.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "EarthSight: A Distributed Framework for Low-Latency Satellite Intelligence",
+      "venue": "MLSys 2026",
+      "topic": "distributed low-latency data systems",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "MLSYS2026_26289c647c6828e862e271ca3c490486",
+      "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/26289c647c6828e862e271ca3c490486-Abstract-Conference.html",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Low-latency distributed imagery pipeline is adjacent, but not a direct ML inference/training efficiency or accelerator result.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "G-HEMP: FAST MULTI-GPU PRIVATE INFERENCE FOR LARGE-SCALE GCNS WITH HOMOMORPHIC ENCRYPTION",
+      "venue": "MLSys 2026",
+      "topic": "privacy-preserving inference; GCNs",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "MLSYS2026_96894468eb44631a32d7ebd56f9892c7",
+      "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/96894468eb44631a32d7ebd56f9892c7-Abstract-Conference.html",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Relevant secure inference system, but privacy/HE is the primary focus and it is peripheral to the core efficient-ML collection.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "Hawkeye: Reproducing GPU-Level Non-Determinism",
+      "venue": "MLSys 2026",
+      "topic": "GPU reproducibility; debugging",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "MLSYS2026_e217c271a57c365a246b0ad39e668ba8",
+      "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/e217c271a57c365a246b0ad39e668ba8-Abstract-Conference.html",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Useful GPU execution/debugging infrastructure, but not a direct efficiency optimization or acceleration contribution.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Learning from Less: Measuring the Effectiveness of RLVR in Low Data and Compute Regimes",
+      "venue": "MLSys 2026",
+      "topic": "efficient reasoning; RLVR data/compute",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "MLSYS2026_da85790fb1cb4f11f431648455c561b5",
+      "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/da85790fb1cb4f11f431648455c561b5-Abstract-Conference.html",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Relevant efficiency characterization of RLVR data/compute regimes, but not a core systems/architecture or inference-acceleration result.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Matrix: Peer-to-Peer Multi-Agent Synthetic Data Generation Framework",
+      "venue": "MLSys 2026",
+      "topic": "multi-agent synthetic data generation",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "MLSYS2026_9069a8976ff06f6443e7f4172990a580",
+      "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/9069a8976ff06f6443e7f4172990a580-Abstract-Conference.html",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Relevant LLM data-generation framework, but no clear direct efficiency or acceleration contribution in the first-party abstract.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Practical Adversarial Multi-Armed Bandits with Sublinear Runtime",
+      "venue": "MLSys 2026",
+      "topic": "optimization algorithms; physical-design tuning",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "MLSYS2026_efbd571f139d26604e53fe2760e2c073",
+      "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/efbd571f139d26604e53fe2760e2c073-Abstract-Conference.html",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Relevant runtime-efficient optimization algorithm with a systems-tuning application, but peripheral to ML training/inference efficiency.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "ProToken: Token-Level Attribution for Federated Large Language Models",
+      "venue": "MLSys 2026",
+      "topic": "federated LLMs; attribution",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "MLSYS2026_b8bf2c0dd0b48511889b7d3b2c5fc8f5",
+      "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/b8bf2c0dd0b48511889b7d3b2c5fc8f5-Abstract-Conference.html",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Federated LLM attribution is adjacent, but the main contribution is explainability/attribution rather than efficiency.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "REPARO: LOSS-RESILIENT GENERATIVE CODEC FOR VIDEO CONFERENCING",
+      "venue": "MLSys 2026",
+      "topic": "video communication; generative codec",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "MLSYS2026_703f727ec10190b2fddcf8e24f52df48",
+      "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/703f727ec10190b2fddcf8e24f52df48-Abstract-Conference.html",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Video codec is adjacent to generation/serving but the abstract focuses on network-loss resilience rather than ML acceleration.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "SONAR: Benchmarking Topology and Collaboration in Decentralized Learning",
+      "venue": "MLSys 2026",
+      "topic": "decentralized learning; topology benchmark",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "MLSYS2026_4abf39685e89559523a4d644036fd2b3",
+      "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/4abf39685e89559523a4d644036fd2b3-Abstract-Conference.html",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Relevant benchmark/methodology for decentralized ML, but not a direct efficiency optimization.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Sparing Strategies to Minimize Reliability Impact On Large Training Jobs",
+      "venue": "MLSys 2026",
+      "topic": "distributed training; reliability/availability",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "MLSYS2026_437bc4ccafd3fc6d4289bd10940be42b",
+      "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/437bc4ccafd3fc6d4289bd10940be42b-Abstract-Conference.html",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Production training reliability and spare-resource management are adjacent to efficiency but secondary to direct performance/architecture methods.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "The OpenHands Software Agent SDK: A Composable and Extensible Foundation for Production Agents",
+      "venue": "MLSys 2026",
+      "topic": "agent systems; software infrastructure",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "MLSYS2026_8ae9cf363ea625161f885b798c1f1f78",
+      "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/8ae9cf363ea625161f885b798c1f1f78-Abstract-Conference.html",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Useful production-agent SDK, but no direct efficient-ML or agent-inference performance contribution in the abstract.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "VeriMoA: A Mixture-of-Agents Framework for Spec-to-HDL Generation",
+      "venue": "MLSys 2026",
+      "topic": "AI accelerator design; agentic HDL generation",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "MLSYS2026_cc8c6b9d89f7a898a29f58869b238e46",
+      "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/cc8c6b9d89f7a898a29f58869b238e46-Abstract-Conference.html",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Relevant hardware-design automation, but not itself an efficient ML training/inference or accelerator execution result.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Virtual Machine NUMA Placement at Scale: Learning the Norm, Shielding the Tail",
+      "venue": "MLSys 2026",
+      "topic": "cloud systems; ML-driven NUMA placement",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "MLSYS2026_4e3157021c5f833bb2204081f1dda573",
+      "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/4e3157021c5f833bb2204081f1dda573-Abstract-Conference.html",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "ML-driven infrastructure placement optimization is adjacent, but not a direct ML workload efficiency result.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "When Machine Learning Isn’t Sure: Building Resilient ML-Based Computer Systems by Embracing Uncertainty",
+      "venue": "MLSys 2026",
+      "topic": "ML systems; uncertainty-aware resilience",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "MLSYS2026_96aca14d6c4dcd3adf54bc2c5ad7f138",
+      "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/96aca14d6c4dcd3adf54bc2c5ad7f138-Abstract-Conference.html",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Relevant ML-in-systems reliability framework, but primary contribution is resilience/fallback rather than efficiency.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "ZK-APEX: ZERO-KNOWLEDGE APPROXIMATE PERSONALIZED UNLEARNING WITH EXECUTABLE PROOFS",
+      "venue": "MLSys 2026",
+      "topic": "edge ML; privacy/unlearning efficiency",
+      "arxiv": "",
+      "doi": "",
+      "official_id": "MLSYS2026_148865706acbd18627d3fc15cc3f3b93",
+      "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/148865706acbd18627d3fc15cc3f3b93-Abstract-Conference.html",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Relevant resource-constrained edge unlearning and proof-generation efficiency, but privacy/unlearning is a peripheral collection topic.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Static Analysis for Efficient Streaming Tokenization",
+      "venue": "ASPLOS 2026",
+      "topic": "tokenization; streaming preprocessing",
+      "arxiv": "",
+      "doi": "10.1145/3779212.3790227",
+      "official_id": "ASPLOS2026_3779212.3790227",
+      "paper_url": "https://doi.org/10.1145/3779212.3790227",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Efficient streaming tokenization is adjacent to NLP/LLM input processing, but the primary contribution is general lexer theory rather than ML serving.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving"
+      ]
+    },
+    {
+      "title": "DARTH-PUM: A Hybrid Processing-Using-Memory Architecture",
+      "venue": "ASPLOS 2026",
+      "topic": "processing-in-memory architecture",
+      "arxiv": "",
+      "doi": "10.1145/3779212.3790151",
+      "official_id": "ASPLOS2026_3779212.3790151",
+      "paper_url": "https://doi.org/10.1145/3779212.3790151",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Potentially relevant architecture work, but the DOI title does not establish a direct ML workload/efficiency result.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "A Programming Model for Disaggregated Memory over CXL",
+      "venue": "ASPLOS 2026",
+      "topic": "heterogeneous memory systems",
+      "arxiv": "",
+      "doi": "10.1145/3779212.3790121",
+      "official_id": "ASPLOS2026_3779212.3790121",
+      "paper_url": "https://doi.org/10.1145/3779212.3790121",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Adjacent to memory/heterogeneous systems, but not a direct ML training or inference optimization.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Evaluating Compiler Optimization Impacts on zkVM Performance",
+      "venue": "ASPLOS 2026",
+      "topic": "compiler optimization",
+      "arxiv": "",
+      "doi": "10.1145/3779212.3790159",
+      "official_id": "ASPLOS2026_3779212.3790159",
+      "paper_url": "https://doi.org/10.1145/3779212.3790159",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "General compiler/zkVM performance work is adjacent but not a direct ML compiler or accelerator result.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Optimizer-Friendly Instrumentation for Event Quantification with PRUE Algorithm",
+      "venue": "ASPLOS 2026",
+      "topic": "compiler instrumentation",
+      "arxiv": "",
+      "doi": "10.1145/3779212.3790196",
+      "official_id": "ASPLOS2026_3779212.3790196",
+      "paper_url": "https://doi.org/10.1145/3779212.3790196",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Compiler instrumentation is useful systems work but lacks a direct ML efficiency contribution.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Quantization",
+        "GPU Kernel / DSL / Compiler",
+        "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "Once4All: Skeleton-Guided SMT Solver Fuzzing with LLM-Synthesized Generators",
+      "venue": "ASPLOS 2026",
+      "topic": "LLM-assisted verification",
+      "arxiv": "",
+      "doi": "10.1145/3779212.3790195",
+      "official_id": "ASPLOS2026_3779212.3790195",
+      "paper_url": "https://doi.org/10.1145/3779212.3790195",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "LLM-assisted verification is adjacent AI tooling, not efficient ML training/inference.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "LAIKA: Machine Learning-Assisted In-Kernel APU Acceleration",
+      "venue": "ASPLOS 2026",
+      "topic": "ML-assisted accelerator optimization",
+      "arxiv": "",
+      "doi": "10.1145/3779212.3790181",
+      "official_id": "ASPLOS2026_3779212.3790181",
+      "paper_url": "https://doi.org/10.1145/3779212.3790181",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Potentially relevant accelerator design, but first-party title/metadata alone does not establish a direct ML workload efficiency result.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Understanding and Optimizing Database Pushdown on Disaggregated Storage",
+      "venue": "ASPLOS 2026",
+      "topic": "database/storage systems",
+      "arxiv": "",
+      "doi": "10.1145/3779212.3790243",
+      "official_id": "ASPLOS2026_3779212.3790243",
+      "paper_url": "https://doi.org/10.1145/3779212.3790243",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Database pushdown is general systems optimization rather than an ML workload result.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "cuJSON: A Highly Parallel JSON Parser for GPUs",
+      "venue": "ASPLOS 2026",
+      "topic": "GPU data processing",
+      "arxiv": "",
+      "doi": "10.1145/3760250.3762222",
+      "official_id": "ASPLOS2026_3760250.3762222",
+      "paper_url": "https://doi.org/10.1145/3760250.3762222",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "GPU JSON parsing may help preprocessing but is not a direct ML kernel, model, or serving contribution.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving",
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Performance Predictability in Heterogeneous Memory",
+      "venue": "ASPLOS 2026",
+      "topic": "heterogeneous memory",
+      "arxiv": "",
+      "doi": "10.1145/3779212.3790201",
+      "official_id": "ASPLOS2026_3779212.3790201",
+      "paper_url": "https://doi.org/10.1145/3779212.3790201",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "General memory performance predictability is adjacent but not ML-specific.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "PrioriFI: More Informed Fault Injection for Edge Neural Networks",
+      "venue": "ASPLOS 2026",
+      "topic": "edge neural networks; reliability",
+      "arxiv": "",
+      "doi": "10.1145/3779212.3790204",
+      "official_id": "ASPLOS2026_3779212.3790204",
+      "paper_url": "https://doi.org/10.1145/3779212.3790204",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Edge-ML fault injection is adjacent reliability research, not a direct efficiency/acceleration method.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "LPO: Discovering Missed Peephole Optimizations with Large Language Models",
+      "venue": "ASPLOS 2026",
+      "topic": "LLM-assisted compiler optimization",
+      "arxiv": "",
+      "doi": "10.1145/3779212.3790184",
+      "official_id": "ASPLOS2026_3779212.3790184",
+      "paper_url": "https://doi.org/10.1145/3779212.3790184",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "General compiler peephole discovery is relevant tooling, but not directly demonstrated for ML kernels/workloads in this source record.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "PACT: A Criticality-First Design for Tiered Memory",
+      "venue": "ASPLOS 2026",
+      "topic": "tiered memory systems",
+      "arxiv": "",
+      "doi": "10.1145/3779212.3790198",
+      "official_id": "ASPLOS2026_3779212.3790198",
+      "paper_url": "https://doi.org/10.1145/3779212.3790198",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "General memory-tiering work is adjacent but not ML-specific.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "PIPM: Partial and Incremental Page Migration for Multi-host CXL Disaggregated Shared Memory",
+      "venue": "ASPLOS 2026",
+      "topic": "CXL memory systems",
+      "arxiv": "",
+      "doi": "10.1145/3779212.3790203",
+      "official_id": "ASPLOS2026_3779212.3790203",
+      "paper_url": "https://doi.org/10.1145/3779212.3790203",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "General CXL page migration is adjacent heterogeneous-memory infrastructure, not a direct ML result.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "KV Cache / Long Context",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Efficient Remote Memory Ordering for Non-Coherent Systems",
+      "venue": "ASPLOS 2026",
+      "topic": "memory systems",
+      "arxiv": "",
+      "doi": "10.1145/3779212.3790156",
+      "official_id": "ASPLOS2026_3779212.3790156",
+      "paper_url": "https://doi.org/10.1145/3779212.3790156",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Remote memory ordering is general systems work, not a direct ML efficiency contribution.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "ICARUS: Criticality and Reuse based Instruction Caching for Datacenter Applications",
+      "venue": "ASPLOS 2026",
+      "topic": "datacenter architecture",
+      "arxiv": "",
+      "doi": "10.1145/3779212.3790175",
+      "official_id": "ASPLOS2026_3779212.3790175",
+      "paper_url": "https://doi.org/10.1145/3779212.3790175",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Instruction caching for datacenter applications is adjacent but not ML-specific.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "CounterPoint: Using Hardware Event Counters to Refute and Refine Microarchitectural Assumptions",
+      "venue": "ASPLOS 2026",
+      "topic": "hardware performance analysis",
+      "arxiv": "",
+      "doi": "10.1145/3779212.3790145",
+      "official_id": "ASPLOS2026_3779212.3790145",
+      "paper_url": "https://doi.org/10.1145/3779212.3790145",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Useful hardware performance analysis, but not a direct ML optimization; also not promoted solely due to award status.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Cheddar: A Swift Fully Homomorphic Encryption Library Designed for GPU Architectures",
+      "venue": "ASPLOS 2026",
+      "topic": "GPU; homomorphic encryption",
+      "arxiv": "",
+      "doi": "10.1145/3760250.3762223",
+      "official_id": "ASPLOS2026_3760250.3762223",
+      "paper_url": "https://doi.org/10.1145/3760250.3762223",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "GPU FHE library is adjacent secure computation, not a direct efficient ML method.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Parameterized Hardware Design with Latency-Abstract Interfaces",
+      "venue": "ASPLOS 2026",
+      "topic": "hardware design",
+      "arxiv": "",
+      "doi": "10.1145/3779212.3790199",
+      "official_id": "ASPLOS2026_3779212.3790199",
+      "paper_url": "https://doi.org/10.1145/3779212.3790199",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "General hardware design interfaces are not an ML workload contribution.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Finding Reusable Instructions via E-Graph Anti-Unification",
+      "venue": "ASPLOS 2026",
+      "topic": "compiler optimization",
+      "arxiv": "",
+      "doi": "10.1145/3779212.3790162",
+      "official_id": "ASPLOS2026_3779212.3790162",
+      "paper_url": "https://doi.org/10.1145/3779212.3790162",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "General instruction-reuse/compiler optimization is adjacent but not ML-specific.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "CREST: High-Performance Contention Resolution for Disaggregated Transactions",
+      "venue": "ASPLOS 2026",
+      "topic": "disaggregated systems",
+      "arxiv": "",
+      "doi": "10.1145/3779212.3790148",
+      "official_id": "ASPLOS2026_3779212.3790148",
+      "paper_url": "https://doi.org/10.1145/3779212.3790148",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Transaction contention optimization is general systems work.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "HEPIC: Private Inference over Homomorphic Encryption with Client Intervention",
+      "venue": "ASPLOS 2026",
+      "topic": "privacy-preserving inference",
+      "arxiv": "",
+      "doi": "10.1145/3779212.3790170",
+      "official_id": "ASPLOS2026_3779212.3790170",
+      "paper_url": "https://doi.org/10.1145/3779212.3790170",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Secure private inference is adjacent; retain metadata, but no core ML efficiency method is established by this title.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "ReliaFHE: Resilient Design for Fully Homomorphic Encryption Accelerators",
+      "venue": "ASPLOS 2026",
+      "topic": "FHE accelerator reliability",
+      "arxiv": "",
+      "doi": "10.1145/3779212.3790211",
+      "official_id": "ASPLOS2026_3779212.3790211",
+      "paper_url": "https://doi.org/10.1145/3779212.3790211",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "FHE accelerator reliability is adjacent secure hardware, not a core efficient ML result.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "<scp>Wax:</scp> Optimizing Data Center Applications With Stale Profile",
+      "venue": "ASPLOS 2026",
+      "topic": "datacenter profile-guided optimization",
+      "arxiv": "",
+      "doi": "10.1145/3779212.3790248",
+      "official_id": "ASPLOS2026_3779212.3790248",
+      "paper_url": "https://doi.org/10.1145/3779212.3790248",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "General datacenter application optimization is adjacent, not ML-specific.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "C <scp>xlalloc</scp> : Safe and Efficient Memory Allocation for a CXL Pod",
+      "venue": "ASPLOS 2026",
+      "topic": "CXL memory allocation",
+      "arxiv": "",
+      "doi": "10.1145/3779212.3790149",
+      "official_id": "ASPLOS2026_3779212.3790149",
+      "paper_url": "https://doi.org/10.1145/3779212.3790149",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "CXL allocator work is adjacent heterogeneous infrastructure rather than an ML workload result.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Enabling Fast Networking in the Public Cloud",
+      "venue": "ASPLOS 2026",
+      "topic": "cloud networking",
+      "arxiv": "",
+      "doi": "10.1145/3779212.3790158",
+      "official_id": "ASPLOS2026_3779212.3790158",
+      "paper_url": "https://doi.org/10.1145/3779212.3790158",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "General public-cloud networking is not a direct efficient ML contribution.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Chips Need DIP: Time-Proportional Per-Instruction Cycle Stacks at Dispatch",
+      "venue": "ASPLOS 2026",
+      "topic": "processor microarchitecture",
+      "arxiv": "",
+      "doi": "10.1145/3779212.3790139",
+      "official_id": "ASPLOS2026_3779212.3790139",
+      "paper_url": "https://doi.org/10.1145/3779212.3790139",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "General processor cycle-stack instrumentation is outside efficient ML.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "CoGraf: Fully Accelerating Graph Applications with Fine-Grained PIM",
+      "venue": "ASPLOS 2026",
+      "topic": "graph processing; PIM",
+      "arxiv": "",
+      "doi": "10.1145/3779212.3790142",
+      "official_id": "ASPLOS2026_3779212.3790142",
+      "paper_url": "https://doi.org/10.1145/3779212.3790142",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Graph/PIM acceleration is adjacent, but the official title does not establish a direct ML workload.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "A Data-Driven Dynamic Execution Orchestration Architecture",
+      "venue": "ASPLOS 2026",
+      "topic": "execution orchestration",
+      "arxiv": "",
+      "doi": "10.1145/3760250.3762226",
+      "official_id": "ASPLOS2026_3760250.3762226",
+      "paper_url": "https://doi.org/10.1145/3760250.3762226",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "General data-driven orchestration is adjacent but not ML-specific.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "RTeAAL Sim: Using Tensor Algebra to Represent and Accelerate RTL Simulation",
+      "venue": "ASPLOS 2026",
+      "topic": "hardware simulation acceleration",
+      "arxiv": "",
+      "doi": "10.1145/3779212.3790214",
+      "official_id": "ASPLOS2026_3779212.3790214",
+      "paper_url": "https://doi.org/10.1145/3779212.3790214",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "RTL simulation acceleration is useful architecture tooling but not a direct ML workload.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "SEVI: Silent Data Corruption of Vector Instructions in Hyper-Scale Datacenters",
+      "venue": "ASPLOS 2026",
+      "topic": "vector hardware reliability",
+      "arxiv": "",
+      "doi": "10.1145/3779212.3790217",
+      "official_id": "ASPLOS2026_3779212.3790217",
+      "paper_url": "https://doi.org/10.1145/3779212.3790217",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Vector instruction reliability is adjacent but not a direct ML performance/efficiency method.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Graphiti: Formally Verified Out-of-Order Execution in Dataflow Circuits",
+      "venue": "ASPLOS 2026",
+      "topic": "dataflow hardware verification",
+      "arxiv": "",
+      "doi": "10.1145/3779212.3790166",
+      "official_id": "ASPLOS2026_3779212.3790166",
+      "paper_url": "https://doi.org/10.1145/3779212.3790166",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Dataflow verification is adjacent hardware research, not a direct ML workload result.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Maverick: Rethinking TFHE Bootstrapping on GPUs via Algorithm-Hardware Co-Design",
+      "venue": "ASPLOS 2026",
+      "topic": "GPU; FHE accelerator",
+      "arxiv": "",
+      "doi": "10.1145/3779212.3790186",
+      "official_id": "ASPLOS2026_3779212.3790186",
+      "paper_url": "https://doi.org/10.1145/3779212.3790186",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "FHE bootstrapping is adjacent secure computation, not core efficient ML.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "CHEHAB RL: Learning to Optimize Fully Homomorphic Encryption Computations",
+      "venue": "ASPLOS 2026",
+      "topic": "FHE optimization",
+      "arxiv": "",
+      "doi": "10.1145/3779212.3790138",
+      "official_id": "ASPLOS2026_3779212.3790138",
+      "paper_url": "https://doi.org/10.1145/3779212.3790138",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "FHE computation optimization is outside the core efficient ML focus.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Skyler: Static Analysis for Predicting API-Driven Costs in Serverless Applications",
+      "venue": "ASPLOS 2026",
+      "topic": "serverless cost prediction",
+      "arxiv": "",
+      "doi": "10.1145/3779212.3790221",
+      "official_id": "ASPLOS2026_3779212.3790221",
+      "paper_url": "https://doi.org/10.1145/3779212.3790221",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "General serverless API cost prediction is not an ML workload optimization.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "An MLIR Lowering Pipeline for Stencils at Wafer-Scale",
+      "venue": "ASPLOS 2026",
+      "topic": "MLIR; wafer-scale compiler",
+      "arxiv": "",
+      "doi": "10.1145/3779212.3790124",
+      "official_id": "ASPLOS2026_3779212.3790124",
+      "paper_url": "https://doi.org/10.1145/3779212.3790124",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Stencil compiler work is adjacent compiler/accelerator research, but not directly an ML workload in the first-party metadata.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Anvil: A General-Purpose Timing-Safe Hardware Description Language",
+      "venue": "ASPLOS 2026",
+      "topic": "hardware description language",
+      "arxiv": "",
+      "doi": "10.1145/3779212.3790125",
+      "official_id": "ASPLOS2026_3779212.3790125",
+      "paper_url": "https://doi.org/10.1145/3779212.3790125",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "HDL language design is adjacent hardware tooling, not efficient ML.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "CacheMind: From Miss Rates to Why - Natural-Language, Trace-Grounded Reasoning for Cache Replacement",
+      "venue": "ASPLOS 2026",
+      "topic": "cache systems; LLM-assisted analysis",
+      "arxiv": "",
+      "doi": "10.1145/3779212.3790136",
+      "official_id": "ASPLOS2026_3779212.3790136",
+      "paper_url": "https://doi.org/10.1145/3779212.3790136",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Cache replacement analysis is general systems work, not a direct ML serving/accelerator contribution.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Neura: A Unified Framework for Hierarchical and Adaptive CGRAs",
+      "venue": "ASPLOS 2026",
+      "topic": "reconfigurable accelerator architecture",
+      "arxiv": "",
+      "doi": "10.1145/3779212.3790193",
+      "official_id": "ASPLOS2026_3779212.3790193",
+      "paper_url": "https://doi.org/10.1145/3779212.3790193",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "CGRA architecture is adjacent to accelerator research, but no direct ML workload/efficiency evidence is attached to this DOI record.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "CEMU: Enabling Full-System Emulation of Computational Storage Beyond Hardware Limits",
+      "venue": "ASPLOS 2026",
+      "topic": "computational storage",
+      "arxiv": "",
+      "doi": "10.1145/3779212.3790137",
+      "official_id": "ASPLOS2026_3779212.3790137",
+      "paper_url": "https://doi.org/10.1145/3779212.3790137",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Computational storage emulation is adjacent systems tooling, not direct ML.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "A Framework for Developing and Optimizing Fully Homomorphic Encryption Programs on GPUs",
+      "venue": "ASPLOS 2026",
+      "topic": "GPU; homomorphic encryption",
+      "arxiv": "",
+      "doi": "10.1145/3779212.3790120",
+      "official_id": "ASPLOS2026_3779212.3790120",
+      "paper_url": "https://doi.org/10.1145/3779212.3790120",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "GPU FHE programming is adjacent secure computation, not core efficient ML.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "vCXLGen: Automated Synthesis and Verification of CXL Bridges for Heterogeneous Architectures",
+      "venue": "ASPLOS 2026",
+      "topic": "CXL heterogeneous systems",
+      "arxiv": "",
+      "doi": "10.1145/3779212.3790245",
+      "official_id": "ASPLOS2026_3779212.3790245",
+      "paper_url": "https://doi.org/10.1145/3779212.3790245",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "CXL bridge synthesis is adjacent infrastructure, not a direct ML workload contribution.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "JOSer: Just-In-Time Object Serialization for Heavy Java Serialization Workloads",
+      "venue": "ASPLOS 2026",
+      "topic": "serialization systems",
+      "arxiv": "",
+      "doi": "10.1145/3779212.3790179",
+      "official_id": "ASPLOS2026_3779212.3790179",
+      "paper_url": "https://doi.org/10.1145/3779212.3790179",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Serialization optimization is general systems work, not efficient ML.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Hitchhike: Efficient Request Submission via Deferred Enforcement of Address Contiguity",
+      "venue": "ASPLOS 2026",
+      "topic": "I/O request submission",
+      "arxiv": "",
+      "doi": "10.1145/3779212.3790173",
+      "official_id": "ASPLOS2026_3779212.3790173",
+      "paper_url": "https://doi.org/10.1145/3779212.3790173",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Request-submission optimization is adjacent systems work, not a direct ML result.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "WorksetEnclave: Towards Optimizing Cold Starts in Confidential Serverless with Workset-Based Enclave Restore",
+      "venue": "ASPLOS 2026",
+      "topic": "confidential serverless",
+      "arxiv": "",
+      "doi": "10.1145/3779212.3790249",
+      "official_id": "ASPLOS2026_3779212.3790249",
+      "paper_url": "https://doi.org/10.1145/3779212.3790249",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Confidential serverless cold-start optimization is adjacent, not a direct ML workload contribution.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "LOOPRAG: Enhancing Loop Transformation Optimization with Retrieval-Augmented Large Language Models",
+      "venue": "ASPLOS 2026",
+      "topic": "LLM-assisted compiler optimization",
+      "arxiv": "",
+      "doi": "10.1145/3779212.3790183",
+      "official_id": "ASPLOS2026_3779212.3790183",
+      "paper_url": "https://doi.org/10.1145/3779212.3790183",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "LLM-assisted loop transformation is relevant tooling, but no direct ML kernel/workload result is established by the DOI title.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Asynchrony and GPUs: Bridging this Dichotomy for I/O with AGIO",
+      "venue": "ASPLOS 2026",
+      "topic": "GPU I/O systems",
+      "arxiv": "",
+      "doi": "10.1145/3779212.3790130",
+      "official_id": "ASPLOS2026_3779212.3790130",
+      "paper_url": "https://doi.org/10.1145/3779212.3790130",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "GPU I/O overlap is adjacent infrastructure, but not a direct ML workload result.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "CPU-Oblivious Offloading of Failure-Atomic Transactions for Disaggregated Memory",
+      "venue": "ASPLOS 2026",
+      "topic": "disaggregated memory systems",
+      "arxiv": "",
+      "doi": "10.1145/3779212.3790146",
+      "official_id": "ASPLOS2026_3779212.3790146",
+      "paper_url": "https://doi.org/10.1145/3779212.3790146",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Transaction offloading is adjacent heterogeneous infrastructure, not ML-specific.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "KV Cache / Long Context",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Compositional AI Beyond LLMs: System Implications of Neuro-Symbolic-Probabilistic Architectures",
+      "venue": "ASPLOS 2026",
+      "topic": "compositional AI systems",
+      "arxiv": "",
+      "doi": "10.1145/3760250.3762235",
+      "official_id": "ASPLOS2026_3760250.3762235",
+      "paper_url": "https://doi.org/10.1145/3760250.3762235",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "System implications overview is adjacent AI systems work, not a direct efficiency method.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "The Configuration Wall: Characterization and Elimination of Accelerator Configuration Overhead",
+      "venue": "ASPLOS 2026",
+      "topic": "accelerator compiler; configuration overhead",
+      "arxiv": "",
+      "doi": "10.1145/3760250.3762225",
+      "official_id": "ASPLOS2026_3760250.3762225",
+      "paper_url": "https://doi.org/10.1145/3760250.3762225",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "General accelerator configuration optimization is adjacent compiler/architecture work, but not tied to ML workloads in this official record.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "Falcon: Algorithm-Hardware Co-Design for Efficient Fully Homomorphic Encryption Accelerator",
+      "venue": "ASPLOS 2026",
+      "topic": "FHE accelerator",
+      "arxiv": "",
+      "doi": "10.1145/3779212.3790160",
+      "official_id": "ASPLOS2026_3779212.3790160",
+      "paper_url": "https://doi.org/10.1145/3779212.3790160",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Secure homomorphic encryption acceleration is adjacent, not a core efficient ML result.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Arancini: A Hybrid Binary Translator for Weak Memory Model Architectures",
+      "venue": "ASPLOS 2026",
+      "topic": "binary translation; CPU architecture",
+      "arxiv": "",
+      "doi": "10.1145/3779212.3790127",
+      "official_id": "ASPLOS2026_3779212.3790127",
+      "paper_url": "https://doi.org/10.1145/3779212.3790127",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "General binary translation is adjacent systems work, not direct ML.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Nemo: A Low-Write-Amplification Cache for Tiny Objects on Log-Structured Flash Devices",
+      "venue": "ASPLOS 2026",
+      "topic": "flash cache systems",
+      "arxiv": "",
+      "doi": "10.1145/3779212.3790191",
+      "official_id": "ASPLOS2026_3779212.3790191",
+      "paper_url": "https://doi.org/10.1145/3779212.3790191",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "General flash cache optimization is adjacent, not a direct ML workload contribution.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
         "Edge / Cloud / Heterogeneous AI"
       ]
     }

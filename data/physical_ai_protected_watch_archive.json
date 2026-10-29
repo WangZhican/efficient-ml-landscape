@@ -4083,6 +4083,29 @@
     ]
   },
   {
+    "title": "StructRL: Online Structured Reinforcement Learning for Long-Horizon Vision-Language-Action Tasks",
+    "venue": "arXiv 2026",
+    "topic": "physical,vla,reinforcement_learning",
+    "arxiv": "2609.36352",
+    "doi": "",
+    "official_id": "arXiv:2609.36352",
+    "paper_url": "https://arxiv.org/abs/2609.36352",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "High-value adjacent or protected-route work with meaningful efficiency/system implications; retain for deeper reading.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "StrucPhysVideo: Learning Physical Dynamics from Structured Captions and Robot Actions",
     "venue": "arXiv 2026",
     "topic": "physical_ai_world_model",
@@ -9357,6 +9380,27 @@
       "LLM Serving",
       "Sparsity / Pruning",
       "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "One from Infinity: Actualizing Futures from Pretrained World Models into Robot Actions",
+    "venue": "arXiv 2026",
+    "topic": "",
+    "arxiv": "2609.36413",
+    "doi": "",
+    "official_id": "arXiv:2609.36413",
+    "paper_url": "https://arxiv.org/abs/2609.36413",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
       "VLA / WAM / Physical AI"
     ]
   },

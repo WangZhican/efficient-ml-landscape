@@ -1,10 +1,10 @@
 # 04 · Quantization
 
-> **645 canonical papers** mapped here, plus a broader **644-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **647 canonical papers** mapped here, plus a broader **643-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 644 tracked
+## 🆕 Latest 30 Days · 643 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -564,7 +564,6 @@
 | **P0 · Strong** | **Replay the Curvature: Accurate and Scalable NVFP4 Quantization for Large Language Model Inference** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.36654) | — |
 | **P1 · Watch** | **BRIDGE: Bilevel Retrieval-Credit-Aware Agentic Reinforcement Learning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.36505) | — |
 | **P1 · Watch** | **Bits Under ZK-LLM: Evaluating Zero-Knowledge-Friendly Quantization for Verifiable Private LLM Inference** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.36437) | — |
-| **P2 · Relevant** | **Quantization Enables Private Dense Retrieval against Malicious Service Providers** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.36376) | — |
 | **P1 · Watch** | **YOCO: You Only Calibrate Once! Fast Mocap Calibration for Dexterous Teleoperation** | arXiv 2026 | llm_serving,gen,edge | [Link](https://arxiv.org/abs/2610.11657) | — |
 | **P1 · Watch** | **Where Do the Tokens Go? Understanding and Reducing Costs in LLM Agents for Vulnerability Discovery** | arXiv 2026 | llm_serving,gen,edge | [Link](https://arxiv.org/abs/2610.11602) | — |
 | **P1 · Watch** | **Vision-Language Agents Can Learn in Their Own Latent Worlds** | arXiv 2026 | multimodal,physical | [Link](https://arxiv.org/abs/2610.36925) | — |
@@ -653,7 +652,7 @@
 | **P1 · Watch** | **A Geometric Decision Procedure for STL Feasibility and Repair** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.00199) | — |
 | **P2 · Relevant** | **A Fine-Grained Analysis of the LoRA Fine-Tuning Landscape with Implications for Data Selection** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2610.06542) | — |
 
-## 🏛️ Classical / Historical · 478 canonical
+## 🏛️ Classical / Historical · 480 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -881,6 +880,7 @@
 | **Canonical** | **Recti-Q: Feature-Space Rectification for Out-of-Distribution-Robust Quantized Perception in Edge Robotics** | arXiv 26 | robot_cache | [Link](https://arxiv.org/abs/2607.18540) | — |
 | **Canonical** | **SemanticDialect: Semantic-Aware Mixed-Format Quantization for Video Diffusion Transformers** | arXiv 26 | video_diffusion_quantization | [Link](https://arxiv.org/abs/2603.02883) | — |
 | **Canonical** | **TASQ: Temporal-Adaptive Bit Sparsification Quantization for Diffusion Models** | arXiv 26 | diffusion_quantization_accelerator | [Link](https://arxiv.org/abs/2608.03057) | — |
+| **Canonical** | **M <sup>2</sup> XFP: A Metadata-Augmented Microscaling Data Format for Efficient Low-bit Quantization** | ASPLOS 2026 | LLM quantization; algorithm-hardware co-design | [Link](https://arxiv.org/abs/2601.19213) | — |
 | **Canonical** | **Mugi: Value Level Parallelism For Efficient LLMs** | ASPLOS 2026 | LLM accelerator / value-level parallelism / low precision | [Link](https://arxiv.org/abs/2601.10823) | — |
 | **Canonical** | **SNIP: An Adaptive Mixed Precision Framework for Subbyte Large Language Model Training** | ASPLOS 2026 | LLM training / adaptive mixed precision / subbyte quantization | [Link](https://arxiv.org/abs/2602.01410) | — |
 | **Canonical** | **KVSink: Understanding and Enhancing the Preservation of Attention Sinks in KV Cache Quantization for LLMs** | COLM 2025 | KV cache quantization / attention sinks | [Link](https://arxiv.org/abs/2508.04257) | — |
@@ -1099,6 +1099,7 @@
 | **Canonical** | **FlexPosit: Tunable Fractional Precision for LLM Inference Accelerators** | MICRO 2026 | quantization / LLM accelerator / bit-serial architecture | [Link](https://arxiv.org/abs/2609.04724) | — |
 | **Canonical** | **HBQ: Hierarchical Scaling Block Quantization with Hardware-Efficiency-Aware Design for Accurate LLM Inference** | MICRO 2026 | quantization / hardware accelerator / KV cache | [Link](https://arxiv.org/abs/2609.00450) | — |
 | **Canonical** | **ExecuTorch - A Unified PyTorch Solution to Run ML Models On-Device** | MLSys 2026 | edge AI systems / heterogeneous runtime / on-device inference | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/236f915dd02af4f11927f67330b21d4b-Abstract-Conference.html) | — |
+| **Canonical** | **FP8-Flow-MoE: A Casting-Free FP8 Recipe without Double Quantization Error** | MLSys 2026 | MoE training; FP8 quantization | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/9cb295d4dce6db99f01e0dd512e46ba0-Abstract-Conference.html) | [Repo](https://github.com/021ai/FP8-FLOW-MOE-AE) |
 | **Canonical** | **IntAttention: A Fully Integer Attention Pipeline for Efficient Edge Inference** | MLSys 2026 | edge inference / integer attention | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/file/ea5ffdf7da91256ecd2770f9fd2dade9-Paper-Conference.pdf) | — |
 | **Canonical** | **Kitty: Accurate and Efficient 2-bit KV Cache Quantization with Dynamic Channel-wise Precision Boost** | MLSys 2026 | KV cache quantization / low-bit inference | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/file/e4d8d1b5120be349d3fff8878650cf45-Paper-Conference.pdf) | — |
 | **Canonical** | **MixLLM: LLM Quantization with Global Mixed-precision between Output-features and Highly-efficient System Design** | MLSys 2026 | quantization / LLM inference / GPU kernels | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/a66caa1703fe34705a4368c3014c1966-Abstract-Conference.html) | [Repo](https://github.com/microsoft/MixLLM) |

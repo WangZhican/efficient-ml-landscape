@@ -1,6 +1,6 @@
 # 11 · Video / Image Generation
 
-> **439 canonical papers** mapped here, plus a broader **207-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **444 canonical papers** mapped here, plus a broader **207-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -27,6 +27,7 @@
 | **P1 · Watch** | **ImageRSI: Verification-Driven Recursive Self-Improvement for Agentic Image Generation** | arXiv 2026 | llm_systems | [Link](https://arxiv.org/abs/2610.32120) | — |
 | **P2 · Relevant** | **Concept Acupuncturist: An Efficient and Precise Concept Erasure Method for Diffusion Models via Sparse Autoencoders** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.32059) | — |
 | **P2 · Relevant** | **PhysTrace: Interpretable Temporal Evaluation of Physical Consistency in Video Generative Models** | arXiv 2026 | multimodal,physical | [Link](https://arxiv.org/abs/2610.31429) | — |
+| **P2 · Relevant** | **Making MLLM Latents Matter: Factor-Aware Predictive Learning for Cinematic Video Generation** | arXiv 2026 | video_generation | [Link](https://arxiv.org/abs/2610.30926) | — |
 | **P1 · Watch** | **Direct Forcing: A Single-Stage Training Recipe for Few-Step Autoregressive Text-to-Video Generation** | arXiv 2026 | llm_serving,gen | [Link](https://arxiv.org/abs/2610.30861) | — |
 | **P2 · Relevant** | **SplatLab: Autonomous Scientific Discovery for 3DGS Research** | arXiv 2026 | efficient_agent_systems_adjacent | [Link](https://arxiv.org/abs/2610.30468) | — |
 | **P0 · Strong** | **Attn-Forcing: Learning Full-Context Attention Proxies for Streaming Video Generation** | arXiv 2026 | attention,gen,kv | [Link](https://arxiv.org/abs/2610.30036) | — |
@@ -164,7 +165,6 @@
 | **P2 · Relevant** | **Rollout-Marginal Distillation for Long-Horizon Autoregressive Video Generation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.37925) | — |
 | **P1 · Watch** | **Complementary Retrieval-Augmented Prompting for Consistent Long-Form Video Generation** | arXiv 2026 | video_image_generation | [Link](https://arxiv.org/abs/2609.37407) | — |
 | **P0 · Strong** | **Parameterized Stripe Attention for Efficient Video Generation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.37001) | — |
-| **P1 · Watch** | **Compress to Remember: Learning Compact Memory via On-Policy Distillation for Long Video Generation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.36364) | — |
 | **P2 · Relevant** | **YUBI-Real2Sim: 3DGS Scene Verification for Reliable Policy Evaluation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17521) | — |
 | **P2 · Relevant** | **VINCIE-NExT: Unlocking Video Editing from Images via In-Context Modeling** | arXiv 2026 | video/image generation acceleration | [Link](https://arxiv.org/abs/2610.12104) | — |
 | **P2 · Relevant** | **VIEScore2: Unified Image Evaluation with Spatially Grounded Explanations** | arXiv 2026 | video/image generation acceleration | [Link](https://arxiv.org/abs/2610.00994) | — |
@@ -216,7 +216,7 @@
 | **P2 · Relevant** | **A Spatiotemporal Semantic Importance-Guided Unified Compression and Editing Framework for AI-Generated Videos** | arXiv 2026 | video/image generation acceleration | [Link](https://arxiv.org/abs/2610.05779) | — |
 | **P2 · Relevant** | **A differentiable Lagrangian-coupled 3D Gaussian Splatting-SPH model for forward simulation and inverse analysis in solid mechanics** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.04336) | — |
 
-## 🏛️ Classical / Historical · 388 canonical
+## 🏛️ Classical / Historical · 393 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -329,8 +329,12 @@
 | **Canonical** | **Sol Video Inference Engine: Agent-Native Full-Stack Acceleration Framework for Efficient Video Generation** | arXiv 26 | video/image generation acceleration | [Link](https://arxiv.org/abs/2606.23743) | — |
 | **Canonical** | **Where to Refine, When to Stop: Rethinking Redundancy via Latent Discrepancy for Efficient Visual Autoregressive Generation** | arXiv 26 | Video/image generation acceleration | [Link](https://arxiv.org/abs/2606.00310) | — |
 | **Canonical** | **ZEUS: Accelerating Diffusion Models with Only Second-Order Predictor** | arXiv 26 | diffusion_flow_acceleration | [Link](https://arxiv.org/abs/2604.01552) | — |
+| **Canonical** | **AGS: <u>A</u> ccelerating 3D <u>G</u> aussian Splatting <u>S</u> LAM via CODEC-Assisted Frame Covisibility Detection** | ASPLOS 2026 | 3DGS-SLAM; algorithm-hardware co-design | [Link](https://arxiv.org/abs/2509.00433) | — |
+| **Canonical** | **CLM: Removing the GPU Memory Barrier for 3D Gaussian Splatting** | ASPLOS 2026 | 3DGS training; CPU/GPU memory offloading | [Link](https://arxiv.org/abs/2511.04951) | — |
+| **Canonical** | **GS-Scale: Unlocking Large-Scale 3D Gaussian Splatting Training via Host Offloading** | ASPLOS 2026 | 3DGS training; GPU memory offloading | [Link](https://arxiv.org/abs/2509.15645) | — |
 | **Canonical** | **MoDM: Efficient Serving for Image Generation via Mixture-of-Diffusion Models** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://arxiv.org/abs/2503.11972) | — |
 | **Canonical** | **Nebula: Enable City-Scale 3D Gaussian Splatting in Virtual Reality via Collaborative Rendering and Accelerated Stereo Rasterization** | ASPLOS 2026 | Edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2512.20495) | [Repo](https://github.com/SJTU-MVCLab/Nebula) |
+| **Canonical** | **Neo: Real-Time On-Device 3D Gaussian Splatting with Reuse-and-Update Sorting Acceleration** | ASPLOS 2026 | 3DGS; edge GPU/ASIC accelerator | [Link](https://arxiv.org/abs/2511.12930) | — |
 | **Canonical** | **Event3DGS: Event-Based 3D Gaussian Splatting for High-Speed Robot Egomotion** | CoRL 2024 | VLA/WAM/Physical AI efficiency | [Link](https://proceedings.mlr.press/v270/xiong25b.html) | — |
 | **Canonical** | **Extracting Visual Plans from Unlabeled Videos via Symbolic Guidance** | CoRL 2025 | VLA/WAM/Physical AI efficiency | [Link](https://proceedings.mlr.press/v305/yang25c.html) | — |
 | **Canonical** | **DSAQuant: Denoising-Stage-Aligned Quantization-Aware Training for Video Generation** | CoRR 2026 | quantization / video generation acceleration / diffusion inference | [Link](https://arxiv.org/abs/2609.04031) | [Repo](https://github.com/robbyant-research/DSAQuant) |
@@ -596,6 +600,7 @@
 | **Canonical** | **CODA: Algorithm-Hardware Co-design for Edge Video Diffusion via NMP-Enabled Compute-Cache Operator Disaggregation** | MICRO 2026 | video/image generation acceleration; diffusion/flow acceleration; edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2607.14908) | — |
 | **Canonical** | **Kaleido: Algorithm-Hardware Co-Design for Video Diffusion Transformers by Exploiting Latent Space Correlations** | MICRO 2026 | video/image generation acceleration; diffusion/flow acceleration; efficient attention; edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2607.13770) | — |
 | **Canonical** | **db-SP: Accelerating Sparse Attention for Visual Generative Models with Dual-Balanced Sequence Parallelism** | MLSys 2026 | video/image generation acceleration / sparse attention / sequence parallelism | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/db988b089d8d97d0f159c15ed0be6a71-Abstract-Conference.html) | — |
+| **Canonical** | **SwiftGS: Algorithm and System Co-Optimization for Fast 3D Gaussian Splatting on GPUs** | MLSys 2026 | 3DGS; GPU algorithm/system co-optimization | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/5f96a21345c138da929e99871fda138e-Abstract-Conference.html) | — |
 | **Canonical** | **Self Forcing: Bridging the Train-Test Gap in Autoregressive Video Diffusion** | NeurIPS 2025 | autoregressive video diffusion / streaming generation | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/f4823f831af67a3ef15e41a85434422a-Abstract-Conference.html) | — |
 | **Canonical** | **VORTA: Efficient Video Diffusion via Routing Sparse Attention** | NeurIPS 2025 | video/image generation acceleration / efficient attention / diffusion | [Link](https://arxiv.org/abs/2505.18809) | [Repo](https://github.com/wenhao728/VORTA) |
 | **Canonical** | **Unified Video Action Model** | RSS 2025 | Physical AI / efficient world-action model inference | [Link](https://doi.org/10.15607/RSS.2025.XXI.074) | — |

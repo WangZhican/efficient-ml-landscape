@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-10-29",
   "window_start_beijing": "2026-09-29",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 5545,
+  "tracked_total": 5532,
   "p0_strong_or_canonical": [
     {
       "title": "Honeycomb-Surfels: Compact Hexagonal Primitives for Efficient Scene Rendering and Reconstruction",
@@ -20144,180 +20144,6 @@
       ]
     },
     {
-      "title": "Reward-rate Policy Gradient for Efficient Machine Learning Engineering Agents",
-      "venue": "arXiv 2026",
-      "topic": "efficient_reasoning,agent_systems,rl",
-      "arxiv": "2609.36393",
-      "doi": "",
-      "official_id": "arXiv:2609.36393",
-      "paper_url": "https://arxiv.org/abs/2609.36393",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "physical_ai": false,
-      "decision": "PROMOTE_STRONG",
-      "why": "Directly advances a core Efficient-ML/serving/Physical-AI efficiency route with a concrete mechanism and strong system or deployment signal in first-party metadata.",
-      "published_at": "2026-09-28T23:46:08Z",
-      "updated_at": "2026-09-28T23:46:08Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "Efficient Reasoning / Agents"
-      ]
-    },
-    {
-      "title": "OTT3R: Multi-View 3D Reconstruction and Fast Dataset Generation at 1% Compute",
-      "venue": "arXiv 2026",
-      "topic": "edge,multimodal,distillation",
-      "arxiv": "2609.36374",
-      "doi": "",
-      "official_id": "arXiv:2609.36374",
-      "paper_url": "https://arxiv.org/abs/2609.36374",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "physical_ai": false,
-      "decision": "PROMOTE_STRONG",
-      "why": "Directly advances a core Efficient-ML/serving/Physical-AI efficiency route with a concrete mechanism and strong system or deployment signal in first-party metadata.",
-      "published_at": "2026-09-28T23:05:19Z",
-      "updated_at": "2026-09-28T23:05:19Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "Multimodal / MLLM Serving",
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "LatentSift: Policy-State Filtering for Token-Efficient Verification of Software Engineering Agents",
-      "venue": "arXiv 2026",
-      "topic": "efficient_reasoning_agent",
-      "arxiv": "2609.36371",
-      "doi": "",
-      "official_id": "arXiv:2609.36371",
-      "paper_url": "https://arxiv.org/abs/2609.36371",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "physical_ai": false,
-      "decision": "PROMOTE_STRONG",
-      "why": "",
-      "published_at": "2026-09-28T23:03:25Z",
-      "updated_at": "2026-09-28T23:03:25Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "Efficient Reasoning / Agents"
-      ]
-    },
-    {
-      "title": "EdgeDAE: Acceleration of Diffusion Action Experts for Real-Time Physical AI with Tiny VLAs on Edge FPGA-GPU Systems",
-      "venue": "arXiv 2026",
-      "topic": "physical_ai",
-      "arxiv": "2610.00311",
-      "doi": "",
-      "official_id": "arXiv:2610.00311",
-      "paper_url": "https://arxiv.org/abs/2610.00311",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "physical_ai": true,
-      "decision": "PROMOTE_STRONG",
-      "why": "Direct, technically substantive Efficient-ML/AI-infrastructure contribution with strong novelty and deployment/efficiency signal in the official arXiv metadata/abstract.",
-      "published_at": "2026-09-28T22:48:38Z",
-      "updated_at": "2026-09-28T22:48:38Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "GPU Kernel / DSL / Compiler",
-        "Diffusion / Flow Acceleration",
-        "VLA / WAM / Physical AI",
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "Periodic Weak Spots: Phase Sensitivity from Chunked KV-Cache Compression",
-      "venue": "arXiv 2026",
-      "topic": "",
-      "arxiv": "2609.36322",
-      "doi": "",
-      "official_id": "arXiv:2609.36322",
-      "paper_url": "https://arxiv.org/abs/2609.36322",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "physical_ai": false,
-      "decision": "PROMOTE_STRONG",
-      "why": "",
-      "published_at": "2026-09-28T21:54:14Z",
-      "updated_at": "2026-09-28T21:54:14Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "KV Cache / Long Context"
-      ]
-    },
-    {
-      "title": "MoRE: Scaling mixture of experts with hardware-aware low-rank routing",
-      "venue": "arXiv 2026",
-      "topic": "",
-      "arxiv": "2609.36301",
-      "doi": "",
-      "official_id": "arXiv:2609.36301",
-      "paper_url": "https://arxiv.org/abs/2609.36301",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "physical_ai": false,
-      "decision": "PROMOTE_STRONG",
-      "why": "",
-      "published_at": "2026-09-28T21:37:17Z",
-      "updated_at": "2026-09-28T21:37:17Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "MoE Systems / Accelerators"
-      ]
-    },
-    {
-      "title": "CyFA: Linear Sequence Modeling with Relative-Time-Partitioned Memory",
-      "venue": "arXiv 2026",
-      "topic": "efficient attention",
-      "arxiv": "2609.36259",
-      "doi": "",
-      "official_id": "arXiv:2609.36259",
-      "paper_url": "https://arxiv.org/abs/2609.36259",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "physical_ai": false,
-      "decision": "PROMOTE_STRONG",
-      "why": "CyFA 线性 RNN 相对时间分区记忆可 chunk-wise 训练，400M 实验 core forward/backward 时间仅 KDA 46.7%/48.3%，兼具效率和 recall。",
-      "published_at": "2026-09-28T20:47:43Z",
-      "updated_at": "2026-09-28T20:47:43Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "Efficient Attention"
-      ]
-    },
-    {
-      "title": "BASE: Batch-Aware Selection of Experts Using Predicted Removal Error for Efficient MoE Decoding",
-      "venue": "arXiv 2026",
-      "topic": "",
-      "arxiv": "2609.36222",
-      "doi": "",
-      "official_id": "arXiv:2609.36222",
-      "paper_url": "https://arxiv.org/abs/2609.36222",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "physical_ai": false,
-      "decision": "PROMOTE_STRONG",
-      "why": "",
-      "published_at": "2026-09-28T20:20:13Z",
-      "updated_at": "2026-09-28T20:20:13Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "MoE Systems / Accelerators"
-      ]
-    },
-    {
       "title": "Zetta: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence",
       "venue": "",
       "topic": "Physical AI / embodied runtime",
@@ -22039,6 +21865,30 @@
       "tracking_tier": "P0 · Strong",
       "directions": [
         "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "EdgeDAE: Acceleration of Diffusion Action Experts for Real-Time Physical AI with Tiny VLAs on Edge FPGA-GPU Systems",
+      "venue": "arXiv 2026",
+      "topic": "physical_ai",
+      "arxiv": "2610.00311",
+      "doi": "",
+      "official_id": "arXiv:2610.00311",
+      "paper_url": "https://arxiv.org/abs/2610.00311",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "physical_ai": true,
+      "decision": "PROMOTE_STRONG",
+      "why": "Direct, technically substantive Efficient-ML/AI-infrastructure contribution with strong novelty and deployment/efficiency signal in the official arXiv metadata/abstract.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Diffusion / Flow Acceleration",
+        "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -26553,6 +26403,28 @@
       "directions": [
         "LLM Serving",
         "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "F2G-Pose: Geometry-Aware Foundation Feature Lifting for Direct RGB-D Category-Level Object Pose Estimation",
+      "venue": "arXiv 2026",
+      "topic": "physical_ai_pose_inference",
+      "arxiv": "2610.31623",
+      "doi": "",
+      "official_id": "arXiv:2610.31623",
+      "paper_url": "https://arxiv.org/abs/2610.31623",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": true,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct single-pass RGB-D pose model reports 28 FPS, lower-latency alternative to diffusion pose pipelines, and real-world manipulation transfer; retain for Physical-AI inference review.",
+      "published_at": "2026-10-22T17:43:34Z",
+      "updated_at": "2026-10-22T17:43:34Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Diffusion / Flow Acceleration",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -50142,197 +50014,6 @@
       ]
     },
     {
-      "title": "One from Infinity: Actualizing Futures from Pretrained World Models into Robot Actions",
-      "venue": "arXiv 2026",
-      "topic": "",
-      "arxiv": "2609.36413",
-      "doi": "",
-      "official_id": "arXiv:2609.36413",
-      "paper_url": "https://arxiv.org/abs/2609.36413",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "physical_ai": false,
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "",
-      "published_at": "2026-09-29T00:05:24Z",
-      "updated_at": "2026-10-03T03:56:31Z",
-      "is_latest_30d": true,
-      "directions": [
-        "VLA / WAM / Physical AI"
-      ]
-    },
-    {
-      "title": "Compress to Remember: Learning Compact Memory via On-Policy Distillation for Long Video Generation",
-      "venue": "arXiv 2026",
-      "topic": "",
-      "arxiv": "2609.36364",
-      "doi": "",
-      "official_id": "arXiv:2609.36364",
-      "paper_url": "https://arxiv.org/abs/2609.36364",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "physical_ai": false,
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "PACC learns compact reusable memory tokens for long-video generation by distilling full-history conditioning into compressed history while keeping the generator frozen; directly relevant to video-generation context/memory efficiency, but the abstract reports memory-quality gains rather than explicit latency/FLOP/memory-reduction numbers.",
-      "published_at": "2026-09-28T22:52:57Z",
-      "updated_at": "2026-09-28T22:52:57Z",
-      "is_latest_30d": true,
-      "directions": [
-        "Video / Image Generation"
-      ]
-    },
-    {
-      "title": "Strategies for Deploying AI Agents in Production at Scientific User Facilities",
-      "venue": "arXiv 2026",
-      "topic": "agent_systems,production_infra",
-      "arxiv": "2609.36362",
-      "doi": "",
-      "official_id": "arXiv:2609.36362",
-      "paper_url": "https://arxiv.org/abs/2609.36362",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "physical_ai": false,
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "High-value adjacent or protected-route work with meaningful efficiency/system implications; retain for deeper reading.",
-      "published_at": "2026-09-28T22:49:50Z",
-      "updated_at": "2026-09-28T22:49:50Z",
-      "is_latest_30d": true,
-      "directions": [
-        "Efficient Reasoning / Agents"
-      ]
-    },
-    {
-      "title": "Better Nearest Neighbor Graph Indices via (Efficient) LLM-Guided Pruning",
-      "venue": "arXiv 2026",
-      "topic": "retrieval,efficient_search",
-      "arxiv": "2609.36359",
-      "doi": "",
-      "official_id": "arXiv:2609.36359",
-      "paper_url": "https://arxiv.org/abs/2609.36359",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "physical_ai": false,
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "High-value adjacent or protected-route work with meaningful efficiency/system implications; retain for deeper reading.",
-      "published_at": "2026-09-28T22:47:05Z",
-      "updated_at": "2026-09-28T22:47:05Z",
-      "is_latest_30d": true,
-      "directions": [
-        "Sparsity / Pruning"
-      ]
-    },
-    {
-      "title": "HyperZip: Efficient Data Compression through Personalized Diffusion LLMs with Hypernetworks",
-      "venue": "arXiv 2026",
-      "topic": "",
-      "arxiv": "2609.36357",
-      "doi": "",
-      "official_id": "arXiv:2609.36357",
-      "paper_url": "https://arxiv.org/abs/2609.36357",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "physical_ai": false,
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "",
-      "published_at": "2026-09-28T22:44:55Z",
-      "updated_at": "2026-09-28T22:44:55Z",
-      "is_latest_30d": true,
-      "directions": [
-        "Diffusion / Flow Acceleration"
-      ]
-    },
-    {
-      "title": "StructRL: Online Structured Reinforcement Learning for Long-Horizon Vision-Language-Action Tasks",
-      "venue": "arXiv 2026",
-      "topic": "physical,vla,reinforcement_learning",
-      "arxiv": "2609.36352",
-      "doi": "",
-      "official_id": "arXiv:2609.36352",
-      "paper_url": "https://arxiv.org/abs/2609.36352",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "physical_ai": true,
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "High-value adjacent or protected-route work with meaningful efficiency/system implications; retain for deeper reading.",
-      "published_at": "2026-09-28T22:34:43Z",
-      "updated_at": "2026-09-28T22:34:43Z",
-      "is_latest_30d": true,
-      "directions": [
-        "Multimodal / MLLM Serving",
-        "Efficient Reasoning / Agents",
-        "VLA / WAM / Physical AI"
-      ]
-    },
-    {
-      "title": "Fractional State Space Transition for Long Sequence Modeling",
-      "venue": "arXiv 2026",
-      "topic": "",
-      "arxiv": "2609.36314",
-      "doi": "",
-      "official_id": "arXiv:2609.36314",
-      "paper_url": "https://arxiv.org/abs/2609.36314",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "physical_ai": false,
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "Long-sequence state-space modeling is efficiency-adjacent; retain for recurrent/linear-time sequence architecture tracking.",
-      "published_at": "2026-09-28T21:48:14Z",
-      "updated_at": "2026-09-28T21:48:14Z",
-      "is_latest_30d": true,
-      "directions": [
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "Bilinear World Models: Learning Representations with Structured Dynamics for Efficient Control",
-      "venue": "arXiv 2026",
-      "topic": "",
-      "arxiv": "2609.36305",
-      "doi": "",
-      "official_id": "arXiv:2609.36305",
-      "paper_url": "https://arxiv.org/abs/2609.36305",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "physical_ai": false,
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "",
-      "published_at": "2026-09-28T21:39:06Z",
-      "updated_at": "2026-09-28T21:39:06Z",
-      "is_latest_30d": true,
-      "directions": [
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "How Much Prompt Is Enough? A Blackbox Minimization of Few-Shots in LLMs",
-      "venue": "arXiv 2026",
-      "topic": "",
-      "arxiv": "2609.36289",
-      "doi": "",
-      "official_id": "arXiv:2609.36289",
-      "paper_url": "https://arxiv.org/abs/2609.36289",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "physical_ai": false,
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "Prompt compression framework removes a mean 65.3% of few-shot prompt characters while preserving propositional fidelity; useful context/token-efficiency evidence.",
-      "published_at": "2026-09-28T21:18:38Z",
-      "updated_at": "2026-09-28T21:18:38Z",
-      "is_latest_30d": true,
-      "directions": [
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
       "title": "YOCO: You Only Calibrate Once! Fast Mocap Calibration for Dexterous Teleoperation",
       "venue": "arXiv 2026",
       "topic": "llm_serving,gen,edge",
@@ -54576,6 +54257,27 @@
       ]
     },
     {
+      "title": "Compote: Collapse-Resistant Multiple Hypothesis Learning For Sequential Recommendation",
+      "venue": "arXiv 2026",
+      "topic": "efficient_recommender_inference",
+      "arxiv": "2610.37005",
+      "doi": "",
+      "official_id": "arXiv:2610.37005",
+      "paper_url": "https://arxiv.org/abs/2610.37005",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Multi-hypothesis transformer for sequential recommendation uses normalizer-free max-similarity inference; algorithmic efficiency signal without system-level measurements.",
+      "published_at": "2026-10-27T10:50:08Z",
+      "updated_at": "2026-10-27T10:50:08Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Online gas classification at the edge",
       "venue": "arXiv 2026",
       "topic": "quant",
@@ -57029,6 +56731,27 @@
       ]
     },
     {
+      "title": "Accuracy Is Not Enough: An Efficiency- and Statistics-Aware Benchmark of ResNet50 and Vision Transformer for Explainable Multi-Class Gastrointestinal Diseases Classification",
+      "venue": "arXiv 2026",
+      "topic": "model_efficiency_benchmark",
+      "arxiv": "2610.33965",
+      "doi": "",
+      "official_id": "arXiv:2610.33965",
+      "paper_url": "https://arxiv.org/abs/2610.33965",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Controlled ResNet/ViT benchmark explicitly evaluates efficiency and statistics; useful low-priority model-efficiency evidence, not a new accelerator.",
+      "published_at": "2026-10-25T00:39:12Z",
+      "updated_at": "2026-10-25T00:39:12Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "FastSAR: High-Throughput, High-Fidelity Open-Source SAR Image Formation on CPUs, GPUs and TPUs",
       "venue": "arXiv 2026",
       "topic": "Heterogeneous AI systems",
@@ -57159,6 +56882,29 @@
       ]
     },
     {
+      "title": "EEGBiFormer: Real-Time EEG Attention Classification via Hybrid CNN-Transformer with EEG-Informed Auditory Protocol Validation",
+      "venue": "arXiv 2026",
+      "topic": "edge_inference",
+      "arxiv": "2610.33832",
+      "doi": "",
+      "official_id": "arXiv:2610.33832",
+      "paper_url": "https://arxiv.org/abs/2610.33832",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Measured sub-100ms real-time EEG classification on a custom acquisition pipeline; application-specific, without a new inference/serving optimization.",
+      "published_at": "2026-10-24T18:10:46Z",
+      "updated_at": "2026-10-24T18:10:46Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Attention",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "RoboWorM: Evaluating Movement Realism, Consistency and Acceleration Affects in Embodied Video World Models",
       "venue": "arXiv 2026",
       "topic": "Physical AI",
@@ -57265,6 +57011,29 @@
       ]
     },
     {
+      "title": "RoboJev: An Open Vision-Language Judge for Robot Success Detection",
+      "venue": "arXiv 2026",
+      "topic": "physical_ai_vlm_inference",
+      "arxiv": "2610.33718",
+      "doi": "",
+      "official_id": "arXiv:2610.33718",
+      "paper_url": "https://arxiv.org/abs/2610.33718",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Open VLM robot-success judge reports 0.26s/episode on H100 and cross-robot/lab generalization; relevant Physical-AI inference, but not a serving optimization.",
+      "published_at": "2026-10-24T15:06:27Z",
+      "updated_at": "2026-10-24T15:06:27Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Seeing the Options: Typed Decisions over Visual Candidates with Reusable Option Memory",
       "venue": "arXiv 2026",
       "topic": "Efficient agents",
@@ -57329,6 +57098,27 @@
       ]
     },
     {
+      "title": "Beyond Affine Reconstruction: Multi-Resolution Transformer DeepONets for the Radiative Transfer Equation",
+      "venue": "arXiv 2026",
+      "topic": "neural_operator",
+      "arxiv": "2610.33668",
+      "doi": "",
+      "official_id": "arXiv:2610.33668",
+      "paper_url": "https://arxiv.org/abs/2610.33668",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Multi-resolution neural-operator architecture uses fewer parameters and avoids input resampling; scientific-ML efficiency adjacency, not deployment systems.",
+      "published_at": "2026-10-24T13:32:36Z",
+      "updated_at": "2026-10-24T13:32:36Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Power-of-Two Leaky Integrate-and-Fire Neurons for Event-Driven Vision-Language-Action Inference",
       "venue": "arXiv 2026",
       "topic": "Physical AI",
@@ -57370,6 +57160,27 @@
       "directions": [
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Build or Adopt? Custom-Built vs. General-Purpose LLM Agent Harnesses for Automotive GUI Testing",
+      "venue": "arXiv 2026",
+      "topic": "agent_harness_systems",
+      "arxiv": "2610.33636",
+      "doi": "",
+      "official_id": "arXiv:2610.33636",
+      "paper_url": "https://arxiv.org/abs/2610.33636",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Empirical custom-vs-general agent harness comparison reports 2.6–10.7x inference cost differences and total engineering-cost trade-offs; useful agent-system economics, not a new runtime method.",
+      "published_at": "2026-10-24T12:32:16Z",
+      "updated_at": "2026-10-24T12:32:16Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -59007,6 +58818,27 @@
       ]
     },
     {
+      "title": "Machine-Readable Operator Manuals over the ISO 11783 Network for Offline, Multilingual LLM Assistance",
+      "venue": "arXiv 2026",
+      "topic": "edge_llm_inference",
+      "arxiv": "2610.31863",
+      "doi": "",
+      "official_id": "arXiv:2610.31863",
+      "paper_url": "https://arxiv.org/abs/2610.31863",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Offline multilingual LLM assistance over machinery manuals is an edge/cloud deployment use case; inference on PC-grade hardware only, embedded efficiency unvalidated.",
+      "published_at": "2026-10-22T19:52:26Z",
+      "updated_at": "2026-10-22T19:52:26Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "KiRoSe: Using Kinematic Data for Efficient Segmentation of Robot Demonstrations",
       "venue": "arXiv 2026",
       "topic": "Physical AI data pipeline",
@@ -59139,6 +58971,28 @@
       "is_latest_30d": true,
       "directions": [
         "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "Probabilistic Energy Modeling Unifies Versatile Swarm Control",
+      "venue": "arXiv 2026",
+      "topic": "physical_ai_swarm",
+      "arxiv": "2610.31371",
+      "doi": "",
+      "official_id": "arXiv:2610.31371",
+      "paper_url": "https://arxiv.org/abs/2610.31371",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Unified swarm controller reports 1–10ms per-agent inference and physical zero-shot transfer; relevant Physical-AI runtime adjacency, not an inference accelerator.",
+      "published_at": "2026-10-22T14:42:55Z",
+      "updated_at": "2026-10-22T14:42:55Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -59301,6 +59155,27 @@
       ]
     },
     {
+      "title": "Transformers with CoT Discover Heavy-Ball Acceleration Through Training",
+      "venue": "arXiv 2026",
+      "topic": "training_acceleration_theory",
+      "arxiv": "2610.31089",
+      "doi": "",
+      "official_id": "arXiv:2610.31089",
+      "paper_url": "https://arxiv.org/abs/2610.31089",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Theory of chain-of-thought training discovers heavy-ball acceleration; relevant optimization/training algorithm, not inference or hardware evidence.",
+      "published_at": "2026-10-22T10:59:26Z",
+      "updated_at": "2026-10-22T10:59:26Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "UniFlowWAM: A Unified World-Action Model with Visual Semantics and 4D Geometry",
       "venue": "arXiv 2026",
       "topic": "abstract_only_screen",
@@ -59431,6 +59306,28 @@
       "directions": [
         "LLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Making MLLM Latents Matter: Factor-Aware Predictive Learning for Cinematic Video Generation",
+      "venue": "arXiv 2026",
+      "topic": "video_generation",
+      "arxiv": "2610.30926",
+      "doi": "",
+      "official_id": "arXiv:2610.30926",
+      "paper_url": "https://arxiv.org/abs/2610.30926",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "MLLM-latent conditioning and temporal control for cinematic video generation; relevant generation algorithm, but no inference acceleration claim.",
+      "published_at": "2026-10-22T08:43:48Z",
+      "updated_at": "2026-10-23T11:09:51Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Multimodal / MLLM Serving",
+        "Video / Image Generation"
       ]
     },
     {
@@ -103825,176 +103722,6 @@
       "is_latest_30d": true,
       "directions": [
         "VLA / WAM / Physical AI"
-      ]
-    },
-    {
-      "title": "Where Should Physics Enter a Molecular Crystal Generator?",
-      "venue": "arXiv 2026",
-      "topic": "diffusion/flow acceleration",
-      "arxiv": "2609.36398",
-      "doi": "",
-      "official_id": "arXiv:2609.36398",
-      "paper_url": "https://arxiv.org/abs/2609.36398",
-      "code_url": "",
-      "formal_class": "RELEVANT_LOW_PRIORITY",
-      "physical_ai": false,
-      "decision": "P2_RELEVANT_LOW_PRIORITY",
-      "tracking_tier": "P2 · Relevant",
-      "why": "Crystal flow generator learns physical alignment in post-training, avoiding 6-26x slower per-sample physical relaxation; domain-specific but useful inference-time cost trade-off.",
-      "published_at": "2026-09-28T23:53:27Z",
-      "updated_at": "2026-09-28T23:53:27Z",
-      "is_latest_30d": true,
-      "directions": [
-        "Diffusion / Flow Acceleration"
-      ]
-    },
-    {
-      "title": "Quantization Enables Private Dense Retrieval against Malicious Service Providers",
-      "venue": "arXiv 2026",
-      "topic": "",
-      "arxiv": "2609.36376",
-      "doi": "",
-      "official_id": "arXiv:2609.36376",
-      "paper_url": "https://arxiv.org/abs/2609.36376",
-      "code_url": "",
-      "formal_class": "RELEVANT_LOW_PRIORITY",
-      "physical_ai": false,
-      "decision": "P2_RELEVANT_LOW_PRIORITY",
-      "tracking_tier": "P2 · Relevant",
-      "why": "",
-      "published_at": "2026-09-28T23:07:39Z",
-      "updated_at": "2026-09-28T23:07:39Z",
-      "is_latest_30d": true,
-      "directions": [
-        "Quantization"
-      ]
-    },
-    {
-      "title": "AdaKerNet: Neural Kernel Decoding for Task-Adaptive Prediction with Multimodal Large Models",
-      "venue": "arXiv 2026",
-      "topic": "multimodal model adaptation",
-      "arxiv": "2609.36368",
-      "doi": "",
-      "official_id": "arXiv:2609.36368",
-      "paper_url": "https://arxiv.org/abs/2609.36368",
-      "code_url": "",
-      "formal_class": "RELEVANT_LOW_PRIORITY",
-      "physical_ai": false,
-      "decision": "P2_RELEVANT_LOW_PRIORITY",
-      "tracking_tier": "P2 · Relevant",
-      "why": "",
-      "published_at": "2026-09-28T22:59:26Z",
-      "updated_at": "2026-09-28T22:59:26Z",
-      "is_latest_30d": true,
-      "directions": [
-        "GPU Kernel / DSL / Compiler",
-        "Multimodal / MLLM Serving"
-      ]
-    },
-    {
-      "title": "Calibrating One-Round Membership Inference with Neighbors",
-      "venue": "arXiv 2026",
-      "topic": "",
-      "arxiv": "2609.36331",
-      "doi": "",
-      "official_id": "arXiv:2609.36331",
-      "paper_url": "https://arxiv.org/abs/2609.36331",
-      "code_url": "",
-      "formal_class": "RELEVANT_LOW_PRIORITY",
-      "physical_ai": false,
-      "decision": "P2_RELEVANT_LOW_PRIORITY",
-      "tracking_tier": "P2 · Relevant",
-      "why": "Neighbor-calibrated membership inference reduces auxiliary reference-model burden, adjacent evaluation efficiency and privacy.",
-      "published_at": "2026-09-28T22:06:29Z",
-      "updated_at": "2026-09-28T22:06:29Z",
-      "is_latest_30d": true,
-      "directions": [
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "PILLAR: Private Inverted-Index Lexical Lookup for Augmented Retrieval",
-      "venue": "arXiv 2026",
-      "topic": "",
-      "arxiv": "2609.36326",
-      "doi": "",
-      "official_id": "arXiv:2609.36326",
-      "paper_url": "https://arxiv.org/abs/2609.36326",
-      "code_url": "",
-      "formal_class": "RELEVANT_LOW_PRIORITY",
-      "physical_ai": false,
-      "decision": "P2_RELEVANT_LOW_PRIORITY",
-      "tracking_tier": "P2 · Relevant",
-      "why": "",
-      "published_at": "2026-09-28T21:59:04Z",
-      "updated_at": "2026-09-30T14:14:55Z",
-      "is_latest_30d": true,
-      "directions": [
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "Towards an AI Software Factory for Data Systems",
-      "venue": "arXiv 2026",
-      "topic": "",
-      "arxiv": "2609.36323",
-      "doi": "",
-      "official_id": "arXiv:2609.36323",
-      "paper_url": "https://arxiv.org/abs/2609.36323",
-      "code_url": "",
-      "formal_class": "RELEVANT_LOW_PRIORITY",
-      "physical_ai": false,
-      "decision": "P2_RELEVANT_LOW_PRIORITY",
-      "tracking_tier": "P2 · Relevant",
-      "why": "",
-      "published_at": "2026-09-28T21:55:26Z",
-      "updated_at": "2026-09-28T21:55:26Z",
-      "is_latest_30d": true,
-      "directions": [
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "One-Step Next-Latent Prediction Is Not a World Model",
-      "venue": "arXiv 2026",
-      "topic": "",
-      "arxiv": "2609.36227",
-      "doi": "",
-      "official_id": "arXiv:2609.36227",
-      "paper_url": "https://arxiv.org/abs/2609.36227",
-      "code_url": "",
-      "formal_class": "RELEVANT_LOW_PRIORITY",
-      "physical_ai": false,
-      "decision": "P2_RELEVANT_LOW_PRIORITY",
-      "tracking_tier": "P2 · Relevant",
-      "why": "",
-      "published_at": "2026-09-28T20:24:50Z",
-      "updated_at": "2026-09-28T20:24:50Z",
-      "is_latest_30d": true,
-      "directions": [
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "Characterizing the eBPF-Based Data Plane for Multi-ClusterKubernetes: A Systematic Evaluation of Cilium Cluster Meshand KVStoreMesh",
-      "venue": "arXiv 2026",
-      "topic": "edge,distributed",
-      "arxiv": "2609.38235",
-      "doi": "",
-      "official_id": "arXiv:2609.38235",
-      "paper_url": "https://arxiv.org/abs/2609.38235",
-      "code_url": "",
-      "formal_class": "RELEVANT_LOW_PRIORITY",
-      "physical_ai": false,
-      "decision": "P2_RELEVANT_LOW_PRIORITY",
-      "tracking_tier": "P2 · Relevant",
-      "why": "Relevant to a maintained Efficient-ML neighborhood, but current first-party metadata does not justify high-value promotion.",
-      "published_at": "2026-09-28T20:19:45Z",
-      "updated_at": "2026-09-28T20:19:45Z",
-      "is_latest_30d": true,
-      "directions": [
-        "Distributed Training / Inference",
-        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -141298,180 +141025,6 @@
       ]
     },
     {
-      "title": "Reward-rate Policy Gradient for Efficient Machine Learning Engineering Agents",
-      "venue": "arXiv 2026",
-      "topic": "efficient_reasoning,agent_systems,rl",
-      "arxiv": "2609.36393",
-      "doi": "",
-      "official_id": "arXiv:2609.36393",
-      "paper_url": "https://arxiv.org/abs/2609.36393",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "physical_ai": false,
-      "decision": "PROMOTE_STRONG",
-      "why": "Directly advances a core Efficient-ML/serving/Physical-AI efficiency route with a concrete mechanism and strong system or deployment signal in first-party metadata.",
-      "published_at": "2026-09-28T23:46:08Z",
-      "updated_at": "2026-09-28T23:46:08Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "Efficient Reasoning / Agents"
-      ]
-    },
-    {
-      "title": "OTT3R: Multi-View 3D Reconstruction and Fast Dataset Generation at 1% Compute",
-      "venue": "arXiv 2026",
-      "topic": "edge,multimodal,distillation",
-      "arxiv": "2609.36374",
-      "doi": "",
-      "official_id": "arXiv:2609.36374",
-      "paper_url": "https://arxiv.org/abs/2609.36374",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "physical_ai": false,
-      "decision": "PROMOTE_STRONG",
-      "why": "Directly advances a core Efficient-ML/serving/Physical-AI efficiency route with a concrete mechanism and strong system or deployment signal in first-party metadata.",
-      "published_at": "2026-09-28T23:05:19Z",
-      "updated_at": "2026-09-28T23:05:19Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "LLM Serving",
-        "Multimodal / MLLM Serving",
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "LatentSift: Policy-State Filtering for Token-Efficient Verification of Software Engineering Agents",
-      "venue": "arXiv 2026",
-      "topic": "efficient_reasoning_agent",
-      "arxiv": "2609.36371",
-      "doi": "",
-      "official_id": "arXiv:2609.36371",
-      "paper_url": "https://arxiv.org/abs/2609.36371",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "physical_ai": false,
-      "decision": "PROMOTE_STRONG",
-      "why": "",
-      "published_at": "2026-09-28T23:03:25Z",
-      "updated_at": "2026-09-28T23:03:25Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "Efficient Reasoning / Agents"
-      ]
-    },
-    {
-      "title": "EdgeDAE: Acceleration of Diffusion Action Experts for Real-Time Physical AI with Tiny VLAs on Edge FPGA-GPU Systems",
-      "venue": "arXiv 2026",
-      "topic": "physical_ai",
-      "arxiv": "2610.00311",
-      "doi": "",
-      "official_id": "arXiv:2610.00311",
-      "paper_url": "https://arxiv.org/abs/2610.00311",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "physical_ai": true,
-      "decision": "PROMOTE_STRONG",
-      "why": "Direct, technically substantive Efficient-ML/AI-infrastructure contribution with strong novelty and deployment/efficiency signal in the official arXiv metadata/abstract.",
-      "published_at": "2026-09-28T22:48:38Z",
-      "updated_at": "2026-09-28T22:48:38Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "GPU Kernel / DSL / Compiler",
-        "Diffusion / Flow Acceleration",
-        "VLA / WAM / Physical AI",
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "Periodic Weak Spots: Phase Sensitivity from Chunked KV-Cache Compression",
-      "venue": "arXiv 2026",
-      "topic": "",
-      "arxiv": "2609.36322",
-      "doi": "",
-      "official_id": "arXiv:2609.36322",
-      "paper_url": "https://arxiv.org/abs/2609.36322",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "physical_ai": false,
-      "decision": "PROMOTE_STRONG",
-      "why": "",
-      "published_at": "2026-09-28T21:54:14Z",
-      "updated_at": "2026-09-28T21:54:14Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "KV Cache / Long Context"
-      ]
-    },
-    {
-      "title": "MoRE: Scaling mixture of experts with hardware-aware low-rank routing",
-      "venue": "arXiv 2026",
-      "topic": "",
-      "arxiv": "2609.36301",
-      "doi": "",
-      "official_id": "arXiv:2609.36301",
-      "paper_url": "https://arxiv.org/abs/2609.36301",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "physical_ai": false,
-      "decision": "PROMOTE_STRONG",
-      "why": "",
-      "published_at": "2026-09-28T21:37:17Z",
-      "updated_at": "2026-09-28T21:37:17Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "MoE Systems / Accelerators"
-      ]
-    },
-    {
-      "title": "CyFA: Linear Sequence Modeling with Relative-Time-Partitioned Memory",
-      "venue": "arXiv 2026",
-      "topic": "efficient attention",
-      "arxiv": "2609.36259",
-      "doi": "",
-      "official_id": "arXiv:2609.36259",
-      "paper_url": "https://arxiv.org/abs/2609.36259",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "physical_ai": false,
-      "decision": "PROMOTE_STRONG",
-      "why": "CyFA 线性 RNN 相对时间分区记忆可 chunk-wise 训练，400M 实验 core forward/backward 时间仅 KDA 46.7%/48.3%，兼具效率和 recall。",
-      "published_at": "2026-09-28T20:47:43Z",
-      "updated_at": "2026-09-28T20:47:43Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "Efficient Attention"
-      ]
-    },
-    {
-      "title": "BASE: Batch-Aware Selection of Experts Using Predicted Removal Error for Efficient MoE Decoding",
-      "venue": "arXiv 2026",
-      "topic": "",
-      "arxiv": "2609.36222",
-      "doi": "",
-      "official_id": "arXiv:2609.36222",
-      "paper_url": "https://arxiv.org/abs/2609.36222",
-      "code_url": "",
-      "formal_class": "CANONICAL_HIGH_VALUE",
-      "physical_ai": false,
-      "decision": "PROMOTE_STRONG",
-      "why": "",
-      "published_at": "2026-09-28T20:20:13Z",
-      "updated_at": "2026-09-28T20:20:13Z",
-      "is_latest_30d": true,
-      "tracking_tier": "P0 · Strong",
-      "directions": [
-        "MoE Systems / Accelerators"
-      ]
-    },
-    {
       "title": "Zetta: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence",
       "venue": "",
       "topic": "Physical AI / embodied runtime",
@@ -143193,6 +142746,30 @@
       "tracking_tier": "P0 · Strong",
       "directions": [
         "Efficient Reasoning / Agents",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "EdgeDAE: Acceleration of Diffusion Action Experts for Real-Time Physical AI with Tiny VLAs on Edge FPGA-GPU Systems",
+      "venue": "arXiv 2026",
+      "topic": "physical_ai",
+      "arxiv": "2610.00311",
+      "doi": "",
+      "official_id": "arXiv:2610.00311",
+      "paper_url": "https://arxiv.org/abs/2610.00311",
+      "code_url": "",
+      "formal_class": "CANONICAL_HIGH_VALUE",
+      "physical_ai": true,
+      "decision": "PROMOTE_STRONG",
+      "why": "Direct, technically substantive Efficient-ML/AI-infrastructure contribution with strong novelty and deployment/efficiency signal in the official arXiv metadata/abstract.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Diffusion / Flow Acceleration",
+        "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -147705,6 +147282,28 @@
       "directions": [
         "LLM Serving",
         "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "F2G-Pose: Geometry-Aware Foundation Feature Lifting for Direct RGB-D Category-Level Object Pose Estimation",
+      "venue": "arXiv 2026",
+      "topic": "physical_ai_pose_inference",
+      "arxiv": "2610.31623",
+      "doi": "",
+      "official_id": "arXiv:2610.31623",
+      "paper_url": "https://arxiv.org/abs/2610.31623",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": true,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Direct single-pass RGB-D pose model reports 28 FPS, lower-latency alternative to diffusion pose pipelines, and real-world manipulation transfer; retain for Physical-AI inference review.",
+      "published_at": "2026-10-22T17:43:34Z",
+      "updated_at": "2026-10-22T17:43:34Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Diffusion / Flow Acceleration",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -171294,197 +170893,6 @@
       ]
     },
     {
-      "title": "One from Infinity: Actualizing Futures from Pretrained World Models into Robot Actions",
-      "venue": "arXiv 2026",
-      "topic": "",
-      "arxiv": "2609.36413",
-      "doi": "",
-      "official_id": "arXiv:2609.36413",
-      "paper_url": "https://arxiv.org/abs/2609.36413",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "physical_ai": false,
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "",
-      "published_at": "2026-09-29T00:05:24Z",
-      "updated_at": "2026-10-03T03:56:31Z",
-      "is_latest_30d": true,
-      "directions": [
-        "VLA / WAM / Physical AI"
-      ]
-    },
-    {
-      "title": "Compress to Remember: Learning Compact Memory via On-Policy Distillation for Long Video Generation",
-      "venue": "arXiv 2026",
-      "topic": "",
-      "arxiv": "2609.36364",
-      "doi": "",
-      "official_id": "arXiv:2609.36364",
-      "paper_url": "https://arxiv.org/abs/2609.36364",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "physical_ai": false,
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "PACC learns compact reusable memory tokens for long-video generation by distilling full-history conditioning into compressed history while keeping the generator frozen; directly relevant to video-generation context/memory efficiency, but the abstract reports memory-quality gains rather than explicit latency/FLOP/memory-reduction numbers.",
-      "published_at": "2026-09-28T22:52:57Z",
-      "updated_at": "2026-09-28T22:52:57Z",
-      "is_latest_30d": true,
-      "directions": [
-        "Video / Image Generation"
-      ]
-    },
-    {
-      "title": "Strategies for Deploying AI Agents in Production at Scientific User Facilities",
-      "venue": "arXiv 2026",
-      "topic": "agent_systems,production_infra",
-      "arxiv": "2609.36362",
-      "doi": "",
-      "official_id": "arXiv:2609.36362",
-      "paper_url": "https://arxiv.org/abs/2609.36362",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "physical_ai": false,
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "High-value adjacent or protected-route work with meaningful efficiency/system implications; retain for deeper reading.",
-      "published_at": "2026-09-28T22:49:50Z",
-      "updated_at": "2026-09-28T22:49:50Z",
-      "is_latest_30d": true,
-      "directions": [
-        "Efficient Reasoning / Agents"
-      ]
-    },
-    {
-      "title": "Better Nearest Neighbor Graph Indices via (Efficient) LLM-Guided Pruning",
-      "venue": "arXiv 2026",
-      "topic": "retrieval,efficient_search",
-      "arxiv": "2609.36359",
-      "doi": "",
-      "official_id": "arXiv:2609.36359",
-      "paper_url": "https://arxiv.org/abs/2609.36359",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "physical_ai": false,
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "High-value adjacent or protected-route work with meaningful efficiency/system implications; retain for deeper reading.",
-      "published_at": "2026-09-28T22:47:05Z",
-      "updated_at": "2026-09-28T22:47:05Z",
-      "is_latest_30d": true,
-      "directions": [
-        "Sparsity / Pruning"
-      ]
-    },
-    {
-      "title": "HyperZip: Efficient Data Compression through Personalized Diffusion LLMs with Hypernetworks",
-      "venue": "arXiv 2026",
-      "topic": "",
-      "arxiv": "2609.36357",
-      "doi": "",
-      "official_id": "arXiv:2609.36357",
-      "paper_url": "https://arxiv.org/abs/2609.36357",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "physical_ai": false,
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "",
-      "published_at": "2026-09-28T22:44:55Z",
-      "updated_at": "2026-09-28T22:44:55Z",
-      "is_latest_30d": true,
-      "directions": [
-        "Diffusion / Flow Acceleration"
-      ]
-    },
-    {
-      "title": "StructRL: Online Structured Reinforcement Learning for Long-Horizon Vision-Language-Action Tasks",
-      "venue": "arXiv 2026",
-      "topic": "physical,vla,reinforcement_learning",
-      "arxiv": "2609.36352",
-      "doi": "",
-      "official_id": "arXiv:2609.36352",
-      "paper_url": "https://arxiv.org/abs/2609.36352",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "physical_ai": true,
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "High-value adjacent or protected-route work with meaningful efficiency/system implications; retain for deeper reading.",
-      "published_at": "2026-09-28T22:34:43Z",
-      "updated_at": "2026-09-28T22:34:43Z",
-      "is_latest_30d": true,
-      "directions": [
-        "Multimodal / MLLM Serving",
-        "Efficient Reasoning / Agents",
-        "VLA / WAM / Physical AI"
-      ]
-    },
-    {
-      "title": "Fractional State Space Transition for Long Sequence Modeling",
-      "venue": "arXiv 2026",
-      "topic": "",
-      "arxiv": "2609.36314",
-      "doi": "",
-      "official_id": "arXiv:2609.36314",
-      "paper_url": "https://arxiv.org/abs/2609.36314",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "physical_ai": false,
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "Long-sequence state-space modeling is efficiency-adjacent; retain for recurrent/linear-time sequence architecture tracking.",
-      "published_at": "2026-09-28T21:48:14Z",
-      "updated_at": "2026-09-28T21:48:14Z",
-      "is_latest_30d": true,
-      "directions": [
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "Bilinear World Models: Learning Representations with Structured Dynamics for Efficient Control",
-      "venue": "arXiv 2026",
-      "topic": "",
-      "arxiv": "2609.36305",
-      "doi": "",
-      "official_id": "arXiv:2609.36305",
-      "paper_url": "https://arxiv.org/abs/2609.36305",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "physical_ai": false,
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "",
-      "published_at": "2026-09-28T21:39:06Z",
-      "updated_at": "2026-09-28T21:39:06Z",
-      "is_latest_30d": true,
-      "directions": [
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "How Much Prompt Is Enough? A Blackbox Minimization of Few-Shots in LLMs",
-      "venue": "arXiv 2026",
-      "topic": "",
-      "arxiv": "2609.36289",
-      "doi": "",
-      "official_id": "arXiv:2609.36289",
-      "paper_url": "https://arxiv.org/abs/2609.36289",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "physical_ai": false,
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "Prompt compression framework removes a mean 65.3% of few-shot prompt characters while preserving propositional fidelity; useful context/token-efficiency evidence.",
-      "published_at": "2026-09-28T21:18:38Z",
-      "updated_at": "2026-09-28T21:18:38Z",
-      "is_latest_30d": true,
-      "directions": [
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
       "title": "YOCO: You Only Calibrate Once! Fast Mocap Calibration for Dexterous Teleoperation",
       "venue": "arXiv 2026",
       "topic": "llm_serving,gen,edge",
@@ -175726,6 +175134,27 @@
       ]
     },
     {
+      "title": "Compote: Collapse-Resistant Multiple Hypothesis Learning For Sequential Recommendation",
+      "venue": "arXiv 2026",
+      "topic": "efficient_recommender_inference",
+      "arxiv": "2610.37005",
+      "doi": "",
+      "official_id": "arXiv:2610.37005",
+      "paper_url": "https://arxiv.org/abs/2610.37005",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Multi-hypothesis transformer for sequential recommendation uses normalizer-free max-similarity inference; algorithmic efficiency signal without system-level measurements.",
+      "published_at": "2026-10-27T10:50:08Z",
+      "updated_at": "2026-10-27T10:50:08Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Online gas classification at the edge",
       "venue": "arXiv 2026",
       "topic": "quant",
@@ -178179,6 +177608,27 @@
       ]
     },
     {
+      "title": "Accuracy Is Not Enough: An Efficiency- and Statistics-Aware Benchmark of ResNet50 and Vision Transformer for Explainable Multi-Class Gastrointestinal Diseases Classification",
+      "venue": "arXiv 2026",
+      "topic": "model_efficiency_benchmark",
+      "arxiv": "2610.33965",
+      "doi": "",
+      "official_id": "arXiv:2610.33965",
+      "paper_url": "https://arxiv.org/abs/2610.33965",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Controlled ResNet/ViT benchmark explicitly evaluates efficiency and statistics; useful low-priority model-efficiency evidence, not a new accelerator.",
+      "published_at": "2026-10-25T00:39:12Z",
+      "updated_at": "2026-10-25T00:39:12Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "FastSAR: High-Throughput, High-Fidelity Open-Source SAR Image Formation on CPUs, GPUs and TPUs",
       "venue": "arXiv 2026",
       "topic": "Heterogeneous AI systems",
@@ -178309,6 +177759,29 @@
       ]
     },
     {
+      "title": "EEGBiFormer: Real-Time EEG Attention Classification via Hybrid CNN-Transformer with EEG-Informed Auditory Protocol Validation",
+      "venue": "arXiv 2026",
+      "topic": "edge_inference",
+      "arxiv": "2610.33832",
+      "doi": "",
+      "official_id": "arXiv:2610.33832",
+      "paper_url": "https://arxiv.org/abs/2610.33832",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Measured sub-100ms real-time EEG classification on a custom acquisition pipeline; application-specific, without a new inference/serving optimization.",
+      "published_at": "2026-10-24T18:10:46Z",
+      "updated_at": "2026-10-24T18:10:46Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Attention",
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "RoboWorM: Evaluating Movement Realism, Consistency and Acceleration Affects in Embodied Video World Models",
       "venue": "arXiv 2026",
       "topic": "Physical AI",
@@ -178415,6 +177888,29 @@
       ]
     },
     {
+      "title": "RoboJev: An Open Vision-Language Judge for Robot Success Detection",
+      "venue": "arXiv 2026",
+      "topic": "physical_ai_vlm_inference",
+      "arxiv": "2610.33718",
+      "doi": "",
+      "official_id": "arXiv:2610.33718",
+      "paper_url": "https://arxiv.org/abs/2610.33718",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Open VLM robot-success judge reports 0.26s/episode on H100 and cross-robot/lab generalization; relevant Physical-AI inference, but not a serving optimization.",
+      "published_at": "2026-10-24T15:06:27Z",
+      "updated_at": "2026-10-24T15:06:27Z",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Seeing the Options: Typed Decisions over Visual Candidates with Reusable Option Memory",
       "venue": "arXiv 2026",
       "topic": "Efficient agents",
@@ -178479,6 +177975,27 @@
       ]
     },
     {
+      "title": "Beyond Affine Reconstruction: Multi-Resolution Transformer DeepONets for the Radiative Transfer Equation",
+      "venue": "arXiv 2026",
+      "topic": "neural_operator",
+      "arxiv": "2610.33668",
+      "doi": "",
+      "official_id": "arXiv:2610.33668",
+      "paper_url": "https://arxiv.org/abs/2610.33668",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Multi-resolution neural-operator architecture uses fewer parameters and avoids input resampling; scientific-ML efficiency adjacency, not deployment systems.",
+      "published_at": "2026-10-24T13:32:36Z",
+      "updated_at": "2026-10-24T13:32:36Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Power-of-Two Leaky Integrate-and-Fire Neurons for Event-Driven Vision-Language-Action Inference",
       "venue": "arXiv 2026",
       "topic": "Physical AI",
@@ -178520,6 +178037,27 @@
       "directions": [
         "Multimodal / MLLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Build or Adopt? Custom-Built vs. General-Purpose LLM Agent Harnesses for Automotive GUI Testing",
+      "venue": "arXiv 2026",
+      "topic": "agent_harness_systems",
+      "arxiv": "2610.33636",
+      "doi": "",
+      "official_id": "arXiv:2610.33636",
+      "paper_url": "https://arxiv.org/abs/2610.33636",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Empirical custom-vs-general agent harness comparison reports 2.6–10.7x inference cost differences and total engineering-cost trade-offs; useful agent-system economics, not a new runtime method.",
+      "published_at": "2026-10-24T12:32:16Z",
+      "updated_at": "2026-10-24T12:32:16Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -180157,6 +179695,27 @@
       ]
     },
     {
+      "title": "Machine-Readable Operator Manuals over the ISO 11783 Network for Offline, Multilingual LLM Assistance",
+      "venue": "arXiv 2026",
+      "topic": "edge_llm_inference",
+      "arxiv": "2610.31863",
+      "doi": "",
+      "official_id": "arXiv:2610.31863",
+      "paper_url": "https://arxiv.org/abs/2610.31863",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Offline multilingual LLM assistance over machinery manuals is an edge/cloud deployment use case; inference on PC-grade hardware only, embedded efficiency unvalidated.",
+      "published_at": "2026-10-22T19:52:26Z",
+      "updated_at": "2026-10-22T19:52:26Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "KiRoSe: Using Kinematic Data for Efficient Segmentation of Robot Demonstrations",
       "venue": "arXiv 2026",
       "topic": "Physical AI data pipeline",
@@ -180289,6 +179848,28 @@
       "is_latest_30d": true,
       "directions": [
         "Distributed Training / Inference"
+      ]
+    },
+    {
+      "title": "Probabilistic Energy Modeling Unifies Versatile Swarm Control",
+      "venue": "arXiv 2026",
+      "topic": "physical_ai_swarm",
+      "arxiv": "2610.31371",
+      "doi": "",
+      "official_id": "arXiv:2610.31371",
+      "paper_url": "https://arxiv.org/abs/2610.31371",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Unified swarm controller reports 1–10ms per-agent inference and physical zero-shot transfer; relevant Physical-AI runtime adjacency, not an inference accelerator.",
+      "published_at": "2026-10-22T14:42:55Z",
+      "updated_at": "2026-10-22T14:42:55Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -180451,6 +180032,27 @@
       ]
     },
     {
+      "title": "Transformers with CoT Discover Heavy-Ball Acceleration Through Training",
+      "venue": "arXiv 2026",
+      "topic": "training_acceleration_theory",
+      "arxiv": "2610.31089",
+      "doi": "",
+      "official_id": "arXiv:2610.31089",
+      "paper_url": "https://arxiv.org/abs/2610.31089",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Theory of chain-of-thought training discovers heavy-ball acceleration; relevant optimization/training algorithm, not inference or hardware evidence.",
+      "published_at": "2026-10-22T10:59:26Z",
+      "updated_at": "2026-10-22T10:59:26Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "UniFlowWAM: A Unified World-Action Model with Visual Semantics and 4D Geometry",
       "venue": "arXiv 2026",
       "topic": "abstract_only_screen",
@@ -180581,6 +180183,28 @@
       "directions": [
         "LLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Making MLLM Latents Matter: Factor-Aware Predictive Learning for Cinematic Video Generation",
+      "venue": "arXiv 2026",
+      "topic": "video_generation",
+      "arxiv": "2610.30926",
+      "doi": "",
+      "official_id": "arXiv:2610.30926",
+      "paper_url": "https://arxiv.org/abs/2610.30926",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "MLLM-latent conditioning and temporal control for cinematic video generation; relevant generation algorithm, but no inference acceleration claim.",
+      "published_at": "2026-10-22T08:43:48Z",
+      "updated_at": "2026-10-23T11:09:51Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Multimodal / MLLM Serving",
+        "Video / Image Generation"
       ]
     },
     {
@@ -224975,176 +224599,6 @@
       "is_latest_30d": true,
       "directions": [
         "VLA / WAM / Physical AI"
-      ]
-    },
-    {
-      "title": "Where Should Physics Enter a Molecular Crystal Generator?",
-      "venue": "arXiv 2026",
-      "topic": "diffusion/flow acceleration",
-      "arxiv": "2609.36398",
-      "doi": "",
-      "official_id": "arXiv:2609.36398",
-      "paper_url": "https://arxiv.org/abs/2609.36398",
-      "code_url": "",
-      "formal_class": "RELEVANT_LOW_PRIORITY",
-      "physical_ai": false,
-      "decision": "P2_RELEVANT_LOW_PRIORITY",
-      "tracking_tier": "P2 · Relevant",
-      "why": "Crystal flow generator learns physical alignment in post-training, avoiding 6-26x slower per-sample physical relaxation; domain-specific but useful inference-time cost trade-off.",
-      "published_at": "2026-09-28T23:53:27Z",
-      "updated_at": "2026-09-28T23:53:27Z",
-      "is_latest_30d": true,
-      "directions": [
-        "Diffusion / Flow Acceleration"
-      ]
-    },
-    {
-      "title": "Quantization Enables Private Dense Retrieval against Malicious Service Providers",
-      "venue": "arXiv 2026",
-      "topic": "",
-      "arxiv": "2609.36376",
-      "doi": "",
-      "official_id": "arXiv:2609.36376",
-      "paper_url": "https://arxiv.org/abs/2609.36376",
-      "code_url": "",
-      "formal_class": "RELEVANT_LOW_PRIORITY",
-      "physical_ai": false,
-      "decision": "P2_RELEVANT_LOW_PRIORITY",
-      "tracking_tier": "P2 · Relevant",
-      "why": "",
-      "published_at": "2026-09-28T23:07:39Z",
-      "updated_at": "2026-09-28T23:07:39Z",
-      "is_latest_30d": true,
-      "directions": [
-        "Quantization"
-      ]
-    },
-    {
-      "title": "AdaKerNet: Neural Kernel Decoding for Task-Adaptive Prediction with Multimodal Large Models",
-      "venue": "arXiv 2026",
-      "topic": "multimodal model adaptation",
-      "arxiv": "2609.36368",
-      "doi": "",
-      "official_id": "arXiv:2609.36368",
-      "paper_url": "https://arxiv.org/abs/2609.36368",
-      "code_url": "",
-      "formal_class": "RELEVANT_LOW_PRIORITY",
-      "physical_ai": false,
-      "decision": "P2_RELEVANT_LOW_PRIORITY",
-      "tracking_tier": "P2 · Relevant",
-      "why": "",
-      "published_at": "2026-09-28T22:59:26Z",
-      "updated_at": "2026-09-28T22:59:26Z",
-      "is_latest_30d": true,
-      "directions": [
-        "GPU Kernel / DSL / Compiler",
-        "Multimodal / MLLM Serving"
-      ]
-    },
-    {
-      "title": "Calibrating One-Round Membership Inference with Neighbors",
-      "venue": "arXiv 2026",
-      "topic": "",
-      "arxiv": "2609.36331",
-      "doi": "",
-      "official_id": "arXiv:2609.36331",
-      "paper_url": "https://arxiv.org/abs/2609.36331",
-      "code_url": "",
-      "formal_class": "RELEVANT_LOW_PRIORITY",
-      "physical_ai": false,
-      "decision": "P2_RELEVANT_LOW_PRIORITY",
-      "tracking_tier": "P2 · Relevant",
-      "why": "Neighbor-calibrated membership inference reduces auxiliary reference-model burden, adjacent evaluation efficiency and privacy.",
-      "published_at": "2026-09-28T22:06:29Z",
-      "updated_at": "2026-09-28T22:06:29Z",
-      "is_latest_30d": true,
-      "directions": [
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "PILLAR: Private Inverted-Index Lexical Lookup for Augmented Retrieval",
-      "venue": "arXiv 2026",
-      "topic": "",
-      "arxiv": "2609.36326",
-      "doi": "",
-      "official_id": "arXiv:2609.36326",
-      "paper_url": "https://arxiv.org/abs/2609.36326",
-      "code_url": "",
-      "formal_class": "RELEVANT_LOW_PRIORITY",
-      "physical_ai": false,
-      "decision": "P2_RELEVANT_LOW_PRIORITY",
-      "tracking_tier": "P2 · Relevant",
-      "why": "",
-      "published_at": "2026-09-28T21:59:04Z",
-      "updated_at": "2026-09-30T14:14:55Z",
-      "is_latest_30d": true,
-      "directions": [
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "Towards an AI Software Factory for Data Systems",
-      "venue": "arXiv 2026",
-      "topic": "",
-      "arxiv": "2609.36323",
-      "doi": "",
-      "official_id": "arXiv:2609.36323",
-      "paper_url": "https://arxiv.org/abs/2609.36323",
-      "code_url": "",
-      "formal_class": "RELEVANT_LOW_PRIORITY",
-      "physical_ai": false,
-      "decision": "P2_RELEVANT_LOW_PRIORITY",
-      "tracking_tier": "P2 · Relevant",
-      "why": "",
-      "published_at": "2026-09-28T21:55:26Z",
-      "updated_at": "2026-09-28T21:55:26Z",
-      "is_latest_30d": true,
-      "directions": [
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "One-Step Next-Latent Prediction Is Not a World Model",
-      "venue": "arXiv 2026",
-      "topic": "",
-      "arxiv": "2609.36227",
-      "doi": "",
-      "official_id": "arXiv:2609.36227",
-      "paper_url": "https://arxiv.org/abs/2609.36227",
-      "code_url": "",
-      "formal_class": "RELEVANT_LOW_PRIORITY",
-      "physical_ai": false,
-      "decision": "P2_RELEVANT_LOW_PRIORITY",
-      "tracking_tier": "P2 · Relevant",
-      "why": "",
-      "published_at": "2026-09-28T20:24:50Z",
-      "updated_at": "2026-09-28T20:24:50Z",
-      "is_latest_30d": true,
-      "directions": [
-        "Edge / Cloud / Heterogeneous AI"
-      ]
-    },
-    {
-      "title": "Characterizing the eBPF-Based Data Plane for Multi-ClusterKubernetes: A Systematic Evaluation of Cilium Cluster Meshand KVStoreMesh",
-      "venue": "arXiv 2026",
-      "topic": "edge,distributed",
-      "arxiv": "2609.38235",
-      "doi": "",
-      "official_id": "arXiv:2609.38235",
-      "paper_url": "https://arxiv.org/abs/2609.38235",
-      "code_url": "",
-      "formal_class": "RELEVANT_LOW_PRIORITY",
-      "physical_ai": false,
-      "decision": "P2_RELEVANT_LOW_PRIORITY",
-      "tracking_tier": "P2 · Relevant",
-      "why": "Relevant to a maintained Efficient-ML neighborhood, but current first-party metadata does not justify high-value promotion.",
-      "published_at": "2026-09-28T20:19:45Z",
-      "updated_at": "2026-09-28T20:19:45Z",
-      "is_latest_30d": true,
-      "directions": [
-        "Distributed Training / Inference",
-        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {

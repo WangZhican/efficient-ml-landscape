@@ -1,10 +1,10 @@
 # 05 · Sparsity / Pruning
 
-> **685 canonical papers** mapped here, plus a broader **394-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **692 canonical papers** mapped here, plus a broader **393-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 394 tracked
+## 🆕 Latest 30 Days · 393 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -372,7 +372,6 @@
 | **P1 · Watch** | **RESCUE: Repairing Language Model Errors to Sparse Circuits via Reinforcement Learning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.36813) | — |
 | **P2 · Relevant** | **Decoding Affective Nuances: Enhancing MLLMs via Hierarchical Emotion Reasoning and Contrastive Discriminative Pruning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.36782) | — |
 | **P2 · Relevant** | **SCOPE: Observation-Conditioned Full-Target Prediction for Sparse PDE Inference** | arXiv 2026 | gen,edge | [Link](https://arxiv.org/abs/2609.36527) | — |
-| **P1 · Watch** | **Better Nearest Neighbor Graph Indices via (Efficient) LLM-Guided Pruning** | arXiv 2026 | retrieval,efficient_search | [Link](https://arxiv.org/abs/2609.36359) | — |
 | **P2 · Relevant** | **TRIM-ReID: Duplication-Aware Token Reduction and Modality-Aligned Interaction for Multi-Modal Object Re-Identification** | arXiv 2026 | multimodal/MLLM serving | [Link](https://arxiv.org/abs/2610.04361) | — |
 | **P2 · Relevant** | **Train An Imaginative Agent** | arXiv 2026 | agent,physical | [Link](https://arxiv.org/abs/2610.26845) | — |
 | **P2 · Relevant** | **Towards Automatically Pruning Logging Code with Coding Agents: How Far Are We?** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04716) | — |
@@ -403,7 +402,7 @@
 | **P0 · Strong** | **AViTS: Adaptive Spatiotemporal Token Selection for Efficient Dynamic-Resolution Generation** | Fresh / preprint | diffusion/image generation acceleration / adaptive token selection | [Link](https://arxiv.org/abs/2608.17995) | — |
 | **P0 · Strong** | **AutoPruner: Agentic Depth Pruning for Vision-Language-Action Models** | arXiv 2026 | VLA model pruning | [Link](https://arxiv.org/abs/2610.23880) | — |
 
-## 🏛️ Classical / Historical · 560 canonical
+## 🏛️ Classical / Historical · 567 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -668,8 +667,12 @@
 | **Canonical** | **StreamMeCo: Long-Term Agent Memory Compression for Efficient Streaming Video Understanding** | arXiv 26 | Streaming multimodal agent memory / retrieval acceleration | [Link](https://arxiv.org/abs/2604.09000) | — |
 | **Canonical** | **The Turbo-Charged Mapper: Fast and Optimal Mapping for Energy-efficient and Low-latency Accelerator Design** | arXiv 26 | ai_accelerator_mapping_compiler | [Link](https://arxiv.org/abs/2602.15172) | — |
 | **Canonical** | **Uncovering Intra-expert Activation Sparsity for Efficient Mixture-of-Expert Model Execution** | arXiv 26 | efficient_ml_systems | [Link](https://arxiv.org/abs/2605.08575) | — |
+| **Canonical** | **BitRed: Taming Non-Uniform Bit-Level Sparsity with a Programmable RISC-V ISA for DNN Acceleration** | ASPLOS 2026 | DNN acceleration; bit-level sparsity; programmable ISA | [Link](https://doi.org/10.1145/3779212.3790132) | — |
 | **Canonical** | **DSV: Exploiting Dynamic Sparsity to Accelerate Large-Scale Video DiT Training** | ASPLOS 2026 | video diffusion training / sparse attention / distributed training | [Link](https://arxiv.org/abs/2502.07590) | — |
+| **Canonical** | **Dynamic Sparsity in Large-Scale Video DiT Training** | ASPLOS 2026 | video diffusion; dynamic attention sparsity; distributed training | [Link](https://doi.org/10.1145/3760250.3762216) | — |
+| **Canonical** | **FuseFlow: A Fusion-Centric Compilation Framework for Sparse Deep Learning on Streaming Dataflow** | ASPLOS 2026 | sparse deep learning; dataflow compiler; kernel fusion | [Link](https://arxiv.org/abs/2511.04768) | — |
 | **Canonical** | **Insum: Sparse GPU Kernels Simplified and Optimized with Indirect Einsums** | ASPLOS 2026 | GPU kernel / sparse compiler | [Link](https://arxiv.org/abs/2510.17505) | — |
+| **Canonical** | **SLAWS: Spatial Locality Analysis and Workload Orchestration for Sparse Matrix Multiplication** | ASPLOS 2026 | sparse computation; locality; GPU/accelerator efficiency | [Link](https://doi.org/10.1145/3779212.3790222) | — |
 | **Canonical** | **SpeContext: Enabling Efficient Long-context Reasoning with Speculative Context Sparsity in LLMs** | ASPLOS 2026 | serving + speculative decoding + MoE + generative efficiency | [Link](https://arxiv.org/abs/2512.00722) | — |
 | **Canonical** | **STARC: Selective Token Access with Remapping and Clustering for Efficient LLM Decoding on PIM Systems** | ASPLOS 2026 | sparse attention / PIM / KV cache | [Link](https://doi.org/10.1145/3779212.3790226) | — |
 | **Canonical** | **Adaptive Computation Pruning for the Forgetting Transformer** | COLM 2025 | efficient attention / sparsity / training efficiency | [Link](https://arxiv.org/abs/2504.06949) | [Repo](https://github.com/zhixuan-lin/forgetting-transformer) |
@@ -931,9 +934,12 @@
 | **Canonical** | **MCBP: A Memory-Compute Efficient LLM Inference Accelerator Leveraging Bit-Slice-enabled Sparsity and Repetitiveness** | MICRO 2025 | LLM accelerator / bit-slice sparsity | [Link](https://arxiv.org/abs/2509.10372) | — |
 | **Canonical** | **SkipReduce: (Interconnection) Network Sparsity to Accelerate Distributed Machine Learning** | MICRO 2025 | distributed training / collective communication sparsity | [Link](https://doi.org/10.1145/3725843.3756092) | — |
 | **Canonical** | **DSTAR: Accelerating Diffusion Transformers via Spatial and Temporal Redundancy Reduction** | MICRO 2026 | diffusion/flow acceleration; quantization; efficient attention; sparsity/pruning | [Link](https://arxiv.org/abs/2607.15846) | — |
+| **Canonical** | **Attribution-based Sparse Activation in Large Language Models** | MLSys 2026 | LLM sparsity; inference compute/memory reduction | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/29591f355702c3f4436991335784b503-Abstract-Conference.html) | — |
 | **Canonical** | **BLASST: Dynamic BLocked Attention Sparsity via Softmax Thresholding** | MLSys 2026 | sparse attention / long-context inference | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/file/c6ee784cbe46d854843e4c883a3321ef-Paper-Conference.pdf) | — |
 | **Canonical** | **db-SP: Accelerating Sparse Attention for Visual Generative Models with Dual-Balanced Sequence Parallelism** | MLSys 2026 | video/image generation acceleration / sparse attention / sequence parallelism | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/db988b089d8d97d0f159c15ed0be6a71-Abstract-Conference.html) | — |
 | **Canonical** | **MTraining: Distributed Dynamic Sparse Attention for Efficient Ultra-Long Context Training** | MLSys 2026 | distributed training / sparse attention / long context | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/7fafdf453029d7b8674b6f3dd18112bf-Abstract-Conference.html) | [Repo](https://github.com/microsoft/MInference/tree/main/mtraining) |
+| **Canonical** | **OPKV: A High-Throughput Plugin-Driven Framework for Recallable Sparsity in Paged KV Cache Systems** | MLSys 2026 | LLM serving; KV-cache sparsity | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/71381211d0abef73ed1887b83c4547b1-Abstract-Conference.html) | — |
+| **Canonical** | **Spira: Exploiting Voxel Data Structural Properties for Efficient Sparse Convolution in Point Cloud Networks** | MLSys 2026 | sparse convolution; 3D perception acceleration | [Link](https://proceedings.mlsys.org/paper_files/paper/2026/hash/7972f3735e104a54715922aa416fde1b-Abstract-Conference.html) | [Repo](https://github.com/SPIN-Research-Group/Spira) |
 | **Canonical** | **LeanStream: A Speculate-and-Refine Streaming Framework for Efficient on-Device LLM Inference** | MobiCom 2026 | edge/cloud/heterogeneous AI systems / on-device LLM inference / storage offload / sparse execution | [Link](https://arxiv.org/abs/2609.03079) | — |
 | **Canonical** | **AttentionPredictor: Temporal Patterns Matter for KV Cache Compression** | NeurIPS 2025 | KV cache compression / sparse attention / cache prefetching | [Link](https://doi.org/10.52202/085713-4624) | [Repo](https://github.com/MIRALab-USTC/LLM-AttentionPredictor) |
 | **Canonical** | **Delta Attention: Fast and Accurate Sparse Attention Inference by Delta Correction** | NeurIPS 2025 | sparse attention / long-context inference | [Link](https://proceedings.neurips.cc/paper_files/paper/2025/hash/11cc3abb01080339ceed66eff7c93920-Abstract-Conference.html) | — |
