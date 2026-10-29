@@ -1,10 +1,10 @@
 # 09 · Distributed Training / Inference
 
-> **751 canonical papers** mapped here, plus a broader **332-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **754 canonical papers** mapped here, plus a broader **333-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 332 tracked
+## 🆕 Latest 30 Days · 333 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -85,6 +85,7 @@
 | **P1 · Watch** | **Toward Collective Model Intelligence: Characterizing and Coordinating Models** | arXiv 2026 | Multi-model serving / routing | [Link](https://arxiv.org/abs/2610.24739) | — |
 | **P0 · Strong** | **AdamPM: Memory-Efficient LLM Optimization via Moment Pooling** | arXiv 2026 | LLM optimizer-state memory pooling | [Link](https://arxiv.org/abs/2610.24598) | — |
 | **P0 · Strong** | **ProbePO: Sparse Probes, Redistributed Credit for Critic-Free LLM Reinforcement Learning** | arXiv 2026 | efficient RLVR rollout probing | [Link](https://arxiv.org/abs/2610.24515) | — |
+| **P2 · Relevant** | **Steerable Pluralistic Policy Alignment from Anonymized Crowd Feedback** | arXiv 2026 | RL / post-training efficiency | [Link](https://arxiv.org/abs/2610.26914) | — |
 | **P0 · Strong** | **Koi: Evidence-Guided, Self-Calibrating Planning for Multi-Cloud, Heterogeneous LLM Inference Fleets** | arXiv 2026 | Heterogeneous LLM serving | [Link](https://arxiv.org/abs/2610.24355) | — |
 | **P1 · Watch** | **SigmaTrace: Library-Agnostic Observability for CPU/GPU-Initiated RDMA Communication** | arXiv 2026 | GPU communication observability | [Link](https://arxiv.org/abs/2610.24328) | — |
 | **P2 · Relevant** | **SWE-Bench Pro V2: A Cleaner, Harder-to-Game Coding Benchmark** | arXiv 2026 | agent benchmark infrastructure | [Link](https://arxiv.org/abs/2610.24206) | — |
@@ -341,7 +342,7 @@
 | **P2 · Relevant** | **A Kafka-Centric Communication Fabric for Near-Real-Time, Cloud-Replicated Closed-Loop Manufacturing Process Control** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.00258) | — |
 | **P0 · Strong** | **A Distributed View from a Single GPU: RankLens for Distributed Training** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18009) | — |
 
-## 🏛️ Classical / Historical · 653 canonical
+## 🏛️ Classical / Historical · 656 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -560,6 +561,7 @@
 | **Canonical** | **PockEngine: Sparse and Efficient Fine-tuning in a Pocket** | arXiv 23 | edge AI,distributed training,compilers,sparsity | [Link](https://arxiv.org/abs/2310.17752) | [Repo](https://hanlab.mit.edu/projects/pockengine) |
 | **Canonical** | **Alto: Orchestrating Distributed Compound AI Systems with Nested Ancestry** | arXiv 24 | efficient_ml_serving_runtime | [Link](https://arxiv.org/abs/2403.04311) | — |
 | **Canonical** | **AsyncDiff: Parallelizing Diffusion Models by Asynchronous Denoising** | arXiv 24 | diffusion/flow acceleration; distributed inference | [Link](https://arxiv.org/abs/2406.06911) | — |
+| **Canonical** | **Beyond Gradient Averaging in Parallel Optimization: Improved Robustness through Gradient Agreement Filtering** | arXiv 24 | Distributed training efficiency | [Link](https://arxiv.org/abs/2412.18052) | — |
 | **Canonical** | **COAT: Compressing Optimizer states and Activation for Memory-Efficient FP8 Training** | arXiv 24 | low precision / distributed training | [Link](https://arxiv.org/abs/2410.19313) | — |
 | **Canonical** | **Cocco: Hardware-Mapping Co-Exploration towards Memory Capacity-Communication Optimization** | arXiv 24 | AI accelerator/memory mapping | [Link](https://arxiv.org/abs/2402.00629) | — |
 | **Canonical** | **Demystifying AI Platform Design for Distributed Inference of Next-Generation LLM models** | arXiv 24 | llm_serving_platform_modeling | [Link](https://arxiv.org/abs/2406.01698) | — |
@@ -583,6 +585,7 @@
 | **Canonical** | **Near-Optimal Wafer-Scale Reduce** | arXiv 24 | AI accelerator/distributed communication | [Link](https://arxiv.org/abs/2404.15888) | — |
 | **Canonical** | **Network-Offloaded Bandwidth-Optimal Broadcast and Allgather for Distributed AI** | arXiv 24 | distributed training/network | [Link](https://arxiv.org/abs/2408.13356) | — |
 | **Canonical** | **Optimal Kernel Orchestration for Tensor Programs with Korch** | arXiv 24 | GPU kernel/DSL/compilers | [Link](https://arxiv.org/abs/2406.09465) | — |
+| **Canonical** | **Optimistic Verifiable Training by Controlling Hardware Nondeterminism** | arXiv 24 | Verifiable and efficient training systems | [Link](https://arxiv.org/abs/2403.09603) | — |
 | **Canonical** | **Optimizing LLM Queries in Relational Data Analytics Workloads** | arXiv 24 | efficient_ml_systems | [Link](https://arxiv.org/abs/2403.05821) | — |
 | **Canonical** | **ParaGAN: A Scalable Distributed Training Framework for Generative Adversarial Networks** | arXiv 24 | distributed training | [Link](https://arxiv.org/abs/2411.03999) | — |
 | **Canonical** | **SpComm3D: A Framework for Enabling Sparse Communication in 3D Sparse Kernels** | arXiv 24 | sparsity/distributed training | [Link](https://arxiv.org/abs/2404.19638) | — |
@@ -615,6 +618,7 @@
 | **Canonical** | **RLBoost: Harvesting Preemptible Resources for Cost-Efficient Reinforcement Learning on LLMs** | arXiv 25 | distributed RL training systems | [Link](https://arxiv.org/abs/2510.19225) | — |
 | **Canonical** | **SANA 1.5: Efficient Scaling of Training-Time and Inference-Time Compute in Linear Diffusion Transformer** | arXiv 25 | diffusion acceleration; model pruning; low-memory training | [Link](https://arxiv.org/abs/2501.18427) | — |
 | **Canonical** | **Scalable Synthesis of distributed LLM workloads through Symbolic Tensor Graphs** | arXiv 25 | distributed_llm_system_modeling | [Link](https://arxiv.org/abs/2511.10480) | — |
+| **Canonical** | **Scaling Recurrent Neural Networks to a Billion Parameters with Zero-Order Optimization** | arXiv 25 | memory-efficient training and long-context inference | [Link](https://arxiv.org/abs/2505.17852) | — |
 | **Canonical** | **Scaling RL to Long Videos** | arXiv 25 | multimodal training; distributed RL; VLM serving | [Link](https://arxiv.org/abs/2507.07966) | [Repo](https://github.com/NVlabs/Long-RL) |
 | **Canonical** | **SDR-RDMA: Software-Defined Reliability Architecture for Planetary Scale RDMA Communication** | arXiv 25 | distributed training/network | [Link](https://arxiv.org/abs/2505.05366) | — |
 | **Canonical** | **Semantic-Aware Scheduling for GPU Clusters with Large Language Models** | arXiv 25 | Distributed training/inference | [Link](https://arxiv.org/abs/2510.03334) | — |

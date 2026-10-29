@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-10-29",
   "window_start_beijing": "2026-09-29",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 5532,
+  "tracked_total": 5533,
   "p0_strong_or_canonical": [
     {
       "title": "Honeycomb-Surfels: Compact Hexagonal Primitives for Efficient Scene Rendering and Reconstruction",
@@ -65184,6 +65184,28 @@
       "is_latest_30d": true,
       "directions": [
         "LLM Serving"
+      ]
+    },
+    {
+      "title": "Steerable Pluralistic Policy Alignment from Anonymized Crowd Feedback",
+      "venue": "arXiv 2026",
+      "topic": "RL / post-training efficiency",
+      "arxiv": "2610.26914",
+      "doi": "",
+      "official_id": "arXiv:2610.26914",
+      "paper_url": "https://arxiv.org/abs/2610.26914",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Policy-alignment/post-training method reports reduced computational cost and variable adaptation-query budgets; directly adjacent to RL/post-training efficiency, but no inference/runtime/hardware evidence. Retain P2 only.",
+      "published_at": "2026-10-17T06:14:59Z",
+      "updated_at": "2026-10-17T06:14:59Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Distributed Training / Inference",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -186061,6 +186083,28 @@
       "is_latest_30d": true,
       "directions": [
         "LLM Serving"
+      ]
+    },
+    {
+      "title": "Steerable Pluralistic Policy Alignment from Anonymized Crowd Feedback",
+      "venue": "arXiv 2026",
+      "topic": "RL / post-training efficiency",
+      "arxiv": "2610.26914",
+      "doi": "",
+      "official_id": "arXiv:2610.26914",
+      "paper_url": "https://arxiv.org/abs/2610.26914",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Policy-alignment/post-training method reports reduced computational cost and variable adaptation-query budgets; directly adjacent to RL/post-training efficiency, but no inference/runtime/hardware evidence. Retain P2 only.",
+      "published_at": "2026-10-17T06:14:59Z",
+      "updated_at": "2026-10-17T06:14:59Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Distributed Training / Inference",
+        "VLA / WAM / Physical AI"
       ]
     },
     {

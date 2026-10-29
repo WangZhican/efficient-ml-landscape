@@ -1,6 +1,6 @@
 # 03 · KV Cache / Long Context
 
-> **835 canonical papers** mapped here, plus a broader **220-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **836 canonical papers** mapped here, plus a broader **220-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -229,7 +229,7 @@
 | **P1 · Watch** | **Budgeted Cache Repair for Cross-Context KV-Cache Reuse** | arXiv 2026 | KV cache / LLM serving | [Link](https://arxiv.org/abs/2610.02233) | — |
 | **P0 · Strong** | **Beyond Capacity: Scalable MoE LLM Inference via High-Bandwidth Flash with Direct GPU and HBM Paths** | Fresh / preprint | MoE serving / high-bandwidth flash architecture | [Link](https://arxiv.org/abs/2608.14333) | — |
 
-## 🏛️ Classical / Historical · 708 canonical
+## 🏛️ Classical / Historical · 709 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -527,6 +527,7 @@
 | **Canonical** | **RACE Attention: A Strictly Linear-Time Attention Layer for Training on Outrageously Large Contexts** | arXiv 25 | linear_attention | [Link](https://arxiv.org/abs/2510.04008) | — |
 | **Canonical** | **RAPID^3: Tri-Level Reinforced Acceleration Policies for Diffusion Transformer** | arXiv 25 | diffusion/flow acceleration | [Link](https://arxiv.org/abs/2509.22323) | — |
 | **Canonical** | **RWKV-X: A Linear Complexity Hybrid Language Model** | arXiv 25 | long-context / efficient recurrent attention / sparse hybrid | [Link](https://arxiv.org/abs/2504.21463) | [Repo](https://github.com/howard-hou/RWKV-X) |
+| **Canonical** | **Scaling Recurrent Neural Networks to a Billion Parameters with Zero-Order Optimization** | arXiv 25 | memory-efficient training and long-context inference | [Link](https://arxiv.org/abs/2505.17852) | — |
 | **Canonical** | **SDR-RDMA: Software-Defined Reliability Architecture for Planetary Scale RDMA Communication** | arXiv 25 | distributed training/network | [Link](https://arxiv.org/abs/2505.05366) | — |
 | **Canonical** | **SeaLLM: Service-Aware and Latency-Optimized Resource Sharing for Large Language Model Inference** | arXiv 25 | LLM serving | [Link](https://arxiv.org/abs/2504.15720) | — |
 | **Canonical** | **ShadowServe: Interference-Free KV Cache Fetching for Distributed Prefix Caching** | arXiv 25 | KV cache/long-context | [Link](https://arxiv.org/abs/2509.16857) | — |

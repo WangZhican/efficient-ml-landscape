@@ -1,6 +1,6 @@
 # 08 · GPU Kernel / DSL / Compiler
 
-> **1062 canonical papers** mapped here, plus a broader **412-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **1065 canonical papers** mapped here, plus a broader **412-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -421,7 +421,7 @@
 | **P0 · Strong** | **A Thread-Register Decoupled GPU Execution Model for Efficient Tensor Computation** | Fresh / preprint | GPU execution architecture / tensor cores / LLM serving | [Link](https://arxiv.org/abs/2608.19628) | — |
 | **P0 · Strong** | **A Distributed View from a Single GPU: RankLens for Distributed Training** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18009) | — |
 
-## 🏛️ Classical / Historical · 886 canonical
+## 🏛️ Classical / Historical · 889 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -755,6 +755,7 @@
 | **Canonical** | **Optimal Kernel Orchestration for Tensor Programs with Korch** | arXiv 24 | GPU kernel/DSL/compilers | [Link](https://arxiv.org/abs/2406.09465) | — |
 | **Canonical** | **Parcae: Proactive, Liveput-Optimized DNN Training on Preemptible Instances** | arXiv 24 |  | [Link](https://arxiv.org/abs/2403.14097) | — |
 | **Canonical** | **QServe: W4A8KV4 Quantization and System Co-design for Efficient LLM Serving** | arXiv 24 | LLM serving; quantization; KV cache; GPU kernels | [Link](https://arxiv.org/abs/2405.04532) | [Repo](https://hanlab.mit.edu/projects/qserve) |
+| **Canonical** | **Retrievals on NIRCam transmission and emission spectra of HD 189733b with PLATON 6, a GPU code for the JWST era** | arXiv 24 | GPU-accelerated scientific inference | [Link](https://arxiv.org/abs/2410.22398) | — |
 | **Canonical** | **SliceGPT: Compress Large Language Models by Deleting Rows and Columns** | arXiv 24 | sparsity/pruning | [Link](https://arxiv.org/abs/2401.15024) | — |
 | **Canonical** | **SpComm3D: A Framework for Enabling Sparse Communication in 3D Sparse Kernels** | arXiv 24 | sparsity/distributed training | [Link](https://arxiv.org/abs/2404.19638) | — |
 | **Canonical** | **STAT: Shrinking Transformers After Training** | arXiv 24 | sparsity_pruning | [Link](https://arxiv.org/abs/2406.00061) | — |
@@ -781,10 +782,12 @@
 | **Canonical** | **HipKittens: Fast and Furious AMD Kernels** | arXiv 25 | GPU kernel DSL / heterogeneous hardware | [Link](https://arxiv.org/abs/2511.08083) | — |
 | **Canonical** | **HMAR: Efficient Hierarchical Masked Auto-Regressive Image Generation** | arXiv 25 | autoregressive image generation / sparse attention | [Link](https://arxiv.org/abs/2506.04421) | — |
 | **Canonical** | **KernelBench: Can LLMs Write Efficient GPU Kernels?** | arXiv 25 | GPU kernel generation benchmark | [Link](https://arxiv.org/abs/2502.10517) | — |
+| **Canonical** | **Kevin: Multi-Turn RL for Generating CUDA Kernels** | arXiv 25 | GPU kernel generation and optimization | [Link](https://arxiv.org/abs/2507.11948) | — |
 | **Canonical** | **LEGO: Spatial Accelerator Generation and Optimization for Tensor Applications** | arXiv 25 | AI accelerator / architecture generator | [Link](https://arxiv.org/abs/2509.12053) | — |
 | **Canonical** | **Livatar-1: Real-Time Talking Heads Generation with Tailored Flow Matching** | arXiv 25 | Real-time flow-matching talking-head serving with system optimizations; official abstract reports 141 FPS and 0.17 s end-to-end latency on one A10 GPU. | [Link](https://arxiv.org/abs/2507.18649) | — |
 | **Canonical** | **LLMQ: Efficient Lower-Precision Pretraining for Consumer GPUs** | arXiv 25 | GPU kernel/DSL/compilers | [Link](https://arxiv.org/abs/2512.15306) | — |
 | **Canonical** | **LongLive: Real-time Interactive Long Video Generation** | arXiv 25 | video/image generation acceleration; streaming generative inference | [Link](https://arxiv.org/abs/2509.22622) | [Repo](https://github.com/NVlabs/LongLive) |
+| **Canonical** | **LowRA: Accurate and Efficient LoRA Fine-Tuning of LLMs under 2 Bits** | arXiv 25 | LLM quantization and efficient fine-tuning | [Link](https://arxiv.org/abs/2502.08141) | — |
 | **Canonical** | **Machine Learning Fleet Efficiency: Analyzing and Optimizing Large-Scale Google TPU Systems with ML Productivity Goodput** | arXiv 25 | ml_fleet_efficiency | [Link](https://arxiv.org/abs/2502.06982) | — |
 | **Canonical** | **Nexus:Proactive Intra-GPU Disaggregation of Prefill and Decode in LLM Serving** | arXiv 25 |  | [Link](https://arxiv.org/abs/2507.06608) | — |
 | **Canonical** | **Optimizing Mixture of Block Attention** | arXiv 25 | efficient attention | [Link](https://arxiv.org/abs/2511.11571) | — |

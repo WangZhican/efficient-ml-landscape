@@ -1,6 +1,6 @@
 # 04 · Quantization
 
-> **648 canonical papers** mapped here, plus a broader **643-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **649 canonical papers** mapped here, plus a broader **643-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -652,7 +652,7 @@
 | **P1 · Watch** | **A Geometric Decision Procedure for STL Feasibility and Repair** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.00199) | — |
 | **P2 · Relevant** | **A Fine-Grained Analysis of the LoRA Fine-Tuning Landscape with Implications for Data Selection** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2610.06542) | — |
 
-## 🏛️ Classical / Historical · 481 canonical
+## 🏛️ Classical / Historical · 482 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -855,6 +855,7 @@
 | **Canonical** | **FGMP: Fine-Grained Mixed-Precision Weight and Activation Quantization for Hardware-Accelerated LLM Inference** | arXiv 25 | efficient_ml_research | [Link](https://arxiv.org/abs/2504.14152) | — |
 | **Canonical** | **Four Over Six: More Accurate NVFP4 Quantization with Adaptive Block Scaling** | arXiv 25 | quantization | [Link](https://arxiv.org/abs/2512.02010) | — |
 | **Canonical** | **HALO: Hadamard-Assisted Lower-Precision Optimization for LLMs** | arXiv 25 | quantization/distributed training | [Link](https://arxiv.org/abs/2501.02625) | — |
+| **Canonical** | **LowRA: Accurate and Efficient LoRA Fine-Tuning of LLMs under 2 Bits** | arXiv 25 | LLM quantization and efficient fine-tuning | [Link](https://arxiv.org/abs/2502.08141) | — |
 | **Canonical** | **MC#: Mixture Compressor for Mixture-of-Experts Large Models** | arXiv 25 | MoE systems/accelerators | [Link](https://arxiv.org/abs/2510.10962) | — |
 | **Canonical** | **OuroMamba: A Data-Free Quantization Framework for Vision Mamba** | arXiv 25 | mamba_quantization_kernels | [Link](https://arxiv.org/abs/2503.10959) | — |
 | **Canonical** | **Platinum: Path-Adaptable LUT-Based Accelerator Tailored for Low-Bit Weight Matrix Multiplication** | arXiv 25 | low_bit_llm_accelerator | [Link](https://arxiv.org/abs/2511.21910) | — |

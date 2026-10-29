@@ -1,10 +1,10 @@
 # 14 · VLA / WAM / Physical AI
 
-> **642 canonical papers** mapped here, plus a broader **1860-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **643 canonical papers** mapped here, plus a broader **1861-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 1860 tracked
+## 🆕 Latest 30 Days · 1861 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -340,6 +340,7 @@
 | **P2 · Relevant** | **Structured Latent Dynamics for Long-Horizon Embodied World Models** | arXiv 2026 | Physical AI / world models | [Link](https://arxiv.org/abs/2610.24534) | — |
 | **P2 · Relevant** | **ContactBench 1.0: A Benchmark for Everyday Contact-Rich Robotic Manipulation** | arXiv 2026 | Physical AI evaluation | [Link](https://arxiv.org/abs/2610.24512) | — |
 | **P2 · Relevant** | **GazeAct: A Human-Gaze-Annotated Manipulation Dataset for Attention-Regularized Policies** | arXiv 2026 | Physical AI / gaze datasets | [Link](https://arxiv.org/abs/2610.24507) | — |
+| **P2 · Relevant** | **Steerable Pluralistic Policy Alignment from Anonymized Crowd Feedback** | arXiv 2026 | RL / post-training efficiency | [Link](https://arxiv.org/abs/2610.26914) | — |
 | **P0 · Strong** | **FlashRT-PAI: Fast Kernels Are Not Fast Pipelines for Physical AI Inference** | arXiv 2026 | Physical AI inference engine | [Link](https://arxiv.org/abs/2610.24349) | — |
 | **P1 · Watch** | **Beckmann World Models: Direct Terminal-Map Learning for One-Step Action-Conditioned Prediction** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.26903) | — |
 | **P2 · Relevant** | **Multimodal Interaction Estimation for Contact-Aware Adaptive Impedance Control** | arXiv 2026 | robot control | [Link](https://arxiv.org/abs/2610.24235) | — |
@@ -1869,7 +1870,7 @@
 | **P2 · Relevant** | **$λ_0$: Scaling Open-World Egocentric Human Data for Humanoid Loco-Manipulation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18950) | — |
 | **P1 · Watch** | **$\Psi$-0.6: Adaptive Streams of Thought in a Unified Vision-Language World Model** | arXiv 2026 | physical_ai | [Link](https://arxiv.org/abs/2610.32177) | — |
 
-## 🏛️ Classical / Historical · 450 canonical
+## 🏛️ Classical / Historical · 451 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -2109,6 +2110,7 @@
 | **Canonical** | **GEVO: Memory-Efficient Monocular Visual Odometry Using Gaussians** | arXiv 24 | physical_ai_edge_slam | [Link](https://arxiv.org/abs/2409.09295) | — |
 | **Canonical** | **EfficientVLA: Training-Free Acceleration and Compression for Vision-Language-Action Models** | arXiv 25 | VLA / Physical AI inference co-optimization | [Link](https://arxiv.org/abs/2506.10100) | — |
 | **Canonical** | **Generative AI in Embodied Systems: System-Level Analysis of Performance, Efficiency and Scalability** | arXiv 25 | physical_ai_system_characterization | [Link](https://arxiv.org/abs/2504.18945) | — |
+| **Canonical** | **Guiding Data Collection via Factored Scaling Curves** | arXiv 25 | Sample-efficient Physical AI data collection | [Link](https://arxiv.org/abs/2505.07728) | — |
 | **Canonical** | **TURBO: Utility-Aware Bandwidth Allocation for Cloud-Augmented Autonomous Control** | arXiv 25 | efficient_ml_scope_review | [Link](https://arxiv.org/abs/2503.20127) | — |
 | **Canonical** | **VLASH: Real-Time VLAs via Future-State-Aware Asynchronous Inference** | arXiv 25 | VLA/WAM/Physical AI serving / asynchronous robot inference / action chunk execution | [Link](https://arxiv.org/abs/2512.01031) | [Repo](https://github.com/mit-han-lab/vlash) |
 | **Canonical** | **ABot-World-0: Infinite Interactive World Rollout on a Single Desktop GPU** | arXiv 26 | streaming_world | [Link](https://arxiv.org/abs/2607.19191) | — |
@@ -2324,7 +2326,7 @@
 | **Canonical** | **FlashVLA: Streaming Action Decoding for Fast and Asynchronous VLA Inference** | Fresh / preprint | Physical AI / VLA serving / streaming action decoding | [Link](https://arxiv.org/abs/2608.27384) | — |
 | **Canonical** | **Just Noticeable Difference Modeling for Token Compression in Vision-Language-Action Models** | Fresh / preprint | Physical AI / VLA token compression / KV reuse / pruning | [Link](https://arxiv.org/abs/2608.21247) | — |
 
-## 🛡️ Protected historical P1 watch · 1041
+## 🛡️ Protected historical P1 watch · 1042
 
 [Browse the permanent Physical AI watch archive](PHYSICAL_AI_PROTECTED_WATCH.md) · [JSON](../data/physical_ai_protected_watch_archive.json)
 

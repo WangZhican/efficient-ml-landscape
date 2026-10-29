@@ -1,6 +1,6 @@
 # 🛡️ Physical AI · Protected Historical Watch
 
-> **1041 older P1 papers** retained beyond the rolling 30-day window. This is a watchlist, not an expanded canonical/P0 claim.
+> **1042 older P1 papers** retained beyond the rolling 30-day window. This is a watchlist, not an expanded canonical/P0 claim.
 
 [← Physical AI direction](14-physical-ai-vla-wam.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/physical_ai_protected_watch_archive.json)
 
@@ -432,6 +432,7 @@
 | **P1 · Watch** | **OmniRisk: Omnidirectional Trajectory-Risk Learning for Agile Quadrotor Dynamic Avoidance** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.18191) | — |
 | **P1 · Watch** | **OmniNav: Robust Long-Horizon Target Navigation in Dynamic Environments** | arXiv 2026 | VLA/WAM/Physical AI / long-horizon navigation / persistent scene memory / closed-loop recovery | [Link](https://arxiv.org/abs/2609.08159) | [Repo](https://omni-nav.github.io/) |
 | **P1 · Watch** | **Omni-Streaming Thinking** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.15128) | — |
+| **P1 · Watch** | **OMNI-PoseX: A Fast Vision Model for 6D Object Pose Estimation in Embodied Tasks** | arXiv 26 | Physical-AI perception and inference efficiency | [Link](https://arxiv.org/abs/2604.02759) | — |
 | **P1 · Watch** | **Odometry-Aided Real-Time Mapping for Underwater Robots Using Forward-Looking Sonar** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.24195) | — |
 | **P1 · Watch** | **Odometer-Agnostic Drift Correction Using OpenStreetMap Lane Geometry** | arXiv 2026 | VLA/WAM/Physical AI serving / localization / lightweight runtime | [Link](https://arxiv.org/abs/2609.10336) | — |
 | **P1 · Watch** | **Octo: An Open-Source Generalist Robot Policy** | RSS 2024 | VLA/WAM/Physical AI | [Link](https://www.roboticsproceedings.org/rss20/p090.html) | — |

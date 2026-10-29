@@ -1,6 +1,6 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **1084 canonical papers** mapped here, plus a broader **1345-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **1086 canonical papers** mapped here, plus a broader **1345-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -1354,7 +1354,7 @@
 | **P2 · Relevant** | **A Local Agentic AI Framework to Generate Edge Case Scenarios for Safety Assurance** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.13479) | — |
 | **P1 · Watch** | **A Compression Tree Generation Method for High Performance VLSI Datapaths** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2610.02228) | — |
 
-## 🏛️ Classical / Historical · 900 canonical
+## 🏛️ Classical / Historical · 902 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -1724,6 +1724,7 @@
 | **Canonical** | **Algorithm-Hardware Co-Design of Distribution-Aware Logarithmic-Posit Encodings for Efficient DNN Inference** | arXiv 24 | ai_accelerator_numeric_formats | [Link](https://arxiv.org/abs/2403.05465) | — |
 | **Canonical** | **CacheBlend: Fast Large Language Model Serving for RAG with Cached Knowledge Fusion** | arXiv 24 | KV cache/long-context | [Link](https://arxiv.org/abs/2405.16444) | — |
 | **Canonical** | **CiMLoop: A Flexible, Accurate, and Fast Compute-In-Memory Modeling Tool** | arXiv 24 | cim_ai_accelerator_design_tools | [Link](https://arxiv.org/abs/2405.07259) | — |
+| **Canonical** | **DataComp-LM: In search of the next generation of training sets for language models** | arXiv 24 | Data-efficient LLM pretraining | [Link](https://arxiv.org/abs/2406.11794) | — |
 | **Canonical** | **EfficientViT-SAM: Accelerated Segment Anything Model Without Accuracy Loss** | arXiv 24 | edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2402.05008) | — |
 | **Canonical** | **Fast On-device LLM Inference with NPUs** | arXiv 24 | edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2407.05858) | — |
 | **Canonical** | **FastDecode: High-Throughput GPU-Efficient LLM Serving using Heterogeneous Pipelines** | arXiv 24 | LLM serving | [Link](https://arxiv.org/abs/2403.11421) | — |
@@ -1768,6 +1769,7 @@
 | **Canonical** | **Minions: Cost-efficient Collaboration Between On-device and Cloud Language Models** | arXiv 25 | edge-cloud inference / efficient reasoning / long-context agent serving | [Link](https://arxiv.org/abs/2502.15964) | — |
 | **Canonical** | **MIST: A Co-Design Framework for Heterogeneous, Multi-Stage LLM Inference** | arXiv 25 | heterogeneous_llm_serving | [Link](https://arxiv.org/abs/2504.09775) | — |
 | **Canonical** | **Modeling and Optimizing Performance Bottlenecks for Neuromorphic Accelerators** | arXiv 25 | neuromorphic_accelerator_characterization | [Link](https://arxiv.org/abs/2511.21549) | — |
+| **Canonical** | **Modeling Language as a Sequence of Thoughts** | arXiv 25 | Data- and parameter-efficient language modeling | [Link](https://arxiv.org/abs/2512.25026) | — |
 | **Canonical** | **NSFlow: An End-to-End FPGA Framework with Scalable Dataflow Architecture for Neuro-Symbolic AI** | arXiv 25 | neurosymbolic_fpga_accelerator | [Link](https://arxiv.org/abs/2504.19323) | — |
 | **Canonical** | **PE3R: Perception-Efficient 3D Reconstruction** | arXiv 25 | multimodal/MLLM serving; edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2503.07507) | — |
 | **Canonical** | **PerfDojo: Automated ML Library Generation for Heterogeneous Architectures** | arXiv 25 | GPU kernel/DSL/compilers | [Link](https://arxiv.org/abs/2511.03586) | — |

@@ -1,6 +1,6 @@
 # 05 · Sparsity / Pruning
 
-> **694 canonical papers** mapped here, plus a broader **393-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **695 canonical papers** mapped here, plus a broader **393-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -402,7 +402,7 @@
 | **P0 · Strong** | **AViTS: Adaptive Spatiotemporal Token Selection for Efficient Dynamic-Resolution Generation** | Fresh / preprint | diffusion/image generation acceleration / adaptive token selection | [Link](https://arxiv.org/abs/2608.17995) | — |
 | **P0 · Strong** | **AutoPruner: Agentic Depth Pruning for Vision-Language-Action Models** | arXiv 2026 | VLA model pruning | [Link](https://arxiv.org/abs/2610.23880) | — |
 
-## 🏛️ Classical / Historical · 569 canonical
+## 🏛️ Classical / Historical · 570 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -616,6 +616,7 @@
 | **Canonical** | **1000+ FPS 4D Gaussian Splatting for Dynamic Scene Rendering** | arXiv 25 | video/image generation acceleration; sparsity/pruning | [Link](https://arxiv.org/abs/2503.16422) | — |
 | **Canonical** | **Accelerating Large-Scale Reasoning Model Inference with Sparse Self-Speculative Decoding** | arXiv 25 | speculative decoding | [Link](https://arxiv.org/abs/2512.01278) | — |
 | **Canonical** | **Accelerating Streaming Video Large Language Models via Hierarchical Token Compression** | arXiv 25 | Streaming video MLLM serving / hierarchical caching | [Link](https://arxiv.org/abs/2512.00891) | — |
+| **Canonical** | **Adaptive Rank Allocation: Speeding Up Modern Transformers with RaNA Adapters** | arXiv 25 | Transformer inference efficiency | [Link](https://arxiv.org/abs/2503.18216) | — |
 | **Canonical** | **BLaST: High Performance Inference and Pretraining using BLock Sparse Transformers** | arXiv 25 | sparsity/pruning | [Link](https://arxiv.org/abs/2507.03117) | — |
 | **Canonical** | **D2Pruner: Debiased Importance and Structural Diversity for MLLM Token Pruning** | arXiv 25 | MLLM visual token pruning / spatial fidelity | [Link](https://arxiv.org/abs/2512.19443) | — |
 | **Canonical** | **DarwinLM: Evolutionary Structured Pruning of Large Language Models** | arXiv 25 | sparsity/pruning | [Link](https://arxiv.org/abs/2502.07780) | — |

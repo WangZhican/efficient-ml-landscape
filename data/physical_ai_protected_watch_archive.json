@@ -9563,6 +9563,30 @@
     ]
   },
   {
+    "title": "OMNI-PoseX: A Fast Vision Model for 6D Object Pose Estimation in Embodied Tasks",
+    "venue": "arXiv 26",
+    "topic": "Physical-AI perception and inference efficiency",
+    "arxiv": "2604.02759",
+    "doi": "",
+    "official_id": "arXiv:2604.02759",
+    "paper_url": "https://arxiv.org/abs/2604.02759",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The abstract explicitly reports real-time efficiency, lightweight fusion, and system-level robotic grasping integration. Retain as a high-value Physical-AI runtime/perception candidate; no serving or affiliation claim is made.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Odometry-Aided Real-Time Mapping for Underwater Robots Using Forward-Looking Sonar",
     "venue": "arXiv 2026",
     "topic": "",

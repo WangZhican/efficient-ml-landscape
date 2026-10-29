@@ -34856,6 +34856,27 @@
     ]
   },
   {
+    "title": "Beyond Gradient Averaging in Parallel Optimization: Improved Robustness through Gradient Agreement Filtering",
+    "venue": "arXiv 24",
+    "topic": "Distributed training efficiency",
+    "arxiv": "2412.18052",
+    "doi": "",
+    "official_id": "arXiv:2412.18052",
+    "paper_url": "https://arxiv.org/abs/2412.18052",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The first-party abstract reports up to 18.2% validation-accuracy improvement and nearly an order-of-magnitude lower computation by enabling smaller microbatches. This directly targets distributed training efficiency and is a strong canonical candidate.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "BitDelta: Your Fine-Tune May Only Be Worth One Bit",
     "venue": "arXiv 24",
     "topic": "quantization / multi-tenant serving",
@@ -35072,6 +35093,27 @@
     "directions": [
       "KV Cache / Long Context",
       "Quantization"
+    ]
+  },
+  {
+    "title": "DataComp-LM: In search of the next generation of training sets for language models",
+    "venue": "arXiv 24",
+    "topic": "Data-efficient LLM pretraining",
+    "arxiv": "2406.11794",
+    "doi": "",
+    "official_id": "arXiv:2406.11794",
+    "paper_url": "https://arxiv.org/abs/2406.11794",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The first-party abstract reports training with 40% less compute than MAP-Neo and 6.6x less compute than Llama 3 8B while achieving competitive benchmark quality. This is direct, high-value training-compute efficiency evidence.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -37165,6 +37207,27 @@
     ]
   },
   {
+    "title": "Optimistic Verifiable Training by Controlling Hardware Nondeterminism",
+    "venue": "arXiv 24",
+    "topic": "Verifiable and efficient training systems",
+    "arxiv": "2403.09603",
+    "doi": "",
+    "official_id": "arXiv:2403.09603",
+    "paper_url": "https://arxiv.org/abs/2403.09603",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The first-party abstract reports exact FP32 training replication across three NVIDIA GPUs for ResNet-50 and GPT-2, while significantly reducing storage and time costs compared with proof-based systems. This is a strong training-systems candidate.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "Optimizing LLM Queries in Relational Data Analytics Workloads",
     "venue": "arXiv 24",
     "topic": "efficient_ml_systems",
@@ -37579,6 +37642,27 @@
       "Efficient Attention",
       "Video / Image Generation",
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "Retrievals on NIRCam transmission and emission spectra of HD 189733b with PLATON 6, a GPU code for the JWST era",
+    "venue": "arXiv 24",
+    "topic": "GPU-accelerated scientific inference",
+    "arxiv": "2410.22398",
+    "doi": "",
+    "official_id": "arXiv:2410.22398",
+    "paper_url": "https://arxiv.org/abs/2410.22398",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The first-party abstract explicitly reports up to 10x acceleration from GPU computation in a retrieval pipeline. This is a strong, measurable GPU/scientific-inference efficiency record with direct accelerator relevance.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler"
     ]
   },
   {
@@ -38626,6 +38710,49 @@
     "directions": [
       "LLM Serving",
       "KV Cache / Long Context"
+    ]
+  },
+  {
+    "title": "Adaptive Rank Allocation: Speeding Up Modern Transformers with RaNA Adapters",
+    "venue": "arXiv 25",
+    "topic": "Transformer inference efficiency",
+    "arxiv": "2503.18216",
+    "doi": "",
+    "official_id": "arXiv:2503.18216",
+    "paper_url": "https://arxiv.org/abs/2503.18216",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The first-party abstract reports roughly 44% FLOP reduction with improved perplexity/accuracy and avoids costly neuron maskers. Directly relevant to sparsity, compute allocation, and efficient Transformer inference.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning"
+    ]
+  },
+  {
+    "title": "Agentic Plan Caching: Test-Time Memory for Fast and Cost-Efficient LLM Agents",
+    "venue": "arXiv 25",
+    "topic": "efficient agent systems and LLM serving",
+    "arxiv": "2506.14852",
+    "doi": "",
+    "official_id": "arXiv:2506.14852",
+    "paper_url": "https://arxiv.org/abs/2506.14852",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Direct serving-cost and latency optimization. First-party abstract reports average cost reduction of 50.31% and latency reduction of 27.28% while maintaining performance; strongly relevant to agent runtime, caching, and serving.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -39954,6 +40081,27 @@
     ]
   },
   {
+    "title": "Guiding Data Collection via Factored Scaling Curves",
+    "venue": "arXiv 25",
+    "topic": "Sample-efficient Physical AI data collection",
+    "arxiv": "2505.07728",
+    "doi": "",
+    "official_id": "arXiv:2505.07728",
+    "paper_url": "https://arxiv.org/abs/2505.07728",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": true,
+    "decision": "PROMOTE_STRONG",
+    "why": "The first-party abstract directly addresses prohibitively expensive exhaustive data collection for generalist imitation policies and reports up to 26% higher real-world success with targeted collection. This is a strong, protected Physical-AI sample-efficiency contribution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "HALO: Hadamard-Assisted Lower-Precision Optimization for LLMs",
     "venue": "arXiv 25",
     "topic": "quantization/distributed training",
@@ -40210,6 +40358,27 @@
     "physical_ai": false,
     "decision": "PROMOTE_STRONG",
     "why": "Influential open benchmark for correctness-and-speed of generated kernels over 250 PyTorch workloads.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
+    "title": "Kevin: Multi-Turn RL for Generating CUDA Kernels",
+    "venue": "arXiv 25",
+    "topic": "GPU kernel generation and optimization",
+    "arxiv": "2507.11948",
+    "doi": "",
+    "official_id": "arXiv:2507.11948",
+    "paper_url": "https://arxiv.org/abs/2507.11948",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Directly targets GPU kernel correctness and speed. First-party abstract reports mean speedup improving from 0.53x to 1.10x over PyTorch eager and improved kernel correctness; high-value for GPU DSL/compiler and kernel optimization.",
     "published_at": "",
     "updated_at": "",
     "is_latest_30d": false,
@@ -40483,6 +40652,28 @@
     ]
   },
   {
+    "title": "LowRA: Accurate and Efficient LoRA Fine-Tuning of LLMs under 2 Bits",
+    "venue": "arXiv 25",
+    "topic": "LLM quantization and efficient fine-tuning",
+    "arxiv": "2502.08141",
+    "doi": "",
+    "official_id": "arXiv:2502.08141",
+    "paper_url": "https://arxiv.org/abs/2502.08141",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Core efficient-ML contribution: first-party abstract reports accuracy down to 1.15 bits per parameter and up to 50% memory reduction, directly relevant to quantization, CUDA kernels, and resource-constrained LLM adaptation.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "LServe: Efficient Long-sequence LLM Serving with Unified Sparse Attention",
     "venue": "arXiv 25",
     "topic": "LLM serving / sparse attention",
@@ -40697,6 +40888,27 @@
     "physical_ai": false,
     "decision": "PROMOTE_STRONG",
     "why": "Floorline performance model and empirical bottleneck analysis across three deployed neuromorphic inference accelerators.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Modeling Language as a Sequence of Thoughts",
+    "venue": "arXiv 25",
+    "topic": "Data- and parameter-efficient language modeling",
+    "arxiv": "2512.25026",
+    "doi": "",
+    "official_id": "arXiv:2512.25026",
+    "paper_url": "https://arxiv.org/abs/2512.25026",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The first-party abstract reports that matched GPT-2 runs require approximately 5-8% more data and 33-42% more parameters to match its test loss. This is direct data/parameter-efficiency evidence and a strong model-architecture candidate.",
     "published_at": "",
     "updated_at": "",
     "is_latest_30d": false,
@@ -41603,6 +41815,28 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Sparsity / Pruning"
+    ]
+  },
+  {
+    "title": "Scaling Recurrent Neural Networks to a Billion Parameters with Zero-Order Optimization",
+    "venue": "arXiv 25",
+    "topic": "memory-efficient training and long-context inference",
+    "arxiv": "2505.17852",
+    "doi": "",
+    "official_id": "arXiv:2505.17852",
+    "paper_url": "https://arxiv.org/abs/2505.17852",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Strong efficient-ML contribution: the abstract reports up to 19x convergence-rate gains in settings, orders-of-magnitude lower memory/cost than BPTT, and compatibility with FlashRNN/distributed inference. Relevant to training memory and long-context architecture.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context",
+      "Distributed Training / Inference"
     ]
   },
   {
@@ -43529,6 +43763,27 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "Expected Reward Prediction, with Applications to Model Routing",
+    "venue": "arXiv 26",
+    "topic": "LLM inference routing and cost-aware serving",
+    "arxiv": "2603.20217",
+    "doi": "",
+    "official_id": "arXiv:2603.20217",
+    "paper_url": "https://arxiv.org/abs/2603.20217",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The first-party abstract directly studies inference-time model routing under computational-cost constraints and reports improved reward versus category-level routing baselines. It is a strong candidate for efficient LLM serving and model-routing systems.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving"
     ]
   },
   {
@@ -45980,6 +46235,27 @@
     ]
   },
   {
+    "title": "Test-Time Scaling Makes Overtraining Compute-Optimal",
+    "venue": "arXiv 26",
+    "topic": "Compute-optimal LLM training and inference",
+    "arxiv": "2604.01411",
+    "doi": "",
+    "official_id": "arXiv:2604.01411",
+    "paper_url": "https://arxiv.org/abs/2604.01411",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The first-party abstract explicitly models training and test-time compute jointly, finds compute-optimal decisions outside standard scaling suites, and validates heavily overtrained models. This is a strong canonical insight for compute-optimal ML training and inference.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "The Multipath Reliable Connection (MRC) Transport",
     "venue": "arXiv 26",
     "topic": "distributed training/inference",
@@ -46109,6 +46385,27 @@
     "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving"
+    ]
+  },
+  {
+    "title": "TRACE: Capability-Targeted Agentic Training",
+    "venue": "arXiv 26",
+    "topic": "Sample-efficient agent training",
+    "arxiv": "2604.05336",
+    "doi": "",
+    "official_id": "arXiv:2604.05336",
+    "paper_url": "https://arxiv.org/abs/2604.05336",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The abstract reports that TRACE uses fewer than one-fourth the rollouts of strong fine-tuning baselines while achieving higher final accuracy on two agent benchmarks. This is a direct sample-efficiency improvement for agent training and merits Strong.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Reasoning / Agents"
     ]
   },
   {

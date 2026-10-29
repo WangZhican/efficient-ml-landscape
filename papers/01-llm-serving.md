@@ -1,6 +1,6 @@
 # 01 · LLM Serving
 
-> **2073 canonical papers** mapped here, plus a broader **1552-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **2075 canonical papers** mapped here, plus a broader **1552-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -1561,7 +1561,7 @@
 | **P2 · Relevant** | **A Drosophila Whole-Connectome Network Can Learn Human-Designed Cognitive Tasks** | arXiv 2026 | llm_serving,gen | [Link](https://arxiv.org/abs/2610.10014) | — |
 | **P2 · Relevant** | **A differentiable Lagrangian-coupled 3D Gaussian Splatting-SPH model for forward simulation and inverse analysis in solid mechanics** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.04336) | — |
 
-## 🏛️ Classical / Historical · 1676 canonical
+## 🏛️ Classical / Historical · 1678 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -2204,6 +2204,7 @@
 | **Canonical** | **Accelerating Diffusion Large Language Models with SlowFast Sampling: The Three Golden Principles** | arXiv 25 | Diffusion LLM sampling / decode acceleration | [Link](https://arxiv.org/abs/2506.10848) | — |
 | **Canonical** | **Accelerating Streaming Video Large Language Models via Hierarchical Token Compression** | arXiv 25 | Streaming video MLLM serving / hierarchical caching | [Link](https://arxiv.org/abs/2512.00891) | — |
 | **Canonical** | **AdaptCache: KV Cache Native Storage Hierarchy for Low-Delay and High-Quality Language Model Serving** | arXiv 25 | KV cache/long-context | [Link](https://arxiv.org/abs/2509.00105) | — |
+| **Canonical** | **Agentic Plan Caching: Test-Time Memory for Fast and Cost-Efficient LLM Agents** | arXiv 25 | efficient agent systems and LLM serving | [Link](https://arxiv.org/abs/2506.14852) | — |
 | **Canonical** | **APE: Faster and Longer Context-Augmented Generation via Adaptive Parallel Encoding** | arXiv 25 | LLM prefill acceleration | [Link](https://arxiv.org/abs/2502.05431) | — |
 | **Canonical** | **Aragog: Just-in-Time Model Routing for Scalable Serving of Agentic Workflows** | arXiv 25 | agentic_serving_systems | [Link](https://arxiv.org/abs/2511.20975) | — |
 | **Canonical** | **AsyncVoice Agent: Real-Time Explanation for LLM Planning and Reasoning** | arXiv 25 | real_time_multimodal_agent_serving | [Link](https://arxiv.org/abs/2510.16156) | — |
@@ -2281,6 +2282,7 @@
 | **Canonical** | **EGM: Efficient Visual Grounding Language Models** | arXiv 26 | multimodal/MLLM serving | [Link](https://arxiv.org/abs/2601.13633) | — |
 | **Canonical** | **End-to-End Context Compression at Scale** | arXiv 26 |  | [Link](https://arxiv.org/abs/2606.09659) | — |
 | **Canonical** | **Every Microsecond Matters: Achieving Near Speed-of-Light Latency in GPU Collectives** | arXiv 26 | distributed inference/GPU communication | [Link](https://arxiv.org/abs/2607.16100) | — |
+| **Canonical** | **Expected Reward Prediction, with Applications to Model Routing** | arXiv 26 | LLM inference routing and cost-aware serving | [Link](https://arxiv.org/abs/2603.20217) | — |
 | **Canonical** | **Fast-dDrive: Efficient Block-Diffusion VLM for Autonomous Driving** | arXiv 26 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2605.23163) | — |
 | **Canonical** | **Fast-dVLM: Efficient Block-Diffusion VLM via Direct Conversion from Autoregressive VLM** | arXiv 26 | multimodal/MLLM serving | [Link](https://arxiv.org/abs/2604.06832) | — |
 | **Canonical** | **Flash-Unified: A Training-Free and Task-Aware Acceleration Framework for Native Unified Models** | arXiv 26 | Unified multimodal model serving / task-aware inference | [Link](https://arxiv.org/abs/2603.15271) | — |

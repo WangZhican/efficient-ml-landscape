@@ -1,6 +1,6 @@
 # 🆕 Latest 30 Days
 
-> Rolling 30-day view ending **2026-10-29**: **5532 tracked papers = 1007 P0 + 1427 P1 + 3098 P2**. Topical relevance determines visibility; quality determines priority. The classical census remains stricter.
+> Rolling 30-day view ending **2026-10-29**: **5533 tracked papers = 1007 P0 + 1427 P1 + 3099 P2**. Topical relevance determines visibility; quality determines priority. The classical census remains stricter.
 
 [← Paper Library](ALL_PAPERS.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/latest_30d.json) · [CSV](../data/latest_30d.csv)
 
@@ -2980,6 +2980,7 @@
 | **P2 · Relevant** | **GazeAct: A Human-Gaze-Annotated Manipulation Dataset for Attention-Regularized Policies** | arXiv 2026 | Physical AI / gaze datasets | [Link](https://arxiv.org/abs/2610.24507) | — |
 | **P2 · Relevant** | **HiPPO Functional Memory: Coordinate-Queryable Attention for Irregular Time Series** | arXiv 2026 | reusable attention memory | [Link](https://arxiv.org/abs/2610.24501) | — |
 | **P2 · Relevant** | **StarMind: Challenges and Opportunities in Orbital Computing** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.26916) | — |
+| **P2 · Relevant** | **Steerable Pluralistic Policy Alignment from Anonymized Crowd Feedback** | arXiv 2026 | RL / post-training efficiency | [Link](https://arxiv.org/abs/2610.26914) | — |
 | **P2 · Relevant** | **Semantic Routing Framework for Multi-Domain Telecom Intent-Based Networking** | arXiv 2026 | adjacent_efficient_ml | [Link](https://arxiv.org/abs/2610.24487) | — |
 | **P2 · Relevant** | **MedPAO-Assist: Edge-Deployable, Modality-Aware Agentic AI for Radiology Report Structuring** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.26913) | — |
 | **P2 · Relevant** | **Beyond Recall Saturation: Scaling Hard-Negative Reranker Training for Industrial Legal Retrieval** | arXiv 2026 | retrieval pipeline optimization | [Link](https://arxiv.org/abs/2610.24478) | — |

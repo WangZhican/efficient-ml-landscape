@@ -1,6 +1,6 @@
 # 13 · Efficient Reasoning / Agents
 
-> **1033 canonical papers** mapped here, plus a broader **1730-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **1036 canonical papers** mapped here, plus a broader **1730-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -1739,7 +1739,7 @@
 | **P2 · Relevant** | **A Privileged Teacher That Only Scores Cannot Search: Critique-Conditioned On-Policy Self-Distillation for Reasoning** | arXiv 2026 | efficient_reasoning_agents | [Link](https://arxiv.org/abs/2610.13744) | — |
 | **P2 · Relevant** | **A Local Agentic AI Framework to Generate Edge Case Scenarios for Safety Assurance** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.13479) | — |
 
-## 🏛️ Classical / Historical · 806 canonical
+## 🏛️ Classical / Historical · 809 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -2109,6 +2109,7 @@
 | **Canonical** | **TinyAgent: Function Calling at the Edge** | arXiv 24 | efficient_ml_research | [Link](https://arxiv.org/abs/2409.00608) | — |
 | **Canonical** | **$\texttt{SPECS}$: Faster Test-Time Scaling through Speculative Drafts** | arXiv 25 | efficient_ml_research | [Link](https://arxiv.org/abs/2506.15733) | — |
 | **Canonical** | **Accelerating Large-Scale Reasoning Model Inference with Sparse Self-Speculative Decoding** | arXiv 25 | speculative decoding | [Link](https://arxiv.org/abs/2512.01278) | — |
+| **Canonical** | **Agentic Plan Caching: Test-Time Memory for Fast and Cost-Efficient LLM Agents** | arXiv 25 | efficient agent systems and LLM serving | [Link](https://arxiv.org/abs/2506.14852) | — |
 | **Canonical** | **An Information Theoretic Perspective on Agentic System Design** | arXiv 25 | efficient reasoning/agent systems; edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2512.21720) | — |
 | **Canonical** | **Aragog: Just-in-Time Model Routing for Scalable Serving of Agentic Workflows** | arXiv 25 | agentic_serving_systems | [Link](https://arxiv.org/abs/2511.20975) | — |
 | **Canonical** | **AsyncVoice Agent: Real-Time Explanation for LLM Planning and Reasoning** | arXiv 25 | real_time_multimodal_agent_serving | [Link](https://arxiv.org/abs/2510.16156) | — |
@@ -2159,7 +2160,9 @@
 | **Canonical** | **Squeeze Evolve: Unified Multi-Model Orchestration for Verifier-Free Evolution** | arXiv 26 | efficient reasoning / agent orchestration / model routing | [Link](https://arxiv.org/abs/2604.07725) | [Repo](https://squeeze-evolve.github.io/) |
 | **Canonical** | **STaR-KV: Spatio-Temporal Adaptive Re-weighting for KV Cache Compression in GUI Vision-Language Models** | arXiv 26 | GUI agent runtime / multimodal KV-cache compression | [Link](https://arxiv.org/abs/2606.01790) | — |
 | **Canonical** | **StreamMeCo: Long-Term Agent Memory Compression for Efficient Streaming Video Understanding** | arXiv 26 | Streaming multimodal agent memory / retrieval acceleration | [Link](https://arxiv.org/abs/2604.09000) | — |
+| **Canonical** | **Test-Time Scaling Makes Overtraining Compute-Optimal** | arXiv 26 | Compute-optimal LLM training and inference | [Link](https://arxiv.org/abs/2604.01411) | — |
 | **Canonical** | **Think Short, Defer Smart, Act, and Repeat: Calibrated Reasoning and Uncertainty-Aware Deferral for Edge LLM Agents** | arXiv 26 | cloud_edge | [Link](https://arxiv.org/abs/2607.26865) | — |
+| **Canonical** | **TRACE: Capability-Targeted Agentic Training** | arXiv 26 | Sample-efficient agent training | [Link](https://arxiv.org/abs/2604.05336) | — |
 | **Canonical** | **TriAttention: Efficient Long Reasoning with Trigonometric KV Compression** | arXiv 26 | KV cache/long-context; efficient attention; efficient reasoning | [Link](https://arxiv.org/abs/2604.04921) | [Repo](https://proceedings.mlr.press/v306/mao26e.html) |
 | **Canonical** | **Video = World + Event Stream** | arXiv 26 | vla_wam | [Link](https://arxiv.org/abs/2607.15038) | — |
 | **Canonical** | **XGrammar-2: Dynamic and Efficient Structured Generation Engine for Agentic LLMs** | arXiv 26 |  | [Link](https://arxiv.org/abs/2601.04426) | — |
