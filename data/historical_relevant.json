@@ -68727,28 +68727,6 @@
       ]
     },
     {
-      "title": "HARMONY: A Scalable Distributed Vector Database for High-Throughput Approximate Nearest Neighbor Search",
-      "venue": "arXiv 25",
-      "topic": "LLM retrieval/vector database",
-      "arxiv": "2506.14707",
-      "doi": "",
-      "official_id": "arXiv:2506.14707",
-      "paper_url": "https://arxiv.org/abs/2506.14707",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "physical_ai": false,
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "Distributed vector search system with 4.63x reported throughput; adjacent to retrieval-serving infrastructure.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": false,
-      "directions": [
-        "LLM Serving",
-        "Distributed Training / Inference"
-      ]
-    },
-    {
       "title": "SpecRouter: Adaptive Routing for Multi-Level Speculative Decoding in Large Language Models",
       "venue": "arXiv 25",
       "topic": "speculative decoding",
@@ -74284,27 +74262,6 @@
       "is_latest_30d": false,
       "directions": [
         "GPU Kernel / DSL / Compiler"
-      ]
-    },
-    {
-      "title": "TensorSocket: Shared Data Loading for Deep Learning Training",
-      "venue": "SIGMOD 2026",
-      "topic": "deep-learning training/data-loading systems",
-      "arxiv": "",
-      "doi": "10.1145/3749185",
-      "official_id": "doi:10.1145/3749185",
-      "paper_url": "https://dl.acm.org/doi/10.1145/3749185",
-      "code_url": "",
-      "formal_class": "WATCH",
-      "physical_ai": false,
-      "decision": "WATCH",
-      "tracking_tier": "P1 · Watch",
-      "why": "First-party SIGMOD detailed-program title and author list directly identify a shared data-loading system for deep-learning training; retain as a high-value systems lead pending abstract review.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": false,
-      "directions": [
-        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -184978,6 +184935,48 @@
       "decision": "P2_RELEVANT_LOW_PRIORITY",
       "tracking_tier": "P2 · Relevant",
       "why": "SPINet integrates multiple segmentation pathways into a single-shot flow for efficient vision inference; older work with limited runtime detail in the abstract.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "LICO: An SIMD-Aware High-Performance Learned Inverted Index Compression Framework",
+      "venue": "SIGMOD 2026",
+      "topic": "Learned inverted-index compression; SIMD; AVX2/AVX-512; efficient retrieval",
+      "arxiv": "",
+      "doi": "10.1145/3802079",
+      "official_id": "doi:10.1145/3802079",
+      "paper_url": "https://dl.acm.org/doi/10.1145/3802079",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "First-party SIGMOD accepted-paper identity and official author repository establish a learned inverted-index compression framework with scalar, AVX2 and AVX-512 implementations. Metadata-retain pending first-party abstract verification.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Integrating Vector Databases across Embedding Models",
+      "venue": "SIGMOD 2026",
+      "topic": "Vector databases; embedding-model interoperability; retrieval systems",
+      "arxiv": "",
+      "doi": "10.1145/3769803",
+      "official_id": "doi:10.1145/3769803",
+      "paper_url": "https://dl.acm.org/doi/10.1145/3769803",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "First-party Edinburgh author-institution publication page and official SIGMOD accepted-paper identity establish cross-embedding-model vector-database integration. Metadata-retain because the current source does not establish a direct efficiency improvement.",
       "published_at": "",
       "updated_at": "",
       "is_latest_30d": false,

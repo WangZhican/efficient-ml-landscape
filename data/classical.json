@@ -90860,6 +90860,29 @@
     ]
   },
   {
+    "title": "HARMONY: A Scalable Distributed Vector Database for High-Throughput Approximate Nearest Neighbor Search",
+    "venue": "SIGMOD 2026",
+    "topic": "Distributed vector databases; ANNS; partitioning; load balancing; communication-efficient retrieval",
+    "arxiv": "2506.14707",
+    "doi": "10.1145/3749167",
+    "official_id": "doi:10.1145/3749167",
+    "paper_url": "https://arxiv.org/abs/2506.14707",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Official arXiv metadata and abstract establish multi-granularity dimension/vector partitioning and early-stop pruning to reduce load imbalance and communication overhead; it reports 4.63x average throughput over leading distributed vector databases in four nodes and 58% improvement on skewed workloads.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "High-Throughput, Cost-Effective Billion-Scale Vector Search with a Single GPU",
     "venue": "SIGMOD 2026",
     "topic": "GPU vector search; billion-scale ANN; PCIe and SSD data movement",
@@ -90884,23 +90907,25 @@
   {
     "title": "HotPrefix: Hotness-Aware KV Cache Scheduling for Efficient Prefix Sharing in LLM Inference Systems",
     "venue": "SIGMOD 2026",
-    "topic": "prefix KV-cache scheduling / LLM serving",
+    "topic": "LLM serving; KV cache; prefix sharing; cache scheduling; CPU-GPU memory tiering",
     "arxiv": "",
     "doi": "10.1145/3749168",
-    "official_id": "DOI_10.1145_3749168",
-    "paper_url": "https://doi.org/10.1145/3749168",
+    "official_id": "doi:10.1145/3749168",
+    "paper_url": "https://dl.acm.org/doi/10.1145/3749168",
     "code_url": "",
     "formal_class": "CANONICAL_HIGH_VALUE",
     "physical_ai": false,
-    "decision": "BACKFILL_HIGH",
-    "why": "",
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party author-hosted paper abstract establishes dynamic prefix-node hotness tracking, selective CPU cache admission, hotness promotion and I/O-computation pipelining. Implemented in SGLang, it reports up to 2.25x lower latency and higher throughput than vLLM with prefix sharing enabled, and up to 2x against SGLang.",
     "published_at": "",
     "updated_at": "",
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
       "LLM Serving",
-      "KV Cache / Long Context"
+      "KV Cache / Long Context",
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -91314,6 +91339,29 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Efficient Reasoning / Agents"
+    ]
+  },
+  {
+    "title": "TensorSocket: Shared Data Loading for Deep Learning Training",
+    "venue": "SIGMOD 2026",
+    "topic": "Deep learning training; shared data loaders; CPU-GPU pipeline bottlenecks; training throughput",
+    "arxiv": "2409.18749",
+    "doi": "10.1145/3749185",
+    "official_id": "doi:10.1145/3749185",
+    "paper_url": "https://arxiv.org/abs/2409.18749",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Official arXiv metadata and abstract establish shared data-loader execution across collocated training processes to eliminate redundant preprocessing and data duplication. It reports up to 100% training-throughput improvement and 50% CPU-resource cost savings in cloud settings.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
