@@ -1,6 +1,6 @@
 # 03 · KV Cache / Long Context
 
-> **840 canonical papers** mapped here, plus a broader **215-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **843 canonical papers** mapped here, plus a broader **215-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -224,7 +224,7 @@
 | **P1 · Watch** | **Budgeted Cache Repair for Cross-Context KV-Cache Reuse** | arXiv 2026 | KV cache / LLM serving | [Link](https://arxiv.org/abs/2610.02233) | — |
 | **P0 · Strong** | **Beyond Capacity: Scalable MoE LLM Inference via High-Bandwidth Flash with Direct GPU and HBM Paths** | Fresh / preprint | MoE serving / high-bandwidth flash architecture | [Link](https://arxiv.org/abs/2608.14333) | — |
 
-## 🏛️ Classical / Historical · 716 canonical
+## 🏛️ Classical / Historical · 719 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -481,6 +481,7 @@
 | **Canonical** | **FogROS2-FT: Fault Tolerant Cloud Robotics** | arXiv 24 | efficient_ml_systems | [Link](https://arxiv.org/abs/2412.05408) | — |
 | **Canonical** | **GEAR: An Efficient KV Cache Compression Recipe for Near-Lossless Generative Inference of LLM** | arXiv 24 | kv_cache_compression | [Link](https://arxiv.org/abs/2403.05527) | — |
 | **Canonical** | **Get More with LESS: Synthesizing Recurrence with KV Cache Compression for Efficient LLM Inference** | arXiv 24 | KV cache/long-context | [Link](https://arxiv.org/abs/2402.09398) | — |
+| **Canonical** | **GoldFinch: High Performance RWKV/Transformer Hybrid with Linear Pre-Fill and Extreme KV-Cache Compression** | arXiv 24 | Efficient LLM inference | [Link](https://arxiv.org/abs/2407.12077) | — |
 | **Canonical** | **HashAttention: Semantic Sparsity for Faster Inference** | arXiv 24 | efficient_llm_serving_and_systems | [Link](https://arxiv.org/abs/2412.14468) | — |
 | **Canonical** | **Hydragen: High-Throughput LLM Inference with Shared Prefixes** | arXiv 24 | LLM serving / prefix cache | [Link](https://arxiv.org/abs/2402.05099) | — |
 | **Canonical** | **Jamba-1.5: Hybrid Transformer-Mamba Models at Scale** | arXiv 24 | LLM serving; long-context; quantization; MoE systems | [Link](https://arxiv.org/abs/2408.12570) | [Repo](https://www.ai21.com/jamba) |
@@ -515,6 +516,7 @@
 | **Canonical** | **Cartridges: Lightweight and General-Purpose Long Context Representations via Self-Study** | arXiv 25 | KV cache/long-context / LLM serving / cache compression / offline self-study | [Link](https://arxiv.org/abs/2506.06266) | [Repo](https://github.com/HazyResearch/cartridges) |
 | **Canonical** | **DiSCo: Device-Server Collaborative LLM-Based Text Streaming Services** | arXiv 25 | LLM serving | [Link](https://arxiv.org/abs/2502.11417) | — |
 | **Canonical** | **dKV-Cache: The Cache for Diffusion Language Models** | arXiv 25 | KV cache/long-context; diffusion/flow acceleration | [Link](https://arxiv.org/abs/2505.15781) | — |
+| **Canonical** | **EG-MLA: Embedding-Gated Multi-head Latent Attention for Scalable and Efficient LLMs** | arXiv 25 | Efficient attention and KV cache | [Link](https://arxiv.org/abs/2509.16686) | — |
 | **Canonical** | **ElasticMM: Efficient Multimodal LLMs Serving with Elastic Multimodal Parallelism** | arXiv 25 | multimodal/MLLM serving | [Link](https://arxiv.org/abs/2507.10069) | — |
 | **Canonical** | **EVICPRESS: Joint KV-Cache Compression and Eviction for Efficient LLM Serving** | arXiv 25 | KV cache/long-context | [Link](https://arxiv.org/abs/2512.14946) | — |
 | **Canonical** | **FastCache: Optimizing Multimodal LLM Serving through Lightweight KV-Cache Compression Framework** | arXiv 25 | multimodal/MLLM serving | [Link](https://arxiv.org/abs/2503.08461) | — |
@@ -543,6 +545,7 @@
 | **Canonical** | **End-to-End Transformer Acceleration Through Processing-in-Memory Architectures** | arXiv 26 | pim_transformer_acceleration | [Link](https://arxiv.org/abs/2601.14260) | — |
 | **Canonical** | **HERALD: High-Throughput Block Diffusion LLM Serving via CPU-GPU Cooperative KV Cache Retrieval** | arXiv 26 | efficient_llm_serving_and_systems | [Link](https://arxiv.org/abs/2606.21633) | — |
 | **Canonical** | **Idleness is Relative: Exploiting Tool-Call Idle Windows for Offloading in Agentic Systems with MORI** | arXiv 26 | efficient_llm_serving_and_systems | [Link](https://arxiv.org/abs/2606.00866) | — |
+| **Canonical** | **Key-Value Means: Transformers with Expandable Block-Recurrent Compressed Memory** | arXiv 26 | Efficient attention and long context | [Link](https://arxiv.org/abs/2605.09877) | — |
 | **Canonical** | **LongLive-2.0: An NVFP4 Parallel Infrastructure for Long Video Generation** | arXiv 26 | video generation acceleration; quantization; distributed training/inference; GPU systems | [Link](https://arxiv.org/abs/2605.18739) | [Repo](https://github.com/NVlabs/LongLive) |
 | **Canonical** | **Multi-Mixer Models: Flexible Sequence Modeling with Shared Representations** | arXiv 26 | hybrid sequence models; long-context inference | [Link](https://arxiv.org/abs/2605.28769) | — |
 | **Canonical** | **Neural Introspection Gating for Adaptive KV-Cache Reuse in Vision-Language-Action Models** | arXiv 26 | vla_wam | [Link](https://arxiv.org/abs/2608.10824) | — |

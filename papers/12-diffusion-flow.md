@@ -1,6 +1,6 @@
 # 12 · Diffusion / Flow Acceleration
 
-> **638 canonical papers** mapped here, plus a broader **406-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **639 canonical papers** mapped here, plus a broader **406-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -415,7 +415,7 @@
 | **P0 · Strong** | **An Empirical Study of Training Pixel-Space Text-to-Image Diffusion Models** | Fresh / preprint | image generation acceleration | [Link](https://arxiv.org/abs/2608.16887) | — |
 | **P2 · Relevant** | **ALIVE: Interaction-Aligned Object Insertion for First-Frame-Guided Video Editing** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.08779) | — |
 
-## 🏛️ Classical / Historical · 507 canonical
+## 🏛️ Classical / Historical · 508 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -914,6 +914,7 @@
 | **Canonical** | **QFactory** | USENIX ATC 2025 | production KV-cache + quantized-kernel compiler + diffusion workflow serving | [Link](https://www.usenix.org/system/files/atc25-zhang-qihao.pdf) | — |
 | **Canonical** | **6Bit-Diffusion: Inference-Time Mixed-Precision Quantization for Video Diffusion Models** | Fresh / preprint | quantization | [Link](https://arxiv.org/abs/2603.18742) | — |
 | **Canonical** | **Affix Cache for Diffusion Large Language Models** | Fresh / preprint | diffusion LLM inference / KV cache / serving | [Link](https://arxiv.org/abs/2608.26140) | — |
+| **Canonical** | **AnchorDP3: 3D Affordance Guided Sparse Diffusion Policy for Robotic Manipulation** | Fresh / preprint | VLA/WAM; Physical AI; sparse diffusion policy; action prediction | [Link](https://arxiv.org/abs/2506.19269) | — |
 | **Canonical** | **Causal-rCM: A Unified Teacher-Forcing and Self-Forcing Open Recipe for Autoregressive Diffusion Distillation in Streaming Video Generation and Interactive World Models** | Fresh / preprint | diffusion/flow acceleration | [Link](https://arxiv.org/abs/2606.25473) | — |
 | **Canonical** | **ChebBooster: A Training-Free Approach for Efficient Diffusion Transformer Inference via Chebyshev-Inspired Extrapolation** | Fresh / preprint | diffusion/flow acceleration / training-free DiT extrapolation / cache-style compute skipping | [Link](https://arxiv.org/abs/2608.23429) | — |
 | **Canonical** | **Chipmunk: Training-Free Acceleration of Diffusion Transformers with Dynamic Column-Sparse Deltas** | Fresh / preprint | video diffusion acceleration sparse kernels | [Link](https://arxiv.org/abs/2506.03275) | — |

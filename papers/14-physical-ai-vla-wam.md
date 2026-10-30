@@ -1,6 +1,6 @@
 # 14 · VLA / WAM / Physical AI
 
-> **647 canonical papers** mapped here, plus a broader **1835-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **649 canonical papers** mapped here, plus a broader **1835-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -1844,7 +1844,7 @@
 | **P2 · Relevant** | **$λ_0$: Scaling Open-World Egocentric Human Data for Humanoid Loco-Manipulation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18950) | — |
 | **P1 · Watch** | **$\Psi$-0.6: Adaptive Streams of Thought in a Unified Vision-Language World Model** | arXiv 2026 | physical_ai | [Link](https://arxiv.org/abs/2610.32177) | — |
 
-## 🏛️ Classical / Historical · 457 canonical
+## 🏛️ Classical / Historical · 459 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -2303,10 +2303,12 @@
 | **Canonical** | **π*₀.₆: a VLA That Learns From Experience** | RSS 2026 | VLA/WAM/Physical AI | [Link](https://www.roboticsproceedings.org/rss22/p087.html) | — |
 | **Canonical** | **Sirius: A Dual-Chiplet System for Multimodal Embodied AI with Heterogeneous RVV Cores, Dense and Sparse Accelerators** | VLSI Symposium 2026 | Physical AI / multimodal embodied edge accelerator | [Link](https://doi.org/10.1109/VLSITechnologyandCir65830.2026.11577229) | — |
 | **Canonical** | **SR-VLNA: A 5.0–23.9 mJ/meter Spatial Reasoning-based Vision Language Navigation Accelerator for Embodied Agents** | VLSI Symposium 2026 | Physical AI / vision-language navigation accelerator | [Link](https://doi.org/10.1109/VLSITechnologyandCir65830.2026.11577427) | — |
+| **Canonical** | **An Atomic Skill Library Construction Method for Data-Efficient Embodied Manipulation** | Fresh / preprint | Physical AI; data-efficient embodied manipulation; VLA | [Link](https://arxiv.org/abs/2501.15068) | — |
+| **Canonical** | **AnchorDP3: 3D Affordance Guided Sparse Diffusion Policy for Robotic Manipulation** | Fresh / preprint | VLA/WAM; Physical AI; sparse diffusion policy; action prediction | [Link](https://arxiv.org/abs/2506.19269) | — |
 | **Canonical** | **FlashVLA: Streaming Action Decoding for Fast and Asynchronous VLA Inference** | Fresh / preprint | Physical AI / VLA serving / streaming action decoding | [Link](https://arxiv.org/abs/2608.27384) | — |
 | **Canonical** | **Just Noticeable Difference Modeling for Token Compression in Vision-Language-Action Models** | Fresh / preprint | Physical AI / VLA token compression / KV reuse / pruning | [Link](https://arxiv.org/abs/2608.21247) | — |
 
-## 🛡️ Protected historical P1 watch · 1064
+## 🛡️ Protected historical P1 watch · 1066
 
 [Browse the permanent Physical AI watch archive](PHYSICAL_AI_PROTECTED_WATCH.md) · [JSON](../data/physical_ai_protected_watch_archive.json)
 

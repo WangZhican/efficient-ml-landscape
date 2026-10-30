@@ -1,6 +1,6 @@
 # 06 · Efficient Attention
 
-> **619 canonical papers** mapped here, plus a broader **243-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **622 canonical papers** mapped here, plus a broader **243-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -252,7 +252,7 @@
 | **P2 · Relevant** | **ACSAN: All-Convolutional Self-Attention Network Integrating Convolutional Operations with Vision Transformer** | arXiv 2026 | efficient attention / compact vision architectures | [Link](https://arxiv.org/abs/2610.35375) | — |
 | **P2 · Relevant** | **A Lightweight Attention-Based CNN with Saliency-Map Interpretability for Skin Cancer Detection** | arXiv | model-compression-efficiency | [Link](https://arxiv.org/abs/2610.37314) | — |
 
-## 🏛️ Classical / Historical · 505 canonical
+## 🏛️ Classical / Historical · 508 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -436,6 +436,7 @@
 | **Canonical** | **FlatFormer: Flattened Window Attention for Efficient Point Cloud Transformer** | arXiv 23 | efficient attention,Physical AI serving,edge AI | [Link](https://arxiv.org/abs/2301.08739) | [Repo](https://hanlab.mit.edu/projects/flatformer) |
 | **Canonical** | **LongLoRA: Efficient Fine-tuning of Long-Context Large Language Models** | arXiv 23 | efficient training / long context | [Link](https://arxiv.org/abs/2309.12307) | — |
 | **Canonical** | **Monarch Mixer: A Simple Sub-Quadratic GEMM-Based Architecture** | arXiv 23 | efficient attention alternatives; GPU kernel/architecture | [Link](https://arxiv.org/abs/2310.12109) | — |
+| **Canonical** | **RWKV: Reinventing RNNs for the Transformer Era** | arXiv 23 | Efficient sequence modeling | [Link](https://arxiv.org/abs/2305.13048) | — |
 | **Canonical** | **Zoology: Measuring and Improving Recall in Efficient Language Models** | arXiv 23 | efficient attention / long context | [Link](https://arxiv.org/abs/2312.04927) | — |
 | **Canonical** | **An Empirical Study of Mamba-based Language Models** | arXiv 24 | efficient attention,state space models,LLM inference,hybrid architectures | [Link](https://arxiv.org/abs/2406.07887) | — |
 | **Canonical** | **CLEAR: Conv-Like Linearization Revs Pre-Trained Diffusion Transformers Up** | arXiv 24 | efficient attention; diffusion/flow acceleration | [Link](https://arxiv.org/abs/2412.16112) | — |
@@ -474,6 +475,7 @@
 | **Canonical** | **D2Pruner: Debiased Importance and Structural Diversity for MLLM Token Pruning** | arXiv 25 | MLLM visual token pruning / spatial fidelity | [Link](https://arxiv.org/abs/2512.19443) | — |
 | **Canonical** | **DPad: Efficient Diffusion Language Models with Suffix Dropout** | arXiv 25 | diffusion_llm_acceleration | [Link](https://arxiv.org/abs/2508.14148) | — |
 | **Canonical** | **Efficient-vDiT: Efficient Video Diffusion Transformers With Attention Tile** | arXiv 25 | efficient_llm_serving_and_systems | [Link](https://arxiv.org/abs/2502.06155) | — |
+| **Canonical** | **EG-MLA: Embedding-Gated Multi-head Latent Attention for Scalable and Efficient LLMs** | arXiv 25 | Efficient attention and KV cache | [Link](https://arxiv.org/abs/2509.16686) | — |
 | **Canonical** | **Fast Video Generation with Sliding Tile Attention** | arXiv 25 | efficient_llm_serving_and_systems | [Link](https://arxiv.org/abs/2502.04507) | — |
 | **Canonical** | **FlashInfer: Efficient and Customizable Attention Engine for LLM Inference Serving** | arXiv 25 |  | [Link](https://arxiv.org/abs/2501.01005) | — |
 | **Canonical** | **FSA: An Alternative Efficient Implementation of Native Sparse Attention Kernel** | arXiv 25 | GPU sparse attention kernels | [Link](https://arxiv.org/abs/2508.18224) | — |
@@ -512,6 +514,7 @@
 | **Canonical** | **How Far Can Disaggregation Go? A Design-Space Exploration of Attention-FFN Disaggregation for Efficient MoE LLM Serving** | arXiv 26 | moe_disaggregated_serving | [Link](https://arxiv.org/abs/2605.28302) | — |
 | **Canonical** | **Inference Time Context Sparsity: Illusion or Opportunity?** | arXiv 26 | long_context_sparse_attention | [Link](https://arxiv.org/abs/2605.24168) | — |
 | **Canonical** | **JetViT: Efficient High-Resolution Vision Transformer with Post-Training Attention Search** | arXiv 26 | efficient attention | [Link](https://arxiv.org/abs/2605.26636) | — |
+| **Canonical** | **Key-Value Means: Transformers with Expandable Block-Recurrent Compressed Memory** | arXiv 26 | Efficient attention and long context | [Link](https://arxiv.org/abs/2605.09877) | — |
 | **Canonical** | **Light Interaction: Training-Free Inference Acceleration for Interactive Video World Models** | arXiv 26 | interactive world-model serving / diffusion cache / sparse attention / Triton | [Link](https://arxiv.org/abs/2605.31158) | — |
 | **Canonical** | **MonarchRT: Efficient Attention for Real-Time Video Generation** | arXiv 26 | video generation acceleration | [Link](https://arxiv.org/abs/2602.12271) | — |
 | **Canonical** | **Multi-Mixer Models: Flexible Sequence Modeling with Shared Representations** | arXiv 26 | hybrid sequence models; long-context inference | [Link](https://arxiv.org/abs/2605.28769) | — |

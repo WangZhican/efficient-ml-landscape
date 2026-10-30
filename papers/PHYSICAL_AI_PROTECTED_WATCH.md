@@ -1,6 +1,6 @@
 # 🛡️ Physical AI · Protected Historical Watch
 
-> **1064 older P1 papers** retained beyond the rolling 30-day window. This is a watchlist, not an expanded canonical/P0 claim.
+> **1066 older P1 papers** retained beyond the rolling 30-day window. This is a watchlist, not an expanded canonical/P0 claim.
 
 [← Physical AI direction](14-physical-ai-vla-wam.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/physical_ai_protected_watch_archive.json)
 
@@ -490,6 +490,7 @@
 | **P1 · Watch** | **Modeling What Changes: Sparse, Residual World Models for Object-Centric Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving / sparse world models / object-centric prediction | [Link](https://arxiv.org/abs/2609.02046) | — |
 | **P1 · Watch** | **MobileWAM: Bridging World Action Models to Mobile Manipulation with Chain-of-Foresight** | arXiv 26 | vla_wam | [Link](https://arxiv.org/abs/2608.04657) | — |
 | **P1 · Watch** | **MobileVLA-R1 2.0: RL-Enhanced Reasoning for Mobile Robot Control** | arXiv 2026 | VLA/WAM/Physical AI serving / mobile robot control / reasoning-action decoupling | [Link](https://arxiv.org/abs/2609.06251) | [Repo](https://github.com/AIGeeksGroup/MobileVLA-R1-2.0) |
+| **P1 · Watch** | **MM-Tracker: Motion Mamba with Margin Loss for UAV-platform Multiple Object Tracking** | Fresh / preprint | Efficient motion modeling; Mamba; edge/robotics perception | [Link](https://arxiv.org/abs/2407.10485) | — |
 | **P1 · Watch** | **MM-Future: Multi-Mode Joint World-Action Modeling for Autonomous Driving** | arXiv 26 | vla_wam | [Link](https://arxiv.org/abs/2609.20377) | — |
 | **P1 · Watch** | **MLPerf Automotive** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2510.27065) | — |
 | **P1 · Watch** | **MITE-Net: SWaP-Optimized 4K Video Tiny Target Perception for Embodied Edge SAR** | Fresh / preprint | LLM serving / video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.15830) | — |
@@ -712,6 +713,7 @@
 | **P1 · Watch** | **From Fixed Keys to Readable Schemas: Small Language Models for Vehicle Agent Function Calls** | arXiv 2026 | VLA/WAM/Physical AI / edge agents / on-device SLM / function calling | [Link](https://arxiv.org/abs/2609.09476) | — |
 | **P1 · Watch** | **From Feed-Forward to Flow: Unifying Reconstruction and Generation Is Easier Than You Think** | arXiv 2026 | physical,world_model,flow | [Link](https://arxiv.org/abs/2609.32761) | — |
 | **P1 · Watch** | **From Compliant to Rigid Contact Simulation: a Unified and Efficient Approach** | RSS 2024 | VLA/WAM/Physical AI | [Link](https://www.roboticsproceedings.org/rss20/p108.html) | — |
+| **P1 · Watch** | **Friction-Aware Safety Locomotion for Wheeled-legged Robots using Vision Language Models and Reinforcement Learning** | Fresh / preprint | Physical AI; VLM/RL; safety locomotion | [Link](https://arxiv.org/abs/2409.09845) | — |
 | **P1 · Watch** | **Frequency-Conditioned Flow Matching for Vision-Language-Action Models** | arXiv 2026 | VLA/WAM/Physical AI / flow matching / action generation | [Link](https://arxiv.org/abs/2609.10405) | — |
 | **P1 · Watch** | **FRAMES: Failure Recovery And Monitoring of Embodied Skills for Humanoid Loco-Manipulation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.22538) | — |
 | **P1 · Watch** | **FRAME: Factored Retrieval via Attribute Readouts for Object-Centric Scene Memory** | arXiv 2026 | VLA/WAM/Physical AI serving / scene memory / retrieval | [Link](https://arxiv.org/abs/2609.08886) | — |

@@ -36490,6 +36490,28 @@
     ]
   },
   {
+    "title": "RWKV: Reinventing RNNs for the Transformer Era",
+    "venue": "arXiv 23",
+    "topic": "Efficient sequence modeling",
+    "arxiv": "2305.13048",
+    "doi": "",
+    "official_id": "arXiv:2305.13048",
+    "paper_url": "https://arxiv.org/abs/2305.13048",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Foundational RWKV-4 linear-attention architecture. First-party arXiv metadata and abstract were checked; the method directly advances efficient ML architecture, inference, memory, or serving and is quality-gated as a high-value individual paper. Author-query provenance is not treated as institutional affiliation.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Efficient Attention"
+    ]
+  },
+  {
     "title": "TorchSparse++: Efficient Training and Inference Framework for Sparse Convolution on GPUs",
     "venue": "arXiv 23",
     "topic": "GPU Kernel / DSL / Compiler; Physical AI sparse 3D perception; edge GPU",
@@ -37407,6 +37429,27 @@
     ]
   },
   {
+    "title": "Eagle and Finch: RWKV with Matrix-Valued States and Dynamic Recurrence",
+    "venue": "arXiv 24",
+    "topic": "Efficient sequence modeling",
+    "arxiv": "2404.05892",
+    "doi": "",
+    "official_id": "arXiv:2404.05892",
+    "paper_url": "https://arxiv.org/abs/2404.05892",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "RWKV-5 Eagle and RWKV-6 Finch matrix-valued states and dynamic recurrence. First-party arXiv metadata and abstract were checked; the method directly advances efficient ML architecture, inference, memory, or serving and is quality-gated as a high-value individual paper. Author-query provenance is not treated as institutional affiliation.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving"
+    ]
+  },
+  {
     "title": "Efficient Expert Pruning for Sparse Mixture-of-Experts Language Models: Enhancing Performance and Reducing Inference Costs",
     "venue": "arXiv 24",
     "topic": "moe_pruning",
@@ -37532,6 +37575,27 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Sparsity / Pruning"
+    ]
+  },
+  {
+    "title": "Enhancing and Accelerating Large Language Models via Instruction-Aware Contextual Compression",
+    "venue": "arXiv 24",
+    "topic": "LLM context compression",
+    "arxiv": "2408.15491",
+    "doi": "",
+    "official_id": "arXiv:2408.15491",
+    "paper_url": "https://arxiv.org/abs/2408.15491",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Instruction-aware context compression reducing inference cost and latency. First-party arXiv metadata and abstract were checked; the method directly advances efficient ML architecture, inference, memory, or serving and is quality-gated as a high-value individual paper. Author-query provenance is not treated as institutional affiliation.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving"
     ]
   },
   {
@@ -37946,6 +38010,28 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Speculative Decoding"
+    ]
+  },
+  {
+    "title": "GoldFinch: High Performance RWKV/Transformer Hybrid with Linear Pre-Fill and Extreme KV-Cache Compression",
+    "venue": "arXiv 24",
+    "topic": "Efficient LLM inference",
+    "arxiv": "2407.12077",
+    "doi": "",
+    "official_id": "arXiv:2407.12077",
+    "paper_url": "https://arxiv.org/abs/2407.12077",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "GoldFinch linear prefill and extreme reusable KV-cache compression. First-party arXiv metadata and abstract were checked; the method directly advances efficient ML architecture, inference, memory, or serving and is quality-gated as a high-value individual paper. Author-query provenance is not treated as institutional affiliation.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context"
     ]
   },
   {
@@ -39781,6 +39867,27 @@
     ]
   },
   {
+    "title": "RWKV-TS: Beyond Traditional Recurrent Neural Network for Time Series Tasks",
+    "venue": "arXiv 24",
+    "topic": "Efficient time-series modeling",
+    "arxiv": "2401.09093",
+    "doi": "",
+    "official_id": "arXiv:2401.09093",
+    "paper_url": "https://arxiv.org/abs/2401.09093",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "RWKV-TS with linear sequence complexity and lower latency/memory. First-party arXiv metadata and abstract were checked; the method directly advances efficient ML architecture, inference, memory, or serving and is quality-gated as a high-value individual paper. Author-query provenance is not treated as institutional affiliation.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving"
+    ]
+  },
+  {
     "title": "S$^{2}$FT: Efficient, Scalable and Generalizable LLM Fine-tuning by Structured Sparsity",
     "venue": "arXiv 24",
     "topic": "sparse fine-tuning and serving",
@@ -40537,6 +40644,29 @@
     "directions": [
       "LLM Serving",
       "Sparsity / Pruning",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
+    "title": "VisualRWKV: Exploring Recurrent Neural Networks for Visual Language Models",
+    "venue": "arXiv 24",
+    "topic": "Efficient multimodal inference",
+    "arxiv": "2406.13362",
+    "doi": "",
+    "official_id": "arXiv:2406.13362",
+    "paper_url": "https://arxiv.org/abs/2406.13362",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "VisualRWKV linear-RNN VLM with measured speed and GPU-memory reductions. First-party arXiv metadata and abstract were checked; the method directly advances efficient ML architecture, inference, memory, or serving and is quality-gated as a high-value individual paper. Author-query provenance is not treated as institutional affiliation.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
       "Multimodal / MLLM Serving"
     ]
   },
@@ -41720,6 +41850,29 @@
       "Multimodal / MLLM Serving",
       "Diffusion / Flow Acceleration",
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "EG-MLA: Embedding-Gated Multi-head Latent Attention for Scalable and Efficient LLMs",
+    "venue": "arXiv 25",
+    "topic": "Efficient attention and KV cache",
+    "arxiv": "2509.16686",
+    "doi": "",
+    "official_id": "arXiv:2509.16686",
+    "paper_url": "https://arxiv.org/abs/2509.16686",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "EG-MLA embedding-gated latent attention for large KV-cache savings. First-party arXiv metadata and abstract were checked; the method directly advances efficient ML architecture, inference, memory, or serving and is quality-gated as a high-value individual paper. Author-query provenance is not treated as institutional affiliation.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Attention"
     ]
   },
   {
@@ -43684,6 +43837,28 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
+    "title": "ReProbe: Efficient Test-Time Scaling of Multi-Step Reasoning by Probing Internal States of Large Language Models",
+    "venue": "arXiv 25",
+    "topic": "Efficient reasoning systems",
+    "arxiv": "2511.06209",
+    "doi": "",
+    "official_id": "arXiv:2511.06209",
+    "paper_url": "https://arxiv.org/abs/2511.06209",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "ReProbe lightweight internal-state probes for test-time reasoning verification. First-party arXiv metadata and abstract were checked; the method directly advances efficient ML architecture, inference, memory, or serving and is quality-gated as a high-value individual paper. Author-query provenance is not treated as institutional affiliation.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Efficient Reasoning / Agents"
     ]
   },
   {
@@ -46749,6 +46924,29 @@
     "directions": [
       "LLM Serving",
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Key-Value Means: Transformers with Expandable Block-Recurrent Compressed Memory",
+    "venue": "arXiv 26",
+    "topic": "Efficient attention and long context",
+    "arxiv": "2605.09877",
+    "doi": "",
+    "official_id": "arXiv:2605.09877",
+    "paper_url": "https://arxiv.org/abs/2605.09877",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Key-Value Means expandable block-recurrent compressed memory. First-party arXiv metadata and abstract were checked; the method directly advances efficient ML architecture, inference, memory, or serving and is quality-gated as a high-value individual paper. Author-query provenance is not treated as institutional affiliation.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Efficient Attention"
     ]
   },
   {
@@ -93425,6 +93623,71 @@
     ]
   },
   {
+    "title": "An Atomic Skill Library Construction Method for Data-Efficient Embodied Manipulation",
+    "venue": "",
+    "topic": "Physical AI; data-efficient embodied manipulation; VLA",
+    "arxiv": "2501.15068",
+    "doi": "",
+    "official_id": "arXiv:2501.15068",
+    "paper_url": "https://arxiv.org/abs/2501.15068",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party arXiv abstract directly targets data-efficient embodied manipulation through reusable atomic skills and VLA fine-tuning, addressing the high demonstration/training-data cost in physical AI. Affiliation unverified.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Analyzing Fine-Grained Alignment and Enhancing Vision Understanding in Multimodal Language Models",
+    "venue": "",
+    "topic": "Multimodal LLMs; vision-token compression; alignment",
+    "arxiv": "2505.17316",
+    "doi": "",
+    "official_id": "arXiv:2505.17316",
+    "paper_url": "https://arxiv.org/abs/2505.17316",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party arXiv abstract analyzes projector-induced visual information compression and patch-level alignment in MLLMs, with a method to improve vision understanding. This is directly relevant to multimodal representation efficiency and token use; affiliation unverified.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
+    "title": "AnchorDP3: 3D Affordance Guided Sparse Diffusion Policy for Robotic Manipulation",
+    "venue": "",
+    "topic": "VLA/WAM; Physical AI; sparse diffusion policy; action prediction",
+    "arxiv": "2506.19269",
+    "doi": "",
+    "official_id": "arXiv:2506.19269",
+    "paper_url": "https://arxiv.org/abs/2506.19269",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party arXiv abstract describes a 3D-affordance-guided sparse diffusion policy that predicts task-relevant keyposes instead of dense trajectories, directly reducing the action prediction space for robotic manipulation. Retain as a high-value Physical-AI paper; author affiliation remains unverified.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Sparsity / Pruning",
+      "Diffusion / Flow Acceleration",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Arctic Long Sequence Training: Scalable And Efficient Training For Multi-Million Token Sequences",
     "venue": "",
     "topic": "long-context distributed training",
@@ -94401,6 +94664,27 @@
       "Speculative Decoding",
       "KV Cache / Long Context",
       "MoE Systems / Accelerators",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Stereo Image Coding for Machines with Joint Visual Feature Compression",
+    "venue": "",
+    "topic": "Machine vision; stereo feature compression; edge/cloud data movement",
+    "arxiv": "2502.14190",
+    "doi": "",
+    "official_id": "arXiv:2502.14190",
+    "paper_url": "https://arxiv.org/abs/2502.14190",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party arXiv abstract explicitly targets stereo image coding for machines and compresses joint visual features by removing spatial, inter-view, and cross-scale redundancy while preserving 3D task performance. Direct compression/efficient perception relevance; affiliation unverified.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
       "Edge / Cloud / Heterogeneous AI"
     ]
   },

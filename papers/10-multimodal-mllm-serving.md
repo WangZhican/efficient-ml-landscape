@@ -1,6 +1,6 @@
 # 10 · Multimodal / MLLM Serving
 
-> **579 canonical papers** mapped here, plus a broader **617-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **581 canonical papers** mapped here, plus a broader **617-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -626,7 +626,7 @@
 | **P2 · Relevant** | **A Safe Action Is Not Enough: Feasible-Future Decoding for Vision-Language-Action Policies** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.05166) | — |
 | **P1 · Watch** | **$\Psi$-0.6: Adaptive Streams of Thought in a Unified Vision-Language World Model** | arXiv 2026 | physical_ai | [Link](https://arxiv.org/abs/2610.32177) | — |
 
-## 🏛️ Classical / Historical · 475 canonical
+## 🏛️ Classical / Historical · 477 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -826,6 +826,7 @@
 | **Canonical** | **OA-CNNs: Omni-Adaptive Sparse CNNs for 3D Semantic Segmentation** | arXiv 24 | sparsity/pruning | [Link](https://arxiv.org/abs/2403.14418) | — |
 | **Canonical** | **SparseVLM: Visual Token Sparsification for Efficient Vision-Language Model Inference** | arXiv 24 | efficient_ml_research | [Link](https://arxiv.org/abs/2410.04417) | — |
 | **Canonical** | **VisionZip: Longer is Better but Not Necessary in Vision Language Models** | arXiv 24 | multimodal/MLLM serving | [Link](https://arxiv.org/abs/2412.04467) | — |
+| **Canonical** | **VisualRWKV: Exploring Recurrent Neural Networks for Visual Language Models** | arXiv 24 | Efficient multimodal inference | [Link](https://arxiv.org/abs/2406.13362) | — |
 | **Canonical** | **Accelerating Streaming Video Large Language Models via Hierarchical Token Compression** | arXiv 25 | Streaming video MLLM serving / hierarchical caching | [Link](https://arxiv.org/abs/2512.00891) | — |
 | **Canonical** | **AsyncVoice Agent: Real-Time Explanation for LLM Planning and Reasoning** | arXiv 25 | real_time_multimodal_agent_serving | [Link](https://arxiv.org/abs/2510.16156) | — |
 | **Canonical** | **D2Pruner: Debiased Importance and Structural Diversity for MLLM Token Pruning** | arXiv 25 | MLLM visual token pruning / spatial fidelity | [Link](https://arxiv.org/abs/2512.19443) | — |
@@ -1104,4 +1105,5 @@
 | **Canonical** | **Silicon-Oracle (Soracle): A Multi-Modal Autoregressive Model Accelerator for Context-Aware Assistance on Mobile Platform** | VLSI Symposium 2026 | multimodal autoregressive accelerator / mobile inference | [Link](https://doi.org/10.1109/VLSITechnologyandCir65830.2026.11577228) | — |
 | **Canonical** | **Sirius: A Dual-Chiplet System for Multimodal Embodied AI with Heterogeneous RVV Cores, Dense and Sparse Accelerators** | VLSI Symposium 2026 | Physical AI / multimodal embodied edge accelerator | [Link](https://doi.org/10.1109/VLSITechnologyandCir65830.2026.11577229) | — |
 | **Canonical** | **SR-VLNA: A 5.0–23.9 mJ/meter Spatial Reasoning-based Vision Language Navigation Accelerator for Embodied Agents** | VLSI Symposium 2026 | Physical AI / vision-language navigation accelerator | [Link](https://doi.org/10.1109/VLSITechnologyandCir65830.2026.11577427) | — |
+| **Canonical** | **Analyzing Fine-Grained Alignment and Enhancing Vision Understanding in Multimodal Language Models** | Fresh / preprint | Multimodal LLMs; vision-token compression; alignment | [Link](https://arxiv.org/abs/2505.17316) | — |
 | **Canonical** | **Just Noticeable Difference Modeling for Token Compression in Vision-Language-Action Models** | Fresh / preprint | Physical AI / VLA token compression / KV reuse / pruning | [Link](https://arxiv.org/abs/2608.21247) | — |

@@ -1,6 +1,6 @@
 # 05 · Sparsity / Pruning
 
-> **700 canonical papers** mapped here, plus a broader **389-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **701 canonical papers** mapped here, plus a broader **389-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -398,7 +398,7 @@
 | **P0 · Strong** | **AViTS: Adaptive Spatiotemporal Token Selection for Efficient Dynamic-Resolution Generation** | Fresh / preprint | diffusion/image generation acceleration / adaptive token selection | [Link](https://arxiv.org/abs/2608.17995) | — |
 | **P0 · Strong** | **AutoPruner: Agentic Depth Pruning for Vision-Language-Action Models** | arXiv 2026 | VLA model pruning | [Link](https://arxiv.org/abs/2610.23880) | — |
 
-## 🏛️ Classical / Historical · 581 canonical
+## 🏛️ Classical / Historical · 582 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -973,6 +973,7 @@
 | **Canonical** | **JENGA: Enhancing LLM Long-Context Fine-tuning with Contextual Token Sparsity** | USENIX ATC 2025 | long-context LLM fine-tuning / contextual token sparsity / kernels | [Link](https://www.usenix.org/system/files/atc25-wang-tuowei.pdf) | — |
 | **Canonical** | **Universal Checkpointing: A Flexible and Efficient Distributed Checkpointing System for Large-Scale DNN Training with Reconfigurable Parallelism** | USENIX ATC 2025 | distributed LLM training / elastic checkpointing / reconfigurable parallelism | [Link](https://www.usenix.org/system/files/atc25-lian.pdf) | — |
 | **Canonical** | **Sirius: A Dual-Chiplet System for Multimodal Embodied AI with Heterogeneous RVV Cores, Dense and Sparse Accelerators** | VLSI Symposium 2026 | Physical AI / multimodal embodied edge accelerator | [Link](https://doi.org/10.1109/VLSITechnologyandCir65830.2026.11577229) | — |
+| **Canonical** | **AnchorDP3: 3D Affordance Guided Sparse Diffusion Policy for Robotic Manipulation** | Fresh / preprint | VLA/WAM; Physical AI; sparse diffusion policy; action prediction | [Link](https://arxiv.org/abs/2506.19269) | — |
 | **Canonical** | **CAST: Continuous and Differentiable Semi-Structured Sparsity-Aware Training for Large Language Models** | Fresh / preprint | sparsity/pruning | [Link](https://arxiv.org/abs/2509.25996) | — |
 | **Canonical** | **Chipmunk: Training-Free Acceleration of Diffusion Transformers with Dynamic Column-Sparse Deltas** | Fresh / preprint | video diffusion acceleration sparse kernels | [Link](https://arxiv.org/abs/2506.03275) | — |
 | **Canonical** | **Just Noticeable Difference Modeling for Token Compression in Vision-Language-Action Models** | Fresh / preprint | Physical AI / VLA token compression / KV reuse / pruning | [Link](https://arxiv.org/abs/2608.21247) | — |

@@ -1,6 +1,6 @@
 # 13 · Efficient Reasoning / Agents
 
-> **1045 canonical papers** mapped here, plus a broader **1707-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **1046 canonical papers** mapped here, plus a broader **1707-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -1716,7 +1716,7 @@
 | **P2 · Relevant** | **A Privileged Teacher That Only Scores Cannot Search: Critique-Conditioned On-Policy Self-Distillation for Reasoning** | arXiv 2026 | efficient_reasoning_agents | [Link](https://arxiv.org/abs/2610.13744) | — |
 | **P2 · Relevant** | **A Local Agentic AI Framework to Generate Edge Case Scenarios for Safety Assurance** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.13479) | — |
 
-## 🏛️ Classical / Historical · 829 canonical
+## 🏛️ Classical / Historical · 830 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -2120,6 +2120,7 @@
 | **Canonical** | **Multipole Attention for Efficient Long Context Reasoning** | arXiv 25 | efficient_ml_research | [Link](https://arxiv.org/abs/2506.13059) | — |
 | **Canonical** | **QeRL: Beyond Efficiency -- Quantization-enhanced Reinforcement Learning for LLMs** | arXiv 25 | quantization / efficient RL training / NVFP4 | [Link](https://arxiv.org/abs/2510.11696) | [Repo](https://github.com/NVlabs/QeRL) |
 | **Canonical** | **Reasoning Models Can Be Effective Without Thinking** | arXiv 25 | efficient_ml_serving_runtime | [Link](https://arxiv.org/abs/2504.09858) | — |
+| **Canonical** | **ReProbe: Efficient Test-Time Scaling of Multi-Step Reasoning by Probing Internal States of Large Language Models** | arXiv 25 | Efficient reasoning systems | [Link](https://arxiv.org/abs/2511.06209) | — |
 | **Canonical** | **RLBoost: Harvesting Preemptible Resources for Cost-Efficient Reinforcement Learning on LLMs** | arXiv 25 | distributed RL training systems | [Link](https://arxiv.org/abs/2510.19225) | — |
 | **Canonical** | **Scaling RL to Long Videos** | arXiv 25 | multimodal training; distributed RL; VLM serving | [Link](https://arxiv.org/abs/2507.07966) | [Repo](https://github.com/NVlabs/Long-RL) |
 | **Canonical** | **Shrinking the Generation-Verification Gap with Weak Verifiers** | arXiv 25 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2506.18203) | — |

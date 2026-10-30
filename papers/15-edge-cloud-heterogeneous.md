@@ -1,6 +1,6 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **1110 canonical papers** mapped here, plus a broader **1353-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **1111 canonical papers** mapped here, plus a broader **1353-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -1362,7 +1362,7 @@
 | **P2 · Relevant** | **A Local Agentic AI Framework to Generate Edge Case Scenarios for Safety Assurance** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.13479) | — |
 | **P1 · Watch** | **A Compression Tree Generation Method for High Performance VLSI Datapaths** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2610.02228) | — |
 
-## 🏛️ Classical / Historical · 939 canonical
+## 🏛️ Classical / Historical · 940 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -2303,5 +2303,6 @@
 | **Canonical** | **Joint Distillation for Fast Likelihood Evaluation and Sampling in Flow-based Models** | Fresh / preprint | flow distillation inference acceleration | [Link](https://arxiv.org/abs/2512.02636) | — |
 | **Canonical** | **SHIELD: A Segmented Hierarchical Memory Architecture for Energy-Efficient LLM Inference on Edge NPUs** | Fresh / preprint | edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2604.07396) | — |
 | **Canonical** | **SPICE: Speculative Prefetching with Low-Rank Expert Surrogates and Heterogeneous Orchestration for MoE Inference Acceleration** | Fresh / preprint | MoE systems / expert offload / heterogeneous inference | [Link](https://arxiv.org/abs/2608.21240) | — |
+| **Canonical** | **Stereo Image Coding for Machines with Joint Visual Feature Compression** | Fresh / preprint | Machine vision; stereo feature compression; edge/cloud data movement | [Link](https://arxiv.org/abs/2502.14190) | — |
 | **Canonical** | **SwiftCache: Efficient LLM Serving for Multi-turn Conversations with Heterogeneous KV Cache Sharing** | Fresh / preprint | LLM serving / KV cache / multi-turn agents / NVLink memory sharing | [Link](https://arxiv.org/abs/2606.16135) | — |
 | **Canonical** | **Transformers to SSMs: Distilling Quadratic Knowledge to Subquadratic Models** | Fresh / preprint | Transformer to SSM distillation | [Link](https://arxiv.org/abs/2408.10189) | — |

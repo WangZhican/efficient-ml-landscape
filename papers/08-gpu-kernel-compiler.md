@@ -1,6 +1,6 @@
 # 08 · GPU Kernel / DSL / Compiler
 
-> **1073 canonical papers** mapped here, plus a broader **412-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **1074 canonical papers** mapped here, plus a broader **412-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -421,7 +421,7 @@
 | **P0 · Strong** | **A Thread-Register Decoupled GPU Execution Model for Efficient Tensor Computation** | Fresh / preprint | GPU execution architecture / tensor cores / LLM serving | [Link](https://arxiv.org/abs/2608.19628) | — |
 | **P0 · Strong** | **A Distributed View from a Single GPU: RankLens for Distributed Training** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18009) | — |
 
-## 🏛️ Classical / Historical · 899 canonical
+## 🏛️ Classical / Historical · 900 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -770,6 +770,7 @@
 | **Canonical** | **TorchGT: A Holistic System for Large-scale Graph Transformer Training** | arXiv 24 | Distributed training/inference | [Link](https://arxiv.org/abs/2407.14106) | — |
 | **Canonical** | **Towards Accurate and Efficient Sub-8-Bit Integer Training** | arXiv 24 | quantized_training | [Link](https://arxiv.org/abs/2411.10948) | — |
 | **Canonical** | **ViDiT-Q: Efficient and Accurate Quantization of Diffusion Transformers for Image and Video Generation** | arXiv 24 | diffusion_quantization | [Link](https://arxiv.org/abs/2406.02540) | — |
+| **Canonical** | **VisualRWKV: Exploring Recurrent Neural Networks for Visual Language Models** | arXiv 24 | Efficient multimodal inference | [Link](https://arxiv.org/abs/2406.13362) | — |
 | **Canonical** | **70% Size, 100% Accuracy: Lossless LLM Compression for Efficient GPU Inference via Dynamic-Length Float (DFloat11)** | arXiv 25 | lossless_llm_compression | [Link](https://arxiv.org/abs/2504.11651) | — |
 | **Canonical** | **A Flexible Programmable Pipeline Parallelism Framework for Efficient DNN Training** | arXiv 25 | distributed training/inference | [Link](https://arxiv.org/abs/2510.05112) | — |
 | **Canonical** | **Axon: A novel systolic array architecture for improved run time and energy efficient GeMM and Conv operation with on-chip im2col** | arXiv 25 | ai_accelerator_systolic_array | [Link](https://arxiv.org/abs/2501.06043) | — |

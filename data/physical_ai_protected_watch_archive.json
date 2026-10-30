@@ -10854,6 +10854,28 @@
     ]
   },
   {
+    "title": "MM-Tracker: Motion Mamba with Margin Loss for UAV-platform Multiple Object Tracking",
+    "venue": "",
+    "topic": "Efficient motion modeling; Mamba; edge/robotics perception",
+    "arxiv": "2407.10485",
+    "doi": "",
+    "official_id": "arXiv:2407.10485",
+    "paper_url": "https://arxiv.org/abs/2407.10485",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "First-party abstract explicitly introduces a Motion Mamba module for efficient local/global motion modeling in UAV tracking. Relevant to efficient sequence modeling and real-time perception; retain for review, affiliation unverified.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "MM-Future: Multi-Mode Joint World-Action Modeling for Autonomous Driving",
     "venue": "arXiv 26",
     "topic": "vla_wam",
@@ -15844,6 +15866,29 @@
     "updated_at": "",
     "is_latest_30d": false,
     "directions": [
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Friction-Aware Safety Locomotion for Wheeled-legged Robots using Vision Language Models and Reinforcement Learning",
+    "venue": "",
+    "topic": "Physical AI; VLM/RL; safety locomotion",
+    "arxiv": "2409.09845",
+    "doi": "",
+    "official_id": "arXiv:2409.09845",
+    "paper_url": "https://arxiv.org/abs/2409.09845",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "First-party abstract integrates VLM-based friction estimation with an RL locomotion policy for wheeled-legged robots. High-value Physical-AI systems lead, though the abstract does not establish a direct inference-efficiency gain; affiliation unverified.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents",
       "VLA / WAM / Physical AI"
     ]
   },
