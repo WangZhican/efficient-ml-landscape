@@ -1,10 +1,10 @@
 # 04 · Quantization
 
-> **653 canonical papers** mapped here, plus a broader **629-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **654 canonical papers** mapped here, plus a broader **630-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 629 tracked
+## 🆕 Latest 30 Days · 630 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -486,6 +486,7 @@
 | **P2 · Relevant** | **GrayShield: Bit-Level Sanitization for Transformer Model Supply-Chain Security** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04319) | — |
 | **P2 · Relevant** | **MemLeak: Cross-User Semantic Leakage in Multi-Tenant AI Agent Memory** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04195) | — |
 | **P1 · Watch** | **Pareto-Dominant Clarification: Post-Training Coding LLMs via PPO-Lagrangian Budget Constraints** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.04089) | — |
+| **P2 · Relevant** | **Adaptive Partitioning Schemes for Optimistic Optimization** | arXiv 26 | quantization | [Link](https://arxiv.org/abs/2610.04039) | — |
 | **P0 · Strong** | **LatentQuant: Preserving the Policy-Facing Latent Contract under NVFP4 VAE Quantization** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.03959) | — |
 | **P1 · Watch** | **AdaEva: Accelerating LLM-Driven Algorithm Design with Adaptive Partial Evaluation** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.03896) | — |
 | **P1 · Watch** | **Weave Forcing: Compositional Memory Routing for Interactive Long Video Generation** | arXiv 2026 | video/image generation acceleration | [Link](https://arxiv.org/abs/2610.03510) | — |
@@ -638,7 +639,7 @@
 | **P1 · Watch** | **A Geometric Decision Procedure for STL Feasibility and Repair** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.00199) | — |
 | **P2 · Relevant** | **A Fine-Grained Analysis of the LoRA Fine-Tuning Landscape with Implications for Data Selection** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2610.06542) | — |
 
-## 🏛️ Classical / Historical · 492 canonical
+## 🏛️ Classical / Historical · 493 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -823,6 +824,7 @@
 | **Canonical** | **Extreme Compression of Large Language Models via Additive Quantization** | arXiv 24 | quantization | [Link](https://arxiv.org/abs/2401.06118) | — |
 | **Canonical** | **FlashAttention-3: Fast and Accurate Attention with Asynchrony and Low-precision** | arXiv 24 | GPU kernel / efficient attention | [Link](https://arxiv.org/abs/2407.08608) | — |
 | **Canonical** | **GEAR: An Efficient KV Cache Compression Recipe for Near-Lossless Generative Inference of LLM** | arXiv 24 | kv_cache_compression | [Link](https://arxiv.org/abs/2403.05527) | — |
+| **Canonical** | **Jamba-1.5: Hybrid Transformer-Mamba Models at Scale** | arXiv 24 | LLM serving; long-context; quantization; MoE systems | [Link](https://arxiv.org/abs/2408.12570) | [Repo](https://www.ai21.com/jamba) |
 | **Canonical** | **KIVI: A Tuning-Free Asymmetric 2bit Quantization for KV Cache** | arXiv 24 | KV cache/long-context | [Link](https://arxiv.org/abs/2402.02750) | — |
 | **Canonical** | **KV Cache is 1 Bit Per Channel: Efficient Large Language Model Inference with Coupled Quantization** | arXiv 24 | kv_cache_quantization | [Link](https://arxiv.org/abs/2405.03917) | — |
 | **Canonical** | **KVQuant: Towards 10 Million Context Length LLM Inference with KV Cache Quantization** | arXiv 24 | efficient_ml_research | [Link](https://arxiv.org/abs/2401.18079) | — |

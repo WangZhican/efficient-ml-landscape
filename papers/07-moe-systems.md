@@ -1,6 +1,6 @@
 # 07 · MoE Systems / Accelerators
 
-> **276 canonical papers** mapped here, plus a broader **123-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **278 canonical papers** mapped here, plus a broader **123-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -132,7 +132,7 @@
 | **P2 · Relevant** | **Conditional Capacity and Routing in Mixture-of-Experts Particle Transformers** | arXiv 2026 | MoE systems/accelerators | [Link](https://arxiv.org/abs/2610.02701) | — |
 | **P0 · Strong** | **Beyond Capacity: Scalable MoE LLM Inference via High-Bandwidth Flash with Direct GPU and HBM Paths** | Fresh / preprint | MoE serving / high-bandwidth flash architecture | [Link](https://arxiv.org/abs/2608.14333) | — |
 
-## 🏛️ Classical / Historical · 225 canonical
+## 🏛️ Classical / Historical · 227 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -210,6 +210,8 @@
 | **Canonical** | **MonoMoE: An Efficient Fused Mega-kernel for Quantized MoE Decoding** | arXiv 2026 / FlashInfer | MoE systems/accelerators / GPU kernel / quantized LLM serving | [Link](https://arxiv.org/abs/2609.04244) | [Repo](https://github.com/flashinfer-ai/flashinfer/tree/main/csrc/fused_moe/monomoe) |
 | **Canonical** | **Demystifying AI Platform Design for Distributed Inference of Next-Generation LLM models** | arXiv 24 | llm_serving_platform_modeling | [Link](https://arxiv.org/abs/2406.01698) | — |
 | **Canonical** | **Efficient Expert Pruning for Sparse Mixture-of-Experts Language Models: Enhancing Performance and Reducing Inference Costs** | arXiv 24 | moe_pruning | [Link](https://arxiv.org/abs/2407.00945) | — |
+| **Canonical** | **Jamba-1.5: Hybrid Transformer-Mamba Models at Scale** | arXiv 24 | LLM serving; long-context; quantization; MoE systems | [Link](https://arxiv.org/abs/2408.12570) | [Repo](https://www.ai21.com/jamba) |
+| **Canonical** | **Jamba: A Hybrid Transformer-Mamba Language Model** | arXiv 24 | LLM serving; efficient attention/KV cache; hybrid architectures; MoE systems | [Link](https://arxiv.org/abs/2403.19887) | [Repo](https://www.ai21.com/jamba) |
 | **Canonical** | **Lazarus: Resilient and Elastic Training of Mixture-of-Experts Models** | arXiv 24 | efficient_ml_scope_review | [Link](https://arxiv.org/abs/2407.04656) | — |
 | **Canonical** | **MoE-Lightning: High-Throughput MoE Inference on Memory-constrained GPUs** | arXiv 24 | efficient_llm_serving_and_systems | [Link](https://arxiv.org/abs/2411.11217) | — |
 | **Canonical** | **Expert-as-a-Service: Towards Efficient, Scalable, and Robust Large-scale MoE Serving** | arXiv 25 | MoE systems/serving | [Link](https://arxiv.org/abs/2509.17863) | — |

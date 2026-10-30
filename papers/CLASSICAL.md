@@ -1,6 +1,6 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **4239 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **4244 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
@@ -2594,7 +2594,7 @@
 | **Canonical** | **WARP: An Efficient Engine for Multi-Vector Retrieval** | arXiv 25 | efficient_ml_serving_runtime | [Link](https://arxiv.org/abs/2501.17788) | — |
 | **Canonical** | **XAttention: Block Sparse Attention with Antidiagonal Scoring** | arXiv 25 | efficient attention; sparse inference; long-context | [Link](https://arxiv.org/abs/2503.16428) | [Repo](https://github.com/mit-han-lab/x-attention) |
 
-## arXiv 24 · 183
+## arXiv 24 · 185
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -2674,6 +2674,8 @@
 | **Canonical** | **High Performance Unstructured SpMM Computation Using Tensor Cores** | arXiv 24 | GPU kernel/sparsity | [Link](https://arxiv.org/abs/2408.11551) | — |
 | **Canonical** | **Hydragen: High-Throughput LLM Inference with Shared Prefixes** | arXiv 24 | LLM serving / prefix cache | [Link](https://arxiv.org/abs/2402.05099) | — |
 | **Canonical** | **Inference Optimal VLMs Need Fewer Visual Tokens and More Parameters** | arXiv 24 | multimodal inference; visual-token compression | [Link](https://arxiv.org/abs/2411.03312) | [Repo](https://github.com/locuslab/llava-token-compression) |
+| **Canonical** | **Jamba-1.5: Hybrid Transformer-Mamba Models at Scale** | arXiv 24 | LLM serving; long-context; quantization; MoE systems | [Link](https://arxiv.org/abs/2408.12570) | [Repo](https://www.ai21.com/jamba) |
+| **Canonical** | **Jamba: A Hybrid Transformer-Mamba Language Model** | arXiv 24 | LLM serving; efficient attention/KV cache; hybrid architectures; MoE systems | [Link](https://arxiv.org/abs/2403.19887) | [Repo](https://www.ai21.com/jamba) |
 | **Canonical** | **Just read twice: closing the recall gap for recurrent language models** | arXiv 24 | KV cache/long-context and efficient attention | [Link](https://arxiv.org/abs/2407.05483) | — |
 | **Canonical** | **KIVI: A Tuning-Free Asymmetric 2bit Quantization for KV Cache** | arXiv 24 | KV cache/long-context | [Link](https://arxiv.org/abs/2402.02750) | — |
 | **Canonical** | **KV Cache is 1 Bit Per Channel: Efficient Large Language Model Inference with Coupled Quantization** | arXiv 24 | kv_cache_quantization | [Link](https://arxiv.org/abs/2405.03917) | — |
@@ -3200,35 +3202,38 @@
 | **Canonical** | **XGrammar: Flexible and Efficient Structured Generation Engine for Large Language Models** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2411.15100) | — |
 | **Canonical** | **XQuant: Breaking the Memory Wall for LLM Inference with KV Cache Rematerialization** | Fresh / preprint | KV cache/long-context | [Link](https://arxiv.org/abs/2508.10395) | — |
 
-## SIGMOD 2026 · 48
+## SIGMOD 2026 · 51
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
-| **Canonical** | **100x Cost & Latency Reduction: Performance Analysis of AI Query Approximation using Lightweight Proxy Models** | SIGMOD 2026 | LLM inference cost; proxy models; AI query approximation; database ML systems | [Link](https://arxiv.org/abs/2603.15970) | — |
-| **Canonical** | **AlignedServe: Orchestrating Prefix-aware Batching to Build a High-throughput and Computing-efficient LLM Serving System** | SIGMOD 2026 | LLM serving; prefix-aware batching; KV cache; throughput and latency | [Link](https://arxiv.org/abs/2605.23389) | — |
-| **Canonical** | **Beluga: A CXL-Based Memory Architecture for Scalable and Efficient LLM KVCache Management** | SIGMOD 2026 | LLM serving; CXL; disaggregated memory; KV cache | [Link](https://arxiv.org/abs/2511.20172) | — |
+| **Canonical** | **100x Cost & Latency Reduction: Performance Analysis of AI Query Approximation using Lightweight Proxy Models** | SIGMOD 2026 | AI query systems / LLM cost and latency reduction / proxy-model acceleration | [Link](https://arxiv.org/abs/2603.15970) | — |
+| **Canonical** | **Accelerating Approximate Analytical Join Queries over Unstructured Data with Statistical Guarantees** | SIGMOD 2026 | ML-based analytical joins; embedding blocking; sampling; inference-call budget | [Link](https://arxiv.org/abs/2603.16153) | — |
+| **Canonical** | **AlignedServe: Orchestrating Prefix-aware Batching to Build a High-throughput and Computing-efficient LLM Serving System** | SIGMOD 2026 | LLM serving / prefix-aware batching / KV scheduling | [Link](https://arxiv.org/abs/2605.23389) | — |
+| **Canonical** | **Beluga: A CXL-Based Memory Architecture for Scalable and Efficient LLM KVCache Management** | SIGMOD 2026 | CXL memory / KV-cache serving | [Link](https://arxiv.org/abs/2511.20172) | — |
 | **Canonical** | **Beyond Relational: Semantic-Aware Multi-Modal Analytics with LLM-Native Query Optimization** | SIGMOD 2026 | LLM-native analytics; cost-aware model selection; query-plan optimization | [Link](https://arxiv.org/abs/2511.19830) | — |
+| **Canonical** | **Bridging the Gap: Cardinality Estimation for Semantic Queries on Unstructured Data** | SIGMOD 2026 | LLM semantic-query cost; lightweight learned judges; sampling; inference efficiency | [Link](https://dl.acm.org/doi/10.1145/3802024) | — |
 | **Canonical** | **CoDec: Prefix-Shared Decoding Kernel for LLMs** | SIGMOD 2026 | GPU kernels; LLM inference; prefix sharing; attention | [Link](https://arxiv.org/abs/2505.17694) | [Repo](https://github.com/wzbxpy/codec) |
 | **Canonical** | **CoTra: Towards Efficient and Scalable Distributed Vector Search with RDMA** | SIGMOD 2026 | distributed vector search; RDMA; asynchronous systems; algorithm-system co-design | [Link](https://arxiv.org/abs/2507.06653) | — |
 | **Canonical** | **Curator: Efficient Vector Search with Low-Selectivity Filters** | SIGMOD 2026 | filtered ANN; vector retrieval; dual-index architecture | [Link](https://arxiv.org/abs/2601.01291) | — |
 | **Canonical** | **DARTH: Declarative Recall Through Early Termination for Approximate Nearest Neighbor Search** | SIGMOD 2026 | ANN search; recall-targeted early termination; efficient retrieval | [Link](https://arxiv.org/abs/2505.19001) | — |
-| **Canonical** | **DepCache: A KV Cache Management Framework for GraphRAG with Dependency Attention** | SIGMOD 2026 | GraphRAG; KV cache; dependency attention; inference reuse | [Link](https://dl.acm.org/doi/10.1145/3769778) | [Repo](https://github.com/Sanzo00/DepCache) |
-| **Canonical** | **DFLOP: A Data-driven Framework for Multimodal LLM Training Pipeline Optimization** | SIGMOD 2026 | Multimodal LLM training; distributed training; pipeline scheduling | [Link](https://arxiv.org/abs/2603.25120) | [Repo](https://github.com/BDAI-Research/DFLOP) |
+| **Canonical** | **DepCache: A KV Cache Management Framework for GraphRAG with Dependency Attention** | SIGMOD 2026 | GraphRAG dependency attention / KV-cache management | [Link](https://dl.acm.org/doi/10.1145/3769778) | [Repo](https://github.com/Sanzo00/DepCache) |
+| **Canonical** | **DFLOP: A Data-driven Framework for Multimodal LLM Training Pipeline Optimization** | SIGMOD 2026 | distributed training / multimodal MLLM systems / pipeline parallelism | [Link](https://arxiv.org/abs/2603.25120) | [Repo](https://github.com/BDAI-Research/DFLOP) |
 | **Canonical** | **DiskJoin: Large-scale Vector Similarity Join with SSD** | SIGMOD 2026 | Vector similarity join; SSD-backed data-intensive ML; single-machine scale | [Link](https://arxiv.org/abs/2508.18494) | — |
 | **Canonical** | **Dynamically Detect and Fix Hardness for Efficient Approximate Nearest Neighbor Search** | SIGMOD 2026 | ANN search; OOD retrieval; graph indexing; efficient vector search | [Link](https://arxiv.org/abs/2510.22316) | — |
 | **Canonical** | **Efficient Index Layout and Search Strategy for Large-scale High-dimensional Vector Similarity Search** | SIGMOD 2026 | vector retrieval; ANN; SIMD; on-disk search | [Link](https://arxiv.org/abs/2602.23342) | — |
-| **Canonical** | **Efficient LLM Serving for Agentic Workflows: A Data Systems Perspective** | SIGMOD 2026 | Efficient reasoning and agent systems; LLM serving; cross-call caching | [Link](https://arxiv.org/abs/2603.16104) | [Repo](https://github.com/MachineLearningSystem/26SIGMOD-helium_demo) |
+| **Canonical** | **Efficient LLM Serving for Agentic Workflows: A Data Systems Perspective** | SIGMOD 2026 | agentic LLM serving / workflow-aware caching / cache-aware scheduling | [Link](https://arxiv.org/abs/2603.16104) | [Repo](https://github.com/MachineLearningSystem/26SIGMOD-helium_demo) |
 | **Canonical** | **FGIM: a Fast Graph-based Indexes Merging Framework for Approximate Nearest Neighbor Search** | SIGMOD 2026 | ANN graph index merging; index update efficiency | [Link](https://arxiv.org/abs/2603.21710) | — |
 | **Canonical** | **FlashANNS: GPU-Driven Asynchronous I/O Pipelining for Eliminating Storage-Compute Bottlenecks in Billion-Scale Similarity Search** | SIGMOD 2026 | GPU vector search; asynchronous I/O; storage-compute pipelining | [Link](https://arxiv.org/abs/2507.10070) | — |
-| **Canonical** | **From Prefix Cache to Fusion RAG Cache: Accelerating LLM Inference in Retrieval-Augmented Generation** | SIGMOD 2026 | LLM serving; RAG; KV cache reuse; long-context inference | [Link](https://arxiv.org/abs/2601.12904) | — |
+| **Canonical** | **From Prefix Cache to Fusion RAG Cache: Accelerating LLM Inference in Retrieval-Augmented Generation** | SIGMOD 2026 | RAG KV-cache reuse / TTFT acceleration | [Link](https://arxiv.org/abs/2601.12904) | — |
 | **Canonical** | **GEM: A Native Graph-based Index for Multi-Vector Retrieval** | SIGMOD 2026 | multimodal retrieval; multi-vector ANN; quantized search | [Link](https://arxiv.org/abs/2603.20336) | — |
 | **Canonical** | **GenRewrite: Query Rewriting via Large Language Models** | SIGMOD 2026 | LLM-assisted query rewriting; inference cost reduction; execution speedup | [Link](https://arxiv.org/abs/2403.09060) | — |
 | **Canonical** | **HARMONY: A Scalable Distributed Vector Database for High-Throughput Approximate Nearest Neighbor Search** | SIGMOD 2026 | Distributed vector databases; ANNS; partitioning; load balancing; communication-efficient retrieval | [Link](https://arxiv.org/abs/2506.14707) | — |
 | **Canonical** | **High-Throughput, Cost-Effective Billion-Scale Vector Search with a Single GPU** | SIGMOD 2026 | GPU vector search; billion-scale ANN; PCIe and SSD data movement | [Link](https://dl.acm.org/doi/10.1145/3769799) | — |
-| **Canonical** | **HotPrefix: Hotness-Aware KV Cache Scheduling for Efficient Prefix Sharing in LLM Inference Systems** | SIGMOD 2026 | LLM serving; KV cache; prefix sharing; cache scheduling; CPU-GPU memory tiering | [Link](https://dl.acm.org/doi/10.1145/3749168) | — |
-| **Canonical** | **Hydraulis: Balancing Large Transformer Model Training via Co-designing Parallel Strategies and Data Assignment** | SIGMOD 2026 | distributed training; transformer training; heterogeneous parallelism; data assignment | [Link](https://arxiv.org/abs/2412.07894) | [Repo](https://github.com/PKU-DAIR/Hetu) |
+| **Canonical** | **HotPrefix: Hotness-Aware KV Cache Scheduling for Efficient Prefix Sharing in LLM Inference Systems** | SIGMOD 2026 | prefix KV-cache scheduling / LLM serving | [Link](https://dl.acm.org/doi/10.1145/3749168) | — |
+| **Canonical** | **Hydraulis: Balancing Large Transformer Model Training via Co-designing Parallel Strategies and Data Assignment** | SIGMOD 2026 | distributed training / dynamic heterogeneous parallelism / data assignment | [Link](https://arxiv.org/abs/2412.07894) | [Repo](https://github.com/PKU-DAIR/Hetu) |
+| **Canonical** | **IDAP++: Advancing Divergence-Aware Pruning with Joint Filter and Layer Optimization** | SIGMOD 2026 | neural-network pruning; filter/depth compression; CNN/ViT/LLM; inference efficiency | [Link](https://arxiv.org/abs/2511.20141) | — |
 | **Canonical** | **InferF: Declarative Factorization of AI/ML Inferences over Joins** | SIGMOD 2026 | AI/ML inference; factorized execution; query/dataflow optimization | [Link](https://arxiv.org/abs/2511.20489) | — |
-| **Canonical** | **KVDrive: A Holistic Multi-Tier KV Cache Management System for Long-Context LLM Inference** | SIGMOD 2026 | LLM serving; long-context; KV cache; heterogeneous memory; runtime scheduling | [Link](https://arxiv.org/abs/2605.18071) | — |
+| **Canonical** | **KVDrive: A Holistic Multi-Tier KV Cache Management System for Long-Context LLM Inference** | SIGMOD 2026 | KV cache / long-context LLM serving / multi-tier memory offload | [Link](https://arxiv.org/abs/2605.18071) | — |
 | **Canonical** | **Mixtera: A Data Plane for Foundation Model Training** | SIGMOD 2026 | distributed training/data plane/foundation models | [Link](https://arxiv.org/abs/2502.19790) | — |
 | **Canonical** | **MorphingDB: A Task-Centric AI-Native DBMS for Model Management and Inference** | SIGMOD 2026 | AI-native DBMS; model management; inference throughput; resource efficiency | [Link](https://arxiv.org/abs/2511.21160) | — |
 | **Canonical** | **NeurStore: Efficient In-database Deep Learning Model Management System** | SIGMOD 2026 | model storage; tensor deduplication; delta quantization; efficient model loading | [Link](https://arxiv.org/abs/2509.03228) | — |
@@ -3241,13 +3246,13 @@
 | **Canonical** | **SAQ: Pushing the Limits of Vector Quantization through Code Adjustment and Dimension Segmentation** | SIGMOD 2026 | Vector quantization; ANN search; efficient encoding and compression | [Link](https://arxiv.org/abs/2509.12086) | — |
 | **Canonical** | **Scalable Graph Indexing using GPUs for Approximate Nearest Neighbor Search** | SIGMOD 2026 | GPU graph indexing; ANN search; heterogeneous out-of-core execution | [Link](https://arxiv.org/abs/2508.08744) | — |
 | **Canonical** | **ScaleDoc: Scaling LLM-based Predicates over Large Document Collections** | SIGMOD 2026 | LLM serving; proxy filtering; inference cost | [Link](https://arxiv.org/abs/2509.12610) | — |
-| **Canonical** | **Serving Hybrid LLM Loads with SLO Guarantees Using CPU-GPU Attention Piggybacking** | SIGMOD 2026 | LLM serving; SLO-aware scheduling; CPU-GPU heterogeneous execution | [Link](https://arxiv.org/abs/2603.12831) | — |
-| **Canonical** | **SG-Serve: Efficient Model Serving for Subgraph-based Graph Representation Learning** | SIGMOD 2026 | GNN serving; subgraph extraction; GPU batching; tail-latency optimization | [Link](https://dl.acm.org/doi/10.1145/3786697) | — |
+| **Canonical** | **Serving Hybrid LLM Loads with SLO Guarantees Using CPU-GPU Attention Piggybacking** | SIGMOD 2026 | LLM serving / heterogeneous CPU-GPU / SLO scheduling | [Link](https://arxiv.org/abs/2603.12831) | — |
+| **Canonical** | **SG-Serve: Efficient Model Serving for Subgraph-based Graph Representation Learning** | SIGMOD 2026 | graph model serving / tail-latency optimization / workload-aware GPU batching | [Link](https://dl.acm.org/doi/10.1145/3786697) | — |
 | **Canonical** | **SWIFT: Enabling Large-Scale Temporal Graph Learning on a Single Machine** | SIGMOD 2026 | Temporal GNN training; out-of-core learning; GPU-main-secondary memory pipeline | [Link](https://dl.acm.org/doi/10.1145/3749184) | — |
 | **Canonical** | **Task Cascades for Efficient Unstructured Data Processing** | SIGMOD 2026 | LLM inference cost; model/task cascades; efficient reasoning | [Link](https://arxiv.org/abs/2601.05536) | — |
 | **Canonical** | **TensorSocket: Shared Data Loading for Deep Learning Training** | SIGMOD 2026 | Deep learning training; shared data loaders; CPU-GPU pipeline bottlenecks; training throughput | [Link](https://arxiv.org/abs/2409.18749) | — |
 | **Canonical** | **This is Going to Sound Crazy, But What If We Used Large Language Models to Boost Automatic Database Tuning Algorithms By Leveraging Prior History? We Will Find Better Configurations More Quickly Than Retraining From Scratch!** | SIGMOD 2026 | LLM-guided tuning; workload drift; configuration reuse; search efficiency | [Link](https://arxiv.org/abs/2510.17748) | — |
-| **Canonical** | **TranSQL+: Serving Large Language Models with SQL on Low-Resource Hardware** | SIGMOD 2026 | LLM inference; low-resource hardware; SQL runtime; KV cache | [Link](https://arxiv.org/abs/2502.02818) | — |
+| **Canonical** | **TranSQL+: Serving Large Language Models with SQL on Low-Resource Hardware** | SIGMOD 2026 | LLM serving / edge low-resource inference / compiler-runtime | [Link](https://arxiv.org/abs/2502.02818) | — |
 | **Canonical** | **TRIM: Accelerating High-Dimensional Vector Similarity Search with Enhanced Triangle-Inequality-Based Pruning** | SIGMOD 2026 | High-dimensional vector retrieval; ANN; pruning; quantization; disk-based search | [Link](https://arxiv.org/abs/2508.17828) | — |
 | **Canonical** | **VecFlow: A High-Performance Vector Data Management System for Filtered-Search on GPUs** | SIGMOD 2026 | GPU vector search; filtered ANNS; data management; high-throughput retrieval | [Link](https://arxiv.org/abs/2506.00812) | — |
 | **Canonical** | **WaveStitch: Flexible and Fast Conditional Time Series Generation With Diffusion Models** | SIGMOD 2026 | Diffusion generation; conditional time-series synthesis; parallel generation | [Link](https://arxiv.org/abs/2503.06231) | — |

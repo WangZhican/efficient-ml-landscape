@@ -184983,6 +184983,28 @@
       "directions": [
         "Edge / Cloud / Heterogeneous AI"
       ]
+    },
+    {
+      "title": "Practical Parameterized Query Optimization via Efficient Plan Reuse and List-wise Ranking",
+      "venue": "SIGMOD 2026",
+      "topic": "learned query optimization; plan reuse; list-wise ranking; query execution efficiency",
+      "arxiv": "",
+      "doi": "10.1145/3788254",
+      "official_id": "doi:10.1145/3788254",
+      "paper_url": "https://dl.acm.org/doi/10.1145/3788254",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "First-party SIGMOD accepted-paper identity and publisher-deposited DOI metadata identify a learned parameterized-query optimizer using plan reuse and list-wise ranking. Retain P2 metadata only until a first-party abstract and quantitative efficiency evidence are reconciled; do not attempt PDF while P2.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Quantization",
+        "Distributed Training / Inference"
+      ]
     }
   ]
 }

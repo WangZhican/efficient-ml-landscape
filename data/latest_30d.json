@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-10-30",
   "window_start_beijing": "2026-09-30",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 5475,
+  "tracked_total": 5477,
   "p0_strong_or_canonical": [
     {
       "title": "Honeycomb-Surfels: Compact Hexagonal Primitives for Efficient Scene Rendering and Reconstruction",
@@ -1136,8 +1136,8 @@
     },
     {
       "title": "Factorized Gradients for Scalable Highly-expressive Parametric Diffeomorphisms",
-      "venue": "arXiv 2026",
-      "topic": "other",
+      "venue": "arXiv 26",
+      "topic": "GPU kernel/numerical acceleration; differentiable geometry for vision",
       "arxiv": "2610.34766",
       "doi": "",
       "official_id": "arXiv:2610.34766",
@@ -1146,7 +1146,7 @@
       "formal_class": "CANONICAL_HIGH_VALUE",
       "physical_ai": false,
       "decision": "PROMOTE_STRONG",
-      "why": "FG-CPAB reduces gradient complexity from O(dTN) to O(TN+dC), reports up to 10^4× speedup and approximately 500× lower peak GPU memory in 2D, and enables fine-tessellation 2D/3D diffeomorphisms. Direct high-value efficient ML algorithm candidate; download primary PDF.",
+      "why": "Full-text reassessment: promote strong. The paper demonstrates a reusable GPU algorithmic efficiency improvement with factorized gradient complexity O(dTN)→O(TN+dC), up to ~10^4× gradient speedup and ~500× lower peak GPU memory, plus 3D vision/neural-operator applications; accepted at NeurIPS 2026.",
       "published_at": "2026-10-26T03:11:58Z",
       "updated_at": "2026-10-26T03:11:58Z",
       "is_latest_30d": true,
@@ -55695,8 +55695,8 @@
     },
     {
       "title": "Edge-Centric Adaptive Neural Activation via Parametric Tanh Functions",
-      "venue": "arXiv 2026",
-      "topic": "hardware-friendly-neural-activation",
+      "venue": "arXiv 26",
+      "topic": "efficient model design/training",
       "arxiv": "2610.34154",
       "doi": "",
       "official_id": "arXiv:2610.34154",
@@ -55706,12 +55706,11 @@
       "physical_ai": false,
       "decision": "P2_RELEVANT_LOW_PRIORITY",
       "tracking_tier": "P2 · Relevant",
-      "why": "Parametric Tanh activations replace KAN splines with a four-parameter hardware-friendly primitive and report up to 85% lower training runtime; retain as low-priority activation/kernel architecture metadata, but evidence is limited to MNIST/CIFAR.",
+      "why": "Full-text reassessment: retain P2 because the parametric activation is hardware-oriented and reduces runtime against a high-cost seven-parameter baseline, but the standard affine baseline is faster and better in the convolutional results; no strong overall training or inference efficiency evidence.",
       "published_at": "2026-10-25T08:39:39Z",
       "updated_at": "2026-10-25T08:39:39Z",
       "is_latest_30d": true,
       "directions": [
-        "GPU Kernel / DSL / Compiler",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -94787,6 +94786,27 @@
       ]
     },
     {
+      "title": "Adaptive Partitioning Schemes for Optimistic Optimization",
+      "venue": "arXiv 26",
+      "topic": "quantization",
+      "arxiv": "2610.04039",
+      "doi": "",
+      "official_id": "arXiv:2610.04039",
+      "paper_url": "https://arxiv.org/abs/2610.04039",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Full-text reassessment: the method is relevant to quantization calibration but does not establish material inference efficiency. The AWQ experiment improves PPL 16.92→16.68 while increasing calibration time about 9h→12h; retain metadata as P2 rather than a high-value accelerator paper.",
+      "published_at": "2026-10-02T20:45:50Z",
+      "updated_at": "2026-10-02T20:45:50Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization"
+      ]
+    },
+    {
       "title": "LD-EnFF: Latent-Dynamics Ensemble Flow Filtering for Data Assimilation with Sparse Observations",
       "venue": "arXiv 2026",
       "topic": "Efficient ML / Physical AI",
@@ -110670,6 +110690,28 @@
       ]
     },
     {
+      "title": "LIFT: Scoped Constraints for Evaluating and Training Instruction Following",
+      "venue": "arXiv 26",
+      "topic": "Efficient reasoning/agent systems; RL instruction-following",
+      "arxiv": "2610.28819",
+      "doi": "",
+      "official_id": "arXiv:2610.28819",
+      "paper_url": "https://arxiv.org/abs/2610.28819",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Exact first-party arXiv author query surfaced the paper, but the abstract focuses on instruction-following benchmark/training and reward-hacking mitigation rather than inference, serving, memory, or compute efficiency. Retain metadata-only as adjacent low-priority P2; author affiliation to AI21 is not independently established.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
       "title": "LiDAR Resolution Recovery via Foundation-Model-Guided Diffusion",
       "venue": "arXiv 2026",
       "topic": "",
@@ -120782,8 +120824,8 @@
     },
     {
       "title": "Factorized Gradients for Scalable Highly-expressive Parametric Diffeomorphisms",
-      "venue": "arXiv 2026",
-      "topic": "other",
+      "venue": "arXiv 26",
+      "topic": "GPU kernel/numerical acceleration; differentiable geometry for vision",
       "arxiv": "2610.34766",
       "doi": "",
       "official_id": "arXiv:2610.34766",
@@ -120792,7 +120834,7 @@
       "formal_class": "CANONICAL_HIGH_VALUE",
       "physical_ai": false,
       "decision": "PROMOTE_STRONG",
-      "why": "FG-CPAB reduces gradient complexity from O(dTN) to O(TN+dC), reports up to 10^4× speedup and approximately 500× lower peak GPU memory in 2D, and enables fine-tessellation 2D/3D diffeomorphisms. Direct high-value efficient ML algorithm candidate; download primary PDF.",
+      "why": "Full-text reassessment: promote strong. The paper demonstrates a reusable GPU algorithmic efficiency improvement with factorized gradient complexity O(dTN)→O(TN+dC), up to ~10^4× gradient speedup and ~500× lower peak GPU memory, plus 3D vision/neural-operator applications; accepted at NeurIPS 2026.",
       "published_at": "2026-10-26T03:11:58Z",
       "updated_at": "2026-10-26T03:11:58Z",
       "is_latest_30d": true,
@@ -175337,8 +175379,8 @@
     },
     {
       "title": "Edge-Centric Adaptive Neural Activation via Parametric Tanh Functions",
-      "venue": "arXiv 2026",
-      "topic": "hardware-friendly-neural-activation",
+      "venue": "arXiv 26",
+      "topic": "efficient model design/training",
       "arxiv": "2610.34154",
       "doi": "",
       "official_id": "arXiv:2610.34154",
@@ -175348,12 +175390,11 @@
       "physical_ai": false,
       "decision": "P2_RELEVANT_LOW_PRIORITY",
       "tracking_tier": "P2 · Relevant",
-      "why": "Parametric Tanh activations replace KAN splines with a four-parameter hardware-friendly primitive and report up to 85% lower training runtime; retain as low-priority activation/kernel architecture metadata, but evidence is limited to MNIST/CIFAR.",
+      "why": "Full-text reassessment: retain P2 because the parametric activation is hardware-oriented and reduces runtime against a high-cost seven-parameter baseline, but the standard affine baseline is faster and better in the convolutional results; no strong overall training or inference efficiency evidence.",
       "published_at": "2026-10-25T08:39:39Z",
       "updated_at": "2026-10-25T08:39:39Z",
       "is_latest_30d": true,
       "directions": [
-        "GPU Kernel / DSL / Compiler",
         "Edge / Cloud / Heterogeneous AI"
       ]
     },
@@ -214429,6 +214470,27 @@
       ]
     },
     {
+      "title": "Adaptive Partitioning Schemes for Optimistic Optimization",
+      "venue": "arXiv 26",
+      "topic": "quantization",
+      "arxiv": "2610.04039",
+      "doi": "",
+      "official_id": "arXiv:2610.04039",
+      "paper_url": "https://arxiv.org/abs/2610.04039",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Full-text reassessment: the method is relevant to quantization calibration but does not establish material inference efficiency. The AWQ experiment improves PPL 16.92→16.68 while increasing calibration time about 9h→12h; retain metadata as P2 rather than a high-value accelerator paper.",
+      "published_at": "2026-10-02T20:45:50Z",
+      "updated_at": "2026-10-02T20:45:50Z",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization"
+      ]
+    },
+    {
       "title": "LD-EnFF: Latent-Dynamics Ensemble Flow Filtering for Data Assimilation with Sparse Observations",
       "venue": "arXiv 2026",
       "topic": "Efficient ML / Physical AI",
@@ -230309,6 +230371,28 @@
         "Distributed Training / Inference",
         "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "LIFT: Scoped Constraints for Evaluating and Training Instruction Following",
+      "venue": "arXiv 26",
+      "topic": "Efficient reasoning/agent systems; RL instruction-following",
+      "arxiv": "2610.28819",
+      "doi": "",
+      "official_id": "arXiv:2610.28819",
+      "paper_url": "https://arxiv.org/abs/2610.28819",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Exact first-party arXiv author query surfaced the paper, but the abstract focuses on instruction-following benchmark/training and reward-hacking mitigation rather than inference, serving, memory, or compute efficiency. Retain metadata-only as adjacent low-priority P2; author affiliation to AI21 is not independently established.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Efficient Reasoning / Agents"
       ]
     },
     {

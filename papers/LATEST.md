@@ -1,6 +1,6 @@
 # 🆕 Latest 30 Days
 
-> Rolling 30-day view ending **2026-10-30**: **5475 tracked papers = 942 P0 + 1363 P1 + 3170 P2**. Topical relevance determines visibility; quality determines priority. The classical census remains stricter.
+> Rolling 30-day view ending **2026-10-30**: **5477 tracked papers = 942 P0 + 1363 P1 + 3172 P2**. Topical relevance determines visibility; quality determines priority. The classical census remains stricter.
 
 [← Paper Library](ALL_PAPERS.md) · [🏛️ Classical](CLASSICAL.md) · [JSON](../data/latest_30d.json) · [CSV](../data/latest_30d.csv)
 
@@ -58,7 +58,7 @@
 | **P0 · Strong** | **Let the Gate Decide: Per-Lookup Precision for Quantized Conditional Memory in LLMs** | arXiv 2026 | quantization;LLM serving;KV/conditional memory | [Link](https://arxiv.org/abs/2610.35985) | — |
 | **P0 · Strong** | **When and Why to Use TMA: A Workload-Grounded Characterization of Tensor Memory Acceleration on NVIDIA Hopper GPUs** | arXiv 2026 | llm_serving,attn,kernel | [Link](https://arxiv.org/abs/2610.34907) | — |
 | **P0 · Strong** | **SPARTA: A Sparse Ternary LLM Accelerator with Adaptive Attention and Unified Datapath for Long-Context Edge Inference** | arXiv 2026 | llm_serving,kv,quant,sparse,edge | [Link](https://arxiv.org/abs/2610.34824) | — |
-| **P0 · Strong** | **Factorized Gradients for Scalable Highly-expressive Parametric Diffeomorphisms** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.34766) | — |
+| **P0 · Strong** | **Factorized Gradients for Scalable Highly-expressive Parametric Diffeomorphisms** | arXiv 26 | GPU kernel/numerical acceleration; differentiable geometry for vision | [Link](https://arxiv.org/abs/2610.34766) | — |
 | **P0 · Strong** | **MCF: A Memory- and Communication-Aware Co-Designed Framework for Long-Context LLM Inference** | arXiv 2026 | llm_serving,kv,dist | [Link](https://arxiv.org/abs/2610.34731) | — |
 | **P0 · Strong** | **Prefetch-Steered Routing: Deterministic Cache-Aware Expert Selection for Offloaded Mixture-of-Experts Decoding** | arXiv 2026 | llm_serving,spec,moe | [Link](https://arxiv.org/abs/2610.34721) | — |
 | **P0 · Strong** | **VLA-HWBench: Where the Time Goes When VLA Models Run on Edge Hardware** | arXiv 2026 | llm_serving,quant,kernel,physical | [Link](https://arxiv.org/abs/2610.34717) | — |
@@ -2544,7 +2544,7 @@
 | **P2 · Relevant** | **ParetoGS: High-Quality Continuous-Budget 3D Gaussian Splatting with Sparse Adapted Anchors** | arXiv 2026 | 3DGS acceleration | [Link](https://arxiv.org/abs/2610.34235) | — |
 | **P2 · Relevant** | **SRA: Selective Residual Adaptation for LLM Reasoning Enhancement** | arXiv 2026 | Efficient reasoning | [Link](https://arxiv.org/abs/2610.34199) | — |
 | **P2 · Relevant** | **MetaARIMA: Configuration-Level Transfer Learning for ARIMA Models** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.34171) | — |
-| **P2 · Relevant** | **Edge-Centric Adaptive Neural Activation via Parametric Tanh Functions** | arXiv 2026 | hardware-friendly-neural-activation | [Link](https://arxiv.org/abs/2610.34154) | — |
+| **P2 · Relevant** | **Edge-Centric Adaptive Neural Activation via Parametric Tanh Functions** | arXiv 26 | efficient model design/training | [Link](https://arxiv.org/abs/2610.34154) | — |
 | **P2 · Relevant** | **SpeC2Rust: Specification-Driven Repository-Level C-to-Rust Translation** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.34141) | — |
 | **P2 · Relevant** | **StickFigure: Enabling Pose-Only IoT Cameras for Privacy-Preserving Edge Vision** | arXiv 2026 | Edge AI | [Link](https://arxiv.org/abs/2610.34130) | — |
 | **P2 · Relevant** | **Bug Severity Classification with Fine-Tuned Open LLMs: A Paired Comparison with TF-IDF and CodeBERT Baselines on Eclipse Reports** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.34127) | — |
@@ -4350,6 +4350,7 @@
 | **P2 · Relevant** | **Exact Optimal Transport by Matching** | arXiv 2026 | Efficient ML / Physical AI | [Link](https://arxiv.org/abs/2610.04085) | — |
 | **P2 · Relevant** | **Reward-DAgger: Robot-Gated Interactive Imitation Learning with General-Purpose Progress-Based Reward Models** | arXiv 2026 | Efficient ML / Physical AI | [Link](https://arxiv.org/abs/2610.04054) | — |
 | **P2 · Relevant** | **The Cost of a Hop: Benchmarking NLIP and A2A** | arXiv 2026 | Efficient ML / Physical AI | [Link](https://arxiv.org/abs/2610.04053) | — |
+| **P2 · Relevant** | **Adaptive Partitioning Schemes for Optimistic Optimization** | arXiv 26 | quantization | [Link](https://arxiv.org/abs/2610.04039) | — |
 | **P2 · Relevant** | **LD-EnFF: Latent-Dynamics Ensemble Flow Filtering for Data Assimilation with Sparse Observations** | arXiv 2026 | Efficient ML / Physical AI | [Link](https://arxiv.org/abs/2610.04034) | — |
 | **P2 · Relevant** | **Beyond the Parameter Monolith: Reconstructive Memories, Executable Skills, and Residual Assembly for Language Models** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2610.04012) | — |
 | **P2 · Relevant** | **Exploration-Preserving Policy Optimization** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04011) | — |
@@ -5083,6 +5084,7 @@
 | **P2 · Relevant** | **LLM Agents for Automated Post-Training via Structured Recipe Optimization** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18572) | — |
 | **P2 · Relevant** | **LiLib: Lifelong Air-to-Ground Path-Loss Prediction on UAVs via a Drift-Triggered Model Library** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.07111) | — |
 | **P2 · Relevant** | **Lightweight Change Detection for Adaptive Collective Perception in Dynamic Environments** | arXiv 2026 | resource-constrained swarm robotics; online perception | [Link](https://arxiv.org/abs/2610.34059) | — |
+| **P2 · Relevant** | **LIFT: Scoped Constraints for Evaluating and Training Instruction Following** | arXiv 26 | Efficient reasoning/agent systems; RL instruction-following | [Link](https://arxiv.org/abs/2610.28819) | — |
 | **P2 · Relevant** | **LiDAR Resolution Recovery via Foundation-Model-Guided Diffusion** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.08620) | — |
 | **P2 · Relevant** | **Let the Mind Conceive, Let the Hand Achieve: Following Multimodal Instructions for Long-Horizon Robotic Manipulation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18352) | — |
 | **P2 · Relevant** | **Let the Heads Talk: Beyond Diagonal Graph Attention** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.01494) | — |
