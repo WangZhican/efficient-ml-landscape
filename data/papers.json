@@ -1691,6 +1691,29 @@
     ]
   },
   {
+    "title": "VideoPro: Adaptive Program Reasoning for Long Video Understanding",
+    "venue": "ACL 2026",
+    "topic": "Multimodal/MLLM serving; efficient reasoning; long-video inference",
+    "arxiv": "2509.17743",
+    "doi": "10.18653/v1/2026.acl-long.341",
+    "official_id": "ACL2026:2026.acl-long.341",
+    "paper_url": "https://arxiv.org/abs/2509.17743",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party arXiv abstract verifies efficient visual modules and adaptive fast/slow reasoning; official ACL 2026 metadata/abstract verifies the VideoPro title, DOI, and the same adaptive program-reasoning framework. Avoids invoking costly program reasoning for every query and targets long-video inference overhead. Retain as an individual canonical high-value paper; no RWKV group attribution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "Vista-LLM: Decoupled Query-Guided Visual Token Pruning for Efficient Long-Video Large Language Models",
     "venue": "ACL 2026",
     "topic": "multimodal/MLLM serving / visual token pruning",
@@ -4212,6 +4235,27 @@
     ]
   },
   {
+    "title": "A Unified Hessian-Guided Framework for Post-Training Quantization",
+    "venue": "arXiv 2026",
+    "topic": "quant",
+    "arxiv": "2610.40345",
+    "doi": "",
+    "official_id": "arXiv:2610.40345",
+    "paper_url": "https://arxiv.org/abs/2610.40345",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party arXiv abstract confirms an explicit efficient-ML mechanism and quantitative/technical contribution; curated as route-defining Strong. Evidence: Low-bit quantization enables efficient deployment of large language models by reducing memory footprint and computational cost. Achieving high accuracy at low precision requires selecting quantization ranges, linear transformations, and weight rounding decisio",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Quantization"
+    ]
+  },
+  {
     "title": "A Universal Context-Reuse Layer for Cross-Model KV Sharing",
     "venue": "arXiv 2026",
     "topic": "KV cache / LLM serving / cross-model context reuse / multi-agent inference",
@@ -4301,6 +4345,30 @@
       "Multimodal / MLLM Serving",
       "Diffusion / Flow Acceleration",
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "AB-Attention: Accurate Block Attention for Accelerating Video Diffusion Transformers",
+    "venue": "arXiv 2026",
+    "topic": "sparse",
+    "arxiv": "2610.39663",
+    "doi": "",
+    "official_id": "arXiv:2610.39663",
+    "paper_url": "https://arxiv.org/abs/2610.39663",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party arXiv abstract confirms an explicit efficient-ML mechanism and quantitative/technical contribution; curated as route-defining Strong. Evidence: Video diffusion transformers generate high-quality videos, but the quadratic cost of 3D full attention dominates their inference. Dynamic block-sparse attention reduces this cost by computing exact attention only on key/value blocks selected from current activ",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Quantization",
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "Diffusion / Flow Acceleration"
     ]
   },
   {
@@ -6236,6 +6304,28 @@
     "tracking_tier": "P0 · Strong",
     "directions": [
       "Quantization",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Aligned Delta-Triplane Transformers as Occupancy World Models",
+    "venue": "arXiv 2026",
+    "topic": "efficient world models; video/image generation; autonomous driving",
+    "arxiv": "2503.07338",
+    "doi": "",
+    "official_id": "arXiv:2503.07338",
+    "paper_url": "https://arxiv.org/abs/2503.07338",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": true,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party abstract introduces a compact 4D occupancy world model that predicts scene changes rather than the full state and reports fewer parameters with higher FPS. This provides an explicit computational-redundancy reduction mechanism for autonomous-driving world models; promote strong.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Video / Image Generation",
       "VLA / WAM / Physical AI"
     ]
   },
@@ -9061,6 +9151,29 @@
     "directions": [
       "Sparsity / Pruning",
       "Efficient Attention"
+    ]
+  },
+  {
+    "title": "Block-GTQ: RoPE-Block Rate Allocation for KV-Cache Quantization",
+    "venue": "arXiv 2026",
+    "topic": "llm_serving,kv,quant",
+    "arxiv": "2606.24033",
+    "doi": "",
+    "official_id": "arXiv:2606.24033",
+    "paper_url": "https://arxiv.org/abs/2606.24033",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party arXiv abstract confirms an explicit efficient-ML mechanism and quantitative/technical contribution; curated as route-defining Strong. Evidence: Larger models and longer contexts make the KV cache a memory and bandwidth bottleneck. We introduce Block-GTQ, a framework that uses the two-dimensional frequency blocks of rotary position embeddings (RoPE) to allocate cached-key precision. A blockwise logit-e",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Quantization"
     ]
   },
   {
@@ -15432,6 +15545,30 @@
     ]
   },
   {
+    "title": "DolphinRouting: Cluster-Level Binary Routing for Disaggregated LLM Inference Serving",
+    "venue": "arXiv 2026",
+    "topic": "llm_serving,kv,quant",
+    "arxiv": "2610.40292",
+    "doi": "",
+    "official_id": "arXiv:2610.40292",
+    "paper_url": "https://arxiv.org/abs/2610.40292",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party arXiv abstract confirms an explicit efficient-ML mechanism and quantitative/technical contribution; curated as route-defining Strong. Evidence: Prefill-decode (PD) disaggregation isolates the two phases of large language model serving, but request-level path selection must account for prefill work, cache reuse, and decode demand. We present DolphinRouting, which learns this choice from end-to-end SLO ",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Quantization",
+      "Distributed Training / Inference"
+    ]
+  },
+  {
     "title": "Don't let your Memory defy you: Fragmentation-Aware Serverless Allocation with Elastic Memory Locality",
     "venue": "arXiv 2026",
     "topic": "LLM serving; memory/runtime systems",
@@ -16162,6 +16299,30 @@
     "directions": [
       "MoE Systems / Accelerators",
       "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "DWISE: Denoising Workload-Informed Scheduling Engine",
+    "venue": "arXiv 2026",
+    "topic": "llm_serving,edge",
+    "arxiv": "2610.39852",
+    "doi": "",
+    "official_id": "arXiv:2610.39852",
+    "paper_url": "https://arxiv.org/abs/2610.39852",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party arXiv abstract confirms an explicit efficient-ML mechanism and quantitative/technical contribution; curated as route-defining Strong. Evidence: Unlike autoregressive large language models (AR-LLMs), diffusion LLMs (dLLMs) generate text by iteratively denoising many tokens in parallel, offering a promising path to efficient inference. Existing serving frameworks, however, schedule dLLM requests with po",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "Diffusion / Flow Acceleration",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -27341,6 +27502,30 @@
     ]
   },
   {
+    "title": "KV Cache Quantization for Diffusion Language Models",
+    "venue": "arXiv 2026",
+    "topic": "kv,quant,gen",
+    "arxiv": "2610.39853",
+    "doi": "",
+    "official_id": "arXiv:2610.39853",
+    "paper_url": "https://arxiv.org/abs/2610.39853",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party arXiv abstract confirms an explicit efficient-ML mechanism and quantitative/technical contribution; curated as route-defining Strong. Evidence: KV cache quantization is well studied for autoregressive language models, where cached prefix states are exact under causal attention and quantization is mainly a cache reconstruction problem. Diffusion language models (dLLMs) break this assumption. Fast dLLM ",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "KV Cache / Long Context",
+      "Quantization",
+      "Efficient Attention",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "KV$^2$: A Self-Refining KV Cache",
     "venue": "arXiv 2026",
     "topic": "KV cache/long-context",
@@ -29365,6 +29550,29 @@
     ]
   },
   {
+    "title": "LinQuant: Functional Invariances for Low-Precision Linear Recurrences",
+    "venue": "arXiv 2026",
+    "topic": "llm_serving,quant",
+    "arxiv": "2610.39418",
+    "doi": "",
+    "official_id": "arXiv:2610.39418",
+    "paper_url": "https://arxiv.org/abs/2610.39418",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party arXiv abstract confirms an explicit efficient-ML mechanism and quantitative/technical contribution; curated as route-defining Strong. Evidence: Linear recurrences are emerging as practical alternatives to softmax attention in large language models, appearing in both standalone and hybrid architectures. However, despite their rapid emergence, low-precision inference remains much less developed for thes",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "Efficient Attention"
+    ]
+  },
+  {
     "title": "LionMuon: Alternating Spectral and Sign Descent for Efficient Training",
     "venue": "arXiv 2026",
     "topic": "distributed_training",
@@ -30228,6 +30436,29 @@
     "directions": [
       "LLM Serving",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Low-Bit GDN Recurrent-State Quantization: Global Gradient-aware Allocation and Pure-Write Sliding Windows",
+    "venue": "arXiv 2026",
+    "topic": "kv,quant,attn",
+    "arxiv": "2610.39931",
+    "doi": "",
+    "official_id": "arXiv:2610.39931",
+    "paper_url": "https://arxiv.org/abs/2610.39931",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party arXiv abstract confirms an explicit efficient-ML mechanism and quantitative/technical contribution; curated as route-defining Strong. Evidence: Linear attention stores historical information in a recurrent state of fixed size, providing a compact memory representation for long-context inference. Reducing state precision further lowers per-request storage requirements, but quantized writeback errors en",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "KV Cache / Long Context",
+      "Quantization",
+      "Efficient Attention"
     ]
   },
   {
@@ -36679,6 +36910,29 @@
     ]
   },
   {
+    "title": "PhOSv1: Efficient Scaling of Model Sleeping on a Single Server for Autoscaling with GPU-Context Deduplication",
+    "venue": "arXiv 2026",
+    "topic": "llm_serving,kernel",
+    "arxiv": "2610.39999",
+    "doi": "",
+    "official_id": "arXiv:2610.39999",
+    "paper_url": "https://arxiv.org/abs/2610.39999",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party arXiv abstract confirms an explicit efficient-ML mechanism and quantitative/technical contribution; curated as route-defining Strong. Evidence: Autoscaling is a key mechanism in model-as-a-service systems, where fast scale-up is essential because the scale-up time directly determines how long a model service remains overloaded, which in turn governs serving quality. The state-of-the-art approach, mode",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "GPU Kernel / DSL / Compiler"
+    ]
+  },
+  {
     "title": "Physically Partitioned KVCache Format for CPU--GPU Load Balancing in MoE Inference",
     "venue": "arXiv 2026",
     "topic": "",
@@ -39291,6 +39545,30 @@
     ]
   },
   {
+    "title": "Raincheck: Deferred Multimodal Prefill for Efficient Multi-Turn MLLM Inference",
+    "venue": "arXiv 2026",
+    "topic": "llm_serving,sparse,multimodal",
+    "arxiv": "2610.39562",
+    "doi": "",
+    "official_id": "arXiv:2610.39562",
+    "paper_url": "https://arxiv.org/abs/2610.39562",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party arXiv abstract confirms an explicit efficient-ML mechanism and quantitative/technical contribution; curated as route-defining Strong. Evidence: Multi-turn conversations with multimodal large language models (MLLMs) reuse input context, but long multimodal inputs increase time to first token (TTFT). Query-aware hard pruning reduces prefill tokens but permanently excludes information that later question",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "Sparsity / Pruning",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
     "title": "RAM-Net: Linear-Time Sequence Modeling with Sparsely Addressable State",
     "venue": "arXiv 2026",
     "topic": "",
@@ -41771,6 +42049,32 @@
     ]
   },
   {
+    "title": "Rimuru: Unified Memory Management for Modern LLM Serving via Elastic Expert Offloading",
+    "venue": "arXiv 2026",
+    "topic": "llm_serving,moe,edge",
+    "arxiv": "2610.40305",
+    "doi": "",
+    "official_id": "arXiv:2610.40305",
+    "paper_url": "https://arxiv.org/abs/2610.40305",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party arXiv abstract confirms an explicit efficient-ML mechanism and quantitative/technical contribution; curated as route-defining Strong. Evidence: Modern LLMs strain device memory through large model weights and attention states, particularly in resource-constrained scenarios. Existing systems separately provision memory for model weights and attention states, imposing fixed fixed boundaries that cannot ",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Quantization",
+      "Efficient Attention",
+      "MoE Systems / Accelerators",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Ripple-Pivot Search: Active Parallel Decoding for Diffusion Large Language Models",
     "venue": "arXiv 2026",
     "topic": "speculative/parallel decoding",
@@ -41898,6 +42202,30 @@
     "directions": [
       "GPU Kernel / DSL / Compiler",
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Rocks, Pebbles and Sand: Modality-aware Scheduling for Multimodal Large Language Model Inference",
+    "venue": "arXiv 2026",
+    "topic": "llm_serving,multimodal,edge",
+    "arxiv": "2603.26498",
+    "doi": "",
+    "official_id": "arXiv:2603.26498",
+    "paper_url": "https://arxiv.org/abs/2603.26498",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party arXiv abstract confirms an explicit efficient-ML mechanism and quantitative/technical contribution; curated as route-defining Strong. Evidence: Multimodal Large Language Models (MLLMs) power platforms like ChatGPT, Gemini, and Copilot, enabling rich interactions across text, images, and videos. Unlike text-only workloads, multimodal requests are inherently heterogeneous, differing by orders of magnitu",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "Multimodal / MLLM Serving",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -54753,6 +55081,27 @@
       "LLM Serving",
       "GPU Kernel / DSL / Compiler",
       "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "world2vec: Mechanistic world models through latent dynamics learning",
+    "venue": "arXiv 2026",
+    "topic": "compact world models; efficient control; latent dynamics",
+    "arxiv": "2610.40637",
+    "doi": "",
+    "official_id": "arXiv:2610.40637",
+    "paper_url": "https://arxiv.org/abs/2610.40637",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": true,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party abstract reports at least one order of magnitude fewer parameters than DreamerV3, TD-MPC2, and LeWM while achieving state-of-the-art continuous-environment control and system identification. This is a concrete compact-model efficiency contribution in world-model/control systems; promote strong.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
       "VLA / WAM / Physical AI"
     ]
   },
@@ -103192,10 +103541,10 @@
     "title": "Stratum: System-Hardware Co-design with Tiered Monolithic 3D-DRAM for Efficient MoE Serving",
     "venue": "MICRO 2025",
     "topic": "MoE serving / memory-system co-design",
-    "arxiv": "",
+    "arxiv": "2510.05245",
     "doi": "",
     "official_id": "MICRO2025-Stratum",
-    "paper_url": "",
+    "paper_url": "https://arxiv.org/abs/2510.05245",
     "code_url": "",
     "formal_class": "CANONICAL_HIGH_VALUE",
     "physical_ai": false,
@@ -110980,6 +111329,27 @@
     ]
   },
   {
+    "title": "DRAMA: Unifying Data Retrieval and Analysis for Open-Domain Queries",
+    "venue": "SIGMOD 2026",
+    "topic": "Efficient reasoning and agent systems; open-domain data retrieval; cost-aware analytic workflows",
+    "arxiv": "2510.27238",
+    "doi": "",
+    "official_id": "arXiv:2510.27238",
+    "paper_url": "https://arxiv.org/abs/2510.27238",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party SIGMOD program identity and official arXiv Atom metadata/abstract establish a multi-agent pipeline unifying open-domain collection, structured transformation, and analysis; DramaBot reaches 86.5% task accuracy at $0.05 per task, up to 6.9x baseline accuracy and under one-sixth the cost.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "Dynamically Detect and Fix Hardness for Efficient Approximate Nearest Neighbor Search",
     "venue": "SIGMOD 2026",
     "topic": "ANN search; OOD retrieval; graph indexing; efficient vector search",
@@ -111495,6 +111865,27 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Reliable Answers for Recurring Questions: Boosting Text-to-SQL Accuracy with Template Constrained Decoding",
+    "venue": "SIGMOD 2026",
+    "topic": "Efficient reasoning; Text-to-SQL; grammar-constrained decoding; latency reduction",
+    "arxiv": "2604.28028",
+    "doi": "",
+    "official_id": "arXiv:2604.28028",
+    "paper_url": "https://arxiv.org/abs/2604.28028",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party SIGMOD program identity and official arXiv Atom metadata/abstract establish reusable query templates with NLI selection and partitioned grammar-constrained decoding; reports up to 36% higher execution accuracy and 2.2x lower latency on matched queries.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Reasoning / Agents"
     ]
   },
   {

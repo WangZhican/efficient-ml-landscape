@@ -1,10 +1,10 @@
 # 05 · Sparsity / Pruning
 
-> **701 canonical papers** mapped here, plus a broader **390-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **703 canonical papers** mapped here, plus a broader **397-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 390 tracked
+## 🆕 Latest 30 Days · 397 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -370,12 +370,14 @@
 | **P2 · Relevant** | **TRIM-ReID: Duplication-Aware Token Reduction and Modality-Aligned Interaction for Multi-Modal Object Re-Identification** | arXiv 2026 | multimodal/MLLM serving | [Link](https://arxiv.org/abs/2610.04361) | — |
 | **P2 · Relevant** | **Train An Imaginative Agent** | arXiv 2026 | agent,physical | [Link](https://arxiv.org/abs/2610.26845) | — |
 | **P2 · Relevant** | **Towards Automatically Pruning Logging Code with Coding Agents: How Far Are We?** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04716) | — |
+| **P2 · Relevant** | **Sparse Fine-Tuning for Parameter-Efficient Adversarial Training** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.39455) | — |
 | **P2 · Relevant** | **Seek-and-View Reasoning for Multi-View Spatial Understanding** | arXiv 2026 | multimodal,edge | [Link](https://arxiv.org/abs/2610.11810) | — |
 | **P0 · Strong** | **SCOPE: Subspace Clustering with Online Per-Head Top-K Estimation for Sparse Video Attention** | Fresh / preprint | sparse video attention / DiT inference | [Link](https://arxiv.org/abs/2608.12780) | — |
 | **P1 · Watch** | **Scaling Vision Transformers Without Training: Prune-and-Merge Token Compression** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18039) | — |
 | **P2 · Relevant** | **Reinforcement Learning with Conformal Action Sets: An Application to Sequential Recommendation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.08743) | — |
 | **P2 · Relevant** | **ReCal: Calibrating Structured Pruning for On-Policy Distillation Recovery** | arXiv 2026 | llm_serving,sparse | [Link](https://arxiv.org/abs/2610.11332) | — |
 | **P0 · Strong** | **ReCache: Efficient KV Cache Reuse and Compression for Tool-Augmented LLM Agents** | Fresh / preprint | agent serving / KV cache reuse / compression | [Link](https://arxiv.org/abs/2608.19662) | [Repo](https://github.com/EIT-NLP/ReCache) |
+| **P0 · Strong** | **Raincheck: Deferred Multimodal Prefill for Efficient Multi-Turn MLLM Inference** | arXiv 2026 | llm_serving,sparse,multimodal | [Link](https://arxiv.org/abs/2610.39562) | — |
 | **P0 · Strong** | **PRIME: Frequency-Aware Unified Pruning and Merging for MoE Compression** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.13982) | — |
 | **P2 · Relevant** | **Octrees as an Explicit 3D Language** | arXiv 2026 | multimodal/MLLM serving | [Link](https://arxiv.org/abs/2610.02388) | — |
 | **P2 · Relevant** | **LiDAR Resolution Recovery via Foundation-Model-Guided Diffusion** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.08620) | — |
@@ -393,11 +395,16 @@
 | **P0 · Strong** | **DoSA: Dots Sparse Attention** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.13990) | — |
 | **P2 · Relevant** | **Directional Evidence Guided Search-Space Reduction for Exact DAG Learning** | arXiv 2026 | edge_cloud_heterogeneous_ai_systems | [Link](https://arxiv.org/abs/2610.09136) | — |
 | **P2 · Relevant** | **Dataset Pruning from First Principles: A Label-Free Linear Programming Approach** | arXiv 2026 | pruning,data_efficiency | [Link](https://arxiv.org/abs/2610.10347) | — |
+| **P2 · Relevant** | **CrossWeave: Cross-Modal Scene and Instance Retrieval from Sparse 2D-3D Alignment** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.40525) | — |
 | **P2 · Relevant** | **CoTS: Competitive Token Selection for Latent Reasoning in Large Language Models** | arXiv 2026 | efficient_reasoning | [Link](https://arxiv.org/abs/2610.20642) | — |
 | **P2 · Relevant** | **Calibration Language Shapes Block-Influence Pruning in Multilingual Language Models** | arXiv 2026 | sparse,edge | [Link](https://arxiv.org/abs/2610.21383) | — |
+| **P2 · Relevant** | **Calibrating Attention-Based Token Pruning for Efficient Multi-Image Synthesis in UMMs** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2610.39467) | — |
+| **P2 · Relevant** | **BiHashFormer: Hash-Driven Dual-Branch Transformer for Efficient Object Detection in HRW Shots** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2610.39937) | — |
 | **P2 · Relevant** | **Bellman-Certified Rounding for Sparse Policy Deployment in MDPs** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.00325) | — |
 | **P0 · Strong** | **AViTS: Adaptive Spatiotemporal Token Selection for Efficient Dynamic-Resolution Generation** | Fresh / preprint | diffusion/image generation acceleration / adaptive token selection | [Link](https://arxiv.org/abs/2608.17995) | — |
 | **P0 · Strong** | **AutoPruner: Agentic Depth Pruning for Vision-Language-Action Models** | arXiv 2026 | VLA model pruning | [Link](https://arxiv.org/abs/2610.23880) | — |
+| **P2 · Relevant** | **ACD-GS: Asymmetric Curvature-aware Densification for 3D Gaussian Splatting** | arXiv 2026 | quant,sparse | [Link](https://arxiv.org/abs/2610.39399) | — |
+| **P0 · Strong** | **AB-Attention: Accurate Block Attention for Accelerating Video Diffusion Transformers** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2610.39663) | — |
 
 ## 🏛️ Classical / Historical · 582 canonical
 

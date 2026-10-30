@@ -1691,6 +1691,29 @@
     ]
   },
   {
+    "title": "VideoPro: Adaptive Program Reasoning for Long Video Understanding",
+    "venue": "ACL 2026",
+    "topic": "Multimodal/MLLM serving; efficient reasoning; long-video inference",
+    "arxiv": "2509.17743",
+    "doi": "10.18653/v1/2026.acl-long.341",
+    "official_id": "ACL2026:2026.acl-long.341",
+    "paper_url": "https://arxiv.org/abs/2509.17743",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party arXiv abstract verifies efficient visual modules and adaptive fast/slow reasoning; official ACL 2026 metadata/abstract verifies the VideoPro title, DOI, and the same adaptive program-reasoning framework. Avoids invoking costly program reasoning for every query and targets long-video inference overhead. Retain as an individual canonical high-value paper; no RWKV group attribution.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "Vista-LLM: Decoupled Query-Guided Visual Token Pruning for Efficient Long-Video Large Language Models",
     "venue": "ACL 2026",
     "topic": "multimodal/MLLM serving / visual token pruning",
@@ -4671,6 +4694,28 @@
     ]
   },
   {
+    "title": "Aligned Delta-Triplane Transformers as Occupancy World Models",
+    "venue": "arXiv 2026",
+    "topic": "efficient world models; video/image generation; autonomous driving",
+    "arxiv": "2503.07338",
+    "doi": "",
+    "official_id": "arXiv:2503.07338",
+    "paper_url": "https://arxiv.org/abs/2503.07338",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": true,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party abstract introduces a compact 4D occupancy world model that predicts scene changes rather than the full state and reports fewer parameters with higher FPS. This provides an explicit computational-redundancy reduction mechanism for autonomous-driving world models; promote strong.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Video / Image Generation",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Alignment-Guided Flow Transformer for Efficient Vision-Language-Action Policy Learning",
     "venue": "arXiv 2026",
     "topic": "",
@@ -6513,6 +6558,29 @@
     "directions": [
       "Sparsity / Pruning",
       "Efficient Attention"
+    ]
+  },
+  {
+    "title": "Block-GTQ: RoPE-Block Rate Allocation for KV-Cache Quantization",
+    "venue": "arXiv 2026",
+    "topic": "llm_serving,kv,quant",
+    "arxiv": "2606.24033",
+    "doi": "",
+    "official_id": "arXiv:2606.24033",
+    "paper_url": "https://arxiv.org/abs/2606.24033",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party arXiv abstract confirms an explicit efficient-ML mechanism and quantitative/technical contribution; curated as route-defining Strong. Evidence: Larger models and longer contexts make the KV cache a memory and bandwidth bottleneck. We introduce Block-GTQ, a framework that uses the two-dimensional frequency blocks of rotary position embeddings (RoPE) to allocate cached-key precision. A blockwise logit-e",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Quantization"
     ]
   },
   {
@@ -27322,6 +27390,30 @@
     "directions": [
       "GPU Kernel / DSL / Compiler",
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Rocks, Pebbles and Sand: Modality-aware Scheduling for Multimodal Large Language Model Inference",
+    "venue": "arXiv 2026",
+    "topic": "llm_serving,multimodal,edge",
+    "arxiv": "2603.26498",
+    "doi": "",
+    "official_id": "arXiv:2603.26498",
+    "paper_url": "https://arxiv.org/abs/2603.26498",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party arXiv abstract confirms an explicit efficient-ML mechanism and quantitative/technical contribution; curated as route-defining Strong. Evidence: Multimodal Large Language Models (MLLMs) power platforms like ChatGPT, Gemini, and Copilot, enabling rich interactions across text, images, and videos. Unlike text-only workloads, multimodal requests are inherently heterogeneous, differing by orders of magnitu",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "Multimodal / MLLM Serving",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -83249,10 +83341,10 @@
     "title": "Stratum: System-Hardware Co-design with Tiered Monolithic 3D-DRAM for Efficient MoE Serving",
     "venue": "MICRO 2025",
     "topic": "MoE serving / memory-system co-design",
-    "arxiv": "",
+    "arxiv": "2510.05245",
     "doi": "",
     "official_id": "MICRO2025-Stratum",
-    "paper_url": "",
+    "paper_url": "https://arxiv.org/abs/2510.05245",
     "code_url": "",
     "formal_class": "CANONICAL_HIGH_VALUE",
     "physical_ai": false,
@@ -91037,6 +91129,27 @@
     ]
   },
   {
+    "title": "DRAMA: Unifying Data Retrieval and Analysis for Open-Domain Queries",
+    "venue": "SIGMOD 2026",
+    "topic": "Efficient reasoning and agent systems; open-domain data retrieval; cost-aware analytic workflows",
+    "arxiv": "2510.27238",
+    "doi": "",
+    "official_id": "arXiv:2510.27238",
+    "paper_url": "https://arxiv.org/abs/2510.27238",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party SIGMOD program identity and official arXiv Atom metadata/abstract establish a multi-agent pipeline unifying open-domain collection, structured transformation, and analysis; DramaBot reaches 86.5% task accuracy at $0.05 per task, up to 6.9x baseline accuracy and under one-sixth the cost.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Reasoning / Agents"
+    ]
+  },
+  {
     "title": "Dynamically Detect and Fix Hardness for Efficient Approximate Nearest Neighbor Search",
     "venue": "SIGMOD 2026",
     "topic": "ANN search; OOD retrieval; graph indexing; efficient vector search",
@@ -91552,6 +91665,27 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Reliable Answers for Recurring Questions: Boosting Text-to-SQL Accuracy with Template Constrained Decoding",
+    "venue": "SIGMOD 2026",
+    "topic": "Efficient reasoning; Text-to-SQL; grammar-constrained decoding; latency reduction",
+    "arxiv": "2604.28028",
+    "doi": "",
+    "official_id": "arXiv:2604.28028",
+    "paper_url": "https://arxiv.org/abs/2604.28028",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party SIGMOD program identity and official arXiv Atom metadata/abstract establish reusable query templates with NLI selection and partitioned grammar-constrained decoding; reports up to 36% higher execution accuracy and 2.2x lower latency on matched queries.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Efficient Reasoning / Agents"
     ]
   },
   {

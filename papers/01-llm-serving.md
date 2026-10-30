@@ -1,10 +1,10 @@
 # 01 · LLM Serving
 
-> **2099 canonical papers** mapped here, plus a broader **1568-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **2108 canonical papers** mapped here, plus a broader **1601-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 1568 tracked
+## 🆕 Latest 30 Days · 1601 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -448,6 +448,7 @@
 | **P0 · Strong** | **Emulating DGEMM and ZGEMM with INT8 Matrix Engines on Intel Arc GPUs: Ozaki Scheme II on the Xe2 Architecture** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.26945) | — |
 | **P0 · Strong** | **ReTrace: Visual Backtracking for Efficient Multimodal Large Language Models** | arXiv 2026 | Multimodal serving / token compression | [Link](https://arxiv.org/abs/2610.25005) | — |
 | **P1 · Watch** | **When Does Better Acceptance Pay? A Controlled Study of Speculative Decoding** | arXiv 2026 | Speculative decoding evaluation | [Link](https://arxiv.org/abs/2610.24993) | — |
+| **P2 · Relevant** | **Sample-Efficient Reinforcement Learning with General Utilities via Neural Dual Critics** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.24880) | — |
 | **P0 · Strong** | **FlowMaker: From Tasks to Cost-Efficient Generative AI Workflow Deployments** | arXiv 2026 | LLM workflow serving | [Link](https://arxiv.org/abs/2610.24861) | — |
 | **P0 · Strong** | **Accelerating CPU Speculative Decoding via Unified Graph Execution and Transactional KV Isolation** | arXiv 2026 | speculative decoding; CPU LLM serving | [Link](https://arxiv.org/abs/2610.28671) | — |
 | **P2 · Relevant** | **Pattern-Driven Evaluation of LLM Code Optimization: Isolating Compiler-Transcendent Semantic Reasoning** | arXiv 2026 | compiler optimization benchmark | [Link](https://arxiv.org/abs/2610.24835) | — |
@@ -1290,14 +1291,17 @@
 | **P2 · Relevant** | **Geometry-physics confounding impairs PDE learning across varying domains** | arXiv 2026 | efficient scientific ML / operator learning / data efficiency | [Link](https://arxiv.org/abs/2609.38623) | — |
 | **P1 · Watch** | **StreamDecisionBench: Evaluating Decisions in Force on Evolving Language Streams** | arXiv 2026 | multimodal/MLLM serving | [Link](https://arxiv.org/abs/2609.38612) | — |
 | **P2 · Relevant** | **YUBI-Real2Sim: 3DGS Scene Verification for Reliable Policy Evaluation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17521) | — |
+| **P2 · Relevant** | **YOLOF-MLD: A Multi-Level Distillation Framework for Efficient Object Detection** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.39408) | — |
 | **P1 · Watch** | **YOCO: You Only Calibrate Once! Fast Mocap Calibration for Dexterous Teleoperation** | arXiv 2026 | llm_serving,gen,edge | [Link](https://arxiv.org/abs/2610.11657) | — |
 | **P2 · Relevant** | **World-in-Context: Interactive Video World Modeling with In-Context Conditioning** | arXiv | physical | [Link](https://arxiv.org/abs/2610.33169) | — |
 | **P2 · Relevant** | **World Models Dream of Success: Diagnosing and Repairing Failure Insensitivity in Robot World Models** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.09134) | — |
 | **P2 · Relevant** | **World Embedding Benchmark** | arXiv 2026 | physical_ai | [Link](https://arxiv.org/abs/2610.03632) | — |
 | **P2 · Relevant** | **World Editing: Intervening on Executable Worlds at Increasing Depth** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.02331) | — |
+| **P2 · Relevant** | **Wizard: Manipulate Any World in Real Time via Agentic Control** | arXiv 2026 | video generation; agentic control; world models | [Link](https://arxiv.org/abs/2610.40339) | — |
 | **P2 · Relevant** | **Why Static Skill Inconsistencies Do Not Equate to Runtime Risks: A Behavioral Analysis of LLM Agent Execution** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18927) | — |
 | **P2 · Relevant** | **Which LLM to pick? Online Active Model Selection for Large Language Models** | arXiv 26 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.01592) | — |
 | **P1 · Watch** | **Where Do the Tokens Go? Understanding and Reducing Costs in LLM Agents for Vulnerability Discovery** | arXiv 2026 | llm_serving,gen,edge | [Link](https://arxiv.org/abs/2610.11602) | — |
+| **P2 · Relevant** | **When to Assist and What to Suggest: Joint Gating and Memory-Grounded Hint Generation in One Compact Decoder** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.40611) | — |
 | **P2 · Relevant** | **When Sub-Agents Work in Parallel: The Promises and Pitfalls of Dynamic Concurrency in Long-Horizon Coding Tasks** | arXiv 2026 | llm_serving,gen | [Link](https://arxiv.org/abs/2610.10263) | — |
 | **P2 · Relevant** | **When Routing Reveals Membership: Privacy Leakage from MoE Router Telemetry** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.10616) | — |
 | **P2 · Relevant** | **When Low Prediction Error Misleads Planning: Diagnosing Representation, Dynamics, and Decision Failures in Latent World Models** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.05550) | — |
@@ -1326,6 +1330,7 @@
 | **P2 · Relevant** | **Towards Subject Consistency over Dynamic Subject Sets in Video Generation** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.01052) | — |
 | **P2 · Relevant** | **Towards Reliable Vision-Language Models for Autonomous Driving** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.01531) | — |
 | **P0 · Strong** | **Towards Looped Models Done Right, Part II: Rethinking at Fixed Points** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2610.06833) | — |
+| **P2 · Relevant** | **TouchBridge: Tactile-Conditioned Human-to-Robot Transfer for Dexterous Manipulation** | arXiv 2026 | Physical AI; VLA data pipeline; tactile-conditioned transfer | [Link](https://arxiv.org/abs/2610.40349) | — |
 | **P0 · Strong** | **To Keep or Not to Keep: Learning KV Cache Retention in Disaggregated LLM Serving Systems** | arXiv | llm_serving,kv | [Link](https://arxiv.org/abs/2610.28637) | — |
 | **P2 · Relevant** | **TiTok: Audio-Visual LLM for Multi-Segment Temporal Grounding** | arXiv 2026 | llm_serving,edge | [Link](https://arxiv.org/abs/2610.09408) | — |
 | **P2 · Relevant** | **TimeWorld: Towards Action-Conditioned Multimodal World Models for Time Series Forecasting** | arXiv 2026 | physical | [Link](https://arxiv.org/abs/2610.34797) | — |
@@ -1336,9 +1341,11 @@
 | **P2 · Relevant** | **The Optimal Decoder is Tilted Temperature** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15058) | — |
 | **P2 · Relevant** | **The Functional Structure of Post-Compression Recovery in Low-Rank LLMs** | arXiv 26 | low_rank_compression_characterization | [Link](https://arxiv.org/abs/2610.05504) | — |
 | **P2 · Relevant** | **The Attribution Blind Spot: Layerwise Trajectory Diagnostics for Source Reliance in Retrieval-Augmented Language Models** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.09493) | — |
+| **P2 · Relevant** | **TextSeal2: Distortion-Free LLM Watermarking with Copula Mixing and Memoryless Races** | arXiv 2026 | llm_serving,spec | [Link](https://arxiv.org/abs/2610.40613) | — |
 | **P0 · Strong** | **TEMPO: Makespan-Aware Expert-Parallel Load Balancing Across Memory- and Compute-Bound Regimes** | Fresh / preprint | MoE expert-parallel load balancing / serving | [Link](https://arxiv.org/abs/2608.13057) | — |
 | **P2 · Relevant** | **TEM: Temporal State Tracking Memory for Large Language Model Agents** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.21900) | — |
 | **P0 · Strong** | **TasteRoute: Personalized Routing for Video Generation** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2610.05896) | — |
+| **P2 · Relevant** | **TaskFrame: Connecting Task-Level Planning with Frame-Level Control for Game Agents** | arXiv 2026 | llm_serving,multimodal | [Link](https://arxiv.org/abs/2610.40276) | — |
 | **P2 · Relevant** | **Task-Adaptive Grounded 3D-Programmers Using 2D VLMs** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.02021) | — |
 | **P2 · Relevant** | **TAME:Topology-Aware Text-Driven Motion Editing across Heterogeneous Humanoid Skeletons** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.04529) | — |
 | **P2 · Relevant** | **TacZero: Training-Free Peg Insertion Using a General-Purpose Vision-Language Model with Tactile Feedback** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.07621) | — |
@@ -1353,6 +1360,7 @@
 | **P2 · Relevant** | **Stable and Counterfactually Robust Physical World Models from Imposed Structure and Learned Physics** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.00280) | — |
 | **P2 · Relevant** | **Spa-Bench: A Real-Robot Benchmark for Spatial Grounding in Vision-Language-Action Models** | arXiv 2026 | vla_physical_ai_serving | [Link](https://arxiv.org/abs/2610.12696) | — |
 | **P1 · Watch** | **SoK: Semantic Decision Engines in Network Control Loops** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2610.06425) | — |
+| **P1 · Watch** | **Smooth Action Chunking Via Movement-Primitive Representations for Imitation Learning** | arXiv 2026 | llm_serving,multimodal,gen,physical | [Link](https://arxiv.org/abs/2610.39451) | — |
 | **P2 · Relevant** | **SkillSandbox: Skill Verification via Dynamic Scenario Synthesis** | arXiv 2026 | llm_serving,gen | [Link](https://arxiv.org/abs/2610.10088) | — |
 | **P2 · Relevant** | **Skeleton-Grounded Latent Action Model for Robot World Models** | arXiv 2026 | physical | [Link](https://arxiv.org/abs/2610.31474) | — |
 | **P2 · Relevant** | **Sim-to-Real Transfer of Vision-Language Navigation in Continuous Environments Using an Ackermann-Steered Mobile Robot** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.07192) | — |
@@ -1366,6 +1374,8 @@
 | **P2 · Relevant** | **Same Action, Different Outcome: Variability in Dynamic Cloth Manipulation** | arXiv 2026 | agent workflows / Physical AI characterization low priority | [Link](https://arxiv.org/abs/2610.10801) | — |
 | **P1 · Watch** | **Router Drift Control: Mitigating Off-Policy Degradation in Mixture-of-Experts Reinforcement Learning** | arXiv 2026 | llm_serving,moe | [Link](https://arxiv.org/abs/2610.21682) | — |
 | **P2 · Relevant** | **Robot Learning on Discrete Surfaces: Theory and Applications** | arXiv 26 | robot learning on discrete surfaces | [Link](https://arxiv.org/abs/2610.01910) | — |
+| **P1 · Watch** | **RoboSeed: Multidimensional Evaluation of Vision-Language-Action and World-Action Models: Capability, Resource Affordability, and Research Evidence** | arXiv 2026 | llm_serving,multimodal,physical,edge | [Link](https://arxiv.org/abs/2610.40026) | — |
+| **P0 · Strong** | **Rimuru: Unified Memory Management for Modern LLM Serving via Elastic Expert Offloading** | arXiv 2026 | llm_serving,moe,edge | [Link](https://arxiv.org/abs/2610.40305) | — |
 | **P2 · Relevant** | **Right Screen, Wrong Transition: World Models as Verifiers for GUI Agents** | arXiv 2026 | llm_serving,gen,physical | [Link](https://arxiv.org/abs/2610.11942) | — |
 | **P2 · Relevant** | **RFChipAgent: Multi-Agentic AI Flow for Analog/RF Chip Design** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.10858) | — |
 | **P1 · Watch** | **Rethinking Quality in Large Language Model Routing: Security-Conditioned Model-and-Budget Selection** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18566) | — |
@@ -1379,6 +1389,7 @@
 | **P0 · Strong** | **ReCache: Efficient KV Cache Reuse and Compression for Tool-Augmented LLM Agents** | Fresh / preprint | agent serving / KV cache reuse / compression | [Link](https://arxiv.org/abs/2608.19662) | [Repo](https://github.com/EIT-NLP/ReCache) |
 | **P2 · Relevant** | **RAPO-Sol: Retrieval-Augmented Preference Optimization for Repository-Level Solidity Code Generation** | arXiv 2026 | llm_serving,gen,edge | [Link](https://arxiv.org/abs/2610.08429) | — |
 | **P2 · Relevant** | **RAISED: Self-Distillation for Robustness to Prompt Injection in LLM Agents** | arXiv 2026 | llm_serving,agent | [Link](https://arxiv.org/abs/2610.06401) | — |
+| **P0 · Strong** | **Raincheck: Deferred Multimodal Prefill for Efficient Multi-Turn MLLM Inference** | arXiv 2026 | llm_serving,sparse,multimodal | [Link](https://arxiv.org/abs/2610.39562) | — |
 | **P1 · Watch** | **Q-SPT: Learnable Query-Based Compression for Low-Frame-Rate Speech Tokenization** | arXiv 2026 | multimodal/MLLM serving | [Link](https://arxiv.org/abs/2610.01492) | — |
 | **P2 · Relevant** | **Q-Shaped Options for Hierarchical Reinforcement Learning** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.12135) | — |
 | **P2 · Relevant** | **Pythia: Toward Foundation World Models for Multimodal Time Series** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2610.05240) | — |
@@ -1391,6 +1402,7 @@
 | **P1 · Watch** | **PointVGGT: Zero-Shot Multiview RGB-D Point Cloud Registration with Visual Geometry Foundation Priors** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.11612) | — |
 | **P2 · Relevant** | **Plans Are Not Executions: Adapting Frozen World-Model Planners to Controller-Induced Execution Shift** | arXiv 2026 | llm_serving,physical | [Link](https://arxiv.org/abs/2610.22041) | — |
 | **P1 · Watch** | **PhysLDM: Latent Diffusion for High-Fidelity Deformable Simulation** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.07609) | — |
+| **P0 · Strong** | **PhOSv1: Efficient Scaling of Model Sleeping on a Single Server for Autoscaling with GPU-Context Deduplication** | arXiv 2026 | llm_serving,kernel | [Link](https://arxiv.org/abs/2610.39999) | — |
 | **P1 · Watch** | **Past as State, Present as Attention: Persistent-State Blockwise Flow Matching for Long-Horizon Co-Speech Motion Generation** | arXiv | video/image generation acceleration | [Link](https://arxiv.org/abs/2610.32373) | — |
 | **P0 · Strong** | **Parametric Trajectory Distillation for Few-Step Video Generation** | arXiv 2026 | llm_serving,gen | [Link](https://arxiv.org/abs/2610.11498) | — |
 | **P2 · Relevant** | **Parallelizable Probabilistic Latent Reasoning for Diverse Reasoning Trajectories** | arXiv 2026 | adjacent_efficiency_or_physical_ai | [Link](https://arxiv.org/abs/2610.29385) | — |
@@ -1403,13 +1415,16 @@
 | **P2 · Relevant** | **OpenPA: Forced-alignment-free Multi-granular Pronunciation Assessment with Mixed-transcript Adaptation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.13826) | — |
 | **P2 · Relevant** | **Open-o3-Video-v2: Seek, Ground, and Reason with Verifiable Spatio-Temporal Evidence** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17656) | — |
 | **P0 · Strong** | **OntoPlan: An Ontology-Grounded Scene Representation and Agentic Framework for Scalable Robot Task Planning** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.07649) | — |
+| **P1 · Watch** | **Only Accepted Tokens Count: An Energy Accounting of Speculative Decoding Under Latency Targets** | arXiv 2026 | llm_serving,spec | [Link](https://arxiv.org/abs/2610.40287) | — |
 | **P1 · Watch** | **One-Step Text Generation by Seq-Drifting** | arXiv 2026 | diffusion language model / single-step parallel generation | [Link](https://arxiv.org/abs/2610.12879) | — |
 | **P2 · Relevant** | **One-shot Human Video-Guided Adaptation for Vision-Language-Action Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19746) | — |
 | **P2 · Relevant** | **One Token Can Be Enough: Bridging Prompting and Activation Steering with Prefix Steering** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.04967) | — |
 | **P2 · Relevant** | **One Task, Many Interfaces: Simple Cross-Interface Consistency Training Improves LLM Agent Robustness** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20576) | — |
+| **P2 · Relevant** | **On the Fundamental Limits of Prefill-Based Decoding Length Prediction** | arXiv 2026 | llm_serving,moe | [Link](https://arxiv.org/abs/2610.40541) | — |
 | **P2 · Relevant** | **OmniInteract: Towards Unified Whole-Body Interaction Control for Dual Humanoids** | arXiv 26 | whole-body interaction policy | [Link](https://arxiv.org/abs/2610.26043) | — |
 | **P2 · Relevant** | **Octrees as an Explicit 3D Language** | arXiv 2026 | multimodal/MLLM serving | [Link](https://arxiv.org/abs/2610.02388) | — |
 | **P2 · Relevant** | **Nous: Learning and Certifying Memory Decisions Before Source Calibration** | arXiv 2026 | agent_memory | [Link](https://arxiv.org/abs/2610.00094) | — |
+| **P1 · Watch** | **NORmal: Architecting 3D Ferroelectric NOR Flash as Main Memory -- From Co-Fabricated BEOL Arrays to 200B-Class Multi-Agent LLMs in a Smartphone** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.40000) | — |
 | **P2 · Relevant** | **Noise, Denoise, Correct: MCMC Posterior Sampling with Diffusion Priors in Three Steps** | arXiv 2026 | llm_serving,gen | [Link](https://arxiv.org/abs/2610.09407) | — |
 | **P2 · Relevant** | **Noise Your Prompt: Noising Conditioning Tokens in Continuous Diffusion Language Models** | arXiv 2026 | continuous diffusion language model / training objective | [Link](https://arxiv.org/abs/2610.09145) | — |
 | **P2 · Relevant** | **NeuralZip: Reusable Setup for Fast Lossless Compression** | arXiv 2026 | llm_serving,gen | [Link](https://arxiv.org/abs/2610.09916) | — |
@@ -1434,6 +1449,7 @@
 | **P2 · Relevant** | **Localization Lens for Improving Medical Vision-Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04502) | — |
 | **P2 · Relevant** | **LLM2R: From Large Language Models to 3D Reassemblers** | arXiv 26 | 3D embodied reasoning adjacent | [Link](https://arxiv.org/abs/2610.18604) | — |
 | **P2 · Relevant** | **LLM-Based Exogenous World Modeling for Dynamic Scheduling** | arXiv 2026 | llm_serving,physical | [Link](https://arxiv.org/abs/2610.29308) | — |
+| **P0 · Strong** | **LinQuant: Functional Invariances for Low-Precision Linear Recurrences** | arXiv 2026 | llm_serving,quant | [Link](https://arxiv.org/abs/2610.39418) | — |
 | **P2 · Relevant** | **Lightweight Change Detection for Adaptive Collective Perception in Dynamic Environments** | arXiv 2026 | resource-constrained swarm robotics; online perception | [Link](https://arxiv.org/abs/2610.34059) | — |
 | **P2 · Relevant** | **LIFT: Scoped Constraints for Evaluating and Training Instruction Following** | arXiv 26 | Efficient reasoning/agent systems; RL instruction-following | [Link](https://arxiv.org/abs/2610.28819) | — |
 | **P0 · Strong** | **LeWAM: End-to-End World and Action Modeling with JEPAs** | arXiv 2026 | vla_physical_ai_serving | [Link](https://arxiv.org/abs/2610.12818) | — |
@@ -1453,6 +1469,7 @@
 | **P2 · Relevant** | **Kepler4D: Controllable Future Video Generation via 4D Scene State Evolution** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.04152) | — |
 | **P2 · Relevant** | **Keeping JEPA World Models Plannable When Little of the Frame Moves** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.03137) | — |
 | **P2 · Relevant** | **Kairos: Toward a Byte-Level Foundation Model for Every Modality** | arXiv 2026 | multimodal_architecture_efficiency | [Link](https://arxiv.org/abs/2610.12495) | — |
+| **P2 · Relevant** | **Kairos: Semantics-Aware Orchestration of Planning Engines across Classical, Numeric, Temporal and Hybrid PDDL** | arXiv 2026 | llm_serving,edge | [Link](https://arxiv.org/abs/2610.39454) | — |
 | **P2 · Relevant** | **IoT-based Smart Real-Time Energy-Aware Server Room Monitoring System** | arXiv | edge-cloud-runtime | [Link](https://arxiv.org/abs/2610.35873) | — |
 | **P2 · Relevant** | **Interpreting Physics in Video Encoders using Multi-Object Interaction Videos** | arXiv 2026 | Physical AI world-model evaluation | [Link](https://arxiv.org/abs/2610.31983) | — |
 | **P2 · Relevant** | **Inside-JEPA: From Prediction to Relational Grounding in Latent World Models** | arXiv 2026 | physical_ai,agent_systems | [Link](https://arxiv.org/abs/2610.31194) | — |
@@ -1462,9 +1479,12 @@
 | **P2 · Relevant** | **Humanoid Rickshaw Pulling: Whole-Body Locomotion under Coupled Wheeled Loads** | arXiv 2026 | llm_serving,gen | [Link](https://arxiv.org/abs/2610.04238) | — |
 | **P2 · Relevant** | **Humanoid Mobility via Attention-based Contacts** | arXiv 2026 | adjacent_efficiency_or_physical_ai | [Link](https://arxiv.org/abs/2610.31608) | — |
 | **P2 · Relevant** | **How Robust Are Neural Audio Codecs for African Speech? A Multi-Task Benchmark and the Limits of Perceptual Quality** | arXiv 2026 | multimodal_serving,compression | [Link](https://arxiv.org/abs/2610.00154) | — |
+| **P2 · Relevant** | **How Much Should a VLA Trust Its Reasoning? Step-Level Guidance as a Measured Action-Value Function** | arXiv 2026 | multimodal,physical | [Link](https://arxiv.org/abs/2610.40002) | — |
 | **P2 · Relevant** | **How Long, Not How Close: A Learned Temporal Metric for Planning in Latent World Models** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.04988) | — |
+| **P1 · Watch** | **How Far Are We From On-Device VLM Inference? A Measurement Study on Edge NPUs** | arXiv 2026 | llm_serving,attn,multimodal,edge | [Link](https://arxiv.org/abs/2610.40039) | — |
 | **P2 · Relevant** | **How Do DiTs Denoise? An Aggregator-Predictor View of Attention and MLPs** | arXiv |  | [Link](https://arxiv.org/abs/2610.29854) | — |
 | **P2 · Relevant** | **HIDRA: Hierarchical Dual-Routing Attention for Replay-Free Lifelong Imitation Learning** | arXiv | Physical AI lifelong imitation learning | [Link](https://arxiv.org/abs/2610.36374) | — |
+| **P2 · Relevant** | **HEMO: Harness Self-Evolution for Multi-Objective Combinatorial Optimization** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.40023) | — |
 | **P2 · Relevant** | **Heads of Security: Learned Attention Gates Improve Prompt Injection Robustness** | arXiv | llm-architecture-security | [Link](https://arxiv.org/abs/2610.37657) | — |
 | **P1 · Watch** | **Harnessing LLMs as Agents: What Does It Cost?** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.02488) | — |
 | **P0 · Strong** | **Hardware-Native Joint Sparse-Quantization for Trillion-Scale Mixture-of-Experts** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.02241) | — |
@@ -1473,6 +1493,7 @@
 | **P0 · Strong** | **Global Simulation-Guided Dynamic Operator Scheduling for Efficient Multi-Tenant Model Serving** | Fresh / preprint | multi-tenant model serving / operator-level scheduling | [Link](https://arxiv.org/abs/2608.15762) | — |
 | **P2 · Relevant** | **GeoBridge: Evolving Transferable Decoder Topologies for Geometric Vision** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15280) | — |
 | **P2 · Relevant** | **GAGR-Lab: Evaluating Joint Spatial-Geometric and Analytic Function Reasoning** | arXiv 2026 | llm_serving,edge | [Link](https://arxiv.org/abs/2610.10201) | — |
+| **P2 · Relevant** | **From Reasoning to Action: Consequence-Grounded Alignment for Vision-Language-Action Models** | arXiv 2026 | llm_serving,multimodal,physical | [Link](https://arxiv.org/abs/2610.39543) | — |
 | **P2 · Relevant** | **From Pixels to Executable Physics: Behavior-Grounded World Models for Embodied Action Consequence Prediction** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17630) | — |
 | **P0 · Strong** | **From LLM Inference to Agentic Workloads: Characterization and Implications for Serving Systems** | Fresh / preprint | agentic serving characterization / systems benchmark | [Link](https://arxiv.org/abs/2608.15127) | — |
 | **P1 · Watch** | **Freeze the Decoder, Heal the Encoder: Parameter-Efficient Adaptation for SVD-Based KV-Cache Compression** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.10552) | — |
@@ -1481,6 +1502,7 @@
 | **P0 · Strong** | **FlashAttention for Scalable Vector Architectures** | Fresh / preprint | efficient attention / CPU vector architecture / llama.cpp | [Link](https://arxiv.org/abs/2608.18656) | — |
 | **P2 · Relevant** | **FireNav: Decision-Oriented Reconstruction Evidence Routing for Vision-Language Navigation in Indoor Fire Environments** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15595) | — |
 | **P2 · Relevant** | **FedSSMCoOp: SSM Encoders for light-weight Federated Prompt Learning for Few-shot Classification** | arXiv 2026 | llm_serving,multimodal | [Link](https://arxiv.org/abs/2610.09907) | — |
+| **P2 · Relevant** | **Federated Agentic AI for Interference-Aware Adaptive Spectrum Coordination** | arXiv 2026 | llm_serving,agent,edge | [Link](https://arxiv.org/abs/2610.39680) | — |
 | **P2 · Relevant** | **FedAlphaEdit: Null-Space-Aligned Merging for Collaborative Knowledge Editing** | arXiv 2026 | distributed training/inference | [Link](https://arxiv.org/abs/2610.11033) | — |
 | **P2 · Relevant** | **Exploring Temporal Context-Aware Physical Grounding in Latent World Models** | arXiv 2026 | physical_ai_world_model | [Link](https://arxiv.org/abs/2610.28483) | — |
 | **P2 · Relevant** | **Exploiting Hierarchical Controller Structure in Contextual Parameter Learning for Humanoid Loco-Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.04609) | — |
@@ -1489,30 +1511,36 @@
 | **P2 · Relevant** | **Evaluating Agentic Capabilities Before Post-Training: An End-to-End Approach** | arXiv 2026 | multimodal / Physical AI / agent infrastructure low-priority | [Link](https://arxiv.org/abs/2610.19425) | — |
 | **P2 · Relevant** | **Esports World Model Dataset** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16166) | — |
 | **P1 · Watch** | **Energy-Score Stabilized Attentive Mixture-Density Policy: A Lightweight Approach to Multimodal Robot Motion** | arXiv 26 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.25401) | — |
+| **P2 · Relevant** | **Energy-Efficient Memristor Accelerator for Depression Detection with a CNN-LSTM Hybrid Model** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.39420) | — |
 | **P2 · Relevant** | **EmbodyHOI: Embodiment-Aware Generation of Hand-Object Interactions for Humanoid Dexterous Manipulation** | arXiv 26 | embodiment-aware flow-matching interaction generation | [Link](https://arxiv.org/abs/2610.27242) | — |
 | **P2 · Relevant** | **ElasticFit: Fit-Aware 3D Object Insertion via VLM Reasoning and Generative Adaptation** | arXiv 2026 | llm_serving,multimodal,gen | [Link](https://arxiv.org/abs/2610.07460) | — |
 | **P0 · Strong** | **Efficient INT8 Inference of Small NLP Models on Server CPUs with PyTorch Native Stack** | Fresh / preprint | CPU INT8 inference / PyTorch-TorchAO / TorchInductor | [Link](https://arxiv.org/abs/2608.18182) | — |
 | **P0 · Strong** | **Efficient FlashAttention on Blackwell via Fixed-Shift Softmax and Persistent Scheduling** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2610.02229) | — |
 | **P2 · Relevant** | **Effective Resistance and Graph Neural Network Reliability in Tissue-Specific Interactomes** | arXiv 2026 | llm_serving,gen | [Link](https://arxiv.org/abs/2610.02175) | — |
 | **P0 · Strong** | **EcoVLA: Energy-Efficient Device-Edge Co-Inference for Vision-Language-Action Models under Real-Time Constraints** | Fresh / preprint | VLA device-edge co-inference / energy-aware runtime | [Link](https://arxiv.org/abs/2608.15502) | — |
+| **P0 · Strong** | **DWISE: Denoising Workload-Informed Scheduling Engine** | arXiv 2026 | llm_serving,edge | [Link](https://arxiv.org/abs/2610.39852) | — |
 | **P1 · Watch** | **DUET: Decoupled Upper- and Lower-Body Execution for Task-Agnostic Humanoid Loco-Manipulation** | arXiv 26 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.23872) | — |
 | **P2 · Relevant** | **Dual Exam: Controlled Evaluation of Multimodal Agents and World Models** | arXiv 2026 | physical_ai,agent_systems | [Link](https://arxiv.org/abs/2610.31066) | — |
 | **P2 · Relevant** | **DRILL: Training World Models to Improve Policies, Not Predict Pixels** | arXiv 2026 | multimodal,physical | [Link](https://arxiv.org/abs/2610.30814) | — |
+| **P0 · Strong** | **DolphinRouting: Cluster-Level Binary Routing for Disaggregated LLM Inference Serving** | arXiv 2026 | llm_serving,kv,quant | [Link](https://arxiv.org/abs/2610.40292) | — |
 | **P2 · Relevant** | **Does Personalization Break Trust? Open-Set Rejection Calibration Under Few-Shot On-Device Intent Adaptation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20652) | — |
 | **P2 · Relevant** | **Does Continual Imitation Learning Remain Grounded? A Language-Perturbed Benchmark for Robotic Task Retention** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.00542) | — |
 | **P2 · Relevant** | **Do Generative Priors Align with Human Naturalness Perception?** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.09928) | — |
 | **P2 · Relevant** | **DivMoE: Fine-Grained MoE Upcycling via Cross-Domain Expert Composition** | arXiv 26 | MoE architecture/training | [Link](https://arxiv.org/abs/2610.11317) | — |
 | **P2 · Relevant** | **Diverse Motion Customization via Control-based Dynamic Optimization** | arXiv 2026 | llm_serving,gen | [Link](https://arxiv.org/abs/2610.07911) | — |
+| **P2 · Relevant** | **Distilling Large-Scale Machine Learning Interatomic Potentials to Predict Long-Timescale Electrolyte Transport Properties** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.39513) | — |
 | **P2 · Relevant** | **DiffDreamer: Coupling World Models with Differentiable Simulation for Agile Quadrotor Control** | arXiv 2026 | physical | [Link](https://arxiv.org/abs/2610.31617) | — |
 | **P2 · Relevant** | **DICE: Decoupling Capability from Intervention Necessity in LLM Tutoring** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04825) | — |
 | **P2 · Relevant** | **DGA-Muon: Decoupled Geometry-Aligned Adaptive Scaling for Muon** | arXiv 2026 | llm_serving,gen | [Link](https://arxiv.org/abs/2610.06578) | — |
 | **P2 · Relevant** | **DexJoCo-X: Benchmarking Action Representations for Multi-Hand Dexterous Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.03278) | — |
 | **P1 · Watch** | **Dex-One2Many: Learning Dexterous Manipulation from a Single Human Demonstration** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.12470) | — |
+| **P1 · Watch** | **Decoding Geometry, Not Tokens: Efficient VLMs for Robot Affordance and Trajectory Prediction** | arXiv 2026 | llm_serving,multimodal | [Link](https://arxiv.org/abs/2610.39416) | — |
 | **P2 · Relevant** | **DataVista: Diagnosing Multimodal LLMs on Data Video Understanding** | arXiv 2026 | multimodal / Physical AI / agent infrastructure low-priority | [Link](https://arxiv.org/abs/2610.11993) | — |
 | **P2 · Relevant** | **Dataset Pruning from First Principles: A Label-Free Linear Programming Approach** | arXiv 2026 | pruning,data_efficiency | [Link](https://arxiv.org/abs/2610.10347) | — |
 | **P2 · Relevant** | **Data World: Scaling Data Environments from Scratch** | arXiv 2026 | gen,edge | [Link](https://arxiv.org/abs/2610.21656) | — |
 | **P2 · Relevant** | **D-World: An Explicit World-Language-Action Model with Recursive Self-Improvement under Dual Control** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17114) | — |
 | **P2 · Relevant** | **CSF: Contextual Safety Filtering for Motion Generators** | arXiv 2026 | llm_serving,gen | [Link](https://arxiv.org/abs/2610.12467) | — |
+| **P2 · Relevant** | **CrossWeave: Cross-Modal Scene and Instance Retrieval from Sparse 2D-3D Alignment** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.40525) | — |
 | **P2 · Relevant** | **Cross-Embodiment Robot Foundation World Models with Latent Actions** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.10846) | — |
 | **P1 · Watch** | **Coupled but Late: Turn-Taking Between Full-Duplex Speech Models in Unscripted Dialogue** | arXiv 26 | real_time_speech_agent_characterization | [Link](https://arxiv.org/abs/2610.08683) | — |
 | **P1 · Watch** | **Counting Moves, Weighing Voices: Bayesian Dialectical Argumentation for Calibrated Multi-LLM Councils under Persistent Adversaries** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.02005) | — |
@@ -1526,14 +1554,17 @@
 | **P2 · Relevant** | **Contact-Aware Imitation Learning Through Contact Factorization** | arXiv 2026 | llm_serving,gen | [Link](https://arxiv.org/abs/2610.09533) | — |
 | **P2 · Relevant** | **Considering Context: When World Models Need Context Encoders** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.06651) | — |
 | **P2 · Relevant** | **Conditional Capacity and Routing in Mixture-of-Experts Particle Transformers** | arXiv 2026 | MoE systems/accelerators | [Link](https://arxiv.org/abs/2610.02701) | — |
+| **P2 · Relevant** | **Compressed Orientation Reachability Maps for Sub-Second Robotic Needle Entry Point Planning** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.39879) | — |
 | **P0 · Strong** | **Compact Robot Policies Need Fine-Grained Visual Representations** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.08183) | — |
 | **P2 · Relevant** | **Co${}^{2}$Skill: Whole-Body Control via Skill Composition for Long-Horizon Human-Environment Interaction** | arXiv 2026 | llm_serving,gen | [Link](https://arxiv.org/abs/2610.09291) | — |
 | **P2 · Relevant** | **CircuitGate: Logic-Consistent Circuit-Level Functional Modeling for And-Inverter Graphs** | arXiv 2026 | llm_serving,edge | [Link](https://arxiv.org/abs/2610.09549) | — |
 | **P2 · Relevant** | **ChronoWorld: Camera-Controlled Consistent 4D World Generation via Spatiotemporal Cues and Geometric Reflections** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.06687) | — |
 | **P2 · Relevant** | **ChromaGS: Text-Driven Semantic Editing of 4D Gaussian Avatars** | arXiv 2026 | video/image generation acceleration | [Link](https://arxiv.org/abs/2610.03441) | — |
 | **P2 · Relevant** | **Chinese Decision: A Family of Language Models for Single-Pass Probabilistic Decision-Making** | arXiv 2026 | adjacent_efficient_ml | [Link](https://arxiv.org/abs/2610.23170) | — |
+| **P2 · Relevant** | **Cheap Retrieval and Observation Credit Assignment from One Quantity: The Value of Information** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.40030) | — |
 | **P2 · Relevant** | **CF-JEPA: Improving Robustness of JEPA World Models via Controllability Factorization** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.00727) | — |
 | **P2 · Relevant** | **CASI: Credit Assignment via Set Intervention for Agentic Retrieval** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20293) | — |
+| **P2 · Relevant** | **Can We Rely on Language Models to Orchestrate Services across the Edge-Cloud Continuum?** | arXiv 2026 | llm_serving,edge | [Link](https://arxiv.org/abs/2610.40477) | — |
 | **P2 · Relevant** | **Can Learning to Answer Spatial Questions Improve Novel-View Generation?** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20610) | — |
 | **P2 · Relevant** | **Calibrated for Which Policy? Conformal Uncertainty for Fixed World Models Under Intervention** | arXiv | Physical AI world model uncertainty | [Link](https://arxiv.org/abs/2610.35877) | — |
 | **P2 · Relevant** | **Building AI Research Teams for Autonomous Discovery of Linear Attention Architectures** | arXiv | attn | [Link](https://arxiv.org/abs/2610.28887) | — |
@@ -1549,8 +1580,10 @@
 | **P0 · Strong** | **Beyond Capacity: Scalable MoE LLM Inference via High-Bandwidth Flash with Direct GPU and HBM Paths** | Fresh / preprint | MoE serving / high-bandwidth flash architecture | [Link](https://arxiv.org/abs/2608.14333) | — |
 | **P2 · Relevant** | **Beyond Anonymous Captions: Grounding Character Identity in Video Captioning and Question Answering** | arXiv 2026 | llm_serving,multimodal,edge | [Link](https://arxiv.org/abs/2610.10163) | — |
 | **P1 · Watch** | **Bernoulli Flow Models: Self-Consistent Generative Modeling for Binary Data** | arXiv 2026 | llm_serving,quant,gen | [Link](https://arxiv.org/abs/2610.11362) | — |
+| **P2 · Relevant** | **Bayes-Consistent Losses for Adaptive Inference in Classification** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.39709) | — |
 | **P2 · Relevant** | **AVL-JEPA: Preventing Causal Dynamics Information Collapse In Joint Embedding Predictive Architecture World Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.03587) | — |
 | **P2 · Relevant** | **Auditable and Deployable Multi-Agent Motion Planning via Posetal Games from Legal Guidelines** | arXiv 2026 | llm_serving,gen | [Link](https://arxiv.org/abs/2610.22277) | — |
+| **P1 · Watch** | **Attention, Dynamic Wave and Hybrid Sequence Mixers in Language Models** | arXiv 2026 | llm_serving,kv,attn | [Link](https://arxiv.org/abs/2610.39854) | — |
 | **P2 · Relevant** | **Arm-wise Compositional Generalization in Dual-Arm Vision-Language-Action Models** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.06184) | — |
 | **P2 · Relevant** | **Apertus 1.5: From Open Text Models to Open Multimodal Reasoners** | arXiv 26 | multimodal/MLLM | [Link](https://arxiv.org/abs/2610.15542) | — |
 | **P1 · Watch** | **Anvil: Scaling Embodied Spatial Intelligence through Knowledge Recirculation** | arXiv 2026 | llm_serving,physical,edge | [Link](https://arxiv.org/abs/2610.21882) | — |
@@ -1577,7 +1610,7 @@
 | **P2 · Relevant** | **A Drosophila Whole-Connectome Network Can Learn Human-Designed Cognitive Tasks** | arXiv 2026 | llm_serving,gen | [Link](https://arxiv.org/abs/2610.10014) | — |
 | **P2 · Relevant** | **A differentiable Lagrangian-coupled 3D Gaussian Splatting-SPH model for forward simulation and inverse analysis in solid mechanics** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.04336) | — |
 
-## 🏛️ Classical / Historical · 1721 canonical
+## 🏛️ Classical / Historical · 1724 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -1602,6 +1635,7 @@
 | **Canonical** | **See the Forest for the Trees: Loosely Speculative Decoding via Visual-Semantic Guidance for Efficient Inference of Video LLMs** | ACL 2026 | multimodal serving / speculative decoding | [Link](https://doi.org/10.18653/v1/2026.acl-long.1087) | — |
 | **Canonical** | **SpecCache: Speculative KV Cache Reuse for Efficient RAG Serving** | ACL 2026 | RAG serving / KV cache reuse | [Link](https://doi.org/10.18653/v1/2026.acl-long.859) | — |
 | **Canonical** | **SSSD: Simply-Scalable Speculative Decoding** | ACL 2026 | speculative decoding / serving | [Link](https://doi.org/10.18653/v1/2026.acl-long.1530) | — |
+| **Canonical** | **VideoPro: Adaptive Program Reasoning for Long Video Understanding** | ACL 2026 | Multimodal/MLLM serving; efficient reasoning; long-video inference | [Link](https://arxiv.org/abs/2509.17743) | — |
 | **Canonical** | **Vista-LLM: Decoupled Query-Guided Visual Token Pruning for Efficient Long-Video Large Language Models** | ACL 2026 | multimodal/MLLM serving / visual token pruning | [Link](https://aclanthology.org/2026.acl-long.601/) | — |
 | **Canonical** | **ScaleBox: Enabling High-Fidelity and Scalable Code Verification for Large Language Models** | ACL 2026 System Demonstrations | Efficient RL training infrastructure | [Link](https://aclanthology.org/2026.acl-demo.30/) | [Repo](https://github.com/icip-cas/ScaleBox) |
 | **Canonical** | **CITR: Efficient Long Video Understanding Needs Causal Importance** | ACM Multimedia 2025 | multimodal/MLLM serving / efficient attention / long-video inference | [Link](https://arxiv.org/abs/2508.06165) | [Repo](https://github.com/Columbine21/CITR) |
@@ -1675,6 +1709,7 @@
 | **Canonical** | **BigMoMo: Efficient Inference of Large-Scale MoE with Speculative Decoding on Mobile Devices** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.14643) | — |
 | **Canonical** | **BitsMoE: Cost-Aware Bit Allocation in Spectral Space for MoE LLM Quantization** | arXiv 2026 | MoE quantization | [Link](https://arxiv.org/abs/2606.00079) | — |
 | **Canonical** | **Block Parallelism For Efficient Distributed Long-Context Diffusion Language Model Training** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.19242) | — |
+| **Canonical** | **Block-GTQ: RoPE-Block Rate Allocation for KV-Cache Quantization** | arXiv 2026 | llm_serving,kv,quant | [Link](https://arxiv.org/abs/2606.24033) | — |
 | **Canonical** | **BOA: Beamwidth Online Adaptation for Filtered-ANNS on a GPU** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2609.16175) | — |
 | **Canonical** | **BOOST: Concurrent Access to Host Memory and HBM to Accelerate LLM Inference** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.13592) | — |
 | **Canonical** | **Breaking the 1.58-bit Barrier for Ternary LLMs** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2609.16338) | — |
@@ -2004,6 +2039,7 @@
 | **Canonical** | **Revati: Transparent GPU-Free Time-Warp Emulation for LLM Serving** | arXiv 2026 | LLM serving; systems emulation; performance modeling; vLLM; SGLang; infrastructure optimization | [Link](https://arxiv.org/abs/2601.00397) | — |
 | **Canonical** | **Reward-rate Policy Gradient for Efficient Machine Learning Engineering Agents** | arXiv 2026 | efficient_reasoning,agent_systems,rl | [Link](https://arxiv.org/abs/2609.36393) | — |
 | **Canonical** | **RGB Input Pipelines: Throughput, GPU Memory, and Transformation Coverage** | arXiv 2026 | GPU kernel/DSL/compilers / data pipeline / training systems / input preprocessing | [Link](https://arxiv.org/abs/2609.06635) | — |
+| **Canonical** | **Rocks, Pebbles and Sand: Modality-aware Scheduling for Multimodal Large Language Model Inference** | arXiv 2026 | llm_serving,multimodal,edge | [Link](https://arxiv.org/abs/2603.26498) | — |
 | **Canonical** | **RoofLang: Enabling AI-Driven Architecting of LLM Inference Systems** | arXiv 2026 | LLM serving / system architecture DSL / AI-driven design-space exploration | [Link](https://arxiv.org/abs/2609.12551) | — |
 | **Canonical** | **RoutePack: Replay-Guided Expert Placement and Rollout Trajectory Scheduling for MoE Reinforcement Learning** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2608.12146) | — |
 | **Canonical** | **RR-Evict: Fine-Grained Prefix Cache Eviction beyond LRU for Agentic LLM Serving** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.32278) | — |
@@ -3054,7 +3090,7 @@
 | **Canonical** | **Kelle: Co-design KV Caching and eDRAM for Efficient LLM Serving in Edge Computing** | MICRO 2025 | edge LLM serving / KV cache / eDRAM co-design | [Link](https://arxiv.org/abs/2510.16040) | — |
 | **Canonical** | **MX+: Pushing the Limits of Microscaling Formats for Efficient Large Language Model Serving** | MICRO 2025 | LLM serving / low-precision microscaling | [Link](https://arxiv.org/abs/2510.14557) | — |
 | **Canonical** | **Pimba: A Processing-in-Memory Acceleration for Post-Transformer Large Language Model Serving** | MICRO 2025 | post-transformer LLM serving / PIM / low precision | [Link](https://arxiv.org/abs/2507.10178) | — |
-| **Canonical** | **Stratum: System-Hardware Co-design with Tiered Monolithic 3D-DRAM for Efficient MoE Serving** | MICRO 2025 | MoE serving / memory-system co-design | — | — |
+| **Canonical** | **Stratum: System-Hardware Co-design with Tiered Monolithic 3D-DRAM for Efficient MoE Serving** | MICRO 2025 | MoE serving / memory-system co-design | [Link](https://arxiv.org/abs/2510.05245) | — |
 | **Canonical** | **A Full-Stack Performance Evaluation Infrastructure for 3D-DRAM-based LLM Accelerators** | MICRO 2026 | edge/cloud/heterogeneous AI systems; LLM serving; hardware architecture | [Link](https://arxiv.org/abs/2604.08044) | [Repo](https://github.com/pku-gsun/ATLAS-MICRO-2026) |
 | **Canonical** | **FlexPosit: Tunable Fractional Precision for LLM Inference Accelerators** | MICRO 2026 | quantization / LLM accelerator / bit-serial architecture | [Link](https://arxiv.org/abs/2609.04724) | — |
 | **Canonical** | **GPU-Tile-Sim: A Tile-Centric GPU Simulation Framework for LLM Hardware-Software Co-Design** | MICRO 2026 | GPU kernel/DSL/compilers; LLM serving; heterogeneous AI systems | [Link](https://arxiv.org/abs/2607.11262) | — |

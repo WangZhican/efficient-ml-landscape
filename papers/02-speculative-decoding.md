@@ -1,10 +1,10 @@
 # 02 · Speculative Decoding
 
-> **389 canonical papers** mapped here, plus a broader **112-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **389 canonical papers** mapped here, plus a broader **114-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 112 tracked
+## 🆕 Latest 30 Days · 114 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -112,9 +112,11 @@
 | **P1 · Watch** | **Vosti: Specifying, Implementing, and Verifying Deterministic LLM Inference** | arXiv 2026 | llm_serving,gpu | [Link](https://arxiv.org/abs/2609.38981) | — |
 | **P0 · Strong** | **Recovering Off-Policy Supervision for Speculative Decoding** | arXiv 2026 | speculative_decoding,llm_serving | [Link](https://arxiv.org/abs/2609.38795) | — |
 | **P2 · Relevant** | **Verify Claims, Not Scores: Evidence-Based Verification of Modular Agents** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.01348) | — |
+| **P2 · Relevant** | **TextSeal2: Distortion-Free LLM Watermarking with Copula Mixing and Memoryless Races** | arXiv 2026 | llm_serving,spec | [Link](https://arxiv.org/abs/2610.40613) | — |
 | **P1 · Watch** | **Route-Verify-Vote: Procedure-Conditioned Self-Consistency for Mixed-Domain Reasoning** | arXiv 2026 | efficient reasoning / long memory | [Link](https://arxiv.org/abs/2610.08814) | — |
 | **P0 · Strong** | **Pre-Compiled Pipeline Shards for Distributed LLM Inference on Intel AI PC Fleets** | Fresh / preprint | distributed LLM inference / edge AI PC fleet / speculative decoding | [Link](https://arxiv.org/abs/2608.19147) | [Repo](https://github.com/labscommunity/pipeline-sharded-inference-paper) |
 | **P1 · Watch** | **PolyGraph: Plan-Buffered CUDA Graphs for Adaptive Speculative Decoding** | arXiv 2026 | speculative_decoding,gpu_runtime | [Link](https://arxiv.org/abs/2610.23861) | — |
+| **P1 · Watch** | **Only Accepted Tokens Count: An Energy Accounting of Speculative Decoding Under Latency Targets** | arXiv 2026 | llm_serving,spec | [Link](https://arxiv.org/abs/2610.40287) | — |
 | **P2 · Relevant** | **Learning What to Imitate: Entropy-Aware Distribution Mixing** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.06671) | — |
 | **P1 · Watch** | **JustOPD: On-Policy Distillation from Autoregressive to Diffusion Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17397) | — |
 | **P0 · Strong** | **CAST: Cost-Aware Speculative Trees from One-Pass Block Drafters** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.00321) | — |

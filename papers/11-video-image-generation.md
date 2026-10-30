@@ -1,10 +1,10 @@
 # 11 · Video / Image Generation
 
-> **444 canonical papers** mapped here, plus a broader **203-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **445 canonical papers** mapped here, plus a broader **206-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 203 tracked
+## 🆕 Latest 30 Days · 206 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -162,6 +162,7 @@
 | **P1 · Watch** | **Manifold-Constrained Initial Noise Optimization for Efficient Generative Model Alignment** | arXiv 2026 | video/image generation acceleration / diffusion-flow alignment | [Link](https://arxiv.org/abs/2610.00365) | — |
 | **P1 · Watch** | **UGOD: Uncertainty-Guided Opacity and Dropout for Sparse-View 3D Gaussian Splatting** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.39089) | — |
 | **P2 · Relevant** | **YUBI-Real2Sim: 3DGS Scene Verification for Reliable Policy Evaluation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17521) | — |
+| **P2 · Relevant** | **Wizard: Manipulate Any World in Real Time via Agentic Control** | arXiv 2026 | video generation; agentic control; world models | [Link](https://arxiv.org/abs/2610.40339) | — |
 | **P2 · Relevant** | **VINCIE-NExT: Unlocking Video Editing from Images via In-Context Modeling** | arXiv 2026 | video/image generation acceleration | [Link](https://arxiv.org/abs/2610.12104) | — |
 | **P2 · Relevant** | **VIEScore2: Unified Image Evaluation with Spatially Grounded Explanations** | arXiv 2026 | video/image generation acceleration | [Link](https://arxiv.org/abs/2610.00994) | — |
 | **P1 · Watch** | **VDOT++: Unified Few-Step Video Generation via Unbalanced Optimal Transport Distillation** | arXiv 2026 | video/image generation acceleration | [Link](https://arxiv.org/abs/2610.03221) | — |
@@ -193,6 +194,7 @@
 | **P1 · Watch** | **In-Distribution Forcing for Long Video Generation at Test Time** | arXiv 2026 | video/image generation acceleration | [Link](https://arxiv.org/abs/2610.03120) | — |
 | **P2 · Relevant** | **HyperLoop: Hyperspectral-Assisted Loop Closure Detection in 3D-SLAM for Planetary Exploration** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19742) | — |
 | **P2 · Relevant** | **GS-PRM: Gaussian Visual Roadmap for Image-Goal Navigation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19541) | — |
+| **P1 · Watch** | **GROME: GROunding Factorized MEmory into Video World Models** | arXiv 2026 | video generation; world-model memory; long-context reuse | [Link](https://arxiv.org/abs/2610.39812) | — |
 | **P2 · Relevant** | **GRASE: Geometry-native Real-to-sim Agentic Scene Modeling from Video** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.21498) | — |
 | **P2 · Relevant** | **GPEC: Efficient Pre-LLM Gaussian Process Embedding Correction for Cardiac Video Caption Generation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.00196) | — |
 | **P0 · Strong** | **GenRouter: Unified Workflow Routing for Agentic Image Generation** | Fresh / preprint | agentic image generation / workflow routing / inference efficiency | [Link](https://arxiv.org/abs/2608.16721) | — |
@@ -209,10 +211,11 @@
 | **P2 · Relevant** | **AutoPhyX: Automatic Text-Condition Physics Property Generation** | arXiv 26 | cloud_edge | [Link](https://arxiv.org/abs/2610.29517) | — |
 | **P0 · Strong** | **An Empirical Study of Training Pixel-Space Text-to-Image Diffusion Models** | Fresh / preprint | image generation acceleration | [Link](https://arxiv.org/abs/2608.16887) | — |
 | **P1 · Watch** | **Adversarial Gradient Forcing for Robust Few-Step Autoregressive Video Generation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.14553) | — |
+| **P2 · Relevant** | **ACD-GS: Asymmetric Curvature-aware Densification for 3D Gaussian Splatting** | arXiv 2026 | quant,sparse | [Link](https://arxiv.org/abs/2610.39399) | — |
 | **P2 · Relevant** | **A Spatiotemporal Semantic Importance-Guided Unified Compression and Editing Framework for AI-Generated Videos** | arXiv 2026 | video/image generation acceleration | [Link](https://arxiv.org/abs/2610.05779) | — |
 | **P2 · Relevant** | **A differentiable Lagrangian-coupled 3D Gaussian Splatting-SPH model for forward simulation and inverse analysis in solid mechanics** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.04336) | — |
 
-## 🏛️ Classical / Historical · 395 canonical
+## 🏛️ Classical / Historical · 396 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -222,6 +225,7 @@
 | **Canonical** | **Accelerating Diffusion Models via Parallel Denoising** | ACM Multimedia 2025 | diffusion/image generation acceleration / parallel denoising | [Link](https://dl.acm.org/doi/10.1145/3746027.3755827) | — |
 | **Canonical** | **FlexGaussian: Flexible and Cost-Effective Training-Free Compression for 3D Gaussian Splatting** | ACM Multimedia 2025 | video/image generation acceleration / 3D Gaussian splatting / quantization / pruning / edge deployment | [Link](https://arxiv.org/abs/2507.06671) | [Repo](https://github.com/Supercomputing-System-AI-Lab/FlexGaussian) |
 | **Canonical** | **GAN Compression: Efficient Architectures for Interactive Conditional GANs** | arXiv 20 | video/image generation acceleration,quantization/pruning,edge AI | [Link](https://arxiv.org/abs/2003.08936) | [Repo](https://hanlab.mit.edu/projects/gancompression) |
+| **Canonical** | **Aligned Delta-Triplane Transformers as Occupancy World Models** | arXiv 2026 | efficient world models; video/image generation; autonomous driving | [Link](https://arxiv.org/abs/2503.07338) | — |
 | **Canonical** | **ArborSplat: Online Semantic Gaussian Splatting SLAM for Orchards** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.26315) | — |
 | **Canonical** | **Atlas: Algorithm-Hardware Co-Design for On-Device City-Scale 3D Gaussian Splatting in VR** | arXiv 2026 | edge/cloud/heterogeneous AI systems / 3D Gaussian splatting / on-device rendering | [Link](https://arxiv.org/abs/2609.02352) | — |
 | **Canonical** | **Carnator: Fast Text-to-Video Generation with Generation-Native Compatibility-Guided Cross-Request Reuse** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.32420) | — |

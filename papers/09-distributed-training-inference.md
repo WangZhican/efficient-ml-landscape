@@ -1,10 +1,10 @@
 # 09 · Distributed Training / Inference
 
-> **763 canonical papers** mapped here, plus a broader **329-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **764 canonical papers** mapped here, plus a broader **333-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 329 tracked
+## 🆕 Latest 30 Days · 333 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -297,6 +297,7 @@
 | **P1 · Watch** | **OptiSelect: How does the Optimizer Shape Data Curriculum?** | arXiv 2026 | distributed training/inference | [Link](https://arxiv.org/abs/2610.03432) | — |
 | **P2 · Relevant** | **Optimizer Geometry Sets the Pace: Spectral Learning Dynamics in Matrix Factorization** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2610.04249) | — |
 | **P2 · Relevant** | **OpenDGO: Benchmarking Multi-Agent Organizations Across Diverse Application Domains** | arXiv 2026 | systems-adjacent / low-priority | [Link](https://arxiv.org/abs/2610.17143) | — |
+| **P2 · Relevant** | **One Vector or Many? Clustered Optimal-Transport Steering under Quantization** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2610.40055) | — |
 | **P2 · Relevant** | **Multics: Generative Multi-Player World Model with Hierarchical Communication** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17201) | — |
 | **P1 · Watch** | **Multi-Stream Attention Residuals** | arXiv 2026 | moe_systems_accelerators | [Link](https://arxiv.org/abs/2610.13630) | — |
 | **P2 · Relevant** | **MetaRubric: Learning to Reward for Rubric-Based Reinforcement Learning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.02824) | — |
@@ -313,12 +314,15 @@
 | **P1 · Watch** | **Freeze the Decoder, Heal the Encoder: Parameter-Efficient Adaptation for SVD-Based KV-Cache Compression** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.10552) | — |
 | **P1 · Watch** | **Frechet Forcing: Training Long-Horizon Streaming World Models from Short Clips** | arXiv 2026 | Streaming world models / training efficiency | [Link](https://arxiv.org/abs/2610.25666) | — |
 | **P2 · Relevant** | **FedMIX-P: Mixing Local and Global Preconditioners for Federated Vision and Language Model Training** | arXiv 2026 | distributed training/inference | [Link](https://arxiv.org/abs/2610.01515) | — |
+| **P2 · Relevant** | **Federated Agentic AI for Interference-Aware Adaptive Spectrum Coordination** | arXiv 2026 | llm_serving,agent,edge | [Link](https://arxiv.org/abs/2610.39680) | — |
 | **P2 · Relevant** | **FedAlphaEdit: Null-Space-Aligned Merging for Collaborative Knowledge Editing** | arXiv 2026 | distributed training/inference | [Link](https://arxiv.org/abs/2610.11033) | — |
 | **P0 · Strong** | **Event-Driven ML Pipeline Orchestration for Manufacturing: An AWS Industry Experience** | arXiv 2026 | distributed training/inference | [Link](https://arxiv.org/abs/2610.06890) | — |
 | **P1 · Watch** | **Entropy-Gated Belief Coordination for Decentralized Multi-Agent Search Under Intermittent Communication** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.07432) | — |
 | **P0 · Strong** | **EcoVLA: Energy-Efficient Device-Edge Co-Inference for Vision-Language-Action Models under Real-Time Constraints** | Fresh / preprint | VLA device-edge co-inference / energy-aware runtime | [Link](https://arxiv.org/abs/2608.15502) | — |
 | **P2 · Relevant** | **DuplexSpeechBench-Document Grounding: Benchmarking Document Grounding and Hallucinations in Voice Agents** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.00316) | — |
+| **P0 · Strong** | **DolphinRouting: Cluster-Level Binary Routing for Disaggregated LLM Inference Serving** | arXiv 2026 | llm_serving,kv,quant | [Link](https://arxiv.org/abs/2610.40292) | — |
 | **P2 · Relevant** | **Does Muon Need Fine-Grained Spectral Shaping?** | arXiv 2026 | Efficient ML / Physical AI | [Link](https://arxiv.org/abs/2610.07497) | — |
+| **P2 · Relevant** | **Dobb: Shard-Local Preconditioning in Block-Diagonal Eigenbases** | arXiv 2026 | dist | [Link](https://arxiv.org/abs/2610.39412) | — |
 | **P2 · Relevant** | **DNPush: Distributed Nonparallel Pushing Force Control of Multi-Robot Systems for Object Transportation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04764) | — |
 | **P1 · Watch** | **DeltaTTG: Training Multi-Turn Agents with a Token-to-Go Progress Meter** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17666) | — |
 | **P0 · Strong** | **DeaMoE: Efficient MoE Structure for Fast Small-Batch Decoding** | Fresh / preprint | MoE architecture / small-batch decoding | [Link](https://arxiv.org/abs/2608.14385) | — |
