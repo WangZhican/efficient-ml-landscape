@@ -2360,6 +2360,27 @@
     ]
   },
   {
+    "title": "Linear-Time and Constant-Memory Text Embeddings Based on Recurrent Language Models",
+    "venue": "arXiv",
+    "topic": "Efficient long-document embedding inference",
+    "arxiv": "2604.18199",
+    "doi": "",
+    "official_id": "arXiv:2604.18199",
+    "paper_url": "https://arxiv.org/abs/2604.18199",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "The official arXiv abstract introduces vertically chunked recurrent inference with constant memory in input length beyond the chunk size, fine-tunes Mamba2, and validates the runtime-memory trade-off across Mamba2, RWKV, and xLSTM. This is directly relevant to efficient inference and long-context processing.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "KV Cache / Long Context"
+    ]
+  },
+  {
     "title": "A Motion-Aware Vector Quantization Framework with Centroid Reuse for Efficient VLA Inference",
     "venue": "arXiv / 90d targeted recall backfill",
     "topic": "VLA / Physical AI / quantization / accelerator co-design",
@@ -56119,6 +56140,28 @@
     ]
   },
   {
+    "title": "Triplet-Block Diffusion RWKV",
+    "venue": "Findings of EMNLP 2026",
+    "topic": "Efficient recurrent/diffusion language-model inference",
+    "arxiv": "2605.25969",
+    "doi": "",
+    "official_id": "arXiv:2605.25969",
+    "paper_url": "https://arxiv.org/abs/2605.25969",
+    "code_url": "https://github.com/leonardodalinky/B3D-RWKV",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "B3D-RWKV combines RWKV's linear-time inference with parallel bidirectional discrete diffusion using a triplet-block layout. The official arXiv abstract reports comparable accuracy on eight tasks and an average 1.6x decoding-throughput speedup; official EMNLP Findings 2026 confirms the venue publication. This is a high-value efficient inference method.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Diffusion / Flow Acceleration"
+    ]
+  },
+  {
     "title": "CXL-SpecKV: A Disaggregated FPGA Speculative KV-Cache for Datacenter LLM Serving",
     "venue": "FPGA 2026",
     "topic": "LLM serving / CXL / FPGA / speculative KV cache",
@@ -90728,6 +90771,29 @@
     "is_latest_30d": false,
     "tracking_tier": "Canonical",
     "directions": [
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "AgenticScholar: Agentic Data Management with Pipeline Orchestration for Scholarly Corpora",
+    "venue": "SIGMOD 2026",
+    "topic": "efficient reasoning and agent systems; LLM-centric hybrid query planning; scalable scholarly data management",
+    "arxiv": "2603.13774",
+    "doi": "10.1145/3802008",
+    "official_id": "doi:10.1145/3802008",
+    "paper_url": "https://arxiv.org/abs/2603.13774",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party SIGMOD Round 4 title/author identity reconciles with official arXiv metadata and abstract. The system uses structured knowledge representation, hybrid query planning and composable DAG execution for multimodal scholarly queries, and the abstract explicitly reports improved efficiency alongside effectiveness and interpretability. Retain as a strong efficient-agent/data-system paper and attempt the primary arXiv PDF.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents",
       "Edge / Cloud / Heterogeneous AI"
     ]
   },

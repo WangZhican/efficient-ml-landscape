@@ -1,6 +1,6 @@
 # 🏛️ Classical / Historical Efficient ML
 
-> **4257 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
+> **4260 quality-gated papers** outside the rolling 30-day freshness window. Use Latest 30 Days for active tracking.
 
 [← Paper Library](ALL_PAPERS.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [JSON](../data/classical.json) · [CSV](../data/classical.csv)
 
@@ -3214,12 +3214,13 @@
 | **Canonical** | **XGrammar: Flexible and Efficient Structured Generation Engine for Large Language Models** | Fresh / preprint | LLM serving | [Link](https://arxiv.org/abs/2411.15100) | — |
 | **Canonical** | **XQuant: Breaking the Memory Wall for LLM Inference with KV Cache Rematerialization** | Fresh / preprint | KV cache/long-context | [Link](https://arxiv.org/abs/2508.10395) | — |
 
-## SIGMOD 2026 · 51
+## SIGMOD 2026 · 52
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **Canonical** | **100x Cost & Latency Reduction: Performance Analysis of AI Query Approximation using Lightweight Proxy Models** | SIGMOD 2026 | AI query systems / LLM cost and latency reduction / proxy-model acceleration | [Link](https://arxiv.org/abs/2603.15970) | — |
 | **Canonical** | **Accelerating Approximate Analytical Join Queries over Unstructured Data with Statistical Guarantees** | SIGMOD 2026 | ML-based analytical joins; embedding blocking; sampling; inference-call budget | [Link](https://arxiv.org/abs/2603.16153) | — |
+| **Canonical** | **AgenticScholar: Agentic Data Management with Pipeline Orchestration for Scholarly Corpora** | SIGMOD 2026 | efficient reasoning and agent systems; LLM-centric hybrid query planning; scalable scholarly data management | [Link](https://arxiv.org/abs/2603.13774) | — |
 | **Canonical** | **AlignedServe: Orchestrating Prefix-aware Batching to Build a High-throughput and Computing-efficient LLM Serving System** | SIGMOD 2026 | LLM serving / prefix-aware batching / KV scheduling | [Link](https://arxiv.org/abs/2605.23389) | — |
 | **Canonical** | **Beluga: A CXL-Based Memory Architecture for Scalable and Efficient LLM KVCache Management** | SIGMOD 2026 | CXL memory / KV-cache serving | [Link](https://arxiv.org/abs/2511.20172) | — |
 | **Canonical** | **Beyond Relational: Semantic-Aware Multi-Modal Analytics with LLM-Native Query Optimization** | SIGMOD 2026 | LLM-native analytics; cost-aware model selection; query-plan optimization | [Link](https://arxiv.org/abs/2511.19830) | — |
@@ -4504,6 +4505,14 @@
 | **Canonical** | **HiRT: Enhancing Robotic Control with Hierarchical Robot Transformers** | CoRL 2024 | VLA/WAM/Physical AI efficiency | [Link](https://proceedings.mlr.press/v270/zhang25b.html) | — |
 | **Canonical** | **Modeling the Real World with High-Density Visual Particle Dynamics** | CoRL 2024 | VLA/WAM/Physical AI efficiency | [Link](https://proceedings.mlr.press/v270/whitney25a.html) | — |
 
+## arXiv · 3
+
+| Priority | Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|---|
+| **Canonical** | **Encode Once, Decode Never: Reusing Audio LM Internals for Efficient Temporal Localization** | arXiv |  | [Link](https://arxiv.org/abs/2602.10230) | — |
+| **Canonical** | **Is Your NPU Ready for LLMs? Dissecting the Hidden Efficiency Bottlenecks in Mobile LLM Inference** | arXiv | edge | [Link](https://arxiv.org/abs/2607.05475) | — |
+| **Canonical** | **Linear-Time and Constant-Memory Text Embeddings Based on Recurrent Language Models** | arXiv | Efficient long-document embedding inference | [Link](https://arxiv.org/abs/2604.18199) | — |
+
 ## arXiv 15 · 3
 
 | Priority | Paper | Venue | Topic | Paper | Code |
@@ -4519,13 +4528,6 @@
 | **Canonical** | **Eliminating Redundancy: Ultra-compact Code Generation for Programmable Dataflow Accelerators** | CGO 2026 | AI accelerator compiler; dataflow accelerator; compact code generation; loop optimization; heterogeneous AI systems | [Link](https://2026.cgo.org/details/cgo-2026-papers/18/Eliminating-Redundancy-Ultra-compact-Code-Generation-for-Programmable-Dataflow-Accel) | — |
 | **Canonical** | **Enabling Spill-Free Compilation via Affine-Based Live Range Reduction Optimization** | CGO 2026 | AI accelerator compiler; dataflow accelerator; register pressure; spill-free compilation; heterogeneous AI systems | [Link](https://2026.cgo.org/details/cgo-2026-papers/2/Enabling-Spill-Free-Compilation-via-Affine-Based-Live-Range-Reduction-Optimization) | — |
 | **Canonical** | **Hexcute: A Compiler Framework for Automating Layout Synthesis in GPU Programs** | CGO 2026 | GPU kernel/DSL/compilers / mixed-precision operators / layout synthesis / vLLM | [Link](https://arxiv.org/abs/2504.16214) | — |
-
-## arXiv · 2
-
-| Priority | Paper | Venue | Topic | Paper | Code |
-|---|---|---|---|---|---|
-| **Canonical** | **Encode Once, Decode Never: Reusing Audio LM Internals for Efficient Temporal Localization** | arXiv |  | [Link](https://arxiv.org/abs/2602.10230) | — |
-| **Canonical** | **Is Your NPU Ready for LLMs? Dissecting the Hidden Efficiency Bottlenecks in Mobile LLM Inference** | arXiv | edge | [Link](https://arxiv.org/abs/2607.05475) | — |
 
 ## arXiv / 90d targeted recall backfill · 2
 
@@ -4709,6 +4711,12 @@
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **Canonical** | **LUT-LLM: Efficient Large Language Model Inference with Memory-based Computations on FPGAs** | FCCM 2026 | LLM inference accelerator / FPGA / lookup-table computation / vector quantization / edge and heterogeneous AI systems | [Link](https://arxiv.org/abs/2511.06174) | [Repo](https://github.com/LUT-FPGA/LUT-LLM) |
+
+## Findings of EMNLP 2026 · 1
+
+| Priority | Paper | Venue | Topic | Paper | Code |
+|---|---|---|---|---|---|
+| **Canonical** | **Triplet-Block Diffusion RWKV** | Findings of EMNLP 2026 | Efficient recurrent/diffusion language-model inference | [Link](https://arxiv.org/abs/2605.25969) | [Repo](https://github.com/leonardodalinky/B3D-RWKV) |
 
 ## GroundLM 2026 (EMNLP 2026 Workshop) · 1
 

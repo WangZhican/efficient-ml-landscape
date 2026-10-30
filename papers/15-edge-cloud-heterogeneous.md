@@ -1,6 +1,6 @@
 # 15 · Edge / Cloud / Heterogeneous AI
 
-> **1111 canonical papers** mapped here, plus a broader **1353-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **1112 canonical papers** mapped here, plus a broader **1353-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -1362,7 +1362,7 @@
 | **P2 · Relevant** | **A Local Agentic AI Framework to Generate Edge Case Scenarios for Safety Assurance** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.13479) | — |
 | **P1 · Watch** | **A Compression Tree Generation Method for High Performance VLSI Datapaths** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2610.02228) | — |
 
-## 🏛️ Classical / Historical · 940 canonical
+## 🏛️ Classical / Historical · 941 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -2242,6 +2242,7 @@
 | **Canonical** | **Astral: A Datacenter Infrastructure for Large Language Model Training at Scale** | SIGCOMM 2025 | large-scale LLM training infrastructure / datacenter network / monitoring / performance forecasting | [Link](https://doi.org/10.1145/3718958.3750521) | — |
 | **Canonical** | **100x Cost & Latency Reduction: Performance Analysis of AI Query Approximation using Lightweight Proxy Models** | SIGMOD 2026 | AI query systems / LLM cost and latency reduction / proxy-model acceleration | [Link](https://arxiv.org/abs/2603.15970) | — |
 | **Canonical** | **Accelerating Approximate Analytical Join Queries over Unstructured Data with Statistical Guarantees** | SIGMOD 2026 | ML-based analytical joins; embedding blocking; sampling; inference-call budget | [Link](https://arxiv.org/abs/2603.16153) | — |
+| **Canonical** | **AgenticScholar: Agentic Data Management with Pipeline Orchestration for Scholarly Corpora** | SIGMOD 2026 | efficient reasoning and agent systems; LLM-centric hybrid query planning; scalable scholarly data management | [Link](https://arxiv.org/abs/2603.13774) | — |
 | **Canonical** | **Beluga: A CXL-Based Memory Architecture for Scalable and Efficient LLM KVCache Management** | SIGMOD 2026 | CXL memory / KV-cache serving | [Link](https://arxiv.org/abs/2511.20172) | — |
 | **Canonical** | **Beyond Relational: Semantic-Aware Multi-Modal Analytics with LLM-Native Query Optimization** | SIGMOD 2026 | LLM-native analytics; cost-aware model selection; query-plan optimization | [Link](https://arxiv.org/abs/2511.19830) | — |
 | **Canonical** | **Bridging the Gap: Cardinality Estimation for Semantic Queries on Unstructured Data** | SIGMOD 2026 | LLM semantic-query cost; lightweight learned judges; sampling; inference efficiency | [Link](https://dl.acm.org/doi/10.1145/3802024) | — |

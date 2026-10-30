@@ -74931,6 +74931,27 @@
         "VLA / WAM / Physical AI",
         "Edge / Cloud / Heterogeneous AI"
       ]
+    },
+    {
+      "title": "AixelAsk: A Stepwise-Guided Retrieval and Reasoning Framework for Large Table QA",
+      "venue": "SIGMOD 2026",
+      "topic": "efficient reasoning and agent systems; large-table QA; DAG planning; selective retrieval",
+      "arxiv": "",
+      "doi": "10.1145/3769831",
+      "official_id": "doi:10.1145/3769831",
+      "paper_url": "https://dl.acm.org/doi/10.1145/3769831",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "First-party SIGMOD program title/author identity and the first-party Aixel project page describe DAG-based question decomposition, row/column retrieval into sub-tables, and stepwise reasoning for large-table QA. This is directly relevant to efficient reasoning over long structured context; retain as a high-value watch lead and attempt the official publisher PDF, while leaving the publisher abstract unverified in this pass.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
     }
   ],
   "historical_p2": [
@@ -181460,28 +181481,6 @@
       "directions": [
         "Sparsity / Pruning",
         "GPU Kernel / DSL / Compiler"
-      ]
-    },
-    {
-      "title": "AgenticScholar: Agentic Data Management with Pipeline Orchestration for Scholarly Corpora",
-      "venue": "SIGMOD 2026",
-      "topic": "efficient reasoning/agentic data systems",
-      "arxiv": "2603.13774",
-      "doi": "10.1145/3802008",
-      "official_id": "arXiv:2603.13774",
-      "paper_url": "https://arxiv.org/abs/2603.13774",
-      "code_url": "",
-      "formal_class": "RELEVANT_LOW_PRIORITY",
-      "physical_ai": false,
-      "decision": "P2_RELEVANT_LOW_PRIORITY",
-      "tracking_tier": "P2 · Relevant",
-      "why": "First-party abstract confirms an agentic planning/execution system, but the application is scholarly-corpus data management and does not establish a general efficient-agent serving contribution; retain metadata only.",
-      "published_at": "",
-      "updated_at": "",
-      "is_latest_30d": false,
-      "directions": [
-        "LLM Serving",
-        "Efficient Reasoning / Agents"
       ]
     },
     {
