@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-10-30",
   "window_start_beijing": "2026-09-30",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 5477,
+  "tracked_total": 5478,
   "p0_strong_or_canonical": [
     {
       "title": "Honeycomb-Surfels: Compact Hexagonal Primitives for Efficient Scene Rendering and Reconstruction",
@@ -47370,6 +47370,29 @@
         "LLM Serving",
         "GPU Kernel / DSL / Compiler",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Weaken to Strengthen: Weakening-Induced On-Policy Self-Distillation for Large Reasoning Models",
+      "venue": "",
+      "topic": "quantization and sparsity/pruning; efficient reasoning-model training; self-distillation",
+      "arxiv": "2610.38681",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2610.38681",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Official arXiv abstract verifies that WISD uses low-bit quantization or magnitude pruning to construct a weaker self-teacher and reports +4.0/+5.5 percentage-point average reasoning accuracy gains. This is directly relevant to quantization/pruning and efficient reasoning, but the abstract does not establish inference latency, memory, energy, or training-cost savings; retain as high-value watchlist rather than PROMOTE_STRONG.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Sparsity / Pruning",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -167056,6 +167079,29 @@
         "LLM Serving",
         "GPU Kernel / DSL / Compiler",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Weaken to Strengthen: Weakening-Induced On-Policy Self-Distillation for Large Reasoning Models",
+      "venue": "",
+      "topic": "quantization and sparsity/pruning; efficient reasoning-model training; self-distillation",
+      "arxiv": "2610.38681",
+      "doi": "",
+      "official_id": "",
+      "paper_url": "https://arxiv.org/abs/2610.38681",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Official arXiv abstract verifies that WISD uses low-bit quantization or magnitude pruning to construct a weaker self-teacher and reports +4.0/+5.5 percentage-point average reasoning accuracy gains. This is directly relevant to quantization/pruning and efficient reasoning, but the abstract does not establish inference latency, memory, energy, or training-cost savings; retain as high-value watchlist rather than PROMOTE_STRONG.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Sparsity / Pruning",
+        "Efficient Reasoning / Agents"
       ]
     },
     {

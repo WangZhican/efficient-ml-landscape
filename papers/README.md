@@ -4,7 +4,7 @@
 
 <div align="center">
 
-[**🆕 Latest 30 Days · 5477 tracked**](LATEST_30D.md) · [**🏛️ Classical · 4260**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
+[**🆕 Latest 30 Days · 5478 tracked**](LATEST_30D.md) · [**🏛️ Classical · 4260**](CLASSICAL.md) · [**📚 Paper Library**](ALL_PAPERS.md) · [**🧩 JSON**](../data/papers.json)
 
 </div>
 
@@ -15,8 +15,8 @@
 | 01 | [**LLM Serving**](01-llm-serving.md) | **2099** | **1568** |
 | 02 | [**Speculative Decoding**](02-speculative-decoding.md) | **389** | **112** |
 | 03 | [**KV Cache / Long Context**](03-kv-cache-long-context.md) | **844** | **215** |
-| 04 | [**Quantization**](04-quantization.md) | **654** | **630** |
-| 05 | [**Sparsity / Pruning**](05-sparsity-pruning.md) | **701** | **389** |
+| 04 | [**Quantization**](04-quantization.md) | **654** | **631** |
+| 05 | [**Sparsity / Pruning**](05-sparsity-pruning.md) | **701** | **390** |
 | 06 | [**Efficient Attention**](06-efficient-attention.md) | **622** | **243** |
 | 07 | [**MoE Systems / Accelerators**](07-moe-systems.md) | **278** | **123** |
 | 08 | [**GPU Kernel / DSL / Compiler**](08-gpu-kernel-compiler.md) | **1074** | **412** |
@@ -24,7 +24,7 @@
 | 10 | [**Multimodal / MLLM Serving**](10-multimodal-mllm-serving.md) | **582** | **617** |
 | 11 | [**Video / Image Generation**](11-video-image-generation.md) | **444** | **203** |
 | 12 | [**Diffusion / Flow Acceleration**](12-diffusion-flow.md) | **640** | **406** |
-| 13 | [**Efficient Reasoning / Agents**](13-efficient-reasoning-agents.md) | **1047** | **1707** |
+| 13 | [**Efficient Reasoning / Agents**](13-efficient-reasoning-agents.md) | **1047** | **1708** |
 | 14 | [**VLA / WAM / Physical AI**](14-physical-ai-vla-wam.md) | **649** | **1835** |
 | 15 | [**Edge / Cloud / Heterogeneous AI**](15-edge-cloud-heterogeneous.md) | **1112** | **1353** |
 
