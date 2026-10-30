@@ -2,7 +2,7 @@
   "window_end_beijing": "2026-10-30",
   "window_start_beijing": "2026-09-30",
   "tracking_philosophy": "Topical relevance decides visibility; quality decides P0/P1/P2 tier.",
-  "tracked_total": 5562,
+  "tracked_total": 5588,
   "p0_strong_or_canonical": [
     {
       "title": "Honeycomb-Surfels: Compact Hexagonal Primitives for Efficient Scene Rendering and Reconstruction",
@@ -19409,6 +19409,29 @@
       ]
     },
     {
+      "title": "Quantize by Doing: Task-Guided Mixed-Precision Quantization of Vision-Language-Action Models",
+      "venue": "arXiv 2026",
+      "topic": "VLA quantization / mixed precision",
+      "arxiv": "2610.38661",
+      "doi": "",
+      "official_id": "arXiv:2610.38661",
+      "paper_url": "https://arxiv.org/abs/2610.38661",
+      "code_url": "",
+      "formal_class": "",
+      "physical_ai": true,
+      "decision": "PROMOTE_STRONG",
+      "why": "First-party abstract proposes task-guided mixed-precision PTQ across four VLA models, with roughly 4-bit weights and under 6-bit activations. Direct protected VLA memory/quantization contribution; promote P0 and attempt PDF, noting SIMPLER gain is small and real-robot transfer failed on pi0.5.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Quantization",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "PTXBench: Benchmark and Adapt LLMs for GPU Kernel Optimization with Architecture-specific PTX",
       "venue": "",
       "topic": "GPU kernel / LLM code generation / benchmark",
@@ -19587,6 +19610,29 @@
       "tracking_tier": "P0 · Strong",
       "directions": [
         "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "OpenFlyV2: An onboard vision-language-action model for aerial perception and navigation",
+      "venue": "arXiv 2026",
+      "topic": "Onboard VLA / aerial Physical AI",
+      "arxiv": "2610.39287",
+      "doi": "",
+      "official_id": "arXiv:2610.39287",
+      "paper_url": "https://arxiv.org/abs/2610.39287",
+      "code_url": "",
+      "formal_class": "",
+      "physical_ai": true,
+      "decision": "PROMOTE_STRONG",
+      "why": "First-party abstract describes a compact action expert and temporal memory reducing closed-loop compute, with onboard 10 Hz action chunks on Jetson Orin NX and zero-shot physical flight. Direct, high-value resource-constrained VLA serving result; promote P0 and attempt PDF.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -20056,6 +20102,29 @@
       "directions": [
         "Quantization",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "HERON: Real-Time Obstacle-Aware Reachability Maps for Mobile Manipulators",
+      "venue": "arXiv 2026",
+      "topic": "Embedded neural reachability / robot runtime",
+      "arxiv": "2610.38233",
+      "doi": "",
+      "official_id": "arXiv:2610.38233",
+      "paper_url": "https://arxiv.org/abs/2610.38233",
+      "code_url": "",
+      "formal_class": "",
+      "physical_ai": true,
+      "decision": "PROMOTE_STRONG",
+      "why": "First-party abstract reports a 3D U-Net on Jetson AGX Orin with TensorRT INT8 at 115 ms/8.57 Hz versus roughly 90 minutes for cuRobo map computation. Direct embedded runtime acceleration for mobile manipulation; promote P0 and attempt PDF.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Quantization",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -47699,6 +47768,30 @@
       ]
     },
     {
+      "title": "Video Generation Meets Agent Harness: Agentic Video Generation, Agentic World Modeling and Recursive Self-Improvement",
+      "venue": "arXiv 2026",
+      "topic": "llm_serving,gen,agent,physical",
+      "arxiv": "2610.40191",
+      "doi": "",
+      "official_id": "arXiv:2610.40191",
+      "paper_url": "https://arxiv.org/abs/2610.40191",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": true,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Directly relevant efficiency/serving/Physical-AI mechanism with sufficient novelty signal for retained reading; keep as high-value watch pending deeper paper-level validation.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "VDOT++: Unified Few-Step Video Generation via Unbalanced Optimal Transport Distillation",
       "venue": "arXiv 2026",
       "topic": "video/image generation acceleration",
@@ -47718,6 +47811,28 @@
       "directions": [
         "Video / Image Generation",
         "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "Utility-WAM: Correcting Future-Induced Action Changes",
+      "venue": "arXiv 2026",
+      "topic": "WAM inference efficiency / video-generation gate",
+      "arxiv": "2610.39367",
+      "doi": "",
+      "official_id": "arXiv:2610.39367",
+      "paper_url": "https://arxiv.org/abs/2610.39367",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": true,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "First-party abstract quantifies visual-future generation latency at 1.7–1.9x and a lightweight gate that bypasses generation on 75.5% of queries, cuts latency by 38%, and improves success. High-value P1 system finding; retain and attempt PDF.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -48311,6 +48426,29 @@
       "is_latest_30d": true,
       "directions": [
         "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "SelfThinker: Self-Evolving Reasoning via Reliability-Verified Intrinsic Visual Thoughts",
+      "venue": "arXiv 2026",
+      "topic": "gen",
+      "arxiv": "2610.40115",
+      "doi": "",
+      "official_id": "arXiv:2610.40115",
+      "paper_url": "https://arxiv.org/abs/2610.40115",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "First-party arXiv abstract confirms an explicit efficient-ML mechanism and quantitative/technical contribution; curated as high-value reading Watch. Evidence: Unified multimodal models can both generate and understand images within a single set of weights, offering an opportunity to use image synthesis as training supervision for visual comprehension. However, existing visual chain-of-thought methods rely on human-a",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -49882,6 +50020,29 @@
         "Quantization",
         "Multimodal / MLLM Serving",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "HiFOR: Hierarchical Foresight with Action-Guided World Grounding for Vision-Language-Action Model",
+      "venue": "arXiv 2026",
+      "topic": "multimodal,physical",
+      "arxiv": "2610.40373",
+      "doi": "",
+      "official_id": "arXiv:2610.40373",
+      "paper_url": "https://arxiv.org/abs/2610.40373",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": true,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Directly relevant efficiency/serving/Physical-AI mechanism with sufficient novelty signal for retained reading; keep as high-value watch pending deeper paper-level validation.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -102891,6 +103052,27 @@
       ]
     },
     {
+      "title": "WorldFlow: Joint Video and 3D Motion Prediction via Large-Scale Pretraining",
+      "venue": "arXiv 2026",
+      "topic": "Physical world model / video-3D motion",
+      "arxiv": "2610.39278",
+      "doi": "",
+      "official_id": "arXiv:2610.39278",
+      "paper_url": "https://arxiv.org/abs/2610.39278",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "First-party abstract introduces a large-scale pretrained video/3D rectified-flow world model with strong prediction metrics but no inference-efficiency result. Retain P2 under protected Physical-AI/world-model scope",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "WorldFailBench: Do World Models Understand Policy Failures?",
       "venue": "arXiv 2026",
       "topic": "Physical AI",
@@ -104278,6 +104460,28 @@
       "updated_at": "",
       "is_latest_30d": true,
       "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Uncertainty-aware Feedback Loop Diagnosis: integrating reinforcement learning and conformal prediction for reliable wafer defect classification",
+      "venue": "arXiv 2026",
+      "topic": "llm_serving",
+      "arxiv": "2610.40421",
+      "doi": "",
+      "official_id": "arXiv:2610.40421",
+      "paper_url": "https://arxiv.org/abs/2610.40421",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Official arXiv metadata/abstract places this in an efficient-ML or protected Physical-AI technical neighborhood, but does not yet warrant P0/P1. Evidence: Semiconductor manufacturing is a complex, multi-step process that requires both high precision and low operating costs. Therefore, detecting defects in a high-volume setting is an important component of wafer map analysi",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
         "Efficient Reasoning / Agents"
       ]
     },
@@ -107282,6 +107486,27 @@
       ]
     },
     {
+      "title": "Robust LIDAR Sensor-to-Sensor Domain Generalization via Accumulated-Point Scene Completion",
+      "venue": "arXiv 2026",
+      "topic": "LIDAR domain generalization / no-overhead auxiliary training",
+      "arxiv": "2610.39516",
+      "doi": "",
+      "official_id": "arXiv:2610.39516",
+      "paper_url": "https://arxiv.org/abs/2610.39516",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "First-party abstract reports an auxiliary occupancy-supervision scheme that can be dropped at deployment, yielding domain-generalization gains without additional inference cost. Adjacent algorithmic efficiency; retain P2 rather than promote as an accelerator paper",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Robotizing Human Videos with Physically Consistent Interactions",
       "venue": "arXiv 26",
       "topic": "action_flow",
@@ -108204,6 +108429,27 @@
       ]
     },
     {
+      "title": "RAIBO-Wagon: Real-Time Navigation System for a Legged Robot Towing a Wagon",
+      "venue": "arXiv 2026",
+      "topic": "Onboard robot navigation / flow-based planning",
+      "arxiv": "2610.39267",
+      "doi": "",
+      "official_id": "arXiv:2610.39267",
+      "paper_url": "https://arxiv.org/abs/2610.39267",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "First-party abstract reports an onboard CFM+MPPI+FDM navigation stack and convergence acceleration in real-world quadruped towing. Relevant Physical-AI runtime/system result, but not ML-model inference optimization; retain P2.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "RadOnc-Agent: An LLM-Orchestrated Framework for AI Workflows Across the Radiotherapy Care Pathway",
       "venue": "arXiv 2026",
       "topic": "",
@@ -108222,6 +108468,28 @@
       "is_latest_30d": true,
       "directions": [
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Radiology Guideline-derived Decision Graph for Efficient Clinical Decision Support",
+      "venue": "arXiv 2026",
+      "topic": "llm_serving",
+      "arxiv": "2610.40327",
+      "doi": "",
+      "official_id": "arXiv:2610.40327",
+      "paper_url": "https://arxiv.org/abs/2610.40327",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Official arXiv metadata/abstract places this in an efficient-ML or protected Physical-AI technical neighborhood, but does not yet warrant P0/P1. Evidence: Radiological risk stratification and management planning are essential downstream tasks in medical imaging. Automating these tasks is challenging because clinical guideline criteria are distributed across prose, tables, ",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference"
       ]
     },
     {
@@ -108743,6 +109011,48 @@
       "directions": [
         "LLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Practical Assessment of Agentic Systems in Acoustics",
+      "venue": "arXiv 2026",
+      "topic": "agent",
+      "arxiv": "2610.39685",
+      "doi": "",
+      "official_id": "arXiv:2610.39685",
+      "paper_url": "https://arxiv.org/abs/2610.39685",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Relevant to an Efficient-ML/AI-infrastructure neighborhood, but current first-party metadata does not justify high-value promotion over stronger route-defining work.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Possibility-based Inference: A Deterministic Framework for Robust and Reliable Uncertainty Quantification in Decision-Making",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2610.39821",
+      "doi": "",
+      "official_id": "arXiv:2610.39821",
+      "paper_url": "https://arxiv.org/abs/2610.39821",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Relevant to an Efficient-ML/AI-infrastructure neighborhood, but current first-party metadata does not justify high-value promotion over stronger route-defining work.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization"
       ]
     },
     {
@@ -110220,6 +110530,28 @@
       "is_latest_30d": true,
       "directions": [
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Neighborhood Elites: Quality-Diversity Search for Uncertainty Quantification in Question Answering",
+      "venue": "arXiv 2026",
+      "topic": "llm_serving",
+      "arxiv": "2610.40278",
+      "doi": "",
+      "official_id": "arXiv:2610.40278",
+      "paper_url": "https://arxiv.org/abs/2610.40278",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Relevant to an Efficient-ML/AI-infrastructure neighborhood, but current first-party metadata does not justify high-value promotion over stronger route-defining work.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization"
       ]
     },
     {
@@ -113309,6 +113641,27 @@
       ]
     },
     {
+      "title": "Hybrid AI Patterns: Thirteen Ways to Couple Language Models with Rules, and How to Choose Among Them",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2610.40036",
+      "doi": "",
+      "official_id": "arXiv:2610.40036",
+      "paper_url": "https://arxiv.org/abs/2610.40036",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Relevant to an Efficient-ML/AI-infrastructure neighborhood, but current first-party metadata does not justify high-value promotion over stronger route-defining work.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Humanoid Rickshaw Pulling: Whole-Body Locomotion under Coupled Wheeled Loads",
       "venue": "arXiv 2026",
       "topic": "llm_serving,gen",
@@ -113372,6 +113725,27 @@
       "is_latest_30d": true,
       "directions": [
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Human--AI Interactions as First-Class Data: A Formal Interaction Model and Runtime for Explainable AI Collaboration",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2610.40006",
+      "doi": "",
+      "official_id": "arXiv:2610.40006",
+      "paper_url": "https://arxiv.org/abs/2610.40006",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Official arXiv metadata/abstract places this in an efficient-ML or protected Physical-AI technical neighborhood, but does not yet warrant P0/P1. Evidence: AI assistants are increasingly embedded in computational notebooks, scientific workflows, software engineering tools, and learning systems, yet human-AI interactions are often treated as transient prompt-response exchang",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -115345,6 +115719,28 @@
       ]
     },
     {
+      "title": "Fast and accurate neural triage decoding of ultra-high-rate quantum LDPC codes",
+      "venue": "arXiv 2026",
+      "topic": "llm_serving",
+      "arxiv": "2610.40490",
+      "doi": "",
+      "official_id": "arXiv:2610.40490",
+      "paper_url": "https://arxiv.org/abs/2610.40490",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Official arXiv metadata/abstract places this in an efficient-ML or protected Physical-AI technical neighborhood, but does not yet warrant P0/P1. Evidence: Quantum error correction is essential for fault-tolerant quantum computing. High-rate quantum low-density parity-check (qLDPC) codes have emerged as a promising approach to reducing the substantial physical qubit overhea",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization"
+      ]
+    },
+    {
       "title": "FARMS: A Verifiable Foundation for Automated Computational Science",
       "venue": "arXiv 2026",
       "topic": "",
@@ -116184,6 +116580,27 @@
       "is_latest_30d": true,
       "directions": [
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Efficient Scalable Oversight via Rewinding",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2610.40535",
+      "doi": "",
+      "official_id": "arXiv:2610.40535",
+      "paper_url": "https://arxiv.org/abs/2610.40535",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Relevant to an Efficient-ML/AI-infrastructure neighborhood, but current first-party metadata does not justify high-value promotion over stronger route-defining work.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -117447,6 +117864,27 @@
       ]
     },
     {
+      "title": "CuraEval: Evaluating Demonstration Curation on Mixed-Skill Robot Data",
+      "venue": "arXiv 2026",
+      "topic": "Imitation learning / demonstration curation",
+      "arxiv": "2610.38221",
+      "doi": "",
+      "official_id": "arXiv:2610.38221",
+      "paper_url": "https://arxiv.org/abs/2610.38221",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "First-party abstract evaluates demonstration subset selection for Diffusion Policy and BC-RNN, with mixed and protocol-sensitive results. Relevant data-efficiency evidence, but not a direct inference/runtime contribution; retain P2.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "CT-Miner: Fast and Coarse-Grained Time-Series Pattern Mining via Cartesian Trees",
       "venue": "arXiv 2026",
       "topic": "GPU kernel/DSL/compilers",
@@ -117465,6 +117903,27 @@
       "is_latest_30d": true,
       "directions": [
         "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "CSO: Refining Robotic Policies via Skill Distribution Alignment and Skill-Grained Optimization",
+      "venue": "arXiv 2026",
+      "topic": "Robot policy post-training / skill optimization",
+      "arxiv": "2610.38357",
+      "doi": "",
+      "official_id": "arXiv:2610.38357",
+      "paper_url": "https://arxiv.org/abs/2610.38357",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "First-party abstract reports skill-grained post-training improvements on LIBERO, RoboTwin and physical tasks, but does not establish lower inference cost or a serving/architecture optimization. Retain as P2 adjacent Physical-AI algorithm work.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -117660,6 +118119,28 @@
         "Distributed Training / Inference",
         "Multimodal / MLLM Serving",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Coupled Guidance for Flow Matching",
+      "venue": "arXiv 2026",
+      "topic": "Flow-matching guidance / controlled generation",
+      "arxiv": "2610.40109",
+      "doi": "",
+      "official_id": "arXiv:2610.40109",
+      "paper_url": "https://arxiv.org/abs/2610.40109",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "First-party abstract proposes a flow-matching-specific guidance method with no additional overhead across robotics and image tasks. Relevant to flow/diffusion systems, but not a direct acceleration or serving result; retain P2.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Diffusion / Flow Acceleration",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -120632,6 +121113,27 @@
       ]
     },
     {
+      "title": "AI at a Turning Point: From ChatGPT through Neural Networks to Neuromorphic AI",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2610.39796",
+      "doi": "",
+      "official_id": "arXiv:2610.39796",
+      "paper_url": "https://arxiv.org/abs/2610.39796",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Relevant to an Efficient-ML/AI-infrastructure neighborhood, but current first-party metadata does not justify high-value promotion over stronger route-defining work.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Agentic schema-guided extraction of materials process knowledge from scientific literature",
       "venue": "arXiv 2026",
       "topic": "",
@@ -120739,6 +121241,28 @@
       "is_latest_30d": true,
       "directions": [
         "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "AegisFlow: Training-Free Non-Myopic Path-Safe Guided Flow Matching",
+      "venue": "arXiv 2026",
+      "topic": "Training-free flow matching / robot planning",
+      "arxiv": "2610.39825",
+      "doi": "",
+      "official_id": "arXiv:2610.39825",
+      "paper_url": "https://arxiv.org/abs/2610.39825",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "First-party abstract proposes non-myopic path-safe guided flow matching for image manipulation and robotic planning. Protected action-flow relevance, but no measured inference-efficiency improvement; retain P2.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Diffusion / Flow Acceleration",
         "VLA / WAM / Physical AI"
       ]
     },
@@ -121108,6 +121632,27 @@
       ]
     },
     {
+      "title": "AcrossDEX 1.0: From Human Motion Pretraining to Bimanual Dexterous Manipulation across Hand Embodiments",
+      "venue": "arXiv 2026",
+      "topic": "Bimanual Physical AI / action-chunk continuity",
+      "arxiv": "2610.40210",
+      "doi": "",
+      "official_id": "arXiv:2610.40210",
+      "paper_url": "https://arxiv.org/abs/2610.40210",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "First-party abstract studies a shared human-motion pretraining/adaptation pipeline and prefix replanning across two hand embodiments; no direct inference-efficiency claim. Retain P2 under Physical-AI coverage.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Across Viewpoints and Time: Trajectory-Generalizable Physical Attacks on World Models and Video Understanding Models",
       "venue": "arXiv 2026",
       "topic": "",
@@ -121389,6 +121934,27 @@
       "directions": [
         "Distributed Training / Inference",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "A Pretrained Model for Bayesian Filtering in Heterogeneous Dynamical Systems",
+      "venue": "arXiv 2026",
+      "topic": "edge",
+      "arxiv": "2610.40437",
+      "doi": "",
+      "official_id": "arXiv:2610.40437",
+      "paper_url": "https://arxiv.org/abs/2610.40437",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Relevant to an Efficient-ML/AI-infrastructure neighborhood, but current first-party metadata does not justify high-value promotion over stronger route-defining work.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -140992,6 +141558,29 @@
       ]
     },
     {
+      "title": "Quantize by Doing: Task-Guided Mixed-Precision Quantization of Vision-Language-Action Models",
+      "venue": "arXiv 2026",
+      "topic": "VLA quantization / mixed precision",
+      "arxiv": "2610.38661",
+      "doi": "",
+      "official_id": "arXiv:2610.38661",
+      "paper_url": "https://arxiv.org/abs/2610.38661",
+      "code_url": "",
+      "formal_class": "",
+      "physical_ai": true,
+      "decision": "PROMOTE_STRONG",
+      "why": "First-party abstract proposes task-guided mixed-precision PTQ across four VLA models, with roughly 4-bit weights and under 6-bit activations. Direct protected VLA memory/quantization contribution; promote P0 and attempt PDF, noting SIMPLER gain is small and real-robot transfer failed on pi0.5.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Quantization",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "PTXBench: Benchmark and Adapt LLMs for GPU Kernel Optimization with Architecture-specific PTX",
       "venue": "",
       "topic": "GPU kernel / LLM code generation / benchmark",
@@ -141170,6 +141759,29 @@
       "tracking_tier": "P0 · Strong",
       "directions": [
         "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "OpenFlyV2: An onboard vision-language-action model for aerial perception and navigation",
+      "venue": "arXiv 2026",
+      "topic": "Onboard VLA / aerial Physical AI",
+      "arxiv": "2610.39287",
+      "doi": "",
+      "official_id": "arXiv:2610.39287",
+      "paper_url": "https://arxiv.org/abs/2610.39287",
+      "code_url": "",
+      "formal_class": "",
+      "physical_ai": true,
+      "decision": "PROMOTE_STRONG",
+      "why": "First-party abstract describes a compact action expert and temporal memory reducing closed-loop compute, with onboard 10 Hz action chunks on Jetson Orin NX and zero-shot physical flight. Direct, high-value resource-constrained VLA serving result; promote P0 and attempt PDF.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -141639,6 +142251,29 @@
       "directions": [
         "Quantization",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "HERON: Real-Time Obstacle-Aware Reachability Maps for Mobile Manipulators",
+      "venue": "arXiv 2026",
+      "topic": "Embedded neural reachability / robot runtime",
+      "arxiv": "2610.38233",
+      "doi": "",
+      "official_id": "arXiv:2610.38233",
+      "paper_url": "https://arxiv.org/abs/2610.38233",
+      "code_url": "",
+      "formal_class": "",
+      "physical_ai": true,
+      "decision": "PROMOTE_STRONG",
+      "why": "First-party abstract reports a 3D U-Net on Jetson AGX Orin with TensorRT INT8 at 115 ms/8.57 Hz versus roughly 90 minutes for cuRobo map computation. Direct embedded runtime acceleration for mobile manipulation; promote P0 and attempt PDF.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "tracking_tier": "P0 · Strong",
+      "directions": [
+        "Quantization",
+        "VLA / WAM / Physical AI",
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -169280,6 +169915,30 @@
       ]
     },
     {
+      "title": "Video Generation Meets Agent Harness: Agentic Video Generation, Agentic World Modeling and Recursive Self-Improvement",
+      "venue": "arXiv 2026",
+      "topic": "llm_serving,gen,agent,physical",
+      "arxiv": "2610.40191",
+      "doi": "",
+      "official_id": "arXiv:2610.40191",
+      "paper_url": "https://arxiv.org/abs/2610.40191",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": true,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Directly relevant efficiency/serving/Physical-AI mechanism with sufficient novelty signal for retained reading; keep as high-value watch pending deeper paper-level validation.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Video / Image Generation",
+        "Efficient Reasoning / Agents",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "VDOT++: Unified Few-Step Video Generation via Unbalanced Optimal Transport Distillation",
       "venue": "arXiv 2026",
       "topic": "video/image generation acceleration",
@@ -169299,6 +169958,28 @@
       "directions": [
         "Video / Image Generation",
         "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "Utility-WAM: Correcting Future-Induced Action Changes",
+      "venue": "arXiv 2026",
+      "topic": "WAM inference efficiency / video-generation gate",
+      "arxiv": "2610.39367",
+      "doi": "",
+      "official_id": "arXiv:2610.39367",
+      "paper_url": "https://arxiv.org/abs/2610.39367",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": true,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "First-party abstract quantifies visual-future generation latency at 1.7–1.9x and a lightweight gate that bypasses generation on 75.5% of queries, cuts latency by 38%, and improves success. High-value P1 system finding; retain and attempt PDF.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -169892,6 +170573,29 @@
       "is_latest_30d": true,
       "directions": [
         "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "SelfThinker: Self-Evolving Reasoning via Reliability-Verified Intrinsic Visual Thoughts",
+      "venue": "arXiv 2026",
+      "topic": "gen",
+      "arxiv": "2610.40115",
+      "doi": "",
+      "official_id": "arXiv:2610.40115",
+      "paper_url": "https://arxiv.org/abs/2610.40115",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "First-party arXiv abstract confirms an explicit efficient-ML mechanism and quantitative/technical contribution; curated as high-value reading Watch. Evidence: Unified multimodal models can both generate and understand images within a single set of weights, offering an opportunity to use image synthesis as training supervision for visual comprehension. However, existing visual chain-of-thought methods rely on human-a",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization",
+        "Multimodal / MLLM Serving",
+        "Efficient Reasoning / Agents"
       ]
     },
     {
@@ -171463,6 +172167,29 @@
         "Quantization",
         "Multimodal / MLLM Serving",
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "HiFOR: Hierarchical Foresight with Action-Guided World Grounding for Vision-Language-Action Model",
+      "venue": "arXiv 2026",
+      "topic": "multimodal,physical",
+      "arxiv": "2610.40373",
+      "doi": "",
+      "official_id": "arXiv:2610.40373",
+      "paper_url": "https://arxiv.org/abs/2610.40373",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": true,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "Directly relevant efficiency/serving/Physical-AI mechanism with sufficient novelty signal for retained reading; keep as high-value watch pending deeper paper-level validation.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Multimodal / MLLM Serving",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -224470,6 +225197,27 @@
       ]
     },
     {
+      "title": "WorldFlow: Joint Video and 3D Motion Prediction via Large-Scale Pretraining",
+      "venue": "arXiv 2026",
+      "topic": "Physical world model / video-3D motion",
+      "arxiv": "2610.39278",
+      "doi": "",
+      "official_id": "arXiv:2610.39278",
+      "paper_url": "https://arxiv.org/abs/2610.39278",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "First-party abstract introduces a large-scale pretrained video/3D rectified-flow world model with strong prediction metrics but no inference-efficiency result. Retain P2 under protected Physical-AI/world-model scope",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "WorldFailBench: Do World Models Understand Policy Failures?",
       "venue": "arXiv 2026",
       "topic": "Physical AI",
@@ -225857,6 +226605,28 @@
       "updated_at": "",
       "is_latest_30d": true,
       "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Uncertainty-aware Feedback Loop Diagnosis: integrating reinforcement learning and conformal prediction for reliable wafer defect classification",
+      "venue": "arXiv 2026",
+      "topic": "llm_serving",
+      "arxiv": "2610.40421",
+      "doi": "",
+      "official_id": "arXiv:2610.40421",
+      "paper_url": "https://arxiv.org/abs/2610.40421",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Official arXiv metadata/abstract places this in an efficient-ML or protected Physical-AI technical neighborhood, but does not yet warrant P0/P1. Evidence: Semiconductor manufacturing is a complex, multi-step process that requires both high precision and low operating costs. Therefore, detecting defects in a high-volume setting is an important component of wafer map analysi",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
         "Efficient Reasoning / Agents"
       ]
     },
@@ -228861,6 +229631,27 @@
       ]
     },
     {
+      "title": "Robust LIDAR Sensor-to-Sensor Domain Generalization via Accumulated-Point Scene Completion",
+      "venue": "arXiv 2026",
+      "topic": "LIDAR domain generalization / no-overhead auxiliary training",
+      "arxiv": "2610.39516",
+      "doi": "",
+      "official_id": "arXiv:2610.39516",
+      "paper_url": "https://arxiv.org/abs/2610.39516",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "First-party abstract reports an auxiliary occupancy-supervision scheme that can be dropped at deployment, yielding domain-generalization gains without additional inference cost. Adjacent algorithmic efficiency; retain P2 rather than promote as an accelerator paper",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Robotizing Human Videos with Physically Consistent Interactions",
       "venue": "arXiv 26",
       "topic": "action_flow",
@@ -229783,6 +230574,27 @@
       ]
     },
     {
+      "title": "RAIBO-Wagon: Real-Time Navigation System for a Legged Robot Towing a Wagon",
+      "venue": "arXiv 2026",
+      "topic": "Onboard robot navigation / flow-based planning",
+      "arxiv": "2610.39267",
+      "doi": "",
+      "official_id": "arXiv:2610.39267",
+      "paper_url": "https://arxiv.org/abs/2610.39267",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "First-party abstract reports an onboard CFM+MPPI+FDM navigation stack and convergence acceleration in real-world quadruped towing. Relevant Physical-AI runtime/system result, but not ML-model inference optimization; retain P2.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "RadOnc-Agent: An LLM-Orchestrated Framework for AI Workflows Across the Radiotherapy Care Pathway",
       "venue": "arXiv 2026",
       "topic": "",
@@ -229801,6 +230613,28 @@
       "is_latest_30d": true,
       "directions": [
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Radiology Guideline-derived Decision Graph for Efficient Clinical Decision Support",
+      "venue": "arXiv 2026",
+      "topic": "llm_serving",
+      "arxiv": "2610.40327",
+      "doi": "",
+      "official_id": "arXiv:2610.40327",
+      "paper_url": "https://arxiv.org/abs/2610.40327",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Official arXiv metadata/abstract places this in an efficient-ML or protected Physical-AI technical neighborhood, but does not yet warrant P0/P1. Evidence: Radiological risk stratification and management planning are essential downstream tasks in medical imaging. Automating these tasks is challenging because clinical guideline criteria are distributed across prose, tables, ",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Distributed Training / Inference"
       ]
     },
     {
@@ -230322,6 +231156,48 @@
       "directions": [
         "LLM Serving",
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Practical Assessment of Agentic Systems in Acoustics",
+      "venue": "arXiv 2026",
+      "topic": "agent",
+      "arxiv": "2610.39685",
+      "doi": "",
+      "official_id": "arXiv:2610.39685",
+      "paper_url": "https://arxiv.org/abs/2610.39685",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Relevant to an Efficient-ML/AI-infrastructure neighborhood, but current first-party metadata does not justify high-value promotion over stronger route-defining work.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Possibility-based Inference: A Deterministic Framework for Robust and Reliable Uncertainty Quantification in Decision-Making",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2610.39821",
+      "doi": "",
+      "official_id": "arXiv:2610.39821",
+      "paper_url": "https://arxiv.org/abs/2610.39821",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Relevant to an Efficient-ML/AI-infrastructure neighborhood, but current first-party metadata does not justify high-value promotion over stronger route-defining work.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Quantization"
       ]
     },
     {
@@ -231799,6 +232675,28 @@
       "is_latest_30d": true,
       "directions": [
         "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Neighborhood Elites: Quality-Diversity Search for Uncertainty Quantification in Question Answering",
+      "venue": "arXiv 2026",
+      "topic": "llm_serving",
+      "arxiv": "2610.40278",
+      "doi": "",
+      "official_id": "arXiv:2610.40278",
+      "paper_url": "https://arxiv.org/abs/2610.40278",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Relevant to an Efficient-ML/AI-infrastructure neighborhood, but current first-party metadata does not justify high-value promotion over stronger route-defining work.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization"
       ]
     },
     {
@@ -234888,6 +235786,27 @@
       ]
     },
     {
+      "title": "Hybrid AI Patterns: Thirteen Ways to Couple Language Models with Rules, and How to Choose Among Them",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2610.40036",
+      "doi": "",
+      "official_id": "arXiv:2610.40036",
+      "paper_url": "https://arxiv.org/abs/2610.40036",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Relevant to an Efficient-ML/AI-infrastructure neighborhood, but current first-party metadata does not justify high-value promotion over stronger route-defining work.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Humanoid Rickshaw Pulling: Whole-Body Locomotion under Coupled Wheeled Loads",
       "venue": "arXiv 2026",
       "topic": "llm_serving,gen",
@@ -234951,6 +235870,27 @@
       "is_latest_30d": true,
       "directions": [
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Human--AI Interactions as First-Class Data: A Formal Interaction Model and Runtime for Explainable AI Collaboration",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2610.40006",
+      "doi": "",
+      "official_id": "arXiv:2610.40006",
+      "paper_url": "https://arxiv.org/abs/2610.40006",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Official arXiv metadata/abstract places this in an efficient-ML or protected Physical-AI technical neighborhood, but does not yet warrant P0/P1. Evidence: AI assistants are increasingly embedded in computational notebooks, scientific workflows, software engineering tools, and learning systems, yet human-AI interactions are often treated as transient prompt-response exchang",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -236924,6 +237864,28 @@
       ]
     },
     {
+      "title": "Fast and accurate neural triage decoding of ultra-high-rate quantum LDPC codes",
+      "venue": "arXiv 2026",
+      "topic": "llm_serving",
+      "arxiv": "2610.40490",
+      "doi": "",
+      "official_id": "arXiv:2610.40490",
+      "paper_url": "https://arxiv.org/abs/2610.40490",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Official arXiv metadata/abstract places this in an efficient-ML or protected Physical-AI technical neighborhood, but does not yet warrant P0/P1. Evidence: Quantum error correction is essential for fault-tolerant quantum computing. High-rate quantum low-density parity-check (qLDPC) codes have emerged as a promising approach to reducing the substantial physical qubit overhea",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "LLM Serving",
+        "Quantization"
+      ]
+    },
+    {
       "title": "FARMS: A Verifiable Foundation for Automated Computational Science",
       "venue": "arXiv 2026",
       "topic": "",
@@ -237763,6 +238725,27 @@
       "is_latest_30d": true,
       "directions": [
         "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "Efficient Scalable Oversight via Rewinding",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2610.40535",
+      "doi": "",
+      "official_id": "arXiv:2610.40535",
+      "paper_url": "https://arxiv.org/abs/2610.40535",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Relevant to an Efficient-ML/AI-infrastructure neighborhood, but current first-party metadata does not justify high-value promotion over stronger route-defining work.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {
@@ -239026,6 +240009,27 @@
       ]
     },
     {
+      "title": "CuraEval: Evaluating Demonstration Curation on Mixed-Skill Robot Data",
+      "venue": "arXiv 2026",
+      "topic": "Imitation learning / demonstration curation",
+      "arxiv": "2610.38221",
+      "doi": "",
+      "official_id": "arXiv:2610.38221",
+      "paper_url": "https://arxiv.org/abs/2610.38221",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "First-party abstract evaluates demonstration subset selection for Diffusion Policy and BC-RNN, with mixed and protocol-sensitive results. Relevant data-efficiency evidence, but not a direct inference/runtime contribution; retain P2.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "CT-Miner: Fast and Coarse-Grained Time-Series Pattern Mining via Cartesian Trees",
       "venue": "arXiv 2026",
       "topic": "GPU kernel/DSL/compilers",
@@ -239044,6 +240048,27 @@
       "is_latest_30d": true,
       "directions": [
         "GPU Kernel / DSL / Compiler"
+      ]
+    },
+    {
+      "title": "CSO: Refining Robotic Policies via Skill Distribution Alignment and Skill-Grained Optimization",
+      "venue": "arXiv 2026",
+      "topic": "Robot policy post-training / skill optimization",
+      "arxiv": "2610.38357",
+      "doi": "",
+      "official_id": "arXiv:2610.38357",
+      "paper_url": "https://arxiv.org/abs/2610.38357",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "First-party abstract reports skill-grained post-training improvements on LIBERO, RoboTwin and physical tasks, but does not establish lower inference cost or a serving/architecture optimization. Retain as P2 adjacent Physical-AI algorithm work.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -239239,6 +240264,28 @@
         "Distributed Training / Inference",
         "Multimodal / MLLM Serving",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "Coupled Guidance for Flow Matching",
+      "venue": "arXiv 2026",
+      "topic": "Flow-matching guidance / controlled generation",
+      "arxiv": "2610.40109",
+      "doi": "",
+      "official_id": "arXiv:2610.40109",
+      "paper_url": "https://arxiv.org/abs/2610.40109",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "First-party abstract proposes a flow-matching-specific guidance method with no additional overhead across robotics and image tasks. Relevant to flow/diffusion systems, but not a direct acceleration or serving result; retain P2.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Diffusion / Flow Acceleration",
+        "VLA / WAM / Physical AI"
       ]
     },
     {
@@ -242211,6 +243258,27 @@
       ]
     },
     {
+      "title": "AI at a Turning Point: From ChatGPT through Neural Networks to Neuromorphic AI",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2610.39796",
+      "doi": "",
+      "official_id": "arXiv:2610.39796",
+      "paper_url": "https://arxiv.org/abs/2610.39796",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Relevant to an Efficient-ML/AI-infrastructure neighborhood, but current first-party metadata does not justify high-value promotion over stronger route-defining work.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
       "title": "Agentic schema-guided extraction of materials process knowledge from scientific literature",
       "venue": "arXiv 2026",
       "topic": "",
@@ -242318,6 +243386,28 @@
       "is_latest_30d": true,
       "directions": [
         "LLM Serving",
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "AegisFlow: Training-Free Non-Myopic Path-Safe Guided Flow Matching",
+      "venue": "arXiv 2026",
+      "topic": "Training-free flow matching / robot planning",
+      "arxiv": "2610.39825",
+      "doi": "",
+      "official_id": "arXiv:2610.39825",
+      "paper_url": "https://arxiv.org/abs/2610.39825",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "First-party abstract proposes non-myopic path-safe guided flow matching for image manipulation and robotic planning. Protected action-flow relevance, but no measured inference-efficiency improvement; retain P2.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Diffusion / Flow Acceleration",
         "VLA / WAM / Physical AI"
       ]
     },
@@ -242687,6 +243777,27 @@
       ]
     },
     {
+      "title": "AcrossDEX 1.0: From Human Motion Pretraining to Bimanual Dexterous Manipulation across Hand Embodiments",
+      "venue": "arXiv 2026",
+      "topic": "Bimanual Physical AI / action-chunk continuity",
+      "arxiv": "2610.40210",
+      "doi": "",
+      "official_id": "arXiv:2610.40210",
+      "paper_url": "https://arxiv.org/abs/2610.40210",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "First-party abstract studies a shared human-motion pretraining/adaptation pipeline and prefix replanning across two hand embodiments; no direct inference-efficiency claim. Retain P2 under Physical-AI coverage.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
       "title": "Across Viewpoints and Time: Trajectory-Generalizable Physical Attacks on World Models and Video Understanding Models",
       "venue": "arXiv 2026",
       "topic": "",
@@ -242968,6 +244079,27 @@
       "directions": [
         "Distributed Training / Inference",
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "A Pretrained Model for Bayesian Filtering in Heterogeneous Dynamical Systems",
+      "venue": "arXiv 2026",
+      "topic": "edge",
+      "arxiv": "2610.40437",
+      "doi": "",
+      "official_id": "arXiv:2610.40437",
+      "paper_url": "https://arxiv.org/abs/2610.40437",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Relevant to an Efficient-ML/AI-infrastructure neighborhood, but current first-party metadata does not justify high-value promotion over stronger route-defining work.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": true,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
       ]
     },
     {

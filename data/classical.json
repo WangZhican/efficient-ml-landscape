@@ -13493,6 +13493,29 @@
     ]
   },
   {
+    "title": "Fine-tuning Multi-modal LLMs with ART: Art-based Reinforcement Training",
+    "venue": "arXiv 2026",
+    "topic": "llm_serving,multimodal",
+    "arxiv": "2606.11854",
+    "doi": "",
+    "official_id": "arXiv:2606.11854",
+    "paper_url": "https://arxiv.org/abs/2606.11854",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party arXiv abstract confirms an explicit efficient-ML mechanism and quantitative/technical contribution; curated as route-defining Strong. Evidence: Adapting Large Language Models (LLMs) to specific tasks usually involves fine-tuning: Low-Rank Adaptation (LoRA) edits the weights, while soft prompting prepends trainable virtual tokens. Both change how an already-optimized model is served, so serving many ta",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
     "title": "FIRE: Failure-Informed Runtime Engineering for Reliable Language-Model Agents",
     "venue": "arXiv 2026",
     "topic": "",
@@ -94263,6 +94286,28 @@
     ]
   },
   {
+    "title": "HeadNeRF: A Real-time NeRF-based Parametric Head Model",
+    "venue": "",
+    "topic": "Neural rendering acceleration",
+    "arxiv": "2112.05637",
+    "doi": "",
+    "official_id": "arXiv:2112.05637",
+    "paper_url": "https://arxiv.org/abs/2112.05637",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Official arXiv abstract reports reducing HeadNeRF frame rendering from 5 seconds to 25 milliseconds using a hybrid 2D neural-rendering strategy. Direct, quantitatively supported inference acceleration; author identity/group affiliation remains unverified.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "Video / Image Generation"
+    ]
+  },
+  {
     "title": "Hexa-MoE: Efficient and Heterogeneous-aware Training for Mixture-of-Experts",
     "venue": "",
     "topic": "MoE systems/accelerators",
@@ -95046,6 +95091,27 @@
     "directions": [
       "Efficient Attention",
       "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "UWC: Unit-wise Calibration Towards Rapid Network Compression",
+    "venue": "",
+    "topic": "Efficient model quantization",
+    "arxiv": "2201.06376",
+    "doi": "",
+    "official_id": "arXiv:2201.06376",
+    "paper_url": "https://arxiv.org/abs/2201.06376",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Official arXiv abstract reports unit-wise post-training quantization and near-original accuracy at INT4/INT3. This is a direct compression/quantization contribution; author identity/group affiliation remains unverified.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization"
     ]
   },
   {

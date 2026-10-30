@@ -74998,6 +74998,27 @@
         "Multimodal / MLLM Serving",
         "Efficient Reasoning / Agents"
       ]
+    },
+    {
+      "title": "Parallelizable memory recurrent units",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2601.09495",
+      "doi": "",
+      "official_id": "arXiv:2601.09495",
+      "paper_url": "https://arxiv.org/abs/2601.09495",
+      "code_url": "",
+      "formal_class": "WATCH",
+      "physical_ai": false,
+      "decision": "WATCH",
+      "tracking_tier": "P1 · Watch",
+      "why": "First-party arXiv abstract confirms an explicit efficient-ML mechanism and quantitative/technical contribution; curated as high-value reading Watch. Evidence: With the emergence of massively parallel processing units, parallelization has become a desirable property for new sequence models. The ability to parallelize the processing of sequences with respect to the sequence length during training is one of the main fa",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Quantization"
+      ]
     }
   ],
   "historical_p2": [
@@ -186521,6 +186542,196 @@
       "is_latest_30d": false,
       "directions": [
         "Efficient Reasoning / Agents"
+      ]
+    },
+    {
+      "title": "On the minimax optimality of Flow Matching through the connection to kernel density estimation",
+      "venue": "arXiv 2026",
+      "topic": "gen",
+      "arxiv": "2504.13336",
+      "doi": "",
+      "official_id": "arXiv:2504.13336",
+      "paper_url": "https://arxiv.org/abs/2504.13336",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Relevant to an Efficient-ML/AI-infrastructure neighborhood, but current first-party metadata does not justify high-value promotion over stronger route-defining work.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "GPU Kernel / DSL / Compiler",
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "TAU-R1: Visual Language Model for Traffic Anomaly Understanding",
+      "venue": "arXiv 2026",
+      "topic": "multimodal",
+      "arxiv": "2603.19098",
+      "doi": "",
+      "official_id": "arXiv:2603.19098",
+      "paper_url": "https://arxiv.org/abs/2603.19098",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Relevant to an Efficient-ML/AI-infrastructure neighborhood, but current first-party metadata does not justify high-value promotion over stronger route-defining work.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Multimodal / MLLM Serving"
+      ]
+    },
+    {
+      "title": "Adaptive Modular Retrieval-Augmented Framework for Cross-Domain Image Classification",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2510.05071",
+      "doi": "",
+      "official_id": "arXiv:2510.05071",
+      "paper_url": "https://arxiv.org/abs/2510.05071",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Relevant to an Efficient-ML/AI-infrastructure neighborhood, but current first-party metadata does not justify high-value promotion over stronger route-defining work.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Normalizing Flow-Enhanced Message Passing for Multirobot Collaborative Localization",
+      "venue": "arXiv 2026",
+      "topic": "",
+      "arxiv": "2606.29868",
+      "doi": "",
+      "official_id": "arXiv:2606.29868",
+      "paper_url": "https://arxiv.org/abs/2606.29868",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": true,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Relevant to an Efficient-ML/AI-infrastructure neighborhood, but current first-party metadata does not justify high-value promotion over stronger route-defining work.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "VLA / WAM / Physical AI"
+      ]
+    },
+    {
+      "title": "CauScale: Neural Causal Discovery at Scale",
+      "venue": "",
+      "topic": "Neural causal discovery",
+      "arxiv": "2602.08629",
+      "doi": "",
+      "official_id": "arXiv:2602.08629",
+      "paper_url": "https://arxiv.org/abs/2602.08629",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Official arXiv abstract concerns causal discovery at scale; potentially relevant algorithmic scalability, but no explicit efficient-ML serving or accelerator result in the abstract.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving"
+      ]
+    },
+    {
+      "title": "Shape-conditioned 3D Molecule Generation via Equivariant Diffusion Models",
+      "venue": "",
+      "topic": "Generative models",
+      "arxiv": "2308.11890",
+      "doi": "",
+      "official_id": "arXiv:2308.11890",
+      "paper_url": "https://arxiv.org/abs/2308.11890",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Official arXiv abstract concerns equivariant diffusion for 3D molecule generation; adjacent generation research, without a direct runtime/memory result.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Diffusion / Flow Acceleration"
+      ]
+    },
+    {
+      "title": "InfoStyler: Disentanglement Information Bottleneck for Artistic Style Transfer",
+      "venue": "",
+      "topic": "Generative vision",
+      "arxiv": "2307.16227",
+      "doi": "",
+      "official_id": "arXiv:2307.16227",
+      "paper_url": "https://arxiv.org/abs/2307.16227",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Official arXiv abstract concerns style transfer with disentangled representations; adjacent image-generation literature, not a direct efficiency method.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "M2: Mixed Models with Preferences, Popularities and Transitions for Next-Basket Recommendation",
+      "venue": "",
+      "topic": "Recommendation models",
+      "arxiv": "2004.01646",
+      "doi": "",
+      "official_id": "arXiv:2004.01646",
+      "paper_url": "https://arxiv.org/abs/2004.01646",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Official arXiv abstract concerns a mixed preference/popularity/transition recommendation model; adjacent ML model literature without a direct efficiency claim.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "Edge / Cloud / Heterogeneous AI"
+      ]
+    },
+    {
+      "title": "Extreme Network Compression via Filter Group Approximation",
+      "venue": "",
+      "topic": "Network compression",
+      "arxiv": "1807.11254",
+      "doi": "",
+      "official_id": "arXiv:1807.11254",
+      "paper_url": "https://arxiv.org/abs/1807.11254",
+      "code_url": "",
+      "formal_class": "RELEVANT_LOW_PRIORITY",
+      "physical_ai": false,
+      "decision": "P2_RELEVANT_LOW_PRIORITY",
+      "tracking_tier": "P2 · Relevant",
+      "why": "Official arXiv title/abstract indicates extreme network compression via filter-group approximation; retained as P2 due age and lack of contemporary serving/accelerator evidence.",
+      "published_at": "",
+      "updated_at": "",
+      "is_latest_30d": false,
+      "directions": [
+        "LLM Serving"
       ]
     }
   ]

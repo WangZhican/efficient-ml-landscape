@@ -20328,6 +20328,29 @@
     ]
   },
   {
+    "title": "Fine-tuning Multi-modal LLMs with ART: Art-based Reinforcement Training",
+    "venue": "arXiv 2026",
+    "topic": "llm_serving,multimodal",
+    "arxiv": "2606.11854",
+    "doi": "",
+    "official_id": "arXiv:2606.11854",
+    "paper_url": "https://arxiv.org/abs/2606.11854",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party arXiv abstract confirms an explicit efficient-ML mechanism and quantitative/technical contribution; curated as route-defining Strong. Evidence: Adapting Large Language Models (LLMs) to specific tasks usually involves fine-tuning: Low-Rank Adaptation (LoRA) edits the weights, while soft prompting prepends trainable virtual tokens. Both change how an already-optimized model is served, so serving many ta",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "Multimodal / MLLM Serving"
+    ]
+  },
+  {
     "title": "FIRE: Failure-Informed Runtime Engineering for Reliable Language-Model Agents",
     "venue": "arXiv 2026",
     "topic": "",
@@ -24255,6 +24278,29 @@
     "tracking_tier": "P0 · Strong",
     "directions": [
       "GPU Kernel / DSL / Compiler",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "HERON: Real-Time Obstacle-Aware Reachability Maps for Mobile Manipulators",
+    "venue": "arXiv 2026",
+    "topic": "Embedded neural reachability / robot runtime",
+    "arxiv": "2610.38233",
+    "doi": "",
+    "official_id": "arXiv:2610.38233",
+    "paper_url": "https://arxiv.org/abs/2610.38233",
+    "code_url": "",
+    "formal_class": "",
+    "physical_ai": true,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party abstract reports a 3D U-Net on Jetson AGX Orin with TensorRT INT8 at 115 ms/8.57 Hz versus roughly 90 minutes for cuRobo map computation. Direct embedded runtime acceleration for mobile manipulation; promote P0 and attempt PDF.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Quantization",
+      "VLA / WAM / Physical AI",
       "Edge / Cloud / Heterogeneous AI"
     ]
   },
@@ -35391,6 +35437,29 @@
     ]
   },
   {
+    "title": "OpenFlyV2: An onboard vision-language-action model for aerial perception and navigation",
+    "venue": "arXiv 2026",
+    "topic": "Onboard VLA / aerial Physical AI",
+    "arxiv": "2610.39287",
+    "doi": "",
+    "official_id": "arXiv:2610.39287",
+    "paper_url": "https://arxiv.org/abs/2610.39287",
+    "code_url": "",
+    "formal_class": "",
+    "physical_ai": true,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party abstract describes a compact action expert and temporal memory reducing closed-loop compute, with onboard 10 Hz action chunks on Jetson Orin NX and zero-shot physical flight. Direct, high-value resource-constrained VLA serving result; promote P0 and attempt PDF.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "OpenPhone: Mobile Agentic Foundation Models",
     "venue": "arXiv 2026",
     "topic": "",
@@ -39144,6 +39213,29 @@
     "tracking_tier": "Canonical",
     "directions": [
       "Quantization"
+    ]
+  },
+  {
+    "title": "Quantize by Doing: Task-Guided Mixed-Precision Quantization of Vision-Language-Action Models",
+    "venue": "arXiv 2026",
+    "topic": "VLA quantization / mixed precision",
+    "arxiv": "2610.38661",
+    "doi": "",
+    "official_id": "arXiv:2610.38661",
+    "paper_url": "https://arxiv.org/abs/2610.38661",
+    "code_url": "",
+    "formal_class": "",
+    "physical_ai": true,
+    "decision": "PROMOTE_STRONG",
+    "why": "First-party abstract proposes task-guided mixed-precision PTQ across four VLA models, with roughly 4-bit weights and under 6-bit activations. Direct protected VLA memory/quantization contribution; promote P0 and attempt PDF, noting SIMPLER gain is small and real-robot transfer failed on pi0.5.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": true,
+    "tracking_tier": "P0 · Strong",
+    "directions": [
+      "Quantization",
+      "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI"
     ]
   },
   {
@@ -115045,6 +115137,28 @@
     ]
   },
   {
+    "title": "HeadNeRF: A Real-time NeRF-based Parametric Head Model",
+    "venue": "",
+    "topic": "Neural rendering acceleration",
+    "arxiv": "2112.05637",
+    "doi": "",
+    "official_id": "arXiv:2112.05637",
+    "paper_url": "https://arxiv.org/abs/2112.05637",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Official arXiv abstract reports reducing HeadNeRF frame rendering from 5 seconds to 25 milliseconds using a hybrid 2D neural-rendering strategy. Direct, quantitatively supported inference acceleration; author identity/group affiliation remains unverified.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization",
+      "Video / Image Generation"
+    ]
+  },
+  {
     "title": "Hexa-MoE: Efficient and Heterogeneous-aware Training for Mixture-of-Experts",
     "venue": "",
     "topic": "MoE systems/accelerators",
@@ -116260,6 +116374,27 @@
     "directions": [
       "Efficient Attention",
       "Distributed Training / Inference"
+    ]
+  },
+  {
+    "title": "UWC: Unit-wise Calibration Towards Rapid Network Compression",
+    "venue": "",
+    "topic": "Efficient model quantization",
+    "arxiv": "2201.06376",
+    "doi": "",
+    "official_id": "arXiv:2201.06376",
+    "paper_url": "https://arxiv.org/abs/2201.06376",
+    "code_url": "",
+    "formal_class": "CANONICAL_HIGH_VALUE",
+    "physical_ai": false,
+    "decision": "PROMOTE_STRONG",
+    "why": "Official arXiv abstract reports unit-wise post-training quantization and near-original accuracy at INT4/INT3. This is a direct compression/quantization contribution; author identity/group affiliation remains unverified.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "tracking_tier": "Canonical",
+    "directions": [
+      "Quantization"
     ]
   },
   {
