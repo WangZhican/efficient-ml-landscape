@@ -1,13 +1,68 @@
 # 04 · Quantization
 
-> **671 canonical papers** mapped here, plus a broader **669-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **685 canonical papers** mapped here, plus a broader **699-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
-## 🆕 Latest 30 Days · 669 tracked
+## 🆕 Latest 30 Days · 699 tracked
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
+| **P1 · Watch** | **L3G-World: Real-Time Infinite World Generation with Latent 3D Gaussian Memory** | arXiv 2026 | gen | [Link](https://arxiv.org/abs/2610.40614) | — |
+| **P2 · Relevant** | **Collaborative AI agents for autonomous experimental research with solid-state quantum spins** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.40589) | — |
+| **P2 · Relevant** | **Machine Learning-Based Detection of Mobile Money Scan Messages in Ghana: A Comparative Evaluation of Naive Bayes, Support Vector Machine, and Randon Forest Classifiers** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.40544) | — |
+| **P2 · Relevant** | **Fast and accurate neural triage decoding of ultra-high-rate quantum LDPC codes** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.40490) | — |
+| **P2 · Relevant** | **Accurate MRI-free PET Quantification and Reliability Assessment via CT-to-MRI Synthesis and Conformal Prediction** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.40478) | — |
+| **P0 · Strong** | **A Unified Hessian-Guided Framework for Post-Training Quantization** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2610.40345) | — |
+| **P0 · Strong** | **Rimuru: Unified Memory Management for Modern LLM Serving via Elastic Expert Offloading** | arXiv 2026 | llm_serving,moe,edge | [Link](https://arxiv.org/abs/2610.40305) | — |
+| **P0 · Strong** | **DolphinRouting: Cluster-Level Binary Routing for Disaggregated LLM Inference Serving** | arXiv 2026 | llm_serving,kv,quant | [Link](https://arxiv.org/abs/2610.40292) | — |
+| **P1 · Watch** | **Only Accepted Tokens Count: An Energy Accounting of Speculative Decoding Under Latency Targets** | arXiv 2026 | llm_serving,spec | [Link](https://arxiv.org/abs/2610.40287) | — |
+| **P2 · Relevant** | **Neighborhood Elites: Quality-Diversity Search for Uncertainty Quantification in Question Answering** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.40278) | — |
+| **P2 · Relevant** | **Confidence-Aware Speed-over-Ground Estimation from Doppler Spectra via Reconstruction-Based Representation Learning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.40253) | — |
+| **P2 · Relevant** | **Integer-Quantized Hierarchical Matrices with Adaptive Bit Allocation** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2610.40134) | — |
+| **P2 · Relevant** | **Does System Size Matter in Uncertainty Quantification for Machine Learning Interatomic Potentials?** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.40126) | — |
+| **P1 · Watch** | **SelfThinker: Self-Evolving Reasoning via Reliability-Verified Intrinsic Visual Thoughts** | arXiv 2026 | gen | [Link](https://arxiv.org/abs/2610.40115) | — |
+| **P2 · Relevant** | **Learning Safe Flow Matching Robot Policies from Binary Feasibility Oracles** | arXiv 2026 | quant,gen,physical | [Link](https://arxiv.org/abs/2610.40075) | — |
+| **P2 · Relevant** | **One Vector or Many? Clustered Optimal-Transport Steering under Quantization** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2610.40055) | — |
+| **P1 · Watch** | **How Far Are We From On-Device VLM Inference? A Measurement Study on Edge NPUs** | arXiv 2026 | llm_serving,attn,multimodal,edge | [Link](https://arxiv.org/abs/2610.40039) | — |
+| **P2 · Relevant** | **Cheap Retrieval and Observation Credit Assignment from One Quantity: The Value of Information** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.40030) | — |
+| **P1 · Watch** | **RoboSeed: Multidimensional Evaluation of Vision-Language-Action and World-Action Models: Capability, Resource Affordability, and Research Evidence** | arXiv 2026 | llm_serving,multimodal,physical,edge | [Link](https://arxiv.org/abs/2610.40026) | — |
+| **P1 · Watch** | **NORmal: Architecting 3D Ferroelectric NOR Flash as Main Memory -- From Co-Fabricated BEOL Arrays to 200B-Class Multi-Agent LLMs in a Smartphone** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.40000) | — |
+| **P0 · Strong** | **PhOSv1: Efficient Scaling of Model Sleeping on a Single Server for Autoscaling with GPU-Context Deduplication** | arXiv 2026 | llm_serving,kernel | [Link](https://arxiv.org/abs/2610.39999) | — |
+| **P1 · Watch** | **UniRA: Unified Representation Alignment and Auto-Encoding for Efficient Diffusion Generation** | arXiv 2026 | gen | [Link](https://arxiv.org/abs/2610.39948) | — |
+| **P0 · Strong** | **Low-Bit GDN Recurrent-State Quantization: Global Gradient-aware Allocation and Pure-Write Sliding Windows** | arXiv 2026 | kv,quant,attn | [Link](https://arxiv.org/abs/2610.39931) | — |
+| **P1 · Watch** | **Turing LLM Post-Training: Calibrated Distillation and Efficient Dynamic-MoE Execution** | arXiv 2026 | moe | [Link](https://arxiv.org/abs/2610.39876) | — |
+| **P1 · Watch** | **Attention, Dynamic Wave and Hybrid Sequence Mixers in Language Models** | arXiv 2026 | llm_serving,kv,attn | [Link](https://arxiv.org/abs/2610.39854) | — |
+| **P0 · Strong** | **KV Cache Quantization for Diffusion Language Models** | arXiv 2026 | kv,quant,gen | [Link](https://arxiv.org/abs/2610.39853) | — |
+| **P0 · Strong** | **DWISE: Denoising Workload-Informed Scheduling Engine** | arXiv 2026 | llm_serving,edge | [Link](https://arxiv.org/abs/2610.39852) | — |
+| **P2 · Relevant** | **Possibility-based Inference: A Deterministic Framework for Robust and Reliable Uncertainty Quantification in Decision-Making** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.39821) | — |
+| **P2 · Relevant** | **Quantum-Inspired Convolutional Networks for High-Resolution Pseudo-Label Generation from Multimodal Earth Observation Data** | arXiv 2026 | edge | [Link](https://arxiv.org/abs/2610.39773) | — |
+| **P0 · Strong** | **AB-Attention: Accurate Block Attention for Accelerating Video Diffusion Transformers** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2610.39663) | — |
+| **P2 · Relevant** | **Operator-Aware Posterior Sampling for Multivariate Weather Downscaling** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.39592) | — |
+| **P0 · Strong** | **Raincheck: Deferred Multimodal Prefill for Efficient Multi-Turn MLLM Inference** | arXiv 2026 | llm_serving,sparse,multimodal | [Link](https://arxiv.org/abs/2610.39562) | — |
+| **P2 · Relevant** | **TabCUQ: Context-Uncertainty Quantification for Tabular Foundation Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.39558) | — |
+| **P2 · Relevant** | **Distilling Large-Scale Machine Learning Interatomic Potentials to Predict Long-Timescale Electrolyte Transport Properties** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.39513) | — |
+| **P2 · Relevant** | **Regional Anchor Routing for Multi-Object Motion Transfer** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.39478) | — |
+| **P1 · Watch** | **Smooth Action Chunking Via Movement-Primitive Representations for Imitation Learning** | arXiv 2026 | llm_serving,multimodal,gen,physical | [Link](https://arxiv.org/abs/2610.39451) | — |
+| **P2 · Relevant** | **Verifiable LLM-Guided Focal SMT Solving for Quantified Arrays** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.39435) | — |
+| **P0 · Strong** | **LinQuant: Functional Invariances for Low-Precision Linear Recurrences** | arXiv 2026 | llm_serving,quant | [Link](https://arxiv.org/abs/2610.39418) | — |
+| **P1 · Watch** | **Decoding Geometry, Not Tokens: Efficient VLMs for Robot Affordance and Trajectory Prediction** | arXiv 2026 | llm_serving,multimodal | [Link](https://arxiv.org/abs/2610.39416) | — |
+| **P2 · Relevant** | **ACD-GS: Asymmetric Curvature-aware Densification for 3D Gaussian Splatting** | arXiv 2026 | quant,sparse | [Link](https://arxiv.org/abs/2610.39399) | — |
+| **P1 · Watch** | **Cord: Confidence-Anchored Order Residual Decoding for Masked Diffusion Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.39372) | — |
+| **P1 · Watch** | **Utility-WAM: Correcting Future-Induced Action Changes** | arXiv 2026 | WAM inference efficiency / video-generation gate | [Link](https://arxiv.org/abs/2610.39367) | — |
+| **P2 · Relevant** | **From Local Recovery to Unified Generation: Discovering Triple Set in Knowledge Graphs via Observation-Anchored Latent Diffusion** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.39114) | — |
+| **P1 · Watch** | **Efficient Agentic Audio-Visual Question Answering through Toolset Pruning and Modality Consolidation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.38960) | — |
+| **P2 · Relevant** | **Quantum-Inspired Pairwise Ranking Aggregation via Active LLM Feedback** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.38683) | — |
+| **P1 · Watch** | **Weaken to Strengthen: Weakening-Induced On-Policy Self-Distillation for Large Reasoning Models** | Fresh / preprint | quantization and sparsity/pruning; efficient reasoning-model training; self-distillation | [Link](https://arxiv.org/abs/2610.38681) | — |
+| **P0 · Strong** | **Quantize by Doing: Task-Guided Mixed-Precision Quantization of Vision-Language-Action Models** | arXiv 2026 | VLA quantization / mixed precision | [Link](https://arxiv.org/abs/2610.38661) | — |
+| **P1 · Watch** | **REVBRAIN: Real-time Probabilistic EEG Forecasting Using Residual Vector Quantization** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.38558) | — |
+| **P1 · Watch** | **Multi-Token Prediction Done Right** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.38331) | — |
+| **P2 · Relevant** | **The Role of Quantization in Loss Spikes** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.38277) | — |
+| **P0 · Strong** | **HERON: Real-Time Obstacle-Aware Reachability Maps for Mobile Manipulators** | arXiv 2026 | Embedded neural reachability / robot runtime | [Link](https://arxiv.org/abs/2610.38233) | — |
+| **P0 · Strong** | **Nemotron 3.5 Super and Lightning: Open, Efficient Mixture-of-Experts Hybrid Mamba-Transformer Models for Agentic AI** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.38095) | — |
+| **P2 · Relevant** | **Are Seismic Foundation Models More Than Glorified Feature Extractors?** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.38003) | — |
+| **P1 · Watch** | **Merge and Branch: Efficient Tree-Structured Supervised Fine-Tuning of LLMs for Recommendation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.37973) | — |
+| **P2 · Relevant** | **Sparse tensor networks for individual tree diameter estimation in mixed forests** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.37784) | — |
 | **P1 · Watch** | **Can Discrete Tokens Serve as Semantically Lossless Representations of Visual Signals?** | arXiv 2026 | multimodal_visual_quantization | [Link](https://arxiv.org/abs/2610.37662) | — |
 | **P0 · Strong** | **Metacognitive Decoding: Efficient Inference for Diffusion Language Agents** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.37642) | — |
 | **P0 · Strong** | **EnvSched: Environment-Aware Scheduling for Rollout-Efficient Agent Reinforcement Learning** | arXiv 2026 | llm_serving,agent | [Link](https://arxiv.org/abs/2610.37609) | — |
@@ -24,6 +79,7 @@
 | **P0 · Strong** | **Request-Adaptive Execution for Efficient Hybrid LLM Inference** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.37432) | — |
 | **P1 · Watch** | **Learning Quality-Controllable Robot Policies with Iterative Hindsight Relabeling** | arXiv 2026 | llm_serving,quant | [Link](https://arxiv.org/abs/2610.37393) | — |
 | **P0 · Strong** | **CoS-VQ: Coordinated Shared-Scale Vector Quantization for Large Language Models** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.37336) | — |
+| **P2 · Relevant** | **Predicate Neuron: Differentiable Quantization of Predicate Relations in Gradient-based Learning** | arXiv | quant | [Link](https://arxiv.org/abs/2610.37727) | — |
 | **P1 · Watch** | **Quantized Edge Inference of a Self-Supervised SAR-Optical Encoder on Commodity x86 Hardware** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.37056) | — |
 | **P0 · Strong** | **GPA-VGGT: Geometry-Preserving Acceleration of VGGT** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2610.37000) | — |
 | **P2 · Relevant** | **Online gas classification at the edge** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2610.36999) | — |
@@ -40,6 +96,7 @@
 | **P0 · Strong** | **Taming Multi-Dimensional Skew in Sparse Matrix Multiplication with Contention-Aware Scheduling [Technical Report]** | arXiv 2026 | llm_serving,sparse | [Link](https://arxiv.org/abs/2610.36822) | — |
 | **P1 · Watch** | **DFIP: Decision-Focused Inference Path for System One Models** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.36804) | — |
 | **P1 · Watch** | **TOPS: Reshaping Flow Source and Transport for Multi-Task Robot Manipulation** | arXiv 2026 | gen | [Link](https://arxiv.org/abs/2610.36694) | — |
+| **P2 · Relevant** | **Quantifying and Prioritizing Stealthy Source-Manipulation Threats Against Multi-Source Anomaly Detectors** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.36693) | — |
 | **P0 · Strong** | **Look Only When Needed: Certificate-Guided Visual Routing for Efficient Diffusion VLMs** | arXiv 2026 | sparse,multimodal | [Link](https://arxiv.org/abs/2610.36671) | — |
 | **P1 · Watch** | **Adapting Video Models for Robot Control via Motion-guided Asymmetric Prediction** | arXiv 2026 | physical | [Link](https://arxiv.org/abs/2610.36624) | — |
 | **P1 · Watch** | **God Does Not Play Dice: Enforcing Batch Invariance in Agentic Kernel Generation** | arXiv 2026 | llm_serving,kernel,agent | [Link](https://arxiv.org/abs/2610.36623) | — |
@@ -56,6 +113,7 @@
 | **P1 · Watch** | **ProCerDCL: Query-Efficient Black-Box Probabilistic Verification of Deep Learning Compiler Optimization** | arXiv 2026 | quant,kernel | [Link](https://arxiv.org/abs/2610.36499) | — |
 | **P2 · Relevant** | **CrowdCC: Jointly Benchmarking Corruption Robustness and Deployment Quantization in Crowd Counting** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.36340) | — |
 | **P1 · Watch** | **cuArms: GPU-Accelerated Conflict-Based Planning for Multi-Arm Manipulation** | arXiv 2026 | VLA/WAM/Physical AI serving;GPU kernel | [Link](https://arxiv.org/abs/2610.36250) | — |
+| **P2 · Relevant** | **BehaveRec: When Does Long-Term Behavioral History Help Sequential Recommendation? A Study with Session, History, and Community Signals** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.36239) | — |
 | **P2 · Relevant** | **Learning Human Sports Motion Feasibility via Quantile Regression on Tracking Data** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.36183) | — |
 | **P1 · Watch** | **Rollback: Experience Backtracking in World Models for Policy Improvement** | arXiv 2026 | VLA/WAM/Physical AI serving;distributed training | [Link](https://arxiv.org/abs/2610.36068) | — |
 | **P2 · Relevant** | **Information-Theoretic Secure Aggregation With Heterogeneous Client Quantization** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.35833) | — |
@@ -65,6 +123,7 @@
 | **P2 · Relevant** | **Benchmarking uncertainty quantification for engineering regression under graded distribution shift** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.35356) | — |
 | **P1 · Watch** | **InterQ-RL: Interaction-Aware Correction of Execution Mismatch in Quantized Agentic RL** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.35303) | — |
 | **P0 · Strong** | **Let the Gate Decide: Per-Lookup Precision for Quantized Conditional Memory in LLMs** | arXiv 2026 | quantization;LLM serving;KV/conditional memory | [Link](https://arxiv.org/abs/2610.35985) | — |
+| **P2 · Relevant** | **Quality over Quantity: Rethinking Data and Model Assumptions for Bengali Coreference Resolution** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.35114) | — |
 | **P2 · Relevant** | **Reason or Recite: Complementary Specialists with an LLM Judge for Traffic Anomaly Reasoning** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2610.34993) | — |
 | **P1 · Watch** | **End-to-End MXFP8 Reinforcement Learning on Blackwell: What Matching Buys, When It Pays Off, and How It Fails** | arXiv 2026 | kv,quant | [Link](https://arxiv.org/abs/2610.34915) | — |
 | **P1 · Watch** | **AIPC: Evidence-Guided Agent Workflows for PyTorch Project Deployment** | arXiv 2026 | llm_serving,quant,edge | [Link](https://arxiv.org/abs/2610.34890) | — |
@@ -81,7 +140,9 @@
 | **P2 · Relevant** | **Securing Edge & Physical AI: Post-Quantum IoT Blockchain for Mission-Critical Cyber-Physical Agents** | arXiv 2026 | edge-physical-ai-runtime-security | [Link](https://arxiv.org/abs/2610.33862) | — |
 | **P2 · Relevant** | **Real-Time Recurrent Qubit-State Discrimination on a Heterogeneous AI-Engine-FPGA Accelerator** | arXiv | edge | [Link](https://arxiv.org/abs/2610.33843) | — |
 | **P1 · Watch** | **Adapting DNNs to Embrace Voltage Scaling Induced Errors via Accumulation-Aware Quantization** | arXiv 2026 | Quantization / edge hardware | [Link](https://arxiv.org/abs/2610.33824) | — |
+| **P2 · Relevant** | **A quantum k-nearest neighbors implementation using magnitude-aware comparisons** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.33739) | — |
 | **P1 · Watch** | **RAQ-MLA: Role-Aware Quantization for Multi-Head Latent Attention Caches** | arXiv 2026 | KV cache / quantization | [Link](https://arxiv.org/abs/2610.33625) | — |
+| **P2 · Relevant** | **Propasafe-Hybrid: A Text-Based Hybrid Propaganda Detection Tool** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.33464) | — |
 | **P2 · Relevant** | **All-in-One: A Composable Attack on LLM Transformations** | arXiv 2026 | model-transformation-security | [Link](https://arxiv.org/abs/2610.33298) | — |
 | **P2 · Relevant** | **Beyond Discrete Tokens: Preserving Numerical Continuity in Medical Vision-Language Models** | arXiv 2026 | multimodal | [Link](https://arxiv.org/abs/2610.32948) | — |
 | **P2 · Relevant** | **Predictive Long-Horizon Progress Modeling with Action-Aware Quantification** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.32776) | — |
@@ -97,34 +158,50 @@
 | **P1 · Watch** | **Phronix: The Capability-Centric Learning Paradigm for Agents** | arXiv 2026 | Agent systems/performance engineering | [Link](https://arxiv.org/abs/2610.31789) | — |
 | **P0 · Strong** | **Low-Bit N-Gram Embeddings for Language Models** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2610.31646) | — |
 | **P0 · Strong** | **BeNice! Closing Looping's Inference-Memory Gap via KV-Sharing** | arXiv 2026 | llm_serving,kv,quant | [Link](https://arxiv.org/abs/2610.31633) | — |
+| **P2 · Relevant** | **Structure-preserving reduced-order models of thin panels in supersonic and hypersonic flow** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.31504) | — |
 | **P0 · Strong** | **Evaluating the Applicability of LLM Inference Optimizations on Apple Silicon** | arXiv 2026 | llm_serving,spec,quant,sparse,kernel | [Link](https://arxiv.org/abs/2610.31479) | — |
 | **P0 · Strong** | **SQuAT: Spherical Lattice Vector Quantization-Aware Training** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2610.31412) | — |
+| **P2 · Relevant** | **Graph-Recurrent Learning of Emergent Collective Dynamics** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.31350) | — |
 | **P0 · Strong** | **Extreme Compression of Per-Layer Embeddings via Cross-Layer Latent Vector Quantization** | arXiv 2026 | kv,quant | [Link](https://arxiv.org/abs/2610.31309) | — |
 | **P0 · Strong** | **Different Tasks, Different Timesteps: Temporal Task-Aware Quantization for Diffusion Language Models** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2610.31198) | — |
 | **P0 · Strong** | **ProQuant: Preserving Expert Quality over Quantity in Ultra-Low-Bit Quantization of Mixture-of-Experts Models** | arXiv 2026 | quant,sparse,moe | [Link](https://arxiv.org/abs/2610.30779) | — |
+| **P2 · Relevant** | **AIRO: A Streaming-Based Machine Learning Framework for Threat Detection and Security in Industrial Internet of Things** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.30713) | — |
+| **P2 · Relevant** | **An Agent Architecture with Tools and Memory for Selective Correction of Wrist PPG Heart Rate Estimates** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.30688) | — |
+| **P2 · Relevant** | **CMAR-search: Commonsense and Memory Augmented Reasoning for Object Search in Dynamic Interactive Environments** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.30606) | — |
 | **P0 · Strong** | **FIGFLEX: A Mixed-Precision FP-INT GEMM Accelerator Co-Designed with Low-Bit LLM Quantization** | arXiv 2026 | quantization,hardware_accelerator | [Link](https://arxiv.org/abs/2610.30480) | — |
 | **P2 · Relevant** | **Spike-Aware Gradient-Based Mixed-Precision Quantization of Spiking Neural Networks for Vision Applications** | arXiv 2026 | adjacent_efficiency_or_physical_ai | [Link](https://arxiv.org/abs/2610.30339) | — |
 | **P2 · Relevant** | **GoiBERT: Compact Vietnamese Language Models via Two-Stage Knowledge Distillation** | arXiv 2026 | quant,edge | [Link](https://arxiv.org/abs/2610.30067) | — |
 | **P1 · Watch** | **ClunoGS: Compact Language 3D Gaussian Splatting via Unified Optimization** | arXiv 2026 | quant,sparse,gen | [Link](https://arxiv.org/abs/2610.30013) | — |
 | **P1 · Watch** | **Training-free Acceleration for Blind Compressed Image Restoration via Activation-Calibrated Singular Value Decomposition** | arXiv 2026 | gen,quant,edge | [Link](https://arxiv.org/abs/2610.29959) | — |
 | **P2 · Relevant** | **Tractable Inference with Kolmogorov-Arnold Networks** | arXiv 2026 | edge | [Link](https://arxiv.org/abs/2610.29909) | — |
+| **P2 · Relevant** | **Metamodel-Guided LLM Decoding for Consistent DSL Generation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.29749) | — |
 | **P2 · Relevant** | **Bio-Inspired Auditory Processing: Coupling Parallel Resonate-and-Fire Dynamics with Ternary Recurrent Networks for Speech Recognition** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2610.29720) | — |
 | **P1 · Watch** | **FlowVLA: Learning Flow-Aware Physical Completion for Quantitative Robotic Pouring** | arXiv 2026 | multimodal | [Link](https://arxiv.org/abs/2610.29692) | — |
 | **P1 · Watch** | **Efficient Generative Image Compression with Quantized Latents Refinement** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.29691) | — |
 | **P2 · Relevant** | **Effects of Model Scale and Quantization on Social Bias and Abstention in Question Answering** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2610.29657) | — |
 | **P2 · Relevant** | **TernScope: Model-Hardware Co-Design for Efficient Ternary Endoscopic Segmentation** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2610.29617) | — |
 | **P0 · Strong** | **PACE: Periodic and Channel-Aligned Encoding of Four-Bit Recurrent States** | arXiv 2026 | llm_serving,quant | [Link](https://arxiv.org/abs/2610.29545) | — |
+| **P2 · Relevant** | **Residual-Based Causal Discovery via Pretrained In-Context Quantile Regression** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.29530) | — |
 | **P0 · Strong** | **Deciding Scale Placement in MXFP4 Dot Products with Integer Arithmetic** | arXiv 2026 | quant,kernel | [Link](https://arxiv.org/abs/2610.29445) | — |
 | **P1 · Watch** | **LiveAct: Towards Real-Time Multi-Agent World Models with Heterogeneous Action Interfaces** | arXiv 2026 | llm_serving,quant,physical,edge | [Link](https://arxiv.org/abs/2610.29408) | — |
 | **P1 · Watch** | **Right On Q: Recovering Reasoning under Quantization via Self-Generated Trajectories** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2610.29378) | — |
 | **P1 · Watch** | **Double KV Cache Optimization on Apple Silicon: Block-FP4, Radial Quantization, and Fused Metal Kernels** | arXiv 2026 | KV cache / edge inference | [Link](https://arxiv.org/abs/2610.33076) | — |
+| **P2 · Relevant** | **BrainCodes: A Lightweight EEG Foundation Model over Discrete Neural Codes** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.29320) | — |
 | **P1 · Watch** | **Compressing Onboard Language Models for Space Robots under a Behavioral-Fidelity Requirement** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2610.29302) | — |
 | **P1 · Watch** | **AGQ: Action-Guided Ultra-Low-Bit Quantization for Vision-Language-Action Models** | arXiv 2026 | Physical AI quantization | [Link](https://arxiv.org/abs/2610.33074) | — |
 | **P2 · Relevant** | **Training in Deployment: Human-in-the-loop Online Post-Training for Robot Manipulation** | arXiv 2026 | quant,physical | [Link](https://arxiv.org/abs/2610.29264) | — |
+| **P2 · Relevant** | **Turning Quantum Compiler Configuration Selection Upside Down: A Top-Down Paradigm** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.29170) | — |
+| **P2 · Relevant** | **Mitigating Reward Hacking in Realistic Scenarios Through Representation Engineering** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.29129) | — |
+| **P2 · Relevant** | **Two for One: Privileged Learning for Resource-Constrained Screening** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.29126) | — |
+| **P2 · Relevant** | **Unit-Aware Differentially Private Quantum Machine Learning for Clinical and Wearable Health Data** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.28968) | — |
+| **P2 · Relevant** | **Can Quantum Layers offer Performance and Security Advantages in Vision-Language Models?** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.28964) | — |
 | **P1 · Watch** | **Transformers as Generic Deep Neural Networks: Exact Compilation, the Cost of Removing Activation-Activation Products, and Multi-Agent Attention Clustering** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2610.28958) | — |
 | **P1 · Watch** | **SLoSa: Small, Low-Power, and Safe Foundation Models for Robotic Task Planning** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2610.28955) | — |
 | **P0 · Strong** | **Is 2:4 Sparsity Still Worth It? Semi-Structured Sparsity versus Quantization in LLM Inference** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.28947) | — |
 | **P2 · Relevant** | **Auditing Conformal Prediction for Language Models Under Inference-Time Model Shift** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.28937) | — |
+| **P2 · Relevant** | **The Data Differentiator Framework (DDF): Quantifying Marginal Data Value with Information-Theoretic and Game-Theoretic Measures in an Agentic Evaluation Pipeline (SDSAE)** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.28933) | — |
+| **P2 · Relevant** | **Engineering Low-Latency, High-Throughput Quantum Decoders on NVIDIA GPUs** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.28867) | — |
+| **P2 · Relevant** | **A Mechanistic Study of Automated Failure Attribution in LLM-based Agentic Systems** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.28811) | — |
 | **P2 · Relevant** | **Extreme Low-State Quantized Transformer for Electricity-Load Forecasting** | arXiv 2026 | quantization | [Link](https://arxiv.org/abs/2610.28784) | — |
 | **P1 · Watch** | **Industrial ReMEmbR: Scaling Spatiotemporal Memory to Robot Fleets** | arXiv 2026 | multimodal | [Link](https://arxiv.org/abs/2610.28624) | — |
 | **P1 · Watch** | **Weight Placement Is Not Enough: Synchronization in Multi-Node CPU Decoding of Ternary LLMs** | arXiv 2026 | llm_serving,quant | [Link](https://arxiv.org/abs/2610.28620) | — |
@@ -137,6 +214,7 @@
 | **P1 · Watch** | **OverSeer: Multi-Agent World Models Beyond What Agents See** | arXiv 2026 | physical | [Link](https://arxiv.org/abs/2610.28554) | — |
 | **P2 · Relevant** | **Binary Discrete Diffusion: Candidate-Set Diffusion for Logic and Planning Tasks** | arXiv 2026 | llm_serving,quant | [Link](https://arxiv.org/abs/2610.28543) | — |
 | **P1 · Watch** | **Beyond 4 bits: Data-Centric Post-training Quantization and Recovery** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2610.28537) | — |
+| **P2 · Relevant** | **Qwen-Audio-3.1-ASR Technical Report** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.28711) | — |
 | **P1 · Watch** | **Latent Bridge: From Video Latents to 3D Geometry via Feature Alignment** | arXiv 2026 | gen | [Link](https://arxiv.org/abs/2610.28521) | — |
 | **P1 · Watch** | **GazeLens for Efficient Egocentric Video Question Answering with Simple Gaze-Driven Adaptive Token Reduction** | arXiv 2026 | sparse,multimodal | [Link](https://arxiv.org/abs/2610.28502) | — |
 | **P0 · Strong** | **BitMTP: When Multi-Token Prediction Meets Low-Bit Large Language Models** | arXiv 2026 | llm_serving,quant | [Link](https://arxiv.org/abs/2610.28500) | — |
@@ -149,29 +227,37 @@
 | **P1 · Watch** | **Adaptive Replay Refinement: Allocating Test-Time Compute Between Revision and Resampling** | arXiv 2026 | agent | [Link](https://arxiv.org/abs/2610.28294) | — |
 | **P1 · Watch** | **Local Inference of LLMs on Long Contexts: A Data Systems Perspective** | arXiv 2026 | llm_serving,kv,quant | [Link](https://arxiv.org/abs/2610.28223) | — |
 | **P1 · Watch** | **Offline Makes Online Better: Calibrated Cache Compression for Video Generation** | arXiv 2026 | kv,sparse,gen | [Link](https://arxiv.org/abs/2610.28192) | — |
+| **P2 · Relevant** | **Temporal Evidence-Parameter Co-Alignment for LLM Reasoning over Temporal Knowledge Graphs** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.28176) | — |
 | **P0 · Strong** | **De-Diffusing WAMs: Action-Sufficient Direct Prediction for Robot Control** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.28122) | — |
 | **P0 · Strong** | **KPage: Cross-Block Page Compaction for Hardware-Efficient Sparse Attention** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2610.28096) | — |
 | **P1 · Watch** | **MoDDiT: Simple Token Routing in Diffusion Transformers** | arXiv 2026 | llm_serving,sparse,gen,physical,edge | [Link](https://arxiv.org/abs/2610.28086) | — |
 | **P0 · Strong** | **PACT-VLA: Speculative Action-Chunk Verification with Pre-Commit Observations** | arXiv 2026 | multimodal,physical | [Link](https://arxiv.org/abs/2610.28019) | — |
+| **P2 · Relevant** | **Dancing Diffusion: Learning Continuous Programs for Image Generation and Editing** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.28003) | — |
 | **P1 · Watch** | **Matrix-Game 4.0: Harnessing Video Models for Real-Time Playable Game Worlds** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.27999) | — |
 | **P2 · Relevant** | **Quantum-JEPA: Quantum Born Priors for Latent-Action JEPA World Models** | arXiv 2026 | quant,physical | [Link](https://arxiv.org/abs/2610.27921) | — |
 | **P1 · Watch** | **ACE-Compression: An Ability-Centric Evaluation of Compressed Large Language Models** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2610.27913) | — |
+| **P2 · Relevant** | **SLM-SS: Token-Based Speech Separation with Speech Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.27785) | — |
 | **P0 · Strong** | **E8-QAT: Efficient 2-Bit Quantization-Aware Training with Implicit Lattice Codebooks** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.27699) | — |
 | **P1 · Watch** | **A Radiation-Hardened, Fault-Aware Quantized Neural Network That Self-Heals** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2610.27621) | — |
+| **P2 · Relevant** | **Timing-Aware and Interpretable Self-Attention for Event-Based Wearable Task Transition Detection** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.27549) | — |
 | **P1 · Watch** | **When PTQ Calibration Helps or Hurts: Dose-Driven Collapse and Validation-Gated Abstention in Quantized Text Embedders** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2610.27397) | — |
 | **P1 · Watch** | **PerQ: Inverse Generative Modeling for Neural Image Compression via Quantization Error Compensation** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2610.27374) | — |
 | **P1 · Watch** | **LVMem: Image-Augmented Memory for Long-Horizon Question Answering** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2610.27104) | — |
 | **P1 · Watch** | **Where is Physical RSI capability from? An Observational Scaling Law of LLM-as-policy** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.26848) | — |
 | **P2 · Relevant** | **Discrete Neural Interlingua for Ontology-Agnostic EHR Modeling** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2610.27047) | — |
+| **P2 · Relevant** | **Supervised Learning with Quantum Hamiltonian Embeddings** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.26833) | — |
 | **P2 · Relevant** | **Channel-Level Mask Guidance for Slimmable Image Compression** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2610.27037) | — |
 | **P2 · Relevant** | **PVBench: Quantifying Physical Plausibility in Video Generation with Object-Level Physical Measurements** | arXiv 2026 | video_generation_evaluation | [Link](https://arxiv.org/abs/2610.26711) | — |
+| **P2 · Relevant** | **CaptionFuse: Training-Free Composed Product Retrieval Via VLM Intent Captioning and Weighted Embedding Fusion** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.26661) | — |
 | **P1 · Watch** | **A 105 MS/s 4.18 nJ/inference 0.765 $\text{mm}^\text{2}$ Mixed-Signal Streaming ML Engine for Wireless Baseband in 12LP+ FinFET** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2610.26552) | — |
 | **P0 · Strong** | **UnO-NeSy: Optimizing Neuro-Symbolic Computing with Unified FeFET Based In-Memory System** | arXiv 2026 | quant,edge | [Link](https://arxiv.org/abs/2610.26530) | — |
 | **P2 · Relevant** | **On Learning Expand-and-Sparsify Representations** | arXiv 2026 | quant,sparse | [Link](https://arxiv.org/abs/2610.26470) | — |
 | **P2 · Relevant** | **A Generic On-Board AI Processing Chain for Earth Observation: From Application Development to Embedded Deployment and Mission-Level Orchestration** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2610.26340) | — |
 | **P0 · Strong** | **Answering While You Type: Optimizing Time-to-Answer with Streaming Generation** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.26296) | — |
+| **P2 · Relevant** | **Physics-Driven Framework for QoS-Constrained Satellite System with Non-Linear PA Distortion** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.26153) | — |
 | **P2 · Relevant** | **Don't Rewrite the SID Map: Topology Preservation for Generative Retrieval in Dynamic E-Commerce Search** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.26105) | — |
 | **P0 · Strong** | **MX-Like Tensor Core for LLM Inference with NPU Integration via Hardware-Software Co-Design Exploration** | arXiv 2026 | quant,edge | [Link](https://arxiv.org/abs/2610.26083) | — |
+| **P2 · Relevant** | **Compilation Is Not Correctness: Scan-by-Scan Evaluation of LLM-Generated PLC Programs** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.28675) | — |
 | **P2 · Relevant** | **ORBIT: Autoregressive Time Series Generation via Next Frequency-Band Prediction** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2610.27000) | — |
 | **P1 · Watch** | **Balance-Aware Pivot Selection for Parallel Diffusion LLM Decoding** | arXiv 2026 | diffusion language model parallel decoding / inference acceleration | [Link](https://arxiv.org/abs/2610.26040) | — |
 | **P1 · Watch** | **PaceVLA: Adaptive Temporal Action Quantization in Vision-Language-Action Models** | arXiv 2026 | Physical AI / adaptive action execution | [Link](https://arxiv.org/abs/2610.25961) | — |
@@ -179,24 +265,45 @@
 | **P1 · Watch** | **Vision-Language-Delta-Action: Learning Compact Deltas as Actionable Transition Interfaces for Robotic Manipulation** | arXiv 2026 | Physical AI / compact WAM representation | [Link](https://arxiv.org/abs/2610.25874) | — |
 | **P2 · Relevant** | **Dynamic Dual-Feedback Conformal Inference for Time Series Forecasting** | arXiv 2026 | other | [Link](https://arxiv.org/abs/2610.26987) | — |
 | **P0 · Strong** | **LIRQuant: An Efficient Locally Isolated Rotation Quantization Method for Large Language Models** | arXiv 2026 | LLM quantization / fused inference kernels | [Link](https://arxiv.org/abs/2610.25675) | — |
+| **P2 · Relevant** | **Negation without Confusion: Decomposing Bias and Recomposing Style in Text Embeddings for Negation-aware Image Generation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.25645) | — |
+| **P2 · Relevant** | **Where Do the Gaussians Go? Foreground Attraction for Camera-Based Weakly Supervised 3D Occupancy** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.25631) | — |
 | **P2 · Relevant** | **Selecting and Composing Agent Design Patterns: Industrial Case Evidence and Controlled Reference-System Experiments** | arXiv 2026 | agent systems design | [Link](https://arxiv.org/abs/2610.25629) | — |
 | **P2 · Relevant** | **Vector-Quantized World Model: Latent Feedback Motion Planning for Robot Manipulation** | arXiv 2026 | Physical AI / latent world models | [Link](https://arxiv.org/abs/2610.25600) | — |
+| **P2 · Relevant** | **DiffGround: Semantic Difference-Guided Zero-Shot Video Question Grounding** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.25570) | — |
+| **P2 · Relevant** | **Normalizing Flow for Neural-Enhanced Track-Before-Detect** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.25044) | — |
 | **P0 · Strong** | **Emulating DGEMM and ZGEMM with INT8 Matrix Engines on Intel Arc GPUs: Ozaki Scheme II on the Xe2 Architecture** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.26945) | — |
 | **P2 · Relevant** | **Query-Dependent Reading for Quantized Inner-Product Estimation: A Minimax Separation** | arXiv 2026 | Quantized inner-product theory | [Link](https://arxiv.org/abs/2610.24890) | — |
 | **P1 · Watch** | **Do We Need the Largest LLMs for Every Clinical Decision?** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2610.26937) | — |
 | **P0 · Strong** | **Accelerating CPU Speculative Decoding via Unified Graph Execution and Transactional KV Isolation** | arXiv 2026 | speculative decoding; CPU LLM serving | [Link](https://arxiv.org/abs/2610.28671) | — |
 | **P1 · Watch** | **Muse Glimmer 30B: An On-Device Agentic Model** | arXiv 2026 | Edge LLM / agent deployment | [Link](https://arxiv.org/abs/2610.24628) | — |
+| **P2 · Relevant** | **A Multi-Step Inertial ADMM Algorithm for Federated Learning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.24536) | — |
+| **P2 · Relevant** | **Reconstruction of Unobserved Core Electron Density in Tokamak Plasmas with a Neural Operator Transport Surrogate and Uncertainty Quantification** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.24525) | — |
+| **P0 · Strong** | **Prototype-Guided Optimization of Quantum Data Embeddings with Linear Cost** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.24403) | — |
+| **P2 · Relevant** | **RATION: Towards Quantitative Risk-Based Access Control for AI Agents** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.24311) | — |
+| **P2 · Relevant** | **ULIFLOW: Unified Latent Human-Object Interaction Flow** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.24286) | — |
+| **P2 · Relevant** | **Hidden Trajectories Don't Lie: Correcting Corruption Drift for Test-Time Adaptation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.24220) | — |
+| **P2 · Relevant** | **Prefix-Tuning for Arbitrary Output Sequences on Pretrained Transformers** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.24123) | — |
 | **P2 · Relevant** | **BLANC: Adaptive Temporal Scheduling for Sign Language Production** | arXiv 2026 | adjacent_efficient_ml | [Link](https://arxiv.org/abs/2610.24109) | — |
+| **P2 · Relevant** | **Quality-of-Transmission Estimation in Quantum Networks: Compute, Simulate, or Learn?** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.23827) | — |
 | **P0 · Strong** | **FuTransformer: FP8 prefill and INT4 decode for Llama-style inference on Hopper** | arXiv | quant | [Link](https://arxiv.org/abs/2610.23796) | — |
+| **P2 · Relevant** | **TriRouter: Sparse-to-Dense Electrode-Space Routing for Robust EEG Motor Imagery Decoding** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.23665) | — |
 | **P2 · Relevant** | **Foundation-Model-Driven 3D Scene Graphs for Mobile Manipulation** | arXiv 2026 | robot scene representation | [Link](https://arxiv.org/abs/2610.23622) | — |
 | **P2 · Relevant** | **RL-Guided Temporal Localization for Dual-Channel Retrieval in Long-Horizon Agent Memory** | arXiv 2026 | agent retrieval | [Link](https://arxiv.org/abs/2610.23598) | — |
+| **P2 · Relevant** | **TriINR: Unsupervised Atmospheric Turbulence Mitigation with Triple Implicit Neural Representations** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.23454) | — |
+| **P2 · Relevant** | **ConQUESTA: Topology-Aware Post-Training Structural Pruning of Quantum Neural Networks** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.23415) | — |
+| **P2 · Relevant** | **Learning angles for quantum approximate optimization** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.23296) | — |
 | **P1 · Watch** | **SpikeQ: Spike-Guided Post-Training Quantization for Spiking Neural Networks** | arXiv | quant | [Link](https://arxiv.org/abs/2610.23046) | — |
+| **P2 · Relevant** | **Measurement-Adaptive Light-Cone Transform for Robust Non-Line-of-Sight Imaging** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.22847) | — |
 | **P1 · Watch** | **Reusing Calibration Gains across Model Representations** | arXiv 2026 | quantization calibration reuse | [Link](https://arxiv.org/abs/2610.22771) | — |
+| **P2 · Relevant** | **Improving OCR Accuracy Through Multi-Classifier Verification of Visually Similar Characters** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.22726) | — |
+| **P2 · Relevant** | **CoLU: Confidence-Weighted Layerwise Unlearning for Large Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.22721) | — |
 | **P1 · Watch** | **Noise-shaped Sampling and Annealing for Scalable On-the-edge Training of Binary and Ternary AI Models** | arXiv 2026 | Low-bit binary/ternary model training at the edge | [Link](https://arxiv.org/abs/2610.22621) | — |
+| **P2 · Relevant** | **alkhder at AlexandriaX-2026: Context-Aware English-to-Dialectal Arabic Dialogue Translation with QLoRA-Fine-Tuned NileChat-3B** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.22525) | — |
 | **P2 · Relevant** | **Scaling Online Exploration for Robot Agents** | arXiv 2026 | robot agent platform | [Link](https://arxiv.org/abs/2610.22496) | — |
 | **P0 · Strong** | **Which Tokens to Merge? Diffusion Dynamics for Efficient Image Generation** | arXiv 2026 | llm_serving,sparse,gen | [Link](https://arxiv.org/abs/2610.22370) | — |
 | **P0 · Strong** | **SoftCache: Adaptive Step Size Caching for Diffusion Transformers** | arXiv 2026 | quant,edge | [Link](https://arxiv.org/abs/2610.22369) | — |
 | **P1 · Watch** | **Value as Memory: Online Value-Guided Post-training for General Robot Policies** | arXiv 2026 | gen | [Link](https://arxiv.org/abs/2610.22368) | — |
+| **P2 · Relevant** | **Discovering state-of-the-art quantum circuits with large language models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.22367) | — |
 | **P1 · Watch** | **CoDA: Co-Evolution of Data Engines and Action Policies** | arXiv 2026 | llm_serving,multimodal,edge | [Link](https://arxiv.org/abs/2610.22362) | — |
 | **P0 · Strong** | **Speculative Forcing for Efficient Autoregressive Video Generation** | arXiv 2026 | gen | [Link](https://arxiv.org/abs/2610.22347) | — |
 | **P1 · Watch** | **Spark-0: Scaling Spatially Aligned Tactile Pretraining for Robot Dexterous Manipulation** | arXiv 2026 | gen,edge | [Link](https://arxiv.org/abs/2610.22342) | — |
@@ -217,6 +324,7 @@
 | **P1 · Watch** | **FALCON: FPGA-Accelerated Latency-Certifiable Occupancy Networks for Camera-Based Autonomous Driving** | arXiv 2026 | llm_serving,gen | [Link](https://arxiv.org/abs/2610.22143) | — |
 | **P1 · Watch** | **Intern-Decision: Efficient Multimodal Decision Making with Autoregressive Masked Language Modeling** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.22131) | — |
 | **P0 · Strong** | **DropKV: Decoupling Residual-Output Perturbation for Near-Optimal KV-Cache Eviction** | arXiv 2026 | llm_serving,kv,kernel,gen | [Link](https://arxiv.org/abs/2610.22130) | — |
+| **P1 · Watch** | **Unfragmenting Nawatl NMT: Single-Variant Specialization for Masewalkopa** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.22110) | — |
 | **P1 · Watch** | **TIPS: A Tiny Inference-time Policy for Scaling in Diffusion Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.22099) | — |
 | **P1 · Watch** | **Memory as Weights: Internalizing Long-Term History for Streaming Videos** | arXiv 2026 | llm_serving,multimodal,physical,edge | [Link](https://arxiv.org/abs/2610.22070) | — |
 | **P1 · Watch** | **ABNAT: Attention-Based Noise-Aware Training for Robust Transformers on Analog Compute-in-Memory Systems** | arXiv 2026 | edge | [Link](https://arxiv.org/abs/2610.22065) | — |
@@ -236,6 +344,8 @@
 | **P0 · Strong** | **Exact Makespan Bounds and the GPipe Homogeneity Bias for Heterogeneous LLM Inference Pipelines** | arXiv 2026 | llm_serving,gen,edge | [Link](https://arxiv.org/abs/2610.21815) | — |
 | **P0 · Strong** | **N-Gram Memories at Two Bits: Quantizing Lookup Tables in Large Language Models** | arXiv 2026 | gen,edge | [Link](https://arxiv.org/abs/2610.21810) | — |
 | **P0 · Strong** | **RoleQ: Role-Aligned Scales for Converting Language Models to Ternary** | arXiv 2026 | quant,edge | [Link](https://arxiv.org/abs/2610.21808) | — |
+| **P2 · Relevant** | **CF-NODE: Counterfactual Spatial Node Intervention for Test-Time Adaptation Under Domain Shift, Evaluated Across Five Diabetic Retinopathy Datasets** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.22437) | — |
+| **P2 · Relevant** | **Generative adversarial networks with Monte Carlo dropout uncertainty quantification for structural health monitoring: Fibre Bragg grating data augmentation comparison in Hawk T1A aircraft** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.22436) | — |
 | **P1 · Watch** | **ShiftQAT: Quantization-Aware Training for the Numerical Contract of a Fixed-Function Edge CNN Accelerator** | arXiv 2026 | quant,edge | [Link](https://arxiv.org/abs/2610.21695) | — |
 | **P2 · Relevant** | **Diffusion Language Models as Open Quantum Systems** | arXiv 2026 | gen | [Link](https://arxiv.org/abs/2610.21672) | — |
 | **P1 · Watch** | **SCMerge: Spatial-Consistency-Aware Token Pair Merging for Efficient Semantic Segmentation** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2610.21642) | — |
@@ -243,9 +353,11 @@
 | **P1 · Watch** | **SPEAR: Selective Preference Elicitation with Adaptive Rewards for VLM-Guided Robotic Manipulation** | arXiv 2026 | multimodal,physical | [Link](https://arxiv.org/abs/2610.21621) | — |
 | **P2 · Relevant** | **Qwen-Audio-Jev: A Unified Interface for Audio Decisions** | arXiv 2026 | llm_serving,quant,gen | [Link](https://arxiv.org/abs/2610.21614) | — |
 | **P0 · Strong** | **LoopAhead: Speculating Ahead for Faster Decoding in Looped Language Models** | arXiv 2026 | llm_serving,spec | [Link](https://arxiv.org/abs/2610.21594) | — |
+| **P2 · Relevant** | **A Quantum Machine Learning Approach to Content-Based Media Recommendation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.21562) | — |
 | **P1 · Watch** | **FilterFusion: Prior-Guided Adaptive Filter Fusion for Efficient Video Denoising** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.21505) | — |
 | **P0 · Strong** | **When the KV Cache Is Slower Than the GPU: Scaling Remote KV Tiers for Context-Parallel Prefill** | arXiv 2026 | llm_serving,kv,moe | [Link](https://arxiv.org/abs/2610.21500) | — |
 | **P1 · Watch** | **FlashAttention with Statistics: Low-Overhead Attention Features for Compact Hallucination Detectors** | arXiv 2026 | llm_serving,attn | [Link](https://arxiv.org/abs/2610.21483) | — |
+| **P2 · Relevant** | **Cross-Prompt Inference Mitigates Rare-Class Suppression in Imbalanced VLM Finetuning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.21470) | — |
 | **P0 · Strong** | **Trajectory-Level Speculation with Semantic Verification for Tool-Using Agents** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.21463) | — |
 | **P0 · Strong** | **HyCo: Hybrid Drafting for Cost-Efficient Mobile-Cloud Speculative Decoding** | arXiv 2026 | spec,quant,gen,edge | [Link](https://arxiv.org/abs/2610.21436) | — |
 | **P1 · Watch** | **Policy-Aligned Predictive Verification for Adaptive VLA Action-Chunk Execution** | arXiv 2026 | multimodal,gen,physical | [Link](https://arxiv.org/abs/2610.21434) | — |
@@ -256,10 +368,12 @@
 | **P1 · Watch** | **DPA-MoE: A Runtime Precision Control Framework for MoE Inference** | arXiv 2026 | llm_serving,moe | [Link](https://arxiv.org/abs/2610.21378) | — |
 | **P1 · Watch** | **LTM: Latent Transition Based In-Context Memory for Vision-Language-Action Models** | arXiv 2026 | multimodal,physical | [Link](https://arxiv.org/abs/2610.21362) | — |
 | **P0 · Strong** | **CQDC-Warp: GPU-Accelerated Differentiable Quasi-Dynamic Simulation for Contact-Rich Manipulation** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.21349) | — |
+| **P2 · Relevant** | **Online Quantile Omniprediction for Proper Losses** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.21342) | — |
 | **P0 · Strong** | **Does On-Policy Distillation Need to Complete Every Rollout?** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.21337) | — |
 | **P0 · Strong** | **CertEx: Exact Visual Retrieval at Scale by Certified Exclusion** | arXiv 2026 | llm_serving,quant | [Link](https://arxiv.org/abs/2610.21325) | — |
 | **P1 · Watch** | **PSA: A Pruning-Friendly Sparse-Aware Accelerator for Efficient Sparse Convolution in SNNs** | arXiv 2026 | sparse,gen,edge | [Link](https://arxiv.org/abs/2610.21313) | — |
 | **P1 · Watch** | **AdaBool: Sparse Boolean Matrix Processing with Adaptive Data Representation** | arXiv 2026 | llm_serving,sparse,edge | [Link](https://arxiv.org/abs/2610.21264) | — |
+| **P2 · Relevant** | **Behavioral Compositionality of Sparse Autoencoder Representations** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.21261) | — |
 | **P0 · Strong** | **Fractional Power-of-Two Quantization for Efficient and Effective Multiplier-Free LLM Inference** | arXiv 2026 | llm_serving,quant | [Link](https://arxiv.org/abs/2610.21257) | — |
 | **P1 · Watch** | **System1-Arena: Which Decisions Can Be Left to System 1?** | arXiv 2026 | llm_serving,agent | [Link](https://arxiv.org/abs/2610.21244) | — |
 | **P1 · Watch** | **RecSoup: Efficient Model Merging Approach for Controllable Multi-Objective Recommendation** | arXiv 2026 | llm_serving,sparse,gen | [Link](https://arxiv.org/abs/2610.21220) | — |
@@ -271,18 +385,31 @@
 | **P0 · Strong** | **Sparse Attention for Video Generation Acceleration via Growing Sparsity and Reduced Search** | arXiv 2026 | sparse,attn,gen | [Link](https://arxiv.org/abs/2610.21129) | — |
 | **P1 · Watch** | **Compression Does Not End at Selection: Post-Selection Positional Geometry for Sparse KV Caches** | arXiv 2026 | llm_serving,kv,gen | [Link](https://arxiv.org/abs/2610.21126) | — |
 | **P1 · Watch** | **ResStreamGS: Residual-Sensitive Dual-Stream Gaussian Splatting for Mobile Volumetric Video Streaming** | arXiv 2026 | gen | [Link](https://arxiv.org/abs/2610.21121) | — |
+| **P2 · Relevant** | **Orientation-Aware Deep Learning Framework for RSSI-Based Indoor Localization in RIS-Aided mmWave Systems** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.21043) | — |
+| **P2 · Relevant** | **SNOAR: Self-training with Noise filtering, Observation adding, and Remixing for Speech Denoising Without Clean References** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20863) | — |
 | **P2 · Relevant** | **Task-Phase-Conditioned Expert Routing Is Not a Reliable Proxy for Quantization Sensitivity in MoE FFN Tensors** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20826) | — |
+| **P2 · Relevant** | **Quantile-Guided Diffusion for Probabilistic Time-Series Forecasting** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20739) | — |
 | **P1 · Watch** | **Beyond Expert Rankings: Contrast Calibration for Mixed-Precision MoE Quantization** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20353) | — |
 | **P2 · Relevant** | **Argument Graph Uncertainty: Quantifying Uncertainty from the Logical Structure of Reasoning Chains** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20328) | — |
 | **P1 · Watch** | **SpectrumQuant: Spectrum Alignment for LLM Quantization** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.20303) | — |
+| **P2 · Relevant** | **DeepPV-MRF: End-to-End Partial-Volume Fraction Estimation from MR Fingerprinting Time Series** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19894) | — |
+| **P2 · Relevant** | **VaryST: Generalizable Spatio-Temporal Forecasting Beyond the Closed-World Setting** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19813) | — |
 | **P2 · Relevant** | **SNACK: A Sequential Notation Framework for Probabilistic Graph Generation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19781) | — |
+| **P2 · Relevant** | **Qwen-MT-Lumen at WMT2026: Instruction-Specialized Translation via Quality-Aware Training and On-Policy Distillation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19758) | — |
 | **P0 · Strong** | **PN-Mix: Pair-Norm Guided Mixed-Precision Key Cache Quantization for Efficient Long-Output LLM Inference** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19605) | — |
 | **P2 · Relevant** | **What You Sign Is Not What You Run: The Verifiability Gap in Quantized LLM Supply Chains** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19498) | — |
+| **P2 · Relevant** | **PairIT: Autoregressive Transformers for Low-Data Molecule Optimization** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19123) | — |
+| **P2 · Relevant** | **Federated Unlearning of Quantum Data via Classical Shadows** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.19077) | — |
 | **P1 · Watch** | **MultiAlloc: Budget-Aware Precision Allocation for KV Cache Quantization** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18642) | — |
 | **P2 · Relevant** | **Detecting Unreliable Classifications from Quantized Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18575) | — |
+| **P1 · Watch** | **Denoise X: Self-Supervised U-Net for Quantum Mottle Suppression in Chest Radiography** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18556) | — |
+| **P2 · Relevant** | **Semi-Amortized Bayesian Inference with Reusable Local Posteriors** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18945) | — |
 | **P2 · Relevant** | **ProTok: Unified Protein Tokenization via Modular Multi-Codebook Quantization** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18481) | — |
+| **P2 · Relevant** | **Wong--Zakai Convergence and FNO Learning for Stochastic Volterra Equations** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18939) | — |
 | **P2 · Relevant** | **Lightweight but Linguistically Fair? Quantisation Robustness across Bavarian, German, and English** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18343) | — |
 | **P1 · Watch** | **Revisiting Error Feedback for Model Quantization** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18139) | — |
+| **P0 · Strong** | **Distance Prediction for Quantum Codes** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.18130) | — |
+| **P2 · Relevant** | **Beyond Model Scaling: Rethinking Sequence Construction for Transformer-based Network Intrusion Detection** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17725) | — |
 | **P2 · Relevant** | **Where Small Mistakes Matter: Quantifying State Criticality for Imitation Learning** | arXiv 2026 | physical-ai-imitation-data-efficiency | [Link](https://arxiv.org/abs/2610.17709) | — |
 | **P2 · Relevant** | **OccWAM: Occupancy World-Action Models with Joint Scene-to-Ego Flow Matching** | arXiv 2026 | World-action models / flow matching for autonomous driving | [Link](https://arxiv.org/abs/2610.17688) | — |
 | **P1 · Watch** | **Mixed Precision Scaling Laws for Quantized Pretraining** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17637) | — |
@@ -290,10 +417,19 @@
 | **P1 · Watch** | **Towards Green AI: Evaluating Energy Efficiency for Quantized LLM Inference** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17531) | — |
 | **P2 · Relevant** | **Value-Preserving Action Quantization** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17252) | — |
 | **P2 · Relevant** | **EvoQuantLab: Training-Free Dual-Loop Evolution for Auditable Quantitative Research** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.17130) | — |
+| **P2 · Relevant** | **Intrinsic Geometry Matching: learning observation-equivariant process geometry** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16995) | — |
+| **P2 · Relevant** | **Learning Operators for Symmetry Discovery: From Lie Groups to Local Symmetry Geometry** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16884) | — |
+| **P2 · Relevant** | **PatTransBench: an ipc-stratified, multi-dimensional benchmark for patent machine translation evaluation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16538) | — |
+| **P2 · Relevant** | **Sampling from Neural Operator Priors to Solve Partial Differential Equations** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16396) | — |
+| **P2 · Relevant** | **QBFF: Deep Quantum Bottleneck for Automatic Speaker Verification Anti-Spoofing** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16390) | — |
 | **P1 · Watch** | **LoopQuant: Accurate and Efficient Post-Training Quantization for Looped Transformers** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16368) | — |
+| **P2 · Relevant** | **Anomaly-Guided Observation and Two-Level Semantic Feedback for Training-Free Video Anomaly Analysis** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16324) | — |
 | **P2 · Relevant** | **Fast Quantized Johnson$-$Lindenstrauss Transforms** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16289) | — |
 | **P2 · Relevant** | **Hardware-Friendly Token-Group Activation Quantization for Low-Bit Mamba Super-Resolution** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16261) | — |
+| **P2 · Relevant** | **Large Language Model Assisted Transportation Planning through a Differentiable User Equilibrium Layer** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16140) | — |
+| **P2 · Relevant** | **Regime-Aware Router Learning for Multi-Domain Medical Image Generation with Diffusion Experts** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16082) | — |
 | **P1 · Watch** | **When Does Compensating Inherited Quantization Error Help? Mean-Square Guarantees for Layer-Wise Quantization and Their Limits** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16020) | — |
+| **P2 · Relevant** | **Probabilistic Forecasting of Wildfire Size Using Conditional Flow Matching** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15983) | — |
 | **P1 · Watch** | **Preserving Updates in Low-Bit Recurrent State Quantization** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15709) | — |
 | **P1 · Watch** | **Recovering Low-Bit Failures in Vision-Language-Action Policies via Quantization-Conditioned Reinforcement Learning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15675) | — |
 | **P1 · Watch** | **Context-Aware Precision Scheduling for Small Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15640) | — |
@@ -305,12 +441,17 @@
 | **P1 · Watch** | **RECAP: Calibrating Low-Bit Reasoning Models on the History They Read** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15259) | — |
 | **P1 · Watch** | **When Dynamic Scaling Fails: A Scale-State Feedback Governs Recurrent-State Quantization in Linear-Attention and SSM LLMs** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15139) | — |
 | **P1 · Watch** | **VLCQ: Post-training quantization for deep neural networks using variable length coding** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.15092) | — |
+| **P2 · Relevant** | **Engram Neuron Inspired Adaptive Memorization for Lifelong Learning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.14940) | — |
 | **P1 · Watch** | **FidelityQ: Preserving Predictive Fidelity in Ultra-Low-Bit Language Model Quantization** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.14934) | — |
 | **P2 · Relevant** | **Bridging Risk Approximation Gaps in Model Predictive Task Sampling via In-Context Modeling** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.14913) | — |
+| **P2 · Relevant** | **Physics-informed random neural architectures on compact boundaryless multiply connected manifolds for random-operator models in machine learning and uncertainty quantification** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.14844) | — |
+| **P1 · Watch** | **Depth-progressive 3D seismic velocity model building via 2D generative diffusion models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.14812) | — |
 | **P1 · Watch** | **SAGE: Pushing 2-Bit Vector-Quantized LLMs toward Real-World Usability** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.14745) | — |
 | **P2 · Relevant** | **PRISM: Precision Forcing for Generalist Vision-Language-Action Policies** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.14704) | — |
 | **P0 · Strong** | **KV4-RL: Unlocking Faster Asynchronous Rollouts for RLVR with INT4 KV Cache Quantization** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.14448) | — |
 | **P0 · Strong** | **DualQuant: Dual-scale Calibration-free Weight-and-Activation Quantization for LLMs** | arXiv 2026 | quantization | [Link](https://arxiv.org/abs/2610.13767) | — |
+| **P2 · Relevant** | **Thyroid Nodule Segmentation in Ultrasound Images with Conformal Uncertainty Estimation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.13604) | — |
+| **P2 · Relevant** | **$L_0$ Feature Selection via Monte Carlo Tree Search in High-Dimensional Financial Regression** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.13574) | — |
 | **P0 · Strong** | **Oído: Open-Vocabulary Speech Recognition on a $5 Microcontroller without a Neural Accelerator** | arXiv 2026 | edge_cloud_heterogeneous | [Link](https://arxiv.org/abs/2610.13447) | — |
 | **P2 · Relevant** | **Anechoic: Onsager-Corrected Parallel Annealing for Sub-0.1 ms Dense Max-Cut on an FPGA** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.13368) | — |
 | **P0 · Strong** | **DuoRate: Two-Rate Per-Expert Precision Allocation for Mixture-of-Experts Serving** | arXiv 2026 | moe_systems_accelerators | [Link](https://arxiv.org/abs/2610.13328) | — |
@@ -318,6 +459,7 @@
 | **P2 · Relevant** | **QCLR: A Plug-in Robustification Module via Quantization for Contrastive Learning in Self-Supervised Skeleton-Based Human Action Recognition** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.13281) | — |
 | **P2 · Relevant** | **MHR-Router: Multimodal Heterogeneous Retrieval-Enhanced Adaptive Routing for VLM Inference** | arXiv 2026 | multimodal_mllm_serving | [Link](https://arxiv.org/abs/2610.13278) | — |
 | **P0 · Strong** | **RAMP: Recurrent Adaptive Mixed Precision for Efficient Prefill in Recurrent-Depth Language Models** | arXiv 2026 | quantization | [Link](https://arxiv.org/abs/2610.13041) | — |
+| **P2 · Relevant** | **NucleoNet: A Nuclear-Aware Determinant Ansatz for Multi-Geometry Neural Variational Monte Carlo** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.12985) | — |
 | **P1 · Watch** | **Minions: A Dynamic and Distributed Virtual GPU Cloud Built on Idle Apple Silicon Devices** | arXiv 2026 | edge_cloud_heterogeneous | [Link](https://arxiv.org/abs/2610.12970) | — |
 | **P1 · Watch** | **Sample-Adaptive Zeroth-Order Post-Training** | arXiv 2026 | quantization | [Link](https://arxiv.org/abs/2610.12566) | — |
 | **P1 · Watch** | **Rounding in Preconditioner Space: Redesigning 4-bit AdamW Optimizer-State Quantization** | arXiv 2026 | quant,gen | [Link](https://arxiv.org/abs/2610.12444) | — |
@@ -326,8 +468,10 @@
 | **P1 · Watch** | **asdex: Automatic Sparse Differentiation in JAX** | arXiv 2026 | sparse,edge | [Link](https://arxiv.org/abs/2610.12336) | — |
 | **P1 · Watch** | **DVD: Dynamic Vector Decoding for Efficient MLLM-based Perception** | arXiv 2026 | llm_serving,quant,multimodal | [Link](https://arxiv.org/abs/2610.12266) | — |
 | **P2 · Relevant** | **AI-Based On-Board Maritime Object Detection for Earth Observation Payload Data Reduction on Versal Embedded Hardware** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2610.12182) | — |
+| **P2 · Relevant** | **Using Weisfeiler-Leman Features for Algorithm Selection in Constraint Optimisation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.12119) | — |
 | **P1 · Watch** | **Universal Textual Teaching for LLMs** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.12114) | — |
 | **P2 · Relevant** | **Protecting CPU AI On Edge TEEs: WebAssembly's Promise and Practical Challenges** | arXiv 2026 | llm_serving,quant,gen | [Link](https://arxiv.org/abs/2610.12050) | — |
+| **P2 · Relevant** | **The Polytopal Neural Network** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.12004) | — |
 | **P0 · Strong** | **DEX: Digit-Level Early Exit for Energy-Efficient MSDF Neural Network Inference** | arXiv 2026 | llm_serving,quant,sparse,edge | [Link](https://arxiv.org/abs/2610.11748) | — |
 | **P2 · Relevant** | **Scalable AI Uncertainty Quantification via Generalized Laplace Active Subspaces** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.11738) | — |
 | **P0 · Strong** | **HI3D 3.0 (Twinkle3D): Object-specific 3D Asset Generation with High Resolution** | arXiv 2026 | dist,gen,edge | [Link](https://arxiv.org/abs/2610.11685) | — |
@@ -337,6 +481,8 @@
 | **P1 · Watch** | **SDPAD: A Fully Spike-Driven Pipeline for End-to-End Autonomous Driving** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2610.11583) | — |
 | **P1 · Watch** | **SV-TAD: Native Sparse Convs for Efficient Temporal Action Detection** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2610.11579) | — |
 | **P1 · Watch** | **Smoothing the Top-k Exposure Boundary for Sparse Mixture-of-Experts** | arXiv 2026 | llm_serving,moe,gen | [Link](https://arxiv.org/abs/2610.11575) | — |
+| **P2 · Relevant** | **Learning to Orchestrate Evolutionary Search: Progression-Aware Deep Reinforcement Learning for Dynamic DE-CMA-ES Coordination in Optimization and Structural Model Updating** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.11546) | — |
+| **P2 · Relevant** | **An Efficient Quantum Circuit for Flow Model Execution Using Quantum Neural Networks** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.11537) | — |
 | **P1 · Watch** | **HAND: A Biologically-Inspired Activation Function that Improves Generalisation and Sample Efficiency in Image Classification** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.11534) | — |
 | **P1 · Watch** | **ReTeach: Building a Self-Teacher through Multi-Round Reflection and Retry** | arXiv 2026 | gen | [Link](https://arxiv.org/abs/2610.11529) | — |
 | **P1 · Watch** | **WARP-VLA: Wrist-Camera Adaptation for View-Robust Policy Execution in Vision-Language-Action Models** | arXiv 2026 | moe,multimodal,gen,physical,edge | [Link](https://arxiv.org/abs/2610.11508) | — |
@@ -344,6 +490,7 @@
 | **P0 · Strong** | **Fed-GRPO: Reward-Signal-Driven Federated Group Relative Policy Optimization** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.11502) | — |
 | **P1 · Watch** | **RoboAware: Learning to Coordinate Embodied Skills from Counterfactual Outcomes** | arXiv 2026 | gen,physical | [Link](https://arxiv.org/abs/2610.11480) | — |
 | **P1 · Watch** | **From Chain-of-Thought to Loops: Non-Autoregressive Latent Reasoning via Looped Transformers** | arXiv 2026 | llm_serving,gen | [Link](https://arxiv.org/abs/2610.11472) | — |
+| **P1 · Watch** | **Feature Space Adaptation for Effortless Gaussian Process Flows** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.11459) | — |
 | **P1 · Watch** | **Learning to Retrieve: Internalizing Memory Retrieval for Video World Models** | arXiv 2026 | llm_serving,gen,physical | [Link](https://arxiv.org/abs/2610.11444) | — |
 | **P1 · Watch** | **Rewiring Semantics, Dynamics, and Control: A Simple yet Effective Action-Centric Tri-Stream Transformer** | arXiv 2026 | llm_serving,multimodal,physical | [Link](https://arxiv.org/abs/2610.11416) | — |
 | **P0 · Strong** | **WAM-Cache: Staleness-Bounded KV Reuse for Efficient World Action Models** | arXiv 2026 | gen,physical | [Link](https://arxiv.org/abs/2610.11401) | — |
@@ -361,20 +508,26 @@
 | **P0 · Strong** | **When Lower Reconstruction Loss Hurts: Distributionally Robust Refinement for Low-Bit LLM Quantization** | arXiv 2026 | quant,moe,edge | [Link](https://arxiv.org/abs/2610.11226) | — |
 | **P1 · Watch** | **Online Adaptive Computation Reuse in Collaborative Edge Computing: A Two-Timescale Approach** | arXiv 2026 | llm_serving,gen,edge | [Link](https://arxiv.org/abs/2610.11224) | — |
 | **P1 · Watch** | **Bridging KV-Cache Quantization and Linear Attention: From Theory to Pretrained Weight Migration** | arXiv 2026 | kv,quant,attn | [Link](https://arxiv.org/abs/2610.11214) | — |
+| **P1 · Watch** | **UMAS: System-Level Uncertainty Quantification for Multi-Agent LLM Systems** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.33013) | — |
 | **P0 · Strong** | **PageWeaver: KV-Guided Query Unions for Sparse Attention** | arXiv 2026 | llm_serving,sparse | [Link](https://arxiv.org/abs/2610.11201) | — |
+| **P2 · Relevant** | **Recursive Semantic Divergence for LLM Agent Consistency** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.33012) | — |
 | **P1 · Watch** | **IntactWorld: Joint World Modeling with Intact Features** | arXiv 2026 | llm_serving,gen,physical | [Link](https://arxiv.org/abs/2610.11174) | — |
 | **P1 · Watch** | **VAMR: Multi-Question Agentic Reasoning for Efficient Long-Form Video Understanding** | arXiv 2026 | gen,agent | [Link](https://arxiv.org/abs/2610.11171) | — |
 | **P1 · Watch** | **PMTRM: Pseudo-Memory Temporal Re-encoding Module for Embodied Policy Learning** | arXiv 2026 | gen,physical | [Link](https://arxiv.org/abs/2610.11168) | — |
 | **P0 · Strong** | **Zepp: Accelerating Distributed MoE Serving under Relaxed Balance Constraints** | arXiv 2026 | llm_serving,moe,dist | [Link](https://arxiv.org/abs/2610.11158) | — |
+| **P2 · Relevant** | **A Unified Score Matching Paradigm for Video Anomaly Detection and Anticipation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.11149) | — |
 | **P0 · Strong** | **QUILT: Rethinking Sparse-Attention Prefill through Shared Query Execution** | arXiv 2026 | llm_serving,kv,sparse,attn | [Link](https://arxiv.org/abs/2610.11134) | — |
 | **P1 · Watch** | **FOCUS: From Privileged States to RGB-D with Controlled Modality Switching and Representation Alignment** | arXiv 2026 | physical,edge | [Link](https://arxiv.org/abs/2610.11119) | — |
+| **P2 · Relevant** | **SECURE-AI: Multi-Signal Uncertainty Quantification for Trustworthy Acoustic Cough Detection** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.23937) | — |
 | **P2 · Relevant** | **Adaptive Semantic Communication with Residual Quantization for Resilient Vehicular Networks** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.10886) | — |
 | **P1 · Watch** | **Learning infinite context windows in recurrent architectures via spatial neural computing** | arXiv 2026 | KV cache/long-context | [Link](https://arxiv.org/abs/2610.10690) | — |
 | **P0 · Strong** | **ResidualQuant: KV Cache Quantization for Looped Transformers with 2-Bit Residuals** | arXiv 2026 | kv_cache,quantization,llm_serving | [Link](https://arxiv.org/abs/2610.10381) | — |
 | **P2 · Relevant** | **Continual Learning without Continual Training** | arXiv 2026 | efficient_learning,in_context | [Link](https://arxiv.org/abs/2610.10379) | — |
+| **P2 · Relevant** | **Open-MMUnlearning: Unifying Methods and Evaluation for MLLM Unlearning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.10358) | — |
 | **P2 · Relevant** | **Measurement-Efficient Differentiable Quantum Architecture Search for Combinatorial Optimization** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.10351) | — |
 | **P0 · Strong** | **Real-Time Joint Audio-Video Generation by Parallel Adapter Composition** | arXiv 2026 | video_generation,multimodal_serving,diffusion | [Link](https://arxiv.org/abs/2610.10343) | — |
 | **P2 · Relevant** | **QuSema: Detecting Silent Bugs in Quantum Libraries via Quantum-knowledge-enhanced Agents** | arXiv 2026 | agent,edge | [Link](https://arxiv.org/abs/2610.10258) | — |
+| **P1 · Watch** | **Coverage-Aware Reasoning with Medical Tokens for Diagnosis Prediction** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.10641) | — |
 | **P1 · Watch** | **D-SLR: The Disjoint Row-Sparse plus Low-Rank Decomposition** | arXiv 2026 | quantization | [Link](https://arxiv.org/abs/2610.10636) | — |
 | **P1 · Watch** | **Cache the Encoder Within:Compact, Reusable Memory across LLM Queries** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2610.10058) | — |
 | **P0 · Strong** | **Phase-HDC: Replacing Optimizer History with Gradient Thresholds in Discrete Phase Learning** | arXiv 2026 | quantization | [Link](https://arxiv.org/abs/2610.10630) | — |
@@ -387,6 +540,7 @@
 | **P2 · Relevant** | **Pareto-optimal quantum kernel selection for unsupervised anomaly detection on real malware beaconing data** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.09717) | — |
 | **P2 · Relevant** | **A Tale of Two Error Categories: Exploring Concealed Trade-Offs in the Errors of Automated Judges in Evaluation of Uncertainty Quantifiers** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.09693) | — |
 | **P2 · Relevant** | **Q-PhotoMarket: A Design Space Exploration Framework for Photonic Hybrid Quantum Neural Networks in Financial Market Prediction** | arXiv 2026 | edge | [Link](https://arxiv.org/abs/2610.09641) | — |
+| **P2 · Relevant** | **Quantum anomaly detection in real scarce data** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.09635) | — |
 | **P2 · Relevant** | **SpatialUQ: Post-Hoc Uncertainty Quantification from Spatial Consistency in Black-Box Vision Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.09498) | — |
 | **P2 · Relevant** | **Quantifying Volumetric Risk: Class-Aware Asymmetric Weighted Conformal Prediction for 3D Medical Image Segmentation** | arXiv 2026 | gen | [Link](https://arxiv.org/abs/2610.09392) | — |
 | **P2 · Relevant** | **OnlineQAT: On-Policy Distillation for Ultra-Low-Bit Large Language Models** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2610.09346) | — |
@@ -397,14 +551,18 @@
 | **P0 · Strong** | **Pooling Representation Autoencoders for Efficient Diffusion** | arXiv 2026 | Efficient ML systems | [Link](https://arxiv.org/abs/2610.09242) | — |
 | **P1 · Watch** | **Quantize by Drift: Label-Free Mixed-Precision Post-Training Quantization for Text Embedders** | arXiv 2026 | Efficient ML systems | [Link](https://arxiv.org/abs/2610.09227) | — |
 | **P0 · Strong** | **CurveTQ: Rotation-Free Trellis Quantization of LLM Weights via Curvature-Weighted Search** | arXiv 2026 | Efficient ML systems | [Link](https://arxiv.org/abs/2610.09212) | — |
+| **P2 · Relevant** | **Multi-Objective Aligned Small Language Model Framework for SUD Patient Dialogue Generation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.09209) | — |
 | **P0 · Strong** | **Few Bits, One Law: Toward W2A4KV2** | arXiv 2026 | Efficient ML systems | [Link](https://arxiv.org/abs/2610.09202) | — |
 | **P0 · Strong** | **Q-PACE: Dynamic Precision Allocation for Quantization-Aware Training** | arXiv 2026 | Efficient ML systems | [Link](https://arxiv.org/abs/2610.09183) | — |
+| **P2 · Relevant** | **Context-aware Attention-based Gaussian Mixture Models for Vehicular Trajectory Prediction** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.09174) | — |
 | **P0 · Strong** | **Breaking the Space Barrier and its Application to Language Model Inference** | arXiv 2026 | Efficient ML systems | [Link](https://arxiv.org/abs/2610.09139) | — |
 | **P1 · Watch** | **Same Text, Different Prediction: Serving-Context Nondeterminism in Text Classifiers** | arXiv 2026 | Efficient ML systems | [Link](https://arxiv.org/abs/2610.09111) | — |
 | **P0 · Strong** | **TAP: Efficient Long-Horizon Agent Pruning via Trajectory-Anchored Recovery** | arXiv 2026 | Efficient ML systems | [Link](https://arxiv.org/abs/2610.09074) | — |
 | **P0 · Strong** | **A Self-Pruning Transformer: Extreme KV-Cache Compression with Universal Attention** | arXiv 2026 | Efficient ML systems | [Link](https://arxiv.org/abs/2610.09051) | — |
+| **P2 · Relevant** | **From High Recall to High Utility: Dataset-Adaptive Post-Processing of LLM-Generated Customer Intents** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.09039) | — |
 | **P0 · Strong** | **SPIN: Shadow Predictive Indexer for Sparse Attention** | arXiv 2026 | Efficient ML systems | [Link](https://arxiv.org/abs/2610.09025) | — |
 | **P0 · Strong** | **Verify Less, Evolve More: Training Idea-Level Critics for Verification-Efficient ML Evolving Agents** | arXiv 2026 | Efficient ML systems | [Link](https://arxiv.org/abs/2610.08993) | — |
+| **P2 · Relevant** | **One-Slide Calibration of Pathology Foundation Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.08944) | — |
 | **P1 · Watch** | **SPW-Nav: A Streaming Panoramic World Model for Language-Guided Navigation** | arXiv 2026 | Efficient ML systems | [Link](https://arxiv.org/abs/2610.08941) | — |
 | **P0 · Strong** | **CARE: Certifying Acceleration for Vision-Language-Action Inference** | arXiv 2026 | Efficient ML systems | [Link](https://arxiv.org/abs/2610.08917) | — |
 | **P1 · Watch** | **Secure Speculative Decoding for Large Language Models** | arXiv 2026 | speculative decoding / inference safety | [Link](https://arxiv.org/abs/2610.08678) | — |
@@ -419,6 +577,7 @@
 | **P2 · Relevant** | **Beyond Waypoint Regression: Query-Based Cost Learning over Reachable Ego Futures for End-to-End Driving** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.08123) | — |
 | **P2 · Relevant** | **Revisiting Numerical Forecasting Models for Language-Based Trajectory Prediction** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.07954) | — |
 | **P1 · Watch** | **Confidence Reasoning Graphs: Structured Confidence Estimation for LLM Agents** | arXiv 2026 | agent_systems,efficient_reasoning | [Link](https://arxiv.org/abs/2610.07948) | — |
+| **P2 · Relevant** | **Generalized Matheron Variational Implicit Processes** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.07938) | — |
 | **P0 · Strong** | **ApexQuant: Data-Free Elastic Quantization by Residual Re-Isotropization** | arXiv 2026 | Efficient ML / Physical AI | [Link](https://arxiv.org/abs/2610.07904) | — |
 | **P1 · Watch** | **Beyond Retargeting: Low-Latency and Robust Humanoid Whole-Body Teleoperation with Learned Atomic Motion Primitives** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.07891) | — |
 | **P1 · Watch** | **Lost in the bf16 Cast: Exporting Ternary Language Models Can Revert Most Low-Learning-Rate Code Changes** | arXiv 2026 | Efficient ML / Physical AI | [Link](https://arxiv.org/abs/2610.07853) | — |
@@ -433,13 +592,17 @@
 | **P0 · Strong** | **AlignQuant: Tile-Aligned Mixed-Precision Quantization for Efficient LLM Generation** | arXiv 2026 | quantization | [Link](https://arxiv.org/abs/2610.07457) | — |
 | **P0 · Strong** | **A Shape-Adaptive Architecture with Disaggregated Quantization for Efficient LLM Serving** | arXiv 2026 | LLM serving; quantization; accelerator architecture | [Link](https://arxiv.org/abs/2610.07443) | — |
 | **P2 · Relevant** | **SAFESHIELD: A Decision-Organization Framework for Deployment-Time Safety of Small Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.07276) | — |
+| **P2 · Relevant** | **How Inefficient Is Natural Gradient Descent? From Exact Optimality to Θ( \sqrt{ \log d } ) Divergence** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.07228) | — |
 | **P2 · Relevant** | **Exact Unlearning via Quantized Sufficient Statistics** | arXiv 2026 | efficient model maintenance | [Link](https://arxiv.org/abs/2610.07197) | — |
 | **P1 · Watch** | **CALR: Continuous Anchored Latent Reasoning via Render-of-Thought Compression** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.07175) | — |
 | **P1 · Watch** | **CLIFT: Conformal Self-Verification for Web Agent Training and Test-Time Scaling** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.06829) | — |
 | **P0 · Strong** | **SoloQ: Calibration-Free Quantization for Diffusion Language Models** | arXiv 2026 | quantization; diffusion language model inference; KV cache | [Link](https://arxiv.org/abs/2610.07121) | — |
+| **P2 · Relevant** | **Multitask Conditional Generative Adversarial Network Enables Automatic Whole Knee Cartilage and Menisci Segmentation and Reliable $T_{1ρ}$ and $T_2$ Quantification Without High-Resolution Morphological Images** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.06602) | — |
 | **P1 · Watch** | **Empirical Variational Autoencoder** | arXiv 2026 | video/image generation acceleration | [Link](https://arxiv.org/abs/2610.06545) | — |
 | **P2 · Relevant** | **Efficient Secure Federated Learning via Information-Theoretically Secure Key Distribution: A Medical Imaging Case Study** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.06420) | — |
 | **P2 · Relevant** | **Quantifying the Stability of Multi-Step Reasoning via Error Amplification** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.06404) | — |
+| **P2 · Relevant** | **Correct Verdicts, Flawed Reasoning: Structured Auditing of LLM-based Vulnerability Reasoning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.06366) | — |
+| **P2 · Relevant** | **Latent Similarity Gaussian Processes: A Theory-Grounded Approach to Personalized Suicide-Risk Forecasting for Clinical Decision-Support** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.06355) | — |
 | **P1 · Watch** | **Acceleration of Data Analytics on Heterogeneous Supercloud Systems** | arXiv 2026 | Efficient ML systems | [Link](https://arxiv.org/abs/2610.06291) | — |
 | **P1 · Watch** | **Evolving in Thought Space: Training a Small Model at Test Time Unlocks Better Discoveries** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.06269) | — |
 | **P0 · Strong** | **CentriQ: Calibration-Free Quantization of Diffusion Transformers via Exact Mean Centering** | arXiv 2026 | Efficient ML / Physical AI | [Link](https://arxiv.org/abs/2610.06260) | — |
@@ -447,6 +610,7 @@
 | **P1 · Watch** | **RoSA: Rotational Sparse Adaptation for Memory-Efficient Fine-Tuning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.06243) | — |
 | **P2 · Relevant** | **Anosognosia in LLMs: Probing Self-Awareness of Quantized Computational Substrate** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.06174) | — |
 | **P1 · Watch** | **Adaptive Mean Flow for Responsive Closed-Loop Robot Control** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.06089) | — |
+| **P2 · Relevant** | **Polynomial neural surrogates for designing photonic quantum experiments** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.06032) | — |
 | **P0 · Strong** | **Differentiable Bit-Widths: Co-optimizing Pruning and Quantization via SVD for Ultra-Efficient LLM Compression** | arXiv 2026 | quantization / sparsity-pruning | [Link](https://arxiv.org/abs/2610.06026) | — |
 | **P2 · Relevant** | **Recon2Servo: Robotic Ultrasound Visual Servoing via Learned Image-to-Motion Inference** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.06010) | — |
 | **P0 · Strong** | **LRCC: Generalizing Low-Rank Compression with Conditional Computation** | arXiv 2026 | Efficient ML systems | [Link](https://arxiv.org/abs/2610.08858) | — |
@@ -454,11 +618,14 @@
 | **P1 · Watch** | **Breaking the Tie: A Cluster-Aware Routing Framework for Large Language Models** | arXiv 2026 | LLM serving / model routing | [Link](https://arxiv.org/abs/2610.05982) | — |
 | **P1 · Watch** | **StagQ: Constraint-Driven Multi-Precision Weight Quantization for LLMs** | arXiv 2026 | quantization; LLM serving | [Link](https://arxiv.org/abs/2610.05977) | — |
 | **P1 · Watch** | **From Social Reasoning to Embodied Interaction: An Agentic Framework for Social Robots** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.05964) | — |
+| **P2 · Relevant** | **Finite-Sample Distribution Theory and Efficient Large-Scale Inference for Online Quantile Regression** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.05869) | — |
 | **P2 · Relevant** | **Adaptive-Shot Hybrid Quantum Anomaly Detection for Tactile Internet Security: Reliability-Aware Measurement Allocation Under Resource Constraints** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.05835) | — |
+| **P2 · Relevant** | **Usefulness of Quantile-Aware Diffusion Modeling for Highly Imbalanced Tabular Data** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.05825) | — |
 | **P1 · Watch** | **Beyond In-Distribution Preservation: Recovering Generalization in Quantized VLAs via Vulnerability-Oriented Tuning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.05745) | — |
 | **P2 · Relevant** | **From Pixels, Without Pre-training: Joint Generative and Self-Supervised Representation Learning in One Model** | arXiv 2026 | video/image generation acceleration | [Link](https://arxiv.org/abs/2610.05711) | — |
 | **P2 · Relevant** | **Benchmarking Generative Trajectory Models for Active-Inference Control** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.05692) | — |
 | **P1 · Watch** | **Spend Bytes on Breadth: Precision-Count Trade-offs for Decode-Time KV Compression in Long Chain-of-Thought Reasoning** | arXiv 2026 | Efficient ML / Physical AI | [Link](https://arxiv.org/abs/2610.05685) | — |
+| **P2 · Relevant** | **Bellman-Centric Learning: Near-Optimal Regret for Linear Bandits with Memory** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.05659) | — |
 | **P0 · Strong** | **TRIAGE: Direction-Aware Mismatch Stabilization of Native NVFP4 Reinforcement Learning** | arXiv 2026 | quantization | [Link](https://arxiv.org/abs/2610.07043) | — |
 | **P2 · Relevant** | **GR-LIO: A Local Ground-Aware LiDAR-Inertial Odometry System Using Body-to-Ground Height** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.05546) | — |
 | **P2 · Relevant** | **Underscoring the Problem: Why Softpick Fails at Initialization** | arXiv 2026 | quantization | [Link](https://arxiv.org/abs/2610.05488) | — |
@@ -472,19 +639,25 @@
 | **P2 · Relevant** | **RoMod: Temporal Routing Modulation via Mixture-of-Experts for Video Anomaly Detection** | arXiv 2026 | multimodal/MLLM serving | [Link](https://arxiv.org/abs/2610.05131) | — |
 | **P0 · Strong** | **You Only Convert Twice: Ozaki Scheme II for Chained Tensor Mode Products** | arXiv 2026 | Efficient ML / Physical AI | [Link](https://arxiv.org/abs/2610.05059) | — |
 | **P2 · Relevant** | **Communication Shapes Collective Inference in Self-Adapting LLM Societies: Evidence from Mafia** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.05041) | — |
+| **P2 · Relevant** | **EmoRSS: Mitigating Emotion-Induced Over-Refusal in Large Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04998) | — |
 | **P2 · Relevant** | **Residual Visual Credit Optimization: Conserved Evidence Routing for Multimodal Reinforcement Learning** | arXiv 2026 | multimodal/MLLM serving | [Link](https://arxiv.org/abs/2610.04918) | — |
 | **P1 · Watch** | **ResOPD: Tail Residualization for Sparse On-Policy Distillation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04882) | — |
+| **P2 · Relevant** | **An Agentic Approach with Evidence-Grounded Verification for Multimodal Emotion Reasoning in Conversation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.31685) | — |
 | **P1 · Watch** | **Test-Time Training as Residual Memory for Robot Policies** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04701) | — |
+| **P2 · Relevant** | **Path Laplacian Encodings for Directed Graphs** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04657) | — |
 | **P1 · Watch** | **Grounding Probes: Generator-Independent Hallucination Detection from Observer Model Hidden States** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2610.04642) | — |
 | **P2 · Relevant** | **ForeAct3D: Policy-Grounded Future World Modeling for VLA Policies** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.04607) | — |
 | **P1 · Watch** | **BARQ: Balanced Codebook Refinement for Low-Bit LLM Quantization** | arXiv 2026 | quantization | [Link](https://arxiv.org/abs/2610.04490) | — |
+| **P2 · Relevant** | **Well-Typed ComfyUI Cannot Go Wrong: Gradual Refinement Types for Generative-AI Workflow Graphs** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.37673) | — |
 | **P1 · Watch** | **RPFQ-ViT: Rotated Phase-Frame Quantization for Extremely Low-Bit Weights in Vision Transformers** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04457) | — |
 | **P2 · Relevant** | **On the Trade-off Between Information Loss and Generalization in Sparse Attention** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04424) | — |
 | **P1 · Watch** | **Saying, Not Knowing: Aggressively GGUF-Quantized Small Language Models Still Write Rare Words They Can No Longer Define** | arXiv 2026 | quantization | [Link](https://arxiv.org/abs/2610.04403) | — |
 | **P2 · Relevant** | **Gaussian Flow Dynamics: Simulation-Free Neural SDE Learning Beyond One-Time Marginals** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04390) | — |
 | **P2 · Relevant** | **FLAT: Smoothing the Rugged Landscape for Learnable, Sample-Efficient Traffic Calibration** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04337) | — |
 | **P2 · Relevant** | **GrayShield: Bit-Level Sanitization for Transformer Model Supply-Chain Security** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04319) | — |
+| **P2 · Relevant** | **Conformal Prediction with Paraphrase-Aware Scoring for LLM Uncertainty Quantification** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04239) | — |
 | **P2 · Relevant** | **MemLeak: Cross-User Semantic Leakage in Multi-Tenant AI Agent Memory** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04195) | — |
+| **P2 · Relevant** | **Mitigating Over-squashing without Rewiring: A Sheaf Effective Resistance Perspective** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04157) | — |
 | **P1 · Watch** | **Pareto-Dominant Clarification: Post-Training Coding LLMs via PPO-Lagrangian Budget Constraints** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.04089) | — |
 | **P2 · Relevant** | **Adaptive Partitioning Schemes for Optimistic Optimization** | arXiv 26 | quantization | [Link](https://arxiv.org/abs/2610.04039) | — |
 | **P0 · Strong** | **LatentQuant: Preserving the Policy-Facing Latent Contract under NVFP4 VAE Quantization** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.03959) | — |
@@ -496,14 +669,19 @@
 | **P0 · Strong** | **VisionMX: Unlocking Microscaling Post-Training Quantization for Vision Models** | arXiv 2026 | quantization / microscaling / vision | [Link](https://arxiv.org/abs/2610.03218) | — |
 | **P2 · Relevant** | **Does Physics Live in the Activations? Localizing Physical Quantities in Video Diffusion Models** | arXiv 2026 | Efficient ML / Physical AI | [Link](https://arxiv.org/abs/2610.03154) | — |
 | **P1 · Watch** | **Zephon: Elastic Determinism for Online, Stateful Foundation Model Data Loading Pipelines** | arXiv 2026 | distributed training/inference | [Link](https://arxiv.org/abs/2610.03087) | — |
+| **P1 · Watch** | **Shapley-based Structural Analysis of Neural Calibration for Stochastic Volatility Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.03076) | — |
 | **P0 · Strong** | **Tailoring the Quantization Space for 1-Bit KV Cache Compression** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.03027) | — |
 | **P2 · Relevant** | **HASTE: Evolving Agent Harnesses Against Emerging Attacks Using Sparse Evidence** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.02920) | — |
 | **P1 · Watch** | **Revealing Epistemic Uncertainty in MLLMs via Causal-Invariant Masking** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.02887) | — |
+| **P2 · Relevant** | **DNAlign: Dynamic Null-Space Safe Alignment for LLMs** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.02844) | — |
 | **P0 · Strong** | **CHASE-VLA: Post-Training Quantization Framework for Vision-Language-Action Models with Chunk-Aware Scale Estimation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.02666) | — |
+| **P2 · Relevant** | **Quantifying the Value of Constructive Induction, Knowledge, and Noise Filtering on Inductive Learning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.02615) | — |
 | **P2 · Relevant** | **Post-Training Quantization of Autoregressive Weather Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.02511) | — |
 | **P1 · Watch** | **Capability Scaling-Down Laws for LLM Compression** | arXiv 2026 | quantization / pruning / distillation / compression | [Link](https://arxiv.org/abs/2610.02462) | — |
 | **P0 · Strong** | **FinDialogLens: Event Extraction over Multi-Party Dialogue for Missed-Trade Identification in Financial Chatrooms** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.02455) | — |
 | **P2 · Relevant** | **Bandits via Additive Quantized Representations** | arXiv 2026 | efficient online ML | [Link](https://arxiv.org/abs/2610.02440) | — |
+| **P2 · Relevant** | **Energy Saving in 5G and Beyond Networks: A Quantum Reinforcement Learning Approach** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.02403) | — |
+| **P2 · Relevant** | **THPL: A Vision-to-Language Decision Support Framework for Rainbow Trout Feeding Management in RAS** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.02378) | — |
 | **P1 · Watch** | **Coco: An Agentic Copilot for the Hardware--Software Co-Design Lifecycle** | arXiv 2026 | Efficient ML / Physical AI | [Link](https://arxiv.org/abs/2610.02376) | — |
 | **P2 · Relevant** | **TACO: Ternary Absolute-max Column-wise One-sparse Optimizer for LLM Fine-Tuning** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2610.02199) | — |
 | **P2 · Relevant** | **External Observers May See More Clearly: Cross-Model Span-Level Hallucination Detection in Large Language Models via Hidden State Probing** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2610.02066) | — |
@@ -522,163 +700,15 @@
 | **P0 · Strong** | **The Devil Is in the Reconstruction Loss Scale: Rethinking Optimization in LLM Quantization** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.00983) | — |
 | **P1 · Watch** | **Beyond Leaderboards: Tokenomics of Agentic Small Language Model Ensembles** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.00954) | — |
 | **P0 · Strong** | **Joint Branch-Space Transform Coding for Diffusion Activation Quantization with Classifier-Free Guidance** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.00930) | — |
-| **P0 · Strong** | **Q-MINO: A Minimal-Norm Method for Quantization-Aware Training** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.00738) | — |
-| **P2 · Relevant** | **Analysis of Quantized and Efficiently Adapted Protein Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.00665) | — |
-| **P2 · Relevant** | **PhysicsMate: A Curriculum-Grounded Bengali Benchmark for Secondary Physics QA with Small-Model Adaptation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.00664) | — |
-| **P2 · Relevant** | **Spatial Strategies, Not Actions: Vector-Quantized Geodesics as Tools for LLM-Driven Agents** | arXiv 2026 | physical_ai | [Link](https://arxiv.org/abs/2610.00613) | — |
-| **P1 · Watch** | **Make Sparse Rewards Count: Density-Aware Reward Aggregation for Multi-Reward RL** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.00574) | — |
-| **P2 · Relevant** | **Scaling Collider Event Generation with Residual-Quantized Tokens** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.00569) | — |
-| **P2 · Relevant** | **Multimodal Flow: Unified Flow Modeling of Language and Vision in Embedding Spaces** | arXiv 2026 | llm_serving,quant,gen | [Link](https://arxiv.org/abs/2609.40362) | — |
-| **P0 · Strong** | **XOR-Trellis: Ultra-Low-Complexity Dequantization and Curvature-Aware Hadamard-Free LLM Quantization** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.00432) | — |
-| **P1 · Watch** | **Beyond Accuracy: Prefix-Invariant Realizations of Low-Precision Fast Matrix Multiplication** | arXiv 2026 | GPU kernel/DSL/compilers | [Link](https://arxiv.org/abs/2609.39816) | — |
-| **P0 · Strong** | **RATIO: Reasoning Analysis and Token-level Inference Optimization for Quantized Reasoning Models** | arXiv 2026 | quantization,efficient_reasoning | [Link](https://arxiv.org/abs/2609.39801) | — |
-| **P2 · Relevant** | **Whole-Body Aerial Grasping and Lifting via Partial Visual Observations** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.00404) | — |
-| **P2 · Relevant** | **Prediction is Better than Detection: Traffic Congestion Control using Drones** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.39637) | — |
-| **P1 · Watch** | **Metacognitive Reasoning in Energy Based Models using Instance Based Learning Theory** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.00399) | — |
-| **P2 · Relevant** | **ResARC: Residual-Aware AutoRegressive Coding for Ultra-Low Bitrate Image Compression** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.39451) | — |
-| **P1 · Watch** | **RoboAssist: Interactive Human-Humanoid Planning for Long-Horizon Surgical Assistance** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.39384) | — |
-| **P0 · Strong** | **LampAttention: Look-Ahead Mixed-Precision FlashAttention for Dedicated Accelerators** | arXiv 2026 | efficient_attention,quantization,accelerator | [Link](https://arxiv.org/abs/2609.39361) | — |
-| **P1 · Watch** | **On the Relationship between Model Quantization and Model Inversion Attacks** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.00382) | — |
-| **P2 · Relevant** | **Rethinking Generative Image Compression at Extremely Low Bitrates** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.39315) | — |
-| **P0 · Strong** | **A Tilted Bowl Is Not a Slippery Slope: Compressing Looped Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.39277) | — |
-| **P0 · Strong** | **QATFactory: A Versatile, Deployment-Aligned Framework for Quantization-aware Training and Distillation of LLMs** | arXiv 2026 | quant,llm_serving | [Link](https://arxiv.org/abs/2609.39223) | — |
-| **P1 · Watch** | **Low-Discrepancy Dither for Quantized Recurrent State Caches** | arXiv 2026 | quant,kv | [Link](https://arxiv.org/abs/2609.39185) | — |
-| **P1 · Watch** | **Manifold-Constrained Initial Noise Optimization for Efficient Generative Model Alignment** | arXiv 2026 | video/image generation acceleration / diffusion-flow alignment | [Link](https://arxiv.org/abs/2610.00365) | — |
-| **P0 · Strong** | **SteerQuant: Steering Quantization Error with Action-Guided Scaling in World-Action Models** | arXiv 2026 | physical,quant,gen | [Link](https://arxiv.org/abs/2609.39056) | — |
-| **P2 · Relevant** | **The Missing Coefficients: Bayesian Pairwise Merging for Model Personalization** | arXiv 2026 | efficient adaptation / model merging | [Link](https://arxiv.org/abs/2609.39055) | — |
-| **P2 · Relevant** | **Cycle-Aware Autoencoder with Cross-SignalConsistency for Railway Door Anomaly Detection** | arXiv 2026 | edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.39035) | — |
-| **P1 · Watch** | **Vmem-$\varphi$: Low-Compute Out-of-Distribution Detection in Spiking Neural Networks from Membrane-Potential Statistics** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.00350) | — |
-| **P0 · Strong** | **JARQ: Joint Alternating Refinement for Quantization** | arXiv 2026 | quantization | [Link](https://arxiv.org/abs/2609.38599) | — |
-| **P1 · Watch** | **YOCO: You Only Calibrate Once! Fast Mocap Calibration for Dexterous Teleoperation** | arXiv 2026 | llm_serving,gen,edge | [Link](https://arxiv.org/abs/2610.11657) | — |
-| **P1 · Watch** | **Where Do the Tokens Go? Understanding and Reducing Costs in LLM Agents for Vulnerability Discovery** | arXiv 2026 | llm_serving,gen,edge | [Link](https://arxiv.org/abs/2610.11602) | — |
-| **P1 · Watch** | **Weaken to Strengthen: Weakening-Induced On-Policy Self-Distillation for Large Reasoning Models** | Fresh / preprint | quantization and sparsity/pruning; efficient reasoning-model training; self-distillation | [Link](https://arxiv.org/abs/2610.38681) | — |
-| **P1 · Watch** | **Vision-Language Agents Can Learn in Their Own Latent Worlds** | arXiv 2026 | multimodal,physical | [Link](https://arxiv.org/abs/2610.36925) | — |
-| **P1 · Watch** | **Utility-WAM: Correcting Future-Induced Action Changes** | arXiv 2026 | WAM inference efficiency / video-generation gate | [Link](https://arxiv.org/abs/2610.39367) | — |
-| **P1 · Watch** | **Universal Byte-Level Encoding: UTF-8/UTF-16 Routing to Reduce Cross-Script Token-Budget Disparities** | arXiv 2026 | LLM serving | [Link](https://arxiv.org/abs/2610.01984) | — |
-| **P1 · Watch** | **UniRA: Unified Representation Alignment and Auto-Encoding for Efficient Diffusion Generation** | arXiv 2026 | gen | [Link](https://arxiv.org/abs/2610.39948) | — |
-| **P1 · Watch** | **UltraDiff: Transferring High-Fidelity Priors to Compressed Latent Spaces for High-Resolution Image Generation** | arXiv 2026 | llm_serving,gen | [Link](https://arxiv.org/abs/2610.21202) | — |
-| **P1 · Watch** | **Turing LLM Post-Training: Calibrated Distillation and Efficient Dynamic-MoE Execution** | arXiv 2026 | moe | [Link](https://arxiv.org/abs/2610.39876) | — |
-| **P0 · Strong** | **TTS-Q: Perception-Guided Post-Training Quantization of Text-to-Speech Diffusion Transformers** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.12474) | — |
-| **P1 · Watch** | **Training-Aware Target Coverage for Synthetic Data Selection** | arXiv 2026 | distributed training/inference | [Link](https://arxiv.org/abs/2610.00814) | — |
-| **P2 · Relevant** | **Training and Scaling Compute-Optimal Physiological Waveform Foundation Models** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2610.05649) | — |
-| **P2 · Relevant** | **Toward Partitioned Reference Readout for Four-Level IGZO Memory: Device Statistics, Confusion Matrices, and INT4 Error Propagation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.16255) | — |
-| **P2 · Relevant** | **TimeNet: An Extensible Unified Data Infrastructure for Next-Generation Temporal Foundation Models** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2610.04407) | — |
 | **P0 · Strong** | **TileMix: Tile-Centric Mixed-Precision Attention for LLM Inference Acceleration** | Fresh / preprint | mixed-precision attention kernel / long-context inference | [Link](https://arxiv.org/abs/2608.17336) | — |
-| **P2 · Relevant** | **Temporal transformer CAN encoder with federated lightweight heads for anomaly detection** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.10613) | — |
-| **P1 · Watch** | **T2-z: Test-Time Optimization of Environment Latents for Robotic World Models** | arXiv 2026 | llm_serving,gen,physical | [Link](https://arxiv.org/abs/2610.22364) | — |
-| **P1 · Watch** | **SWIM: Learning What Matters from Behaviors for JEPA World Models** | arXiv 2026 | llm_serving,physical | [Link](https://arxiv.org/abs/2610.36662) | — |
-| **P2 · Relevant** | **Soundwich: Video Generation with Layered and Controllable Audio** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.00691) | — |
-| **P2 · Relevant** | **Software World Models: From Consequence Prediction to Decision Value** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04940) | — |
-| **P1 · Watch** | **Smooth Action Chunking Via Movement-Primitive Representations for Imitation Learning** | arXiv 2026 | llm_serving,multimodal,gen,physical | [Link](https://arxiv.org/abs/2610.39451) | — |
-| **P0 · Strong** | **ShatterQuant: Breaking Uniform Precision with Block-Wise Mixed-Precision on a Systolic Transformer Hardware Accelerator** | arXiv 2026 | mixed_precision_ai_accelerator | [Link](https://arxiv.org/abs/2610.00207) | — |
-| **P1 · Watch** | **Sentry: Learning to Recover from LLM Agent Failures at Test Time** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.02994) | — |
-| **P1 · Watch** | **SelfThinker: Self-Evolving Reasoning via Reliability-Verified Intrinsic Visual Thoughts** | arXiv 2026 | gen | [Link](https://arxiv.org/abs/2610.40115) | — |
-| **P2 · Relevant** | **Self-Supervised Scaling of Terminal Environments for Scientific Domains** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.02710) | — |
-| **P1 · Watch** | **RynnWorld-Latent: A Cross-Embodiment World Model Conditioned on Universal Latent Actions** | arXiv 2026 | physical,edge | [Link](https://arxiv.org/abs/2610.36791) | — |
-| **P1 · Watch** | **RoboSeed: Multidimensional Evaluation of Vision-Language-Action and World-Action Models: Capability, Resource Affordability, and Research Evidence** | arXiv 2026 | llm_serving,multimodal,physical,edge | [Link](https://arxiv.org/abs/2610.40026) | — |
-| **P0 · Strong** | **Rimuru: Unified Memory Management for Modern LLM Serving via Elastic Expert Offloading** | arXiv 2026 | llm_serving,moe,edge | [Link](https://arxiv.org/abs/2610.40305) | — |
-| **P2 · Relevant** | **Revar3r: gauge-aware perturbation uncertainty for feed-forward 3d reconstruction** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.07883) | — |
-| **P2 · Relevant** | **Reusing Past Samples in Proximal Policy Optimization: When and How Does It Help?** | arXiv 2026 | distributed training/inference | [Link](https://arxiv.org/abs/2610.01399) | — |
-| **P1 · Watch** | **REMORY: Learning Residual Memory for Context Compaction** | arXiv 2026 | gen,edge | [Link](https://arxiv.org/abs/2610.11287) | — |
-| **P0 · Strong** | **Raincheck: Deferred Multimodal Prefill for Efficient Multi-Turn MLLM Inference** | arXiv 2026 | llm_serving,sparse,multimodal | [Link](https://arxiv.org/abs/2610.39562) | — |
-| **P2 · Relevant** | **Quantum-Inspired Convolutional Networks for High-Resolution Pseudo-Label Generation from Multimodal Earth Observation Data** | arXiv 2026 | edge | [Link](https://arxiv.org/abs/2610.39773) | — |
-| **P0 · Strong** | **Quantize by Doing: Task-Guided Mixed-Precision Quantization of Vision-Language-Action Models** | arXiv 2026 | VLA quantization / mixed precision | [Link](https://arxiv.org/abs/2610.38661) | — |
 | **P0 · Strong** | **Pre-Compiled Pipeline Shards for Distributed LLM Inference on Intel AI PC Fleets** | Fresh / preprint | distributed LLM inference / edge AI PC fleet / speculative decoding | [Link](https://arxiv.org/abs/2608.19147) | [Repo](https://github.com/labscommunity/pipeline-sharded-inference-paper) |
-| **P2 · Relevant** | **Possibility-based Inference: A Deterministic Framework for Robust and Reliable Uncertainty Quantification in Decision-Making** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.39821) | — |
-| **P1 · Watch** | **PocketSplat: Mobile Gaussian Reconstruction via World-Space Latent Allocatio** | arXiv 2026 | edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2610.03192) | — |
-| **P1 · Watch** | **Physical Canvas: A Vision Tactile World Model For Robot Policy Evaluation And Learning** | arXiv 2026 | physical | [Link](https://arxiv.org/abs/2610.28613) | — |
-| **P0 · Strong** | **PhOSv1: Efficient Scaling of Model Sleeping on a Single Server for Autoscaling with GPU-Context Deduplication** | arXiv 2026 | llm_serving,kernel | [Link](https://arxiv.org/abs/2610.39999) | — |
-| **P2 · Relevant** | **PDB: Point-Based Deformation Blending for Facial Animation Retargeting** | arXiv 2026 | video/image generation acceleration | [Link](https://arxiv.org/abs/2610.08672) | — |
-| **P1 · Watch** | **Past as State, Present as Attention: Persistent-State Blockwise Flow Matching for Long-Horizon Co-Speech Motion Generation** | arXiv | video/image generation acceleration | [Link](https://arxiv.org/abs/2610.32373) | — |
-| **P2 · Relevant** | **ParanoiaEval: Benchmarking Unnecessary Defensive Work in Agentic Coding** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.08662) | — |
-| **P0 · Strong** | **Parametric Trajectory Distillation for Few-Step Video Generation** | arXiv 2026 | llm_serving,gen | [Link](https://arxiv.org/abs/2610.11498) | — |
-| **P2 · Relevant** | **OverAct: Measuring and Mitigating Proactive Over-Authorization in LLM Tool-Calling Agents** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.01508) | — |
-| **P2 · Relevant** | **Organize Primitives into Semantic Parts: Reinforcement Reasoning for 3D Segmentation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04602) | — |
-| **P1 · Watch** | **OptiSelect: How does the Optimizer Shape Data Curriculum?** | arXiv 2026 | distributed training/inference | [Link](https://arxiv.org/abs/2610.03432) | — |
-| **P2 · Relevant** | **OpenRUA: Robot-Use Agents Are Zero-Shot Visuomotor Policies** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2610.02459) | — |
-| **P1 · Watch** | **OOPMAS: Object-Oriented Multi-Agent Systems for Query-Level Workflow Generation** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2610.07787) | — |
-| **P1 · Watch** | **Only Accepted Tokens Count: An Energy Accounting of Speculative Decoding Under Latency Targets** | arXiv 2026 | llm_serving,spec | [Link](https://arxiv.org/abs/2610.40287) | — |
-| **P2 · Relevant** | **One Vector or Many? Clustered Optimal-Transport Steering under Quantization** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2610.40055) | — |
-| **P0 · Strong** | **On-Device Commercial Intent Retrieval Under Size, Latency, and Privacy Constraints: A 3 MiB Retrieval System with Typed Egress Boundaries** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2610.00170) | — |
-| **P2 · Relevant** | **Octrees as an Explicit 3D Language** | arXiv 2026 | multimodal/MLLM serving | [Link](https://arxiv.org/abs/2610.02388) | — |
-| **P1 · Watch** | **NORmal: Architecting 3D Ferroelectric NOR Flash as Main Memory -- From Co-Fabricated BEOL Arrays to 200B-Class Multi-Agent LLMs in a Smartphone** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.40000) | — |
-| **P2 · Relevant** | **Neuromorphic Satellite Intelligence: A Formal Framework for Event-Driven Architectures, Spike-Based Algorithms, and Quantitative Energy-Accuracy Trade-offs** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.12471) | — |
-| **P2 · Relevant** | **Neighborhood Elites: Quality-Diversity Search for Uncertainty Quantification in Question Answering** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.40278) | — |
-| **P2 · Relevant** | **Narrow and Deep: An Ontology Tower as the Knowledge of an LLM Agent for an Industrial Equipment System** | arXiv 2026 | gen | [Link](https://arxiv.org/abs/2610.11768) | — |
-| **P1 · Watch** | **MoR-MLLM: Mixture of Recursions for Efficient Multimodal Large Language Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.08830) | — |
-| **P1 · Watch** | **MMVistaReason: Toward Open-Data and Post-Training Recipes for Multimodal Reasoning** | arXiv 2026 | multimodal/MLLM serving | [Link](https://arxiv.org/abs/2610.01352) | — |
-| **P2 · Relevant** | **MintFlow: Minimal Trajectory Intervention for Constrained Flow Matching** | arXiv 2026 | diffusion/flow acceleration | [Link](https://arxiv.org/abs/2610.02260) | — |
-| **P1 · Watch** | **MemCo: Memory-Centric Collaboration for Generalizing LLM Agents to Unseen Environments** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.07376) | — |
-| **P1 · Watch** | **Measuring and Reducing Cross-Vendor Mismatch in Language Models** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2610.05458) | — |
-| **P1 · Watch** | **MAIA: Anticipating Interaction Anomalies in Contact-Rich Manipulation via Multimodal World Models** | arXiv 2026 | physical | [Link](https://arxiv.org/abs/2610.21686) | — |
-| **P0 · Strong** | **Low-Bit GDN Recurrent-State Quantization: Global Gradient-aware Allocation and Pure-Write Sliding Windows** | arXiv 2026 | kv,quant,attn | [Link](https://arxiv.org/abs/2610.39931) | — |
-| **P0 · Strong** | **LinQuant: Functional Invariances for Low-Precision Linear Recurrences** | arXiv 2026 | llm_serving,quant | [Link](https://arxiv.org/abs/2610.39418) | — |
-| **P2 · Relevant** | **LiLib: Lifelong Air-to-Ground Path-Loss Prediction on UAVs via a Drift-Triggered Model Library** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.07111) | — |
-| **P2 · Relevant** | **Learning What to Imitate: Entropy-Aware Distribution Mixing** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.06671) | — |
-| **P2 · Relevant** | **Learning Temporal Evidence Selection for Video Anomaly Understanding** | arXiv 2026 | systems-adjacent / low-priority | [Link](https://arxiv.org/abs/2610.16299) | — |
-| **P2 · Relevant** | **Learning Safe Flow Matching Robot Policies from Binary Feasibility Oracles** | arXiv 2026 | quant,gen,physical | [Link](https://arxiv.org/abs/2610.40075) | — |
-| **P1 · Watch** | **Learning Dynamic Grasping** | arXiv 26 | fast embodied action generation with conditional flow matching | [Link](https://arxiv.org/abs/2610.14848) | — |
-| **P2 · Relevant** | **Learning Conditional Source Distribution via Flow Reversal for Temporal Flow Matching** | arXiv 2026 | diffusion/flow acceleration / Physical AI | [Link](https://arxiv.org/abs/2610.05349) | — |
-| **P2 · Relevant** | **LAS-CLIP: A Lightweight Adapter Steering Approach for CLIP's Visual Encoder** | arXiv 2026 | multimodal/MLLM serving | [Link](https://arxiv.org/abs/2610.03370) | — |
-| **P1 · Watch** | **L3G-World: Real-Time Infinite World Generation with Latent 3D Gaussian Memory** | arXiv 2026 | gen | [Link](https://arxiv.org/abs/2610.40614) | — |
-| **P0 · Strong** | **KV Cache Quantization for Diffusion Language Models** | arXiv 2026 | kv,quant,gen | [Link](https://arxiv.org/abs/2610.39853) | — |
-| **P2 · Relevant** | **Integer-Quantized Hierarchical Matrices with Adaptive Bit Allocation** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2610.40134) | — |
-| **P2 · Relevant** | **Improving Atomic-Fact Recall via Focused Views in Unstructured Knowledge Editing** | arXiv 2026 | kv_cache_long_context | [Link](https://arxiv.org/abs/2610.02772) | — |
-| **P2 · Relevant** | **Image resolution enhancement for advanced semiconductor nodes** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.05809) | — |
-| **P2 · Relevant** | **Identifiable World Models from Pretrained Diffusion Representations** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.07028) | — |
-| **P1 · Watch** | **Hy-Nomas: Towards Free-form Interactive World Generation** | arXiv 2026 | multimodal,physical | [Link](https://arxiv.org/abs/2610.36729) | — |
-| **P2 · Relevant** | **How Robust Are Neural Audio Codecs for African Speech? A Multi-Task Benchmark and the Limits of Perceptual Quality** | arXiv 2026 | multimodal_serving,compression | [Link](https://arxiv.org/abs/2610.00154) | — |
-| **P0 · Strong** | **How Much Can Language Models Gain from Test-Time Computation?** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.01110) | — |
-| **P1 · Watch** | **How Far Are We From On-Device VLM Inference? A Measurement Study on Edge NPUs** | arXiv 2026 | llm_serving,attn,multimodal,edge | [Link](https://arxiv.org/abs/2610.40039) | — |
-| **P2 · Relevant** | **Hindsight-Guided Rationale Distillation for Rare Disease Diagnosis** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.03176) | — |
-| **P0 · Strong** | **HERON: Real-Time Obstacle-Aware Reachability Maps for Mobile Manipulators** | arXiv 2026 | Embedded neural reachability / robot runtime | [Link](https://arxiv.org/abs/2610.38233) | — |
-| **P0 · Strong** | **Hardware-Native Joint Sparse-Quantization for Trillion-Scale Mixture-of-Experts** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.02241) | — |
-| **P1 · Watch** | **GTDD: Generative Test-Driven Development for AI Coding Agents with Adversarial Testing** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.02952) | — |
-| **P1 · Watch** | **GROME: GROunding Factorized MEmory into Video World Models** | arXiv 2026 | video generation; world-model memory; long-context reuse | [Link](https://arxiv.org/abs/2610.39812) | — |
-| **P2 · Relevant** | **Global Average Precision for Representation Learning** | arXiv 2026 | quant,edge | [Link](https://arxiv.org/abs/2610.09863) | — |
 | **P0 · Strong** | **FluxBin: Flexible LUT-based Ultra-low-bit LLM Inference by Algorithm-Kernel Synergy** | Fresh / preprint | LLM quantization / CUDA kernel co-design | [Link](https://arxiv.org/abs/2608.15602) | — |
-| **P2 · Relevant** | **Flow Matching for Fast Posterior Sampling in Bayesian Inverse Problems** | arXiv 2026 | diffusion/flow acceleration | [Link](https://arxiv.org/abs/2610.02377) | — |
 | **P0 · Strong** | **FlashAttention for Scalable Vector Architectures** | Fresh / preprint | efficient attention / CPU vector architecture / llama.cpp | [Link](https://arxiv.org/abs/2608.18656) | — |
-| **P2 · Relevant** | **Fast Gradient-Based Approximation of Continuous Dynamic Time Warping** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.13129) | — |
-| **P2 · Relevant** | **Fast and accurate neural triage decoding of ultra-high-rate quantum LDPC codes** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.40490) | — |
-| **P2 · Relevant** | **EvoSim: Learning to Model, Modeling to Learn** | arXiv 2026 | gen | [Link](https://arxiv.org/abs/2610.11344) | — |
 | **P0 · Strong** | **Every Expert Counts: ExactMoE for Memory-Efficient W4A16 Inference** | Fresh / preprint | MoE memory-efficient W4A16 inference / GPU slot cache | [Link](https://arxiv.org/abs/2608.15383) | — |
-| **P0 · Strong** | **Event-Driven ML Pipeline Orchestration for Manufacturing: An AWS Industry Experience** | arXiv 2026 | distributed training/inference | [Link](https://arxiv.org/abs/2610.06890) | — |
 | **P0 · Strong** | **Efficient INT8 Inference of Small NLP Models on Server CPUs with PyTorch Native Stack** | Fresh / preprint | CPU INT8 inference / PyTorch-TorchAO / TorchInductor | [Link](https://arxiv.org/abs/2608.18182) | — |
-| **P0 · Strong** | **DWISE: Denoising Workload-Informed Scheduling Engine** | arXiv 2026 | llm_serving,edge | [Link](https://arxiv.org/abs/2610.39852) | — |
-| **P1 · Watch** | **DuplexAgent-RSI: Recursive Harness Improvement for Full-Duplex Voice Agent Collaboration** | arXiv 2026 | gen,agent | [Link](https://arxiv.org/abs/2610.11299) | — |
-| **P2 · Relevant** | **DreamFormer: Dream Imitation with a Transformer World Model for Language-Conditioned Robotic Manipulation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04540) | — |
-| **P1 · Watch** | **DREAM: Dynamic Resolution Assignment For Multimodal Multi-agent Debate** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2610.05615) | — |
-| **P0 · Strong** | **DolphinRouting: Cluster-Level Binary Routing for Disaggregated LLM Inference Serving** | arXiv 2026 | llm_serving,kv,quant | [Link](https://arxiv.org/abs/2610.40292) | — |
-| **P2 · Relevant** | **Distilling Large-Scale Machine Learning Interatomic Potentials to Predict Long-Timescale Electrolyte Transport Properties** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.39513) | — |
-| **P1 · Watch** | **Decoding Geometry, Not Tokens: Efficient VLMs for Robot Affordance and Trajectory Prediction** | arXiv 2026 | llm_serving,multimodal | [Link](https://arxiv.org/abs/2610.39416) | — |
-| **P1 · Watch** | **CORE: COverage CAlibration and Evicted-Mass REdistribution for KV Cache** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2610.02235) | — |
-| **P2 · Relevant** | **Continuous-Action World Models: Learning Cross-Embodiment Spatiotemporal Dynamics Priors** | arXiv 2026 | Physical AI; action models; cross-embodiment world models | [Link](https://arxiv.org/abs/2610.40401) | — |
-| **P2 · Relevant** | **Collaborative AI agents for autonomous experimental research with solid-state quantum spins** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.40589) | — |
-| **P2 · Relevant** | **CLEAN: Psychometrically Consistent Incremental Cognitive Diagnosis under Concept-Space Expansion via Architectural Isolation** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.02278) | — |
-| **P2 · Relevant** | **Cheap Retrieval and Observation Credit Assignment from One Quantity: The Value of Information** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2610.40030) | — |
-| **P2 · Relevant** | **CAST: Credit Alignment for Cross-Tokenizer On-Policy Distillation** | arXiv 2026 | quantization | [Link](https://arxiv.org/abs/2610.13257) | — |
-| **P1 · Watch** | **Budgeted Cache Repair for Cross-Context KV-Cache Reuse** | arXiv 2026 | KV cache / LLM serving | [Link](https://arxiv.org/abs/2610.02233) | — |
-| **P2 · Relevant** | **Beyond a Better Score: Long-Horizon Agentic ML Development and Evaluation Protocol for Physics Time Series** | arXiv 2026 | efficient agent workflows / adjacent | [Link](https://arxiv.org/abs/2610.14024) | — |
-| **P1 · Watch** | **Bernoulli Flow Models: Self-Consistent Generative Modeling for Binary Data** | arXiv 2026 | llm_serving,quant,gen | [Link](https://arxiv.org/abs/2610.11362) | — |
-| **P2 · Relevant** | **BenchmarkAnything: Agent-Driven Construction of Simulator-Ready Microarchitecture Benchmarks** | arXiv 2026 | quant,gen | [Link](https://arxiv.org/abs/2610.09447) | — |
-| **P2 · Relevant** | **Backdoor Purification for LoRA-Tuned LLMs via Null-Space Projection** | arXiv 2026 | quantization | [Link](https://arxiv.org/abs/2610.00685) | — |
-| **P1 · Watch** | **Attention, Dynamic Wave and Hybrid Sequence Mixers in Language Models** | arXiv 2026 | llm_serving,kv,attn | [Link](https://arxiv.org/abs/2610.39854) | — |
-| **P1 · Watch** | **Anvil: Scaling Embodied Spatial Intelligence through Knowledge Recirculation** | arXiv 2026 | llm_serving,physical,edge | [Link](https://arxiv.org/abs/2610.21882) | — |
-| **P2 · Relevant** | **Anticipating Social Consequences with Distributional World Models** | arXiv | physical | [Link](https://arxiv.org/abs/2610.30657) | — |
 | **P0 · Strong** | **Algorithm-Architecture Co-Design for Efficient VLA Inference via Speculative Inference and Verification** | Fresh / preprint | VLA speculative inference / algorithm-architecture co-design | [Link](https://arxiv.org/abs/2608.15636) | — |
-| **P0 · Strong** | **Algebraic Integer Quantization for Machine Learning Applications** | arXiv 2026 | quantization_hardware_co_design | [Link](https://arxiv.org/abs/2610.12494) | — |
-| **P1 · Watch** | **AEGIS: Differentiable Mars Climate Model with Neural Closures** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.04081) | — |
-| **P2 · Relevant** | **Adaptive Utilization of Low-Rank Adaptation via Conditioned Gating** | arXiv 2026 | quantization | [Link](https://arxiv.org/abs/2610.05800) | — |
-| **P2 · Relevant** | **ACD-GS: Asymmetric Curvature-aware Densification for 3D Gaussian Splatting** | arXiv 2026 | quant,sparse | [Link](https://arxiv.org/abs/2610.39399) | — |
-| **P2 · Relevant** | **Accurate MRI-free PET Quantification and Reliability Assessment via CT-to-MRI Synthesis and Conformal Prediction** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.40478) | — |
-| **P0 · Strong** | **AB-Attention: Accurate Block Attention for Accelerating Video Diffusion Transformers** | arXiv 2026 | sparse | [Link](https://arxiv.org/abs/2610.39663) | — |
-| **P0 · Strong** | **A Unified Hessian-Guided Framework for Post-Training Quantization** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2610.40345) | — |
-| **P2 · Relevant** | **A Systematic Study of Semantic ID Spaces for Generative Information Retrieval** | arXiv 2026 | efficient reasoning/agent systems | [Link](https://arxiv.org/abs/2610.08732) | — |
-| **P1 · Watch** | **A Geometric Decision Procedure for STL Feasibility and Repair** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.00199) | — |
-| **P2 · Relevant** | **A Fine-Grained Analysis of the LoRA Fine-Tuning Landscape with Implications for Data Selection** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2610.06542) | — |
 
-## 🏛️ Classical / Historical · 498 canonical
+## 🏛️ Classical / Historical · 525 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -705,8 +735,11 @@
 | **Canonical** | **HAQ: Hardware-Aware Automated Quantization with Mixed Precision** | arXiv 18 | quantization; edge/cloud heterogeneous AI systems; hardware-aware NAS | [Link](https://arxiv.org/abs/1811.08886) | [Repo](https://hanlab.mit.edu/projects/haq) |
 | **Canonical** | **APQ: Joint Search for Network Architecture, Pruning and Quantization Policy** | arXiv 20 | quantization,pruning,edge AI,hardware-aware NAS | [Link](https://arxiv.org/abs/2006.08509) | [Repo](https://hanlab.mit.edu/projects/apq) |
 | **Canonical** | **GAN Compression: Efficient Architectures for Interactive Conditional GANs** | arXiv 20 | video/image generation acceleration,quantization/pruning,edge AI | [Link](https://arxiv.org/abs/2003.08936) | [Repo](https://hanlab.mit.edu/projects/gancompression) |
+| **Canonical** | **PMI-Masking: Principled masking of correlated spans** | arXiv 20 | training efficiency; masked-language-model pretraining | [Link](https://arxiv.org/abs/2010.01825) | — |
 | **Canonical** | **SpAtten: Efficient Sparse Attention Architecture with Cascade Token and Head Pruning** | arXiv 20 | efficient attention,sparsity,quantization,hardware accelerators | [Link](https://arxiv.org/abs/2012.09852) | [Repo](https://hanlab.mit.edu/projects/spatten) |
 | **Canonical** | **A Multi-Engine Dataflow for MoE Decoding on Scratchpad-Based Tensor Accelerators** | arXiv 2026 | MoE systems/accelerators / hardware architecture | [Link](https://arxiv.org/abs/2609.21137) | — |
+| **Canonical** | **A Tilted Bowl Is Not a Slippery Slope: Compressing Looped Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.39277) | — |
+| **Canonical** | **Algebraic Integer Quantization for Machine Learning Applications** | arXiv 2026 | quantization_hardware_co_design | [Link](https://arxiv.org/abs/2610.12494) | — |
 | **Canonical** | **All for 1-Bit: Towards Genuine 1-Bit Post-Training Quantization for LLMs** | arXiv 2026 | quantization / LLM inference / genuine 1-bit PTQ | [Link](https://arxiv.org/abs/2609.06161) | — |
 | **Canonical** | **Analytical Resource Management for Fine-grained MoE Computation-Communication Overlap** | arXiv 2026 | MoE systems/accelerators / distributed inference / compute-communication overlap | [Link](https://arxiv.org/abs/2609.07536) | — |
 | **Canonical** | **ANEForge: Python for direct computation on the Apple Neural Engine** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2606.17090) | — |
@@ -736,6 +769,7 @@
 | **Canonical** | **Efficiently Distributed Federated Learning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.19972) | — |
 | **Canonical** | **EFQ-Softmax: Exp-Free Quantization for Softmax** | arXiv 2026 | quantization / efficient attention / low-bit inference kernels | [Link](https://arxiv.org/abs/2609.09721) | — |
 | **Canonical** | **ERASE: Eliminating Redundant Visual Tokens via Adaptive Two-Stage Token Pruning** | arXiv 2026 | llm_serving,sparse,multimodal | [Link](https://arxiv.org/abs/2605.09982) | — |
+| **Canonical** | **Event-Driven ML Pipeline Orchestration for Manufacturing: An AWS Industry Experience** | arXiv 2026 | distributed training/inference | [Link](https://arxiv.org/abs/2610.06890) | — |
 | **Canonical** | **EviRCA: Decoupling Evidence Extraction from Reasoning for Microservice Root-Cause Analysis** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.19825) | — |
 | **Canonical** | **Exact Quantile Balancing and Load-Error Injection for Mixture-of-Experts** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.28053) | — |
 | **Canonical** | **FAME: An FPGA-Based Platform for Approximate Multipliers Evaluation with Pattern-Guided DNN Retraining** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.17730) | — |
@@ -752,12 +786,16 @@
 | **Canonical** | **Grid Games: The Power of Multiple Grids for Quantizing Large Language Models** | arXiv 2026 | LLM quantization; microscaled FP4; adaptive grids; hardware data formats | [Link](https://arxiv.org/abs/2605.12327) | [Repo](https://github.com/IST-DASLab/GridGames) |
 | **Canonical** | **GSQ: Highly-Accurate Low-Precision Scalar Quantization for LLMs via Gumbel-Softmax Sampling** | arXiv 2026 | LLM quantization / 1-3 bit scalar PTQ / kernel-compatible deployment / MoE compression | [Link](https://arxiv.org/abs/2604.18556) | [Repo](https://github.com/IST-DASLab/GSQ) |
 | **Canonical** | **Hardware-Accelerated Instance Segmentation for Resource-Constrained Space Robotics with Criticality Analysis** | arXiv 2026 | VLA/WAM/Physical AI serving / edge accelerator / quantization / reliable robotics inference | [Link](https://arxiv.org/abs/2609.02219) | — |
+| **Canonical** | **Hardware-Native Joint Sparse-Quantization for Trillion-Scale Mixture-of-Experts** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.02241) | — |
 | **Canonical** | **HoliBench: A Cross-Platform Benchmarking and Deployment Toolkit for Foundation Models in CPS-IoT Applications** | arXiv 2026 | edge/cloud/heterogeneous AI systems / benchmarking / deployment | [Link](https://arxiv.org/abs/2609.12412) | — |
+| **Canonical** | **How Much Can Language Models Gain from Test-Time Computation?** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.01110) | — |
 | **Canonical** | **HyQuant: Hybrid-Precision Quantization for LLM Attention** | arXiv 2026 | quantization / KV cache / efficient attention | [Link](https://arxiv.org/abs/2608.27875) | [Repo](https://github.com/jerrysfls/HyQuant) |
 | **Canonical** | **I-Parakeet: Integer-Only Conformer ASR on Mobile NPU** | arXiv 2026 | quantization; edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2609.30846) | — |
 | **Canonical** | **InfoQuant: Shaping Activation Distributions for Low-Bit LLM Quantization** | arXiv 2026 | quant | [Link](https://arxiv.org/abs/2605.26175) | — |
 | **Canonical** | **Interface-Aware KV Cache Quantization for Dense On-Chip NVM in Long-Context LLM Decoding** | arXiv 2026 | KV cache/long-context / quantization / NVM / accelerator co-design | [Link](https://arxiv.org/abs/2609.05764) | — |
+| **Canonical** | **JARQ: Joint Alternating Refinement for Quantization** | arXiv 2026 | quantization | [Link](https://arxiv.org/abs/2609.38599) | — |
 | **Canonical** | **JustQuant: You Don't Need Smoothing, SVD, or Rotation for 4-Bit Activation Quantization** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33601) | — |
+| **Canonical** | **LampAttention: Look-Ahead Mixed-Precision FlashAttention for Dedicated Accelerators** | arXiv 2026 | efficient_attention,quantization,accelerator | [Link](https://arxiv.org/abs/2609.39361) | — |
 | **Canonical** | **LEAP-NBV: Lightweight Edge Active-Perception for Foundation-Model Next-Best-View Planning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.23974) | — |
 | **Canonical** | **LearnPruner: Rethinking Attention-based Token Pruning in Vision Language Models** | arXiv 2026 | sparse,multimodal,edge | [Link](https://arxiv.org/abs/2604.23950) | — |
 | **Canonical** | **Lightweight Vision Transformer Compression for On-Device Plant Disease Detection in Resource-Constrained Agricultural Field Conditions** | arXiv 2026 | quantization / sparsity-pruning / edge AI deployment | [Link](https://arxiv.org/abs/2609.05334) | — |
@@ -768,6 +806,7 @@
 | **Canonical** | **LPM: Industrial-Scale Generative Video Restoration** | arXiv 2026 | video/image generation acceleration; diffusion serving; industrial video restoration; quantization; TensorRT-LLM | [Link](https://arxiv.org/abs/2607.13460) | — |
 | **Canonical** | **Lynx: Progressive Speculative Quantization for accelerating KV Transfer in Long-Context Inference** | arXiv 2026 | LLM serving / disaggregated inference / KV cache transfer / progressive quantization / speculative decoding | [Link](https://arxiv.org/abs/2607.01831) | — |
 | **Canonical** | **MatGPTQ: Accurate and Efficient Post-Training Matryoshka Quantization** | arXiv 2026 | LLM quantization; Matryoshka precision; PTQ; mixed-precision kernels | [Link](https://arxiv.org/abs/2602.03537) | [Repo](https://github.com/IST-DASLab/MatGPTQ) |
+| **Canonical** | **MiCoPro: End-to-End Mixed Precision HW/SW Co-design with HW-aware Proxy Model** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2608.06916) | — |
 | **Canonical** | **Mind the Delay: Latency-aware Query Routing for Heterogeneous LLM pools** | arXiv 2026 | llm_serving,edge | [Link](https://arxiv.org/abs/2607.18253) | — |
 | **Canonical** | **Mix-Quant: Quantized Prefilling, Precise Decoding for Agentic LLMs** | arXiv 2026 | agentic LLM inference; quantized prefill; NVFP4; prefill-decode disaggregation | [Link](https://arxiv.org/abs/2605.20315) | [Repo](https://github.com/haiquanlu/Mix-Quant) |
 | **Canonical** | **MiX: Micro-Inverted-Scaling for End-to-End Low-Bit Vision-Language Model Acceleration** | arXiv 2026 | quantization; accelerator | [Link](https://arxiv.org/abs/2609.19683) | — |
@@ -778,7 +817,9 @@
 | **Canonical** | **NCCLZ: Compression-Enabled GPU Collectives with Decoupled Quantization and Entropy Coding** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2605.12396) | — |
 | **Canonical** | **OCGQuant: Outlier-Companion Grouping for NVFP4 Quantization** | arXiv 2026 | quantization / NVFP4 / LLM inference / activation outliers | [Link](https://arxiv.org/abs/2609.00066) | [Repo](https://github.com/Eshamont/OCGQuant) |
 | **Canonical** | **OmniKVQuant: KV Cache Quantization for Omni-LLMs** | arXiv 2026 | KV cache/long-context / quantization / multimodal serving | [Link](https://arxiv.org/abs/2609.11582) | — |
+| **Canonical** | **On-Device Commercial Intent Retrieval Under Size, Latency, and Privacy Constraints: A 3 MiB Retrieval System with Typed Egress Boundaries** | arXiv 2026 | Efficient ML / systems | [Link](https://arxiv.org/abs/2610.00170) | — |
 | **Canonical** | **P4Q: Co-designing Token Pruning and Quantization for Vision-Language Model Acceleration** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34867) | — |
+| **Canonical** | **Parametric Trajectory Distillation for Few-Step Video Generation** | arXiv 2026 | llm_serving,gen | [Link](https://arxiv.org/abs/2610.11498) | — |
 | **Canonical** | **Per-Query Gating of LLM Rerankers for Multi-Hop Retrieval** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.22880) | — |
 | **Canonical** | **Perplexity Cost Understates What Activation Quantisation Breaks** | arXiv 2026 | Efficient ML systems / cross-domain | [Link](https://arxiv.org/abs/2609.23125) | — |
 | **Canonical** | **Predict Before You Deploy: Offline Prediction of Quantization-Induced Task Degradation for World Action Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.19441) | — |
@@ -791,7 +832,9 @@
 | **Canonical** | **PulseQuant: Propagation-Guided Subspace Correction for 4-Bit Video Diffusion Transformers** | arXiv 2026 | quantization | [Link](https://arxiv.org/abs/2609.33384) | — |
 | **Canonical** | **Q-ARVD: Quantizing Autoregressive Video Diffusion Models** | arXiv 2026 | video generation acceleration; autoregressive video diffusion; quantization; Triton kernels | [Link](https://arxiv.org/abs/2605.21072) | [Repo](https://github.com/tsa18/Q-ARVD) |
 | **Canonical** | **Q-Drift: Quantization-Aware Drift Correction for Diffusion Model Sampling** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2603.18095) | — |
+| **Canonical** | **Q-MINO: A Minimal-Norm Method for Quantization-Aware Training** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.00738) | — |
 | **Canonical** | **Q-WAM: 4-Bit Quantization of World Action Models with Action-Subspace Protection** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.33269) | — |
+| **Canonical** | **QATFactory: A Versatile, Deployment-Aligned Framework for Quantization-aware Training and Distillation of LLMs** | arXiv 2026 | quant,llm_serving | [Link](https://arxiv.org/abs/2609.39223) | — |
 | **Canonical** | **QuantForge: Discovering Residual Decompositions for MXFP4 Post-Training Quantization** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34680) | — |
 | **Canonical** | **Quantile Head for Vision-Language-Action Models** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.34061) | — |
 | **Canonical** | **Quantization Error Is Spectrally Flat: A Single Random Probe Is a Calibrated, Data-Free Sensitivity Estimator, with Application to Budget-Targeted Mixed-Precision Quantization** | arXiv 2026 | quantization,mixed_precision | [Link](https://arxiv.org/abs/2609.33923) | — |
@@ -802,6 +845,7 @@
 | **Canonical** | **QuantWM: Temporally Consistent 2-Bit KV Cache Quantization for World Models and Video Generation** | arXiv 2026 | WAM/video generation; KV quantization | [Link](https://arxiv.org/abs/2609.26425) | — |
 | **Canonical** | **QUASAR: Lowering the Loss Floor of Quantization-Aware Training with Loss-Aware Reconstruction** | arXiv 2026 | quantization / quantization-aware training / low-bit LLM deployment / NVFP4 | [Link](https://arxiv.org/abs/2608.13966) | [Repo](https://vincentcounathe.github.io/) |
 | **Canonical** | **R2CC: Reliable and Resilient Collective Communication for Distributed Learning** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2512.25059) | — |
+| **Canonical** | **RATIO: Reasoning Analysis and Token-level Inference Optimization for Quantized Reasoning Models** | arXiv 2026 | quantization,efficient_reasoning | [Link](https://arxiv.org/abs/2609.39801) | — |
 | **Canonical** | **REACT: A Fully Spiking State-Space Model for Real-Time Event-Driven Temporal Perception** | arXiv 2026 | physical_ai_edge_perception | [Link](https://arxiv.org/abs/2609.19204) | — |
 | **Canonical** | **Replay the Curvature: Accurate and Scalable NVFP4 Quantization for Large Language Model Inference** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.36654) | — |
 | **Canonical** | **ResidualKV: Residual-Based KV Cache Compression for Efficient Long-Context Inference** | arXiv 2026 | kv,long_context,quant,sparse | [Link](https://arxiv.org/abs/2602.08005) | — |
@@ -816,6 +860,7 @@
 | **Canonical** | **Self-Indexing Attention for Compression-Compatible Sparse Long-Context LLM Inference** | arXiv 2026 | kv,quant | [Link](https://arxiv.org/abs/2609.13205) | — |
 | **Canonical** | **SemKV: Semantic Mixed-Precision KV Cache Quantization Guided by the Quality Cliff for Long-Context LLM Inference** | arXiv 2026 | KV cache/long-context / quantization | [Link](https://arxiv.org/abs/2608.28911) | — |
 | **Canonical** | **ShamAN-Q: Shampoo Augmented NanoQuant for Sub-1-bit LLM Weights** | arXiv 2026 | quantization,llm | [Link](https://arxiv.org/abs/2609.38521) | — |
+| **Canonical** | **ShatterQuant: Breaking Uniform Precision with Block-Wise Mixed-Precision on a Systolic Transformer Hardware Accelerator** | arXiv 2026 | mixed_precision_ai_accelerator | [Link](https://arxiv.org/abs/2610.00207) | — |
 | **Canonical** | **Shift-Accumulate Attention: Multiplier-Free Query--Key Products for Transformer Decoding** | arXiv 2026 | quantization / efficient attention / KV cache / GPU kernels | [Link](https://arxiv.org/abs/2609.09208) | — |
 | **Canonical** | **Simthesizer: An Agent-Driven Simulation Framework for LLM Serving Systems** | arXiv 2026 | LLM serving / serving simulator / agentic workloads / disaggregated serving / speculative decoding / KV cache | [Link](https://arxiv.org/abs/2608.24650) | [Repo](https://github.com/casys-kaist/Simthesizer) |
 | **Canonical** | **SkipCat: Rank-Maximized Low-Rank Compression of Large Language Models via Shared Projection and Block Skipping** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2512.13494) | — |
@@ -824,6 +869,7 @@
 | **Canonical** | **SparKV: Overhead-Aware KV Cache Loading for Efficient On-Device LLM Inference** | arXiv 2026 | llm_serving,kv,edge | [Link](https://arxiv.org/abs/2604.21231) | — |
 | **Canonical** | **Specter: Fast MoE Inference via Quantization-Enabled Multi-Step Speculative Offloading** | arXiv 2026 | llm_serving,spec,quant,moe,edge | [Link](https://arxiv.org/abs/2511.14102) | — |
 | **Canonical** | **Statistically-Lossless Quantization of Large Language Models** | arXiv 2026 | LLM quantization; statistically-lossless compression; low-bit inference; optimized kernels | [Link](https://arxiv.org/abs/2605.02404) | [Repo](https://github.com/IST-DASLab/SLQ) |
+| **Canonical** | **SteerQuant: Steering Quantization Error with Action-Guided Scaling in World-Action Models** | arXiv 2026 | physical,quant,gen | [Link](https://arxiv.org/abs/2609.39056) | — |
 | **Canonical** | **Streaming Communication in Multi-Agent Reasoning** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2606.05158) | — |
 | **Canonical** | **Structured Transforms for Low-Overhead Quantization of Language Models** | arXiv 2026 | quantization / low-overhead LLM compression | [Link](https://arxiv.org/abs/2609.11687) | — |
 | **Canonical** | **Task-Oriented Visual Feature Compression via Residual Vector Quantization for Device-Edge Multimodal Inference** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.37090) | — |
@@ -836,6 +882,7 @@
 | **Canonical** | **Towards Full Pipeline FP8 Reinforcement Learning for LLMs** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.22870) | — |
 | **Canonical** | **Train Where the Quantized Model Goes: On-Policy Distillation for Low-Bit Reasoning** | arXiv 2026 | quantization | [Link](https://arxiv.org/abs/2609.26708) | — |
 | **Canonical** | **TS-DP: Reinforcement Speculative Decoding For Temporal Adaptive Diffusion Policy Acceleration** | arXiv 2026 | llm_serving,spec,gen,physical | [Link](https://arxiv.org/abs/2512.15773) | — |
+| **Canonical** | **TTS-Q: Perception-Guided Post-Training Quantization of Text-to-Speech Diffusion Transformers** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2610.12474) | — |
 | **Canonical** | **UE5M3 FP4 Block Scaling for Stable Language Model Pretraining** | arXiv 2026 | quantization / efficient training / low-precision systems | [Link](https://arxiv.org/abs/2609.02846) | — |
 | **Canonical** | **UltraQuant: 4-bit KV Caching for Context-Heavy Agents** | arXiv 2026 | KV cache/long-context / quantization / efficient reasoning-agent systems / serving | [Link](https://arxiv.org/abs/2606.20474) | — |
 | **Canonical** | **Understanding Quantization of Optimizer States in LLM Pre-training: Dynamics of State Staleness and Effectiveness of State Resets** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2603.16731) | — |
@@ -848,6 +895,7 @@
 | **Canonical** | **WaterKron and FlipFlop Hessian: Information-Theoretically Grounded Quantization with Kronecker-factored Hessians** | arXiv 2026 | quantization | [Link](https://arxiv.org/abs/2609.14706) | — |
 | **Canonical** | **When to Call an LLM: A Confidence-Gated Hybrid for Cost-Effective Emotion Recognition in Conversational AI** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.17977) | — |
 | **Canonical** | **Where Post-Training Quantization Breaks Text Embedders: A Measured Map Across Four Embedder Families** | arXiv 2026 |  | [Link](https://arxiv.org/abs/2609.16391) | — |
+| **Canonical** | **XOR-Trellis: Ultra-Low-Complexity Dequantization and Curvature-Aware Hadamard-Free LLM Quantization** | arXiv 2026 | efficient_ml | [Link](https://arxiv.org/abs/2610.00432) | — |
 | **Canonical** | **ZenFlow: Enabling Stall-Free Offloading for LLM Training** | arXiv 2026 | llm_serving | [Link](https://arxiv.org/abs/2505.12242) | — |
 | **Canonical** | **ZeRO-Prefill: Zero Redundancy Overheads in MoE Prefill Serving** | arXiv 2026 | llm_serving,kv,moe,dist | [Link](https://arxiv.org/abs/2605.02960) | — |
 | **Canonical** | **ZYT-World: A Real-Time Controllable World Model for Closed-Loop Autonomous-Driving Simulation** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2609.21712) | — |
@@ -856,6 +904,7 @@
 | **Canonical** | **Fine-tuning Language Models over Slow Networks using Activation Compression with Guarantees** | arXiv 22 | distributed training; activation compression; communication efficiency | [Link](https://arxiv.org/abs/2206.01299) | — |
 | **Canonical** | **SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models** | arXiv 22 | quantization; LLM serving; GPU kernels | [Link](https://arxiv.org/abs/2211.10438) | — |
 | **Canonical** | **AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration** | arXiv 23 | quantization; edge/cloud heterogeneous AI; GPU kernels; multimodal serving | [Link](https://arxiv.org/abs/2306.00978) | — |
+| **Canonical** | **Compress, Then Prompt: Improving Accuracy-Efficiency Trade-off of LLM Inference with Transferable Prompt** | arXiv 23 | LLM compression and inference | [Link](https://arxiv.org/abs/2305.11186) | — |
 | **Canonical** | **Accurate Compression of Text-to-Image Diffusion Models via Vector Quantization** | arXiv 24 | diffusion/flow acceleration | [Link](https://arxiv.org/abs/2409.00492) | — |
 | **Canonical** | **BitDelta: Your Fine-Tune May Only Be Worth One Bit** | arXiv 24 | quantization / multi-tenant serving | [Link](https://arxiv.org/abs/2402.10193) | — |
 | **Canonical** | **COAT: Compressing Optimizer states and Activation for Memory-Efficient FP8 Training** | arXiv 24 | FP8 training, optimizer-state and activation compression | [Link](https://arxiv.org/abs/2410.19313) | [Repo](https://github.com/NVlabs/COAT) |
@@ -885,6 +934,7 @@
 | **Canonical** | **SVDQuant: Absorbing Outliers by Low-Rank Components for 4-Bit Diffusion Models** | arXiv 24 | 4-bit diffusion quantization and fused inference engine | [Link](https://arxiv.org/abs/2411.05007) | [Repo](https://github.com/mit-han-lab/nunchaku) |
 | **Canonical** | **TinyAgent: Function Calling at the Edge** | arXiv 24 | efficient_ml_research | [Link](https://arxiv.org/abs/2409.00608) | — |
 | **Canonical** | **Towards Accurate and Efficient Sub-8-Bit Integer Training** | arXiv 24 | quantized_training | [Link](https://arxiv.org/abs/2411.10948) | — |
+| **Canonical** | **Towards Low-bit Communication for Tensor Parallel LLM Inference** | arXiv 24 | LLM serving | [Link](https://arxiv.org/abs/2411.07942) | — |
 | **Canonical** | **TurboAttention: Efficient Attention Approximation For High Throughputs LLMs** | arXiv 24 | efficient_attention_quantization | [Link](https://arxiv.org/abs/2412.08585) | — |
 | **Canonical** | **ViDiT-Q: Efficient and Accurate Quantization of Diffusion Transformers for Image and Video Generation** | arXiv 24 | diffusion_quantization | [Link](https://arxiv.org/abs/2406.02540) | — |
 | **Canonical** | **BlockDialect: Block-wise Fine-grained Mixed Format Quantization for Energy-Efficient LLM Inference** | arXiv 25 | llm_quantization_hardware | [Link](https://arxiv.org/abs/2501.01144) | — |
@@ -931,6 +981,8 @@
 | **Canonical** | **FlexLLM: Composable HLS Library for Flexible Hybrid LLM Accelerator Design** | CoRR 2026 | edge/cloud/heterogeneous AI systems / FPGA HLS / LLM accelerator / quantization / long context | [Link](https://arxiv.org/abs/2601.15710) | — |
 | **Canonical** | **Hardware-Aware FP4 FlashAttention-4** | CoRR 2026 | efficient attention / quantization / GPU kernel / Blackwell FP4 | [Link](https://arxiv.org/abs/2609.04105) | [Repo](https://github.com/MrHuff/fp4-fa4) |
 | **Canonical** | **Why Gated DeltaNet Survives 4-Bit Quantization: NVFP4 W4A4 for the Recurrent Half of a Hybrid 27B LLM** | CoRR 2026 | quantization / hybrid attention-SSM LLM / NVFP4 W4A4 / KV cache | [Link](https://arxiv.org/abs/2609.04098) | — |
+| **Canonical** | **BinaryAttention: One-Bit QK-Attention for Vision and Diffusion Transformers** | CVPR 2026 | quantization; efficient attention; GPU kernels | [Link](https://arxiv.org/abs/2603.09582) | [Repo](https://github.com/EdwardChasel/BinaryAttention) |
+| **Canonical** | **CoD: A Diffusion Foundation Model for Image Compression** | CVPR 2026 | diffusion/flow acceleration / model training efficiency / image compression | [Link](https://openaccess.thecvf.com/content/CVPR2026/html/Jia_CoD_A_Diffusion_Foundation_Model_for_Image_Compression_CVPR_2026_paper.html) | — |
 | **Canonical** | **DeltaQuant: 4-bit Video Diffusion Models with Spatiotemporal Delta Smoothing** | CVPR 2026 | video diffusion / W4A4 quantization / efficient kernels | [Link](https://openaccess.thecvf.com/content/CVPR2026/html/Li_DeltaQuant_4-bit_Video_Diffusion_Models_with_Spatiotemporal_Delta_Smoothing_CVPR_2026_paper.html) | — |
 | **Canonical** | **QuantVLA: Scale-Calibrated Post-Training Quantization for Vision-Language-Action Models** | CVPR 2026 | VLA / PTQ / Physical AI / diffusion action head | [Link](https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_QuantVLA_Scale-Calibrated_Post-Training_Quantization_for_Vision-Language-Action_Models_CVPR_2026_paper.html) | — |
 | **Canonical** | **StreamingTOM: Streaming Token Compression for Efficient Video Understanding** | CVPR 2026 | streaming video / token compression / bounded KV cache | [Link](https://openaccess.thecvf.com/content/CVPR2026/html/Chen_StreamingTOM_Streaming_Token_Compression_for_Efficient_Video_Understanding_CVPR_2026_paper.html) | — |
@@ -1018,6 +1070,7 @@
 | **Canonical** | **BitMoD: Bit-serial Mixture-of-Datatype LLM Acceleration** | HPCA 2025 | LLM quantization; bit-serial mixed-datatype accelerator | [Link](https://arxiv.org/abs/2411.11745) | — |
 | **Canonical** | **M-ANT: Efficient Low-bit Group Quantization for LLMs via Mathematically Adaptive Numerical Type** | HPCA 2025 | group-adaptive quantization; KV cache and accelerator | [Link](https://arxiv.org/abs/2502.18755) | — |
 | **Canonical** | **AQPIM: Breaking the PIM Capacity Wall for LLMs with In-Memory Activation Quantization** | HPCA 2026 | PIM / activation quantization / long-context LLM | [Link](https://arxiv.org/abs/2604.18137) | — |
+| **Canonical** | **BASES: Enabling Energy-Efficient and Error-Resilient Analog CIM Acceleration via Reformation of Coding Bases** | HPCA 2026 | quantization and ML accelerator arithmetic | [Link](https://2026.hpca-conf.org/details/hpca-2026-main-conference/31/BASES-Enabling-Energy-Efficient-and-Error-Resilient-Analog-CIM-Acceleration-via-Reformation-of-Coding-Bases) | — |
 | **Canonical** | **BitDecoding: Unlocking Tensor Cores for Long-Context LLMs with Low-Bit KV Cache** | HPCA 2026 | low-bit KV cache / Tensor Core decoding | [Link](https://arxiv.org/abs/2503.18773) | — |
 | **Canonical** | **GyRot: Leveraging Hidden Synergy between Rotation and Fine-grained Group Quantization for Low-bit LLM Inference** | HPCA 2026 | low-bit LLM quantization / accelerator co-design | [Link](https://arxiv.org/abs/2607.27694) | — |
 | **Canonical** | **Memory-Efficient Generative Models via Product Quantization** | ICCV 2025 | generative-model quantization / memory-efficient inference | [Link](https://openaccess.thecvf.com/content/ICCV2025/html/Shao_Memory-Efficient_Generative_Models_via_Product_Quantization_ICCV_2025_paper.html) | — |
@@ -1117,9 +1170,9 @@
 | **Canonical** | **OASIS: Outlier-Aware LUT-Based GEMM with Dual-Side Quantization for LLM Inference Acceleration** | ISCA 2026 | edge speculative reasoning + quantization + memory-system + generative inference accelerators | [Link](https://arxiv.org/abs/2507.23035) | — |
 | **Canonical** | **Omni-LUT: Energy-Efficient LUT-based Accelerator with Hardware-Aware KV Cache Quantization** | ISCA 2026 | LLM inference accelerator / LUT / KV-cache quantization | [Link](https://www.iscaconf.org/isca2026/program/) | — |
 | **Canonical** | **Raptor** | ISCA 2026 | edge speculative reasoning + quantization + memory-system + generative inference accelerators | — | — |
-| **Canonical** | **SHyLA: 3D-Stacked NVM-DRAM Hybrid LLM-Inference Architecture Exploiting Data and Memory Heterogeneity** | ISCA 2026 | edge speculative reasoning + quantization + memory-system + generative inference accelerators | [Link](https://he-liu-ooo.github.io/files/papers/isca2026-shyla-paper.pdf) | — |
+| **Canonical** | **SHyLA: 3D-Stacked NVM-DRAM Hybrid LLM-Inference Architecture Exploiting Data and Memory Heterogeneity** | ISCA 2026 | edge speculative reasoning + quantization + memory-system + generative inference accelerators | [Link](https://www.iscaconf.org/isca2026/program/) | — |
 | **Canonical** | **SingularBit: Exploiting Synergy of Singular Value Decomposition and Low-Bit Quantization for Weight and KV Compression in LLM Inference** | ISCA 2026 | quantization / KV compression / SVD | [Link](https://www.iscaconf.org/isca2026/program/) | — |
-| **Canonical** | **SMOOTH: Hardware-Assisted Fine-Grained On-Chip Memory Management for Efficient On-Device LLM Inference** | ISCA 2026 | edge speculative reasoning + quantization + memory-system + generative inference accelerators | [Link](https://doi.org/10.1109/isca66397.2026.00057) | — |
+| **Canonical** | **SMOOTH: Hardware-Assisted Fine-Grained On-Chip Memory Management for Efficient On-Device LLM Inference** | ISCA 2026 | edge speculative reasoning + quantization + memory-system + generative inference accelerators | [Link](https://www.iscaconf.org/isca2026/program/) | — |
 | **Canonical** | **A 12nm 4Mb 104.56-to-137.75TFLOPS/W Charge-Trap Transistor-Based Computing-in-Memory Macro Using Analog-Predict-Digital-Compute for AI Edge Devices** | ISSCC 2026 | edge AI / charge-trap compute-in-memory / mixed INT-FP4 | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409272) | — |
 | **Canonical** | **A 14.08-to-135.69Token/s ReRAM-on-Logic Stacked Outlier-Free Large-Language-Model Accelerator with Block-Clustered Weight-Compression and Adaptive Parallel-Speculative-Decoding** | ISSCC 2026 | LLM inference accelerator / speculative decoding / low-bit quantization / ReRAM-on-logic | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409211) | — |
 | **Canonical** | **A 147TOPS/W, 250TOPS/mm2, Fully Synthesizable, Digital Compute-in-Memory Accelerator Supporting INT8xINT8 with Zero-Point Quantization in Intel 18A Technology** | ISSCC 2026 | edge/cloud/heterogeneous AI systems / compute-in-memory / INT8 quantization accelerator | [Link](https://doi.org/10.1109/ISSCC49663.2026.11409207) | — |
@@ -1160,19 +1213,23 @@
 | **Canonical** | **TRIM: Accelerating High-Dimensional Vector Similarity Search with Enhanced Triangle-Inequality-Based Pruning** | SIGMOD 2026 | High-dimensional vector retrieval; ANN; pruning; quantization; disk-based search | [Link](https://arxiv.org/abs/2508.17828) | — |
 | **Canonical** | **EdgeGen: Efficient LLM-Empowered Model Generation with Quantization-Aware NAS** | The Web Conference 2026 | edge AI / quantization-aware NAS / LLM-guided model generation | [Link](https://doi.org/10.1145/3774904.3792394) | — |
 | **Canonical** | **Energy-Efficient and Dequantization-Free Quantization of LLMs: A Spiking Neural Network Approach to Salient Value Mitigation** | The Web Conference 2026 | LLM quantization / edge energy efficiency / SNN | [Link](https://arxiv.org/abs/2510.19498) | — |
+| **Canonical** | **AssyLLM: Efficient Federated Fine-tuning of LLMs via Assembling Pre-trained Blocks** | USENIX ATC 2025 | LLM fine-tuning / federated learning | [Link](https://www.usenix.org/conference/atc25/presentation/zhan) | — |
 | **Canonical** | **Katz** | USENIX ATC 2025 | production KV-cache + quantized-kernel compiler + diffusion workflow serving | [Link](https://www.usenix.org/system/files/atc25-li-suyi-katz.pdf) | — |
 | **Canonical** | **KVCache Cache in the Wild** | USENIX ATC 2025 | production KV-cache + quantized-kernel compiler + diffusion workflow serving | [Link](https://www.usenix.org/system/files/atc25-wang-jiahao.pdf) | — |
 | **Canonical** | **QFactory** | USENIX ATC 2025 | production KV-cache + quantized-kernel compiler + diffusion workflow serving | [Link](https://www.usenix.org/system/files/atc25-zhang-qihao.pdf) | — |
+| **Canonical** | **QFactory: Accelerating Quantized Large Language Model Serving with Qtile Graphs** | USENIX ATC 2025 | quantization / LLM serving | [Link](https://www.usenix.org/conference/atc25/presentation/zhang-qihao) | — |
 | **Canonical** | **Silicon-Oracle (Soracle): A Multi-Modal Autoregressive Model Accelerator for Context-Aware Assistance on Mobile Platform** | VLSI Symposium 2026 | multimodal autoregressive accelerator / mobile inference | [Link](https://doi.org/10.1109/VLSITechnologyandCir65830.2026.11577228) | — |
 | **Canonical** | **SPECTRA: An Asymmetric-Precision Speculative Decoding LLM Accelerator with Product Quantization and Reconfigurable Flip-Flop Buffers in 28nm CMOS** | VLSI Symposium 2026 | speculative decoding / LLM accelerator | [Link](https://doi.org/10.1109/VLSITechnologyandCir65830.2026.11577608) | — |
 | **Canonical** | **6Bit-Diffusion: Inference-Time Mixed-Precision Quantization for Video Diffusion Models** | Fresh / preprint | quantization | [Link](https://arxiv.org/abs/2603.18742) | — |
 | **Canonical** | **Accurate INT8 Training Through Dynamic Block-Level Fallback** | Fresh / preprint | quantization | [Link](https://arxiv.org/abs/2503.08040) | — |
 | **Canonical** | **EdgeFlow: Fast Cold Starts for LLMs on Mobile Devices** | Fresh / preprint | edge/cloud/heterogeneous AI systems / mobile LLM inference / quantization / NPU runtime | [Link](https://arxiv.org/abs/2604.09083) | — |
 | **Canonical** | **FP6-LLM: Efficiently Serving Large Language Models Through FP6-Centric Algorithm-System Co-Design** | Fresh / preprint | LLM quantization kernel serving | [Link](https://arxiv.org/abs/2401.14112) | — |
+| **Canonical** | **HadaCore: Tensor Core Accelerated Hadamard Transform Kernel** | Fresh / preprint | GPU kernels; Tensor Core acceleration; mixed precision | [Link](https://arxiv.org/abs/2412.08832) | — |
 | **Canonical** | **HeadNeRF: A Real-time NeRF-based Parametric Head Model** | Fresh / preprint | Neural rendering acceleration | [Link](https://arxiv.org/abs/2112.05637) | — |
 | **Canonical** | **Identifying Sensitive Weights via Post-quantization Integral** | Fresh / preprint | quantization | [Link](https://arxiv.org/abs/2503.01901) | — |
 | **Canonical** | **Jetfire: Efficient and Accurate Transformer Pretraining with INT8 Data Flow and Per-Block Quantization** | Fresh / preprint | quantization | [Link](https://arxiv.org/abs/2403.12422) | — |
 | **Canonical** | **Oscillation-Reduced MXFP4 Training for Vision Transformers** | Fresh / preprint | quantization | [Link](https://arxiv.org/abs/2502.20853) | — |
+| **Canonical** | **Quantized Training of Gradient Boosting Decision Trees** | Fresh / preprint | low-precision training; GBDT quantization | [Link](https://arxiv.org/abs/2207.09682) | — |
 | **Canonical** | **SageAttention2: Efficient Attention with Thorough Outlier Smoothing and Per-thread INT4 Quantization** | Fresh / preprint | efficient attention | [Link](https://arxiv.org/abs/2411.10958) | — |
 | **Canonical** | **SAW-INT4: System-Aware 4-Bit KV-Cache Quantization for Real-World LLM Serving** | Fresh / preprint | KV cache/long-context; LLM serving; quantization | [Link](https://arxiv.org/abs/2604.19157) | — |
 | **Canonical** | **Search Your Block Floating Point Scales!** | Fresh / preprint | quantization; efficient attention | [Link](https://arxiv.org/abs/2605.12464) | — |
