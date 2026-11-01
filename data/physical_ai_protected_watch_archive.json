@@ -1424,6 +1424,30 @@
     ]
   },
   {
+    "title": "WBAG: A Whole-Body and Attached-Geometry Safety Framework for Vision-Language-Action Manipulation",
+    "venue": "arXiv 2026",
+    "topic": "physical_ai",
+    "arxiv": "2610.01083",
+    "doi": "",
+    "official_id": "arXiv:2610.01083",
+    "paper_url": "https://arxiv.org/abs/2610.01083",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "Directly relevant mechanism or protected Physical-AI/edge/agent efficiency work with sufficient novelty signal for retained high-value reading.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "WB-WAM: Heterogeneous Body-Hand Pre-training for Humanoid Loco-Manipulation",
     "venue": "arXiv 2026",
     "topic": "",
@@ -2201,6 +2225,51 @@
     ]
   },
   {
+    "title": "VFP: Variational Flow-Matching Policy for Multi-Modal Robot Manipulation",
+    "venue": "ICRA 2026",
+    "topic": "physical_ai_action_flow",
+    "arxiv": "2508.01622",
+    "doi": "",
+    "official_id": "ICRA2026:PaperCept:2861",
+    "paper_url": "https://arxiv.org/abs/2508.01622",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "Official abstract describes a variational flow-matching action policy with an MoE decoder for efficient inference, fast sampling, compact model size, and 49% relative task-success improvement; high-value protected action-generation watch.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "MoE Systems / Accelerators",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "VERM: Leveraging Foundation Models to Create a Virtual Eye for Efficient 3D Robotic Manipulation",
+    "venue": "ICRA 2026",
+    "topic": "VLA/WAM/Physical AI",
+    "arxiv": "2512.16724",
+    "doi": "",
+    "official_id": "ICRA2026:PaperCept:6232",
+    "paper_url": "https://arxiv.org/abs/2512.16724",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "First-party abstract supports a direct but application-scoped efficient-ML contribution in Physical AI/robotics; retain for reading without elevating it to a general serving/accelerator strong record. Evidence: “When performing 3D manipulation tasks, robots have to execute action planning based on perceptions from multiple fixed cameras.”",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "VeriDrive: Verifiable Counterfactual Supervision for Cost-Efficient Vision-Language Planning",
     "venue": "arXiv 2026",
     "topic": "",
@@ -2532,6 +2601,29 @@
     "directions": [
       "LLM Serving",
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Unveiling the Surprising Efficacy of Navigation Understanding in End-To-End Autonomous Driving",
+    "venue": "ICRA 2026",
+    "topic": "physical_ai_vla_serving",
+    "arxiv": "2604.12208",
+    "doi": "",
+    "official_id": "ICRA2026:PaperCept:4748",
+    "paper_url": "https://arxiv.org/abs/2604.12208",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "官方摘要提出 efficient navigation representation 与 SNG-VLA model，利用 global route/TBT context改进 E2E VLA without auxiliary perception losses；高价值 protected VLA/edge runtime watch，但没有直接 latency/energy comparison。",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -2875,6 +2967,30 @@
     ]
   },
   {
+    "title": "Uncovering Communication Bottlenecks in Scalable ROS 2 Deployments on Kubernetes for Cloud/Edge Robotics",
+    "venue": "ICRA 2026",
+    "topic": "edge/cloud/heterogeneous systems",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICRA2026:PaperCept:3016",
+    "paper_url": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_5.html#Ab3016",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "First-party abstract supports a direct but application-scoped efficient-ML contribution in edge/cloud/heterogeneous AI; retain for reading without elevating it to a general serving/accelerator strong record. Evidence: “Containerization and orchestration using cloud-native technologies enable scalable deployment of robotic software.”",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "Distributed Training / Inference",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Uncertainty-Gated Exploration Noise Suppresses Task Collapse in Online RL Fine-Tuning of a Flow-Matching Vision-Language-Action Policy",
     "venue": "arXiv 2026",
     "topic": "",
@@ -2936,6 +3052,29 @@
     "is_latest_30d": false,
     "directions": [
       "LLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Ultra-Fast Lightweight Incipient Slip Detection Using Hyperdimensional Computing with the PapillArray Tactile Sensor",
+    "venue": "ICRA 2026",
+    "topic": "GPU kernels/compilers; VLA/WAM/Physical AI",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICRA2026:PaperCept:6228",
+    "paper_url": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_4.html#Ab6228",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "First-party abstract supports a direct but application-scoped efficient-ML contribution in accelerator/kernel/compiler systems; retain for reading without elevating it to a general serving/accelerator strong record. Evidence: “Timely detection of incipient slip is critical for delicate robotic grasping and dexterous manipulation.”",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
       "VLA / WAM / Physical AI"
     ]
   },
@@ -3478,6 +3617,30 @@
     ]
   },
   {
+    "title": "Toward Embodiment Equivariant Vision-Language-Action Policy",
+    "venue": "ICRA 2026",
+    "topic": "efficient reasoning/agent systems; VLA/WAM/Physical AI",
+    "arxiv": "2509.14630",
+    "doi": "",
+    "official_id": "ICRA2026:PaperCept:4528",
+    "paper_url": "https://arxiv.org/abs/2509.14630",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "First-party abstract supports a direct but application-scoped efficient-ML contribution in agent/reasoning systems; retain for reading without elevating it to a general serving/accelerator strong record. Evidence: “Vision-language-action policies learn manipulation skills across tasks, environments and embodiments through large-scale pre-training.”",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "TourPhysics: Bringing Physics to World Models for Exploration and Manipulation from a Single Image",
     "venue": "arXiv 2026",
     "topic": "VLA/WAM/Physical AI serving / world models / physics-grounded generation",
@@ -3673,6 +3836,77 @@
     "is_latest_30d": false,
     "directions": [
       "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Token Communication-Assisted Collaborative Embodied Artificial Intelligence: Concepts, Framework, and Opportunities",
+    "venue": "arXiv 2026",
+    "topic": "",
+    "arxiv": "2610.01826",
+    "doi": "",
+    "official_id": "arXiv:2610.01826",
+    "paper_url": "https://arxiv.org/abs/2610.01826",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "Physical-AI/edge communication protected: token communication for collaborative embodied agents reduces source payload while preserving task efficiency.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Distributed Training / Inference",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "TOAST: Stochastic Robot Action Tokenization for Autoregressive Vision-Language-Action Models",
+    "venue": "arXiv 2026",
+    "topic": "physical_ai",
+    "arxiv": "2610.00899",
+    "doi": "",
+    "official_id": "arXiv:2610.00899",
+    "paper_url": "https://arxiv.org/abs/2610.00899",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "Directly relevant mechanism or protected Physical-AI/edge/agent efficiency work with sufficient novelty signal for retained high-value reading.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Tiny-DroNeRF: Tiny Neural Radiance Fields Aboard Federated Learning-Enabled Nano-Drones",
+    "venue": "ICRA 2026",
+    "topic": "GPU kernels/compilers",
+    "arxiv": "2603.01850",
+    "doi": "",
+    "official_id": "ICRA2026:PaperCept:3986",
+    "paper_url": "https://arxiv.org/abs/2603.01850",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "First-party abstract supports a direct but application-scoped efficient-ML contribution in accelerator/kernel/compiler systems; retain for reading without elevating it to a general serving/accelerator strong record. Evidence: “Sub-30 g nano-sized aerial robots can leverage their agility and form factor to explore cluttered and narrow environments, like in industrial inspection and search and rescue missions.”",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
       "VLA / WAM / Physical AI"
     ]
   },
@@ -4458,6 +4692,54 @@
     ]
   },
   {
+    "title": "T-FunS3D: Task-Driven Hierarchical Open-Vocabulary 3D Functionality Segmentation",
+    "venue": "ICRA 2026",
+    "topic": "multimodal/MLLM; edge/cloud/heterogeneous systems",
+    "arxiv": "2606.05975",
+    "doi": "",
+    "official_id": "ICRA2026:PaperCept:2166",
+    "paper_url": "https://arxiv.org/abs/2606.05975",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "First-party abstract supports a direct but application-scoped efficient-ML contribution in multimodal/MLLM; retain for reading without elevating it to a general serving/accelerator strong record. Evidence: “Open-vocabulary 3D functionality segmentation enables robots to localize functional object components in 3D scenes.”",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "T(R, O) Grasp: Efficient Graph Diffusion of Robot-Object Spatial Transformation for Cross-Embodiment Dexterous Grasping",
+    "venue": "ICRA 2026",
+    "topic": "GPU kernels/compilers; diffusion/flow acceleration",
+    "arxiv": "2510.12724",
+    "doi": "",
+    "official_id": "ICRA2026:PaperCept:2906",
+    "paper_url": "https://arxiv.org/abs/2510.12724",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "First-party abstract supports a direct but application-scoped efficient-ML contribution in accelerator/kernel/compiler systems; retain for reading without elevating it to a general serving/accelerator strong record. Evidence: “Dexterous grasping remains a central challenge in robotics due to the complexity of its high-dimensional state and action space.”",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Diffusion / Flow Acceleration",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "T$^2$Mem: Learning Test-Time Memory for Robotics",
     "venue": "arXiv 2026",
     "topic": "",
@@ -4771,6 +5053,33 @@
     ]
   },
   {
+    "title": "StreamVLN: Streaming Vision-And-Language Navigation Via SlowFast Context Modeling",
+    "venue": "ICRA 2026",
+    "topic": "LLM inference/serving; KV cache/long-context; sparsity/pruning; efficient reasoning/agent systems; edge/cloud/heterogeneous systems",
+    "arxiv": "2507.05240",
+    "doi": "",
+    "official_id": "ICRA2026:PaperCept:4562",
+    "paper_url": "https://arxiv.org/abs/2507.05240",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "First-party abstract supports a direct but application-scoped efficient-ML contribution in LLM/MLLM serving or long-context; retain for reading without elevating it to a general serving/accelerator strong record. Evidence: “The fast-streaming dialogue context facilitates responsive action generation through a sliding-window of multi-turn dialogues, while the slow-updating memory context compresses historical visual states using a 3D-aware token pruning strategy.”",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Sparsity / Pruning",
+      "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Streaming4D: Accelerate 4D World Models via Block-wise Video Generation and Incremental Reconstruction",
     "venue": "arXiv 2026",
     "topic": "VLA/WAM/Physical AI serving / world-model acceleration / streaming 4D reconstruction",
@@ -4861,6 +5170,31 @@
     "directions": [
       "Video / Image Generation",
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "SToRM: Supervised Token Reduction for Multi-Modal LLMs Toward Efficient End-To-End Autonomous Driving",
+    "venue": "ICRA 2026",
+    "topic": "LLM inference/serving; multimodal/MLLM; sparsity/pruning; edge/cloud/heterogeneous AI systems",
+    "arxiv": "2602.11656",
+    "doi": "",
+    "official_id": "ICRA2026:PaperCept:4792",
+    "paper_url": "https://arxiv.org/abs/2602.11656",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "Direct efficient-ML contribution: supervised token reduction and anchor-context merging for multimodal LLM autonomous driving; first-party abstract reports up to 30x lower computational cost while maintaining all-token performance. Retain P1; no P0 claim.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -5194,6 +5528,29 @@
     "is_latest_30d": false,
     "directions": [
       "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "SpikeClouds: Streaming Spike-Based Processing of LiDAR for Fast and Efficient Object Detection",
+    "venue": "ICRA 2026",
+    "topic": "GPU kernels/compilers",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICRA2026:PaperCept:5820",
+    "paper_url": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_3.html#Ab5820",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "First-party abstract supports a direct but application-scoped efficient-ML contribution in accelerator/kernel/compiler systems; retain for reading without elevating it to a general serving/accelerator strong record. Evidence: “LiDAR sensors are used to provide three-dimensional information about the environment in many robotics applications.”",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
       "VLA / WAM / Physical AI"
     ]
   },
@@ -5829,6 +6186,28 @@
     ]
   },
   {
+    "title": "Shifted Flow Policy: Uncertainty-Aware Time Reparameterization for Visuomotor Learning",
+    "venue": "ICRA 2026",
+    "topic": "VLA/WAM action-generation; diffusion/flow acceleration",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICRA2026:PaperCept:5362",
+    "paper_url": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_4.html#Ab5362",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "P1: protected Physical-AI action-generation relevance. The official abstract reports that shifted flow conditions each predicted action on up-to-date observations and achieves faster inference than action-chunking baselines on Push-T and MimicGen. Retain for reading; exact arXiv identity was not found, so use the author project's linked paper PDF.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Diffusion / Flow Acceleration",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "SGM-SLAM: Scene Graph Matching for Data-Efficient Distributed SLAM",
     "venue": "arXiv 2026",
     "topic": "other",
@@ -5960,6 +6339,29 @@
       "LLM Serving",
       "Quantization",
       "Distributed Training / Inference",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Semantic and Terrain-Aware Trajectory Optimization for Uniform Coverage in Obstacle-Laden Environments",
+    "venue": "ICRA 2026",
+    "topic": "diffusion/flow acceleration",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICRA2026:PaperCept:5365",
+    "paper_url": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_5.html#Ab5365",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "First-party abstract supports a direct but application-scoped efficient-ML contribution in diffusion/flow generation; retain for reading without elevating it to a general serving/accelerator strong record. Evidence: “Achieving efficient and uniform coverage in obstacle-laden unknown environments is essential for au- tonomous robots in cleaning, inspection and agricultural op- erations.”",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "Diffusion / Flow Acceleration",
       "VLA / WAM / Physical AI"
     ]
   },
@@ -6210,6 +6612,30 @@
       "Video / Image Generation",
       "VLA / WAM / Physical AI",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Seeing Farther and Smarter: Value-Guided Multi-Path Reflection for VLM Policy Optimization",
+    "venue": "ICRA 2026",
+    "topic": "multimodal/MLLM; efficient reasoning/agent systems; VLA/WAM/Physical AI",
+    "arxiv": "2602.19372",
+    "doi": "",
+    "official_id": "ICRA2026:PaperCept:2087",
+    "paper_url": "https://arxiv.org/abs/2602.19372",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "First-party abstract supports a direct but application-scoped efficient-ML contribution in multimodal/MLLM; retain for reading without elevating it to a general serving/accelerator strong record. Evidence: “Solving complex, long-horizon robotic manipulation tasks requires a deep understanding of physical interactions, reasoning about their long-term consequences, and precise high-level planning.”",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
     ]
   },
   {
@@ -6505,6 +6931,30 @@
     ]
   },
   {
+    "title": "Scalable Multi-Agent Reinforcement Learning Framework for Multi-Machine Tending",
+    "venue": "ICRA 2026",
+    "topic": "edge/cloud/heterogeneous systems",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICRA2026:PaperCept:6281",
+    "paper_url": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_5.html#Ab6281",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "First-party abstract supports a direct but application-scoped efficient-ML contribution in edge/cloud/heterogeneous AI; retain for reading without elevating it to a general serving/accelerator strong record. Evidence: “Robotic manipulators hold significant untapped potential for manufacturing industries, particularly when deployed in multi-robot configurations that can enhance resource utilization, increase throughput, and reduce costs.”",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Scal3R: Learning Efficient Multi-Relative Pose Query for Scalable Online 3D Reconstruction",
     "venue": "arXiv 2026",
     "topic": "VLA/WAM/Physical AI serving / online 3D reconstruction / lightweight pose queries",
@@ -6591,6 +7041,28 @@
     "is_latest_30d": false,
     "directions": [
       "LLM Serving",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Sample-Efficient Learning with Online Expert Correction for Autonomous Catheter Steering in Endovascular Bifurcation Navigation",
+    "venue": "ICRA 2026",
+    "topic": "Physical AI / sample-efficient reinforcement learning",
+    "arxiv": "2602.20216",
+    "doi": "",
+    "official_id": "ICRA2026:PaperCept:2610",
+    "paper_url": "https://arxiv.org/abs/2602.20216",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "First-party abstract reports convergence in 123 training episodes, a 25.9% reduction versus baseline SAC, while reducing positional error. This is a direct sample-efficiency result in robot learning; retain as P1 application-scoped watchlist, not a general inference/system strong record.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
       "Efficient Reasoning / Agents",
       "VLA / WAM / Physical AI"
     ]
@@ -7028,6 +7500,30 @@
     ]
   },
   {
+    "title": "Robust Unknown Object Detection and Tracking for Vision-Language-Action Models on Edge Devices",
+    "venue": "ICRA 2026",
+    "topic": "multimodal/MLLM; VLA/WAM/Physical AI",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICRA2026:PaperCept:6549",
+    "paper_url": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_5.html#Ab6549",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "First-party abstract supports a direct but application-scoped efficient-ML contribution in multimodal/MLLM; retain for reading without elevating it to a general serving/accelerator strong record. Evidence: “This study proposes a Stepwise Vision-Language-Action (VLA) framework for the robust detection and tracking of unknown objects in edge device environments (NVIDIA Jetson AGX Orin).” Official PaperCept identity/abstract verified; exact-title official arXiv query returned NOT_FOUND; direct proceedings PDF remains unresolved and will be retried.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Robust Structureless Monocular Visual Inertial Initialization Exploiting Line Features and Vanishing Points",
     "venue": "arXiv 2026",
     "topic": "",
@@ -7196,6 +7692,27 @@
     "decision": "WATCH",
     "tracking_tier": "P1 · Watch",
     "why": "Official arXiv abstract presents a real-to-sim verification runtime for robot policies using Gaussian-SAM simulation before execution; protected Physical-AI runtime scope.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Robot Control Stack: A Lean Ecosystem for Robot Learning at Scale",
+    "venue": "ICRA 2026",
+    "topic": "physical_ai_runtime",
+    "arxiv": "2509.14932",
+    "doi": "",
+    "official_id": "ICRA2026:PaperCept:3940",
+    "paper_url": "https://arxiv.org/abs/2509.14932",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "Official abstract describes a lean, low-dependency C++/Python robot-learning stack with unified simulation/physical interfaces and scalable VLA/RL training/evaluation; high-value protected runtime/infra watch.",
     "published_at": "",
     "updated_at": "",
     "is_latest_30d": false,
@@ -8186,6 +8703,28 @@
     ]
   },
   {
+    "title": "Reinforcement Fine-Tuning of Flow-Matching Policies for Vision-Language-Action Models",
+    "venue": "ICRA 2026",
+    "topic": "physical_ai_vla_training_efficiency",
+    "arxiv": "2510.09976",
+    "doi": "",
+    "official_id": "ICRA2026:PaperCept:2661",
+    "paper_url": "https://arxiv.org/abs/2510.09976",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "官方摘要指出 conventional policy-gradient likelihood ratios make flow-matching VLA RL computationally infeasible；FPO reformulates importance sampling and enhances gradient efficiency for scalable online fine-tuning of π0, a high-value protected VLA/flow training-efficiency watch. ",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Region-aware Grasp Framework with Normalized Grasp Space for Efficient 6-DoF Grasping",
     "venue": "CoRL 2024 / PMLR v270",
     "topic": "VLA/WAM/Physical AI",
@@ -8357,6 +8896,28 @@
     ]
   },
   {
+    "title": "Recova: Agent-Guided Failure Recovery for Autonomous Robotic Manipulation",
+    "venue": "arXiv 2026",
+    "topic": "physical_ai",
+    "arxiv": "2610.01178",
+    "doi": "",
+    "official_id": "arXiv:2610.01178",
+    "paper_url": "https://arxiv.org/abs/2610.01178",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "ReCAT: Remember, Count, and Time: Structured Recurrent Memory for Robot Manipulation",
     "venue": "arXiv 2026",
     "topic": "VLA/WAM/Physical AI serving",
@@ -8424,6 +8985,29 @@
     ]
   },
   {
+    "title": "RealMirror: A Comprehensive, Open-Source Vision-Language-Action Platform for Embodied AI",
+    "venue": "ICRA 2026",
+    "topic": "physical_ai_vla_serving",
+    "arxiv": "2509.14687",
+    "doi": "",
+    "official_id": "ICRA2026:PaperCept:2835",
+    "paper_url": "https://arxiv.org/abs/2509.14687",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "Official abstract describes an open-source humanoid VLA platform integrating efficient low-cost data collection, training, inference, benchmark, generative scene reconstruction, and zero-shot sim-to-real; high-value protected VLA system/platform watch.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Real2Sim2Real for Vision-Language-Action Manipulation: An AMD ROCm-Based Pipeline",
     "venue": "arXiv 26",
     "topic": "vla_wam,cloud_edge",
@@ -8446,6 +9030,28 @@
       "Efficient Reasoning / Agents",
       "VLA / WAM / Physical AI",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Real-World Robot Control by Deep Active Inference with a Temporally Hierarchical World Model",
+    "venue": "ICRA 2026",
+    "topic": "physical_ai_action_selection",
+    "arxiv": "2512.01924",
+    "doi": "",
+    "official_id": "ICRA2026:PaperCept:6051",
+    "paper_url": "https://arxiv.org/abs/2512.01924",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "官方摘要明确 action-sequence vector quantization、abstract actions 与 low-cost action selection，针对 deep active inference 的 high computational cost；属于受保护的 action-head/selection efficiency 高价值 watch，但缺少直接 latency/energy 数值。",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Quantization",
+      "VLA / WAM / Physical AI"
     ]
   },
   {
@@ -8934,6 +9540,53 @@
     "directions": [
       "VLA / WAM / Physical AI",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Prompt-To-State Stable Vision-Language MPC for Approximated Neural Network Dynamics a Case Study on Soft Robot Control",
+    "venue": "ICRA 2026",
+    "topic": "multimodal/MLLM; edge/cloud/heterogeneous systems",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICRA2026:PaperCept:816",
+    "paper_url": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_5.html#Ab816",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "First-party abstract supports a direct but application-scoped efficient-ML contribution in multimodal/MLLM; retain for reading without elevating it to a general serving/accelerator strong record. Evidence: “The integration of large-scale foundation models in control loops has shown strong potential for executing complex tasks directly from natural language inputs.”",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "PROMO: Preference-conditioned Multi-Objective Reinforcement Learning for Quadrupedal Robots",
+    "venue": "arXiv 2026",
+    "topic": "",
+    "arxiv": "2610.01260",
+    "doi": "",
+    "official_id": "arXiv:2610.01260",
+    "paper_url": "https://arxiv.org/abs/2610.01260",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "Physical-AI protected path: one preference-conditioned policy replaces independently trained specialists and exposes runtime tradeoffs on Unitree Go2; deployment consolidation is valuable, though latency/compute savings are not quantified.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Quantization",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
     ]
   },
   {
@@ -9434,6 +10087,29 @@
     "directions": [
       "VLA / WAM / Physical AI",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "PLOP: Particle Filtering for Learning Object Physics from Robot Interaction Videos",
+    "venue": "ICRA 2026",
+    "topic": "efficient reasoning/agent systems",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICRA2026:PaperCept:1285",
+    "paper_url": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_5.html#Ab1285",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "First-party abstract supports a direct but application-scoped efficient-ML contribution in agent/reasoning systems; retain for reading without elevating it to a general serving/accelerator strong record. Evidence: “Learning the dynamics of deformable objects, such as dough or a sponge, from RGB-D videos is challenging due to insufficient visual cues and complex deformations.”",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
     ]
   },
   {
@@ -10165,6 +10841,29 @@
     ]
   },
   {
+    "title": "PAGER: Partial-to-global Alignment via Geometric and Relational Distillation",
+    "venue": "arXiv 2026",
+    "topic": "physical_ai",
+    "arxiv": "2610.01589",
+    "doi": "",
+    "official_id": "arXiv:2610.01589",
+    "paper_url": "https://arxiv.org/abs/2610.01589",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "Directly relevant mechanism or protected Physical-AI/edge/agent efficiency work with sufficient novelty signal for retained high-value reading.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Efficient Reasoning / Agents",
+      "Edge / Cloud / Heterogeneous AI",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "PACE: Phase-Aware Chunk Execution for Robot Policies with Action Chunking",
     "venue": "arXiv 2026",
     "topic": "",
@@ -10406,6 +11105,30 @@
     "is_latest_30d": false,
     "directions": [
       "LLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Open-Vocabulary Object-Goal Navigation by Generalizing Semantic Mapping with Dense CLIP",
+    "venue": "ICRA 2026",
+    "topic": "Efficient reasoning/agent systems / Physical AI",
+    "arxiv": "2407.09016",
+    "doi": "",
+    "official_id": "ICRA2026:PaperCept:2377",
+    "paper_url": "https://arxiv.org/abs/2407.09016",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "First-party abstract directly identifies LLM inference overhead/cost and unaffordable training cost, then introduces a training-efficient cross-modal transfer framework using Dense CLIP for open-vocabulary object navigation. Retain as P1 for efficient agent/model training research; no quantified serving speedup is reported.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "Efficient Reasoning / Agents",
       "VLA / WAM / Physical AI"
     ]
   },
@@ -10748,6 +11471,30 @@
     ]
   },
   {
+    "title": "OmniVLA: Physically-Grounded Multimodal VLA with Unified Multi-Sensor Perception for Robotic Manipulation",
+    "venue": "ICRA 2026",
+    "topic": "multimodal/MLLM; VLA/WAM/Physical AI; edge/cloud/heterogeneous systems",
+    "arxiv": "2511.01210",
+    "doi": "",
+    "official_id": "ICRA2026:PaperCept:4981",
+    "paper_url": "https://arxiv.org/abs/2511.01210",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "First-party abstract supports a direct but application-scoped efficient-ML contribution in multimodal/MLLM; retain for reading without elevating it to a general serving/accelerator strong record. Evidence: “This image-native unification keeps sensor input close to RGB statistics to facilitate training, provides a uniform interface across sensor hardware, and enables data-efficient learning with lightweight per-sensor projectors.”",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "OmniSpace: Efficient Geometry Awareness for Autonomous Vehicles MLLMs",
     "venue": "arXiv 2026",
     "topic": "physical_ai,multimodal_serving,autonomous_driving",
@@ -11057,6 +11804,30 @@
     "is_latest_30d": false,
     "directions": [
       "LLM Serving",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "NuRisk: A Visual Question Answering Dataset for Agent-Level Risk Assessment in Autonomous Driving",
+    "venue": "ICRA 2026",
+    "topic": "multimodal/MLLM; efficient reasoning/agent systems",
+    "arxiv": "2509.25944",
+    "doi": "",
+    "official_id": "ICRA2026:PaperCept:3271",
+    "paper_url": "https://arxiv.org/abs/2509.25944",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "First-party abstract supports a direct but application-scoped efficient-ML contribution in multimodal/MLLM; retain for reading without elevating it to a general serving/accelerator strong record. Evidence: “Understanding risk in autonomous driving requires not only perception and prediction, but also high-level reasoning about agent behavior and context.”",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
       "Efficient Reasoning / Agents",
       "VLA / WAM / Physical AI"
     ]
@@ -11507,6 +12278,55 @@
     ]
   },
   {
+    "title": "NarrativeFlow: Flow-Based Vision-Language-Action Model Using Robot Velocity Fields",
+    "venue": "arXiv 2026",
+    "topic": "physical_ai",
+    "arxiv": "2610.00981",
+    "doi": "",
+    "official_id": "arXiv:2610.00981",
+    "paper_url": "https://arxiv.org/abs/2610.00981",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "Directly relevant mechanism or protected Physical-AI/edge/agent efficiency work with sufficient novelty signal for retained high-value reading.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Narrate2Nav: Real-Time Visual Navigation with Implicit Language Reasoning in Human-Centric Environments",
+    "venue": "ICRA 2026",
+    "topic": "multimodal/MLLM; efficient reasoning/agent systems; edge/cloud/heterogeneous systems",
+    "arxiv": "2506.14233",
+    "doi": "",
+    "official_id": "ICRA2026:PaperCept:3433",
+    "paper_url": "https://arxiv.org/abs/2506.14233",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "First-party abstract supports a direct but application-scoped efficient-ML contribution in multimodal/MLLM; retain for reading without elevating it to a general serving/accelerator strong record. Evidence: “Large Vision-Language Models (VLMs) have demonstrated potential in enhancing mobile robot navigation in human-centric environments by understanding contextual cues, human intentions, and social dynamics while exhibiting reasoning capabilities.”",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "MVISTA-4D: View-Consistent 4D World Model with Test-Time Action Inference for Robotic Manipulation",
     "venue": "arXiv 2026",
     "topic": "llm_serving",
@@ -11548,6 +12368,31 @@
     "is_latest_30d": false,
     "directions": [
       "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Multimodal Fusion-Guided Diffusion Policy for Motion Planning in Rugged and Obstacle-Dense Environments",
+    "venue": "ICRA 2026",
+    "topic": "diffusion/flow acceleration",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICRA2026:PaperCept:1497",
+    "paper_url": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_4.html#Ab1497",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "First-party abstract supports a direct but application-scoped efficient-ML contribution in diffusion/flow generation; retain for reading without elevating it to a general serving/accelerator strong record. Evidence: “Motion planning in unstructured environments remains a challenging task, particularly in scenarios with dense obstacles and discontinuous freespace, due to the need to ensure both safety and real-time performance for robots.”",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "GPU Kernel / DSL / Compiler",
+      "Multimodal / MLLM Serving",
+      "Diffusion / Flow Acceleration",
       "VLA / WAM / Physical AI"
     ]
   },
@@ -11937,6 +12782,31 @@
     ]
   },
   {
+    "title": "MoE-Powered Fast VLMs Via Curriculum Learning-Based Knowledge Distillation: Taming Regular and Corner Cases in Autonomous Driving",
+    "venue": "ICRA 2026",
+    "topic": "multimodal/MLLM",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICRA2026:PaperCept:2115",
+    "paper_url": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_5.html#Ab2115",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "First-party abstract supports a direct but application-scoped efficient-ML contribution in multimodal/MLLM; retain for reading without elevating it to a general serving/accelerator strong record. Evidence: “To address this challenge, we propose the Curriculum Learning-based Knowledge Distillation (CLKD) framework.”",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "MoE Systems / Accelerators",
+      "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "MoE-Enhanced Multi-Domain Feature Selection and Fusion for Fast Map-Free Trajectory Prediction",
     "venue": "arXiv 25",
     "topic": "VLA/WAM and Physical AI",
@@ -12209,6 +13079,32 @@
     ]
   },
   {
+    "title": "Mini Diffuser: Fast Multi-Task Diffusion Policy Training Using Two-Level Mini-Batches",
+    "venue": "ICRA 2026",
+    "topic": "video/image generation acceleration; diffusion/flow acceleration; edge/cloud/heterogeneous systems",
+    "arxiv": "2505.09430",
+    "doi": "",
+    "official_id": "ICRA2026:PaperCept:5988",
+    "paper_url": "https://arxiv.org/abs/2505.09430",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "First-party abstract supports a direct but application-scoped efficient-ML contribution in diffusion/flow generation; retain for reading without elevating it to a general serving/accelerator strong record. Evidence: “We present a method that reduces, by an order of magnitude, the time and memory needed to train multi-task vision-language robotic diffusion policies.”",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
+      "Video / Image Generation",
+      "Diffusion / Flow Acceleration",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Mind-VLA: Instruction-Aware Spatial Representation Alignment for Vision-Language-Action Models",
     "venue": "arXiv 26",
     "topic": "vla_wam",
@@ -12337,6 +13233,29 @@
     "directions": [
       "Quantization",
       "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Memory-Efficient Voxelized Renderable Neural 3D Spatial Representation for Vision-Based Robotics",
+    "venue": "ICRA 2026",
+    "topic": "video/image generation acceleration",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICRA2026:PaperCept:5951",
+    "paper_url": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_4.html#Ab5951",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "First-party abstract supports a direct but application-scoped efficient-ML contribution in image/video/3D representation; retain for reading without elevating it to a general serving/accelerator strong record. Evidence: “In this paper, we introduce a novel approach for modeling a memory-efficient spatial representation with 3D Gaussian splatting.”",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "Video / Image Generation",
       "VLA / WAM / Physical AI"
     ]
   },
@@ -13103,6 +14022,29 @@
     ]
   },
   {
+    "title": "Look, Focus, Act: Efficient and Robust Robot Learning Via Human Gaze and Foveated Vision Transformers",
+    "venue": "ICRA 2026",
+    "topic": "VLA/WAM/Physical AI",
+    "arxiv": "2507.15833",
+    "doi": "",
+    "official_id": "ICRA2026:PaperCept:4820",
+    "paper_url": "https://arxiv.org/abs/2507.15833",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "First-party abstract supports a direct but application-scoped efficient-ML contribution in Physical AI/robotics; retain for reading without elevating it to a general serving/accelerator strong record. Evidence: “Human vision is a highly active process driven by gaze, which directs attention to task-relevant regions through foveation, dramatically reducing visual processing.”",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "Efficient Attention",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Look Where It Matters: Adaptive Visual Refinement for Vision-Language-Action Models",
     "venue": "arXiv 26",
     "topic": "vla_wam",
@@ -13370,6 +14312,28 @@
       "LLM Serving",
       "Speculative Decoding",
       "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "LiteReality-Agent: An Agentic System for Interactable 3D Indoor Scene Reconstruction",
+    "venue": "arXiv 2026",
+    "topic": "physical_ai",
+    "arxiv": "2610.01863",
+    "doi": "",
+    "official_id": "arXiv:2610.01863",
+    "paper_url": "https://arxiv.org/abs/2610.01863",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
       "Efficient Reasoning / Agents",
       "VLA / WAM / Physical AI"
     ]
@@ -14542,6 +15506,54 @@
     ]
   },
   {
+    "title": "Lang3DSeg: Annotation-Free Open-Vocabulary 3D Segmentation with Point Transformers",
+    "venue": "arXiv 2026",
+    "topic": "VLA/WAM/Physical AI serving",
+    "arxiv": "2610.00855",
+    "doi": "",
+    "official_id": "arXiv:2610.00855",
+    "paper_url": "https://arxiv.org/abs/2610.00855",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "Lang3DSeg 无人工标注的开放词汇 LiDAR 3D 分割，单 sweep 实时推理且不调用 VLM，机器人边缘感知部署价值高。",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "LAMP: Implicit Language Map for Robot Navigation",
+    "venue": "ICRA 2026",
+    "topic": "sparsity/pruning; multimodal/MLLM",
+    "arxiv": "2602.11862",
+    "doi": "",
+    "official_id": "ICRA2026:PaperCept:5647",
+    "paper_url": "https://arxiv.org/abs/2602.11862",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "First-party abstract supports a direct but application-scoped efficient-ML contribution in model compression/quantization/sparsity; retain for reading without elevating it to a general serving/accelerator strong record. Evidence: “By combining this implicit representation with a sparse graph, LAMP supports efficient coarse path planning and then performs gradient-based optimization in the learned field to refine poses near the goal.”",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "Sparsity / Pruning",
+      "Multimodal / MLLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "LaGSplat: Inferring Physics-Governed Interactive Simulation from Monocular Video Using Latent Lagrangian Gaussian Splatting",
     "venue": "",
     "topic": "video/image generation acceleration",
@@ -14653,6 +15665,31 @@
       "Video / Image Generation",
       "Diffusion / Flow Acceleration",
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "JetsonCompletion: Real-Time Depth Completion on Resource-Constrained Edge Devices",
+    "venue": "ICRA 2026",
+    "topic": "sparsity/pruning",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICRA2026:PaperCept:4961",
+    "paper_url": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_5.html#Ab4961",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "First-party abstract supports a direct but application-scoped efficient-ML contribution in model compression/quantization/sparsity; retain for reading without elevating it to a general serving/accelerator strong record. Evidence: “Depth completion from sparse LiDAR points and images is a key perception task for autonomous robots, enabling dense 3D understanding in challenging environments.”",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "Sparsity / Pruning",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -14877,6 +15914,27 @@
     ]
   },
   {
+    "title": "Interaction-Stiffness-Guided Basis Allocation in Dynamic Movement Primitives for Efficient Skill Transfer",
+    "venue": "arXiv 2026",
+    "topic": "physical_ai",
+    "arxiv": "2610.01288",
+    "doi": "",
+    "official_id": "arXiv:2610.01288",
+    "paper_url": "https://arxiv.org/abs/2610.01288",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "InteractGesture: Progressive Chunk Guidance for Continuous Streaming Co-Speech Gesture Control",
     "venue": "",
     "topic": "LLM serving / video/image generation acceleration",
@@ -14913,6 +15971,29 @@
     "decision": "WATCH",
     "tracking_tier": "P1 · Watch",
     "why": "",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "INSIGHT: INference-Time Sequence Introspection for Generating Help Triggers in Vision-Language-Action Models",
+    "venue": "ICRA 2026",
+    "topic": "physical_ai_vla_runtime",
+    "arxiv": "2510.01389",
+    "doi": "",
+    "official_id": "ICRA2026:PaperCept:4796",
+    "paper_url": "https://arxiv.org/abs/2510.01389",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "官方摘要提出 compact transformer classifier 对 π0-FAST token-level uncertainty sequence 做 inference-time help-trigger introspection；直接关联 protected VLA runtime/streaming agent 与 selective intervention，保留高价值 watch。",
     "published_at": "",
     "updated_at": "",
     "is_latest_30d": false,
@@ -15808,6 +16889,30 @@
     ]
   },
   {
+    "title": "HAVEN: Hierarchical Adversary-Aware Visibility-Enabled Navigation with Cover Utilization Using Deep Transformer Q-Networks",
+    "venue": "ICRA 2026",
+    "topic": "edge/cloud/heterogeneous systems",
+    "arxiv": "2512.00592",
+    "doi": "",
+    "official_id": "ICRA2026:PaperCept:4219",
+    "paper_url": "https://arxiv.org/abs/2512.00592",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "First-party abstract supports a direct but application-scoped efficient-ML contribution in edge/cloud/heterogeneous AI; retain for reading without elevating it to a general serving/accelerator strong record. Evidence: “Autonomous navigation in partially observable environments requires agents to reason beyond immediate sensor input, exploit occlusion, and ensure safety while progressing toward a goal.”",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "HarvestPoint-ACT: Explicit Target Selection and Harvest-Point Conditioning for Robotic Fruit Harvesting under Occlusion",
     "venue": "",
     "topic": "LLM serving / video/image generation acceleration",
@@ -15894,6 +16999,27 @@
     "directions": [
       "LLM Serving",
       "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Hardware Software Optimizations for Fast Model Recovery on Reconfigurable Architectures",
+    "venue": "FPGA 2026",
+    "topic": "Physical AI; model recovery; streaming dataflow; reconfigurable acceleration",
+    "arxiv": "2512.06113",
+    "doi": "",
+    "official_id": "arxiv:2512.06113",
+    "paper_url": "https://arxiv.org/abs/2512.06113",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The official FPGA program title and author set match the first-party arXiv record. Model recovery is explicitly tied to physical AI and real-time digital twins, and the streaming/dataflow FPGA design reports up to 6.3x fewer cycles than an FPGA LTC baseline. Retain as a protected Physical-AI high-value watchlist paper; it is narrower than a general inference accelerator.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
       "VLA / WAM / Physical AI"
     ]
   },
@@ -16097,6 +17223,29 @@
       "LLM Serving",
       "Multimodal / MLLM Serving",
       "Video / Image Generation",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "GUIDE: A Diffusion-Based Autonomous Robot Exploration Framework Using Global Graph Inference",
+    "venue": "ICRA 2026",
+    "topic": "diffusion/flow acceleration",
+    "arxiv": "2509.19916",
+    "doi": "",
+    "official_id": "ICRA2026:PaperCept:2287",
+    "paper_url": "https://arxiv.org/abs/2509.19916",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "First-party abstract supports a direct but application-scoped efficient-ML contribution in diffusion/flow generation; retain for reading without elevating it to a general serving/accelerator strong record. Evidence: “Building upon this enriched representation, a diffusion policy network generates stable, foresighted action sequences with significantly reduced denoising steps.”",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "Diffusion / Flow Acceleration",
       "VLA / WAM / Physical AI"
     ]
   },
@@ -17044,6 +18193,27 @@
     ]
   },
   {
+    "title": "GenCOPE: Syn2Real Generalized Category-Level Object Pose Estimation for Robotic Picking",
+    "venue": "arXiv 2026",
+    "topic": "",
+    "arxiv": "2610.01758",
+    "doi": "",
+    "official_id": "arXiv:2610.01758",
+    "paper_url": "https://arxiv.org/abs/2610.01758",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "Physical-AI protected: lightweight Syn2Real object-pose estimation explicitly targeting efficient real-world robotic deployment.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Gen2Act: Human Video Generation in Novel Scenarios enables Generalizable Robot Manipulation",
     "venue": "CoRL 2025",
     "topic": "",
@@ -17846,6 +19016,29 @@
     ]
   },
   {
+    "title": "ForestVO: Enhancing Visual Odometry in Forest Environments through ForestGlue",
+    "venue": "ICRA 2026",
+    "topic": "edge/cloud/heterogeneous systems",
+    "arxiv": "2504.01261",
+    "doi": "",
+    "official_id": "ICRA2026:PaperCept:71",
+    "paper_url": "https://arxiv.org/abs/2504.01261",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "First-party abstract supports a direct but application-scoped efficient-ML contribution in edge/cloud/heterogeneous AI; retain for reading without elevating it to a general serving/accelerator strong record. Evidence: “Recent advancements in visual odometry systems have improved autonomous navigation, yet challenges persist in complex environments like forests, where dense foliage, variable lighting, and repetitive textures compromise the accuracy of feature correspondences.”",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "Foresight Without Seeing: Latent Futures for World Action Models",
     "venue": "arXiv 2026",
     "topic": "physical_ai",
@@ -18187,6 +19380,29 @@
       "Efficient Reasoning / Agents",
       "VLA / WAM / Physical AI",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "FlatFusion: Delving into Details of Sparse Transformer-based Camera-LiDAR Fusion for Autonomous Driving",
+    "venue": "",
+    "topic": "VLA/WAM and Physical AI",
+    "arxiv": "2408.06832",
+    "doi": "",
+    "official_id": "arXiv:2408.06832",
+    "paper_url": "https://arxiv.org/abs/2408.06832",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "The first-party arXiv abstract describes sparse Transformer-based camera-LiDAR fusion for autonomous driving, a high-value Physical-AI perception efficiency neighborhood; retain for deeper reading without asserting group affiliation.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Sparsity / Pruning",
+      "GPU Kernel / DSL / Compiler",
+      "VLA / WAM / Physical AI"
     ]
   },
   {
@@ -18532,6 +19748,52 @@
     ]
   },
   {
+    "title": "Fast Models, Slow Evidence: A Paired and Self-Audited Evaluation of System-1 Decision Models for LLM Agent Harnesses",
+    "venue": "arXiv 2026",
+    "topic": "Efficient ML / Physical AI",
+    "arxiv": "2610.02267",
+    "doi": "",
+    "official_id": "arXiv:2610.02267",
+    "paper_url": "https://arxiv.org/abs/2610.02267",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "paired system-1 agent decision evaluation and failure modes",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Fast ECoT: Efficient Embodied Chain-Of-Thought Via Thoughts Reuse",
+    "venue": "ICRA 2026",
+    "topic": "efficient reasoning/agent systems; VLA/WAM/Physical AI",
+    "arxiv": "2506.07639",
+    "doi": "",
+    "official_id": "ICRA2026:PaperCept:859",
+    "paper_url": "https://arxiv.org/abs/2506.07639",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "First-party abstract supports a direct but application-scoped efficient-ML contribution in agent/reasoning systems; retain for reading without elevating it to a general serving/accelerator strong record. Evidence: “Embodied Chain-of-Thought (ECoT) reasoning enhances vision-language-action (VLA) models by improving performance and interpretability through intermediate reasoning steps.”",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "FARM: Reading Failure Signals from the Internal Predictive States of a Frozen Robotic World Model",
     "venue": "arXiv 2026",
     "topic": "VLA/WAM/Physical AI serving / world-model monitoring / low-overhead runtime",
@@ -18712,6 +19974,31 @@
     "directions": [
       "Multimodal / MLLM Serving",
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "ExpReS-VLA: Specializing Vision-Language-Action Models through Experience Replay and Retrieval",
+    "venue": "ICRA 2026",
+    "topic": "multimodal/MLLM; efficient reasoning/agent systems; VLA/WAM/Physical AI; edge/cloud/heterogeneous systems",
+    "arxiv": "2511.06202",
+    "doi": "",
+    "official_id": "ICRA2026:PaperCept:4100",
+    "paper_url": "https://arxiv.org/abs/2511.06202",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "First-party abstract supports a direct but application-scoped efficient-ML contribution in multimodal/MLLM; retain for reading without elevating it to a general serving/accelerator strong record. Evidence: “We present EXPierence replayed, REtrieval augmented, Specialized VLA (ExpReS-VLA), a method that enables rapid on-device adaptation of pre-trained VLAs to target domains while preventing catastrophic forgetting through compressed experience replay and retrieval-augmented generation.”",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -19066,6 +20353,30 @@
     "updated_at": "",
     "is_latest_30d": false,
     "directions": [
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Enhancing Vision-Based Policies with Omni-View and Cross-Modality Knowledge Distillation for Mobile Robots",
+    "venue": "ICRA 2026",
+    "topic": "Physical AI / edge-cloud and model distillation",
+    "arxiv": "2603.20679",
+    "doi": "",
+    "official_id": "ICRA2026:PaperCept:2170",
+    "paper_url": "https://arxiv.org/abs/2603.20679",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "First-party abstract explicitly targets limited onboard compute and transfers an omni-view/depth teacher into a lightweight monocular student policy. This is a direct model-size/input-complexity reduction strategy for mobile-robot deployment; retain as P1 despite lacking quantified latency or memory gains.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Quantization",
+      "Multimodal / MLLM Serving",
       "VLA / WAM / Physical AI",
       "Edge / Cloud / Heterogeneous AI"
     ]
@@ -19631,6 +20942,52 @@
     ]
   },
   {
+    "title": "EgoFSD: Ego-Centric Fully Sparse Paradigm with Uncertainty Denoising and Iterative Refinement for End-To-End Self-Driving",
+    "venue": "ICRA 2026",
+    "topic": "Physical AI / sparse end-to-end autonomous-driving systems",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICRA2026:PaperCept:2137",
+    "paper_url": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_5.html#Ab2137",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "First-party PaperCept abstract describes an explicitly sparse end-to-end driving architecture and reports 6.9× faster running efficiency alongside reduced L2 error and collision rate. This is a direct application-scoped ML-system efficiency contribution; retain as P1 for reading, not a general serving/accelerator strong record.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "Sparsity / Pruning",
+      "Diffusion / Flow Acceleration",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "EgoFound3R: End-to-End Egocentric Hand Reconstruction in World Space with Point-Wise Interaction Attributes",
+    "venue": "arXiv 2026",
+    "topic": "",
+    "arxiv": "2610.01210",
+    "doi": "",
+    "official_id": "arXiv:2610.01210",
+    "paper_url": "https://arxiv.org/abs/2610.01210",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "Embodied data pipeline efficiency: unified hand/scene interaction reconstruction with ~6x throughput for large-scale annotation.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Ego4WAM: What Matters When Scaling Egocentric Human Data for Robot Learning?",
     "venue": "arXiv 26",
     "topic": "vla_wam",
@@ -19694,6 +21051,29 @@
       "LLM Serving",
       "Quantization",
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Efficient Multi-Camera Tokenization with Triplanes for End-To-End Driving",
+    "venue": "ICRA 2026",
+    "topic": "edge/cloud/heterogeneous systems",
+    "arxiv": "2506.12251",
+    "doi": "",
+    "official_id": "ICRA2026:PaperCept:499",
+    "paper_url": "https://arxiv.org/abs/2506.12251",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "First-party abstract supports a direct but application-scoped efficient-ML contribution in edge/cloud/heterogeneous AI; retain for reading without elevating it to a general serving/accelerator strong record. Evidence: “Autoregressive Transformers are increasingly being deployed as end-to-end robot and autonomous vehicle (AV) policy architectures, owing to their scalability and potential to leverage internet-scale pretraining for generalization.”",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -19810,6 +21190,27 @@
     ]
   },
   {
+    "title": "ECoMEM: Explicit Concept Memory for Memory-Dependent Robot Control",
+    "venue": "arXiv 2026",
+    "topic": "",
+    "arxiv": "2610.00801",
+    "doi": "",
+    "official_id": "arXiv:2610.00801",
+    "paper_url": "https://arxiv.org/abs/2610.00801",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "Physical-AI protected: explicit concept memory for long-horizon VLA control; strong real-robot gains and reusable memory interface.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Eco-SoC: A Sustainable VLSI Architecture for Energy-Proportional Artificial Intelligence",
     "venue": "arXiv 26",
     "topic": "cloud_edge",
@@ -19920,6 +21321,31 @@
     "directions": [
       "Efficient Reasoning / Agents",
       "Edge / Cloud / Heterogeneous AI",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "DyRef: Dynamic Reflection Framework Via Graph-Based Complexity for Robotic Planning",
+    "venue": "ICRA 2026",
+    "topic": "LLM inference/serving; efficient reasoning/agent systems",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICRA2026:PaperCept:1162",
+    "paper_url": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_5.html#Ab1162",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "First-party abstract supports a direct but application-scoped efficient-ML contribution in LLM/MLLM serving or long-context; retain for reading without elevating it to a general serving/accelerator strong record. Evidence: “Robotic planning tasks often involve diverse complexities, which make adaptive improvement through reflection particularly challenging.”",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "KV Cache / Long Context",
+      "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents",
       "VLA / WAM / Physical AI"
     ]
   },
@@ -20636,6 +22062,29 @@
     "directions": [
       "Distributed Training / Inference",
       "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "Divide-and-Remember: Recursive Action-Relevant Memory for Long-Horizon VLA Policies",
+    "venue": "arXiv 2026",
+    "topic": "physical_ai",
+    "arxiv": "2610.00982",
+    "doi": "",
+    "official_id": "arXiv:2610.00982",
+    "paper_url": "https://arxiv.org/abs/2610.00982",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "Directly relevant mechanism or protected Physical-AI/edge/agent efficiency work with sufficient novelty signal for retained high-value reading.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
       "Efficient Reasoning / Agents",
       "VLA / WAM / Physical AI",
       "Edge / Cloud / Heterogeneous AI"
@@ -22131,6 +23580,27 @@
     ]
   },
   {
+    "title": "Continual Learning for 6-DoF Grasp Synthesis via Experience and Demonstrations",
+    "venue": "arXiv 2026",
+    "topic": "",
+    "arxiv": "2610.01301",
+    "doi": "",
+    "official_id": "arXiv:2610.01301",
+    "paper_url": "https://arxiv.org/abs/2610.01301",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "Protected robotics: memory-based continual 6-DoF grasp adaptation with extensive real-world trials.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Continual Field-Adaptive Models (CFAMs) for Post-Deployment Physical AI",
     "venue": "arXiv 2026",
     "topic": "VLA/WAM/Physical AI serving / on-device adaptation / post-deployment runtime",
@@ -22623,6 +24093,31 @@
     ]
   },
   {
+    "title": "CollabVLA: Self-Reflective Vision-Language-Action Model Dreaming Together with Human",
+    "venue": "ICRA 2026",
+    "topic": "multimodal/MLLM; diffusion/flow acceleration; efficient reasoning/agent systems; VLA/WAM/Physical AI",
+    "arxiv": "2509.14889",
+    "doi": "",
+    "official_id": "ICRA2026:PaperCept:1502",
+    "paper_url": "https://arxiv.org/abs/2509.14889",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "First-party abstract supports a direct but application-scoped efficient-ML contribution in diffusion/flow generation; retain for reading without elevating it to a general serving/accelerator strong record. Evidence: “In this work, we present CollabVLA, a self-reflective vision-language-action framework that transforms a standard visuomotor policy into a collaborative assistant.”",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "Multimodal / MLLM Serving",
+      "Diffusion / Flow Acceleration",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "CogWAM: Aligning Semantic Cognition with World Action Modeling via Event-Driven Interfaces",
     "venue": "arXiv 2026",
     "topic": "",
@@ -22779,6 +24274,32 @@
     ]
   },
   {
+    "title": "ClustViT: Clustering-Based Token Merging for Semantic Segmentation",
+    "venue": "ICRA 2026",
+    "topic": "sparsity/pruning",
+    "arxiv": "2510.01948",
+    "doi": "",
+    "official_id": "ICRA2026:PaperCept:1000",
+    "paper_url": "https://arxiv.org/abs/2510.01948",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "First-party abstract supports a direct but application-scoped efficient-ML contribution in model compression/quantization/sparsity; retain for reading without elevating it to a general serving/accelerator strong record. Evidence: “Vision Transformers can achieve high accuracy and strong generalization across various contexts, but their practical applicability on real-world robotic systems is limited due to their quadratic attention complexity.”",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "Quantization",
+      "Sparsity / Pruning",
+      "Efficient Attention",
+      "Distributed Training / Inference",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "CLOSURE: Fast Quantification of Pose Uncertainty Sets",
     "venue": "RSS 2024",
     "topic": "VLA/WAM/Physical AI",
@@ -22932,6 +24453,30 @@
       "LLM Serving",
       "Multimodal / MLLM Serving",
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "ChunkVLA-AM: Parallel Action Chunking for Vision-Language-Action Robot Control in Additive Manufacturing",
+    "venue": "arXiv 2026",
+    "topic": "physical_ai",
+    "arxiv": "2610.01856",
+    "doi": "",
+    "official_id": "arXiv:2610.01856",
+    "paper_url": "https://arxiv.org/abs/2610.01856",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "Directly relevant mechanism or protected Physical-AI/edge/agent efficiency work with sufficient novelty signal for retained high-value reading.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "Multimodal / MLLM Serving",
+      "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -23312,6 +24857,27 @@
     "is_latest_30d": false,
     "directions": [
       "Efficient Reasoning / Agents",
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Capturing In-Context Learning Dynamics with Task Operators",
+    "venue": "arXiv 2026",
+    "topic": "Efficient ML / Physical AI",
+    "arxiv": "2610.01054",
+    "doi": "",
+    "official_id": "arXiv:2610.01054",
+    "paper_url": "https://arxiv.org/abs/2610.01054",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "task-operator ICL compression avoids long demonstration context; no E2E latency measurement",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
       "VLA / WAM / Physical AI"
     ]
   },
@@ -24164,6 +25730,29 @@
     "directions": [
       "Multimodal / MLLM Serving",
       "VLA / WAM / Physical AI"
+    ]
+  },
+  {
+    "title": "Beyond Leaderboard Scores: A Deployment-Focused Protocol for Interpretable Tracking Evaluation in Pedestrian-Centric Environments",
+    "venue": "arXiv 2026",
+    "topic": "VLA/WAM/Physical AI serving",
+    "arxiv": "2610.01682",
+    "doi": "",
+    "official_id": "arXiv:2610.01682",
+    "paper_url": "https://arxiv.org/abs/2610.01682",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "Pedestrian tracker benchmark explicitly measures load-dependent Jetson runtime and 10Hz failures, useful edge Physical-AI profiling but not an acceleration method.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
     ]
   },
   {
@@ -26134,6 +27723,27 @@
     ]
   },
   {
+    "title": "ActiveWAM: Evidence-Aware Active Vision for World-Action Models",
+    "venue": "arXiv 26",
+    "topic": "vla_wam",
+    "arxiv": "2610.01698",
+    "doi": "",
+    "official_id": "arXiv:2610.01698",
+    "paper_url": "https://arxiv.org/abs/2610.01698",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": true,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "Official arXiv abstract and systems evidence reviewed for targeted Physical-AI recall. erves as a co-training signal, while action generation requires neither future-video decoding nor optimal viewpoint annotations. We introduce RoboTwin-AV, a 50-task benchmark with executable pan/tilt control and automatically generated demonstrations. ActiveWAM improves TAVIS out-of-distribution success by up to 17.0 percentage points over the strongest baselines, achieves 20.0 additional points over Fast-WAM on RoboTwin-AV, and outperforms it by 26.7 points on real-world physical kitchen tasks.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "VLA / WAM / Physical AI"
+    ]
+  },
+  {
     "title": "Active Spatial Inspection for Effective and Efficient Embodied Exploration",
     "venue": "arXiv 2026",
     "topic": "VLA/WAM/Physical AI serving",
@@ -26473,6 +28083,29 @@
     ]
   },
   {
+    "title": "A Lightweight Physics-Informed Neural Network for Sim-To-Real of Biped Robot",
+    "venue": "ICRA 2026",
+    "topic": "edge/cloud/heterogeneous systems",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICRA2026:PaperCept:5979",
+    "paper_url": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_4.html#Ab5979",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "First-party abstract supports a direct but application-scoped efficient-ML contribution in edge/cloud/heterogeneous AI; retain for reading without elevating it to a general serving/accelerator strong record. Evidence: “In this paper, we present a low-cost, easy-to-implement sim-to-real framework for biped locomotion that narrows the reality gap using only simulation data, without motion-capture or additional real-world measurements.”",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "VLA / WAM / Physical AI",
+      "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
     "title": "A Geometric Decision Procedure for STL Feasibility and Repair",
     "venue": "arXiv 2026",
     "topic": "",
@@ -26516,6 +28149,28 @@
       "Multimodal / MLLM Serving",
       "VLA / WAM / Physical AI",
       "Edge / Cloud / Heterogeneous AI"
+    ]
+  },
+  {
+    "title": "A Computationally Efficient Nonparametric Approach for Robot Imitation Learning",
+    "venue": "ICRA 2026",
+    "topic": "Physical AI / efficient learning algorithms",
+    "arxiv": "",
+    "doi": "",
+    "official_id": "ICRA2026:PaperCept:2776",
+    "paper_url": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_5.html#Ab2776",
+    "code_url": "",
+    "formal_class": "WATCH",
+    "physical_ai": false,
+    "decision": "WATCH",
+    "tracking_tier": "P1 · Watch",
+    "why": "First-party abstract explicitly changes the nonparametric imitation-learning computational complexity from cubic to quadratic in demonstration length and enables instant adaptation. This is a direct algorithmic efficiency result; retain as P1 watchlist, not P0 due to its application scope and no broad system/serving evaluation.",
+    "published_at": "",
+    "updated_at": "",
+    "is_latest_30d": false,
+    "directions": [
+      "LLM Serving",
+      "VLA / WAM / Physical AI"
     ]
   },
   {
