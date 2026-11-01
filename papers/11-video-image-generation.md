@@ -1,6 +1,6 @@
 # 11 · Video / Image Generation
 
-> **466 canonical papers** mapped here, plus a broader **172-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **473 canonical papers** mapped here, plus a broader **172-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -181,7 +181,7 @@
 | **P0 · Strong** | **AViTS: Adaptive Spatiotemporal Token Selection for Efficient Dynamic-Resolution Generation** | Fresh / preprint | diffusion/image generation acceleration / adaptive token selection | [Link](https://arxiv.org/abs/2608.17995) | — |
 | **P0 · Strong** | **An Empirical Study of Training Pixel-Space Text-to-Image Diffusion Models** | Fresh / preprint | image generation acceleration | [Link](https://arxiv.org/abs/2608.16887) | — |
 
-## 🏛️ Classical / Historical · 423 canonical
+## 🏛️ Classical / Historical · 430 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
@@ -189,6 +189,7 @@
 | **Canonical** | **Annealed Relaxation of Speculative Decoding for Faster Autoregressive Image Generation** | AAAI 2026 | speculative decoding / video-image generation acceleration | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39489) | — |
 | **Canonical** | **Head-Aware KV Cache Compression for Efficient Visual Autoregressive Modeling** | AAAI 2026 | KV cache / image generation acceleration | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39686) | [Repo](https://github.com/Zr2223/HACK) |
 | **Canonical** | **LADR: Locality-Aware Dynamic Rescue for Efficient Text-to-Image Generation with Diffusion Large Language Models** | ACL 2026 | video/image generation acceleration and diffusion/flow acceleration | [Link](https://arxiv.org/abs/2603.13450) | — |
+| **Canonical** | **Accelerating Training of Autoregressive Video Generation Models via Local Optimization with Representation Continuity** | ACL 2026 Findings | Autoregressive video-generation training efficiency | [Link](https://aclanthology.org/2026.findings-acl.1501/) | — |
 | **Canonical** | **Accelerating Diffusion Models via Parallel Denoising** | ACM Multimedia 2025 | diffusion/image generation acceleration / parallel denoising | [Link](https://dl.acm.org/doi/10.1145/3746027.3755827) | — |
 | **Canonical** | **FlexGaussian: Flexible and Cost-Effective Training-Free Compression for 3D Gaussian Splatting** | ACM Multimedia 2025 | video/image generation acceleration / 3D Gaussian splatting / quantization / pruning / edge deployment | [Link](https://arxiv.org/abs/2507.06671) | [Repo](https://github.com/Supercomputing-System-AI-Lab/FlexGaussian) |
 | **Canonical** | **GAN Compression: Efficient Architectures for Interactive Conditional GANs** | arXiv 20 | video/image generation acceleration,quantization/pruning,edge AI | [Link](https://arxiv.org/abs/2003.08936) | [Repo](https://hanlab.mit.edu/projects/gancompression) |
@@ -323,13 +324,19 @@
 | **Canonical** | **FastGS: Training 3D Gaussian Splatting in 100 Seconds** | CVPR 2026 | 3DGS training acceleration / sparsity and pruning | [Link](https://openaccess.thecvf.com/content/CVPR2026/html/Ren_FastGS_Training_3D_Gaussian_Splatting_in_100_Seconds_CVPR_2026_paper.html) | — |
 | **Canonical** | **FlashDecoder: Real-Time Latent-to-Pixel Streaming Decoder with Transformers** | CVPR 2026 | video/image generation acceleration / streaming decoder / rolling KV cache | [Link](https://arxiv.org/abs/2607.14898) | — |
 | **Canonical** | **FlashVSR: Towards Real-time Diffusion-Based Streaming Video Super Resolution** | CVPR 2026 | video/image generation acceleration / diffusion and flow acceleration | [Link](https://openaccess.thecvf.com/content/CVPR2026/html/Zhuang_FlashVSR_Towards_Real-time_Diffusion-Based_Streaming_Video_Super_Resolution_CVPR_2026_paper.html) | — |
+| **Canonical** | **Free-Lunch Long Video Generation via Layer-Adaptive O.O.D Correction** | CVPR 2026 | sparsity and pruning | [Link](https://openaccess.thecvf.com/content/CVPR2026/html/Tian_Free-Lunch_Long_Video_Generation_via_Layer-Adaptive_O.O.D_Correction_CVPR_2026_paper.html) | — |
+| **Canonical** | **GenieDrive: Towards Physics-Aware Driving World Model with 4D Occupancy Guided Video Generation** | CVPR 2026 | GPU kernels, DSLs, compilers | [Link](https://arxiv.org/abs/2512.12751) | — |
 | **Canonical** | **Layered 4D-Rotor Gaussian Splatting: A Compressed Representation for Long Dynamic Scenes** | CVPR 2026 | video/image generation acceleration; 3D/4D scene representation | [Link](https://openaccess.thecvf.com/content/CVPR2026/html/Xu_Layered_4D-Rotor_Gaussian_Splatting_A_Compressed_Representation_for_Long_Dynamic_CVPR_2026_paper.html) | — |
 | **Canonical** | **LazyVAR: Accelerating Visual Autoregressive Models via Scale-wise Token Pruning and Parallel Group Decoding** | CVPR 2026 | video/image generation acceleration; efficient autoregressive decoding | [Link](https://openaccess.thecvf.com/content/CVPR2026/html/Mao_LazyVAR_Accelerating_Visual_Autoregressive_Models_via_Scale-wise_Token_Pruning_and_CVPR_2026_paper.html) | — |
 | **Canonical** | **LinVideo: A Post-Training Framework towards O(n) Attention in Efficient Video Generation** | CVPR 2026 | video generation acceleration / linear attention / post-training | [Link](https://arxiv.org/abs/2510.08318) | — |
 | **Canonical** | **Pluggable Pruning with Contiguous Layer Distillation for Diffusion Transformers** | CVPR 2026 | video/image generation acceleration; diffusion/flow acceleration | [Link](https://arxiv.org/abs/2511.16156) | [Repo](https://github.com/OPPO-Mente-Lab/Qwen-Image-Pruning) |
+| **Canonical** | **Progressive Supernet Training for Efficient Visual Autoregressive Modeling** | CVPR 2026 | KV cache and long context | [Link](https://arxiv.org/abs/2511.16546) | — |
+| **Canonical** | **S2D: Sparse to Dense Lifting for 3D Reconstruction with Minimal Inputs** | CVPR 2026 | video and image generation acceleration | [Link](https://arxiv.org/abs/2603.10893) | — |
 | **Canonical** | **Seele: A Unified Acceleration Framework for Real-Time Gaussian Splatting on Mobile Devices** | CVPR 2026 | 3DGS acceleration / edge and mobile GPU systems | [Link](https://openaccess.thecvf.com/content/CVPR2026/html/Zhu_Seele_A_Unified_Acceleration_Framework_for_Real-Time_Gaussian_Splatting_on_CVPR_2026_paper.html) | — |
 | **Canonical** | **StreamDiT: Real-Time Streaming Text-to-Video Generation** | CVPR 2026 | video/image generation acceleration / streaming diffusion and flow | [Link](https://openaccess.thecvf.com/content/CVPR2026/html/Kodaira_StreamDiT_Real-Time_Streaming_Text-to-Video_Generation_CVPR_2026_paper.html) | — |
 | **Canonical** | **SURF: Signature-Retained Fast Video Generation** | CVPR 2026 | video generation acceleration / low-resolution preview / efficient refinement | [Link](https://arxiv.org/abs/2603.21002) | — |
+| **Canonical** | **VecAttention: Vector-wise Sparse Attention for Accelerating Long Context Inference** | CVPR 2026 | KV cache and long context | [Link](https://arxiv.org/abs/2603.29494) | — |
+| **Canonical** | **Z-Order Transformer for Feed-Forward Gaussian Splatting** | CVPR 2026 | sparsity and pruning | [Link](https://arxiv.org/abs/2605.13465) | — |
 | **Canonical** | **4DStreamCtrl: Interactive Video Generation with Online 4D Control** | Fresh / preprint | video/image generation acceleration / VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2608.25479) | — |
 | **Canonical** | **A Pilot Study of Autocompleting Tokenizers** | Fresh / preprint | LLM serving / video/image generation acceleration / edge/cloud/heterogeneous AI systems | [Link](https://arxiv.org/abs/2608.15080) | — |
 | **Canonical** | **AcrossWAM1.0:A Modular Latent World-Action Stack for Compact Robot Policies** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2608.29937) | — |

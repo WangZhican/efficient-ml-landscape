@@ -1,6 +1,6 @@
 # 09 · Distributed Training / Inference
 
-> **810 canonical papers** mapped here, plus a broader **297-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **834 canonical papers** mapped here, plus a broader **297-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -306,13 +306,36 @@
 | **P0 · Strong** | **DeaMoE: Efficient MoE Structure for Fast Small-Batch Decoding** | Fresh / preprint | MoE architecture / small-batch decoding | [Link](https://arxiv.org/abs/2608.14385) | — |
 | **P0 · Strong** | **ClawGym II: Exploring Black-Box RL on Agent Harness** | Fresh / preprint | agent training systems | [Link](https://arxiv.org/abs/2608.16798) | — |
 
-## 🏛️ Classical / Historical · 727 canonical
+## 🏛️ Classical / Historical · 751 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **Canonical** | **BitDP: Ultra-low-bit Communication for Data Parallelism in LLM Training** | AAAI 2026 | distributed training / gradient quantization / communication compression | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39703) | — |
 | **Canonical** | **Instruction-Guided Cross-Modal Clustering for Training-Free Visual Token Pruning in Vision-Language Models** | AAAI 2026 | multimodal/MLLM serving / visual token pruning | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/38212) | — |
+| **Canonical** | **A Goal Without a Plan Is Just a Wish: Efficient and Effective Global Planner Training for Long-Horizon Agent Tasks** | ACL 2026 | Efficient long-horizon agent training | [Link](https://aclanthology.org/2026.acl-long.597/) | — |
+| **Canonical** | **AGSC : Adaptive Granularity and Semantic Clustering for Uncertainty Quantification in Long-text Generation** | ACL 2026 | Efficient LLM evaluation and uncertainty quantification | [Link](https://aclanthology.org/2026.acl-long.434/) | — |
+| **Canonical** | **Android Coach: Improve Online Agentic Training Efficiency with Single State Multiple Actions** | ACL 2026 | Efficient online agent RL training | [Link](https://aclanthology.org/2026.acl-long.613/) | — |
+| **Canonical** | **APB - V : Accelerating Long-Video Understanding via Sequence-Parallelism-aware Approximate Attention** | ACL 2026 | Multimodal serving and efficient attention | [Link](https://aclanthology.org/2026.acl-long.90/) | — |
+| **Canonical** | **Double: Breaking the Acceleration Limit via Double Retrieval Speculative Parallelism** | ACL 2026 | Speculative decoding and LLM inference acceleration | [Link](https://aclanthology.org/2026.acl-long.879/) | — |
+| **Canonical** | **Dynamic Generation of Multi LLM Agents Communication Topologies with Graph Diffusion Models** | ACL 2026 | efficient multi-agent systems and communication routing | [Link](https://aclanthology.org/2026.acl-long.1764/) | — |
+| **Canonical** | **Efficient Hyperparameter Optimization for LLM Reinforcement Learning** | ACL 2026 | distributed/training systems and efficient ML training | [Link](https://aclanthology.org/2026.acl-long.1271/) | — |
+| **Canonical** | **Enabling Agents to Communicate Entirely in Latent Space** | ACL 2026 | efficient reasoning and agent systems | [Link](https://aclanthology.org/2026.acl-long.1248/) | — |
+| **Canonical** | **GMFL : Efficient Global Masking for Federated LLM Fine-tuning** | ACL 2026 | distributed training/inference and quantization/model compression | [Link](https://aclanthology.org/2026.acl-long.1160/) | — |
+| **Canonical** | **Memory-Efficient Structured Backpropagation for On-Device LLM Fine-Tuning** | ACL 2026 | distributed training/inference and edge AI | [Link](https://aclanthology.org/2026.acl-industry.62/) | — |
+| **Canonical** | **Optimal Expert-Attention Allocation in Mixture-of-Experts: A Scalable Law for Dynamic Model Design** | ACL 2026 | MoE systems and distributed training | [Link](https://aclanthology.org/2026.acl-industry.98/) | — |
+| **Canonical** | **S pider F low: Efficient Topology-Aware Scheduling for LLM Training Across Decentralized GPU Clusters** | ACL 2026 | Distributed training and GPU-cluster scheduling | [Link](https://aclanthology.org/2026.acl-long.619/) | — |
+| **Canonical** | **Success and Cost Elicit Convention Formation for Efficient Communication** | ACL 2026 | efficient multimodal communication | [Link](https://aclanthology.org/2026.acl-long.1946/) | — |
+| **Canonical** | **T i KM i X : Efficient Semi-Dynamic Data Mixture via Data Influence for LLM Pre-training** | ACL 2026 | Distributed and data-efficient training | [Link](https://aclanthology.org/2026.acl-long.261/) | — |
+| **Canonical** | **Accelerating Training of Autoregressive Video Generation Models via Local Optimization with Representation Continuity** | ACL 2026 Findings | Autoregressive video-generation training efficiency | [Link](https://aclanthology.org/2026.findings-acl.1501/) | — |
+| **Canonical** | **C ondense F low: Scalable Latent Space Collaboration via Semantic Compression for Multi-Agent Systems** | ACL 2026 Findings | Multi-agent KV-cache and latent-communication compression | [Link](https://aclanthology.org/2026.findings-acl.669/) | — |
+| **Canonical** | **Calibrated Progressive Distillation: Co-Designing Curriculum and Target Mixing for Knowledge Distillation of Large Language Models** | ACL 2026 Findings | Efficient LLM distillation and training | [Link](https://aclanthology.org/2026.findings-acl.335/) | — |
+| **Canonical** | **E vo H yper: Evolving Hypergraph Topologies for Unified Collaboration in Multi-Agent Communication** | ACL 2026 Findings | Multi-agent communication and token efficiency | [Link](https://aclanthology.org/2026.findings-acl.1258/) | — |
+| **Canonical** | **Fast and Effective On-Policy Distillation from Reasoning Prefixes** | ACL 2026 Findings | Reasoning-model training efficiency | [Link](https://aclanthology.org/2026.findings-acl.1276/) | — |
+| **Canonical** | **Federated L o RA Fine-Tuning with Pipelined Error-Mitigated Aggregation and Matrix-Wise Freezing** | ACL 2026 Findings | Distributed training and federated PEFT | [Link](https://aclanthology.org/2026.findings-acl.284/) | — |
+| **Canonical** | **Half- S : Halving the Scale for Near-Lossless 4-Bit LLM Training** | ACL 2026 Findings | FP4 quantization and efficient LLM training | [Link](https://aclanthology.org/2026.findings-acl.241/) | — |
+| **Canonical** | **High-Throughput and Memory-Efficient Zeroth-Order Fine-tuning LLM s with Distributed Parallel Computing** | ACL 2026 Findings | Distributed zeroth-order LLM fine-tuning | [Link](https://aclanthology.org/2026.findings-acl.2128/) | — |
 | **Canonical** | **LycheeCluster: Efficient Long-Context Inference with Structure-Aware Chunking and Hierarchical KV Indexing** | ACL 2026 Findings | KV cache / long-context efficient inference / hierarchical retrieval | [Link](https://aclanthology.org/2026.findings-acl.376/) | — |
+| **Canonical** | **Structured Uncertainty guided Clarification for LLM Agents** | ACL 2026 Findings | Tool-calling agent interaction and training efficiency | [Link](https://aclanthology.org/2026.findings-acl.2028/) | — |
 | **Canonical** | **Compute Only 16 Tokens in One Timestep: Accelerating Diffusion Transformers with Cluster-Driven Feature Caching** | ACM Multimedia 2025 | diffusion token/feature caching | [Link](https://arxiv.org/abs/2509.10312) | — |
 | **Canonical** | **LVLM_CSP: Accelerating Large Vision Language Models via Clustering, Scattering, and Pruning for Reasoning Segmentation** | ACM Multimedia 2025 | multimodal/MLLM serving / sparsity-pruning / visual-token pruning | [Link](https://arxiv.org/abs/2504.10854) | — |
 | **Canonical** | **Connex: Endpoint Mobility Primitives for Dynamic LLM Serving** | ACM SIGCOMM 2026 | LLM serving; distributed inference; GPU communication; elastic serving; worker migration; endpoint mobility | [Link](https://doi.org/10.1145/3789240.3829200) | — |
@@ -1037,3 +1060,4 @@
 | **Canonical** | **SpecInfer: Accelerating Generative Large Language Model Serving with Tree-based Speculative Inference and Verification** | Fresh / preprint | LLM serving; speculative decoding | [Link](https://arxiv.org/abs/2305.09781) | — |
 | **Canonical** | **TurboServe: Serving Streaming Video Generation Efficiently and Economically** | Fresh / preprint | video/image generation acceleration | [Link](https://arxiv.org/abs/2606.19271) | — |
 | **Canonical** | **Unleashing Scalable Context Parallelism for Foundation Models Pre-Training via FCP** | Fresh / preprint | distributed training/inference | [Link](https://arxiv.org/abs/2605.08524) | — |
+| **Canonical** | **xDiT: an Inference Engine for Diffusion Transformers (DiTs) with Massive Parallelism** | Fresh / preprint | distributed training and inference | [Link](https://arxiv.org/abs/2411.01738) | — |

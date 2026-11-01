@@ -1,6 +1,6 @@
 # 07 · MoE Systems / Accelerators
 
-> **302 canonical papers** mapped here, plus a broader **113-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
+> **317 canonical papers** mapped here, plus a broader **113-paper Latest-30-Day tracker** using P0/P1/P2 tiers. Cross-direction duplication is intentional when a paper has multiple technical roles.
 
 [← Research Map](README.md) · [🆕 Latest 30 Days](LATEST_30D.md) · [🏛️ Classical](CLASSICAL.md) · [Paper Library](ALL_PAPERS.md)
 
@@ -122,14 +122,26 @@
 | **P0 · Strong** | **DeaMoE: Efficient MoE Structure for Fast Small-Batch Decoding** | Fresh / preprint | MoE architecture / small-batch decoding | [Link](https://arxiv.org/abs/2608.14385) | — |
 | **P0 · Strong** | **Beyond Capacity: Scalable MoE LLM Inference via High-Bandwidth Flash with Direct GPU and HBM Paths** | Fresh / preprint | MoE serving / high-bandwidth flash architecture | [Link](https://arxiv.org/abs/2608.14333) | — |
 
-## 🏛️ Classical / Historical · 257 canonical
+## 🏛️ Classical / Historical · 272 canonical
 
 | Priority | Paper | Venue | Topic | Paper | Code |
 |---|---|---|---|---|---|
 | **Canonical** | **SMIDT: High-Performance Inference Framework for MoE Models with Dynamic Top-K Routing** | AAAI 2026 | MoE systems/accelerators / LLM serving | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39403) | — |
 | **Canonical** | **Alloc-MoE: Budget-Aware Expert Activation Allocation for Efficient Mixture-of-Experts Inference** | ACL 2026 | MoE systems / efficient inference | [Link](https://aclanthology.org/2026.acl-long.437/) | — |
+| **Canonical** | **Capability Decomposition for Unified Information Extraction via Hierarchical Mixture-of-Experts** | ACL 2026 | MoE and parameter-efficient adaptation | [Link](https://aclanthology.org/2026.acl-long.561/) | — |
 | **Canonical** | **Every Token Counts: Generalizing 16M Ultra-Long Context in Large Language Models** | ACL 2026 | efficient attention / ultra-long-context / MoE | [Link](https://aclanthology.org/2026.acl-long.464/) | — |
 | **Canonical** | **Jakiro: Boosting Speculative Decoding via Decoupled MoE** | ACL 2026 | speculative decoding / MoE draft model | [Link](https://doi.org/10.18653/v1/2026.acl-long.487) | — |
+| **Canonical** | **MACS : Modality-Aware Capacity Scaling for Efficient Multimodal M o E Inference** | ACL 2026 | multimodal/MLLM serving and MoE systems | [Link](https://aclanthology.org/2026.acl-long.1012/) | — |
+| **Canonical** | **Mixture of Heterogeneous Grouped Experts for Language Modeling** | ACL 2026 | MoE systems and accelerators | [Link](https://aclanthology.org/2026.acl-industry.20/) | — |
+| **Canonical** | **Optimal Expert-Attention Allocation in Mixture-of-Experts: A Scalable Law for Dynamic Model Design** | ACL 2026 | MoE systems and distributed training | [Link](https://aclanthology.org/2026.acl-industry.98/) | — |
+| **Canonical** | **Profiling-Free Mixed-Precision Quantization for M o E LLM s via Fuzzy Rule Interpolation** | ACL 2026 | MoE quantization and offline inference optimization | [Link](https://aclanthology.org/2026.acl-long.982/) | — |
+| **Canonical** | **Union-of-Experts: Neurons in Mixture-of-Experts are Secretly Routers** | ACL 2026 | MoE routing and parameter efficiency | [Link](https://aclanthology.org/2026.acl-long.1675/) | — |
+| **Canonical** | **COMPEL : Compensated Mixture-of-Experts Pruning with Expert-Layer distribution** | ACL 2026 Findings | MoE expert pruning and inference memory/latency | [Link](https://aclanthology.org/2026.findings-acl.1521/) | — |
+| **Canonical** | **Faster M o E LLM Inference for Extremely Large Models** | ACL 2026 Findings | Fine-grained MoE inference throughput | [Link](https://aclanthology.org/2026.findings-acl.2140/) | — |
+| **Canonical** | **From Pseudo-Balancing to True Specialization: Memory-Aware Routing for Mixture-of-Experts** | ACL 2026 Findings | MoE expert utilization and parameter efficiency | [Link](https://aclanthology.org/2026.findings-acl.857/) | — |
+| **Canonical** | **M odular M o E : Fast LLM Customization with Parameter-Sharing Mixture-of-Experts for Low-Resource Settings** | ACL 2026 Findings | MoE and efficient LLM deployment | [Link](https://aclanthology.org/2026.findings-acl.174/) | — |
+| **Canonical** | **TENP : Trapezoidal Expert Neuron Pruning For Mixture-of-Experts** | ACL 2026 Findings | MoE pruning and model compression | [Link](https://aclanthology.org/2026.findings-acl.1049/) | — |
+| **Canonical** | **U ni G e M : Unifying Data Selection and Mixing via Geometric Exploration and Mining** | ACL 2026 Findings | LLM/MoE training-data efficiency | [Link](https://aclanthology.org/2026.findings-acl.1037/) | — |
 | **Canonical** | **Coordinated Scheduling for MoE LLM Serving** | ACM SIGOPS Annual Technical Conference (ATC) 2026 / arXiv | MoE systems / LLM serving / coordinated scheduling / expert placement / KV-cache-aware routing | [Link](https://arxiv.org/abs/2606.15177) | — |
 | **Canonical** | **3D-MoE: Towards Spatial Intelligence with Mixture-of-Experts for 3D Reasoning and Action Generation** | arXiv 2026 | VLA/WAM/Physical AI serving | [Link](https://arxiv.org/abs/2501.16698) | — |
 | **Canonical** | **A Multi-Engine Dataflow for MoE Decoding on Scratchpad-Based Tensor Accelerators** | arXiv 2026 | MoE systems/accelerators / hardware architecture | [Link](https://arxiv.org/abs/2609.21137) | — |
@@ -255,6 +267,8 @@
 | **Canonical** | **PCoMoE: Shifting MoE Inference from Monolithic Expert Selection to Fine-Grained Path Composition** | CoRR 2026 | MoE systems/accelerators / fine-grained path composition / inference engine | [Link](https://arxiv.org/abs/2609.01024) | [Repo](https://github.com/gzyyy0/PCoMoE) |
 | **Canonical** | **Scaling Inference Prefill with High-Radix Photonic Interconnects** | CoRR 2026 | distributed inference / LLM prefill / photonic interconnect / scale-up systems | [Link](https://arxiv.org/abs/2609.01821) | — |
 | **Canonical** | **Scaling Multi-Node Mixture-of-Experts Inference Using Expert Activation Patterns** | CoRR 2026 | MoE systems / distributed inference / expert placement / workload-aware batching | [Link](https://arxiv.org/abs/2604.23150) | — |
+| **Canonical** | **Quant Experts: Token-aware Adaptive Error Reconstruction with Mixture of Experts for Large Vision-Language Models Quantization** | CVPR 2026 | quantization | [Link](https://arxiv.org/abs/2602.24059) | — |
+| **Canonical** | **UniMMAD: Unified Multi-Modal and Multi-Class Anomaly Detection via MoE-Driven Feature Decompression** | CVPR 2026 | MoE systems and accelerators | [Link](https://arxiv.org/abs/2509.25934) | — |
 | **Canonical** | **HybriMoE: Hybrid CPU-GPU Scheduling and Cache Management for Efficient MoE Inference** | DAC 2025 | MoE inference / hybrid CPU-GPU scheduling / expert prefetch and cache management | [Link](https://arxiv.org/abs/2504.05897) | [Repo](https://github.com/PKU-SEC-Lab/HybriMoE) |
 | **Canonical** | **MegaScale-MoE: Large-Scale Communication-Efficient Training of Mixture-of-Experts Models in Production** | EuroSys 2026 | MoE training systems / communication optimization | [Link](https://arxiv.org/abs/2505.11432) | — |
 | **Canonical** | **Taming Latency-Memory Trade-Off in MoE-Based LLM Serving via Fine-Grained Expert Offloading** | EuroSys 2026 | MoE serving / expert offloading / prefetching / cache management | [Link](https://arxiv.org/abs/2502.05370) | — |
@@ -379,6 +393,7 @@
 | **Canonical** | **DeepSeek-V3 Technical Report** | Fresh / preprint | MoE systems and accelerators | [Link](https://arxiv.org/abs/2412.19437) | — |
 | **Canonical** | **Efficient MoE Serving in the Memory-Bound Regime: Balance Activated Experts, Not Tokens** | Fresh / preprint | MoE serving; memory-bound expert routing | [Link](https://arxiv.org/abs/2512.09277) | — |
 | **Canonical** | **Hexa-MoE: Efficient and Heterogeneous-aware Training for Mixture-of-Experts** | Fresh / preprint | MoE systems/accelerators | [Link](https://arxiv.org/abs/2411.01288) | [Repo](https://github.com/UNITES-Lab/HEXA-MoE) |
+| **Canonical** | **MxMoE: Mixed-precision Quantization for MoE with Accuracy and Performance Co-Design** | Fresh / preprint | quantization | [Link](https://arxiv.org/abs/2505.05799) | — |
 | **Canonical** | **Nemotron 3 Super: Open, Efficient Mixture-of-Experts Hybrid Mamba-Transformer Model for Agentic Reasoning** | Fresh / preprint | MoE inference, NVFP4, speculative decoding, agentic reasoning | [Link](https://arxiv.org/abs/2604.12374) | — |
 | **Canonical** | **Occult: Optimizing Collaborative Communication across Experts for Accelerated Parallel MoE Training and Inference** | Fresh / preprint | MoE systems/accelerators | [Link](https://arxiv.org/abs/2505.13345) | [Repo](https://github.com/UNITES-Lab/Occult) |
 | **Canonical** | **SPICE: Speculative Prefetching with Low-Rank Expert Surrogates and Heterogeneous Orchestration for MoE Inference Acceleration** | Fresh / preprint | MoE systems / expert offload / heterogeneous inference | [Link](https://arxiv.org/abs/2608.21240) | — |
